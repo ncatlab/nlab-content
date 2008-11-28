@@ -9,12 +9,8 @@ We are hoping, by collaborative effort, to create here a room for presentation a
 
 But this page has only just started operation and we are still  trying to organize ourselves and get properly started. All help is appreciated.
 
+* [Math]()
 
-* Math
+* [Physics]()
 
-** category theory
-
-*** sheaf and topos theory
-
-* Physics
-* Philosophy
+* [Philosophy]()
