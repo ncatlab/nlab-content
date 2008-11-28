@@ -7,10 +7,10 @@ This is a joint collaborative laboratory dealing with $n$-dimensional _Math_, _P
 
 We are hoping, by collaborative effort, to create here a room for presentation and archival storage of joint collaborative work of encyclopedic, didactict, expositional,  but also original nature, such as, but not exclusively, is being discussed every day on the $n$-Caf&eacute;.
 
-But this page has only just started operation and we are still  trying to organize ourselves and get properly started. All help is appreciated.
+But this site has only just started operation and we are still  trying to organize ourselves and get properly started. All help is appreciated.
 
-* [Math]()
+* [[Math|Math]]
 
-* [Physics]()
+* [[Physics|Physics]]
 
-* [Philosophy]()
+* [[Philosophy|Philosophy]]
