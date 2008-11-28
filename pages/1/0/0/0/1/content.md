@@ -6,4 +6,4 @@ $$
    {\int_{-\infty}^\infty e^{-a x^2} dx} = \sqrt{\frac{\pi}{a}}
 $$
 
-The eagle has landed.
+The eagle has landed. 
