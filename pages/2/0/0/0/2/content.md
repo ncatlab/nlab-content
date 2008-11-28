@@ -1,4 +1,4 @@
-<div markdown="1" class="rightHandSide toc">
+<div class="rightHandSide toc">
 
 ##Table of Contents##
 
@@ -13,5 +13,6 @@
   * [[Yet another page]]
 * [[Sandbox]]
 
-<div><a href="/edit/contents">Edit this sidebar</a></div>
+<div markdown="1">[Edit this sidebar](/category/edit/contents)</div>
+
 </div>
