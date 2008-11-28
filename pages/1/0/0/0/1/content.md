@@ -2,8 +2,19 @@
 
 Welcome.
 
-$$
-   {\int_{-\infty}^\infty e^{-a x^2} dx} = \sqrt{\frac{\pi}{a}}
-$$
+This is a joint collaborative laboratory dealing with $n$-dimensional _Math_, _Physics_ and _Philosophy_.  It has grown out of and is attached to the
+<a href="http://golem.ph.utexas.edu/category/"><em>n</em>-Category Caf&eacute;</a>. You come here to work and go there to chat.
 
-The Eagle has landed. 
+We are hoping, by collaborative effort, to create here a room for presentation and archival storage of joint collaborative work of encyclopedic, didactict, expositional,  but also original nature, such as, but not exclusively, is being discussed every day on the $n$-Caf&eacute;.
+
+But this page has only just started operation and we are still  trying to organize ourselves and get properly started. All help is appreciated.
+
+
+* Math
+
+** category theory
+
+*** sheaf and topos theory
+
+* Physics
+* Philosophy
