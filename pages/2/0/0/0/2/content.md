@@ -2,17 +2,24 @@
 
 ##Table of Contents##
 
-###Category###
+###$n$Lab###
 
-* [[HomePage|Home]]
-* Trials
-  * [[A page]]
-  * [[Another page]]
-* Tribulations
+* Community
 
-  * [[Yet another page]]
-* [[Sandbox]]
+  * [[HomePage|Home]]
 
-<div markdown="1">[Edit this sidebar](/category/edit/contents)</div>
+  * [[Sandbox]]
+
+* Content
+
+  * [[Math|Math]]
+
+  * [[Physics|Physics]]
+
+  * [[Philosophy|Philosophy]]
+
+
+
+<div markdown="1">[Edit this sidebar](/nlab/edit/contents)</div>
 
 </div>
