@@ -12,7 +12,7 @@
 
 * Content
 
-  * [[Math|Math]]
+  * [[Math|Mathematics]]
 
   * [[Physics|Physics]]
 
