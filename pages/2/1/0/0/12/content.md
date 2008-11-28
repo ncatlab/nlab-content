@@ -1,0 +1,1 @@
+Yes, every wiki needs a sandbox!
