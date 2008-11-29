@@ -4,4 +4,6 @@
 
 I know it seems silly, but here's a [link to my blog](http://golem.ph.utexas.edu/~distler/blog "Musings").
 
+I'm the maintainer of this [piece of software](http://golem.ph.utexas.edu/instiki/show/HomePage).
+
 category: people
