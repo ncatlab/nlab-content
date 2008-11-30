@@ -7,10 +7,10 @@
 * Community
 
   * [[HomePage|Home]]
-  * [[HowTo]]
-  * [[Sandbox]]
+  * [[HowTo|HowTo]]
+  * [[Sandbox|Sandbox]]
 
-* Content
+* [[Content|Content]]
 
   * [[Math|Mathematics]]
   * [[Physics|Physics]]
