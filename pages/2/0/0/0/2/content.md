@@ -7,6 +7,7 @@
 * Community
 
   * [[HomePage|Home]]
+  * [[HowTo]]
   * [[Sandbox]]
 
 * Content
