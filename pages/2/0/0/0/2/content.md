@@ -7,18 +7,15 @@
 * Community
 
   * [[HomePage|Home]]
-
   * [[Sandbox]]
 
 * Content
 
   * [[Math|Mathematics]]
-
   * [[Physics|Physics]]
-
   * [[Philosophy|Philosophy]]
 
-
+* [[About]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/contents)</div>
 
