@@ -6,7 +6,7 @@
 
   * [[Sheaf and Topos Theory]]
 
-  * [[Higher Category Theory]]
+  * [[higher category theory]]
 
   * [[Homotopy Theory]]
 
