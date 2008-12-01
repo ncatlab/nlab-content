@@ -36,4 +36,6 @@ $$\array{\arrayopts{\rowalign{center}}\begin{svg}
 </svg>
 \end{svg}& \equiv \left({U(k)}^{n_1},\{v_i\}\right)}$$
 
+Let's see if I can get this friggin' thing to work. [[John Baez]]
+
 category: meta
