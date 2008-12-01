@@ -1,0 +1,3 @@
+#Definition#
+
+Plural of [[groupoid]].
