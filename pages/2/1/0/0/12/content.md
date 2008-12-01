@@ -1,6 +1,8 @@
 [[!include contents]]
 
-Yes, every wiki needs a sandbox!
+Every wiki needs a sandbox! Just test here and don't worry about messing things up.
+
+***
 
 Trying to upload a file: [[n.png:pic]].... nope didn't work, I get "Internal Server Error".
 
@@ -33,3 +35,5 @@ $$\array{\arrayopts{\rowalign{center}}\begin{svg}
   <foreignObject x="5" y="25" width="20" height="25"><math xmlns="http://www.w3.org/1998/Math/MathML" display="inline"><msub><mi>v</mi><mrow><msub><mi>n</mi><mn>1</mn></msub></mrow></msub></math></foreignObject>
 </svg>
 \end{svg}& \equiv \left({U(k)}^{n_1},\{v_i\}\right)}$$
+
+category: meta
