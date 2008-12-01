@@ -80,7 +80,16 @@ You can make abbreviations. Here I'm going to make an abbreviation for the n-cat
 
 Now apparantly I just type nCat and it should output "n-category cafe". Did it work?
 
+Trying theorem numbering:
 
++-- {: .num_theorem #Lagrange}
+###### Theorem
+**(Lagrange's Theorem)**. Let $G$ be a finite group, and let $H$
+be a subgroup of $G$. Then the order of $H$ divides the order of
+$G$.
+=--
+
+By Theorem \ref{Lagrange}, we know that the order of $H$ divides the order of $G$.
 
 
 
