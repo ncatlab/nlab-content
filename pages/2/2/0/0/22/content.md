@@ -1,6 +1,6 @@
 #Classical Lie theory#
 
-Classical [Lie theory](http://en.wikipedia.org/wiki/Lie_theory) is the theory  of [groups](http://planetmath.org/encyclopedia/NontrivialElement2.html) [[Internalization|internal to]] [manifolds](http://en.wikipedia.org/wiki/Manifold) -- [Lie groups](http://en.wikipedia.org/wiki/Lie_groups) -- and their relation to their linear approximation -- [[Lie algebroids]].
+Classical [Lie theory](http://en.wikipedia.org/wiki/Lie_theory) is the theory  of [groups](http://planetmath.org/encyclopedia/NontrivialElement2.html) [[Internalization|internal to]] [manifolds](http://en.wikipedia.org/wiki/Manifold) -- [Lie groups](http://en.wikipedia.org/wiki/Lie_groups) -- and their relation to their linear approximation -- [[Lie algebras]].
 
 Lie's main theorems on Lie theory are
 
@@ -12,7 +12,7 @@ Lie's main theorems on Lie theory are
 
 ###Beyond classical Lie theory###
 
-In a categorical context there are the usual two generalization of Lie groups: the [[horizontal categorification]] or [[Oidification|oidification]] which adds _more objects_ and lead to _Lie groupoids_; and the [[vertical categorification]] which adds _higher morphisms_.
+In a categorical context there are the usual two generalization of Lie groups: the [[horizontal categorification]] or [[oidification]] which adds _more objects_ and lead to _Lie groupoids_; and the [[vertical categorification]] which adds _higher morphisms_.
 
 #Oidified Lie theory#
 
