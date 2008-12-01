@@ -1,15 +1,19 @@
-* [[Foundations|Foundations]]
-
 * [[category theory|Category Theory]]
 
-* [[Enriched Category Theory]]
+  * [[Foundations|Foundations]]
 
-* [[Sheaf and Topos Theory]]
+  * [[Enriched Category Theory]]
 
-* [[Higher Category Theory]]
+  * [[Sheaf and Topos Theory]]
 
-* [[Homotopy Theory]]
+  * [[Higher Category Theory]]
+
+  * [[Homotopy Theory]]
 
 * [[Geometry]]
+
+  * [[Differential Geometry]]
+
+    * [[Lie Theory]]
 
 * [[Algebra]]
