@@ -1,1 +1,3 @@
 Hi, I'm <a href="http://brucebartlett.postgrad.shef.ac.uk">Bruce Bartlett</a>, a final year math grad student at the <a href="http://www.sheffield.ac.uk/puremaths/">University of Sheffield</a>. From January 2009 I will be a maths lecturer at the <a href="http://math.sun.ac.za/index.php?lang=eng">University of Stellenbosch</a>, South Africa.
+
+category: people
