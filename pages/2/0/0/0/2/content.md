@@ -4,7 +4,7 @@
 
 ###$n$Lab###
 
-* Community
+* [[Community]]
 
   * [[HomePage|Home]]
   * [[HowTo|HowTo]]
