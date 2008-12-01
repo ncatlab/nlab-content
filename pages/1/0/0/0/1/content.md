@@ -11,4 +11,5 @@ But this site has only just started operation and we are still  trying to organi
 
 * See the [[HowTo]]-page to get started
 
+* Go to the [[General Discussion]] page to discuss ideas on how the $n$Lab should work.
 
