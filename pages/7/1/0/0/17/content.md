@@ -14,3 +14,5 @@ _Watch out_: the name of a page is case sensitive. We need to agree on how to de
 #How to contribute to the $n$Lab#
 
 We'll have to see where this is going. To be on the safe side, it's maybe best to create a single page for each "keyword".
+
+category: meta
