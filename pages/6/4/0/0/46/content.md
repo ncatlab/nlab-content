@@ -1,0 +1,1 @@
+You think you know everything undere the sun? Then think about the puzzle of [Light Mills](http://golem.ph.utexas.edu/category/2008/07/light_mills.html) and check out Greg Egan's magnificent [Light Mill Simulation Applet](http://gregegan.customer.netspace.net.au/SCIENCE/LightMill/LightMill.html).
