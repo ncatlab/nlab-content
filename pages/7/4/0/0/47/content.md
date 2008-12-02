@@ -14,4 +14,15 @@ I have the vague idea that mathematical entries (like [[integration over superma
 
 (Bruce Bartlett)
 
+#### Single-Author Areas ####
+
+Instiki can run multiple Wikis ("Webs" in the Instiki Parlance). Urs, John and David have the password required to create additional Webs.
+
+* Webs can be password-protected, so that only those in posession of the password can edit them.
+* A password-protected Web can be "published" so that others can read, but not edit, the contents. (Or, of course, they can remain unpublished, so that the authors can carry out their *super sekrit* machinations in private).
+
+These two features provide the possibility for single-author areas, where one person (or persons: whoever has the requisite password) is in authorial control.
+
+Here is [[baez:HomePage|John's area]].
+
 -------------------------
