@@ -12,12 +12,12 @@ Lie's three theorems establish the following properties of this functor.
 
   2. **Lie's second theorem.** 
      If $G$ and $H$ are Lie groups 
-     with Lie algebras $g = diff(G)$ and $h = diff(H)$;
+     with Lie algebras $\mathfrak{g} = diff(G)$ and $\mathfrak{h} = diff(H)$;
       such that $G$ is simply connected;
-      and if $f : g \to h$ is a morphism of Lie algebras;
+      and if $f : \mathfrak{g} \to \mathfrak{h}$ is a morphism of Lie algebras;
       then there is a unique morphism $F : G \to H$ of Lie groups lifting $g$, i.e. such that $f = diff(F)$.  
 
-  3. **Lie's third theorem.** **$diff$ is surjective on objects**: to every Lie algebra  $g$ there is a Lie group $G$ such that $g = diff(G)$. Moreover, there exists such $G$ which is simply connected.
+  3. **Lie's third theorem.** **$diff$ is surjective on objects**: to every Lie algebra  $\mathfrak{g}$ there is a Lie group $G$ such that $g = diff(G)$. Moreover, there exists such $G$ which is simply connected.
 
 ##Remarks##
 
