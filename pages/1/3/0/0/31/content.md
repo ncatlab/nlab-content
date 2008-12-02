@@ -63,7 +63,7 @@ Michael Johnson, Stephen Lack and Amnon Neeman, Contemp. Math. 431, American Mat
 [From loop groups
 to 2-groups](http://arxiv.org/abs/math.QA/0504123)
 with Alissa S. Crans, Danny Stevenson and Urs Schreiber,
-(Homotopy,
+[Homotopy,
 Homology and Applications](http://intlpress.com/HHA/v9/n2/a4/), 9 (2007), 101-135.
 
 [Lectures on
