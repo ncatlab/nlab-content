@@ -36,7 +36,6 @@ $$\array{\arrayopts{\rowalign{center}}\begin{svg}
 </svg>
 \end{svg}& \equiv \left({U(k)}^{n_1},\{v_i\}\right)}$$
 
-Let's see if I can get this friggin' thing to work. [[John Baez]]
 
 | Function name | Description                    |
 | ------------- | ------------------------------ |
@@ -99,6 +98,10 @@ By Theorem \ref{Lagrange}, we know that the order of $H$ divides the order of $G
 By definition, this definition is a definition. Definitely.
 =--
 
+Let me try to include a link to a cute picture:
 
+<img width = "400" src = "http://math.ucr.edu/home/cassini_over_enceladus.jpg" alt = ""/>
+
+Hmmph, it didn't work.  How do you display pictures from other websites?  I don't want to have to upload all of them.  [[John Baez]]
 
 category: meta
