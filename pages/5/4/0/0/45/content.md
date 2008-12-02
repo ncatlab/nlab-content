@@ -4,7 +4,9 @@
 
 Eventually the following will be a _commented_ list -- promised.
 
-* John Baez and Alexander Hoffnung, _Convenient Categories of Smooth Spaces_, ([arXiv](http://arxiv.org/abs/0807.1704), [blog](http://golem.ph.utexas.edu/category/2008/05/convenient_categories_of_smoot.html))
+* John Baez and Alexander Hoffnung, _Convenient Categories of Smooth Spaces_ ([arXiv](http://arxiv.org/abs/0807.1704), [blog](http://golem.ph.utexas.edu/category/2008/05/convenient_categories_of_smoot.html))
+
+* Patrick Iglesias-Zemmour, _Diffeology_ ([pdf](http://math.huji.ac.il/~piz/Site/The%20Book/The%20Book.html))
 
 * Matthias Kreck, _Stratifolds and differential algebraic topology_ ([pdf](http://www.hausdorff-research-institute.uni-bonn.de/files/kreck-DA24_08_07.pdf))
 
