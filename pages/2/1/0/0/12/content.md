@@ -77,6 +77,7 @@ Term 2
 You can make abbreviations. Here I'm going to make an abbreviation for the n-category cafe: 
 
 *[nCat]: n-category cafe
+Is this a new line?
 
 Now apparantly I just type nCat and it should output "n-category cafe". Did it work?
 
