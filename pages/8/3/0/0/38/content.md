@@ -2,13 +2,8 @@
 
 Classical [Lie theory](http://en.wikipedia.org/wiki/Lie_theory) is the theory  of [groups](http://planetmath.org/encyclopedia/NontrivialElement2.html) [[Internalization|internal to]] [manifolds](http://en.wikipedia.org/wiki/Manifold) -- [Lie groups](http://en.wikipedia.org/wiki/Lie_groups) -- and their relation to their linear approximation -- [[Lie algebras]].
 
-Lie's main theorems on Lie theory are
+The relation between Lie algebras and Lie groups was established by [[Lie's three theorems]].
 
- 1. this
-
- 2. that
-
- 3. and this
 
 ###Beyond classical Lie theory###
 
