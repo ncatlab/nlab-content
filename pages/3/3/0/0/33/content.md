@@ -20,6 +20,6 @@ This is in contrast to [[horizontal categorification]].
 
 #Further discussion#
 
-A bit of $n$-Caf&#233; discussion of this is in 
+A bit of $n$-Caf&#233; discussion on this is in 
 
-[[John Baez]], [_What is categorification?_](http://golem.ph.utexas.edu/category/2008/10/what_is_categorification.html)
+* [[John Baez]], [_What is categorification?_](http://golem.ph.utexas.edu/category/2008/10/what_is_categorification.html)
