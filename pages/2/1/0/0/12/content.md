@@ -106,4 +106,13 @@ Hmmph, it didn't work.  How do you display pictures from other websites?  I don'
 
 [[Urs Schreiber]] says: Should work. But it looks simply like the URL to the picture is broken!
 
+How about this: ![A pic](http://math.ucr.edu/home/baez/enceladus_geysers.jpg).
+
+
+~~~~
+This is a code block, fenced-style
+~~~~
+
+Huh? That is [PHP Markdown extra code](http://michelf.com/projects/php-markdown/extra/#fenced-code-blocks). That should work here, right...? [[Bruce Bartlett]]
+
 category: meta
