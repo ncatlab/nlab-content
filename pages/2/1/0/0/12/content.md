@@ -100,8 +100,10 @@ By definition, this definition is a definition. Definitely.
 
 Let me try to include a link to a cute picture:
 
-<img width = "400" src = "http://math.ucr.edu/home/cassini_over_enceladus.jpg" alt = ""/>
+<img width = "400" src = "http://math.ucr.edu/home/cassini_over_enceladus.jpg" alt = ""></img>
 
 Hmmph, it didn't work.  How do you display pictures from other websites?  I don't want to have to upload all of them.  [[John Baez]]
+
+[[Urs Schreiber]] says: Should work. But it looks simply like the URL to the picture is broken!
 
 category: meta
