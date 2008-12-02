@@ -1,0 +1,79 @@
+#Definition#
+
+A _Lie algebroid_ is the [[horizontal categorification|many object version]] of a Lie algebra. There are various equivalent definitions:
+
+**Definition in terms of vector bundles with anchor map.**
+A Lie algebroid over a manifold $X$ is 
+
+ * a vector bundle $E \to X$;
+
+ * equipped with a Lie brackets $[\cdot,\cdot] : \Gamma(E)\otimes \Gamma(E) \to \Gamma(E)$ on its space of sections;
+
+ * a morphisms of vector bundles $\rho : E \to TX$;
+
+ * such that the _Leibniz rule_ holds: for all $X, Y \in \Gamma(E)$ and all $f \in C^\infty(X)$ we have
+$$
+  [X, f \cdot Y] = f\cdot [X,Y] + \rho(X)(f) \cdot Y
+  \,.
+$$
+
+**Definition in terms of Chevalley-Eilenberg algebra.**
+A Lie algebroid over a manifold $X$ is a vector bundle 
+$E \to X$ equipped with a degree +1 derivation $d$ on the free (over $C^\infty(X)$) graded-commutative algebra $\wedge^\bullet_{C^\infty(X)} \Gamma(E)^*$ (where the dual is over $C^\infty$), such that $d^2 = 0$.
+
+The differential graded-commutative algebra 
+
+$$
+  CE(\mathfrak{g})
+  :=
+  (\wedge^\bullet_{C^\infty(X)} \Gamma(E)^*, d)
+$$
+
+is the _Chevalley-Eilenberg algebra_ of the Lie algebroid (in that for $X = pt$ it reduces to the ordinary Chevally-Eilenberg algebra for Lie algebras). 
+
+In the existing literature this is often addressed just as "the complex that computes Lie algebroid cohomology".
+
+It is helpful to compare this definition to the general definition of [[L-infinity Lie algebroid|L-infinity algebroids]], the [[vertical categorification]] of Lie algebras and Lie algebroids.
+
+
+**Definition in terms of commutative Lie-Rinehart pairs.**
+
+A Lie algebroid over the manifold $X$ is 
+
+ * a Lie algebra $\mathfrak{g}$;
+
+ * the structure of a Lie module over $\mathfrak{g}$ on $C^\infty(X)$ (i.e. an action of $\mathfrak{g}$ on $X$);
+
+
+ * the strucuture of a $C^\infty(X)$-module on $\mathfrak{g}$ (in fact: such that $\mathfrak{g}$ is a finitely generated projective module);
+
+ * such that the two actions satisfy two compatibility conditions which are modeled on the standard relations obtained by setting $\mathfrak{g} = \Gamma(T X)$.
+
+
+#Examples#
+
+* A **Lie algebra** is a Lie algebroid over a point, $X = pt$.
+
+* The **tangent Lie algebroid** is 
+
+    1. in the vector bundle definition given by $E = T X$, $\rho = \mathrm{Id}$;
+
+    2. in the CE-definition: $\mathrm{CE}(T X) = (\Omega^\bullet(X), d_{deRham})$;
+
+*  **Bundles of Lie algebras** $E \to X$ with fiber $\mathfrak{g}$ are Lie algebroids with $\rho = 0$ and fiberwise bracket. In particular, for $G$ a Lie group with Lie algebra $\mathfrak{g}$ and $P \to X$ a $G$-principal bundle, the _adjoint bundle_ $ad P := P \times_G \mathfrak{g}$ (where $\mathfrak{g}$ is associated using the adjoint representation of $G$ on its Lie algebra) is a bundle of Lie algebras.
+
+ * The **Atiyah Lie algebroid**: for $G$ a Lie group and $P \to X$ a $G$-principal bundle, the vector bundle $At(P):= T P/G$ naturally inherits the structure of a Lie algebroid. Moreover, it fits into a short exact sequence of Lie algebroids over $X$
+$$
+  0 \to ad P \to At(P) \to T X \to 0
+$$
+known as the **Atiyah sequence**. For some $n$-Caf&#233; blog discussion of this see [n-Transport and Higher Schreier theory](http://golem.ph.utexas.edu/category/2006/09/nconnections_and_higher_schrei.html).
+
+#Remarks#
+
+The extent to which Lie algebroids are to [[Lie groupoid|Lie groupoids]] as Lie algebras are to Lie groups is the content of general [[Lie theory]], in which [[Lie's three theorems|Lie's theorems]] have been generalized to Lie algebroids.
+
+#Literature#
+
+See the [Wikipedia entry](http://en.wikipedia.org/wiki/Lie_algebroid)
+
+(Why didn't I just point to that in the first place??)
