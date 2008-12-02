@@ -29,4 +29,26 @@ These two features provide the possibility for single-author areas, where one pe
 
 Here is [[baez:HomePage|John's area]].
 
--------------------------
+#### Importing CSS ####
+
+I propose that, at least in these early days of the $n$Lab, that the CSS style sheet be tweakable by everyone. I propose the following mechanism to do this.
+
+Here is a publically editable CSS file: [general.css](http://ncatlab.org/nlab/files/general.css). I want the stuff in here to piggyback onto the existing CSS declarations in instiki.css (as can be found by clicking on "Edit Web" on the main page).
+
+Basically, one just needs to add the following line to the beginning of that file: 
+
+    @import url('/nlab/files/general.css');
+
+That way everyone is free to make some tweaks. The point is that Markdown has a nice CSS trick, which [Jacques used to create the Theorem environments ]([http://golem.ph.utexas.edu/~distler/blog/archives/001820.html). The idea is that if one types eg.
+
+    +-- {: my_gismo}
+    Some text here.
+    =--
+
+then one gets a div element whose class is "my_gismo". So in the CSS file general.css, we can style this block anyway we want.
+
+For instance, I created a "query" block, which I'm using to ask questions on Urs's pages (beware I will use it on _yours_ soon dear reader!). See [[integration over supermanifolds]]. (The query block will only display as green once that adjustment I suggested is made to the instiki.css file by someone with a password by clicking on Edit Web and then Stylesheet tweaks, to change the instiki.css file)
+
+Trying to reupload the general.css file: [[general.css:file]]
+
+Darn, I was worried it might not work. Darn, that causes problems. This is a silly thing about Instiki --- you can't replace uploaded files with new ones. Jacques? Any suggestions?
