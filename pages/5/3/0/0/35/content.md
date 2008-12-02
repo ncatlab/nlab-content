@@ -18,3 +18,7 @@ Reviews and developments of the theory of Lie groupoids include
 ([website](http://kchmackenzie.staff.shef.ac.uk/gt.html))
 
 * K. C. H. Mackenzie, _Lie groupoids and Lie algebroids in differential geometry_, London Mathematical Society Lecture Note Series, 124. Cambridge University Press, Cambridge, 1987. xvi+327 pp ([MathSciNet](http://www.ams.org/mathscinet-getitem?mr=896907))
+
+##Further discussion##
+
+John Baez talks about various kinds of Lie groupoids in [TWF](http://math.ucr.edu/home/baez/TWF.html) [256](http://math.ucr.edu/home/baez/week256.html).
