@@ -13,6 +13,11 @@ $$
   d\theta_2 \wedge d \theta_1
   \,.
 $$
+
++-- {: .query}
+Okay, but what is the _differential $d\theta_1$ of an odd co-ordinate function_? How are we to think of it geometrically? Does it measure a rate of change of something?
+=--
+
 Notice the plus sign on the right.
 You can think of this plus sign as being the product of one minus sign for interchanging $\theta_1$ and $\theta_2$, and another minus sign for interchanging the two differentials.
 
