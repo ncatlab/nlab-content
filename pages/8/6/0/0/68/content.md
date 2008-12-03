@@ -20,4 +20,4 @@ Just as two algebras are Morita equivalent if their categories of modules are eq
 
 * Jochen Heinloth, _Some notes on differentiable stacks_ ([pdf](http://www.uni-due.de/~mat903/preprints/heinloth.pdf))
 
-* Richard A. Hepworth, [_Vector fields and flows on differentiable stacks_](http://arxiv.org/abs/0810.0979)) 
+* Richard A. Hepworth, _Vector fields and flows on differentiable stacks_ ([arXiv](http://arxiv.org/abs/0810.0979)).
