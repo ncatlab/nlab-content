@@ -2,6 +2,8 @@
 
 A _stacky Lie groupoid_ (in contrast to a [[Lie groupoid]]) is a [[groupoid]] [[internalization|internal to]] the category of [[differentiable stack|differentiable stacks]], such that the space of objects is an ordinary manifold.
 
+Notice that differentiable stacks are equivalent to Lie groupoids modulo [[homotopy theory|Morita equivalence]].
+
 #Literature#
 
 Stacky Lie groupoids and their [[Lie theory]] were introduced and studied by [Chenchang Zhu](http://chenchangzhu.blogspot.com/) and collaborators.
@@ -15,3 +17,7 @@ Stacky Lie groupoids and their [[Lie theory]] were introduced and studied by [Ch
 * Henrique Bursztyn, C.Z., _Morita equivalence of Poisson manifold via stack groupoids_, [arXiv](http://arxiv.org/abs/0707.2175)
 
  * C. Z.,  _$n$-Groupoids and stacky groupoids_ ([arXiv](http://arxiv.org/abs/0801.2057)) 
+
+#Further resources#
+
+* $n$-Caf&#233; blog discussion about this is [here](http://golem.ph.utexas.edu/category/2008/12/zhu_on_lies_second_theorem_for.html).
