@@ -166,13 +166,13 @@ But, you know. This requires work. And time. We'll get there.
 =--
 
 +-- {: commentbruce}
-_Bruce says:_ Ok I've uploaded the new stylesheet tweaks. Now if you link to an arXiv, pdf or n-category cafe file a little icon will appear, like this:
+_Bruce says:_ Ok I've uploaded the new stylesheet tweaks. Now if you link to an arXiv, n-category cafe, pdf, or a _page_ inside a pdf file, a little icon will appear, like this:
 
- [arXiv link](http://arxiv.org/abs/q-alg/9503002).
+ [arXiv link](http://arxiv.org/abs/q-alg/9503002), [n-category caf&#233; link](http://golem.ph.utexas.edu/category/2008/11/tom_leinster_in_the_reasoner.html#c020641), [pdf file](http://www.math.uni-hamburg.de/home/schreiber/sin.pdf), [_page_ in pdf file](http://www.math.uni-hamburg.de/home/schreiber/sin.pdf#page=4). 
 
 If you _don't_ want that icon to appear (I can imagine a number of reasons why not), there is a temporary workaround: capitalize one of the important letters:
 
- * For pdf files, capitalize something in "pdf".
+ * For pdf and page-in-pdf files, capitalize something in "pdf".
  * For n-category cafe files, capitalize something in "http://golem.ph.utexas.edu/category".
  * For arXiv links, capitalize something in "http://arxiv.org/".
 
