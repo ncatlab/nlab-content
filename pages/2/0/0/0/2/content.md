@@ -8,6 +8,7 @@
 
   * [[HomePage|Home]]
   * [[HowTo|HowTo]]
+  * [[General Discussion|General Discussion]]
   * [[Sandbox|Sandbox]]
 
 * [[Content|Content]]
