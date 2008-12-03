@@ -9,15 +9,13 @@ Eugene Lerman kindly provided the following information on Hofer's theory of _po
 
 #Articles by Hofer and his collaborators in the arxiv#
 
-* Helmut Hofer, Kris Wysocki, Eduard Zehnder,
- _A General Fredholm Theory III: Fredholm Functors and Polyfolds_,
- arXiv:0810.0736 
+* Helmut Hofer, Kris Wysocki, Eduard Zehnder,  _A General Fredholm Theory III: Fredholm Functors and Polyfolds_, [](http://arxiv.org/abs/0810.0736).
 
-* Helmut Hofer, _Polyfolds And A General Fredholm Theory
-_, arXiv:0809.3753 
+* Helmut Hofer, [_Polyfolds And A General Fredholm Theory
+_](http://arxiv.org/abs/0809.3753).
 
 * Helmut Hofer, Kris Wysocki, Eduard Zehnder, 
- _Integration Theory for Zero Sets of Polyfold Fredholm Sections_,  arXiv:0711.0781 
+ _Integration Theory for Zero Sets of Polyfold Fredholm Sections_, [arXiv](http://arxiv.org/0711.0781). 
 
 * Helmut Hofer, Kris Wysocki, Eduard Zehnder,
 _A General Fredholm Theory II: Implicit Function Theorems_
