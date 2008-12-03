@@ -14,7 +14,7 @@ Stacky Lie groupoids and their [[Lie theory]] were introduced and studied by [Ch
 
 * C. Z. _Lie II theorem_ ([pdf slides](http://cib.epfl.ch/hosted/programs/poisson2008/cms/fileadmin/misc/lie2talk2.pdf))
 
-* Henrique Bursztyn, C.Z., _Morita equivalence of Poisson manifold via stack groupoids_, [arXiv](http://arxiv.org/abs/0707.2175)
+* Henrique Bursztyn, C.Z., _Morita equivalence of Poisson manifold via stack groupoids_ ([arXiv](http://arxiv.org/abs/0707.2175))
 
  * C. Z.,  _$n$-Groupoids and stacky groupoids_ ([arXiv](http://arxiv.org/abs/0801.2057)) 
 
