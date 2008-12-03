@@ -7,6 +7,7 @@ Vertical categorification is closely related to the process of relaxing properti
 #Remarks#
 
 This is in contrast to [[horizontal categorification]].
+If you call that 'oidification', then you can call this simply 'categorification'.
 
 #Examples#
 
