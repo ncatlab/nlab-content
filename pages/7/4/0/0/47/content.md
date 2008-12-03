@@ -86,7 +86,7 @@ Let's agree on some kind of basic formatting rules for how to type personal spee
 {: style="color:#930; font-size:0.9em;margin-left:3em;"}
 _Jacques says:_ I hope you don't mind, but I darkened the colour of your response. Bright green is hard on the eyes, when it occurs in large blocks of running text. Besides, it's the colour of hyperlinks on this wiki, which is a little confusing.
 
-{:commentbruce: style="color:darkblue; font-size: 90%;"}
+{:commentbruce: style="color:darkblue; font-size: 90%; margin-left:2em;"}
 
 
 +-- {: commentbruce} 
@@ -119,24 +119,24 @@ Another thing I'd like to try in CSS is to set Georga (a serif font) as the main
 =--
 
 
-{:commenturs}
++-- {:commenturs}
 _Urs says_: Bruce, I like the look of those query boxes. Graphical sophistication like that greatly improves the look-and-feel of the wiki.
 
-{:commenturs}
 You should explain at some promint point of the wiki, probably at the [[HowTo]] page what people need to do to insert such gadgets. 
 
-{:commenturs}
 Concerning contributions by others: let's see how it develops. I'd really enjoy having several people contributing here, eventually. But on the other hand it is also maybe good if we as the hosts have a bit of time to produce some context here first. 
 
-{:commenturs}
 I am hoping that eventually I will produce enough nonsense here that others can't stand it anymore and jump in to help out ;-)
 
-{:commenturs}
 Seriously, if it turns out that a few of us produce most of the content but many others contribute many little improvements, like correcting small mistakes, adding references, asking for clarifications or voicing other requests, establishing cross-links, etc., I'd already be happy. 
 
-{:commenturs}
 Toby Bartels is currently doing this already, which is great.
+=--
 
++-- {: commentbruce}
 
+Okay. Yes I agree with you about the content; for a while the site will be dominated by you putting up your stuff on $L_\infty$ integration, etc.  But that's great, that serves a very valuable purpose. It creates a central repository of _expository_ stuff (note expository... it musn't be written in an encyclopeadic way... that's important I think). Then when you make a post at the n-category cafe, you can refer to this stuff. 
+
+=--
 
 category: meta
