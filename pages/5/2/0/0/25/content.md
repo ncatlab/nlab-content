@@ -6,6 +6,8 @@
 
  2. and then this concept is generalized -- or [[oidification|oidified]] -- by passing to instances of such types of categories with more than one object.
 
+So why don't we just call this "oidification" and save "categorification" for the vertical concept?
+
 #Remarks#
 
 This is to be contrasted with [[vertical categorification]].
