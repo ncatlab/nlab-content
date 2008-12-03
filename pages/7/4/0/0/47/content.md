@@ -95,7 +95,7 @@ _Bruce Bartlett says:_ Ok... that's a bit of a weird system for discussion, but 
 
 {:query: style="background: #f6fff3; border: solid #ce9; border-width: 2px 1px;	padding: 0 1em; margin: 0 1em;" }
 
-+-- {: query}
++-- {: .query}
 _Question:_ Okay, but what is the _differential $d\theta_1$ of an odd co-ordinate function_? How are we to think of it geometrically? Does it measure a rate of change of something? (Bruce Bartlett)
 
 _Answer:_ See [[differential forms on supermanifolds]]. (Urs Schreiber)
@@ -154,6 +154,35 @@ And in any case, one point about the wiki as opposed to the blog is also that th
 Concerning expository versus encyclopedic: I want both. In the best of all worlds each page is structured roughly similarly, with a section "basic idea" at the beginning, an expository part in the middle, and a concise and comprehensive list of the main definitions and facts at the end. Or the like.
 
 But, you know. This requires work. And time. We'll get there.
+
+=--
+
++-- {: commentbruce}
+_Bruce says:_ Ok I've uploaded the new stylesheet tweaks. Now if you link to an arXiv, pdf or n-category cafe file a little icon will appear, like this:
+
+ [arXiv link](http://arxiv.org/abs/q-alg/9503002).
+
+If you _don't_ want that icon to appear (I can imagine a number of reasons why not), there is a temporary workaround: capitalize one of the important letters:
+
+ * For pdf files, capitalize something in "pdf".
+ * For n-category cafe files, capitalize something in "http://golem.ph.utexas.edu/category".
+ * For arXiv links, capitalize something in "http://arxiv.org/".
+
+Also, the query box is now in the stylesheet. If you want to make a query box, just type
+
+    +-- {: .query}
+
+    _Question_: Why did the chicken cross the road?
+
+    =--
+
+in the text and you'll get out:
+
++-- {: .query}
+
+_Question_: Why did the chicken cross the road?
+
+=--
 
 =--
 
