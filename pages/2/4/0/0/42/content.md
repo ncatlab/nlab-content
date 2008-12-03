@@ -1,9 +1,10 @@
-*[since odd graded differential 1-forms, being of total even degree, do not have a top exterior power]:I don't understand. What does this mean? (Bruce Bartlett)
-
+{:query: style="background: #f6fff3; border: solid #ce9; border-width: 2px 1px;	padding: 0 1em; margin: 0 1em;" }
 
 #Idea#
 
 There are different ways to define a differential volume element on a smooth manifold. Some of these definitions can be carried over to supergeometry, others cannot. The possibly most familiar way of talking about differential volume elements, in terms of top-degree differential forms, does _not_ carry over to supermanifolds.
+
+
 
 ###No top-degree forms in supergeometry###
 
@@ -13,15 +14,11 @@ $$
   d\theta_2 \wedge d \theta_1
   \,.
 $$
++-- {: query}
+_Question:_ Okay, but what is the _differential $d\theta_1$ of an odd co-ordinate function_? How are we to think of it geometrically? Does it measure a rate of change of something? (Bruce Bartlett)
 
-
-+-- {: .query}
-_Question:_ Okay, but what is the _differential $d\theta_1$ of an odd co-ordinate function_? How are we to think of it geometrically? Does it measure a rate of change of something?
+_Answer:_ See [[differential forms on supermanifolds]]. (Urs Schreiber)
 =--
-
-_Answer:_ See [[differential forms on supermanifolds]].
-
-
 Notice the plus sign on the right.
 You can think of this plus sign as being the product of one minus sign for interchanging $\theta_1$ and $\theta_2$, and another minus sign for interchanging the two differentials.
 
