@@ -16,6 +16,7 @@ Eventually the following will be a _commented_ list -- promised.
 
 * Andrew Stacey, _Comparative Smootheology_ ([arXiv](http://arxiv.org/abs/0802.2225))
 
+There are also Hofer's [[polyfold]]s.
 
 #Further discussion#
 
