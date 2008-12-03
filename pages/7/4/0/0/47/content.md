@@ -111,7 +111,7 @@ However, I would really like it if some of this CSS code would go directly into 
 Thus I propose the following: if anyone has some CSS code that they would like to promote, email it to someone with a password (Urs, John, David, Jacques) and ask them to put it in via the "Edit Web" button.
 
 +--{: response}
-I agree. Once people have settled on a particular styling convention for content, it should go in the "Stylesheet Quirks" section of the "Edit Web" page, where it will automatically be reproduced on every page of this Web. Technically, that's *not* the `instiki.css` file. The latter is common to all instiki installations.
+*Jacques said:* I agree. Once people have settled on a particular styling convention for content, it should go in the "Stylesheet Quirks" section of the "Edit Web" page, where it will automatically be reproduced on every page of this Web. Technically, that's *not* the `instiki.css` file. The latter is common to all instiki installations.
 
 My point was that experimentation on this front does not require access to the site-wide stylesheet, since Instiki provides a convenient way to specify inline styles on a per-page, or per-element basis (as demonstrated here).
 
