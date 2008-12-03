@@ -70,3 +70,5 @@ Darn, I was worried it might not work. Darn, that causes problems. This is a sil
 
 {:response}
 An interface for managing uploaded files is another item on the [TODO list](http://golem.ph.utexas.edu/instiki/show/TODO).
+
+Yes you're right --- thanks. [[Bruce Bartlett]]
