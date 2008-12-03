@@ -1,4 +1,4 @@
-#Essentially, surjective, faithful and full functors#
+#Essentially surjective, faithful, and full functors#
 
 ... the standard stuff...
 
