@@ -19,32 +19,7 @@ $$
 _Question:_ Okay, but what is the _differential $d\theta_1$ of an odd co-ordinate function_? How are we to think of it geometrically? Does it measure a rate of change of something?
 =--
 
-####Differential forms on supermanifolds####
-
-_Answer:_ In supergeometry the idea is to define everything in sight in terms of the algebras of local coordinate functions. (One really proceeds precisely as physicists do and always did, only difference being that before doing so one spends a minute to wonder about what doing so really means.) This means that the deRham complex of differential forms on a supermanifold is define in the obvious way:
-
-let $C^\infty(U)$ be the algebra of functions on patch $U$ of your supermanifold. Then the corresponding deRham complex over $U$ is the [[L-infinity Lie algebroid|qDGCA]] which as a free graded-commutative algebra is generated over $C^\infty(X)$ by $C^\infty(U)[1]$. This means that for each element $f \in C^\infty(U)$ we add a new element denoted $d f \in C^\infty(U)[1]$ which we take to be "shifted in degree by 1" with respect to $f$. If we are just in the usual $\mathbb{Z}_2$-graded context of supermanifolds, this just means that $d f$ is of odd or even grade if $f$ is of even or odd grade, respective.
-
-On the free graded-commutative algebra $\Omega^\bullet(U) := \wedge^\bullet_{C^\infty(U)} C^\infty(U) = S^\bullet_{C^\infty(U)} C^\infty(U)[1]$ obtained this way we naturally obtain an odd degree algebra derivation 
-$$
-  d : \Omega^\bullet(U) \to \Omega^\bullet(U)
-$$
-by taking it on generators $f \in C^\infty(U)$ to be given b
-$$
-  d : f \maspto d f
-$, naturally, and extended that as an odd graded derivation to all of $\Omega^\bullet(U)$. This defines the qDGCA $(\Omega^\bullet(U), d)$. This construction glues on intersections of different patches $U_1$, $U_2$ and hence defines a qDGCA $(\Omega^\bullet(X),d)$, the **de Rham complex of the supermanifold $X$**.
-
-
-Okay, back to the discussion of integration:
-
-### Again: no top-degree forms in supergeometry###
-
-In supergeometry the notion of _top-degree form_ does not in general make sense, since there are no top-degree wedge powers of "odd 1-forms": if for instance $\theta_1$ and $\theta_2$ are odd functions on some supermanifold and $d \theta_1$ and $d \theta_2$ are their differential 1-forms, then the wedge product of these is symmetric in that
-$$
-  d\theta_1 \wedge d \theta_2 = + 
-  d\theta_2 \wedge d \theta_1
-  \,.
-$$
+_Answer:_ See [[differential forms on supermanifolds]].
 
 
 Notice the plus sign on the right.
