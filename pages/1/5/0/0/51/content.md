@@ -6,44 +6,62 @@
 
 ## $k$-surjectivity##
 
-An $\omega$-functor $f : C \to D$ between [[omega-category|omega-categories]] is _$k$-surjective_ for $k \in \mathbb{N}$ if the universal morphism 
+An $\omega$-functor $f : C \to D$ between [[omega-category|omega-categories]] is 
+0-surjective if $f_0 : C_0 \to D_0$ is an epimorphism.
+
+For $k \in \mathbb{N}$, $k \geq 1$ the functor is _$k$-surjective_ 
+if the universal morphism 
 $$
-  C_{k+1} \to P_{k+1}
+  C_k \to P_k
 $$
-to the pullback $P_{k+1}$ in
+to the pullback $P_k$ in
 $$
   \array{
-     P_{k+1}
+     P_k
      &\to&
-     D_{k+1}
+     D_k
      \\
      \downarrow && \downarrow^{s \times t}
      \\
-     C_k \times C_k
-     &\stackrel{F_k \times F_k}{\to}&
-     D_k \times D_k
+     C_{k-1} \times C_{k-1}
+     &\stackrel{F_{k-1} \times F_{k-1}}{\to}&
+     D_{k-1} \times D_{k-1}
   }
 $$
 coming from the commutativity of the square
 $$
   \array{
-     C_{k+1}
-     &\stackrel{f_{k+1}}{\to}&
-     D_{k+1}
+     C_k
+     &\stackrel{f_{k}}{\to}&
+     D_k
      \\
      \downarrow^{s \times t} && \downarrow^{s \times t}
      \\
-     C_k \times C_k
-     &\stackrel{F_k \times F_k}{\to}&
-     D_k \times D_k
+     C_{k-1} \times C_{k-1}
+     &\stackrel{F_{k-1} \times F_{k-1}}{\to}&
+     D_{k-1} \times D_{k-1}
   }
 $$
 (which commutes due to the functoriality axioms of $f$) is an [[epimorphism]].
 
+**Proposition** An $\omega$-functor $f : C \to D$ is $k$-surjective for $k \in \mathbb{N}$ precisely if it has the right [[lifting property]] with respect to the inclusion $\partial G_{k} \to G_k$ of the boundary of the [[n-glob|k-glob]] into the [[n-glob|k-glob]].
+
+$$
+  \array{
+    \partial G_k &\to& C
+    \\
+    \downarrow &{}^{\exists}\nearrow& \downarrow^f
+    \\
+    G_k &\to& D
+  }
+  \,.
+$$
+
+
 **Proposition** For $C$ and $D$ 1-categories we have
 
  1. ($f$ is 0-surjective) $\Leftrightarrow$
-    $f$ is surjective on objects
+    ($f$ is surjective on objects)
 
  2. ($f$ is 1-surjective) $\Leftrightarrow$ ($f$ is full)
 
@@ -54,9 +72,31 @@ $$
 
 same, but epi only after projecting to $\omega$-equivalence classes
 
+## Weak equivalences, acyclic fibrations and hypercovers##
+
+**Definition.** With respect to the [[folk model structure]]  on $\omega$-categories an $\omega$-functor is 
+
+* an [[model category|acyclic fibration]] if it is $k$-surjective for all $k \in \mathbb{N}$;
+
+* a [[model category|weak equivalence]] if it is essentially $k$-surjective for all $k \in \mathbb{N}$.
+
+###Remarks###
+
+All this has close analogs in other models of higher structures, in particular in the context of simplicial sets. Simplicial maps which are $k$-surjective for all $k$ are called [[hypercover]]s.
+
+
 #Literature#
 
-For the general idea of $k$-surjectivity see Baez-Shulman. For the definition for $\omega$-category see Metayer-Lafont-Worytkewicz
+The general idea of $k$-surjectivity is described around [definition 4](http://arxiv.org/PS_cache/math/pdf/0608/0608420v2.pdf#page=17) of
 
+* Baez-Shulman, _Lectures on $n$-Categories and Cohomology_
+([arXiv](http://arxiv.org/abs/math.CT/0608420))
 
-... have to run now, more later...
+The concrete discussion in the context of [[omega-category|omega-categories]] is in
+
+* Yves Lafont, Francois M&#233;tayer, Krzysztof Worytkiewicz, _A folk model structure on $\omega$-cat_ ([arXiv](http://arxiv.org/abs/0712.0617)).
+
+The analogous discussion for simplicial set is in
+
+* (any discussion of homotopy theory of simplicial sets).
+
