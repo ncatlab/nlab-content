@@ -86,4 +86,37 @@ Let's agree on some kind of basic formatting rules for how to type personal spee
 {: style="color:#930; font-size:0.9em;margin-left:3em;"}
 _Jacques says:_ I hope you don't mind, but I darkened the colour of your response. Bright green is hard on the eyes, when it occurs in large blocks of running text. Besides, it's the colour of hyperlinks on this wiki, which is a little confusing.
 
+{:commentbruce: style="color:darkblue; font-size: 90%;"}
+
+
++-- {: commentbruce} 
+_Bruce Bartlett says:_ Ok... that's a bit of a weird system for discussion, but I'm okay to go along with it... However, I'm quite fond of the green "query" block that I put on [[integration over supermanifolds]], as below:
+=--
+
+{:query: style="background: #f6fff3; border: solid #ce9; border-width: 2px 1px;	padding: 0 1em; margin: 0 1em;" }
+
++-- {: query}
+_Question:_ Okay, but what is the _differential $d\theta_1$ of an odd co-ordinate function_? How are we to think of it geometrically? Does it measure a rate of change of something? (Bruce Bartlett)
+
+_Answer:_ See [[differential forms on supermanifolds]]. (Urs Schreiber)
+=--
+
++-- {: commentbruce} 
+I think that a lot of people (for instance Simon) maybe aren't that keen on writing stuff for the $n$Lab right at this moment, but certainly have a lot of questions about Urs's stuff. I see this query feature as a way for them to get involved. Place query blocks all over Urs's text :-) (sorry Urs!) 
+
+I see these query blocks as staying on the page for a while (even after they are answered by Urs or someone else), because it makes people feel better when they see that they are not the only ones who didn't understand the material. At some point they can be taken down on any given page.
+
+However, I would really like it if some of this CSS code would go directly into  instiki.css, instead of us having to reproduce it on each page. That is not a workable solution.
+
+Thus I propose the following: if anyone has some CSS code that they would like to promote, email it to someone with a password (Urs, John, David, Jacques) and ask them to put it in via the "Edit Web" button. 
+
+I'm quite fond of messing around with colours, etc. and without this feature I feel a bit deflated :-)
+
+For instance, I think it would be great to use CSS so as to style downloadable documents correctly, as [explained here](http://reference.sitepoint.com/css/css3attributeselectors). The idea is that every pdf link will have a tiny pdf icon next to it, and more importantly every n-category cafe link will have a tiny n-category cafe logo next to it; the same for arXiv links, etc.
+
+Another thing I'd like to try in CSS is to set Georga (a serif font) as the main text (and math) font for the $n$Lab. Try it for a few days and see. 
+
+=--
+
+
 category: meta
