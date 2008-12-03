@@ -75,15 +75,4 @@ John Baez and Peter May.
 topological 2-group](http://arxiv.org/abs/0801.3843), with Danny Stevenson, to appear in the
 proceedings of the 2007 Abel Symposium, eds. Nils Baas <i>et al</i>.
 
-
-
-
-
-
-
-
-
-
-
-
-
+category: people
