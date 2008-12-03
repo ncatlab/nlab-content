@@ -113,8 +113,12 @@ Huh? That is [PHP Markdown extra code](http://michelf.com/projects/php-markdown/
 
 Uploading little pdf icon for linking to pdf's: [[pdficon_small.gif:file]]
 
-Uploading little n-category cafe icon: [[n-cafe_small.gif:file]]
+Uploading little n-category cafe icon: [[n-cafe_5.gif:file]]
 
 Attempting to link to an n-category cafe post: [My link](http://golem.ph.utexas.edu/category/2008/11/nlab.html#c020636)
+
+Attempting to link to a pdf file: [My link](http://www.math.uni-hamburg.de/home/schreiber/sin.pdf)
+
+Attempting to link to an arXiv file: [Higher dimensional algebra and topological quantum field theory](http://arxiv.org/abs/q-alg/9503002)
 
 category: meta
