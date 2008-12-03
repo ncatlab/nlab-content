@@ -119,7 +119,8 @@ Another thing I'd like to try in CSS is to set Georga (a serif font) as the main
 =--
 
 
-+-- {:commenturs}
++-- {: commenturs}
+
 _Urs says_: Bruce, I like the look of those query boxes. Graphical sophistication like that greatly improves the look-and-feel of the wiki.
 
 You should explain at some promint point of the wiki, probably at the [[HowTo]] page what people need to do to insert such gadgets. 
@@ -131,12 +132,30 @@ I am hoping that eventually I will produce enough nonsense here that others can'
 Seriously, if it turns out that a few of us produce most of the content but many others contribute many little improvements, like correcting small mistakes, adding references, asking for clarifications or voicing other requests, establishing cross-links, etc., I'd already be happy. 
 
 Toby Bartels is currently doing this already, which is great.
+
 =--
 
 +-- {: commentbruce}
 
-Okay. Yes I agree with you about the content; for a while the site will be dominated by you putting up your stuff on $L_\infty$ integration, etc.  But that's great, that serves a very valuable purpose. It creates a central repository of _expository_ stuff (note expository... it musn't be written in an encyclopeadic way... that's important I think). Then when you make a post at the n-category cafe, you can refer to this stuff. 
+_Bruce says:_ Okay. Yes I agree with you about the content; for a while the site will be dominated by you putting up your stuff on $L_\infty$ integration, etc.  But that's great, that serves a very valuable purpose. It creates a central repository of _expository_ stuff (note expository... it musn't be written in an encyclopeadic way... that's important I think). Then when you make a post at the n-category cafe, you can refer to this stuff. 
 
 =--
+
++-- {: commenturs}
+
+_Urs says:_ I am not sure about that thing about me "dominating" the site. I'll expect that as soon as John posts his first marvelous exposition things will change rapidly. So far I mainly invested energy to provide pages for all the keywords I just used in [this](http://golem.ph.utexas.edu/category/2008/12/zhu_on_lies_second_theorem_for.html) blog post.
+
+For me that's one of the points of having this wiki here: that we establish a stable resource where we can refer to in entries without having to rehash all old disacussions in every new entry.
+
+
+And in any case, one point about the wiki as opposed to the blog is also that there is no "title page" which can be dominated, but every reader is free to follow whichever way he prefers through the site, and ignore the content he or she is not interested in.
+
+
+Concerning expository versus encyclopedic: I want both. In the best of all worlds each page is structured roughly similarly, with a section "basic idea" at the beginning, an expository part in the middle, and a concise and comprehensive list of the main definitions and facts at the end. Or the like.
+
+But, you know. This requires work. And time. We'll get there.
+
+=--
+
 
 category: meta
