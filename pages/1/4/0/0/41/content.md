@@ -1,8 +1,33 @@
 #Idea#
 
-BV-formalism applies the theory of [[integration over supermanifolds]] to the [[NQ-supermanifold]]s given by [[L-infinity algebroid]]s.
+BV theory is the answer to two different questions:
 
-#...#
+ * **Hamiltonian BV**: taking quotients of Poisson manifolds by group actions;
+
+ * **Lagrangian BV**: integrating forms over [[NQ-supermanifold]]s.
+
+##Hamiltonian BV## 
+
+In this context the BV-complex is a homological resolution of the problem of taking quotients of symplectic manifolds by group actions. 
+
+
+
+### Poisson/symplectic reduction ###
+
+ * _Basics of Poisson reduction_ ([blog](http://golem.ph.utexas.edu/category/2008/07/poisson_reduction.html))
+
+ * Alejandro Cabrera, _Homological BV-BRST methods: from QFT to Poisson reduction_ ([pdf](http://www.math.uni-hamburg.de/home/schreiber/Charla_IMPA_BRST.pdf))
+
+ * J. Butterfield, _On symplectic reduction in classical mechanis_ ([pdf](http://philsci-archive.pitt.edu/archive/00002373/01/ButterfieldNHSympRed.pdf))
+
+
+##Lagrangian BV## 
+
+In this context the BV-complex is a means to describe 
+[[integration over supermanifolds]] for [[NQ-supermanifold]]s given by [[L-infinity algebroid]]s.
+
+In the physics literture the function algebra of these [[NQ-supermanifold]]s is addressed as the [[BRST complex]].
+
 
 #Literature#
 
