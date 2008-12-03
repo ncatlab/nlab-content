@@ -73,4 +73,16 @@ An interface for managing uploaded files is another item on the [TODO list](http
 
 Yes you're right --- thanks. [[Bruce Bartlett]]
 
+## Formatting of discussions##
+
+{:commenturs: style="color:#070; font-size:0.9em;margin-left:2em;"}
+
+{:commenturs}
+_Urs Schreiber says:_ We need to do something about this: it is already becoming hard to recognize, read, let alone follow the flow of discussions. 
+
+{:commenturs}
+Let's agree on some kind of basic formatting rules for how to type personal speech here and, in particular, as comments into the other entries. I like Jacques' way of formatting his comments above. Maybe everybody should choose his or her color and then always insert comments using this kind of formatting with this kind of color.
+
+
+
 category: meta
