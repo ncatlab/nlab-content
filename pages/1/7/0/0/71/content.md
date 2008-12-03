@@ -89,4 +89,4 @@ The $\omega$-groupoids $\Pi_\omega(\Delta^{n})$ are discussed in detail in
 
 We had related blog discussion in the following $n$-Caf&eacute;-entries:
 
-* [Freeyly generated $\omega$-categories](http://golem.ph.utexas.edu/category/2008/10/freely_generated_categories.html)
+* [Freely generated $\omega$-categories](http://golem.ph.utexas.edu/category/2008/10/freely_generated_categories.html)
