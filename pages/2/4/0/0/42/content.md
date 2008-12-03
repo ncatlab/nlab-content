@@ -1,4 +1,3 @@
-{:query: style="background: #f6fff3; border: solid #ce9; border-width: 2px 1px;	padding: 0 1em; margin: 0 1em;" }
 
 #Idea#
 
@@ -14,7 +13,7 @@ $$
   d\theta_2 \wedge d \theta_1
   \,.
 $$
-+-- {: query}
++-- {: .query}
 _Question:_ Okay, but what is the _differential $d\theta_1$ of an odd co-ordinate function_? How are we to think of it geometrically? Does it measure a rate of change of something? (Bruce Bartlett)
 
 _Answer:_ See [[differential forms on supermanifolds]]. (Urs Schreiber)
@@ -50,6 +49,10 @@ But this example also indicates the solution: apparently for integration it is n
 Therefore the na&#239;ve identification of differential volume measures with top degree forms has to be refined. The idea is to characterize a volume form by other means, in particular as an equivalence class of choices of bases for the space of 1-forms, and then to define **integrable forms** to be pairs consisting of such a generalized volume form and a **multivector**: this pair is supposed to represent the differential form one would obtain could one contract the multivector with the volume form, as in ordinary differential geometry.
 
 The definition of integration of integrable forms in supergeometry in terms of multivectorfields leads, in the case that the supermanifold in an [[NQ-supermanifold]] to the [[BV-theory|BV-formalism]].
+
++-- {: .my_gismo}
+Hi is this a gismo?
+=--
 
 #Details#
 
