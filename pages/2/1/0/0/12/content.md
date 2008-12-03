@@ -111,4 +111,10 @@ This is a code block, fenced-style
 
 Huh? That is [PHP Markdown extra code](http://michelf.com/projects/php-markdown/extra/#fenced-code-blocks). That should work here, right...? [[Bruce Bartlett]]
 
+Uploading little pdf icon for linking to pdf's: [[pdficon_small.gif:file]]
+
+Uploading little n-category cafe icon: [[n-cafe_small.gif:file]]
+
+Attempting to link to an n-category cafe post: [My link](http://golem.ph.utexas.edu/category/2008/11/nlab.html#c020636)
+
 category: meta
