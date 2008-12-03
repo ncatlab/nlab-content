@@ -119,6 +119,8 @@ Attempting to link to an n-category cafe post: [My link](http://golem.ph.utexas.
 
 Attempting to link to a pdf file: [My link](http://www.math.uni-hamburg.de/home/schreiber/sin.pdf)
 
+Attempting to link to a _page_ inside a pdf file: [My link](http://www.math.uni-hamburg.de/home/schreiber/sin.pdf#page=12)
+
 Attempting to link to an arXiv file: [Higher dimensional algebra and topological quantum field theory](http://arxiv.org/abs/q-alg/9503002)
 
 category: meta
