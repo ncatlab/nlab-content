@@ -68,7 +68,7 @@ A _groupoid_ internal to $A$ is all of the above
 
 * A _small category_ is a category internal to $Sets$.
 
-* Historically, the motivating exmaple for was (apparently) the notion of [[Lie groupoids]]: groupoids internal to the category of manifolds. 
+* Historically, the motivating exmaple for was (apparently) the notion of [[Lie groupoid]]s: groupoids internal to the category of manifolds. 
 
 
 #Literature#
