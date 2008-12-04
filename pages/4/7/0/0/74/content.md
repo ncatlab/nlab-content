@@ -1,7 +1,7 @@
 ##Enriched  Category Theory##
 
-* [[enriched categories|Enriched Categories]]
+* [[enriched category|Enriched Categories]]
 
-* [[ends coends|Ends and Coends]]
+* [[end|Ends and Coends]]
 
-* [[day convolution|Day Convolution]]
+* [[Day convolution|Day Convolution]]
