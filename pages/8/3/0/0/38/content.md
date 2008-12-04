@@ -1,19 +1,18 @@
 #Classical Lie theory#
 
-Classical [Lie theory](http://en.wikipedia.org/wiki/Lie_theory) is the theory  of [groups](http://planetmath.org/encyclopedia/NontrivialElement2.html) [[Internalization|internal to]] [manifolds](http://en.wikipedia.org/wiki/Manifold) -- [Lie groups](http://en.wikipedia.org/wiki/Lie_groups) -- and their relation to their linear approximation -- [[Lie algebras]].
+Classical [Lie theory](http://en.wikipedia.org/wiki/Lie_theory) is the theory  of [groups](http://planetmath.org/encyclopedia/NontrivialElement2.html) [[internalization|internal to]] [manifolds](http://en.wikipedia.org/wiki/Manifold) -- [Lie groups](http://en.wikipedia.org/wiki/Lie_groups) -- and their relation to their linear approximation -- [[Lie algebra]]s.
 
 The relation between Lie algebras and Lie groups was established by [[Lie's three theorems]].
 
-
 ###Beyond classical Lie theory###
 
-In a categorical context there are the usual two generalization of Lie groups: the [[horizontal categorification]] -- or [[oidification]] -- which adds _more objects_ and leads to _Lie groupoids_; and the [[vertical categorification]] which adds _higher morphisms_ and leads to $\infty$-Lie groups and $\infty$-Lie groupoids. This is described below.
+In a categorical context there are the usual two generalization of Lie groups: the [[horizontal categorification]] -- or oidification -- which adds _more objects_ and leads to _Lie groupoids_; and the [[vertical categorification]] which adds _higher morphisms_ and leads to $\infty$-Lie groups and $\infty$-Lie groupoids. This is described below.
 
 In the course of these categorifications one usually finds that working [[internalization|internal to]] $Manifolds$ is too restrictive for many purposes. Therefore higher Lie theory is often considered internal to [[generalized smooth spaces]].
 
 #Oidified Lie theory: Lie groupoids and Lie algebroids#
 
-[[oidification|Oidification]] leads from Lie groups to [[Lie groupoids]]
+[[horizontal categorification|Oidification]] leads from Lie groups to [[Lie groupoid]]s
 and from [[Lie algebra|Lie algebras]] to 
 [[Lie algebroids]].
 
