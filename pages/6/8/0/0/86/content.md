@@ -8,13 +8,20 @@ BV theory is the answer to two different questions:
 
 ##Hamiltonian BV## 
 
-In this context the BV-complex is a homological resolution of the problem of taking quotients of symplectic manifolds by group actions. 
+In this context the BV-complex is a [[Homological resolution|homological resolution]] of the problem of taking quotients of symplectic manifolds by group actions. 
 
 +-- {: .query}
 
 _Question_: Can you explain more about this? What do you mean by a "homological resolution of the problem"? Is there a nice example? I went over the [blog entry](http://golem.ph.utexas.edu/category/2008/07/poisson_reduction.html) but it seemed to talk about symplectic/Poisson reduction in its own right and didn't yet make the link with the BV formalism. (Bruce)
 
+_Answer_: I now added a few general remarks on the idea of [[Homological resolution]] as well as the literature below. I also just received a nice article by Alajandro Cabrera which explains this nicely, and I forwarded this to you. (Urs)
+
+
 =--
+
+
+
+
 
 
 ### Poisson/symplectic reduction ###
@@ -24,6 +31,10 @@ _Question_: Can you explain more about this? What do you mean by a "homological 
  * Alejandro Cabrera, _Homological BV-BRST methods: from QFT to Poisson reduction_ ([pdf](http://www.math.uni-hamburg.de/home/schreiber/Charla_IMPA_BRST.pdf))
 
  * J. Butterfield, _On symplectic reduction in classical mechanis_ ([pdf](http://philsci-archive.pitt.edu/archive/00002373/01/ButterfieldNHSympRed.pdf))
+
+### Homological interpretation of BV-Poisson reduction
+
+Jim Stasheff, _The (secret?) homological algebra of the Batalin-Vilkovisky approach_ ([arXiv](http://arxiv.org/abs/hep-th/9712157))
 
 
 ##Lagrangian BV## 
