@@ -1,3 +1,3 @@
-#Definition#
+See [[groupoid]].
 
-Plural of [[groupoid]].
+category: redirect
