@@ -6,7 +6,7 @@ A _differentiable stack_ is a stack on the site of manifolds which is [[presente
 
 This means that a differentiable stack is in a way _nothing else_ but a Lie groupoid: but the point is that equivalence of stacks captures the notion of [[Morita equivalence]] of their presenting (Lie) groupoids.
 
-This means that looking at a Lie groupoid in terms of the stack it presents provides a direct way to recognizing the right notion of equivalence of these objects. The notion of Morita equivalence, on the other hand, proceeds via the reasoning of [[Homotopy Theory]].
+This means that looking at a Lie groupoid in terms of the stack it presents provides a direct way to recognizing the right notion of equivalence of these objects. The notion of Morita equivalence, on the other hand, proceeds via the reasoning of [[homotopy theory]].
 
 Notice that the stack [[presented stack|presented]] by a (Lie) groupoid $G$ is really the stack which sends every test manifold to the category of $G$-principal bundles over that manifold. Such a $G$-principal bundle, also known as a [[torsor]], is analogous to a [[module]] for an algebra. This explains the terminology of "Morita morphisms", which originates in algebra: 
 
