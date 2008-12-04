@@ -1,8 +1,33 @@
+#Idea#
+
 **Anafunctors** are the proper notion of morphism to use between categories in a context where the [[axiom of choice]] fails. Functors, as normally defined, are really not the correct concept.
 
 Anafunctors were first developed by [[Michael Makkai]] to do ordinary category theory with a [[foundations]] that does not include the axiom of choice. Later they were applied by [[Toby Bartels]] to [[internalization|internal categories]], where the axiom of choice is simply not an option. These actually turned out to be known already (at least up to equivalence) in some contexts, in particular as [[Hilsum–Skandalis morphism]]s between [[Lie groupoid]]s.
 
-Anafunctors can be seen as an approach to [[stack]]s through their [[descent data]]. In the spirit of [[higher category theory]], [[Urs Schreiber]] is generalising this to $n$-anafunctors and $\omega$-anafucntors.
+
+#Homtotpy-theoretic interpretation#
+
+From the point of view of the [[Homotopy Theory]] of categories -- the [[folk model structure]] -- anafunctors are precisely the spans out of [[Homotopy Theory|acyclic fibrations]] in $Cat$
+
+$$
+  (anafunctor: C \to D)
+  \Leftrightarrow
+  (span in Cat: \;\;
+    C \lt\stackrel{\simeq}{\leftarrow}
+    \hat H \to D
+  )
+$$
+
+and hence precisely the one-step generalized morphisms. If we restrict from categories to groupoids, then according to the [[folk model structure|groupoid folk model structure]] by Brown-Golasinski all objects are _fibrant_ and then according to Kenneth Brown's theorem in [[homotopical cohomology theory]] it follows that one-step generalized morphisms already realize the full localization of $Groupoids$ in that they represent all morphisms in the [[homotopy category]] $Ho(Groupoids)$.
+
+By the general idea of [[homotopical cohomology theory]]
+this means that anafunctors between groupoids represent [[nonabelian cocycles]] on groupoids with values in groupoids. By the notion of [[descent and codescent|codescent]] such homotopical cocycles are related to [[descent and codescent|descent data]] that enters the definition of [[sheaf|sheaves]] and [[stack]]s.
+
+##Generalizations##
+
+Since the [[folk model structure]] on $Categories$ extends to [[omega category|omega categories]], also the anafunctor concept generalizes to these strict [[higher category theory|higher categories]]. Indeed, again by Brown-Golasinski, $\omega$-groupoids are fibrant with respect to the [[folk model structure]], so that the corresponding _$\omega$-anafunctors_ between $\omega$-groupoids represent cocycles in [[nonabelian cohomology]].
+
+More details on $\omega$-anafunctors are described in the context of [[schreiber:Differential Nonabelian Cohomology]] in the private area of the $n$Lab. 
 
 ## References
 
