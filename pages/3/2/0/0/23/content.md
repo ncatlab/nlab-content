@@ -1,1 +1,3 @@
 See [[internalization]].
+
+category: redirect
