@@ -1,6 +1,6 @@
 #Idea#
 
-Under certain conditions on a given [[Homotopy Theory]] on a category $C$, the morphisms in the homotopy category $Ho(C)$ are represented already by spans 
+Under certain conditions on a given [[homotopy theory]] on a category $C$, the morphisms in the homotopy category $Ho(C)$ are represented already by spans 
 
 $$
   \array{
@@ -31,7 +31,7 @@ The fundamental ideas and facts are given in
 
 This develops the theory of localization in _categories of fibrant objects_ and then applies it to cohomology with coefficients in sheaves with values in combinatorial spectra.
 
-Homotopical cohomology theory in the context of the [[Homotopy Theory]] of simplicial presheaves (presheaves with values in simplcial sets) has been much developed by Jardine. For instance
+Homotopical cohomology theory in the context of the [[homotopy theory]] of simplicial presheaves (presheaves with values in simplcial sets) has been much developed by Jardine. For instance
 
 * J. Jardine, _Cocycle categories_ ([arXiv](http://arxiv.org/abs/math.AT/0605198))
 
