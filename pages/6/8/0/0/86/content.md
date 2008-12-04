@@ -14,12 +14,15 @@ In this context the BV-complex is a [[Homological resolution|homological resolut
 
 _Question_: Can you explain more about this? What do you mean by a "homological resolution of the problem"? Is there a nice example? I went over the [blog entry](http://golem.ph.utexas.edu/category/2008/07/poisson_reduction.html) but it seemed to talk about symplectic/Poisson reduction in its own right and didn't yet make the link with the BV formalism. (Bruce)
 
-_Answer_: I now added a few general remarks on the idea of [[Homological resolution]] as well as the literature below. I also just received a nice article by Alajandro Cabrera which explains this nicely, and I forwarded this to you. (Urs)
-
-
 =--
 
+See [[Homological resolution]].
 
++-- {: .query}
+
+_Comment_: Kevin Costello is preparing a [book](http://www.math.northwestern.edu/~costello/renormalization) on _Renormalization of quantum field theories_, available on his webpage. He has a section entitled _The BV construction as symplectic reduction_ [](http://www.math.northwestern.edu/~costello/chap3.pdf#page=7). Could you somehow link your explanation to that in some way?
+
+=--
 
 
 
@@ -31,10 +34,6 @@ _Answer_: I now added a few general remarks on the idea of [[Homological resolut
  * Alejandro Cabrera, _Homological BV-BRST methods: from QFT to Poisson reduction_ ([pdf](http://www.math.uni-hamburg.de/home/schreiber/Charla_IMPA_BRST.pdf))
 
  * J. Butterfield, _On symplectic reduction in classical mechanis_ ([pdf](http://philsci-archive.pitt.edu/archive/00002373/01/ButterfieldNHSympRed.pdf))
-
-### Homological interpretation of BV-Poisson reduction
-
-Jim Stasheff, _The (secret?) homological algebra of the Batalin-Vilkovisky approach_ ([arXiv](http://arxiv.org/abs/hep-th/9712157))
 
 
 ##Lagrangian BV## 
