@@ -1,3 +1,3 @@
-#Definition#
+See [[spaceoid]].
 
-...
+category: redirect
