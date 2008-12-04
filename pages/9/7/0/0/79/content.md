@@ -16,7 +16,7 @@
 
     * [[Lie theory|Lie Theory]]
 
-      * [[BV-theory|BV-Theory]]
+      * [[BV theory|BV Theory]]
 
     * [[generalized smooth spaces|Generalized Smooth Spaces]]
 
