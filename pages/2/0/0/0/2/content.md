@@ -13,9 +13,9 @@
 
 * [[Content|Content]]
 
-  * [[Math|Mathematics]]
-  * [[Physics|Physics]]
-  * [[Philosophy|Philosophy]]
+  * [[mathematics|Mathematics]]
+  * [[physics|Physics]]
+  * [[philosophy|Philosophy]]
 
 * [[About]]
 
