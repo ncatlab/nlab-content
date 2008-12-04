@@ -29,7 +29,7 @@ Tom Leinster has worked on and written about "comparative $\infty$-categoriology
 
 * Tom Leinster, _Higher Operads, Higher Categories_ ([arXiv](http://arxiv.org/abs/math/0305049))
 
-Recently $(\infty, 1)$-categories (see [[Homotopy Theory]]) have attracted much attention :
+Recently $(\infty, 1)$-categories (see [[homotopy theory]]) have attracted much attention :
 
 * Jacob Lurie, _Higher Topos Theory_ ([arXiv](http://arxiv.org/abs/math.CT/0608040))
 
