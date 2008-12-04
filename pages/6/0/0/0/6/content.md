@@ -1,9 +1,3 @@
-##Physics##
+See [[physics]].
 
-* [[Light Mills]]
-
-* [[Quantum Field Theory]]
-
-  * [[AQFT|AQFT]]
-
-  * [[FQFT|FQFT]]
+category: redirect
