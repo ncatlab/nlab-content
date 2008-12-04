@@ -10,6 +10,11 @@ BV theory is the answer to two different questions:
 
 In this context the BV-complex is a homological resolution of the problem of taking quotients of symplectic manifolds by group actions. 
 
++-- {: .query}
+
+_Question_: Can you explain more about this? What do you mean by a "homological resolution of the problem"? Is there a nice example? I went over the [blog entry](http://golem.ph.utexas.edu/category/2008/07/poisson_reduction.html) but it seemed to talk about symplectic/Poisson reduction in its own right and didn't yet make the link with the BV formalism. (Bruce)
+
+=--
 
 
 ### Poisson/symplectic reduction ###
