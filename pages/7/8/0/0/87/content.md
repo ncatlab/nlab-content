@@ -4,11 +4,9 @@
 
 Anafunctors were first developed by [[Michael Makkai]] to do ordinary category theory with a [[foundations]] that does not include the axiom of choice. Later they were applied by [[Toby Bartels]] to [[internalization|internal categories]], where the axiom of choice is simply not an option. These actually turned out to be known already (at least up to equivalence) in some contexts, in particular as [[Hilsum–Skandalis morphism]]s between [[Lie groupoid]]s.
 
-
-
 #Homotopy-theoretic interpretation#
 
-From the point of view of the [[Homotopy Theory]] of categories -- the [[folk model structure]] -- anafunctors are precisely the spans out of [[Homotopy Theory|acyclic fibrations]] in $Cat$
+From the point of view of the [[homotopy theory]] of categories -- the [[folk model structure]] -- anafunctors are precisely the spans out of [[homotopy theory|acyclic fibrations]] in $Cat$
 
 $$
   (anafunctor: C \to D)
@@ -32,6 +30,12 @@ $$
   )
   \,.
 $$
+
++-- {: .query}
+
+I think that you're wrong here, Urs. Having both spans acyclic makes the anafunctor *invertible*, not *saturated*. Similarly, Morita equivalences are invertible, while Hilsum&#8211;Skandalis morphisms need not be. (The difference between saturated and unsaturated anafunctors is not vital, since they are the same up to equivalence (but not isomorphism). Whether an anafunctor is invertible, in contrast, is very important.) &#8212;[[Toby Bartels]]
+
+=--
 
 In the context of [[Lie groupoid]] theory such spans are known as [[Morita equivalence]]s.
 
