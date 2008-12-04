@@ -84,7 +84,7 @@ and in the introduction of
 
 This failure of Lie III for [[Lie groupoid|Lie groupoids]], i.e. for [[groupoid]]s [[internalization|internal to]] $Manifolds$ seems to suggest that the category of $Manifolds$ is not the natural home for general [[Lie theory]]. More concretely, it seems to suggest that [[Lie theory]] ought to be practiced [[internalization|internal to]] some category of [[generalized smooth spaces]].
 
-One such choice is given by replacing manifolds by [[differentiable stacks]].
+One such choice is given by replacing manifolds by [[differentiable stack]]s.
 
 #Generalization of Lie's theorems to stacky Lie groupoids#
 
