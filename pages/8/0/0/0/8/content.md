@@ -1,2 +1,3 @@
+See [[sheaf and topos theory]].
 
- *  [[classifying topos]]
+category: redirect
