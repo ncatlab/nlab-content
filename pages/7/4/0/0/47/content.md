@@ -196,6 +196,7 @@ _Question_: Why did the chicken cross the road?
 
 ## Categories
 
+{:commenttoby: style="color:indigo; font-size: 90%; margin-left:2em;"}
 +-- {: commenttoby}
 
 Those of you writing here must have noticed it, but I've put little category tabs at the bottom of some pages (such as this one). The first one was category\: people, put on [[Jacques Distler]] by Jacques himself, and I just followed that. I think that the categories are self explanatory; you can find them all from the 'All Pages' link (or click on 'category\: meta' below).
@@ -222,4 +223,8 @@ I talked with Urs about naming conventions [here](http://golem.ph.utexas.edu/cat
 
 =--
 
+
++-- {: commentbruce}
+Yes sir! &#8212;Bruce
+=--
 category: meta
