@@ -1,6 +1,14 @@
 #Idea#
 
-$\omega$-Categories are precisely those [[globular set|globular]] [[higher category theory|infinity-categories]] which are _strict_, meaning that 
+$\omega$-Categories are precisely those [[globular set|globular]] [[higher category theory|infinity-categories]] which are _strict_.
+
++-- {: .query}
+
+Who actually uses the language this way? If anything, it should be the reverse, as 'omega' is Greek (like 'bi', 'tri', and 'tetra') and 'infinity' is not.
+
+=--
+
+This means that 
 
  * all composition operations are strictly associative;
 
