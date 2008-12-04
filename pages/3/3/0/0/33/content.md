@@ -21,6 +21,12 @@ If you call that 'oidification', then you can call this simply 'categorification
 
 #Further discussion#
 
-A bit of $n$-Caf&#233; discussion on this is in 
+A bit of $n$-Caf&#233; discussion on this subject can be found here: 
 
 * [[John Baez]], [_What is categorification?_](http://golem.ph.utexas.edu/category/2008/10/what_is_categorification.html)
+
+#References#
+
+* [[John Baez]] and [[James Dolan]], [Categorification](http://arxiv.org/abs/math.QA/9802029), in _Higher Category
+Theory_, eds. Ezra Getzler and Mikhail Kapranov,
+Contemp. Math. 230, American Mathematical Society, Providence, Rhode Island, 1998, pp. 1-36.
