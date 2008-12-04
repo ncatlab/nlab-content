@@ -232,7 +232,7 @@ Also, thanks for the comment style. I see now how they're made!
 &#8212;Toby
 =--
 
-{:commentsimon: style="color: LightSlateGrey; font-size: 90%; margin-left:2em;"}
+{:commentsimon: style="color: #8B4513; font-size: 90%; margin-left:2em;"}
 
 +-- {: commentsimon}
 Sorry, I haven't been keeping up, lots of other stuff on, but just stuck my nose through the door to see how the decorating is going.  With regard to these naming conventions I tried to rename the Math page Mathematics to get round the US/UK thing, I now see it has been renamed.  Keep up the good work.  &#8212;Simon
