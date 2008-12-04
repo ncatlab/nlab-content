@@ -1,6 +1,6 @@
 #Essentially surjective, faithful, and full functors#
 
-... the standard stuff...
+The standard stuff: &lt;http://math.ucr.edu/home/baez/qg-spring2004/discussion.html>
 
 #Generalization to $\infty$-categories#
 
@@ -94,7 +94,7 @@ The general idea of $k$-surjectivity is described around [definition 4](http://a
 
 The concrete discussion in the context of [[omega-category|omega-categories]] is in
 
-* Yves Lafont, Francois M&#233;tayer, Krzysztof Worytkiewicz, _A folk model structure on $\omega$-cat_ ([arXiv](http://arxiv.org/abs/0712.0617)).
+* Yves Lafont, Francois M&eacute;tayer, Krzysztof Worytkiewicz, _A folk model structure on $\omega$-cat_ ([arXiv](http://arxiv.org/abs/0712.0617)).
 
 The analogous discussion for simplicial set is in
 
