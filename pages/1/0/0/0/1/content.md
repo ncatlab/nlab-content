@@ -15,3 +15,4 @@ But this site has only just started operation.   We are still trying to get it o
 
 * Go to the [[General Discussion]] page to discuss ideas on how the $n$Lab should work.
 
+category: meta
