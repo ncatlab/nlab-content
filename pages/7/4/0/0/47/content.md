@@ -228,7 +228,10 @@ I talked with Urs about naming conventions [here](http://golem.ph.utexas.edu/cat
 Yes sir! &#8212;Bruce
 =--
 
-+-- {:response}
+
+{:commentsimon: style="color: LightSlateGrey; font-size: 90%; margin-left:2em;"}
+
++-- {: commentsimon}
 Sorry, I haven't been keeping up, lots of other stuff on, but just stuck my nose through the door to see how the decorating is going.  With regard to these naming conventions I tried to rename the Math page Mathematics to get round the US/UK thing, I now see it has been renamed.  Keep up the good work.  &#8212;Simon
 
 =--
