@@ -44,7 +44,7 @@ $$
 $$
 (which commutes due to the functoriality axioms of $f$) is an [[epimorphism]].
 
-**Proposition** An $\omega$-functor $f : C \to D$ is $k$-surjective for $k \in \mathbb{N}$ precisely if it has the right [[lifting property]] with respect to the inclusion $\partial G_{k} \to G_k$ of the boundary of the [[n-glob|k-glob]] into the [[n-glob|k-glob]].
+**Proposition** An $\omega$-functor $f : C \to D$ is $k$-surjective for $k \in \mathbb{N}$ precisely if it has the right [[lifting property]] with respect to the inclusion $\partial G_{k} \to G_k$ of the boundary of the $k$-[[globe]] into the $k$-[[globe]].
 
 $$
   \array{
