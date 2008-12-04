@@ -35,4 +35,6 @@ Contemp. Math. 230, American Mathematical Society, Providence, Rhode Island, 199
 
 We should have a pointer to the work that introduced the term first. I forget. Crane and ... (?)
 
+Possible answer: Crane and Yetter, [Examples of categorification](http://arxiv.org/abs/q-alg/9607028)
+
 =--
