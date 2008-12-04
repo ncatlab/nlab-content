@@ -1,7 +1,3 @@
-##Philosophy##
+See [[philosophy]].
 
-* [[A]]
-
-* [[B]]
-
-* [[C]]
+category: redirect
