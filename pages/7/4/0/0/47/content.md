@@ -198,7 +198,12 @@ _Question_: Why did the chicken cross the road?
 
 +-- {: commenttoby}
 
-Those of you writing here must have noticed it, but I've put little category tabs at the bottom of some pages (such as this one). The first one was category\: people, put on [[Jacques Distler]] by Jacques himself, and I just followed that. I think that the categories are self explanatory; you can find them all from the 'All Pages' link (or click on 'category\: meta' below). I've just created category\: redirect and trying to apply a few [naming conventions](http://golem.ph.utexas.edu/category/2008/11/nlab.html#c020626). Let me know (say with a query [[Toby Bartels|here]]?) if I do anything wrong.
+Those of you writing here must have noticed it, but I've put little category tabs at the bottom of some pages (such as this one). The first one was category\: people, put on [[Jacques Distler]] by Jacques himself, and I just followed that. I think that the categories are self explanatory; you can find them all from the 'All Pages' link (or click on 'category\: meta' below).
+
+I've just created category\: redirect and trying to apply a few [naming conventions](http://golem.ph.utexas.edu/category/2008/11/nlab.html#c020626). Let me know (say with a query comment [[Toby Bartels|here]]?) if I do anything wrong.
+
+Anyway, in the future, it may be useful also to have content-related categories, but that may want to wait until we know better what the shape of the content here will be.
+
 &#8212;Toby (who doesn't have a comment colour yet but likes deep indigo)
 
 =--
