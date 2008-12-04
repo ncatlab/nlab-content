@@ -1,8 +1,8 @@
 #Idea#
 
-Orientals are "oriented simplices": the $n$-th oriental $O(\Delta^n)$ is the simplicial $n$-simplex equipped with the structure of a (free, see below) [[omega-category]] such that $k$-morphisms in $O(\Delta^n)$ are pasting diagrams of $k$-faces in $\Delta^n$.
+Orientals are "oriented simplices": the $n$-th oriental is the simplicial $n$-simplex equipped with source and target relations, assigning to each $k$-face a set of $(k-1)$-faces called its source and a set of $(k-1)$-faces called its target, subject to some natural axioms. Each oriental freely generates (see below) a structure of a [[omega-category]] $O(\Delta^n)$, such that $k$-morphisms in $O(\Delta^n)$ are pasting diagrams of $k$-faces in $\Delta^n$.
 
-Therefore orientals translate between the [[simplicial set|simplicial]] and the [[globular set|globular]] world of [[higher category theory|infinity-categories]].
+One of the axioms is a globularity axiom, which says that the source of a source (that is, the union of sources of all $(k-1)$-faces in the source of a $k$-face) equals the source of the target, and similarly that the target of a source equals the target of the target. Thus, orientals mediate between the [[simplicial set|simplicial]] and the [[globular set|globular]] world of [[higher category theory|infinity-categories]].
 
 The first few orientals look as follows:
 
@@ -37,6 +37,8 @@ $$
   \,.
 $$
 
+The nerve functor is faithful. This means that omega categories can be regarded as simplicial sets equipped with extra structure. The precise nature of this structure was identified by Dominic Verity ("complicial sets") in his work on the D&ouml;plicher-Roberts conjecture (citation needed). 
+
 ## Free $\omega$-Category on a simplicial set##
 
 The $\omega$-nerve has a left [[adjoint]], the free $\omega$category on a simplicial set
@@ -53,8 +55,13 @@ $$
   \,.
 $$
 
-(Here one uses that $\omega Cat$ is naturally tensored over $Sets$. See [[Enriched Category Theory]].)
+(Here one uses that $\omega Cat$ is naturally tensored over $Sets$: the notation $S_n \cdot O([n])$ refers to a coproduct of an $S_n$-indexed collection of copies of $O([n])$. See also [[Enriched Category Theory]].)
 
+Because the nerve functor is faithful, the counit of the adjunction $F \dashv N$, 
+
+$$\varepsilon_C: F N C \to C,$$ 
+
+is an epimorphism for omega categories $C$. 
 
 +-- {: .query}
 
