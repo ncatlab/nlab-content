@@ -1,6 +1,6 @@
 #Internal Categories and Groupoids#
 
-The notion of a category can be formulated _internal_ to any other category with enough pullbacks. By regarding groups as one-object [[Groupoid|groupoids]], this generalizes the familiar way in which, for instance
+The notion of a category can be formulated _internal_ to any other category with enough pullbacks. By regarding groups as one-object [[groupoid|groupoids]], this generalizes the familiar way in which, for instance
 
  * topological groups are groups _internal to topological spaces_
  
