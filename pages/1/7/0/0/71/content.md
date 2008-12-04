@@ -55,7 +55,7 @@ $$
   \,.
 $$
 
-(Here one uses that $\omega Cat$ is naturally tensored over $Sets$: the notation $S_n \cdot O([n])$ refers to a coproduct of an $S_n$-indexed collection of copies of $O([n])$. See also [[Enriched Category Theory]].)
+(Here one uses that $\omega Cat$ is naturally tensored over $Sets$: the notation $S_n \cdot O([n])$ refers to a coproduct of an $S_n$-indexed collection of copies of $O([n])$. See also [[enriched category theory]].)
 
 Because the nerve functor is faithful, the counit of the adjunction $F \dashv N$, 
 
