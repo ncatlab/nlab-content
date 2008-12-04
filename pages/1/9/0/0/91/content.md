@@ -1,6 +1,6 @@
 #Idea#
 
-Globular sets are to [[simplicial set]]s as simplices are to [[globe]]s.
+Globular sets are to [[simplicial set]]s as [[globe]]s are to simplices.
 
 #Definition#
 
