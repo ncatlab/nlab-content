@@ -208,4 +208,18 @@ Anyway, in the future, it may be useful also to have content-related categories,
 
 =--
 
+## Naming conventions
+
++-- {: commenttoby}
+
+I talked with Urs about naming conventions [here](http://golem.ph.utexas.edu/category/2008/11/nlab.html#c020626). To be complete, here are the naming conventions that I propose (and which I have, for now, imposed on every page currently in the wiki):
+* Page titles should be nouns. If you want an adjective that normally modifies the same noun, then use the entire noun phrase. If you want an adjective that applies to many different contexts, then try adding '-ness' to make a noun. If you want a verb, then try adding '-ing' or '-ation' to make a noun (example: [[categorification]].
+* Page titles should be uncapitalised, except for word words that are always capitalised. (Examples: [[light mill]], but [[Lie algebra]].)
+* Page titles should be singular, unless the phrase usually occurs in the plural (so effectively a mass noun or a collective noun, rarely if ever referring to individuals). Examples: [[Lie groupoid]], but [[Lie's three theorems]].
+* Titles should follow standard American English spelling conventions. Examples: [[internalization]] (with 'z'), [[omega-category]] (with hyphen as in $\omega$-category) but [[BRST complex]], [[Chevalley–Eilenberg algebra]] (with endash since they are two people) but [[Burali-Forti paradox]] (with hyphen since he is one person).
+
+&#8212;Toby (who prefers British spelling, but Urs and John use American)
+
+=--
+
 category: meta
