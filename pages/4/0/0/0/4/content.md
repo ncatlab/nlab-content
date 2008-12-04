@@ -1,1 +1,3 @@
-category: meta
+See [[classifying topos]]
+
+category: redirect
