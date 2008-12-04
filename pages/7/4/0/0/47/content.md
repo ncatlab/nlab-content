@@ -238,4 +238,11 @@ Also, thanks for the comment style. I see now how they're made!
 Sorry, I haven't been keeping up, lots of other stuff on, but just stuck my nose through the door to see how the decorating is going.  With regard to these naming conventions I tried to rename the Math page Mathematics to get round the US/UK thing, I now see it has been renamed.  Keep up the good work.  &#8212;Simon
 =--
 
++-- {: commenturs}
+
+Thanks, Toby, for your efforts! I appreciate it. These naming convention suggestions are good. If and when I do not adhere to them, it is because of me not paying enough attention to what my fingers are doing, which happens. -- Urs
+
+=--
+
+
 category: meta
