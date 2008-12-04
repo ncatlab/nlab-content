@@ -6,7 +6,7 @@ In its original sense, a **Morita equivalence** is a morphism between two algebr
 
 ## In homotopy theory ##
 
-In any [[Homotopy Theory]] context a **Morita equivalence** between objects $C$ and $D$ is  a span 
+In any [[homotopy theory]] context a **Morita equivalence** between objects $C$ and $D$ is  a span 
 
 $$
   C \lt \stackrel{\simeq}{\leftarrow}
