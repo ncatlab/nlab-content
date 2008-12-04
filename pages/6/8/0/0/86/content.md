@@ -22,6 +22,8 @@ See [[Homological resolution]].
 
 _Comment_: Kevin Costello is preparing a [book](http://www.math.northwestern.edu/~costello/renormalization) on _Renormalization of quantum field theories_, available on his webpage. He has a section entitled _The BV construction as symplectic reduction_ [](http://www.math.northwestern.edu/~costello/chap3.pdf#page=7). Could you somehow link your explanation to that in some way?
 
+_Urs says:_ Costello is using the _Langrangian BV-formalism_, as far as I am aware. 
+
 =--
 
 
@@ -34,6 +36,11 @@ _Comment_: Kevin Costello is preparing a [book](http://www.math.northwestern.edu
  * Alejandro Cabrera, _Homological BV-BRST methods: from QFT to Poisson reduction_ ([pdf](http://www.math.uni-hamburg.de/home/schreiber/Charla_IMPA_BRST.pdf))
 
  * J. Butterfield, _On symplectic reduction in classical mechanis_ ([pdf](http://philsci-archive.pitt.edu/archive/00002373/01/ButterfieldNHSympRed.pdf))
+
+
+### Homological interpretation of BV-Poisson reduction
+
+Jim Stasheff, _The (secret?) homological algebra of the Batalin-Vilkovisky approach_ ([arXiv](http://arxiv.org/abs/hep-th/9712157))
 
 
 ##Lagrangian BV## 
