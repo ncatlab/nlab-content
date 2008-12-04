@@ -19,29 +19,16 @@ $$
 
 and hence precisely the one-step generalized morphisms. 
 
-**Saturated anafunctors** are precisely those spans where als the right leg is an acyclic fibration
-
-$$
-  (saturated anafunctor: C \to D)
-  \Leftrightarrow
-  (span in Cat: \;\;
-    C \lt\stackrel{\simeq}{\leftarrow}
-    \hat H \stackrel{\simeq}{\to}\gt D
-  )
-  \,.
-$$
+**Saturated anafunctors** are those spans as above where the right leg is furthermore [[k-surjectivity|0-surjective]].
 
 +-- {: .query}
 
-I think that you're wrong here, Urs. Having both spans acyclic makes the anafunctor *invertible*, not *saturated*. Similarly, Morita equivalences are invertible, while Hilsum&#8211;Skandalis morphisms need not be. (The difference between saturated and unsaturated anafunctors is not vital, since they are the same up to equivalence (but not isomorphism). Whether an anafunctor is invertible, in contrast, is very important.) &#8212;[[Toby Bartels]]
-
-_Urs says:_ Yes, right, thanks. I want to say that these
-are the Morita equivalences, as in the next sentence.
-Should correct this. But need to run now.
+_Urs says:_ I had this thing about saturation wrong before and Toby corrected me. Hope it is right now. Please check.
 
 =--
 
-In the context of [[Lie groupoid]] theory such spans are known as [[Morita equivalence]]s.
+An anafunctor is a **[[Morita equivalence]]** if it is a span as above, with the right leg also an acyclic fibration.
+(This terminology is used for [[Lie groupoid]]).
 
 If we restrict from categories to groupoids, then according to the [[folk model structure|groupoid folk model structure]] by Brown-Golasinski all objects are _fibrant_ and then according to Kenneth Brown's theorem in [[homotopical cohomology theory]] it follows that one-step generalized morphisms already realize the full localization of $Groupoids$ in that they represent all morphisms in the [[homotopy category]] $Ho(Groupoids)$.
 
@@ -57,6 +44,14 @@ More details on $\omega$-anafunctors are described in the context of [[schreiber
 ## Additive version ##
 
 The notion of abelian [[butterfly]] introduced by Behrang Noohi [Weak maps of 2-groups](http://arxiv.org/abs/math.CT/0506313) is the additive version of the notion of (saturated) anafunctor: the equivalence between, on the one hand, internal groupoids and internal functors and, on the other hand, arrows and commutative squares in an abelian category extends to an equivalence between saturated anafunctors and butterflies.
+
++-- {: .query}
+
+_Urs says:_ Why do you restrict this to the abelian case? From 
+[page  16](http://arxiv.org/PS_cache/math/pdf/0506/0506313v3.pdf#page=16)  of Noohi's article I got the impression that he is precisely describing the ana-2-functors between one-object 2-groupoids in terms of the corresponding (possibly nonabelian) crossed modules. 
+
+=--
+
 
 ## References
 
