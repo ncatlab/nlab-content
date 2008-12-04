@@ -10,6 +10,8 @@ $\omega$-Categories are precisely those [[globular set|globular]] [[higher categ
 
 We may want to discuss whether the $n$Lab adopts traditional terminology, or takes this historic opportunity to play Bourbaki and choose consistent terminology for the future (while still explaining the traditional terms, or course).  In any event, globular strict $\omega$-categories are worth talking about, and that's what this page is about!
 
+[[Toby Bartels]]: I agree with you and Tom about '$n$-category', and I agree that the strict globular case is worth talking about. I only question making a terminological distinction between '$\omega$-category' for the strict globular concept and '$\infty$-category' for the general weak case; (this seems to go against both the Greek-prefixes-for-the-weak-concept convention *and* the usual-name-for-the-weak-concept convention!). And I'm wondering if this distinction is established somewhere.
+
 =--
 
 This means that 
