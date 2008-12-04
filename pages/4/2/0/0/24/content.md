@@ -1,3 +1,3 @@
-Plural of [[Lie groupoid]].
+See [[Lie groupoid]].
 
-
+category: redirect
