@@ -65,7 +65,7 @@ this $S^\bullet(\mathfrak{g})$ was realized
 
 * as [[internalization|internal to]] $Manifolds$ for the case that $\mathfrak{g}$ is a nilpotent $L_\infty$-algebra;
 
-* as having the property of being a [[Kan-complex]].
+* as having the property of being a [[Kan complex]].
 
 This then makes $S^\bullet(\mathfrak{g})$ a _Lie $\infty$-groupoid_, which is regarded as the structure which _Lie-integrates_ $\mathfrak{g}$ in the context of [[Lie theory]].
 
