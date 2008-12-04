@@ -35,6 +35,10 @@ $$
 
 I think that you're wrong here, Urs. Having both spans acyclic makes the anafunctor *invertible*, not *saturated*. Similarly, Morita equivalences are invertible, while Hilsum&#8211;Skandalis morphisms need not be. (The difference between saturated and unsaturated anafunctors is not vital, since they are the same up to equivalence (but not isomorphism). Whether an anafunctor is invertible, in contrast, is very important.) &#8212;[[Toby Bartels]]
 
+_Urs says:_ Yes, right, thanks. I want to say that these
+are the Morita equivalences, as in the next sentence.
+Should correct this. But need to run now.
+
 =--
 
 In the context of [[Lie groupoid]] theory such spans are known as [[Morita equivalence]]s.
