@@ -5,6 +5,7 @@
 Anafunctors were first developed by [[Michael Makkai]] to do ordinary category theory with a [[foundations]] that does not include the axiom of choice. Later they were applied by [[Toby Bartels]] to [[internalization|internal categories]], where the axiom of choice is simply not an option. These actually turned out to be known already (at least up to equivalence) in some contexts, in particular as [[Hilsum–Skandalis morphism]]s between [[Lie groupoid]]s.
 
 
+
 #Homotopy-theoretic interpretation#
 
 From the point of view of the [[Homotopy Theory]] of categories -- the [[folk model structure]] -- anafunctors are precisely the spans out of [[Homotopy Theory|acyclic fibrations]] in $Cat$
@@ -18,7 +19,23 @@ $$
   )
 $$
 
-and hence precisely the one-step generalized morphisms. If we restrict from categories to groupoids, then according to the [[folk model structure|groupoid folk model structure]] by Brown-Golasinski all objects are _fibrant_ and then according to Kenneth Brown's theorem in [[homotopical cohomology theory]] it follows that one-step generalized morphisms already realize the full localization of $Groupoids$ in that they represent all morphisms in the [[homotopy category]] $Ho(Groupoids)$.
+and hence precisely the one-step generalized morphisms. 
+
+**Saturated anafunctors** are precisely those spans where als the right leg is an acyclic fibration
+
+$$
+  (saturated anafunctor: C \to D)
+  \Leftrightarrow
+  (span in Cat: \;\;
+    C \lt\stackrel{\simeq}{\leftarrow}
+    \hat H \stackrel{\simeq}{\to}\gt D
+  )
+  \,.
+$$
+
+In the context of [[Lie groupoid]] theory such spans are known as [[Morita equivalence]]s.
+
+If we restrict from categories to groupoids, then according to the [[folk model structure|groupoid folk model structure]] by Brown-Golasinski all objects are _fibrant_ and then according to Kenneth Brown's theorem in [[homotopical cohomology theory]] it follows that one-step generalized morphisms already realize the full localization of $Groupoids$ in that they represent all morphisms in the [[homotopy category]] $Ho(Groupoids)$.
 
 By the general idea of [[homotopical cohomology theory]]
 this means that anafunctors between groupoids represent [[nonabelian cocycles]] on groupoids with values in groupoids. By the notion of [[descent and codescent|codescent]] such homotopical cocycles are related to [[descent and codescent|descent data]] that enters the definition of [[sheaf|sheaves]] and [[stack]]s.
