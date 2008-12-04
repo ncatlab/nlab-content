@@ -37,4 +37,4 @@ We write
 $$
   L_\infty Algebroids \stackrel{CE(-)}{\to} qDGCAs
 $$
-for the corresponding contravariant functor and address the qDGCA $CE(g) := (\wedge^\bullet g^*, d)$ as the (generalized) [[Chevalley-Eilenberg algebra]] of $g$.
+for the corresponding contravariant functor and address the qDGCA $CE(g) := (\wedge^\bullet g^*, d)$ as the (generalized) [[Chevalley–Eilenberg algebra]] of $g$.
