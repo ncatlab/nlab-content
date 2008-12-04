@@ -5,7 +5,7 @@
 Anafunctors were first developed by [[Michael Makkai]] to do ordinary category theory with a [[foundations]] that does not include the axiom of choice. Later they were applied by [[Toby Bartels]] to [[internalization|internal categories]], where the axiom of choice is simply not an option. These actually turned out to be known already (at least up to equivalence) in some contexts, in particular as [[Hilsum–Skandalis morphism]]s between [[Lie groupoid]]s.
 
 
-#Homtotpy-theoretic interpretation#
+#Homotopy-theoretic interpretation#
 
 From the point of view of the [[Homotopy Theory]] of categories -- the [[folk model structure]] -- anafunctors are precisely the spans out of [[Homotopy Theory|acyclic fibrations]] in $Cat$
 
@@ -28,6 +28,10 @@ this means that anafunctors between groupoids represent [[nonabelian cocycles]] 
 Since the [[folk model structure]] on $Categories$ extends to [[omega category|omega categories]], also the anafunctor concept generalizes to these strict [[higher category theory|higher categories]]. Indeed, again by Brown-Golasinski, $\omega$-groupoids are fibrant with respect to the [[folk model structure]], so that the corresponding _$\omega$-anafunctors_ between $\omega$-groupoids represent cocycles in [[nonabelian cohomology]].
 
 More details on $\omega$-anafunctors are described in the context of [[schreiber:Differential Nonabelian Cohomology]] in the private area of the $n$Lab. 
+
+## Additive version ##
+
+The notion of abelian [[butterfly]] introduced by Behrang Noohi [Weak maps of 2-groups](http://arxiv.org/abs/math.CT/0506313) is the additive version of the notion of (saturated) anafunctor: the equivalence between, on the one hand, internal groupoids and internal functors and, on the other hand, arrows and commutative squares in an abelian category extends to an equivalence between saturated anafunctors and butterflies.
 
 ## References
 
