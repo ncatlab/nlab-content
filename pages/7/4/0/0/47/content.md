@@ -198,21 +198,18 @@ _Question_: Why did the chicken cross the road?
 
 {:commenttoby: style="color:indigo; font-size: 90%; margin-left:2em;"}
 +-- {: commenttoby}
-
 Those of you writing here must have noticed it, but I've put little category tabs at the bottom of some pages (such as this one). The first one was category\: people, put on [[Jacques Distler]] by Jacques himself, and I just followed that. I think that the categories are self explanatory; you can find them all from the 'All Pages' link (or click on 'category\: meta' below).
 
 I've just created category\: redirect and trying to apply a few [naming conventions](http://golem.ph.utexas.edu/category/2008/11/nlab.html#c020626). Let me know (say with a query comment [[Toby Bartels|here]]?) if I do anything wrong.
 
 Anyway, in the future, it may be useful also to have content-related categories, but that may want to wait until we know better what the shape of the content here will be.
 
-&#8212;Toby (who doesn't have a comment colour yet but likes deep indigo)
-
+&#8212;Toby
 =--
 
 ## Naming conventions
 
 +-- {: commenttoby}
-
 I talked with Urs about naming conventions [here](http://golem.ph.utexas.edu/category/2008/11/nlab.html#c020626). To be complete, here are the naming conventions that I propose (and which I have, for now, imposed on every page currently in the wiki):
 * Page titles should be nouns. If you want an adjective that normally modifies the same noun, then use the entire noun phrase. If you want an adjective that applies to many different contexts, then try adding '-ness' to make a noun. If you want a verb, then try adding '-ing' or '-ation' to make a noun (example: [[categorification]].
 * Page titles should be uncapitalised, except for word words that are always capitalised. (Examples: [[light mill]], but [[Lie algebra]].)
@@ -220,19 +217,25 @@ I talked with Urs about naming conventions [here](http://golem.ph.utexas.edu/cat
 * Titles should follow standard American English spelling conventions. Examples: [[internalization]] (with 'z'), [[omega-category]] (with hyphen as in $\omega$-category) but [[BRST complex]], [[Chevalley–Eilenberg algebra]] (with endash since they are two people) but [[Burali-Forti paradox]] (with hyphen since he is one person).
 
 &#8212;Toby (who prefers British spelling, but Urs and John use American)
-
 =--
-
 
 +-- {: commentbruce}
 Yes sir! &#8212;Bruce
 =--
 
+{:responsetoby: style="color:indigo; font-size: 90%; margin-left:3em;"}
++-- {: responsetoby}
+I trust you're joking, Bruce, but I hope that nobody gets hard-nosed about these conventions, at least not yet. They are just suggestion, good ones I hope, but it's not too late to change or reject them, and the whole community should be involved in that.
+
+Also, thanks for the comment style. I see now how they're made!
+
+&#8212;Toby
+=--
 
 {:commentsimon: style="color: LightSlateGrey; font-size: 90%; margin-left:2em;"}
 
 +-- {: commentsimon}
 Sorry, I haven't been keeping up, lots of other stuff on, but just stuck my nose through the door to see how the decorating is going.  With regard to these naming conventions I tried to rename the Math page Mathematics to get round the US/UK thing, I now see it has been renamed.  Keep up the good work.  &#8212;Simon
-
 =--
+
 category: meta
