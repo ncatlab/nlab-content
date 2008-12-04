@@ -1,3 +1,3 @@
-#Definition#
+See [[Lie algebra]].
 
-[Lie algebra](http://en.wikipedia.org/wiki/Lie_algebra)
+category: redirect
