@@ -1,30 +1,31 @@
 #Definition#
 
-_Horizontal categorification_ or _[[Oidification]]_ 
+_Horizontal categorification_ or _Oidification_ 
 describes the process by which 
 
  1. a concept is realized to be equivalent to a certain type of category with a _single object_;
 
- 2. and then this concept is generalized -- or [[oidification|oidified]] -- by passing to instances of such types of categories with more than one object.
-
+ 2. and then this concept is generalized -- or oidified -- by passing to instances of such types of categories with more than one object.
 
 #Remarks#
 
 * This is to be contrasted with [[vertical categorification]].
 
-* It can be argued that the term "categorification" should be reserved for [[vertical categorification]].
+* It can be argued that the term 'categorification' should be reserved for [[vertical categorification]], since we can use 'oidification' for the horizontal concept.
+
+* It has rightly been remarked that groupoids are more fundamental than groups, algebroids are more fundamental than algebras, etc. Hence in a better world, the suffix would be characterizing the one-object special cases, not the general concepts.
 
 #Examples#
 
-* The horizontal categorification of groups are [[groupoids]]: categories in which every morphisms is invertible.
+* The horizontal categorification of groups are [[groupoid]]s: categories in which every morphism is invertible.
 
-* The horizontal categorification of algebras are _algebroids_: categories [[Internalization|internal to]] the category of vector spaces.
+* The horizontal categorification of algebras are _algebroids_: categories [[internalization|internal to]] the category of vector spaces.
 
-* The horizontal categorification of rings are [[ringoids]]: categories [[internalization|internal to]] the category of abelian groups. ([blog](http://golem.ph.utexas.edu/category/2006/09/ringoids.html))
+* The horizontal categorification of rings are [[ringoid]]s: categories [[internalization|internal to]] the category of abelian groups. ([blog](http://golem.ph.utexas.edu/category/2006/09/ringoids.html))
 
-* The horizontal categorification of $C^*$-algebras hence ought to be known as _$C^*$--algebroids_  but is usually known as [[Cstar-categories|C*-categories]].
+* The horizontal categorification of $C^*$-algebras hence ought to be known as _$C^*$--algebroids_  but is usually known as [[C*-category|C*-categories]].
 
-* Since, by the Gelfand theorem, $C^*$-algebras are dual to topological spaces, Paolo Bertozzini et. al proposed to define [[spaceoids]] to be entities dual to $C^*$-categories ([blog](http://golem.ph.utexas.edu/category/2008/01/spaceoids.html)).
+* Since, by the Gelfand theorem, $C^*$-algebras are dual to topological spaces, Paolo Bertozzini et. al proposed to define [[spaceoid]]s to be entities dual to $C^*$-categories ([blog](http://golem.ph.utexas.edu/category/2008/01/spaceoids.html)).
 
 * And finally the **exception from the rule**: a many-object [[monoid]] is _not_ called a _monoidoid_ -- but is called a [[category]]! :-)
 
