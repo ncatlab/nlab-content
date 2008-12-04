@@ -14,16 +14,16 @@ For a very gentle introduction to higher category theory, try [The Tale of <em>n
 
 For a slightly more formal but still pathetically easy introduction, try:
 
-<ul>
-<li>
-John Baez, [An introduction to <em>n</em>-categories](http://arxiv.org/abs/q-alg/9705009), in
+* John Baez, [An Introduction to n-Categories](http://arxiv.org/abs/q-alg/9705009), in
 <em>7th Conference on Category Theory and Computer Science</em>, eds.
 E. Moggi and G. Rosolini, Springer Lecture Notes in
-Computer Science vol. 1290, Springer, Berlin, 1997.
-</li>
-</ul>
+Computer Science vol. 1290, Springer, Berlin, 1997. 
 
-Tom Leinster has worked on and written about "comparative $\infty$-categoriology" (to [borrow](http://golem.ph.utexas.edu/category/2008/01/comparative_smootheology.html) a term):
+For a free introductory text on $n$-categories that's <i>full of pictures</i>, try this:
+
+* Eugenia Cheng and Aaron Lauda, [Higher-Dimensional Categories: An Illustrated Guidebook](http://www.dpmms.cam.ac.uk/~elgc2/guidebook/).
+
+Tom Leinster has written about "comparative $\infty$-categoriology" (to [borrow](http://golem.ph.utexas.edu/category/2008/01/comparative_smootheology.html) a term):
 
 * Tom Leinster, _A Survey of Definitions of n-Category_ ([arXiv](http://arxiv.org/abs/math.CT/0107188))
 
