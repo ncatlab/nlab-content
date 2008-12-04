@@ -22,7 +22,7 @@ from the [[simplicial category]] $\Delta$ to the category of [[omega-category|om
 
 ## $\omega$-Nerve ##
 
-The $\omega$-nerve $N(C)$ of an [[omega category]] $C$ is a simplicial set which generalizes the [[nerve]] of an ordinary category: the collection of $k$-simplices in $N(C)$ is the collection of images of the $k$-th oriental $O_k$ in $C$, i.e.
+The $\omega$-nerve $N(C)$ of an [[omega-category]] $C$ is a simplicial set which generalizes the [[nerve]] of an ordinary category: the collection of $k$-simplices in $N(C)$ is the collection of images of the $k$-th oriental $O_k$ in $C$, i.e.
 
 $$
   (N(C))_k := Hom_{\omega Cat}(O([k]), C)
@@ -47,7 +47,7 @@ $$
   F : SimplicialSets \to \omega Cat
 $$
 
-given by the [[end and coend|coend]]
+given by the [[end|coend]]
 
 $$
   F(S_\bullet) := \int^{[n] \in \Delta} S_n \cdot
