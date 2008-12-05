@@ -12,6 +12,10 @@ $
 $, 
 naturally, and extended that as an odd graded derivation to all of $\Omega^\bullet(U)$. This defines the qDGCA $(\Omega^\bullet(U), d)$. This construction glues on intersections of different patches $U_1$, $U_2$ and hence defines a qDGCA $(\Omega^\bullet(X),d)$, the **de Rham complex of the supermanifold $X$**.
 
+#Definition#
+
+For $\mathbf{X}$ a supermanifold, the [[L-infinity algebroid|qDGCA]] $\Omega^\bullet(X)$ of differential forms on $X$ is the [[Weil algebra]] of $\mathbf{X}$.
+
 #Remarks#
 
 * Being a $\mathbb{Z}_2$-graded locally free algebra itself, one can regard $\Omega^\bullet(X)$ itself as the algebra of functions on another supermanifold. That supermanifold is called $T[1] X$, the **shifted tangent bundle** of $X$. By definition we have $C^\infty(T[1]X) = \Omega^\bullet(X)$. From this point of view, the existence of the differential $d$ on the graded algebra $\Omega^\bullet(X)$ translates into the existence of a special odd vector field on $T[1]X$. This is a **homological vector field** in that it is odd and the super Lie bracket of it with itself vanishes: $[d,d] = 0$.
