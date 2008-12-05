@@ -1,1 +1,1 @@
-See also [[Homological resolution]].
+See also [[homological resolution]].
