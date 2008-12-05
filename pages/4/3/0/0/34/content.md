@@ -2,6 +2,14 @@
 
 An $n$-category is a combinatorial model for _directed higher homotopical_ structures: in generalization to how an ordinary category has 1-morphisms going between objects, in an $n$-category there are $k$-morphisms going between $(k-1)$-morphisms for all $1 \leq k \leq n$.
 
+## Strict versus weak ##
+
+There are many different definitions of $\infty$-categories, which may differ in particular in the degree to which certain structural identities are required to hold as equations or allowed to hold up to higher morphisms.
+
+* See [[semi-strict]].
+
+* See the discussion we are having at [[omega-category]].
+
 
 ##More##
 
@@ -34,6 +42,3 @@ Recently $(\infty, 1)$-categories (see [[homotopy theory]]) have attracted much 
 * Jacob Lurie, _Higher Topos Theory_ ([arXiv](http://arxiv.org/abs/math.CT/0608040))
 
 
-#Further resources#
-
-* [Simpson's conjecture](http://golem.ph.utexas.edu/category/2008/10/semicategories.html) about semistrict $\infty$-categories
