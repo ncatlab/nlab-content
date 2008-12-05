@@ -88,11 +88,13 @@ O(\Delta^3) = & \left\{
  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#myRect256" x="0" y="0"/>
  <g fill="none" stroke="#000">
   <path d="M11,43 38, 15" marker-end="url(#svg295arrowhead)"/>
-  <g>
-   <path stroke-width="3" d="M12,12 20,20" marker-end="url(#svg296arrowhead)"/>
-   <path stroke="#FFF" d="M12,12 20,20"/>
-   <path stroke-width="3" d="M40,18 27,40" marker-end="url(#svg296arrowhead)"/>
-   <path stroke="#FFF" d="M40,18 27,40"/>
+  <g stroke-width="3" marker-end="url(#svg296arrowhead)">
+   <path d="M12,12 20,20"/>
+   <path d="M40,18 27,40"/>
+  </g>
+  <g stroke="#FFF">
+   <path d="M12,12 20,20"/>
+   <path d="M40,18 27,40"/>
   </g>
  </g>
  <g fill="none" stroke="#000">
@@ -105,11 +107,11 @@ O(\Delta^3) = & \left\{
   <path d="M92,12 118, 39" marker-end="url(#svg295arrowhead)"/>
   <g>
    <g stroke-width="3" marker-end="url(#svg296arrowhead)">
-    <path d="M92,22 100,40"/>
+    <path d="M92,20 100,38"/>
     <path d="M120,12 113,19"/>
    </g>
    <g stroke="#FFF">
-    <path d="M92,22 100,40"/>
+    <path d="M92,20 100,38"/>
     <path d="M120,12 113,19"/>
    </g>
   </g>
@@ -166,12 +168,12 @@ O(\Delta^4) = & \left\{
    <g stroke-width="3" marker-end="url(#svg296arrowhead)">
     <path d="M141,12 141,26"/>
     <path d="M125,47 135,58"/>
-    <path d="M160,38 143,48"/>
+    <path d="M162,38 145,48"/>
    </g>
    <g stroke="#FFF">
     <path d="M141,12 141,26"/>
     <path d="M125,47 135,58"/>
-    <path d="M160,38 143,48"/>
+    <path d="M162,38 145,48"/>
    </g>
   </g>
  </g>
@@ -179,18 +181,18 @@ O(\Delta^4) = & \left\{
  <g fill="none" stroke="#000">
   <g marker-end="url(#svg295arrowhead)">
    <path d="M172,119 195,140"/>
-   <path d="M192,98 201,138"/>
+   <path d="M194,98 201,138"/>
   </g>
   <g>
    <g stroke-width="3" marker-end="url(#svg296arrowhead)">
     <path d="M175,127 185,138"/>
-    <path d="M212,116 204,116"/>
-    <path d="M187,98 184,121"/>
+    <path d="M212,116 206,116"/>
+    <path d="M189,98 184,121"/>
    </g>
    <g stroke="#FFF">
     <path d="M175,127 185,138"/>
-    <path d="M212,116 204,116"/>
-    <path d="M187,98 184,121"/>
+    <path d="M212,116 206,116"/>
+    <path d="M189,98 184,121"/>
    </g>
   </g>
  </g>
@@ -216,18 +218,18 @@ O(\Delta^4) = & \left\{
  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#myPent256" x="-50" y="80"/>
  <g fill="none" stroke="#000">
   <g marker-end="url(#svg295arrowhead)">
-   <path d="M-31,140 -20,100"/>
+   <path d="M-31,140 -22,100"/>
    <path d="M-29,143 -3,120"/>
   </g>
   <g>
    <g stroke-width="3" marker-end="url(#svg296arrowhead)">
-    <path d="M-40,116 -33,116"/>
-    <path d="M-15,97 -15,123"/>
+    <path d="M-40,116 -35,116"/>
+    <path d="M-17,97 -17,123"/>
     <path d="M-5,128 -15,140"/>
    </g>
    <g stroke="#FFF">
-    <path d="M-40,116 -33,116"/>
-    <path d="M-15,97 -15,123"/>
+    <path d="M-40,116 -35,116"/>
+    <path d="M-17,97 -17,123"/>
     <path d="M-5,128 -15,140"/>
    </g>
   </g>
