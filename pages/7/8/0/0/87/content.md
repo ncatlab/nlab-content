@@ -27,6 +27,8 @@ _Urs says:_ I had this thing about saturation wrong before and Toby corrected me
 
 _Mathieu says:_ No, this condition is some kind of surjectivity for the anafunctor.  I think you can define a saturated anafunctor as a "normal" anafunctor such that some diagram is a pullback.  Between internal groupoids, a saturated anafunctor is simply an internal distributor which is "functional" and "everywhere defined".
 
+_Urs says:_ Okay, thanks. Somebody should fix the above then. 
+
 =--
 
 An anafunctor is a **[[Morita equivalence]]** if it is a span as above, with the right leg also an acyclic fibration.
@@ -53,6 +55,8 @@ _Urs says:_ Why do you restrict this to the abelian case? From
 [page  16](http://arxiv.org/PS_cache/math/pdf/0506/0506313v3.pdf#page=16)  of Noohi's article I got the impression that he is precisely describing the ana-2-functors between one-object 2-groupoids in terms of the corresponding (possibly nonabelian) crossed modules. 
 
 _Mathieu says:_ I don't see that (or something like that) on that page, but saturated anafunctors should correspond to butterflies also in the semi-abelian case (using the notion of internal crossed module in a semi-abelian category introduced by Janelidze), but I have not checked it.  The special case of groups is probably easy to check: saturated anafunctors between two internal groupoids in the category of groups should correspond to butterflies between the corresponding crossed modules.
+
+_Urs says:_ I haven't checked the details. But he is looking at derived homs of crossed complexes. By general nonsense these derived hom should be given by homs out of cofibrant replacements. This is another way of talking about the anafunctor picture. Somebody should check the details.
 
 =--
 
