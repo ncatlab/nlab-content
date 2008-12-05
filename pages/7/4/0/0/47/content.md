@@ -244,5 +244,8 @@ Thanks, Toby, for your efforts! I appreciate it. These naming convention suggest
 
 =--
 
++-- {: responsetoby}
+Then I guess that I'll correct you whenever you violate the conventions. But as Jacques would point out, the wiki will be less cluttered if the actual creation of new pages always follows the conventions; that's the most important part. &#8212;Toby
+=--
 
 category: meta
