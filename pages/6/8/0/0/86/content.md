@@ -22,7 +22,9 @@ See [[Homological resolution]].
 
 _Comment_: Kevin Costello is preparing a [book](http://www.math.northwestern.edu/~costello/renormalization) on _Renormalization of quantum field theories_, available on his webpage. He has a section entitled _The BV construction as symplectic reduction_ [](http://www.math.northwestern.edu/~costello/chap3.pdf#page=7). Could you somehow link your explanation to that in some way?
 
-_Urs says:_ Costello is using the _Langrangian BV-formalism_, as far as I am aware. 
+_Urs says:_ I have (only) a vague hunch that Lagrangian and Hamiltonian BV are related in some way by "holography" of sorts, in a way that explains why the master equation in Lagrangian BV -- $\Delta exp(S) = 0$ -- looks like a Schr&#246;dinger equation if one re-interprets the space of histories with the space of states of a system of one dimension higher. Some very useful observations in this regard are in S.L. Lyakhovich, A.A. Sharapov,
+_Quantization of Donaldson-Uhlenbeck-Yau theory_
+[arXiv](http://arxiv.org/abs/0705.1871), which I talk about at the end of [this](http://golem.ph.utexas.edu/category/2007/08/lyakhonov_and_sharapov_on_qft.html).
 
 =--
 
@@ -40,7 +42,9 @@ _Urs says:_ Costello is using the _Langrangian BV-formalism_, as far as I am awa
 
 ### Homological interpretation of BV-Poisson reduction
 
-Jim Stasheff, _The (secret?) homological algebra of the Batalin-Vilkovisky approach_ ([arXiv](http://arxiv.org/abs/hep-th/9712157))
+* Jim Stasheff, _Homological Reduction of Constrained Poisson Algebras_ ([arXiv](http://arxiv.org/abs/q-alg/9603021))
+
+* Jim Stasheff, _The (secret?) homological algebra of the Batalin-Vilkovisky approach_ ([arXiv](http://arxiv.org/abs/hep-th/9712157))
 
 
 ##Lagrangian BV## 
