@@ -44,15 +44,35 @@ $$
 
 In other words: Who makes this *distinction* between '$\omega$-category' and '$\infty$-category'? (And secondarily, of course, is this a good way to do things?)
 
+[[Urs Schreiber]]: All right, now I am confused about what I am being asked! :-)
+I read you very first remark above -- "Who actually uses the language this way?" -- following the statement that "$\omega$-Categories are precisely those [[globular set|globular]] [[higher category theory|infinity-categories]] which are _strict_.
+" as asking "Who says '$\omega$-category' for 'strict $\infty$-category'. "
+
+But you maybe meant: "Who uses '$\infty$'-category to mean 'weak $\infty$-category'?"? The answer to that seems to be: pretty much everybody nowadays. I happen to have the following example in fron of me as we speak: To&#235;n, [Higher and derived stacks: a global overview](http://arxiv.org/abs/math.AG/0604504). See in particular on [p. 4](http://arxiv.org/PS_cache/math/pdf/0604/0604504v3.pdf#page=4) the first lines of section 2.2 and the footnote on that page.
+
+This follows of course what seems to have become the "Lurie school". Jacob Lurie has introduced his own, slightly weird, convention, to say "$\infty$-category" for "weak $(\infty,1)$-category". 
+
+It seems to me the upshot is:
+
+* at least in more recent texts "$\infty$-category" is always meant to include the weak version
+
+* no reference I know of uses "$\omega$-category" for anything but strict $\infty$-categories.
+
+(If and when we have sorted this out, the essence of our discussion should be turned into content on the entry [[higher category theory]])
+
 =--
 
 This means that 
 
- * all composition operations are strictly associative;
+ 1. all composition operations are strictly associative;
 
- * all composition operations strictly commute with all others (strict [[exchange law]]s);
+ 2. all composition operations strictly commute with all others (strict [[exchange law]]s);
 
- * all identity $k$-morphisms are strict identies under all compositons.
+ 3. all identity $k$-morphisms are strict identies under all compositons.
+
+##Remarks##
+
+* [[Simpson's conjecture]], a statement about [[semi-strict]]ness, states that every weak $\infty$-category should be equivalent to an $\infty$-category in which strictness conditions 1. and 2. hold, but not 3.
 
 #Definition#
 
