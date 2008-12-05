@@ -41,7 +41,7 @@ O(\Delta^2) = & \left\{
   <marker id="svg295arrowhead" viewBox="0 0 10 10" refX="0" refY="5" markerUnits="strokeWidth" markerWidth="8" markerHeight="5" orient="auto">
    <path d="M 0 0 L 10 5 L 0 10 z"/>
   </marker>
-  <marker id="svg296arrowhead" viewBox="0 0 10 10" refX="0" refY="5" markerUnits="strokeWidth" markerWidth="6" markerHeight="3.5" orient="auto">
+  <marker id="svg296arrowhead" viewBox="0 0 10 10" refX="0" refY="5" markerUnits="strokeWidth" markerWidth="4" markerHeight="2.5" orient="auto">
    <path d="M 0 0 L 10 5 L 0 10 z"/>
   </marker>
  </defs>
@@ -56,9 +56,9 @@ O(\Delta^2) = & \left\{
    <path d="M35,12 48, 27"/>
    <path d="M15,37 45, 37"/>
   </g>
-  <g stroke-width="2">
-   <path stroke-width="4" d="M30,15 30,27"/>
-   <path stroke="#FFF" d="M30,15 30,27" marker-end="url(#svg296arrowhead)"/>
+  <g>
+   <path stroke-width="3" d="M30,15 30,27" marker-end="url(#svg296arrowhead)"/>
+   <path stroke="#FFF" d="M30,15 30,27"/>
   </g>
  </g>
 </svg>
@@ -88,11 +88,11 @@ O(\Delta^3) = & \left\{
  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#myRect256" x="0" y="0"/>
  <g fill="none" stroke="#000">
   <path d="M11,43 38, 15" marker-end="url(#svg295arrowhead)"/>
-  <g stroke-width="2">
-   <path stroke-width="4" d="M12,12 20,20"/>
-   <path stroke="#FFF" d="M12,12 20,20" marker-end="url(#svg296arrowhead)"/>
-   <path stroke-width="4" d="M40,18 27,40"/>
-   <path stroke="#FFF" d="M40,18 27,40" marker-end="url(#svg296arrowhead)"/>
+  <g>
+   <path stroke-width="3" d="M12,12 20,20" marker-end="url(#svg296arrowhead)"/>
+   <path stroke="#FFF" d="M12,12 20,20"/>
+   <path stroke-width="3" d="M40,18 27,40" marker-end="url(#svg296arrowhead)"/>
+   <path stroke="#FFF" d="M40,18 27,40"/>
   </g>
  </g>
  <g fill="none" stroke="#000">
@@ -103,11 +103,15 @@ O(\Delta^3) = & \left\{
  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#myRect256" x="80" y="0"/>
  <g fill="none" stroke="#000">
   <path d="M92,12 118, 39" marker-end="url(#svg295arrowhead)"/>
-  <g stroke-width="2">
-   <path stroke-width="4" d="M92,22 100,40"/>
-   <path stroke="#FFF" d="M92,22 100,40" marker-end="url(#svg296arrowhead)"/>
-   <path stroke-width="4" d="M120,12 113,19"/>
-   <path stroke="#FFF" d="M120,12 113,19" marker-end="url(#svg296arrowhead)"/>
+  <g>
+   <g stroke-width="3" marker-end="url(#svg296arrowhead)">
+    <path d="M92,22 100,40"/>
+    <path d="M120,12 113,19"/>
+   </g>
+   <g stroke="#FFF">
+    <path d="M92,22 100,40"/>
+    <path d="M120,12 113,19"/>
+   </g>
   </g>
  </g>
 </svg>
@@ -139,19 +143,18 @@ O(\Delta^4) = & \left\{
    <path d="M10,36 45,36"/>
    <path d="M22,60 47,41"/>
   </g>
-  <g stroke-width="2">
-   <path stroke-width="4" d="M31,12 31,26"/>
-   <path stroke="#FFF" d="M31,12 31,26" marker-end="url(#svg296arrowhead)"/>
-   <path stroke-width="4" d="M12,38 25,48"/>
-   <path stroke="#FFF" d="M12,38 25,48" marker-end="url(#svg296arrowhead)"/>
-   <path stroke-width="4" d="M45,48 35,60"/>
-   <path stroke="#FFF" d="M45,48 35,60" marker-end="url(#svg296arrowhead)"/>
+  <g>
+   <g stroke-width="3" marker-end="url(#svg296arrowhead)">
+    <path d="M31,12 31,26"/>
+    <path d="M12,38 25,48"/>
+    <path d="M45,48 35,60"/>
+   </g>
+   <g stroke="#FFF">
+    <path d="M31,12 31,26"/>
+    <path d="M12,38 25,48"/>
+    <path d="M45,48 35,60"/>
+   </g>
   </g>
- </g>
- <g fill="none" stroke="#000">
-   <path stroke-width="5" d="M60,35 100,35"/>
-   <path stroke-width="3" stroke="#FFF" d="M60,35 100,35" marker-end="url(#svg296arrowhead)"/>
-   <path stroke-width="1" d="M60,35 100,35"/>
  </g>
  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#myPent256" x="110" y="0"/>
  <g fill="none" stroke="#000">
@@ -159,19 +162,18 @@ O(\Delta^4) = & \left\{
    <path d="M120,36 155,36"/>
    <path d="M122,41 147,60"/>
   </g>
-  <g stroke-width="2">
-   <path stroke-width="4" d="M141,12 141,26"/>
-   <path stroke="#FFF" d="M141,12 141,26" marker-end="url(#svg296arrowhead)"/>
-   <path stroke-width="4" d="M125,47 135,58"/>
-   <path stroke="#FFF" d="M125,47 135,58" marker-end="url(#svg296arrowhead)"/>
-   <path stroke-width="4" d="M160,38 143,48"/>
-   <path stroke="#FFF" d="M160,38 143,48" marker-end="url(#svg296arrowhead)"/>
+  <g>
+   <g stroke-width="3" marker-end="url(#svg296arrowhead)">
+    <path d="M141,12 141,26"/>
+    <path d="M125,47 135,58"/>
+    <path d="M160,38 143,48"/>
+   </g>
+   <g stroke="#FFF">
+    <path d="M141,12 141,26"/>
+    <path d="M125,47 135,58"/>
+    <path d="M160,38 143,48"/>
+   </g>
   </g>
- </g>
- <g fill="none" stroke="#000">
-   <path stroke-width="5" d="M158,75 168,90"/>
-   <path stroke-width="3" stroke="#FFF" d="M158,75 168,90" marker-end="url(#svg296arrowhead)"/>
-   <path stroke-width="1" d="M158,75 168,90"/>
  </g>
  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#myPent256" x="160" y="80"/>
  <g fill="none" stroke="#000">
@@ -179,19 +181,18 @@ O(\Delta^4) = & \left\{
    <path d="M172,119 195,140"/>
    <path d="M192,98 201,138"/>
   </g>
-  <g stroke-width="2">
-   <path stroke-width="4" d="M175,127 185,138"/>
-   <path stroke="#FFF" d="M175,127 185,138" marker-end="url(#svg296arrowhead)"/>
-   <path stroke-width="4" d="M212,116 204,116"/>
-   <path stroke="#FFF" d="M212,116 204,116" marker-end="url(#svg296arrowhead)"/>
-   <path stroke-width="4" d="M187,98 184,121"/>
-   <path stroke="#FFF" d="M187,98 184,121" marker-end="url(#svg296arrowhead)"/>
+  <g>
+   <g stroke-width="3" marker-end="url(#svg296arrowhead)">
+    <path d="M175,127 185,138"/>
+    <path d="M212,116 204,116"/>
+    <path d="M187,98 184,121"/>
+   </g>
+   <g stroke="#FFF">
+    <path d="M175,127 185,138"/>
+    <path d="M212,116 204,116"/>
+    <path d="M187,98 184,121"/>
+   </g>
   </g>
- </g>
- <g fill="none" stroke="#000">
-   <path stroke-width="5" d="M118,190 168,155"/>
-   <path stroke-width="3" stroke="#FFF" d="M118,190 168,155" marker-end="url(#svg296arrowhead)"/>
-   <path stroke-width="1" d="M118,190 168,155"/>
  </g>
  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#myPent256" x="55" y="160"/>
  <g fill="none" stroke="#000">
@@ -199,19 +200,18 @@ O(\Delta^4) = & \left\{
    <path d="M74,220 83,180"/>
    <path d="M87,178 96,218"/>
   </g>
-  <g stroke-width="2">
-   <path stroke-width="4" d="M86,187 86,216"/>
-   <path stroke="#FFF" d="M86,187 86,216" marker-end="url(#svg296arrowhead)"/>
-   <path stroke-width="4" d="M63,196 71,196"/>
-   <path stroke="#FFF" d="M63,196 71,196" marker-end="url(#svg296arrowhead)"/>
-   <path stroke-width="4" d="M107,196 99,196"/>
-   <path stroke="#FFF" d="M107,196 99,196" marker-end="url(#svg296arrowhead)"/>
+  <g>
+   <g stroke-width="3" marker-end="url(#svg296arrowhead)">
+    <path d="M86,187 86,216"/>
+    <path d="M63,196 71,196"/>
+    <path d="M107,196 99,196"/>
+   </g>
+   <g stroke="#FFF">
+    <path d="M86,187 86,216"/>
+    <path d="M63,196 71,196"/>
+    <path d="M107,196 99,196"/>
+   </g>
   </g>
- </g>
- <g fill="none" stroke="#000">
-   <path stroke-width="5" d="M3,150 43,185"/>
-   <path stroke-width="3" stroke="#FFF" d="M3,150 43,185" marker-end="url(#svg296arrowhead)"/>
-   <path stroke-width="1" d="M3,150 43,185"/>
  </g>
  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#myPent256" x="-50" y="80"/>
  <g fill="none" stroke="#000">
@@ -219,19 +219,41 @@ O(\Delta^4) = & \left\{
    <path d="M-31,140 -20,100"/>
    <path d="M-29,143 -3,120"/>
   </g>
-  <g stroke-width="2">
-   <path stroke-width="4" d="M-40,116 -33,116"/>
-   <path stroke="#FFF" d="M-40,116 -33,116" marker-end="url(#svg296arrowhead)"/>
-   <path stroke-width="4" d="M-15,97 -15,123"/>
-   <path stroke="#FFF" d="M-15,97 -15,123" marker-end="url(#svg296arrowhead)"/>
-   <path stroke-width="4" d="M-5,128 -15,140"/>
-   <path stroke="#FFF" d="M-5,128 -15,140" marker-end="url(#svg296arrowhead)"/>
+  <g>
+   <g stroke-width="3" marker-end="url(#svg296arrowhead)">
+    <path d="M-40,116 -33,116"/>
+    <path d="M-15,97 -15,123"/>
+    <path d="M-5,128 -15,140"/>
+   </g>
+   <g stroke="#FFF">
+    <path d="M-40,116 -33,116"/>
+    <path d="M-15,97 -15,123"/>
+    <path d="M-5,128 -15,140"/>
+   </g>
   </g>
  </g>
  <g fill="none" stroke="#000">
-   <path stroke-width="5" d="M-3,95 11,79"/>
-   <path stroke-width="3" stroke="#FFF" d="M-3,95 11,79" marker-end="url(#svg296arrowhead)"/>
-   <path stroke-width="1" d="M-3,95 11,79"/>
+  <g stroke-width="5">
+   <path d="M60,35 100,35"/>
+   <path d="M158,75 168,90"/>
+   <path d="M118,190 168,155"/>
+   <path d="M3,150 43,185"/>
+   <path d="M-3,95 11,79"/>
+  </g>
+  <g stroke-width="3" stroke="#FFF" marker-end="url(#svg296arrowhead)">
+    <path d="M158,75 168,90"/>
+    <path d="M60,35 100,35"/>
+    <path d="M118,190 168,155"/>
+    <path d="M3,150 43,185"/>
+    <path d="M-3,95 11,79"/>
+  </g>
+  <g stroke-width="1">
+   <path d="M60,35 100,35"/>
+   <path d="M158,75 168,90"/>
+   <path d="M118,190 168,155"/>
+   <path d="M3,150 43,185"/>
+   <path d="M-3,95 11,79"/>
+  </g>
  </g>
  <g fill="none" stroke="#000">
    <path stroke-width="7" d="M85,43 85,140"/>
