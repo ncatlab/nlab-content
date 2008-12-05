@@ -35,6 +35,8 @@ _Urs says_: yes, I still need to complete the entry discussion on the [[homotopy
 
 _Toby says_: OK, that reminds me: Do you have a reference handy for the fact that submersions are precisely the maps in $Manifolds$ such that all pullbacks of these maps exist? This is a folk theorem for me, but I\'ve never written out a proof, so it always gives me doubts. (Anyway, I\'ll probably want to cite it sometime.)
 
+_Urs says_: don't know a reference. But notice from the chain rule that a local smooth sections admitting surjection is already a submersion when restricted to the image of all possible local smooth sections. This gives a handle on how bad behaved local smooth sections admitting maps are that are not submersions on their entire domain.
+
 =--
 
 An anafunctor is an **anaequivalence** if it is a span as above, with the right leg also an acyclic fibration.
