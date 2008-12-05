@@ -68,12 +68,17 @@ $$
 $$
 known as the **Atiyah sequence**. For some $n$-Caf&#233; blog discussion of this see [n-Transport and Higher Schreier theory](http://golem.ph.utexas.edu/category/2006/09/nconnections_and_higher_schrei.html).
 
+* The **vertical tangent Lie algebroid** $T_{vert}Y \hookrightarrow T Y$ of a smooth map $\pi : Y \to X$ of manifolds is the sub-Lie algebroid of the tangent Lie algebroid $T Y$ defined as follows:
+
+   1. In the vector bundle perspective $E = ker(\pi_*)$ is the kernel bundle of the map $\pi_* : T Y \to T X$.
+
+   2. In the dual picture we have $CE(T_{vert}Y) = \Omega^\bullet_{vert}(Y)$, the [[L-infinity algebroid|qDGCA]] of **vertical differential forms**. This is the quotient of $\Omega^\bullet(Y)$ by the ideal of those forms which vanish when restricted in all arguments to $ker(\pi_*)$.  
+
 #Remarks#
 
 The extent to which Lie algebroids are to [[Lie groupoid|Lie groupoids]] as Lie algebras are to Lie groups is the content of general [[Lie theory]], in which [[Lie's three theorems|Lie's theorems]] have been generalized to Lie algebroids.
 
 #Literature#
 
-See the [Wikipedia entry](http://en.wikipedia.org/wiki/Lie_algebroid)
+See the [Wikipedia entry](http://en.wikipedia.org/wiki/Lie_algebroid).
 
-(Why didn't I just point to that in the first place??)
