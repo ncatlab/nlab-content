@@ -9,7 +9,7 @@ In the folk model structure
  * an **weak equivalence** is a functor which is [[k-surjectivity|essentially k-surjective]] for all $k \in \mathbb{N}$;
 
  * **cofibrations** are [[cofibrantly generated model structure|generated]] from the inclusions 
-$\partial G_n \hookrightarrow G_n$ of of the boundary of the [[n-globe]] into the [[n-globe]].
+$\partial G_n \hookrightarrow G_n$ of of the boundary of the $n$-[[globe]] into the $n$-[[globe]].
 
 #Internalization#
 
@@ -18,7 +18,7 @@ A common problem is to transport the (a) model structure on plain $\omega$-categ
 The general problem of [[internalization]] of model structures is described [[internalization of model structures|here]]. For the special case of $\omega$-categories internal to [[generalized smooth spaces]] see [[schreiber:Differential Nonabelian Cohomology]].
 
 Usually, such internalization of model structures has the consequence that some properties invoked in the description of the original model structure, notably some of the lifting properties, will only continue to hold "locally".
-One way to deal with this is to pass to a notion slightly weaker than that of a [[Homotopy Theory|model category]] called a [[category of fibrant objects]] as used in [[Homotopical cohomology theory]].
+One way to deal with this is to pass to a notion slightly weaker than that of a [[homotopy theory|model category]] called a [[category of fibrant objects]] as used in [[homotopical cohomology theory]].
 
 
 #Literature#
