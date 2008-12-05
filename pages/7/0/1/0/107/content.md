@@ -20,9 +20,28 @@ Simpson's conjecture is proven up to the case of 3-categories with a single obje
 
 ##Remarks
 
-One expects several alternative such [[semi-strict]]ification statements. See the last two paragraphs  on [pages 22, 23](http://arxiv.org/PS_cache/arxiv/pdf/0708/0708.1178v1.pdf#page=23) of
+One expects several alternative such [[semi-strict]]ification statements. Eugenia Cheng and Nick Gurski write the following at the end of their paper:
 
-* E. Cheng and N. Gurski's,  _The periodic table of $n$-categories for low dimensions I_ ([arXiv](http://arxiv.org/abs/0708.1178))
++--{style="font-size: 90%; margin-left:2em;}
+Finally we consider the question of eliminating the distinguished invertible 
+elements by using a stricter form of $n$-category. Generalising from the previous 
+sections, we see that we do not need to restrict all the way to strict $n$-categories 
+&#8211; a semistrict version will suffice. One form of semistrictness has everything strict 
+except interchange (cf. Gray-categories and see Crans 2000b, Crans 2000a); another has everything strict except units (Koch 2005, Simpson 1998). These have both been proposed 
+as solutions to the coherence problem for $n$-categories. 
+
+However, there are other possible "shades" of semistrictness and the above 
+notions do not appear to be right for the present purposes. Instead, we need a 
+form of semistrict $n$-category in which the units and interchange for $(n-1)$-cells 
+are strict, but everything else can be weak. This is to eliminate the constraint 
+$n$-cells that become distinguished invertible elements in our $n$-degenerate situation; 
+we expect that as in the case $n = 2$ the associator is automatically forced to be the 
+identity. 
+
+**Hypothesis 5.3. Semistrictness**
+Let $n \ge 3$. Then an $n$-degenerate semistrict $n$-category in the above sense is precisely a commutative monoid. 
+=--
+E. Cheng and N. Gurski's,  _The periodic table of $n$-categories for low dimensions I_ ([arXiv](http://arxiv.org/abs/0708.1178))
 
 #References#
 
