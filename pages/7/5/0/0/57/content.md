@@ -1,6 +1,6 @@
 #Idea#
 
-Given an [[L-infinity algebroid|Infinity-Lie algebroid]] (for instance a Lie algebra, or a [[Lie algebroid]] or an [[L-infinity algebra]]) $\mathfrak{g}$ and given a $d$-dimensional manifold $P^d$ diffeomorphic to the $d$-dimensional disk $D^d$, let a **$d$-path in $\mathfrak{g}$** be a morhism of [[L-infinity algebroid]]s
+Given an $L_\infty$-[[L-infinity-algebroid|algebroid]] (for instance a Lie algebra, or a [[Lie algebroid]] or an $L_\infty$-[[L-infinity-algebra|algebra]]) $\mathfrak{g}$ and given a $d$-dimensional manifold $P^d$ diffeomorphic to the $d$-dimensional disk $D^d$, let a **$d$-path in $\mathfrak{g}$** be a morhism of $L_\infty$-[[L-infinity-algebroid|algebroid]]s
 $$
   \Sigma : T P^d \to \mathfrak{g}
   \,,
@@ -30,7 +30,7 @@ In particular
 
 * if $P^d = D^d$ is the standard $d$-disk, $d$-paths in $\mathfrak{g}$ naturally form a [[globular set]].
 
-Notice that morphisms of $L_\infty$-algebroids are, essentially by [[L-infinity algebroid|definition]], dual to morphisms of [[L-infinity algebroid|qDGCA]]s, so that the above can be equivalently rewritten as
+Notice that morphisms of $L_\infty$-algebroids are, essentially by [[L-infinity-algebroid|definition]], dual to morphisms of [[L-infinity-algebroid|qDGCA]]s, so that the above can be equivalently rewritten as
 
 $$
   S^\bullet(\mathrak{g})
@@ -47,9 +47,9 @@ $$
   \,.
 $$
 
-Here we used that the Chevalley-Eilenberg algebra of the tangent Lie algebroid is the deRham complex of differential forms, see the list of examples [[Lie algebroid|here]].
+Here we used that the Chevalley&#8211;Eilenberg algebra of the tangent Lie algebroid is the deRham complex of differential forms, see the list of examples [[Lie algebroid|here]].
 
-In this form these graded (simplicial/globular) sets associated to a [[L-infinity algebroid|qDGCA]] have been familiar as the [[Sullivan construction]] in [[rational homotopy theory]] since the late 1960s. In this context the interpretation of [[L-infinity algebroid|qDGCA]]s as Chevalley-Eilenberg algebras of $L_\infty$-algebroids is not usually mentioned, however, instead these differential algebras are thought of, equivalently, as models for deRham algebras of certain spaces.
+In this form these graded (simplicial/globular) sets associated to a [[L-infinity-algebroid|qDGCA]] have been familiar as the [[Sullivan construction]] in [[rational homotopy theory]] since the late 1960s. In this context the interpretation of [[L-infinity-algebroid|qDGCA]]s as Chevalley&#8211;Eilenberg algebras of $L_\infty$-algebroids is not usually mentioned, however, instead these differential algebras are thought of, equivalently, as models for deRham algebras of certain spaces.
 
 But with the interpretation of qDGCAs as $L_\infty$-algebroids in hand, it is natural to ask for extra properties and structure on $S^\bullet(\mathfrak{g})$ that would allow to interpret $S^\infty(\mathfrak{g})$ as the graded set underlying an [[infinity-groupoid]].
 
