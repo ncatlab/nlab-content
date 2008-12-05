@@ -8,7 +8,7 @@ BV theory is the answer to two different questions:
 
 ##Hamiltonian BV## 
 
-In this context the BV-complex is a [[Homological resolution|homological resolution]] of the problem of taking quotients of symplectic manifolds by group actions. 
+In this context the BV-complex is a [[homological resolution]] of the problem of taking quotients of symplectic manifolds by group actions. 
 
 +-- {: .query}
 
@@ -16,7 +16,7 @@ _Question_: Can you explain more about this? What do you mean by a "homological 
 
 =--
 
-See [[Homological resolution]].
+See [[homological resolution]].
 
 +-- {: .query}
 
@@ -52,7 +52,7 @@ _Quantization of Donaldson-Uhlenbeck-Yau theory_
 ###Idea###
 
 * Lagrangian BV-formalism is a means to describe 
-[[integration over supermanifolds]] for [[NQ-supermanifold]]s given by [[L-infinity algebroid]]s.
+[[integration over supermanifolds]] for [[NQ-supermanifold]]s given by [[L-infinity-algebroid]]s.
 (Recall that in the physics literture the function algebra of these [[NQ-supermanifold]]s is addressed as the [[BRST complex]].)
 
 
@@ -94,15 +94,15 @@ The point to notice now is
 $\Delta \exp(\frac{i}{\hbar}S) = 0$ says nothing but that
 $exp(\frac{i}{\hbar}S(-)) \mu$ is a _closed differential form_.
 
-* If we furthermore take into account that in the presence of gauge symmetries the space $X$ is not a plain manifold but the [[L-infinity algebroid]] of the gauge symmetries acting on the space of fields, hence an [[NQ-supermanifold]] (whose Chevalley-Eilenberg algebra is the **BRST complex**), then this just says that $\exp(\frac{i}{\hbar}S) \mu$ is an [[integration over supermanifolds|integrable form]] in the sense of [[integration over supermanifolds|integration theory of supermanifolds]].
+* If we furthermore take into account that in the presence of gauge symmetries the space $X$ is not a plain manifold but the [[L-infinity-algebroid]] of the gauge symmetries acting on the space of fields, hence an [[NQ-supermanifold]] (whose Chevalley-Eilenberg algebra is the **BRST complex**), then this just says that $\exp(\frac{i}{\hbar}S) \mu$ is an [[integration over supermanifolds|integrable form]] in the sense of [[integration over supermanifolds|integration theory of supermanifolds]].
 
-This means that Lagrangian BV formalism is nothing but a way of describing closed differential forms on [[L-infinity algebroid]]s in terms of multivectors contracted into a reference differention form. The multivectors dual to degree 0 elements in the [[L-infinity algebroid]] are the so-called "**anti-fields**", while those dual to the higher degree elements are the so-called "**anti-ghosts**".
+This means that Lagrangian BV formalism is nothing but a way of describing closed differential forms on [[L-infinity-algebroid]]s in terms of multivectors contracted into a reference differention form. The multivectors dual to degree 0 elements in the [[L-infinity-algebroid]] are the so-called "**anti-fields**", while those dual to the higher degree elements are the so-called "**anti-ghosts**".
 
 
 ### Relation to groupoid cardinality ###
 
 There ought to be a close relation between the 
-integration over [[L-infinity algebroid]]s using BV-formalism and the notion of [[groupoid cardinality]]
+integration over [[L-infinity-algebroid]]s using BV-formalism and the notion of [[groupoid cardinality]]
 for finite groupoids, which was recently generalized to 
 a notion of [[volume of Lie groupoids]].
 
