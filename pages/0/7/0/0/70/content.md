@@ -60,6 +60,8 @@ It seems to me the upshot is:
 
 (If and when we have sorted this out, the essence of our discussion should be turned into content on the entry [[higher category theory]])
 
+[[Toby Bartels]]: Who uses '$\omega$-category' for the weak notion? I know one reference: John Baez! (from whom I\'ve learned most of my terminology). The first use of '$\omega$-category' for the weak notion that I can find in TWF is [weak 100](http://math.ucr.edu/home/baez/week100.html); search for '&#969;' (second hit). Maybe it\'s just him (and presumably Tom, and of course some of his students like me). If the distinction between '$\omega$-category' and '$\infty$-category' is established, then I guess that we have to live with it. But I don\'t have to like it! ^_^
+
 =--
 
 This means that 
