@@ -38,3 +38,23 @@ $$
   L_\infty Algebroids \stackrel{CE(-)}{\to} qDGCAs
 $$
 for the corresponding contravariant functor and address the qDGCA $CE(g) := (\wedge^\bullet g^*, d)$ as the (generalized) [[Chevalley–Eilenberg algebra]] of $g$.
+
+
+##Special Cases##
+
+* an $L_\infty$-algebroid over a point, $X = pt$ is an **[[L-infinity-algebra]]**;
+
+* an $L_\infty$-algebroid with generators concentrated in the first $n$ degrees is a **Lie $n$-algebroid**;
+
+* an $L_\infty$-algebroid the differential of whose CE-algebra is "co-binary", i.e. $d : \mathfrak{g}^* \to g^* \oplus g^* \wedge g^*$, is **strict**.
+
+So in particular
+
+* an Lie 1-algebroid is a **[[Lie algebroid]]**;
+
+* a Lie 1-algebroid over the point is a **Lie algebra**;
+
+* a Lie $n$-algebroid over a point is a 
+**[[L-infinity-algebra|Lie n-algebra]]**.
+
+
