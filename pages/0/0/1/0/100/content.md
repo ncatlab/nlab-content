@@ -1,1 +1,3 @@
 See [[globe]].
+
+category: redirect
