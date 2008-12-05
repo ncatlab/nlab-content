@@ -245,8 +245,6 @@ O(\Delta^4) = & \left\{
 }
 $$
 
-#Structures#
-
 ##As cosimplicial $\omega$-category##
 
 The construction of orientals is designed to be compatible with face and degeneracy maps. Therefore the orientals arrange themselves into a cosimplicial [[omega-category]], i.e. a functor
@@ -256,6 +254,8 @@ $$
 $$
 
 from the [[simplicial category]] $\Delta$ to the category of [[omega-category|omega-categories]].
+
+#Applications#
 
 ## $\omega$-Nerve ##
 
@@ -305,6 +305,12 @@ is an epimorphism for omega categories $C$.
 Is $F$ faithful? It seems to be... If not, how does it fail to be faithful? 
 
 =--
+
+##Descent and codescent##
+
+The orientals $O(\Delta^{(n)})$, as well as the $\Pi_\omega(\Delta^{(n)})$ play a central role in the description of [[descent and codescent]] in [[omega category|omega-categorical terms]].
+
+
 
 #Relation to $\omega$-groupoids#
 
