@@ -1,3 +1,7 @@
++-- {: .query}
+What's the difference between an 'L-infinity Lie algebroid' and an '$L_\infty$-[[L-infinity-algebroid|algebroid]]'? And how do you really spell 'L-infinity Lie algebroid' anyway? (It appears nowhere on this page!) Perhaps it's supposed to be 'Lie $\infty$-algebroid'? (That would fit nicely with the definition of 'Lie $n$-algebroid' on [[L-infinity-algebroid|this page]].) If so, should this material be moved to [[L-infinity-algebroid|that page]]?
+=--
+
 +-- {: .un_defn}
 ###### Definition
 **(quasi-free differential graded-commutative algebras)**
