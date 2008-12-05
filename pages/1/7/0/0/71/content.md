@@ -8,9 +8,16 @@ The first few orientals look as follows:
 
 <img src="http://www.math.uni-hamburg.de/home/schreiber/pics/orientals.gif" alt=""/>
 
++-- {: .query}
 {:response: style="color:#930; font-size:0.9em;margin-left:2em;"}
 
 {: response}Here's the same figure, in SVG. I think it looks better. Opinions may vary, however. -- Jacques
+
+In principle I think the SVG is great, always better than embedded images. This particular one is rendering a bit weird though on my screen; the letters are covered up. 
+
+Need a diagrams package for Instiki. I had an idea based on modifying itexml to translateterms eg. in an \xymatrix formula into MathML, but _leave the & symbols alone_. Now you have an interim XHTML page with MathML on it, with the commutative diagrams rendered in math but not displayed in a matrix format. Then you get javascript to query the HTML elements, ask them "what is your size?". It uses this information to lay out a diagram, resulting in the final HTML page with the diagram layed out. -- Bruce
+
+=--
 
 $$
 \array{\arrayopts{\rowalign{center}}
