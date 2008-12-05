@@ -1,3 +1,11 @@
+#Idea#
+
+$L_\infty$-algebroids are to $\infty$ [[Lie groupoid]]s as Lie algebras are to Lie groups. Hence $L_\infty$-algebroids are a [[horizontal categorification]] and [[vertical categorification]] of Lie algebras: they encompass [[L-infinity-algebra]]s as well as [[Lie algebroid]]s.
+
+
+
+#Definition#
+
 +-- {: .un_defn}
 ###### Definition
 **(quasi-free differential graded-commutative algebras)**
@@ -38,6 +46,9 @@ $$
   L_\infty Algebroids \stackrel{CE(-)}{\to} qDGCAs
 $$
 for the corresponding contravariant functor and address the qDGCA $CE(g) := (\wedge^\bullet g^*, d)$ as the (generalized) [[Chevalley–Eilenberg algebra]] of $g$.
+
+**Remark** In the physics literature $CE(g)$ is called a 
+[[Chevalley–Eilenberg algebra|BRST complex]].
 
 
 ##Special Cases##
