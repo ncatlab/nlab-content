@@ -29,10 +29,11 @@ _Mathieu says:_ No, this condition is some kind of surjectivity for the anafunct
 
 _Urs says:_ Okay, thanks. Somebody should fix the above then. 
 
+_Toby says:_ I'm not sure that there is anything to say. Remember that, up to equivalence, all anafunctors are saturated. If I grasped more fully what cofibrations are, then I might be able to say something sensible here. (By the way, $k$-surjectivity doesn't na&#239;vely apply; at best, you'll have to replace epimoprphims with surjective submersions or something.)
 =--
 
-An anafunctor is a **[[Morita equivalence]]** if it is a span as above, with the right leg also an acyclic fibration.
-(This terminology is used for [[Lie groupoid]]).
+An anafunctor is an **anaequivalence** if it is a span as above, with the right leg also an acyclic fibration.
+(For [[Lie groupoid]]s, these are the [[Morita equivalence]]s).
 
 If we restrict from categories to groupoids, then according to the [[folk model structure|groupoid folk model structure]] by Brown-Golasinski all objects are _fibrant_ and then according to Kenneth Brown's theorem in [[homotopical cohomology theory]] it follows that one-step generalized morphisms already realize the full localization of $Groupoids$ in that they represent all morphisms in the [[homotopy category]] $Ho(Groupoids)$.
 
