@@ -40,6 +40,10 @@ $$
   \,.
 $$
 
+[[Toby Bartels]]: Hey, you don\'t have to give me references that use '$\omega$-category' for the strict notion; I know all about that. What I want are references that use '$\infty$-category'! Keep in mind what John said that he and Tom propose above: that the usual term '$n$-category', although historically most used for the strict concept, should really be applied to the weak concept; you add the word 'strict' (or 'globular strict' to be more clear) if that\'s what you want. Maybe you\'re not folowing this &#8230; but then shouldn't you use the adjective 'weak' instead?
+
+In other words: Who makes this *distinction* between '$\omega$-category' and '$\infty$-category'? (And secondarily, of course, is this a good way to do things?)
+
 =--
 
 This means that 
