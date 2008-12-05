@@ -114,20 +114,27 @@ a notion of [[volume of Lie groupoids]].
 
 #Literature#
 
-The interpretation of the BV quantum master equation as a description of closed differential forms acting as measures on infinite-dimensional spaces of fields is described in
+A comprehensive recent review is
 
-* E. Witten, 
-_A note on the antibracket formalism_
-Modern Physics Letters A, 5 7, 487 - 494
-([scan](http://ccdb4fs.kek.jp/cgi-bin/img_index?9004090))
+* Carlo Albert, Bea Bleile and J&#252;rg Fr&#246;hlich, _Batalin-Vilkovisky Integrals in Finite Dimensions_ ([arXiv](http://eprintweb.org/S/article/math-ph/0812.0464))
 
-Other references include
+Other introductions include
+
 
 * D. Fiorenza, An introduction to the Batalin-Vilkovisky formalism, Lecture given at the Recontres Math&#233;matiques de Glanon, July 2003. ([arXiv](http://arxiv.org/abs/math/0402057))
 
 *  A. Cattaneo, From Topological Field Theory to Deformation Quantization and Reduction, ICM 2006. ([pdf](http://www.math.uzh.ch/fileadmin/math/preprints/icm.pdf))
 
 *  M. B&#228;chtold, On the finite dimensional BV formalism, 2005. ([pdf](http://www.math.uzh.ch/reports/04_05.pdf))
+
+
+
+The interpretation of the BV quantum master equation as a description of closed differential forms acting as measures on infinite-dimensional spaces of fields is described in
+
+* E. Witten, 
+_A note on the antibracket formalism_
+Modern Physics Letters A, 5 7, 487 - 494
+([scan](http://ccdb4fs.kek.jp/cgi-bin/img_index?9004090))
 
 
 
