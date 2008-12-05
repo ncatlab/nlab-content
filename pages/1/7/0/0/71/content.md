@@ -15,6 +15,9 @@ The first few orientals look as follows:
 
 In principle I think the SVG is great, always better than embedded images. This particular one is rendering a bit weird though on my screen; the letters are covered up. 
 
+{: response}
+Weird! It previewed OK in the comment window on MovableType -- where I composed it -- but here in Instiki, all the numbers in the SVG are displaced downwards. -- Jacques
+
 Need a diagrams package for Instiki. I had an idea based on modifying itexml to translateterms eg. in an \xymatrix formula into MathML, but _leave the & symbols alone_. Now you have an interim XHTML page with MathML on it, with the commutative diagrams rendered in math but not displayed in a matrix format. Then you get javascript to query the HTML elements, ask them "what is your size?". It uses this information to lay out a diagram, resulting in the final HTML page with the diagram layed out. -- Bruce
 
 =--
