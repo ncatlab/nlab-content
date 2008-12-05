@@ -33,7 +33,7 @@ is the _Chevalley-Eilenberg algebra_ of the Lie algebroid (in that for $X = pt$ 
 
 In the existing literature this is often addressed just as "the complex that computes Lie algebroid cohomology".
 
-It is helpful to compare this definition to the general definition of [[L-infinity Lie algebroid|L-infinity algebroids]], the [[vertical categorification]] of Lie algebras and Lie algebroids.
+It is helpful to compare this definition to the general definition of [[L-infinity Lie algebroid|L-infinity-algebroids]], the [[vertical categorification]] of Lie algebras and Lie algebroids.
 
 
 **Definition in terms of commutative Lie-Rinehart pairs.**
@@ -72,7 +72,7 @@ known as the **Atiyah sequence**. For some $n$-Caf&#233; blog discussion of this
 
    1. In the vector bundle perspective $E = ker(\pi_*)$ is the kernel bundle of the map $\pi_* : T Y \to T X$.
 
-   2. In the dual picture we have $CE(T_{vert}Y) = \Omega^\bullet_{vert}(Y)$, the [[L-infinity algebroid|qDGCA]] of **vertical differential forms**. This is the quotient of $\Omega^\bullet(Y)$ by the ideal of those forms which vanish when restricted in all arguments to $ker(\pi_*)$.  
+   2. In the dual picture we have $CE(T_{vert}Y) = \Omega^\bullet_{vert}(Y)$, the [[L-infinity-algebroid|qDGCA]] of **vertical differential forms**. This is the quotient of $\Omega^\bullet(Y)$ by the ideal of those forms which vanish when restricted in all arguments to $ker(\pi_*)$.  
 
 #Remarks#
 
