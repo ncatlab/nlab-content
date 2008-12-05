@@ -10,6 +10,8 @@ The first few orientals look as follows:
 
 +-- {: .query}
 {:response: style="color:#930; font-size:0.9em;margin-left:2em;"}
+{:response2: style="font-size:0.9em;margin-left:3em;"}
+
 
 {: response}Here's the same figure, in SVG. I think it looks better. Opinions may vary, however. -- Jacques
 
@@ -17,6 +19,9 @@ In principle I think the SVG is great, always better than embedded images. This 
 
 {: response}
 Weird! Renders rather differently in MovableType versus in Instiki. So much for portability! Anyway, this version should look better. -- Jacques
+
+{: response2}
+Mmm I think it might be a bit better but it's still not rendering quite right. The last few pixels of each equation as well as some of the numbers seem to be getting cut off. -- Bruce
 
 Need a diagrams package for Instiki. I had an idea based on modifying itexml to translateterms eg. in an \xymatrix formula into MathML, but _leave the & symbols alone_. Now you have an interim XHTML page with MathML on it, with the commutative diagrams rendered in math but not displayed in a matrix format. Then you get javascript to query the HTML elements, ask them "what is your size?". It uses this information to lay out a diagram, resulting in the final HTML page with the diagram layed out. -- Bruce
 
