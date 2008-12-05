@@ -62,6 +62,10 @@ It seems to me the upshot is:
 
 [[Toby Bartels]]: Who uses '$\omega$-category' for the weak notion? I know one reference: John Baez! (from whom I\'ve learned most of my terminology). The first use of '$\omega$-category' for the weak notion that I can find in TWF is [weak 100](http://math.ucr.edu/home/baez/week100.html); search for '&#969;' (second hit). Maybe it\'s just him (and presumably Tom, and of course some of his students like me). If the distinction between '$\omega$-category' and '$\infty$-category' is established, then I guess that we have to live with it. But I don\'t have to like it! ^_^
 
+[[Urs Schreiber]]: You don't have to like it. And I don't really care as long as we can reduce the general confusion of terms. But one question: why would one say _$\omega$-category_ and not _$\infty$-category_ if one wants to refer to _weak_ $\infty$-categories. I mean, if the "$\omega$" does not indicate the degree of weakening, what then is it supposed to indicate in this context?
+
+[[Urs Schreiber]] says: Hm, in TWF 100 I see Batanin's title with "weak $\omega$-categories". Is there anyone saying just "$\omega$-category" to mean "weak $\infty$-category"??
+
 =--
 
 This means that 
