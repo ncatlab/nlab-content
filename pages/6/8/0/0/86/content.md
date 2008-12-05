@@ -49,17 +49,91 @@ _Quantization of Donaldson-Uhlenbeck-Yau theory_
 
 ##Lagrangian BV## 
 
-In this context the BV-complex is a means to describe 
-[[integration over supermanifolds]] for [[NQ-supermanifold]]s given by [[L-infinity algebroid]]s.
+###Idea###
 
-In the physics literture the function algebra of these [[NQ-supermanifold]]s is addressed as the [[BRST complex]].
+* Lagrangian BV-formalism is a means to describe 
+[[integration over supermanifolds]] for [[NQ-supermanifold]]s given by [[L-infinity algebroid]]s.
+(Recall that in the physics literture the function algebra of these [[NQ-supermanifold]]s is addressed as the [[BRST complex]].)
+
+
+
+The path integral in quantum field theory is supposed to be the integral over a space $X$ of field configurations
+using a measure $d\mu_S$ which is conceived in the form
+$$
+  \mu_S(\phi) = \exp(\frac{i}{\hbar} S(\phi)) \mu(\phi)
+  \;\;\;\;
+  \phi \in X
+  \,,
+$$
+for $\mu$ some other measure and $S : X \to \mathbb{R}$ the _action functional_.
+
+If one thinks of $X$ as an ordinary $(d \lt \infty)$-dimensional smooth manifold, $d\mu_S$ will be given by a volume form, $\mu_S \in \Omega^d(X)$. By contraction of multivector fields with forms, every choice of volume form on $X$ induces an isomorphism between differential forms and multivectors
+$$
+  \mu : \Omega^\bullet(X) \stackrel{\simeq}{\to}
+  \wedge^{-\bullet} \Gamma(T X)
+  \,,
+$$
+which is usefully thought of as reversing degrees. Under this isomorphism the deRham differential maps to a divergence operator conventionally denoted
+$$
+  \mu : d \mapsto \Delta
+$$
+which interacts naturally with the canonical bracket on multivector fields: the [Schouten bracket](http://en.wikipedia.org/wiki/Schouten-Nijenhuis_bracket)
+This idea can be found recalled for instance on p.3 of Willwacher, Calaque [Formality of cyclic cochains](http://arxiv.org/PS_cache/arxiv/pdf/0806/0806.4095v2.pdf#page=3).
+
+The point to notice now is
+
+* if we think of 
+
+  * the measure $\mu$ as some closed reference differential form on $X$;
+
+  *  the exponentiated action functional $exp(\frac{i}{\hbar}S(-))$ as a multivector field on $X$;
+
+  * the expression $exp(\frac{i}{\hbar}S(-)) \mu$ as the contraction of this multivector field with $\mu$
+
+* then the **BV quantum master equaton**
+$\Delta \exp(\frac{i}{\hbar}S) = 0$ says nothing but that
+$exp(\frac{i}{\hbar}S(-)) \mu$ is a _closed differential form_.
+
+* If we furthermore take into account that in the presence of gauge symmetries the space $X$ is not a plain manifold but the [[L-infinity algebroid]] of the gauge symmetries acting on the space of fields, hence an [[NQ-supermanifold]] (whose Chevalley-Eilenberg algebra is the **BRST complex**), then this just says that $\exp(\frac{i}{\hbar}S) \mu$ is an [[integration over supermanifolds|integrable form]] in the sense of [[integration over supermanifolds|integration theory of supermanifolds]].
+
+This means that Lagrangian BV formalism is nothing but a way of describing closed differential forms on [[L-infinity algebroid]]s in terms of multivectors contracted into a reference differention form. The multivectors dual to degree 0 elements in the [[L-infinity algebroid]] are the so-called "**anti-fields**", while those dual to the higher degree elements are the so-called "**anti-ghosts**".
+
+
+### Relation to groupoid cardinality ###
+
+There ought to be a close relation between the 
+integration over [[L-infinity algebroid]]s using BV-formalism and the notion of [[groupoid cardinality]]
+for finite groupoids, which was recently generalized to 
+a notion of [[volume of Lie groupoids]].
+
 
 
 #Literature#
 
- too tired to compile the content
+The interpretation of the BV quantum master equation as a description of closed differential forms acting as measures on infinite-dimensional spaces of fields is described in
+
+* E. Witten, 
+_A note on the antibracket formalism_
+Modern Physics Letters A, 5 7, 487 - 494
+([scan](http://ccdb4fs.kek.jp/cgi-bin/img_index?9004090))
+
+Other references include
+
+* D. Fiorenza, An introduction to the Batalin-Vilkovisky formalism, Lecture given at the Recontres Math&#233;matiques de Glanon, July 2003. ([arXiv](http://arxiv.org/abs/math/0402057))
+
+*  A. Cattaneo, From Topological Field Theory to Deformation Quantization and Reduction, ICM 2006. ([pdf](http://www.math.uzh.ch/fileadmin/math/preprints/icm.pdf))
+
+*  M. B&#228;chtold, On the finite dimensional BV formalism, 2005. ([pdf](http://www.math.uzh.ch/reports/04_05.pdf))
+
+
+
+
+
 
 
 #Further discussion#
 
 We had a discussion of some aspects of BV-formalism over at the $n$-Category Caf&#233; at [Frobenius Algebras and the BV Formalism](http://golem.ph.utexas.edu/category/2008/11/frobenius_algebras_and_the_bv.html).
+
+
+
