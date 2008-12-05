@@ -31,7 +31,9 @@ _Urs says:_ Okay, thanks. Somebody should fix the above then.
 
 _Toby says:_ I'm not sure that there is anything to say. Remember that, up to equivalence, all anafunctors are saturated. If I grasped more fully what cofibrations are, then I might be able to say something sensible here. (By the way, $k$-surjectivity doesn't na&#239;vely apply; at best, you'll have to replace epimoprphims with surjective submersions or something.)
 
-_Urs says_: yes, I still need to complete the entry discussion on the [[Homotopy Theory]] structure on $n$-categories internal to spaces: the point is that one sets it up for the very general $Spaces := Sheaves(test domains)$ in which case epimorphisms are precisely the local/stalkwise section admitting maps. Then one can restrict that to $Manifolds \hookrightarrow Spaces$. If one requires that also all fiber products sit in $Manifolds$ (which is a matter of cosmetics more than of necessity) then one finds the need that the local section admitting surjections must actually be submersions.
+_Urs says_: yes, I still need to complete the entry discussion on the [[homotopy theory]] structure on $n$-categories internal to spaces: the point is that one sets it up for the very general $Spaces := Sheaves(test domains)$ in which case epimorphisms are precisely the local/stalkwise section admitting maps. Then one can restrict that to $Manifolds \hookrightarrow Spaces$. If one requires that also all fiber products sit in $Manifolds$ (which is a matter of cosmetics more than of necessity) then one finds the need that the local section admitting surjections must actually be submersions.
+
+_Toby says_: OK, that reminds me: Do you have a reference handy for the fact that submersions are precisely the maps in $Manifolds$ such that all pullbacks of these maps exist? This is a folk theorem for me, but I\'ve never written out a proof, so it always gives me doubts. (Anyway, I\'ll probably want to cite it sometime.)
 
 =--
 
