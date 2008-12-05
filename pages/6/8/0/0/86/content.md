@@ -98,6 +98,10 @@ $exp(\frac{i}{\hbar}S(-)) \mu$ is a _closed differential form_.
 
 This means that Lagrangian BV formalism is nothing but a way of describing closed differential forms on [[L-infinity-algebroid]]s in terms of multivectors contracted into a reference differention form. The multivectors dual to degree 0 elements in the [[L-infinity-algebroid]] are the so-called "**anti-fields**", while those dual to the higher degree elements are the so-called "**anti-ghosts**".
 
+###Examples###
+
+See [[examples for Lagrangian BV]].
+
 
 ### Relation to groupoid cardinality ###
 
