@@ -64,7 +64,15 @@ It seems to me the upshot is:
 
 [[Urs Schreiber]]: You don't have to like it. And I don't really care as long as we can reduce the general confusion of terms. But one question: why would one say _$\omega$-category_ and not _$\infty$-category_ if one wants to refer to _weak_ $\infty$-categories. I mean, if the "$\omega$" does not indicate the degree of weakening, what then is it supposed to indicate in this context?
 
+[[Toby Bartels]]: In general, '$\omega$' and '$\infty$' mean the same thing: infinity; that\'s what it means in this context too. It\'s kind of arbitrary that one would use one symbol instead of the other; I certainly don\'t think that Street (or whoever originally picked the name '$\omega$-category') meant anything special in picking the symbol '$\omega$', since after all the term '$n$-category' defaulted to the strict concept for them too (as it did for everybody at the time, I believe). In other words, the strictness was in the term '$n$-category', not in the symbol '$\omega$'. Somehow that symbol has acquired extra connotations, and accordingly the new term '$\infty$-category' has been invented, I\'m not sure how or why.
+
+Also note that your directed limit above applies equally well to the weak case as long $2Cat$ etc are interpreted in a weak sense. So again, $\omega$ means infinity, which is independent of strictness.
+
 [[Urs Schreiber]] says: Hm, in TWF 100 I see Batanin's title with "weak $\omega$-categories". Is there anyone saying just "$\omega$-category" to mean "weak $\infty$-category"??
+
+[[Toby Bartels]]: Yes, John says that, just above that title. He states (earlier in TWF 100) his general philosophy (also given earlier in this query box) that one should use '$n$-category' for the general weak concept, then applies this later to casually refer to weak $\omega$-categories simply as '$\omega$-categories', then points to a reference on that subject, the paper by Batanin (which does *not* follow John\'s convention and so includes the adjective 'weak', thereby confirming that John meant the weak concept). And I like John\'s convention, so I\'ve used it too (not that I\'ve published anything), which is why it\'s now disconcerting to be told that now '$\omega$' *implies* strictness even when (following John\'s convention) '$n$-category' does not, so now I have to relearn all my language.
+
+Which, in light of the references that use '$\infty$-category' for the weak concept, is apparently what I really will have to do. \(;_;\) \([crying emoticon](https://secure.wikimedia.org/wikipedia/en/wiki/List_of_common_emoticons#Simple_examples)\)
 
 =--
 
