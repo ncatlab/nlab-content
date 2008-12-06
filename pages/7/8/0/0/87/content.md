@@ -6,7 +6,18 @@ Anafunctors were first developed by [[Michael Makkai]] to do ordinary category t
 
 #Defintion (external)#
 
-Given categories $\mathcal{C}$ and $\mathcal{D}$,
+Given categories $C$ and $D$, an __anafunctor__ $F: C \to D$ consists of:
+
+* a set $|F|$ of _specifications_ of $F$;
+* maps $\sigma: |F| \to C$ and $\tau: |F| \to D$ (taking values in objects). Given $x: C$ and $y: D$, we say that $y$ is a _specified value_ of $F$ at $x$ if, for some $s: |F|$, $x = \sigma(s)$ and $y = \tau(s)$; in this case, $s$ _specifies_ $y$ as a value of $F$ at $x$, and we write $F_s(x) = y$. We say that $y$ is a _value_ of $F$ at $x$ if $y$ is isomorphic (in $D$) to some specified value of $F$ at $x$; we write $F(x) \cong y$. (There is no notion of *the* value of $F$ at $x$, and $F(x) = y$ is meaningless.);
+* for each $s, t: |F|$ and morphism $f: \sigma(s) \to \sigma(t)$ in $C$, a morphism $F_{s,t}(f): \tau(s) \to \tau(t)$ in $D$. Similarly to the above, we can define whether a given morphism $g$ in $D$ is a _specified value_ of $F$ at a given morphism $f$ in $C$ or whether $g$ is (merely) a _value_ of $F$ at $f$. (Again, there is no notion of *the* value of $F$ at $f$.);
+* $\sigma$ is a surjective function. Thus, $F$ has *some* value at any given object or morphism of $C$. (In the [[internalization|internalized]] case, this requirement can become quite complicated; for example, internal to manifolds, one requires a surjective submersion.);
+* $F$ preserves identities. That is, $s: |F|$, the value of $F$ specified by $s$ and $s$ at the identity of $\sigma(s)$ is the identity of $\tau(s)$, or (in symbols) $F_{s,s}(\id_{\sigma(s)}) = \id_{\tau(s)}$, or (whenever this makes sense) $F_{s,s}(\id_x) = \id_{F_s(x)}$;
+* $F$ preserves composition. That is, given $s, t, u: |F|$, $f: \sigma(s) \to \sigma(t)$, and $g: \sigma(t) \to \sigma(u)$, $F_{s,u}(f;g) = F_{s,t}(f);F_{t,u}(g)$. (Here the semicolon indicates composition in the anti-Leibniz order.).
+
+An anafunctor $F$ is __saturated__ if, whenever $F(x) \cong y$, $F_s(x) = y$ for some unique specification $s$, where the unicity of $s$ depends not only on $x$ and $y$ but also on how $y$ is a value of $F$ at $x$. To be precise: if $g: y' \to y$ is an isomorphism in $D$ and $F_{s'}(x) = y'$ for some specification $s'$, then there is a unique specification $s$ such that $F_{s',s}(\id_x) = g$ (so in particular, $\sigma(s) = x$ and $F_s(x) = y$). Every anafunctor $F: C \to D$ has a _saturation_ $\overline{F}$; $\overline{F}$ is a saturated anafunctor and $F \cong \overline{F}$ in the category of anafunctors from $C$ to $D$. In fact, the inclusion of the saturated anafunctors into the anafunctors (as a full subcategory) is an equivalence of categories (given fixed $C$ and $D$).
+
+Every functor may be interpreted as an anafunctor, with $|F|$ always taken to be the set of objects in $C$. That every anafunctor is equivalent to a functor is equivalent to the axiom of choice, in which case the inclusion of functors into anafunctors is in fact an equivalence of categories. But if you ignore functors and deal only with anafunctors (or saturated anafunctors), then the theory is entirely constructive (without using the axiom of choice or even excluded middle). Theorems that classically required choice now don\'t require choice (and indeed become constructive) with anafunctors. Thus, anafunctors (or even saturated anafunctors) are the correct notion to use if you are a constructivist (at least as long as you [[foundations|found]] mathematics on some sort of set theory at all); but they are also the correct notion to use in [[internalization|internal]] category theory.
 
 #Homotopy-theoretic interpretation#
 
@@ -22,8 +33,6 @@ $$
 $$
 
 and hence precisely the one-step generalized morphisms. 
-
-**Saturated anafunctors** are those spans as above where the right leg is furthermore [[k-surjectivity|0-surjective]].
 
 +-- {: .query}
 
@@ -43,6 +52,8 @@ _Urs says_: don't know a reference. But notice from the chain rule that a local 
 
 _Toby says_: OK, thanks. I\'ll probably just have to sit down and work out the proofs and counterexamples for myself. (Possibly I can get David Roberts to do it, now that I think about it &#8230; I\'ll ask him.)
 
+_Toby says_: I gave a more elementary definition of anafunctor above, including saturated anafunctor. So I removed the bad definition here.
+
 =--
 
 An anafunctor is an **anaequivalence** if it is a span as above, with the right leg also an acyclic fibration.
@@ -55,7 +66,7 @@ this means that anafunctors between groupoids represent [[nonabelian cocycle]]s 
 
 ##Generalizations##
 
-Since the [[folk model structure]] on $Categories$ extends to [[omega-category|omega-categories]], also the anafunctor concept generalizes to these strict [[higher category theory|higher categories]]. Indeed, again by Brown-Golasinski, $\omega$-groupoids are fibrant with respect to the [[folk model structure]], so that the corresponding _$\omega$-anafunctors_ between $\omega$-groupoids represent cocycles in [[nonabelian cohomology]].
+Since the [[folk model structure]] on $Categories$ extends to $\omega$-[[omega-category|categories]], also the anafunctor concept generalizes to these strict [[higher category theory|higher categories]]. Indeed, again by Brown-Golasinski, $\omega$-groupoids are fibrant with respect to the [[folk model structure]], so that the corresponding _$\omega$-anafunctors_ between $\omega$-groupoids represent cocycles in [[nonabelian cohomology]].
 
 More details on $\omega$-anafunctors are described in the context of [[schreiber:Differential Nonabelian Cohomology]] in the private area of the $n$Lab. 
 
