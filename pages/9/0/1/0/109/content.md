@@ -204,3 +204,9 @@ $$
 
 
 (... to be continued ...)
+
++-- {: .query}
+
+This is great! This is the kind of down-to-earth example which 'joe the plumber' mathematicians need to get on board. -- Bruce
+
+=--
