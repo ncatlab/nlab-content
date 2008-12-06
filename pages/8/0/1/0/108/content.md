@@ -28,7 +28,7 @@ and reviewed and expanded on
 
 * Ross Street, _Categorical and combinatorial aspects of descent theory_ ([arXiv](http://arxiv.org/abs/math.CT/0303175)).
 
-Using language of [[enriched category theory]] Street's construction of the $\omega$-category of descent data is given by the [[end and coend|end]]
+Using language of [[enriched category theory]] Street's construction of the $\omega$-category of descent data is given by the [[end]]
 
 $$
   Desc(Y^\bullet, \mathbf{A}) := 
