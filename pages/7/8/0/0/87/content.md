@@ -37,6 +37,8 @@ _Toby says_: OK, that reminds me: Do you have a reference handy for the fact tha
 
 _Urs says_: don't know a reference. But notice from the chain rule that a local smooth sections admitting surjection is already a submersion when restricted to the image of all possible local smooth sections. This gives a handle on how bad behaved local smooth sections admitting maps are that are not submersions on their entire domain.
 
+_Toby says_: OK, thanks. I\'ll probably just have to sit down and work out the proofs and counterexamples for myself. (Possibly I can get David Roberts to do it, now that I think about it &#8230; I\'ll ask him.)
+
 =--
 
 An anafunctor is an **anaequivalence** if it is a span as above, with the right leg also an acyclic fibration.
