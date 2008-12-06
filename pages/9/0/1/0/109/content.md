@@ -59,7 +59,7 @@ each point of $\mathbb{R}$ to the Lie algebra of vector
 fields on $S^1$.
 
 The [[Chevalley-Eilenberg algebra]] of functions on 
-this [[[Lie algebroid]] is generated over 
+this [[Lie algebroid]] is generated over 
 $C^\infty(X)$ from a single 
 generator $\theta$ in degree 1, which we can think
 of as a multiple of the the canonical 1-form on $S^1$
