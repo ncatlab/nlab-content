@@ -209,4 +209,6 @@ $$
 
 This is great! This is the kind of down-to-earth example which 'joe the plumber' mathematicians need to get on board. -- Bruce
 
+_[[Urs Schreiber]] say_: Good, that's what I thought, that it might be useful. I ran out of time last Friday, and then over the weekend became a bit sick. Maybe you can try to continue this exercise, and I'll check later how you are doing. Next task is to add the terms to the action that makes the Poisson bracket with it encode the BRST differential, and then add furthermore a "gauge fixing fermion". Finally to find a Lagrangian submanifold and show that integration of the the master action over that yields the plain integral of $\exp(S_0)$ over the line...  
+
 =--
