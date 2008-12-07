@@ -1,6 +1,6 @@
 #Classical Lie theory#
 
-Classical [Lie theory](http://en.wikipedia.org/wiki/Lie_theory) is the theory  of [groups](http://planetmath.org/encyclopedia/NontrivialElement2.html) [[internalization|internal to]] [manifolds](http://en.wikipedia.org/wiki/Manifold) -- [Lie groups](http://en.wikipedia.org/wiki/Lie_groups) -- and their relation to their linear approximation -- [[Lie algebra]]s.
+Classical [Lie theory](http://en.wikipedia.org/wiki/Lie_theory) is the theory  of [groups](http://planetmath.org/encyclopedia/NontrivialElement2.html) [[internalization|internal to]] [manifolds](http://en.wikipedia.org/wiki/Manifold) -- [Lie groups](http://en.wikipedia.org/wiki/Lie_groups) -- and their relation to their linear approximation -- [[Lie algebra|Lie algebras]].
 
 The relation between Lie algebras and Lie groups was established by [[Lie's three theorems]].
 
@@ -14,7 +14,7 @@ In the course of these categorifications one usually finds that working [[intern
 
 [[horizontal categorification|Oidification]] leads from Lie groups to [[Lie groupoid]]s
 and from [[Lie algebra|Lie algebras]] to 
-[[Lie algebroid]]s.
+[[Lie algebroid|Lie algebroids]].
 
 When it was found that Lie algebroids integrate to Lie groupoids by mapping paths into them, not only a "well known" but apparently also well forgotten way to integrate Lie algebras by means of paths was rediscovered, but also the idea to integrate higher Lie algebroids by mapping higher dimenmsional paths into them was clearly suggested.
 
@@ -23,7 +23,7 @@ When it was found that Lie algebroids integrate to Lie groupoids by mapping path
 
 ###General###
 
-The study of Lie theory of Lie groupoids and Lie algebroids was notably motivated by Alan Weinstein's studies of [[geometric quantization]] of [[Poisson manifold]]s, as well as by [[Kirill Mackenzie]]'s work. 
+The study of Lie theory of Lie groupoids and Lie algebroids was notably motivated by Alan Weinstein's studies of [[geometric quantization]] of [[Poisson manifold|Poisson manifolds]], as well as by [[Kirill Mackenzie|Kirill Mackenzie's]] work. 
 
 * (book)
 
