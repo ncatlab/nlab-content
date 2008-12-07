@@ -1,6 +1,8 @@
 #Idea#
 
-$\omega$-Categories are precisely those [[globular set|globular]] [[higher category theory|infinity-categories]] which are _strict_.
+The term "$\omega$-category" is in the existing literature usually meant to refer to precisely those [[globular set|globular]] [[higher category theory|infinity-categories]] which are _strict_.
+
+
 
 +-- {: .query}
 
@@ -74,7 +76,10 @@ Also note that your directed limit above applies equally well to the weak case a
 
 Which, in light of the references that use '$\infty$-category' for the weak concept, is apparently what I really will have to do. \(;_;\) \([crying emoticon](https://secure.wikimedia.org/wikipedia/en/wiki/List_of_common_emoticons#Simple_examples)\)
 
+[[Urs Schreiber]] say: Okay, I have modified the first sentence in the entry a bit.
+
 =--
+
 
 This means that 
 
@@ -85,6 +90,7 @@ This means that
  3. all identity $k$-morphisms are strict identies under all compositons.
 
 ##Remarks##
+
 
 * [[Simpson's conjecture]], a statement about [[semi-strict]]ness, states that every weak $\infty$-category should be equivalent to an $\infty$-category in which strictness conditions 1. and 2. hold, but not 3.
 
