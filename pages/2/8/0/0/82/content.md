@@ -1,1 +1,3 @@
- *  [[classifying topos]]
+*  [[topos]]
+ 
+*  [[classifying topos]]
