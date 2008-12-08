@@ -1,0 +1,1 @@
+The category whose objects are smooth manifolds and whose morphisms are smooth maps between them.
