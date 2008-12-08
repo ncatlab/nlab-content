@@ -1,7 +1,7 @@
 #Idea#
 
 A _category_ consists of a collections of [[object]]s and
-a collection of [[morphism]]s.  Every morphism 
+a collection of [[morphism|morphisms]].  Every morphism 
 has a [[source]] object and a [[target]] object.  If $f$ is a morphism with $x$ as its source and $y$ as its target,
 we write
 
