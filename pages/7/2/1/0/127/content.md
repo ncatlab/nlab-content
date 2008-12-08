@@ -1,0 +1,1 @@
+Given an [[object]] $x$ in a [[category]], its _identity morphism_ is the morphism $1_x : x \to x$.
