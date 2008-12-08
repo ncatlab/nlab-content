@@ -1,0 +1,1 @@
+Equivalence means many things, but two categories $C$ and $D$ are said to be _equivalent_ if there are functors $F : C \to D$, $G : D \to C$ that are [[weak inverse|weak inverses]], meaning that $F G$ is [[natural isomorphism|naturally isomorphic]] to the identity functor $1_C$, and $G F$ is naturally isomorphic to $1_D$.
