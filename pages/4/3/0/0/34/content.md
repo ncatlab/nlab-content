@@ -11,14 +11,10 @@ There are many different definitions of $\infty$-categories, which may differ in
 * See the discussion we are having at [[omega-category]].
 
 
-##More##
-
-
-There's a lot more to add here, even if we restrict ourselves to very general texts.  (More specialized stuff should go under more specialized subcategories!)
 
 #Literature#
 
-For a very gentle introduction to higher category theory, try [The Tale of <em>n</em>-Categories](http://math.ucr.edu/home/baez/week73.html#tale), which begins in "week73" of This Week's Finds and goes on from there... keep clicking the links.
+For a very gentle introduction to higher category theory, try [The Tale of <em>n</em>-Categories](http://mah.ucr.edu/home/baez/week73.html#tale), which begins in "week73" of This Week's Finds and goes on from there... keep clicking the links.
 
 For a slightly more formal but still pathetically easy introduction, try:
 
@@ -40,5 +36,7 @@ Tom Leinster has written about "comparative $\infty$-categoriology" (to [borrow]
 Recently $(\infty, 1)$-categories (see [[homotopy theory]]) have attracted much attention :
 
 * Jacob Lurie, _Higher Topos Theory_ ([arXiv](http://arxiv.org/abs/math.CT/0608040))
+
+There's a lot more to add here, even if we restrict ourselves to very general texts.  (More specialized stuff should go under more specialized subcategories!)
 
 
