@@ -1,0 +1,1 @@
+_Composition_ is the operation that takes [[morphism|morphisms]] $f : x \to y$, $g : y \to z$ in a [[category]] and produces the morphism $g f : x \to z$.  The resulting morphism $g f$ is called the _composite_ of $f$ and $g$.
