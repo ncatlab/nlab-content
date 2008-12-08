@@ -1,0 +1,1 @@
+A _natural isomorphism_ is a [[natural transformation]] with a two-sided inverse.
