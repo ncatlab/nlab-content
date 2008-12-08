@@ -1,4 +1,20 @@
-[John Baez](http://math.ucr.edu/home/baez/) works on n-categories and physics.  He has written various papers on the interface between these subjects:
+<div style="float:left;margin:0 10px 10px 0;"><img src="http://math.ucr.edu/home/baez/baez_small.jpg" alt="John Baez" /></div>
+
+[[!include contents ]]
+
+I work on $n$-categories and physics.  I've written papers on the interface between these subjects, and wasted vast amounts of time trying to popularize higher-dimensional algebra.  You see a bit here, and a lot more on my [website](http://math.ucr.edu/home/baez/).
+
+#Expository Material
+
+[Categories, Quantization and Much More](http://math.ucr.edu/home/baez/categories.html)
+
+[Topos Theory in a Nutshell](http://math.ucr.edu/home/baez/topos.html)
+
+[The Tale of $n$-Categories](http://math.ucr.edu/home/baez/week73.html#tale)
+
+[The Tale of Groupoidification](http://math.ucr.edu/home/baez/groupoidification/)
+
+#Research Papers
 
 [Higher-dimensional algebra and topological quantum field theory](http://arxiv.org/abs/q-alg/9503002), with
 James Dolan, Jour. Math. Phys. 36 (1995), 6073-6105.
@@ -67,7 +83,7 @@ with Alissa S. Crans, Danny Stevenson and Urs Schreiber,
 Homology and Applications](http://intlpress.com/HHA/v9/n2/a4/), 9 (2007), 101-135.
 
 [Lectures on
-n-categories and cohomology](http://arxiv.org/abs/math.CT/0608420), with Michael Shulman, to appear
+$n$-categories and cohomology](http://arxiv.org/abs/math.CT/0608420), with Michael Shulman, to appear
 in <em>n-Categories: Foundations and Applications</em>, eds.
 John Baez and Peter May.
 
