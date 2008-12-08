@@ -1,0 +1,9 @@
+A _poset_ is a category such that:
+
+* for any pair of objects $x, y$, there is at most one morphism from $x$ to $y$
+
+* if there is a morphism from $x$ to $y$ and a morphism from $y$ to $x$, then $x = y$.
+
+Equivalently, we may define a poset to be a [[skeletal]] [[preorder]].
+
+(These definitions are equivalent to whatever definition of poset you may be familiar with).
