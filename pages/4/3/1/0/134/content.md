@@ -1,0 +1,1 @@
+The category whose objects are topological spaces and whose morphisms are continuous maps.
