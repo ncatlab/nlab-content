@@ -23,21 +23,29 @@ I guess the first place to start is to define what I mean by a discrete space.
 
 ###Discrete Space
 
-A discrete space is generated from a directed graph $G$ with nodes denoted by
+Given a directed graph $G$ with nodes denoted by
 
-$$e_i$$
+$$e_i\in G_0$$
 
 and directed edges denoted by
 
-$$e_{i,j}: e_i\to e_j.$$
+$$e_{i,j}: e_i\to e_j\in G_1,$$
 
-The higher dimensional elements are generated via differential algebra.
+a discrete space is generated via the differential algebra of complete projections
 
-$$e_i e_j = \delta_{i,j} e_i$$
+$$\pi_i:G_0\to G_0, \pi_i(e_j) = \delta_{i,j} e_j$$
 
-Therefore,
+satisfying
 
-$$d(e_i e_j) = (d e_i) e_j + e_i (d e_j) = \delta_{i,j} de_i$$
+$$\pi_i \pi_j = \delta_{i,j} \pi_i$$
+
+and
+
+$$\sum_i \pi_i = 1.$$
+
+Applying the Leibniz rule results in,
+
+$$d(\pi_i \pi_j) = (d \pi_i) \pi_j + \pi_i (d \pi_j) = \delta_{i,j} d\pi_i$$
 
 Multiplying by $e_i$ on the left and $e_j$ on the right, we have
 
