@@ -1,5 +1,7 @@
 This is my personal sandbox, where I'll try to work out some stuff. If anything becomes interesting in the slightest, I hope to add a new page. Any editorial angels who wish to help add, correct, etc, please feel free.
 
+**Warning: Under Construction**
+
 ##Discrete Smooth Spaces
 
 I hope to adapt the definition of a Frolicher space (from [Andrew Stacey's paper](http://arxiv.org/abs/0802.2225)) to discrete/abstract space.
@@ -50,7 +52,7 @@ and
 
 $$\sum_i \pi_i = 1.$$
 
-Let $C^1(G)$ denote the space spanned by $\pi_{i,j}$ and define a nilpotent map 
+Let $C^1(G)$ denote the space spanned by $\pi_{i,j}$ and define a map 
 
 $$d: C^0(G)\to C^1(G)$$
 
