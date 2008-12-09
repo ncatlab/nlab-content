@@ -39,8 +39,8 @@ This focuses on integration to [[Lie groupoid]]s proper, i.e. to integration int
 #Higher Lie theory: $\infty$-Lie groupoids and $L_\infty$-algebroids#
 
 bla bla bla 
-[[infinity-groupoid]] bla bla bla
-[[Lie infinity-groupoid]] bla bla bla
+[[infinity groupoid]] bla bla bla
+[[infinity-Lie-groupoid]] bla bla bla
 [[L-infinity-algebroid]] bla bla bla
 
 ##Literature##
