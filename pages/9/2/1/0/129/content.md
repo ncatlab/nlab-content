@@ -47,9 +47,9 @@ Applying the Leibniz rule results in,
 
 $$d(\pi_i \pi_j) = (d \pi_i) \pi_j + \pi_i (d \pi_j) = \delta_{i,j} d\pi_i$$
 
-Multiplying by $e_i$ on the left and $e_j$ on the right, we have
+Multiplying by $\pi_i$ on the left and $\pi_j$ on the right, we have
 
-$$e_i (de_j) e_j = (\delta_{i,j} - 1) e_i (de_i) e_j$$
+$$\pi_i (d\pi_j) \pi_j = (\delta_{i,j} - 1) \pi_i (d\pi_i) \pi_j$$
 
 
 ####Doodles
