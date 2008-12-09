@@ -1,0 +1,1 @@
+By $CartesianSpaces$ we denote the full subcategory of real $Manifolds$ on the manifolds of the form $\mathbb{R}^n$, $n \in \mathbb{N}$, equipped with their standard smooth structure.
