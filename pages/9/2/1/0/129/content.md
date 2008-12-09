@@ -1,4 +1,4 @@
-This is my personal sandbox, where I'll try to work out some stuff. If anything becomes interesting in the slightest, I hope to add a new page. Any editorial angels who wish to help add, correct, etc, please feel free.
+I'll try to work out some stuff here. If anything becomes interesting in the slightest, I hope to add a new page. Any editorial angels who wish to help add, correct, comment, etc, please feel free.
 
 **Warning: Under Construction**
 
