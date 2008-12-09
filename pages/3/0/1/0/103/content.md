@@ -1,9 +1,11 @@
 #Idea#
 
-$L_\infty$-algebroids are to $\infty$ [[Lie groupoid]]s as Lie algebras are to Lie groups. Hence $L_\infty$-algebroids are a [[horizontal categorification]] and [[vertical categorification]] of Lie algebras: they encompass [[L-infinity-algebra]]s as well as [[Lie algebroid]]s.
+**$L_\infty$-algebroid**s or **Lie-$\infty$-algebroid**s or **$\infty$-Lie-algebroids** are to [[infinity-Lie-groupoid]]s as Lie algebras are to Lie groups. Hence $L_\infty$-algebroids are a [[horizontal categorification]] and [[vertical categorification]] of Lie algebras: they encompass [[L-infinity-algebra]]s as well as [[Lie algebroid]]s.
 
 +-- {: .query}
 Should the reference to '$\infty$ [[Lie groupoid]]s' above instead be to 'Lie $\infty$-groupoids'? Can we also call those '$L_\infty$-[[L-infinity-groupoid|groupoids]]'?
+
+_[[Urs Schreiber|Urs]] says_: Yes, I started implementing this now. 
 =--
 
 #Definition#
@@ -63,7 +65,7 @@ for the corresponding contravariant functor and address the qDGCA $CE(g) := (\we
 
 So in particular
 
-* an Lie 1-algebroid is a **[[Lie algebroid]]**;
+* a Lie 1-algebroid is a **[[Lie algebroid]]**;
 
 * a Lie 1-algebroid over the point is a **Lie algebra**;
 
