@@ -15,11 +15,19 @@ _[[Urs Schreiber|Urs]] says_: Yes, I started implementing this now.
 **(quasi-free differential graded-commutative algebras)**
 
 A _quasi-free differential graded commutative algebra_
-(**qDGCA**) is an algebra of smooth functions $A := C^\infty(X)$ on a manifold $X$ together with a degree +1 graded derivation $d$ on the free (over $A$) graded-(anti-)commutative algebra
+(**qDGCA**) is 
+
+* an algebra of smooth functions $A := C^\infty(X)$ on a smooth manifold $X$;
+
+* a non-positively graded complex $g$ of $A$-modules;
+
+* together with a degree +1 graded derivation $d$ on the free (over $A$) graded-(anti-)commutative algebra
 $
-  \wedge^\bullet g^* = S^\bullet g^*[1]
+  \wedge^\bullet_{A} g^* = S^\bullet g^*[1]
 $
-on the dual (over $A$) of a non-positively graded cochain complex $g$ of $A$-modules, such that $d^2 = 0$.
+on the dual (over $A$) of $g$;
+
+* such that $d^2 = 0$.
 
 A morphism of qDGCAs is a linear map of the underlying graded-(anti-)commuting algebras respecting the differential.
 =--
@@ -33,9 +41,14 @@ $$
   \,.
 $$
 
+**Example:** Take $g = \Gamma(T X)$ to be the $C^\infty(X)$-module of vector fields on $X$, then 
+$\wedge^\bullet_{C^\infty(X)} g^* = \wedge^\bullet_{C^\infty(X)} \Omega^1(X) = \Omega^\bullet(X)$. 
+
+
 **Remark:** There is plenty of room to fuss about the grading conventions. 
 
 **Remark:** Usually one requires the module $g$ to be projective and of finite rank. In this case $g$ is the module of sections of a $\mathbb{N}$-graded vector bundle on $X$ and the above definition becomes equivalent to that of an [[NQ-supermanifold]].
+
 
 +-- {: .un_defn}
 ###### Definition
@@ -71,3 +84,7 @@ So in particular
 
 * a Lie $n$-algebroid over a point is a 
 **[[L-infinity-algebra|Lie n-algebra]]**.
+
+#Further resources#
+
+There should be an [[internalization]] of this into the context of [[generalized smooth spaces]] and [[generalized smooth algebras]]. This is discussed at [[schreiber:generalized smooth L-infinity algebroid]].
