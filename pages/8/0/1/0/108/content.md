@@ -1,26 +1,83 @@
+#Idea#
 
- ... general discussion goes here ...
+For $Spaces$ some category of spaces, we can think of any [[higher category theory|infinity category]] valued (pseudo)presheaf
+$$
+  \mathbf{A} : Spaces^{op} \to \inftyCat
+$$
+as assigning to each space the $\infty$-category of certain structures living over that space.
+
+* For instance for $G$ a group, there is the 1-category-valued (pseudo)presheaf
+$$
+  \mathbf{A}(-) := G-TrivBund(-)
+$$
+which sends each space $X$ to the [[category]] (a one-object [[groupoid]], really) of _trivial_ $G$-principal bundles over $X$.
+
+* Or the 1-category-valued 
+(pseudo)presheaf
+$$
+  \mathbf{A}(-) := G-Bund(-)
+$$
+which assigns to $X$ the category of all $G$-principal bundles over $X$.
+
+In the case that we have a cover $Y \to X$ of the space $X$, we may want to ask which $\mathbf{A}$-structures on the cover, $a \in \mathbf{A}(Y)$, can _descent_ down to $\mathbf{A}$-structures on $X$. The idea is that these are those $a \in \mathbf{A}(Y)$ which can be _glued_ consistently:
+
+* on double intersectios $Y \times_X Y$ there should be a gluing ismorphism $g : \pi_1^* a \to \pi_2^* a$ which identifies the two copies of $a$ obtained by pullback along the two projection maps $\pi_1. \pi_2 : Y \times_X Y \to Y$.
+
+* on triple intersections $Y \times_X Y \times_X Y$ there should be a gluing 2-isomorphism
+$
+ \array{
+   && \pi_2^* a
+   \\
+   &
+   {}^{\pi_{12}^* g}\nearrow
+   &\Downarrow^f&
+   \searrow^{\pi_{23}^* g}
+   \\
+   \pi_1^* a
+   &&
+     \stackrel{\pi_{13}^* g}{\to}
+   &&
+   \pi_3^* a
+ }
+$
+which identifies the different gluing 1-isomorphisms.
+
+* "and so on".
+
+The collection of objects $a \in \mathbf{A}(Y)$ together with this gluing data should themselve fit into an $\infty$-category. This $\infty$-category is the _$\infty$-category of descent data_ for the (pseudo)presheaf $\mathbf{A}$ relative to the cover $Y \to X$.
+
+* **Codescent:** an analogous situation is obtained for (pseudo)co-presheaves: their gluing information with respect to a cover yields an $\infty$-category of _codescent data_.
+
+* **Hypercovers:** in general the simplicial space
+$ \cdots \to Y \times_X Y \times_X Y \to Y \times_X Y \to Y$ can be replaced by any [[hypercover]] $Y^\bullet \stackrel{\simeq}{\to}\gt X$ of $X$.
 
 
+ 
 ##(Co)descent as homotopy (co)limit ##
 
 **In weak $\infty$-categories**
 
 Fundamentally the $\infty$-category of descent data associated to a simplicial hypercover $Y^\bullet$ of $Spaces$ and a (pseudo)preshaf $A : Spaces^\op \to \infty Cat$ should be the _weak limit_ or _homotopy limit_ 
 $$
-  Desc(Y^\bullet,\mathbf{A}) := lim_{[n \in \Delta]} \mathbf{A}(Y^n)
+  Desc(Y^\bullet,\mathbf{A}) := Holim_{[n \in \Delta]} \mathbf{A}(Y^n)
   \,.
 $$
 
 Similarly the $\infty$-category of codescent data should be a _weak colimit_ or _homotopy colimit_.
+$$
+  Codesc(Y^\bullet,\mathbf{A}) := Hocolim_{[n \in \Delta]} \mathbf{A}(Y^n)
+  \,.
+$$
 
-In a suitable context of weak $\infty$-categories this weak limit can be realized intrincsically. See for instance
+In the context of weak $\infty$-categories called [[Segal category|Segal categories]] this can be implemented directly. See
 
-* Bertran To&#235;en, _Higher and derived stcks: a global overview_ ([page 12](http://arxiv.org/PS_cache/math/pdf/0604/0604504v3.pdf#page=12))
+* Bertran To&#235;en, _Higher and derived stacks: a global overview_ ([page 12](http://arxiv.org/PS_cache/math/pdf/0604/0604504v3.pdf#page=12))
+
 
 **In strict $\infty$-categories**
 
-But there is also a way to realize this naturally in the [[semi-strict|more strict]] context of [[omega category|omega categories]] using [[oriental]]s and other cosimplicial $\omega$-categories. This was introduced in
+But there is also a way to realize this naturally in the [[semi-strict|more strict]] context of 
+[[omega-category|omega categories]] using [[oriental]]s and other cosimplicial $\omega$-categories. This was introduced in
 
 * Ross Street, _The algebra of oriented simplices_
 
@@ -36,7 +93,38 @@ $$
    hom(O(\Delta^n), \mathbf{A}(Y^n)) 
   \,.
 $$
+Here $hom$ is the internal $hom$ in $\omega$-categories, and $O(\Delta^n)$ is the $n$th [[oriental]].
 
 (Dominic Verity kindly provided help in obtaining this coend-reformulation).
 
+In this context the $\omega$-category of codescent data for an $\omega$-category valued co-presheaf $\mathbf{B}$ can be defined as the [[coend]]
+
+$$
+  Codesc(Y^\bullet, \mathbf{B})
+  :=
+  \int^{[n] \in \Delta}
+  \mathbf{B}(Y^n) \otimes O(\Delta^n) 
+  \,.
+$$
+
+**Remark.** The above definitions in terms of orientals certainly gives the right answer in the case that $\mathbf{A}$ and $\mathbf{B}$ take values in $\omega$-groupoids. In this case one can equivalently replace $O(\Delta^n)$ here with $\Pi_\omega(\Delta^n)$, the fundamental $\omgea$-groupoid of the filtered standard $n$-simplex, which should be the free $\omega$-groupoid on $\Delta^n$. In terms of more general $\omega$-categorical coefficients it seems that in the above definition orientals need to be replaced with a different cosimplicial $\omega$-category.
+
 For the moment, more details about this [[omega-category|omega categorical]] notion of descent and codescent is relegated to [[schreiber:Differential Nonabelian Cohomology]].
+
+#Cohomology, Homotopy and $\infty$-(Co)Stacks #
+
+From the notion of (co)descent data one obtains the notions of 
+
+* [[nonabelian sheaf cohomology]];
+
+* [[nonabelian cosheaf homotopy]];
+
+* [[infinity stack|infinity stacks and costacks]].
+
+
+
+#Examples#
+
+* A description of ordinary $G$-principal bundles in the language of descent $\infty$-categories is in section 5.4 of [[schreiber:Differential Nonabelian Cohomology]].
+
+* The higher homotopy van Kampen theorem is about the _strict_ version of codescent, with the homotopy colimit replaced by an ordinary colimit. This is discussed in [Codescent and the van Kampen theorem](http://golem.ph.utexas.edu/category/2008/10/codescent_and_the_van_kempen_t.html).
