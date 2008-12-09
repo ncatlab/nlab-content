@@ -18,6 +18,10 @@ Eventually the following will be a _commented_ list -- promised.
 
 There are also Hofer's [[polyfold]]s.
 
+#Remarks#
+
+Dual to generalized smooth spaces are [[generalized smooth algebras]] of functions on them, accordinging to the general lore of [[space and quantity]].
+
 #Further discussion#
 
 We had extensive discussion of generalized smooth spaces at the $n$-Caf&#233;:
