@@ -41,6 +41,7 @@ and
 
 $$\pi_{i,j}:G_1\to G_1, \pi_{i,j}(e_{k,l}) = \delta_{i,k}\delta_{j,l} e_{k,l}$$
 
+**Question: Would it make sense to note that $G_1$ is a subset of $G_0\times G_0$?**
 
 ###Generating a Discrete Space
 
