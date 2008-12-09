@@ -38,6 +38,12 @@ $$
 
 A $C^\infty$-algebra is a product-preserving co-presheaf on [[CartesianSpaces]].
 
+#Remarks#
+
+While such a product-preserving co-presheaf $A$ induces the structure of an algebra on each of the sets $A(\mathbb{R}^n)$, with product induced from the componentwise product $\mathbb{R}^n \times \mathbb{R}^n  \to \mathbb{R}^n$, it is not a _co-presheaf with values in algebras_: the co-restriction morphisms assigned to maps $\mathbb{R}^n \to \mathbb{R}^m$ which are not just projections or injections will not be algebra homomorphisms.
+
+But conversely this means that restricted to such maps, i.e. restricted along the inclusion $FinSet \hookrightarrow CartesianSpaces$ of [[CartesianSpaces]], $A$ does become a co-presheaf with values in algebras. 
+
 #References#
 
 This definition was introduced in 
