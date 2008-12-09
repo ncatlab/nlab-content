@@ -44,3 +44,8 @@ This definition was introduced in
 
 * Ieke Moerdijk and Gonzalo E. Reyes, _Models for Smooth Infinitesimal Analysis_ Springer (1991)
 
+The definition itself appears on p. 16.
+
+#Further resources#
+
+With smooth function algebras generalized to $C^\infty$-algebras, one may wonder what the corresponding generalization of [[NQ-supermanifold]]s and hence of [[L-infinity-algebroid]]s are, which are defined in terms of smooth function algebras and smooth _modules_ over these function algebras. In particular, one expects that higher [[Lie theory]] should relate [[infinity groupoid]] [[internalization|internal to]] $Spaces := Sheaves(CartesianSpaces)$ to [[L-infinity-algebroid]]s with [[Chevalley-Eilenberg algebra]]s [[internalization|internal to]] $Quantities := MonoidalCoPrSh(CartesianSpaces)$. This idea is further developed at [[schreiber:generalized smooth L-infinity algebroid]].
