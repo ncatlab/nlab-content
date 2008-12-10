@@ -26,6 +26,11 @@ In terms of these the condition $D^2 = 0$ is a somewhat complicated looking cond
 
 +-- {: .query}
 My, that is a profusion of terminology! So Lie $n$-algebras and $n$-Lie algebras are different. How about $L_n$-algebras? Has anybody introduced those?
+
+_[[Urs Schreiber|Urs]] says:_ Yes, I am sure I have seen authors write $L_n$-algebra for Lie $n$-algebra: those authors who don't know/care about the higher categorical interpretation but take the $L_\infty$-algebra definition as the starting point. 
+
+And, yes, it is a problem that there is so much different but equivalent terminology. Just recently, it has led to a huge industry of wheel-reinventing by string theorists. I have added references to that below.
+
 =--
 
 * The skew-symmetry of the Lie bracket is retained strictly in $L_\infty$-algebras. It is expected that weakening this, too, yields a more general [[vertical categorification]] of Lie algebras. For $n=2$ this has been worked out by Dmitry Roytenberg: [On weak Lie 2-algebras](http://arxiv.org/abs/0712.3461).
@@ -48,13 +53,25 @@ A quick web entry is
 
 The standard reference for Lie 2-algebras is
 
-[[John Baez]], Alissa Crans, _Higher-Dimensional Algebra VI: Lie 2-Algebras_ ([arXiv](http://arxiv.org/abs/math/0307263))
+* [[John Baez]], Alissa Crans, _Higher-Dimensional Algebra VI: Lie 2-Algebras_ ([arXiv](http://arxiv.org/abs/math/0307263))
 
 A discussion of $n$-Lie algebras (without the grading) and their relation to $L_\infty$-algebras is in
 
 * A. S. Dzhumadil'daev, _Wronskians as $n$-Lie multiplications_ ([arXiv](http://arxiv.org/PS_cache/math/pdf/0202/0202043v1.pdf))
 
 
-Some relevant $n$-Caf&#233; blog discussion is 
+## Re-inventions of $n$-Lie algebras ##
+
+The notion of $n$-Lie algebras, for $n=3$, was re-invented by string physicists in 
+
+* Jonathan Bagger, Neil Lambert, _Gauge Symmetry and Supersymmetry of Multiple M2-Branes_ ([arXiv](http://arxiv.org/abs/0711.0955))
+
+which sparked a tremendous amount of [activity](http://people.physik.hu-berlin.de/~ahoop08/klose.pdf). See the blog entry
 
 * [Lie 3-Algebras on the Membrane](http://golem.ph.utexas.edu/category/2008/11/linfinity_algebras_on_the_memb.html)
+
+for further details and links.
+
+Further re-inventions of the concept in this context are appearing. The latest is 
+
+* Tamar Friedman, _Orbifold singularities, the LATKe, and Yang-Mills with Matter_ ([arXiv](http://arxiv.org/abs/0806.0024))
