@@ -5,7 +5,9 @@
 +-- {: .query}
 Should the reference to '$\infty$ [[Lie groupoid]]s' above instead be to 'Lie $\infty$-groupoids'? Can we also call those '$L_\infty$-[[L-infinity-groupoid|groupoids]]'?
 
-_[[Urs Schreiber|Urs]] says_: Yes, I started implementing this now. 
+_[[Urs Schreiber|Urs]] says_: Yes, I started implementing this now.
+
+_[[Toby Bartels|Toby]] says_: 'Lie-$\infty$-algebroid' and '$\infty$-Lie-algebroid' have a lot of hyphens. Should they be 'Lie $\infty$-algebroid' and '$\infty$-Lie algebroid'? Is there a reference? A reference would be good to be sure that these are all the same (unless you\'re prepared to say that you\'ll stand by it), given that Lie $n$-algebras are distinguished from $n$-Lie algebras as shown [[L-infinity-algebra|here]]. (It probably doesn\'t matter much to the wiki as long as we don\'t to those names.)
 =--
 
 #Definition#
