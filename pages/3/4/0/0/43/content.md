@@ -13,4 +13,6 @@ A **P-[supermanifold]** is a supermanifold equipped with a graded symplectic str
 
 #Remarks#
 
-It is an old observation by Kontsevich, amplified by Pavol &#352;evera (ref...) that NQ-supermanifolds are precisely those supermanifolds which are equipped with an action of $End(\mathbb{R}^{0|1})$, the endomorphism monoid of the [[odd line]].
+* It is an old observation by Kontsevich, amplified by Pavol &#352;evera (ref...) that NQ-supermanifolds are precisely those supermanifolds which are equipped with an action of $End(\mathbb{R}^{0|1})$, the endomorphism monoid of the [[odd line]].
+
+* NQ-supermanifolds are an equivalent way of thinking of [[L-infinity-algebroid]]s. See the list of references there.
