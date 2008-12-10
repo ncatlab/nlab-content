@@ -119,7 +119,7 @@ From the notion of (co)descent data one obtains the notions of
 
 * [[nonabelian cosheaf homotopy]];
 
-* [[infinity stack|infinity stacks and costacks]].
+* [[infinity-stack|infinity-stacks and -costacks]].
 
 
 
