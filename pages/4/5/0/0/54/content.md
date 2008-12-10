@@ -2,9 +2,12 @@
 
 [[!include contents ]]
 
-
 * [public website](http://www.math.uni-hamburg.de/home/schreiber/)
 
 * [private $n$Lab area](http://ncatlab.org/schreiber/show/HomePage)
+
++--{.query}
+Urs, did you mean to un-[publish](http://ncatlab.org/schreiber/published/HomePage) your private web? &#8212;[[Toby Bartels]]
+=--
 
 category: people
