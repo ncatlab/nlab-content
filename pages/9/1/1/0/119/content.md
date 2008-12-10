@@ -1,3 +1,3 @@
 A _preorder_ is a [[category]] such that for any pair of objects $x, y$, there is at most one morphism from $x$ to $y$. In other words, it's a category [[enriched category theory|enriched]] over the category of truth values (aka ($-1$)-[[(-1)-category|categories]]).
 
-Any preorder is [[equivalence|equivalent]] to a [[poset]]. Thi is a special case of the theorem that every category has a [[skeleton]], but this case does _not_ require the [[axiom of choice]].
+Any preorder is [[equivalence|equivalent]] to a [[poset]]. This is a special case of the theorem that every category has a [[skeleton]], but this case does _not_ require the [[axiom of choice]].
