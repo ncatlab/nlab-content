@@ -92,7 +92,7 @@ This means that
 ##Remarks##
 
 
-* [[Simpson's conjecture]], a statement about [[semi-strict]]ness, states that every weak $\infty$-category should be equivalent to an $\infty$-category in which strictness conditions 1. and 2. hold, but not 3.
+* [[Simpson's conjecture]], a statement about [[semi-strict infinity-category|semi-strictness]], states that every weak $\infty$-category should be equivalent to an $\infty$-category in which strictness conditions 1. and 2. hold, but not 3.
 
 #Definition#
 
