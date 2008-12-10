@@ -1,3 +1,3 @@
-Conformal field theory.
+See [[conformal field theory]].
 
-(...)
+category: redirect
