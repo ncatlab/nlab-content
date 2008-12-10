@@ -1,5 +1,3 @@
+See [[group theory]].
 
-
-(....)
-
-* [[higher group characters]]
+category: redirect
