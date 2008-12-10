@@ -21,3 +21,5 @@
     * [[generalized smooth spaces|Generalized Smooth Spaces]]
 
 * [[algebra|Algebra]]
+
+  * [[Group theory]]
