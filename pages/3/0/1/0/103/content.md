@@ -23,6 +23,9 @@ Moreover, the distinction between "Lie $n$-algebra" and "$n$-Lie algebra" seems 
 
 So every good rule one might come up with seems to be in conflict with _some_ established convention. I am not sure how to best deal with this. 
 
+_[[Toby Bartels|Toby]]_: I would suggest no hyphen between 'Lie' and any following word; that just seems bad grammar to me. A problem with '$\infty$-Lie algebroid' is that it\'s not consistent with $n$-Lie algebra, so unless we want to get rid of the latter term, we should stick to Lie $\infty$-algebroid. Or else use $L_\infty$-algebroid, which is less suggestive but may be better established? (Or if nothing\'s much established with 'algebroid', then at least with 'algebra'?
+
+Although the terminology is not consistent, as far as I can see (so far) it\'s possible to pick a consistent terminology that doesn\'t actually _conflict_ with anybody else.
 =--
 
 #Definition#
