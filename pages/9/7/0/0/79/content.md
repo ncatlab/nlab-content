@@ -22,4 +22,4 @@
 
 * [[algebra|Algebra]]
 
-  * [[Group theory]]
+  * [[group theory|Group Theory]]
