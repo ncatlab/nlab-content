@@ -1,1 +1,3 @@
-See [Wikipedia:epimorphism](http://en.wikipedia.org/wiki/Epimorphism).
+See [[epimorphism]].
+
+category: redirect
