@@ -1,1 +1,1 @@
-See also [[infinity stack]].
+See also [[infinity-stack]].
