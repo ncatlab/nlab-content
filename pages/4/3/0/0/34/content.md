@@ -6,7 +6,7 @@ An $n$-category is a combinatorial model for _directed higher homotopical_ struc
 
 There are many different definitions of $\infty$-categories, which may differ in particular in the degree to which certain structural identities are required to hold as equations or allowed to hold up to higher morphisms.
 
-* See [[semi-strict]].
+* See [[semi-strict infinity-category]].
 
 * See the discussion we are having at [[omega-category]].
 
