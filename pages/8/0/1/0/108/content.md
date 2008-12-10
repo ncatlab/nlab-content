@@ -76,7 +76,7 @@ In the context of weak $\infty$-categories called [[Segal category|Segal categor
 
 **In strict $\infty$-categories**
 
-But there is also a way to realize this naturally in the [[semi-strict|more strict]] context of 
+But there is also a way to realize this naturally in the [[semi-strict infinity-category|more strict]] context of 
 [[omega-category|omega categories]] using [[oriental]]s and other cosimplicial $\omega$-categories. This was introduced in
 
 * Ross Street, _The algebra of oriented simplices_
