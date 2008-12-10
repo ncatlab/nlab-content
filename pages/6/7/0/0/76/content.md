@@ -54,4 +54,4 @@ $ \lt \stackrel{\simeq}{\leftarrow} \stackrel{\simeq}{\to} \gt$ with respect to 
 
 long list goes here, but for the moment there is just:
 
-Julia Bergner, _A survey of $(\infty,1)$-categories_ ([arXiv](http://arxiv.org/abs/math/0610239)).
+* Julia Bergner, _A survey of $(\infty,1)$-categories_ ([arXiv](http://arxiv.org/abs/math/0610239)).
