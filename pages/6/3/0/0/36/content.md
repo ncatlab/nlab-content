@@ -72,7 +72,7 @@ A _groupoid_ internal to $A$ is all of the above
 
 #Remarks#
 
-Functors between internal categories are defined in a similar fashion. See [[functor]].
+Functors between internal categories are defined in a similar fashion. See [[functor]]. But in general it is better to use [[anafunctor]]s instead.
 
 #Literature#
 
