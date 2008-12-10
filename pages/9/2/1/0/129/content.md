@@ -27,9 +27,17 @@ I guess the first place to start is to define what I mean by a discrete space.
 
 ###Definition (Discrete Space)
 
-**Note: I just found that what I am trying to outline here is very closely related to this paper: [C* Algebras of Infinite Graphs](http://www.ams.org/proc/2000-128-08/S0002-9939-99-05378-2/S0002-9939-99-05378-2.pdf)**
++--{.query}
+Note: I just found that what I am trying to outline here is very closely related to this paper: [C* Algebras of Infinite Graphs](http://www.ams.org/proc/2000-128-08/S0002-9939-99-05378-2/S0002-9939-99-05378-2.pdf)
+=--
 
-**Note: The plot thickens. Reference tracking opened a floodgate. I'm trying to track down [Graphs, groupoids and Cuntz-Krieger algebras](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.38.93), but in the meantime came across [Fundamental groupoids of k-graphs](http://www.emis.de/journals/NYJM/j/2004/10-12.pdf). A $k$-graph seems to be a lot like a diamond complex.**
++--{.query}
+Note: The plot thickens. Reference tracking opened a floodgate. I'm trying to track down [Graphs, groupoids and Cuntz-Krieger algebras](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.38.93), but in the meantime came across [Fundamental groupoids of k-graphs](http://www.emis.de/journals/NYJM/j/2004/10-12.pdf). A $k$-graph seems to be a lot like a diamond complex.
+=--
+
++--{.query}
+Note: This looks like a very interesting and readable thesis: [$C^*$-algebras associated to higher-rank graphs](http://www.newcastle.edu.au/service/library/adt/uploads/approved/adt-NNCU20060327.122628/public/02whole.pdf)
+=--
 
 Given a [directed graph](http://en.wikipedia.org/wiki/Directed_graph) $G = (G_0,G_1)$ with nodes denoted by
 
