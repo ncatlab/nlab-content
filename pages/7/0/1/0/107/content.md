@@ -20,7 +20,7 @@ Simpson's conjecture is proven up to the case of 3-categories with a single obje
 
 ##Remarks
 
-One expects several alternative such [[semi-strict]]ification statements. Eugenia Cheng and Nick Gurski write the following at the end of their paper:
+One expects several alternative such [[semi-strict infinity-category|semi-strictification]] statements. Eugenia Cheng and Nick Gurski write the following at the end of their paper:
 
 +--{style="font-size: 90%; margin-left:2em;}
 Finally we consider the question of eliminating the distinguished invertible 
