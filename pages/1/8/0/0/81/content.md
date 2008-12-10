@@ -12,7 +12,7 @@
 
 * [[string theory|String theory]]
 
-  * [[branes|Branes]]
+  * [[brane|Branes]]
 
 * [[gnarly problems in physics|Gnarly problems in physics]]
 
