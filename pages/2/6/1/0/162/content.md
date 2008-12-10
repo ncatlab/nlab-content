@@ -21,6 +21,10 @@ $$
 
 The quotient map which sends elements in $G^k$ to their $k$-conjugacy class is called (at least for $k=2$) the [[weak Cayley table]] of $G$.
 
+#Remarks#
+
+* Evidently, on any $k$-conjugacy class of $G$ we canonically obtain $k$ different commuting actions of $G$.
+
 #Reference#
 
 For a brief review and a collection of many relevant references see
