@@ -32,3 +32,7 @@ More generally, a **directed graph [[internalization|internal to]] an ambient [[
 * Note that this definition includes multigraphs, i.e. graphs with distinct edges $e,e'\in G_1$ such that $s(e) = s(e')$ and $t(e) = t(e')$, as well as loops, i.e. edges with $s(e) = t(e)$.
 
 * A directed graph is like a [[category]] with units and composition forgotten. Indeed, a [[category]] is a directed graph with extra structure.
+
+###See also###
+***
+* [[directed n-graph|Directed n-graph]]
