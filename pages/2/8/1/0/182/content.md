@@ -8,7 +8,7 @@ We write $CoDGCA$ for the [[category]] of such codifferential coalgebras.
 ##Remarks##
 
 
-* Codifferential coalgebras whose underlying graded-cocommutative coalgebra is free over an algebra of functions on a smooth manifold is a [[Lie infinity-algebroid]].
+* Codifferential coalgebras whose underlying graded-cocommutative coalgebra is free over a complex of vector spaces in positive degree are [[Lie infinity-algebra]]s.
 
 #References#
 
