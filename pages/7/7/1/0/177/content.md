@@ -1,4 +1,4 @@
-A graph $G = (G_0,G_1)$ is a collection of nodes $G_0$ and edges $G_1$.
+A graph $G = (G_0,G_1)$ is a collection of vertices $G_0$ and edges $G_1$.
 
 A directed graph $DG = (G,s,t)$ is a graph $G$ together with source maps
 
