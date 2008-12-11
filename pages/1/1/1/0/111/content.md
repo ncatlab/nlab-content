@@ -1,6 +1,6 @@
 #Idea#
 
-* A (small) category is a graph with a rule for how to _compose_ two edges that fit together to get a new edge.
+* A (small) category is a [[directed graph]] with a rule for how to _compose_ two edges that fit together to get a new edge.
 
 * A category is a combinatorial model for a directed space: there are "points", called _objects_, and there are directed "paths", or "processes" connecting these points: called _morphisms_; and there is a rule for how to compose morphisms that end and start at a given object. 
 
