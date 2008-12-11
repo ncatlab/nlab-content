@@ -5,10 +5,13 @@ $L_\infty$-algebras are a [[vertical categorification]] of Lie algebras: in an $
 
 #Definition#
 
-The quickest definition is:
+An **$L_\infty$-algebra** is 
 
-an $L_\infty$-algebra is a degree -1 coderivation 
-$D : \vee V \to \vee V$ on the free graded co-commutatuive algebra $V$ generated from a $\mathbb{N}$-grade vector space $V$ such that $D^2 = 0$.
+* an $\mathbb{N}$-graded vector space $\mathfrak{g}$;
+
+* equipped with a coderivation $D : \vee^\bullet \mathfrak{g} \to \vee^\bullet \mathfrak{g}$ on the [[free graded co-commutative coalgebra]] over $\mathfrak{g}$.
+
+##Remarks##
 
 Using the fact that coderivations on free coalgebras are already fixed by their action on "cogenerators", i.e. by their preimage in $V$, one can decompose this $D$ into it $k$-ary components
 $$
@@ -20,18 +23,9 @@ In terms of these the condition $D^2 = 0$ is a somewhat complicated looking cond
 
 #Special cases and generalizations#
 
-* An $L_\infty$-algebra for which $V$ is concentrated in the first $n$ degree is a **Lie $n$-algebra**.
+* An $L_\infty$-algebra for which $V$ is concentrated in the first $n$ degree is a **Lie $n$-algebra** (sometimes also: "$L_n$-algebra").
 
 * An $L_\infty$-algebra in which only $D_n$ is nontrivial is an **$n$-Lie algebra**. But beware: in the literature on $n$-Lie algebras the condition that $D_n$ is of homogeneous degree -1 is often dropped.
-
-+-- {: .query}
-My, that is a profusion of terminology! So Lie $n$-algebras and $n$-Lie algebras are different. How about $L_n$-algebras? Has anybody introduced those?
-
-_[[Urs Schreiber|Urs]] says:_ Yes, I am sure I have seen authors write $L_n$-algebra for Lie $n$-algebra: those authors who don't know/care about the higher categorical interpretation but take the $L_\infty$-algebra definition as the starting point. 
-
-And, yes, it is a problem that there is so much different but equivalent terminology. Just recently, it has led to a huge industry of wheel-reinventing by string theorists. I have added references to that below.
-
-=--
 
 * The skew-symmetry of the Lie bracket is retained strictly in $L_\infty$-algebras. It is expected that weakening this, too, yields a more general [[vertical categorification]] of Lie algebras. For $n=2$ this has been worked out by Dmitry Roytenberg: [On weak Lie 2-algebras](http://arxiv.org/abs/0712.3461).
 
@@ -45,10 +39,13 @@ The original references are:
 
 * Tom Lada, Martin Markl, _Strongly homotopy Lie algebras_ ([arXiv](http://arxiv.org/abs/hep-th/9406095))
 
-
 A quick web entry is
 
 * Marilyn Daily, [$L_\infty$-structures](http://www.aei.mpg.de/~md/hl.html).
+
+See also for instance section 3.1 of
+
+Alberto S. Cattaneo, Florian Sch&#228;tz, _http://arxiv.org/abs/0704.1403_ ([arXiv](http://arxiv.org/abs/0704.1403))
 
 
 The standard reference for Lie 2-algebras is
