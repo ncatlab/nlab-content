@@ -1,11 +1,34 @@
-A graph $G = (G_0,G_1)$ is a collection of vertices $G_0$ and edges $G_1$.
+#Idea#
 
-A directed graph $DG = (G,s,t)$ is a graph $G$ together with source maps
+A (directed) graph is a collection of edges which may stretch between (ordered) pairs of "points", called _vertices_.
 
-$$s:G_1\to G_0$$
+#Definition#
 
-and target maps
+A **directed graph** $G = (G_0,G_1)$ is 
 
-$$t:G_1\to G_0.$$
+* a collection $G_0$, called the collection of _vertices_;
 
-Note that this definition includes multigraphs, i.e. graphs with distinct edges $e,e'\in G_1$ such that $s(e) = s(e')$ and $t(e) = t(e')$, as well as loops, i.e. edges with $s(e) = t(e)$.
+* a collection $G_1$, called the collection of _edges_;
+
+* together with two maps $s,t : G_1 \to G_0$, called
+the _source_ and _target_ maps.
+
+More generally, a **directed graph [[internalization|internal to]] an ambient [[category]]** $C$ is
+
+* an object $G_0 \in C$, called the object of _vertices_;
+
+* an object $G_1 \in C$, called the object of _edges_;
+
+* together with two morphisms $s,t : G_1 \to G_0$ in $C$, called the _source_ and _target_ morphisms.
+
+##Examples##
+
+* For instance a directed graph internal to $Sets$ is a _small_ directed graph: one where the collections of edges and vertices form sets.
+
+
+
+##Remarks##
+
+* Note that this definition includes multigraphs, i.e. graphs with distinct edges $e,e'\in G_1$ such that $s(e) = s(e')$ and $t(e) = t(e')$, as well as loops, i.e. edges with $s(e) = t(e)$.
+
+* A directed graph is like a [[category]] with units and composition forgotten. Indeed, a [[category]] is a directed graph with extra structure.
