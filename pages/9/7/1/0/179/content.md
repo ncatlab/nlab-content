@@ -2,29 +2,11 @@
 
 **$L_\infty$-algebroid**s or **Lie $\infty$-algebroid**s or are to [[Lie infinity-groupoid]]s as Lie algebras are to Lie groups. Hence $L_\infty$-algebroids are a [[horizontal categorification]] and [[vertical categorification]] of Lie algebras: they encompass [[L-infinity-algebra]]s as well as [[Lie algebroid]]s.
 
-#Definition in terms of codifferential coalgebra#
-
-
-A **Lie $\infty$-algebroid** is
-
-* a smooth space $X \in$ [[Diff]];
-
-* an $\mathbb{N}$-graded smooth vector bundle $E \to X$, not necessarily of finite rank;
-
-  * the $C^\infty$-module of sections of $E$ is denoted in the following by $\mathfrak{g} := \Gamma(E)$;
-
-* a coderivation $D$ (over $\mathbb{R}$) of degree -1 on the [[free graded co-commutative coalgebra]] $\vee^\bullet_{C^\infty(X)} \mathfrak{g}$ 
-
-* such that
-
-  * $D^2 = 0$.
-
-Morphisms of Lie $\infty$-algebroids are morphisms of the underlying coalgebras which respect the differential. The resulting category of Lie $\infty$-algebroids we call $L_\infty Algebroids$.
 
 
 #Definition in terms of differential algebra#
 
-In the case that the vector bundle $E$ is of finite rank in each degree, so that the dual $\mathfrak{g}^*$ of the module $\mathfrak{g}$ over $C^\infty(X)$ exists, this definition is equivalent to the following:
+Lie $\infty$-algebroids are defined dually in terms of qDGCAs.
 
 +-- {: .un_defn}
 ###### Definition
@@ -35,7 +17,7 @@ A _quasi-free differential graded commutative algebra_
 
 * an algebra of smooth functions $A := C^\infty(X)$ on a smooth manifold $X$;
 
-* a non-positively graded complex $g$ of finitely generated projective $A$-modules;
+* a non-positively graded complex $g$ of (finitely generated projective) $A$-modules;
 
 * together with a degree +1 graded derivation $d$ on the free (over $A$) graded-(anti-)commutative algebra
 $
@@ -65,26 +47,15 @@ $\wedge^\bullet_{C^\infty(X)} g^* = \wedge^\bullet_{C^\infty(X)} \Omega^1(X) = \
 
 **Remark:** This is equivalent to the definition of the algebra of functions on an [[NQ-supermanifold]].
 
+#Lie $\infty$-algebroid#
 
 We write 
 
 $$
-  L_\infty Algebroids_{fin} \stackrel{CE(-)}{\to} qDGCAs
+  L_\infty Algebroids \stackrel{CE(-)}{\to} qDGCAs
 $$
 
-for the corresponding contravariant functor 
-which sends a finite rank Lie $\infty$-algebroid 
-$(\vee^\bullet_{C^\infty(X)} \mathfrak{g}, D)$
-to the corresponding dual qDGCA
-
-$$
-  CE(\mathfrak{g})
-  :=
-  (\wedge^\bullet_{C^\infty(X)} 
-    \mathfrak{g}^*, d : \omega \mapsto -\omega(D(-))
-  )
-$$
-
+for the category of $L_\infty$-algebroids, identified by their dual qDGCAs
 and address the qDGCA $CE(g)$ as the (generalized) [[Chevalley–Eilenberg algebra]] of $g$.
 
 **Remark** In the physics literature $CE(g)$ is called a 
