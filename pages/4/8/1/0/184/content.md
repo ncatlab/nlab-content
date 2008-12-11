@@ -26,6 +26,8 @@ the _source_ and _target_ maps, where $G_{-1}$ is the empty set.
 
 _[[Urs Schreiber|Urs]] says_: I am still searching the literature: somewhere _$n$-graph_ has been defined before. Notice that if the _globularity condition_ on source and target maps are imposed, then an $\infty$-graph is a **[[globular set]]**. Indeed, $\omega$-[[omega-category|categories]] are [[globular set]]s with extra structure.
 
+_[[Eric Forgy|Eric]] says: Here are some references that might be relevant:: [Fundamental groupoids of k-graphs](http://www.emis.de/journals/NYJM/j/2004/10-12.pdf), [$C^*$-algebras associated to higher-rank graphs](http://www.newcastle.edu.au/service/library/adt/uploads/approved/adt-NNCU20060327.122628/public/02whole.pdf). 
+
 =--
 
 
