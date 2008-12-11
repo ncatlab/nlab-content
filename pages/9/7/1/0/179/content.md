@@ -67,22 +67,24 @@ $\wedge^\bullet_{C^\infty(X)} g^* = \wedge^\bullet_{C^\infty(X)} \Omega^1(X) = \
 
 
 We write 
+
 $$
   L_\infty Algebroids_{fin} \stackrel{CE(-)}{\to} qDGCAs
 $$
+
 for the corresponding contravariant functor 
 which sends a finite rank Lie $\infty$-algebroid 
-$
-  (\vee^\bullet_{C^\infty(X)} \mathfrak{g}, D)
-$
+$(\vee^\bullet_{C^\infty(X)} \mathfrak{g}, D)$
 to the corresponding dual qDGCA
-$
+
+$$
   CE(\mathfrak{g})
   :=
   (\wedge^\bullet_{C^\infty(X)} 
     \mathfrak{g}^*, d : \omega \mapsto -\omega(D(-))
   )
-$
+$$
+
 and address the qDGCA $CE(g)$ as the (generalized) [[Chevalley–Eilenberg algebra]] of $g$.
 
 **Remark** In the physics literature $CE(g)$ is called a 
