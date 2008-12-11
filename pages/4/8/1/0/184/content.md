@@ -8,9 +8,9 @@ A directed $n$-graph is a higher dimensional generalization of a [[directed grap
 
 A **directed $n$-graph** $G = \prod_{r=0}^n G_r$ is 
 
-* a collection $G_r$ of $r$-dimensional _edges_;
+* a collection $G_r$ of $r$-dimensional _edges_ for $0 \le r \le n$;
 
-* together with, for each $r \geq 1 \in \mathbb{N}$, two maps $s,t : G_r \to G_{r-1}$, called
+* together with two maps $s,t : G_r \to G_{r-1}$, called
 the _source_ and _target_ maps, where $G_{-1}$ is the empty set.
 
 ##Remarks##
