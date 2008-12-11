@@ -21,13 +21,16 @@ More generally, a **directed graph [[internalization|internal to]] an ambient [[
 
 * together with two morphisms $s,t : G_1 \to G_0$ in $C$, called the _source_ and _target_ morphisms.
 
+
 ##Examples##
 
-* For instance a directed graph internal to $Sets$ is a _small_ directed graph: one where the collections of edges and vertices form sets.
+* A directed graph internal to $Sets$ is a _small_ directed graph: one where the collections of edges and vertices form sets.
 
 
 
 ##Remarks##
+
+* In particular, a directed graph is a [[globular set]] which is concentrated in the first two degrees.
 
 * Note that this definition includes multigraphs, i.e. graphs with distinct edges $e,e'\in G_1$ such that $s(e) = s(e')$ and $t(e) = t(e')$, as well as loops, i.e. edges with $s(e) = t(e)$.
 
