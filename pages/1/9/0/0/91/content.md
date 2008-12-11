@@ -78,6 +78,24 @@ Globular sets are to [[simplicial set]]s as [[globe]]s are to simplices.
   which these satisfy by functoriality for all $n \in \mathbb{N}$
   are called the **globular identities**.
 
++--{.query}
+
+[[Eric Forgy|Eric]] says: Would it be possible to drop the subscripts? They do not seem to be necessary and it would be less cluttered to drop them.
+
+I was going to add a definition:
+
+A globular set is a [[directed n-graph|directed infinity-graph]] satisfying the globular conditions
+
+$$s s = s t$$
+
+and
+
+$$t s = t t.$$
+
+Would that be alright?
+
+=--
+
  A morphism of globular objects is a natural transformation
   of the corresponding functors.
 For the resulting category of globular objects in $K$
