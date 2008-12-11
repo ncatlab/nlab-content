@@ -1,5 +1,7 @@
 #Idea#
 
+
+
 A directed $n$-graph is a higher dimensional generalization of a [[directed graph]] with $r$-dimensional _edges_ spanning $(r-1)$-dimensional _vertices_.
 
 #Definition#
@@ -8,11 +10,23 @@ A **directed $n$-graph** $G = \prod_{r=0}^n G_r$ is
 
 * a collection $G_r$ of $r$-dimensional _edges_;
 
-* together with two maps $s,t : G_r \to G_{r-1}$, called
+* together with, for each $r \geq 1 \in \mathbb{N}$, two maps $s,t : G_r \to G_{r-1}$, called
 the _source_ and _target_ maps, where $G_{-1}$ is the empty set.
 
 ##Remarks##
 
+* A directed 1-graph is a [[directed graph]].
+
+
 * A directed $n$-graph is like an [[n-category]] with units and composition forgotten. Indeed, an [[n-category]] is a directed $n$-graph with extra structure.
 
-* A directed 1-graph is a [[directed graph]].
++--{.query}
+
+
+
+_[[Urs Schreiber|Urs]] says_: I am still searching the literature: somewhere _$n$-graph_ has been defined before. Notice that if the _globularity condition_ on source and target maps are imposed, then an $\infty$-graph is a **[[globular set]]**. Indeed, $\omega$-[[omega-category|categories]] are [[globular set]]s with extra structure.
+
+=--
+
+
+
