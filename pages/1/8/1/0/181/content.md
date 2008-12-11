@@ -14,9 +14,9 @@
 
 ##Examples##
 
-* For $R$ a commutative ring, if the endofunction $F : C \to C$ is $F : R-Mod \to R-Mod$ given by $F : N \mapsto N \otimes N$, then $F$-coalgebras are precisely non-coassociative coalgebras in the specific sense of non-associtive monoids in $R-Mod^{op}$. (See Tom Leinster's comment [here](http://golem.ph.utexas.edu/category/2008/12/the_status_of_coalgebra.html#c020741)).
+* For $R$ a commutative ring, if the endofunction $F : C \to C$ is $F : R-Mod \to R-Mod$ given by $F : N \mapsto N \otimes N$, then $F$-coalgebras are precisely non-coassociative coalgebras in the specific sense of non-associtive monoids in $R-Mod^{op}$. (See [[Tom Leinster]]'s comment [here](http://golem.ph.utexas.edu/category/2008/12/the_status_of_coalgebra.html#c020741)).
 
-* [[Lie infinity-algebroid]]s are [[CoDGCA|cocommutative comonoids]] in the category of chain complexes.
+* [[L-infinity algebra]]s are [[CoDGCA|cocommutative comonoids]] in the category of chain complexes.
 
 
 #Blog resources#
