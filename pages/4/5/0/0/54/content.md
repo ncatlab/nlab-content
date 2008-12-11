@@ -11,8 +11,6 @@ Urs, did you mean to un-[publish](http://ncatlab.org/schreiber/published/HomePag
 
 I did it on purpose, yes. I want to use it to discuss stuff with some of my collaborators that should not be visible to everybody. But anyone who wants to see my private web should email me for the password. -[[Urs Schreiber]]
 
-Oh no! I hope that is not a sign of things moving behind the curtains :o -[[Eric Forgy]]
-
 =--
 
 category: people
