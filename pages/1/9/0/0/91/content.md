@@ -45,6 +45,9 @@ Globular sets are to [[simplicial set]]s as [[globe]]s are to simplices.
   For $n \in \mathbb{N}$ we write
 
   $$
+    S_n := S(n) 
+  $$
+  $$
     s_n := S(\sigma_n) : S_{n+1} \to S_{n}
   $$
   $$
@@ -53,7 +56,7 @@ Globular sets are to [[simplicial set]]s as [[globe]]s are to simplices.
   $$
     i_n := S(\iota_n) : S_{n} \to S_{n+1}
   $$
-  and call $s_n$ the $(n+1)$st **source map** and $t_n$ the    
+  and call $S_n$ the **collection of $n$-cells** of **$n$-[[globe]]s**; $s_n$ the $(n+1)$st **source map** and $t_n$ the    
   $(n+1)$st
   **target map** and $i_n$ the $n$th 
   **identity assigning map**.
@@ -126,3 +129,9 @@ $$
 with $i_n, s_n, t_m$ the sequence of $m$
 consecutive identity-assigning, source or target maps, respectively.
 
+
+#Examples#
+
+* A globular set concentrated in degree 0 is just a set. A globular set concentrated in degrees 0 and 1 is a [[directed graph]]. See also [[directed n-graph]].
+
+* The **globular $n$-globe** $G_n$ is the globular set represented by $n$, i.e. $G_n(-) := Hom_G(-,n)$.
