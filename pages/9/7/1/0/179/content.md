@@ -58,7 +58,11 @@ $$
 for the category of $L_\infty$-algebroids, identified by their dual qDGCAs
 and address the qDGCA $CE(g)$ as the (generalized) [[Chevalley–Eilenberg algebra]] of $g$.
 
-**Remark** In the physics literature $CE(g)$ is called a 
+##Remarks##
+
+* The definition of a Lie $\infty$-structure in terms of a dual differential graded-commutative algebra is the higher graded version of the definition of Lie algebras in terms of [Lie coalgebras](http://en.wikipedia.org/wiki/Lie_coalgebra).
+
+* In the physics literature $CE(g)$ is called a 
 [[Chevalley–Eilenberg algebra|BRST complex]].
 
 
