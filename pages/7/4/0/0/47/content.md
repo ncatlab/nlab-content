@@ -207,6 +207,12 @@ Anyway, in the future, it may be useful also to have content-related categories,
 &#8212;Toby
 =--
 
++-- {: query}
+
+I've noticed on several pages that some links have been created with partial words highlighted, e.g. [[coalgebra|coalgebra]]ic, endo[[functor]], etc. When I see that, my brain instinctively flashes a warning sign and I am tempted to "fix" it by replaing the partial highlights with [[coalgebra|coalgebraic]], [[functor|endofunctor]], etc. Is this by design? Would anyone object to my "fixing" it? Just curious... [[Eric Forgy|Eric]]
+
+=--
+
 ## Naming conventions
 
 +-- {: commenttoby}
