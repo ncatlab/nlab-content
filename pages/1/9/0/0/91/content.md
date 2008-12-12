@@ -137,13 +137,10 @@ consecutive identity-assigning, source or target maps, respectively.
 
 #Remarks#
 
-* An $n$-cell $g\in S_n$ satisfying $s^n(g) = t^n(g)$ is called an $n$-[[globe]].
-
-* A globular set is a [[directed n-graph|directed infinity-graph]] satisfying the globular conditions
+* A globular set is a [[directed n-graph|directed infinity-graph with identities]] satisfying the globular conditions
 
 $$s\circ s = s\circ t$$
 
 and
 
 $$t\circ s = t\circ t.$$
-
