@@ -13,6 +13,8 @@ A **directed graph** $G = (G_0,G_1)$ is
 * together with two maps $s,t : G_1 \to G_0$, called
 the _source_ and _target_ maps.
 
+A _loop_ is an edge $e\in G_1$ with $s(e) = t(e).$
+
 More generally, a **directed graph [[internalization|internal to]] an ambient [[category]]** $C$ is
 
 * an object $G_0 \in C$, called the object of _vertices_;
@@ -20,7 +22,6 @@ More generally, a **directed graph [[internalization|internal to]] an ambient [[
 * an object $G_1 \in C$, called the object of _edges_;
 
 * together with two morphisms $s,t : G_1 \to G_0$ in $C$, called the _source_ and _target_ morphisms.
-
 
 ##Examples##
 
@@ -30,7 +31,7 @@ More generally, a **directed graph [[internalization|internal to]] an ambient [[
 
 ##Remarks##
 
-* In particular, a directed graph is a [[globular set]] which is concentrated in the first two degrees.
+* A directed graph is a [[globular set]] which is concentrated in the first two degrees.
 
 * Note that this definition includes multigraphs, i.e. graphs with distinct edges $e,e'\in G_1$ such that $s(e) = s(e')$ and $t(e) = t(e')$, as well as loops, i.e. edges with $s(e) = t(e)$.
 
