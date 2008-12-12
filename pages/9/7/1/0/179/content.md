@@ -85,7 +85,7 @@ So in particular
 
 #Further resources#
 
-There should be an [[internalization]] of this into the context of [[generalized smooth spaces]] and [[generalized smooth algebras]]. This is discussed at [[schreiber:generalized smooth L-infinity algebroid]].
+There should be an [[internalization]] of this into the context of [[generalized smooth space]]s and [[generalized smooth algebra]]s. This is discussed at [[schreiber:generalized smooth L-infinity algebroid]].
 
 #References#
 
