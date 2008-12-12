@@ -1,3 +1,3 @@
-See [[L-infinity-algebra]]s.
+See [[L-infinity-algebra]].
 
 category: redirect
