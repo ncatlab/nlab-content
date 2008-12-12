@@ -1,6 +1,6 @@
 #Idea#
 
-A Lie $\infty$-groupoid is supposed to be an $\infty$-[[infinity-groupoid|groupoid]] [[internalization|internal to]] a suitable kind of [[generalized smooth spaces]]. 
+A Lie $\infty$-groupoid is supposed to be an $\infty$-[[infinity-groupoid|groupoid]] [[internalization|internal to]] a suitable category of [[generalized smooth space]]s. 
 
 #Remarks#
 
