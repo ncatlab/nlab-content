@@ -52,7 +52,7 @@ _Quantization of Donaldson-Uhlenbeck-Yau theory_
 ###Idea###
 
 * Lagrangian BV-formalism is a means to describe 
-[[integration over supermanifolds]] for [[NQ-supermanifold]]s given by [[L-infinity-algebroid]]s.
+[[integration over supermanifolds]] for [[NQ-supermanifold]]s given by $L_\infty$-[[Lie infinity-algebroid|algebroid]]s.
 (Recall that in the physics literture the function algebra of these [[NQ-supermanifold]]s is addressed as the [[BRST complex]].)
 
 
@@ -94,9 +94,9 @@ The point to notice now is
 $\Delta \exp(\frac{i}{\hbar}S) = 0$ says nothing but that
 $exp(\frac{i}{\hbar}S(-)) \mu$ is a _closed differential form_.
 
-* If we furthermore take into account that in the presence of gauge symmetries the space $X$ is not a plain manifold but the [[L-infinity-algebroid]] of the gauge symmetries acting on the space of fields, hence an [[NQ-supermanifold]] (whose Chevalley-Eilenberg algebra is the **BRST complex**), then this just says that $\exp(\frac{i}{\hbar}S) \mu$ is an [[integration over supermanifolds|integrable form]] in the sense of [[integration over supermanifolds|integration theory of supermanifolds]].
+* If we furthermore take into account that in the presence of gauge symmetries the space $X$ is not a plain manifold but the $L_\infty$-[[Lie infinity-algebroid|algebroid]] of the gauge symmetries acting on the space of fields, hence an [[NQ-supermanifold]] (whose Chevalley-Eilenberg algebra is the **BRST complex**), then this just says that $\exp(\frac{i}{\hbar}S) \mu$ is an [[integration over supermanifolds|integrable form]] in the sense of [[integration over supermanifolds|integration theory of supermanifolds]].
 
-This means that Lagrangian BV formalism is nothing but a way of describing closed differential forms on [[L-infinity-algebroid]]s in terms of multivectors contracted into a reference differention form. The multivectors dual to degree 0 elements in the [[L-infinity-algebroid]] are the so-called "**anti-fields**", while those dual to the higher degree elements are the so-called "**anti-ghosts**".
+This means that Lagrangian BV formalism is nothing but a way of describing closed differential forms on $L_\infty$-[[Lie infinity-algebroid|algebroid]]s in terms of multivectors contracted into a reference differention form. The multivectors dual to degree 0 elements in the $L_\infty$-[[Lie infinity-algebroid|algebroid]] are the so-called "**anti-fields**", while those dual to the higher degree elements are the so-called "**anti-ghosts**".
 
 ###Examples###
 
@@ -106,7 +106,7 @@ See [[examples for Lagrangian BV]].
 ### Relation to groupoid cardinality ###
 
 There ought to be a close relation between the 
-integration over [[L-infinity-algebroid]]s using BV-formalism and the notion of [[groupoid cardinality]]
+integration over $L_\infty$-[[Lie infinity-algebroid|algebroid]]s using BV-formalism and the notion of [[groupoid cardinality]]
 for finite groupoids, which was recently generalized to 
 a notion of [[volume of Lie groupoids]].
 
