@@ -8,15 +8,26 @@ A directed $n$-graph is a higher dimensional generalization of a [[directed grap
 
 A **directed $n$-graph** $G = \prod_{r=0}^n G_r$ is 
 
-* a collection $G_r$ of $r$-dimensional _edges_ for $0 \le r \le n$;
+* a collection $G_r$ of $r$-dimensional edges (or **$r$-edges**) for $0 \le r \le n$;
 
 * together with two maps $s,t : G_r \to G_{r-1}$, called
-the _source_ and _target_ maps, where $G_{-1}$ is the empty set.
+the **source** and **target** maps, where $G_{-1}$ is the empty set.
+
+An $r$-edge $e\in G_r$ is called an **identity** (or **$r$-loop**) if
+
+$$s(e) = t(e).$$
+
+An **identity assigning map** is a map $i:G_r\to G_{r+1}$ satisfying
+
+$$s\circ i = t\circ i$$
+
+when defined. When identity assignment maps are defined for all $r\ge 0$, the directed $\infty$-graph is referred to as a **directed $\infty$-graph with identities**.
 
 ##Remarks##
 
 * A directed 1-graph is a [[directed graph]].
 
+* A directed $n$-graph is not required to contain identities.
 
 * A directed $n$-graph is like an [[n-category]] with units and composition forgotten. Indeed, an [[n-category]] is a directed $n$-graph with extra structure.
 
