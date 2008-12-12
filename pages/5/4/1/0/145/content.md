@@ -14,4 +14,4 @@ So $CartesianSpaces$ is the full subcategory of $Manifolds$ on the $\mathbb{R}^n
 * Let $CartesianSpaces_{pr} \hookrightarrow CartesianSpaces$ be the subcategory of $CartesianSpaces$ whose morphisms are restricted to be the standard injections and projections on $CartesianSpaces$. 
 If we write $FinSet$ for the skeletal version of the category of finite sets, with objects identified with the natural numbers, then $CartesianSpaces_{pr} \simeq FinSet$.
 
-* $CartesianSpaces$ appear as test objects in the context of [[generalized smooth spaces]] and [[generalized smooth algebras]].
+* $CartesianSpaces$ appear as test objects in the context of [[generalized smooth space]]s and [[generalized smooth algebra]]s.
