@@ -8,7 +8,7 @@ The relation between Lie algebras and Lie groups was established by [[Lie's thre
 
 In a categorical context there are the usual two generalization of Lie groups: the [[horizontal categorification]] -- or oidification -- which adds _more objects_ and leads to _Lie groupoids_; and the [[vertical categorification]] which adds _higher morphisms_ and leads to $\infty$-Lie groups and $\infty$-Lie groupoids. This is described below.
 
-In the course of these categorifications one usually finds that working [[internalization|internal to]] $Manifolds$ is too restrictive for many purposes. Therefore higher Lie theory is often considered internal to [[generalized smooth spaces]].
+In the course of these categorifications one usually finds that working [[internalization|internal to]] $Manifolds$ is too restrictive for many purposes. Therefore higher Lie theory is often considered internal to [[generalized smooth space]]s.
 
 #Oidified Lie theory: Lie groupoids and Lie algebroids#
 
