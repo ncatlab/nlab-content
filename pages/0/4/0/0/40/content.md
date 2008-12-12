@@ -1,3 +1,3 @@
-See [[L-infinity-algebroid]].
+See [[Lie infinity-algebroid]].
 
 category: redirect
