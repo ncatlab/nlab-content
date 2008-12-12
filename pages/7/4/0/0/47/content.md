@@ -269,5 +269,11 @@ I disabled the icons that used to appear next to pdf files, n-category cafe link
 It's just a test. I was starting to feel that the little images were a distraction on the page, sort of like the feeling you get when there are too many advertisements on a page. How do people feel, or you in favour of them or not? They can be enabled again by just un-commenting them in the stylesheet tweaks by someone with a password. -- Bruce
 =--
 
++-- {: commenturs}
+
+I liked them. -Urs
+
+=--
+
 
 category: meta
