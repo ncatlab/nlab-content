@@ -31,4 +31,6 @@ $$g_v\in G_n \implies g_v = i^n(v), v\in G_0$$
 
 ?
 
+Or is an $n$-globe more like an $n$-[[directed n-graph|loop]]?
+
 =--
