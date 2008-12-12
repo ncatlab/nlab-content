@@ -56,7 +56,7 @@ Globular sets are to [[simplicial set]]s as [[globe]]s are to simplices.
   $$
     i_n := S(\iota_n) : S_{n} \to S_{n+1}
   $$
-  and call $S_n$ the **collection of $n$-cells** of **$n$-[[globe]]s**; $s_n$ the $(n+1)$st **source map** and $t_n$ the    
+  and call $S_n$ the **collection of $n$-cells**; $s_n$ the $(n+1)$st **source map** and $t_n$ the    
   $(n+1)$st
   **target map** and $i_n$ the $n$th 
   **identity assigning map**.
@@ -136,6 +136,8 @@ consecutive identity-assigning, source or target maps, respectively.
 * The **globular $n$-globe** $G_n$ is the globular set represented by $n$, i.e. $G_n(-) := Hom_G(-,n)$.
 
 #Remarks#
+
+* An $n$-cell $g\in S_n$ satisfying $s^n(g) = t^n(g)$ is called an $n$-[[globe]].
 
 * A globular set is a [[directed n-graph|directed infinity-graph]] satisfying the globular conditions
 
