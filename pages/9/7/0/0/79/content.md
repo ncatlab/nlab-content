@@ -18,7 +18,7 @@
 
       * [[BV theory|BV Theory]]
 
-    * [[generalized smooth spaces|Generalized Smooth Spaces]]
+    * [[generalized smooth space|Generalized Smooth Spaces]]
 
 * [[algebra|Algebra]]
 
