@@ -19,19 +19,19 @@ Globular sets are to [[simplicial set]]s as [[globe]]s are to simplices.
     \iota_n : [n+1] \to [n]
   $$
 
-  for all $n \in \mathbb{N}$ subject to the relations
+  for all $n \in \mathbb{N}$ subject to the relations (dropping obvious subscripts)
 
   $$
-    \sigma_{n+1}\circ \sigma_n = \tau_{n+1} \circ \sigma_n
+    \sigma\circ \sigma = \tau \circ \sigma
   $$
   $$
-    \sigma_{n+1}\circ \tau_n = \tau_{n+1} \circ \tau_n
+    \sigma\circ \tau = \tau \circ \tau
   $$
   $$
-    \iota_n \circ \sigma_n = \mathrm{Id}
+    \iota \circ \sigma = \mathrm{Id}
   $$
   $$
-    \iota_n \circ \tau_n = \mathrm{Id}
+    \iota \circ \tau = \mathrm{Id}
     \,.
   $$
 
@@ -61,40 +61,21 @@ Globular sets are to [[simplicial set]]s as [[globe]]s are to simplices.
   **target map** and $i_n$ the $n$th 
   **identity assigning map**.
 
-  The relations
+  The relations (dropping obvious subscripts)
   $$
-    s_n \circ s_{n+1} = s_n \circ t_{n+1}
-  $$
-  $$
-    t_n \circ s_{n+1} = t_n \circ t_{n+1}
+    s \circ s = s \circ t
   $$
   $$
-    s_n \circ i_n = \mathrm{Id}
+    t \circ s = t \circ t
   $$
   $$
-    t_n \circ i_n = \mathrm{Id}
+    s \circ i = \mathrm{Id}
+  $$
+  $$
+    t \circ i = \mathrm{Id}
   $$
 
-  which these satisfy by functoriality for all $n \in \mathbb{N}$
-  are called the **globular identities**.
-
-+--{.query}
-
-[[Eric Forgy|Eric]] says: Would it be possible to drop the subscripts? They do not seem to be necessary and it would be less cluttered to drop them.
-
-I was going to add a definition:
-
-A globular set is a [[directed n-graph|directed infinity-graph]] satisfying the globular conditions
-
-$$s s = s t$$
-
-and
-
-$$t s = t t.$$
-
-Would that be alright?
-
-=--
+are called the **globular identities**.
 
  A morphism of globular objects is a natural transformation
   of the corresponding functors.
@@ -153,3 +134,14 @@ consecutive identity-assigning, source or target maps, respectively.
 * A globular set concentrated in degree 0 is just a set. A globular set concentrated in degrees 0 and 1 is a [[directed graph]]. See also [[directed n-graph]].
 
 * The **globular $n$-globe** $G_n$ is the globular set represented by $n$, i.e. $G_n(-) := Hom_G(-,n)$.
+
+#Remarks#
+
+* A globular set is a [[directed n-graph|directed infinity-graph]] satisfying the globular conditions
+
+$$s\circ s = s\circ t$$
+
+and
+
+$$t\circ s = t\circ t.$$
+
