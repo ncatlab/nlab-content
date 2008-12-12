@@ -86,16 +86,16 @@ One can
 
 * either carefully try to cut down $S^\bullet(\mathfrak{g})$ to something small and well behaved (this is the strategy in Getzler's work [#](http://arxiv.org/abs/math/0404003));
 
-* or one realizes these quotients as suitable [[generalized smooth spaces|generalized spaces]] (this is the strategy in Zhu's work [[Lie theory for stacky Lie groupoids|#]]).
+* or one realizes these quotients as suitable [[generalized smooth space|generalized spaces]] (this is the strategy in Zhu's work [[Lie theory for stacky Lie groupoids|#]]).
 
 
 ##Lie integration in low categorical dimension##
 
-Unsurprisingly, the properties of this general construction are best studied and understood for $\mathfrak{g}$ a Lie $n$-algebroid for low $n$. For $n=1$ it reproduces ordinary [[Lie theory]] and in particular [[Lie's three theorems]] (see there for details), at least if one passes to [[generalized smooth spaces]].
+Unsurprisingly, the properties of this general construction are best studied and understood for $\mathfrak{g}$ a Lie $n$-algebroid for low $n$. For $n=1$ it reproduces ordinary [[Lie theory]] and in particular [[Lie's three theorems]] (see there for details), at least if one passes to [[generalized smooth space]]s.
 
 
 
 #Remark#
 
-There is a way to understand [[Lie integration]] as being about forming fundamental $\infty$-groupoids of certain [[generalized smooth spaces]]. This is described at
+There is a way to understand [[Lie integration]] as being about forming fundamental $\infty$-groupoids of certain [[generalized smooth space]]s. This is described at
 [[Schreiber:Lie theory|Lie theory]] in the [private $n$Lab area](http://ncatlab.org/schreiber/show/HomePage).
