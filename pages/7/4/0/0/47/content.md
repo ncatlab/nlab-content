@@ -214,6 +214,8 @@ I've noticed on several pages that some links have been created with partial wor
 {: response}
 I presume your fix is to replace <nowiki>[[coalgebra]]ic</nowiki> with <nowiki>[[coalgebra|coalgebraic]]</nowiki>. The latter produces the desired "[[coalgebra|coalgebraic]]" link, instead of the bizarre-looking "[[coalgebra]]ic". If so, I say: go ahead. <br/>&mdash;[[Jacques Distler]]
 
+{:commenttoby}
+I produce such links purely out of laziness. By all means fix them (as Jacques describes). &#8212;Toby
 =--
 
 ## Naming conventions
