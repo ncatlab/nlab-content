@@ -30,7 +30,7 @@ when defined. When identity assignment maps are defined for all $r\ge 0$, the di
 
 * A directed $n$-graph is like an [[n-category]] with units and composition forgotten. Indeed, an [[n-category]] is a directed $n$-graph with extra structure.
 
-* One can defined a (globular) _directed $\omega$-graph_ (or _directed $\infty$-graph) in a [[coalgebra|coalgebraic]] fashion as follows: A directed $\omega$-graph $G$ consists of a collection $G_0$ of vertices and, for each pair of vertices $x$ and $y$, a directed $\omega$-graph $\Hom(x,y)$. (This is a definition by [[structural coinduction]].) Can this be continued to a corecursive definition of $\omega$-[[omega-category|category]] (or $\infty$-[[infinity-category|category]])?
+* One can define a (globular) _directed $\omega$-graph_ (or _directed $\infty$-graph_) in a [[coalgebra|coalgebraic]] fashion as follows: A directed $\omega$-graph $G$ consists of a collection $G_0$ of vertices and, for each pair of vertices $x$ and $y$, a directed $\omega$-graph $\Hom(x,y)$. (This is a definition by [[structural coinduction]].) Can this be continued to a corecursive definition of $\omega$-[[omega-category|category]] (or $\infty$-[[infinity-category|category]])?
 
 ##See also##
 ***
