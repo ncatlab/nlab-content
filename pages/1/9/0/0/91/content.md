@@ -137,10 +137,4 @@ consecutive identity-assigning, source or target maps, respectively.
 
 #Remarks#
 
-* A globular set is a [[directed n-graph|directed infinity-graph with identities]] satisfying the globular conditions
-
-$$s\circ s = s\circ t$$
-
-and
-
-$$t\circ s = t\circ t.$$
+* Globular sets are also referred to as $\omega$-[[omega-graph|graphs]].
