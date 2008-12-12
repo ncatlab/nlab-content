@@ -1,4 +1,4 @@
-Eugene Lerman kindly provided the following information on Hofer's theory of _polyfolds_, apparently a certain kind of [[generalized smooth spaces]].
+Eugene Lerman kindly provided the following information on Hofer's theory of _polyfolds_, apparently a certain kind of [[generalized smooth space]]s.
 
 #Reviews#
 
