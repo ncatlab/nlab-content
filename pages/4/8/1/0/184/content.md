@@ -38,5 +38,4 @@ _[[Eric Forgy|Eric]] says: My brain hurts. This paper [Simple omega-categories a
 
 =--
 
-
-
+* One can defined a (globular) _directed $\omega$-graph_ (or _directed $\infty$-graph) in a [[coalgebra]]ic fashion as follows: A directed $\omega$-graph $G$ consists of a collection $G_0$ of vertices and, for each pair of vertices $x$ and $y$, a directed $\omega$-graph $\Hom(x,y)$. (This is a definition by structural coinduction.) Can this be continued to a corecursive definition of $\omega$-[[omega-category|category]] (or $\infty$-[[infinity-category|category]])?
