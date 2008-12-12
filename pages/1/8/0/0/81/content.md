@@ -2,7 +2,7 @@
 
 * [[quantum field theory|Quantum Field Theory]]
 
-  * [[BV-theory]]
+  * [[BV theory|BV Theory]]
 
   * Axiomatizations
 
@@ -30,4 +30,4 @@ Just an insanely incomplete list of links for the moment:
 
 * Daniel S. Freed, _Higher Algebraic Structures and Quantization_ ([arXiv](http://arxiv.org/abs/hep-th/9212115))
 
-But for one the most important points there is to date no good comprehensive survey: lots of well-known structures in physics are _secretly_ higher categorical structures. See [[BV-theory]].
+But for one the most important points there is to date no good comprehensive survey: lots of well-known structures in physics are _secretly_ higher categorical structures. See [[BV theory]].
