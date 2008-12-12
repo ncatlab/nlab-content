@@ -4,7 +4,7 @@ One expects a notion of volume measure on [[Lie groupoid]]s (also known as [[dif
 
 A solution to this was proposed by Alan Weinstein, and re-interpreted in terms of 2-vector bundles by Richard Hepworth. 
 
-One would expect some relation of this to the [[BV theory|Lagrangian BV formalism]], which is also a formalism for integration over [[L-infinity-algebroid]]s.
+One would expect some relation of this to the [[BV theory|Lagrangian BV formalism]], which is also a formalism for integration over $L_\infty$-[[Lie infinity-algebroid|algebroid]]s.
 
 #References#
 
