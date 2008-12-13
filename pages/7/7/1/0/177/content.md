@@ -23,11 +23,11 @@ More generally, a **directed graph [[internalization|internal to]] an ambient [[
 
 * together with two morphisms $s,t : G_1 \to G_0$ in $C$, called the _source_ and _target_ morphisms.
 
-We can more abstractly define a directed graph in $C$ to be a functor $G : X^{op} \to C$ where $X^{op}$ is the category with an object $0$, an object $1$ and two morphisms $s,t : 1 \to 0$, along with identity morphisms.  This lets us efficiently define the category of directed graphs in $C$ as the [[hom-category]] $C^{X^{op}}$, where:
+We can more abstractly define a directed graph in $C$ to be a [[functor]] $G : X^{op} \to C$ where $X^{op}$ is the category with an object $0$, an object $1$ and two morphisms $s,t : 1 \to 0$, along with identity morphisms.  This lets us efficiently define the category of directed graphs in $C$ as the [[hom-category]] $C^{X^{op}}$, where:
 
 * objects are functors $G: X^{op} \to C$,
 
-* morphisms are natural transformations between such functors.
+* morphisms are [[natural transformation|natural transformations]] between such functors.
 
 In the basic case $C = Set$, we call this category the category of [[presheaf|presheaves]] on $X$.  So: the category of directed graphs, [[DiGraph]], is the category of presheaves on the category $X$ described above.
 
