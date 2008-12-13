@@ -18,7 +18,7 @@ There are also Hofer's [[polyfold]]s.
 
 #Remarks#
 
-Dual to generalized smooth spaces are [[generalized smooth algebra]]s of functions on them, accordinging to the general lore of [[space and quantity]].
+Dual to generalized smooth spaces are [[generalized smooth algebra]]s of functions on them, according to the general lore of [[space and quantity]].
 
 #Further discussion#
 
