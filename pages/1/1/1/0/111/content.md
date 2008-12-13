@@ -62,15 +62,13 @@ Note that in all these cases the morphisms are actually  special sorts of functi
 
 These classic examples are the original motivation for the term "category": all of the above categories encapsulate one "kind of mathematical structure". But just as widespread in applications as these categorization examples of categories are are other categories (often "[[internalization|small]]" ones) which, roughly, model something like _states_ and _processes_ of some system.
 
-* **Free category on a directed graph**. Given a [[directed graph]] $G$ with collection of vertices $G_0$ and collection of egdes $G_1$, there is the _free category_ $F(G)$ on the graph whose collection of objects coincides with the collection of vertices, and whose collection of morphisms consists of finite sequences of edges in $G_1$ that fit together head-to-tail. The composition operation in this free category is the concatenation of sequences of edges.
-
 * **Poset** A [[poset]] can be thought of as a category with its elements as objects and one morphism in each $hom(x,y)$ if $x$ is less than or equal to $y$, but none otherwise.  
 
-* **Group** A [[group]] is just a category where there's one object and all the morphisms have inverses - we call the morphisms "elements" of the group.  This may seem weird, but it's actually a very useful viewpoint. One can think of this as: _A group if a [[groupoid]] with a single object_.
+* **Group** A [[group]] is just a category where there's one object and all the morphisms have inverses - we call the morphisms "elements" of the group.  This may seem weird, but it's actually a very useful viewpoint. Here's another way to say it: _A group is a [[groupoid]] with a single object_.
 
-* **Monoid.** More generally, a [[monoid]] is a category with a single object. In fact, this is one way to motivate the concept of categories: categories are the [[horizontal categorification|many object version]] of monoids.
+* **Monoid** More generally, a [[monoid]] is a category with a single object. In fact, this is one way to motivate the concept of categories: categories are the [[horizontal categorification|many object version]] of monoids.
 
-
+* **Quiver** A [[quiver]] is a free category on a [[directed graph]].  Given a directed graph $G$ with collection of vertices $G_0$ and collection of egdes $G_1$, there is the _free category_ $F(G)$ on the graph whose collection of objects coincides with the collection of vertices, and whose collection of morphisms consists of finite sequences of edges in $G_1$ that fit together head-to-tail. The composition operation in this free category is the concatenation of sequences of edges.
 
 There is much more to say... it might not be terrible to copy the Wikipedia article on categories and rework it to suit our purposes.
 
