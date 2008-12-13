@@ -4,6 +4,26 @@ A directed $n$-graph is a higher dimensional generalization of a [[directed grap
 
 ##Definition##
 
+**Under Construction**
+
+An **abstract directed $n$-graph** $X$ is a [[category]] with
+
+* objects $X_r$ of $r$-dimensional edges (or **$r$-edges**) for $0 \le r \le n$;
+
+* identity morphisms $\mathrm{Id}_r:X_r\to X_r$;
+
+* morphisms $s_r,t_r : X_{r+1} \to X_r$, called
+**sources** and **targets** for $0\le r \lt n$;
+
+* morphisms $i_r: X_r\to X_{r+1}$, called **identity assigning maps** for $0\le r\lt n$ satisfying
+
+$$s_r\circ i_r = \mathrm{Id}_r$$
+$$t_r\circ i_r = \mathrm{Id}_r.$$
+
+A **directed $n$-graph** is a [[functor]] $G:X\to$ [[Set]].
+
+***
+
 A **directed $n$-graph** $G = \prod_{r=0}^n G_r$ is 
 
 * a collection $G_r$ of $r$-dimensional edges (or **$r$-edges**) for $0 \le r \le n$;
