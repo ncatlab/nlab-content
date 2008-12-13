@@ -4,7 +4,7 @@
 
 I work on $n$-categories and physics.  I've written papers on the interface between these subjects, and wasted vast amounts of time trying to popularize higher-dimensional algebra.  You see a bit here, and a lot more on my [website](http://math.ucr.edu/home/baez/).
 
-#Expository Material
+#Expository Stuff
 
 [Categories, Quantization and Much More](http://math.ucr.edu/home/baez/categories.html)
 
@@ -14,7 +14,7 @@ I work on $n$-categories and physics.  I've written papers on the interface betw
 
 [The Tale of Groupoidification](http://math.ucr.edu/home/baez/groupoidification/)
 
-#Research Papers
+#Papers
 
 [Higher-dimensional algebra and topological quantum field theory](http://arxiv.org/abs/q-alg/9503002), with
 James Dolan, Jour. Math. Phys. 36 (1995), 6073-6105.
