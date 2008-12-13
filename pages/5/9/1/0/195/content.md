@@ -1,0 +1,1 @@
+A **set** is a [[category]] that is simultaneously a [[groupoid]] and a [[poset]].
