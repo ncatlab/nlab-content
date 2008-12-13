@@ -551,5 +551,15 @@ $$
 
 =--
 
++-- {: commenturs}
+
+I think it was mentioned before, but I missed it: is there a quick web-interface way to upload files to the server that an entry wants to link to?
+
+Another thing: the more work we invest in this the more I become worried that we have some data loss. Is there any way too have an automated mirror image of the site created every now and then? Jacques said the whole wiki itself sits in one big file. What about pictures etc on the server that it links to?
+
+ -Urs
+
+=--
+
 
 category: meta
