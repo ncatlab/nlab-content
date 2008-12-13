@@ -1,6 +1,6 @@
 #Idea#
 
-* A category is a [[directed graph]] with a rule saying to _compose_ two edges that fit together to get a new edge.  Furthermore, each vertex has an edge starting and ending at that vertex, which behaves as an identity under this composition.
+* A category is a [[directed graph]] with a rule saying how to _compose_ two edges that fit together to get a new edge.  Furthermore, each vertex has an edge starting and ending at that vertex, which acts as an identity for this composition.
 
 * A category is a combinatorial model for a [[directed space]].  It has "points", called _objects_, and also directed "paths", or "processes" connecting these points, called _morphisms_.  There is a rule for how to compose paths; and for each object there is an identity path that starts and ends there.
 
@@ -66,7 +66,7 @@ These classic examples are the original motivation for the term "category": all 
 
 * **Monoid** More generally, a [[monoid]] is a category with a single object. In fact, this is one way to motivate the concept of categories: categories are the [[horizontal categorification|many object version]] of monoids.
 
-* **Quiver** A [[quiver]] is a free category on a [[directed graph]].  Given a directed graph $G$ with collection of vertices $G_0$ and collection of egdes $G_1$, there is the _free category_ $F(G)$ on the graph whose collection of objects coincides with the collection of vertices, and whose collection of morphisms consists of finite sequences of edges in $G_1$ that fit together head-to-tail. The composition operation in this free category is the concatenation of sequences of edges.
+* **Quiver** A [[quiver]] is a free category on a [[directed graph]].  Given a directed graph $G$ with collection of vertices $G_0$ and collection of edges $G_1$, there is the _[[free]] category_ $F(G)$ on the graph whose collection of objects coincides with the collection of vertices, and whose collection of morphisms consists of finite sequences of edges in $G_1$ that fit together head-to-tail. The composition operation in this free category is the concatenation of sequences of edges.
 
 There is much more to say... it might not be terrible to copy the Wikipedia article on categories and rework it to suit our purposes.
 
