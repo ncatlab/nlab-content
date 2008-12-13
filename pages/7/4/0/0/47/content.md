@@ -268,7 +268,7 @@ A very fundamental little issue: should we usually write n-category or $n$-categ
 -[[John Baez|John]] 
 
 {:commenttoby}
-I would say '$n$-category'. However, that doesn\'t work in links: '[[$n$-category]]', '[[n-category|$n$-category]]'. So for that I write '$n$-[[n-category|category]]'. In any case, we should be happy to accept contributions from people that say 'n-category'; somebody that cares more can always pretty it up afterwards. &#8212;[[Toby artels|Toby]]
+I would say '$n$-category'. However, that doesn\'t work in links: '[[$n$-category]]', '[[n-category|$n$-category]]'. So for that I write '$n$-[[n-category|category]]'. In any case, we should be happy to accept contributions from people that say 'n-category'; somebody that cares more can always pretty it up afterwards. &#8212;[[Toby Bartels|Toby]]
 =--
 
 #### Stylesheet update: removing icons in links
@@ -298,7 +298,7 @@ I need to figure out a way to lure such people into adding new entries - and imp
 How easy is it to just grab a Wikipedia entry, fix it up a bit, and stick it in here?  What are our legal and/or moral obligations if we do that?
 
 +--{commenttoby}
-See [http://test/](test). &#8212;[[Toby Bartels|Toby]]
+See [what Wikipedia has to say](https://secure.wikimedia.org/wikipedia/en/wiki/Wikipedia%3ACopyrights#Reusers.27_rights_and_obligations). &#8212;[[Toby Bartels|Toby]]
 =--
 
 Here's another serious issue: how easy or impossible is it to draw _diagrams_ in this environment?  Without diagrams, we're crippled.
