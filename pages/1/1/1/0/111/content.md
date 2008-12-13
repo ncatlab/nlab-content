@@ -74,5 +74,11 @@ There is much more to say... it might not be terrible to copy the Wikipedia arti
 
 Let's include a lot of nice online introductions. Here is a start:
 
-* Jaap van Oosten, _Basic category theory_ ([pdf](http://www.math.uu.nl/people/jvoosten/syllabi/catsmoeder.pdf))
+* Jaap van Oosten, [Basic category theory] (http://www.math.uu.nl/people/jvoosten/syllabi/catsmoeder.pdf).
+
+* Andreas Schalk and A. Simmons, [An introduction to category theory in four easy movements](http://www.cs.man.ac.uk/~hsimmons/BOOKS/CatTheory.pdf), notes for a course offered as part of the MSc. in Mathematical Logic, Manchester University.
+
+* Daniele Turim, [Category theory lecture notes](http://www.dcs.ed.ac.uk/home/dt/CT/categories.pdf), 1996-2001.  Based on Mac Lane's book (1998).
+
+* A. Martini, H. Ehrig, and D. Nunes, [Elements of basic category theory](http://citeseer.ist.psu.edu/martini96element.html), Technical Report 96-5, Technical University Berlin.
 
