@@ -2,9 +2,9 @@
 
 * A category is a [[directed graph]] with a rule saying to _compose_ two edges that fit together to get a new edge.  Furthermore, each vertex has an edge starting and ending at that vertex, which behaves as an identity under this composition.
 
-* A category is a combinatorial model for a directed space.  It has "points", called _objects_, and also directed "paths", or "processes" connecting these points, called _morphisms_.  There is a rule for how to compose paths; and for each object there is an identity path that starts and ends there.
+* A category is a combinatorial model for a [[directed space]].  It has "points", called _objects_, and also directed "paths", or "processes" connecting these points, called _morphisms_.  There is a rule for how to compose paths; and for each object there is an identity path that starts and ends there.
 
-* More precisely, a category consists of a collections of [[object]]s and
+* More precisely, a category consists of a collections of [[object|objects]] and
 a collection of [[morphism|morphisms]].  Every morphism 
 has a [[source]] object and a [[target]] object.  If $f$ is a morphism with $x$ as its source and $y$ as its target,
 we write
