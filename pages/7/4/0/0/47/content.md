@@ -289,8 +289,7 @@ I liked them. -Urs
 
 I'm glad people are tackling all sorts of fundamental issues in this discussion.  I've been keeping quiet mainly because I'm really busy, and prefer to spend my little time here creating new entries.  
 
-I am very proud to be the first to create the entries for basic words like [[object]], [[morphism]], [[category]], [[adjunction]] and so on - it's like being God and coming up with the first star, the first rock and so on.  Other people may think it silly to have entries for such basic ideas, but I'm hoping this website will eventually grow into a complete introduction to $n$-category theory.  
-If and when I ever start writing my books on higher-dimensional algebra, I'll do it here, and include lots of link to pages where basic terms are defined.  So, I imagine we're planting seeds that will eventually grow into something quite large.
+I am very proud to be the first to create the entries for basic words like [[object]], [[morphism]], [[category]], [[adjunction]] and so on - it's like being God and coming up with the first star, the first rock and so on.  Other people may think it silly to have entries for such basic ideas, but I'm hoping this website will eventually grow into a complete introduction to $n$-category theory.  If and when I ever start writing my books on higher-dimensional algebra, I'll do it here, and include lots of link to pages where basic terms are defined.  So, I imagine we're planting seeds that will eventually grow into something quite large.
 
 For this reason, I hope that Todd Trimble joins this project, as he once said he wanted to.  I also hope Tom Leinster and Eugenia Cheng and Simon Willerton and Robin Houston and many other folks contribute entries.  
 
