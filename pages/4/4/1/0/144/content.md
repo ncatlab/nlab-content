@@ -67,3 +67,7 @@ Lawvere addresses this adjoint pair as **Isbell conjugation**.
 
 In conclusion, the grand duality between spaces and quanties is a consequence of the [[duality|formal duality]] which reverses the arrows in the category $S$ of test spaces.
 
+##References##
+
+* F. W. Lawvere, [Taking categories seriously](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf)
+* [Space and Quantity](http://golem.ph.utexas.edu/category/2008/03/space_and_quantity.html), [[n-Category Cafe]]
