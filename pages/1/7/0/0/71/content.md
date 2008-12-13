@@ -302,7 +302,7 @@ The nerve functor is faithful. This means that omega categories can be regarded 
 
 ## Free $\omega$-Category on a simplicial set##
 
-The $\omega$-nerve has a left [[adjoint]], the free $\omega$category on a simplicial set
+The $\omega$-nerve has a left [[adjoint functor|adjoint]], the free $\omega$category on a simplicial set
 
 $$
   F : SimplicialSets \to \omega Cat
