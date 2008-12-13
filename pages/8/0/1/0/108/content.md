@@ -97,7 +97,7 @@ Here $hom$ is the internal $hom$ in $\omega$-categories, and $O(\Delta^n)$ is th
 
 (Dominic Verity kindly provided help in obtaining this coend-reformulation).
 
-In this context the $\omega$-category of codescent data for an $\omega$-category valued co-presheaf $\mathbf{B}$ can be defined as the [[coend]]
+In this context the $\omega$-category of codescent data for an $\omega$-category valued co-presheaf $\mathbf{B}$ can be defined as the [[end|coend]]
 
 $$
   Codesc(Y^\bullet, \mathbf{B})
