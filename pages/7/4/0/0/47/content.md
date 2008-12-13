@@ -551,6 +551,8 @@ $$
 
 =--
 
+### Backups
+
 +-- {: commenturs}
 
 I think it was mentioned before, but I missed it: is there a quick web-interface way to upload files to the server that an entry wants to link to?
@@ -559,7 +561,16 @@ Another thing: the more work we invest in this the more I become worried that we
 
  -Urs
 
+=--+-- {: commentjohn}
+
+Urs writes: "The more work we invest in this the more I become worried that we have some data loss" - yes, I'm worried about that too.  I'd imagined you had already solved that problem by now!  I think I won't do any more work on this wiki until we solve this problem.  I hate losing work, and I back up all my work to 2 or 3 sites.
+
+"Jacques said the whole wiki itself sits in one big file."  Is there at least a way for you or I to manually copy this file to another site?  Of course an automatic backup procedure is better - until it stops working for some reason; one still needs to check it regularly.
+
+-[[John Baez|John]]
+
 =--
+
 
 
 category: meta
