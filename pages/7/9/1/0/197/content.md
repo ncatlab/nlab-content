@@ -4,3 +4,5 @@ _DiGraph_ is the category of [[directed graph|directed graphs]].  We can define 
 * morphisms are [[natural transformation]]s between such functors.
 
 In other words, $DiGraph$ is the [[functor category]] from this $X^{op}$ to [[Set]].
+
+category: category
