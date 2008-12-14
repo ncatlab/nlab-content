@@ -2,4 +2,4 @@
 
 (....)
 
-* [[higher group characters]]
+* [[higher group character|Higher Group Characters]]
