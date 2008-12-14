@@ -10,7 +10,7 @@ where [[DiGraph]] is the category of directed graphs and [[Cat]] is the category
 
 $$F : DiGraph \to Cat $$
 
-sending each directed graph to the [[free category]] on that graph.  A free category on a graph is called a [[quiver]].
+sending each directed graph to the [[free functor|free]] category on that graph.  A free category on a graph is called a [[quiver]].
 
 ##Definition##
 
