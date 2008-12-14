@@ -27,7 +27,7 @@ A bit of $n$-Caf&#233; discussion on this subject can be found here:
 
 #References#
 
-* [[John Baez]] and [[James Dolan]], [Categorification](http://arxiv.org/abs/math.QA/9802029), in _Higher Category
+* [[John Baez]] and [[Jim Dolan|James Dolan]], [Categorification](http://arxiv.org/abs/math.QA/9802029), in _Higher Category
 Theory_, eds. Ezra Getzler and Mikhail Kapranov,
 Contemp. Math. 230, American Mathematical Society, Providence, Rhode Island, 1998, pp. 1-36.
 
