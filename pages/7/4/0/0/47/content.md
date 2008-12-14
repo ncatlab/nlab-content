@@ -561,7 +561,8 @@ Another thing: the more work we invest in this the more I become worried that we
 
  -Urs
 
-=--+-- {: commentjohn}
+=--
++-- {: commentjohn}
 
 Urs writes: "The more work we invest in this the more I become worried that we have some data loss" - yes, I'm worried about that too.  I'd imagined you had already solved that problem by now!  I think I won't do any more work on this wiki until we solve this problem.  I hate losing work, and I back up all my work to 2 or 3 sites.
 
@@ -569,6 +570,27 @@ Urs writes: "The more work we invest in this the more I become worried that we h
 
 -[[John Baez|John]]
 
+=--
+
++--{: response}
+
+Well, you'll have to ask your webhosts why
+
+     scp -v /usr/local/instiki/db/production.db.sqlite3 distler@golem.ph.utexas.edu:Desktop/
+
+produces the following error (lots of other junk, but this is the important line):
+
+     debug1: read_passphrase: can't open /dev/tty: No such device or address
+
+which is a little strange, since
+
+      ls -l /dev/tty
+
+yields
+
+      crw------- 1 root root 5, 0 Dec 14 06:32 /dev/tty
+
+One should also be able to initiate a `scp` operation *from* the remote machine. That doesn't work either, presumably for the same reason.
 =--
 
 
