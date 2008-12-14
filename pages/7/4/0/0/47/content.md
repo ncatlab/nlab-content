@@ -595,6 +595,7 @@ One should also be able to initiate a `scp` operation *from* the remote machine.
 
 +--{commenttoby}
 Can one make use of the Atom feeds (see 'Feeds' at top)? I don\'t really know anything about feeds, but I probably should learn.
+=--
 
 +--{: response}
 You can [export](http://ncatlab.org/nlab/export) the entire wiki. That's not the point. You should also be able to mirror the database file and any attendant files
@@ -604,7 +605,21 @@ You can [export](http://ncatlab.org/nlab/export) the entire wiki. That's not the
 to some remote location (your laptop, even). That's not possible because the setup here seems not to assign a `tty` to the shell one obtains when one `ssh`s into the VPS. This makes it impossible to use `scp` (or `rsync -e ssh` or whatever).
 =--
 
++-- {: commenturs}
+
+To John: 
+So there is no reason to be worried about loss of the content of the entries. Please don't make this stop anyone work on the wiki!! As Jacques points out, using
+[export](http://ncatlab.org/nlab/export) gives a zip-file with all the typed content. I am keeping regular backup
+copies of that.
+
+But I was wondering what happens when we start uploading lots of auxiliary files, such as .gifs, to the server. Apparently that requires more thoughts/work...
+
+To Toby: subscribing to the feed is a convenient way to keep track of which entries were changed in which way.
+
+-- [[Urs Schreiber|Urs]]
 =--
+
+
 
 ## Another category, another naming convention ##
 
