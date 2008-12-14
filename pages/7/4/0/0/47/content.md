@@ -622,7 +622,13 @@ To Toby: subscribing to the feed is a convenient way to keep track of which entr
 +--{commenttoby}
 So if we want to back up the current wiki, then we export it. If we want to back up the wiki and its history, then we (once only) go through the history of each page and back it up by hand, then use the feed to track all further changes. If we want to back up uploaded files too, will these show up in the feed or the export? (Do we have any yet for a test?)
 
+{: response}
+That's a *silly* way to do things. Just `cp` the database file into the `/usr/local/instiki/public/nlab/files/` directory, download the copy with your web browser, and then delete the copy.
+
 As far as avoiding the danger of lost effort, I think that the problem is solved. But backing up will be much easier and smoother if the `tty` problem is solved too.
+
+{: response}
+One operation instead of three.
 =--
 
 ## Another category, another naming convention ##
