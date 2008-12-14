@@ -1,1 +1,1 @@
-See [[foundations]].
+See also [[foundations]].
