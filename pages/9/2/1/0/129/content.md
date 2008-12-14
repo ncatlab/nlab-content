@@ -1,6 +1,10 @@
 I'll try to work out some stuff here. If anything becomes interesting in the slightest, I hope to add a new page to the nLab collection. Any editorial angels who wish to help add, correct, comment, etc, please feel free.
 
-My ultimate goal is to follow what others at the nLab are doing and reformulate it in a way I can understand (which usually means that I need to "discretize" everything).
+My ultimate goal is to follow what others at the nLab are doing and reformulate it in a way I can understand (which usually means that I need to "discretize" everything). In particular, I would like to one day understand [[space and quantity]] and be able to understand how
+
+$$discrete space \Longleftrightarrow discrete differential forms$$
+
+works (if it does).
 
 **Warning: Under Construction**
 
