@@ -21,4 +21,4 @@ $$
      G &&&& G
   }
 $$
-where $B$ is a [[higher group characters|biconjugacy class]] of $G$.
+where $B$ is a [[higher group character|biconjugacy class]] of $G$.
