@@ -4,7 +4,7 @@
 
 * equivalently: a vector space $V$ equipped with linear maps $p : V \otimes V \to V$ and $i : k \to V$ satisfying the associativity and unitalness conditions.
 
-* equivalently: a ring [[under]] the ground field $k$.
+* equivalently: a ring [[bundle|under]] the ground field $k$.
 
 #Further references#
 
