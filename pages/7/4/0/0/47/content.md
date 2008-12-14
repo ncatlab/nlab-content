@@ -597,4 +597,8 @@ One should also be able to initiate a `scp` operation *from* the remote machine.
 Can one make use of the Atom feeds (see 'Feeds' at top)? I don\'t really know anything about feeds, but I probably should learn.
 =--
 
+## Another category, another naming convention ##
+
+I\'ve gone through all the names of categories (like $\Set$, the category of sets) and tagged the pages category\: category. Also, I\'ve imposed a naming convention on categories, that they should be singular and abbreviated if long. I\'m not sure that I agree with these, but they seemed to be more common already than the alternatives, and I think that it will be good to have a convention. If anybody doesn\'t like this convention, then please say so! (It\'s not too late to change things back.) &#8212;[[Toby Bartels|Toby]]
+
 category: meta
