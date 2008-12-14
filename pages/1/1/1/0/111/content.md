@@ -66,7 +66,7 @@ These classic examples are the original motivation for the term "category": all 
 
 * **Monoid** More generally, a [[monoid]] is a category with a single object. In fact, this is one way to motivate the concept of categories: categories are the [[horizontal categorification|many object version]] of monoids.
 
-* **Quiver** A [[quiver]] is a free category on a [[directed graph]].  Given a directed graph $G$ with collection of vertices $G_0$ and collection of edges $G_1$, there is the _[[free]] category_ $F(G)$ on the graph whose collection of objects coincides with the collection of vertices, and whose collection of morphisms consists of finite sequences of edges in $G_1$ that fit together head-to-tail. The composition operation in this free category is the concatenation of sequences of edges.
+* **Quiver** A [[quiver]] is a free category on a [[directed graph]].  Given a directed graph $G$ with collection of vertices $G_0$ and collection of edges $G_1$, there is the _[[free functor|free]] category_ $F(G)$ on the graph whose collection of objects coincides with the collection of vertices, and whose collection of morphisms consists of finite sequences of edges in $G_1$ that fit together head-to-tail. The composition operation in this free category is the concatenation of sequences of edges.
 
 There is much more to say... it might not be terrible to copy the Wikipedia article on categories and rework it to suit our purposes.
 
