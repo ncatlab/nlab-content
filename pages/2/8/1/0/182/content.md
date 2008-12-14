@@ -20,3 +20,5 @@ We write $CoDGCA$ for the [[category]] of such codifferential coalgebras.
 * Todd Trimble, [_nice facts about CoDGCA_](http://golem.ph.utexas.edu/category/2007/11/on_bv_quantization_part_viii.html#c013516)
 
 * Todd Trimble, [_Sketch of proof that CoDGCA is cartesian closed_](http://golem.ph.utexas.edu/category/2007/11/on_bv_quantization_part_viii.html#c013564) 
+
+category: category
