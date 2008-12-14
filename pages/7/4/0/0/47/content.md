@@ -595,6 +595,15 @@ One should also be able to initiate a `scp` operation *from* the remote machine.
 
 +--{commenttoby}
 Can one make use of the Atom feeds (see 'Feeds' at top)? I don\'t really know anything about feeds, but I probably should learn.
+
++--{: response}
+You can [export](http://ncatlab.org/nlab/export) the entire wiki. That's not the point. You should also be able to mirror the database file and any attendant files
+
+    scp -r /usr/local/instiki/public/nlab/files distler@golem.ph.utexas.edu:Desktop/
+
+to some remote location (your laptop, even). That's not possible because the setup here seems not to assign a `tty` to the shell one obtains when one `ssh`s into the VPS. This makes it impossible to use `scp` (or `rsync -e ssh` or whatever).
+=--
+
 =--
 
 ## Another category, another naming convention ##
