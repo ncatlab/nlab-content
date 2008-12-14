@@ -1,4 +1,4 @@
-The concept of 'representation' is very general, but we may define a _representation_ of a [[category]] $C$ to be a functor
+The concept of 'representation' is very general, but we may define a _representation_ of a [[category]] $C$ to be a [[functor]]
 
 $$F : C \to Vect$$
 
