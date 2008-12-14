@@ -8,4 +8,4 @@ More generally, we can [[internalization|internalize]] the concept of adjunction
 
 #Remarks#
 
-Essentially everything that makes category theory nontrivial and interesting is derived from the concept of adjunction. In particular [[universal]] constructions such as [[limit and colimit|limits and colimits]] are examples of certain adjunctions.
+Essentially everything that makes category theory nontrivial and interesting is derived from the concept of adjunction. In particular [[universal]] constructions such as [[limit|limits and colimits]] are examples of certain adjunctions.
