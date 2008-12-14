@@ -12,9 +12,9 @@ from [page 17](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf#page=
 
 which underlies much of mathematics is at its heart controled by the following elementary category theoretic reasoning:
 
-Let $S$ be some category whose objects we want to think of as certain simple spaces on which we want to model more general kinds of spaces. For instance $S = \Delta$, the simplicial category, or $S = $ [[CartesianSpaces]]. 
+Let $S$ be some category whose objects we want to think of as certain simple spaces on which we want to model more general kinds of spaces. For instance $S = \Delta$, the simplicial category, or $S = $ [[CartSp]]. 
 
-An ordinary manifold, for instamce, is a space required to be _locally isomorphic_ to an object in $S = CartesianSpaces$. But more generally, a space $X$ modeled on $S$ need only be _probeable_ by objects of $S$, giving a rule which to each test object $U \in S$ assigns the collection of admssible maps from $U$ to $X$,  such that this assignment is well-behaved with respect to morphisms in $S$. Such an assignment is nothing but a [[presheaf]] on $S$, i.e. a contravariant functor
+An ordinary manifold, for instamce, is a space required to be _locally isomorphic_ to an object in $S = CartSp$. But more generally, a space $X$ modeled on $S$ need only be _probeable_ by objects of $S$, giving a rule which to each test object $U \in S$ assigns the collection of admssible maps from $U$ to $X$,  such that this assignment is well-behaved with respect to morphisms in $S$. Such an assignment is nothing but a [[presheaf]] on $S$, i.e. a contravariant functor
 $$
   X : S^{op} \to Sets
   \,.
