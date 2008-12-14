@@ -593,6 +593,8 @@ yields
 One should also be able to initiate a `scp` operation *from* the remote machine. That doesn't work either, presumably for the same reason.
 =--
 
-
++--{commenttoby}
+Can one make use of the Atom feeds (see 'Feeds' at top)? I don\'t really know anything about feeds, but I probably should learn.
+=--
 
 category: meta
