@@ -63,9 +63,9 @@ $$
  1. ($f$ is 0-surjective) $\Leftrightarrow$
     ($f$ is surjective on objects)
 
- 2. ($f$ is 1-surjective) $\Leftrightarrow$ ($f$ is [[full]])
+ 2. ($f$ is 1-surjective) $\Leftrightarrow$ ($f$ is [[full functor|full]])
 
- 3. ($f$ is 2-surjective) $\Leftrightarrow$ ($f$ is [[faithful]])
+ 3. ($f$ is 2-surjective) $\Leftrightarrow$ ($f$ is [[faithful functor|faithful]])
 
 
 ## essential $k$-surjectivity##
