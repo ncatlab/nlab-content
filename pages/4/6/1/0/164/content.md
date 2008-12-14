@@ -1,4 +1,4 @@
-For $G$ a group, its weak Cayley table is the map which sends elements in $G\times G$ to their [[higher group characters|biconjugacy class]].
+For $G$ a group, its weak Cayley table is the map which sends elements in $G\times G$ to their [[higher group character|biconjugacy class]].
 
 #References#
 
