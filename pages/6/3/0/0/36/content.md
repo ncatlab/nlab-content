@@ -68,11 +68,11 @@ A _groupoid_ internal to $A$ is all of the above
 
 * A _small category_ is a category internal to $Sets$.
 
-* Historically, the motivating exmaple for was (apparently) the notion of [[Lie groupoid]]s: groupoids internal to the category [[Diff]] of manifolds. 
+* Historically, the motivating exmaple for was (apparently) the notion of [[Lie groupoid|Lie groupoids]]: groupoids internal to the category [[Diff]] of manifolds. 
 
 #Remarks#
 
-Functors between internal categories are defined in a similar fashion. See [[functor]]. But in general it is better to use [[anafunctor]]s instead.
+Functors between internal categories are defined in a similar fashion. See [[functor]]. But in general it is better to use [[anafunctor|anafunctors]] instead.
 
 #Literature#
 
