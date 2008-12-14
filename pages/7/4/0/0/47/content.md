@@ -616,10 +616,14 @@ But I was wondering what happens when we start uploading lots of auxiliary files
 
 To Toby: subscribing to the feed is a convenient way to keep track of which entries were changed in which way.
 
--- [[Urs Schreiber|Urs]]
+\-\- [[Urs Schreiber|Urs]]
 =--
 
++--{commenttoby}
+So if we want to back up the current wiki, then we export it. If we want to back up the wiki and its history, then we (once only) go through the history of each page and back it up by hand, then use the feed to track all further changes. If we want to back up uploaded files too, will these show up in the feed or the export? (Do we have any yet for a test?)
 
+As far as avoiding the danger of lost effort, I think that the problem is solved. But backing up will be much easier and smoother if the `tty` problem is solved too.
+=--
 
 ## Another category, another naming convention ##
 
