@@ -30,7 +30,7 @@ he defines a quiver as a [[directed graph]]. Then it seems like the [[path algeb
 
 The wikipedia page also defines a quiver as a [[directed graph]]. It has a blurb about a categorical definition, but it doesn't seem to be consistent with the previous definition (?)
 
-_[[Urs Schreiber|Urs]] says_: You are right, Eric, I think John "played Bourbaki" a bit when he wrote the above. I have added the comment to below in an attempt to clarify the situation.
+_[[Urs Schreiber|Urs]] says_: You are right, Eric, I think John "played Bourbaki" a bit when he wrote the above. I have added the comment below in an attempt to clarify the situation.
 
 =--
 
