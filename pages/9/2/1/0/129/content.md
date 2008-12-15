@@ -6,6 +6,8 @@ $$discrete space \Longleftrightarrow discrete differential forms$$
 
 works (if it does).
 
+[A Clue](http://golem.ph.utexas.edu/category/2007/05/the_first_edge_of_the_cube.html#c009337)
+
 **Warning: Under Construction**
 
 ##Discrete Smooth Spaces
