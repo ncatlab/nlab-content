@@ -6,7 +6,15 @@ $$discrete space \Longleftrightarrow discrete differential forms$$
 
 works (if it does).
 
-[A Clue](http://golem.ph.utexas.edu/category/2007/05/the_first_edge_of_the_cube.html#c009337)
+Clues:
+
+* ["arrow theory"](http://golem.ph.utexas.edu/category/2007/05/the_first_edge_of_the_cube.html#c009337)
+
+* [Wedge Product](http://golem.ph.utexas.edu/category/2007/09/arrowtheoretic_differential_th_3.html#c020832)
+
+* [Arrow Fields](http://golem.ph.utexas.edu/category/2007/02/isham_on_quantization.html)
+
+* [Arrow Category](http://unapologetic.wordpress.com/2007/05/23/arrow-categories/)
 
 **Warning: Under Construction**
 
