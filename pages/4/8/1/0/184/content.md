@@ -2,12 +2,6 @@
 
 A directed $n$-graph is a higher dimensional generalization of a [[directed graph]] with $r$-dimensional _edges_ spanning $(r-1)$-dimensional _vertices_.
 
-+--{.query}
-
-This needs cleaning up.
-
-**Under Construction**
-
 A directed $n$-graph is like an [[n-category]] with units and composition forgotten. Indeed, an $n$-category is a directed $n$-graph with extra structure.  To formalize this idea, we say there is a [[forgetful functor]] 
 
 $$U : n\Cat \to n\DiGraph$$
@@ -18,7 +12,6 @@ $$F : n\DiGraph \to n\Cat $$
 
 sending each directed $n$-graph to the free $n$-category on that $n$-graph.  A free $n$-category on an $n$-graph is called an $n$-[[quiver]].
 
-=--
 
 ##Definition##
 
