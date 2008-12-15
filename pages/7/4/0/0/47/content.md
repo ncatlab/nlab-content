@@ -637,6 +637,21 @@ As far as avoiding the danger of lost effort, I think that the problem is solved
 One operation instead of three.
 =--
 
+#Uploading resources#
+
++-- {: commenturs}
+
+I was going to upload some pictures, but I am experiencing problems sft-ing into the server. Not sure why.
+
+Generally, it would be nice if everybody could upload resources together with the entries he or she submits. Maybe with a password protection. I am not sure how to proceed on this matter...
+
+
+\-\- [[Urs Schreiber|Urs]]
+=--
+
+
+
+
 ## Another category, another naming convention ##
 
 I\'ve gone through all the names of categories (like $\Set$, the category of sets) and tagged the pages category\: category. Also, I\'ve imposed a naming convention on categories, that they should be singular and abbreviated if long. I\'m not sure that I agree with these, but they seemed to be more common already than the alternatives, and I think that it will be good to have a convention. If anybody doesn\'t like this convention, then please say so! (It\'s not too late to change things back.) &#8212;[[Toby Bartels|Toby]]
