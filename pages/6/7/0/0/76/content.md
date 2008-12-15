@@ -48,6 +48,8 @@ There are several concepts in the literature which are _secretly_ special cases 
 * [[Morita morphism]] in the theory of [[Lie groupoid]]s are generalized morphisms of length one where both maps are acyclic fibrations
 $ \lt \stackrel{\simeq}{\leftarrow} \stackrel{\simeq}{\to} \gt$ with respect to the [[folk model structure]]. This are the _saturated_ [[anafunctor]]s.
 
+* There is a notion of generalized cohomology induced from homotopy theory: [[homotopical cohomology theory]].
+
 * The [[model structure on crossed complexes]] gives an alternative approach to $\infty$-[[infinity-groupoid|groupoids]].
 
 #Literature#
