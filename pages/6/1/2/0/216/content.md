@@ -27,3 +27,9 @@ $$
  k[\mathbf{B}G] = k[G]
   \,.
 $$
+
++--{.query}
+
+I think that the nLab presents a fantastic opportunity to define familiar concepts _arrow theoretically_. Is there a more arrow theoretic way to define a category algebra? - [[Eric Forgy|Eric]]
+
+=--
