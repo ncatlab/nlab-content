@@ -628,6 +628,9 @@ That's a *silly* way to do things. Just `cp` the database file into the `/usr/lo
 {: responsetoby}
 Heh, maybe I should say that\'s how *I* could do it (^_^). I don\'t want to make assumptions about what can be done in the shell, which apparently has some bad behaviour. In any case, I don\'t have access to the shell, but I am capable of the (otherwise much sillier) method above. (Not that I expect to do that either &#8230; although I did export the wiki last night and might do so again in a week or so.)
 
+{: response}
+I understand. I presumed that Urs would be the one doing the off-site backups. In any case, I want to emphasize that placing a copy of the database file in the downloadable `files` directory is a security risk. So it should not be named something obvious, like "`production.db.sqlite3`", and it should not be left there any longer than absolutely necessary.
+
 As far as avoiding the danger of lost effort, I think that the problem is solved. But backing up will be much easier and smoother if the `tty` problem is solved too.
 
 {: response}
