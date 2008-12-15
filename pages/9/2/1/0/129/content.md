@@ -31,7 +31,7 @@ I guess the first place to start is to define what I mean by a discrete space.
 
 ###Definition (Discrete Space)
 
-Given a [[directed graph]] $G = (G_0,G_1,s,t)$, a discrete space is the [graded differential algebra](http://en.wikipedia.org/wiki/Differential_graded_algebra) (DGA) 
+Given a [[directed graph]] $G$, a discrete space is the [graded differential algebra](http://en.wikipedia.org/wiki/Differential_graded_algebra) (DGA) 
 
 $$\Omega(G) = \bigoplus_{r\ge 0} \Omega^r(G)$$
 
