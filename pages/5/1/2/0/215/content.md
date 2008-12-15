@@ -1,1 +1,1 @@
-A **quiver algebra** or **path algebra** of a [[directed graph]] is the [[category algebra]] of a quiver, i.e. the [[category algebra]] of the free category over the [[directed graph]]. 
+A **quiver algebra** or **path algebra** of a [[directed graph]] is the [[category algebra]] of a [[quiver]], i.e. the [[category algebra]] of the free category over the [[directed graph]]. 
