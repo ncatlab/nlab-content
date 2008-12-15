@@ -659,4 +659,12 @@ If a graded algebra is a monoid in graded vector spaces, what is a clean "catego
 
 What is a clean categorical way to define graded vector spaces? - [[Eric Forgy|Eric]]
 
+_[[Urs Schreiber|Urs]] says_ if you want you can say that
+a $G$-graded vector space is a functor $G \to Vect$.
+Notice: NOT a functor $\mathbf{B}G \to Vect$ from the
+group $G$, regarded as a one-object [[groupoid]], but
+just a functor from the underlying [[set]] of $G$. 
+
+
+
 category: meta
