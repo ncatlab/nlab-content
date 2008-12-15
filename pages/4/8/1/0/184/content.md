@@ -2,6 +2,10 @@
 
 A directed $n$-graph is a higher dimensional generalization of a [[directed graph]] with $r$-dimensional _edges_ spanning $(r-1)$-dimensional _vertices_.
 
++--{.query}
+
+This needs cleaning up.
+
 **Under Construction**
 
 A directed $n$-graph is like an [[n-category]] with units and composition forgotten. Indeed, an $n$-category is a directed $n$-graph with extra structure.  To formalize this idea, we say there is a [[forgetful functor]] 
@@ -14,23 +18,18 @@ $$F : DiNGraph \to NCat $$
 
 sending each directed $n$-graph to the free $n$-category on that $n$-graph.  A free $n$-category on an $n$-graph is called an $n$-quiver.
 
-##Definition##
+=--
 
-**Under Construction**
+##Definition##
 
 An **abstract directed $n$-graph** $X$ is a [[category]] with
 
 * objects $X_r$ of $r$-dimensional edges (or **$r$-edges**) for $0 \le r \le n$;
 
-* identity morphisms $\mathrm{Id}_r:X_r\to X_r$;
-
 * morphisms $s_r,t_r : X_{r+1} \to X_r$, called
 **sources** and **targets** for $0\le r \lt n$;
 
-* morphisms $i_r: X_r\to X_{r+1}$, called **identity assigning maps** for $0\le r\lt n$ satisfying
-
-$$s_r\circ i_r = \mathrm{Id}_r$$
-$$t_r\circ i_r = \mathrm{Id}_r.$$
+* together with identity morphisms $\mathrm{Id}_r:X_r\to X_r$ for $0\le r\le n$.
 
 A **directed $n$-graph** is a [[functor]] $G:X\to$ [[Set]].
 
@@ -40,13 +39,20 @@ An $r$-edge $e\in G_r$ is called an **identity** (or **$r$-loop**) if
 
 $$s(e) = t(e).$$
 
-When identity assignment maps are defined for all $r\ge 0$, the directed $\infty$-graph is referred to as a **directed $\infty$-graph with identities**.
+A morphism $i_r: X_r\to X_{r+1}$ sending an $r$-edge to its respective $(r+1)$-loop, when defined, is called an **identity assigning map**. Identity assigning maps satisfy
+
+$$s_r\circ i_r = \mathrm{Id}_r$$
+$$t_r\circ i_r = \mathrm{Id}_r.$$
+
+When identity assignment maps are defined for all $0\le r\lt n$, the directed $n$-graph is referred to as a **directed $n$-graph with identities**.
 
 ##Remarks##
 
-* A directed 1-graph is a [[directed graph]].
-
 * A directed $n$-graph is not required to contain identities.
+
+Let $G_r = G(X_r)$, $s_r = G(s_r)$, $t_r = G(t_r)$.
+
+* Any two consecutive objects $G_r,G_{r+1}$ together with morphism $s_r,t_r,\mathrm{Id}_r,\mathrm{Id}_{r+1}$ constitute a [[directed graph]]. In particular, a directed 1-graph is a [[directed graph]].
 
 * One can define a (globular) _directed $\omega$-graph_ (or _directed $\infty$-graph_) in a [[coalgebra|coalgebraic]] fashion as follows: A directed $\omega$-graph $G$ consists of a collection $G_0$ of vertices and, for each pair of vertices $x$ and $y$, a directed $\omega$-graph $\Hom(x,y)$. (This is a definition by [[structural coinduction]].) Can this be continued to a corecursive definition of $\omega$-[[omega-category|category]] (or $\infty$-[[infinity-category|category]])?
 
