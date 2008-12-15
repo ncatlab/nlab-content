@@ -641,4 +641,22 @@ One operation instead of three.
 
 I\'ve gone through all the names of categories (like $\Set$, the category of sets) and tagged the pages category\: category. Also, I\'ve imposed a naming convention on categories, that they should be singular and abbreviated if long. I\'m not sure that I agree with these, but they seemed to be more common already than the alternatives, and I think that it will be good to have a convention. If anybody doesn\'t like this convention, then please say so! (It\'s not too late to change things back.) &#8212;[[Toby Bartels|Toby]]
 
+##Algebroids##
+
+I was thinking about the categorical definition of [[algebra|algebras]] as a [[monoid]] in Vect. Then I was trying to think of how you would similarly define a graded algebra. A thought that came to mind, which seems to make sense, is that a graded algebra could be thought of as a "category in Vect". Or something like that.
+
+Come to think of it, could you say that given a monoid $M$, an algebra is a functor $A:M\to Vect$? 
+
+Could you say that given a category $C$, an algebroid is a functor $A:C\to Vect$?
+
+Then a graded algebra is a special kind of algebroid. It sounds kind of poetic. Is there any truth to it?
+
+Does that make any sense?
+
+After some doodling, I think that a graded algebra should be a monoid in the category of graded vector spaces. Is that better? 
+
+If a graded algebra is a monoid in graded vector spaces, what is a clean "categorical" way to probe the degree of the element?
+
+What is a clean categorical way to define graded vector spaces? - [[Eric Forgy|Eric]]
+
 category: meta
