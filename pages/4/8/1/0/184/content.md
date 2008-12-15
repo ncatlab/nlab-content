@@ -10,13 +10,13 @@ This needs cleaning up.
 
 A directed $n$-graph is like an [[n-category]] with units and composition forgotten. Indeed, an $n$-category is a directed $n$-graph with extra structure.  To formalize this idea, we say there is a [[forgetful functor]] 
 
-$$U : NCat \to DiNGraph$$
+$$U : n\Cat \to n\DiGraph$$
 
-where DiNGraph is the category of directed $n$-graphs and NCat is the category of small $n$-categories.  Moreover, this forgetful functor has a [[left adjoint]] 
+where $n\DiGraph$ is the category of directed $n$-graphs and $n\Cat$ is the category of small $n$-categories.  Moreover, this forgetful functor has a [[left adjoint]] 
 
-$$F : DiNGraph \to NCat $$
+$$F : n\DiGraph \to n\Cat $$
 
-sending each directed $n$-graph to the free $n$-category on that $n$-graph.  A free $n$-category on an $n$-graph is called an $n$-quiver.
+sending each directed $n$-graph to the free $n$-category on that $n$-graph.  A free $n$-category on an $n$-graph is called an $n$-[[quiver]].
 
 =--
 
