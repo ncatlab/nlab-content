@@ -239,7 +239,7 @@ Why is my notation better?  First, because I don't like the clunky notation $spa
 
 So what would _I_ call the category algebra of $C$?  I guess $k[C_1]$ or $k[Mor(C)]$.  You might complain that <i>this</i> notation is clunky, and I'd see your point. However, it's a fact that whenever the category algebra is important, its representation on $k[C_0] = k[Ob(C)]$ also tends to be important --- so I think the benefits of a notation that handles both structures outweigh the disadvantages of a slight clunkiness. -- [[John Baez|John]] 
 
-_[[Urs Schreiber|Urs]] says_: It is good that you said this, because we need to talk about this: I am puzzled by your attitude towards $\mathbf{B}G$ vs $G$. It is not the least a remark in your lecture notes with Mike it is important to _distinguishing_ between a $k$-tuply monoidal structure and the corresponding $k$-tuply degenerate category, even though there is a map identifying them. The issue appears here for instance when discussing the universal $G$-bundle in its groupoid-incarantion. It is 
+_[[Urs Schreiber|Urs]] says_: It is good that you said this, because we need to talk about this: I am puzzled by your attitude towards $\mathbf{B}G$ vs $G$. It is not the least a remark in your lecture notes with Mike that it is important to _distinguish_ between a $k$-tuply monoidal structure and the corresponding $k$-tuply degenerate category, even though there is a map identifying them. The issue appears here for instance when discussing the universal $G$-bundle in its groupoid-incarnation. It is 
 $$
   G \to \mathbf{E}G \to \mathbf{B}G
 $$
