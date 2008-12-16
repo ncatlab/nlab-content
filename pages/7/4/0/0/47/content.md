@@ -694,6 +694,6 @@ just a functor from the underlying [[set]] of $G$.
 
 _[[Toby Bartels|Toby]] says_: Given an [[abelian group]] $G$, the [[functor category]] of functors from $|G|$ to $\Vect$ (where $|G|$, the order of the group $G$, is a [[set]]) is the category of $G$-graded vector spaces with homogeneous linear maps as morphisms. To make this a [[monoidal category]], let $(V \otimes W)_g$ (where $V = (V_g)_{(g:G)}$ is a functor) be
 $$\bigoplus_{h:G} V_h \otimes W_{g-h} = \bigoplus_{h,k:G, \atop h+k=g} V_h \otimes W_k$$
-(a kind of [[convolution product]]). Then a $G$-graded algebra should be a monoid in this monoidal category. (To some extent, this should still work even if $G$ is just a non-abelian monoid.)
+(a kind of [[convolution product]]). Then a $G$-graded algebra should be a monoid in this monoidal category. (To some extent, this should still work even if $G$ is just a non-abelian monoid. What we really need is to describe that convolution product arrow-theoretically.)
 
 category: meta
