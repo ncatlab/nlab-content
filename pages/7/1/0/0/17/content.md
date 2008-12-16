@@ -8,12 +8,8 @@ Hit "edit page" to see how pages are coded. Use the [[Sandbox|Sandbox]] to warm 
 
  * then clicking on the question mark and following the instructions.
 
-_Watch out_: the name of a page is case sensitive. We need to agree on how to deal with this.
+_Watch out_: the name of a page is case sensitive. We loosely agreed to try to follow some naming conventions. See [[General Discussion]].
 
-
-#How to contribute to the $n$Lab#
-
-We'll have to see where this is going. To be on the safe side, it's maybe best to create a single page for each "keyword".
 
 #How to leave comments and questions#
 
@@ -36,3 +32,11 @@ If you want to ask a question of a specific person, then you can place a query b
 If your comment or question is more general than a specific page or person, then try [[General Discussion]]. (You probably won\'t need to bother with query blocks there.)
 
 category: meta
+
+#How to add definitions and theorems#
+
+* See [these instructions](http://golem.ph.utexas.edu/instiki/show/Theorems)
+
+#How to upload files#
+
+* See [these instructions](http://golem.ph.utexas.edu/instiki/show/File+Uploads)
