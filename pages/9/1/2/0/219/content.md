@@ -145,7 +145,7 @@ Or, in elementwise notation, $ h(n+1) = f h(n)$ for every (generalized) element 
 
 Before stating the last axiom, we formulate a notion of "surjective" function: $ f: a \to b$ is *surjective* if for any two functions $ g, h: b \to c$, we have $ g = h$ if and only if $ g f = h f$. This is dual to the notion of being injective, and under the axiom of strong extensionality, is equivalent to the familiar notion: that $ f$ is surjective if for every element $ y: 1 \to b$, there exists an element $ x: 1 \to a$ such that $ f x = y$.
  
-**Axiom of choice**. Every surjective function $ s: a \to b$ admits a section, i.e., a function $ i: b \to a$ such that $ s i = 1_b$, the identity function.
+**[[axiom of choice|Axiom of choice]]**. Every surjective function $ s: a \to b$ admits a section, i.e., a function $ i: b \to a$ such that $ s i = 1_b$, the identity function.
  
 This completes the list of axioms for [[ETCS]]. I have been at pains to try to describe them in notation which is natural from the standpoint of naive set theory, with the clear implication that any formula of naive set theory is readily translated into the theory [[ETCS]] (provided we pay appropriate attention to our precepts governing membership), and that this theory provides a rigorous foundation for mainstream mathematics.
 
