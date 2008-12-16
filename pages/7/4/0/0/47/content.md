@@ -634,6 +634,9 @@ I understand. I presumed that Urs would be the one doing the off-site backups. I
 {: responsetoby}
 If Urs is reading this, then he will probably do that (until `scp` is fixed), and that will settle it. But by the way, what is the security risk in the database? (Backups are more secure if widely spread, and without your warning, Urs might even have invited others to download it, although doubtless he, John, and David would be more than sufficient.) Does it contain my unencrypted password or something? (Of course, feel free to link to a general Instiki page if you\'ve already explained this elsewhere.)
 
+{: response}
+Unencrypted passwords (including the Instiki password needed on the "`Edit Web`" page) and all the purportedly password-protected data.
+
 As far as avoiding the danger of lost effort, I think that the problem is solved. But backing up will be much easier and smoother if the `tty` problem is solved too.
 
 {: response}
@@ -656,6 +659,9 @@ Generally, it would be nice if everybody could upload resources together with th
 [Jacque says](http://golem.ph.utexas.edu/instiki/show/File+Uploads) that one shouldn\'t allow uploads without password protection, I guess to prevent spam. Perhaps uploads should be restricted to a separate web (for uploads only), which this web can link to. (I gather that allowing uploads and requiring passwords is done web by web within the Instiki installation.)
 
 Uploaded files can also overwhelm the memory limits (even without spam). That\'s one reason to make images SVG whenever possible.
+
+{: response}
+If you keep a reasonable upper limit on the allowed size of uploaded files and if someone is willing to check periodically that miscreants are not abusing the site by using it as a file drop-box, then I suppose the risk is relatively low. Nowadays, with the popularity of P2P filesharing systems, the temptation of using some random unsecured website as a drop-box is somewhat diminished.
 =--
 
 ## Another category, another naming convention ##
