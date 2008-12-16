@@ -2,9 +2,9 @@ _This is Part III of an exposition by [[Todd Trimble]] on [[ETCS]]_.
 
 See also 
 
-* Part I: [[Trimble on ETCS I|ZFC and ETCS]]
+* Part I, [[Trimble on ETCS I|ZFC and ETCS]]
 
-* Part II: [[Trimble on ETCS II|ETCS: Internalizing the logic]]
+* Part II, [[Trimble on ETCS II|ETCS: Internalizing the logic]]
 
 +--{.query}
 
@@ -30,18 +30,18 @@ The easy thing to do is to Edit this page, copy the text to your favorite editor
 
 After a long hiatus, I'd like to renew the discussion of axiomatic
 categorical set theory, more specifically the Elementary Theory of the
-Category of Sets (ETCS). <a
+Category of Sets ([[ETCS]]). <a
 href="http://topologicalmusings.wordpress.com/2008/09/10/etcs-internalizing-the-logic/">Last
 time</a> I blogged about this, I made some initial forays into
-"internalizing logic" in ETCS, and described in broad brushstrokes how
+"internalizing logic" in [[ETCS]], and described in broad brushstrokes how
 to use that internal logic to derive a certain amount of the structure
 one associates with a category of sets. Today I'd like to begin
 applying some of the results obtained there to the problem of
 constructing <em>colimits</em> in a category satisfying the ETCS
-axioms (an <em>ETCS category</em>, for short).
+axioms (an <em>[[ETCS]] category</em>, for short).
  
 (If you're just joining us now, and you already know some of the
-jargon, an <em>ETCS category</em> is a well-pointed topos that
+jargon, an <em>[[ETCS]] category</em> is a well-pointed topos that
 satisfies the axiom of choice and with a natural numbers object. We
 are trying to build up some of the elementary theory of such
 categories from scratch, with a view toward foundations of
