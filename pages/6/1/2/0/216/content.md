@@ -38,6 +38,8 @@ more material below. --[[Urs Schreiber|Urs]]
 
 =--
 
+
+
 #Arrow-theoretic interpretation#
 
 The category algebra of a category $C$ is a special case of a general [[arrow theory|arrow-theoretic]] construction that appears in [[quantization]] and in the theory of [[bi-brane]]s. 
@@ -226,3 +228,15 @@ The claim is that this way of looking at category algebras realizes them as a pu
 * Urs Schreiber, [_QFT of Charged n-Particle: T-Duality_](http://golem.ph.utexas.edu/category/2007/02/qft_of_charged_nparticle_tdual.html)
 
 I expect that there is in addition nice formulation of these issues in the context of  [[enriched category theory]] using the [[Day convolution]] product. But I am not sure yet. 
+
+###Terminological Nitpicking 
+
++--{.query}
+
+I use $k[S]$ to stand for the free vector space on the set $S$.  This is compatible with the notation $k[G]$ for group algebra of $G$.  Urs' notation $k[C]$ for the category algebra is also compatible, but in a different way.  
+
+Why is my notation better?  First, because I don't like the clunky notation $span_k(C)$ for the free vector space on the set $S$.   Second, because the equation $k[B G] = k[G]$ is inconsistent unless Urs is finally willing to admit that $B G = G$. <img src = "http://math.ucr.edu/home/baez/emoticons/tongue2.gif" alt = ""/>
+
+So what would _I_ call the category algebra of $C$?  I guess $k[C_1]$ or $k[Mor(C)]$.  You might complain that <i>this</i> notation is clunky, and I'd see your point. However, it's a fact that whenever the category algebra is important, its representation on $k[C_0] = k[Ob(C)]$ also tends to be important --- so I think the benefits of a notation that handles both structures outweigh the disadvantages of a slight clunkiness. -- [[John Baez|John]] 
+
+=--
