@@ -239,4 +239,65 @@ Why is my notation better?  First, because I don't like the clunky notation $spa
 
 So what would _I_ call the category algebra of $C$?  I guess $k[C_1]$ or $k[Mor(C)]$.  You might complain that <i>this</i> notation is clunky, and I'd see your point. However, it's a fact that whenever the category algebra is important, its representation on $k[C_0] = k[Ob(C)]$ also tends to be important --- so I think the benefits of a notation that handles both structures outweigh the disadvantages of a slight clunkiness. -- [[John Baez|John]] 
 
+_[[Urs Schreiber|Urs]] says_: I am puzzled by your attitude towards $\mathbf{B}G$ vs $G$. It is not the least a remark in your lecture notes with Mike it is important to _distinguishing_ between a $k$-tuply monoidal structure and the corresponding $k$-tuply degenerate category, even though there is a map identifying them. The issue appears here for instance when discussing the universal $G$-bundle in its groupoid-incarantion. It is 
+$$
+  G \to \mathbf{E}G \to \mathbf{B}G
+$$
+(where $\mathbf{E}G = G//G$ is the action groupoid of $G$ acting on itself). On the left we crucially have $G$ as a monoidal 0-category, on the right as a once-degenerate 1-category. In your notation you cannot even _write down_ the universal $G$-bundle! ;-)
+
+Or take the important difference between group representations and group 2-algebras, the former being functors $\mathbf{B}G \to Vect$, the latter functors $G \to Vect$. This is important all over the place, as you know better than me.
+
+Or take an abelian group $A$ and a codomain like $2Vect$. Then there are 3 different things we can sensibly consider, namely 2-functors
+
+$$
+  A \to 2Vect
+$$
+$$
+  \mathbf{B}A \to 2Vect
+$$
+$$
+  \mathbf{B}^2A \to 2Vect
+  \,.
+$$
+All of this is different. All of this is needed. The first one is the group 3-algebra of $A$. The second is pseudo-representations of the group $A$. The third is representations of the 2-group $\mathbf{B}A$. We have notation to distinguish this, and we should use it.
+
+Finally, writing $\mathbf{B}G$ for the 1-object $n$-groupoid version of an $n$-monoid $G$ makes notation behave nicely with respect to nerves, because then realization bars $|\cdot|$ simply commute with the $B$s in the game: $|\mathbf{B}G| = B|G|$.  I think this makes for instance your theorem with Danny appear in a prettier way.
+
+This behaviour under nerves shows also that, generally, writing $\mathbf{B}G$ gives the right intuition for what an expression means. For instance, what's the "geometric" reason that a group representation is an arrow $\rho : \mathbf{B}G \to Vect$? It's because this is, literally, equivalently thought of as the corresponding classifying map of the vector bundle on $\mathbf{B}G$ which is $\rho$-associated to the universal $G$-bundle:
+
+the $\rho$-associated vector bundle to the universal $G$-bundle is, in its groupoid incarnations,
+$$
+  \array{
+    V
+    \\
+    \downarrow
+    \\
+    V//G
+    \\
+    \downarrow
+    \\
+    \mathbf{B}G
+  }
+  \,,
+$$
+where $V$ is the vector space that $\rho$ is representing on, and this is classified by the representation $\rho : \mathbf{B}G \to Vect$ in that this is the pullback of the universal $Vect$-bundle
+$$
+  \array{
+    V//G
+    &\to&
+    Vect_*
+    \\
+    \downarrow && \downarrow 
+    \\
+    \mathbf{B}G
+    &\stackrel{\rho}{\to}&
+    Vect
+  }
+  \,,
+$$
+
+In summary, I think it is important to make people understand that groups can be identified with one-object groupoids. But next it is important to make clear that not everything that can be identitfied is actually equal.
+
+For instance concerning the crucial difference between the category in which $G$ lives and the 2-category in which $\mathbf{B}G$ lives. 
+
 =--
