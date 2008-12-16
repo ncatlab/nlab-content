@@ -631,6 +631,9 @@ Heh, maybe I should say that\'s how *I* could do it (^_^). I don\'t want to make
 {: response}
 I understand. I presumed that Urs would be the one doing the off-site backups. In any case, I want to emphasize that placing a copy of the database file in the downloadable `files` directory is a security risk. So it should not be named something obvious, like "`production.db.sqlite3`", and it should not be left there any longer than absolutely necessary.
 
+{: responsetoby}
+If Urs is reading this, then he will probably do that (until `scp` is fixed), and that will settle it. But by the way, what is the security risk in the database? (Backups are more secure if widely spread, and without your warning, Urs might even have invited others to download it, although doubtless he, John, and David would be more than sufficient.) Does it contain my unencrypted password or something? (Of course, feel free to link to a general Instiki page if you\'ve already explained this elsewhere.)
+
 As far as avoiding the danger of lost effort, I think that the problem is solved. But backing up will be much easier and smoother if the `tty` problem is solved too.
 
 {: response}
@@ -649,8 +652,11 @@ Generally, it would be nice if everybody could upload resources together with th
 \-\- [[Urs Schreiber|Urs]]
 =--
 
++--{commenttoby}
+[Jacque says](http://golem.ph.utexas.edu/instiki/show/File+Uploads) that one shouldn\'t allow uploads without password protection, I guess to prevent spam. Perhaps uploads should be restricted to a separate web (for uploads only), which this web can link to. (I gather that allowing uploads and requiring passwords is done web by web within the Instiki installation.)
 
-
+Uploaded files can also overwhelm the memory limits (even without spam). That\'s one reason to make images SVG whenever possible.
+=--
 
 ## Another category, another naming convention ##
 
@@ -674,12 +680,14 @@ If a graded algebra is a monoid in graded vector spaces, what is a clean "catego
 
 What is a clean categorical way to define graded vector spaces? - [[Eric Forgy|Eric]]
 
-_[[Urs Schreiber|Urs]] says_ if you want you can say that
+_[[Urs Schreiber|Urs]] says_: If you want you can say that
 a $G$-graded vector space is a functor $G \to Vect$.
 Notice: NOT a functor $\mathbf{B}G \to Vect$ from the
 group $G$, regarded as a one-object [[groupoid]], but
 just a functor from the underlying [[set]] of $G$. 
 
-
+_[[Toby Bartels|Toby]] says_: Given an [[abelian group]] $G$, the [[functor category]] of functors from $|G|$ to $\Vect$ (where $|G|$, the order of the group $G$, is a [[set]]) is the category of $G$-graded vector spaces with homogeneous linear maps as morphisms. To make this a [[monoidal category]], let $(V \otimes W)_g$ (where $V = (V_g)_{(g:G)}$ is a functor) be
+$$\bigoplus_{h:G} V_h \otimes W_{g-h} = \bigoplus_{h,k:G, \atop h+k=g} V_h \otimes W_k$$
+(a kind of [[convolution product]]). Then a $G$-graded algebra should be a monoid in this monoidal category. (To some extent, this should still work even if $G$ is just a non-abelian monoid.)
 
 category: meta
