@@ -221,7 +221,7 @@ This is indeed the product in the category algebra.
 
 ##References on this arrow-theoretic picture##
 
-The claim is that this way of looking at category algebras realizes them as a puny sepcial case of a bigger story which involves [[bi-brane]]s as morphisms between $n$-bundles/$(n-1)$-gerbes which live on spaces connected by correspondence spaces. This is related to a bunch of things,  such as T-duality, Fourier-Mukai transformations and other issues of quantization. I am hoping in the not too far future we can provide a somewhat comprehensive account of all this. For the moment I just point to some blog entries which deal with facets of this story
+The claim is that this way of looking at category algebras realizes them as a puny special case of a bigger story which involves [[bi-brane]]s as morphisms between $n$-bundles/$(n-1)$-gerbes which live on spaces connected by correspondence spaces. This is related to a bunch of things,  such as T-duality, Fourier-Mukai transformations and other issues of quantization. I am hoping in the not too far future we can provide a somewhat comprehensive account of all this. For the moment I just point to some blog entries which deal with facets of this story
 
 * John Baez, [_Quantization and Cohomology (Week 17)_](http://golem.ph.utexas.edu/category/2007/03/quantization_and_cohomology_we_16.html)
 
@@ -229,9 +229,7 @@ The claim is that this way of looking at category algebras realizes them as a pu
 
 I expect that there is in addition nice formulation of these issues in the context of  [[enriched category theory]] using the [[Day convolution]] product. But I am not sure yet. 
 
-###Terminological Nitpicking 
-
-+--{.query}
+###Discussion: Terminological Nitpicking
 
 I use $k[S]$ to stand for the free vector space on the set $S$.  This is compatible with the notation $k[G]$ for group algebra of $G$.  Urs' notation $k[C]$ for the category algebra is also compatible, but in a different way.  
 
@@ -296,8 +294,10 @@ $$
   \,,
 $$
 
-In summary, I think it is important to make people understand that groups can be identified with one-object groupoids. But next it is important to make clear that not everything that can be identitfied is actually equal.
+In summary, I think it is important to make people understand that groups can be identified with one-object groupoids. But next it is important to make clear that not everything that can be identified is actually equal.
 
 For instance concerning the crucial difference between the category in which $G$ lives and the 2-category in which $\mathbf{B}G$ lives. 
 
-=--
+_Toby says_: Eric said:
+>I use $k[S]$ to stand for the free vector space on the set $S$.  This is compatible with the notation $k[G]$ for group algebra of $G$.  Urs' notation $k[C]$ for the category algebra is also compatible, but in a different way.
+Wait, are you claiming that $k[S]$ and $k[C]$ are incompatible? I disagree! Just as a [[set]] may be seen as a [[discrete category]], so a vector space (or [[module]]) may be seen as an algebra where all multiplication is zero. (This is well known in the theory of [[Lie n-algebroid]]s, where a vector space is a twice monoidal Lie 2-algebroid, that is a commutative Lie algebra.) Then $k[S] = k[D S]$ (where $D S$ is the discrete category on $S$), just as $k[B G] = k[G]$.
