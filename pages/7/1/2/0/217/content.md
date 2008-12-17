@@ -1,4 +1,4 @@
-The **Elementary Theory of the Category of Sets**, ETCS for short, is a formulation of set-theoretical [[foundations]] in a [[category theory|category-theoretic]] spirit. ETCS was proposes by [[Lawvere]], who published a textbook about it
+The **Elementary Theory of the Category of Sets**, ETCS for short, is a formulation of set-theoretical [[foundations]] in a [[category theory|category-theoretic]] spirit. ETCS was proposed by [[Bill Lawvere]], who published an undergraduate set-theory textbook using it:
 
 * F. William Lawvere, R. Rosebrugh, [_Sets for mathematics_](http://books.google.de/books?id=h3_7aZz9ZMoC&pg=PP1&dq=sets+for+mathematics)
 
@@ -10,8 +10,7 @@ _Kreisel and Lawvere on Category Theory and the Foundations of Mathematics_
 
 #Todd Trimble's exposition of ETCS#
 
-[[Todd Trimble]] has a series of expositional writings on ETCS which provide a very careful introduction and at the same time a whealth of useful details.
-
+[[Todd Trimble]] has a series of expositional writings on ETCS which provide a very careful introduction and at the same time a wealth of useful details.
 
 * Todd Trimble, _ZFC and ETCS: Elementary Theory of the Category of Sets_ ([[Trimble on ETCS I|nLab entry]],  [original blog entry](http://topologicalmusings.wordpress.com/2008/09/01/zfc-and-etcs-elementary-theory-of-the-category-of-sets/))
 
@@ -19,4 +18,3 @@ _Kreisel and Lawvere on Category Theory and the Foundations of Mathematics_
 
 * Todd Trimble, _ETCS: Building joins and coproducts_
 ([[Trimble on ETCS III|nLab entry]], [original blog entry](http://topologicalmusings.wordpress.com/2008/12/15/etcs-building-joins-and-coproducts/))
-
