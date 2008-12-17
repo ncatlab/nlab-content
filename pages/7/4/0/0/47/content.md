@@ -670,6 +670,8 @@ I\'ve gone through all the names of categories (like $\Set$, the category of set
 
 ##Algebroids##
 
+_[[Eric Forgy|Eric]] says_:
+
 I was thinking about the categorical definition of [[algebra|algebras]] as a [[monoid]] in Vect. Then I was trying to think of how you would similarly define a graded algebra. A thought that came to mind, which seems to make sense, is that a graded algebra could be thought of as a "category in Vect". Or something like that.
 
 Come to think of it, could you say that given a monoid $M$, an algebra is a functor $A:M\to Vect$? 
@@ -684,7 +686,7 @@ After some doodling, I think that a graded algebra should be a monoid in the cat
 
 If a graded algebra is a monoid in graded vector spaces, what is a clean "categorical" way to probe the degree of the element?
 
-What is a clean categorical way to define graded vector spaces? - [[Eric Forgy|Eric]]
+What is a clean categorical way to define graded vector spaces? 
 
 _[[Urs Schreiber|Urs]] says_: If you want you can say that
 a $G$-graded vector space is a functor $G \to Vect$.
@@ -695,5 +697,38 @@ just a functor from the underlying [[set]] of $G$.
 _[[Toby Bartels|Toby]] says_: Given an [[abelian group]] $G$, the [[functor category]] of functors from $|G|$ to $\Vect$ (where $|G|$, the order of the group $G$, is a [[set]]) is the category of $G$-graded vector spaces with homogeneous linear maps as morphisms. To make this a [[monoidal category]], let $(V \otimes W)_g$ (where $V = (V_g)_{(g:G)}$ is a functor) be
 $$\bigoplus_{h:G} V_h \otimes W_{g-h} = \bigoplus_{h,k:G, \atop h+k=g} V_h \otimes W_k$$
 (a kind of [[convolution product]]). Then a $G$-graded algebra should be a monoid in this monoidal category. (To some extent, this should still work even if $G$ is just a non-abelian monoid. What we really need is to describe that convolution product arrow-theoretically.)
+
+_[[John Baez|John]] says_:  Eric wrote: 
+
+_I was thinking about the categorical definition of [[algebra|algebras]] as a [[monoid]] in Vect. Then I was trying to think of how you would similarly define a graded algebra._
+
+It's a monoid in GradedVect, the monoidal category of graded vector spaces.
+
+_A thought that came to mind, which seems to make sense, is that a graded algebra could be thought of as a "category in Vect". Or something like that._
+
+No, a category in Vect is precisely a 'Baez-Crans 2-vector space': it has a vector space of objects, a vector space of morphisms, and all the category operations are linear.
+
+_Come to think of it, could you say that given a monoid $M$, an algebra is a functor $A:M\to Vect$?_
+
+You could say it, but that wouldn't make it true.  <img src = "http://math.ucr.edu/home/baez/emoticons/tongue2.gif" alt = ""/>  
+
+In fact, a functor $A: M \to Vect$ is none other than a [[representation]] of the monoid $M$.   
+
+_Could you say that given a category $C$, an algebroid is a functor $A:C\to Vect$?_
+
+You could say it, but that wouldn't make it true.  <img src = "http://math.ucr.edu/home/baez/emoticons/tongue2.gif" alt = ""/>  
+
+In fact, a functor $A: C \to Vect$ is a [[representation]] of your category $C$, which is very different than an algebroid.  An algebroid is a category enriched in $Vect$.
+
+_Then a graded algebra is a special kind of algebroid. It sounds kind of poetic. Is there any truth to it?_
+
+Yes, there's some truth to this guess, despite the errors that led up to it.  Jim Dolan and I have been working on ideas related to this, and (more interestingly) their applications to algebraic geometry.  But we prefer to shock the world with these ideas at a later time.
+
+_What is a clean categorical way to define graded vector spaces?_
+
+Toby already answered this, but let me note that one can and should define [[graded vector space|$S$-graded vector spaces]] for any set $S$; these then acquire special properties when $S$ is a monoid (like the natural numbers) or a group (like the integers).  An $S$-graded vector space is a functor $F: S \to Vect$, where we think of the set $S$ as a [[discrete category]].
+
+Please don't take my slapdowns the wrong way!  I'm very glad you're trying to understand lots of math from a categorical viewpoint.  But, in my 'Wizard' persona it's my duty to crush errors --- with a certain crazed glee, and utter disregard for the sensitive feelings of the victim.
+
 
 category: meta
