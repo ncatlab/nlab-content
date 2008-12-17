@@ -740,4 +740,10 @@ On some pages, e.g. [[quiver]], some discussion is forming. Rather than pollutin
 
 If we decide to do this, we may want to settle now on a proper page title format.
 
++--{commenttoby}
+That\'s a possibility. However, I don't think that ongoing discussions are pollution, certainly not when they\'re in their query blocks, easy to separate from the rest of the page.
+
+A lot of discussion will have no value worth saving (and it\'s in the edit history if really needed). A lot of useful discussion can be refactored (when finished) into the normal page text. Until we get into back-and-forth arguments and haggled compromises like on Wikipedia, I\'m not sure what would be left to move to a dedicated discussion page.
+=--
+
 category: meta
