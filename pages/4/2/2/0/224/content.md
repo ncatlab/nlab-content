@@ -8,3 +8,41 @@ People are usually interested in $G$-graded vector spaces when the set $G$ is eq
 By far the most widely-used examples are $G = \mathbb{Z}$ and $G = \mathbb{N}$.  Indeed, the term _graded vector space_ is often used to mean a $G$-graded vector space with one of these choices of $G$.  The case $G = \mathbb{Z}/2$ is also important: a $\mathbb{Z}/2$-graded vector space is also called a [[super vector space]].
 
 It is also interesting to consider $G$-graded objects in other categories.  A _$G$-graded object_ in the category $C$ is a functor $F :G \to C$, and the category of $G$-graded objects in $C$ is the [[functor category]] $C^G$.
+
+#Remarks#
+
+For the case that $G$ is a group,
+this means that the category of $G$-graded vector spaces is a [[vertical categorification|categorification]] of the [[category algebra|group algebra]] of $G$, where numbers are replaced by vector spaces. Recalling from the remark in [[category algebra]] that the group algebra of a group can be identified with the monoid of spans of the form
+$$
+  \array{
+     && G
+     \\
+     & \swarrow && \searrow
+     \\
+     pt &&\Rightarrow&& pt
+     \\ 
+     & \searrow && \swarrow
+     \\
+     &&
+     Vect
+  }
+\,,
+$$
+where $pt \to Vect$ goes to the ground field $k$,
+the monoidal category of $G$-graded vector spaces can be identified with the monoid of spans of the form
+$$
+  \array{
+     && G
+     \\
+     & \swarrow && \searrow
+     \\
+     pt &&\Rightarrow&& pt
+     \\ 
+     & \searrow && \swarrow
+     \\
+     &&
+     2Vect
+  }
+  \,.
+$$
+Here $2Vect$ denotes some version of the category of 2-vector spaces with the property that the category $Vect$ is one of its objects and such that $End_{2Vect}(Vect) \simeq Vect$ (in analogy to how $End_{Vect}(k) \simeq k$) and $pt \to 2Vect$ maps to $Vect$. Possible choices for $2Vect$ is the 2-category of [[Kapranov-Voevodsky 2-vector space]]s or the bigger bicategory of [[bicategory of algebras and bimodules|algebras and bimodules]].
