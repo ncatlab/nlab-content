@@ -2,9 +2,9 @@ _This is Part I of an exposition by [[Todd Trimble]] on [[ETCS]]_.
 
 See also
 
-* Part II: [[Trimble on ETCS II|ETCS: Internalizing the logic]]
+* Part II, [[Trimble on ETCS II|ETCS: Internalizing the logic]]
 
-* Part III: [[Trimble on ETCS III|ETCS: Building joins and coproducts]]
+* Part III, [[Trimble on ETCS III|ETCS: Building joins and coproducts]]
 
 #ZFC and ETCS: Elementary Theory of the Category of Sets#
 
