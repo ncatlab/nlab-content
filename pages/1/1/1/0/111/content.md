@@ -71,7 +71,7 @@ These classic examples are the original motivation for the term "category": all 
 
 #Size Issues#
 
-The attentive reader will note that we said a category has a 'collection' of objects and a 'collection' of morphisms.  A category is said to be [[small category|small]] if these collections are sets &#8212; as opposed to proper classes, for example.  (The alternatives depend on ones [[foundations for mathematics|foundations]].)
+The attentive reader will note that we said a category has a 'collection' of objects and a 'collection' of morphisms.  A category is said to be [[small category|small]] if these collections are sets &#8212; as opposed to proper classes, for example.  (The alternatives depend on ones [[foundations|foundations for mathematics]].)
 
 Similarly, a category is [[locally small category|locally small]] if $hom(x,y)$ is a set for every pair of objects $x,y$ in that category.
 
