@@ -66,7 +66,7 @@ the rest of the ZFC axioms can be equivalently recast as conditions on the augme
 The structure of a ZFC poset $ (V, \leq)$ is rich and interesting, of course, but in some ways a little odd or inconvenient: e.g., it has a bottom element of course (the "empty set"), but no top (which would run straight into Russell's paradox). Categorically, there *are* some cute things to point out about this poset, usually left unsaid; for example, taking "unions" is left adjoint to taking "power sets":
 
 $$
-  \bigcup F \leq X  \text{if and only if}   F \leq PX.
+  \bigcup F \leq X  \text{if and only if}   F \leq P X.
 $$
 
 In summary: ZFC is an axiomatic theory (in the language of first-order logic with equality), with one basic type $ V$ and one basic predicate $ \in$ of binary type $ V \times V$, satisfying a number of axioms. The key philosophic point is that there is no typed distinction between "elements" and "sets": both are of type $ V$, and there is a consequent very complicated dynamical "mixing" which results just on the basis of a short list of axioms: enough in principle to found all of present-day mathematics! I think the fact that one gets such great power, so economically, from apparently such slender initial data, is a source of great pride and pleasure among those who uphold the ZFC conception (or that of close kin like NBG) as a gold standard in foundations.
