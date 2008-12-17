@@ -1,6 +1,6 @@
 #Definition#
 
-The **category algebra** $k[C]$ over a ground field $k$ of a small [[category]] $C$ is as a vector space spanned by the morphisms of $C$, 
+The **category algebra** $k[C]$ over a ground field $k$ of a small [[category]] $C$ is as a [[vector space]] spanned by the morphisms of $C$, 
 
 $$k[C] = span_k(C_1)
 \,,
