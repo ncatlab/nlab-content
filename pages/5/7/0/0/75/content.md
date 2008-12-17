@@ -5,6 +5,12 @@ There are two big questions about category theory and the logical foundations of
 
 These questions also apply to [[higher category theory]], which also involves the relation between them. (Two-categories as a foundation for categories, for example.)
 
++--{.query}
+
+_[[Urs Schreiber|Urs]] asks_: Concerning the last paranthetical remark: I suppose in this manner one could imagine $(n+1)$-categories as a foundation for $n$-categories? What happens when we let $n \to \infty$?
+
+=--
+
 # Mathematical foundations of category theory
 
 The standard view seems to be to found category theory on a theory of sets and classes; see [the English Wikipedia\'s definition](https://secure.wikimedia.org/wikipedia/en/wiki/Category_%28mathematics%29#Definition), for example. But the standard reference, Saunders Mac Lane\'s _Categories for the Working Mathematician_, assumes the existence of a universe (an inaccessible cardinal) instead. Both of these approaches rely on a distinction between *small* and *large* categories. There is a category of all [[small category|small categories]], but this category is not itself small; there is no category of all categories.
@@ -15,9 +21,44 @@ If one does not accept the [[axiom of choice]], then there are additional compli
 
 For a summary of the mathematical foundations of category theory, see Mike Shulman, _Set theory for category theory_, [arXiv:0810.1279](http://arxiv.org/abs/0810.1279).
 
++--{.query}
+
+_[[Urs Schreiber|Urs]] asks_: More recently it seems that the concept of _accessible categories_ has found some 
+supporters as a tool for conveniently dealing with size issues generally in (higher) category theory. Jacob Lurie discusses this from [p. 341](http://www-math.mit.edu/~lurie/papers/highertopoi.pdf#page=342) on in his [Higher Topos Theory](http://arxiv.org/abs/math.CT/0608040), where he says
+
+<blockquote>
+
+the theory of accessible 1-categories is a tool which allows us to
+manipulate large 1-categories as if they were small, without fear of
+encountering any set-theoretic paradoxes. This theory is quite useful
+because the condition of accessibility is very robust
+
+</blockquote>
+
+I have only a vague understanding of accessible categories at the moment. It would be nice to have an entry [[accessible category]] explaining it. My main problem here is probably that I have no good idea of notions like "regular cardinal".
+
+=--
+
+
 # Categorial foundations of mathematics
 
-Bill Lawvere proposed to found mathematics on a first-order axiomatisation of [[Cat|the category of categories]]. This has not been very successful, but his other proposal, a first-order axiomatisation of [[Set|the category of sets]], works well. These and related approaches to foundations may be called _categorial_ or _categorical_ (the latter term is more common but clashes with another sense of 'categorical' in logic).
+Bill Lawvere proposed to found mathematics on a first-order axiomatisation of [[Cat|the category of categories]]. This has not been very successful, 
+
++--{.query}
+
+_[[Urs Schreiber|Urs]] asks_: Can you say what the problem is?
+
+=--
+
+
+but his other proposal, a first-order axiomatisation of [[Set|the category of sets]], works well. These and related approaches to foundations may be called _categorial_ or _categorical_ (the latter term is more common but clashes with another sense of 'categorical' in logic).
+
++--{.query}
+
+_[[Urs Schreiber|Urs]] says_: I like _categorial_. If we think we can improve on existing terminology we should feel free to introduce it here. 
+
+=--
+
 
 Lawvere\'s system [[ETCS]] (for 'the Elementary Theory of the Category of Sets') essentially states that the category of sets is a [[topos]] with certain properties, in particular a [[well-pointed topos]]. This can be stated in elementary (first-order) terms; indeed, Lawvere invented the now-default notion of *elementary* topos (in contrast to the original notion of [[Grothendieck topos]]) to do this.
 
