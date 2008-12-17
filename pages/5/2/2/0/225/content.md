@@ -1,0 +1,1 @@
+Given [[category|categories]] $C$ and $D$, the _functor category_ $D^C$ has [[functor|functors]] $F: C \to D$ as [[object|objects]] and [[natural transformation|natural transformations]] between these as morphisms.
