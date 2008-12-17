@@ -698,6 +698,8 @@ _[[Toby Bartels|Toby]] says_: Given an [[abelian group]] $G$, the [[functor cate
 $$\bigoplus_{h:G} V_h \otimes W_{g-h} = \bigoplus_{h,k:G, \atop h+k=g} V_h \otimes W_k$$
 (a kind of [[convolution product]]). Then a $G$-graded algebra should be a monoid in this monoidal category. (To some extent, this should still work even if $G$ is just a non-abelian monoid. What we really need is to describe that convolution product arrow-theoretically.)
 
+See also: <https://secure.wikimedia.org/wikipedia/en/wiki/Super_vector_space#The_category_of_super_vector_spaces>. But it looks like $G$ must be a ring (or at least rig) to define the braiding.
+
 _[[John Baez|John]] says_:  Eric wrote: 
 
 _I was thinking about the categorical definition of [[algebra|algebras]] as a [[monoid]] in Vect. Then I was trying to think of how you would similarly define a graded algebra._
