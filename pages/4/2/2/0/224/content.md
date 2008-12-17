@@ -1,5 +1,5 @@
 Given a set $G$, an _$G$-graded vector space_ is a map $V$
-assigning to each element $g \in G$ a vector space $V_g$.  Given $G$-graded vector spaces $V$ and $W$, a morphism $f : V \to W$ assigns to each element $g \in G$ a linear operator $f_g : V_g \to W_g$.
+assigning to each element $g \in G$ a [[vector space]] $V_g$.  Given $G$-graded vector spaces $V$ and $W$, a morphism $f : V \to W$ assigns to each element $g \in G$ a linear operator $f_g : V_g \to W_g$.
 
 In other words, a $G$-graded vector space is a functor $V: G \to Vect$, where the set $G$ is treated as a [[discrete category]], and [[Vect]] is the category of vector spaces. Similarly, a morphism of $G$-graded vector spaces is a natural transformation between such functors.  In short, the category of $G$-graded vector spaces is the [[functor category]] $Vect^G$.  
 
