@@ -1,0 +1,1 @@
+Is there a nice _arrow theoretic_ way to define vector spaces?
