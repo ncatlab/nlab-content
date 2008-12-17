@@ -9,6 +9,8 @@ These questions also apply to [[higher category theory]], which also involves th
 
 _[[Urs Schreiber|Urs]] asks_: Concerning the last paranthetical remark: I suppose in this manner one could imagine $(n+1)$-categories as a foundation for $n$-categories? What happens when we let $n \to \infty$?
 
+_[[Toby Bartels|Toby]] answers_: That goes in the last, as yet unwritten, section.
+
 =--
 
 # Mathematical foundations of category theory
@@ -37,28 +39,31 @@ because the condition of accessibility is very robust
 
 I have only a vague understanding of accessible categories at the moment. It would be nice to have an entry [[accessible category]] explaining it. My main problem here is probably that I have no good idea of notions like "regular cardinal".
 
-=--
+_[[Toby Bartels|Toby]] answers_: I understand all these large cardinals much better in terms of their categories of small sets. In particular, a cardinal number $\kappa$ is _regular_ if the category of $\kappa$-small sets is $\kappa$-cocomplete. That is, any $\kappa$-small coproduct (the other $\kappa$-small colimts follow) of $\kappa$-small sets is a $\kappa$-small set. Here a set is _$\kappa$-small_ if its cardinality is less than $\kappa$, but you can see that the real point is not the cardinal number $\kappa$ but rather the category of (relatively) small sets. So a subcategory $C$ of $\Set$ (say a full subcategory, and closed under taking subobjects) is _regular_ (in the cardinal sense) if $C$ has all colimits indexed by categories internal to itself. This generalises to indexed category theory, although I have only a vague understanding of that.
 
+=--
 
 # Categorial foundations of mathematics
 
-Bill Lawvere proposed to found mathematics on a first-order axiomatisation of [[Cat|the category of categories]]. This has not been very successful, 
+Bill Lawvere proposed to found mathematics on a first-order axiomatisation of [[Cat|the category of categories]]. This has not been very successful, ...
 
 +--{.query}
 
 _[[Urs Schreiber|Urs]] asks_: Can you say what the problem is?
 
+_[[Toby Bartels|Toby]] answers_: I\'d say that it proved to be overkill; ETCS is simpler and no less conceptual. In ETCC (or whatever you call it), you can neatly define a group (for example) as a category with certain properties rather than as a set with certain structure. But then you still have to define a topological space (for example) as a set with certain structure (where a set is defined to be a discrete category, of course). I think that Lawvere himself still wants an ETCC, but everybody else seems to have decided to stick with ETCS.
+
 =--
 
-
-but his other proposal, a first-order axiomatisation of [[Set|the category of sets]], works well. These and related approaches to foundations may be called _categorial_ or _categorical_ (the latter term is more common but clashes with another sense of 'categorical' in logic).
+... but his other proposal, a first-order axiomatisation of [[Set|the category of sets]], works well. These and related approaches to foundations may be called _categorial_ or _categorical_ (the latter term is more common but clashes with another sense of 'categorical' in logic).
 
 +--{.query}
 
-_[[Urs Schreiber|Urs]] says_: I like _categorial_. If we think we can improve on existing terminology we should feel free to introduce it here. 
+_[[Urs Schreiber|Urs]] says_: I like _categorial_. If we think we can improve on existing terminology we should feel free to introduce it here.
+
+_[[Toby Bartels|Toby]] responds_: Once you use 'categorial' when discussing logic, it\'s hard to justify using 'categorical' in other contexts. I suppose that I could go through the whole wiki and change 'categorical' to 'categorial' ....
 
 =--
-
 
 Lawvere\'s system [[ETCS]] (for 'the Elementary Theory of the Category of Sets') essentially states that the category of sets is a [[topos]] with certain properties, in particular a [[well-pointed topos]]. This can be stated in elementary (first-order) terms; indeed, Lawvere invented the now-default notion of *elementary* topos (in contrast to the original notion of [[Grothendieck topos]]) to do this.
 
