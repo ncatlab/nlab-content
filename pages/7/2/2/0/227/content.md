@@ -1,0 +1,1 @@
+A **ring** is a category with one object [[internalization|internal to]] the category of [[group|abelian groups]].
