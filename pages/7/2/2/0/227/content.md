@@ -1,1 +1,1 @@
-A **ring** is a category with one object [[internalization|internal to]] the category of [[group|abelian groups]].
+A **ring** is a [[monoid]] [[internalization|internal to]] the category of [[group|abelian groups]].
