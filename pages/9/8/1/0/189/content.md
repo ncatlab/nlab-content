@@ -58,3 +58,5 @@ The Wikipedia entry on [the mathematics of quivers](http://en.wikipedia.org/wiki
 Also by the way, I've moved this down here because I imagine many pages on the $n$Lab will gradually acquire long and interesting discussions which we don't want stuck right in the middle of the main stuff.  Wikipedia has 'talk pages' for this purpose.
 
 I removed the green 'query' box, which gets a bit inconvenient when the discussion gets long. But, it might be nice to have this sort of discussion be visibly different from the main article.
+
+[[Eric Forgy|Eric]] says: What if we create a separate page called **Discussion: quiver** and link to it from here? Or something... 
