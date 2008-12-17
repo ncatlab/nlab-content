@@ -17,14 +17,16 @@ For a summary of the mathematical foundations of category theory, see Mike Shulm
 
 # Categorial foundations of mathematics
 
-Bill Lawvere proposed to found mathematics on a first-order axiomatisation of [[Cat|the category of categories]]. This has not been very successful, but his other proposal, a first-order axiomatisation of [[Set|the category of sets]], works well.
+Bill Lawvere proposed to found mathematics on a first-order axiomatisation of [[Cat|the category of categories]]. This has not been very successful, but his other proposal, a first-order axiomatisation of [[Set|the category of sets]], works well. These and related approaches to foundations may be called _categorial_ or _categorical_ (the latter term is more common but clashes with another sense of 'categorical' in logic).
 
-Lawvere\'s system [[ETCS]] (for 'the Elementary Theory of the Category of Sets') essentially states that the category of sets is a [[topos]] with certain properties, in particular a [[well-pointed topos]]. This can be stated in elementary (first-order) terms; indeed, Lawvere invented the now-standard notion of [[elementary topos]] (in contrast to the earlier [[Grothendieck topos]]) to do this.
+Lawvere\'s system [[ETCS]] (for 'the Elementary Theory of the Category of Sets') essentially states that the category of sets is a [[topos]] with certain properties, in particular a [[well-pointed topos]]. This can be stated in elementary (first-order) terms; indeed, Lawvere invented the now-default notion of *elementary* topos (in contrast to the original notion of [[Grothendieck topos]]) to do this.
 
-...
+It is also possible to found mathematics on the [[internal language]] of a topos. In this case, the topos need *not* be well-pointed (and indeed, the condition that a topos be well-pointed cannot be stated in its own internal language; or if you prefer, *every* topos is well-pointed *internally*). This is not really anything new; it is equivalent to a certain formulation of type theory.
 
-For a summary of this categorial foundation of mathematics, see [[ETCS]].
+More generally, categories can serve as models of type theories, each type theory corresponding to a certain class of categories. Toposes correspond directly to a constructive but impredicative type theory; to make the theory predicative (in the constructivists\' sense) you generalise to a [[pretopos]], to make the theory nonconstructive you specialize to a [[boolean topos]], and so on. More specifically, every category\'s internal language is a type theory (with many odd constants), and every type theory (of appropriate form) defines a category (its free model); this is an [[adjunction]] between categories and type theories. Paul Taylor\'s book _Practical Foundations of Mathematics_ is essentially all about this subject.
+
+Certain 'strong' axioms of set theory (those involving quantification over all sets) are difficult to state in category-theoretic (or type-theoretic) terms, but this can be overcome in a theory like ETCS; talk to Mike Shulman. (Ironically, this makes it harder to do foundations with categorial foundations!)
 
 # Categorial foundations of category theory
 
-...
+..."
