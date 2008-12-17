@@ -1,6 +1,6 @@
-A category is _locally small_ if each of its  [[homset|homsets]] is small, (i.e. is a set instead of a proper class).
+A [[category]] is _locally small_ if each of its  [[homset|homsets]] is small, i.e. is a set instead of a proper class.
 
-In general, a category is called "locally $P$" if all hom-sets (or hom-objects, if we are in [[enriched category theory]]) satisfy property $P$.
+In general, a category is called "locally $P$" if all homsets (or hom-objects, if we are in [[enriched category theory]]) satisfy property $P$.
 
 #Remarks#
 
