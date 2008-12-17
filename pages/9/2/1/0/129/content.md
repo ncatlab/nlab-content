@@ -20,6 +20,8 @@ Clues:
 
 * [Tangent category, Yoneda, Cayley](http://golem.ph.utexas.edu/category/2007/08/more_on_tangent_categories.html#c011458)
 
+* [Groupoidification](http://golem.ph.utexas.edu/category/2008/06/an_exercise_in_groupoidificati.html)
+
 **Warning: Under Construction**
 
 ##Discrete Smooth Spaces
