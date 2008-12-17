@@ -5,7 +5,7 @@ In other words, a $G$-graded vector space is a functor $V: G \to Vect$, where th
 
 People are usually interested in $G$-graded vector spaces when the set $G$ is equipped with extra structure.  If the set $G$ is a [[monoid]], $Vect^G$ is a [[monoidal category]].  If $G$ is a commutative monoid, $Vect^G$ is a [[symmetric monoidal category]].  If $G$ is a group, every finite-dimensional $G$-graded vector space has a [[left dual object|left dual]] and a [[right dual object|right dual]].  And if $G$ is an abelian group, these duals coincide.
 
-By far the most widely-used examples are $G = \mathbb{Z}$ and $G = \mathbb{N}$.  Indeed, the term _graded vector space_ is often used to mean a $G$-graded vector space with one of these choices of $G$.  The case $G = \mathbb{Z}/2$ is also important: a $\mathbb{Z}/2$-graded vector space is also called a [[super vector space]].
+By far the most widely-used examples are $G = \mathbb{Z}$ and $G = \mathbb{N}$.  Indeed, the term _graded vector space_ is often used to mean a $G$-graded vector space with one of these choices of $G$.  The case $G = \mathbb{Z}/2$ is also important: a $\mathbb{Z}/2$-graded vector space is also called a [[super vector space]]. However, in this case one often uses a different braiding on $\Vect^G$, one which uses the [[ring]] structure of $\mathbb N$; see [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Super_vector_space#The_category_of_super_vector_spaces).
 
 It is also interesting to consider $G$-graded objects in other categories.  A _$G$-graded object_ in the category $C$ is a functor $F :G \to C$, and the category of $G$-graded objects in $C$ is the [[functor category]] $C^G$.
 
