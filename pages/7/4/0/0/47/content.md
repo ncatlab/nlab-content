@@ -732,5 +732,12 @@ Toby already answered this, but let me note that one can and should define [[gra
 
 Please don't take my slapdowns the wrong way!  I'm very glad you're trying to understand lots of math from a categorical viewpoint.  But, in my 'Wizard' persona it's my duty to crush errors --- with a certain crazed glee, and utter disregard for the sensitive feelings of the victim.
 
+[[Eric Forgy|Eric]] says: Thanks! Fortunately (I think), I am comfortable admitting I don't understand something and one way I learn is to state things as I see them hoping to be corrected. Slap away!
+
+##Discussion Pages##
+
+On some pages, e.g. [[quiver]], some discussion is forming. Rather than polluting the page and rather than just deleting the discussion after it has been settled, what if we create special "Discussion" pages that relate to specific pages? For example, <nowiki>[[Discussion: quiver]]</nowiki> and link to this page from <nowiki>[[quiver]]</nowiki>.
+
+If we decide to do this, we may want to settle now on a proper page title format.
 
 category: meta
