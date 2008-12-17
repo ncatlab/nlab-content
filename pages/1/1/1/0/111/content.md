@@ -41,6 +41,7 @@ $g \circ f \in C_1$;
 * composition satisfies the _left and right unit laws_:
 given any morphism $f: x \to y$ we have $1_y \circ f = f = f \circ 1_y$. 
 
+People often write $hom(x,y)$ for the collection of morphisms $f : x \to y$.  Sometimes people write $C(x,y)$, which has the advantage of making clear which category is being discussed.  People also often write $x \in C$ instead of $x \in C_0$ as a short way to indicate that $x$ is an object of $C$.  Also, some people write $Ob(C)$ and $Mor(C)$ instead of $C_0$ and $C_1$.
 
 #Examples#
 
@@ -68,7 +69,13 @@ These classic examples are the original motivation for the term "category": all 
 
 * **Quiver** A [[quiver]] is a free category on a [[directed graph]].  Given a directed graph $G$ with collection of vertices $G_0$ and collection of edges $G_1$, there is the _[[free functor|free]] category_ $F(G)$ on the graph whose collection of objects coincides with the collection of vertices, and whose collection of morphisms consists of finite sequences of edges in $G_1$ that fit together head-to-tail. The composition operation in this free category is the concatenation of sequences of edges.
 
-There is much more to say... it might not be terrible to copy the Wikipedia article on categories and rework it to suit our purposes.
+#Size Issues#
+
+The attentive reader will note that we said a category has a 'collection' of objects and a 'collection' of morphisms.  A category is said to be [[small category|small]] if these collections are sets &#8212; as opposed to proper classes, for example.  (The alternatives depend on ones [[foundations for mathematics|foundations]].)
+
+Similarly, a category is [[locally small category|locally small]] if $hom(x,y)$ is a set for every pair of objects $x,y$ in that category.
+
+[[Cat]] is a good example of a category that is locally small but not small.
 
 #Literature#
 
