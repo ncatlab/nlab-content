@@ -63,6 +63,8 @@ _[[Urs Schreiber|Urs]] says_: I like _categorial_. If we think we can improve on
 
 _[[Toby Bartels|Toby]] responds_: Once you use 'categorial' when discussing logic, it\'s hard to justify using 'categorical' in other contexts. I suppose that I could go through the whole wiki and change 'categorical' to 'categorial' ....
 
+_[[Urs Schreiber|Urs]] says_: with respect to optimal terminology I think that one problem is that the very term "category" is not optimal. 
+
 =--
 
 Lawvere\'s system [[ETCS]] (for 'the Elementary Theory of the Category of Sets') essentially states that the category of sets is a [[topos]] with certain properties, in particular a [[well-pointed topos]]. This can be stated in elementary (first-order) terms; indeed, Lawvere invented the now-default notion of *elementary* topos (in contrast to the original notion of [[Grothendieck topos]]) to do this.
