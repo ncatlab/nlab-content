@@ -1,0 +1,1 @@
+A [[category]] is _small_ if it has a set of objects and a set of morphisms.  
