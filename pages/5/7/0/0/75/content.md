@@ -63,7 +63,9 @@ _[[Urs Schreiber|Urs]] says_: I like _categorial_. If we think we can improve on
 
 _[[Toby Bartels|Toby]] responds_: Once you use 'categorial' when discussing logic, it\'s hard to justify using 'categorical' in other contexts. I suppose that I could go through the whole wiki and change 'categorical' to 'categorial' ....
 
-_[[Urs Schreiber|Urs]] says_: with respect to optimal terminology I think that one problem is that the very term "category" is not optimal. 
+_[[Urs Schreiber|Urs]] says_: with respect to optimal terminology I think that one problem is that the very term "category" is not optimal.
+
+_[[Toby Bartels|Toby]] responds_: I think that it\'s too late to play Bourbaki with that. Or do you want to say 'semigroupoid'? (which occasionally appears in groupoid literature but most properly would not have identity morphisms). I got a lot of stares over dinner at Groupoidfest when I said that that might be a better term after all (for categories as algebraic objects).
 
 =--
 
