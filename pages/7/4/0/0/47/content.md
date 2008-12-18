@@ -768,4 +768,17 @@ If you used the [Theorem Environment](http://golem.ph.utexas.edu/instiki/show/Th
 {: response}
 [[Eric Forgy|Eric]] says: I'm still learning and wasn't aware of the Theorem Environment. We should definititely encourage its use, however, I think John is referring to the first use of the word _within_ a definition. I've noticed that too. I've been using **bold**, but could switch to _italic_ if that is what you want.
 
+##Linking to Wikipeda##
+
+[[Eric Forgy|Eric]]: How would I link to an external address that itself contains parentheses, e.g.
+
+http://en.wikipedia.org/wiki/Field_(mathematics)
+
+Attempting
+
+<nowiki>[Field](http://en.wikipedia.org/wiki/Field_(mathematics))</nowiki>
+
+picks up the first closing parentheses and tries to link to
+
+http://en.wikipedia.org/wiki/Field_(mathematics
 category: meta
