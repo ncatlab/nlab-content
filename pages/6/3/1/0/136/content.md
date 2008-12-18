@@ -1,3 +1,3 @@
 See [[epimorphism]].
 
-category: redirect
+category: delete
