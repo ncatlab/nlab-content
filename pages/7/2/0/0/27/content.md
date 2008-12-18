@@ -1,3 +1,3 @@
 See [[groupoid]].
 
-category: redirect
+category: delete
