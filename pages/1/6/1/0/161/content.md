@@ -1,3 +1,3 @@
 See [[group theory]].
 
-category: redirect
+category: delete
