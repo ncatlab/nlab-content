@@ -3,3 +3,5 @@ I am a mathematician specializing in category theory. My PhD was completed in 19
 Since 2001 I have been a full-time parent; I presently live in Connecticut and continue to do mathematics as time allows. Among other things I actively participate in the [$n$-Category Caf&#233;](http://golem.ph.utexas.edu/category/) blog, and I coauthor the mathematics blog [Topological Musings](http://topologicalmusings.wordpress.com). 
 
 Some of my writings can be found [here](http://math.ucr.edu/home/baez/trimble).
+
+category: people
