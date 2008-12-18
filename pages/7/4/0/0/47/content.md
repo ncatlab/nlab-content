@@ -746,4 +746,10 @@ That\'s a possibility. However, I don't think that ongoing discussions are pollu
 A lot of discussion will have no value worth saving (and it\'s in the edit history if really needed). A lot of useful discussion can be refactored (when finished) into the normal page text. Until we get into back-and-forth arguments and haggled compromises like on Wikipedia, I\'m not sure what would be left to move to a dedicated discussion page.
 =--
 
+_[[John Baez|John]] says:
+
+Right now I like the idea of putting the discussion in the same page, at the end, in a section labelled Discussion.  
+
+I think that people can learn a lot from these discussions, where you see the interplay of ideas better than in the formal portion of the text.  This is, after all, not an encyclopedia but a "Lab" - a place where people come to work and think.  We haven't quite discovered what that means yet. But, it could involve a lot of discussion.
+
 category: meta
