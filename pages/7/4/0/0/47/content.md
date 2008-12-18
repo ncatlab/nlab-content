@@ -765,4 +765,7 @@ I've been putting definitions in _italics_.  Someone else is putting them in **b
 {: response}
 If you used the [Theorem Environment](http://golem.ph.utexas.edu/instiki/show/Theorems) to mark then up, then this decision could be made globally, by adjusting the CSS. But, since I've pointed this out 6 or 8 times, now, maybe I should just let you have recourse to your pistols.
 
+{: response}
+[[Eric Forgy|Eric]] says: I'm still learning and wasn't aware of the Theorem Environment. We should definititely encourage its use, however, I think John is referring to the first use of the word _within_ a definition. I've noticed that too. I've been using **bold**, but could switch to _italic_ if that is what you want.
+
 category: meta
