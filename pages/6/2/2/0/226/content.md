@@ -23,6 +23,6 @@ Of course this is a bit shocking, since the first thing an elementary text on al
 
 I wish I understood this better.  There's a nice exposition of <i>a little bit</i> of these ideas in Mac Lane and Moerdijk's <i>Sheaves in Geometry and Logic: A First Introduction to Topos Theory</i>.  Look up 'local ring' in their index: you'll see that unlike the notion of field, the notion of [local ring](http://en.wikipedia.org/wiki/Local_ring) can be defined using 'geometric logic', which is (very roughly) the kind of logic that works well in topoi.
 
-[[Eric Forgy|Eric]]: The wikipedia article on "Category of fields" has some interesting things to say about the difficulties with fields in category theory.
+_[[Eric Forgy|Eric]] says_: The wikipedia article on [Category of fields](http://en.wikipedia.org/wiki/Category_of_fields) has some interesting things to say about the difficulties with fields in category theory.
 
 If fields are less than perfectly natural, then vector spaces are somewhat troublesome too. But what about the [tangent bundle of a category](http://golem.ph.utexas.edu/category/2007/07/tangent_categories.html)? That idea is very pretty. In what way does it fail to converge to the usual concept of a tangent space, which should contain vector spaces (obviously)? <nowiki>[Edit: Sorry. The answer was in the very link I provided, but any further light on the subject would be appreciated.]</nowiki>
