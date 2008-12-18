@@ -1,0 +1,1 @@
+Loosely speaking, a **monoidal category** is a category with a tensor product that's associative up to isomorphism.  The full definition is considerably longer, but someday you'll see it here.
