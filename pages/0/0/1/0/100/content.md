@@ -1,3 +1,3 @@
 See [[globe]].
 
-category: redirect
+category: delete
