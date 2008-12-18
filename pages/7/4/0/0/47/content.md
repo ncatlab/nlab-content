@@ -781,4 +781,8 @@ Attempting
 picks up the first closing parentheses and tries to link to
 
 http://en.wikipedia.org/wiki/Field_(mathematics
+
+{: response}
+<nowiki>[Field](http://en.wikipedia.org/wiki/Field_%28mathematics%29)</nowiki> produces [Field](http://en.wikipedia.org/wiki/Field_%28mathematics%29).
+
 category: meta
