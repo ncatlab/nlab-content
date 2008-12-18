@@ -13,3 +13,5 @@ It's a monoid in GradedVect, the monoidal category of graded vector spaces.
 </blockquote>
 
 So the magic wand must be [[internalization]] (?)
+
+_[[Toby Bartels|Toby]] says_: Well, somewhat. But if you take a monoid internal to the category of categories, then you get a *strict* monoidal category, and hardly any of the examples in nature are strict. So there are subtleties in the coherence rules for the weakened version. (Of course, you could take a monoidal category internal to the bicategory of categories, but nobody knew how to define that until they knew what a monoidal category is!)
