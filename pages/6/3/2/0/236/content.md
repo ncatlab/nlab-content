@@ -8,7 +8,7 @@ _[[Eric Forgy|Eric]] says_: I am trying to adapt this from the [Exercise in Grou
 
 =--
 
-Given a set $S$, we define an **action groupoid** to be denoted $S//G$ as follows: its objects are the elements of $S$ and from each element $s$ there starts precisely one morphism $(g,s)$ per element in $g$:
+Given a set $S$ and group $G$, we define an **action groupoid** to be denoted $S//G$ as follows: its objects are the elements of $S$ and from each element $s$ there starts precisely one morphism per element in $g$:
 
 $$S//G:=\{s\stackrel{g}{\to} g(s) | s\in S, g\in G\}.$$
 
@@ -24,4 +24,4 @@ Composition of morphisms is the obvious one coming from the product in the group
 
 #References#
 
-* John Armstrong's blog article, [Groupoids (and more group actions)](http://unapologetic.wordpress.com/2007/06/09/groupoids-and-more-group-actions/)
+* John Armstrong's article, [Groupoids (and more group actions)](http://unapologetic.wordpress.com/2007/06/09/groupoids-and-more-group-actions/)
