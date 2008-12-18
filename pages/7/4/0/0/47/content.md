@@ -794,4 +794,7 @@ _[[John Baez|John]] says_: I ran into this problem too, but not remembering the 
 
 I created a page on accident (typo) and didn't realize until I modified it. Is there a way to delete it?
 
+{: response}
+[Yes](http://golem.ph.utexas.edu/instiki/show/Edit+Web#delete).
+
 category: meta
