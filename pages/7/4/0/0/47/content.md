@@ -803,4 +803,7 @@ I created a page on accident (typo) and didn't realize until I modified it. Is t
 {: response}
 [Yes](http://golem.ph.utexas.edu/instiki/show/Edit+Web#delete).
 
+{: commenttoby}
+Eric must be talking about `[[action group]]` (don\'t link it!). I just put it in `category\: delete`, so anybody with the password to the wiki can delete it by deleting all orphaned pages in that category.
+
 category: meta
