@@ -790,4 +790,8 @@ http://en.wikipedia.org/wiki/Field_(mathematics
 
 _[[John Baez|John]] says_: I ran into this problem too, but not remembering the good solution described above, I adopted a crude hack: I left out the parentheses around, say, "(mathematics)".  It worked, but only because Wikipedia forgave my sin.  I need to go back and fix my mistakes someday.
 
+##Deleting Pages##
+
+I created a page on accident (typo) and didn't realize until I modified it. Is there a way to delete it?
+
 category: meta
