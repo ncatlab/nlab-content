@@ -70,4 +70,8 @@ If your comment or question is more general than a specific page or person, then
 * [Use keyboard shortcuts](http://golem.ph.utexas.edu/instiki/show/AccessKeys)
 * [Make slideshows](http://golem.ph.utexas.edu/instiki/show/S5)
 
+##Instiki##
+
+For general information and help with Instiki, see the [Instiki](http://golem.ph.utexas.edu/instiki/show/HomePage) wiki.
+
 category: meta
