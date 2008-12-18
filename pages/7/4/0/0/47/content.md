@@ -756,6 +756,9 @@ Right now I like the idea of putting the discussion in the same page, at the end
 
 I think that people can learn a lot from these discussions, where you see the interplay of ideas better than in the formal portion of the text.  This is, after all, not an encyclopedia but a "Lab" - a place where people come to work and think.  We haven't quite discovered what that means yet. But, it could involve a lot of discussion.
 
+{: commenttoby}
+Yeah, I also like these Discussion sections at the bottom.
+
 ##Definitions --- Boldface or Italics##
 
 _[[John Baez|John]] says_:
@@ -770,6 +773,9 @@ _[[Eric Forgy|Eric]] says_: I'm still learning and wasn't aware of the Theorem E
 
 {: response}
 _[[John Baez|John]] says_: In this case I'm more interested in consistency than enforcing my will upon the world, despite my joke about pistols at dawn.  **Bold** jumps out you more than _italics_, I think.  A theorem environment would let us make (and change) this decision globally, but we won't want all our definitions to be stated as part of a formal **Definition** environment --- sometimes it's nice to make a definition as part of a paragraph of ordinary text, and in my own papers I always put the defined term in **boldface**, to 1) make the definitions easy to spot, and 2) make it clear that I'm defining something instead of stating a fact about something (I hate it when someone says "Pr&uuml;fer rings are hereditary and Noetherian" and I can't tell if this is supposed to be the _definition_, or merely a cute _fact_ about Pr&uuml;fer rings).
+
+{: commenttoby}
+I also prefer boldface. I\'ve been doing that unless a page already uses italics. &#8212;[[Toby Bartels|Toby]]
 
 ##Linking to Wikipeda##
 
