@@ -14,7 +14,7 @@ $$
   N_1 \otimes_A N_2
 $$
 
-is the coequalizer of
+is the [[coequalizer]] of
 
 $$
   N_1 \otimes A \otimes N_2
