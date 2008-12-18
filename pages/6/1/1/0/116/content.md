@@ -1,3 +1,3 @@
 A _group_ is a [[groupoid]] with one object.
 
-(This is equivalent to whatever definition you may be used to.)
+Don't worry: this definition is equivalent to [the definition you're used to](http://en.wikipedia.org/wiki/Group_mathematics#Definition).  
