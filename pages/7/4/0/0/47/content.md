@@ -817,4 +817,10 @@ Anyone who feels that any of the aforementioned pages lie on the wrong end of th
 =--
 =--
 
+_[[Eric Forgy|Eric]] says_: I like the idea of regularly deleting pages marked <nowiki>category: delete</nowiki>. This would also give us a mechanism to delete pages we create by accident. I guess there would be a danger of malicious deleting if it was automated?
+
+##Linking to External Papers##
+
+_[[Eric Forgy|Eric]] says_: When a paper becomes freely available on some web page, I'm pretty sure it is "public" and there would be no harm in us providing our own copy. Is that right? If so, I had the thought that it might be better to upload a commonly referenced PDF rather than link to an external link. The reason being that the external link may become broken and the paper would no longer be available. If we had our own copy of popularly referenced papers here, the links would never become broken. Just an idea...
+
 category: meta
