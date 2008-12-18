@@ -807,6 +807,14 @@ I created a page on accident (typo) and didn't realize until I modified it. Is t
 Eric must be talking about `[[action group]]` (don\'t link it!). I just put it in `category\: delete`, so anybody with the password to the wiki can delete it by deleting all orphaned pages in that category. On the other hand, you could leave it there (blanked), since it doesn\'t seem to do any harm.
 
 Jacques just added several more pages to the `delete` category, some of which were not created as either mistakes or as redirect pages, although all of them were created extremely short. It seems like a waste of time, and a slippery slope to start deleting authorship information for *short* items (most of which will now be attributed to [[Toby Bartels|me]], actually), but nobody will be seriously confused.
+
++-- {: response}
+I added orphan pages from the `redirect` category which *never* (going back all the way through their history) contained any actual content, *except* for a redirect link to another page.
+
+In fact, there were a couple of similar pages that (at some point in the past) contained a link to *two* pages. Those I left unmolested, as I did all of the pages in the `redirect` category that, at one point, contained actual content that has subsequently moved elsewhere. Those are, at the very least, of antiquarian interest.
+
+Anyone who feels that any of the aforementioned pages lie on the wrong end of the slippery slope is encouraged to revert them.
+=--
 =--
 
 category: meta
