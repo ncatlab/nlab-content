@@ -1,3 +1,3 @@
 See [[spaceoid]].
 
-category: redirect
+category: delete
