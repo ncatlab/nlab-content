@@ -1,3 +1,3 @@
 See [[Lie algebra]].
 
-category: redirect
+category: delete
