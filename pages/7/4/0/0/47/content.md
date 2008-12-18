@@ -762,4 +762,7 @@ _[[John Baez|John]] says:
 
 I've been putting definitions in _italics_.  Someone else is putting them in **boldface**.  We should settle on a convention.  Meet me at dawn in the town square --- bring your pistol.
 
+{: response}
+If you used the [Theorem Environment](http://golem.ph.utexas.edu/instiki/show/Theorems) to mark then up, then this decision could be made globally, by adjusting the CSS. But, since I've pointed this out 6 or 8 times, now, maybe I should just let you have recourse to your pistols.
+
 category: meta
