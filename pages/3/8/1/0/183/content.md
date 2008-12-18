@@ -1,3 +1,3 @@
 See [[L-infinity-algebra]].
 
-category: redirect
+category: delete
