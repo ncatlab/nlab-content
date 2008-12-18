@@ -758,7 +758,7 @@ I think that people can learn a lot from these discussions, where you see the in
 
 ##Definitions --- Boldface or Italics##
 
-_[[John Baez|John]] says:
+_[[John Baez|John]] says_:
 
 I've been putting definitions in _italics_.  Someone else is putting them in **boldface**.  We should settle on a convention.  Meet me at dawn in the town square --- bring your pistol.
 
@@ -766,11 +766,14 @@ I've been putting definitions in _italics_.  Someone else is putting them in **b
 If you used the [Theorem Environment](http://golem.ph.utexas.edu/instiki/show/Theorems) to mark then up, then this decision could be made globally, by adjusting the CSS. But, since I've pointed this out 6 or 8 times, now, maybe I should just let you have recourse to your pistols.
 
 {: response}
-[[Eric Forgy|Eric]] says: I'm still learning and wasn't aware of the Theorem Environment. We should definititely encourage its use, however, I think John is referring to the first use of the word _within_ a definition. I've noticed that too. I've been using **bold**, but could switch to _italic_ if that is what you want.
+_[[Eric Forgy|Eric]] says_: I'm still learning and wasn't aware of the Theorem Environment. We should definititely encourage its use, however, I think John is referring to the first use of the word _within_ a definition. I've noticed that too. I've been using **bold**, but could switch to _italic_ if that is what you want.
+
+{: response}
+_[[John Baez|John]] says_: In this case I'm more interested in consistency than enforcing my will upon the world, despite my joke about pistols at dawn.  **Bold** jumps out you more than _italics_, I think.  A theorem environment would let us make (and change) this decision globally, but we won't want all our definitions to be stated as part of a formal **Definition** environment --- sometimes it's nice to make a definition as part of a paragraph of ordinary text, and in my own papers I always put the defined term in **boldface**, to 1) make the definitions easy to spot, and 2) make it clear that I'm defining something instead of stating a fact about something (I hate it when someone says "Pr&uuml;fer rings are hereditary and Noetherian" and I can't tell if this is supposed to be the _definition_, or merely a cute _fact_ about Pr&uuml;fer rings).
 
 ##Linking to Wikipeda##
 
-[[Eric Forgy|Eric]]: How would I link to an external address that itself contains parentheses, e.g.
+_[[Eric Forgy|Eric]]_ says: How would I link to an external address that itself contains parentheses, e.g.
 
 http://en.wikipedia.org/wiki/Field_(mathematics)
 
@@ -784,5 +787,7 @@ http://en.wikipedia.org/wiki/Field_(mathematics
 
 {: response}
 <nowiki>[Field](http://en.wikipedia.org/wiki/Field_%28mathematics%29)</nowiki> produces [Field](http://en.wikipedia.org/wiki/Field_%28mathematics%29).
+
+_[[John Baez|John]] says_: I ran into this problem too, but not remembering the good solution described above, I adopted a crude hack: I left out the parentheses around, say, "(mathematics)".  It worked, but only because Wikipedia forgave my sin.  I need to go back and fix my mistakes someday.
 
 category: meta
