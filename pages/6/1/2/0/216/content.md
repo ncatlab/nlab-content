@@ -298,6 +298,6 @@ In summary, I think it is important to make people understand that groups can be
 
 For instance concerning the crucial difference between the category in which $G$ lives and the 2-category in which $\mathbf{B}G$ lives. 
 
-_Toby says_: Eric said:
+_Toby says_: John said:
 >I use $k[S]$ to stand for the free vector space on the set $S$.  This is compatible with the notation $k[G]$ for group algebra of $G$.  Urs' notation $k[C]$ for the category algebra is also compatible, but in a different way.
 Wait, are you claiming that $k[S]$ and $k[C]$ are incompatible? I disagree! Just as a [[set]] may be seen as a [[discrete category]], so a vector space (or [[module]]) may be seen as an algebra where all multiplication is zero. (This is well known in the theory of [[Lie n-algebroid]]s, where a vector space is a twice monoidal Lie 2-algebroid, that is a commutative Lie algebra.) Then $k[S] = k[D S]$ (where $D S$ is the discrete category on $S$), just as $k[B G] = k[G]$.
