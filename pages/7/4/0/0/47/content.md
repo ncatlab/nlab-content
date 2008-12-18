@@ -216,6 +216,10 @@ I presume your fix is to replace <nowiki>[[coalgebra]]ic</nowiki> with <nowiki>[
 
 {:commenttoby}
 I produce such links purely out of laziness. By all means fix them (as Jacques describes). &#8212;Toby
+
+{:commentjohn}
+I always fix them. I hate 'em. - [[John Baez|John]]
+
 =--
 
 ## Naming conventions
@@ -751,5 +755,11 @@ _[[John Baez|John]] says:
 Right now I like the idea of putting the discussion in the same page, at the end, in a section labelled Discussion.  
 
 I think that people can learn a lot from these discussions, where you see the interplay of ideas better than in the formal portion of the text.  This is, after all, not an encyclopedia but a "Lab" - a place where people come to work and think.  We haven't quite discovered what that means yet. But, it could involve a lot of discussion.
+
+##Definitions --- Boldface or Italics##
+
+_[[John Baez|John]] says:
+
+I've been putting definitions in _italics_.  Someone else is putting them in **boldface**.  We should settle on a convention.  Meet me at dawn in the town square --- bring your pistol.
 
 category: meta
