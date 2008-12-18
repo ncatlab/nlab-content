@@ -4,4 +4,4 @@ A **groupoid** is a [[category]] in which all morphisms are [[isomorphism|isomor
 
 #See also#
 ***
-* [[action group|Action groupoid]]
+* [[action groupoid|Action groupoid]]
