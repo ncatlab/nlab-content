@@ -1,3 +1,3 @@
 See [[light mill]].
 
-category: redirect
+category: delete
