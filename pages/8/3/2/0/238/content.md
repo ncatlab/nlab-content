@@ -6,6 +6,7 @@ _See also_: [Recently Revised](http://ncatlab.org/nlab/recently_revised)
 
 ***
 
+* [[Toby Bartels]]: I just expanded [[tensor product]], enough to include the example that links to it (without circularity).
+
 * _[[Urs Schreiber|Urs]] says_: I expanded on the entry [[action groupoid]] that [[Eric Forgy|Eric]] started.
 
-* [[Toby Bartels]]: I just expanded [[tensor product]], enough to include the example that links to it (without circularity).
