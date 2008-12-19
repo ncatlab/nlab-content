@@ -1,3 +1,3 @@
-See [[classifying topos]]
+See [[classifying topos]].
 
-category: delete
+category: redirect
