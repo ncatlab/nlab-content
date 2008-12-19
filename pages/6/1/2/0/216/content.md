@@ -29,16 +29,6 @@ $$
 $$
 
 
-+--{.query}
-
-I think that the nLab presents a fantastic opportunity to define familiar concepts _arrow theoretically_. Is there a more arrow theoretic way to define a category algebra? - [[Eric Forgy|Eric]]
-
-Yes. There is a bigger story hidden here. I have added 
-more material below. --[[Urs Schreiber|Urs]]
-
-=--
-
-
 
 #Arrow-theoretic interpretation#
 
@@ -221,13 +211,17 @@ This is indeed the product in the category algebra.
 
 ##References on this arrow-theoretic picture##
 
-The claim is that this way of looking at category algebras realizes them as a puny special case of a bigger story which involves [[bi-brane]]s as morphisms between $n$-bundles/$(n-1)$-gerbes which live on spaces connected by correspondence spaces. This is related to a bunch of things,  such as T-duality, Fourier-Mukai transformations and other issues of quantization. I am hoping in the not too far future we can provide a somewhat comprehensive account of all this. For the moment I just point to some blog entries which deal with facets of this story
+The claim is that this way of looking at category algebras realizes them as a puny special case of a bigger story which involves [[bi-brane]]s as morphisms between $n$-bundles/$(n-1)$-gerbes which live on spaces connected by correspondence spaces. This is related to a bunch of things,  such as T-duality, Fourier-Mukai transformations and other issues of quantization. A description of this perspective is in
+
+* [[schreiber:Nonabelian cocycles and their quantum symmetries]].
+
+This is related to observations such as described here:
+
 
 * John Baez, [_Quantization and Cohomology (Week 17)_](http://golem.ph.utexas.edu/category/2007/03/quantization_and_cohomology_we_16.html)
 
 * Urs Schreiber, [_QFT of Charged n-Particle: T-Duality_](http://golem.ph.utexas.edu/category/2007/02/qft_of_charged_nparticle_tdual.html)
 
-I expect that there is in addition nice formulation of these issues in the context of  [[enriched category theory]] using the [[Day convolution]] product. But I am not sure yet. 
 
 ###Discussion: Terminological Nitpicking
 
