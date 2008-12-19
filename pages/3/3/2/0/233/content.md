@@ -1,6 +1,55 @@
-If we think of a [[ring]] $R$ as a one-object category [[enriched category|enriched]] over [[Ab]], a module $M$ of $R$ is a functor 
-$$   M: R \to Ab $$
-enriched over $Ab$.
+#General concept#
+
+Generally, a (right) module over a [[monoid]] $A$ [[internalization|internal to]] a [[monoidal category]] $V$ is an object $N$ of $V$ equipped with a morphism
+
+$$
+  \rho : N \otimes A \to N
+$$
+
+in $C$ which satisfies the usual axioms of an [[action]].  
+
+Equivalently, regarding the [[monoid]] $A$ as a one-object $V$-[[enriched category]] $\mathbf{B}A$, the module together with its action are given by a $V$-functor
+
+$$
+  \rho : \mathbf{B}A \to V
+  \,.
+$$
+
+Correspondingly, a _left_ module over $A$ is a functor
+
+$$
+  \rho : (\mathbf{B}A)^{\mathrm{op}} \to V
+  \,.
+$$
+
+In this language the concept directly generalizes to the [[horizontal categorification]] of monoids $A$. Let $K$ be _any_ $V$-[[enriched category]], then $V$-functors
+$
+  \rho : K \to V
+$
+give right modules and functors
+$
+  \rho : K^{\mathrm{op}} \to V
+$ give left modules over $K$. Accordingly, for $K$ and $L$ two $V$-enriched categories one says that $V$-functors
+
+$$
+  K^{op} \otimes L \to V
+$$
+
+are $K$-$L$-_bimodules_, also known as [[profunctor]]s from $K$ to $L$.
+
+
+
+
+
+#Modules over rings#
+
+Recalling that a [[ring]] $R$ is a monoid in the category [[Ab]] of abelian groups, hence equivalently a one-object $Ab$-enriched category $\mathbf{B}R$,
+a module $M$ over a $R$ is a module in [[Ab]] in the above sense, hence in particular
+an $Ab$-functor 
+$$   
+  M: \mathbf{B}R \to Ab 
+  \,.
+$$
 
 Don't panic: this definition is equivalent to [the one you're used to](http://en.wikipedia.org/wiki/Module_mathematics#Formal_definition).
 
