@@ -29,7 +29,7 @@ A **directed graph** is a [[functor]] $G: X\to$ [[Set]].
 
 More generally, a **directed graph [[internalization|in]] a category $C$** is a [[functor]] $G : X \to C$.
 
-The category of directed graphs in $C$, [[DiGraph]], is the [[hom-category]] $C^{X}$, where:
+The category of directed graphs in $C$, [[DiGraph]], is the [[functor category]] $C^{X}$, where:
 
 * objects are functors $G: X \to C$,
 
