@@ -1,6 +1,6 @@
 #Idea#
 
-The _action groupoid_ $S//G$ of the [[action]] $\rho$ of a [[group]] $G$ on a set $S$ is a [[homological resolution|resolution]] of the quotient set $S/G$ (the set of $G$-orbits): instead of taking the elements in $S$ on the same $G$-orbit as being [[equality|equal]] in $S/G$, in the action groupoid they are just [[ismorphism|isomorphic]].
+The _action groupoid_ $S//G$ of the [[action]] $\rho$ of a [[group]] $G$ on a set $S$ is a [[homological resolution|resolution]] of the quotient set $S/G$ (the set of $G$-orbits): instead of taking the elements in $S$ on the same $G$-orbit as being [[equality|equal]] in $S/G$, in the action groupoid they are just [[isomorphism|isomorphic]].
 
 #Definition#
 
