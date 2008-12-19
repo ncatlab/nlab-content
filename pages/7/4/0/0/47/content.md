@@ -815,7 +815,6 @@ In fact, there were a couple of similar pages that (at some point in the past) c
 
 Anyone who feels that any of the aforementioned pages lie on the wrong end of the slippery slope is encouraged to revert them.
 =--
-=--
 
 +--{responsetoby}
 OK, I reverted all of the ones that don\'t seem to me to fit the criterion that you mentioned. That is, I reverted all of the ones that originally contained a link to a resource on another website, or that contained an outline of a broad topic that happened to consisted of no more than one item at the time. Equivalently &#8212;although this was not the standard that I used&#8212;, I reverted all those that contained material that David or Urs wrote and which Urs or I copied to a renamed page.
@@ -826,11 +825,18 @@ Eric\'s page is a little different, since he (in effect) created in blank and wa
 
 Anyway, if anybody deletes anything, it will probably be Urs; I\'ll accept whatever he does, even if I happen to think that it was a poor decision. I\'m not the boss.
 =--
+=--
 
 _[[Eric Forgy|Eric]] says_: I like the idea of regularly deleting pages marked <nowiki>category: delete</nowiki>. This would also give us a mechanism to delete pages we create by accident. I guess there would be a danger of malicious deleting if it was automated?
 
 ##Linking to External Papers##
 
 _[[Eric Forgy|Eric]] says_: When a paper becomes freely available on some web page, I'm pretty sure it is "public" and there would be no harm in us providing our own copy. Is that right? If so, I had the thought that it might be better to upload a commonly referenced PDF rather than link to an external link. The reason being that the external link may become broken and the paper would no longer be available. If we had our own copy of popularly referenced papers here, the links would never become broken. Just an idea...
+
++--{commenttoby}
+As a matter of copyright law, it\'s not true that freely available papers are in the public domain. Providing our own copy is probably still legal (at least if the server is in the U.S.), since we\'d provide it for educational purposes and there\'s no money involved on either end. That said, if there\'s any chance that someone might request that we remove it, we should have somebody designated to act on such requests.
+
+However, there are other problems. PDF files are much larger than plain text, and we may have space problems if we try to copy a lot. Also, we\'ll miss any new version that appear, especially common on the arXiv. As for dead links, while they are the curse of the Web, one can guard against those by keeping a copy of what one might like to read again on one\'s own personal computer. Then if a link here dies, you can decide case by case whether it\'s wise to upload it here.
+=--
 
 category: meta
