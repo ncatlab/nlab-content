@@ -1,0 +1,3 @@
+For a given fixed category of sets $S$, a Grothendieck topos over $S$ may be defined as a category of sheaves over a site which is small relative to $S$, that is a site internal to $S$. (The site is not considered part of the structure; different sites may give rise to the same category of sheaves.) 
+
+Verdier characterized Grothendieck toposes as categories satisfying certain exactness properties. 
