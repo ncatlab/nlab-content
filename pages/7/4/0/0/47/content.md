@@ -839,4 +839,10 @@ As a matter of copyright law, it\'s not true that freely available papers are in
 However, there are other problems. PDF files are much larger than plain text, and we may have space problems if we try to copy a lot. Also, we\'ll miss any new version that appear, especially common on the arXiv. As for dead links, while they are the curse of the Web, one can guard against those by keeping a copy of what one might like to read again on one\'s own personal computer. Then if a link here dies, you can decide case by case whether it\'s wise to upload it here.
 =--
 
++-- {commenturs}
+
+We have 16GB free space on the server. Let's upload things which we find important enough to be uploaded. 
+
+=--
+
 category: meta
