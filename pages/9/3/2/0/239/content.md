@@ -2,6 +2,10 @@
 
 * In its original sense the _tensor_ product of two objects on which a third object acts is the quotient of their product by this [[action]].
 
++--
+Urs, why do you say that this is the *original* sense? (By the way, I see now how what you first wrote here *does* cover the case of $\Ab$ without circularity.) &#8212;Toby
+=--
+
 * This notion has various _generalizations_, which often go by the same name:
 
   * there is a notion of tensor product in any [[multicategory]];
