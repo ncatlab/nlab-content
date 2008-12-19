@@ -817,6 +817,16 @@ Anyone who feels that any of the aforementioned pages lie on the wrong end of th
 =--
 =--
 
++--{responsetoby}
+OK, I reverted all of the ones that don\'t seem to me to fit the criterion that you mentioned. That is, I reverted all of the ones that originally contained a link to a resource on another website, or that contained an outline of a broad topic that happened to consisted of no more than one item at the time. Equivalently &#8212;although this was not the standard that I used&#8212;, I reverted all those that contained material that David or Urs wrote and which Urs or I copied to a renamed page.
+
+The phrase 'slippery slope' is probably not the best. My point is it can be difficult to determine which information is worth keeping and which is not, which is why it\'s often best to keep all of it. Sometimes this takes extra effort, and then you might not bother; sometimes there are reasons why it can\'t all be kept, such as space constraints. Here, it is easy and feasible to keep it.
+
+Eric\'s page is a little different, since he (in effect) created in blank and wants to delete it himself; if he could have deleted it just as he erased the content that was presumably there on his first save, then nobody would ever have noticed except him. But perhaps it was I who started on the slippery slope, and you who followed ....
+
+Anyway, if anybody deletes anything, it will probably be Urs; I\'ll accept whatever he does, even if I happen to think that it was a poor decision. I\'m not the boss.
+=--
+
 _[[Eric Forgy|Eric]] says_: I like the idea of regularly deleting pages marked <nowiki>category: delete</nowiki>. This would also give us a mechanism to delete pages we create by accident. I guess there would be a danger of malicious deleting if it was automated?
 
 ##Linking to External Papers##
