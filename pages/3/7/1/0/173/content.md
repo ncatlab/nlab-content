@@ -22,3 +22,8 @@ $$
   }
 $$
 where $B$ is a [[higher group character|biconjugacy class]] of $G$.
+
+
+#Formalization#
+
+A formalization of the concept of brane and bibrane in the general context of [[schreiber:Differential Nonabelian Cohomology]] is discussed in [[schreiber:Nonabelian cocycles and their quantum symmetries]].
