@@ -1,3 +1,159 @@
 Unsurprisingly, **category theory** is the theory of [[category|categories]].
 
-But maybe surprisingly, category theory turns out to be much more than the study of a particular mathematical structure. The degree to which category theory for instance is more encompassing than [[group]] theory is is more drastic than the simple straightforward generalization from the mathematical structure [[group]] to the mathematical structure [[category]] might suggest.
+But maybe surprisingly, category theory turns out to be much more than the study of a particular mathematical structure. The degree to which category theory for instance is more encompassing than [[group theory]] is more drastic than the simple straightforward generalization from the mathematical structure [[group]] to the mathematical structure [[category]] might suggest. This is one of the main reasons for interest in category theory: it seems to provide a unified language for mathematics.
+
+#category theory entries#
+
+* [[(-1)-category]]
+
+* [[2-morphism]]
+
+* [[adjunction]]
+
+* [[anafunctor]]
+
+* [[braided monoidal category]]
+
+* [[category]]
+
+* [[category algebra]]
+
+* [[category theory]]
+
+* [[composition]]
+
+* [[dichotomy between nice objects and nice categories]]
+
+* [[directed graph]]
+
+* [[directed n-graph]]
+
+* [[discrete category]]
+
+* [[duality]]
+
+* [[enriched category]]
+
+* [[enriched category theory]]
+
+* [[epimorphism]]
+
+* [[equality]]
+
+* [[equivalence]]
+
+* [[internalization]]
+
+* [[faithful]]
+
+* [[faithful functor]]
+
+* [[folk model structure]]
+
+* [[forgetful functor]]
+
+* [[foundations]]
+
+* [[full]]
+
+* [[full functor]]
+
+* [[function]]
+
+* [[functor]]
+
+* [[functor category]]
+
+* [[fundamental groupoid]]
+
+* [[globe]]
+
+* [[globular set]]
+
+* [[group]]
+
+* [[group theory]]
+
+* [[groupoid]]
+
+* [[groupoid cardinality]]
+
+* [[higher category theory]]
+
+* [[homotopy theory]]
+
+* [[homset]]
+
+* [[horizontal categorification]]
+
+* [[identity]]
+
+* [[infinity groupoid]]
+
+* [[infinity stack]]
+
+* [[internalization]]
+
+* [[isomorphism]]
+
+* [[k-surjectivity]]
+
+* [[locally small]]
+
+* [[monoid]]
+
+* [[monoidal category]]
+
+* [[morphism]]
+
+* [[n-globe]]
+
+* [[natural isomorphism]]
+
+* [[natural transformation]]
+
+* [[object]]
+
+* [[oidification]]
+
+* [[omega-category]]
+
+* [[omega-graph]]
+
+* [[oriental]]
+
+* [[path algebra]]
+
+* [[poset]]
+
+* [[preorder]]
+
+* [[quiver]]
+
+* [[quiver algebra]]
+
+* [[semi-strict]]
+
+* [[semi-strict infinity-category]]
+
+* [[set]]
+
+* [[skeletal]]
+
+* [[skeleton]]
+
+* [[small category]]
+
+* [[source]]
+
+* [[subcategory]]
+
+* [[symmetric monoidal category]]
+
+* [[target]]
+
+* [[tensor product]]
+
+* [[topos]]
+
+* [[vertical categorification]]
