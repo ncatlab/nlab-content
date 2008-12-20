@@ -12,11 +12,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+* [[Urs Schreiber|Urs]] (Dec 20): I started to add alphabetical lists of all related entries to the big headline entries that are linked to from the sidebar
+of the [[HomePage]]. So far I did this in [[category theory]], [[sheaf and topos theory]], [[foundations]] and [[higher category theory]]. It might be good if each time we create a new entry we think about adding the correspondin link to one of these general lists.
+
 * [[Urs Schreiber|Urs]] (Dec 20): I replied t the discussion at [[monoidal category]] on "Where does all this structure and  coherence come from?" by adding a subsection on how all this comes from the general concept of $\infty$-[[lax functor]] for which one formalization can be given in terms of [[oriental]]s and Street's [[descent and codescent|descent]]. The pentagon identity is precisely the fourth [[oriental]]! 
 
 * [[Toby Bartels|Toby]] (Dec 20&#8211;23): I won\'t do anything, since I\'ll be travelling. (Just in case you wonder where I am.) 
 
-  * [[Urs Schreiber|Urs]]: Thanks for the info, Toby. Myself, I will probably be only from time to time over the holidays.
+  * [[Urs Schreiber|Urs]]: Thanks for the info, Toby. Myself, I will probably be online sporadically over the holidays.
 
 * [[John Baez|John]] (Dec 20): I sketched the definitions of [[monoidal category]], [[braided monoidal category]], and [[symmetric monoidal category]] and gave links to full definitions and explanations.  Is someone good enough at drawing diagrams in this environment to draw the necessary diagrams --- e.g. pentagon and hexagon identity?  
 
