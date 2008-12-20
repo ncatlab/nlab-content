@@ -1,15 +1,29 @@
 #Idea#
 
-The [[homotopy theory|model category structure]] on [[omega-category|omega-categories]] known as the _folk_ model structure (in contrast to the [[Thomason model structure]] on certain flavors of $n$-categories) is designed such such the [[weak equivalence]]s capture the proper notion of categorical equivalences.
+In general, "folk model structures" are [[model category]] structures for some flavor of $n$-categories ($1\le n\le \infty$) in which the [[weak equivalence|weak equivalences]] are the [[equivalence|categorical equivalences]].  This is to be contrasted with [[Thomason model structure|Thomason model structures]] in which the weak equivalences are the morphisms that induce a weak homotopy equivalence of [[nerve|nerves]].  In a folk model structure for some flavor of $n$-categories, usually
 
-In the folk model structure
+* a **fibration** is a functor that lifts [[equivalence|equivalences]] in all dimensions,
+* an **acyclic fibration** is a functor which is [[k-surjectivity|k-surjective]] for all $0\le k\le n$,
+* a **weak equivalence** is a functor which is [[k-surjectivity|essentially k-surjective]] for all $0\le k\le n$, and
+* a **cofibration** is a functor which is injective on objects and "relatively free" on $k$-morphisms for $1\le k \lt n$.  These can also be described as the morphisms [[cofibrantly generated model structure|generated]] by the inclusions 
+$\partial G_k \hookrightarrow G_k$ of the boundary of the $k$-[[globe]] into the $k$-[[globe]] for $0\le k \lt \infty$.
 
- * an **acyclic fibration** is a functor which is [[k-surjectivity|k-surjective]] for all $k \in \mathbb{N}$;
+#Particular cases#
 
- * an **weak equivalence** is a functor which is [[k-surjectivity|essentially k-surjective]] for all $k \in \mathbb{N}$;
+* The folk model structure for 1-categories was known to experts for some time before being written down formally (hence the name).
+   * It was apparently first published (for categories internal to a Grothendieck topos) by Joyal and Tierney, _Strong Stacks and Classifying Spaces_, Category theory (Como, 1990) Springer LNM 1488, 213-236.
+   * A more elementary writeup by Charles Rezk can be found [here](http://www.math.uiuc.edu/~rezk/cat-ho.dvi).
+* The folk model structures for 2-categories and bicategories are due to Steve Lack.
+   * _A Quillen Model Structure for 2-Categories_, K-Theory 26: 171&#8211;205, 2002. ([website](http://www.maths.usyd.edu.au/u/stevel/papers/qmc2cat.html))
+   * _A Quillen Model Structure for Biategories_, K-Theory 33: 185-197, 2004. ([website](http://www.maths.usyd.edu.au/u/stevel/papers/qmcbicat.html))
 
- * **cofibrations** are [[cofibrantly generated model structure|generated]] from the inclusions 
-$\partial G_n \hookrightarrow G_n$ of of the boundary of the $n$-[[globe]] into the $n$-[[globe]].
+* for $n = \omega$: 
+
+   * Yves Lafont, Francois M&#233;tayer, Krzysztof Worytkiewicz, _A folk model structure on omega-cat_ ([arXiv](http://arxiv.org/abs/0712.0617))
+
+* for $n = \omega$ and all morphisms invertible: 
+
+   * R. Brown and M. Golasinski, _A model structure for the homotopy theory of crossed complexes_, Cah. Top. G&#233;om. Diff. Cat. 30 (1989) 61-82 ([pdf](http://www.bangor.ac.uk/~mas010/pdffiles/RB-golskyrev.pdf))
 
 #Internalization#
 
@@ -17,21 +31,4 @@ A common problem is to transport the (a) model structure on plain $\omega$-categ
 
 The general problem of [[internalization]] of model structures is described [[internalization of model structures|here]]. For the special case of $\omega$-categories internal to [[generalized smooth space]]s see [[schreiber:Differential Nonabelian Cohomology]].
 
-Usually, such internalization of model structures has the consequence that some properties invoked in the description of the original model structure, notably some of the lifting properties, will only continue to hold "locally".
-One way to deal with this is to pass to a notion slightly weaker than that of a [[homotopy theory|model category]] called a [[category of fibrant objects]] as used in [[homotopical cohomology theory]].
-
-
-#Literature#
-
-* for $n \leq 2$: 
-
-  * Steven Lack, _A Quillen Model Structure for 2-Categories_, K-Theory 26: 171&#8211;205, 2002. ([website](http://www.maths.usyd.edu.au/u/stevel/papers/qmc2cat.html))
-
-* for $n = \omega$: 
-
-  * Yves Lafont, Francois M&#233;tayer, Krzysztof Worytkiewicz, _A folk model structure on omega-cat_ ([arXiv](http://arxiv.org/abs/0712.0617))
-
-
-* for $n = \omega$ and all morphisms invertible: 
-
-  * R. Brown and M. Golasinski, _A model structure for the homotopy theory of crossed complexes_, Cah. Top. G&#233;om. Diff. Cat. 30 (1989) 61-82 ([pdf](http://www.bangor.ac.uk/~mas010/pdffiles/RB-golskyrev.pdf))
+Usually, such internalization of model structures has the consequence that some properties invoked in the description of the original model structure, notably some of the lifting properties, will only continue to hold "locally".  One way to deal with this is to pass to a notion slightly weaker than that of a [[homotopy theory|model category]] called a [[category of fibrant objects]] as used in [[homotopical cohomology theory]].
