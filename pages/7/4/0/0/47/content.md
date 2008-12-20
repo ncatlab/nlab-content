@@ -845,4 +845,7 @@ We have 16GB free space on the server. Let's upload things which we find importa
 
 =--
 
+{:responsetoby}
+Wow! I think that I was remembering the RAM limits discussed on the Caf&#233;. 16GB ought to be enough for everything (^_^).
+
 category: meta
