@@ -1,3 +1,5 @@
+#Category theory and foundations#
+
 There are two big questions about category theory and the logical foundations of mathematics:
 
  1. What foundations are adequate to formulate category theory?
@@ -82,3 +84,15 @@ In contrast, many of the optional or controversial axioms of set theory (such as
 # Categorial foundations of category theory
 
 ...
+
+#entries related to foundations#
+
+* [[axiom of choice]]
+
+* [[category theory]]
+
+* [[ETCS]]
+
+* [[set]]
+
+* [[topos]]
