@@ -740,6 +740,8 @@ Please don't take my slapdowns the wrong way!  I'm very glad you're trying to un
 
 _[[Eric Forgy|Eric]] says_: If a group is a groupoid with one object, is an algebra an algebroid with one object? I've never seen a definition of _algebroid_, which is why I guessed an algebroid would be something like a category in $Vect$ as opposed to a monoid in $Vect$. I drew some doodle diagrams which seemed to make sense. Is a 'Baez-Crans 2-vector space' another word for algebroid, i.e. is a 'Baez-Crans 2-vector space' with one object an algebra? It seems to be as far as I can tell.
 
+Mathieu says: I don't think so, because a category in Vect with one object is a monoid in Vect for the monoidal structure given by the _cartesian_ product, whereas an algebra is a monoid for the monoidal structure given by the _tensor_ product.  In fact, on each vector space there is a unique monoid structure for the cartesian product, given by the codiagonal, so a Baez-Crans 2-vector space with one object is just a vector space.
+
 ##Discussion Pages##
 
 On some pages, e.g. [[quiver]], some discussion is forming. Rather than polluting the page and rather than just deleting the discussion after it has been settled, what if we create special "Discussion" pages that relate to specific pages? For example, <nowiki>[[Discussion: quiver]]</nowiki> and link to this page from <nowiki>[[quiver]]</nowiki>.
