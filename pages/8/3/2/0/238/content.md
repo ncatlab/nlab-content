@@ -1,12 +1,20 @@
-Let's list here comments on changes we made in order to facilitate cooperation. For instance drop a comment here to alert people of major additions or corrections you made.
+A list of all entries lately edited is given at 
 
-Let's list comments in _reverse_ chronological order, so that the latest are on top of the list.
 
-_See also_: [Recently Revised](http://ncatlab.org/nlab/recently_revised)
+* [Recently Revised](http://ncatlab.org/nlab/recently_revised). 
+
+Since that list tends to contain lots of very minor changes and does not make it easy to spot the important new changes,we list here comments on changes we made in order to facilitate cooperation. 
+
+Drop a comment here if you feel people's attention should be drawn to some changes you made. For instance alert people of major additions or corrections you made.
+
+These comments should go in _reverse_ chronological order, so that the latest are on top of the list.
+
 
 ***
 
-* [[Toby Bartels|Toby]] (Dec 20&#8211;23): I won\'t do anything, since I\'ll be travelling. (Just in case you wonder where I am.)
+* [[Toby Bartels|Toby]] (Dec 20&#8211;23): I won\'t do anything, since I\'ll be travelling. (Just in case you wonder where I am.) 
+
+  * [[Urs Schreiber|Urs]]: Thanks for the info, Toby. Myself, I will probably be only from time to time over the holidays.
 
 * [[John Baez|John]] (Dec 20): I sketched the definitions of [[monoidal category]], [[braided monoidal category]], and [[symmetric monoidal category]] and gave links to full definitions and explanations.  Is someone good enough at drawing diagrams in this environment to draw the necessary diagrams --- e.g. pentagon and hexagon identity?  
 
