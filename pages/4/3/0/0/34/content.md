@@ -39,4 +39,22 @@ Recently $(\infty, 1)$-categories (see [[homotopy theory]]) have attracted much 
 
 There's a lot more to add here, even if we restrict ourselves to very general texts.  (More specialized stuff should go under more specialized subcategories!)
 
+#Entries on Higher Category Theory#
 
+* [[(-1)-category]]
+
+* [[2-morphism]]
+
+* [[category]]
+
+* [[directed n-graph]]
+
+* [[globular set]]
+
+* [[infinity-groupoid]]
+
+* [[infinity-stack]]
+
+* [[k-surjectivity]]
+
+* [[vertical categorification]]
