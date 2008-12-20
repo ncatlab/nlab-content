@@ -6,6 +6,8 @@ _See also_: [Recently Revised](http://ncatlab.org/nlab/recently_revised)
 
 ***
 
+* [[Toby Bartels|Toby]] (Dec 20&#8211;23): I won\'t do anything, since I\'ll be travelling. (Just in case you wonder where I am.)
+
 * [[John Baez|John]] (Dec 20): I sketched the definitions of [[monoidal category]], [[braided monoidal category]], and [[symmetric monoidal category]] and gave links to full definitions and explanations.  Is someone good enough at drawing diagrams in this environment to draw the necessary diagrams --- e.g. pentagon and hexagon identity?  
 
 * [[Toby Bartels|Toby]] (Dec 20): More on [[Grothendieck topos]] and [[well-pointed topos]], including definitions that are correct in constructive mathematics.
@@ -18,3 +20,4 @@ _See also_: [Recently Revised](http://ncatlab.org/nlab/recently_revised)
 
 * [[Urs Schreiber|Urs]]: I expanded on the entry [[action groupoid]] that [[Eric Forgy|Eric]] started.
 
+category: meta
