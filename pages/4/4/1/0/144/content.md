@@ -8,7 +8,7 @@ from [page 17](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf#page=
 
 * (generalized) quantities (e.g. function algebras);
 
-* the duality between the two;
+* the [[duality]] between the two;
 
 which underlies much of mathematics is at its heart controled by the following elementary category theoretic reasoning:
 
