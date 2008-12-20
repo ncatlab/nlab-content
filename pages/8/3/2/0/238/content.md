@@ -3,7 +3,7 @@ A list of all entries lately edited is given at
 
 * [Recently Revised](http://ncatlab.org/nlab/recently_revised). 
 
-Since that list tends to contain lots of very minor changes and does not make it easy to spot the important new changes,we list here comments on changes we made in order to facilitate cooperation. 
+But since that list tends to contain lots of very minor changes and does not make it easy to spot the important new changes, in order to facilitate cooperation we here list comments on changes we made. 
 
 Drop a comment here if you feel people's attention should be drawn to some changes you made. For instance alert people of major additions or corrections you made.
 
@@ -11,6 +11,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 
 ***
+
+* [[Urs Schreiber|Urs]] (Dec 20): I replied t the discussion at [[monoidal category]] on "Where does all this structure and  coherence come from?" by adding a subsection on how all this comes from the general concept of $\infty$-[[lax functor]] for which one formalization can be given in terms of [[oriental]]s and Street's [[descent and codescent|descent]]. The pentagon identity is precisely the fourth [[oriental]]! 
 
 * [[Toby Bartels|Toby]] (Dec 20&#8211;23): I won\'t do anything, since I\'ll be travelling. (Just in case you wonder where I am.) 
 
