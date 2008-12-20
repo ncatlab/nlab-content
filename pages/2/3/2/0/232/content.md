@@ -9,6 +9,12 @@ where $\otimes$ is the tensor product in $K$.
 We may similarly define a _functor enriched over $K$_
 and a _natural transformation enriched over $K$_.
 
+More generally, we may allow $K$ to be a [[multicategory]], a [[bicategory]], a [[double category]], or an [[fc-multicategory]].
+
 #The Details#
 
 The details are an exercise for future readers of this page.   If you get stuck, try Max Kelly's book, cited in the page on [[enriched category theory]].
+
++--{.query}
+Are you sure you don't mean "...take the definition of _locally small_ category"?  Is there a reason you want to exclude large enriched categories?
+=--
