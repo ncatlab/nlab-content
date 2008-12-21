@@ -1,0 +1,1 @@
+An **algebroid** is a category enriched in (over?) [[Vect]].
