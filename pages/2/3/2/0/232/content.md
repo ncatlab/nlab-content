@@ -15,6 +15,8 @@ More generally, we may allow $K$ to be a [[multicategory]], a [[bicategory]], a 
 
 The details are an exercise for future readers of this page.   If you get stuck, try Max Kelly's book, cited in the page on [[enriched category theory]].
 
+Also see John Armstrong's article: [Enriched categories](http://unapologetic.wordpress.com/2007/08/13/enriched-categories/).
+
 +--{.query}
 Are you sure you don't mean "...take the definition of _locally small_ category"?  Is there a reason you want to exclude large enriched categories?
 =--
