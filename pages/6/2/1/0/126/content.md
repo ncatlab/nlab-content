@@ -20,4 +20,8 @@ _[[Mike Shulman|Mike]] says_: I have a few objections to considering any faithfu
 3. In particular, the terminal category would have a proper class of inequivalent subcategories.
 
 If one really wants a notion of "non-full subcategory" that is invariant under equivalence of categories, I propose that [[pseudomonic functor|pseudomonic functors]] are a better candidate than faithful ones.
+
+_Mathieu Dupont says_: For 1., you can "enlarge" $\mathrm{Set}$ to an equivalent category $\mathrm{Set}'$ by adding, for each group $G$, an object $\hat{G}$ and an isomorphism from $\hat{G}$ to the underlying set of $G$.  Then the category of groups is a "naive" subcategory of $\mathrm{Set}'$ (i.e. a subcategory as defined at the beginning of this entry).  Perhaps is this cheating?
+
+A problem with pseudomonic functors is that not all inclusions of "naive" subcategories are pseudomonic.
 =--
