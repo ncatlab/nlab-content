@@ -10,4 +10,6 @@ The main point of a well-pointed topos in logic is the equivalence of *external*
 
 # In constructive mathematics
 
-To maintain this logical result in constructive mathematics (that is, without excluded middle in the metalogic), one must add to the nondegeneracy requirement that the terminal object be [[indecomposable object|indecomposable]] and [[projective object|projective]]. These are analogues, for [[disjunction]] and [[existential quantification]], of the nondegeneracy requirement (which is about falsehood). Incidentally, a well-pointed topos is still two-pointed in the sense that a global element of the subobject classifier is false if (and only if, given nondegeneracy) it is not true.
+To maintain this logical result in constructive mathematics (that is, without excluded middle in the metalogic), one must add to the nondegeneracy requirement that the terminal object be [[indecomposable object|indecomposable]] and [[projective object|projective]]. These are analogues, for [[disjunction]] and [[existential quantification]], of the nondegeneracy requirement (which is about falsehood).
+
+Incidentally, a well-pointed topos is still two-valued in the sense that a global element of the subobject classifier is false if (and only if, given nondegeneracy) it is not true.  However, it is not two-valued in the (classically equivalent) sense that every global element of the subobject classifier is either true or false.
