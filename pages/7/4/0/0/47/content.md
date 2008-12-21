@@ -724,7 +724,7 @@ _Could you say that given a category $C$, an algebroid is a functor $A:C\to Vect
 
 You could say it, but that wouldn't make it true.  <img src = "http://math.ucr.edu/home/baez/emoticons/tongue2.gif" alt = ""/>  
 
-In fact, a functor $A: C \to Vect$ is a [[representation]] of your category $C$, which is very different than an algebroid.  An algebroid is a category enriched in $Vect$.
+In fact, a functor $A: C \to Vect$ is a [[representation]] of your category $C$, which is very different than an algebroid.  An [[algebroid]] is a category enriched in $Vect$.
 
 _Then a graded algebra is a special kind of algebroid. It sounds kind of poetic. Is there any truth to it?_
 
