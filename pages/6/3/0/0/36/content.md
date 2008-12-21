@@ -90,6 +90,8 @@ Question 3: In many cases it seems that a monoid internal to $A$ is the same as 
 
 * An [[algebra]] is a [[monoid]] in [[Vect]]. In this case $C_0$ is the vector space of objects and $C_1$ is the vector space of linear maps.
 
+* A [[Baez-Crans 2-vector space]] is a category in [[Vect]].
+
 * A _small category_ is a category internal to $Sets$.
 
 * Historically, the motivating exmaple for was (apparently) the notion of [[Lie groupoid|Lie groupoids]]: groupoids internal to the category [[Diff]] of manifolds. 
@@ -103,5 +105,7 @@ Functors between internal categories are defined in a similar fashion. See [[fun
 [...]
 
 Jean Pradines, _In [Ehresmann](http://en.wikipedia.org/wiki/Charles_Ehresmann)'s footsteps: from Group Geometries to Groupoid Geometries_ [	arXiv:0711.1608](http://arxiv.org/abs/0711.1608)
+
+Baez & Crans, _[Higher-Dimensional Algebra VI: Lie 2-Algebras](http://arxiv.org/abs/math/0307263)_
 
 [...]
