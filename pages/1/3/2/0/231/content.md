@@ -78,11 +78,13 @@ Luckily the "complicated looking diagrams" are completely obvious once they've b
 
 Toby is right, of course: [[monoid|monoids]] [[internalization|internal to]] [[Cat]] are *strict* monoidal categories.  But alas, these are not the fully general monoidal categories discussed on this page.  Internalization does not really get around the problem of guessing the diagrams --- such as the pentagon identity --- that make the definition of monoidal category interesting.
 
-_[[Urs Schreiber|Urs]] says_: The situation is not quite as bad as this makes it seem, I think. Much weakening can be understoodd as maps out  of "puffed up" objects, and "puffing up" means: use [[oriental]]s. For instance the pentagon diagram above is nothing but the [[oriental|4th oriental]]! The tensor product itself is the second oriental, and the associator the third. The paragraph below I added to give more details on this:
+_[[Urs Schreiber|Urs]] says_: The situation is not quite as bad as this makes it seem, I think. Much weakening can be understood as maps out  of "puffed up" objects, and "puffing up" means: use [[oriental]]s. For instance the pentagon diagram above is nothing but the [[oriental|4th oriental]]! The tensor product itself is the second oriental, and the associator the third. The paragraph below I added to give more details on this.
 
-#Relation to lax functors, orientals and descent#
+_[[John Baez|John]] says_: I'd guess that Eric will find what you wrote below just as terrifying as my warning indicated.  But, it's good stuff.
 
-One can understan the structure of a monoidal category as a special simple case of the general notion of "lax $\infty$-functor", also known -- up to the issue of invertible versus non-invertible structure morphisms -- as the notion of $\infty$-categorical [[descent and codescent|descent]] and as the notion of [[anafunctor|infinity-anafunctor]].
+##Relation to lax functors, orientals and descent##
+
+One can understand the structure of a monoidal category as a special simple case of the general notion of "lax $\infty$-functor", also known -- up to the issue of invertible versus non-invertible structure morphisms -- as the notion of $\infty$-categorical [[descent and codescent|descent]] and as the notion of [[anafunctor|infinity-anafunctor]].
 
 This may be familiar from the special simple case of a _monoid_ in any bicategory $C$, which can be identified with a lax functor 
 
