@@ -86,11 +86,11 @@ Question 3: In many cases it seems that a monoid internal to $A$ is the same as 
 
 **Under Construction**
 
-* A [[ring]] is a [[monoid]] in [[Ab]]. In this case, $C_0$ is the abelian group of objects and $C_1$ is the abelian group of morphisms.
+* A [[ring]] is a [[monoid]] internal to [[Ab]]. In this case, $C_0$ is the abelian group of objects and $C_1$ is the abelian group of morphisms.
 
-* An [[algebra]] is a [[monoid]] in [[Vect]]. In this case $C_0$ is the vector space of objects and $C_1$ is the vector space of linear maps.
+* An [[algebra]] is a [[monoid]] internal to [[Vect]]. In this case $C_0$ is the vector space of objects and $C_1$ is the vector space of linear maps.
 
-* A [[Baez-Crans 2-vector space]] is a category in [[Vect]].
+* A [[Baez-Crans 2-vector space]] is a category internal to [[Vect]].
 
 * A _small category_ is a category internal to $Sets$.
 
