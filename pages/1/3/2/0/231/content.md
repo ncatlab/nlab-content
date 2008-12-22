@@ -99,13 +99,13 @@ $$
   A : pt \to C
 $$
 
-from te point to $C$. This lax functor sends the point to some object of $C$, sends the identity morphisms on the point to some endomorphism of that object. The unitor of the lax functor gives the product on that endomorphism and the coherence of the unitor is the associativity condition on this product.
+from the point to $C$. This lax functor sends the point to some object of $C$, sends the [[identity]] morphism on the point to some [[endomorphism]] of that object. The unitor of the lax functor gives the product on that endomorphism and the coherence of the unitor is the associativity condition on this product.
 
-This is part of a more general principle. A lax-monoid in any tricategory would again be a lax functor from the point to that tricategory. 
+This is part of a more general principle. A lax[[monoid]] in any tricategory would again be a lax functor from the point to that tricategory. 
 
 And a monoidal category can be regarded as a pseudomonoid in the tricategory $\mathbf{B}Cat$, which has a single object, categories as 1-morphisms with the composition of 1-morphisms being the standard cartesian [[tensor product]] on categories.
 
-Evidently, in the fully general context of weak $\infty$-categories it becomes increasingly hard to state what a lax functor into a given $\infty$-category should be: it will involve a plethora of structure morphisms and their coherences. One task of [[higher category theory]] is to organize this mess into something pretty deal with this problem.
+Evidently, in the fully general context of weak $\infty$-categories it becomes increasingly hard to state what a lax functor into a given $\infty$-category should be: it will involve a plethora of structure morphisms and their coherences. One task of [[higher category theory]] is to organize this mess into something pretty and then to deal with this problem.
 
 But before being intimidated by the problem in its most general form, it may pay to understand it in slightly simplified situations. One such slightly simplified setup is that of _strict_ $\infty$-categories, usually known as [[omega-category|omega-categories]].
 
@@ -361,6 +361,9 @@ O(\Delta^4) = & \left\{
 \right\}
 }
 $$
+
+
+This shows that it is a bit of an illusion to think of a _pentagon_ identity: the full geometric shape is really a 4-dimensional tetrahedron (the 4-simplex) whose five tetrahedral faces are the five vertices of the pentagon identity.
 
 
 We can formulate this identification of structure morphisms and coherence laws with orientals more formally using the general notion of [[descent and codescent|descent]], which was indeed the original motivation for conceiving the orientals. The descent $\infty$-category $Desc(Y,A)$ (constructed in terms of orientals) can be regarded as a way to formalize "lax $\infty$-functor from $Y$ to $A$".
