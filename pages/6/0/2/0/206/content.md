@@ -2,7 +2,7 @@ An **algebra** is (equivalently)
 
 * a [[monoid]] [[internalization|internal to]] [[Vect]];
 
-* a [[monoid]] [[enriched category|enriched over]] ([[Vect]],$\otimes$);
+* a one-object category [[enriched category|enriched over]] ([[Vect]],$\otimes$);
 
 * an [[algebroid]] with one object;
 
