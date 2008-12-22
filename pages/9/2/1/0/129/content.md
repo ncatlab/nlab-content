@@ -22,7 +22,7 @@ Clues:
 
 * [Groupoidification](http://golem.ph.utexas.edu/category/2008/06/an_exercise_in_groupoidificati.html)
 
-* [Double category (page 6)](http://arxiv.org/abs/q-alg/9705009) I'm starting to think that a 2-diamond should somehow be related to a double category.
+* [Double category (page 6)](http://arxiv.org/abs/q-alg/9705009) I'm starting to think that a 2-diamond should somehow be related to a double category. Or maybe even [double bicategories](http://arxiv.org/abs/math/0611930)
 
 **Warning: Under Construction**
 
