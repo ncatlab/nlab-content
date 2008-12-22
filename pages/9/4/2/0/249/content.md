@@ -11,15 +11,16 @@ A functor $F: C \to D$ is __pseudomonic__ if
 Every [[full functor|full]] and faithful functor is pseudomonic.  A
 functor $F: C \to D$ is pseudomonic if and only if the square
 
-<pre>
-     1
-  C ---> C
-  |      |
-1 |      | F
-  |      |
-  V      V
-  C ---> D
-     F
-</pre>
+$$
+  \array{ 
+    C &\stackrel{Id}{\to}& C
+    \\
+    \downarrow^{Id}
+    &&
+    \downarrow^F
+    \\
+    C &\stackrel{F}{\to}& D
+  }
+$$
 
 is a [[bicategory|bicategorical]] pullback in [[Cat]].
