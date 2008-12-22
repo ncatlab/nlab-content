@@ -12,10 +12,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+
 * [[Urs Schreiber|Urs]] (Dec 20): I started to add alphabetical lists of all related entries to the big headline entries that are linked to from the sidebar
 of the [[HomePage]]. So far I did this in [[category theory]], [[sheaf and topos theory]], [[foundations]] and [[higher category theory]]. It might be good if each time we create a new entry we think about adding the correspondin link to one of these general lists.
 
-* [[Urs Schreiber|Urs]] (Dec 20): I replied t the discussion at [[monoidal category]] on "Where does all this structure and  coherence come from?" by adding a subsection on how all this comes from the general concept of $\infty$-[[lax functor]] for which one formalization can be given in terms of [[oriental]]s and Street's [[descent and codescent|descent]]. The pentagon identity is precisely the fourth [[oriental]]! 
+* [[Urs Schreiber|Urs]] (Dec 20): I replied to the discussion at [[monoidal category]] on "Where does all this structure and  coherence come from?" by adding a subsection on how all this comes from the general concept of $\infty$-[[lax functor]] for which one formalization can be given in terms of [[oriental]]s and Street's [[descent and codescent|descent]]. The pentagon identity is precisely the fourth [[oriental]]! 
 
 * [[Toby Bartels|Toby]] (Dec 20&#8211;23): I won\'t do anything, since I\'ll be travelling. (Just in case you wonder where I am.) 
 
