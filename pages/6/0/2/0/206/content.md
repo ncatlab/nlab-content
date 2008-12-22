@@ -1,10 +1,14 @@
-* An algebra is a [[category]] with a single [[object]] [[internalization|internal to]] [[Vect]].
+An **algebra** is (equivalently) 
 
-* equivalently: a [[monoid]] in [[Vect]].
+* a [[monoid]] [[internalization|internal to]] [[Vect]];
 
-* equivalently: a vector space $V$ equipped with linear maps $p : V \otimes V \to V$ and $i : k \to V$ satisfying the associativity and unitalness conditions.
+* a [[monoid]] [[enriched category|enriched over]] ([[Vect]],$\otimes$);
 
-* equivalently: a ring [[bundle|under]] the ground field $k$.
+* an [[algebroid]] with one object;
+
+* a vector space $V$ equipped with linear maps $p : V \otimes V \to V$ and $i : k \to V$ satisfying the associativity and unitalness conditions;
+
+* a [[ring]] [[bundle|under]] the ground field $k$.
 
 #Further references#
 
