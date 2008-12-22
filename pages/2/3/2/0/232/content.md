@@ -20,3 +20,9 @@ Also see John Armstrong's article: [Enriched categories](http://unapologetic.wor
 +--{.query}
 Are you sure you don't mean "...take the definition of _locally small_ category"?  Is there a reason you want to exclude large enriched categories?
 =--
+
+#Examples#
+
+* A [[ringoid]] is a category enriched over [[Ab]].
+* An [[algebroid]] is a category enriched over [[Vect]].
+* A [[bicategory]] is a category enriched over [[Cat]].
