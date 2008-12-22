@@ -68,9 +68,14 @@ $$
  3. ($f$ is 2-surjective) $\Leftrightarrow$ ($f$ is [[faithful functor|faithful]])
 
 
-## essential $k$-surjectivity##
+## Essential $k$-surjectivity##
 
-same, but epi only after projecting to $\omega$-equivalence classes
+An $\omega$-functor is _essentially $k$-surjective_
+if the morphism $C_k \to P_k$ from above becomes
+epi after projecting further to $\omega$-[[equivalence]]-classes.
+
+
+
 
 ## Weak equivalences, acyclic fibrations and hypercovers##
 
@@ -79,6 +84,7 @@ same, but epi only after projecting to $\omega$-equivalence classes
 * an [[model category|acyclic fibration]] if it is $k$-surjective for all $k \in \mathbb{N}$;
 
 * a [[model category|weak equivalence]] if it is essentially $k$-surjective for all $k \in \mathbb{N}$.
+See also [[equivalence]].
 
 ###Remarks###
 
