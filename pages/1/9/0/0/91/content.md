@@ -138,3 +138,5 @@ consecutive identity-assigning, source or target maps, respectively.
 #Remarks#
 
 * Globular sets are also referred to as $\omega$-[[omega-graph|graphs]].
+
+* globular sets are based on one of the three major [[geometric shapes for higher structures]].
