@@ -62,19 +62,9 @@ A _groupoid_ internal to $A$ is all of the above
 
 +--{.query}
 
-Question 1: Is the expression for groupoid internal to $A$
+Question: I've looked at the definition of category in $A$ for a while and still haven't been able to absorb it. Could we walk through an explicit example, e.g. "This is exactly what $C_0$ is, this is exactly what $C_1$ is, this is exactly what $s,t,i$ are, and this is how it relates to the more familiar context"? For example, an [[algebra]] is a monoid in $Vect$. I'll try to step through it myself, but it will probably need some correcting. - [[Eric Forgy|Eric]]
 
-$$C_1 \stackrel{s}{\to} C_1$$
-
-really necessary? Could you say the same thing by stating  
-
-$$s\circ i = \mathrm{Id}?$$
-
-I'm wondering if we can make it look more like a subset of the globular conditions.
-
-Question 2: I've looked at the definition of category in $A$ for a while and still haven't been able to absorb it. Could we walk through an explicit example? For example, an [[algebra]] is a monoid in $Vect$. I'll try to do it myself, but it will probably need some correcting. - [[Eric Forgy|Eric]]
-
-Question 3: In many cases it seems that a monoid internal to $A$ is the same as a monoid enriched over $(A,\otimes)$. Is that a coincidence?
+Question: In many cases it seems that a monoid internal to $A$ is the same as a monoid enriched over $(A,\otimes)$. Is that a coincidence? - [[Eric Forgy|Eric]]
 
 =--
 
@@ -91,6 +81,14 @@ Question 3: In many cases it seems that a monoid internal to $A$ is the same as 
 * An [[algebra]] is a [[monoid]] internal to [[Vect]]. In this case $C_0$ is the vector space of objects and $C_1$ is the vector space of linear maps.
 
 * A [[Baez-Crans 2-vector space]] is a category internal to [[Vect]].
+
+* A [[double category]] is a category internal to [[Cat]]. 
+
++--{.query}
+
+Is this right? I found it on [page 6 here](http://www.math.uchicago.edu/~fiore/1/fiorefolding.pdf) - [[Eric Forgy|Eric]]
+
+=--
 
 * A _small category_ is a category internal to $Sets$.
 
