@@ -74,12 +74,16 @@ Question: In many cases it seems that a monoid internal to $A$ is the same as a 
 
 #Examples#
 
-**Under Construction**
+* A [[ring]] is a [[monoid]] internal to [[Ab]]. 
 
-* A [[ring]] is a [[monoid]] internal to [[Ab]]. In this case, $C_0$ is the abelian group of objects and $C_1$ is the abelian group of morphisms.
-* An [[algebra]] is a [[monoid]] internal to [[Vect]]. In this case $C_0$ is the vector space of objects and $C_1$ is the vector space of linear maps.
+Explicitly, in the case of a ring, $C_0$ is the abelian group of objects and $C_1$ is the abelian group of morphisms. 
+
+...
+
+* An [[algebra]] is a [[monoid]] internal to [[Vect]]. 
 * A [[Baez-Crans 2-vector space]] is a category internal to [[Vect]].
 * A [[double category]] is a category internal to [[Cat]]. 
+* A [[double bicategory]] is a category internal to [[Bicat]].
 * A _small category_ is a category internal to $Sets$.
 * Historically, the motivating exmaple for was (apparently) the notion of [[Lie groupoid|Lie groupoids]]: groupoids internal to the category [[Diff]] of manifolds. 
 
