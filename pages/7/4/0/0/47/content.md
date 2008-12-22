@@ -852,4 +852,10 @@ We have 16GB free space on the server. Let's upload things which we find importa
 {:responsetoby}
 Wow! I think that I was remembering the RAM limits discussed on the Caf&#233;. 16GB ought to be enough for everything (^_^).
 
+##Why globular identities?##
+
+I'm "secretly" (as if it weren't totally obvious) trying to learn enough of the material here at the nLab to be able to frame some of the stuff Urs and I worked on into the context of [[space and quantity]], but where both space and quantity are "discrete". So far I've learned some cool ways (but totally obvious to anyone here) to define [[directed graph|directed graphs]] and I attempted to generalize it to [[directed n-graph|directed n-graphs]] hoping to make a connection to higher categories somehow. However, one barrier for me has been the [[globular set|globular identities]] because the shapes they produce are "globs" or "bigons" which are not what I want for geometrical modeling. I've recently learned about [[double category|double categories]] and they (and their higher dimensional generalizations) seem to be closer to what I'm looking for. In the process of learning about double categories, I've also stumbled onto [[enriched category|bicategories]] as being enriched over [[Cat]], but Urs corrected my Example by specifying that what is really enriched over $Cat$ are strict 2-categories. He then added another example, i.e. a strict $n$-category as being enriched over strict $(n-1)$-categories and stated that as $n\to\infty$ you get $\omega$-[[omega-category|categories]]. This latter example gives some hint as to why the globular identities are there. Is that essentially why $\omega$-categories are defined with globular identities so that you can iterate the construction via enrichment? Any words of wisdom/clarification on the subject or even pointers to further references for [[geometric definition of higher category|geometrical definitions of higher categories]] other than those based on simplices (maybe cubes?)  would be appreciated.
+
+
+
 category: meta
