@@ -31,4 +31,10 @@ Another way to phrase the question is, what is a good notion of "subobject" in a
 
 I'm not disputing the importance of faithful functors, or more generally of faithful morphisms in a 2-category.  I just think that calling them "subobjects" is stretching the meaning of the prefix "sub-" so far that it becomes counterintuitive and confusing.
 
+_Mathieu says_: I agree with the fact that there is a terminological problem : full subcategories should be called "subcategories" and subcategories should be given a new name ("2-subcategories"?).  Then a subcategory of a set will be a subset, so the prefix "sub" preserves its original meaning in this case.
+
+An example of non-pseudomonic naive subcategory is given, for a non-skeletal internal category $C$ in $\mathrm{Set}$, by the inclusion of the discrete category on the set of objects $C_0$ into the realisation of $C$ as a category.
+
+My answer to the question "what is a good notion of "subobject" in a 2-category?", at least in the case where every 2-cell is invertible, is that there are two such notions (plus their normal, regular, strong, etc., variations): fully faithful arrows with a given codomain, and faithful arrows with a given codomain.  That's the way I understood it when writing [my PhD thesis](http://arxiv.org/abs/0809.1760). 2-dimensional kernels are in general faithful (and not pseudomonic), so I'm inclined to think of the faithful kind of subobjects as the 2-dimensional counterpart of 1-dimensional subobjects.
+
 =--
