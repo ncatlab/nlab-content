@@ -12,6 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+* [[Urs Schreiber|Urs]] (Dec 23): continued completing "lits of related entries" in the main entries linked to from the [[HomePage]]: did [[Lie theory]] and [[differential geometry]]
+
+* [[Urs Schreiber|Urs]] (Dec 23): started creating [[Nonabelian algebraic topology]] and [[crossed complex]] and expanded a bit related entries linked to from there. Am hoping we can eventually present more details here.
+
+
+* [[Urs Schreiber|Urs]] (Dec 22): started replying to a question [[Eric Forgy|Eric]] raised at [[General Discussion]] about the shape of cells used in higher categories. Created [[geometric shapes for higher structures]] with a discussion of the general idea and linked to [[globular set]], [[simplicial set]] and [[cubical set]] from there. Still plenty of room to add details. Am planning to give details on the monoidal structure on cubical sets and the induced Crans-Gray tensor product on $\omega$-[[omega-category|categories]].
 
 * [[Urs Schreiber|Urs]] (Dec 20): I started to add alphabetical lists of all related entries to the big headline entries that are linked to from the sidebar
 of the [[HomePage]]. So far I did this in [[category theory]], [[sheaf and topos theory]], [[foundations]] and [[higher category theory]]. It might be good if each time we create a new entry we think about adding the correspondin link to one of these general lists.
