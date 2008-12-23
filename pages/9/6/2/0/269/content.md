@@ -4,6 +4,8 @@ A _cubical set_ is a [[presheaf]] on the [[cubical category]] $\Box$.
 
 ##Remarks##
 
+* The definition is to be understood from the point of view of [[space and quantity]]: a _cubical set_ is a space characterized by the fact that and how it may be _probed_ by mapping standard cubes into it: the set $S_n$ assigned by a cubical set to the standard $n$-cube $[n]$ is the set of $n$-cubes in this space, hence the way of mapping a standard $n$-cube into this spaces.
+
 
 #References#
 
