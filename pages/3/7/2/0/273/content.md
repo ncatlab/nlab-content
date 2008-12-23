@@ -11,6 +11,12 @@ and
 
 * Ross Street, _An australian conspectus on higher categories_ ([pdf](http://www.math.mq.edu.au/~street/Minneapolis.pdf)).
 
+Parallel to this development of the notion of [[descent and codescent]] there was the development of [[homotopical cohomology theory]] as described in
+
+* Kenneth S. Brown, _Abstract Homotopy Theory and Generalized Sheaf Cohomology_, Transactions of the American Mathematical Society, Vol. 186 (1973), 419-458 ([pdf](http://www.math.uni-hamburg.de/home/schreiber/Abstract%20homotopy%20theory%20and%20generalized%20sheaf%20cohomology.pdf))
+
+Both approaches are different, but closely related. Their relation is via the notion of [[descent and codescent|codescent]].
+
 There is a chain of inclusions
 
 $$
@@ -26,7 +32,7 @@ $$
 
 along which one can generalize the coefficient objects of ordinary cohomology. (See [[omega-groupoid]], [[omega-category]]). Since doing so in particular generalizes abelian groups to nonabelian groups (but goes much further!) this is generally addressed as leading to _nonabelian cohomology_.
 
-Depending on how one thinks of the object whose cohomology one computes, there are two different ways to realize this:
+Depending on how one thinks of the object whose cohomology one computes, there are two different ways to realize this, as mentioned above:
 
 * [[nonabelian sheaf cohomology]] in terms of [[descent and codescent|descent]] for $\omega$-category valued presheaves, i.e. in terms of [[infinity-stack]]s;
 
