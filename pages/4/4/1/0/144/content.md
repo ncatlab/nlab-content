@@ -70,4 +70,4 @@ In conclusion, the grand duality between spaces and quanties is a consequence of
 ##References##
 
 * F. W. Lawvere, [Taking categories seriously](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf)
-* [Space and Quantity](http://golem.ph.utexas.edu/category/2008/03/space_and_quantity.html), [[n-Category Cafe]]
+*  _Space and Quantity_ ([blog](http://golem.ph.utexas.edu/category/2008/03/space_and_quantity.html))
