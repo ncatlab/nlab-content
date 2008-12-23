@@ -15,7 +15,7 @@ $$
 $$
 ([[anafunctor|ana-morphisms]]) instead of longer sequences of zig-zags. 
 
-In such a case it makes sense to address such a span as a [[cocycle]] on $X$ with coefficients in $A$ and to regard
+In such a case it makes sense to address such a span as a [[nonabelian cocycle]] on $X$ with coefficients in $A$ and to regard
 
 $$
   H(X,A) := Ho(C)(X,A)
@@ -27,7 +27,8 @@ From the point of view of generalized [[sheaf cohomology]] this can be understoo
 
 The fundamental ideas and facts are given in
 
-* Kenneth S. Brown, _Abstract Homotopy Theory and Generalized Sheaf Cohomolohgy_, Transactions of the American Mathematical Society, Vol. 186 (1973), 419-458 ([pdf](http://www.math.uni-hamburg.de/home/schreiber/Abstract%20homotopy%20theory%20and%20generalized%20sheaf%20cohomology.pdf))
+* Kenneth S. Brown, _Abstract Homotopy Theory and Generalized Sheaf Cohomology_, Transactions of the American Mathematical Society, Vol. 186 (1973), 419-458 ([pdf](http://www.math.uni-hamburg.de/home/schreiber/Abstract%20homotopy%20theory%20and%20generalized%20sheaf%20cohomology.pdf))
+
 
 This develops the theory of localization in _categories of fibrant objects_ and then applies it to cohomology with coefficients in sheaves with values in combinatorial spectra.
 
