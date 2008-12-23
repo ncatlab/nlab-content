@@ -9,7 +9,7 @@ Its objects are the standard "cubical $n$-cubes", for $n \in \mathbb{N}$ and its
 
 A precise definition of the cubical category can be found in section 2 of
 
-* Sjoerd Crans, _Pasting schemes for the monoidal biclosed structure on $\omega-Cat$_ ([web](http://crans.fol.nl/papers/thten.html), [ps](http://crans.fol.nl/papers/thten.ps.gz))
+* Sjoerd Crans, _Pasting schemes for the monoidal biclosed structure on $\omega-Cat$_ ([web](http://crans.fol.nl/papers/thten.html), [ps](http://crans.fol.nl/papers/thten.ps.gz), [pdf](http://ncatlab.org/nlab/files/thten.pdf))
 
 The cubical category is used to define [[cubical set|cubical sets]].
 
