@@ -34,28 +34,6 @@ $$
 
 and hence precisely the one-step generalized morphisms. 
 
-+-- {: .query}
-
-_Urs says:_ I had this thing about saturation wrong before and Toby corrected me. Hope it is right now. Please check.
-
-_Mathieu says:_ No, this condition is some kind of surjectivity for the anafunctor.  I think you can define a saturated anafunctor as a "normal" anafunctor such that some diagram is a pullback.  Between internal groupoids, a saturated anafunctor is simply an internal distributor which is "functional" and "everywhere defined".
-
-_Urs says:_ Okay, thanks. Somebody should fix the above then. 
-
-_Toby says:_ I'm not sure that there is anything to say. Remember that, up to equivalence, all anafunctors are saturated. If I grasped more fully what cofibrations are, then I might be able to say something sensible here. (By the way, $k$-surjectivity doesn't na&#239;vely apply; at best, you'll have to replace epimoprphims with surjective submersions or something.)
-
-_Urs says_: yes, I still need to complete the entry discussion on the [[homotopy theory]] structure on $n$-categories internal to spaces: the point is that one sets it up for the very general $Spaces := Sheaves(test domains)$ in which case epimorphisms are precisely the local/stalkwise section admitting maps. Then one can restrict that to $Manifolds \hookrightarrow Spaces$. If one requires that also all fiber products sit in $Manifolds$ (which is a matter of cosmetics more than of necessity) then one finds the need that the local section admitting surjections must actually be submersions.
-
-_Toby says_: OK, that reminds me: Do you have a reference handy for the fact that submersions are precisely the maps in $Manifolds$ such that all pullbacks of these maps exist? This is a folk theorem for me, but I\'ve never written out a proof, so it always gives me doubts. (Anyway, I\'ll probably want to cite it sometime.)
-
-_Urs says_: don't know a reference. But notice from the chain rule that a local smooth sections admitting surjection is already a submersion when restricted to the image of all possible local smooth sections. This gives a handle on how bad behaved local smooth sections admitting maps are that are not submersions on their entire domain.
-
-_Toby says_: OK, thanks. I\'ll probably just have to sit down and work out the proofs and counterexamples for myself. (Possibly I can get David Roberts to do it, now that I think about it &#8230; I\'ll ask him.)
-
-_Toby says_: I gave a more elementary definition of anafunctor above, including saturated anafunctor. So I removed the bad definition here.
-
-=--
-
 An anafunctor is an **anaequivalence** if it is a span as above, with the right leg also an acyclic fibration.
 (For [[Lie groupoid]]s, these are the [[Morita equivalence]]s).
 
