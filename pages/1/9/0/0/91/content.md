@@ -4,6 +4,11 @@ Globular sets are to [[simplicial set]]s as [[globe]]s are to simplices.
 
 #Definition#
 
+A _globular set_ is a [[presheaf]] on the _globualar categry_ (described below), one of the [[geometric shapes for higher structures]].
+
+* The presheaf definition is to be understood from the point of view of [[space and quantity]]: a _globular set_ is a space characterized by the fact that and how it may be _probed_ by mapping standard globes into it: the set $S_n$ assigned by a globular set to the standard $n$-globe $[n]$ is the set of $n$-globes in this space, hence the way of mapping a standard $n$-globe into this spaces.
+
+
 
   The **globular category** $G$ is
   the category whose objects are the integers and
