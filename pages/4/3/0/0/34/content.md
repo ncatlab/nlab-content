@@ -1,6 +1,16 @@
 #Idea#
 
-An $n$-category is a combinatorial model for _directed higher homotopical_ structures: in generalization to how an ordinary category has 1-morphisms going between objects, in an $n$-category there are $k$-morphisms going between $(k-1)$-morphisms for all $1 \leq k \leq n$.
+An $n$-category is a combinatorial model for _directed higher homotopical_ structures: in generalization to how an ordinary [[category]] has 1-[[morphism]]s going between [[object]]s, in an $n$-category there are $k$-morphisms going between $(k-1)$-morphisms for all $1 \leq k \leq n$.
+
+Models for $\infty$-categories usually fall into two classes:
+
+* in the [[geometric definition of higher category]] an $\infty$-category is a conglomerate of [[geometric shapes for higher structures]] with extra properties;
+
+  * examples are: [[Kan complex]], [[quasi-category]]
+
+* in the [[algebraic definition of higher category]] an $\infty$-category is a conglomerate of [[geometric shapes for higher structures]] with extra structure;
+
+  * examples are: [[bicategory]], [[omega-category]].
 
 ## Strict versus weak ##
 
@@ -45,9 +55,27 @@ There's a lot more to add here, even if we restrict ourselves to very general te
 
 * [[2-morphism]]
 
+* $(\infty,1)$-[[infinity comma one category]]
+
+* $\infty$-[[infinity-stack|stack]]
+
+* [[bicategory]]
+
 * [[category]]
 
+* [[crossed complex]]
+
+* [[cubical category]]
+
+* [[cubical set]]
+
 * [[directed n-graph]]
+
+* [[double category]]
+
+* [[geometric definition of higher category]]
+
+* [[geometric shapes for higher catgories]]
 
 * [[globular set]]
 
@@ -56,5 +84,17 @@ There's a lot more to add here, even if we restrict ourselves to very general te
 * [[infinity-stack]]
 
 * [[k-surjectivity]]
+
+* [[omega-category]]
+
+* [[omega-groupoid]]
+
+* [[quasi-category]]
+
+* [[simplicial category]]
+
+* [[simplicial set]]
+
+* [[Segal category]]
 
 * [[vertical categorification]]
