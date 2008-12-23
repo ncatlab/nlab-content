@@ -9,7 +9,7 @@ A _cubical set_ is a [[presheaf]] on the [[cubical category]] $\Box$.
 
 Section 2 of
 
-* Sjoerd Crans, _Pasting schemes for the monoidal biclosed structure on $\omega-Cat$_ ([web](http://crans.fol.nl/papers/thten.html), [ps](http://crans.fol.nl/papers/thten.ps.gz))
+* Sjoerd Crans, _Pasting schemes for the monoidal biclosed structure on $\omega-Cat$_ ([web](http://crans.fol.nl/papers/thten.html), [ps](http://crans.fol.nl/papers/thten.ps.gz), [pdf](http://ncatlab.org/nlab/files/thten.pdf))
 
 gives a general discussion of the cubical category and of cubical sets. 
 The **cubical identities** satisfied by a cubical set are given in proposition 2.8 on p. 9.
