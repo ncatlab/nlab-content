@@ -44,9 +44,9 @@ this means that anafunctors between groupoids represent [[nonabelian cocycle]]s 
 
 ##Generalizations##
 
-Since the [[folk model structure]] on $Categories$ extends to $\omega$-[[omega-category|categories]], also the anafunctor concept generalizes to these strict [[higher category theory|higher categories]]. Indeed, again by Brown-Golasinski, $\omega$-groupoids are fibrant with respect to the [[folk model structure]], so that the corresponding _$\omega$-anafunctors_ between $\omega$-groupoids represent cocycles in [[nonabelian cohomology]].
+Since the [[folk model structure]] on $Categories$ extends to $\omega$-[[omega-category|categories]], also the anafunctor concept generalizes to these strict [[higher category theory|higher categories]]. Indeed, again by Brown-Golasinski, $\omega$-groupoids are fibrant with respect to the [[folk model structure]], so that the corresponding $\omega$-[[schreiber:omega-anafunctors|anafunctors] between $\omega$-groupoids represent cocycles in [[nonabelian cohomology]].
 
-More details on $\omega$-anafunctors are described in the context of [[schreiber:Differential Nonabelian Cohomology]] in the private area of the $n$Lab. 
+More details on $\omega$-anafunctors are described in the context of [[schreiber:Differential Nonabelian Cohomology]] in the private area of the $n$Lab. See [[schreiber:omega-anafunctor]].
 
 ## Additive version ##
 
