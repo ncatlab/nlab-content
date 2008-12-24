@@ -14,6 +14,6 @@ So $CartSp$ is the full subcategory of $Manifolds$ on the $\mathbb{R}^n$, $n \in
 * Let $CartSp_{pr} \hookrightarrow CartSp$ be the subcategory of $CartSp$ whose morphisms are restricted to be the standard injections and projections on $CartSp$. 
 If we write $FinSet$ for the skeletal version of the category of finite sets, with objects identified with the natural numbers, then $CartSp_{pr} \simeq FinSet$.
 
-* $CartSp$ appear as test objects in the context of [[generalized smooth space]]s and [[generalized smooth algebra]]s.
+* $CartSp$ appear as test objects in the context of [[generalized smooth space|generalized smooth spaces]] and [[generalized smooth algebra|generalized smooth algebras]].
 
 category: category
