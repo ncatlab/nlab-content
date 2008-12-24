@@ -108,7 +108,7 @@ One place where we discussed this is the comment [It was David Roberts who appar
 
 ##As a stack##
 
-In the case where the action is [[internalization]] internal to sets with structure, such as internal to [[Diff]] one wants to realize the action groupoid as a [[Lie groupoid]]. That Lie groupoid in turn may be taken to present a [[differentiable stack]] which then usually goes by the same name $S//G$.
+In the case where the action is [[internalization|internal]] to sets with structure, such as internal to [[Diff]] one wants to realize the action groupoid as a [[Lie groupoid]]. That Lie groupoid in turn may be taken to present a [[differentiable stack]] which then usually goes by the same name $S//G$.
 
 #References#
 
