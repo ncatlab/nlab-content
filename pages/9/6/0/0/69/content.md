@@ -1,6 +1,6 @@
 #Definition#
 
-A stack $X$ is _presented_ by a groupoid $G$, if it is the stack (then [[differentiable stack|usually]] regarded as a stack on the site $Top$ or $Manifolds$) which assigns to each test domain $U$ the category of $G$-principal bundles over $U$
+A [[stack]] $X$ is _presented_ by a [[groupoid]] $G$, if it is the stack (then [[differentiable stack|usually]] regarded as a stack on the [[site]] [[Top]] or [[Diff]]) which assigns to each test domain $U$ the category of $G$-principal bundles over $U$
 
 $$
   X := G-Bund(-) : U \mapsto \{G-principal bundles on U\}
