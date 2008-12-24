@@ -48,4 +48,4 @@ This kind of nonabelian cohomology is discussed for instance in
 
 That and how ordinary group cohomology is reproduced from the [[homotopical cohomology theory]] of [[omega-groupoid]]s is discussed in detail in 
 
-* R. Brown, P. Higgins, R. Sivera, [[Nonabelian algebraic topology]].
+* R. Brown, P. Higgins, R. Sivera, [[nonabelian algebraic topology|Nonabelian algebraic topology]].
