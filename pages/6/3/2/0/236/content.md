@@ -1,13 +1,22 @@
 #Idea#
 
-The _action groupoid_ $S//G$ of the [[action]] $\rho$ of a [[group]] $G$ on a set $S$ is a [[homological resolution|resolution]] of the quotient set $S/G$ (the set of $G$-orbits): instead of taking the elements in $S$ on the same $G$-orbit as being [[equality|equal]] in $S/G$, in the action groupoid they are just [[isomorphism|isomorphic]].
+Given an [[action]] $\rho$ of a [[group]] $G$ on a [[set]] $S$, the action groupoid $S//G$ is a bit like the quotient set $S/G$ (the set of $G$-orbits).  But, instead of taking elements of $S$ in the same $G$-orbit as being [[equality|equal]] in $S/G$, in the action groupoid they are just [[isomorphism|isomorphic]].  We may think of the action groupoid as a [[homological resolution|resolution]] of the usual quotient.  When the action of $G$ on $S$ fails to be free, the action groupoid is generally better-behaved than the quotient set.
+
+The action groupoid also goes by other names, including 'weak quotient'.  It is a special case of a 'pseudo colimit', as explained below.
 
 #Definition#
 
-In components, the action [[groupoid]] $S//G$ 
-of the [[action]] 
-$\rho : S \times G \to S$ of a group $G$ on the set $S$
-(or, more precisely, $S//_\rho G$) is the [[groupoid]]
+Given an [[action]] 
+$\rho : S \times G \to S$ of a group $G$ on the set $S$, the _action groupoid_ $S//G$ (or, more precisely, $S//_\rho G$) is the [[groupoid]] for which:
+
+* an object is an element of $S$
+
+* a morphism from $s \in S$ to $s' \in S$ is a group element $g \in G$ with $g s = s'$.  So, a general morphism is a pair $(g,s) : s \to g s$.
+
+* The composite of $(g,s) : s \to g s = s'$ and $(g',s'): 
+s \to g's'$ is $(g' g, s) : s \to g' g s$.
+
+Equivalently, we may define the _action groupoid_ $S//G$ to be the groupoid
 $$
   \array{
      && S \times G
@@ -22,9 +31,7 @@ $$
   }
 $$
 with composition 
-
 $$(S \times G) \times_{t,s} (S \times G) \simeq S \times G \times G \to S \times G$$ 
-
 given by the product in $G$.
 
 We can denote the morphisms in $S//G$ by
