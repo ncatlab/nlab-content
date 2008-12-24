@@ -12,10 +12,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+* [[John Baez|John]] (Dec 23): I expanded the entry on [[action groupoid]] and started one for [[action]] and [[automorphism]].  In the process I noted that Urs seems to be using $Sets$ for the category of sets, while most mathematicians use [[Set]].  We should settle (pardon the pun) this issue.  I hope that someday there will be lots of entries on specific important categories, listing some of the special features of these categories.
+
 * [[Urs Schreiber|Urs]] (Dec 23): continued completing "lits of related entries" in the main entries linked to from the [[HomePage]]: did [[Lie theory]] and [[differential geometry]]
 
 * [[Urs Schreiber|Urs]] (Dec 23): started creating [[Nonabelian algebraic topology]] and [[crossed complex]] and expanded a bit related entries linked to from there. Am hoping we can eventually present more details here.
-
 
 * [[Urs Schreiber|Urs]] (Dec 22): started replying to a question [[Eric Forgy|Eric]] raised at [[General Discussion]] about the shape of cells used in higher categories. Created [[geometric shapes for higher structures]] with a discussion of the general idea and linked to [[globular set]], [[simplicial set]] and [[cubical set]] from there. Still plenty of room to add details. Am planning to give details on the monoidal structure on cubical sets and the induced Crans-Gray tensor product on $\omega$-[[omega-category|categories]].
 
