@@ -2,25 +2,26 @@ See also: [[homotopy theory]].
 
 #Idea#
 
-A _model category_ (more precisely: a category equipped with the structure of a (Quillen) model category) is a [[category]] equipped with extra structure which allows one to treat it like the 1-truncation of an $(\infty,1)$-[[infinity comma one category|category]], i.e. as a model for [[homotopy theory]]: 
+A __model category__ (sometimes called a _Quillen model category_ or a _closed model category_) is a [[category]] equipped with extra structure which allows one to treat it as a presentation for an $(\infty,1)$-[[infinity comma one category|category]], i.e. as a model for [[homotopy theory]].
 
-the idea of model categories is to work just with 1-morphisms instead of with $n$-morphisms for all $n$, but to carry around extra information to remember which 1-morphisms are [[equivalence]]s in the full $(\infty,1)$-category, which behave like [[epimorphism]]s and which behave like [[monomorphism]]s, in some sense, with respect to the full $(\infty,1)$-category structure
+The idea of model categories is to work just with 1-morphisms instead of with $n$-morphisms for all $n$, but to carry around extra information to remember which 1-morphisms should become [[equivalence|equivalences]] in the full $(\infty,1)$-category, along with additional data which allows us to perform many $(\infty,1)$-categorical constructions at the level of the model category.
 
-Most importantly, a model category is a [[category with weak equivalences]]. The collection of weak equivalences already determines the corresponding $(\infty,1)$-[[infinity comma one category|category]]. The rest of the structure carried by a model category -- the choice of [[fibration]]s and [[cofibration]]s -- is auxiliary data whose purpose is to _facilitate computations_, in particular to facilitate the computation of the [[homotopy category]] and of [[derived functor]]s.
+Most importantly, a model category is a [[category with weak equivalences]]. The collection of weak equivalences already determines the corresponding $(\infty,1)$-[[infinity comma one category|category]]. The rest of the structure carried by a model category -- the choice of [[fibration]]s and [[cofibration]]s -- is auxiliary data whose purpose is to _facilitate computations_, in particular to facilitate the computation of the [[homotopy category]] and of [[derived functor]]s.  See [[homotopy theory]] for more details.
 
 
 #Examples#
 
+Historically, the most important examples have been the following.
 
-Historically the motivating example has been the 
-
-* [[model structure on simplicial sets]].
+* [[model structure on simplicial sets]]
+* [[model structure on topological spaces]]
+* [[model structure on chain complexes]]
 
 Other model structures which at the moment we have entries for are
 
 * [[folk model structure|model structure on omega categories]]
-
 * [[folk model structure|model structure on omega-groupoids]]
+
 
 #References#
 
@@ -40,4 +41,4 @@ See
 
 * P. Hirschhorn, personal website: [Mathematics](http://www-math.mit.edu/~psh/#Mathematics)
 
-for errata and more.
+for errata and more. 
