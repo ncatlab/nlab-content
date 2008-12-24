@@ -14,11 +14,11 @@ Eventually the following will be a _commented_ list -- promised.
 
 * Andrew Stacey, _Comparative Smootheology_ ([arXiv](http://arxiv.org/abs/0802.2225))
 
-There are also Hofer's [[polyfold]]s.
+There are also Hofer's [[polyfold|polyfolds]].
 
 #Remarks#
 
-Dual to generalized smooth spaces are [[generalized smooth algebra]]s of functions on them, according to the general lore of [[space and quantity]].
+Dual to generalized smooth spaces are [[generalized smooth algebra|generalized smooth algebras]] of functions on them, according to the general lore of [[space and quantity]].
 
 #Further discussion#
 
