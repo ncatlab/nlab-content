@@ -9,9 +9,6 @@ Crossed complexes are an equivalent way to encode the information contained in [
 #Remarks#
 
 * In low degrees crossed complexes are the following:
-
   * A crossed complex of length 0 is a [[Set|set]].
-
   * A crossed complex of length 1 is a [[groupoid]].
-
-  * A crossed comlex of length 2 is a [[crossed module]].
+  * A crossed complex of length 2 is a [[crossed module]], which is a strict kind of [[2-group]].
