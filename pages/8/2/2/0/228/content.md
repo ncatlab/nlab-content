@@ -36,4 +36,6 @@ I know, I know, you want to know *which* topos! But do you see how unfair this q
 
 _[[Mike Shulman|Mike]] comments_: While I agree with everything Toby has said, I think there is nevertheless a particular topos in which a classical mathematician could work internally to reproduce constructive mathematics: the [[free topos]].  Of course, this is something of a cheat, since the free topos is defined just so that the only statements true in it are those which are intuitionistically provable, so it's not particularly helpful to the classical mathematician trying to understand the intuitionist.  Neither do I mean that an intuitionist would claim that the free topos _is_ the category of sets.  But it nevertheless encapsulates everything the intuitionist can _prove_ about the category of sets.
 
-=--  
+Toby replies: OK, that\'s a good point, Mike. Similarly, one can understand the classical mathematician by working in the free boolean topos (or rather, the free topos-with-choice, although I\'m not entirely certain that this exists). But classical mathematicians don\'t believe that this topos *is* the category of sets either. (Indeed, to assume that it is probably amounts to something like the axiom of constructibility. &#8249;insert standard disclaimer that 'constructible' &#8800; 'constructive'.&#8250;).
+
+=--
