@@ -5,8 +5,8 @@ called the _braiding_, which must satisfy an axiom called the [[hexagon identity
 There is a [[strict 2-category]] BrMonCat with:
 
 * braided monoidal categories as objects,
-* [[braided monoidal functors]] as morphisms, 
-* [[braided monoidal natural transformations]] as 2-morphisms.
+* [[braided monoidal functor]]s as morphisms, 
+* [[braided monoidal natural transformation]]s as 2-morphisms.
 
 For definitions of all these concepts, see:
 
