@@ -7,7 +7,7 @@ By $CartSp$ we denote the category
 * whose morphisms are all smooth maps of manifolds between these spaces.
 
 
-So $CartSp$ is the full subcategory of $Manifolds$ on the $\mathbb{R}^n$, $n \in \mathbb{N}$.
+So $CartSp$ is the full subcategory of [[Diff]] consisting of the spaces for $\mathbb{R}^n$ for $n \in \mathbb{N}$.
 
 #Remarks#
 
