@@ -1,3 +1,3 @@
 See [[nonabelian algebraic topology]].
   
-category: delete
+category: redirect
