@@ -7,8 +7,8 @@ for all objects $x, y$.  Intuitively this says that switching things twice has n
 There is a [[strict 2-category]] SymmMonCat with:
 
 * symmetric monoidal categories as objects,
-* [[symmetric monoidal functors]] as morphisms, 
-* [[symmetric monoidal natural transformations]] as 2-morphisms.
+* [[symmetric monoidal functor]]s as morphisms, 
+* [[symmetric monoidal natural transformation]]s as 2-morphisms.
 
 For definitions of all these concepts, see:
 
