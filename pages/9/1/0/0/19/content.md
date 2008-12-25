@@ -40,7 +40,7 @@ But maybe surprisingly, category theory turns out to be much more than the study
 * [[groupoid cardinality]]
 * [[higher category theory]]
 * [[homotopy theory]]
-* [[homset]]
+* [[hom-set]]
 * [[horizontal categorification]]
 * [[identity]]
 * [[infinity-groupoid]]
