@@ -1,6 +1,6 @@
 #The Idea#
 
-The idea of an enriched category is that we take the definition of [[locally small]] [[category]] and replace the [[homset|homsets]] by objects in some [[monoidal category]] $K$.  So, a _category enriched over $K$_, say $C$, has a collection $C_0$ of objects and for each pair $x,y \in C_0$, a 'hom-object' 
+The idea of an enriched category is that we take the definition of [[locally small]] [[category]] and replace the [[hom-set|hom-sets]] by objects in some [[monoidal category]] $K$.  So, a _category enriched over $K$_, say $C$, has a collection $C_0$ of objects and for each pair $x,y \in C_0$, a 'hom-object' 
 $$ hom(x,y) \in K .$$
 We then mimic the usual definition of category.  In particular, composition is a morphism in $K$:
 $$ \circ : hom(y,z) \otimes hom(x,y) \to hom(x,z)  $$
