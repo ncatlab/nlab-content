@@ -8,7 +8,7 @@ A _category with weak equivalences_ is a [[category]] $C$ equipped with a [[subc
 
 The idea is that $C$ is a presentation of a [[higher category theory|higher category]] with higher morphisms, and that the weak equivalences are those morphisms which would become true [[equivalence]]s in this higher category.
 
-This higher category may be reconstructed by Dwyer-Kan localization as an $(\infty,1)$-[[infinity comma one category|category]].
+This higher category may be reconstructed by Dwyer-Kan localization as an $(\infty,1)$-[[(infinity,1)-category|category]].
 
 Alternatively, we may further project to the 1-category in which all weak equivalences become true [[isomorphism]]s: this is the [[homotopy category]] of $C$ with respect to $W$.
 
