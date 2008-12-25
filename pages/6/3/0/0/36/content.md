@@ -66,6 +66,8 @@ Question: I've looked at the definition of category in $A$ for a while and still
 
 Question: In many cases it seems that a monoid internal to $A$ is the same as a monoid enriched over $(A,\otimes)$. Is that a coincidence? - [[Eric Forgy|Eric]]
 
+Answer: No, it\'s just the definition of 'internal' in that context. You\'ll notice that there\'s no general definition of 'internal' above (just 'internal category'), and that\'s with good reason: the definition depends on the [[doctrine]] (or perhaps something more general?) that you\'re working in. Internal monoids live in the doctrine of monoidal categories (an example of the [microcosm principle](http://golem.ph.utexas.edu/category/2008/12/the_microcosm_principle.html)), and this is just a special case of enriched categories. Of course, enriched categories aren\'t fully internalised, because of the class of objects (which was trivial for monoids), but you can\'t internalise them in the doctrine of monoidal categories either; you need something more structured, such as the doctrine of lex categories (that is categories with all finite limits). And in that case, the 1-object internal categories will *not* be the same as the internal monoids (unless you take the cartesian product as your monoidal product). In particular, a category internal to Ab must be trivial if it has 1 object, while a ring is not a category internal to Ab in any sense that I can see. &#8212;Toby
+
 =--
 
 #Terminology#
