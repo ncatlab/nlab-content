@@ -2,11 +2,11 @@ See also: [[homotopy theory]].
 
 #Idea#
 
-A __model category__ (sometimes called a _Quillen model category_ or a _closed model category_) is a [[category]] equipped with extra structure which allows one to treat it as a presentation for an $(\infty,1)$-[[infinity comma one category|category]], i.e. as a model for [[homotopy theory]].
+A __model category__ (sometimes called a _Quillen model category_ or a _closed model category_) is a [[category]] equipped with extra structure which allows one to treat it as a presentation for an $(\infty,1)$-[[(infinity,1)-category|category]], i.e. as a model for [[homotopy theory]].
 
 The idea of model categories is to work just with 1-morphisms instead of with $n$-morphisms for all $n$, but to carry around extra information to remember which 1-morphisms should become [[equivalence|equivalences]] in the full $(\infty,1)$-category, along with additional data which allows us to perform many $(\infty,1)$-categorical constructions at the level of the model category.
 
-Most importantly, a model category is a [[category with weak equivalences]]. The collection of weak equivalences already determines the corresponding $(\infty,1)$-[[infinity comma one category|category]]. The rest of the structure carried by a model category -- the choice of [[fibration]]s and [[cofibration]]s -- is auxiliary data whose purpose is to _facilitate computations_, in particular to facilitate the computation of the [[homotopy category]] and of [[derived functor]]s.  See [[homotopy theory]] for more details.
+Most importantly, a model category is a [[category with weak equivalences]]. The collection of weak equivalences already determines the corresponding $(\infty,1)$-[[(infinity,1)-category|category]]. The rest of the structure carried by a model category -- the choice of [[fibration]]s and [[cofibration]]s -- is auxiliary data whose purpose is to _facilitate computations_, in particular to facilitate the computation of the [[homotopy category]] and of [[derived functor]]s.  See [[homotopy theory]] for more details.
 
 
 #Examples#
