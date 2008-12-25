@@ -2,7 +2,7 @@
 
 A **monoid** is the [[hom-set]] of a category with a single object. This is equivalent to whatever definition you may be used to. In partiocular, this means that a monoid is a set $A$ equipped with a binary operation $p : A \times A \to A$ and special element $e \in A$ such that $e$ and $p$ satisfy the usual axioms of an associative product $p$ with unit $e$.
 
-Actually, one may wish to define a monoid to *be* a category with a single object, but taking this too literally will create conflicts in notation. Instead (for a given monoid $A$), let $\mathbf{B}A$ be the corresponding category with single object $\bullet$ and with $A$ as its [[homset]], so that $A = Hom_{\mathbf{B}A}(\bullet, \bullet)$. This realizes every monoid as a monoid of [[endomorphism|endomorphisms]].
+Actually, one may wish to define a monoid to *be* a category with a single object, but taking this too literally will create conflicts in notation. Instead (for a given monoid $A$), let $\mathbf{B}A$ be the corresponding category with single object $\bullet$ and with $A$ as its [[hom-set]], so that $A = Hom_{\mathbf{B}A}(\bullet, \bullet)$. This realizes every monoid as a monoid of [[endomorphism|endomorphisms]].
 
 #Remarks on notation
 (originally from [[category algebra]])
