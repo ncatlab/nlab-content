@@ -12,7 +12,7 @@ These conditions ensure that $D$ is a category in its own right.  We say $D$ is 
 
 More generally, one may define a _subcategory_ of $C$ as a category $D$ equipped with a [[faithful functor|faithful]] [[functor]] $F: D \to C$. This is the same as a subcategory (in the sense above) of a category [[equivalence|equivalent]] to $C$.  In these terms, we define a _full subcategory_ to be a category equipped with a [[full functor|full]] and faithful functor $F : D \to C$.
 
-+--{.query}
+# Discussion
 _[[Mike Shulman|Mike]] says_: I have a few objections to considering any faithful functor to be a "subcategory."
 
 1. I really have a hard time convincing myself that the category of groups is a subcategory of the category of sets.  A group is a set with extra [[property, structure, and stuff|structure]], not a set satisfying some property.
@@ -37,4 +37,4 @@ An example of non-pseudomonic naive subcategory is given, for a non-skeletal int
 
 My answer to the question "what is a good notion of "subobject" in a 2-category?", at least in the case where every 2-cell is invertible, is that there are two such notions (plus their normal, regular, strong, etc., variations): fully faithful arrows with a given codomain, and faithful arrows with a given codomain.  That's the way I understood it when writing [my PhD thesis](http://arxiv.org/abs/0809.1760). 2-dimensional kernels are in general faithful (and not pseudomonic), so I'm inclined to think of the faithful kind of subobjects as the 2-dimensional counterpart of 1-dimensional subobjects.
 
-=--
+[[Toby Bartels]]: My opinion is more with Mathieu than Mike (although perhaps this is because I don\'t fully appreciate pseudomonic functors). In fact, I submit that Mathieu\'s description of how Grp becomes a na&#239;ve subcategory of Set is how ordinary mathematicians actually use the language, down to the idea that being a group is a property of a set. On the other hand, since there\'s a very important sense that being a group is *not* just a property of a set (that the forgetful functor, while faithful, is *not* full, not even on isomorphisms), probably we should fight against this abuse of language by not using the word 'subcategory' in this na&#239;ve sense (hence nor in its equivalence-invariant generalisation). Either Mathieu\'s version ('subcategory' means full subcategory, hence given by a full and faithful functor) or Mike\'s version ('subcategory' means pseudomic subcategory, hence given by a pseudomonic functor) will do this.
