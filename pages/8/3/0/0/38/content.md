@@ -58,57 +58,30 @@ bla bla bla
 
 
 #entries related to Lie theory#
-
 * [[BRST complex]]
-
 * [[BV theory]]
-
-* [[CartesianSpaces]]
-
+* [[CartSp]]
 * [[Chevalley-Eilenberg algebra]]
-
 * [[CoDGCA]]
-
-* [[L-infinity algebra]]
-
-* [[L-infinity algebroid]]
-
+* [[L-infinity-algebra]]
+* [[L-infinity-algebroid]]
 * [[Lie algebra]]
-
 * [[Lie algebroid]]
-
 * [[Lie groupoid]]
-
 * [[Lie integration]]
-
 * [[Lie theory for stacky Lie groupoids]]
-
 * [[Lie's three theorems]]
-
 * [[Morita equivalence]]
-
 * [[NQ-supermanifold]]
-
 * [[coalgebra]]
-
 * [[differentiable stack]]
-
 * [[differential forms on supermanifolds]]
-
 * [[examples for Lagrangian BV]]
-
 * [[free graded co-commutative coalgebra]]
-
 * [[fundamental groupoid]]
-
 * [[generalized smooth algebra]]
-
 * [[generalized smooth space]]
-
-* [[infinity-Lie-groupoid]]
-
+* [[Lie infinity-groupoid]]
 * [[integration over supermanifolds]]
-
 * [[space and quantity]]
-
 * [[volume of Lie groupoids]]
