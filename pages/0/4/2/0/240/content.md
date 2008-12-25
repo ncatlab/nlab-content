@@ -2,7 +2,7 @@ A [[topos]] $E$ is __well-pointed__ if the [[terminal object]] 1 is a [[generato
 
 # Boolean properties
 
-Assuming that one accepts [[excluded middle]] in one\'s metalogic, a well-pointed topos is also a [[boolean topos]]. Similarly, a well-pointed topos is _two-valued_; that is, the only global elements of the [[subobject classifier]] are [[true]] and [[false]] (and these are distinct, by nondegeneracy).
+Assuming that one accepts [[excluded middle]] in one\'s metalogic, a well-pointed topos is also a [[boolean topos]]. Similarly, a well-pointed topos is _two-valued_; that is, the only global elements of the [[subobject classifier]] are $\top$ and $\bot$ (and these are distinct, by nondegeneracy).
 
 # Logical properties
 
@@ -10,6 +10,6 @@ The main point of a well-pointed topos in logic is the equivalence of *external*
 
 # In constructive mathematics
 
-To maintain this logical result in constructive mathematics (that is, without excluded middle in the metalogic), one must add to the nondegeneracy requirement that the terminal object be [[indecomposable object|indecomposable]] and [[projective object|projective]]. These are analogues, for [[disjunction]] and [[existential quantification]], of the nondegeneracy requirement (which is about falsehood).
+To maintain this logical result in constructive mathematics (that is, without excluded middle in the metalogic), one must add to the nondegeneracy requirement that the terminal object be [[indecomposable object|indecomposable]] and [[projective object|projective]]. These are analogues, for [[disjunction]] and [[existential quantification]], of the nondegeneracy requirement (which is about [[falsehood]]).
 
 Incidentally, a well-pointed topos is still two-valued in the sense that a global element of the subobject classifier is false if (and only if, given nondegeneracy) it is not true.  However, it is not two-valued in the (classically equivalent) sense that every global element of the subobject classifier is either true or false.
