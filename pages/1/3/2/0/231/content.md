@@ -43,8 +43,8 @@ called the _right unitor_, which must satisfy a couple of equations, most notabl
 There is a [[strict 2-category]] MonCat with:
 
 * monoidal categories as objects,
-* [[monoidal functors]] as morphisms, 
-* [[monoidal natural transformations]] as 2-morphisms.
+* [[monoidal functor]]s as morphisms, 
+* [[monoidal natural transformation]]s as 2-morphisms.
 
 For definitions of all these concepts, and a precise description of the 'couple of equations' alluded to here, see:
 
