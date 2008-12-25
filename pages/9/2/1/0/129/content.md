@@ -8,6 +8,8 @@ works (if it does).
 
 Clues:
 
+* [Measure on Paths](http://golem.ph.utexas.edu/category/2007/02/isham_on_quantization.html#c007907)
+
 * ["arrow theory"](http://golem.ph.utexas.edu/category/2007/05/the_first_edge_of_the_cube.html#c009337)
 
 * [Wedge product](http://golem.ph.utexas.edu/category/2007/09/arrowtheoretic_differential_th_3.html#c020832)
