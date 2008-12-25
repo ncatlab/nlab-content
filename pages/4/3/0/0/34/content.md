@@ -50,51 +50,27 @@ Recently $(\infty, 1)$-categories (see [[homotopy theory]]) have attracted much 
 There's a lot more to add here, even if we restrict ourselves to very general texts.  (More specialized stuff should go under more specialized subcategories!)
 
 #Entries on Higher Category Theory#
-
 * [[(-1)-category]]
-
 * [[2-morphism]]
-
-* $(\infty,1)$-[[infinity comma one category]]
-
+* $(\infty,1)$-[[(infinity,1)-category]]
 * $\infty$-[[infinity-stack|stack]]
-
 * [[bicategory]]
-
 * [[category]]
-
 * [[crossed complex]]
-
 * [[cubical category]]
-
 * [[cubical set]]
-
 * [[directed n-graph]]
-
 * [[double category]]
-
 * [[geometric definition of higher category]]
-
-* [[geometric shapes for higher catgories]]
-
+* [[geometric shapes for higher structures]]
 * [[globular set]]
-
 * [[infinity-groupoid]]
-
 * [[infinity-stack]]
-
 * [[k-surjectivity]]
-
 * [[omega-category]]
-
 * [[omega-groupoid]]
-
 * [[quasi-category]]
-
 * [[simplicial category]]
-
 * [[simplicial set]]
-
 * [[Segal category]]
-
 * [[vertical categorification]]
