@@ -28,3 +28,7 @@ _[[Eric Forgy|Eric]] says_: The wikipedia article on [Category of fields](http:/
 If fields are less than perfectly natural, then vector spaces are somewhat troublesome too. But what about the [tangent bundle of a category](http://golem.ph.utexas.edu/category/2007/07/tangent_categories.html)? That idea is very pretty. In what way does it fail to converge to the usual concept of a tangent space, which should contain vector spaces (obviously)? <nowiki>[Edit: Sorry. The answer was in the very link I provided, but any further light on the subject would be appreciated.]</nowiki>
 
 _Toby says_: Rather than think about the category of fields, shouldn\'t we think of fields as [[dichotomy between nice objects and nice categories|nice objects in the nice category]] of rings? Modules, after all, behave beautifully.
+
+***
+
+_[[Eric Forgy|Eric]] says_: Could you somehow define a vector space as a "degroupoidified" groupoid? That would be pretty.
