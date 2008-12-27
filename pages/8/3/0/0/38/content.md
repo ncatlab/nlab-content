@@ -8,11 +8,11 @@ The relation between Lie algebras and Lie groups was established by [[Lie's thre
 
 In a categorical context there are the usual two generalization of Lie groups: the [[horizontal categorification]] -- or oidification -- which adds _more objects_ and leads to _Lie groupoids_; and the [[vertical categorification]] which adds _higher morphisms_ and leads to $\infty$-Lie groups and $\infty$-Lie groupoids. This is described below.
 
-In the course of these categorifications one usually finds that working [[internalization|internal to]] $Manifolds$ is too restrictive for many purposes. Therefore higher Lie theory is often considered internal to [[generalized smooth space]]s.
+In the course of these categorifications one usually finds that working [[internalization|internal to]] $Manifolds$ is too restrictive for many purposes. Therefore higher Lie theory is often considered internal to [[|generalized smooth spaces]].
 
 #Oidified Lie theory: Lie groupoids and Lie algebroids#
 
-[[horizontal categorification|Oidification]] leads from Lie groups to [[Lie groupoid]]s
+[[horizontal categorification|Oidification]] leads from Lie groups to [[Lie groupoid|Lie groupoids]]
 and from [[Lie algebra|Lie algebras]] to 
 [[Lie algebroid|Lie algebroids]].
 
@@ -33,7 +33,7 @@ The canonical review for the integration theory of Lie algebroids (and hence for
 
 * Marius Crainic, Rui Loja Fernandes, _Lectures on Integrability of Lie Brackets_, ([arXiv](http://aps.arxiv.org/abs/math.DG/0611259),[blog](http://golem.ph.utexas.edu/category/2008/05/integrability_of_lie_brackets.html)).
 
-This focuses on integration to [[Lie groupoid]]s proper, i.e. to integration internal to manifolds. In contrast to Lie algebras, not every Lie algebroid integrates to such a proper [[Lie groupoid]], though: the space of morphisms of the Lie groupoid is a quotient of paths in the Lie algebroid by Lie algebroid homotopies, and this quotient may not exist as a manifold. (Crainic and Fernandes [discuss](http://aps.arxiv.org/abs/math.DG/0611259) the obstruction in detail.) But the quotient of course always exists as a [[weak quotient]] or [[homotopy quotient]] or [[stacky quotient]] itself. The result of realizing the space of morphisms of the integrated Lie algebroid as such a stacky quotient has been studied by [Chenchang Zhu](http://chenchangzhu.blogspot.com/):
+This focuses on integration to [[Lie groupoid|Lie groupoids]] proper, i.e. to integration internal to manifolds. In contrast to Lie algebras, not every Lie algebroid integrates to such a proper [[Lie groupoid]], though: the space of morphisms of the Lie groupoid is a quotient of paths in the Lie algebroid by Lie algebroid homotopies, and this quotient may not exist as a manifold. (Crainic and Fernandes [discuss](http://aps.arxiv.org/abs/math.DG/0611259) the obstruction in detail.) But the quotient of course always exists as a [[weak quotient]] or [[homotopy quotient]] or [[stacky quotient]] itself. The result of realizing the space of morphisms of the integrated Lie algebroid as such a stacky quotient has been studied by [Chenchang Zhu](http://chenchangzhu.blogspot.com/):
 [[Lie theory for stacky Lie groupoids]]
 
 #Higher Lie theory: $\infty$-Lie groupoids and $L_\infty$-algebroids#
