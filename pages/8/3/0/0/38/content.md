@@ -57,7 +57,7 @@ bla bla bla
 
 
 
-#entries related to Lie theory#
+#Entries related to Lie theory#
 * [[BRST complex]]
 * [[BV theory]]
 * [[CartSp]]
