@@ -8,7 +8,7 @@ The **cardinality** of a [[groupoid]] $X$ is
 
 $$|X| = \sum_{[x]} \frac{1}{|Aut(x)|}$$
 
-where the sum is over isomorphism classes of objects of $X$ and $|Aut(x)|$ is the cardinality of the automorphism group of an object $x$ in $X$. If this sum diverges, we say $|X| = \infty$.
+where the sum is over isomorphism classes of objects of $X$ and $|Aut(x)|$ is the cardinality of the automorphism group of an object $x$ in $X$. If this sum diverges, we say $|X| = \infty$. If the sum converges, we say $X$ is **tame**.
 
 #Examples#
 
