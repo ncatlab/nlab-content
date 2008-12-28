@@ -6,69 +6,11 @@ $$discrete space \Longleftrightarrow discrete differential forms$$
 
 works (if it does).
 
-##What I'm Reading##
-
-* [Groupoidification Made Easy](http://math.ucr.edu/home/baez/groupoidification.pdf)
-
-* [Tales of Groupoification](http://math.ucr.edu/home/baez/groupoidification/)
-
-* [Lectures on Integrability of Lie Brackets](http://aps.arxiv.org/abs/math.DG/0611259)
-
-
-##Clues##
-
-* [AQFT from Lattice Models](http://golem.ph.utexas.edu/category/2008/06/aqft_from_lattice_models.html)
-
-* Noncommutative $\infty$-Lie theory and AQFT ([blog](http://golem.ph.utexas.edu/category/2008/07/causality_in_discrete_models_o.html#c018030))
-
-* [Measure on Paths](http://golem.ph.utexas.edu/category/2007/02/isham_on_quantization.html#c007907)
-
-* ["arrow theory"](http://golem.ph.utexas.edu/category/2007/05/the_first_edge_of_the_cube.html#c009337)
-
-* [Wedge product](http://golem.ph.utexas.edu/category/2007/09/arrowtheoretic_differential_th_3.html#c020832)
-
-* [Arrow fields](http://golem.ph.utexas.edu/category/2007/02/isham_on_quantization.html)
-
-* [Arrow category](http://unapologetic.wordpress.com/2007/05/23/arrow-categories/)
-
-* Parity complexes?
-
-* [Tangent category, Yoneda, Cayley](http://golem.ph.utexas.edu/category/2007/08/more_on_tangent_categories.html#c011458)
-
-* [Groupoidification](http://golem.ph.utexas.edu/category/2008/06/an_exercise_in_groupoidificati.html)
-
-* [Double category (page 6)](http://arxiv.org/abs/q-alg/9705009) I'm starting to think that a 2-diamond should somehow be related to a double category. Or maybe even [double bicategories](http://arxiv.org/abs/math/0611930)
-
-* [Lectures on Integrability of Lie Brackets](http://aps.arxiv.org/abs/math.DG/0611259)
-
-A very readable introduction to Lie groupoids and Lie algebroids
+##Discrete Smooth Spaces
 
 **Warning: Under Construction**
 
-##Discrete Smooth Spaces
-
-My current motivation is to try to discretize the definition of a Frolicher space (from [Andrew Stacey's paper](http://arxiv.org/abs/0802.2225)).
-
-***
-
-###Definition (Frolicher) 
-
-A Frolicher space is a triple $(X,C,F)$ where $X$ is a set, $C$ is a family of curves in $X$, i.e. a subset of $Map(R,X)$, and $F$ is a
-family of functionals on $X$, i.e. a subset of $Map(X,R)$. 
-
-
-The sets $C$ and $F$ have to satisfy the following compatibility condition: a curve $c: R\to X$ is in $C$ if and only if $fc\in C^\infty(R,R)$ for all functionals $f\in F$, and similarly a functional $f: X\to R$ is in
-$F$ if and only if $fc\in C^\infty(R,R)$ for all curves $c: R\to X$.
-
-***
-
-I guess the first place to start is to define what I mean by a discrete space.
-
-***
-
-###Definition (Discrete Space)
-
-Given a [[directed graph]] $G$, a discrete space is the [[DGA|graded differential algebra]] (DGA) 
+Given a [[directed graph]] $G$, a **discrete space** is the space [[space and quantity|probed by]] the [[DGA|graded differential algebra]] (DGA) 
 
 $$\Omega(G) = \bigoplus_{r\ge 0} \Omega^r(G)$$
 
@@ -177,28 +119,34 @@ and (12) may be rewritten as
 \pi_v (d\pi_{v'}) \pi_{v'} 
 = \sum_{e\in s^{-1}(v)\cap t^{-1}(v')} \alpha_e \pi_e.
 \]
+
 +--{.query}
 
 Question: This looks suspiciously like it could be related to a discrete Feynman integral to me, i.e. a weighted sum of paths connecting vertex $v$ and $v'$. Could it be that $\alpha_e$ is related to the Leinster measure?
 
 =--
 
-***
+###References
 
-+--{.query}
-Note: I just found that what I am trying to outline here is very closely related to this paper: [C* Algebras of Infinite Graphs](http://www.ams.org/proc/2000-128-08/S0002-9939-99-05378-2/S0002-9939-99-05378-2.pdf)
-=--
-
-+--{.query}
-Note: The plot thickens. Reference tracking opened a floodgate. I'm trying to track down [Graphs, groupoids and Cuntz-Krieger algebras](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.38.93), but in the meantime came across [Fundamental groupoids of k-graphs](http://www.emis.de/journals/NYJM/j/2004/10-12.pdf). A $k$-graph seems to be a lot like a diamond complex.
-=--
-
-+--{.query}
-Note: This looks like a very interesting and readable thesis: [$C^*$-algebras associated to higher-rank graphs](http://www.newcastle.edu.au/service/library/adt/uploads/approved/adt-NNCU20060327.122628/public/02whole.pdf)
-=--
-
-***
-
+* [Groupoidification Made Easy](http://math.ucr.edu/home/baez/groupoidification.pdf)
+* [Tales of Groupoification](http://math.ucr.edu/home/baez/groupoidification/)
+* [Lectures on Integrability of Lie Brackets](http://aps.arxiv.org/abs/math.DG/0611259)
+* [AQFT from Lattice Models](http://golem.ph.utexas.edu/category/2008/06/aqft_from_lattice_models.html)
+* Noncommutative $\infty$-Lie theory and AQFT ([blog](http://golem.ph.utexas.edu/category/2008/07/causality_in_discrete_models_o.html#c018030))
+* [Measure on Paths](http://golem.ph.utexas.edu/category/2007/02/isham_on_quantization.html#c007907)
+* ["arrow theory"](http://golem.ph.utexas.edu/category/2007/05/the_first_edge_of_the_cube.html#c009337)
+* [Wedge product](http://golem.ph.utexas.edu/category/2007/09/arrowtheoretic_differential_th_3.html#c020832)
+* [Arrow fields](http://golem.ph.utexas.edu/category/2007/02/isham_on_quantization.html)
+* [Arrow category](http://unapologetic.wordpress.com/2007/05/23/arrow-categories/)
+* Parity complexes?
+* [Tangent category, Yoneda, Cayley](http://golem.ph.utexas.edu/category/2007/08/more_on_tangent_categories.html#c011458)
+* [Groupoidification](http://golem.ph.utexas.edu/category/2008/06/an_exercise_in_groupoidificati.html)
+* [Double category (page 6)](http://arxiv.org/abs/q-alg/9705009) I'm starting to think that a 2-diamond should somehow be related to a double category. Or maybe even [double bicategories](http://arxiv.org/abs/math/0611930)
+* [Lectures on Integrability of Lie Brackets](http://aps.arxiv.org/abs/math.DG/0611259): A very readable introduction to Lie groupoids and Lie algebroids
+* [C* Algebras of Infinite Graphs](http://www.ams.org/proc/2000-128-08/S0002-9939-99-05378-2/S0002-9939-99-05378-2.pdf)
+* [Graphs, groupoids and Cuntz-Krieger algebras](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.38.93)
+* [Fundamental groupoids of k-graphs](http://www.emis.de/journals/NYJM/j/2004/10-12.pdf)
+* [C*-algebras associated to higher-rank graphs](http://www.newcastle.edu.au/service/library/adt/uploads/approved/adt-NNCU20060327.122628/public/02whole.pdf)
 ###Research Papers
 
 [Discrete differential geometry on causal graphs](http://arxiv.org/abs/math-ph/0407005), with
