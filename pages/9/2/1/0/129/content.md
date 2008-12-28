@@ -17,6 +17,8 @@ works (if it does).
 
 ##Clues##
 
+* [AQFT from Lattice Models](http://golem.ph.utexas.edu/category/2008/06/aqft_from_lattice_models.html)
+
 * Noncommutative $\infty$-Lie theory and AQFT ([blog](http://golem.ph.utexas.edu/category/2008/07/causality_in_discrete_models_o.html#c018030))
 
 * [Measure on Paths](http://golem.ph.utexas.edu/category/2007/02/isham_on_quantization.html#c007907)
