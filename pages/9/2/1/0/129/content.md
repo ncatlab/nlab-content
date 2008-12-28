@@ -6,7 +6,16 @@ $$discrete space \Longleftrightarrow discrete differential forms$$
 
 works (if it does).
 
-Clues:
+##What I'm Reading##
+
+* [Groupoidification Made Easy](http://math.ucr.edu/home/baez/groupoidification.pdf)
+
+* [Tales of Groupoification](http://math.ucr.edu/home/baez/groupoidification/)
+
+* [Lectures on Integrability of Lie Brackets](http://aps.arxiv.org/abs/math.DG/0611259)
+
+
+##Clues##
 
 * Noncommutative $\infty$-Lie theory and AQFT ([blog](http://golem.ph.utexas.edu/category/2008/07/causality_in_discrete_models_o.html#c018030))
 
@@ -27,6 +36,10 @@ Clues:
 * [Groupoidification](http://golem.ph.utexas.edu/category/2008/06/an_exercise_in_groupoidificati.html)
 
 * [Double category (page 6)](http://arxiv.org/abs/q-alg/9705009) I'm starting to think that a 2-diamond should somehow be related to a double category. Or maybe even [double bicategories](http://arxiv.org/abs/math/0611930)
+
+* [Lectures on Integrability of Lie Brackets](http://aps.arxiv.org/abs/math.DG/0611259)
+
+A very readable introduction to Lie groupoids and Lie algebroids
 
 **Warning: Under Construction**
 
