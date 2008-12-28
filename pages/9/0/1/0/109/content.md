@@ -105,7 +105,7 @@ We say
 Next there is the corresponding [[Weil algebra]],
 equivalently 
 the algebra of differential forms on our Lie algebroid,
-equivalently the algebra of [[differential forms in supergeometry|functions on the shifted
+equivalently the algebra of [[superdifferential form|functions on the shifted
 tangent bundle on our Lie algebroid]]:
 
 $$
