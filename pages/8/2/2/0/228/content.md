@@ -1,41 +1,137 @@
-A set $S$ equipped with an __apartness relation__ is a [[category]] (with $S$ as the set of objects) [[enriched category|enriched]] over the [[cartesian category]] $(-1)\Cat^\op$, that is the [[opposite category|opposite]] of the [[poset]] of $(-1)$-[[(-1)-category|categories]] (truth values), made into a [[monoidal category]] using [[disjunction]]. By the law of [[excluded middle]] (which says that $(-1)\Cat$ is self-dual under [[negation]]), this is equivalent to equipping $S$ with an [[equivalence relation]] (which makes $S$ a category enriched over the cartesian category of $(-1)$-categories *itself*). But in constructive mathematics (or interpreted [[internalization|internally]]), it is a richer concept with a topological flavour.
+A set $S$ equipped with an __apartness relation__ is a [[groupoid]] (with $S$ as the set of objects) [[enriched category|enriched]] over the [[cartesian category]] $(-1)\Cat^\op$, that is the [[opposite category|opposite]] of the [[poset]] of $(-1)$-[[(-1)-category|categories]] (truth values), made into a [[monoidal category]] using [[disjunction]]. By the law of [[excluded middle]] (which says that $(-1)\Cat$ is self-dual under [[negation]]), this is equivalent to equipping $S$ with an [[equivalence relation]] (which makes $S$ a groupoid enriched over the cartesian category of $(-1)$-categories *itself*). But in constructive mathematics (or interpreted [[internalization|internally]]), it is a richer concept with a topological flavour.
+
+Of course, nobody but a category-theorist would use the above as a *definition* of an apartness relation. Normally, one defines an apartness relation on $S$ as a binary relation $\#$ satisyfing these three properties:
+* [[reflexive relation|irreflexivity]]: for all $x: S$, $x \# x$ is false;
+* [[symmetric relation|symmetry]]: for all $x, y: S$, if $y # x$, then $x # y$;
+* [[transitive relation|comparison]]: for all $x, y, z: S$, if $x # z$, then $x # y$ or $y # z$.
+
+(Notice that these are dual to the axioms for an [[equivalence relation]]; like those axioms, these correspond to [[identity|identities]], [[inverse]]s, and [[composition]] in a groupoid.)
+
+The [[negation]] of an apartness relation is an equivalence relation. (The converse of this is equivalent to [[excluded middle]].) An apartness relation is _tight_ if this equivalence relation is [[equality]]; any apartness relation defines a tight apartness relation on the [[quotient]]. A tight apartness relation, also called an _inequality_, is often written $\ne$ instead of $\#$, but keep in mind that $\ne$ is not the negation of $=$; rather, $=$ is the negation of $\ne$. (So inequality, when it exists, is more basic than equality.)
+
+If $S$ and $T$ are both sets equipped with apartness relations, then a [[function]] $f: S \to T$ is _strongly extensional_ if $x \# y$ whenever $f(x) \# f(y)$; that is, $f$ reflects apartness. The strongly extensional functions are precisely the [[enriched functor]]s between $(-1)\Cat^\op$-enriched groupoids, so they are the correct morphisms. (Note that there is no nontrivial notion of enriched [[natural isomorphism]], at least not when the apartness in $T$ is strict.)
+
+# The category of inequality spaces
+
+By an _inequality space_, I mean a set equipped with a tight apartness relation. By a _map_, I mean a strongly extensional function between inequality spaces.
+
+The category of inequality spaces has all (small) [[limit]]s, [[created limit|created]] by the [[forgetful functor]] to [[Set]]. (For example, $(a,b) \ne (x,y)$ iff $a \ne x$ or $b \ne y$.) Similarly, it has all finite [[coproduct]]s, and it has [[quotient]]s of [[equivalence relation]]s. In fact, this category is a [[complete category|complete]] [[pretopos]]. It is *not*, however, a [[Grothendieck topos]] (or even a [[topos]] at all), because it doesn\'t have all infnite coproducts. (To be precise, the statement that it has all small coproducts, or even that it has a subobject classifier, seems to be equivalent to excluded middle.)
+
+We can say, however, that it has coproducts indexed by inequality spaces, although to make this precise is a triviality. (Unless it satisfies Mike Shulman\'s internal version of replacement, or something nontrivial like that?) More interestingly, it has products indexed by inequality spaces; that is, it is (even locally) a [[cartesian closed category]]. In particular, given inequality spaces $X$ and $Y$, the set $\StrExt(X,Y)$ of maps from $X$ to $Y$ becomes an inequality space under the rule that $f \ne g$ iff $f(x) \ne g(x)$ for some $x: X$.
+
+If you generalise from inequality spaces to apartness spaces, then you get (at first) a different category. However, now you also have 2-morphisms which serve to identify unequal but equivalent (that is, not apart) elements of a space, so the resulting bicategory is equivalent to the category of inequality spaces.
+
+# Topological aspects
+
+Let $S$ be a set equipped with a tight apartness relation $\ne$. Using $\ne$, many topological notions may be defined on $S$. (It\'s not really necessary that the apartness be tight; this corresponds to the T<sub>0</sub> separation axiom in topology.)
+
+If $U$ is a [[subset]] of $S$ and $x$ is an element, then $U$ is a $\ne$-_neighbourhood_ (or $\ne$-_neighborhood_) of $x$ if, given any $y: S$, $x \ne y$ or $y \in U$; note that $x \in U$ by irreflexivity. The neighbourhoods of $x$ form a filter: a superset of a neighbourhood is a neigbhourhood, and the intersection of 0 or 2 (hence of any finite number) of neighbourhoods is a neighbourhood.
+
+A subset $G$ is $\ne$-_open_ if it\'s a neighbourhood of all of its members. The open subsets form a topology (in the sense of Bourbaki): any union of open subsets is open, and the intersection of 0 or 2 (hence of any finite number) of open subsets is open.
+
+The $\ne$-_complement_ of $x$ is the subset $\{y: S | x \ne y\}$; this is open by comparison. More generally, the $\ne$-complement of any subset $A$ is the set $\tilde{A}$, defined as:
+$$\tilde{A} := \{y | \forall{x} \in A: x \ne y\}.$$
+This is not in general open, but you would use it where you would normally use the set-theoretic complement. However, if $A$ is open to begin with, then $\tilde{A}$ equals the set-theoretic complement.
+
+If $x \ne y$, then $x \in \tilde{y}$ and $y \in \tilde{x}$, which shows that $(S, \ne)$ satisfies the T<sub>1</sub> separation axiom. Symmetry is important here; if we removed symmetry from the axioms of apartness, then we would still get a T<sub>0</sub> topology, but it would not be T<sub>1</sub>. This is a version of the fact that failure of T<sub>1</sub> is given by a [[partial order]] (or a [[preorder]] if T<sub>0</sub> might also fail).
+
+The $\ne$-_closure_ $\bar{A}$ of a subset $A$ is the complement of its complement. This closure is a closure operator (in the sense of Moore): $A \subset \bar{A}$, $\overline{\bar{A}} = \bar{A}$ (in fact, $\overline{\tilde{A}} = \tilde{A}$), $\bar{A} \subset \bar{B}$ whenever $A \subset B$, $\overline{S} = S$ (in fact, $\bar{\empty} = \empty$ too), and $\overline{A \cap B} = \bar{A} \cap \bar{B}$ (but *not* $\overline{A \cup B} = \bar{A} \cup \bar{B}$).
+
+The _antigraph_ of a function $f: S \to T$ is
+$$\{(x,y) | x: S, y: T | f(x) \ne y\}.$$
+Recall that in ordinary topology, a function between Hausdorff spaces is continuous iff its [[graph of a function|graph]] is closed. Similarly, a function $f: S \to T$ is strongly extensional iff its antigraph is open. (Then the graph of $f$ is the complement of the antigraph.)
+
+One important topological concept that doesn\'t appear classically is locatedness; in an inequality space, a subset $A$ is _located_ if, given any point $x$ and any neighbourhood $U$ of $x$, the subset $U \cap (A \cup \tilde{A})$ is [[occupied set|occupied]] (that is, it has a point). Note that every point is located, as is the complement of any located set. (For an example of a set that need not be located, consider $\{x | p\}$, where $p$ is an arbitrary truth value. In an occupied space, this set is located iff $p$ is true or false.)
+
+## Relation to metric spaces
+
+Recall that, as Bill Lawvere taught us, a [[metric space]] is a groupoid enriched over the category $([0,\infty[^\op,+)$ of nonnegative real numbers, ordered in reverse, and made monoidal under addition. (Actually, you get a metric only if you impose a tightness condition, although again you can recover this up to equivalence from the 2-morphisms. Furthermore, Lawvere advocated using $[0,\infty]$ instead of $[0,\infty[$, and also dropping the symmetry requirement to get enriched categories instead of groupoids. Thus, he dealt with extended quasipseudometric spaces. These details are not really important here.)
+
+There is a monoidal functor from $([0,\infty[^\op,+)$ to $(-1)\Cat^\op$ that maps a nonnegative real number $x$ to the truth value of the statement that $x > 0$. Accordingly, any (symmetric) metric space becomes an inequality space, and any function satisfying $d(f(x),f(y)) \leq d(x,y)$) is strongly extensional.
+
+The topological properties of metric spaces fit well with those of inequality spaces if you always work in this direction. For example, a set which is $d$-open will also be $\ne$-open, but not necessarily the other way around. Similarly, a (merely) continuous function between metric spaces is (still) strongly extensional, and a $d$-located set is $\ne$-located. (A subset $A$ of metric space is located iff, given any point $x$,
+$$\inf_{y \in A} d(x,y)$$
+exists in $[0,\infty]$, which again is nontrivial constructively.)
+
+In analysis, many spaces are given by families of pseudometrics; these also become inequality spaces by declearing that $x \ne y$ iff $d(x,y) > 0$ for some pseudometric $d$ in the family. (This will actually be a *tight* apartness iff the family of pseudometrics is separating.) Classically, any [[uniform space]] may be given by a family of pseudometrics, but this doesn\'t hold constructively. In particular, a topological group may not be an inequality group (as in the next section).
+
+# In algebra
+
+Since inequality spaces have finite limits, the usual constructions of [[universal algebra]] apply; it\'s straightforward to define inequality [[group]]s, inequality [[ring]]s, and so on.
+
+The various subsets that appear in algebra (such as [[ideal]]s and [[coset]]s) become less fundamental than certain subsets that are, classically, simply their complements. For example, a left ideal in a ring $R$ is a subset $I$ such that $0 \in I$, $x + y \in I$ whenever $x, y \in I$, and $x y \in I$ whenever $x \in I$. But a left _antiideal_ in $R$ is a subset $A$ such that $0 \notin A$, $x \notin I$ or $y \notin I$ whenever $x + y \notin I$, and $x \notin I$ whenever $x y \notin I$. Notice that an antiideal is necessarily $\ne$-open (using that the ring operations are strongly extensional), and its complement is an ideal. But the converse of this is not constructively valid, so antiideals are more fundamental than ideals, in an inequality ring.
+
+Prime ideals are even more interesting. A two-sided antiideal $A$ (so also satisfying that $y \notin I$ whenever $x y \notin I$) is _antiprime_ if $1 \notin I$ and $x y \notin I$ whenever $x, y \notin I$. Now the complement of an antiprime antiideal may *not* be a prime ideal (as normally defined). But in fact, it is antiprime antiideals that are more important in constructive algebra. In particular, an [[integral domain]] in constructive algebra is an inequality ring in which the antiideal of nonzero elements is antiprime.
+
 
 # Discussion
 
+
+
 _[[Urs Schreiber|Urs]] says_: What you say at the entry [[vector space]] about the relation between apartness relations and topology and the continuum sounds very interesting. It would be nice if you could move these comments here and maybe flesh them out a little. Because, while it sounds interesting, I don't yet understand what you are saying!
+
+
 
 (_[[Toby Bartels|Toby]] replies_: I will try to write a bit about the topological ideas that come up. But keep in mind that classically it is all trivial, unless you rephrase it internal to some more general notion of category than a boolean topos, and these things are not normally so phrased.
 
+
+
 _[[Urs Schreiber|Urs]] replies to the reply:_ Okay, I'll keep it in mind. But I am still interested! :-)
 
+
+
 )
+
+
 
 I already have problems with the above definition. When you say "coproduct" do you mean to equip $\{true, false\}$ with the monoidal structure given by logical OR? This is the only meaning I can give this word here, but a category enriched over $(\{true, false\},\otimes = OR)$ seems necessarily  to be an indiscrete groupoid over its set of objects. (Because $hom(a,a) = true$ for all objects $a$ and then $hom(a,b) = hom(a,a) OR hom(a,b) = true$, too, for all $b$.)
 
-(_[[Toby Bartels|Toby]] replies_: To begin with, I defined it incorrectly; the trouble with these slick category-theoretic definitions is that a small error makes things completely messed up! I rephrased it quite a bit, but the key point is the new word 'opposite'. That said, your analysis of even my original definition is unsound; keep in mind that the unit of disjunction is *false*.)
+
+
+(_[[Toby Bartels|Toby]] replies_: To begin with, I defined it incorrectly; the trouble with these slick category-theoretic definitions is that a small error makes things completely messed up! I rephrased it quite a bit, but the key point is the new word 'opposite'. That said, your analysis of even my original definition is unsound; keep in mind that the unit of disjunction is *false*.
+
+_Toby adds_: Also, it\'s an enriched *groupoid*, not an enriched *category*.)
+
+
 
 I am also not sure in which sense you refer to the law of the excluded middle. Should we maybe more generally say that the 0-category of (-1)-categories internal to a given topos $T$ is the subobject classifier, $(-1)Cat := \Omega$?
 
+
+
 (_[[Toby Bartels|Toby]] replies_: Yes, that is correct; $(-1)\Cat = \Omega$. Even when $T := \Set$, you have $(-1)\Cat = \{\top, \bot\}$ *only* if you believe excluded middle, which constructivists do not. Thus, constructivists will talk about apartness relations in $\Set$, while a classical mathematician will have to put the discussion internal to $T$ to get nontrivial results.
+
+
 
 _[[Urs Schreiber|Urs]] replies to the reply:_ I like this statement "$(-1)\Cat = \Omega$". Would we also want to say $(-2)Cat = \{1 \stackrel{\top}{\to} \Omega\}$?
 
+
+
 )
+
+
 
 ## Constructive mathematics
 
+
+
 _[[Urs Schreiber|Urs]] asks_: Can you explicitly specify for me the topos which describes Sets as viewed by constructivists? Or is that the wrong question to ask?
+
+
 
 _[[Toby Bartels|Toby]] replies_: It is the wrong question to ask. Constructivists believe that the category of sets is the category of sets; what more can they say? It is the classical mathematicians that go around making unjustifiable claims about this category, such as that it is boolean, or is a topos, or has choice.
 
+
+
 Instead, the questions to ask are: What do constructivists believe about the category of sets? and What sort of category\'s internal logic serves as a model of constructivist reasoning? The first question asks what axioms to use as an [[ETCS]]-like foundation of mathematics if you are a constructivist; the second question asks how a classical mathematician can understand constructive mathematics by interpreting it as a discussion of internalisation. Note that these are different questions; even for classical mathematics, the answers to the questions are different. (In particular, everybody agrees that the category of sets is [[well-pointed topos|well-pointed]], but classical mathematicians cannot understand constructive mathematics by doing it internal to a well-pointed topos, since *they* can prove that such a topos must be boolean!)
+
+
 
 What\'s more, the answers to these questions depend on what constructivists you\'re talking about! A simple answer, good for many purposes, is that a constructivist believes that the category of sets is a well-pointed topos (whereas a classical mathematician believes that it\'s a well-pointed topos satisfying choice). This is actually a fairly strong statement that many constructivists would disagree with (and then again, it is too weak for some reasoning that some constructivists would accept), but at least it does not imply excluded middle. Correspondingly, a simple answer for what kind of category to internalise constructive mathematics in is that it should be done internal to an arbitrary topos; again, this allows one to produce proofs that many constructivists would dispute, but at least not any proof of excluded middle.
 
+
+
 I know, I know, you want to know *which* topos! But do you see how unfair this question is? A constructivist might as well ask you which topos to interpret classical mathematics in, and you would reply 'Why, $\Set$, of course!'. But this would tell the constructivist nothing, since the constructivist is also working with $\Set$. What you need to tell the constructivist is that you assume that $\Set$ has choice; *then* the constructivist can follow your reasoning. To be sure, there are various specific toposes (the effective topos, the realisability topos, the category of sheaves on the real line, etc) that are useful for understanding some aspects of constructive reasoning, but you can\'t point to any of them and say 'There, *that\'s* the topos that constructive mathematics is done in.', because none of those toposes is the category of sets.
 
-_[[Mike Shulman|Mike]] comments_: While I agree with everything Toby has said, I think there is nevertheless a particular topos in which a classical mathematician could work internally to reproduce constructive mathematics: the [[free topos]].  Of course, this is something of a cheat, since the free topos is defined just so that the only statements true in it are those which are intuitionistically provable, so it's not particularly helpful to the classical mathematician trying to understand the intuitionist.  Neither do I mean that an intuitionist would claim that the free topos _is_ the category of sets.  But it nevertheless encapsulates everything the intuitionist can _prove_ about the category of sets.
+_Mike comments_: While I agree with everything Toby has said, I think there is nevertheless a particular topos in which a classical mathematician could work internally to reproduce constructive mathematics: the [[free topos]]. Of course, this is something of a cheat, since the free topos is defined just so that the only statements true in it are those which are intuitionistically provable, so it's not particularly helpful to the classical mathematician trying to understand the intuitionist. Neither do I mean that an intuitionist would claim that the free topos *is* the category of sets. But it nevertheless encapsulates everything the intuitionist can *prove* about the category of sets.
 
-Toby replies: OK, that\'s a good point, Mike. Similarly, one can understand the classical mathematician by working in the free boolean topos (or rather, the free topos-with-choice, although I\'m not entirely certain that this exists). But classical mathematicians don\'t believe that this topos *is* the category of sets either. (Indeed, to assume that it is probably amounts to something like the axiom of constructibility. &#8249;insert standard disclaimer that 'constructible' &#8800; 'constructive'.&#8250;).
-
-=--
+_Toby replies_: OK, that's a good point, Mike. Similarly, one can understand the classical mathematician by working in the free boolean topos (or rather, the free topos-with-choice, although I'm not entirely certain that this exists). But classical mathematicians don't believe that this topos *is* the category of sets either. (Indeed, to assume that it is probably amounts to something like the axiom of constructibility. &#8249;insert standard disclaimer that 'constructible' &#8800; 'constructive'.&#8250;).
