@@ -1,4 +1,4 @@
-##Idea##
+#Idea#
 
 A (directed) graph is a collection of edges which may stretch between (ordered) pairs of "points", called _vertices_.
 
@@ -12,7 +12,7 @@ $$F : DiGraph \to Cat $$
 
 sending each directed graph to the [[free functor|free]] category on that graph.  A free category on a graph is called a [[quiver]].
 
-##Definition##
+#Definition#
 
 An **abstract directed graph** $X$ is a [[category]] with
 
@@ -37,7 +37,7 @@ The category of directed graphs in $C$, [[DiGraph]], is the [[functor category]]
 
 In the basic case $C = Set$, we call this category the category of [[presheaf|presheaves]] on $X^{op}$.  So: the category of directed graphs, [[DiGraph]], is the category of presheaves on the category $X^{op}$.
 
-##Remarks##
+#Remarks#
 
 Let $G_0 = G(X_0)$ and $G_1 = G(X_1)$.
 
@@ -47,6 +47,27 @@ Let $G_0 = G(X_0)$ and $G_1 = G(X_1)$.
 
 * Directed graphs includes multigraphs, i.e. graphs with distinct edges $e,e'\in G_1$ such that $s(e) = s(e')$ and $t(e) = t(e')$, as well as loops, i.e. edges with $s(e) = t(e)$.
 
-##See also##
+#Discussion#
+
+_[[Eric Forgy|Eric]] asks_: Given a small [[category]] $C$ whose set of objects is countable, I'm interested in finding the smallest [[directed graph]] $G$ such that its free category/quiver $F(G)$ is equivalent to $C$. Is that a standard construction? If so, what would it be called? Does that even make any sense?
+
+Here is one idea I had...
+
+Consider the nerve $N(C)$ and set $G_0 = N(C)_0$.
+
+Next, note that each non-degenerate $2$-simplex $\sigma\in N(C)_2$ is bounded by two distinct (non-identity) morphisms $f:x\to y$, $g:y\to z$ and the composite morphism $gf:x\to z$.
+
+The set of directed edges $G_1$ can then be thought of as the subset of $N(C)_1$ consisting of only those morphisms that are not identities and are not composites.
+
+Then, unless I'm mistaken, $C$ can be recovered from $G = (G_0,G_1)$ by
+
+1. Inserting identity morphisms over each node and
+1. Inserting composite morphisms into each path of length 2
+
+In the language of [our paper](http://arxiv.org/abs/math-ph/0407005), I would say that $G$ has no loops and no intermediate edges. These kinds of graphs have some nice properties when you put a discrete calculus on them. 
+
+I suspect that given a small (countable) category $C$ the smallest directed graph $G$ that can reproduce it has an interesting discrete calculus that should have something interesting to say about $C$.
+
+#See also#
 ***
 * [[directed n-graph|Directed n-graph]]
