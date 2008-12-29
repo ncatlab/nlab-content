@@ -148,7 +148,8 @@ Question: This looks suspiciously like it could be related to a discrete Feynman
 * [C* Algebras of Infinite Graphs](http://www.ams.org/proc/2000-128-08/S0002-9939-99-05378-2/S0002-9939-99-05378-2.pdf)
 * [Graphs, groupoids and Cuntz-Krieger algebras](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.38.93)
 * [Fundamental groupoids of k-graphs](http://www.emis.de/journals/NYJM/j/2004/10-12.pdf)
-* [C*-algebras associated to higher-rank graphs](http://www.newcastle.edu.au/service/library/adt/uploads/approved/adt-NNCU20060327.122628/public/02whole.pdf)
+* [C* algebras associated to higher-rank graphs](http://www.newcastle.edu.au/service/library/adt/uploads/approved/adt-NNCU20060327.122628/public/02whole.pdf)
+
 ###Research Papers
 
 [Discrete differential geometry on causal graphs](http://arxiv.org/abs/math-ph/0407005), with
