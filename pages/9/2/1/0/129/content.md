@@ -128,6 +128,7 @@ Question: This looks suspiciously like it could be related to a discrete Feynman
 
 ###References
 
+* [Codescent and the van Kampen Theorem](http://golem.ph.utexas.edu/category/2008/10/codescent_and_the_van_kempen_t.html): A lot of good definitions
 * [Integration (String Coffee Table)](http://golem.ph.utexas.edu/string/archives/000818.html#c003722)
 * [Metric Spaces, Generalized Logic, and Closed Categories](http://www.tac.mta.ca/tac/reprints/articles/1/tr1.pdf)
 * [Groupoidification Made Easy](http://math.ucr.edu/home/baez/groupoidification.pdf)
