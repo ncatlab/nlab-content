@@ -41,7 +41,7 @@ The _antigraph_ of a function $f: S \to T$ is
 $$\{(x,y) | x: S, y: T | f(x) \ne y\}.$$
 Recall that in ordinary topology, a function between Hausdorff spaces is continuous iff its [[graph of a function|graph]] is closed. Similarly, a function $f: S \to T$ is strongly extensional iff its antigraph is open. (Then the graph of $f$ is the complement of the antigraph.)
 
-One important topological concept that doesn\'t appear classically is locatedness; in an inequality space, a subset $A$ is _located_ if, given any point $x$ and any neighbourhood $U$ of $x$, the subset $U \cap (A \cup \tilde{A})$ is [[occupied set|occupied]] (that is, it has a point). Note that every point is located, as is the complement of any located set. (For an example of a set that need not be located, consider $\{x | p\}$, where $p$ is an arbitrary truth value. In an occupied space, this set is located iff $p$ is true or false.)
+One important topological concept that doesn\'t appear classically is locatedness; in an inequality space, a subset $A$ is _located_ if, given any point $x$ and any neighbourhood $U$ of $x$, either $U \cap A$ is [[occupied set|occupied]] (that is, it has a point) or some neighbourhood of $x$ (not necessarily $U$) is contained in $\tilde A$. Note that every point is located. (For an example of a set that need not be located, consider $\{x: S | p\}$, where $p$ is an arbitrary truth value. In an occupied space, this set is located iff $p$ is true or false.)
 
 ## Relation to metric spaces
 
@@ -49,9 +49,7 @@ Recall that, as Bill Lawvere taught us, a [[metric space]] is a groupoid enriche
 
 There is a monoidal functor from $([0,\infty[^\op,+)$ to $(-1)\Cat^\op$ that maps a nonnegative real number $x$ to the truth value of the statement that $x > 0$. Accordingly, any (symmetric) metric space becomes an inequality space, and any function satisfying $d(f(x),f(y)) \leq d(x,y)$) is strongly extensional.
 
-The topological properties of metric spaces fit well with those of inequality spaces if you always work in this direction. For example, a set which is $d$-open will also be $\ne$-open, but not necessarily the other way around. Similarly, a (merely) continuous function between metric spaces is (still) strongly extensional, and a $d$-located set is $\ne$-located. (A subset $A$ of metric space is located iff, given any point $x$,
-$$\inf_{y \in A} d(x,y)$$
-exists in $[0,\infty]$, which again is nontrivial constructively.)
+The topological properties of metric spaces fit well with those of inequality spaces if you always work in this direction. For example, a set which is $d$-open will also be $\ne$-open, but not necessarily the other way around. Similarly, a (merely) continuous function between metric spaces is (still) strongly extensional.
 
 In analysis, many spaces are given by families of pseudometrics; these also become inequality spaces by declearing that $x \ne y$ iff $d(x,y) > 0$ for some pseudometric $d$ in the family. (This will actually be a *tight* apartness iff the family of pseudometrics is separating.) Classically, any [[uniform space]] may be given by a family of pseudometrics, but this doesn\'t hold constructively. In particular, a topological group may not be an inequality group (as in the next section).
 
@@ -59,9 +57,13 @@ In analysis, many spaces are given by families of pseudometrics; these also beco
 
 Since inequality spaces have finite limits, the usual constructions of [[universal algebra]] apply; it\'s straightforward to define inequality [[group]]s, inequality [[ring]]s, and so on.
 
-The various subsets that appear in algebra (such as [[ideal]]s and [[coset]]s) become less fundamental than certain subsets that are, classically, simply their complements. For example, a left ideal in a ring $R$ is a subset $I$ such that $0 \in I$, $x + y \in I$ whenever $x, y \in I$, and $x y \in I$ whenever $x \in I$. But a left _antiideal_ in $R$ is a subset $A$ such that $0 \notin A$, $x \notin I$ or $y \notin I$ whenever $x + y \notin I$, and $x \notin I$ whenever $x y \notin I$. Notice that an antiideal is necessarily $\ne$-open (using that the ring operations are strongly extensional), and its complement is an ideal. But the converse of this is not constructively valid, so antiideals are more fundamental than ideals, in an inequality ring.
+The various subsets that appear in algebra (such as [[ideal]]s and [[coset]]s) become less fundamental than certain subsets that are, classically, simply their complements. For example, a left ideal in a ring $R$ is a subset $I$ such that $0 \in I$, $x + y \in I$ whenever $x, y \in I$, and $x y \in I$ whenever $x \in I$. But a left _antiideal_ in $R$ is a subset $A$ such that $0 \in A$ is false, $x \in A$ or $y \in A$ whenever $x + y \in A$, and $x \in A$ whenever $x y \in A$. Notice that an antiideal is necessarily $\ne$-open (using that the ring operations are strongly extensional), and its complement is an ideal. But the converse of this is not constructively valid, so antiideals are more fundamental than ideals, in an inequality ring.
 
-Prime ideals are even more interesting. A two-sided antiideal $A$ (so also satisfying that $y \notin I$ whenever $x y \notin I$) is _antiprime_ if $1 \notin I$ and $x y \notin I$ whenever $x, y \notin I$. Now the complement of an antiprime antiideal may *not* be a prime ideal (as normally defined). But in fact, it is antiprime antiideals that are more important in constructive algebra. In particular, an [[integral domain]] in constructive algebra is an inequality ring in which the antiideal of nonzero elements is antiprime.
+Prime ideals are even more interesting. A two-sided antiideal $A$ (so also satisfying that $y \in A$ whenever $x y \in A$) is _antiprime_ if $1 \in A$ and $x y \in A$ whenever $x, y \in A$. Now the complement of an antiprime antiideal may *not* be a prime ideal (as normally defined). But in fact, it is antiprime antiideals that are more important in constructive algebra. In particular, an [[integral domain]] in constructive algebra is an inequality ring in which the antiideal of nonzero elements is antiprime.
+
+# References
+
+The notion of apartness as fundamental in metric spaces may be found in [[Errett Bishop]]'s _Foundations of Constructive Analysis_ (1967) (or the 1985 edition with Douglas Bridges, _Constructive Analysis_). But as I recall, this doesn\'t introduce the concept in general; that came in Anne Troelstra\'s and Dirk van Dalen\'s _Constructivism in Mathematics_ (1988). For apartness in algebra, see _A Course in Constructive Algebra_ (also 1988), by Ray Mines, Fred Richman, and Wim Ruitenburg. The great references for all things topology in constructive mathematics is the Ph.D. thesis of Frank Waaldijk, _[Modern Intuitionist Topology](http://home.hetnet.nl/~sufra/modern%20intuitionistic%20topology.pdf)_ (1996). Please note that I ([[Toby Bartels]]) have not read the algebra book.
 
 
 # Discussion
