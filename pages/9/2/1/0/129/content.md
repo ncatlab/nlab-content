@@ -128,6 +128,8 @@ Question: This looks suspiciously like it could be related to a discrete Feynman
 
 ###References
 
+* [Integration (String Coffee Table)](http://golem.ph.utexas.edu/string/archives/000818.html#c003722)
+* [Metric Spaces, Generalized Logic, and Closed Categories](http://www.tac.mta.ca/tac/reprints/articles/1/tr1.pdf)
 * [Groupoidification Made Easy](http://math.ucr.edu/home/baez/groupoidification.pdf)
 * [Tales of Groupoification](http://math.ucr.edu/home/baez/groupoidification/)
 * [Lectures on Integrability of Lie Brackets](http://aps.arxiv.org/abs/math.DG/0611259)
@@ -151,5 +153,28 @@ Question: This looks suspiciously like it could be related to a discrete Feynman
 
 [Discrete differential geometry on causal graphs](http://arxiv.org/abs/math-ph/0407005), with
 Urs Schreiber (2004).
+
+###Comment: Groupoidifcation Made Easy###
+
+**Under Construction**
+
+I lost some sleep thinking about this homework assignment, i.e. being the first in my block to groupoidify something.
+
+I probably read this somewhere, but don't remember where...
+
+Let $C_0 = \{H,T\}$, $C_1 = \{HH,HT,TH,TT\}$ and consider the span
+
+$$
+  \array{
+     && C_1
+      \\
+      & {}^{f}\swarrow
+      && \searrow^{i}
+     \\
+     C_0
+     &&&&
+     C_0
+  }
+$$
 
 category: people
