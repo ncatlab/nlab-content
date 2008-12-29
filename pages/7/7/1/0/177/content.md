@@ -73,6 +73,10 @@ _free resolutions_ aka _cofibrant replacements_ of categories. There is not in g
 
 I'd like to reply to this in detail, because it is an interesting and important construction, but right now I need to do something else. But you can maybe get an impression by looking at the blog entry [Freely generated omega-Categories](http://golem.ph.utexas.edu/category/2008/10/freely_generated_categories.html).
 
+_[[Eric Forgy|Eric]] says_: Great! Thanks for the references. I would find it to be very neat (and surprising) if any general category can be recovered this way, which is why I was specifically considering "countable" categories, where the set of objects does not form a continuum. In the continuum, you could imagine being able to sneak two infinitesimal composable morphisms onto any morphism so that all morphisms are effectively composites. When the objects do not form a continuum, you can imagine a set of "primordial" morphisms that cannot be written as composites of other morphisms.
+
+It seems that when every morphism is a composite of other morphisms, i.e. there are no primordial morphisms, it would be difficult to find the directed graph I'm looking for. If higher degree edges somehow provide the magic ingredient, that would be neat.
+
 #See also#
 ***
 * [[directed n-graph|Directed n-graph]]
