@@ -68,6 +68,11 @@ In the language of [our paper](http://arxiv.org/abs/math-ph/0407005), I would sa
 
 I suspect that given a small (countable) category $C$ the smallest directed graph $G$ that can reproduce it has an interesting discrete calculus that should have something interesting to say about $C$.
 
+_[[Urs Schreiber|Urs]] says_: You are effectively asking for
+_free resolutions_ aka _cofibrant replacements_ of categories. There is not in general a 1-graph whose free category is equivalent to a given 1-category. But there may be "higher dimensional graphs" in a sense, such that this is true.
+
+I'd like to reply to this in detail, because it is an interesting and important construction, but right now I need to do something else. But you can maybe get an impression by looking at the blog entry [Freely generated omega-Categories](http://golem.ph.utexas.edu/category/2008/10/freely_generated_categories.html).
+
 #See also#
 ***
 * [[directed n-graph|Directed n-graph]]
