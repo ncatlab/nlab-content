@@ -1,5 +1,5 @@
 A _monoidal category_ is a [[category]] $M$ equipped with a [[functor]]
-$$ \otimes M \times M \to M $$
+$$ \otimes : M \times M \to M $$
 called the _tensor product_, an object
 $$ 1 \in M $$
 called the _unit object_, a natural isomorphism
