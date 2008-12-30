@@ -889,5 +889,9 @@ But there is an obvious answer: we want _discussion on the blog_, don't we? The 
 
 =--
 
+_[[Eric Forgy|Eric]] says_: Oh oh! I like the idea of moving the "General Discussion" to the nCafe. That makes a lot of sense. "There to chat, here to work." If something in the General Discussion becomes elevated to actual content, we can always add that content to the nLab, where it will be indexed, etc.
+
+As far as the level of discussion, my opinion is that we should avoid duplicating "standard" definitions as much as possible (especially material that is already on wikipedia) and take this opportunity to present everything arrow theoretically. I almost think of it as a challenge to define every item via diagrams with as few words as possible.
+
 
 category: meta
