@@ -553,6 +553,8 @@ $$
 
 &mdash; [[Jacques Distler|Jacques]]
 
+_[[John Baez|John]] says_: Since all my papers in LaTeX use LaTeX macro package like xypic to draw diagrams, it's quite sad that we need to use something like SVG here.  It means I can't take material from my expository papers and put it on the $n$Lab without redrawing all the diagrams.  And, it means I can't use this environment to write papers without redrawing all the diagrams.  Sigh.
+
 =--
 
 ### Backups
@@ -857,5 +859,26 @@ Wow! I think that I was remembering the RAM limits discussed on the Caf&#233;. 1
 I'm "secretly" (as if it weren't totally obvious) trying to learn enough of the material here at the nLab to be able to frame some of the stuff Urs and I worked on into the context of [[space and quantity]], but where both space and quantity are "discrete". So far I've learned some cool ways (but totally obvious to anyone here) to define [[directed graph|directed graphs]] and I attempted to generalize it to [[directed n-graph|directed n-graphs]] hoping to make a connection to higher categories somehow. However, one barrier for me has been the [[globular set|globular identities]] because the shapes they produce are "globs" or "bigons" which are not what I want for geometrical modeling. I've recently learned about [[double category|double categories]] and they (and their higher dimensional generalizations) seem to be closer to what I'm looking for. In the process of learning about double categories, I've also stumbled onto [[enriched category|bicategories]] as being enriched over [[Cat]], but Urs corrected my Example by specifying that what is really enriched over $Cat$ are strict 2-categories. He then added another example, i.e. a strict $n$-category as being enriched over strict $(n-1)$-categories and stated that as $n\to\infty$ you get $\omega$-[[omega-category|categories]]. This latter example gives some hint as to why the globular identities are there. Is that essentially why $\omega$-categories are defined with globular identities so that you can iterate the construction via enrichment? Any words of wisdom/clarification on the subject or even pointers to further references for [[geometric definition of higher category|geometrical definitions of higher categories]] other than those based on simplices (maybe cubes?)  would be appreciated. - [[Eric Forgy|Eric]]
 
 _[[Eric Forgy|Eric]] says_: By the way, Urs has created a page that begins and mostly ends an answer to the question about shapes here: [[geometric shapes for higher structures]]
+
+#Organizing the Pages
+
+_[[John Baez|John]]_ says: In email, David Corfield asked: "I wonder how we can encourage different levels of explanation. A few slick comments gets a concept across to an expert, while more is needed for the non-expert. Might there be parallel pages for the same entry?
+
+Urs replied: "At least on some entries we already tried to offer different level of explanations. A couple of entries start with a section 'Idea' that offers some heuristic ways to tink about the concept. Then comes the formal 'Definition' and then after that some helpful 'Remarks' etc.
+I'd think this kind of approach can be used to provide information of use for a wide range of readers."
+
+I replied: "Multiple pages are a bit awkward... Wikipedia does fairly well at this with just one page, and we can do even better, just by starting with easy stuff and working our way up to harder stuff.
+
+Urs has described how some pages, and eventually all, will have several sections.  However, Urs seems to like focusing on high-level folks, while I focus on low-level folks.  So, ultimately, it won't be enough to have just one section called "The Idea".  What "the idea" is depends on how much you know.  So, ultimately, the page should start with a very low-level description of the idea, and later move on to more and more sophisticated versions. 
+
+This will take a while to develop.  I haven't really begun to invest any serious energy in the $n$Lab, since I've been busy finishing papers. 
+
+So, for example, my entry on rings beginning with "a ring is a monoid in Ab" was just a cold splash of water meant to wake up people who aren't used to category theory.  A more sane entry would remind people of the usual definition and then explain how it can be compressed this way.  But this would take longer to write.
+
+I'm even imagining a fiendish plan where I force my grad students to write $n$Lab articles on topics they're learning about.  Not sure that's a good idea.
+
+I'm gonna post this on the nLab general discussion page - that's where this conversation should really be occuring."
+
+By the way, this General Discussion page needs a table of contents, with links, for people to find information on different topics.  It's sprawling out of control.  It's also possible we should use _other_ pages for talking about specific math topics like Algebroids or Globular Identities.  Maybe we need a Math Discussion page and a Physics Discussion page?
 
 category: meta
