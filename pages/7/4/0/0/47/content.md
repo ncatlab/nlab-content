@@ -881,4 +881,13 @@ I'm gonna post this on the nLab general discussion page - that's where this conv
 
 By the way, this General Discussion page needs a table of contents, with links, for people to find information on different topics.  It's sprawling out of control.  It's also possible we should use _other_ pages for talking about specific math topics like Algebroids or Globular Identities.  Maybe we need a Math Discussion page and a Physics Discussion page?
 
++-- {commenturs}
+
+[[Urs Schreiber|Urs]] says: I was going to address this, too: this discussion page here does not work well. It is hard to see where the last contribution is.
+
+But there is an obvious answer: we want _discussion on the blog_, don't we? The blog is designed to allow discussion, the wiki to allow incremental collaborative work. We should have our "general discussion" on the $n$Lab over at the $n$Cafe. The additional advantage would be that everybody reading the blog will always be alerted of the discussion which we are having here.
+
+=--
+
+
 category: meta
