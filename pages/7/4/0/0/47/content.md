@@ -893,5 +893,7 @@ _[[Eric Forgy|Eric]] says_: Oh oh! I like the idea of moving the "General Discus
 
 As far as the level of discussion, my opinion is that we should avoid duplicating "standard" definitions as much as possible (especially material that is already on wikipedia) and take this opportunity to present everything arrow theoretically. I almost think of it as a challenge to define every item via diagrams with as few words as possible.
 
+Now that I think of it, there already is an nLab article on the nCafe which is suitable as a General Discussion and some questions I asked here should have probably been asked there. Sorry about that. This page could serve as a summary of anything there worth keeping.
+
 
 category: meta
