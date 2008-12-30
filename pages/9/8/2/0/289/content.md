@@ -1,6 +1,6 @@
 #Idea#
 
-Groupoiddification is a program based on the observation that the operation of pull-pushing bundles of [[groupoid]]s
+Groupoiddification is a program based on the observation that the operation of pull-pushing bundles of [[groupoid|groupoids]]
 
 $$
   \array{
@@ -12,7 +12,7 @@ $$
   }
 $$
 
-through [[span]]s 
+through [[span|spans]] 
 
 $$
   \array{
@@ -24,7 +24,7 @@ $$
   }
 $$
 
-of [[groupoid]]s becomes a linear map acting on vector spaces after taking [[groupoid cardinality]] -- after "degroupoidification".
+of [[groupoid|groupoids]] becomes a linear map acting on vector spaces after taking [[groupoid cardinality]] -- after "degroupoidification".
 
 #References#
 
