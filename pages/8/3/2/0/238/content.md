@@ -12,6 +12,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+* [[Urs Schreiber|Urs]] (Dec 30): started entries on [[groupoidification]] and [[quantum field theory]].
+
 * [[John Baez|John]] (Dec 29): I'm going to make a little entry about the term [[evil]].
 
 * [[Toby Bartels|Toby]] (Dec 28): I added a bunch of stuff about [[apartness relation|apartness relations]]. (Most of it is probably even correct.) I tried to say as much as I could in terms of enriched category theory, but the topic is really analysis.
