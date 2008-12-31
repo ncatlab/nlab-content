@@ -1,13 +1,27 @@
+
 #Higher categories in quantum field theory#
 
-Even though _quantum field theory_ has been around for decades and has been very successful both as a phenomenological model in exerimental physics as well as a source of deep mathemtical structures and theorems, from a mathematical perspective it is still to some extent mysterious. 
+Even though _quantum field theory_ has been around for decades and has been very successful both as a phenomenological model in exerimental physics as well as a source of deep mathemtical structures and theorems, from a mathematical perspective it is still to a large extent mysterious. 
 
-There are essentially two alternative approaches for formalizing quantum field theory and making it accessible to mathemtatical treatment: [[AQFT]] and [[FQFT]]. Both lead to [[higher category theory|higher categorical structures]].
+There are essentially two alternative approaches for formalizing quantum field theory and making it accessible to mathemtatical treatment: 
 
-There are some indications that such [[higher category theory|higher categorical structures]] are essential for clarifying some of the mysteries of quantum field theory, such as the [[path integral]]. While this is far from being clarified, this is what motivates research in higher categorical structures in QFT. 
+ * _algebraic quantum field theory_: [[AQFT]] 
+
+ * _functorial quantum field theory_: [[FQFT]]. 
+
+(Other structures which are used to define quantum field theories, such as [[vertex operator algebra]]s are now more or less understood to be special cases of these two approached.)
+
+Both [[AQFT]] and [[FQFT]] lead to [[higher category theory|higher categorical structures]]. In fact, a couple of important higher categorical structures were motivated from and first considered in the context of quantum field theory. For instance 
+
+* John Roberts first conceived the idea of $\infty$-categorical [[nonabelian cohomology]] in the context of [[AQFT]].
+
+* the notion of the "$\infty$-category of [[cobordism]]s", wich is thought to play a role analogous to and as fundamental as the [[sphere spectrum]] was motivated from [[FQFT]].
+
+There are some indications that such [[higher category theory|higher categorical structures]] such as appearing in [[groupoidification]] are essential for clarifying some of the mysteries of quantum field theory, such as the [[path integral]]. While this is far from being clarified, this is what motivates research in higher categorical structures in QFT. 
 
 Our is the age to figure this out.
 
-##References##
 
-_[[Urs Schreiber|Urs]] says_: I have in mind a long commented list of literature here. Hopefully I'll find the time soon.
+#References#
+
+For references see [[FQFT]] and [[AQFT]].
