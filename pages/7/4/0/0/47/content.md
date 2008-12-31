@@ -895,5 +895,8 @@ As far as the level of discussion, my opinion is that we should avoid duplicatin
 
 Now that I think of it, there already is an nLab article on the nCafe which is suitable as a General Discussion and some questions I asked here should have probably been asked there. Sorry about that. This page could serve as a summary of anything there worth keeping.
 
++--{.query}
+This very discussion is [now at the Caf&#233;](http://golem.ph.utexas.edu/category/2008/12/organizing_the_pages_at_nlab.html)!
+=--
 
 category: meta
