@@ -34,3 +34,6 @@ Also see John Armstrong's article: [Enriched categories](http://unapologetic.wor
 
 
 (In all these cases the standard monoidal structure on the monoidal categories is understood.)
+
+* A (slightly generalized) metric space is a category enriched over the positive real numbers, where $\otimes$ is $+$.
+* A poset is a category enriched over the category $\{ 0 \leq 1 \}$, where $\otimes$ is $\wedge$.
