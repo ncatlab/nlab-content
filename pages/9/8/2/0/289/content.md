@@ -1,6 +1,6 @@
 #Idea#
 
-Groupoiddification is a program based on the observation that the operation of pull-pushing bundles of [[groupoid|groupoids]]
+__Groupoidification__ is a program based on the observation that the operation of pull-pushing bundles of [[groupoid|groupoids]]
 
 $$
   \array{
