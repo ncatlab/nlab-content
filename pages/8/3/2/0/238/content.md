@@ -1,7 +1,6 @@
-A list of all entries lately edited is given at 
+A list of all entries lately edited is given at
 
-
-* [Recently Revised](http://ncatlab.org/nlab/recently_revised). 
+* [Recently Revised](http://ncatlab.org/nlab/recently_revised).
 
 But since that list tends to contain lots of very minor changes and does not make it easy to spot the important new changes, in order to facilitate cooperation we here list comments on changes we made. 
 
@@ -11,6 +10,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 
 ***
+
+* [[Toby Bartels|Toby]] (2008-12-31): I have a precise definition of [[evil]], so I put that in.
 
 * [[Urs Schreiber|Urs]] (Dec 31): started [[FQFT]], currently just a commented list of literature trying to give an impression of the idea. Also adjusted [[quantum field theory]] and created [[vertex operator algebra]].
 
