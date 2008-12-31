@@ -32,8 +32,8 @@ Also see John Armstrong's article: [Enriched categories](http://unapologetic.wor
 
 * A strict $n$-category is a category enriched over strict $(n-1)$-categories. In the limit $n \to \infty$ this leads to [[omega-category|omega-categories]].
 
-
 (In all these cases the standard monoidal structure on the monoidal categories is understood.)
 
-* A (slightly generalized) metric space is a category enriched over the positive real numbers, where $\otimes$ is $+$.
-* A poset is a category enriched over the category $\{ 0 \leq 1 \}$, where $\otimes$ is $\wedge$.
+* A (slightly generalized) [[metric space]] is a category enriched over the positive real numbers, where $\otimes$ is $+$.
+* A [[poset]] is a category enriched over the category of [[truth value]]s, where $\otimes$ is [[conjunction]].
+* An [[apartness relation|apartness space]] is a [[groupoid]] enriched over the opposite of the category of truth values, where $\otimes$ is [[disjunction]].
