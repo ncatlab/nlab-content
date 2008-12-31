@@ -1,3 +1,5 @@
+# The idea
+
 In [[category theory]], a concept is (half-jokingly) said to be _evil_ if it involves equations between [[object|objects]].  More precisely:
 
 * A property of categories is _non-evil_ if it when it holds for a [[category]] $C$, it also holds for any category $C'$ that is [[equivalence|equivalent]] to $C$.
@@ -16,7 +18,7 @@ If $X$ is an $\infty$-[[infinity-groupoid|groupoid]], then a property $P$ of obj
 
 The operation-version of evil gives the property-version if you think of a property as an operation taking values in the $\infty$-groupoid (in fact a $0$-groupoid, or [[set]]) of [[(-1)-category|truth values]]. (The property-version also gives the operation-version, although that is a little more involved.) An operation will be non-evil if it is given (as the object-operation) by a [[functor]] ('$\infty$-functor', if you prefer). A property is non-evil precisely iff it\'s a functor to the $\infty$-groupoid of truth values.
 
-This definition should be the conclusion of a theorem that using certain language (including avoiding euqations between objects of a category) makes it impossible to say anything evil. [[Michael Makkai]] works on such a language, [[FOLDS]] ('first-order logic with dependent sorts').
+This definition should be the conclusion of a theorem that using certain language (including avoiding equations between objects of a category) makes it impossible to say anything evil. [[Michael Makkai]] works on such a language, [[FOLDS]] ('first-order logic with dependent sorts').  To learn more, visit his [webpage](http://www.math.mcgill.ca/makkai/).  
 
 #Discussion
 
