@@ -12,6 +12,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+* [[Urs Schreiber|Urs]] (Dec 31): started [[FQFT]], currently just a commented list of literature trying to give an impression of the idea. Also adjusted [[quantum field theory]] and created [[vertex operator algebra]].
+
 * [[Urs Schreiber|Urs]] (Dec 30): started entries on [[groupoidification]] and [[quantum field theory]].
 
 * [[John Baez|John]] (Dec 29): I'm going to make a little entry about the term [[evil]].
