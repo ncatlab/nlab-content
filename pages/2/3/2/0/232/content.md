@@ -15,8 +15,7 @@ More generally, we may allow $K$ to be a [[multicategory]], a [[bicategory]], a 
 
 The details are an exercise for future readers of (contributors to) this page. If you get stuck, try Max Kelly's book, cited in the page on [[enriched category theory]].
 
-Also see John Armstrong's article: [Enriched categories](http://unapologetic.wordpress.com/2007/08/13/enriched-categories/).
-
+Also see John Armstrong's article: [Enriched categories](http://unapologetic.wordpress.com/2007/08/13/enriched-categories/). 
 
 ##Remarks##
 
@@ -34,6 +33,6 @@ Also see John Armstrong's article: [Enriched categories](http://unapologetic.wor
 
 (In all these cases the standard monoidal structure on the monoidal categories is understood.)
 
-* A (slightly generalized) [[metric space]] is a category enriched over the positive real numbers, where $\otimes$ is $+$.
+* A (Lawvere) [[metric space]] is a category enriched over the poset $([0, \infty], \geq)$ of extended positive real numbers, where $\otimes$ is $+$.
 * A [[poset]] is a category enriched over the category of [[truth value]]s, where $\otimes$ is [[conjunction]].
 * An [[apartness relation|apartness space]] is a [[groupoid]] enriched over the opposite of the category of truth values, where $\otimes$ is [[disjunction]].
