@@ -1,4 +1,4 @@
-If $C$ is a [[finitely complete category]], a _subobject classifier_ is a [[representable|representing object]] for the functor
+If $C$ is a [[finitely complete category]], a _subobject classifier_ is a [[representable functor|representing object]] for the functor
 $$Sub: C^{op} \to Set$$
 which assigns to each object $c$ of $C$ its set of [[subobject]]s. In [[topos theory]], the subobject classifier is traditionally denoted $\Omega$; it is also called the "[[truth value]] object".
 
