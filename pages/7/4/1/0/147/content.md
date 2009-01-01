@@ -4,5 +4,12 @@ The structure of a _site_ on a category $C$ is a structure that regards each obj
 
 #Definition#
 
-...
+* A _sieve_ (Fr. _crible_) on an object $c$ is a subfunctor of the [[representable functor]] $\hom_C(-, c): C^{op} \to Set$. 
 
+Thus, a sieve on $c$, $i: F \hookrightarrow \hom(-, c)$, may be described as a function which assigns to each object $d$ a collection of morphisms $f: d \to c$ into $c$. Naturality of the inclusion $i$ means that whenever $f: d \to c$ belongs to the sieve and $g: e \to d$ is any morphism, then $f g: e \to c$ also belongs to the sieve. 
+
+* A Grothendieck topology assigns to each object $c$ a collection of sieves on $c$ which are called _covering sieves_, satisfying the following axioms: 
+: The maximal sieve $id: \hom(-, c) \hookroghtarrow \hom(-, c)$ is always a covering sieve; 
+: 
+
+...
