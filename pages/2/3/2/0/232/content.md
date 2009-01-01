@@ -13,7 +13,7 @@ More generally, we may allow $K$ to be a [[multicategory]], a [[bicategory]], a 
 
 #The Details#
 
-The details are an exercise for future readers of (contributors to) this page. If you get stuck, try Max Kelly's book, cited in the page on [[enriched category theory]].
+The details are an exercise for future contributors to this page. If you get stuck, try Max Kelly's book, cited in the page on [[enriched category theory]].
 
 Also see John Armstrong's article: [Enriched categories](http://unapologetic.wordpress.com/2007/08/13/enriched-categories/). 
 
