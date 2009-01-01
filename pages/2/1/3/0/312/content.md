@@ -1,4 +1,4 @@
-In category theory, a _subobject_ of an object $c$ of a category $C$ is an isomorphism class of monos $i: a \to c$ into $c$. (Two morphisms $i: a \to c$, $j: b \to c$ are _isomorphic_ if there exists an isomorphism $k: b \to c$ such that $i = j k$.) 
+In category theory, a **subobject** of an object $c$ of a category $C$ is an isomorphism class of monos $i: a \to c$ into $c$. (Two morphisms $i: a \to c$, $j: b \to c$ are _isomorphic_ if there exists an isomorphism $k: b \to c$ such that $i = j k$.) 
 
 Monos into an object $c$ are [[preorder|preordered]] by a relation 
 
