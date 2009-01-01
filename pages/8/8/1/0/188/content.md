@@ -71,8 +71,8 @@ In summary, it is important to make people understand that groups can be identif
 
 #Generalizations#
 
-The concept _monoid_ makes sense in any [[monoidal category]] $(C, \otimes)$: a monoid in $C$ is the [[hom-object]] of a $C$-enriched category with a single object.
+The concept _monoid_ makes sense in any [[monoidal category]] $(C, \otimes)$: a monoid in $C$ is an object $c$ equipped with a multiplication $\mu: c \otimes c \to c$ and a unit $\eta: I \to c$ satisfying evident associativity and unit axioms. Equivalently, a monoid is the [[hom-object]] of a $C$-enriched category with a single object.
 
 For instance a "linear monoid" is a monoid in $Vect$, hence an [[algebra]]. 
 
-Accordingly, the concept monoid makes sense in any [[bicategory]] $B$: a monoid in $B$  is the [[hom-object]] of a $B$-enriched category with a single object. Equivalently, this is the same as a [[monad]] in $B$.
+Accordingly, the concept of monoid makes sense in any [[bicategory]] $B$: for any object $a$ of $B$, the local hom-category $B(a, a)$ carries a monoidal category structure, and a monoid in $B$ is a monoid $A: a \to a$ in such a monoidal category. A monoid in $B$ may also be described as the [[hom-object]] of a $B$-[[enriched category]] with a single object. Equivalently, this is the same as a [[monad]] in $B$.
