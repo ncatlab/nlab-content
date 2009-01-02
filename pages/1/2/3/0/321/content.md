@@ -21,7 +21,63 @@ Note that a span with $f = 1$ is just a morphism from $x$ to $y$, while a span w
 
 A span in $C^op$ is called a _cospan_ in $C$.  A [[cobordism]] is an example of a cospan in the category of smooth manifolds, and this nicely illustrates the symmetry between source and target.
 
-If the category $C$ has [[pullback|pullbacks]], we can compose spans and obtain a [[bicategory]] $Span(C)$ with:
+If the category $C$ has [[pullback|pullbacks]], we can compose spans.  Namely, given a span from $x$ to $y$ and a span from $y$ to $z$:
+$$
+  \array{
+     && s &&&& t
+      \\
+      & {}^{f}\swarrow
+      && \searrow^{g}
+       &
+       & {}^{h}\swarrow
+      && \searrow^{i}
+     \\
+     x
+     &&&&
+     y
+     &&&&
+     z
+  }
+$$
+we can take a pullback in the middle:
+$$
+  \array{
+     &&&& s t 
+     \\& 
+    &&
+      {}^{p_s}\swarrow
+      && \searrow^{p_t}
+    \\
+     && s &&&& t
+      \\
+      & {}^{f}\swarrow
+      && \searrow^{g}
+       &
+       & {}^{h}\swarrow
+      && \searrow^{i}
+     \\
+     x
+     &&&&
+     y
+     &&&&
+     z
+  }
+$$
+and obtain a span from $x$ to $z$:
+$$
+  \array{
+     && s t
+      \\
+      & {}^{f p_s}\swarrow
+      && \searrow^{i p_t}
+     \\
+     x
+     &&&&
+     z
+  }
+$$
+
+This way of composing spans lets us define a [[bicategory]] $Span(C)$ with:
 
 * objects of $C$ as objects
 * spans as morphisms
