@@ -12,6 +12,7 @@ But maybe surprisingly, category theory turns out to be much more than the study
 * [[category algebra]]
 * [[category theory]]
 * [[composition]]
+* [[diagram]]
 * [[dichotomy between nice objects and nice categories]]
 * [[directed graph]]
 * [[directed n-graph]]
@@ -32,6 +33,7 @@ But maybe surprisingly, category theory turns out to be much more than the study
 * [[functor]]
 * [[functor category]]
 * [[fundamental groupoid]]
+* [[global element]]
 * [[globe]]
 * [[globular set]]
 * [[group]]
@@ -48,6 +50,7 @@ But maybe surprisingly, category theory turns out to be much more than the study
 * [[internalization]]
 * [[isomorphism]]
 * [[k-surjectivity]]
+* [[limit]]
 * [[locally small category]]
 * [[monoid]]
 * [[monoidal category]]
@@ -72,9 +75,16 @@ But maybe surprisingly, category theory turns out to be much more than the study
 * [[symmetric monoidal category]]
 * [[target]]
 * [[tensor product]]
+* [[terminal object]]
 * [[topos]]
 * [[vertical categorification]]
 
 +--{.query}
 Wouldn\'t it be simpler to list the entries that *aren\'t* related to category theory?
+
+[[Urs Schreiber|Urs]] says: I do this for the following reasons: 
+
+a) I want eventually all the encyclopedic entries on the $n$Lab to be listed in the main headline entries such as [[sheaf and topos theory]] so that people can efficiently see which information exists on the $n$Lab and search for keywords.
+
+b) I expect that eventually pure category theoretic definitions will not dominate the $n$Lab entries. Currently they clearly do, since we found ourselves explaining things from the bottom up. But as soon as we start working more seriously on more specialized topics, for instance on the [[physics]] and [[philosophy]] sections pure category theoretic entries will become the minority. Clearly, I think, we don't want the $n$Lab to be or remain a _just_ category theory dictionary.
 =--
