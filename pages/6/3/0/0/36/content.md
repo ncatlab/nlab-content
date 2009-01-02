@@ -87,7 +87,7 @@ Explicitly, in the case of a ring, $C_0$ is the abelian group of objects and $C_
 * A [[double category]] is a category internal to [[Cat]]. 
 * A [[double bicategory]] is a category internal to [[Bicat]].
 * A _small category_ is a category internal to $Sets$.
-* Historically, the motivating exmaple for was (apparently) the notion of [[Lie groupoid|Lie groupoids]]: groupoids internal to the category [[Diff]] of manifolds. 
+* Historically, the motivating example was (apparently) the notion of [[Lie groupoid|Lie groupoids]]: groupoids internal to the category [[Diff]] of manifolds. 
 
 #Remarks#
 
