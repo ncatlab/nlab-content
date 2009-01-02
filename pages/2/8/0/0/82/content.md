@@ -5,6 +5,7 @@
 * [[classifying topos]]
 * [[foundations]]
 * [[Grothendieck topos]]
+* [[Heyting algebra]]
 * [[infinity-stack]]
 * [[infinity-topos]]
 * [[nonabelian sheaf cohomology]]
