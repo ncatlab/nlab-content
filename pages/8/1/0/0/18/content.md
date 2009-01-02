@@ -1,9 +1,10 @@
-#Alphabetical Index#
+The three areas of interest at the $n$Lab are
 
-...
+ * [[mathematics|Mathematics]]
 
-#By Subject#
+ * [[physics|Physics]]
 
-...
+ * [[philosophy|Philosophy]]
 
-category: meta
+and their interaction with [[category theory]] and [[higher category theory]].
+
