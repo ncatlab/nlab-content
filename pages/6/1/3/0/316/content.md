@@ -1,3 +1,5 @@
+#Definition#
+
 Let $F: J \to C$ be a [[diagram]] in a category $C$. 
 
 If $c$ is an object of $C$, a **cone** from $c$ to $F$ is a [[natural transformation]] 
