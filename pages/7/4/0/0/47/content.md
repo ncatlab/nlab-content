@@ -787,6 +787,8 @@ _[[Eric Forgy|Eric]] says_: Lots of new pages are cropping up with _italics_ ins
 
 _[[John Baez|John]] says_: whoops!  I've been continuing to use italics.  I'll switch to **bold**.
 
+_[[Eric Forgy|Eric]] says_: No worries. It's great to see all the new content :) I was just beginning to wonder if I SHOULD be changing them to **bold**. Reviewing this discussion, though, I think we settled on **bold**. To keep things consistent, I'll continue to switch things as I come across them. Things are really starting to take shape! I'm learning just by editing stuff.
+
 ##Linking to Wikipeda##
 
 _[[Eric Forgy|Eric]]_ says: How would I link to an external address that itself contains parentheses, e.g.
