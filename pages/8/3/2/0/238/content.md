@@ -11,6 +11,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+* (2009-01-02) [[Todd Trimble]] created [[operad]] 
+
 * [[Urs Schreiber|Urs]] (2009-01-02): started adding remarks to [[opposite category]] about the big story hidden here related to [[duality]].
 
 * (2009-01-02) [[Todd Trimble]] has expanded on [[site]] and [[sheaf]]. I have started adding a bit more motivational detail to [[site]] and links to [[descent and codescent|descent]], [[stack]] and [[infinity-stack]]. There is still plenty of room here for saying more about this general story.
