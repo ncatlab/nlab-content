@@ -1,20 +1,20 @@
 ## Overview ##
 
-If $C$ is a locally small category, then we say a functor 
+If $C$ is a [[locally small category]], then we say a [[functor]] 
 
 $$F: C^{op} \to Set$$ 
 
-is _representable_ if it is naturally isomorphic to a hom-functor $\hom_C(-, c): C^{op} \to Set$. The object $c$ is determined uniquely up to isomorphism, and is called a _representing object_ for $F$. 
+is **representable** if it is [[natural isomorphism|naturally isomorphic]] to a [[hom-functor]] $\hom_C(-, c): C^{op} \to Set$. The object $c$ is determined uniquely up to isomorphism, and is called a **representing object** for $F$. 
 
-Representability is one of the most fundamental concepts of category theory, with close ties to the notion of adjoint functor and to the Yoneda lemma. It is the crucial concept underlying the idea of "universal property"; thus for example crucial concepts like "limit", "colimit", "exponential", "Kan extension" and so on are naturally expressed in terms of representing objects. The concept permeates much of algebraic geometry and algebraic topology. 
+Representability is one of the most fundamental concepts of category theory, with close ties to the notion of [[adjoint functor]] and to the [[Yoneda lemma]]. It is the crucial concept underlying the idea of [[universal property]]; thus for example crucial concepts such as "[[limit]]", "[[colimit]]", "[[exponential]]", "[[Kan extension]]" and so on are naturally expressed in terms of representing objects. The concept permeates much of algebraic geometry and algebraic topology. 
 
 ## Discussion ## 
 
-More precisely, given a functor $F: C^{op} \to Set$ (also called a presheaf on $C$), a _representation_ of $F$ is a specified natural isomorphism 
+More precisely, given a functor $F: C^{op} \to Set$ (also called a [[presheaf]] on $C$), a **representation** of $F$ is a specified natural isomorphism 
 
 $$\theta: \hom_C(-, c) \stackrel{\sim}{\to} F$$ 
 
-By the Yoneda lemma, any such transformation $\theta$ (isomorphism or not) is uniquely determined by an element $\xi \in F(c)$. As above, the object $c$ is called a _representing object_ (or often, _universal object_) for $F$, and the element $\xi$ is called a _universal element_ for $F$. Again, it follows from the Yoneda lemma that 
+By the Yoneda lemma, any such transformation $\theta$ (isomorphism or not) is uniquely determined by an element $\xi \in F(c)$. As above, the object $c$ is called a **representing object** (or often, **universal object**) for $F$, and the element $\xi$ is called a **universal element** for $F$. Again, it follows from the Yoneda lemma that...  WHAT?
 
 Following the proof of the Yoneda lemma, representability means precisely this: given any object $x$ of $C$ and any element $\alpha \in F(x)$, there exists a unique morphism $f: x \to c$ such that the function $F(f)$ carries the universal element $\xi \in F(c)$ to $\alpha \in F(x)$. Such a dry formulation fails to convey the remarkable power of this concept, which can really only be appreciated through the myriad examples which illustrate it. 
 
@@ -47,7 +47,7 @@ A representing or universal object for this presheaf is an exponential $d^c$; th
 
 $$e \in \hom_C(d^c \times c, d)$$ 
 
-is a morphism called the _evaluation_ map $eval: d^c \times c \to d$. 
+is a morphism called the **evaluation** map $eval: d^c \times c \to d$. 
 
 ### Example 3: classifying bundles ### 
 
@@ -63,6 +63,6 @@ which carries a (class of a) G-bundle $E \to Y$ to the (class of the) pullback b
 
 $$G-Bund: Ho_{Top}^{op} \to Set.$$ 
 
-A _classifying space_ $BG$ is precisely a representing object for this functor; the universal element is the (class of the) classifying $G$-bundle $[\pi: EG \to BG]$. 
+A **[[classifying space]]** $B G$ is precisely a representing object for this functor; the universal element is the (class of the) classifying $G$-bundle $[\pi: E G \to B G]$. 
 
 These general considerations are quite commonplace in algebraic topology, where they crop up for example in the connection between generalized cohomology theories and spectra; cf. Brown's representability theorem. 
