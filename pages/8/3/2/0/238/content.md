@@ -11,6 +11,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+* [[Owen Biesel]] (2009-01-02): added [[diagram]], [[global element]], [[terminal object]], [[limit]], 
+
 * [[Toby Bartels|Toby]] (2008-12-31): I have a precise definition of [[evil]], so I put that in.
 
 * [[Urs Schreiber|Urs]] (Dec 31): started [[FQFT]], currently just a commented list of literature trying to give an impression of the idea. Also adjusted [[quantum field theory]] and created [[vertex operator algebra]].
