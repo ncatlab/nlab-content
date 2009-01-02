@@ -11,7 +11,11 @@ We are hoping to create here a space for presentation and archival storage of co
 
 But this site has only just started operation.   We are still trying to get it organized.  Your help is appreciated! 
 
-* See the [[HowTo]]-page to get started
+* See [[About]] for some ideas what the $n$Lab is trying to be, and what not.
+
+* See the [[HowTo]]-page to get started if you want to contribute.
+
+* See [[latest changes]] to get an idea of recent activity.
 
 * Go to the [[General Discussion]] page to discuss ideas on how the $n$Lab should work.
 
