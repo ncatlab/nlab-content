@@ -1,10 +1,10 @@
-#Idea
+#The idea
 
 According to the [usual definition](http://en.wikipedia.org/wiki/Partially_ordered_set), a partially ordered set, or 'poset' for short, is a set with a relation $\le$ that is reflexive, transitive and antisymmetric.  
 
-But, we can reformulate this definition by creating a category where the objects are the elements of our poset, and where there is a unique morphism $f: x \to y$ whenever $x \le y$.  This lets us think of a poset as a special sort of category.  
+But we can reformulate this definition by creating a category where the objects are the elements of our poset, and where there is a unique morphism $f: x \to y$ whenever $x \le y$.  This lets us think of a poset as a special sort of category.  
 
-When we do this, we are soon led to contemplate a slight generalization of posets: namely [[preorder|preorders]].
+When we do this, we are soon led to contemplate a slight generalization of posets: namely [[preorder|preorders]].  The reason is that the antisymmetry law, saying that $x \le y$ and $y \le x$ imply $x = y$, is [[evil]] in a certain technical sense.
 
 #Definition
 
