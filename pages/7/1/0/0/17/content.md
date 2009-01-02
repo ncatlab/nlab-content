@@ -1,3 +1,5 @@
+[[!include contents]]
+
 #How to use a Wiki#
 
 Hit "edit page" to see how pages are coded. Use the [[Sandbox|Sandbox]] to warm up.
