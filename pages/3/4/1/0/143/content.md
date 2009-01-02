@@ -20,9 +20,9 @@ is an isomorphism.
 
 * The [[vertical categorification|categorifications]] of sheaves are
 
- * [[stack|stacks]];
+  * [[stack|stacks]];
 
- * [[infinity-stack|infinity-stacks]].
+  * [[infinity-stack|infinity-stacks]].
 
 * If we read the set $Set^{C^{op}}(F, X)$ as a [[descent and codescent|descent 0-category]] the above isomorphism exhibits the _descent condition_ described at [[infinity-stack]] in a very simple case, namely the case where the $\infty$-stack takes values in "0-categories", namely in [[Set]].
 
