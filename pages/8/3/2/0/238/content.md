@@ -11,6 +11,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+* [[Urs Schreiber|Urs]] (2009-01-02): started adding remarks to [[opposite category]] about the big story hidden here related to [[duality]].
+
+* (2009-01-02) [[Todd Trimble]] has expanded on [[site]] and [[sheaf]]. I have started adding a bit more motivational detail to [[site]] and links to [[descent and codescent|descent]], [[stack]] and [[infinity-stack]]. There is still plenty of room here for saying more about this general story.
+
 * [[Urs Schreiber|Urs]] (2009-01-02): motivated by some [discussion](http://golem.ph.utexas.edu/category/2008/12/organizing_the_pages_at_nlab.html) we had on the blog, in the entry [[About]] I started giving some indications on what the $n$Lab is and what it is not. 
 
 * [[Owen Biesel]] (2009-01-02): added [[diagram]], [[global element]], [[terminal object]], [[limit]], 
