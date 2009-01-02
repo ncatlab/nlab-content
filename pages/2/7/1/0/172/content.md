@@ -5,8 +5,8 @@ $$
   \mathbf{A}(X) \to
   Desc(Y^\bullet, \mathbf{A})
 $$
-is an equivalence.
-
+is an equivalence. This is the _descent condition_.
+ 
 
 ##Examples##
 
