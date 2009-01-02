@@ -23,6 +23,9 @@ A $T$-span is often written as $p: X \dashrightarrow Y$.
 
 +--{.query}
 Dang... how do you make an arrow with a vertical slash in the middle? -- Todd
+
+I don't think that has been implemented yet. [[ericforgy:itex2MML|Here]] is a list of all available arrows. -- Eric
+
 =--
 
 When $T$ is the free monoid monad on $Set$, a $T$-span from $X$ to itself is called a _multigraph_ on $X$.
