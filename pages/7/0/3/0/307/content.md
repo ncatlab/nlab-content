@@ -9,4 +9,5 @@ Some examples of terminal objects in notable categories follow:
 * Any one-element set is a terminal object in the category [[Set]].
 * The trivial [[group]] is the terminal object of [[Grp]] and, as an [[abelian group]], of [[Ab]].
 * The terminal object of [[Ring]] is the zero ring.  (Note however that if [[ring|rings]] have unities and ring [[homomorphism|homomorphisms]] must preserve them, then the zero ring is not a [[zero object]] of [[Ring]].)
-* The terminal object of [[Cat]] is the category with just one object and its [[identity|identity morphism]].
+* The terminal object of [[Cat]] is the [[discrete category]] with just one object.
+* The terminal object of a [[slice category]] $C/x$ is the [[identity morphism]] $x\to x$.
