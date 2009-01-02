@@ -1,6 +1,6 @@
-#Idea
+#The Idea 
 
-A preorder is like a partially ordered set (or [[poset]] for short), but we drop the requirement that $x \le y$ and $y \le x$ implies $x = y$.  The reason is that if we think of a poset as a special sort of [[category]], it is [[evil]] to impose this equation between objects.  
+A preorder is like a partially ordered set (or [[poset]] for short), but without the requirement that $x \le y$ and $y \le x$ implies $x = y$.  The reason is that if we think of a poset as a special sort of [[category]], it is [[evil]] to impose this equation between objects.  In a preorder, if $x \le y$ and $y \le x$, we think of $x$ and $y$ as [[isomorphism|isomorphic]].
 
 #Definition
 
