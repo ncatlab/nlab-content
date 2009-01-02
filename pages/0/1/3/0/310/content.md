@@ -1,20 +1,20 @@
-A _Heyting algebra_ is a lattice $L$ which as a poset admits a material implication operator 
+A **Heyting algebra** is a [[lattice]] $L$ which as a poset admits a material [[implication operator]] 
 
 $$\Rightarrow: L^{op} \times L \to L$$ 
 
-satisfying the condition (really a universal property)
+satisfying the condition (really a [[universal property]])
 
 $$(x \wedge a) \leq b \qquad if and only if \qquad x \leq (a \Rightarrow b)$$ 
 
-Alternatively, a Heyting algebra could be described as a poset which is finitely complete, finitely cocomplete, and cartesian closed; the implication $a\Rightarrow b$ plays the role of an exponential $b^a$. Insofar as all these properties of a poset are described by universal properties, the Heyting algebra operations are _categorical_ in the sense of logic; that is, a poset can carry at most one structure of Heyting algebra. 
+Alternatively, a Heyting algebra could be described as a [[poset]] which is [[finitely complete category|finitely complete]], finitely cocomplete, and cartesian closed; the implication $a\Rightarrow b$ plays the role of an [[exponential]] $b^a$. Insofar as all these properties of a poset are described by universal properties, the Heyting algebra operations are _[[categorical operation|categorical]]_ in the sense of logic; that is, a poset can carry at most one structure of Heyting algebra. 
 
-In logic, Heyting algebras are precisely algebraic models for intuitionistic propositional calculus, just as Boolean algebras model classical propositional calculus. As one might guess from this description, the "law of the excluded middle" does not generally hold in a Heyting algebra; see the discussion below. 
+In logic, Heyting algebras are precisely algebraic models for [[intuitionistic propositional calculus]], just as [[Boolean algebra|Boolean algebras]] model classical [[propositional calculus]]. As one might guess from this description, the "law of the excluded middle" does not generally hold in a Heyting algebra; see the discussion below. 
 
-The definition of Heyting algebra may be recast into purely equational form, and so we can speak of an internal Heyting algebra in any category with products. For example, it turns out that the subobject classifier of a topos carries an internal Heyting algebra with respect to that topos. (It is not generally an internal Boolean algebra, and this explains to a large degree why one often hears that the internal logic of a topos is intuitionistic.) 
+The definition of Heyting algebra may be recast into purely equational form, and so we can speak of an [[internalization|internal]] Heyting algebra in any category with products. For example, it turns out that the [[subobject classifier]] of a [[topos]] carries an internal Heyting algebra with respect to that topos. (It is not generally an internal Boolean algebra, and this explains to a large degree why one often hears that the internal logic of a topos is intuitionistic.) 
 
 ### Example: topologies ### 
 
-One of the chief sources of Heyting algebras is given by topologies. As a poset, the topology of a topological space $X$ is a lattice (it has arbitrary joins and meets, and therefore finite joins and meets), and the implication operator is given by 
+One of the chief sources of Heyting algebras is given by [[topology|topologies]]. As a poset, the topology of a topological space $X$ is a lattice (it has arbitrary joins and meets, and therefore finite joins and meets), and the implication operator is given by 
 
 $$(U \Rightarrow V) = int(U^c \vee V)$$ 
 
@@ -24,11 +24,11 @@ Somewhat more generally, a [[locale|frame]] (a sup-lattice in which finite meets
 
 $$(u \Rightarrow v) = \bigvee_{x \wedge u \leq v} x$$ 
 
-and the distributivity property guarantees that the universal property for implication holds. (The detailed proof is a "baby" application of an adjoint functor theorem.) 
+and the distributivity property guarantees that the universal property for implication holds. (The detailed proof is a "baby" application of an [[adjoint functor]] theorem.) 
 
 * Thus locales are extensionally the same thing as _complete Heyting algebras_. However, _intensionally_ they are quite different; that is, a morphism of frames is not usually a morphism of complete Heyting algebras: they do not preserve the implication operator. 
 
-Topologies that are Boolean algebras are the exception rather than the rule; basic examples include topologies of [stone duality|Stone spaces]. Another example is the topology of a discrete space $X$, as the topology of a discrete space.
+Topologies that are Boolean algebras are the exception rather than the rule; basic examples include topologies of [[Stone duality|Stone spaces]]. Another example is the topology of a discrete space $X$, as the topology of a discrete space.
 
 ### Relations with Boolean algebras ###
 
@@ -60,6 +60,6 @@ Now let $L_{\neg\neg}$ denote the poset of _regular_ elements of $L$, that is, t
 $$F: Heyt \to Bool$$
 called _Booleanization_, which is left adjoint to the full and faithful inclusion 
 $$i: Bool \hookrightarrow Heyt.$$
-The unit of the adjunction, applied to a Heyting algebra $L$, is the map $L \to L_{\neg\neg}$ which maps each element $x$ to its _regularization_ $\neg\neg x$. $\Box$
+The unit of the [[adjunction]], applied to a Heyting algebra $L$, is the map $L \to L_{\neg\neg}$ which maps each element $x$ to its _regularization_ $\neg\neg x$. $\Box$
 
 * Thus $\neg\neg: L \to L_{\neg\neg}$ preserves finite joins and finite meets and implication. In the other direction, we have an inclusion $i: L_{\neg\neg} \to L$, and this preserves meets but not joins, and negations but not implications generally. 
