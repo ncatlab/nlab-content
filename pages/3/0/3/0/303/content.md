@@ -6,11 +6,3 @@ $$F_{x, y}: C(x, y) \to D(F_0x, F_0y)$$
 [where $C(x, y)$ denotes the hom-object $\hom_C(x, y)$ in $V$], compatible with the enriched identities and compositions of $C$ and $D$. 
 
 For more information, see Max Kelly's <a href="http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html">Basic Concepts of Enriched Category Theory</a>. 
-
-+--{.query}
-For some reason, the latex within the bulleted items didn't render. Did I do something wrong?
-
-Answer: You needed to mark up the bullet points in Markdown rather than HTML (see how it is now). Using HTML tells the parser (at least in some circumstances) not to parse anything in between.
-
-Okay, thanks Toby -- I'll see if I can't get it to work in another page I'm editing. -- Todd
-=--
