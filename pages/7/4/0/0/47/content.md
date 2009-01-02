@@ -783,6 +783,8 @@ _[[John Baez|John]] says_: In this case I'm more interested in consistency than 
 {: commenttoby}
 I also prefer boldface. I\'ve been doing that unless a page already uses italics. &#8212;[[Toby Bartels|Toby]]
 
+_[[Eric Forgy|Eric]] says_: Lots of new pages are cropping up with _italics_ instead of **bold**. I've been changing them when I see them. From now, the first time a word being defined is used within the definition, let's make it **bold**. 
+
 ##Linking to Wikipeda##
 
 _[[Eric Forgy|Eric]]_ says: How would I link to an external address that itself contains parentheses, e.g.
