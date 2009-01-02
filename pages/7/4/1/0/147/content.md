@@ -32,7 +32,7 @@ $$g^* F = \bigcup_{e \in Ob(C)} \{f: e \to d: g f \in F\}$$
 
   * The maximal sieve $id: \hom(-, c) \hookrightarrow \hom(-, c)$ is always a covering sieve; 
 
-  * Two sieves $F, G$ of $c$ cover $c$ if and only if their intersection $F \cap G$ covers $c$.  
+  * Two sieves $F, G$ of $c$ cover $c$ if and only if their intersection $F \cap G$ covers $c$. (Here the saturation condition is important.) 
 
   * If $F$ is a sieve on $c$ such that the sieve 
     $\bigcup_d \{g: d \to c| g^* F \; covers \; d\}$
@@ -42,6 +42,40 @@ The set of covering sieves of an object $c$ is denoted $J(c)$, and the first axi
 
 
 ## Comparison with Lawvere-Tierney topologies ##
+
+There is a beautifully compact and elegant description of Grothendieck topologies by means of what are called Lawvere-Tierney topologies: 
+
+Let $E$ be a topos, with [[subobject classifier]] $\Omega$. A **Lawvere-Tierney topology** is a map $j: \Omega \to \Omega$ which is internally a left exact monad (on the internal meet-semilattice $\Omega$). 
+
+Grothendieck topologies as described above are special cases: a Grothendieck topology on $C$ is equivalent to a Lawvere-Tierney topology on the presheaf topos $Set^{C^{op}$. We proceed to unpack this equivalence. 
+
+In the first place, we need to understand the subobject classifier in $E = Set^{C^{op}}$. But according to the definition, $\Omega$ is simply the representing object for the functor 
+
+$$Sub: E^{op} \to Set$$ 
+
+which takes an object $F$ of $E$ to the collection of subobjects of $F$, $Sub(F)$. In other words, $Sub(F) \cong \hom_E(F, \Omega)$. Applied to $F = \hom_C(-, c)$, we have then 
+
+$$Sub(\hom_C(-, c)) \cong \hom_{Set^{C^{op}}}(\hom_C(-, c), \Omega) \stackrel{Yoneda}{\cong} \Omega(c)$$ 
+
+In other words, we find that the functor $\Omega: C^{op} \to Set$ is defined by 
+
+$$\Omega(c) = \{sieves on c\}$$ 
+
+Next, if $J$ is a Grothendieck topology on $C$, then the collection of $J$-covering sieves on $c$ [which we denoted by $J(c)$] is a subcollection of all sieves on $c$, and so we have an inclusion 
+
+$$J(c) \hookrightarrow \Omega(c)$$ 
+
+and this inclusion is natural in $c$, by virtue of the first axiom on covering sieves. Thus we have a subobject
+
+$$J \hookrightarrow \Omega$$ 
+
+and again, by definition of subobject classifier, this subobject corresponds to a uniquely determined element 
+
+$$j \in \hom_E(\Omega, \Omega)$$ 
+
+which is just the Lawvere-Tierney operator $j: \Omega \to \Omega$. 
+
+The other axioms for covering sieves translate neatly into properties of $j$. 
 
 ...
 
