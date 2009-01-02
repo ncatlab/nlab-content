@@ -6,7 +6,7 @@ We can generalize this idea by replacing [[Set]] with a more general [[cocomplet
 
 #Definition#
 
-The definition is left as an exercise for future readers of this page.  
+The definition is left as an exercise for future contributors of this page.  
 
 #Examples#
 
