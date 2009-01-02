@@ -18,9 +18,13 @@ By the Yoneda lemma, any such transformation $\theta$ (isomorphism or not) is un
 
 Following the proof of the Yoneda lemma, representability means precisely this: given any object $x$ of $C$ and any element $\alpha \in F(x)$, there exists a unique morphism $f: x \to c$ such that the function $F(f)$ carries the universal element $\xi \in F(c)$ to $\alpha \in F(x)$. Such a dry formulation fails to convey the remarkable power of this concept, which can really only be appreciated through the myriad examples which illustrate it. 
 
-### Example 1: products ###
+### Example 1: limits ###
 
-Let $c, d$ be objects of $C$, and consider the presheaf given by a product of [[hom-functor|hom-functors]]
+If $F:J\to C$ is a diagram in $C$, we can construct a diagram $\hom_C(-,F)$ in the [[functor category]] $Set^{C^{op}}$ as the composite of $F$ with the curried [[hom-functor]] $C\to\Set^{C^{op}}$.  The object-wise [[limit]] of this diagram in [[Set]], that is, the functor $C^{op}\to\Set$ sending on object $x$ to the set which is the limit of the diagram $\hom_C(x,F):J\to\Set$, is representable iff the diagram $F$ has a limit in $C$; in fact, a representing object for that limit functor is exactly $\lim F$, and we obtain a natural isomorphism
+
+$$\lim\hom_C(-,F)\cong\hom_C(-,\lim F).$$
+
+For an example in the case of [[categorical product]], let $c, d$ be objects of $C$, and consider the presheaf given by a product of [[hom-functor|hom-functors]]
 
 $$\hom_C(-, c) \times \hom_C(-, d): C^{op} \to Set;$$ 
 
