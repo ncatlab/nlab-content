@@ -63,7 +63,7 @@ which assigns to each space $X$ the set of isomorphism classes of $G$-bundles ov
 
 $$G-Bund(f): G-Bund(Y) \to G-Bund(X)$$ 
 
-which carries a (class of a) G-bundle $E \to Y$ to the (class of the) pullback bundle $f^*E \to X$. It is well-known that the pullback construction is invariant with respect to homotopic deformations; that is, this presheaf descends to a functor on the homotopy category, 
+which carries a (class of a) G-bundle $E \to Y$ to the (class of the) pullback bundle $f^*E \to X$. It is well-known that the pullback construction is invariant with respect to homotopic deformations; that is, this presheaf descends to a functor on the [[homotopy category]], 
 
 $$G-Bund: Ho_{Top}^{op} \to Set.$$ 
 
