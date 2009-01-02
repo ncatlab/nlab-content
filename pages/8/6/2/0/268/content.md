@@ -1,6 +1,6 @@
 #Idea#
 
-The _cubical category_ $\Box$ encodes one of the main [[geometric shapes for higher structures]].
+The **cubical category** $\Box$ encodes one of the main [[geometric shapes for higher structures]].
 
 Its objects are the standard "cubical $n$-cubes", for $n \in \mathbb{N}$ and its morphisms are all possible ways of mapping cubes to each other.
 
