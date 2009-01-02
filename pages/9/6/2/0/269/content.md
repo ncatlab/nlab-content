@@ -1,6 +1,6 @@
 #Definition#
 
-A _cubical set_ is a [[presheaf]] on the [[cubical category]] $\Box$.
+A **cubical set** is a [[presheaf]] on the [[cubical category]] $\Box$.
 
 ##Remarks##
 
