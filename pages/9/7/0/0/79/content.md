@@ -2,13 +2,16 @@
 
   * [[foundations|Foundations]]
 
-  * [[enriched category theory|Enriched Category Theory]]
+  * [[logic|Logic]]
 
   * [[sheaf and topos theory|Sheaf and Topos Theory]]
 
-  * [[higher category theory|Higher Category Theory]]
+  * [[enriched category theory|Enriched Category Theory]]
 
   * [[homotopy theory|Homotopy Theory]]
+
+  * [[higher category theory|Higher Category Theory]]
+
 
 * [[geometry|Geometry]]
 
