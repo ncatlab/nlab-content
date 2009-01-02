@@ -1,9 +1,10 @@
 [[!include contents]] 
 
-
 Every wiki needs a sandbox! Just test _below_ and don't worry about messing things up.
 
 ***
+
+\emph{Can we emphasize text?}
 
 Trying to upload a file: [[n.png:pic]].... nope didn't work, I get "Internal Server Error".
 
