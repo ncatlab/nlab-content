@@ -18,7 +18,9 @@ $$
      
   }
 $$
-the 'pullback' of this diagram is the subset $X \subseteq A \times B$ consisting of pairs $(a,b)$ such that $f(a) = g(b)$.  For this reason, a pullback is sometimes called a [[fibered product]].
+the 'pullback' of this diagram is the subset $X \subseteq A \times B$ consisting of pairs $(a,b)$ such that $f(a) = g(b)$.  
+
+This construction comes up, for example, when $A$ and $B$ are fiber bundles over $C$: then $X$ as defined above is the product of $A$ and $B$ in the category of fiber bundles over $C$.  For this reason, a pullback is sometimes called a [[fibered product]].
 
 Note that there are maps $p_A : X \to A$, $p_B : X \to B$ sending any $(a,b) \in X$ to $a$ and $b$, respectively.  These maps make this square commute:
 $$
