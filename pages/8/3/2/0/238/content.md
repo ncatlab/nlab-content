@@ -11,6 +11,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+* [[Urs Schreiber|Urs]] (2009-01-02): motivated by some [discussion](http://golem.ph.utexas.edu/category/2008/12/organizing_the_pages_at_nlab.html) we had on the blog, in the entry [[About]] I started giving some indications on what the $n$Lab is and what it is not. 
+
 * [[Owen Biesel]] (2009-01-02): added [[diagram]], [[global element]], [[terminal object]], [[limit]], 
 
 * [[Toby Bartels|Toby]] (2008-12-31): I have a precise definition of [[evil]], so I put that in.
