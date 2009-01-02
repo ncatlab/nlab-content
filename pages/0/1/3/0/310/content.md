@@ -14,19 +14,21 @@ The definition of Heyting algebra may be recast into purely equational form, and
 
 ### Example: topologies ### 
 
-One of the chief sources of Heyting algebras is given by topologies. As a poset, the topology of a topological space $X$ is a lattice [it has arbitrary joins and meets, and therefore finite joins and meets], and the implication operator is given by 
+One of the chief sources of Heyting algebras is given by topologies. As a poset, the topology of a topological space $X$ is a lattice (it has arbitrary joins and meets, and therefore finite joins and meets), and the implication operator is given by 
 
-$$(U \Rightarrow V) = int(\sim U \vee V)$$ 
+$$(U \Rightarrow V) = int(U^c \vee V)$$ 
 
-where $U, V$ are open sets, $\sim U$ is the set-theoretic complement of $U$, and $int(S)$ denotes the interior of a subset $S \subseteq X$. 
+where $U, V$ are open sets, $U^c$ is the set-theoretic complement of $U$, and $int(S)$ denotes the interior of a subset $S \subseteq X$. 
 
-Somewhat more generally, a locale (a sup-lattice in which finite meets distribute over arbitrary sups) also carries a Heyting algebra structure. In a locale, we may define 
+Somewhat more generally, a [[locale|frame]] (a sup-lattice in which finite meets distribute over arbitrary sups) also carries a Heyting algebra structure. In a frame, we may define 
 
 $$(u \Rightarrow v) = \bigvee_{x \wedge u \leq v} x$$ 
 
-and the distributivity guarantees that the universal property for implication holds (the detailed proof being a "baby" application of an adjoint functor theorem). 
+and the distributivity property guarantees that the universal property for implication holds. (The detailed proof is a "baby" application of an adjoint functor theorem.) 
 
-Topologies which are actually Boolean algebras are the exception rather than the rule; the archetypal examples are topologies of Stone spaces. Another example is of course a power set $P(X)$, as the topology of a discrete space $X$. 
+* Thus locales are extensionally the same thing as _complete Heyting algebras_. However, _intensionally_ they are quite different; that is, a morphism of frames is not usually a morphism of complete Heyting algebras: they do not preserve the implication operator. 
+
+Topologies that are Boolean algebras are the exception rather than the rule; basic examples include topologies of [stone duality|Stone spaces]. Another example is the topology of a discrete space $X$, as the topology of a discrete space.
 
 ### Relations with Boolean algebras ###
 
@@ -46,14 +48,18 @@ $$(\neg a \vee b) \leq (a \Rightarrow b)$$
 
 and another characterization of Boolean algebra is a Heyting algebra in which this is an equality for all $a, b$. 
 
-There are several ways of passing back and forth between Boolean algebras and Heyting algebras, most having to do with the double negation operator. A useful lemma in this regard is 
+There are several ways of passing back and forth between Boolean algebras and Heyting algebras, having to do with the double negation operator. A useful lemma in this regard is 
 
-**Lemma:** The double negation $$\neg \neg: L \to L$$ preserves finite meets. 
+**Lemma:** The double negation $\neg \neg: L \to L$ is a [[monad]] that preserves finite meets. 
 
-With that result in hand, we have  
+The proof can be made purely equational, and is therefore internally valid in any category with products. Applied to the internal Heyting algebra $L = \Omega$ of a [[topos]], that is the [[subobject classifier]], this lemma says exactly that the double negation operator $\neg \neg: \Omega \to \Omega$ defines a Lawvere-Tierney [[site|topology]]. 
 
-* The poset of _regular_ elements $x \in L$, i.e., those elements such that $\neg \neg x = x$, is a Boolean algebra denoted by $L_{\neg\neg}$. The inclusion $i: L_{\neg\neg} \to L$ preserves meets but not joins, and negations but not implications generally. 
+Now let $L_{\neg\neg}$ denote the poset of _regular_ elements of $L$, that is, those elements $x$ such that $\neg\neg x = x$. (When $L$ is the topology of a space, an open set $U$ is regular if and only if it is the interior of its closure.) With the help of the lemma above, we may prove
 
-+--{.query} 
-Would like to include some material on the double negation translation and on the maximal Boolean quotient of a Heyting algebra. - Todd
-=--
+**Theorem:** The poset $L_{\neg\neg}$ is a Boolean algebra. Moreover, the assignment $L \mapsto L_{\neg\neg}$ is the object part of a functor 
+$$F: Heyt \to Bool$$
+called _Booleanization_, which is left adjoint to the full and faithful inclusion 
+$$i: Bool \hookrightarrow Heyt.$$
+The unit of the adjunction, applied to a Heyting algebra $L$, is the map $L \to L_{\neg\neg}$ which maps each element $x$ to its _regularization_ $\neg\neg x$. $\Box$
+
+* Thus $\neg\neg: L \to L_{\neg\neg}$ preserves finite joins and finite meets and implication. In the other direction, we have an inclusion $i: L_{\neg\neg} \to L$, and this preserves meets but not joins, and negations but not implications generally. 
