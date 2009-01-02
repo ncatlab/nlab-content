@@ -789,6 +789,8 @@ _[[John Baez|John]] says_: whoops!  I've been continuing to use italics.  I'll s
 
 _[[Eric Forgy|Eric]] says_: No worries. It's great to see all the new content :) I was just beginning to wonder if I SHOULD be changing them to **bold**. Reviewing this discussion, though, I think we settled on **bold**. To keep things consistent, I'll continue to switch things as I come across them. Things are really starting to take shape! I'm learning just by editing stuff.
 
+_[[John Baez|John]] says_: Thanks for all the great work!  I see you improved my picture of a [[span]].  That inspired me to improve the entry on spans, and add one on [[pullbacks|pullback]] - my first tiny stab at explaining [[limit|limits]] on the $n$Lab. 
+
 ##Linking to Wikipeda##
 
 _[[Eric Forgy|Eric]]_ says: How would I link to an external address that itself contains parentheses, e.g.
