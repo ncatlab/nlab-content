@@ -785,6 +785,8 @@ I also prefer boldface. I\'ve been doing that unless a page already uses italics
 
 _[[Eric Forgy|Eric]] says_: Lots of new pages are cropping up with _italics_ instead of **bold**. I've been changing them when I see them. From now, the first time a word being defined is used within the definition, let's make it **bold**. 
 
+_[[John Baez|John]] says_: whoops!  I've been continuing to use italics.  I'll switch to **bold**.
+
 ##Linking to Wikipeda##
 
 _[[Eric Forgy|Eric]]_ says: How would I link to an external address that itself contains parentheses, e.g.
@@ -900,5 +902,9 @@ Now that I think of it, there already is an nLab article on the nCafe which is s
 +--{.query}
 This very discussion is [now at the Caf&#233;](http://golem.ph.utexas.edu/category/2008/12/organizing_the_pages_at_nlab.html)!
 =--
+
+_[[John Baez|John]] says:_ Okay, good: move most of the General Discussion to the $n$Caf&eacute;!  
+
+This General Discussion page has, embedded in the general discussion, a number of important how-to tips and useful conventions (like how to spell $n$-category).  <i>This</i> stuff deserves a page or two here at the $n$Lab.  Maybe some energetic young person can create that.   
 
 category: meta
