@@ -8,7 +8,7 @@ When we do this, we are soon led to contemplate a slight generalization of poset
 
 #Definition
 
-A _poset_ is a category such that:
+A **poset** is a category such that:
 
 * for any pair of objects $x, y$, there is at most one morphism from $x$ to $y$
 
