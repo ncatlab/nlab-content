@@ -45,6 +45,12 @@ _[[Toby Bartels|Toby]] answers_: I understand all these large cardinals much bet
 
 =--
 
+##The concept of _identity_
+
+One way to think of category theory is as a framework in which the idea is formalized that every kind of [[identity]] is really secretly a choice of [[isomorphism]] or [[equivalence]]. In some sense the notion of identity is potentially [[evil]], in a technical sense.
+
+ [[Michael Makkai]] works on a language, [[FOLDS]] ('first-order logic with dependent sorts'), which is designed to make it impossible to formulate any [[evil]] statements.  To learn more, see his paper _[First Order Logic with Dependent Sorts, with Applications to Category Theory](http://www.math.mcgill.ca/makkai/)_.
+
 # Categorial foundations of mathematics
 
 Bill Lawvere proposed to found mathematics on a first-order axiomatisation of [[Cat|the category of categories]]. This has not been very successful, ...
