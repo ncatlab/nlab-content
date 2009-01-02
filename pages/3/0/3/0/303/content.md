@@ -1,3 +1,5 @@
+A fundamental concept in [[enriched category theory]].
+
 Given two categories $C, D$ enriched in a monoidal category $V$, an <i>enriched functor</i> $F: C \to D$ consists of 
 
 * A function $F_0: C_0 \to D_0$ between the underlying collections of objects; 
