@@ -6,10 +6,25 @@ We can generalize this idea by replacing [[Set]] with a more general [[cocomplet
 
 #Definition#
 
-The definition is left as an exercise for future contributors of this page.  
+For $(C, \otimes)$ a [[monoidal category]] and $F, G : C^{op} \to Set$ two [[presheaf|presheaves]] on $C$, their _Day convolution product_ $F \star G$ is the presheaf given by the [[end|coend]]
+
+$$
+  F \star G
+  :=
+  \int^{c,d \in C}
+  F(c) \times G(d) \times Hom_C(-, c \otimes d)
+  \,.
+$$
+
+
 
 #Examples#
 
+* Let $C$ be a [[discrete category]] over a set, which is hence a [[monoid]] (for instance a [[group]]) with product $\cdot$. Then 
+ $F \star G : e \mapsto \oplus_{c \cdot d = e} F(c) \times F(d)$. Notice that if we regard the presheaves $F$ and $G$ here as [[vertical categorification|categorifications]] of $\mathbb{N}$-valued functions $|F|, |G| : C \to \mathbb{N}$ then this reproduces precisely the ordinary convolution product of these $\mathbb{N}$-valued functions
+$|F \star G| : e \mapsto \sum_{c \cdot d = e} |F(c)| \cdot |F(d)|$.
+
+* There is an obvious monoidal structure on the [[cubical category]]. By Day convolution this induces a monoidal structure on [[cubical sets]]. This in turn induces a monoidal structure on [[omega-category|omega-categories]].
 
 #Blog resources#
 
