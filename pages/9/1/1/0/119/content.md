@@ -24,7 +24,7 @@ _[[Eric Forgy|Eric]] says_: It seems to me that any category $C$ gives rise to a
 
 $$a\to b\in Mor(C)\implies a\le b.$$
 
-Is there a slick arrow theoretic way to say that? Something like, "There is a [[forgetful functor]] $F:Cat\to PoSet$"?
+Is there a slick arrow theoretic way to say that? Something like, "There is a [[forgetful functor]] $F:Cat\to Ord$"?
 
 I hope to write/read some arrow theoretic definition of a [[Hasse diagram]] too.
 
