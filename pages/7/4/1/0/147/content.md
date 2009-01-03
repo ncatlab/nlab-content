@@ -1,90 +1,17 @@
 #Idea#
 
-The structure of a _site_ on a [[category]] $C$ is a structure that regards each [[object]] $c$ of $C$ as a [[space and quantity|space]] and determines which [[morphism]]s $\pi : d \to c$ from collections $d := \{\sqcup_i d_i\}$ of [[object]]s of $C$ to $c$ behave as _covers_ of spaces.
+The structure of a _site_ on a [[category]] $C$ is a structure that regards each [[object]] $c$ of $C$ as a [[space and quantity|space]] and determines which [[morphism]]s $\pi : d \to c$ from collections $d := \{\sqcup_i d_i\}$ of [[object]]s of $C$ to $c$ behave as [[cover|covers]] of spaces.
 
-## Examples
-
-* In the category [[Top]] of topological spaces take $c = X$ to be any topological space and let $\{d_i\} = \{U_i\}$ be a cover of $X$ by open subsets $U_i$ in the ordinary sense (i.e. each $U_i$ is an open subset of $X$ and their joint union is $X$, $\cup_i U_i = X$), then 
-$\pi : (\sqcup_i U_i) \stackrel{\sqcup_i U_i \hookrightarrow_i X}{\to} X$ is a _cover_ of $X$ in the general sense of sites. 
-
-##Formalization
-
-A choice of collections of morphism $d \to c$ into an object $c \in C$  for each $d \in C$ reminds one of the [[representable functor]] [[presheaf]]
-$\hom_C(-, c): C^{op} \to Set$ which assigns to each $d \in C$ the set of _all_ morphisms from $d$ to $c$. Every choice of covers of $c$ is therefore for each $d \in C$ a subset of the value of this functor evaluated at $d$. This begins to look like an [[monomorphism|monic]] [[natural transformation]] into this functor. Indeed, it turns out that one can assume without restriction of generality that the assignment of covers of $c$ can always be extended to such a monic natural transformation, and hence one formalizes the notion of "collection of covers" of $c$ as a [[subobject]] $i: F \hookrightarrow \hom(-, c)$ of the functor represented by $c$: a _sieve_ at $c$. 
-
-For instance, in the topological example considered above, each open covering $\sqcup_i U_i \to X$ induces a subfunctor $\bigcup_i \hom(-, U_i) \to \hom(-, X)$ where on the left we take a union of subfunctors $\hom(-, U_i) \to \hom(-, X)$. 
 
 #Definition#
 
-* A _sieve_ (Fr. _crible_) on an object $c$ is a subfunctor of the [[representable functor]] $\hom_C(-, c): C^{op} \to Set$. 
 
-Thus, a sieve on $c$, $i: F \hookrightarrow \hom(-, c)$, may be described as a function which assigns to each object $d$ a collection of morphisms $f: d \to c$ into $c$. Naturality of the inclusion $i$ means that whenever $f: d \to c$ belongs to the sieve and $g: e \to d$ is any morphism, then $f g: e \to c$ also belongs to the sieve. 
-
-Sometimes this condition (of a sieve being closed under the operation of pulling back along an arbitrary morphism $g: e \to d$) is called a "saturation condition". At any rate, given any collection of morphisms targeted at $c$, we can always close it up or saturate it, to obtain a sieve on $c$. 
-
-Notice that because the pullback of a subfunctor $i: F \hookrightarrow \hom(-, c)$ along any morphism $\hom(-, g): \hom(-, d) \to \hom(-, c)$ is again a subfunctor $g^* F$ of $d$, sieves are closed under pulling back. Concretely, 
-
-$$g^* F = \bigcup_{e \in Ob(C)} \{f: e \to d: g f \in F\}$$
-
-* A Grothendieck topology $J$ on a category $C$ assigns to each object $c$ a collection of sieves on $c$ which are called _covering sieves_, satisfying the following axioms: 
-
-  *  If $F$ is a sieve that covers $c$ and $g: d \to c$ is any morphism, then the pullback sieve $g^* F$ covers $d$. 
-
-  * The maximal sieve $id: \hom(-, c) \hookrightarrow \hom(-, c)$ is always a covering sieve; 
-
-  * Two sieves $F, G$ of $c$ cover $c$ if and only if their intersection $F \cap G$ covers $c$. (Here the saturation condition is important.) 
-
-  * If $F$ is a sieve on $c$ such that the sieve 
-    $\bigcup_d \{g: d \to c| g^* F \; covers \; d\}$
-    is a covering sieve of $c$, then $F$ itself covers $c$. 
-
-The set of covering sieves of an object $c$ is denoted $J(c)$, and the first axiom guarantees that we have a functor $J: C^{op} \to Set$. A **site** is a category $C$ equipped with a Grothendieck topology $J$. 
-
-
-## Comparison with Lawvere-Tierney topologies ##
-
-There is a beautifully compact and elegant description of Grothendieck topologies by means of what are called Lawvere-Tierney topologies: 
-
-Let $E$ be a topos, with [[subobject classifier]] $\Omega$. A **Lawvere-Tierney topology** is a map $j: \Omega \to \Omega$ which is internally a left exact monad (on the internal meet-semilattice $\Omega$). 
-
-Grothendieck topologies as described above are special cases: a Grothendieck topology on $C$ is equivalent to a Lawvere-Tierney topology on the presheaf topos $Set^{C^{op}$. We proceed to unpack this equivalence. 
-
-In the first place, we need to understand the subobject classifier in $E = Set^{C^{op}}$. But according to the definition, $\Omega$ is simply the representing object for the functor 
-
-$$Sub: E^{op} \to Set$$ 
-
-which takes an object $F$ of $E$ to the collection of subobjects of $F$, $Sub(F)$. In other words, $Sub(F) \cong \hom_E(F, \Omega)$. Applied to $F = \hom_C(-, c)$, we have then 
-
-$$Sub(\hom_C(-, c)) \cong \hom_{Set^{C^{op}}}(\hom_C(-, c), \Omega) \stackrel{Yoneda}{\cong} \Omega(c)$$ 
-
-In other words, we find that the functor $\Omega: C^{op} \to Set$ is defined by 
-
-$$\Omega(c) = \{sieves on c\}$$ 
-
-Next, if $J$ is a Grothendieck topology on $C$, then the collection of $J$-covering sieves on $c$ [which we denoted by $J(c)$] is a subcollection of all sieves on $c$, and so we have an inclusion 
-
-$$J(c) \hookrightarrow \Omega(c)$$ 
-
-and this inclusion is natural in $c$, by virtue of the first axiom on covering sieves. Thus we have a subobject
-
-$$J \hookrightarrow \Omega$$ 
-
-and again, by definition of subobject classifier, this subobject corresponds to a uniquely determined element 
-
-$$j \in \hom_E(\Omega, \Omega)$$ 
-
-which is just the Lawvere-Tierney operator $j: \Omega \to \Omega$. 
-
-The other axioms for covering sieves translate neatly into properties of $j$. 
-
-...
-
-+--{.query}
-I admit this article is brutally abstract. One thing it will need is illustrative examples, and it could probably stand gentler exposition. -- [[Todd Trimble|Todd]]
-
-[[Urs Schreiber|Urs]] says: I have now tried to expand a bit on the "Idea" part and provided a motivating example there. 
-Moreover, I moved the definition of [[sheaf]] to a separate entry. Below I give links to the existing entries [[stack]] and [[infinity-stack]], which I had written. It would be desireable to eventually harmonize the discussion at [[infinity-stack]] with the discussion here a bit more and expand on the relation between the two.
++-- {: .un_defn}
+###### Definition
+A _site_ is a category $C$ equipped with a [[Grothendieck topology]] $J$. 
 =--
+
+
 
 
 #Remarks#
