@@ -6,7 +6,7 @@ At the simplest level, let $C$ be a category. As we know, a presheaf on $C$ is j
 
 Now let's categorify just once: regard a category $C$ as a bicategory whose local hom-categories are discrete. What I'll call a "pre-stack" is then a homomorphism of bicategories $X: C^{op} \to Cat$. Here I'm following Street's terminology: a homomorphism of bicategories is the "pseudo" version of a weak map of bicategories, as opposed to the "lax" version. So, we have given coherent isomorphisms $X(f)X(g) \to X(f g)$, and so on.  
 
-Now suppose that $C$ also comes equipped with a topology $J$, and let $F$ be a $J$-covering sieve for $c$, so that in particular it's a subfunctor $i: F \hookrightarrow \hom(-, c)$. We want to build a (truncated) simplicial object out of this, and to this end I'll use some yoga which was basically developed in my Cafe post on the bar construction [perhaps this may go partway to addressing your most recent query there, Urs]. 
+Now suppose that $C$ also comes equipped with a topology $J$, and let $F$ be a $J$-covering sieve for $c$, so that in particular it's a subfunctor $i: F \hookrightarrow \hom(-, c)$. We want to build a (truncated) simplicial object out of this, and to this end I'll use some yoga which was basically developed in my Cafe post [on the bar construction](http://golem.ph.utexas.edu/category/2007/05/on_the_bar_construction.html) [perhaps this may go partway to addressing your most recent [query](http://golem.ph.utexas.edu/category/2007/05/on_the_bar_construction.html#c021027) there, Urs]. 
 
 Namely, there is a canonical way of presenting $F$ as a colimit of representables. Officially, it's given by a coend formula, but it's probably more illuminating to think of it in terms of tensor products over $C$: 
 
