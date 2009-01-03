@@ -11,6 +11,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+* (2009-01-03) [[Urs Schreiber]]: 
+ 
+  * did [[closed category]] and linked to it from Mike's [[cartesian monoidal category]]
+
+  * expanded on [[Day convolution]]
+
+* (2009-01-03) [[Mike Shulman]] created [[extensive category]], [[cartesian monoidal category]]  
+
 * (2009-01-02) [[Todd Trimble]] expanded on [[stack]]
 and connected it to the discussion of covering sieves at
 [[site]] 
