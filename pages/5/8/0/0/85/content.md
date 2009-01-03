@@ -29,3 +29,7 @@ $|F \star G| : e \mapsto \sum_{c \cdot d = e} |F(c)| \cdot |F(d)|$.
 #Blog resources#
 
 * Todd Trimble on Day convolution [here](http://golem.ph.utexas.edu/category/2008/01/the_concept_of_a_space_of_stat.html#c014365)
+
+#Discussion#
+
+_[[Eric Forgy|Eric]] says_: When I see "convolution", I think "Fourier transform". Is Day convolution somehow related to a categorified version of Fourier transforms?
