@@ -2,6 +2,10 @@ Classically, a __truth value__ is either $\top$ (True) or $\bot$ (False). (In [[
 
 Truth values form a [[poset]] by declaring that $p$ precedes $q$ iff the [[conditional]] $p \to q$ is true. In a topos $T$, $p$ precedes $q$ if there is a morphism $p \to q$ in $T$. Classically (or in a two-valued topos), one can write this poset as $\{\bot \to \top\}$.
 
++--{.query}
+  If a truth value in a topos is a morphism $p : 1 \to \Omega$, what is a morphism of truth values in a topos?
+=--
+
 The poset of truth values is a [[Heyting algebra]]. Classically (or in a [[Boolean topos]]), this poset is even a [[Boolean algebra]]. It is also a [[complete poset]]; in fact, it can be characterised as the [[initial object|initial]] complete poset. As a complete Heyting algebra, it is a [[frame]], corresponding to the one-point [[locale]].
 
 A truth value may be interpreted as a [[0-poset]] or as a [[(-1)-groupoid]]. It is also the best interpretation of the term '[[(-1)-category]]', although this doesn\'t fit all the patterns of the [[periodic table]].
