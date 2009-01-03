@@ -17,6 +17,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * expanded on [[Day convolution]]
 
+  * split the information previously contained in [[site]] into several separate entries: [[cover]], [[sieve]], [[Grothendieck topology]], [[Lawvere-Tierney topology]] and, of course, [[site]].
+
 * (2009-01-03) [[Mike Shulman]] created [[extensive category]], [[cartesian monoidal category]]  
 
 * (2009-01-02) [[Todd Trimble]] expanded on [[stack]]
