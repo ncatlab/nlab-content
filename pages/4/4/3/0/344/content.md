@@ -16,6 +16,14 @@ The definition refers only to binary coproducts, but it obviously implies analog
 
 In the other direction, if $E$ has all small coproducts and the analogous infinitary condition holds, $E$ is called __$\infty$-extensive__ or __$\infty$-positive__.  (Note that this use of $\infty$ is completely unrelated to $\infty$-[[infinity-category|categories]].)
 
+#Examples#
+
+1. A [[topos]] is an (l)extensive category. 
+
+1. The category of topological spaces is (l)extensive. 
+
+1. The category of affine schemes (opposite to the category of commutative rings with identity) is (l)extensive. 
+
 #References#
 
 Carboni, Aurelio and Lack, Stephen and Walters, R. F. C., _Introduction to extensive and distributive categories_, JPAA 84 no. 2
