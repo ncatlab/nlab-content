@@ -2,4 +2,4 @@ A __cartesian monoidal category__ is a [[monoidal category]] whose monoidal stru
 
 Cartesian monoidal categories have a number of special and important properties, such as the existence of a diagonal maps $A \to A\otimes A$ and augmentations $A\to I$ for any object $A$.  These maps make any object into a [[comonoid]] in a unique way.  Moreover, one can show that any monoidal category equipped with suitably well-behaved diagonals and augmentations _must_ in fact be cartesian monoidal.
 
-A cartesian monoidal category which is also closed is called a __cartesian closed category__.
+A cartesian monoidal category which is also [[closed category|closed]] is called a __cartesian closed category__.
