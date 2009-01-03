@@ -16,6 +16,8 @@ _[[Toby Bartels|Toby]] says:_ In the absence of the axiom of choice, the correct
 
 _[[Todd Trimble|Todd]] says:_ Thanks, Toby. So if I understand you aright, the notion of equivalence you have in mind here is not the one used at the top of the entry [[equivalence]], but is more subtle. May I suggest amplifying a little on the above, to point readers to the intended definition, since this point could be confusing to those inexperienced in these matters? 
 
+_[[Urs Schreiber|Urs]] says_: as indicated at [[anafunctor]] an equivalence in terms of anafunctors can be understood as a span representing an [[isomorphism]] in the [[homotopy category]] of $Cat$ induced by the [[folk model structure]] on $Cat$.
+
 ***
 
 _[[Eric Forgy|Eric]] says_: It seems to me that any category $C$ gives rise to a preorder in a natural way, i.e.
