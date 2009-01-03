@@ -11,6 +11,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+* (2009-01-02) [[Todd Trimble]] expanded on [[stack]]
+and connected it to the discussion of covering sieves at
+[[site]] 
+
 * 2009-01-03, [[Toby Bartels]]: I posted [[periodic table]] and [[(n,r)-category]], which I wrote today offline. There are probably lots of typos right now; I don\'t have a lot of time online today. Also, the former one really only contains an appendix that I wanted to write, not so much the article itself. But at least you can read what\'s there now.
 
 * (2009-01-02) [[Todd Trimble]] created [[operad]] 
