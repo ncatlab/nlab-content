@@ -1,6 +1,6 @@
 # The idea #
 
-A [[category]] consists of a collection of arrows each having a single object as source or input, and a single object as target or output, together with laws for composition and identity obeying associativity and identity axioms. A multicategory is like a category, except that one allows multiple inputs and a single output.
+Recall that a [[category]] consists of a collection of arrows each having a single object as source or input, and a single object as target or output, together with laws for composition and identity obeying associativity and identity axioms. A multicategory is like a category, except that one allows multiple inputs and a single output.
 
 Thus a multicategory $C$ consists of
 
@@ -49,3 +49,7 @@ A nonpermutative (or Stasheff) [[operad]] may be defined as an ordinary multicat
 For example, in Batanin's approach to (weak) $\infty$-[[infinity-category|categories]], a [[globular operad]] is a $T$-operad, where $T$ is the free (strict) $\omega$-[[omega-category|category]] monad on the category of [[globular set]]s.
 
 With a little care, ordinary (permutative) operads may also be treated within this framework. See Tom Leinster's book for details.
+
+#References#
+
+* Tom Leinster, _Higher Operads, Higher Categories_ ([arXiv](http://golem.ph.utexas.edu/category/2007/05/on_the_bar_construction.html#c021027))
