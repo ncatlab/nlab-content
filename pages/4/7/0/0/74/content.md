@@ -14,12 +14,12 @@ Reprints in Theory and Applications of Categories, No. 10 (2005) pp. 1-136 ([pdf
 
 ##Entries on Enriched Category Theory##
 
+* [[cartesian monoidal category]]
+* [[closed category]]
 * [[Day convolution|Day Convolution]]
-
 * [[end|Ends and Coends]]
-
 * [[enriched category|Enriched Categories]]
-
 * [[Kan extension]]
+* [[monoidal category]]
 
 
