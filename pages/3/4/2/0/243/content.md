@@ -8,7 +8,13 @@ there exists a unique map $f: x \to e$ such that
 $$\theta_c = \pi_c f$$ 
 for every object $c$ of $C$.
 
-The notion of __coend__ is dual to the notion of end, written $\int^{c: C} F(c, c)$.
+The notion of __coend__ is dual to the notion of end, written $\int^{c: C} F(c, c)$. 
+
+## Examples: Module homs and module tensor products
+
+Perhaps the most common way in which ends and coends arise is through homs and tensor products of (generalized) modules, and their close cousins, weighted limits and weighted colimits. These concepts are fundamental in enriched category theory. 
+
+## Enriched ends and coends
 
 There is a version in [[enriched category theory]], as follows. Let $V$ be a [[symmetric monoidal category]], let $C$ be a $V$-[[enriched category]], and let $F: C^{op} \otimes C \to V$ be a $V$-[[enriched functor]]. In particular there is a covariant [[action]] of $C$ on $F$, with components
 $$\lambda_{c, d, e}: F(c, d) \otimes C(d, e) \to F(c, e),$$
