@@ -11,6 +11,18 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+* (2009-01-03) [[Todd Trimble]]: 
+
+  * added to (and edited) examples under [[closed category]]
+  
+  * created [[dinatural transformation]]
+
+  * added examples to [[extensive category]]
+
+  * added to the discussion on [[Day convolution]]
+ 
+  * added some detail to the definition of [[Lawvere-Tierney topology]]
+
 * (2009-01-03) [[Urs Schreiber]]: 
  
   * did [[closed category]] and linked to it from Mike's [[cartesian monoidal category]]
