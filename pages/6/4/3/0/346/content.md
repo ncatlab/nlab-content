@@ -6,7 +6,9 @@ A category $C$ is _closed_ if for any pair $a, b$ of object the collection of mo
 
  * The tautological example is the category [[Set]] of sets: the collection of maps between any two sets is itself a set. 
 
- * The category [[Top]] of topological spaces is closed: for any two topological spaces $X$, $Y$ the set of continuous maps $X \to Y$ is itself naturally equipped with a topology and hence becomes a topological space itself.
+ * The category of abelian groups is closed: for any two abelian groups $A, B$ the set of homomorphisms $A \to B$ carries (pointwise defined) abelian group structure. 
+
+ * Certain categories [[Top]] of [[nice topological spaces]] are closed: for any two nice topological spaces $X$, $Y$ the set of continuous maps $X \to Y$ can be equipped with a topology to become a nice topological space itself.
 
 ## Formalization ##
 
