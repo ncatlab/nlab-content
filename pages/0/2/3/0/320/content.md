@@ -13,6 +13,8 @@ where the source is obtained by concatenating lists in the evident way.
 
 These operations are subject to associativity and identity axioms which the reader can probably figure out, but see for example [[Tom Leinster]]'s <a href="http://arxiv.org/abs/math.CT/0305049">book</a>, page 35 ff., for details.
 
+Many people (especially non-category theorists) use _multicategory_ to mean what we would call a _symmetric multicategory_, in which there is also an action of the symmetric group $S_n$ on the multimorphisms $c_1, \ldots, c_n \to c$ and the composition is equivariant.
+
 # Further details and generalizations #
 
 An efficient abstract method for defining multicategories and related structures is through the formalism of [[cartesian monad]]s. For ordinary categories, one uses the identity monad on [[Set]]; for ordinary multicategories, one uses the free monoid monad $(-)*: Set \to Set$. There is a very general notion of $T$-multicategory, where $T$ is a [[cartesian monad]] on a category with pullbacks, which we outline as follows.
