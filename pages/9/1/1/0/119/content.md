@@ -25,3 +25,5 @@ $$a\to b\in Mor(C)\implies a\le b.$$
 Is there a slick arrow theoretic way to say that? Something like, "There is a [[forgetful functor]] $F:Cat\to PoSet$"?
 
 I hope to write/read some arrow theoretic definition of a [[Hasse diagram]] too.
+
+_Mathieu says_: It's rather the other way round: there is a "forgetful" 2-functor $Ord \to Cat$ (which forgets that the category is in fact an order (it's a full inclusion, so it forgets a property rather than a structure)), and the left adjoint to this 2-functor maps a category $C$ to the order with the same objects as $C$ and $a\leq b$ iff there exists an arrow $a\to b$.
