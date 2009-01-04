@@ -13,6 +13,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * (2009-01-04) [[Urs Schreiber|Urs]]:
 
+   * created a _blog_ entry [nLab -- General Discussion](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html) and added a remark at the beginning of the original _wiki_ entry [[General Discussion]] asking to post further general discussion not to the wiki, but to the blog.
+
    * rearranged [[tensor product]] following the comments and corrections by [[Toby Bartels|Toby]] and [[Mike Shulman|Mike]] (thanks!).
 
 
