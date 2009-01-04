@@ -18,11 +18,13 @@ In the other direction, if $E$ has all small coproducts and the analogous infini
 
 #Examples#
 
-1. A [[topos]] is an (l)extensive category. 
+1. A [[topos]] is an (l)extensive category.
 
 1. The category of topological spaces is (l)extensive. 
 
 1. The category of affine schemes (opposite to the category of commutative rings with identity) is (l)extensive. 
+
+1. The category Cat is (l)extensive.
 
 #References#
 
