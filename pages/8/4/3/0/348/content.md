@@ -10,7 +10,6 @@ The **idea of sieves** is to regard such a cover of an object in a category as a
 A choice of collections of morphism $d \to c$ into an object $c \in C$  for each $d \in C$ reminds one of the [[representable functor]] [[presheaf]]
 $\hom_C(-, c): C^{op} \to Set$ which assigns to each $d \in C$ the set of _all_ morphisms from $d$ to $c$. Every choice of covers of $c$ is therefore for each $d \in C$ a subset of the value of this functor evaluated at $d$. This begins to look like an [[monomorphism|monic]] [[natural transformation]] into this functor. Indeed, it turns out that one can assume without restriction of generality that the assignment of covers of $c$ can always be extended to such a monic natural transformation, and hence one formalizes the notion of "collection of covers" of $c$ as a [[subobject]] $i: F \hookrightarrow \hom(-, c)$ of the functor represented by $c$: a _sieve_ at $c$. 
 
-For instance, in the topological example considered above, each open covering $\sqcup_i U_i \to X$ induces a subfunctor $\bigcup_i \hom(-, U_i) \to \hom(-, X)$ where on the left we take a union of subfunctors $\hom(-, U_i) \to \hom(-, X)$. 
 
 #Definition#
 
@@ -31,3 +30,89 @@ $$g^* F = \bigcup_{e \in Ob(C)} \{f: e \to d: g f \in F\}
 #Remarks#
 
 * Sieves are used to define [[Grothendieck topology]] and [[site]].
+
+#Examples#
+
+##Covers by open subsets##
+
+Consider again covers and sieves in the category [[Top]] of topological spaces.
+
+
+Each open covering $\sqcup_i U_i \to X$ of a topological space $X$ by open subsets $U_i$
+induces a subfunctor 
+
+$$
+  (F := \bigcup_i \hom(-, U_i)) \to \hom(-, X)
+$$
+
+where on the left we take a union of subfunctors $\hom(-, U_i) \to \hom(-, X)$. This subfunctor $F$ is the **sieve incarnation of the cover** $\sqcup_i U_i$.
+
+### Recovering the sheaf condition from morphisms out of the sieve###
+
+We now show that $F$ is the _right_ sieve incarnation of the cover by demonstrating that using it the usual [[sheaf|sheaf condition]] on a presheaf with respect to the cover $\sqcup_i U_i$ is reproduced:
+
+First notice that $F$ is precisely the coequalizer of the obvious pair of morphisms
+
+$$
+  \sqcup_{i, j} \hom(-, U_i \cap U_j)
+    \stackrel{\to}{\to}
+  \sqcup_i hom(-, U_i)
+$$
+
+where the domain of this parallel pair is the pullback of the evident map
+$\sqcup_i hom(-, U_i) \to hom(-,X)$  
+along itself, and the two parallel arrows are the projection maps out of this pullback:
+
+$$
+  \array{
+     \sqcup_{i,j} hom(-,U_i \cap U_j)
+     &\to&
+     \sqcup_i hom(-, U_i)
+     \\
+     \downarrow && \downarrow
+     \\
+     \sqcup_i hom(-, U_i)
+     &\to&
+     hom(-,X)
+  }
+$$
+ 
+Thus for $G$ any [[presheaf]],
+maps $F \to G$ are precisely the same as maps
+$\sqcup_i \hom(-, U_i) \to G$
+which coequalize the parallel pair. Applying $Hom_{Set^{C^{op}}}(-,G)$ to the colimit diagram
+
+$$
+  \sqcup_{i, j} \hom(-, U_i \cap U_j)
+    \stackrel{\to}{\to}
+  \sqcup_i hom(-, U_i)
+  \to
+  F
+$$
+                     
+yields the limit diagram
+
+$$
+  Hom(F, G)
+  \to 
+  Hom(\sqcup_i hom(-, U_i), G)
+  \stackrel{\to}{\to}
+  Hom(\sqcup_{i, j} \hom(-, U_i \cap U_j), G)
+$$
+
+which using [[Yoneda lemma|Yoneda]] is the equalizer diagram
+
+$$
+  Hom(F,G)
+  \to
+ \prod_i G(U_i) \stackrel{\to}{\to} \prod_{i, j} G(U_i \cap U_j)
+$$
+
+and hence identifies $Hom(F,G)$ indeed as the set of [[descent and codescent|descent]] data for the [[sheaf]] condition on $G$. 
+
+## More general cover morphisms ##
+
+In practive covers by open subsets $(Y = \sqcup_i U_i) \to X$ are often generalized to more general [[epimorphism|epimorphisms]] $Y \to X$ which are only required to be locally well behaved (for instance which are, in the topological context [[Top]] local homeomorphisms or in the smooth context [[Diff]] submersions).
+
+The above discussion shows that for $Y \to X$ such a cover, its sieve incarantion $F$ is the coequalizer of
+...
