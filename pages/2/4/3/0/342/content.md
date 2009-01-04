@@ -1,4 +1,4 @@
-$(n,r)$-categories are a generalisation of both $n$-[[n-category|categories]] and $n$-[[n-groupoid|groupoids]], covering all of the ground in between (and a bit beyond). As $n$ increases, there are many more possibilities, until there are infinitely many kinds of $(\infty,r)$-[[(omega,r)-category|categories]].
+$(n,r)$-categories are a generalisation of both $n$-[[n-category|categories]] and $n$-[[n-groupoid|groupoids]], covering all of the ground in between (and a bit beyond). As $n$ increases, there are many more possibilities, until there are infinitely many kinds of $(\infty,r)$-[[(infinity,r)-category|categories]].
 
 # Definition
 
@@ -15,7 +15,7 @@ If any two parallel $j$-morphisms are equivalent, then any $j$-morphism between 
 
 # Special cases
 
-An $(n,n)$-category is simply an $n$-[[n-category|category]]. An $(n,n+1)$-category is an $(n+1)$-[[n-poset|poset]]. Note that an $\omega$-category and an $\omega$-poset are the same thing. An $(n,0)$-category is an $n$-[[n-groupoid|groupoid]]. Even though they have no special name, $(n,1)$-[[(n,1)-category|categories]] are widely studied.
+An $(n,n)$-category is simply an $n$-[[n-category|category]]. An $(n,n+1)$-category is an $(n+1)$-[[n-poset|poset]]. Note that an $\infty$-category and an $\infty$-poset are the same thing. An $(n,0)$-category is an $n$-[[n-groupoid|groupoid]]. Even though they have no special name, $(n,1)$-[[(n,1)-category|categories]] are widely studied.
 
 # The periodic table
 
