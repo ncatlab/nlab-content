@@ -1,4 +1,4 @@
-An $\infty$-groupoid is an $\infty$-[[higher category theory|category]] in which all morphisms have inverses of a suitable kind.
+An $\infty$-groupoid is an $\infty$-[[infinity-category|category]] in which all morphisms are [[equivalence|equivalences]].
 
 Two familiar models for _weak_ $\infty$-groupoids are [[Kan complex|Kan complexes]] and CW-complexes; see [[homotopy theory]].
 
