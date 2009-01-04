@@ -11,6 +11,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+* (2009-01-04) [[Urs Schreiber|Urs]]:
+
+   * rearranged [[tensor product]] following the comments and corrections by [[Toby Bartels|Toby]] and [[Mike Shulman|Mike]] (thanks!).
+
+
 * (2009-01-03) [[Mike Shulman]]:
 
   * there is a discussion going on at [[subcategory]] over whether any faithful functor should be called a "subcategory."  Input welcomed.
