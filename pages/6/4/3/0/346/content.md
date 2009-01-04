@@ -48,7 +48,7 @@ While this is less fashionable, in some cases it is more obvious what the correc
 
  * Certain categories of nice _based_  topological spaces are closed symmetric monoidal.  The monoidal structure is the [[smash product]] and the internal-hom is the set of basepoint-preserving maps with topology induced from the space of unbased ones.
 
- * The category [[Cat]] is cartesian closed: the internal-hom is the category of functors and natural transformations.
+ * The category [[Cat]] is cartesian closed: the internal-hom is the [[functor category]] of functors and natural transformations.
 
  * The category $2-Cat$ of [[strict 2-category|strict 2-categories]] and strict 2-functors is closed monoidal under the [[Gray tensor product]].  The internal-hom is the 2-category of strict 2-functors, _pseudo_ natural transformations, and modifications.
 
@@ -56,8 +56,6 @@ While this is less fashionable, in some cases it is more obvious what the correc
 
 #References#
 
-For instance section 1.5 _Closed and biclosed monoidal categories_ of
-
-* Max Kelly, _Basic concepts of enriched category theory_ ([tac](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html)) 
+* Max Kelly, _Basic concepts of enriched category theory_, section 1.5, ([tac](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html)) 
 
 * Samuel Eilenberg and Max Kelly, _Closed categories_.  Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965).
