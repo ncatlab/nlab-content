@@ -44,11 +44,11 @@ The full details are carefully treated in Tom Leinster's book, _loc. cit._, who 
 
 # Connection with operads #
 
-A nonpermutative (or Stasheff) [[operad]] may be defined as an ordinary multicategory with exactly one object. For each cartesian monad $T$, there is a corresponding notion of $T$-operad: a $T$-multicategory whose underlying $T$-span has the form $1 \dashrightarrow 1$.
+A nonpermutative (or Stasheff) [[operad]] in [[Set]] may be defined as an ordinary multicategory with exactly one object.  Likewise, an operad in any symmetric [[monoidal category]] $V$ is equivalent to a $V$-[[enriched category|enriched]] multicategory with one object.  Furthermore, for each cartesian monad $T$, there is a corresponding notion of $T$-operad, namely a $T$-multicategory whose underlying $T$-span has the form $1 \dashrightarrow 1$.
 
 For example, in Batanin's approach to (weak) $\infty$-[[infinity-category|categories]], a [[globular operad]] is a $T$-operad, where $T$ is the free (strict) $\omega$-[[omega-category|category]] monad on the category of [[globular set]]s.
 
-With a little care, ordinary (permutative) operads may also be treated within this framework. See Tom Leinster's book for details.
+With a little care, ordinary (permutative/symmetric) operads may also be treated within this framework. See Tom Leinster's book for details.
 
 #References#
 
