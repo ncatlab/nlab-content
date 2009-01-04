@@ -11,6 +11,16 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+* (2009-01-03) [[Mike Shulman]]:
+
+  * there is a discussion going on at [[subcategory]] over whether any faithful functor should be called a "subcategory."  Input welcomed.
+
+  * added a comment on terminological objections to [[Grothendieck topology]].
+
+  * corrected the example of abelian groups at [[tensor product]].
+
+  * added examples and comment on non-monoidal closure to [[closed category]]
+
 * (2009-01-03) [[Todd Trimble]]: 
 
   * added to (and edited) examples under [[closed category]]
@@ -88,4 +98,4 @@ of the [[HomePage]]. So far I did this in [[category theory]], [[sheaf and topos
 
 * [[Urs Schreiber|Urs]]: I expanded on the entry [[action groupoid]] that [[Eric Forgy|Eric]] started.
 
-category: meta
+category: meta 
