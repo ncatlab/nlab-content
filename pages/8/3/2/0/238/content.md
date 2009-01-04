@@ -13,6 +13,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * (2009-01-04) [[Urs Schreiber|Urs]]:
 
+   * adapted [[n-category]] and [[n-groupoid]] to [[Toby Bartels|Toby]]'s [[(n,r)-category]] (which is a great entry -- we should flesh that out further).
+
+   * took the liberty of changing in [[Toby Bartels|Toby]]'s entry [[(n,r)-category]] the "$\omega$-categories" appearing there to "$\infty$-categories", since I thought we did agree that "$\infty$-category" is the generic term while [[omega-category]] specifically means _strict globular $\infty$-category_.
+
+   * separated [[infinity-category]] from [[higher category theory]] and added some brief stub entries such as [[n-category]], [[n-groupoid]] and [[Kan complex]]. 
+
    * created a _blog_ entry [nLab -- General Discussion](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html) and added a remark at the beginning of the original _wiki_ entry [[General Discussion]] asking to post further general discussion not to the wiki, but to the blog.
 
    * rearranged [[tensor product]] following the comments and corrections by [[Toby Bartels|Toby]] and [[Mike Shulman|Mike]] (thanks!).
