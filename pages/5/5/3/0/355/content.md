@@ -1,0 +1,1 @@
+An $n$-groupoid is an [[infinity-groupoid]] which is an [[n-category]].
