@@ -1,7 +1,6 @@
 #Idea#
 
-The term "$\omega$-category" is in the existing literature usually meant to refer to precisely those [[globular set|globular]] [[higher category theory|infinity-categories]] which are _strict_.
-
+The term "$\omega$-category" is in the existing literature usually meant to refer to precisely those [[globular set|globular]] [[infinity-category|infinity-categories]] which are _strict_.
 
 
 
@@ -185,3 +184,4 @@ Which, in light of the references that use '$\infty$-category' for the weak conc
 
 =--
 
+* I don't want to reopen this can of worms, although I am just as sad as Toby.  Can I at least request that we at the nLab try to say "strict $\omega$-category" when that is what we mean, rather than just saying "$\omega$-category" and assuming that the reader knows that we mean the strict version?  In particular, since we have a page called [[strict 2-category]] rather than "2-category," it would seem only fair for this page to be called "strict omega-category," with the page "omega-category" containing links and pointing out the variations in terminology.  --[[Mike Shulman|Mike]]
