@@ -11,6 +11,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+* (2009-01-04) [[Mike Shulman]]:
+
+  * Added a terminological suggestion to [[omega-category]].
+
+  * Refactored [[tensor product]], removing the discussion which prompted the refactoring.  Created [[fc-multicategory]].
+
 * (2009-01-04) [[Urs Schreiber|Urs]]:
  
    * meant to follow up on [[Todd Trimble|Todd]]'s discussion of [[sheaf]] and [[stack]] in terms of [[sieve]]s and relate it to the entry on [[descent and codescent]] and  [[infinity-stack]] but was distracted by other things. But I did write up a quick rough note on this into a LaTeX file, which you can see here for the time being: [[if.pdf:file]].
@@ -117,4 +123,4 @@ of the [[HomePage]]. So far I did this in [[category theory]], [[sheaf and topos
 
 * [[Urs Schreiber|Urs]]: I expanded on the entry [[action groupoid]] that [[Eric Forgy|Eric]] started.
 
-category: meta 
+category: meta
