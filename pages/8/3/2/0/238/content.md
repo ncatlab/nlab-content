@@ -12,6 +12,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 * (2009-01-04) [[Urs Schreiber|Urs]]:
+ 
+   * added, following email discussion with [[Todd Trimble|Todd]], a discussion to [[sieve]] of which sieves are the presheaf incarnations of which [[cover|covers]], and why
 
    * adapted [[n-category]] and [[n-groupoid]] to [[Toby Bartels|Toby]]'s [[(n,r)-category]] (which is a great entry -- we should flesh that out further).
 
