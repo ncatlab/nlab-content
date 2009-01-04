@@ -77,6 +77,8 @@ _[[Eric Forgy|Eric]] says_: Great! Thanks for the references. I would find it to
 
 It seems that when every morphism is a composite of other morphisms, i.e. there are no primordial morphisms, it would be difficult to find the directed graph I'm looking for. If higher degree edges somehow provide the magic ingredient, that would be neat.
 
+_[[Eric Forgy|Eric]] says_: It seems what I was talking about might also be related to a [covering relation](http://en.wikipedia.org/wiki/Covering_relation). 
+
 #See also#
 ***
 * [[directed n-graph|Directed n-graph]]
