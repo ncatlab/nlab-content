@@ -13,6 +13,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * (2009-01-04) [[Urs Schreiber|Urs]]:
  
+   * meant to follow up on [[Todd Trimble|Todd]]'s discussion of [[sheaf]] and [[stack]] in terms of [[sieve]]s and relate it to the entry on [[descent and codescent]] and  [[infinity-stack]] but was distracted by other things. But I did write up a quick rough note on this into a LaTeX file, which you can see here for the time being: [[if.pdf:file]].
+
    * expanded on the [[sheaf]]-condition, offering in parallel to the definition in terms of [[sieve]]s the definition in terms of [[oriental]]s with a a few remarks on how both are related and what the issue is with generalizing to  [[stack]] and [[infinity-stack]].
 
    * added, following email discussion with [[Todd Trimble|Todd]], a discussion to [[sieve]] of which sieves are the presheaf incarnations of which [[cover|covers]], and why
