@@ -1,18 +1,25 @@
 #Idea#
 
-* In its original sense the _tensor_ product of two objects on which a third object acts is the quotient of their product by this [[action]].
+* In its original sense a _tensor product_ 
+is the tensor product in a [[multicategory]] whose multimorphisms are thought of a _multilinear maps_.
 
-+--{.query}
-Urs, why do you say that this is the *original* sense? (By the way, I see now how what you first wrote here *does* cover the case of $\Ab$ without circularity.) &#8212;Toby
+* There are various variations of the notion of tensor product, which usually go by the same name:
 
-I would argue that the multicategorical version (a tensor product is a representing object for multilinear maps) is more "original," since as I noted below the case of $Ab$ cannot actually be viewed as a quotient of some pre-existing product.  Actually, historically speaking my guess would be that the most "original" notion of tensor product is as a left adjoint to an internal hom, but don't quote me on that.  --[[Mike Shulman|Mike]]
-=--
+  * the functor $\otimes : C \times C \to C$ which is part of the data of a [[monoidal category]] $C$ is called a _tensor product_ (since in classical examples of monoidal categories it is induced from a tensor product in the original sense). In parts of the literature (certain) abelian monoidal categories are even addressed as _tensor categories_. 
 
-* This notion has various _generalizations_, which often go by the same name:
+  * given two objects in a [[monoidal category]] $(C,\otimes)$ with a right and left [[action]], respectively, of some [[monoid]] $A$, their _tensor product over $A$_ is the quotient of their tensor product in $C$ by this action.
 
-  * there is a notion of tensor product in any [[multicategory]];
 
-  * the functor $\otimes : C \times C \to C$ which is part of the data of a [[monoidal category]] $C$ is called a _tensor product_. In parts of the literature (certain) abelian categories are even addressed as _tensor categories_. 
+#Tensor product in a multicategory#
+
+If $M$ is a [[multicategory]] and $A$ and $B$ are objects in $M$, then the _tensor product_ $A \otimes B$ is defined to be an object equipped with a [[universal construction|universal]] multimorphism from $A$ and $B$ to $A \otimes B$. Thus, any multimorphism from $A$ and $B$ to $C$ defines a morphism from $A \otimes B$ to $C$ (and conversely).
+
+For example, if $M$ is the category [[Ab]] of abelian groups, made into a multicategory using multilinear maps as the multimorphisms, then we get the usual tensor product of abelian groups. That is, $A \otimes B$ is equipped with a universal map from $A \times B$ (as a set) to $C$ such that this map is linear (a group homomorphism) in each argument separately.  The same idea works for modules over rings and for vector spaces.
+
+Many other tensor products arise in this way as well.  For example, the [[Gray tensor product]] of [[strict 2-category|strict 2-categories]] can also be described as an object equipped with a universal multimorphism in some multicategory.
+
+
+
 
 #Tensor product of modules#
 
@@ -59,17 +66,23 @@ The probably most familiar case of a tensor product is that of vector spaces, wh
 Note that $A\otimes B$ is not a subobject _or_ a quotient of the cartesian product $A\times B$.  Therefore, this is not the tensor product of modules over any monoid in the cartesian monoidal category [[Set]].  Abelian groups _can_ be considered as "sets with an action by something," but that something is more complicated than a monoid: it is a special sort of [[monad]] called a [[commutative theory]].
 
 
-#Tensor product in a multicategory#
-
-If $M$ is a [[multicategory]] and $A$ and $B$ are objects in $M$, then the _tensor product_ $A \otimes B$ is defined to be an object equipped with a [[universal construction|universal]] multimorphism from $A$ and $B$ to $A \otimes B$. Thus, any multimorphism from $A$ and $B$ to $C$ defines a morphism from $A \otimes B$ to $C$ (and conversely).
-
-For example, if $M$ is the category [[Ab]] of abelian groups, made into a multicategory using multilinear maps as the multimorphisms, then we get the usual tensor product of abelian groups. That is, $A \otimes B$ is equipped with a universal map from $A \times B$ (as a set) to $C$ such that this map is linear (a group homomorphism) in each argument separately.  The same idea works for modules over rings and for vector spaces.
-
-Many other tensor products arise in this way as well.  For example, the [[Gray tensor product]] of [[strict 2-categories]] can also be described as an object equipped with a universal multimorphism in some multicategory.
-
-
 #Tensor product in a bicategory#
 
 The tensor product of modules for a monoid in a monoidal category is easily extended to a tensor product of modules for a [[monad]] in a [[bicategory]].
 
 For example, consider the bicategory $V-Mat$ of $V$-valued matrices for some monoidal category $V$.  A monad in $V-Mat$ is a $V$-[[enriched category]] $A$, an $(A,I)$-bimodule is a functor $A\to V$, an $(I,A)$-bimodule is a functor $A^{op}\to V$, and their tensor product in $V-Mat$ is a classical construction called the **tensor product of functors**.  It can also be computed as a [[end|coend]].
+
+
+
+#Discusssion
+
++--{.query}
+Urs, why do you say that this is the *original* sense? (By the way, I see now how what you first wrote here *does* cover the case of $\Ab$ without circularity.) &#8212;Toby
+
+I would argue that the multicategorical version (a tensor product is a representing object for multilinear maps) is more "original," since as I noted below the case of $Ab$ cannot actually be viewed as a quotient of some pre-existing product.  Actually, historically speaking my guess would be that the most "original" notion of tensor product is as a left adjoint to an internal hom, but don't quote me on that.  --[[Mike Shulman|Mike]]
+
+Yes, you are right. Thanks for catching that. I have
+tried to rearrange the beginning of the entry accordingly.
+Check. --[[Urs Schreiber|Urs]]}
+
+=--
