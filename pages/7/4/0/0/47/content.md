@@ -1,6 +1,10 @@
 # General Discussion #
 
-Here we should brainstorm ideas about how to use the $n$Lab and how it should work. It's not the $n$_Wiki_, it's the $n$_Lab_, and we need to work out what that means.
+Below we used to discuss general issues concerning the $n$Lab. But it seems that we found a consensus that _discussion_ (as opposed to incremenetal work on entries) is best hosted at the blog, not the wiki. So now you are encouraged to post any messages concerning the $n$Lab community to the blog entry
+
+*  [nLab -- General Discussion](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html)
+
+This probably means that you should **not edit this page here** any further. If you want to follow up on a discussion that started below, consider summarizing the state of the discussion at the above blog entry and then post your contribution there.
 
 -----------------------
 
