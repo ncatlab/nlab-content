@@ -110,9 +110,24 @@ $$
 
 and hence identifies $Hom(F,G)$ indeed as the set of [[descent and codescent|descent]] data for the [[sheaf]] condition on $G$. 
 
-## More general cover morphisms ##
+### Interpretation in terms of higher descent and codescent ###
 
-In practive covers by open subsets $(Y = \sqcup_i U_i) \to X$ are often generalized to more general [[epimorphism|epimorphisms]] $Y \to X$ which are only required to be locally well behaved (for instance which are, in the topological context [[Top]] local homeomorphisms or in the smooth context [[Diff]] submersions).
+(... I'll expand on the following later ...)
 
-The above discussion shows that for $Y \to X$ such a cover, its sieve incarantion $F$ is the coequalizer of
-...
+As described at [[descent and codescent]], for $(Y = \sqcup_i U_i) \to X$ a cover of spaces, there is an $\infty$-groupoid
+
+$$
+  Codesc(Y) := \int^{[n] \in \Delta} O([n])\cdot Y^{[n+1]}
+$$
+
+(with $O([n])$ the free $\infty$-groupoid on the $n$-simplex)
+which resolves the &#268;ech groupoid of the cover. (For the following statement the &#268;ech groupoid itself is already sufficient.)
+
+The sieve associated with the cover is the presheaf obtained by starting with the $\infty$-prestack represented by $Codesc(Y)$ and passing to equivalence classes.
+
+$$
+  \bigcup_i hom(-,U_i)
+  \simeq
+  hom(-, Codesc(Y))/_\sim
+  \,.
+$$
