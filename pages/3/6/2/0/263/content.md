@@ -1,4 +1,4 @@
-A _category with weak equivalences_ is a [[category]] $C$ equipped with a [[subcategory]] $W \subset C$
+A _category with weak equivalences_ is a [[category]] $C$ equipped with a [[subcategory]] (in the na&#239;ve sense) $W \subset C$
 
 * which contains all isomorphisms of $C$;
 
@@ -19,6 +19,6 @@ $
  Core(C) \hookrightarrow W \hookrightarrow C
 $.
 
-* Sometimes it is useful to ask further closure properties of the weak equivalences, such as the "2-out-of-6" property (if $g f$ and $h g$ are weak equivalences, then so are $f$, $g$, $h$, and $h g f$) in which case one speaks of a [[homotopical category]], or closure under [[retract|retracts]] in the arrow category of $C$.
+* Sometimes it is useful to ask further closure properties of the weak equivalences, such as the "2-out-of-6" property (if $g f$ and $h g$ are weak equivalences, then so are $f$, $g$, $h$, and $h g f$) in which case one speaks of a [[homotopical category]], or closure under [[retract|retracts]] in the [[arrow category]] of $C$.
 
 * Many (perhaps most) categories with weak equivalences can be equipped with the further structure of a [[model category]]. On the other hand, many categories with weak equivalences can _not_ be equipped with a useful structure of a model category. This is in particular true for categories of diagrams in a model category. Several concepts exist that weaken the axioms of a model category in order to still obtain useful results in such a case -- for instance a [[category of fibrant objects]].
