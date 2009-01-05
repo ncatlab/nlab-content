@@ -1,6 +1,6 @@
 _Alg_ is the [[category]] with [[algebra|algebras]] as [[object|objects]] and algebra homomorphisms as [[morphism]]s.
 
-More abstractly, we can think of $Alg$ as the [[category|full subcategory]] of $Cat(Vect)$, categories [[internalization|internal to]] vector spaces, with algebras as objects.
+More abstractly, we can think of $Alg$ as the [[category|full subcategory]] of $Cat(Vect)$, [[internal category|internal categories]] in [[Vect]], with algebras as objects.
 
 #Remarks#
 
