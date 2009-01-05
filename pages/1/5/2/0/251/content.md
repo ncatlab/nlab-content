@@ -4,7 +4,7 @@
 
 #Definition#
 
-A **double category** is a [[category]] [[internalization|internal to]] [[Cat]].
+A **double category** is an [[internal category]] in [[Cat]].
 
 #References#
 
