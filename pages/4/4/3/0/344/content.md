@@ -18,6 +18,8 @@ In the other direction, if $E$ has all small coproducts and the analogous infini
 
 +--{.query}
 Can we say 'small-extensive'? Or even redefine 'extensive' to have this meaning, using 'finitely extensive' for the first version? &#8212;Toby
+
+I think "extensive" is pretty well established for the finite version, and I would be reluctant to try to change it.  I wouldn't object too much to "small-extensive" for the infinitary version, but $\infty$-positive is used in the Elephant and possibly elsewhere.  I think the topos theorists think by analogy with $\infty$-pretopos, which I don't think we have much hope of changing, despite the unfortunate clash with "$\infty$-topos." -Mike
 =--
 
 #Examples#
@@ -34,6 +36,10 @@ Can we say 'small-extensive'? Or even redefine 'extensive' to have this meaning,
 
 If a (small) [[site]] is (small) $\infty$-extensive, then one can replace any [[cover]] with a single map. That is, replace the covering family $(j_i: U_i \to B)_i$ with the map $[j_i]_i: \coprod_i U_i \to B$. In other words, the singleton covers form a basis for the Grothendieck coverage on the site.
 
++--{.query}
+I don't believe this, for reasons having nothing to do with the unlikelihood that a non-posetal small site would have all small coproducts (-: .  For example, any extensive category has an _extensive coverage_ in which the covering families are the families of coprojections into a finite coproduct.  But the only singleton covers are isomorphisms, which certainly do not form a basis. -Mike
+=--
+
 #References#
 
-Carboni, Aurelio and Lack, Stephen and Walters, R. F. C., _Introduction to extensive and distributive categories_, JPAA 84 no. 2
+Carboni, Aurelio and Lack, Stephen and Walters, R. F. C., _Introduction to extensive and distributive categories_, JPAA 84 no. 2 
