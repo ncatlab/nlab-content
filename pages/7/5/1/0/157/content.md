@@ -4,4 +4,4 @@ In general, a category is called "locally $P$" if all hom-sets (or [[hom-object]
 
 #Remarks#
 
-The intuition that hom-sets capture the "local" aspects of the situation modeled by a category has its limitations and should not be taken too literally, especially when one is dealing with categories [[internalization|internal to]] spaces. A similar remark applies to [[discrete category]].
+The intuition that hom-sets capture the "local" aspects of the situation modeled by a category has its limitations and should not be taken too literally, especially when one is dealing with [[internal category|internal categories]] in spaces. Furthermore, this adjective is often used in the completely different sense of [[localization]], which has to do with [[slice category|slice categories]].
