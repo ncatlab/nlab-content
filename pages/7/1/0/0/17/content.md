@@ -12,6 +12,10 @@ Hit "edit page" to see how pages are coded. Use the [[Sandbox|Sandbox]] to warm 
 
 _Watch out_: the name of a page is case sensitive, so make your link lowercase if it comes at the beginning of a sentence. (`[[like this|Like this]]`.) We loosely agreed to try to follow that and some other naming conventions; see below.
 
+#Note to new contributors#
+
+Once you edit a page, your name will appear at the bottom, grayed out with a question mark since you don't have a user page yet.  You may take this as an invitation to create your user page and tell us about yourself.  But if you don't want to or don't have the time right now, you should also feel free to just make a blank user page for yourself, containing only 'category: people' (so that you show up in the [list of contributors](http://www.ncatlab.org/nlab/list/people)).
+
 # Naming conventions
 
 These are not set in stone, but we\'re following them for now. Most days, [[Toby Bartels]] goes around and corrects any violations (while reading the new material). But changing page titles results in unnecessary kruft (in [category: redirect](http://www.ncatlab.org/nlab/list/redirect)), so you should try to follow these if possible (or dispute them if not!).
