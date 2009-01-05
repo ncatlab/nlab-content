@@ -19,7 +19,7 @@ Also see John Armstrong's article: [Enriched categories](http://unapologetic.wor
 
 ##Internalization versus Enrichment##
 
-The idea of enriched categories is not unrelated to that of [[internalization|internal categories]], but is different.  One difference is that in a $K$-enriched category, the objects still form a _set_ (or a proper class) while the arrows are replaced by objects of $K$, while in a category internal to $K$, both the set of objects _and_ the set of arrows are replaced by objects of $K$.
+The idea of enriched categories is not unrelated to that of [[internal category|internal categories]], but is different.  One difference is that in a $K$-enriched category, the objects still form a _set_ (or a proper class) while the arrows are replaced by objects of $K$, while in a category internal to $K$, both the set of objects _and_ the set of arrows are replaced by objects of $K$.
 
 Another difference is that for $K$-enriched categories, $K$ can be any monoidal category, while for $K$-internal categories, it must have pullbacks, which can be thought of as a generalization of [[cartesian monoidal category|cartesian monoidal structure]].  In particular, a $K$-internal category with one object (that is, whose object-of-objects is a [[terminal object]]) is a [[monoid]] in $K$ with respect to the cartesian product, whereas a one-object $K$-enriched category is a monoid in $K$ with respect to whatever monoidal structure we use to define enriched categories.
 
