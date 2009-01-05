@@ -1,6 +1,6 @@
 #Idea#
 
-An $\infty$-category or [[omega-category]] is a combinatorial model for _directed space_ hence a model for _higher directed homotopies_.
+An $\infty$-category, sometimes called $\omega$-[[omega-category|category]], is a combinatorial model for _directed space_ hence a model for _higher directed homotopies_.
 
 If the $\infty$-category is not directed it is called an [[infinity-groupoid]] and is then a model for an ordinary space.
 
