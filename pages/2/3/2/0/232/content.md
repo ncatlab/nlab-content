@@ -32,7 +32,7 @@ Nevertheless, internalization and enrichment are related in several ways.  On th
 * An [[algebroid]] is a category enriched over [[Vect]].
 * A [[strict 2-category]] is a category enriched over [[Cat]].
 
-* A strict $n$-category is a category enriched over strict $(n-1)$-categories. In the limit $n \to \infty$ this leads to [[omega-category|omega-categories]].
+* A strict $n$-category is a category enriched over strict $(n-1)$-categories. In the limit $n \to \infty$ this leads to [[strict omega-category|omega-categories]].
 
 (In all these cases the standard monoidal structure on the monoidal categories is understood.)
 
