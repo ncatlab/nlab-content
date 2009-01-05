@@ -46,6 +46,6 @@ This kind of nonabelian cohomology is discussed for instance in
 
 * John C. Baez, Michael Shulman, _Lectures on $n$-Categories and Cohomology_ ([arXiv](http://arxiv.org/abs/math.CT/0608420)).
 
-That and how ordinary group cohomology is reproduced from the [[homotopical cohomology theory]] of [[omega-groupoid|omega-groupoids]] is discussed in detail in 
+That and how ordinary group cohomology is reproduced from the [[homotopical cohomology theory]] of [[strict omega-groupoid|strict omega-groupoids]] is discussed in detail in 
 
 * R. Brown, P. Higgins, R. Sivera, [[nonabelian algebraic topology|Nonabelian algebraic topology]].
