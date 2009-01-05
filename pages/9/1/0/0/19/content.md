@@ -90,4 +90,6 @@ Wouldn\'t it be simpler to list the entries that *aren\'t* related to category t
 a) I want eventually all the encyclopedic entries on the $n$Lab to be listed in the main headline entries such as [[sheaf and topos theory]] so that people can efficiently see which information exists on the $n$Lab and search for keywords.
 
 b) I expect that eventually pure category theoretic definitions will not dominate the $n$Lab entries. Currently they clearly do, since we found ourselves explaining things from the bottom up. But as soon as we start working more seriously on more specialized topics, for instance on the [[physics]] and [[philosophy]] sections pure category theoretic entries will become the minority. Clearly, I think, we don't want the $n$Lab to be or remain a _just_ category theory dictionary.
+
+Toby: I see, this list is only for such dictionary-like terms, not for everything that uses category theory in some way (which I think probably *will* continue to be most). But we can make it shorter by, say, removing everything that\'s about [[higher category theory]] and making a single link to that (just as we don\'t list everything under [[mathematics]]).
 =--
