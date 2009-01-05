@@ -1,6 +1,6 @@
 #Idea#
 
-Under certain conditions on a given [[homotopy theory]] on a category $C$, the morphisms in the homotopy category $Ho(C)$ are represented already by spans 
+Under certain conditions on a given [[homotopy theory]] on a category $C$ (namely if $C$ satisfies the axioms of a [[category of fibrant objects]]), the morphisms in the homotopy category $Ho(C)$ are represented already by spans 
 
 $$
   \array{
