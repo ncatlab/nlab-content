@@ -1,1 +1,3 @@
-A functor is called **bijective on objects**, or **bo**, if it is, well, bijective on objects.  One reason bo functors are important is because together with [[full functor|full and faithful (ff) functors]] they form an [[weak factorization system|orthogonal factorization system]] on [[Cat]]; see [[bo-ff factorization system]].
+A [[functor]] is called **bijective on objects**, or **bo**, if it is, well, bijective on objects.  One reason bo functors are important is because together with [[full functor|full and faithful (ff) functors]] they form an [[weak factorization system|orthogonal factorization system]] on [[Cat]]; see [[bo-ff factorization system]].
+
+To be less [[evil]], one can require that the functor be bijective on objects only up to isomorphism; that is, it is [[essentially surjective functor|essentially surjective]] and [[full functor|full]] on isomorphisms.
