@@ -22,6 +22,8 @@ where $Ps(C,D)$ is the 2-category of 2-functors, pseudonatural transformations, 
 
 * The cartesian monoidal structure is sometimes called the "black"  product, since the square $2\times 2$ is "completely filled in" (i.e. it commutes).  There is another "white" tensor product in which the square $2\Box 2$ is "not filled in at all" (doesn't commute at all), and the "gray" tensor product is in between the two (the square commutes up to an isomorphism).  This is a pun on the name of John Gray who gave his name to the Gray tensor product.
 
+* There are generalizations to [[higher category theory|higher categories]] of the Gray tensor product. In particular there is a tensor product on [[strict omega-category|strict omega-categories]] -- the [[Crans-Gray tensor product]] -- which is such that restricted to strict 2-categories it reproduces the Gray tensor product.
+
 # References #
 
 * John W. Gray, _Formal category theory: adjointness for 2-categories_
