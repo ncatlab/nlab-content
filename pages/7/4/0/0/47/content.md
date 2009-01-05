@@ -682,7 +682,7 @@ I\'ve gone through all the names of categories (like $\Set$, the category of set
 
 _[[Eric Forgy|Eric]] says_:
 
-I was thinking about the categorical definition of [[algebra|algebras]] as a [[monoid]] in Vect. Then I was trying to think of how you would similarly define a graded algebra. A thought that came to mind, which seems to make sense, is that a graded algebra could be thought of as a "category in Vect". Or something like that.
+I was thinking about the categorical definition of [[algebra|algebras]] as a [[monoid]] in Vect. Then I was trying to think of how you would similarly define a [[graded algebra]]. A thought that came to mind, which seems to make sense, is that a graded algebra could be thought of as a "category in Vect". Or something like that.
 
 Come to think of it, could you say that given a monoid $M$, an algebra is a functor $A:M\to Vect$? 
 
