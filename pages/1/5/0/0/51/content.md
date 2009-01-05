@@ -6,7 +6,7 @@ The standard stuff: &lt;http://math.ucr.edu/home/baez/qg-spring2004/discussion.h
 
 ## $k$-surjectivity##
 
-An $\omega$-functor $f : C \to D$ between [[omega-category|omega-categories]] is 
+An $\omega$-functor $f : C \to D$ between $\infty$-[[infinity-category|categories]] is 
 0-surjective if $f_0 : C_0 \to D_0$ is an epimorphism.
 
 For $k \in \mathbb{N}$, $k \geq 1$ the functor is _$k$-surjective_ 
@@ -98,7 +98,7 @@ The general idea of $k$-surjectivity is described around [definition 4](http://a
 * Baez-Shulman, _Lectures on $n$-Categories and Cohomology_
 ([arXiv](http://arxiv.org/abs/math.CT/0608420))
 
-The concrete discussion in the context of [[omega-category|omega-categories]] is in
+The concrete discussion in the context of [[strict omega-category|strict omega-categories]] is in
 
 * Yves Lafont, Francois M&eacute;tayer, Krzysztof Worytkiewicz, _A folk model structure on $\omega$-cat_ ([arXiv](http://arxiv.org/abs/0712.0617)).
 
