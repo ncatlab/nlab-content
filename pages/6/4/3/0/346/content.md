@@ -52,7 +52,7 @@ While this is less fashionable, in some cases it is more obvious what the correc
 
  * The category $2-Cat$ of [[strict 2-category|strict 2-categories]] and strict 2-functors is closed monoidal under the [[Gray tensor product]].  The internal-hom is the 2-category of strict 2-functors, _pseudo_ natural transformations, and modifications.
 
- * The category of strict $\omega$-[[omega-category|categories]] is also closed monoidal, with a Gray-like tensor product.
+ * The category of strict $\omega$-[[strict omega-category|categories]] is also closed monoidal, with a Gray-like tensor product.
 
 #References#
 
