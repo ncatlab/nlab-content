@@ -42,7 +42,7 @@ A _globular set_ is a [[presheaf]] on the _globe category_ (described below), on
 
   A
   **globular object**
-  $S$ [[internalization|internal to]] a category $K$
+  $S$ [[internalization|in]] a category $K$
   is a functor $S : G^{\mathrm{op}} \to K$.
   In particular, for $K = Sets$ we say $S$ is a
   **globular set**.
