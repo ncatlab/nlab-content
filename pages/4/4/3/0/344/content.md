@@ -34,10 +34,12 @@ I think "extensive" is pretty well established for the finite version, and I wou
 
 #Extensive sites#
 
-If a (small) [[site]] is (small) $\infty$-extensive, then one can replace any [[cover]] with a single map. That is, replace the covering family $(j_i: U_i \to B)_i$ with the map $[j_i]_i: \coprod_i U_i \to B$. In other words, the singleton covers form a basis for the Grothendieck coverage on the site.
+If a [[site]] (with small covering families) is (small) $\infty$-extensive, then one can replace any [[cover]] with a single map. That is, replace the covering family $(j_i: U_i \to B)_i$ with the map $[j_i]_i: \coprod_i U_i \to B$. To be precise, you can recover a precoverage (Grothendieck pretopology) for the Grothendieck coverage on the site by taking coproduct inclusions into such covers.
 
 +--{.query}
 I don't believe this, for reasons having nothing to do with the unlikelihood that a non-posetal small site would have all small coproducts (-: .  For example, any extensive category has an _extensive coverage_ in which the covering families are the families of coprojections into a finite coproduct.  But the only singleton covers are isomorphisms, which certainly do not form a basis. -Mike
+
+Do you believe it now? &#8212;Toby
 =--
 
 #References#
