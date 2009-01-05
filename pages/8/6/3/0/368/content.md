@@ -1,0 +1,1 @@
+A functor is called **bijective on objects**, or **bo**, if it is, well, bijective on objects.  One reason bo functors are important is because together with [[full functor|full and faithful (ff) functors]] they form an [[weak factorization system|orthogonal factorization system]] on [[Cat]]; see [[bo-ff factorization system]].
