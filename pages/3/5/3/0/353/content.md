@@ -1,4 +1,4 @@
-$n$-categories are the main subject of [[higher category theory]], and give their names to [[About|the <i>n</i>Lab]].
+$n$-categories are the main subject of [[higher category theory]], and give its name to the $n$-[[About|Lab]].
 
 #Idea#
 
