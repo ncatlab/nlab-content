@@ -6,8 +6,6 @@ The notion of a [[category]] can be formulated _internal_ to any other category 
  
  * Lie groups are groups _internal to manifolds_.
 
-
-
 #Definition#
 
 Let $A$ be any category. A _category internal to $A$_ is 
@@ -105,3 +103,7 @@ Answer: No, it\'s just the definition of 'internal' in that context. You\'ll not
 _[[Mike Shulman|Mike]] asks_: what would everyone think about having separate pages on "internalization" and "internal category?"  I think it would be good to have a page that is just about internal categories, especially so they can easily be compared and contrasted with [[enriched category|enriched ones]].  But it would also be good to have a page about internalization in doctrines more generally. Doing this might also help clear up the confusion between, e.g., a monoid in $(Vect,\otimes)$ and a one-object internal category in Vect.
 
 An unrelated question: are you implying that you can internalize enriched categories in the doctrine of lex categories?  That is not at all clear to me.  Is there a general definition/theorem of internalization in a doctrine?  The closest thing I can think of is Tom Leinster's theorem about how $T$-algebras can naturally be enriched in $T$-multicategories for any [[cartesian monad]] $T$, which (as he observes) suggests that monoids live in ordinary [[multicategory|multicategories]] (including, as a special case, monoidal categories) and enriched categories live in [[fc-multicategory|fc-multicategories]] (including, as special cases, double categories and bicategories).
+
+_Toby replies_: I always assumed that we\'d have a separate page [[internal category]] someday, and that this was just the first draft here. But maybe now is the time.
+
+And I\'m implying that you can internalise categories in the doctrine of lex categories (whereas you can internalise monoids in the doctrine of monoidal categories).
