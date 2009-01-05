@@ -11,7 +11,7 @@ If you call that 'oidification', then you can call this simply 'categorification
 
 #Examples#
 
-* One notion of vertical categorification of **abelian groups** are _chain complexes of abelian groups_ which, if in non-negative degree, are equivalent to $\omega$-[[omega-category|categories]] internal to $AbelianGroups$. (See the [[Dold-Kan theorem]].)
+* One notion of vertical categorification of **abelian groups** are _chain complexes of abelian groups_ which, if in non-negative degree, are equivalent to strict $\omega$-[[strict omega-category|categories]] internal to $AbelianGroups$. (See the [[Dold-Kan theorem]].)
 
 * Familiar vertical categorifications/homotopifications of algebraic structures include
 
