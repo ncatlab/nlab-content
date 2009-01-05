@@ -14,9 +14,11 @@ _Watch out_: the name of a page is case sensitive, so make your link lowercase i
 
 #Note to new contributors#
 
-Once you edit a page, your name will appear at the bottom, grayed out with a question mark since you don't have a user page yet.  You may take this as an invitation to create your user page and tell us about yourself.  But if you don't want to or don't have the time right now, you should also feel free to just make a blank user page for yourself, containing only 'category: people' (so that you show up in the [list of contributors](http://www.ncatlab.org/nlab/list/people)).
+When you edit a page, you can (and should) put your name (with normal capitalisation and spacing) in the box after 'Submit as'. If you don\'t, then your contribution will be credited to the [[Anonymous Coward]].
 
-To create your user page, simply click the question mark that appears next to your name at the bottom of the page after making a modification and add content to the edit box that appears. If you'd like to make a user page prior to modifying an existing page, you can do so by making some trivial modification to the [[Sandbox]], which will put your name at the bottom of the page where you can click the question mark.
+Once you edit a page for the first time, your name will appear at the bottom, grayed out with a question mark since there is no page with your name yet.  You may take this as an invitation to create a user page and tell us about yourself.  But if you don't want to or don't have the time right now, you can forget about this. If you just want to show up on [category: people](http://www.ncatlab.org/nlab/list/people), then you make a page containing only 'category: people' (or someone else may do this for you).
+
+To create your user page, simply click the question mark that appears next to your name at the bottom of the page after making a modification and add content to the edit box that appears. If you'd like to make a user page prior to modifying an existing page, you can do so by making some trivial modification to the [[Sandbox]], which will put your name at the bottom of the page where you can click the question mark. (Or hack the URL.)
 
 # Naming conventions
 
