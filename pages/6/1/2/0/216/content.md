@@ -1,13 +1,10 @@
 #Definition#
 
 The **category algebra** $k[C]$ over a ground field $k$ of a small [[category]] $C$ is as a [[vector space]] spanned by the morphisms of $C$, 
-
 $$k[C] = span_k(C_1)
 \,,
 $$ 
-
 where the product of two morphisms $f$ and $g$ is defined to be their composite if composable, and 0 otherwise
-
 $$
   f \cdot g := \left\lbrace
     \array{
@@ -22,20 +19,16 @@ $$
 #Remarks#
 
 If the category $C = \mathbf{B}G$ is a [[groupoid]] with a single object, which is canonically identified with a group $G$, then the category algebra coincides with the familiar [[group algebra]], 
-
 $$
  k[\mathbf{B}G] = k[G]
   \,.
 $$
 
-
-
 #Arrow-theoretic interpretation#
 
 The category algebra of a category $C$ is a special case of a general [[arrow theory|arrow-theoretic]] construction that appears in [[quantization]] and in the theory of [[bi-brane]]s. 
 
-In order not to get discracted by inessential technicalities, consider the case of a finite [[category]] $C$, i.e. a category [[internalization|internal to]] $FiniteSets$. This is a [[span]]
-
+In order not to get discracted by inessential technicalities, consider the case of a finite [[category]] $C$, i.e. an [[internal category]] in $FinSet$. This is a [[span]]
 $$
   \array{
      && C_1
@@ -48,10 +41,8 @@ $$
      C_0
   }
 $$
-
 equipped with a composition operation: a morphism
 of spans from the composite span 
-
 $$
   \array{
      &&&&
@@ -74,29 +65,23 @@ $$
      C_0
   }
 $$
-
 to the original one, i.e. a morphism 
-
 $$
   comp : C_1 \times_{t,s} C_1 \to C_1
 $$ 
-
 which respects source and target morphisms. 
 
 Given this, consider the trivial vector bundle on the set of objects $C_0$. This is nothing but an assignment
-
-$I : C_0 \to Vect_k$
-
+$$
+  I : C_0 \to Vect_k
+$$
 of the ground field $k$ to each element of $C_0$. There are two different ways to pull this vector bundle on objects back to a vector bundle on morphisms, once along the source, once along the target map. 
 
 Then notice that the set of natural transformations between these two vector bundles
-
 $$
   Hom_{[Sets,Vect_k]}(s^* I , t^* I)
 $$
-
 whose elements are 2-arrows of the form
-
 $$
   \array{
      && C_1
@@ -114,9 +99,7 @@ $$
      Vect_k
   }
 $$
-
 are canonically in bijection with $k$-calued functions on $C_1$, hence with the vector space spanned by $C_1$, hence with the vector space underlying the category algebra
-
 $$
   Hom_{[Sets,Vect_k]}(s^* I , t^* I)
   \simeq
@@ -125,7 +108,6 @@ $$
 $$
 
 The algebra structure on $k[C]$ is similarly encoded in the diagrammatics: given two elements
-
 $$
   \array{
      && C_1
@@ -163,9 +145,7 @@ $$
      Vect_k
   }
 $$
-
 their pre-composite is the diagram
-
 $$
   \array{
      &&&&
@@ -200,13 +180,11 @@ This is a composite transformation between three trivial vector bundles on the s
 In order to get back a transformation between vector bundles on $C_1$, hence a transformation between vector bundles on $C_1$, we _push forward_ along the composition map $comp: C_1 \times_{t,s} C_1 \to C_1$. This just means that we add up the values on the fibers of this map.
 
 The result is the [[convolution product]]
-
 $$
   (f\star g) : t \mapsto \sum_{s\circ r = t}
   f(r)\cdot g(s)
   \,.
 $$
-
 This is indeed the product in the category algebra.
 
 ##References on this arrow-theoretic picture##
