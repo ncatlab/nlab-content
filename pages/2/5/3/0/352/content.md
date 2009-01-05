@@ -15,7 +15,7 @@ Models for $\infty$-categories usually fall into two classes:
 
 * in the [[algebraic definition of higher category]] an $\infty$-category is a conglomerate of [[geometric shapes for higher structures]] with extra structure;
 
-  * examples are: [[bicategory]], [[omega-category]].
+  * examples are: [[bicategory]], [[strict omega-category]].
 
 One of the tasks of [[higher category theory]] is to relate and organize all these different models to a coherent general theory.
 
@@ -25,7 +25,7 @@ There are many different definitions of $\infty$-categories, which may differ in
 
 * See [[semi-strict infinity-category]].
 
-* See the discussion we are having at [[omega-category]].
+* See the discussion we had at [[discussion on terminology -- omega-category]].
 
 
 
