@@ -13,6 +13,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * (2009-01-05) [[Mike Shulman|Mike]]
 
+  * Split off [[internal category]] from [[internalization]].  Probably a lot of links need to be updated.
+
   * Summarized the discussion at [[subcategory]] into a section called "Non-evil variants."
 
   * Created the entry [[red herring principle]].
