@@ -75,4 +75,6 @@ In _Sketches of an Elephant_, Peter Johnstone introduced the term __(Grothendiec
 So what\'s stopping us from going with Johnstone? &#8212;Toby (And how about 'Lawvere&#8211;Tierney operator'?)
 
 Well, I was hesitant to make such a change without getting some support from other people.  "Lawvere-Tierney operator" would work.  At the nCafe, Todd suggested "local modal operator" and I countersuggested the shorter "local modality." -Mike
+
+Toby says: I like eponyms, because they\'re less likely to be overloaded. Of course, it\'s important that a Lawvere&#8211;Tierney operator is a locality modality (speaking of cute names ...), but there may be others. In a similar vein, I don\'t really like using 'coverage' for a basis for a Grothendieck coverage. (What is such a basis, by the way? Is it anything like a Grothendieck pretopology?, which we may call 'Grothendeick precoverage' of course.)
 =--
