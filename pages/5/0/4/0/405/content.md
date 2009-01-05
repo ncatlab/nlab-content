@@ -14,6 +14,6 @@ The cube category is used to define [[cubical set|cubical sets]].
 
 ##Remarks##
 
-Among all [[geometric shapes for higher structures]] cubes are best suited for describing Gray-like [[tensor product|tensor products]] of higher structures: there is geometrically obvious way in which to combine the $n$-cube $[n]$ and the $m$-cube $[m]$ to the $(n+m)$-cube $[n] \otimes [m] := [n+m]$. This makes $\Box$ into a [[monoidal category]]. It also induces the canonical monoidal structure on [[cubical set|cubical sets]] and then on [[omega-category|omega-categories]].
+Among all [[geometric shapes for higher structures]] cubes are best suited for describing Gray-like [[tensor product|tensor products]] of higher structures: there is geometrically obvious way in which to combine the $n$-cube $[n]$ and the $m$-cube $[m]$ to the $(n+m)$-cube $[n] \otimes [m] := [n+m]$. This makes $\Box$ into a [[monoidal category]]. It also induces the canonical monoidal structure on [[cubical set|cubical sets]] and then on [[strict omega-category|strict omega-categories]].
 
 category: category
