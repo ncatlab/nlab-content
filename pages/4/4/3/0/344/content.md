@@ -14,12 +14,12 @@ If an extensive category also has finite limits, it is called __lextensive__ or 
 
 The definition refers only to binary coproducts, but it obviously implies analogous statements for $n$-ary coproducts for all $n\ge 1$.  Less obviously, it also implies the analogous statement for 0-ary coproducts (that is, initial objects).  In this case, the statement is that the initial object 0 is _strict_, meaning that any map $a\to 0$ is an isomorphism.
 
-In the other direction, if $E$ has all small coproducts and the analogous infinitary condition holds, $E$ is called __$\infty$-extensive__ or __$\infty$-positive__.  (Note that this use of $\infty$ is completely unrelated to $\infty$-[[infinity-category|categories]].)
+In the other direction, if $E$ has all small coproducts and the analogous infinitary condition holds, $E$ is called __$\infty$-extensive__, __$\infty$-positive__.  (Note that this use of $\infty$ is completely unrelated to $\infty$-[[infinity-category|categories]].)  If it has finite limits as well, it is __$\infty$-lextensive__ or __disjunctive__.
 
 +--{.query}
 Can we say 'small-extensive'? Or even redefine 'extensive' to have this meaning, using 'finitely extensive' for the first version? &#8212;Toby
 
-I think "extensive" is pretty well established for the finite version, and I would be reluctant to try to change it.  I wouldn't object too much to "small-extensive" for the infinitary version, but $\infty$-positive is used in the Elephant and possibly elsewhere.  I think the topos theorists think by analogy with $\infty$-pretopos, which I don't think we have much hope of changing, despite the unfortunate clash with "$\infty$-topos." -Mike
+I think "extensive" is pretty well established for the finite version, and I would be reluctant to try to change it.  I wouldn't object too much to "small-extensive" for the infinitary version in principle, but $\infty$-positive is used in the Elephant and possibly elsewhere.  I think the topos theorists think by analogy with $\infty$-pretopos, which I don't think we have much hope of changing, despite the unfortunate clash with "$\infty$-topos."  But you can use "finitary disjunctive" and "disjunctive" in the lex case, which most examples are. -Mike
 =--
 
 #Examples#
