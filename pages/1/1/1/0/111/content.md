@@ -59,7 +59,7 @@ The classic example is [[Set]], the category with sets as objects and functions 
 
 Note that in all these cases the morphisms are actually  special sorts of functions.  That need not be the case in general!  
 
-These classic examples are the original motivation for the term "category": all of the above categories encapsulate one "kind of mathematical structure". But just as widespread in applications as these categorization examples of categories are are other categories (often "[[internalization|small]]" ones) which, roughly, model something like _states_ and _processes_ of some system.
+These classic examples are the original motivation for the term "category": all of the above categories encapsulate one "kind of mathematical structure". But just as widespread in applications as these categorization examples of categories are are other categories (often "[[small category|small]]" ones) which, roughly, model something like _states_ and _processes_ of some system.
 
 * **Poset** A [[poset]] can be thought of as a category with its elements as objects and one morphism in each $hom(x,y)$ if $x$ is less than or equal to $y$, but none otherwise.  
 
