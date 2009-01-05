@@ -10,7 +10,7 @@ A _globular set_ is a [[presheaf]] on the _globe category_ (described below), on
 
 
 
-  The **globe category** $G$ is
+  The **[[globe category]]** $G$ is
   the category whose objects are the integers and
   whose morphisms are generated from
 
