@@ -11,6 +11,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+* (2009-01-05) [[Mike Shulman|Mike]]
+
+  * Summarized the discussion at [[subcategory]] into a section called "Non-evil variants."
+
+  * Created the entry [[red herring principle]].
+
 * (2009-01-05) [[Todd Trimble|Todd]] 
   
   * created the entry [[CW complex]]
