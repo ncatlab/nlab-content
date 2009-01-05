@@ -35,7 +35,7 @@ Let $A$ be any category. A _category internal to $A$_ is
  * such that the _composition_ $comp$ is associative
    and unital with respect to $i$ "in the obvious way".
 
-A _groupoid_ internal to $A$ is all of the above 
+A [[groupoid]] internal to $A$ is all of the above 
 
  * such that the cartesian product $C_1 \times C_1$ exists
 
