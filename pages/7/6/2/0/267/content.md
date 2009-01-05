@@ -19,11 +19,11 @@ There are corresponding categories whose
 
 The resulting categories are
 
-* the _globular category_ $\circ$;
+* the _[[globe category]]_ $\circ$;
 
-* the _[[simplicial category]]_ $\triangle$;
+* the _[[simplex category]]_ $\triangle$;
 
-* the [[cubical category]] $\Box$.
+* the [[cube category]] $\Box$.
 
 
 A higher structure based on these geometric sheapes is a [[presheaf]] on one of these categories. These are called
