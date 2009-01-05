@@ -1,4 +1,4 @@
-The original entry [[omega-category]] suggested that [[omega-category]] is supposed to implicitly mean [[strict omega-category]]. 
+The original entry [[omega-category]] suggested that '$\omega$-category' is supposed to implicitly mean &#8249;strict $\omega$-category&#8250;.
 
 After the following discussion, we renamed that entry to [[strict omega-category]].
 
