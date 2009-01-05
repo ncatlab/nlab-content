@@ -6,6 +6,8 @@ The idea is that $Y$ provides a "locally resolved" picture of $X$ in that $X$ an
 
 The archetypical example are ordinary covers of topological spaces $X$ by open subsets $\{U_i\}$: here $Y$ is their disjoint union $Y := \sqcup_i U_i$.
 
+More generally, you might need a cover to be *family* of maps $(\pi_i: Y_i \to X)_i$; if the category has a [[coproduct]]s that get along well with the covers, then you can replace these families with single maps as above.
+
 # Formalizations #
 
 There are several different but related formalizations of the notion of cover.
