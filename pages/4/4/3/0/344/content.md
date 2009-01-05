@@ -16,6 +16,10 @@ The definition refers only to binary coproducts, but it obviously implies analog
 
 In the other direction, if $E$ has all small coproducts and the analogous infinitary condition holds, $E$ is called __$\infty$-extensive__ or __$\infty$-positive__.  (Note that this use of $\infty$ is completely unrelated to $\infty$-[[infinity-category|categories]].)
 
++--{.query}
+Can we say 'small-extensive'? Or even redefine 'extensive' to have this meaning, using 'finitely extensive' for the first version? &#8212;Toby
+=--
+
 #Examples#
 
 1. A [[topos]] is an (l)extensive category.
@@ -25,6 +29,10 @@ In the other direction, if $E$ has all small coproducts and the analogous infini
 1. The category of affine schemes (opposite to the category of commutative rings with identity) is (l)extensive. 
 
 1. The category Cat is (l)extensive.
+
+#Extensive sites#
+
+If a (small) [[site]] is (small) $\infty$-extensive, then one can replace any [[cover]] with a single map. That is, replace the covering family $(j_i: U_i \to B)_i$ with the map $[j_i]_i: \coprod_i U_i \to B$. In other words, the singleton covers form a basis for the Grothendieck coverage on the site.
 
 #References#
 
