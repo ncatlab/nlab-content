@@ -107,3 +107,5 @@ An unrelated question: are you implying that you can internalize enriched catego
 _Toby replies_: I always assumed that we\'d have a separate page [[internal category]] someday, and that this was just the first draft here. But maybe now is the time.
 
 And I\'m implying that you can internalise categories in the doctrine of lex categories (whereas you can internalise monoids in the doctrine of monoidal categories).
+
+_Mike_: Okay, maybe I'll do it if you don't beat me to it.  Do you have a precise definition of "internalize" in mind?
