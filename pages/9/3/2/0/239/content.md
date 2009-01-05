@@ -27,7 +27,7 @@ Note that in this case, $A\otimes B$ is not a subobject _or_ a quotient of the c
 
 Other examples of tensor products in multicategories:
 
-* The [[Gray tensor product]] of [[strict 2-category|strict 2-categories]] is a tensor product in the multicategory of 2-categories and [[cubical functors]].  Likewise for Sjoerd Crans' tensor product of Gray-categories.
+* The [[Gray tensor product]] of [[strict 2-category|strict 2-categories]] is a tensor product in the multicategory of 2-categories and [[cubical functor]]s.  Likewise for Sjoerd Crans' tensor product of Gray-categories.
 
 In particular, any [[closed category]] in the sense of Eilenberg-Kelly (that is, having an internal-hom but not necessarily a tensor product) has an underlying multicategory.  Tensor products in this multicategory are characterized by the adjointness relation
 $$ \hom(A\otimes B, C) \cong \hom(A, \hom(B,C)). $$
