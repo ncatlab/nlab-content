@@ -44,7 +44,7 @@ is an isomorphism.
 
 When generalizing sheaves to  [[stack|stacks]] and then to  [[infinity-stack|infinity-stacks]] the Hom-set $Set^{C^{op}}(F, G)$ in the above definition, representing the descent set (0-category), needs to be generalized to a corresponding [[category]] or [[infinity-category]] [[functor category|of infinity-functors]] whose objects are the $\infty$-functors from the cover/sieve $F$ to the presheaf $G$, whose morphisms are homotopies between these, whose higher morphisms are the higher homotopies. The technical problem is to formalize these $\infty$-categories of $\infty$-functors. This is one of the central issues of [[higher category theory]].
 
-One partial solution to the problem has been given by Ross Street, who defined descent [[omega-category|omega-categories]] $Desc(Y,G)$ for [[omega-category]]-valued presheaves $G : C^{op} \to \omega Cat$ in terms of [[oriental|orientals]]. The $\omega$-category $Desc(Y,G)$ can be regarded as the $\omega$-category of lax $\infty$-functors from the sieve associated with $Y$ to $G$.
+One partial solution to the problem has been given by Ross Street, who defined descent [[strict omega-category|strict omega-categories]] $Desc(Y,G)$ for $\omega$-category-valued presheaves $G : C^{op} \to \omega Cat$ in terms of [[oriental|orientals]]. The $\omega$-category $Desc(Y,G)$ can be regarded as the $\omega$-category of lax $\infty$-functors from the sieve associated with $Y$ to $G$.
 
 In the case that the $\omega$-categories in questions happen to be just [[n-category|0-categories]] this reduces to the definitin of descent 0-categories for presheaves. 
 
@@ -62,7 +62,7 @@ $$
   }
 $$
 
-exists. Let $G : C^{op} \to Set \hookrightarrow \omega Cat$ be an [[omega-category]] valued presheaf which happens to take values just in $0$-[[0-category|categories]]. Then an _object_ (an element) in the descent $\omega$-category $Desc(Y,G)$ (which is a set here) is a tuple consisting of
+exists. Let $G : C^{op} \to Set \hookrightarrow \omega Cat$ be a [[strict omega-category]] valued presheaf which happens to take values just in $0$-[[0-category|categories]]. Then an _object_ (an element) in the descent $\omega$-category $Desc(Y,G)$ (which is a set here) is a tuple consisting of
 
 * an element $a \in G(Y)$;
 
