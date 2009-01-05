@@ -1,6 +1,6 @@
 #Idea#
 
-A Gray-category is a certain type of [[semi-strict infinity-category|semi-strict]] 3-category, in which composition is strictly associative and unital, but the [[interchange law]] holds only up to isomorphism.
+A Gray-category is a certain type of [[semi-strict infinity-category|semi-strict]] [[3-category]], in which composition is strictly associative and unital, but the [[interchange law]] holds only up to isomorphism.
 
 #Definition#
 
