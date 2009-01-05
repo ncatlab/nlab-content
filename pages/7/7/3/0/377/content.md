@@ -16,7 +16,11 @@ The lack of cartesian closure and, to a lesser extent, local presentability, is 
 
 * In his paper _On a topological topos_, Peter Johnstone described a [[Grothendieck topos]] $E$ which contains the category of [[sequential space|sequential]] topological spaces as a full reflective subcategory which is closed under many colimits (including all those used to define [[CW complex|CW complexes]].  Since $E$ is a Grothendieck topos, it is locally presentable and locally cartesian closed.  Moreover, the [[geometric realization]] and [[singular complex]] functors form a [[geometric morphism]] between $E$ and the category of [[simplicial set|simplicial sets]].
 
-* One can just forget topological spaces and use the category of [[simplicial set]]s as the subject of homotopy theory. That every topological space has a simplicial set as its [[nerve]] now becomes an application of homotopy theory, rather than the starting point.
+* One can just forget topological spaces and use the category of [[simplicial set]]s as the subject of homotopy theory. That every topological space has a simplicial set as its [[nerve]] now becomes an application of homotopy theory, rather than the starting point. 
+
++--{.query}
+On this last point, did you mean "nerve" or "singularization"? (Almost the same thing, but I think of "nerve" as a functor $Cat \to Set^{\Delta^{op}}$ coming from $\Delta \to Cat$, and singularization as a functor $Top \to Set^{\Delta^{op}}$ coming from $\Delta \to Top$.
+=--
 
 #References#
 
