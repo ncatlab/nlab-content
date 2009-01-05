@@ -11,6 +11,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+* (2009-01-05) [[Urs Schreiber|Urs]]
+
+  * following the discussion which I now moved to [[discussion on terminology -- omega-category]] I moved the original material on that to [[strict omega-category]] and kept at [[omega-category]] just a pointer to that entry. This means we should do through a bunch of entries and rename links to [[omega-category]] into links to [[strict omega-category]].
+
 * (2009-01-05) [[David Corfield]] 
 
   * created [[philosophy]], [[Klein 2-geometry]]
