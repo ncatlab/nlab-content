@@ -24,11 +24,11 @@ If $F:J\to C$ is a diagram in $C$, we can construct a diagram $\hom_C(-,F)$ in t
 
 $$\lim\hom_C(-,F)\cong\hom_C(-,\lim F).$$
 
-For an example in the case of [[categorical product]], let $c, d$ be objects of $C$, and consider the presheaf given by a product of [[hom-functor|hom-functors]]
+For an example in the case of the [[product]], let $c, d$ be objects of $C$, and consider the presheaf given by a product of [[hom-functor|hom-functors]]
 
 $$\hom_C(-, c) \times \hom_C(-, d): C^{op} \to Set;$$ 
 
-that is, the functor which takes an object $x$ of $C$ to the set $\hom_C(x, c) \times \hom_(x, d)$. A categorical product $c \times d$ is precisely a representing or universal object for this presheaf, where the universal element is precisely the pair of projection maps 
+that is, the functor which takes an object $x$ of $C$ to the set $\hom_C(x, c) \times \hom_(x, d)$. A product $c \times d$ is precisely a representing or universal object for this presheaf, where the universal element is precisely the pair of projection maps 
 
 $$(\pi_c, \pi_d) \in \hom(c \times d, c) \times \hom(c \times d, d)$$ 
 
