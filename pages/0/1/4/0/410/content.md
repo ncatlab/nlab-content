@@ -1,4 +1,4 @@
-Informally, a **free functor** is a left adjoint to a [[forgetful functor]].
+Informally, a **free functor** is a left adjoint to a [[forgetful functor]]. (This is informal because the concept of forgetful functor is informal.)
 
 One formal sort of free functor is the left adjoint $C\to C^T$, where $T$ is a [[monad]] on the category $C$ and $C^T$ is its [[Eilenberg-Moore category]] (the category of $T$-algebras).  This includes:
 
