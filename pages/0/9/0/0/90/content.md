@@ -7,7 +7,7 @@ $$
   \,.
 $$
 
-There is a unique structure of an [[omega-category]], an $n$-category in fact, on the $n$-globe. This makes the collection of $n$-globes arrange themselves into a _co-globular $\omega$-category_, i.e. a functor
+There is a unique structure of a [[strict omega-category]], an $n$-category in fact, on the $n$-globe. This makes the collection of $n$-globes arrange themselves into a _co-globular $\omega$-category_, i.e. a functor
 
 $$
   G \to \omega Cat
