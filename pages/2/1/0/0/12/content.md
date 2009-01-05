@@ -6,6 +6,10 @@ Every wiki needs a sandbox! Just test _below_ and don't worry about messing thin
 
 \emph{Can we emphasize text?}
 
+*Yes, we can emphasize text.*
+
+****
+
 Trying to upload a file: [[n.png:pic]].... nope didn't work, I get "Internal Server Error".
 
 Okay worked this time. [[Bruce Bartlett]]
