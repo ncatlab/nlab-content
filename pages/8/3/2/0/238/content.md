@@ -11,6 +11,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+* (2009-01-05) [[Mike Shulman]]:
+
+  * Added [[nice topological space]].
+
 * (2009-01-04) [[Mike Shulman]]:
 
   * Added disambiguation comments to [[simplicial category]].
