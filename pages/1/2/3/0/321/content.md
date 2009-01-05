@@ -1,7 +1,6 @@
 # Definition #
 
 In any [[category]] $C$, a **span** from an [[object]] $x$ to an object $y$ is a [[diagram]]
-
 $$
   \array{
      && s
@@ -14,7 +13,6 @@ $$
      y
   }
 $$
-
 where $s$ is some other object of the category.  This diagram is called a 'span' because it looks like a little bridge.
 
 Note that a span with $f = 1$ is just a morphism from $x$ to $y$, while a span with $g = 1$ is a morphism from $y$ to $x$.  So, a span can be thought of as a generalization of a morphism in which there is no longer any asymmetry between source and target.
@@ -77,12 +75,12 @@ $$
   }
 $$
 
-This way of composing spans lets us define a [[bicategory]] $Span(C)$ with:
+This way of composing spans lets us define a [[2-category]] $Span(C)$ with:
 
 * objects of $C$ as objects
 * spans as morphisms
 * maps between spans as 2-morphisms
 
-This bicategory has a nontrivial [[associator]]: composition of spans is not strictly associative, because pullbacks are defined only up to canonical isomorphism.  
+This is a weak 2-category has a nontrivial [[associator]]: composition of spans is not strictly associative, because pullbacks are defined only up to canonical isomorphism.  
 
-(Note that we must choose a specific pullback when defining the composite of a pair of morphisms in $Span(C)$, if we want to obtain a bicategory as traditionally defined.  Otherwise we obtain a bicategory with 'composites of morphisms defined only up to canonical iso-2-morphism', sometimes called an [[ana-bicategory]] or [[opetopic bicategory]].)
+(Note that we must choose a specific pullback when defining the composite of a pair of morphisms in $Span(C)$, if we want to obtain a [[bicategory]] as traditionally defined; this requires the [[axiom of choice]]. Otherwise we obtain a bicategory with 'composites of morphisms defined only up to canonical iso-2-morphism', sometimes called an [[anabicategory]] or [[opetopic bicategory]].)
