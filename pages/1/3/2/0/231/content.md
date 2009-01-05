@@ -107,7 +107,7 @@ And a monoidal category can be regarded as a pseudomonoid in the tricategory $\m
 
 Evidently, in the fully general context of weak $\infty$-categories it becomes increasingly hard to state what a lax functor into a given $\infty$-category should be: it will involve a plethora of structure morphisms and their coherences. One task of [[higher category theory]] is to organize this mess into something pretty and then to deal with this problem.
 
-But before being intimidated by the problem in its most general form, it may pay to understand it in slightly simplified situations. One such slightly simplified setup is that of _strict_ $\infty$-categories, usually known as [[omega-category|omega-categories]].
+But before being intimidated by the problem in its most general form, it may pay to understand it in slightly simplified situations. One such slightly simplified setup is that of _strict_ $\infty$-categories, usually known as $\omega$-categories or [[strict omega-category|strict omega-categories]].
 
 For that case, Ross Street has given a general combinatorial formula for the $\infty$-coherence law of the general monoidal structure: this is encoded in the [[oriental|orientals]], which are nothing but the standard simplicial simplices, but equipped with extra information about source and targets of all faces.
 
