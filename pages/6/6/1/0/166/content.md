@@ -5,4 +5,5 @@ This are puzzles that aren't very technical at first, that get deeper and more c
 #List of gnarly problems#
 
 * [[light mill|Light Mills]]
+* [dimension analysis](http://golem.ph.utexas.edu/category/2006/09/dimensional_analysis.html)
 
