@@ -17,7 +17,9 @@ _[[Toby Bartels|Toby]] answers_: That goes in the last, as yet unwritten, sectio
 
 # Mathematical foundations of category theory
 
-The standard view seems to be to found category theory on a theory of sets and classes; see [the English Wikipedia\'s definition](https://secure.wikimedia.org/wikipedia/en/wiki/Category_%28mathematics%29#Definition), for example. But the standard reference, Saunders Mac Lane\'s _Categories for the Working Mathematician_, assumes the existence of a universe (an inaccessible cardinal) instead. Both of these approaches rely on a distinction between *small* and *large* categories. There is a category of all [[small category|small categories]], but this category is not itself small; there is no category of all categories.
+The problem with mathematical foundations of category theory is that in category theory we frequently speak of [[large category|large categories]], which it is tricky to deal with rigorously in the usual sort of set theories.
+
+One common view seems to be to found category theory on a theory of sets and classes; see [the English Wikipedia\'s definition](https://secure.wikimedia.org/wikipedia/en/wiki/Category_%28mathematics%29#Definition), for example. But the standard reference, Saunders Mac Lane\'s _Categories for the Working Mathematician_, assumes the existence of a universe (an inaccessible cardinal) instead. Both of these approaches rely on a distinction between *small* and *large* categories. There is a category of all [[small category|small categories]], but this category is not itself small; there is no category of all categories.
 
 Alexander Grothendieck needed more; he used what we now call [[Grothendieck universe]]s. He assumed that every set is contained within a universe; that is, for every cardinal number $\kappa$, there is a cardinal inaccessible from $\kappa$. (This is still a rather moderate axiom, compared to some of the large-cardinal axioms studied by set theorists.) Now one has a relative notion of small and large; the category of all $U$-small categories (where $U$ is some universe) is $U$-large but must be $U'$-small for some other universe $U'$, and there exists a category (which is both $U$-large and $U'$-large) of all $U'$-small categories.
 
@@ -74,6 +76,8 @@ _[[Toby Bartels|Toby]] responds_: Once you use 'categorial' when discussing logi
 _[[Urs Schreiber|Urs]] says_: with respect to optimal terminology I think that one problem is that the very term "category" is not optimal.
 
 _[[Toby Bartels|Toby]] responds_: I think that it\'s too late to play Bourbaki with that. Or do you want to say 'semigroupoid'? (which occasionally appears in groupoid literature but most properly would not have identity morphisms). I got a lot of stares over dinner at Groupoidfest when I said that that might be a better term after all (for categories as algebraic objects).
+
+_[[Mike Shulman|Mike]] comments_: I think it is probably too late to play Bourbaki with "categorical" as well; too many people are using it who don't care about logic.  However, there is another option here: I like to call ETCS-like theories _structural set theories_ rather than "categori(c)al foundations".  As Lawvere and others have pointed out, ETCS is still a theory of sets; it merely differs from traditional set theories such as ZF in its lack of a global membership predicate and in what notions it takes as basic.
 
 =--
 
