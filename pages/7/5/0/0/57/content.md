@@ -63,7 +63,7 @@ Of course one wants to regard in this context $S^\bullet(\mathfrak{g})$ not just
 
 this $S^\bullet(\mathfrak{g})$ was realized 
 
-* as [[internalization|internal to]] $Manifolds$ for the case that $\mathfrak{g}$ is a nilpotent $L_\infty$-algebra;
+* as [[internalization|internal to]] [[Diff]] for the case that $\mathfrak{g}$ is a nilpotent $L_\infty$-algebra;
 
 * as having the property of being a [[Kan complex]].
 
@@ -74,7 +74,7 @@ Various variations of this theme are possible: in
 * Andr&#233; Henriques, _Integrating $L_\infty$ algebras_,([arXiv](http://arxiv.org/abs/math.AT/0603563))
 
 (whose origin possibly preceeds that of the previous article)
-$S^\bullet(\mathfrak{g})$ is realized [[internalization|internal to ]] [[Banach manifold]]s, for $\mathfrak{g}$ an $L_\infty$-algebra.
+$S^\bullet(\mathfrak{g})$ is realized [[internalization|internal to]] [[Banach manifold]]s, for $\mathfrak{g}$ an $L_\infty$-algebra.
 
 ##The main technical issue: truncation and quotienting##
 
