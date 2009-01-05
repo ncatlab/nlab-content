@@ -277,7 +277,7 @@ $$
   O : \Delta \to \omega Cat
 $$
 
-from the [[simplicial category]] $\Delta$ to the category of [[omega-category|omega-categories]].
+from the [[simplex category]] $\Delta$ to the category of [[omega-category|omega-categories]].
 
 #Applications#
 
