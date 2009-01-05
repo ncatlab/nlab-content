@@ -62,11 +62,7 @@ _[[Eric Forgy|Eric]] says_: In the definitions I've seen, e.g. [here](http://una
 
 _[[Eric Forgy|Eric]] says_: Oh oh! Looking at the [[General Discussion]], [[John Baez|John]] said (referring to graded algebras):
 
-<blockquote>
-
-It's a monoid in GradedVect, the monoidal category of graded vector spaces.
-
-</blockquote>
+>It's a monoid in GradedVect, the monoidal category of graded vector spaces.
 
 So the magic wand must be [[internalization]] (?)
 
