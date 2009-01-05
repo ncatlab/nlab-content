@@ -1,25 +1,25 @@
 #Idea#
 
-For $Spaces$ some category of spaces, we can think of any [[higher category theory|infinity category]] valued (pseudo)presheaf
+For $C$ some [[site]], we can think of any [[higher category theory|infinity category]] valued (pseudo)[[presheaf]]
 $$
-  \mathbf{A} : Spaces^{op} \to \inftyCat
+  \mathbf{A} : C^{op} \to \inftyCat
 $$
-as assigning to each space the $\infty$-category of certain structures living over that space.
+as assigning to each space (object of $C$) the $\infty$-category of certain structures living over that space.
 
-* For instance for $G$ a group, there is the 1-category-valued (pseudo)presheaf
+* For instance for $C = $ [[Top]] and for $G$ a group, there is the [[category|1-category]]-valued (pseudo)presheaf
 $$
   \mathbf{A}(-) := G-TrivBund(-)
 $$
 which sends each space $X$ to the [[category]] (a one-object [[groupoid]], really) of _trivial_ $G$-principal bundles over $X$.
 
-* Or the 1-category-valued 
+* Or the [[category|1-category]]-valued 
 (pseudo)presheaf
 $$
   \mathbf{A}(-) := G-Bund(-)
 $$
 which assigns to $X$ the category of all $G$-principal bundles over $X$.
 
-In the case that we have a cover $Y \to X$ of the space $X$, we may want to ask which $\mathbf{A}$-structures on the cover, $a \in \mathbf{A}(Y)$, can _descent_ down to $\mathbf{A}$-structures on $X$. The idea is that these are those $a \in \mathbf{A}(Y)$ which can be _glued_ consistently:
+In the case that we have a [[cover]] $Y \to X$ of the space $X$, we may want to ask which $\mathbf{A}$-structures on the cover, $a \in \mathbf{A}(Y)$, can _descent_ down to $\mathbf{A}$-structures on $X$. The idea is that these are those $a \in \mathbf{A}(Y)$ which can be _glued_ consistently:
 
 * on double intersectios $Y \times_X Y$ there should be a gluing ismorphism $g : \pi_1^* a \to \pi_2^* a$ which identifies the two copies of $a$ obtained by pullback along the two projection maps $\pi_1. \pi_2 : Y \times_X Y \to Y$.
 
@@ -77,7 +77,7 @@ In the context of weak $\infty$-categories called [[Segal category|Segal categor
 **In strict $\infty$-categories**
 
 But there is also a way to realize this naturally in the [[semi-strict infinity-category|more strict]] context of 
-[[omega-category|omega categories]] using [[oriental]]s and other cosimplicial $\omega$-categories. This was introduced in
+[[strict omega-category|strict omega categories]] using [[oriental]]s and other cosimplicial strict $\omega$-categories. This was introduced in
 
 * Ross Street, _The algebra of oriented simplices_, J. Pure Appl. Algebra 49 (1987) 283-335; ([pdf](http://www.math.mq.edu.au/~street/aos.pdf))
 
@@ -109,7 +109,74 @@ $$
 
 **Remark.** The above definitions in terms of orientals certainly gives the right answer in the case that $\mathbf{A}$ and $\mathbf{B}$ take values in $\omega$-groupoids. In this case one can equivalently replace $O(\Delta^n)$ here with $\Pi_\omega(\Delta^n)$, the fundamental $\omgea$-groupoid of the filtered standard $n$-simplex, which should be the free $\omega$-groupoid on $\Delta^n$. In terms of more general $\omega$-categorical coefficients it seems that in the above definition orientals need to be replaced with a different cosimplicial $\omega$-category.
 
-For the moment, more details about this [[omega-category|omega categorical]] notion of descent and codescent is relegated to [[schreiber:Differential Nonabelian Cohomology]].
+For the moment, more details about this [[strict omega-category|strict omega categorical]] notion of descent and codescent is relegated to [[schreiber:Differential Nonabelian Cohomology]].
+
+
+# Descent in terms of pseudo-functors #
+
+One way to think of the $\infty$-category $Desc(Y^\bullet, \mathbf{A})$ of descent data is as the $\infty$-category of
+weak (pseudo) $\infty$-functors from the cover $Y$, regarded as a presheaf itself, to $\mathbf{A}$.
+
+* For $n=1 $ this is formalized by the notion of [[sieve]] and the formulation of the [[sheaf]] condition in terms of [[sieve]]s.
+
+* For $n=2$, where one has the notion of pseudo 2-functors from the context of [[bicategory]], one can understand the triangles appearing above as the images of weak 2-functors from a [[sieve]] to $\mathbf{A}$, as described at [[stack]].
+
+We now show how to continue this pattern in the context of [[strict omega-category|strict omega-categories]]:
+
+A weak $\omega$-functor between strict $\omega$-categories $C$ and $D$ can be modeled as a strict $\omega$-functor out of a cofibrant replacement of $C$, with respect to the [[folk model structure]] on strict $\omega$-categories.
+
+In view of the remark above, let $O : \Delta \to \omega Groupoids$ send $[n]$ to the free strct $n$-groupoid on $n$.  Then for $Y \to X$ a cover such that the corresponding simplicial space $Y^\bullet$ exists, the codescent $\omega$-category
+
+$$
+  Codesc(Y) := \int^{[n] \in \Delta} O([n]) \cdot Y^{n}
+$$
+
+can be regarded as a replacement for the &#268;ech groupoid of the cover (compare the discussion at [[oriental]]). 
+
+Accordingly strict $\omega$-functors from $Codesc(Y)$ 
+(regarded as a represented $\infty$-presheaf) to 
+$\mathbf{A}$ should be 
+
+$$
+  hom(Codesc(Y), \mathbf{A})
+  \,.
+$$
+
+Using that the contravariant hom takes colimits to
+limits this is  
+
+$$
+  \cdots \simeq
+  \int_{[n] \in \Delta} hom(O([n])\cdot Y^n, \mathbf{A})
+  \,.
+$$ 
+
+Then using the hom-adjunctions this becomes
+$$
+
+\cdots \simeq \int_{[n] \in \Delta} hom(O([n]), 
+ hom(Y^n, \mathbf{A}))
+$$ 
+
+and with Yoneda finally
+
+$$\cdots \simeq \int_{[n] \in \Delta} hom(O([n]), \mathbf{A}(Y^n))
+ \,.
+$$ 
+
+Hence by the above definition of the descent $\omega$-category 
+
+$$
+  \cdots \simeq
+  Desc(Y, \mathbf{A})
+  \,.
+$$
+
+Notice, as remarked at the end of [[sieve]] that we
+can regard (the $\infty$-presheaf represented by)
+$Codesc(Y)$ as a resolution of the [[sieve]]
+corresponding to the cover $Y$.
+
 
 #Cohomology, Homotopy and $\infty$-(Co)Stacks #
 
