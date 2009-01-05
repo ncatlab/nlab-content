@@ -27,8 +27,8 @@ $\partial G_k \hookrightarrow G_k$ of the boundary of the $k$-[[globe]] into the
 
 #Internalization#
 
-A common problem is to transport the (a) model structure on plain $\omega$-categories, i.e. $\omega$-categories [[internalization|internal to]] $Sets$ to another [[internalization|internal context]], notably for the case that $Sets$ is replaced with some kind of category of $Spaces$. This is relevant for the discussion of the homotopy theory of topological and smooth $\omega$-categories.
+A common problem is to transport the (a) model structure on plain $\omega$-categories, i.e. $\omega$-categories [[internal category|internal to]] $Sets$ to another [[internalization|internal context]], notably for the case that $Sets$ is replaced with some kind of category of $Spaces$. This is relevant for the discussion of the homotopy theory of topological and smooth $\omega$-categories.
 
-The general problem of [[internalization]] of model structures is described [[internalization of model structures|here]]. For the special case of $\omega$-categories internal to [[generalized smooth space]]s see [[schreiber:Differential Nonabelian Cohomology]].
+The general problem of internalization of model structures is described [[internalization of model structures|here]]. For the special case of $\omega$-categories internal to [[generalized smooth space]]s see [[schreiber:Differential Nonabelian Cohomology]].
 
 Usually, such internalization of model structures has the consequence that some properties invoked in the description of the original model structure, notably some of the lifting properties, will only continue to hold "locally".  One way to deal with this is to pass to a notion slightly weaker than that of a [[homotopy theory|model category]] called a [[category of fibrant objects]] as used in [[homotopical cohomology theory]].
