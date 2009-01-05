@@ -44,3 +44,5 @@ _Mike:_ After thinking it over, while I would prefer defining "subcategory" to m
 _Mathieu_:  If a "1-subcategory" of $C$ is a fully faithful functor with codomain $C$, there is still room for "0-subcategories" (i.e. equivalences with codomain C) [and of course there are also "$\omega$-subcategories", i.e. any functor with codomain C].  But my principal reason for numbering in this way was that 1-monic = monic in the one-dimensional case, like 1-category = category.  By the way, here is a family of simple examples of subcategories which are not pseudomonic: any inclusion of a proper subgroup into a group seen as a one-objet groupoid.
 
 _Mike_: Re: subgroups, point taken; non-pseudomonic subcategories do happen.  I think my motivation for starting the numbering as I did was that I was thinking that we should have 0-monic = monic for maps between 0-categories (sets).  But at the moment I'm feeling more sympathetic towards your argument that we should have instead 1-monic = monic for maps _in_ a 1-category.  Have we reached a point in the discussion where we are willing to change the main entry?
+
+_Toby_: For what it\'s worth, I would be happy with that.
