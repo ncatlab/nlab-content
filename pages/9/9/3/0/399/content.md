@@ -1,14 +1,13 @@
 
 
-A _closed monoidal deformation retract_ on a [[closed category|closed]] [[monoidal category|(symmetric) monoidal]] [[homotopical category|homotopical]] category $(V, \otimes, [-,-])$ is a [[deformation retract]] for the [[two-variable adjunction]]
+A _closed monoidal deformation retract_ on a [[closed category|closed]] [[monoidal category|(symmetric) monoidal]] [[homotopical category|homotopical]] category $(V, \otimes, [-,-])$ is a [[deformation retract]] $(V_Q, V_Q, V_R)$ for the [[two-variable adjunction]]
 
 $$
   (\otimes , [-,-], [-,-]) : V \times V \to V
 $$
 
-such that a bunch of conditions are satisfied:
+such that a bunch of conditions are satisfied.
 
-(... later ...)
 
 #Remarks#
 
