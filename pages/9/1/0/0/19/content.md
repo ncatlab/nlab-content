@@ -61,7 +61,6 @@ But maybe surprisingly, category theory turns out to be much more than the study
 * [[natural isomorphism]]
 * [[natural transformation]]
 * [[object]]
-* [[omega-category]]
 * [[omega-graph]]
 * [[oriental]]
 * [[path algebra]]
