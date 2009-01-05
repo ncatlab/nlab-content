@@ -1,6 +1,6 @@
 #Definition#
 
-A **simplicial set**  is a [[presheaf]] on the [[simplicial category]] $\Delta$.
+A **simplicial set**  is a [[presheaf]] on the [[simplex category]] $\Delta$.
 
 #Remarks#
 
@@ -40,6 +40,6 @@ Here are some examples:
 
 * Subdivision and extension $sd: sS \leftrightarrow sS : ex$.
 
-* The simplicial nerve functor and its left adjoint $sS \leftrightarrow sC$ where $sC$ denotes the category of [[simplicial category|simplicial categories]], i.e., categories enriched in $sS$.
+* The simplicial nerve functor and its left adjoint $sS \leftrightarrow sC$ where $sC$ denotes the category of [[simplicially enriched category|simplicially enriched categories]], i.e., categories enriched in $sS$.
 
 * The adjunction $- \times X : sS \leftrightarrow sS : [X,-]$ between the product with a simplicial set $X$ and the internal-hom, which makes $sS$ cartesian closed.
