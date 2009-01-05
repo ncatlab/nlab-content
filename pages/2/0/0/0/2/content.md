@@ -4,6 +4,12 @@
 
 ###$n$Lab###
 
+* [[Content|Content]]
+
+  * [[mathematics|Mathematics]]
+  * [[physics|Physics]]
+  * [[philosophy|Philosophy]]
+
 * [[Community]]
 
   * [[HomePage|Home]]
@@ -11,12 +17,6 @@
   * [[General Discussion|General Discussion]]
   * [[latest changes|Latest Changes]]
   * [[Sandbox|Sandbox]]
-
-* [[Content|Content]]
-
-  * [[mathematics|Mathematics]]
-  * [[physics|Physics]]
-  * [[philosophy|Philosophy]]
 
 * [[About]]
 
