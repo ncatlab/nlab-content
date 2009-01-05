@@ -11,6 +11,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+* (2009-01-04) [[Mike Shulman]]:
+
+  * Created [[Gray tensor product]] and [[Gray-category]].
+
 * (2009-01-04) [[Toby Bartels]]:
   * I posted [[k-tuply monoidal n-category]]. I\'ll correct typos and look at everything else tonight (when it\'s technically -05).
   * Urs is right about $\infty$ vs $\omega$, and I\'ve changed the other appearances in [[(n,r)-category]] and [[periodic table]] (as well as fixing the new one!).
