@@ -1,6 +1,6 @@
 #Definition#
 
-A Lie groupoid is a groupoid [[internalization|internal to]] Manifolds.
+A Lie groupoid is an [[internal category|internal groupoid]] in [[Diff]].
 
 There are these and those conditions on the various maps involved...
 
