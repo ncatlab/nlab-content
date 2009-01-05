@@ -81,7 +81,7 @@ $$
 
 where
 
-* $\Delta$ is the [[simplicial category]];
+* $\Delta$ is the [[simplex category]];
 
 * $O : \Delta \to \omega Cat$ are the [[oriental|orientals]].
 
