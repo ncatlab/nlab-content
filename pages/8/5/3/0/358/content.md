@@ -2,9 +2,9 @@ A $k$-tuply monoidal $n$-category is an $n$-[[n-category|category]] in which (de
 
 # Definition
 
-A __$k$-tuply monoidal $n$-category__ is an $(n+k)$-category (which you may interpret as weakly or strictly as you like) such that any two parallel $j$-morphisms are equivalent, for $j < k$. One usually (at least for positive values of $k$) relabels the $j$-morphisms as $(j-k)$-morphisms. As explained below, we may assume that $-1 \leq k \leq n + 2$.
+A __$k$-tuply monoidal $n$-category__ is an $(n+k)$-category (which you may interpret as weakly or strictly as you like) such that any two parallel $j$-morphisms are [[equivalence|equivalent]], for $j < k$. One usually (at least for positive values of $k$) relabels the $j$-morphisms as $(j-k)$-morphisms. As explained below, we may assume that $-1 \leq k \leq n + 2$.
 
-To interpret this correctly for low values of $j$, we must assume that all objects ($0$-morphisms) in a given $(n+k)$-category are parallel, which leads us to speak of the two $(-1)$-morphisms that serve as their common source and target and to accept any object as an equivalence between these.
+To interpret this correctly for low values of $j$, we must assume that all [[object]]s ($0$-morphisms) in a given $(n+k)$-category are parallel, which leads us to speak of the two $(-1)$-morphisms that serve as their common source and target and to accept any object as an equivalence between these.
 
 One can continue to $(-2)$-morphisms and so on, but there is nothing to vary about these; every $n$-category is automatically $(-1)$-tuply monoidal. *However*, the naming shift is not applied at that level, so a simple $n$-category is actually a $(-1)$-tuply monoidal $(n+1)$-category. In constrast, a $0$-tuply monoidal $n$-category is an *occupied* $n$-category.
 
@@ -39,4 +39,4 @@ Historically, the row where $k = -1$ was ignored, as was the occupiedness restri
 <tr><th>4</th><td>"</td><td>"</td><td>"</td><td>"</td><td>[[symmetric monoidal 2-category]]</td><td>&hellip;</td></tr>
 <tr><th>&vellip;</th><td>"</td><td>"</td><td>"</td><td>"</td><td>"</td><td>&dellip;</td></tr></table>
 
-Indeed, it was this table that inspired the definition of $(-1)$-[[(-1)-category|category]] and $(-2)$-[[(-2)-category|category]] in the first place. However, a closer look at the general definition of $(n,r)$-[[(n,r)-category|category]] shows that these are not well behaved concepts after all, and a closer look at low values of $k$ destroys the motivation for them. (In fact, the first table includes the column where $n = -1$ only to illustrate that there is nothing interesting there.)
+Indeed, it was this table that inspired the definition of $(-1)$-[[(-1)-category|category]] and $(-2)$-[[(-2)-category|category]] in the first place. However, a closer look at the general definition of $(n,r)$-[[(n,r)-category|category]] shows that these are not well behaved concepts after all, and a closer look at low values of $k$ destroys the motivation for them. (In fact, I include the column where $n = -1$ in the first table just to illustrate that there is nothing interesting there.)
