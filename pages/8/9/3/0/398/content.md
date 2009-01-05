@@ -17,9 +17,18 @@ A _closed (symmetric) monoidal homotopical category_ $V_0$ is a
 
 =--
 
+#Properties#
+
++-- {: .un_prop}
+###### Proposition
+The [[homotopy category]] $Ho_V$ of a closed (symmetric)
+monoidal homotopical category $V$ is itself 
+closed (symmetric) monoidal.
+=--
+
 
 #References#
 
-This appears as [definition 15.3, p. 44](http://arxiv.org/PS_cache/math/pdf/0610/0610194v1.pdf#page=44) in Shulman: [Homotopy limits and colimits in enriched homotopy theory](http://arxiv.org/abs/math.AT/0610194v1)
-
+The definition appears as [definition 15.3, p. 44](http://arxiv.org/PS_cache/math/pdf/0610/0610194v1.pdf#page=44) in Shulman: [Homotopy limits and colimits in enriched homotopy theory](http://arxiv.org/abs/math.AT/0610194v1),
+the proposition as [proposition 15.4, p. 45](http://arxiv.org/PS_cache/math/pdf/0610/0610194v1.pdf#page=45).
 
