@@ -2,7 +2,7 @@ A list of all entries lately edited is given at
 
 * [Recently Revised](http://ncatlab.org/nlab/recently_revised).
 
-But since that list tends to contain lots of very minor changes and does not make it easy to spot the important new changes, in order to facilitate cooperation we here list comments on changes we made. 
+But since that list tends to contain lots of very minor changes and does not make it easy to spot the important new changes, in order to facilitate cooperation [[Contributors|we]] here list comments on changes we made. 
 
 Drop a comment here if you feel people's attention should be drawn to some changes you made. For instance alert people of major additions or corrections you made.
 
@@ -31,7 +31,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * started replying to [[Todd Trimble|Todd]]'s remarks at [[stack]] by addding a section _Descent in terms of pseudo-functors_ to [[descent and codescent]].
 
-  * following the discussion which I now moved to [[discussion on terminology -- omega-category]] I moved the original material on that to [[strict omega-category]] and kept at [[omega-category]] just a pointer to that entry. This means we should do through a bunch of entries and rename links to [[omega-category]] into links to [[strict omega-category]].
+  * following the discussion which I now moved to [[discussion on terminology -- omega-category]] I moved the original material on that to [[strict omega-category]] and kept at [[omega-category]] just a pointer to that entry. This means we should go through a bunch of entries and rename links to [[omega-category]] into links to [[strict omega-category]].
 
 * (2009-01-05) [[David Corfield]] 
 
