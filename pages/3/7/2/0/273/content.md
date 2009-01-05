@@ -30,7 +30,7 @@ $$
   \omega Categories
 $$
 
-along which one can generalize the coefficient objects of ordinary cohomology. (See [[omega-groupoid]], [[omega-category]]). Since doing so in particular generalizes abelian groups to nonabelian groups (but goes much further!) this is generally addressed as leading to _nonabelian cohomology_.
+along which one can generalize the coefficient objects of ordinary cohomology. (See [[strict omega-groupoid]], [[strict omega-category]]). Since doing so in particular generalizes abelian groups to nonabelian groups (but goes much further!) this is generally addressed as leading to _nonabelian cohomology_.
 
 Depending on how one thinks of the object whose cohomology one computes, there are two different ways to realize this, as mentioned above:
 
