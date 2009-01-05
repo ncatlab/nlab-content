@@ -1,4 +1,4 @@
-_Nonabelian algebraic topology_ is a program developed by [Ronnie Brown](http://www.bangor.ac.uk/~mas010/index.html) and his collaborators. The idea is to redo and enhance algebraic topology by making use of the tool of [[omega-groupoid]]s and in particular the [[crossed complex]]es equivalent to them, which generalize the complexes of _abelian_ groups traditionally used in algebraic topology.
+_Nonabelian algebraic topology_ is a program developed by [Ronnie Brown](http://www.bangor.ac.uk/~mas010/index.html) and his collaborators. The idea is to redo and enhance algebraic topology by making use of the tool of [[strict omega-groupoid]]s and in particular the [[crossed complex]]es equivalent to them, which generalize the complexes of _abelian_ groups traditionally used in algebraic topology.
 
 
 #Remarks#
