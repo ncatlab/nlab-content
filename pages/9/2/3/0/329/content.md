@@ -12,7 +12,7 @@ A _strict 2-category_, often called simply a _2-category_, is a [[enriched categ
 
 #Remarks
 
-* A strict 2-category is the same as an [[omega-category]] which is trivial in degree $n \geq 3$.
+* A strict 2-category is the same as a [[strict omega-category]] which is trivial in degree $n \geq 3$.
 
 * This is to be contrasted with a _weak 2-category_ called a [[bicategory]]. In a strict 2-category composition of 1-morphisms is strictly associative and comoposition with [[identity]] morphisms strictly satisfies the required identity law. In a weak 2-category these laws may hold only up to coherent 2-morphisms.
 
