@@ -96,7 +96,9 @@ book for example has an entry in the index of his book:
 "infinity-category: see omega-category" and never uses the term infinity-category anywhere else, as far as I know. I don't think I ever heard Ross Street say infinity-category -- I really think this
 usage must have caught on more recently, with a different crowd.
 
-I don't really mind infinity-category; I'm just not used to saying it myself, and until now was confused by what people like you meant when you used that or omega-category, except in specific contexts, as for example discussing the work of Crans. So now I know!
+I don't really mind infinity-category; I'm just not used to saying it myself, and until now was confused by what people like you meant when you used that or omega-category, except in specific contexts, as for example discussing the work of Crans. So now I know! 
+
+[I should add that the above was given in am email to Urs, which he reproduced here; hence the phrase "people like you". I added at the end that I was not pushing an agenda.]
 
 
 =--
