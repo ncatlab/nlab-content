@@ -141,3 +141,5 @@ _Toby replies_: OK, that's a good point, Mike. Similarly, one can understand the
 _Mike 2-replies_: Actually, I don't think that asserting that the free boolean topos is the category of sets has anything to do with the axiom of constructibility.  On the one hand, since the axiom of constructibility is not provable from ZFC, there is no reason for it to be true in any free topos (except the "free topos satisfying the axiom of constructibility," to whatever extent that exists).  On the other hand, any free topos (on a countable theory) is countable, so there are many models of ZFC + constructibility that are not the free boolean topos.
 
 I have been trying for some time to figure out the "categorical meaning" of the axiom of constructibility, but I have so far mostly failed.  It seems to be very closely tied to membership-based set theory.
+
+_Toby_: OK, forget I said anything about constructibilty.
