@@ -1,6 +1,6 @@
 #Idea#
 
-The concept _algebroid_ is the [[horizontal categorification|many object version]] (or [[oidification]])  of the concept _unital associative algebra_.
+The concept _algebroid_ is the [[horizontal categorification|many object version]] (or oidification)  of the concept _unital associative algebra_.
 
 #Definition#
 
