@@ -16,11 +16,11 @@ A **simplicial set**  is a [[presheaf]] on the [[simplex category]] $\Delta$.
 
 * If $C$ is a small category, the **nerve** of $C$ is a simplicial set which we denote $NC$. If we intepret the poset $[n]$ defined above as a category, we define the $n$-simplices of $NC$ to be the set of functors $[n] \rightarrow C$. Equivalently, the $0$-simplices of $NC$ are the objects of $C$, the $1$-simplices are the morphisms, and the $n$-simplices are strings of $n$ composable arrows in $C$. Face maps are given by composition (or omission, in the case of $\delta_0$ and $\delta_n$) and degeneracy maps are given by inserting identity arrows.
 
-* If $Z$ is a topological space, the **total singular complex** of $Z$ is a simplicial set, which we denote $SZ$. Let ${\Delta}n$ denote the standard _topological_ $n$-simplex $\{ (x_0, \ldots, x_n) : 0\leq x_i \leq n, \sum x_i =1\}$. The $n$-simplices of $SZ$ are defined to be the continuous functions ${\Delta}n \rightarrow Z$. The face map $\delta_i$ is given by precomposition by the continuous injection $d^i$ of ${\Delta}_{n-1}$ as the $i$-th face of ${\Delta}_n$ (with a 0 in the $x_i$ coordinate). The degeneracy map $\sigma_i$ is given by the continuous function ${\Delta}_{n+1} \rightarrow {\Delta}_n$ that adds the $x_i$ and $x_{i+1}$ coordinates. 
+* If $Z$ is a topological space, the **total singular complex** of $Z$ is a simplicial set, which we denote $SZ$. Let ${\Delta}_n$ denote the standard _topological_ $n$-simplex $\{ (x_0, \ldots, x_n) : 0\leq x_i \leq n, \sum x_i =1\}$. The $n$-simplices of $SZ$ are defined to be the continuous functions ${\Delta}_n \rightarrow Z$. The face map $\delta_i$ is given by precomposition by the continuous injection $d^i$ of ${\Delta}_{n-1}$ as the $i$-th face of ${\Delta}_n$ (with a 0 in the $x_i$ coordinate). The degeneracy map $\sigma_i$ is given by the continuous function ${\Delta}_{n+1} \rightarrow {\Delta}_n$ that adds the $x_i$ and $x_{i+1}$ coordinates. 
 
 #The Category of Simplicial Sets#
 
-Like all categories of presheafs on a small category, the category $sS$ of simplicial sets is complete and cocomplete (with limits and colimits constructed levelwise) and cartesian closed. We write $[X,Y]$ for the internal-hom of simplicial sets $X$ and $Y$. By the Yoneda lemma, the $n$-simplices of $[X,Y]$ correspond to maps $\Delta[n] \rightarrow [X,Y]$, or equivalently, maps $X \times \Delta[n] \rightarrow Y$ (by the defining adjunction). So we may _define_ the simplicial set $[X,Y]$ to have these $n$-simplices. The face and degeneracy maps are given by precomposition by the dual maps in $\Delta$.
+Like all categories of presheafs on a small category, the category $sS$ of simplicial sets is complete and cocomplete (with limits and colimits constructed levelwise) and cartesian closed. We write $Y^X$ for the internal-hom of simplicial sets $X$ and $Y$. By the Yoneda lemma, the $n$-simplices of $[X,Y]$ correspond to maps $\Delta[n] \rightarrow [X,Y]$, or equivalently, maps $X \times \Delta[n] \rightarrow Y$ (by the defining adjunction). So we may _define_ the simplicial set $[X,Y]$ to have these $n$-simplices. The face and degeneracy maps are given by precomposition by the dual maps in $\Delta$.
 
 # Adjunctions #
 
@@ -34,9 +34,9 @@ The left adjoint $L$ is defined to be the left [[Kan extension]] of $F$ along th
 
 Here are some examples:
 
-* Let $E = \Cat$ and $F$ be the functor $[n] \mapsto [n]$ (the inclusion of posets into categories). The right adjoint is the nerve functor $N$ described above. The left adjoint ${\tau}1$ takes a simplicial set to its **fundamental category**. 
+* Let $E = \Cat$ and $F$ be the functor $[n] \mapsto [n]$ (the inclusion of posets into categories). The right adjoint is the nerve functor $N$ described above. The left adjoint ${\tau}_1$ takes a simplicial set to its **fundamental category**. 
 
-* Let $E = \Top$ and $F$ be the functor $[n] \mapsto {\Delta}n$. The right adjoint is the total singular complex functor $S$ described above. The left adjoint $|-|$ is called **geometric realization**.  As a consequence of the Kan extension construction, the geometric realization of the represented simplicial set $\Delta[n]$ is the standard $n$-simplex ${\Delta}n$.
+* Let $E = \Top$ and $F$ be the functor $[n] \mapsto {\Delta}_n$. The right adjoint is the total singular complex functor $S$ described above. The left adjoint $|-|$ is called **geometric realization**.  As a consequence of the Kan extension construction, the geometric realization of the represented simplicial set $\Delta[n]$ is the standard $n$-simplex ${\Delta}_n$.
 
 * Subdivision and extension $sd: sS \leftrightarrow sS : ex$.
 
