@@ -23,6 +23,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * (2009-01-05) [[Urs Schreiber|Urs]]
 
+  * am reading [[Mike Shulman|Mike]]'s [Homotopy limits and colimits and enriched category theory](http://arxiv.org/abs/math.AT/0610194v1) and started adding some central definitions as entries here, such as [[closed monoidal homotopical category]] and [[enriched homotopical category]] and some related entries such as [[homotopical category]] and [[homotopy coherent category theory]]. Eventually I would like to see if some of my favorite monoidal homotopical categories are _examples_. See my request [here](closed monoidal homotopical category).
+
   * added [[Crans-Gray tensor product]]
 
   * started replying to [[Todd Trimble|Todd]]'s remarks at [[stack]] by addding a section _Descent in terms of pseudo-functors_ to [[descent and codescent]].
