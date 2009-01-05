@@ -1,0 +1,17 @@
+#Idea#
+
+A Gray-category is a certain type of [[semi-strict infinity-category|semi-strict]] 3-category, in which composition is strictly associative and unital, but the [[interchange law]] holds only up to isomorphism.
+
+#Definition#
+
+A **Gray-category** is a category [[enriched category|enriched]] over the symmetric monoidal category Gray, which is the category of [[strict 2-category|2-categories]] and 2-functors with the [[Gray tensor product]].
+
+#Coherence Theorem#
+
+Gordon, Power, and Street proved that every [[tricategory]] (that is, weak 3-category) is equivalent to a Gray-category.  Not every tricategory is equivalent to a fully strict 3-category; any doubly-degenerate [[braided monoidal category]] which is not [[symmetric monoidal category|symmetric]] is an example.  So this is "the best one can do" in one sense, although there are other incomparable paths one can take, such as [[Simpson's conjecture|weakening units]] but keeping interchange strict.
+
+#References#
+
+* Gordon, Power, Street, _Coherence for tricategories_
+
+* Nick Gurski, _Algebraic tricategories_, Ph. D. Thesis.
