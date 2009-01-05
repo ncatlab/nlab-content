@@ -14,11 +14,11 @@ Alternatively, we may further project to the 1-category in which all weak equiva
 
 #Remarks#
 
-If we denote by $Core(C)$ the maximal subgroupoid of $C$, then we have a chain of inclusions
+* If we denote by $Core(C)$ the maximal subgroupoid of $C$, then we have a chain of inclusions
 $ 
  Core(C) \hookrightarrow W \hookrightarrow C
 $.
 
-Sometimes it is useful to ask further closure properties of the weak equivalences, such as the "two-out-of-six" property (if $g f$ and $h g$ are weak equivalences, then so are $f$, $g$, $h$, and $h g f$) or closure under [[retract|retracts]] in the arrow category of $C$.
+* Sometimes it is useful to ask further closure properties of the weak equivalences, such as the "2-out-of-6" property (if $g f$ and $h g$ are weak equivalences, then so are $f$, $g$, $h$, and $h g f$) in which case one speaks of a [[homotopical category]], or closure under [[retract|retracts]] in the arrow category of $C$.
 
-Many (perhaps most) categories with weak equivalences can be equipped with the further structure of a [[model category]].
+* Many (perhaps most) categories with weak equivalences can be equipped with the further structure of a [[model category]]. On the other hand, many categories with weak equivalences can _not_ be equipped with a useful structure of a model category. This is in particular true for categories of diagrams in a model category. Several concepts exist that weaken the axioms of a model category in order to still obtain useful results in such a case -- for instance a [[category of fibrant objects]].
