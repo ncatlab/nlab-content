@@ -52,7 +52,7 @@ Most importantly the $n$Lab is
 * **not complete** and **not meant to be complete**. Neither its general structure nor each single entry are meant to be optimal in their current state. Many existing entries, possibly all of them, deserve to be and are meant to be eventually improved and expanded on. 
 Many entries are [stubs](http://en.wikipedia.org/wiki/Wikipedia:Stub)!
 
-**If you find yourself annoyed by the state any given entry is in**, for whatever reason, please feel encouraged to edit it in order to improve the situation. If you feel existing material needs to be changed, you can do so. If you feel further material needs to be added, different perspectives need to be amplified, you can add new paragraph, headed by a suitable headline. The $n$Lab will be the better the more people decide to contribute to it.
+**If you find yourself annoyed by the state any given entry is in**, for whatever reason, please feel encouraged to edit it in order to improve the situation. If you feel existing material needs to be changed, you can do so. If you feel further material needs to be added, different perspectives need to be amplified, you can add new paragraph, headed by a suitable headline. **Be bold**: The $n$Lab will be the better the more people decide to contribute to it.
 
 See the [[HowTo]] page for information on how to contribute to the $n$Lab and edit and/or create its entries.
 
