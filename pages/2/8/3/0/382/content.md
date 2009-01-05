@@ -4,8 +4,6 @@ After the following discussion, we renamed that entry to [[strict omega-category
 
 ***
 
-+-- {: .query}
-
 [[Toby Bartels]]: Who actually uses the language this way? If anything, it should be the reverse, as 'omega' is Greek (like 'bi', 'tri', and 'tetra') and 'infinity' is not.  
 
 [[John Baez]]: For a long time, for most category theorists, the default meaning of '$n$-category' has been 'strict globular $n$-category' &#8212; especially since weak $n$-categories had not yet been defined (except for very low $n$).   So when Street invented '$\omega$-categories' in his paper on orientals, he meant 'globular strict $\infty$-categories'.  Now there are many definitions of 'weak $n$-category', terminology is in flux, and people like [[Tom Leinster]] and myself advocate a new system in which '$n$-category' means 'some sort of possibly weak $n$-category' &#8212; at least until one has defined it more precisely in a specific context.  It is still true that most papers referring to $\omega$-categories mean 'globular strict $\infty$-categories'.
@@ -101,5 +99,3 @@ I don't really mind infinity-category; I'm just not used to saying it myself, an
 [I should add that the above was given in am email to Urs, which he reproduced here; hence the phrase "people like you". I added at the end that I was not pushing an agenda.]
 
 _Mike_: I was going to say that I liked Toby's suggestion, but it seems to have already been implemented, so I am satisfied.  Let me just say, in response to Urs' suggestion, that since [[2-category|2-categories]] don't need the word "globular" to distinguish them from [[double categories]] (aka 2-fold categories), I would rather not have to say "globular $\infty$-category (or $\omega$-category)" to distinguish it from cubical or $\infty$-fold ones.  Of course, it's fine to add "globular" for emphasis occasionally.
-
-=--
