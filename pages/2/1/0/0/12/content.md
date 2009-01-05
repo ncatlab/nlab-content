@@ -143,4 +143,6 @@ Am I going to get an undefined term in gray at the end of this [[question]]
 
 Here's a Unicode WikiLink: [[שנה טובה]]. The only funky bit is mixing LTR and RTL scripts.
 
+[[Contributors]]
+
 category: meta
