@@ -4,7 +4,7 @@ An $\infty$-category is a combinatorial model for _directed space_ hence a model
 
 If the $\infty$-category is not directed it is called an [[infinity-groupoid]] and is then a model for an ordinary space.
 
-In generalization to how an ordinary [[category]] has 1-[[morphism]]s going between [[object]]s, in an $n$-category there are $k$-morphisms going between $(k-1)$-morphisms for all $1 \leq k \leq n$.
+In generalization to how an ordinary [[category]] has 1-[[morphism]]s going between [[object]]s, in an $\infty$-category there are $j$-morphisms going between $(j-1)$-morphisms for $j = 1, 2, \ldots$. (The $0$-morphisms are the objects of the $\infty$-category.)
 
 There are many different definitions realizing the general idea of $\infty$-category.
 Models for $\infty$-categories usually fall into two classes:
