@@ -2,6 +2,10 @@ See also [[infinity-stack]].
 
 (Todd speaking.) I don't really speak "stacks", but in an effort to build a bridge between sheaves and stacks, I'll write down what I thought I understood, and ask someone such as Urs to come in and check. (Warning: I'm treating this edit box almost as a sandbox, in that what I say below is all a bit provisional until we get some discussion going.) 
 
++--{.query}
+ Hi Todd, thanks for this. I started making some remarks on the relation between descent $\infty$-categories and pseudofunctors from [[cover]]s regarded as [[sieve]]s (hence as presheaves) at [[descent and codescent]] in the section titled _Descent in terms of pseudo-functors_.
+=--
+
 At the simplest level, let $C$ be a category. As we know, a presheaf on $C$ is just a functor $X: C^{op} \to Set$. 
 
 Now let's categorify just once: regard a category $C$ as a bicategory whose local hom-categories are discrete. What I'll call a "pre-stack" is then a homomorphism of bicategories $X: C^{op} \to Cat$. Here I'm following Street's terminology: a homomorphism of bicategories is the "pseudo" version of a weak map of bicategories, as opposed to the "lax" version. So, we have given coherent isomorphisms $X(f)X(g) \to X(f g)$, and so on.  
