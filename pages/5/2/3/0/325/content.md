@@ -10,6 +10,10 @@ Given a category $C$, the **opposite category** $C^{op}$ has the same objects as
 
 Passing to the opposite category is a realization of abstract [[duality]]. 
 
-This goes as far that some entities are _defined_ as objects in an opposite category. In particular, all generalizations of [[geometry]] which characterize [[space and quantity|spaces]] in terms of [[algebra|algebras]]. The idea of [[noncommutative geometry]] is essentially to define a category of _spaces_ as the opposite category of a category of algebras.
+This goes as far that some entities are _defined_ as objects in an opposite category. In particular, all generalizations of [[geometry]] which characterize [[space and quantity|spaces]] in terms of [[algebra|algebras]]. The idea of [[noncommutative geometry]] is essentially to define a category of _spaces_ as the opposite category of a category of algebras. Similarly, a [[locale]] is opposite to a [[frame]].
+
++--{.query}
+Are there examples where algebras are defined as dual to spaces?
+=--
 
 Another example is the definition of the category of [[L-infinity algebroid|L-infinity algebroids]] as that opposite to quasi-free differential graded algebras, identifying every $L_\infty$-algebra with its [[duality|dual]] [[Chevalley-Eilenberg algebra]].
