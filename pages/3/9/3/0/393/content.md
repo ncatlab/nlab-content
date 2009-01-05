@@ -6,7 +6,9 @@ If morphisms $h \circ g$ and $g \circ f$ are weak equivalences, then so are $f$,
 
 #Remarks#
 
-* The 2-out-of-6-property implies the 2-out-of-3-property.
+* The 2-out-of-6-property implies the [[category with weak equivalences|2-out-of-3]]-property.
+
+* A functor $F : C \to D$ between homotopical categories which preserves weak equivalences is a [[homotopical functor]].
 
 #References#
 
