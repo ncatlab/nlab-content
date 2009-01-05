@@ -70,3 +70,7 @@ This use of "topology" can also lead to confusion since for a topologist, there 
 Furthermore, the use of "topology" for a category with a system of covers also leads to the use of "continuous" for a functor which preserves covers.  This is (in some people's opinion) doubly unfortunate, since "continuous functor" is used not only by topologists to mean an internal or [[enriched category|enriched]] functor over Top, but also by many category-theorists to mean a functor that preserves all small [[limit|limits]].  This is especially confusing since covers are more akin to colimits than limits. Moreover, while a continuous function between topological spaces does induce a a cover-preserving functor between categories of open sets, the function and the functor go in opposite directions.
 
 In _Sketches of an Elephant_, Peter Johnstone introduced the term __(Grothendieck) coverage__ for a system of covers on a category.  (To be precise, he used "Grothendieck coverage" for what is traditionally called a "Grothendieck topology," and "coverage" for what is traditionally called a "basis for a Grothendieck topology"---another confusing word, since it has little to do with the usual notion of basis for a topology.)  He used __local operator__ instead of  "Lawvere-Tierney topology," but one could easily say "Lawvere-Tierney coverage" to retain the attribution.
+
++--
+So what\'s stopping us from going with Johnstone? &#8212;Toby (And how about 'Lawvere&#8211;Tierney operator'?)
+=--
