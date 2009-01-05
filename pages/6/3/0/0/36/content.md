@@ -109,3 +109,5 @@ _Toby replies_: I always assumed that we\'d have a separate page [[internal cate
 And I\'m implying that you can internalise categories in the doctrine of lex categories (whereas you can internalise monoids in the doctrine of monoidal categories).
 
 _Mike_: Okay, maybe I'll do it if you don't beat me to it.  Do you have a precise definition of "internalize" in mind?
+
+_Toby_: Well, 'internal' is like 'categorified'; it is imprecise, but its reverse is precise. That is, given a doctrine $D$ to which $\Set$ belongs and a definition of foo internal to $X$ for any $X$ in $D$, if this definition of foo in $\Set$ reduces to the usual definition of foo, then the definition is acceptable; foos are a _deinternalisation_ of internal foos. (In some cases, you may need to use something other than $\Set$ to get the usual definition of foo.)
