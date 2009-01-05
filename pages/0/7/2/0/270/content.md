@@ -1,5 +1,3 @@
 #Idea#
 
-An _$\omega$-groupoid_ is an [[omega-category]] in which all morphisms have a strict [[inverse]].
-
-By a result by Brown and Higgins, going back to insights by Whitehead, $\omega$-groupoids are equivalent to [[crossed complex]]es.
+An _$\omega$-groupoid_ is an $\omega$-[[omega-category|category]] in which all morphisms have an [[inverse]] at every level; how strict the $\omega$-category and the inverses must be can vary. Most authors that use the term '$\omega$-groupoid' mean [[strict omega-groupoid]] by default.
