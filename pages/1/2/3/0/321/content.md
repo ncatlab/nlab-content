@@ -15,7 +15,7 @@ $$
   }
 $$
 
-where $s$ is some other object of the category.  This diagram is called a 'span' because when properly drawn, the object $s$ is a bit higher than $x$ and $y$, so it looks like a little bridge.
+where $s$ is some other object of the category.  This diagram is called a 'span' because it looks like a little bridge.
 
 Note that a span with $f = 1$ is just a morphism from $x$ to $y$, while a span with $g = 1$ is a morphism from $y$ to $x$.  So, a span can be thought of as a generalization of a morphism in which there is no longer any asymmetry between source and target.
 
