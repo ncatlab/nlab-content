@@ -45,6 +45,6 @@ $$
   }
   \,.
 $$
-Here $2Vect$ denotes some version of the category of 2-vector spaces with the property that the category $Vect$ is one of its objects and such that $End_{2Vect}(Vect) \simeq Vect$ (in analogy to how $End_{Vect}(k) \simeq k$) and $pt \to 2Vect$ maps to $Vect$. Possible choices for $2Vect$ is the 2-category of [[Kapranov-Voevodsky 2-vector space]]s or the bigger bicategory of [[bicategory of algebras and bimodules|algebras and bimodules]].
+Here $2Vect$ denotes some version of the category of 2-vector spaces with the property that the category $Vect$ is one of its objects and such that $End_{2Vect}(Vect) \simeq Vect$ (in analogy to how $End_{Vect}(k) \simeq k$) and $pt \to 2Vect$ maps to $Vect$. Possible choices for $2Vect$ is the 2-category of [[Kapranov-Voevodsky 2-vector space]]s or the bigger bicategory [[Bimod]] of algebras and [[bimodule]]s.
 
 More details on this perspective on graded vector spaces are in [[schreiber:Nonabelian cocycles and their quantum symmetries]].
