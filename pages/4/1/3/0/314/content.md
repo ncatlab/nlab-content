@@ -9,6 +9,6 @@ $$\gamma = (\Delta c \stackrel{\Delta f}{\to} \Delta lim F \stackrel{\theta}{\to
 Examples of limits of diagrams of notable shape include:
 
 * A limit of the [[diagram|empty diagram]] is a [[terminal object]].
-* A limit of a diagram whose shape is the [[discrete category]] with two objects is called a [[categorical product]].
-* A limit of a [[cospan]] is called a [[pullback]].
-* A limit of a diagram whose shape consists of two morphisms with shared [[source]] and shared [[target]] is called an [[equalizer]].
+* A limit of a diagram consisting of two (or more) objects is their [[product]].
+* A limit of a [[cospan]] is a [[pullback]].
+* A limit of a pair (or more) of [[parallel morphisms]] is an [[equalizer]].
