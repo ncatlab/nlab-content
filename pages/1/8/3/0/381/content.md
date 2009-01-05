@@ -1,6 +1,6 @@
 #Idea#
 
-A _strict $\omega$-category_ is a [[globular set|globular]] [[infinity-category|infinity-categories]] in which all operations obey their respective laws strictly.
+A _strict $\omega$-category_ is a [[globular set|globular]] [[infinity-category]] in which all operations obey their respective laws strictly.
 
 
 
