@@ -39,7 +39,7 @@ which sends each space to its [[fundamental groupoid|fundamental infinity-groupo
 
 (for $n=2$).
 
-The [[higher van Kampen theorem]] which has been proven for [[omega-category]]-valued $\Pi_\omega$, asserts that $\Pi_\omega(X)$ is not only equivalent to the _homotopy_ colimit over $\Pi_\omega(Y^n)$, for a cover $Y \to X$, but also to the _strict_ colimit. For further discussion of this see
+The [[higher van Kampen theorem]] which has been proven for [[strict omega-category]]-valued $\Pi_\omega$, asserts that $\Pi_\omega(X)$ is not only equivalent to the _homotopy_ colimit over $\Pi_\omega(Y^n)$, for a cover $Y \to X$, but also to the _strict_ colimit. For further discussion of this see
 
 * [_Codescent and the van Kampen theorem_](http://golem.ph.utexas.edu/category/2008/10/codescent_and_the_van_kempen_t.html)
 
@@ -52,4 +52,4 @@ The notion of $\infty$-stacks can be set up in various notions of $\infty$-categ
 
 The explicit descent condition formulated above appears there on [page 12](http://arxiv.org/PS_cache/math/pdf/0604/0604504v3.pdf#page=12).
 
-But the theory can be formulated whenever notions of [[descent and codescent]] $\infty$-categories exist. In the context of [[omega-category|omega-categories]] a formulation of $\infty$-stacks and costacks is discussed at [[schreiber:Differential Nonabelian Cohomology]].
+But the theory can be formulated whenever notions of [[descent and codescent]] $\infty$-categories exist. In the context of [[strict omega-category|strict omega-categories]] a formulation of $\infty$-stacks and costacks is discussed at [[schreiber:Differential Nonabelian Cohomology]].
