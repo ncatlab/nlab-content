@@ -1,4 +1,6 @@
-Given a [[category]] $C$, a _subcategory_ $D$ consists of a subcollection of the collection of [[object|objects]] of $C$ and a subcollection of the collection of [[morphism|morphisms]] of $D$ such that:
+#Definition#
+
+Given a [[category]] $C$, a __subcategory__ $D$ consists of a subcollection of the collection of [[object|objects]] of $C$ and a subcollection of the collection of [[morphism|morphisms]] of $D$ such that:
 
 * If the morphism $f : x \to y$ is in $D$, then so are $x$ and $y$.
 
@@ -6,13 +8,37 @@ Given a [[category]] $C$, a _subcategory_ $D$ consists of a subcollection of the
 
 * If $x$ is in $D$ then so is the [[identity]] morphism $1_x$.
 
-These conditions ensure that $D$ is a category in its own right.  We say $D$ is a _full subcategory_ if additionally 
+These conditions ensure that $D$ is a category in its own right and the inclusion $D\hookrightarrow C$ is a [[functor]].  Additionally, we say that $D$ is...
 
-* If $x$ and $y$ are in $D$, every morphism $f : x \to y$ is in $D$.
+* A __full subcategory__ if for any $x$ and $y$ in $D$, every morphism $f : x \to y$ in $C$ is also in $D$.
 
-More generally, one may define a _subcategory_ of $C$ as a category $D$ equipped with a [[faithful functor|faithful]] [[functor]] $F: D \to C$. This is the same as a subcategory (in the sense above) of a category [[equivalence|equivalent]] to $C$.  In these terms, we define a _full subcategory_ to be a category equipped with a [[full functor|full]] and faithful functor $F : D \to C$.
+* A __replete subcategory__ if for any $x$ in $D$ and any isomorphism $f:x\cong y$ in $C$, both $y$ and $f$ are also in $D$.
+
+
+#Non-evil variants#
+
+Just as subsets of a [[set]] $X$ can be identified with isomorphism classes of [[monomorphism|monic]] functions into $X$, subcategories of a category $C$ can be identified with isomorphism classes of monic _functors_ into $C$.  A functor is easily verified to be monic iff it is [[faithful functor|faithful]] and injective on objects.  This can be generalized to monomorphisms in a [[strict 2-category]].
+
+However, this notion is [[evil]] since being injective-on-objects refers to equality of objects.  This raises the question: what is a good non-evil definition of **subobject** in a [[2-category]]?  It is the contention of the authors of this page that there are multiple such definitions.  Two evident ones are:
+
+* A morphism $f: A\to B$ in a 2-category $K$ is **1-monic** if it is full and faithful, i.e. $K(X,A) \to K(X,B)$ is full and faithful for all $X$.  A **1-subobject** of $B$ is an [[equivalence]] class of 1-monomorphisms into $B$, and a **1-subcategory** is a 1-subobject in $Cat$.
+* Likewise, $f$ is **2-monic** if $K(X,A) \to K(X,B)$ is faithful for all $X$.  A **2-subobject** of $B$ is an equivalence class of 2-monomorphisms into $B$, and a **2-subcategory** is a 2-subobject in $Cat$.
+
+The obvious generalizations (at least, obvious once you start thinking in terms of [[k-surjectivity]]) are that every morphism is 3-monic, while the 0-monic morphisms are the equivalences.  (Note that this numbering is offset by one from that used in [Baez and Shulman](http://arxiv.org/abs/math.CT/0608420).)  There is likewise an evident generalization to $k$-monomorphisms in any $n$-[[n-category|category]].
+
+It is fairly undisputed that 1-subobjects, as defined above, are a good notion of subobject in a 2-category.  In particular, any full and faithful functor $C\to D$ in $Cat$ is equivalent to the inclusion of a full subcategory $C'\to D$ (here $C'$ is the full image of $C$).  Also, in a 1-category considered as a locally discrete 2-category, the 1-monomorphisms are precisely the usual sort of [[monomorphism]].
+
+In fact, any faithful functor is likewise equivalent to the inclusion of a (non-full) subcategory, but in this case the codomain must be modified as well as the domain.  It is somewhat more disputable whether 2-subcategories all deserve to be called "subcategories;" for instance, is [[Grp]] a "subcategory" of [[Set]]?  Note also that any functor between [[discrete category|discrete categories]] is faithful, so that the [[terminal category]] has a proper class of inequivalent 2-subcategories, and similarly every morphism in a locally discrete 2-category is 2-monic.  However, kernels of morphisms between 2-groups are 2-subobjects, not 1-subobjects, and likewise for any subgroup of a [[group]] (considered as a 1-object category).  This motivates the term "2-subobject," to make it clear that there is some relationship with the sort of subobjects we are used to in 1-categories, but also some notable generalization.
+
+Other types of morphism in a 2-category which have some claim to be considered "subobjects" include [[pseudomonic functor|pseudomonic]] morphisms and [[conservative functor|conservative]] morphisms.
+
 
 # Discussion
+
+The above discussion of non-evil variants is the result of the following discussion.
+
++--{.query}
+
 _[[Mike Shulman|Mike]] says_: I have a few objections to considering any faithful functor to be a "subcategory."
 
 1. I really have a hard time convincing myself that the category of groups is a subcategory of the category of sets.  A group is a set with extra [[property, structure, and stuff|structure]], not a set satisfying some property.
@@ -46,3 +72,5 @@ _Mathieu_:  If a "1-subcategory" of $C$ is a fully faithful functor with codomai
 _Mike_: Re: subgroups, point taken; non-pseudomonic subcategories do happen.  I think my motivation for starting the numbering as I did was that I was thinking that we should have 0-monic = monic for maps between 0-categories (sets).  But at the moment I'm feeling more sympathetic towards your argument that we should have instead 1-monic = monic for maps _in_ a 1-category.  Have we reached a point in the discussion where we are willing to change the main entry?
 
 _Toby_: For what it\'s worth, I would be happy with that.
+
+=--
