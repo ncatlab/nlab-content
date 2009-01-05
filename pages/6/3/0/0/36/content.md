@@ -31,7 +31,7 @@ Like [[categorification]], there is currently no completely general formal defin
 
 * More generally, the algebras for any [[Lawvere theory]] can be internalized in the doctrine of categories with finite products, and the algebras for any (symmetric) [[operad]] (in $Set$) can be internalized in the doctrine of (symmetric) monoidal categories.
 
-* Pretty much anything can be internalized in a [[topos]].
+* Pretty much anything that is understood in [[constructive mathematics]] can be internalized in a [[topos]]; pretty much anything in [[mathematics]] at all can be internalized in a topos satisfying the [[axiom of choice]].
 
 
 #Internalization versus enrichment#
