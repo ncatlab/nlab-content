@@ -11,7 +11,20 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
-* (2009-01-05) [[Mike Shulman|Mike]]
+# 2009-01-05
+
+* [[Toby Bartels]]: I reacted to everything that everybody did this year, and I interacted with everything that everybody did today. More specifically:
+  * I created [[parallel morphisms]], although perhaps I should have called it [[parallel pair]].
+  * I added material, some possible irrelevant, to [[global element]].
+  * I fixed typos in the stuff that I posted this year and copied some relevant bits to other pages, like [[2-category]].
+  * I added some false material to [[extensive category]].
+  * I added my opinion to [[Grothendieck topology]] and [[subcategory]].
+  * I followed Mike\'s changes to [[simplicial category]] and applied them to [[cubical category]], creating [[cube category]] and (for good measure) [[globe category]].
+  * I disambiguated links to [[simplicial category]], [[omega-category]], and [[internalization]].
+  * I gave my favourite example of the [[red herring principle]].
+  * I probably did some other stuff too, which I can no longer recall.
+
+* [[Mike Shulman|Mike]]
 
   * Split off [[internal category]] from [[internalization]].  Probably a lot of links need to be updated.
 
@@ -19,13 +32,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * Created the entry [[red herring principle]].
 
-* (2009-01-05) [[Todd Trimble|Todd]] 
+* [[Todd Trimble|Todd]] 
   
   * created the entry [[CW complex]]
 
   * added an alternative definition of [[cube category]], linking it to $\Delta$ and string diagrams
 
-* (2009-01-05) [[Urs Schreiber|Urs]]
+* [[Urs Schreiber|Urs]]
 
   * am reading [[Mike Shulman|Mike]]'s [Homotopy limits and colimits and enriched category theory](http://arxiv.org/abs/math.AT/0610194v1) and started adding some central definitions as entries here, such as [[closed monoidal homotopical category]] and [[enriched homotopical category]] and some related entries such as [[homotopical category]] and [[homotopy coherent category theory]]. Eventually I would like to see if some of my favorite monoidal homotopical categories are _examples_. See my request [here](closed monoidal homotopical category).
 
@@ -35,35 +48,37 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * following the discussion which I now moved to [[discussion on terminology -- omega-category]] I moved the original material on that to [[strict omega-category]] and kept at [[omega-category]] just a pointer to that entry. This means we should go through a bunch of entries and rename links to [[omega-category]] into links to [[strict omega-category]].
 
-* (2009-01-05) [[David Corfield]] 
+* [[David Corfield]] 
 
   * created [[philosophy]], [[Klein 2-geometry]]
 
-* (2009-01-05) [[Emily Riehl]] 
+* [[Emily Riehl]] 
 
   * created [[model structure on simplicial sets]]
 
-* (2009-01-05) [[Mike Shulman]]:
+* [[Mike Shulman]]:
 
   * Added [[nice topological space]].
 
-* (2009-01-04) [[Mike Shulman]]:
+# 2009-01-04
+
+* [[Mike Shulman]]:
 
   * Added disambiguation comments to [[simplicial category]].
 
   * Created [[Gray tensor product]] and [[Gray-category]].
 
-* (2009-01-04) [[Toby Bartels]]:
+* [[Toby Bartels]]:
   * I posted [[k-tuply monoidal n-category]]. I\'ll correct typos and look at everything else tonight (when it\'s technically -05).
   * Urs is right about $\infty$ vs $\omega$, and I\'ve changed the other appearances in [[(n,r)-category]] and [[periodic table]] (as well as fixing the new one!).
 
-* (2009-01-04) [[Mike Shulman]]:
+* [[Mike Shulman]]:
 
   * Added a terminological suggestion to [[omega-category]].
 
   * Refactored [[tensor product]], removing the discussion which prompted the refactoring.  Created [[fc-multicategory]].
 
-* (2009-01-04) [[Urs Schreiber|Urs]]:
+* [[Urs Schreiber|Urs]]:
  
    * meant to follow up on [[Todd Trimble|Todd]]'s discussion of [[sheaf]] and [[stack]] in terms of [[sieve]]s and relate it to the entry on [[descent and codescent]] and  [[infinity-stack]] but was distracted by other things. But I did write up a quick rough note on this into a LaTeX file, which you can see here for the time being: [[if.pdf:file]].
 
@@ -81,8 +96,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
    * rearranged [[tensor product]] following the comments and corrections by [[Toby Bartels|Toby]] and [[Mike Shulman|Mike]] (thanks!).
 
+# 2009-01-03
 
-* (2009-01-03) [[Mike Shulman]]:
+* [[Mike Shulman]]:
 
   * there is a discussion going on at [[subcategory]] over whether any faithful functor should be called a "subcategory."  Input welcomed.
 
@@ -92,7 +108,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * added examples and comment on non-monoidal closure to [[closed category]]
 
-* (2009-01-03) [[Todd Trimble]]: 
+* [[Todd Trimble]]: 
 
   * added to (and edited) examples under [[closed category]]
   
@@ -104,7 +120,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
  
   * added some detail to the definition of [[Lawvere-Tierney topology]]
 
-* (2009-01-03) [[Urs Schreiber]]: 
+* [[Urs Schreiber]]: 
  
   * did [[closed category]] and linked to it from Mike's [[cartesian monoidal category]]
 
@@ -112,61 +128,32 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * split the information previously contained in [[site]] into several separate entries: [[cover]], [[sieve]], [[Grothendieck topology]], [[Lawvere-Tierney topology]] and, of course, [[site]].
 
-* (2009-01-03) [[Mike Shulman]] created [[extensive category]], [[cartesian monoidal category]]  
+* [[Mike Shulman]] created [[extensive category]], [[cartesian monoidal category]]
 
-* (2009-01-02) [[Todd Trimble]] expanded on [[stack]]
+* [[Todd Trimble]] expanded on [[stack]]
 and connected it to the discussion of covering sieves at
 [[site]] 
 
-* 2009-01-03, [[Toby Bartels]]: I posted [[periodic table]] and [[(n,r)-category]], which I wrote today offline. There are probably lots of typos right now; I don\'t have a lot of time online today. Also, the former one really only contains an appendix that I wanted to write, not so much the article itself. But at least you can read what\'s there now.
+* [[Toby Bartels]]: I posted [[periodic table]] and [[(n,r)-category]], which I wrote today offline. There are probably lots of typos right now; I don\'t have a lot of time online today. Also, the former one really only contains an appendix that I wanted to write, not so much the article itself. But at least you can read what\'s there now.
 
-* (2009-01-02) [[Todd Trimble]] created [[operad]] 
+# 2009-01-02
 
-* [[Urs Schreiber|Urs]] (2009-01-02): started adding remarks to [[opposite category]] about the big story hidden here related to [[duality]].
+* [[Todd Trimble]] created [[operad]] 
 
-* (2009-01-02) [[Todd Trimble]] has expanded on [[site]] and [[sheaf]]. I have started adding a bit more motivational detail to [[site]] and links to [[descent and codescent|descent]], [[stack]] and [[infinity-stack]]. There is still plenty of room here for saying more about this general story.
+* [[Urs Schreiber|Urs]]: started adding remarks to [[opposite category]] about the big story hidden here related to [[duality]].
 
-* [[Urs Schreiber|Urs]] (2009-01-02): motivated by some [discussion](http://golem.ph.utexas.edu/category/2008/12/organizing_the_pages_at_nlab.html) we had on the blog, in the entry [[About]] I started giving some indications on what the $n$Lab is and what it is not. 
+* [[Todd Trimble]] has expanded on [[site]] and [[sheaf]]. I have started adding a bit more motivational detail to [[site]] and links to [[descent and codescent|descent]], [[stack]] and [[infinity-stack]]. There is still plenty of room here for saying more about this general story.
 
-* [[Owen Biesel]] (2009-01-02): added [[diagram]], [[global element]], [[terminal object]], [[limit]], 
+* [[Urs Schreiber|Urs]]: motivated by some [discussion](http://golem.ph.utexas.edu/category/2008/12/organizing_the_pages_at_nlab.html) we had on the blog, in the entry [[About]] I started giving some indications on what the $n$Lab is and what it is not. 
 
-* [[Toby Bartels|Toby]] (2008-12-31): I have a precise definition of [[evil]], so I put that in.
+* [[Owen Biesel]]: added [[diagram]], [[global element]], [[terminal object]], [[limit]], 
 
-* [[Urs Schreiber|Urs]] (Dec 31): started [[FQFT]], currently just a commented list of literature trying to give an impression of the idea. Also adjusted [[quantum field theory]] and created [[vertex operator algebra]].
+# 2009-01-01
 
-* [[Urs Schreiber|Urs]] (Dec 30): started entries on [[groupoidification]] and [[quantum field theory]].
+Apparently, we all took a break from the $n$Lab for the New Year!
 
-* [[John Baez|John]] (Dec 29): I'm going to make a little entry about the term [[evil]].
+# 2008
 
-* [[Toby Bartels|Toby]] (Dec 28): I added a bunch of stuff about [[apartness relation|apartness relations]]. (Most of it is probably even correct.) I tried to say as much as I could in terms of enriched category theory, but the topic is really analysis.
-
-* [[John Baez|John]] (Dec 23): I expanded the entry on [[action groupoid]] and started one for [[action]] and [[automorphism]].  In the process I noted that Urs seems to be using $Sets$ for the category of sets, while most mathematicians use [[Set]].  We should settle (pardon the pun) this issue.  I hope that someday there will be lots of entries on specific important categories, listing some of the special features of these categories.
-
-* [[Urs Schreiber|Urs]] (Dec 23): continued completing "lits of related entries" in the main entries linked to from the [[HomePage]]: did [[Lie theory]] and [[differential geometry]]
-
-* [[Urs Schreiber|Urs]] (Dec 23): started creating [[nonabelian algebraic topology]] and [[crossed complex]] and expanded a bit related entries linked to from there. Am hoping we can eventually present more details here.
-
-* [[Urs Schreiber|Urs]] (Dec 22): started replying to a question [[Eric Forgy|Eric]] raised at [[General Discussion]] about the shape of cells used in higher categories. Created [[geometric shapes for higher structures]] with a discussion of the general idea and linked to [[globular set]], [[simplicial set]] and [[cubical set]] from there. Still plenty of room to add details. Am planning to give details on the monoidal structure on cubical sets and the induced Crans-Gray tensor product on $\omega$-[[omega-category|categories]].
-
-* [[Urs Schreiber|Urs]] (Dec 20): I started to add alphabetical lists of all related entries to the big headline entries that are linked to from the sidebar
-of the [[HomePage]]. So far I did this in [[category theory]], [[sheaf and topos theory]], [[foundations]] and [[higher category theory]]. It might be good if each time we create a new entry we think about adding the correspondin link to one of these general lists.
-
-* [[Urs Schreiber|Urs]] (Dec 20): I replied to the discussion at [[monoidal category]] on "Where does all this structure and  coherence come from?" by adding a subsection on how all this comes from the general concept of $\infty$-[[lax functor]] for which one formalization can be given in terms of [[oriental]]s and Street's [[descent and codescent|descent]]. The pentagon identity is precisely the fourth [[oriental]]! 
-
-* [[Toby Bartels|Toby]] (Dec 20&#8211;23): I won\'t do anything, since I\'ll be travelling. (Just in case you wonder where I am.) 
-
-  * [[Urs Schreiber|Urs]]: Thanks for the info, Toby. Myself, I will probably be online sporadically over the holidays.
-
-* [[John Baez|John]] (Dec 20): I sketched the definitions of [[monoidal category]], [[braided monoidal category]], and [[symmetric monoidal category]] and gave links to full definitions and explanations.  Is someone good enough at drawing diagrams in this environment to draw the necessary diagrams --- e.g. pentagon and hexagon identity?  
-
-* [[Toby Bartels|Toby]] (Dec 20): More on [[Grothendieck topos]] and [[well-pointed topos]], including definitions that are correct in constructive mathematics.
-
-* [[Urs Schreiber|Urs]]: recently, after [[Eric Forgy|Eric]] had requested an "arrow-theoretic" description of [[category algebra]] and of [[graded vector space]]s, I had provided a description in terms of [[bi-brane]]s and remarked that this is part of a bigger picture. That bigger picture, together with these examples, is now described over in my private area at [[schreiber:Nonabelian cocycles and their quantum symmetries]]. For completeness I have added links to that to [[category algebra]] and [[graded vector space]]. Instead of giving the impression of forcing this relation to my work upon these entries, I would like you to understand this as an invitation to check and, if necessary, criticize. 
-
-* [[Urs Schreiber|Urs]]: I tried to flesh out [[tensor product]] and [[module]] a bit further, providing more details and attempting to bring the different points of view together. Check.
-
-* [[Toby Bartels]]: I just expanded [[tensor product]], enough to include the example that links to it (without circularity).
-
-* [[Urs Schreiber|Urs]]: I expanded on the entry [[action groupoid]] that [[Eric Forgy|Eric]] started.
+See [[2008 changes|the archive]].
 
 category: meta
