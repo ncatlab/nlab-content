@@ -1,4 +1,4 @@
-Here is a list of people who have contributed content to the nLab. See also [category: people](http://ncatlab.org/nlab/list/people) and [Authors](http://ncatlab.org/nlab/authors).
+Here is a list of people who have contributed content to the nLab. 
 
 * [[Bruce Bartlett]]
 * [[David Corfield]]
@@ -18,5 +18,7 @@ Here is a list of people who have contributed content to the nLab. See also [cat
 * [[Todd Trimble]]
 * [[Tom Leinster]]
 * [[Urs Schreiber]]
+
+See also [category: people](http://ncatlab.org/nlab/list/people) and [Authors](http://ncatlab.org/nlab/authors). The latter also displays a list of all pages each author has contributed to.
 
 category: meta
