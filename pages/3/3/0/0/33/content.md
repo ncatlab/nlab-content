@@ -2,7 +2,7 @@
 
 Vertical categorification refers roughly to a process in which ordinary [[category theory|categories]] are replaced by [[higher category theory|higher categories]].
 
-Vertical categorification is closely related to the process of relaxing properties of structures to hold only _up to homotopy_.
+Vertical categorification is closely related to the process of relaxing properties of structures to hold only _up to [[homotopy theory|homotopy]]_.
 
 #Remarks#
 
