@@ -1,4 +1,51 @@
-Unsurprisingly, _higher category theory_ is the study of higher [[category|categories]], known as [[n-category|n-categories]] or, when $n\to \infty$, as  [[infinity-category|infinity-catgeories]].
+Unsurprisingly, _higher category theory_ is the study of higher [[category|categories]], known as [[n-category|n-categories]] or, when $n\to \infty$, as  [[infinity-category|infinity-catgeories]] or [[omega-category|omega-categories]].
+
+
+Higher category theory is still very much in the making. 
+
+# 1-Categorical aspects of higher category theory #
+
+There are two major _1-categorical_ tools for _implicitly_ handling higher categories: 
+
+* [[homotopy theory]] using [[model category|model catgeories]] and similar structures;
+
+* [[enriched category theory]] for the case that the category enriched over is itself a model for higher structures, such as [[Top|topological spaces]] or [[simplicial set|simplicial sets]].
+
+The consistent combination of these two is 
+
+* [[homotopy coherent category theory]].
+
+
+#Literature#
+
+For a very gentle introduction to higher category theory, try [The Tale of <em>n</em>-Categories](http://mah.ucr.edu/home/baez/week73.html#tale), which begins in "week73" of This Week's Finds and goes on from there... keep clicking the links.
+
+For a slightly more formal but still pathetically easy introduction, try:
+
+* John Baez, [An Introduction to n-Categories](http://arxiv.org/abs/q-alg/9705009), in
+<em>7th Conference on Category Theory and Computer Science</em>, eds.
+E. Moggi and G. Rosolini, Springer Lecture Notes in
+Computer Science vol. 1290, Springer, Berlin, 1997. 
+
+For a free introductory text on $n$-categories that's <i>full of pictures</i>, try this:
+
+* Eugenia Cheng and Aaron Lauda, [Higher-Dimensional Categories: An Illustrated Guidebook](http://www.dpmms.cam.ac.uk/~elgc2/guidebook/).
+
+Tom Leinster has written about "comparative $\infty$-categoriology" (to [borrow](http://golem.ph.utexas.edu/category/2008/01/comparative_smootheology.html) a term):
+
+* Tom Leinster, _A Survey of Definitions of n-Category_ ([arXiv](http://arxiv.org/abs/math.CT/0107188))
+
+* Tom Leinster, _Higher Operads, Higher Categories_ ([arXiv](http://arxiv.org/abs/math/0305049))
+
+Recently $(\infty, 1)$-categories (see [[homotopy theory]]) have attracted much attention :
+
+* Jacob Lurie, _Higher Topos Theory_ ([arXiv](http://arxiv.org/abs/math.CT/0608040))
+
+There's a lot more to add here, even if we restrict ourselves to very general texts.  (More specialized stuff should go under more specialized subcategories!)
+
+
+
+
 
 #Entries on Higher Category Theory#
 * [[(-1)-category]]
@@ -7,6 +54,7 @@ Unsurprisingly, _higher category theory_ is the study of higher [[category|categ
 * $\infty$-[[infinity-stack|stack]]
 * [[bicategory]]
 * [[category]]
+* [[Crans-Gray tensor product]]
 * [[crossed complex]]
 * [[cubical category]]
 * [[cubical set]]
@@ -15,6 +63,7 @@ Unsurprisingly, _higher category theory_ is the study of higher [[category|categ
 * [[geometric definition of higher category]]
 * [[geometric shapes for higher structures]]
 * [[globular set]]
+* [[Gray tensor product]]
 * [[infinity-groupoid]]
 * [[infinity-stack]]
 * [[k-surjectivity]]
