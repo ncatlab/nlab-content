@@ -6,7 +6,7 @@ A preorder is like a partially ordered set (or [[poset]] for short), but without
 
 A **preorder** is a [[category]] such that for any pair of objects $x, y$, there is at most one morphism from $x$ to $y$. In other words, it's a category [[enriched category theory|enriched]] over the category of truth values (aka ($-1$)-[[(-1)-category|categories]]).
 
-Any preorder is [[equivalence|equivalent]] to a [[poset]]. This is a special case of the theorem that every category has a [[skeleton]], but this case does _not_ require the [[axiom of choice]].
+Any preorder is [[equivalence|equivalent]] to a [[poset]]. This is a special case of the theorem that every category has a [[skeleton]], but (if you define 'equivalence' properly) this case does _not_ require the [[axiom of choice]].
 
 #Discussion
 
@@ -17,6 +17,8 @@ _[[Toby Bartels|Toby]] says:_ In the absence of the axiom of choice, the correct
 _[[Todd Trimble|Todd]] says:_ Thanks, Toby. So if I understand you aright, the notion of equivalence you have in mind here is not the one used at the top of the entry [[equivalence]], but is more subtle. May I suggest amplifying a little on the above, to point readers to the intended definition, since this point could be confusing to those inexperienced in these matters? 
 
 _[[Urs Schreiber|Urs]] says_: as indicated at [[anafunctor]] an equivalence in terms of anafunctors can be understood as a span representing an [[isomorphism]] in the [[homotopy category]] of $Cat$ induced by the [[folk model structure]] on $Cat$.
+
+_Toby says_: I think that this should go on [[equivalence]], so I\'ll make sure that it\'s there. People that don\'t know what 'equivalence' means without choice should look there.
 
 ***
 
