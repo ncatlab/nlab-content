@@ -4,7 +4,7 @@ An _adjunction of two variables_ is a straightforward generalization of an inter
 
 #Definition#
 
-Let $C$, $D$ and $E$ by [[category|categories]]. An **adjunction of two variables**
+Let $C$, $D$ and $E$ be [[category|categories]]. An **adjunction of two variables**
 
 $$
  (\otimes, hom_l, hom_r) : C \times D \to E
