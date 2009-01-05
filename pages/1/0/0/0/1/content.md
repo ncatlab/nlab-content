@@ -9,7 +9,7 @@ In other words: this place is like the library, or alchemist's laboratory, in th
 
 We are hoping to create here a space for presentation and archival storage of collaborative work of encyclopedic, didactic, expositional,  but also original nature.  This will include, but not be limited to, the subjects being discussed every day in the $n$-Caf&eacute;.
 
-But this site has only just started operation few months ago. Some structure is beginning to appear, but we are still in a very early stage. Your help is appreciated! 
+But this site started operation only a few months ago. Some structure is beginning to appear, but we are still in a very early stage. Your help is appreciated! 
 
 * See [[About]] for some ideas what the $n$Lab is trying to be, and what not.
 
