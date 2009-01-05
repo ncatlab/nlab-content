@@ -12,7 +12,6 @@ Here is a list of people who have contributed content to the nLab. See also [cat
 * [[Mathieu Dupont]]
 * [[Mike Shulman]]
 * [[Mike Stay]]
-* [[Mike Shulman]]
 * [[Owen Biesel]]
 * [[Simon Willerton]]
 * [[Toby Bartels]]
