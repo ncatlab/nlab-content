@@ -71,6 +71,8 @@ Furthermore, the use of "topology" for a category with a system of covers also l
 
 In _Sketches of an Elephant_, Peter Johnstone introduced the term __(Grothendieck) coverage__ for a system of covers on a category.  (To be precise, he used "Grothendieck coverage" for what is traditionally called a "Grothendieck topology," and "coverage" for what is traditionally called a "basis for a Grothendieck topology"---another confusing word, since it has little to do with the usual notion of basis for a topology.)  He used __local operator__ instead of  "Lawvere-Tierney topology," but one could easily say "Lawvere-Tierney coverage" to retain the attribution.
 
-+--
++--{.query}
 So what\'s stopping us from going with Johnstone? &#8212;Toby (And how about 'Lawvere&#8211;Tierney operator'?)
+
+Well, I was hesitant to make such a change without getting some support from other people.  "Lawvere-Tierney operator" would work.  At the nCafe, Todd suggested "local modal operator" and I countersuggested the shorter "local modality." -Mike
 =--
