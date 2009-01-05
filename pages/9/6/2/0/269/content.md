@@ -1,6 +1,6 @@
 #Definition#
 
-A **cubical set** is a [[presheaf]] on the [[cubical category]] $\Box$.
+A **cubical set** is a [[presheaf]] on the [[cube category]] $\Box$.
 
 ##Remarks##
 
@@ -13,7 +13,7 @@ Section 2 of
 
 * Sjoerd Crans, _Pasting schemes for the monoidal biclosed structure on $\omega-Cat$_ ([web](http://crans.fol.nl/papers/thten.html), [ps](http://crans.fol.nl/papers/thten.ps.gz), [[thten.pdf|pdf:file]])
 
-gives a general discussion of the cubical category and of cubical sets. 
+gives a general discussion of the cube category and of cubical sets. 
 The **cubical identities** satisfied by a cubical set are given in proposition 2.8 on p. 9.
 
 Cubical sets are what Brown and Higgins based their long series of articles on [[omega-groupoid|omega-groupoids]] on. For instance
