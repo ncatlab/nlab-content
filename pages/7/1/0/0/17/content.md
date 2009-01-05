@@ -16,6 +16,8 @@ _Watch out_: the name of a page is case sensitive, so make your link lowercase i
 
 Once you edit a page, your name will appear at the bottom, grayed out with a question mark since you don't have a user page yet.  You may take this as an invitation to create your user page and tell us about yourself.  But if you don't want to or don't have the time right now, you should also feel free to just make a blank user page for yourself, containing only 'category: people' (so that you show up in the [list of contributors](http://www.ncatlab.org/nlab/list/people)).
 
+To create your user page, simply click the question mark that appears next to your name at the bottom of the page after making a modification and add content to the edit box that appears. If you'd like to make a user page prior to modifying an existing page, you can do so by making some trivial modification to the [[Sandbox]], which will put your name at the bottom of the page where you can click the question mark.
+
 # Naming conventions
 
 These are not set in stone, but we\'re following them for now. Most days, [[Toby Bartels]] goes around and corrects any violations (while reading the new material). But changing page titles results in unnecessary kruft (in [category: redirect](http://www.ncatlab.org/nlab/list/redirect)), so you should try to follow these if possible (or dispute them if not!).
