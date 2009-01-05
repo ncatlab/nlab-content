@@ -19,13 +19,19 @@ Like [[categorification]], there is currently no completely general formal defin
 
 * [[group|Groups]] can also be internalized in the doctrine of categories with finite products, but not in the doctrine of monoidal categories, since diagonal maps are necessary to define what it means to have inverses.
 
-* In the other direction, monoids can also be internalized in the doctrine of [[multicategory|multicategories]].
+* Monoids can also be internalized in the doctrine of [[multicategory|multicategories]].
 
 * Commutative monoids can be internalized in the doctrine of [[symmetric monoidal category|symmetric monoidal categories]].
 
 * Categories and groupoids can be internalized in the doctrine of [[lex category|lex categories]], producing the notion of [[internal category]].
 
   * The classical fact that monoids can be identified with one-object categories has the following internal analogue: monoids in a lex category $C$ (qua category with finite products) can be identified with categories internal to $C$ whose object-of-objects is [[terminal object|terminal]].  However, monoids in a non-cartesian monoidal category (such as $Ab$ or $Vect$) cannot, in general, be identified with any sort of internal category.
+
+* [[ring|Rings]] can be internalized in the doctrine of categories with finite products.
+
+* More generally, the algebras for any [[Lawvere theory]] can be internalized in the doctrine of categories with finite products, and the algebras for any (symmetric) [[operad]] (in $Set$) can be internalized in the doctrine of (symmetric) monoidal categories.
+
+* Pretty much anything can be internalized in a [[topos]].
 
 
 #Internalization versus enrichment#
@@ -39,6 +45,10 @@ Perhaps from the perspective of this page, internal categories and enriched cate
 
 #General Results#
 
-It seems that often, the structure on the ambient category $C$ allowing a certain type of structure to be internalized in it is itself a [[categorification|categorified]] version of that same structure (for example, monoids in monoidal categories).  This is an example of the [microcosm principle](http://golem.ph.utexas.edu/category/2008/12/the_microcosm_principle.html).
+Often, the structure on the ambient category $C$ allowing a certain type of structure to be internalized in it is itself a [[categorification|categorified]] version of that same structure (for example, monoids in monoidal categories).  This is an example of the [microcosm principle](http://golem.ph.utexas.edu/category/2008/12/the_microcosm_principle.html).
 
-As one formal result along these lines, Tom Leinster has shown that for any [[cartesian monad]] $T$, $T$-algebras can be naturally internalized/enriched in $T$-multicategories, and in particular in $T$-structured categories.
+As one formal result along these lines, Tom Leinster has shown that for any [[cartesian monad]] $T$, $T$-algebras can be naturally internalized/enriched in $T$-multicategories, and in particular in $T$-structured categories.  For example, when $T$ is the monad whose algebras are monoids, this says that monoids can be internalized in multicategories and monoidal categories.
+
+On the other hand, this is not always true.  For example, the categorification of a [[rig]] is a [[rig category]], but it is difficult to see how to define a rig internal to a rig category, and the usual definition of rig in $Set$ does not use the rig-category structure of $Set$ but only that it has finite products.
+
+A very different sort of general result has to do with the [[internal logic]] of certain categories.  If a category has enough structure to interpret a certain fragment of first-order logic, then any first-order theory definable in that fragment can be internalized in that category. For example, the theory of categories can be formulated in [[cartesian logic]] and thus is interpretable in any cartesian (= lex) category. The statement that almost anything can be internalized in a topos is the high-end case of this, since the internal logic of a topos is full intuitionistic type theory.
