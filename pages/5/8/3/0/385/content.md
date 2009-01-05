@@ -2,7 +2,7 @@ The _Crans-Gray tensor product_ is a [[tensor product]] on the category of [[str
 
 The Crans-Gray tensor product can be understood as arising as follows:
 
-there is an obvious [[monoidal category|monoidal structure]] on the [[cubical category]] obtained from the obvious product of cellular [[geometric shapes for higher structures|cubes]] which is analogous to the cartesian product of the topological cubes $[0,1]^n$. By [[Day convolution]] this naturally indces a [[monoidal category|monoidal structure]] on [[cubical set|cubical sets]]. Strict $\omega$-categories, being [[globular set|globular sets]] with extra structure, can also be regarded as [[cubical set|cubical sets]] with extra structure and extra property. The Crans-Gray tensor product thus extends the tensor product on cubical sets to $\omega$-categories.
+there is an obvious [[monoidal category|monoidal structure]] on the [[cube category]] obtained from the obvious product of cellular [[geometric shapes for higher structures|cubes]] which is analogous to the cartesian product of the topological cubes $[0,1]^n$. By [[Day convolution]] this naturally indces a [[monoidal category|monoidal structure]] on [[cubical set|cubical sets]]. Strict $\omega$-categories, being [[globular set|globular sets]] with extra structure, can also be regarded as [[cubical set|cubical sets]] with extra structure and extra property. The Crans-Gray tensor product thus extends the tensor product on cubical sets to $\omega$-categories.
 
 #Remarks#
 
