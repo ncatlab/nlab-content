@@ -2,7 +2,7 @@
 
 A _strict $\omega$-category_ is a [[globular set|globular]] [[infinity-category]] in which all operations obey their respective laws strictly.
 
-
+This was the original notion of $\infty$-[[infinity-category|category]], and the original meaning of the term $\omega$-[[omega-category|category]]. Even today, most authors who use that term still mean this notion.
 
 This means that 
 
