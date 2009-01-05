@@ -1,1 +1,1 @@
-A _natural isomorphism_ is a [[natural transformation]] with a two-sided inverse.
+A _natural isomorphism_ is a [[natural transformation]] with a two-sided inverse; that is, an [[isomorphism]] in a category of functors and natural transformations.  A natural transformation is a natural isomorphism if and only if each of its components is an isomorphism.
