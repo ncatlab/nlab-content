@@ -19,9 +19,9 @@ describes the process by which
 
 * The horizontal categorification of groups are [[groupoid]]s: categories in which every morphism is invertible.
 
-* The horizontal categorification of algebras are _algebroids_: categories [[internalization|internal to]] the category of vector spaces.
+* The horizontal categorification of algebras are _algebroids_: [[internal category|internal categories]] in the category of vector spaces.
 
-* The horizontal categorification of rings are [[ringoid]]s: categories [[internalization|internal to]] the category of abelian groups. ([blog](http://golem.ph.utexas.edu/category/2006/09/ringoids.html))
+* The horizontal categorification of rings are [[ringoid]]s: [[internal category|internal categories]] in the category of abelian groups. ([blog](http://golem.ph.utexas.edu/category/2006/09/ringoids.html))
 
 * The horizontal categorification of $C^*$-algebras hence ought to be known as _$C^*$--algebroids_  but is usually known as [[C*-category|C*-categories]].
 
