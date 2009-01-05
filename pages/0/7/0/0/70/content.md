@@ -177,6 +177,14 @@ Which, in light of the references that use '$\infty$-category' for the weak conc
 
 =--
 
-* I don't want to reopen this can of worms, although I am just as sad as Toby.  Can I at least request that we at the nLab try to say "strict $\omega$-category" when that is what we mean, rather than just saying "$\omega$-category" and assuming that the reader knows that we mean the strict version?  In particular, since we have a page called [[strict 2-category]] rather than "2-category," it would seem only fair for this page to be called "strict omega-category," with the page "omega-category" containing links and pointing out the variations in terminology.  --[[Mike Shulman|Mike]]
+Unfortunately, another discussion about terminology has begun...
 
-* I really don't want to come across as dogmatic here, but I am confused: if "$\omega$-category" is supposed to have precisely the same (vague) meaning as "$\infty$-category", why should we have the two different terms then in the first place? 
++--{.query}
+
+_[[Mike Shulman|Mike]]_: I don't want to reopen this can of worms, although I am just as sad as Toby.  Can I at least request that we at the nLab try to say "strict $\omega$-category" when that is what we mean, rather than just saying "$\omega$-category" and assuming that the reader knows that we mean the strict version?  In particular, since we have a page called [[strict 2-category]] rather than "2-category," it would seem only fair for this page to be called "strict omega-category," with the page "omega-category" containing links and pointing out the variations in terminology.  
+
+_Urs_: I really don't want to come across as dogmatic here, but I am confused: if "$\omega$-category" is supposed to have precisely the same (vague) meaning as "$\infty$-category", why should we have the two different terms then in the first place?
+
+_Mike_: No particular reason, except that we're already stuck with both of them.  I would be just as happy to use one exclusively, with adjectives.  (In particular, I wouldn't mind being able to use "(weak) $\omega$-category" for the weak version, to avoid confusion with things like $\infty$-pretoposes and Lurie's use of "$\infty$-category".)  I just get confused by trying to force them to have different, specific meanings, with no mnemonic to help me remember which is supposed to imply "weak" and which "strict" (except the "anti-mnemonic" that $\omega$, being Greek, implies strictness, while the prefixes "bi-" and "tri-", also Greek, imply weakness).  Especially since they have each already been used by different people with different meanings.  And especially if we are trying to make "$n$-category" not imply strictness (in the face of tradition), it seems inconsistent to insist that "$\omega$-category" does imply strictness.  I feel sure that there is far more literature using "2-category" to mean "strict 2-category" than there is using "$\omega$-category" to mean "strict $\omega$-category," so why should we feel bound by the latter but not the former?
+
+=--
