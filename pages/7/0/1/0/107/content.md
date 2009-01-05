@@ -6,7 +6,7 @@ In
 
 it was conjectured ([page 27](http://arxiv.org/PS_cache/math/pdf/9810/9810059v1.pdf#page=27)) that
 
-**Simpson's Conjecture:** _Every weak [[higher category theory|infinity category]] is equivalent to an $\infty$-category in which  [[omega-category|composition and exchange laws are strict]] and only the unit laws are allowed to hold weakly._ 
+**Simpson's Conjecture:** _Every weak $\infty$-[[infinity-category|category]] is equivalent to an $\infty$-category in which [[strict omega-category|composition and exchange laws are strict]] and only the unit laws are allowed to hold weakly._ 
 
 For weak unit laws in $\infty$-categories see
 
