@@ -1,0 +1,29 @@
+# Idea #
+
+The **Gray tensor product** is a "better" replacement for the cartesian product of [[strict 2-category|strict 2-categories]].  To get the idea it suffices to consider the 2-category $\mathbf{2}$ which has two objects, 0 and 1, one non-identity morphism $0\to 1$, and no nonidentity 2-cells. Then the cartesian product $\mathbf{2}\times\mathbf{2}$ is a commuting square, while the Gray tensor product $\mathbf{2}\otimes\mathbf{2}$ is a square which commutes up to isomorphism.
+
+More generally, for any 2-categories $C$ and $D$, a 2-functor $C\times\mathbf{2} \to D$ consists of two 2-functors $C\to D$ and a strict 2-natural transformation between them, while a 2-functor $C\otimes\mathbf{2} \to D$ consists of two 2-functors $C\to D$ and a _pseudonatural_ transformation between them.
+
+# Definition #
+
+Following up on the last comment, $B\otimes C$ can be defined by
+$$ 2Cat(B\otimes C, D) \cong 2Cat(B, Ps(C,D)) $$
+where $Ps(C,D)$ is the 2-category of 2-functors, pseudonatural transformations, and modifications $C\to D$.  In other words, the category 2Cat of strict 2-categories  and strict 2-functors is a [[closed category|closed]] [[monoidal category]] whose tensor product is $\otimes$ and whose internal hom is $Ps(-,-)$.
+
+# Remarks #
+
+* When considered with this monoidal structure, 2Cat is often called Gray.  [[Gray-category|Gray-categories]], or categories [[enriched category|enriched]] over Gray, are a model for [[semi-strict infinity-category|semi-strict]] 3-categories.  Categories enriched over 2Cat with its cartesian product are _strict_ 3-categories, which are not as useful.  This is one precise sense in which the Gray tensor product is "more correct" than the cartesian product.
+
+* Gray is a rare example of a non-[[cartesian monoidal category|cartesian]] monoidal category whose unit object is nevertheless the terminal object.
+
+* There are also versions of the Gray tensor product in which pseudonatural transformations are replaced by lax or oplax ones.  (In fact, these were the ones originally defined by Gray.)
+
+* Gray is actually a monoidal [[model category]], which 2Cat with the cartesian product is not.  In particular, the cartesian product of two cofibrant 2-categories need not be cofibrant.  This is another precise sense in which the Gray tensor product is "more correct" than the cartesian product.
+
+# References #
+
+* John W. Gray, _Formal category theory: adjointness for {$2$}-categories_
+
+* Gordon, Power, Street.  _Coherence for tricategories_
+
+* Stephen Lack, _A Quillen model structure for 2-categories_ and _A Quillen model structure for bicategories_.
