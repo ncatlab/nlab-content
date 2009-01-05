@@ -69,7 +69,7 @@ A [[groupoid]] internal to $A$ is all of the above
 * A [[double category]] is a category internal to [[Cat]]. 
 * A [[double bicategory]] is a category internal to [[Bicat]] (in a suitably weak sense).
 * A [[small category]] is a category internal to [[Set]].
-* A [[crossed complex]] is equivalent to a category internal to [[Grp]].
+* A [[crossed module]] is equivalent to a category internal to [[Grp]].
 * Historically, the motivating example was (apparently) the notion of [[Lie groupoid|Lie groupoids]]: groupoids internal to the category [[Diff]] of manifolds. 
 
 #Functors#
