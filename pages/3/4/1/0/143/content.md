@@ -1,30 +1,29 @@
 #Idea#
 
-A [[presheaf]] can be regarded as an assignment of "sets of structures to [[space and quantity|spaces]]", such that these structures can be pulled back along maps of spaces. A presheaf is a _sheaf_ if this assignment satisfies [[descent and codescent|descent]]: if $\pi: Y \to X$ is a _cover_ of a space $X$ by a space $Y$, then the collection of structures assigned to $X$ is isomorphic to the collection of structures assigned to $Y$ which _glue_ and hence [[descent and codescent|descent]] from $Y$ down to $X$.
+A [[presheaf]] can be regarded as an assignment of "sets of structures to [[space and quantity|spaces]]", such that these structures can be pulled back along maps of spaces. A presheaf is a _sheaf_ if this assignment satisfies [[descent and codescent|descent]]: if $\pi: Y \to X$ is a _cover_ of a space $X$ by a space $Y$, then the collection of structures assigned to $X$ is isomorphic to the collection of structures assigned to $Y$ which _glue_ and hence descend from $Y$ down to $X$.
 
-Generally, to any cover $Y \to X$  and presheaf $G$ there is associated a descent [[n-category|0-category]] $Desc(Y,G)$ whose objects are the elements of $G(Y)$ which glue. There is also a canonical morphism
+Generally, to any cover $Y \to X$  and presheaf $G$ there is associated a descent [[set]] $Desc(Y,G)$ whose objects are the elements of $G(Y)$ which glue. There is also a canonical morphism
 
 $$
   G(X) \to Desc(Y,G)
   \,.
 $$
 
-A presheaf is a _sheaf_ if this canonical morphisms is an isomorphism.
+A presheaf is a _sheaf_ if this canonical morphism is an [[isomorphism]].
 
 #Remarks#
 
 * The [[vertical categorification|categorifications]] of sheaves are
-
   * [[stack|stacks]];
-
   * [[infinity-stack|infinity-stacks]].
 
+Here the descent set ($0$-category) is replaced by a descent [[category]] or $\infty$-[[infinity-category|category]].
 
 #Definition#
 
 ## In terms of sieves ##
 
-One formalization of the descent 0-category is obtained from representing a cover $Y$ by the corresponding [[presheaf]] $S_Y : C^{op} \to Set$ -- a [[sieve]] -- and defining the descent category as
+One formalization of the descent set is obtained from representing a cover $Y$ by the corresponding [[presheaf]] $S_Y : C^{op} \to Set$ -- a [[sieve]] -- and defining the descent set as
 
 $$
   Desc(Y,G) := Set^{C^{op}}(S_Y, G)
@@ -43,7 +42,7 @@ is an isomorphism.
 
 ## In terms of orientals ##
 
-When generalizing sheaves to  [[stack|stacks]] and then to  [[infinity-stack|infinity-stacks]] the Hom-set $Set^{C^{op}}(F, G)$ in the above definition, representing the descent 0-category,  needs to be generalized to a corresponding [[category]] or [[infinity-category]] [[functor category|of infinity-functors]] whose objects are the $\infty$-functors from the cover/sieve $F$ to the presheaf $G$, whose morphisms are homotopies between these, whose higher morphisms are the higher homotopies. The technical problem is to formalize these $\infty$-categories of $\infty$-functors. This is one of the central issues of [[higher category theory]].
+When generalizing sheaves to  [[stack|stacks]] and then to  [[infinity-stack|infinity-stacks]] the Hom-set $Set^{C^{op}}(F, G)$ in the above definition, representing the descent set (0-category), needs to be generalized to a corresponding [[category]] or [[infinity-category]] [[functor category|of infinity-functors]] whose objects are the $\infty$-functors from the cover/sieve $F$ to the presheaf $G$, whose morphisms are homotopies between these, whose higher morphisms are the higher homotopies. The technical problem is to formalize these $\infty$-categories of $\infty$-functors. This is one of the central issues of [[higher category theory]].
 
 One partial solution to the problem has been given by Ross Street, who defined descent [[omega-category|omega-categories]] $Desc(Y,G)$ for [[omega-category]]-valued presheaves $G : C^{op} \to \omega Cat$ in terms of [[oriental|orientals]]. The $\omega$-category $Desc(Y,G)$ can be regarded as the $\omega$-category of lax $\infty$-functors from the sieve associated with $Y$ to $G$.
 
@@ -63,7 +62,7 @@ $$
   }
 $$
 
-exists. Let $G : C^{op} \to Set \hookrightarrow \omega Cat$ be an [[omega-category]] valued presheaf which happens to take values just in [[n-category|0-categories]]. Then an _object_ (an element) in the descent $\omega$-category $Desc(Y,G)$ (which is a 0-category here) is a tuple consisting of
+exists. Let $G : C^{op} \to Set \hookrightarrow \omega Cat$ be an [[omega-category]] valued presheaf which happens to take values just in $0$-[[0-category|categories]]. Then an _object_ (an element) in the descent $\omega$-category $Desc(Y,G)$ (which is a set here) is a tuple consisting of
 
 * an element $a \in G(Y)$;
 
