@@ -4,7 +4,7 @@ For $\Delta^n$ the standard simplicial simplex, $\partial \Delta^n$ its boundary
 $$
   i_i : \partial \Delta^n \hookrightarrow \Delta^n
 $$ 
-the canonical inclusion, a morphism $f : Y^\bullet \to X^\bullet$ of simplicial objects is a _hypercover_ if it has the right lifting property with respect to all $i_n$, i.e. if for all commuting squares of the form
+the canonical inclusion, a morphism $f : Y^\bullet \to X^\bullet$ of [[simplicial object|simplicial objects]] is a _hypercover_ if it has the right lifting property with respect to all $i_n$, i.e. if for all commuting squares of the form
 $$
   \array{
      \partial \Delta^n
