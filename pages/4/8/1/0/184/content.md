@@ -47,7 +47,7 @@ Let $G_r = G(X_r)$, $s_r = G(s_r)$, $t_r = G(t_r)$.
 
 * Any two consecutive objects $G_r,G_{r+1}$ together with morphism $s_r,t_r,\mathrm{Id}_r,\mathrm{Id}_{r+1}$ constitute a [[directed graph]]. In particular, a directed 1-graph is a [[directed graph]].
 
-* One can define a (globular) _directed $\omega$-graph_ (or _directed $\infty$-graph_) in a [[coalgebra|coalgebraic]] fashion as follows: A directed $\omega$-graph $G$ consists of a collection $G_0$ of vertices and, for each pair of vertices $x$ and $y$, a directed $\omega$-graph $\Hom(x,y)$. (This is a definition by [[structural coinduction]].) Can this be continued to a corecursive definition of $\omega$-[[omega-category|category]] (or $\infty$-[[infinity-category|category]])?
+* One can define a (globular) _directed $\omega$-graph_ (or _directed $\infty$-graph_) in a [[coalgebra|coalgebraic]] fashion as follows: A directed $\omega$-graph $G$ consists of a collection $G_0$ of vertices and, for each pair of vertices $x$ and $y$, a directed $\omega$-graph $\Hom(x,y)$. (This is a definition by [[structural coinduction]].) Can this be continued to a corecursive definition of $\infty$-[[infinity-category|category]]?
 
 ##See also##
 ***
