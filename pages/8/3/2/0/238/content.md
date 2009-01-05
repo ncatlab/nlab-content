@@ -11,6 +11,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+* (2009-01-05) [[Todd Trimble|Todd]] 
+  
+  * created the entry [[CW complex]]
+
 * (2009-01-05) [[Urs Schreiber|Urs]]
 
   * started replying to [[Todd Trimble|Todd]]'s remarks at [[stack]] by addding a section _Descent in terms of pseudo-functors_ to [[descent and codescent]].
