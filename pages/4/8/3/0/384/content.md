@@ -1,4 +1,4 @@
-A **CW-complex** is a nice topological space which can be built up inductively, by a process of attaching disks along their boundaries. They are principal objects of interest in algebraic topology; in fact, most spaces of interest to algebraic topologists are [[homotopy equivalence|homotopy equivalent]] to CW-complexes. (And every space is [[homotopy equivalence|weakly homotopy equivalent]] to a CW-complex.) 
+A **CW-complex** is a [[nice topological space]] which can be built up inductively, by a process of attaching disks along their boundaries. They are principal objects of interest in algebraic topology; in fact, most spaces of interest to algebraic topologists are [[homotopy equivalence|homotopy equivalent]] to CW-complexes. (And every space is [[homotopy equivalence|weakly homotopy equivalent]] to a CW-complex.) 
 
 ##Definition 
 
@@ -24,14 +24,3 @@ Milnor has argued that the category of spaces which are homotopy equivalent to C
 * J.P. May, A Concise Course in Algebraic Topology, U. Chicago Press, 1999. 
 
 * J. Milnor, On spaces having the homotopy type of a CW-complex, Trans. Amer. Math. Soc. 90 (2) (1959), 272-280.
-
----
-References:
-
-- Cellular Structures in Topology (Cambridge Studies in Advanced Mathematics) by Rudolf Fritsch
-
-&lt;http://mathoverflow.net/questions/74863/what-does-actually-being-a-cw-complex-provide-in-algebraic-topology>
-
-&lt;http://mathoverflow.net/questions/31629/advantages-of-working-with-cw-complexes-spaces-over-kan-complexes-simplicial-sets>
-
-nLab page on [[nlab:CW complex]]
