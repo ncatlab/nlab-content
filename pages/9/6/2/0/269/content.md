@@ -16,7 +16,7 @@ Section 2 of
 gives a general discussion of the cube category and of cubical sets. 
 The **cubical identities** satisfied by a cubical set are given in proposition 2.8 on p. 9.
 
-Cubical sets are what Brown and Higgins based their long series of articles on [[omega-groupoid|omega-groupoids]] on. For instance
+Cubical sets are what Brown and Higgins based their long series of articles on [[strict omega-groupoid|strict omega-groupoids]] on. For instance
 
 * Brown, Higgins, _The equivalence of $\omega$-groupoids and cubical $T$-complexes_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 22 no. 4 (1981), p. 349-370  ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1981__22_4/CTGDC_1981__22_4_349_0/CTGDC_1981__22_4_349_0.pdf)).
 
