@@ -20,4 +20,4 @@ These definitions are both equivalent to the [usual definition](http://en.wikipe
 
 #Remarks#
 
-Sometimes it is useful to regard a poset equivalently as a category [[enriched category theory|enriched in]] [[(-1)-category|(-1)-categories]].
+Sometimes it is useful to regard a poset equivalently as a category [[enriched category theory|enriched in]] [[truth value|truth values]].
