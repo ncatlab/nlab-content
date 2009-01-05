@@ -20,7 +20,7 @@ A **simplicial set**  is a [[presheaf]] on the [[simplex category]] $\Delta$.
 
 #The Category of Simplicial Sets#
 
-Like all categories of presheafs on a small category, the category $sS$ of simplicial sets is complete and cocomplete (with limits and colimits constructed levelwise) and cartesian closed. We write $Y^X$ for the internal-hom of simplicial sets $X$ and $Y$. By the Yoneda lemma, the $n$-simplices of $[X,Y]$ correspond to maps $\Delta[n] \rightarrow [X,Y]$, or equivalently, maps $X \times \Delta[n] \rightarrow Y$ (by the defining adjunction). So we may _define_ the simplicial set $[X,Y]$ to have these $n$-simplices. The face and degeneracy maps are given by precomposition by the dual maps in $\Delta$.
+Like all categories of presheafs on a small category, the category $sS$ of simplicial sets is complete and cocomplete (with limits and colimits constructed levelwise) and cartesian closed. We write $Y^X$ for the internal-hom of simplicial sets $X$ and $Y$. By the Yoneda lemma, the $n$-simplices of $Y^X$ correspond to maps $\Delta[n] \rightarrow Y^X$, or equivalently, maps $X \times \Delta[n] \rightarrow Y$ (by the defining adjunction). So we may _define_ the simplicial set $Y^X$ to have these $n$-simplices. The face and degeneracy maps are given by precomposition by the dual maps in $\Delta$.
 
 # Adjunctions #
 
@@ -42,4 +42,4 @@ Here are some examples:
 
 * The simplicial nerve functor and its left adjoint $sS \leftrightarrow sC$ where $sC$ denotes the category of [[simplicially enriched category|simplicially enriched categories]], i.e., categories enriched in $sS$.
 
-* The adjunction $- \times X : sS \leftrightarrow sS : [X,-]$ between the product with a simplicial set $X$ and the internal-hom, which makes $sS$ cartesian closed.
+* The adjunction $- \times X : sS \leftrightarrow sS : (-)^X$ between the product with a simplicial set $X$ and the internal-hom, which makes $sS$ cartesian closed.
