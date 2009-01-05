@@ -11,6 +11,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+* (2009-01-05) [[David Corfield]] 
+
+  * created [[philosophy]], [[Klein 2-geometry]]
+
+* (2009-01-05) [[Emily Riehl]] 
+
+  * created [[model structure on simplicial sets]]
+
 * (2009-01-05) [[Mike Shulman]]:
 
   * Added [[nice topological space]].
