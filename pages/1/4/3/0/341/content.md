@@ -23,7 +23,7 @@ The conditions that $j &lt; k$ and that $j > n + k$ will overlap if $n &lt; - 1$
 
 If any two parallel $j$-morphisms are equivalent, then any $j$-morphism between equivalent $(j-1)$-morphisms is an equivalence (being parallel to an identity for $j > 0$ and automatically for $j &lt; 1$). Accordingly, any $k$-tuply monoidal $(n,0)$-category is automatically also a $k$-tuply monoidal $(n,r)$-category for any $r &lt; 0$, and any $k$-tuply monoidal $(n,r)$-category for $r > n + 1$ is also a $k$-tuply monoidal $(n,n+1)$-category. Thus, we don\'t need $r &lt; -1$ or $r > n + 1$.
 
-According to the [[stabilisation hypothesis]], every $k$-tuply monoidal $(n,r)$-category for $k > n + 2$ may be reinterpreted as an $(n+2)$-tuply monoidal $(n,r)$-category. Unlike the other restrictions on values of $n, r, k$, this one is not trivial.
+According to the [[stabilization hypothesis|stabilisation hypothesis]], every $k$-tuply monoidal $(n,r)$-category for $k > n + 2$ may be reinterpreted as an $(n+2)$-tuply monoidal $(n,r)$-category. Unlike the other restrictions on values of $n, r, k$, this one is not trivial.
 
 ## Special cases
 
