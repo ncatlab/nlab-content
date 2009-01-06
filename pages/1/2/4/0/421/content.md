@@ -1,0 +1,1 @@
+The standard simplicial $n$-simplex is the [[simplicial set]] which is represented (as a [[presheaf]]) by the object $[n]$ in the [[simplex category]].
