@@ -1,10 +1,16 @@
 #Idea#
 
-An _adjunction of two variables_ is a straightforward generalization of an internal hom in a [[closed category|biclosed]] [[monoidal category]] and of a $V$-enriched category which is [[tensored category|tensored]] and cotensored over $V$ by extracting the cdentral pattern.
+An _adjunction of two variables_ is a straightforward generalization of both:
+
+* the internal hom in a [[closed category|biclosed]] [[monoidal category]] and
+
+* a $V$-enriched category having [[power|powers]] and [[copower|copowers]]
+
+by extracting the central pattern.
 
 #Definition#
 
-Let $C$, $D$ and $E$ be [[category|categories]]. An **adjunction of two variables**
+Let $C$, $D$ and $E$ be [[category|categories]]. An **adjunction of two variables** or **two-variable adjunction**
 
 $$
  (\otimes, hom_l, hom_r) : C \times D \to E
@@ -29,7 +35,7 @@ $$
   \simeq
   Hom_C(D, hom_l(C,E))
   \simeq
-  Hom_D(C, hom_l(D,E))
+  Hom_D(C, hom_r(D,E))
   \,.
 $$
 
