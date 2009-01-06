@@ -33,6 +33,11 @@ Like [[categorification]], there is currently no completely general formal defin
 
 * Pretty much anything that is understood in [[constructive mathematics]] can be internalized in a [[topos]]; pretty much anything in [[mathematics]] at all can be internalized in a topos satisfying the [[axiom of choice]].
 
++--{.query}
+
+_Mike_: Do you have anything in mind that "cannot be understood in constructive mathematics"?  The _behavior_ of many structures may depend on classical logic or the axiom of choice, but I'm failing to think of any _definitions_ that don't make sense constructively.
+
+=--
 
 #Internalization versus enrichment#
 
