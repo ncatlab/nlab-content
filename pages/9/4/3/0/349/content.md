@@ -77,4 +77,11 @@ So what\'s stopping us from going with Johnstone? &#8212;Toby (And how about 'La
 Well, I was hesitant to make such a change without getting some support from other people.  "Lawvere-Tierney operator" would work.  At the nCafe, Todd suggested "local modal operator" and I countersuggested the shorter "local modality." -Mike
 
 Toby says: I like eponyms, because they\'re less likely to be overloaded. Of course, it\'s important that a Lawvere&#8211;Tierney operator is a locality modality (speaking of cute names ...), but there may be others. In a similar vein, I don\'t really like using 'coverage' for a basis for a Grothendieck coverage. (What is such a basis, by the way? Is it anything like a Grothendieck pretopology?, which we may call 'Grothendeick precoverage' of course.)
+
+_Mike_: Does "local" have an existing meaning in modal logic?  If not, I would be inclined to essentially take Lawvere-Tierney operators as a definition of a "local modality."
+
+I am not as fond of eponyms because they are not descriptive unless you already know what they mean.  Saying something is a "Grothendieck foo" or "Lawvere-Tierney foo" conveys no information to the reader beyond "foo," unless they are already aware that there are different types of foo and know what each eponym refers to.
+
+A coverage in Johnstone's sense is even weaker than a Grothendieck pretopology: it's a set of covering families satisfying only stability under pullback (which can be defined even without required the underlying category to have pullbacks).  Perhaps I was mistook and there is no classical notion of "basis," or else this is not it?  Johnstone makes the point that this is really the essential aspect of a coverage that makes sheaves behave the way we are used to; all the other conditions Grothendieck imposed are just "closure" conditions that are there because they might as well be.  Do you have any objection to "coverage" other than its lack of eponymity?
+
 =--
