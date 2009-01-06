@@ -84,4 +84,8 @@ I am not as fond of eponyms because they are not descriptive unless you already 
 
 A coverage in Johnstone's sense is even weaker than a Grothendieck pretopology: it's a set of covering families satisfying only stability under pullback (which can be defined even without required the underlying category to have pullbacks).  Perhaps I was mistook and there is no classical notion of "basis," or else this is not it?  Johnstone makes the point that this is really the essential aspect of a coverage that makes sheaves behave the way we are used to; all the other conditions Grothendieck imposed are just "closure" conditions that are there because they might as well be.  Do you have any objection to "coverage" other than its lack of eponymity?
 
+_Toby_: Isn\'t stability under pullback also a closure condition? I dislike using basic terms for anything between an arbitrary collection and a collection closed under everything.
+
+As long as you think that 'local' doesn\'t have any other meaning in modal logic (in particular, if it\'s the same as the one [here](http://homepages.mcs.vuw.ac.nz/~rob/papers/modalhist.pdf)), then 'local modality' or 'local operator' is OK; one can always restore 'Lawvere&#8212;Tierney' afterwards if necessary.
+
 =--
