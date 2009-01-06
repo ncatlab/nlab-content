@@ -102,7 +102,7 @@ _Bruce Bartlett says:_ Ok... that's a bit of a weird system for discussion, but 
 +-- {: .query}
 _Question:_ Okay, but what is the _differential $d\theta_1$ of an odd co-ordinate function_? How are we to think of it geometrically? Does it measure a rate of change of something? (Bruce Bartlett)
 
-_Answer:_ See [[differential forms on supermanifolds]]. (Urs Schreiber)
+_Answer:_ See [[superdifferential form]]. (Urs Schreiber)
 =--
 
 +-- {: commentbruce} 
