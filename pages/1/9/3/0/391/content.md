@@ -6,8 +6,8 @@ The idea is that the [[homotopy category]] $Ho_C$ of a category $C$ which is enr
 
 #Defintion#
 
-For $V$ a [[closed monoidal homotopical category]]
-a $V$-category $C$ [[tensored category|tensored]] and cotensored over $V$ with the structure of a [[homotopical category]] on its [[category underlying an enriched category|underlying category]] $C_0$ is a **$V$-homotopical category** when equipped with a [[deformation retract for the enrichment]].
+For $V$ a [[closed monoidal homotopical category]],
+a $V$-[[enriched category]] $C$ with [[power|powers]] and [[copower|copowers]] and with the structure of a [[homotopical category]] on its underlying category $C_0$ is a **$V$-homotopical category** when equipped with a [[deformation retract for the enrichment]].
 
 
 #Consequences#
