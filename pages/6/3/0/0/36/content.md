@@ -37,6 +37,10 @@ Like [[categorification]], there is currently no completely general formal defin
 
 _Mike_: Do you have anything in mind that "cannot be understood in constructive mathematics"?  The _behavior_ of many structures may depend on classical logic or the axiom of choice, but I'm failing to think of any _definitions_ that don't make sense constructively.
 
+_Toby_: The definitions make sense, but how do you know which definitions are correct? People still argue over the correct constructive definitions of 'finite set', 'real number', 'ordinal number', 'topological space', and 'functor', to name a few. Of course, you can settle on a definition and then create a new term if necessary, and sometimes this is the right thing to do. But sometimes the na&#239;ve definition is just wrong, and eventually people realise it. Until we understand what the right constructive definitions are, then we can\'t say that we understand them constructively, or that we can understand them internal to an arbitrary topos.
+
+But I agree that this isn\'t the same as being unable to write down the definition of group in a monoidal category. But when I see a reference say 'A field is a ring in which an element x is invertible if and only if it does not equal zero.', then I know that this reference does not understand what a field is constructively (not that it was trying to) and that its author would probably write down the wrong definition for field internal to an arbitrary topos.
+
 =--
 
 #Internalization versus enrichment#
