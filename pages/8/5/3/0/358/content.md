@@ -8,7 +8,7 @@ To interpret this correctly for low values of $j$, we must assume that all [[obj
 
 One can continue to $(-2)$-morphisms and so on, but there is nothing to vary about these; every $n$-category is automatically $(-1)$-tuply monoidal. *However*, the naming shift is not applied at that level, so a simple $n$-category is actually a $(-1)$-tuply monoidal $(n+1)$-category. In constrast, a $0$-tuply monoidal $n$-category is an *occupied* $n$-category.
 
-According to the [[stabilisation hypothesis]], every $k$-tuply monoidal $n$-category for $k > n + 2$ may be reinterpreted as an $(n+2)$-tuply monoidal $n$-category. Unlike the previous restriction on the value of $k$, this is not trivial.
+According to the [[stabilization hypothesis|stabilisation hypothesis]], every $k$-tuply monoidal $n$-category for $k > n + 2$ may be reinterpreted as an $(n+2)$-tuply monoidal $n$-category. Unlike the previous restriction on the value of $k$, this is not trivial.
 
 ## Special cases
 
