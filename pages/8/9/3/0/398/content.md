@@ -8,20 +8,18 @@ A category enriched over such $V$ may be an [[enriched homotopical category]].
 
 #Definition#
 
-A _closed (symmetric) monoidal homotopical category_ $V_0$ is a
-[[closed category|closed]], [[monoidal category|symmetric monoidal]] [[homotopical category|homotopical]] category which is furthermore equipped with a [[closed monoidal deformation retract]].
+A _closed (symmetric) monoidal homotopical category_ $V_0$ is a [[closed category|closed]], [[monoidal category|symmetric monoidal]] [[homotopical category|homotopical]] category which is furthermore equipped with a [[closed monoidal deformation retract]].
 
 #Examples#
 
-* Any (symmetric) [[monoidal model category]] is a closed symmetric monoidal homotopical category.
+The most obvious example is:
 
-+--{.query}
+* Any (symmetric) [[monoidal model category]] is a closed (symmetric) monoidal homotopical category.
 
- Could anyone provide a list of _examples_? Mike?
+In this case, the cofibrant and fibrant replacements serve as a closed monoidal deformation retract.   Closed monoidal homotopical categories that are not monoidal model categories seem surprisingly hard to come by, given how much stronger the axioms of a monoidal model category appear.  One other example that can probably be extracted from the theory of homotopy tensor products in Shulman (below) is:
 
-I don't have any more off the top of my head, but this one covers many cases of interest.
+* If $V$ is a closed symmetric monoidal homotopical category (such as a monoidal model category) and $C$ is any small category, then the functor category $V^C$, with its [[Day tensor product]] and levelwise homotopical structure, is a closed symmetric monoidal homotopical category.  The closed monoidal deformation retract is provided by the deformations in $V$ combined with the [[bar construction]].
 
-=--
 
 #Properties#
 
