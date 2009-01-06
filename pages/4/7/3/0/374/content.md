@@ -2,6 +2,6 @@ A **topological space** is a set $X$ equipped with a set of [[subset]]s of $X$, 
 
 The morphisms between topological spaces are **continuous maps**: functions $f:X\to Y$ such that the preimage of any open set is open.
 
-More slickly, a topological space may be defined as a relational $\beta$-module; that is, an algebra of the [[monad]] of [[ultrafilter]]s on the category [[Rel]] of sets and [[binary relation]]s.
+More slickly, a topological space may be defined as a pair $(X, int)$, where $int: P(X) \to P(X)$ is a left exact comonad on the power set of $X$; the open sets are exactly the fixed points of $int$. Or, more slickly still, it may be defined as a relational $\beta$-module; that is, a lax algebra of the [[monad]] of [[ultrafilter]]s on the category [[Rel]] of sets and [[binary relation]]s.
 
 The definition of topological space was a matter of some debate, especially about 100 years ago. Our definition is due to Bourbaki, so may be called **Bourbaki spaces**. For some purposes, including [[homotopy theory]], it is important to use instead a category of [[nice topological space|nice topological spaces]].  On the other hand, when doing [[topos]] theory or working in [[constructive mathematics]], it is often more appropriate to use [[locale|locales]] than topological spaces.
