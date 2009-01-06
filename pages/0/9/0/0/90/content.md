@@ -1,6 +1,6 @@
 #Definition#
 
-The **$n$-globe** $G_n$ is the [[globular set]] represented by the object $[n]$ in the [[globular set|globular category]] $G$:
+The **$n$-globe** $G_n$ is the [[globular set]] represented by the object $[n]$ in the [[globe category]] $G$:
 
 $$
   G_n := Hom_G(-,[n])
