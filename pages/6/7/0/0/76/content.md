@@ -80,6 +80,8 @@ long list goes here, but for the moment there is just:
 * [[category with weak equivalences]]
 * [[closed monoidal deformation retract]]
 * [[closed monoidal homotopical category]]
+* [[derived functor]]
+* [[deformation retract]]
 * [[folk model structure]]
 * [[homological resolution]]
 * [[homotopical category]]
