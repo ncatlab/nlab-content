@@ -4,7 +4,7 @@ $$
   \otimes : V \times C \to C
 $$
 
-extends to a [[two-variable adjunction]].
+extends to a [[two-variable adjunction]].  Such closed modules can be identified with $V$-[[enriched category|enriched categories]] having [[power]]s and [[copower]]s.
 
 #Refererences#
 
