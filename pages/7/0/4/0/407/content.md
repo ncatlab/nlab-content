@@ -1,3 +1,9 @@
+#Idea#
+
+The **globe category** $G$ encodes one of the main [[geometric shapes for higher structures]]. Its objects are the standard cellular $n$-[[globe|globes]].
+
+#Definition#
+
 The **globe category** $G$ is
 the category whose objects are the integers and
 whose morphisms are generated from
@@ -24,3 +30,7 @@ $$
   \iota \circ \tau = \mathrm{Id}
   \,.
 $$
+
+#Remarks#
+
+* The globe category is used to define [[globular set|globular sets]].
