@@ -13,6 +13,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-05
 
+* [[Mike Shulman|Mike]]
+
+  * Created [[power]] and [[copower]].  Possibly these should be just one page?
+
 * [[Toby Bartels]]: I reacted to everything that everybody did this year, and I interacted with everything that everybody did today. More specifically:
   * I created [[parallel morphisms]], although perhaps I should have called it [[parallel pair]].
   * I added material, some possible irrelevant, to [[global element]].
