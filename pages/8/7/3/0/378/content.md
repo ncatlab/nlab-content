@@ -29,7 +29,7 @@ All objects are cofibrantly generated. The fibrant objects are precisely the qua
 
 This model structure is cofibrantly generated. The generating cofibrations are the set $I$ described above. There is no known explicit description for the generating trivial cofibrations.
 
-Importantly, this model structure is Quillen equivalent to several alternative model structures for the ''homotopy theory of homotopy theories" such as that on the category of [[simplicial enriched category|simplicially enriched categories]].
+Importantly, this model structure is Quillen equivalent to several alternative model structures for the ''homotopy theory of homotopy theories" such as that on the category of [[simplicially enriched category|simplicially enriched categories]].
 
 #Comparison#
 
