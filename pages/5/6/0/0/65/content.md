@@ -1,6 +1,6 @@
 #Idea#
 
-In general, "folk model structures" are [[model category]] structures for some flavor of $n$-categories ($1\le n\le \infty$) in which the [[weak equivalence|weak equivalences]] are the [[equivalence|categorical equivalences]].  This is to be contrasted with [[Thomason model structure|Thomason model structures]] in which the weak equivalences are the morphisms that induce a weak homotopy equivalence of [[nerve|nerves]].  In a folk model structure for some flavor of $n$-categories, usually
+In general, "folk model structures" are [[model category]] structures for some flavor of [[n-category|n-categories]] ($1\le n\le \infty$) or [[omega-category|omega-categories]] in which the [[weak equivalence|weak equivalences]] are the [[equivalence|categorical equivalences]].  This is to be contrasted with [[Thomason model structure|Thomason model structures]] in which the weak equivalences are the morphisms that induce a weak homotopy equivalence of [[nerve|nerves]].  In a folk model structure for some flavor of $n$-categories, usually
 
 * a **fibration** is a functor that lifts [[equivalence|equivalences]] in all dimensions,
 * an **acyclic fibration** is a functor which is [[k-surjectivity|k-surjective]] for all $0\le k\le n$,
@@ -32,3 +32,21 @@ A common problem is to transport the (a) model structure on plain $\omega$-categ
 The general problem of internalization of model structures is described [[internalization of model structures|here]]. For the special case of $\omega$-categories internal to [[generalized smooth space]]s see [[schreiber:Differential Nonabelian Cohomology]].
 
 Usually, such internalization of model structures has the consequence that some properties invoked in the description of the original model structure, notably some of the lifting properties, will only continue to hold "locally".  One way to deal with this is to pass to a notion slightly weaker than that of a [[homotopy theory|model category]] called a [[category of fibrant objects]] as used in [[homotopical cohomology theory]].
+
+
+#Cofibrant resolutions#
+
+
+In 
+
+* F. M&#233;tayer, _Cofibrant complexes are free_ ([arXiv](http://arxiv.org/abs/math.CT/0701746))
+
+
+it is shown that _cofibrant_ $\omega$-categories with respect to the folk model structure are precisely the "free" ones, where "free" here means "generated from a polygraph" as described in 
+
+* F. M&#233;tayer, _Resolutions by polygraphs_ ([tac](http://www.tac.mta.ca/tac/volumes/11/7/11-07.pdf))
+
+(Polygraphs are equivalent to [[computad|computads]].)
+
+We had some blog discussion about this at
+[Freely generated omega-categories](http://golem.ph.utexas.edu/category/2008/10/freely_generated_categories.html).
