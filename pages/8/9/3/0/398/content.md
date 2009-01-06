@@ -16,7 +16,7 @@ The most obvious example is:
 
 * Any (symmetric) [[monoidal model category]] is a closed (symmetric) monoidal homotopical category.
 
-In this case, the cofibrant and fibrant replacements serve as a closed monoidal deformation retract.   Closed monoidal homotopical categories that are not monoidal model categories seem surprisingly hard to come by, given how much stronger the axioms of a monoidal model category appear.  One other example that can probably be extracted from the theory of homotopy tensor products in Shulman (below) is:
+In this case, the cofibrant and fibrant replacements serve as a closed monoidal deformation retract.   Closed monoidal homotopical categories that are not monoidal model categories seem surprisingly hard to come by, given how much stronger the axioms of a monoidal model category appear.  One other example that can probably be extracted from the theory of homotopy tensor products in Shulman ([below](http://arxiv.org/abs/math.AT/0610194)) is:
 
 * If $V$ is a closed symmetric monoidal homotopical category (such as a monoidal model category) and $C$ is any small category, then the functor category $V^C$, with its [[Day tensor product]] and levelwise homotopical structure, is a closed symmetric monoidal homotopical category.  The closed monoidal deformation retract is provided by the deformations in $V$ combined with the [[bar construction]].
 
