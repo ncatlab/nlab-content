@@ -1,6 +1,6 @@
 #Definition#
 
-A _monad_ in any [[bicategory]] $B$ is a [[monoid]] in $B$.
+A _monad_ in any [[bicategory]] $B$ is a [[monoid]] in the endomorphism category on an object of $B$.
 
 #Explicit description#
 
@@ -17,7 +17,7 @@ $$
     a
     \\
     & 
-    {}^A\nearrow &\downarrow^\mu& \searrow^A
+    {}^A\nearrow &\Downarrow^\mu& \searrow^A
     \\
     a
     &&\stackrel{A}{\to}&&
