@@ -11,9 +11,15 @@ A category enriched over such $V$ may be an [[enriched homotopical category]].
 A _closed (symmetric) monoidal homotopical category_ $V_0$ is a
 [[closed category|closed]], [[monoidal category|symmetric monoidal]] [[homotopical category|homotopical]] category which is furthermore equipped with a [[closed monoidal deformation retract]].
 
+#Examples#
+
+* Any (symmetric) [[monoidal model category]] is a closed symmetric monoidal homotopical category.
+
 +--{.query}
 
  Could anyone provide a list of _examples_? Mike?
+
+I don't have any more off the top of my head, but this one covers many cases of interest.
 
 =--
 
