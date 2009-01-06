@@ -29,4 +29,6 @@
 
 * [[algebra|Algebra]]
 
+  * [[universal algebra|Universal Algebra]]
+
   * [[group theory|Group Theory]]
