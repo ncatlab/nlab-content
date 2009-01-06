@@ -33,4 +33,66 @@ $$g_v\in G_n \implies g_v = i^n(v), v\in G_0$$
 
 Or is an $n$-globe more like an $n$-[[directed n-graph|loop]]?
 
+_[[Urs Schreiber|Urs]] says_: I seem to have convinced myself that the following is true, but hopefully somebody can check this:
+
+I believe the $n$-globe is a "pointed $n$-sphere" as Eric is asking for in the following precise sense:
+
+_The $n$-globe is the double cone over the $(n-1)$-globe._
+
+More in detail, I am thinking of the $n$-globes $G_n$ here in terms of strict $\omega$-categories. Let $\otimes$ be the [[Crans-Gray tensor product]] and write $pt = G_0$ for the 0-globe (the point) and $I := G_1$ for the 1-globe, the interval and let $s_0, s_1 : pt \to I$ be the two injections of the point to the endpoins of the interval. Then the above means that
+
+$$
+  \array{ 
+    G_{n} \sqcup G_{n}
+    &\stackrel{s_0 \sqcup s_1}{\to}&
+    G_{n}\otimes I
+    \\
+    \downarrow
+    &&
+    \downarrow
+    \\
+    pt \sqcup pt &\stackrel{s_0 \sqcup s_1}{\to}&
+    G_{n+1} 
+  }
+$$
+
+is a pushout diagram, which realizes the $(n+1)$-globes as the cylinder over the $n$-globe with top and bottom contracted to a point.
+
+As an example, take the 2-globe 
+$$
+  G_2
+  = 
+  \left\lbrace
+  \array{
+    & \nearrow \searrow
+    \\
+    0
+    &\Downarrow&
+    1
+    \\
+    & \searrow \nearrow
+  }
+  \right\rbrace
+$$
+
+which is obtained from the cylinder over the 1-globe
+
+$$
+  G_1 \otimes I = I \otimes I
+  =
+  \left\lbrace
+    \array{
+      (0,0) &\to& (0,1)
+      \\
+      \downarrow &\Downarrow& \downarrow
+      \\
+      (1,0) &\to& (1,1)
+    }
+  \right\rbrace
+$$
+
+by contracting the two 1-globes on the left and the right to points.
+
+
+
 =--
