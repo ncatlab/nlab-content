@@ -2,22 +2,22 @@ Handling higher structures such as [[higher category theory|higher categories]] 
 
 The most familiar of these possible shapes are
 
-* globes;
+* [[globe|globes]];
 
-* simplices;
+* [[simplex|simplices]];
 
-* cubes. 
+* [[cube|cubes]]. 
 
 There are corresponding categories whose 
 
-* objects are the "standard cellular shapes" of the given sort: [[globe]]s, simplices, cubes, respectively, one for each natural number $n \in \mathbb{N}$ and usually denoted $[n]$
+* objects are the "standard cellular shapes" of the given sort: [[globe|globes]], [[simplex|simplices]], [[cube|cubes]], respectively, one for each natural number $n \in \mathbb{N}$ and usually denoted $[n]$
 
 * morphisms are generated from all possible ways of mapping these standard cellular shapes to each other such that their cellular structure is preserved;
 
-* and composition of such morphisms is subject to the relations which are inherited from the geometric meaning of these maps, which says for instance that the left boundary of the top boundary of a cube is the same as the top boundary of its left boundary -- these are the  _globular identities_, the _simplicial identities_ and the _cubical identities_, respectively.
+* and composition of such morphisms is subject to the relations which are inherited from the geometric meaning of these maps, which says for instance that the left boundary of the top boundary of a [[cube]] is the same as the top boundary of its left boundary -- these are the  _globular identities_, the _simplicial identities_ and the _cubical identities_, respectively.
 
 
-The resulting categories are
+The resulting categories of basic cellular shapes are
 
 * the _[[globe category]]_ $\circ$;
 
@@ -36,7 +36,7 @@ A higher structure based on these geometric sheapes is a [[presheaf]] on one of 
 
 respectively.
 
-In many definitions of [[higher category theory|higher categories]] an $\infty$-category is one of these presheaves
+In many definitions of [[higher category theory|higher categories]] an [[infinity-category]] is one of these presheaves
 
 * either equipped with _extra properties_ in the [[geometric definition of higher category|geometric definition of higher categories]];
 
