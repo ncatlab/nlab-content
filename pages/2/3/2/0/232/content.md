@@ -1,13 +1,15 @@
 #The Idea#
 
-The idea of an enriched category is that we take the definition of [[locally small category]] and replace the [[hom-set|hom-sets]] by objects in some [[monoidal category]] $K$.  So, a _category enriched over $K$_, say $C$, has a collection $C_0$ of objects and for each pair $x,y \in C_0$, a 'hom-object' 
+The idea of an enriched category is that we take the definition of [[locally small category]] and replace the [[hom-set|hom-sets]] by objects in some [[monoidal category]] $K$.  So, a _category enriched over $K$_, say $C$, has a collection $ob(C)$ of objects and for each pair $x,y \in ob(C)$, a 'hom-object' 
 $$ hom(x,y) \in K .$$
 We then mimic the usual definition of category.  In particular, composition is a morphism in $K$:
 $$ \circ : hom(y,z) \otimes hom(x,y) \to hom(x,z)  $$
 where $\otimes$ is the tensor product in $K$.
 
 We may similarly define a _functor enriched over $K$_
-and a _natural transformation enriched over $K$_.
+and a _natural transformation enriched over $K$_, obtaining a [[strict 2-category]] of $K$-enriched categories.  By general 2-category theory, we thereby obtain notions of _$K$-enriched adjunction_, _$K$-enriched equivalence_, and so on.
+
+There is also an enriched notion of [[limit]] called a [[weighted limit]], but it is somewhat more subtle (and in particular, it is difficult to construct purely on the basis of the 2-category $K$-Cat).
 
 More generally, we may allow $K$ to be a [[multicategory]], a [[bicategory]], a [[double category]], or an [[fc-multicategory]].
 
@@ -16,6 +18,10 @@ More generally, we may allow $K$ to be a [[multicategory]], a [[bicategory]], a 
 The details are an exercise for future contributors to this page. If you get stuck, try Max Kelly's book, cited in the page on [[enriched category theory]].
 
 Also see John Armstrong's article: [Enriched categories](http://unapologetic.wordpress.com/2007/08/13/enriched-categories/). 
+
+##Underlying ordinary categories##
+
+Every $K$-enriched category $C$ has an _underlying ordinary category_, usually denoted $C_0$, defined by $C_0(x,y) = K(I, hom(x,y))$ where $I$ is the unit object of $K$.
 
 ##Internalization versus Enrichment##
 
@@ -28,14 +34,18 @@ Nevertheless, internalization and enrichment are related in several ways.  On th
 
 #Examples#
 
-* A [[horizontal categorification|ringoid]] is a category enriched over [[Ab]].
-* An [[algebroid]] is a category enriched over [[Vect]].
-* A [[strict 2-category]] is a category enriched over [[Cat]].
+* Common categories to take for $K$ include [[Top]], [[Set]] (which gives locally small categories), [[simplicial set]]s, [[chain complex]]es, and [[Cat]] (which gives [[strict 2-category|strict 2-categories]]).
 
 * A strict $n$-category is a category enriched over strict $(n-1)$-categories. In the limit $n \to \infty$ this leads to [[strict omega-category|omega-categories]].
+
+* A [[horizontal categorification|ringoid]] is a category enriched over [[Ab]].
+
+* An [[algebroid]] is a category enriched over [[Vect]].
 
 (In all these cases the standard monoidal structure on the monoidal categories is understood.)
 
 * A (Lawvere) [[metric space]] is a category enriched over the poset $([0, \infty], \geq)$ of extended positive real numbers, where $\otimes$ is $+$.
+
 * A [[poset]] is a category enriched over the category of [[truth value]]s, where $\otimes$ is [[conjunction]].
+
 * An [[apartness relation|apartness space]] is a [[groupoid]] enriched over the opposite of the category of truth values, where $\otimes$ is [[disjunction]].
