@@ -75,7 +75,6 @@ bla bla bla
 * [[NQ-supermanifold]]
 * [[coalgebra]]
 * [[differentiable stack]]
-* [[differential forms on supermanifolds]]
 * [[examples for Lagrangian BV]]
 * [[free graded co-commutative coalgebra]]
 * [[fundamental groupoid]]
@@ -84,4 +83,5 @@ bla bla bla
 * [[Lie infinity-groupoid]]
 * [[integration over supermanifolds]]
 * [[space and quantity]]
+* [[superdifferential form]]
 * [[volume of Lie groupoids]]
