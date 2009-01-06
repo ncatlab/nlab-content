@@ -41,7 +41,7 @@ where $\sigma|_{\mathfrak{g}^*} : \mathfrak{g}^* \to \mathfrak{g}^*[1]$ is the c
 
 ##Remarks
 
-* This generalizes the notion of [[differential forms on supermanifolds]] from ordinary supermanifolds to [[NQ-supermanifold]]s.
+* This generalizes the notion of [[superdifferential form]] from ordinary supermanifolds to [[NQ-supermanifold]]s.
 
 #References
 
