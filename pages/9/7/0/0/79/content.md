@@ -1,3 +1,5 @@
+[[!include contents]]
+
 * [[category theory|Category Theory]]
 
   * [[foundations|Foundations]]
@@ -13,7 +15,9 @@
   * [[higher category theory|Higher Category Theory]]
 
 
-* [[geometry|Geometry]]
+* [[topology and geometry|Topology and Geometry]]
+
+  * [[topology|Topology]]
 
   * [[differential geometry|Differential Geometry]]
 
