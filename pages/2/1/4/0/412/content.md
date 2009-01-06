@@ -1,6 +1,6 @@
 #Many Model Structures#
 
-Philosophically, [[model structure]]s allow one to localize a category at a particular collection of weak equivalences, which one would like to formally invert. For [[topological space]]s, there are two natural candidates for the collection $W$ of weak equivalences: the [[weak homotopy equivalence]]s and the [[homotopy equivalence]]s. Both of these have accompanying model structures, which we will describe below.
+Philosophically, [[model category|model structures]] allow one to localize a category at a particular collection of weak equivalences, which one would like to formally invert. For [[topological space]]s, there are two natural candidates for the collection $W$ of weak equivalences: the [[weak homotopy equivalence]]s and the [[homotopy equivalence]]s. Both of these have accompanying model structures, which we will describe below.
 
 Interestingly, these model structures can be combined to form what's known as the _mixed_ model structure, which is presented as well.
 
