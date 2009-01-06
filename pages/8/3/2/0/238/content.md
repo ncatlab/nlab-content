@@ -11,11 +11,22 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-01-06
+
+
+* [[Urs Schreiber|Urs]]
+
+  * further expanded on a bit and harmonized a bit more the circle of entries [[globe category]], [[simplex category]], [[cube category]] and [[globe]], [[simplex]], [[cube]] linked to and summarized in   [[geometric shapes for higher structures]]. At [[globe]] I give a reply to a question by Eric on how to think of globes as "pointed spheres" by stating a claim that the $(n+1)$-globe is the double cone over the $n$-globe in a precise sense. I believe this is true, but am not entirely happy with the proof I have. Would be great if somebody could check this.
+
 # 2009-01-05
 
 * [[Mike Shulman|Mike]]
 
-  * Created [[power]] and [[copower]].  Possibly these should be just one page?
+  * Created [[power]] and [[copower]].  Possibly these should be just one page? 
++--{.query}
+ I think it is good to have many separate entries for sub-concepts if they all link to each other, maybe with a brief comment. --[[Urs Schreiber|Urs]]
+=--
+
 
 * [[Toby Bartels]]: I reacted to everything that everybody did this year, and I interacted with everything that everybody did today. More specifically:
   * I created [[parallel morphisms]], although perhaps I should have called it [[parallel pair]].
