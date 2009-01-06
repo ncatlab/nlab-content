@@ -2,7 +2,7 @@
 
 A _monad_ in any [[bicategory]] $B$ is a [[monoid]] in $B$.
 
-#Explcit description#
+#Explicit description#
 
 This means that a monad is
 
