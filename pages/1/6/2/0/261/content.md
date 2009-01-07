@@ -20,7 +20,9 @@ A **simplicial set**  is a [[presheaf]] on the [[simplex category]] $\Delta$.
 
 #The Category of Simplicial Sets#
 
-Like all categories of presheafs on a small category, the category $sS$ of simplicial sets is complete and cocomplete (with limits and colimits constructed levelwise) and cartesian closed. We write $Y^X$ for the internal-hom of simplicial sets $X$ and $Y$. By the Yoneda lemma, the $n$-simplices of $Y^X$ correspond to maps $\Delta[n] \rightarrow Y^X$, or equivalently, maps $X \times \Delta[n] \rightarrow Y$ (by the defining adjunction). So we may _define_ the simplicial set $Y^X$ to have these $n$-simplices. The face and degeneracy maps are given by precomposition by the dual maps in $\Delta$.
+Like all categories of presheafs on a small category, the category $sS$ of simplicial sets is complete and cocomplete (with limits and colimits constructed levelwise) and cartesian closed. In fact, like all [[presheaf category|presheaf categories]], it is a topos. 
+
+We write $Y^X$ for the internal-hom of simplicial sets $X$ and $Y$. By the Yoneda lemma, the $n$-simplices of $Y^X$ correspond to maps $\Delta[n] \rightarrow Y^X$, or equivalently, maps $X \times \Delta[n] \rightarrow Y$ (by the defining adjunction). So we may _define_ the simplicial set $Y^X$ to have these $n$-simplices. The face and degeneracy maps are given by precomposition by the dual maps in $\Delta$.
 
 # Adjunctions #
 
@@ -28,7 +30,7 @@ The maps $N: \Cat \rightarrow sS$ and $S: \Top \rightarrow sS$ described in the 
 
 Let $E$ be any cocomplete category and let $F: \Delta \rightarrow E$ be a functor. We define the right adjoint $R : E \rightarrow sS$ as follows. Given an object $e \in E$ the $n$-simplices of $Re$ are defined to be the set $E(F[n],e)$ of morphisms in $E$ from $F[n]$ to $e$. Face and degeneracy maps are given by precomposition by the appropriate (dual) maps in the image of $F$. $R$ is defined on morphisms by postcomposition. 
 
-The left adjoint $L$ is defined to be the left [[Kan extension]] of $F$ along the Yoneda embedding $y: \Delta \rightarrow sS$. Because the $y$ is full and faithful, we will have $Ly = F$, i.e., $L (\Delta[n]) = F[n]$. By specifying $F$, we have already defined a functor to $E$ on the represented simplicial sets; $L$ is the unique cocontinuous extension of this functor to $sS$. It can be described explicitly on objects as a coend.
+The left adjoint $L$ is defined to be the left [[Kan extension]] of $F$ along the Yoneda embedding $y: \Delta \rightarrow sS$. Because the $y$ is full and faithful, we will have $Ly = F$, i.e., $L (\Delta[n]) = F[n]$. By specifying $F$, we have already defined a functor to $E$ on the represented simplicial sets; $L$ is the unique cocontinuous extension of this functor to $sS$. It can be described explicitly on objects as a [[end|coend]], or as a [[weighted limit|weighted colimit]].
 
 (Easy) abstract nonsense shows that $L$ and $R$ form an adjoint pair $L \dashv R$.
 
