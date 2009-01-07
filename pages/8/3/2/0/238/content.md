@@ -10,6 +10,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-01-07
+
+* [[Mike Shulman|Mike]]: Created [[constructivism]] and imported the relevant discussion from [[apartness relation]].
+
 # 2009-01-06
 
 * [[Toby Bartels]]: [[Mike Shulman]] and I are having terminological discussions. Also, he fixed my theorem at [[extensive category]] (which will go in our paper, John).
