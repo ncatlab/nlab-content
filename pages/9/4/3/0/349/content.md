@@ -88,4 +88,8 @@ _Toby_: Isn\'t stability under pullback also a closure condition? I dislike usin
 
 As long as you think that 'local' doesn\'t have any other meaning in modal logic (in particular, if it\'s the same as the one [here](http://homepages.mcs.vuw.ac.nz/~rob/papers/modalhist.pdf)), then 'local modality' or 'local operator' is OK; one can always restore 'Lawvere&#8212;Tierney' afterwards if necessary.
 
+_Mike_: Stability under pullback is a closure condition in the formal sense, but unlike the others, it makes a difference to the notion of sheaf whether or not we impose it.  If I have a class of covering families satisfying pullback-stability, I can close it up under the other properties without changing the notion of "sheaf," but that is not true for pullback-stability.  There is an example somewhere in the Elephant of a collection of "covering families" that is not pullback-stable and whose category of "sheaves" is not a topos.
+
+Section 7.6 of the paper you link to is all about "geometric modalities" with reference to local operators on a topos, which implies that there is no other modal-logic notion of "local."
+
 =--
