@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Todd Trimble|Todd]] 
 
+  * created [[Rel]]
+
   * created [[Lawvere theory]]
 
   * started some discussion at [[simplex category]]
