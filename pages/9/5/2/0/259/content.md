@@ -6,7 +6,7 @@ The notion of quasi-category is a [[geometric definition of higher category]] wh
 #Definition#
 
 
-A quasi-category is a [[simplicial set]] in which all _inner_ horns have fillers.
+A quasi-category is a [[simplicial set]] in which all _inner_ [[horn]]s have fillers. This means that the lifting condition given at [[Kan complex]] is imposed only for horns $\Lambda^i[n]$ with $0 \lt i \lt n$.
 
 
 
