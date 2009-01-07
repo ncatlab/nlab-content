@@ -11,4 +11,7 @@ Crossed complexes are an equivalent way to encode the information contained in [
 * In low degrees crossed complexes are the following:
   * A crossed complex of length 0 is a [[Set|set]].
   * A crossed complex of length 1 is a [[groupoid]].
-  * A crossed complex of length 2 is a [[crossed module]], which is a strict kind of [[2-group]].
+  * A crossed complex of length 2 is a [[crossed module]], which is equivalent to a strict kind of [[2-group]] by the Brown-Spencer Theorem,
+
+* R. Brown and C. Spencer, G-groupoids, crossed modules and the fundamental groupoid of a 
+topological group , Proc. Kon. Ned. Akad. v. Wet, 79, (1976), 296 &#8211; 302.
