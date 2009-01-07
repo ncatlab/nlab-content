@@ -1,0 +1,69 @@
+Roughly speaking, $Rel$ is the category where the objects are sets and the morphisms are relations between sets. It becomes a 2-category by taking 2-cells to be inclusions of relations. 
+
+## Definition
+
+$Rel$ is a [[n-category|2-category]], in fact a locally [[poset|posetal]] 2-category (a category enriched in the category of posets), whose objects or 0-cells are sets, whose morphisms or 1-cells $X \to Y$ are relations $R \subseteq X \times Y$, and whose 2-cells $R \to S$ are inclusions of relations. The _composite_ $S \circ R$ of morphisms $R: X \to Y$ and $S: Y \to Z$ is defined by the usual relational composite 
+
+$$\{(x, z) \in X \times Z: \exists_{y \in Y} (x, y) \in R \wedge (y, z) \in S\} \hookrightarrow X \times Z$$ 
+
+and the _identity_ $1_X: X \to X$ is the equality relation, in other words the usual diagonal embedding 
+
+$$\{(x, x): x \in X\} \hookrightarrow X \times X.$$ 
+
+Another important operation on relations is _taking the opposite_: any relation $R: X \to Y$ induces a relation 
+
+$$R^{op} = \{(y, x) \in Y \times X: (x, y) \in R\} \hookrightarrow Y \times X$$ 
+
+and this operation obeys a number of obvious identities, such as $(S \circ R)^{op} = R^{op} \circ S^{op}$ and $1_X^{op} = 1_X$. 
+
+## Relations and spans
+
+It is useful to be aware of the connections between the bicategory of relations and the bicategory of [[Span|spans]]. Recall that a _span_ from $X$ to $Y$ is a diagram of the form 
+
+$$X \leftarrow S \to Y$$ 
+
+and there is an obvious category whose objects are spans from $X$ to $Y$ and whose morphisms are morphisms between such diagrams. The terminal span from $X$ to $Y$ is 
+
+$$X \stackrel{\pi_1}{\leftarrow} X \times Y \stackrel{\pi_2}{\to} Y$$ 
+
+and a relation from $X$ to $Y$ is just a [[subobject]] of the terminal span, in other words an isomorphism class of monos into the terminal span. 
+
+To each span $S$ from $X$ to $Y$, there is a corresponding relation from $X$ to $Y$, defined by taking the [[image]] of the unique morphism of spans $S \to X \times Y$ between $X$ and $Y$. It may be checked that this yields a lax morphism of bicategories 
+
+$$Span \to Rel$$ 
+
+## Relations in a category
+
+More generally, given any [[regular category]] $C$, one can form a 2-category of relations $Rel(C)$ in similar fashion. The objects of $Rel(C)$ are objects of $C$, the morphisms $r: c \to d$ in $Rel(C)$ are defined to be [[subobject|subobjects]] of the terminal span from $c$ to $d$, and 2-cells $r \to s$ are subobject inclusions. To form the composite of $r \subseteq c \times d$ and $s \subseteq d \times e$, one takes the [[image]] of the unique span morphism 
+
+$$r \times_c s \to c \times e$$ 
+
+in the category of spans from $c$ to $e$, thus giving a mono into the terminal span from $c$ to $e$. The subobject class of this mono defines the relation 
+
+$$s \circ r \subseteq c \times e$$ 
+
+and the axioms of a regular category ensure that $Rel(C)$ is a 2-category with desirable properties. Similar to what was said above, there is again a lax morphism of bicategories 
+
+$$Span(C) \to Rel(C)$$
+
+There is also a functor 
+
+$$i: C \to Rel(C)$$ 
+
+that takes a morphism $f: c \to d$ to the functional relation defined by $f$, i.e., the relation defined by the subobject class of the mono 
+
+$$\langle 1, f\rangle: c \to c \times d$$
+
+Such functional relations may also be characterized as precisely those 1-cells in $Rel(C)$ which are [[adjunction|left adjoints]]; the right adjoint of $\langle 1, f \rangle$ is the opposite relation $\langle f, 1\rangle$. The unit amounts to a condition 
+
+$$1_c \subseteq \langle f, 1 \rangle \circ \langle 1, f \rangle$$ 
+
+which says that the functional relation is _total_, and the counit amounts to a condition 
+
+$$\langle 1, f \rangle \circ \langle f, 1 \rangle \subseteq 1_d$$ 
+
+which says the functional relation is _well-defined_. 
+
+## Generalizations 
+
+See [[allegory]], [[cartesian bicategory]]. 
