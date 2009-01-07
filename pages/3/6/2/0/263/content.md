@@ -1,3 +1,11 @@
+#Idea#
+
+A _category with weak equivalences_ is the minimum structure required for a model in [[homotopy theory]]. 
+
+In particular, a [[model category]] is a category with weak equivalence with extra bells and whistles.
+
+#Definition#
+
 A _category with weak equivalences_ is a [[category]] $C$ equipped with a [[subcategory]] (in the na&#239;ve sense) $W \subset C$
 
 * which contains all isomorphisms of $C$;
