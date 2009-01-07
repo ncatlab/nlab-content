@@ -1,6 +1,6 @@
 #Idea#
 
-In the modern perspective (or at least, the perspective considered here) **homotopy theory** is the theory of $(\infty,1)$-categories: those $\infty$-[[higher category theory|categories]] in which all $k$-morphisms for $k \gt 1$ are invertible.
+In the modern perspective (or at least, the perspective considered here) **homotopy theory** is the theory of $(\infty,1)$-categories: those $\infty$-[[infinity-category|categories]] in which all $k$-morphisms for $k \gt 1$ are invertible.
 
 The archetypical example is the $(\infty,1)$ category $Top$ of (suitably well-behaved...) topological spaces: objects are topological spaces, morphisms are continuous maps between these, 2-morphisms are homotopies of such maps, and $k$-morphisms are higher order homotopies of homotopies.  If "suitably well-behaved" means at least of the homotopy type of CW complexes, then this $(\infty,1)$-category is (expected to be) equivalent to the $(\infty,1)$-category of $\infty$-[[infinity-groupoid|groupoids]].
 
