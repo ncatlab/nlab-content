@@ -13,4 +13,4 @@ The **simplex category** $\Delta$ encodes one of the main [[geometric shapes for
 
 #Remarks#
 
-Sometimes, one may wish to restrict to the category $\dot{\Delta}$ consisting of *occupied* (non-empty) such.
+Sometimes, one may wish to restrict to the category $\dot{\Delta}$ consisting of *occupied* (non-empty) simplices.
