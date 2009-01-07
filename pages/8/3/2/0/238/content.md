@@ -14,7 +14,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
-  * restructured the index page [[mathematics]] slightly and tried to complete the lists of keywords at [[foundations and logic]]. Can I suggest that everybody who creates a new entry considers adding a link to that entry, if appropriate, to the lists of "related entries" at one of the big index pages? I am thinking it would be good to give readers a chance to browse our material and get an impression for what is there and what not (yet).
+  * added details (definition and theorems) to [[category of fibrant objects]]
+
+  * restructured the index page [[mathematics]] slightly and tried to complete the lists of keywords at [[foundations and logic]]. Can I suggest that everybody who creates a new entry considers adding a link to that entry, if appropriate, to the lists of "related entries" at one of the big index pages? I am thinking it would be good to give readers a chance to browse our material by topic and get an impression for what is there and what not (yet).
+
+  * added references to [[Timothy Porter]] and Cordier at [[homotopy coherent category theory]]  
 
   * Expanded slightly on [[Timothy Porter]]'s entry on [[simplicially enriched category]].
 
