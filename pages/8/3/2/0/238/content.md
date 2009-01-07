@@ -35,6 +35,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * gave the bare definition of [[crossed module]]
+
   * finally created [[algebraic definition of higher category]] and [[n-fold category]]. Just stubs so far, this deserves much (much) more discussion, clearly.
 
   * did [[geometric realization]] 
