@@ -1,18 +1,16 @@
-[[!include contents]]
-
 * [[category theory|Category Theory]]
 
-  * [[foundations|Foundations]]
-
-  * [[logic|Logic]]
-
   * [[sheaf and topos theory|Sheaf and Topos Theory]]
+
+    * [[foundations and logic|Foundations and Logic]]
 
   * [[enriched category theory|Enriched Category Theory]]
 
   * [[homotopy theory|Homotopy Theory]]
 
   * [[higher category theory|Higher Category Theory]]
+
+    * [[homotopy coherent category theory]]
 
 
 * [[topology and geometry|Topology and Geometry]]
