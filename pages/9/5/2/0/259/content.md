@@ -16,7 +16,7 @@ A quasi-category is a [[simplicial set]] in which all _inner_ horns have fillers
 
 #References#
 
-Quasi-categories have originally been definined in
+Quasi-categories have originally been defined in
 
 * J.M. Boardman and R.M. Vogt, _Homotopy invariant algebraic structures on topological
 spaces_, Lecture Notes in Mathematics, Vol. 347. Springer-Verlag, 1973._
