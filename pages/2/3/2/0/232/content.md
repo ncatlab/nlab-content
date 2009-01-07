@@ -40,9 +40,17 @@ Nevertheless, internalization and enrichment are related in several ways.  On th
 
 #Examples#
 
-* Common categories to take for $K$ include [[Top]], [[Set]] (which gives locally small categories), [[simplicial set]]s, [[chain complex]]es, and [[Cat]] (which gives [[strict 2-category|strict 2-categories]]).
+* A category enriched in [[Set]]is a [[locally small]] category.
 
-* A strict $n$-category is a category enriched over strict $(n-1)$-categories. In the limit $n \to \infty$ this leads to [[strict omega-category|omega-categories]].
+* A category enriched in [[chain complex|chain complexes]] is a [[DG-category]].
+
+* A category enriched in [[simplicial set|simplicial sets]] is a [[simplicially enriched category|simplicial category]].
+
+* Categories enriched in [[Top]] are models for [[quasi-category|quasi-categories]].
+
+* A category enriched in [[Cat]] is a [[strict 2-category]].
+
+* A strict $n$-category is a category enriched over strict $(n-1)$-categories. In the limit $n \to \infty$ this leads to [[strict omega-category|strict omega-categories]].
 
 * A [[horizontal categorification|ringoid]] is a category enriched over [[Ab]].
 
