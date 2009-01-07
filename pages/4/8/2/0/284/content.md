@@ -1,14 +1,14 @@
 #Idea#
 
-An $(\infty,1)$-category is a (weak) [[higher category theory|higher category]] in which all $n$-morphisms for $n \geq 2$ are [[equivalence]]s.
+An $(\infty,1)$-category is a (weak) [[infinity-category]] in which all $n$-morphisms for $n \geq 2$ are [[equivalence]]s.
 
 #Definition#
 
 By definition, the [[model category]] of $(\infty,1)$-categories is one which is [[Quillen equivalence|Quillen equivalent]] to any one of
 
- * simplicially [[enriched category|enriched categories]];
+ * [[simplicially enriched category|simplicially enriched categories]];
 
- * Segal categories;
+ * [[Segal category|Segal categories]];
 
  * complete Segal spaces;
 
