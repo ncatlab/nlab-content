@@ -1,4 +1,4 @@
-_Homotopy coherent category theory_ is the attempt to consistently merge the two 1-categorical tools for handling [[higher category theory|higher categories]]:
+_Homotopy coherent category theory_ or [[enriched homotopy theory]] is the attempt to consistently merge the two 1-categorical tools for handling [[higher category theory|higher categories]]:
 
 * [[homotopy theory]] using [[model category|model catgeories]] and similar structures;
 
