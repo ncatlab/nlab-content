@@ -4,7 +4,31 @@ A Kan complex is a [[geometric definition of higher category|geometric model]] o
 
 #Definition#
 
-A _Kan complex_ is a [[simplicial set]] that satisfies the _Kan condition_, which says that all [[horn|horns]] of the simplicial set have _fillers_.
+A _Kan complex_ is a [[simplicial set]] $S$ that satisfies the _Kan condition_, which says that all [[horn|horns]] of the simplicial set have _fillers_, which means that for all diagrams
+
+$$
+  \array{
+    \Lambda^i[n] &\to& S
+    \\
+    \downarrow && \downarrow
+    \\
+    \Delta[n] &\to& pt
+  }
+$$
+
+there exists a diagonal morphism
+
+$$
+  \array{
+    \Lambda^i[n] &\to& S
+    \\
+    \downarrow &\nearrow& \downarrow
+    \\
+    \Delta[n] &\to& pt
+  }
+  \,.
+$$
+
 
 #Remarks#
 
@@ -13,3 +37,5 @@ A _Kan complex_ is a [[simplicial set]] that satisfies the _Kan condition_, whic
 * Whatever other definition of [[infinity-groupoid]] one considers, it is expected to map to a Kan complex under the [[nerve]].
 
 * A slight weakening of the Kan condition, the _weak Kan condition_ leads to the definition of [[quasi-category]].
+
+* As the above diagrams suggest, Kan complexes are the fibrant objects in one of the [[model structure on simplicial sets|model structures on simplicial sets]].
