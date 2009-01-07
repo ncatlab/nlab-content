@@ -49,3 +49,7 @@ Nevertheless, internalization and enrichment are related in several ways.  On th
 * A [[poset]] is a category enriched over the category of [[truth value]]s, where $\otimes$ is [[conjunction]].
 
 * An [[apartness relation|apartness space]] is a [[groupoid]] enriched over the opposite of the category of truth values, where $\otimes$ is [[disjunction]].
+
++--{.query}
+I've probably waited too long before saying this, but I've long been accustomed to saying "enriched in" rather than "enriched over". (The homs take values _in_ the base $V$.) If the majority opinion is to prefer "enriched over", then so be it I guess (although I wouldn't like it!), but I may have said "enriched in" here and there on this wiki. - Todd
+=--
