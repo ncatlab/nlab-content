@@ -49,3 +49,7 @@ $$
   \,.
 $$
 
+#Remarks#
+
+Path objects and right homotopies also exists if not the structure of a [[model category]] but just of a [[category of fibrant objects]] is given.
+
