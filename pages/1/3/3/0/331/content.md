@@ -1,11 +1,9 @@
 #entries on logic#
 
-* [[equality]]
-
-* [[foundations]]
-
 * [[Heyting algebra]]
-
-* [[topos]]
-
+* [[axiom of choice]]
+* [[constructivism]]
+* [[equality]]
+* [[evil]]
+* [[predicativism]]
 * [[truth value]]
