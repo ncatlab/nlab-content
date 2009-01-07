@@ -146,8 +146,18 @@ Here's a Unicode WikiLink: [[שנה טובה]]. The only funky bit is mixing LTR
 [[Contributors]]
 
 category: meta
+#Preliminaries:#
 
-Set $\Delta[n] = \mathbf{\Delta}( -, [n]) \in  S$, then, for each $i$, $0 \leq i \leq n$, we can form, within $\Delta[n] $, a subsimplicial set, $\Lambda^i[n]$, called the **$(n,i)$-horn** or **$(n,i)$-box**,
- by discarding the top dimensional $n$-simplex (given by the
-identity map on $[n]$) and its $i^{th}$ face.  We must also discard all the
-degeneracies of those simplices. 
+We will denote by $[n]$ the linear quiver $\{0\lt 1\lt \ldots \lt n\}$. The map $\delta_i : [n] \to [n-1]$ doubles the vertex, $i$, whilst $\sigma_i : [n] \to [n+1]$ omits $i$.
+
+#Definition:#
+If $A$ is a small [[category]] or a [[groupoid]], we can form a [[simplicial set]], $Ner({A})$, defined by $Ner({A})_n = Cat([n],{A})$, with the obvious face and degeneracy maps induced by composition with the analogues of the $\delta_i$ and $\sigma_i$. The simplicial set, $Ner({A})$, is called the **nerve of the category ${A}$**.  An $n$-simplex in $Ner({A})$ is a sequence of $n$ composable arrows in ${A}$. 
+This gives:
+
+ * $Ner(A)_0$ is the set of objects;
+
+* $Ner(A)_1$ is the set of arrows or morphisms;
+
+* $Ner(A)_2$ is the set of composable pairs of morphisms, so  $\sigma \in Ner({A})_2$ will be of form $\sigma =  (a_0{\to}a_1{\to}a_2)$.  Visualising this as  a triangle shows the faces more clearly:
+
+[Can someone provide a diagram???]
