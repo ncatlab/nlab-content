@@ -1,6 +1,15 @@
 #Definition#
 
-A **cubical set** is a [[presheaf]] on the [[cube category]] $\Box$.
+A **cubical set** is a [[presheaf]] on the [[cube category]] $\Box$. 
+
+If $X$ is a cubical set, the _geometric realization_ $|X|$ may be defined as the weighted colimit in [[Top]] 
+
+$$X \otimes_{\Box} I^{\bullet} = \int^{n \in \Box} X(n) \cdot I^n$$ 
+
+where $I^{\bullet}: (\Box, \otimes, I) \to (\Top, \times, 1)$ is the unique (up to isomorphism) monoidal functor mapping the generating object $int$ to $[0, 1]$, and for $k = 0, 1$, mapping $i_k$ to the inclusion $\{k\} \hookrightarrow [0, 1]$. This is parallel to one way of defining the geometric realization of a simplicial set. 
+Geometric realization is a functor left adjoint to the functor 
+$$cub: Top \to Set^{\Box^{op}}$$ 
+which takes a space $S$ to the functor $\hom_{Top}(I^{\bullet}-, S)$. 
 
 ##Remarks##
 
