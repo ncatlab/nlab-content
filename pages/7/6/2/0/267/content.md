@@ -41,3 +41,5 @@ In many definitions of [[higher category theory|higher categories]] an [[infinit
 * either equipped with _extra properties_ in the [[geometric definition of higher category|geometric definition of higher categories]];
 
 * or equipped with _extra structure_ in the [[algebraic definition of higher category|algebraic definition of higher categories]]. 
+
+For instance [[omega-category|omega-categories]] are based on [[globular set]]s and [[n-fold category|n-fold categories]] on [[cubical set]]s, while pretty much all [[geometric definition of higher category|geometrically defined]] higher categories such as [[quasi-category|quasi-categories]] are based on the [[simplicial set]]s, thought of as a [[nerve]].
