@@ -1,7 +1,7 @@
-In his 1963 doctoral dissertation, Lawvere introduced a new categorical method for doing universal algebra, alternative to the usual way of presenting an algebraic concept by means of its logical signature (with generating operations satisfying equational axioms). The rough idea is to define an algebraic theory as a category with finite products and possessing a "generic algebra" (e.g., a generic group), and then define a model of that theory (e.g., a group) as a product-preserving functor coming out of that category. 
+In his 1963 doctoral dissertation, Lawvere introduced a new categorical method for doing [[universal algebra]], alternative to the usual way of presenting an algebraic concept by means of its logical signature (with generating operations satisfying equational axioms). The rough idea is to define an algebraic theory as a [[category]] with finite products and possessing a "generic algebra" (e.g., a generic group), and then define a model of that theory (e.g., a group) as a product-preserving [[functor]] coming out of that [[category]]. 
 This type of category is what is nowadays called a _Lawvere algebraic theory_, or just Lawvere theory. 
 
-A **Lawvere theory** is a category $T$ with finite cartesian [[product|products]] in which every object is isomorphic to a finite cartesian power $x^n$ of a distinguished object $x$ (called the _generic object_ for the theory $T$). It is common to adopt the (slightly [[evil]]) convention that every object of $T$ is _equal_ to a chosen power of $x$. Thus, if $Fin$ is the category of finite cardinals and functions between them, then the unique (up to isomorphism) product-preserving functor 
+A **Lawvere theory** is a [[category]] $T$ with finite cartesian [[product|products]] in which every [[object]] is [[isomorphism|isomorphic]] to a finite cartesian power $x^n$ of a distinguished object $x$ (called the _generic object_ for the theory $T$). It is common to adopt the (slightly [[evil]]) convention that every object of $T$ is _equal_ to a chosen power of $x$. Thus, if $Fin$ is the category of finite cardinals and functions between them, then the unique (up to isomorphism) product-preserving functor 
 $$Fin^{op} \to T$$ 
 that takes the 1-element cardinal to $x$ is commonly supposed to be surjective on objects. 
 
@@ -50,12 +50,3 @@ of course preserves products. The corresponding group is just the free group on 
 All of the discussion above for our running example of groups generalizes to any finitary algebraic theory (i.e., any theory whose signature consists of function symbols of finite arity, subject to universal equational axioms). 
 
 As discussed in the article on [[operad|operads]], a Lawvere theory may also be defined as an operad relative to the theory of [[cartesian monoidal category|cartesian monoidal categories]]. 
-
----
-&lt;http://nlab.mathforge.org/nlab/show/Lawvere+theory>
-
-&lt;http://ncatlab.org/nlab/show/Lawvere%27s+reconstruction+theorem>
-
-See Cranch thesis for algebraic theories in infinity-cats.
-
-nLab page on [[nlab:Lawvere theory]]
