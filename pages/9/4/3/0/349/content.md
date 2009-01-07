@@ -92,8 +92,12 @@ _Mike_: Stability under pullback is a closure condition in the formal sense, but
 
 Section 7.6 of the paper you link to is all about "geometric modalities" with reference to local operators on a topos, which implies that there is no other modal-logic notion of "local."
 
-_Toby_: OK, I see that Johnstone\'s notion of 'coveage' is good because you can write down a simple (the usual) definition of 'sheaf', whereas the definition would be more complicated if you started with an arbitrary collection.
+_Toby_: OK, I see that Johnstone\'s notion of 'coverage' is good because you can write down a simple (the usual) definition of 'sheaf', whereas the definition would be more complicated if you started with an arbitrary collection.
 
 I remembered that paper as having a couple of different kinds of local modalities, but now I see that really it had a couple of different kinds of 'geometric logic' instead, so that\'s all right.
+
+_Mike_: Another thing worth mentioning is that passage from a collection of covering families ("coverage") to a collection of sieves ("Grothendieck coverage") is a higher-order construction.  One thing this means is that you can't do it if you happen to be a [[predicativism|predicativist]]; thus to study "predicative sheaves" you need to use covering families instead of sieves.  Another thing it means, which I care more about, is that many common coverages can be discussed in the first-order language of a category, while the corresponding Grothendieck coverages require an external set theory.  For instance, I can say "a [[pretopos]] is a [[stack]] for its [[coherent category|coherent]] coverage" in the first-order language of a category, but not if I replace "coverage" by "Grothendieck coverage."
+
+In the other conversation we seem to be having simultaneously, now I think I might actually prefer _geometric modality_ over "local modality."  It's not really the modality that's local, so "locality modality" would be more correct, if it didn't have an unfortunate rhyme.  But "geometric modality" doesn't have that problem and also suggests that they induce geometric morphisms.
 
 =--
