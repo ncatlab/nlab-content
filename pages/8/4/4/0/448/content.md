@@ -5,4 +5,4 @@ We say $\tau$ is a **face** of $\sigma$.  If $\sigma \in S(K)$ has $p+1$ element
 
 #Remarks#
 
-* Simplicial complexes are special cases of [[simplicial set|simplicial sets]].
+* Simplicial complexes are, in some sense, special cases of [[simplicial set|simplicial sets]]. To get from a simplicial complex to a simplicial set, you pick a total order on the set of vertices.
