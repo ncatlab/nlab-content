@@ -50,6 +50,8 @@ Nevertheless, internalization and enrichment are related in several ways.  On th
 
 * An [[apartness relation|apartness space]] is a [[groupoid]] enriched over the opposite of the category of truth values, where $\otimes$ is [[disjunction]].
 
+* A [[group torsor]] (over a group $G$) is a category enriched over the category whose objects are elements of $G$ and whose only morphisms are identity arrows, and where $\otimes$ is the group operation.
+
 +--{.query}
 I've probably waited too long before saying this, but I've long been accustomed to saying "enriched in" rather than "enriched over". (The homs take values _in_ the base $V$.) If the majority opinion is to prefer "enriched over", then so be it I guess (although I wouldn't like it!), but I may have said "enriched in" here and there on this wiki. - Todd
 =--
