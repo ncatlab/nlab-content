@@ -1,7 +1,12 @@
 Unsurprisingly, _higher category theory_ is the study of higher [[category|categories]], known as [[n-category|n-categories]] or, when $n\to \infty$, as  [[infinity-category|infinity-catgeories]] or [[omega-category|omega-categories]].
 
+#Development of higher category theory#
 
-Higher category theory is still very much in the making. 
+Higher category theory is still very much in the making. After a long time in which effort was concentrated on finding and comparing definitions of higher categories (see the literature below) more recently a school has established which proposes and uses [[quasicategory|quasicategories]] as the starting point for higher category theory.
+
+#Patterns in higher categories#
+
+Higher categories with special properties reproduce a multitude of concepts. One finds a [[periodic table]] of higher categories which lists these special cases.
 
 # 1-Categorical aspects of higher category theory #
 
@@ -37,7 +42,7 @@ Tom Leinster has written about "comparative $\infty$-categoriology" (to [borrow]
 
 * Tom Leinster, _Higher Operads, Higher Categories_ ([arXiv](http://arxiv.org/abs/math/0305049))
 
-Recently $(\infty, 1)$-categories (see [[homotopy theory]]) have attracted much attention :
+Recently [[quasicategory|quasicategories]] $(\infty, 1)$-categories (see [[homotopy theory]]) have attracted much attention :
 
 * Jacob Lurie, _Higher Topos Theory_ ([arXiv](http://arxiv.org/abs/math.CT/0608040))
 
@@ -69,6 +74,7 @@ There's a lot more to add here, even if we restrict ourselves to very general te
 * [[k-surjectivity]]
 * [[omega-category]]
 * [[omega-groupoid]]
+* [[periodic table]]
 * [[quasi-category]]
 * [[Segal category]]
 * [[simplex category]]
