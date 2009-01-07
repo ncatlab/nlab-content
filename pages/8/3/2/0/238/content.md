@@ -35,7 +35,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
-  * did [[geometric realization]] -- tried to do it very generally, hope I got it right
+  * finally created [[algebraic definition of higher category]] and [[n-fold category]]. Just stubs so far, this deserves much (much) more discussion, clearly.
+
+  * did [[geometric realization]] 
 
   * started filling in [[nerve]] after I found an empty entry of that name -- now [[Timothy Porter]] sends me by email his version. Either he or I  should merge the material...
 
