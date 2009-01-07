@@ -31,7 +31,7 @@ Like [[categorification]], there is currently no completely general formal defin
 
 * More generally, the algebras for any [[Lawvere theory]] can be internalized in the doctrine of categories with finite products, and the algebras for any (symmetric) [[operad]] (in $Set$) can be internalized in the doctrine of (symmetric) monoidal categories.
 
-* Pretty much anything that is understood in [[constructive mathematics]] can be internalized in a [[topos]]; pretty much anything in [[mathematics]] at all can be internalized in a topos satisfying the [[axiom of choice]].
+* Pretty much any structure at all can be internalized in a [[topos]].  Note, though, that since the [[internal logic]] of a topos is constructive, differences in axiomatization that make no difference classically can result in actual differences in behavior in a topos.  See [[constructivism]] for some examples.   On the other hand, if the topos is assumed to satisfy the [[axiom of choice]], and therefore to be [[boolean topos|boolean]], none of this happens.
 
 +--{.query}
 
@@ -40,6 +40,8 @@ _Mike_: Do you have anything in mind that "cannot be understood in constructive 
 _Toby_: The definitions make sense, but how do you know which definitions are correct? People still argue over the correct constructive definitions of 'finite set', 'real number', 'ordinal number', 'topological space', and 'functor', to name a few. Of course, you can settle on a definition and then create a new term if necessary, and sometimes this is the right thing to do. But sometimes the na&#239;ve definition is just wrong, and eventually people realise it. Until we understand what the right constructive definitions are, then we can\'t say that we understand them constructively, or that we can understand them internal to an arbitrary topos.
 
 But I agree that this isn\'t the same as being unable to write down the definition of group in a monoidal category. But when I see a reference say 'A field is a ring in which an element x is invertible if and only if it does not equal zero.', then I know that this reference does not understand what a field is constructively (not that it was trying to) and that its author would probably write down the wrong definition for field internal to an arbitrary topos.
+
+_Mike_: Okay, I see what you mean.  Is what I've written now acceptable?
 
 =--
 
