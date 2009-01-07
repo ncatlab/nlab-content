@@ -93,6 +93,6 @@ $$
 
 by contracting the two 1-globes on the left and the right to points.
 
-
+_Toby_: Not answering your question, but I\'ve seen this opertion called 'suspension' in topology. A mathematical pun: $S^n$ (the $n$-sphere) is $S^n(2)$ (the $n$-fold suspension of the $2$-point space, which is of course the $0$-sphere). Also note that $2$ is the suspension of $0$, proving that $S(X)$ need not be a quotient of $X \times I$ (although it is such a quotient whenever $X$ is occupied).
 
 =--
