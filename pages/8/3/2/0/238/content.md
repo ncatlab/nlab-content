@@ -22,7 +22,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * Expanded slightly on [[Timothy Porter]]'s entry on [[simplicially enriched category]].
 
-  * added a few remarks at [[higher category theory]]. I am not happy with that entry yet. Clearly we need a more comprehensive discussion there eventually.
+  * added a few remarks at [[higher category theory]]. I am not happy with that entry. Clearly we need a more comprehensive discussion there eventually.
 
 * [[Timothy Porter]] created [[simplicially enriched category]]
 
