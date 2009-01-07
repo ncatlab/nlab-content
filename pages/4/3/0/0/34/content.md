@@ -13,7 +13,7 @@ There are two major _1-categorical_ tools for _implicitly_ handling higher categ
 
 The consistent combination of these two is 
 
-* [[homotopy coherent category theory]].
+* [[homotopy coherent category theory]] or [[enriched homotopy theory]].
 
 
 #Literature#
