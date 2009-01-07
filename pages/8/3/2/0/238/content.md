@@ -6,27 +6,28 @@ But since that list tends to contain lots of very minor changes and does not mak
 
 Drop a comment here if you feel people's attention should be drawn to some changes you made. For instance alert people of major additions or corrections you made.
 
-These comments should go in _reverse_ chronological order, so that the latest are on top of the list.
-
+These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).
 
 ***
 
 # 2009-01-06
 
+* [[Toby Bartels]]: [[Mike Shulman]] and I are having terminological discussions. Also, he fixed my theorem at [[extensive category]] (which will go in our paper, John).
 
 * [[Urs Schreiber|Urs]]
 
   * further expanded on a bit and harmonized a bit more the circle of entries [[globe category]], [[simplex category]], [[cube category]] and [[globe]], [[simplex]], [[cube]] linked to and summarized in   [[geometric shapes for higher structures]]. At [[globe]] I give a reply to a question by Eric on how to think of globes as "pointed spheres" by stating a claim that the $(n+1)$-globe is the double cone over the $n$-globe in a precise sense. I believe this is true, but am not entirely happy with the proof I have. Would be great if somebody could check this.
-
-# 2009-01-05
 
 * [[Mike Shulman|Mike]]
 
   * Created [[power]] and [[copower]].  Possibly these should be just one page? 
 +--{.query}
  I think it is good to have many separate entries for sub-concepts if they all link to each other, maybe with a brief comment. --[[Urs Schreiber|Urs]]
+
+I agree. &#8212;Toby
 =--
 
+# 2009-01-05
 
 * [[Toby Bartels]]: I reacted to everything that everybody did this year, and I interacted with everything that everybody did today. More specifically:
   * I created [[parallel morphisms]], although perhaps I should have called it [[parallel pair]].
