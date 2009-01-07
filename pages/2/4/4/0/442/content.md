@@ -47,6 +47,6 @@ $$\hom_{T_{Grp}}(x^n, -): T_{Grp} \to Set$$
 
 of course preserves products. The corresponding group is just the free group on $n$ generators; as intimated above, the $n$ generators correspond to the $n$ projection maps $x^n \to x$. Thus we come full circle. 
 
-All of the discussion above for our running example of groups generalizes to any finitary algebraic theory (i.e., any theory whose signature consists of function symbols of finite arity, subject to universal equational axioms). 
+All of the discussion above for our running example of groups generalizes to any finitary algebraic theory (i.e., any single-sorted theory whose signature consists of function symbols of finite arity, subject to universally quantified equational axioms). 
 
 As discussed in the article on [[operad|operads]], a Lawvere theory may also be defined as an operad relative to the theory of [[cartesian monoidal category|cartesian monoidal categories]]. 
