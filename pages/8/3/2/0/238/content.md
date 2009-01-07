@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Todd Trimble|Todd]] 
 
+  * created [[regular category]]
+
   * created [[image]]
 
   * created [[Rel]]
