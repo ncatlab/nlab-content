@@ -97,14 +97,3 @@ In contrast, many of the optional or controversial axioms of set theory (such as
 
 ...
 
-#entries related to foundations#
-
-* [[axiom of choice]]
-
-* [[category theory]]
-
-* [[ETCS]]
-
-* [[set]]
-
-* [[topos]]
