@@ -92,4 +92,8 @@ _Mike_: Stability under pullback is a closure condition in the formal sense, but
 
 Section 7.6 of the paper you link to is all about "geometric modalities" with reference to local operators on a topos, which implies that there is no other modal-logic notion of "local."
 
+_Toby_: OK, I see that Johnstone\'s notion of 'coveage' is good because you can write down a simple (the usual) definition of 'sheaf', whereas the definition would be more complicated if you started with an arbitrary collection.
+
+I remembered that paper as having a couple of different kinds of local modalities, but now I see that really it had a couple of different kinds of 'geometric logic' instead, so that\'s all right.
+
 =--
