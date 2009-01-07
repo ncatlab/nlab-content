@@ -1,3 +1,8 @@
+A _homotopical category_ is a construction used in [[homotopy theory]], related to but more flexible than a [[model category]].
+
+
+#Definition#
+
 A _homotopical category_ is a [[category with weak equivalences]] where on top of the 2-out-of-3-property the morphisms satisfy the 
 
 **2-out-of-6-property**: 
