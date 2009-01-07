@@ -19,9 +19,15 @@ The details are an exercise for future contributors to this page. If you get stu
 
 Also see John Armstrong's article: [Enriched categories](http://unapologetic.wordpress.com/2007/08/13/enriched-categories/). 
 
-##Underlying ordinary categories##
+##Passage between ordinary categories and enriched categories##
 
 Every $K$-enriched category $C$ has an _underlying ordinary category_, usually denoted $C_0$, defined by $C_0(x,y) = K(I, hom(x,y))$ where $I$ is the unit object of $K$.
+
+If $K(I, -): K \to Set$ has a left adjoint $- \cdot I: Set \to K$ (taking a set $S$ to the tensor or [[power|copower]] $S \cdot I$, viz. the coproduct of an $S$-indexed set of copies of $I$), then any ordinary category $C$ can be regarded as enriched in $K$ by forming the composite  
+
+$$Ob(C) \times Ob(C) \stackrel{\hom}{\to} Set \stackrel{-\cdot I}{\to} K$$
+
+More generally, a (lax) [[monoidal functor]] $F: K \to L$ between monoidal categories can be regarded as a "change of base", so that by applying $F$, any category enriched over $K$ can be seen as enriched over $L$. 
 
 ##Internalization versus Enrichment##
 
