@@ -52,6 +52,8 @@ Nevertheless, internalization and enrichment are related in several ways.  On th
 
 * A (Lawvere) [[metric space]] is a category enriched over the poset $([0, \infty], \geq)$ of extended positive real numbers, where $\otimes$ is $+$.
 
+* An [[ultrametric space]] is a category enriched over the poset $([0, \infty], \geq)$ of extended positive real numbers, where $\otimes$ is $\max$.
+
 * A [[poset]] is a category enriched over the category of [[truth value]]s, where $\otimes$ is [[conjunction]].
 
 * An [[apartness relation|apartness space]] is a [[groupoid]] enriched over the opposite of the category of truth values, where $\otimes$ is [[disjunction]].
