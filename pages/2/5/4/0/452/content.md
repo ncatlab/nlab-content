@@ -1,19 +1,44 @@
+#Idea#
 
-#Definition:#   
- A **crossed module**,  $(C,G,\delta )$,  consists of groups  $C$  and  $G$  with a [[left action]] of  $G$  on  $C $,  written  $(g,c) \rightarrow  {}^{g}c$  for  $g \in  G$, $ c \in  C $,  and a group homomorphism  $\delta  : C \rightarrow  G$  satisfying the following conditions:
-   
-CM1)   for all  $c \in  C$  and  $g \in  G$,  
-$$\delta (^{g}c) =g\delta(c)g^{-1},$$                       
-CM2)  for all  $c_1, c_2 \in  C$,   
- $$^{\delta (c_2)}c_1 = c_2 c_1 c_2^{-1}.  $$                                  
-(CM2 is called the **Peiffer identity**.)
+A _crossed module_ (of groups) is a (nonabelian) chain-complex incarnation of a strict [[2-group]]. Crossed modules are conceptually best understood as [[crossed complex|crossed complexes]] concentrated in degree 1 and 2.
 
-#Examples#
+#Definition#
 
-* Any normal subgroup $N$ of a group $G$ gives rise to a crossed module $(N,G,inc)$ where $inc: N\to G$ is the inclusion map.
+A _crossed module_ is
 
-* Any $G$-module, $M$, gives rise to a crossed module $(M,G,0)$ with $0(m) = 1_G$ for all $m \in M$.
+* a pair of [[group]]s $G_2, G_1$,
 
-#Remarks:#
+* morphisms of groups
+  $$
+    G_2 \stackrel{\delta }{\to}{G_1}
+  $$ 
+  and 
+  $$
+    G_1 \stackrel{\alpha}{\to} Aut(G)
+  $$ 
+  (which below we will conceive as a map $\alpha : G_1 \times G_2 \to G_2$ analogous the the adjoint action $Ad : G \times G \to G$ of a group on itself)
 
-A crossed module gives rise to a [[2-group]] and vice-versa.
+* such that 
+$$
+  \array{
+    G_2 \times G_2
+    &&\stackrel{\delta \times Id}{\to}&&
+    G_1 \times G_2
+    \\
+    & {}_{Ad}\searrow && \swarrow_\alpha
+    \\
+    &&
+    G_2
+  }
+$$
+and
+$$
+  \array{
+    G_1 \times G_2 &\stackrel{\alpha}{\to}& G_2
+    \\
+    \downarrow^{Id \times \delta} && \downarrow^{\delta}
+    \\
+    G_1 \times G_1 &\stackrel{Ad}{\to}& G_1    
+  }
+$$
+commute.
