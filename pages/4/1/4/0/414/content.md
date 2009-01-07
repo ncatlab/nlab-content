@@ -4,4 +4,4 @@ If $C$ has [[pullback|pullbacks]] and epimorphisms are preserved by pullback, as
 
 A category $C$ has **enough projectives** if for every object $X$ there is an epimorphism $P\to X$ where  $P$ is projective.
 
-There are variations of this definition where "epimorphism" is replaced by some other type of morphism, such as a [[strong epimorphism]] or the left class in some [[orthogonal factorization system]].
+There are variations of this definition where "epimorphism" is replaced by some other type of morphism, such as a [[regular epimorphism]] or [[strong epimorphism]] or the left class in some [[orthogonal factorization system]].
