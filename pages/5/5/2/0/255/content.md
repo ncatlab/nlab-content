@@ -48,9 +48,11 @@ Monads in $Cat$ are sometimes, mostly in older literature, also called **triple*
 
 #Algebra over a monad#
 
-Given that a monad in $B$ is nothing but [[monoid]] in $B$, it is natural to consider [[module]]s over this monad. Such modules are called _algebras over the monad_.
+Given that a monad in $B$ is nothing but a [[monoid]] in a hom-category $B(a,a)$, it is natural to consider [[module]]s over this monad.  This notion of module is more general than a module in a monoidal category, however, since they need not live in $B(a,a)$ but can be in $B(b,a)$ (for left modules) or $B(a,c)$ (for right modules).
 
-This terminology is confusing from the point of view of monads as monoids, but justifies itself from the fact that modules for monads in [[Cat]] are a powerful tool to encode general algebraic structures. This is the topic of [[universal algebra]]. An alternative way of talking about monads and their algebras is [[operad]]s and _their_ algebras.
+In a Cat-like bicategory, left modules over a monad are usually called _algebras over the monad_.  This terminology is confusing from the point of view of monads as monoids, but is justified because in [[Cat]] itself, such algebras with domain [[terminal category|1]] are just algebras for a monad in the classical sense.  Such algebras are a powerful tool to encode general algebraic structures; this is the topic of [[universal algebra]].
+
+Some monads arise from [[operad]]s, in which case algebras for the monad are the same as algebras for the operad.  A [[Lawvere theory]] is another special sort of monad in $Cat$.
 
 #References#
 
