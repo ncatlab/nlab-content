@@ -12,6 +12,16 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-07
 
+* [[Urs Schreiber|Urs]]
+
+  * restructured the index page [[mathematics]] slightly and tried to complete the lists of keywords at [[foundations and logic]]. Can I suggest that everybody who creates a new entry considers adding a link to that entry, if appropriate, to the lists of "related entries" at one of the big index pages? I am thinking it would be good to give readers a chance to browse our material and get an impression for what is there and what not (yet).
+
+  * Expanded slightly on [[Timothy Porter]]'s entry on [[simplicially enriched category]].
+
+  * added a few remarks at [[higher category theory]]. I am not happy with that entry yet. Clearly we need a more comprehensive discussion there eventually.
+
+* [[Timothy Porter]] created [[simplicially enriched category]]
+
 * [[Mike Shulman|Mike]]: Created [[constructivism]] and imported the relevant discussion from [[apartness relation]].
 
 # 2009-01-06
