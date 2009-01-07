@@ -12,6 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-07
 
+* [[Todd Trimble|Todd]] 
+
+  * created [[Lawvere theory]]
+
+  * started some discussion at [[simplex category]]
+
 * [[Timothy Porter]] created
 
   *  [[simplicially enriched category]]
