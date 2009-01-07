@@ -24,12 +24,20 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Timothy Porter]] created
 
-  *  [[simplicially enriched category]]
+  * [[simplicial complex]]
+
+  * [[simplicially enriched category]]
 
   * [[horn]]
 
+  * [[nerve]] (but see below)
+
 
 * [[Urs Schreiber|Urs]]
+
+  * did [[geometric realization]] -- tried to do it very generally, hope I got it right
+
+  * started filling in [[nerve]] after I found an empty entry of that name -- now [[Timothy Porter]] sends me by email his version. Either he or I  should merge the material...
 
   * added details (definition and theorems) to [[category of fibrant objects]]
 
