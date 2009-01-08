@@ -37,16 +37,24 @@ $$i_1: F(1) \to F(1) + F(1) = F(2) \qquad i_2: F(1) \to F(1) + F(1) = F(2)$$
 
 Then, since $M$ is assumed to [[product|preserve products]], we obtain a map 
 $$G \times G = M(x) \times M(x) \cong M(x^2) \stackrel{M(m)}{\to} M(x) = G$$ 
-and this defines the group multiplication on $G$. The group identity and group inversion are defined by following similar recipes. 
+and this defines the group multiplication on $G$. The group identity and group inversion on $G$ are defined by following similar recipes. 
 
-It may be checked that the notion of homomorphism of $T_{Grp}$-models (as defined above) coincides with the usual notion of group homomorphism. 
+It may be checked that the notion of homomorphism of $T_{Grp}$-models (as defined above) coincides with the usual notion of group homomorphism. In summary, the category of groups is equivalent to the category of models of $T_{Grp}$. 
 
-Notice that any hom-functor 
+In particular, any hom-functor 
 
 $$\hom_{T_{Grp}}(x^n, -): T_{Grp} \to Set$$ 
 
-of course preserves products. The corresponding group is just the free group on $n$ generators; as intimated above, the $n$ generators correspond to the $n$ projection maps $x^n \to x$. Thus we come full circle. 
+preserves products, and so defines a group. This group is precisely the free group on $n$ generators, and a little thought shows that the $n$ generators correspond to the natural transformations 
+$$\hom_{T_{Grp}}(x, -) \to \hom_{T_{Grp}}(x^n, -)$$
+induced by the $n$ projection maps $x^n \to x$. 
 
-All of the discussion above for our running example of groups generalizes to any finitary algebraic theory (i.e., any single-sorted theory whose signature consists of function symbols of finite arity, subject to universally quantified equational axioms). 
+All of the discussion above for the case of groups generalizes to any finitary algebraic theory (i.e., any single-sorted theory whose signature consists of function symbols of finite arity, subject to universally quantified equational axioms). In summary: 
+
+* The Lawvere theory $T$ is the category opposite to the category of free algebras on finitely many generators, 
+
+* The category of algebras is in turn equivalent to the category of product-preserving functors $T \to Set$, and 
+
+* The free algebras are retrieved as the representable functors $T \to Set$. 
 
 As discussed in the article on [[operad|operads]], a Lawvere theory may also be defined as an operad relative to the theory of [[cartesian monoidal category|cartesian monoidal categories]]. 
