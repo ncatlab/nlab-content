@@ -1,6 +1,6 @@
 #Idea#
 
-The notion of quasi-category is a [[geometric definition of higher category]] which slightly relaxes the [[Kan complex|Kan condition]] on a simplicial set.
+The notion of quasi-category is a [[geometric definition of higher category]] which relaxes the [[Kan complex|Kan condition]] on a simplicial set.
 
 
 #Definition#
@@ -13,8 +13,11 @@ A quasi-category is a [[simplicial set]] in which all _inner_ [[horn]]s have fil
 #Remarks#
 
 * Compare with the definition of a [[Kan complex]] in which _all_ horns are required to have fillers: a quasi-category is a structure slightly weaker than a Kan complex. Indeed, while we can think of a Kan complex as an $\infty$-[[infinity-groupoid]] (that is an $(\infty,0)$-category), in which _all_ morphisms are [[equivalence]]s, a quasi-category is a model for an $(\infty,1)$-[[(infinity,1)-category|category]], in which only all $n$-morphisms for $n \geq 2$ are required to be [[equivalence]]s.  
+
 * As the quasi-category condition is a weakening of the Kan complex condition, they have also been called **weak Kan complexes** and the corresponding condition, the **weak kan condition**.
-* The [[nerve]] of a category is always a quasi-category.
+
+* The [[nerve]] of a category is always a quasi-category, while the nerve of a category is a Kan complex iff the category is a groupoid.  In this sense quasi-categories are a "minimal common generalization" of Kan complexes and nerves of categories.
+
 #References#
 
 Quasi-categories have originally been defined in
