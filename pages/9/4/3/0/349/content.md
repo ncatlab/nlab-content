@@ -100,4 +100,14 @@ _Mike_: Another thing worth mentioning is that passage from a collection of cove
 
 In the other conversation we seem to be having simultaneously, now I think I might actually prefer _geometric modality_ over "local modality."  It's not really the modality that's local, so "locality modality" would be more correct, if it didn't have an unfortunate rhyme.  But "geometric modality" doesn't have that problem and also suggests that they induce geometric morphisms.
 
+_Toby_: Ah, but now you run into conflicts with other meanings of 'geometric logic' in modal logic! It\'s wrong to favour 'locality modality' for the cute rhyme, but we shouldn\'t reject it if it\'s really correct.
+
+If you\'re going to a predicativist, then you really have to take the attitude that a structure is defined by an arbitrary family of sets, and the closure conditions can be used afterwards (if the concept is really susceptible to predicativist understanding) to define equivalence of structures. (Note that a 'family of subsets' of $X$ is equivalent to an index set $I$ and a single subset of $I \times X$.)
+
+For example, define a topological space to be a set equipped with an arbitrary family of subsets, called 'subbasic open sets'. Define an 'open set' to be a subset whose every point belongs to the intersection of some finite family of subbasic open sets. Define two topologies on a given set to be equivalent if every subbasic open set in either is open in the other. All of this is predicative.
+
+Actually, if you want to be finitist (in the sense that you have no axiom of infinity and hence no language to state that a family is 'finite') as well, then you must be subtler. Define a topological space to be a set equipped with a family of subsets (now called 'basic open sets') such that nullary and binary intersections of basic open sets are basic open sets (or at least always contain one). Define an 'open set' to be a subset whose every point belongs to some basic open set. Define equivalence as before.
+
+These justify the importance of the concepts of 'basis' and 'subbasis' for a topology, taught in schools today. Perhaps there is a similar justification for 'coverage'? (Or for 'Grothendieck pretopology', for that matter?)
+
 =--
