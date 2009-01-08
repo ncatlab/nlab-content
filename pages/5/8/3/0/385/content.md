@@ -1,4 +1,4 @@
-The _Crans-Gray tensor product_ is a [[tensor product]] on the category of [[strict omega-category|strict omega-categories]] which reduces to the [[Gray tensor product]] when restricted to [[strict 2-category|strict 2-categories]]. It provides the category of [[strict omega-category|strict omega-categories]] with a [[closed category|biclosed monoidal structure]] whose internal hom-objects are strict $\omega$-categories of lax $\infty$-functors, lax transformations between these etc.
+The _Crans-Gray tensor product_ is a [[tensor product]] on the category of [[strict omega-category|strict omega-categories]] which reduces to the [[Gray tensor product]] when restricted to [[strict 2-category|strict 2-categories]]. It provides the category of [[strict omega-category|strict omega-categories]] with a [[closed monoidal category|biclosed monoidal structure]] whose internal hom-objects are strict $\omega$-categories of lax $\infty$-functors, lax transformations between these etc.
 
 The Crans-Gray tensor product can be understood as arising as follows:
 
