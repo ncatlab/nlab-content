@@ -22,6 +22,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]
   
+  * had the honor of creating [[Yoneda lemma]]
+
   * created [[geometric function theory]] to accompany a [guest post](http://golem.ph.utexas.edu/category/2009/01/benzvi_on_geometric_function_t.html) by [[David Ben-Zvi]] -- maybe somebody of the [[groupoidification]] team can eventually add an entry on [[Hecke algebra]] and its relation to groupoidification
 
 * [[Toby Bartels]]: I wrote about [[constructivism]] and the [[empty set]].
