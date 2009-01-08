@@ -1,1 +1,1 @@
-A **lattice** is a [[poset]] which admits all finite meets and finite joins (or all finite products and finite coproducts, regarding a poset as a category). 
+A **lattice** is a [[poset]] which admits all finite [[meet]]s and finite [[join]]s (or all finite products and finite coproducts, regarding a poset as a category).
