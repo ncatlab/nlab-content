@@ -22,6 +22,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]
   
+  * added my 2cent and my questions to the discussion at [[homotopy]] on [[interval object]]s -- and added the entry [[interval object]] but filling it not with a statement but with discussion: I say what I came to think a well behaved interval object should satisfy and am asking for information on what is known in this regard
+
   * created [[pushout-product axiom]] and linked to it from [[monoidal model category]]
 
   * tried to provide a more unified perspective on [[infinity-stack]] and [[infinity-category]] and [[nonabelian cohomology]] at [[infinity-stack homotopically]]
