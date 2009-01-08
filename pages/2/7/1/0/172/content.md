@@ -6,7 +6,12 @@ $$
   Desc(Y^\bullet, \mathbf{A})
 $$
 is an equivalence. This is the _descent condition_.
- 
+
+##Remarks##
+
+* One way (possibly the _right_ way) to understand the descent condition is as enforcing in a partly 1-categorical setup -- in that the domain site of the $\infty$-stack is taken to be a 1-category where it really ought to be an $\infty$-category, too -- the [[infinity-category]] version of the [[Yoneda lemma]]: namely if set up suitably the descent $\infty$-category is a category of $\infty$-functors $Desc(Y^\bullet,\mathbf{A}) = [Y^\bullet,\mathbf{A}]$ and then the descent condition enforces the extension of the Yoneda relation $[X,\mathbf{A}] \simeq \mathbf{A}(X)$ to respect the weak equivalences $Y^\bullet \stackrel{\simeq}{\to} X$.
+
+For the moment a description of $\infty$-stacks from this perspective is releganted to [[infinity-stack homotopically]]. 
 
 ##Examples##
 
