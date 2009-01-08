@@ -1,6 +1,6 @@
 # Definition #
 
-Let $V$ be a [[closed category|closed]] [[symmetric monoidal category]].  In a $V$-[[enriched category]] $C$, the **power** of an object $y\in C$ by an object $k\in V$ is an object $\pitchfork(k,y) \in C$ with a [[natural isomorphism]]
+Let $V$ be a [[closed monoidal category|closed]] [[symmetric monoidal category]].  In a $V$-[[enriched category]] $C$, the **power** of an object $y\in C$ by an object $k\in V$ is an object $\pitchfork(k,y) \in C$ with a [[natural isomorphism]]
 
 $$
   C(x, \pitchfork(k,y)) \cong V(k, C(x,y))
