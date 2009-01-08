@@ -114,4 +114,8 @@ _Mike:_ Okay, well, I retract my comment about predicativism, since it is clear 
 
 What are the other meanings of "geometric"?  I didn't notice any in the paper you linked to but maybe I didn't look hard enough.
 
+_Toby_: See Sections 3.2 and 4.5. I think that you can argue that the former should really be called 'topological', while the latter seems to refer (it\'s not clear to me) to an outdated understand of 'geometry' as meaning Euclid\'s axioms; but they do show that 'geometric modality' could be misconstrued by at least some people. Thus I would still prefer 'Lawvere&#8211;Tierney modality', at least when inventing a new term.
+
+I\'d hoped that my example might give predicatvism (at least in the sense of not having a small set of truth value) some interest. I expect that it\'s related to being first-order and internalisable; after all, the internal logic of many categories is predicative, and rejecting power sets may be seen as an attempt to do all of mathematics in a first-order way. Ah, well.
+
 =--
