@@ -52,7 +52,7 @@ Often it suffices to consider even shorter zigzags of the form $\stackrel{\simeq
 
  * If $X$ and $Y$ are strict 2-categories, then pseudofunctors $X\to Y$ are equivalent to strict 2-functors $Q X \to Y$, where $Q X$ is a cofibrant replacement for $X$.
  * [[anafunctor|anafunctors]] are zigzags $\stackrel{\simeq}{\leftarrow} \to$ in the [[folk model structure]] on 1-categories whose first factor is an acyclic (i.e. surjective) fibration.  
- * [[Morita morphism|Morita morphisms]] in the theory of [[Lie groupoid|Lie groupoids]] are generalized morphisms of length one where both maps are acyclic fibrations.
+ * [[Morita equivalence|Morita morphisms]] in the theory of [[Lie groupoid|Lie groupoids]] are generalized morphisms of length one where both maps are acyclic fibrations.
 
 If $X$ is cofibrant and $Y$ is fibrant, then every generalized morphism from $X$ to $Y$ is equivalent to an ordinary morphism.  For example, if $X$ is a cofibrant 2-category, then every pseudofunctor $X\to Y$ is equivalent to a strict 2-functor $X\to Y$
 
@@ -72,7 +72,9 @@ long list goes here, but for the moment there is just:
 
 * Julia Bergner, _A survey of $(\infty,1)$-categories_ ([arXiv](http://arxiv.org/abs/math/0610239)).
 
+* Bill Dwyer, _Homotopy theory and classifying spaces_, Copenhagen, June 2008 ([pdf](http://www.math.ku.dk/~jg/homotopical2008/Dwyer.CopenhagenNotes.pdf))
 
+* W. Dwyer, P .Hirschhorn, D. Kan, J. Smith, _Homotopy Limit Functors on Model Categories and Homotopical Categories_, volume 113 of _Mathematical Surveys and Monographs_, American Mathematical Society (2004) (there exists [this](http://dodo.pdmi.ras.ru/~topology/books/dhks.pdf) pdf copy of what seems to be a preliminary version of this book)
 
 #entries related to homotopy theory#
 
