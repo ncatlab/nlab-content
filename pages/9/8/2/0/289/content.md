@@ -38,6 +38,11 @@ In particular there are the articles in preparation
 
 * John Baez, Alexander Hoffnung and Christopher Walker, _Groupoidification made easy_ ([pdf](http://math.ucr.edu/home/baez/groupoidification.pdf))
 
+#Relation to representation theory#
+
+Groupoidification seems to be a central underlying governing principle in [[representation theory]] in its incarnation in  [[geometric function theory]].
+
+
 #Relation to quantization#
 
 Groupoidification in particular seems to illuminate structures encountered in the context of [[quantum field theory]]. Discussions of groupoidification in the context of QFT are 
