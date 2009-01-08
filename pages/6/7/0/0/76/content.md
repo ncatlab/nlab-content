@@ -76,12 +76,15 @@ long list goes here, but for the moment there is just:
 
 * W. Dwyer, P .Hirschhorn, D. Kan, J. Smith, _Homotopy Limit Functors on Model Categories and Homotopical Categories_, volume 113 of _Mathematical Surveys and Monographs_, American Mathematical Society (2004) (there exists [this](http://dodo.pdmi.ras.ru/~topology/books/dhks.pdf) pdf copy of what seems to be a preliminary version of this book)
 
+* K. H. Kamps and T. Porter, _Abstract Homotopy and Simple Homotopy Theory_ ([GoogleBooks](http://books.google.de/books?id=7JYKxInRMdAC&dq=Porter+Kamps&printsec=frontcover&source=bl&ots=uuyl_tIjs4&sig=Lt8I92xQBZ4DNKVXD0x76WkcxCE&hl=de&sa=X&oi=book_result&resnum=3&ct=result#PPP1,M1))
+
 #entries related to homotopy theory#
 
 * [[category of fibrant objects]]
 * [[category with weak equivalences]]
 * [[closed monoidal deformation retract]]
 * [[closed monoidal homotopical category]]
+* [[cylinder functor]]
 * [[derived functor]]
 * [[deformation retract]]
 * [[folk model structure]]
@@ -91,6 +94,8 @@ long list goes here, but for the moment there is just:
 * [[homotopy]]
 * [[homotopy category]]
 * [[homotopy coherent category theory]]
+* [[interval object]]
 * [[model category]]
 * [[model structure on crossed complexes]]
 * [[model structure on simplicial sets]]
+* [[path object]]
