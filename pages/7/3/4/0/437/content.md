@@ -2,7 +2,7 @@
 
 In a [[category with weak equivalences]] and with [[product]]s a _path object_ for an object $C$ is a factorization of the morphism $C \stackrel{Id \times Id}{\to} C \times C$ as
 $$
-  C \stackrel{s}{\to} C^I \stackrel{d_0 \times d_1}{\to} C \times C
+  C \stackrel{s}{\to} C^I \stackrel{(d_0, d_1)}{\to} C \times C
 $$
 such that $s$ is a weak equivalence.
 
@@ -11,7 +11,7 @@ such that $s$ is a weak equivalence.
 
 
 If the category in question also has a notion of [[fibration]]s, such as in a [[category of fibrant objects]] or in a [[model category]], the morphism 
-$C^I \stackrel{d_0 \times d_1}{\to} C \times C$ in the definition of a path object is required to be a fibration.
+$C^I \stackrel{(d_0, d_1)}{\to} C \times C$ in the definition of a path object is required to be a fibration.
 
 #Remarks#
 
@@ -19,7 +19,7 @@ Path objects are used to define a notion of [[homotopy]] between morphisms in a 
 
 #Discussion#
 
-Originally the remark on abusive notation was missing and sombody asked:
+Originally the remark on abusive notation was missing and Toby asked:
 
 +--{.query}
 What is $I$ here? Is it something that any category with weak equivalences must have (although I don\'t see how offhand), or is part of the data of the path object? (Indeed, it seems to be the only actual *object* in that data!) And then what are $d_0$ and $d_1$ exactly; maps $C^I \to C$, or maps involving $I$ itself whose product induces maps $C^I \to C$?
@@ -27,3 +27,4 @@ What is $I$ here? Is it something that any category with weak equivalences must 
 
 I hope the remark above now clarifies this. If so, this discussion part here should be removed.
 
+_Toby_: The notation still doesn\'t make literal sense, since $C^I$ (primitive or not) isn\'t a product. But I believe that you just mixed up product and pairing, so I fixed that. In other words, I interpret it that $d_0$ and $d_1$ are each morphisms from $C^I$ to $C$.
