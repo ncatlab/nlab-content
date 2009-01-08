@@ -1,4 +1,4 @@
-A **cartesian closed category** (sometimes: **ccc**) is a category with finite [[product|products]] which is [[closed category|closed]] with respect to its [[cartesian monoidal category|cartesian monoidal structure]].
+A **cartesian closed category** (sometimes: **ccc**) is a category with finite [[product|products]] which is [[closed monoidal category|closed]] with respect to its [[cartesian monoidal category|cartesian monoidal structure]].
 
 Since in such a category, the product functors $A \times -$ have [[right adjoint]]s, they preserve all [[colimit]]s.  In particular, a cartesian closed category is a [[distributive category]].
 
