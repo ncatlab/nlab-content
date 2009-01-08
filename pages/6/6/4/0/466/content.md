@@ -21,7 +21,7 @@ $$
   Hom(C, [C^{op}, Set])
 $$
 
-in the [[closed category|closed]] [[monoidal category|symmetric monoidal category]] of categories.
+in the [[closed monoidal category|closed]] [[monoidal category|symmetric monoidal category]] of categories.
 
 Hence $Y$ sends any object $c \in C$ to the presheaf which assigns to any other object $d$ of $c$ the set of morphisms from $d$ into $c$:
 
@@ -75,11 +75,3 @@ The Yoneda lemma tends to carry over to all important generalizations of the con
 #References#
 
 * Tom Leinster, [[LeinsterYoneda.pdf:file]]
----
-For a model Yoneda lemma, see Toen Essen talk section 4.2.
-
-&lt;http://ncatlab.org/nlab/show/co-Yoneda+lemma>
-
-&lt;http://mathoverflow.net/questions/59503/question-on-the-interpretation-of-a-presheaf-category-as-a-co-completion>
-
-nLab page on [[nlab:Yoneda lemma]]
