@@ -26,6 +26,10 @@ Many constructivists (like many classical mathematicians) believe in an absolute
 
 _Mike:_ What do you mean by "not true (and may even be false)?"  Are there constructivists who claim that "false" is distinct from "not true?"  The two are certainly the same in the constructive logic I'm familiar with.
 
+_Toby_: Take Errett Bishop. In his analysis book, he says that a statement is true only if it has a proof, that various construtively invalid principles (like excluded middle) are not true, but carefully does not say that they are false because (he says) he makes no classically false claims. And then he claims to be a mathematical realist who believes in an absolute mathematical sense of truth. Clearly he can do this by distinguishing an object language and a metalanguage, and this interpretation is bolstered by his technical use of italicised 'not' in statements like 'Excluded middle is _not_ true.' or 'Exercise: Construct a surjective function which is _not_ onto \[by which he means split epic\].'. Of course, even a classical mathematician can make this distinction, and many do by saying 'not constructively provable' where (setting aside the difference in what the consider provable) Bishop would say '_not_ true'. Yet only a constructivist can claim that this is the final word on the matter, while the classical realist must be left wondering whether an undecidable proposition is *really* true or false.
+
+I\'m not sure that I agree with Bishop. I\'m just trying to be true to his language and views. Probably I should just rewrite that paragraph. Certainly _some_ constructivists can refute excluded middle; Bishop can\'t, but he still claims that it is, in an objective sense, wrong.
+
 =--
 
 # Topos Theory #
@@ -37,7 +41,6 @@ Even starting from a "completely classical" world of mathematics, many interesti
 By now it is known that many of the non-classical axioms used by the early constructivists have natural models in particular toposes.  For instance, in the topos of sheaves on the real numbers $R$, it is true that "all functions $R \to R$ are continuous."  And in the [[effective topos]], it is true that "all functions $N\to N$ are computable."
 
 However, there are no non-classical (or classical) axioms beyond "pure constructivism" that are true in _all_ toposes with NNO.  In particular, there is a [[free topos]] with NNO such that a statement is true in the free topos precisely when it is provable in pure (Richman-school) constructive mathematics.  This means that for an argument to apply in all toposes, even mild assumptions such as countable or dependent choice are unacceptable.  However, topos theory has also provided ideas that solve many of the problems with pure constructivism.  For example, a well-behaved notion of "continuous function" can be recovered by using [[locale|locales]] instead of topological spaces.
-
 
 # Some features of constructive mathematics #
 
@@ -53,11 +56,13 @@ On the other hand, differences in axiomatization or definition that make no diff
 
 * There are multiple inequivalent constructive definitions of a [[field]], because of the axioms "every _nonzero_ element has an inverse" and $0 \neq 1$.
 
-* In the absence of excluded middle and countable choice, the Dedekind [[real numbers]] and the Cauchy real numbers are no longer the same.  From a topos-theoretic viewpoint, the Dedekind reals are usually the "correct" notion to study.  See also (Bridges et al, 1998).
+* Without excluded middle or countable choice, the Dedekind [[real numbers]] and the Cauchy real numbers are no longer the same.  From a topos-theoretic viewpoint, the Dedekind reals are usually the "correct" notion to study.  See also (Bridges et al, 1998).
 
 +--{.query}
 
 _Mike_: Is excluded middle really necessary for this?  I thought that countable choice was enough.  I know that they are the same in the effective topos, which satisfies countable choice but is not Boolean.
+
+_Toby_: Ah, this is the old problem that English doesn\'t easily distinguish $\neg(p \wedge q)$ from $\neg{p} \wedge \neg{q}$. You\'re not mistaken.
 
 =--
 
