@@ -4,6 +4,10 @@ Fields are not as well-behaved categorically as most other common algebraic stru
 
 For the same reason, in [[constructivism|constructive mathematics]] (such as the [[internal logic]] of a topos) there are different inequivalent ways to define a field.  In this case the above definition is not usually the best one; for instance, the real numbers do not satisfy it. However, if you interpret 'nonzero' and '$\ne$' as references to an [[apartness relation]] and assume that the ring operations are strongly extensional, then the definition becomes a useful one.  There are also other useful constructive notions of "field" which do not require an apartness relation.
 
++--{.query}
+Do the real numbers satisfy any of these?
+=--
+
 ### Discussion ###
 
     This discussion was originally at [[vector space]], but most of it is really about fields.
