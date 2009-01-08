@@ -29,7 +29,7 @@ Other examples of tensor products in multicategories:
 
 * The [[Gray tensor product]] of [[strict 2-category|strict 2-categories]] is a tensor product in the multicategory of 2-categories and [[cubical functor]]s.  Likewise for Sjoerd Crans' tensor product of Gray-categories.
 
-In particular, any [[closed category]] in the sense of Eilenberg-Kelly (that is, having an internal-hom but not necessarily a tensor product) has an underlying multicategory.  Tensor products in this multicategory are characterized by the adjointness relation
+In particular, any [[closed category]] (even if not monoidal) has an underlying multicategory.  Tensor products in this multicategory are characterized by the adjointness relation
 $$ \hom(A\otimes B, C) \cong \hom(A, \hom(B,C)). $$
 This may be the oldest notion of tensor product, since the definition of the internal-hom of abelian groups and vector spaces, unlike that of their tensor product, is intuitively obvious.
 
