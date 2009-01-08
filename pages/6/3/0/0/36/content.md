@@ -4,7 +4,6 @@ Many structures whose "traditional" definition takes place in [[Set]] can be for
 
 Like [[categorification]], there is currently no completely general formal definition of this process, although there are one or two fairly general theorems.  However, its reverse is precise: given a doctrine $D$ to which $\Set$ (or some canonical Set-like category) belongs and a definition of foo internalized in the doctrine $D$, if this definition of foo in $\Set$ reduces to the usual definition of foo, then the definition is acceptable; foos are a _deinternalisation_ of internal foos.
 
-
 #Examples#
 
 * [[monoid|Monoids]] can be internalized in the doctrine of [[monoidal category|monoidal categories]].  For example:
@@ -31,7 +30,7 @@ Like [[categorification]], there is currently no completely general formal defin
 
 * More generally, the algebras for any [[Lawvere theory]] can be internalized in the doctrine of categories with finite products, and the algebras for any (symmetric) [[operad]] (in $Set$) can be internalized in the doctrine of (symmetric) monoidal categories.
 
-* Pretty much any structure at all can be internalized in a [[topos]].  Note, though, that since the [[internal logic]] of a topos is constructive, differences in axiomatization that make no difference classically can result in actual differences in behavior in a topos.  See [[constructivism]] for some examples.   On the other hand, if the topos is assumed to satisfy the [[axiom of choice]], and therefore to be [[boolean topos|boolean]], none of this happens.
+* Pretty much any structure at all in mathematics can be internalized in a [[topos]].  Note, though, that since the [[internal logic]] of a topos is constructive, differences in axiomatization that make no difference classically can result in actual differences in behavior in a topos.  See [[constructivism]] for some examples.  On the other hand, if the topos satisfies the [[axiom of choice]] (and in particular is [[boolean topos|boolean]]), then this complication won\'t happen.
 
 +--{.query}
 
@@ -43,6 +42,8 @@ But I agree that this isn\'t the same as being unable to write down the definiti
 
 _Mike_: Okay, I see what you mean.  Is what I've written now acceptable?
 
+_Toby_: Yes, I like that. Since I would take 'classical mathematics' to include the axiom of choice (as opposed to 'classical logic', which includes only excluded middle), I\'ve rephrased slightly. (Certainly one can find references with some definition, for example for 'cardinal number', that are only correct if the axiom of choice is true.)
+
 =--
 
 #Internalization versus enrichment#
@@ -52,7 +53,6 @@ In the case of categories, there is a dichotomy between [[internal category|inte
 As described on this page, __internalization__ is a quite general phenomenon, of which internal categories are a particular case. However, the distinction between "internalization" and "enrichment" becomes less clear in generality.  For example, in addition to categories enriched over a monoidal category, one can define categories enriched over a [[bicategory]] or an [[fc-multicategory]]. It then turns out that a category enriched over the bicategory (or fc-multicategory) of [[span|spans]] in a lex category $C$ _which has one object_ is precisely an _internal_ category in $C$.
 
 Perhaps from the perspective of this page, internal categories and enriched categories are just two _different_ ways of internalizing the notion of category in two _different_ doctrines?
-
 
 #General Results#
 
