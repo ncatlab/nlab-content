@@ -47,6 +47,8 @@ Examples are essentially all categories $V$ of higher fibrant structures, I thin
 
 And in a category with interval object one can do a bunch of things that one would want to do with higher structures -- notably one can do nonabelian principal $\infty$-bundles. I may have more on this later today...
 
+
+[[Tim Porter|Tim]] The question asked at the start of this query relates to a large part of the modelizer story which occupies quite a large part of Grothendieck's _Pursuit of Stacks_. For a discussion and quite a detailed treatment of cylinder bjects and the way in which their properties influence what homotopical theorem hold in that context you might look at my book with Heiner Kamps.
 =--
 
 Then:
