@@ -22,6 +22,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
   * worked pertinent discussion into body of [[monoidal category]]
 
 * [[Urs Schreiber]]
+
+  * reacted to the discussion at [[path object]]
+
+  * created [[cylinder functor]]
   
   * added my 2cent and my questions to the discussion at [[homotopy]] on [[interval object]]s -- and added the entry [[interval object]] but filling it not with a statement but with discussion: I say what I came to think a well behaved interval object should satisfy and am asking for information on what is known in this regard
 
