@@ -17,4 +17,4 @@ There are a sequence of variations on the concept of epimorphism, from strongest
 >[[split epimorphism]], [[regular epimorphism]], [[strong epimorphism]], [[extremal epimorphism]], epimorphism.
 In [[Set|the category of sets]], every epimorphism is regular (and even split if you believe the [[axiom of choice]]), so it can be hard to know, when generalising concepts from $\Set$ to other categories, what kind of epimorphism to use.  
 
-For example, in categories of sets with structure, epimorphisms need not be surjective: in the category of monoids, the inclusion $\mathbb{N}\hookrightarrow\mathbb{Z}$ is an epimorphism.  In general, in [[algebraic category|algebraic categories]] (categories of algebra for a [[Lawvere theory]]), the morphisms whose underlying function is surjective are the regular epimorphisms.
+For example, in categories of sets with [[extra structure]], epimorphisms need not be surjective, but often the surjections correspond to a stronger notion of epimorphism. In [[algebraic category|algebraic categories]] (categories of algebra for a [[Lawvere theory]]), the morphisms whose underlying function is surjective are the regular epimorphisms.
