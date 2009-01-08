@@ -2,13 +2,13 @@
 
 In the context of [[homotopy coherent category theory]] one wishes to nicely pair [[enriched category theory]] with [[homotopy theory]] for the case that the category $V$ being enriched over is a [[model category]] or at least a [[homotopical category]].
 
-The idea is that a _closed (symmetric) monoidal homotopical category_ is a [[closed category|closed]] [[monoidal category]] which is also  [[homotopical category|homotopical]] such that its [[homotopy category]] $Ho_V$ is still itself [[closed category|closed]] [[monoidal category|monoidal]].
+The idea is that a _closed (symmetric) monoidal homotopical category_ is a [[closed monoidal category]] which is also  [[homotopical category|homotopical]] such that its [[homotopy category]] $Ho_V$ is still itself [[closed monoidal category|closed monoidal]].
 
 A category enriched over such $V$ may be an [[enriched homotopical category]].
 
 #Definition#
 
-A _closed (symmetric) monoidal homotopical category_ $V_0$ is a [[closed category|closed]], [[monoidal category|symmetric monoidal]] [[homotopical category|homotopical]] category which is furthermore equipped with a [[closed monoidal deformation retract]].
+A _closed (symmetric) monoidal homotopical category_ $V_0$ is a [[closed monoidal category|closed]], [[monoidal category|symmetric monoidal]] [[homotopical category|homotopical]] category which is furthermore equipped with a [[closed monoidal deformation retract]].
 
 #Examples#
 
