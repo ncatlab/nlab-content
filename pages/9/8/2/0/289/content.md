@@ -26,6 +26,12 @@ $$
 
 of [[groupoid|groupoids]] becomes a linear map acting on vector spaces after taking [[groupoid cardinality]] -- after "degroupoidification".
 
+#Remarks#
+
+* Groupoification is closely related to -- or maybe even synonymous to -- [[geometric function theory]].
+
+
+
 #References#
 
 John Baez keeps a web page with relevant links and background material 
