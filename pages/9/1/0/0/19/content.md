@@ -71,6 +71,7 @@ But maybe surprisingly, category theory turns out to be much more than the study
 * [[preorder]]
 * [[quiver]]
 * [[quiver algebra]]
+* [[regular epimorphism]]
 * [[Rel]]
 * [[semi-strict infinity-category]]
 * [[set]]
