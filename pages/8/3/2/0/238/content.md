@@ -12,6 +12,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-08
 
+* [[John Baez]]
+
+  * worked pertinent discussion into body of [[monoidal category]]
+
+* [[Urs Schreiber]]
+  
+  * created [[geometric function theory]] to accompany a [guest post](http://golem.ph.utexas.edu/category/2009/01/benzvi_on_geometric_function_t.html) by [[David Ben-Zvi]] -- maybe somebody of the [[groupoidification]] team can eventually add an entry on [[Hecke algebra]] and its relation to groupoidification
+
 * [[Toby Bartels]]: I wrote about [[constructivism]] and the [[empty set]].
 
 * [[Mike Shulman|Mike]]
