@@ -1,29 +1,43 @@
 # Idea #
 
-In a [[category]] $C$ which is equipped with the structure of a [[model category]] there is a notion of _homotopy_ between morphisms, which is closely related to the higher morphisms in [[higher category theory]].
+In many [[category|categories]] $C$ in which one does [[homotopy theory]], there is a notion of _homotopy_ between morphisms, which is closely related to the higher morphisms in [[higher category theory]].  If we regard such a category as a presentation of an $(\infty,1)$-[[(infinity,1)-category|category]], then homotopies $f\sim g$ present the 2-cells $f\Rightarrow g$ in the resulting $(\infty,1)$-category.
 
 
-#Definition#
+# Definition in enriched categories #
 
-Let $X$ be an object in the [[model category]] $C$. 
+If $C$ is [[enriched category|enriched]] over [[Top]], then a **homotopy** in $C$ between maps $f,g:X\,\rightrightarrows \,Y$ is a map $H:[0,1] \to C(X,Y)$ in $Top$ such that $H(0)=f$ and $H(1)=g$.  In $Top$ itself this is the classical notion.
 
-* A **path object** $Path(X)$ for $X$ is a factorization of the diagonal $X \to X \times X$ as a weak equivalence followed by a fibration
+If $C$ has [[copower|copowers]], then an equivalent definition is a map $[0,1]\odot X\to Y$, while if it has [[power|powers]], an equivalent definition is a map $X\to \pitchfork([0,1],Y)$.
+
+There is a similar definition in a [[simplicially enriched category]], replacing $[0,1]$ with the 1-simplex $\Delta^1$, with the caveat that in this case not all _simplicial homotopies_ can be composed.  Likewise in a [[dg-category]] we can use the "chain complex interval" to get a notion of _chain homotopy_.
+
+
+# Definition in model categories #
+
+If $C$ is instead a [[model category]], it has an intrinsic notion of homotopy determined by its factorizations.
+
+* A **path object** $Path(X)$ for an object $X$ is a factorization of the diagonal $X \to X \times X$ as
 $$
   X \to Path(X) \to X \times X
   \,.
 $$
+where $X\to Path(X)$ is a weak equivalence.
 
-* A **cylinder object** $Cyl(X)$ is a factorization of the codiagonal $X \sqcup X \to X$ as a cofibration followed by a weak equivalence
-
+* A **cylinder object** $Cyl(X)$ is a factorization of the codiagonal (or "fold") $X \sqcup X \to X$ as
 $$
   X \sqcup X \to Cyl(X) \to X
   \,.
 $$
+where $Cyl(X) \to X$ is a weak equivalence.
 
-(Think of $Path(X)$ as an [[closed category|internal hom]] $[I,X]$ for $I$ a model of the interval, and of $Cyl(X)$ as a [[tensor product|product]] $X \times I$. )
+Frequently one asks as well that $Path(X)\to X\times X$ be a fibration and $X\sqcup X\to Cyl(X)$ be a cofibration; we call such paths and cylinders _good_.  Clearly any object has a good path object and a good cylinder object.  However, in the usual [[model structure on topological spaces]], the obvious object $X\times I$ is a cylinder, but not a good cylinder unless $X$ itself is cofibrant.
+
+We think of $Path(X)$ as an analogue of $\pitchfork(I,X)$ and $Cyl(X)$ as an analogue of $I\odot X$.  In fact, if $C$ is a $Top$-enriched model category and $X$ is cofibrant, then these powers and copowers  are in fact examples of path and cylinder objects.  (This works more  generally if $C$ is a $V$-model category and $e\sqcup e \to I \to e$ is a good cylinder object for the cofibrant unit object $e$ of $V$.)
 
 +--{.query}
 Are there any interesting consequences or conditions for the existence of an actual object $I$ that produces path objects and cylinder objects in that way?
+
+One consequence of a well-behaved such object $I$ is the existence of model structures on categories of operads (Berger-Moerdijk 2003).
 =--
 
 Then:
@@ -53,7 +67,14 @@ $$
   \,.
 $$
 
-#Remarks#
+By the above remarks about powers and copowers, it follows that in a $Top$-model category, any enriched homotopy between maps $X\to Y$ is a left homotopy if $X$ is cofibrant and a right homotopy if $Y$ is fibrant.  Similar remarks hold for other enrichments.
 
-Path objects and right homotopies also exists if not the structure of a [[model category]] but just of a [[category of fibrant objects]] is given.
+# Remarks #
 
+Path objects and right homotopies also exist if not the structure of a [[model category]] but just of a [[category of fibrant objects]] is given.  Likewise for cylinder objects and left homotopies in a category of cofibrant objects.
+
+# References #
+
+W. G. Dwyer and J. Spalinski.  "Homotopy Theories and Model Categories," 1995.
+
+Clemens Berger and Ieke Moerdijk.  "Axiomatic homotopy theory for operads," 2003.
