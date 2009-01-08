@@ -38,6 +38,15 @@ We think of $Path(X)$ as an analogue of $\pitchfork(I,X)$ and $Cyl(X)$ as an ana
 Are there any interesting consequences or conditions for the existence of an actual object $I$ that produces path objects and cylinder objects in that way?
 
 One consequence of a well-behaved such object $I$ is the existence of model structures on categories of operads (Berger-Moerdijk 2003).
+
+[[Urs Schreiber|Urs]]: I need to look at Berger-Moerdijk. Just yesterday I wrote down a definition of "category with interval object" myself in an attempt to capture precisely this idea. I said: 
+
+**Definition**: a category $V$ with interval object is a [[closed monoidal homotopical category]] whose homotopical structure extends to a [[category of fibrant objects]] and eqipped with with $\sigma, \tau : pt \to I$ in $V$ an internal _co-category_ such that for every object $B$ the object $[I,B]$ is a path object of $B$.
+
+Examples are essentially all categories $V$ of higher fibrant structures, I think, Kan complexes, higher categories, etc. The interval object is always the obvious one in these cases. There is an obvious generalization to the non-fibrant case, too, I think.
+
+And in a category with interval object one can do a bunch of things that one would want to do with higher structures -- notably one can do nonabelian principal $\infty$-bundles. I may have more on this later today...
+
 =--
 
 Then:
@@ -75,6 +84,6 @@ Path objects and right homotopies also exist if not the structure of a [[model c
 
 # References #
 
-W. G. Dwyer and J. Spalinski.  "Homotopy Theories and Model Categories," 1995.
+* W. G. Dwyer and J. Spalinski.  "Homotopy Theories and Model Categories," 1995.
 
-Clemens Berger and Ieke Moerdijk.  "Axiomatic homotopy theory for operads," 2003.
+* Clemens Berger and Ieke Moerdijk.  "Axiomatic homotopy theory for operads," 2003.
