@@ -4,7 +4,7 @@ _Geometric function theory_ is an approach to [representation theory](http://en.
 
 * Toy examples of the general pattern are [[group]] algebra regarded as [[category algebra|category algebras]] (see the end of that entry for the span-description of category algebras). 
 
-* As remarked as [[groupoidification]], this is closely related to and motivated by [[quantum field theory]]. 
+* As remarked at [[groupoidification]], this is closely related to and motivated by [[quantum field theory]]. 
 
   * The higher sheaves on spans appearing in [[groupoidification]] and geometric function theory are sometimes known as [[bi-brane|bi-branes]].
 
@@ -17,4 +17,3 @@ _Geometric function theory_ is an approach to [representation theory](http://en.
 This contains further references (which I'll list here with links eventually). It concludes with an outlook on his own work in
 
 * David Ben-Zvi, John Francis, David Nadler, [Integral Transforms and Drinfeld Centers in Derived Algebraic Geometry] ([arXiv](http://arxiv.org/abs/0805.0157))
-
