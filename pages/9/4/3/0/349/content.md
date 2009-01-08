@@ -110,4 +110,8 @@ Actually, if you want to be finitist (in the sense that you have no axiom of inf
 
 These justify the importance of the concepts of 'basis' and 'subbasis' for a topology, taught in schools today. Perhaps there is a similar justification for 'coverage'? (Or for 'Grothendieck pretopology', for that matter?)
 
+_Mike:_ Okay, well, I retract my comment about predicativism, since it is clear that I don't understand (nor, really, care much about) predicative math.  But my other comment about being first-order still stands.
+
+What are the other meanings of "geometric"?  I didn't notice any in the paper you linked to but maybe I didn't look hard enough.
+
 =--
