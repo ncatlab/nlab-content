@@ -12,6 +12,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-08
 
+* [[Toby Bartels]]: I wrote about [[constructivism]] and the [[empty set]].
+
 * [[Mike Shulman|Mike]]
 
   * Created [[geometric morphism]], [[locale]], and [[sober space]].
