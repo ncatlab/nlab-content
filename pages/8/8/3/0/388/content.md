@@ -22,6 +22,10 @@ $$
 
 (Think of $Path(X)$ as an [[closed category|internal hom]] $[I,X]$ for $I$ a model of the interval, and of $Cyl(X)$ as a [[tensor product|product]] $X \times I$. )
 
++--{.query}
+Are there any interesting consequences or conditions for the existence of an actual object $I$ that produces path objects and cylinder objects in that way?
+=--
+
 Then:
 
 * A **left homotopy** between two morphisms $f,g : X \to Y$ in $C$ is a morphism $\eta : Cyl(X) \to Y$ such that
