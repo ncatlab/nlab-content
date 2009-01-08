@@ -431,3 +431,5 @@ To make the second magic wand work, the magic words to say are "there is a monad
 Of course, both are also sort of a cheat, since in order to prove that the biased and unbiased definitions are equivalent, you need to have the [[coherence theorem]] for the biased definition.  However, it's only because of the coherence theorem that we can say definitely that the usual set of complicated-looking diagrams is "correct."  The approach using lax $\infty$-functors really only postpones this question, since you also need a coherence theorem to show that the definition of lax $\infty$-functor is "correct."  So perhaps there is no magic wand after all, at least not one that produces the _specific_ diagrams in the usual biased definition of monoidal category.
 
 _[[John Baez|John]] says:_ I have attempted to work all the above discussion into the main article.  If we are reasonably happy with my attempt, we can perhaps delete the discussion above.
+
+_Toby_: For the record, I\'m happy with that.
