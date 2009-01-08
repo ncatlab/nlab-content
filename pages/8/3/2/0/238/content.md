@@ -15,6 +15,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 * [[Toby Bartels]]
   * Mike and I are discussing terminology at [[Grothendieck topology]] and [[extensive category]] (possibly also elsewhere).
   * I wrote [[regular epimorphism]] and [[epimorphism]].
+  * I prepared the wiki for an article [[closed category]] (as such) by moving most of the material to [[closed monoidal category]] and fixing the links. (But I didn\'t actually write it yet.)
 
 * [[John Baez]]
 
