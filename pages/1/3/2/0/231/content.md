@@ -1,14 +1,30 @@
-A _monoidal category_ is a [[category]] $M$ equipped with a [[functor]]
+##The Idea##
+
+A 'monoidal category' is a [[category]] equipped with some notion of 'tensor product'.  A good example is the category [[Vect]], where we can take the tensor product, not only of vector spaces, but also of linear maps: given linear maps $f : V \to W$ and $f' : V' \to W'$, we get a linear map
+
+$$ f \otimes f': V \otimes V' \to W \otimes W' $$
+
+The same category can often be made into a monoidal category in more than one way.  For example the category [[Set]] can be made into a monoidal category with cartesian [[product]] or disjoint union (i.e. [[coproduct]]) as the 'tensor product'.   We can also make [[Vect]] into a monoidal category with direct sum is the 'tensor product' --- this may seem perverse, but it's actually very useful.
+
+For any monoidal category $M$, the operation of tensor product is actually a [[functor]]
+
+$$\otimes : M \times M \to M$$
+
+This functor, which we can think of as a kind of 'multiplication', makes $M$ into a [[categorification|categorified]] version of a [[monoid]].  This explains the term 'monoidal category'.
+
+##Definition##  
+
+A *monoidal category* is a [[category]] $M$ equipped with a [[functor]]
 $$ \otimes : M \times M \to M $$
-called the _tensor product_, an object
+called the *tensor product*, an object
 $$ 1 \in M $$
 called the _unit object_, a natural isomorphism
 $$ a_{x,y,z} : (x \otimes y) \otimes z \to x \otimes (y \otimes z) $$
-called the _associator_, a natural isomorphism
+called the *associator*, a natural isomorphism
 $$ \ell_x : 1 \otimes x \to x $$
-called the _left unitor_, and a natural isomorphism 
+called the *left unitor*, and a natural isomorphism 
 $$  r_x : x \otimes 1 \to x $$
-called the _right unitor_, which must satisfy a couple of equations, most notably the pentagon identity:
+called the *right unitor*, which must satisfy a couple of equations, most notably the *pentagon identity*:
 
 +--{: style="text-align:center"}
 <svg xmlns="http://www.w3.org/2000/svg" width="30em" height="20em" viewBox="0 0 480 320">
@@ -40,50 +56,51 @@ called the _right unitor_, which must satisfy a couple of equations, most notabl
 </svg>
 =--  
 
-There is a [[strict 2-category]] MonCat with:
+A monoidal category is said to be *strict* if the associator, left unitor and right unitors are all identity morphisms.  There is a [[strict 2-category]] MonCat with:
 
 * monoidal categories as objects,
 * [[monoidal functor]]s as morphisms, 
 * [[monoidal natural transformation]]s as 2-morphisms.
 
-For definitions of all these concepts, and a precise description of the 'couple of equations' alluded to here, see:
+One version of Mac Lane's Coherence Theorem states that in MonCat, every monoidal category is [[equivalence|equivalent]] to a strict one.
+
+##References##
+
+The definition of monoidal category can be found on [John Armstrong's blog](http://unapologetic.wordpress.com/2007/06/28/monoidal-categories/) and [Wikipedia](http://en.wikipedia.org/wiki/Monoidal_category).
+
+For definitions of all the concepts mentioned above, including a precise description of the 'couple of equations' alluded to above, see:
 
 * John Baez, [Some definitions everyone should know](http://math.ucr.edu/home/baez/qg-fall2004/definitions.pdf).
+
+It would be nice if you, dear reader, would add all these definitions to the $n$Lab!   The [LaTeX code](http://math.ucr.edu/home/baez/qg-fall2004/texfiles/definitions.tex) is available if you want.
 
 For an elementary introduction to monoidal categories using string diagrams, see:
 
 * John Baez and Mike Stay, [Physics, topology, logic and computation: a Rosetta Stone](http://math.ucr.edu/home/baez/rosetta.pdf).
 
-Eventually we should include all these definitions and diagrams here!
+##Where the Definition Comes From##
 
-##Discussion##
+The definition of monoidal category looks rather complicated at first sight, so it is natural to wonder if there is some magic wand we can wave that makes it appear automatically.  For example, one might wonder if we can define monoidal categories using [[internalization]].  
 
-_[[Eric Forgy|Eric]] says_: In the definitions I've seen, e.g. [here](http://unapologetic.wordpress.com/2007/06/28/monoidal-categories/) and [here](http://en.wikipedia.org/wiki/Monoidal_category), it seems like you say, "We want to have a monoid with a product that satisfies this and that" then there are several complicated looking diagrams that need to be satisfied. Is there some magic wand we can wave (probably via arrow theory) that makes all those conditions just pop out naturally?
+In fact a *strict* monoidal category is just a [[monoid]] internal to the category [[Cat]].  Unfortunately this definition is circular, since to define a monoid internal to [[Cat]], we need to use the fact that [[Cat]] is a monoidal category!  Furthermore, hardly any of the monoidal categories in nature are strict. So, we need to weaken the definition of monoidal category, and this is where the subtleties come in: we need the associator, left unitor, and right unitor to satisfy some 'coherence laws' --- e.g. the pentagon identity.  
 
-_[[Eric Forgy|Eric]] says_: Oh oh! Looking at the [[General Discussion]], [[John Baez|John]] said (referring to graded algebras):
+But _where do the coherence laws come from?_  
 
->It's a monoid in GradedVect, the monoidal category of graded vector spaces.
+In fact, these are precisely what we need to make any diagram built solely by tensoring, associators, and unitors commute.  This fact is another version of Mac Lane's Coherence Theorem.  Mac Lane proved it in the same paper where he originally defined the concept of monoidal category.
 
-So the magic wand must be [[internalization]] (?)
+There are indeed 'magic wands' that automatically produce the definition of monoidal category, but most of these magic wands  are so heavy that only more advanced wizards can lift them.  
 
-_[[Toby Bartels|Toby]] says_: Well, somewhat. But if you take a monoid internal to the category of categories, then you get a *strict* monoidal category, and hardly any of the examples in nature are strict. So there are subtleties in the coherence rules for the weakened version. (Of course, you could take a monoidal category internal to the bicategory of categories, but nobody knew how to define that until they knew what a monoidal category is!)
+For example, you can define a monoidal category to be a [[pseudomonoid]] internal to the 2-category [[Cat]] --- but nobody knew how to define these concepts until they knew what a monoidal category is!
 
-_[[John Baez|John]] says_: there is no magic wand that gives the "complicated looking diagrams" that Eric mentions.  Or rather, there _is_ a magic wand, but one so heavy that only the strongest of wizards can lift it: it's called **the theory of weak $n$-categories** --- monoidal categories are a puny special case!  
+Two other closely related approaches involve [[2-monad|2-monad theory]] and [[homotopy theory]].  
 
-Luckily the "complicated looking diagrams" are completely obvious once they've been properly explained.  My paper with Mike Stay, linked to above may (or may not) do the job.
-
-Toby is right, of course: [[monoid|monoids]] [[internalization|internal to]] [[Cat]] are *strict* monoidal categories.  But alas, these are not the fully general monoidal categories discussed on this page.  Internalization does not really get around the problem of guessing the diagrams --- such as the pentagon identity --- that make the definition of monoidal category interesting.
-
-_[[Urs Schreiber|Urs]] says_: The situation is not quite as bad as this makes it seem, I think. Much weakening can be understood as maps out  of "puffed up" objects, and "puffing up" means: use [[oriental]]s. For instance the pentagon diagram above is nothing but the [[oriental|4th oriental]]! The tensor product itself is the second oriental, and the associator the third. The paragraph below I added to give more details on this.
-
-_[[John Baez|John]] says_: I'd guess that Eric will find what you wrote below just as terrifying as my warning indicated.  But, it's good stuff.
-
-_[[Mike Shulman|Mike]] says_: Actually, there are a couple other magic wands which work in this case and aren't quite so heavy, namely [[2-monad|2-monad theory]] and [[homotopy theory]].  To make the first one work, the magic words to say are "there is a 2-monad whose algebras are strict monoidal categories, and a (non-strict) monoidal category is a pseudo-algebra for that 2-monad."  This doesn't give you the definition of monoidal categories that we're used to, though; it gives you the [[bias|unbiased]] version.
+To make the first one work, the magic words to say are "there is a 2-monad whose algebras are strict monoidal categories, and a (non-strict) monoidal category is a pseudo-algebra for that 2-monad."  This doesn't give you the definition of monoidal categories that we're used to, though; it gives you the [[bias|unbiased]] version.
 
 To make the second magic wand work, the magic words to say are "there is a monad/operad/etc. in [[Cat]] whose algebras are strict monoidal categories, and the monad/operad/etc. whose algebras are (non-strict) monoidal categories is a cofibrant replacement for that one."  Since cofibrant replacements are usually defined only up to equivalence, this one also doesn't determine the usual definition uniquely.  There is a "canonical" choice, but again it gives you the unbiased version.  The equation "cofibrant = [[flexibility|flexible]]" says that these two magic wands are doing essentially the same thing.
 
 Of course, both are also sort of a cheat, since in order to prove that the biased and unbiased definitions are equivalent, you need to have the [[coherence theorem]] for the biased definition.  However, it's only because of the coherence theorem that we can say definitely that the usual set of complicated-looking diagrams is "correct."  The approach using lax $\infty$-functors really only postpones this question, since you also need a coherence theorem to show that the definition of lax $\infty$-functor is "correct."  So perhaps there is no magic wand after all, at least not one that produces the _specific_ diagrams in the usual biased definition of monoidal category.
 
+However, if we temporarily ignore the unitors and focus on the associator, we may ask _where does the pentagon identity come from?_  And one answer to this is provided by the Stasheff polytopes, which can be nicely obtained using Ross Street's theory of orientals.   For instance the pentagon diagram above is nothing but the [[oriental|4th oriental]]! The tensor product itself is the second oriental, and the associator the third.  The following section explains this in a bit more detail.
 
 ##Relation to lax functors, orientals and descent##
 
@@ -384,3 +401,33 @@ where the 2-category on the right is defined as $MonCat$ above, but with the ass
 In closing, it should be remarked that the fact that everything here is _lax_ instead of _pseudo_ is related to a curious property of the orientals: the $n$th oriental for $n \ge 1$ _fails_ to be weakly equivalent to the point. As a result, the objects of $Desc(pt, C)$ are not quite $\omega$-[[anafunctor]]s from the point to $C$, since they do not map out of a proper hypercover of $C$. In the strict notion of descent as used in most of the literature, the orientals would hence provide something _more general_ than ordinary descent, which in its generality is lacking some properties usually required of descent.
 
 We can remedy this by replacing in the definition of the descent $\infty$-category $Desc(Y,C)$ the orientals by another cosimplicial $\infty$-category, one which _is_ equivalent to the point in each degree. Doing so and then going through the above discussion will make _all_ the structure maps appeaing have inverses. But this will also apply to the monoidal product itself, then, which is usually not desired.  
+
+##Discussion##
+
+_[[Eric Forgy|Eric]] says_: In the definitions I've seen, e.g. [here](http://unapologetic.wordpress.com/2007/06/28/monoidal-categories/) and [here](http://en.wikipedia.org/wiki/Monoidal_category), it seems like you say, "We want to have a monoid with a product that satisfies this and that" then there are several complicated looking diagrams that need to be satisfied. Is there some magic wand we can wave (probably via arrow theory) that makes all those conditions just pop out naturally?
+
+_[[Eric Forgy|Eric]] says_: Oh oh! Looking at the [[General Discussion]], [[John Baez|John]] said (referring to graded algebras):
+
+>It's a monoid in GradedVect, the monoidal category of graded vector spaces.
+
+So the magic wand must be [[internalization]] (?)
+
+_[[Toby Bartels|Toby]] says_: Well, somewhat. But if you take a monoid internal to the category of categories, then you get a *strict* monoidal category, and hardly any of the examples in nature are strict. So there are subtleties in the coherence rules for the weakened version. (Of course, you could take a monoidal category internal to the bicategory of categories, but nobody knew how to define that until they knew what a monoidal category is!)
+
+_[[John Baez|John]] says_: there is no magic wand that gives the "complicated looking diagrams" that Eric mentions.  Or rather, there _is_ a magic wand, but one so heavy that only the strongest of wizards can lift it: it's called **the theory of weak $n$-categories** --- monoidal categories are a puny special case!  
+
+Luckily the "complicated looking diagrams" are completely obvious once they've been properly explained.  My paper with Mike Stay, linked to above may (or may not) do the job.
+
+Toby is right, of course: [[monoid|monoids]] [[internalization|internal to]] [[Cat]] are *strict* monoidal categories.  But alas, these are not the fully general monoidal categories discussed on this page.  Internalization does not really get around the problem of guessing the diagrams --- such as the pentagon identity --- that make the definition of monoidal category interesting.
+
+_[[Urs Schreiber|Urs]] says_: The situation is not quite as bad as this makes it seem, I think. Much weakening can be understood as maps out  of "puffed up" objects, and "puffing up" means: use [[oriental]]s. For instance the pentagon diagram above is nothing but the [[oriental|4th oriental]]! The tensor product itself is the second oriental, and the associator the third. The paragraph below I added to give more details on this.
+
+_[[John Baez|John]] says_: I'd guess that Eric will find what you wrote below just as terrifying as my warning indicated.  But, it's good stuff.
+
+_[[Mike Shulman|Mike]] says_: Actually, there are a couple other magic wands which work in this case and aren't quite so heavy, namely [[2-monad|2-monad theory]] and [[homotopy theory]].  To make the first one work, the magic words to say are "there is a 2-monad whose algebras are strict monoidal categories, and a (non-strict) monoidal category is a pseudo-algebra for that 2-monad."  This doesn't give you the definition of monoidal categories that we're used to, though; it gives you the [[bias|unbiased]] version.
+
+To make the second magic wand work, the magic words to say are "there is a monad/operad/etc. in [[Cat]] whose algebras are strict monoidal categories, and the monad/operad/etc. whose algebras are (non-strict) monoidal categories is a cofibrant replacement for that one."  Since cofibrant replacements are usually defined only up to equivalence, this one also doesn't determine the usual definition uniquely.  There is a "canonical" choice, but again it gives you the unbiased version.  The equation "cofibrant = [[flexibility|flexible]]" says that these two magic wands are doing essentially the same thing.
+
+Of course, both are also sort of a cheat, since in order to prove that the biased and unbiased definitions are equivalent, you need to have the [[coherence theorem]] for the biased definition.  However, it's only because of the coherence theorem that we can say definitely that the usual set of complicated-looking diagrams is "correct."  The approach using lax $\infty$-functors really only postpones this question, since you also need a coherence theorem to show that the definition of lax $\infty$-functor is "correct."  So perhaps there is no magic wand after all, at least not one that produces the _specific_ diagrams in the usual biased definition of monoidal category.
+
+_[[John Baez|John]] says:_ I have attempted to work all the above discussion into the main article.  If we are reasonably happy with my attempt, we can perhaps delete the discussion above.
