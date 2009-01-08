@@ -45,10 +45,13 @@ One consequence of a well-behaved such object $I$ is the existence of model stru
 
 Examples are essentially all categories $V$ of higher fibrant structures, I think, Kan complexes, higher categories, etc. The interval object is always the obvious one in these cases. There is an obvious generalization to the non-fibrant case, too, I think.
 
-And in a category with interval object one can do a bunch of things that one would want to do with higher structures -- notably one can do nonabelian principal $\infty$-bundles. I may have more on this later today...
+And in a category with interval object one can do a bunch of things that one would want to do with higher structures -- notably one can do nonabelian principal $\infty$-bundles, I think, as I try to describe [[schreiber:Nonabelian homotopical cohomology and fiber bundles|here]].
 
 
 [[Tim Porter|Tim]] The question asked at the start of this query relates to a large part of the modelizer story which occupies quite a large part of Grothendieck's _Pursuit of Stacks_. For a discussion and quite a detailed treatment of cylinder bjects and the way in which their properties influence what homotopical theorem hold in that context you might look at my book with Heiner Kamps.
+
+[[Urs Schreiber|Urs]]: may I ask that we move this discussion to [[interval object]] where it may have more room to develop in its own right, not just being an afterthought to this entry here. Tim: is maybe the answer to the question which I am asking at [[interval object]] in that book of yours which you mention? I will have a look.
+
 =--
 
 Then:
