@@ -12,6 +12,9 @@
 
     * [[homotopy coherent category theory]]
 
+  * [[groupoidification|Groupoidification]]
+
+
 
 * [[topology and geometry|Topology and Geometry]]
 
@@ -24,6 +27,7 @@
       * [[BV theory|BV Theory]]
 
     * [[generalized smooth space|Generalized Smooth Spaces]]
+
 
 * [[algebra|Algebra]]
 
