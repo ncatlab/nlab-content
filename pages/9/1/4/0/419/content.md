@@ -1,12 +1,12 @@
 # Idea #
 
-A _monoidal model category_ is a [[model category]] which is also a [[closed category|closed monoidal category]] in a compatible way.  In particular, its [[homotopy category]] inherits a closed monoidal structure.
+A _monoidal model category_ is a [[model category]] which is also a [[closed monoidal category]] in a compatible way.  In particular, its [[homotopy category]] inherits a closed monoidal structure.
 
 # Definition #
 
 A _monoidal model category_ is a category equipped with 
 
-* the structure of a  [[closed category|closed]] [[monoidal category|symmetric monoidal category]] 
+* the structure of a  [[closed monoidal category|closed]] [[monoidal category|symmetric monoidal category]] 
 
 * the structure of a [[model category]];
 
