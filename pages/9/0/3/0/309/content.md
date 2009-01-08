@@ -1,11 +1,16 @@
-A **finitely complete category** is a [[category]] $C$ which admits all finite [[limit|limits]], that is a limit for any finite [[diagram]] $F: J \to C$. 
+A **finitely complete category** is a [[category]] $C$ which admits all finite [[limit|limits]], that is a limit for any finite [[diagram]] $F: J \to C$.  Finitely complete categories are also called **lex categories** (short for "left exact") and **cartesian categories**.
 
 There are several well known reductions of this concept to classes of special limits. For example, a category is finitely complete if and only if:
 
 * It has a [[terminal object]] and admits all binary [[product|products]] and [[equalizer|equalizers]]; or
 * It has a [[terminal object]] and admits all binary [[pullback|pullbacks]].
 
-An appropriate notion of morphism between finitely complete categories $C$, $D$ is _left exact_ functor, or a functor that preserves finite limits. A functor preserves finite limits if and only if it preserves terminal objects, binary products, and equalizers. Since these conditions frequently come up individually, it may be worthwhile listing them separately: 
+An appropriate notion of morphism between finitely complete categories $C$, $D$ is a _left exact_ functor, or a functor that preserves finite limits (also called a _lex_ functor or a _cartesian_ functor). A functor preserves finite limits if and only if:
+
+* it preserves terminal objects, binary products, and equalizers; or
+* it preserves terminal objects and binary pullbacks.
+
+Since these conditions frequently come up individually, it may be worthwhile listing them separately: 
 
 * $F: C \to D$ **preserves terminal objects** if $F(t_C)$ is terminal in $D$ whenever $t_C$ is terminal in $C$; 
 
