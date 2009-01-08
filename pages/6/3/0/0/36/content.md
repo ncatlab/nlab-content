@@ -22,7 +22,7 @@ Like [[categorification]], there is currently no completely general formal defin
 
 * Commutative monoids can be internalized in the doctrine of [[symmetric monoidal category|symmetric monoidal categories]].
 
-* Categories and groupoids can be internalized in the doctrine of [[lex category|lex categories]], producing the notion of [[internal category]].
+* Categories and groupoids can be internalized in the doctrine of [[finitely complete category|lex categories]], producing the notion of [[internal category]].
 
   * The classical fact that monoids can be identified with one-object categories has the following internal analogue: monoids in a lex category $C$ (qua category with finite products) can be identified with categories internal to $C$ whose object-of-objects is [[terminal object|terminal]].  However, monoids in a non-cartesian monoidal category (such as $Ab$ or $Vect$) cannot, in general, be identified with any sort of internal category.
 
