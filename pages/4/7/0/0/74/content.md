@@ -16,6 +16,7 @@ Reprints in Theory and Applications of Categories, No. 10 (2005) pp. 1-136 ([pdf
 
 * [[cartesian monoidal category]]
 * [[closed category]]
+* [[closed monoidal category]]
 * [[Day convolution|Day Convolution]]
 * [[end|Ends and Coends]]
 * [[enriched category|Enriched Categories]]
