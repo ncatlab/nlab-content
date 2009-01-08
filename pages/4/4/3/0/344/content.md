@@ -54,6 +54,8 @@ _Toby_: I\'m of the school that believes that when you pile on adjectives, they 
 
 It\'s hard to use Google to determine if 'extensive site' already has a meaning.
 
+_Mike_: I would argue that in "closed monoidal category" the adjective "closed" modifies "monoidal category" rather than simply "category."  However, I don't dispute the general principle.  I think there is more potential for confusion with "extensive site" than there is with "closed monoidal category," however, but as I said I'm ambivalent at the moment.
+
 =--
 
 #References#
