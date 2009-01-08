@@ -14,7 +14,7 @@ A _crossed module_ is
   $$ 
   and 
   $$
-    G_1 \stackrel{\alpha}{\to} Aut(G)
+    G_1 \stackrel{\alpha}{\to} Aut(G_2)
   $$ 
   (which below we will conceive as a map $\alpha : G_1 \times G_2 \to G_2$ analogous the the adjoint action $Ad : G \times G \to G$ of a group on itself)
 
