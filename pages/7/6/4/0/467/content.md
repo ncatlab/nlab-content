@@ -37,7 +37,7 @@ The $V$-[[enriched homotopical category]] $C$ is our generic model for an $\inft
 
 * Let $S = $ [[Diff]] and with its standard [[Grothendieck topology]] and $V = $ [[strict omega-category|omegaCat]]. The $C$ is the model for smooth $\infty$-categories used in [[schreiber:Differential Nonabelian Cohomology]].
 
-* Restrict $V$ either from [[simplicial set]]s to [[Kan complexe]]s or from [[strict omega-category|strict omega-categories]] to [[omega-groupoid]]s hence equivalently to [[crossed complex]]es and then further to complexes of abelian groups to make contact, below, with ordinary notions of sheaf cohomology. 
+* Restrict $V$ either from [[simplicial set]]s to [[Kan complex]]es or from [[strict omega-category|strict omega-categories]] to [[omega-groupoid]]s hence equivalently to [[crossed complex]]es and then further to complexes of abelian groups to make contact, below, with ordinary notions of sheaf cohomology. 
 
 #The enriched homotopy category#
 
