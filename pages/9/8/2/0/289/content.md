@@ -28,7 +28,7 @@ of [[groupoid|groupoids]] becomes a linear map acting on vector spaces after tak
 
 #Remarks#
 
-* Groupoification is closely related to -- or maybe even synonymous to -- [[geometric function theory]].
+* Groupoidification is closely related to -- or maybe even synonymous to -- [[geometric function theory]].
 
 
 
