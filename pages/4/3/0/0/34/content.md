@@ -2,7 +2,7 @@ Unsurprisingly, _higher category theory_ is the study of higher [[category|categ
 
 #Development of higher category theory#
 
-Higher category theory is still very much in the making. After a long time in which effort was concentrated on finding and comparing definitions of higher categories (see the literature below) more recently a school has established which proposes and uses [[quasicategory|quasicategories]] as the starting point for higher category theory.
+Higher category theory is still very much in the making. After a long time in which effort was concentrated on finding and comparing definitions of higher categories (see the literature below) more recently a school has established which proposes and uses [[quasi-category|quasicategories]] as the starting point for higher category theory.
 
 #Patterns in higher categories#
 
@@ -71,6 +71,7 @@ There's a lot more to add here, even if we restrict ourselves to very general te
 * [[Gray tensor product]]
 * [[infinity-groupoid]]
 * [[infinity-stack]]
+* [[infinity-stack homotopically]]
 * [[k-surjectivity]]
 * [[omega-category]]
 * [[omega-groupoid]]
