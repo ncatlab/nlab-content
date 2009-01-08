@@ -1,4 +1,4 @@
-A _1-fold category_ is a [[category]]. An _$n$-fold category_ for $n \gt 1$ is a category [[internalization|internal to]] $(n-1)$-fold categories.
+A _1-fold category_ is a [[category]]. An _$n$-fold category_ for $n \gt 1$ is a [[internal category|internal to]] $(n-1)$-fold categories.  (A $0$-fold category is a [[set]].)
 
 2-fold categories were introduced as [[double category|double categories]] by Ehresmann (1963).
 
