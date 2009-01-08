@@ -2,12 +2,9 @@
 
 The **simplex category** $\Delta$ encodes one of the main [[geometric shapes for higher structures]]. Its objects are the standard cellular $n$-[[simplex|simplices]].
 
-
 #Definition#
 
-(In all of the following "occupied" is a [[constructivism|constructivist]] substitute for the word "nonempty".)
-
-* The __simplex category__ $\Delta$ is the full [[subcategory]] of [[Cat]] consisting of the finite occupied linear [[quiver]]s.
+* The __simplex category__ $\Delta$ is the full [[subcategory]] of [[Cat]] consisting of the finite occupied (i.e., nonempty) linear [[quiver]]s.
 
 * Equivalently: $\Delta$ is the category of finite occupied [[totally ordered set]]s and order-preserving functions between them.
 
@@ -32,3 +29,7 @@ _[[Mike Shulman|Mike]]_: I think there are many good reasons, including but not 
 _[[Todd Trimble|Todd]]_: Not meaning to nitpick, Mike, since you raise good points, but I believe "linear order" in your sense should mean "linear order with distinct top and bottom". (See for instance the discussion in Mac Lane-Moerdijk.) Presheaves on the augmented $\Delta$ would give the classifying topos for "linear orders with top and bottom" (not necessarily distinct). (If you want just plain linear orders, I think you'd use presheaves on $\Delta_a^{op}$.) 
 
 _Mike_: Yes, of course.
+
+_Toby_: I certainly prefer the algebraists\' $\Delta$; it\'s part of my general preference for not ignoring the [[empty set]]. (Mike\'s example, with Tim\'s correction, only serves to confirm my opinion.) Seeing the universal construction of $\Delta$, I made the article consistent by picking my favourite, which fit that construction.
+
+I didn\'t know a good notation for the topologists\' unaugmented $\Delta$, so I just used a dot as my standard notation for deleting the basepoint: if $X$ is a [[pointed set]] with point $x$, then $\dot X := X \setminus \{x\}$. (I think that I first saw this in point-set topology to turn a neighbourhood of a point into a deleted neighbourhood.) It is by no means sacred.
