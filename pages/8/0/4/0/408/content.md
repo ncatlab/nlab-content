@@ -2,7 +2,7 @@
 
 An _adjunction of two variables_ is a straightforward generalization of both:
 
-* the internal hom in a [[closed category|biclosed]] [[monoidal category]] and
+* the internal hom in a [[closed monoidal category|biclosed monoidal category]] and
 
 * a $V$-enriched category having [[power|powers]] and [[copower|copowers]]
 
