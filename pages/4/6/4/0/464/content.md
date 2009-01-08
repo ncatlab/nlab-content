@@ -1,1 +1,3 @@
-See [[regular category]]. 
+See [[regular epimorphism]].
+
+category: redirect
