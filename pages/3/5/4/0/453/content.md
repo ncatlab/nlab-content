@@ -16,6 +16,22 @@ $$d \stackrel{f}{\to} c \stackrel{f}{\leftarrow} d$$
 
 The kernel pair is always an internal [[equivalence relation]] on $d$ in $C$; informally, $\ker(f)$ is the subobject of $d \times d$ consisting of pairs of elements which have the same value under $f$ (sometimes called the 'kernel' of a function in $\Set$). The coequalizer above is supposed to be the "object of equivalence classes" of the equivalence relation $\ker(f)$. 
 
-A map which is the coequalizer of its own kernel pair is called a _[[regular epimorphism]]_. In fact, in any category satisfying the first two conditions above, every coequalizer is the coequalizer of its kernel pair. (See for instance Paul Taylor's Practical Foundations of Mathematics, Lemma 5.6.6.) 
+A map which is the coequalizer of a parallel pair of morphisms is called a _[[regular epimorphism]]_. In fact, in any category satisfying the first two conditions above, every coequalizer is the coequalizer of its kernel pair. (See for instance Paul Taylor's Practical Foundations of Mathematics, Lemma 5.6.6.) 
 
-(To be continued...)
+The last condition may equivalently be stated in the form "coequalizers of kernel pairs are stable under pullback". However, it is not generally true in a regular category that the pullback of a general coequalizer diagram 
+
+$$e \stackrel{\to}{\to} d \to c$$ 
+
+along a morphism $c' \to c$ is again a coequalizer diagram. 
+
+To form the image factorization of a map $f: d \to c$, let $q: d \to k$ be the coequalizer of the kernel pair of $f$. Since $f$ coequalizes its kernel pair, there is a unique map $i: k \to c$ such that $f = i q$. It may be shown from the regular category axioms that $i$ is monic and in fact represents the [[image]] of $f$, i.e., the smallest subobject through which $f$ factors. Moreover, the class of regular epis and monos forms a [[factorization system]]. 
+
+## Examples
+
+* [[Set]] is a regular category. In fact, any [[topos]] is regular. 
+
+* The category of models of any finitary algebraic theory (i.e., [[Lawvere theory]]) $T$ is regular. This applies in particular to the category [[Ab]] of abelian groups. 
+
+* Any [[abelian category]] is regular. 
+
+* If $C$ is regular, then so is $C^D$ for any category $D$. 
