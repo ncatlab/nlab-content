@@ -50,6 +50,10 @@ Great, I got you to figure it out for me! Now you can tell me if you like my ter
 
 Hmm, I'm not sure.  This sort of thing does seem to crop up a lot and  it might be nice to have a name for it.  On the other hand, "extensive site" could potentially be misinterpreted as meaning either "any site whose underlying category is extensive," or "an extensive category equipped with its extensive coverage," instead of what you want, which is "an extensive category equipped with a coverage that _includes_ its extensive coverage." -Mike
 
+_Toby_: I\'m of the school that believes that when you pile on adjectives, they are allowed to interact to produce additional requirements of compatibility. (Take 'closed monoidal category' for a pretty extreme example.) One can say 'trivial extensive site' for an extensive category equipped with the coverage of coproduct inclusions.
+
+It\'s hard to use Google to determine if 'extensive site' already has a meaning.
+
 =--
 
 #References#
