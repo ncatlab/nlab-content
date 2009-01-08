@@ -8,7 +8,7 @@ More generally, for any 2-categories $C$ and $D$, a 2-functor $C\times\mathbf{2}
 
 Following up on the last comment, $B\otimes C$ can be defined by
 $$ 2Cat(B\otimes C, D) \cong 2Cat(B, Ps(C,D)) $$
-where $Ps(C,D)$ is the 2-category of 2-functors, pseudonatural transformations, and modifications $C\to D$.  In other words, the category 2Cat of strict 2-categories  and strict 2-functors is a [[closed category|closed]] [[monoidal category]] whose tensor product is $\otimes$ and whose internal hom is $Ps(-,-)$.
+where $Ps(C,D)$ is the 2-category of 2-functors, pseudonatural transformations, and modifications $C\to D$.  In other words, the category 2Cat of strict 2-categories  and strict 2-functors is a [[closed monoidal category]] whose tensor product is $\otimes$ and whose internal hom is $Ps(-,-)$.
 
 # Remarks #
 
