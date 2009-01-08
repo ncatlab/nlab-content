@@ -1,4 +1,4 @@
-A  _closed monoidal category module_ $C$ is a [[monoidal category module]] over a [[closed category|closed]] [[monoidal category|symmetric monoidal]] [[category]] $V$ such that the (left) action
+A  _closed monoidal category module_ $C$ is a [[monoidal category module]] over a [[closed monoidal category|closed]] [[monoidal category|symmetric monoidal]] [[category]] $V$ such that the (left) action
 
 $$
   \otimes : V \times C \to C
