@@ -91,4 +91,24 @@ John Baez and Peter May.
 topological 2-group](http://arxiv.org/abs/0801.3843), with Danny Stevenson, to appear in the
 proceedings of the 2007 Abel Symposium, eds. Nils Baas <i>et al</i>.
 
+[Convenient categories of smooth spaces](http://arXiv.org/abs/0807.1704), with Alex Hoffnung.
+
+[Categorified symplectic
+geometry and the classical string]((http://arXiv.org/abs/0808.0246), with Alex Hoffnung and Chris Rogers.
+
+[Representations of 2-groups on higher Hilbert
+spaces](http://arxiv.org/abs/0812.4969), with Aristide Baratin, Laurent Freidel and Derek Wise.
+
+[Physics, topology, logic and computation:
+a Rosetta Stone](http://math.ucr.edu/home/baez/rosetta.pdf), with Mike Stay, to appear in <i>New
+Structures in Physics</i>, ed. Bob Coecke.  <b>Draft version.</b>
+
+[A history of n-categorical physics](http://math.ucr.edu/home/baez/history.pdf),
+with Aaron Lauda, to appear in proceedings of 
+<i>Deep Beauty: Mathematical Innovation and the Search for
+an Underlying Intelligibility of the Quantum World</i>, ed. 
+Hans Halvorson.  <b>Draft version.</b>
+
+[Higher gauge theory II: 2-connections](http://math.ucr.edu/home/baez/2conn.pdf), with Urs Schreiber.  <b>Draft version.</b>
+
 category: people
