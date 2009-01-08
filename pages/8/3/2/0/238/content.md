@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-08
 
+* [[Toby Bartels]]
+  * Mike and I are discussing terminology at [[Grothendieck topology]] and [[extensive category]] (possibly also elsewhere).
+  * I wrote [[regular epimorphism]].
+
 * [[John Baez]]
 
   * worked pertinent discussion into body of [[monoidal category]]
