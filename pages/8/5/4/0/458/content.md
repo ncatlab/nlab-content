@@ -16,7 +16,7 @@ A **frame homomorphism** $\ph: A\to B$ is a function which preserves finite meet
 
 By the [[adjoint functor theorem]] for posets, a frame also has all meets, but a frame homomorphism need not preserve them.  Again by the AFT, a frame is automatically a [[Heyting algebra]], but again a frame homomorphism need not preserve the Heyting implication.
 
-The [[category]] of **locales** is the [[opposite category|opposite]] of the category of frames.  That is, a locale $X$ "is" a frame, which we often write as $O(X)$ and call "the frame of open sets in $X$", and a **continuous map** $f:X\to Y$ of locales is a frame homomorphism $f^*:O(Y)\to O(X)$.
+The [[category]] of **locales** is the [[opposite category|opposite]] of the category of frames.  That is, a locale $X$ "is" a frame, which we often write as $O(X)$ and call "the frame of open sets in $X$", and a **continuous map** $f:X\to Y$ of locales is a frame homomorphism $f^*:O(Y)\to O(X)$. If you think of a frame as an algebraic structure (a [[lattice]] satisfying a completeness condition), then this is an example of the [[duality]] of [[space and quantity]].
 
 # Relation to topological spaces #
 
