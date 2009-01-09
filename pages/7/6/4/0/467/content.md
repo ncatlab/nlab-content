@@ -10,6 +10,8 @@ _[[Mike Shulman|Mike]]_: I object to those claims.  For one thing, I think you s
 
 Likewise, while certainly the Yoneda lemma for $\infty$-stacks depends on descent, but since there is a perfectly good $\infty$-Yoneda lemma, for $\infty$-categories that are not stacks which has nothing to do with descent, I think it is only confusing and not helpful to try to draw a connection between descent and the Yoneda lemma.  Really the (basically tautological) connection is between descent and stacks, since the Yoneda lemma can exist without either.
 
+_[[Urs Schreiber|Urs]]_: You are right. I'll try to improve on my choice of terminology. Later today when I find time. I still think it is very useful to think of the descent condition as nothing the condition that the Yoneda statement respects weak equivalences (or at least acyclic fibrations aka covers). But I agree that the way I put it is suboptimal. 
+
 =--
 
 
