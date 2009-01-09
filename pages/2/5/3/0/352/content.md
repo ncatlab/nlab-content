@@ -1,23 +1,21 @@
 #Idea#
 
-An $\infty$-category, sometimes called $\omega$-[[omega-category|category]], is a combinatorial model for _directed space_ hence a model for _higher directed homotopies_.
+In generalization to how an ordinary [[category]] has [[morphism|morphisms]] going between [[object|objects]], and a [[2-category]] has both morphisms (or 1-morphisms) between objects and 2-morphisms (or 2-cells) going between 1-morphisms, in an $\infty$-category (sometimes called an $\omega$-[[omega-category|category]]), there are $j$-morphisms going between $(j-1)$-morphisms for all $j = 1, 2, \ldots$.  (The $0$-morphisms are the objects of the $\infty$-category.)
 
-If the $\infty$-category is not directed it is called an [[infinity-groupoid]] and is then a model for an ordinary space.
+If all the $j$-morphisms in an $\infty$-category are [[equivalence|equivalences]] in some suitable sense, we call the $\infty$-category an $\infty$-[[infinity-groupoid|groupoid]].  In this case we can think of the $j$-morphisms for $j\ge 1$ as "homotopies" and the $\infty$-groupoid as a model for a "space."  By analogy, we can, if we wish, think of an arbitrary $\infty$-category as a combinatorial model for a _directed space_ containing _higher directed homotopies_.
 
-In generalization to how an ordinary [[category]] has 1-[[morphism]]s going between [[object]]s, in an $\infty$-category there are $j$-morphisms going between $(j-1)$-morphisms for $j = 1, 2, \ldots$. (The $0$-morphisms are the objects of the $\infty$-category.)
+There are many different definitions realizing the general idea of $\infty$-category.  Models for $\infty$-categories usually fall into two classes:
 
-There are many different definitions realizing the general idea of $\infty$-category.
-Models for $\infty$-categories usually fall into two classes:
+* in the [[geometric definition of higher category]] an $\infty$-category is a conglomerate of [[geometric shapes for higher structures]] with extra _properties_;
 
-* in the [[geometric definition of higher category]] an $\infty$-category is a conglomerate of [[geometric shapes for higher structures]] with extra properties;
+  * examples are: [[Kan complex]], [[quasi-category]], [[Segal category]], [[opetopic n-category]].
 
-  * examples are: [[Kan complex]], [[quasi-category]]
+* in the [[algebraic definition of higher category]] an $\infty$-category is a conglomerate of [[geometric shapes for higher structures]] with extra _structure_;
 
-* in the [[algebraic definition of higher category]] an $\infty$-category is a conglomerate of [[geometric shapes for higher structures]] with extra structure;
-
-  * examples are: [[bicategory]], [[strict omega-category]].
+  * examples are: [[bicategory]], [[tricategory]], [[simplicially enriched category]], [[strict omega-category]].
 
 One of the tasks of [[higher category theory]] is to relate and organize all these different models to a coherent general theory.
+
 
 ## Strict versus weak ##
 
