@@ -433,3 +433,5 @@ Of course, both are also sort of a cheat, since in order to prove that the biase
 _[[John Baez|John]] says:_ I have attempted to work all the above discussion into the main article.  If we are reasonably happy with my attempt, we can perhaps delete the discussion above.
 
 _Toby_: For the record, I\'m happy with that.
+
+_Mike_: Me too.
