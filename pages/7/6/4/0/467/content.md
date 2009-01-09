@@ -1,12 +1,12 @@
 #Idea#
 
-If regarded from the right perspective, [[sheaf|sheaves]], [[stack|stacks]], [[infinity-stack|infinity-stacks]] on a given site $S$ with their [[descent and codescent|descent conditions]] are nothing but a way of talking about the [[infinity-category]] of [[infinity-category|infinity-categories]] modeled on $S$, in  the sense of [[space and quantity]]: the $\infty$-category of $\infty$-category-valued [[presheaf|presheaves]]/[[sheaf|sheaves]] on $S$.
+From one perspective, [[sheaf|sheaves]], [[stack|stacks]], [[infinity-stack|infinity-stacks]] on a given site $S$ with their [[descent and codescent|descent conditions]] are nothing but a way of talking about the [[infinity-category]] of [[infinity-category|infinity-categories]] modeled on $S$, in  the sense of [[space and quantity]]: the $\infty$-category of $\infty$-category-valued [[presheaf|presheaves]]/[[sheaf|sheaves]] on $S$.
 
 In particular, the all-important [[descent and codescent|descent condition]] is from this perspective nothing but the condition that the [[Yoneda lemma]] extends to respect higher categorical [[equivalence|equivalences]]: 
 
 for $X \in S$ a representable $\infty$-category valued presheaf, $Y \stackrel{\simeq}{\to} X$ a weakly equivalent replacement of $X$, descent says that the usual statement of the [[Yoneda lemma]] for an $\infty$-category valued presheaf $\mathbf{A}$ -- that $[X,\mathbf{A}] \simeq \mathbf{A}(X)$ -- extends along the weak equivalence to yield also $\cdots \simeq [Y,\mathbf{A}]$.
 
-The $\infty$-category valued presheaves satisfying this condition represent the objects in the proper $\infty$-category of $\infty$-category valued presheaves, which is usefully conceived as a suitable [[enriched homotopy theory|enriched homotopy category]]: these are the _$\infty$-stacks._
+The $\infty$-category valued presheaves satisfying this condition represent the objects in the proper $\infty$-category of $\infty$-category valued presheaves/sheaves, which is usefully conceived as a suitable [[enriched homotopy theory|enriched homotopy category]]: these are the _$\infty$-stacks._
 
 Switching back perspective from presheaves to spaces, and reading the Yoneda lemma as the consistency condition on this interpretation (as indicated at [[Yoneda lemma]]), this  says that $\infty$-stacks on a site $S$ are nothing but $\infty$-categories consistently modeled on $S$. For instance a 0-stack=[[sheaf]] modeled on $S = $[[Diff]] may be a [[generalized smooth space]], while a 1-stack=[[stack]] modeled on [[Diff]] may be a [[differentiable stack]] representing a [[Lie groupoid|smooth groupoid]].
 
@@ -23,6 +23,8 @@ _[[Mike Shulman|Mike]]_: I object to those claims.  For one thing, I think you s
 Likewise, while certainly the Yoneda lemma for $\infty$-stacks depends on descent, but since there is a perfectly good $\infty$-Yoneda lemma, for $\infty$-categories that are not stacks which has nothing to do with descent, I think it is only confusing and not helpful to try to draw a connection between descent and the Yoneda lemma.  Really the (basically tautological) connection is between descent and stacks, since the Yoneda lemma can exist without either.
 
 _[[Urs Schreiber|Urs]]_: I agree, I didn't phrase that well. I still think it is important for a good general understanding to emphasize that the descent condition is just the extension of the Yoneda statement along weak equivalences, though. The above is my attempt to keep that point while taking into account your sensible objections. Let me know if this is better now.
+
+_Mike_: Yes, this is much better, thanks.  Feel free to delete this discussion now.  I went ahead and deleted the stalkwise objection below.
 
 =--
 
@@ -52,30 +54,21 @@ So let
 
 ***
 
-###Discussion ###
-
-Originally the above paragraph contained a statement about stalkwise weak equivalences, which promted the following quetsion. More details on this point are now being moved to the examples below
-
-+--{.query}
-
-_Mike_: What is the meaning of "stalkwise" for an arbitrary site?  The only notion of "stalk" I can think of for sheaves on an arbitrary site is a preimage under some geometric morphism ("point") $Set = Sh(1) \to Sh(S)$ (or maybe some enriched version thereof).  But there are very nontrivial sites $S$ such that $Sh(S)$ has no points, so this doesn't work in full generality.
-
-=--
-
-***
-
 The $V$-[[enriched homotopical category]] $C$ is our generic model for an $\infty$-category of [[infinity-category|infinity-categories]] modeled on $S$.
 
 ## Examples ##
 
-* Let $S = pt$ be the terminal category so that $C = V$ and take $V$ to be any of the examples listed at [[monoidal model category]], such as [[Cat]], [[strict 2-category|2Cat]], probably [[strict omega-category|omegaCat]] (but here the [[pushout-product axiom]] still needs to be checked), or [[simplicial set|SimpSet]]. Even though for such simple $S$ there is no nontrivial "topology" in the game, the notion of $\infty$-stack resulting from this setup is still interesting: it encodes for instance [[nonabelian cohomology]] of finite (really: discrete) groups, $\infty$-groups, $\infty$-[[groupoids]].
+* Let $S = pt$ be the terminal category so that $C = V$ and take $V$ to be any of the examples listed at [[monoidal model category]], such as [[Cat]], [[strict 2-category|2Cat]], probably [[strict omega-category|omegaCat]] (but here the [[pushout-product axiom]] still needs to be checked), or [[simplicial set|SimpSet]]. Even though for such simple $S$ there is no nontrivial "topology" in the game, the notion of descent resulting from this setup is still interesting: it encodes for instance [[nonabelian cohomology]] of finite (really: discrete) groups, $\infty$-groups, $\infty$-[[groupoids]].
 
-* Let $S =$ [[Top]] with its standard [[Grothendieck topology]] and let $V = $ [[simplicial set|SimpSet]]. 
-The natural notion of local weak equivalences on $Sh(S,V)$ then are those morphisms $f : \mathbf{A} \to \mathbf{B}$ which induce isomorphisms of sheaves of simplicial homotopy groups under all functors 
-$\pi_n : SimpSet \to Groups$. If $S$ has enough points, 
-then this is equivalent to $f$ being a stalkwise weak equivalence of simplicial sets, using the [[model structure on simplicial sets]] (see for instance section 1
-of [JardStackSSh](http://intlpress.com/HHA/v3/n2/a5/v3n2a5.pdf)). 
-Then I think that the $Ho_V$-enriched category $Ho_C$ is the $SimpSet$-eriched homotopy category of simplicial presheaves  that is discussed in [ToenSNAC]() and [ToenHDS](). As described in [ToenHDS](), one can think of this $C$ as modelling the collection of [[(infinity,1)-category|(infinity,1)-categories]].
+* If $S$ is any site and $V = $ [[simplicial set|SimpSet]], then the natural notion of local weak equivalences in $Sh(S,V)$ are those morphisms $f : \mathbf{A} \to \mathbf{B}$ which induce isomorphisms of sheaves of simplicial homotopy groups under all functors $\pi_n : SimpSet \to Groups$.  If $S$ has enough points (such as the site of open sets of a topological space), then this is equivalent to $f$ being a stalkwise weak equivalence of simplicial sets, using the [[model structure on simplicial sets]] (see for instance section 1 of [JardStackSSh](http://intlpress.com/HHA/v3/n2/a5/v3n2a5.pdf)).  Then I think that the $Ho_V$-enriched category $Ho_C$ is the $SimpSet$-enriched homotopy category of simplicial presheaves that is discussed in [ToenSNAC]() and [ToenHDS]().
+
+  * Intuitively, we would like to let $S =$ [[Top]] with its standard [[Grothendieck topology]] to obtain a notion of "$\infty$-category modeled on spaces."  But since $Top$ is a [[large category]], we need instead to do something like take a small full subcategory of it.  As described in [ToenHDS](), one can think of this $C$ as modelling the collection of [[(infinity,1)-category|(infinity,1)-categories]].
+
++--{.query}
+
+_Mike_: I don't understand that last sentence.
+
+=--
 
 * Let $S = $ [[Diff]] and with its standard [[Grothendieck topology]] and $V = $ [[strict omega-category|omegaCat]]. The $C$ is the model for smooth $\infty$-categories used in [[schreiber:Differential Nonabelian Cohomology]].
 
@@ -117,11 +110,11 @@ and
 
 * for $S = pt$, $V = $ [[crossed complex|CrossedComplexes]]: this is the context of results about cohomology in [[Nonabelian algebraic topology]];
 
-* for $S = $ [[Top]] and $V = $ [[simplicial set|SimpSet]] this are pretty much the statements in [ToenHDS](http://arxiv.org/abs/math.AG/0604504):
+* for $V = $ [[simplicial set|SimpSet]] these are pretty much the statements in [ToenHDS](http://arxiv.org/abs/math.AG/0604504):
 
-  * $C$ is the category of simplicial sheaves (middle of p. 11);
+  * $C$ is the category of simplicial sheaves on $S$ (middle of p. 11);
 
-  * the right derived $(V =SimpSet)$-eriched Hom is denoted there $Map(F,G) := R Hom(F,G)$ (for instance middle of p. 14)
+  * the right derived $(V =SimpSet)$-enriched Hom is denoted there $Map(F,G) := R Hom(F,G)$ (for instance middle of p. 14)
 
   * sheaf cohomology is reproduced as indicated, for instance p. 7 of [ToenSNAC].
 
