@@ -14,7 +14,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Mike Shulman]]:
 
-  * Continued my discussions with Toby at [[Grothendieck topology]], [[extensive category]], and [[constructivism]], including one that should be moved to [[predicativism]].  Started a new discussion at [[infinity-stack homotopically]].
+  * Continued my discussions with Toby at [[Grothendieck topology]], [[extensive category]], and [[constructivism]], including one that should be moved to [[predicativism]].
+
+  * Started new discussions at [[infinity-stack homotopically]], [[k-tuply monoidal n-category]], and [[inhabited set]].
 
   * Added the unit axiom to [[monoidal model category]].
 
