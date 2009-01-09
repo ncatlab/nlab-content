@@ -20,7 +20,7 @@ There are, however, differences among constructivists as well.
 
 * The most extreme position of all is to deny even the existence of very large finite sets.  This is called [[ultrafinitism]].  According to [Wikipedia](http://en.wikipedia.org/wiki/Ultrafinitism), "even constructivists generally view [ultrafinitism] as unworkably extreme."
 
-Many constructivists (like many classical mathematicians) believe in an absolute mathematical sense of "truth," and that in this sense choice and excluded middle are _not_ true (and may even be false).  To most mathematicians, this makes them seem quite strange.
+Many constructivists (like many classical mathematicians) believe in an absolute mathematical sense of "truth," and that in this sense choice and excluded middle are simply _wrong_. (Some constructivists, using classically false axioms, can even refute them; others merely claim that no possible correct reasoning could ever prove them.) To most mathematicians, this makes them seem quite strange.
 
 +--{.query}
 
@@ -31,6 +31,10 @@ _Toby_: Take Errett Bishop. In his analysis book, he says that a statement is tr
 I\'m not sure that I agree with Bishop. I\'m just trying to be true to his language and views. Probably I should just rewrite that paragraph. Certainly _some_ constructivists can refute excluded middle; Bishop can\'t, but he still claims that it is, in an objective sense, wrong.
 
 _Mike:_ Okay, one thing I was forgetting about is the difference (even in the constructive logic I am familiar with, namely the logic of toposes) between "false = not true" and "not assertable."  But it sounds from what you say as though there might even be a further distinction in some constructivist philosophy?
+
+_Toby_: I think that there are two relevant complications that appear in distinguishing true from false: constructive logic, and the difference between object language and metalanguage. In the former, it\'s still true that $\bot = \neg \top$ (even though $\top \ne \neg \bot$), so that alone adds nothing; in the latter we see the difference between $\neg \vdash \phi$ and $\vdash \neg \phi$. This appears in classical mathematics as well as constuctive, but I think that a constructivist attitude leads one to *speak* of it in different ways. (Or may so lead one; I don\'t speak like Bishop, even when I\'m being a hard-nosed constructivist, and I may not really understand what he means.)
+
+In any case, I\'ve rewritten the paragraph.
 
 =--
 
@@ -67,6 +71,8 @@ _Mike_: Is excluded middle really necessary for this?  I thought that countable 
 _Toby_: Ah, this is the old problem that English doesn\'t easily distinguish $\neg(p \wedge q)$ from $\neg{p} \wedge \neg{q}$. You\'re not mistaken.
 
 _Mike_: Are you claiming that they are the same with excluded middle, but without countable choice?  I don't see why that should be so; it seems that to construct a Cauchy sequence from a Dedekind cut you need to make a bunch of choices.
+
+_Toby_: Yes, that is what I\'m claiming. Using excluded middle, you can specify a procedure for making the choices all at once. (Say, take the smallest exact multiple of $1/n$ in the upper set; you need infinitely many applications of excluded middle to conclude that such a 'smallest' always exists, but the result, once it exists, is unique, so there are no further choices.) See (Bridges et al, 1998) for a full discussion.
 
 =--
 
