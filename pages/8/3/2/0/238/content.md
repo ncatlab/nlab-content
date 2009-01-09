@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-09
 
+* [[Urs Schreiber|Urs]]: 
+
+  * reacted to [[Mike Shulman|Mike]]'s comments at [[infinity-stack homotopically]]
+
 * [[Mike Shulman]]:
 
   * Continued my discussions with Toby at [[Grothendieck topology]], [[extensive category]], and [[constructivism]], including one that should be moved to [[predicativism]].
