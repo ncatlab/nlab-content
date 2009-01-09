@@ -48,27 +48,34 @@ So let
 
 * $V$ be a [[closed monoidal homotopical category]];
 
-* $C := Sh(S,V)$ be the category of $V$-valued [[sheaf|sheaves]] on $S$ such that it becomes a $V$-[[enriched homotopical category]] with weak equivalences the _stalkwise_ weak equivalences of $V$.
+* $C := Sh(S,V)$ be the category of $V$-valued [[sheaf|sheaves]] on $S$ such that it becomes a $V$-[[enriched homotopical category]] with some induced (usually local) notion of weak equivalences.
+
+***
+
+###Discussion ###
+
+Originally the above paragraph contained a statement about stalkwise weak equivalences, which promted the following quetsion. More details on this point are now being moved to the examples below
 
 +--{.query}
 
 _Mike_: What is the meaning of "stalkwise" for an arbitrary site?  The only notion of "stalk" I can think of for sheaves on an arbitrary site is a preimage under some geometric morphism ("point") $Set = Sh(1) \to Sh(S)$ (or maybe some enriched version thereof).  But there are very nontrivial sites $S$ such that $Sh(S)$ has no points, so this doesn't work in full generality.
 
-[[Urs Schreiber|Urs]]: Right, this is a point I was glossing over. I am thinking that we shouldn't actually be talking about stalks here but
-
-1. assume that our site is such that infinite unions of covers are still covers;
-
-2. define a _local weak equivalence_ (or a _local fibration_) of sheaves $f : \mathbf{A} \to \mathbf{B}$ to be one such that for all objects $U \in S$ in the site there is a cover $Y$ such that $\mathbf{A}(Y) \to \mathbf{B}(Y)$ is a weak eqivalence (or a fibration) in $V$.
-
 =--
 
-The $V$-[[enriched homotopical category]] $C$ is our generic model for an $\infty$-category of [[infinity-category|infinity-categories]].
+***
+
+The $V$-[[enriched homotopical category]] $C$ is our generic model for an $\infty$-category of [[infinity-category|infinity-categories]] modeled on $S$.
 
 ## Examples ##
 
 * Let $S = pt$ be the terminal category so that $C = V$ and take $V$ to be any of the examples listed at [[monoidal model category]], such as [[Cat]], [[strict 2-category|2Cat]], probably [[strict omega-category|omegaCat]] (but here the [[pushout-product axiom]] still needs to be checked), or [[simplicial set|SimpSet]]. Even though for such simple $S$ there is no nontrivial "topology" in the game, the notion of $\infty$-stack resulting from this setup is still interesting: it encodes for instance [[nonabelian cohomology]] of finite (really: discrete) groups, $\infty$-groups, $\infty$-[[groupoids]].
 
-* Let $S =$ [[Top]] with its standard [[Grothendieck topology]] and let $V = $ [[simplicial set|SimpSet]]. Then I think that the $Ho_V$-enriched category $Ho_C$ is the $SimpSet$-eriched homotopy category of simplicial presheaves  that is discussed in [ToenSNAC]() and [ToenHDS](). As described in [ToenHDS](), one can think of this $C$ as modelling the collection of [[(infinity,1)-category|(infinity,1)-categories]].
+* Let $S =$ [[Top]] with its standard [[Grothendieck topology]] and let $V = $ [[simplicial set|SimpSet]]. 
+The natural notion of local weak equivalences on $Sh(S,V)$ then are those morphisms $f : \mathbf{A} \to \mathbf{B}$ which induce isomorphisms of sheaves of simplicial homotopy groups under all functors 
+$\pi_n : SimpSet \to Groups$. If $S$ has enough points, 
+then this is equivalent to $f$ being a stalkwise weak equivalence of simplicial sets, using the [[model structure on simplicial sets]] (see for instance section 1
+of [JardStackSSh](http://intlpress.com/HHA/v3/n2/a5/v3n2a5.pdf)). 
+Then I think that the $Ho_V$-enriched category $Ho_C$ is the $SimpSet$-eriched homotopy category of simplicial presheaves  that is discussed in [ToenSNAC]() and [ToenHDS](). As described in [ToenHDS](), one can think of this $C$ as modelling the collection of [[(infinity,1)-category|(infinity,1)-categories]].
 
 * Let $S = $ [[Diff]] and with its standard [[Grothendieck topology]] and $V = $ [[strict omega-category|omegaCat]]. The $C$ is the model for smooth $\infty$-categories used in [[schreiber:Differential Nonabelian Cohomology]].
 
@@ -76,16 +83,16 @@ The $V$-[[enriched homotopical category]] $C$ is our generic model for an $\inft
 
 #The enriched homotopy category#
 
-The $Ho_V$-[[enriched category]] $Ho_C$ is now our model for the $\infty$-category if $\infty$-categories. The claim is:
+The $Ho_V$-[[enriched category]] $Ho_C$ is now our model for the $\infty$-category if $\infty$-categories modeled on $S$. The claim is:
 
-* $\infty$-stacks on $S$ are nothing but the morphisms in $Ho_C$;
+* $\infty$-stacks on $S$ are nothing but the objects in $Ho_C$;
 
-* the [[descent and codescent|descent condition]] condition on these morphisms in just the $\infty$-version of the [[Yoneda lemma]] which says that for $X \in S \subset C$ a space and $Y \in C$ a [[cover]] $Y \stackrel{\simeq}{\to} X$ in $C$ the ordinary [[Yoneda lemma]] which says that 
-$$
-  Ho_C(X,\mathbf{A}) \simeq \mathbf{A}(X)
-$$ 
+* the [[descent and codescent|descent condition]] on these morphisms is an extension of the statement of the [[Yoneda lemma]] -- which says that for $X \in S \subset C$ a space and $Y \in C$ a [[cover]] $Y \stackrel{\simeq}{\to} X$ we have
+$
+  [X,\mathbf{A}] \simeq \mathbf{A}(X)
+$ -- 
 extends to a statement which respects the weak equivalence $Y \stackrel{\simeq}{\to} X$ in that also 
-$$\mathbf{A}(X) \stackrel{\simeq}{\to} Desc(Y,\mathbf{A}) := Ho_C(Y,\mathbf{A})$$
+$$\mathbf{A}(X) \stackrel{\simeq}{\to} Desc(Y,\mathbf{A}) := [Y,\mathbf{A}]$$;
 
 * the morphisms of $Ho_C$ are (of course) computed by the [[derived functor|right-derived Hom-functor]] in $C$
 $$
@@ -121,6 +128,8 @@ and
 ...
 
 # References #
+
+* **JardStackSSh** -- J. Jardine, _Stacks and the homotopy theory of simplicial sheaves_, Homology, homotopy and applications, vol. 3(2), 2001 p. 361-284 ([pdf](http://intlpress.com/HHA/v3/n2/a5/v3n2a5.pdf))
 
 * **ToenSNAC** -- B. To&#235;n, [[ToenStacksNAC.pdf:file]]
 
