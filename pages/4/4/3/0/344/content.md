@@ -58,6 +58,8 @@ _Mike_: I would argue that in "closed monoidal category" the adjective "closed" 
 
 _Toby_: And similarly, 'extensive' modifies 'site', not 'category' (which doesn\'t actually appear, so this practice can only be more justified). (^_^)
 
+_Mike_: I am now firmly convinced that we should _not_ use "extensive site" for this, because it seems to be an otherwise universal convention that the same adjective is applied to the coverage and the site.  For example, in A2.1.11(b) the Elephant uses "coherent site" for "coherent category equipped with its coherent coverage," without even formally defining "coherent site" (only "coherent coverage").  And I believe algebraic geometers speak of "the Zariski site" or "the etale site" meaning some appropriate category equipped with the Zariski coverage or the etale coverage.  So I believe "extensive site" should really mean "an extensive category equipped with its extensive coverage."
+
 =--
 
 #References#
