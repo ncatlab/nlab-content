@@ -60,6 +60,10 @@ _Toby_: And similarly, 'extensive' modifies 'site', not 'category' (which doesn\
 
 _Mike_: I am now firmly convinced that we should _not_ use "extensive site" for this, because it seems to be an otherwise universal convention that the same adjective is applied to the coverage and the site.  For example, in A2.1.11(b) the Elephant uses "coherent site" for "coherent category equipped with its coherent coverage," without even formally defining "coherent site" (only "coherent coverage").  And I believe algebraic geometers speak of "the Zariski site" or "the etale site" meaning some appropriate category equipped with the Zariski coverage or the etale coverage.  So I believe "extensive site" should really mean "an extensive category equipped with its extensive coverage."
 
+_Toby_: And here I was thinking that I should complain about this very language! I don\'t know about coherent sites, but certainly there are plenty of extensive sites (in the general sense) that aren\'t extensive sites (in the restricted sense), including what is arguably the original large site ($\Top$). If you *want* the restricted sense, then you only have to add an adjective ('trivial'), but what do you do if you want the general sense?
+
+But perhaps you have an answer for that?
+
 =--
 
 #References#
