@@ -10,6 +10,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-01-09
+
+* [[Mike Shulman]]:
+
+  * Continued my discussions with Toby at [[Grothendieck topology]], [[extensive category]], and [[constructivism]], including one that should be moved to [[predicativism]].  Started a new discussion at [[infinity-stack homotopically]].
+
+  * Added the unit axiom to [[monoidal model category]].
+
 # 2009-01-08
 
 * [[Toby Bartels]]
