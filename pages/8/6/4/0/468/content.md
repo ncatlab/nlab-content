@@ -8,7 +8,7 @@ The _pushout-product axtiom_ is a compatibility condition between
 
 on a category.
 
-[[closed monoidal category|Closed]] [[monoidal category|symmetric monoidal categories]] satisfying the pushout-product axiom are called [[monoidal model category|monoidal model categories]] and hence are in particular [[closed monoidal homotopical category|closed monoidal homotopical categories]].
+[[closed monoidal category|Closed]] [[monoidal category|symmetric monoidal categories]] satisfying the pushout-product axiom, together with a unit condition, are called [[monoidal model category|monoidal model categories]] and hence are in particular [[closed monoidal homotopical category|closed monoidal homotopical categories]].
 
 This is relevant in [[enriched homotopy theory]], which pairs [[enriched category theory]] with [[homotopy theory]].
 
@@ -31,3 +31,5 @@ is a cofibration which is acyclic if $f$ or $f'$ is.
 * This implies in particular that tensoring with cofibrant objects preserves cofibrations and acyclic cofibrations.
 
 * However the tensor product of two (acyclic) cofibrations is in general not an (acyclic) cofibration.
+
+* The pushout-product axiom makes sense more generally in the context of a [[two-variable adjunction]] between model categories.  This is important in [[enriched homotopy theory]].
