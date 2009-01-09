@@ -8,23 +8,17 @@ A category $C$ is **regular** if
 
 * The [[kernel pair]] $p_1, p_2: e \,\rightrightarrows\, d$ of any $f: d \to c$ admits a [[coequalizer]];  and
 
-* The pullback of a regular epi along any map is a regular epi.
+* The pullback of a [[regular epimorphism]] along any map is again a regular epi.
 
-Here the "kernel pair" is the parallel pair of projection maps coming out of a pullback $e$ of the diagram 
+The last condition may equivalently be stated as "coequalizers of kernel pairs are stable under pullback".  However, it is not generally true in a regular category that pullbacks preserve all coequalizer _diagrams_.
 
-$$d \stackrel{f}{\to} c \stackrel{f}{\leftarrow} d$$
 
-The kernel pair is always an internal [[equivalence relation]] on $d$ in $C$; informally, $\ker(f)$ is the subobject of $d \times d$ consisting of pairs of elements which have the same value under $f$ (sometimes called the 'kernel' of a function in $\Set$). The coequalizer above is supposed to be the "object of equivalence classes" of the equivalence relation $\ker(f)$. 
+## Image factorization
 
-A map which is the coequalizer of a parallel pair of morphisms is called a _[[regular epimorphism]]_. In fact, in any category satisfying the first two conditions above, every coequalizer is the coequalizer of its kernel pair. (See for instance Paul Taylor's Practical Foundations of Mathematics, Lemma 5.6.6.) 
+To form the image factorization of a map $f: d \to c$, let $q: d \to k$ be the coequalizer of the kernel pair of $f$. Since $f$ coequalizes its kernel pair, there is a unique map $i: k \to c$ such that $f = i q$. It may be shown from the regular category axioms that $i$ is monic and in fact represents the [[image]] of $f$, i.e., the smallest subobject through which $f$ factors.  Moreover, the class of regular epis and monos forms a [[orthogonal factorization system|factorization system]], and therefore the regular epimorphisms coincide with the [[extremal epimorphism]]s.
 
-The last condition may equivalently be stated in the form "coequalizers of kernel pairs are stable under pullback". However, it is not generally true in a regular category that the pullback of a general coequalizer diagram 
+Conversely, one can show that a finitely complete category in which the extremal epimorphisms and monomorphisms form a factorization system and extremal epis are preserved by pullbacks is necessarily regular, and the extremal and regular epis coincide.
 
-$$e \stackrel{\to}{\to} d \to c$$ 
-
-along a morphism $c' \to c$ is again a coequalizer diagram. 
-
-To form the image factorization of a map $f: d \to c$, let $q: d \to k$ be the coequalizer of the kernel pair of $f$. Since $f$ coequalizes its kernel pair, there is a unique map $i: k \to c$ such that $f = i q$. It may be shown from the regular category axioms that $i$ is monic and in fact represents the [[image]] of $f$, i.e., the smallest subobject through which $f$ factors. Moreover, the class of regular epis and monos forms a [[factorization system]]. 
 
 ## Examples
 
@@ -34,4 +28,11 @@ To form the image factorization of a map $f: d \to c$, let $q: d \to k$ be the c
 
 * Any [[abelian category]] is regular. 
 
-* If $C$ is regular, then so is $C^D$ for any category $D$. 
+* If $C$ is regular, then so is $C^D$ for any category $D$.
+
+
+## Remarks
+
+* If $C$ is regular, then its [[subobject]] preorders $Sub(X)$ (which have finite meets, since $C$ has finite limits) have the property that for any map $f:X\to Y$, the pullback functor $f^*:Sub(Y)\to Sub(X)$ has a left adjoint $\exists_f$, and the [[Beck-Chevalley condition]] is satisfied for any pullback square.
+
+* Every regular category has an [[internal logic]] which is [[regular logic]].
