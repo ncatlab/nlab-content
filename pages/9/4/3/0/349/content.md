@@ -96,30 +96,18 @@ _Toby_: OK, I see that Johnstone\'s notion of 'coverage' is good because you can
 
 I remembered that paper as having a couple of different kinds of local modalities, but now I see that really it had a couple of different kinds of 'geometric logic' instead, so that\'s all right.
 
-_Mike_: Another thing worth mentioning is that passage from a collection of covering families ("coverage") to a collection of sieves ("Grothendieck coverage") is a higher-order construction.  One thing this means is that you can't do it if you happen to be a [[predicativism|predicativist]]; thus to study "predicative sheaves" you need to use covering families instead of sieves.  Another thing it means, which I care more about, is that many common coverages can be discussed in the first-order language of a category, while the corresponding Grothendieck coverages require an external set theory.  For instance, I can say "a [[pretopos]] is a [[stack]] for its [[coherent category|coherent]] coverage" in the first-order language of a category, but not if I replace "coverage" by "Grothendieck coverage."
+_Mike_: Another thing worth mentioning ... moved to [[predicativism]].
 
 In the other conversation we seem to be having simultaneously, now I think I might actually prefer _geometric modality_ over "local modality."  It's not really the modality that's local, so "locality modality" would be more correct, if it didn't have an unfortunate rhyme.  But "geometric modality" doesn't have that problem and also suggests that they induce geometric morphisms.
 
 _Toby_: Ah, but now you run into conflicts with other meanings of 'geometric logic' in modal logic! It\'s wrong to favour 'locality modality' for the cute rhyme, but we shouldn\'t reject it if it\'s really correct.
 
-If you\'re going to a predicativist, then you really have to take the attitude that a structure is defined by an arbitrary family of sets, and the closure conditions can be used afterwards (if the concept is really susceptible to predicativist understanding) to define equivalence of structures. (Note that a 'family of subsets' of $X$ is equivalent to an index set $I$ and a single subset of $I \times X$.)
-
-For example, define a topological space to be a set equipped with an arbitrary family of subsets, called 'subbasic open sets'. Define an 'open set' to be a subset whose every point belongs to the intersection of some finite family of subbasic open sets. Define two topologies on a given set to be equivalent if every subbasic open set in either is open in the other. All of this is predicative.
-
-Actually, if you want to be finitist (in the sense that you have no axiom of infinity and hence no language to state that a family is 'finite') as well, then you must be subtler. Define a topological space to be a set equipped with a family of subsets (now called 'basic open sets') such that nullary and binary intersections of basic open sets are basic open sets (or at least always contain one). Define an 'open set' to be a subset whose every point belongs to some basic open set. Define equivalence as before.
-
-These justify the importance of the concepts of 'basis' and 'subbasis' for a topology, taught in schools today. Perhaps there is a similar justification for 'coverage'? (Or for 'Grothendieck pretopology', for that matter?)
-
-_Mike:_ Okay, well, I retract my comment about predicativism, since it is clear that I don't understand (nor, really, care much about) predicative math.  But my other comment about being first-order still stands.
-
-What are the other meanings of "geometric"?  I didn't notice any in the paper you linked to but maybe I didn't look hard enough.
+_Mike:_ What are the other meanings of "geometric"?  I didn't notice any in the paper you linked to but maybe I didn't look hard enough.
 
 _Toby_: See Sections 3.2 and 4.5. I think that you can argue that the former should really be called 'topological', while the latter seems to refer (it\'s not clear to me) to an outdated understand of 'geometry' as meaning Euclid\'s axioms; but they do show that 'geometric modality' could be misconstrued by at least some people. Thus I would still prefer 'Lawvere&#8211;Tierney modality', at least when inventing a new term.
 
-I\'d hoped that my example might give predicatvism (at least in the sense of not having a small set of truth value) some interest. I expect that it\'s related to being first-order and internalisable; after all, the internal logic of many categories is predicative, and rejecting power sets may be seen as an attempt to do all of mathematics in a first-order way. Ah, well.
-
 _Mike_: Actually, I think the one in section 3.2 is actually a special case of what we're doing here--I think there's a coverage on the poset $P(X)$ of all subsets of a topological space whose covers are the families with topologically-dense image.  As for the one in 4.5, I don't think that a single speculative sentence in a paper in 1957, if it was never pursued or made precise, prevents us from using "geometric modality" to mean something different that it is evidently well-suited for.
 
-Perhaps we should move the discussion about predicativity to [[predicativism]]?  (Feel free to do so, snipping out the relevant paragraphs of my responses, if you like.)  I also once had the thought that predicative math was interesting because of the internal logic of non-toposes.  However, I have not encountered any naturally occurring examples (relative to classical mathematics) of, say, locally cartesian closed pretoposes which are not actually toposes.  I am not a philosophical constructivist.  I like constructive proofs for the same reason I like to prove things about arbitrary rings rather than about the integers: the result is more general and applies in more contexts.  Toposes (of sheaves, usually) arise naturally in classical mathematics, so it is a good thing to know what proofs can be interpreted internally in a topos.  If I knew a similar class of locally cartesian closed pretoposes that arose naturally in classical mathematics, I would be more favorably inclined towards predicativism.
+_Toby_: OK, fair enough; I prefer the eponym only on general grounds of safety.
 
 =--
