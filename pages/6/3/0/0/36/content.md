@@ -30,21 +30,7 @@ Like [[categorification]], there is currently no completely general formal defin
 
 * More generally, the algebras for any [[Lawvere theory]] can be internalized in the doctrine of categories with finite products, and the algebras for any (symmetric) [[operad]] (in $Set$) can be internalized in the doctrine of (symmetric) monoidal categories.
 
-* Pretty much any structure at all in mathematics can be internalized in a [[topos]].  Note, though, that since the [[internal logic]] of a topos is constructive, differences in axiomatization that make no difference classically can result in actual differences in behavior in a topos.  See [[constructivism]] for some examples.  On the other hand, if the topos satisfies the [[axiom of choice]] (and in particular is [[boolean topos|boolean]]), then this complication won\'t happen.
-
-+--{.query}
-
-_Mike_: Do you have anything in mind that "cannot be understood in constructive mathematics"?  The _behavior_ of many structures may depend on classical logic or the axiom of choice, but I'm failing to think of any _definitions_ that don't make sense constructively.
-
-_Toby_: The definitions make sense, but how do you know which definitions are correct? People still argue over the correct constructive definitions of 'finite set', 'real number', 'ordinal number', 'topological space', and 'functor', to name a few. Of course, you can settle on a definition and then create a new term if necessary, and sometimes this is the right thing to do. But sometimes the na&#239;ve definition is just wrong, and eventually people realise it. Until we understand what the right constructive definitions are, then we can\'t say that we understand them constructively, or that we can understand them internal to an arbitrary topos.
-
-But I agree that this isn\'t the same as being unable to write down the definition of group in a monoidal category. But when I see a reference say 'A field is a ring in which an element x is invertible if and only if it does not equal zero.', then I know that this reference does not understand what a field is constructively (not that it was trying to) and that its author would probably write down the wrong definition for field internal to an arbitrary topos.
-
-_Mike_: Okay, I see what you mean.  Is what I've written now acceptable?
-
-_Toby_: Yes, I like that. Since I would take 'classical mathematics' to include the axiom of choice (as opposed to 'classical logic', which includes only excluded middle), I\'ve rephrased slightly. (Certainly one can find references with some definition, for example for 'cardinal number', that are only correct if the axiom of choice is true.)
-
-=--
+* Pretty much any structure at all in mathematics can be internalized in a [[topos]].  Note, though, that since the [[internal logic]] of a topos is constructive, differences in axiomatization that make no difference classically can result in actual differences in behavior in a topos.  See [[constructivism]] for some examples.  On the other hand, if the topos satisfies the [[axiom of choice]] (and in particular is [[Boolean category|Boolean]]), then this complication won\'t happen.
 
 #Internalization versus enrichment#
 
