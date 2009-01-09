@@ -2,7 +2,7 @@
 
 In generalization to how an ordinary [[category]] has [[morphism|morphisms]] going between [[object|objects]], and a [[2-category]] has both morphisms (or 1-morphisms) between objects and 2-morphisms (or 2-cells) going between 1-morphisms, in an $\infty$-category (sometimes called an $\omega$-[[omega-category|category]]), there are $j$-morphisms going between $(j-1)$-morphisms for all $j = 1, 2, \ldots$.  (The $0$-morphisms are the objects of the $\infty$-category.)
 
-If all the $j$-morphisms in an $\infty$-category are [[equivalence|equivalences]] in some suitable sense, we call the $\infty$-category an $\infty$-[[infinity-groupoid|groupoid]].  In this case we can think of the $j$-morphisms for $j\ge 1$ as "homotopies" and the $\infty$-groupoid as a model for a "space."  By analogy, we can, if we wish, think of an arbitrary $\infty$-category as a combinatorial model for a _directed space_ containing _higher directed homotopies_.
+If all the $j$-morphisms in an $\infty$-category are [[equivalence|equivalences]] in some suitable sense, we call the $\infty$-category an $\infty$-[[infinity-groupoid|groupoid]].  In this case we can think of the $j$-morphisms for $j\ge 1$ as "homotopies" and the $\infty$-groupoid as a model for a "space."  By analogy, we can, if we wish, think of an arbitrary $\infty$-category as a combinatorial model for a [[directed space]] containing [[directed homotopy theory|higher directed homotopies]].
 
 There are many different definitions realizing the general idea of $\infty$-category.  Models for $\infty$-categories usually fall into two classes:
 
