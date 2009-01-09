@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
+  * added a bit to [[David Corfield|David]]'s entry on the [[generalized tangle hypothesis]]
+
   * reacted to [[Mike Shulman|Mike]]'s comments at [[infinity-stack homotopically]]
 
 * [[Mike Shulman]]:
