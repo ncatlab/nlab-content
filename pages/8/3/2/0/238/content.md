@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Mike Shulman|Mike]]:
 
+  * Created [[coherent category]], [[Boolean category]], [[Heyting category]], [[equivalence relation]], [[kernel pair]], [[exact category]], [[balanced category]], and [[pretopos]].
+
   * Finally got fed up with the nonexistent links to it everywhere and created [[product]].  Also created [[generalized the]].
 
   * Did some rephrasing at [[infinity-category]].
