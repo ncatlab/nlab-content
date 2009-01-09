@@ -2,9 +2,9 @@
 
 If regarded from the right perspective, [[sheaf|sheaves]], [[stack|stacks]], [[infinity-stack|infinity-stacks]] on a given site $S$ with their [[descent and codescent|descent conditions]] are nothing but a way of talking about the [[infinity-category]] of [[infinity-category|infinity-categories]] modeled on $S$, in  the sense of [[space and quantity]]: the $\infty$-category of $\infty$-category-valued [[presheaf|presheaves]]/[[sheaf|sheaves]] on $S$.
 
-In partciular, the all-important [[descent and codescent|descent condition]] is from this perspective nothing but the condition that the [[Yoneda lemma]] extends to respect higher categrical [[equivalence|equivalences]]: 
+In particular, the all-important [[descent and codescent|descent condition]] is from this perspective nothing but the condition that the [[Yoneda lemma]] extends to respect higher categorical [[equivalence|equivalences]]: 
 
-for $X \in S$ a representable $\infty$-category valued presheaf, $Y \stackrel{\simeq}{\to} X$ a weakly equivalent replacement of $X$, descent says that the usual statement of the [[Yoneada lemma]] for an $\infty$-category valued presheaf $\mathbf{A}$ -- that $[X,\mathbf{A}] \simeq \mathbf{A}(X)$ -- extends along the weak equivalence to yield also $\cdots \simeq [Y,\mathbf{A}]$.
+for $X \in S$ a representable $\infty$-category valued presheaf, $Y \stackrel{\simeq}{\to} X$ a weakly equivalent replacement of $X$, descent says that the usual statement of the [[Yoneda lemma]] for an $\infty$-category valued presheaf $\mathbf{A}$ -- that $[X,\mathbf{A}] \simeq \mathbf{A}(X)$ -- extends along the weak equivalence to yield also $\cdots \simeq [Y,\mathbf{A}]$.
 
 The $\infty$-category valued presheaves satisfying this condition represent the objects in the proper $\infty$-category of $\infty$-category valued presheaves, which is usefully conceived as a suitable [[enriched homotopy theory|enriched homotopy category]]: these are the _$\infty$-stacks._
 
@@ -28,7 +28,7 @@ _[[Urs Schreiber|Urs]]_: I agree, I didn't phrase that well. I still think it is
 
 ***
 
-Instead of comitting the following discussion to a fixed model for [[infinity-category|infinity-categories]] or [[omega-category|omega-categories]] I describe the situation in a setup which aims to come close to making the minimum number of necessary assumptions on the ambient context. After discussing the general idea I give concrete examples in concrete realizations of $\infty$-categorical contexts.
+Instead of committing the following discussion to a fixed model for [[infinity-category|infinity-categories]] or [[omega-category|omega-categories]] I describe the situation in a setup which aims to come close to making the minimum number of necessary assumptions on the ambient context. After discussing the general idea I give concrete examples in concrete realizations of $\infty$-categorical contexts.
 
 
 #Setup in enriched homotopy theory#
