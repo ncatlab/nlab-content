@@ -12,6 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-09
 
+* [[Mike Shulman|Mike]]:
+
+  * Finally got fed up with the nonexistent links to it everywhere and created [[product]].  Also created [[generalized the]].
+
+  * Did some rephrasing at [[infinity-category]].
+
 * [[David Corfield|David]]
 
   * started a page on [[generalized tangle hypothesis]].
