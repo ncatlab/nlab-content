@@ -15,7 +15,9 @@ Both [[AQFT]] and [[FQFT]] lead to [[higher category theory|higher categorical s
 
 * John Roberts first conceived the idea of $\infty$-categorical [[nonabelian cohomology]] in the context of [[AQFT]].
 
-* the notion of the "$\infty$-category of [[cobordism]]s", which is thought to play a role analogous to and as fundamental as the [[sphere spectrum]] was motivated from [[FQFT]].
+* the notion of the "$\infty$-category of [[cobordism]]s", which is thought to play a role analogous to and as fundamental as the [[sphere spectrum]] was motivated from [[FQFT]];
+
+* the [[generalized tangle hypothesis]] was formulated by Baez and Dolan in the context of extended topological [[FQFT]].
 
 There are some indications that such [[higher category theory|higher categorical structures]], such as those appearing in [[groupoidification]], are essential for clarifying some of the mysteries of quantum field theory, such as the [[path integral]]. While this is far from being clarified, this is what motivates research in higher categorical structures in QFT. 
 
