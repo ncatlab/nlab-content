@@ -2,11 +2,13 @@ In classical mathematics, a **field** is a commutative [[ring]] in which every n
 
 Fields are not as well-behaved categorically as most other common algebraic structures ([[group]]s, [[ring]]s, [[module]]s, etc.).  In particular, the category of fields is not [[complete category|complete]] or [[cocomplete category|cocomplete]], although it is [[accessible category|accessible]].
 
-For the same reason, in [[constructivism|constructive mathematics]] (such as the [[internal logic]] of a topos) there are different inequivalent ways to define a field.  In this case the above definition is not usually the best one; for instance, the real numbers do not satisfy it. However, if you interpret 'nonzero' and '$\ne$' as references to an [[apartness relation]] and assume that the ring operations are strongly extensional, then the definition becomes a useful one.  There are also other useful constructive notions of "field" which do not require an apartness relation.
+For the same reason, in [[constructivism|constructive mathematics]] (such as the [[internal logic]] of a topos) there are different inequivalent ways to define a field.  In this case the above definition is not usually the best one; for instance, the real numbers do not satisfy it.  There are several different potential replacements with different advantages and disadvantages.
 
-+--{.query}
-Do the real numbers satisfy any of these?
-=--
+* If we interpret 'nonzero' and '$\ne$' as references to an [[apartness relation]] and assume that the ring operations are strongly extensional, then the original definition becomes a useful one.  In particular, the real numbers satisfy it.
+
+* If we replace "every nonzero element is invertible" by the strictly stronger "every element is either zero or invertible," we obtain a notion which has the advantage that it is a [[coherent logic|coherent theory]], but it is also not satisfied by the real numbers.
+
+* If, however, instead we replace it by (the non-coherent axiom) "every non-invertible element is zero," we obtain a notion sometimes called a _residue field_.  The (Dedekind) real numbers are constructively a residue field, as is the quotient of any [[local ring]] by its ideal of noninvertible elements (hence the name "residue field").
 
 ### Discussion ###
 
