@@ -12,6 +12,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-09
 
+* [[Toby Bartels|Toby]]: I talked with Mike (and occasionally made substantive edits, too) at [[field]], [[Grothendieck topology]], [[extensive category]], [[predicativism]], and [[constructivism]].
+
 * [[Mike Shulman|Mike]]:
 
   * Created [[coherent category]], [[Boolean category]], [[Heyting category]], [[equivalence relation]], [[kernel pair]], [[exact category]], [[balanced category]], and [[pretopos]].
