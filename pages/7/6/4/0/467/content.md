@@ -1,8 +1,20 @@
 #Idea#
 
-If regarded from the right perspective, [[sheaf|sheaves]], [[stack|stacks]], [[infinity-stack|infinity-stacks]] with their [[descent and codescent|descent conditions]] are nothing but a way of talking about morphisms between [[infinity-category|infinity-categories]]. Nothing more, nothing less. 
+If regarded from the right perspective, [[sheaf|sheaves]], [[stack|stacks]], [[infinity-stack|infinity-stacks]] on a given site $S$ with their [[descent and codescent|descent conditions]] are nothing but a way of talking about the [[infinity-category]] of [[infinity-category|infinity-categories]] modeled on $S$, in  the sense of [[space and quantity]]: the $\infty$-category of $\infty$-category-valued [[presheaf|presheaves]]/[[sheaf|sheaves]] on $S$.
 
-In partciular, the all-important [[descent and codescent|descent condition]] is from this perspective nothing but the extension of the [[Yoneda lemma]] to a suitable _$\infty$-Yoneda lemma_ where both domain and codomain categories are $\infty$-categories.
+In partciular, the all-important [[descent and codescent|descent condition]] is from this perspective nothing but the condition that the [[Yoneda lemma]] extends to respect higher categrical [[equivalence|equivalences]]: 
+
+for $X \in S$ a representable $\infty$-category valued presheaf, $Y \stackrel{\simeq}{\to} X$ a weakly equivalent replacement of $X$, descent says that the usual statement of the [[Yoneada lemma]] for an $\infty$-category valued presheaf $\mathbf{A}$ -- that $[X,\mathbf{A}] \simeq \mathbf{A}(X)$ -- extends along the weak equivalence to yield also $\cdots \simeq [Y,\mathbf{A}]$.
+
+The $\infty$-category valued presheaves satisfying this condition represent the objects in the proper $\infty$-category of $\infty$-category valued presheaves, which is usefully conceived as a suitable [[enriched homotopy theory|enriched homotopy category]]: these are the _$\infty$-stacks._
+
+Switching back perspective from presheaves to spaces, and reading the Yoneda lemma as the consistency condition on this interpretation (as indicated at [[Yoneda lemma]]), this  says that $\infty$-stacks on a site $S$ are nothing but $\infty$-categories consistently modeled on $S$. For instance a 0-stack=[[sheaf]] modeled on $S = $[[Diff]] may be a [[generalized smooth space]], while a 1-stack=[[stack]] modeled on [[Diff]] may be a [[differentiable stack]] representing a [[Lie groupoid|smooth groupoid]].
+
+***
+
+###Discussion
+
+_A previous version of the above paragraphs led to the following objection:_
 
 +--{.query}
 
@@ -10,10 +22,11 @@ _[[Mike Shulman|Mike]]_: I object to those claims.  For one thing, I think you s
 
 Likewise, while certainly the Yoneda lemma for $\infty$-stacks depends on descent, but since there is a perfectly good $\infty$-Yoneda lemma, for $\infty$-categories that are not stacks which has nothing to do with descent, I think it is only confusing and not helpful to try to draw a connection between descent and the Yoneda lemma.  Really the (basically tautological) connection is between descent and stacks, since the Yoneda lemma can exist without either.
 
-_[[Urs Schreiber|Urs]]_: You are right. I'll try to improve on my choice of terminology. Later today when I find time. I still think it is very useful to think of the descent condition as nothing the condition that the Yoneda statement respects weak equivalences (or at least acyclic fibrations aka covers). But I agree that the way I put it is suboptimal. 
+_[[Urs Schreiber|Urs]]_: I agree, I didn't phrase that well. I still think it is important for a good general understanding to emphasize that the descent condition is just the extension of the Yoneda statement along weak equivalences, though. The above is my attempt to keep that point while taking into account your sensible objects. Let me know if this is better now.
 
 =--
 
+***
 
 Instead of comitting the following discussion to a fixed model for [[infinity-category|infinity-categories]] or [[omega-category|omega-categories]] I describe the situation in a setup which aims to come close to making the minimum number of necessary assumptions on the ambient context. After discussing the general idea I give concrete examples in concrete realizations of $\infty$-categorical contexts.
 
@@ -107,6 +120,3 @@ and
 
 * **ToenHDS** -- B. To&#235;n, _Higher and derived stacks: a global overview_ ([arXiv](http://arxiv.org/abs/math.AG/0604504))
 
-#Acknowledgement#
-
-I ([[Urs Schreiber]]) am grateful for discussion with Thomas Nikolaus and Zoran &#352;koda about this. Of course all nonsense is my fault.
