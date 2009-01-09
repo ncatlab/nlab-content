@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-09
 
+* [[David Corfield|David]]
+
+  * started a page on [[generalized tangle hypothesis]].
+
 * [[Urs Schreiber|Urs]]: 
 
   * reacted to [[Mike Shulman|Mike]]'s comments at [[infinity-stack homotopically]]
