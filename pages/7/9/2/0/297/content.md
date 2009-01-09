@@ -97,7 +97,7 @@ There are indications that a complete picture of this involves [[groupoidificati
 A formalization of these idea of obtaining an extended FQFT from a higher categorical background field in the context of [[schreiber:Differential Nonabelian Cohomology|differential nonabelian cohomology]] is proposed in 
 
 * [[schreiber:Nonabelian cocycles and their sigma model QFTs]]. 
-(
+
 A discussion of the relation between extended _FQFT_ and [[AQFT]] with further references is in
 
 * Urs Schreiber, _AQFT from $n$-functorial QFT_ ([arXiv](http://arxiv.org/abs/0806.1079)).
