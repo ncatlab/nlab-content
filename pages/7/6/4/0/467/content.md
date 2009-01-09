@@ -22,7 +22,7 @@ _[[Mike Shulman|Mike]]_: I object to those claims.  For one thing, I think you s
 
 Likewise, while certainly the Yoneda lemma for $\infty$-stacks depends on descent, but since there is a perfectly good $\infty$-Yoneda lemma, for $\infty$-categories that are not stacks which has nothing to do with descent, I think it is only confusing and not helpful to try to draw a connection between descent and the Yoneda lemma.  Really the (basically tautological) connection is between descent and stacks, since the Yoneda lemma can exist without either.
 
-_[[Urs Schreiber|Urs]]_: I agree, I didn't phrase that well. I still think it is important for a good general understanding to emphasize that the descent condition is just the extension of the Yoneda statement along weak equivalences, though. The above is my attempt to keep that point while taking into account your sensible objects. Let me know if this is better now.
+_[[Urs Schreiber|Urs]]_: I agree, I didn't phrase that well. I still think it is important for a good general understanding to emphasize that the descent condition is just the extension of the Yoneda statement along weak equivalences, though. The above is my attempt to keep that point while taking into account your sensible objections. Let me know if this is better now.
 
 =--
 
@@ -53,6 +53,12 @@ So let
 +--{.query}
 
 _Mike_: What is the meaning of "stalkwise" for an arbitrary site?  The only notion of "stalk" I can think of for sheaves on an arbitrary site is a preimage under some geometric morphism ("point") $Set = Sh(1) \to Sh(S)$ (or maybe some enriched version thereof).  But there are very nontrivial sites $S$ such that $Sh(S)$ has no points, so this doesn't work in full generality.
+
+[[Urs Schreiber|Urs]]: Right, this is a point I was glossing over. I am thinking that we shouldn't actually be talking about stalks here but
+
+1. assume that our site is such that infinite unions of covers are still covers;
+
+2. define a _local weak equivalence_ (or a _local fibration_) of sheaves $f : \mathbf{A} \to \mathbf{B}$ to be one such that for all objects $U \in S$ in the site there is a cover $Y$ such that $\mathbf{A}(Y) \to \mathbf{B}(Y)$ is a weak eqivalence (or a fibration) in $V$.
 
 =--
 
