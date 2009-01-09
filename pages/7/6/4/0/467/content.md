@@ -4,6 +4,14 @@ If regarded from the right perspective, [[sheaf|sheaves]], [[stack|stacks]], [[i
 
 In partciular, the all-important [[descent and codescent|descent condition]] is from this perspective nothing but the extension of the [[Yoneda lemma]] to a suitable _$\infty$-Yoneda lemma_ where both domain and codomain categories are $\infty$-categories.
 
++--{.query}
+
+_[[Mike Shulman|Mike]]_: I object to those claims.  For one thing, I think you should make clear at the outset that descent conditions only arise when you consider not ordinary $\infty$-categories, but what are essentially sheaves/stacks of $\infty$-categories over some site.  I don't think choosing to call such stacks "$\infty$-categories for which the notion of space is modeled on the objects of some locally small category" justifies saying that descent is just a way of talking about morphisms between $\infty$-categories.  If nothing else, it's confusing to someone who doesn't realize that by "$\infty$-category" you mean what many people would call an "$\infty$-stack."  But it also puts the emphasis in the wrong place, since there is no problem talking about morphisms between $\infty$-categories that are not stacks without descent; descent only arises when we pass to stacks.
+
+Likewise, while certainly the Yoneda lemma for $\infty$-stacks depends on descent, but since there is a perfectly good $\infty$-Yoneda lemma, for $\infty$-categories that are not stacks which has nothing to do with descent, I think it is only confusing and not helpful to try to draw a connection between descent and the Yoneda lemma.  Really the (basically tautological) connection is between descent and stacks, since the Yoneda lemma can exist without either.
+
+=--
+
 
 Instead of comitting the following discussion to a fixed model for [[infinity-category|infinity-categories]] or [[omega-category|omega-categories]] I describe the situation in a setup which aims to come close to making the minimum number of necessary assumptions on the ambient context. After discussing the general idea I give concrete examples in concrete realizations of $\infty$-categorical contexts.
 
@@ -26,6 +34,12 @@ So let
 * $V$ be a [[closed monoidal homotopical category]];
 
 * $C := Sh(S,V)$ be the category of $V$-valued [[sheaf|sheaves]] on $S$ such that it becomes a $V$-[[enriched homotopical category]] with weak equivalences the _stalkwise_ weak equivalences of $V$.
+
++--{.query}
+
+_Mike_: What is the meaning of "stalkwise" for an arbitrary site?  The only notion of "stalk" I can think of for sheaves on an arbitrary site is a preimage under some geometric morphism ("point") $Set = Sh(1) \to Sh(S)$ (or maybe some enriched version thereof).  But there are very nontrivial sites $S$ such that $Sh(S)$ has no points, so this doesn't work in full generality.
+
+=--
 
 The $V$-[[enriched homotopical category]] $C$ is our generic model for an $\infty$-category of [[infinity-category|infinity-categories]].
 
@@ -93,4 +107,4 @@ and
 
 #Acknowledgement#
 
-I am grateful for discussion with Thomas Nikolaus and Zoran &#352;koda about this. Of course all nonsense is my fault.
+I ([[Urs Schreiber]]) am grateful for discussion with Thomas Nikolaus and Zoran &#352;koda about this. Of course all nonsense is my fault.
