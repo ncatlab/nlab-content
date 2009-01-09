@@ -8,4 +8,10 @@ The empty set can be confusing, because it is a degenerate case. Indeed, it is d
 
 _[[Mike Shulman|Mike]]_: To be fair to the algebra textbooks, there are other meanings of exponentiation for which $0^0$ is harder to get a handle on.  For instance, if the limits as $x \to 0$ of $f(x)$ and $g(x)$ are both 0, we still can't say much about the limit of $(f(x))^{g(x)}$.
 
+_Toby_: Weren\'t you there on sci.math? Do you realise what a can of worms this is? (^_^)
+
+I was a relative defender of the undefined position, but even I couldn\'t accept baldly stating that it\'s undefined. (Baldly stating $0^0 = 1$ would be better, if a more nuanced position wouldn\'t work.) Today, I tell my algebra students that the textbook has a mistake, although I promise not to quiz them on it. (Since I don\'t think a more nuanced position would work.)
+
+All of the arguments (probably nothing to you, unless perhaps some history) are on [the sci.math FAQ](http://www.faqs.org/faqs/sci-math-faq/specialnumbers/0to0/).
+
 =--
