@@ -70,7 +70,7 @@ There is a long-term project by Stephan Stolz and Peter Teichner which originall
 
 More recently, Mike Hopkins and Jacob Lurie claimed to have found a complete coherent formalization of topological extended FQFT in the context of [[(infinity,1)-category|(infinity,n)-categories]]. See
 
-* [Hopkins-Lurie on Baez-Dolan](http://golem.ph.utexas.edu/category/2008/05/hopkinsludrie_on_baezdolan.html).
+* [Hopkins-Lurie on Baez-Dolan](http://golem.ph.utexas.edu/category/2008/05/hopkinslurie_on_baezdolan.html).
 
 ## (extended) FQFT from background fields: $\sigma$-models## 
 
