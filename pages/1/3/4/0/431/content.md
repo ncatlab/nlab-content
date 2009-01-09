@@ -30,6 +30,8 @@ _Toby_: Take Errett Bishop. In his analysis book, he says that a statement is tr
 
 I\'m not sure that I agree with Bishop. I\'m just trying to be true to his language and views. Probably I should just rewrite that paragraph. Certainly _some_ constructivists can refute excluded middle; Bishop can\'t, but he still claims that it is, in an objective sense, wrong.
 
+_Mike:_ Okay, one thing I was forgetting about is the difference (even in the constructive logic I am familiar with, namely the logic of toposes) between "false = not true" and "not assertable."  But it sounds from what you say as though there might even be a further distinction in some constructivist philosophy?
+
 =--
 
 # Topos Theory #
@@ -64,6 +66,8 @@ _Mike_: Is excluded middle really necessary for this?  I thought that countable 
 
 _Toby_: Ah, this is the old problem that English doesn\'t easily distinguish $\neg(p \wedge q)$ from $\neg{p} \wedge \neg{q}$. You\'re not mistaken.
 
+_Mike_: Are you claiming that they are the same with excluded middle, but without countable choice?  I don't see why that should be so; it seems that to construct a Cauchy sequence from a Dedekind cut you need to make a bunch of choices.
+
 =--
 
 * There are at least three different constructive notions of [[ordinal number]]; see (Taylor 1996) and (Joyal-Moerdijk 1995).
@@ -86,6 +90,8 @@ Paul Taylor (1996). Intuitionistic Sets and Ordinals. Available (with several ot
 Joyal, A. and Moerdijk, I. (1995).  Algebraic set theory.
 
 Frank Waaldijk (2003). [on the foundations of constructive mathematics - especially in relation to the theory of continuous functions](http://home.hetnet.nl/~sufra/foundations%20of%20constructive%20mathematics.pdf) (PDF).
+
+Most books on [[topos]] theory include some discussion of their [[internal logic|internal]] constructive logic.  One good reference is Part D of _Sketches of an elephant (vol. 2)_ by Peter Johnstone.
 
 # Discussion #
 
