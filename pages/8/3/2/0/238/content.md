@@ -285,7 +285,7 @@ and connected it to the discussion of covering sieves at
 
 * [[Urs Schreiber|Urs]]: motivated by some [discussion](http://golem.ph.utexas.edu/category/2008/12/organizing_the_pages_at_nlab.html) we had on the blog, in the entry [[About]] I started giving some indications on what the $n$Lab is and what it is not. 
 
-* [[Owen Biesel]]: added [[diagram]], [[global element]], [[terminal object]], [[limit]], 
+* [[Owen Biesel]]: added [[diagram]], [[global element]], [[terminal object]], [[limit]]. 
 
 # 2009-01-01
 
