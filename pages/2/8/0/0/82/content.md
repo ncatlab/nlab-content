@@ -1,7 +1,6 @@
 ...
 
 #entries related to topos theory#
-
 * [[classifying topos]]
 * [[cover]]
 * [[foundations]]
