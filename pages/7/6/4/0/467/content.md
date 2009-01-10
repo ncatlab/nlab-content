@@ -60,9 +60,9 @@ The $V$-[[enriched homotopical category]] $C$ is our generic model for an $\inft
 
 * Let $S = pt$ be the terminal category so that $C = V$ and take $V$ to be any of the examples listed at [[monoidal model category]], such as [[Cat]], [[strict 2-category|2Cat]], probably [[strict omega-category|omegaCat]] (but here the [[pushout-product axiom]] still needs to be checked), or [[simplicial set|SimpSet]]. Even though for such simple $S$ there is no nontrivial "topology" in the game, the notion of descent resulting from this setup is still interesting: it encodes for instance [[nonabelian cohomology]] of finite (really: discrete) groups, $\infty$-groups, $\infty$-[[groupoids]].
 
-* If $S$ is any site and $V = $ [[simplicial set|SimpSet]], then the natural notion of local weak equivalences in $Sh(S,V)$ are those morphisms $f : \mathbf{A} \to \mathbf{B}$ which induce isomorphisms of sheaves of simplicial homotopy groups under all functors $\pi_n : SimpSet \to Groups$.  If $S$ has enough points (such as the site of open sets of a topological space), then this is equivalent to $f$ being a stalkwise weak equivalence of simplicial sets, using the [[model structure on simplicial sets]] (see for instance section 1 of [JardStackSSh](http://intlpress.com/HHA/v3/n2/a5/v3n2a5.pdf)).  Then I think that the $Ho_V$-enriched category $Ho_C$ is the $SimpSet$-enriched homotopy category of simplicial presheaves that is discussed in [ToenSNAC]() and [ToenHDS]().
+* If $S$ is any site and $V = $ [[simplicial set|SimpSet]], then the natural notion of local weak equivalences in $Sh(S,V)$ are those morphisms $f : \mathbf{A} \to \mathbf{B}$ which induce isomorphisms of sheaves of simplicial homotopy groups under all functors $\pi_n : SimpSet \to Groups$.  If $S$ has enough points (such as the site of open sets of a topological space), then this is equivalent to $f$ being a stalkwise weak equivalence of simplicial sets, using the [[model structure on simplicial sets]] (see for instance section 1 of [JardStackSSh](http://intlpress.com/HHA/v3/n2/a5/v3n2a5.pdf)).  Then I think that the $Ho_V$-enriched category $Ho_C$ is the $SimpSet$-enriched homotopy category of simplicial presheaves that is discussed in [ToenSNAC](#ToenSNAC) and [ToenHDS](#ToenHDS).
 
-  * Intuitively, we would like to let $S =$ [[Top]] with its standard [[Grothendieck topology]] to obtain a notion of "$\infty$-category modeled on spaces."  But since $Top$ is a [[large category]], we need instead to do something like take a small full subcategory of it.  As described in [ToenHDS](), one can think of this $C$ as modelling the collection of [[(infinity,1)-category|(infinity,1)-categories]].
+  * Intuitively, we would like to let $S =$ [[Top]] with its standard [[Grothendieck topology]] to obtain a notion of "$\infty$-category modeled on spaces."  But since $Top$ is a [[large category]], we need instead to do something like take a small full subcategory of it.  As described in [ToenHDS](#ToenHDS), one can think of this $C$ as modelling the collection of [[(infinity,1)-category|(infinity,1)-categories]].
 
 +--{.query}
 
@@ -110,13 +110,13 @@ and
 
 * for $S = pt$, $V = $ [[crossed complex|CrossedComplexes]]: this is the context of results about cohomology in [[Nonabelian algebraic topology]];
 
-* for $V = $ [[simplicial set|SimpSet]] these are pretty much the statements in [ToenHDS](http://arxiv.org/abs/math.AG/0604504):
+* for $V = $ [[simplicial set|SimpSet]] these are pretty much the statements in [ToenHDS](#ToenHDS):
 
   * $C$ is the category of simplicial sheaves on $S$ (middle of p. 11);
 
   * the right derived $(V =SimpSet)$-enriched Hom is denoted there $Map(F,G) := R Hom(F,G)$ (for instance middle of p. 14)
 
-  * sheaf cohomology is reproduced as indicated, for instance p. 7 of [ToenSNAC].
+  * sheaf cohomology is reproduced as indicated, for instance p. 7 of [ToenSNAC](#ToenSNAC).
 
 ...
 
@@ -124,7 +124,8 @@ and
 
 * **JardStackSSh** -- J. Jardine, _Stacks and the homotopy theory of simplicial sheaves_, Homology, homotopy and applications, vol. 3(2), 2001 p. 361-284 ([pdf](http://intlpress.com/HHA/v3/n2/a5/v3n2a5.pdf))
 
+{: #ToenSNAC}
 * **ToenSNAC** -- B. To&#235;n, [[ToenStacksNAC.pdf:file]]
 
+{: #ToenHDS}
 * **ToenHDS** -- B. To&#235;n, _Higher and derived stacks: a global overview_ ([arXiv](http://arxiv.org/abs/math.AG/0604504))
-
