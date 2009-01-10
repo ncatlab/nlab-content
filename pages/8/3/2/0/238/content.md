@@ -16,7 +16,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
-  * have some questions for [[Toby Bartels|Toby]] (or other topos experts) at [[(-1)-groupoid]]
+  * edited [[hypercover]]
+
+  * added remark on relation to [[FQFT]] at [[generalized tangle hypothesis]]  
+
+  * have some questions for [[Toby Bartels|Toby]] (or other topos experts) at [[(-1)-groupoid]] -- see also my general discussion question at the blog: [enriched sheaf and topos theory?](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html#c021224)
+
+
 
 * [[Toby Bartels]]:
   * I wrote [[Boolean topos]], [[COSHEP]], and [[finitism]].
