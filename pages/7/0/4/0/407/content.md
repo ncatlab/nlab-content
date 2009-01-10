@@ -34,3 +34,5 @@ $$
 #Remarks#
 
 * The globe category is used to define [[globular set|globular sets]].
+
+category: category
