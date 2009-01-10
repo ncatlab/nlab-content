@@ -24,12 +24,16 @@ This might help with a conjecture of mine I've been throwing around. Just as a s
 
 Any thoughts to help me sort this out would be greatly appreciated.
 
+_[[Tim Porter|Tim]]_ added:   Perhaps some stuff that I did may help in this. I do not claim to have done more than collect up some thoughts from different areas and apply them in a fairly coherent way, I came up with the paper (below).
+
+If it would help I could cooperate on something for the nlab on this.  
+
+_[[Eric Forgy|Eric]] says_: That would be awesome.
+
 #References#
 
 * Marco Grandis, _Directed homotopy theory, I. The fundamental category_ ([arXiv](http://arxiv.org/abs/math.AT/0111048))
-
-_[[Tim Porter|Tim]]_ added:   Perhaps some stuff that I did may help in this. I do not claim to have done more than collect up some thoughts from different areas and apply them in a fairly coherent way, I came up with the paper:
-
 * Tim Porter: _Enriched categories and models for spaces of evolving states_, Theoretical Computer Science, 405, (2008), pp. 88 - 100.
+* Tim Porter, _Enriched categories and models for spaces of
+dipaths. A discussion document and overview of some techniques_ ([pdf](http://drops.dagstuhl.de/opus/volltexte/2007/898/pdf/06341.PorterTimothy.Paper.898.pdf))
 
-If it would help I could cooperate on something for the nlab on this.  
