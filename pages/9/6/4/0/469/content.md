@@ -42,9 +42,13 @@ If $C$ is not symmetric, then $-\otimes b$ and $b\otimes -$ are different functo
 
  * The category [[Cat]] is cartesian closed: the internal-hom is the [[functor category]] of functors and natural transformations.
 
- * The category $2-Cat$ of [[strict 2-category|strict 2-categories]] and strict 2-functors is closed monoidal under the [[Gray tensor product]].  The internal-hom is the 2-category of strict 2-functors, _pseudo_ natural transformations, and modifications.
+ * The category $2-Cat$ of [[strict 2-category|strict 2-categories]] and strict 2-functors is closed symmetric monoidal under the [[Gray tensor product]].  The internal-hom is the 2-category of strict 2-functors, _pseudo_ natural transformations, and modifications.
 
- * The category of strict $\omega$-[[strict omega-category|categories]] is also closed monoidal, with a Gray-like tensor product.
+ * The category of strict $\omega$-[[strict omega-category|categories]] is also biclosed monoidal, under the [[Crans-Gray tensor product]].
+
+ * If $M$ is a monoidal category and $Set^{M^{op}}$ is endowed with the tensor product given by the induced [[Day convolution]] product, then $Set^{M^{op}}$ is biclosed monoidal. 
+
+ * The category of [[species]], with the monoidal structure given by substitution product of species, is closed monoidal (each functor $- \circ G$ admits a right adjoint) but not biclosed monoidal. 
 
 #References#
 
