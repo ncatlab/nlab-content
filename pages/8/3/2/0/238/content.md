@@ -13,8 +13,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 # 2009-01-10
 
 * [[Toby Bartels]]:
+  * I wrote [[Boolean topos]], [[COSHEP]], and [[finitism]].
+  * I expanded [[equivalence relation]] and [[kernel pair]].
   * I wrote [[(-1)-groupoid]]; I\'ll try to do one of these a day, but they\'re dully repetitive.
-  * I wrote [[Boolean topos]] and [[COSHEP]].
   * I talked with Mike at [[k-tuply monoidal n-category]] and [[inhabited set]].
 
 # 2009-01-09
