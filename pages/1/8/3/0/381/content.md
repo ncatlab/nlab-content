@@ -95,5 +95,3 @@ See also the
 * [Introduction](http://crans.fol.nl/papers/thintro.ps.gz) 
 
 to his thesis, in particular section I.3 "$\omega$-categories".
-
-
