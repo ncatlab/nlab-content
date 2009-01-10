@@ -68,7 +68,6 @@ If you want to ask a question of a specific person, then you can place a query b
 If your comment or question is more general than a specific page or person, then try [[General Discussion]]. (You probably won\'t need to bother with query blocks there.)
 
 ##How to##
-
 * [Use basic Markdown syntax](http://daringfireball.net/projects/markdown/syntax)
 * [Make tables, footnotes, etc](http://maruku.rubyforge.org/maruku.html#extra)
 * [Add definitions and theorems](http://golem.ph.utexas.edu/instiki/show/Theorems)
