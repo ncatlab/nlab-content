@@ -1,6 +1,6 @@
 # Definition #
 
-In a [[category]], a **product** (also called a _cartesian product_) of two [[object|objects]] $X$ and $Y$ is an object $X\times Y$ equipped with projection [[morphism|morphisms]] $p:X\times Y \to X$ and $q:X\times Y \to Y$ such that for any object $Z$ equipped with maps $f:Z\to X$ and $g:Z\to Y$ there exists a unique $h:Z\to X\times Y$ such that $p h=f$ and $q h=g$.
+In a [[category]], a **product** (also called a _cartesian product_) of two [[object|objects]] $X$ and $Y$ is an object $X\times Y$ equipped with **projection** [[morphism|morphisms]] $p:X\times Y \to X$ and $q:X\times Y \to Y$ such that for any object $Z$ equipped with maps $f:Z\to X$ and $g:Z\to Y$ there exists a unique $h:Z\to X\times Y$ such that $p h=f$ and $q h=g$.
 
 # Remarks #
 
