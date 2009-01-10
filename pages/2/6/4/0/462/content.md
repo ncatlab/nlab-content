@@ -1,4 +1,4 @@
-_Geometric function theory_ is an approach to [representation theory](http://en.wikipedia.org/wiki/Representation_theory) using structures appearing in the context of [[groupoidification]]. It studies the operation on derived categories of [[sheaf|sheaves]] (i.e. on the [[homotopy category|homotopy categories]] of [[complex|complexes]] of [[sheaf|sheaves]]) through [[spans|spans]] of [[groupoid|groupoids]]. 
+_Geometric function theory_ is an approach to [representation theory](http://en.wikipedia.org/wiki/Representation_theory) using structures appearing in the context of [[groupoidification]]. It studies the operation on derived categories of [[sheaf|sheaves]] (i.e. on the [[homotopy category|homotopy categories]] of [[complex|complexes]] of [[sheaf|sheaves]]) through [[span|spans]] of [[groupoid|groupoids]]. 
 
 #Remarks#
 
