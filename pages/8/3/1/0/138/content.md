@@ -1,50 +1,93 @@
-A _hypercover_ is the simplicial analog of an $\infty$-functor which is [[k-surjectivity|k-surjective]] for all $k$:
+#Idea#
 
-For $\Delta^n$ the standard simplicial simplex, $\partial \Delta^n$ its boundary and 
+_Hypercover_ is another word for 
+[[special morphisms in a model category|acyclic fibration]] in 
+[[model category|model categories]] of _higher structures_ such as 
+[[globular set|globular sets]] and [[simplicial set|simplicial sets]] and the
+[[infinity-category|infinity-categories]] and
+[[omega-category|omega-categories]] based on them.
+
+#Origin of the term#
+
+The term _hypercover_ originates in the fact that for
+$\pi : Y \to X$ any [[regular epimorphism]], hence an 
+ordinary [[cover]], the [[simplicial set|simplicial object]]
+
 $$
-  i_i : \partial \Delta^n \hookrightarrow \Delta^n
-$$ 
-the canonical inclusion, a morphism $f : Y^\bullet \to X^\bullet$ of [[simplicial object|simplicial objects]] is a _hypercover_ if it has the right lifting property with respect to all $i_n$, i.e. if for all commuting squares of the form
+  Y^\bullet
+  :=
+  (\cdots \to Y \times_X Y \times_X Y \stackrel{\stackrel{\to}{\to}}{\to} Y \times_X Y \stackrel{\to}{\to} Y)
+$$
+
+is an acyclic fibration
+
+$$
+  Y^\bullet \to X
+$$
+
+over $X$ of simplicial objects, but not all acyclic fibrations
+arise this way: a generic hypercover of simplicial objects
+is obtained by starting with a cover $Y \to X$, then choosing
+a cover of the fiber product $Y \times_X Y$, and so on.
+
+
+#Characterization by lifting property#
+
+Hypercovers are usually (for instance in the [[model structure on simplicial  characterized as being those
+morphisms $\pi : Y \to X$ for which all images 
+$\pi(\partial C^n)$
+of boundaries $\partial C^n$ of standard $n$-cells 
+[[[globe|globes]] $C^n = G^n$ or [[simplex|simplices]],
+$C^n = \Delta^n$) every $n$-cell filling this boundary in 
+$X$ lifts to $Y$.
+
+Diagrammatically this means: $f : Y \to X$ is a hypercover
+if for all commuting diagrams
+
 $$
   \array{
-     \partial \Delta^n
-     &\to&
-     Y
-     \\
-     \downarrow^{i_n}
-     &&
-     \downarrow^{f}
-     \\
-     \Delta^n
-     &\to&
-     X
+    \partial C^n &\to & Y
+    \\
+    \downarrow && \downarrow^\pi
+    \\
+    C^n &\to& X
   }
 $$
-there exists a diagonal filler
+
+there exists a diagonal lift
+
 $$
   \array{
-     \partial \Delta^n
-     &\to&
-     Y
-     \\
-     \downarrow^{i_n}
-     &\nearrow&
-     \downarrow^{f}
-     \\
-     \Delta^n
-     &\to&
-     X
+    \partial C^n &\to & Y
+    \\
+    \downarrow &{}^{\exists}\nearrow& \downarrow^\pi
+    \\
+    C^n &\to& X
   }
   \,.
 $$
 
+#Hypercovers in different model categories#
 
-In words this means that for every boundary of an $n$-simplex hit by $f$, every filler of this $n$-simplex lifts through $f$.
+In the context of simoplicial sets the
+[[model structure on simplicial sets]] this are the 
+hypercovers proper. In the context of 
+the [[folk model structure]] on 
+[[strict omega-category|strict omega-categories]]
+this are the 
+$\omega$-functors which are [[k-surjectivity|k-surjective]]
+for all $k$.
 
-#Remark.#
+#Relation to fibrations#
 
-The word "hypercover" originates from the fact that this generalizes the situation where $Y \to X$ is a regular epimorphism of spaces, such that the simplicial space
-$$
-  Y^\bullet := (\cdots \to Y \times_X Y \times_X Y \to Y \times_X Y \to Y)
-$$
-exists. Here everything is determined by the original choice of cover $Y \to X$. More generally, one can choose iterativley further covers of the spaces in higher degree and thus obtain a more general hypercover of $X$.
+The condition on hypercovers, being _acyclic fibrations_ is closely related to the condition on _fibrations_. Usually the lifting property for fibrations is obtained from that for hypercovers by removing in the boundary $\partial C^n$ of the standard $n$-cell one face.
+
+For instance the definition of a hypercover of simplicial sets becomes that of a [[Kan fibration]] if the full boundary $\partial \Delta$ is replaced by a [[horn]] $\Lambda^k[n]$.
+
+In the globular set by replacing the inclusion $\partial G^n \hookrightarrow G^n$ of the boundary of the standard $n$-[[globe]] into the $n$-globe with the inclusion $G^{n-1} \hookrightarrow G^n$ of the standard $(n-1)$-globe (which is one-half of the full boundary), the above lifting condition is that of fibrations in the [[folk model structure]] on [[omega-groupoid|omega-groupoids]].
+
+
+
+
+
+
