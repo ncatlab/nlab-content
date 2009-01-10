@@ -15,11 +15,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 
 * [[Urs Schreiber|Urs]]:
-
-  * edited [[hypercover]]
-
+  * created [[Kan fibration]] and edited [[horn]], [[hypercover]] and [[Kan complex]]
   * added remark on relation to [[FQFT]] at [[generalized tangle hypothesis]]  
-
   * have some questions for [[Toby Bartels|Toby]] (or other topos experts) at [[(-1)-groupoid]] -- see also my general discussion question at the blog: [enriched sheaf and topos theory?](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html#c021224)
 
 
