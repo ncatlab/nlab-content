@@ -10,7 +10,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+
 # 2009-01-10
+
+
+* [[Urs Schreiber|Urs]]:
+
+  * have some questions for [[Toby Bartels|Toby]] (or other topos experts) at [[(-1)-groupoid]]
 
 * [[Toby Bartels]]:
   * I wrote [[Boolean topos]], [[COSHEP]], and [[finitism]].
@@ -20,7 +26,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-09
 
-* [[Toby Bartels|Toby]]: I talked with Mike (and occasionally made substantive edits, too) at [[field]], [[Grothendieck topology]], [[extensive category]], [[predicativism]], and [[constructivism]].
+* [[Toby Bartels|Toby]]: 
+
+  * I talked with Mike (and occasionally made substantive edits, too) at [[field]], [[Grothendieck topology]], [[extensive category]], [[predicativism]], and [[constructivism]].
 
 * [[Mike Shulman|Mike]]:
 
