@@ -62,7 +62,7 @@ On the other hand, differences in axiomatization or definition that make no diff
 
 * There are multiple inequivalent constructive definitions of a [[field]], because of the axioms "every _nonzero_ element has an inverse" and $0 \neq 1$.
 
-* Without excluded middle or countable choice, the Dedekind [[real numbers]] and the Cauchy real numbers are no longer the same.  From a topos-theoretic viewpoint, the Dedekind reals are usually the "correct" notion to study.  See also (Bridges et al, 1998).
+* Without excluded middle or countable choice, the Dedekind [[real number]]s and the Cauchy real numbers are no longer the same.  From a topos-theoretic viewpoint, the Dedekind reals are usually the "correct" notion to study.  See also (Bridges et al, 1998).
 
 +--{.query}
 
