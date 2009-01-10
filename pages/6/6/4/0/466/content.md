@@ -55,7 +55,7 @@ In the light of the interpretation in terms of [[space and quantity]] mentioned 
 As an immediate corollary the Yoneda lemma implies that the functor $Y : C \to [C^op,Set]$ is a [[full and faithful functor]], because for $c,d \in C$ it naturally induces the isomorphism of Hom-sets.
 
 $$
-  [C^{op},Set](c,d) \simeq (C(-,d))(c) = C(c,d)
+  [C^{op},Set](C(-,c),C(-,d)) \simeq (C(-,d))(c) = C(c,d)
 $$
 
 #Generalizations#
