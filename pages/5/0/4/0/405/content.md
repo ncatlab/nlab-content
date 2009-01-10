@@ -1,6 +1,6 @@
 #Idea#
 
-The **cube category** $\Box$ encodes one of the main [[geometric shapes for higher structures]].
+The **cube category** $\Box$ encodes one of the main [[geometric shapes for higher structures]]. It is also called the [[cubical category]], although that term can be ambiguous.
 
 Its objects are the standard cellular  "$n$-[[cube|cubes]]", for $n \in \mathbb{N}$ and its morphisms are all possible ways of mapping cubes to each other.
 
