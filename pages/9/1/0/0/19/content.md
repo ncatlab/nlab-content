@@ -98,5 +98,4 @@ b) I expect that eventually pure category theoretic definitions will not dominat
 Toby: I see, this list is only for such dictionary-like terms, not for everything that uses category theory in some way (which I think probably *will* continue to be most). But we can make it shorter by, say, removing everything that\'s about [[higher category theory]] and making a single link to that (just as we don\'t list everything under [[mathematics]]).
 
 [[Urs Schreiber|Urs]]: Sure, whatever works best for us. I see that this list here is getting a bit out of control, but it is part of my general attempt to keep the entries we build listed alphabetically in the main index pages, so to allow at least some sort of global picture of the state of the wiki. The best solution would be some automatically created list. Hm, now that I say this: we should maybe start adding "catgegory: xyz"-labels to the entries, where "xyz" is one of the headline items. Hm...
-
 =--
