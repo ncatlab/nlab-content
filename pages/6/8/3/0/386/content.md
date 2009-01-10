@@ -1,6 +1,6 @@
 #Idea#
 
-The **simplex category** $\Delta$ encodes one of the main [[geometric shapes for higher structures]]. Its objects are the standard cellular $n$-[[simplex|simplices]].
+The **simplex category** $\Delta$ encodes one of the main [[geometric shapes for higher structures]]. Its objects are the standard cellular $n$-[[simplex|simplices]]. It is also called the [[simplicial category]], but that term is ambiguous.
 
 #Definition#
 
@@ -33,3 +33,5 @@ _Mike_: Yes, of course.
 _Toby_: I certainly prefer the algebraists\' $\Delta$; it\'s part of my general preference for not ignoring the [[empty set]]. (Mike\'s example, with Todd\'s correction, only serves to confirm my opinion.) Seeing the universal construction of $\Delta$, I made the article consistent by picking my favourite, which fit that construction.
 
 I didn\'t know a good notation for the topologists\' unaugmented $\Delta$, so I just used a dot as my standard notation for deleting the basepoint: if $X$ is a [[pointed set]] with point $x$, then $\dot X := X \setminus \{x\}$. (I think that I first saw this in point-set topology to turn a neighbourhood of a point into a deleted neighbourhood.) It is by no means sacred.
+
+category: category
