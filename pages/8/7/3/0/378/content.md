@@ -2,11 +2,11 @@
 
 The classical [[model category|model structure]] on simplicial sets has the following distinguished classes of morphisms:
 
-* The cofibrations $C$ are monomorphisms, equivalently, levelwise injections.
+* The cofibrations $C$ are [[monomorphism]]s, equivalently, levelwise injections.
 
 * The weak equivalences $W$ are **weak homotopy equivalences**, i.e., morphisms whose [[simplicial set|geometric realization]] is a weak homotopy equivalence of topological spaces.
 
-* The fibrations $F$ are the **Kan fibrations**, i.e., maps which have the right lifting property with respect to all horn inclusions.
+* The fibrations $F$ are the **[[Kan fibration]]s**, i.e., maps which have the right lifting property with respect to all [[horn]] inclusions.
 
 All simplicial sets are cofibrant with respect to this model structure. The fibrant objects are precisely the [[Kan complex|Kan complexes]].
 
@@ -22,8 +22,8 @@ There is a second model structure on simplicial sets, due to Joyal, with the fol
 
 * The weak equivalences $W$ are **weak categorical equivalences**, which are morphisms $u : A \rightarrow B$ of simplicial sets such that the induced map $u^* : X^B \rightarrow X^A$ of internal-homs for all [[quasi-category|quasi-categories]] $X$ induces an isomorphism when applying the functor $\tau_0$ that takes a simplicial set to the set of isomorphism classes of objects of its fundamental category.
 
-* The fibrations $F$ are called variously **isofibrations** or **quasi-fibrations**. As always, these are determined by the classes $C$ and $W$.
-Quasi-fibrations between Kan complexes they have a relatively simple description; they are precisely the maps that have the right lifting property with respect to the inner horn inclusions and also the inclusion $j_0 : * \rightarrow J$ where $*$ is the terminal simplicial set and $J$ is the nerve of the groupoid on two objects with one non-trivial isomorphism. 
+* The fibrations $F$ are called variously **isofibrations** or **[[Kan fibration|quasi-fibration]]s**. As always, these are determined by the classes $C$ and $W$.
+Quasi-fibrations between Kan complexes they have a relatively simple description; they are precisely the maps that have the right lifting property with respect to the inner [[horn] inclusions and also the inclusion $j_0 : * \rightarrow J$ where $*$ is the terminal simplicial set and $J$ is the nerve of the groupoid on two objects with one non-trivial isomorphism. 
 
 All objects are cofibrantly generated. The fibrant objects are precisely the quasi-categories.
 
