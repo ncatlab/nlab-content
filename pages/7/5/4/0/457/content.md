@@ -12,4 +12,8 @@ _[[Mike Shulman|Mike]]_: I strongly disagree that "inhabited" means "has a globa
 
 _Toby_: Then what is the term for what I have called 'inhabited'? [At least one reference](www.dcs.kcl.ac.uk/technical-reports/papers/tr97-04.ps.gz) uses the term that way; I see (through Google) that it\'s used in the Elephant, but it\'s not in the index and I haven\'t managed to tell what the definition is. Certainly I\'m not in the position to make a good literature search.
 
+_Mike_: How about "has a global element?"  I would argue that the reference you give uses the term incorrectly.  I don't know where it's defined in the Elephant, but on p618 you can see that it means "there exists an $x\in X$" in the internal language.
+
+You yourself wrote that in constructive mathematics, an inhabited/occupied set is one that contains an element.  Given that, it makes no sense to me to use "inhabited" in a topos to mean "has a global element," which is not expressible in the internal language.  Or would you want to distinguish between "inhabited" and "internally inhabited"?  I would argue that the notion of "inhabited" really only makes sense in a set-like or well-pointed situation, and so it should really only be interpreted internally.
+
 =--
