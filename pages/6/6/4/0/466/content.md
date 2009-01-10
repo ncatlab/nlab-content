@@ -46,8 +46,6 @@ $$
 
 naturally for all $c \in C$.
 
-
-
 ##Remarks##
 
 In the light of the interpretation in terms of [[space and quantity]] mentioned above this says that for $X$ a generalized space modeled on $C$, and for $c$ a test space, morphisms from $c$ to $X$ with $c$ regarded as a generalized space are just the morphisms from $c$ into $X$.
@@ -59,7 +57,6 @@ As an immediate corollary the Yoneda lemma implies that the functor $Y : C \to [
 $$
   [C^{op},Set](c,d) \simeq (C(-,d))(c) = C(c,d)
 $$
-
 
 #Generalizations#
 
