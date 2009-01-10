@@ -64,6 +64,10 @@ _Toby_: And here I was thinking that I should complain about this very language!
 
 But perhaps you have an answer for that?
 
+_Mike_: You can certainly complain about it, but I think it one of those numerous examples of well-established terminology that is suboptimal, but not bad enough to be worth trying to change.  Changing any piece of terminology is hard enough, and insisting that everyone change the words they are using for familiar concepts is part of what originally gave category theory a bad name in the U.S., and has resulted in at least one unreadable book which might otherwise have been quite good.  Also, as Jaap van Oosten pointed out in the introduction to his book "Realizability," the only thing worse than bad terminology is continually changing terminology.  I'm glad that "triple" was changed to "monad," because "triple" was truly a horrible term, but the fact that it was changed still makes it more difficult to read old papers.  So I think we need to pick and choose our terminological battles very carefully.
+
+One can, of course, always say "a site whose underlying category is extensive."  By analogy with "subcanonical coverage" (= contained in the canonical coverage) one might also say "superextensive coverage."  And despite how common such sites may be, it's not immediately clear to me how important it is to identify them.  
+
 =--
 
 #References#
