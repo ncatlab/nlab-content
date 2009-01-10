@@ -15,7 +15,7 @@ More recently Mike Hopkins and Jacob Lurie have claimed to have formalized and p
 
 #Statement of the generalized tangle hypothesis#
 
-The $k$-tuply monoidal $n$-category of $G$-structured $n$-tangles in the $(n + k)$-cube is the [[fundamental category|fundamental]] $(n + k)$-category of $(M G,Z)$.
+The $k$-tuply monoidal $n$-category of $G$-structured $n$-tangles in the $(n + k)$-cube is the [[fundamental category|fundamental]] $(n + k)$-category with duals of $(M G,Z)$.
 
 * $M G$ is the Thom space of group $G$.
 * $G$ can be any group equipped with a homomorphism to $O(k)$. ([comment](http://golem.ph.utexas.edu/category/2006/11/this_weeks_finds_in_mathematic_2.html#c006471))
