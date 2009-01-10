@@ -10,6 +10,6 @@ In a [[topos]] (or any category with a [[terminal object]] $1$), an object $X$ i
 
 _[[Mike Shulman|Mike]]_: I strongly disagree that "inhabited" means "has a global element" in a topos.  Intuitionistically, "$X$ is inhabited" means "there exists an $x\in X$" which when interpreted in the internal logic of a topos means that $X$ is well-supported.  By contrast, the property of having a global element is not expressible in the internal language at all.  "Inhabited" is also universally used in the topos-theoretic literature to mean well-supported.
 
-_Toby_: Then what is the term for what I have called 'inhabited'? [At least one reference](www.dcs.kcl.ac.uk/technical-reports/papers/tr97-04.ps.gz) uses the term that way; I\'m not in a position to see how the Elephant uses it.
+_Toby_: Then what is the term for what I have called 'inhabited'? [At least one reference](www.dcs.kcl.ac.uk/technical-reports/papers/tr97-04.ps.gz) uses the term that way; I see (through Google) that it\'s used in the Elephant, but it\'s not in the index and I haven\'t managed to tell what the definition is. Certainly I\'m not in the position to make a good literature search.
 
 =--
