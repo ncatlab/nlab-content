@@ -23,3 +23,7 @@ Elements $\phi: 1 \to \Omega$ are often referred to as "truth values"; the disti
 * It is not usually true in toposes that $\Omega$ is the coproduct $\mathbf{2} = 1 + 1$; toposes where that occurs are called _[[Boolean topos|Boolean]]. Thus the category $Set$ of sets is a Boolean topos, as is the [[presheaf]] topos $Set^G$ when $G$ is a [[groupoid]].
 
 * An example of a non-Boolean topos is the category of [[sheaf|sheaves]] over a "typical" [[topological space]] $X$ such as $\mathbb{R}$ in its usual topology. In this case, $\Omega$ is the sheaf where the set of sections over an open set $U$ is the set of open subsets of $U$, with the obvious restriction maps; the [[sheaf and topos theory|sheaf topos]] in this case is guaranteed to be non-Boolean provided there are some non-regular open sets in $X$ (a open set is _regular_ if it is the interior of its closure). The "[[internal logic]]" of such a topos is [[intuitionistic logic|intuitionistic]]. 
+
+# Properties
+
+The subobject classifier always comes with the structure of an internal [[poset|poset]]; that is, a relation $\subseteq\, \hookrightarrow \Omega\times\Omega$ which is internally reflexive, antisymmetric, and transitive.  This can be constructed directly, or obtained via the [[Yoneda lemma]] since the collection of subobjects of any object is an external poset.
