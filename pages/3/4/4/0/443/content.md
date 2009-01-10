@@ -1,4 +1,4 @@
-Roughly speaking, $Rel$ is the category where the objects are sets and the morphisms are [[relation]]s between sets. It becomes a [[2-category]] (in fact, a [[2-poset]]) by taking 2-cells to be inclusions of relations. 
+Roughly speaking, $Rel$ is the category where the objects are sets and the morphisms are (binary) [[relation]]s between sets. It becomes a [[2-category]] (in fact, a [[2-poset]]) by taking 2-cells to be inclusions of relations. 
 
 ## Definition
 
@@ -45,3 +45,5 @@ which says the functional relation is _well-defined_.
 ## Generalizations 
 
 See [[allegory]], [[cartesian bicategory]]. 
+
+category: category
