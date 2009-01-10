@@ -27,3 +27,9 @@ Any thoughts to help me sort this out would be greatly appreciated.
 #References#
 
 * Marco Grandis, _Directed homotopy theory, I. The fundamental category_ ([arXiv](http://arxiv.org/abs/math.AT/0111048))
+
+_[[Tim Porter|Tim]]_ added:   Perhaps some stuff that I did may help in this. I do not claim to have done more than collect up some thoughts from different areas and apply them in a fairly coherent way, I came up with the paper:
+
+* Tim Porter: _Enriched categories and models for spaces of evolving states_, Theoretical Computer Science, 405, (2008), pp. 88 - 100.
+
+If it would help I could cooperate on something for the nlab on this.  
