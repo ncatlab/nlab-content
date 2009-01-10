@@ -4,9 +4,4 @@ Since 2001 I have been a full-time parent; I presently live in Connecticut and c
 
 Some of my writings can be found [here](http://math.ucr.edu/home/baez/trimble).
 
-+--{.query}
-Sorry for the misattribution! I\'d just been reading stuff about [[Timothy Porter|Tim Porter]].
-No problem -- Todd
-=--
-
 category: people
