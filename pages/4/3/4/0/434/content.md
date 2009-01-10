@@ -4,7 +4,6 @@
 
 * [[logic|Logic]]
 
-
 #entries related to foundations and logic#
 
 * [[ETCS]]
