@@ -1,4 +1,4 @@
-An **equivalence relation** on a set $S$ is a [[binary relation]] $\equiv$ on $S$ that is:
+An **equivalence relation** on a set $S$ is a binary [[relation]] $\equiv$ on $S$ that is:
 * _reflexive_: $x \equiv x$ for all $x: S$;
 * _symmetric_: $x \equiv y$ if $y \equiv x$; and
 * _transitive_: $x \equiv z$ if $x \equiv y \equiv z$.
