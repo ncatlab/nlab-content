@@ -2,7 +2,7 @@
 
 A _simplicially enriched category_ is a [[enriched category|category enriched over]] the [[monoidal category]] of [[simplicial set|simplicial sets]].
 
-These enriched categories are sometimes, somewhat imprecisely, called just _simplicial categories_.
+These enriched categories are sometimes, somewhat imprecisely, called just _[[simplicial category|simplicial categories]]_.
 
 
 #Remarks#
