@@ -37,7 +37,7 @@ is the _Chevalley-Eilenberg algebra_ of the Lie algebroid (in that for $X = pt$ 
 
 In the existing literature this is often addressed just as "the complex that computes Lie algebroid cohomology".
 
-It is helpful to compare this definition to the general definition of [[L-infinity Lie algebroid|Lie infinity-algebroids]], the [[vertical categorification]] of Lie algebras and Lie algebroids.
+It is helpful to compare this definition to the general definition of [[Lie infinity-algebroid|Lie infinity-algebroids]], the [[vertical categorification]] of Lie algebras and Lie algebroids.
 
 
 **Definition in terms of commutative Lie-Rinehart pairs.**
