@@ -6,9 +6,11 @@ Informally, a definition is _impredicative_ if it refers to a totality which inc
 
 # Impredicative axioms #
 
-Two set-theoretic axioms which are commonly rejected by predicativists as leading to impredicative definitions are the axiom of unbounded [[separation]] and the axiom that any set has a power set.  In particular, the rejection of the latter means that predicativists do not believe the category of sets is a [[topos]], and that conversely predicative mathematics is naturally interpreted in the [[internal logic]] of categories more general than toposes, such as [[pretopos]]es.
+Two set-theoretic axioms which are commonly rejected by predicativists as leading to impredicative definitions are the axiom of unbounded [[separation]] and the axiom that any set has a power set.  In particular, the rejection of the latter means that predicativists do not believe the category of sets is a [[topos]], and that conversely predicative mathematics is naturally interpreted in the [[internal logic]] of categories more general than toposes, such as [[Heyting category|Heyting]] [[pretopos]]es.
 
-However, many predicativists do accept the existence of the [[exponential]] $B^A$ for any sets $A,B$ (that is, the set of functions $A\to B$).  These predicativists believe that the category of sets is [[locally cartesian closed category|locally cartesian closed]], and their mathematics can be interpreted in any locally cartesian closed pretopos.  Some predicativists also assume stronger axioms, such as the "fullness" or "[[subset collection]]" axiom of Aczel's theory CZF, or the existence of [[W-type|W-types]] (equivalently, [[inital algebra]]s of polynomial functors, a strong form of the axiom of infinity).
+However, many predicativists do accept the existence of the [[exponential]] $B^A$ for any sets $A,B$ (that is, the set of functions $A\to B$).  These predicativists believe that the category of sets is [[locally cartesian closed category|locally cartesian closed]], and their mathematics can be interpreted in any locally cartesian closed pretopos (sometimes called a $\Pi$-pretopos).  Some predicativists also assume stronger axioms, such as the "fullness" or "[[subset collection]]" axiom of Aczel's theory CZF, or the existence of [[W-type|W-types]] (equivalently, [[inital algebra]]s of polynomial functors, a strong form of the axiom of infinity).
+
+It is worth noting that [[excluded middle]] together with the existence of exponentials implies the existence of power sets, or equivalently that any cartesian closed [[Boolean category|Boolean]] pretopos is a topos.  (In fact, any Boolean pretopos has a [[subobject classifier]], namely $2=1\sqcup 1$.)
 
 # Discussion #
 
@@ -41,3 +43,7 @@ _Toby_: Philosophically, I\'m a pluralist, so I also like constructivism (in the
 (To be honest, I almost convinced myself that I\'m interested, for their own sake as the 'right' way to do things, in foundations that amount to working in a locally cartesian closed pretopos whose category of lex endofunctors has enough injectives, but as soon as I got as far as figuring that out, I got onto something else.)
 
 I hope that predicativism can still tell us something about how "a pretopos is a stack for its coherent coverage" works where "a pretopos is a stack for its coherent Grothendieck coverage" doesn\'t. But it\'s already enough to interest me in predicativism that there are predicatvists.
+
+_Mike_: Fair enough.  I can understand that, even if it's not my philosophy.
+
+Actually, on further reflection, it's not really accurate to say that I don't care about predicativism.  It's the specific variety of predicativism that accepts things like exponentials, W-types, fullness, and/or collection, but not power sets, that I have trouble justifying. Because I do care about what can be made first-order, I care about the internal logic of a Heyting category, which could be called "even more" predicative; I'm just not used to giving it that label.  And the category of classes in a membership-based set theory is a good example of a positive Heyting category that doesn't even have exponentials.
