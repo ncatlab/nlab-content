@@ -50,3 +50,5 @@ Another reason, which I mentioned briefly at the end of that but didn't emphasiz
 _Toby_: I disagree with the statement that, constructively, not every inhabited set can be made pointed. It\'s easy to prove (the obvious proof is valid) in constructive set theory that for every inhabited set $A$ there is a pointed set whose underlying set is $A$. Probably your point is really about non-well-pointed toposes. (The discussion at [[inhabited set]] may be relevant here, but probably not in an essential way.)
 
 Otherwise, I see that you\'re entirely right. Although probably I should read Cheng and Gurski first to make sure. When I have, I\'ll fix this page (and [[periodic table]]).
+
+_Mike_: You are right, I am thinking about toposes in which 1 is not projective.  But, of course, as you point out, even there it is still true in the internal logic that every inhabited object can be pointed.  (Although you have to be careful about interpreting that statement, since the usual internal language cannot quantify over objects.)
