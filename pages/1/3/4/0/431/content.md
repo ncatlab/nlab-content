@@ -6,6 +6,12 @@ During the "[[foundations|foundational]] crisis" in mathematics around the begin
 
 Thus, constructivists (including many still active today) reject proofs that make use of either of these.  (In fact, it was realized in 1975 by Diaconescu that the axiom of choice implies the principle of excluded middle; excluded middle is the 'finitely-indexed axiom of choice'.)
 
++--{.query}
+
+_Mike_: can you make that last statement ("excluded middle is the 'finitely-indexed axiom of choice'") precise?
+
+=--
+
 There are, however, differences among constructivists as well.
 
 * Some, like Errett Bishop, simply remove choice and excluded middle from classical mathematics with nothing to replace them.  However, this makes it difficult to define a satisfactory notion of continuous function, even $R \to R$; see (Waaldijk 2003).
