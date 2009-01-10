@@ -795,7 +795,7 @@ _[[Eric Forgy|Eric]] says_: No worries. It's great to see all the new content :)
 
 _[[John Baez|John]] says_: Thanks for all the great work!  I see you improved my picture of a [[span]].  That inspired me to improve the entry on spans, and add one on [[pullbacks|pullback]] - my first tiny stab at explaining [[limit|limits]] on the $n$Lab. 
 
-##Linking to Wikipeda##
+##Linking to Wikip&aelig;dia##
 
 _[[Eric Forgy|Eric]]_ says: How would I link to an external address that itself contains parentheses, e.g.
 
