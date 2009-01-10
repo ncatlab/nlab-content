@@ -56,7 +56,6 @@ bla bla bla
  * &#352;evera,...
 
 
-
 #Entries related to Lie theory#
 * [[BRST complex]]
 * [[BV theory]]
