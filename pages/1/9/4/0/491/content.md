@@ -1,0 +1,7 @@
+In the [[foundations]] of mathematics, finitism is the philosophy that one should not assume the [[axiom of infinity]], or perhaps should even deny it by an axiom of finiteness. This make it impossible to do analysis as we normally understand it.
+
+Finitism (in the weak sense of not accepting an axiom of infinity) is essentially the mathematics that can be done internal to an arbitrary [[topos]] (at least if one is not also being [[predicativism|predicativist]]). For [[constructivism|constructive mathematics]] as usually practised, one goes beyond finitism by positing a [[natural numbers object]].
+
+Although often considered a form of constructivism, finitism in the strong sense (actually denying the axiom of infinity) can make [[excluded middle]] and even the [[axiom of choice]] constructively acceptable. This is because even constructivists agree that these are true in the category [[FinSet]] of [[finite set]]s (for an appropriate sense of 'finite'); it\'s the extension of them to infinite sets that the first constructivists objected to.
+
+For the opinionated espousal of finitism (and much else), one can hardly do better than [Doron Zeilberger\'s Opinions](http://www.math.rutgers.edu/~zeilberg/OPINIONS.html).
