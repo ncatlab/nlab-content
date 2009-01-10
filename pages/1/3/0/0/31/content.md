@@ -107,7 +107,7 @@ Structures in Physics</i>, ed. Bob Coecke.  <b>Draft version.</b>
 with Aaron Lauda, to appear in proceedings of 
 <i>Deep Beauty: Mathematical Innovation and the Search for
 an Underlying Intelligibility of the Quantum World</i>, ed. 
-Hans Halvorson.  <b>Draft version.</b>
+Hans Halvorson. <b>Draft version.</b>
 
 [Higher gauge theory II: 2-connections](http://math.ucr.edu/home/baez/2conn.pdf), with Urs Schreiber.  <b>Draft version.</b>
 
