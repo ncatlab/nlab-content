@@ -36,6 +36,10 @@ _Toby_: I think that there are two relevant complications that appear in disting
 
 In any case, I\'ve rewritten the paragraph.
 
+_Mike_: It looks fine to me now, thanks.  I've added a section below about this distinction, because while as you say it is not unique to constructivism, I think it becomes more important constructively and is not something that most classical mathematicians are used to thinking about.
+
+I think this discussion could now be removed.  I also incorporated the conclusion of the real numbers discussion below into the text (thanks for the clarification) and deleted the discussion.
+
 =--
 
 # Topos Theory #
@@ -62,25 +66,22 @@ On the other hand, differences in axiomatization or definition that make no diff
 
 * There are multiple inequivalent constructive definitions of a [[field]], because of the axioms "every _nonzero_ element has an inverse" and $0 \neq 1$.
 
-* Without excluded middle or countable choice, the Dedekind [[real number]]s and the Cauchy real numbers are no longer the same.  From a topos-theoretic viewpoint, the Dedekind reals are usually the "correct" notion to study.  See also (Bridges et al, 1998).
-
-+--{.query}
-
-_Mike_: Is excluded middle really necessary for this?  I thought that countable choice was enough.  I know that they are the same in the effective topos, which satisfies countable choice but is not Boolean.
-
-_Toby_: Ah, this is the old problem that English doesn\'t easily distinguish $\neg(p \wedge q)$ from $\neg{p} \wedge \neg{q}$. You\'re not mistaken.
-
-_Mike_: Are you claiming that they are the same with excluded middle, but without countable choice?  I don't see why that should be so; it seems that to construct a Cauchy sequence from a Dedekind cut you need to make a bunch of choices.
-
-_Toby_: Yes, that is what I\'m claiming. Using excluded middle, you can specify a procedure for making the choices all at once. (Say, take the smallest exact multiple of $1/n$ in the upper set; you need infinitely many applications of excluded middle to conclude that such a 'smallest' always exists, but the result, once it exists, is unique, so there are no further choices.) See (Bridges et al, 1998) for a full discussion.
-
-=--
+* In pure constructive logic, the Dedekind [[real number]]s and the Cauchy real numbers need no longer coincide.  The Cauchy reals sit inside the Dedekind reals, but in general not every Dedekind real need be approximable by a _sequence_ of rationals.  From a topos-theoretic viewpoint, the Dedekind reals are usually the "correct" notion to study (although see also [[locale]]).  However, either excluded middle or countable choice suffices to ensure that every Dedekind real is a Cauchy real, and hence that the two notions coincide.  See also (Bridges et al, 1998).
 
 * There are at least three different constructive notions of [[ordinal number]]; see (Taylor 1996) and (Joyal-Moerdijk 1995).
 
 * Without the axiom of choice, [[functor|functors]] and [[anafunctor|anafunctors]] become distinct, and often the latter is more appropriate; see (Makkai, 1996).
 
 * Perhaps most disturbingly of all to the classical mathematician, one must distinguish between _finite sets_ (those equipped with a bijection to $\{1,\dots, n\}$ for some natural number $n$), _subfinite sets_ (those equipped with an injection from some finite set), _finitely indexed sets_ (those equipped with a surjection from some finite set, also called _Kuratowski-finite sets_ or, confusingly, _subfinite sets_), and even _subfinitely indexed sets_.  However, in practice it is usually either the finite sets or the K-finite sets that are important, and with practice a little bit of thought suffices to show which is the relevant concept.
+
+
+## Truth versus assertability ##
+
+An occasional source of confusion to classical mathematicians trying to understand constructivism is the relationship between "false" and "not true."  Although in constructive logic something can be "not false" without necessarily being "true," one can still say (at least, in the constructive logic formalized by Heyting which is relevant to topos theory) that "false" and "not true" are equivalent.  In fact, one may take "not true" as a _definition_ of "false."
+
+On the other hand, there is still a distinction between the "object language" and the "metalanguage."  The identity between "not true" and "false" holds in the object language, meaning that the mathematical statements "P is false" and "P is not true" are equivalent.  However, there is also the meta-statement "P is not assertable" or "P is not provable," which does not imply that P is necessarily provably false. The law of excluded middle "for all P, either P or not P" is not _provably true_ in pure constructive logic, but neither is it provably false (in other words, its negation is not provably true).  Some non-classical axioms do enable one to prove its negation, namely "it is false that for all P, either P or not P."  (Note that this negation is weaker than the assertion "there exists a P such that neither P nor not P," which is inconsistent even constructively.)
+
+The distinction between object language and metalanguage exists even in classical logic, but it seems that most classical mathematicians are not used to remembering it, although it is not entirely clear why this should be so.  One possibly relevant observation is that even if P is a statement which is neither provable nor disprovable (like the continuum hypothesis), in classical mathematics it is still provable that "P is either true or false."  Moreover, classical model theory often restricts itself to two-valued models in which the only truth values are "true" and "false," although classical logic still holds in [[Boolean algebra|Boolean-valued]] models, and in such a case the truth value of P may be neither "true" nor "false," although the truth value of "P or not P" is still "true."  Certainly when talking about classical truths which fail constructively, such as excluded middle, it is important to remember that "fails to be provable" is different from "is provably false."
 
 
 # References #
