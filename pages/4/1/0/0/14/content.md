@@ -12,7 +12,6 @@ The site is running [[Jacques Distler]]'s enhanced version of [Instiki](http://g
 
 The site is served using [Mongrel](http://mongrel.rubyforge.org/). It is hosted on a [256MB Virtual Private Server](http://www.a2hosting.com/services/vps-hosting/), running [CentOS](http://www.centos.org/), from [A2 Hosting](http://www.a2hosting.com/).
 
-
 #What the $n$Lab is and what it is not#
 
 By design, the $n$Lab is a collaborative project which can and will have to grow incrementally. 
