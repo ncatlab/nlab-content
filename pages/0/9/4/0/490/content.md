@@ -11,3 +11,9 @@ Another important consequence is the axiom of [[dependent choice]], and thus als
 # Justification
 
 Although perhaps not well known in the literature of [[constructivism|constructive mathematics]], this axiom may be justified by the sort of reasoning usually accepted (except in the school of Fred Richman) to justify the axioms of countable choice and dependent choice (which it implies, as above). To be explicit, every set $A$ should have a 'completely presented' set of 'canonical' elements, that is elements given directly as they are constructed without regard for the equality relation imposed upon them. For canonical elements, equality is identity, so the BHK interpretation of logic justifies the axiom of choice for a completely presented set. This set is $P$, and $A$ is obtained from it as a [[quotient set|quotient]] by the relation of equality on $A$. This argument can be made precise in many forms of [[type theory]] (including those of Martin-L&#246;f and Thierry Coquand), which thus justify COSHEP, much as they are widely known to justify dependent choice.
+
+# In topos theory #
+
+In topos theory one must distinguish COSHEP (every object has a projective cover) from "internal COSHEP" (every object has an _internally projective_ cover).  Since projective objects are internally projective, COSHEP implies internal COSHEP (just like the axiom of choice implies its internal version).  Of course, any topos that violates countable choice must also violate COSHEP and internal COSHEP.
+
+An interesting example of a topos that _does_ satisfy COSHEP, though it violates the axiom of choice, is the [[effective topos]].
