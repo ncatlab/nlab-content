@@ -7,6 +7,6 @@
 * [[nice topological space]]
 * [[topological space]]
 
-#Remarks
+#Remarks#
 
 The word 'topology' sometimes means 'the collection of open sets in a [[topological space]]'. In particular, if someone says 'Let $T$ be a topology on $X$', then they mean 'Let $X$ be equipped with the structure of a topological space, and let $T$ be the collection of open sets in this space'.
