@@ -30,6 +30,10 @@ If it would help I could cooperate on something for the nlab on this.
 
 _[[Eric Forgy|Eric]] says_: That would be awesome.
 
+PS: I've struggled with whether to call the spaces I'm interested in "discrete" or "directed" because they they are both discrete (as opposed to continuum, but not in the topological sense) and directed. In light of the fact that the directed spaces discussed here are continuum spaces, I think I might start calling the spaces I'm interested in "discrete directed spaces".
+
+Do directed spaces fit into [[space and quantity]] such that there is a "directed graded differential algebra" dual to them?
+
 #References#
 
 * Marco Grandis, _Directed homotopy theory, I. The fundamental category_ ([arXiv](http://arxiv.org/abs/math.AT/0111048))
