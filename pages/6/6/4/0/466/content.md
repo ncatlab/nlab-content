@@ -1,4 +1,4 @@
-The Yoneda lemma is an elementary but deep and central result in [[category theory]] and in particular in [[sheaf and topos theory]].
+The Yoneda lemma is an elementary but deep and central result in [[category theory]] and in particular in [[sheaf and topos theory]]. It is essential background behind the central concepts of [[representable functor]] and [[universal construction]]. 
 
 #Preliminaries#
 
