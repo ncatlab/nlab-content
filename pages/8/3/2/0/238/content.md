@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-11
 
+* [[Urs Schreiber]]:
+
+  * created a separate entry [[Yoneda embedding]], even though the information there is also recalled in [[Yoneda lemma]]
+
 * [[Toby Bartels]]:
   * I created [[local ring]] and [[excluded middle]].
   * Discussions seem to be converging at [[constructivism]], [[extensive category]], [[field]], [[inhabited set]], [[k-tuply monoidal n-category]], [[predicativism]], and [[Grothendieck topology]] (whew!).
