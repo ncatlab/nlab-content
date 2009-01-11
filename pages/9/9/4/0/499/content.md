@@ -1,4 +1,6 @@
-The _Yoneda embedding_ for $C$ a [[locally small]] category is the functor
+#Definition#
+
+The **Yoneda embedding** for $C$ a [[locally small]] category is the functor
 
 $$
   Y : C \to [C^{op}, Set]
