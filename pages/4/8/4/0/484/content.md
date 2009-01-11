@@ -7,6 +7,6 @@ Equivalently, an equivalence relation on $S$ is a way of making $S$ into the set
 
 In a [[finitely complete category]] $C$, an **equivalence relation** on an [[object]] $X$ is a monomorphism $R\hookrightarrow X\times X$ which is "internally reflexive, transitive, and symmetric."  (add explicit versions of this)
 
-Any [[kernel pair]] is an equivalence relation.
+Any [[kernel pair]] is an equivalence relation.  An equivalence relation which is the kernel pair of some morphism is called **effective**.  A [[regular category]] is called an [[exact category]] if every equivalence relation is effective.
 
 See also: [[regular category]], [[exact category]], [[apartness relation]]
