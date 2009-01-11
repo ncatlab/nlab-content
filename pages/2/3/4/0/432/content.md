@@ -42,8 +42,10 @@ _Toby_: Philosophically, I\'m a pluralist, so I also like constructivism (in the
 
 (To be honest, I almost convinced myself that I\'m interested, for their own sake as the 'right' way to do things, in foundations that amount to working in a locally cartesian closed pretopos whose category of lex endofunctors has enough injectives, but as soon as I got as far as figuring that out, I got onto something else.)
 
-I hope that predicativism can still tell us something about how "a pretopos is a stack for its coherent coverage" works where "a pretopos is a stack for its coherent Grothendieck coverage" doesn\'t. But it\'s already enough to interest me in predicativism that there are predicatvists.
+I hope that predicativism can still tell us something about how "a pretopos is a stack for its coherent coverage" works where "a pretopos is a stack for its coherent Grothendieck coverage" doesn\'t. But it\'s already enough to interest me in predicativism that there are predicativists.
 
 _Mike_: Fair enough.  I can understand that, even if it's not my philosophy.
 
 Actually, on further reflection, it's not really accurate to say that I don't care about predicativism.  It's the specific variety of predicativism that accepts things like exponentials, W-types, fullness, and/or collection, but not power sets, that I have trouble justifying. Because I do care about what can be made first-order, I care about the internal logic of a Heyting category, which could be called "even more" predicative; I'm just not used to giving it that label.  And the category of classes in a membership-based set theory is a good example of a positive Heyting category that doesn't even have exponentials.
+
+_Toby_: I care about that too, and since predicativism in practice is a vague term that might not allow exponentials either (as Brouwer didn\'t), the practice might still be wroth examining for that purpose. But that is not something that can be established theoretically, so I\'ll just use any useful examples that I see, and leave it at that.
