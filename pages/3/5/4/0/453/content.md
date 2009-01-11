@@ -26,9 +26,11 @@ Conversely, one can show that a finitely complete category in which the extremal
 
 * The category of models of any finitary algebraic theory (i.e., [[Lawvere theory]]) $T$ is regular. This applies in particular to the category [[Ab]] of abelian groups. 
 
-* Any [[abelian category]] is regular. 
+* Any [[abelian category]] is regular (and, in fact, [[exact category|exact]].
 
 * If $C$ is regular, then so is $C^D$ for any category $D$.
+
+* From any category $C$ with finite limits, or even [[weak limit|weak finite limits]], one can construct a "free" regular category $C_{reg/lex}$ by adjoining formal images of morphisms in $C$.  The regular categories of the form $C_{reg/lex}$ for some category $C$ with weak finite limits are precisely those which have [[projective object|enough (regular) projectives]] and in which every object admits a monomorphism into a finite product of projectives; in this case the projectives are the retracts of objects of $C$ (Carboni-Vitale 1998).
 
 
 ## Remarks
@@ -36,3 +38,7 @@ Conversely, one can show that a finitely complete category in which the extremal
 * If $C$ is regular, then its [[subobject]] preorders $Sub(X)$ (which have finite meets, since $C$ has finite limits) have the property that for any map $f:X\to Y$, the pullback functor $f^*:Sub(Y)\to Sub(X)$ has a left adjoint $\exists_f$, and the [[Beck-Chevalley condition]] is satisfied for any pullback square.
 
 * Every regular category has an [[internal logic]] which is [[regular logic]].
+
+## References
+
+Carboni, A. and Vitale, E. M. Regular and exact completions, _JPAA_ 125, 1998.
