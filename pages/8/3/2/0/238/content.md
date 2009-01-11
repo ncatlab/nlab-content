@@ -10,16 +10,20 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-01-11
+
+* [[Toby Bartels]]:
+  * I created [[local ring]] and [[excluded middle]].
+  * Discussions seem to be converging at [[constructivism]], [[extensive category]], [[field]], [[inhabited set]], [[k-tuply monoidal n-category]], [[predicativism]], and [[Grothendieck topology]] (whew!).
+  * However, the discussion at [[(-1)-groupoid]] has become [a Caf&#233; post](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html#c021235).
+  * I don\'t consider myself caught up yet, so if you\'re waiting for me to do something ... you\'ll have to wait another day.
 
 # 2009-01-10
-
 
 * [[Urs Schreiber|Urs]]:
   * created [[Kan fibration]] and edited [[horn]], [[hypercover]] and [[Kan complex]]
   * added remark on relation to [[FQFT]] at [[generalized tangle hypothesis]]  
   * have some questions for [[Toby Bartels|Toby]] (or other topos experts) at [[(-1)-groupoid]] -- see also my general discussion question at the blog: [enriched sheaf and topos theory?](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html#c021224)
-
-
 
 * [[Toby Bartels]]:
   * I wrote [[Boolean topos]], [[COSHEP]], and [[finitism]].
