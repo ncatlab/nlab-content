@@ -68,7 +68,8 @@ The Yoneda lemma tends to carry over to all important generalizations of the con
 
 * In the context of [[infinity-category|infinity-categories]] the Yoneda lemma becomes the [[descent and codescent]] condition on [[infinity-stack]]s. This is described in [[infinity-stack homotopically]].
 
+* In [[functional programming]], the Yoneda embedding is the [[continuation passing style]] transform.
 
 #References#
 
-* Tom Leinster, [[LeinsterYoneda.pdf:file]]
+* Tom Leinster, [[LeinsterYoneda.pdf:file]] (This file is not really a PDF file; it was misnamed when uploaded.  To read it, download it and rename it to "LeinsterYoneda.ps".  Would an admin--or someone who knows how--please fix this?)
