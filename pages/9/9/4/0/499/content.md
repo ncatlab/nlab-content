@@ -20,9 +20,9 @@ $$
   Hom(C, [C^{op}, Set])
 $$
 
-in the [[closed category|closed]] [[monoidal category|symmetric monoidal category]] $Cat$:
+in the [[closed category|closed]] [[monoidal category|symmetric monoidal category]] $Cat$.
 
-for $c \in C$ any object the presheaf $Y(c)$ is given by
+Hence $Y$ sends any object $c \in C$ to the presheaf which assigns to any other object $d$ of $c$ the set of morphisms from $d$ into $c$:
 
 $$
   Y(c) : C^{op} \stackrel{C(-,c)}{\to} Set
