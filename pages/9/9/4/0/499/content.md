@@ -20,7 +20,7 @@ $$
   Hom(C, [C^{op}, Set])
 $$
 
-in the [[closed category|clossed]] [[monoidal category|symmetric monoidal category]] $Cat$:
+in the [[closed category|closed]] [[monoidal category|symmetric monoidal category]] $Cat$:
 
 for $c \in C$ any object the presheaf $Y(c)$ is given by
 
