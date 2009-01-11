@@ -12,3 +12,7 @@ Examples of limits of diagrams of notable shape include:
 * A limit of a diagram consisting of two (or more) objects is their [[product]].
 * A limit of a [[cospan]] is a [[pullback]].
 * A limit of a pair (or more) of [[parallel morphisms]] is an [[equalizer]].
+
+#Remarks#
+
+* The meaning of the notion of limit is possibly best appreciated by regarding them in the context of [[representable functor]]s (as explained there).
