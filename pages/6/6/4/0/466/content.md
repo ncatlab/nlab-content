@@ -64,7 +64,7 @@ The Yoneda lemma tends to carry over to all important generalizations of the con
 
 * There is an analog of the Yoneda lemma in [[enriched category theory]].
 
-* In the context of [[Day convolution]] the Yoneda lemma becomes the important statement of [[Yoneda reduction]], which identified the Yoneda lemma with the existence of units under the [[Day tensor product]].
+* In the context of [[modules]] (see also [[Day convolution]]) the Yoneda lemma becomes the important statement of [[Yoneda reduction]], which identifies the bimodule $\hom_C(-, -)$ as a unit bimodule.
 
 * In the context of [[infinity-category|infinity-categories]] the Yoneda lemma becomes the [[descent and codescent]] condition on [[infinity-stack]]s. This is described in [[infinity-stack homotopically]].
 
