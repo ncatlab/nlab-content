@@ -8,7 +8,7 @@ $$
   Y : C \to [C^op,Set]
 $$
 
--- the [[Yoneda embedding]] -- which sends $C$ to the category of presheaves over it: this is just the image of the Hom-functor
+-- the [[Yoneda embedding]] after the theorem below is established -- which sends $C$ to the category of presheaves over it: this is just the image of the Hom-functor
 
 $$
   C(-,-) : C^op \times C \to Set
@@ -26,7 +26,7 @@ in the [[closed monoidal category|closed]] [[monoidal category|symmetric monoida
 Hence $Y$ sends any object $c \in C$ to the presheaf which assigns to any other object $d$ of $c$ the set of morphisms from $d$ into $c$:
 
 $$
-  Y(c) : C^{op} \stackrel{[C^op,Set](-,c)}{\to} Set
+  Y(c) : C^{op} \stackrel{C(-,c)}{\to} Set
   \,.
 $$
 
