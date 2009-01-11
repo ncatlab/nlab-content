@@ -14,4 +14,10 @@ _Toby_: Then what is the term for what I have called 'inhabited'? [At least one 
 
 _Mike_: On p618 of the Elephant he uses "inhabited" to mean "there exists an $x\in X$" in the internal language.  What do you think about the change I made above?
 
+_Toby_: I certainly can\'t disagree with any of the statements there.
+
+I would like us to be a bit bolder with the terminology if it\'s safe and useful (neither of which condition has been established, of course). The Elephant has its share of terminological changes (like 'cartesian category' and 'cartesian morphism', which I remember got a lot of complaints on the categories mailing list), so I\'d want to check its references (which I can do later).
+
+The wiki saved a previous version of your comments; since you changed it, I won\'t hold you to it. But having read it does inspire me to say that the terminology that comes naturally to me is indeed 'inhabited' for having a global element and 'internally inhabited' for being well supported; the latter seems at least as well justified as 'internal axiom of choice' (as used in, say, Mac Lane \& Moerdijk). That\'s just me, of course.
+
 =--
