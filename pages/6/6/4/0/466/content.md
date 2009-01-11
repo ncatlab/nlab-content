@@ -8,7 +8,7 @@ $$
   Y : C \to [C^op,Set]
 $$
 
-which sends $C$ to the category of presheaves over it: this is just the image of the Hom-functor
+-- the [[Yoneda embedding]] -- which sends $C$ to the category of presheaves over it: this is just the image of the Hom-functor
 
 $$
   C(-,-) : C^op \times C \to Set
@@ -72,4 +72,4 @@ The Yoneda lemma tends to carry over to all important generalizations of the con
 
 #References#
 
-* Tom Leinster, [[LeinsterYoneda.pdf:file]] (This file is not really a PDF file; it was misnamed when uploaded.  To read it, download it and rename it to "LeinsterYoneda.ps".  Would an admin--or someone who knows how--please fix this?)
+* Tom Leinster, [[LeinsterYoneda.ps:file]] 
