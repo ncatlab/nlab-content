@@ -4,11 +4,13 @@ During the "[[foundations|foundational]] crisis" in mathematics around the begin
 * the [[axiom of choice]] and
 * the principle of [[excluded middle]].
 
-Thus, constructivists (including many still active today) reject proofs that make use of either of these.  (In fact, it was realized in 1975 by Diaconescu that the axiom of choice implies the principle of excluded middle; excluded middle is the 'finitely-indexed axiom of choice'.)
+Thus, constructivists (including many still active today) reject proofs that make use of either of these.  (In fact, it was realized in 1975 by Diaconescu that the axiom of choice implies the principle of excluded middle.)
 
 +--{.query}
 
 _Mike_: can you make that last statement ("excluded middle is the 'finitely-indexed axiom of choice'") precise?
+
+_Toby_: I\'ll do so on [[excluded middle]].
 
 =--
 
@@ -46,6 +48,8 @@ _Mike_: It looks fine to me now, thanks.  I've added a section below about this 
 
 I think this discussion could now be removed.  I also incorporated the conclusion of the real numbers discussion below into the text (thanks for the clarification) and deleted the discussion.
 
+_Toby_: Actually, we really should say something in that new section about Bishop\'s use of '_not_', especially since many of his followers use it as well. But I\'ll just write it myself and put it there when I\'ve got it.
+
 =--
 
 # Topos Theory #
@@ -64,7 +68,7 @@ However, there are no non-classical (or classical) axioms beyond "pure construct
 
 Sometimes, all that is necessary to make a piece of mathematics constructive is careful use of language.  It is common in classical mathematics to define things with an unnecessary amount of negation.  This doesn't work so well constructively, since a statement can be not false without being true, but we can sometimes do perfectly well by just removing unnecessary [[double negation]]s.
 
-For example, classically one often speaks about "nonempty" sets, meaning a set which "does _not_ have _no_ elements."  Constructively it is much better to say that a set "<i>does</i> have at least one element"; constructivists often call such a set [[inhabited set|inhabited]] or _occupied_ to remind themselves that it is a "positive" notion to replace the negative one of "nonempty". Others continue to use the word "non-empty" but understand it as a term of art that really means "occupied".
+For example, classically one often speaks about "nonempty" sets, meaning a set which "does _not_ have _no_ elements."  Constructively it is much better to say that a set "<i>does</i> have at least one element"; constructivists often call such a set _[[inhabited set|inhabited]]_ or _occupied_ to remind themselves that it is a "positive" notion to replace the negative one of "nonempty". Others continue to use the word "non-empty" but understand it as a term of art that really means "inhabited".
 
 ## Bifurcation of notions ##
 
@@ -72,7 +76,7 @@ On the other hand, differences in axiomatization or definition that make no diff
 
 * There are multiple inequivalent constructive definitions of a [[field]], because of the axioms "every _nonzero_ element has an inverse" and $0 \neq 1$.
 
-* In pure constructive logic, the Dedekind [[real number]]s and the Cauchy real numbers need no longer coincide.  The Cauchy reals sit inside the Dedekind reals, but in general not every Dedekind real need be approximable by a _sequence_ of rationals.  From a topos-theoretic viewpoint, the Dedekind reals are usually the "correct" notion to study (although see also [[locale]]).  However, either excluded middle or countable choice suffices to ensure that every Dedekind real is a Cauchy real, and hence that the two notions coincide.  See also (Bridges et al, 1998).
+* In pure constructive logic, the Dedekind [[real number]]s and the Cauchy real numbers need no longer coincide.  The Cauchy reals sit inside the Dedekind reals, but in general not every Dedekind real need be approximable by a _sequence_ of rationals.  From a topos-theoretic viewpoint, the Dedekind reals are usually the "correct" notion to study (although see also [[locale]]).  However, either excluded middle or countable choice suffices to ensure that every Dedekind real is a Cauchy real, and hence that the two notions coincide; see (Bridges et al, 1998) for details.
 
 * There are at least three different constructive notions of [[ordinal number]]; see (Taylor 1996) and (Joyal-Moerdijk 1995).
 
@@ -80,15 +84,13 @@ On the other hand, differences in axiomatization or definition that make no diff
 
 * Perhaps most disturbingly of all to the classical mathematician, one must distinguish between _finite sets_ (those equipped with a bijection to $\{1,\dots, n\}$ for some natural number $n$), _subfinite sets_ (those equipped with an injection from some finite set), _finitely indexed sets_ (those equipped with a surjection from some finite set, also called _Kuratowski-finite sets_ or, confusingly, _subfinite sets_), and even _subfinitely indexed sets_.  However, in practice it is usually either the finite sets or the K-finite sets that are important, and with practice a little bit of thought suffices to show which is the relevant concept.
 
-
-## Truth versus assertability ##
+# Truth versus assertability #
 
 An occasional source of confusion to classical mathematicians trying to understand constructivism is the relationship between "false" and "not true."  Although in constructive logic something can be "not false" without necessarily being "true," one can still say (at least, in the constructive logic formalized by Heyting which is relevant to topos theory) that "false" and "not true" are equivalent.  In fact, one may take "not true" as a _definition_ of "false."
 
 On the other hand, there is still a distinction between the "object language" and the "metalanguage."  The identity between "not true" and "false" holds in the object language, meaning that the mathematical statements "P is false" and "P is not true" are equivalent.  However, there is also the meta-statement "P is not assertable" or "P is not provable," which does not imply that P is necessarily provably false. The law of excluded middle "for all P, either P or not P" is not _provably true_ in pure constructive logic, but neither is it provably false (in other words, its negation is not provably true).  Some non-classical axioms do enable one to prove its negation, namely "it is false that for all P, either P or not P."  (Note that this negation is weaker than the assertion "there exists a P such that neither P nor not P," which is inconsistent even constructively.)
 
 The distinction between object language and metalanguage exists even in classical logic, but it seems that most classical mathematicians are not used to remembering it, although it is not entirely clear why this should be so.  One possibly relevant observation is that even if P is a statement which is neither provable nor disprovable (like the continuum hypothesis), in classical mathematics it is still provable that "P is either true or false."  Moreover, classical model theory often restricts itself to two-valued models in which the only truth values are "true" and "false," although classical logic still holds in [[Boolean algebra|Boolean-valued]] models, and in such a case the truth value of P may be neither "true" nor "false," although the truth value of "P or not P" is still "true."  Certainly when talking about classical truths which fail constructively, such as excluded middle, it is important to remember that "fails to be provable" is different from "is provably false."
-
 
 # References #
 
