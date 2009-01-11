@@ -1,4 +1,4 @@
-In the [[foundations]] of mathematics, it\'s interesting to consider the axiom that the [[Set|category of sets]] has [[projective object|enough projectives]]; this is weak form of the [[axiom of choice]]. In short: COSHEP (pronounced /ko:-shep/).
+In the [[foundations]] of mathematics, it\'s interesting to consider the axiom that the [[Set|category of sets]] has [[projective object|enough projectives]]; this is a weak form of the [[axiom of choice]]. In short: COSHEP (pronounced /ko:-shep/).
 
 In elementary terms, this states that for every set $A$, for some set $P$, there is a [[surjection]] $P \to A$, and every surjection $X \to P$ has a [[section]]. (Note that the axiom of choice states that every surjection $X \to A$ has a section; that is, you may take $P$ to be $A$ itself.) In analogy with algebra (see below), we may call $P$ (or more precisely, the surjection $P \to A$) a _projective resolution_ of $A$. Or borrowing from the philosophy of constructivism, we may call $P$ (or again, $P \to A$) a _complete presentation_ of $A$.
 
@@ -14,6 +14,12 @@ Although perhaps not well known in the literature of [[constructivism|constructi
 
 # In topos theory #
 
-In topos theory one must distinguish COSHEP (every object has a projective cover) from "internal COSHEP" (every object has an _internally projective_ cover).  Since projective objects are internally projective, COSHEP implies internal COSHEP (just like the axiom of choice implies its internal version).  Of course, any topos that violates countable choice must also violate COSHEP and internal COSHEP.
+When working in the [[internal logic]] of a [[topos]], the "internal" meaning of COSHEP is "every object is covered by an [[internally projective object]]."  (Compare with the internal axiom of choice: every object is internally projective.)  Since every projective object is internally projective, if the topos itself has enough projectives, then it must satisfy internal COSHEP.
 
-An interesting example of a topos that _does_ satisfy COSHEP, though it violates the axiom of choice, is the [[effective topos]].
+For example, any [[presheaf]] topos has enough projectives, since any coproduct of representables is projective, and therefore it validates internal COSHEP.  Of course, any topos that violates countable choice, of which there are plenty, must also violate internal COSHEP.
+
+An interesting example of a topos that has enough projectives and thus does satisfy internal COSHEP (at least, assuming the axiom of choice in [[Set]]), although it violates the full (internal) axiom of choice, is the [[effective topos]].  Interestingly, the reason for this is quite similar to the intuitive argument given above.
+
+# Remarks #
+
+* By contrast, the dual axiom that $Set$ has enough [[injective object|injectives]] (that is, every set admits an injection into an injective set) is always true.  In fact, any topos has enough injectives: every power object is injective and every object $X$ embeds in its power object $P X$ via the "singleton" map $\{\cdot\}:X\hookrightarrow P X$.
