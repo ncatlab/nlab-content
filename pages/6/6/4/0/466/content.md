@@ -50,9 +50,9 @@ naturally for all $c \in C$.
 
 In the light of the interpretation in terms of [[space and quantity]] mentioned above this says that for $X$ a generalized space modeled on $C$, and for $c$ a test space, morphisms from $c$ to $X$ with $c$ regarded as a generalized space are just the morphisms from $c$ into $X$.
 
-#Yoneda embedding#
+#Corollary: Yoneda embedding#
 
-As an immediate corollary the Yoneda lemma implies that the functor $Y : C \to [C^op,Set]$ is a [[full and faithful functor]], because for $c,d \in C$ it naturally induces the isomorphism of Hom-sets.
+As an immediate corollary the Yoneda lemma implies that the [[Yoneda embedding]] functor $Y : C \to [C^op,Set]$ really is an _embedding_ in that it is a [[full and faithful functor]], because for $c,d \in C$ it naturally induces the isomorphism of Hom-sets.
 
 $$
   [C^{op},Set](C(-,c),C(-,d)) \simeq (C(-,d))(c) = C(c,d)
