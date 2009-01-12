@@ -32,4 +32,8 @@ Maybe life would be simpler if we always internalised using the internal languag
 
 As for the timeout, I think that it\'s an hour, although I haven\'t timed it carefully. (It definitely exists.) I think that it\'s fine to remove or change old comments, certainly if they haven\'t been replied to, but one should be aware that they can still be read. (And if you\'re not sure if they can still be read, try 'See changes' or 'Back in time' below.)
 
+_Mike_: Well, I think that I will continue using "has a global element" myself for clarity, but you've convinced me that it's not entirely unreasonable to use "is inhabited" to mean the same thing.  Though I reserve the right to reopen the discussion if we discover precendent to the contrary.  (-:
+
+A different question, as you mentioned earlier, is whether it is useful.  How often do we want to talk about objects that have a global element?  We may frequently care about _pointed_ objects, which are _equipped_ with a global element, but there isn't any dispute about what to call those.
+
 =--
