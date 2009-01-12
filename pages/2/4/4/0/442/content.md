@@ -6,7 +6,7 @@ that takes the 1-element cardinal to $x$ is commonly supposed to be surjective o
 
 A _model_ of $T$ is a product-preserving functor $T \to Set$, and _homomorphism of models_ is a natural transformation between such functors. A _morphism_ of theories $T \to T'$ is again a product-preserving functor. Thus, $Fin^{op}$ (the "theory of [[equality]]") is initial in the category of Lawvere theories. 
 
-## Remarks
+## Discussion
 
 As a running example, let us consider the theory of [[group]]s (defined however you like). To get the corresponding Lawvere theory $T$, let $F(n)$ (for any natural number $n \geq 0$) be a free group on $n$ generators, and define the Lawvere theory $T_{Grp}$ to be the category [[opposite category|opposite]] to the category of free groups $F(n)$ and group homomorphisms. The generic object $x$ of $T_{Grp}$ is taken to be $F(1)$. 
 
@@ -56,4 +56,10 @@ All of the discussion above for the case of groups generalizes to any finitary [
 
 * The free algebras are retrieved as the representable functors $T \to Set$. 
 
-As discussed in the article on [[operad|operads]], a Lawvere theory may also be defined as an operad relative to the theory of [[cartesian monoidal category|cartesian monoidal categories]]. 
+As discussed in the article on [[operad|operads]], the notion of Lawvere theory may also be formulated in terms of operads relative to the theory of [[cartesian monoidal category|cartesian monoidal categories]]. 
+
+## Remarks
+
+1. If $C$ is a category with finite products, then a group (object) in $C$ may be defined as a product-preserving functor $T_{Grp} \to C$. For example, a topological group may be identified with a functor $T_{Grp} \to Top$, and a Lie group with a product-preserving functor $T_{Grp} \to Man$ into the category of smooth manifolds. An analogous statement holds for any finitary algebraic theory, when formulated in terms of its Lawvere theory $T$. 
+
+1. Sometimes Lawvere theories are called [[finite product theories]]; they are at one end of a spectrum of [[theory|theories]] of differing logical strengths. For example, there are left exact theories, regular theories, geometric theories, and so on, which require for their interpretation categories of differing degrees of strength in their [[internal logic]]. See also [[classifying topos]].
