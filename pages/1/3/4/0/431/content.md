@@ -4,15 +4,7 @@ During the "[[foundations|foundational]] crisis" in mathematics around the begin
 * the [[axiom of choice]] and
 * the principle of [[excluded middle]].
 
-Thus, constructivists (including many still active today) reject proofs that make use of either of these.  (In fact, it was realized in 1975 by Diaconescu that the axiom of choice implies the principle of excluded middle.)
-
-+--{.query}
-
-_Mike_: can you make that last statement ("excluded middle is the 'finitely-indexed axiom of choice'") precise?
-
-_Toby_: I\'ll do so on [[excluded middle]].
-
-=--
+Thus, constructivists (including many still active today) reject proofs that make use of either of these.  (In fact, it was realized in 1975 by Diaconescu that the axiom of choice implies the principle of excluded middle.  Excluded middle is precisely the "finitely indexed" axiom of choice; see [[excluded middle]] for a proof.)
 
 There are, however, differences among constructivists as well.
 
@@ -28,29 +20,8 @@ There are, however, differences among constructivists as well.
 
 * The most extreme position of all is to deny even the existence of very large finite sets.  This is called [[ultrafinitism]].  According to [Wikipedia](http://en.wikipedia.org/wiki/Ultrafinitism), "even constructivists generally view [ultrafinitism] as unworkably extreme."
 
-Many constructivists (like many classical mathematicians) believe in an absolute mathematical sense of "truth," and that in this sense choice and excluded middle are simply _wrong_. (Some constructivists, using classically false axioms, can even refute them; others merely claim that no possible correct reasoning could ever prove them.) To most mathematicians, this makes them seem quite strange.
+Many constructivists (like many classical mathematicians) believe in an absolute mathematical sense of "truth," and that in this sense choice and excluded middle are simply _wrong_. (Some constructivists, using classically false axioms, can even refute them; others merely claim that no possible correct reasoning could ever prove them.  See "Truth versus assertability," below.) To most mathematicians, this makes them seem quite strange.
 
-+--{.query}
-
-_Mike:_ What do you mean by "not true (and may even be false)?"  Are there constructivists who claim that "false" is distinct from "not true?"  The two are certainly the same in the constructive logic I'm familiar with.
-
-_Toby_: Take Errett Bishop. In his analysis book, he says that a statement is true only if it has a proof, that various construtively invalid principles (like excluded middle) are not true, but carefully does not say that they are false because (he says) he makes no classically false claims. And then he claims to be a mathematical realist who believes in an absolute mathematical sense of truth. Clearly he can do this by distinguishing an object language and a metalanguage, and this interpretation is bolstered by his technical use of italicised 'not' in statements like 'Excluded middle is _not_ true.' or 'Exercise: Construct a surjective function which is _not_ onto \[by which he means split epic\].'. Of course, even a classical mathematician can make this distinction, and many do by saying 'not constructively provable' where (setting aside the difference in what the consider provable) Bishop would say '_not_ true'. Yet only a constructivist can claim that this is the final word on the matter, while the classical realist must be left wondering whether an undecidable proposition is *really* true or false.
-
-I\'m not sure that I agree with Bishop. I\'m just trying to be true to his language and views. Probably I should just rewrite that paragraph. Certainly _some_ constructivists can refute excluded middle; Bishop can\'t, but he still claims that it is, in an objective sense, wrong.
-
-_Mike:_ Okay, one thing I was forgetting about is the difference (even in the constructive logic I am familiar with, namely the logic of toposes) between "false = not true" and "not assertable."  But it sounds from what you say as though there might even be a further distinction in some constructivist philosophy?
-
-_Toby_: I think that there are two relevant complications that appear in distinguishing true from false: constructive logic, and the difference between object language and metalanguage. In the former, it\'s still true that $\bot = \neg \top$ (even though $\top \ne \neg \bot$), so that alone adds nothing; in the latter we see the difference between $\neg \vdash \phi$ and $\vdash \neg \phi$. This appears in classical mathematics as well as constuctive, but I think that a constructivist attitude leads one to *speak* of it in different ways. (Or may so lead one; I don\'t speak like Bishop, even when I\'m being a hard-nosed constructivist, and I may not really understand what he means.)
-
-In any case, I\'ve rewritten the paragraph.
-
-_Mike_: It looks fine to me now, thanks.  I've added a section below about this distinction, because while as you say it is not unique to constructivism, I think it becomes more important constructively and is not something that most classical mathematicians are used to thinking about.
-
-I think this discussion could now be removed.  I also incorporated the conclusion of the real numbers discussion below into the text (thanks for the clarification) and deleted the discussion.
-
-_Toby_: Actually, we really should say something in that new section about Bishop\'s use of '_not_', especially since many of his followers use it as well. But I\'ll just write it myself and put it there when I\'ve got it.
-
-=--
 
 # Topos Theory #
 
@@ -82,9 +53,13 @@ On the other hand, differences in axiomatization or definition that make no diff
 
 * Without the axiom of choice, [[functor|functors]] and [[anafunctor|anafunctors]] become distinct, and often the latter is more appropriate; see (Makkai, 1996).
 
-* Perhaps most disturbingly of all to the classical mathematician, one must distinguish between _finite sets_ (those equipped with a bijection to $\{1,\dots, n\}$ for some natural number $n$), _subfinite sets_ (those equipped with an injection from some finite set), _finitely indexed sets_ (those equipped with a surjection from some finite set, also called _Kuratowski-finite sets_ or, confusingly, _subfinite sets_), and even _subfinitely indexed sets_.  However, in practice it is usually either the finite sets or the K-finite sets that are important, and with practice a little bit of thought suffices to show which is the relevant concept.
+* Perhaps most disturbingly of all to the classical mathematician, one must distinguish between _finite sets_, _subfinite sets_ (those admitting an injection to a finite set), _finitely-indexed sets_ (those admitting a surjection from some finite set), and even _subfinitely indexed sets_.  However, in practice it is usually either finite or finitely-indexed sets that are important, and with practice a little bit of thought suffices to show which is the relevant concept.
 
-# Truth versus assertability #
+## Negative translation ##
+
+(Say something about how to interpret classical logic in constructive logic.)
+
+## Truth versus assertability ##
 
 Already in classical mathematics, there is a difference in saying that something is true and saying that something is provable. If you adopt ZFC because you believe it correct, then (assuming that you\'re aware of certain theorems) you believe that ZFC is consistent even though you also know that you cannot prove it so. In that case, you also believe that the continuum hypothesis is either true or false; you may or may not have an opinion on which it is, but in any case again you know that you cannot prove it either way.
 
@@ -106,9 +81,6 @@ Even without this convention, which is peculiar to the Bishop school, it is impo
 
 The distinction between object language and metalanguage exists even in classical logic, but it seems that most classical mathematicians are not used to remembering it, although it is not entirely clear why this should be so.  One possibly relevant observation is that even if P is a statement which is neither provable nor disprovable (like the continuum hypothesis), in classical mathematics it is still provable that "P is either true or false."  Moreover, classical model theory often restricts itself to two-valued models in which the only truth values are "true" and "false," although classical logic still holds in [[Boolean algebra|Boolean-valued]] models, and in such a case the truth value of P may be neither "true" nor "false," although the truth value of "P or not P" is still "true."  Certainly when talking about classical truths which fail constructively, such as excluded middle, it is important to remember that "fails to be provable" is different from "is provably false."
 
-+--{.query}
-Mike, there\'s not much left (just the last paragraph, really) of what you wrote in this section after I got through with it. If you want to put any of it back, note that you can get the markup from <http://ncatlab.org/nlab/rollback/constructivism?rev=10> (although you should only cut from that page, not save it). &#8212;Toby
-=--
 
 # References #
 
