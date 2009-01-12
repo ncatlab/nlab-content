@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * Incorporated the apparent conclusion of the discussion at [[extensive category]] into the entry.
 
+  * Added some details to [[excluded middle]].
+
 # 2009-01-11
 
 * [[Todd Trimble|Todd]]
