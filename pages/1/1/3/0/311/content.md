@@ -6,7 +6,7 @@ $$F: C^{op} \to Set$$
 
 is **representable** if it is [[natural isomorphism|naturally isomorphic]] to a [[hom-functor]] $\hom_C(-, c): C^{op} \to Set$. The object $c$ is determined uniquely up to isomorphism, and is called a **representing object** for $F$. 
 
-Representability is one of the most fundamental concepts of category theory, with close ties to the notion of [[adjoint functor]] and to the [[Yoneda lemma]]. It is the crucial concept underlying the idea of [[universal property]]; thus for example crucial concepts such as "[[limit]]", "[[colimit]]", "[[exponential]]", "[[Kan extension]]" and so on are naturally expressed in terms of representing objects. The concept permeates much of algebraic geometry and algebraic topology. 
+Representability is one of the most fundamental concepts of category theory, with close ties to the notion of [[adjunction]] and to the [[Yoneda lemma]]. It is the crucial concept underlying the idea of [[universal property]]; thus for example crucial concepts such as "[[limit]]", "[[colimit]]", "[[exponential]]", "[[Kan extension]]" and so on are naturally expressed in terms of representing objects. The concept permeates much of algebraic geometry and algebraic topology. 
 
 ## Discussion ## 
 
