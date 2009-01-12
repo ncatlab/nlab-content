@@ -1,6 +1,6 @@
 #The Idea#
 
-The idea of an enriched category is that we take the definition of [[locally small category]] and replace the [[hom-set|hom-sets]] by objects in some [[monoidal category]] $K$.  So, a _category enriched over $K$_, say $C$, has a collection $ob(C)$ of objects and for each pair $x,y \in ob(C)$, a 'hom-object' 
+The idea of an enriched category is that we take the definition of [[locally small category]] and replace the [[hom-set|hom-sets]] by objects in some [[monoidal category]] $K$.  So, a _category enriched over $K$_ (also sometimes called a category enriched _in_ $K$), say $C$, has a collection $ob(C)$ of objects and for each pair $x,y \in ob(C)$, a 'hom-object' 
 $$ hom(x,y) \in K .$$
 We then mimic the usual definition of category.  In particular, composition is a morphism in $K$:
 $$ \circ : hom(y,z) \otimes hom(x,y) \to hom(x,z)  $$
@@ -66,5 +66,5 @@ Nevertheless, internalization and enrichment are related in several ways.  On th
 
 * An [[apartness relation|apartness space]] is a [[groupoid]] enriched over the opposite of the category of truth values, where $\otimes$ is [[disjunction]].
 
-* A [[group torsor]] (over a group $G$) is an (occupied) category enriched over the category whose objects are elements of $G$ and whose only morphisms are identity arrows, and where $\otimes$ is the group operation.
+* A [[group torsor]] (over a group $G$) can be modeled by a category enriched over the [[discrete category]] on the set $G$, where $\otimes$ is the group operation.  Not every such category determines a torsor, however; it must be nonempty as well as [[Cauchy complete category|Cauchy complete]].
 
