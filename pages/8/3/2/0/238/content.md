@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-12
 
+* [[Todd Trimble|Todd]]
+
+  * added some discussion to classifying topos, linking up to the entry [[Lawvere theory]]
+
 * [[Toby Bartels]]:
   * I\'m having a conversation with myself at [[local ring]].
   * I\'m otherwise caught up and will rewrite [[k-tuply monoidal n-category]] before I do anything else.
