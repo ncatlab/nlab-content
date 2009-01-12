@@ -8,7 +8,7 @@ $$
   Y : C \to [C^op,Set]
 $$
 
--- the [[Yoneda embedding]] after the theorem below is established -- which sends $C$ to the category of presheaves over it: this is just the image of the Hom-functor
+-- called the [[Yoneda embedding]] for reasons explained below -- which sends $C$ to the category of presheaves over it: this is just the image of the Hom-functor
 
 $$
   C(-,-) : C^op \times C \to Set
