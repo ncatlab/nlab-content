@@ -20,4 +20,8 @@ I would like us to be a bit bolder with the terminology if it\'s safe and useful
 
 The wiki saved a previous version of your comments; since you changed it, I won\'t hold you to it. But having read it does inspire me to say that the terminology that comes naturally to me is indeed 'inhabited' for having a global element and 'internally inhabited' for being well supported; the latter seems at least as well justified as 'internal axiom of choice' (as used in, say, Mac Lane \& Moerdijk). That\'s just me, of course.
 
+_Mike_: Yeah, I wasn't sure if it would (there seems to be a certain timeout within which multiple edits by the same person overwrite each other?).  I also wasn't sure if it was kosher to remove/change my comment; perhaps I shouldn't have.  The reason I changed it was that "inhabited" and "internally inhabited" did start to make a little sense.  My current feeling is that "inhabited" is a set-theoretic term, and as such should only be used in set-theoretic-like situations.  This includes (1) constructive set theory, (2) IHOL and hence the internal language of a topos, and (3) a well-pointed topos. If we are talking about an arbitrary topos, and it is not clear that our statements are to be interpreted in the internal logic, I would rather use "has a global element" and "is well-supported" since they are both unambiguous.
+
+You are certainly right about the Elephant and terminology.  "Cartesian category," "prone morphism," and "effective regular category" are the ones that come to mind that seem to have been rejected by much of the categorical community.
+
 =--
