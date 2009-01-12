@@ -10,26 +10,6 @@ The $\infty$-category valued presheaves satisfying this condition represent the 
 
 Switching back perspective from presheaves to spaces, and reading the Yoneda lemma as the consistency condition on this interpretation (as indicated at [[Yoneda lemma]]), this  says that $\infty$-stacks on a site $S$ are nothing but $\infty$-categories consistently modeled on $S$. For instance a 0-stack=[[sheaf]] modeled on $S = $[[Diff]] may be a [[generalized smooth space]], while a 1-stack=[[stack]] modeled on [[Diff]] may be a [[differentiable stack]] representing a [[Lie groupoid|smooth groupoid]].
 
-***
-
-###Discussion
-
-_A previous version of the above paragraphs led to the following objection:_
-
-+--{.query}
-
-_[[Mike Shulman|Mike]]_: I object to those claims.  For one thing, I think you should make clear at the outset that descent conditions only arise when you consider not ordinary $\infty$-categories, but what are essentially sheaves/stacks of $\infty$-categories over some site.  I don't think choosing to call such stacks "$\infty$-categories for which the notion of space is modeled on the objects of some locally small category" justifies saying that descent is just a way of talking about morphisms between $\infty$-categories.  If nothing else, it's confusing to someone who doesn't realize that by "$\infty$-category" you mean what many people would call an "$\infty$-stack."  But it also puts the emphasis in the wrong place, since there is no problem talking about morphisms between $\infty$-categories that are not stacks without descent; descent only arises when we pass to stacks.
-
-Likewise, while certainly the Yoneda lemma for $\infty$-stacks depends on descent, but since there is a perfectly good $\infty$-Yoneda lemma, for $\infty$-categories that are not stacks which has nothing to do with descent, I think it is only confusing and not helpful to try to draw a connection between descent and the Yoneda lemma.  Really the (basically tautological) connection is between descent and stacks, since the Yoneda lemma can exist without either.
-
-_[[Urs Schreiber|Urs]]_: I agree, I didn't phrase that well. I still think it is important for a good general understanding to emphasize that the descent condition is just the extension of the Yoneda statement along weak equivalences, though. The above is my attempt to keep that point while taking into account your sensible objections. Let me know if this is better now.
-
-_Mike_: Yes, this is much better, thanks.  Feel free to delete this discussion now.  I went ahead and deleted the stalkwise objection below.
-
-=--
-
-***
-
 Instead of committing the following discussion to a fixed model for [[infinity-category|infinity-categories]] or [[omega-category|omega-categories]] I describe the situation in a setup which aims to come close to making the minimum number of necessary assumptions on the ambient context. After discussing the general idea I give concrete examples in concrete realizations of $\infty$-categorical contexts.
 
 
@@ -123,6 +103,8 @@ and
 # References #
 
 * **JardStackSSh** -- J. Jardine, _Stacks and the homotopy theory of simplicial sheaves_, Homology, homotopy and applications, vol. 3(2), 2001 p. 361-284 ([pdf](http://intlpress.com/HHA/v3/n2/a5/v3n2a5.pdf))
+
+* **JardSimpSh** -- J. Jardine, _Fields Lectures: Simplicial presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
 
 {: #ToenSNAC}
 * **ToenSNAC** -- B. To&#235;n, [[ToenStacksNAC.pdf:file]]
