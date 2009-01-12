@@ -11,6 +11,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 # 2009-01-12
+* [[Tim Porter|Tim]] 
+
+  * I have asked on the page relating to [[action]] if the definition needs to be slightly wider for optimal later use.
 
 * [[Todd Trimble|Todd]]
 
