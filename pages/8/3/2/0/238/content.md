@@ -17,7 +17,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Todd Trimble|Todd]]
 
-  * added some discussion to classifying topos, linking up to the entry [[Lawvere theory]]
+  * added some discussion to [[classifying topos]], linking up to the entry [[Lawvere theory]]
 
 * [[Toby Bartels]]:
   * I\'m having a conversation with myself at [[local ring]].
