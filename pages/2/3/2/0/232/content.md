@@ -68,12 +68,3 @@ Nevertheless, internalization and enrichment are related in several ways.  On th
 
 * A [[group torsor]] (over a group $G$) is an (occupied) category enriched over the category whose objects are elements of $G$ and whose only morphisms are identity arrows, and where $\otimes$ is the group operation.
 
-+--{.query}
-
-I've probably waited too long before saying this, but I've long been accustomed to saying "enriched in" rather than "enriched over". (The homs take values _in_ the base $V$.) If the majority opinion is to prefer "enriched over", then so be it I guess (although I wouldn't like it!), but I may have said "enriched in" here and there on this wiki. - Todd
-
-I think this is one place it's okay to have two different phrasings coexist.  I probably say "enriched over" more frequently, but I probably say "enriched in" sometimes too.  I don't think there's any danger of ambiguity with either one. - Mike
-
-Yeah, you don\'t even create links with those words; say whatever you like! &#8212;Toby
-
-=--
