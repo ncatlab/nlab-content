@@ -9,6 +9,8 @@ Here are a few equivalent ways to phrase the combined condition:
 
 +--{.query}
 The last equivalent phrase doesn\'t seem to follow in a noncommutative ring. Is there an accepted definition of noncommutative local ring, and if so, which (if either) of these is equivalent to it?
+
+Reply to [[Toby Bartels|myself]]: Both Wikipedia and Planet Math say that it *does* follow, but they don\'t give proofs. I should at least check if the proof is constructive, so I can say something if it\'s not. (But I bet that it is.)
 =--
 
 As the invertible elements form an anti-ideal of a (commutative) local ring, the non-invertible elements form an ideal (since an ideal is simply the complement of an anti-ideal). This is in fact a maximal ideal, so the [[quotient object|quotient ring]] is a field.
