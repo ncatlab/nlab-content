@@ -8,37 +8,43 @@ A category $C$ is **regular** if
 
 * The [[kernel pair]] $p_1, p_2: e \,\rightrightarrows\, d$ of any $f: d \to c$ admits a [[coequalizer]];  and
 
-* The pullback of a [[regular epimorphism]] along any map is again a regular epi.
+* The pullback of a regular epi along any map is a regular epi.
 
-The last condition may equivalently be stated as "coequalizers of kernel pairs are stable under pullback".  However, it is not generally true in a regular category that pullbacks preserve all coequalizer _diagrams_.
+Here the "kernel pair" is the parallel pair of projection maps coming out of a pullback $e$ of the diagram 
 
+$$d \stackrel{f}{\to} c \stackrel{f}{\leftarrow} d$$
 
-## Image factorization
+The kernel pair is always an internal [[equivalence relation]] on $d$ in $C$; informally, $\ker(f)$ is the subobject of $d \times d$ consisting of pairs of elements which have the same value under $f$ (sometimes called the 'kernel' of a function in $\Set$). The coequalizer above is supposed to be the "object of equivalence classes" of the equivalence relation $\ker(f)$. 
 
-To form the image factorization of a map $f: d \to c$, let $q: d \to k$ be the coequalizer of the kernel pair of $f$. Since $f$ coequalizes its kernel pair, there is a unique map $i: k \to c$ such that $f = i q$. It may be shown from the regular category axioms that $i$ is monic and in fact represents the [[image]] of $f$, i.e., the smallest subobject through which $f$ factors.  Moreover, the class of regular epis and monos forms a [[orthogonal factorization system|factorization system]], and therefore the regular epimorphisms coincide with the [[extremal epimorphism]]s.
+A map which is the coequalizer of a parallel pair of morphisms is called a _[[regular epimorphism]]_. In fact, in any category satisfying the first two conditions above, every coequalizer is the coequalizer of its kernel pair. (See for instance Paul Taylor's Practical Foundations of Mathematics, Lemma 5.6.6.) 
 
-Conversely, one can show that a finitely complete category in which the extremal epimorphisms and monomorphisms form a factorization system and extremal epis are preserved by pullbacks is necessarily regular, and the extremal and regular epis coincide.
+The last condition may equivalently be stated in the form "coequalizers of kernel pairs are stable under pullback". However, it is not generally true in a regular category that the pullback of a general coequalizer diagram 
 
+$$e \stackrel{\to}{\to} d \to c$$ 
+
+along a morphism $c' \to c$ is again a coequalizer diagram. 
+
+To form the image factorization of a map $f: d \to c$, let $q: d \to k$ be the coequalizer of the kernel pair of $f$. Since $f$ coequalizes its kernel pair, there is a unique map $i: k \to c$ such that $f = i q$. It may be shown from the regular category axioms that $i$ is monic and in fact represents the [[image]] of $f$, i.e., the smallest subobject through which $f$ factors. Moreover, the class of regular epis and monos forms a [[factorization system]]. 
 
 ## Examples
 
-* [[Set]] is a regular category. In fact, any [[topos]] is regular. 
+* [[Set]] is a regular category. In fact, any [[topos]] is regular. More generally, a locally cartesian closed category with coequalizers is regular, and so any quasitopos is regular. 
 
 * The category of models of any finitary algebraic theory (i.e., [[Lawvere theory]]) $T$ is regular. This applies in particular to the category [[Ab]] of abelian groups. 
 
-* Any [[abelian category]] is regular (and, in fact, [[exact category|exact]].
+* Any [[abelian category]] is regular. 
 
-* If $C$ is regular, then so is $C^D$ for any category $D$.
+* If $C$ is regular, then so is $C^D$ for any category $D$. 
 
-* From any category $C$ with finite limits, or even [[weak limit|weak finite limits]], one can construct a "free" regular category $C_{reg/lex}$ by adjoining formal images of morphisms in $C$.  The regular categories of the form $C_{reg/lex}$ for some category $C$ with weak finite limits are precisely those which have [[projective object|enough (regular) projectives]] and in which every object admits a monomorphism into a finite product of projectives; in this case the projectives are the retracts of objects of $C$ (Carboni-Vitale 1998).
+Examples of categories which are _not_ regular include [[Cat]], [[Pos]], and [[Top]]. 
 
+## Remarks 
 
-## Remarks
+1. As exactness properties go, the ones possessed by general regular categories are fairly moderate; the main condition is of course stability of regular epis under pullback. In the first place, the focus is just on certain coequalizers; finite coproducts aren't even mentioned. Some of that imbalance is redressed by the notion of [[lextensive category]], where coproducts are also stable under pullback (and are also disjoint). 
 
-* If $C$ is regular, then its [[subobject]] preorders $Sub(X)$ (which have finite meets, since $C$ has finite limits) have the property that for any map $f:X\to Y$, the pullback functor $f^*:Sub(Y)\to Sub(X)$ has a left adjoint $\exists_f$, and the [[Beck-Chevalley condition]] is satisfied for any pullback square.
+Further desirable exactness properties can be phrased in the language of [[Galois connections]]. For each object $d$, consider the following relation $coeq$ between the class of parallel pairs $f, g: e \stackrel{\to}{\to} d$) and maps $h: d \to c$: 
 
-* Every regular category has an [[internal logic]] which is [[regular logic]].
+$$\langle (f, g); h \rangle \in coeq \qquad iff \qquad h f = h g$$
 
-## References
+[to be continued...]
 
-Carboni, A. and Vitale, E. M. Regular and exact completions, _JPAA_ 125, 1998.
