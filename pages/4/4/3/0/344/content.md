@@ -20,6 +20,8 @@ In the other direction, if $E$ has all small coproducts and the analogous infini
 Can we say 'small-extensive'? Or even redefine 'extensive' to have this meaning, using 'finitely extensive' for the first version? &#8212;Toby
 
 I think "extensive" is pretty well established for the finite version, and I would be reluctant to try to change it.  I wouldn't object too much to "small-extensive" for the infinitary version in principle, but $\infty$-positive is used in the Elephant and possibly elsewhere.  I think the topos theorists think by analogy with $\infty$-pretopos, which I don't think we have much hope of changing, despite the unfortunate clash with "$\infty$-topos."  But you can use "finitary disjunctive" and "disjunctive" in the lex case, which most examples are. -Mike
+
+_Mike_: Okay, I just ran across one paper that uses "(infinitary) extensive" for the infinitary version the first time it was introduced, and then dropped the parenthetical for the rest of the paper.  I also recall seeing "extensive fibration" used for a fibration having disjoint and stable indexed coproducts, which is certainly a (potentially) infinitary notion.  So perhaps there is no real consensus on whether "extensive" definitely implies the finite version or the infinitary one.
 =--
 
 #Examples#
