@@ -2,9 +2,13 @@
 
 An **action** of a [[group]] $G$ on an [[object]] $x$ in a [[category]] $C$ is a [[group homomorphism]] $\rho : G \to Aut(x)$, where $Aut(x)$ is the group of [[automorphism|automorphisms]] of $x$.  
 
-A more sophisticated but equivalent definition treats the group $G$ as a category denoted $BG$ with one object, say $*$.  Then an _action_ of $BG$ in the category $C$ is just a [[functor]] 
-$$\rho : BG \to C.$$  
+A more sophisticated but equivalent definition treats the group $G$ as a category denoted $\mathbf{B} G$ with one object, say $*$.  Then an _action_ of $G$ in the category $C$ is just a [[functor]] 
+$$\rho : \mathbf{B} G \to C.$$  
 Here the object $x$ of the previous definition is just $\rho(*)$. 
+
+***
+
+On a previosu version of the above entry which used the symbol $G$ instead of $\mathbf{B} G$ we had the following discussion. Now I see that somebody already changed it. Maybe we should wait for [[John Baez|John]] to have a look at this and comment on it and if we find agreement then we can remove this discussion here.
 
 +--{.query}
   [[Urs Schreiber|Urs]]: I would prefer if we denote 
@@ -25,6 +29,8 @@ at the end of [[category algebra]].
 
 Mike: I agree.
 =--
+
+***
 
 More generally we can define an _action_ of a [[monoid]] $M$ in the category $C$ to be a functor
 $$\rho: M \to C $$
