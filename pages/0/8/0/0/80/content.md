@@ -16,6 +16,8 @@ Philosophical interest in <i>n</i>-categories may be characterised as belonging 
 
 ##Enquiry##
 
+"Mathematical wisdom, if not forgotten, lives as an invariant of all its (re)presentations in a permanently self&#8211;renewing discourse." (Yuri Manin)
+
 To categorify mathematical constructions properly, one must have understood their essential features. This leads us to consider what it is to get concepts 'right'. Which kind of 'realism' is suitable for mathematics? Which virtues should a mathematical community possess to further its ends: a knowledge of its history, close attention to instruction and the sharing of knowledge, a willingness to admit to what is currently lacking in its programmes?
 
 ##Blog Discussion##
