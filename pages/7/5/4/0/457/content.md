@@ -24,4 +24,6 @@ _Mike_: Yeah, I wasn't sure if it would (there seems to be a certain timeout wit
 
 You are certainly right about the Elephant and terminology.  "Cartesian category," "prone morphism," and "effective regular category" are the ones that come to mind that seem to have been rejected by much of the categorical community.
 
+_Mike_: Another thought: one could argue that just as a "ring" in a topos means a model of the theory of rings, and likewise for many other concepts, so should an "inhabited object" mean a model of the theory of inhabited objects, which is the same as a well-supported object.  Of course this fails for "projective object," but I don't think there is a "theory of projective objects," at least not one interpetable in the usual internal logic of a topos.  And I suppose maybe it fails for "choice object" too, although that probably depends on whether you formulate the theory of choice objects to be equipped with a choice function or merely assert that one exists.  Perhaps the literature is not very consistent in its use of "internally" or lack thereof.
+
 =--
