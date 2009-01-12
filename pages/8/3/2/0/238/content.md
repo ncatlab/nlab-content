@@ -12,6 +12,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-11
 
+* [[Todd Trimble|Todd]]
+
+  * began, at Urs's request, an entry for [[Yoneda reduction]]
+
+  * finally submitted draft of regular category, after having it locked for a few days and doing very little with it in the end. 
+
+  * would like to point out that material relevant to entries like [[universal property]], [[universal construction]] and [[Yoneda lemma]] exists at [[representable functor]]; this could use further expansion
+
 * [[Urs Schreiber]]:
 
   * created a separate entry [[Yoneda embedding]], even though the information there is also recalled in [[Yoneda lemma]]
