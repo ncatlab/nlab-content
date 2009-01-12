@@ -10,6 +10,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-01-12
+
+* [[Mike Shulman|Mike]]:
+
+  * Removed the discussion at [[field]], since it had converged and been incorporated into the entry.
+
+  * Incorporated the apparent conclusion of the discussion at [[extensive category]] into the entry.
+
 # 2009-01-11
 
 * [[Todd Trimble|Todd]]
