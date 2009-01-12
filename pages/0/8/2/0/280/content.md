@@ -22,6 +22,8 @@ it easier to understand some patterns instead of harder.
 In any case, whatever we decide to do, I would enjoy
 feedback on the points I raised in the discussion
 at the end of [[category algebra]].
+
+Mike: I agree.
 =--
 
 More generally we can define an _action_ of a [[monoid]] $M$ in the category $C$ to be a functor
@@ -32,4 +34,7 @@ The _category of actions_ of $M$ in $C$ is then defined to be the [[functor cate
 
 +--{.query}
 I am wondering if we will need the notion of action which works in categories with product, i.e. $G\times X\to X$ and so on. There is also an action of one Lie algebra on another (for instance in some definitions of crossed module of Lie algebra, where $Aut$ is replaced by the Lie algebra of derivations. (a similar situation would seem to exist in various other categories where action is needed in a slightly wider context. I think most would be covered by an enriched setting but I am not sure.) Thoughts please.[[Tim Porter|Tim]]
+
+Yes, I think certainly all those types of action should eventually be described somewhere, possibly on this page.  -Mike
+
 =--
