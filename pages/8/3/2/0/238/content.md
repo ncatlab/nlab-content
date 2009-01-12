@@ -11,6 +11,15 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 # 2009-01-12
+
+* [[Mike Shulman|Mike]]:
+
+  * Joined the discussion at [[category algebra]].
+
+  * Removed the comments at [[constructivism]] that have now been incorporated into the main text (thanks for writing that detailed section, Toby).
+
+  * Created [[finite set]] and [[choice object]].
+
 * [[Tim Porter|Tim]] 
 
   * I have asked on the page relating to [[action]] if the definition needs to be slightly wider for optimal later use.
