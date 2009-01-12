@@ -33,11 +33,11 @@ a cover of the fiber product $Y \times_X Y$, and so on.
 
 #Characterization by lifting property#
 
-Hypercovers are usually (for instance in the [[model structure on simplicial  characterized as being those
+Hypercovers are usually (for instance in the [[model structure on simplicial sets]] characterized as being those
 morphisms $\pi : Y \to X$ for which all images 
 $\pi(\partial C^n)$
 of boundaries $\partial C^n$ of standard $n$-cells 
-[[[globe|globes]] $C^n = G^n$ or [[simplex|simplices]],
+[[globe|globes]] $C^n = G^n$ or [[simplex|simplices]],
 $C^n = \Delta^n$) every $n$-cell filling this boundary in 
 $X$ lifts to $Y$.
 
@@ -69,9 +69,7 @@ $$
 
 #Hypercovers in different model categories#
 
-In the context of simoplicial sets the
-[[model structure on simplicial sets]] this are the 
-hypercovers proper. In the context of 
+In the context of the [[model structure on simplicial sets]], these are the hypercovers proper. In the context of 
 the [[folk model structure]] on 
 [[strict omega-category|strict omega-categories]]
 this are the 
