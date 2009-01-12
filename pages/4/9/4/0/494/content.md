@@ -1,1 +1,3 @@
-See [[adjunction]]. 
+See [[adjunction]].
+
+category: redirect
