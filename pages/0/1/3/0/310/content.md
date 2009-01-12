@@ -24,7 +24,7 @@ Somewhat more generally, a [[locale|frame]] (a sup-lattice in which finite meets
 
 $$(u \Rightarrow v) = \bigvee_{x \wedge u \leq v} x$$ 
 
-and the distributivity property guarantees that the universal property for implication holds. (The detailed proof is a "baby" application of an [[adjoint functor]] theorem.) 
+and the distributivity property guarantees that the universal property for implication holds. (The detailed proof is a "baby" application of an [[adjoint functor theorem]].) 
 
 * Thus locales are extensionally the same thing as _complete Heyting algebras_. However, _intensionally_ they are quite different; that is, a morphism of frames is not usually a morphism of complete Heyting algebras: they do not preserve the implication operator. 
 
