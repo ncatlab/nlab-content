@@ -15,8 +15,16 @@ Further up the line (and speaking roughly), a [[geometric theory]] is a theory w
 
 ## Examples 
 
-The classifying topos for rings. 
+* The classifying topos for groups. 
 
-The classifying topos for intervals. 
+As a warm-up, we first discuss the classifying category for the theory of groups $T$ _qua_ essentially algebraic theory, i.e., we give a finitely complete category $Lex[T]$ equipped with a "generic group". This works much the same way as the [[Lawvere theory]] for groups, which is the category opposite to the category of finitely generated free groups, except that we have to "close up" the Lawvere theory under all finite limits. 
 
-The classifying topos for local rings. 
+Thus, we take $Lex[T]$ to be the category opposite to the category of _finitely presented groups_: those groups $G$ which arise as coequalizers of diagrams 
+
+$$F(m) \stackrel{\to}{\to} F(n)$$ 
+
+between finitely generated free groups. It may be shown that $Lex[T]$ is finitely complete, and the "generic group" inside $Lex[T]$ is $F(1)$, the free group on one generator, just as it is for the [[Lawvere theory]] (see the discussion at that entry). 
+
+* The classifying topos for intervals. 
+
+* The classifying topos for [[local ring|local rings]]. 
