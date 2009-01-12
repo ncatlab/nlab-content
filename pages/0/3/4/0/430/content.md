@@ -2,29 +2,23 @@ In classical mathematics, a **field** is a commutative [[ring]] in which every n
 
 Fields are not as well-behaved categorically as most other common algebraic structures ([[group]]s, [[ring]]s, [[module]]s, etc.).  In particular, the category of fields is not [[complete category|complete]] or [[cocomplete category|cocomplete]], although it is [[accessible category|accessible]].
 
+
 ## Constructive notions of field ##
 
 For the same reason, in [[constructivism|constructive mathematics]] (such as the [[internal logic]] of a topos) there are different inequivalent ways to define a field.  In this case the above definition is not usually the best one; for instance, the real numbers do not satisfy it.  There are several potential replacements with their own advantages and disadvantages.
 
 * If we replace "an element is invertible iff it is nonzero" by "an element is invertible xor (exclusive or) it equals zero" (which is classically equivalent but constructively stronger), we obtain the notion of **discrete field**. Such a field $F$ is discrete in that it decomposes as a coproduct $F = \{0\} \sqcup F^\times$ (where $F^\times$ is the subset of invertible elements).  An advantage is that this is a [[coherent logic|coherent theory]]; a disadvantage is that it is not satisfied (constructively) by the ring of real numbers (however defined), although it is satisfied by the ring of rational (or even algebraic) numbers and by the finite fields as usual.
 
-* If, alternatively, we interpret 'nonzero' in this clause as a reference to an [[apartness relation]] and assume that the ring operations are strongly extensional, then we obtain the notion of **Heyting field**. (Although this seems to have extra structure, the apartness relation is definable from the algebra: $x # y$ iff $x - y$ is invertible.) This is how 'practising' constructive analysts of the Bishop school usually define the simple word 'field'; it has the same advantages and disadvantages given above for a residue field. An advantage is that the real numbers (in the located Dedekind sense) form a Heyting field, although (for example) the MacNeille real numbers (a less located version of the Dedekind reals) need not form a Heyting field; another disadvantage is that this is not a coherent axiom and so cannot be [[internalization|internalized]] in as many categories.
+* If, alternatively, we interpret 'nonzero' in this clause as a reference to an [[apartness relation]] and assume that the ring operations are strongly extensional, then we obtain the notion of **Heyting field**. (Although this seems to have extra structure, the apartness relation is definable from the algebra: $x # y$ iff $x - y$ is invertible.) This is how 'practising' constructive analysts of the Bishop school usually define the simple word 'field.'  An advantage is that the real numbers (in the located Dedekind sense) form a Heyting field, although (for example) the MacNeille real numbers (a less located version of the Dedekind reals) need not form a Heyting field; another disadvantage is that this is not a coherent axiom and so cannot be [[internalization|internalized]] in as many categories.
 
-* If, finally, we replace this clause by "an element is noninvertible iff it is zero" (which is classically equivalent but constructively incomparable), we obtain the notion of **residue field**. An advantage is that even more version of the real numbers (including the MacNeille real numbers) form a residue field; disadvantages are that this axiom is not coherent either and that a residue field lacks an apartness relation.
+* If, finally, we replace this clause by "an element is noninvertible iff it is zero" (which is classically equivalent but constructively incomparable), we obtain the notion of **residue field**. An advantage is that even more versions of the real numbers (including the MacNeille real numbers) form a residue field; disadvantages are that this axiom is not coherent either and that a residue field lacks an apartness relation (in particular, the MacNeille reals have no apartness).
 
 Every discrete field is also a Heyting field, and every Heyting field is also a residue field. A Heyting or residue field is a discrete field if and only if [[decidable equality|equality is decidable]]; it is in this sense that a discrete field is 'discrete'.
 
-A residue field is a Heyting field if and only if it is a [[local ring]]. Furthermore, the quotient ring (or 'residue ring') of any local ring by its ideal of noninvertible elements is a Heyting field; in particular, it is a residue field (hence that name).
+A residue field is a Heyting field if and only if it is a [[local ring]]. Furthermore, the quotient ring (or 'residue ring') of any local ring by its ideal of noninvertible elements is a Heyting field; in particular, it is a residue field (hence that name).  On the other hand, not every residue field is even a local ring (the MacNeille reals are not), so not every residue field is the residue ring of any local ring.
 
 Counterexamples were remarked above, but to be explicit: The (Dedekind) real numbers form a Heyting field which need not be discrete. The MacNeille real numbers form a residue field which need not be Heyting; see section D4.7 of _Sketches of an Elephant_.
 
-+--{.query}
-Mike (or anybody): It seems to me that the term 'residue field' should only be used if the field actually *is* the residue field of a local ring, in which case it will be itself a local ring (and thus also a Heyting field). I would like to prove that every residue field as here defined is a local ring, but I can\'t do it; how do I decide the disjunction? If this can\'t be proved, perhaps a residue field should be required by definition to be local? (That is, $x$ or $1 + x$ is always invertible.)
-
-_Mike replies_: It can't be proven; see above.  Perhaps the name is a little ill-chosen, but as I said at [[extensive category]], I don't want to go around changing terminology willy-nilly.
-
-_Toby_: Actually, I was looking for you to say 'You\'re right, I left out that universally accepted clause in the definition of residue field.' rather than 'You\'re right, let\'s change the universally accepted definition.'. I\'m happy with 'Heyting field' (which is what 'field' means to me by default, having read mostly from Bishop\'s school).
-=--
 
 ### Discussion ###
 
