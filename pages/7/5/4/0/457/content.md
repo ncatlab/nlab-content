@@ -26,4 +26,10 @@ You are certainly right about the Elephant and terminology.  "Cartesian category
 
 _Mike_: Another thought: one could argue that just as a "ring" in a topos means a model of the theory of rings, and likewise for many other concepts, so should an "inhabited object" mean a model of the theory of inhabited objects, which is the same as a well-supported object.  Of course this fails for "projective object," but I don't think there is a "theory of projective objects," at least not one interpetable in the usual internal logic of a topos.  And I suppose maybe it fails for "choice object" too, although that probably depends on whether you formulate the theory of choice objects to be equipped with a choice function or merely assert that one exists.  Perhaps the literature is not very consistent in its use of "internally" or lack thereof.
 
+_Toby_: I see 'inhabited' as just a convenient abbreviation of 'that has an element' (convenient enough that 'is inhabited' is still nicer than 'has an element'). So an inhabited object should naturally be an object with an element (a global element, that is; every object has a generalised element, and we must at least reproduce the situation in $\Set$). And after all, 'inhabited' is hardly more of a set-theoretic term than 'axiom of choice'! (^_^)
+
+Maybe life would be simpler if we always internalised using the internal language, but there\'s a lot of precedent that we don\'t, probably because it\'s a lot easier not to. And anyway, that\'s what the word 'internalised' is for!
+
+As for the timeout, I think that it\'s an hour, although I haven\'t timed it carefully. (It definitely exists.) I think that it\'s fine to remove or change old comments, certainly if they haven\'t been replied to, but one should be aware that they can still be read. (And if you\'re not sure if they can still be read, try 'See changes' or 'Back in time' below.)
+
 =--
