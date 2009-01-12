@@ -27,3 +27,5 @@ Elements $\phi: 1 \to \Omega$ are often referred to as "truth values"; the disti
 # Properties
 
 The subobject classifier always comes with the structure of an internal [[poset|poset]]; that is, a relation $\subseteq\, \hookrightarrow \Omega\times\Omega$ which is internally reflexive, antisymmetric, and transitive.  This can be constructed directly, or obtained via the [[Yoneda lemma]] since the collection of subobjects of any object is an external poset.
+
+In fact, this internal poset is an internal [[Heyting algebra]]; it\'s an internal [[Boolean algebra]] if and only if the topos is Boolean.
