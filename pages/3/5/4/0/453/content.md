@@ -40,9 +40,9 @@ Examples of categories which are _not_ regular include [[Cat]], [[Pos]], and [[T
 
 ## Remarks 
 
-1. As exactness properties go, the ones possessed by general regular categories are fairly moderate; the main condition is of course stability of regular epis under pullback. In the first place, the focus is just on certain coequalizers; finite coproducts aren't even mentioned. Some of that imbalance is redressed by the notion of [[lextensive category]], where coproducts are also stable under pullback (and are also disjoint). 
+1. As exactness properties go, the ones possessed by general regular categories are fairly moderate; the main condition is of course stability of regular epis under pullback. In the first place, the focus is just on certain coequalizers; finite coproducts aren't even mentioned. Some of that imbalance is redressed by the notion of l[[extensive category]], where coproducts are also stable under pullback (and are also disjoint). 
 
-Further desirable exactness properties can be phrased in the language of [[Galois connections]]. For each object $d$, consider the following relation $coeq$ between the class of parallel pairs $f, g: e \stackrel{\to}{\to} d$) and maps $h: d \to c$: 
+Further desirable exactness properties can be phrased in the language of [[Galois connection]]s. For each object $d$, consider the following relation $coeq$ between the class of parallel pairs $f, g: e \stackrel{\to}{\to} d$) and maps $h: d \to c$: 
 
 $$\langle (f, g); h \rangle \in coeq \qquad iff \qquad h f = h g$$
 
