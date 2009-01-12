@@ -2,7 +2,7 @@
 
 An **action** of a [[group]] $G$ on an [[object]] $x$ in a [[category]] $C$ is a [[group homomorphism]] $\rho : G \to Aut(x)$, where $Aut(x)$ is the group of [[automorphism|automorphisms]] of $x$.  
 
-A more sophisticated but equivalent definition treats the group $G$ as a category denoted $BG$ with one object, say $*$.  Then an _action_ of $G$ in the category $C$ is just a [[functor]] 
+A more sophisticated but equivalent definition treats the group $G$ as a category denoted $BG$ with one object, say $*$.  Then an _action_ of $BG$ in the category $C$ is just a [[functor]] 
 $$\rho : BG \to C.$$  
 Here the object $x$ of the previous definition is just $\rho(*)$. 
 
