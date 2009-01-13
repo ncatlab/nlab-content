@@ -4,13 +4,15 @@ There is as yet no general definition of $k$-tuply monoidal $n$-category, but th
 
 # Definition
 
-A __$k$-tuply monoidal $n$-category__ is an $(n+k)$-category such that any two parallel $j$-morphisms are equipped with an [[equivalence]], for $j < k$.  One usually (at least for positive values of $k$) relabels the $j$-morphisms as $(j-k)$-morphisms.  As explained below, we may assume that $k \leq n + 2$. Note that you may interpret this definition as weakly or strictly as you like, by starting with weak or strict notions of $(n+k)$-category.
+A __$k$-tuply monoidal $n$-category__ is an $(n+k)$-category such that any two parallel $j$-morphisms are equipped with an [[equivalence]], for $j < k$; these choices should be compatible with composition and inverse.  One usually (at least for positive values of $k$) relabels the $j$-morphisms as $(j-k)$-morphisms.  As explained below, we may assume that $k \leq n + 2$. Note that you may interpret this definition as weakly or strictly as you like, by starting with weak or strict notions of $(n+k)$-category.
 
 +--{.query}
 
 _Mike_: Is there any reason to allow negative values of $k$?  Would we ever want to say that a $(-1)$-monoidal $n$-category is a (possibly nonempty) $(n-1)$-category?  I can't think of any.
 
 Also, is there a reason to prefer the definition above over "a $k$-[[k-connected n-category|connected]] $(n+k)$-category equipped with a chosen object (0-morphism)"?  If nothing else, this avoids having to talk about $(-1)$-morphisms.  But I'm not even sure that the definition above is correct, if you don't ask for any compatibility between the chosen equivalences.
+
+_Toby_: Well, I\'d like to know what it means, if anything. I don\'t have a good enough feel for the compatibility to say anything confident about that.
 
 =--
 
