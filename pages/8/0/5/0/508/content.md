@@ -6,6 +6,8 @@ _Categories Work_ is the standard reference for category theory, and we may ofte
 
 +--{.query}
 _[[Todd Trimble|Todd]] asks_: In what sense do you mean "strangely"? Do you mean that it's strange that more categorists don't like Mac Lane's approach because it deserves better, or that it's strange that Mac Lane missed here when he so often got things right? Or something else?
+
+_[[Toby Bartels|Toby]] replies_: I mean something more neutral: It\'s strange that people don\'t follow him here, when they follow him on so much else.
 =--
 
 category: reference
