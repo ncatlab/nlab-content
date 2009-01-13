@@ -1,45 +1,34 @@
-A $k$-tuply monoidal $n$-category is an $n$-[[n-category|category]] in which (depending on the value of $k$) objects can be multiplied under a more or less commutative operation. An important point &#8212;and the key to the general definition&#8212; is that a $k$-tuply monoidal $n$-category can be interpreted as a special kind of $(n+k)$-category.
+A $k$-tuply monoidal $n$-category is an $n$-[[n-category|category]] in which objects can be multiplied in $k$ ways. Actually, these $k$ ways all end up being equivalent, but the operation will be more and more strictly commutative as $k$ increases. When $k = n + 2$, according to the [[stabilization hypothesis]], the multiplication is maximally commutative.
+
+There is as yet no general definition of $k$-tuply monoidal $n$-category, but the [[delooping hpothesis]] says that a $k$-tuply monoidal $n$-category can be interpreted as a special kind of $(n+k)$-category, as in the definition below.
 
 # Definition
 
-A __$k$-tuply monoidal $n$-category__ is an $(n+k)$-category (which you may interpret as weakly or strictly as you like) such that any two parallel $j$-morphisms are [[equivalence|equivalent]], for $j < k$. One usually (at least for positive values of $k$) relabels the $j$-morphisms as $(j-k)$-morphisms. As explained below, we may assume that $-1 \leq k \leq n + 2$.
+A __$k$-tuply monoidal $n$-category__ is an $(n+k)$-category such that any two parallel $j$-morphisms are equipped with an [[equivalence]], for $j < k$. One usually (at least for positive values of $k$) relabels the $j$-morphisms as $(j-k)$-morphisms. As explained below, we may assume that $k \leq n + 2$. Note that you may interpret this definition as weakly or strictly as you like, by starting with weak or strict notions of $(n+k)$-category.
 
-To interpret this correctly for low values of $j$, we must assume that all [[object]]s ($0$-morphisms) in a given $(n+k)$-category are parallel, which leads us to speak of the two $(-1)$-morphisms that serve as their common source and target and to accept any object as an equivalence between these.
+To interpret this correctly for low values of $j$, we must assume that all [[object]]s ($0$-morphisms) in a given $(n+k)$-category are parallel, which leads us to speak of the two $(-1)$-morphisms that serve as their common source and target and to accept any object as an equivalence between these. Thus, a $0$-tuply monoidal $n$-category is simply a [[pointed object|pointed]] $n$-category.
 
-One can continue to $(-2)$-morphisms and so on, but there is nothing to vary about these; every $n$-category is automatically $(-1)$-tuply monoidal. *However*, the naming shift is not applied at that level, so a simple $n$-category is actually a $(-1)$-tuply monoidal $(n+1)$-category. In constrast, a $0$-tuply monoidal $n$-category is an *inhabited* $n$-category.
-
-According to the [[stabilization hypothesis|stabilisation hypothesis]], every $k$-tuply monoidal $n$-category for $k > n + 2$ may be reinterpreted as an $(n+2)$-tuply monoidal $n$-category. Unlike the previous restriction on the value of $k$, this is not trivial.
+According to the [[stabilization hypothesis|stabilisation hypothesis]], every $k$-tuply monoidal $n$-category for $k \gt n + 2$ may be reinterpreted as an $(n+2)$-tuply monoidal $n$-category.
 
 ## Special cases
 
-As remarked before, a $(-1)$-tuply monoidal $n$-category is a simple $(n-1)$-category. Similarly, a $0$-tuply monoidal $n$-category is an inhabited $n$-category, that is an $n$-category with at least one object.
+As remarked before, a $0$-tuply monoidal $n$-category is a pointed $n$-category, that is an $n$-category equipped with an object. A $1$-tuply monoidal $n$-category 
 
-A __stably monoidal $n$-category__ is an $(n+2)$-tuply monoidal $n$-category. Although the general definition above won\'t give it, there is a notion of stably monoidal $\infty$-category, basically an $\infty$-category that can be made $k$-tuply monoidal for any value of $k$ in a consistent way.
+A __stably monoidal $n$-category__ is an $(n+2)$-tuply monoidal $n$-category. Although the general definition above won\'t give it, there is a notion of stably monoidal $\infty$-category, basically an $\infty$-category that can be made $k$-tuply monoidal for any value of $k$ in a consistent way. Stably monoidal $n$-categories are also called __symmetric monoidal__, since the monoidal operation is maximally commutative.
 
 # The periodic table
 
 There is a [[periodic table]] of $k$-tuply monoidal $n$-categories.
 
-<table><tr><th><i>k</i>&darr;\<i>n</i>&rarr;</th><th>&minus;1</th><th>0</th><th>1</th><th>2</th><th>&hellip;</th></tr>
-<tr><th>&minus;1</th><td>trivial</td><td>[[truth value]]</td><td>[[set]]</td><td>[[category]]</td><td>&hellip;</td></tr>
-<tr><th>0</th><td>trivial</td><td>[[inhabited set]]</td><td>inhabited category</td><td>inhabited [[2-category]]</td><td>&hellip;</td></tr>
-<tr><th>1</th><td>trivial</td><td>[[monoid]]</td><td>[[monoidal category]]</td><td>[[monoidal 2-category]]</td><td>&hellip;</td></tr>
-<tr><th>2</th><td>"</td><td>[[abelian monoid]]</td><td>[[braided monoidal category]]</td><td>[[braided monoidal 2-category]]</td><td>&hellip;</td></tr>
-<tr><th>3</th><td>"</td><td>"</td><td>[[symmetric monoidal category]]</td><td>[[sylleptic monoidal 2-category]]</td><td>&hellip;</td></tr>
-<tr><th>4</th><td>"</td><td>"</td><td>"</td><td>[[symmetric monoidal 2-category]]</td><td>&hellip;</td></tr>
-<tr><th>&vellip;</th><td>"</td><td>"</td><td>"</td><td>"</td><td>&dellip;</td></tr></table>
-
-Historically, the row where $k = -1$ was ignored, as was the inhabitedness restriction for $k = 0$. This gave a table as follows:
-
 <table><tr><th><i>k</i>&darr;\<i>n</i>&rarr;</th><th>&minus;2</th><th>&minus;1</th><th>0</th><th>1</th><th>2</th><th>&hellip;</th></tr>
-<tr><th>0</th><td>trivial</td><td>[[truth value]]</td><td>[[set]]</td><td>[[category]]</td><td>&hellip;</td></tr>
+<tr><th>0</th><td>trivial</td><td>trivial</td><td>[[pointed set]]</td><td>[[pointed category]]</td><td>pointed [[2-category]]</td><td>&hellip;</td></tr>
 <tr><th>1</th><td>"</td><td>trivial</td><td>[[monoid]]</td><td>[[monoidal category]]</td><td>[[monoidal 2-category]]</td><td>&hellip;</td></tr>
 <tr><th>2</th><td>"</td><td>"</td><td>[[abelian monoid]]</td><td>[[braided monoidal category]]</td><td>[[braided monoidal 2-category]]</td><td>&hellip;</td></tr>
 <tr><th>3</th><td>"</td><td>"</td><td>"</td><td>[[symmetric monoidal category]]</td><td>[[sylleptic monoidal 2-category]]</td><td>&hellip;</td></tr>
 <tr><th>4</th><td>"</td><td>"</td><td>"</td><td>"</td><td>[[symmetric monoidal 2-category]]</td><td>&hellip;</td></tr>
 <tr><th>&vellip;</th><td>"</td><td>"</td><td>"</td><td>"</td><td>"</td><td>&dellip;</td></tr></table>
 
-Indeed, it was this table that inspired the definition of $(-1)$-[[(-1)-category|category]] and $(-2)$-[[(-2)-category|category]] in the first place. However, a closer look at the general definition of $(n,r)$-[[(n,r)-category|category]] shows that these are not well behaved concepts after all, and a closer look at low values of $k$ destroys the motivation for them. (In fact, I include the column where $n = -1$ in the first table just to illustrate that there is nothing interesting there.)
+This table was originally written without the pointedness structure when $k = 0$. It was in that form that it inspired the definition of $(-1)$-[[(-1)-category|category]] and $(-2)$-[[(-2)-category|category]] in the first place. However, a closer look at the general definition of $(n,r)$-[[(n,r)-category|category]] shows that these are not quite well behaved concepts after all; see the 3-dimensional table at [[periodic table]] for more.
 
 # Discussion #
 
@@ -78,3 +67,5 @@ Now let's add the basepoints.  This gets tricky to talk about without pictures, 
 We conclude that the tricategory of pointed 2-connected bicategories is triequivalent to the category of commutative monoids and monoid homomorphisms.
 
 You might complain that in addition of the single weak natural equivalence $t_F$, $F$ ought also to be equipped with an inverse _adjoint_ equivalence for it.  The modifications involved in this would introduce two distinguished invertible elements in $Y$, which (by the triangle identities) would have to be each other's inverses.  But these elements would again play no role in the higher morphisms, so they might as well be identities.
+
+_Toby_: OK, I see; including higher morphisms make the various choices for extra structure equivalent. In the (merely) connected case, they add new structure at the top level, so you get an equivalence only if you stop at just the right place, while in the pointed case, you can (and must) go all the way. In either case, the unitor that Tom pointed out will disappear as soon as you look at the functors.
