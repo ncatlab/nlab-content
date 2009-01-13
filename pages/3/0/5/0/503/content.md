@@ -12,4 +12,6 @@ preserves small coproducts and coequalizers. All of these concepts generalize st
 
 ## Discussion 
 
-I envision starting with the example $V = [0, \infty]$ before treating other bases $V$ such as $Set$ and $Ab$. 
+_Todd_: I envision starting with the example $V = [0, \infty]$ before treating other bases $V$ such as $Set$ and $Ab$.
+
+_Toby_: Although the term comes from $[0,\infty]$, readers might find it easier to understand in $\Set$, where we usually study limits first. That said, you should write whichever you want, and people will add to it.
