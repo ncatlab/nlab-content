@@ -12,6 +12,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-13
 
+* [[Toby Bartels]]:
+  * Old conversations.
+  * I revised [[k-tuply monoidal n-category]]. Later I need to revise [[periodic table]] and write [[k-connected n-category]].
+  * I wrote [[Elephant]] and created `category: reference` for it.
+
 * [[Urs Schreiber|Urs]]
 
   * created [[derived infinity-stack]], so far containing a sketch of the rough idea, a few references and pointers to current discussion on the blog
