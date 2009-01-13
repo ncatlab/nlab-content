@@ -10,6 +10,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-01-13
+
+* [[Toby Bartels]]:
+  * I took part in conversations that are already listed here.
+  * I have questions for Mike at [[k-tuply monoidal n-category]], [[choice set]], and [[finite set]]. (Listed in order of decreasing importance.)
+
 # 2009-01-12
 
 * [[Mike Shulman|Mike]]:
