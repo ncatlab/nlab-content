@@ -20,15 +20,44 @@ A __stably monoidal $n$-category__ is an $(n+2)$-tuply monoidal $n$-category. Al
 
 There is a [[periodic table]] of $k$-tuply monoidal $n$-categories.
 
+<table><tr><th><i>k</i>&darr;\<i>n</i>&rarr;</th><th>&minus;1</th><th>0</th><th>1</th><th>2</th><th>&hellip;</th></tr>
+
+<tr><th>0</th><td>trivial</td><td>[[pointed set]]</td><td>[[pointed category]]</td><td>[[pointed 2-category]]</td><td>&hellip;</td></tr>
+
+<tr><th>1</th><td>trivial</td><td>[[monoid]]</td><td>[[monoidal category]]</td><td>[[monoidal 2-category]]</td><td>&hellip;</td></tr>
+
+<tr><th>2</th><td>"</td><td>[[abelian monoid]]</td><td>[[braided monoidal category]]</td><td>[[braided monoidal 2-category]]</td><td>&hellip;</td></tr>
+
+<tr><th>3</th><td>"</td><td>"</td><td>[[symmetric monoidal category]]</td><td>[[sylleptic monoidal 2-category]]</td><td>&hellip;</td></tr>
+
+<tr><th>4</th><td>"</td><td>"</td><td>"</td><td>[[symmetric monoidal 2-category]]</td><td>&hellip;</td></tr>
+
+<tr><th>&vellip;</th><td>"</td><td>"</td><td>"</td><td>"</td><td>&dellip;</td></tr></table>
+
+
+
+Historically, the pointedness structure was ignored for $k = 0$. This gave a table as follows:
+
+
+
 <table><tr><th><i>k</i>&darr;\<i>n</i>&rarr;</th><th>&minus;2</th><th>&minus;1</th><th>0</th><th>1</th><th>2</th><th>&hellip;</th></tr>
-<tr><th>0</th><td>trivial</td><td>trivial</td><td>[[pointed set]]</td><td>[[pointed category]]</td><td>pointed [[2-category]]</td><td>&hellip;</td></tr>
+
+<tr><th>0</th><td>trivial</td><td>[[truth value]]</td><td>[[set]]</td><td>[[category]]</td><td>[[2-category]]</td><td>&hellip;</td></tr>
+
 <tr><th>1</th><td>"</td><td>trivial</td><td>[[monoid]]</td><td>[[monoidal category]]</td><td>[[monoidal 2-category]]</td><td>&hellip;</td></tr>
+
 <tr><th>2</th><td>"</td><td>"</td><td>[[abelian monoid]]</td><td>[[braided monoidal category]]</td><td>[[braided monoidal 2-category]]</td><td>&hellip;</td></tr>
+
 <tr><th>3</th><td>"</td><td>"</td><td>"</td><td>[[symmetric monoidal category]]</td><td>[[sylleptic monoidal 2-category]]</td><td>&hellip;</td></tr>
+
 <tr><th>4</th><td>"</td><td>"</td><td>"</td><td>"</td><td>[[symmetric monoidal 2-category]]</td><td>&hellip;</td></tr>
+
 <tr><th>&vellip;</th><td>"</td><td>"</td><td>"</td><td>"</td><td>"</td><td>&dellip;</td></tr></table>
 
-This table was originally written without the pointedness structure when $k = 0$. It was in that form that it inspired the definition of $(-1)$-[[(-1)-category|category]] and $(-2)$-[[(-2)-category|category]] in the first place. However, a closer look at the general definition of $(n,r)$-[[(n,r)-category|category]] shows that these are not quite well behaved concepts after all; see the 3-dimensional table at [[periodic table]] for more.
+
+
+Indeed, it was this table that inspired the definition of $(-1)$-[[(-1)-category|category]] and $(-2)$-[[(-2)-category|category]] in the first place. However, a closer look at the general definition of $(n,r)$-[[(n,r)-category|category]] shows that these are not well behaved concepts after all, and a closer look at low values of $k$ destroys the motivation for them. (In fact, I include the column where $n = -1$ in the first table just to illustrate that there is nothing interesting there.)
+
 
 # Discussion #
 
@@ -68,4 +97,4 @@ We conclude that the tricategory of pointed 2-connected bicategories is triequiv
 
 You might complain that in addition of the single weak natural equivalence $t_F$, $F$ ought also to be equipped with an inverse _adjoint_ equivalence for it.  The modifications involved in this would introduce two distinguished invertible elements in $Y$, which (by the triangle identities) would have to be each other's inverses.  But these elements would again play no role in the higher morphisms, so they might as well be identities.
 
-_Toby_: OK, I see; including higher morphisms make the various choices for extra structure equivalent. In the (merely) connected case, they add new structure at the top level, so you get an equivalence only if you stop at just the right place, while in the pointed case, you can (and must) go all the way. In either case, the unitor that Tom pointed out will disappear as soon as you look at the functors.
+_Toby_: OK, I see; including higher morphisms make the various choices for extra structure equivalent. In the (merely) connected case, they add new structure at the top level, so you get an equivalence only if you stop at just the right place, while in the pointed case, you can (and must) go all the way. In either case, the dependence on the unitor that Tom pointed out will disappear as soon as you look at the functors.
