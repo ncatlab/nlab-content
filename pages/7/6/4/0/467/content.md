@@ -32,6 +32,11 @@ So let
 
 * $C := Sh(S,V)$ be the category of $V$-valued [[sheaf|sheaves]] on $S$ such that it becomes a $V$-[[enriched homotopical category]] with some induced (usually local) notion of weak equivalences.
 
+
+##Remark##
+
+From this $V$-enriched perspective it is natural to generalize to the case where the site $S$ is not just locally small, i.e. enriched over $Sets$, but is enriched over $V$ itself. If one does this one speaks of [[derived infinity-stack]]s.
+
 ***
 
 The $V$-[[enriched homotopical category]] $C$ is our generic model for an $\infty$-category of [[infinity-category|infinity-categories]] modeled on $S$.
