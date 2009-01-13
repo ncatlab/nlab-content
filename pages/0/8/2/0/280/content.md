@@ -8,7 +8,7 @@ Here the object $x$ of the previous definition is just $\rho(*)$.
 
 ***
 
-On a previosu version of the above entry which used the symbol $G$ instead of $\mathbf{B} G$ we had the following discussion. Now I see that somebody already changed it. Maybe we should wait for [[John Baez|John]] to have a look at this and comment on it and if we find agreement then we can remove this discussion here.
+On a previous version of the above entry which used the symbol $G$ instead of $\mathbf{B} G$ we had the following discussion. Now I see that somebody already changed it. Maybe we should wait for [[John Baez|John]] to have a look at this and comment on it and if we find agreement then we can remove this discussion here.
 
 +--{.query}
   [[Urs Schreiber|Urs]]: I would prefer if we denote 
@@ -33,10 +33,12 @@ Mike: I agree.
 ***
 
 More generally we can define an _action_ of a [[monoid]] $M$ in the category $C$ to be a functor
-$$\rho: M \to C $$
-where $M$ is regarded as a one-object category.
+$$\rho: \mathbf{B} M \to C $$
+where $\mathbf{B} M$ is (again) $M$ regarded as a one-object category.
 
-The _category of actions_ of $M$ in $C$ is then defined to be the [[functor category]] $C^M$.  
+The _category of actions_ of $M$ in $C$ is then defined to be the [[functor category]] $C^{\mathbf{B} M}$.
+
+One can also define an _action_ of a category $D$ on the category $C$ as a functor from $C$ to $D$, but usually one just calls this a 'functor'.
 
 +--{.query}
 I am wondering if we will need the notion of action which works in categories with product, i.e. $G\times X\to X$ and so on. There is also an action of one Lie algebra on another (for instance in some definitions of crossed module of Lie algebra, where $Aut$ is replaced by the Lie algebra of derivations. (a similar situation would seem to exist in various other categories where action is needed in a slightly wider context. I think most would be covered by an enriched setting but I am not sure.) Thoughts please.[[Tim Porter|Tim]]
