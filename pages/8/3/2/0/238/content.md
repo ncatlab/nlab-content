@@ -13,9 +13,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 # 2009-01-13
 
 * [[Toby Bartels]]:
-  * Old conversations.
-  * I revised [[k-tuply monoidal n-category]]. Later I need to revise [[periodic table]] and write [[k-connected n-category]].
-  * I wrote [[Elephant]] and created `category: reference` for it.
+  * Conversations, including a new one with [[Todd Trimble|Todd]] at [[balanced category]].
+  * Revised [[k-tuply monoidal n-category]]. Later I need to revise [[periodic table]] and write [[k-connected n-category]].
+  * Wrote [[Elephant]] and [[Categories Work]], creating `category: reference` for them.
 
 +--{.query}
   [[Urs Schreiber|Urs]]: concerning [[Toby Bartels|Toby]]'s 
