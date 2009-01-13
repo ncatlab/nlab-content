@@ -52,3 +52,5 @@ _Toby_: I disagree with the statement that, constructively, not every inhabited 
 Otherwise, I see that you\'re entirely right. Although probably I should read Cheng and Gurski first to make sure. When I have, I\'ll fix this page (and [[periodic table]]).
 
 _Mike_: You are right, I am thinking about toposes in which 1 is not projective.  But, of course, as you point out, even there it is still true in the internal logic that every inhabited object can be pointed.  (Although you have to be careful about interpreting that statement, since the usual internal language cannot quantify over objects.)
+
+_Toby_: Mike, can you explain to me how a pointed $2$-connected bicategory is simply a commutative monoid, even though (and this part I understand) a $2$-connected bicategory is a commutative monoid equipped with an invertible element (the two-sided unitor). I know that, in principle, this is in the appendix, but I\'m not seeing it.
