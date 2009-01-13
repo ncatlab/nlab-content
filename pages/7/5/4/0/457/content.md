@@ -4,7 +4,7 @@ At least assuming [[classical logic]], this is the same thing as a set that is n
 
 The terms 'inhabited' and 'occupied' come from [[constructivism]]. In constructive mathematics, a set that is not empty isn\'t necessarily inhabited, because [[double negation]] is nontrivial in [[intuitionistic logic]]. All the same, many constructive mathematicians use the old word 'non-empty' with the understanding that it *really* means inhabited.
 
-An object $X$ of a [[topos]] is inhabited in the [[internal logic]] (or, one might say, "internally inhabited") if and only if it is **well-supported**, meaning that the unique map $X \to 1$ is an [[epimorphism]].  (The same is true in any [[regular category]], replacing "epimorphism" by [[regular epimorphism]].)  This is certainly true if $X$ has a [[global element]] $1\to X$, while the converse is true if $1$ is [[projective object|projective]], such as in a [[well-pointed topos]].  Some sources use "$X$ is inhabited" to mean that $X$ has a global element, which is not expressible in the internal language.  Others use the term "inhabited" only internally.
+An object $X$ of a [[topos]] is inhabited in the [[internal logic]] (or, one might say, "internally inhabited") if and only if it is **well-supported**, meaning that the unique map $X \to 1$ is an [[epimorphism]].  (The same is true in any [[regular category]], replacing "epimorphism" by [[regular epimorphism]].)  This is certainly true if $X$ has a [[global element]] $1\to X$, while the converse is true if $1$ is [[projective object|projective]], such as in a [[well-pointed topos]].  Some sources use "$X$ is inhabited" to mean that $X$ has a global element, which is not expressible in the internal language.  Others use the term "inhabited" only internally.  Regardless, a [[pointed object]] always means one _equipped with_ a global element $1\to X$, whether interpreted internally or externally.
 
 +--{.query}
 
@@ -37,5 +37,7 @@ _Mike_: Well, I think that I will continue using "has a global element" myself f
 A different question, as you mentioned earlier, is whether it is useful.  How often do we want to talk about objects that have a global element?  We may frequently care about _pointed_ objects, which are _equipped_ with a global element, but there isn't any dispute about what to call those.
 
 _Toby_: You\'ve got a good point there. Probably 'pointed object' and 'well-supported object' are the only really useful notions. Actually, I think that a lot of constructivists (the ones that are really think that mathematics should talk about *constructions*, like Bishop and Coquand) would say that an inhabited set and a pointed set are really the same thing. We can distinguish them, of course, by their morphisms (or even isomorphisms), but that doesn\'t mean that we need two words (just as we don\'t use two different words for metric spaces with, say, continuous maps between them and uniformly continuous maps bewteen them). So as you move towards my position, I move towards yours ....
+
+_Mike_: Does that mean you might be satisfied with the way it's written now?  (I added a note about pointed objects.)
 
 =--
