@@ -1,18 +1,27 @@
-A $k$-tuply monoidal $n$-category is an $n$-[[n-category|category]] in which objects can be multiplied in $k$ ways. Actually, these $k$ ways all end up being equivalent, but the operation will be more and more strictly commutative as $k$ increases. When $k = n + 2$, according to the [[stabilization hypothesis]], the multiplication is maximally commutative.
+A $k$-tuply monoidal $n$-category is an $n$-[[n-category|category]] in which objects can be multiplied in $k$ ways.  Actually, by the [[Eckmann-Hilton argument]], these $k$ ways all end up being equivalent, but the operation will be more and more commutative as $k$ increases.  When $k = n + 2$, according to the [[stabilization hypothesis]], the multiplication is maximally commutative.
 
-There is as yet no general definition of $k$-tuply monoidal $n$-category, but the [[delooping hpothesis]] says that a $k$-tuply monoidal $n$-category can be interpreted as a special kind of $(n+k)$-category, as in the definition below.
+There is as yet no general definition of $k$-tuply monoidal $n$-category, but the [[delooping hypothesis]] says that a $k$-tuply monoidal $n$-category can be interpreted as a special kind of $(n+k)$-category, as in the definition below.  This hypothesis has been verified in many low-dimensional cases as well as for $\infty$-[[infinity-groupoid|groupoids]] (spaces).
 
 # Definition
 
-A __$k$-tuply monoidal $n$-category__ is an $(n+k)$-category such that any two parallel $j$-morphisms are equipped with an [[equivalence]], for $j < k$. One usually (at least for positive values of $k$) relabels the $j$-morphisms as $(j-k)$-morphisms. As explained below, we may assume that $k \leq n + 2$. Note that you may interpret this definition as weakly or strictly as you like, by starting with weak or strict notions of $(n+k)$-category.
+A __$k$-tuply monoidal $n$-category__ is an $(n+k)$-category such that any two parallel $j$-morphisms are equipped with an [[equivalence]], for $j < k$.  One usually (at least for positive values of $k$) relabels the $j$-morphisms as $(j-k)$-morphisms.  As explained below, we may assume that $k \leq n + 2$. Note that you may interpret this definition as weakly or strictly as you like, by starting with weak or strict notions of $(n+k)$-category.
 
-To interpret this correctly for low values of $j$, we must assume that all [[object]]s ($0$-morphisms) in a given $(n+k)$-category are parallel, which leads us to speak of the two $(-1)$-morphisms that serve as their common source and target and to accept any object as an equivalence between these. Thus, a $0$-tuply monoidal $n$-category is simply a [[pointed object|pointed]] $n$-category.
++--{.query}
+
+_Mike_: Is there any reason to allow negative values of $k$?  Would we ever want to say that a $(-1)$-monoidal $n$-category is a (possibly nonempty) $(n-1)$-category?  I can't think of any.
+
+Also, is there a reason to prefer the definition above over "a $k$-[[k-connected n-category|connected]] $(n+k)$-category equipped with a chosen object (0-morphism)"?  If nothing else, this avoids having to talk about $(-1)$-morphisms.  But I'm not even sure that the definition above is correct, if you don't ask for any compatibility between the chosen equivalences.
+
+=--
+
+To interpret this correctly for low values of $j$, we must stipulate that all [[object]]s ($0$-morphisms) in a given $(n+k)$-category are parallel, which leads us to speak of the two $(-1)$-morphisms that serve as their common source and target and to accept any object as an equivalence between these.  Thus, a $0$-tuply monoidal $n$-category is simply a [[pointed object|pointed]] $n$-category.
 
 According to the [[stabilization hypothesis|stabilisation hypothesis]], every $k$-tuply monoidal $n$-category for $k \gt n + 2$ may be reinterpreted as an $(n+2)$-tuply monoidal $n$-category.
 
+
 ## Special cases
 
-As remarked before, a $0$-tuply monoidal $n$-category is a pointed $n$-category, that is an $n$-category equipped with an object. A $1$-tuply monoidal $n$-category 
+As remarked before, a $0$-tuply monoidal $n$-category is a pointed $n$-category, that is an $n$-category equipped with an object.  A $1$-tuply monoidal $n$-category 
 
 A __stably monoidal $n$-category__ is an $(n+2)$-tuply monoidal $n$-category. Although the general definition above won\'t give it, there is a notion of stably monoidal $\infty$-category, basically an $\infty$-category that can be made $k$-tuply monoidal for any value of $k$ in a consistent way. Stably monoidal $n$-categories are also called __symmetric monoidal__, since the monoidal operation is maximally commutative.
 
@@ -57,6 +66,11 @@ Historically, the pointedness structure was ignored for $k = 0$. This gave a tab
 
 
 Indeed, it was this table that inspired the definition of $(-1)$-[[(-1)-category|category]] and $(-2)$-[[(-2)-category|category]] in the first place. However, a closer look at the general definition of $(n,r)$-[[(n,r)-category|category]] shows that these are not well behaved concepts after all, and a closer look at low values of $k$ destroys the motivation for them. (In fact, I include the column where $n = -1$ in the first table just to illustrate that there is nothing interesting there.)
+
+
+# Low dimensions #
+
+(Include some discussion of particlar cases here, like monoids, abelian monoids, monoidal categories, etc.)
 
 
 # Discussion #
