@@ -16,7 +16,7 @@ There are, however, differences among constructivists as well.
 
 * Still others, following Weyl, go even further and refuse to allow "impredicative" constructions; see [[predicativism]].  Most of the work done by the schools of Brouwer, Bishop, and Markov (but not Richman) is also predicative, even though those founders were not adamant about it; as a result, predicativism often appears in the foundations of constructive mathematics (in particular, in those of Aczel and Martin-L&#246;f, but not those of Friedman or Coquand).
 
-* Very extreme constructivists, like Doron Zeilberger, reject the existence of infinite sets; see [[finitism]].  (Kronecker, the 'father of constructivism', is often considered a finitist, but as he came before the foundational crisis, it is difficult to classify him accurately.)  Ironically, this means that excluded middle and choice, as such, may become acceptable, or even true.  (Even constructivists believe that they are true in the topos [[FinSet]] of finite sets&#8212;although see below regarding the constructive meaning of "finite".)
+* Very extreme constructivists, like Doron Zeilberger, reject the existence of infinite sets; see [[finitism]].  (Kronecker, the 'father of constructivism', is often considered a finitist, but as he came before the foundational crisis, it is difficult to classify him accurately.)  Ironically, this means that excluded middle and choice, as such, may become acceptable, or even true.  (Even constructivists believe that they are true in the topos [[FinSet]] of [[finite set]]s.)
 
 * The most extreme position of all is to deny even the existence of very large finite sets.  This is called [[ultrafinitism]].  According to [Wikipedia](http://en.wikipedia.org/wiki/Ultrafinitism), "even constructivists generally view [ultrafinitism] as unworkably extreme."
 
@@ -53,7 +53,7 @@ On the other hand, differences in axiomatization or definition that make no diff
 
 * Without the axiom of choice, [[functor|functors]] and [[anafunctor|anafunctors]] become distinct, and often the latter is more appropriate; see (Makkai, 1996).
 
-* Perhaps most disturbingly of all to the classical mathematician, one must distinguish between _finite sets_, _subfinite sets_ (those admitting an injection to a finite set), _finitely-indexed sets_ (those admitting a surjection from some finite set), and even _subfinitely indexed sets_.  However, in practice it is usually either finite or finitely-indexed sets that are important, and with practice a little bit of thought suffices to show which is the relevant concept.
+* Perhaps most disturbingly of all to the classical mathematician, one must distinguish between _finite sets_, _subfinite sets_, _finitely-indexed sets_, and even _subfinitely indexed sets_; see [[finite set]] for definitions.  However, in practice it is usually either finite or finitely-indexed sets that are important, and with practice a little bit of thought suffices to show which is the relevant concept.
 
 ## Negative translation ##
 
