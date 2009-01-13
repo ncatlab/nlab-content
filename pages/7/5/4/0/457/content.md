@@ -36,4 +36,6 @@ _Mike_: Well, I think that I will continue using "has a global element" myself f
 
 A different question, as you mentioned earlier, is whether it is useful.  How often do we want to talk about objects that have a global element?  We may frequently care about _pointed_ objects, which are _equipped_ with a global element, but there isn't any dispute about what to call those.
 
+_Toby_: You\'ve got a good point there. Probably 'pointed object' and 'well-supported object' are the only really useful notions. Actually, I think that a lot of constructivists (the ones that are really think that mathematics should talk about *constructions*, like Bishop and Coquand) would say that an inhabited set and a pointed set are really the same thing. We can distinguish them, of course, by their morphisms (or even isomorphisms), but that doesn\'t mean that we need two words (just as we don\'t use two different words for metric spaces with, say, continuous maps between them and uniformly continuous maps bewteen them). So as you move towards my position, I move towards yours ....
+
 =--
