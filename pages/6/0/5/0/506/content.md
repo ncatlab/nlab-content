@@ -22,6 +22,13 @@ For a quick idea of the concept of derived $\infty$-stacks on such algebraic $\i
 
 * B. To&#235;n, _Higher and derived stacks: a global overview_ ([arXiv](http://arxiv.org/abs/math.AG/0604504))
 
+Sites enriched over $V = SimpSet$ are introduced and studied in
+
+* Bertrand To&#235;n, Gabriele Vezzosi, _Homotopical Algebraic Geometry I Topos theory_ ([pdf](http://www.math.uiuc.edu/K-theory/0579/agmod-I-fin-web.pdf))
+
+The full theory of **stacks on model category sites** is developed in
+
+* Bertrand To&#235;n, Gabriele Vezzosi, _Homotopical Algebraic Geometry II: geometric stacks and applications_ ([arXiv](http://arxiv.org/abs/math/0404373))
 
 A useful review of many ideas and constructions in To&#235;n's work together with useful applications to [[geometric function theory]] is in 
 
