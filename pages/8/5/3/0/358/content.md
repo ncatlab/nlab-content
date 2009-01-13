@@ -54,3 +54,27 @@ Otherwise, I see that you\'re entirely right. Although probably I should read Ch
 _Mike_: You are right, I am thinking about toposes in which 1 is not projective.  But, of course, as you point out, even there it is still true in the internal logic that every inhabited object can be pointed.  (Although you have to be careful about interpreting that statement, since the usual internal language cannot quantify over objects.)
 
 _Toby_: Mike, can you explain to me how a pointed $2$-connected bicategory is simply a commutative monoid, even though (and this part I understand) a $2$-connected bicategory is a commutative monoid equipped with an invertible element (the two-sided unitor). I know that, in principle, this is in the appendix, but I\'m not seeing it.
+
+_Mike_: Let's take 3.1 of [Cheng-Gurski](http://arxiv.org/abs/0708.1178) as a starting point.  So
+
+* a 2-connected bicategory is a commutative monoid $X$ equipped with a distinguished invertible element $d_X\in X$.  However, $d_X$ has no effect at all on the morphisms and higher morphisms, so up to equivalence in the tricategory of 2-connected bicategories, we may as well assume it is the identity.
+
+* a (weak) functor between 2-connected bicategories is a monoid homomorphism $F:X\to Y$ equipped with a distinguished invertible element $m_F\in Y$.  However, once again $m_F$ plays no role in the higher morphisms, so it might as well be the identity.
+
+* a (weak) natural transformation between two monoid homomorphisms is just the assertion that they are equal (and thus, every such transformation is invertible).
+
+* a modification between two such transformations is a distinguished not-necessarily-invertible element $\Gamma\in Y$.
+
+Now let's add the basepoints.  This gets tricky to talk about without pictures, but I'll try.
+
+* a pointed 2-connected bicategory is one equipped with a functor from $1$, the terminal bicategory.  This is just a monoid homomorphism $1\to X$, which of course is unique, together with a distinguished invertible element in $X$ which we can ignore.  Thus every 2-connected bicategory can be pointed in an essentially unique way.
+
+* a pointed functor between two pointed 2-connected bicategories is a functor $F:X\to Y$ together with a weak natural equivalence, say $t_F$, between $1\to X\to Y$ and $1\to Y$.  Since these are always equal as monoid homomorphisms, there is always a unique (invertible) transformation connecting them, so such a pointed functor is just a monoid homomorphism $F:X\to Y$.
+
+* a pointed transformation from $F$ to $G$ is a transformation $a$ from $F:X\to Y$ to $G:X\to Y$ together with an invertible modification, say $c_a$, relating $a t_F$ to $t_G$.  In other words, it is an assertion that $F=G$ together with a distinguished invertible element $\Gamma_a$ of $Y$.
+
+* a pointed modification from $a$ to $b$ is a modification $m$ such that $m c_a = c_b$.  In other words, it is a distinguished element $\Lambda\in Y$ such that $\Lambda \Gamma_a = \Gamma_b$, or $\Lambda = \Gamma_a^{-1} \Gamma_b$ since $\Gamma_a$ is invertible.  Thus, any two pointed transformations $F\to G$ are related by a unique invertible modification.
+
+We conclude that the tricategory of pointed 2-connected bicategories is triequivalent to the category of commutative monoids and monoid homomorphisms.
+
+You might complain that in addition of the single weak natural equivalence $t_F$, $F$ ought also to be equipped with an inverse _adjoint_ equivalence for it.  The modifications involved in this would introduce two distinguished invertible elements in $Y$, which (by the triangle identities) would have to be each other's inverses.  But these elements would again play no role in the higher morphisms, so they might as well be identities.
