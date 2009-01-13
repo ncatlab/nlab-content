@@ -18,11 +18,13 @@ A **weak factorization system** on a category $K$ is a pair $(L, R)$ of classes 
 
 An **[[orthogonal factorization system]]** is a weak factorization system where we additionally require that the solutions to each lifting problem be _unique_.
 
+While every OFS is evidently a WFS, the primary examples of each are different.  A "basic example" of an OFS is (epi, mono) in [[Set]], while a "basic example" of a WFS is (mono, epi) in $Set$.  The superficial similarity of these two examples masks the fact that they generalize in very different ways.  The OFS (epi, mono) generalizes to any [[topos]] or [[pretopos]], and in fact to any [[regular category]] if we replace "epi" with [[regular epimorphism|regular epi]].  Likewise it generalizes to any [[quasitopos]] if we instead replace "mono" with [[regular monomorphism|regular mono]].
+
+On the other hand, saying that (mono,epi) is a WFS in $Set$ is equivalent to the [[axiom of choice]].  A less loaded statement is that $(L,R)$ is a WFS, where $L$ is the class of inclusions $A\hookrightarrow A\sqcup B$ into a binary coproduct and $R$ is the class of [[split epimorphism|split epis]].  In this form the statement generalizes to any [[extensive category]].
+
 #Examples#
 
-* [[model category|Model categories]] provide many examples of weak factorization systems.
-
-* [[Set]] has an orthogonal factorization system where $L$ is the class of epimorphisms and $R$ is the class of monomorphisms. Interestingly, in this case $(R,L)$ is also a _weak_ factorization system on $\Set$.
+* [[model category|Model categories]] provide many examples of weak factorization systems.  In fact, most applications of WFS involve model categories or model-categorical ideas.
 
 #Properties#
 
