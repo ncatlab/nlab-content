@@ -40,4 +40,6 @@ _Toby_: You\'ve got a good point there. Probably 'pointed object' and 'well-supp
 
 _Mike_: Does that mean you might be satisfied with the way it's written now?  (I added a note about pointed objects.)
 
+_Toby_: Yes, I\'m happy now for now.
+
 =--
