@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-13
 
+* [[Urs Schreiber|Urs]]
+
+  * created [[derived infinity-stack]], so far containing a sketch of the rough idea, a few references and pointers to current discussion on the blog
+
 * [[Mike Shulman|Mike]]:
 
   * Created [[bijection]] and [[subsingleton]].
