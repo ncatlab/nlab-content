@@ -9,5 +9,7 @@ _Toby_: Yeah, I used to always think so too, but eventually I realised that it w
 
 Also argument from authority: Mac Lane gives early on in [[Categories Work]], with the examples of what epimorphisms are in several categories, that they are precisely the surjections in $\Top$. (It was only after reading that several times, and always trying to prove Mac Lane wrong, that I finally realised that he was right.)
 
-_Todd_: Well, you sound pretty sure of this, so you're probably right, but let me think out loud just a minute and see where I crash. So suppose that $f$ has dense image and $h f = g f$. Then $f$ factors through the equalizer of $h$ and $g$; in particular, the equalizer contains the image of $f$, which is dense. But I claim the equalizer of two maps $f, g: Y \to Z$ is also closed in $Y$. Oh dang, I see it: it's $Z$ that needs to be Hausdorff to make this argument work! You're right. Sorry.  
+_Todd_: Well, you sound pretty sure of this, so you're probably right, but let me think out loud just a minute and see where I crash. So suppose that $f$ has dense image and $h f = g f$. Then $f$ factors through the equalizer of $h$ and $g$; in particular, the equalizer contains the image of $f$, which is dense. But I claim the equalizer of two maps $f, g: Y \to Z$ is also closed in $Y$. Oh dang, I see it: it's $Z$ that needs to be Hausdorff to make this argument work! You're right. Sorry.
+
+_Toby_: No problem. As I said, it took me years before I stopped confusing myself over this.
 =--
