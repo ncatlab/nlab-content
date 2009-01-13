@@ -17,6 +17,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
   * I revised [[k-tuply monoidal n-category]]. Later I need to revise [[periodic table]] and write [[k-connected n-category]].
   * I wrote [[Elephant]] and created `category: reference` for it.
 
++--{.query}
+  [[Urs Schreiber|Urs]]: concerning [[Toby Bartels|Toby]]'s 
+  `category: reference`: I like that.
+    I was thinking about including separate entries on references, too. We have a couple of further references already  which we refer to often enough to justify a separate entry for them eventually
+=--
+
 * [[Urs Schreiber|Urs]]
 
   * created [[derived infinity-stack]], so far containing a sketch of the rough idea, a few references and pointers to current discussion on the blog
