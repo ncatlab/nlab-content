@@ -1,8 +1,8 @@
-A category is (sometimes) called _pointed_ if it has a [[zero object]].
+A category is (sometimes) called _pointed_ if it has a [[zero object]]. 
 
 #Remarks#
 
-* The terminology certainly comes from the fact that every category of [[pointed object]]s is a pointed category.
+* The terminology certainly comes from the fact that every category of [[pointed object]]s has a [[zero object]]: the point.
 
 * In the homotopical context of a [[category of fibrant objects|pointed category of fibrant objects]] many of the familiar constructions from homotopy theory in [[Top]] have analogs.
 
