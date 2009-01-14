@@ -6,6 +6,10 @@ The terms 'inhabited' and 'occupied' come from [[constructivism]]. In constructi
 
 An object $X$ of a [[topos]] is inhabited in the [[internal logic]] (or, one might say, "internally inhabited") if and only if it is **well-supported**, meaning that the unique map $X \to 1$ is an [[epimorphism]].  (The same is true in any [[regular category]], replacing "epimorphism" by [[regular epimorphism]].)  This is certainly true if $X$ has a [[global element]] $1\to X$, while the converse is true if $1$ is [[projective object|projective]], such as in a [[well-pointed topos]].  Some sources use "$X$ is inhabited" to mean that $X$ has a global element, which is not expressible in the internal language.  Others use the term "inhabited" only internally.  Regardless, a [[pointed object]] always means one _equipped with_ a global element $1\to X$, whether interpreted internally or externally.
 
+## Discussion##
+
+While writing this page, we had the following discussion about whether or not "$X$ is inhabited" in a topos should mean that $X$ has a [[global element]].
+
 +--{.query}
 
 _[[Mike Shulman|Mike]]_: I strongly disagree that "inhabited" means "has a global element" in a topos.  Intuitionistically, "$X$ is inhabited" means "there exists an $x\in X$" which when interpreted in the internal logic of a topos means that $X$ is well-supported.  By contrast, the property of having a global element is not expressible in the internal language at all.  "Inhabited" is also universally used in the topos-theoretic literature to mean well-supported.
