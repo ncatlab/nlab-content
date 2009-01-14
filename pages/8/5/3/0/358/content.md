@@ -94,7 +94,7 @@ A 1-tuply monoidal 1-category is a pointed 1-connected 2-category, which we can 
 
 ## $k=1$, $n=(\infty,0)$ ##
 
-If we identify $\infty$-[[infinity-groupoid|groupoids]] with spaces, then a 1-tuply monoidal $(\infty,0)$-category, or a monoidal $\infty$-groupoid, can be identified intuitively with an $A_\infty$-[[A-infinity space|space]].  This is a space equipped with a multiplication which is associative and unital up to all higher homotopies; see [[operad]] for one way to encode these data.
+If we identify $\infty$-[[infinity-groupoid|groupoids]] with spaces, then a 1-tuply monoidal $(\infty,0)$-category, or a monoidal $\infty$-groupoid, can be identified intuitively with an $A_\infty$-[[A-infinity-space|space]].  This is a space equipped with a multiplication which is associative and unital up to all higher homotopies; see [[operad]] for one way to encode these data.
 
 It is a well-known fact in homotopy theory that the homotopy theories (that is, $(\infty,1)$-[[(infinity,1)-category|categories]]) of based connected spaces and of grouplike $A_\infty$-spaces are equivalent, via the "loop space" and "classifying space" constructions.  This can be regarded as another version of the delooping hypothesis.  The "grouplike" restriction (meaning that $\pi_0$ is a group, or that the multiplication has inverses up to homotopy) is because we consider only based connected $(\infty,0)$-categories, whereas we would need based connected $(\infty,1)$-categories to recover all $A_\infty$-spaces.  It would be interesting to verify the hypothesis in this case using one of the known models for $(\infty,1)$-categories.
 
