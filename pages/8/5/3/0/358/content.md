@@ -4,7 +4,7 @@ There is as yet no general definition of $k$-tuply monoidal $n$-category, but th
 
 # Definition
 
-A __$k$-tuply monoidal $n$-category__ is an $(n+k)$-category such that any two parallel $j$-morphisms are equipped with an [[equivalence]], for $j < k$; these choices should be compatible with composition and inverse.  One usually (at least for positive values of $k$) relabels the $j$-morphisms as $(j-k)$-morphisms.  As explained below, we may assume that $k \leq n + 2$. Note that you may interpret this definition as weakly or strictly as you like, by starting with weak or strict notions of $(n+k)$-category.
+A __$k$-tuply monoidal $n$-category__ is a [[pointed object|pointed]] $(n+k)$-category such that any two parallel $j$-morphisms are [[equivalence|equivalent]], for $j < k$.  One usually relabels the $j$-morphisms as $(j-k)$-morphisms.  As explained below, we may assume that $0 \leq k \leq n + 2$.  Note that you may interpret this definition as weakly or strictly as you like, by starting with weak or strict notions of $(n+k)$-category.
 
 +--{.query}
 
@@ -14,16 +14,17 @@ Also, is there a reason to prefer the definition above over "a $k$-[[k-connected
 
 _Toby_: Well, I\'d like to know what it means, if anything. I don\'t have a good enough feel for the compatibility to say anything confident about that.
 
+I briefly had a version here with compatibility, although it\'s not enough actually. I think explicit pointedness is the way to go; it answers all my questions about small $k$ too. But you can still think about $(-1)$-morphisms.
+
 =--
 
-To interpret this correctly for low values of $j$, we must stipulate that all [[object]]s ($0$-morphisms) in a given $(n+k)$-category are parallel, which leads us to speak of the two $(-1)$-morphisms that serve as their common source and target and to accept any object as an equivalence between these.  Thus, a $0$-tuply monoidal $n$-category is simply a [[pointed object|pointed]] $n$-category.
+The given point serves as an equivalence between $(-1)$-morphisms (for now, see $(n,r)$-[[(n,r)-category|category]] for these), so there is nothing to say if $k \leq 0$ except that the category is pointed.  Thus we may as well assume that $k \geq 0$.
 
-According to the [[stabilization hypothesis|stabilisation hypothesis]], every $k$-tuply monoidal $n$-category for $k \gt n + 2$ may be reinterpreted as an $(n+2)$-tuply monoidal $n$-category.
-
+According to the [[stabilization hypothesis|stabilisation hypothesis]], every $k$-tuply monoidal $n$-category for $k \gt n + 2$ may be reinterpreted as an $(n+2)$-tuply monoidal $n$-category.  Unlike the previous restriction on $k$, this is not trivial.
 
 ## Special cases
 
-As remarked before, a $0$-tuply monoidal $n$-category is a pointed $n$-category, that is an $n$-category equipped with an object.  A $1$-tuply monoidal $n$-category 
+A $0$-tuply monoidal $n$-category is simply a pointed $n$-category, that is an $n$-category equipped with an object.  A $1$-tuply monoidal $n$-category may be called simply a __[[monoidal n-category]]__.
 
 A __stably monoidal $n$-category__ is an $(n+2)$-tuply monoidal $n$-category. Although the general definition above won\'t give it, there is a notion of stably monoidal $\infty$-category, basically an $\infty$-category that can be made $k$-tuply monoidal for any value of $k$ in a consistent way. Stably monoidal $n$-categories are also called __symmetric monoidal__, since the monoidal operation is maximally commutative.
 
@@ -32,48 +33,28 @@ A __stably monoidal $n$-category__ is an $(n+2)$-tuply monoidal $n$-category. Al
 There is a [[periodic table]] of $k$-tuply monoidal $n$-categories.
 
 <table><tr><th><i>k</i>&darr;\<i>n</i>&rarr;</th><th>&minus;1</th><th>0</th><th>1</th><th>2</th><th>&hellip;</th></tr>
-
 <tr><th>0</th><td>trivial</td><td>[[pointed set]]</td><td>[[pointed category]]</td><td>[[pointed 2-category]]</td><td>&hellip;</td></tr>
-
 <tr><th>1</th><td>trivial</td><td>[[monoid]]</td><td>[[monoidal category]]</td><td>[[monoidal 2-category]]</td><td>&hellip;</td></tr>
-
 <tr><th>2</th><td>"</td><td>[[abelian monoid]]</td><td>[[braided monoidal category]]</td><td>[[braided monoidal 2-category]]</td><td>&hellip;</td></tr>
-
 <tr><th>3</th><td>"</td><td>"</td><td>[[symmetric monoidal category]]</td><td>[[sylleptic monoidal 2-category]]</td><td>&hellip;</td></tr>
-
 <tr><th>4</th><td>"</td><td>"</td><td>"</td><td>[[symmetric monoidal 2-category]]</td><td>&hellip;</td></tr>
-
 <tr><th>&vellip;</th><td>"</td><td>"</td><td>"</td><td>"</td><td>&dellip;</td></tr></table>
-
-
 
 Historically, the pointedness structure was ignored for $k = 0$. This gave a table as follows:
 
-
-
 <table><tr><th><i>k</i>&darr;\<i>n</i>&rarr;</th><th>&minus;2</th><th>&minus;1</th><th>0</th><th>1</th><th>2</th><th>&hellip;</th></tr>
-
 <tr><th>0</th><td>trivial</td><td>[[truth value]]</td><td>[[set]]</td><td>[[category]]</td><td>[[2-category]]</td><td>&hellip;</td></tr>
-
 <tr><th>1</th><td>"</td><td>trivial</td><td>[[monoid]]</td><td>[[monoidal category]]</td><td>[[monoidal 2-category]]</td><td>&hellip;</td></tr>
-
 <tr><th>2</th><td>"</td><td>"</td><td>[[abelian monoid]]</td><td>[[braided monoidal category]]</td><td>[[braided monoidal 2-category]]</td><td>&hellip;</td></tr>
-
 <tr><th>3</th><td>"</td><td>"</td><td>"</td><td>[[symmetric monoidal category]]</td><td>[[sylleptic monoidal 2-category]]</td><td>&hellip;</td></tr>
-
 <tr><th>4</th><td>"</td><td>"</td><td>"</td><td>"</td><td>[[symmetric monoidal 2-category]]</td><td>&hellip;</td></tr>
-
 <tr><th>&vellip;</th><td>"</td><td>"</td><td>"</td><td>"</td><td>"</td><td>&dellip;</td></tr></table>
 
-
-
 Indeed, it was this table that inspired the definition of $(-1)$-[[(-1)-category|category]] and $(-2)$-[[(-2)-category|category]] in the first place. However, a closer look at the general definition of $(n,r)$-[[(n,r)-category|category]] shows that these are not well behaved concepts after all, and a closer look at low values of $k$ destroys the motivation for them. (In fact, I include the column where $n = -1$ in the first table just to illustrate that there is nothing interesting there.)
-
 
 # Low dimensions #
 
 (Include some discussion of particlar cases here, like monoids, abelian monoids, monoidal categories, etc.)
-
 
 # Discussion #
 
