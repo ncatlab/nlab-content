@@ -4,7 +4,7 @@ A pointed object is distinguished from an [[inhabited set|inhabited]] one in tha
 
 ## Examples ##
 
-* Pointed [[topological space|topological spaces]] and [[simplicial set|simplicial sets]] are important in [[homotopy theory]].
+* Pointed [[topological space|topological spaces]] and [[simplicial set|simplicial sets]] are important in [[homotopy theory]], where they are often called **based**.
 
 * Pointed $n$-[[n-category|categories]] figure prominently in the [[delooping hypothesis]]; see also [[k-tuply monoidal n-category]].
 
