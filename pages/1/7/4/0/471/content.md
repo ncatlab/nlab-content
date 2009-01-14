@@ -40,4 +40,23 @@ Comments are very welcome.
 _[[Todd Trimble|Todd]]_: The original "Trimblean" definition for weak $n$-categories (I called them "flabby" $n$-categories) crucially used the fact that in a nice category $Top$, we have a highly nontrivial $Top$-operad where the components have the form $\hom_{Top}(I, I^{\vee n})$, where $X \vee Y$ here denotes the cospan composite of two bipointed spaces (each seen as a cospan from the one-point space to itself), and the hom here is the internal hom between cospans. 
 
 My comment is that the only thing that stops one from generalizing this to general (monoidal closed) model categories is that "usually" $I$ doesn't seem to be "nice" in your sense here, and so one doesn't get an interesting (nontrivial) operad when my machine is applied to the interval object. But I'm generally on the lookout for this sort of thing, and would be very interested in hearing from others if they have interesting examples of this.
+
+[[Urs Schreiber]]: Thanks, Todd. I should have listed the examples I had in mind: I was thinking about 
+[[strict omega-category]] here, where the 1st [[oriental]]
+$G_1 = I = \{a \to b\}$ should naturally be an internal 
+co-category, where co-composition is the functor which
+sends $a \to b$ to the composite $a_1 \to (b_1 = a_2) \to a_2$.
+
+More generally, there are, I think $n$ different co-category
+structures on the standard $n$-globe, with co-source and
+co-target given by the two injections of the standard
+$(k \lt n)$-globe. 
+
+The composition operations in the internal hom 
+$\omega$-category $hom(C,D)$ in strict $\omega$-categories can,  I'd think, then be thought of as coming from the image of these co-categories under
+$Hom(C\otimes -, D)$.
+
+A description of what I just tried to say with the illuminating diagrams is on [p. 35 here](http://ncatlab.org/schreiber/files/nacq.pdf#page=35).
+Hope I got this right. Please let me know if I am mixed up.
+
 =--
