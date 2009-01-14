@@ -1,5 +1,10 @@
 
-Something closely related to a [[cylinder functor]].
+In a [[closed monoidal homotopical category]] with a notion of [[homotopy]] in terms of [[path object]]s, an _interval object_ $I$ should be an object which
+
+* represents the [[cylinder functor]] (if any) in that for any object $B$ the tensor product $B \otimes I$ is indeed a cyclinder object
+
+* co-represents the [[path object]] in that $[I,B]$ is indeed a path object of $B$.
+
 
 #Discussion#
 
