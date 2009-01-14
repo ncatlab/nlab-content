@@ -2,7 +2,7 @@ The Yoneda lemma is an elementary but deep and central result in [[category theo
 
 #Preliminaries#
 
-Recall that for $C$ a [[locally small]] [[category]] and $[C^{op}, Set] (= Set^{C^{op}} = Hom(C^{op},Set))$ the category of [[presheaf|presheaves]] on $C$, there naturally is a functor 
+Recall that for $C$ a [[locally small category]] and $[C^{op}, Set] (= Set^{C^{op}} = Hom(C^{op},Set))$ the category of [[presheaf|presheaves]] on $C$, there naturally is a functor 
 
 $$
   Y : C \to [C^op,Set]
@@ -38,7 +38,7 @@ The Yoneda lemma states that the functor $Y$ has good properties which make this
 
 #The Yoneda Lemma#
 
-Let $C$ be a [[locally small]] [[category]], $[C^{op}, Set]$ the category of [[presheaf|presheaves]] on $C$, then
+Let $C$ be a [[locally small category]], $[C^{op}, Set]$ the category of [[presheaf|presheaves]] on $C$, then
 
 $$
   [C^op,Set](C(-c),X) \simeq X(c)
@@ -60,11 +60,11 @@ $$
 
 #Generalizations#
 
-The Yoneda lemma tends to carry over to all important generalizations of the context of [[locally small]] categories:
+The Yoneda lemma tends to carry over to all important generalizations of the context of [[locally small category|categories]]:
 
 * There is an analog of the Yoneda lemma in [[enriched category theory]].
 
-* In the context of [[modules]] (see also [[Day convolution]]) the Yoneda lemma becomes the important statement of [[Yoneda reduction]], which identifies the bimodule $\hom_C(-, -)$ as a unit bimodule.
+* In the context of [[module]]s (see also [[Day convolution]]) the Yoneda lemma becomes the important statement of [[Yoneda reduction]], which identifies the bimodule $\hom_C(-, -)$ as a unit bimodule.
 
 * In the context of [[infinity-category|infinity-categories]] the Yoneda lemma becomes the [[descent and codescent]] condition on [[infinity-stack]]s. This is described in [[infinity-stack homotopically]].
 
