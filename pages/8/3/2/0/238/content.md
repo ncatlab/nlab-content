@@ -14,9 +14,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
+  * expanded the entry [[bi-brane]] in order to accompany some discussion about [[geometric function theory]] at [Ben-Zvi on geometric function theory](http://golem.ph.utexas.edu/category/2009/01/benzvi_on_geometric_function_t.html)
+
   * said more at the beginning of [[interval object]] -- let me recall that there is still half of a discussion there!
 
-  * in [[category of fibrant objects]]
+  * in the entry [[category of fibrant objects]]
 
     * added comments on relation to [[pointed object]] and [[pointed category]]
 
