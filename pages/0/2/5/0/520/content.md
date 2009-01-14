@@ -2,7 +2,7 @@
 
 A __pointed set__ is a [[set]] $S$ equipped with a chosen element $s$ of $S$. (Compare [[inhabited set]], where the element is not specified.)
 
-Since we can identify a (set-theoretic) element of $S$ with a (category-theoretic) [[global element]] (a morphism $s: 1 \to S$), we see that a pointed set is an object of the [[under category]] $\pt \downarrow \Set$, or [[coslice category]] $1/\Set$, of objects under the [[singleton]] $\{\bullet\}$.
+Since we can identify a (set-theoretic) element of $S$ with a (category-theoretic) [[global element]] (a morphism $s: 1 \to S$), we see that a pointed set is an object of the [[under category]] $\pt \downarrow \Set$, or coslice category $1/\Set$, of objects under the [[singleton]] $\{\bullet\}$.
 
 # The category of pointed sets
 
