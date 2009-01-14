@@ -4,7 +4,7 @@ A terminal object is often written $1$, since in [[Set]] it is a 1-element set, 
 
 A terminal object may also be viewed as a [[limit]] over the empty [[diagram]].  Conversely, a limit over a diagram is a terminal cone over that diagram.
 
-For any object $x$ in a category with terminal object $1$, the categorical [[product]] $x\times 1$ and the [[exponential]] $x^1$ both exist and are canonically isomorphic to $x$.
+For any object $x$ in a category with terminal object $1$, the categorical [[product]] $x\times 1$ and the [[exponential object]] $x^1$ both exist and are canonically isomorphic to $x$.
 
 Some examples of terminal objects in notable categories follow:
 * The terminal object of a [[poset]] is its greatest element, if it exists.
