@@ -1,8 +1,14 @@
 #Definition#
 
-The category $Set_*$ of _pointed set_s is the [[under category]] $pt\downarrow Set$ of objects under $pt$ ([[generalized the|the]] singleton set $\{\bullet\}$) in [[Set]]:
+A __pointed set__ is a [[set]] $S$ equipped with a chosen element $s$ of $S$. (Compare [[inhabited set]], where the element is not specified.)
 
-its objects are sets $S$ equipped with a choice $s \in S$ of one of their elements, i.e. morphisms $pt \stackrel{pt \mapsto s}{\to} S$, and its morphisms $(S_1, s_1) \to (S_2, s_2)$ are maps between sets which map these chosen elements to each other, i.e. commuting triangles
+Since we can identify a (set-theoretic) element of $S$ with a (category-theoretic) [[global element]] (a morphism $s: 1 \to S$), we see that a pointed set is an object of the [[under category]] $\pt \downarrow \Set$, or [[coslice category]] $1/\Set$, of objects under the [[singleton]] $\{\bullet\}$.
+
+# The category of pointed sets
+
+The category $Set_*$ of pointed sets is this under category or coslice category.
+
+A morphism $(S_1, s_1) \to (S_2, s_2)$ is a map between sets which maps these chosen elements to each other, i.e., commuting triangles
 
 $$
   \array{
@@ -64,9 +70,9 @@ The way in which $Set_* \to Set$ is the "universal Set-bundle" is discussed pret
 #Interpretation as 2-subobject-classfier#
 
 Observing that usual morphism into the [[subobject classifier]] $\Omega$ of the [[topos]] [[Set]] is the 
-[[universal (-1)Category bundle]] 
-$\{\top\} \to (-1)Cat$, and noticing that $Set = 0Cat$ suggests that $Set_* \to Set$ is a [[vertical categorification|categorified]] subobject classifier:
-indeed, it is the subobject classifier in the [[2-tops]] [[Cat]].
+[[universal truth-value bundle]] 
+$\{\top\} \to \TV$, and noticing that $TV = (-1)Cat$ and $Set = 0Cat$ suggests that $Set_* \to Set$ is a [[vertical categorification|categorified]] subobject classifier:
+indeed, it is the subobject classifier in the [[2-topos]] [[Cat]].
 
 For discussion of this point see
 
@@ -79,4 +85,3 @@ It was David Roberts who pointed out in
 the relation between these higher classifiers and higher [[generalized universal bundle]]s, motivated by the observations on principal universal 1- and 2-bundles in 
 
 * David Roberts, Urs Schreiber, _The inner automorphism 3-group of a strict 2-group_, Journal of Homotopy and Related Structures, Vol. 3(2008), No. 1, pp. 193-244, ([arXiv](http://arxiv.org/abs/0708.1741v2)).
-
