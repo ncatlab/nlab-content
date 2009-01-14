@@ -1,6 +1,6 @@
 #Idea#
 
-A _crossed module_ (of groups) is a (nonabelian) chain-complex incarnation of a strict [[2-group]]. Crossed modules can be conceptually understood as [[crossed complex|crossed complexes]] concentrated in degree 1 and 2, as generalisations of normal subgroups, or as [[Moore complexes]] of certain [[simplicial groups]]. Historically they were the first example of [[higher dimensional algebra]] to be studied.
+A _crossed module_ (of groups) is a (nonabelian) chain-complex incarnation of a strict [[2-group]]. Crossed modules can be conceptually understood as [[crossed complex|crossed complexes]] concentrated in degree 1 and 2, as generalisations of normal subgroups, or as [[Moore complex]]es of certain [[simplicial group]]s. Historically they were the first example of [[higher dimensional algebra]] to be studied.
 
 #Definition#
 
