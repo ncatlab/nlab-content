@@ -27,10 +27,9 @@ From the point of view of generalized [[sheaf cohomology]] this can be understoo
 
 The fundamental ideas and facts are given in
 
-* Kenneth S. Brown, _Abstract Homotopy Theory and Generalized Sheaf Cohomology_, Transactions of the American Mathematical Society, Vol. 186 (1973), 419-458 ([pdf](http://www.math.uni-hamburg.de/home/schreiber/Abstract%20homotopy%20theory%20and%20generalized%20sheaf%20cohomology.pdf))
+* Kenneth S. Brown, _[[BrownAbstractHomotopyTheory.pdf:file]]_, Transactions of the American Mathematical Society, Vol. 186 (1973), 419-458 ([[BrownAHT]])
 
-
-This develops the theory of localization in _categories of fibrant objects_ and then applies it to cohomology with coefficients in sheaves with values in combinatorial spectra.
+This develops the theory of localization in [[category of fibrant objects|categories of fibrant objects]] and then applies it to cohomology with coefficients in sheaves with values in combinatorial spectra.
 
 Homotopical cohomology theory in the context of the [[homotopy theory]] of simplicial presheaves (presheaves with values in simplcial sets) has been much developed by Jardine. For instance
 
