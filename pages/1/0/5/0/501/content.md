@@ -35,3 +35,5 @@ Here is how to do them all (finitistically, but not predicatively):
 * $\tilde{K}(S)$ is the smallset subset of $P(S)$ containing the empty set and closed under the operation $A \mapsto A \cup B$ for $A$ a subset of $S$ and $B$ a subsingleton in $S$;
 * $F(S)$ is the smallset subset of $P(S)$ containing the empty set and closed under the operation $A \mapsto A \cup B$ for $A$ a subset of $S$ and $B$ a singleton in $S$ disjoint from $A$;
 * $\tilde{F}(S)$ is the smallset subset of $P(S)$ containing the empty set and closed under the operation $A \mapsto A \cup B$ for $A$ a subset of $S$ and $B$ a subsingleton in $S$ disjoint from $A$.
+
+_Mike_: Okay, I'm stumped.
