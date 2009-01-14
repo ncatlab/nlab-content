@@ -10,6 +10,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-01-14
+
+* [[Mike Shulman|Mike]]:
+
+  * Incorporated the discussion into [[k-tuply monoidal n-category]] and added more examples.  Perhaps some of this page would better go at [[delooping hypothesis]]?
+
+  * Created [[pointed object]] and [[spectrum]].
+
 # 2009-01-13
 
 * [[Toby Bartels]]:
