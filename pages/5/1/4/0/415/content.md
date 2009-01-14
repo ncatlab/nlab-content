@@ -12,6 +12,6 @@ where $C(-,-)$ is the $V$-valued hom of $C$ and $V(-,-)$ is the internal-hom of 
 
 * In the $V$-category $V$, the copower is just the tensor product of $V$.
 
-* Copowers are a special sort of [[weighted limit|weighted colimit]].  Conversely, all weighted colimits can be constructed from copowers together with [[conical colimits]].  The dual  limit notion of a copower is a [[power]].
+* Copowers are a special sort of [[weighted limit|weighted colimit]].  Conversely, all weighted colimits can be constructed from copowers together with [[conical colimit]]s.  The dual  limit notion of a copower is a [[power]].
 
 * Copowers are frequently called _tensors_ and a $V$-category having all copowers is called _tensored_, while the word "copower" is reserved for the case $V=Set$.  However, there seems to be no good reason for making this distinction.  Moreover, the word "tensor" is fairly overused, and unfortunate since a tensor (= a copower) is a colimit, while a cotensor (= [[power]]) is a limit.
