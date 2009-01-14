@@ -6,7 +6,7 @@ satisfying the condition (really a [[universal property]])
 
 $$(x \wedge a) \leq b \qquad if and only if \qquad x \leq (a \Rightarrow b)$$ 
 
-Alternatively, a Heyting algebra could be described as a [[poset]] which is [[finitely complete category|finitely complete]], finitely cocomplete, and cartesian closed; the implication $a\Rightarrow b$ plays the role of an [[exponential]] $b^a$. Insofar as all these properties of a poset are described by universal properties, the Heyting algebra operations are _[[categorical operation|categorical]]_ in the sense of logic; that is, a poset can carry at most one structure of Heyting algebra. 
+Alternatively, a Heyting algebra could be described as a [[poset]] which is [[finitely complete category|finitely complete]], finitely cocomplete, and cartesian closed; the implication $a\Rightarrow b$ plays the role of an [[exponential object]] $b^a$. Insofar as all these properties of a poset are described by universal properties, the Heyting algebra operations are _[[categorical operation|categorical]]_ in the sense of logic; that is, a poset can carry at most one structure of Heyting algebra. 
 
 In logic, Heyting algebras are precisely algebraic models for [[intuitionistic propositional calculus]], just as [[Boolean algebra|Boolean algebras]] model classical [[propositional calculus]]. As one might guess from this description, the "law of the excluded middle" does not generally hold in a Heyting algebra; see the discussion below. 
 
