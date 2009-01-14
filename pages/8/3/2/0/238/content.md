@@ -20,6 +20,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
+  * started [[generalized universal bundle]] after all -- now I really need to run...
+
   * created [[pointed set]] and [[under category]], am planning to expand on the bigger story indicated at [[pointed set]], but not today
 
   * expanded the entry [[bi-brane]] in order to accompany some discussion about [[geometric function theory]] at [Ben-Zvi on geometric function theory](http://golem.ph.utexas.edu/category/2009/01/benzvi_on_geometric_function_t.html)
