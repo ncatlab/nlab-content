@@ -17,12 +17,12 @@ Instead of committing the following discussion to a fixed model for [[infinity-c
 
 In the context of [[enriched homotopy theory]] we assume that our model for [[infinity-category|infinity-categories]] can be thought of as 
 
-1. [[space and quantity|generalized spaces modeled on]] the objects in a  [[locally small]] [[category]], and
+1. [[space and quantity|generalized spaces modeled on]] the objects in a  [[locally small category]], and
 
 2.  such that there is a good notion of [[homotopy]] between maps into these spaces;
 
 
-By the yoga of [[space and quantity]] the first point means that our infinity-categories are [[presheaf|presheaves]] on a [[locally small]] category $S$. By the yoga of [[enriched homotopy theory]] the second point means that these presheaves take values in a [[closed monoidal homotopical category]].
+By the yoga of [[space and quantity]] the first point means that our infinity-categories are [[presheaf|presheaves]] on a [[locally small category]] $S$. By the yoga of [[enriched homotopy theory]] the second point means that these presheaves take values in a [[closed monoidal homotopical category]].
 
 So let
 
@@ -43,7 +43,7 @@ The $V$-[[enriched homotopical category]] $C$ is our generic model for an $\inft
 
 ## Examples ##
 
-* Let $S = pt$ be the terminal category so that $C = V$ and take $V$ to be any of the examples listed at [[monoidal model category]], such as [[Cat]], [[strict 2-category|2Cat]], probably [[strict omega-category|omegaCat]] (but here the [[pushout-product axiom]] still needs to be checked), or [[simplicial set|SimpSet]]. Even though for such simple $S$ there is no nontrivial "topology" in the game, the notion of descent resulting from this setup is still interesting: it encodes for instance [[nonabelian cohomology]] of finite (really: discrete) groups, $\infty$-groups, $\infty$-[[groupoids]].
+* Let $S = pt$ be the terminal category so that $C = V$ and take $V$ to be any of the examples listed at [[monoidal model category]], such as [[Cat]], [[strict 2-category|2Cat]], probably [[strict omega-category|omegaCat]] (but here the [[pushout-product axiom]] still needs to be checked), or [[simplicial set|SimpSet]]. Even though for such simple $S$ there is no nontrivial "topology" in the game, the notion of descent resulting from this setup is still interesting: it encodes for instance [[nonabelian cohomology]] of finite (really: discrete) groups, $\infty$-groups, $\infty$-[[infinity-groupoid|groupoids]].
 
 * If $S$ is any site and $V = $ [[simplicial set|SimpSet]], then the natural notion of local weak equivalences in $Sh(S,V)$ are those morphisms $f : \mathbf{A} \to \mathbf{B}$ which induce isomorphisms of sheaves of simplicial homotopy groups under all functors $\pi_n : SimpSet \to Groups$.  If $S$ has enough points (such as the site of open sets of a topological space), then this is equivalent to $f$ being a stalkwise weak equivalence of simplicial sets, using the [[model structure on simplicial sets]] (see for instance section 1 of [JardStackSSh](http://intlpress.com/HHA/v3/n2/a5/v3n2a5.pdf)).  Then I think that the $Ho_V$-enriched category $Ho_C$ is the $SimpSet$-enriched homotopy category of simplicial presheaves that is discussed in [ToenSNAC](#ToenSNAC) and [ToenHDS](#ToenHDS).
 
@@ -93,7 +93,7 @@ and
 
 ## Examples ##
 
-* for $S = pt$, $V = $ [[crossed complex|CrossedComplexes]]: this is the context of results about cohomology in [[Nonabelian algebraic topology]];
+* for $S = pt$, $V = $ [[crossed complex|CrossedComplexes]]: this is the context of results about cohomology in [[nonabelian algebraic topology]];
 
 * for $V = $ [[simplicial set|SimpSet]] these are pretty much the statements in [ToenHDS](#ToenHDS):
 
