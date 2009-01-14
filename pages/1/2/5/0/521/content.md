@@ -1,4 +1,4 @@
-Given a [[category]] $C$ and an [[object]] $c \in C$, the _under category_ $c \downarrow C$ is the category whose
+Given a [[category]] $C$ and an [[object]] $c \in C$, the __under category__ (also called __coslice category__) $c \downarrow C$ (also written $c/C$) is the category whose
 
 * objects are morphisms in $C$ starting at $c$; $c \to d$
 
@@ -14,7 +14,7 @@ $
   \,.
 $
 
-The under category $c\downarrow C$ is the strict pullback 
+The under category $c\downarrow C$ is a kind of [[comma category]]; it is the strict pullback 
 
 $$
  \array{
