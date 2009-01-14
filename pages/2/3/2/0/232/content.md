@@ -40,7 +40,7 @@ Nevertheless, internalization and enrichment are related in several ways.  On th
 
 #Examples#
 
-* A category enriched in [[Set]] is a [[locally small]] category.
+* A category enriched in [[Set]] is a [[locally small category]].
 
 * A category enriched in [[chain complex|chain complexes]] is a [[DG-category]].
 
