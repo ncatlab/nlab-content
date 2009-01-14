@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
+  * said more at the beginning of [[interval object]] -- let me recall that there is still half of a discussion there!
+
   * in [[category of fibrant objects]]
 
     * added comments on relation to [[pointed object]] and [[pointed category]]
