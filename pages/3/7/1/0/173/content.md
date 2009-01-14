@@ -18,9 +18,12 @@ that a geometric _brane_ on some space $X$ and a bundle gerbe $\mathcal{G}$, reg
 * a map $\iota : Q \to X$
 
 * a morphism $\sigma : 1 \to \iota^* \mathcal{G}$ 
-from the trivial 2-vector bundle into the pullback of $\mathcal{G}$ to $Q$, called a _gerbe module_ or _twisted vector bundle_.
+from the trivial 2-vector bundle on $Q$ 
+into the pullback of $\mathcal{G}$ to $Q$ -- 
+this morphism is called a _gerbe module_ or _twisted vector bundle_.
 
-If we write this more diagrammatically using that classifying (fiber-assigning) cocycle $g : X \to 2 Vect$ of $\mathcal{G}$, then this data of a brane is a transformation
+If we write this more diagrammatically using the classifying (fiber-assigning) cocycle $g : X \to 2 Vect$ of $\mathcal{G}$, then this data of a brane is 
+a transformation
 
 $$
  \array{
@@ -40,13 +43,18 @@ $$
 
 Conceived in this form the notion has an obvious generalizations:
 
-let $X$ and $Y$ be two possibly different spaces with two possibly different 2-vector bundles on them, classified by cocycles $g_1$ and $g_2$, then a bi-brane for this situation is a transformation
+let $X$ and $Y$ be two possibly different spaces with two possibly different 2-vector bundles on them, classified by cocycles $g_1$ and $g_2$, then a bi-brane for this situation is 
+
+* a span $ x \stackrel{\iota_1}{\leftarrow} Q 
+  \stackrel{\iota_2}{\rightarrow} Y$;
+
+* and a transformation between the two pulled back bundles
 
 $$
  \array{
   && Q
   \\
-  & \swarrow && \searrow^{\iota}
+  & {}^{\iota_1}\swarrow && \searrow^{\iota_2}
   \\
   X &&\stackrel{\bibrane}{\Rightarrow}&& Y
   \\
@@ -57,9 +65,9 @@ $$
   \,.
 $$
 
-The description of branes in the above diagrammtic form was first given in
+The description of branes in the above diagrammatic form was first given in
 
-* Urs Schreiber, [[Quantum 2-States, Sections of 2-Vector Bundles]], talk at Fields Institute workshop _Higher categories and their applications_ (2007)
+* Urs Schreiber, [[quant2states.pdf:file]], talk at Fields Institute workshop _Higher categories and their applications_ (2007)
 
 and described in more detail in
 
@@ -71,7 +79,9 @@ The generalization to bi-branes is developed at
 
 This is very closely related to the spans appearing in 
 
-* [[geometric function theory]].
+* [[geometric function theory]]. 
+
+The relation is discussed a bit at [this blog entry](http://golem.ph.utexas.edu/category/2009/01/benzvi_on_geometric_function_t.html#c021321).
 
 At least some aspects of the concept have more or less implicitly been considered before, notably in the context of  _topological T-duality_. See
 
@@ -81,7 +91,7 @@ At least some aspects of the concept have more or less implicitly been considere
 
   * II: [T-dual K-classes by Fourier-Mukai](http://golem.ph.utexas.edu/string/archives/000828.html)
 
-for an overview and references.
+for an overview and references. A translation of the construction in topological T-duality to the above diagrammatic formulation was originally given [here](http://golem.ph.utexas.edu/category/2007/02/qft_of_charged_nparticle_tdual.html).
 
 
 ##Bi-branes motivated from 2d CFT##
@@ -97,7 +107,7 @@ For certain 2-d CFTs based on current algebras the bi-branes corresponding to ce
 
 ##In WZW theories##
 
-It is found that, just as symmetric conformal branes in WZW models, whose target space is a Lie group $G$, correspond to 
+In the above article it is found that, just as symmetric conformal branes in WZW models, whose target space is a Lie group $G$, correspond to 
 submanifolds of $G$ given by conjugacy classes in $G$, bi-branes in WZW model correspond to [[span]]s or _correspondences_
 $$
   \array{
