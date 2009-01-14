@@ -1,10 +1,10 @@
 # Basic definition #
 
-In category theory, a **subobject** of an object $c$ of a category $C$ is an isomorphism class of [[monomorphism|monos]] $i: a \to c$ into $c$. (Two morphisms $i: a \to c$, $j: b \to c$ are _isomorphic_ if there exists an isomorphism $k: b \to c$ such that $i = j k$.)
+In category theory, a **subobject** of an object $c$ of a category $C$ is an isomorphism class of [[monomorphism|monos]] $i: a \to c$ into $c$. (Two morphisms $i: a \to c$, $j: b \to c$ are _isomorphic_ if there exists an isomorphism $k: a \to b$ such that $i = j k$.)
 
 Monos into an object $c$ are [[preorder|preordered]] by a relation
 $$(i: a \to c) \leq (j: b \to c)$$
-defined by the condition that there exists $k: b \to c$ such that $i = j k$. (There is at most one such $k$ since $j$ is monic, and such $k$ is monic since $i$ is monic.) A subobject of $c$ may equivalently be defined as an element of the posetal reflection of this preorder.  
+defined by the condition that there exists $k: a \to b$ such that $i = j k$. (There is at most one such $k$ since $j$ is monic, and such $k$ is monic since $i$ is monic.) A subobject of $c$ may equivalently be defined as an element of the posetal reflection of this preorder.  
 
 # Generalizations #
 
