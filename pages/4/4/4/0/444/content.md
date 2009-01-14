@@ -2,7 +2,7 @@
 
 Let $S$ be one of the categories of [[geometric shapes for higher structures]], such as the [[globe category]] $G$ or the [[simplex category]] $\Delta$, or the [[cube category]] $\Box$. 
 
-Then for $C$ any [[locally small]] or otherwise $V$-[[enriched category]] equipped with a [[functor]]
+Then for $C$ any [[locally small category|locally small]] or otherwise $V$-[[enriched category]] equipped with a [[functor]]
 $$
   s : S \to C
 $$
