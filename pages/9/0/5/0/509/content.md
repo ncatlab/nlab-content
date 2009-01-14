@@ -18,6 +18,10 @@ A pointed object is distinguished from an [[inhabited set|inhabited]] one in tha
 
 * If $C$ is a [[monoidal category]] (usually [[cartesian monoidal category|cartesian]]), there is a [[smash product]] of pointed objects which is usually the "correct" notion of product to consider.
 
++--{.query}
+Technically one would also want pushouts to construct the smash product, and for the tensor to preserve them on each side. Perhaps the best context in which to gauge the "correctness" of smash product is in the (let's say cartesian) closed case, where one wants to consider the internal hom of basepoint-preserving maps. The smash product then "falls right off the bone" as the product which is adjoint to that internal hom. 
+=--
+
 * If $C$ is a non-cartesian monoidal category, occasionally one may instead want a "pointed object" to be one equipped with a map $I\to X$, where $I$ is the unit of the monoidal structure.
 
 
