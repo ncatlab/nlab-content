@@ -29,7 +29,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * added a remark on the definition of kernel and cokernel of morphisms to [[pointed object]] -- some expert please have a look at that
 
-  * added [[pointed category]] and also a handful of trivial entries which are actually superfluous, since I hadn't had my first coffe yet and wasn't paying proper attention...
+  * added [[pointed category]] and also a handful of trivial entries which are actually superfluous, since I hadn't had my first coffee yet and wasn't paying proper attention...
 
 * [[Mike Shulman|Mike]]:
 
