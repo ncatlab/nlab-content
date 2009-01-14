@@ -12,6 +12,20 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-14
 
+* [[Urs Schreiber|Urs]]: 
+
+  * in [[category of fibrant objects]]
+
+    * added comments on relation to [[pointed object]] and [[pointed category]]
+
+    * made the _factorization lemma_ more explicit and related it to the notion of [[Morita equivalence]]
+
+  * created a `categories: reference`-entry for [[Brown -- Abstract Homotopy Theory and Generalized Sheaf Cohomology]]
+
+  * added a remark on the definition of kernel and cokernel of morphisms to [[pointed object]] -- some expert please have a look at that
+
+  * added [[pointed category]] and also a handful of trivial entries which are actually superfluous, since I hadn't had my first coffe yet and wasn't paying proper attention...
+
 * [[Mike Shulman|Mike]]:
 
   * Incorporated the discussion into [[k-tuply monoidal n-category]] and added more examples.  Perhaps some of this page would better go at [[delooping hypothesis]]?
