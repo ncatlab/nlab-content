@@ -12,6 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-14
 
+* [[Mike Shulman|Mike]]:
+
+  * Added detail about internal-homs and smash products to [[pointed object]], in response to Todd's comment.
+
+  * Created [[adjunct]].
+
 * [[Urs Schreiber|Urs]]: 
 
   * expanded the entry [[bi-brane]] in order to accompany some discussion about [[geometric function theory]] at [Ben-Zvi on geometric function theory](http://golem.ph.utexas.edu/category/2009/01/benzvi_on_geometric_function_t.html)
