@@ -20,6 +20,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
+  * created [[pointed set]] and [[under category]], am planning to expand on the bigger story indicated at [[pointed set]], but not today
+
   * expanded the entry [[bi-brane]] in order to accompany some discussion about [[geometric function theory]] at [Ben-Zvi on geometric function theory](http://golem.ph.utexas.edu/category/2009/01/benzvi_on_geometric_function_t.html)
 
   * said more at the beginning of [[interval object]] -- and are having a discussion with [[Todd Trimble|Todd]] about examples and the necessity to relax the structure, and his Trimblean definition of $\infty$-category -- which we ought to have an entry about
