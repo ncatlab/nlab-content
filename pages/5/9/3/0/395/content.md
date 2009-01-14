@@ -152,6 +152,7 @@ Any loop object $\Omega B$ becomes a group object in $Ho_C$, i.e. a group [[inte
 
 The notion of _category of fibrant objects_ was introduced and the above results obtained in
 
-* [[Brown -- Abstract Homotopy Theory and Generalized Sheaf Cohomology]]
+* Kenneth S. Brown, _[[BrownAbstractHomotopyTheory.pdf:file]]_, Transactions of the American Mathematical Society, Vol. 186 (1973), 419-458 ([[BrownAHT]]).
+
 
 for application to [[homotopical cohomology theory]].
