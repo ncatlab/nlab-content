@@ -62,4 +62,10 @@ Hope I got this right. Please let me know if I am mixed up.
 _[[Todd Trimble|Todd]]_: It seems to me there might be some trickiness about which hom you want. The thing you're proposing sounds like it would work to describe the hom for $\omega$-Cat as a cartesian closed category, but I'm not sure off the bat how it will play out with respect to the Crans-Gray monoidal biclosed structure. I'd have to think about it more carefully, but there's something a little "thin" about the strict co-category structure on say the category 2 (as an interval co-category in $Cat$) which makes me wonder.
 
 (After an email from Urs:) I think Urs is right after all -- this should work fine for either monoidal structure. 
+
+_[[Urs Schreiber|Urs]]_: Also by email, Todd points out that of course more generally, we want our interval objects to form internal co-categories only _up to coherent homotopy_, because otherwise the example of $G_1$ in strict $\omega$-categories is likely to be essentially the only good example.  We want internal _homotopy co-categories_.
+
+I need to learn more about how one would go about systematically defining concepts internal to a model category up to homotopy. What are the available tools for handling higher coherent homotopies in an arbitrary model category?
+
+My understanding is that Todd is going to write an entry on the Trimble definition of $\infty$-categories, and that this  issue appears there in some guise. So maybe I'll just wait for Todd's entry to appear...
 =--
