@@ -1,7 +1,7 @@
 #Idea#
 
 _Hypercover_ is another word for 
-[[special morphisms in a model category|acyclic fibration]] in 
+[[acyclic fibration]] in 
 [[model category|model categories]] of _higher structures_ such as 
 [[globular set|globular sets]] and [[simplicial set|simplicial sets]] and the
 [[infinity-category|infinity-categories]] and
