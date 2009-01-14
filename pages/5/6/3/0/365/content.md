@@ -36,6 +36,6 @@ On the other hand, saying that (mono,epi) is a WFS in $Set$ is equivalent to the
 
 The precise requirements for a factorization of morphisms to be _functorial_ are frequently misstated. What follows is a fairly uncommon (but correct) definition:
 
-Write $[2]$ and $[3]$ for the [[ordinal]]s, regarded as categories. So $arr(K)$ is isomorphic to the functor category $[[2],K]$. There are three injective functors $[2] \rightarrow [3]$; let $d_1$ be the functor that sends the objects $\{0,1\}$ of $[2]$ to the objects $\{0,2\}$ of $[3]$. This induces a functor $c : [[3],K] \rightarrow [[2],K]$ which can be thought of as "composition."
+Write $[2]$ and $[3]$ for the [[ordinal number]]s, regarded as categories. So $arr(K)$ is isomorphic to the functor category $[[2],K]$. There are three injective functors $[2] \rightarrow [3]$; let $d_1$ be the functor that sends the objects $\{0,1\}$ of $[2]$ to the objects $\{0,2\}$ of $[3]$. This induces a functor $c : [[3],K] \rightarrow [[2],K]$ which can be thought of as "composition."
 
 A **functorial factorization** is a functor $F : [[2],K] \rightarrow [[3],K]$ such that $cF$ is the identity on $arr(K)$.  Not all weak factorization systems are functorial, although most (including those produced by the [[small object argument]]) are, but all orthogonal ones are automatically functorial.
