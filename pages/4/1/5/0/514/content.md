@@ -1,4 +1,4 @@
-A category is (sometimes) called _pointed_ if it has a [[zero object]]. 
+A category is (sometimes) called _pointed_ if it has a [[zero object]]. Every such category (at least if [[locally small category|locally small]]) may be interpreted as [[enriched category|enriched]] over the category of [[pointed set]]s (but not necessarily the other way around).
 
 #Remarks#
 
