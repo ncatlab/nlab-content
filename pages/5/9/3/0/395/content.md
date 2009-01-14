@@ -2,7 +2,7 @@
 
 A _category of fibrant objects_ is a [[category with weak equivalences]] equipped with extra structure somewhat weaker than that of a [[model category]]. 
 
-The extra structure of fibrations _and_ cofibrations in a [[model category]] is, while convenient if it exists, not carried by many [[category with weak equivalence|categories with weak equivalences]] which still admit many constructions in [[homotopy theory]]. These are notably categories of [[presheaf|presheaves]] with values in a [[model category]]. 
+The extra structure of fibrations _and_ cofibrations in a [[model category]] is, while convenient if it exists, not carried by many [[category with weak equivalences|categories with weak equivalences]] which still admit many constructions in [[homotopy theory]]. These are notably categories of [[presheaf|presheaves]] with values in a [[model category]]. 
 
 A _category with fibrant objects_ is essentially like a [[model category]] but with all axioms concerning the cofibrations dropped, while at the same time assuming that all object are fibrant (hence the name). It turns out that this is sufficient for many useful constructions. In particular, it is sufficient for giving a convenient construction of the [[homotopy category]] in terms of [[span]]s of length one. This makes categories of fibrant objects useful in [[homotopical cohomology theory]].
 
@@ -57,21 +57,28 @@ Every morphism $a \stackrel{f}{\to} b$ in a category of fibrant objects can be f
 
 $$
   \array{
-    a &&\stackrel{f}{\to}&& b
-    \\
-    & {}_i\searrow && \nearrow_{p}
-    \\
     && c
+    \\
+    & {}^\pi \swarrow && \searrow^{\hat f}
+    \\
+    a &&\stackrel{f}{\to}&& b
   }
 $$
 
 where 
 
-* $p$ is a fibration
+* $\hat f$ is fibration;
 
-* $i$ is the right inverse to an aspherical fibration (hence in particular a weak equivalence).
+* $\pi$ is 
+ 
+  * an _acyclic_ fibration 
+
+  * which admits a section $s : a \to c$.
+
 
 This is the analog of the _factorization axiom_ in a [[model category]] which says that every map factors as an acyclic cofibration followed by a fibration.
+
+Notice that this in particular implies that every weak equivalence is given by a span of acyclic fibrations. In the context of [[Lie groupoid]] theory these are known as the [[Morita equivalence]]s between groupoids. (And groupoids indeed form a category of fibrant objects for instance with respect to the Brown-Golasinski [[folk model structure]]).
 
 
 ## The homotopy category ##
@@ -104,7 +111,7 @@ A discussion of this point of using weak equivalences versus acyclic fibrations 
 
 # Pointed category of fibrant objects #
 
-If the category $C$ of fibrant objects has an initial object which _coincides_ with the terminal object $e$, then $C$ is called **pointed**. In this case we have the following additional concepts and structures
+If the category $C$ of fibrant objects has an initial object which _coincides_ with the terminal object $e$, i.e. a [[zero object]], then $C$ is a [[pointed category]]. In this case we have the following additional concepts and structures.
 
 ## Fibers ##
 
@@ -114,13 +121,15 @@ $$
   \array{
      F &\stackrel{i}{\to}& Y
      \\
-     \downarrow $$ \downarrow
+     \downarrow && \downarrow
      \\
      e &\to& X
   }
 $$
 
 is the **fibre** of $p$ and $i$ is the _fibre inclusion_.
+(This is the _kernel_ of the morphism $f$ of [[pointed object]]s)
+
 
 ## Loop object ##
 
@@ -143,6 +152,6 @@ Any loop object $\Omega B$ becomes a group object in $Ho_C$, i.e. a group [[inte
 
 The notion of _category of fibrant objects_ was introduced and the above results obtained in
 
-* Kenneth S. Brown, _Abstract Homotopy Theory and Generalized Sheaf Cohomology_, Transactions of the American Mathematical Society, Vol. 186 (1973), 419-458 ([pdf](http://www.math.uni-hamburg.de/home/schreiber/Abstract%20homotopy%20theory%20and%20generalized%20sheaf%20cohomology.pdf))
+* [[Brown -- Abstract Homotopy Theory and Generalized Sheaf Cohomology]]
 
 for application to [[homotopical cohomology theory]].
