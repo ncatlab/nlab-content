@@ -66,7 +66,6 @@ But maybe surprisingly, category theory turns out to be much more than the study
 * [[object]]
 * [[omega-graph]]
 * [[oriental]]
-* [[path algebra]]
 * [[poset]]
 * [[preorder]]
 * [[quiver]]
