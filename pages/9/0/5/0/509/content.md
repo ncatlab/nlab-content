@@ -2,6 +2,10 @@ In a [[category]] with a [[terminal object]], a **pointed object** is an [[objec
 
 A pointed object is distinguished from an [[inhabited set|inhabited]] one in that the chosen point is _structure_ rather than a property.  In particular, a morphism of pointed objects is a morphism in the original category which preserves the points.  In other words, the category of pointed objects in $C$ is the [[co-slice category]] $1/C$ under the terminal object.
 
+## Remarks ##
+
+* A category of pointed objects is always a category with a [[zero object]], i.e. with an object which is both a [[terminal object|terminal]] and [[initial object|initial]]: this is the point itself regarded as a pointed object in the unique way. A category with zero object is called a [[pointed category]].
+
 ## Examples ##
 
 * Pointed [[topological space|topological spaces]] and [[simplicial set|simplicial sets]] are important in [[homotopy theory]], where they are often called **based**.
