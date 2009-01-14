@@ -42,7 +42,7 @@ Nevertheless, internalization and enrichment are related in several ways.  On th
 
 * A category enriched in [[Set]] is a [[locally small category]].
 
-* A category enriched in [[chain complex|chain complexes]] is a [[DG-category]].
+* A category enriched in [[chain complex|chain complexes]] is a [[differential graded category]].
 
 * A category enriched in [[simplicial set|simplicial sets]] is a [[simplicially enriched category|simplicial category]], and are one model for $(\infty,1)$-[[(infinity,1)-category|categories]].
 
