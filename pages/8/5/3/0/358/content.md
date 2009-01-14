@@ -21,7 +21,7 @@ A __stably monoidal $n$-category__ is an $(n+2)$-tuply monoidal $n$-category.  A
 There is a [[periodic table]] of $k$-tuply monoidal $n$-categories.
 
 <table><tr><th><i>k</i>&darr;\<i>n</i>&rarr;</th><th>&minus;1</th><th>0</th><th>1</th><th>2</th><th>&hellip;</th></tr>
-<tr><th>0</th><td>trivial</td><td>[[pointed set]]</td><td>[[pointed category]]</td><td>[[pointed 2-category]]</td><td>&hellip;</td></tr>
+<tr><th>0</th><td>trivial</td><td>[[pointed set]]</td><td>[[pointed object in Cat|pointed category]]</td><td>[[pointed object in 2Cat|pointed 2-category]]</td><td>&hellip;</td></tr>
 <tr><th>1</th><td>trivial</td><td>[[monoid]]</td><td>[[monoidal category]]</td><td>[[monoidal 2-category]]</td><td>&hellip;</td></tr>
 <tr><th>2</th><td>"</td><td>[[abelian monoid]]</td><td>[[braided monoidal category]]</td><td>[[braided monoidal 2-category]]</td><td>&hellip;</td></tr>
 <tr><th>3</th><td>"</td><td>"</td><td>[[symmetric monoidal category]]</td><td>[[sylleptic monoidal 2-category]]</td><td>&hellip;</td></tr>
