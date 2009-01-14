@@ -6,7 +6,7 @@ $$F: C^{op} \to Set$$
 
 is **representable** if it is [[natural isomorphism|naturally isomorphic]] to a [[hom-functor]] $\hom_C(-, c): C^{op} \to Set$. The object $c$ is determined uniquely up to isomorphism, and is called a **representing object** for $F$. 
 
-Representability is one of the most fundamental concepts of category theory, with close ties to the notion of [[adjunction]] and to the [[Yoneda lemma]]. It is the crucial concept underlying the idea of [[universal property]]; thus for example crucial concepts such as "[[limit]]", "[[colimit]]", "[[exponential]]", "[[Kan extension]]" and so on are naturally expressed in terms of representing objects. The concept permeates much of algebraic geometry and algebraic topology. 
+Representability is one of the most fundamental concepts of category theory, with close ties to the notion of [[adjunction]] and to the [[Yoneda lemma]]. It is the crucial concept underlying the idea of [[universal property]]; thus for example crucial concepts such as "[[limit]]", "[[colimit]]", "[[exponential object]]", "[[Kan extension]]" and so on are naturally expressed in terms of representing objects. The concept permeates much of algebraic geometry and algebraic topology. 
 
 ## Discussion ## 
 
@@ -41,13 +41,13 @@ there exists a unique element in $\hom(x, c \times d)$, denoted $langle f, g \ra
 
 $$\pi_c \langle f, g \rangle = f \qquad \pi_d \langle f, g \rangle = g.$$
 
-### Example 2: exponentials ### 
+### Example 2: exponential objects ### 
 
 Suppose $C$ is a category which admits finite products; given objects $c, d$, consider the presheaf 
 
 $$\hom_C(- \times c, d): C^{op} \to Set.$$ 
 
-A representing or universal object for this presheaf is an exponential $d^c$; the universal element 
+A representing or universal object for this presheaf is an exponential object $d^c$; the universal element 
 
 $$e \in \hom_C(d^c \times c, d)$$ 
 
