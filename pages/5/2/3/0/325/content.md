@@ -16,4 +16,4 @@ This goes as far that some entities are _defined_ as objects in an opposite cate
 Are there examples where algebras are defined as dual to spaces?
 =--
 
-Another example is the definition of the category of [[L-infinity algebroid|L-infinity algebroids]] as that opposite to quasi-free differential graded algebras, identifying every $L_\infty$-algebra with its [[duality|dual]] [[Chevalley-Eilenberg algebra]].
+Another example is the definition of the category of $L_\infty$-[[Lie infinity-algebroid|algebroids]] as that opposite to quasi-free differential graded algebras, identifying every $L_\infty$-algebra with its [[duality|dual]] [[Chevalley-Eilenberg algebra]].
