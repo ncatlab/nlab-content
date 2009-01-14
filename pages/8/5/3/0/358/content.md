@@ -1,6 +1,6 @@
 # Idea
 
-A $k$-tuply monoidal $n$-category is an $n$-[[n-category|category]] in which objects can be multiplied in $k$ ways, all of which interchange with each other up to isomorphism.   By the [[Eckmann-Hilton argument]], this implies that these $k$ ways all end up being equivalent, but that the single resulting operation is more and more commutative as $k$ increases.  The [[stabilization hypothesis]] states that by the time we reach $k = n + 2$, the multiplication has become "maximally commutative."
+A $k$-tuply monoidal $n$-category is an $n$-[[n-category|category]] in which objects can be multiplied in $k$ ways, all of which interchange with each other up to isomorphism.  By the [[Eckmann-Hilton argument]], this implies that these $k$ ways all end up being equivalent, but that the single resulting operation is more and more commutative as $k$ increases.  The [[stabilization hypothesis]] states that by the time we reach $k = n + 2$, the multiplication has become "maximally commutative."
 
 There is as yet no general definition of $k$-tuply monoidal $n$-category, but the [[delooping hypothesis]] says that a $k$-tuply monoidal $n$-category can be interpreted as a special kind of $(n+k)$-category, and if we wish we can take this hypothesis as a definition.  The hypothesis has been verified in many low-dimensional cases; see below.
 
@@ -26,11 +26,11 @@ There is a [[periodic table]] of $k$-tuply monoidal $n$-categories.
 <tr><th>2</th><td>"</td><td>[[abelian monoid]]</td><td>[[braided monoidal category]]</td><td>[[braided monoidal 2-category]]</td><td>&hellip;</td></tr>
 <tr><th>3</th><td>"</td><td>"</td><td>[[symmetric monoidal category]]</td><td>[[sylleptic monoidal 2-category]]</td><td>&hellip;</td></tr>
 <tr><th>4</th><td>"</td><td>"</td><td>"</td><td>[[symmetric monoidal 2-category]]</td><td>&hellip;</td></tr>
-<tr><th>&vellip;</th><td>"</td><td>"</td><td>"</td><td>"</td><td>&dellip;</td></tr></table>
+<tr><th>&vellip;</th><td>"</td><td>"</td><td>"</td><td>"</td><td>&#8945;</td></tr></table>
 
 ## Historical notes ##
 
-Originally the importance of pointedness was not fully appreciated, and $k$-tuply monoidal $n$-categories were identified simply with  $(k-1)$-connected $(n+k)$-categories (those in which any two parallel $j$-morphisms are equivalent for $j &lt; k$).  This gave a periodic table as follows:
+Originally the importance of pointedness was not fully appreciated, so any $n$-category was accepted as $0$-tuply monoidal, and $k$-tuply monoidal $n$-categories were identified simply with $(k-1)$-connected $(n+k)$-categories (those in which any two parallel $j$-morphisms are equivalent for $j \lt k$).  This gave a periodic table as follows:
 
 <table><tr><th><i>k</i>&darr;\<i>n</i>&rarr;</th><th>&minus;2</th><th>&minus;1</th><th>0</th><th>1</th><th>2</th><th>&hellip;</th></tr>
 <tr><th>0</th><td>trivial</td><td>[[truth value]]</td><td>[[set]]</td><td>[[category]]</td><td>[[2-category]]</td><td>&hellip;</td></tr>
@@ -38,30 +38,31 @@ Originally the importance of pointedness was not fully appreciated, and $k$-tupl
 <tr><th>2</th><td>"</td><td>"</td><td>[[abelian monoid]]</td><td>[[braided monoidal category]]</td><td>[[braided monoidal 2-category]]</td><td>&hellip;</td></tr>
 <tr><th>3</th><td>"</td><td>"</td><td>"</td><td>[[symmetric monoidal category]]</td><td>[[sylleptic monoidal 2-category]]</td><td>&hellip;</td></tr>
 <tr><th>4</th><td>"</td><td>"</td><td>"</td><td>"</td><td>[[symmetric monoidal 2-category]]</td><td>&hellip;</td></tr>
-<tr><th>&vellip;</th><td>"</td><td>"</td><td>"</td><td>"</td><td>"</td><td>&dellip;</td></tr></table>
+<tr><th>&vellip;</th><td>"</td><td>"</td><td>"</td><td>"</td><td>"</td><td>&#8945;</td></tr></table>
 
-Indeed, it was this table that inspired the definition of $(-1)$-[[(-1)-category|category]] and $(-2)$-[[(-2)-category|category]] in the first place. However, a closer look at the general definition of $(n,r)$-[[(n,r)-category|category]] shows that these are not well behaved concepts after all, and a closer look at low values of $k$ destroys the motivation for them. (In fact, I include the column where $n = -1$ in the first table just to illustrate that there is nothing interesting there.)
+This was the first periodic table, which inspired the definition of $(-1)$-[[(-1)-category|category]] and $(-2)$-[[(-2)-category|category]]. However, a closer look at the general definition of $(n,r)$-[[(n,r)-category|category]] shows that these are not well behaved concepts after all, and a closer look at low values of $k$ destroys the motivation for them. (In fact, I include the column where $n = -1$ in the first table just to illustrate that there is nothing interesting there.)
 
 +--{.query}
 Is it really worth having the old table here?
+
+_Toby_: I think that we should have it *somewhere*. I expect that it\'s still what most people think of as 'the' periodic table of $n$-categories, and of course it\'s of historical interest. Possibly this history section can be moved to [[periodic table]].
 =--
 
 Moreover, even in the case $k\gt 0$, where the chosen point makes no difference to the notion of $k$-tuply monoidal $n$-category, it does make a difference to the notions of morphism and higher morphism between them.  Eugenia Cheng and Nick Gurski wrote a [paper](http://arxiv.org/abs/0708.1178) about how these don't end up quite right if you just look at $(k-1)$-connected $(n+k)$-categories, but in all cases we have analyzed they do come out correct if you look at the pointed versions.  More on this can be found in the appendix to  [n-categories and cohomology](http://arxiv.org/abs/math.CT/0608420).
 
-
 # Low dimensions #
 
-### $k=0$ ###
+## $k=0$ ##
 
 As remarked above, a $0$-tuply monoidal $n$-category is just a pointed one, and functors and transformations between such are required to preserve the chosen object, at least up to specified coherent isomorphism.  (In other words, the $(n+1)$-category of $0$-tuply monoidal $n$-categories is the co-slice $(n+1)$-category $1/n Cat$, where the slicing happens in a suitably weak $(n+1)$-sense.
 
-### $k=1$, $n=0$ ###
+## $k=1$, $n=0$ ##
 
 A 1-tuply monoidal 0-category is a pointed 0-connected 1-category, or a 1-category with a chosen object in which all objects are isomorphic.  Thus we might as well as assume there is exactly one object, in which case we just have a [[monoid]].  A functor between one-object categories, which preserves the basepoint automatically, is exactly a [[monoid homomorphism]].
 
 More interestingly, a natural transformation between functors $f,g:X\to Y$ between one-object categories is just an object $y\in Y$ (its component at the single object) such that $f(x) y = y g(x)$ for all $x\in X$.  So the 2-category of 0-connected 1-categories is not equivalent to the 1-category of monoids.  However, a _pointed_ natural transformation must have its component at the basepoint being the identity; thus $y=1$ and so the only such natural transformations are identities $f=g$.  Therefore, the 2-category of pointed 0-connected 1-categories (that is, 1-tuply monoidal 0-categories) is equivalent to the 1-category of monoids.
 
-### $k=2$, $n=0$ ###
+## $k=2$, $n=0$ ##
 
 A 2-tuply monoidal 0-category is a pointed 1-connected 2-category.  Interpreting things as weakly as possible, we are talking about a [[bicategory]] $B$ with one object $*$ and one 1-cell (its identity).  By the usual [[Eckmann-Hilton argument]], the set $B(1_*,1_*)$ is a commutative monoid, but there is also additional structure: the associatior and unitors of the bicategory.  The pentagon identity implies that the associator is the identity, and the unitor axioms imply that the two unitors are the same, but they are not necessarily the identity.  Therefore, a 1-connected 2-category (if by 2-category we mean bicategory) is a commutative monoid $X$ equipped with a chosen invertible element $d_X$.  This was apparently first observed by Tom Leinster.
 
@@ -87,17 +88,17 @@ We conclude that the tricategory of pointed 2-connected bicategories is equivale
 
 One might complain that in addition of the single weak natural equivalence $t_F$, $F$ ought also to be equipped with an inverse _adjoint_ equivalence for it.  The modifications involved in this would introduce two distinguished invertible elements in $Y$, which (by the triangle identities) would have to be each other's inverses.  But these elements would again play no role in the higher morphisms, so they might as well be identities.
 
-### $k=1$, $n=1$ ###
+## $k=1$, $n=1$ ##
 
 A 1-tuply monoidal 1-category is a pointed 1-connected 2-category, which we can identify with a bicategory with one object.  It is well-known that this is precisely the data of a monoidal category. Likewise, (weak) functors between such bicategories correspond precisely (strong) monoidal functors.  However, again the transformations and modifications screw things up in the merely connected case, but by using pointed objects instead we can remedy the situation.
 
-### $k=1$, $n=(\infty,0)$ ###
+## $k=1$, $n=(\infty,0)$ ##
 
 If we identify $\infty$-[[infinity-groupoid|groupoids]] with spaces, then a 1-tuply monoidal $(\infty,0)$-category, or a monoidal $\infty$-groupoid, can be identified intuitively with an $A_\infty$-[[A-infinity space|space]].  This is a space equipped with a multiplication which is associative and unital up to all higher homotopies; see [[operad]] for one way to encode these data.
 
 It is a well-known fact in homotopy theory that the homotopy theories (that is, $(\infty,1)$-[[(infinity,1)-category|categories]]) of based connected spaces and of grouplike $A_\infty$-spaces are equivalent, via the "loop space" and "classifying space" constructions.  This can be regarded as another version of the delooping hypothesis.  The "grouplike" restriction (meaning that $\pi_0$ is a group, or that the multiplication has inverses up to homotopy) is because we consider only based connected $(\infty,0)$-categories, whereas we would need based connected $(\infty,1)$-categories to recover all $A_\infty$-spaces.  It would be interesting to verify the hypothesis in this case using one of the known models for $(\infty,1)$-categories.
 
-### Other low-dimensional cases ###
+## Other low-dimensional cases ##
 
 One expects that 
 
