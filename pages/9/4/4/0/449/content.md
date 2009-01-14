@@ -16,7 +16,7 @@ This is to be contrasted the the [[geometric definition of higher category]] whe
 
 * The Batanin/Leinster approach to higher categories involves algebraic structure imposed all at once (using higher [[operad|operads]]) on a globular set.
 
-* The [[Todd Trimble|Trimble]]/May approach to higher categories involves algebraic structure imposed in stages by a process of iterative enrichment.
+* The [[Todd Trimble|Trimble]]/May approach to higher categories involves algebraic structure imposed in stages by a process of iterative enrichment. See also [[Trimble's notion of weak n-category]].  
 
 # References #
 
