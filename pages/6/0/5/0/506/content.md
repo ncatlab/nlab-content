@@ -1,6 +1,6 @@
 #Idea#
 
-Recall that an ordinary [[sheaf]] is a $Sets$-valued functor $X : S^{op} \to Sets$ on a [[locally small]] category $S$. Being locally small just means being [[enriched category|enriched]] over $Sets$, so sheaves naturally live in the context of $V$-[[enriched category theory]] for $V = Sets$.
+Recall that an ordinary [[sheaf]] is a $Sets$-valued functor $X : S^{op} \to Sets$ on a [[locally small category]] $S$. Being locally small just means being [[enriched category|enriched]] over $Sets$, so sheaves naturally live in the context of $V$-[[enriched category theory]] for $V = Sets$.
 
 This suggests that there are useful generalizations of the notion of sheaf with $S$ non-trivially $V$-enriched for other choices of $V$. It seems there are few examples for this in the literature _except_ for the case that $V$ is a category of "higher structures" such as [[simplicial set|simplicial sets]], [[quasi-category|quasi-categories]] or other [[infinity-category|infinity categories]], which is recently gaining plenty of attention.
 
