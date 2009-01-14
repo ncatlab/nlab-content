@@ -19,3 +19,42 @@ A pointed object is distinguished from an [[inhabited set|inhabited]] one in tha
 * If $C$ is a [[monoidal category]] (usually [[cartesian monoidal category|cartesian]]), there is a [[smash product]] of pointed objects which is usually the "correct" notion of product to consider.
 
 * If $C$ is a non-cartesian monoidal category, occasionally one may instead want a "pointed object" to be one equipped with a map $I\to X$, where $I$ is the unit of the monoidal structure.
+
+
+#Kernels and cokernels#
+
+For a morphism $f : A \to B$ into an object $B$ equipped with a point $pt \stackrel{pt_B}{\to} B$, its _kernel_ $ker_{pt_B}(f)$ is the pullback
+
+$$
+  \array{
+     ker_{pt_B}(f) &\to& A
+     \\
+     \downarrow && \downarrow^f
+     \\
+     pt
+     &\stackrel{pt_B}{\to}&
+     B
+  }
+  \,.
+$$
+
+The kernel is itself naturally a pointed object if $A$ is and if $f$ is a morphism of pointed objects.
+
+Similarly, the _cokernel_ of such a morphism is the pushout
+
+$$
+  \array{
+     A &\stackrel{f}{\to}& B
+     \\
+     \downarrow && \downarrow
+     \\
+     pt
+     &\stackrel{pt_{coker(f)}}{\to}&
+     coker(f)
+  }
+  \,,
+$$
+which is always naturally pointed as indicated. 
+
+The notion of kernel in a category with zero morphism is obtained from this in the special case that all objects are assumed to be pointed, so that we are in a [[pointed category]] with zero-morphism $0 : A \to B$ given by 
+$A \to pt \stackrel{pt_B}{\to} B$.
