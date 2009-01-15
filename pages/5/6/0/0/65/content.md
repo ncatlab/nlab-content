@@ -3,8 +3,8 @@
 In general, "folk model structures" are [[model category]] structures for some flavor of [[n-category|n-categories]] for $1\le n\le \infty$ (note that $n=\infty$ or $\omega$ is allowed) in which the [[weak equivalence|weak equivalences]] are the [[equivalence|categorical equivalences]].  This is to be contrasted with [[Thomason model structure|Thomason model structures]] in which the weak equivalences are the morphisms that induce a weak homotopy equivalence of [[nerve|nerves]].  In a folk model structure for some flavor of $n$-categories, usually
 
 * a **fibration** is a functor that lifts [[equivalence|equivalences]] in all dimensions,
-* an **acyclic fibration** is a functor which is [[k-surjectivity|k-surjective]] for all $0\le k\le n$,
-* a **weak equivalence** is a functor which is [[k-surjectivity|essentially k-surjective]] for all $0\le k\le n$, and
+* an **acyclic fibration** is a functor which is [[k-surjective functor|k-surjective]] for all $0\le k\le n$,
+* a **weak equivalence** is a functor which is [[k-surjective functor|essentially k-surjective]] for all $0\le k\le n$, and
 * a **cofibration** is a functor which is injective on objects and "relatively free" on $k$-morphisms for $1\le k \lt n$.  These can also be described as the morphisms [[cofibrantly generated model structure|generated]] by the inclusions 
 $\partial G_k \hookrightarrow G_k$ of the boundary of the $k$-[[globe]] into the $k$-[[globe]] for $0\le k \lt \infty$.
 
