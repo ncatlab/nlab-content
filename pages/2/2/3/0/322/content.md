@@ -10,7 +10,7 @@ The original definition is due to J.P. May and was given in his book _The Geomet
 
 Let $V$ be a symmetric monoidal category. A (permutative) _operad_ in $V$ consists of objects $F(n)$ of $V$ indexed over the natural numbers $n = 0, 1, 2, \ldots$ [which we intuitively think of as "objects that parametrize the $n$-ary operations of an algebraic theory"] equipped with the following extra structure: 
 
-* Right actions of symmetric groups $\rho_n: S_n \to \hom(F(n), F(n)$; 
+* Right actions of symmetric groups $\rho_n: S_n \to \hom(F(n), F(n))$; 
 * An _unit_ $e: I \to F(1)$ [which we think of as picking out the identity map as unary operation]; 
 * Composition operations 
 $$F(k) \otimes F(n_1) \otimes F(n_2) \otimes \cdots \otimes F(n_k) \to F(n_1 + \ldots + n_k)$$
