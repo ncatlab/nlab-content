@@ -73,7 +73,7 @@ In the context of the [[model structure on simplicial sets]], these are the hype
 the [[folk model structure]] on 
 [[strict omega-category|strict omega-categories]]
 this are the 
-$\omega$-functors which are [[k-surjectivity|k-surjective]]
+$\omega$-functors which are $k$-[[k-surjective functor|surjective]]
 for all $k$.
 
 #Relation to fibrations#
