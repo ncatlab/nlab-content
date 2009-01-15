@@ -8,6 +8,8 @@ Let $E$ be a [[topos]], with [[subobject classifier]] $\Omega$. A __Lawvere&#821
 
 +--{.query}
 Am I using the prepositions correctly? These are both things that one may want to say, but I\'m not sure how one is meant to distinguish them.
+
+I don't think I've seen anyone say "Lawvere-Tierney topology on $C$" to refer to something in the topos of presheaves.  Why would you need to say that, since Lawvere-Tierney topologies in  $\Set^{C^\op}$ are bijective with Grothendieck topologies on $C$?
 =--
 
 The axioms say that $j$ is ([[internalization|internally]]) a [[left exact functor|left exact]] [[monad]] on the internal meet-semi[[lattice]] $\Omega$. To be explicit:
@@ -29,6 +31,8 @@ A special case of a Lawvere&#8211;Tierney topology on a category $C$ is a [[Grot
 
 +--{.query}
 Is this always right? Or does it only work when $F, G$ are actually sheaves?
+
+Yes, I believe that is always right.
 =--
 
 As a specific example, take the usual Grothendieck topology on [[Top]], given by the usual notion of open cover. Taking real-valued functions on a space defines a presheaf (in fact a sheaf) $G: X \mapsto [X,R]$ on $\Top$; the constant functions form a subpresheaf $F$ of $G$. A real-valued function $f: X \to R$ belongs to $j_*(F)$ iff it is *locally* constant; that is, for some open cover $(U_i)_i$ of the domain $X$, each restriction $f|U_i$ is constant.
