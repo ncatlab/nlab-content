@@ -16,6 +16,13 @@ Let $X$ be a space, and let $X_0$ denote its underlying set, viewed as a discret
 
 $$X_0 \times X_0 \to V.$$ 
 
++--{.query}
+[[Urs Schreiber|Urs]]: from the following I am getting the impression that at this point you are really thinking of just a graph map here, not a functor. Could that be?
+
+[[Todd Trimble|Todd]]: Well, sort of. I'm really just thinking of a function $X_0 \times X_0 \to Ob(V)$, which is the same thing as a functor $X_0 \times X_0 \to V$ if we think of $X_0$ as discrete. I used the latter formulation because I want to define $V$-$Graph_{X_0}$ as the functor category $V^{X_0 \times X_0}$. Actually this is a monoidal category 
+if $V$ is monoidal and tensor distributes over coproducts.
+=--
+
 There is an obvious category of $V$-graphs. A basic example for our purposes is the "graph of paths" in a space $X$: define 
 
 $$X^\sim : X_0 \times X_0 \to Top \qquad (1)$$ 
@@ -55,6 +62,12 @@ and the co-composition for the H-cocategory structure on $I$, which is a cospan 
 $$[0, 1] \to [0, 2]$$ 
 
 This co-operation $I \to I \vee I$ is not strictly coassociative, but is coassociative up to homotopy. As a matter of fact, it follows straight away from the _convexity_ of the $n$-fold cospan composite $I^{\vee n} \cong [0, n]$ that the space of cospan maps $\hom(I, I^{\vee n})$ is _contractible_: the convexity actually gives a way of defining coherent homotopies (the pentagon, etc.) all the way up the "$A_{\infty}$-ladder". In other words, the cospan $I$ carries an $A_{\infty}$-cocategory structure. 
+
++--{.query}
+[[Urs Schreiber|Urs]]: sorry for interrupting here, but in view of our discussion at interval object, I'd enjoy to formulate this with respect to a general closed monoidal homotopical category $V$ with interval object $pt \stackrel{\sigma}{\to} I \stackrel{\tau}{\leftarrow} pt$: I suppose the condition above would be: all pushouts $I^{\vee n}$ exist and the internal hom-objects $V(I,I^{\vee n})$ are weakly equivalent to the point, $V(I, I^{\vee n})\stackrel{\sim}{\to} pt$. Would that be sufficient to get an operad in $V$ later on? Probably I'd need to require a bit more... 
+
+[[Todd Trimble|Todd]]: No, you don't need any more than that. All of the arguments are so soft and tautological that you can practically get away with murder :-)
+=--
 
 But we don't actually need the $A_{\infty}$-jargon: all we will need are two basic facts: 
 
@@ -149,3 +162,32 @@ $$(\delta \vee 1)\delta, (1 \vee \delta)\delta: [0, 1] \to [0, 3]$$
 where $\delta: [0, 1] \to [0, 2]$ is a co-composition. The pentagonator is similarly coded up as a 2-cell in $\Pi_2 T_4$. And so on. 
 
 To be continued...
+
++--{.query}
+[[Urs Schreiber|Urs]]: Thanks, Todd, this is great. If I may, let me try, also to check if I am following, to see how much of this we can do while abstracting away from Top and the concrete interval object in there.
+
+It seems that we need:
+
+* a closed monoidal homotopical category $V$ (not your $V$ above, but I'll call it $V$ nevertheless);
+
+* an object $I \in V$ fitting in an internal co-graph $pt \stackrel{\sigma, \tau}{\to} I$ such that
+
+  * all the end-to-end pushouts $I^{\vee n}$ exist in $V$;
+ 
+  * all the $V$-internal hom-objects $[I, I^{\vee n}]$ are weakly equivalent to the point (the terminal object) $[I, I^{\vee n}] \stackrel{\sim}{\to} pt$;
+
+  * equipped with the structure of a co-operad internal to $V$ on $\{[I,I^{\vee n}]\}$, $n \in \mathbb{N}$.
+
+Then
+
+    * for $C$ any $V$-enriched homotopical category (I want to use now that $C$ is powered over $V$) we get &#8211; now let me see... &#8211; a functor
+$$\Pi_{\omega}: C \to Trimble&#8722;\omega&#8722;Cat.$$
+
+Hm, let me just let it stand this way for you to either erase all of this or maybe comment on it for the moment...
+
+[[Todd Trimble|Todd]]: Yes, that's more or less right. But there is a god-given nonpermutative operad (not co-operad) structure on the graded $V$-object $\{[I, I^{\vee n}]\}$, and that's what I'm using here. If you know how the "endomorphism operad" works (as in the entry [[operad]]), then the operad here works the same way, mutatis mutandis. 
+
+As for the last part: in the original definition, I didn't know how to pass to the full-fledged $\omega$-categorical definition; I just had $n$-categories, one for each $n$. But Tom and Eugenia figured out how to make "Trimble-like" $\omega$-categories work by using coalgebraic methods. I haven't thought about whether that allows a $\Pi_\omega$... But aside from these technicalities: yes, you seem to understand what this is all about. 
+
+There were some comments to this effect after I gave that lecture; someone asked what you really need to do this definition very generally. Martin Hyland cried, "Not much!"
+=--
