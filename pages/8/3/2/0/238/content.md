@@ -12,6 +12,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-15
 
+* [[Toby Bartels]]: Wrote [[algebraic theory]], mostly to distinguish it from [[Lawvere theory]].
+
 * [[Mike Shulman|Mike]]:
 
   * Toby and I appear to have finally reached a consensus on terminology at [[extensive category]].  I did some work on this page and [[coherent category]], [[pretopos]], and [[Grothendieck topos]] making them more consistent, and also created [[disjoint coproduct]] and [[coproduct]].
