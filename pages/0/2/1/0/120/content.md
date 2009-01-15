@@ -23,7 +23,7 @@ If $F$ is an equivalence of categories, then it is full, faithful, and essential
 
 However, in contexts without choice it is usually better to use [[anafunctor|anafunctors]] than ordinary functors.  If by $Cat$ we mean the bicategory of categories, anafunctors, and natural transformations, then even without choice, an (ana)functor between categories is an equivalence in $Cat$ (that is, it has a weak inverse anafunctor) iff it is essentially surjective on objects, full, and faithful.  However, its weak inverse may not be a functor, so it need not be an equivalence in the 2-category $StrCat$ of categories, (non-ana) functors, and natural transformations.  In the presence of choice, $Cat$ and $StrCat$ are equivalent 2-categories, but without it they are different.  We can regard $Cat$ as obtained from $StrCat$ by "formally inverting" the weak equivalences; see [[homotopy theory]].
 
-Likewise, one expects that in any $(n+1)$-category of $n$-categories, every equivalence will be essentially $k$-[[k-surjectivity|surjective]] for all $0\le k\le n+1$; this is the $n$-version of "full, faithful, and essentially surjective."  The converse should be true assuming both that
+Likewise, one expects that in any $(n+1)$-category of $n$-categories, every equivalence will be essentially $k$-[[k-surjective functor|surjective]] for all $0\le k\le n+1$; this is the $n$-version of "full, faithful, and essentially surjective."  The converse should be true assuming both that
 
 * either we have an axiom of choice or we use anafunctors, _and_
 
