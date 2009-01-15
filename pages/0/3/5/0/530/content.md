@@ -1,0 +1,107 @@
+#Essentially surjective, faithful, and full functors#
+
+The standard stuff: &lt;http://math.ucr.edu/home/baez/qg-spring2004/discussion.html>
+
+#Generalization to $\infty$-categories#
+
+## $k$-surjectivity##
+
+An $\omega$-functor $f : C \to D$ between $\infty$-[[infinity-category|categories]] is 
+0-surjective if $f_0 : C_0 \to D_0$ is an epimorphism.
+
+For $k \in \mathbb{N}$, $k \geq 1$ the functor is _$k$-surjective_ 
+if the universal morphism 
+$$
+  C_k \to P_k
+$$
+to the pullback $P_k$ in
+$$
+  \array{
+     P_k
+     &\to&
+     D_k
+     \\
+     \downarrow && \downarrow^{s \times t}
+     \\
+     C_{k-1} \times C_{k-1}
+     &\stackrel{F_{k-1} \times F_{k-1}}{\to}&
+     D_{k-1} \times D_{k-1}
+  }
+$$
+coming from the commutativity of the square
+$$
+  \array{
+     C_k
+     &\stackrel{f_{k}}{\to}&
+     D_k
+     \\
+     \downarrow^{s \times t} && \downarrow^{s \times t}
+     \\
+     C_{k-1} \times C_{k-1}
+     &\stackrel{F_{k-1} \times F_{k-1}}{\to}&
+     D_{k-1} \times D_{k-1}
+  }
+$$
+(which commutes due to the functoriality axioms of $f$) is an [[epimorphism]].
+
+**Proposition** An $\omega$-functor $f : C \to D$ is $k$-surjective for $k \in \mathbb{N}$ precisely if it has the right [[lifting property]] with respect to the inclusion $\partial G_{k} \to G_k$ of the boundary of the $k$-[[globe]] into the $k$-[[globe]].
+
+$$
+  \array{
+    \partial G_k &\to& C
+    \\
+    \downarrow &{}^{\exists}\nearrow& \downarrow^f
+    \\
+    G_k &\to& D
+  }
+  \,.
+$$
+
+
+**Proposition** For $C$ and $D$ 1-categories we have
+
+ 1. ($f$ is 0-surjective) $\Leftrightarrow$
+    ($f$ is surjective on objects)
+
+ 2. ($f$ is 1-surjective) $\Leftrightarrow$ ($f$ is [[full functor|full]])
+
+ 3. ($f$ is 2-surjective) $\Leftrightarrow$ ($f$ is [[faithful functor|faithful]])
+
+
+## Essential $k$-surjectivity##
+
+An $\omega$-functor is _essentially $k$-surjective_
+if the morphism $C_k \to P_k$ from above becomes
+epi after projecting further to $\omega$-[[equivalence]]-classes.
+
+
+
+
+## Weak equivalences, acyclic fibrations and hypercovers##
+
+**Definition.** With respect to the [[folk model structure]]  on $\omega$-categories an $\omega$-functor is 
+
+* an [[model category|acyclic fibration]] if it is $k$-surjective for all $k \in \mathbb{N}$;
+
+* a [[model category|weak equivalence]] if it is essentially $k$-surjective for all $k \in \mathbb{N}$.
+See also [[equivalence]].
+
+###Remarks###
+
+All this has close analogs in other models of higher structures, in particular in the context of simplicial sets. Simplicial maps which are $k$-surjective for all $k$ are called [[hypercover]]s.
+
+
+#Literature#
+
+The general idea of $k$-surjectivity is described around [definition 4](http://arxiv.org/PS_cache/math/pdf/0608/0608420v2.pdf#page=17) of
+
+* Baez-Shulman, _Lectures on $n$-Categories and Cohomology_
+([arXiv](http://arxiv.org/abs/math.CT/0608420))
+
+The concrete discussion in the context of [[strict omega-category|strict omega-categories]] is in
+
+* Yves Lafont, Francois M&eacute;tayer, Krzysztof Worytkiewicz, _A folk model structure on $\omega$-cat_ ([arXiv](http://arxiv.org/abs/0712.0617)).
+
+The analogous discussion for simplicial set is in
+
+* (any discussion of homotopy theory of simplicial sets).
