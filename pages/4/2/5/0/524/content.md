@@ -18,7 +18,7 @@ $$X_0 \times X_0 \to V.$$
 
 There is an obvious category of $V$-graphs. A basic example for our purposes is the "graph of paths" in a space $X$: define 
 
-$$X^\tilde: X_0 \times X_0 \to Top \qquad (1)$$ 
+$$X^\tilde : X_0 \times X_0 \to Top \qquad (1)$$ 
 
 by letting $X^{\tilde}(x, y)$ be the space of paths from $x$ to $y$. Two paths from $x$ to $y$ are homotopic if they lie in the same connected component of $X^\tilde(x, y)$, so by applying the connected components functor, 
 
@@ -62,7 +62,7 @@ But we don't actually need the $A_{\infty}$-jargon: all we will need are two bas
 
 * Each component $T_n$ is contractible. 
 
-The operad structure on $T$ is derived from pure abstract nonsense: if $A$ is an object in a monoidal category, then the objects $\hom(A, A^{\otimes n}) are the components of an operad, just as are the objects $\hom(A^{\otimes n}, A)$ the components of the familiar tautological endomorphism operad. This applies in particular to the cospan $I$, seen as an object in the monoidal category of cospans from a point to itself. 
+The operad structure on $T$ is derived from pure abstract nonsense: if $A$ is an object in a monoidal category, then the objects $\hom(A, A^{\otimes n})$ are the components of an operad, just as are the objects $\hom(A^{\otimes n}, A)$ the components of the familiar tautological endomorphism operad. This applies in particular to the cospan $I$, seen as an object in the monoidal category of cospans from a point to itself. 
 
 Now we just hom out of the cospan co-operations encapsulated in the operad $T$ to get span operations on the topological span above. That is, we use the facts that 
 
