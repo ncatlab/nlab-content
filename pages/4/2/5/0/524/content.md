@@ -14,14 +14,10 @@ It will be helpful to review the fundamental (1-)groupoid of a space first, doin
 
 Let $X$ be a space, and let $X_0$ denote its underlying set, viewed as a discrete category. If $V$ is a category, then a _$V$-graph_ over $X_0$ is just a functor 
 
-$$X_0 \times X_0 \to V.$$ 
+$$X_0 \times X_0 \to V$$ 
 
-+--{.query}
-[[Urs Schreiber|Urs]]: from the following I am getting the impression that at this point you are really thinking of just a graph map here, not a functor. Could that be?
+(which here amounts to a function $X_0 \times X_0 \to Ob(V)$).
 
-[[Todd Trimble|Todd]]: Well, sort of. I'm really just thinking of a function $X_0 \times X_0 \to Ob(V)$, which is the same thing as a functor $X_0 \times X_0 \to V$ if we think of $X_0$ as discrete. I used the latter formulation because I want to define $V$-$Graph_{X_0}$ as the functor category $V^{X_0 \times X_0}$. Actually this is a monoidal category 
-if $V$ is monoidal and tensor distributes over coproducts.
-=--
 
 There is an obvious category of $V$-graphs. A basic example for our purposes is the "graph of paths" in a space $X$: define 
 
