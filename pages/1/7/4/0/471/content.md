@@ -10,6 +10,7 @@ The following definition is tentative.
 
 +--{.query}
 Might there be two notions of interval object, one in a closed category such that $[I,B]$ is a path object, and one in a monoidal category such that $I \otimes B$ is a cylinder object? (And then a stronger notion, combining these, in a closed monoidal category.) &#8212;[[Toby Bartels|Toby]]
+
 =--
 
 #Definition#
@@ -97,7 +98,7 @@ $$
 
 #Examples#
 
-* For $V = C = Top$ with its standard model structure the standard topological closed interval  $I := [0,1]$ with $pt \stackrel{\sigma, \tau}{\to}$ the maps to 0 and 1, respectively. This is the case describe in detail at [[Trimble's definition of weak n-category]].
+* For $V = C = Top$ with its standard model structure the standard topological closed interval  $I := [0,1]$ with $pt \stackrel{\sigma, \tau}{\to}$ the maps to 0 and 1, respectively. This is the case described in detail at [[Trimble's notion of weak n-category]].
 
 * For $V = C = \omega Cat$ the category of [[strict omega-category|strict omega-categories]] the first [[oriental]], the 1-[[globe]] $I = \{a \to b\}$ is an interval object. In this strict case in fact all hom objects are already equal to the point $hom(I, I^{\vee n}) = pt$ and 
 $$
