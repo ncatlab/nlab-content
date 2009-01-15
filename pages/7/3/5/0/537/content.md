@@ -1,0 +1,27 @@
+A [[coproduct]] $a+b$ in a [[category]] is **disjoint** if
+
+1. the coprojections $a\to a+b$ and $b\to a+b$ are [[monomorphism|monic]], and 
+
+1. their [[intersection]] is an [[initial object]].
+
+Equivalently, this means we have [[pullback]] squares
+
+$$
+\array{ a & \to & a &&&
+b & \to & b &&&
+0 & \to & b\\
+\downarrow && \downarrow &&&
+\downarrow && \downarrow &&&
+\downarrow && \downarrow \\
+a & \to & a+b &&&
+b & \to & a+b &&&
+a & \to & a+b}
+$$
+
+An arbitrary coproduct $\coprod_i a_i$ is disjoint if each coprojection $a_i\to \coprod_i a_i$ is monic and the intersection of any two is initial.  Note that every 0-ary coproduct (that, is initial object) is disjoint.
+
+Having disjoint (finite) coproducts is half of the condition for a category to be [[extensive category|extensive]].  Having all small disjoint coproducts is one of the conditions in Giraud's theorem characterizing [[Grothendieck topos|Grothendieck toposes]].
+
+## Generalizations ##
+
+A coproduct $a+b$ in a [[bicategory]] is disjoint if $a\to a+b$ and $b\to a+b$ are [[full and faithful functor|fully faithful]] and their [[comma object]] is initial.
