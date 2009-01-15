@@ -18,11 +18,11 @@ $$X_0 \times X_0 \to V.$$
 
 There is an obvious category of $V$-graphs. A basic example for our purposes is the "graph of paths" in a space $X$: define 
 
-$$X^\tilde : X_0 \times X_0 \to Top \qquad (1)$$ 
+$$X^\sim : X_0 \times X_0 \to Top \qquad (1)$$ 
 
-by letting $X^{\tilde}(x, y)$ be the space of paths from $x$ to $y$. Two paths from $x$ to $y$ are homotopic if they lie in the same connected component of $X^\tilde(x, y)$, so by applying the connected components functor, 
+by letting $X^\sim(x, y)$ be the space of paths from $x$ to $y$. Two paths from $x$ to $y$ are homotopic if they lie in the same connected component of $X^\sim(x, y)$, so by applying the connected components functor, 
 
-$$X_0 \times X_0 \stackrel{X^\tilde}{\to} Top \stackrel{\Pi_0}{\to} Set$$ 
+$$X_0 \times X_0 \stackrel{X^\sim}{\to} Top \stackrel{\Pi_0}{\to} Set$$ 
 
 we get the graph of homotopy classes of paths. What we want is to put a category structure on this $Set$-graph, so as to obtain the fundamental groupoid $\Pi_1(X)$. 
 
@@ -86,15 +86,15 @@ where $\otimes$ indicates span composite.
 $$X \stackrel{\pi}{\leftarrow} X \times Y \stackrel{\pi}{\to} X$$
 This change of base is (strong) monoidal. As a matter of fact, this change of base factors through the center of the monoidal category $TopSpan$, which we actually need because one needs symmetries in order to express the notion of an operad internal to a monoidal category. 
 
-We get a similar $T$-algebra structure on the $Top$-graph $X^\tilde: X_0 \times X_0 \to Top$ we started with. Indeed, the functor 
+We get a similar $T$-algebra structure on the $Top$-graph $X^\sim: X_0 \times X_0 \to Top$ we started with. Indeed, the functor 
 
 $$TopSpan(X, X) \to TopSpan(X_0, X_0) \cong TopGraph_{X_0} \qquad (3)$$ 
 
 is a lax monoidal functor, and hence takes $T$-algebras in $TopSpan(X, X)$ (as in (4)) to $T$-algebras in $TopGraph_{X_0}$. This gives a $T$-algebra structure 
 
-$$T_n \times (X^\tilde)^{\otimes n} \to X^\tilde \qquad (5)$$ 
+$$T_n \times (X^\sim)^{\otimes n} \to X^\sim \qquad (5)$$ 
 
-in the monoidal category of $Top$-graphs. Considered geometrically, this is almost pure tautology, but **(5) is the crucial input datum in Trimble's machine**. 
+in the monoidal category of $Top$-graphs. Considered geometrically, this is almost pure tautology, but **(5) is the crucial topological input in Trimble's machine**. 
 
 We may as well make some of this explicit. In general, if $V$ is a monoidal category with coproducts, such that the tensor $u \otimes v$ preserves coproducts in each of its separate arguments $u$ and $v$, then the category of $V$-graphs also carries a monoidal structure, where for two $V$-graphs $G, H$ we define 
 
@@ -102,17 +102,17 @@ $$(G \otimes H)(x, z) = \sum_y G(x, y) \otimes H(y, z)$$
 
 Hence, in the case $V = Top$, (5) takes the more explicit form 
 
-$$T_n \times \sum_{y_1, \ldots, y_{n-1}} X^\tilde(x, y_1) \times X^\tilde(y_1, y_2) \times \ldots \times X^\tilde(y_{n-1}, z) \to X^{\tilde}(x, z) \qquad (6)$$ 
+$$T_n \times \sum_{y_1, \ldots, y_{n-1}} X^\sim(x, y_1) \times X^\sim(y_1, y_2) \times \ldots \times X^\sim(y_{n-1}, z) \to X^{\sim}(x, z) \qquad (6)$$ 
 
-Now apply the functor $\Pi_0: Top \to Set$ (which preserves products and incidentally sums as well) to (6). This makes the $Set$-graph $\Pi_0 X^\tilde$ an algebra over the operad $\Pi_0 T$. But a $Set$-graph equipped with a $\Pi_0 T$-algebra structure is just a category, since $\Pi_0 T_n$ consists of just a point. 
+Now apply the functor $\Pi_0: Top \to Set$ (which preserves products and incidentally sums as well) to (6). This makes the $Set$-graph $\Pi_0 X^\sim$ an algebra over the operad $\Pi_0 T$. But a $Set$-graph equipped with a $\Pi_0 T$-algebra structure is just a category, since $\Pi_0 T_n$ consists of just a point, i.e., is the operad whose algebras are monoids, and a category is a monoid in a category of graphs. 
 
 This category is precisely the fundamental groupoid $\Pi_1(X)$. It is pretty clear from this description that $\Pi_1(X)$ is functorial in $X$. Indeed, if $f: X \to Y$ is a continuous map, we can pull back the $Top$-graph $Y^\tilde$ over $Y_0$ to a $Top$-graph over $X_0$, 
 
-$$X_0 \times X_0 \stackrel{f_0 \times f_0}{\to} Y_0 \times Y_0 \stackrel{Y^\tilde}{\to} Top,$$ 
+$$X_0 \times X_0 \stackrel{f_0 \times f_0}{\to} Y_0 \times Y_0 \stackrel{Y^\sim}{\to} Top,$$ 
 
-which we call $f_0^{-1} Y^\tilde$. The continuous map $f: X \to Y$ induces a comparison map of $T$-algebras in $TopGraph_{X_0}$, 
+which we call $f_0^{-1} Y^\sim$. The continuous map $f: X \to Y$ induces a comparison map of $T$-algebras in $TopGraph_{X_0}$, 
 
-$$ f^*: X^\tilde \to f_0^{-1} Y^\tilde: X_0 \times X_0 \to Top $$ 
+$$ f^*: X^\sim \to f_0^{-1} Y^\sim: X_0 \times X_0 \to Top $$ 
 
 and again by composing with $\Pi_0: Top \to Set$, we get a map $ \Pi_0 f^*: \Pi_1(X) \to \Pi_1(Y) $, i.e., a functor between the fundamental groupoids. 
 
@@ -128,9 +128,9 @@ equipped with a structure of algebra over the operad $\Pi_n T$ (a priori an oper
 
 * The **fundamental flabby $(n+1)$-category functor** 
 $$\Pi_{n+1}: Top \to Flabby(n+1)Cat$$ 
-sends a space $X$ to the pair $(X_0, \Pi_n X^\tilde)$, seen as a $\Pi_n T$-algebra by applying the product-preserving functor $\Pi_n$ to the tautological $T$-algebra $X^\tilde$. 
+sends a space $X$ to the pair $(X_0, \Pi_n X^\sim)$, seen as a $\Pi_n T$-algebra by applying the product-preserving functor $\Pi_n$ to the tautological $T$-algebra $X^\sim$. 
 
-* **Theorem**: $\Pi_{n+1}$ preserves finite products and arbitrary coproducts. 
+* **Theorem**: $\Pi_{n+1}$ preserves finite products and arbitrary coproducts. (This theorem is needed to push the induction through.)
 
 And that's it. As Cheng put it, this inductive definition is disarmingly straightforward, and yet it codes up all the essential structure one expects to see in weak $n$-categories. For example, an associator for 2-categories is coded up as a 1-cell in $\Pi_1 T_3$, i.e., as a homotopy class of paths between two points in $\hom(I, I \vee I \vee I)$: 
 
