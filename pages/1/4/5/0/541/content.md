@@ -1,0 +1,1 @@
+The concept _$A_\infty$-category_ is the [[horizontal categorification]] of [[A-infinity algebra]].
