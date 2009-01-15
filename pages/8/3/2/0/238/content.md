@@ -12,6 +12,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-15
 
+* [[Tim Porter]] I have added in a new entry on simplicial $T$-complexes which should help prvide background for the still needed entry n complicial sets.
+
 * [[Todd Trimble]]: 
 
   * constructed an entry for "my" notion of weak $n$-category. Needs more revision and more work, but in part it was written in response to discussion between Urs and me (see e.g., [[interval object]]). 
