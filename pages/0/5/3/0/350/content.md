@@ -1,15 +1,17 @@
 # Idea
 
-A Lawvere&#8211;Tierney topology (or operator, or modality, also called _geometric modality_) is a way of saying that something is 'locally' true. Unlike a [[Grothendieck topology]], this is done directly at the stage of [[logic]], defining a _geometric logic_.
+A Lawvere&#8211;Tierney topology (or operator, or modality, also called _geometric modality_) is a way of saying that something is 'locally' true. Unlike a [[Grothendieck topology]], this is done directly at the stage of [[logic]], defining a _geometric logic_. In fact, it is a generalisation of Grothendieck topology in this sense: If $C$ is any category, then choosing a Grothendieck topology on $C$ is equivalent to choosing a Lawvere&#8211;Tierney topology in the topos $\Set^{C^\op}$ of [[presheaf|presheaves]] on $C$.
 
 # Definition
 
-Let $E$ be a [[topos]], with [[subobject classifier]] $\Omega$. A __Lawvere&#8211;Tierney topology__ in $E$ is a map $j: \Omega \to \Omega$ that satisfies certain axioms. If $C$ is any [[category]], a __Lawvere&#8211;Tierney topology__ on $C$ is a Lawvere&#8211;Tierney topology in the topos $\Set^{C^\op}$ of [[presheaf|presheaves]] on $C$.
+Let $E$ be a [[topos]], with [[subobject classifier]] $\Omega$. A __Lawvere&#8211;Tierney topology__ in $E$ is a map $j: \Omega \to \Omega$ that satisfies certain axioms.
 
 +--{.query}
-Am I using the prepositions correctly? These are both things that one may want to say, but I\'m not sure how one is meant to distinguish them.
+_Toby_: Am I using the prepositions correctly? These are both things that one may want to say, but I\'m not sure how one is meant to distinguish them.
 
-I don't think I've seen anyone say "Lawvere-Tierney topology on $C$" to refer to something in the topos of presheaves.  Why would you need to say that, since Lawvere-Tierney topologies in  $\Set^{C^\op}$ are bijective with Grothendieck topologies on $C$?
+_Mike_: I don't think I've seen anyone say "Lawvere-Tierney topology on $C$" to refer to something in the topos of presheaves.  Why would you need to say that, since Lawvere-Tierney topologies in  $\Set^{C^\op}$ are bijective with Grothendieck topologies on $C$?
+
+_Toby_: Excellent! For some reason I was thinking that they were more general; that\'s why I need to look at references! But I guess that they\'re more general only in that they exist on toposes other than presheaf toposes.
 =--
 
 The axioms say that $j$ is ([[internalization|internally]]) a [[left exact functor|left exact]] [[monad]] on the internal meet-semi[[lattice]] $\Omega$. To be explicit:
@@ -27,7 +29,7 @@ Given any [[subobject]] inclusion $X \hookrightarrow Y$ in $E$, consider its [[c
 
 # Remarks
 
-A special case of a Lawvere&#8211;Tierney topology on a category $C$ is a [[Grothendieck topology]] on $C$. Given a [[subpresheaf]] inclusion $F \hookrightarrow G$ in $\Set^{C^\op}$, an object $X$ of $C$, and an element $f$ of $G(X)$, $f$ is locally in $F$ (that is, $f \in j_*(F)(X)$) if and only if, for some [[cover]] $c = (c_i: U_i \to X)_i$ of $X$, the restriction $c^*(f)$ of $f$ to $c$ is in $F$ (that is, each $c_i^*(f) \in F(U_i)$).
+As mentioned above, a Lawvere&#8211;Tierney topology on $\Set^{C^\op}$ is equivalent to a [[Grothendieck topology]] on $C$. Given a [[subpresheaf]] inclusion $F \hookrightarrow G$ in $\Set^{C^\op}$, an object $X$ of $C$, and an element $f$ of $G(X)$, $f$ is locally in $F$ (that is, $f \in j_*(F)(X)$) if and only if, for some [[cover]] $c = (c_i: U_i \to X)_i$ of $X$, the restriction $c^*(f)$ of $f$ to $c$ is in $F$ (that is, each $c_i^*(f) \in F(U_i)$).
 
 +--{.query}
 Is this always right? Or does it only work when $F, G$ are actually sheaves?
