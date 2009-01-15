@@ -26,6 +26,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]
 
+  * the entry [[smooth Lorentzian space]] is currently oscillating a bit between showing a desire to state a new nice definition for (possibly generalized) Lorentzian spaces  and the aim to first establish some facts about the usual definition
+
+  * filled in stuff at [[causet]]
+
   * added **questions** to [[Trimble's notion of weak n-category]]
 
   * expanded on the examples in [[generalized universal bundle]]
