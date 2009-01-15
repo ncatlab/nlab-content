@@ -61,7 +61,7 @@ The above data induces the following further structure.
 
 The collection of objects $\{ hom(I,I^{\vee n})\}_{n \in \mathbb{N}}$ in a category with interval object naturally comes equipped with the structure of an [[operad]]: the tautological operad on the object $I$ in the monoidal category of cospans from $pt$ to $pt$. 
 
-This induces in turn for all objects $B \in C$ on the object $[I,B]$ the structure of an operad, which is naturally interpreted as an internal [[A-infinity category]] structure on
+This induces in turn for all objects $B \in C$ on the object $[I,B]$ the structure of an operad, which is naturally interpreted as an internal $A_\infty$-[[A-infinity-category|category]] structure on
 
 $$
   (B_0 := [pt,B]) 
