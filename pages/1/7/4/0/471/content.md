@@ -1,14 +1,118 @@
+#Idea#
 
-In a [[closed monoidal homotopical category]] with a notion of [[homotopy]] in terms of [[path object]]s, an _interval object_ $I$ should be an object which
+The structure of a category $C$ with _interval object_ is supposed to be the right structure to ensure 
 
-* represents the [[cylinder functor]] (if any) in that for any object $B$ the tensor product $B \otimes I$ is indeed a cyclinder object
+1. that there is an object $I$ in $C$ such that for every object $B$ of $C$ the [[closed monoidal category|internal hom object]] $[I,B]$ exists and behaves like a [[path object]] for $B$;
 
-* co-represents the [[path object]] in that $[I,B]$ is indeed a path object of $B$.
+2. that there is a notion of composition on these path objects which induces on $[I,B]$ a structure of a (higher) category internal to $C$.
+
+The following definition is tentative.
+
+#Definition#
+
+A _category with interval object_ is
+
+* a $V$-[[enriched homotopical category]];
+
+* equipped with a co-span 
+$$
+  \array{
+    && I
+    \\
+    & {}^\sigma \nearrow && \nwarrow^{\tau}
+    \\
+    pt &&&& pt
+  }
+$$
+in $V$, with $I$ called the **interval** object
+(the notation $I$ is not (necessrily) referring to the tensor unit object!)
+
+such that
+
+* all compositions
+$$
+  \array{
+    && I^{\vee n}
+    \\
+    & {}^\sigma \nearrow && \nwarrow^{\tau}
+    \\
+    pt &&&& pt
+  }
+$$
+of $n \in \mathbb{N}$ copies of the cospan $I$ with itself by pushout over adjacent legs exist in $V$;
+
+* all internal hom $V$-objects of cospans 
+ $hom_{Cospans(V)}(I,I^{\vee n})$ are _contractible_ in that they are
+ weakly equivalent to the point:
+ $$ 
+   hom(I,I^{\vee n}) \stackrel{\simeq}{\to} pt
+   \,.
+ $$
+
+
+#Induced structure#
+
+The above data induces the following further structure.
+
+The collection of objects $\{ hom(I,I^{\vee n})\}_{n \in \mathbb{N}}$ in a category with interval object naturally comes equipped with the structure of an [[operad]]: the tautological operad on the object $I$ in the monoidal category of cospans from $pt$ to $pt$. 
+
+This induces in turn for all objects $B \in C$ on the object $[I,B]$ the structure of an operad, which is naturally interpreted as an internal [[A-infinity category]] structure on
+
+$$
+  (B_0 := [pt,B]) 
+  \stackrel{s := [\sigma,B]}{\leftarrow}  
+  [I,B] 
+  \stackrel{t := [\tau, B]}{\to} (B_0 := [pt,B])
+  \,.  
+$$
+
+This internal $A_\infty$-category is denoted 
+
+$$
+  \Pi_1(B)
+$$
+
+and interpreted as the [[fundamental groupoid]] or rather, in general, the [[fundamental category]] of the object $B$ with respect to the interval object $I$ -- all internal to $C$.
+
+Moreover, by iterating this process as described at [[Trimble's notion of weak n-category]] one obtains on $B$ the structure of a [[Trimble's notion of weak n-category|Trimblean]] weak [[omega-category]] and indeed a functor
+
+$$
+  \Pi_\omega : C_0 \to Trible \omega Cat
+  \,.
+$$
+
+(is this last statement correct as given?)
+
+#Remarks#
+
+* The condition that all $hom(I, I^{\vee n})$ are contractible is the _coherence condition_ on all composition operations. 
+
+* The above is _not_ demanding that the interval object $I$ itself is is weakly equivalent to the point. If it is, then $\Pi_1(B)$ is indeed a [[fundamental groupoid]]. If it is not, then $\Pi_1(B)$ may just be a [[fundamental category]].
+
+* If $C_0$ has a notion of [[path object]] one may consider imposing the condition that $[I,B]$ is a path object of $B$ for all $B$. Similarly, if $C_0$ has a [[cylinder functor]], one may consider imposing the condition that it is given by $-\otimes I$.
+
+#Examples#
+
+* For $V = C = Top$ with its standard model structure the standard topological closed interval  $I := [0,1]$ with $pt \stackrel{\sigma, \tau}{\to}$ the maps to 0 and 1, respectively. This is the case describe in detail at [[Trimble's definition of weak n-category]].
+
+* For $V = C = \omega Cat$ the category of [[strict omega-category|strict omega-categories]] the first [[oriental]], the 1-[[globe]] $I = \{a \to b\}$ is an interval object. In this strict case in fact all hom objects are already equal to the point $hom(I, I^{\vee n}) = pt$ and 
+$$
+  (B = [pt,B]) 
+  \stackrel{s := [\sigma,B]}{\leftarrow}  
+  [I,B] 
+  \stackrel{t := [\tau, B]}{\to} (B = [pt,B])
+$$
+is a strict co-category internal to $\omega$Cat. 
+In this case, for $B$ any $\omega$-category 
+the $A_\infty$-category $\Pi_1(B)$ is just an ordinary category, namely the 1-category obtained from truncation of $B$. Similarly, probably $\Pi_\omega(B) = B$ in this case.
+
+(Todd, please check this last statement!)
+
 
 
 #Discussion#
 
-This discussion started at [[homotopy]], but it really deserves a place of its own where it can eventually materialize into a definition.
+We had originally started discussing the notion of interval objects at [[homotopy]] but then moved it to this entry here. The above entry grew out of the following discussion we had, together with discussion at [[Trimble's notion of weak n-category]].
 
 _[[Urs Schreiber|Urs]]:_ Let me chat a bit about what I am looking for here. It seems very useful to have a good notion of what it means in a context like a [[closed category|closed]] [[category of fibrant objects]] to say that _[[path object]]s are compatibly corepresented_.
 
