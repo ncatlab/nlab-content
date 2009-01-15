@@ -65,11 +65,12 @@ A [[groupoid]] internal to $A$ is all of the above
 
 #Examples#
 
-* A [[Baez-Crans 2-vector space]] is a category internal to [[Vect]].
+* A small category is a category internal to [[Set]].
+* A small [[cocategory]] is a category internal to $Set^{op}$.
 * A [[double category]] is a category internal to [[Cat]]. 
 * A [[double bicategory]] is a category internal to [[Bicat]] (in a suitably weak sense).
-* A [[small category]] is a category internal to [[Set]].
 * A [[crossed module]] is equivalent to a category internal to [[Grp]].
+* A [[Baez-Crans 2-vector space]] is a category internal to [[Vect]].
 * Historically, the motivating example was (apparently) the notion of [[Lie groupoid|Lie groupoids]]: groupoids internal to the category [[Diff]] of manifolds. 
 
 #Functors#
