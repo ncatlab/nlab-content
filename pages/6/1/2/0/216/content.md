@@ -1,10 +1,6 @@
 #Definition#
 
-The **category algebra** $k[C]$ over a ground field $k$ of a small [[category]] $C$ is as a [[vector space]] spanned by the morphisms of $C$, 
-$$k[C] = span_k(C_1)
-\,,
-$$ 
-where the product of two morphisms $f$ and $g$ is defined to be their composite if composable, and 0 otherwise
+The **category algebra** $k[C]$ over a ground field $k$ of a small [[category]] $C$ is the [[vector space]] whose basis is  the morphisms of $C$, where the product of two morphisms $f$ and $g$ is defined to be their composite if composable, and 0 otherwise:
 $$
   f \cdot g := \left\lbrace
     \array{
@@ -18,9 +14,9 @@ $$
 
 #Remarks#
 
-If the category $C = \mathbf{B}G$ is a [[groupoid]] with a single object, which is canonically identified with a group $G$, then the category algebra coincides with the familiar [[group algebra]], 
+If the category $C$ is a [[groupoid]] with a single object, which may be canonically identified with a group $G$, then the category algebra coincides with the familiar [[group algebra]] of $G$: 
 $$
- k[\mathbf{B}G] = k[G]
+ k[C] = k[G]
   \,.
 $$
 
@@ -277,3 +273,22 @@ Wait, are you claiming that $k[S]$ and $k[C]$ are incompatible? I disagree! Just
 _[[Mike Shulman|Mike]] says_: Urs, I'm definitely with you about $G$ and $B G$, for all the reasons that you give and more.  (For instance, in classical homotopy theory, it is essential to distinguish between the two, for similar reasons.)  I'm not sure exactly what remark you're referring to in "n-categories and cohomology," but it's possible that it can be blamed on me rather than John.  In particular, anything in section 5 is my fault.
 
 _Toby_: John, I\'m afraid that, despite the compatibility of $k[S]$ and $k[C]$, on the general issue (as at [[action]]), Urs and Mike have convinced me too.
+
+_[[John Baez|John]] says_: Okay, fine.  I personally find it tiresome to use a notation that distinguishes between groups and one-object groupoids.  To me, having 'light notation', with a minimum of symbols, is incredibly important.  Every extra symbol makes my work look more complicated, reduces how many people will read it, and distracts attention from the actual ideas.  So, I don't want to write $B G$ unless I really need to.  For example, I agree with Urs that if I'm simultaneously discussing functors 
+$$
+  A \to 2Vect
+$$
+$$
+  \mathbf{B}A \to 2Vect
+$$
+and
+$$
+  \mathbf{B}^2A \to 2Vect
+$$
+then I need to carefully distinguish between these.  (I actually use $A[n]$ to mean the $\infty$-category or chain complex with the abelian group $A$ as $n$-morphisms; this is pretty standard in homological algebra.)  But if in some passage of text I'm only taking about a functor like 
+$$ \mathbf{B}^2A \to 2Vect$$
+I prefer to say "think of $A$ as a 2-category with only one object and one morphism", and then write this functor as $A \to 2Vect$, to avoid polluting the page with tons of $B^2$'s.  
+
+This probably isn't worth arguing about.  Some people prefer logically precise notation, while other people (like me) are always focused on maximizing readership.  These are different goals.  My ideal math paper would be mainly words with just a few equations per page, because that's the most fun to read.  But I don't expect everyone else to agree.
+
+While we're nitpicking: do we really want the product $f\cdot g$ of morphisms $f$ and $g$ in the category algebra to equal $g \circ f$?  This seems designed to trip people up.
