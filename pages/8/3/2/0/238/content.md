@@ -28,6 +28,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]
 
+  * to saturate links from [[Trimble's notion of weak n-category]] and [[interval object]] I created [[A-infinity algebra]] and [[A-infinity category]] and filled in a little bit of information
+
   * started proposing a full definition at [[interval object]] following the discussion at that entry and at [[Trimble's notion of weak n-category]] -- please check!
 
   * the entry [[smooth Lorentzian space]] is currently oscillating a bit between showing a desire to state a new nice definition for (possibly generalized) Lorentzian spaces  and the aim to first establish some facts about the usual definition
