@@ -95,7 +95,7 @@ $$
   \,.
 $$
 
-In fact that horizontal morphism is an acyclic fibration in the [[folk model structure]], i.e. a  [[k-surjective]] functor for all $k$.
+In fact that horizontal morphism is an acyclic fibration in the [[folk model structure]], i.e. a  [[k-surjective functor]] for all $k$.
 
 This is recalled in the following reference.
 
