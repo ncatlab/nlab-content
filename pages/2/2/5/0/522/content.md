@@ -53,7 +53,7 @@ This is the universal $G$-bundle in its groupoid incarnation. It is a theorem by
 
 This was shown to be _action bigroupoid_ of $G$ acting on itself in
 
-* Igor Bakovi&;ccaron;, _Bigroupoid 2-torsors _ PhD thesis, Munich (2008) ([pdf](http://edoc.ub.uni-muenchen.de/9209/)).
+* Igor Bakovi&#269;, _Bigroupoid 2-torsors _ PhD thesis, Munich (2008) ([pdf](http://edoc.ub.uni-muenchen.de/9209/)).
 
 One can show that this $\mathbf{E} G$ indeed classifies principal $G$-2-bundles, as indicated in the last section of the above reference.
 
