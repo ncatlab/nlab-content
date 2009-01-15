@@ -14,15 +14,16 @@ A **poset** is a category $C$ such that:
 
 * if there is a morphism from $x$ to $y$ and a morphism from $y$ to $x$, then $x = y$.
 
-A poset is **locally finite** if for any pair of objects $x, y$,
-
-$$C(x,y) = \{r\in C|x\le r\le y\}$$
-
-is finite.
-
 Equivalently, we may define a poset to be a [[skeleton|skeletal]] [[preorder]].
 
 These definitions are both equivalent to the [usual definition](http://en.wikipedia.org/wiki/Partially_ordered_set).
+
+#Intervals#
+
+A (closed bounded) **interval** in a poset $C$ is a set of the form
+$$[x,y] = \{r\in C|x\le r\le y\}.$$
+
+A poset is **locally finite** if every closed bounded interval is finite.
 
 #Remarks#
 
