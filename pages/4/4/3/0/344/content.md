@@ -24,6 +24,9 @@ I think "extensive" is pretty well established for the finite version, and I wou
 _Mike_: Okay, I just ran across one paper that uses "(infinitary) extensive" for the infinitary version the first time it was introduced, and then dropped the parenthetical for the rest of the paper.  I also recall seeing "extensive fibration" used for a fibration having disjoint and stable indexed coproducts, which is certainly a (potentially) infinitary notion.  So perhaps there is no real consensus on whether "extensive" definitely implies the finite version or the infinitary one.
 
 _Toby_: It would be nice to not overload the prefix '$\infty$-' so much. It\'s like 'continuous'; default to small.
+
+_Mike_: I agree that it would be nice to avoid $\infty$-.  What if we do what we did for [[omega-category]]?  That is, if you want to be unambiguous, say either "finitary extensive" or "infinitary extensive," and in any particular context you are allowed to define "extensive" at the beginning to be one of the two and use it without prefix in what follows.
+
 =--
 
 #Examples#
