@@ -72,7 +72,7 @@ There's a lot more to add here, even if we restrict ourselves to very general te
 * [[infinity-groupoid]]
 * [[infinity-stack]]
 * [[infinity-stack homotopically]]
-* [[k-surjectivity]]
+* [[k-surjective functor]]
 * [[omega-category]]
 * [[omega-groupoid]]
 * [[periodic table]]
