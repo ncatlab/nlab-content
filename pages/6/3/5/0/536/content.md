@@ -1,4 +1,4 @@
-An algebraic theory is a concept in [[universal algebra]] that describes a specific type of algebraic gadget, such as a [[group]]s or [[ring]]s. An individual group or rings is a _model_ of the appropriate theory. Roughly speaking, an algebraic theory consists of a specification of operations ans laws that these operations must satisfy.
+An algebraic theory is a concept in [[universal algebra]] that describes a specific type of algebraic gadget, such as a [[group]] or [[ring]]. An individual group or ring is a _model_ of the appropriate theory. Roughly speaking, an algebraic theory consists of a specification of operations and laws that these operations must satisfy.
 
 Traditionally, algebraic theories were described in terms of [[logic]]. But _finitary_ algebraic theories (that is, those involving only finitary operations) can be understood category-theoretically as [[Lawvere theory|Lawvere theories]]. However, there are also infinitary algebraic theories (such as an algebra in which arbitrary sums are possible, one model of which is $[0,\infty]$).
 
