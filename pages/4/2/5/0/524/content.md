@@ -8,13 +8,18 @@ and then defining an $(n+1)$-category as a category "weakly enriched" in $nCat$,
 
 ## The original idea
 
-Trimble never published this material himself (in effect leaving it to others present at the Cambridge lecture to develop their own accounts, which has been a good thing), but it may be of at least historical interest to have Trimble's original account available. We will then pick out the highlights and streamline the approach, following subsequent work by Leinster and Cheng. 
+Trimble never published this material himself (in effect leaving it to others to present it at the Cambridge lecture to develop their own accounts, which has been a good thing), but it may be of at least historical interest to have Trimble's original account available. We will then pick out the highlights and streamline the approach, following subsequent work by Leinster and Cheng. 
 
 It will be helpful to review the fundamental (1-)groupoid of a space first, doing it in such a way that we will see how to inductively define the fundamental $n$-groupoid. 
 
 Let $X$ be a space, and let $X_0$ denote its underlying set, viewed as a discrete category. If $V$ is a category, then a _$V$-graph_ over $X_0$ is just a functor 
 
 $$X_0 \times X_0 \to V.$$ 
+
++--{.query}
+
+ [[Urs Schreiber|Urs]]: from the following I am getting the impression that at this point you are really thinking of just a graph map here, not a functor. Could that be?
+=--
 
 There is an obvious category of $V$-graphs. A basic example for our purposes is the "graph of paths" in a space $X$: define 
 
@@ -55,6 +60,14 @@ and the co-composition for the H-cocategory structure on $I$, which is a cospan 
 $$[0, 1] \to [0, 2]$$ 
 
 This co-operation $I \to I \vee I$ is not strictly coassociative, but is coassociative up to homotopy. As a matter of fact, it follows straight away from the _convexity_ of the $n$-fold cospan composite $I^{\vee n} \cong [0, n]$ that the space of cospan maps $\hom(I, I^{\vee n})$ is _contractible_: the convexity actually gives a way of defining coherent homotopies (the pentagon, etc.) all the way up the "$A_{\infty}$-ladder". In other words, the cospan $I$ carries an $A_{\infty}$-cocategory structure. 
+
++--{.query}
+
+ [[Urs Schreiber|Urs]]: sorry for interrupting here, but in view of our discussion at [[interval object]], I'd enjoy to formulate this with respect to a general [[closed monoidal homotopical category]] $V$ with interval object $pt \stackrel{\sigma,\tau}{\to} I \to pt$: I suppose the condition above would be: all pushouts $I^{\vee n}$ exist and the internal hom-objects $V(I,I^{\vee n})$ are weakly equivalent to the point, $V(I,I^{\vee n}) \stackrel{\simeq}{\to} pt$. Would that be sufficient to get an operad in $V$ later on? Probably I'd need to require a bit more...
+
+=--
+
+
 
 But we don't actually need the $A_{\infty}$-jargon: all we will need are two basic facts: 
 
@@ -124,7 +137,7 @@ Thus, by a long series of small tautological steps, we have bootstrapped our way
 $$X: X_0 \times X_0 \to Flabby(n)Cat$$ 
 equipped with a structure of algebra over the operad $\Pi_n T$ (a priori an operad in the cartesian monoidal category $Flabby(n)Cat$, but made into an operad in $Flabby(n)CatGraph_{X_0}$ by an obvious change of base; cf. the remark above). 
 
-* A **morphism** of flabby $(n+1)$-categories $(X_0, X) \to (Y_0, Y)$ consists of of a function $f_0: X_0 \to Y_0$ together with a _strict_ $\Pi_n T$-algebra map $f: X \to f_0^{-1} Y$. The category $Flabby(n+1)Cat$ admits finite products and arbitrary sums over which products distribute. 
+* A **morphism** of flabby $(n+1)$-categories $(X_0, X) \to (Y_0, Y)$ consists of a function $f_0: X_0 \to Y_0$ together with a _strict_ $\Pi_n T$-algebra map $f: X \to f_0^{-1} Y$. The category $Flabby(n+1)Cat$ admits finite products and arbitrary sums over which products distribute. 
 
 * The **fundamental flabby $(n+1)$-category functor** 
 $$\Pi_{n+1}: Top \to Flabby(n+1)Cat$$ 
@@ -139,3 +152,36 @@ $$(\delta \vee 1)\delta, (1 \vee \delta)\delta: [0, 1] \to [0, 3]$$
 where $\delta: [0, 1] \to [0, 2]$ is a co-composition. The pentagonator is similarly coded up as a 2-cell in $\Pi_2 T_4$. And so on. 
 
 To be continued...
+
++--{.query}
+
+_[[Urs Schreiber|Urs]]_: Thanks, Todd, this is great. If I may, let me try, also to check if I am following, to see how much of this we can do while abstracting away from $Top$ and the concrete [[interval object]] in there.
+
+It seems that we need:
+
+* a [[closed monoidal homotopical category]] $V$ (not your $V$ above, but I'll call it $V$ nevertheless);
+
+* an object $I \in V$ fitting in an internal co-graph $pt \stackrel{\sigma,\tau}{\to} I$ such that 
+
+  * all the end-to-end pushouts $I^{\vee n}$ exist in $V$;
+
+  * all the $V$-internal hom-objects $[I, I^{\vee n}]$ are weakly equivalent to the point (the terminal object) $[I, I^{\vee n}] \stackrel{\simeq}{\to} pt$;
+
+* equipped with the structure of a co-operad internal to $V$ on $\{ [I, I^{\vee n}]\}_{n \in \mathbb{N}}$.
+
+Then
+
+* for $C$ any $V$-[[enriched homotopical category]] (I want to use now that $C$ is [[power]]ed over $V$)
+
+we get -- now let me see... -- a functor
+
+
+$$
+  \Pi_\omega : C \to Trimble-\omega-Cat
+  \,.
+$$
+
+Hm, let me just let it stand this way for you to either erase all of this or maybe comment on it for the moment...
+
+
+=--
