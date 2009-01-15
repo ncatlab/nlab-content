@@ -1,6 +1,6 @@
 In 1999, [[Todd Trimble]] introduced a definition of weak $n$-category in a lecture at Cambridge University. This definition was introduced in order to give an algebraic notion of fundamental $n$-groupoid, and has since been taken up in a number of directions by Tom Leinster and Eugenia Cheng, who compare it with globular approaches (e.g., Batanin's) and give a weak $\omega$-category extension. 
 
-The original idea was to use an $A_{\infty}$ cocategory structure on the topological interval $I$, in the form of an topological operad $T$ which is used to control all ways of weakly composing arrows. Then one proceeds to define weak $n$-categories by induction, defining at each stage a fundamental $n$-groupoid functor 
+The original idea was to use an $A_\infty$-[[A-infinity-cocategory|cocategory]] structure on the topological interval $I$, in the form of an topological operad $T$ which is used to control all ways of weakly composing arrows. Then one proceeds to define weak $n$-categories by induction, defining at each stage a fundamental $n$-groupoid functor 
 
 $$\Pi_n: Top \to nCat$$ 
 
@@ -81,7 +81,7 @@ Now we just hom out of the cospan co-operations encapsulated in the operad $T$ t
 $$\hom(\theta, X): \hom(I^{\vee n}, X) \to \hom(I, X)$$
 from the $n$-fold span composite to the span itself. 
 
-Again, we could express this by saying we derive an $A_\infty$-category structure on the topological span (2), but in less fancy terms, the composition map 
+Again, we could express this by saying we derive an $A_\infty$-[[A-infinity-category|category]] structure on the topological span (2), but in less fancy terms, the composition map 
 
 $$\hom(I, I^{\vee n}) \times \hom(I^{\vee n}, X) \to \hom(I, X)$$ 
 
@@ -186,4 +186,12 @@ Hm, let me just let it stand this way for you to either erase all of this or may
 As for the last part: in the original definition, I didn't know how to pass to the full-fledged $\omega$-categorical definition; I just had $n$-categories, one for each $n$. But Tom and Eugenia figured out how to make "Trimble-like" $\omega$-categories work by using coalgebraic methods. I haven't thought about whether that allows a $\Pi_\omega$... But aside from these technicalities: yes, you seem to understand what this is all about. 
 
 There were some comments to this effect after I gave that lecture; someone asked what you really need to do this definition very generally. Martin Hyland cried, "Not much!"
+=--
+
++--{.query}
+_[[Toby Bartels|Toby]]_ says:
+
+This is interesting. I never looked at this definition before, and I need to give it some thought. Has it been extedned to $\infty$-categories?
+
+Also, what is the proper name for these things? 'Trimble\'s notion of weak $n$-category' is a mouthful, but 'Trimble $n$-category' would work. Or 'flabby $n$-category', if that is unambiguous. (One might move this page, too, ... but only if it\'s clear where to move it!)
 =--
