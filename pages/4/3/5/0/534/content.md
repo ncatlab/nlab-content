@@ -4,6 +4,8 @@
 
 A **smooth Lorentzian space** is "something like" a [[poset]] [[internal category|internal]] to a category of measure spaces.
 
+See also [[causet]].
+
 #Remarks#
 
 * A smooth Lorentzian space is a particular [[generalized smooth space|smooth]] [[directed space]]
@@ -16,15 +18,21 @@ _[[Eric Forgy|Eric]] says_: Good question. I took the statement from a comment U
 
 _[[Urs Schreiber|Urs]]_: 
 
-The point is: there is a theorem (which I need to dig out) that says that a map between two Lorentzian manifolds which preserves the causal structure, i.e. which is a functor of the underlying posets, is automatically a conformal isometry. There is, I think, another related theorem which says that from just the lightcone structure of a Lorentzian manifold, one can reconstruct its Lorentzian metric up to a conformal rescaling.
+The point is: there is a theorem 
 
-Both theorems suggest that a Lorentian metric on a manifold is in a way equivalent to a pair consisting of a measure on the manifold and lightcone structure. The latter in turn can be encoded in a poset structure on the manifold. If true, it would seem to suggest that a good foundational model for relativistic physics _might_ be posets [[internal category|internal to]] [[Meas]].
+* see [Wikipedia: causal sets](http://en.wikipedia.org/wiki/Causal_sets#cite_note-Malament-0)
 
-For the theorem in question and more, see [Wikipedia: causal sets](http://en.wikipedia.org/wiki/Causal_sets#cite_note-Malament-0)
+that says that a map between two Lorentzian manifolds which preserves the causal structure, i.e. which is a functor of the underlying posets, is automatically a conformal isometry. There is, I think, another related theorem which says that from just the lightcone structure of a Lorentzian manifold, one can reconstruct its Lorentzian metric up to a conformal rescaling.
+
+Both theorems suggest that a Lorentzian metric on a manifold is in a way equivalent to a pair consisting of a measure on the manifold and lightcone structure. The latter in turn can be encoded in a poset structure on the manifold. If true, it would seem to suggest that a good foundational model for relativistic physics _might_ be posets [[internal category|internal to]] [[Meas]].
 
 Somebody should sort this out.
 
 _[[Eric Forgy|Eric]] says_: I like this idea. The measure could be the Leinster measure, which would be neat. We discussed this before at the nCafe I think.
+
+_[[Urs Schreiber|Urs]]_: Yes, exactly. There was the idea that, since many finite categories come with a _canonical_ measure on their space (set) of objects, maybe we somehow need to merge this idea of Leinster measure with the idea of modelling a Lorentzain spacetime by something like a poset. Playing around with this observation was the content of [this](http://golem.ph.utexas.edu/category/2007/03/canonical_measures_on_configur_1.html) blog entry.  But I am not sure if it works out...
+
+
 
 #References#
 
