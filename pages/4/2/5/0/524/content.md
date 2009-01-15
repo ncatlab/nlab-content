@@ -180,8 +180,8 @@ It seems that we need:
 
 Then
 
-    * for $C$ any $V$-enriched homotopical category (I want to use now that $C$ is powered over $V$) we get &#8211; now let me see... &#8211; a functor
-$$\Pi_{\omega}: C \to Trimble&#8722;\omega&#8722;Cat.$$
+  * for $C$ any $V$-enriched homotopical category (I want to use now that $C$ is powered over $V$) we get &#8211; now let me see... &#8211; a functor
+$$\Pi_{\omega}: C \to Trimble-\omega-Cat.$$
 
 Hm, let me just let it stand this way for you to either erase all of this or maybe comment on it for the moment...
 
