@@ -1,4 +1,4 @@
-Unsurprisingly, _higher category theory_ is the study of higher [[category|categories]], known as [[n-category|n-categories]] or, when $n\to \infty$, as  [[infinity-category|infinity-catgeories]] or [[omega-category|omega-categories]].
+Unsurprisingly, _higher category theory_ is the study of higher [[category|categories]], known as [[n-category|n-categories]] or, when $n\to \infty$, as  [[infinity-category|infinity-categories]] or [[omega-category|omega-categories]].
 
 #Development of higher category theory#
 
