@@ -8,6 +8,10 @@ Giraud\'s theorem characterises Grothendieck toposes as follows:
 * with all small [[coproduct]]s, which are [[disjoint coproduct|disjoint]], and [[pullback stability|pullback-stable]],
 * where all [[equivalence relation]]s have [[effective quotient]]s, which are also pullback-stable.
 
+These conditions are equivalent to
+
+* a locally small [[pretopos|infinitary pretopos]] with a small generating set.
+
 (See [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Topos#Giraud.27s_axioms).)
 
-This characterisation may be suitable even when $S$ is only a [[pretopos]], although in that case a Grothendieck 'topos' need not actually be a topos. More generally, a Grothendieck topos will inherit properites from $S$, not only having a [[subobject classifier]], but also (for example) having a [[natural numbers object]]. Thus the concept makes sense even with weak [[foundations]] of mathematics, although it may not have all of the usual properties.
+This characterisation may be suitable even when the base category $S$ is only a [[pretopos]], although in that case a Grothendieck 'topos' need not actually be a topos. More generally, a Grothendieck topos will inherit properites from $S$, not only having a [[subobject classifier]], but also (for example) having a [[natural numbers object]]. Thus the concept makes sense even with weak [[foundations]] of mathematics, although it may not have all of the usual properties.
