@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-15
 
+* [[Todd Trimble]]: 
+
+  * constructed an entry for "my" notion of weak $n$-category. Needs more revision and more work, but in part it was written in response to discussion between Urs and me (see e.g., [[interval object]]). 
+
 * [[Urs Schreiber]]
 
   * expanded on the examples in [[generalized universal bundle]]
