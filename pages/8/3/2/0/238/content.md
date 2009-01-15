@@ -12,7 +12,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-15
 
-* [[Tim Porter]] I have added in a new entry on simplicial $T$-complexes which should help prvide background for the still needed entry n complicial sets.
+* [[Mike Shulman|Mike]]:
+
+  * Toby and I appear to have finally reached a consensus on terminology at [[extensive category]].  I did some work on this page and [[coherent category]], [[pretopos]], and [[Grothendieck topos]] making them more consistent, and also created [[disjoint coproduct]] and [[coproduct]].
+
+  * Responded to Toby at [[Lawvere-Tierney topology]].
+
+* [[Tim Porter]] I have added in a new entry on simplicial $T$-complexes which should help provide background for the still needed entry n complicial sets.
 
 * [[Todd Trimble]]: 
 
