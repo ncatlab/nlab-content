@@ -37,16 +37,71 @@ is exact in that $i$ is the kernel of $p$ in the sense of kernels of morphisms o
 
 #Examples#
 
+## Groupoid incarnations of universal principal bundles ##
+
 In (higher) categorical contexts, take the interval object to the the interval category $I := \{a \to b\}$. Then
 
-* For $C =$ [[Cat]], $B := \mathbf{B}G$ a one-object groupoid corresponding to a group $G$ with the unique point, $\mathbf{E}_{pt} \mathbf{B}G = \mathbf{E}G = G//G$ is the [[action groupoid]] of $G$ acting on itself. The sequence of groupoids is
+### Ordinary $G$-principal bundles ###
+
+For $C =$ [[Cat]], $B := \mathbf{B}G$ a one-object groupoid corresponding to a group $G$ with the unique point, $\mathbf{E}_{pt} \mathbf{B}G = \mathbf{E}G = G//G$ is the [[action groupoid]] of $G$ acting on itself. The sequence of groupoids is
 $$
   G \to G//G \to \mathbf{B}G
   \,.
 $$
-This is the universal $G$-bundle in its groupoid incarnation. It is a theorem by Segal from the 1960s that indeed this maps, under [[geometric realization]] to the familiar universal $G$-bundle in $Top$. This is recalled in the following reference.
+This is the universal $G$-bundle in its groupoid incarnation. It is a theorem by Segal from the 1960s that indeed this maps, under [[geometric realization]] to the familiar universal $G$-bundle in $Top$. Moreover, it can be seen that every $G$-principal bundle $P \to X$ in the ordinary sense is the pullback of $\mathbf{E} G$ in the following sense:
 
-* For $C = 2Cat$, strict 2-categories , $B := \mathbf{B}G$ a strict one-object 2-groupoid corresponding to a strict [[2-group]] $G$ with the unique point, $\mathbf{E}_{pt} \mathbf{B}G = \mathbf{E}G$ was described under the name $INN(G)$ in
+the $G$-bundle $P \to X$ is classified by a nonabelian $G$-valued 1-cocycle (the transition function of any of its local trivializations), which is an [[anafunctor]]
+
+$$
+  \array{
+    \hat X &\stackrel{g}{\to}& \mathbf{B}G
+    \\
+    \downarrow^\pi
+    \\
+    X
+  }
+  \,.
+$$
+
+(For instance $\hat X$ could be the &Caron;ech groupoid of a [[cover]] of $X$.)
+
+The universal groupoid bundle $\mathbf{E}G \to \mathbf{B}G$ may now be pulled back along this anafunctor to yield the groupoid bundle $g^* \mathbf{E}G \to X$ given by the total left vertical morphism in 
+
+$$
+  \array{
+    g^* \mathbf{E}G &\to& \mathbf{E}G
+    \\
+    \downarrow && \downarrow
+    \\
+    \hat X &\stackrel{g}{\to}& \mathbf{B}G
+    \\
+    \downarrow^\pi
+    \\
+    X
+  }
+  \,.
+$$
+
+This bundle of groupoids is weakly equivalent to the $G$-principal bundle we started with in that there is a morphism of bundles of groupoids (with $P$ regarded as a bundle of discrete groupoids)
+
+$$
+  \array{
+     g^* \mathbf{E}G &&\stackrel{\simeq}{\to}&& P
+     \\
+     & \searrow && \swarrow
+     \\  
+     &&X
+  }
+  \,.
+$$
+
+In fact that horizontal morphism is an acyclic fibration in the [[folk model structure]], i.e. a  [[k-surjective]] functor for all $k$.
+
+This is recalled in the following reference.
+
+### $G$-principal 2-bundles
+
+For $C = 2Cat$, strict 2-categories , $B := \mathbf{B}G$ a strict one-object 2-groupoid corresponding to a strict [[2-group]] $G$ with the unique point, $\mathbf{E}_{pt} \mathbf{B}G = \mathbf{E}G$ was described under the name $INN(G)$ in
 
 * Urs Schreiber, David Roberts, _The inner automorphism 3-group of a strict 2-group_, Journal of Homotopy and Related Structures, Vol. 3(2008), No. 1, pp. 193-244
 ([arXiv](http://arxiv.org/abs/0708.1741v2))
@@ -55,15 +110,36 @@ This was shown to be _action bigroupoid_ of $G$ acting on itself in
 
 * Igor Bakovi&#269;, _Bigroupoid 2-torsors _ PhD thesis, Munich (2008) ([pdf](http://edoc.ub.uni-muenchen.de/9209/)).
 
-One can show that this $\mathbf{E} G$ indeed classifies principal $G$-2-bundles, as indicated in the last section of the above reference.
+One can show that every $G$-principal 2-bundle as described in
 
-* One can take $B$ to be something very different from the familiar classifying groupoids. Taking it to be $n$Cat yields the [[subobject classifier]]s of higher [[topos|toposes]]:
+* Toby Bartels, _2-Bundles_ ([arXiv](http://arxiv.org/abs/math.CT/0410328))
 
-  * $\mathbf{E}_{pt} (-1)Cat \to (-1)Cat$ is $\{\top\} \to \{\top, \bottom\}$, the [[subobject classifier]] in [[Set]];
+* Christoph Wockel, _..._
 
-  * $\mathbf{E}_{pt} 0Cat \to 0Cat$ is $Set_* \to Set$, the forgetful functor from [[pointed set]]s, which is the  2-[[subobject classifier]] in [[Cat]];
+* Igor Bakovi&#269;, _Bigroupoid 2-torsors _ PhD thesis, Munich (2008) ([pdf](http://edoc.ub.uni-muenchen.de/9209/)).
 
-  * $\mathbf{E}_{pt} Cat \to Cat$ is $Cat_* \to Cat$.
+indeed is recovered as the pullback of $\mathbf{E} G \to \mathbf{B}G$ along the corresponding cocycle, along the lines described above.
+
+The way this works is indicated briefly in the last section of Roberts-Schreiber above. A more detailed description for the moment is in the notes
+
+* Urs Schreiber: [[2bundrecon.pdf:file]]
+
+
+## Universal $n$-category bundles: $n$-subobject classifiers ##
+
+One can take $B$ to be something very different from the familiar classifying groupoids. Taking it to be $n$Cat yields the [[subobject classifier]]s of higher [[topos|toposes]]:
+
+* $\mathbf{E}_{pt} (-1)Cat \to (-1)Cat$ is $\{\top\} \to \{\top, \bottom\}$, the [[subobject classifier]] in [[Set]];
+
+* $\mathbf{E}_{pt} 0Cat \to 0Cat$ is $Set_* \to Set$, the forgetful functor from [[pointed set]]s, which is the  2-[[subobject classifier]] in [[Cat]];
+
+* $\mathbf{E}_{pt} Cat \to Cat$ is $Cat_* \to Cat$.
+
+It was David Roberts in the blog comment
+
+* David Robers, [comment in: 101 things to do with a 2-classifier](http://golem.ph.utexas.edu/category/2008/01/101_things_to_do_with_a_2class.html#c014559)
+
+who first pointed out that these (higher) subobject classifiers are just generalized universal bundles in the above sense.
 
 These cases for $n= 0$ and $n=1$ have been considered in the context of universal category bundles in 
 
@@ -71,4 +147,47 @@ These cases for $n= 0$ and $n=1$ have been considered in the context of universa
 
 The discussion there becomes more manifestly one of bundles if one regards all morphisms $C \to Set$ appearing there as being the right legs of [[anafunctor]]s. 
 
-Notes on the general picture here are for instance at [[schreiber:Nonabelian homotopical cohomology and fiber bundles]].
+
+## Action groupoids as generalized bundles ##
+
+A morphism $\rho : B \to F$ 
+to a  [[pointed object]] $F$ (needs not be a basepoint preserving morphism!) can be regarded as a _representation_ of $B$ on the point of $F$. The pullback of the universal $F$-bundle along this morphism 
+
+$$ \rho^* \mathbf{E}_{pt} F \to B$$
+
+can be addressed as the _$F$-bundle **$\rho$-associated** to the universal $B$-bundle $\mathbf{E}_{pt}B$. 
+
+If $B$ is a groupoid, then $\rho^* \mathbf{E}_{pt} F$ is the [[action groupoid]] of $B$ acting on the point of $F$.
+
+Further pulling this back along a cocycle $g : \hat X \to B$
+of a $B$-principal bundle yields the $\rho$-accociated bundle of that. 
+
+For instance for $B = \mathbf{B}G$ and $F = Vect$ 
+with $\rho : \mathbf{B}G \to Vect$ a [[representation]] of the group $G$ on a vector space $V$, the $\rho$-associated $\mathrm{Vect}$-bundle on $\mathbf{B}G$ is
+
+$$
+  V \to V//G \to \mathbf{B}G
+  \,.
+$$
+
+Pulling that further back along the cocycle $g : \hat X \to \mathbf{B}G$ classifying a $G$-principal bundle $P \to X$, one obtains the familiar vector bundle $P \times_G V \to X$ which is $\rho$-associated to $P$, along the lines described above:
+
+$$
+  \array{
+     g^* \rho^*\mathbf{E}_{pt}F 
+    &&\stackrel{\simeq}{\to}&& P\times_G V
+     \\
+     & \searrow && \swarrow
+     \\  
+     &&X
+  }
+  \,.
+$$
+
+
+
+#Further references#
+
+Notes on the general picture here are for instance at 
+
+* [[schreiber:Nonabelian homotopical cohomology and fiber bundles]].
