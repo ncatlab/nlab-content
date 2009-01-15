@@ -8,6 +8,10 @@ The structure of a category $C$ with _interval object_ is supposed to be the rig
 
 The following definition is tentative.
 
++--{.query}
+Might there be two notions of interval object, one in a closed category such that $[I,B]$ is a path object, and one in a monoidal category such that $I \otimes B$ is a cylinder object? (And then a stronger notion, combining these, in a closed monoidal category.) &#8212;[[Toby Bartels|Toby]]
+=--
+
 #Definition#
 
 A _category with interval object_ is
