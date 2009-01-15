@@ -24,6 +24,8 @@ For the theorem in question and more, see [Wikipedia: causal sets](http://en.wik
 
 Somebody should sort this out.
 
+_[[Eric Forgy|Eric]] says_: I like this idea. The measure could be the Leinster measure, which would be neat. We discussed this before at the nCafe I think.
+
 #References#
 
 * From nCafe: <a href="http://golem.ph.utexas.edu/category/2008/10/the_nature_of_time.html#c019330">The Nature of Time</a>
