@@ -1,0 +1,9 @@
+#Idea#
+
+A bialgebra is both an [[algebra]] and a [[coalgebra]], where the operations of either one are homomorphisms for the other.  A bialgebra is one of the ingredients in the concept of [[Hopf algebra]].
+
+#Definition#
+
+A **bialgebra** is a [[monoid]] [[internalization|in]] the category of [[coalgebra|coalgebras]].  Equivalently, it is a [[comonoid]] [[internalization|in]] the category of [[algebra|algebras]].  Equivalently, it is a monoid in the category of comonoids in [[Vect]] --- or equivalently, a comonoid in the category of monoids in [[Vect]].
+
+More generally, a **bimonoid** in a monoidal category $M$ is a monoid in the category of comonoids in $M$ --- or equivalently, a comonoid in the category of monoids in $M$.  So, a bialgebra is a bimonoid in $Vect$.
