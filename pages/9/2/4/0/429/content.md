@@ -2,6 +2,7 @@
 
 #entries related to universal algebra#
 
+* [[algebraic theory]]
 * [[bar construction]]
 * [[Lawvere theory]]
 * [[monad]]
