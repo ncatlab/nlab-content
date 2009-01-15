@@ -10,6 +10,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-01-15
+
+* [[Toby Bartels]]: I added stuff that I\'m trying to understand to [[Lawvere-Tierney topology]]. It is probably correct, but I had some questions. (See also the relevant terminological discussion at [[Grothendieck topology]].)
+
 # 2009-01-14
 
 * [[Mike Shulman|Mike]]:
