@@ -5,3 +5,7 @@ A **smooth Lorentzian space** is a [[poset]] [[internal category|internal]] to a
 #Remarks#
 
 * A smooth Lorentzian space is a particular [[generalized smooth space|smooth]] [[directed space]]
+
++--{.query}
+How does this relate to a (smooth) Lorentzian manifold? if at all.
+=--
