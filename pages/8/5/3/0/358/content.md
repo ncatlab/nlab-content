@@ -46,6 +46,9 @@ This was the first periodic table, which inspired the definition of $(-1)$-[[(-1
 Is it really worth having the old table here?
 
 _Toby_: I think that we should have it *somewhere*. I expect that it\'s still what most people think of as 'the' periodic table of $n$-categories, and of course it\'s of historical interest. Possibly this history section can be moved to [[periodic table]].
+
+_Mike_: Yes, that sounds like a good idea.
+
 =--
 
 Moreover, even in the case $k\gt 0$, where the chosen point makes no difference to the notion of $k$-tuply monoidal $n$-category, it does make a difference to the notions of morphism and higher morphism between them.  Eugenia Cheng and Nick Gurski wrote a [paper](http://arxiv.org/abs/0708.1178) about how these don't end up quite right if you just look at $(k-1)$-connected $(n+k)$-categories, but in all cases we have analyzed they do come out correct if you look at the pointed versions.  More on this can be found in the appendix to  [n-categories and cohomology](http://arxiv.org/abs/math.CT/0608420).
