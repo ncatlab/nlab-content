@@ -30,17 +30,7 @@ There is a [[periodic table]] of $k$-tuply monoidal $n$-categories.
 
 ## Historical notes ##
 
-Originally the importance of pointedness was not fully appreciated, so any $n$-category was accepted as $0$-tuply monoidal, and $k$-tuply monoidal $n$-categories were identified simply with $(k-1)$-connected $(n+k)$-categories (those in which any two parallel $j$-morphisms are equivalent for $j \lt k$).  This gave a periodic table as follows:
-
-<table><tr><th><i>k</i>&darr;\<i>n</i>&rarr;</th><th>&minus;2</th><th>&minus;1</th><th>0</th><th>1</th><th>2</th><th>&hellip;</th></tr>
-<tr><th>0</th><td>trivial</td><td>[[truth value]]</td><td>[[set]]</td><td>[[category]]</td><td>[[2-category]]</td><td>&hellip;</td></tr>
-<tr><th>1</th><td>"</td><td>trivial</td><td>[[monoid]]</td><td>[[monoidal category]]</td><td>[[monoidal 2-category]]</td><td>&hellip;</td></tr>
-<tr><th>2</th><td>"</td><td>"</td><td>[[abelian monoid]]</td><td>[[braided monoidal category]]</td><td>[[braided monoidal 2-category]]</td><td>&hellip;</td></tr>
-<tr><th>3</th><td>"</td><td>"</td><td>"</td><td>[[symmetric monoidal category]]</td><td>[[sylleptic monoidal 2-category]]</td><td>&hellip;</td></tr>
-<tr><th>4</th><td>"</td><td>"</td><td>"</td><td>"</td><td>[[symmetric monoidal 2-category]]</td><td>&hellip;</td></tr>
-<tr><th>&vellip;</th><td>"</td><td>"</td><td>"</td><td>"</td><td>"</td><td>&#8945;</td></tr></table>
-
-This was the first periodic table, which inspired the definition of $(-1)$-[[(-1)-category|category]] and $(-2)$-[[(-2)-category|category]]. However, a closer look at the general definition of $(n,r)$-[[(n,r)-category|category]] shows that these are not well behaved concepts after all, and a closer look at low values of $k$ destroys the motivation for them. (In fact, I include the column where $n = -1$ in the first table just to illustrate that there is nothing interesting there.)
+Originally the importance of pointedness was not fully appreciated, so any $n$-category was accepted as $0$-tuply monoidal, and $k$-tuply monoidal $n$-categories were identified simply with $(k-1)$-connected $(n+k)$-categories (those in which any two parallel $j$-morphisms are equivalent for $j \lt k$).  See [[periodic table]] for this original.
 
 +--{.query}
 Is it really worth having the old table here?
@@ -49,9 +39,8 @@ _Toby_: I think that we should have it *somewhere*. I expect that it\'s still wh
 
 _Mike_: Yes, that sounds like a good idea.
 
+_Toby_: OK, I moved it. I also fixed the definition of $k$-tuply monoidal $(n,r$)-category there. You might want to look at these; especially see if you buy my argument against groupal categories.
 =--
-
-Moreover, even in the case $k\gt 0$, where the chosen point makes no difference to the notion of $k$-tuply monoidal $n$-category, it does make a difference to the notions of morphism and higher morphism between them.  Eugenia Cheng and Nick Gurski wrote a [paper](http://arxiv.org/abs/0708.1178) about how these don't end up quite right if you just look at $(k-1)$-connected $(n+k)$-categories, but in all cases we have analyzed they do come out correct if you look at the pointed versions.  More on this can be found in the appendix to  [n-categories and cohomology](http://arxiv.org/abs/math.CT/0608420).
 
 # Low dimensions #
 
