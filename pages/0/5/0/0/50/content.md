@@ -23,7 +23,7 @@ Lie's three theorems establish the following properties of this functor.
 
 ###Restriction to simply connected Lie groups.###
 
-Let $LieGroups_{simpl}$ be the [[full subcategory]] of $LieGroups$ on simply connected Lie groups. Then the above implies that restricted to $LieGroups_{simpl}$ the functor $diff$ becomes a [[k-surjectivity|surjective equivalence]] of categories
+Let $LieGroups_{simpl}$ be the [[full subcategory]] of $LieGroups$ on simply connected Lie groups. Then the above implies that restricted to $LieGroups_{simpl}$ the functor $diff$ becomes a surjective [[equivalence]] of categories
 
 #Generalization of Lie's theorems to Lie groupoids#
 
