@@ -8,18 +8,13 @@ and then defining an $(n+1)$-category as a category "weakly enriched" in $nCat$,
 
 ## The original idea
 
-Trimble never published this material himself (in effect leaving it to others to present it at the Cambridge lecture to develop their own accounts, which has been a good thing), but it may be of at least historical interest to have Trimble's original account available. We will then pick out the highlights and streamline the approach, following subsequent work by Leinster and Cheng. 
+Trimble never published this material himself (in effect leaving it to others present at the Cambridge lecture to develop their own accounts, which has been a good thing), but it may be of at least historical interest to have Trimble's original account available. We will then pick out the highlights and streamline the approach, following subsequent work by Leinster and Cheng. 
 
 It will be helpful to review the fundamental (1-)groupoid of a space first, doing it in such a way that we will see how to inductively define the fundamental $n$-groupoid. 
 
 Let $X$ be a space, and let $X_0$ denote its underlying set, viewed as a discrete category. If $V$ is a category, then a _$V$-graph_ over $X_0$ is just a functor 
 
 $$X_0 \times X_0 \to V.$$ 
-
-+--{.query}
-
- [[Urs Schreiber|Urs]]: from the following I am getting the impression that at this point you are really thinking of just a graph map here, not a functor. Could that be?
-=--
 
 There is an obvious category of $V$-graphs. A basic example for our purposes is the "graph of paths" in a space $X$: define 
 
@@ -61,14 +56,6 @@ $$[0, 1] \to [0, 2]$$
 
 This co-operation $I \to I \vee I$ is not strictly coassociative, but is coassociative up to homotopy. As a matter of fact, it follows straight away from the _convexity_ of the $n$-fold cospan composite $I^{\vee n} \cong [0, n]$ that the space of cospan maps $\hom(I, I^{\vee n})$ is _contractible_: the convexity actually gives a way of defining coherent homotopies (the pentagon, etc.) all the way up the "$A_{\infty}$-ladder". In other words, the cospan $I$ carries an $A_{\infty}$-cocategory structure. 
 
-+--{.query}
-
- [[Urs Schreiber|Urs]]: sorry for interrupting here, but in view of our discussion at [[interval object]], I'd enjoy to formulate this with respect to a general [[closed monoidal homotopical category]] $V$ with interval object $pt \stackrel{\sigma,\tau}{\to} I \to pt$: I suppose the condition above would be: all pushouts $I^{\vee n}$ exist and the internal hom-objects $V(I,I^{\vee n})$ are weakly equivalent to the point, $V(I,I^{\vee n}) \stackrel{\simeq}{\to} pt$. Would that be sufficient to get an operad in $V$ later on? Probably I'd need to require a bit more...
-
-=--
-
-
-
 But we don't actually need the $A_{\infty}$-jargon: all we will need are two basic facts: 
 
 * There is a tautological topological operad $T$ where the component $T_n$ is the space $\hom(I, I^{\vee n})$ of cospan maps; 
@@ -81,11 +68,11 @@ Now we just hom out of the cospan co-operations encapsulated in the operad $T$ t
 
 * $\hom(-, X)$ takes the $n$-fold cospan composite $I^{\vee n}$ to the $n$-fold span composite of $X \leftarrow X^I \to X$, so 
 
-* Each co-operation $\theta \in T_n = \hom(I, I^{\vee n})$ induces a span operation 
+* Each cospan co-operation $\theta \in T_n = \hom(I, I^{\vee n})$ induces a span operation 
 $$\hom(\theta, X): \hom(I^{\vee n}, X) \to \hom(I, X)$$
 from the $n$-fold span composite to the span itself. 
 
-Again, we could express this by saying we derive an $A_\infty$-category structure on the topological span (2), but it is perhaps much less fancy just to say that the composition map 
+Again, we could express this by saying we derive an $A_\infty$-category structure on the topological span (2), but in less fancy terms, the composition map 
 
 $$\hom(I, I^{\vee n}) \times \hom(I^{\vee n}, X) \to \hom(I, X)$$ 
 
@@ -109,7 +96,7 @@ $$T_n \times (X^\sim)^{\otimes n} \to X^\sim \qquad (5)$$
 
 in the monoidal category of $Top$-graphs. Considered geometrically, this is almost pure tautology, but **(5) is the crucial topological input in Trimble's machine**. 
 
-We may as well make some of this explicit. In general, if $V$ is a monoidal category with coproducts, such that the tensor $u \otimes v$ preserves coproducts in each of its separate arguments $u$ and $v$, then the category of $V$-graphs also carries a monoidal structure, where for two $V$-graphs $G, H$ we define 
+Let us make this more explicit. In general, if $V$ is a monoidal category with coproducts, such that the tensor $u \otimes v$ preserves coproducts in each of its separate arguments $u$ and $v$, then the category of $V$-graphs also carries a monoidal structure, where for two $V$-graphs $G, H$ we define 
 
 $$(G \otimes H)(x, z) = \sum_y G(x, y) \otimes H(y, z)$$ 
 
@@ -129,7 +116,7 @@ $$ f^*: X^\sim \to f_0^{-1} Y^\sim: X_0 \times X_0 \to Top $$
 
 and again by composing with $\Pi_0: Top \to Set$, we get a map $ \Pi_0 f^*: \Pi_1(X) \to \Pi_1(Y) $, i.e., a functor between the fundamental groupoids. 
 
-Thus, by a long series of small tautological steps, we have bootstrapped our way up from $\Pi_0$ to $\Pi_1$. This same procedure suggests a way to bootstrap from $\Pi_1$ to a definition of $\Pi_2$, and so on up an $n$-categorical ladder. Here are the general inductive definitions: 
+Thus, after a series of small tautological steps, we have bootstrapped our way up from $\Pi_0$ to $\Pi_1$. This same procedure suggests a way to bootstrap from $\Pi_1$ to a definition of $\Pi_2$, and so on up an $n$-categorical ladder. Here are the general inductive definitions: 
 
 * A (flabby) 0-category is a set. The fundamental 0-groupoid $Top \to Flabby(0)Cat$ is the connected components functor $\Pi_0: Top \to Set$. 
 
@@ -137,51 +124,28 @@ Thus, by a long series of small tautological steps, we have bootstrapped our way
 $$X: X_0 \times X_0 \to Flabby(n)Cat$$ 
 equipped with a structure of algebra over the operad $\Pi_n T$ (a priori an operad in the cartesian monoidal category $Flabby(n)Cat$, but made into an operad in $Flabby(n)CatGraph_{X_0}$ by an obvious change of base; cf. the remark above). 
 
-* A **morphism** of flabby $(n+1)$-categories $(X_0, X) \to (Y_0, Y)$ consists of a function $f_0: X_0 \to Y_0$ together with a _strict_ $\Pi_n T$-algebra map $f: X \to f_0^{-1} Y$. The category $Flabby(n+1)Cat$ admits finite products and arbitrary sums over which products distribute. 
+* A **morphism** of flabby $(n+1)$-categories $(X_0, X) \to (Y_0, Y)$ consists of of a function $f_0: X_0 \to Y_0$ together with a _strict_ $\Pi_n T$-algebra map $f: X \to f_0^{-1} Y$. The category $Flabby(n+1)Cat$ admits finite products and arbitrary sums over which products distribute. 
 
-* The **fundamental flabby $(n+1)$-category functor** 
+* The **fundamental $(n+1)$-groupoid functor** 
 $$\Pi_{n+1}: Top \to Flabby(n+1)Cat$$ 
 sends a space $X$ to the pair $(X_0, \Pi_n X^\sim)$, seen as a $\Pi_n T$-algebra by applying the product-preserving functor $\Pi_n$ to the tautological $T$-algebra $X^\sim$. 
 
 * **Theorem**: $\Pi_{n+1}$ preserves finite products and arbitrary coproducts. (This theorem is needed to push the induction through.)
 
-And that's it. As Cheng put it, this inductive definition is disarmingly straightforward, and yet it codes up all the essential structure one expects to see in weak $n$-categories. For example, an associator for 2-categories is coded up as a 1-cell in $\Pi_1 T_3$, i.e., as a homotopy class of paths between two points in $\hom(I, I \vee I \vee I)$: 
+And that's it. Notice this approach is in essence globular, that is we have an underlying functor 
+
+$$U_n: Flabby(n)Cat \to (n)GlobularSet$$ 
+
+to $n$-globular sets. This is defined by induction: the underlying $(n+1)$-globular set of a flabby $(n+1)$-category $(X_0, X)$ is given by 
+
+$$X_0 \times X_0 \to Flabby(n)Cat \stackrel{U_n}{\to} (n)GlobularSet$$ 
+
+using the fact that an $(n+1)$-globular set is naturally an $n$-globular graph over its set of 0-cells. In fact, Cheng has shown that flabby $n$-categories (and related structures; see the next section) are the algebras of a Batanin operad, that is a globular operad satisfying a contractibility condition. 
+
+As Cheng put it, Trimble's inductive definition is disarmingly straightforward, and yet it codes up all the essential structure one expects to see in weak $n$-categories. For example, an associator for 2-categories is coded up as a 1-cell in $\Pi_1 T_3$, i.e., as a homotopy class of paths between two points in $\hom(I, I \vee I \vee I)$: 
 
 $$(\delta \vee 1)\delta, (1 \vee \delta)\delta: [0, 1] \to [0, 3]$$ 
 
 where $\delta: [0, 1] \to [0, 2]$ is a co-composition. The pentagonator is similarly coded up as a 2-cell in $\Pi_2 T_4$. And so on. 
 
 To be continued...
-
-+--{.query}
-
-_[[Urs Schreiber|Urs]]_: Thanks, Todd, this is great. If I may, let me try, also to check if I am following, to see how much of this we can do while abstracting away from $Top$ and the concrete [[interval object]] in there.
-
-It seems that we need:
-
-* a [[closed monoidal homotopical category]] $V$ (not your $V$ above, but I'll call it $V$ nevertheless);
-
-* an object $I \in V$ fitting in an internal co-graph $pt \stackrel{\sigma,\tau}{\to} I$ such that 
-
-  * all the end-to-end pushouts $I^{\vee n}$ exist in $V$;
-
-  * all the $V$-internal hom-objects $[I, I^{\vee n}]$ are weakly equivalent to the point (the terminal object) $[I, I^{\vee n}] \stackrel{\simeq}{\to} pt$;
-
-* equipped with the structure of a co-operad internal to $V$ on $\{ [I, I^{\vee n}]\}_{n \in \mathbb{N}}$.
-
-Then
-
-* for $C$ any $V$-[[enriched homotopical category]] (I want to use now that $C$ is [[power]]ed over $V$)
-
-we get -- now let me see... -- a functor
-
-
-$$
-  \Pi_\omega : C \to Trimble-\omega-Cat
-  \,.
-$$
-
-Hm, let me just let it stand this way for you to either erase all of this or maybe comment on it for the moment...
-
-
-=--
