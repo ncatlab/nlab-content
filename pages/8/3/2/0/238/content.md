@@ -26,6 +26,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]
 
+  * started proposing a full definition at [[interval object]] following the discussion at that entry and at [[Trimble's notion of weak n-category]] -- please check!
+
   * the entry [[smooth Lorentzian space]] is currently oscillating a bit between showing a desire to state a new nice definition for (possibly generalized) Lorentzian spaces  and the aim to first establish some facts about the usual definition
 
   * filled in stuff at [[causet]]
