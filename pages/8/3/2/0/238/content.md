@@ -10,6 +10,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-01-16
+
+* [[Urs Schreiber|Urs]]
+
+  * replied to discussion at [[interval object]]
+
 # 2009-01-15
 
 * [[Toby Bartels]]: Wrote [[algebraic theory]], mostly to distinguish it from [[Lawvere theory]].
