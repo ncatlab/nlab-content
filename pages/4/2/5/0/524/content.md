@@ -216,6 +216,20 @@ As far as terminology goes: "flabby" was meant to accomplish several purposes: f
 For now I'm okay with "Trimble $\omega$-Cat" or the like, but I'd very much welcome something new and snappy that conveys something of the spirit of this idea. 
 =--
 
+## Weak iterated enrichment
+
+The account above was given in a traditional language of operads, but subsequent analysis by Leinster and Cheng led to the following notion, involving a hybrid between algebras over an [[operad]] and [[enriched category theory|enriched categories]]. 
+
+Fix a symmetric monoidal category $V$, and let $P$ be an operad valued in $V$. A **$(V, P)$-category** consists of 
+
+* A set of objects $X_0$, 
+
+* A $V$-graph $X(-, -): X_0 \times X_0 \to V$; 
+
+* Maps $P_n \otimes X(x_0, x_1) \otimes \ldots X(x_{n-1}, x_n) \to X(x_0, x_n)$ parametrized over all choices $x_0, x_1, \ldots, x_n$
+
+subject to axioms similar to the usual axioms for algebras over an operad. 
+
 #References#
 
 * Eugenia Cheng, _Comparing operadic theories of $n$-category_ ([arXiv](http://arxiv.org/abs/0809.2070))
