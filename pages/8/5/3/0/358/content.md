@@ -40,6 +40,8 @@ _Toby_: I think that we should have it *somewhere*. I expect that it\'s still wh
 _Mike_: Yes, that sounds like a good idea.
 
 _Toby_: OK, I moved it. I also fixed the definition of $k$-tuply monoidal $(n,r$)-category there. You might want to look at these; especially see if you buy my argument against groupal categories.
+
+_Mike_: Looks okay to me.  Feel free to delete this query box.
 =--
 
 # Low dimensions #
