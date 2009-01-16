@@ -216,7 +216,7 @@ As far as terminology goes: "flabby" was meant to accomplish several purposes: f
 For now I'm okay with "Trimble $\omega$-Cat" or the like, but I'd very much welcome something new and snappy that conveys something of the spirit of this idea. 
 =--
 
-## Weak iterated enrichment
+## Iterative operadic enrichment
 
 The account above was given in a traditional language of operads, but subsequent analysis by Leinster and Cheng led to the following notion, involving a hybrid between algebras over an [[operad]] and [[enriched category theory|enriched categories]]. 
 
@@ -229,6 +229,20 @@ Fix a symmetric monoidal category $V$, and let $P$ be an operad valued in $V$. A
 * Maps $P_n \otimes X(x_0, x_1) \otimes \ldots X(x_{n-1}, x_n) \to X(x_0, x_n)$ parametrized over all choices $x_0, x_1, \ldots, x_n$
 
 subject to axioms similar to the usual axioms for algebras over an operad. 
+
+* Example: For $V = (Top, \times)$ and $P$ the operad $T = \{\hom_{cospan}(I, I^{\vee n})\}$ discussed above, we constructed a $(V, P)$-category $(X_0, X^\sim)$ out of any space $X$.
+
+Trimble's definition above amounts to an inductive definition of weak $n$-Cat (call it $V_n$) where 
+
+* 0-Cat = Set; 
+
+* $V_{n+1} = (V_n, P_n)-Cat$ 
+
+for some series of operads $P_n$ valued in $V_n$. The operads $P_n$ in his definition came from one master operad $T$, by applying a product-preserving functor 
+
+$$\Pi_n: Top \to V_n$
+
+to $T$. But other operads are possible; for the purposes of $n$-category theory, it is preferable to choose such operads that are contractible in some sense. 
 
 #References#
 
