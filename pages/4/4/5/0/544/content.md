@@ -29,7 +29,7 @@ Then:
 
 * $D_2 : V^{\otimes 2} \to V$ is the _product_ in the algebra;
 
-* $D_3 : V^{\otimes 3}$ is the _associator_ which measures the failure of $D_2$ to be associative;
+* $D_3 : V^{\otimes 3} \to V$ is the _associator_ which measures the failure of $D_2$ to be associative;
 
 * $D_4 : V^{\otimes 4} \to V$ is the _pentagonator_ (or so) which measures the failure of $D_3$ to satisfy the pentagon identity;
 
