@@ -240,7 +240,7 @@ Trimble's definition above amounts to an inductive definition of weak $n$-Cat (c
 
 for some series of operads $P_n$ valued in $V_n$. The operads $P_n$ in his definition came from one master operad $T$, by applying a product-preserving functor 
 
-$$\Pi_n: Top \to V_n$
+$$\Pi_n: Top \to V_n$$
 
 to $T$. But other operads are possible; for the purposes of $n$-category theory, it is preferable to choose such operads that are contractible in some sense. 
 
