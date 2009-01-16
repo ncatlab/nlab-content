@@ -24,8 +24,4 @@ This should remind you of how taking a group element $g$, duplicating it to obta
 
 For a diagrammatic definition of a Hopf algebra, see the [Wikipedia entry](http://en.wikipedia.org/wiki/Hopf_algebra#Formal_definition).
 
-
----
-Sweedler book, in Various folder under ALGEBRA
-
-nLab page on [[nlab:Hopf algebra]]
+Word of caution: In algebraic topology, it is common to talk of Hopf algebra without mentioning the antipode since in many topological cases of interest it exists automatically.
