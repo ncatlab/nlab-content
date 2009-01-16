@@ -11,6 +11,10 @@ The following definition is tentative.
 +--{.query}
 Might there be two notions of interval object, one in a closed category such that $[I,B]$ is a path object, and one in a monoidal category such that $I \otimes B$ is a cylinder object? (And then a stronger notion, combining these, in a closed monoidal category.) &#8212;[[Toby Bartels|Toby]]
 
+_[[Urs Schreiber|Urs]]_: True, depending on application, one may be able to and want to drop some assumptions here. We might eventually give a layered definition, which adds assumptions step by step. 
+
+But, on the other hand, the main purpose of the _interval object_ here, which goes beyond the idea for instance in a [[cylinder functor]] is that we want to induce for any object $B$ on the internal hom-object $(B_0 \leftarrow [I,B]\rightarrow B_0)$ the structure of a (homotopy coherent- or $A_\infty$-) internal category. Namely the fundamental category $\Pi_1(B)$. To get that we need both the closed and the monoidal and the homotopical structure. 
+
 =--
 
 #Definition#
@@ -113,7 +117,7 @@ the $A_\infty$-category $\Pi_1(B)$ is just an ordinary category, namely the 1-ca
 
 (Todd, please check this last statement!)
 
-
+***
 
 #Discussion#
 
