@@ -98,7 +98,7 @@ where $\otimes$ indicates span composite.
 
 * **Remark**: $T$ is an operad in $Top$, not in the monoidal category $TopSpan(X, X)$. But we can make it an operad there by applying an evident change-of-base $Top \to TopSpan(X, X)$, sending a space $Y$ in $Top$ to the span 
 $$X \stackrel{\pi}{\leftarrow} X \times Y \stackrel{\pi}{\to} X$$
-This change of base is (strong) monoidal. As a matter of fact, this change of base factors through the center of the monoidal category $TopSpan$, which we actually need because one needs symmetries in order to express the notion of an operad internal to a monoidal category. 
+This change of base is (strong) monoidal. As a matter of fact, this change of base factors through the center of the monoidal category $TopSpan$, which we actually need because one needs symmetries in order to express the notion of even a nonpermutative operad internal to a monoidal category. 
 
 We get a similar $T$-algebra structure on the $Top$-graph $X^\sim: X_0 \times X_0 \to Top$ we started with. Indeed, the functor 
 
@@ -120,7 +120,7 @@ $$T_n \times \sum_{y_1, \ldots, y_{n-1}} X^\sim(x, y_1) \times X^\sim(y_1, y_2) 
 
 Now apply the functor $\Pi_0: Top \to Set$ (which preserves products and incidentally sums as well) to (6). This makes the $Set$-graph $\Pi_0 X^\sim$ an algebra over the operad $\Pi_0 T$. But a $Set$-graph equipped with a $\Pi_0 T$-algebra structure is just a category, since $\Pi_0 T_n$ consists of just a point, i.e., is the operad whose algebras are monoids, and a category is a monoid in a category of graphs. 
 
-This category is precisely the fundamental groupoid $\Pi_1(X)$. It is pretty clear from this description that $\Pi_1(X)$ is functorial in $X$. Indeed, if $f: X \to Y$ is a continuous map, we can pull back the $Top$-graph $Y^\tilde$ over $Y_0$ to a $Top$-graph over $X_0$, 
+This category is precisely the fundamental groupoid $\Pi_1(X)$. It is pretty clear from this description that $\Pi_1(X)$ is functorial in $X$. Indeed, if $f: X \to Y$ is a continuous map, we can pull back the $Top$-graph $Y^\sim$ over $Y_0$ to a $Top$-graph over $X_0$, 
 
 $$X_0 \times X_0 \stackrel{f_0 \times f_0}{\to} Y_0 \times Y_0 \stackrel{Y^\sim}{\to} Top,$$ 
 
@@ -204,6 +204,16 @@ This is interesting. I never looked at this definition before, and I need to giv
 Also, what is the proper name for these things? 'Trimble\'s notion of weak $n$-category' is a mouthful, but 'Trimble $n$-category' would work. Or 'flabby $n$-category', if that is unambiguous. (One might move this page, too, ... but only if it\'s clear where to move it!)
 
 _[[Urs Schreiber|Urs]]:_ I am not enthusiastic about "flabby". "Trimble $\omega$-category" sounds good to me, though. $Trimble\omega Cat$.
+
+_[[Todd Trimble|Todd]]_: The extension to $\infty$-categories was accomplished not too long ago by Tom Leinster and Eugenia Cheng, using coalgebra theory: 
+
+[Terminal coalgebras](http://www-lmpa.univ-littoral.fr/CT08/slides/Cheng.pdf)
+
+It's actually quite ingenious: as motivation, they start with Simpson's (Alex? Carlos?) observation that for the endofunctor $(-)-Cat: SymMonCat \to SymMonCat$ mapping $V \mapsto V-Cat$, the terminal coalgebra is (strict) $\omega$-Cat. Then they explain how this idea can be extended to produce Trimble-like weak $\omega$-categories (starting around page 57 of 124). 
+
+As far as terminology goes: "flabby" was meant to accomplish several purposes: first to distinguish itself from "weak" (since at the time I wasn't convinced that these structures were truly weak enough, owing to the fact that we use strict maps of algebras along the way); second to recall the word "flab" as used by Frank Adams in his Infinite Loop Spaces book: there is rather a lot of topological flab in my original definition; third out of modesty. But I don't like it much now either (I think it partially violates my 'cutesy' rule). 
+
+For now I'm okay with "Trimble $\omega$-Cat" or the like, but I'd very much welcome something new and snappy that conveys something of the spirit of this idea. 
 =--
 
 #References#
