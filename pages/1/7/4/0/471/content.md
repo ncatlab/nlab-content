@@ -149,7 +149,6 @@ I also describe one class of applications which I think this is needed/useful fo
 
 Comments are very welcome.
 
-+--{.query}
 _[[Todd Trimble|Todd]]_: The original "Trimblean" definition for weak $n$-categories (I called them "flabby" $n$-categories) crucially used the fact that in a nice category $Top$, we have a highly nontrivial $Top$-operad where the components have the form $\hom_{Top}(I, I^{\vee n})$, where $X \vee Y$ here denotes the cospan composite of two bipointed spaces (each seen as a cospan from the one-point space to itself), and the hom here is the internal hom between cospans. 
 
 My comment is that the only thing that stops one from generalizing this to general (monoidal closed) model categories is that "usually" $I$ doesn't seem to be "nice" in your sense here, and so one doesn't get an interesting (nontrivial) operad when my machine is applied to the interval object. But I'm generally on the lookout for this sort of thing, and would be very interested in hearing from others if they have interesting examples of this.
@@ -181,4 +180,3 @@ _[[Urs Schreiber|Urs]]_: Also by email, Todd points out that of course more gene
 I need to learn more about how one would go about systematically defining concepts internal to a model category up to homotopy. What are the available tools for handling higher coherent homotopies in an arbitrary model category?
 
 My understanding is that Todd is going to write an entry on the Trimble definition of $\infty$-categories, and that this  issue appears there in some guise. So maybe I'll just wait for Todd's entry to appear...
-=--
