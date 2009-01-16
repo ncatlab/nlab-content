@@ -20,7 +20,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * Responded to Toby at [[Lawvere-Tierney topology]].
 
-* [[Tim Porter]] I have added in a new entry on simplicial $T$-complexes which should help provide background for the still needed entry n complicial sets.
+* [[Tim Porter]] I have added in a new entry on simplicial $T$-complexes which should help provide background for the still needed entry on complicial sets.
 
 * [[Todd Trimble]]: 
 
