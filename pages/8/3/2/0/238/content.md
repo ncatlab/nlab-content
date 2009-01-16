@@ -12,7 +12,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-16
 
+* [[Jim Stasheff]] added a word of caution at [[Hopf algebra]]
+
 * [[Urs Schreiber|Urs]]
+ 
+  * added references to [[interval object]] which should be moved to [[Trimble's notion of weak n-category]] (which is however locked at the moment and I have to run now)
+
+  * meant to further develop [[interval object]] but got distracted -- the little I could get done is on [pages 5,6,7](http://ncatlab.org/schreiber/files/nacqJan15.pdf#page=5) [[schreiber:Nonabelian cocycles and their sigma model QFTs|here]]
 
   * replied to discussion at [[interval object]]
 
