@@ -37,3 +37,5 @@ _[[Urs Schreiber|Urs]]_: Yes, exactly. There was the idea that, since many finit
 #References#
 
 * From nCafe: <a href="http://golem.ph.utexas.edu/category/2008/10/the_nature_of_time.html#c019330">The Nature of Time</a>
+
+* From nCafe: <a href="http://golem.ph.utexas.edu/category/2007/03/canonical_measures_on_configur_1.html">Canonical Measures on Configuration Spaces</a>
