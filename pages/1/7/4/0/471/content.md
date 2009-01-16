@@ -117,6 +117,22 @@ the $A_\infty$-category $\Pi_1(B)$ is just an ordinary category, namely the 1-ca
 
 (Todd, please check this last statement!)
 
+
+#References#
+
+(these references should be moved to [[Trimble's notion of weak n-category]])
+
+* Tom Leinster, _A Survey of Definitions of $n$-Category_ ([arXiv](http://arxiv.org/abs/math.CT/0107188)), [p. 54](http://arxiv.org/PS_cache/math/pdf/0107/0107188v1.pdf#page=54) 
+
+
+* Eugenia Cheng and Nick Gurski, _Towards an $n$-category of cobordisms_, Theory and Applications of Categories,  Vol. 18, 2007, No. 10, pp 274-302. ([tac](http://www.tac.mta.ca/tac/volumes/18/10/18-10abs.html))
+
+  * section 2, _Trimble's definition_ recalls the original definition, 
+
+  * section 4 _Generalised Trimble definition_ proposes a generalization
+
+
+
 ***
 
 #Discussion#
