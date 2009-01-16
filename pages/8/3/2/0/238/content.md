@@ -12,6 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-16
 
+* [[Mike Shulman|Mike]]
+
+  * Added the internal version to [[group]].
+
+  * Created [[well-powered category]].
+
 * [[Jim Stasheff]] added a word of caution at [[Hopf algebra]]
 
 * [[Urs Schreiber|Urs]]
