@@ -87,7 +87,7 @@ Baez & Crans, _[Higher-Dimensional Algebra VI: Lie 2-Algebras](http://arxiv.org/
 
 [...]
 
-+--{.query}
+#Discussion#
 
 Question: I've looked at the definition of category in $A$ for a while and still haven't been able to absorb it. Could we walk through an explicit example, e.g. "This is exactly what $C_0$ is, this is exactly what $C_1$ is, this is exactly what $s,t,i$ are, and this is how it relates to the more familiar context"? For example, an [[algebra]] is a monoid in $Vect$. I'll try to step through it myself, but it will probably need some correcting. - [[Eric Forgy|Eric]]
 
@@ -96,4 +96,5 @@ Eric, one example to ponder is: how is an internal category in [[Grp]] the "same
 _[[Urs Schreiber|Urs]]_: I don't know, but maybe Eric should first convince himself of what Todd may find too obvious: how the above definition of an internal category reproduces the ordinary one when one works internal to [[Set]]. Eric, is that clear? If not, let us know where you get stuck!
 
 _[[Tim Porter|Tim]]_: I have just had a go at [[2-group]] and looked at the relationship between 2-groups and crossed modules in a little more detail, in the hope it will unbug the definition for those who have not yet 'groked' it.
-=--
+
+_[[Eric Forgy|Eric]]_: Oh thanks guys. I will try to understand how a small category is a category internal to Set first and then move on to category in Grp and the stuff Tim wrote. I'm sure this is all obvious, but don't underestimate my ability to not understand the obvious :)
