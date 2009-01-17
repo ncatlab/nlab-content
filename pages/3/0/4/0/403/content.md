@@ -93,4 +93,6 @@ Question: I've looked at the definition of category in $A$ for a while and still
 
 Eric, one example to ponder is: how is an internal category in [[Grp]] the "same" as a [[crossed module]]? As a partial hint, try to convince yourself that given a internal category, part of whose data is $(C_1, C_0, s, t)$, the group $C_1$ of arrows can be expressed as a semidirect product with $C_0$ acting on $\ker(s)$. The full details of this exercise may take some doing, but it might also be enjoyable; if you get stuck, you can look at [Forrester-Barker](http://arxiv.org/PS_cache/math/pdf/0212/0212065v1.pdf). - [[Todd Trimble|Todd]]
 
+_[[Urs Schreiber|Urs]]_: I don't know, but maybe Eric should first convince himself of what Todd may find too obvious: how the above definition of an internal category reproduces the ordinary one when one works internal to [[Set]]. Eric, is that clear? If not, let us know where you get stuck!
+
 =--
