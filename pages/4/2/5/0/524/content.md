@@ -246,8 +246,26 @@ to $T$. But other operads are possible; for the purposes of $n$-category theory,
 
 #References#
 
+The first appearance in print of the definition was in 
+
+* Tom Leinster, _A Survey of Definitions of $n$-Category_ ([arXiv](http://arxiv.org/abs/math.CT/0107188)), [p. 54](http://arxiv.org/PS_cache/math/pdf/0107/0107188v1.pdf#page=54) 
+
+Later the definition was applied tentatively for the construction of weak $n$-cateories of cobordisms in
+
+* Eugenia Cheng and Nick Gurski, _Towards an $n$-category of cobordisms_, Theory and Applications of Categories,  Vol. 18, 2007, No. 10, pp 274-302. ([tac](http://www.tac.mta.ca/tac/volumes/18/10/18-10abs.html))
+
+This article first reviews the original definition
+
+  * section 2, _Trimble's definition_ recalls the original definition, 
+
+and then generalizes it 
+
+  * section 4 _Generalised Trimble definition_ proposes a generalization
+
+A comparison of Trimble's definition with [[Batanin's notion of weak omega-category]] is in
+
 * Eugenia Cheng, _Comparing operadic theories of $n$-category_ ([arXiv](http://arxiv.org/abs/0809.2070))
 
-  * section 1.1: Trimble's original definition
 
-  * section 1.2: A more general version of Trimble's definition
+
+
