@@ -12,10 +12,4 @@ Equivalently, it is a functor $C^{op}\to Grp$ whose underlying functor $C^{op} \
 
 For example, a group object in [[Diff]] is a [[Lie group]].  A group object in [[Top]] is a [[topological group]].  And a group object in $CAlg^{op}$, where $CAlg$ is the category of commutative algebras, is a (commutative) [[Hopf algebra]].
 
-+--{.query}
-I'm a little confused by this last example. I can believe that a group object in the opposite $CAlg^{op}$ of the category of commutative algebras is a commutative Hopf algebra, because the product there is given by coproduct in $CAlg$ which is tensor product on the underlying vector spaces. But the coproduct in $Alg$ is something more complicated, so I don't see how you get comultiplication $H \to H \otimes H$ this way. 
-
-Added later: I see the same point was made by the same author (Mike) over at [[Hopf algebra]], so I'm going to go ahead and insert the correction here too. 
-
-_Mike_: Yes, thanks, of course it has to be in commutative algebras.
-=--
+A group object in [[Grp]] is the same thing as an abelian group (see [[Eckmann-Hilton lemma]]), and a group object in [[Cat]] is the same thing as an [[internal category]] in [[Grp]], both being equivalent to the notion of [[crossed module]]. 
