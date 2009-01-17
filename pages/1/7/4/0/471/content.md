@@ -1,10 +1,16 @@
 #Idea#
 
-The structure of a category $C$ with _interval object_ is supposed to be the right structure to ensure 
+The structure of a category $V$ with _interval object_ is supposed to be the right structure to ensure 
 
-1. that there is an object $I$ in $C$ such that for every object $B$ of $C$ the [[closed monoidal category|internal hom object]] $[I,B]$ exists and behaves like a [[path object]] for $B$;
+1. that there is an object $I$ in $V$ such that for every object $X$ of $V$ the [[closed monoidal category|internal hom object]] $[I,X]$ exists and behaves like a [[path object]] for $B$;
 
-2. that there is a notion of composition on these path objects which induces on $[I,B]$ a structure of a (higher) category internal to $C$.
+2. that there is a notion of composition on these path objects which induces on $[I,X]$ a structure of a (higher) category internal to $V$: the [[fundamental category]] or [[fundamental groupoid]] of the object $X$, or rather its [[fundamental infinity-groupoid]].
+
+For instance the choice $V =$ [[Top]] and $I = [0,1]$ 
+should be an instance of a category with interval object, and the fundamental $n$-groupoid $\Pi_n(X)$ obtained for any topological space $X$ from this data should be the fundamental $n$-groupoid in the sense of [[Trimble's notion of weak n-category]].
+
+The following definition of category with interval object aims to abstract this construction away from $V = $ [[Top]] to other [[closed monoidal homotopical category|closed monoidal homotopical categories]].
+
 
 The following definition is tentative.
 
@@ -17,11 +23,54 @@ But, on the other hand, the main purpose of the _interval object_ here, which go
 
 =--
 
+#Preparatory definitions#
+
+First some notation: 
+
+For $V$ a closed monoidal category
+with terminal object and pullbacks
+and pushouts, the catgeory
+of co-spans in $V$ between two fixed objects $a, b \in V$
+is naturally enriched over $V$: for
+
+$$
+  \array{
+    && S
+    \\
+    & {}^{\sigma_{S}}\nearrow && \nwarrow^{\tau_S}
+    \\
+    a &&&& b
+    \\
+    & {}_{\sigma_T}\searrow
+    && \swarrow_{\tau_T}
+    \\
+    && T
+  }
+$$
+
+two parallel cospans in $V$, the $V$-object 
+${}_a[S,T]_b$
+of morphisms between them is the pullback
+$$
+  \array{
+    {}_a[S,T]_b
+     &\to&
+     pt
+    \downarrow && \downarrow^{\sigma_T \times \tau_T}
+    \\
+    [S,T] &\stackrel{\sigma_S^* \times \sigma_T^*}{\to}& 
+    [a \sqcup b, T]
+  }
+  \,.
+$$
+
 #Definition#
 
 A _category with interval object_ is
 
-* a $V$-[[enriched homotopical category]];
+* a symmetric [[closed monoidal homotopical category]] $V$;
+
+* with tensor unit being the terminal object, which we write $pt$;
 
 * equipped with a co-span 
 $$
@@ -33,12 +82,27 @@ $$
     pt &&&& pt
   }
 $$
-in $V$, with $I$ called the **interval** object
-(the notation $I$ is not (necessrily) referring to the tensor unit object!)
+
+in $V$, with $I$ called the **interval object**;
 
 such that
 
-* all compositions
+* the pushout
+$$
+  \array{
+    && I^{\vee 2} := I \sqcup_{pt} I
+    \\
+    & \nearrow && \nwarrow
+    \\
+    I &&&& I
+    \\
+    & {}_{\tau}\nwarrow
+    && \nearrow_{\sigma}
+    \\
+    && pt
+  }
+$$
+exists in $V$, so that all compositions
 $$
   \array{
     && I^{\vee n}
@@ -50,11 +114,9 @@ $$
 $$
 of $n \in \mathbb{N}$ copies of the cospan $I$ with itself by pushout over adjacent legs exist in $V$;
 
-* all internal hom $V$-objects of cospans 
- $hom_{Cospans(V)}(I,I^{\vee n})$ are _contractible_ in that they are
- weakly equivalent to the point:
+* and all $V$-objects of morphisms ${}_{pt}[I, I^{\vee n}]_{pt}$ of cospans are weakly equivalent to the point
  $$ 
-   hom(I,I^{\vee n}) \stackrel{\simeq}{\to} pt
+   {}_{pt}[I, I^{\vee n}]_{pt}
    \,.
  $$
 
@@ -63,73 +125,60 @@ of $n \in \mathbb{N}$ copies of the cospan $I$ with itself by pushout over adjac
 
 The above data induces the following further structure.
 
-The collection of objects $\{ hom(I,I^{\vee n})\}_{n \in \mathbb{N}}$ in a category with interval object naturally comes equipped with the structure of an [[operad]]: the tautological operad on the object $I$ in the monoidal category of cospans from $pt$ to $pt$. 
+The collection of objects 
+$\{ {}_{pt}[I, I^{\vee n}]_{pt}\}_{n \in \mathbb{N}}$ in a category with interval object naturally comes equipped with the structure of an [[operad]]: the tautological operad on the object $I$ in the monoidal category of cospans from $pt$ to $pt$. 
 
-This induces in turn for all objects $B \in C$ on the object $[I,B]$ the structure of an operad, which is naturally interpreted as an internal $A_\infty$-[[A-infinity-category|category]] structure on
+This induces in turn for all objects $X \in V$ on the object $[I,X]$ the structure of an operad, which is naturally interpreted as an internal $A_\infty$-[[A-infinity-category|category]] structure on
 
 $$
-  (B_0 := [pt,B]) 
-  \stackrel{s := [\sigma,B]}{\leftarrow}  
-  [I,B] 
-  \stackrel{t := [\tau, B]}{\to} (B_0 := [pt,B])
+  (X_0 := [pt,X]) 
+  \stackrel{s := [\sigma,X]}{\leftarrow}  
+  [I,X] 
+  \stackrel{t := [\tau, X]}{\to} (X_0 := [pt,X])
   \,.  
 $$
 
 This internal $A_\infty$-category is denoted 
 
 $$
-  \Pi_1(B)
+  \Pi_1(X)
 $$
 
-and interpreted as the [[fundamental groupoid]] or rather, in general, the [[fundamental category]] of the object $B$ with respect to the interval object $I$ -- all internal to $C$.
+and interpreted as the [[fundamental groupoid]] or rather, in general, the [[fundamental category]] of the object $B$ with respect to the interval object $I$ -- all internal to $V$.
 
-Moreover, by iterating this process as described at [[Trimble's notion of weak n-category]] one obtains on $B$ the structure of a [[Trimble's notion of weak n-category|Trimblean]] weak [[omega-category]] and indeed a functor
+Moreover, by iterating this process as described at [[Trimble's notion of weak n-category]] one should obtain, if everything goes through,  on $X$ the structure of a [[Trimble's notion of weak n-category|Trimblean]] weak [[omega-category]] and indeed a functor
 
 $$
-  \Pi_\omega : C_0 \to Trible \omega Cat
+  \Pi_\omega : V_0 \to Trimble \omega Cat
   \,.
 $$
 
-(is this last statement correct as given?)
+(... to be continued ...)
 
 #Remarks#
 
-* The condition that all $hom(I, I^{\vee n})$ are contractible is the _coherence condition_ on all composition operations. 
+* The condition that all ${}_{pt}[I, I^{\vee n}]_{pt}$ are contractible is the _coherence condition_ on all composition operations. 
 
-* The above is _not_ demanding that the interval object $I$ itself is is weakly equivalent to the point. If it is, then $\Pi_1(B)$ is indeed a [[fundamental groupoid]]. If it is not, then $\Pi_1(B)$ may just be a [[fundamental category]].
+* The above is _not_ demanding that the interval object $I$ itself is is weakly equivalent to the point. If it is, then $\Pi_1(X)$ is indeed a [[fundamental groupoid]]. If it is not, then $\Pi_1(X)$ may just be a [[fundamental category]].
 
-* If $C_0$ has a notion of [[path object]] one may consider imposing the condition that $[I,B]$ is a path object of $B$ for all $B$. Similarly, if $C_0$ has a [[cylinder functor]], one may consider imposing the condition that it is given by $-\otimes I$.
+* If $X_0$ has a notion of [[path object]] one may consider imposing the condition that $[I,X]$ is a path object of $X$ for all $X$. Similarly, if $V_0$ has a [[cylinder functor]], one may consider imposing the condition that it is given by $-\otimes I$.
 
 #Examples#
 
 * For $V = C = Top$ with its standard model structure the standard topological closed interval  $I := [0,1]$ with $pt \stackrel{\sigma, \tau}{\to}$ the maps to 0 and 1, respectively. This is the case described in detail at [[Trimble's notion of weak n-category]].
 
-* For $V = C = \omega Cat$ the category of [[strict omega-category|strict omega-categories]] the first [[oriental]], the 1-[[globe]] $I = \{a \to b\}$ is an interval object. In this strict case in fact all hom objects are already equal to the point $hom(I, I^{\vee n}) = pt$ and 
+* For $V = \omega Cat$ the category of [[strict omega-category|strict omega-categories]] the first [[oriental]], the 1-[[globe]] $I = \{a \to b\}$ is an interval object. In this strict case in fact all hom objects are already equal to the point ${}_{pt}[I, I^{\vee n}]_{pt} = pt$ and 
 $$
-  (B = [pt,B]) 
-  \stackrel{s := [\sigma,B]}{\leftarrow}  
-  [I,B] 
-  \stackrel{t := [\tau, B]}{\to} (B = [pt,B])
+  (X = [pt,X]) 
+  \stackrel{s := [\sigma,X]}{\leftarrow}  
+  [I,X] 
+  \stackrel{t := [\tau, X]}{\to} (X = [pt,X])
 $$
 is a strict co-category internal to $\omega$Cat. 
-In this case, for $B$ any $\omega$-category 
-the $A_\infty$-category $\Pi_1(B)$ is just an ordinary category, namely the 1-category obtained from truncation of $B$. Similarly, probably $\Pi_\omega(B) = B$ in this case.
-
-(Todd, please check this last statement!)
+In this case, for $X$ any $\omega$-category 
+the $A_\infty$-category $\Pi_1(X)$ is just an ordinary category, namely the 1-category obtained from truncation of $X$. Similarly, probably $\Pi_\omega(X) = X$ in this case.
 
 
-#References#
-
-(these references should be moved to [[Trimble's notion of weak n-category]])
-
-* Tom Leinster, _A Survey of Definitions of $n$-Category_ ([arXiv](http://arxiv.org/abs/math.CT/0107188)), [p. 54](http://arxiv.org/PS_cache/math/pdf/0107/0107188v1.pdf#page=54) 
-
-
-* Eugenia Cheng and Nick Gurski, _Towards an $n$-category of cobordisms_, Theory and Applications of Categories,  Vol. 18, 2007, No. 10, pp 274-302. ([tac](http://www.tac.mta.ca/tac/volumes/18/10/18-10abs.html))
-
-  * section 2, _Trimble's definition_ recalls the original definition, 
-
-  * section 4 _Generalised Trimble definition_ proposes a generalization
 
 
 
