@@ -4,7 +4,7 @@ The notion of a [[category]] can be formulated [[internalization|internal]] to a
 
  * topological groups are groups _internal to topological spaces_
  
- * Lie groups are groups _internal to manifolds_.
+ * Lie groups are groups _internal to (smooth) manifolds_.
 
 #Definition#
 
@@ -95,4 +95,5 @@ Eric, one example to ponder is: how is an internal category in [[Grp]] the "same
 
 _[[Urs Schreiber|Urs]]_: I don't know, but maybe Eric should first convince himself of what Todd may find too obvious: how the above definition of an internal category reproduces the ordinary one when one works internal to [[Set]]. Eric, is that clear? If not, let us know where you get stuck!
 
+_[[Tim Porter|Tim]]_: I have just had a go at [[2-group]] and looked at the relationship between 2-groups and crossed modules in a little more detail, in the hope it will unbug the definition for those who have not yet 'groked' it.
 =--
