@@ -23,46 +23,6 @@ But, on the other hand, the main purpose of the _interval object_ here, which go
 
 =--
 
-#Preparatory definitions#
-
-First some notation: 
-
-For $V$ a closed monoidal category
-with terminal object and pullbacks
-and pushouts, the catgeory
-of co-spans in $V$ between two fixed objects $a, b \in V$
-is naturally enriched over $V$: for
-
-$$
-  \array{
-    && S
-    \\
-    & {}^{\sigma_{S}}\nearrow && \nwarrow^{\tau_S}
-    \\
-    a &&&& b
-    \\
-    & {}_{\sigma_T}\searrow
-    && \swarrow_{\tau_T}
-    \\
-    && T
-  }
-$$
-
-two parallel cospans in $V$, the $V$-object 
-${}_a[S,T]_b$
-of morphisms between them is the pullback
-$$
-  \array{
-    {}_a[S,T]_b
-     &\to&
-     pt
-    \downarrow && \downarrow^{\sigma_T \times \tau_T}
-    \\
-    [S,T] &\stackrel{\sigma_S^* \times \sigma_T^*}{\to}& 
-    [a \sqcup b, T]
-  }
-  \,.
-$$
 
 #Definition#
 
@@ -72,7 +32,7 @@ A _category with interval object_ is
 
 * with tensor unit being the terminal object, which we write $pt$;
 
-* equipped with a co-span 
+* equipped with a [[co-span]] 
 $$
   \array{
     && I
@@ -112,9 +72,9 @@ $$
     pt &&&& pt
   }
 $$
-of $n \in \mathbb{N}$ copies of the cospan $I$ with itself by pushout over adjacent legs exist in $V$;
+of $n \in \mathbb{N}$ copies of the [[co-span]] $I$ with itself by pushout over adjacent legs exist in $V$;
 
-* and all $V$-objects of morphisms ${}_{pt}[I, I^{\vee n}]_{pt}$ of cospans are weakly equivalent to the point
+* and all $V$-objects of morphisms ${}_{pt}[I, I^{\vee n}]_{pt}$ of cospans (as described at [[co-span]]) are weakly equivalent to the point
  $$ 
    {}_{pt}[I, I^{\vee n}]_{pt}
    \,.
