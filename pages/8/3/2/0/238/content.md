@@ -10,6 +10,19 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-01-17
+
+* [[Emily Riehl]]
+
+  * created [[small object argument]]
+
+* [[Urs Schreiber|Urs]]
+
+  * continued fiddling with [[interval object]]
+
+  * added references to [[Trimble's notion of weak n-category]]  
+
+
 # 2009-01-16
 
 * [[Mike Shulman|Mike]]
