@@ -14,7 +14,7 @@ Let $A$ be any category. A _category internal to $A$_ is
   $$
     C_1 \stackrel{s,t}{\to} C_0 \stackrel{i}{\to} C_1
   $$
-  such that the pullback 
+  such that the composites $s\cdot i$ and $t\cdot i$ are the identity morphisms on $C_0$, and such that the pullback 
   $$
     \array{
       C_1 \times_{t,s} C_1 &\to& C_1
