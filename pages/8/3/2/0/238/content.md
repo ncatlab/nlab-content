@@ -18,8 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Tim Porter]]
  
-   * I created [[2-group]].  I have only as yet discussed the strict form. I also added in some discussion of the Brown-Spencer theorem and took the definition of 2-group apart a little partially in response to [[Eric]]s comment on [[internal category]].
-
+   * I created [[2-group]].  I have only as yet discussed the strict form. I also added in some discussion of the Brown-Spencer theorem and took the definition of 2-group apart a little partially in response to [[Eric]]'s comment on [[internal category]].
+   *  I fixed the definition of [[internal category]]. Somehow the condition that the composites $s\cdot i$ and $t\cdot i$ had been omitted, as far as I could see at least. 
 * [[Emily Riehl]]
 
   * created [[small object argument]]
