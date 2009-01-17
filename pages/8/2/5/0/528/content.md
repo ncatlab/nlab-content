@@ -20,7 +20,7 @@ with the property that taking any element of $A$, applying the comultiplication 
 
 This should remind you of how taking a group element $g$, duplicating it to obtain $(g,g)$, taking the inverse of either component of this ordered pair, and then multiplying the two components, we obtain the identity element of our group.
 
-An equivalent, more abstract definition of a (commutative) Hopf algebra is as a [[group|group object]] in $Alg^{op}$, where $Alg$ is the category of commutative algebras.  This works because the tensor product of commutative algebras is the categorical [[coproduct]], and hence the [[product]] in its [[opposite category]].
+An equivalent, more abstract definition of a (commutative) Hopf algebra is as a [[group|group object]] in $CAlg^{op}$, where $CAlg$ is the category of commutative algebras.  This works because the tensor product of commutative algebras is the categorical [[coproduct]], and hence the [[product]] in its [[opposite category]].
 
 #References#
 
