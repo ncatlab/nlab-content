@@ -34,7 +34,7 @@ A _category with interval object_ is
 
 * with tensor unit being the terminal object, which we write $pt$;
 
-* equipped with a [[co-span]] 
+* equipped with a [[bi-pointed object]] 
 $$
   \array{
     && I
@@ -88,7 +88,7 @@ of $n \in \mathbb{N}$ copies of the [[co-span]] $I$ with itself by pushout over 
 The above data induces the following further structure.
 
 The collection of objects 
-$\{ {}_{pt}[I, I^{\vee n}]_{pt}\}_{n \in \mathbb{N}}$ in a category with interval object naturally comes equipped with the structure of an [[operad]]: the tautological operad on the object $I$ in the monoidal category of cospans from $pt$ to $pt$. 
+$\{ {}_{pt}[I, I^{\vee n}]_{pt}\}_{n \in \mathbb{N}}$ in a category with interval object naturally comes equipped with the structure of an [[operad]]: this is the tautological co-endomorphism [[operad]] on the object $I$ in the symmetric closed monoidal category of [[bi-pointed object]]s from $pt$ to $pt$. 
 
 This induces in turn for all objects $X \in V$ on the object $[I,X]$ the structure of an operad, which is naturally interpreted as an internal $A_\infty$-[[A-infinity-category|category]] structure on
 
@@ -108,7 +108,7 @@ $$
 
 and interpreted as the [[fundamental groupoid]] or rather, in general, the [[fundamental category]] of the object $B$ with respect to the interval object $I$ -- all internal to $V$.
 
-Moreover, by iterating this process as described at [[Trimble's notion of weak n-category]] one should obtain, if everything goes through,  on $X$ the structure of a [[Trimble's notion of weak n-category|Trimblean]] weak [[omega-category]] and indeed a functor
+Moreover, by iterating this process as described at [[Trimble's notion of weak n-category]] one should obtain, if everything goes through, on $X$ the structure of a [[Trimble's notion of weak n-category|Trimblean]] weak [[omega-category]] and indeed a functor
 
 $$
   \Pi_\omega : V_0 \to Trimble \omega Cat
