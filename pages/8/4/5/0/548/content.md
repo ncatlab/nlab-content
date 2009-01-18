@@ -1,3 +1,7 @@
+A $2$-group is a [[vertical categorification]] of the idea of [[group]].
+
+# Strict $2$-groups
+
 We will start by looking at strict 2-groups.
 
 
@@ -49,4 +53,6 @@ topological group_, Proc. Kon. Ned. Akad. v. Wet, 79, (1976), 296 &#8211; 302.) 
 
 If $(C\stackrel{\delta}{\to}P)$ is a crossed module, the corresponding _2-group_ has $G_0 = P$, $G_1 = C\rtimes P$, the [semi-direct product](http://en.wikipedia.org/wiki/Semi-direct_product) of $C$ and $P$, using the action of $P$ on $C$, given in the specification of the crossed module. The maps are $s(c,p) = p$, $t(c,p) = \delta(c)\cdot p$, (with the other structure maps left as exercises). 
 
-* Other forms of _2-group_ exist, in which the key observation is that any strict 2-group as above gives a strict monoidal category with inverses.  It is therefore natural to look at monoidal categories with weak inverses, and these are the general form of 2-group. (To be added, by someone at a later date).
+# Weak $2$-groups
+
+Other forms of _2-group_ exist, in which the key observation is that any strict 2-group as above gives a strict monoidal category with inverses.  It is therefore natural to look at monoidal categories with weak inverses, and these are the general form of 2-group. (To be added, by someone at a later date).
