@@ -15,7 +15,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[Owen Biesel]]
 * [[Simon Willerton]]
 * [[Stefan Forcey]]
-* [[Timothy Porter]]
+* [[Tim Porter]]
 * [[Thomas Nikolaus]]
 * [[Toby Bartels]]
 * [[Todd Trimble]]
