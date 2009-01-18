@@ -1,6 +1,6 @@
 A [[category]] $C$ is **well-powered** if every object has a [[small category|small]] [[poset]] of [[subobject]]s.
 
-Assuming that by 'subobject' we mean (an equivalence class of) [[monomorphism]]s, this means that for every object $X$, the (generally large) [[preorder]] of monomorphisms]] with codomain $X$ is equivalent to a small poset.  Variations exist that use notions of subobject other than monomorphisms.
+Assuming that by 'subobject' we mean (an equivalence class of) [[monomorphism|monomorphisms]], this means that for every object $X$, the (generally large) [[preorder]] of monomorphisms with codomain $X$ is equivalent to a small poset.  Variations exist that use notions of subobject other than monomorphisms.
 
 If $C^{op}$ is well-powered, we say that $C$ is **well-copowered** (although "cowell-powered" is also common).
 
