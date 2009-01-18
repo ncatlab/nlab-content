@@ -214,6 +214,8 @@ It's actually quite ingenious: as motivation, they start with Simpson's (Alex? C
 As far as terminology goes: "flabby" was meant to accomplish several purposes: first to distinguish itself from "weak" (since at the time I wasn't convinced that these structures were truly weak enough, owing to the fact that we use strict maps of algebras along the way); second to recall the word "flab" as used by Frank Adams in his Infinite Loop Spaces book: there is rather a lot of topological flab in my original definition; third out of modesty. But I don't like it much now either (I think it partially violates my 'cutesy' rule). 
 
 For now I'm okay with "Trimble $\omega$-Cat" or the like, but I'd very much welcome something new and snappy that conveys something of the spirit of this idea. 
+
+_Toby_: I\'m thinking of moving this to [[Trimble n-category]], which seems like a better name for linking to the concept.  But I\'ll hold off if you want, especially if you want to wait for suggestions.
 =--
 
 ## Iterative operadic enrichment
