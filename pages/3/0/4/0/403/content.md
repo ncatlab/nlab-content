@@ -159,3 +159,5 @@ _[[Eric Forgy|Eric]]_: Oh thanks guys. I will try to understand how a small cate
 _[[Eric Forgy|Eric]]_: Ok. Duh. It is pretty obvious for Set EXCEPT for pullback. Pullbacks in Set are obvious, but what about other cases? Why is that important and what is an example where there are not pullbacks?  In other words, is there an a example of something that is ALMOST a category in some other category except it doesn't have pullbacks, so is not? 
 
 _[[Tim Porter|Tim]]_: If I remember rightly the important case is when trying to work on 'smooth categories', that is, general internal categories in a category of smooth manifolds.  Unless you take care with the source and target maps, the pullback giving the space of composible pairs of arrows may not be a manifold. (I remember something like this being the case in Pradines work in the area.) The point is then that one works with internal categories with extra conditions on $s$ and $t$ to ensure the pullback is there when you need it.
+
+_[[Toby Bartels|Toby]]_: Usually in the theory of Lie groupoids, they require $s$ and $t$ to be submersions, which guarantees that the pullback of *any* map along them exists.
