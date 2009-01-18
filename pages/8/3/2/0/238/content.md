@@ -12,6 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-18
 
+* [[Toby Bartels]]:
+  * Added other terms and meanings to [[decidable object]]; some of this should probably go to other (new) pages.
+  * Clarified my question at [[interval object]].
+  * Asked an organisational question at [[Trimble's notion of weak n-category]].
+  * Other minor edits.
+
 * [[Mike Shulman|Mike]]:
 
   * Added another argument in favor of using $B$ at [[category algebra]].
