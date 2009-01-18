@@ -265,11 +265,11 @@ Later the definition was applied tentatively for the construction of weak $n$-ca
 
 This article first reviews the original definition
 
-  * section 2, _Trimble's definition_ recalls the original definition, 
+* section 2, _Trimble's definition_ recalls the original definition, 
 
 and then generalizes it 
 
-  * section 4 _Generalised Trimble definition_ proposes a generalization
+* section 4 _Generalised Trimble definition_ proposes a generalization
 
 A comparison of Trimble's definition with [[Batanin's notion of weak omega-category]] is in
 
