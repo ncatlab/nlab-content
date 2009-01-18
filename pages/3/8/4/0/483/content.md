@@ -4,6 +4,12 @@ _Directed spaces_ are to general $\infty$-[[infinity-category|categories]] as or
 
 Directed spaces are studied in [[directed homotopy theory]], a relatively young topic. In generalization of how a [[topological space]] has a [[fundamental groupoid]], a [[directed space]] has a [[fundamental category]].
 
++--{.query}
+
+Can directed spaces be defined using [[interval object]]?
+
+=--
+
 #Discussion#
 
 _[[Eric Forgy|Eric]] says_: [[ericforgy:Discrete differential geometry on causal graphs|Urs and I]] wrote a paper a few years back, which essential starts with a [[directed graph]] and builds a [[ericforgy:differential envelope|graded differential algebra]], which in turn, specifies something that I would call a [[ericforgy:directed space|directed space (under construction)]]. I've been trying to understand this in the context of [[space and quantity]] as stated [[ericforgy:HomePage|here]]. Seeing your entry gives me hope that all this can be tied together, but my maths chops are not quite up to the task of seeing it myself.
