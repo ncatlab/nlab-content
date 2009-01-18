@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-18
 
+* [[Eric Forgy|Eric]]:
+
+  * Plagiarized the definition of [[internal category]] from [Baez and Crans](http://arxiv.org/abs/math/0307263) since the previous definition stated things should work in "the obvious way", which was not obvious to me
+
 * [[Toby Bartels]]:
   * Added other terms and meanings to [[decidable object]]; some of this should probably go to other (new) pages.
   * Clarified my question at [[interval object]].
