@@ -27,10 +27,11 @@ Let $X$ be a space, and let $X_0$ denote its underlying set, viewed as a discret
 
 $$X_0 \times X_0 \to V$$ 
 
-(which here amounts to a function $X_0 \times X_0 \to Ob(V)$).
+(which here amounts to a function $X_0 \times X_0 \to Ob(V)$).There is an obvious category of $V$-graphs over $X_0$. 
 
+* We can also consider a more general category **$V$-Graph**, where a morphism $(C_0, C(-, -)) \to (D_0, D(-, -))$ consists of a function $f_0: C_0 \to D_0$ together with a collection $C(c, c') \to D(f_0 c, f_0 c')$ of morphisms in $D$.  
 
-There is an obvious category of $V$-graphs. A basic example for our purposes is the "graph of paths" in a space $X$: define 
+A basic example of $V$-graph for our purposes is the "graph of paths" for a space $X$: define 
 
 $$X^\sim : X_0 \times X_0 \to Top \qquad (1)$$ 
 
@@ -216,6 +217,8 @@ As far as terminology goes: "flabby" was meant to accomplish several purposes: f
 For now I'm okay with "Trimble $\omega$-Cat" or the like, but I'd very much welcome something new and snappy that conveys something of the spirit of this idea. 
 
 _Toby_: I\'m thinking of moving this to [[Trimble n-category]], which seems like a better name for linking to the concept.  But I\'ll hold off if you want, especially if you want to wait for suggestions.
+
+_Todd_: That's fine with me, so assuming Urs doesn't mind, I'd say go ahead. That's more or less what somewhat would probably try looking for if they wanted to look this stuff up. 
 =--
 
 ## Iterative operadic enrichment
@@ -245,6 +248,10 @@ for some series of operads $P_n$ valued in $V_n$. The operads $P_n$ in his defin
 $$\Pi_n: Top \to V_n$$
 
 to $T$. But other operads are possible; for the purposes of $n$-category theory, it is preferable to choose such operads that are contractible in some sense. 
+
+## Extension to $\infty$-categories
+
+Using some theory of terminal coalgebras, Tom Leinster and Eugenia Cheng described a viable notion of Trimble $\infty$-category. 
 
 #References#
 
