@@ -1,15 +1,35 @@
-A co-span in a category $V$ is a [[span]] in the [[opposite category]] $V^{op}$.
+A co-span in a category $V$ is a diagram
 
-#Closed monoidal structures (?)#
+$$
+ \array{
+   && S
+   \\
+   & \nearrow && \nwarrow
+   \\
+   a &&&& b
+ }
+$$
+in $V$, i.e. a [[span]] in the [[opposite category]] $V^{op}$.
 
-Regarding the notion of co-span as a generalization of that of [[pointed object]] leads to some obvious generalizations of the properties of categories of pointed objects.
+Co-spans in a category $V$ with small co-limits form a [[bicategory]] whose objects are the objects of $V$, whoe morphisms are cospans between two objects, and whose 2-morphisms $\eta$ are commuting diagrams of the form
 
+$$
+  \array{
+    && S
+    \\
+    & {}^{\sigma_{S}}\nearrow && \nwarrow^{\tau_S}
+    \\
+    a &&\downarrow^\eta&& b
+    \\
+    & {}_{\sigma_T}\searrow
+    && \swarrow_{\tau_T}
+    \\
+    && T
+  }
+  \,.
+$$
 
-For $V$ a [[closed monoidal category]] 
-with finite limits
-the catgeory
-of co-spans in $V$ between two fixed objects $a, b \in V$
-is naturally enriched over $V$: for
+The category of co-spans from $a$ to $b$ is naturally a [[enriched category|category enriched in]] $V$: for
 
 $$
   \array{
@@ -41,10 +61,9 @@ $$
     [S,T] &\stackrel{\sigma_S^* \times \sigma_T^*}{\to}& 
     [a \sqcup b, T]
   }
-  \,.
 $$
 
-Thinking of a cospan as defining a (generalised) *bi*-pointed object, this is the direct generalization of the the notion of enriched hom of [[pointed object]]s.
+formed in analogy to the enriched hom of [[pointed object]]s.
 
+If $V$ has a terminal object, $pt$, then co-spans from $pt$ to itself are [[bi-pointed object]]s in $V$.
 
-(... to be continued ...)
