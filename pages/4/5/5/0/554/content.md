@@ -6,7 +6,7 @@ $$
   \array{
     && S
     \\
-    & {}^{\sigma_A}\nearrow && \nwarrow^{\tau_S}
+    & {}^{\sigma_S}\nearrow && \nwarrow^{\tau_S}
     \\
     pt &&&& pt
   }
@@ -19,7 +19,7 @@ Similarly, a [[pointed object]] in a category with initial object $\emptyset$ an
 
 * An [[interval object]] is a bi-pointed object.
 
-#Closed monoidal structure#
+#Closed structure#
 
 From the [[bicategory]] structure on [[co-span]]s in $V$ bi-pointed objects in $V$ naturally inherit the structure of a monoidal category
 
@@ -83,4 +83,3 @@ $
 $
 
 
-This should make $BiPointed(V)$ into a [[closed monoidal category]] which is symmetric if $V$ is.
