@@ -13,7 +13,7 @@ $$
   \,.
 $$
 
-Similarly, a [[pointed object]] in a category with initial object $\emptyset$ and terminal object $pt$ is a co-span from $\emptyset$ to $pt$, and if $V$ has in addition small co-limits then a bi-pointed object in $V$ is the same as a [[co-span]] from $\emptyset$ to $pt \sqcup pt$.
+Similarly, a [[pointed object]] in a category with initial object $\emptyset$ and terminal object $pt$ is a co-span from $\emptyset$ to $pt$, and if $V$ has in addition binary [[coproduct]]s then a bi-pointed object in $V$ is the same as a [[co-span]] from $\emptyset$ to $pt \sqcup pt$.
 
 #Examples#
 
