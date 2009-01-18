@@ -21,6 +21,8 @@ _[[Urs Schreiber|Urs]]_: True, depending on application, one may be able to and 
 
 But, on the other hand, the main purpose of the _interval object_ here, which goes beyond the idea for instance in a [[cylinder functor]] is that we want to induce for any object $B$ on the internal hom-object $(B_0 \leftarrow [I,B]\rightarrow B_0)$ the structure of a (homotopy coherent- or $A_\infty$-) internal category. Namely the fundamental category $\Pi_1(B)$. To get that we need both the closed and the monoidal and the homotopical structure. 
 
+_Toby_: Actually, I wasn\'t so much thinking about weakening the requirements on $V$ (although admittedly I did phrase my question to include that).  My main point that they are, na&#239;vely, two concepts: one that uses the closed structure to give path objects, and one that uses the monoidal structure to give cylinder objects.  So will we have interval objects, co-interval objects, and bi-interval objects?
+
 =--
 
 
