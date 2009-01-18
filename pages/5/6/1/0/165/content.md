@@ -6,7 +6,7 @@ The **fundamental groupoid** of a space $X$ is a [[groupoid]] whose objects are 
 
 
 
-The **fundamental groupoid** $\Pi_1(X)$ of a toplogical space  $X$ is the [[groupoid]] whose set of objects is $X$ and whose morphism from $x$ to $y$ are the [[homotopy]]-classes $[\gamma]$ of continuous maps $\gamma : [0,1] \to X$ whose endpoints map to $x$ and $y$. Composition is by concatenation of representative maps. Under the [[homotopy]]-[[equivalence relation]] this becomes an associtive and unital composition with respect to which every morphism has an inverse.
+The **fundamental groupoid** $\Pi_1(X)$ of a toplogical space  $X$ is the [[groupoid]] whose set of objects is $X$ and whose morphism from $x$ to $y$ are the [[homotopy]]-classes $[\gamma]$ of continuous maps $\gamma : [0,1] \to X$ whose endpoints map to $x$ and $y$ (which the homotopies are required to fix). Composition is by concatenation of representative maps. Under the [[homotopy]]-[[equivalence relation]] this becomes an associtive and unital composition with respect to which every morphism has an inverse.
 
 
 #Remarks#
@@ -20,6 +20,6 @@ So the fundamental groupoid is an improvement of the idea of the fundamental gro
 
 * In parts of the literature the fundamental groupoid and in particular the [[fundamental infinity-groupoid]] of a space is called the **Poincar&#233;-groupoid**.
 
-* The fundamental groupoid and its higheer generalization play a fundamental role in [[Trimble'ss notion of weak n-cateory]].
+* The fundamental groupoid and its higheer generalization play a fundamental role in [[Trimble's notion of weak n-category]].
 
 * Following Trimble's definition, it is possible to generalize the notion of fundamental $n$-groupoids from [[Top]] to other [[closed monoidal homotopical category|closed monoidal homotopical categories]] using the concept of categories with [[interval object]].
