@@ -31,9 +31,9 @@ _Mike_: Yes for finitely-indexed, as above, at least if you're willing to admit 
 _Toby_: Sure, but if you admit W-types, then you admit the natural numbers, so we already know that we can do it. It\'s a predicative finitist definition that I don\'t know (other than for Dedekind-finite, of course).
 
 Here is how to do them all (finitistically, but not predicatively):
-* $K(S)$ is the smallset subset of $P(S)$ containing the empty set and closed under the operation $A \mapsto A \cup B$ for $A$ a subset of $S$ and $B$ a singleton in $S$;
-* $\tilde{K}(S)$ is the smallset subset of $P(S)$ containing the empty set and closed under the operation $A \mapsto A \cup B$ for $A$ a subset of $S$ and $B$ a subsingleton in $S$;
-* $F(S)$ is the smallset subset of $P(S)$ containing the empty set and closed under the operation $A \mapsto A \cup B$ for $A$ a subset of $S$ and $B$ a singleton in $S$ disjoint from $A$;
-* $\tilde{F}(S)$ is the smallset subset of $P(S)$ containing the empty set and closed under the operation $A \mapsto A \cup B$ for $A$ a subset of $S$ and $B$ a subsingleton in $S$ disjoint from $A$.
+* $K(S)$ is the smallest subset of $P(S)$ containing the empty set and closed under the operation $A \mapsto A \cup B$ for $A$ a subset of $S$ and $B$ a singleton in $S$;
+* $\tilde{K}(S)$ is the smallest subset of $P(S)$ containing the empty set and closed under the operation $A \mapsto A \cup B$ for $A$ a subset of $S$ and $B$ a subsingleton in $S$;
+* $F(S)$ is the smallest subset of $P(S)$ containing the empty set and closed under the operation $A \mapsto A \cup B$ for $A$ a subset of $S$ and $B$ a singleton in $S$ disjoint from $A$;
+* $\tilde{F}(S)$ is the smallest subset of $P(S)$ containing the empty set and closed under the operation $A \mapsto A \cup B$ for $A$ a subset of $S$ and $B$ a subsingleton in $S$ disjoint from $A$.
 
 _Mike_: Okay, I'm stumped.
