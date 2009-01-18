@@ -19,6 +19,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 * [[Eric Forgy|Eric]]:
 
   * Plagiarized the definition of [[internal category]] from [Baez and Crans](http://arxiv.org/abs/math/0307263) since the previous definition stated things should work in "the obvious way", which was not obvious to me
+  * Asked if [[directed space|directed spaces]] could be defined using [[interval object]] on the directed spaces page.
 
 * [[Toby Bartels]]:
   * Added other terms and meanings to [[decidable object]]; some of this should probably go to other (new) pages.
