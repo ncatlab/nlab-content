@@ -32,18 +32,6 @@ There is a [[periodic table]] of $k$-tuply monoidal $n$-categories.
 
 Originally the importance of pointedness was not fully appreciated, so any $n$-category was accepted as $0$-tuply monoidal, and $k$-tuply monoidal $n$-categories were identified simply with $(k-1)$-connected $(n+k)$-categories (those in which any two parallel $j$-morphisms are equivalent for $j \lt k$).  See [[periodic table]] for this original.
 
-+--{.query}
-Is it really worth having the old table here?
-
-_Toby_: I think that we should have it *somewhere*. I expect that it\'s still what most people think of as 'the' periodic table of $n$-categories, and of course it\'s of historical interest. Possibly this history section can be moved to [[periodic table]].
-
-_Mike_: Yes, that sounds like a good idea.
-
-_Toby_: OK, I moved it. I also fixed the definition of $k$-tuply monoidal $(n,r$)-category there. You might want to look at these; especially see if you buy my argument against groupal categories.
-
-_Mike_: Looks okay to me.  Feel free to delete this query box.
-=--
-
 # Low dimensions #
 
 ## $k=0$ ##
