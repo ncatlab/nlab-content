@@ -65,7 +65,10 @@ A [[groupoid]] internal to $A$ is all of the above
 
 #Examples#
 
-* A small category is a category internal to [[Set]].
+* A [[small category]] is a category internal to [[Set]].
+
+In this case, $C_0$ is a set of objects and $C_1$ is a set of morphisms and the pullback is Cartesian product.
+
 * A small [[cocategory]] is a category internal to $Set^{op}$.
 * A [[double category]] is a category internal to [[Cat]]. 
 * A [[double bicategory]] is a category internal to [[Bicat]] (in a suitably weak sense).
@@ -98,3 +101,5 @@ _[[Urs Schreiber|Urs]]_: I don't know, but maybe Eric should first convince hims
 _[[Tim Porter|Tim]]_: I have just had a go at [[2-group]] and looked at the relationship between 2-groups and crossed modules in a little more detail, in the hope it will unbug the definition for those who have not yet 'groked' it.
 
 _[[Eric Forgy|Eric]]_: Oh thanks guys. I will try to understand how a small category is a category internal to Set first and then move on to category in Grp and the stuff Tim wrote. I'm sure this is all obvious, but don't underestimate my ability to not understand the obvious :)
+
+_[[Eric Forgy|Eric]]_: Ok. Duh. It is pretty obvious for Set EXCEPT for pullback. Pullbacks in Set are obvious, but what about other cases? Why is that important and what is an example where there are not pullbacks?  In other words, is there an a example of something that is ALMOST a category in some other category except it doesn't have pullbacks, so is not? 
