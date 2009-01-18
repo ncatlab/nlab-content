@@ -17,7 +17,7 @@ where $s$ is some other object of the category.  This diagram is called a 'span'
 
 Note that a span with $f = 1$ is just a morphism from $x$ to $y$, while a span with $g = 1$ is a morphism from $y$ to $x$.  So, a span can be thought of as a generalization of a morphism in which there is no longer any asymmetry between source and target.
 
-A span in $C^op$ is called a _cospan_ in $C$.  A [[cobordism]] is an example of a cospan in the category of smooth manifolds, and this nicely illustrates the symmetry between source and target.
+A span in $C^op$ is called a [[co-span]] in $C$.  A [[cobordism]] is an example of a cospan in the category of smooth manifolds, and this nicely illustrates the symmetry between source and target.
 
 If the category $C$ has [[pullback|pullbacks]], we can compose spans.  Namely, given a span from $x$ to $y$ and a span from $y$ to $z$:
 $$
