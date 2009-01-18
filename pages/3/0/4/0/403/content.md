@@ -8,32 +8,84 @@ The notion of a [[category]] can be formulated [[internalization|internal]] to a
 
 #Definition#
 
-Let $A$ be any category. A _category internal to $A$_ is 
+Let $A$ be any category. A **category internal to $A$** consists of 
 
- * a collection of morphisms in $A$ of the form
-  $$
-    C_1 \stackrel{s,t}{\to} C_0 \stackrel{i}{\to} C_1
-  $$
-  such that the composites $s\cdot i$ and $t\cdot i$ are the identity morphisms on $C_0$, and such that the pullback 
-  $$
-    \array{
-      C_1 \times_{t,s} C_1 &\to& C_1
-      \\
-      \downarrow && \downarrow^{t}
-      \\
-      C_1 &\stackrel{s}{\to}& C_0
-    }
-  $$
-  exists;
+* an object of objects $C_0\in A$;
 
- * and a morphism
-  $$
-     C_1 \times_{t,s} C_1 \stackrel{comp}{\to} C_1
-  $$
-  "respecting $s$ and $t$";
+* an object of morphisms $C_1\in A$;
 
- * such that the _composition_ $comp$ is associative
-   and unital with respect to $i$ "in the obvious way".
+together with
+
+* [[source]] and [[target]] morphisms $s,t:C_1\to C_0$;
+
+* an [[identity assigning morphism]] $i:C_0\to C_1$;
+
+* a [[composition]] morphism $\circ: C_1\times_{C_0} C_1\to C_1$;
+
+such that the following diagrams commute, expressing the usual category laws:
+
+* laws specifying the source and target of identity morphisms:
+
+$$
+\array{
+C_0 & \stackrel{i}{\to} & C_1 \\
+{}  & 1\searrow         & \darr s \\
+{}  & {}                & C_0
+}
+\quad\quad\quad\quad
+\array{
+C_0 & \stackrel{i}{\to} & C_1 \\
+{}  & 1\searrow         & \darr t \\
+{}  & {}                & C_0
+}
+$$
+
+* laws specifying the source and target of composite morphisms:
+
+$$
+\array{
+C_1 \times_{C_0} C_1 & \stackrel{\circ}{\to} & C_1 \\
+{}^{p_1}\downarrow & {} & \downarrow^{s} \\
+C_1 & \stackrel{s}{\to} & C_0
+}
+\quad\quad\quad\quad
+\array{
+C_1 \times_{C_0} C_1 & \stackrel{\circ}{\to} & C_1 \\
+{}^{p_2}\downarrow & {} & \downarrow^{t} \\
+C_1 & \stackrel{t}{\to} & C_0
+}
+$$
+
+* the associative law for composition of morphisms:
+
+$$
+\array{
+C_1 \times_{C_0} C_1 \times_{C_0} C_1 & \stackrel{\circ\times_{C_0} 1}{\to} & C_1 \times_{C_0} C_1 \\
+{}^{1\times_{C_0}\circ}\downarrow & {} & \downarrow^{\circ} \\
+C_1 \times_{C_0} C_1 & \stackrel{\circ}{\to} & C_1
+}
+$$
+
+* the left and right unit laws for composition of morphisms:
+
+$$
+\array{
+C_1 \times_{C_0} C_1 & \stackrel{i\times_{C_0} 1}{\to} & C_1 \times_{C_0} C_1 & \stackrel{1\times_{C_0} i}{\leftarrow} & C_1 \times_{C_0} C_1 \\
+{} & {}^{p_2}\searrow & \downarrow^{\circ} & \swarrow^{p_1} & {} \\
+{} & {} & C_1 & {} & {}
+}
+$$
+
+The pullback $C_1\times_{C_0} C_1$ is defined via the square
+$$
+\array{
+C_1 \times_{C_0} C_1 &\stackrel{p_2}{\to} & C_1 \\
+{}^{p_1}\downarrow & {} & \downarrow^{t} \\
+C_1 &\stackrel{s}{\to}& C_0
+}
+$$
+
+Notice that inherent to this definition is the assumption that the pullbacks involved actually exist. This holds automatically when the [[ambient category]] $A$ has finite [[limit|limits]], but there are some important examples such as $A =\,$ [[Diff]] where this is not the case.
 
 A [[groupoid]] internal to $A$ is all of the above 
 
@@ -63,11 +115,13 @@ A [[groupoid]] internal to $A$ is all of the above
 
  * $C_0$ is the "object of objects"; $C_1$ is the "object of morphisms", for instance for $A = Top$ $C_0$ is the "space of objects" and $C_1$ the "space of morphisms".
 
-#Examples#
+#Example: Small categories#
 
-* A [[small category]] is a category internal to [[Set]].
+A [[small category]] is a category internal to [[Set]].
 
 In this case, $C_0$ is a set of objects and $C_1$ is a set of morphisms and the pullback is Cartesian product.
+
+#Further Examples#
 
 * A small [[cocategory]] is a category internal to $Set^{op}$.
 * A [[double category]] is a category internal to [[Cat]]. 
