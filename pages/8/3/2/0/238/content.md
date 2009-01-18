@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-18
 
+* [[Toby Bartels]]
+  * Adjustments to [[source]], [[target]], and [[identity assigning morphism]].
+  * Comments and questions at [[finite set]], [[internal category]], and [[bicategory]].
+
 * [[Urs Schreiber|Urs]]
 
   * created [[bi-pointed object]] and started to describe what should be its closed monoidal structure to be used at [[interval object]], but are being interrupted now and have to run -- hope this is about right so far...
