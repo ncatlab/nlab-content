@@ -3,7 +3,7 @@ We will start by looking at strict 2-groups.
 
 ##Definition##
 
-A _strict 2-group_ is an [[internal category]] in [[Grp]].
+A _strict 2-group_ is an [[internal category]] in [[Grp]].  Equivalently, it is an internal group object in [[Cat]].
 
 ##Expanding the definition##
 
