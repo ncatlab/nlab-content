@@ -10,6 +10,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-01-18
+
+* [[Mike Shulman|Mike]]:
+
+  * Added another argument in favor of using $B$ at [[category algebra]].
+
+  * Expanded the topos-theoretic discussion at [[finite set]], including some examples.
+
 # 2009-01-17
 
 * [[Todd Trimble|Todd]]
