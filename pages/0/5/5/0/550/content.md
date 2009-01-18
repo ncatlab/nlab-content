@@ -44,7 +44,7 @@ $$
   \,.
 $$
 
-Thinking of a cospan as defining a <em>bi</em>-pointed object, this is the direct generalization of the the notion of enriched hom of [[pointed object]]s.
+Thinking of a cospan as defining a (generalised) *bi*-pointed object, this is the direct generalization of the the notion of enriched hom of [[pointed object]]s.
 
 
 (... to be continued ...)
