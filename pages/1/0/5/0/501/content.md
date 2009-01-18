@@ -16,7 +16,7 @@ In [[constructivism|constructive mathematics]], and internally to a [[topos]], a
 
 * A set is **Dedekind-finite** if any injection from it to itself must be a bijection.  In contrast to the previous three notions, Dedekind-finite infinite sets can coexist with [[excluded middle|PEM]], although [[countable choice]] suffices to banish them.
 
-In constructive mathematics, one is usually interested in the finite sets, or in the [[decidable object|decidable]] K-finite sets.  Actually, these are equivalent (even constructively) in $\Set$, but they may be different in a non-[[well-pointed topos]] (see below).
+In constructive mathematics, one is usually interested in the finite sets, although the finitely indexed sets are also sometimes useful. Note that a finitely indexed set with [[decidable object|decidable equality]] must actually be finite.
 
 Finite sets are always [[projective object|projective]]; that is, the "finite [[axiom of choice]]" always holds.  However, if any finite set greater than 1 is [[choice object|choice]], or if every 2-indexed set is projective, then the logic must be classical (see [[excluded middle]] for a proof).
 
@@ -35,22 +35,28 @@ _Toby_: Can you think of a way to define these notions of finite without a set o
 
 ## Finite objects in a topos
 
-In a topos, we say that an object has one of the above finiteness properties if it does so in the internal logic of the topos.  In this case, it is traditional to say "finite cardinal" instead of "finite." Note that because of how the internal logic works, a K-finite object is only _locally_ a quotient of a finite cardinal, and likewise a $\tilde{K}$-finite object is only locally a subobject of a K-finite object.
+In a topos, there are both "external" and "internal" versions of all the above notions of finiteness, depending on whether we interpret their meaning "globally" or in the [[internal logic]] of the topos.
 
-In any topos, the subcategory of finite cardinals is again a topos, and it is [[Boolean topos|Boolean]].  Its [[subobject classifier]] is $2=1\sqcup 1$, which in the ambient topos is the classifier only of [[decidable object|decidable]] subobjects.  This means that classically valid arguments, including all of finitary combinatorics, can generally be applied easily to finite cardinals, as long as we always interpret "subset" to mean "decidable subset."
+The _external_ version of a "finite set" is usually called a **finite cardinal**.  This is an object $[n]$ which is the pullback of $N_{\lt}\to N$ along some [[global element]] $n:1\to N$.  Here $N$ is a [[natural numbers object]] and $N_{\lt} \hookrightarrow N\times N$ is its strict order relation.  We can then consider [[subobject]]s, [[quotient]]s, and [[subquotient]]s of finite cardinals to obtain external versions of subfinite, finitely indexed, and subfinitely indexed sets.
 
-The other notions of "finite object" need not, in general, form toposes.  However, the category of decidable K-finite objects is always a Boolean topos, again with $2$ as its subobject classifier.  So topos theory suggests that "decidable K-finite set" is another good constructive notion of "finite set;" see also the examples below.  The category of K-finite objects is a topos iff every K-finite object is decidable, while the category of $\tilde{K}$-finite objects is a topos if (but not only if) the subobject classifier is K-finite.
+The full subcategory of finite cardinals in any topos is again a topos, and it is [[Boolean topos|Boolean]].  Its [[subobject classifier]] is $2=1\sqcup 1$, which in the ambient topos is the classifier only of [[decidable object|decidable]] subobjects.  This means that classically valid arguments, including all of finitary combinatorics, can generally be applied easily to finite cardinals, as long as we always interpret "subset" to mean "decidable subset."
+
+The _internal_ version of a "finite set" is an object $X$ such that "$X$ is a finite cardinal" is true in the internal logic.  This is equivalent to saying that $X$ is _locally_ isomorphic to a finite cardinal, i.e. there is an epimorphism $U\to 1$ and a [[generalized element]] $n:U\to N$ such that $U\times X \cong n^*(N_\lt)$ over $U$.  Equivalently, there is a $U\to 1$ such that $U\times X$ is a finite cardinal in the slice topos $S/U$.
+
+Likewise, the internal version of "finitely indexed set" is one which is locally a quotient of a finite cardinal, and so on.  An "internally finitely indexed" object is generally called a _$K$-finite object_, and an "internally subfinitely indexed" one is called a _$\tilde{K}$-finite object_.  Since it is still provable in the internal logic that any decidable finitely indexed set is finite, the "internally finite" objects can be characterized as the _decidable $K$-finite objects_.  There does not appear to be an accepted term for "internally subfinite" objects.
+
+The decidable $K$-finite objects in any topos also form a Boolean topos whose subobject classifier is $2$; it can be regarded as the "[[stack]] completion" of the topos of finite cardinals.  The category of $K$-finite objects is a topos if and only if every $K$-finite object is decidable, and the category of $\tilde{K}$-finite objects is a topos if (but not only if) the subobject classifier is $K$-finite.
 
 ## Examples
 
-* In a well-pointed Boolean topos, including the topos [[Set]] as usually conceived, all notions of finiteness coincide.
+* In any Boolean topos, all four internal notions coincide.  In a [[well-pointed topos]], each internal notion coincides with its external notion.  Therefore, in a well-pointed Boolean topos, including the topos [[Set]] as usually conceived, all notions of finiteness coincide.
 
 * In a [[presheaf]] topos $[C^{op},Set]$, the finite cardinals are the finite-set-valued functors which are constant on each connected component.  In particular, if $C$ is a [[group]], then the topos of finite cardinals is equivalent to $FinSet$.
 
 * Likewise, in the topos $Sh(X)$ of [[sheaf|sheaves]] on a space $X$, the finite cardinals are the locally constant functions $X\to N$.  So if $X$ is connected, the topos of finite cardinals in $Sh(X)$ is also equivalent to $FinSet$.
 
-* By contrast, the K-finite objects in $[C^{op},Set]$ are the finite-set-valued functors each of whose transition functions is surjective, and the _decidable_ K-finite objects are the finite-set-valued functors each of whose transition functions is bijective.
+* By contrast, the $K$-finite objects in $[C^{op},Set]$ are the finite-set-valued functors each of whose transition functions is surjective, and the _decidable_ K-finite objects are the finite-set-valued functors each of whose transition functions is bijective.
 
-* In particular, if $C$ is a groupoid, the topos of decidable K-finite objects is equivalent to $[C^{op},FinSet]$.  Since the topos of presheaves on a groupoid is Boolean, it is possible for the finite cardinals and the K-finite objects to fail to coincide in a Boolean topos.  (However, it is still true in the [[internal logic]] of any Boolean topos that "every K-finite object is finite.")
+* In particular, if $C$ is a groupoid, the topos of decidable $K$-finite objects is equivalent to $[C^{op},FinSet]$.  Since the topos of presheaves on a groupoid is Boolean, this gives an example of a Boolean topos in which the finite cardinals ("externally finite objects") and the (decidable) $K$-finite objects ("internally finite objects") fail to coincide.
 
 * In $Sh(X)$, the decidable K-finite objects are those that are "locally finite;" i.e. there is an open cover of $X$ such that over each open in the cover, the sheaf is a locally constant function to $N$.  These are essentially the same as [[covering space|covering spaces]] of $X$.
