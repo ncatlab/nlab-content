@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-18
 
+* [[Urs Schreiber|Urs]]
+
+  * created [[bi-pointed object]] and started to describe what should be its closed monoidal structure to be used at [[interval object]], but are being interrupted now and have to run -- hope this is about right so far...
+
 * [[Eric Forgy|Eric]]:
 
   * Plagiarized the definition of [[internal category]] from [Baez and Crans](http://arxiv.org/abs/math/0307263) since the previous definition stated things should work in "the obvious way", which was not obvious to me
