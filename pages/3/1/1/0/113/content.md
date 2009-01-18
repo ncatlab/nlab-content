@@ -1,7 +1,7 @@
 #Definition#
 
-The **source object** of a [[morphism]] $f : x \to y$ in some [[category]] is the [[object]] $x$. 
+The **source object**, or simply **source**, of a [[morphism]] $f: x \to y$ in some [[category]] $C$ is the [[object]] $x$.  The source of $f$ is also called its **domain**, although that can be confusing in categories of [[partial function]]s.
 
-Given a category [[internal category|internal to]] $C$ with object of objects $C_0$ and object of morphisms $C_1$, a **source morphism** is a morphism $s:C_1\to C_0$ that maps each morphism in $C_1$ to its source object in $C_0$.
+Given a [[small category]] $C$ with set of objects $C_0$ and set of morphisms $C_1$, the **source function** of $C$ is the function $s: C_1 \to C_0$ that maps each morphism in $C_1$ to its source object in $C_0$.
 
-The source is also called the 'domain'.
+Generalising this, given an [[internal category]] $C$ with object of objects $C_0$ and object of morphisms $C_1$, the **source morphism** of $C$ is the morphism $s: C_1 \to C_0$ that is part of the definition of internal category.
