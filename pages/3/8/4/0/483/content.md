@@ -4,15 +4,67 @@ _Directed spaces_ are to general $\infty$-[[infinity-category|categories]] as or
 
 Directed spaces are studied in [[directed homotopy theory]], a relatively young topic. In generalization of how a [[topological space]] has a [[fundamental groupoid]], a [[directed space]] has a [[fundamental category]].
 
-#Definition (Tentative)#
+#Definition: directed object (tentative)#
 
-Given a category $C$ with [[equivalence|weak equivalences]] and a non-trivial [[interval object]] $I$, an object $X\in C$ is a **directed space** if the embedding $X\to [I,X]$ into its [[path space]] is not a weak equivalence.
+Let $V$ be a 
+[[interval object|category with interval object]], with the interval object denoted $I$. Recall that there is for every object $X$ of $V$ a canonical morphism
+$X_0 \to [I,X]$ which embeds the points of $X$, $X_0 := [pt,X]$ as the constant paths into the "object of directed paths" $[I,X]$. Assume now that $X_0 \simeq X$.
+
+An object $X$ is called _undirected_ or an _undirected object_ if this morphism is a weak equivalence:
+
+$$
+  (X undirected) \Leftrightarrow
+  (X \stackrel{\simeq}{\to} [I,X])
+  \,;
+$$
+
+otherwise it is called _directed_ or a _directed object_.
 
 +--{.query}
 
 Can we find something a little more constructive? In other words, instead of testing objects in a category to see whether they are directed, could we construct the category of directed spaces?
 
+[[Urs Schreiber|Urs]]: sombody please extract from Grandis' article linked to below the definition of directed topological space!
+
 =--
+
+
+#Examples#
+
+* $V = $  [[Top]] with its standard [[model category]] structure, and $I = [0,1]$ the standard interval. Then all objects are undirected.
+
+* $V = \omega Cat$, [[strict omega-category|strict omega-categories]], equipped with the [[folk model structure]] and $I = \{a \to b\}$ the 1-[[globe]], the first [[oriental]]. Then
+
+  * the "generic" $\omega$-category is _directed_;
+
+  * in particular the interval $I$ itself is directed, as there is no weak equivalence from $I$ to $[I,I] = \{a \to b \to c\}$; 
+
+  * $\omega$-categories which are strict [[omega-groupoid]]s are _undirected_;
+
+  * the general undirected $\omega$-categories should be precisely those for which every $k$-morphism is a an $\omega$-equivalence.
+
+* (...somebody please add the example of directed topological spaces...)
+
+
+#References#
+
+The definition and study of directed topological spaces was undertaken in
+
+* Marco Grandis, _Directed homotopy theory, I. The fundamental category_ ([arXiv](http://arxiv.org/abs/math.AT/0111048))
+
+Applications of categories regarded as models for directed spaces are discussed in
+
+* Tim Porter: _Enriched categories and models for spaces of evolving states_, Theoretical Computer Science, 405, (2008), pp. 88 - 100.
+
+* Tim Porter, _Enriched categories and models for spaces of
+dipaths. A discussion document and overview of some techniques_ ([pdf](http://drops.dagstuhl.de/opus/volltexte/2007/898/pdf/06341.PorterTimothy.Paper.898.pdf))
+
+
+
+
+
+***
+
 
 #Discussion#
 
@@ -58,10 +110,5 @@ all strict $\omega$-groupoids are undirected with respect to this definition, wh
 
 _[[Eric Forgy|Eric]] says_: Now we're getting somewhere! Thanks Tim and Urs. It seemed to me that the [[interval object]] should come into play here and now it seems we can bring it in. I'll try to pull something out of Urs' statement, but was there a typo? Should a strict $\omega$-catgeory that is not an $\omega$-groupoid be _directed_?
 
-#References#
-
-* Marco Grandis, _Directed homotopy theory, I. The fundamental category_ ([arXiv](http://arxiv.org/abs/math.AT/0111048))
-* Tim Porter: _Enriched categories and models for spaces of evolving states_, Theoretical Computer Science, 405, (2008), pp. 88 - 100.
-* Tim Porter, _Enriched categories and models for spaces of
-dipaths. A discussion document and overview of some techniques_ ([pdf](http://drops.dagstuhl.de/opus/volltexte/2007/898/pdf/06341.PorterTimothy.Paper.898.pdf))
+_[[Urs Schreiber|Urs]]_: yes, typo. I have stated the definition now above the way I imagined it.
 
