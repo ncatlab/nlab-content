@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * further reacted at [[directed space]] and created [[homotopy hypothesis]]
+
   * following discussion by [[Eric Forgy|Eric]] at [[directed space]] I propose in the discussion section a formalization of the notion "an object $X$ is _directed_" and "an object $X$ is _undirected_" for the case that $X$ is an object in a category with [[interval object]].
 
 
