@@ -11,7 +11,7 @@ Let $V$ be a
 [[interval object|category with interval object]], with the interval object denoted $I$. Recall that there is for every object $X$ of $V$ a canonical morphism
 $X_0 \to [I,X]$ which embeds the points of $X$, $X_0 := [pt,X]$ as the constant paths into the "object of directed paths" $[I,X]$. Assume now that $X_0 \simeq X$.
 
-An object $X$ is called _undirected_ or an _undirected object_ if this morphism is a weak equivalence:
+An object $X$ in $V$ is called _undirected_ or an _undirected object_ (with respect to $I$) if this morphism is a weak equivalence:
 
 $$
   (X undirected) \Leftrightarrow
@@ -22,12 +22,10 @@ $$
 otherwise it is called _directed_ or a _directed object_.
 
 
-
 #Examples#
 
 * $V = $  [[Top]] with its standard [[model category]] structure, and $I = [0,1]$ the standard interval. Then all objects are undirected.
 
-* $V = $ 
 
 * $V = \omega Cat$, [[strict omega-category|strict omega-categories]], equipped with the [[folk model structure]] and $I = \{a \to b\}$ the 1-[[globe]], the first [[oriental]]. Then
 
@@ -41,6 +39,11 @@ otherwise it is called _directed_ or a _directed object_.
 
 * Once we have a closed monoidal homotopical structure on the category $dTop$ of [[directed space|directed topological spaces]], it should be true that in $V = dTop$ with $I = I_d$ the standard directed interval, an object $(X, d X)$ is a directed object in the above sense precisely if it contains a nontrivial directed path.
 
+#Remarks#
+
+* Whether or not an object is undirected depends on the choice of interval object. For instance if in the example of $\omega$-groupoids above we take instead of the first [[oriental]] (which is _oriented_, i.e. directed) the free groupoid on it, i.e the groupoid $I_{inv} = \{a \stackrel{\simeq}{\to} b\}$ then this interval object $I_{inv}$ is itself undirected. 
+
+ 
 
 
 #References#
