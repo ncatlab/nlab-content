@@ -8,6 +8,12 @@ Directed spaces are studied in [[directed homotopy theory]], a relatively young 
 
 Can directed spaces be defined using [[interval object]]?
 
+###Tentative (and Probably Wrong) Definition###
+
+A **directed space** is a topological space with an [[interval object|interval]].
+
+A **directed category** is a category with an [[interval object]].
+
 =--
 
 #Discussion#
