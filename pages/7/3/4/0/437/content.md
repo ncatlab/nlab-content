@@ -1,6 +1,6 @@
 #Definition#
 
-In a [[category with weak equivalences]] and with [[product]]s a _path object_ for an object $C$ is a factorization of the morphism $C \stackrel{Id \times Id}{\to} C \times C$ as
+In a [[category with weak equivalences]] and with [[product]]s a **path object** for an object $C$ is a factorization of the morphism $C \stackrel{Id \times Id}{\to} C \times C$ as
 $$
   C \stackrel{s}{\to} C^I \stackrel{(d_0, d_1)}{\to} C \times C
 $$
