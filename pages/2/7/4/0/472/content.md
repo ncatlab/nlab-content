@@ -1,6 +1,6 @@
 #Definition#
 
-For $C$ a [[category]], a _cylinder functor_ on $C$ is a [[functor]] denoted
+For $C$ a [[category]], a **cylinder functor** on $C$ is a [[functor]] denoted
 
 $$
   (-)\times I : C \to C
