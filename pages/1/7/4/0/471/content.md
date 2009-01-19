@@ -32,7 +32,7 @@ A _category with interval object_ is
 
 * a symmetric [[closed monoidal homotopical category]] $V$;
 
-* with tensor unit being the terminal object, which we write $pt$;
+* with tensor unit being the [[terminal object]], which we write $pt$;
 
 * equipped with a [[bi-pointed object]] 
 $$
