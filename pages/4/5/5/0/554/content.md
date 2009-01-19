@@ -1,6 +1,6 @@
 #Definition#
 
-A _bi-pointed_ object in a category $V$ with terminal object $pt$ is a [[co-span]] from $pt$ to itself, i.e. a diagram
+A **bi-pointed object** in a category $V$ with terminal object $pt$ is a [[co-span]] from $pt$ to itself, i.e. a diagram
 
 $$
   \array{
