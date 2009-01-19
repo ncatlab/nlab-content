@@ -26,6 +26,21 @@ Can we find something a little more constructive? In other words, instead of tes
 
 [[Urs Schreiber|Urs]]: sombody please extract from Grandis' article linked to below the definition of directed topological space!
 
+From Grandis:
+
+A **directed topological space**, or d-space $X = (X,dX)$, will be a topological space equipped with a set $dX$ of (continuous) maps $a: I\to X$, called directed paths or d-paths, satisfying three axioms:
+1. (constant paths) every constant map $I\to X$ is directed,
+1. (reparametrisation) $dX$ is closed under composition with increasing maps $I\to I$,
+1. (concatenation) $dX$ is closed under path-concatenation: if the d-paths $a, b$ are consecutive in $X$ $(a(1) = b(0))$, then their ordinary concatenation $a+b$ is also a d-path
+
+$$(a+b)(t) = a(2t),\,\text{if}\, 0\le t\le 1/2,$$
+
+$$(a+b)(t) = b(2t),\,\text{if}\, 1/2\le t\le 1.$$
+
+***
+
+I was trying to replace his continuum interval $I$ with your [[interval object]]. - [[Eric Forgy|Eric]]
+
 =--
 
 
