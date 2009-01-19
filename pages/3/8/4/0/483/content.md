@@ -22,6 +22,26 @@ Have a look at Martin Raussen and Lizbeth Fajstrup's work as well, then Philip G
 
 There were a lot of talks at [ATMCS08](http://www.lix.polytechnique.fr/~sanjeevi/atmcs/), last summer on this sort of thing.
 
+[[Urs Schreiber|Urs]]: 
+Eric, in the way people usually think about "directed spaces", such as the references below, there is no good reason to speak of a "directed category". On the contrary: just as an ordinary space has a [[fundamental groupoid]] because one can traverse every path in both directions, a _directed space_ is supposed to be something such that paths in it form not a groupoid in general, but just a category: its [[fundamental category]]. Maybe we should chat about the definition of directed spaces as in the literature given below (which I would have to remind myself of) and in the sense which you are trying to develop (which is only vaguely clear to me at the moment!) on the blog.
+
+[[Urs Schreiber|Urs]]: 
+Ah, now that I re-read what you say above, maybe this is what you are getting at:
+
+suppose I hand you a space and don't tell you whether it is directed or not. How do you decide if it is? One way might be: you map the directed _interval_ into the space -- i.e. look at the collection of paths in the space -- and check if every path can be contracted _in both directions_ to a point. If not, the space must be directed.
+
+I have a proposal for how to formalize this in terms of [[interval object]]s which you link to: in case the category from which we pick our spaces is equipped with a notion of weak equivalences (for instance if it is a [[model category]]) and with an [[interval object]] which is itself not weakly equivalent to the point, then for every object $X$ in the category we can look at the canonical map $X \to [I,X]$ which embeds $X$ into its "path space" as the space of constant paths. I am proposing that we should call $X$ _directed with respect to $I$_ iff this map is not a weak equivalence.
+
+$$
+  (X not directed) \Leftrightarrow
+  (X \stackrel{\simeq}{\to} [I,X])
+$$
+
+Notice that for instance in a [[category of fibrant objects]] the map $X \stackrel{\simeq}{\to} [I,X]$ is _required_ to be a weak equivalence. And indeed, these categories behave much like categories of (ordinary) topological spaces.
+
+For instance if we take $I = G_1 = \{a \to b\}$ the 1-[[globe]] aka the first [[oriental]] then
+all strict $\omega$-groupoids are undirected with respect to this definition, while a [[strict omega-category]] which is not an $\omega$-groupoid will be undirected with respect to this definition. The way it is supposed to be.
+
 =--
 
 #Discussion#
