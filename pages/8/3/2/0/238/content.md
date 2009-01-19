@@ -10,6 +10,16 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-01-19
+
+* [[John Baez|John]]: 
+
+   * expanded the entry on [[monoid]], giving lots of examples of monoid objects in monoidal categories.  I think lists of examples like can be very useful and fun, and I want more!  I would like a list of [[PROP|PROPs]], for example, saying that $FinSet$ is the PROP for commutative monoids, and so on.  
+
+   * If Urs is happy with how the discussion at the end of [[monoidal category]] has been incorporated into the body of the article, maybe we can remove that discussion.
+
+   * slightly expanded the entry on [[braided monoidal category]] - but it really needs some diagrams!
+
 # 2009-01-18
 
 * [[Mike Shulman|Mike]]:
