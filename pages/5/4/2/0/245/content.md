@@ -10,7 +10,7 @@ called the _braiding_, which must satisfy two axioms called the 'hexagon identit
 
 Someone please put these diagrams in here!
 
-More tersely, we can define a braided monoidal category to be a [[tricategory]] with one object.
+More tersely, we could define a braided monoidal category to be a [[tricategory]] with one object and one 1-cell.  However, unlike the definition of a monoidal category as a [[bicategory]] with one object, this identification is not trivial; a doubly-degenerate tricategory is literally a category with two monoidal structures that interchange up to isomorphism.  It requires the [[Eckmann-Hilton argument]] to deduce an equivalence with braided monoidal categories.
 
 #Basic Facts#
 
