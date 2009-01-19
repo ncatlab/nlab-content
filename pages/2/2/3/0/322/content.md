@@ -1,8 +1,8 @@
 ## The idea ## 
 
-An **operad** is a gadget used to describe [[algebraic theory|algebraic theories]] internally in categories beyond $Set$. It is like a [[Lawvere theory]] in that it deals with theories defined by finitary operations, but unlike Lawvere theories, operads can be applied to general symmetric monoidal categories where the tensor product might not be the cartesian product. 
+An **operad** is a gadget used to describe algebraic structures in [[[symmetric monoidal category|symmetric monoidal categories]].  An operad is like a [[Lawvere theory]] in that it can be used to describe structures having finitary operations obeying equational laws.  However, unlike Lawvere theories, operads can be applied to general symmetric monoidal categories where the tensor product might not be the cartesian product. 
 
-Actually the notion of operad (and allied notions such as [[prop]], [[club]], [[multicategory]] and so on) come in many flavors. Originally used in algebraic topology to provide a systematic formalism for describing the internal operations which exist on iterated loop spaces, the basic idea is quite flexible and adaptable to many categorical situations, and the importance of operads continues to grow. 
+Actually the notion of operad (and allied notions such as [[PROP]], [[club]], [[multicategory]] and so on) come in many flavors. Originally used in algebraic topology to provide a systematic formalism for describing the internal operations which exist on iterated loop spaces, the basic idea is quite flexible and adaptable to many categorical situations, and the importance of operads continues to grow. 
 
 ## The rough definition ## 
 
