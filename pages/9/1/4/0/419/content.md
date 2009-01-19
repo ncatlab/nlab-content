@@ -4,7 +4,7 @@ A _monoidal model category_ is a [[model category]] which is also a [[closed mon
 
 # Definition #
 
-A (symmetric) _monoidal model category_ is a category equipped with 
+A (symmetric) **monoidal model category** is a category equipped with 
 
 * the structure of a  [[closed monoidal category|closed]] [[symmetric monoidal category|symmetric monoidal category]] 
 
