@@ -65,4 +65,7 @@ The decidable $K$-finite objects in any topos also form a Boolean topos whose su
 _Toby_: I think that I\'ll move the internal stuff to [[finite object]], to keep each page relatively short.
 
 By the way, do I understand you correctly that 'finite object' in topos theory by default means 'decidable K-finite object'?
+
+_Mike_: Okay (to the move).  To the question, I'm realizing more and more that I don't really have the background to be able to say what "topos theorists" say.  My only source for this material is the Elephant (and what I've been able to deduce on my own, which of course tells us nothing about terminology).  The Elephant never says "finite object" unqualified; only "finite cardinal" or "K-finite object" or "decidable K-finite object" or "$\tilde{K}$-finite object."  If "projective" means "externally projective," and likewise for "choice" and (maybe) "inhabited," then "finite object" should mean "finite cardinal," but I wouldn't use it that way myself out of fear of ambiguity and since "finite cardinal" means the same thing.  I don't see any objection to "internally finite object" meaning "decidable K-finite object," though.
+
 =--
