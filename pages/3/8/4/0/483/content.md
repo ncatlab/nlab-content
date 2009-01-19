@@ -14,9 +14,11 @@ A **directed space** is a topological space with an [[interval object|interval]]
 
 A **directed category** is a category with an [[interval object]].
 
-[[Tim Porter|Tim]] :  Eric, can you be more precise about what you mean, say, with the first of these? My approach would be first to see what the examples of things that we need as directed spaces:  spaces with a (local?) closed partial order for instance, Marco Grandis' $d$-spaces, Lorentz manifolds (no specific time direction, but can't go backwards, (so time slice will be something that needs to be 'formulateable'), causal sets in their various forms, and so on. We want both physics and computer science as inspirations I think.
+[[Tim Porter|Tim]] :  Eric, can you be more precise about what you mean, say, with the first of these? 
 
-Have a look at Martin Raussen and Lizbeth Fajstrup's workas well, then Philip Gaucher's flows, which although I think are too near the Computer Science applications for our needs have some very interesting aspects. 
+My approach would be first to see what the examples of things that we need as directed spaces:  spaces with a (local?) closed partial order for instance, Marco Grandis' $d$-spaces, Lorentz manifolds (no specific time direction, but can't go backwards, (so _time slice_ will be something that needs to be 'formulateable'), causal sets in their various forms, and so on. We want both physics and computer science as inspirations I think.
+
+Have a look at Martin Raussen and Lizbeth Fajstrup's work as well, then Philip Gaucher's flows, which although I think that they are too near the Computer Science applications for our needs, have some very interesting aspects. Finally look at Sanjeevi's pages at [LIX](http://www.lix.polytechnique.fr/~sanjeevi/).
 
 There were a lot of talks at [ATMCS08](http://www.lix.polytechnique.fr/~sanjeevi/atmcs/), last summer on this sort of thing.
 
