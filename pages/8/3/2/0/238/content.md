@@ -12,6 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-18
 
+* [[Todd Trimble]] 
+
+  * added a bit of material on terminal coalgebras to [[coalgebra]]. 
+
+  * had an organizational thought at the end of [[coalgebra]]. 
+
 * [[Toby Bartels]]
   * Adjustments to [[source]], [[target]], and [[identity assigning morphism]].
   * Comments and questions at [[finite set]], [[internal category]], and [[bicategory]].
