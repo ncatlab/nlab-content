@@ -35,7 +35,7 @@ Equivalently, and more tersely, a monoid is the [[hom-object]] of a [[enriched c
 Here are some examples:
 
 * A monoid object in [[Set]] (with cartesian product as tensor product) is a [[monoid]] in the usual sense.
-* A monoid object in [[Ab]] (with the usual tensor product of $\mathbb{Z}$-modules as the tensor product is a [[ring]].
+* A monoid object in [[Ab]] (with the usual tensor product of $\mathbb{Z}$-modules as the tensor product) is a [[ring]].
  A monoid object in the category of vector spaces over a field $k$ (with the usual tensor product of vector spaces) is an [[algebra]] over $k$.
 * For a commutative ring $R$, a monoid object in the category of $R$-modules (with its usual tensor product) is an [[algebra|$R$-algebra]].
 * A monoid object in [[Top]] (with cartesian product as the tensor product) is a topological monoid.
