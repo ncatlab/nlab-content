@@ -16,4 +16,4 @@
 
 This contains further references (which I'll list here with links eventually). It concludes with an outlook on his own work in
 
-* David Ben-Zvi, John Francis, David Nadler, [Integral Transforms and Drinfeld Centers in Derived Algebraic Geometry] ([arXiv](http://arxiv.org/abs/0805.0157))
+* David Ben-Zvi, John Francis, David Nadler, _Integral Transforms and Drinfeld Centers in Derived Algebraic Geometry_ ([arXiv](http://arxiv.org/abs/0805.0157))
