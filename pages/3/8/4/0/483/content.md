@@ -16,11 +16,11 @@ A **directed topological space** or d-space is pair $(X, d X)$ consisting of a [
 
 3. (concatenation) $dX$ is closed under path-concatenation: if the d-paths $a, b$ are consecutive in $X$ $(a(1) = b(0))$, then their ordinary concatenation $a+b$ is also a d-path
 
-$$(a+b)(t) = a(2t),\,\text{if}\, 0\le t\le 1/2,$$
+$$(a+b)(t) = a(2t),\,\text{if}\, 0\le t\le \frac{1}{2},$$
 
-$$(a+b)(t) = b(2t),\,\text{if}\, 1/2\le t\le 1.$$
+$$(a+b)(t) = b(2t),\,\text{if}\, \frac{1}{2}\le t\le 1.$$
 
-A **morphism of directed topological spaces**  $f : (X, d X)\to (Y , d Y)$ is a morphism of topological spaces $f: X \o Y$ which preserves directed paths in that for every $\gamma: I \to X$ in $d X$ the path $f_* \gamma : I \stackrel{\gamma}{\to} X \stackrel{f}{\to} X$ is in $d Y$.
+A **morphism of directed topological spaces**  $f : (X, d X)\to (Y , d Y)$ is a morphism of topological spaces $f: X \to Y$ which preserves directed paths in that for every $\gamma: I \to X$ in $d X$ the path $f_* \gamma : I \stackrel{\gamma}{\to} X \stackrel{f}{\to} Y$ is in $d Y$.
 
 #Examples#
 
