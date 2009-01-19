@@ -14,17 +14,17 @@ This functor, which we can think of as a kind of 'multiplication', makes $M$ int
 
 ##Definition##  
 
-A *monoidal category* is a [[category]] $M$ equipped with a [[functor]]
+A **monoidal category** is a [[category]] $M$ equipped with a [[functor]]
 $$ \otimes : M \times M \to M $$
-called the *tensor product*, an object
+called the **tensor product**, an object
 $$ 1 \in M $$
-called the _unit object_, a natural isomorphism
+called the **unit object**, a natural isomorphism
 $$ a_{x,y,z} : (x \otimes y) \otimes z \to x \otimes (y \otimes z) $$
-called the *associator*, a natural isomorphism
-$$ \ell_x : 1 \otimes x \to x $$
-called the *left unitor*, and a natural isomorphism 
-$$  r_x : x \otimes 1 \to x $$
-called the *right unitor*, which must satisfy a couple of equations, most notably the *pentagon identity*:
+called the **associator**, a natural isomorphism
+$$ \lambda_x : 1 \otimes x \to x $$
+called the **left unitor**, and a natural isomorphism 
+$$  \rho_x : x \otimes 1 \to x $$
+called the **right unitor**, which must satisfy a couple of equations, most notably the **pentagon identity**:
 
 +--{: style="text-align:center"}
 <svg xmlns="http://www.w3.org/2000/svg" width="30em" height="20em" viewBox="0 0 480 320">
