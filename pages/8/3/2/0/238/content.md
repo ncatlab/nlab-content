@@ -12,6 +12,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-18
 
+* [[Mike Shulman|Mike]]:
+
+  * Added detail, examples, and terminological comments to [[bicategory]].
+
+  * Created [[2-categorical limit]].
+
+  * Replied at [[finite set]].
+
 * [[Todd Trimble]] 
 
   * added a bit of material on terminal coalgebras to [[coalgebra]]. 
