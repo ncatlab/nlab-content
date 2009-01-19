@@ -11,7 +11,7 @@ $$
 $$
 in $V$, i.e. a [[span]] in the [[opposite category]] $V^{op}$.
 
-Co-spans in a category $V$ with small co-limits form a [[bicategory]] whose objects are the objects of $V$, whoe morphisms are cospans between two objects, and whose 2-morphisms $\eta$ are commuting diagrams of the form
+Co-spans in a category $V$ with small co-limits form a [[bicategory]] whose objects are the objects of $V$, whose morphisms are co-spans between two objects, and whose 2-morphisms $\eta$ are commuting diagrams of the form
 
 $$
   \array{
