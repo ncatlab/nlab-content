@@ -1,19 +1,63 @@
 #Definition#
 
-A **monoid** is the [[hom-set]] of a category with a single object. This is equivalent to whatever definition you may be used to. In partiocular, this means that a monoid is a set $A$ equipped with a binary operation $p : A \times A \to A$ and special element $e \in A$ such that $e$ and $p$ satisfy the usual axioms of an associative product $p$ with unit $e$.
+A **monoid** is a set $M$ equipped with a binary operation $\mu: M \times M \to M$ and special element $1 \in M$ such that $1$ and $x \cdot y = \mu(x,y)$ satisfy the usual axioms of an associative product with unit, namely the **associative law**:
 
-Actually, one may wish to define a monoid to *be* a category with a single object, but taking this too literally will create conflicts in notation. Instead (for a given monoid $A$), let $\mathbf{B}A$ be the corresponding category with single object $\bullet$ and with $A$ as its [[hom-set]], so that $A = Hom_{\mathbf{B}A}(\bullet, \bullet)$. This realizes every monoid as a monoid of [[endomorphism|endomorphisms]].
+$$ (x \cdot y) \cdot z = x \cdot (y \cdot z)$$
+
+and the **left and right unit laws**: 
+
+$$ 1 \cdot x = x = x \cdot 1 .$$
+
+Equivalently, and more efficiently, we may say that a monoid is the [[hom-set]] of a [[category]] with a single [[object]], equipped with the structure of its unit element and composition. 
+
+More tersely, one may say that a monoid *is* a category with a single object, but taking this too literally may create conflicts in notation.  To avoid this, for a given monoid $M$, we write $\mathbf{B}M$ for the corresponding category with single object $\bullet$ and with $M$ as its [[hom-set]], so that $M = Hom_{\mathbf{B}M}(\bullet, \bullet)$. This realizes every monoid as a monoid of [[endomorphism|endomorphisms]].
+
+
+#Examples#
+
+* A monoid in which every element has an inverse is a [[group]]. For that reason monoids are often addressed as _semi-group_s. (But this term is often extended to monoids without identities, that is to sets equipped with any associative operation.)
+
+#Generalizations#
+
+We can [[internalization|internalize]] the concept of 
+monoid so that it makes sense in any [[monoidal category]] $(C,\otimes,I)$.  Namely, a **monoid in $C$** is an object $M$ equipped with a multiplication $\mu: M \otimes M \to M$ and a unit $\eta: I \to M$ satisfying the **associative law**:
+
+![A pic](http://upload.wikimedia.org/wikipedia/commons/b/b1/Monoid_mult.png)
+
+and the **left and right unit laws**:
+
+![A pic](http://upload.wikimedia.org/wikipedia/commons/1/10/Monoid_unit.png)
+
+Here $\alpha$ is the [[associator]] in $C$, while $\lambda$ and $\rho$ are the left and right [[unitor|unitors]].
+
+Equivalently, and more tersely, a monoid is the [[hom-object]] of a [[enriched category|$C$-enriched category] with a single object, equipped with its composition and identity-assigning morphisms.
+
+Here are some examples:
+
+* A monoid object in [[Set]] (with cartesian product as tensor product) is a [[monoid]] in the usual sense.
+* A monoid object in [[Ab]] (with the usual tensor product of $\mathbb{Z}$-modules as the tensor product is a [[ring]].
+ A monoid object in the category of vector spaces over a field $k$ (with the usual tensor product of vector spaces) is an [[algebra]] over $k$.
+* For a commutative ring $R$, a monoid object in the category of $R$-modules (with its usual tensor product) is an [[algebra|$R$-algebra]].
+* A monoid object in [[Top]] (with cartesian product as the tensor product) is a topological monoid.
+* A monoid object in the category of monoids (with cartesian product as the tensor product product) is a commutative monoid.  This is a version of the [[Eckmann–Hilton theorem]].
+* A monoid object in the category of complete join-semilattice (with cartesian product as the tensor product) is a unital [[quantale]].
+* Given any monoidal category $C$, a monoid in the monoidal category $C^{op}$ is called a [[comonoid]] in $C$.
+* For any category $C$, the [[endofunctor]] category $C^C$ has a monoidal structure induced by composition of endofunctors, and a monoid object in $C^C$ is a [[monad]] on $C$.
+
+These are examples of monoids internal to monoidal categories.  More generally, given any [[bicategory]] $B$ and a chosen object $a$, the hom-category $B(a,a)$ has the structure of a monoidal category.  So, the concept of monoid makes sense in any [[bicategory]] $B$: we define a **monoid in $B$** to be a monoid in $B(a,a)$ for some object $a \in B$.  This often called a [[monad]] in $B$.  The reason is that a monad in [[Cat]] is the same as monad on a category.
+
+A monoid in a bicategory $B$ may also be described as the [[hom-object]] of a $B$-[[enriched category]] with a single object. 
 
 #Remarks on notation
 (originally from [[category algebra]])
 
-It is important to _distinguish_ between a $k$-tuply monoidal structure and the corresponding $k$-tuply degenerate category, even though there is a map identifying them. The issue appears here for instance when discussing the universal $G$-bundle in its groupoid-incarnation. It is 
+It can be important to distinguish between a $k$-tuply monoidal structure and the corresponding $k$-tuply degenerate category, even though there is a map identifying them. The issue appears here for instance when discussing the universal $G$-bundle in its groupoid incarnation.  This is 
 $$
   G \to \mathbf{E}G \to \mathbf{B}G
 $$
 (where $\mathbf{E}G = G//G$ is the action groupoid of $G$ acting on itself). On the left we crucially have $G$ as a monoidal 0-category, on the right as a once-degenerate 1-category. Without this notation we cannot even _write down_ the universal $G$-bundle!
 
-Or take the important difference between group representations and group 2-algebras, the former being functors $\mathbf{B}G \to Vect$, the latter functors $G \to Vect$. This is important all over the place.
+Or take the important difference between group representations and group 2-algebras, the former being functors $\mathbf{B}G \to Vect$, the latter functors $G \to Vect$. Both these are very important.
 
 Or take an abelian group $A$ and a codomain like $2Vect$. Then there are 3 different things we can sensibly consider, namely 2-functors
 $$
@@ -22,15 +66,16 @@ $$
 $$
   \mathbf{B}A \to 2Vect
 $$
+and
 $$
   \mathbf{B}^2A \to 2Vect
   \,.
 $$
-All of this is different. All of this is needed. The first one is the group 3-algebra of $A$. The second is pseudo-representations of the group $A$. The third is representations of the 2-group $\mathbf{B}A$. We have notation to distinguish this, and we should use it.
+All of these concepts are different, and useful. The first one is an object in the group 3-algebra of $A$. The second is a pseudo-representation of the group $A$. The third is a representations of the 2-group $\mathbf{B}A$. We have notation to distinguish this, and we should use it.
 
 Finally, writing $\mathbf{B}G$ for the 1-object $n$-groupoid version of an $n$-monoid $G$ makes notation behave nicely with respect to nerves, because then realization bars $|\cdot|$ simply commute with the $B$s in the game: $|\mathbf{B}G| = B|G|$.
 
-This behaviour under nerves shows also that, generally, writing $\mathbf{B}G$ gives the right intuition for what an expression means. For instance, what's the "geometric" reason that a group representation is an arrow $\rho : \mathbf{B}G \to Vect$? It's because this is, literally, equivalently thought of as the corresponding classifying map of the vector bundle on $\mathbf{B}G$ which is $\rho$-associated to the universal $G$-bundle:
+This behavior under nerves shows also that, generally, writing $\mathbf{B}G$ gives the right intuition for what an expression means. For instance, what's the "geometric" reason that a group representation is an arrow $\rho : \mathbf{B}G \to Vect$? It's because this is, literally, equivalently thought of as the corresponding classifying map of the vector bundle on $\mathbf{B}G$ which is $\rho$-associated to the universal $G$-bundle:
 
 the $\rho$-associated vector bundle to the universal $G$-bundle is, in its groupoid incarnations,
 $$
@@ -63,16 +108,4 @@ $$
   \,,
 $$
 
-In summary, it is important to make people understand that groups can be identified with one-object groupoids. But next it is important to make clear that not everything that can be identified is actually equal, for instance concerning the crucial difference between the category in which $G$ lives and the 2-category in which $\mathbf{B}G$ lives.
-
-#Examples#
-
-* A monoid in which every element has an inverse is a [[group]]. For that reason monoids are often addressed as _semi-group_s. (But this term is often extended to monoids without identities, that is to sets equipped with any associative operation.)
-
-#Generalizations#
-
-The concept _monoid_ makes sense in any [[monoidal category]] $(C, \otimes)$: a monoid in $C$ is an object $c$ equipped with a multiplication $\mu: c \otimes c \to c$ and a unit $\eta: I \to c$ satisfying evident associativity and unit axioms. Equivalently, a monoid is the [[hom-object]] of a $C$-enriched category with a single object.
-
-For instance a "linear monoid" is a monoid in $Vect$, hence an [[algebra]]. 
-
-Accordingly, the concept of monoid makes sense in any [[bicategory]] $B$: for any object $a$ of $B$, the local hom-category $B(a, a)$ carries a monoidal category structure, and a monoid in $B$ is a monoid $A: a \to a$ in such a monoidal category. A monoid in $B$ may also be described as the [[hom-object]] of a $B$-[[enriched category]] with a single object. Equivalently, this is the same as a [[monad]] in $B$.
+In summary, it is important to make people understand that groups can be identified with one-object groupoids. But next it is important to make clear that not everything that can be identified should be, for instance concerning the crucial difference between the category in which $G$ lives and the 2-category in which $\mathbf{B}G$ lives.
