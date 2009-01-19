@@ -12,6 +12,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-19
 
+* [[Urs Schreiber|Urs]]
+
+  * following discussion by [[Eric Forgy|Eric]] at [[directed space]] I propose in the discussion section a formalization of the notion "an object $X$ is _directed_" and "an object $X$ is _undirected_" for the case that $X$ is an object in a category with [[interval object]].
+
+
 * [[John Baez|John]]: 
 
    * expanded the entry on [[monoid]], giving lots of examples of monoid objects in monoidal categories.  I think lists of examples like can be very useful and fun, and I want more!  I would like a list of [[PROP|PROPs]], for example, saying that $FinSet$ is the PROP for commutative monoids, and so on.  
