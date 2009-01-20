@@ -12,18 +12,21 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-20
 
+* [[Mike Shulman|Mike]]:
+
+  * Replied at [[fibration]], [[directed object]], and [[homotopy hypothesis]].
+
 * [[Urs Schreiber|Urs]]
 
   * commented in the discussion at [[fibration]] on the use of the word _transport_
 
 * [[Tim Porter|Tim]]  
 
-    *  I have added a question to [[homotopy hypothesis]]
-asking what criteria should be added to give 'good' categorical or groupoidal models for homotopy types.
+  *  I have added a question to [[homotopy hypothesis]] asking what criteria should be added to give 'good' categorical or groupoidal models for homotopy types.
  
-    * For  [[directed object]] I have, similarly, tried to pose question about the criteria that should be 'directing' our search for good concepts in this case.
+  * For  [[directed object]] I have, similarly, tried to pose question about the criteria that should be 'directing' our search for good concepts in this case.
 
-    *  I have also added a question about the 'optimal' definition of [[fibration]], as it seems to me that the lifting property is nearer the idea of fibration than the [[transport]] one that Mike has put forward. 
+  *  I have also added a question about the 'optimal' definition of [[fibration]], as it seems to me that the lifting property is nearer the idea of fibration than the [[transport]] one that Mike has put forward. 
 
 * [[Mike Shulman|Mike]]:
 
