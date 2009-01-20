@@ -12,6 +12,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-20
 
+* [[Tim Porter|Tim]]  
+
+    *  I have added a question to [[homotopy hypothesis]]
+asking what criteria should be added to give 'good' categorical or groupoidal models for homotopy types.
+ 
+     * For  [[directed object]] I have, similarly, tried to pose question about the criteria that should be 'directing' our search for good concepts in this case.
+
 * [[Mike Shulman|Mike]]:
 
   * Created [[fibration]], [[Grothendieck fibration]], and [[pseudofunctor]].
