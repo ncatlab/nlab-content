@@ -17,7 +17,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
     *  I have added a question to [[homotopy hypothesis]]
 asking what criteria should be added to give 'good' categorical or groupoidal models for homotopy types.
  
-     * For  [[directed object]] I have, similarly, tried to pose question about the criteria that should be 'directing' our search for good concepts in this case.
+    * For  [[directed object]] I have, similarly, tried to pose question about the criteria that should be 'directing' our search for good concepts in this case.
+
+    *  I have also added a question about the 'optimal' definition of [[fibration]], as it seems to me that the lifting property is nearer the idea of fibration than the [[transport]] one that Mike has put forward. 
 
 * [[Mike Shulman|Mike]]:
 
