@@ -10,6 +10,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-01-20
+
+* [[Mike Shulman|Mike]]:
+
+  * Created [[fibration]] and [[Grothendieck fibration]].
+
 # 2009-01-19
 
 * [[Urs Schreiber|Urs]]
