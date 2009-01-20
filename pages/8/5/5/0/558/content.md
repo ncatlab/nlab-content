@@ -17,6 +17,9 @@ _[[Mike Shulman|Mike]]_: My perspective is that we are looking for good notions 
 _Mike_: When I glanced at that, it looked as though he was actually using [[Segal category|Segal categories]] for his $(\infty,n)$-categories rather than some generalization of quasicategories.
 
 [[Tim Porter|Tim]] I think, Mike, you are missing my point. You use the word 'good' with regard to notion. My point is that the higher homotopy operations ARE categorical structures that WILL  BE there in the various models. For instance, there are formulae given in Curtis's old survey article for the Samelson product in a simplicial group.  (No proof is available in the literature.) This uses shuffle products and various combinatorial ideas that fit well from the categorical viewpoint. As category theorists we can hope to find new understanding of what makes the infinity groupoid models work and hence what the infinity category models should be. As these products DO use inverses the problem of interpreting their analogue in an infinity category is not easy.  I feel it has, from my perspective, something to do with the basic homotopy coherent cube and the free simplicial cat resolution of a category, but I am not sure how to handle it. 
+
+_Mike_: I think we are talking past each other.  I was trying to answer your question "why bother to search for other models?" by saying that from my perspective, what we're doing isn't just searching for new models for spaces, but rather searching for a good notion of $\infty$-category that still reduces to a model for spaces.  I took your mention of higher homotopy operations as a proposed answer to the first question "why bother to search for other models?"  So I wasn't addressing homotopy operations specifically -- I don't have any disagreement with it -- just pointing out that there are also other answers to the first question.
+
 =--
 
 #Remarks#
