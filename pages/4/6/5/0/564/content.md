@@ -37,7 +37,7 @@ $$
   \,.
 $$
 
-Then consider pairs of objects $(a \in A, b \in B)$ with the same underlying set,  $U(a) \simeq U(b)$. Then ... (see reference below).
+Then consider pairs of objects $(a \in A, b \in B)$ with the same underlying set,  $U(a) \simeq V(b)$. Then ... (see reference below).
 
 #References#
 
