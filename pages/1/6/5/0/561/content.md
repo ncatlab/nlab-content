@@ -35,4 +35,39 @@ and the discussion
 http://golem.ph.utexas.edu/category/2006/09/wirth_and_stasheff_on_homotopy.html
 
 on the cafe would be a good idea to add.
+
+_[[Urs Schreiber|Urs]]:_ In situations where one wants
+to talk of transport, the fibration usually arises as the
+pullback of some "universal fibration", a
+[[generalized universal bundle]]. For instance 
+(split op-)fibrations of categories are precisely the pullbacks of the universal $Cat$-bundle 
+$Cat_* \to Cat$ along a functor $F : C \to Cat$.
+
+If one looks at this kind of situation where we do have an established notion of _(parallel) transport_ one sees:
+
+* it is the classifying functor $F : C \to Cat$ which should be addressed as the "(parallel) transport", while the corresponding fibration is its "action object" as in [[action groupoid]], i.e. the thing whose objects are all possible things that the parallel transport can transport and whose morphisms take these things to the image of that transport. So it's a subtle difference, but an important one.
+
+For instance, to make this more concrete, consider the category of [[generalized smooth space|smooth]] [[groupoids]] (which is a [[category of fibrant objects]]), let for any manifold $X$ the groupoid $P_1(X)$ be the groupoid of smooth thin-homotopy classes of paths in $X$, let $G$ be any Lie group, $\mathbf{B} G$ the corresponding one-object Lie groupoid and consider the _universal fibration _ $\mathbf{E} G \to \mathbf{B}G$ -- the groupoid incarnation of the universal $G$-bundle as described at [[generalized universal bundle]]. Then
+
+Theorem: $G$-bundles with connection on $X$ are equivalent to functors $tra : \widehat{P_1(X)} \to \mathbf{B}G$ out of acyclic fibrations $\widehat{P_1(X)} \to P_1(X)$ over $P_1(X)$ (i.e. smooth [[anafunctor]]s $P_1(X) \to \mathbf{B}G$). These functors are literally the corresponding "parallel transport": indeed, evaluated on a path $\gamma$ in $X$ there is locally a 1-form $A \in \Omega^1(X, Lie(G))$ such that the group element $tra(\gamma)$ is the traditional parallel transport of that 1-form, $tra(\gamma) = P exp(\int_\gamma A)$.
+
+Now, we can form the fibration which is associated with this parallel transport, namely the pullback
+
+$$
+  \array{
+     tra^* \mathbf{E} G &\to& \mathbf{E}G
+     \\
+     \downarrow && \downarrow
+     \\
+     \widehat{P_2(X)} &\stackrel{tra}{\to}& \mathbf{B}G
+     \\
+     \downarrow
+     \\
+     P_2(X)
+  }
+  \,.
+$$
+
+This fibration $tra^* \mathbf{E}G \to \widehat{P_2(X)}$ is what is properly speaking the [[action groupoid]] of $tra$ acting on the fibers of the principal $G$-bundle. 
+
 =--
