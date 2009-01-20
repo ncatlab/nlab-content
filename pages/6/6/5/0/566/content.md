@@ -1,0 +1,1 @@
+Another term for [[dualizing object]]. See the discussion on terminology there.
