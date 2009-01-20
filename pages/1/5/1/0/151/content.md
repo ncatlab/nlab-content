@@ -19,8 +19,33 @@ From a fundamental category theoretic perspective, there are two fundamental kin
 #Examples#
 
 * the duality between [[space and quantity]]
-* Pontryagin duality [[Pontryagin duality]]
-* Stone duality [[Stone duality]]
+* [[Pontryagin duality]]
+* [[Stone duality]]
+
+#Definition#
+
+A _duality_ or _dual equivalence_ is an [[equivalence]] between a category $C$ and the abstract dual (i.e. [[opposite category|opposite]]) of a category $D$.
+
+#Remarks#
+
+* Often two categories are not related by a dual equivalence, but just by a [[dual adjunction]]: an [[adjunction]] between $C^{op}$ and $C$. But every dual adjunction induces a _maximal dual equivalence_ between subcategories of $C$ and $D$, as described below.
+
+
+#Maximal dualities inside dual adjunctions#
+
+...
+
+
+#Dualizing objects#
+
+Of particular interest are concrete dualities between concrete categories $C, D$, i.e. categories equipped with a faithful functor 
+$f : C \to Set$, $\hat f : D \to Set$
+to [[Set]], which are represented by objects $a \in C$, $\hat a \in D$ with the same underlying set $f(a) = \hat f(\hat a)$. Such objects are known as [[dualizing object]]s. 
+
+#References#
+
+* H.-E. Porst, W. Tholen, _Concrete Dualities_ in _Category Theory at Work_, Herrlich, Porst (eds.) ([pdf](http://www.heldermann.de/R&E/RAE18/ctw07.pdf))
+
 
 
 #Blog discussion#
