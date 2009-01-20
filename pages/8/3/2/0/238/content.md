@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-20
 
+* [[Urs Schreiber|Urs]]
+
+  * commented in the discussion at [[fibration]] on the use of the word _transport_
+
 * [[Tim Porter|Tim]]  
 
     *  I have added a question to [[homotopy hypothesis]]
