@@ -70,4 +70,6 @@ $$
 
 This fibration $tra^* \mathbf{E}G \to \widehat{P_2(X)}$ is what is properly speaking the [[action groupoid]] of $tra$ acting on the fibers of the principal $G$-bundle. 
 
+_[[Mike Shulman|Mike]]_: Can you clarify the distinction between "lifting" and "transport"?  In what way does the lifting of a path $f$ starting at a point $e$ _not_ transport $e$ along $f$?  Certainly in geometric situations to get a _parallel_ notion of transport, you need a connection, but I see that as a stronger requirement.
+
 =--
