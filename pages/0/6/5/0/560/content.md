@@ -5,13 +5,13 @@ In a category with [[interval object]] one has for every object $X$ a notion of 
 The idea is that if for all these paths in $X$ there is a _reverse_ path, then the object $X$ is _undirected_ or _groupoidal_. Otherwise it is _directed_. 
 
 
-#Definition: directed object (tentative)#
+#Definition (tentative)#
 
 Let $V$ be a 
 [[interval object|category with interval object]], with the interval object denoted $I$. Recall that there is for every object $X$ of $V$ a canonical morphism
 $X_0 \to [I,X]$ which embeds the points of $X$, $X_0 := [pt,X]$ as the constant paths into the "object of directed paths" $[I,X]$. Assume now that $X_0 \simeq X$.
 
-An object $X$ in $V$ is called _undirected_ or an _undirected object_ (with respect to $I$) if this morphism is a weak equivalence:
+An object $X$ in $V$ is called **undirected** or an **undirected object** (with respect to $I$) if this morphism is a weak equivalence:
 
 $$
   (X undirected) \Leftrightarrow
@@ -19,7 +19,7 @@ $$
   \,;
 $$
 
-otherwise it is called _directed_ or a _directed object_.
+otherwise it is called **directed** or a **directed object**.
 
 
 #Examples#
@@ -65,33 +65,17 @@ dipaths. A discussion document and overview of some techniques_ ([pdf](http://dr
 
 ***
 
-Here is a leftover discussion which used to be at [[directed space]] and is now probably mostly taken care of. Eric should decide if we can remove this discussion now.
-
+Here is a leftover discussion which used to be at [[directed space]] and is now probably mostly taken care of. 
 
 #Discussion#
 
-+--{.query}
+_[[Eric Forgy|Eric]] asks about how best to define directed spaces that involves [[interval object]]_
 
-Can directed spaces be defined using [[interval object]]?
-
-###Tentative (and Probably Wrong) Definition###
-
-A **directed space** is a topological space with an [[interval object|interval]].
-
-A **directed category** is a category with an [[interval object]].
-
-=--
-
-[[Tim Porter|Tim]] (re: a tentative definition of directed space):  Eric, can you be more precise about what you mean, say, with the first of these? 
-
-My approach would be first to see what the examples of things that we need as directed spaces:  spaces with a (local?) closed partial order for instance, Marco Grandis' $d$-spaces, Lorentz manifolds (no specific time direction, but can't go backwards, (so _time slice_ will be something that needs to be 'formulateable'), causal sets in their various forms, and so on. We want both physics and computer science as inspirations I think.
+[[Tim Porter|Tim]]: My approach would be first to see what the examples of things that we need as directed spaces:  spaces with a (local?) closed partial order for instance, Marco Grandis' $d$-spaces, Lorentz manifolds (no specific time direction, but can't go backwards, (so _time slice_ will be something that needs to be 'formulateable'), causal sets in their various forms, and so on. We want both physics and computer science as inspirations I think.
 
 Have a look at Martin Raussen and Lizbeth Fajstrup's work as well, then Philip Gaucher's flows, which although I think that they are too near the Computer Science applications for our needs, have some very interesting aspects. Finally look at Sanjeevi's pages at [LIX](http://www.lix.polytechnique.fr/~sanjeevi/).
 
 There were a lot of talks at [ATMCS08](http://www.lix.polytechnique.fr/~sanjeevi/atmcs/), last summer on this sort of thing.
-
-[[Urs Schreiber|Urs]]: 
-Eric, in the way people usually think about "directed spaces", such as the references below, there is no good reason to speak of a "directed category". On the contrary: just as an ordinary space has a [[fundamental groupoid]] because one can traverse every path in both directions, a _directed space_ is supposed to be something such that paths in it form not a groupoid in general, but just a category: its [[fundamental category]]. Maybe we should chat about the definition of directed spaces as in the literature given below (which I would have to remind myself of) and in the sense which you are trying to develop (which is only vaguely clear to me at the moment!) on the blog.
 
 [[Urs Schreiber|Urs]]: 
 Ah, now that I re-read what you say above, maybe this is what you are getting at:
@@ -109,8 +93,4 @@ Notice that for instance in a [[category of fibrant objects]] the map $X \stackr
 
 For instance if we take $I = G_1 = \{a \to b\}$ the 1-[[globe]] aka the first [[oriental]] then
 all strict $\omega$-groupoids are undirected with respect to this definition, while a [[strict omega-category]] which is not an $\omega$-groupoid will be undirected with respect to this definition. The way it is supposed to be.
-
-_[[Eric Forgy|Eric]] says_: Now we're getting somewhere! Thanks Tim and Urs. It seemed to me that the [[interval object]] should come into play here and now it seems we can bring it in. I'll try to pull something out of Urs' statement, but was there a typo? Should a strict $\omega$-catgeory that is not an $\omega$-groupoid be _directed_?
-
-_[[Urs Schreiber|Urs]]_: yes, typo. I have stated the definition now above the way I imagined it.
 
