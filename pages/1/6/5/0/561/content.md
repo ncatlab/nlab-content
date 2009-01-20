@@ -70,6 +70,10 @@ $$
 
 This fibration $tra^* \mathbf{E}G \to \widehat{P_2(X)}$ is what is properly speaking the [[action groupoid]] of $tra$ acting on the fibers of the principal $G$-bundle. 
 
-_[[Mike Shulman|Mike]]_: Can you clarify the distinction between "lifting" and "transport"?  In what way does the lifting of a path $f$ starting at a point $e$ _not_ transport $e$ along $f$?  Certainly in geometric situations to get a _parallel_ notion of transport, you need a connection, but I see that as a stronger requirement.
+_[[Mike Shulman|Mike]]_:  Can you clarify the distinction between "lifting" and "transport"?  In what way does the lifting of a path $f$ starting at a point $e$ _not_ transport $e$ along $f$?  Certainly in geometric situations to get a _parallel_ notion of transport, you need a connection, but I see that as a stronger requirement.
+
+_[[Mike Shulman|Mike]] adds_: In fact, any topological fibration over $X$ (not just a bundle) induces a "transport" map from (the fundamental $\infty$-groupoid of) $X$ to the $(\infty,1)$-category $Top$, taking each point to its fiber.  Putting extra structure on the fibration, such as making it a $G$-bundle, corresponds to restricting the codomain of the transport functor to land in some smaller subcategory, such as $\mathbf{B}G$.  A reference in classical homotopy theory is May's "Classifying spaces and fibrations."
+
+I agree with what Urs said that the "transport" properly refers to the corresponding functor into $Top$, $Cat$, or $\mathbf{B}G$, with the fibration being the "action object."  Then the property of "being a fibration" means "can be equipped with a transport" or "can be obtained from a transport."  These are all important points to be added, but I think that what I wrote is still correct.
 
 =--
