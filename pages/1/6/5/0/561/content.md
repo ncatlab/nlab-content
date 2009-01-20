@@ -81,4 +81,13 @@ I agree with what Urs said that the "transport" properly refers to the correspon
 
 If you look at the classical treatment of fibre spaces (and I found a copy of Grothendieck's 1950s notes on them in a pile of stuff today), there is no thought of transport, just of lifting. Serre, who revolutionised the algebraic topology of fibre spaces and fibrations is using lifting, not transport. The link between the transport functor and the notion of fibration emerged via the 'Grothendieck construction' (due to Ehresmann as well.. and there transport was part of the story that he wanted) but was part of the image of fibre spaces\fibrations as being like semi-direct products and that took a long time to get to the present state.
 
+
+_[[Mike Shulman|Mike]]_: Well, I think a lot of what we do here could be accused of being "mathematics made difficult."  Cf. the first sentence of [[group]].  But I believe that it is useful and important to have a correct conceptual understanding, in addition to any technically simpler definition that one works with in practice.
+
+For instance, I believe that the "real" definition of a [[monoidal category]] requires that "all diagrams of constraints commute," while the fact that it's enough to check two particular diagrams is a happy accident.  Presenting the pentagon and unit axioms as the God-given definition of a monoidal category, without mentioning that the only reason this is an okay definition is because you can prove a coherence theorem from it, leads the student quite naturally to wonder why God likes pentagons.
+
+Likewise, I believe that the only reason the definition of a fibration via lifting properties is a _correct_ definition is that it _does_ lead to the complete functoriality up to higher homotopies.  (One doesn't need complicated notions of $\infty$-categories to get an intuitive feel for how this works: it's enough to observe that lifting of 2-cells gives you homotopy-uniqueness for lifts of paths, lifting of 3-cells gives you homotopy-uniqueness for lifts of 2-cells, etc.) The fact that it took many years for this to be understood is not, to me, an argument against its truth, or against its expository helpfulness.
+
+Also, I wrote this page not to be just about the topological notion of fibration, but to include categorical (Grothendieck) fibrations as well and show the commonality between them.  And for that I think the notion of transport is indispensable, since categorical fibrations can't be defined by a simple lifting property.
+
 =--
