@@ -14,7 +14,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Mike Shulman|Mike]]:
 
-  * Created [[fibration]] and [[Grothendieck fibration]].
+  * Created [[fibration]], [[Grothendieck fibration]], and [[pseudofunctor]].
 
 # 2009-01-19
 
