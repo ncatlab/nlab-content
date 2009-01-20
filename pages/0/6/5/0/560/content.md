@@ -104,3 +104,11 @@ The idea of using directed cubes is there in the literature.  (I would have to c
 A final point is that Gaucher uses semicategories (i.e. without identities) because identities are problematic in the computer scientific applications (for the same sort of reason as they cause problems in cobordism theory).
 
 _[[Mike Shulman|Mike]]_: I think that Thomason's modeling of homotopy types with categories is not really relevant because the modeling happens in a very different way.  For Thomason, a category models a homotopy type via its [[nerve]], which corresponds categorically to constructing an $\infty$-groupoid from a category by forcibly inverting all the arrows up to homotopy.  What we are looking for here is instead a directed analogue of the way that groupoids model all (undirected) 1-types, which is quite different: the morphisms in the groupoid are precisely the paths in the space, and they are already invertible because the space is undirected.  We want a "fundamental category" of a directed space which directly generalizes the fundamental groupoid of an undirected space.
+
+[[Tim Porter|Tim]] : You may like to look at the paper I wrote 
+
+Enriched categories and models for spaces of evolving states, Theoretical Computer 
+Science, 405, (2008), pp. 88 - 100. 
+
+I put forward simplicially enriched categories as one possible model for a direct space.  There is a fundamental category that generalises the fundamental groupoid and I think coincides with the similar concept defined by Raussen and Fajstrup. I should point out that my construction uses a nerve like construction!
+
