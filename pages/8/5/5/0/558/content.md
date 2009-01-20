@@ -14,6 +14,8 @@ _[[Mike Shulman|Mike]]_: My perspective is that we are looking for good notions 
 
 [[Urs Schreiber|Urs]]: Lurie is now talking in (electronic) print about $(\infty,n)$-categories, [here](http://www-math.mit.edu/~lurie/papers/cobordism.pdf).
 
+_Mike_: When I glanced at that, it looked as though he was actually using [[Segal category|Segal categories]] for his $(\infty,n)$-categories rather than some generalization of quasicategories.
+
 =--
 
 #Remarks#
