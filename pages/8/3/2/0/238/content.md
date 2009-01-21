@@ -12,6 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-20
 
+* [[Urs Schreiber|Urs]]
+
+  * added diagrams to [[weak factorization system]] and created a stub entry [[monomorphism]] to saturate all the wanted links to it
+
+# 2009-01-20
+
 * [[John Baez|John]]:
 
   * Since Urs and Eric didn't respond to my question about deleting the discussion in [[monoidal category]] (see 2009-01-19), I went ahead and deleted it --- restore it if you like, after reading the comments at the end of that entry!  
