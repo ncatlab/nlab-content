@@ -84,3 +84,25 @@ This way of composing spans lets us define a [[2-category]] $Span(C)$ with:
 This is a weak 2-category has a nontrivial [[associator]]: composition of spans is not strictly associative, because pullbacks are defined only up to canonical isomorphism.  
 
 (Note that we must choose a specific pullback when defining the composite of a pair of morphisms in $Span(C)$, if we want to obtain a [[bicategory]] as traditionally defined; this requires the [[axiom of choice]]. Otherwise we obtain a bicategory with 'composites of morphisms defined only up to canonical iso-2-morphism', sometimes called an [[anabicategory]] or [[opetopic bicategory]].)
+
+#Some facts about spans#
+
+Let $C$ be a category with pullbacks and let $Span_1(C) := (Span(C))_{\sim 1}$ be the 1-category of objects of $C$ and isomorphism class of spans between them as morphisms.0
+
+Then
+
+* $Span_1(C)$ is a [[dagger category]].
+
+Next assume that $C$ is a [[cartesian monoidal category]]. Then clearly $Span_1(C)$ naturally becomes a [[monoidal category]] itself, but more: then
+
+* $Span_1(C)$ is a [[dagger compact category]].
+
+
+#References#
+
+These "facts about spans" are described in
+
+* John Baez, _Spans in quantum Theory_ ([web](http://math.ucr.edu/home/baez/span/), [pdf](http://math.ucr.edu/home/baez/span/span.pdf)
+[blog](http://golem.ph.utexas.edu/category/2007/10/spans_in_quantum_theory.html))
+
+which discusses how spans naturally capture crucial aspects of [[quantum field theory]].
