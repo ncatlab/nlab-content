@@ -415,3 +415,5 @@ _Toby_: For the record, I\'m happy with that.
 _Mike_: Me too.
 
 _John_: Since Urs and Eric expressed no opinion, I'm deleting the 'above discussion'.  We can always go back in time if we want to revive it.
+
+[[Urs Schreiber|Urs]]: sure, fine with me. Let's agree that no reaction means agreement. There are already so many other things one has to react to! ;-)
