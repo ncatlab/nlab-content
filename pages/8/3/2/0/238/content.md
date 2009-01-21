@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * added a bit of [[John Baez|John]]'s material to [[span]]
+
   * created [[complete Segal space]] and [[(infinity,n)-category]]
 
   * added diagrams to [[weak factorization system]] and created a stub entry [[monomorphism]] to saturate all the wanted links to it
