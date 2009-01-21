@@ -1,6 +1,6 @@
 #Definition#
 
-A _Kan fibration_ is a [[morphism]] $\pi : Y \to X$ of [[simplicial set|simplicia sets]] with the [[lifting property]] for all [[horn]] inclusions.
+A _Kan fibration_ is a [[morphism]] $\pi : Y \to X$ of [[simplicial set|simplicial sets]] with the [[weak factorization system|lifting property]] for all [[horn]] inclusions.
 
 This means that for 
 
@@ -29,7 +29,7 @@ $$
 
 #Quasi-fibration#
 
-A _quasi-fibration_ of simplicial sets is defined as above, but with the lifting property only imposed in _inner horns_: $\Lambda^k[n]$ with $0 \lt k \lt (n-1)$.
+A _quasi-fibration_ or _weak Kan fibration_ of simplicial sets is defined as above, but with the lifting property only imposed in _inner horns_: $\Lambda^k[n]$ with $0 \lt k \lt (n-1)$.
 
 
 #Relation to other concepts#
@@ -40,4 +40,4 @@ A _quasi-fibration_ of simplicial sets is defined as above, but with the lifting
 
 * A simplicial set $X$ for which the unique morphism $X \o pt$ to the [[terminal object|terminal simplicial set]] is a Kan fibration is called a [[Kan complex]].
 
-* A simplicial set $X$ for which the unique morphism $X \o pt$ to the [[terminal object|terminal simplicial set]] is a weak Kan fibration is called a [[quasi-category]].
+* A simplicial set $X$ for which the unique morphism $X \o pt$ to the [[terminal object|terminal simplicial set]] is a quasi-fibration/weak Kan fibration is called a [[quasi-category]].
