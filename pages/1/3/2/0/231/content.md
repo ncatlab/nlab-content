@@ -56,7 +56,11 @@ called the **right unitor**, which must satisfy a couple of equations, most nota
 </svg>
 =--  
 
-A monoidal category is said to be *strict* if the associator, left unitor and right unitors are all identity morphisms.  There is a [[strict 2-category]] MonCat with:
+(Hey!  Where did the pentagon identity go???)
+
+A monoidal category is said to be **strict** if the associator, left unitor and right unitors are all identity morphisms.  
+
+There is a [[strict 2-category]] MonCat with:
 
 * monoidal categories as objects,
 * [[monoidal functor]]s as morphisms, 
