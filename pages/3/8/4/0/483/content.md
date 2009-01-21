@@ -70,4 +70,6 @@ it seems to me you don't actually need to be looking for what you seem to be loo
 
 _[[Eric Forgy|Eric]]_: I doubt that what I am looking for is new. If you could help put a name on it, that would be great. I'm not exactly sure what I mean by directed category either other than a "category with a direction" :|
 
+[[Urs Schreiber|Urs]]: but a category _is_ directed! Recall that underlying every category is a [[directed graph]] (it is a directed graph equipped with a composition operation). So I am still puzzled by what you are looking for, because a "directed category" would have underlying it a "directed directed graph". What's that supposed to be? And why do you want it?
+
 =--
