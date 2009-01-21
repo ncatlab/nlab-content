@@ -10,7 +10,7 @@ By definition, the [[model category]] of $(\infty,1)$-categories is one which is
 
  * [[Segal category|Segal categories]];
 
- * complete Segal spaces;
+ * [[complete Segal space]]s;
 
  * [[quasi-category|quasi-categories]].
 
