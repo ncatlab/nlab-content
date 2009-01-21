@@ -120,4 +120,5 @@ Also, I wrote this page not to be just about the topological notion of fibration
 
 _Mike, again_: Okay, I basically rewrote the whole page, trying to take your comments into account.  What do you think of it now?
 
+[[Tim Porter|Tim]] :  It looks good. My objection was, sort of, pedagogical as I did not want to put off the reader who might be wanting to understand fibrations from the infinity cat point of view.  You nicely ease the way in, suggesting how the understanding of the basic classical notion evolves.  I like it.  Thanks.  
 =--
