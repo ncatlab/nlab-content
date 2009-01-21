@@ -1,14 +1,43 @@
 #Preliminaries#
 
-Let $K$ be a [[category]] and write $arr(K)$ for the [[arrow category]] of $K$: the category with arrows of $K$ as objects and commutative squares $gu=vf$ as morphisms $(u,v) : f \rightarrow g$. We may also refer to a commutative square $gu=vf$ as a **lifting problem** between $f$ and $g$.
+Let $K$ be a [[category]] and write $arr(K)$ for the [[arrow category]] of $K$: the category with arrows (= [[morphism]]s) $a \stackrel{f}{\to} b$ of $K$ as objects and commutative squares $g u=v f$ 
 
-We say a morphism $f$ has the **left lifting property** with respect to a morphism $g$, or equivalently that $g$ has the **right lifting property** with respect to $f$, if for every commutative square $(u,v) :f \rightarrow g$, there is an arrow from the codomain of $f$ to the domain of $g$ such that both triangles commute. We call such an arrow a **lift** or a **solution** to the lifting problem $(u,v)$.
+$$
+  \array{
+    a &\stackrel{u}{\to}& c
+    \\
+    \downarrow^f
+    &&
+    \downarrow^g
+    \\
+   b &\stackrel{v}{\to}& d    
+  }
+$$
+
+as morphisms $(u,v) : f \rightarrow g$. We may also refer to a commutative square $g u=v f$ as a **lifting problem** between $f$ and $g$.
+
+We say a morphism $f$ has the **left lifting property** with respect to a morphism $g$, or equivalently that $g$ has the **right lifting property** with respect to $f$, if for every commutative square $(u,v) :f \rightarrow g$ as above,  there is an arrow $\gamma$ 
+
+$$
+  \array{
+    a &\stackrel{u}{\to}& c
+    \\
+    \downarrow^f
+    &{}^{\exists \gamma}\nearrow&
+    \downarrow^g
+    \\
+   b &\stackrel{v}{\to}& d    
+  }
+$$
+
+
+from the codomain $b$ of $f$ to the domain $c$ of $g$ such that both triangles commute. We call such an arrow $\gamma$ a **lift** or a **solution** to the lifting problem $(u,v)$.
 
 #Definition#
 
 A **weak factorization system** on a category $K$ is a pair $(L, R)$ of classes of morphisms such that
 
-(i) Every morphism $f$ of $K$ can be factored as $f=rl$ with $l \in L$ and $r \in R$.
+(i) Every morphism $f$ of $K$ can be factored as $f=r l$ with $l \in L$ and $r \in R$.
 
 (ii) $L$ is the class of morphisms which have the left lifting property with respect to every morphism of $R$.
 
@@ -18,7 +47,7 @@ A **weak factorization system** on a category $K$ is a pair $(L, R)$ of classes 
 
 An **[[orthogonal factorization system]]** is a weak factorization system where we additionally require that the solutions to each lifting problem be _unique_.
 
-While every OFS is evidently a WFS, the primary examples of each are different.  A "basic example" of an OFS is (epi, mono) in [[Set]], while a "basic example" of a WFS is (mono, epi) in $Set$.  The superficial similarity of these two examples masks the fact that they generalize in very different ways.  The OFS (epi, mono) generalizes to any [[topos]] or [[pretopos]], and in fact to any [[regular category]] if we replace "epi" with [[regular epimorphism|regular epi]].  Likewise it generalizes to any [[quasitopos]] if we instead replace "mono" with [[regular monomorphism|regular mono]].
+While every OFS is evidently a WFS, the primary examples of each are different.  A "basic example" of an OFS is (epi, mono) in [[Set]] (meaning $L$ is the collection of [[epimorphism]]s and $R$ that of [[monomorphism]]s), while a "basic example" of a WFS is (mono, epi) in $Set$.  The superficial similarity of these two examples masks the fact that they generalize in very different ways.  The OFS (epi, mono) generalizes to any [[topos]] or [[pretopos]], and in fact to any [[regular category]] if we replace "epi" with [[regular epimorphism|regular epi]].  Likewise it generalizes to any [[quasitopos]] if we instead replace "mono" with [[regular monomorphism|regular mono]].
 
 On the other hand, saying that (mono,epi) is a WFS in $Set$ is equivalent to the [[axiom of choice]].  A less loaded statement is that $(L,R)$ is a WFS, where $L$ is the class of inclusions $A\hookrightarrow A\sqcup B$ into a binary coproduct and $R$ is the class of [[split epimorphism|split epis]].  In this form the statement generalizes to any [[extensive category]].
 
