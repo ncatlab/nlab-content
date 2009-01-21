@@ -58,4 +58,14 @@ _[[Eric Forgy|Eric]] says_: We have _directed spaces_ and we may soon have _dire
 
 Would that make sense?
 
+[[Urs Schreiber|Urs]]: Let's see, before getting into this idea of realizing a directed space as a space internal to something else or the like,
+I don't see what you want to mean by a "directed category". See, the point is that a category already _is_ supposed to be a combinatorial model for a directed space. Just as a groupoid is a combinaotrial model for an undirected space. This is the very motivation for defining directed spaces: to fill in the question marks in
+
+* groupoid | space  || category | ?? .
+
+This is why a directed space is defined such that its "thing of all paths in it" is not, in general, a [[fundamental groupoid]] but a [[fundamental category]].
+
+Methinks that for the application which you have in mind you want to be studying [[poset]]s and these are special cases of categories and in particular naturally interpreted as combinatorial models for directed space, in exactly the way in which you are thinking of them as directed spaces! So 
+it seems to me you don't actually need to be looking for what you seem to be looking for, since it is already quite easily there. But of course maybe I misunderstand what you are after.
+
 =--
