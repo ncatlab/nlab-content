@@ -23,7 +23,7 @@ In the light of [[FQFT|functorial quantum field theory]] (where this is motivate
 )
 
 More recently Mike Hopkins and Jacob Lurie have claimed 
-(se [Hopkins-Lurie on Baez-Dolan](http://golem.ph.utexas.edu/category/2008/05/hopkinslurie_on_baezdolan.html))
+(see [Hopkins-Lurie on Baez-Dolan](http://golem.ph.utexas.edu/category/2008/05/hopkinslurie_on_baezdolan.html))
 to have formalized and proven this hypothesis (at least for $n \leq 2$) in the context of [[(n,r)-category|(infinity,n)-categories]] modeled on [[n-category|n-categories]] [[internalization|internal to ]] [[quasi-category|quasicategories]]. See 
 
 * Jacob Lurie, _On the classification of topological field theories_ ([pdf](http://www-math.mit.edu/~lurie/papers/cobordism.pdf))
