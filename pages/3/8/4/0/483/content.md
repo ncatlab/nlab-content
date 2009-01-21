@@ -50,4 +50,12 @@ For instance, let's define **directed sets**: make the ordinary category [[Set]]
 
 _[[Eric Forgy|Eric]] says_: Yes, exactly :) That sounds like a good plan. By the way, what you say about $I := [n]$ reminds me a lot of simplicial sets.
 
+_[[Eric Forgy|Eric]] says_: We have _directed spaces_ and we may soon have _directed sets_. This makes me wonder if we should have a **directed category** [[internal category|internal to]] another category? This way
+
+* a directed space is a directed category in [[Top]]
+* a directed set is a directed category in [[Set]]
+* etc
+
+Would that make sense?
+
 =--
