@@ -1,0 +1,68 @@
+#Idea#
+
+_Complete Segal spaces_ are one model for $(\infty,1)$-[[(infinity,1)-category|categories]]. 
+
+The rough idea is that a complete Segal space is the [[nerve]] of a [[category]]  [[enriched category]] over [[Top]]: it is not a [[simplicial set]], but a simplicial [[topological space]] which satisfies the [[homotopy theory|homotopy theoretic]] analog of the condition that otherwise implies that a [[simplicial set]] is the [[nerve]] of a [[category]].
+
+A bit more precisely: to determine if a [[simplicial set]] $X_\bullet$ arises from a [[category]] by passing to its [[nerve]] one has to check for all natural numbers $m,n$ the square
+
+$$
+  \array{
+    X_{m+n} &\stackrel{
+      p^*_{0,\cdots, m}
+    }{\to}& X_m
+    \\
+    {}^{p^*_{m, \cdots, m+n}}\downarrow 
+    && \downarrow^{p^*_m}
+    \\
+    X_n &\stackrel{p^*_0}{\to}& X_0
+  }
+$$
+
+is a [[pullback]] square (these maps $p^*_{\cdots}$ are define below). $X^\bullet$ is the [[nerve]] of a [[category]] precisely if this is the case for all $n,m$.
+
+This condition is internalized homotopically in [[Top]] to get the definition of a _Segal space_.
+
++-- {: .un_defn}
+###### Definition
+
+A **Segal space** $X_\bullet$
+  is a simplicial topological space
+  $X_\bullet : \Delta^{op} \to Top$ for which for all $m,n \in \mathbb{N}$ the square
+
+$$
+  \array{
+    X_{m+n} &\stackrel{
+      p^*_{0,\cdots, m}
+    }{\to}& X_m
+    \\
+    {}^{p^*_{m, \cdots, m+n}}\downarrow 
+    && \downarrow^{p^*_m}
+    \\
+    X_n &\stackrel{p^*_0}{\to}& X_0
+  }
+$$
+
+is a [[homotopy coherent category theory|homotopy pullback]] square.
+
+=--
+
+Next, the idea is that, roughly,
+a Segal space $X_\bullet$ is a **complete Segal space** if the the [[fundamental infinity-groupoid]] of $X_0$ is the maximal topological groupoid contained in the topologically enriched category of which $X_\bullet$ is like the nerve of.
+
+More precisely...
+
+#Remarks#
+
+* One definition of [[(infinity,n)-category]] is in terms of complete Segal spaces.
+
+
+#References#
+
+Pages 29 to 31 of
+
+* Jacob Lurie, _On the classification of TFTs_ ([pdf](http://www-math.mit.edu/~lurie/papers/cobordism.pdf))
+
+Section 4 of 
+
+* Julia E. Bergner, _A survey of $(\infty, 1)$-categories_ ([arXiv](http://arxiv.org/abs/math.AT/0610239)).
