@@ -1,6 +1,6 @@
 # Idea #
 
-A **Grothendieck fibration** (also called a **cartesian fibration** or just a **fibration**) is a [[functor]] $p:E\to B$ such that the fibers $E_b = p^{-1}(b)$ depend (contravariantly) pseudofunctorially on $b\in B$.  Dually, in a (Grothendieck) **opfibration** the dependence is covariant.
+A **Grothendieck fibration** (also called a **cartesian fibration** or just a **fibration**) is a [[functor]] $p:E\to B$ such that the fibers $E_b = p^{-1}(b)$ depend (contravariantly) pseudofunctorially on $b\in B$.  One also says that $E$ is a **fibered category** over $B$. Dually, in a (Grothendieck) **opfibration** the dependence is covariant.
 
 There is an [[equivalence]] of [[strict 2-category|2-categories]] between the 2-category of fibrations over $B$ and the 2-category $[B^{op},Cat]$ of contravariant [[pseudofunctor]]s from $B$ to [[Cat]], also called _$B$-indexed categories_.  The construction of a fibration from a pseudofunctor is sometimes called the _Grothendieck construction_, although unfortunately Grothendieck performed many constructions.  Less ambiguous terms are the _category of elements_ and the _lax colimit_.
 
@@ -8,7 +8,9 @@ There is an [[equivalence]] of [[strict 2-category|2-categories]] between the 2-
 
 Let $\phi:e'\to e$ be an arrow in $E$.  We say that $\phi$ is **cartesian** if for any arrow $\psi:e''\to e$ in $E$ and $g:p(e'')\to p(e')$ in $B$ such that $p(\phi)\circ g = p(\psi)$, there exists a unique $\chi:e''\to e'$ such that $\psi = \phi\circ \chi$ and $p(\chi) =g$.  We say that $p:E\to B$ is a **fibration** if for any $e\in E$ and $f:b\to p(e)$, there is a cartesian arrow $\phi:e'\to e$ with $p(\phi)=f$.
 
-Dually, we say that $p$ is an **opfibration** if $p^{op}:E^{op}\to B^{op}$ is a fibration.  Grothendieck originally called these "cofibrations," but that term has fallen out of favor because an opfibration still has a _lifting_ property, as is characteristic of other notions of [[fibration]], as opposed to the _extension_ property exhibited by [[cofibration]]s in [[homotopy theory]].
+As a side note, we say that $\phi$ is _weakly cartesian_ if it has the property described above only when $g$ is an identity.  One can prove that $p$ is a fibration if and only if firstly, it has the above property with "cartesian" replaced by "weakly cartesian," and secondly, the composite of weakly cartesian arrows is weakly cartesian.  In a fibration, every weakly cartesian arrow is cartesian, but this is not true in general.  Some sources say "cartesian" and "strongly cartesian" instead of "weakly cartesian" and "cartesian," respectively.
+
+We say that $p$ is an **opfibration** if $p^{op}:E^{op}\to B^{op}$ is a fibration.  Grothendieck originally called these "cofibrations," but that term has fallen out of favor because an opfibration still has a _lifting_ property, as is characteristic of other notions of [[fibration]], as opposed to the _extension_ property exhibited by [[cofibration]]s in [[homotopy theory]].  (Unfortunately, however, using the internal notion of fibration in a 2-category mentioned below, opfibrations are fibrations in the 2-cell dual $Cat^{co}$ while the fibrations in the 1-cell dual $Cat^{op}$ are more deserving of the name "cofibration.")
 
 A square
 $$\array{E' & \to & E \\ \downarrow && \downarrow \\ B' &\to  & B}$$
@@ -65,3 +67,13 @@ Note that such a pseudofunctor can also be represented by an opfibration $E_1\to
 There is a notion of Grothendieck fibration for [[quasicategory|quasicategories]] defined using lifting of fillers for certain simplicial spheres, used in work of Joyal and Lurie.  Applied to [[nerve|nerves]] of categories, it generalizes the original notion.
 
 There is also a notion of fibration for 2-categories that has been studied by Hermida.
+
+# References #
+
+There are lots of references on fibrations; feel free to add your favorites!
+
+* Part B of the [[Elephant]] contains a lot of basic information and some good intuition, although he uses the non-standard words "prone" and "supine" where most people say "cartesian" and "opcartesian" morphism.
+
+* "Categorical logic and type theory" by B. Jacobs
+
+* The Wikipedia entry on [Fibred category](http://en.wikipedia.org/wiki/Fibred_category) is okay, and contains a number of other references.
