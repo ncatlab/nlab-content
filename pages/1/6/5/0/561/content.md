@@ -1,23 +1,50 @@
-It is common in category theory to consider the objects of a [[slice category]] $C/X$ as "objects of $C$ varying over $X$."  For example, an object $A\to X$ of $Set/X$ can be identified with an $X$-indexed family $\{A_x\}_{x\in X}$ of sets, where $A_x$ is the [[fiber]] of $A\to X$ over $x\in X$.  Likewise, if $X$ is a [[topological space]], can regard an object of $Top/X$ as a family of spaces (the fibers) "varying continuously" over $X$.
+There are a number of different types of [[morphism]] bearing the name **fibration**, which are all connected to each other at least by a zigzag of relationships.
 
-However, if $X$ has more structure than a set, we may want to require that this structure acts on, or can be lifted to, an object varying over $X$.  For example, if $X$ is a category, an object of $Cat/X$ can be thought of as a "category varying over $X$," but we would quite reasonably like this varying to happen _functorially_, which is not guaranteed for an arbitrary object of $Cat/X$; we would need to be able to "transport" objects in one fiber to objects in another fiber along morphisms in $X$.  Likewise, when $X$ is a space, we may consider it as an $\infty$-groupoid and ask to be able to transport points in one fiber to points in another fiber along paths and homotopies in $X$.
 
-In general, the term **fibration** refers to a map $A\to X$ with such a "transportation" property, which can also be thought of as "lifting" morphisms in the base $X$ to morphisms in $A$.  Particular types of fibration include:
+# Classical homotopy theory #
 
-* [[Serre fibration]]s between topological spaces allow lifting of paths, homotopies, and higher homotopies in the base.  [[Hurewicz fibration]]s allow lifting of arbitrary structures.
+In classical [[homotopy theory]], a fibration $p:E\to B$ is a continuous map between [[topological space]]s that has a certain lifting property.  The most basic property is that given a point $e\in E$ and a path in $B$ starting at $p(e)$, the path can be lifted to a path in $E$ starting at $e$.  One generally also assumes the lifting of additional structures (including "higher homotopies") in $B$ which, in particular, imply that the path lifting is unique up to homotopy. Different choices of what can be lifted give rise to different notions of fibration, for example:
 
-* [[Kan fibration]]s between simplicial sets allow lifting of $n$-simplices for every $n$.
+* In a [[Hurewicz fibration]], all sorts of homotopies can be lifted.
 
-* [[isofibration]]s between categories allow lifting of isomorphisms in the base.
+* In a [[Serre fibration]], topological $n$-cells can be lifted for all $n$.
 
-* [[quasifibration]]s between simplicial sets are a common generalization of Kan fibrations and isofibrations, just as [[quasicategory|quasicategories]] are a common generalization of [[Kan complex]]es and categories.
 
-* [[Grothendieck fibration]]s between categories allow lifting of arbitrary morphisms in the base.  Because functors can be covariant or contravariant, there are two dual types of Grothendieck fibration, and because arrows are not invertible, the liftings must satisfy an extra "universality" condition.
+# Abstract homotopy theory #
 
-Moreover, in [[homotopy theory]], fibrations are part of the structure commonly imposed on a [[category with weak equivalences]] to make its homotopy theory more tractable.  For example, in many cases the [[pullback]] of a fibration is already a [[homotopy pullback]].  In such cases, usually every object of $C/X$ can be replaced by a weakly equivalent one which is a fibration (and replacing a map by a fibration is one way to compute a homotopy pullback).  Formal structures that include such fibrations include [[category of fibrant objects|categories of fibrant objects]] and [[model category|model categories]].
+Inspired by the role of fibrations in algebraic topology, part of the structure of a [[model category]] or a [[category of fibrant objects]] is a class of maps called "fibrations," which also possess a lifting property relating them to the rest of the structure (cofibrations and weak equivalences).  Examples include:
 
-Serre fibrations, Hurewicz fibrations, Kan fibrations, isofibrations, and quasifibrations are all the fibrations in some approriate model category.  This is not true for Grothendieck fibrations because of the non-homotopical "universality" condition on lifts, but every Grothendieck fibration is in particular an isofibration.
+* [[Kan fibration]]s between simplicial sets (whose study predates the definition of a model category), which allow lifting of $n$-simplices for every $n$.
 
+* [[isofibration]]s between categories, which allow lifting of isomorphisms.
+
+* [[quasifibration]]s between simplicial sets are a common  generalization of Kan fibrations and isofibrations, just as [[quasi-category|quasicategories]] are a common generalization of [[Kan complex]]es and categories.
+
+Fibrations have many good properties in homotopy theory.  For example, usually the [[pullback]] of a fibration is already a [[homotopy pullback]].  Generally every map can be replaced by a weakly equivalent fibration, which gives one way to compute a homotopy pullback.
+
+
+# Transports and classifying spaces #
+
+There is a classical thorem that [[covering space]]s $p:E\to B$ (which have _unique_ path lifting) are equivalent to functors $\Pi(B)\to Set$ from the [[fundamental groupoid]] of $B$ to [[Set]].  The functor corresponding to $p:E\to B$ takes a point $b\in B$ to its fiber $p^{-1}(b)$, and a path $\alpha$ from $b$ to $b'$ to the function $p^{-1}(b) \to p^{-1}(b')$ defined by "the endpoint of the lift of $\alpha$."
+
+Generalizing this massively, arbitrary topological fibrations $p:E\to B$ correspond to functors from the fundamental $\infty$-groupoid of $B$ to the $(\infty,1)$-category of spaces, in an analogous way.  Points are sent to fibers, paths to the endpoints of liftings, homotopies between paths to the result of lifting such homotopies, and so on.  This functor is sometimes called the **transport** corresponding to the fibration.  There are a number of ways to make this precise, some of which make sense in classical homotopy theory (e.g. actions by a loop space) and some of which require higher categorical machinery.
+
+More generally, one can consider fibrations in which the fibers are equipped with some extra structure, such as being a vector space or having an action by a group.  This corresponds to restricting the codomain of the transport to some category of spaces with structure and structure-preserving maps.  The most common version of this is a [[bundle]] with some structure group $G$, in which case the transport lands in $B G$, the category with one object (thought of as a generic $G$-[[torsor]]) and $G$ as its endomorphisms.  In such cases the word "parallel" is often added in front of "transport."
+
+If we replace the groupoid $B G$ by its [[classifying space]], then passing to $\pi_0$ recovers the classical fact that "classifying spaces classify": there is a bijection between $G$-bundles over a space $X$ and homotopy classes of maps $X\to B G$.  This bijection is realized by pulling back the "universal $G$-bundle" $E G \to B G$ over the space $B G$.  There are also classifying spaces for more general types of fibrations, constructed from the relevant subcategories of $Top$.
+
+
+# Fibrations in category theory #
+
+It is common in category theory to consider the objects of a [[slice category]] $C/X$ as "objects of $C$ varying over $X$."  For example, an object $A\to X$ of $Set/X$ can be identified with an $X$-indexed family $\{A_x\}_{x\in X}$ of sets, where $A_x$ is the [[fiber]] of $A\to X$ over $x\in X$.  Likewise, if $X$ is a [[topological space]], can regard an object of $Top/X$ as a family of spaces (the fibers) "varying continuously" over $X$.  But as we have seen, in the topological case, in order to make this varying into a "functor" $X\to Top$ we need the map to be a fibration.
+
+In category theory, there is analogous notion of when a functor $p:E\to B$ is a _fibration_, which is exactly what is needed to make the assignment $b \mapsto p^{-1}(b)$ into a functor $B\to Cat$.  (Actually, there are two such notions, since a functor on a non-groupoid can be either covariant or contravariant.)  Thus, in this case $Cat$ is the analogue of the "classifying space," and there is a "universal fibration" $Cat_* \to Cat$ of which every other fibration is a pullback (modulo size issues).
+
+Categorical fibrations also have a "lifting" property, but the liftings must satisfy an extra "universality" condition.  For this reason, they are not the fibrations in any model structure on $Cat$.  However, fibrations of this sort between groupoids are the same as isofibrations, and thus are the fibrations in the [[folk model structure]] on $Gpd$.  See [[Grothendieck fibration]] for more details.
+
+# Discussion #
+
+The following discussion was prompted by an earlier version of this page.
 
 +--{.query}
 [[Tim Porter|Tim]]: I do not quite agree with 'transport' as being the main point of fibrations. Rather 'lifting' is the main point, in particular lifting of homotopies, at least in topological situations.   For transport, one needs connections of some sort to get things working well, but in many cases  there is only a very weak notion of action, so perhaps that should be derived as a property rather than taken as a 'defining property' in some sense.
@@ -89,5 +116,8 @@ For instance, I believe that the "real" definition of a [[monoidal category]] re
 Likewise, I believe that the only reason the definition of a fibration via lifting properties is a _correct_ definition is that it _does_ lead to the complete functoriality up to higher homotopies.  (One doesn't need complicated notions of $\infty$-categories to get an intuitive feel for how this works: it's enough to observe that lifting of 2-cells gives you homotopy-uniqueness for lifts of paths, lifting of 3-cells gives you homotopy-uniqueness for lifts of 2-cells, etc.) The fact that it took many years for this to be understood is not, to me, an argument against its truth, or against its expository helpfulness.
 
 Also, I wrote this page not to be just about the topological notion of fibration, but to include categorical (Grothendieck) fibrations as well and show the commonality between them.  And for that I think the notion of transport is indispensable, since categorical fibrations can't be defined by a simple lifting property.
+
+
+_Mike, again_: Okay, I basically rewrote the whole page, trying to take your comments into account.  What do you think of it now?
 
 =--
