@@ -10,6 +10,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-01-21
+
+* [[Eric Forgy|Eric]]
+
+  * Asked a question about "directed internalization" on [[directed space]]
+
 # 2009-01-20
 
 * [[Urs Schreiber|Urs]]
