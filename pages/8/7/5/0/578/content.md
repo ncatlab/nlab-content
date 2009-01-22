@@ -32,7 +32,7 @@ Likewise, we have $C^{\mathbf{3}}$ whose objects are composable pairs $X\overset
 $$
 \array{C^{\mathbf{3}}((f_1,g_1),(f_2,g_2)) & \to & C^{\mathbf{2}}(f_1,f_2)\\
   \downarrow && \downarrow \\
-  C^{\mathbf{2}}(g_1,g_2)\\ & \to & C(Y_1,Y_2).}
+  C^{\mathbf{2}}(g_1,g_2) & \to & C(Y_1,Y_2).}
 $$
 By functoriality we then mean that the factorization is given by a functor $C^{\mathbf{2}} \to C^{\mathbf{3}}$ which, when composed with the "composition" functor $C^{\mathbf{3}} \to C^{\mathbf{2}}$, gives the identity of $C^{\mathbf{2}}$.
 
