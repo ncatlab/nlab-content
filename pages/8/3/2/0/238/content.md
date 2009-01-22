@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-21
 
+* [[Mike Shulman|Mike]]:
+
+  * Finally got around to creating [[internal logic]], which coincidentally probably answers David's questions at [[regular category]].
+
 * [[David Corfield|David]]
 
   * Asked some questions at [[regular category]]. 
