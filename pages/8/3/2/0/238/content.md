@@ -10,6 +10,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-01-22
+
+* [[Urs Schreiber|Urs]]
+
+  * created [[(infinity,n)-category of cobordisms]]
+
 # 2009-01-21
 
 * [[Mike Shulman|Mike]]:
