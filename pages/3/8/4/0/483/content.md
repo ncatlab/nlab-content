@@ -96,3 +96,5 @@ If so, I think I am making some progress.
 And as for categories: the generic category is a directed object in the category of categories. Unless it happens to be a groupoid. In which case it is an undirected object there.
 
 (All this with respect to the "canonical" choice of [[interval object]]. The notion of directedness depends on which interval object you choose to test with. For instance the point itself satisfies the axioms of an interval object. But using it of course everything will look undirected.)
+
+_[[Eric Forgy|Eric]]_: Ugh. I didn't want a directed space to be a directed object in the category of directed spaces. That is boring :) A set is an object in the Set too, but it doesn't tell you anything. Hmm. It looks like what I wanted isn't going to work as is, i.e. a directed space is not a directed object in Top because there are no directed objects in Top apparently.
