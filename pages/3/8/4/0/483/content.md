@@ -90,3 +90,9 @@ Could we say (and be correct!) that
 "a directed set is a directed object in Set"?
 
 If so, I think I am making some progress.
+
+[[Urs Schreiber|Urs]]: Yes, a directed space should be a directed object in the category of possibly directed topological spaces! (In [[Top]] itself there are no directed spaces. Every ordinary topological space is undirected). I think I listed that as a should-be example. To make it a proper example one will have to say a few more probabaly straightforward things about directed homotopies etc. But the idea is certainly this, yes, a directed space is a directed object in the category of possibly directed spaces.
+
+And as for categories: the generic category is a directed object in the category of categories. Unless it happens to be a groupoid. In which case it is an undirected object there.
+
+(All this with respect to the "canonical" choice of [[interval object]]. The notion of directedness depends on which interval object you choose to test with. For instance the point itself satisfies the axioms of an interval object. But using it of course everything will look undirected.)
