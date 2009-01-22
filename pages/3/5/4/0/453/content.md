@@ -48,3 +48,7 @@ $$\langle (f, g); h \rangle \in coeq \qquad iff \qquad h f = h g$$
 
 [to be continued...]
 
++--{.query}
+Do regular categories, epis, monos relate to regular sketches and regular logic? If so, is it as geometric morphisms relate to geometric logic? And then where do 'coherent' entities fit in? Are there coherent morphisms?
+=--
+
