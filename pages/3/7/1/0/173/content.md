@@ -93,6 +93,10 @@ At least some aspects of the concept have more or less implicitly been considere
 
 for an overview and references. A translation of the construction in topological T-duality to the above diagrammatic formulation was originally given [here](http://golem.ph.utexas.edu/category/2007/02/qft_of_charged_nparticle_tdual.html).
 
+The interpretation of T-duality in terms of bi-branes is discussed in more detail in 
+
+* Gor Sarkissian, Christoph Schweigert, _Some remarks on defects and T-duality_ ([arXiv](http://arxiv.org/abs/0810.3159))
+
 
 ##Bi-branes motivated from 2d CFT##
 
