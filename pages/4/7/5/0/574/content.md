@@ -21,4 +21,4 @@ A pair $(E,M)$ such that $E^\perp = M$ and $E = {}^\perp M$ is sometimes called 
 
 * Of course, any [[orthogonal factorization system]] gives plenty of examples.  The ur-example is that $e\perp m$ in [[Set]] (or actually, any [[pretopos]]) for any surjection $e$ and injection $m$.
 
-* A [[strong epimorphism]] in any category is, by definition, an epmiorphism in ${}^\perp(Mono)$ where $Mono$ is the class of monomorphisms.  (If the category has equalizers, then every map in ${}^\perp(Mono)$ is epic.)  Dually, a [[strong monomorphism]] is a monomorphism in $(Epi)^\perp$.
+* A [[strong epimorphism]] in any category is, by definition, an epimorphism in ${}^\perp(Mono)$, where $Mono$ is the class of monomorphisms.  (If the category has equalizers, then every map in ${}^\perp(Mono)$ is epic.)  Dually, a [[strong monomorphism]] is a monomorphism in $(Epi)^\perp$.
