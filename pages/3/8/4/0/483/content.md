@@ -41,8 +41,7 @@ The above definition is from
 * Marco Grandis, _Directed homotopy theory, I. The fundamental category_ ([arXiv](http://arxiv.org/abs/math.AT/0111048))
 
 
-
-+--{.query}
+#Discussion#
 
 The above defined directed _topological_ spaces. My impression is that [[Eric Forgy|Eric]] was interested in more general concepts. But the above definition has a straightforward generalization away from topological spaces.  The general strategy is really: start with a category with [[interval object]] and consider then the category whose objects are pairs $(X, d X)$ for $X$ an object and $d X$ a subobject of $[I,X]$, and whose morpshism are morphisms $X \to Y$ that take $d X$ to $d Y$.
 
@@ -72,4 +71,22 @@ _[[Eric Forgy|Eric]]_: I doubt that what I am looking for is new. If you could h
 
 [[Urs Schreiber|Urs]]: but a category _is_ directed! Recall that underlying every category is a [[directed graph]] (it is a directed graph equipped with a composition operation). So I am still puzzled by what you are looking for, because a "directed category" would have underlying it a "directed directed graph". What's that supposed to be? And why do you want it?
 
-=--
+_[[Eric Forgy|Eric]]_: Sorry for being so dense. We can delete this once I get a clue. But for now, I'm still confused. Maybe what I wanted to say is more along the line (but probably still not correct)
+
+"A directed space has a fundamental category"
+
+"A directed set has a fundamental category"
+
+"A directed object has a fundamental category"
+
+Ack! *light bulb!* (those hurt sometimes)
+
+I think that is probably precisely why you defined [[directed object]].
+
+Could we say (and be correct!) that 
+
+"a directed space is a directed object in Top"?
+
+"a directed set is a directed object in Set"?
+
+If so, I think I am making some progress.
