@@ -12,6 +12,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-21
 
+* [[Mike Shulman|Mike]]:
+
+  * Changed [[enriched homotopy theory]], to reflect my feeling that it is more general than [[homotopy coherent category theory]].
+
+  * Created [[enriched factorization system]], [[orthogonality]], and [[Galois connection]].
+
+  * Created [[split epimorphism]], [[strong epimorphism]], and [[extremal epimorphism]] just to satisfy links.
+
 * [[Eric Forgy|Eric]]
 
   * asked a question about "directed internalization" on [[directed space]]
