@@ -6,8 +6,11 @@ Combining the idea of [[(infinity,1)-category]] with that of [[n-category]], an 
 
 One definition buidling on that of [[(infinity,1)-category]] in terms of [[complete Segal space]]s was recently proposed by Jacob Lurie ( [p. 34](http://www-math.mit.edu/~lurie/papers/cobordism.pdf#page=34)).
 
-Essentially, in this definition an $(\infty,n)-category$ is an $n$-fold simplicial topological space
+Recall that a [[complete Segal space]] is to be thought of as the nerve of a category which is _[[homotopy coherent category theory|homotopically]]_ [[enriched category|enriched]] over [[Top]]: it is a simplicial object in [[Top]], $X^\bullet : \Delta^{op} \to Top$ satisfying some conditions and thought of as a model for an [[(infinity,1)-category]]. 
 
+Jacob Lurie's definition of $(\infty,n)$-category is in its essence the $(n-1)$-fold iteration of this process: recursively, a Lurie-$(\infty,n)$-category is a category which is _[[homotopy coherent category theory|homotopically]]_ [[enriched category|enriched]] over $(\infty,n-1)$-categories.
+
+This implies then in particular that an $(\infty,n)$-category in this sense is an $n$-fold simplicial topological space
 $$
   X_\bullet : \Delta^{op} \times 
      \Delta^{op} \times \cdots \times \Delta^{op}
@@ -27,3 +30,7 @@ $$
 $$
 
 are [[homotopy coherent category theory|homotopy pullbacks]] of $(n-1)$-fold Segal spaces.
+
+#Examples#
+
+The motivating example for $(\infty,n)$-categories is the [[(infinity,n)-category of cobordisms]] which plays a central role in the formalization of the [[generalized tangle hypothesis]].
