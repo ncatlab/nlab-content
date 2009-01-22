@@ -12,7 +12,7 @@ Most importantly, a model category is a [[category with weak equivalences]]. The
 
 A **model structure** on a category $K$ consists of three distinguished classes of morphisms - the **cofibrations** $C$, the **fibrations** $F$, and the **weak equivalences** $W$ - satisfying the following two properties.
 
-(i) $W$ has the **2 of 3** property: given a composable pair of morphisms $f,g$ if two of three of $f, g, gf$ are in $W$, so is the third. 
+(i) $W$ has the **2 of 3** property: given a composable pair of morphisms $f,g$ if two of three of $f, g, g f$ are in $W$, so is the third. 
 
 (ii) $(C, F \cap W)$ and $(C \cap W, F)$ are two [[weak factorization system|weak factorization systems]] on $K$.
 
