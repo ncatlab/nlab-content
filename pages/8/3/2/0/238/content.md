@@ -14,7 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Eric Forgy|Eric]]
 
-  * Asked a question about "directed internalization" on [[directed space]]
+  * asked a question about "directed internalization" on [[directed space]]
+  * continues to have a brain aneurysm at [[directed space]] but is making progress
 
 * [[Urs Schreiber|Urs]]
 
