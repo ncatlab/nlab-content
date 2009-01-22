@@ -98,3 +98,7 @@ And as for categories: the generic category is a directed object in the category
 (All this with respect to the "canonical" choice of [[interval object]]. The notion of directedness depends on which interval object you choose to test with. For instance the point itself satisfies the axioms of an interval object. But using it of course everything will look undirected.)
 
 _[[Eric Forgy|Eric]]_: Ugh. I didn't want a directed space to be a directed object in the category of directed spaces. That is boring :) A set is an object in the Set too, but it doesn't tell you anything. Hmm. It looks like what I wanted isn't going to work as is, i.e. a directed space is not a directed object in Top because there are no directed objects in Top apparently.
+
+[[Urs Schreiber|Urs]]: I think you do want that. Just don't let the terminology let mix you up. An ordinary space is already called a space. While from your perspective an ordinary space ought to be called an _undirected space_.  Then "space" could be assigned to mean "not-necessarily but possibly directed space" and then a directed space could be called a directed object in spaces.
+
+But convention is different. So a directed space is a directed object in the category of "not necessarily but possibly drected spaces".
