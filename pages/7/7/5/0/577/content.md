@@ -16,9 +16,9 @@ Here,
   is cartesian if for each map $f: A \to B$
   in $C$, the naturality square
   \[\array{
-    SA & \overset{Sf}{\to} & SB \\
+    S A & \overset{S f}{\to} & S B \\
     \alpha_A \downarrow & & \downarrow \alpha_B \\
-    TA & \underset{Tf}{\to} & TB
+    T A & \underset{T f}{\to} & T B
   }\]
   is a pullback.
 
