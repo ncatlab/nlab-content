@@ -23,4 +23,4 @@ $$
   }
 $$
 
-is a [[bicategory|bicategorical]] pullback in [[Cat]].
+is a [[2-categorical limit|bicategorical pullback]] in [[Cat]].
