@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-21
 
+* [[David Corfield|David]]
+
+  * Asked some questions at [[regular category]]. 
+
 * [[Mike Shulman|Mike]]:
 
   * Changed [[enriched homotopy theory]], to reflect my feeling that it is more general than [[homotopy coherent category theory]].
