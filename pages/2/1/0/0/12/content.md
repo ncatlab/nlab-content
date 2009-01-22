@@ -147,4 +147,6 @@ Here's a Unicode WikiLink: [[שנה טובה]]. The only funky bit is mixing LTR
 
 lalala
 
+<table><tr><td>Can I put $x^2$ math in a table?</td></tr></table>
+
 category: meta
