@@ -51,6 +51,8 @@ I'm not sure how we want to resolve this here.
 I'll think about it, and look at the standard references, and fix the terminology on this page if nobody else does first.  -Patrick
 
 How is this?  -Patrick
+
+_[[Mike Shulman|Mike]]_: The [[Elephant]] definitely uses "cartesian" to mean "all finite limits."  However, I'm not sure how universal that is; I think at least in the past, some people have used "cartesian" to refer only to finite _products_.  I'm sure that a "cartesian object" in a 2-category has been defined to be one such that $A\to A\times A$ and $A\to 1$ have right adjoints.  Also the notion of "cartesian bicategory" refers only to finite products (and extra stuff too).  And [[cartesian monoidal category]] and [[cartesian closed category]] certainly only means finite products.  On the other hand, of course as you say, in this context "cartesian monads" only refer to pullbacks, not terminal objects and hence not products.  There is also the use of "cartesian square" to mean a pullback square, which generalizes to "cartesian morphism" in a [[Grothendieck fibration|fibration]].
 =--
 
 #References
