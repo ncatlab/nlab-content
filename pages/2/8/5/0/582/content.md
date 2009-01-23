@@ -12,6 +12,8 @@ A **regular monomorphism** is a [[morphism]] which occurs as the [[equalizer]] o
 
 +--{.query}
 Should we be able to see this in terms of the expressivity of [[regular logic]]?
+
+I don't think so... regular logic is, so far as I know, about regular _epimorphisms_ and _ordinary_ monomorphisms.
 =--
 
 * In [[Ab]], or more generally any [[abelian category]], every monomorphism is regular.
