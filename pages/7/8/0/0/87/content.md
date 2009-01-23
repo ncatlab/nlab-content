@@ -4,7 +4,7 @@
 
 Anafunctors were first developed by [[Michael Makkai]] to do ordinary category theory with a [[foundations]] that does not include the axiom of choice. Later they were applied by [[Toby Bartels]] to [[internal category|internal categories]], where the axiom of choice is simply not an option. These actually turned out to be known already (at least up to equivalence) in some contexts, in particular as [[Hilsum-Skandalis morphism]]s between [[Lie groupoid]]s.
 
-#Defintion (external)#
+#Definition (external)#
 
 Given categories $C$ and $D$, an __anafunctor__ $F: C \to D$ consists of:
 
@@ -17,22 +17,34 @@ Given categories $C$ and $D$, an __anafunctor__ $F: C \to D$ consists of:
 
 An anafunctor $F$ is __saturated__ if, whenever $F(x) \cong y$, $F_s(x) = y$ for some unique specification $s$, where the unicity of $s$ depends not only on $x$ and $y$ but also on how $y$ is a value of $F$ at $x$. To be precise: if $g: y' \to y$ is an isomorphism in $D$ and $F_{s'}(x) = y'$ for some specification $s'$, then there is a unique specification $s$ such that $F_{s',s}(\id_x) = g$ (so in particular, $\sigma(s) = x$ and $F_s(x) = y$). Every anafunctor $F: C \to D$ has a _saturation_ $\overline{F}$; $\overline{F}$ is a saturated anafunctor and $F \cong \overline{F}$ in the category of anafunctors from $C$ to $D$. In fact, the inclusion of the saturated anafunctors into the anafunctors (as a full subcategory) is an equivalence of categories (given fixed $C$ and $D$).
 
-Every functor may be interpreted as an anafunctor, with $|F|$ always taken to be the set of objects in $C$. That every anafunctor is equivalent to a functor is equivalent to the axiom of choice, in which case the inclusion of functors into anafunctors is in fact an equivalence of categories. But if you ignore functors and deal only with anafunctors (or saturated anafunctors), then the theory is entirely [[constructivism|constructive]] (without using the axiom of choice or even excluded middle). Theorems that classically required choice now don\'t require choice (and indeed become constructive) with anafunctors. Thus, anafunctors (or even saturated anafunctors) are the correct notion to use if you are a constructivist (at least as long as you [[foundations|found]] mathematics on some sort of set theory at all); but they are also the correct notion to use in [[internal category]] theory.
+Every functor may be interpreted as an anafunctor, with $|F|$ always taken to be the set of objects in $C$. That every anafunctor is equivalent to a functor is equivalent to the axiom of choice, in which case the inclusion of functors into anafunctors is in fact an equivalence of categories. But if you ignore functors and deal only with anafunctors (or saturated anafunctors), then the theory is entirely [[constructivism|constructive]] (without using the axiom of choice or even excluded middle). Theorems that classically required choice now don\'t require choice (and indeed become constructive) with anafunctors. Thus, anafunctors (or even saturated anafunctors) are the correct notion to use if you are a constructivist (at least as long as you [[foundations|found]] mathematics on some sort of set theory at all); but they are also often the correct notion to use in [[internal category]] theory.
+
+
+#Definition (internal)#
+
+Given an anafunctor $F:C\to D$ as above, we can construct a new category $\overline{F}$ whose objects are the specifications of $F$ and whose morphisms from $s$ to $t$ are the morphisms from $\sigma(s)$ to $\sigma(t)$ in $C$.  Then the projection $\overline{F}\to C$ is an [[equivalence]] of categories which is surjective on objects, and the rest of the data of $F$ is encapsulated in a functor $\overline{F}\to D$.  Conversely, from any span $C \leftarrow E \to D$ such that $E\to C$ is a surjective equivalence we can reconstruct an anafunctor whose specifications are the objects of $E$.  Thus, anafunctors $C\to D$ can be identified with such spans.
+
+More generally, let $S$ be a category containing a collection of morphisms called "covers" such that
+
+* every isomorphism is a cover,
+* any [[pullback]] of a cover exists and is a cover,
+* covers are closed under composition,
+* every cover is a [[regular epimorphism]], and
+* every equivalence relation involving a cover has a quotient, which is a cover.
+
+One important class of examples is when $S$ is a [[regular category]] and every regular epi is a cover.  Another is when $S$ is the category of smooth manifolds and the covers are the surjective submersions.  Then if $C$ and $D$ are [[internal category|internal categories]] in $S$, an __anafunctor__ $F: C\to D$ consists of a span $C\leftarrow E \to D$ of internal functors such that:
+
+1. $E\to C$ is fully-faithful, in the internal sense that the following is a pullback square:
+$$\array{E_1 & \to & C_1 \\ \downarrow && \downarrow \\ E_0\times E_0& \to & C_0\times C_0}$$
+
+1. $E_0\to C_0$ is a cover.
+
+By the remarks above, if $S=Set$ and "cover" means "surjection" (or equivalently, "regular epi"), then we recover the above-defined external notion of anafunctor.
+
 
 #Homotopy-theoretic interpretation#
 
-From the point of view of the [[homotopy theory]] of categories -- the [[folk model structure]] -- anafunctors are precisely the spans out of [[homotopy theory|acyclic fibrations]] in $Cat$
-
-$$
-  (anafunctor: C \to D)
-  \Leftrightarrow
-  (span in Cat: \;\;
-    C \lt\stackrel{\simeq}{\leftarrow}
-    \hat H \to D
-  )
-$$
-
-and hence precisely the one-step generalized morphisms. 
+Since the surjective-on-objects equivalences are precisely the [[model category|acyclic fibrations]] for the [[folk model structure]] on [[Cat]].  Therefore, anafunctors can be identified with certain "one-step generalized morphisms" in $Cat$.
 
 An anafunctor is an **anaequivalence** if it is a span as above, with the right leg also an acyclic fibration.
 (For [[Lie groupoid]]s, these are the [[Morita equivalence]]s).
