@@ -36,6 +36,8 @@ In a [[bicategory]] $K$, it makes little sense to do anything any stricter than 
 
 * A **lax bicategorical limit**, or _lax bilimit_ or just _lax limit_, has cones that commute up to a transformation, and a universal property expressed by an equivalence.
 
+If we know that we are working in a bicategory, then no other sort of limit makes sense, so we can just use the word "limit" for a bicategorical limit; a prefix is only necessary to distinguish it from limits in a strict 2-category or in a 1-category.  Likewise, in other types of weak 2-categories, such as [[opetopic 2-category|opetopic ones]], there is no meaningful strict notion of limit, so "limit" just means the up-to-equivalence concept.
+
 _NB: The term "weak limit" may seem attractive, but unfortunately it has a different meaning._
 
 ## Comparison ##
