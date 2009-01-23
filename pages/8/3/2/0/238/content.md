@@ -12,6 +12,20 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-23
 
+* [[Urs Schreiber|Urs]] 
+
+  * worked on [[directed object]]: 
+
+    * added discussion of degenerate examples of interval objects
+
+    * suggested (and inserted) a formalization of the reparametrization axiom that [[Toby Bartels|Toby]] had left open
+
+    * replied to the discussion at [[directed space]] asking Toby to suggest how to deal with the slight terminological subtlety we're running into
+
+    * added references to Fahrenberg and Raussen at [[directed space]] (there must be more literature on _directed homotopy theory_! somebody should look it up)
+
+    * replied to [[Toby Bartels|Toby]]'s remark on the need for directed homotopies at [[directed space]].
+
 * [[David Corfield|David]]:
 
   * Asked a question at [[internal logic]] and another at [[regular monomorphism]]. Thanks for starting this page, Mike. There's still so much I don't understand about this topic.
