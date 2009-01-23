@@ -1,17 +1,20 @@
 #Definition
 
-A [[monad]]
-$(T, \mu: T^2 \to T, \nu: 1 \to T)$
-on a category $C$ is _cartesian_ if the category 
-$C$, the functor $T$, and the natural 
-transformations $\mu$ and $\nu$ are all cartesian.
-Here,
+Let $(T, \mu, \nu)$ be a
+[[monad]] on a category $C$.
+Specifically, $T: C \to C$ is a functor,
+and $\mu: T^2 \to T$ and 
+$\nu: \mathrm{Id}_C \to T$ are natural
+transformations, satisfying unital and associative
+axioms making $T$ a monoid in the (strict)
+monoidal category $\mathrm{End}(C)$.
+This monad is cartesian if
 
-* A category $C$ is cartesian if it has all 
-  pullbacks.
-* A functor $T: C \to D$ is
-  cartesian if it preserves pullbacks.
-* A natural transformation $\alpha: S \to T$
+* the category $C$ has all pullbacks,
+* the functor $T$ preserves pullbacks,
+* the natural transformations $\mu$ and $\nu$
+  are cartesian.
+  A natural transformation $\alpha: S \to T$
   between functors $C \to D$
   is cartesian if for each map $f: A \to B$
   in $C$, the naturality square
@@ -22,6 +25,22 @@ Here,
   }\]
   is a pullback.
 
+#Remarks
+
+There is some slight inconsistency in the use of
+the word _cartesian_ in category theory.
+Typically, a category (resp. functor)
+is called cartesian if it has (resp. preserves)
+all finite limits.
+In most examples of cartesian monads, the category
+$C$ has a terminal object, and hence finite limits.
+However, the functor $T$ almost never preserves
+terminal objects.
+For example, the free monoid monad on
+$\mathrm{Set}$ is cartesian, as can be checked
+directly, but $T 1 \simeq \mathbb{N}$ is not
+a terminal object.
+
 +--{.query}
 I would call a category with all pullbacks 'locally cartesian'.  Shouldn\'t a cartesian category at least have a terminal object?  Would a terminal object make any difference here?  &#8212;[[Toby Bartels|Toby]]
 
@@ -30,6 +49,8 @@ Both Tom Leinster and Jurgen Koslowski ([pdf](http://www.tac.mta.ca/tac/volumes/
 use the terminology above.
 I'm not sure how we want to resolve this here.
 I'll think about it, and look at the standard references, and fix the terminology on this page if nobody else does first.  -Patrick
+
+How is this?  -Patrick
 =--
 
 #References
