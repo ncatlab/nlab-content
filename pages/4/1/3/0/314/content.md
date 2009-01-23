@@ -6,7 +6,7 @@ $$\gamma = (\Delta c \stackrel{\Delta f}{\to} \Delta lim F \stackrel{\theta}{\to
 
 [To be continued...]
 
-Examples of limits of diagrams of notable shape include:
+Here are some important examples of limits:
 
 * A limit of the [[diagram|empty diagram]] is a [[terminal object]].
 * A limit of a diagram consisting of two (or more) objects is their [[product]].
