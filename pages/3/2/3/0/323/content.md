@@ -116,3 +116,5 @@ $$
   }
 $$
 and the object $x$ is also called the **pullback**.  It has the universal property already described above in the special case of the category $Set$.
+
+Note that the concept of pullback is dual to the concept of [[pushout]]: that is, a pullback in $C$ is the same as a pushout in $C^{op}$.
