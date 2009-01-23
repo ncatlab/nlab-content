@@ -8,6 +8,12 @@ A **2-categorical limit** is the type of [[limit]] that is appropriate in a [[2-
 
 +--{.query}
 Just as we now say '$2$-category' for [[2-category|the general notion]] and 'strict $2$-category' if we really want [[strict 2-category|the strict case]], shouldn\'t we say '$2$-limit' for the general notion here (which would presumably lead us to [[2-limit|move the page]]) and 'strict $2$-limit' if we really want the strict case? &#8212;Toby
+
+_Mike_: Well, suppose I quote what you wrote at [[bicategory]]:
+
+> Even in a strict 2-category, while we might need to say "strict" sometimes to be clear, we don't need to say "2-", since we know that we are not working in a mere category. (Max Kelly pushed this point.)
+
+So when we are in a 2-category (strict or weak), I think "limit" should mean "2-categorical limit" without the need for a prefix.  And in a strict 2-category we can say "strict limit" if that's what we mean.
 =--
 
 # Classification #
