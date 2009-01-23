@@ -12,6 +12,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-23
 
+* [[Mike Shulman|Mike]]:
+
+  * Replied at [[cartesian monad]], [[2-categorical limit]], [[internal logic]], and [[regular monomorphism]].
+  * Responded to David's question at [[internal logic]] by adding mention of [[sketch]]es and of disjunctive and geometric logic.
+
 * [[Urs Schreiber|Urs]] 
 
   * worked on [[directed object]]: 
