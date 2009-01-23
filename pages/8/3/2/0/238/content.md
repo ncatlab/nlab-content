@@ -10,6 +10,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-01-23
+
+* [[David Corfield|David]]:
+
+  * Asked a question at [[internal logic]] and another at [[regular monomorphism]]. Thanks for starting this page, Mike. There's still so much I don't understand about this topic.
+
 # 2009-01-22
 
 * [[John Baez]]:
