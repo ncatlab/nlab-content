@@ -87,7 +87,7 @@ This is a weak 2-category has a nontrivial [[associator]]: composition of spans 
 
 #Some facts about spans#
 
-Let $C$ be a category with pullbacks and let $Span_1(C) := (Span(C))_{\sim 1}$ be the 1-category of objects of $C$ and isomorphism class of spans between them as morphisms.0
+Let $C$ be a category with pullbacks and let $Span_1(C) := (Span(C))_{\sim 1}$ be the 1-category of objects of $C$ and isomorphism class of spans between them as morphisms.
 
 Then
 
