@@ -7,7 +7,7 @@ The structure of a category $V$ with _interval object_ is supposed to be the rig
 2. that there is a notion of composition on these path objects which induces on $[I,X]$ a structure of a (higher) category internal to $V$: the [[fundamental category]] or [[fundamental groupoid]] of the object $X$, or rather its [[fundamental infinity-groupoid]].
 
 For instance the choice $V =$ [[Top]] and $I = [0,1]$ 
-should be an instance of a category with interval object, and the fundamental $n$-groupoid $\Pi_n(X)$ obtained for any topological space $X$ from this data should be the fundamental $n$-groupoid in the sense of [[Trimble's notion of weak n-category]].
+should be an instance of a category with interval object, and the fundamental $n$-groupoid $\Pi_n(X)$ obtained for any topological space $X$ from this data should be the fundamental $n$-groupoid as a [[Trimble n-category]].
 
 The following definition of category with interval object aims to abstract this construction away from $V = $ [[Top]] to other [[closed monoidal homotopical category|closed monoidal homotopical categories]].
 
@@ -108,7 +108,7 @@ $$
 
 and interpreted as the [[fundamental groupoid]] or rather, in general, the [[fundamental category]] of the object $B$ with respect to the interval object $I$ -- all internal to $V$.
 
-Moreover, by iterating this process as described at [[Trimble's notion of weak n-category]] one should obtain, if everything goes through, on $X$ the structure of a [[Trimble's notion of weak n-category|Trimblean]] weak [[omega-category]] and indeed a functor
+Moreover, by iterating this process as described at [[Trimble n-category]] one should obtain, if everything goes through, on $X$ the structure of a [[Trimble n-category|Trimble]] $\omega$-[[infinity-category]] and indeed a functor
 
 $$
   \Pi_\omega : V_0 \to Trimble \omega Cat
@@ -127,7 +127,7 @@ $$
 
 #Examples#
 
-* For $V = C = Top$ with its standard model structure the standard topological closed interval  $I := [0,1]$ with $pt \stackrel{\sigma, \tau}{\to}$ the maps to 0 and 1, respectively. This is the case described in detail at [[Trimble's notion of weak n-category]].
+* For $V = C = Top$ with its standard model structure the standard topological closed interval  $I := [0,1]$ with $pt \stackrel{\sigma, \tau}{\to}$ the maps to 0 and 1, respectively. This is the case described in detail at [[Trimble n-category]].
 
 * For $V = \omega Cat$ the category of [[strict omega-category|strict omega-categories]] the first [[oriental]], the 1-[[globe]] $I = \{a \to b\}$ is an interval object. In this strict case in fact all hom objects are already equal to the point ${}_{pt}[I, I^{\vee n}]_{pt} = pt$ and 
 $$
@@ -148,7 +148,7 @@ the $A_\infty$-category $\Pi_1(X)$ is just an ordinary category, namely the 1-ca
 
 #Discussion#
 
-We had originally started discussing the notion of interval objects at [[homotopy]] but then moved it to this entry here. The above entry grew out of the following discussion we had, together with discussion at [[Trimble's notion of weak n-category]].
+We had originally started discussing the notion of interval objects at [[homotopy]] but then moved it to this entry here. The above entry grew out of the following discussion we had, together with discussion at [[Trimble n-category]].
 
 _[[Urs Schreiber|Urs]]:_ Let me chat a bit about what I am looking for here. It seems very useful to have a good notion of what it means in a context like a [[closed category|closed]] [[category of fibrant objects]] to say that _[[path object]]s are compatibly corepresented_.
 
