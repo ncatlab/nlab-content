@@ -16,7 +16,7 @@ If $R\hookrightarrow X\times X$ is an equivalence relation which is the kernel p
 
 * Any category which is [[monad|monadic]] over a power of [[Set]] is exact.
 
-* One can construct, for any regular category $C$, a "free" exact category $C_{ex/reg}$ on $C$ by adjoining formal quotients for equivalence relations.  If $C$ is already exact, then $C_{ex/reg}$ is equivalent to $C$.
+* One can construct, for any regular category $C$, a "free" exact category $C_{ex/reg}$ on $C$ by adjoining formal quotients for equivalence relations.  One way to define $C_{ex/reg}$ is as the (locally discrete) [[2-category]] whose objects are equivalence relations in $C$ and whose morphisms are [[anafunctor|anafunctors]].  If $C$ is already exact, then $C_{ex/reg}$ is equivalent to $C$.
 
 * Similarly, one can construct the "free" exact category $C_{ex/lex}$ on any category $C$ with finite limits, or even with [[weak limit|weak finite limits]].  The exact categories of the form $C_{ex/lex}$ for a category $C$ with weak finite limits are exactly those which have [[projective object|enough (regular) projectives]]; in this case the projective objects are the retracts of objects of $C$ (Carboni-Vitale 1998).
 
