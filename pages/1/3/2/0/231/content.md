@@ -408,13 +408,13 @@ We can remedy this by replacing in the definition of the descent $\infty$-catego
 
 ##Discussion##
 
-_[[John Baez|John]] says:_ I have attempted to work all the above discussion into the main article.  If we are reasonably happy with my attempt, we can perhaps delete the discussion above.
+_[[John Baez|John]] says:_ I have attempted to work all the discussion we've had into the main article.  If we are reasonably happy with my attempt, we can perhaps delete the discussion above.
 
 _Toby_: For the record, I\'m happy with that.
 
 _Mike_: Me too.
 
-_John_: Since Urs and Eric expressed no opinion, I'm deleting the 'above discussion'.  We can always go back in time if we want to revive it.
+_John_: Since Urs and Eric expressed no opinion, I'm deleting the discussion we've had so far.  We can always go back in time if we want to revive it.
 
 [[Urs Schreiber|Urs]]: sure, fine with me. Let's agree that no reaction means agreement. There are already so many other things one has to react to! ;-)
 
