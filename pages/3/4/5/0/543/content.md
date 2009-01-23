@@ -9,4 +9,4 @@ in an $A_\infty$-category composition of [[morphism]]s is associative only up to
 
 * The classical notion of [[bicategory]] can be interpreted as an $A_\infty$-category in [[Cat]] for a suitable Cat-operad.
 
-See the example appearing at [[interval object]] and [[Trimble's notion of weak n-category]].
+See the example appearing at [[interval object]] and [[Trimble n-category]].
