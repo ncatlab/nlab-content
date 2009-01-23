@@ -15,7 +15,7 @@ It turns out that there is a hierarchy of types of logical theories, each of whi
 <tr><td>finite limit (aka "left exact" or "cartesian")</td><td>[[finitely complete category]]</td></tr>
 <tr><td>regular</td><td>[[regular category]]</td></tr>
 <tr><td>coherent</td><td>[[coherent category]]</td></tr>
-<tr><td>disjunctive</td><td>[[extensive category]] (aka finitary disjunctive category)</td></tr>
+<tr><td>disjunctive</td><td>[[extensive category|lextensive category]] (aka finitary disjunctive category)</td></tr>
 <tr><td>geometric</td><td>[[coherent category|infinitary coherent category]] (aka geometric category)</td></tr>
 <tr><td>first-order</td><td>[[Heyting category]]</td></tr>
 <tr><td>dependent types</td><td>[[locally cartesian closed category]]</td></tr>
@@ -85,7 +85,7 @@ I'm not sure that's an instance of what I was talking about.  The existence of a
 
 A [[coherent category]] is basically defined to be a regular category in which the subobject posets additionally have pullback-stable finite unions.  Thus, in a coherent category we can interpret so-called _coherent logic_, which adds $\vee$ and $\bot$ to regular logic.  Likewise, in an infinitary-coherent (or "geometric") category we can interpret _geometric logic_, which adds infinitary disjunctions $\bigvee_i \varphi_i$ to coherent logic.  Geometric logic is especially important because it is preserved by the inverse image parts of [[geometric morphism]]s, and because any geometric theory has a [[classifying topos]].
 
-On the other hand, in an [[extensive category]], we do not have images or all unions, but if we have two subobjects of $A$ which are _disjoint_ (their intersection is initial), then their coproduct is also their union in $Sub(A)$.  Therefore, in an extensive category we can interpret _disjunctive logic_, which is cartesian logic plus $\bot$ and "provably-disjoint disjunction."
+On the other hand, in a [[extensive category|lextensive category]], we do not have images or all unions, but if we have two subobjects of $A$ which are _disjoint_ (their intersection is initial), then their coproduct is also their union in $Sub(A)$.  Therefore, in a lextensive category we can interpret _disjunctive logic_, which is cartesian logic plus $\bot$ and "provably-disjoint disjunction."  Likewise, in an infinitary-lextensive category we can interpret "infinitary-disjunctive logic."
 
 Finally, in a [[Heyting category]] the pullback functors $f^*:Sub(B)\to Sub(A)$ also have right adjoints, usually written $\forall_f$, and it is easy to see that this implies that each $Sub(A)$ is also a [[Heyting algebra]], hence has an "implication" $\Rightarrow$ as well.  (We define "negation" by $\neg \varphi \equiv \varphi \Rightarrow \bot$.)  Thus, in a Heyting category we can interpret all of (finitary, first-order) [[intuitionistic logic]].
 
