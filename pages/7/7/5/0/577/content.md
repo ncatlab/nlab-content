@@ -1,6 +1,6 @@
 #Definition
 
-A monad
+A [[monad]]
 $(T, \mu: T^2 \to T, \nu: 1 \to T)$
 on a category $C$ is _cartesian_ if the category 
 $C$, the functor $T$, and the natural 
@@ -21,6 +21,10 @@ Here,
     T A & \underset{T f}{\to} & T B
   }\]
   is a pullback.
+
++--{.query}
+I would call a category with all pullbacks 'locally cartesian'.  Shouldn\'t a cartesian category at least have a terminal object?  Would a terminal object make any difference here?  &#8212;[[Toby Bartels|Toby]]
+=--
 
 #References
 
