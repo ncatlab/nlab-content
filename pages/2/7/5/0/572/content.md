@@ -2,7 +2,7 @@
 
 _Complete Segal spaces_ are one model for $(\infty,1)$-[[(infinity,1)-category|categories]]. 
 
-The rough idea is that a complete Segal space is the [[nerve]] of a [[category]]  [[enriched category]] over [[Top]]: it is not a [[simplicial set]], but a simplicial _space_ which satisfies the [[homotopy theory|homotopy theoretic]] analog of the condition that otherwise implies that a [[simplicial set]] is the [[nerve]] of a [[category]].
+The rough idea is that a complete Segal space is the [[nerve]] of a [[enriched category|category enriched]] over [[Top]]: it is not a [[simplicial set]], but a simplicial _space_ which satisfies the [[homotopy theory|homotopy theoretic]] analog of the condition that otherwise implies that a [[simplicial set]] is the [[nerve]] of a [[category]].
 
 A bit more precisely: to determine if a [[simplicial set]] $X_\bullet$ arises from a [[category]] by passing to its [[nerve]] one has to check for all natural numbers $m,n$ the square
 
