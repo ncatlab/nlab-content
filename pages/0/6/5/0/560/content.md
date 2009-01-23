@@ -1,6 +1,6 @@
 #Idea#
 
-In a category with [[interval object]] one has for every object $X$ a notion of paths in $X$. (Indeed, the very definition of category with interval object is meant to guarantee that for every object there is its [[fundamental category]] in the [[Trimble's notion of weak n-category|Trimblean sense]]).
+In a category with [[interval object]] one has for every object $X$ a notion of paths in $X$. (Indeed, the very definition of category with interval object is meant to guarantee that for every object there is its [[fundamental category]] in the [[Trimble n-category|Trimblean sense]]).
 
 The idea is that if for all these paths in $X$ there is a _reverse_ path, then the object $X$ is _undirected_ or _groupoidal_. Otherwise it is _directed_. 
 
@@ -35,7 +35,7 @@ otherwise it is called **directed** or a **directed object**.
 
   * $\omega$-categories which are strict [[omega-groupoid]]s are _undirected_;
 
-  * the general undirected $\omega$-categories should be precisely those for which every $k$-morphism is a an $\omega$-equivalence.
+  * the general undirected $\omega$-categories should be precisely those for which every $k$-morphism is a an $\omega$-equivalence.  These should consist of those $\infty$-[[infinity-groupoid]]s that are strict as $\infty$-categories.
 
 * Once we have a closed monoidal homotopical structure on the category $dTop$ of [[directed space|directed topological spaces]], it should be true that in $V = dTop$ with $I = I_d$ the standard directed interval, an object $(X, d X)$ is a directed object in the above sense precisely if it contains a nontrivial directed path.
 
