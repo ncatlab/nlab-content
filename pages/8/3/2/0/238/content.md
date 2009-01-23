@@ -10,6 +10,28 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-01-23
+
+* [[Toby Bartels]]:
+
+  * Content:
+    * Wrote [[context]], an idea that should be better appreciated.
+    * Tried a 'constructive' definition at [[directed object]], with relevant comments at [[directed space]].
+    * Wrote about the [[axiom of choice]] in superextensive sites.
+    * Discussed Banach spaces at [[concrete category]].
+
+  * Discussion:
+    * Asked a terminological question at [[cartesian monad]].
+    * Comments on comments at [[monoidal category]].
+    * Made a terminological suggestion at [[2-categorical limit]].
+
+  * Wiki structure:
+    * Set up [[ambimorphic object]] as a redirect.
+    * Separated [[finite object]] from [[finite set]].
+    * Moved [[Trimble's notion of weak n-category]] to [[Trimble n-category]].
+
+  * Other, more minor, edits.
+
 # 2009-01-22
 
 * [[Urs Schreiber|Urs]]
