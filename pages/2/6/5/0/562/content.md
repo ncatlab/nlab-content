@@ -64,7 +64,7 @@ Note that such a pseudofunctor can also be represented by an opfibration $E_1\to
 
 ### Higher categorical versions ###
 
-There is a notion of Grothendieck fibration for [[quasicategory|quasicategories]] defined using lifting of fillers for certain simplicial spheres, used in work of Joyal and Lurie.  Applied to [[nerve|nerves]] of categories, it generalizes the original notion.
+There is a notion of Grothendieck fibration for [[quasi-category|quasicategories]] defined using lifting of fillers for certain simplicial spheres, used in work of Joyal and Lurie.  Applied to [[nerve|nerves]] of categories, it generalizes the original notion.
 
 There is also a notion of fibration for 2-categories that has been studied by Hermida.
 
