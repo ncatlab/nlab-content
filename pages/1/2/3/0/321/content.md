@@ -98,6 +98,10 @@ Next assume that $C$ is a [[cartesian monoidal category]]. Then clearly $Span_1(
 * $Span_1(C)$ is a [[dagger compact category]].
 
 
+#Generalizations#
+
+ See [[multispan]].
+
 #References#
 
 The above list of facts about spans is described in
