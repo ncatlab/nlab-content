@@ -2,4 +2,4 @@ A _dual adjunction_ between [[category|categories]] $C$ and $D$ is an [[adjuncti
 
 The concept arises in the context of [[duality]].
 
-Dual adjunctions between [[concrete category|concrete categories]] are represented by [[dualizing object]]s.
+Dual adjunctions between [[concrete category|concrete categories]] may be represented by [[dualizing object]]s.
