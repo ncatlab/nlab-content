@@ -41,10 +41,22 @@ otherwise it is called **directed** or a **directed object**.
 
 #Remarks#
 
-* Whether or not an object is undirected depends on the choice of interval object. For instance if in the example of $\omega$-groupoids above we take instead of the first [[oriental]] (which is _oriented_, i.e. directed) the free groupoid on it, i.e the groupoid $I_{inv} = \{a \stackrel{\simeq}{\to} b\}$ then this interval object $I_{inv}$ is itself undirected. 
+* Whether or not an object is undirected depends on the choice of interval object. For instance if in the example of $\omega$-groupoids above we take instead of the first [[oriental]] (which is _oriented_, i.e. directed) the free groupoid on it, i.e the groupoid $I_{inv} = \{a \stackrel{\simeq}{\to} b\}$ then this interval object $I_{inv}$ is itself undirected.
 
- 
+# Constructive version
 
++--{.query}
+Note:  By 'constructive' here, I don\'t mean anything about [[constructivism]].  This is a response to a request (which doesn\'t seem to appear any longer either here or on [[directed space]]) for a more 'constructive' version of directed object, one that didn\'t just begin with a category of (possibly) directed objects and ask which were (un)directed, but instead began with a category of undirected objects and constructed *from* that a category of directed objects, much as Grandis developed directed topological spaces out of the undirected ones.  This is my answer to that request.  &#8212;Toby
+=--
+
+Let $C$ be a category with an [[interval object]] $I$, and suppose that every object $X$ of $C$ is undirected in the sense above.  Then we may still define a notion of undirected $C$-objects, although these will be the objects of some supercategory $d_I{C}$, not objects of $C$ itself.
+
+To be explicit, let an **$I$-directed object** of $C$ be an object $X$ of $C$ together with a [[subset]] $d$ or $d_X$ of the [[hom-set]] $I \to C$; elements of $d$ are called **$d$-directed paths** in $(X, d)$.  The directed paths must satisfy these conditions (following Grandis):
+1. (constant paths) every map $I \to \pt \to X$ is directed;
+1. (reparametrisation) seems to need extra structure on $I$ to state, but maybe it\'s not really necessary;
+1. (concatenation) if $a, b: I \to X$ are consecutive in the sense that $\pt \to^{\tau} I \to^{a} X$ equals $\pt \to^{\sigma} I \to^{b} X$, then their concatenate $I \to X$ (which exists by the pushout properties of $I$) is a directed path.
+
+A morphism of directed objects is a morphism of their underlying objects that preserves directed paths.
 
 #References#
 
