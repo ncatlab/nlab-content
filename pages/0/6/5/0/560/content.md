@@ -11,7 +11,7 @@ Let $V$ be a
 [[interval object|category with interval object]], with the interval object denoted $I$. Recall that there is for every object $X$ of $V$ a canonical morphism
 $X_0 \to [I,X]$ which embeds the points of $X$, $X_0 := [pt,X]$ as the constant paths into the "object of directed paths" $[I,X]$. Assume now that $X_0 \simeq X$.
 
-An object $X$ in $V$ is called **undirected** or an **undirected object** (with respect to $I$) if this morphism is a weak equivalence:
+An object $X$ in $V$ is called **undirected** or an **undirected object** with respect to $I$, -- or $I$-undirected -- if this morphism is a weak equivalence:
 
 $$
   (X undirected) \Leftrightarrow
@@ -19,7 +19,7 @@ $$
   \,;
 $$
 
-otherwise it is called **directed** or a **directed object**.
+otherwise it is called **directed** or a **directed object** with respect to $I$, or $I$-directed.
 
 
 #Examples#
@@ -41,22 +41,43 @@ otherwise it is called **directed** or a **directed object**.
 
 #Remarks#
 
-* Whether or not an object is undirected depends on the choice of interval object. For instance if in the example of $\omega$-groupoids above we take instead of the first [[oriental]] (which is _oriented_, i.e. directed) the free groupoid on it, i.e the groupoid $I_{inv} = \{a \stackrel{\simeq}{\to} b\}$ then this interval object $I_{inv}$ is itself undirected.
+* Whether or not an object is undirected depends on the choice of interval object. 
+
+  * For instance the terminal object $pt$ itself is always a an interval object, $I = pt$, but in a trivial way. Every object is $pt$-undirected. 
+
+  * A bit more generally, the interval object may be not equal to the terminal object, but still be _weakly equivalent_ to it.  For instance the standard (undirected) topological  interval $[0,1]$ is not equal to but is weakly equivalent to the point in the standard  [[model structure on topological spaces]]. This implies in particular that with  respect to the standard undirected topological interval even a [[directed space|directed topological space]] should undirected. (Well, we still need to specify the closed structure on $dTop$ to make this true...) It's only the standard _directed_ topological interval which can detect the directedness of a directed topological space.
+
+
+  * Analogous statements are true in the example of [[strict  omega-category|strict omega-categories]], where the analogu of the standard directed topological interval is the 1-[[globe]] $I_{dir} = \{a \to b\}$, while the example of the standard undirected topological interval is the [[groupoid]] version of this, $I_{inv} = \{a \stackrel{\simeq}{\to} b\}$, where the morphism from $a$ to $b$ is an [[isomorphism]]. As opposed to $I_{dir}$ this $I_{inv}$ is weakly equivalent to the terminal category $pt = \{\bullet\}$ (the 0-[[globe]]) (with respect to the [[folk model structure]]). It should be true that every strict $\omega$-category is $I_{inv}$-undirected, even if it is $I_{dir}$-directed.
 
 # Constructive version
 
 +--{.query}
 Note:  By 'constructive' here, I don\'t mean anything about [[constructivism]].  This is a response to a request (which doesn\'t seem to appear any longer either here or on [[directed space]]) for a more 'constructive' version of directed object, one that didn\'t just begin with a category of (possibly) directed objects and ask which were (un)directed, but instead began with a category of undirected objects and constructed *from* that a category of directed objects, much as Grandis developed directed topological spaces out of the undirected ones.  This is my answer to that request.  &#8212;Toby
+
+[[Urs Schreiber|Urs]]: thanks, good point. I am not sure where it disappeared to. Somewhere I suggested a definition of _directed set_ quite along the lines of the definition below.
+
 =--
 
-Let $C$ be a category with an [[interval object]] $I$, and suppose that every object $X$ of $C$ is undirected in the sense above.  Then we may still define a notion of undirected $C$-objects, although these will be the objects of some supercategory $d_I{C}$, not objects of $C$ itself.
+Let $C$ be a category with an [[interval object]] $I$, and suppose that every object $X$ of $C$ is $I$-undirected in the sense above.  Then we may still define a notion of directed $C$-objects, although these will be the objects of some supercategory $d_I{C}$, not objects of $C$ itself.
 
-To be explicit, let an **$I$-directed object** of $C$ be an object $X$ of $C$ together with a [[subset]] $d$ or $d_X$ of the [[hom-set]] $I \to C$; elements of $d$ are called **$d$-directed paths** in $(X, d)$.  The directed paths must satisfy these conditions (following Grandis):
+To be explicit, fix a subset
+$
+  d_I \subset {}_{pt}hom(I,I)_{pt}
+$
+of the endomorphisms of the given [[interval object]] $I$ regarded as a cospan $pt \to I \leftarrow pt$ to be called the _directed endomorphisms_ of the interval object.
+
+Then let an **$I$-directed object** of $C$ be an object $X$ of $C$ equipped with a [[subset]] $d$ or $d_X$ of the [[hom-set]] $I \to C$; elements of $d$ are called **$d$-directed paths** in $(X, d)$.  The directed paths must satisfy these conditions (following Grandis):
 1. (constant paths) every map $I \to \pt \to X$ is directed;
-1. (reparametrisation) seems to need extra structure on $I$ to state, but maybe it\'s not really necessary;
-1. (concatenation) if $a, b: I \to X$ are consecutive in the sense that $\pt \to^{\tau} I \to^{a} X$ equals $\pt \to^{\sigma} I \to^{b} X$, then their concatenate $I \to X$ (which exists by the pushout properties of $I$) is a directed path.
+2. (reparametrisation) For $\gamma \in d_X \subset hom(I,C)$  and every $\phi \in d_I \subset hom(I,I)$, also $\gamma \circ \phi$  is in $d_X$;
+3. (concatenation) if $a, b: I \to X$ are consecutive in the sense that $\pt \to^{\tau} I \to^{a} X$ equals $\pt \to^{\sigma} I \to^{b} X$, then their concatenate $I \to X$ (which exists by the pushout properties of $I$) is a directed path.
 
-A morphism of directed objects is a morphism of their underlying objects that preserves directed paths.
+A morphism of such directed objects is a morphism of their underlying objects that preserves directed paths.
+
+## Examples ##
+
+* The category of [[directed space|directed topological spaces]] according to Grandis is of the above form $d_I{C}$ for $C = $ [[Top]], $I = [0,1]$ and $d_I = \{monotonic maps I \to I\}$.
+
 
 #References#
 
