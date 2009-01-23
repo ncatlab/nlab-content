@@ -10,4 +10,8 @@ A **regular monomorphism** is a [[morphism]] which occurs as the [[equalizer]] o
 
 * In [[Grp]], the monics are (up to isomorphism) the inclusions of subgroups, while the regular monics are the inclusions of _normal_ subgroups.
 
++--{.query}
+Should we be able to see this in terms of the expressivity of [[regular logic]]?
+=--
+
 * In [[Ab]], or more generally any [[abelian category]], every monomorphism is regular.
