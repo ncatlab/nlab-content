@@ -2,9 +2,9 @@ Weak $\omega$-categories are examples of [[higher category theory|higher categor
 
 #Examples#
 
-* [[Trimble's notion of weak n-category]]
+* [[Trimble n-category]]
 
-* [[Batanin's notion of weak omega-category]]
+* [[Batanin omega-category]]
 
 
 ***
