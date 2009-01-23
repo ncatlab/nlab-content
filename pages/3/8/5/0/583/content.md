@@ -22,7 +22,7 @@ It turns out that there is a hierarchy of types of logical theories, each of whi
 <tr><td>higher order</td><td>[[topos|elementary topos]]</td></tr>
 </table>
 
-Each type of logic up through "geometric" can also be described in terms of [[sketch|sketches]], which we do not discuss here.  Sketches can also describe theories applicable to categories not even having all finite limits, such as finite product sketches or finite sum sketches, but the logical approach taken here seems to require at least finite limits.
+Each type of logic up through "geometric" can also be described in terms of [[sketch|sketches]], which we do not discuss here.  Not coincidentally, the corresponding types of category up through "geometric" fit into the framework of [[familial regularity and exactness]].  Sketches can also describe theories applicable to categories not even having all finite limits, such as finite product sketches or finite sum sketches, but the logical approach taken here seems to require at least finite limits.
 
 For purposes of this page, what we mean by a _theory_ is a _[[type theory]]_.  This entails the following.
 
