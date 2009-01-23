@@ -108,7 +108,7 @@ $$
 
 and interpreted as the [[fundamental groupoid]] or rather, in general, the [[fundamental category]] of the object $B$ with respect to the interval object $I$ -- all internal to $V$.
 
-Moreover, by iterating this process as described at [[Trimble n-category]] one should obtain, if everything goes through, on $X$ the structure of a [[Trimble n-category|Trimble]] $\omega$-[[infinity-category]] and indeed a functor
+Moreover, by iterating this process as described at [[Trimble n-category]] one should obtain, if everything goes through, on $X$ the structure of a [[Trimble n-category|Trimble]] $\omega$-[[infinity-category|category]] and indeed a functor
 
 $$
   \Pi_\omega : V_0 \to Trimble \omega Cat
