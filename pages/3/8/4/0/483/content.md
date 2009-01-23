@@ -31,8 +31,11 @@ A **morphism of directed topological spaces**  $f : (X, d X)\to (Y , d Y)$ is a 
 
 * If we can equip directed spaces with an internal hom, then a directed space with at least one directed path should be a [[directed object]] in the category of directed spaces, with respect to the standard directed interval as the [[interval object]], while an ordinary topological spaces regarded as a directed space should be an undirected object.
 
-But for that to work we need the structure of a directed topological space on $C(I_d,(X,d X))$. This requires that $X$ has _directed homotopies_! Does Grandis discuss higher directed paths, too?
++--{.query}
+But for that to work we need the structure of a directed topological space on $C(I_d,(X,d X))$. This requires that $X$ has _directed homotopies_! Does Grandis discuss higher directed paths, too? &#8212;Urs
 
+_Toby_: I don\'t think that you need internal homs and all that.  But see my edits to [[directed object]].
+=--
 
 #References#
 
@@ -102,3 +105,5 @@ _[[Eric Forgy|Eric]]_: Ugh. I didn't want a directed space to be a directed obje
 [[Urs Schreiber|Urs]]: I think you do want that. Just don't let the terminology let mix you up. An ordinary space is already called a space. While from your perspective an ordinary space ought to be called an _undirected space_.  Then "space" could be assigned to mean "not-necessarily but possibly directed space" and then a directed space could be called a directed object in spaces.
 
 But convention is different. So a directed space is a directed object in the category of "not necessarily but possibly drected spaces".
+
+_Toby_: Even here, I don\'t think that you\'re really using the terminology ideally.  The proper term for what you\'re calling a "not-necessarily but possibly directed space" is just *directed space*!  Much like a non-associative algebra might happen to be associative, so a directed space might happen to be undirected.  (In terms of Grandis\'s definition, any space $X$ defines a directed space where $d$ consists of only the constant paths.)
