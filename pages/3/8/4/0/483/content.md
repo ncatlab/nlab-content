@@ -1,6 +1,6 @@
 #Idea#
 
-A _directed space_ is a topological space in which not every path is traversable in both directions. 
+A _directed space_ is a topological space in which not every path is to be thought of as traversable in both directions. 
 Directed spaces are supposed to be to general $\infty$-[[infinity-category|categories]] as ordinary [[topological space|topological spaces]] are to $\infty$-[[infinity-groupoid|groupoids]] via the [[homotopy hypothesis]].
 
 Directed spaces are studied in [[directed homotopy theory]], a relatively young topic. In generalization of how a [[topological space]] has a [[fundamental groupoid]], a [[directed space]] has a [[fundamental category]].
@@ -35,6 +35,9 @@ A **morphism of directed topological spaces**  $f : (X, d X)\to (Y , d Y)$ is a 
 But for that to work we need the structure of a directed topological space on $C(I_d,(X,d X))$. This requires that $X$ has _directed homotopies_! Does Grandis discuss higher directed paths, too? &#8212;Urs
 
 _Toby_: I don\'t think that you need internal homs and all that.  But see my edits to [[directed object]].
+
+[[Urs Schreiber|Urs]]: I think we need directed homotopies to check if a "constructed" directed space is actually a directed object in the original definition: that original definition asks us to check if the internal hom $[I,X]$ is weakly equivalent to $X$. Well, I made up this definition because I think it is the right abstraction, but there is room of course to debate this. But if we accept it then we should try to define the internal hom of Grandis' directed spaces. There is an obvious solution which one should check the details of: namely a directed topological space should be one which singles out not only subsets of $hom(I,X)$ but subsets of $hom(I^{\times n}, X)$ for all $n$, closed under the obvious reparameterization and gluing. This would induce an obvious notion of directed homotopies and should induce in an obvious way an internal hom for directed topological spaces. I'd think. But I don't feel like investing much time into finalizing this idea right now...
+
 =--
 
 #References#
@@ -42,6 +45,10 @@ _Toby_: I don\'t think that you need internal homs and all that.  But see my edi
 The above definition is from
 
 * Marco Grandis, _Directed homotopy theory, I. The fundamental category_ ([arXiv](http://arxiv.org/abs/math.AT/0111048))
+
+A discussion of reparameterization of directed paths in directed topological spaces is in
+
+* Ulrich Fahrenberg and Martin Raussen, _Reparametrizations of Continuous Paths_ ([arXiv](http://arxiv.org/abs/0706.3560), ([blog](http://golem.ph.utexas.edu/category/2006/09/fahrenberg_and_raussen_on_cont.html)))
 
 
 #Discussion#
@@ -107,3 +114,9 @@ _[[Eric Forgy|Eric]]_: Ugh. I didn't want a directed space to be a directed obje
 But convention is different. So a directed space is a directed object in the category of "not necessarily but possibly drected spaces".
 
 _Toby_: Even here, I don\'t think that you\'re really using the terminology ideally.  The proper term for what you\'re calling a "not-necessarily but possibly directed space" is just *directed space*!  Much like a non-associative algebra might happen to be associative, so a directed space might happen to be undirected.  (In terms of Grandis\'s definition, any space $X$ defines a directed space where $d$ consists of only the constant paths.)
+
+[[Urs Schreiber|Urs]]: Right, Toby, I think that is my point. I was just trying to convince Eric that there is nothing wrong or cheating or boring about the fact that "a directed space is a directed object in the category of directed spaces".
+
+But maybe the the true issue is whether we want to speak of "directed objects" over at [[directed object]] or rather restrict to speaking about _undirected objects_. Then every object would be a directed object, possibly with trivial direction information, while those objects which are propertly directed would be the _not undirected objects_. 
+
+I consider you as an authority on such issues of logical rigour. You should say how we should fix the terminology and we'll implement that.
