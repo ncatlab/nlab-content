@@ -6,6 +6,10 @@ A **2-categorical limit** is the type of [[limit]] that is appropriate in a [[2-
 
 1. Since 2-categories are [[enriched category|enriched]] over [[Cat]] (this is precise in the [[strict 2-category|strict]] case, and "weakly" true in the [[bicategory|weak]] case), Cat-[[weighted limit]]s become important.  This means that both the diagrams we take limits of and the shape of "cones" that limits represent can involve 2-cells as well as 1-cells.
 
++--{.query}
+Just as we now say '$2$-category' for [[2-category|the general notion]] and 'strict $2$-category' if we really want [[strict 2-category|the strict case]], shouldn\'t we say '$2$-limit' for the general notion here (which would presumably lead us to [[2-limit|move the page]]) and 'strict $2$-limit' if we really want the strict case? &#8212;Toby
+=--
+
 # Classification #
 
 ## Limits in a 2-category ##
