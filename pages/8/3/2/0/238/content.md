@@ -10,7 +10,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
-# 2009-01-23
+# 2009-01-22
+
+* [[John Baez]]:
+
+  * Wrote [[pushout]] in the same gentle style as the previous article [[pullback]].  I want nice easy introductions to all our favorite limits and colimits!
+
+  * Wrote brief stubs for [[colimit]] and [[totally ordered set]].
 
 * [[Toby Bartels]]:
 
@@ -31,8 +37,6 @@ These comments should go in _reverse_ chronological order, so that the latest ar
     * Moved [[Trimble's notion of weak n-category]] to [[Trimble n-category]].
 
   * Other, more minor, edits.
-
-# 2009-01-22
 
 * [[Urs Schreiber|Urs]]
 
