@@ -26,7 +26,7 @@ along a morphism $c' \to c$ is again a coequalizer diagram.
 
 To form the image factorization of a map $f: d \to c$, let $q: d \to k$ be the coequalizer of the kernel pair of $f$. Since $f$ coequalizes its kernel pair, there is a unique map $i: k \to c$ such that $f = i q$. It may be shown from the regular category axioms that $i$ is monic and in fact represents the [[image]] of $f$, i.e., the smallest subobject through which $f$ factors.  Moreover, the classes of regular epis and of (all) monomorphisms form a [[orthogonal factorization system|factorization system]].
 
-In fact, a regular category can alternately be defined as a finitely complete category with pullback-stable [[image]] factorizations.
+In fact, a regular category can alternately be defined as a finitely complete category with pullback-stable [[image]] factorizations.  See [[familial regularity and exactness]] for a generalization of this approach to include [[coherent category|coherent]] categories as well.
 
 
 ## Examples
