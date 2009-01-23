@@ -13,7 +13,7 @@ $$
      y
   }
 $$
-where $s$ is some other object of the category.  This diagram is called a 'span' because it looks like a little bridge.
+where $s$ is some other object of the category.  This [[diagram]] is called a 'span' because it looks like a little bridge.
 
 Note that a span with $f = 1$ is just a morphism from $x$ to $y$, while a span with $g = 1$ is a morphism from $y$ to $x$.  So, a span can be thought of as a generalization of a morphism in which there is no longer any asymmetry between source and target.
 
@@ -40,7 +40,7 @@ $$
 we can take a pullback in the middle:
 $$
   \array{
-     &&&& s t 
+     &&&& s \times_y t 
      \\& 
     &&
       {}^{p_s}\swarrow
@@ -64,7 +64,7 @@ $$
 and obtain a span from $x$ to $z$:
 $$
   \array{
-     && s t
+     && s \times_y t
       \\
       & {}^{f p_s}\swarrow
       && \searrow^{i p_t}
@@ -100,7 +100,7 @@ Next assume that $C$ is a [[cartesian monoidal category]]. Then clearly $Span_1(
 
 #References#
 
-These "facts about spans" are described in
+The above list of facts about spans is described in
 
 * John Baez, _Spans in quantum Theory_ ([web](http://math.ucr.edu/home/baez/span/), [pdf](http://math.ucr.edu/home/baez/span/span.pdf)
 [blog](http://golem.ph.utexas.edu/category/2007/10/spans_in_quantum_theory.html))
