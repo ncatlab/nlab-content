@@ -12,20 +12,19 @@ However, it turns out that if we assume some additional structure on the ambient
 It turns out that there is a hierarchy of types of logical theories, each of which corresponds to a type of category in which such theories can be internalized.
 
 <table><tr><th>Theory</th><th>Category</th></tr>
-<tr><td>cartesian</td><td>[[finitely complete category]]</td></tr>
+<tr><td>finite limit (aka "left exact" or "cartesian")</td><td>[[finitely complete category]]</td></tr>
 <tr><td>regular</td><td>[[regular category]]</td></tr>
 <tr><td>coherent</td><td>[[coherent category]]</td></tr>
+<tr><td>disjunctive</td><td>[[extensive category]] (aka finitary disjunctive category)</td></tr>
+<tr><td>geometric</td><td>[[coherent category|infinitary coherent category]] (aka geometric category)</td></tr>
 <tr><td>first-order</td><td>[[Heyting category]]</td></tr>
 <tr><td>dependent types</td><td>[[locally cartesian closed category]]</td></tr>
 <tr><td>higher order</td><td>[[topos|elementary topos]]</td></tr>
 </table>
 
-+--{.query}
-Is there a reason why your list doesn't include all of the members of a list provided by Barr in 'Models of Sketches' as kinds of sketch: finite product, left exact, regular, finite sum, coherent, geometric?
-=--
+Each type of logic up through "geometric" can also be described in terms of [[sketch|sketches]], which we do not discuss here.  Sketches can also describe theories applicable to categories not even having all finite limits, such as finite product sketches or finite sum sketches, but the logical approach taken here seems to require at least finite limits.
 
-
-More precisely, what we mean by a _theory_ is a _[[type theory]]_.  This entails the following.
+For purposes of this page, what we mean by a _theory_ is a _[[type theory]]_.  This entails the following.
 
 * The theory may have many different _types_ $A,B,C$.  For example, the theory of a group has only one type (group elements), but the theory of a-ring-and-a-module has two types (ring elements and module elements).  There are also generally _type constructors_ that build new types from basic ones, such as product types $A\times B$ and the unit type $1$.
 
@@ -56,32 +55,39 @@ We then define, inductively, an interpretation of every _logical formula_ that c
 
 <table><tr><th>Logical operator</th><th>Operation on Sub(<i>A</i>)</th></tr>
 <tr><td>[[conjunction]]: &and;</td><td>[[intersection]] (pullback)</td></tr>
-<tr><td>truth: &top;</td><td><i>A</i></td></tr>
+<tr><td>truth: &top;</td><td>top element (<i>A</i>)</td></tr>
 <tr><td>[[disjunction]]: &or;</td><td>[[union]]</td></tr>
-<tr><td>falsity: &bot;</td><td>bottom element ([[strict initial object]])</td></tr>
-<tr><td>implication: &rarr;</td><td>[[Heyting implication]]</td></tr>
-<tr><td>[[existential quantification]]: &exist;</td><td>[[left adjoint]] to pullback</td></tr>
-<tr><td>[[universal quantification]]: &forall;</td><td>[[right adjoint]] to pullback</td></tr>
+<tr><td>falsity: &bot;</td><td>bottom element ([[initial object|strict initial object]])</td></tr>
+<tr><td>implication: &rarr;</td><td>[[Heyting algebra|Heyting implication]]</td></tr>
+<tr><td>[[existential quantification]]: &exist;</td><td>[[adjunction|left adjoint]] to pullback</td></tr>
+<tr><td>[[universal quantification]]: &forall;</td><td>[[adjunction|right adjoint]] to pullback</td></tr>
 </table>
+
+The fact that existential and universal quantifiers can be interpreted as left and right adjoints to pullbacks was first realized by Lawvere.  One way to realize that it makes sense is to notice that in [[Set]], the image of a subset $R\subset A$ under a function $f:A\to B$ can be defined as
+$$\{b\in B | (\exists a\in A)(a\in R \;\wedge\; f(a)=b)\},$$
+while its "dual image" (the right adjoint to pullback) can be defined as
+$$\{b\in B | (\forall a \in A)(f(a)=b \Rightarrow a\in R)\}.$$
 
 Of course, in not all finitely complete categories $C$ do all these operations on subobjects exist.  Moreover, in order for the relationship with logic to be well-behaved, any of these operations we make use of must be *stable under* (preserved by) pullbacks.  (Pullbacks of subobjects correspond to "innocuous" logical operations such as adding extra unused variables, duplicating variables, and so on, so they should definitely not affect the meaning of the logical connectives.  However, in [[linear logic]] such operations become less innocuous.)
 
-In any category with finite limits, the posets $Sub(A)$ always have finite intersections (given by pullback), including a top element (given by $A$ itself).  Thus in any such category, we can interpret logical theories that use only the connectives $\wedge$ and $\top$.  This includes both the theories of groups and posets considered above.  (Actually, we can also interpret "provably-unique existence"; for example, if the definition of group is given as stating that there exist identities and inverses, rather than stating that identities and inverses are given by functions as in the axioms shown above, we can rewrite these axioms using functions because the objects whose existence they state are provably unique.)
-
-+--{.query}
-I'm not sure that's an instance of what I was talking about.  The existence of an identity is a statement of the form "there exists an $e$ such that _for all $x$_, ..." so it doesn't just involve $\wedge$, $\top$, and $\exists!$, but also $\forall$.  I was looking at D1.3.4 in the Elephant.
-=--
-
+In any category with finite limits, the posets $Sub(A)$ always have finite intersections (given by pullback), including a top element (given by $A$ itself).  Thus in any such category, we can interpret logical theories that use only the connectives $\wedge$ and $\top$.  This includes both the theories of groups and posets considered above.  
 In a [[regular category]], the existence of pullback-stable [[image]]s implies that pullback $f^*:Sub(B)\to Sub(A)$ along any map $f:A\to B$ has a left adjoint, usually written $\exists_f$, and that these adjoints "commute with pullbacks" in an appropriate sense (given by the [[Beck-Chevalley condition]].  Thus, in a regular category we can interpret any theory in so-called _regular logic_, which uses only $\wedge$, $\top$, and $\exists$.
 
-A [[coherent category]] is basically defined to be a regular category in which the subobject posets additionally have pullback-stable finite unions.  Thus, in a coherent category we can interpret so-called _coherent logic_, which adds $\vee$ and $\bot$ to regular logic.
+Actually, some instances of $\exists$ can be interpreted in any category with finite limits: if $f$ is itself a monomorphism, then $f^*$ always has a left adjoint simply given by composition with $f$. On the logical side, this means that we can interpret "provably-unique existence" in any category with finite limits.  Logic with $\wedge$, $\top$, and "provably-unique-existence" is called _cartesian logic_ or _finite-limit logic_.
 
-Finally, in a [[Heyting category]] the pullback functors $f^*:Sub(B)\to Sub(A)$ also have right adjoints, usually written $\forall_f$, and it is easy to see that this implies that each $Sub(A)$ is also a [[Heyting algebra]], hence has an "implication" $\Rightarrow$ as well.  (We define "negation" by $\neg \varphi \equiv \varphi \Rightarrow \bot$.)  Thus, in a Heyting category we can interpret all of (first-order) [[intuitionistic logic]].
++--{.query}
+Toby added:
 
-(The fact that existential and universal quantifiers can be interpreted as left and right adjoints to pullbacks was first realized by Lawvere.  One way to realize that it makes sense is to notice that in [[Set]], the image of a subset $R\subset A$ under a function $f:A\to B$ can be defined as
-$$\{b\in B | (\exists a\in A)(a\in R \;\wedge\; f(a)=b)\},$$
-while its "dual image" (the right adjoint to pullback) can be defined as
-$$\{b\in B | (\forall a \in A)(f(a)=b \Rightarrow a\in R)\}.)$$
+> For example, if the definition of group is given as stating that there exist identities and inverses, rather than stating that identities and inverses are given by functions as in the axioms shown above, we can rewrite these axioms using functions because the objects whose existence they state are provably unique.
+
+I'm not sure that's an instance of what I was talking about.  The existence of an identity is a statement of the form "there exists an $e$ such that _for all $x$_, ..." so it doesn't just involve $\wedge$, $\top$, and $\exists!$, but also $\forall$.  I was looking at D1.3.4 in the Elephant.  --Mike
+=--
+
+A [[coherent category]] is basically defined to be a regular category in which the subobject posets additionally have pullback-stable finite unions.  Thus, in a coherent category we can interpret so-called _coherent logic_, which adds $\vee$ and $\bot$ to regular logic.  Likewise, in an infinitary-coherent (or "geometric") category we can interpret _geometric logic_, which adds infinitary disjunctions $\bigvee_i \varphi_i$ to coherent logic.  Geometric logic is especially important because it is preserved by the inverse image parts of [[geometric morphism]]s, and because any geometric theory has a [[classifying topos]].
+
+On the other hand, in an [[extensive category]], we do not have images or all unions, but if we have two subobjects of $A$ which are _disjoint_ (their intersection is initial), then their coproduct is also their union in $Sub(A)$.  Therefore, in an extensive category we can interpret _disjunctive logic_, which is cartesian logic plus $\bot$ and "provably-disjoint disjunction."
+
+Finally, in a [[Heyting category]] the pullback functors $f^*:Sub(B)\to Sub(A)$ also have right adjoints, usually written $\forall_f$, and it is easy to see that this implies that each $Sub(A)$ is also a [[Heyting algebra]], hence has an "implication" $\Rightarrow$ as well.  (We define "negation" by $\neg \varphi \equiv \varphi \Rightarrow \bot$.)  Thus, in a Heyting category we can interpret all of (finitary, first-order) [[intuitionistic logic]].
 
 Now that we know how to interpret logic, we can say that a **model** of a given theory in $C$ consists of a choice of objects, morphisms, and subobjects for the types, function symbols, and relation symbols as above, such that for each axiom $\Gamma | \varphi \vdash \psi$, we have $[\varphi]\le [\psi]$ in $Sub([\Gamma])$.  Here, $[\Gamma]$ is the product of the objects that correspond to the types of the variables in $\Gamma$, $[\varphi]$ and $[\psi]$ are the interpretations of the formulas $\varphi$ and $\psi$ as subobjects of $[\Gamma]$, and $\leq$ is the relation of subobject inclusion.
 
