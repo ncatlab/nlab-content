@@ -63,6 +63,10 @@ Of course, in not all finitely complete categories $C$ do all these operations o
 
 In any category with finite limits, the posets $Sub(A)$ always have finite intersections (given by pullback), including a top element (given by $A$ itself).  Thus in any such category, we can interpret logical theories that use only the connectives $\wedge$ and $\top$.  This includes both the theories of groups and posets considered above.  (Actually, we can also interpret "provably-unique existence"; for example, if the definition of group is given as stating that there exist identities and inverses, rather than stating that identities and inverses are given by functions as in the axioms shown above, we can rewrite these axioms using functions because the objects whose existence they state are provably unique.)
 
++--{.query}
+I'm not sure that's an instance of what I was talking about.  The existence of an identity is a statement of the form "there exists an $e$ such that _for all $x$_, ..." so it doesn't just involve $\wedge$, $\top$, and $\exists!$, but also $\forall$.  I was looking at D1.3.4 in the Elephant.
+=--
+
 In a [[regular category]], the existence of pullback-stable [[image]]s implies that pullback $f^*:Sub(B)\to Sub(A)$ along any map $f:A\to B$ has a left adjoint, usually written $\exists_f$, and that these adjoints "commute with pullbacks" in an appropriate sense (given by the [[Beck-Chevalley condition]].  Thus, in a regular category we can interpret any theory in so-called _regular logic_, which uses only $\wedge$, $\top$, and $\exists$.
 
 A [[coherent category]] is basically defined to be a regular category in which the subobject posets additionally have pullback-stable finite unions.  Thus, in a coherent category we can interpret so-called _coherent logic_, which adds $\vee$ and $\bot$ to regular logic.
