@@ -20,6 +20,11 @@ It turns out that there is a hierarchy of types of logical theories, each of whi
 <tr><td>higher order</td><td>[[topos|elementary topos]]</td></tr>
 </table>
 
++--{.query}
+Is there a reason why your list doesn't include all of the members of a list provided by Barr in 'Models of Sketches' as kinds of sketch: finite product, left exact, regular, finite sum, coherent, geometric?
+=--
+
+
 More precisely, what we mean by a _theory_ is a _[[type theory]]_.  This entails the following.
 
 * The theory may have many different _types_ $A,B,C$.  For example, the theory of a group has only one type (group elements), but the theory of a-ring-and-a-module has two types (ring elements and module elements).  There are also generally _type constructors_ that build new types from basic ones, such as product types $A\times B$ and the unit type $1$.
