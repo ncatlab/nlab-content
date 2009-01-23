@@ -24,6 +24,12 @@ Here,
 
 +--{.query}
 I would call a category with all pullbacks 'locally cartesian'.  Shouldn\'t a cartesian category at least have a terminal object?  Would a terminal object make any difference here?  &#8212;[[Toby Bartels|Toby]]
+
+I think you're right about the standard terminology.
+Both Tom Leinster and Jurgen Koslowski ([pdf](http://www.tac.mta.ca/tac/volumes/14/7/14-07.pdf))
+use the terminology above.
+I'm not sure how we want to resolve this here.
+I'll think about it, and look at the standard references, and fix the terminology on this page if nobody else does first.  -Patrick
 =--
 
 #References
