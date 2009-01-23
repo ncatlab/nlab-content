@@ -20,6 +20,6 @@ So the fundamental groupoid is an improvement of the idea of the fundamental gro
 
 * In parts of the literature the fundamental groupoid and in particular the [[fundamental infinity-groupoid]] of a space is called the **Poincar&#233;-groupoid**.
 
-* The fundamental groupoid and its higheer generalization play a fundamental role in the definition of [[Trimble n-category]].
+* The fundamental groupoid and its higher generalization play a fundamental role in the definition of [[Trimble n-category]].
 
 * Following Trimble's definition, it is possible to generalize the notion of fundamental $n$-groupoids from [[Top]] to other [[closed monoidal homotopical category|closed monoidal homotopical categories]] using the concept of categories with [[interval object]].
