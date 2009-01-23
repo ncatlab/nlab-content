@@ -61,7 +61,7 @@ $$
   \,.
 $$
 
-(That this is an adjunction can be understood as a special case of [[Stone duality]] induced by [[ambimorphic object]]s.)
+(That this is an adjunction can be understood as a special case of [[Stone duality]] induced by a [[dualizing object]].)
 
 Lawvere addresses this adjoint pair as **Isbell conjugation**.
 
