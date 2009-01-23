@@ -16,7 +16,11 @@ Extensive categories are also called __positive categories__, especially if they
 
 If an extensive category also has [[finitely complete category|finite limits]], it is called __lextensive__ or __disjunctive__.  (Note that the default meaning of 'disjunctive', unlike the other terms, is the infinitary case.)
 
-The alternative definitions of finitary disjunctive refers only to binary coproducts, but it obviously implies analogous statements for $n$-ary coproducts for all finite $n \ge 1$.  Less obviously, it also implies the analogous statement for $0$-ary coproducts (that is, [[initial object]]s).  In this case, the statement is that the initial object 0 is _strict_ (any map $a\to 0$ is an isomorphism).
+#Remarks#
+
+* The alternative definitions of finitary disjunctive refer only to binary coproducts, but they obviously implies analogous statements for $n$-ary coproducts for all finite $n \ge 1$.  Less obviously, they also imply the analogous statement for $0$-ary coproducts (that is, [[initial object]]s).  In this case, the statement is that the initial object 0 is _strict_ (any map $a\to 0$ is an isomorphism).
+
+* See [[familial regularity and exactness]] for a generalization of extensivity and its relationship to [[exact category|exactness]].
 
 #Examples#
 
