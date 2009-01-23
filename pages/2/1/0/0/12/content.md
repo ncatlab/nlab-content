@@ -149,4 +149,8 @@ lalala
 
 <table><tr><td>Can I put $x^2$ math in a table?</td></tr></table>
 
+Nor can you put it inside links: [[$\infty$-category]].
+But you can put it inside *some* markup, such as boldface: **I love $\infty$-categories!!!**
+I don\'t know what makes the difference.
+
 category: meta
