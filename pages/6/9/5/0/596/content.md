@@ -25,3 +25,5 @@ This is related to discussions at the $n$-Caf&#233; at these places:
 * [[span trace]]
 
 * [[co-span co-trace]]
+
+* [[Cospans in Algebraic Topology]]
