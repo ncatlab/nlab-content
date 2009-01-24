@@ -13,13 +13,18 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * somewhat hastily created [[fundamental infinity-groupoid]] (have the vague recollection that I wrote something like that before... but can't see it anymore...)
+
+  * created [[cobordism]] and [[extended cobordism]] and included a bunch of literature related to that and to [[multispan]], notably to [[Marco Grandis]]' work on [[Cospans in Algebraic Topology]] and to [[Jeffrey Morton]]'s work on [[multispan]]s ans [[extended cobordism]]s
+
+  * further details at [[multispan]] (or in the file linke to there)
+
   * created an entry on Nils Baas' concept of [[hyperstructure]]s, mainly to point out how close it is at least in spirit to [[span]]s appearing in [[groupoidification]] -- and in fact to [[multispan]]s
 
   * created [[span trace]] and [[co-span co-trace]]
    (I am not sure about the (best) spelling convention!)
    after I had checked with [[John Baez|John]] that this has not previously been said explicitly in the literature
 
-  * provided more details of what I imagine at [[multispan]]
 
 * [[Tim Porter|Tim]]:
     
