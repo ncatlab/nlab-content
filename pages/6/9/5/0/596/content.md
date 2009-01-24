@@ -1,10 +1,23 @@
 +--{.query}
 [[Urs Schreiber|Urs]]:
 
-I'd like to eventually describe some useful concept here that should go by the name _multispan_ and _multispan composition_. I have a couple of motivating examples that have led me here, but I haven't typed that yet. For the moment, what I have is this brief list of what I began imagining the basic definitions should look like: 
+I'd like to eventually describe some useful concept here that should go by the name _multispan_ and _multispan composition_. A beginning is made here
 
-* [[multispans.pdf:file]]
+* [[multispansJan24.pdf:file]]
 
-I ran out of time while tying it, though. More later...
+This is related to discussions at the $n$-Caf&#233; at these places:
+
+* general idea (or not) of multispans [blog](http://golem.ph.utexas.edu/category/2007/11/category_theory_and_biology.html#c021530)
+
+* extended cobordisms as multispans [blog](http://golem.ph.utexas.edu/category/2008/05/hopkinslurie_on_baezdolan.html#c021486)
+
+* traces on multispans and co-traces on spans [blog](http://golem.ph.utexas.edu/category/2008/05/hopkinslurie_on_baezdolan.html#c021537)
+
 
 =--
+
+#Related concepts#
+
+* [[span trace]]
+
+* [[co-span co-trace]]
