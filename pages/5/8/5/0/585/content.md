@@ -7,12 +7,7 @@ In 1999, [[Todd Trimble]] introduced a definition of weak $n$-category in a lect
 
 Trimble never published this material himself (in effect leaving it to others present at the Cambridge lecture to develop their own accounts, which has been a good thing), but it may be of at least historical interest to have Trimble's original account available. We will then pick out the highlights and streamline the approach, following subsequent work by Leinster and Cheng. 
 
-
-
-
-
 ## The original idea
-
 
 The original idea was to use an $A_\infty$-[[A-infinity-cocategory|cocategory]] structure on the topological interval $I$, in the form of an topological operad $T$ which is used to control all ways of weakly composing arrows. Then one proceeds to define weak $n$-categories by induction, defining at each stage a fundamental $n$-groupoid functor 
 
@@ -33,7 +28,9 @@ $$X_0 \times X_0 \to V$$
 
 A basic example of $V$-graph for our purposes is the "graph of paths" for a space $X$: define 
 
-$$X^\sim : X_0 \times X_0 \to Top \qquad (1)$$ 
+\[\label{Trimble1}
+X^\sim : X_0 \times X_0 \to Top
+\]
 
 by letting $X^\sim(x, y)$ be the space of paths from $x$ to $y$. Two paths from $x$ to $y$ are homotopic if they lie in the same connected component of $X^\sim(x, y)$, so by applying the connected components functor, 
 
@@ -41,25 +38,29 @@ $$X_0 \times X_0 \stackrel{X^\sim}{\to} Top \stackrel{\Pi_0}{\to} Set$$
 
 we get the graph of homotopy classes of paths. What we want is to put a category structure on this $Set$-graph, so as to obtain the fundamental groupoid $\Pi_1(X)$. 
 
-The $Top$-graph (1) can also be thought of as a topological span from the discrete space $X_0$ to itself, and this is obviously closely related to the span 
+The $Top$-graph (eq:Trimble1) can also be thought of as a topological span from the discrete space $X_0$ to itself, and this is obviously closely related to the span 
 
-$$X^1 \stackrel{X^{i_0}}{\leftarrow} X^I \stackrel{X^{i_1}}{\to} X^1 \qquad (2)$$ 
+\[\label{Trimble2}
+X^1 \stackrel{X^{i_0}}{\leftarrow} X^I \stackrel{X^{i_1}}{\to} X^1
+\] 
 
-where $i_0, i_1: 1 \to I$ are the endpoint inclusions. Indeed, we get (1) from (2) by first precomposing with a span from $X_0$ to $X$, 
+where $i_0, i_1: 1 \to I$ are the endpoint inclusions. Indeed, we get (eq:Trimble1) from (eq:Trimble2) by first precomposing with a span from $X_0$ to $X$, 
 
 $$X_0 \leftarrow X_0 \to X,$$
 
 (both arrows being identity functions), followed by postcomposing with the opposite span. This pre- and post-composition gives a functor 
 
-$$TopSpan(X, X) \to TopSpan(X_0, X_0) = TopGraph_{X_0} \qquad (3)$$ 
+\[\label{Trimble3}
+TopSpan(X, X) \to TopSpan(X_0, X_0) = TopGraph_{X_0}
+\] 
 
-to which we return later, but for the time being we work with the span (2). 
+to which we return later, but for the time being we work with the span (eq:Trimble2). 
 
-As a functor in $X$, the span (2) is obtained by homming out of the _interval cospan_ 
+As a functor in $X$, the span (eq:Trimble2) is obtained by homming out of the _interval cospan_ 
 
 $$1 \stackrel{i_0}{\to} I \stackrel{i_1}{\leftarrow} 1$$
 
-and the fundamental groupoid structure on the span (1) ultimately comes about by homming out of an H-cogroupoid structure on the interval cospan, just as the fundamental group of a based space is obtained by homming out of the pointed circle, seen as an H-cogroup. 
+and the fundamental groupoid structure on the span (eq:Trimble1) ultimately comes about by homming out of an H-cogroupoid structure on the interval cospan, just as the fundamental group of a based space is obtained by homming out of the pointed circle, seen as an H-cogroup. 
 
 Let us describe the H-cocategory structure on the interval cospan. A cospan from a point to itself is a bipointed space, and the composite of two such cospans $X$, $Y$ is obtained by identifying the second point of $X$ with the first point of $Y$, resulting in a new bipointed space we denote by $X \vee Y$. In particular, 
 
@@ -87,13 +88,15 @@ Now we just hom out of the cospan co-operations encapsulated in the operad $T$ t
 $$\hom(\theta, X): \hom(I^{\vee n}, X) \to \hom(I, X)$$
 from the $n$-fold span composite to the span itself. 
 
-Again, we could express this by saying we derive an $A_\infty$-[[A-infinity-category|category]] structure on the topological span (2), but in less fancy terms, the composition map 
+Again, we could express this by saying we derive an $A_\infty$-[[A-infinity-category|category]] structure on the topological span (eq:Trimble2), but in less fancy terms, the composition map 
 
 $$\hom(I, I^{\vee n}) \times \hom(I^{\vee n}, X) \to \hom(I, X)$$ 
 
 gives a $T$-algebra structure on the topological span: 
 
-$$T_n \times (X \leftarrow X^I \to X)^{\otimes n} \to (X \leftarrow X^I \to X) \qquad (4)$$ 
+\[\label{Trimble4}
+T_n \times (X \leftarrow X^I \to X)^{\otimes n} \to (X \leftarrow X^I \to X)
+\] 
 
 where $\otimes$ indicates span composite. 
 
@@ -103,23 +106,29 @@ This change of base is (strong) monoidal. As a matter of fact, this change of ba
 
 We get a similar $T$-algebra structure on the $Top$-graph $X^\sim: X_0 \times X_0 \to Top$ we started with. Indeed, the functor 
 
-$$TopSpan(X, X) \to TopSpan(X_0, X_0) \cong TopGraph_{X_0} \qquad (3)$$ 
+\[\label{Trimble3}
+TopSpan(X, X) \to TopSpan(X_0, X_0) \cong TopGraph_{X_0}
+\]
 
-is a lax monoidal functor, and hence takes $T$-algebras in $TopSpan(X, X)$ (as in (4)) to $T$-algebras in $TopGraph_{X_0}$. This gives a $T$-algebra structure 
+is a lax monoidal functor, and hence takes $T$-algebras in $TopSpan(X, X)$ (as in (eq:Trimble4)) to $T$-algebras in $TopGraph_{X_0}$. This gives a $T$-algebra structure 
 
-$$T_n \times (X^\sim)^{\otimes n} \to X^\sim \qquad (5)$$ 
+\[\label{Trimble5}
+T_n \times (X^\sim)^{\otimes n} \to X^\sim
+\] 
 
-in the monoidal category of $Top$-graphs. Considered geometrically, this is almost pure tautology, but **(5) is the crucial topological input in Trimble's machine**. 
+in the monoidal category of $Top$-graphs. Considered geometrically, this is almost pure tautology, but **(eq:Trimble5) is the crucial topological input in Trimble's machine**. 
 
 Let us make this more explicit. In general, if $V$ is a monoidal category with coproducts, such that the tensor $u \otimes v$ preserves coproducts in each of its separate arguments $u$ and $v$, then the category of $V$-graphs also carries a monoidal structure, where for two $V$-graphs $G, H$ we define 
 
 $$(G \otimes H)(x, z) = \sum_y G(x, y) \otimes H(y, z)$$ 
 
-Hence, in the case $V = Top$, (5) takes the more explicit form 
+Hence, in the case $V = Top$, (eq:Trimble5) takes the more explicit form 
 
-$$T_n \times \sum_{y_1, \ldots, y_{n-1}} X^\sim(x, y_1) \times X^\sim(y_1, y_2) \times \ldots \times X^\sim(y_{n-1}, z) \to X^{\sim}(x, z) \qquad (6)$$ 
+\[\label{Trimble6}
+T_n \times \sum_{y_1, \ldots, y_{n-1}} X^\sim(x, y_1) \times X^\sim(y_1, y_2) \times \ldots \times X^\sim(y_{n-1}, z) \to X^{\sim}(x, z)
+\]
 
-Now apply the functor $\Pi_0: Top \to Set$ (which preserves products and incidentally sums as well) to (6). This makes the $Set$-graph $\Pi_0 X^\sim$ an algebra over the operad $\Pi_0 T$. But a $Set$-graph equipped with a $\Pi_0 T$-algebra structure is just a category, since $\Pi_0 T_n$ consists of just a point, i.e., is the operad whose algebras are monoids, and a category is a monoid in a category of graphs. 
+Now apply the functor $\Pi_0: Top \to Set$ (which preserves products and incidentally sums as well) to (eq:Trimble6). This makes the $Set$-graph $\Pi_0 X^\sim$ an algebra over the operad $\Pi_0 T$. But a $Set$-graph equipped with a $\Pi_0 T$-algebra structure is just a category, since $\Pi_0 T_n$ consists of just a point, i.e., is the operad whose algebras are monoids, and a category is a monoid in a category of graphs. 
 
 This category is precisely the fundamental groupoid $\Pi_1(X)$. It is pretty clear from this description that $\Pi_1(X)$ is functorial in $X$. Indeed, if $f: X \to Y$ is a continuous map, we can pull back the $Top$-graph $Y^\sim$ over $Y_0$ to a $Top$-graph over $X_0$, 
 
