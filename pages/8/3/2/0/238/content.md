@@ -24,7 +24,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 * [[Tim Porter|Tim]]:
     
   * Created [[simplicial group]]s which was needed by several entries.
-  * Commented in [[simplicial set]] about a notational problem that needs attention. The notation for face and degeneracies in [[simplicial set]] is at odds with the standard one in _the literature_. 
+  * Commented in [[simplicial set]] about a notational problem that needs attention. The notation for face and degeneracies in [[simplicial set]] is at odds with the standard one in _the literature_. (*Now fixed*)
   * Created [[simplicial identities]].
 
 # 2009-01-23
