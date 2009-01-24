@@ -4,14 +4,15 @@ A **CW-complex** is a [[nice topological space]] which can be built up inductive
 
 A CW-complex is a topological space $X$ which can be presented as the colimit (in [[Top]], or in a category of nice spaces such as [[compactly generated space|compactly generated spaces]]) of spaces $X_n$ (called $n$-skeleta of the presentation) 
 
-$$X_0 \hookrightarrow X_1 \hookrightarrow \ldots \hookrightarrow X_n \hookrightarrow \ldots \qquad (1)$$ 
+\[\label{CW1}X_0 \hookrightarrow X_1 \hookrightarrow \ldots \hookrightarrow X_n \hookrightarrow \ldots
+\]
 
 where each space $X_n$ is the result of attaching copies of the $n$-disk $D^n = \{x \in \mathbb{R}^n: ||x|| \leq 1\}$ along their boundaries $S^{n-1} = \partial D^n$ to $X_{n-1}$. Specifically, $X_0$ (the 0-skeleton) is a discrete space, and each $X_n$ is a pushout in [[Top]] of a diagram of the form 
 
 $$X_{n-1} \stackrel{(f_i)}{\leftarrow} \sqcup_{i \in I} S_{i}^{n-1} \stackrel{\sqcup_i j_i}{\to} \sqcup_{i \in I} D_{i}^n$$ 
 
 where $I$ is some index set, each $j_i: S_{i}^{n-1} \to D_{i}^n$ is the boundary inclusion of a copy of $D^n$, and 
-$f_i: S_{i}^{n-1} \to X_{n-1}$ is a continuous map, often called an _attaching map_. The coprojections $X_{n-1} \to X_n$ of these pushouts give the arrows on which diagram (1) is based. 
+$f_i: S_{i}^{n-1} \to X_{n-1}$ is a continuous map, often called an _attaching map_. The coprojections $X_{n-1} \to X_n$ of these pushouts give the arrows on which diagram (eq:CW1) is based. 
 
 A "relative" CW-complex $(X, A)$ is similar, except $X_0$ is the disjoint union of $A$ with a discrete space. 
 
