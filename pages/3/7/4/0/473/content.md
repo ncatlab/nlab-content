@@ -2,7 +2,7 @@
 
 The original _tangle hypothesis_ was formulated in
 
-* J. Baez and J. Dolan, _Higher-dimensional Algebra and Topological Quantum Field Theory_ 1995 ([arXiv](http://arxiv.org/abs/q-alg/9503002)) 
+* [[John Baez]] and [[Jim Dolan]], _Higher-dimensional Algebra and Topological Quantum Field Theory_ 1995 ([arXiv](http://arxiv.org/abs/q-alg/9503002)) 
 
 in the context of [[FQFT|extended topological]] [[quantum field theory]] as:
 
@@ -19,14 +19,14 @@ In the light of [[FQFT|functorial quantum field theory]] (where this is motivate
 
 (In this formulation this is taken from 
 
-* Bruce Bartlett, _On unitary 2-representations of finite groups and topological quantumfield theory_. PhD thesis, Sheffield (2008)
+* [[Bruce Bartlett]], _On unitary 2-representations of finite groups and topological quantumfield theory_. PhD thesis, Sheffield (2008)
 )
 
 More recently Mike Hopkins and Jacob Lurie have claimed 
 (see [Hopkins-Lurie on Baez-Dolan](http://golem.ph.utexas.edu/category/2008/05/hopkinslurie_on_baezdolan.html))
 to have formalized and proven this hypothesis (at least for $n \leq 2$) in the context of [[(n,r)-category|(infinity,n)-categories]] modeled on [[complete Segal space]]s. See 
 
-* Jacob Lurie, _On the classification of topological field theories_ ([pdf](http://www-math.mit.edu/~lurie/papers/cobordism.pdf))
+* [[Jacob Lurie]], _On the classification of topological field theories_ ([pdf](http://www-math.mit.edu/~lurie/papers/cobordism.pdf))
 
 where an [[(infinity,n)-category of cobordisms]] is defined and shown to lead to a formalization and proof of the _cobordism hypothesis_.
 
@@ -41,3 +41,9 @@ The $k$-tuply monoidal $n$-category of $G$-structured $n$-tangles in the $(n + k
 ##Discussion##
 
 [Caf&#233;](http://golem.ph.utexas.edu/category/2006/11/this_weeks_finds_in_mathematic_2.html#c006381)
+
+* Jacques Distler's report on a lecture series given by [[Jacob Lurie]]
+
+  * [Part I](http://golem.ph.utexas.edu/~distler/blog/archives/001894.html): general idea of (extended) TQFT
+
+  * [Part II](http://golem.ph.utexas.edu/~distler/blog/archives/001897.html): [[fundamental infinity-groupoid]]
