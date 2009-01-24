@@ -29,10 +29,10 @@ More generally, let $S$ be a category containing a collection of morphisms calle
 * every isomorphism is a cover,
 * any [[pullback]] of a cover exists and is a cover,
 * covers are closed under composition,
-* every cover is a [[regular epimorphism]], and
-* every equivalence relation involving a cover has a quotient, which is a cover.
 
-One important class of examples is when $S$ is a [[regular category]] and every regular epi is a cover.  Another is when $S$ is the category of smooth manifolds and the covers are the surjective submersions.  Then if $C$ and $D$ are [[internal category|internal categories]] in $S$, an __anafunctor__ $F: C\to D$ consists of a span $C\leftarrow E \to D$ of internal functors such that:
+One important class of examples is when $S$ is a [[regular category]] and the covers are the [[regular epimorphism]]s.  Another is when $S$ is the category of smooth manifolds and the covers are the surjective submersions.  More generally, $S$ could be equipped with a [[Grothendieck topology|Grothendieck coverage]] and the covers are the maps which generate a covering sieve.
+
+In such a situation, if $C$ and $D$ are [[internal category|internal categories]] in $S$, we define an __anafunctor__ $F: C\to D$ to consist of a span $C\leftarrow E \to D$ of internal functors such that:
 
 1. $E\to C$ is fully-faithful, in the internal sense that the following is a pullback square:
 $$\array{E_1 & \to & C_1 \\ \downarrow && \downarrow \\ E_0\times E_0& \to & C_0\times C_0}$$
@@ -41,10 +41,17 @@ $$\array{E_1 & \to & C_1 \\ \downarrow && \downarrow \\ E_0\times E_0& \to & C_0
 
 By the remarks above, if $S=Set$ and "cover" means "surjection" (or equivalently, "regular epi"), then we recover the above-defined external notion of anafunctor.
 
+In [HGT I][] the following additional axioms were assumed on the class of covers, ensuring additional good behavior of internal anafunctors.  (Toby, want to say exactly what these are for?)
+
+* every cover is a [[regular epimorphism]], and
+* every equivalence relation involving a cover has a quotient, which is a cover.
+
 
 #Homotopy-theoretic interpretation#
 
-Since the surjective-on-objects equivalences are precisely the [[model category|acyclic fibrations]] for the [[folk model structure]] on [[Cat]].  Therefore, anafunctors can be identified with certain "one-step generalized morphisms" in $Cat$.
+Observe that the surjective-on-objects equivalences are precisely the [[model category|acyclic fibrations]] for the [[folk model structure]] on [[Cat]].  Therefore, anafunctors can be identified with the "one-step generalized morphisms" in $Cat$ whose first leg is not just a weak equivalence but an acyclic fibration.
+
+More generally, it is proven in [EKV 2004][] that if $S$ has a Grothendieck coverage, then under suitable additional conditions on $S$, there is a [[model category|model structure]] on the category $Cat(S)$ of internal categories in $S$ relative to that coverage.  The internal anafunctors relative to the given coverage, as defined above, can then once again be identified with the spans whose first leg is an acyclic fibration.
 
 An anafunctor is an **anaequivalence** if it is a span as above, with the right leg also an acyclic fibration.
 (For [[Lie groupoid]]s, these are the [[Morita equivalence]]s).
@@ -79,5 +86,13 @@ _Urs says:_ I haven't checked the details. But he is looking at derived homs of 
 ## References
 
 * [Avoiding the axiom of choice in general category theory](http://www.math.mcgill.ca/makkai/anafun/) (first explicit formulation of anafunctors)
-* [Higher gauge theory I: 2-Bundles](http://arxiv.org/abs/math.CT/0410328) (first explicit formulation of internal anafunctors)
+
+* [Higher gauge theory I: 2-Bundles][HGT I] (first explicit formulation of internal anafunctors)
+
 * [Local Transition of Transport, Anafunctors and Descent of n-Functors](http://golem.ph.utexas.edu/category/2006/12/local_transition_of_transport.html) (first explicit formulation of $n$-anafunctors)
+
+* [Model structures for homotopy of internal categories][EKV 2004]
+
+
+[EKV 2004]: http://www.tac.mta.ca/tac/volumes/15/3/15-03abs.html
+[HGT I]: http://arxiv.org/abs/math.CT/0410328
