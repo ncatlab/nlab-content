@@ -67,3 +67,15 @@ formed in analogy to the enriched hom of [[pointed object]]s.
 
 If $V$ has a terminal object, $pt$, then co-spans from $pt$ to itself are [[bi-pointed object]]s in $V$.
 
+#Related concepts#
+
+* [[co-span co-trace]]
+
+* [[multi-cospan]]
+
+
+#References#
+
+Topological cospans and their role as models for [[cobordism]]s are discussed in
+
+* Marco Grandis, _Collared cospans, cohomotopy and TQFT (Cospans in algebraic topology, II)_ ([pdf](http://www.dima.unige.it/~grandis/wCub2.pdf))
