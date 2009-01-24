@@ -11,6 +11,16 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-01-24
 
+* [[Urs Schreiber|Urs]]
+
+  * created an entry on Nils Baas' concept of [[hyperstructure]]s, mainly to point out how close it is at least in spirit to [[span]]s appearing in [[groupoidification]] -- and in fact to [[multispan]]s
+
+  * created [[span trace]] and [[co-span co-trace]]
+   (I am not sure about the (best) spelling convention!)
+   after I had checked with [[John Baez|John]] that this has not previously been said explicitly in the literature
+
+  * provided more details of what I imagine at [[multispan]]
+
 * [[Tim Porter|Tim]]:
     
   * Created [[simplicial group]]s which was needed by several entries.
