@@ -131,8 +131,12 @@ $$
 
 +--{.query}
 [[Urs Schreiber|Urs]]: This may require a bit more care
-with the topology involved.
+with the topology involved. I still need to check the reference below for more details.
 =--
+
+See also
+
+* Marco Grandis, _Collared cospans, cohomotopy and TQFT (Cospans in Algebraic Topology II)_ ([pdf](http://www.dima.unige.it/~grandis/wCub2.pdf)) 
 
 
 ## Co-tracing category interval object to the natural numbers
