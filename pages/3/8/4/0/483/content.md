@@ -4,7 +4,13 @@ A _directed space_ is a topological space in which not every path is to be thoug
 Directed spaces are supposed to be to general $\infty$-[[infinity-category|categories]] as ordinary [[topological space|topological spaces]] are to $\infty$-[[infinity-groupoid|groupoids]] via the [[homotopy hypothesis]].
 
 Directed spaces are studied in [[directed homotopy theory]], a relatively young topic. In generalization of how a [[topological space]] has a [[fundamental groupoid]], a [[directed space]] has a [[fundamental category]].
++--{.query}
+[[Tim Porter|Tim]]: Originally **directed space** was used to indicate a space together with a closed direceted partial order on it. If the space is nice enough then there are directed paths which cannot be traversed in both directions. It may be worth giving that definition as then the difference between directed and undirected homotopies between paths could be addressed. 
 
+The notions of [[fundamental category]] and many of the applications of these notions by workers in directed homotopy theory have used the above definition at some point and  Marco's *d-space* is motivated by that. 
+
+
+=--
 
 #Definition#
 
