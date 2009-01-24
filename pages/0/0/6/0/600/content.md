@@ -127,3 +127,7 @@ of the matrix $|R|$ represented by $R$.
 While the concept is obvious, it is apparently (?) not discussed yet in the (young) literature on the subject. On the blog the concept was mentioned in
 
 * Urs Schreiber, [(co)-traces](http://golem.ph.utexas.edu/category/2008/05/hopkinslurie_on_baezdolan.html#c021537)
+
++--{.query}
+_Todd_: But notice this is just the trace of a map which is definable in any compact symmetric monoidal category, of which Span is an example. See also Traced Monoidal Categories by Joyal, Street, and Verity. So certainly the concept is well-known on that level.
+=--
