@@ -16,6 +16,16 @@ Another formalization is by Marco Grandis, using [[multi-cospan]]s, see
 
 * [[Cospans in Algebraic Topology]]
 
+This is in principle very general, indicating that a general extended cobordisms should be a  [[multispan|multi-cospan]] in [[Top]]. But details are worked out only in dimension up to 2.
+
+In this dimension the resulting structure is closely related to the bicategory of cobordisms described in
+
+* [[Jeffrey Morton]], _A Double Bicategory of Cobordisms With Corners_ ([arXiv](http://arxiv.org/abs/math.CT/0611930v1))
+
 More recently 
 
-* Jacob Lurie has presented a complete formalization in terms of an [[(infinity,n)-category of cobordisms]].
+* [[Jacob Lurie]] has presented a complete formalization in terms of an [[(infinity,n)-category of cobordisms]].
+
+This generalizes an idea which for $n=2$ was for instance also applied by Chris Schommer-Prier, see
+
+* [Schommer Pries on Classification of 2-Dimensional Extended TFTs](http://golem.ph.utexas.edu/category/2008/06/schommerpries.html)
