@@ -16,6 +16,10 @@ This is related to discussions at the $n$-Caf&#233; at these places:
 
 =--
 
+#Remarks#
+
+* The concept of multispans as described above is akin to, in fact inspired by or maybe even a realization of the idea of a [[hyperstructure]] by [[Nils Baas]].
+
 #Related concepts#
 
 * [[span trace]]
