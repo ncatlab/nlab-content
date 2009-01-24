@@ -16,10 +16,8 @@ Clearly, as any group has an underlying set, a simplicial group has an underlyin
 
      *[(iii)]  the third case, $k=n$ uses $w_0 = s_0y_0$ and $w_i = w_{i-1}(s_id_iw_{i-1})^{-1}s_iy_i$ for $i = 0, \ldots, n-1$, then $w_{n-1}$ satisfies $d_iw_{n-1} = y_i$, $i\neq n$.
 
-#Warning#
-This uses the by-now standard notation for face and degeneracies, i.e. face maps are denoted $d$ and degeneracies $s$. (There is some question as to which we should use in the nLab as the basic definition of [[simplicial set]]  uses another convention.)
+One point to note is that the filler for any horn can be chosen to be a product of degenerate elements.
 
-#Discussion continued#
 * The homotopy groups of a simplicial group, $G$, can be calculated as the homology groups of the [[Moore complex]] of $G$.  This is, in general,  a non-Abelian chain complex.
 
-* A simplicial group can be considered as a [[simplicially enriched groupoid]] having exactly one object. If $G$ is a simplicial group, the suggested notation for the corresponding simpliciialy enriched groupoid would be $BG$ according to notational conventis suggested elswhere in the nLab
+* A simplicial group can be considered as a [[simplicial groupoid]] having exactly one object. If $G$ is a simplicial group, the suggested notation for the corresponding simplicialy enriched groupoid would be $BG$ according to notational conventis suggested elswhere in the nLab
