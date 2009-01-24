@@ -14,3 +14,6 @@ Crossed complexes are an equivalent way to encode the information contained in [
   * A crossed complex of length 2 is a [[crossed module]], which is equivalent to a strict kind of [[2-group]] by the Brown-Spencer Theorem,
 (R. Brown and C. Spencer, _G-groupoids, crossed modules and the fundamental groupoid of a 
 topological group_, Proc. Kon. Ned. Akad. v. Wet, 79, (1976), 296 &#8211; 302.)
+
+A survey of the use of crossed complexes is in 
+R. Brown `Crossed complexes and homotopy groupoids as non commutative tools for higher dimensional local-to-global problems',  to appear in Michiel Hazewinkel (ed.), Handbook of Algebra, volume 6, Elsevier, 2008/2009. (revised version of [132] available as math.AT/0212274 v7).
