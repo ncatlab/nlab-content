@@ -9,6 +9,7 @@ Directed spaces are studied in [[directed homotopy theory]], a relatively young 
 
 The notions of [[fundamental category]] and many of the applications of these notions by workers in directed homotopy theory have used the above definition at some point and  Marco's *d-space* is motivated by that. 
 
+[[Urs Schreiber|Urs]]: thanks, I wasn't aware of that. Could you provide a reference? Or the detailed original definition itself?
 
 =--
 
@@ -50,7 +51,7 @@ _Toby_: I don\'t think that you need internal homs and all that.  But see my edi
 
 The above definition is from
 
-* Marco Grandis, _Directed homotopy theory, I. The fundamental category_ ([arXiv](http://arxiv.org/abs/math.AT/0111048))
+* [[Marco Grandis]], _Directed homotopy theory, I. The fundamental category_ ([arXiv](http://arxiv.org/abs/math.AT/0111048))
 
 A discussion of reparameterization of directed paths in directed topological spaces is in
 
