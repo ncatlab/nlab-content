@@ -25,6 +25,12 @@ This monad is cartesian if
   }\]
   is a pullback.
 
+# Examples
+
+* The free monoid monad $(-)^*: Set \to Set$ is cartesian. 
+
+* The free $\omega$-category monad acting on globular sets, $T: Set^{G^{op}} \to Set^{G^{op}}$, is cartesian. 
+
 #Remarks
 
 There is some slight inconsistency in the use of
