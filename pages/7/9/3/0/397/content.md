@@ -13,6 +13,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[Mike Shulman]]
 * [[Mike Stay]]
 * [[Owen Biesel]]
+* [[Ronnie Brown]]
 * [[Simon Willerton]]
 * [[Stefan Forcey]]
 * [[Tim Porter]]
