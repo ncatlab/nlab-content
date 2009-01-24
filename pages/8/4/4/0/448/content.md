@@ -5,4 +5,4 @@ We say $\tau$ is a **face** of $\sigma$.  If $\sigma \in S(K)$ has $p+1$ element
 
 #Remarks#
 
-* Simplicial complexes are, in some sense, special cases of [[simplicial set|simplicial sets]]. To get from a simplicial complex to a simplicial set, you pick a total order on the set of vertices.
+* Simplicial complexes are, in some sense, special cases of [[simplicial set|simplicial sets]]. To get from a simplicial complex to a simplicial set, you pick a total order on the set of vertices. Without an order on the vertices it is not easy to speak of the $k^{th}$ face of a simplex as you do not know which it is! The degeneracies are obtained by repeating an element when listing the vertices of a simplex. If $\sigma = \{v_0,v_1,\ldots, v_n\}$, with $v_0\lt v_1\lt \ldots \lt v_n$ then, for instance, $s_0(\sigma) = \{v_0,v_0, v_1,\ldots, v_n\}$.
