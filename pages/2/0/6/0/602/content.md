@@ -1,0 +1,1 @@
+The concept [[duality|dual]] to [[multispan]]. See there for details.
