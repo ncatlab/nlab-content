@@ -1,0 +1,22 @@
+## Simplicial Identities## 
+
+##Idea## 
+
+The *simplicial identities* encode the relationships between the face and degeneracy maps in a [[simplicial object]], in particular, in a [[simplicial set]].
+
+## Definition## 
+
+ The *simplicial identities* are:
+
+* $ d_i d_j  = d_{j-1}d_i$ if $i \lt j$, 
+
+* $d_i s_j$ can be written as 
+
+   *  $s_{j-1}d_i$  if  $i \lt j$, 
+
+   *  $id$    if   $i = j$ or   $j+1$, 
+       
+   *  $s_j d_{i-1}$  if $i \gt j+1$, 
+                           
+                     
+* $s_i s_j  = s_j s_{i-1}$ if   $i \gt j$. 
