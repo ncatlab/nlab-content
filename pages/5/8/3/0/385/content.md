@@ -6,10 +6,20 @@ there is an obvious [[monoidal category|monoidal structure]] on the [[cube categ
 
 #Remarks#
 
- The Crans-Gray tensor product extends the tensor product on strict $\omega$-groupoids given by R. Brown et al. (...)
+ The Crans-Gray tensor product extends the tensor product  on strict $\omega$-groupoids given by R. Brown and P.J. Higgins (see below); they construct a symmetric monoidal closed structure on these $\omega$-groupoids. 
+
+The third  paper below sets up an equivalence between globular $\omega$-categories and certain cubical $\omega$-categories with connections, to which the monoidal closed structure in the previous paper is easily extended. 
 
 #References#
 
 A detailed discussion is in
 
 * Sjoerd Crans, _Pasting schemes for the monoidal biclosed structure on $\omega$-Cat_ ([web](http://crans.fol.nl/papers/thten.html))
+
+
+*R. Brown and P.J. Higgins, Tensor products and homotopies for $\omega$-groupoids and crossed complexes,  J. Pure Appl. Alg. 47 (1987) 1-33.
+
+
+
+* F.A. Al-Agl, R. Brown and R. Steiner,  Multiple categories: the equivalence between a globular and cubical approach, Advances in Mathematics, 170 (2002) 71-118.
+
