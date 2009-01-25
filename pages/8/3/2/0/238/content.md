@@ -11,6 +11,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-01-25
 
+* [[Todd Trimble|Todd]]: 
+
+  * added more to [[geometric shapes for higher structures]]; 
+
+  * gave an answer to Eric's question at [[globe]]
+
+  * took some issue with Urs about whether span traces (and implicitly, cospan traces) have or haven't appeared in the literature
 
 * [[Tim Porter|Tim]]:
     
