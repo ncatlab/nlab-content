@@ -43,3 +43,11 @@ In many definitions of [[higher category theory|higher categories]] an [[infinit
 * or equipped with _extra structure_ in the [[algebraic definition of higher category|algebraic definition of higher categories]]. 
 
 For instance [[omega-category|omega-categories]] are based on [[globular set]]s and [[n-fold category|n-fold categories]] on [[cubical set]]s, while pretty much all [[geometric definition of higher category|geometrically defined]] higher categories such as [[quasi-category|quasi-categories]] are based on the [[simplicial set]]s, thought of as a [[nerve]].
+
+Remark by Ronnie Brown: I would argue with the previous comment. For the work on higher homotopy groupoids and their applications to higher homotopy van Kampen theorems we found cubical methods essential. In the first of the following papers, we use a higher homotopy cubical $\omega$-groupoid with connections of a filtered space, while the second paper uses a fundamental cat$^n$-group of an $n$-cube of pointed spaces, giving an $n$-fold groupoid in the category of groups. The setting up of these structures is non-trivial,  highly geometric and essential for the homotopical applications. The paper with Loday also uses multisimplicial techniques. 
+
+References: 
+
+* R. Brown and P. J. Higgins, Colimit theorems for relative homotopy groups,  J. Pure Appl. Algebra, 22 (1981) 11-41.
+
+* R. Brown and J.-L. Loday, Van Kampen theorems for diagrams of spaces,  Topology 26 (1987) 311-334.
