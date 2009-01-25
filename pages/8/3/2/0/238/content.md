@@ -9,6 +9,14 @@ Drop a comment here if you feel people's attention should be drawn to some chang
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).
 
 ***
+# 2009-01-25
+
+
+* [[Tim Porter|Tim]]:
+    
+  * Created [[pospace]] to help the entry on [[directed space]], at which I gave a link through to the new page. 
+   
+
 # 2009-01-24
 
 * [[Urs Schreiber|Urs]]
