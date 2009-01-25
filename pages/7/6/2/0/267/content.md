@@ -34,7 +34,9 @@ A higher structure based on these geometric sheapes is a [[presheaf]] on one of 
 
 * [[cubical set]]s,
 
-respectively.
+respectively. 
+
+Other notions of geometric shape which have been found useful in higher order category theory include [[opetope]]s (based on [[operad]] theory, and invented by Baez-Dolan), [[multitope]]s (due to Hermida-Makkai-Power), and the shapes encapsulated in [[Joyal's disk category]] $\Theta$ (which include globes and simplices as special cases). 
 
 In many definitions of [[higher category theory|higher categories]] an [[infinity-category]] is one of these presheaves
 
