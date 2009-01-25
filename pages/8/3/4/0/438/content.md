@@ -13,4 +13,7 @@ Your first question is a good one!!!! [[Tim Porter|Tim]]
 
 I am writing a series of notes on the theory and application of crossed gadgetry in algebra and topology, and some parts of these notes (approximately first 7 chapters) have been made available on the web at various times. I am currently trying to write a new chapter on 2-vector spaces and 2-vector bundles, with the emphasis on 'trying'.  
 
+
+I am also very interested in directed homotopy theory and the application of ideas form the general area of the infinity category/homotopy toolkit in topological data analysis, artificial intelligence, and computer science.
+
 category: people
