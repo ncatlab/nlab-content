@@ -93,6 +93,13 @@ $$
 
 by contracting the two 1-globes on the left and the right to points.
 
-_Toby_: Not answering your question, but I\'ve seen this opertion called 'suspension' in topology. A mathematical pun: $S^n$ (the $n$-sphere) is $S^n(2)$ (the $n$-fold suspension of the $2$-point space, which is of course the $0$-sphere). Also note that $2$ is the suspension of $0$, proving that $S(X)$ need not be a quotient of $X \times I$ (although it is such a quotient whenever $X$ is occupied).
+_Toby_: Not answering your question, but I\'ve seen this operation called 'suspension' in topology. A mathematical pun: $S^n$ (the $n$-sphere) is $S^n(2)$ (the $n$-fold suspension of the $2$-point space, which is of course the $0$-sphere). Also note that $2$ is the suspension of $0$, proving that $S(X)$ need not be a quotient of $X \times I$ (although it is such a quotient whenever $X$ is occupied).
 
 =--
+Reference:
+
+See the discussion in 
+
+*Ronnie Brown, A new higher homotopy groupoid: the fundamental  globular $\omega$-groupoid of a filtered space, Homotopy, Homology and Applications, 10 (2008), No. 1, pp.327-343.
+
+To obtain the required structure of well defined compositions in this globular $\omega$-groupoid it has been found necessary to use the known structure in the cubical cases, and their relation with the globular case. 
