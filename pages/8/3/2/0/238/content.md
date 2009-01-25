@@ -26,6 +26,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
     
   * Created [[directed homotopy theory]]. This is at present a stub plus an inadequate list of references that do not do justice to the area ... as yet. I have built in some links but feel there should be others.
 
+  * Created [[group T - complex|group T - complex]], but more needs adding here.
 # 2009-01-24
 
 * [[Urs Schreiber|Urs]]
