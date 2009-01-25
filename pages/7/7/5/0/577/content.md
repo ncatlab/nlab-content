@@ -27,9 +27,11 @@ This monad is cartesian if
 
 # Examples
 
-* The free monoid monad $(-)^*: Set \to Set$ is cartesian. 
+* The free [[monoid]] monad $(-)^*: Set \to Set$ is cartesian. 
 
-* The free $\omega$-category monad acting on globular sets, $T: Set^{G^{op}} \to Set^{G^{op}}$, is cartesian. 
+* The free [[category]] monad acting on [[directed graph]]s is cartesian.
+
+* The free strict $\omega$-[[strict omega-category|category]] monad acting on [[globular set]]s, $T: Set^{G^{op}} \to Set^{G^{op}}$, is cartesian. 
 
 #Remarks
 
