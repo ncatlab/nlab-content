@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
     
   * Created [[pospace]] to help the entry on [[directed space]], at which I gave a link through to the new page. 
    
+    
+  * Created [[directed homotopy theory]]. This is at present a stub plus an inadequate list of reference ts that do not do justice to the area ... as yet. I have built in some links but feel there should be others.
 
 # 2009-01-24
 
