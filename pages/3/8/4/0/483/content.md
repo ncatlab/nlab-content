@@ -33,6 +33,9 @@ A **morphism of directed topological spaces**  $f : (X, d X)\to (Y , d Y)$ is a 
 
 * The _standard directed interval_ is $I_d = ([0,1], d I)$ with $d I $ the set of all _monotonic_ continuous maps $[0,1] \to [0,1]$.
 
+* Any [[pospace]] $X$ gives rise to a d-space by taking the 
+directed paths to be,..., directed paths, i.e. continuous oorder preserving maps from $I_d$ to $X$.
+
 
 #Remarks#
 
