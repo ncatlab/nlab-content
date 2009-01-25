@@ -22,7 +22,7 @@ $$F(c) \cong \int_d F(d)^{C(d, c)} \qquad (1)$$
 
 which is ($V$-)natural in $c$; we may therefore write 
 
-$$F(-) \cong \int_d F(d)^{C(-, d)} \qquad (2)$$ 
+$$F(-) \cong \int_d F(d)^{C(d, -)} \qquad (2)$$ 
 
 and this isomorphism is $V$-natural in $F$. 
 
