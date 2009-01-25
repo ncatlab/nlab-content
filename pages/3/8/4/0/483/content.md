@@ -60,19 +60,7 @@ A discussion of reparameterization of directed paths in directed topological spa
 
 * Ulrich Fahrenberg and Martin Raussen, _Reparametrizations of Continuous Paths_ ([arXiv](http://arxiv.org/abs/0706.3560), ([blog](http://golem.ph.utexas.edu/category/2006/09/fahrenberg_and_raussen_on_cont.html)))
 
-
-Categorical aspects are looked at in
-
-* Lisbeth Fajstrup, and Jir&#237; Rosick\'{}y, _A convenient category for directed homotopy_, Theory and Applications of Categories,  2008, vol. 21, no. 1, pp. 7-20.([TAC](http://www.tac.mta.ca/tac/volumes/21/1/21-01abs.html))
-
-The fundamental category of a pospace is discussed in
-
-* Lisbeth Fajstrup, Eric Goubault, Emmanuel Haucourt, Martin Raussen. Components of the fundamental category. Appl.Cat. Struct. Vol. 12, pp.81-108, 2004
-
-and the possibility of an analogue of covering spaces in
-
-* Lisbeth Fajstrup,  Dicovering spaces. Algebraic topological methods in computer science (Stanford, CA, 2001). Homology Homotopy Appl. 5 (2003), no. 2, 1-17 ([HHA]
-(http://www.intlpress.com/HHA/v5/n2/))
+Further references atre given in [[directed homotopy theory]].
 
 #Discussion#
 
