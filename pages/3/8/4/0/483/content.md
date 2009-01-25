@@ -61,6 +61,19 @@ A discussion of reparameterization of directed paths in directed topological spa
 * Ulrich Fahrenberg and Martin Raussen, _Reparametrizations of Continuous Paths_ ([arXiv](http://arxiv.org/abs/0706.3560), ([blog](http://golem.ph.utexas.edu/category/2006/09/fahrenberg_and_raussen_on_cont.html)))
 
 
+Categorical aspects are looked at in
+
+* Lisbeth Fajstrup, and Jir&#237; Rosick\'{}y, _A convenient category for directed homotopy_, Theory and Applications of Categories,  2008, vol. 21, no. 1, pp. 7-20.([TAC](http://www.tac.mta.ca/tac/volumes/21/1/21-01abs.html))
+
+The fundamental category of a pospace is discussed in
+
+* Lisbeth Fajstrup, Eric Goubault, Emmanuel Haucourt, Martin Raussen. Components of the fundamental category. Appl.Cat. Struct. Vol. 12, pp.81-108, 2004
+
+and the possibility of an analogue of covering spaces in
+
+* Lisbeth Fajstrup,  Dicovering spaces. Algebraic topological methods in computer science (Stanford, CA, 2001). Homology Homotopy Appl. 5 (2003), no. 2, 1-17 ([HHA]
+(http://www.intlpress.com/HHA/v5/n2/))
+
 #Discussion#
 
 The above defined directed _topological_ spaces. My impression is that [[Eric Forgy|Eric]] was interested in more general concepts. But the above definition has a straightforward generalization away from topological spaces.  The general strategy is really: start with a category with [[interval object]] and consider then the category whose objects are pairs $(X, d X)$ for $X$ an object and $d X$ a subobject of $[I,X]$, and whose morpshism are morphisms $X \to Y$ that take $d X$ to $d Y$.
@@ -78,7 +91,7 @@ _[[Eric Forgy|Eric]] says_: We have _directed spaces_ and we may soon have _dire
 Would that make sense?
 
 [[Urs Schreiber|Urs]]: Let's see, before getting into this idea of realizing a directed space as a space internal to something else or the like,
-I don't see what you want to mean by a "directed category". See, the point is that a category already _is_ supposed to be a combinatorial model for a directed space. Just as a groupoid is a combinaotrial model for an undirected space. This is the very motivation for defining directed spaces: to fill in the question marks in
+I don't see what you want to mean by a "directed category". See, the point is that a category already _is_ supposed to be a combinatorial model for a directed space. Just as a groupoid is a combinatorial model for an undirected space. This is the very motivation for defining directed spaces: to fill in the question marks in
 
 * groupoid | space  || category | ?? .
 
