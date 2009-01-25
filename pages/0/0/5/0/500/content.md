@@ -48,11 +48,18 @@ where the $C$-presheaf or right $C$-module hom on the right is appropriately con
 
 The analogy between presheaves and modules can be pursued considerably further. Again, we start with the perhaps more familiar context of rings and modules. 
 
-In the first place, given a ring $R$, there is a familiar monoidal category of $R$-bimodules (and bimodule morphisms). The tensor product is of course 
-...
+In the first place, given a ring $R$, there is a familiar monoidal category of $R$-bimodules (and bimodule morphisms). If $M, N$ are bimodules over $R$, with left $R$-actions denoted by $\lambda$'s and the right actions by $\rho$'s, their tensor product $M \otimes_R N$, defined by the coequalizer 
 
-There is a fundamental bicategory whose objects or 0-cells are rings $R, S, \ldots$, whose morphisms or 1-cells $R \to S$ are left $R$-, right $S$-bimodules
+$$M \otimes R \otimes N \stackrel{\to}{\to} M \otimes N \to M \otimes_R N$$
+
+(where the two parallel arrows are $M \otimes \lambda$, $\rho \times N$) carries an evident $R$-bimodule structure. Each of the functors $M \otimes_R -$ and $- \otimes_R N$ admits a [[adjunction|right adjoint]] expressed by natural isomorphisms of abelian groups 
+
+$$Bimod(N, Left_R(M, Q)) \cong Bimod(M \otimes_R N, Q) \cong Bimod(M, Right_R(N, Q))$$
+
+where $Left_R(M, Q)$ denotes the abelian group of left $R$-module maps $M \to Q$, equipped with its natural $R$-bimodule structure; $Right(N, Q)$ is similar. Thus the monoidal category of $R$-bimodules is biclosed. 
+
+More generally, there is a bicategory whose objects or 0-cells are rings $R, S, \ldots$, and whose morphisms or 1-cells $R \to S$ are left $R$-, right $S$-bimodules. 2-cells are homomorphisms of bimodules. If $M: R \to S$ and $N: S \to T$ are bimodules, then their bimodule composite is $M \otimes_S N: R \to T$. This too is a biclosed bicategory, meaning that 
 
 This generalized module theory can be pursued much further. 
 
-
+(Lost a bunch of work, due to vagaries of computers. Sigh. Will return later.) 
