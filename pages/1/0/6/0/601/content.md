@@ -1,6 +1,6 @@
 #Idea#
 
-One can naturally think of a [[cospan]] as the abstraction of a [[cobordism]]. For instance an [[interval object]] cospan models the standard topological interval $[0,1]$ regarded as a cobordism from pt to pt.
+One can naturally think of a [[cospan]] as the abstraction of a [[cobordism]]. For instance an [[interval object]] cospan models the standard topological interval $[0,1]$ regarded as a cobordism from pt to pt. The _co-span co-trace_ on the interval glues the two ends of the interval together to produce a _circle_ regarded as a cospan from $\emptyset$ to itself.
 
 The [[duality|concrete dual]] of a co-span, obtained by mapping it into some target object, is a [[span]], which in the context of [[groupoidification]] and [[geometric function theory]] can be interpreted as a generalized linear map. On such a generalized linear map, there is a notion of _trace_, the [[span trace]].
 
@@ -96,7 +96,7 @@ $$
 
 ## Co-tracing topological interval to circle
 
-Let the ambient category be [[Top]], let $I = [0,1]$ be the standard topological interval and let $e := (0,\epsilon)$ be a small open interval, for some $0 \lt \epsilon \lt 1/2$ -- to be thought here as a _collar_ of the point $pt$.
+Let the ambient category be [[Top]], let $I = [0,1]$ be the standard topological interval and let $e := [0,\epsilon]$ be a small interval, for some $0 \lt \epsilon \lt 1/2$ -- to be thought here as a _collar_ of the point $pt$.
 
 Let
 
@@ -104,7 +104,7 @@ $$
   \array{
      && I
      \\
-     & {}^1\nearrow && \nwarrow^{1-(-)}
+     & {}\nearrow && \nwarrow^{1-\epsilon+(-)}
      \\
      e &&&& e
   }
@@ -158,7 +158,67 @@ $$
 
 be the standard [[interval object]] in [[Cat]]
 regarded in the standard way as a cospan from the 
-point to the point. Its cotrace, the pushout
+point to the point. 
+
+Dualizing it to
+
+$$
+  \array{
+     && I
+     \\
+     & {}^{in \sqcup out}\nearrow && \nwarrow^{}
+     \\
+     pt \sqcup pt &&&& \emptyset
+  }
+$$
+
+corresponds to thinking of it as a "bent interval"
+
+$$
+  \array{
+    pt
+    \\
+    & \searrow
+    \\
+    && \downarrow
+    \\
+    & \swarrow
+    \\
+    pt
+  }
+  \,.
+$$
+
+Accordingly, the co-span
+
+$$
+  \array{
+     && pt
+     \\
+     & {}^{}\nearrow && \nwarrow^{Id \sqcup Id}
+     \\
+     \emptyset &&&& pt \sqcup pt
+  }
+$$
+
+can be thought of as
+
+$$
+  \array{
+    & pt
+    \\
+    \nearrow
+    \\
+    \nwarrow
+    \\
+    & pt
+  }
+  \,.
+$$
+
+
+Gluing these two arcs together yields the
+cotrace, the pushout
 
 $$
   \array{
@@ -168,14 +228,34 @@ $$
      \\
      pt &\stackrel{Id \sqcup Id}{\leftarrow}& pt \sqcup pt
   }
+  \,,
 $$
 
-is the result of gluing the ends of the interval object to each other, which here is the [[skeleton]] of the [[fundamental category]] of the [[directed space|directed circle]], namely the [[monoid]] of natural numbers, regarded as a one-object category:
+which is the result of gluing the ends of the interval object to each other, which here is the [[skeleton]] of the [[fundamental category]] of the [[directed space|directed circle]]
+
+$$
+  \array{
+    && \rightarrow 
+    \\
+    & \nearrow && \searrow
+    \\
+    \uparrow &&&& \downarrow
+    \\
+    & \nwarrow && \swarrow
+    \\
+    && \leftarrow
+  }
+  \,,
+$$
+
+namely the [[monoid]] of natural numbers, regarded as a one-object category:
 
 $$
   cotr(I) = \mathbf{B} \mathbb{N} = \{\bullet \stackrel{n}{\to} \bullet | n \in \mathbb{N}\}
   \,.
 $$
+
+
 
 If instead we start with the standard interval object in groupoids, $I_{inv} = \{a \stackrel{\simeq}{\to} b\}$ with the nontrivial morphism from $a$ to $b$ being an [[isomorphism]], then the co-trace in question is the [[skeleton]] of the [[fundamental groupoid]] of the ordinary [[topological space|topological circle]]
 
