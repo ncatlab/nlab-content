@@ -9,6 +9,14 @@ Drop a comment here if you feel people's attention should be drawn to some chang
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).
 
 ***
+# 2009-01-26
+
+* [[Mike Shulman|Mike]]:
+
+  * Started trying to bring some order to the treatment of coverages by creating [[coverage]] and working on [[Grothendieck topology]] and [[Lawvere-Tierney topology]].  I wasn't quite bold enough to try to excise the word "topology" from this subject entirely yet.
+
+  * Added relevant comments to [[anafunctor]] and [[folk model structure]].
+
 # 2009-01-25
 
 * [[Todd Trimble|Todd]]: 
