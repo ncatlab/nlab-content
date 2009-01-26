@@ -1,6 +1,6 @@
 ##Idea##
 
-Directed Homotopy Theory is a form of homotopy theory which tries to study the properties of [[directed space]]s.  Initially it used [[pospace]]s as the objects, that is spaces with a closed partial order, but with the introduction of [[d-space]]s by Grandis, these have become, perhaps, the more common objects of study.  
+Directed Homotopy Theory is a form of [[homotopy theory]] which tries to study the properties of [[directed space]]s.  Initially it used [[pospace]]s as the objects, that is spaces with a closed [[poset|partial order]], but with the introduction of [[d-space]]s by Grandis, these have become, perhaps, the more common objects of study.  
 
 Much of the impetus for the theory has come from work on modelling concurrent process. It can also be seen as a way of studying an 'evolving' space.
 
