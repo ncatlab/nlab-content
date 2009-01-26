@@ -55,3 +55,8 @@ The trace of the identity $1_a:a \to a$ is called the **dimension** or [[Euler c
 * Joyal, Street, and Verity, _Traced Monoidal Categories_  
 
 * Dold, Albrecht and Puppe, Dieter, _Duality, trace, and transfer_
+
+
+See also section 5 of
+
+Peter Selinger, _A survey of graphical languages for monoidal categories_ ([pdf](http://www.mathstat.dal.ca/~selinger/papers/graphical.pdf))
