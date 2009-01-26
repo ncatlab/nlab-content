@@ -82,6 +82,12 @@ For an elementary introduction to monoidal categories using string diagrams, see
 
 * John Baez and Mike Stay, [Physics, topology, logic and computation: a Rosetta Stone](http://math.ucr.edu/home/baez/rosetta.pdf).
 
+For a more detailed tour of monoidal categories, also using string diagrams, try:
+
+* Peter Selinger, [A survey of graphical languages for monoidal categories](http://www.mathstat.dal.ca/~selinger/papers.html#graphical).
+
+Selinger discusses autonomous, balanced, braided, compact closed, pivotal, ribbon, rigid, sovereign, spherical, tortile, and traced monoidal categories.
+
 ##Where the Definition Comes From##
 
 The definition of monoidal category looks rather complicated at first sight, so it is natural to wonder if there is some magic wand we can wave that makes it appear automatically.  For example, one might wonder if we can define monoidal categories using [[internalization]].  
