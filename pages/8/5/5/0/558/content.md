@@ -20,6 +20,14 @@ _Mike_: When I glanced at that, it looked as though he was actually using [[Sega
 
 _Mike_: I think we are talking past each other.  I was trying to answer your question "why bother to search for other models?" by saying that from my perspective, what we're doing isn't just searching for new models for spaces, but rather searching for a good notion of $\infty$-category that still reduces to a model for spaces.  I took your mention of higher homotopy operations as a proposed answer to the first question "why bother to search for other models?"  So I wasn't addressing homotopy operations specifically -- I don't have any disagreement with it -- just pointing out that there are also other answers to the first question.
 
+[[Ronnie Brown|Ronnie]] What is wrong with strict $n$-fold groupoids as a model of homotopy $n$-types? This is a theorem, not an hypothesis! (Loday, Porter).  One advantage of these is that one can do some calculations with them, using a higher homotopy van Kampen theorem, which Grothendieck interpreted as integration of homotopy types. 
+They are certainly a very rich structure, with other interpretations of special cases. My question is: what are the expected purposes of these other models? My aim since 1966 has been to find  models which seem to give a natural extension of group theory, and hence to work with strict structures. My hypothesis is that this can always be done, if you can find the means to make the lax conditions part of the algebra. 
+
+What held me up for 9 years in constructing higher homotopy groupoids was to concentrate on spaces: when Philip Higgins and I started to look at pairs of spaces, then things quickly fell into place. Thus the clear functors from strict $n$-fold groupoids give rise to  _structured spaces_. What is wrong with that? 
+
+
+
+
 =--
 
 #Remarks#
@@ -30,3 +38,5 @@ _Mike_: I think we are talking past each other.  I was trying to answer your que
 #References#
 
 * John Baez, _The Homotopy Hypothesis_ ([web](http://math.ucr.edu/home/baez/homotopy/), [pdf](http://math.ucr.edu/home/baez/homotopy/homotopy.pdf))
+
+* Ronnie Brown, _Higher dimensional group theory_ ([web](http://www.bangor.ac.uk/r.brown/hdaweb2.htm). See also the linked pages there. 
