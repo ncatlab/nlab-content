@@ -98,6 +98,8 @@ _Toby_: Not answering your question, but I\'ve seen this operation called 'suspe
 _Todd_: Getting back to Eric's question: usually people think of the $n$-globe as a combinatorial $n$-disk $D^n$. There are two standard inclusions of $D^{n-1}$ into $D^n$, which could be called "northern hemisphere" and southern hemisphere", and which intersect at an "equator". Going back the other way, there is a map $D^n \to D^{n-1}$ which smashes the globe flat onto an equatorial cross-section, so to speak. 
 
 Some Australians often write "$n$-glob", which used to annoy me (still does, a little bit). Anyway, I think of these things as solid globes, insofar as they have equators.
+
+_Eric_: Thanks Todd and Urs. I see that globes are not pointed spheres the way I was thinking about them, i.e. images of the identity assigning map. Todd, your description helped a lot. Still it is kind of fun to visualize repeated applications of the identity assigning map generating spheres as they wrap around themselves even though it might not have much to do with globes.
 =--
 Reference:
 
