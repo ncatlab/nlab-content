@@ -30,7 +30,7 @@ More generally, let $S$ be a category containing a collection of morphisms calle
 * any [[pullback]] of a cover exists and is a cover,
 * covers are closed under composition,
 
-One important class of examples is when $S$ is a [[regular category]] and the covers are the [[regular epimorphism]]s.  Another is when $S$ is the category of smooth manifolds and the covers are the surjective submersions.  More generally, $S$ could be equipped with a [[Grothendieck topology|Grothendieck coverage]] and the covers are the maps which generate a covering sieve.
+One important class of examples is when $S$ is a [[regular category]] and the covers are the [[regular epimorphism]]s.  Another is when $S$ is the category of smooth manifolds and the covers are the surjective submersions.  More generally, $S$ could be equipped with a Grothendieck [[coverage]] and the covers are the maps which generate a covering sieve.
 
 In such a situation, if $C$ and $D$ are [[internal category|internal categories]] in $S$, we define an __anafunctor__ $F: C\to D$ to consist of a span $C\leftarrow E \to D$ of internal functors such that:
 
