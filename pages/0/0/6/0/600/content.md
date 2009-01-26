@@ -2,6 +2,8 @@
 
 In the context of [[groupoidification]] and [[geometric function theory]] one thinks of a [[span]] as a generalized linear map. The _span trace_ is the corresponding generalization of the notion of a trace of a linear map.
 
+This is just the general [[trace]] of a map which is definable in any compact symmetric monoidal category, of which Span is an example.
+
 #Definition#
 
 For 
@@ -128,6 +130,3 @@ While the concept is obvious, it is apparently (?) not discussed yet in the (you
 
 * Urs Schreiber, [(co)-traces](http://golem.ph.utexas.edu/category/2008/05/hopkinslurie_on_baezdolan.html#c021537)
 
-+--{.query}
-_Todd_: But notice this is just the trace of a map which is definable in any compact symmetric monoidal category, of which Span is an example. See also Traced Monoidal Categories by Joyal, Street, and Verity. So certainly the concept is well-known on that level.
-=--
