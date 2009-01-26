@@ -49,7 +49,7 @@ in $V$, with $I$ called the **interval object**;
 
 such that
 
-* the pushout
+* the [[pushout]]
 $$
   \array{
     && I^{\vee 2} := I \sqcup_{pt} I
