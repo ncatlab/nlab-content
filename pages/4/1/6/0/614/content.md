@@ -40,4 +40,10 @@ Second, I have a "continuum" allergy and never like to see a definition that exp
 
 How/if is the standard directed interval related to [[interval object]]?
 
- _[[Tim Porter|Tim]]_:  I am also alergic to too much 'continuum' use.  The problem is to get a substitute that allows  and controls subdivision.  Ideas anyone?
+ _[[Tim Porter|Tim]]_:  I am also alergic to too much 'continuum' use.  The problem is to get a substitute that allows  and controls subdivision.  Ideas anyone?  Gabriel Minian (paper in _K-theory_ used a variant of Baues's cofibration category notion to handle various categories including that of simplicial complexes.  He used an Ind-object instead of an interval object. His theory is not a directed one, of course.  Marco Grandis also looked at the problem of subdivision in some papers and going right back there were notes by George Hoff and Marcel Evrard trying to do the homotopy theory of categories using concatentated intervals.  I can try to find references if it should proved useful.
+
+As to combinatorial definitions, pospace is not infected with 'continuumitis', but the directed interval is. Perhaps what you want is that the directed interval is both a directed object and an interval object, but that may lead to a clash of definitions, so better an amalgam of the two definitions should be sought.
+
+One can try to use a domain theoretic definition of things a bit like the papers such as
+_A Domain of spacetime intervals for General relativity_ by Keye Martin and Prakash Panangaden. (see on Prakash's page
+http://www.cs.mcgill.ca/~prakash/accepted.html). 
