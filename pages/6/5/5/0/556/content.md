@@ -73,3 +73,7 @@ Since any strict 2-category can be regarded as a bicategory with trivial constra
 * The **[[power]]** of an object $A$ by a category $C$ is a universal object $A^C$ equipped with a functor $C\to K(A^C,A)$.  It is non-evil in its strict form.
 
 * [[descent object|Descent objects]] are another important example.
+
+## Finite Limits ##
+
+A 2-categorical limit is called **finite** if its diagram shape and its [[weighted limit|weight]] are both [[finitely presentable object|finitely presentable]].  Pullbacks, comma objects, inserters, equifiers, and so on are all finite limits, as are powers by any finitely presented category.  All finite limits can be constructed from pullbacks, a terminal object, and powers with the arrow category $(\cdot\to\cdot)$.
