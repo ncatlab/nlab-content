@@ -12,6 +12,8 @@ Marco Grandis' work on the area is listed amongst his publications at his ([home
 
 Foundational work was done by Eric Goubault and his collaborators.
 
+* [[Some geometric perspectives in concurrency theory]], Goubault, Eric
+
 Categorical aspects are looked at in
 
 * Lisbeth Fajstrup, and Jir&#237; Rosicky, _A convenient category for directed homotopy_, Theory and Applications of Categories,  2008, vol. 21, no. 1, pp. 7-20.([TAC](http://www.tac.mta.ca/tac/volumes/21/1/21-01abs.html))
