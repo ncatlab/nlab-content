@@ -100,3 +100,9 @@ long list goes here, but for the moment there is just:
 * [[model structure on crossed complexes]]
 * [[model structure on simplicial sets]]
 * [[path object]]
+
++--{.query}
+_[[Tim Porter|Tim]]_ : Should someone attempt to discuss the Baues approach to Homotopy Theory somewhere?  It is closely related to the approach based on Ken Brown's cohomology stuff, so might be useful.
+
+
+=--
