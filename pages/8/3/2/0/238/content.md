@@ -10,6 +10,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 # 2009-01-26
+* [[Tim Porter|Tim]]:
+    
+  * Created [[Moore complex]] which contains the definition of the homotopy groups of a simplicial group.
+
+  * Added query to [[homotopy theory]]:  should a summary of the Baues approach to abstract homotopy theory be included somewhere?
+
 
 * [[Urs Schreiber|Urs]]
 
