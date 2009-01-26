@@ -74,6 +74,14 @@ Then let an **$I$-directed object** of $C$ be an object $X$ of $C$ equipped with
 
 A morphism of such directed objects is a morphism of their underlying objects that preserves directed paths.
 
++--{.query}
+
+_Eric_: I don't fully "grok" this constructive definition, but I like its flavor. Is it possible to formalize the procedure in a simple catchy phrase? In other words, when you begin with a "category $C$ with interval object $I$", but whose objects are otherwise undirected (like Top), you construct the "supercategory $d_I C$" with directed $C$-objected (even though no objects in $C$ are directed). I used the term "directed internalization", but is there a better term?
+
+I just think this concept is important and should have some really slick arrow theoretic description and I'm not having any luck coming up with one myself.
+
+=--
+
 ## Examples ##
 
 * The category of [[directed space|directed topological spaces]] according to Grandis is of the above form $d_I{C}$ for $C = $ [[Top]], $I = [0,1]$ and $d_I = \{monotonic maps I \to I\}$.
