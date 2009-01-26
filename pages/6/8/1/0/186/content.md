@@ -1,3 +1,24 @@
+Generalised smooth spaces are, roughly speaking, generalisations of smooth manifolds.  Their _raison d'etre_ is the following
+
+> Manifolds are fantastic spaces.  It's a pity that there aren't more of them.
+
+Many spaces that occur in mathematics aren't manifolds but one would like to be able to treat them as if they were manifolds.  By considering examples of these spaces and by considering what specifically one would like to do with or to them, it is possible to generalise the idea of a smooth manifold to encompass the new examples whilst preserving enough structure to retain the old tools.  There have been several such generalisations in recent mathematical history.  A (partial) list is below.
+
+Often the examples of spaces that one would like to consider as manifolds are formed by applying a categorical construction to ordinary manifolds; such as limits, quotients, or function spaces.  This leads one to ask for the categorical properties of each of the resulting categories of generalised smooth spaces.
+
+Another obvious question to ask is what tools and techniques can be extrapolated from smooth manifolds to generalised smooth spaces.  In addition, whilst some techniques have obvious generalisations there may be some hidden twists that are not apparent on just smooth manifolds.
+
+#Examples#
+
+1. [[Chen space|Chen spaces]] (called _differentiable spaces_ in Chen's works).
+2. [[diffeological space|Diffeological spaces]]
+3. [[Froelicher space|Frölicher spaces]]
+4. [[differential module|Differential modules]]
+5. [[Smith space|Smith spaces]]
+6. [[stratifold|Stratifolds]]
+7. [[orbifold|Orbifolds]]
+8. [[polyfold|Polyfolds]]
+
 #Literature#
 
 Eventually the following will be a _commented_ list -- promised.
