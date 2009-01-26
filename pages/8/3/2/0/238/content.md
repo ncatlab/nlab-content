@@ -10,6 +10,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 # 2009-01-26
+* [[Andrew Stacey|Andrew]]:
+
+  * Joined the $n$-Community.  Hello.
+
+  * Modified [[HomePage]] to point to the $n$-Forum.
+
+  * Made list of generalised smooth spaces on the [[generalized smooth space|generalised smooth spaces]] page (with the intention of starting pages on the various types).
+
 * [[Tim Porter|Tim]]:
     
   * Created [[Moore complex]] which contains the definition of the homotopy groups of a simplicial group.
