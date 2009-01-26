@@ -28,7 +28,7 @@ _Toby_: Actually, I wasn\'t so much thinking about weakening the requirements on
 
 #Definition#
 
-A _category with interval object_ is
+A **category with interval object** is
 
 * a symmetric [[closed monoidal homotopical category]] $V$;
 
@@ -126,6 +126,8 @@ $$
 * If $X_0$ has a notion of [[path object]] one may consider imposing the condition that $[I,X]$ is a path object of $X$ for all $X$. Similarly, if $V_0$ has a [[cylinder functor]], one may consider imposing the condition that it is given by $-\otimes I$.
 
 #Examples#
+
+* The **standard interval object** in [[Cat]] is the 1st [[oriental]] $\{0\to 1\}$ (see [[co-span co-trace]])
 
 * For $V = C = Top$ with its standard model structure the standard topological closed interval  $I := [0,1]$ with $pt \stackrel{\sigma, \tau}{\to}$ the maps to 0 and 1, respectively. This is the case described in detail at [[Trimble n-category]].
 
