@@ -39,3 +39,5 @@ _[[Eric Forgy|Eric]]_: I can imagine that "directed" stuff might begin to garner
 Second, I have a "continuum" allergy and never like to see a definition that explicitly evokes the continuum to define important objects. Is there a more combinatoric or abstract way to define pospaces, [[directed space|directed spaces]], and [[directed homotopy theory|directed homotopy]] that does not evoke the continuum immediately?
 
 How/if is the standard directed interval related to [[interval object]]?
+
+ _[[Tim Porter|Tim]]_:  I am also alergic to too much 'continuum' use.  The problem is to get a substitute that allows  and controls subdivision.  Ideas anyone?
