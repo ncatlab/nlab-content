@@ -21,10 +21,8 @@ Path objects are used to define a notion of [[homotopy]] between morphisms in a 
 
 Originally the remark on abusive notation was missing and Toby asked:
 
-+--{.query}
 What is $I$ here? Is it something that any category with weak equivalences must have (although I don\'t see how offhand), or is part of the data of the path object? (Indeed, it seems to be the only actual *object* in that data!) And then what are $d_0$ and $d_1$ exactly; maps $C^I \to C$, or maps involving $I$ itself whose product induces maps $C^I \to C$?
-=--
 
-I hope the remark above now clarifies this. If so, this discussion part here should be removed.
+_Urs_: I hope the remark above now clarifies this. If so, this discussion part here should be removed.
 
 _Toby_: The notation still doesn\'t make literal sense, since $C^I$ (primitive or not) isn\'t a product. But I believe that you just mixed up product and pairing, so I fixed that. In other words, I interpret it that $d_0$ and $d_1$ are each morphisms from $C^I$ to $C$.
