@@ -32,5 +32,10 @@ We say $a$ and $b$ are **dihomotopic**, the relation being called **directed hom
 * Any [[pospace]] $X$ gives rise to a [[d-space]] by taking the 
 directed paths to be,..., directed paths, i.e. dimaps from $I_d$ to $X$. (It can be helpful to use directed paths of variable length based on $\stackrel{\to}{[0,r]}$ the directed version of the interval of length $r$.
 
+#Discussion#
 
+_[[Eric Forgy|Eric]]_: I can imagine that "directed" stuff might begin to garner more attention here, so could we settle on a notation? For example, I've used $\uparr$ to indicate that a space is directed so that the directed interval is denoted $\uparr I$. Above, it is given as $I_d$. I am slightly partial (but not firmly set) to using $\uparr$ to denote that a space is directed or partially ordered (or even preordered).
 
+Second, I have a "continuum" allergy and never like to see a definition that explicitly evokes the continuum to define important objects. Is there a more combinatoric or abstract way to define pospaces, [[directed space|directed spaces]], and [[directed homotopy theory|directed homotopy]] that does not evoke the continuum immediately?
+
+How/if is the standard directed interval related to [[interval object]]?
