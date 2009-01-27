@@ -34,6 +34,15 @@ What held me up for 9 years in constructing higher homotopy groupoids was to con
 
 * In analogy to the homotopy hypothesis, there are attempts to relate general [[infinity-category|infinity-categories]] which need not be groupoidal to [[directed space]]s, in which a morphism which is not invertible would model a path in the space that can only be traversed in one direction.
 
+* ([[Ronnie Brown|Ronnie]] To elaborate on the above, what we have are some functors $\Xi:({diagrams of spaces })\leftrightarrow ({higher groupoids}):B  $
+such that:
+1. $\Xi$ is homotopically defined and preserves certain colimits;
+1. $\Xi \circ B$ is equivalent to Id;
+1. There is a natural transformation $Id \rightarrow B \circ \Xi$ preserving some homotopical information. 
+
+The purpose of 1. is to be able to calculate some homotopical information. The purpose of 2. is to show that the diagrams used reflect the algebraic structure of the higher groupoids. Detailed references are in the Higher dimensional group theory web site. 
+
+Trying to be more explicit about some colimits of certain higher groupoids has yielded some interesting algebraic constructions, for which some examples required computational group theory!
  
 #References#
 
