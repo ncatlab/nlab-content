@@ -46,3 +46,4 @@ These are well understood in low dimensions, see the entry on [[hypercrossed com
 $$a(p)(c) = s_0(p)c s_0(p)^{-1}.$$
 
 
+* Suppose next that $NG_k = 1$ for $k \gt 2$, then the Moore complex is a [[2-crossed module]] in the sense of Conduch&#233;.  Such objects model all [[homotopy 3-types]].  They are equvalent models to the [[crossed squares]] of Guin-Valery and Loday.
