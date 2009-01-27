@@ -22,7 +22,13 @@ The reason this is important to specify is that there are other notions of equiv
 
 # The $n$-fold case #
 
-It is also known since the work of Loday and Porter that _strict_ $n$-[[n-fold category|fold categories]] also model all homotopy $n$-types.  They can in fact be considered as modeling certain diagrams of spaces, or structured spaces, which is useful for computing with "higher van Kampen theorems."  In general, we have some functors
+It is also known since the work of Loday and Porter that _strict_ $n$-[[n-fold category|fold categories]] also model all homotopy $n$-types.  
+
+See for instance
+
+* Ronald Brown, _Computing Homotopy Types Using Crossed $N$-Cubes of Groups_ ([arXiv](http://arxiv.org/abs/math/0109091))
+
+Strict $n$-fold categories can in fact be considered as modeling certain diagrams of spaces, or structured spaces, which is useful for computing with "higher van Kampen theorems."  In general, we have some functors
 $$\Xi:({diagrams of spaces })\leftrightarrow ({higher groupoids}):B $$
 such that:
 1. $\Xi$ is homotopically defined and preserves certain colimits;
