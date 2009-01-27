@@ -8,7 +8,18 @@ Much of the impetus for the theory has come from work on modelling concurrent pr
 
 (See also under [[directed space]].)
 
-Marco Grandis' work on the area is listed amongst his publications at his ([homepage](http://www.dima.unige.it/~grandis/rec.public_grandis.html)).
+Marco Grandis' work on the area is listed amongst his publications at his ([homepage](http://www.dima.unige.it/~grandis/rec.public_grandis.html)). Such as 
+
+* M. Grandis, Directed homotopy theory. I, Cah. Topol. G eom. Di  er. Cat eg. 44 (4) (2003) 281{316.
+
+* M. Grandis, Directed homotopy theory. II. Homotopy constructs, Theory Appl. Categ. 10 (2002) No. 14, 369{391 (electronic).
+
+* M. Grandis, The shape of a category up to directed homotopy, Theory Appl. Categ. 15 (2005/06) No. 4, 95{146 (electronic).
+
+* M. Grandis, Modelling fundamental 2-categories for directed homotopy, Homology, Homotopy Appl. 8 (1) (2006) 31{70 (electronic)
+
+
+
 
 Foundational work was done by Eric Goubault and his collaborators.
 
@@ -42,6 +53,39 @@ Journal of Homotopy and Related Structures, Vol. 1(2006), No. 1, pp. 79-100,([JH
 Krzysztof Worytkiewicz and Peter Bubenik have given a model category structure for local pospaces:
 
 *  P. Bubenik and K. Worytkiewicz, A model category structure for local po-spaces, Homology, Homotopy and Applications, Vol. 8 (2006), No. 1, pp.263-292. ([HHA](http://intlpress.com/HHA/v8/n1/a10/)).
+
+
+Further related references are
+
+* L. Fajstrup, Loops, ditopology and deadlocks, Math. Structures Comput. Sci. 10 (4) (2000) 459{480, geometry and concurrency.
+
+* L. Fajstrup, M. Raussen,  E. Goubault, E. Haucourt, Components of the fundamental category, Appl. Categ. Structures 12 (1) (2004) 81{108, homotopy
+theory.
+
+* L. Fajstrup, Dihomotopy classes of dipaths in the geometric realization of a cubical set: from discrete to continuous and back again, in: R. Kopperman,
+
+* M. B. Smyth, D. Spreen, J. Webster (Eds.), Spatial Representation: Discrete vs. Continuous Computational Models, no. 04351 in Dagstuhl Seminar Proceedings,
+IBFI, Schloss Dagstuhl, Germany, 2005.
+
+* L. Fajstrup, Dipaths and dihomotopies in a cubical complex, Adv. in Appl.
+Math. 35 (2) (2005) 188{206.
+
+* M. Raussen, Deadlocks and dihomotopy in mutual exclusion models, in: R. Kopperman, M. B. Smyth, D. Spreen, J. Webster (Eds.), Spatial
+Representation: Discrete vs. Continuous Computational Models, no. 04351 in
+Dagstuhl Seminar Proceedings, IBFI, Schloss Dagstuhl, Germany, 2005.
+
+* U. Fahrenberg, M. Raussen, Reparametrizations of continuous paths, available
+as [preprint R-2006-22](http://www.math.aau.dk/research/reports/2006.htm)  (2006).
+
+
+* E. Goubault, E. Haucourt, Directed algebraic topology and concurrency, ([web](http://iml.univ-mrs.fr/lafont/Geocal/goubault2.pdf))
+(2006).23
+
+* E. Goubault, E. Haucourt, Components of the fundamental category, II,
+technical reports, CEA, Saclay (2006).
+
+* M. Raussen, Invariants of directed spaces, available as preprint R-2006-28 ([web](http://bib.mathematics.dk/preprint.php?id=DMF-2006-08-002 ))(2006).
+
 
 ###Comment###
 [[Tim Porter|Tim]]: A related topic is that of higher dimensional automata. Perhaps someone who knows a little more than I do about this could comment on the links with other aspects of the nLab.
