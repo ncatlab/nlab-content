@@ -41,7 +41,7 @@ See also:
 
 * P.J. Higgins, Thin elements and commutative shells in
 cubical  $\omega$-categories, Theory Appl. Categ.,
-\textbf{14} (2005) 60--74.
+14 (2005) 60--74.
 
 
 * R. Steiner, Thin fillers in the cubical nerves of
