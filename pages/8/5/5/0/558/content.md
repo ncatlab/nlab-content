@@ -1,10 +1,41 @@
+# Idea #
+
 The _homotopy hypothesis_ states that $n$-groupoids model homotopy $n$-types. As a slogan:
 
 * $\infty$-groupoids are combinatorial models for spaces.
 
-To some extent the homotopy hypothesis is not a hypothesis but a _requirement_ on the definition of [[infinity-groupoid]]: for every "good" definition of $\infty$-groupoid there should be an "obvious" morphism from the collection of all $\infty$-groupoids to (well behaved) topological spaces, and this map should be an equivalence in a "suitable" sense.
+To some extent the homotopy hypothesis is not a hypothesis but a _requirement_ on the definition of [[infinity-groupoid]]: for every "good" definition of $\infty$-groupoid there should be an "obvious" pair of functors relating the collection of all $\infty$-groupoids to the collection of (well behaved) topological spaces which form an [[equivalence]] in a "suitable" sense.  The functor from spaces to $\infty$-groupoids is generally called the [[fundamental infinity-groupoid]], and its inverse equivalence may be thought of as a form of [[geometric realization]].
 
-The homotopy hypothesis is known to be true for some definitions of "$\infty$-groupoid".  For example, there is a good case to be made that a [[Kan complex]] is a notion of $\infty$-groupoid, and it's been known for a long time in [[homotopy theory]] that Kan complexes model spaces, homotopically speaking.  However, for other notions of [[higher category theory|higher category]], it remains a hypothesis/requirement.
+The homotopy hypothesis is known to be true for some definitions of "$\infty$-groupoid".  For example, there is a good case to be made that a [[Kan complex]] is a notion of $\infty$-groupoid, and it's been known for a long time in [[homotopy theory]] that Kan complexes model spaces, homotopically speaking.  It is also known that $n$-groupoids model $n$-types for $n\le 3$, for the existing well-understood models of $n$-categories for low values of $n$ (namely [[category|categories]], [[bicategory|bicategories]], and [[Gray-category|Gray-categories]]).  However, for other notions of [[higher category theory|higher category]] and higher values of $n$, it remains a hypothesis/requirement.
+
+The requirement to satisfy the homotopy hypothesis is one thing that forces us out of the domain of [[strict n-category|strict n-categories]] for $n\gt 2$.  It is known that not all homotopy 3-types can be modeled by strict 3-groupoids, but that [[Gray-category|Gray-categories]] ([[semi-strict infinity-category|semi-strict 3-categories]]) suffice; the obstruction is the [[Whitehead product]] which arises from a nontrivial [[interchanger]].
+
+In analogy to the homotopy hypothesis, there are also attempts to relate general [[infinity-category|infinity-categories]] which need not be groupoidal to [[directed space]]s, in which a morphism which is not invertible would model a path in the space that can only be traversed in one direction.
+
+
+# The meaning of "models" #
+
+One has to be careful, in stating the homotopy hypothesis, to specify what one means by "models."  The usual, unstated, implication is that the notion of _equivalence_ of $n$-groupoids used to model $n$-types is the appropriate $n$-*categorical* notion of [[equivalence]].  It is in this way that, for instance, it is known that 1-groupoids model 1-types; to be precise, the 2-category of groupoids, functors, and natural transformations is equivalent to the 2-category of 1-types, continuous maps, and homotopy classes of homotopies.
+
+The reason this is important to specify is that there are other notions of equivalence on categorical structures which model homotopy types in other ways.  For example, if we declare a functor between categories to be a weak equivalence iff its [[nerve]] is a weak equivalence of [[simplicial set]]s, then _all_ homotopy types can be modeled by 1-categories in this way; see the [[Thomason model structure]] for 1-categories.
+
+
+# The $n$-fold case #
+
+It is also known since the work of Loday and Porter that _strict_ $n$-[[n-fold category|fold categories]] also model all homotopy $n$-types.  They can in fact be considered as modeling certain diagrams of spaces, or structured spaces, which is useful for computing with "higher van Kampen theorems."  In general, we have some functors
+$$\Xi:({diagrams of spaces })\leftrightarrow ({higher groupoids}):B $$
+such that:
+1. $\Xi$ is homotopically defined and preserves certain colimits;
+1. $\Xi \circ B$ is equivalent to Id;
+1. There is a natural transformation $Id \rightarrow B \circ \Xi$ preserving some homotopical information. 
+
+The purpose of 1. is to be able to calculate some homotopical information. The purpose of 2. is to show that the diagrams used reflect the algebraic structure of the higher groupoids. Detailed references can be found at the [Higher dimensional group theory](http://www.bangor.ac.uk/r.brown/hdaweb2.htm) web site. 
+
+Trying to be more explicit about some colimits of certain higher groupoids has yielded some interesting algebraic constructions, for which some examples required computational group theory!
+
+
+
+# Discussion #
 
 +--{.query}
 
@@ -25,24 +56,12 @@ They are certainly a very rich structure, with other interpretations of special 
 
 What held me up for 9 years in constructing higher homotopy groupoids was to concentrate on spaces: when Philip Higgins and I started to look at pairs of spaces, then things quickly fell into place. Thus the clear functors from strict $n$-fold groupoids give rise to  _structured spaces_. What is wrong with that? 
 
+_Mike_: I don't think anyone is saying that there is anything _wrong_ with strict $n$-fold groupoids as a model of homotopy $n$-types or structured spaces.  I certainly don't think there is.  I think that probably the feeling is that having a variety of different combinatorial models means having a variety of different tools, each of which may have its advantages and disadvantages.  Ordinary topological spaces and simplicial sets also have advantages and disadvantages.  Tim already mentioned some of the hopes that some people have for $n$-groupoids as a model of $n$-types: more insight into homotopy operations such as Whitehead products.  I'm not a calculational homotopy theorist myself, but it seems plausible.
 
-
+And, as I said before, I think another purpose of the homotopy hypothesis is to use modeling of $n$-types by groupoids as a litmus test for a good notion of $n$-*category*, irrespective of whether this modeling gives us any new information about the $n$-types.  And I do personally feel that strict $n$-fold categories have something to tell us in this picture that has not been properly investigated (or, at least, if it has, I'm not aware of it).
 
 =--
 
-#Remarks#
-
-* In analogy to the homotopy hypothesis, there are attempts to relate general [[infinity-category|infinity-categories]] which need not be groupoidal to [[directed space]]s, in which a morphism which is not invertible would model a path in the space that can only be traversed in one direction.
-
-* ([[Ronnie Brown|Ronnie]] To elaborate on the above, what we have are some functors $\Xi:({diagrams of spaces })\leftrightarrow ({higher groupoids}):B  $
-such that:
-1. $\Xi$ is homotopically defined and preserves certain colimits;
-1. $\Xi \circ B$ is equivalent to Id;
-1. There is a natural transformation $Id \rightarrow B \circ \Xi$ preserving some homotopical information. 
-
-The purpose of 1. is to be able to calculate some homotopical information. The purpose of 2. is to show that the diagrams used reflect the algebraic structure of the higher groupoids. Detailed references are in the Higher dimensional group theory web site. 
-
-Trying to be more explicit about some colimits of certain higher groupoids has yielded some interesting algebraic constructions, for which some examples required computational group theory!
  
 #References#
 
