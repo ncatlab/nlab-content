@@ -13,6 +13,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * have a question for [[Andrew Stacey|Andrew]] at [[Froelicher space]]
+
+  * added a reference to [[dualizing object]]
+
+  * created [[cat-n-group]]
 
   * added a bunch of references to [[directed homotopy theory]] which [[Tim Porter]] kindly provided
 
