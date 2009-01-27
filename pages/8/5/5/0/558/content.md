@@ -24,7 +24,14 @@ The reason this is important to specify is that there are other notions of equiv
 
 It is also known since the work of Loday and Porter that _strict_ $n$-[[n-fold category|fold categories]] also model all homotopy $n$-types.  
 
-See for instance
+Loday proved in
+
+* J.-L. Loday, _Spaces with finitely many non-trivial homotopy groups_, J. Pure Appl. Algebra
+24 (1982), 179-202.
+
+that the homotopy category of [[cat-n-group]]s is equivalent to that of pointed connected homotopy $n$-types.
+
+For a review see for instance
 
 * Ronald Brown, _Computing Homotopy Types Using Crossed $N$-Cubes of Groups_ ([arXiv](http://arxiv.org/abs/math/0109091))
 
@@ -73,4 +80,4 @@ And, as I said before, I think another purpose of the homotopy hypothesis is to 
 
 * John Baez, _The Homotopy Hypothesis_ ([web](http://math.ucr.edu/home/baez/homotopy/), [pdf](http://math.ucr.edu/home/baez/homotopy/homotopy.pdf))
 
-* Ronnie Brown, _Higher dimensional group theory_ ([web](http://www.bangor.ac.uk/r.brown/hdaweb2.htm). See also the linked pages there. 
+* Ronnie Brown, _Higher dimensional group theory_ ([web](http://www.bangor.ac.uk/r.brown/hdaweb2.htm). See there for further references. )
