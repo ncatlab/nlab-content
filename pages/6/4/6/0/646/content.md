@@ -5,7 +5,7 @@ for all $k \geq 0$ and all choices of base point.
 
 (For simplicial groups or groupoids, we have a similar notion.)
 
-What if we only have that $\pi_k(f)$ is an isomorphism up to some dimension, $n$, what can we say about the 'homotopy types'. Any space is equivalent in this trunctaed form to a space with trivial homotopy groups above level $n$, so can we find reasonably complete 'algebraic' models fo such $n$-types.
+What if we only have that $\pi_k(f)$ is an isomorphism up to some dimension, $n$, what can we say about the 'homotopy types'. Any space is equivalent in this truncated form to a space with trivial homotopy groups above level $n$, so can we find reasonably complete 'algebraic' models fo such $n$-types.
 
 We will use simplicial groups and simplicial groupoids rather than spaces below as they are already partially algebraicised.
  
@@ -21,4 +21,11 @@ We will use simplicial groups and simplicial groupoids rather than spaces below 
 
 Considerable effort has gone into finding 'good' algebraic models for (connected) homotopy $n$-types. In low dimensions the results are 'old' or 'classical'.  (We will consider connected cases only.  The extension to the non-connected case is 'routine'.)
 
-* The
+* The 1-type of a connected space is completely determined by its fundamental group, so groups form an algebraic model for homotopy 1-types.
+
+* Crossed modules form an algebraic model for homotopy 2-types by a result of Mac Lane and Whitehead
+     
+     *  S. Mac Lane and J. H. C. Whitehead, _On the 3-type of a complex_, Proc. Nat. Acad. Sci. U.S.A., 36, (1950), 41 &#8211; 48.
+
+
+*  Finding the algebraic model for the $n$-types is just a start.  Ideally one searches for algebraic models of all the higher homotopy structure as well.
