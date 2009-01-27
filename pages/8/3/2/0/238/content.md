@@ -10,6 +10,15 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 # 2009-01-27
+
+* [[Urs Schreiber|Urs]]:
+
+
+  * added a bunch of references to [[directed homotopy theory]] which [[Tim Porter]] kindly provided
+
+  * started adding/searching for references on $n$-fold groupoids to [[homotopy hypothesis]], added a respective remark to [[n-fold category]]
+
+
 * [[Tim Porter|Tim]]:
     
   * Continued [[Moore complex]], created [[homotopy 3-types]], included a  list of some of the algebraic and categorical models for 3-types (with the intention of starting pages on the various types). (Request help on other models, please.)
