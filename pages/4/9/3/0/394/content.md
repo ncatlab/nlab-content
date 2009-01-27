@@ -1,1 +1,3 @@
 A [[functor]] $F:C\to D$ is **essentially surjective** if for every [[object]] $y$ of $D$, there exists an object $x$ of $C$ and an [[isomorphism]] $F(x) \cong y$ in $D$.  Sometimes one says "essentially surjective on objects" (because it\'s a weaking of being surjective on objects), and this is sometimes abbreviated to **eso**.
+
+In any 2-category there is a notion of [[eso morphism]] which generalizes the essentially surjective functors in [[Cat]].
