@@ -2,9 +2,11 @@
 
 A _crossed complex_ (of groupoids) is a nonabelian and [[horizontal categorification|many object]] generalization of a chain complex of abelian groups.
 
-Crossed complexes were conceived by Whitehead in the 1950s and then discussed in great detail in a series of articles by Ronnie Brown and collaborators in the context of [[nonabelian algebraic topology]].
+Crossed complexes were defined by Blakers in 1948 (following a suggestion of Eilenberg) and developed by Whitehead in 1949 and 1950 (but these authors used different terminology). They were applied by Huebschmann to group cohomology in 1980. They were further developed in  series of articles by Ronnie Brown and collaborators in the context of [[nonabelian algebraic topology]], and partly because they were found equivalent to form of (strict) cubical $\omega$-groupoid with _connections_. This equivalence enabled a number of new results, including van Kampen type theorems and monoidal closed structures for crossed complexes. 
 
 Crossed complexes are an equivalent way to encode the information contained in [[strict omega-groupoid]]s: the groups appearing in the crossed complex in degree $n \geq 2$ are the source-fibers of the collection of $n$-morphisms of the $\omega$-groupoid.
+
+See also [[homotopy n-type]]. 
 
 #Remarks#
 
@@ -12,8 +14,8 @@ Crossed complexes are an equivalent way to encode the information contained in [
   * A crossed complex of length 0 is a [[Set|set]].
   * A crossed complex of length 1 is a [[groupoid]].
   * A crossed complex of length 2 is a [[crossed module]], which is equivalent to a strict kind of [[2-group]] by the Brown-Spencer Theorem,
-(R. Brown and C. Spencer, _G-groupoids, crossed modules and the fundamental groupoid of a 
+(R. Brown and C.B. Spencer, _G-groupoids, crossed modules and the fundamental groupoid of a 
 topological group_, Proc. Kon. Ned. Akad. v. Wet, 79, (1976), 296 &#8211; 302.)
 
 A survey of the use of crossed complexes is in 
-R. Brown 'Crossed complexes and homotopy groupoids as non commutative tools for higher dimensional local-to-global problems',  to appear in Michiel Hazewinkel (ed.), Handbook of Algebra, volume 6, Elsevier, 2008/2009. (available as math.AT/0212274 v7).
+R. Brown _Crossed complexes and homotopy groupoids as non commutative tools for higher dimensional local-to-global problems_,  to appear in Michiel Hazewinkel (ed.), Handbook of Algebra, volume 6, Elsevier, 2008/2009. (available as math.AT/0212274 v7).
