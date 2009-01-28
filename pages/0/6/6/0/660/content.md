@@ -16,7 +16,7 @@ $Cat^2$ groups are equivalent to [[crossed square]]s.
 
 Loday gives the more general description in terms of squares of spaces and the fundamental groups of the associated fibration sequences, and the proof of the cat^2-structure uses bisimplicial methods. This generalises nicely to the n-fold case. 
 
-It is unclear how best to deal with the many pointed case! 
+It is not completely clear how best to deal with the many pointed case, but working within categories of groupoids with a given set, $O$,  of objects is one possibility. There are then change of 'object' functors between the categories, leading to a fibred category situation.
 
 
 ##References##
