@@ -11,6 +11,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-01-28
 
+* [[Ronnie Brown]]
+
+  * created/worked on [[cat-n-group]], [[cat-2-group]], [[crossed square]], [[simplicial T-complex]], [[homotopy 3-type]], [[homotopy hypothesis]]
+
 * [[Urs Schreiber|Urs]]
 
   * created [[2-vector space]], [[bimodule]], [[distributor]] (and [[profunctor]] as a redirect)
