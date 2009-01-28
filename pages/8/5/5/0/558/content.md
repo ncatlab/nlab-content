@@ -40,6 +40,22 @@ For a review see for instance
 
   [[Urs Schreiber|Urs]]: I looked at this review but didn't find Loday's '81 article yet. Maybe somebody can help me: what is the map from spaces to $cat^n$-groups which comes from the equivalence in Loday's theorem? I am asking because the natural guess would be that we send a space to its $n$-fold  fundamental groupoid $\Pi_{n-fold}(X)$ in what should be an obvious way. But that cubical $n$-groupoid $\Pi_{n-fold}(X)$ will have thin fillers ("connections") etc and hence be equivalent to a strict $n$-groupoid, which is known _not_ to model all homotopy types. How is this resolved?
 
+[[Ronnie Brown|Ronnie]] This is a good question. The argument of Loday (1982) for getting a _cubical resolution_
+of spaces was developed in 
+
+R. Steiner,  Resolutions of spaces by $n$-cubes
+of fibrations. J. London Math. Soc. (2) 34 (1986),
+169-176.
+
+It does not lead to an easily analysed functor $\Pi$! 
+
+However since the models usually discussed have some kind of structure such as a filtration one would expect the spaces modelled to have an analogous structure. In particular, $n$-fold categories (groupoids) have a multiple filtered  structure. It may not be unexpected that there are problems in possible inverse functors or constructions to the forgetful functor (structured space) $\to$ (spaces).  
+
+Analogously, squashing from a multiple strict structure to a globular structure may necessitate certain non-strictness; this has been analysed in some cases by Simona Paoli. 
+
+It is interesting that Urs thinks there should be _obvious_ functors from spaces to the algebraic model. It was for us quite a sweat to produce the full structure of cubical $\omega$-groupoid with connections from a filtered space, the main problem being to prove the compositions are well defined on the appropriate homotopy classes. Even the existence of the functor $ \Pi: (n-cubes of spaces) \to (cat^n-groups) $
+encapsulates a lot of information, as  is shown by the complications of the Ellis-Steiner crossed $n$-cubes of groups, and their nontrivial equivalence with [[cat-n-group]]s. 
+
 =--
 
 Strict $n$-fold categories can in fact be considered as modeling certain diagrams of spaces, or structured spaces, which is useful for computing with "higher van Kampen theorems."  In general, we have some functors
@@ -82,4 +98,6 @@ What held me up for 9 years in constructing higher homotopy groupoids was to con
 _Mike_: I don't think anyone is saying that there is anything _wrong_ with strict $n$-fold groupoids as a model of homotopy $n$-types or structured spaces.  I certainly don't think there is.  I think that probably the feeling is that having a variety of different combinatorial models means having a variety of different tools, each of which may have its advantages and disadvantages.  Ordinary topological spaces and simplicial sets also have advantages and disadvantages.  Tim already mentioned some of the hopes that some people have for $n$-groupoids as a model of $n$-types: more insight into homotopy operations such as Whitehead products.  I'm not a calculational homotopy theorist myself, but it seems plausible.
 
 And, as I said before, I think another purpose of the homotopy hypothesis is to use modeling of $n$-types by groupoids as a litmus test for a good notion of $n$-*category*, irrespective of whether this modeling gives us any new information about the $n$-types.  And I do personally feel that strict $n$-fold categories have something to tell us in this picture that has not been properly investigated (or, at least, if it has, I'm not aware of it).
+
+_Ronnie_: I entirely agree with Mike on _horses for courses_. It is helpful also to analyse what are and should be the _courses_!. There are and will be many of them. There is already a  description of Whitehead products $\pi_2 \times \pi_2 \to \pi_3$ in the classifying space of a crossed square, using the $h$ map.  
  
