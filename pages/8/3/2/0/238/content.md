@@ -11,6 +11,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-01-28
 
+* [[Urs Schreiber|Urs]]
+
+  * created [[2-vector space]] and a stub for [[bimodule]] 
+
 * [[Tim Porter|Tim]]:
     
   * Continued adding stuff to various entries on $cat^n$-groups and references for Loday's theorem at [[cat-n-group]].
