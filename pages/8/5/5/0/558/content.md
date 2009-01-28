@@ -35,6 +35,13 @@ For a review see for instance
 
 * Ronald Brown, _Computing Homotopy Types Using Crossed $N$-Cubes of Groups_ ([arXiv](http://arxiv.org/abs/math/0109091))
 
+
++--{.query}
+
+  [[Urs Schreiber|Urs]]: I looked at this review but didn't find Loday's '81 article yet. Maybe somebody can help me: what is the map from spaces to $cat^n$-groups which comes from the equivalence in Loday's theorem? I am asking because the natural guess would be that we send a space to its $n$-fold  fundamental groupoid $\Pi_{n-fold}(X)$ in what should be an obvious way. But that cubical $n$-groupoid $\Pi_{n-fold}(X)$ will have thin fillers ("connections") etc and hence be equivalent to a strict $n$-groupoid, which is known _not_ to model all homotopy types. How is this resolved?
+
+=--
+
 Strict $n$-fold categories can in fact be considered as modeling certain diagrams of spaces, or structured spaces, which is useful for computing with "higher van Kampen theorems."  In general, we have some functors
 $$\Xi:({diagrams of spaces })\leftrightarrow ({higher groupoids}):B $$
 such that:
@@ -46,6 +53,11 @@ The purpose of 1. is to be able to calculate some homotopical information. The p
 
 Trying to be more explicit about some colimits of certain higher groupoids has yielded some interesting algebraic constructions, for which some examples required computational group theory!
 
+#References#
+
+* John Baez, _The Homotopy Hypothesis_ ([web](http://math.ucr.edu/home/baez/homotopy/), [pdf](http://math.ucr.edu/home/baez/homotopy/homotopy.pdf))
+
+* Ronnie Brown, _Higher dimensional group theory_ ([web](http://www.bangor.ac.uk/r.brown/hdaweb2.htm). See there for further references. )
 
 
 # Discussion #
@@ -71,8 +83,3 @@ _Mike_: I don't think anyone is saying that there is anything _wrong_ with stric
 
 And, as I said before, I think another purpose of the homotopy hypothesis is to use modeling of $n$-types by groupoids as a litmus test for a good notion of $n$-*category*, irrespective of whether this modeling gives us any new information about the $n$-types.  And I do personally feel that strict $n$-fold categories have something to tell us in this picture that has not been properly investigated (or, at least, if it has, I'm not aware of it).
  
-#References#
-
-* John Baez, _The Homotopy Hypothesis_ ([web](http://math.ucr.edu/home/baez/homotopy/), [pdf](http://math.ucr.edu/home/baez/homotopy/homotopy.pdf))
-
-* Ronnie Brown, _Higher dimensional group theory_ ([web](http://www.bangor.ac.uk/r.brown/hdaweb2.htm). See there for further references. )
