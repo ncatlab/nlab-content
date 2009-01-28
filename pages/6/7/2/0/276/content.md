@@ -8,6 +8,12 @@ Crossed complexes are an equivalent way to encode the information contained in [
 
 See also [[homotopy n-type]]. 
 
+One way to think of a crossed complex is as a chain complex in which the bottom part is a crossed module and the rest is a chain complex of modules over the fundamental group of the crossed complex (that is its cokernel).  This is easy to think of in the case where there is a single object (crossed complex of groups), and it is a simple step to extend to the many object case.
+
+##Examples##
+If $X$ is  CW-complex, then there is a crossed complex with, in dimension $n$ the family of relative homotopy groups $\{\pi_n(X^n,X^{n-1},p) : p\in X^0\}$.  In dimension 1 this is the relative fundamental groupoid of the 1-skeleton of $X$ with objects the points in $X^0$.
+
+
 #Remarks#
 
 * In low degrees crossed complexes are the following:
@@ -19,3 +25,7 @@ topological group_, Proc. Kon. Ned. Akad. v. Wet, 79, (1976), 296 &#8211; 302.)
 
 A survey of the use of crossed complexes is in 
 R. Brown _Crossed complexes and homotopy groupoids as non commutative tools for higher dimensional local-to-global problems_,  to appear in Michiel Hazewinkel (ed.), Handbook of Algebra, volume 6, Elsevier, 2008/2009. (available as math.AT/0212274 v7).
+
++--{.query}
+[[Tim Porter|Tim]]: One of many terminological problems that arise in this stuff is whether 'length' of a chain complex or crossed complex refers to the number of transitions/arrows or the number of nodes /groups or whatever?
+=--
