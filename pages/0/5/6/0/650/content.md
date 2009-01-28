@@ -28,10 +28,12 @@ A cat$^{n}$-group is thus a group with $n$ independent cat$^{1}$-group structure
 
 #Remarks#
 
-* Even though $cat^n$-groups are examples of strict [[n-category|n-categories]], Loday has shown that the [[homotopy category]] of $cat^n$-groups is equivalent to that of spaces which are pointed connected [[homotopy n-type]]s. Hence for $cat^n$-groups (thought of as $(n+1)$-fold groupoids) the [[homotopy hypothesis]] is true in this sense. See there for more details.
+* Even though $cat^n$-groups are examples of strict [[n-category|n-categories]], Loday has shown that the [[homotopy category]] of $cat^{n-1}$-groups is equivalent to that of spaces which are pointed connected [[homotopy n-type]]s. Hence for $cat^n$-groups (thought of as $(n+1)$-fold groupoids) the [[homotopy hypothesis]] is true in this sense. See there for more details.
 
 +-- {.query}
 [[Tim Porter|Tim]] Is the first statement above correct? $Cat^n$-groups are examples of strict (n+1)-fold categories, not strict n=categories or am I missing something?
+
+[[Ronnie Brown|Ronnie]] I have corrected that. cat^1-groups are equivalent to crossed modules which model homotopy 2-types. 
 =--
 
 ###Reference###
@@ -39,7 +41,10 @@ The original proof of Loday's result is to be found in
 
 J.-L. Loday, _Spaces with finitely many homotopy groups_, J.Pure Appl. Alg., 24, (1982), 179 &#8211; 202.
 
-There are one or two gaps in that proof and various patches and complete proofs were then given.
+There are one or two gaps in that proof and various patches and complete proofs were then given. The main one is in 
+
+R. Steiner, Resolutions of spaces by $n$-cubes of fibrations. J. London Math. Soc. (2) 34 (1986), 169-176.
+
 
 A proof using $cat^n$-groups and a neat detailed analysis of multisimplicial groups and related topics was given in
 
@@ -47,4 +52,4 @@ M. Bullejos, A. M. Cegarra. and J. Duskin, _On $cat^n$ -groups and homotopy type
 
 Porter gave a proof in terms of [[crossed n-cube]]s (and attempting to use as little high-powered simplicial techniques as possible) in
 
-T. Porter, _n-types of simplicial groups and crossed n-cubes$, Topology, 32, (1993), 5 &#8211; 24.
+T. Porter, _n-types of simplicial groups and crossed n-cubes_, Topology, 32, (1993), 5 &#8211; 24.
