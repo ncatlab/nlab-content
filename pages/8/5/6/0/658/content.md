@@ -14,6 +14,10 @@ $$
   \,.
 $$
 
++--{.query}
+_Todd_: There is an inevitable debate here about whether one should use $C^{op} \otimes D \to V$ or $C \otimes D^{op} \to V$. My own convention is to use the latter. For example, every functor $C \to D$ yields a distributor by composition with the Yoneda embedding on $D$. 
+=--
+
 This yields a [[bicategory]] $V-Mod$ with
 
 * objects are $V$-enriched categories;
