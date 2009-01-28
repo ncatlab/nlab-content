@@ -6,4 +6,4 @@ Regarding a [[group]] as a [[groupoid]] with a single object, this is the same a
 
 * A $cat^0$-group is just a group.
 
-* A $cat^1$-group is just a strict [[2-group]].
+* A [[cat-1-group]] is just a strict [[2-group]].
