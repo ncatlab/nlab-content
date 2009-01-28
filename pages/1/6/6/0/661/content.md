@@ -1,0 +1,1 @@
+A _double groupoid_ is a [[double category]] in which all morphisms are [[isomorphism]]s.
