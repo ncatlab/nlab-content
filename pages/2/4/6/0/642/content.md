@@ -8,6 +8,6 @@ There are many useful algebraic models for a homotopy 3-type. (Assume the homoto
 
 * [[crossed squares]] 
 
-* [[cat 2-group|cat^2 group]]
+* [[cat 2-group]]
 
 (Someone please add their favorite version of the Gray groupoid type model. I am not sure I know it well enough to do a good job of it. Also any others?)
