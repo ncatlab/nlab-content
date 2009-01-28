@@ -1,6 +1,24 @@
+##Idea##
 A _$cat^n$-group_ is a strict [[n-category]] [[internal category|internal]] to [[Grp]]. 
 
 Regarding a [[group]] as a [[groupoid]] with a single object, this is the same as an [[n-fold category|(n+1)-fold groupoid]] in which in one direction all morphisms are endomorphisms.
+
+As with the cases $n=1$ and 2, there is a neat purely group theoretic definition of these objects.
+
+##Algebraic definition##
+A _cat$^n$-group_  is a group $G$ together with $2n$ endomorphisms $s_i, t_i, (1 \le i \le n)$ such that 
+
+$$s_i t_i = t_i, and  t_i s_i = s_i  for all  i, $$
+
+$$ s_i s_j = s_j s_i,   t_i t_j = t_j t_i, s_i t_j = t_j s_i  for i\neq  j$$ 
+
+and, for all $i$,
+
+$$[ Ker\, s_i, Ker\, t_i] = 1.$$
+
+Morphisms of cat$^n$-groups are the obvious things, morphisms of the groups compatible with the endomorphisms.
+
+A cat$^{n}$-group is thus a group with $n$ independent cat$^{1}$-group structures on it.
 
 #Special cases#
 
