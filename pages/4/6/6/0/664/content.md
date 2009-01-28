@@ -40,4 +40,4 @@ $$\{M_{A}\} \rightarrow \{M^{\prime}_{A}\}$$
 
 is a family of homomorphisms, $\{f_{A}: M_{A} \rightarrow  M^{\prime}_A \,|\, A \subseteq  \langle n \rangle\}$, which commute with the maps, $\mu_i$, and the functions, $h$. 
 
-This gives us a category, $Crs^{n} $, equivalent to that of cat$^{n}$-groups.
+This gives us a category, $Crs^{n} $, equivalent to that of [[cat-n-group]]s.
