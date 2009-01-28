@@ -50,8 +50,6 @@ Trying to be more explicit about some colimits of certain higher groupoids has y
 
 # Discussion #
 
-+--{.query}
-
 [[Tim Porter|Tim]]: I would like to pose a question on the Homotopy Hypothesis.  Playing devil's advocate for the moment, since Kan complexes, and simplicially enriched categories, both satisfy the homotopy hypothesis, why bother to search for other models?  That is a bit severe of course so a more 'constructive' form of the question is what criteria should we be looking to be satisfied so as to say that a model of homotopy types is a good one?  (Perhaps things like that the basic homotopy operations, such as Whitehead or Samelson products, should have clear formulations and clear interpretations.  The higher operations could then be gradually required.  The relation between obstructions to interchange laws (interchangeator!) and the low dimensional Whitehead products are 'clear' even if not that immediately evident in most writing on the subject (and I include my own in that!), but in higher dimensions .... ?
 
 _[[Mike Shulman|Mike]]_: My perspective is that we are looking for good notions of _$\infty$-category_ such that the _induced_ notion of $\infty$-groupoid satisfies the homotopy hypothesis.  If all you want is to do homotopy theory, then homotopy theorists have gotten along quite well for decades with topological spaces, Kan complexes, and the like (although one might certainly hope, as you suggest, to get information about homotopy operations out as well).  But as category theorists, we want a notion of $\infty$-category with not all cells necessarily invertible, which behaves well _categorically_ rather than homotopically, but whose induced notion of $\infty$-groupoid still satisfies the homotopy hypothesis as a "check" or "anchor."  It's hard to exhibit Kan complexes as the $(\infty,0)$-case of a notion of $\infty$-category; there are [[quasi-category|quasicategories]] for $(\infty,1)$-categories but beyond that it gets tricky (there is Street's original definition, but it's quite difficult to work with).
@@ -72,9 +70,6 @@ What held me up for 9 years in constructing higher homotopy groupoids was to con
 _Mike_: I don't think anyone is saying that there is anything _wrong_ with strict $n$-fold groupoids as a model of homotopy $n$-types or structured spaces.  I certainly don't think there is.  I think that probably the feeling is that having a variety of different combinatorial models means having a variety of different tools, each of which may have its advantages and disadvantages.  Ordinary topological spaces and simplicial sets also have advantages and disadvantages.  Tim already mentioned some of the hopes that some people have for $n$-groupoids as a model of $n$-types: more insight into homotopy operations such as Whitehead products.  I'm not a calculational homotopy theorist myself, but it seems plausible.
 
 And, as I said before, I think another purpose of the homotopy hypothesis is to use modeling of $n$-types by groupoids as a litmus test for a good notion of $n$-*category*, irrespective of whether this modeling gives us any new information about the $n$-types.  And I do personally feel that strict $n$-fold categories have something to tell us in this picture that has not been properly investigated (or, at least, if it has, I'm not aware of it).
-
-=--
-
  
 #References#
 
