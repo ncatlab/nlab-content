@@ -29,7 +29,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
   * Continued adding stuff to various entries on $cat^n$-groups and references for Loday's theorem at [[cat-n-group]].
 
 
-
+  * Created [[2-crossed module]].
 # 2009-01-27
 
 * [[Urs Schreiber|Urs]]:
