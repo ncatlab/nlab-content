@@ -23,15 +23,19 @@ A sketch of a generic such a situation of hierarchical bonds is a diagram
 
 $$
   \array{
-     \beta_2 &&=&& \beta_2
+     \beta_2 &&=&& \beta_2 && \beta_4
      \\
-     \downarrow && && \downarrow
+     \downarrow && && \downarrow & \swarrow
      \\
      b_1 &\to& B &\leftarrow& b_2
      \\
-     \uparrow && \uparrow  && \uparrow
+     \uparrow && \uparrow  && \uparrow 
      \\
      \beta_1 && b_3 && \beta_3
+     \\
+     && \uparrow
+     \\
+     && \beta_5
   }
 $$
 
