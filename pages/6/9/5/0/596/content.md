@@ -1,6 +1,6 @@
 #Idea#
 
-* A _multi(co)span_ is supposed to be something that generalized [[span]] (and [[cospan]]) both horizontally and vertically: it may have a number of legs different from 2, but more importantly it need not be a single roof but can be a more complex diagram.
+* A _multi(co)span_ is supposed to be something that generalizes [[span]] (and [[cospan]]) both horizontally and vertically: it may have a number of legs different from 2, but more importantly it need not be a single roof but can be a more complex diagram.
 
 * A multispan is supposed to be a model for a _hierarchical cell complex_ with
   
@@ -49,12 +49,12 @@ $\wedge := a_1 \to \top \leftarrow a_2$.
 
   * Jeffrey Morton, _Double Bicategories and Double Cospans_ ([arXiv](http://xxx.lanl.gov/abs/math.CT/0611930)),
 
- * Grandi's higher cubical cospans, which generalize the previous example: these are obtained by restricting the domain posets to be the cartesian powers
+ * Grandis' higher cubical cospans, which generalize the previous example: these are obtained by restricting the domain posets to be the cartesian powers
 $\wedge^{\times n}$ (with $\wedge$ as above).
 
 #Remarks#
 
-* The concept of multispans as described above is akin to, in fact inspired by or maybe even a realization of the idea of a [[hyperstructure]] by [[Nils Baas]].
+* The concept of multispans as described above is akin to, in fact inspired by or maybe even a realization of the idea of a [[hyperstructure]] by [[Nils Baas]], see [[Cospans in Algebraic Topology]]
 
 #Related concepts#
 
