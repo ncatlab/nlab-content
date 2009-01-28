@@ -29,3 +29,5 @@ R. Brown _Crossed complexes and homotopy groupoids as non commutative tools for 
 +--{.query}
 [[Tim Porter|Tim]]: One of many terminological problems that arise in this stuff is whether 'length' of a chain complex or crossed complex refers to the number of transitions/arrows or the number of nodes /groups or whatever?
 =--
+
+A discussion of the kind of homotopy types modelled by crossed complexes, namely a _linear_ model, and a conjecture as to how to extend this, is in [[homotopy n-type]]. 
