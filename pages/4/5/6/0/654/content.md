@@ -17,6 +17,7 @@ Categories internal to [[Vect]] were explicitly described from the perspective o
 
 * John C. Baez and Alissa S. Crans, _Higher-Dimensional Algebra VI: Lie 2-Algebras_ ([tac](http://www.tac.mta.ca/tac/volumes/12/15/12-15abs.html)).
 
+in the context of higher [[Lie theory]]. In fact, (following for instance from an extension of the [[Dold-Kan-theorem]] by Brown and Higgins), [[strict omega-category|strict omega-categories]] internal to [[Vect]] are equivalent to chain complexes in non-negative degree and can be regarded as strict $Disc(k)$-$\infty$-modules. This allows to conceive much of [[homological algebra]] and many of the structures appearing in higher [[Lie theory]] -- for instance the definition of [[L-infinity algebra]]s, as being about $\infty$-vector spaces. Regarding a chain complex as an $\infty$-vector space is useful conceptually for understanding the meaning of some constructions on chain complexes, while of course chain complexes themselves are well suited for direct computation with the $\infty$-vector spaces which they are equivalent to. (See also the remark about different notions of 2-vector spaces further below.)
 
 ## Module categories of modules
 
@@ -65,7 +66,7 @@ $$
 
 The categories $Vect^n$ have been introduced by Kapranov and Voevodsky as 2-vector spaces in
 
-* Kapranov and Voevodsky, ...
+* M. Kapranov and V. Voevodsky, _2-categories and Zamolodchikov tetrahedra equations_ in _Algebraic groups and their generalization: quantum and infinite-dimensional methods, University Park, PA (1991) (eds: W. J. Haboush and B. J. Parshall), Proc. Sympos. Pure Math. 56 (Amer. Math. Soc., Providencem RIm 1994), pp. 177-259
 
 and are one of the oldest and most familiar examples of 2-vector spaces.
 
@@ -74,6 +75,13 @@ and are one of the oldest and most familiar examples of 2-vector spaces.
 A notion of 2-vector spaces in between general module categoies $Mod_C = [C,Vect]$ and Kaparanov-Voevodsky 2-vector spaces is given in
 
 * Josep Elgueta, _Generalized 2-vector spaces and general linear 2-groups_ ([arXiv](http://arxiv.org/abs/math/0606472))
+
+
+### Infinite-dimensional KV 2-vector spaces
+
+We can regard the objects of the $n$-dimensional  Kapranov-Voevodsky 2-vector space $Vect^n$ -- which are $n$-tuples of vector spaces -- as vector bundles over the finite set of $n$ elements. This has an obvious generalization to vector bundles over any topological space  --in terms of modules these are the finitely generated projective modules of the algebra of continuous functions on this space. So categories of vector bundles can be regarded as infinite-dimensional 2-vector spaces. For the case that the underlying topological space is a _measure space_ such infinite dimensional KV 2-vector spaces have been studied in
+
+* John C. Baez, Aristide Baratin, Laurent Freidel, Derek K. Wise, _Infinite-Dimensional Representations of 2-Groups_ ([arXiv](http://arxiv.org/abs/0812.4969)) 
 
 ## $C = $ modular tensor category
 
@@ -88,7 +96,9 @@ The relevance of module categories as models for 2-vector spaces was apparently 
 As the above list shows, there are 2-vector spaces of very different kind. There is not <em>the</em> notion of 2-vector space which is the universal right answer. Different notions of vector spaces are applicable and useful in different situations. 
 This can be regarded as nothing but a more pronounced incarnation of the fact that already ordinary vector space appear in different flavors which are useful in different situations (real vector spaces, complex vector spaces, etc.)
 
-For instance $Disc(k)$-module categories are crucial for higher [[Lie theory]] but 2-bundles with fibers $Disc(k)$-module categories are comparatively boring as far as general 2-bundles go, as they are essentially complexes of ordinary vector bundles.
+For instance $Disc(k)$-module categories are crucial for higher [[Lie theory]] but 2-bundles with fibers $Disc(k)$-module categories are comparatively boring as far as general 2-bundles go, as they are essentially complexes of ordinary vector bundles. See 
+
+* Nils. A. Baas, Marcel B&ouml;kstedt, Tore August Kro, _Two-Categorical Bundles and Their Classifying Spaces_ ([arXiv](http://arxiv.org/abs/math/0612549))
 
 #2-Hilbert spaces#
 
