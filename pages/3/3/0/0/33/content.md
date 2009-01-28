@@ -15,6 +15,8 @@ If you call that 'oidification', then you can call this simply 'categorification
 
 * Familiar vertical categorifications/homotopifications of algebraic structures include
 
+ * vector spaces $\to$ [[2-vector space]]s
+
   * algebras $\stackrel{vertical categ.}{\to}$ $A_\infty$-algbebras
 
   * Lie algebras $\stackrel{vertical categ.}{\to}$ $L_\infty$-algbebras
@@ -31,10 +33,8 @@ A bit of $n$-Caf&#233; discussion on this subject can be found here:
 Theory_, eds. Ezra Getzler and Mikhail Kapranov,
 Contemp. Math. 230, American Mathematical Society, Providence, Rhode Island, 1998, pp. 1-36.
 
-+-- {: .query}
+An eraly article where the concept of categorification is described is
 
-We should have a pointer to the work that introduced the term first. I forget. Crane and ... (?)
+* Crane and Yetter, 
+[Examples of categorification](http://arxiv.org/abs/q-alg/9607028)
 
-Possible answer: Crane and Yetter, [Examples of categorification](http://arxiv.org/abs/q-alg/9607028)
-
-=--
