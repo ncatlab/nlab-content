@@ -19,8 +19,7 @@ In the light of [[FQFT|functorial quantum field theory]] (where this is motivate
 
 (In this formulation this is taken from 
 
-* [[Bruce Bartlett]], _On unitary 2-representations of finite groups and topological quantumfield theory_. PhD thesis, Sheffield (2008)
-)
+* [[Bruce Bartlett]], _On unitary 2-representations of finite groups and topological quantumfield theory_. PhD thesis, Sheffield (2008) ([arXiv](http://arxiv.org/abs/0901.3975))
 
 More recently Mike Hopkins and Jacob Lurie have claimed 
 (see [Hopkins-Lurie on Baez-Dolan](http://golem.ph.utexas.edu/category/2008/05/hopkinslurie_on_baezdolan.html))
