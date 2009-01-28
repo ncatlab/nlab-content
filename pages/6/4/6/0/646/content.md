@@ -5,7 +5,7 @@ for all $k \geq 0$ and all choices of base point.
 
 (For simplicial groups or groupoids, we have a similar notion.)
 
-What if we only have that $\pi_k(f)$ is an isomorphism up to some dimension, $n$, what can we say about the 'homotopy types'. Any space is equivalent in this truncated form to a space with trivial homotopy groups above level $n$, so can we find reasonably complete 'algebraic' models fo such $n$-types.
+What if we only have that $\pi_k(f)$ is an isomorphism up to some dimension, $n$, what can we say about the 'homotopy types'. Any space is equivalent in this truncated form to a space with trivial homotopy groups above level $n$, so can we find reasonably complete _algebraic_ models for such $n$-types.
 
 We will use simplicial groups and simplicial groupoids rather than spaces below as they are already partially algebraicised.
  
@@ -29,3 +29,14 @@ Considerable effort has gone into finding 'good' algebraic models for (connected
 
 
 *  Finding the algebraic model for the $n$-types is just a start.  Ideally one searches for algebraic models of all the higher homotopy structure as well.
+
+* The method initiated by J.H.C. Whitehead was to approximate homotopy theory by models which analysed particular types of behaviour. One of his most widely followed models is that of stable homotopy theory. The opposite method was to find algebraic models of restricted classes of spaces, such as 2-types, or with cells in a small range of dimensions.  H.-J. Baues has followed up many of the latter ideas. 
+
+It is sensible to regard [[crossed complex]]es as giving a _linear_ model of homotopy types. These crossed complexes are equivalent to strict  globular $\infty$-groupoids. Although these are restricted model of homotopy types, they are convenient in many aspects, because of the many analogies with the familiar chain complexes. 
+
+Crossed complexes capture operations of the fundamental groupoid, but not quadratic information such as Whitehead products (for dimensions >1). However one can define $n$-fold crossed complexes inductively as crossed complexes internal to $(n-1)$-fold crossed complexes. So one can give the 
+
+*(Conjecture) double crossed complexes capture the quadratic information on homotopy types, triple crossed complexes capture the cubic information, etc., etc. 
+
+This has the possibility of leading to computations, by applying van Kampen theorems to specific levels.  
+
