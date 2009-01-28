@@ -1,10 +1,5 @@
-#Idea#
 
-...
-
-#Definition#
-
-A **double category** is an [[internal category]] in [[Cat]].
+A **double category** is an [[n-fold category]] for $n=2$, i.e. an [[internal category]] in [[Cat]].
 
 #References#
 
