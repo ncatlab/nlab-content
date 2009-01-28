@@ -8,7 +8,7 @@ A series of articles by [[Marco Grandis]] on describing [[extended cobordism]]s 
 
 Some of the crucial ideas appearing here are
 
-* a notion of cubical [[multispan|multi-cospans]] in ssome category;
+* a notion of cubical [[multispan|multi-cospans]] in some category;
 
 * the observation that [[extended cobordism]]s should be modeled by such multi-cospans (in particular in [[Top]]);
 
@@ -16,11 +16,8 @@ Some of the crucial ideas appearing here are
 
   * (Grandis seems not to mention (?) the fact that [[groupoidification]] makes this interpretation of spans as linear maps very natural)
 
-* the relevance of evaluating functors which preserve (homotopy) [[pushout]]s on (mult)-cospan.
+* the relevance of evaluating functors which preserve (homotopy) [[pushout]]s on (multi)-cospans.
 
-+--{.query}
-[[Urs Schreiber|Urs]]: I am thinking that with just a bit more, this yields the right general nonsense version of what abstractly a $\sigma$-model QFT should be. Remarks to that extent currently in the file linked to at [[multispan]].
-=--
 
 
 category: reference
