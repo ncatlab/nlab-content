@@ -29,7 +29,7 @@ $$\{m,\partial \ell\}\{\partial \ell,m\} = \,^{\partial m}\ell.\ell^{-1};$$
 
 1. if $n\in N$ and $m_0,m_1 \in M$, then 
 
-$$^n{m_0,m_1\} = { \,^nm_0, \,^nm_1}.$$
+$ \,^n{m_0,m_1\} = \{ \,^nm_0, \,^nm_1\}.$
 
 
 The pairing $\{ - ,- \} : M\times M \to L$ is often called the _Peiffer lifting_  of the 2-crossed module.
