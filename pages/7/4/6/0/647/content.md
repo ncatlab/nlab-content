@@ -1,3 +1,12 @@
+##Idea##
+
+A [[crossed module]] is a bit like a normal subgroup... without being a subgroup. In fact if a crossed module has a boundary map which is a monomorphism then it is isomorphic to the inclusion crossed module of a normal subgroup.
+
+Crossed modules model all connected homotopy 2-types.  Crossed squares model all connected [[homotopy 3-types]]s and correspond to pairs of normal subgroups. Suppose $G$ is a group and $M$ and $N$ are normal subgroups of $G$, then of course, so is $M\cap N$.  Put these groups in a square, with the inclusion maps between them. Finally note that if $m \in M$ and $n\in N$, then $[m,n]$ is in the intersection $M\cap N$. This gives you a crossed square with $h$-map $h(m,n) = [m,n]$.  Removing the  condition that the inclusions are inclusions(!) gives the general form.  
+
+(The definition that follows is that given by Guin-Valery and Loday in their paper (see references).  Another definition can be given that is just the case $n = 2$ of that of [[crossed n-cube]], for which see that entry.
+ 
+
 ##Definition:##
 
 (Ronnie put this up on another entry and I have just shifted it here. more will be added later.)
@@ -19,4 +28,4 @@ This should be thought of as a _crossed module of crossed modules_ (in either di
 
 The classical homotopical example is determined by a pointed triad $(X; A,B)$ where $A,B \subseteq X$, and $P= \pi_1(A \cap B)$, $M= \pi_2(A, A \cap B), N= \pi_2(B, A \cap B)$ and $L=\pi_3(X; A,B)$. The operations of $P$ are the standard ones and  $h$ is the generalised Whitehead product. (The conventions may be slightly different from the standard ones in homotopy theory.)  This can be generalised to a functor $\Pi: (squares of pointed spaces) \to (crossed squares)$. 
 
-See also [[cat^2-groups]]. 
+See also [[cat-2-groups]]. 
