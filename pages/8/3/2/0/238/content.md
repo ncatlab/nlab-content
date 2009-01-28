@@ -17,6 +17,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * have a question at [[homotopy theory]] on Loday's result
+
   * created [[Gray category]]
 
   * created [[2-vector space]], [[bimodule]], [[distributor]] (and [[profunctor]] as a redirect)
