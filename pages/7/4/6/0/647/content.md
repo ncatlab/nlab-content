@@ -16,3 +16,7 @@ given actions, the maps $\lambda, \lambda',\mu, \nu$ and $\kappa = \mu\lambda = 
 for all $l\in L, \,m, m'\in M,\, n,n'\in N$ and $p\in P$. 
 
 This should be thought of as a _crossed module of crossed modules_ (in either direction!)
+
+The classical homotopical example is determined by a pointed triad $(X; A,B)$ where $A,B \subseteq X$, and $P= \pi_1(A \cap B)$, $M= \pi_2(A, A \cap B), N= \pi_2(B, A \cap B)$ and $L=\pi_3(X; A,B)$. The operations of $P$ are the standard ones and  $h$ is the generalised Whitehead product. (The conventions may be slightly different from the standard ones in homotopy theory.)  This can be generalised to a functor $\Pi: (squares of pointed spaces) \to (crossed squares)$. 
+
+See also [[cat^2-groups]]. 
