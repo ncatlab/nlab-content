@@ -8,13 +8,13 @@ The inclusion of this entry is to help the user move between the various forms u
 A _cat$^1$-group_ is a triple, $(G,s,t)$, where
 $G$ is a group and $s,t$ are _endomorphisms_ of $G$ satisfying conditions
 
-(i) $st = t$ and $ts = s.$
+(i) $s t = t$ and $t s = s.$
 
 (ii) $[Ker\,s, \,Ker\,t ] = 1.$
 
 ###Discussion###
 
-A cat$^1$-group is  just a reformulation of an [[internal category]] in $Grps$.  (The interchange law is  given by the $[Ker,Ker]$ condition.)  As we know these latter objects are equivalent to [[crossed module]]s, we expect to be able to go between $cat^1$-groups and crossed modules without  hindrance, and we can:
+A cat$^1$-group is  just a reformulation of an [[internal category]] in [[Grp]].  (The interchange law is  given by the $[Ker,Ker]$ condition.)  As we know these latter objects are equivalent to [[crossed module]]s, we expect to be able to go between $cat^1$-groups and crossed modules without  hindrance, and we can:
 
 
 ####Lemma#### 
@@ -40,7 +40,7 @@ for $m\in M$, $n\in N,$ we have that $(G,s,t)$ is a cat$^1$-group.
 (Help needed.  I tried to adapt Jacques code for theorem like environments but got strange results.) 
 
 ####References####
-Loday introduced $cat^1$-groups in his work on the modelling of [[homotopy n-types]].
+Loday introduced $cat^1$-groups in his work on the modelling of [[homotopy n-type]]s.
 
 * J.-L. Loday, _Spaces with finitely many homotopy groups_, J.Pure Appl. Alg., 24, (1982), 179 
 &#8211; 202.
