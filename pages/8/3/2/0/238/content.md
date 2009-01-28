@@ -17,6 +17,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * added examples and a bit more to [[distributor]] and implemented [[Todd Trimble|Todd]]'s suggestion there
+
   * have a question at [[homotopy theory]] on Loday's result
 
   * created [[Gray category]]
