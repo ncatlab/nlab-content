@@ -9,6 +9,14 @@ Drop a comment here if you feel people's attention should be drawn to some chang
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).
 
 ***
+# 2009-01-28
+
+* [[Tim Porter|Tim]]:
+    
+  * Continued adding stuff to various entries on $cat^n$-groups and references for Loday's theorem at [[cat-n-group]].
+
+
+
 # 2009-01-27
 
 * [[Urs Schreiber|Urs]]:
@@ -26,7 +34,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Tim Porter|Tim]]:
     
-  * Continued [[Moore complex]], created [[homotopy 3-types]], included a  list of some of the algebraic and categorical models for 3-types (with the intention of starting pages on the various types). (Request help on other models, please.)
+  * Continued [[Moore complex]], created [[homotopy 3-type]], included a  list of some of the algebraic and categorical models for 3-types (with the intention of starting pages on the various types). (Request help on other models, please.)
 
 # 2009-01-26
 * [[Andrew Stacey|Andrew]]:
