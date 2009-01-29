@@ -1,37 +1,50 @@
 #Idea#
 
-The concept of a _2-vector space_ is supposed to be a [[vertical categorification|categorification]] of the concept of a vector space. As usual in the game of `categorification', this requires us to think deeply about what an ordinary vector space really is, and then attempt to categorify that idea. 
+The concept of a _2-vector space_ is supposed to be a [[vertical categorification|categorification]] of the concept of a vector space. As usual in the game of 'categorification', this requires us to think deeply about what an ordinary vector space really is, and then attempt to categorify that idea. 
 
 ## What is a vector space?
 
 There are at least two distinct conceptual roles which vectors and vector spaces play in mathematics:
 
-* A vector is a _column of numbers_. This is the way vector spaces appear in quantum mechanics, elementary linear algebra, etc. 
+* A vector is a _column of numbers_. This is the way vector spaces appear in quantum mechanics, sections of line bundles, elementary linear algebra, etc. 
 
 * A vector is a _direction in space_. Vector spaces of this kind are often the infinitesimal data of some global structure, such as tangent spaces to manifolds, Lie algebras of Lie groups, and so on.
 
-These two different ideas of a `vector space' lead to two diferent ideas of a `2-vector space', broadly speaking those of _Kapranov and Voevodsky_ and those of _Baez and Crans_. 
+These two different ideas of a 'vector space' lead to two diferent ideas of a '2-vector space', broadly speaking those of _Kapranov and Voevodsky_ and those of _Baez and Crans_. 
 
-As usual, there are various different concepts of 2-vector spaces, all of them useful and relevant in different contexts.
+## Kapranov-Voevodsky 2-vector spaces
 
-Most definitions of 2-vector spaces used in the literature are special cases of the idea that in analogy to how a vector space can be regarded as a [[module]] over the ground field $k$, a 2-vector space $W$ should be a [[category]] which is a [[monoidal category module]] with some nice properties (such as being an abelian category) over a suitable [[monoidal category]] $V$ which plays the role of the categorified ground field. There is then an obvious [[bicategory]] of such module categories.
+These were introduced in: 
 
+* M. Kapranov and V. Voevodsky, _2-categories and Zamolodchikov tetrahedra equations_ in _Algebraic groups and their generalization: quantum and infinite-dimensional methods, University Park, PA (1991) (eds: W. J. Haboush and B. J. Parshall), Proc. Sympos. Pure Math. 56 (Amer. Math. Soc., Providencem RIm 1994), pp. 177-259
 
-#Examples
+The idea here is that just as a vector space can be regarded as a [[module]] over the ground field $k$, a 2-vector space $W$ should be a [[category]] which is a [[monoidal category module]] with some nice properties (such as being an abelian category) over a suitable [[monoidal category]] $V$ which plays the role of the categorified ground field. There is then an obvious [[bicategory]] of such module categories.
 
+In fact, Kapranov and Voevodsky defined a _2-vector space_ as an abelian Vect-module category equivalent to Vect^n for some $n$.
 
+While this definition makes a lot of sense, its main shortcomings of this definition are twofold:
 
-## $C = Disc(k)$
+* It does not give an abstract characterization of 2-vector spaces. That is, it is hardly different to simply defining a 2-vector space as a category equivalent to $Vect^n$.
 
-The ground field itself may be regarded as a [[discrete category]] which is then clearly a [[monoidal category]]. A $Disc(k)$-module category is a category whose space of objects and space of morphisms are both $k$-modules -- ordinary vector spaces! -- such that all structure morphisms (source, target, identity, composition) respect the $k$-action -- hence are linear maps. This are categories [[internal category|internal to]] [[Vect]]_k which are equivalent to chain complexes of vector spaces concentrated in degree 0 and 1.
+* It uses the notion of an _abelian category_, which is considered by many to no longer be a foundational notion in mathematics. In practice [[derived category|derived categories]] seem more appropriate in applications.
 
-Categories internal to [[Vect]] were explicitly described from the perspective of 2-vector spaces in 
+Because Kapranov-Voevodsky 2-vector spaces categorify the idea of a vector space as a 'state-space' of a system, they are the notion of 2-vector space which feature on the right hand side of extended TQFT's (functors from higher cobordism categories to higher vector spaces).
+
+An example of a Kapranov-Voevodsky 2-vector space is $Rep(G)$, the category of representations of a finite group $G$. 
+
+## Baez-Crans 2-vector spaces
+
+These were explicitly described in:
 
 * John C. Baez and Alissa S. Crans, _Higher-Dimensional Algebra VI: Lie 2-Algebras_ ([tac](http://www.tac.mta.ca/tac/volumes/12/15/12-15abs.html)).
 
-in the context of higher [[Lie theory]]. In fact, (following for instance from an extension of the [[Dold-Kan-theorem]] by Brown and Higgins), [[strict omega-category|strict omega-categories]] internal to [[Vect]] are equivalent to chain complexes in non-negative degree and can be regarded as strict $Disc(k)$-$\infty$-modules. This allows to conceive much of [[homological algebra]] and many of the structures appearing in higher [[Lie theory]] -- for instance the definition of [[L-infinity algebra]]s, as being about $\infty$-vector spaces. Regarding a chain complex as an $\infty$-vector space is useful conceptually for understanding the meaning of some constructions on chain complexes, while of course chain complexes themselves are well suited for direct computation with the $\infty$-vector spaces which they are equivalent to. (See also the remark about different notions of 2-vector spaces further below.)
+A Baez-Crans 2-vector space is defined as a _category internal to [[Vect]]_. They categorify the idea of a vector as a 'direction in space', and crop up when considering the _infinitesimal directions_ of a structure, such as in higher [[Lie theory]]. In fact, (following for instance from an extension of the [[Dold-Kan-theorem]] by Brown and Higgins), [[strict omega-category|strict omega-categories]] internal to [[Vect]] are equivalent to chain complexes in non-negative degree and can be regarded as strict $Disc(k)$-$\infty$-modules. This allows to conceive much of [[homological algebra]] and many of the structures appearing in higher [[Lie theory]] -- for instance the definition of [[L-infinity algebra]]s, as being about $\infty$-vector spaces. Regarding a chain complex as an $\infty$-vector space is useful conceptually for understanding the meaning of some constructions on chain complexes, while of course chain complexes themselves are well suited for direct computation with the $\infty$-vector spaces which they are equivalent to. (See also the remark about different notions of 2-vector spaces further below.)
 
-## Module categories of modules
+# Abstract approach to 2-vector spaces
+
+It is possible to conceive of 2-vector spaces of the Kapranov-Voevodsky and Baez-Crans type from a single unified perspective. Namely, by regarding the ground field itself as a [[discrete category]] we can think of it as a  a [[monoidal category]]. A $Disc(k)$-module category is a category whose space of objects and space of morphisms are both $k$-modules -- ordinary vector spaces! -- such that all structure morphisms (source, target, identity, composition) respect the $k$-action -- hence are linear maps. This are categories [[internal category|internal to]] [[Vect]]_k which are equivalent to chain complexes of vector spaces concentrated in degree 0 and 1.
+
+In other words, a Baez-Crans style 2-vector space can be thought of as a Kapranov-Voevodsky style 2-vector space, if one 'categorifies' the ground field by simply regarding it as a discrete monoidal category. 
 
 For $V$ a general symmetric [[closed monoidal category]] the full bicatgeory of all [[monoidal category module]]s over $V$ is in general hard to get under control, but what is more tractable is the sub-bicategory which may be addressed as the bicategory of $V$-modules _with basis_ namely the category $V-Mod$ in the sense of [[enriched category theory]] with
 
@@ -43,10 +56,7 @@ For $V$ a general symmetric [[closed monoidal category]] the full bicatgeory of 
 
 Notice that all $V$-categories $Mod_C$ of modules over a $V$-category $C$ are naturally [[copower|tensored]] over $V$ and hence are [[monoidal category module]]s over $V$. In analogy to how a vector space $W$ (a $k$-module) is equipped with a basis by finding a set $S$ such that $W \simeq [S,k]$, we can think of a general [[monoidal category module]] $W$ over $V$ to be equipped with a basis by providing an [[equivalence]] $W \simeq [C,V]$, for some $V$-category $V$. In this sense $V-Mod$ is the category of $V$ 2-vector spaces with basis.
 
-All of the examples below are special cases of this one.
-
-
-## $C = Vect_k$
+All of the examples on this page are special cases of this one.
 
 ### $Vect$-enriched categories
 
@@ -66,7 +76,7 @@ and
 
 * U. Schreiber and K. Waldorf, _Connections on non-abelian gerbes and their holonomy_ ([arXiv](http://arxiv.org/abs/0808.1923))
 
-### Kapranov-Voevodsky 2-vector spaces
+### Revisiting Kapranov-Voevodsky 2-vector spaces 
 
 Upon further restriction of $Vect-Mod$ to 2-vector spaces whose basis is a _discrete category_, namely a set $S$ (or the $Vect$-enriched category over $S$ which has just the ground field object sitting over each element of $S$) one arrives at $Vect$-modules of the form
 
@@ -74,13 +84,7 @@ $$
   [S, Vect] = Mod_{k^n} \simeq (Vect)^n
 $$
 
-(where $k^n$ denotes the algebra of diagonal $n\times n$-matrices). 
-
-The categories $Vect^n$ have been introduced by Kapranov and Voevodsky as 2-vector spaces in
-
-* M. Kapranov and V. Voevodsky, _2-categories and Zamolodchikov tetrahedra equations_ in _Algebraic groups and their generalization: quantum and infinite-dimensional methods, University Park, PA (1991) (eds: W. J. Haboush and B. J. Parshall), Proc. Sympos. Pure Math. 56 (Amer. Math. Soc., Providencem RIm 1994), pp. 177-259
-
-and are one of the oldest and most familiar examples of 2-vector spaces.
+(where $k^n$ denotes the algebra of diagonal $n\times n$-matrices). These are precisely Kapranov-Voevodsky style 2-vector spaces.
 
 ### Elgueta 2-vector spaces
 
