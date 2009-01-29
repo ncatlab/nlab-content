@@ -1,6 +1,6 @@
 #Definition#
 
-For $Core(C) \hookrightarrow W \hookrightarrow C$ a [[category with weak equivalences]], and for $F : C \to D$ any functor, the __left derived functor__ $L F$ of $F$ is the _right_ [[Kan extension]] of $F$ along the projection $p : C \to Ho_C$ to the [[homotopy category]]
+For $Core(C) \hookrightarrow W \hookrightarrow C$ a [[category with weak equivalences]], then for $F : C \to D$ any functor, the __left derived functor__ $L F$ of $F$ is the _right_ [[Kan extension]] of $F$ along the projection $p : C \to Ho_C$ to the [[homotopy category]]
 
 $$
  \array{
@@ -29,3 +29,8 @@ $$ C \stackrel{F}{\to} D \to Ho_D $$
 * In practice, derived functors are usually computed using fibrant and cofibrant replacements (see the entries on [[homotopy theory]] and [[model category]]) or, more generally, [[deformation retract|deformation retracts]].
 
 * The connection to the [more elementary notion](http://en.wikipedia.org/wiki/Derived_functor) of derived functor in homological algebra that you may be used to is as follows. A functor $F:A \to B$ between [[abelian category|abelian categories]] induces a functor $Ch(F):Ch(A) \to Ch(B)$ between categories of [[chain complex|chain complexes]], each of which can be equipped with the class of [[quasi-isomorphism|quasi-isomorphisms]] as weak equivalences.  We obtain the usual derived functors of $F$ by taking the derived functor of $Ch(F)$ in the above sense, evaluating it at an object of $A$ regarded as a chain complex concentrated in degree zero, and then taking the homology of the resulting chain complex in $B$.
+
+
+#Examples#
+
+* The derived functor of the [[limit]] functor is the [[homotopy limit]].
