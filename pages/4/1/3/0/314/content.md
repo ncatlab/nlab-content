@@ -13,6 +13,31 @@ Here are some important examples of limits:
 * A limit of a [[cospan]] is a [[pullback]].
 * A limit of a pair (or more) of [[parallel morphisms]] is an [[equalizer]].
 
+#Definition in terms of adjoints of the constant diagram functor#
+
+For $D$ a category and $C$ a small category the [[functor category]] $[D,C]$ is the category of $D$-[[diagram]]s in $C$.  Pullback along the functor $D \to pt$ to the [[terminal object|terminal]] category $pt = \{\bullet\}$ induces a functor
+$$
+  const :  C \to [D,C]
+$$
+which sends every object of $C$ to the diagram functor constant on this object.
+
+The [[left adjoint]]
+
+$$
+  colim_D : [D,C] \to C
+$$
+
+of this functor is, if it exists, the functor
+which sends every diagram to its [[colimit]] and the [[right adjoint]] is, if it exists, the functor
+
+$$
+  lim_D : [D,C] \to C
+$$
+
+which sends every diagram to its [[limit]]. The Hom-isomorphisms of these [[adjunction]]s state precisely the universal property of [[limit]] and [[colimit]] given above.
+
+
+
 #Remarks#
 
 * The meaning of the notion of limit is possibly best appreciated by regarding them in the context of [[representable functor]]s (as explained there).
