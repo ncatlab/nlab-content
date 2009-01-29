@@ -37,6 +37,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * created [[loop space object]] and included at [[span trace]] as an example the statement that the [[loop space object]] is the [[homotopy limit|homotopy trace]] of the identity span on the object
+
   * have a request at the end of [[2-categorical limit]] that we eventually give a formulation in terms of [[homotopy limit]]s.
 
   * replied to [[Eric Forgy|Eric]] at [[generalized universal bundle]]
