@@ -25,6 +25,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-29
 
+* [[David Corfield|David]]:
+
+  * Added a remark after Urs' remark on [[philosophy]].
+
 * [[Tim Porter|Tim]]:
 
   * Continued work on [[crossed module]], [[crossed n-cube]] and related entries.
