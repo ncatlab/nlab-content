@@ -19,7 +19,7 @@ The result (definition due to Graham Ellis and Richard Steiner, reference below)
 
 We denote by $\langle n \rangle$ the set $\{1,2,\ldots, n\}$
 
-A _crossed $n$-cube_, $M$, is a family of  groups,  $\{M_A: A \subseteq  \langle n \rangle\}$,
+A _**crossed $n$-cube**, $M$, is a family of  groups,  $\{M_A: A \subseteq  \langle n \rangle\}$,
 together with homomorphisms,  $\mu_i :M_A \rightarrow  M_{A-\{i\}}$, for $i \in  \langle n \rangle
 , A \subseteq  \langle n \rangle$, and functions, $h:M_{A} \times  M_{B} \rightarrow
 M_{A\cup B}$, for $A, B \subseteq  \langle n \rangle$, such that if $^{a}b$ denotes $h(a,b)b$
