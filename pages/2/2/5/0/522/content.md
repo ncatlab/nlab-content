@@ -48,6 +48,13 @@ $$
   G \to G//G \to \mathbf{B}G
   \,.
 $$
+
++--{.query}
+
+What is $E$ everywhere above? - [[Eric Forgy|Eric]]
+
+=--
+
 This is the universal $G$-bundle in its groupoid incarnation. It is a theorem by Segal from the 1960s that indeed this maps, under [[geometric realization]] to the familiar universal $G$-bundle in $Top$. Moreover, it can be seen that every $G$-principal bundle $P \to X$ in the ordinary sense is the pullback of $\mathbf{E} G$ in the following sense:
 
 the $G$-bundle $P \to X$ is classified by a nonabelian $G$-valued 1-cocycle (the transition function of any of its local trivializations), which is an [[anafunctor]]
