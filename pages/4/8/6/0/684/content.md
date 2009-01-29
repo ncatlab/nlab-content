@@ -1,7 +1,7 @@
 #Definition#
 
 In a category with [[interval object]] the 
-free _loop space object_ is the part of the [[path object]] $B^I = [I,B]$ which consists of closed paths, namely the [[pullback]]
+free **loop space object** is the part of the [[path object]] $B^I = [I,B]$ which consists of closed paths, namely the [[pullback]]
 $$
   \array{
     \Lambda B &\to& [I,B]
