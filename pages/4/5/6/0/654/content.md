@@ -1,6 +1,18 @@
 #Idea#
 
-A concept of a _2-vector space_ is supposed to be a [[vertical categorification|categorification]] of the concept of a vector space. As usual, there are various different concepts of 2-vector spaces, all of them useful and relevant in different contexts.
+The concept of a _2-vector space_ is supposed to be a [[vertical categorification|categorification]] of the concept of a vector space. As usual in the game of `categorification', this requires us to think deeply about what an ordinary vector space really is, and then attempt to categorify that idea. 
+
+## What is a vector space?
+
+There are at least two distinct conceptual roles which vectors and vector spaces play in mathematics:
+
+* A vector is a _column of numbers_. This is the way vector spaces appear in quantum mechanics, elementary linear algebra, etc. 
+
+* A vector is a _direction in space_. Vector spaces of this kind are often the infinitesimal data of some global structure, such as tangent spaces to manifolds, Lie algebras of Lie groups, and so on.
+
+These two different ideas of a `vector space' lead to two diferent ideas of a `2-vector space', broadly speaking those of _Kapranov and Voevodsky_ and those of _Baez and Crans_. 
+
+As usual, there are various different concepts of 2-vector spaces, all of them useful and relevant in different contexts.
 
 Most definitions of 2-vector spaces used in the literature are special cases of the idea that in analogy to how a vector space can be regarded as a [[module]] over the ground field $k$, a 2-vector space $W$ should be a [[category]] which is a [[monoidal category module]] with some nice properties (such as being an abelian category) over a suitable [[monoidal category]] $V$ which plays the role of the categorified ground field. There is then an obvious [[bicategory]] of such module categories.
 
