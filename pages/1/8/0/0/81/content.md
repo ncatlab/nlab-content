@@ -6,6 +6,7 @@
 
 _Which mathematical structures are_ natural _in physics_?
 
+
 ## Search for a natural language ##
 
 The history of theoretical physics is not the least the story of a search process for suitably notions: while mathematical theories -- such as symplectic geometry, group theory, differential geometry, etc -- are a priori "just languages" -- and each of these languages was upon its introduction to theoretical physics originally met with some hostility (just compare the [Gruppenpest](http://books.google.de/books?id=8QxvNuqxSYIC&pg=RA5-PA209&lpg=RA5-PA209&dq=Pauli+Gruppenpest&source=bl&ots=wG-UJI8nHV&sig=pFyZhKKrut7cB4QGF4bpdQc4ehE&hl=de&sa=X&oi=book_result&resnum=1&ct=result)  (plague of [[group theory]]) complaint by nobody less than  [Wolfgang Pauli](http://en.wikipedia.org/wiki/Wolfgang_Pauli)) -- we do know in retrospect that the modern insights and theorems of, respectively, classical mechanics, [[quantum field theory|quantum mechanics]] and general relativity would have been literally unthinkable without usage of these languages.
@@ -22,9 +23,24 @@ And indeed: quite a few fundamental insights in [[category theory]] originated f
 
 ## In classical mechanics
 
-...
+Lawvere was led from the plain study of differential equations in classical continuum mechanics, via the old question of Newton and Leibniz concerning the indispensable notion of the _infinitesimal_, to an impressively powerful categorical concept formation which today is well established as [[sheaf and topos theory|topos theory]]. That Lawevere's clear-sighted new viepoint on classical mechanics is only beginning to be appreciated among a few mathematical physicists is less a sign for a justification of the maybe expected allegation of a _Topospest_ than a sign for the distance which can be traversed in the space of categorically formulated physics which is to be explored now: Lawvere goes as far as not only identifying categorical structures in physical phenomena, but pointing out that many fundamental ontological notions do find a useful formalization this way. Such as for instance the duality between [[space and quantity]] -- a fundamental theme in the development of theoretical physics, back then for the development of general relativity and quantum mechanics just as well as today for [[string theory]] and its generalized geometries -- which Lawvere identifies with the elementary categorical [[duality]] between [[pres-sheaf|sheaves]] and co-sheaves, thereby laying the conceptual groundwork for currently active research on generalized -- to a large extent quantum mechanically motivated -- spaces, for instance in noncommutative and derived geometry.
+
 
 ## In quantum mechanics
+
+Still, the Lawvere-ification of the proper center of modern theoretical physics is still to be done: that of [[quantum field theory]]. Established for decades, it is just too easy for the practicing physicist to forget that this current culmination point of our understanding of fundamental physical reality is to a large extent still nothing but a mystery that is waiting to be solved. As in Kepler's times with the description of the orbits of planets by a handful of ad-hoc postulated rules there is a wealth of cooking recipes which describe many aspects of [[quantum field theory]], but the discovery of the analog of Newton's explanation of [Kepler's laws](http://en.wikipedia.org/wiki/Kepler's_laws_of_planetary_motion) as a consequence of a closed theory behind it is still amiis in [[quantum field theory]].
+
+One good approximation to this far goal is certainly the system of [[AQFT|algebraic quantum field theory]] as developed by Haag and Kastler: this axiomatization builds in a remarkably crucial way on the categorical notion of a [[psesheaf|co-presheaf]] (the net of _local observables_ of a [[quantum field theory]]). More remarkable is maybe only that this fact is hardly mentioned in much of the existing literature:
+
+Even thought its full range for our conceptual understanding of quantum field theory has still barely unraveled, it was early on recognized and followed by John Roberts. Higher [[sheaf|sheaves]] and co-sheaves form the ground stone of a generalized [[homotopical cohomology|cohomology theory]] which only in recent times is being studied more intensively under the headline of [[infinity-stack]]s, which in turn are finding their application in quantum field theory (see for [[geometric function theory]]). 
+
+John Roberts already saw in the 1960s from his quantum field theoretic considerations the necessity of [[higher category theory]]. Indeed, Ross Street's notion of [[strict omega-category]] established shortly afterwards builds on Roberts' early work. Not only that, but Roberts also saw that a general theory of cohomology -- which he saw as the home of certain quantum field theoretic invariants -- was to be described in terms of (co)sheaves with coefficients in such higher categories, so in terms of  [[infinity-stack|infinity pre-stacks]] as one would say today.
+
+This remarkable amount of fundamental category theoretic concept formation which has been extracted out of theoretical physics in particular by Lawvere and Roberts  should probably make both theoretical physicists as well as mathemticians and philosophers interested in natural sciences think.
+
+In parts this is already the case. For instancew the second existing proposal for an axiomatization of [[quantum field theory]] -- [[FQFT|Atiyah and Segal's definition]] of a [[quantum field theory]] as a functorial representation of [[cobordism]] categories -- this, too, an fundamental concept which is hardly thinkable without category theoretic language -- has led to remarkable activity. A couple of comparatively simple special cases of quantum field theories on topologically nontrivial spaces have been made accesible to a rigorous mathematical classification: besides topological quantum field theories for exmaple rational conformal field theories as well as cohomological field theories. Only recently did Lurie and Hopkins, building on Joyal's  notion of [[(infinity,1)-category]], formalize and prove the by now ten year old [[generalized tangle hypothesis|Baez-Dolan hypothesis]] on extended topological quantum field theory in the language of [[(infinity,n)-category|(infinity,n)-categories]]. 
+
+Also on the closely related area of the theory of open topological strings and string-theoretical _mirror symmetry_ has categorical languege -- not  the least through work of Kontsevich and collaborators on generalized geometries -- has categorical language become indispensable. In these areas of mathematica-theoretical physics categroy theoretic language is so well established that its use is not much noticed anymore among practitioners. This is the clearest sign of a natural language.
 
 
 # Between mathematics, physics and philosophy
@@ -37,12 +53,11 @@ And indeed: quite a few fundamental insights in [[category theory]] originated f
 
 ##Putting the puzzle pieces together
 
-
+...
 
 
 #References#
 
-Just an insanely incomplete list of links for the moment, more at [[quantum field theory]]:
 
 * John Baez and Aaron Lauda, _A prehistory of $n$-categorical physics_ ([pdf](http://math.ucr.edu/home/baez/history.pdf))
 
@@ -53,3 +68,10 @@ Just an insanely incomplete list of links for the moment, more at [[quantum fiel
 * Daniel S. Freed, _Higher Algebraic Structures and Quantization_ ([arXiv](http://arxiv.org/abs/hep-th/9212115))
 
 But for one the most important points there is to date no good comprehensive survey: lots of well-known structures in physics are _secretly_ higher categorical structures. See [[BV theory]].
+
+* For more references see [[quantum field theory]].
+
+
+The above text is in parts a translation of 
+
+* U. Schreiber, [[mathphysphil.pdf:file]]
