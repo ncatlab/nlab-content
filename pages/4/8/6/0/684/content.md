@@ -55,9 +55,17 @@ $$
 
 #Examples#
 
-* Let $C = Groupd$ with the standard interval object $I = \{a \stackrel{\simeq}{\to} b\}$ and let $\mathbf{B}G$ be the one-object groupoid corresponding to a group $G$, then
+* Let $C =$ [[Top]] with the standard [[interval object]]. Then for $B= X$ a topological space $\Lambda B = \Lambda X$ is the ordinary free loop space of $X$.
+
+* Let $C = $ [[Grpd]] with the standard interval object $I = \{a \stackrel{\simeq}{\to} b\}$ and let $\mathbf{B}G$ be the one-object groupoid corresponding to a group $G$, then
 $$
   \Lambda \mathbf{B}G = G//_{Ad}G
 $$
-is the [[action groupoid]] of $G$ acting on itself by its adjoint action.
-
+is the [[action groupoid]] of $G$ acting on itself by its adjoint action. Notice the example at [[co-span co-trace]] which says that the cotrace on $I$ is $cotr(I) = \mathbf{B}\mathbb{Z}$, and indeed
+$$
+  \Lambda \mathbf{B}G =  [\mathbf{B}\mathbb{Z}, \mathbf{B}G]  
+  \,.
+$$
+The role of this $\Lambda \mathbf{B}G$ as a loop object is amplified in particular in
+   * Simon Willerton, _The twisted Drinfeld double of a finite group via gerbes and finite groupoids_ ([arXiv](http://arxiv.org/abs/math.QA/0503266))
+   * Bruce Bartlett, _On unitary 2-representations of finite groups and topological quantum field theory_ ([arXiv](http://arxiv.org/abs/0901.3975))
