@@ -30,12 +30,20 @@ These comments should go in _reverse_ chronological order, so that the latest ar
   * Finally decided I need to get over my Australian training and make weak things the default, at least when writing on the nLab.  So I split up [[2-categorical limit]] into [[2-limit]] for the weak notion and [[strict 2-limit]] for the strict one.  The exposition here could probably use help, and I have a question about terminology for [[strict 2-limit]]s.
 
   * Redirected [[Gray category]] to the already-existing [[Gray-category]].  Should we have an official policy on the use or non-use of hyphens?  (-:
++--{.query}
+[[Urs Schreiber|Urs]]: darn, that was my fault again. saw a gray link to [[Gray category]] and thought that was too much of Gray. Thanks for fixing it.
+=--
+
 
   * I haven't done much here recently because I've been working in my [[michaelshulman:HomePage|own web]] on a project developing [[michaelshulman:2-categorical logic|2-categorical logic]].
 
 * [[Eric Forgy|Eric]]:
 
   * changed yet [[generalized universal bundle|another definition]] from _italic_ to **bold**. Recall that we agreed to follow that convention.
++--{.query}
+[[Urs Schreiber|Urs]]: did we? I'm fine with that, but last thing I remember is that [[John Baez|John]] said he rather wanted it _italic_. Maybe I was dreaming.
+=--
+
 
 * [[David Corfield|David]]:
 
