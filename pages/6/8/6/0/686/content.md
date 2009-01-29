@@ -65,19 +65,12 @@ Here are some more important examples of 2-categorical limits, all of which come
 * The **[[power]]** of an object $A$ by a category $C$ is a universal object $A^C$ equipped with a functor $C\to K(A^C,A)$.
 
 
-# 2-limits and homotopy limits #
-
-+--{.query}
-
-[[Urs Schreiber|Urs]]: I'd enjoy the (re)formulation in terms of [[homotopy limit]]s using the [[folk model structure]] on $2Cat$. I'll try a bit myself to write something about that here eventually, but if any experts can speed ahead and provide some comments here, it would be appreciated.
-
-=--
 
 
 # References #
 
-Street, "Limits indexed by category-valued 2-functors"
+* Street, "Limits indexed by category-valued 2-functors"
 
-Kelly, "Elementary observations on 2-categorical limits"
+* Kelly, "Elementary observations on 2-categorical limits"
 
-Lack, [A 2-categories companion](http://arxiv.org/abs/math.CT/0702535)
+* Lack, [A 2-categories companion](http://arxiv.org/abs/math.CT/0702535)
