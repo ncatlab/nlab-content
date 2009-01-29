@@ -63,7 +63,7 @@ $$
   \,.
 $$
 
-(For instance $\hat X$ could be the &Caron;ech groupoid of a [[cover]] of $X$.)
+(For instance $\hat X$ could be the &#268;ech groupoid of a [[cover]] of $X$.)
 
 The universal groupoid bundle $\mathbf{E}G \to \mathbf{B}G$ may now be pulled back along this anafunctor to yield the groupoid bundle $g^* \mathbf{E}G \to X$ given by the total left vertical morphism in 
 
