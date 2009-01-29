@@ -42,6 +42,16 @@ These comments should go in _reverse_ chronological order, so that the latest ar
   * changed yet [[generalized universal bundle|another definition]] from _italic_ to **bold**. Recall that we agreed to follow that convention.
 +--{.query}
 [[Urs Schreiber|Urs]]: did we? I'm fine with that, but last thing I remember is that [[John Baez|John]] said he rather wanted it _italic_. Maybe I was dreaming.
+
+Here are the significant lines from the [[General Discussion]]:
+
+{: response}
+_[[John Baez|John]] says_: In this case I'm more interested in consistency than enforcing my will upon the world, despite my joke about pistols at dawn.  **Bold** jumps out you more than _italics_, I think.  A theorem environment would let us make (and change) this decision globally, but we won't want all our definitions to be stated as part of a formal **Definition** environment --- sometimes it's nice to make a definition as part of a paragraph of ordinary text, and in my own papers I always put the defined term in **boldface**, to 1) make the definitions easy to spot, and 2) make it clear that I'm defining something instead of stating a fact about something (I hate it when someone says "Pr&#252;fer rings are hereditary and Noetherian" and I can't tell if this is supposed to be the _definition_, or merely a cute _fact_ about Pr&#252;fer rings).
+
+{: commenttoby}
+I also prefer boldface. I\'ve been doing that unless a page already uses italics. &#8212;[[Toby Bartels|Toby]]
+
+
 =--
 
 
