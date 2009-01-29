@@ -102,3 +102,12 @@ Here are some more important examples of 2-categorical limits, all of which come
 ## Finite Limits ##
 
 A 2-categorical limit is called **finite** if its diagram shape and its [[weighted limit|weight]] are both [[finitely presentable object|finitely presentable]].  Pullbacks, comma objects, inserters, equifiers, and so on are all finite limits, as are powers by any finitely presented category.  All finite limits can be constructed from pullbacks, a terminal object, and powers with the arrow category $(\cdot\to\cdot)$.
+
+
+#In terms of homotopy limits (?)#
+
++--{.query}
+
+[[Urs Schreiber|Urs]]: I'd enjoy the (re)formulation in terms of [[homotopy limit]]s using the [[folk model structure]] on $2Cat$. I'll try a bit myself to write something about that here eventually, but if any experts can speed ahead and provide some comments here, it would be appreciated.
+
+=--
