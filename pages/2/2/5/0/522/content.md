@@ -4,7 +4,7 @@ $$
   p : \mathbf{E}_{pt} B \to B
 $$
 
-which is the total composite vertical morphism of the pullback diagram
+which is the total composite vertical morphism of the [[pullback]] diagram
 
 $$
   \array{
@@ -24,6 +24,9 @@ $$
   }
   \,.
 $$
+
+So the object $\mathbf{E}_{pt} := [I,B]\times_{B} pt $ is defined to be the [[pullback]] of the diagram
+$ [I,B] \stackrel{d_1}{\to} B \stackrel{pt_B}{\leftarrow} pt$ and the morphism $\mathbf{E}_{pt}B \to B$ is the composite of the left vertical morphism in the above diagram which comes from the definition of [[pullback]] and $d_0$.
 
 The fiber of the generalized universal bundle is the _loop monoid_ $\Omega_{pt} B$:
 
@@ -52,6 +55,8 @@ $$
 +--{.query}
 
 What is $E$ everywhere above? - [[Eric Forgy|Eric]]
+
+[[Urs Schreiber|Urs]]: I now added another sentence above saying this more explicitly: $\mathbf{E}$ itself is not defined, but for any object $B$ equipped with a morphism (a point) $pt \stackrel{pt}{\to} B$ the object the symbol sequence $\mathbf{E}_{pt}B$ denotes the above [[pullback]].
 
 =--
 
