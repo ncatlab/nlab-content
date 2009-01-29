@@ -25,6 +25,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-01-29
 
+* [[Eric Forgy|Eric]]:
+
+  * changed yet [[generalized universal bundle|another definition]] from _italic_ to **bold**. Recall that we agreed to follow that convention.
+
 * [[David Corfield|David]]:
 
   * Added a remark after Urs' remark on [[philosophy]].
