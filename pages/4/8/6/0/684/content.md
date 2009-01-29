@@ -13,7 +13,7 @@ $$
   \,.
 $$
 
-This is the same as the image of the [[co-span co-trace]] $cotr(I)$  of the interval (which is the interval object closed to a loop!,  see the examples at [[co-span co-trace]]) object on $B$:
+This is the same as the image of the [[co-span co-trace]] $cotr(I)$  of the interval object (which is the interval object closed to a loop!,  see the examples at [[co-span co-trace]]) in $B$:
 
 $$
   \left[
@@ -31,7 +31,9 @@ $$
   \;\;\;\;,\;\;\;\;
   B
   \right]
+  \;,\;\;\;\;
   \simeq
+  \;,\;\;\;\;
   \array{
      && \Lambda B
      \\
