@@ -11,6 +11,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 +--{.query}
 
+
+
 [[Urs Schreiber|Urs]]: Here is an **administrative announcement**:
 
 1. $n$Lab regulars may wish to create their private webs, such as those listed [here](http://ncatlab.org/web_list). If you want one, please contact me by email.
@@ -22,6 +24,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 # 2009-01-29
+
+* [[Tim Porter|Tim]]:
+
+  * Continued work on [[crossed module]], [[crossed n-cube]] and related entries.
+
+  * Linked the [[Dold-Kan correspondence]] to the entry on the [[Moore complex]] where there was already some discussion of this topic.
 
 * [[Urs Schreiber|Urs]]
 
