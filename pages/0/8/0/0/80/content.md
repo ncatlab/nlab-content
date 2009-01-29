@@ -14,6 +14,10 @@ Philosophical interest in <i>n</i>-categories may be characterised as belonging 
 
 * There ought to be a categorified logic, or 2-logic. There are some suggestions that existing work on modal logic is relevant.
 
+* Higher category theory may provide the right tools to take physics forward. [A Prehistory of n-Categorical Physics](http://math.ucr.edu/home/baez/history.pdf)
+
+* More speculatively, category theory may prove useful in biology. [Blog post](http://golem.ph.utexas.edu/category/2007/11/category_theory_and_biology.html)
+
 ##Enquiry##
 
 "Mathematical wisdom, if not forgotten, lives as an invariant of all its (re)presentations in a permanently self&#8211;renewing discourse." (Yuri Manin)
