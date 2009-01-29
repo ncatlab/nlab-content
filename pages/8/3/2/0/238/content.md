@@ -51,6 +51,7 @@ _[[John Baez|John]] says_: In this case I'm more interested in consistency than 
 {: commenttoby}
 I also prefer boldface. I\'ve been doing that unless a page already uses italics. &#8212;[[Toby Bartels|Toby]]
 
+[[Urs Schreiber|Urs]]: all right, bold definitions then
 
 =--
 
@@ -72,6 +73,8 @@ I also prefer boldface. I\'ve been doing that unless a page already uses italics
   * created [[loop space object]] and included at [[span trace]] as an example the statement that the [[loop space object]] is the [[homotopy limit|homotopy trace]] of the identity span on the object
 
   * have a request at the end of [[2-categorical limit]] that we eventually give a formulation in terms of [[homotopy limit]]s.
+
+  * added the defintiion in terms of adjoints to the constant diagram functor to [[limit]]
 
   * replied to [[Eric Forgy|Eric]] at [[generalized universal bundle]]
 
