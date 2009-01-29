@@ -37,6 +37,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * have a request at the end of [[2-categorical limit]] that we eventually give a formulation in terms of [[homotopy limit]]s.
+
+  * replied to [[Eric Forgy|Eric]] at [[generalized universal bundle]]
+
   * created [[Dold-Kan correspondence]] and also [[Dold-Kan theorem]] as a redirect
 
   * created [[simplicial presheaf]], [[SSet]]
