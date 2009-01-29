@@ -32,7 +32,7 @@ Considerable effort has gone into finding 'good' algebraic models for (connected
 
 * The method initiated by J.H.C. Whitehead was to approximate homotopy theory by models which analysed particular types of behaviour. One of his most widely followed models is that of stable homotopy theory. The opposite method was to find algebraic models of restricted classes of spaces, such as 2-types, or with cells in a small range of dimensions.  H.-J. Baues has followed up many of the latter ideas. 
 
-It is sensible to regard [[crossed complex]]es as giving a _linear_ model of homotopy types. These crossed complexes are equivalent to strict  globular $\infty$-groupoids. Although these are restricted model of homotopy types, they are convenient in many aspects, because of the many analogies with the familiar chain complexes. 
+It is sensible to regard [[crossed complex|crossed complexes]] as giving a _linear_ model of homotopy types. These crossed complexes are equivalent to strict  globular $\infty$-groupoids. Although these are restricted model of homotopy types, they are convenient in many aspects, because of the many analogies with the familiar chain complexes. 
 
 Crossed complexes capture operations of the fundamental groupoid, but not quadratic information such as Whitehead products (for dimensions >1). However one can define $n$-fold crossed complexes inductively as crossed complexes internal to $(n-1)$-fold crossed complexes. So one can give the 
 
