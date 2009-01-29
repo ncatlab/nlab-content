@@ -25,6 +25,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * created [[Dold-Kan correspondence]] and also [[Dold-Kan theorem]] as a redirect
+
+  * created [[simplicial presheaf]], [[SSet]]
+
   * have a remark/question at one point in [[David Corfield|David]]'s text on [[philosophy]]
 
   * started giving a discussion of the point of (higher) category theory in [[physics]]
