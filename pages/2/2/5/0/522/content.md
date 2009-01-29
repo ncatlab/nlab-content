@@ -137,7 +137,7 @@ One can take $B$ to be something very different from the familiar classifying gr
 
 It was David Roberts in the blog comment
 
-* David Robers, [comment in: 101 things to do with a 2-classifier](http://golem.ph.utexas.edu/category/2008/01/101_things_to_do_with_a_2class.html#c014559)
+* David Roberts, [comment in: 101 things to do with a 2-classifier](http://golem.ph.utexas.edu/category/2008/01/101_things_to_do_with_a_2class.html#c014559)
 
 who first pointed out that these (higher) subobject classifiers are just generalized universal bundles in the above sense.
 
