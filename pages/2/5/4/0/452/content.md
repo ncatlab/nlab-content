@@ -4,7 +4,7 @@ A _crossed module_ (of groups) is a (nonabelian) chain-complex incarnation of a 
 
 #Definition#
 
-A _crossed module_ is
+A **crossed module** is
 
 * a pair of [[group]]s $G_2, G_1$,
 
