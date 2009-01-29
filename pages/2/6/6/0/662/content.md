@@ -1,3 +1,3 @@
-A _Gray category_ is a [[enriched category|category enriched over]] the [[monoidal category]] $(2 Cat, \otimes_{Gray})$ of [[strict 2-category|strict 2-categories]] equipped with the [[Crans-Gray tensor product|Gray tensor product]]. 
+See [[Gray-category]].
 
-This means that a Gray category is a [[n-category|3-category]] in which everything is strict except possibly the [[exchange law]]. Every general weak 3-category ([[tricategory]]) is equivalent to a Gray category. Hence Gray categories are one version of [[semi-strict infinity-category|semi-strict]] higher categories.
+category: redirect
