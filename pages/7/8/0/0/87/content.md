@@ -46,6 +46,7 @@ In [HGT I][] the following additional axioms were assumed on the class of covers
 * every cover is a [[regular epimorphism]], and
 * every equivalence relation involving a cover has a quotient, which is a cover.
 
+(These are to discuss descent later in the paper. -David (learning nuts and bolts here))
 
 #Homotopy-theoretic interpretation#
 
@@ -80,6 +81,7 @@ _Mathieu says:_ I don't see that (or something like that) on that page, but satu
 
 _Urs says:_ I haven't checked the details. But he is looking at derived homs of crossed complexes. By general nonsense these derived hom should be given by homs out of cofibrant replacements. This is another way of talking about the anafunctor picture. Somebody should check the details.
 
+_David says:_ This is something I've been thinking about, but not using saturated anafunctors. I'll factor that in, see if it improves things.
 =--
 
 
