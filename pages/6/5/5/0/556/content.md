@@ -18,9 +18,22 @@ So when we are in a 2-category (strict or weak), I think "limit" should mean "2-
 
 # Classification #
 
-## Limits in a 2-category ##
+## Limits in a weak 2-category ##
 
-In a [[strict 2-category]] $K$, there are several different types of limits.
+In a weak 2-category (of which the commonest model is a [[bicategory]]), it makes little sense to do anything any stricter than up to 2-cell isomorphism and equivalence of categories.  Thus, in this case,
+
+* A **bicategorical limit**, formerly called a _bilimit_ and often called just a _limit_ if it is clear we are working in a weak 2-category, has cones that commute up to specified isomorphism, and has a universal property expressed by an equivalence of categories.
+
+* A **lax bicategorical limit**, or _lax bilimit_ or just _lax limit_, has cones that commute up to a transformation, and a universal property expressed by an equivalence.
+
+If we know that we are working in a weak 2-category, then no other sort of limit makes sense, so we can just use the word "limit" for a bicategorical limit; a prefix is only necessary to distinguish it from strict limits in a strict 2-category or in a 1-category.
+
+_NB: The term "weak limit" may seem attractive, but unfortunately it has a different meaning.  Therefore, although on the nLab we usually say "weak 2-category" instead of "bicategory" (with "weak" only added for emphasis if necessary), on this page and elsewhere we use "bicategorical" for the up-to-equivalence type of limit._
+
+
+## Limits in a strict 2-category ##
+
+Of course, every [[strict 2-category]] can be regarded as a weak one, so we can talk about bicategorical limits and lax bicategorical limits, and usually these are the ones we are "really" interested in.  However, we can also talk about stricter types of limits, of which there are several different ones.
 
 * A **strict limit**, or _2-limit_ is just a [[Cat]]-enriched (weighted) limit.  This means that its cones must commute strictly (although weakness can be built in via the weighting, see below), and its universal property is expressed by an isomorphism of categories.
 
@@ -28,21 +41,10 @@ In a [[strict 2-category]] $K$, there are several different types of limits.
 
 * A **lax limit** is a limit whose cones commute only up to a coherent transformation in one direction, but again whose universal property is expressed by an isomorphism.  Likewise we have **oplax limits** where the transformation goes in the other direction.  Lax and oplax limits can also be rephrased as strict limits for a different weight.
 
-## Limits in a bicategory ##
-
-In a [[bicategory]] $K$, it makes little sense to do anything any stricter than up to 2-cell isomorphism and equivalence of categories.  Thus, in this case,
-
-* A **bicategorical limit**, formerly called a _bilimit_ and often called just a _limit_ if it is clear we are working in a bicategory, has cones that commute up to specified isomorphism, and has a universal property expressed by an equivalence of categories.
-
-* A **lax bicategorical limit**, or _lax bilimit_ or just _lax limit_, has cones that commute up to a transformation, and a universal property expressed by an equivalence.
-
-If we know that we are working in a bicategory, then no other sort of limit makes sense, so we can just use the word "limit" for a bicategorical limit; a prefix is only necessary to distinguish it from limits in a strict 2-category or in a 1-category.  Likewise, in other types of weak 2-categories, such as [[opetopic 2-category|opetopic ones]], there is no meaningful strict notion of limit, so "limit" just means the up-to-equivalence concept.
-
-_NB: The term "weak limit" may seem attractive, but unfortunately it has a different meaning._
 
 ## Comparison ##
 
-Since any strict 2-category can be regarded as a bicategory with trivial constraints, bicategorical limits can also be defined in a strict 2-category.  Then we have:
+As remarked above, since any strict 2-category can be regarded as a weak 2-category, bicategorical limits can also be defined in a strict 2-category.  Then we have:
 
 * Since any isomorphism of categories is _a fortiori_ an equivalence of categories, any pseudo limit is also a bicategorical limit.  Likewise, any (op)lax limit is also an (op)lax bicategorical limit.
 
@@ -50,7 +52,7 @@ Since any strict 2-category can be regarded as a bicategory with trivial constra
 
 * However, not every bicategorical limit in a strict 2-category is a pseudo limit, even when pseudo limits exist.  Any object equivalent to a bicategorical limit is also a bicategorical limit; thus any object that is equivalent, but not isomorphic, to a pseudo limit, is a bicategorical limit but not a pseudo limit.
 
-* Bicategorical limits can also exist even if pseudo limits fail to exist.  For instance, the 2-category of monoidal categories, (strong) monoidal functors, and monoidal transformations has a bicategorical initial object, but it is not a strict 2-limit of any sort.
+* Bicategorical limits can also exist even if pseudo limits fail to exist.  For instance, the strict 2-category of monoidal categories, (strong) monoidal functors, and monoidal transformations has a bicategorical initial object, but it is not a strict 2-limit of any sort.
 
 # Examples #
 
@@ -58,21 +60,44 @@ Since any strict 2-category can be regarded as a bicategory with trivial constra
 
 * Any ordinary limit can also be made into a bicategorical limit by making everything happen up to isomorphism.  Thus, a bicategorical pullback is a square that commutes up to specified isomorphism, with a universal property expressed by an equivalence of categories.
 
-* The **comma object** $(f/g)$ of a cospan $A \overset{f}{\to} C \overset{g}{\leftarrow} B$ is a generalization of the [[comma category]] in $Cat$; it is a universal object equipped with projections $p:(f/g)\to A$ and $q:(f/g)\to B$ and a 2-cell $f p \to g q$.  This can be interpreted either strictly or weakly.  Since it is non-evil, the strict case is a special case of the bicategorical one.
+As mentioned above, adding **pseudo** in front of an ordinary limit has a precise meaning: it means that all the triangles in the limit cone now commute up to specified isomorphism, and the universal property is still expressed by an isomorphism of categories.  In particular, there is still a specified projection to _each_ object in the diagram.  For example:
 
-* An **iso-comma object** is like a comma object, except that the 2-cell $f p \to g q$ is required to be invertible.  Similar but distinct (in the strict case) is a **pseudo-pullback**, which is an object $P$ equipped with projections $p:P\to A$, $q:P\to B$, and $r:P\to C$ with 2-cell isomorphisms $f p \cong r$ and $g q \cong r$.  Both are non-evil, and both are a bicategorical pullback.  Hence, if both exist, they are equivalent (though not isomorphic).
+* The **pseudo-pullback** of a cospan $A \overset{f}{\to} C \overset{g}{\leftarrow} B$ is a universal object $P$ equipped with projections $p:P\to A$, $q:P\to B$, and $r:P\to C$ and 2-cell isomorphisms $f p \cong r$ and $g q \cong r$.
 
-* The **inserter** of a pair of parallel arrows $f,g:A \;\rightrightarrows\; B$ is a universal object $I$ equipped with a map $i:I\to A$ and a 2-cell $f i \to g i$.  It has strict and weak versions, and is non-evil.
+* The **pseudo-equalizer** of a pair of arrows $f,g:A\rightrightarrows B$ is a universal object $E$ equipped with morphisms $h:E\to A$ and $k:E\to B$ and 2-cell isomorphisms $f h \cong k$ and $g h \cong k$.
 
-* Unsurprisingly, an **iso-inserter** is like an inserter except that the 2-cell is an isomorphism.  It is distinct from the **pseudo-equalizer** which comes with maps $i:I\to A$ and $j:I\to B$ and isomorphisms $f i \cong j$ and $g i \cong j$.  Both are non-evil and represent a bicategorical limit which is sometimes called a "biequalizer" or "pseudoequalizer," but which [[Mike Shulman|I]] prefer to also call a "(bicategorical) iso-inserter," since it behaves noticeably differently from an equalizer in a 1-category.
+These are to be distinguished from:
 
-* The **equifier** of a pair of parallel 2-cells $\alpha,\beta: f\to g: A\to B$ is a universal object $E$ equipped with a map $e:E\to A$ such that $\alpha e = \beta e$.  It is non-evil in its strict form.
+* The **(strict) iso-comma object** of $A \overset{f}{\to} C \overset{g}{\leftarrow} B$ is a universal object $P$ equipped with projections $p:P\to A$ and $q:P\to B$ and a 2-cell isomorphism $f p \cong g q$.
 
-* The **inverter** of a 2-cell $\alpha:f\to g:A\to B$ is a universal object $V$ with a map $v:V\to A$ such that $\alpha v$ is invertible. It is non-evil in its strict form.
+* The **(strict) iso-inserter** of $f,g:A\rightrightarrows B$ is a universal object $E$ equipped with a morphism $e:E\to A$ and a 2-cell isomorphism $f e \cong g e$.
 
-* The **[[power]]** of an object $A$ by a category $C$ is a universal object $A^C$ equipped with a functor $C\to K(A^C,A)$.  It is non-evil in its strict form.
+The pseudo-pullback, pseudo-equalizer, iso-comma object, and iso-inserter are all strict Cat-weighted limits; their universal property is expressed by an isomorphism of categories.  Usually the pseudo-pullback and iso-comma object are not isomorphic, and likewise the pseudo-equalizer and iso-inserter are not isomorphic.  However, both the pseudo-pullback and iso-comma object are non-evil and represent a *bicategorical* pullback; therefore they are _equivalent_ when they both exist.  Likewise, the pseudo-equalizer and iso-inserter both represent a "bicategorical equalizer," and are equivalent when they both exist.
+
+If one is mostly interested in bicategorical limits, then there is little harm in using "pseudo-pullback" to mean "iso-comma object" or "bicategorical pullback," as is common in the literature.  However, with _lax_ limits the situation is more serious.  Speaking precisely, in the **lax** version of a limit, the triangles in the limiting cone are made to commute up to a specified transformation in one direction, but there are still specified projections to _each_ object in the diagram.  For example:
+
+* The **lax limit of an arrow** $f:A\to B$ is a universal object $L$ equipped with projections $p:L\to A$ and $q:L\to B$ and a 2-cell $f p \to q$.
+
+* The **lax pullback** of a cospan $A \overset{f}{\to} C \overset{g}{\leftarrow} B$ is a universal object $P$ equipped with projections $p:P\to A$, $q:P\to B$, $r:P\to C$, and 2-cells $f p \to r$ and $g q \to r$.
+
+In particular, the lax pullback is quite different from the following more common limit.
+
+* The **comma object** of a cospan $A \overset{f}{\to} C \overset{g}{\leftarrow} B$ is a generalization of the [[comma category]] in $Cat$; it is a universal object $(f/g)$ equipped with projections $p:(f/g)\to A$ and $q:(f/g)\to B$ and a 2-cell $f p \to g q$.
+
+Lax limits, including lax pullbacks, and comma objects both come in strict versions and bicategorical versions, and as they are non-evil, their strict cases are a special case of their bicategorical ones.  However, even in their bicategorical forms, the lax pullback and comma object are distinct.  Usually the comma object is the more important one, but calling it a "lax pullback" should be avoided.  For example, there are some (weak) 2-categories known to admit all lax (or oplax) limits, but this does not, in general, imply that they admit comma objects.
+
+Here are some more important examples of 2-categorical limits, all of which come in strict and weak forms and are non-evil.
+
+* The **inserter** of a pair of parallel arrows $f,g:A \;\rightrightarrows\; B$ is a universal object $I$ equipped with a map $i:I\to A$ and a 2-cell $f i \to g i$.
+
+* The **equifier** of a pair of parallel 2-cells $\alpha,\beta: f\to g: A\to B$ is a universal object $E$ equipped with a map $e:E\to A$ such that $\alpha e = \beta e$.
+
+* The **inverter** of a 2-cell $\alpha:f\to g:A\to B$ is a universal object $V$ with a map $v:V\to A$ such that $\alpha v$ is invertible.
+
+* The **[[power]]** of an object $A$ by a category $C$ is a universal object $A^C$ equipped with a functor $C\to K(A^C,A)$.
 
 * [[descent object|Descent objects]] are another important example.
+
 
 ## Finite Limits ##
 
