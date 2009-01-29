@@ -1,0 +1,3 @@
+I'm a PhD student at the University of Adelaide in South Australia. I work on 2-bundles and internal groupoids, with general interest in homotopy theory apres Grothendieck.
+
+I have a paper with [[Urs Schreiber]] on [universal 2-bundles](http://front.math.ucdavis.edu/0708.1741), and one with Mathai Varhese, one of my supervisors, on [abelian Yang-Mills for bundle gerbes](http://front.math.ucdavis.edu/0509.3037).
