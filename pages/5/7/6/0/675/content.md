@@ -1,0 +1,1 @@
+An ambient category is just a category from which [[internal category|internal categories and groupoids]] take their object of arrows, object of objects and structure morphisms.
