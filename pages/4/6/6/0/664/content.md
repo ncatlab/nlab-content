@@ -12,7 +12,7 @@ A crossed square in the Guin-Valery Loday specification has quite a few axioms, 
 Finally a particular example of a [[crossed square] is given by a group with two normal subgroups, and their intersection together with the commutator map.  It would be appropriate if a group together with $n$ normal subgroups, all the  intersections and all the commutator maps, formed an example of a crossed $n$-cube.  It does.  The axioms below govern the $h$-maps, by using analogues of the relationships between commutator maps
 in such a $n$-cube of inclusions of intersections.
 
-The result (definition due to Graham Ellis and Richard Steiner) is a set of 11 axioms. That is all, and these objects model all homotopy $n+1$-types.
+The result (definition due to Graham Ellis and Richard Steiner, reference below) is a set of 11 axioms. That is all, and these objects model all homotopy $n+1$-types.
 
 
 ##Definition##
@@ -58,3 +58,8 @@ $$\{M_{A}\} \rightarrow \{M^{\prime}_{A}\}$$
 is a family of homomorphisms, $\{f_{A}: M_{A} \rightarrow  M^{\prime}_A \,|\, A \subseteq  \langle n \rangle\}$, which commute with the maps, $\mu_i$, and the functions, $h$. 
 
 This gives us a category, $Crs^{n} $, equivalent to that of [[cat-n-group]]s.
+
+##References##
+
+* G. J. Ellis and R.Steiner, _Higher dimensional crossed modules and the homotopy groups of 
+(n + 1)-ads_, J. Pure Appl. Alg., 46, (1987), 117&#8211;136.
