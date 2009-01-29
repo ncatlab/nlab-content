@@ -6,7 +6,11 @@ A **2-limit** is the type of [[limit]] that is appropriate in a (weak) [[2-categ
 
 1. The universal property of the limit is expressed by an [[equivalence]] of categories rather than a bijection of sets.  This means that (1) every other cone over the diagram that commutes up to isomorphism factors through the limit, up to isomorphism, and (2) every transformation _between_ cones also factors through a 2-cell in the limit.  We will give some examples below.
 
-1. Since 2-categories are [[enriched category|enriched]] over [[Cat]] (this is precise in the [[strict 2-category|strict]] case, and "weakly" true otherwise), Cat-[[weighted limit]]s become important.  This means that both the diagrams we take limits of and the shape of "cones" that limits represent can involve 2-cells as well as 1-cells.
+1. Since 2-categories are [[enriched category|enriched]] over [[Cat]] (this is precise in the [[strict 2-category|strict]] case, and "weakly" true otherwise), 
++--{.query}
+[[Urs Schreiber|Urs]]: can anyone point me to -- or write an entry containing -- a discussion of systematical "homotopical enrichment" where we enrich over a [[homotopical category]] systematically weakening everything up to coherent homotopy. If/when we have this we should also link it to [[(infinity,n)-category]], as that is built by iteratively doing homotopical enrichement starting with [[Top]].  
+=--
+Cat-[[weighted limit]]s become important.  This means that both the diagrams we take limits of and the shape of "cones" that limits represent can involve 2-cells as well as 1-cells.
 
 
 # Strictness and terminology #
@@ -60,13 +64,25 @@ Note that lax pullbacks are _not_ the same as comma objects.  In general comma o
 
 A 2-limit is called **finite** if its diagram shape and its weight are both "finitely presentable" in a suitable sense.  Pullbacks, comma objects, inserters, equifiers, and so on are all finite limits, as are powers by any finitely presented category.  All finite limits can be constructed from pullbacks, a terminal object, and powers with $\mathbf{2}$.
 
+# 2-limits and homotopy limits #
+
++--{.query}
+
+[[Urs Schreiber|Urs]]: I'd enjoy the (re)formulation in terms of [[homotopy limit]]s using the [[folk model structure]] on $2Cat$. I'll try a bit myself to write something about that here eventually, but if any experts can speed ahead and provide some comments here, it would be appreciated.
+
+=--
+
+A comparative discussion of 2-limits and [[homotopy limit]]s in [[Cat]] is in
+
+* Nicola Gambino, _Homotopy limits for 2-categories_ ([pdf](http://www.lacim.uqam.ca/~gambino/homotopy.pdf))
+
 
 # References #
 
-Street, "Limits indexed by category-valued 2-functors"
+* Street, "Limits indexed by category-valued 2-functors"
 
-Kelly, "Elementary observations on 2-categorical limits"
+* Kelly, "Elementary observations on 2-categorical limits"
 
-Street, "Fibrations in Bicategories" and correction.
+* Street, "Fibrations in Bicategories" and correction.
 
-Lack, [A 2-categories companion](http://arxiv.org/abs/math.CT/0702535)
+* Lack, [A 2-categories companion](http://arxiv.org/abs/math.CT/0702535)
