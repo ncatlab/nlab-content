@@ -1,4 +1,6 @@
-Let $C$ be a [[closed monoidal category]] with [[interval object]] $I$. Then for any [[pointed object]] $pt \stackrel{pt_B}{\to}B$ in $C$ the _generalized universal $B$-bundle_ is (if it exists) the morphism
+#Definition#
+
+Let $C$ be a [[closed monoidal category]] with [[interval object]] $I$. Then for any [[pointed object]] $pt \stackrel{pt_B}{\to}B$ in $C$ the **generalized universal $B$-bundle** is (if it exists) the morphism
 
 $$
   p : \mathbf{E}_{pt} B \to B
@@ -51,16 +53,6 @@ $$
   G \to G//G \to \mathbf{B}G
   \,.
 $$
-
-+--{.query}
-
-What is $E$ everywhere above? - [[Eric Forgy|Eric]]
-
-[[Urs Schreiber|Urs]]: I now added another sentence above saying this more explicitly: $\mathbf{E}$ itself is not defined, but for any object $B$ equipped with a morphism (a point) $pt \stackrel{pt}{\to} B$ the object the symbol sequence $\mathbf{E}_{pt}B$ denotes the above [[pullback]].
-
-Thanks! I'll delete this query box in a bit for the records. - [[Eric Forgy|Eric]]
-
-=--
 
 This is the universal $G$-bundle in its groupoid incarnation. It is a theorem by Segal from the 1960s that indeed this maps, under [[geometric realization]] to the familiar universal $G$-bundle in $Top$. Moreover, it can be seen that every $G$-principal bundle $P \to X$ in the ordinary sense is the pullback of $\mathbf{E} G$ in the following sense:
 
