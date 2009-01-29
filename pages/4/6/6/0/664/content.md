@@ -3,14 +3,14 @@
 * A [[crossed module]] as cat-1-group is the 'algebraic core' of a [[cat-1-group]], in as much as within a cat-1-group we can find a crossed module in a simple way from which the whole of the cat-1-group in all its glory can be reconstructed.
 
 
-* A [[crossed square]] is similarly the algebraic core of a [[cat-2-group]].
+* A [[crossed square]] is similarly the 'algebraic core' of a [[cat-2-group]].
 
-* A crossed n-cube should be the algebraic core of a [[cat-n-group]].
+* A crossed n-cube should be the 'algebraic core' of a [[cat-n-group]].
 
 A crossed square in the Guin-Valery Loday specification has quite a few axioms, many more than those for a crossed module. Does that mean that crossed $n$-cubes will be defined with a very large number of axioms (perhaps dependent on $n$)? No (unless you think that 11 is large!)
 
 Finally a particular example of a [[crossed square] is given by a group with two normal subgroups, and their intersection together with the commutator map.  It would be appropriate if a group together with $n$ normal subgroups, all the  intersections and all the commutator maps, formed an example of a crossed $n$-cube.  It does.  The axioms below govern the $h$-maps, by using analogues of the relationships between commutator maps
-in such a $$-cube of inclusions of intersections.
+in such a $n$-cube of inclusions of intersections.
 
 The result (definition due to Graham Ellis and Richard Steiner) is a set of 11 axioms. That is all, and these objects model all homotopy $n+1$-types.
 
