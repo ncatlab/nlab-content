@@ -14,9 +14,15 @@ Philosophical interest in <i>n</i>-categories may be characterised as belonging 
 
 * There ought to be a categorified logic, or 2-logic. There are some suggestions that existing work on modal logic is relevant.
 
-* Higher category theory may provide the right tools to take physics forward. [A Prehistory of n-Categorical Physics](http://math.ucr.edu/home/baez/history.pdf)
+* Higher category theory may provide the right tools to take physics forward. [A Prehistory of n-Categorical Physics](http://math.ucr.edu/home/baez/history.pdf) See also [[physics]].
 
 * More speculatively, category theory may prove useful in biology. [Blog post](http://golem.ph.utexas.edu/category/2007/11/category_theory_and_biology.html)
+
++--{.query}
+[[Urs Schreiber|Urs]]: Maybe there is an intermediate step which is less speculative? My impression is that the idea here is something like: noticing that category theory at first is a formalism of _states_ and _processes_ (directed arrows) and $n$-category theory of processes of processes, etc., can we also naturally encode in its language _structures of structures_, i.e. hierarchical structures, which do not naturally or not manifestly have an interpretation as processes, in particular in that they are lacking the directionality of processes? Whatever the definition of [[hyperstructure]] really will be in the end, I think this question is what motivates them: a hyperstructure differes from an $\infty$-category in that in degree $n$ it has cells ( _bonds_ ) which _bind_ $(n-1)$-cells, but there is no directionality imposed on this, and not necessarily a notion of composition. 
+
+Now, biological structures are often of the complex hierarchical structure that one would imagine the concept of  [[hyperstructure]] would describe to some extent, but if the notion of hyperstructure is good and natural, that should be just a very specific of a more general kind of applications which maybe should not be regarded as the archetypical application of the concept as such. In this respect it is maybe noteworthy that the idea of hyperstructure does not originate in a motivation from biologogy, but was originally conceived as a means to formalize [[extended cobordism]]s such as appear in the [[generalized tangle hypothesis]]. 
+=--
 
 ##Enquiry##
 
