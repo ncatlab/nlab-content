@@ -1,7 +1,9 @@
 #Definition#
 
+##Free loop space object##
+
 In a category with [[interval object]] the 
-free **loop space object** is the part of the [[path object]] $B^I = [I,B]$ which consists of closed paths, namely the [[pullback]]
+**free loop space object** is the part of the [[path object]] $B^I = [I,B]$ which consists of closed paths, namely the [[pullback]]
 $$
   \array{
     \Lambda B &\to& [I,B]
@@ -46,6 +48,42 @@ $$
      && B \times B
   }
 $$
+
+
+##Based loop space object##
+
+If $B$ is a [[pointed object]] with point $pt \stackrel{pt_B}{\to} B$ then the **based loop space object** of $B$ is the pullback $\Omega_{pt} B$ in
+
+$$
+  \array{
+    \Omega_{pt}B &\to& [I,B]
+    \\
+    \downarrow && \downarrow^{d_0 \times d_1}
+    \\
+    pt
+    &\stackrel{pt_B \times pt_B}{\to}&
+    B \times B
+  }
+  \,.
+$$
+
+###Remarks
+
+* $\Omega_{pt}B$ is the fiber of the [[generalized universal bundle]] $\mathbf{E}_{pt}B \to B$.
+
+* the based loop space object $\Omega_{pt} B$ is the pullback of the free loop space object $\Lambda B$ to the point
+$$
+  \array{
+    \Omega_{pt} B &\to& \Lambda B
+    \\
+    \downarrow && \downarrow
+    \\
+    pt &\stackrel{pt_B}{\to}& B 
+  }
+  \,.
+$$
+
+
 
 #Remarks#
 
