@@ -35,9 +35,6 @@ These comments should go in _reverse_ chronological order, so that the latest ar
   * Finally decided I need to get over my Australian training and make weak things the default, at least when writing on the nLab.  So I split up [[2-categorical limit]] into [[2-limit]] for the weak notion and [[strict 2-limit]] for the strict one.  The exposition here could probably use help, and I have a question about terminology for [[strict 2-limit]]s.
 
   * Redirected [[Gray category]] to the already-existing [[Gray-category]].  Should we have an official policy on the use or non-use of hyphens?  (-:
-+--{.query}
-[[Urs Schreiber|Urs]]: darn, that was my fault again. saw a gray link to [[Gray category]] and thought that was too much of Gray. Thanks for fixing it.
-=--
 
 
   * I haven't done much here recently because I've been working in my [[michaelshulman:HomePage|own web]] on a project developing [[michaelshulman:2-categorical logic|2-categorical logic]].
@@ -45,21 +42,6 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 * [[Eric Forgy|Eric]]:
 
   * changed yet [[generalized universal bundle|another definition]] from _italic_ to **bold**. Recall that we agreed to follow that convention.
-+--{.query}
-[[Urs Schreiber|Urs]]: did we? I'm fine with that, but last thing I remember is that [[John Baez|John]] said he rather wanted it _italic_. Maybe I was dreaming.
-
-Here are the significant lines from the [[General Discussion]]:
-
-{: response}
-_[[John Baez|John]] says_: In this case I'm more interested in consistency than enforcing my will upon the world, despite my joke about pistols at dawn.  **Bold** jumps out you more than _italics_, I think.  A theorem environment would let us make (and change) this decision globally, but we won't want all our definitions to be stated as part of a formal **Definition** environment --- sometimes it's nice to make a definition as part of a paragraph of ordinary text, and in my own papers I always put the defined term in **boldface**, to 1) make the definitions easy to spot, and 2) make it clear that I'm defining something instead of stating a fact about something (I hate it when someone says "Pr&#252;fer rings are hereditary and Noetherian" and I can't tell if this is supposed to be the _definition_, or merely a cute _fact_ about Pr&#252;fer rings).
-
-{: commenttoby}
-I also prefer boldface. I\'ve been doing that unless a page already uses italics. &#8212;[[Toby Bartels|Toby]]
-
-[[Urs Schreiber|Urs]]: all right, bold definitions then
-
-=--
-
 
 * [[David Corfield|David]]:
 
