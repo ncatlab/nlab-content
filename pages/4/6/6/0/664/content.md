@@ -17,7 +17,7 @@ The result (definition due to Graham Ellis and Richard Steiner, reference below)
 
 ##Definition##
 
-We denote by $\langle n \rangle$ the set $\{1,2,\ldots, n\}$
+We denote by $\langle n \rangle$ the set $\{1,2,\ldots, n\}$.
 
 A _**crossed $n$-cube**, $M$, is a family of  groups,  $\{M_A: A \subseteq  \langle n \rangle\}$,
 together with homomorphisms,  $\mu_i :M_A \rightarrow  M_{A-\{i\}}$, for $i \in  \langle n \rangle
@@ -53,7 +53,7 @@ a^\prime \in M_{A},\, b, b^\prime \in M_{B},\, c \in  M_{C}$  and  $i, j \in
 
 A morphism of crossed $n$-cubes 
 
-$$\{M_{A}\} \rightarrow \{M^{\prime}_{A}\}$$
+$$f :\{M_{A}\} \rightarrow \{M^{\prime}_{A}\}$$
 
 is a family of homomorphisms, $\{f_{A}: M_{A} \rightarrow  M^{\prime}_A \,|\, A \subseteq  \langle n \rangle\}$, which commute with the maps, $\mu_i$, and the functions, $h$. 
 
