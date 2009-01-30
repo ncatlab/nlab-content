@@ -68,6 +68,14 @@ A 2-limit is called **finite** if its diagram shape and its weight are both "fin
 
 [[Mike Shulman|Mike]]: I actually thought this was more appropriate at [[strict 2-limit]] because it's about using strict things to get at weak things.
 
+[[Urs Schreiber|Urs]]: hm, I just meant that I'd like to see a discussion of the relation between
+
+* the bilimit of a (1-)diagram in $2-Cat$;
+
+* the [[homotopy limit]] of the same diagram with respect to the [[folk model structure]].
+
+I'd hope these two are equal or at least closely related. The reference below looks like it should say something about this quetsion, but, glancing at it, I couldn't quite extract a succinct statement from it so far. 
+
 =--
 
 A comparative discussion of 2-limits and [[homotopy limit]]s in [[Cat]] is in
