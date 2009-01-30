@@ -63,3 +63,22 @@ This equation is known as the **Peiffer rule** in the literature.
 * for $H$ any group, its automorphism crossed module is $AUT(H) := (G_2 = H, G_1 = Aut(H), \delta = Ad, \alpha = Id)$; under the equivalence of crossed modules with strict [[2-group]]s this corresponds to the 2-group $Aut_{Grpd}(\mathbf{B}H)$ of automorphisms in the category [[Grpd]] of [[groupoid]]s on the one-object [[groupoid]] $\mathbf{B}H$ corresponding to the group $H$.
 
 *  Almost the canonical example of a crossed module is given by a group $G$ and a normal subgroup $N$ of $G$.  We take $G_2 = N$, and $G_1 = G$ with the action given by conjugation, whilst $\delta$ is the inclusion, $inc : N \to G$. This is 'almost canonical', since if we replace the groups by simplicial groups $G_.$ and $N_.$, then $(\pi_0(G_.),\pi_0(N_.),\pi_0(inc))$ is a crossed module, and given any crossed module, $(C,P,\delta)$, there is a simplicial group $G_.$ and a normal subgroup $N_.$, such that the construction above gives the given crossed module up to isomorphism.
+
+* Suppose $F\stackrel{i}{\to}E\stackrel{p}{\to}B$ is a fibration sequence
+  of pointed spaces, thus $p$ is a [[fibration]] in the topological sense (lifting of paths and homotopies of paths will suffice), $F = p^{-1}(b_0)$, where $b_0$
+  is the basepoint of $B$.  The fibre $F$ is pointed at $f_0$, say, and $f_0$
+  is taken as the basepoint of $E$ as well.
+
+    There is an induced map on fundamental groups
+
+    $$\pi_1(F) \stackrel{\pi_1(i)}{\longrightarrow} \pi_1(E)$$ 
+
+    and if $a$ is a loop in $E$
+based at $f_0$, and $b$ a loop in $F$ based at $f_0$, then the composite path
+corresponding to $aba^{-1}$ is homotopic to one wholly within $F$.  To see
+this, note that $p(aba^{-1})$ is null homotopic.  Pick a homotopy in $B$
+between it and the constant map, then lift that homotopy back up to $E$ to one 
+starting at $aba^{-1}$.  This homotopy is the required one and its other end
+gives a well defined element ${}^a b \in \pi_1(F)$ (abusing notation by confusing paths and 
+their homotopy classes).  With this action $(\pi_1(F), \pi(E), \pi_1(i))$ is a 
+crossed module.  This will not be proved here, but is not that difficult.  
