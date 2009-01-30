@@ -1,0 +1,1 @@
+See [[Lawvere theory]].
