@@ -42,6 +42,7 @@ $$
   }
 $$
 commute.
+
 #Notation#
 We may use the notation $(G_2,G_1,\delta)$, for this if the action is fairly obvious, including an explicit action, $(G_2,G_1,\delta,\alpha)$, if there is a risk of confusion.
  
@@ -49,11 +50,11 @@ We may use the notation $(G_2,G_1,\delta)$, for this if the action is fairly obv
 
 The two diagrams can be translated into equations, which may often be helpful.
 
-   *   If we write the effect of acting with $g_1\in G_1$ on $g_2\in G_2$ as ${}^{g_1}g_2$, then the second diagram translates as the equation:
+*   If we write the effect of acting with $g_1\in G_1$ on $g_2\in G_2$ as ${}^{g_1}g_2$, then the second diagram translates as the equation:
     $$\delta({}^{g_1}g_2) = g_1\delta(g_2)g_1^{-1}.$$
 In other words that $\delta$ is equivariant for the action of $G_1$. 
 
-   *   The first diagram is slightly more subtle.  The group $G_2$ can act on itself in two different ways, (i) by the usual conjugation action, ${}^{g_2}g^\prime_2=g_2g^\prime_2g_2^{-1} $ and (ii) by first mapping $g_2$ down to $G_1$ and then using the action of that group back on $G_2$.  The first diagram says that the two actions coincide. Equationally this gives:
+*   The first diagram is slightly more subtle.  The group $G_2$ can act on itself in two different ways, (i) by the usual conjugation action, ${}^{g_2}g^\prime_2=g_2g^\prime_2g_2^{-1} $ and (ii) by first mapping $g_2$ down to $G_1$ and then using the action of that group back on $G_2$.  The first diagram says that the two actions coincide. Equationally this gives:
 $${}^{\delta(g_2)}g^\prime_2 = g_2g^\prime_2g_2^{-1}.$$
 
 This equation is known as the **Peiffer rule** in the literature.
