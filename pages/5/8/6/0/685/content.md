@@ -76,6 +76,8 @@ A 2-limit is called **finite** if its diagram shape and its weight are both "fin
 
 I'd hope these two are equal or at least closely related. The reference below looks like it should say something about this quetsion, but, glancing at it, I couldn't quite extract a succinct statement from it so far. 
 
+[[Mike Shulman|Mike]]: In section 6 he shows that the construction of (weighted) homotopy limits is the same as the construction of (weighted) pseudo-limits.  He doesn't say this explicitly, as far as I saw, but then you can just invoke the fact, cited at [[strict 2-limit]], that every pseudo-limit is a bilimit, since every isomorphism of categories is an equivalence of categories.
+
 =--
 
 A comparative discussion of 2-limits and [[homotopy limit]]s in [[Cat]] is in
