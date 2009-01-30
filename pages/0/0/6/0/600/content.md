@@ -203,7 +203,7 @@ The [[categorical trace]] on a 1-[[endomorphism]] in a 2-category $C$ is the hom
 
 This should be true quite generally, but here are the details just for the special case that connects to the above example:
 
-Let $C = $ [[Cat]] with the standard interval object $I = \{a \to b\}$. This is a [[category of fibrant objects]] with respect to the [[folk model structure]]. 
+Let $C = $ [[Grpd]] with the standard interval object $I = \{a \stackrel{\simeq}{\to} b\}$. This is a [[category of fibrant objects]] with respect to the [[folk model structure]]. 
 
 Notice that [[natural transformation]]s $\eta : F \to G$ between two functors $F, G : C \to D$ are in bijection with commuting diagrams
 $$
