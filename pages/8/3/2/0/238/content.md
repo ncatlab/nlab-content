@@ -22,6 +22,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 =--
 
 ***
+# 2009-01-30
+
+* [[Tim Porter|Tim]]:
+
+  * Continued work on [[crossed module]], and [[crossed n-cube]]. I have added in the fibration example into [[crossed module]], and that may be of interest to others.  It says, effectively, that a fibration induces a weak crossed module structure on the loop spaces.
 
 # 2009-01-29
 
