@@ -24,6 +24,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-01-30
 
+* [[Urs Schreiber|Urs]]
+
+  * added more examples to [[homotopy limit]] and [[span trace]] (see [blog comment](http://golem.ph.utexas.edu/category/2009/01/benzvi_on_geometric_function_t.html#c021787))
+
+  * added _based loop object_ to _free loop object_ at [[loop space object]] and linked that with [[generalized universal bundle]]
+
 * [[Tim Porter|Tim]]:
 
   * Continued work on [[crossed module]], and [[crossed n-cube]]. I have added in the fibration example into [[crossed module]], and that may be of interest to others.  It says, effectively, that a fibration induces a weak crossed module structure on the loop spaces.
