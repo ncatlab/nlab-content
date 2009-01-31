@@ -22,27 +22,7 @@ More generally, any non-[[evil]] limit (one which doesn't demand equality of obj
 
 # Pseudo-limits and homotopy limits #
 
-+--{.query}
-[[Urs Schreiber|Urs]]: Here my attempt to summarize what we discussed elsewhere:
-=--
-
-
-If there is a [[model category]] structure on the 1-category underlying the given strict 2-category $C$, then on top of the notion of pseudo-limits in $C$ there is the notion of [[homotopy limit]]s in $C$. If $C$ is a [[model 2-category]] as described in
-
-* Nicola Gambino, _Homotopy limits for 2-categories_ ([pdf](http://www.lacim.uqam.ca/~gambino/homotopy.pdf))
-
-then (weighted) homotopy limits in $C$ coincide with (weighted) homotopy limits in $C$.
-
-For instance 
-
-* In the 2-category [[Grpd]] with its canonical [[folk model structure]] homotopy limits coinccide with pseudo-limits. This makes the examples listed at [[homotopy limit]] also examples of pseudo-limits.
-
-
-+--{.query}
-[[Urs Schreiber|Urs]]: Hope this is about right now.
-=--
-
-
+If there is a [[model category]] structure on the 1-category underlying the given strict 2-category $C$, then in addition to whatever 2-categorical notions of limit exist in $C$, there is the notion of [[homotopy limit]]s in $C$.  If $C$ is a [[model 2-category]] with the "trivial" or "natural" model structure constructed in (Lack 2006), then these two notions coincide (Gambino 2007).  For example, this is the case in [[Cat]] and [[Grpd]], so  the examples listed at [[homotopy limit]] are also examples of pseudo-limits.  In general, homotopy limits in a model 2-category give (non-strict) [[2-limit]]s in its "homotopy 2-category."
 
 
 # Examples #
@@ -98,4 +78,8 @@ Here are some more important examples of 2-categorical limits, all of which come
 
 * Kelly, "Elementary observations on 2-categorical limits"
 
-* Lack, [A 2-categories companion](http://arxiv.org/abs/math.CT/0702535)
+* Steve Lack, [A 2-categories companion](http://arxiv.org/abs/math.CT/0702535)
+
+* Steve Lack, Homotopy theoretic aspects of 2-monads at [math.CT/0607646](http://www.arxiv.org/abs/math.CT/0607646).
+
+* Nicola Gambino, _Homotopy limits for 2-categories_ ([pdf](http://www.lacim.uqam.ca/~gambino/homotopy.pdf))
