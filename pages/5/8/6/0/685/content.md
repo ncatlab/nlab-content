@@ -60,30 +60,6 @@ Note that lax pullbacks are _not_ the same as comma objects.  In general comma o
 
 A 2-limit is called **finite** if its diagram shape and its weight are both "finitely presentable" in a suitable sense.  Pullbacks, comma objects, inserters, equifiers, and so on are all finite limits, as are powers by any finitely presented category.  All finite limits can be constructed from pullbacks, a terminal object, and powers with $\mathbf{2}$.
 
-# 2-limits and homotopy limits #
-
-+--{.query}
-
-[[Urs Schreiber|Urs]]: I'd enjoy the (re)formulation in terms of [[homotopy limit]]s using the [[folk model structure]] on $2Cat$. I'll try a bit myself to write something about that here eventually, but if any experts can speed ahead and provide some comments here, it would be appreciated.
-
-[[Mike Shulman|Mike]]: I actually thought this was more appropriate at [[strict 2-limit]] because it's about using strict things to get at weak things.
-
-[[Urs Schreiber|Urs]]: hm, I just meant that I'd like to see a discussion of the relation between
-
-* the bilimit of a (1-)diagram in $2-Cat$;
-
-* the [[homotopy limit]] of the same diagram with respect to the [[folk model structure]].
-
-I'd hope these two are equal or at least closely related. The reference below looks like it should say something about this quetsion, but, glancing at it, I couldn't quite extract a succinct statement from it so far. 
-
-[[Mike Shulman|Mike]]: In section 6 he shows that the construction of (weighted) homotopy limits is the same as the construction of (weighted) pseudo-limits.  He doesn't say this explicitly, as far as I saw, but then you can just invoke the fact, cited at [[strict 2-limit]], that every pseudo-limit is a bilimit, since every isomorphism of categories is an equivalence of categories.
-
-=--
-
-A comparative discussion of 2-limits and [[homotopy limit]]s in [[Cat]] is in
-
-* Nicola Gambino, _Homotopy limits for 2-categories_ ([pdf](http://www.lacim.uqam.ca/~gambino/homotopy.pdf))
-
 
 # References #
 
