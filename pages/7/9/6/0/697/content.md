@@ -6,6 +6,10 @@ The next easiest to understand example in dimension 2 is possibly that of  maps 
 
 The problem is to obtain a double groupoid out of such squares. Brown and Higgins realised in 1974 that this could be relatively easily done in a relative situation, i.e. if we are given a triple $X_*=(X,A,C)$ where $C \subseteq A \subseteq X$ and consider maps $I^2 \to X$ which take the edges into $A$ and the vertices into $C$, and then form $\rho X_*$ of homotopy classes of such maps rel vertices. It is not quite trivial to prove that the partial compositions of such squares are inherited by $\rho X_*$ to make it a double groupoid with an extra structure of _connections_. This extra structure makes the category of such objects equivalent to the category of [[crossed module]]s but of groupoids, rather than just groups. 
 
+Under this equivalence, the double groupoid $\rho X_*$ becomes the crossed module $\Pi X_* $ consisting of the family of relative homotopy groups $\pi_2(X,A,c)$, $c \in C$, with the boundary to the [[fundamental groupoid]] $\pi_1(A,C)$ and the operations of this groupoid. Hence a van Kampen type theorem for $\rho$ yields a van Kampen type theorem for $\Pi$ and so  previously unobtainable determinations of some nonabelian second relative homotopy groups. 
+
+Notice that the compositions in $\pi_2(X,A,c)$ require a choice of direction, whereas $\rho$ is a _symmetric_ construction. Also $\rho$ allows for convenient multiple compositions appropriate to _algebraic inverses to subdivision_. 
+
 ==
 References
 
