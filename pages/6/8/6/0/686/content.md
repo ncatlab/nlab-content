@@ -20,6 +20,31 @@ _Mike_: Can anyone think of good terminology for these next two?  Historically t
 More generally, any non-[[evil]] limit (one which doesn't demand equality of objects) can still exist even when everything becomes weak.  Two formal versions of this statement involve [[flexible limit]]s and the more restrictive [[PIE-limit]]s.  In particular, any strict flexible limit is also an up-to-isomorphism 2-limit.  Since pseudo limits are PIE-limits, it follows that any strict 2-category which admits PIE-limits also admits all up-to-isomorphism 2-limits, even if it fails to admit some (evil) strict 2-categorical limits.  The category of algebras and pseudo morphisms for any [[2-monad]], such as [[MonCat]], is a good example of a 2-category having strict PIE-limits but not all strict limits.
 
 
+# Pseudo-limits and homotopy limits #
+
++--{.query}
+[[Urs Schreiber|Urs]]: Here my attempt to summarize what we discussed elsewhere:
+=--
+
+
+If there is a [[model category]] structure on the 1-category underlying the given strict 2-category $C$, then on top of the notion of pseudo-limits in $C$ there is the notion of [[homotopy limit]]s in $C$. If $C$ is a [[model 2-category]] as described in
+
+* Nicola Gambino, _Homotopy limits for 2-categories_ ([pdf](http://www.lacim.uqam.ca/~gambino/homotopy.pdf))
+
+then (weighted) homotopy limits in $C$ coincide with (weighted) homotopy limits in $C$.
+
+For instance 
+
+* In the 2-category [[Grpd]] with its canonical [[folk model structure]] homotopy limits coinccide with pseudo-limits. This makes the examples listed at [[homotopy limit]] also examples of pseudo-limits.
+
+
++--{.query}
+[[Urs Schreiber|Urs]]: Hope this is about right now.
+=--
+
+
+
+
 # Examples #
 
 Any ordinary limit can be made into a strict 2-categorical limit simply by boosting up its ordinary universal property (a bijection of sets) to an isomorphism of hom-categories.  Thus we have strict products, strict pullbacks, strict equalizers, and so on.  Of these, strict products (including terminal objects) are non-evil, while others such as pullbacks and equalizers tend to be evil.
