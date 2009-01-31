@@ -44,15 +44,31 @@ The structure of a **model 2-category** on a [[strict 2-category]] $C$ with fini
 
   * and $[u,v]$ is a weak equivalence (in the [[folk model structure]] on [[Cat]], i.e. a categorical [[equivalence]]) if either of $u$ or $v$ is.
 
+This is just the usual notion of an [[enriched model category]] specialized to enrichment over the [[monoidal model category]] $Cat$.
+
+
+# Examples #
+
+* Every suitably complete and cocomplete 2-category admits a "trivial" or "natural" model 2-category structure in which the weak equivalences are the categorical equivalences and the fibrations are the internal [[isofibration]]s.  By duality, there also is a second such model structure; in Cat both coincide with the [[folk model structure]].
+
+* The 2-category $T Alg_s$ of algebras and _strict_ morphisms for a suitably well-behaved (strict) [[2-monad]] $T$ inherits a model structure where the weak equivalences are those that become weak equivalences in the underlying category.  These are precisely the morphisms that are equivalences in the 2-category $T Alg$ of $T$-algebras and _pseudo_ morphisms, so $T Alg$ is the "homotopy 2-category" of $T Alg_s$. Cofibrant replacements in this model structure can also be identified with [[flexible algebra|flexible]] replacements in the theory of 2-monads.
+
+* The 2-category $[C,K]$ of diagrams in any 2-category $K$ also inherits two different, but Quillen equivalent, model structures, called the "projective" and "injective" model structures.
+
 
 #Remarks#
 
-* In a strict model 2-category the notion of 2-categorical [[strict 2-limit|pseudo-limit]] and that of  [[model category|model theoretic]] [[homotopy limit]] coincide. 
+* Every model 2-category has a "homotopy (weak) 2-category" which can be constructed by formally making the weak equivalences into categorical equivalences.  It can alternately be described using fibrant and cofibrant replacements, just like the ordinary homotopy category of a model category.
+
+* In a strict model 2-category with a _natural_ model structure, the notions of 2-categorical [[strict 2-limit|pseudo-limit]] and (one canonical construction of) [[model category|model theoretic]] [[homotopy limit]]s coincide.  For a general model 2-category, homotopy limits can be construed as representatives of [[2-limit]]s in its homotopy 2-category.
+
 
 #References#
 
-The definition of (strict) model 2-category is on [p. 3](http://www.lacim.uqam.ca/~gambino/homotopy.pdf#page=3) of
+The original reference, which constructs the natural model structure and its lifting to 2-monads, is:
+
+* Steve Lack, _Homotopy theoretic aspects of 2-monads_ at [math.CT/0607646](http://www.arxiv.org/abs/math.CT/0607646).
+
+The projective and injective model structures on diagrams, and the relation between pseudo-limits and homotopy limits, are dicussed in the following (especially section 6).
 
 * Nicola Gambino, _Homotopy limits for 2-categories_ ([pdf](http://www.lacim.uqam.ca/~gambino/homotopy.pdf)).
-
-The relaton between pseudo-limits and homotopy limits is dicussed in [section 6](http://www.lacim.uqam.ca/~gambino/homotopy.pdf#page=3)
