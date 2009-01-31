@@ -12,6 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-01-31
 
+* [[Mike Shulman|Mike]]
+
+  * Created [[retract]] and [[idempotent]].
+
+  * Clarified homotopy limits at [[model 2-category]] and [[strict 2-limit]].
+
 * [[Urs Schreiber|Urs]]
 
   * created [[model 2-category]] and tried to subsume our discussion about it at [[strict 2-limit]] -- would like ask [[Mike Shulman|Mike]] to check
