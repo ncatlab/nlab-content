@@ -12,7 +12,7 @@ restriction.
 
 ##Conventional remarks##
 
-* There is an alternative 'dual' form of this with $\bigcap_{i=10}^{n-1}Ker\,d_i^n$ and with the boundary /  differential $\partial$ induced by the last face map $d^n_n$. The theories run parallel but the fact there are two valid forms can be confusing for the formulae for various derived structures. 
+* There is an alternative 'dual' form of this with $\bigcap_{i=0}^{n-1}Ker\,d_i^n$ and with the boundary /  differential $\partial$ induced by the last face map $d^n_n$. The theories run parallel but the fact there are two valid forms can be confusing for the formulae for various derived structures. 
 
 
 *  The notation $NG$ is quite widely used in the literature but can get confused with that sometimes used for the nerve functor, so care is needed.
@@ -46,4 +46,5 @@ These are well understood in low dimensions, see the entry on [[hypercrossed com
 $$a(p)(c) = s_0(p)c s_0(p)^{-1}.$$
 
 
-* Suppose next that $NG_k = 1$ for $k \gt 2$, then the Moore complex is a [[2-crossed module]] in the sense of Conduch&#233;.  Such objects model all [[homotopy 3-types]].  They are equvalent models to the [[crossed squares]] of Guin-Valery and Loday.
+* Suppose next that $NG_k = 1$ for $k \gt 2$, then the Moore complex is a [[2-crossed module]] in the sense of Conduch&#233;.  Such objects model all [[homotopy 3-types]].  They are related to the [[crossed squares]] of Guin-Valery and Loday, in that there is a functor $(crossed squares) \to (2-crossed modules)$ which preserves homotopy types, but crossed squares have the advantage that there is a homotopically defined functor with values in crossed squares, related to classical homotopy invariants of pairs and triads, and which satisfies a Higher Homotopy van Kampen theorem, so that some calculations are possible. 
+
