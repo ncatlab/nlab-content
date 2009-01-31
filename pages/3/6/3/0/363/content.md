@@ -12,6 +12,6 @@ Gordon, Power, and Street proved that every [[tricategory]] (that is, weak 3-cat
 
 #References#
 
-* Gordon, Power, Street, _Coherence for tricategories_
+* Gordon, Power, Street, _Coherence for tricategories_, Mem. Amer. Math. Soc. 117 (1995), no. 558, vi+81 pp.
 
 * Nick Gurski, _Algebraic tricategories_, Ph. D. Thesis.
