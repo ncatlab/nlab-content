@@ -82,4 +82,4 @@ between it and the constant map, then lift that homotopy back up to $E$ to one
 starting at $aba^{-1}$.  This homotopy is the required one and its other end
 gives a well defined element ${}^a b \in \pi_1(F)$ (abusing notation by confusing paths and 
 their homotopy classes).  With this action $(\pi_1(F), \pi(E), \pi_1(i))$ is a 
-crossed module.  This will not be proved here, but is not that difficult.  
+crossed module.  This will not be proved here, but is not that difficult.  (Of course,  secretly, this example is 'really' the same as the previous one since a fibrtion of simplicial groups is just morphism that is an epimorphism in each degree, and the fibre is thus just a normal simplicial subgroup. What is fun is that this generalises to 'higher dimensions'.)  
