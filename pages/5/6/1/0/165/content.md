@@ -27,7 +27,7 @@ for computing the fundamental group or groupoid is to take $\pi_1(X,A)$, namely 
 
 * Following Trimble's definition, it is possible to generalize the notion of fundamental $n$-groupoids from [[Top]] to other [[closed monoidal homotopical category|closed monoidal homotopical categories]] using the concept of categories with [[interval object]].
 
-* There are  constructions of strict fundamental $\omega$-groupoids  of various types (globular, simplicial, cubical) for a filtered space, and more complicated fundamental cat$^n$-group of an $n$-cube of pointed spaces. For the former see the references in 
+* There are  constructions of strict fundamental $\omega$-groupoids  of various types (globular, simplicial, cubical) for a filtered space, and more complicated fundamental [[cat-n-group]] of an $n$-cube of pointed spaces. For the former see the references in 
 
 R. Brown, A new higher homotopy groupoid: the fundamental  globular $\omega$-groupoid of a filtered space, Homotopy, Homology and Applications, 10 (2008), No. 1, pp.327-343.
 
