@@ -9,19 +9,18 @@ Drop a comment here if you feel people's attention should be drawn to some chang
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).
 
 
-+--{.query}
-
-
-
-[[Urs Schreiber|Urs]]: Here is an **administrative announcement**:
-
-1. $n$Lab regulars may wish to create their private webs, such as those listed [here](http://ncatlab.org/web_list). If you want one, please contact me by email.
-
-2. For both these private webs as well as the $n$Lab itself applies: there is no automated backup process of the data (at least I have not installed any, I am not sure what our web hosting company does), but it is easy to create a backup of the wiki by hand, which you should do from time to time: follow the link _export_ in the web you want to backup and choose the link _Markup (Markdownmml)_. The server then sends you a zip-file which contains the source code of all the entries of the web.
-
-=--
-
 ***
+# 2009-01-31
+
+* [[Urs Schreiber|Urs]]
+
+  * created [[model 2-category]] and tried to subsume our discussion about it at [[strict 2-limit]] -- would like ask [[Mike Shulman|Mike]] to check
+
+* [[Ronnie Brown]]
+
+  * created [[higher dimensional algebra]]
+
+
 # 2009-01-30
 
 * [[Urs Schreiber|Urs]]
