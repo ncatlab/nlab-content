@@ -13,6 +13,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-02-01
 
+* [[Andrew Stacey|Andrew]]: After crashing the [[HomePage|nLab]] 3 times I've finally managed to upload something on [[Froelicher space|Frolicher spaces]].  Something is seriously wrong with my syntax - if no one's taken pity on me and cleaned it up I'll do so myself tomorrow.  More importantly, I have a few queries for the more experienced categorists so I'd appreciate someone taking a look at those for me.
+
 * [[Urs Schreiber|Urs]]: thanks, [[Mike Shulman|Mike]], very useful. Is anything similar known for 3-categories?
 
 # 2009-01-31
