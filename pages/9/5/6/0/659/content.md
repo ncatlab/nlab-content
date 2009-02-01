@@ -49,4 +49,4 @@ This theme of using two equivalent categories, one for conjecture and proof, the
 
 
 
-See also [[cat-2-group]]s. 
+See also [[cat-2-group|cat-2-groups]]. 
