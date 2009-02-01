@@ -17,7 +17,7 @@ $Cat^2$ groups are equivalent to [[crossed square]]s.
 
 * Note that to calculate a [[colimit]] it is better to work with crossed squares, but to prove something is a colimit, it is better to work with $cat^2$-groups. 
 
-* $Cat^2$ groups are a special case of [[cat-n-group]]s, which are ... $n$-fold groupoids in the category of groups.
+* $Cat^2$ groups are a special case of [[cat-n-group|cat-n-groups]], which are ... $n$-fold groupoids in the category of groups.
 
 * The use of $n$-fold groupoids in [[Grp]] rather than $n+1$ groupoids means that information contained in the \model' is more 'spread out', but is often **repeated** in different forms in different parts of the model. 
 
