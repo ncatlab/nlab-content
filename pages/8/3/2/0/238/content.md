@@ -10,6 +10,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 
 ***
+
+# 2009-02-01
+
+* [[Urs Schreiber|Urs]]: thanks, [[Mike Shulman|Mike]], very useful. Is anything similar known for 3-categories?
+
 # 2009-01-31
 
 * [[Mike Shulman|Mike]]
