@@ -24,6 +24,8 @@ given actions, the maps $\lambda, \lambda',\mu, \nu$ and $\kappa = \mu\lambda = 
 
 for all $l\in L, \,m, m'\in M,\, n,n'\in N$ and $p\in P$. 
 
+The similarity of these axioms to commutator identities is no accident (see below). 
+
 This should be thought of as a _crossed module of crossed modules_ (in either direction!)
 
 The classical homotopical example $\Pi(X;A,B)$ is determined by a pointed triad $(X; A,B)$ where $A,B \subseteq X$, and $P= \pi_1(A \cap B)$, $M= \pi_2(A, A \cap B), N= \pi_2(B, A \cap B)$ and $L=\pi_3(X; A,B)$. The operations of $P$ are the standard ones and  $h$ is the generalised Whitehead product. (The conventions may be slightly different from the standard ones in homotopy theory.)  This can be generalised to a functor $\Pi: (squares of pointed spaces) \to (crossed squares)$. 
@@ -35,6 +37,14 @@ G.J. Ellis, Crossed squares and combinatorial homotopy, Math. Z., 461 (1993) 93-
 where the fact that that the crossed square associated to a triad is defined directly in terms of certain homotopy classes is important. 
 
 The fact that there is a van Kampen type theorem for $\Pi$ implies that one calculates some nonabelian groups. It also implies that one is calculating some (pointed) homotopy 3-types. 
+
+##Relation to [[cat-2-group]]s##
+
+A crossed module $\mu: M \to P$ determines a cat^1-structure on the semidirect product group $M \rtimes P$. Thus to say that the above crossed square is a _crossed module of crossed modules_ suggests that we should ask for $L \rtimes N \to M \rtimes P$ to be a crossed module, so that there is an action which allows the _big group_ $G= (L \rtimes N) \rtimes (M \rtimes P)$ to be a cat^1-group. Then $G$ becomes a [[cat-2-group]]. The $h$-map of the crossed square derives from a commutator in $G$. 
+
+This equivalence between crossed squares and cat-2-groups confirms the completeness of the axioms for crossed squares. Notice also that to prove a diagram of crossed squares  is a colimit diagram looks as if you have to make appallingly detailed verifications of axioms. It is much easier to prove the corresponding diagram of cat-2-groups is a colimit! 
+
+This theme of using two equivalent categories, one for conjecture and proof, the other for calculation and application to traditional invariants, runs through the story of higher homotopy van Kampen theorems. 
 
 
 
