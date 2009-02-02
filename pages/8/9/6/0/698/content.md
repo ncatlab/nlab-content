@@ -67,11 +67,8 @@ This is just the usual notion of an [[enriched model category]] specialized to e
 
 The original reference, which constructs the natural model structure and its lifting to 2-monads, is:
 
-* Steve Lack, _Homotopy theoretic aspects of 2-monads_ at [math.CT/0607646](http://www.arxiv.org/abs/math.CT/0607646), published as Journal of Homotopy and Related Structures, Vol. 2(2007), No. 2, pp. 229-260
-.
+* Steve Lack, _Homotopy theoretic aspects of 2-monads_ at [math.CT/0607646](http://www.arxiv.org/abs/math.CT/0607646), published as Journal of Homotopy and Related Structures, Vol. 2(2007), No. 2, pp. 229-260.
 
 The projective and injective model structures on diagrams, and the relation between pseudo-limits and homotopy limits, are discussed in the following (especially section 6).
 
-* Nicola Gambino, _Homotopy limits for 2-categories_ ([pdf](http://www.lacim.uqam.ca/~gambino/homotopy.pdf)).
-
-(Published as: Mathematical Proceedings of the Cambridge Philosophical Society 145 (2008) 43-63.)
+* Nicola Gambino, _Homotopy limits for 2-categories_ ([pdf](http://www.lacim.uqam.ca/~gambino/homotopy.pdf)), published as: Mathematical Proceedings of the Cambridge Philosophical Society 145 (2008) 43-63.)
