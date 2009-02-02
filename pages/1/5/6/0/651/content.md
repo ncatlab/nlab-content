@@ -23,7 +23,7 @@ A _morphism_ of Fr&#246;licher spaces, say $(X,C_X,F_X) \to (Y,C_Y,F_Y)$ is a se
 Fr&#246;licher spaces and their morphisms form a category with an obvious faithful functor to set.  The properties of this category are as follows.
 
 +-- {: .num_theorem #FroelicherCategory}
-##### Theorem
+###### Theorem
 The [[category]] of Fr&#246;licher spaces is [[complete category|complete]], [[cocomplete category|cocomplete]], and [[cartesian closed category|cartesian closed]].  It is [[topological category|topological]] over $Set$.  It is an [[construct|amnestic, transportable construct]].
 =--
 
@@ -36,7 +36,7 @@ The [[category]] of Fr&#246;licher spaces is [[complete category|complete]], [[c
 Fr&#246;licher spaces are examples of [[generalized smooth spaces|generalised smooth spaces]].  They are also examples of [[space and quantity|generalised spaces]] in the following sense.
 
 +-- {: .num_defn #GenSpace}
-##### Definition
+###### Definition
 Let $\mathcal{U}$ be a [[category]].  A _generalised $\mathcal{U}$--space_ is a triple $(C,F,c)$ where $C$ is a [[functor|contravariant functor]] $\mathcal{U} \to Set$, $F$ is a [[functor|covariant functor]] $\mathcal{U} \to Set$, and $c$ is a [[natural transformation]] $C \times F \to \mathcal{U}(-,-)$.  We refer to $c$ as _composition_.
 
 A _morphism of generalised $\mathcal{U}$--spaces_ $(C_1,F_1,c_1) \to (C_2,F_2,c_2)$ is a pair of natural transformations $\alpha : C_1 \to C_2$ and $\beta : F_2 \to F_1$ satisfying the identity $c_1(-,\beta(-)) = c_2(\alpha(-),-)$.
@@ -53,7 +53,7 @@ Here, $\mathcal{U}(-,-)$ is the $Hom$--functor on $\mathcal{U}$ (strictly, $\mat
 For a generalised $\mathcal{U}$--space $X = (C,F,c)$, $C(U)$ is to be viewed as the morphisms from an object $U$ to $X$ whilst $F(U)$ as the morphisms to $U$ from $X$.  There is an obvious embedding of $\mathcal{U}$ in the [[category]] of generalised $\mathcal{U}$--spaces.
 
 +-- {: .num_lemma #UEmbed}
-##### Lemma
+###### Lemma
 The assignment
 \[
 U \mapsto (\mathcal{U}(-,U),\mathcal{U}(U,-),\circ), \qquad f \mapsto (f_*,f^*)
@@ -70,7 +70,7 @@ Inside the category of generalised $\mathcal{U}$--spaces one can consider variou
 The condition relevant for Fr&#246;licher spaces is that of [[Isbell duality]].
 
 +-- {: .num_defn #IsbellDuality}
-##### Definition
+###### Definition
 A generalised $\mathcal{U}$--space $(C,F,c)$ is said to satisfy _Isbell duality_ if the following conditions hold for all objects $U$ of $\mathcal{U}$.
 
 1. $C(U) = NatTrans(F,F_U)$
@@ -80,7 +80,7 @@ where $(C_U,F_U,\circ)$ is the generalised $\mathcal{U}$--space corresponding to
 =--
 
 +-- {: .num_theorem #FroelicherDual}
-##### Theorem
+###### Theorem
 The Fr&#246;licher spaces are precisely the generalised $\mathcal{R}$--objects satisfying Isbell Duality for $\mathcal{R}$ the category with a single object and morphism set $C^\infty(\mathcal{R}, \mathcal{R})$.
 
 More generally, if $\mathcal{U}$ is a full subcategory of _known smooth spaces_ then the Fr&#246;licher spaces are precisely the generalised $\mathcal{U}$--objects satisfying Isbell Duality.
