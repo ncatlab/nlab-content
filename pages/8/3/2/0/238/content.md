@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-02-02
 
+* [[Eric Forgy|Eric]]
+
+  * created [[Position, Velocity, and Acceleration]] to help augment the discussion going on at the [n-Cafe](http://golem.ph.utexas.edu/category/2009/01/the_third_time_is_the_charm.html#c021749)
+
 * [[Andrew Stacey|Andrew]]: continued with [[Froelicher space]]s.  In particular, laid out some of the details of the Isbell duality proof.
 
 * [[Urs Schreiber|Urs]]
