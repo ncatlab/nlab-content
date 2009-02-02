@@ -195,5 +195,6 @@ There must be better ways to say this. But maybe this helps to indicate what I a
 #References#
 
 * [Orbifold String Topology: Paths in Smooth Categories](http://golem.ph.utexas.edu/string/archives/000735.html)
+* [A connection whose curvature is the Lie bracket](http://arxiv.org/abs/0803.3321)
 
 category: drafts
