@@ -209,7 +209,7 @@ $$
     \mathbf{E}_{\mathbf{B}H}G &\to \gt& \mathbf{B}G &\leftarrow& \mathbf{B}H
   }
 $$
-which is objectwise a weak equivalence and such that the horizontal morphism on the bottom left is a fibration. By the above statement the ordinary limit of the hower horizontal diagram is weakly equivalent to the homotopy limit we are looking for. But this is manifestly the desired action groupoid:
+which is objectwise a weak equivalence and such that the horizontal morphism on the bottom left is a fibration. By the above statement the ordinary limit of the lower horizontal diagram is weakly equivalent to the homotopy limit we are looking for. But this is manifestly the desired action groupoid:
 
 $$
   holim\left(
