@@ -11,7 +11,17 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+
 # 2009-02-02
+
+* [[Urs Schreiber|Urs]]
+
+  * added as a further example the computation of 
+   $holim(\mathbf{B}H \to \mathbf{B}G \leftarrow \mathbf{B}H) \simeq H \backslash\backslash G // H$ to [[homotopy limit]]
+
+  * many thanks to [[Mike Shulman|Mike]] and [[Timothy Porter|Tim]] for all the further details at [[homotopy limit]]! 
+
+  * re [[Mike Shulman|Mike]]'s suggestion: yes, I'd be in favor of archiving the latest changes list here more frequently 
 
 * [[Mike Shulman|Mike]]:
 
