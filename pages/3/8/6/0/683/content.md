@@ -35,7 +35,7 @@ $$
   holim_D F := (R lim_D)F
   \,.
 $$
-In the enriched case, this must be suitably modified to deal with [[weighted limit|weighted limits]].
+In the enriched case, this must be suitably modified to deal with [[weighted limit|weighted limits]] as well as enrichment of both $C$  and $D$.
 
 
 ### Local definition ##
@@ -268,7 +268,7 @@ _Descent objects_ as they appear in [[descent and codescent]] are naturally conc
 
 * Dwyer, Hirschhorn, Kan, Smith, _Homotopy limit functors in model categories and homotopical categories_.  Defines global homotopy limits in homotopical categories and computes them using local constructions.
 
-* Michael Shulman, [Homotopy limits and colimits and enriched homotopy theory](http://arxiv.org/abs/math/0610194).  Compares local and global homotopy limits in enriched homotopical categories.
+* Michael Shulman, [Homotopy limits and colimits and enriched homotopy theory](http://arxiv.org/abs/math/0610194).  Constructs and compares local and global weighted homotopy limits in enriched homotopical categories.
 
 * Nicola Gambino, _Homotopy limits for 2-categories_ ([pdf](http://www.lacim.uqam.ca/~gambino/homotopy.pdf)), published as: Mathematical Proceedings of the Cambridge Philosophical Society 145 (2008) 43-63.)  Proves that homotopy limits in a 2-category with its natural model structure coincide with 2-categorical [[strict 2-limit|pseudo-limits]], and hence give [[2-limit]]s.
 
@@ -281,4 +281,7 @@ _Descent objects_ as they appear in [[descent and codescent]] are naturally conc
 [[Tim Porter|Tim]]  Mike, are you intending to treat the case of when the domain category, $D$ is the above, is enriched as well? This would handle the example of homotopy limts of homotopy coherent diagrams, both in Vogt's sense and in the simplicially enriched case looked at by Bourn and Cordier. This would also allow the $G$ in one of the examples to be a simplicial or topological group, or to be (?) and A-infinity category. (Some of those examples may be already dealt with in others of the entries as different people classify things in different ways.)
 
 Perhaps some of the more classical referencs, Vogt, Bousfield-Kan etc. might be included for completeness.
+
+[[Mike Shulman|Mike]]: Yes, certainly; my paper referenced above deals with the case when $D$ is enriched as well.  There are cofibrancy technicalities, of course.  I'm not against including the classical references, although I find them fairly impenetrable myself.
+
 =--
