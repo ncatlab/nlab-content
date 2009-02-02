@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-02-02
 
+* [[Andrew Stacey|Andrew]]: continued with [[Froelicher space]]s.  In particular, laid out some of the details of the Isbell duality proof.
+
 * [[Urs Schreiber|Urs]]
 
   * added as a further example the computation of 
