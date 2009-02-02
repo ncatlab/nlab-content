@@ -2,7 +2,9 @@ $(n,r)$-categories are a generalisation of both $n$-[[n-category|categories]] an
 
 # Definition
 
-An __$(n,r)$-category__ is an $\infty$-[[infinity-category|category]] (which you may interpret as weakly or strictly as you like) such that:
+Given a notion of $n$-[[n-category|category]] (as weak or strict as you like), then an **$(n,r)$-category** can be defined to be an $n$-category such that
+* any $j$-morphism in an [[equivalence]] for $j\gt r$.
+We can also combine this with the definition of $n$-categories in terms of $\infty$-[[infinity-category|categories]] (weak or strict), and thereby define an __$(n,r)$-category__ to be an $\infty$-category such that:
 * any $j$-morphism is an [[equivalence]], for $j > r$;
 * any two parallel $j$-morphisms are equivalent, for $j > n$.
 As explained below, we may assume that $n \geq -2$ and $0 \leq r \leq n + 1$ (but still allowing $r = 0$ for $n = - 2$).
