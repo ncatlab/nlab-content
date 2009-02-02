@@ -168,3 +168,10 @@ This example is important in the context of [[groupoidification]] and [[geometri
 * Jacob Lurie, [Higher topos theory](http://www-math.mit.edu/~lurie/topoibook/highertopoi.pdf).  Lots of stuff about $(\infty,1)$-categories, including the computation of homotopy limits (section 4.2.4).
 
 * Andre Hirschowitz, Carlos Simpson.  [Descent pour les n-champs](http://arxiv.org/abs/math.AG/9807049).  Probably there is some good stuff in here about homotopy limits and limits in $(\infty,n)$-categories.
+
+
++--{.query}
+[[Tim Porter|Tim]]  Mike, are you intending to treat the case of when the domain category, $D$ is the above, is enriched as well? This would handle the example of homotopy limts of homotopy coherent diagrams, both in Vogt's sense and in the simplicially enriched case looked at by Bourn and Cordier. This would also allow the $G$ in one of the examples to be a simplicial or topological group, or to be (?) and A-infinity category. (Some of those examples may be already dealt with in others of the entries as different people classify things in different ways.)
+
+Perhaps some of the more classical referencs, Vogt, Bousfield-Kan etc. might be included for completeness.
+=--
