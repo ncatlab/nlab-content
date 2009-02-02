@@ -67,7 +67,7 @@ On the other hand, we may also consider a category $C$ enriched over $n$-categor
 
 # Examples #
 
-### Homotopy pullbacks ##
+## Homotopy pullbacks ##
 
 Let $D = \{ 1\to 0 \leftarrow 2\}$ be the pullback [[diagram]], so that limits over it compute [[pullback]]s, and assume that $F : D \to C$ is such that
 $$
@@ -85,7 +85,7 @@ then
 Conversely this means that on an arbitrary pullback diagram  $holim_D F$ can be computed by finding a natural transformation $F \Rightarrow R F$ whose component morphisms are weak equivalences and such that $R F$ satisfies the above conditions.
 
 
-### Universal bundles ##
+### Homotopy pullback of a point over a group / universal bundles ##
 
 Let $C =$ [[Grpd]] equipped with the [[folk model structure]]. Write $G$ for a [[group]] regarded as a discrete monoidal groupoid (elements of $G$ are the objects of the groupoids and all morphisms are identities) write and $\mathbf{B}G$ for the corresponding one-object [[groupoid]] (single object, one morphism per element of $G$). Write $pt$ for the terminal groupoid (one object, no nontrivial morphism). 
 Notice that there is a unique functor $pt \to \mathbf{B}G$.
@@ -146,10 +146,115 @@ $$
 $$
 This example is important in the context of [[groupoidification]] and [[geometric function theory]], as described there.
 
+### Homotopy pullback of a subgroup over a group ###
+
+The above example generalizes straightforwardly
+to the case where the trivial 
+inclusion $pt \to \mathbf{B}G$ is replaced by any inclusion  $\mathbf{B}H \hookrightarrow \mathbf{B}G$ of any subgroup $H$ of $G$ pretty much literally by replacing $pt$ by $\mathbf{B}H$ throughout. 
+
+One finds
+
+$$
+  holim\left(
+   \array{
+     && \mathbf{B}H
+     \\
+     && \downarrow
+     \\
+     \mathbf{B}H &\to& \mathbf{B}G
+   }
+  \right)
+  \stackrel{\simeq}{\to}  H \backslash\backslash G//H
+$$
+
+where on the right we have the [[action groupoid]] of $H \times H$ acting on $G$ by multiplication from the left (first factor) and the right (second factor).
+
+To see this, we again build a fibrant replacement of the pullback diagram. Following the constructions at [[generalized universal bundle]] consider first the groupoid $\mathbf{E}_{\mathbf{B}H}G$ given by the pullback diagram
+
+$$
+  \array{
+    \mathbf{E}_{\mathbf{B}H}G &\to& \mathbf{B}H
+    \\
+    \downarrow && \downarrow
+    \\
+    [I, \mathbf{B}G] &\stackrel{d_0}{\to}& \mathbf{B}G
+    \\
+    \downarrow^{d_1} 
+    \\
+    \mathbf{B}G
+  }
+  \,.
+$$
+
+As at [[generalized universal bundle]] one proves that the left vertical morphism
+$\mathbf{E}_{\mathbf{B}H}G \to \mathbf{B}G$ is a fibration.
+
+Now, notice (which was implicit in the above example) that since $[I,\mathbf{B}G]$ is a [[path object]] in a [[category of fibrant objects]] we have a [[section]]
+$
+  \mathbf{B}G \stackrel{\simeq}{\to}^\sigma  [I, \mathbf{B}G] 
+$
+of $[I,\mathbf{B}G] \stackrel{d_0}{\to} \mathbf{B}G$. In the above pullback diagram this induces a morphism 
+$
+  \mathbf{B}H \stackrel{\sigma}{\to} \mathbf{E}_{\mathbf{B}H}G
+$ 
+making the obvious diagram commute. Now, the latter morphism, being the pullback of an acyclic fibration is an acyclic fibration, so its right inverse $\sigma$ is a weak equivalence. This way we obtain the morphism of pullback diagrams
+
+$$
+  \array{
+    \mathbf{B}H &\to& \mathbf{B}G &\leftarrow& \mathbf{B}H
+    \\
+    {}^\simeq\downarrow^{\sigma} && \downarrow^{Id} 
+     && \downarrow^{Id} 
+    \\
+    \mathbf{E}_{\mathbf{B}H}G &\to \gt& \mathbf{B}G &\leftarrow& \mathbf{B}H
+  }
+$$
+which is objectwise a weak equivalence and such that the horizontal morphism on the bottom left is a fibration. By the above statement the ordinary limit of the hower horizontal diagram is weakly equivalent to the homotopy limit we are looking for. But this is manifestly the desired action groupoid:
+
+$$
+  holim\left(
+   \array{
+     && \mathbf{B}H
+     \\
+     && \downarrow
+     \\
+     \mathbf{B}H &\to& \mathbf{B}G
+   }
+  \right)
+  \stackrel{\simeq}{\to}
+  \lim\left(
+   \array{
+     && \mathbf{B}H
+     \\
+     && \downarrow
+     \\
+     \mathbf{E}_{\mathbf{B}H} G &\to& \mathbf{B}G
+   }
+  \right)
+  \simeq
+  \lim\left(
+   \array{
+     && [I,\mathbf{B}G]
+     \\
+     && \downarrow^{d_0 \times d_1}
+     \\
+     \mathbf{B}H \times \mathbf{B}H 
+     &\to& \mathbf{B}G \times \mathbf{B}G
+   }
+  \right)
+  =
+  H \backslash\backslash G//H
+  \,.
+$$
+
+This example, too, is important at [[geometric function theory]].
+
+
 
 ### Homotopy span traces ##
 
-* see [[span trace]] for more examples
+* see the homotopy span traces discussed at 
+  [[span trace]] for more examples
 
 
 
