@@ -11,6 +11,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-02-02
+
+* [[Mike Shulman|Mike]]:
+
+  * Answered Urs's question in a very long-winded way by adding lots of stuff to [[homotopy limit]].
+  * What would people think about rotating (i.e. archiving) the [[latest changes]] every month, rather than every year?  It's pretty big right now and it will probably be immense by next December.
+
 # 2009-02-01
 
 * [[Andrew Stacey|Andrew]]: After crashing the [[HomePage|nLab]] 3 times I've finally managed to upload something on [[Froelicher space|Frolicher spaces]].  Something is seriously wrong with my syntax - if no one's taken pity on me and cleaned it up I'll do so myself tomorrow.  More importantly, I have a few queries for the more experienced categorists so I'd appreciate someone taking a look at those for me.
