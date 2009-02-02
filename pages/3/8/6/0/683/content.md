@@ -1,6 +1,6 @@
 # Idea #
 
-In great generality, a _homotopy limit_ is a way of constructing appropriate sorts of limits in a [[higher category theory|(weak) higher category]] using some "presentation" of that higher category by a stricter structure.  The general study of such presentations is [[homotopy theory]].
+In great generality, a _homotopy limit_ is a way of constructing appropriate sorts of [[limit]]s in a [[higher category theory|(weak) higher category]] using some "presentation" of that higher category by a stricter structure.  The general study of such presentations is [[homotopy theory]].
 
 In classical homotopy theory, the presentation is given by a [[category with weak equivalences]], possibly satisfying extra axioms such as those of a [[homotopical category]], a [[category of fibrant objects]], or a [[model category]].  Such structures are considered to present an $(\infty,1)$-[[(infinity,1)-category|category]], and homotopy limits give a way of constructing the appropriate sort of "$(\infty,1)$-limits" in an $(\infty,1)$-category.
 
@@ -40,7 +40,7 @@ In the enriched case, this must be suitably modified to deal with [[weighted lim
 
 ### Local definition ##
 
-This definition is rather more complicated, but rather more intuitive.  It requires making precise the notion of a _homotopy commutative cone_ over a diagram; one then defines the homotopy limit $L$ of a functor $F:D\to C$ to be a representing object for such cones, in the sense that we have a (weak) equivalence
+This definition is rather more complicated, but rather more intuitive.  It requires making precise the notion of a _[[homotopy]] commutative cone_ over a diagram; one then defines the homotopy limit $L$ of a functor $F:D\to C$ to be a representing object for such cones, in the sense that we have a (weak) equivalence
 $$ Map(X,L) \simeq HoCones(X,F)$$
 of hom-objects (spaces or simplicial sets in the classical context; enriched hom-objects in the enriched context).
 
@@ -49,7 +49,7 @@ of hom-objects (spaces or simplicial sets in the classical context; enriched hom
 
 ### Global versus local ##
 
-The global definition is formulated in terms of _weak equivalences_ only, while the local definition is formulated in terms of _homotopies_ only.  However, in practical cases, derived functors exist because their input objects (in this case, the diagram $F$) can be replaced by "good" (fibrant and/or cofibrant) objects in such a way that weak equivalences become _homotopy_ equivalences.  The derived functor of $lim$ at the input object $F$ is then computed by applying the ordinary functor $lim$ to a good replacement $R F$ of $F$.
+The global definition is formulated in terms of _weak equivalences_ only, while the local definition is formulated in terms of _[[homotopy|homotopies]]_ only.  However, in practical cases, derived functors exist because their input objects (in this case, the diagram $F$) can be replaced by "good" (fibrant and/or cofibrant) objects in such a way that weak equivalences become _homotopy_ equivalences.  The derived functor of $lim$ at the input object $F$ is then computed by applying the ordinary functor $lim$ to a good replacement $R F$ of $F$.
 
 It then turns out that the "good" (precisely, "fibrant") replacement $R F$ "builds in" precisely the right homotopies so that an ordinary cone over $R F$ is the same as a homotopy-commutative cone over $F$.  Therefore, $lim (R F)$, which is the global homotopy-limit of $F$, is a representing object for homotopy-commutative cones over $F$, and thus is also a local homotopy-limit of $F$.  There is a dual argument for colimits using cofibrant replacements.
 
@@ -254,9 +254,11 @@ This example, too, is important at [[geometric function theory]].
 ### Homotopy span traces ##
 
 * see the homotopy span traces discussed at 
-  [[span trace]] for more examples
+  [[span trace]] for more examples of homotopy pullbacks
 
+##Descent objects##
 
+_Descent objects_ as they appear in [[descent and codescent]] are naturally conceived as homotopy limits. See also [[infinity-stack]].
 
 # References #
 
