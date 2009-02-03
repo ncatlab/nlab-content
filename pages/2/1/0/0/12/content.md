@@ -155,4 +155,12 @@ I don\'t know what makes the difference.
 
 $\leftrightarrow$
 
++-- {.query}
+The example of query blocks on the HOWTO page is this syntax
+=--
+
++-- {: .query}
+But the maruku page says that this is right.  Do both work?
+=--
+
 category: meta
