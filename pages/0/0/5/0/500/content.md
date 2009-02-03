@@ -63,3 +63,7 @@ More generally, there is a bicategory whose objects or 0-cells are rings $R, S, 
 This generalized module theory can be pursued much further. 
 
 (Lost a bunch of work, due to vagaries of computers. Sigh. Will return later.) 
+
+#Blog resources#
+
+Todd Trimble talks about Yoneda reduction on the $n$Caf&#233; [here](http://golem.ph.utexas.edu/category/2008/01/the_concept_of_a_space_of_stat.html#c014365).
