@@ -15,6 +15,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 * [[Andrew Stacey|Andrew]]
 
   * Implemented the archive of latest changes (scroll down to the bottom of this page to get the link)
+  * Added a fair bit more on Isbell Duality in [[Froelicher space]]s.  A few more general queries for those a little more versed in the lore of categories than me.
 
 # 2009-02-02
 
