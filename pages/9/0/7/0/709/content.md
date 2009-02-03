@@ -6,11 +6,11 @@ The **delooping hypothesis** is one of the "guiding hypotheses of higher categor
 
 The identification involves a degree shift: the $i$-morphisms of a $k$-tuply monoidal $n$-category become $(i+j)$-morphisms in the associated $(k-j)$-tuply monoidal $(j-1)$-connected $(n+j)$-category.
 
-Here _$(j-1)$-connected_ means that any two $i$-morphisms are [[equivalence|equivalent]] for $i\le j-1$.  Also, _$0$-tuply monoidal_ is interpreted as meaning [[pointed object|pointed]].  We may also allow $n$ to be of the form [[(n,r)-category|(n,r)]] or $(\infty,r)$, with the usual conventions that $(n,r)+j=(n+j,r+j)$, $\infty+j=\infty$, and so on.  In particular, taking $j=k$ we have:
+Here _$(j-1)$-connected_ means that any two parallel $i$-morphisms are [[equivalence|equivalent]] for $i\le j-1$.  Also, _$0$-tuply monoidal_ is interpreted as meaning [[pointed object|pointed]].  We may also allow $n$ to be of the form [[(n,r)-category|(n,r)]] or $(\infty,r)$, with the usual conventions that $(n,r)+j=(n+j,r+j)$, $\infty+j=\infty$, and so on.  In particular, taking $j=k$ we have:
 
 * $k$-tuply monoidal $n$-categories can be identified with pointed $(k-1)$-connected $(n+k)$-categories.
 
-The $(n+j)$-category associated to a $k$-tuply monoidal $n$-category $C$ is called its **$j$-fold delooping** and sometimes written $B^j C$.  Conversely, any $k$-tuply monoidal $n$-category $C$ with a point $*\in C$ has a **loop object** $\Omega C = C(*,*)$ which is a $(k+1)$-tuply monoidal $(n-1)$-category.
+The $(n+j)$-category associated to a $k$-tuply monoidal $n$-category $C$ is called its **$j$-fold delooping** and sometimes written $B^j C$.  Conversely, any $k$-tuply monoidal $n$-category $C$ with a point $*\in C$ has a [[loop space object]] $\Omega C = C(*,*)$ which is a $(k+1)$-tuply monoidal $(n-1)$-category.
 
 
 # Remarks
