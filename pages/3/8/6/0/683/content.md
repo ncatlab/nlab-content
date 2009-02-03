@@ -85,7 +85,36 @@ then
 Conversely this means that on an arbitrary pullback diagram  $holim_D F$ can be computed by finding a natural transformation $F \Rightarrow R F$ whose component morphisms are weak equivalences and such that $R F$ satisfies the above conditions.
 
 
+###Based loop objects as homotopy limits###
+
+Let $C$ be a [[category of fibrant objects]]. Then for $B$ any [[pointed object]] with point $pt \stackrel{pt_B}{\to} B$ we have
+
+$$
+  holim(  pt \stackrel{pt_B}{\to}  B \stackrel{pt_B}{\leftarrow} pt)
+  \;\stackrel{\simeq}{\to}\;
+  \Omega_{pt} B
+  \,,
+$$
+where $\Omega_{pt} B$ is the based [[loop space object]] of $B$.
+
+This follows from the above prescription by noticing that the [[generalized universal bundle]] $\mathbf{E}_{pt} B$ provides a fibrant replacement of the pullback diagram in that we have
+
+$$
+  \array{
+     pt &\to& B &\leftarrow& pt
+     \\
+     \downarrow^{\simeq} && \downarrow^{Id} && \downarrow^{Id}
+     \\
+    \mathbf{E}_{pt}B &\to& B &\leftarrow& pt
+  }
+$$
+
+with all vertical morphisms weak equivalences and with the left bottom horizontal morphism a fibration.
+
+
 ### Homotopy pullback of a point over a group / universal bundles ##
+
+As a special case of the above general example we get the following.
 
 Let $C =$ [[Grpd]] equipped with the [[folk model structure]]. Write $G$ for a [[group]] regarded as a discrete monoidal groupoid (elements of $G$ are the objects of the groupoids and all morphisms are identities) write and $\mathbf{B}G$ for the corresponding one-object [[groupoid]] (single object, one morphism per element of $G$). Write $pt$ for the terminal groupoid (one object, no nontrivial morphism). 
 Notice that there is a unique functor $pt \to \mathbf{B}G$.
