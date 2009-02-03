@@ -28,6 +28,7 @@
 
     * [[generalized smooth space|Generalized Smooth Spaces]]
 
+      * [[Froelicher space|Frölicher spaces]]
 
 * [[algebra|Algebra]]
 
