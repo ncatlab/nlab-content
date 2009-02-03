@@ -153,4 +153,6 @@ Nor can you put it inside links: [[$\infty$-category]].
 But you can put it inside *some* markup, such as boldface: **I love $\infty$-categories!!!**
 I don\'t know what makes the difference.
 
+$\leftrightarrow$
+
 category: meta
