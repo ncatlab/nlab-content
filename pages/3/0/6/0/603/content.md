@@ -196,9 +196,9 @@ of **cell**s of $\Gamma$ of **shape** $D$.
 
 For $C$ a category with colimits let
 $$
-  MultiCoSpan(C) := Cat(-,C)_\sim : \overline{Posets} \to Set
+  MultiCoSpan(C) := Cat(-,C) : \overline{Posets} \to Set
 $$
-be the presheaf which assigns to any poset $D$ the set of [[isomorphism]] classes in the [[functor category]] $Cat(D,C) = Funct(D,C)$ of functors  from $D$ to $C$.
+be the presheaf which assigns to any poset $D$ the set $Cat(D,C) = Funct(D,C)$ of [[functor]]s  from $D$ to $C$.
 
 =--
 
@@ -244,6 +244,7 @@ $$
   MultiSpan(C) := MultiCoSpan(C^{op})
 $$
 for the **hyperstructure of multi-spans** in $C$.
+=--
 
 +-- {: .un_defn}
 ###### Definition
@@ -402,4 +403,138 @@ $$
 $$
 
 This is indeed the ordinary composite of the two [[cospan]]s $F$ and $F'$.
+
+### Bordism hyperstructure ###
+
+Let 
+$$
+  I :=
+  \left(
+  \array{
+    && [0,1]
+    \\
+    & {}^{in}\nearrow && \nwarrow^{out}
+    \\
+    pt &&&& pt
+  }
+  \right)
+$$
+be the standard [[interval object]] in [[Top]], regarded as a [[cospan]].
+
++-- {: .un_defn}
+###### Definition
+
+Let $ExtendedCobordisms$, the **hyperstructure of extended cobordisms**, be the smallest sub-hyperstructure of $MultiCospans(Top)$ which contains the interval object $I$ and is closed under cartesian product $\times$ of multi-cospans in $Top$.
+
+=--
+
+This means that multi-cospans in $ExtendedCobordisms$ arise from iteratively tensoring with the interval and forming pushouts, which amounts to foming [[co-span co-trace]]s.
+
+For instance with the interval $I$ there is also the circle $S^1$ in $ExtendedCobordisms$, arising as the composition of the interval with itself over both legs
+$$
+  \array{
+    && I
+    \\
+    & \nearrow &\downarrow& \nwarrow
+    \\
+    pt &&S^1&& pt 
+    \\
+    & \searrow &\uparrow& \swarrow
+    \\
+    && I
+  }
+  \,.
+$$
+
+With the circle there is then also the cylinder
+
+$$
+  \left(
+  \array{
+    && S^1
+    \\
+    & \nearrow && \nwarrow
+    \\
+    \emptyset &&&& \emptyset
+  }
+  \right)
+  \times
+  \left(
+  \array{
+    && I
+    \\
+    & {}^{in}\nearrow && \nwarrow^{out}
+    \\
+    pt &&&& pt
+  }
+  \right)
+  =
+  \left(
+  \array{
+    && S^1 \times I 
+    \\
+    & {}^{in}\nearrow && \nwarrow^{out}
+    \\
+    S^1 &&&& S^1
+  }
+  \right)  
+  \,.
+$$
+
+With the cylinder there is also the torus
+
+$$
+  \array{
+    && S^1 \times I
+    \\
+    & \nearrow &\downarrow& \nwarrow
+    \\
+    S^1 &&T^2&& S^1 
+    \\
+    & \searrow &\uparrow& \swarrow
+    \\
+    && S^1 \times I
+  }
+  \,.
+$$
+
+Etc. Then there are the extended cobordisms proper, which have deeper layers of sub-cells. For instance the product of the interval with itself gives the disk regarded as an extended cobordisms
+
+$$
+  \left(
+  \array{
+    && I
+    \\
+    & {}^{in}\nearrow && \nwarrow^{out}
+    \\
+    pt &&&& pt
+  }
+  \right)
+  \times
+  \left(
+  \array{
+    && I
+    \\
+    & {}^{in}\nearrow && \nwarrow^{out}
+    \\
+    pt &&&& pt
+  }
+  \right)
+  =
+  \left(
+  \array{
+    pt &\to& I &\leftarrow& pt
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    I &\to&  I^2  &\leftarrow& I
+    \\
+    \uparrow && \uparrow && \uparrow
+    \\
+    pt &\to& I &\leftarrow& pt
+  }
+  \right)  
+$$
+
+with four 1-dimensional and four 0-dimensional boundary components.
 
