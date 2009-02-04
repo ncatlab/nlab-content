@@ -60,3 +60,20 @@ Nils Baas has made, in print and in private communication, suggestions for a for
   * The birth of the idea of [[multispan]]s as a formalization of hyperstructures is mentioned in [this comment](http://golem.ph.utexas.edu/category/2007/11/category_theory_and_biology.html#c013165). 
 Its application to the description of extended cobordisms and the [[generalized tangle hypothesis]] is topic of some thought chatted about at [this entry](http://golem.ph.utexas.edu/category/2008/05/hopkinslurie_on_baezdolan.html#c021486).
 
+
+***
+
+#Laboratory section#
+
++--{.query}
+[[Urs Schreiber|Urs]]: I am thinking about a way to formalize the idea of hyperstructure with a concrete application to extended quantum field theory and the Baez-Dolan hypothesis in mind. I would to develop this in the following here on this page. If things work out as hoped for, this should eventually become an entry in itw own right. If not, this should eventually be discarded
+How do I ask a question?
+=--
+
++-- {: .un_defn}
+###### Definition
+
+Write $Posets$ for the category of small [[poset]]s. $\overline{hhh}$
+
+=--
+
