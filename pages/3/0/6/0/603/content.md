@@ -402,3 +402,4 @@ $$
 $$
 
 This is indeed the ordinary composite of the two [[cospan]]s $F$ and $F'$.
+
