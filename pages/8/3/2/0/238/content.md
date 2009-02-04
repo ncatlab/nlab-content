@@ -10,6 +10,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 
 ***
+# 2009-02-04
+
+* [[Urs Schreiber|Urs]]:
+
+  * added a "laboratory section" to [[hyperstructure]] in which I am proposing a formalization of the concept
+
+  * created [[dagger category]]; started filling [[dagger compact category]] with content
+
 # 2009-02-03
 
 * [[Andrew Stacey|Andrew]]
