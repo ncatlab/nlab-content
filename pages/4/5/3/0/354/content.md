@@ -29,6 +29,17 @@ $$
   \,.
 $$
 
+This in turn means that the map from $n$-simplices to $(n,i)$-horns is an [[epimorphism]]
+$$
+  [\Delta[n], S] \to\gt [\Lambda^i[n],S]
+  \,.
+$$
+
+In this form the Kan condition is useful for defining [[internal category|internal]] Kan complexes: for instance a _smooth Kan complex_ can be defined as a simplicial object in [[Diff]] such that the morphisms
+$
+  [\Delta[n], S] \to [\Lambda^i[n],S]
+$
+are _surjective submersions_.
 
 #Remarks#
 
