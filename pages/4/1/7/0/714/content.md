@@ -22,11 +22,11 @@ a _unitary_ [[FQFT|functorial QFT]] of dimension $n$ is supposed to be a functor
 
 #Definition#
 
-A **dagger category** is a [[category]] $C$ equipped with a functor
+A **dagger category** is a [[category]] $C$ equipped with a contravariant functor
 $$
-  \dagger : C^{op} \to C
+  \dagger : C \to C
 $$
-from its [[opposite category]] which is the identity map on $Obj(C)$.
+which is the identity on objects, and which satisfies $\dagger \circ \dagger = \mathrm{id}_C$.
 
 #Examples#
 
