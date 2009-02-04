@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-02-04
 
+* [[Ronnie Brown]]
+
+  * added discussion of _strict versions of higher homotopy groupoids_ to [[fundamental infinity-groupoid]]
+
 * [[Urs Schreiber|Urs]]:
 
   * added a "laboratory section" to [[hyperstructure]] in which I am proposing a formalization of the concept
