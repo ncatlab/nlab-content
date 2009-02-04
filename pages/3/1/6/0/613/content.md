@@ -11,28 +11,39 @@ with $\Delta^n$ denoting the standard topological $n$-[[simplex]] (familiar from
 
 #Strict versions of higher homotopy groupoids#
 
-It is not so obvious how to define higher homotopy groupoids, generalising the fundamental groupoid to higher dimensions. It is possible to say that all you need is the singular complex $SX$ of the topological space, and that this is some kind of weak infinity-category, since it is a Kan complex. But even this fact is not so clear, since as is standard, the Kan extension condition is due to a property of the models, namely that there is a retraction from the simplex $\Delta^n$ to $\Lambda^{n-1}_i$, the union of all the faces of $\Delta^n$ except the $i$th. So one would also like to axiomatise the properties of these fillers of horns in $SX$. This would be interesting from the algebraic point of view because such a retraction gives in some sense one face of the simplex as a kind of composition of the other faces. Problems are that the retraction described is not unique; and what are the axioms of composites of such retractions?
+It is not so obvious how to define higher homotopy groupoids which  generalise the fundamental groupoid to higher dimensions. It is possible to say that all you need is the singular complex $SX$ of the topological space, and that this is some kind of weak infinity-category, since it is a [[Kan complex]]. But even this fact has further problems, since as is standard, the Kan extension condition is due to a property of the models, namely that there is a retraction from the simplex $\Delta^n$ to $\Lambda^{n-1}_i$, the union of all the faces of $\Delta^n$ except the $i$th. So one would also like to axiomatise the properties of these fillers of horns in $SX$. This would be interesting from the algebraic point of view because such a retraction gives in some sense one face of the simplex as a kind of composition of the other faces. Problems are that: the retraction described is not unique; and what are the axioms on composites of such retractions, i.e. on subdivisions of subdivisions? Maybe there are good answers! 
 
-One of the properties one would like of a proposed infinity-groupoid $G$ for a space $X$ is that the $r$-dimensional homotopy of $X$ is modelled in $r$-dimensional structure  of $G$. An immediate problem is that every space has the weak homotopy type of the classifying space of some category $C$; so where is the $r$-dimensional homotopy of $X$ reflected in the chosen $C$? Replacing $C$ by some weak form of $n$-category does not obviously help matters. 
+One of the properties one would like of a proposed infinity-groupoid $G$ for a space $X$ is what one might call the **dimension condition**: _the $r$-dimensional homotopy of $X$ is modelled in $r$-dimensional structure  of $G$_. An immediate problem is that every space has the weak homotopy type of the classifying space of some category $C$; so where is the $r$-dimensional homotopy of $X$ reflected in the chosen $C$? Replacing $C$ by some weak form of $n$-category does not obviously help matters. 
 
 There is a strict homotopy 2-groupoid for a Hausdorff space defined by  Hardie, K. A.; Kamps, K. H.; Kieboom, R. W. (MR1785844) and this was later developed into a homotopy double groupoid by Kamps et al. There is no $n$-dimensional version of these ideas on offer. 
 
-A strict cubical omega-groupoid $\rho X_*$ for a filtered space $X_*$ was defined by Brown and Higgins in 1981. Form the filtered cubical complex $R X_*$ which in dimension $n$ consists of of filtered maps $I^n_* \to X_*$ and take filter homotopy classes of these _relative to the vertices_. The proof that the composition in $RX_*$ are inherited by $\rho X_*$ is one of the key points of the development. 
+A strict cubical omega-groupoid $\rho X_*$ for a filtered space $X_*$ was defined by Brown and Higgins in 1981. Form the filtered cubical complex $R X_*$ which in dimension $n$ consists of of filtered maps $I^n_* \to X_*$ and take filter homotopy classes of these _relative to the vertices_. The proof that the compositions in $RX_*$ are inherited by $\rho X_*$ is one of the key points of the development. 
 
-It turns out that $\rho X_*$ is equivalent in a clear sense to the crossed complex $\Pi X_*$ defined using relative homotopy groups by Blakers in 1948 (with other terminology) and that the homotopy types by crossed complexes, or by the corresponding globular gadget, are restricted, essentially the _linear_ homotopy types, no quadratic information.  Nonetheless, it is well known in mathematics that linear approximations can be useful. 
+It turns out that $\rho X_*$ is equivalent in a clear sense to the crossed complex $\Pi X_*$ defined using relative homotopy groups by Blakers in 1948 (with other terminology) and that the homotopy types modelled by crossed complexes, or by the corresponding globular or cubical gadget, are restricted, essentially to the _linear_ homotopy types, with no quadratic information.  Nonetheless, it is well known in mathematics that linear approximations can be useful. 
 
-Loday's paper of 1982 on _Spaces with finitely many nontrivial homotopy groups_ introduced the  entirely new idea of a _cubical resolution_ of a space. Some details were completed by Richard Steiner. Loday also introduced the fundamental [[cat-n-group]] of an $n$-cube of spaces. In this way we get a model of a space $X$ by a multiple groupoid in which the $r$-dimensional homotopy of $X$ occurs in the right place in the model. Also you can calculate something with this model, and it has led to new algebraic constructions, such as a nonabelian tensor product of groups. 
+Loday's paper of 1982 on _Spaces with finitely many homotopy groups_ introduced the  entirely new idea of a _cubical resolution_ of a space. Some details were completed by Richard Steiner. Loday also introduced the fundamental [[cat-n-group]] of an $n$-cube of spaces. In this way we get a model of a space $X$ by a multiple groupoid in which the $r$-dimensional homotopy of $X$ occurs in the right place in the model. Also you can calculate something with this model, and it has led to new algebraic constructions, such as a nonabelian tensor product of groups, with homotopical applications.  
+
+These strict groupoid models do satisfy the dimension condition. 
+
+There are now uses of models of $n$-types in areas of homological algebra. 
 
 
-
-There are now uses of $n$-cubes in areas of homological algebra. 
-
-
-
-*  etc. pp.
 
 #Remarks#
 
 * The idea of some fundamental $\infty$-groupoid plays a crucial role in the [[homotopy hypothesis]].
 
-*The question remains: what is such a construction supposed to do? Ideas on this might lead to restrictions on or possibilities for the construction, and comparisons with known constructions. 
+*[[Ronnie Brown|Ronnie]] The question remains: what is such a construction supposed to do? Ideas on this might lead to restrictions on or possibilities for the construction, and comparisons with known constructions. 
+
+#References#
+
+* R. Brown and P.J. Higgins, Colimit theorems for relative homotopy groups, J. Pure Appl. Algebra 22 (1981) 11-41.
+
+* Hardie, K. A.; Kamps, K. H.; Kieboom, A homotopy 2-groupoid of a Hausdorff space. Papers in honour of Bernhard Banaschewski (Cape Town, 1996). Appl. Categ. Structures 8 (2000), no. 1-2, 209--234. 
+
+* J.-L. Loday, Spaces with finitely many homotopy groups,
+J.Pure Appl.  Alg., 24 (1982) 179--202.
+
+* R.Steiner, Resolutions of spaces by  $n$-cubes of fibrations, J. London Math. Soc.(2), 34, 169-176, 1986.
+
+* Casas, J. M.; Ellis, G.; Ladra, M.; Pirashvili, T., Derived functors and the homology of $n$-types. J. Algebra 256 (2002) 583--598.
