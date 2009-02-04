@@ -49,7 +49,7 @@ Nils Baas has made, in print and in private communication, suggestions for a for
 
 #Remarks#
 
-* The vague notion of replacing morphisms by _bonds_ is familiar and concretely realizes at least in a hierarchy of depth 2 in the context of [[groupoidification]] and [[geometric function theory]], where morphisms are replaced by [[span]]s. Regarding these as [[cospan]]s in the [[opposite category]] produces diagrams alike the above sketch of a generic bond system. 
+* The notion of replacing morphisms by _bonds_ is familiar and concretely realized at least in a hierarchy of depth 2 in the context of [[groupoidification]] and [[geometric function theory]], where morphisms are replaced by [[span]]s. Regarding these as [[cospan]]s in the [[opposite category]] produces diagrams alike the above sketch of a generic bond system. 
 
 * Accordingly, the notion of [[multispan]] and [[multi-cospan]] may come close to exhibiting some crucial aspects of the idea that motivated the concept of hyperstructures.
 
@@ -66,14 +66,339 @@ Its application to the description of extended cobordisms and the [[generalized 
 #Laboratory section#
 
 +--{.query}
-[[Urs Schreiber|Urs]]: I am thinking about a way to formalize the idea of hyperstructure with a concrete application to extended quantum field theory and the Baez-Dolan hypothesis in mind. I would to develop this in the following here on this page. If things work out as hoped for, this should eventually become an entry in itw own right. If not, this should eventually be discarded
-How do I ask a question?
+[[Urs Schreiber|Urs]]: I am thinking about a way to formalize the idea of hyperstructure with a concrete application to extended quantum field theory and the Baez-Dolan hypothesis in mind. I would like to develop this in the following here on this page. If things work out as hoped for, this should eventually become an entry in itw own right. If not, this should eventually be discarded. 
+=--
+
+##Idea##
+
+**Motivation**
+
+A _bond system_ or _hyperstructure_ as intended in the following should be
+
+* a conglomerate of _cells_ each of which is equipped with a prescribed collection of _sub-cells_, which in turn have their prescribed collection of subcells, etc;
+
+* such that whenever two such cell complexes coincide on any one part of their sub-cell complex, there exists a cell which can be regarded as gluing the two cells along this sub-cell complex.
+
+The idea is hence akin to the [[geometric definition of higher category]], but differs in two crucial aspects:
+
+1. there is no fixed choice of [[geometric shapes for higher structures]] (such as [[globe]]s, [[simplex|simplices]], [[cube]]s, etc.) out of which the entire structure consists, instead _all_ possible sub-cell complexes are admitted;
+
+2. there is no notion of directionality imposed on the cell complexes, and in particular _no ordering_ on the sub-cells of a given cell, neither binary into source and target cells as in [[globe category|globular]] higher categories, nor linearly into indexed faces as in [[simplex category|simplicial]] higher categories.
+
+The idea is that a hyperstructure is like a **$\infty$-[[dagger category|dagger]] [[infinity-category]]** but capturing this notion more directly than an $\infty$-category equipped with an $\infty$-dagger-operation would (which amounts to first introducing directionality only to remove it in a second step). Notice that in this context that categories of ordinary [[span]]s are always dagger-categories, where the dagger operation is nothing but the re-labelling of the legs of the span into source and target.  Hyperstructures in particular generalize categories of spans (as described below) and their special nature is supposed to intrinsically realize the dagger-structure.
+
+
+**Formalization**
+
+To formalize this,  the idea is to observe that every _cell_ with its complex of sub-cells should naturally form a [[poset]] under inclusions of sub-cells. Since for any collection of sub-cells which share a common collection of sub-sub-cells the result of gluing these sub-cells along their common sub-sub-cells should again be a sub-cell, this poset should be closed under [[colimit]]s.
+
+Therefore a _bond system_ or _hyperstructure_ should in particular assign to every poset with colimits a collection to be interpreted as the collection of cells whose sub-cell structure is of the form given by the poset. Such an assignment would naturally allow to restrict any cell to any of its sub-cells along an inclusion of posets to obtain another cell, and to extend any cell to a cell with richer but degenerate sub-cell structure along a surjection of posets. This clearly suggests that the _bond system_ or _hyperstructure_ is a [[presheaf]] on the [[category]] of [[poset]]s with [[colimit]]s.
+
+Given this, the **gluing condition** or **sewing condition** that for any collection of cells which match on a part of their sub-cell complex there exists a cell obtained by gluing the cells along their common sub-cells can be formulated in a way analogous to the horn-filling condition in a [[Kan complex]] by requiring that the obvious map from the collection of cells which have the right shape of being glued cells to the collection of cells that admit gluing is an [[epimorphism]].
+
+
+**Examples**
+
+The archetypical example of a _bond system_ or _hyperstructure_ as intended in the following is supposed to be the collection $MultiCoSpans(C)$ of [[multispan|multi co-span]]s in a category $C$ with colimits. Since a [[multispan|multi co-span]] in $C$ is supposed to be nothing but the image of a poset in $C$, this means that the _bond structure_ of [[multispan|multi co-span]]s should be the presheaf on $Posets$ [[representable functor|represented]] by $C$. This does satisfy the _gluing condition_ in that for all multi-cospans which coincide in parts there exists in $C$ the colimit over their joint diagram. For ordinary [[cospan]]s this is supposed to reproduce the ordinary composition of [[cospan]]s by pushout over a joint leg.
+
+
+**The hyperstructure of hyperstructures**
+
+As there is a canonical notion of homo[[morphism]]s of 
+[[presheaf|presheaves]] we naturally obtain a [[category]] of _bond systems_ or _hyperstructures_. By the above example this in turn naturally induces a hyperstructure of hyperstructures consisting of the multi-cospans in the category of presheaves on posets.
+
+
+This allows then finally to formalize one of the situations motivating the notion of hyperstructure in the first place, that of [[FQFT|extended quantum field theory]]: for instance for _topological_ QFT this is expected to be a morphism (or more general span) of hyperstructures
+$$
+  \array{
+     ExtendedCobordisms :=
+     MultiCoSpans(Top) &\to& MultiSpans(S)
+     =:  
+     \infty Vect_S
+  }
+  \,,
+$$
+where multi-cospans in the category [[Top]] are thought of as modelling [[extended cobordism]]s as described for instance at [[Cospans in Algebraic Topology]], while multi-spans in some suitable category $S$ (multi co-spans in the [[opposite category]] $S^{op}$) are thought of as modelling morphisms between higher vector spaces as in [[groupoidification]].
+
+
+
+
+##Definitions##
+
+
+First recall some basics of [[poset]]s to fix our notation.
+
+We write $2 = \{\bottom \to \top\}$ for the category with two objects and a single nontrivial morphism between them. 
+Recall that a [[poset]] is a [[enriched category|category enriched]] over $(2,\otimes, I = \top)$, where the canonical tensor product on $2$ is has tensor unit $\top$ and $\bottom \otimes \bottom = \bottom$.
+
+
++-- {: .un_defn}
+###### Definition
+
+Write $Posets$ for the (1-)category of small [[poset]]s
+and $\overline{Posets} \subset Posets$ for the sub-category of small posets with all [[colimit]]s.
+
+=--
+
+Recall that for $D$ a poset the [[Yoneda embedding]] 
+$Y_D : D \to 2^{D^{op}}$ is the free cocompletion of $D$ and notice that for every poset $D$ also the [[presheaf]] category $2^{D^{op}}$ is again a poset. This yields a functor
+
+$$
+  \overline{(-)} := Y  : Posets \to \overline{Posets}
+$$
+
+which sends posets to their free cocompletion.
+
++-- {: .un_defn}
+###### Definition
+
+A **bond system** or **hyperstructure** $K$ is 
+
+* a [[Set]]-valued [[presheaf]] on $\overline{Posets}$
+$$
+  K : \overline{Posets}^{op} \to Set
+$$
+
+* which satisfies the following **gluing condition** or **sewing condition**: for every diagram
+$$
+  D_1 \leftarrow D_{glue} \to D_2
+$$
+in $\overline{Posets}$ the unique morphism $\phi$
+$$
+  \array{
+     K(\overline{D_1 \sqcup_{D_{glue}} D_2} )
+     &&&\stackrel{K(Y)}{\to}& K(D_1 \sqcup_{D_{glue}} D_2)
+     \\
+     & \searrow^{\phi} &&& \downarrow
+     \\
+     &&
+     K(D_1) \times_{K(D_{glue})} D(D_2) &\to& K(D_2)
+     \\
+     \downarrow^{K(Y)}
+     &&
+     \downarrow && \downarrow
+     \\
+     K(D_1 \sqcup_{D_{glue}} D_2)
+     &\to&
+     K(D_1) &\to& K(D_{glue})
+  }
+$$
+is an [[epimorphism]].
+
+For $\Gamma$ a hyperstructure and $D \in \overline{Posets}$ we call $\Gamma(D)$ the collection 
+of **cell**s of $\Gamma$ of **shape** $D$.
+
+=--
+
+
++-- {: .un_defn}
+###### Definition
+
+For $C$ a category with colimits let
+$$
+  MultiCoSpan(C) := Cat(-,C)_\sim : \overline{Posets} \to Set
+$$
+be the presheaf which assigns to any poset $D$ the set of [[isomorphism]] classes in the [[functor category]] $Cat(D,C) = Funct(D,C)$ of functors  from $D$ to $C$.
+
+=--
+
++-- {: .un_lemma }
+###### Lemma
+
+For $C$ a category with colimits,
+$MultiCoSpan(C)$ is a bond structure.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We have to check the sewing condition. First notice that for $K := Cat(-,C)_\sim$ we have a natural bijection
+$$
+  K(D_1) \times_{K(D_{glue})} K(D_2)
+  \simeq
+  K(D_1 \sqcup_{D_{glue}} D_2)
+  \,.
+$$
+Then recall from the discussion at [[Yoneda embedding]] that every functor $F \in K(D_1 \sqcup_{D_{glue}} D_2)$,
+$F : D_1 \sqcup_{D_{glue}} D_2 \to C$ canonically extends to a functor $\hat F \in K(\overline{D_1 \sqcup_{D_{glue}} D_2})$ given by the [[end|coend]]
+$$
+  \hat F(-) = \int^{d \in D_1 \sqcup_{D_{glue}} D_2}
+    hom(d,-)\cdot F(d)
+$$
+in that $\phi = K(Y_{D_1 \sqcup_{D_{glue}} D_2} ) : 
+\hat F \mapsto F$. This says that $\phi$ is epi.
+
 =--
 
 +-- {: .un_defn}
 ###### Definition
 
-Write $Posets$ for the category of small [[poset]]s. $\overline{hhh}$
+For $C$ a category with colimits we call 
+the cells of $MultiCoSpans(C)$ the **multi co-span**s in
+$C$, call all of $MultiCoSpans(C)$ the 
+**hyperstructure of multi-cospans** in $C$. Dually,
+for $C^{op}$ a category with colimits we 
+write
+$$
+  MultiSpan(C) := MultiCoSpan(C^{op})
+$$
+for the **hyperstructure of multi-spans** in $C$.
+
++-- {: .un_defn}
+###### Definition
+
+We write
+$$
+  Hyperstructures := MultiCoSpans(Set^{\overline{Posets}^{op}})
+$$
+for the **hyperstructure of hyperstructures**.
 
 =--
 
+
+=--
+
+
+##Examples##
+
+### Composition of ordinary cospans ###
+
+The above general definition in particular reproduces the ordinary composition of [[cospan]]s.
+
+Let $C$ be a category with colimits.
+The cells of the hyperstructure $MultiCoSpan(C)$
+of shape the [[pullback]] poset
+$$
+  D = 
+  \left\{
+  \array{
+     && top
+    \\
+    & \nearrow && \nwarrow
+    \\
+    a &&&& b
+  }
+  \right\}
+$$
+are the ordinary [[cospan]]s $c \in MultiCoSpan(C)(D)$ in $C$. Let $D_{glue} = pt = \{\bullet\}$ and consider the functors
+$\alpha : D_{glue} \to D : \bullet \mapsto a$ and
+$\beta : D_{glue} \to D : \bullet \mapsto b$ in the diagram
+$$
+  D_1 := D \stackrel{\beta}{\leftarrow}
+  D_{glue}
+  \stackrel{\alpha}{\to}
+  D =: D_2 
+$$
+as above.
+
+Then 
+$$
+  D_1 \sqcup_{D_{glue}} D_2 =
+  \left\{
+    \array{
+       && t_1 &&&& t_2
+       \\
+       & \nearrow && \nwarrow && \nearrow && \nwarrow
+       \\
+       a &&&& b &&&& c
+    }
+  \right\}
+$$
+and
+$MultiCoSpans(C)(D) \times_{MultiCoSpans(C)(D_{glue})}  
+ MultiCoSpans(C)(D) 
+ \simeq 
+  MultiCoSpans(C)(D_1 \sqcup_{D_{glue}} D_2)
+ $ 
+is the collection of pullback-diagrams in $C$ which share one leg. The cocompletion of $D_1 \sqcup_{D_{glue}} D_2$ looks in parts like
+$$
+  \overline{D_1 \sqcup_{D_{glue}} D_2}
+  =
+  \left\{
+    \array{
+       &&&& \top = t_1 \sqcup t_2
+       \\
+       &&& \nearrow && \nwarrow
+       \\
+       && t_1 &&\cdots&& t_2
+       \\
+       & \nearrow &\uparrow& \nwarrow && \nearrow 
+       &\uparrow& \nwarrow
+       \\
+       a &\rightarrow& a \sqcup b& \leftarrow& b 
+       &\rightarrow& b \sqcup c& \leftarrow& c
+       \\
+       & \nwarrow &&& \uparrow &&& \nearrow
+       \\
+       &&&& \bottom
+    }
+  \right\}
+  \,,
+$$
+where the important point is that it contains the terminal object $\top$. Given any two cospans in $C$ that coincide on one foot
+
+$$
+  F(D)
+  =
+  \left\{
+  \array{
+    && F(t_1)
+    \\
+    & \nearrow && \nwarrow
+    \\
+    F(a) &&&& F(b)=F'(b)
+  }
+  \right\}
+  \;\;\;\;\;\;\;\;
+  F'(D)
+  =
+  \left\{
+  \array{
+    && F'(t_2)
+    \\
+    & \nearrow && \nwarrow
+    \\
+    F(b)= F'(b) &&&& F'(c)
+  }
+  \right\}
+$$ 
+
+they induce the element
+
+$$
+  F \sqcup_{b} F'(D_1 \sqcup_{D_{glue}} D_2)
+  =
+  \left\{
+  \array{
+    && F(t_1) &&&& F'(t_2)
+    \\
+    & \nearrow && \nwarrow && \nearrow && \nwarrow
+    \\
+    F(a) &&&& F(b)=F'(b) &&&& F'(c)
+  }
+  \right\}
+$$
+
+whose lift to $\overline{D_1 \sqcup_{D_{glue}} D_2}$
+is given on $\top$ by
+
+$$
+ \begin{aligned}
+  \widehat{F \sqcup_b F'}(\top)
+  &=
+  \int^{d \in D_1 \sqcup_{D_{glue}} D_2}
+  hom(d,\top)\cdot (F \sqcup_b F')(d)
+  \\
+  &=
+  \int^{d \in D_1 \sqcup_{D_{glue}} D_2}
+  (F \sqcup_b F')(d)  
+  \\
+  &=
+  colim_{d \in D_1 \sqcup_{D_{glue}} D_2} 
+  (F \sqcup_b F')(d)
+ \end{aligned}
+  \,.
+$$
+
+This is indeed the ordinary composite of the two [[cospan]]s $F$ and $F'$.
