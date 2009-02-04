@@ -4,7 +4,7 @@ The definition of a [[category]] effectively enforces an ordering on the "0-face
 
 But there are many categories for which this is not the case, where every morphism naturally only comes with the information of an unordered pair $\{a,b \}$ of objects, without any prejudice on which is to be regarded as source and which as target. An important general example is
 
-* the category $Spans(C)$ of [[span]]s in a category $C$ with pullbacks and, [[duality|dually]] the category $CoSpans(C)$ of [[cospan]]s in a category $C$ with pushouts.
+* the category $Spans(C)$ of [[span|spans]] in a category $C$ with pullbacks, or [[duality|dually]], the category $CoSpans(C)$ of [[cospan|cospans]] in a category $C$ with pushouts.
 
 More concrete examples are
 
@@ -34,10 +34,18 @@ which is the identity on objects, and which satisfies $\dagger \circ \dagger = \
 
 #References#
 
-The formalizaiton of the $\dagger$-operation was first proposed in
+The concept of $\dagger$-category is discussed here:
 
-* S. Abramsky and B. Coecke, _A categorical semantics of quantum protocols_, Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04). IEEE Computer Science Press (2004) ((arXiv)[http://arxiv.org/abs/quant-ph/0402130])
+* S. Abramsky and B. Coecke, A categorical semantics of quantum protocols, _Proceedings of the 19th IEEE conference on Logic in Computer Science (LiCS'04)_, IEEE Computer Science Press (2004).  [arXiv](http://arxiv.org/abs/quant-ph/0402130)
 
-and further abstracted in
+and further abstracted in:
 
-* P. Selinger, _Dagger compact closed categories and completely positive maps_, Proceedings of the 3rd International Workshop on Quantum Programming Languages, Chicago, June 30&#8211;July 1, 2005 ((web)[http://www.mscs.dal.ca/~selinger/papers.html#dagger])
+* P. Selinger, Dagger compact closed categories and completely positive maps, _Proceedings of the 3rd International Workshop on Quantum Programming Languages_, Chicago, June 30&#8211;July 1, 2005. [web](http://www.mscs.dal.ca/~selinger/papers.html#dagger)
+
+Certain specially nice $\dagger$-categories, such as $C^*$-categories and [[modular tensor category|modular tensor categories]], play an important role in topological quantum field theory and the theory of quantum groups:
+
+* Jurg Fr&#246;hlich and Thomas Kerler, _Quantum Groups, Quantum Categories, and Quantum Field Theory_, Springer Lecture Notes in Mathematics 1542, Springer-Verlag, Berlin, 1991. 
+
+* Bojko Bakalov and Alexander Kirillov, Jr., _Lectures on Tensor Categories and Modular Functors_, American Mathematical Society, Providence, Rhode Island, 2001.
+[web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html)
+
