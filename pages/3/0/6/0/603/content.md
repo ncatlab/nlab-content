@@ -62,6 +62,11 @@ Its application to the description of extended cobordisms and the [[generalized 
 
 +--{.query}
 [[Mike Shulman|Mike]]: Shouldn't we allow "oriented bonds" as well?  I am thinking of the case of, say, rings and modules, where a module $M$ that has right actions by rings $R$ and $S$ and a left action by $T$ should have $R,S,T$ as "sub-bonds" but with different "orientations."  And the "gluing" operation is tensor product, which only works if one module is a left module and the other is a right module.  This example also goes up in dimension, for instance modules over algebras over rings.  However, it seems that one would also needs this for cobordisms; aren't you only allowed to glue cobordisms along boundaries whose orientations match?
+
+[[Urs Schreiber|Urs]]: right, the module example currently does not really fit yet. The reason seems to be that the would-be [[dagger category|dagger]] functor is not the identity on objects here, but sends objects to their opposites.
+
+Concerning the cobordisms: in the cospan picture, every boundary component explicitly comes with its embedding into the cobordism. If two boundary components are equal as unembedded objects, then the pushout will automatically glue the corresponding cobordisms in the right way by identifying the components as embedded pieces. Do you see what I mean. Maybe I am mixed up about this.
+
 =--
 
 ***
@@ -409,6 +414,11 @@ This is indeed the ordinary composite of the two [[cospan]]s $F$ and $F'$.
 
 +--{.query}
 [[Mike Shulman|Mike]]: It seems to me that this definition doesn't contain enough information.  Yes, the ordinary composite of the two cospans is _one_ lift to $\overline{D_1 \sqcup_{D_{glue}} D_2}$, but there are plenty of other lifts, and there doesn't seem to be anything in the presheaf you've described that can characterize that particular lift as the "correct" gluing (in particular, its universal property in $C$ seems to have been forgotten).
+
+[[Urs Schreiber|Urs]]: I was thinking of next defining "non-flabby" $MultiCoSpans(C)$ as the presheaf of co-continuous functors from a given poset into $C$, so that the above lifts are the only ones (right?). Then I want to say that a morphism of hyperstructures from the bordism hyperstructure defined below to a non-flabby multicospan hyperstructure is fixed by its value on the point if it regards the interval as weakly equivalent to the point.
+
+I am thinking of the difference between the above "flabby" version and the non-flabby version as the difference between general Kan complexes and those that are the nerve of an $n$-groupoid for which above $n$ the fillers are unique.
+
 =--
 
 ### Bordism hyperstructure ###
