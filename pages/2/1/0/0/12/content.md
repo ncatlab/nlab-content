@@ -163,11 +163,18 @@ The example of query blocks on the HOWTO page is this syntax
 But the maruku page says that this is right.  Do both work?
 =--
 
-Can we put in an IFRAME?
-<iframe src ="http://www.j-paine.org/cgi-bin/webcats/product.php" 
-width="100%" height="300px">
+We can put in a table, which is a block-level HTML construct, like this, remembering to separate it by blank lines top and bottom:
+
+<table>
+<tr><td>Foo</td></tr>
+</table>
+
+But we can't put in an iframe like this:
+
+<iframe src="http://www.j-paine.org/cgi-bin/webcats/product.php" width="100%" height="300px">
 Your browser does not support iframes.
 </iframe>
 
+Line thereafter.
 
 category: meta
