@@ -407,6 +407,10 @@ $$
 
 This is indeed the ordinary composite of the two [[cospan]]s $F$ and $F'$.
 
++--{.query}
+[[Mike Shulman|Mike]]: It seems to me that this definition doesn't contain enough information.  Yes, the ordinary composite of the two cospans is _one_ lift to $\overline{D_1 \sqcup_{D_{glue}} D_2}$, but there are plenty of other lifts, and there doesn't seem to be anything in the presheaf you've described that can characterize that particular lift as the "correct" gluing (in particular, its universal property in $C$ seems to have been forgotten).
+=--
+
 ### Bordism hyperstructure ###
 
 Let 
