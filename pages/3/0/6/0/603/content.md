@@ -49,7 +49,7 @@ Nils Baas has made, in print and in private communication, suggestions for a for
 
 #Remarks#
 
-* The notion of replacing morphisms by _bonds_ is familiar and concretely realized at least in a hierarchy of depth 2 in the context of [[groupoidification]] and [[geometric function theory]], where morphisms are replaced by [[span]]s. Regarding these as [[cospan]]s in the [[opposite category]] produces diagrams alike the above sketch of a generic bond system. 
+* The notion of replacing morphisms by _bonds_ is familiar and concretely realized at least in a hierarchy of depth 2 in the context of [[groupoidification]] and [[geometric function theory]], where morphisms are replaced by [[span]]s. Regarding these as [[cospan]]s in the [[opposite category]] produces diagrams like the above sketch of a generic bond system. 
 
 * Accordingly, the notion of [[multispan]] and [[multi-cospan]] may come close to exhibiting some crucial aspects of the idea that motivated the concept of hyperstructures.
 
@@ -60,13 +60,16 @@ Nils Baas has made, in print and in private communication, suggestions for a for
   * The birth of the idea of [[multispan]]s as a formalization of hyperstructures is mentioned in [this comment](http://golem.ph.utexas.edu/category/2007/11/category_theory_and_biology.html#c013165). 
 Its application to the description of extended cobordisms and the [[generalized tangle hypothesis]] is topic of some thought chatted about at [this entry](http://golem.ph.utexas.edu/category/2008/05/hopkinslurie_on_baezdolan.html#c021486).
 
++--{.query}
+[[Mike Shulman|Mike]]: Shouldn't we allow "oriented bonds" as well?  I am thinking of the case of, say, rings and modules, where a module $M$ that has right actions by rings $R$ and $S$ and a left action by $T$ should have $R,S,T$ as "sub-bonds" but with different "orientations."  And the "gluing" operation is tensor product, which only works if one module is a left module and the other is a right module.  This example also goes up in dimension, for instance modules over algebras over rings.  However, it seems that one would also needs this for cobordisms; aren't you only allowed to glue cobordisms along boundaries whose orientations match?
+=--
 
 ***
 
 #Laboratory section#
 
 +--{.query}
-[[Urs Schreiber|Urs]]: I am thinking about a way to formalize the idea of hyperstructure with a concrete application to extended quantum field theory and the Baez-Dolan hypothesis in mind. I would like to develop this in the following here on this page. If things work out as hoped for, this should eventually become an entry in itw own right. If not, this should eventually be discarded. 
+[[Urs Schreiber|Urs]]: I am thinking about a way to formalize the idea of hyperstructure with a concrete application to extended quantum field theory and the Baez-Dolan hypothesis in mind. I would like to develop this in the following here on this page. If things work out as hoped for, this should eventually become an entry in its own right. If not, this should eventually be discarded. 
 =--
 
 ##Idea##
