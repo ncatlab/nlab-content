@@ -163,4 +163,11 @@ The example of query blocks on the HOWTO page is this syntax
 But the maruku page says that this is right.  Do both work?
 =--
 
+Can we put in an IFRAME?
+<iframe src ="http://www.j-paine.org/cgi-bin/webcats/product.php" 
+width="100%" height="300px">
+Your browser does not support iframes.
+</iframe>
+
+
 category: meta
