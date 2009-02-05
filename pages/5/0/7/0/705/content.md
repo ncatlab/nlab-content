@@ -1,7 +1,18 @@
-+--{.query}
-This page is from the discussion at the [nCafe](http://golem.ph.utexas.edu/category/2009/01/the_third_time_is_the_charm.html#c021749).
+#Idea#
 
-We are trying to understand the analogy:
+Consider three paths that begin at $x_0$ and end at $x_{2\tau}$ enclosing the spacetime region depicted below
+
+$$\array{
+{} & {} & {} & x_{2\tau} & {} & {} & {} \\
+{} & {} & {} &  \bullet     & {} & {} & {} \\
+{} & {} & {}^{v^-_{\tau}}\nearrow & {} & \nwarrow^{v_{\tau}^+} & {} & {} \\
+x^-_{\tau} & \bullet & \stackrel{F^-}{\Uparrow} & \stackrel{v_0}{\uparr} & \stackrel{F^+}{\Uparrow} & \bullet & x^+_{\tau} \\
+{} & {} & {}_{v_0^-}\nwarrow & {} & \nearrow_{v_0^+} & {} & {} \\
+{} & {} & {} &  \bullet & {} & {} & {} \\
+{} & {} & {} &    x_0   & {} & {} & {} 
+}$$
+
+Staring at the above picture, we want to understand the analogy:
 
 $$\array{
 category & functor & natural transformation \\
@@ -9,13 +20,10 @@ fiber & connection & curvature \\
 position & velocity & acceleration
 }$$
 
-I'm augmenting the discussion here since the topic blurs the border between "chatting" and "collaborating".
+For those who better understand the mathematics of the first line, this analogy is likely to help motivate the physics as we go down the ladder. For those who better understand the physics of the bottom line, it is hoped that this analogy will help to motivate the mathematics as we move up the ladder.
 
-I believe that there should be some extremely simple (like high school level simple) way to understand this and by working out this example in as simple way as possible should help people from all sides understand things better.
 
-[[Eric Forgy|Eric]]
-
-=--
+#Discussion#
 
 _John said (from [n-Cafe](http://golem.ph.utexas.edu/category/2009/01/the_third_time_is_the_charm.html#c021749)):_
 
