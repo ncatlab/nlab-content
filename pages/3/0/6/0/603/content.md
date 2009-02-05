@@ -75,6 +75,25 @@ Concerning the cobordisms: in the cospan picture, every boundary component expli
 
 +--{.query}
 [[Urs Schreiber|Urs]]: I am thinking about a way to formalize the idea of hyperstructure with a concrete application to extended quantum field theory and the Baez-Dolan hypothesis in mind. I would like to develop this in the following here on this page. If things work out as hoped for, this should eventually become an entry in its own right. If not, this should eventually be discarded. 
+
+[[Ronnie Brown|Ronnie]] In this connection I would like to draw attention here to 
+
+* D.W.Jones,  Polyhedral $T$-complexes, University of Wales PhD Thesis, 1984; published as  A general theory of polyhedral sets and their corresponding $T$-complexes, Diss. Math. 266, 1988. 
+
+The idea here was to give expression to the notion of: what is wrong with pentagons? Or rhombic dodecahedra? as part of the basic models. Two major problems were solved: 
+
+1. What should be the basic cells, and the polyhedral category?  
+
+1. How should one orient or more the basic cells? 
+
+
+The answer to the first question is given in terms of cells with polyhedral boundary and in which there is  a shellability condition. The answer to the second question is in terms of each cell has a marked face. This turns out to imply orientation, but is more of a homotopy condition than a homology condition, i.e. is stronger than the latter. There a relation to certain posets studied by Bjorner. 
+
+On the other hand this theory is probably more group than category oriented, there is a tendency to imply inverses. 
+
+The algebra comes in by defining _poly-T-complexes, i.e. poly sets with [[thin]] elements.  
+
+
 =--
 
 ##Idea##
