@@ -13,6 +13,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-02-05
 
+* [[Mike Shulman|Mike]]:
+
+  * Continued discussion with Urs at [[hyperstructure]].
+
+  * Moved [[thin]] to [[thin element]] in line with the [[HowTo|naming convention]] that page names be singular nouns.  Also added some other contexts in which "thinness" appears.
+
 * [[Urs Schreiber|Urs]]
 
   * replied to [[Mike Shulman|Mike]] at [[hyperstructure]] 
