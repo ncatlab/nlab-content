@@ -67,6 +67,8 @@ Its application to the description of extended cobordisms and the [[generalized 
 
 Concerning the cobordisms: in the cospan picture, every boundary component explicitly comes with its embedding into the cobordism. If two boundary components are equal as unembedded objects, then the pushout will automatically glue the corresponding cobordisms in the right way by identifying the components as embedded pieces. Do you see what I mean. Maybe I am mixed up about this.
 
+[[Mike Shulman|Mike]]: Yes, the point is that a lot of these examples aren't really dagger at all, only [[compact closed category|compact closed]] (which I would prefer to call "autonomous").  My point about cobordisms has to do with orientations.  If $M$ and $N$ are two manifolds sharing a boundary component $B$, then I can glue them along it, but if they are _oriented_ then the gluing will only inherit an orientation if $M$'s boundary component is $B$ and $N$'s boundary component is $B^{op}$.  So it's just like rings; the category of oriented cobordisms is not dagger, only compact closed.  An oriented cobordism from $A$ to $B$ is not the same as an oriented cobordism from $B$ to $A$, but it is an oriented cobordism from $B^{op}$ to $A^{op}$.
+
 =--
 
 ***
@@ -438,6 +440,8 @@ This is indeed the ordinary composite of the two [[cospan]]s $F$ and $F'$.
 
 I am thinking of the difference between the above "flabby" version and the non-flabby version as the difference between general Kan complexes and those that are the nerve of an $n$-groupoid for which above $n$ the fillers are unique.
 
+[[Mike Shulman|Mike]]: Using cocontinuous functors will make the lifts unique, at least up to isomorphism.  It doesn't seem that you've included any information about isomorphisms, but perhaps that can be remedied with higher spans or with presheaves of groupoids or categories.  But I don't see the "flabby" version as very much like a Kan complex; in a Kan complex the fillers of horns _are_ unique up to homotopy, because of the higher-dimensional horn-filling conditions, but I don't see anything like that going on here.
+
 =--
 
 ### Bordism hyperstructure ###
@@ -462,6 +466,10 @@ be the standard [[interval object]] in [[Top]], regarded as a [[cospan]].
 
 Let $ExtendedCobordisms$, the **hyperstructure of extended cobordisms**, be the smallest sub-hyperstructure of $MultiCospans(Top)$ which contains the interval object $I$ and is closed under cartesian product $\times$ of multi-cospans in $Top$.
 
+=--
+
++--{.query}
+[[Mike Shulman|Mike]]: In order for that to make sense, you need there to be a smallest sub-hyperstructure such that (blah).  But I don't see any reason for that to exist; the intersection of sub-hyperstructures need not be a hyperstructure.  Even in a simplicial set the intersection of sub-Kan-complexes need not be a Kan complex; if $X$ contains one filler for a given horn and $Y$ contains a different filler, then $X\cap Y$ may contain no filler at all.
 =--
 
 This means that multi-cospans in $ExtendedCobordisms$ arise from iteratively tensoring with the interval and forming pushouts, which amounts to foming [[co-span co-trace]]s.
@@ -574,3 +582,28 @@ $$
 
 with four 1-dimensional and four 0-dimensional boundary components.
 
++--{.query}
+[[Mike Shulman|Mike]]: I'm not sure if this is intentional or not, because I don't know what your goal is, but even if the definition makes sense, these "extended cobordisms" include things that aren't very manifold-like.  For instance, if you glue the interval-with-endpoints to another copy of the interval-with-endpoints along one of the endpoints, you get a cell like
+$$
+    \array{
+       &&&& [0,2]
+       \\
+       &&& \nearrow && \nwarrow
+       \\
+       && [0,1] &&\cdots&& [1,2]
+       \\
+       & \nearrow &\uparrow& \nwarrow && \nearrow 
+       &\uparrow& \nwarrow
+       \\
+       \{0\} &\rightarrow& \{0,1\}& \leftarrow& \{1\}
+       &\rightarrow& \{1,2\}& \leftarrow& \{2\}
+       \\
+       & \nwarrow &&& \uparrow &&& \nearrow
+       \\
+       &&&& \bottom
+    }
+$$
+and now restricting along a suitable inclusion of posets, we get
+$$ \array{ [0,2] \\ \uparrow \\ \{1\}}$$
+and we can now glue this to another interval along the point $1$, obtaining a wedge of three copies of the interval.  I think the things you glue along should somehow be "canceled out" and no longer appear as sub-cells of the glued result (this is certainly what happens in the case of modules).
+=--
