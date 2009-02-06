@@ -17,6 +17,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
    
   * Edited [[anafunctor]] to clean up conditions on covers, and some explanations of what each one is for.
 
+  * Created the page [[Grothendieck pretopology]]
+
 
 # 2009-02-05
 
