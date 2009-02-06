@@ -175,6 +175,4 @@ But we can't put in an iframe like this:
 Your browser does not support iframes.
 </iframe>
 
-Line thereafter.
-
 category: meta
