@@ -41,6 +41,8 @@ David Roberts says: If one uses a coverage, then composing anafunctors means a c
 
 DR says: Well I suppose we could follow Makkai's philosophy twice and have a composition anafunctor (in the original sense) for composing anafunctors (in the internal sense) and end up with an anabicategory.
 
+_Mike_: Yes, presumably it won't depend on the fillers chosen; I haven't checked the details, though.  "Grothendieck coverage" means the same as "Grothendieck topology" and thus includes closure under lots of things, including composition and containing identities.
+
 =--
 
 
