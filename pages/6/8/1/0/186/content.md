@@ -53,3 +53,7 @@ We had extensive discussion of generalized smooth spaces at the $n$-Caf&#233;:
  * [_Spivak on derived manifolds_](http://golem.ph.utexas.edu/category/2008/08/david_spivak_on_derived_manifo.html)
 
  * [_B&#228;r on fiber integration in differential cohomology_](http://golem.ph.utexas.edu/category/2008/11/br_on_fiber_integration_in_dif.html)
+
++-- {: .query}
+[[David Roberts]]: For those generalised smooth spaces which give rise to a topological space (e.g. a [[diffeological space]]), is the topology known to be locally contractible, or locally nice at all?
+=--
