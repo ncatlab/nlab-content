@@ -22,6 +22,11 @@ An arbitrary coproduct $\coprod_i a_i$ is disjoint if each coprojection $a_i\to 
 
 Having disjoint (finite) coproducts is half of the condition for a category to be [[extensive category|extensive]].  Having all small disjoint coproducts is one of the conditions in Giraud's theorem characterizing [[Grothendieck topos|Grothendieck toposes]].
 
++--{: .query}
+David Roberts says: This is probably a stupid question, but does the fact a coproduct $A\coprod B$ is disjoint imply that any map to it factors through either $A$ or $B$?  
+
+=--
+
 ## Generalizations ##
 
 A coproduct $a+b$ in a [[bicategory]] is disjoint if $a\to a+b$ and $b\to a+b$ are [[full and faithful functor|fully faithful]] and their [[comma object]] is initial.
