@@ -13,6 +13,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-02-06
 
+* [[Mike Shulman|Mike]]: responded to all of David's edits.
+
 * [[David Roberts]]:
    
   * Edited [[anafunctor]] to clean up conditions on covers, and some explanations of what each one is for.
