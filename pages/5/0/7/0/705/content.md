@@ -22,6 +22,27 @@ position & velocity & acceleration
 
 For those who better understand the mathematics of the first line, this analogy is likely to help motivate the physics as we go down the ladder. For those who better understand the physics of the bottom line, it is hoped that this analogy will help to motivate the mathematics as we move up the ladder.
 
+#Formulation#
+
+Denote the spacetime region by $\mathbb{D}^2$ and let $P^2(\mathbb{D}^2)$ denote the strict 2-category with
+
+* Objects $\{x_0,x^+_\tau,x^-_\tau,x_{2\tau}\}$
+* Morphisms $\{x_0\stackrel{v_0}{\to}x_{2\tau},x_0\stackrel{v^+_0}{\to}x^+_\tau,x_0\stackrel{v^-_0}{\to}x^-_\tau,x^+_\tau\stackrel{v^+_\tau}{\to}x^+_{2\tau},x^-_\tau\stackrel{v^-_\tau}{\to}x^-_{2\tau}\}$
+* 2-Morphisms $\{v^+_0\stackrel{F^+}{\Rightarrow}v^+_\tau,v^-_0\stackrel{F^-}{\Rightarrow}v^-_\tau\}$
+
+Also let $G$ denote the Lie group of rotors, i.e. bivectors $R$ whose geometric product satisfies
+
+$$R R^\dagger = 1,$$
+
+where $\dagger$ denotes "reverse", i.e.
+
+$$(ab)^\dagger = b^\dagger a^\dagger.$$
+
+Also let <b>B</b>$G$ denote $G$ thought of a 1-object category so that functors from <b>B</b>$G$ to itself and natural transformations between these arrange themselves into the smooth 2-groupoid $\mathbf{BE}(G)$.
+
+We would like to explicitly construct the 2-transport functor
+
+$$tra: P^2(\mathbb{D}^2)\to\mathbf{BE}(G).$$
 
 #Discussion#
 
