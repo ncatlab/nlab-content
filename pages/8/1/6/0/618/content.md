@@ -35,9 +35,9 @@ If, as is frequently the case, $C$ has [[pullback|pullbacks]], then it is natura
 
 * If $\{f_i:U_i\to U\}_{i\in I}$ is a covering family and $g:V\to U$ is a morphism, then the family of pullbacks $\{g^*(f_i):g^*U_i\to V\}$ is a covering family of $V$.
 
-The saturation conditions below imply that on a category with pullbacks, every coverage is equivalent to one satisfying this stronger condition.
+One can also impose the weaker condition that the pullbacks of covering families exist and are covering families, even if not all pullbacks exist in $C$.  The saturation conditions below imply that on a category with pullbacks, every coverage is equivalent to one satisfying this stronger condition.
 
-Likewise, when $C$ has pullbacks, the condition for a presheaf $X$ to be a sheaf for a covering family $\{f_i:U_i\to U\}_{i\in I}$ can be stated more simply (and probably more familiarly, to some readers), as the assertion that the following diagram is an [[equalizer]]:
+Likewise, when $C$ has pullbacks (of covering families), the condition for a presheaf $X$ to be a sheaf for a covering family $\{f_i:U_i\to U\}_{i\in I}$ can be stated more simply (and probably more familiarly, to some readers), as the assertion that the following diagram is an [[equalizer]]:
 \[
 X(U) \to \prod_{i\in I} X(U_i) \rightrightarrows \prod_{i,j\in I} X(U_i\times_U U_j).
 \]
@@ -56,9 +56,12 @@ The collection of covering families can be "closed up" under a number of conveni
 
 1. For any family $\{f_i:U_i\to U\}_{i\in I}$, the [[sieve]] it generates is the family of all morphisms $g:V\to U$ which factor through some $f_i$.  A presheaf $X$ is a sheaf for $\{f_i\}$ iff it is a sheaf for the sieve it generates.
 
+
 ### Grothendieck coverages ###
 
-Because of the final condition, we may as well consider only covering _sieves_.  Incorporating the other saturation conditions as well, we define a **Grothendieck coverage** (also "Grothendieck topology") to be a collection of sieves called _covering sieves_, satisfying the following pullback-stability and saturation conditions.  If $R$ is a sieve on $U$ and $g:V\to U$ is a morphism, we define $g^*(R)$ to be the sieve on $V$ consisting of all morphisms $h$ into $V$ such that $g h$ factors through some morphism in $R$.
+Grothendieck originally considered only coverages that are closed under some or all of the above saturation conditions.  
+
+Because of the final condition, we may choose to consider only covering _sieves_.  Incorporating the other saturation conditions as well, we define a **Grothendieck coverage** (commonly called a [[Grothendieck topology]]) to be a collection of sieves called _covering sieves_, satisfying the following pullback-stability and saturation conditions.  (If $R$ is a sieve on $U$ and $g:V\to U$ is a morphism, we define $g^*(R)$ to be the sieve on $V$ consisting of all morphisms $h$ into $V$ such that $g h$ factors through some morphism in $R$.)
 
 * If $R$ is a covering sieve on $U$ and $g:V\to U$ is any morphism, then $g^*(R)$ is a covering sieve on $V$.
 
@@ -66,9 +69,15 @@ Because of the final condition, we may as well consider only covering _sieves_. 
 
 * If $R$ is a covering sieve on $U$ and $S$ is an arbitrary sieve on $U$ such that for each $f:V\to U$ in $R$, $f^*(S)$  is a covering sieve on $V$, then $S$ is also a covering sieve on $U$.
 
-One can then show that for every coverage, there is a unique Grothendieck coverage having the same sheaves.  When $C$ is small, then Grothendieck coverages on $C$ are also in bijective correspondence with [[Lawvere-Tierney topology|Lawvere-Tierney topologies]] on its presheaf topos $[C^{op},Set]$, and thus in bijection with [[subtopos|subtoposes]] of $[C^{op},Set]$.
+One can then show that for every coverage, there is a _unique_ Grothendieck coverage having the same sheaves.  When $C$ is small, then Grothendieck coverages on $C$ are also in bijective correspondence with [[Lawvere-Tierney topology|Lawvere-Tierney topologies]] on its presheaf topos $[C^{op},Set]$, and thus in bijection with [[subtopos|subtoposes]] of $[C^{op},Set]$.
 
 On the other hand, it is often useful to consider only pullback-stable covering families, without needing to close them up into sieves satisfying the saturation conditions.  For instance, in many cases the generating covering families will be finite and easy to describe.  As we saw above, the notion of sheaf can also be defined more explicitly in terms of covering families, especially when $C$ has pullbacks.
+
+Frequently, though, these covering families will satisfy at least some of the saturation conditions.  The name [[Grothendieck pretopology]] or _basis for a Grothendieck topology_ is commonly used for a coverage (often of the stronger sort requiring pullbacks) that also satisfies
+
+* Every isomorphism is a covering family.
+
+* If $\{f_i:U_i\to U\}_{i\in I}$ is a covering family and for each $i$, so is $\{h_{i j}:U_{i j} \to U_i\}_{j\in J_i}$, then $\{f_i h_{i j}:U_{i j}\to U\}_{i\in I, j\in U_i}$ is also a covering family.
 
 
 # Examples #
