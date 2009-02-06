@@ -19,6 +19,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * Created the page [[Grothendieck pretopology]]
 
+  * Added mention of Dold fibration on the page [[fibration]].
 
 # 2009-02-05
 
