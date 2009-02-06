@@ -8,6 +8,8 @@ But I was tempted into category theory, not least by my friends Hendrik Hilberdi
 
 I have implemented a collection of <a href="http://www.j-paine.org/cgi-bin/webcats/webcats.php">Web-based category theory demonstrations</a>, and am adapting some to nLab. If I could get funding, I'd like to make these easier for novices to learn from; and I'd also like to popularise category theory through my <a href="http://www.j-paine.org/dobbs/index.html">blog at Dr Dobbs</a>. That's partly because I find it intrinsically fascinating, for no very obvious reason; but also because I feel it has huge potential in Artificial Intelligence and cognitive science. I've written about that <a href="http://golem.ph.utexas.edu/category/2006/11/a_categorical_manifesto.html#c018171">in an n-Category Caf&eacute; posting</a>.
 
+Places where I think category theory could benefit AI and cognitive science include <a href="http://golem.ph.utexas.edu/category/2006/11/a_categorical_manifesto.html#c018173">neural networks and their relation to logic and model theory</a>, <a href="http://golem.ph.utexas.edu/category/2006/11/a_categorical_manifesto.html#c018180">analogical reasoning</a>, and <a href="http://golem.ph.utexas.edu/category/2006/11/a_categorical_manifesto.html#c018555">holographic reduced representations</a>.
+
 Category theory has also inspired me to invent a way of <a href="http://www.j-paine.org/#safe_spreadsheets_fast_with_excelsior">building spreadsheets from modules</a>, and of <a href="http://www.spreadsheet-parts.org/">storing these modules on the Web</a> for anyone to download into their own spreadsheets.
 
 category: people
