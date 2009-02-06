@@ -29,11 +29,34 @@ More generally, let $S$ be a category containing a collection of morphisms calle
 * every isomorphism is a cover,
 * any [[pullback]] of a cover exists and is a cover,
 * covers are closed under composition,
-* every cover is the quotient of its kernel pair.
+* every cover is the quotient of its kernel pair (equivalently, every cover is a [[regular epimorphism]]).
 
-The first three axioms are the requirements for the covers to form a [[Grothendieck pretopology]] with covering families only containing a single map. The fourth axiom says that this pretopology is [[subcanonical]], and is needed to compose natural transformations between anafunctors. Note that if $S$ has pullbacks, the fourth axiom just says that covers are regular epimorphisms.
+Note that these are precisely the axioms saying that the singleton families $\{p:V\to U\}$ where $p$ is a cover form a [[subcanonical coverage|subcanonical]] [[Grothendieck pretopology]].  One important class of examples is when $S$ is a [[regular category]] and the covers are the [[regular epimorphism]]s.  Another is when $S$ is the category of smooth manifolds and the covers are the surjective submersions.
 
-One important class of examples is when $S$ is a [[regular category]] and the covers are the [[regular epimorphism]]s.  Another is when $S$ is the category of smooth manifolds and the covers are the surjective submersions.  More generally, $S$ could be equipped with a Grothendieck [[coverage]] and the covers are the maps which generate a covering sieve.
+In such a situation, if $C$ and $D$ are [[internal category|internal categories]] in $S$, we define an __anafunctor__ $C\to D$ to consist of a span $C\leftarrow F \to D$ of internal functors such that:
+
+1. $F_0\to C_0$ is a cover.
+
+1. $F\to C$ is fully-faithful, in the internal sense that the following is a pullback square:
+$$\array{F_1 & \to & C_1 \\ \downarrow && \downarrow \\ F_0\times F_0&   \to & C_0\times C_0}$$
+
+Note that assuming $F_0\to C_0$ is a cover, so is $F_0\times F_0\to C_0\times C_0$ (it is a composition of pullbacks of $F_0\to C_0$); thus the above pullback always exists.
+
+By the remarks above, if $S=Set$ and "cover" means "surjection" (or equivalently, "regular epi"), then we recover the above-defined external notion of anafunctor.
+
+If $C\leftarrow F \to D$ and $C\leftarrow G \to D$ are internal anafunctors, we define a __natural transformation__ between them to be a natural transformation between the two induced internal natural transformations $F\times_C G \to D$.  We can then prove that internal categories, anafunctors, and natural transformations form a [[bicategory]].  The role of the assumptions about covers is:
+
+* Identity maps must be covers in order to have identity anafunctors (and more generally, for every functor to give rise to an anafunctor).
+* To compose anafunctors by pullback, the pullbacks of covers must exist and be covers, and covers must be closed under composition.
+* To define $F\times_C G$ and obtain a notion of natural transformation, we again need covers to have pullbacks.
+* To define composition of natural transformations between anafunctors, we need covers to be regular epis; see [HGT I][].
+
+In [HGT I][] the following additional axiom was assumed on the class of covers,
+
+* every equivalence relation involving a cover has a quotient, which is a cover.
+
+This is used in the section on descent and its relation to (2-)bundles.
+
 
 +-- {: .query}
 
@@ -45,25 +68,12 @@ _Mike_: Yes, presumably it won't depend on the fillers chosen; I haven't checked
 
 _David R_: I noticed the adjective Grothendieck in the preceeding sentence half-way through asking the question, but I think my point still holds for general coverages, without the closure properties.
 
+_Mike_: Well, as you pointed out, you need at least identity maps to be covers to have identity anafunctors, and you need covers to be stable under composition, as well as pullback, in order to define composition of anafunctors.  An arbitrary coverage might not satisfy those, although pretty much any coverage arising in practice does.  The other point that a choice has to be made unless you have honest pullback-stability is certainly true.  So probably the most natural-feeling context in which to work is a (possibly singleton) [[Grothendieck pretopology]].  I would be happy for this page to ignore the case where covers don't have pullbacks; I did some rewriting above to reflect this discussion.  I think this discussion could now be deleted; feel free to do so if you agree.
 
 =--
 
 
 
-In such a situation, if $C$ and $D$ are [[internal category|internal categories]] in $S$, we define an __anafunctor__ $F: C\to D$ to consist of a span $C\leftarrow E \to D$ of internal functors such that:
-
-1. $E\to C$ is fully-faithful, in the internal sense that the following is a pullback square:
-$$\array{E_1 & \to & C_1 \\ \downarrow && \downarrow \\ E_0\times E_0& \to & C_0\times C_0}$$
-
-1. $E_0\to C_0$ is a cover.
-
-By the remarks above, if $S=Set$ and "cover" means "surjection" (or equivalently, "regular epi"), then we recover the above-defined external notion of anafunctor.
-
-In [HGT I][] the following additional axiom was assumed on the class of covers,
-
-* every equivalence relation involving a cover has a quotient, which is a cover.
-
-This is used in the section on descent and its relation to (2-)bundles.
 
 #Homotopy-theoretic interpretation#
 
