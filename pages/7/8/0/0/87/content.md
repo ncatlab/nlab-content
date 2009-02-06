@@ -29,6 +29,9 @@ More generally, let $S$ be a category containing a collection of morphisms calle
 * every isomorphism is a cover,
 * any [[pullback]] of a cover exists and is a cover,
 * covers are closed under composition,
+* every cover is the quotient of its kernel pair.
+
+The first three axioms are the requirements for the covers to form a [[Grothendieck pretopology]] with covering families only containing a single map. The fourth axiom says that this pretopology is [[subcanonical]], and is needed to compose natural transformations between anafunctors. Note that if $S$ has pullbacks, the fourth axiom just says that covers are regular epimorphisms.
 
 One important class of examples is when $S$ is a [[regular category]] and the covers are the [[regular epimorphism]]s.  Another is when $S$ is the category of smooth manifolds and the covers are the surjective submersions.  More generally, $S$ could be equipped with a Grothendieck [[coverage]] and the covers are the maps which generate a covering sieve.
 
@@ -41,12 +44,11 @@ $$\array{E_1 & \to & C_1 \\ \downarrow && \downarrow \\ E_0\times E_0& \to & C_0
 
 By the remarks above, if $S=Set$ and "cover" means "surjection" (or equivalently, "regular epi"), then we recover the above-defined external notion of anafunctor.
 
-In [HGT I][] the following additional axioms were assumed on the class of covers, ensuring additional good behavior of internal anafunctors.  (Toby, want to say exactly what these are for?)
+In [HGT I][] the following additional axiom was assumed on the class of covers,
 
-* every cover is a [[regular epimorphism]], and
 * every equivalence relation involving a cover has a quotient, which is a cover.
 
-(These are to discuss descent later in the paper. -David (learning nuts and bolts here))
+This is used in the section on descent and its relation to (2-)bundles.
 
 #Homotopy-theoretic interpretation#
 
@@ -81,7 +83,7 @@ _Mathieu says:_ I don't see that (or something like that) on that page, but satu
 
 _Urs says:_ I haven't checked the details. But he is looking at derived homs of crossed complexes. By general nonsense these derived hom should be given by homs out of cofibrant replacements. This is another way of talking about the anafunctor picture. Somebody should check the details.
 
-_David says:_ This is something I've been thinking about, but not using saturated anafunctors. I'll factor that in, see if it improves things.
+
 =--
 
 
