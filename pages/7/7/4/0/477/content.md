@@ -8,3 +8,7 @@ In a [[category]], a **product** (also called a **cartesian product**) of two [[
 * One can define in a similar way a product of any family of objects.  A product of the [[empty set|empty]] family is a [[terminal object]].
 * A product is a special case of a [[limit]] in which the domain category is [[discrete category|discrete]].
 * A product in $C$ is the same as a [[coproduct]] in its [[opposite category]] $C^{op}$.
+
+# Demonstration #
+
+* [This interactive demonstration](http://www.j-paine.org/cgi-bin/webcats/set_prod_nlab.php) in the category of finite sets lets you type two sets and see a product, showing the unique map to it from a randomly chosen $Z$ equipped with $f$ and $g$. It also generates a second product, showing the unique canonical isomorphism between this and the first product.
