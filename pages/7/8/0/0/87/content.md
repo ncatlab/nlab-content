@@ -43,6 +43,9 @@ DR says: Well I suppose we could follow Makkai's philosophy twice and have a com
 
 _Mike_: Yes, presumably it won't depend on the fillers chosen; I haven't checked the details, though.  "Grothendieck coverage" means the same as "Grothendieck topology" and thus includes closure under lots of things, including composition and containing identities.
 
+_David R_: I noticed the adjective Grothendieck in the preceeding sentence half-way through asking the question, but I think my point still holds for general coverages, without the closure properties.
+
+
 =--
 
 
