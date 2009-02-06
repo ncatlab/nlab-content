@@ -35,6 +35,16 @@ The first three axioms are the requirements for the covers to form a [[Grothendi
 
 One important class of examples is when $S$ is a [[regular category]] and the covers are the [[regular epimorphism]]s.  Another is when $S$ is the category of smooth manifolds and the covers are the surjective submersions.  More generally, $S$ could be equipped with a Grothendieck [[coverage]] and the covers are the maps which generate a covering sieve.
 
++-- {: .query}
+
+David Roberts says: If one uses a coverage, then composing anafunctors means a choice has to be made in the filler of $U \to D_0 \leftarrow V$ with the right map a cover. Presumably the resulting bicategory of anafunctors is independent, up to biequivalence, of the choices made. Also, at the very least the identity map has to be a cover, so as to define the identity anafunctor. 
+
+DR says: Well I suppose we could follow Makkai's philosophy twice and have a composition anafunctor (in the original sense) for composing anafunctors (in the internal sense) and end up with an anabicategory.
+
+=--
+
+
+
 In such a situation, if $C$ and $D$ are [[internal category|internal categories]] in $S$, we define an __anafunctor__ $F: C\to D$ to consist of a span $C\leftarrow E \to D$ of internal functors such that:
 
 1. $E\to C$ is fully-faithful, in the internal sense that the following is a pullback square:
