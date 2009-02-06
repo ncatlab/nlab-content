@@ -1,1 +1,1 @@
-A [[category]] is _small_ if it has a [[set]] of objects and a set of morphisms.  In other words, a small category is an [[internal category|internal categories]] in the category [[Set]].
+A [[category]] is _small_ if it has a [[set]] of objects and a set of morphisms.  In other words, a small category is an [[internal category]] in the category [[Set]].
