@@ -9,6 +9,8 @@ In classical [[homotopy theory]], a fibration $p:E\to B$ is a continuous map bet
 
 * In a [[Serre fibration]], topological $n$-cells can be lifted for all $n$.
 
+There is also a notion of fibration, introduced by Dold, where all homotopies can be lifted, but the lifting only has to agree with the given initial map up to [[vertical homotopy]]. A Hurewicz fibration is a Dold fibration where the vertical homotopy is stationary. All three of these definitions give rise to a long exact sequence in homotopy. In fact, the exact sequence would follow from only requiring homotopy lifting for cubes. There doesn't seem to be a name for this sort of map.
+
 
 # Abstract homotopy theory #
 
