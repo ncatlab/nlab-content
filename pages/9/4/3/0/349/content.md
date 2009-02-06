@@ -68,6 +68,8 @@ A coverage in Johnstone's sense is even weaker than a Grothendieck pretopology: 
 
 _David Roberts_: A coverage in Johnstone's sense is even weaker than requiring pullbacks of covers to exist, just that there exists some cover which fills the role of pullback, but doesn't have to be universal.
 
+_Mike_: Yes, that's what I intended by "stability under pullback (which can be defined even without required the underlying category to have pullbacks)."  But what you said is more correct.
+
 _Toby_: Isn\'t stability under pullback also a closure condition? I dislike using basic terms for anything between an arbitrary collection and a collection closed under everything.
 
 As long as you think that 'local' doesn\'t have any other meaning in modal logic (in particular, if it\'s the same as the one [here](http://homepages.mcs.vuw.ac.nz/~rob/papers/modalhist.pdf)), then 'local modality' or 'local operator' is OK; one can always restore 'Lawvere&#8212;Tierney' afterwards if necessary.
