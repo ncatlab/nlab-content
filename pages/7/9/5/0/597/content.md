@@ -13,6 +13,10 @@ By a (many-object) **relation** in $C$ we will mean a family of objects $\{A_i\}
 
 Abstractly, reflexive and transitive relations can be identified with categories [[enriched category|enriched]] in a suitable [[bicategory]]; see (Street 1984).
 
++--{.query}
+Presumably, equivalence relations can be identified with [[groupoid]]s enriched in this bicategory?
+=--
+
 A _quotient_ for a relation is a [[colimit]] for the diagram consisting of all the $A_i$ and all the spans $A_i \leftarrow R_{ij} \to A_j$.  And the _kernel_ of a sink $\{f_i:A_i\to B\}$ is the relation on $\{A_i\}$ with $R_{i j} = A_i\times_B A_j$.  It is evidently an equivalence relation.
 
 For example:
