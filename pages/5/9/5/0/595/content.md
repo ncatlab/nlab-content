@@ -1,3 +1,5 @@
-An **intersection** (also called **meet** or **infimum**) is a [[product]] in a [[poset]].
+An **intersection** is a [[meet]] of [[subset]]s or (more generally) [[subobject]]s.
 
-Intersections are often considered in the posets of [[subobject]]s of an object of some category.  In this case the intersection of two [[monomorphism]]s $A\hookrightarrow X$ and $B\hookrightarrow X$ can be computed by a [[pullback]] of the [[cospan]] $A\to X \leftarrow B$.  Thus, intersections of subobjects exist in any [[finitely complete category]].  When applied in [[Set]], this includes the traditional intersection of subsets of some ambient set.
+This includes the traditional set-theoretic intersection of subsets of some ambient set; intersections of completely arbitrary sets are considered [[evil]].
+
+In a [[finitely complete category]], the intersection of two [[monomorphism]]s $A\hookrightarrow X$ and $B\hookrightarrow X$ can be computed by a [[pullback]] of the [[cospan]] $A\to X \leftarrow B$.
