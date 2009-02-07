@@ -1,9 +1,7 @@
+[[!include all changes]]
+
 Archive of changes made during 2008.
 The substantive content of this page should **not** be altered.
-
-***
-
-**First list** &#8212; No previous list &#8212; [[all changes|All lists]] &#8212; [[2009 January changes|Next list]] &#8212; [[latest changes|Current list]]
 
 ***
 
@@ -46,10 +44,9 @@ of the [[HomePage]]. So far I did this in [[category theory]], [[sheaf and topos
 
 * [[Urs Schreiber|Urs]]: I expanded on the entry [[action groupoid]] that [[Eric Forgy|Eric]] started.
 
-
 ***
 
-**First list** &#8212; No previous list &#8212; [[all changes|All lists]] &#8212; [[2009 January changes|Next list]] &#8212; [[latest changes|Current list]]
+**First list** &#8212; No previous list &#8212; [[2009 January changes|Next list]] &#8212; [[latest changes|Current list]]
 
 ***
 
