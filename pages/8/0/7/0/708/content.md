@@ -3,9 +3,7 @@ The substantive content of this page should **not** be altered.
 
 ***
 
-* [[latest changes|Current list]]
-* [[2009 February changes|Next list]]
-* [[2008 changes|Previous list]]
+[[2008 changes|First list]] &#8212; [[2008 changes|Previous list]] &#8212; [[all changes|All lists]] &#8212; [[2009 February changes|Next list]] &#8212; [[latest changes|Current list]]
 
 ***
 
@@ -189,7 +187,7 @@ The substantive content of this page should **not** be altered.
 * [[Tim Porter|Tim]]:
     
   * Created [[simplicial group]]s which was needed by several entries.
-  * Commented in [[simplicial set]] about a notational problem that needs attention. The notation for face and degeneracies in [[simplicial set]] is at odds with the standard one in _the literature_. (*Now fixed*)
+  * Commented in [[simplicial set]] about a notational problem that needs attention. The notation for face and degeneracies in [[simplicial set]] is at odds with the standard one in _the literature_. \(*Now fixed*\)
   * Created [[simplicial identities]].
   * Created [[simplicial object in Cat]] referring to [[simplicial object]] as it was a 'hanging link'in [[simplicial category]].
 
@@ -848,3 +846,11 @@ and connected it to the discussion of covering sieves at
 # 2009-01-01
 
 Apparently, we all took a break from the $n$Lab for the New Year!
+
+***
+
+[[2008 changes|First list]] &#8212; [[2008 changes|Previous list]] &#8212; [[all changes|All lists]] &#8212; [[2009 February changes|Next list]] &#8212; [[latest changes|Current list]]
+
+***
+
+category: meta
