@@ -37,14 +37,14 @@ Generalizing this massively, arbitrary topological fibrations $p:E\to B$ corresp
 
 More generally, one can consider fibrations in which the fibers are equipped with some extra structure, such as being a vector space or having an action by a group.  This corresponds to restricting the codomain of the transport to some category of spaces with structure and structure-preserving maps.  The most common version of this is a [[bundle]] with some structure [[group]] $G$, in which case the transport lands in $\mathbf{B} G$, the category with one object (thought of as a generic $G$-[[torsor]]) and $G$ as its endomorphisms.  In such cases the word "parallel" is often added in front of "transport."
 
-If we replace the groupoid $\mathbf{B} G$ by its [[classifying space]] -- which is the [[geometric realization]] of the [[nerve]] of $\mathbf{B}G$ -- then passing to $\pi_0$ recovers the classical fact that "classifying spaces classify": there is a bijection between $G$-bundles over a space $X$ and homotopy classes of maps $X\to B G$.  This bijection is realized by pulling back the "universal $G$-bundle" $E G \to B G$ over the space $B G$.  There are also classifying spaces for more general types of fibrations, constructed from the relevant subcategories of $Top$.
+If we replace the groupoid $G$  by its [[classifying space]] $B G$-- which is the [[geometric realization]] of the [[nerve]] of $G$ -- then passing to $\pi_0$ recovers the classical fact that "classifying spaces classify": there is a bijection between $G$-bundles over a space $X$ and homotopy classes of maps $X\to B G$.  This bijection is realized by pulling back to $X$ the "universal $G$-bundle" $E G \to B G$ over the space $B G$.  There are also classifying spaces for more general types of fibrations, constructed from the relevant subcategories of $Top$.
 
 
 # Fibrations in category theory #
 
 It is common in category theory to consider the objects of a [[slice category]] $C/X$ as "objects of $C$ varying over $X$."  For example, an object $A\to X$ of $Set/X$ can be identified with an $X$-indexed family $\{A_x\}_{x\in X}$ of sets, where $A_x$ is the [[fiber]] of $A\to X$ over $x\in X$.  Likewise, if $X$ is a [[topological space]], we can regard an object of $Top/X$ as a family of spaces (the fibers) "varying continuously" over $X$.  But as we have seen, in the topological case, in order to make this varying into a "functor" $X\to Top$ we need the map to be a fibration.
 
-In category theory, there is analogous notion of when a functor $p:E\to B$ is a _fibration_, which is exactly what is needed to make the assignment $b \mapsto p^{-1}(b)$ into a functor $B\to Cat$.  (Actually, there are two such notions, since a functor on a non-groupoid can be either covariant or contravariant.)  Thus, in this case $Cat$ is the analogue of the "classifying space," and there is a "universal fibration" $Cat_* \to Cat$ of which every other fibration is a pullback (modulo size issues).
+In category theory, there is analogous notion of when a functor $p:E\to B$ is a _fibration_, which is exactly what is needed to make the assignment $b \mapsto p^{-1}(b)$ into a pseudo-functor $B\to Cat$.  (Actually, there are two such notions, since a functor on a non-groupoid can be either covariant or contravariant.)  Thus, in this case $Cat$ is the analogue of the "classifying space," and there is a "universal fibration" $Cat_* \to Cat$ of which every other fibration is a pullback (modulo size issues).
 
 Categorical fibrations also have a "lifting" property, but the liftings must satisfy an extra "universality" condition.  For this reason, they are not the fibrations in any model structure on $Cat$.  However, fibrations of this sort between groupoids are the same as isofibrations, and thus are the fibrations in the [[folk model structure]] on $Gpd$.  See [[Grothendieck fibration]] for more details.
 
@@ -133,5 +133,9 @@ _Mike, again_: Okay, I basically rewrote the whole page, trying to take your com
 PS. Wikipedia entries for fibration and fibred category exist and could be used if you think they are consistent enough with you wishes for this.  
 
 [[Urs Schreiber|Urs]]: thanks, nice entry. Eventually it would be nice if we could say more about _which fibrations are fibrations_: which notion of fibred ($n$-)categories/groupoids are fibrations with respect to which model structure. I once tried to collect a bit of data on this, but I need to dig out my old notes, and they were likely very incomplete anyway.
+
+[[Ronnie Brown|Ronnie]]: I made a few minor changes, but I also find it odd to define a fibration in terms of a hypothetical fundamental $\infty$-groupoid of $B$. What is this animal? 
+
+With regard to transport I like the old paper of Philip R. Heath on operations and fibrations- I'll give the reference later. At Hull, Phil and I were amused by the fact that the unit interval $I=[0,1]$ is a cogroupoid up to homotopy  where homotopy is defined using $I$!. This led to his thesis work on fibrations, getting away from the base point approach of the loops on the base operates on the fibre. Maybe effort should be put in to defining and constructing an $\infty$-cogroupoid (up to homotopy)! 
 
 =--
