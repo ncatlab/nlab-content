@@ -18,7 +18,7 @@ If an extensive category also has [[finitely complete category|finite limits]], 
 
 #Remarks#
 
-* The alternative definitions of finitary disjunctive refer only to binary coproducts, but they obviously implies analogous statements for $n$-ary coproducts for all finite $n \ge 1$.  Less obviously, they also imply the analogous statement for $0$-ary coproducts (that is, [[initial object]]s).  In this case, the statement is that the initial object 0 is _strict_ (any map $a\to 0$ is an isomorphism).
+* The alternative definitions of finitary disjunctive refer only to binary coproducts, but they obviously imply analogous statements for $n$-ary coproducts for all finite $n \ge 1$.  Less obviously, they also imply the analogous statement for $0$-ary coproducts (that is, [[initial object]]s).  In this case, the statement is that the initial object 0 is _strict_ (any map $a\to 0$ is an isomorphism).
 
 * See [[familial regularity and exactness]] for a generalization of extensivity and its relationship to [[exact category|exactness]].
 
