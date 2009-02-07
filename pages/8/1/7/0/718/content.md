@@ -2,7 +2,7 @@
 
 [[!include contents ]]
 
-I am a <a href="http://www.j-paine.org/#consultancy">freelance programmer</a>, and spend too much time repairing Web servers and spreadsheets &mdash; or, in the current hard times, looking for Web servers and spreadsheets to repair. <a href="http://www.j-paine.org/">My Website</a> says more about this and other things I do.
+I am a <a href="http://www.j-paine.org/#consultancy">freelance programmer</a>, and spend too much time repairing Web servers and spreadsheets &mdash; or, in these hard times, looking for Web servers and spreadsheets to repair. <a href="http://www.j-paine.org/">My Website</a> says more about this and other things I do.
 
 But I was tempted into category theory, not least by my friends Hendrik Hilberdink, <a href="http://www.imar.ro/~diacon/">R&#259;zvan Diaconescu</a>, Petros Stefaneas, and <a href="http://www.di.uminho.pt/~jbb/">Jos&#233; Bernardo Barros</a>. And their supervisor, <a href="http://www-cse.ucsd.edu/~goguen/">Joseph Goguen</a>.
 
@@ -12,7 +12,7 @@ I'd also like to popularise category theory through my <a href="http://www.j-pai
 
 One benefit is the tools category theory gives us to "achieve independence from the often overwhelmingly complex details of how things are represented or implemented". (I quote Goguen's <a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.13.362"><cite>A categorical manifesto</cite></a>.) For example, holographic reduced representations represent symbolic structured data as high-dimensional vectors, storing and extracting items via operations similar to correlation and convolution. They can use the same operations to do analogical reasoning of the kind "What is to Sweden as Paris is to France?". This is important because any intelligent machine needs to do such reasoning; but it's something computers are notoriously bad at. If we could characterise HRRs categorically, it might help us discover which properties of their representational substrate are essential, and which merely accidental.
 
-Perhaps &mdash; I don't know whether I'm joking or not &mdash; categorical characterisations could help us understand other phenomena. Could we find a universal property that a computational system satisfies if and only if it is conscious?!
+Perhaps &mdash; I don't know whether I'm joking or not &mdash; categorical characterisations could help us understand other phenomena. Could we find a universal property that a computational system satisfies if and only if it is conscious?! Or &mdash; a simpler question, and one that must be sensible &mdash; that it satisfies if and only if it can represent and reason about itself?
 
 Category theory also gives us tools for unifying disparate mathematical and computational phenomena. AI and cognitive science, of course, are full of disparate mathematical and computational phenomena, usually ones whose relatedness is badly understood. That is why my n-Category Caf&eacute; posting above mentioned neural networks: in it, I cited Michael Healy's paper <a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.32.2635"><cite> Category Theory Applied to Neural Modeling and Graphical Representations</cite></a>. He uses colimits, functors, and natural transformations to map concepts expressed as logic onto concepts represented in one kind of neural network.
 
@@ -20,7 +20,7 @@ As another example, I cited a paper by Goguen on analogical reasoning via "conce
 Cognitive Space and Time</cite></a>. He uses institutions and 3/2-colimits to (for example) represent the meaning of the word "houseboat" as an optimal blend of the meanings of "house" and "boat". Could we apply the same constructions to HRRs? That would unify two kinds of analogical reasoning implemented on very different representational substrates.
  
 Read the following quote from
-<a href="http://gregegan.customer.netspace.net.au/">Greg Egan</a>'s novel <a href="http://gregegan.customer.netspace.net.au/INCANDESCENCE/Incandescence.html"><cite>Incandescence</cite></a>. That is what I want category theory to do for cognitive science and AI:
+<a href="http://gregegan.customer.netspace.net.au/">Greg Egan</a>'s novel <a href="http://gregegan.customer.netspace.net.au/INCANDESCENCE/Incandescence.html"><cite>Incandescence</cite></a>. That's how I want category theory to unify cognitive science and AI:
 <blockquote>
 'Interesting Truths' referred to a kind of theorem which captured subtle unifying insights between broad classes of mathematical structures. In between strict isomorphism &#8212; where the same structure recurred exactly in different guises &#8212; and the loosest of poetic analogies, Interesting Truths gathered together a panoply of apparently disparate systems by showing them all to be reflections of each other, albeit in a suitably warped mirror. Knowing, for example, that multiplying two positive integers was really the same as adding their logarithms revealed an exact correspondence between two algebraic systems that was useful, but not very deep. Seeing how a more sophisticated version of the same could be established for a vast array of more complex systems &#8212; from rotations in space to the symmetries of subatomic particles &#8212; unified great tracts of physics and mathematics, without collapsing them all into mere copies of a single example.
 </blockquote>
