@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-02-07
 
+* [[Ronnie Brown]]:
+  *I edited  the discussion in [[fibration]] to give a reference to work of P.R. Heath on operations of the paths on the base on the fibres, a groupoid operation up to homotopy. 
+
+
 * [[Toby Bartels]]:
   * I separated [[join]] and [[meet]] from [[union]] and [[intersection]] (which are terms that I\'d use only for subobjects).
   * I\'m back! I\'ll be slowly catching up. So far, I\'ve simply read **latest changes** and extended Andrew\'s navigation links for the archive. (So it looks like the sort of thing that daily updated websites create automatically using PHP, except that I did it all laboriously by hand!)
