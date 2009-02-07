@@ -13,3 +13,5 @@ this book would help me digest it.
 I'm excited to be a part of this project,
 and I hope to expand the subjects of my contributions
 in the future.
+
+category: people
