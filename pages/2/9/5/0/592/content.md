@@ -18,7 +18,7 @@ $$
   }
 $$
 
-the 'pushout' of this diagram is the set $X$ obtained by taking the disjoint union $A + B$ and identifying $a \in A$ with $b \in B$ if there exists $x \in C$ such that $f(x) = a$ and $g(x) = b$.  
+the 'pushout' of this diagram is the set $X$ obtained by taking the disjoint union $A + B$ and identifying $a \in A$ with $b \in B$ if there exists $x \in C$ such that $f(x) = a$ and $g(x) = b$ (and all identifications that follow to keep equality an [[equivalence relation]]).
 
 This construction comes up, for example, when $C$ is the intersection of the sets $A$ and $B$, and $f$ and $g$ are the obvious inclusions.  Then the pushout is just the union of $A$ and $B$.
 
