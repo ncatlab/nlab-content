@@ -1,3 +1,5 @@
+[[!include all changes]]
+
 A list of all entries lately edited is given at
 
 * [Recently Revised](http://ncatlab.org/nlab/recently_revised).
@@ -89,7 +91,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
-[[2008 changes|First list]] &#8212; [[2009 January changes|Previous list]] &#8212; [[all changes|All lists]] &#8212; No next list &#8212; **Current list**
+[[2008 changes|First list]] &#8212; [[2009 January changes|Previous list]] &#8212; No next list &#8212; **Current list**
 
 ***
 
