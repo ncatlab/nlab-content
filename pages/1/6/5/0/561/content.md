@@ -136,6 +136,13 @@ PS. Wikipedia entries for fibration and fibred category exist and could be used 
 
 [[Ronnie Brown|Ronnie]]: I made a few minor changes, but I also find it odd to define a fibration in terms of a hypothetical fundamental $\infty$-groupoid of $B$. What is this animal? 
 
-With regard to transport I like the old paper of Philip R. Heath on operations and fibrations- I'll give the reference later. At Hull, Phil and I were amused by the fact that the unit interval $I=[0,1]$ is a cogroupoid up to homotopy  where homotopy is defined using $I$!. This led to his thesis work on fibrations, getting away from the base point approach of the loops on the base operates on the fibre. Maybe effort should be put in to defining and constructing an $\infty$-cogroupoid (up to homotopy)! 
+With regard to transport I like the old papers of Philip R. Heath on operations and fibrations-
+
+Heath, Philip R. Groupoid operations and fibre-homotopy equivalence. I.  Math. Z.  130  (1973), 207--233.
+(the first of 3 papers)
+
+If $p:E \to B$ is a fibration then there is an operation of the paths on the base on the fibres the laws of an operation holding up to homotopy.  
+
+At Hull, Phil and I were amused by the fact that the unit interval $I=[0,1]$ is a cogroupoid up to homotopy  where homotopy is defined using $I$!. This led to his thesis work on fibrations, getting away from the base point approach of the loops on the base operates on the fibre. Maybe effort should be put in to defining and constructing an $\infty$-cogroupoid (up to homotopy)! 
 
 =--
