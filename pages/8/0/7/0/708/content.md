@@ -1,9 +1,7 @@
+[[!include all changes]]
+
 Archive of changes made during January 2009.
 The substantive content of this page should **not** be altered.
-
-***
-
-[[2008 changes|First list]] &#8212; [[2008 changes|Previous list]] &#8212; [[all changes|All lists]] &#8212; [[2009 February changes|Next list]] &#8212; [[latest changes|Current list]]
 
 ***
 
@@ -219,8 +217,6 @@ The substantive content of this page should **not** be altered.
 
   * Asked a question at [[internal logic]] and another at [[regular monomorphism]]. Thanks for starting this page, Mike. There's still so much I don't understand about this topic.
 
-# 2009-01-22
-
 * [[John Baez]]:
 
   * Wrote [[pushout]] in the same gentle style as the previous article [[pullback]].  I want nice easy introductions to all our favorite limits and colimits!
@@ -246,6 +242,8 @@ The substantive content of this page should **not** be altered.
     * Moved [[Trimble's notion of weak n-category]] to [[Trimble n-category]].
 
   * Other, more minor, edits.
+
+# 2009-01-22
 
 * [[Urs Schreiber|Urs]]
 
@@ -849,7 +847,7 @@ Apparently, we all took a break from the $n$Lab for the New Year!
 
 ***
 
-[[2008 changes|First list]] &#8212; [[2008 changes|Previous list]] &#8212; [[all changes|All lists]] &#8212; [[2009 February changes|Next list]] &#8212; [[latest changes|Current list]]
+[[2008 changes|First list]] &#8212; [[2008 changes|Previous list]] &#8212; [[2009 February changes|Next list]] &#8212; [[latest changes|Current list]]
 
 ***
 
