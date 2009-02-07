@@ -8,8 +8,11 @@ Drop a comment here if you feel people's attention should be drawn to some chang
 
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).
 
-
 ***
+
+# 2009-02-07
+
+* [[Toby Bartels]]: I\'m back! I\'ll be slowly catching up. So far, I\'ve simply read **latest changes** and extended Andrew\'s navigation links for the archive. (So it looks like the sort of thing that daily updated websites create automatically using PHP, except that I did it all laboriously by hand!)
 
 # 2009-02-06
 
@@ -84,9 +87,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: thanks, [[Mike Shulman|Mike]], very useful. Is anything similar known for 3-categories?
 
-# Previous lists of significant changes
+***
 
-1. [[2009 January changes|2009 January]]
-1. [[2008 changes|2008]]
+[[2008 changes|First list]] &#8212; [[2009 January changes|Previous list]] &#8212; [[all changes|All lists]] &#8212; No next list &#8212; **Current list**
+
+***
 
 category: meta
