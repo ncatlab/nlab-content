@@ -1,4 +1,11 @@
-This is an archive from [[latest changes]] of the changes in 2008:
+Archive of changes made during 2008.
+The substantive content of this page should **not** be altered.
+
+***
+
+**First list** &#8212; No previous list &#8212; [[all changes|All lists]] &#8212; [[2009 January changes|Next list]] &#8212; [[latest changes|Current list]]
+
+***
 
 * [[Toby Bartels|Toby]] (2008-12-31): I have a precise definition of [[evil]], so I put that in.
 
@@ -38,5 +45,12 @@ of the [[HomePage]]. So far I did this in [[category theory]], [[sheaf and topos
 * [[Toby Bartels]]: I just expanded [[tensor product]], enough to include the example that links to it (without circularity).
 
 * [[Urs Schreiber|Urs]]: I expanded on the entry [[action groupoid]] that [[Eric Forgy|Eric]] started.
+
+
+***
+
+**First list** &#8212; No previous list &#8212; [[all changes|All lists]] &#8212; [[2009 January changes|Next list]] &#8212; [[latest changes|Current list]]
+
+***
 
 category: meta
