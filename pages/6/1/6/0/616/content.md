@@ -1,6 +1,6 @@
 ##Idea##
 
-Directed Homotopy Theory is a form of [[homotopy theory]] which tries to study the properties of [[directed space]]s.  Initially it used [[pospace]]s as the objects, that is spaces with a closed [[poset|partial order]], but with the introduction of [[d-space]]s by Grandis, these have become, perhaps, the more common objects of study.  
+Directed Homotopy Theory is a form of [[homotopy theory]] which tries to study the properties of [[directed space]]s.  Initially it used [[pospace]]s as the objects, but with the introduction of [[directed space|d-space]]s by Grandis, these have become, perhaps, the more common objects of study.  
 
 Much of the impetus for the theory has come from work on modelling concurrent process. It can also be seen as a way of studying an 'evolving' space.
 
@@ -10,13 +10,13 @@ Much of the impetus for the theory has come from work on modelling concurrent pr
 
 Marco Grandis' work on the area is listed amongst his publications at his ([homepage](http://www.dima.unige.it/~grandis/rec.public_grandis.html)). Such as 
 
-* M. Grandis, Directed homotopy theory. I, Cah. Topol. G eom. Di  er. Cat eg. 44 (4) (2003) 281{316.
+* M. Grandis, Directed homotopy theory. I, Cah. Topol. G eom. Di  er. Cat eg. 44 (4) (2003) 281&#8211;316.
 
-* M. Grandis, Directed homotopy theory. II. Homotopy constructs, Theory Appl. Categ. 10 (2002) No. 14, 369{391 (electronic).
+* M. Grandis, Directed homotopy theory. II. Homotopy constructs, Theory Appl. Categ. 10 (2002) No. 14, 369&#8211;391 (electronic).
 
-* M. Grandis, The shape of a category up to directed homotopy, Theory Appl. Categ. 15 (2005/06) No. 4, 95{146 (electronic).
+* M. Grandis, The shape of a category up to directed homotopy, Theory Appl. Categ. 15 (2005/06) No. 4, 95&#8211;146 (electronic).
 
-* M. Grandis, Modelling fundamental 2-categories for directed homotopy, Homology, Homotopy Appl. 8 (1) (2006) 31{70 (electronic)
+* M. Grandis, Modelling fundamental 2-categories for directed homotopy, Homology, Homotopy Appl. 8 (1) (2006) 31&#8211;70 (electronic)
 
 
 
@@ -57,9 +57,9 @@ Krzysztof Worytkiewicz and Peter Bubenik have given a model category structure f
 
 Further related references are
 
-* L. Fajstrup, Loops, ditopology and deadlocks, Math. Structures Comput. Sci. 10 (4) (2000) 459{480, geometry and concurrency.
+* L. Fajstrup, Loops, ditopology and deadlocks, Math. Structures Comput. Sci. 10 (4) (2000) 459&#8211;480, geometry and concurrency.
 
-* L. Fajstrup, M. Raussen,  E. Goubault, E. Haucourt, Components of the fundamental category, Appl. Categ. Structures 12 (1) (2004) 81{108, homotopy
+* L. Fajstrup, M. Raussen,  E. Goubault, E. Haucourt, Components of the fundamental category, Appl. Categ. Structures 12 (1) (2004) 81&#8211;108, homotopy
 theory.
 
 * L. Fajstrup, Dihomotopy classes of dipaths in the geometric realization of a cubical set: from discrete to continuous and back again, in: R. Kopperman,
@@ -68,7 +68,7 @@ theory.
 IBFI, Schloss Dagstuhl, Germany, 2005.
 
 * L. Fajstrup, Dipaths and dihomotopies in a cubical complex, Adv. in Appl.
-Math. 35 (2) (2005) 188{206.
+Math. 35 (2) (2005) 188&#8211;206.
 
 * M. Raussen, Deadlocks and dihomotopy in mutual exclusion models, in: R. Kopperman, M. B. Smyth, D. Spreen, J. Webster (Eds.), Spatial
 Representation: Discrete vs. Continuous Computational Models, no. 04351 in
