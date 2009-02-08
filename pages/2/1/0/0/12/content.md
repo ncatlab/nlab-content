@@ -163,7 +163,7 @@ The example of query blocks on the HOWTO page is this syntax
 But the maruku page says that this is right.  Do both work?
 =--
 
-[[3⁄2-colimit]]s have not yet been defined.
+[[3⁄2-colimit]]s have not yet been defined.  When they are, our [[HowTo|naming conventions]] would name the page [[3/2-colimit]].
 
 We can put in a table, which is a block-level HTML construct, like this, remembering to separate it by blank lines top and bottom:
 
