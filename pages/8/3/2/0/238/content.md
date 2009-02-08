@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-02-08
 
+* [[Tim Porter|Tim]]:
+  * Created an entry on [[Dwyer-Kan loop groupoid]].
+   
+
 * [[Toby Bartels]]:
   * Somewhat incorporated [[Ronnie Brown]]\'s remark on [[geometric shapes for higher structures]].
   * Comments on [[pospace]] and [[cartesian monad]].
