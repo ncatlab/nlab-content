@@ -19,9 +19,9 @@ $$
 $$
 which assigns to $X$ the category of all $G$-principal bundles over $X$.
 
-In the case that we have a [[cover]] $Y \to X$ of the space $X$, we may want to ask which $\mathbf{A}$-structures on the cover, $a \in \mathbf{A}(Y)$, can _descent_ down to $\mathbf{A}$-structures on $X$. The idea is that these are those $a \in \mathbf{A}(Y)$ which can be _glued_ consistently:
+In the case that we have a [[cover]] $Y \to X$ of the space $X$, we may want to ask which $\mathbf{A}$-structures on the cover, $a \in \mathbf{A}(Y)$, can _descend_ down to $\mathbf{A}$-structures on $X$. The idea is that these are those $a \in \mathbf{A}(Y)$ which can be _glued_ consistently:
 
-* on double intersectios $Y \times_X Y$ there should be a gluing ismorphism $g : \pi_1^* a \to \pi_2^* a$ which identifies the two copies of $a$ obtained by pullback along the two projection maps $\pi_1. \pi_2 : Y \times_X Y \to Y$.
+* on double intersections $Y \times_X Y$, there should be a gluing isomorphism $g : \pi_1^* a \to \pi_2^* a$ which identifies the two copies of $a$ obtained by pullback along the two projection maps $\pi_1. \pi_2 : Y \times_X Y \to Y$.
 
 * on triple intersections $Y \times_X Y \times_X Y$ there should be a gluing 2-isomorphism
 $
@@ -44,7 +44,7 @@ which identifies the different gluing 1-isomorphisms.
 
 * "and so on".
 
-The collection of objects $a \in \mathbf{A}(Y)$ together with this gluing data should themselve fit into an $\infty$-category. This $\infty$-category is the _$\infty$-category of descent data_ for the (pseudo)presheaf $\mathbf{A}$ relative to the cover $Y \to X$.
+The collection of objects $a \in \mathbf{A}(Y)$ together with this gluing data should themselves fit into an $\infty$-category. This $\infty$-category is the _$\infty$-category of descent data_ for the (pseudo)presheaf $\mathbf{A}$ relative to the cover $Y \to X$.
 
 * **Codescent:** an analogous situation is obtained for (pseudo)co-presheaves: their gluing information with respect to a cover yields an $\infty$-category of _codescent data_.
 
@@ -57,7 +57,7 @@ $ \cdots \to Y \times_X Y \times_X Y \to Y \times_X Y \to Y$ can be replaced by 
 
 **In weak $\infty$-categories**
 
-Fundamentally the $\infty$-category of descent data associated to a simplicial hypercover $Y^\bullet$ of $Spaces$ and a (pseudo)preshaf $A : Spaces^\op \to \infty Cat$ should be the _weak limit_ or _homotopy limit_ 
+Fundamentally the $\infty$-category of descent data associated to a simplicial hypercover $Y^\bullet$ of $Spaces$ and a (pseudo)presheaf $A : Spaces^\op \to \infty Cat$ should be the _weak limit_ or _homotopy limit_ 
 $$
   Desc(Y^\bullet,\mathbf{A}) := Holim_{[n \in \Delta]} \mathbf{A}(Y^n)
   \,.
@@ -107,7 +107,7 @@ $$
   \,.
 $$
 
-**Remark.** The above definitions in terms of orientals certainly gives the right answer in the case that $\mathbf{A}$ and $\mathbf{B}$ take values in $\omega$-groupoids. In this case one can equivalently replace $O(\Delta^n)$ here with $\Pi_\omega(\Delta^n)$, the fundamental $\omgea$-groupoid of the filtered standard $n$-simplex, which should be the free $\omega$-groupoid on $\Delta^n$. In terms of more general $\omega$-categorical coefficients it seems that in the above definition orientals need to be replaced with a different cosimplicial $\omega$-category.
+**Remark.** The above definitions in terms of orientals certainly gives the right answer in the case that $\mathbf{A}$ and $\mathbf{B}$ take values in $\omega$-groupoids. In this case one can equivalently replace $O(\Delta^n)$ here with $\Pi_\omega(\Delta^n)$, the fundamental $\omega$-groupoid of the filtered standard $n$-simplex, which should be the free $\omega$-groupoid on $\Delta^n$. In terms of more general $\omega$-categorical coefficients it seems that in the above definition orientals need to be replaced with a different cosimplicial $\omega$-category.
 
 For the moment, more details about this [[strict omega-category|strict omega categorical]] notion of descent and codescent is relegated to [[schreiber:Differential Nonabelian Cohomology]].
 
