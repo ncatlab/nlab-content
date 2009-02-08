@@ -4,7 +4,6 @@ A Lawvere&#8211;Tierney topology (or operator, or modality, also called _geometr
 
 The use of "topology" for this and the related Grothendieck concept is regarded by some people as unfortunate; see [[Grothendieck topology]] for some reasons why.  A proposed replacement for "Grothendieck topology" is [[coverage|(Grothendieck) coverage]]; see [[Grothendieck topology]] for some possible replacements for "Lawvere-Tierney topology."
 
-
 # Definition
 
 Let $E$ be a [[topos]], with [[subobject classifier]] $\Omega$. A __Lawvere&#8211;Tierney topology__ in $E$ is a map $j: \Omega \to \Omega$ that satisfies certain axioms.
@@ -18,42 +17,29 @@ Here $\leq$ is the internal [[partial order]] on $\Omega$, and $\wedge: \Omega \
 
 Given any [[subobject]] inclusion $X \hookrightarrow Y$ in $E$, consider its [[characteristic morphism]] $\chi_X: Y \to \Omega$. Then $\chi_X \circ j$ is another morphism $Y \to \Omega$, which defines another subobject $j_*(X)$ of $Y$. The elements of $j_*(X)$ are those elements of $Y$ that are 'locally' in $X$.
 
-
 # Sheaves
 
-... how to tell if an object of $E$ (or a presheaf on $C$) is a sheaf
-... iff it is uniquely defined when consistently 'locally' defined ...
-
+... how to tell if an object of $E$ is a sheaf ... iff it is uniquely defined when consistently 'locally' defined ...
 
 # Equivalence with Grothendieck topologies
 
-As mentioned above, a Lawvere&#8211;Tierney topology on $\Set^{C^\op}$ is equivalent to a [[Grothendieck topology]] on $C$.  Suppose that $C$ is a small site.  Then given a [[subpresheaf]] inclusion $F \hookrightarrow G$ in $\Set^{C^\op}$, an object $X$ of $C$, and an element $f$ of $G(X)$, we say $f$ is locally in $F$ (that is, $f \in j_*(F)(X)$) if and only if, for some covering family $c = (c_i: U_i \to X)_i$ on $X$, the restriction $c^*(f)$ of $f$ to $c$ is in $F$ (that is, each $c_i^*(f) \in F(U_i)$).  This intuitively defines the "local" modality that is the Lawvere-Tierney topology corresponding to the given Grothendieck topology on $C$.
+As mentioned above, a Lawvere&#8211;Tierney topology on $\Set^{C^\op}$ is equivalent to a [[Grothendieck topology]] on $C$.  Suppose that $C$ is a small site.  Then given a [[subpresheaf]] inclusion $F \hookrightarrow G$ in $\Set^{C^\op}$, an object $X$ of $C$, and an element $f$ of $G(X)$, we say $f$ is locally in $F$ (that is, $f \in j_*(F)(X)$) if and only if, for some [[cover|covering family]] $c = (c_i: U_i \to X)_i$ on $X$, the restriction $c^*(f)$ of $f$ to $c$ is in $F$ (that is, each $c_i^*(f) \in F(U_i)$).  This intuitively defines the "local" modality that is the Lawvere-Tierney topology corresponding to the given Grothendieck topology on $C$.
 
 As a specific example, take the usual Grothendieck topology on [[Top]], given by the usual notion of open cover. Taking real-valued functions on a space defines a presheaf (in fact a sheaf) $G: X \mapsto [X,R]$ on $\Top$; the constant functions form a subpresheaf $F$ of $G$. A real-valued function $f: X \to R$ belongs to $j_*(F)$ iff it is *locally* constant; that is, for some open cover $(U_i)_i$ of the domain $X$, each restriction $f|U_i$ is constant.
 
 To make this precise in terms of the above definition, we need to understand the subobject classifier in $E = Set^{C^{op}}$.  But according to the definition, $\Omega$ is simply the representing object for the functor 
-
 $$Sub: E^{op} \to Set$$ 
-
 which takes an object $F$ of $E$ to the collection of subobjects of $F$, $Sub(F)$. In other words, $Sub(F) \cong \hom_E(F, \Omega)$. Applied to $F = \hom_C(-, c)$, we have then 
-
 $$Sub(\hom_C(-, c)) \cong \hom_{Set^{C^{op}}}(\hom_C(-, c), \Omega) \stackrel{Yoneda}{\cong} \Omega(c)$$ 
-
 In other words, we find that the functor $\Omega: C^{op} \to Set$ is defined by 
-
 $$\Omega(c) = \{sieves on c\}$$ 
 
 Next, if $J$ is a Grothendieck topology on $C$, then the collection of $J$-covering sieves on $c$ [which we denote by $J(c)$] is a subcollection of all sieves on $c$, and so we have an inclusion 
-
 $$J(c) \hookrightarrow \Omega(c)$$ 
-
 and this inclusion is natural in $c$, by virtue of the first axiom on covering sieves. Thus we have a subobject
-
 $$J \hookrightarrow \Omega$$ 
-
 and again, by definition of subobject classifier, this subobject corresponds to a uniquely determined element 
-
 $$j \in \hom_E(\Omega, \Omega)$$ 
+which is just the Lawvere-Tierney operator $j: \Omega \to \Omega$.
 
-which is just the Lawvere-Tierney operator $j: \Omega \to \Omega$.  
 Conversely, any morphism $j:\Omega\to\Omega$ determines a subobject $J$ of $\Omega$, which therefore associates to every object $c$ a set of sieves on $c$.  It is easy to check that the axioms for covering sieves in a Grothendieck topology correspond exactly to the required properties of the operator $j$.
