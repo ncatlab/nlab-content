@@ -1,31 +1,23 @@
 ##Idea##
-The objects of this simplicially enriched groupoid arethe vertices of the simplicial set, then the simplicial set of paths between two  such picks up the 'strings' of higher dimensional simplices whose zeroth vertex is at the domain vertex and whose first vertex is at the  codoamin.
+The Dwyer&#8211;Kan loop groupoid is a [[simplicially enriched category|simplically enriched groupoid]] whose objects are the vertices of a [[simplicial set]], then the simplicial set of paths between two such picks up the 'strings' of higher dimensional simplices whose zeroth vertex is at the domain vertex and whose first vertex is at the  codoamin.
 
 ##Definition##
 
-The **loop groupoid functor of Dwyer and Kan**,  is a functor 
-
-$$G: SimpSet \to SimpSet-Groupoid,$$
-
+The **loop groupoid functor of Dwyer and Kan** is a functor 
+$$G: \Simp\Set \to \Simp\Set\Groupoid,$$
 which takes the simplicial set $K$ to the [[simplicial groupoid]] $GK$, where $(GK)_n$ is the [[free groupoid]] on the directed graph given by a pair of arrows
-
 $$s,t: K_{n+1}\rightarrow K_0,$$
-
 where the two functions, $s$, source, and $t$, target, are $s = (d_1)^{n+1}$ and $t = d_0(d_2)^n$ with relations $s_0x = id$ for $x \in K_n$.  
 
 The face and degeneracy maps are given on generators by 
-
 *   $s_i^{GK}(x) = s_{i+1}^K(x),$
-
 *   $d_i^{GK}(x) = d_{i+1}^K(x)$, for $x \in K_{n+1}$, $1 \lt i \leq n$, and 
-
 *   $d_0^{GK}(x) = (d_0^K(x))^{-1}(d_1^K(x))$. 
-
 
 ##Remarks##
 *  This simplicial groupoid is a simplicially enriched groupoid, as the face and degeneracy operators are constant on the objects.
 
-* The loop groupoid functor has a right adjoint, $\overline{W}$, called the [[classifying space|(simplicial) classifying space]] functor.
+* The loop groupoid functor has a right adjoint, $\overline{W}$, called the (simplicial) [[classifying space]] functor.
 
 * The original reference is 
 
