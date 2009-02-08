@@ -2,7 +2,7 @@
 
 There is quite a difference between the [[Kan complex]] structure of the [[nerve|nerve]] of a [[groupoid]], $G$, and that of, say,  a singular complex.  In the first, if we are given a $(n,i)$-[[horn]], then there is _exactly one_ $n$-simplex in  $Ner(G)$, since the $(n,i)$-horn has a chain of $n$-composable arrows of $G$ in it (at least unless $(n,i) = (2,0)$ or $(2,2)$, which cases are slightly different) and that chain gives the required $n$-simplex.  In other words, there is a 'canonical' filler for any horn.  In $Sing(X)$,  there will usually be many fillers.
 
-Abstracting from this idea, Brown and Higgins developed the idea of a cubical [[T-complex]]. This was a [[cubical set|cubical set]] with in each dimension $n$,  a subset of the $n$-[[cube]]s being declared _'thin'_. The term was adopted to indicate that they, somehow, were of lower dimension than they looked to be.  The theory was initially developed in the thesis of Keith Dakin, and used by Brown and Higgins who showed that cubical $T$-complexes were equivalent to  [[crossed complex|crossed complexes]].  The corresponding simplicial theory was developed in another thesis, this time by Nick Ashley.
+Abstracting from this idea, Brown and Higgins developed the idea of a cubical $T$-[[T-complex|complex]]. This was a [[cubical set|cubical set]] with in each dimension $n$,  a subset of the $n$-[[cube]]s being declared _'thin'_. The term was adopted to indicate that they, somehow, were of lower dimension than they looked to be.  The theory was initially developed in the thesis of Keith Dakin, and used by Brown and Higgins who showed that cubical $T$-complexes were equivalent to  [[crossed complex|crossed complexes]].  The corresponding simplicial theory was developed in another thesis, this time by Nick Ashley.
 
 A main application of the idea of thin elements in the cubical case was to define the notion of commutative cube. In the case of cubical $\omega$-groupoids with connection, the boundary of a cube is commutative if and only if the boundary has a thin filler. One consequence is that any composition of thin elements is thin. This is a key element of the proof of the Higher Homotopy van Kampen theorem in the _colimits_ paper, which thus nicely generalises the proof of the 1-dimensional van Kampen theorem for the fundamental groupoid on a set of base points.  
 
@@ -35,7 +35,7 @@ and generally
 
 * Ronald Brown, Philip J. Higgins and Rafael Sivera, _Nonabelian algebraic topology_ ([web](http://www.bangor.ac.uk/~mas010/nonab-a-t.html)).
 
-A closely related idea is that of  [[group T - complex|group T - complex]].
+A closely related idea is that of  [[group T-complex]].
 
 See also:
 
