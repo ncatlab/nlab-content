@@ -81,6 +81,8 @@ Toby added:
 > For example, if the definition of group is given as stating that there exist identities and inverses, rather than stating that identities and inverses are given by functions as in the axioms shown above, we can rewrite these axioms using functions because the objects whose existence they state are provably unique.
 
 I'm not sure that's an instance of what I was talking about.  The existence of an identity is a statement of the form "there exists an $e$ such that _for all $x$_, ..." so it doesn't just involve $\wedge$, $\top$, and $\exists!$, but also $\forall$.  I was looking at D1.3.4 in the Elephant.  --Mike
+
+_Toby_: I\'ll have to check a copy and see what that\'s about.  But surely you agree that an axiom $\Gamma \vdash \exists\vec{x}: \forall\vec{y}: \phi$ may be replaced by function symbols $\Gamma \vdash f_i$ and an axiom $\Gamma, \vec{y} \vdash \phi[\vec{f}/\vec{x}]$ if there are already theorems $\Gamma, \vec{x}, \vec{x}', \vec{y}, \phi, \phi[\vec{x}'/\vec{x}] \vdash x_i = x'_i$.
 =--
 
 A [[coherent category]] is basically defined to be a regular category in which the subobject posets additionally have pullback-stable finite unions.  Thus, in a coherent category we can interpret so-called _coherent logic_, which adds $\vee$ and $\bot$ to regular logic.  Likewise, in an infinitary-coherent (or "geometric") category we can interpret _geometric logic_, which adds infinitary disjunctions $\bigvee_i \varphi_i$ to coherent logic.  Geometric logic is especially important because it is preserved by the inverse image parts of [[geometric morphism]]s, and because any geometric theory has a [[classifying topos]].
@@ -136,3 +138,5 @@ The third caveat is that one must take care to distinguish the _internal_ logic 
 * Part D of [[Elephant|Sketches of an Elephant]] is comprehensive.
 
 * "Categorical Logic and Type Theory" by Jacobs works in the even more general context of [[Grothendieck fibration|fibrations]], allowing us to associate to each object $A$ an arbitrary poset instead of $Sub(A)$.
+
+* Paul Taylor\'s book _[[Practical Foundations|Practical Foundations of Mathematics]]_ is arguably all about this subject (although you wouldn\'t know it until about Chapter VIII), but from a different perspective.  In particular, Taylor allows us to replace having *all* pullbacks with pullbacks along a pullback-stable class of _display morphisms_.
