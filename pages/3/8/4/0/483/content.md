@@ -11,11 +11,14 @@ The notions of [[fundamental category]] and many of the applications of these no
 
 [[Urs Schreiber|Urs]]: thanks, I wasn't aware of that. Could you provide a reference? Or the detailed original definition itself?
 
+_Toby_: While we await Tim\'s reply, I expect that he simply means a [[pospace]] such that the partial order is a [[directed set|direction]].
+
+By the way, if there are different notions of directed space, then we can move the one below to [[d-space]].
 =--
 
 #Definition#
 
-A **directed topological space** or d-space is pair $(X, d X)$ consisting of a [[topological space]] $X$ and a subset $d X \subset C([0,1],X)$ of continuous maps from the interval into $X$ -- called _directed paths_ or d-paths -- satisfying the following conditions:
+A **directed topological space** or **d-space** is pair $(X, d X)$ consisting of a [[topological space]] $X$ and a subset $d X \subset C([0,1],X)$ of continuous maps from the interval into $X$ -- called _directed paths_ or d-paths -- satisfying the following conditions:
 
 1. (constant paths) every constant map $I\to X$ is directed,
 
@@ -31,11 +34,9 @@ A **morphism of directed topological spaces**  $f : (X, d X)\to (Y , d Y)$ is a 
 
 #Examples#
 
-* The _standard directed interval_ is $I_d = ([0,1], d I)$ with $d I $ the set of all _monotonic_ continuous maps $[0,1] \to [0,1]$.
+* The _standard directed interval_ is $I_d = ([0,1], d I)$ with $d I$ the set of all _monotonic_ continuous maps $[0,1] \to [0,1]$.
 
-* Any [[pospace]] $X$ gives rise to a d-space by taking the 
-directed paths to be,..., directed paths, i.e. continuous oorder preserving maps from $I_d$ to $X$.
-
+* Any [[pospace]] $X$ gives rise to a directed space by taking the directed paths to be, well, directed paths, i.e. continuous order-preserving maps from $I_d$ to $X$.
 
 #Remarks#
 
@@ -131,3 +132,5 @@ _Toby_: Even here, I don\'t think that you\'re really using the terminology idea
 But maybe the the true issue is whether we want to speak of "directed objects" over at [[directed object]] or rather restrict to speaking about _undirected objects_. Then every object would be a directed object, possibly with trivial direction information, while those objects which are propertly directed would be the _not undirected objects_. 
 
 I consider you as an authority on such issues of logical rigour. You should say how we should fix the terminology and we'll implement that.
+
+_Toby_: I\'ll discuss this at [[directed object]].
