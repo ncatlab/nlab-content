@@ -11,4 +11,4 @@
 * [[generalized tangle hypothesis]]
 
 
-catgeory: people
+category: biography
