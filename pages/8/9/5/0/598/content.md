@@ -2,7 +2,7 @@
  A **simplicial group**, $G$, is a [[simplicial object]] in the category of groups.
 
 #Notation# 
-The category of simplicial groups is the category of functors from $\Delta^{op}$ to $Grps$.  It will be denoted $Simp.Grps$
+The category of simplicial groups is the category of functors from $\Delta^{op}$ to $Grp$.  It will be denoted $SimpGrp$
 
 #Discussion#
 * Clearly, as any group has an underlying set, a simplicial group has an underlying [[simplicial set]]. The underlying simplicial set of a simplicial group is a [[Kan complex]]. In fact, it is better than a Kan complex as there is an algorithm that gives the fillers for a given [[horn]]:
@@ -21,6 +21,6 @@ One point to note is that the filler for any horn can be chosen to be a _product
 
 * The homotopy groups of a simplicial group, $G$, can be calculated as the homology groups of the [[Moore complex]] of $G$.  This is, in general,  a non-Abelian chain complex.
 
-* A simplicial group can be considered as a [[simplicial groupoid]] having exactly one object. If $G$ is a simplicial group, the suggested notation for the corresponding simplicially enriched groupoid would be $BG$ according to notational conventions suggested elsewhere in the nLab.
+* A simplicial group can be considered as a [[simplicially enriched category|simplicial groupoid]] having exactly one object. If $G$ is a simplicial group, the suggested notation for the corresponding simplicially enriched groupoid would be $\mathbf{B}G$ according to notational conventions suggested elsewhere in the nLab.
 
 * There is a functor due to Dwyer and Kan, called the [[Dwyer-Kan loop groupoid]] that takes a  simplicial set to a simplcial groupoid. This has a left adjoint $\overline{W}$ and together they give an equivalence of categories between the homotopy category of simplical sets and that of simplicial groupoids. We thus have that all homotopy types are modelled by simplicial groupoids ... and for connected homotopy types by simplicial groups. One *important fact* to note in this equivalence is that it shifts dimension by 1, so if $G(K)$ is the simplicial group corresponding to the connected simplicial set $K$ then $\pi_k(K)$ is the same as $\pi_{k-1}(G(K))$.  This is important when considering algebraic models for a [[homotopy n-type]].
