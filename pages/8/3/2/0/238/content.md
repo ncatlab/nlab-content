@@ -19,6 +19,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
    
 
 * [[Toby Bartels]]:
+  * A comment at [[directed space]], which led me to write [[directed set]] just to clarify terminology.
   * Somewhat incorporated [[Ronnie Brown]]\'s remark on [[geometric shapes for higher structures]].
   * Comments on [[pospace]] and [[cartesian monad]].
   * Standardized the notation as $\Simp{C}$ for the category of [[simplicial object]]s in $C$, as on [[SimpSet]], [[simplicial set]] (where I dropped an unrelated note to Tim), [[simplicial group]], etc.
