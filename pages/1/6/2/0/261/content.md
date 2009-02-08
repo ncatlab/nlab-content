@@ -14,6 +14,7 @@ A **simplicial set**  is a [[presheaf]] on the [[simplex category]] $\Delta$.
 +--{.query} 
 [[Tim Porter|Tim]] : I have changed the notation so that the maps in $\Delta$  are given Greek symbols whilst their images under the functor $X$ are denoted $d_i$ and $s_i$, so as to bring the notation into line with the standard one. Can someone check that I have been consistent, please?
 
+_Toby_: The notation seems to be consistent on this page.
 =--
 #Examples#
 
@@ -25,17 +26,17 @@ A **simplicial set**  is a [[presheaf]] on the [[simplex category]] $\Delta$.
 
 #The Category of Simplicial Sets#
 
-Like all categories of presheafs on a small category, the category $sS$ of simplicial sets is complete and cocomplete (with limits and colimits constructed levelwise) and cartesian closed. In fact, like all [[presheaf category|presheaf categories]], it is a topos. 
+Like all categories of presheafs on a small category, the category [[SimpSet]] of simplicial sets is complete and cocomplete (with limits and colimits constructed levelwise) and cartesian closed. In fact, like all [[presheaf category|presheaf categories]], it is a topos. 
 
 We write $Y^X$ for the internal-hom of simplicial sets $X$ and $Y$. By the Yoneda lemma, the $n$-simplices of $Y^X$ correspond to maps $\Delta[n] \rightarrow Y^X$, or equivalently, maps $X \times \Delta[n] \rightarrow Y$ (by the defining adjunction). So we may _define_ the simplicial set $Y^X$ to have these $n$-simplices. The face and degeneracy maps are given by precomposition by the dual maps in $\Delta$.
 
 # Adjunctions #
 
-The maps $N: \Cat \rightarrow sS$ and $S: \Top \rightarrow sS$ described in the examples are actually functors, both of which have left adjoints. These adjoint pairs are examples of a very general sort of adjunction involving simplicial sets, of which there are many examples.
+The maps $N: \Cat \rightarrow \Simp\Set$ and $S: \Top \rightarrow \Simp\Set$ described in the examples are actually functors, both of which have left adjoints. These adjoint pairs are examples of a very general sort of adjunction involving simplicial sets, of which there are many examples.
 
-Let $E$ be any cocomplete category and let $F: \Delta \rightarrow E$ be a functor. We define the right adjoint $R : E \rightarrow sS$ as follows. Given an object $e \in E$ the $n$-simplices of $Re$ are defined to be the set $E(F[n],e)$ of morphisms in $E$ from $F[n]$ to $e$. Face and degeneracy maps are given by precomposition by the appropriate (dual) maps in the image of $F$. $R$ is defined on morphisms by postcomposition. 
+Let $E$ be any cocomplete category and let $F: \Delta \rightarrow E$ be a functor. We define the right adjoint $R : E \rightarrow \Simp\Set$ as follows. Given an object $e \in E$ the $n$-simplices of $Re$ are defined to be the set $E(F[n],e)$ of morphisms in $E$ from $F[n]$ to $e$. Face and degeneracy maps are given by precomposition by the appropriate (dual) maps in the image of $F$. $R$ is defined on morphisms by postcomposition. 
 
-The left adjoint $L$ is defined to be the left [[Kan extension]] of $F$ along the Yoneda embedding $y: \Delta \rightarrow sS$. Because the $y$ is full and faithful, we will have $Ly = F$, i.e., $L (\Delta[n]) = F[n]$. By specifying $F$, we have already defined a functor to $E$ on the represented simplicial sets; $L$ is the unique cocontinuous extension of this functor to $sS$. It can be described explicitly on objects as a [[end|coend]], or as a [[weighted limit|weighted colimit]].
+The left adjoint $L$ is defined to be the left [[Kan extension]] of $F$ along the Yoneda embedding $y: \Delta \rightarrow \Simp\Set$. Because the $y$ is full and faithful, we will have $Ly = F$, i.e., $L (\Delta[n]) = F[n]$. By specifying $F$, we have already defined a functor to $E$ on the represented simplicial sets; $L$ is the unique cocontinuous extension of this functor to $\Simp\Set$. It can be described explicitly on objects as a [[end|coend]], or as a [[weighted limit|weighted colimit]].
 
 (Easy) abstract nonsense shows that $L$ and $R$ form an adjoint pair $L \dashv R$.
 
@@ -45,8 +46,8 @@ Here are some examples:
 
 * Let $E = \Top$ and $F$ be the functor $[n] \mapsto {\Delta}_n$. The right adjoint is the total singular complex functor $S$ described above. The left adjoint $|-|$ is called **geometric realization**.  As a consequence of the Kan extension construction, the geometric realization of the represented simplicial set $\Delta[n]$ is the standard $n$-simplex ${\Delta}_n$.
 
-* Subdivision and extension $sd: sS \leftrightarrow sS : ex$.
+* Subdivision and extension $\sd: \Simp\Set \leftrightarrow \Simp\Set :\ex$.
 
-* The simplicial nerve functor and its left adjoint $sS \leftrightarrow sC$ where $sC$ denotes the category of [[simplicially enriched category|simplicially enriched categories]], i.e., categories enriched in $sS$.
+* The simplicial nerve functor and its left adjoint $\Simp\Set \leftrightarrow \Simp\Cat$ where [[SimpCat]] denotes the category of [[simplicially enriched category|simplicially enriched categories]], i.e., categories enriched in $\Simp\Set$.
 
-* The adjunction $- \times X : sS \leftrightarrow sS : (-)^X$ between the product with a simplicial set $X$ and the internal-hom, which makes $sS$ cartesian closed.
+* The adjunction $- \times X: \SimpSet \leftrightarrow \SimpSet :(-)^X$ between the product with a simplicial set $X$ and the internal-hom, which makes $\Simp\Set$ into a [[cartesian closed category]].
