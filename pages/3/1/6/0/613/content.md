@@ -33,8 +33,9 @@ There are now uses of models of $n$-types in areas of homological algebra.
 
 * The idea of some fundamental $\infty$-groupoid plays a crucial role in the [[homotopy hypothesis]].
 
++--{.query}
 *[[Ronnie Brown|Ronnie]] The question remains: what is such a construction supposed to do? Ideas on this might lead to restrictions on or possibilities for the construction, and comparisons with known constructions. 
-
+=--
 #References#
 
 * R. Brown and P.J. Higgins, Colimit theorems for relative homotopy groups, J. Pure Appl. Algebra 22 (1981) 11-41.
