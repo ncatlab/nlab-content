@@ -8,6 +8,6 @@ A **Galois correspondence** is a Galois connection which is an adjoint equivalen
 
 # Examples #
 
-* Frequently Galois connections between powersets (or sub-posets of powersets) arise where $f(a)$ is "the set of all $y$ standing in some relation to every $x\in a$" and dually $g(b)$ is "the set of all $x$ standing in some relation to every $y\in b$."  See [[orthogonality]] for one example.
+* Frequently Galois connections between collections of [[subset]]s arise where $f(a)$ is "the set of all $y$ standing in some relation to every $x\in a$" and dually $g(b)$ is "the set of all $x$ standing in some relation to every $y\in b$."  See [[orthogonality]] for one example.
 
-* (Ought to mention where the name comes from...)
+* The Galois theory normally taught in graduate-level algebra courses (and based on the work of &#201;variste Galois) involves a Galois connection between the subfields of a [[field]] and the subgroups of the field\'s [[Galois group]].
