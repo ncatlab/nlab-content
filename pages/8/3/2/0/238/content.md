@@ -15,8 +15,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 # 2009-02-08
 
 * [[Toby Bartels]]:
-  * Comments on [[pospace]].
-  * Standardized the notation as $\Simp{C}$ for the category of [[simplicial object]]s in $C$, as on [[SimpSet]], [[simplicial set]] (where I dropped an unrelated not to Tim), [[simplicial group]], etc.
+  * Somewhat incorporated [[Ronnie Brown]]\'s remark on [[geometric shapes for higher structures]].
+  * Comments on [[pospace]] and [[cartesian monad]].
+  * Standardized the notation as $\Simp{C}$ for the category of [[simplicial object]]s in $C$, as on [[SimpSet]], [[simplicial set]] (where I dropped an unrelated note to Tim), [[simplicial group]], etc.
   * Explained where the name of [[Galois connection]] comes from.
   * Added some details to [[cobordism]].
   * Wrote [[Practical Foundations]] about Paul Taylor\'s book and linked it from [[internal logic]] (where I also conversed with Mike).
