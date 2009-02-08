@@ -23,7 +23,7 @@ The resulting categories of basic cellular shapes are
 
 * the _[[simplex category]]_ $\triangle$;
 
-* the _[[cube category]]_ $\Box$.
+* the _[[cube category]]_ $\square$.
 
 
 A higher structure based on these geometric sheapes is a [[presheaf]] on one of these categories. These are called
