@@ -73,6 +73,10 @@ such that
 
 * $I$ is weakly equivalent to the point;
 
++--{.query}
+We don't want $I$ to be weakly equivalent to the point if we want to have [[directed object]]s (in the first sense).  &#8212;Toby
+=--
+
 * the [[pushout]]
 $$
   \array{
