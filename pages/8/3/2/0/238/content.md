@@ -12,13 +12,16 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-02-09
+
+* [[Toby Bartels]]: Did some work on [[directed object]], which I think should have half spun off to [[undirected object]].
+
 # 2009-02-08
 
 * [[Tim Porter|Tim]]:
 
   *  Created an entry on [[Dwyer-Kan loop groupoid]].
    
-
 * [[Toby Bartels]]:
   * A comment at [[directed space]], which led me to write [[directed set]] just to clarify terminology.
   * Somewhat incorporated [[Ronnie Brown]]\'s remark on [[geometric shapes for higher structures]].
