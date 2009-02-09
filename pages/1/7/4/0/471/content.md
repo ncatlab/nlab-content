@@ -12,9 +12,9 @@ should be an instance of a category with interval object, and the fundamental $n
 
 We give two very similar definitions that differ only in some extra assumptions. 
 
-* The first one was used by Berger and Moerdijk to generalize the Boardman-Vogt resolution of topological [[operad]]s to more general [[operad]]s. 
+* The first one was used by Berger and Moerdijk to generalize the Boardman&#8211;Vogt resolution of [[topological operad]]s to more general [[operad]]s. 
 
-* The second is motivated from constructions appearing in the definition of [[Trimble n-category]] and of [[generalized universal bundle]]. It includes the possibility that the interval is _not_ weakly equivalent to the point, in which case it may be used to probe [[directed object]]s.
+* The second is motivated from constructions appearing in the definitions of [[Trimble n-category]] and of [[generalized universal bundle]]. It includes the possibility that the interval is _not_ weakly equivalent to the point, in which case it may be used to probe [[directed object]]s.
 
 
 
