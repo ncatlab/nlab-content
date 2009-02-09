@@ -1,8 +1,12 @@
-A _1-fold category_ is a [[category]]. An _$n$-fold category_ for $n \gt 1$ is a [[internal category|internal to]] $(n-1)$-fold categories.  (A $0$-fold category is a [[set]].)
+A _$0$-fold category_ is a [[set]].  An _$n$-fold category_ for $n \gt 0$ is an [[internal category]] in $(n-1)$-fold categories.
 
-2-fold categories were introduced as [[double category|double categories]] by Ehresmann (1963).
+In particular, a $1$-fold category is a [[category]], and a $2$-fold category is a [[double category]] (introduced by [[Charles Ehresmann]] in 1963).
 
-Analogously $1$-fold groupoids are groupoids and $n$-fold groupoids are groupoids [[internal category|internal to]] $(n-1)$-fold categories.
+Analogously, an _$n$-fold groupoid_ is an [[internal groupoid]] in $(n-1)$-fold categories; in particular, a $1$-fold groupoid is a [[groupoid]].
+
++--{.query}
+Or should they be internal to $(n-1)$-fold *groupoids*?
+=--
 
 #Remarks#
 
