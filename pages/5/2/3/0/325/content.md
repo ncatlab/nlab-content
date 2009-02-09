@@ -1,6 +1,6 @@
 #The idea
 
-Given a category $C$, we obtain the 'opposite category' $C^{op}$ by turning all the arrows around.  This idea is important in understanding [[duality]].  For example, a [[comonoid]] in $C$ is the same as a [[monoid]] in $C^{op}$.
+Given a category $C$, we obtain the 'opposite category' $C^{op}$ by turning all the arrows around.  This idea is important in understanding [[duality]].  For example, a [[comonoid]] in $C$ is the same as a [[monoid]] in $C^{op}$.  See also: [[opposite 2-category]].
 
 # Definition
 
