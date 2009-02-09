@@ -15,6 +15,8 @@ Abstractly, reflexive and transitive relations can be identified with categories
 
 +--{.query}
 Presumably, equivalence relations can be identified with [[groupoid]]s enriched in this bicategory?
+
+Mike: One could say that; it's certainly at least morally true.  But I don't know a definition of "enriched groupoid" that works in generality greater than, say, enrichment over a [[cartesian monoidal category]].  The bicategory in question is locally posetal and equipped with an "involution" which allows you to define "symmetric" enriched categories, and this level of generality can also be used to construct [[sheaf|sheaves]] and recover ordinary [[metric space|metric spaces]] from Lawvere's asymmetric ones.   But I'm iffy about using the word "groupoid" because I don't know an abstract formalism that includes this situation and also includes ordinary groupoids.
 =--
 
 A _quotient_ for a relation is a [[colimit]] for the diagram consisting of all the $A_i$ and all the spans $A_i \leftarrow R_{ij} \to A_j$.  And the _kernel_ of a sink $\{f_i:A_i\to B\}$ is the relation on $\{A_i\}$ with $R_{i j} = A_i\times_B A_j$.  It is evidently an equivalence relation.
