@@ -20,6 +20,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
   * Raised an objection at [[entire relation]].
 
 * [[Toby Bartels]]:
+  * Removed the discussion at [[internal logic]] and [[entire relation]] (which I thought I\'d already corrected!), since Mike is right and I\'m satisfied.
   * Wrote [[entire relation]] and [[functional relation]] (but not yet [[relation]]!).
   * Asked a question about $n$-fold groupoids at [[n-fold category]].
 
