@@ -14,7 +14,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-02-09
 
-* [[Toby Bartels]]: Talked to Mike at [[directed set]] and [[weak limit]].
+* [[Toby Bartels]]: Talked to Mike at [[directed set]], [[weak limit]], and [[internal logic]].
 
 * [[Mike Shulman|Mike]]:
 
