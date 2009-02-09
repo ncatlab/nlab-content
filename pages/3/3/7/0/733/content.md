@@ -16,6 +16,6 @@ A preorder that makes a set into a directed set is called a **direction** on tha
 
 As a proset is a special kind of [[category]], so a (finitely) directed set is a proset in which all finite diagrams admit a cocone.  If the proset actually has finite coproducts (equivalently, all finite colimits), then it is a [[join]]-semi[[lattice]].  (In particular, every join-semilattice is a directed set.)
 
-Directed sets are heavily used in point-set topology and analysis, where they serve as index sets for [[net|nets]] (aka Moore&#8211;Smith sequences).  There it is important that $\le$ be allowed to be a preorder, not necessarily a partial order, since a net need not preserve $\leq$ in any way but by default is still assumed to preserve $=$.
+Directed sets are heavily used in point-set topology and analysis, where they serve as index sets for [[net|nets]] (aka Moore&#8211;Smith sequences).  In this application, it is important that a directed set need not be a poset, since a net need not preserve the preorder in any way but by default is still preserves equality.  (But in principle, one could force a directed set to be a poset by allowing a net to be an [[entire relation]].)
 
 Colimits over directed index sets also play an important role in the theory of [[locally presentable category|locally presentable]] and [[accessible category|accessible]] categories; see also [[filtered category]].
