@@ -18,7 +18,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * added Berger-Moerdijk's definition to [[interval object]]
 
-* [[Toby Bartels]]: Talked to Mike at [[directed set]], [[weak limit]], and [[internal logic]].
+* [[Toby Bartels]]:
+  * Made an objection at [[interval object]].
+  * Talked to Mike at [[directed set]], [[weak limit]], and [[internal logic]].
 
 * [[Mike Shulman|Mike]]:
 
