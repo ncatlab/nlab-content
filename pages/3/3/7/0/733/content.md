@@ -16,22 +16,6 @@ A preorder that makes a set into a directed set is called a **direction** on tha
 
 As a proset is a special kind of [[category]], so a (finitely) directed set is a proset in which all finite diagrams admit a cocone.  If the proset actually has finite coproducts (equivalently, all finite colimits), then it is a [[join]]-semi[[lattice]].  (In particular, every join-semilattice is a directed set.)
 
-Directed sets are heavily used in point-set topology and analysis, where they serve as index sets for nets (aka Moore&#8211;Smith sequences).  Colimits over directed index sets also play an important role in the theory of [[locally presentable category|locally presentable]] and [[accessible category|accessible]] categories; see also [[filtered category]].
+Directed sets are heavily used in point-set topology and analysis, where they serve as index sets for [[net|nets]] (aka Moore&#8211;Smith sequences).  There it is important that $\le$ be allowed to be a preorder, not necessarily a partial order, since a net need not preserve $\leq$ in any way but by default is still assumed to preserve $=$.
 
-# Discussion
-
-To be honest, I\'ve never seen anything but finitely directed sets in the literature, but the general concept is quite natural, don\'t you think? &#8212;[[Toby Bartels|Toby]]
-
-[[Mike Shulman|Mike]]: The general concept (well, the $\kappa$-version, anyway) is used in the theory of locally ($\kappa$-)presentable categories.  Note that having cocones is different from having [[weak limit|weak colimits]]; weak colimits in a poset are just the same as ordinary colimits.
-
-By the way, it seems to me that an infinitely directed (small) set is nothing but a poset with a top element.
-
-Are you sure that a directed set should be required to be a poset rather than just a [[preorder]]?
-
-_Toby_: You're right that I should have said cocones instead of weak colimits; in fact, I thought of that in bed after writing it, and I meant to fix it when I woke up ....
-
-I agree about infinitely directed sets and incorporated that into the main text.
-
-I hope you explain the connection to accessible and presentable categories, which I know very little about.
-
-Yeah, in topology one should allow a directed set to be a preorder.  (It makes a difference there, since a net need not preserve $\leq$ in any way but by default is still assumed to preserve $=$.)  I prefer to use posets and define nets as entire relations rather than functions, but that\'s not really relevant here so I\'ll fix the article to use prosets.
+Colimits over directed index sets also play an important role in the theory of [[locally presentable category|locally presentable]] and [[accessible category|accessible]] categories; see also [[filtered category]].
