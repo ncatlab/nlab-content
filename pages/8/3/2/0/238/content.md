@@ -14,7 +14,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-02-09
 
-* [[Toby Bartels]]: Wrote [[entire relation]] and [[functional relation]] (but not yet [[relation]]!).
+* [[Toby Bartels]]:
+  * Wrote [[entire relation]] and [[functional relation]] (but not yet [[relation]]!).
+  * Asked a question about $n$-fold groupoids at [[n-fold category]].
 
 * [[Urs Schreiber|Urs]]
 
