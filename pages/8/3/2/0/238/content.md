@@ -14,6 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-02-09
 
+* [[Mike Shulman|Mike]]:
+
+  * Replied to Toby at [[directed set]], [[internal logic]], and [[familial regularity and exactness]].
+
+  * Created [[weak limit]].
+
 * [[Toby Bartels]]: Did some work on [[directed object]], which I think should have half spun off to [[undirected object]].
 
 # 2009-02-08
