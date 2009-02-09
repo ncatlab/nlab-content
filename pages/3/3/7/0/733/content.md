@@ -23,3 +23,7 @@ A partial order that makes a set into a directed set is called a **direction** o
 To be honest, I\'ve never seen anything but finitely directed sets in the literature, but the general concept is quite natural, don\'t you think? &#8212;[[Toby Bartels|Toby]]
 
 [[Mike Shulman|Mike]]: The general concept (well, the $\kappa$-version, anyway) is used in the theory of locally ($\kappa$-)presentable categories.  Note that having cocones is different from having [[weak limit|weak colimits]]; weak colimits in a poset are just the same as ordinary colimits.
+
+By the way, it seems to me that an infinitely directed (small) set is nothing but a poset with a top element.
+
+Are you sure that a directed set should be required to be a poset rather than just a [[preorder]]?
