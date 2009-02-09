@@ -83,6 +83,10 @@ So in particular
 * a Lie $n$-algebroid over a point is a 
 **[[L-infinity-algebra|Lie n-algebra]]**.
 
+##Further examples##
+
+* [[Courant Lie algebroid]] 
+
 #Further resources#
 
 There should be an [[internalization]] of this into the context of [[generalized smooth space]]s and [[generalized smooth algebra]]s. This is discussed at [[schreiber:generalized smooth L-infinity algebroid]].
