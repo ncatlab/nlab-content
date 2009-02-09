@@ -75,26 +75,6 @@ In a [[regular category]], the existence of pullback-stable [[image]]s implies t
 
 Actually, some instances of $\exists$ can be interpreted in any category with finite limits: if $f$ is itself a monomorphism, then $f^*$ always has a left adjoint simply given by composition with $f$. On the logical side, this means that we can interpret "provably-unique existence" in any category with finite limits.  Logic with $\wedge$, $\top$, and "provably-unique-existence" is called _cartesian logic_ or _finite-limit logic_.
 
-+--{.query}
-Toby added:
-
-> For example, if the definition of group is given as stating that there exist identities and inverses, rather than stating that identities and inverses are given by functions as in the axioms shown above, we can rewrite these axioms using functions because the objects whose existence they state are provably unique.
-
-I'm not sure that's an instance of what I was talking about.  The existence of an identity is a statement of the form "there exists an $e$ such that _for all $x$_, ..." so it doesn't just involve $\wedge$, $\top$, and $\exists!$, but also $\forall$.  I was looking at D1.3.4 in the Elephant.  --Mike
-
-_Toby_: I\'ll have to check a copy and see what that\'s about.  But surely you agree that an axiom $\Gamma \vdash \exists\vec{x}: \forall\vec{y}: \phi$ may be replaced by function symbols $\Gamma \vdash f_i$ and an axiom $\Gamma, \vec{y} \vdash \phi[\vec{f}/\vec{x}]$ if there are already theorems $\Gamma, \vec{x}, \vec{x}', \vec{y}, \phi, \phi[\vec{x}'/\vec{x}] \vdash x_i = x'_i$.
-
-_Mike_: I'm not convinced.  For simplicity I'm going to suppose there is only one $x$ and one $y$.  Then I think your theorem would have to be replaced by $\Gamma, x, x', \forall y:\phi, \forall y:\phi[x'/x] \vdash x = x'$.  What you wrote says that if we have $x$ and $x'$ that both stand in the given relation to some _particular_ $y$, then they have to be equal.  But what we want is that if they stand in the given relation to _all_ $y$, they must be equal.  But this corrected theorem can't even be _stated_ in anything short of a Heyting category, since it involves universal quantifiers.
-
-_Toby_: OK, you\'re right. There\'s still a sense in which groups are given in cartesian logic (obviously, since the example above does this), but if you start with the common definition using quantification, you\'ll only notice this after going through a proof within the richer language.
-
-Am I at least right that, once you know (perhaps through experience with monoids) to give the unit as a constant operation, then the inverse is given by provably unique existence?  (And does this have anything to do with the fact that semigroup homomorphisms of monoids need not be monoid homomorphisms, while monoid homomorphisms of groups must be group homomorphisms?  Certainly the fact that the uniqueness is provable in the richer logic is related to the fact that isomorphisms are the same.)
-
-_Mike_: Yes, I think you're right: the presentation of a group as a monoid in which inverses exist is a cartesian theory.
-
-I think the answer to the parenthetical has less to do with cartesianness of a theory and more to do with geometricness.  It's a general fact that geometric logic is preserved by morphisms of structures, but more general first-order logic is not; see D1.2.9.  So since the property "being an inverse of $x$" is geometric, morphisms of monoids always preserve inverses when they exist; but since the property of "being an identity" is not geometric, morphisms of semigroups need not preserve identities.
-=--
-
 A [[coherent category]] is basically defined to be a regular category in which the subobject posets additionally have pullback-stable finite unions.  Thus, in a coherent category we can interpret so-called _coherent logic_, which adds $\vee$ and $\bot$ to regular logic.  Likewise, in an infinitary-coherent (or "geometric") category we can interpret _geometric logic_, which adds infinitary disjunctions $\bigvee_i \varphi_i$ to coherent logic.  Geometric logic is especially important because it is preserved by the inverse image parts of [[geometric morphism]]s, and because any geometric theory has a [[classifying topos]].
 
 On the other hand, in a [[extensive category|lextensive category]], we do not have images or all unions, but if we have two subobjects of $A$ which are _disjoint_ (their intersection is initial), then their coproduct is also their union in $Sub(A)$.  Therefore, in a lextensive category we can interpret _disjunctive logic_, which is cartesian logic plus $\bot$ and "provably-disjoint disjunction."  Likewise, in an infinitary-lextensive category we can interpret "infinitary-disjunctive logic."
