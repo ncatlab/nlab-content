@@ -1,6 +1,6 @@
 # The idea
 
-In [[category theory]], a concept is (half-jokingly) said to be _evil_ if it involves equations between [[object|objects]].  More precisely:
+In [[category theory]], a concept is (half-jokingly) said to be _evil_ if it involves equations between [[object|objects]], or more generally if it cannot distinguish between [[isomorphism|isomorphic]] objects.  More precisely:
 
 * A property of categories is _non-evil_ if it when it holds for a [[category]] $C$, it also holds for any category $C'$ that is [[equivalence|equivalent]] to $C$.
 
