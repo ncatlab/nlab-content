@@ -9,10 +9,31 @@ The structure of a category $V$ with _interval object_ is supposed to be the rig
 For instance the choice $V =$ [[Top]] and $I = [0,1]$ 
 should be an instance of a category with interval object, and the fundamental $n$-groupoid $\Pi_n(X)$ obtained for any topological space $X$ from this data should be the fundamental $n$-groupoid as a [[Trimble n-category]].
 
-The following definition of category with interval object aims to abstract this construction away from $V = $ [[Top]] to other [[closed monoidal homotopical category|closed monoidal homotopical categories]].
+
+We give two very similar definitions that differ only in some extra assumptions. 
 
 
-The following definition is tentative.
+#Definition by Berger-Moerdijk#
+
+
+In [section 4](http://arxiv.org/PS_cache/math/pdf/0502/0502155v2.pdf#page=11)
+of
+
+* Clemens Berger, Ieke Moerdijk, _The Boardman-Vogt resolution of operads in monoidal model categories_ ([arXiv](http://arxiv.org/abs/math.AT/0502155))
+
+the following definition is given:
+
+Let $V$ be a [[monoidal model category]] $V$ and write $pt$ for the tensor unit in $V$ (not necessarily the terminal object). 
+
+In **segment** object $I$ in a [[monoidal model category]] $V$ is a factorization $pt \sqcup pt \stackrel{0 \sqcup 1}{\to} I \stackrel{\epsilon}{\to} pt$
+of $pt \sqcup pt \stackrel{Id \sqcup Id}{\to} pt$ together with an associtive morphsim $\vee : I \otimes I \to I$ which has 0 as its _neutral_ and 1 as its _absorbing_ element, and for which $\epsilon$ is a counit.
+
+A segment object is an  **interval** in $V$ if $0 \sqcup 1 : pt \sqcup pt \to I$ is a cofibration and $\epsilon : I \to pt$ a weak equivalence.
+
+
+#Definition II#
+
+The following definition is tentative. It arose from the discussion reproduced further below.
 
 +--{.query}
 Might there be two notions of interval object, one in a closed category such that $[I,B]$ is a path object, and one in a monoidal category such that $I \otimes B$ is a cylinder object? (And then a stronger notion, combining these, in a closed monoidal category.) &#8212;[[Toby Bartels|Toby]]
@@ -25,8 +46,9 @@ _Toby_: Actually, I wasn\'t so much thinking about weakening the requirements on
 
 =--
 
+The following definition of category with interval object aims to abstract this construction away from $V = $ [[Top]] to other [[closed monoidal homotopical category|closed monoidal homotopical categories]].
 
-#Definition#
+
 
 A **category with interval object** is
 
@@ -48,6 +70,8 @@ $$
 in $V$, with $I$ called the **interval object**;
 
 such that
+
+* $I$ is weakly equivalent to the point;
 
 * the [[pushout]]
 $$
