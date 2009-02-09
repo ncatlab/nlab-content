@@ -45,6 +45,8 @@ Note, though, that not _all_ homotopy limits produce weak limits in the homotopy
 
 +--{.query}
 Can we say definitely that homotopy equalisers do *not* produce weak equalisers (that being the simplest sort of limit whose diagram is not a quiver).  &#8212;Toby
+
+I'm pretty sure that the diagram $(\cdot \rightrightarrows \cdot)$ for equalizers is a quiver.  -Mike
 =--
 
 Weak limits in homotopy categories play an important role in the [[Brown representability theorem]].
