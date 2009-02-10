@@ -26,6 +26,8 @@ Having disjoint (finite) coproducts is half of the condition for a category to b
 David Roberts says: This is probably a stupid question, but does the fact a coproduct $A\coprod B$ is disjoint imply that any map to it factors through either $A$ or $B$?  
 
 Mike: No, it doesn't; consider the identity map of $A\coprod B$.  What is true is that if the coproduct is both disjoint and pullback-stable, then any map $X\to A\coprod B$ decomposes its domain $X$ as a coproduct $X_1\coprod X_2$, such that the given map is a coproduct of maps $X_1\to A$ and $X_2\to B$.  See [[extensive category]].
+
+David R: Of course. And the intended application was something like a superextensive site - forming a Grothendieck pretopology with only singleton covering families from general covering families - so my question is more than answered.
 =--
 
 ## Generalizations ##
