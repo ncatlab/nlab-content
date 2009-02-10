@@ -7,7 +7,7 @@ $$
   \,.
 $$
 
-Such a functor is also called a [[profunctor]] or [[distributor]].
+Such a functor is also called a profunctor or [[distributor]].
 
 #Examples#
 
