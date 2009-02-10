@@ -22,14 +22,14 @@ Every functor may be interpreted as an anafunctor, with $|F|$ always taken to be
 
 #Definition (internal)#
 
-Given an anafunctor $F:C\to D$ as above, we can construct a new category $\overline{F}$ whose objects are the specifications of $F$ and whose morphisms from $s$ to $t$ are the morphisms from $\sigma(s)$ to $\sigma(t)$ in $C$.  Then the projection $\overline{F}\to C$ is an [[equivalence]] of categories which is surjective on objects, and the rest of the data of $F$ is encapsulated in a functor $\overline{F}\to D$.  Conversely, from any span $C \leftarrow E \to D$ such that $E\to C$ is a surjective equivalence we can reconstruct an anafunctor whose specifications are the objects of $E$.  Thus, anafunctors $C\to D$ can be identified with such spans.
+Given an anafunctor $F:C\to D$ as above, we can construct a new category $\overline{F}$ whose objects are the specifications of $F$ and whose morphisms from $s$ to $t$ are the morphisms from $\sigma(s)$ to $\sigma(t)$ in $C$.  Then the projection $\overline{F}\to C$ is a (weak) [[equivalence]] of categories which is surjective on objects, and the rest of the data of $F$ is encapsulated in a functor $\overline{F}\to D$.  Conversely, from any span $C \leftarrow E \to D$ such that $E\to C$ is a surjective weak equivalence we can reconstruct an anafunctor whose specifications are the objects of $E$.  Thus, anafunctors $C\to D$ can be identified with such spans.  (We can also construct an anafunctor when $E \to C$ is merely a weak equivalence, but using a much larger class of specifications.)
 
 More generally, let $S$ be a category containing a collection of morphisms called "covers" such that
 
 * every isomorphism is a cover,
-* any [[pullback]] of a cover exists and is a cover,
 * covers are closed under composition,
-* every cover is the quotient of its kernel pair (equivalently, every cover is a [[regular epimorphism]]).
+* any [[pullback]] of a cover exists and is a cover ([[pullback stability]]),
+* every cover is the [[quotient object]] of its [[kernel pair]] (equivalently, every cover is a [[regular epimorphism]]).
 
 +--{: .query}
 _David R_ says: aren't these two conditions  only equivalent if the category has pullbacks? That is what it says at [[regular epimorphism]]. A map being the quotient of its kernel pair is an effective epimorphism, is it not?
@@ -39,27 +39,29 @@ Note that these are precisely the axioms saying that the singleton families $\{p
 
 In such a situation, if $C$ and $D$ are [[internal category|internal categories]] in $S$, we define an __anafunctor__ $C\to D$ to consist of a span $C\leftarrow F \to D$ of internal functors such that:
 
-1. $F_0\to C_0$ is a cover.
+1. $F_0\to C_0$ (the map of objects) is a cover.
 
-1. $F\to C$ is fully-faithful, in the internal sense that the following is a pullback square:
+1. $F\to C$ is [[ff morphism|fully-faithful]], in the internal sense that the following is a pullback square:
 $$\array{F_1 & \to & C_1 \\ \downarrow && \downarrow \\ F_0\times F_0&   \to & C_0\times C_0}$$
 
 Note that assuming $F_0\to C_0$ is a cover, so is $F_0\times F_0\to C_0\times C_0$ (it is a composition of pullbacks of $F_0\to C_0$); thus the above pullback always exists.
 
-By the remarks above, if $S=Set$ and "cover" means "surjection" (or equivalently, "regular epi"), then we recover the above-defined external notion of anafunctor.
+By the remarks above, if $S$ is [[Set]] and "cover" means "[[surjection]]" (an example where the covers are the regular epimorphisms), then we recover the original external notion of ([[small category|small]]) anafunctor.
 
-If $C\leftarrow F \to D$ and $C\leftarrow G \to D$ are internal anafunctors, we define a __natural transformation__ between them to be a natural transformation between the two induced internal natural transformations $F\times_C G \to D$.  We can then prove that internal categories, anafunctors, and natural transformations form a [[bicategory]].  The role of the assumptions about covers is:
+If $C\leftarrow F \to D$ and $C\leftarrow G \to D$ are internal anafunctors, we define a __natural transformation__ between them to be a natural transformation between the two induced internal natural transformations $F\times_C G \to D$.  We can then prove that internal categories, anafunctors, and natural transformations form a [[bicategory]].  (Interestingly, you may need the axiom of choice in the [[metalogic]] to conclude this, depending on whether their is a natural way to choose the necessary pullbacks; else you get an [[anabicategory]], which is Makkai\'s version of a bicategory to be used in the absence of choice.)
+
+The role of the assumptions about covers is:
 
 * Identity maps must be covers in order to have identity anafunctors (and more generally, for every functor to give rise to an anafunctor).
 * To compose anafunctors by pullback, the pullbacks of covers must exist and be covers, and covers must be closed under composition.
-* To define $F\times_C G$ and obtain a notion of natural transformation, we again need covers to have pullbacks.
-* To define composition of natural transformations between anafunctors, we need covers to be regular epis (David R says: see comment above!); see [HGT I][].
+* To define $F \times_C G$ and obtain a notion of natural transformation, we again need covers to have pullbacks.
+* To define composition of natural transformations between anafunctors, we need covers to be effective; see diagram (118) in [HGT I][].
 
-In [HGT I][] the following additional axiom was assumed on the class of covers,
+In Section 1.1.5 of [HGT I][], the following additional axiom was assumed on the class of covers:
 
-* every equivalence relation involving a cover has a quotient, which is a cover.
+* every [[equivalence relation]] involving a cover has a quotient object which is a cover.
 
-This is used in the section on descent and its relation to (2-)bundles.
+This is not needed for anafunctors but is used to relate descent to bundles (and then to $2$-bundles).
 
 
 
@@ -100,11 +102,24 @@ _Urs says:_ I haven't checked the details. But he is looking at derived homs of 
 
 
 =--
-##Discussion##
+# References
+
+* [Avoiding the axiom of choice in general category theory](http://www.math.mcgill.ca/makkai/anafun/) (first explicit formulation of anafunctors)
+
+* [Higher gauge theory I: 2-Bundles][HGT I] (first explicit formulation of internal anafunctors)
+
+* [Local Transition of Transport, Anafunctors and Descent of n-Functors](http://golem.ph.utexas.edu/category/2006/12/local_transition_of_transport.html) (first explicit formulation of $n$-anafunctors)
+
+* [Model structures for homotopy of internal categories][EKV 2004]
+
+
+[EKV 2004]: http://www.tac.mta.ca/tac/volumes/15/3/15-03abs.html
+[HGT I]: http://arxiv.org/abs/math.CT/0410328
+
+#Discussion#
 
 The following discussion was about the effect of different notions of [[coverage]] on the definition of and operations on anafunctors. 
 
-+-- {: .query}
 
 David Roberts says: If one uses a coverage, then composing anafunctors means a choice has to be made in the filler of $U \to D_0 \leftarrow V$ with the right map a cover. Presumably the resulting bicategory of anafunctors is independent, up to biequivalence, of the choices made. Also, at the very least the identity map has to be a cover, so as to define the identity anafunctor. 
 
@@ -118,21 +133,6 @@ _Mike_: Well, as you pointed out, you need at least identity maps to be covers t
 
 _David R_: After some thought, one could do without _the_ identity anafunctor, and be satisfied with a anafunctor (of the external variety) giving the identity: $1 \to Ana(X,X)$. I think I should move this discussion to a section of its own, and develop these ideas there. As an aside, I think I saw an example of a non-Grothendieck coverage in John and Alex's [[generalized smooth space|smooth spaces]] paper.
 
-=--
+_Toby_: You only get an anabicategory anyway, because of the choice of pullbacks (unless the structure of the coverage fixes these, as can be done in $Set$).
 
-
-
-
-## References
-
-* [Avoiding the axiom of choice in general category theory](http://www.math.mcgill.ca/makkai/anafun/) (first explicit formulation of anafunctors)
-
-* [Higher gauge theory I: 2-Bundles][HGT I] (first explicit formulation of internal anafunctors)
-
-* [Local Transition of Transport, Anafunctors and Descent of n-Functors](http://golem.ph.utexas.edu/category/2006/12/local_transition_of_transport.html) (first explicit formulation of $n$-anafunctors)
-
-* [Model structures for homotopy of internal categories][EKV 2004]
-
-
-[EKV 2004]: http://www.tac.mta.ca/tac/volumes/15/3/15-03abs.html
-[HGT I]: http://arxiv.org/abs/math.CT/0410328
+Anafunctors really should make sense in any site whatsoever (as long as we can compose ananatural transformations, which I guess we can if the site is subcanonical).  The trick of getting away with single maps (as one can do, for example, in a superextensive site) is not really necessary.  In fact, it makes the definitions, while more complicated, really look more natural in topological categories.
