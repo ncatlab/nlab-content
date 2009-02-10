@@ -19,4 +19,6 @@ But this site started operation only a few months ago. Some structure is beginni
 
 * There is a <a href="http://www.math.ntnu.no/~stacey/Vanilla/nForum">forum</a> (imaginatively called the $n$-Forum) where discussion _about_ the $n$-Lab can take place (i.e. not discussion of what goes _into_ a page but rather how it goes _onto_ the page).  Some discussion has taken place (and is still taking place) on an <a href="http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html">entry</a> at the $n$-Caf&eacute;.  Old discussions can be found at the [[General Discussion]] page.
 
+* Distilled wisdom from the various discussions is starting to appear on the [[FAQ]].
+
 category: meta
