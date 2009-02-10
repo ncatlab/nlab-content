@@ -179,9 +179,9 @@ But we can't put in an iframe like this:
 Your browser does not support iframes.
 </iframe>
 
-Many spaces that occur in mathematics aren't manifolds but one would like to be able to treat them as if they were manifolds. By considering examples of these spaces and by considering what specifically one would like to do with or to them, it is possible to generalise the idea of a smooth manifold to encompass the new examples whilst preserving enough structure to retain the old tools. There have been several such generalisations in recent mathematical history. A (partial) list is below.
+Many spaces that occur in mathematics aren't manifolds but one would like to be able to treat them as if they were manifolds; in particular, they should have some *smooth* structure that goes beyond mere topology.  By considering examples of these spaces and by considering what specifically one would like to do with or to them, it is possible to generalise the idea of a smooth manifold to encompass the new examples whilst preserving enough structure to retain the old tools.  There have been several such generalisations in recent mathematical history.  A (partial) list is below.
 
-Many spaces that occur in mathematics aren't manifolds but one would like to be able to treat them as if they were manifolds.
+Many spaces that occur in mathematics aren't manifolds but one would like to be able to treat them as if they were manifolds; in particular, they should have some *smooth* structure that goes beyond mere topology.
 By considering examples of these spaces and by considering what specifically one would like to do with or to them, it is possible to generalise the idea of a smooth manifold to encompass the new examples whilst preserving enough structure to retain the old tools.
 There have been several such generalisations in recent mathematical history.
 A (partial) list is below.
