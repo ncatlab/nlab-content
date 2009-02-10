@@ -14,7 +14,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-02-10
 
-* [[Toby Bartels]]: defined $(n,r)$-fold categories at [[n-fold category]], just because I could.
+* [[Toby Bartels]]:
+  * Fixed the theorem environments at [[cat-1-group]] (you need six hash marks).
+  * Defined $(n,r)$-fold categories at [[n-fold category]], just because I could.
 
 * [[Urs Schreiber|Urs]]
 
