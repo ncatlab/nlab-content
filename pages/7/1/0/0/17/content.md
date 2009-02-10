@@ -49,15 +49,15 @@ These are not set in stone, but we\'re following them for now. Most days, [[Toby
 
 #How to leave comments and questions#
 
-If you want to make a comment or question about a page without changing its main content, then edit the page and put your comment or question in a __query block__: a paragraph or paragraphs between `+--{.query}` and `=--`. For example,
+If you want to make a comment or question about a page without changing its main content, then edit the page and put your comment or question in a __query block__: a paragraph or paragraphs between `+-- {: .query}` and `=--`. For example,
 
-    +--{.query}
+    +-- {: .query}
     How do I ask a question?
     =--
 
 produces
 
-+--{.query}
++-- {: .query}
 How do I ask a question?
 =--
 
