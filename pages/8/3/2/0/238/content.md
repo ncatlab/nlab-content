@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-02-10
 
+* [[Urs Schreiber|Urs]]
+
+  * created [[model structure on simplicial presheaves]], [[model structure on simplicial sheaves]]
+
 * [[Mike Shulman|Mike]]:
 
   * Wrote about effective-epimorphic sieves at [[subcanonical coverage]], by way of answering questions about [[anafunctor]]s.
