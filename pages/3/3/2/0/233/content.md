@@ -35,7 +35,7 @@ $$
   K^{op} \otimes L \to V
 $$
 
-are $K$-$L$-_[[bimodule]]s_, also known as [[profunctor]]s or [[distributor]]s from $K$ to $L$.
+are _$K$-$L$-[[bimodule]]s_, also known as _profunctors_ or _[[distributor]]s_ from $K$ to $L$.
 
 
 
