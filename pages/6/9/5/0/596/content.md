@@ -14,7 +14,7 @@
 
   * such that the entire resulting diagram commutes, expressing the fact how one boundary pieces may be part of different higher order boundary pieces.
 
-Multi-cospans of [[cube]]ical shape have been introduced and studied by Marco Grandis in his work on [[Cospans in Algebraic Topology]]. Grandis also formulates the idea that an [[FQFT|extended QFT]] should be a morphism with domain [[extended cobordism]]s modeled as multi-cospans.
+Multi-cospans of [[cube|cubical]] shape have been introduced and studied by Marco Grandis in his work on [[Cospans in Algebraic Topology]]. Grandis also formulates the idea that an [[FQFT|extended QFT]] should be a morphism with domain [[extended cobordism]]s modeled as multi-cospans.
 
 #Definition#
 
