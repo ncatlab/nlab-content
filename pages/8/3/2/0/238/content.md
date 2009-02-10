@@ -15,6 +15,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 # 2009-02-10
 
 * [[Toby Bartels]]
+  * Finally contributed to the discussion at [[anafunctor]].
   * Asked a question at [[subcanonical coverage]].
   * Wrote [[finite group]], since they\'re mentioned on [[profinite group]].
   * Clarified [[essentially algebraic theory]] a bit.
