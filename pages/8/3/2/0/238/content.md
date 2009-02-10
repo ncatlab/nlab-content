@@ -14,8 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-02-10
 
+* [[Toby Bartels]]
+  * Clarified [[essentially algebraic theory]] a bit.
+  * Wrote [[finite group]], since they\'re mentioned on [[profinite group]].
+
 * [[David Roberts]]
-  *Continued discussion with Mike at [[anafunctor]], and moved the discussion to its own section. I disagreed about the use of ''regular epimorphism'' for covers in categories without all pullbacks.
+  * Continued discussion with Mike at [[anafunctor]], and moved the discussion to its own section. I disagreed about the use of ''regular epimorphism'' for covers in categories without all pullbacks.
   * Discussion at [[generalized smooth space]], and created (a very sketchy!) page [[profinite group]].
 
 * [[Toby Bartels]]:
