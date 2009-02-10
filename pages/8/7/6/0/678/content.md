@@ -20,6 +20,10 @@ In more illustrative language this means that a simplicial presheaf on $S$ can b
 
 * In particular, regarding a [[group]]s $G$ as one object categories $\mathbf{B}G$ and then taking the nerve $N(\mathbf{B}G) \in \Simp\Set$ of these (the "classifying simplicial set of the group whose [[geometric realization]] is the [[classifying space]] $\mathcal{B}G$), which is clearly a functorial operation, turns any presheaf with values in groups into a simplicial presheaf.
 
+#Reamrks#
+
+* There are various useful [[model category]] structures on the category of simplicial presheaves. See [[model structure on simplicial presheaves]].
+
 #References#
 
 The theory of simplicial presheaves and of simplicial sheaves was developed by J. Jardine in a long series of articles, some of which are listed below. It's usage as a model for [[infinity-stack]]s was developed by To&#235; as described at [[infinity-stack homotopically]].
