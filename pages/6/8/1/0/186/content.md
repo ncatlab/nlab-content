@@ -2,7 +2,7 @@ Generalised smooth spaces are, roughly speaking, generalisations of smooth manif
 
 > Manifolds are fantastic spaces.  It's a pity that there aren't more of them.
 
-Many spaces that occur in mathematics aren't manifolds but one would like to be able to treat them as if they were manifolds.  By considering examples of these spaces and by considering what specifically one would like to do with or to them, it is possible to generalise the idea of a smooth manifold to encompass the new examples whilst preserving enough structure to retain the old tools.  There have been several such generalisations in recent mathematical history.  A (partial) list is below.
+Many spaces that occur in mathematics aren't manifolds but one would like to be able to treat them as if they were manifolds; in particular, they should have some *smooth* structure that goes beyond mere topology.  By considering examples of these spaces and by considering what specifically one would like to do with or to them, it is possible to generalise the idea of a smooth manifold to encompass the new examples whilst preserving enough structure to retain the old tools.  There have been several such generalisations in recent mathematical history.  A (partial) list is below.
 
 Often the examples of spaces that one would like to consider as manifolds are formed by applying a categorical construction to ordinary manifolds; such as limits, quotients, or function spaces.  This leads one to ask for the categorical properties of each of the resulting categories of generalised smooth spaces.
 
