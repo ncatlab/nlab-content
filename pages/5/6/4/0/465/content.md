@@ -1,4 +1,4 @@
-A **regular epimorphism** (in a given category) is any morphism that is the [[coequalizer]] of some parallel pair of morphisms. The [[duality|dual]] concept is that of [[regular monomorphism]].  In a category with [[pullback|pullbacks]], a morphism is a regular epimorphism if and only if it is the coequalizer of its [[kernel pair]] (See for instance Lemma 5.6.6 in _[[Practical Foundations]]_).
+A **regular epimorphism** (in a given category) is any morphism that is the [[coequalizer]] of some parallel pair of morphisms. The [[duality|dual]] concept is that of [[regular monomorphism]].  A morphism having a [[kernel pair]] (such as any morphism in a category with [[pullback]]s) is a regular epimorphism if and only if it is the coequalizer of its kernel pair (see for instance Lemma 5.6.6 in _[[Practical Foundations]]_).
 
 Although the definition doesn\'t state so explicitly, it is true that any regular epimorphism is an [[epimorphism]]. In fact, every regular epimorphism is a [[strong epimorphism]]. Conversely, every [[split epimorphism]] is regular.
 
