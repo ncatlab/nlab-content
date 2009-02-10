@@ -1,4 +1,4 @@
-Let $V$ be a symmetric [[closed monoidal category]] and $C$, $D$, [[enriched category|enriched categories]] over $V$. Then a _distributor_ or _profunctor_ or _[[bimodule|(bi)module]]_ from $C$ to $D$ is a $V$-functor from $C \otimes D^{op}$ to $V$, we write
+Let $V$ be a symmetric [[closed monoidal category]] and $C$, $D$, [[enriched category|enriched categories]] over $V$. Then a __distributor__ or __profunctor__ (also called a _[[bimodule|(bi)module]]_) from $C$ to $D$ is a $V$-functor from $C \otimes D^{op}$ to $V$, we write
 
 $$
   F : C \stackrel{|}{\to} D : C\otimes D^{op} \to V
@@ -14,7 +14,7 @@ $$
   \,.
 $$
 
-This yields a [[bicategory]] $V-Mod$ with
+This yields a [[bicategory]] $V\Mod$ with
 
 * objects are $V$-enriched categories;
 
@@ -24,17 +24,17 @@ This yields a [[bicategory]] $V-Mod$ with
 
 #Examples#
 
-* Recall that a one-object [[Vect]]-[[enriched category]] is just an [[algebra]], while a general [[Vect]]-[[enriched category]] is an [[algebroid]]. The full sub-bi-category of $Vect-Mod$ on one-object $Vect$-enriched categories is the familiar category of [[algebra]]s, [[bimodule]]s and bimodule homomorphisms.
+* Recall that a one-object [[Vect]]-[[enriched category]] is just an [[algebra]], while a general [[Vect]]-[[enriched category]] is an [[algebroid]]. The full sub-bicategory of $Vect\Mod$ on one-object $Vect$-enriched categories is the familiar category of [[algebra]]s, [[bimodule]]s and bimodule homomorphisms.
 
 * For $V = (Set, \times)$ we have that the bicategory of $Set$-modules is equivalent to that of sets, [[span]]s of sets and morphisms of spans:
 $$
-  Set-Mod \simeq Span(Set) 
+  Set\Mod \simeq Span(Set) 
   \,.
 $$
 
 * Accordingly for $S = (Set^{op}, \times)$ we get the bicategory of [[cospan]]s
 $$
-  Set^{op}-Mod \simeq Span(Set^{op}) = Cospan(Set) 
+  Set^{op}\Mod \simeq Span(Set^{op}) = Cospan(Set) 
   \,.
 $$
 
@@ -48,7 +48,7 @@ $$
 $$
 with the [[Yoneda embedding]] under the Hom-adjunction. This extends to a bifunctor
 $$
-  V-Cat \to V-Mod
+  V\Cat \to V\Mod
   \,.
 $$
 
@@ -65,7 +65,7 @@ $$
   }
 $$
 
-* The bifunctor $V-Cat \to V-Mod$ exhibits $V-Mod$ as a [[framed bicategory]].
+* The bifunctor $V\Cat \to V\Mod$ exhibits $V\Mod$ as a [[framed bicategory]].
 
 
 #Related entries#
