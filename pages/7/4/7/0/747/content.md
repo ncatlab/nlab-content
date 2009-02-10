@@ -1,8 +1,8 @@
 There are many [[model category]] structures on the category of [[simplicial presheaf|simplicial presheaves]], the two extremal ones are 
 
-* the projective or global model structure (weak equivalences and fibrations are defined objectwise);
+* the _projective_ or _global_ model structure (weak equivalences and fibrations are defined objectwise);
 
-* the injective or local model structure (weak equivalences and fibrations are defined to be locally those with respect to the standard [[model structure on simplicial sets]]).
+* the _injective_ or local model structure (weak equivalences and fibrations are defined to be locally those with respect to the standard [[model structure on simplicial sets]]).
 
 In between these two structures there are many other model structures sometimes called "local projective" model structures.
 
