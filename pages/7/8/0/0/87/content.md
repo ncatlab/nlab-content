@@ -33,6 +33,8 @@ More generally, let $S$ be a category containing a collection of morphisms calle
 
 +--{: .query}
 _David R_ says: aren't these two conditions  only equivalent if the category has pullbacks? That is what it says at [[regular epimorphism]]. A map being the quotient of its kernel pair is an effective epimorphism, is it not?
+
+_Mike_: I think it only <del>says</del> said that at regular epimorphism because <del>whoever wrote that sentence</del> I wasn't thinking about the case of categories that have _particular_ pullbacks but not all pullbacks.
 =--
 
 Note that these are precisely the axioms saying that the singleton families $\{p:V\to U\}$ where $p$ is a cover form a [[subcanonical coverage|subcanonical]] [[Grothendieck pretopology]].  One important class of examples is when $S$ is a [[regular category]] and the covers are the [[regular epimorphism]]s.  Another is when $S$ is the category of smooth manifolds and the covers are the surjective submersions.
