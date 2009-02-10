@@ -1,8 +1,12 @@
-A _$0$-fold category_ is a [[set]].  An _$n$-fold category_ for $n \gt 0$ is an [[internal category]] in $(n-1)$-fold categories.
+#Definition of strict case#
 
-In particular, a $1$-fold category is a [[category]], and a $2$-fold category is a [[double category]] (introduced by [[Charles Ehresmann]] in 1963).
+A **$0$-fold category** is a [[set]].  An **$n$-fold category** for $n \gt 0$ is an [[internal category]] in $(n-1)$-fold categories.
 
-Analogously, an _$n$-fold groupoid_ is an [[internal groupoid]] in $(n-1)$-fold groupoids; in particular, a $1$-fold groupoid is a [[groupoid]].
+In particular, a $1$-fold category is preciesely a [[category]], and a $2$-fold category is precisely a [[double category]] (introduced by [[Charles Ehresmann]] in 1963).
+
+Analogously, a **$0$-fold groupoid** is again a set, and an **$n$-fold groupoid** is an [[internal groupoid]] in $(n-1)$-fold groupoids; in particular, a $1$-fold groupoid is a [[groupoid]].
+
+More generally, an **$(n,r)$-fold groupoid** is an $r$-fold category in $(n-r)$-fold groupoids; compare $(n,r)$-[[(n,r)-category|category]].
 
 
 #Remarks#
@@ -12,6 +16,8 @@ Analogously, an _$n$-fold groupoid_ is an [[internal groupoid]] in $(n-1)$-fold 
 * Analogous to how a [[group]] is a groupoid with a single object, one can consider $(n+1)$-fold groupoids for which all morphisms in one of the $(n+1)$ directions are endomorphisms. These are the [[cat-n-group]]s.
 
 * By a theorem by Brown and Higgins, [[strict omega-category|strict omega-categories]] are equivalent to those $\infty$-fold categories that satisfy a couple of restrictive properties (something like that all 1-categories of $n$-cells for all $n$ are the same and that all the "thin" identity elements exist, called "connections").
+
+* There are some moves towards a weak notion of $n$-fold category, particularly the case of [[double bicategory]].
 
 
 #References#
