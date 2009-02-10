@@ -31,6 +31,10 @@ More generally, let $S$ be a category containing a collection of morphisms calle
 * covers are closed under composition,
 * every cover is the quotient of its kernel pair (equivalently, every cover is a [[regular epimorphism]]).
 
++--{: .query}
+_David R_ says: aren't these two conditions  only equivalent if the category has pullbacks? That is what it says at [[regular epimorphism]].
+=--
+
 Note that these are precisely the axioms saying that the singleton families $\{p:V\to U\}$ where $p$ is a cover form a [[subcanonical coverage|subcanonical]] [[Grothendieck pretopology]].  One important class of examples is when $S$ is a [[regular category]] and the covers are the [[regular epimorphism]]s.  Another is when $S$ is the category of smooth manifolds and the covers are the surjective submersions.
 
 In such a situation, if $C$ and $D$ are [[internal category|internal categories]] in $S$, we define an __anafunctor__ $C\to D$ to consist of a span $C\leftarrow F \to D$ of internal functors such that:
@@ -69,6 +73,8 @@ _Mike_: Yes, presumably it won't depend on the fillers chosen; I haven't checked
 _David R_: I noticed the adjective Grothendieck in the preceeding sentence half-way through asking the question, but I think my point still holds for general coverages, without the closure properties.
 
 _Mike_: Well, as you pointed out, you need at least identity maps to be covers to have identity anafunctors, and you need covers to be stable under composition, as well as pullback, in order to define composition of anafunctors.  An arbitrary coverage might not satisfy those, although pretty much any coverage arising in practice does.  The other point that a choice has to be made unless you have honest pullback-stability is certainly true.  So probably the most natural-feeling context in which to work is a (possibly singleton) [[Grothendieck pretopology]].  I would be happy for this page to ignore the case where covers don't have pullbacks; I did some rewriting above to reflect this discussion.  I think this discussion could now be deleted; feel free to do so if you agree.
+
+_David R_: After some thought, one could do without _the_ identity map, and be satisfied with a anafunctor (external!) giving the identity $1 \to Ana(X,X)$. I think I should move this discussion to a section of its own, and develop these ideas there. I think I saw an example of a non-Grothendieck coverage in [[John and Alex's [[generalized smooth space|smooth spaces]] paper.
 
 =--
 
