@@ -19,7 +19,7 @@ The $(n+j)$-category associated to a $k$-tuply monoidal $n$-category $C$ is call
 
 * The delooping hypothesis is closely related to the [[stabilization hypothesis]].  In delooping language, the stabilization hypothesis says that once you have an $n$-category that can be delooped $n+2$ times, it can automatically be delooped infinitely many times.
 
-* [[Mike Shulman]] claims that the delooping hypothesis is a special case of the [[michaelshulman:exactness hypothesis|exactness hypothesis]].
+* In low dimensions, the delooping hypothesis is a special case of the [[michaelshulman:exactness hypothesis|exactness hypothesis]].
 
 
 # In homotopy theory
