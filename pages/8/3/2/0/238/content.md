@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-02-10
 
+* [[David Roberts]]
+  *Continued discussion with Mike at [[anafunctor]], and moved the discussion to its own section. I disagreed about the use of ''regular epimorphism'' for covers in categories without all pullbacks.
+  * Discussion at [[generalized smooth space]], and created (a very sketchy!) page [[profinite group]].
+
 * [[Toby Bartels]]:
   * Fixed the theorem environments at [[cat-1-group]] (you need six hash marks).
   * Defined $(n,r)$-fold categories at [[n-fold category]], just because I could.
