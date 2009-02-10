@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-02-10
 
+* [[Toby Bartels]]: defined $(n,r)$-fold categories at [[n-fold category]], just because I could.
+
 * [[Urs Schreiber|Urs]]
 
   * created [[Courant Lie algebroid]]
