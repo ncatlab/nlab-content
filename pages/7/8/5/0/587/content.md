@@ -14,4 +14,12 @@ In a sufficiently rich logical language, contexts are unnecessary, which is why 
 $$ \vdash (\forall a: G): (\forall b: G): a b = b a$$
 and
 $$ \vdash (\forall a: G): (\forall b: G): (a b)^2 = a^2 b^2 \Rightarrow a b = b a$$
-Here the context on the left side is the **empty context**, consisting of no assumptions whatsoever (beyond those underlying the base theory).  However, the previous versions of these assertions work in weaker logics.  In fact, these assertions make sense (and the valid one may be proved) in the [[internal logic]] of a group object in a [[cartesian monoidal category|cartesian]] [[multicategory]].  Accordingly, they can be interpreted (and the valid one is true) as statements about any group object in any cartesian multicategory, exactly as they do for groups (which are group objects in the cartesian multicategory of sets).
+Here the context on the left side is the **empty context**, consisting of no assumptions whatsoever (beyond those underlying the base theory).
+
+However, the previous versions of these assertions work in weaker logics.  In fact, these assertions make sense (and the valid one may be proved) in the [[internal logic]] of a group object in a [[cartesian monoidal category|cartesian]] [[multicategory]].  Accordingly, they can be interpreted (and the valid one is true) as statements about any group object in any cartesian multicategory, exactly as they do for groups (which are group objects in the cartesian multicategory [[Set]]).
+
+Even if one is completely uninterested in [[internalization]] or weak logics, a basic familiarity with contexts may help drive home a point that is important throughout reasoning: **What you can state and prove depends on your assumptions.**
+
+# The category of contexts
+
+...
