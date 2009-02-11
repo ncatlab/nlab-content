@@ -40,7 +40,11 @@ Other model structures which at the moment we have entries for are
 
 #References#
 
-Here is an unpublished manuscript of Chris Reedy from around 1974 that's been circulating as an increasingly faded photocopy. It's been typed into LaTeX, and the author has given  [permission](http://www-math.mit.edu/~psh/#Other%20mathematics) for it to be posted on the net:
+An introductory survey of some key concepts is in the set of slides
+
+* Peter May, [[ModelCatPrimer.pdf:file]]
+
+There is an unpublished manuscript of Chris Reedy from around 1974 that's been circulating as an increasingly faded photocopy. It's been typed into LaTeX, and the author has given  [permission](http://www-math.mit.edu/~psh/#Other%20mathematics) for it to be posted on the net:
 
 * Chris Reedy, _Homotopy theory of model categories_ ([pdf](http://www-math.mit.edu/~psh/reedy.pdf))
 
@@ -57,3 +61,4 @@ See
 * P. Hirschhorn, personal website: [Mathematics](http://www-math.mit.edu/~psh/#Mathematics)
 
 for errata and more. 
+
