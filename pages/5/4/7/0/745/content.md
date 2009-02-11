@@ -12,7 +12,7 @@ If $f:C\to E$ and $g:D\to E$ are [[functor]]s, their **comma category** is the c
 
 * If $f$ is the identity functor of $C$ and $g$ is the inclusion $1\to C$ of an object $c\in C$, then $(f/g)$ is the [[slice category]] $C/c$.
 
-* Likewise if $g$ is the identity and $f$ is the inclusion of $c$, then $(f/g)$ is the [[coslice category]] $c/C$.
+* Likewise if $g$ is the identity and $f$ is the inclusion of $c$, then $(f/g)$ is the [[under category|coslice category]] $c/C$.
 
 
 # 2-categorical properties #
@@ -27,3 +27,12 @@ which is universal in the [[2-category]] [[Cat]]; that is, it is an example of a
 # Remarks #
 
 The terminology "comma category" is a holdover from an old notation $(f,g)$ for such a category, about which the less said the better.
+
++--{.query}
+It\'s a very natural notation, as it generalises the notation $(x,y)$ (or $[x,y]$ as is now more common) for a [[hom-set]].  But personally, I like $(f \rightarrow g)$ (or $(f \searrow g)$ if you want to differentiate from a cocomma category, but that seems an unlikely confusion), as it is a category of arrows from $f$ to $g$.
+&#8212;[[Toby Bartels]]
+=--
+
+# Further reading #
+
+[a low-tech description with several special cases identified in somewhat archaic terminology](http://toby.bartels.name/notes/#comma)
