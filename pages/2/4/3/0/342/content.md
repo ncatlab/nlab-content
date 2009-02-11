@@ -2,18 +2,20 @@ $(n,r)$-categories are a generalisation of both $n$-[[n-category|categories]] an
 
 # Definition
 
-Given a notion of $n$-[[n-category|category]] (as weak or strict as you like), then an **$(n,r)$-category** can be defined to be an $n$-category such that
-* any $j$-morphism in an [[equivalence]] for $j\gt r$.
-We can also combine this with the definition of $n$-categories in terms of $\infty$-[[infinity-category|categories]] (weak or strict), and thereby define an __$(n,r)$-category__ to be an $\infty$-category such that:
-* any $j$-morphism is an [[equivalence]], for $j > r$;
-* any two parallel $j$-morphisms are equivalent, for $j > n$.
+Given a notion of $\infty$-[[infinity-category|category]] (as weak or strict as you like), then an **$(n,r)$-category** can be defined to be an $\infty$-category such that
+
+* any $j$-morphism is an [[equivalence]], for $j \gt r$;
+* any two parallel $j$-morphisms are equivalent, for $j \gt n$.
+
 As explained below, we may assume that $n \geq -2$ and $0 \leq r \leq n + 1$ (but still allowing $r = 0$ for $n = - 2$).
 
-To interpret this correctly for low values of $j$, we must assume that all objects ($0$-morphisms) in a given $\infty$-category are parallel, which leads us to speak of the two $(-1)$-morphisms that serve as their common source and target and to accept any object as an equivalence between these. In particular, any $j$-morphism is an equivalence for $j < 1$, so if $r = 0$, then the condition is satisfied for any smaller value of $r$. Thus, we assume that $r \geq 0$.
+You can also start with a notion of $n$-[[n-poset|poset]], then define an $(n,r)$-category to be an $(n+1)$-poset such that any $j$-morphism is an [[equivalence]] for $j \gt r$. Or, for $r \leq n$, you can start with a notion of $n$-[[n-category|category]], then define an $(n,r)$-category to be an $n$-category such that any $j$-morphism in an [[equivalence]] for $j \gt r$.
+
+To interpret this correctly for low values of $j$, we must assume that all objects ($0$-morphisms) in a given $\infty$-category are parallel, which leads us to speak of the two $(-1)$-morphisms that serve as their common source and target and to accept any object as an equivalence between these. In particular, any $j$-morphism is an equivalence for $j \lt 1$, so if $r = 0$, then the condition is satisfied for any smaller value of $r$. Thus, we assume that $r \geq 0$.
 
 To say that parallel $(-1)$-morphisms must be equivalent is meaningful; it requires that there be an object. One can continue to $(-2)$-morphisms and so on, but there is nothing to vary about these; so we assume that $n \geq -2$. In other words, a $(-2)$-[[(-2)-category|category]] will automatically be an $n$-category for any smaller value of $n$.
 
-If any two parallel $j$-morphisms are equivalent, then any $j$-morphism between equivalent $(j-1)$-morphisms is an equivalence (being parallel to an identity for $j > 0$ and automatically for $j < 1$). Accordingly, any $(n,r)$-category for $r > n + 1$ is also an $(n,n+1)$-category. Thus, we assum that $r \leq n + 1$. However, when $n = -2$, this contradicts the assumption that $r \geq 0$, so we allow $r = 0$ in that case just to talk about $n = -2$.
+If any two parallel $j$-morphisms are equivalent, then any $j$-morphism between equivalent $(j-1)$-morphisms is an equivalence (being parallel to an identity for $j \gt 0$ and automatically for $j \lt 1$). Accordingly, any $(n,r)$-category for $r \gt n + 1$ is also an $(n,n+1)$-category. Thus, we assum that $r \leq n + 1$. However, when $n = -2$, this contradicts the assumption that $r \geq 0$, so we allow $r = 0$ in that case just to talk about $n = -2$.
 
 # Special cases
 
@@ -23,11 +25,11 @@ An $(n,n)$-category is simply an $n$-[[n-category|category]]. An $(n,n+1)$-categ
 
 There is a [[periodic table]] of $(n,r)$-categories. This looks best if you leave out $n = -2$:
 
-<table><tr><th><i>r</i>&darr;\<i>n</i>&rarr;</th><th>&minus;1</th><th>0</th><th>1</th><th>2</th><th>&hellip;</th></tr>
-<tr><th>0</th><td>[[truth value]]</td><td>[[set]]</td><td>[[groupoid]]</td><td>[[2-groupoid]]</td><td>&hellip;</td></tr>
-<tr><th>1</th><td>"</td><td>[[poset]]</td><td>[[category]]</td><td>[[(2,1)-category]]</td><td>&hellip;</td></tr>
-<tr><th>2</th><td>"</td><td>"</td><td>[[2-poset]]</td><td>[[2-category]]</td><td>&hellip;</td></tr>
-<tr><th>3</th><td>"</td><td>"</td><td>"</td><td>[[3-poset]]</td><td>&hellip;</td></tr>
-<tr><th>&vellip;</th><td>"</td><td>"</td><td>"</td><td>"</td><td>&dellip;</td></tr></table>
+<table><tr><th><i>r</i>&#8595;\<i>n</i>&#8594;</th><th>&#8722;1</th><th>0</th><th>1</th><th>2</th><th>&#8230;</th></tr>
+<tr><th>0</th><td>[[truth value]]</td><td>[[set]]</td><td>[[groupoid]]</td><td>[[2-groupoid]]</td><td>&#8230;</td></tr>
+<tr><th>1</th><td>"</td><td>[[poset]]</td><td>[[category]]</td><td>[[(2,1)-category]]</td><td>&#8230;</td></tr>
+<tr><th>2</th><td>"</td><td>"</td><td>[[2-poset]]</td><td>[[2-category]]</td><td>&#8230;</td></tr>
+<tr><th>3</th><td>"</td><td>"</td><td>"</td><td>[[3-poset]]</td><td>&#8230;</td></tr>
+<tr><th>&#8942;</th><td>"</td><td>"</td><td>"</td><td>"</td><td>&#8945;</td></tr></table>
 
 If you included the column where $n = -2$, then it would just be trivial at every row.
