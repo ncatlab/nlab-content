@@ -21,7 +21,7 @@ So it is  interesting that one can define strict higher homotopy groupoids for f
 
 Note also that it is standard to be able to replace, using mapping cylinders, a sequence of maps $Y_n \to Y_{n+1}$ by a sequence of inclusions. 
 
-A filtered space $X_*$ is called _connected_ if it satisfies the following condition:
+A filtered space $X_*$ is called a [[connected filtered space]]  if it satisfies the following condition:
 
 
  $(\phi)_0$: The function $\pi_0X_0  \to \pi_0 X_r$ induced by  inclusion is surjective for all $r \geq 0$; and, for all $i \geq 1$, $(\phi_i): \pi_i(X_r,X_i,v)=0$   for all $r \gt i$  and $ v \in X_0$.
