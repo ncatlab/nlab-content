@@ -89,7 +89,7 @@ $$
 
 * The loop space object $B$ can be regarded as the homotopy trace on the identity span on $B$, as described at [[span trace]].
 
-* The free loop space object inherits the structure of an [[A-infinity category]] from that of the [[path object]] $[I,B]$. 
+* The free loop space object inherits the structure of an $A_\infty$-[[A-infinity-category|category]] from that of the [[path object]] $[I,B]$. 
 
 #Examples#
 
