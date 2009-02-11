@@ -21,6 +21,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
   * created [[Bousfield localization]]
 
 * [[Toby Bartels]]:
+  * Comments (with related edits) at [[2-limit]] and [[strict 2-limit]].
   * Expanded [[section]] and wrote [[retraction]] following it; similarly wrote [[split monomorphism]] following [[split epimorphism]].
   * Separated [[k-tuply monoidal (n,r)-category]] from [[periodic table]].
   * Linked to [[Pursuing Stacks]] from [[infinity-stack]] so it won\'t be an orphan.  People more familiar with _Pursuing Stacks_ than I am may want to link to it in other ways.
