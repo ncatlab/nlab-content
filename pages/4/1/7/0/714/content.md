@@ -32,6 +32,14 @@ which is the identity on objects, and which satisfies $\dagger \circ \dagger = \
 
 * Let $C$ be a category with pullbacks and let $Span_1(C)$ be the 1-category of [[span]]s up to isomorphism: its morphisms are spans with one leg labeled as source, the other labeled as target. Then the functor $\dagger : Span_1(C)^{op} \to Span_1(C)$ which just exchanges this labeling is a dagger-structure on $Span_1(C)$.
 
+#Underlying groupoid#
+
+For the purpose of considering what makes two objects of a $\dagger$-category [[equivalence|equivalent]], one should not consider all [[isomorphism]]s (invertible morphisms) but rather all **unitary isomorphisms**: those morphisms $f$ whose adjoint is their inverse.
+
+For example, in $Hilb$, there are many invertible linear operators, but only those of norm $1$ (the invertible isometries) are unitary.
+
+The unitary isomorphisms form a [[groupoid]], which may be regarded as the _underlying groupoid_ of the $\dagger$-category.
+
 #References#
 
 The concept of $\dagger$-category is discussed here:
