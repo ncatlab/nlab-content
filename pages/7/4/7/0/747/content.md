@@ -4,13 +4,13 @@ The _local_ such model structures are of interest in that they model [[infinity-
 
 They can be thought of as being obtained from global model structures, of which there are two:
 
-* the  **global projective** model structure has weak equivalences and fibrations being _objectwise_ those of [[simplicial set]]s);
+* the  **global projective** model structure has weak equivalences and fibrations being _objectwise_ those of [[simplicial set]]s;
 
-* the  **global injective** model structure has weak equivalences and cofibrations being _objectwise_ those of [[simplicial set]]s);
+* the  **global injective** model structure has weak equivalences and cofibrations being _objectwise_ those of [[simplicial set]]s;
 
 These two model structures are Quillen equivalent 
 ( _DHI04_ [p. 5](http://www.math.uiuc.edu/K-theory/0563/spre.pdf#page=5) with the Quillen equivalence given by the identity functor). They can be defined on any domain category $S$, not necessarily a [[site]]. If we do have a structure of a [[site]] on $S$ then there is a  notion of _local weak equivalences_ of simplicial presheaves on $S$, defined below.
-One gets _local_ projective and _local_ injective model structures by applying left [[Bousfield localization]] of the above model structures at local weak equivalences (see [p. 6](http://arxiv.org/PS_cache/math/pdf/0205/0205027v2.pdf#page=6) of _DHI04_)
+One gets _local_ projective and _local_ injective model structures by applying left [[Bousfield localization]] of the above model structures at local weak equivalences (see [p. 6](http://arxiv.org/PS_cache/math/pdf/0205/0205027v2.pdf#page=6) of _DHI04_ )
 
 * the  **local projective** model structure (weak equivalences are locally (usually stalkwise) and fibrations are objectwise those of simplicial sets);
 
@@ -23,9 +23,12 @@ In the local injective structure all objects are cofibrant, so that the [[opposi
 Both local model structures are proper [[enriched category|simplicially enriched]] categories (_DHI04_ [p. 5](http://www.math.uiuc.edu/K-theory/0563/spre.pdf#page=6)). 
 
 +-- {.query}
-  [[Urs Schreiber|Urs]]: I am hoping that $SimpPr(S)$ with the local model structure is hence a $SimpSet$-[[enriched homotopical category]]. Can anyone tell right away?
+[[Urs Schreiber|Urs]]: I am hoping that $SimpPr(S)$ with the local model structure is hence a $SimpSet$-[[enriched homotopical category]]. Can anyone tell right away?
 
 [[Mike Shulman|Mike]]: Any $V$-model category is automatically a $V$-homotopical category.  So if by the above sentence you mean that they are "simplicial model categories," (that is, sSet-model categories) then they are sSet-homotopical categories too.
+
+[[Urs Schreiber|Urs]]: I didn't actually mean to say that these are $SimpSet$-model categories, but maybe that's what is implied to be meant by the respective statement in the literature. I'll check.
+
 =--
 
 The _local injective_ model structure on simplicial presheaves models is originally due to Jardine, following the construction of the the Quillen equivalent local [[model structure on simplicial sheaves]] by Joyal. It was only later realized in _DHI04_ as a left [[Bousfield localization]] of the global injective model structure.
