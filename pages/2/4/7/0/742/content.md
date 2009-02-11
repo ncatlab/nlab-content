@@ -1,13 +1,11 @@
-The **slice category** **C**/$C$ of a category **C** over an object $C \in$ **C** has 
+The **slice category** over **over category** $\mathbf{C}/c$ of a [[category]] $\mathbf{C}$ over an object $c \in \mathbf{C}$ has 
+* objects that are all arrows $f \in \mathbf{C}$ such that $cod(f) = c$, and
+* morphisms $g: X \to X' \in \mathbf{C}$ from $f:X \to c$ to $f': X' \to c$ such that $f' \circ g = f$.
 
-* objects that are all arrows $f \in$ **C** such that $cod(f) = C$, and
+The slice category is a special case of a [[comma category]].
 
-* morphisms $g: X \to X' in$ **C** from $f:X \to C$ to $f': X' \to C$ such that $f' \circ g = f$.
+# Examples #
 
-The slice category is also called the **over category**.  It is a special case of a [[comma category]].
+* If $\mathbf{C} = \mathbf{P}$ is a [[poset]] and $p \in \mathbf{P}$, then the slice category $\mathbf{P}/p$ is the "principal ideal" $\downarrow (p)$ of elements $q \in \mathbf{P}$ with $q \leq p$. 
 
-**Examples**
-
-* If **C** = **P** is a [[poset]] and $p \in$ **P**, then the slice category **P**/$p$ is the "principal ideal" $\downarrow (p)$ of elements $q \in$ **P** with $q \leq p$. 
-
-* If $1$ is a [[terminal object]] in **C**, then **C**/$1$ is isomorphic to **C**.
+* If $1$ is a [[terminal object]] in $\mathbf{C}$, then $\matbhf{C}/1$ is isomorphic to $\mathbf{C}$.
