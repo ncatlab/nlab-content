@@ -1,21 +1,35 @@
-There are many [[model category]] structures on the category of [[simplicial presheaf|simplicial presheaves]] derived from the [[model structure on simplicial presheaves]]. The extremal cases are 
+There are many [[model category]] structures on the category of [[simplicial presheaf|simplicial presheaves]] derived from the [[model structure on simplicial presheaves]]. 
+
+The extremal cases are 
 
 * the  **global projective** model structure (weak equivalences and fibrations are objectwise those of [[simplicial set]]s);
 
 * the **global injective** (weak equivalences and cofibrations are objectwise those of SimpSet).
 
-These two model structures are Quillen equivalent (_DHI04_ [p. 5](http://www.math.uiuc.edu/K-theory/0563/spre.pdf#page=5) with the Quillen equivalence given by the identity functor). 
+These two model structures are Quillen equivalent 
+( _DHI04_ [p. 5](http://www.math.uiuc.edu/K-theory/0563/spre.pdf#page=5) with the Quillen equivalence given by the identity functor). They can be defined on any domain category $S$, not necessarily a [[site]]. If we do have a structure of a [[site]] on $S$ then there is a  notion of _local weak equivalences_ of simplicial presheaves on $S$, defined below.
 
-From these one gets local projective and injective model structures by [[Bousfield localization]].
+One gets _local_ projective and _local_ injective model structures by applying left [[Bousfield localization]] of the above model structures at local weak equivalences (see [p. 6](http://arxiv.org/PS_cache/math/pdf/0205/0205027v2.pdf#page=6) of _DHI04_)
 
 * the  **local projective** model structure (weak equivalences are locally (usually stalkwise) and fibrations are objectwise those of simplicial sets);
 
 * the **local injective** (weak equivalences are locally (usually stalkwise) and cofibrations are objectwise those of SimpSet).
 
+Again, these two model structures are Quillen equivalent by the identity functors between the underlying categories and hence provide projective and injective versions of the corresponding homotopy theory of [[infinity-stack homotopically|infinity-stacks]].
 
-In between these two structures there are many other model structures obtained by varying the class of generating global cofibrations.
+In the local injective structure all objects are cofibrant, so that the [[opposite category]] of simplicial presheaves with the local injective model structure is a [[category of fibrant objects]].
 
-The _local injective_ model structure on simplicial presheaves models  [[infinity-stack homotopically|infinity-stacks]]. This is due to Jardine, following the construction of the the Quillen equivalent local [[model structure on simplicial sheaves]] by Joyal.
+Both local model structures are proper [[enriched category|simplicially enriched]] categories (_DHI04_ [p. 5](http://www.math.uiuc.edu/K-theory/0563/spre.pdf#page=6)). 
+
++-- {.query}
+  [[Urs Schreiber|Urs]]: I am hoping that $SimpPr(S)$ with the local model structure is hence a $SimpSet$-[[enriched homotopical category]]. Can anyone tell right away?
+=--
+
+The _local injective_ model structure on simplicial presheaves models is originally due to Jardine, following the construction of the the Quillen equivalent local [[model structure on simplicial sheaves]] by Joyal. It was only later realized in _DHI04_ as a left [[Bousfield loalization]] of the global injective model structure.
+
+
+In between the injective and the projective model structures there are many other model structures obtained by varying the class of generating global cofibrations.
+
 
 In the following let $S$ be a small [[site]] and denote by $SimpPr(S)$ be the category of [[simplicial presheaf|simplicial presheaves]] on $S$.
 
@@ -25,6 +39,11 @@ In the following let $S$ be a small [[site]] and denote by $SimpPr(S)$ be the ca
 One usually says that a **local model structure** on a category of [[presheaf|presheaves]] is one whose weak equivalences are not defined objectwise but on [[cover]]s and/or on stalks.
 
 ##Local weak equivalences##
+
+There are different equivalent ways to define local weak equivalences of simplicial presheaves on a site $S$.
+
+
+###In terms of sheaves of homotopy groups###
 
 (see section 2 of _Jardine07_)
 
@@ -75,21 +94,37 @@ $$
 are pullback diagram in $Sh(S,SimpSet)$, for all $n \geq 1$.
 =--
 
+Equivbalently a morphism $f : X \to Y$ of simplicial presheaves is, equivalently, a local weak equivalence if all induced morphisms of sheaves 
+$$
+  \tilde \pi_n (X|_U, x) \to \tilde \pi_n Y|_U, f(x)
+$$
+are isomorphisms for all $U \in S$, for $X|_U, Y|_U$ the pullbacks to the over-category site $S/U$, for all $x \in X_0(U)$ and all $n \geq 0$.
+
+
+###In terms of local liftings###
+
+(see _DI02_ )
+
+Equivalently a local weak equivalence is a morphism $f : X \to Y$ such that for all commuting diagrams
+
+$$
+  \array{
+    \Lambda^n[i] \otimes U &\to& X
+    \\
+    \downarrow && \downarrow^f
+    \\
+    \Delta^n \otimes U &\to& Y
+  }
+$$
+there is a lift after pulling back to some cover of $U$.
+
+
 ### Examples ###
 
 * Every object-wise weak equivalence is in particular a local weak equivalence.
 
 
 If the site $S$ _has enough points_ then the above condition is equivalent to saying that $f$ is a weak equivalence in the [[model structure on simplicial sets]] over every stalk (see [p. 363](http://www.intlpress.com/HHA/v3/n2/a5/v3n2a5.pdf#page=3) of _Jardine01_).
-
-### Equivalent reformulation ###
-
-A morphism $f : X \to Y$ of simplicial presheaves is, equivalently, a local weak equivalence if all induced morphisms of sheaves 
-$$
-  \tilde \pi_n (X|_U, x) \to \tilde \pi_n Y|_U, f(x)
-$$
-are isomorphisms for all $U \in S$, for $X|_U, Y|_U$ the pullbacks to the over-category site $S/U$, for all $x \in X_0(U)$ and all $n \geq 0$.
-
 
 ## Local injective model structure ##
 
@@ -185,3 +220,5 @@ See _Jardine07_ [page 12](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf#p
 * Benjamin Blander, _Local projective model structures on simplicial presheaves_,  K-Theory, Volume 24, Number 3, November 2001 , pp. 283-301(19) ([journal](http://www.ingentaconnect.com/content/klu/kthe/2001/00000024/00000003/00384649?crawler=true))
 
 * **DHI04** Daniel Dugger, Sharon Hollander, Daniel C. Isaksen, _Hypercovers and simplicial presheaves_ ([web](http://www.math.uiuc.edu/K-theory/0563/)) 
+
+* **DI02** D. Dugger, D. Isaksen, _Weak equivalences of simplicial presheaves_ ([arXiv](http://arxiv.org/abs/math/0205025))
