@@ -32,7 +32,7 @@ Any ordinary type of limit can be "2-ified" by boosting its ordinary universal p
 
 There are also various important types of 2-limits that involve 2-cells in the diagram shape or in the weight, and hence are not just "boosted-up" versions of 1-limits.
 
-* The **[[comma object]]** of a cospan $A \overset{f}{\to} C \overset{g}{\leftarrow} B$ is a universal object $(f/g)$ and projections $p:(f/g)\to A$ and $q:(f/g)\to B$ together with a transformation (not an isomorphism) $f p \to g q$.  In [[Cat]], comma objects are [[comma category|comma categories]]].  Comma objects are sometimes called _lax pullbacks_ but that term more properly refers to the lax version of a pullback; see "lax limits" below.
+* The **[[comma object]]** of a cospan $A \overset{f}{\to} C \overset{g}{\leftarrow} B$ is a universal object $(f/g)$ and projections $p:(f/g)\to A$ and $q:(f/g)\to B$ together with a transformation (not an isomorphism) $f p \to g q$.  In [[Cat]], comma objects are [[comma category|comma categories]].  Comma objects are sometimes called _lax pullbacks_ but that term more properly refers to the lax version of a pullback; see "lax limits" below.
 
 * The **[[inserter]]** of a pair of parallel arrows $f,g:A \;\rightrightarrows\; B$ is a universal object $I$ equipped with a map $i:I\to A$ and a 2-cell $f i \to g i$.
 
@@ -70,7 +70,3 @@ A 2-limit is called **finite** if its diagram shape and its weight are both "fin
 * Street, "Fibrations in Bicategories" and correction.
 
 * Lack, [A 2-categories companion](http://arxiv.org/abs/math.CT/0702535)
-
-+--{.query}
-I redirected [[2-categorical limit]] here, since there is no longer any discussion there that isn\'t repeated early on here.  Furthermore, all then extant links there really wanted to go here.  &#8212;Toby
-=--
