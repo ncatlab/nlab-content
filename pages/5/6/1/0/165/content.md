@@ -1,12 +1,12 @@
 #Idea#
 
-The **fundamental groupoid** of a space $X$ is a [[groupoid]] whose objects are the points of $X$ and whose morphisms are homotopy classes rel end points of paths in $X$.  
+The **fundamental groupoid** of a space $X$ is a [[groupoid]] whose objects are the points of $X$ and whose morphisms are paths in $X$, identified up to endpoint-preserving [[homotopy]].
 
 #Definition#
 
 
 
-The **fundamental groupoid** $\pi_1(X)$ of a topological space  $X$ is the [[groupoid]] whose set of objects is $X$ and whose morphism from $x$ to $y$ are the [[homotopy]]-classes $[\gamma]$ of continuous maps $\gamma : [0,1] \to X$ whose endpoints map to $x$ and $y$ (which the homotopies are required to fix). Composition is by concatenation of representative maps. Under the [[homotopy]]-[[equivalence relation]] this becomes an associative and unital composition with respect to which every morphism has an inverse.
+The **fundamental groupoid** $\pi_1(X)$ of a topological space  $X$ is the [[groupoid]] whose set of objects is $X$ and whose morphism from $x$ to $y$ are the homotopy-classes $[\gamma]$ of continuous maps $\gamma : [0,1] \to X$ whose endpoints map to $x$ and $y$ (which the homotopies are required to fix). Composition is by concatenation of representative maps. Under the [[homotopy]]-[[equivalence relation]] this becomes an associative and unital composition with respect to which every morphism has an inverse.
 
 
 #Remarks#
@@ -18,8 +18,7 @@ $$
 $$
 So the fundamental groupoid is an improvement on the idea of the fundamental group, which gets rid of the choice of basepoint.
 
-* An improvement on this relevant to the van Kampen theorem 
-for computing the fundamental group or groupoid is to take $\pi_1(X,A)$, namely the full subgroupoid of $\pi_1(X)$ on a set $A$ of base points, chosen according to the geometry at hand. Thus if $X$ is the union of two open sets $U,V$ with intersection $W$ then we can take $A$ large enough to meet each path-component of $U,V,W$. If $X$ has an action of a group $G$ then $G$ acts on $\pi_1(X,A)$ if $A$ is a union of orbits of the action.  
+* An improvement on this relevant to the [[van Kampen theorem]] for computing the fundamental group or groupoid is to take $\pi_1(X,A)$, namely the full subgroupoid of $\pi_1(X)$ on a set $A$ of base points, chosen according to the geometry at hand. Thus if $X$ is the union of two open sets $U,V$ with intersection $W$ then we can take $A$ large enough to meet each path-component of $U,V,W$. If $X$ has an action of a group $G$ then $G$ acts on $\pi_1(X,A)$ if $A$ is a union of orbits of the action.  
 
 * In parts of the literature the fundamental groupoid and in particular the [[fundamental infinity-groupoid]] of a space is called the **Poincar&#233;-groupoid**.
 
