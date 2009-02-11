@@ -1,6 +1,6 @@
 The _Dold-Kan correspondence_ is the name of the [[equivalence]] of 
 
-* the category [[SAb]] of [[simplicial set|simplicial]] abelian groups;
+* the category [[SimpAb]] of [[simplicial set|simplicial]] abelian groups;
 
 and
 
@@ -9,7 +9,7 @@ and
 There is an adjoint equivalence
 
 $$
-  N : SAb \stackrel{\leftarrow}{\to} Ch_+(An) : \Gamma
+  N : \Simp\Ab \stackrel{\leftarrow}{\to} Ch_+(An) : \Gamma
 $$
 
 where $N$ is the normalized chains functor, also called the [[Moore complex]].
