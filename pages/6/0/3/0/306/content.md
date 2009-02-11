@@ -14,7 +14,7 @@ It is not hard to show that the domain $T$ of the universal subobject is a [[ter
 A __subobject classifier__ in a finitely complete category $C$ is an object $\Omega$ together with a morphism $t: 1 \to \Omega$ such that for any mono $i: s \to c$ in $C$, there exists a unique morphism $\chi_i: c \to \Omega$ such that $i$ arises as the pullback of $t$ along $\chi_i$. The morphism $\chi_i$ is called the _classifying map_ or _characteristic map_ (of the subobject or isomorphism-equivalence class of $i$).
 =--
 
-Elements $\phi: 1 \to \Omega$ are often referred to as "truth values"; the distinguished element $t: 1 \to \Omega$ is referred to as "true".
+[[global element|Elements]] $\phi: 1 \to \Omega$ are often referred to as "truth values"; the distinguished element $t: 1 \to \Omega$ is referred to as "true".  Note that these truth values correspond to the [[subterminal object]]s.
 
 # Examples
 
