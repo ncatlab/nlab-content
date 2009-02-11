@@ -26,12 +26,12 @@ If we drop the first and third conditions, we obtain the notion of a [[coverage]
 The prototype is the pretopology consisting of open covers of a
 topological space/manifold.  Other pretopologies on [[Top]] include:
 
-* Local-section-admitting surjections
+* [[local section|Local-section]]-admitting surjections
 * Surjective [[open map|open maps]]
-* [[topological submersion|topological submersions]]
+* Surjective [[topological submersion|topological submersions]]
 * Surjective [[local homeomorphism|local homeomorphisms]]
 
-An example for the category of manifolds is the pretopology of surjective submersions.  All of these have covering families consisting of single arrows.
+An example for the category of manifolds is the pretopology of [[surjective submersion]]s.  All of these have covering families consisting of single arrows.
 
 +--{.query}
 David Roberts says: I propose some sort of name for this property,
