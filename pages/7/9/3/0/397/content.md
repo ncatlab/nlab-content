@@ -28,6 +28,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[Todd Trimble]]
 * [[Tom Leinster]]
 * [[Urs Schreiber]]
+* [[Vishal Lama]]
 
 See also [category: people](http://ncatlab.org/nlab/list/people) and [Authors](http://ncatlab.org/nlab/authors). The latter also displays a list of all pages each author has contributed to.
 
