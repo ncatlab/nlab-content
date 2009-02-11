@@ -8,7 +8,7 @@ The identification involves a degree shift: the $i$-morphisms of a $k$-tuply mon
 
 Here _$(j-1)$-connected_ means that any two parallel $i$-morphisms are [[equivalence|equivalent]] for $i\le j-1$.  Also, _$0$-tuply monoidal_ is interpreted as meaning [[pointed object|pointed]].  We may also allow $n$ to be of the form [[(n,r)-category|(n,r)]] or $(\infty,r)$, with the usual conventions that $(n,r)+j=(n+j,r+j)$, $\infty+j=\infty$, and so on.  In particular, taking $j=k$ we have:
 
-* $k$-tuply monoidal $n$-categories can be identified with pointed $(k-1)$-connected $(n+k)$-categories.
+* $k$-tuply monoidal $n$-categories can be identified with pointed $(k-1)$-connected pointed $(n+k)$-categories.
 
 The $(n+j)$-category associated to a $k$-tuply monoidal $n$-category $C$ is called its **$j$-fold delooping** and sometimes written $B^j C$.  Conversely, any $k$-tuply monoidal $n$-category $C$ with a point $*\in C$ has a [[loop space object]] $\Omega C = C(*,*)$ which is a $(k+1)$-tuply monoidal $(n-1)$-category.
 
@@ -28,6 +28,8 @@ A "groupoidal" version of the delooping hypothesis may be stated as
 
 * $k$-tuply groupal $n$-groupoids can be identified with $(k-j)$-tuply groupal $(j-1)$-connected $(n+j)$-groupoids, for $0\le j\le k$.
 
-Here "groupal" means "monoidal and such that all objects have inverses."  When $n=\infty$ the groupoidal delooping hypothesis can be interpreted (via the [[homotopy hypothesis]]) as a standard result of classical [[homotopy theory]]: "grouplike $E_k$-spaces" can be delooped $k$ times.  In particular, grouplike $A_\infty$-[[A-infinity-space|spaces]] can be delooped once, and grouplike $E_\infty$-[[E-infinity-space|spaces]] can be delooped infinitely many times (producing a [[spectrum]].
+Here "groupal" means "monoidal and such that all objects have inverses."  (This can actually be seen as a special case of the delooping hypothesis for $k$-tuply monoidal $(n,r)$-categories with $r$ set to $-1$.)
+
+When $n=\infty$ the groupoidal delooping hypothesis can be interpreted (via the [[homotopy hypothesis]]) as a standard result of classical [[homotopy theory]]: "grouplike $E_k$-spaces" can be delooped $k$ times.  In particular, grouplike $A_\infty$-[[A-infinity-space|spaces]] can be delooped once, and grouplike $E_\infty$-[[E-infinity-space|spaces]] can be delooped infinitely many times (producing a [[spectrum]]).
 
 Non-grouplike $A_\infty$-spaces can also be "delooped" in classical homotopy theory, but can only be recovered from their delooping up to [[group completion]].  This is because classical homotopy theory only works with $(\infty,0)$-categories, while the higher-categorical delooping of a non-grouplike $A_\infty$-space (that is, a monoidal $(\infty,0)$-category) should be an $(\infty,1)$-category, not an $(\infty,0)$-category.
