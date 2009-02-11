@@ -6,13 +6,13 @@ A _concrete category_ is a category that looks like a category of "sets with ext
 
 A _concrete category_ is a category $C$
 
-* equipped with a [[faithful]] functor 
+* equipped with a [[faithful functor]]
 $$
   U : C \to Set
 $$
 to the category [[Set]];
 
-* such that $U$ is [[representable]], $U \simeq C(c_0,-)$
+* such that $U$ is [[representable functor|representable]], $U \simeq C(c_0,-)$
 
 ## Remarks ##
 
