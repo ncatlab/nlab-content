@@ -35,7 +35,7 @@ $$
   \,.
 $$
 
-In this form the Kan condition is useful for defining [[internal category|internal]] Kan complexes: for instance a _smooth Kan complex_ can be defined as a simplicial object in [[Diff]] such that the morphisms
+In this form the Kan condition is useful for defining [[internalization|internal]] Kan complexes: for instance a _smooth Kan complex_ can be defined as a simplicial object in [[Diff]] such that the morphisms
 $
   [\Delta[n], S] \to [\Lambda^i[n],S]
 $
