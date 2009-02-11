@@ -14,13 +14,13 @@
 
     * [[BV theory|BV Theory]]
 
-* [[string theory|String theory]]
+* [[string theory|String Theory]]
 
   * [[brane|Branes]]
 
 * [[gnarly problems in physics|Gnarly problems in physics]]
 
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/contents)</div>
+<div markdown="1">[Edit this sidebar](/nlab/edit/physicscontents)</div>
 
 </div>
