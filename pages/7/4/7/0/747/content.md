@@ -1,6 +1,6 @@
 There are many [[model category]] structures on the category of [[simplicial presheaf|simplicial presheaves]] derived from the [[model structure on simplicial presheaves]]. The extremal cases are 
 
-* the  **global projective** model structure (weak equivalences and fibrations are objectwise those of simplicial sets);
+* the  **global projective** model structure (weak equivalences and fibrations are objectwise those of [[simplicial set]]s);
 
 * the **global injective** (weak equivalences and cofibrations are objectwise those of SimpSet).
 
