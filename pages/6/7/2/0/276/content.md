@@ -11,7 +11,8 @@ See also [[homotopy n-type]].
 One way to think of a crossed complex is as a chain complex in which the bottom part is a crossed module and the rest is a chain complex of modules over the fundamental group of the crossed complex (that is its cokernel).  This is easy to think of in the case where there is a single object (crossed complex of groups), and it is a simple step to extend to the many object case.
 
 ##Examples##
-If $X$ is  CW-complex, then there is a crossed complex with, in dimension $n$ the family of relative homotopy groups $\{\pi_n(X^n,X^{n-1},p) : p\in X^0\}$.  In dimension 1 this is the relative fundamental groupoid of the 1-skeleton of $X$ with objects the points in $X^0$.
+
+If $X_*$ is a [[filtered space]], then there is a crossed complex $\Pi X_*$ which in dimension 0 is $X_0$, in dimension 1 is the [[fundamental groupoid]] $\pi_1(X_1,X_0)$ and   in dimension $n \gt 1$ is the family of relative homotopy groups $\{\pi_n(X_n,X_{n-1},p) : p\in X_0\}$.  This gives a functor $\Pi$ from filtered spaces to crossed complexes, which may be used to construct the generalisation of the [[Dold-Kan correspondence]], which in this case goes between crossed complexes and [[simplicial T-complex]]es.  
 
 
 #Remarks#
