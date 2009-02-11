@@ -34,7 +34,7 @@ The [[category]] of Fr&#246;licher spaces is [[complete category|complete]], [[c
 
 # Isbell Duality
 
-Fr&#246;licher spaces are examples of [[generalized smooth spaces|generalised smooth spaces]].  They are also examples of [[space and quantity|generalised spaces]] in the following sense.
+Fr&#246;licher spaces are examples of [[generalized smooth space|generalised smooth spaces]].  They are also examples of [[space and quantity|generalised spaces]] in the following sense.
 
 +-- {: .num_defn #GenSpace}
 ###### Definition
