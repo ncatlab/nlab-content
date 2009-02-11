@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * have a question for [[Mike Shulman|Mike]] at [[model structure on simplicial presheaves]]
+
   * created [[Bousfield localization]]
 
 * [[Toby Bartels]]:
