@@ -77,6 +77,9 @@ are pullback diagram in $Sh(S,SimpSet)$, for all $n \geq 1$.
 
 * Every object-wise weak equivalence is in particular a local weak equivalence.
 
+
+If the site $S$ _has enough points_ then the above condition is equivalent to saying that $f$ is a weak equivalence in the [[model structure on simplicial sets]] over every stalk (see [p. 363](http://www.intlpress.com/HHA/v3/n2/a5/v3n2a5.pdf#page=3) of _Jardine01_).
+
 ### Equivalent reformulation ###
 
 A morphism $f : X \to Y$ of simplicial presheaves is, equivalently, a local weak equivalence if all induced morphisms of sheaves 
@@ -172,6 +175,8 @@ See _Jardine07_ [page 12](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf#p
 
 
 #References#
+
+* **Jardine01** J. Jardine, _Stacks and the homotopy theory of simplicial sheaves_, Homology, homotopy and applications, vol. 3 (2), 2001, pp.361-384
 
 * **Jardine07** J. Jardine, _Field Lectures: Simplicial presheaves_ ([pdf]([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
 
