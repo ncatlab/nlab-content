@@ -66,10 +66,6 @@ I am not as fond of eponyms because they are not descriptive unless you already 
 
 A coverage in Johnstone's sense is even weaker than a Grothendieck pretopology: it's a set of covering families satisfying only stability under pullback (which can be defined even without required the underlying category to have pullbacks).  Perhaps I was mistook and there is no classical notion of "basis," or else this is not it?  Johnstone makes the point that this is really the essential aspect of a coverage that makes sheaves behave the way we are used to; all the other conditions Grothendieck imposed are just "closure" conditions that are there because they might as well be.  Do you have any objection to "coverage" other than its lack of eponymity?
 
-_David Roberts_: A coverage in Johnstone's sense is even weaker than requiring pullbacks of covers to exist, just that there exists some cover which fills the role of pullback, but doesn't have to be universal.
-
-_Mike_: Yes, that's what I intended by "stability under pullback (which can be defined even without required the underlying category to have pullbacks)."  But what you said is more correct.
-
 _Toby_: Isn\'t stability under pullback also a closure condition? I dislike using basic terms for anything between an arbitrary collection and a collection closed under everything.
 
 As long as you think that 'local' doesn\'t have any other meaning in modal logic (in particular, if it\'s the same as the one [here](http://homepages.mcs.vuw.ac.nz/~rob/papers/modalhist.pdf)), then 'local modality' or 'local operator' is OK; one can always restore 'Lawvere&#8212;Tierney' afterwards if necessary.
@@ -95,5 +91,9 @@ _Toby_: See Sections 3.2 and 4.5. I think that you can argue that the former sho
 _Mike_: Actually, I think the one in section 3.2 is actually a special case of what we're doing here--I think there's a coverage on the poset $P(X)$ of all subsets of a topological space whose covers are the families with topologically-dense image.  As for the one in 4.5, I don't think that a single speculative sentence in a paper in 1957, if it was never pursued or made precise, prevents us from using "geometric modality" to mean something different that it is evidently well-suited for.
 
 _Toby_: OK, fair enough; I prefer the eponym only on general grounds of safety.
+
+_David Roberts_: A coverage in Johnstone's sense is even weaker than requiring pullbacks of covers to exist, just that there exists some cover which fills the role of pullback, but doesn't have to be universal.
+
+_Mike_: Yes, that's what I intended by "stability under pullback (which can be defined even without required the underlying category to have pullbacks)."  But what you said is more correct.
 
 =--
