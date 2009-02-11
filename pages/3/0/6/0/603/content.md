@@ -93,7 +93,7 @@ The answer to the first question is given in terms of cells with polyhedral boun
 
 On the other hand this theory is probably more group than category oriented, there is a tendency to imply inverses. 
 
-The algebra comes in by defining _poly-T-complexes, i.e. poly sets with [[thin]] elements.  
+The algebra comes in by defining _poly-$T$-complexes_, i.e. poly sets with [[thin element]]s.  
 
 
 =--
