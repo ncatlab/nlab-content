@@ -1,6 +1,6 @@
 # Idea #
 
-A **2-limit** is the type of [[limit]] that is appropriate in a (weak) [[2-category]].  There are three notable changes when passing from ordinary 1-categorical limits to 2-limits:
+A **2-limit** is the type of [[limit]] that is appropriate in a (weak) [[2-category]].  There are three notable changes when passing from ordinary 1-limits to 2-limits:
 
 1. Since in a 2-category we avoid [[evil]], the "cones" in a 2-limit are required to commute only up to isomorphism.
 
@@ -13,32 +13,32 @@ A **2-limit** is the type of [[limit]] that is appropriate in a (weak) [[2-categ
 
 In a [[strict 2-category]], one can also consider [[strict 2-limit|strict 2-limits]], which are precisely Cat-weighted limits in the sense of ordinary [[enriched category]] theory.  In a strict 2-category these "strict" limits are often technically useful in constructing the "up-to-isomorphism" 2-limits we consider here.  See [[strict 2-limit]] for details.
 
-When we know we are working in a (weak) 2-category, the only type of limit that makes sense is a 2-limit.  Therefore, we usually call these simply "limits."  To emphasize the distinction with the strict 2-limits in a strict 2-category, the "up-to-isomorphism" 2-limits were historically often called _bilimits_ (by analogy with [[bicategory]] for "weak 2-category").  However, this terminology is somewhat unfortunate, not only because it doesn't generalize well to $n$, but because it leads to words like "biproduct," which also has the completely unrelated meaning of an object that is both a product and a coproduct (which is common in [[additive category|additive categories]]).
+When we know we are working in a (weak) 2-category, the only type of limit that makes sense is a 2-limit.  Therefore, we usually call these simply "limits."  To emphasize the distinction with the strict 2-limits in a strict 2-category, the "up-to-isomorphism" 2-limits were historically often called _bilimits_ (by analogy with [[bicategory]] for "weak 2-category").  However, this terminology is somewhat unfortunate, not only because it doesn't generalize well to $n$, but because it leads to words like "biproduct," which also has the [[biproduct|completely unrelated meaning]] of an object that is both a product and a coproduct (which is common in [[additive category|additive categories]]).
 
-Unfortunately, we probably shouldn't use "weak limit" to emphasize the "up-to-isomorphism" nature of these limits, because that also has the completely unrelated meaning of an object in a 1-category satisfying the existence, but not the uniqueness property of an ordinary limit.
+Unfortunately, we probably shouldn't use "weak limit" to emphasize the "up-to-isomorphism" nature of these limits, because that also has the [[weak limit|completely unrelated meaning]] of an object in a 1-category satisfying the existence, but not the uniqueness property of an ordinary limit.
 
 
 # Examples #
 
 Any ordinary type of limit can be "2-ified" by boosting its ordinary universal property up to a 2-categorical one.  In the following examples we work in a 2-category $K$.
 
-* A **terminal object** in $K$ is an object 1 such that $K(X,1)$ is equivalent to the [[terminal category]] for any object $X$.  This means that for any $X$ there is a morphism $X\to 1$ and for any two morphisms $f,g:X\to 1$ there is a unique isomorphism $f\cong g$.
+* A **[[terminal object]]** in $K$ is an object 1 such that $K(X,1)$ is equivalent to the [[terminal category]] for any object $X$.  This means that for any $X$ there is a morphism $X\to 1$ and for any two morphisms $f,g:X\to 1$ there is a unique isomorphism $f\cong g$.
 
-* A **product** of two objects $A,B$ in $K$ is an object $A\times B$ together with a natural equivalence of categories $K(X,A\times B) \simeq K(X,A)\times K(X,B)$.  This means that we have projections $p:A\times B\to A$ and $q:A\times B\to B$ such that (1) for any $f:X\to A$  and $g:X\to B$, there exists an $h:X\to A\times B$ and isomorphisms $p h\cong f$ and $q h\cong g$, and (2) for any $h,k:X\to A\times B$ and 2-cells $\alpha:p h \to p k$ and $\beta: q h \to q k$, there exists a unique $\gamma:h \to k$ such that $p \gamma = \alpha$ and $q \gamma = \beta$.
+* A **[[product]]** of two objects $A,B$ in $K$ is an object $A\times B$ together with a natural equivalence of categories $K(X,A\times B) \simeq K(X,A)\times K(X,B)$.  This means that we have projections $p:A\times B\to A$ and $q:A\times B\to B$ such that (1) for any $f:X\to A$  and $g:X\to B$, there exists an $h:X\to A\times B$ and isomorphisms $p h\cong f$ and $q h\cong g$, and (2) for any $h,k:X\to A\times B$ and 2-cells $\alpha:p h \to p k$ and $\beta: q h \to q k$, there exists a unique $\gamma:h \to k$ such that $p \gamma = \alpha$ and $q \gamma = \beta$.
 
-* A **pullback** of a [[co-span]] $A \overset{f}{\to} C \overset{g}{\leftarrow} B$ consists of an object $A\times_C B$ and projections $p:A\times_C B\to A$ and $q:A\times_C B\to B$ together with an isomorphism $\phi:f p \cong g q$, such that (1) for any $m:X\to A$ and $n:X\to B$ with an isomorphism $\psi:f m \cong g n$, there exists an $h:X\to A\times_C B$ and isomorphisms $\alpha:p h \cong m$ and $\beta:q h \cong n$ such that $g\beta . \phi h . f \alpha = \psi$, and (2) a suitable condition on 2-cells as well.  This is sometimes called the _pseudo-pullback_ but that term more properly refers to a particular [[strict 2-limit]].
+* A **[[pullback]]** of a [[co-span]] $A \overset{f}{\to} C \overset{g}{\leftarrow} B$ consists of an object $A\times_C B$ and projections $p:A\times_C B\to A$ and $q:A\times_C B\to B$ together with an isomorphism $\phi:f p \cong g q$, such that (1) for any $m:X\to A$ and $n:X\to B$ with an isomorphism $\psi:f m \cong g n$, there exists an $h:X\to A\times_C B$ and isomorphisms $\alpha:p h \cong m$ and $\beta:q h \cong n$ such that $g\beta . \phi h . f \alpha = \psi$, and (2) a suitable condition on 2-cells as well.  This is sometimes called the _pseudo-pullback_ but that term more properly refers to a particular [[strict 2-limit]].
 
-* An **equalizer** of $f,g:A\to B$ consists of an object $E$ and a morphism $e:E\to A$ together with an isomorphism $f e \cong g e$, which is universal in a sense the reader should now be able to write down.  This is sometimes called the _pseudo-equalizer_ but that term more properly refers to a particular [[strict 2-limit]].  Note that frequently, such as in the construction of all limits from basic ones, equalizers need to be replaced by [[descent object]]s.
+* An **[[equalizer]]** of $f,g:A\to B$ consists of an object $E$ and a morphism $e:E\to A$ together with an isomorphism $f e \cong g e$, which is universal in a sense the reader should now be able to write down.  This is sometimes called the _pseudo-equalizer_ but that term more properly refers to a particular [[strict 2-limit]].  Note that frequently, such as in the construction of all limits from basic ones, equalizers need to be replaced by [[descent object]]s.
 
-There are also various important types of 2-limits that involve 2-cells in the diagram shape or in the weight, and hence are not just "boosted-up" versions of 1-categorical limits.
+There are also various important types of 2-limits that involve 2-cells in the diagram shape or in the weight, and hence are not just "boosted-up" versions of 1-limits.
 
-* The **comma object** of a cospan $A \overset{f}{\to} C \overset{g}{\leftarrow} B$ is a universal object $(f/g)$ and projections $p:(f/g)\to A$ and $q:(f/g)\to B$ together with a transformation (not an isomorphism) $f p \to g q$.  In [[Cat]], comma objects are [[comma category|comma categories]]].  Comma objects are sometimes called _lax pullbacks_ but that term more properly refers to the lax version of a pullback; see "lax limits" below.
+* The **[[comma object]]** of a cospan $A \overset{f}{\to} C \overset{g}{\leftarrow} B$ is a universal object $(f/g)$ and projections $p:(f/g)\to A$ and $q:(f/g)\to B$ together with a transformation (not an isomorphism) $f p \to g q$.  In [[Cat]], comma objects are [[comma category|comma categories]]].  Comma objects are sometimes called _lax pullbacks_ but that term more properly refers to the lax version of a pullback; see "lax limits" below.
 
-* The **inserter** of a pair of parallel arrows $f,g:A \;\rightrightarrows\; B$ is a universal object $I$ equipped with a map $i:I\to A$ and a 2-cell $f i \to g i$.
+* The **[[inserter]]** of a pair of parallel arrows $f,g:A \;\rightrightarrows\; B$ is a universal object $I$ equipped with a map $i:I\to A$ and a 2-cell $f i \to g i$.
 
-* The **equifier** of a pair of parallel 2-cells $\alpha,\beta: f\to g: A\to B$ is a universal object $E$ equipped with a map $e:E\to A$ such that $\alpha e = \beta e$.
+* The **[[equifier]]** of a pair of parallel 2-cells $\alpha,\beta: f\to g: A\to B$ is a universal object $E$ equipped with a map $e:E\to A$ such that $\alpha e = \beta e$.
 
-* The **inverter** of a 2-cell $\alpha:f\to g:A\to B$ is a universal object $V$ with a map $v:V\to A$ such that $\alpha v$ is invertible.
+* The **[[inverter]]** of a 2-cell $\alpha:f\to g:A\to B$ is a universal object $V$ with a map $v:V\to A$ such that $\alpha v$ is invertible.
 
 * The **[[power]]** of an object $A$ by a category $C$ is a universal object $A^C$ equipped with a functor $C\to K(A^C,A)$.  Of particular importance is the case when $C$ is the [[walking arrow]] $\mathbf{2}$.
 
@@ -70,3 +70,7 @@ A 2-limit is called **finite** if its diagram shape and its weight are both "fin
 * Street, "Fibrations in Bicategories" and correction.
 
 * Lack, [A 2-categories companion](http://arxiv.org/abs/math.CT/0702535)
+
++--{.query}
+I redirected [[2-categorical limit]] here, since there is no longer any discussion there that isn\'t repeated early on here.  Furthermore, all then extant links there really wanted to go here.  &#8212;Toby
+=--
