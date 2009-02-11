@@ -58,7 +58,7 @@ This is just the usual notion of an [[enriched model category]] specialized to e
 
 #Remarks#
 
-* Every model 2-category has a "homotopy (weak) 2-category" which can be constructed by formally making the weak equivalences into categorical equivalences.  It can alternately be described using fibrant and cofibrant replacements, just like the ordinary homotopy category of a model category.
+* Every model 2-category has a [[homotopy 2-cateory|homotopy (weak) 2-category]] which can be constructed by formally making the weak equivalences into categorical equivalences.  It can alternately be described using fibrant and cofibrant replacements, just like the ordinary homotopy category of a model category.
 
 * In a strict model 2-category with a _natural_ model structure, the notions of 2-categorical [[strict 2-limit|pseudo-limit]] and (one canonical construction of) [[model category|model theoretic]] [[homotopy limit]]s coincide.  For a general model 2-category, homotopy limits can be construed as representatives of [[2-limit]]s in its homotopy 2-category.
 
