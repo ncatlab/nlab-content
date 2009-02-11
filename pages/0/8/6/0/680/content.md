@@ -20,7 +20,22 @@ A nice expression of the functor $\Xi$ (this was the light Kan shed on the work 
 
  where $C_*(\Delta^n)$ is the normalised chains of the simplicial set $\Delta^n$, and $Chn$ denotes the abelian group of chain mappings. 
 
-This gives a pattern for constructing simplicial structures, often called the _simplicial [[nerve]]_,  from algebraic structures. An obvious analogue gives cubical nerves. 
+This gives a pattern for constructing simplicial structures, often called the _simplicial [[nerve]]_,  from algebraic structures. 
+
+For example the nerve of a groupoid $G$ may be defined as the simplicial set which is $Ob(G)$ in dimension 0 and is given in dimension $n\gt 0$ by 
+
+$$Nerve(G)_n= Gpd(\pi_1(\Delta^n,\Delta^n_0) , G).$$
+
+where $\Delta^n_0$ denotes the set of vertices of $\Delta^n$. 
+
+A filtered space $X_*$ has a fundamental crossed complex $\Pi X_*$, and a geometric simplex $\Delta^n$ has a filtration $\Delta^n_*$ by skeleta. The nerve of a [[crossed complex]] $C$ is then the simplicial set given in dimension $n$ by 
+
+$$Nerve(C)_n= Crs(\Pi(\Delta^n_*, C).$$
+
+This includes the case when $C$ is a [[crossed module]] (of groupoids) regarded as a crossed complex of length 2. The geometric realisation of this simplicial set gives the [[classifying space]] $BC$ of the crossed complex $C$. This space is filtered by the length of truncations of $C$ to give a filtered space $(BC)_*$ and it is a theorem that $\Pi(BC)_* \cong C$. 
+
+
+An obvious analogue gives cubical or globular nerves. 
 
 #Remarks#
 
