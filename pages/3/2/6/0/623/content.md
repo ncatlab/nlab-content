@@ -43,7 +43,7 @@ The resulting structure is that of a [[hypercrossed complex]]. Typically one has
 $$NG_p \times NG_q \to NG_{p+q}.$$
 These are well understood in low dimensions, see the entry on [[hypercrossed complex]] for more details. 
 
-* Suppose that $G$ is a simplicial group with Moore complex $NG$, which satisfies $NG_k = 1$ for $k\gt 1$, then $(G,1,G_0,d_1,d_0)$ has the structure of a [[2-group]]. The interchange law is satisfied since the corresponding equation in $G_1$ is always the image of an element in $NG_2$, and here that must be trivial. If one thinks of the 2-group as being specified by a [[crossed module]] $(C,P,\delta, a)$, then in terms of the original simplicial group, $G$,  $NG_0 = G_0 = P$, $NG_1 \cong C$, $ \partial = \delta$ and the action of $P$ on $C$ translates to an action of $NG_0$ on $NG_1$ using conjugation by $s_0(p)$, i.e., for $p\in G_0$ and $c\in NG_1$, 
+* Suppose that $G$ is a simplicial group with Moore complex $NG$, which satisfies $NG_k = 1$ for $k\gt 1$, then $(G_1,G_0,d_1,d_0)$ has the structure of a [[2-group]]. The interchange law is satisfied since the corresponding equation in $G_1$ is always the image of an element in $NG_2$, and here that must be trivial. If one thinks of the 2-group as being specified by a [[crossed module]] $(C,P,\delta, a)$, then in terms of the original simplicial group, $G$,  $NG_0 = G_0 = P$, $NG_1 \cong C$, $ \partial = \delta$ and the action of $P$ on $C$ translates to an action of $NG_0$ on $NG_1$ using conjugation by $s_0(p)$, i.e., for $p\in G_0$ and $c\in NG_1$, 
 $$a(p)(c) = s_0(p)c s_0(p)^{-1}.$$
 
 
