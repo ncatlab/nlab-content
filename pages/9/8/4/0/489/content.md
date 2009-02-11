@@ -2,11 +2,11 @@ A __(-1)-groupoid__ is a [[truth value]]. Compare the concept of [[0-groupoid]] 
 
 For example, there should be a $0$-[[0-category|category]] of $(-1)$-groupoids; a $0$-category is also a set, and this set is the set of [[truth value|truth values]]: classically (in the [[topos]] [[Set]])
 $$
-  (-1)Gpd := \{\bot, \top\}
+  (-1)Grpd := \{\bot, \top\}
 $$
 and in a more general topos 
 $$
-  (-1)Gpd := \Omega
+  (-1)Grpd := \Omega
   \,,
 $$
 where $\Omega$ is the [[subobject classifier]].
