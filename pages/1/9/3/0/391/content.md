@@ -9,6 +9,9 @@ The idea is that the [[homotopy category]] $Ho_C$ of a category $C$ which is enr
 For $V$ a [[closed monoidal homotopical category]],
 a $V$-[[enriched category]] $C$ with [[power|powers]] and [[copower|copowers]] and with the structure of a [[homotopical category]] on its underlying category $C_0$ is a **$V$-homotopical category** when equipped with a [[deformation retract for the enrichment]].
 
+#Examples#
+
+If $V$ is a [[monoidal model category]], then any $V$-[[enriched model category|model category]] is automatically a $V$-homotopical category.
 
 #Consequences#
 
