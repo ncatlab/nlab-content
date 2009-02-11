@@ -6,7 +6,7 @@ There is as yet no general definition of $k$-tuply monoidal $n$-category, but th
 
 # Definition
 
-For purposes of this page, a __$k$-tuply monoidal $n$-category__ is a [[pointed object|pointed]] $(n+k)$-category such that any two parallel $j$-morphisms are [[equivalence|equivalent]], for $j < k$.  One usually relabels the $j$-morphisms as $(j-k)$-morphisms.  You may interpret this definition as weakly or strictly as you like, by starting with weak or strict notions of $(n+k)$-category.
+For purposes of this page, a __$k$-tuply monoidal $n$-category__ is a [[pointed object|pointed]] $(n+k)$-category such that any two parallel $j$-morphisms are [[equivalence|equivalent]], for $j \lt k$.  One usually relabels the $j$-morphisms as $(j-k)$-morphisms.  You may interpret this definition as weakly or strictly as you like, by starting with weak or strict notions of $(n+k)$-category.
 
 The given point serves as an equivalence between $(-1)$-morphisms (for now, see $(n,r)$-[[(n,r)-category|category]] for these), so there is nothing to say if $k \leq 0$ except that the category is pointed.  Thus we may as well assume that $k \geq 0$.  Also, according to the [[stabilization hypothesis|stabilisation hypothesis]], every $k$-tuply monoidal $n$-category for $k \gt n + 2$ may be reinterpreted as an $(n+2)$-tuply monoidal $n$-category.  Unlike the restriction $k\ge 0$,  this one is not trivial.
 
@@ -20,13 +20,13 @@ A __stably monoidal $n$-category__ is an $(n+2)$-tuply monoidal $n$-category.  A
 
 There is a [[periodic table]] of $k$-tuply monoidal $n$-categories.
 
-<table><tr><th><i>k</i>&darr;\<i>n</i>&rarr;</th><th>&minus;1</th><th>0</th><th>1</th><th>2</th><th>&hellip;</th></tr>
-<tr><th>0</th><td>trivial</td><td>[[pointed set]]</td><td>[[pointed object in Cat|pointed category]]</td><td>[[pointed object in 2Cat|pointed 2-category]]</td><td>&hellip;</td></tr>
-<tr><th>1</th><td>trivial</td><td>[[monoid]]</td><td>[[monoidal category]]</td><td>[[monoidal 2-category]]</td><td>&hellip;</td></tr>
-<tr><th>2</th><td>"</td><td>[[abelian monoid]]</td><td>[[braided monoidal category]]</td><td>[[braided monoidal 2-category]]</td><td>&hellip;</td></tr>
-<tr><th>3</th><td>"</td><td>"</td><td>[[symmetric monoidal category]]</td><td>[[sylleptic monoidal 2-category]]</td><td>&hellip;</td></tr>
-<tr><th>4</th><td>"</td><td>"</td><td>"</td><td>[[symmetric monoidal 2-category]]</td><td>&hellip;</td></tr>
-<tr><th>&vellip;</th><td>"</td><td>"</td><td>"</td><td>"</td><td>&#8945;</td></tr></table>
+<table><tr><th><i>k</i>&#8595;\<i>n</i>&#8594;</th><th>&#8722;1</th><th>0</th><th>1</th><th>2</th><th>&#8230;</th></tr>
+<tr><th>0</th><td>trivial</td><td>[[pointed set]]</td><td>[[pointed object in Cat|pointed category]]</td><td>[[pointed object in 2Cat|pointed 2-category]]</td><td>&#8230;</td></tr>
+<tr><th>1</th><td>trivial</td><td>[[monoid]]</td><td>[[monoidal category]]</td><td>[[monoidal 2-category]]</td><td>&#8230;</td></tr>
+<tr><th>2</th><td>"</td><td>[[abelian monoid]]</td><td>[[braided monoidal category]]</td><td>[[braided monoidal 2-category]]</td><td>&#8230;</td></tr>
+<tr><th>3</th><td>"</td><td>"</td><td>[[symmetric monoidal category]]</td><td>[[sylleptic monoidal 2-category]]</td><td>&#8230;</td></tr>
+<tr><th>4</th><td>"</td><td>"</td><td>"</td><td>[[symmetric monoidal 2-category]]</td><td>&#8230;</td></tr>
+<tr><th>&#8942;</th><td>"</td><td>"</td><td>"</td><td>"</td><td>&#8945;</td></tr></table>
 
 ## Historical notes ##
 
