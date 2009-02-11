@@ -276,7 +276,7 @@ The same is true starting with $\check{F}_X = NatTrans(C_X,C_U)$.
 
 +-- {: .proof}
 ###### Proof
-
+...
 =--
 
 The second important result concerns changing the category $\mathcal{U}$.
@@ -306,7 +306,7 @@ Then the category of generalised $\mathcal{U}$--objects that satisfy Isbell dual
 
 +-- {: .proof}
 ###### Proof
-
+...
 =--
 
 +-- {: .query}
