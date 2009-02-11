@@ -7,29 +7,25 @@ Because enriched category theory doesn't know anything about the 2-categorical n
 
 # Classification #
 
-* A **strict 2-limit** (or just _strict limit_) in a strict 2-category is just a [[Cat]]-enriched (weighted) limit.  This means that its cones must commute strictly (although weakness can be built in via the weighting, see below), and its universal property is expressed by an isomorphism of categories.  Note that a strict limit is not necessarily a limit, because it may be [[evil]].
+By a **limit** we will mean the fully 2-categorical notion described at [[2-limit]], in which cones commute up to isomorphism and the universal property is expressed by an equivalence of categories.
 
-+--{.query}
-_Mike_: Can anyone think of good terminology for these next two?  Historically they are just called "pseudo limit" and "lax limit" but if we are using "limit" or "2-limit" for the up-to-isomorphism notion and thus "lax limit" for the lax and up-to-isomorphism notion, what should we call the lax and up-to-identity notion?  "lax strict limit"?
+* A **strict 2-limit** (or just _strict limit_) in a strict 2-category is just a [[Cat]]-enriched (weighted) limit.  This means that its cones must commute strictly (although weakness can be built in via the weighting, see below), and its universal property is expressed by an isomorphism of categories.  Note that a strict limit is not necessarily a limit, because it may be [[evil]].  (cf. [[red herring principle]].)
 
-_Toby_: Sure, although I\'d rather say 'strict lax limit' on the grounds that a lax limit is a fine thing but a strict limit is already somewhat fishy.  I\'ve done this below; how does it look?
-=--
-
-* A **pseudo limit**  is a limit whose cones commute up to coherent 2-cell isomorphism, but whose universal property can still be expressed by an _isomorphism_ of categories.  For any weight $W$, there is another weight $W'$ (a [[cofibrant replacement]] of $W$) such that pseudo $W$-weighted limits are equivalent to strict $W'$-weighted ones.  The idea is that $W'$ includes explicitly all the extra isomorphisms in a pseudo $W$-cone.  Since any isomorphism of categories is _a fortiori_ an equivalence of categories, any pseudo limit is also a limit.
+* A **pseudo limit** (or _strict pseudo limit_ if it is necessary to emphasize the strictness) is a limit whose cones commute up to coherent 2-cell isomorphism, but whose universal property can still be expressed by an _isomorphism_ of categories.  For any weight $W$, there is another weight $W'$ (a [[cofibrant replacement]] of $W$) such that pseudo $W$-weighted limits are equivalent to strict $W'$-weighted ones.  The idea is that $W'$ includes explicitly all the extra isomorphisms in a pseudo $W$-cone.  Since any isomorphism of categories is _a fortiori_ an equivalence of categories, any pseudo limit is also a limit.
 
 * A **strict lax limit** is a limit whose cones commute only up to a coherent transformation in one direction, but again whose universal property is expressed by an isomorphism.  Likewise we have **strict oplax limits** where the transformation goes in the other direction.  Strict lax and oplax limits can also be rephrased as strict (non-lax) limits for a different weight.  As in the pseudo case, any strict (op)lax limit is also an (op)lax limit.
 
-More generally, any non-[[evil]] limit (one which doesn't demand equality of objects) can still exist even when everything becomes weak.  Two formal versions of this statement involve [[flexible limit]]s and the more restrictive [[PIE-limit]]s.  In particular, any strict flexible limit is also a limit.  Since pseudo limits are PIE-limits, it follows that any strict 2-category which admits PIE-limits also admits all limits, even if it fails to admit some (evil) strict limits.  The category of algebras and pseudo morphisms for any [[2-monad]], such as [[MonCat]], is a good example of a 2-category having strict PIE-limits but not all strict limits.
+More generally, any non-[[evil]] strict limit (one which doesn't demand equality of objects) will also be a limit.  Two formal versions of this statement involve [[flexible limit]]s and the more restrictive [[PIE-limit]]s.  In particular, any strict flexible limit is also a limit.  Since pseudo limits are PIE-limits, it follows that any strict 2-category which admits (strict) PIE-limits also admits all limits, even if it fails to admit some (evil) strict limits.  The category of algebras and pseudo morphisms for any [[2-monad]], such as [[MonCat]], is a good example of a 2-category having strict PIE-limits but not all strict limits.
 
 
 # Pseudo limits and homotopy limits #
 
-If there is a [[model category]] structure on the 1-category underlying the given strict 2-category $C$, then in addition to whatever 2-categorical notions of limit exist in $C$, there is the notion of [[homotopy limit]]s in $C$.  If $C$ is a [[model 2-category]] with the "trivial" or "natural" model structure constructed in (Lack 2006), then these two notions coincide (Gambino 2007).  For example, this is the case in [[Cat]] and [[Grpd]], so  the examples listed at [[homotopy limit]] are also examples of pseudo limits.  In general, homotopy limits in a model 2-category give (non-strict) limits in its "homotopy 2-category."
+If there is a [[model category]] structure on the 1-category underlying the given strict 2-category $C$, then in addition to whatever 2-categorical notions of limit exist in $C$, there is the notion of [[homotopy limit]]s in $C$.  If $C$ is a [[model 2-category]] with the "trivial" or "natural" model structure constructed in (Lack 2006), then these two notions coincide (Gambino 2007).  For example, this is the case in [[Cat]] and [[Grpd]], so the examples listed at [[homotopy limit]] are also examples of pseudo limits.  In general, homotopy limits in a model 2-category give (non-strict) limits in its "homotopy 2-category."
 
 
 # Examples #
 
-Any ordinary 1-limit can be made into a strict 2-limit simply by boosting up its ordinary universal property (a bijection of sets) to an isomorphism of hom-categories.  Thus we have strict products, strict pullbacks, strict equalizers, and so on.  Of these, strict products (including terminal objects) are non-evil, while others such as pullbacks and equalizers tend to be evil.
+Any ordinary 1-limit can be made into a strict 2-limit simply by boosting up its ordinary universal property (a bijection of sets) to an isomorphism of hom-categories.  Thus we have strict products, strict pullbacks, strict equalizers, and so on.  Of these, strict products (including terminal objects) are non-evil (and thus are also limits), while others such as pullbacks and equalizers tend to be evil.
 
 * For example, a strict terminal object is an object 1 such that $K(X,1)$ is _isomorphic_ to the [[terminal category]], for any object $X$.
 
@@ -70,8 +66,6 @@ Here are some more important examples of 2-limits, all of which come in strict a
 * The **[[inverter]]** of a 2-cell $\alpha:f\to g:A\to B$ is a universal object $V$ with a map $v:V\to A$ such that $\alpha v$ is invertible.
 
 * The **[[power]]** of an object $A$ by a category $C$ is a universal object $A^C$ equipped with a functor $C\to K(A^C,A)$.
-
-
 
 
 # References #
