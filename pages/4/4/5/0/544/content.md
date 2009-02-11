@@ -38,7 +38,7 @@ Then:
 
 #Remarks#
 
-* See also [[L-infinity algebra]].
+* See also [[L-infinity-algebra]].
 
 #References#
 
