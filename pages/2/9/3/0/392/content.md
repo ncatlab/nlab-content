@@ -14,4 +14,4 @@ Frequently, in fact, it is conversely true that all herrings are red herrings.  
 
 * A [[weak factorization system]] is not a factorization system, as originally defined.  This has led to the use of [[orthogonal factorization system]] in place of "factorization system."
 
-* Originally, [[n-category]] referred only to the strict version, so that a "weak $n$-category" was not an $n$-category.  Nowadays some people (including many authors of the nLab)  are trying to reverse this, so that $n$-category means the weak version, while the strict version needs an adjective added.
+* Originally, [[n-category]] referred only to the strict version, so that a "weak $n$-category" was not an $n$-category.  Nowadays some people (including many authors of the nLab)  are trying to reverse this, so that $n$-category means the weak version, while the strict version needs an adjective added.  Likewise for related concepts such as [[2-limit]] and [[strict 2-limit]].
