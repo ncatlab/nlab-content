@@ -49,7 +49,9 @@ The [[higher van Kampen theorem]] which has been proven for [[strict omega-categ
 * [_Codescent and the van Kampen theorem_](http://golem.ph.utexas.edu/category/2008/10/codescent_and_the_van_kempen_t.html)
 
 
-#References.#
+#References#
+
+The search for $\infty$-stacks probably began with [[Alexander Grothendieck]] in _[[Pursuing Stacks]]_.
 
 The notion of $\infty$-stacks can be set up in various notions of $\infty$-categories. Jardine, To&#235;n and others have developed the theory of $\infty$-stacks in the context of simplicial presheaves and [[Segal category|Segal categories]]. A review is
 
