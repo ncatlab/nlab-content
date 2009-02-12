@@ -1,4 +1,4 @@
-_Homotopy coherent category theory_ or [[enriched homotopy theory]] is the attempt to consistently merge the two 1-categorical tools for handling [[higher category theory|higher categories]]:
+_Homotopy coherent category theory_ or [[enriched homotopy theory]] is the attempt to understand those situations that arise in homotopy theory, homotopical algebra, and non-Abelian homological algebra, in which quite naturally occuring diagrams are not commutative, yet are commutative 'up-to-homotopy'. If the diagram is just commutative in the homotopy category, that is not much use and one can do little with it.  Surprisingly often however, the homotopies involved in such a diagram's 'almost comutative' nature can be specified, but then the question arises as to whether those hootopies form some sort of diagram, so homotopies between composite homotopies become involoved. This begins to look like parts of 2-category theory, or rather 'higher weak  category theory' and the development of homotopy coherent category theory was initiated in an attempt to  merge the two hoomotopy theory with categorical tools for handling [[higher category theory|higher categories]]. In particular those for:
 
 * [[homotopy theory]] using [[model category|model catgeories]] and similar structures;
 
@@ -12,13 +12,15 @@ These articles deal with the theory of homotopy coherent diagrams:
 
 * J.-M. Cordier and T. Porter, Vogt's theorems on categories of homotopy coherent diagrams, Math. Proc. Camb. Phil. Soc. 100 (1986), 65&#8211;90.
 
-* J.-M. Cordier, Sur les limites homotopiques de diagrammes homotopiquement  coh&#233;rents, Comp. Math. 62 (1987), 367&#8211;388.
-
 * J.-M. Cordier and T. Porter, Fibrant diagrams, rectifications and a construction of Loday, J. Pure Appl. Alg 67 (1990), 111&#8211;124.
+
+* J.-M. Cordier and T. Porter,  Maps between homotopy coherent diagrams, Top. and its Applications, 28 (1988) 255-275.
 
 A discussion of homotopy limits is in
 
-* D. Bourn and J.-M. Cordier, A general formulation of homotopy limits , J. Pure Appl. Algebra, 29, (1983), 129&#8211;141.
+* D. Bourn and J.-M. Cordier, A general formulation of homotopy limits , J. Pure Appl. Algebra, 29, (1983), 129&#8211;141,
+
+* J.-M. Cordier, Sur les limites homotopiques de diagrammes homotopiquement  coh&#233;rents, Comp. Math. 62 (1987), 367&#8211;388.
 
 
 In 
