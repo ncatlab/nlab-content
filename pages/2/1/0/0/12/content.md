@@ -201,4 +201,11 @@ This is the original Markdown list:
 
 `some long code some& long code some long code some long code some long code some long code some long code some long codesome long code some long code some long code some long codesome long code some long code some long code some long codesome long code some long code some long code some long codesome long code some long code some long code some long code`
 
+<table markdown="1"><tr><td>I can put $x^2$ math in a table!</td></tr></table>
+
+| Another  | Way  |
+| -------  | ---- |
+| to $x^2$ | make |
+| a table  |      |
+
 category: meta
