@@ -26,6 +26,10 @@ There are two ways to define homotopy limits:
 One of the central theorems of the subject is that in good cases, the two give equivalent results.
 
 
++-- {: .query}
+[[Urs Schreiber|Urs]]: It would be nice to give this statement more in detail. Could you point me to specific literature on this?
+=--
+
 ### Global definition ###
 
 Let $C$ be a [[category with weak equivalences]] and let $D$ be a (small) category.  Make the [[functor category]] $[D,C]$ into a category with weak equivalences by taking the weak equivalences to be those [[natural transformation]]s which are objectwise weak equivalences in $C$.
