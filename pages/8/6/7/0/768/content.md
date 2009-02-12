@@ -15,7 +15,23 @@ The notion of classifying space should be regarded in general terms as giving a 
 
 $$  B :(algebraic data) \to (topological data).$$
 
-Composition with a forgetful functor $U: (topological data) \to (topological spaces) $ gives a [[classifying space]]. 
+Composition with a forgetful functor $U: (topological data) \to (topological spaces) $ gives a [[classifying space]]. In such cases one would also like a homotopically defined functor 
+
+$$ \Xi: (topological data) \to (algebraic data) $$
+
+such that 
+
+1. $\Xi \circ B$ is equivalent to $1$; 
+
+1. $\Xi$ preserves certain colimits (Generalised [[van Kampen theorem]]) allowing some calculation;
+
+1. there are notions of homotopy for both types of data leading to a bijection of homotopy classes for some $X$ 
+
+$$[X,UBC] \cong [\Xi X_*, C].$$
+
+This happens for the algebraic data of crossed complexes and the topological data of filtered spaces, when $X$ is a CW-complex, and $\Xi$ is the fundamental crossed complex of a filtered space. Thus in this case the classifying space does classify homotopy classes of maps, and more work is needed to sort out the data over $X$ which this classifies (gerbes?). 
+
+However $BC$ is in this case defined by a nerve construction which generalises that for groupoids, and can also be applied to topological crossed crossed complexes, giving a simplicial space. 
 
 +--{: .query}
 [[Mike Shulman|Mike]]: I don't really get any intuition from that.  There might be lots of functors from "algebraic data" to "topological data" but it seems to me that only particular sorts of them deserve the name "classifying space."  Can you say more specifically what sorts of functors you have in mind, and relate it to the more basic ideas that I am familiar with?  What do these classifying spaces classify?
