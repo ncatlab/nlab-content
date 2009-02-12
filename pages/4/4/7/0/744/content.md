@@ -26,9 +26,28 @@ Also including questions that should be frequently asked but aren't.
 
    $$\array{A & \to & B\\ \downarrow && \downarrow \\ C & \to &D}$$
 
+   or 
+
+       $$
+       \begin{matrix}
+         (f/g)& \to & A \\
+         \downarrow&\underset{\alpha}{\swarr}&\, \downarrow f\\
+         B &\underset{g}{\to} & C
+       \end{matrix}
+       $$
+
+   produces
+   $$
+   \begin{matrix}
+     (f/g)& \to & A \\
+     \downarrow&\underset{\alpha}{\swarr}&\, \downarrow f\\
+     B &\underset{g}{\to} & C
+   \end{matrix}
+   $$
+
    You can get nicer-looking output by using SVG.  The way to get math into the SVG is to use the SVG `<foreignObject>` tag with itex math `$...$` inside it.  As in the previous question, for this to work you need to put `markdown="1"` on the `<foreignObject>` tag or else on a `<g>` tag containing it.
 
-   As for how to get the SVG itself, including the arrows, there are several options.  You can use a vector graphics program that produces SVG output (anyone have a good one to suggest?).  You'll probably have to modify it by hand, though, to put in the itex math.  You can also just copy the SVG from another page and modify it by hand; some pages currently containing SVG diagrams are [[monoidal category]] and [[comma object]].
+   As for how to get the SVG itself, including the arrows, there are several options.  You can use a vector graphics program that produces SVG output (anyone have a good one to suggest?).  You'll probably have to modify it by hand, though, to put in the itex math.  You can also just copy the SVG from another page and modify it by hand; some pages currently containing SVG diagrams are [[monoidal category]], [[oriental]] and [[comma object]].
 
 1. *My reference cites the wrong theorem*
 
