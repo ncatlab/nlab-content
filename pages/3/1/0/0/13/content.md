@@ -21,6 +21,10 @@ _Reply_:  I forget.  So I opened the edit box for both versions, copied and save
 I've noticed before that edits to the target of a link never show up in Instiki\'s diffs; that\'s what happened here.
 
 I have no answers for your query boxes yet.
+
+[[Andrew Stacey|Andrew]]: Thanks, that's clear enough.  That's been on my "to do" list for a while on that page so thanks for that - and the other cleaning up you've done.
+
+(I'll let you delete this query box)
 =--
 
 category: people
