@@ -56,7 +56,11 @@ called the **right unitor**, which must satisfy a couple of equations, most nota
 </svg>
 =--  
 
++--{: .query}
 (Hey!  Where did the pentagon identity go???)
+
+I see it fine...
+=--
 
 A monoidal category is said to be **strict** if the associator, left unitor and right unitors are all identity morphisms.  
 
