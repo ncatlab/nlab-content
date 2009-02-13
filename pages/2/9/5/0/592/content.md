@@ -50,7 +50,7 @@ $$
   }
 $$
 
-In fact, the pullback is the [[universal property|universal]] solution to finding a commutative square like this.  In other words, given _any_ commutative square 
+In fact, the pullback is the [[universal property|universal]] solution to finding a [[commutative square]] like this.  In other words, given _any_ commutative square 
 
 $$
   \array{
@@ -104,7 +104,7 @@ $$
   }
 $$
 
-Such a diagram is called a [[span]].  If the colimit exists, we obtain a commutative square
+Such a diagram is called a [[span]].  If the colimit exists, we obtain a [[commutative square]]
 
 $$
   \array{
