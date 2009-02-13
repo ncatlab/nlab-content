@@ -41,3 +41,43 @@ fills the box made up of $ (  - , d_1t, \ldots, d_n t )$.  This, in turn, has a
 filler, $d$, in  $D$, but, as this filler is also thin, it must be that $t = d$, 
 since thin fillers are uniquely determined.
 =--
+This is neat.  It says there is basically only one possible group $T$-complex structure on a given simplicial group.  The next result (again by Ashley) shows that not all simplicial groups carry such a structure.
+
++--{.un_proposition}
+######Proposition
+If $G$ is a simplicial group, then $(G,D)$ is a group $T$-complex if and
+only if $NG\cap D$ is the trivial graded subgroup.
+=--
++--{.proof}
+######Proof
+One way around, this is
+nearly trivial.  If $(G,D)$ is a group $T$-complex and $x\in NG_n$, then $x$
+fills a box $(-, 1, \ldots, 1)$, so if $x\in NG_n\cap D_n$, $x$ must itself 
+be the thin filler, however 1 is also a thin filler for this box, so $x = 1$ as 
+required.  
+
+Conversely if $NG\cap D = \{1\}$, then we must check the other two axioms as the first is trivial.  As any box has a standard filler in $D$, we only have to
+check uniqueness, but if $x$ and $y $ are in $D_n$, and  both fill the same box
+(with the $k^{th}$ face missing) then $z = xy^{-1}$ fills a box with 1s on all 
+faces (and the $k^{th}$ face missing).
+
+If $k = 0$, then as $z \in NG_n\cap D_n$, we have $z = 1$ and $x$ and $y$ are
+equal.  If $k \gt 0$, assume that if $\ell \lt k$ and $z \in D_n \cap
+\bigcap_{i\neq \ell} Ker\, d_i$ then $z = 1$, (i.e, that we have uniqueness up to
+at least the $(k-1)^{st}$ case).  Consider $w = zs_{k-1}d_k z^{-1}$.  This is
+still in $D_n$ and $d_i w = 1$ unless $i = k-1$, hence by assumption $w = 1$.
+Of course, this implies that $z = s_{k-1}d_kz$, but then $d_{k-1} z = d_k z$.  We 
+know that $d_{k-1} z = 1$, so $d_k z = 1$ and $z = 1$, i.e., $x = y$ and we have
+uniqueness at the next stage.  
+
+To verify the third axiom, assume that $x \in D_{n + 1}$ and 
+each $d_i x \in D_n$ for $i \neq k$, then we can assume that $k = 0$, since
+otherwise we can skew the situation around as before to get that to be true,
+verify it in that case and 'skew' it back again later.  
+
+Suppose therefore that $d_i x \in D_n$ for all $0 \lt i \lt n$.  As $x$ must be the degenerate filler given by the standard method, we can calculate $x$ as follows: 
+
+let $w_n = s_{n-1}d_n x$, $w_i = w_{i+1}(s_{i-1}d_i w_{i+1})^{-1}s_{i-1}y_i $ for $i =
+1$, then $x = w_1$.  We can therefore check that $d_0x \in D_n$ as
+required.
+=--
