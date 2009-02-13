@@ -1,4 +1,5 @@
 [[!include contents]]
+See also the [[FAQ]].
 
 #How to use a Wiki#
 
@@ -46,6 +47,7 @@ These are not set in stone, but we\'re following them for now. Most days, [[Toby
 
 * Regardless of the above, pages named after specific categories should use the capitalised singular abbreviated form.
   * Examples: Use `[[Set]]` instead `[[Sets]]` and `[[Cat]]` instead of `[[Category]]`.
+  * Tricks: Although things like '$\Disc: \Set \to \Cat$' work best in math mode and even '$\Set$' alone looks most consistent that way, you have to make the link '[[Set]]' outside math mode.
 
 #How to leave comments and questions#
 
