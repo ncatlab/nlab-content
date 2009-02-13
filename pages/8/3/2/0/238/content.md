@@ -14,6 +14,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-02-13
 
+* [[Toby Bartels]]:
+  * Imposed the convention for a group $G$, that $\mathcal{B}G$ is a space while $\mathbf{B}G$ is a groupoid, on [[classifying space]] and [[homotopy 1-type]] (although the groupoid has disappeared from that one), to hopefully reduce confusion.
+  * Linked [[FAQ]] and [[HowTo]] from one another.
+  * Terminological notes at [[strict 2-limit]] and [[comma category]].
+
 * [[Mike Shulman|Mike]]: Urs, in my biased opinion, the reference for the [[homotopy limit]] comparison that I find easiest to understand is my own paper (reference added).  Of course the fact has been known for a long time; I don't even know whether there's any "original" source one could cite.
 
 # 2009-02-12
