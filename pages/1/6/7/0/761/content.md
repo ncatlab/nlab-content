@@ -22,4 +22,6 @@ If the pairs of  spaces $U^f_*$ are  connected for all 1-,2-, or 3-fold  interse
 
 1. This uses the idea of Lebesgue covering dimension to reduce to the 3-fold intersection condition.  
 
-1. Naturally the proof can and should go by verifying the universal property for a coequaliser. The  basic techniques of the proof include: subdivide a path;  deform a subdivision so that it is product of paths joining points of $X_0$; subdivide a homotopy rel end points, and deform this subdivision so that _all_ subpaths join points of $X_0$; any composition of [[commutative square]]s in a groupoid is commutative.  
+1. Naturally the proof can and should go by verifying the universal property for a coequaliser. The  basic techniques of the proof include: subdivide a path;  deform a subdivision so that it is product of paths joining points of $X_0$; subdivide a homotopy rel end points, and deform this subdivision so that _all_ subpaths join points of $X_0$; any composition of [[commutative square]]s in a groupoid is commutative.
+
+1. The theorem can be extended to more general kinds of colimits, using homotopy colimits: $\pi_1$ preserves homotopy colimits.  Under some conditions, we can replace the homotopy colimit by a strict colimit.  (For more details see Emmanuel Dror Farjoun, "Fundamental group of homotopy colimits", Adv. in Math. 182 (2004), 1-27; a draft is available here: &lt;http://www.cs.biu.ac.il/~katzmik/colloquium/col3.ps>.)
