@@ -14,7 +14,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-02-13
 
-* [[Tim Porter|Tim]]: Added something to [[homotopy limit]] in part to provide a possible 'old' reference in reply to Urs and Mike below.
+* [[Tim Porter|Tim]]: 
+
+  *  Added something to [[homotopy limit]] in part to provide a possible 'old' reference in reply to Urs and Mike below.
+  *  Started adding some summaries of results to [[group T-complex]].
+
 * [[Toby Bartels]]:
   * Imposed the convention for a group $G$, that $\mathcal{B}G$ is a space while $\mathbf{B}G$ is a groupoid, on [[classifying space]] and [[homotopy 1-type]] (although the groupoid has disappeared from that one), to hopefully reduce confusion.
   * Linked [[FAQ]] and [[HowTo]] from one another.
