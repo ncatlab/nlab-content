@@ -1,6 +1,6 @@
 # Definition #
 
-If $f:C\to E$ and $g:D\to E$ are [[functor]]s, their **comma category** is the category $(f/g)$ (also written $(f\downarrow g)$) whose
+If $f:C\to E$ and $g:D\to E$ are [[functor]]s, their **comma category** is the category $(f/g)$ (also written $(f\downarrow g)$ or $(f,g)$) whose
 
 * [[object]]s are triples $(c,d,\alpha)$ where $c\in C$, $d\in D$, and $\alpha:f(c)\to g(d)$ is a morphism in $E$, and whose
 * [[morphism]]s from $(c_1,d_1,\alpha_1)$ to $(c_2,d_2,\alpha_2)$ are pairs $(\beta,\gamma)$, where $\beta:c_1\to c_2$ and $\gamma:d_1\to d_2$ are morphisms in $C$ and $D$, respectively, such that $\alpha_2 . f(\beta) = g(\gamma) . \alpha_1$.
@@ -50,7 +50,7 @@ which is universal in the [[2-category]] [[Cat]]; that is, it is an example of a
 
 # Remarks #
 
-The terminology "comma category" is a holdover from an old notation $(f,g)$ for such a category, about which the less said the better.
+The terminology "comma category" is a holdover from the original notation $(f,g)$ for such a category, which generalises $(x,y)$ or $C(x,y)$ for a [[hom-set]].
 
 +--{.query}
 It\'s a very natural notation, as it generalises the notation $(x,y)$ (or $[x,y]$ as is now more common) for a [[hom-set]].  But personally, I like $(f \rightarrow g)$ (or $(f \searrow g)$ if you want to differentiate from a cocomma category, but that seems an unlikely confusion), as it is a category of arrows from $f$ to $g$.
@@ -59,6 +59,8 @@ It\'s a very natural notation, as it generalises the notation $(x,y)$ (or $[x,y]
 [[Mike Shulman|Mike]]:  Perhaps.  I never write $(x,y)$ for a hom-set, only $A(x,y)$ or $hom_A(x,y)$ where $A$ is the category involved, and this is also the common practice in nearly all mathematics I have read.  I have seen $[x,y]$ for an internal-hom object in a [[closed monoidal category]], and for a hom-set in a [[homotopy category]], but not for a hom-set in an arbitrary category.
 
 I would be okay with calling the comma category (or more generally the [[comma object]]) $E(f,g)$ or $hom_E(f,g)$ _if_ you are considering it as a discrete fibration from $A$ to $B$.  But if you are considering it as a _category_ in its own right, I think that such notation is confusing.  I don't mind the arrow notations, but I prefer $(f/g)$ as less visually distracting, and evidently a generalization of the common notation $C/x$ for a [[slice category]].
+
+_Toby_: Well, I never stick '$E$' in there unless necessary to avoid amibiguity. I agree that the slice-generalising notation is also good. I\'ll use it too, but I edited the text to not denigrate the hom-set generalising notation so much.
 =--
 
 # Further reading #
