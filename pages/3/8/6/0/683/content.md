@@ -23,8 +23,9 @@ There are two ways to define homotopy limits:
 
 * as [[derived functor]]s that satisfy a "global" universal property: the homotopy limit _functor_ is "universal among homotopical approximations to the strict limit functor."
 
-One of the central theorems of the subject is that in good cases, the two give equivalent results.
+One of the central theorems of the subject is that in good cases, the two give equivalent results.  This is sort of a folk theorem, especially in classical contexts.  One fairly general statement and proof, in modern language, can be found in
 
+* Michael Shulman, [Homotopy limits and colimits and enriched homotopy theory](http://arxiv.org/abs/math/0610194).
 
 +-- {: .query}
 [[Urs Schreiber|Urs]]: It would be nice to give this statement more in detail. Could you point me to specific literature on this?
