@@ -9,15 +9,14 @@ Let  $X$ be the union of the interiors of sets $U^i$, $i \in I$.  If $d=(i,j) \i
 $$\bigsqcup_{d \in I^2} U^d_* \rightrightarrows ^a_b \bigsqcup _{i \in I} U^i_* \to ^c X_*.$$
 
 
-** [[van Kampen theorem|van Kampen Theorem]] **
+##van Kampen theorem## 
 
 If the pairs of  spaces $U^f_*$ are  connected for all 1-,2-, or 3-fold  intersections $U^f_*$ of the pairs $U^i_*$, then
 1. (Conn) The pair  $X_*$ is connected; and
 1. (Iso) The [[fundamental groupoid]] functor $\pi_1$ takes the above coequaliser diagram of pairs of  spaces to a coequaliser diagram of groupoids.
 
 
-
-** Notes** 
+## Notes## 
 
 1. Emphasising the connectivity result becomes more  important for [[higher homotopy van Kampen theorem]]s. 
 
