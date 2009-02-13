@@ -17,7 +17,7 @@ In [[FQFT|extended toplogical quantum field theory]], which is really the repres
 
 * **Extended TQFT Hypothesis.** An $n$-dimensional unitary extended TQFT is a weak $n$-functor, preserving all levels of duality, from the $n$-category $n Cob$ of cobordisms to $n Hilb$, the $n$-category of $n$-Hilbert spaces.
 
-Putting the extended TQFT hypothesis and the cobordism hypothesis, we obtain:
+Putting the extended TQFT hypothesis and the cobordism hypothesis together, we obtain:
 
 * **The primacy of the point.** An $n$-dimensional unitary extended TQFT is completely described by the $n$-Hilbert space it assigns to a point.
 
