@@ -225,4 +225,4 @@ Mike: I gave it a [[FAQ|try]], but I don't have any great wisdom to impart; I ju
 
 ***
 
-category: metan
+category: meta
