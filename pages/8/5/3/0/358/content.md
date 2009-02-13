@@ -18,15 +18,14 @@ A __stably monoidal $n$-category__ is an $(n+2)$-tuply monoidal $n$-category.  A
 
 # The periodic table
 
-There is a [[periodic table]] of $k$-tuply monoidal $n$-categories.
-
-<table><tr><th><i>k</i>&#8595;\<i>n</i>&#8594;</th><th>&#8722;1</th><th>0</th><th>1</th><th>2</th><th>&#8230;</th></tr>
-<tr><th>0</th><td>trivial</td><td>[[pointed set]]</td><td>[[pointed object in Cat|pointed category]]</td><td>[[pointed object in 2Cat|pointed 2-category]]</td><td>&#8230;</td></tr>
-<tr><th>1</th><td>trivial</td><td>[[monoid]]</td><td>[[monoidal category]]</td><td>[[monoidal 2-category]]</td><td>&#8230;</td></tr>
-<tr><th>2</th><td>"</td><td>[[abelian monoid]]</td><td>[[braided monoidal category]]</td><td>[[braided monoidal 2-category]]</td><td>&#8230;</td></tr>
-<tr><th>3</th><td>"</td><td>"</td><td>[[symmetric monoidal category]]</td><td>[[sylleptic monoidal 2-category]]</td><td>&#8230;</td></tr>
-<tr><th>4</th><td>"</td><td>"</td><td>"</td><td>[[symmetric monoidal 2-category]]</td><td>&#8230;</td></tr>
-<tr><th>&#8942;</th><td>"</td><td>"</td><td>"</td><td>"</td><td>&#8945;</td></tr></table>
+There is a [[periodic table]] of $k$-tuply monoidal $n$-categories:
+<table markdown="1"><tr><th>$k$&#8595;\$n$&#8594;</th><th>$-1$</th><th>$0$</th><th>$1$</th><th>$2$</th><th>...</th></tr>
+<tr><th>$0$</th><td>trivial</td><td>[[pointed set]]</td><td>[[pointed object in Cat|pointed category]]</td><td>[[pointed object in 2Cat|pointed 2-category]]</td><td>...</td></tr>
+<tr><th>$1$</th><td>trivial</td><td>[[monoid]]</td><td>[[monoidal category]]</td><td>[[monoidal 2-category]]</td><td>...</td></tr>
+<tr><th>$2$</th><td>\"</td><td>[[abelian monoid]]</td><td>[[braided monoidal category]]</td><td>[[braided monoidal 2-category]]</td><td>...</td></tr>
+<tr><th>$3$</th><td>\"</td><td>\"</td><td>[[symmetric monoidal category]]</td><td>[[sylleptic monoidal 2-category]]</td><td>...</td></tr>
+<tr><th>$4$</th><td>\"</td><td>\"</td><td>\"</td><td>[[symmetric monoidal 2-category]]</td><td>...</td></tr>
+<tr><th>&#8942;</th><td>\"</td><td>\"</td><td>\"</td><td>\"</td><td>&#8945;</td></tr></table>
 
 ## Historical notes ##
 
@@ -78,7 +77,7 @@ A 1-tuply monoidal 1-category is a pointed 1-connected 2-category, which we can 
 
 If we identify $\infty$-[[infinity-groupoid|groupoids]] with spaces, then a 1-tuply monoidal $(\infty,0)$-category, or a monoidal $\infty$-groupoid, can be identified intuitively with an $A_\infty$-[[A-infinity-space|space]].  This is a space equipped with a multiplication which is associative and unital up to all higher homotopies; see [[operad]] for one way to encode these data.
 
-It is a well-known fact in homotopy theory that the homotopy theories (that is, $(\infty,1)$-[[(infinity,1)-category|categories]]) of based connected spaces and of grouplike $A_\infty$-spaces are equivalent, via the "loop space" and "classifying space" constructions.  This can be regarded as another version of the delooping hypothesis.  The "grouplike" restriction (meaning that $\pi_0$ is a group, or that the multiplication has inverses up to homotopy) is because we consider only based connected $(\infty,0)$-categories, whereas we would need based connected $(\infty,1)$-categories to recover all $A_\infty$-spaces.  It would be interesting to verify the hypothesis in this case using one of the known models for $(\infty,1)$-categories.
+It is a well-known fact in homotopy theory that the homotopy theories (that is, $(\infty,1)$-[[(infinity,1)-category|categories]]) of based connected spaces and of grouplike $A_\infty$-spaces are equivalent, via the [[loop space]] and [[classifying space]] constructions.  This can be regarded as another version of the delooping hypothesis.  The "grouplike" restriction (meaning that $\pi_0$ is a group, or that the multiplication has inverses up to homotopy) is because we consider only based connected $(\infty,0)$-categories, whereas we would need based connected $(\infty,1)$-categories to recover all $A_\infty$-spaces.  It would be interesting to verify the hypothesis in this case using one of the known models for $(\infty,1)$-categories.
 
 ## Other low-dimensional cases ##
 
