@@ -5,13 +5,13 @@ In higher category theory, there are several periodic tables, analogous to the t
 The first periodic table of $n$-categories was a slightly distorted version of the periodic table of $k$-[[k-tuply monoidal n-category|tuply monoidal]] $n$-categories.
 
 Fully filled out, the table looked like this:
-<table><tr><th><i>k</i>&#8595;\<i>n</i>&#8594;</th><th>&#8722;2</th><th>&#8722;1</th><th>0</th><th>1</th><th>2</th><th>&#8230;</th></tr>
-<tr><th>0</th><td>trivial</td><td>[[truth value]]</td><td>[[set]]</td><td>[[category]]</td><td>[[2-category]]</td><td>&#8230;</td></tr>
-<tr><th>1</th><td>"</td><td>trivial</td><td>[[monoid]]</td><td>[[monoidal category]]</td><td>[[monoidal 2-category]]</td><td>&#8230;</td></tr>
-<tr><th>2</th><td>"</td><td>"</td><td>[[abelian monoid]]</td><td>[[braided monoidal category]]</td><td>[[braided monoidal 2-category]]</td><td>&#8230;</td></tr>
-<tr><th>3</th><td>"</td><td>"</td><td>"</td><td>[[symmetric monoidal category]]</td><td>[[sylleptic monoidal 2-category]]</td><td>&#8230;</td></tr>
-<tr><th>4</th><td>"</td><td>"</td><td>"</td><td>"</td><td>[[symmetric monoidal 2-category]]</td><td>&#8230;</td></tr>
-<tr><th>&#8942;</th><td>"</td><td>"</td><td>"</td><td>"</td><td>"</td><td>&#8945;</td></tr></table>
+<table markdown="1"><tr><th>$k$&#8595;\$n$&#8594;</th><th>$-2$</th><th>$-1$</th><th>$0$</th><th>$1$</th><th>$2$</th><th>...</th></tr>
+<tr><th>$0$</th><td>trivial</td><td>[[truth value]]</td><td>[[set]]</td><td>[[category]]</td><td>[[2-category]]</td><td>...</td></tr>
+<tr><th>$1$</th><td>\"</td><td>trivial</td><td>[[monoid]]</td><td>[[monoidal category]]</td><td>[[monoidal 2-category]]</td><td>...</td></tr>
+<tr><th>$2$</th><td>\"</td><td>\"</td><td>[[abelian monoid]]</td><td>[[braided monoidal category]]</td><td>[[braided monoidal 2-category]]</td><td>...</td></tr>
+<tr><th>$3$</th><td>\"</td><td>\"</td><td>\"</td><td>[[symmetric monoidal category]]</td><td>[[sylleptic monoidal 2-category]]</td><td>...</td></tr>
+<tr><th>$4$</th><td>\"</td><td>\"</td><td>\"</td><td>\"</td><td>[[symmetric monoidal 2-category]]</td><td>...</td></tr>
+<tr><th>&#8942;</th><td>\"</td><td>\"</td><td>\"</td><td>\"</td><td>\"</td><td>&#8945;</td></tr></table>
 Actually, the columns where $n = -1$ and $n = -2$ were not there, but they appeared to be required by the pattern of the table.
 
 We now recognise that a $0$-tuply monoidal $n$-category should be *pointed*, leading to a slightly different table (see that page). Similarly, the definition given when $k \gt 0$ didn\'t mention pointedness, giving essentially the definition of $(k-1)$-[[k-connected n-category|connected]] $(n+k)$-category. This makes a difference to the notions of morphism and higher morphism between such structures.
