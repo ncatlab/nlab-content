@@ -47,6 +47,8 @@ A strict homotopy double groupoid of a Hausdorff space has been constructed but 
 Of course the filtration for a group is not so apparent, but it is more clear that  [[groupoid]]s  carry structure in dimension 0 and 1, and hence are useful for representing non connected homotopy 1-types, and their identifications in dimension 0, as explained in the first edition (1968) of my Topology book.   
 
 The intuition for the [[higher homotopy van Kampen theorem]] is that you need _structure in all  dimensions from 0 to n _to get colimit theorems in dimension n, because in homotopy, low dimensional identifications, even in dimension 0,  usually effect high dimensional homotopy information. In effect, the [[higher homotopy van Kampen theorem]] is about gluing [[homotopy n-type]]s. 
+
+_Mike_: Thanks, that is helpful.
 =--
 
 Some such constructions arise from generalisations of the [[Dold-Kan correspondence]], with values in [[simplicial set]]s. For example, from a [[crossed complex]] $C$ one obtains a simplicial  set $Nerve(C)$ which in dimension $n$ is $Crs(\Pi(\Delta^n_*),C)$. The geometric realisation $\mathcal{B}C$ of this is canonically filtered by the skeleta of $C$, so $\mathcal{B}$ is really a functor to [[filtered space]]s. This ties in with the functor $\Pi$ which goes in the opposite direction. But note that there is a different filtration of the space $\mathcal{B}C$ since it is a CW-complex, and so $\Pi$ of this filtration gives a free crossed complex. 
