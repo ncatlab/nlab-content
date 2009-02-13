@@ -23,13 +23,10 @@ An $(n,n)$-category is simply an $n$-[[n-category|category]]. An $(n,n+1)$-categ
 
 # The periodic table
 
-There is a [[periodic table]] of $(n,r)$-categories. This looks best if you leave out $n = -2$:
-
-<table><tr><th><i>r</i>&#8595;\<i>n</i>&#8594;</th><th>&#8722;1</th><th>0</th><th>1</th><th>2</th><th>&#8230;</th></tr>
-<tr><th>0</th><td>[[truth value]]</td><td>[[set]]</td><td>[[groupoid]]</td><td>[[2-groupoid]]</td><td>&#8230;</td></tr>
-<tr><th>1</th><td>"</td><td>[[poset]]</td><td>[[category]]</td><td>[[(2,1)-category]]</td><td>&#8230;</td></tr>
-<tr><th>2</th><td>"</td><td>"</td><td>[[2-poset]]</td><td>[[2-category]]</td><td>&#8230;</td></tr>
-<tr><th>3</th><td>"</td><td>"</td><td>"</td><td>[[3-poset]]</td><td>&#8230;</td></tr>
-<tr><th>&#8942;</th><td>"</td><td>"</td><td>"</td><td>"</td><td>&#8945;</td></tr></table>
-
-If you included the column where $n = -2$, then it would just be trivial at every row.
+There is a [[periodic table]] of $(n,r)$-categories:
+<table markdown="1"><tr><th>$r$&#8595;\$n$&#8594;</th><th>$-2$</th><th>$-1$</th><th>$0$</th><th>$1$</th><th>$2$</th><th>...</th></tr>
+<tr><th>$0$</th><td>trivial</td><td>[[truth value]]</td><td>[[set]]</td><td>[[groupoid]]</td><td>[[2-groupoid]]</td><td>...</td></tr>
+<tr><th>$1$</th><td>\"</td><td>\"</td><td>[[poset]]</td><td>[[category]]</td><td>[[(2,1)-category]]</td><td>...</td></tr>
+<tr><th>$2$</th><td>\"</td><td>\"</td><td>\"</td><td>[[2-poset]]</td><td>[[2-category]]</td><td>...</td></tr>
+<tr><th>$3$</th><td>\"</td><td>\"</td><td>\"</td><td>\"</td><td>[[3-poset]]</td><td>...</td></tr>
+<tr><th>&#8942;</th><td>\"</td><td>\"</td><td>\"</td><td>\"</td><td>\"</td><td>&#8945;</td></tr></table>
