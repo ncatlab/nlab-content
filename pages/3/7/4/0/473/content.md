@@ -2,32 +2,40 @@
 
 The original _tangle hypothesis_ was formulated in
 
-* [[John Baez]] and [[Jim Dolan]], _Higher-dimensional Algebra and Topological Quantum Field Theory_ 1995 ([arXiv](http://arxiv.org/abs/q-alg/9503002)) 
+* [[John Baez]] and [[James Dolan]], _Higher-dimensional Algebra and Topological Quantum Field Theory_ 1995 ([arXiv](http://arxiv.org/abs/q-alg/9503002)) 
 
-in the context of [[FQFT|extended topological]] [[quantum field theory]] as:
+as follows:
 
-* **Tangle Hypothesis.** _The $n$-category of framed $n$-tangles in $n+k$ dimensions is $(n+k)$-equivalent
-to the free weak $k$-tuply monoidal n-category with duals on one object._
+* **Tangle Hypothesis.** The $n$-category of framed $n$-tangles in $n+k$ dimensions is $(n+k)$-equivalent
+to the free weak $k$-tuply monoidal $n$-category with duals on one object.
 
-In the light of [[FQFT|functorial quantum field theory]] (where this is motivated from), which is really the representation theory of these tangle categories, this can be rephrased as 
+In the limit $k \to \infty$, this gives:
+
+* **Cobordism Hypothesis.** The $n$-category $n Cob$ of cobordisms is the free stable $n$-category with duals on one object (the point).
+
+In [[FQFT|extended toplogical quantum field theory]], which is really the representation theory of these cobordism $n$-categories, we expect:
 
 * **Extended TQFT Hypothesis.** An $n$-dimensional unitary extended TQFT is a weak $n$-functor, preserving all levels of duality, from the $n$-category $n Cob$ of cobordisms to $n Hilb$, the $n$-category of $n$-Hilbert spaces.
 
-* **Cobordism Hypothesis.** The $n$-category $n Cob$ of cobordisms is the free stable $n$-category with duals on one object.
+Putting the extended TQFT hypothesis and the cobordism hypothesis, we obtain:
 
 * **The primacy of the point.** An $n$-dimensional unitary extended TQFT is completely described by the $n$-Hilbert space it assigns to a point.
 
-(In this formulation this is taken from 
+Further discussion can be found here: 
 
-* [[Bruce Bartlett]], _On unitary 2-representations of finite groups and topological quantumfield theory_. PhD thesis, Sheffield (2008) ([arXiv](http://arxiv.org/abs/0901.3975))
+* [[Bruce Bartlett]], _On unitary 2-representations of finite groups and topological quantum field theory_. PhD thesis, Sheffield (2008) ([arXiv](http://arxiv.org/abs/0901.3975))
 
 More recently Mike Hopkins and Jacob Lurie have claimed 
 (see [Hopkins-Lurie on Baez-Dolan](http://golem.ph.utexas.edu/category/2008/05/hopkinslurie_on_baezdolan.html))
-to have formalized and proven this hypothesis (at least for $n \leq 2$) in the context of [[(n,r)-category|(infinity,n)-categories]] modeled on [[complete Segal space]]s. See 
+to have formalized and proven this hypothesis in the context of [[(n,r)-category|(infinity,n)-categories]] modeled on [[complete Segal space]]s. See:
 
 * [[Jacob Lurie]], _On the classification of topological field theories_ ([pdf](http://www-math.mit.edu/~lurie/papers/cobordism.pdf))
 
-where an [[(infinity,n)-category of cobordisms]] is defined and shown to lead to a formalization and proof of the _cobordism hypothesis_.
+where an [[(infinity,n)-category of cobordisms]] is defined and shown to lead to a formalization and proof of the _cobordism hypothesis_.  Lurie explains his work here:
+
+* [[Jacob Lurie]], _TQFT and the cobordism hypothesis_, [videos of 4 lectures](http://lab54.ma.utexas.edu:8080/video/lurie.html) at the [Geometry Research Group](http://www.ma.utexas.edu/users/plowrey/dev/rtg/perspectives.html), Mathematics Department, University of Texas Austin.
+
+Lecture notes for Lurie's talks should eventually appear at the [Geometry Research Group website](http://www.ma.utexas.edu/users/plowrey/dev/rtg/perspectives.html).
 
 #Statement of the generalized tangle hypothesis#
 
