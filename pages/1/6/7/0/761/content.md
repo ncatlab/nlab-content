@@ -25,3 +25,12 @@ If the pairs of  spaces $U^f_*$ are  connected for all 1-,2-, or 3-fold  interse
 1. Naturally the proof can and should go by verifying the universal property for a coequaliser. The  basic techniques of the proof include: subdivide a path;  deform a subdivision so that it is product of paths joining points of $X_0$; subdivide a homotopy rel end points, and deform this subdivision so that _all_ subpaths join points of $X_0$; any composition of [[commutative square]]s in a groupoid is commutative.
 
 1. The theorem can be extended to more general kinds of colimits, using homotopy colimits: $\pi_1$ preserves homotopy colimits.  Under some conditions, we can replace the homotopy colimit by a strict colimit.  (For more details see Emmanuel Dror Farjoun, "Fundamental group of homotopy colimits", Adv. in Math. 182 (2004), 1-27; a draft is available here: &lt;http://www.cs.biu.ac.il/~katzmik/colloquium/col3.ps>.)
+
++--{| .query}
+[[Ronnie Brown|Ronnie]] This paper does not seem to mention the fundamental groupoid on a set of base points.  Is there a version of the result on homotopy colimits for many base points? 
+
+The original idea for many base points was to calculate the fundamental group of the circle via a van Kampen type theorem for non connected spaces: this required the many base point version. 
+
+It seems useful to use $\pi_1(X,X_0)$ where  $X_0$ is chosen according to the geometry at hand, usually somewhere between a single point and the whole space. Grothendieck agreed! 
+
+=--
