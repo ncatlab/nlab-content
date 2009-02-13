@@ -1,8 +1,8 @@
 # Frequently Asked Questions
 
-Also including questions that should be frequently asked but aren't.
+Also including questions that should be frequently asked but aren't.  See also [[HowTo]].
 
-### Instiki features and "features"
+## Instiki features and "features"
 
 1. *How do I put math inside HTML?*
 
@@ -59,11 +59,11 @@ Also including questions that should be frequently asked but aren't.
 
    One of the notable ways in which itex differs from latex is that in itex's math mode, a string of letters without spaces in between is interpreted as a single identifier.  This has the advantage that you can invent new identifiers without needing to use `\operatorname` or `\DeclareMathOperator`, but it means that when you _don't_ want a string of letters interpreted that way you need to put spaces in between.  For example, `$sin(x)$` produces $sin(x)$ which is probably what you want, but `$h=gf$` produces $h=gf$, whereas you probably wanted to write `$h=g f$` to get $h=g f$. On the other hand, you can (and, for the sake of the LaTeX output, probably should) use `$\sin(x)$`, etc.
 
-### _n_-Lab Specifics
+## _n_-Lab Specifics
 
 1.  *Why did my page get redirected?*
 
-    Did you read the _Naming Conventions_ section on the HowTo?
+    Did you read the _Naming Conventions_ section on the [[HowTo]]?
 
 1.  *Where do I ask a question?*
 
