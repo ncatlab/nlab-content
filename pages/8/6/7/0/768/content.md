@@ -35,6 +35,18 @@ However $\mathcal{B}C$ is in this case defined by a nerve construction which gen
 
 +--{: .query}
 [[Mike Shulman|Mike]]: I don't really get any intuition from that.  There might be lots of functors from "algebraic data" to "topological data" but it seems to me that only particular sorts of them deserve the name "classifying space."  Can you say more specifically what sorts of functors you have in mind, and relate it to the more basic ideas that I am familiar with?  What do these classifying spaces classify?
+
+[[Ronnie Brown|Ronnie]] What I am trying to characterise is that higher categories carry structure such as a filtration by lower dimensional higher categories, or, for multiple structures, a multiple filtration. Thus one expects a classifying space to inherit this extra structure. Conversely, the construction of an infinity-groupoid from a space might depend on this extra structure. 
+
+So I spent 9 years trying to construct a _strict_ homotopy double groupoid of a space, yet Phip Higgins and I did this overnight in 1974 when we tried the simplest relative example we could think of. Then the filtered case took another 4 years or so to complete. 
+
+Then Loday constructed a cat$^n$-group from an n-cube of spaces, published in 1982. 
+
+A strict homotopy double groupoid of a Hausdorff space has been constructed but this needs a subtle notion of [[thin]] homotopy. 
+
+Of course the filtration for a group is not so apparent, but it is more clear that a groupoid carries structure in dimension 0 and 1, and hence is useful for representing non connected homotopy 1-types. 
+
+The intuition for the [[van Kampen theorem]] is that you need structure in dimensions 0 to n to get colimit theorems in dimension n, because in homotopy, low dimensional identifications, even in dimension 0,  usually effect high dimensional homotopy information. 
 =--
 
 Some such constructions arise from generalisations of the [[Dold-Kan correspondence]], with values in [[simplicial set]]s. For example, from a [[crossed complex]] $C$ one obtains a simplicial  set $Nerve(C)$ which in dimension $n$ is $Crs(\Pi(\Delta^n_*),C)$. The geometric realisation $\mathcal{B}C$ of this is canonically filtered by the skeleta of $C$, so $\mathcal{B}$ is really a functor to [[filtered space]]s. This ties in with the functor $\Pi$ which goes in the opposite direction. But note that there is a different filtration of the space $\mathcal{B}C$ since it is a CW-complex, and so $\Pi$ of this filtration gives a free crossed complex. 
