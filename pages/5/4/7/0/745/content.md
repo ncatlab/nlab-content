@@ -60,7 +60,9 @@ It\'s a very natural notation, as it generalises the notation $(x,y)$ (or $[x,y]
 
 I would be okay with calling the comma category (or more generally the [[comma object]]) $E(f,g)$ or $hom_E(f,g)$ _if_ you are considering it as a discrete fibration from $A$ to $B$.  But if you are considering it as a _category_ in its own right, I think that such notation is confusing.  I don't mind the arrow notations, but I prefer $(f/g)$ as less visually distracting, and evidently a generalization of the common notation $C/x$ for a [[slice category]].
 
-_Toby_: Well, I never stick '$E$' in there unless necessary to avoid amibiguity. I agree that the slice-generalising notation is also good. I\'ll use it too, but I edited the text to not denigrate the hom-set generalising notation so much.
+_Toby_: Well, I never stick '$E$' in there unless necessary to avoid ambiguity. I agree that the slice-generalising notation is also good. I\'ll use it too, but I edited the text to not denigrate the hom-set generalising notation so much.
+
+_Mike_: The main reason I don't like unadorned $(f,g)$ for either comma objects or hom-sets is that it's already such an overloaded notation.  My first thought when I see $(f,g)$ in a category is that we have $f:X\to A$ and $g:X\to B$ and we're talking about the pair $(f,g):X\to A\times B$ &mdash; surely also a natural generalization of the _very_ well-established notation for ordered pairs.
 =--
 
 # Further reading #
