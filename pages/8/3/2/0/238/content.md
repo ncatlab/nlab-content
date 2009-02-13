@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-02-13
+
+* [[Mike Shulman|Mike]]: Urs, in my biased opinion, the reference for the [[homotopy limit]] comparison that I find easiest to understand is my own paper (reference added).  Of course the fact has been known for a long time; I don't even know whether there's any "original" source one could cite.
+
 # 2009-02-12
 
 * [[Urs Schreiber|Urs]]: at [[homotopy limit]] I am asking for further details and/or literature on the "central theorem" which identified local and global definition
