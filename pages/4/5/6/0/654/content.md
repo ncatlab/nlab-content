@@ -80,6 +80,17 @@ and
 
 Some blog discussion of this point is at [2-Vectors in Trodheim](http://golem.ph.utexas.edu/category/2007/11/2vectors_in_trondheim.html). 
 
+##$Ch(Vect)$-enriched categories##
+
+More generally one can replace vector spaces by complexes of vector spaces and consider $Ch(Vect)-Mod$ as a model for the 2-category of 2-vector spaces (with basis): its objects are [[dg-category|dg-categories]].
+
+It is argued in
+
+* B. To&#235;n, G. Vezzosi, _A note on Chern character, loop spaces and derived algebraic geometry_, ([arXiv](http://arxiv.org/abs/0804.1274), p. 6)
+
+that the generalization from $Vect-Mod$ to $Ch(Vect)-Mod$ is necessary to have a good notion of higher sheaves of sections of 2-vector bundles, i.e. of higher coherent sheaves.
+
+
 ## Revisiting Kapranov&#8211;Voevodsky $2$-vector spaces 
 
 Upon further restriction of $\Vect\Mod$ to 2-vector spaces whose basis is a _discrete category_, namely a set $S$ (or the $Vect$-enriched category over $S$ which has just the ground field object sitting over each element of $S$) one arrives at $Vect$-modules of the form
@@ -105,6 +116,7 @@ We can regard the objects of the $n$-dimensional  Kapranov&#8211;Voevodsky 2-vec
 
 * John C. Baez, Aristide Baratin, Laurent Freidel, Derek K. Wise, _Infinite-Dimensional Representations of 2-Groups_ ([arXiv](http://arxiv.org/abs/0812.4969)) 
 
+
 ## Using a modular tensor category
 
 The relevance of module categories as models for 2-vector spaces was apparently first realized in the context of [[conformal field theory]], where the monoidal category $V$ in question is a [[modular tensor category]]. A result by Victor Ostrik showed that _all_ $V$-module categories are equivalent to $Mod_A$ for $A$ some one-object $V$-enriched category (i.e., an algebra internal to $V$) in
@@ -115,7 +127,7 @@ The relevance of module categories as models for 2-vector spaces was apparently 
 
 #Remark on the different notions of $2$-vector spaces#
 
-As the above list shows, there are 2-vector spaces of very different kind. There is not *the* notion of 2-vector space which is the universal right answer. Different notions of vector spaces are applicable and useful in different situations.  This can be regarded as nothing but a more pronounced incarnation of the fact that already ordinary vector space appear in different flavors which are useful in different situations (real vector spaces, complex vector spaces, etc.)
+As the above list shows, there are 2-vector spaces of very different kind. There is not *the* notion of 2-vector space which is the universal right answer. Different notions of vector spaces are applicable and useful in different situations.  This can be regarded as nothing but a more pronounced incarnation of the fact that already ordinary vector space appear in different flavors which are useful in different situations (real vector spaces, complex vector spaces, vector spaces over a finite field, etc.)
 
 For instance $Disc(k)$-module categories are crucial for higher [[Lie theory]] but 2-bundles with fibers $Disc(k)$-module categories are comparatively boring as far as general 2-bundles go, as they are essentially complexes of ordinary vector bundles. See 
 
