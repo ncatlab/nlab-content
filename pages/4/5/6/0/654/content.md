@@ -82,13 +82,13 @@ Some blog discussion of this point is at [2-Vectors in Trodheim](http://golem.ph
 
 ##$Ch(Vect)$-enriched categories##
 
-More generally one can replace vector spaces by complexes of vector spaces and consider $Ch(Vect)-Mod$ as a model for the 2-category of 2-vector spaces (with basis): its objects are [[dg-category|dg-categories]].
+More generally one can replace vector spaces by complexes of vector spaces and consider $Ch(Vect)\Mod$ as a model for the 2-category of 2-vector spaces (with basis): its objects are [[dg-category|dg-categories]].
 
 It is argued in
 
 * B. To&#235;n, G. Vezzosi, _A note on Chern character, loop spaces and derived algebraic geometry_, ([arXiv](http://arxiv.org/abs/0804.1274), p. 6)
 
-that the generalization from $Vect-Mod$ to $Ch(Vect)-Mod$ is necessary to have a good notion of higher sheaves of sections of 2-vector bundles, i.e. of higher coherent sheaves.
+that the generalization from $Vect\Mod$ to $Ch(Vect)\Mod$ is necessary to have a good notion of higher sheaves of sections of 2-vector bundles, i.e. of higher coherent sheaves.
 
 
 ## Revisiting Kapranov&#8211;Voevodsky $2$-vector spaces 
@@ -127,7 +127,7 @@ The relevance of module categories as models for 2-vector spaces was apparently 
 
 #Remark on the different notions of $2$-vector spaces#
 
-As the above list shows, there are 2-vector spaces of very different kind. There is not *the* notion of 2-vector space which is the universal right answer. Different notions of vector spaces are applicable and useful in different situations.  This can be regarded as nothing but a more pronounced incarnation of the fact that already ordinary vector space appear in different flavors which are useful in different situations (real vector spaces, complex vector spaces, vector spaces over a finite field, etc.)
+As the above list shows, there are 2-vector spaces of very different kind. There is not *the* notion of 2-vector space which is the universal right answer. Different notions of vector spaces are applicable and useful in different situations.  This can be regarded as nothing but a more pronounced incarnation of the fact that already ordinary vector space appear in different flavors which are useful in different situations (real vector spaces, complex vector spaces, vector spaces over a [[finite field]], etc.)
 
 For instance $Disc(k)$-module categories are crucial for higher [[Lie theory]] but 2-bundles with fibers $Disc(k)$-module categories are comparatively boring as far as general 2-bundles go, as they are essentially complexes of ordinary vector bundles. See 
 
@@ -141,7 +141,7 @@ For instance $Disc(k)$-module categories are crucial for higher [[Lie theory]] b
 
 * John Baez, _Higher-Dimensional Algebra II: 2-Hilbert Spaces_ ([arXiv](http://arxiv.org/abs/q-alg/9609018)) .
 
-In applications one often assumes these 2-Hilbert spaces to be [[semisimple]] in which case such a 2-Hilbert space is essentially a Kapranov&#8211;Voevodsky $2$-vector space.
+In applications one often assumes these 2-Hilbert spaces to be [[semisimple algebra|semisimple]] in which case such a 2-Hilbert space is essentially a Kapranov&#8211;Voevodsky $2$-vector space.
 
 A review of these ideas of 2-Hilbert spaces as well as applications of 2-Hilbert spaces to finite group representation theory are in
 
