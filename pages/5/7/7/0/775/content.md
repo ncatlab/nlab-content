@@ -31,7 +31,9 @@ _any composition of commutative squares is commutative._
 
 # Applications #
 
-The class of commutative squares in $C$  can also be described as $Cat(2 \times 2, C)$ where $2$ is [[walking arrow]]: the category with two objects $0,1$ and one arrow $0 \to 1$.
+Let $2$ denote  [[walking arrow]]: the category with two objects $0,1$ and one arrow $0 \to 1$. This has the structure of [[co-category]]. 
+
+The class of commutative squares in $C$  can also be described as $Cat(2 \times 2, C)$.  
 
 If $D$ is a category, then $Cat(D, \square_1 C)$ can be regarded as the class of natural transformations of functors $D \to C$. Then the category structure $\square _2 C$ induces a category structure on $Cat(D,\square _1 C)$ giving the [[functor category]] $CAT(D,C)$: the category of functors and natural transformations. (This account is due to [[Charles Ehresmann]].)
 
