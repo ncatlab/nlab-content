@@ -64,9 +64,11 @@ According to the above a $Vect$-[[enriched category]] $C$ can be regarded as a b
 
 Notice that, by the very definition of [[Morita equivalence]], two algebras (algebroids) have equivalent module categories, and hence can be regarded as different bases for the same $\Vect$ $2$-vector space, iff they are Morita equivalent.
 
-Some blog discussion of this point is at [2-Vectors in Trodheim](http://golem.ph.utexas.edu/category/2007/11/2vectors_in_trondheim.html). $Vect$-enriched categories as models for 2-vector spaces appear in 
+$Vect$-enriched categories as models for 2-vector spaces appear in 
 
 * Jacob Lurie, _On the classification of topological field theories_ ([pdf](http://www-math.mit.edu/~lurie/papers/cobordism.pdf)) (see example 1.2.4)
+
+* B. To&#235;n, G. Vezzosi, _A note on Chern character, loop spaces and derived algebraic geometry_, ([arXiv](http://arxiv.org/abs/0804.1274), p. 6)
 
 2-vector spaces in the sub-bicategory of algebras ($Vect$-enriched categories with a single object), bimodules and intertwiners are discussed in
 
@@ -75,6 +77,8 @@ Some blog discussion of this point is at [2-Vectors in Trodheim](http://golem.ph
 and 
 
 * U. Schreiber and K. Waldorf, _Connections on non-abelian gerbes and their holonomy_ ([arXiv](http://arxiv.org/abs/0808.1923))
+
+Some blog discussion of this point is at [2-Vectors in Trodheim](http://golem.ph.utexas.edu/category/2007/11/2vectors_in_trondheim.html). 
 
 ## Revisiting Kapranov&#8211;Voevodsky $2$-vector spaces 
 
