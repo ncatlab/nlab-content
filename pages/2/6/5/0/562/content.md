@@ -1,6 +1,6 @@
 # Idea #
 
-A **[[Grothendieck]] fibration** (also called a **cartesian fibration** or just a **fibration**) is a [[functor]] $p:E\to B$ such that the fibers $E_b = p^{-1}(b)$ depend (contravariantly) pseudofunctorially on $b\in B$.  One also says that $E$ is a **fibered category** over $B$. Dually, in a (Grothendieck) **opfibration** the dependence is covariant.
+A **[[Alexander Grothendieck|Grothendieck]] fibration** (also called a **cartesian fibration** or just a **fibration**) is a [[functor]] $p:E\to B$ such that the fibers $E_b = p^{-1}(b)$ depend (contravariantly) pseudofunctorially on $b\in B$.  One also says that $E$ is a **fibered category** over $B$. Dually, in a (Grothendieck) **opfibration** the dependence is covariant.
 
 There is an [[equivalence]] of [[strict 2-category|2-categories]] between the 2-category of fibrations over $B$ and the 2-category $[B^{op},Cat]$ of contravariant [[pseudofunctor]]s from $B$ to [[Cat]], also called _$B$-indexed categories_.  The construction of a fibration from a pseudofunctor is sometimes called the _Grothendieck construction_, although unfortunately Grothendieck performed many constructions.  Less ambiguous terms are the _category of elements_ and the _lax colimit_.
 
