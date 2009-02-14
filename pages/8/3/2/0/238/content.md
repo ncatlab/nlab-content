@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-02-14
 
+* [[Ronnie Brown|Ronnie]] Added entries on C. [[Ehresmann]] and on [[Grothendieck]]. The second probably should be expanded, but it has a link to a good account. 
+
 * [[Tim Porter|Tim]]: Asked a question in [[dg-category]] as to the degree of the differentials. We may need a convention on this.
 
 * [[Urs Schreiber|Urs]]
