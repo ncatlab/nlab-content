@@ -42,7 +42,7 @@ Nevertheless, internalization and enrichment are related in several ways.  On th
 
 * A category enriched in [[Set]] is a [[locally small category]].
 
-* A category enriched in [[chain complex|chain complexes]] is a [[differential graded category]].
+* A category enriched in [[chain complex|chain complexes]] is a [[dg-category]].
 
 * A category enriched in [[simplicial set|simplicial sets]] is a [[simplicially enriched category|simplicial category]], and are one model for $(\infty,1)$-[[(infinity,1)-category|categories]].
 
@@ -67,4 +67,3 @@ Nevertheless, internalization and enrichment are related in several ways.  On th
 * An [[apartness relation|apartness space]] is a [[groupoid]] enriched over the opposite of the category of truth values, where $\otimes$ is [[disjunction]].
 
 * A [[group torsor]] (over a group $G$) can be modeled by a category enriched over the [[discrete category]] on the set $G$, where $\otimes$ is the group operation.  Not every such category determines a torsor, however; it must be nonempty as well as [[Cauchy complete category|Cauchy complete]].
-
