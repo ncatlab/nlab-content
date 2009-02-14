@@ -28,5 +28,6 @@ instead of lowering it one should be prepared to
 admit that one should choose the other overall sign
 convention for the grading.
 
+[[Tim Porter|Tim]] : That would be my choice as well.  I believe the Toen convention is with cochain complexes however. All the dgas tend to have cochain complexes underlying them, so perhaps we should provide some new entries to set up a suitable set of notation and terminology. We will need it if we start talking about infinity algebras whether Lie or otherwise.
 
 =--
