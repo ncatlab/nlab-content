@@ -20,3 +20,8 @@ If the filtered spaces $U^f_*$ are [[connected filtered space]]s for all finite 
 * The proof of the theorem is not direct but goes via the fundamental [[cubical omega-groupoid]] with connections of the filtered spaces, as that context allows the notions of _algebraic inverse to subdivision_ and of _commutative cube_. However the proof is a direct generalisation of a proof for the [[van Kampen theorem]] for the [[fundamental groupoid]].  
 
 * Applications of this theorem include many basic facts in algebraic topology, such as the Relative Hurewicz Theorem, the Brouwer degree theorem, and new nonabelian results on 2nd relative homotopy groups, not of course obtainable by the traditional wholly abelian methods. No use is made of _singular homology theory_ or of _simplicial approximation_.
+
+## Sample application ## 
+
+ Here is one application in dimension 2 not easily obtainable by traditional algebraic topology. Let $0 \to P \to Q \to R \to 0$ be an exact sequence of abelian groups. Let $X$  be the mapping cone of the induced map $K(P,1) \to K(Q,1)$ of Eilenberg-Mac Lane spaces. Then a [[crossed module]] representing the homotopy [[2-type]] of $X$ is $\mu: C \to Q$ where $C$ is abelian and is the direct sum $\oplus_{r \in R} P^r$  of copies of $P$ one for each $r \in R$ and the action of $Q$ is via $R$ and permutes the copies by $(p,r)^s=(p,r+s)$. Similar examples for $P,Q,R$ nonabelian are do-able,   more complicated, and certainly **not** obtainable by traditional methods. 
+
