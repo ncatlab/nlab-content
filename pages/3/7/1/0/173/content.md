@@ -83,15 +83,7 @@ This is very closely related to the spans appearing in
 
 The relation is discussed a bit at [this blog entry](http://golem.ph.utexas.edu/category/2009/01/benzvi_on_geometric_function_t.html#c021321).
 
-At least some aspects of the concept have more or less implicitly been considered before, notably in the context of  _topological T-duality_. See
-
-* _Mathai on T-duality_:
-
-  * I: [Overview](http://golem.ph.utexas.edu/string/archives/000827.html)
-
-  * II: [T-dual K-classes by Fourier-Mukai](http://golem.ph.utexas.edu/string/archives/000828.html)
-
-for an overview and references. A translation of the construction in topological T-duality to the above diagrammatic formulation was originally given [here](http://golem.ph.utexas.edu/category/2007/02/qft_of_charged_nparticle_tdual.html).
+At least some aspects of the concept have more or less implicitly been considered before, notably in the context of  [[topological T-duality]].  A translation of the construction in topological T-duality to the above diagrammatic formulation was originally given [here](http://golem.ph.utexas.edu/category/2007/02/qft_of_charged_nparticle_tdual.html).
 
 The interpretation of T-duality in terms of bi-branes is discussed in more detail in 
 
