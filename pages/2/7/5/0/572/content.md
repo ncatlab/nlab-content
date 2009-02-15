@@ -2,9 +2,9 @@
 
 _Complete Segal spaces_ are one model for $(\infty,1)$-[[(infinity,1)-category|categories]]. 
 
-The rough idea is that a complete Segal space is the [[nerve]] of a [[enriched category|category enriched]] over [[Top]]: it is not a [[simplicial set]], but a simplicial _space_ which satisfies the [[homotopy theory|homotopy theoretic]] analog of the condition that otherwise implies that a [[simplicial set]] is the [[nerve]] of a [[category]].
+The rough idea is that a complete Segal space is the [[nerve]] of a [[enriched category|category enriched]] [[homotopical enrichment|weakly]] over [[Top]]: it is not a [[simplicial set]], but a simplicial [[topological space]] which satisfies the [[homotopy theory|homotopy theoretic]] analog of the condition that otherwise implies that a [[simplicial set]] is the [[nerve]] of a [[category]].
 
-A bit more precisely: to determine if a [[simplicial set]] $X_\bullet$ arises from a [[category]] by passing to its [[nerve]] one has to check for all natural numbers $m,n$ the square
+A bit more precisely: to determine if a [[simplicial set]] $X_\bullet$ arises from a [[category]] by passing to its [[nerve]] one has to check if for all natural numbers $m,n$ the square
 
 $$
   \array{
@@ -19,7 +19,7 @@ $$
   }
 $$
 
-is a [[pullback]] square (these maps $p^*_{\cdots}$ are define below). $X^\bullet$ is the [[nerve]] of a [[category]] precisely if this is the case for all $n,m$.
+is a [[pullback]] square (where the maps $p^*_{\cdots}$ project out the indicated parts of the objects of the [[simplex category]] $\Delta$ regarded as [[poset]]s). $X^\bullet$ is the [[nerve]] of a [[category]] precisely if this is the case for all $n, m$.
 
 This condition is internalized homotopically in the category of spaces to get the definition of a _Segal space_.  One can interpret "spaces" here as meaning either (sufficiently [[nice topological space|nice]]) [[topological space]]s or [[simplicial set]]s; in the latter case a Segal space is a particular sort of [[bisimplicial set]].
 
@@ -43,7 +43,7 @@ $$
   }
 $$
 
-is a [[homotopy coherent category theory|homotopy pullback]] square.
+is a [[homotopy pullback]] square.
 
 =--
 
