@@ -30,5 +30,13 @@ Here the cotruncation $cotr^n D$ of a general crossed complex $D$ agree with $D$
 
 It is in this sense that crossed modules of groupoids classify weak homotopy 2-types. 
 
+The category $Crs^2$ of such crossed modules of groupoids is equivalent to that of strict [[2-groupoid]]s. Further, $Crs^2$ is [[monoidal closed]]:
+
+$$Crs^2(C \otimes D, E) \cong Crs^2(C, CRS^2(D,E))$$
+
+ and with a unit interval object $I$ so that (left) homotopies are determined as morphisms $Crs^2(I \otimes D,E)$ or as elements of $CRS^2(D,E)_1$.  
+
+
+
 ##Homotopy 2-types via simplicial group(oid)s##
 As a crossed module give rise to an internal groupoid in the category of groups (or groupoids), we can take the nerve of that structure and get a simplicial group (or [[simplicially enriched category|simplicially enriched groupoid]]). From a simplicial group(oid), $G$, one can define a simplicial set called the classifying space $\overline{W}G$ of the simplicial group, $G$, for which construction see [[simplicial group]]. We thus can start with a crossed module $C$ form a simplicial group and then take $\overline{W}$ of that to get another model of $BC$.
