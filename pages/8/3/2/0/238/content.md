@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-02-15
 
+* [[Tim Porter|Tim]]: Added the construction of $\overline{W}$, the classifying space construction for simplicial groups to the entry for [[simplicial group]].
+
 * [[Urs Schreiber|Urs]]
 
   * created [[homotopy pullback]]
