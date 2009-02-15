@@ -1,8 +1,8 @@
 #Idea#
 
-A _category with weak equivalences_ is the minimum structure required for a model in [[homotopy theory]]. 
+A _category with [[weak equivalence]]s_ is the minimum structure required for a model in [[homotopy theory]]. 
 
-In particular, a [[model category]] is a category with weak equivalence with extra bells and whistles.
+In particular, a [[model category]] is a category with [[weak equivalence]] with extra bells and whistles.
 
 #Definition#
 
