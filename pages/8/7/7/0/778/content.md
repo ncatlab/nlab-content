@@ -6,7 +6,11 @@ A dg-category $\mathbf{B}A$ with a single object is a _differential graded [[alg
 
 Given that last statement, it would seem to make sense to call these "differential graded algebroids". How established is the term "differential graded category"? Is it too late to change even if it made sense to do so? - [[Eric Forgy|Eric]]
 
+[[Urs Schreiber|Urs]]: yup. added the paragraph below now
+
 =--
+
+Therefore, following the terminology for [[horizontal categorification]] a dg-category might more descriptively be addressed as a **differential graded algebroid**. (A similar comment applies for instance to [[C*-category]], which is a $C^*$-algebroid.)
 
 #References#
 
@@ -35,5 +39,7 @@ admit that one should choose the other overall sign
 convention for the grading.
 
 [[Tim Porter|Tim]] : That would be my choice as well.  I believe the Toen convention is with cochain complexes however. All the dgas tend to have cochain complexes underlying them, so perhaps we should provide some new entries to set up a suitable set of notation and terminology. We will need it if we start talking about infinity algebras whether Lie or otherwise.
+
+[[Urs Schreiber|Urs]]: okay, let's choose here the above convention by default and add remarks where usage in the literature differs from ours. (on the other hand everyone reading anything differential graded will have to develop a certain tolerance for the inevitable mess of sign and grading conventions that haunts the literature)
 
 =--
