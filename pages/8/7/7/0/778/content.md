@@ -8,6 +8,8 @@ Given that last statement, it would seem to make sense to call these "differenti
 
 [[Urs Schreiber|Urs]]: yup. added the paragraph below now
 
+[[Mike Shulman|Mike]]: The term "dg-category" seems to me to be quite well-established.  Also "algebroid" is quite commonly used (especially with "Hopf" in front of it) for an [[internal category|internal]] oidification, rather than an [[enriched category|enriched]] one.
+
 =--
 
 Therefore, following the terminology for [[horizontal categorification]] a dg-category might more descriptively be addressed as a **differential graded algebroid**. (A similar comment applies for instance to [[C*-category]], which is a $C^*$-algebroid.)
