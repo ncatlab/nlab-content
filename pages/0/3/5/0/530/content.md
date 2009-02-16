@@ -81,9 +81,9 @@ epi after projecting further to $\omega$-[[equivalence]]-classes.
 
 **Definition.** With respect to the [[folk model structure]]  on $\omega$-categories an $\omega$-functor is 
 
-* an [[model category|acyclic fibration]] if it is $k$-surjective for all $k \in \mathbb{N}$;
+* an [[acyclic fibration]] if it is $k$-surjective for all $k \in \mathbb{N}$;
 
-* a [[model category|weak equivalence]] if it is essentially $k$-surjective for all $k \in \mathbb{N}$.
+* a [[weak equivalence]] if it is essentially $k$-surjective for all $k \in \mathbb{N}$.
 See also [[equivalence]].
 
 ###Remarks###
