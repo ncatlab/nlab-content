@@ -7,16 +7,16 @@ The rough idea is that a complete Segal space is the [[nerve]] of a [[enriched c
 A bit more precisely: to determine if a [[simplicial set]] $X_\bullet$ arises from a [[category]] by passing to its [[nerve]] one has to check if for all natural numbers $m,n$ the square
 
 $$
-  \array{
+  \begin{aligned}
     X_{m+n} &\stackrel{
       p^*_{0,\cdots, m}
-    }{\to}& X_m
+    }{\to}&& X_m
     \\
-    {}^{p^*_{m, \cdots, m+n}}\downarrow 
-    && \downarrow^{p^*_m}
+    \scriptsize{p^*_{m, \cdots, m+n}}\downarrow 
+    &&& \downarrow^{p^*_m}
     \\
-    X_n &\stackrel{p^*_0}{\to}& X_0
-  }
+    X_n &\stackrel{\quad p^*_0\quad}{\to}&& X_0
+  \end{aligned}
 $$
 
 is a [[pullback]] square (where the maps $p^*_{\cdots}$ project out the indicated parts of the objects of the [[simplex category]] $\Delta$ regarded as [[poset]]s). $X^\bullet$ is the [[nerve]] of a [[category]] precisely if this is the case for all $n, m$.
