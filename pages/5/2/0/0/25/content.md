@@ -31,6 +31,8 @@ describes the process by which
 
 +--{: .query}
 [[Mike Shulman|Mike]]: Is there (and do we want there to be) a general rule about whether an X-oid means an [[internal category]] whose one-object version is an X, or an [[enriched category]] whose one-object version is an X?  The examples above seem to be taking the "internal" side, but the Cafe discussion on "ringoids" was about the "enriched" version; the two are very different!  And "dg-algebroid" was suggested for [[dg-category]], which is an enriched oidification of a [[dg-algebra]], but a [[Hopf algebroid]] is an internal oidification of a [[Hopf algebra]].
+
+[[Urs Schreiber|Urs]]: good point. We should say this at the beginning and split the list of examples in two sorts 
 =--
 
 #Further discussion#
