@@ -17,7 +17,7 @@ $$
    Y &\to& X
   }
 $$
-in $C$ is a [[homotopy pullback]] square if the induced morphism $W \to holim(X \to Z \leftarrow Y)$ from $W$ to the [[homotopy limit]] is a [[weak equivalence]].
+in $C$ is a **homotopy pullback** square if the induced morphism $W \to holim(X \to Z \leftarrow Y)$ from $W$ to the [[homotopy limit]] is a [[weak equivalence]].
 
 #Homotopy fiber product#
 
@@ -81,7 +81,7 @@ $$
    Y &\to& X
   }
 $$
-in $C$ is a [[homotopy pullback]] square if the induced morphism 
+in $C$ is a **homotopy pullback** square if the induced morphism 
 $$
   W \to X \times_Z Y \to X \times_{Z^I} Y
 $$ 
