@@ -63,6 +63,12 @@ I would be okay with calling the comma category (or more generally the [[comma o
 _Toby_: Well, I never stick '$E$' in there unless necessary to avoid ambiguity. I agree that the slice-generalising notation is also good. I\'ll use it too, but I edited the text to not denigrate the hom-set generalising notation so much.
 
 _Mike_: The main reason I don't like unadorned $(f,g)$ for either comma objects or hom-sets is that it's already such an overloaded notation.  My first thought when I see $(f,g)$ in a category is that we have $f:X\to A$ and $g:X\to B$ and we're talking about the pair $(f,g):X\to A\times B$ &mdash; surely also a natural generalization of the _very_ well-established notation for ordered pairs.
+
+_Toby_: [the notion of [[double comma object]] ] makes me like $(f_i \to f_j \to f_k)$ for (now double) comma objects even more!
+
+_Mike_: I'd rather avoid using $\to$ in the name of an object; talking about projections $p:(f\to g)\to A$ looks a good deal more confusing to me than $p:(f/g)\to A$.
+
+_Toby_: I can handle that, but after thinking about it more, I\'ve realised that the arrow doesn\'t really work.  If $f, g: A \to B$, then $f \to g$ ought to be the set of transformations between them.  (Or $f \Rightarrow g$, but you can\'t keep that decoration up.) 
 =--
 
 # Further reading #
