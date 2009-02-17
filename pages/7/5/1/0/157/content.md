@@ -1,7 +1,10 @@
-A [[category]] is _locally small_ if each of its  [[hom-set|hom-sets]] is small, i.e., is a set instead of a proper class.
+A [[category]] is said to be __locally small__ if each of its  [[hom-set|hom-sets]] is small, i.e., is a [[set]] instead of a [[proper class]].  Local smallness is included by some authors in the definition of "category."
 
-In general, a category is called "locally $P$" if all hom-sets (or [[hom-object]]s, if we are in [[enriched category theory]]) satisfy property $P$.
 
 #Remarks#
 
-The intuition that hom-sets capture the "local" aspects of the situation modeled by a category has its limitations and should not be taken too literally, especially when one is dealing with [[internal category|internal categories]] in spaces. Furthermore, this adjective is often used in the completely different sense of [[localization]], which has to do with [[slice category|slice categories]].
+Local smallness is an instance of a general scheme by which a category may be called "locally $P$" if all hom-sets satisfy property $P$.  This is more commonly used in [[enriched category theory]] where the [[hom-object]]s have more structure than a set and can support more interesting properties.
+
+For instance, a topologically enriched category may be said to be _locally discrete_ if its hom-spaces have discrete topologies (hence it is essentially just an ordinary category).  Likewise, a [[2-category]] is said to be _locally discrete_ if its hom-categories are [[discrete category|discrete]] (so it is essentially an ordinary category), _locally groupoidal_ if its hom-categories are [[groupoid|groupoids]], and so on.
+
+However, this use of the word "locally" does not really have anything to do with the intuitive _geometrical_ meaning of "local," so it should not be taken too literally, especially when one is dealing with [[internal category|internal categories]] in spaces.  Furthermore, in other contexts a category is often said to be "locally $P$" if it has the completely unrelated property that all its [[slice category|slice categories]] satisfy property $P$; see for instance [[locally cartesian closed category]].  Confusion is rarely created, however, because the properties $P$ that one is interesting in applying to hom-sets are usually quite different from those that one applies to slice categories.
