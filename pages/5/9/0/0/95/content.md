@@ -18,7 +18,7 @@ $$|E| = \sum_{n\in \mathbb{N}} \frac{1}{|S_n|} = \sum_{n\in \mathbb{N}} \frac{1}
 
 #References#
 
-* John C. Baez, Alexander E. Honung, and Christopher D. Walker, _Groupoidification Made Easy_ ([web](http://math.ucr.edu/home/baez/groupoidification.pdf), [blog](http://golem.ph.utexas.edu/category/2008/12/groupoidification_made_easy.html))
+* John C. Baez, Alexander E. Hoffnung, and Christopher D. Walker, _Groupoidification Made Easy_ ([web](http://math.ucr.edu/home/baez/groupoidification.pdf), [blog](http://golem.ph.utexas.edu/category/2008/12/groupoidification_made_easy.html))
 
 * John C. Baez, James Dolan, _From Finite Sets to Feynman Diagrams_ ([arXiv](http://arxiv.org/abs/math.QA/0004133))
 
