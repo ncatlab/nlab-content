@@ -4,6 +4,8 @@ A category is **balanced** if every [[bimorphism]] (a morphism which is both [[m
 
 +--{: .query}
 [[Mike Shulman|Mike]]: I don't like the word "bimorphism."  If I've been thinking about [[bicategory|bicategories]] then it sounds like something that is "a morphism up to isomorphism," while if I've been thinking about [[biproduct|biproducts]] it sounds like something that is "both a morphism and a comorphism."  Are monic epics really an important enough concept to deserve its own word?  Can't we just say "monic and epic" or even just "monic epic"?
+
+_Toby_:  It makes sense to me.  Using 'bi' in bicategories is bad anyway.  But it's much like 'bi' in 'biproduct', although I suppose technically one ought to say 'bimonomorphism'.  You\'re right that they may not be that important; I see them mostly as a way to say give counterexamples to the na&#239;ve student's guess that all categories are balanced.  But then, are balanced categories an important concept?
 =--
 
 # Remarks #
