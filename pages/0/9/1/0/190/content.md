@@ -13,7 +13,11 @@ Here we could even allow some categories that are not small, without running int
 
 # Generalisation
 
-[This should probably be moved to $n$-[[n-category|category]].]
++--{: .query}
+This should probably be moved to $n$-[[n-category|category]].
+
+Or to [[Grothendieck universe]]?
+=--
 
 If one assumes the [Axiom of Universes](http://en.wikipedia.org/wiki/Universe_%28mathematics%29#In_category_theory), there is a sequence of [Grothendieck universes](http://en.wikipedia.org/wiki/Grothendieck_universe)
 $$U_0 \subset U_1 \subset U_2 \subset \cdots$$
