@@ -6,14 +6,6 @@ In classical homotopy theory, the presentation is given by a [[category with wea
 
 In [[enriched homotopy theory]], the presentation is given by an [[enriched model category]] or an [[enriched homotopical category]], and it presents an "enriched $(\infty,1)$-category."  Here the appropriate notion is a [[weighted limit|weighted]] homotopy limit, which is expected to construct "weighted $(\infty,1)$-limits" in the presented "enriched $(\infty,1)$-category."  Note that as yet, no fully general notion of "enriched $(\infty,1)$-category" exists; see [[homotopical enrichment]].
 
-As a special case of enriched homotopy theory, we may consider model categories or homotopical categories that are enriched over a notion of $n$-category as presentations for $(n+1)$-categories.  (Here we allow $n$ to also be of the form [[(n,r)-category|(n,r)]], with the obvious convention that $(n,r)+1 = (n+1,r+1)$ and $\infty+1=\infty$.)  For example:
-
-* [[simplicial set]]s are models for $\infty$-[[infinity-groupoid|groupoids]] ($(\infty,0)$-categories), so [[simplicial model category|simplicial model categories]] are presentations for $(\infty,1)$-categories.  Of course, arbitrary model categories are also presentations for $(\infty,1)$-categories, but simplicial model categories are easier to work with, and in particular easier to construct homotopy limits in.
-
-* A [[Cat]]-enriched category is just a [[strict 2-category]], so a [[model 2-category]] or [[homotopical 2-category]] is a presentation of a weak [[2-category]] (or [[bicategory]]).  Homotopy limits in a model 2-category give presentations of [[2-limit]]s (bilimits) in its homotopy 2-category.
-
-* A $(2Cat,\otimes_{Gray}$)-enriched category is a [[Gray-category]], and a [[model Gray-category]] or [[homotopical Gray-category]] is a presentation of a weak [[3-category]] (or [[tricategory]]).  Homotopy limits in a model Gray-category may be expected give presentations of [[3-limit]]s in its homotopy 3-category, although this has not been proven since the general theory of 3-limits is fairly nonexistent.
-
 
 # Definitions #
 
@@ -23,15 +15,7 @@ There are two ways to define homotopy limits:
 
 * as [[derived functor]]s that satisfy a "global" universal property: the homotopy limit _functor_ is "universal among homotopical approximations to the strict limit functor."
 
-One of the central theorems of the subject is that in good cases, the two give equivalent results.  Perhaps the original statement can be found in XI.8.1 of:
-
-* A. K. Bousfield and D. M. Kan, _Homotopy limits, completions, and localizations_.
-
-(As was often the case with Kan's papers at that time, there are some details omitted from that treatment, but most are, as he claimed, quite easy to complete.)  For another approach in an algebraic context, there is a description in Illusie's thesis.
-
-An abstract version in modern language, with proof, can be found in
-
-* Michael Shulman, [Homotopy limits and colimits and enriched homotopy theory](http://arxiv.org/abs/math/0610194).
+One of the central theorems of the subject is that in good cases, the two give equivalent results; see below.
 
 
 ### Global definition ###
@@ -53,22 +37,47 @@ $$ Map(X,L) \simeq HoCones(X,F)$$
 of hom-objects (spaces or simplicial sets in the classical context; enriched hom-objects in the enriched context).
 
 
-# Comparisons #
-
 ### Global versus local ##
 
-The global definition is formulated in terms of _weak equivalences_ only, while the local definition is formulated in terms of _[[homotopy|homotopies]]_ only.  However, in practical cases, derived functors exist because their input objects (in this case, the diagram $F$) can be replaced by "good" (fibrant and/or cofibrant) objects in such a way that weak equivalences become _homotopy_ equivalences.  The derived functor of $lim$ at the input object $F$ is then computed by applying the ordinary functor $lim$ to a good replacement $R F$ of $F$.
+The global definition is formulated in terms of [[weak equivalence|weak equivalences]] only, while the local definition is formulated in terms of [[homotopy|homotopies]] only.  However, in practical cases, derived functors exist because their input objects (in this case, the diagram $F$) can be replaced by "good" (fibrant and/or cofibrant) objects in such a way that weak equivalences become _homotopy_ equivalences.  The derived functor of $lim$ at the input object $F$ is then computed by applying the ordinary functor $lim$ to a good replacement $R F$ of $F$.
 
 It then turns out that the "good" (precisely, "fibrant") replacement $R F$ "builds in" precisely the right homotopies so that an ordinary cone over $R F$ is the same as a homotopy-commutative cone over $F$.  Therefore, $lim (R F)$, which is the global homotopy-limit of $F$, is a representing object for homotopy-commutative cones over $F$, and thus is also a local homotopy-limit of $F$.  There is a dual argument for colimits using cofibrant replacements.
 
-Formal versions of this argument can be found in many places; see the references below.
+Formal versions of this argument can be found in many places.  Perhaps the original statement can be found in XI.8.1 of:
+
+* A. K. Bousfield and D. M. Kan, _Homotopy limits, completions, and localizations_.
+
+(As was often the case with Kan's papers at that time, there are some details omitted from that treatment, but most are, as he claimed, quite easy to complete.)  For another approach in an algebraic context, there is a description in Illusie's thesis.
+
+An abstract version in modern language, with proof, can be found in
+
+* Michael Shulman, [Homotopy limits and colimits and enriched homotopy theory](http://arxiv.org/abs/math/0610194).
 
 
-### Homotopy limits versus higher categorical limits
+### Strictness
 
-If $C$ is a category enriched over $(n-1)$-categories and we are considering it to _be_ an $n$-category, it is natural to define a "weak equivalence" in the underlying ordinary category of $C$ to a morphism that is an $n$-categorical [[equivalence]].  We call this the _natural_ or _trivial_ homotopical structure on $C$.  In certain cases (such as $n=2)$ it can be made into a model structure, also called _natural_ or _trivial_.
+Another notable difference between the local and global definitions is that the global definition can only ever define the homotopy limit up to weak equivalence (isomorphism in the homotopy category), while in the local definition we _could_ require, if we wanted to, an actual isomorphism
+$$ Map(X,L) \cong HoCones(X,F)$$
+of hom-objects, rather than merely a weak equivalence.  By analogy with [[strict 2-limit|strict 2-limits]], we may call such an object a **strict homotopy limit**.
 
-Since higher categorical limits are generally defined as representing objects for cones that commute up to [[equivalence]], it is unsurprising that if $C$ has a natural homotopical structure, (locally defined) homotopy limits and $n$-limits coincide.  For $n=1$ this is trivial.  For $n=2$ it is proven in the paper of Gambino referenced below (particularly section 6).  For $n=(\infty,1)$ it is proven in (among other places) Lurie's book, section 4.2.4.  The case $n=3$ ought to be approachable in theory, but doesn't seem to have been done.
+Frequently a strict homotopy limit does in fact exist, and can be constructed as a [[weighted limit]] in the ordinary (enriched) category in question.  In such cases, the strict homotopy limit may be easier to compute with than an arbitrary homotopy limit merely known to have the up-to-weak-equivalence universal property.  Thus, sometimes when people say [[generalized the|the]] homotopy limit they refer mean a _strict_ homotopy limit.
+
+When a strict homotopy limit exists, an arbitrary homotopy limit may be defined as an object which is (weakly) equivalent to the strict homotopy limit.
+
+
+# Homotopy limits versus higher categorical limits
+
+As a special case of enriched homotopy theory, we may consider model categories or homotopical categories that are enriched over a notion of $n$-category as presentations for $(n+1)$-categories.  (Here we allow $n$ to also be of the form [[(n,r)-category|(n,r)]], with the obvious convention that $(n,r)+1 = (n+1,r+1)$ and $\infty+1=\infty$.)  For example:
+
+* [[simplicial set]]s are models for $\infty$-[[infinity-groupoid|groupoids]] ($(\infty,0)$-categories), so [[simplicial model category|simplicial model categories]] are presentations for $(\infty,1)$-categories.  Of course, arbitrary model categories are also presentations for $(\infty,1)$-categories, but simplicial model categories are easier to work with, and in particular easier to construct homotopy limits in.
+
+* A [[Cat]]-enriched category is just a [[strict 2-category]], so a [[model 2-category]] or [[homotopical 2-category]] is a presentation of a weak [[2-category]] (or [[bicategory]]).
+
+* A $(2Cat,\otimes_{Gray}$)-enriched category is a [[Gray-category]], and a [[model Gray-category]] or [[homotopical Gray-category]] is a presentation of a weak [[3-category]] (or [[tricategory]]).
+
+If $C$ is a category enriched over $(n-1)$-categories and we are considering it to _be_ an $n$-category (which happens to be strict at the bottom level), it is natural to define a "weak equivalence" in the underlying ordinary category of $C$ to a morphism that is an $n$-categorical [[equivalence]].  We call this the _natural_ or _trivial_ homotopical structure on $C$.  In certain cases (such as $n=2)$ it can be made into a model structure, also called _natural_ or _trivial_.
+
+Since higher categorical limits are generally defined as representing objects for cones that commute up to [[equivalence]], it is unsurprising that if $C$ has a natural homotopical structure, locally-defined homotopy limits and $n$-limits coincide.  For $n=1$ this is trivial.  For $n=2$ it is proven in the paper of Gambino referenced below (particularly section 6).  For $n=(\infty,1)$ it is proven in (among other places) Lurie's book, section 4.2.4.  The case $n=3$ ought to be approachable in theory, but doesn't seem to have been done (probably partly because the general theory of 3-limits is fairly nonexistent).
 
 On the other hand, we may also consider a category $C$ enriched over $n$-categories with a _larger_ class of weak equivalences than just the $n$-categorical equivalences.  Then $C$ presents an $n$-category (its "homotopy $n$-category") obtained by formally turing these weak equivalences into $n$-categorical equivalences.  Homotopy limits in $C$ with this homotopical structure should then present $n$-limits in its homotopy $n$-category.  In the case $n=(\infty,1)$ this is also essentially in Lurie's book; for other values of $n$ it may not be in the literature.
 
