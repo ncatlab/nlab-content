@@ -6,7 +6,7 @@
 
 #Definition
 
-A __strict $3$-category__, often called simply a _3-category_, is a [[enriched category|category enriched over]] $\Str2\Cat$, the category of strict $2$-categories.  Similarly, a [[strict 3-groupoid]] is a [[groupoid]] enriched over [[strict 2-groupoid]]s.
+A __strict $3$-category__, often called simply a _3-category_, is a [[enriched category|category enriched over]] $\Str2\Cat$, the [[cartesian monoidal category]] of strict $2$-categories.  Similarly, a [[strict 3-groupoid]] is a [[groupoid]] enriched over [[strict 2-groupoid]]s.
 
 These are also called [[geometric shapes for higher structures|globular]] strict $3$-categories and $3$-groupoids, to emphasise the underlying geometry.
 
@@ -15,3 +15,5 @@ These are also called [[geometric shapes for higher structures|globular]] strict
 * A strict $3$-category is the same as a [[strict omega-category]] which is trivial in degree $j \geq 4$.
 
 * This is to be contrasted with a _weak $3$-category_ called a [[tricategory]] and a _semistrict $3$-category_ called a [[Gray-category]].
+
+* $\Str\Cat$ has the same underlying category as the [[symmetric monoidal category]] [[Gray]].  However, a category enriched over $\Grey$, a [[Gray-category]], is more general than a strict $3$-category.
