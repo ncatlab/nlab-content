@@ -12,13 +12,19 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
-# 2009-02-16
+# 2009-02-17
+
+* [[Toby Bartels]]:
+  *  Separated [[equivalence of categories]] from [[equivalence]].
+  *  Basically copied [[2-category]] to [[3-category]], then added a bit to the end of each to make the difference nontrivial.  Also created [[strict 3-category]] along similar lines, although it\'s still rather short.
 
 * [[Mike Shulman|Mike]]:
 
   * Introduced the terminology _strict [[homotopy limit]]_ by analogy with [[strict 2-limit]].
 
   * Rearranged [[homotopy pullback]] to make it fit better with [[homotopy limit]].
+
+# 2009-02-16
 
 * [[Toby Bartels]]:
   * Fixed links to [[equivalence]] that should really be to [[weak equivalence]].
