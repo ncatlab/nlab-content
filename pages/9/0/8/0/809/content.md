@@ -1,4 +1,37 @@
-If $K= \{K_n| n \geq 0\}$ is a [[cubical set]], then a [[connection]] structure on $K$ consists of functions $\Gamma^+_i, \Gamma^- _i: K_n \to K_{n+1}$, $i=1, \ldots \, , n; n \geq 1$, satisfying the relations for $\alpha, \beta=\pm$: 
+#Idea#
+
+In a [[cubical set]], you are guaranteed for every $n$-cell (which can be drawn as a 1-cell)
+
+$$a\stackrel{f}{\to}b$$
+
+that there is the identity $(n+1)$-cell (which can be drawn as a 2-cell) of the form
+
+$$\array{
+a & \stackrel{f}{\to} & b \\
+\darr^{Id} & \Downarrow^{Id} & \darr^{Id} \\
+a & \stackrel{f}{\to} & b
+}$$
+
+A cubical set is said to have a connection (no relation to the parallel transport meaning of "connection"!) if in addition it has for every $n$-cell $a\stackrel{f}{\to}b$ also $(n+1)$-cells of the form
+
+$$\array{
+a & \stackrel{f}{\to} & b \\
+\darr^{f} & \Downarrow & \darr^{Id} \\
+b & \stackrel{Id}{\to} & b
+}$$
+
+And so forth. You should think of this as saying that the "thin" cell
+
+$$a\underoverset{f}{f}{\rightrightarrows}b$$
+
+
+is regarded as a degenerate cube by the cubical set in all the possible ways.
+
+So it's a very natural condition, in particular if you think of all these cubical cells as cubical paths in some space.
+
+#Definition#
+
+If $K= \{K_n| n \geq 0\}$ is a [[cubical set]], then a **connection structure on $K$** consists of functions $\Gamma^+_i, \Gamma^- _i: K_n \to K_{n+1}$, $i=1, \ldots \, , n; n \geq 1$, satisfying the relations for $\alpha, \beta=\pm$: 
 
 1. $\Gamma^\alpha_i\Gamma^\beta_j= \Gamma^\beta_{j+1} \Gamma^\alpha _i$ if $i \lt j$; 
 
