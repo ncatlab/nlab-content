@@ -13,7 +13,7 @@ If $C$ is a category [[enriched category|enriched]] or [[internal category|inter
 
 This is especially confusing if one extends the use of "discrete category over $S$" to the case of internal categories, when $S$ is an object of some ambient category.  With this usage, if $S$ is a topological space, then the "discrete internal category over $S$" in [[Top]] will not be discrete in the topological sense: it still remembers the topology on that space.
 
-+--{.query}
+#Discussion#
 
 What is the difference between a discrete category and a [[0-category]]? - [[Eric Forgy|Eric]]
 
@@ -25,4 +25,12 @@ Well, a set is just a set, whereas a discrete category is a set of objects toget
 
 Thanks Mike. I was just looking at [[3-category]] and [[2-category]] and even [[0-category]] and it seemed that in all cases the "higher" identity morphisms were somehow deemed irrelevant. If that is the case, then I didn't see why a discrete category would be "different" then a 0-category, which is just a [[set]], because the identity 1-morphisms were irrelevant. It would make sense to me if a discrete category were morally just a set, but I'm probably confused (as usual). - [[Eric Forgy|Eric]]
 
-=--
+Let me say that again differently. If we look at [[3-category]], it says:
+
+***
+
+Fix a meaning of $\infty$-[[infinity-category|category]], however weak or strict you wish. Then a __$3$-category__ is an $\infty$-category such that every 4-morphism is an [[equivalence]], and all parallel pairs of $j$-morphisms are equivalent for $j \geq 4$. Thus, up to equivalence, there is no point in mentioning anything beyond $3$-morphisms, except whether two given parallel $3$-morphisms are equivalent. This definition may give a concept more general than your preferred definition of $3$-category, but it will be equivalent; basically, you may have to rephrase equivalence of $3$-morphisms as [[equality]].
+
+***
+
+If we take this down from "3" to "0", then I don't see the difference between a 0-category and a discrete category. - [[Eric Forgy|Eric]]
