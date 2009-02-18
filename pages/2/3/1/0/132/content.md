@@ -23,4 +23,6 @@ What is the difference between a set and a discrete category on a set? :) - [[Er
 
 Well, a set is just a set, whereas a discrete category is a set of objects together with a set of arrows as well as source, target, identity, and composition maps (which happen to all be bijections).  The category of sets is equivalent to the category of discrete categories, but not isomorphic to it (unless you play games with the formal definition of "category").  That's all that I meant. - Mike
 
+Thanks Mike. I was just looking at [[3-category]] and [[2-category]] and even [[0-category]] and it seemed that in all cases the "higher" identity morphisms were somehow deemed irrelevant. If that is the case, then I didn't see why a discrete category would be "different" then a 0-category, which is just a [[set]], because the identity 1-morphisms were irrelevant. It would make sense to me if a discrete category were morally just a set, but I'm probably confused (as usual). - [[Eric Forgy|Eric]]
+
 =--
