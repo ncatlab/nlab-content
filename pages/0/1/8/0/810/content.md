@@ -153,7 +153,7 @@ $$\Gamma^+_i a \circ_i\Gamma^-_i a = \varepsilon _{i+1} a, \quad
 \Gamma^+_i a \circ_{i+1}\Gamma^-_i a = \varepsilon_{i}a.  $$
 
 
-These are important **cancellation** laws for the connections. They can be interpreted as saying that turning left and then right, or vice versa, leaves you facing the same way. 
+These are important **cancellation** laws for the connections. They can be interpreted as saying that turning left and then right, or vice versa, leaves you facing the same way.  They were introduced by C.B. Spencer for double categories (see below). 
 
 In the [[omega-groupoid]] case, the $\Gamma^+_i$ can be recovered from the $\Gamma^-_i$ by using the inverses, and vice versa. 
 
@@ -163,6 +163,9 @@ The main result of the second  paper below is that (strict) cubical omega-catego
 
 
 ##References## 
+
+* C.B. Spencer,  "An abstract setting for homotopy pushouts and pullbacks", Cahiers Topologie G\'eom. Diff\'erentielle,
+18 (1977),  409-429.
 
 * R. Brown and P.J. Higgins, The algebra of cubes, _J. Pure
 Appl. Alg.+, 21 (1981), 233--260.
