@@ -84,8 +84,23 @@ $$
 
 Notice the $Id$-labels, which indicate that the edges and faces labeled by them are "thin" in much the same way as an [[identity]] [[morphism]] is thin (notice however that a cubical set by itself is not equipped with a notion of composition of cubes. If it were, we'd call it a [[cubical category]]). 
 
-In an ordinary cubical set all degeneracy maps act in the kind of way depicted above. One might also want to require a cubical set to contain "thin" cells between equal _adjacent_ faces. If the cubical set has this additional property, one calls it a [[connection on a cubical set|cubical set with connection]].
+In an ordinary cubical set all degeneracy maps act in the kind of way depicted above. One might also want to require a cubical set to contain "thin" cells between equal _adjacent_ faces. These **extra degeneracy maps** act by sending 1-cells into degenerate 2-cells of the form
 
+$$\left(\array{
+a&\stackrel{f}{\to}&b
+}\right)
+\;\;
+\mapsto
+\;\;
+\left(\array{
+a & \stackrel{f}{\to} & b \\
+\downarrow^{f} & \Downarrow & \downarrow^{Id} \\
+b & \stackrel{Id}{\to} & b
+}\right)
+\,.
+$$
+
+If the cubical set has this additional property, one calls it a [[connection on a cubical set|cubical set with connection]].
 
 #Geometric realization#
 
