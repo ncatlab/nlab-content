@@ -12,7 +12,7 @@ a & \stackrel{f}{\to} & b \\
 a & \stackrel{f}{\to} & b
 }$$
 
-A cubical set is said to have a connection (no relation to the parallel transport meaning of "connection"!) if in addition it has for every $n$-cell $a\stackrel{f}{\to}b$ also $(n+1)$-cells of the form
+A cubical set is said to have a connection (see below for a  relation to the parallel transport meaning of "connection"!) if in addition it has for every $n$-cell $a\stackrel{f}{\to}b$ also $(n+1)$-cells of the form
 
 $$\array{
 a & \stackrel{f}{\to} & b \\
@@ -54,7 +54,7 @@ The connections are to be thought of as "extra degeneracies". A degenerate cube 
 
  A cube of
 type  $ \Gamma_i^\alpha  x$  has a pair  of adjacent faces equal and
-all other faces of type $\Gamma_j^\alpha  y$  or $\varepsilon_j y$ .
+all other faces of type $\Gamma_j^\alpha  y$  or $\varepsilon_j y$ . So this makes the cubical theory nearer to the simplicial. 
 Cubical complexes with this, and other, structures  have  also
 been considered by Evrard.
 
@@ -72,9 +72,14 @@ $\gamma_i^\alpha   : I^{n+1} \to
 
  where $A(s,t)=\max(s,t), \min(s,t)$ as $\alpha=-,+$ respectively.
 
+The term "connection" was used because of a relation of a generalisation of this idea to path-connections in differential geometry. A principal $G$-bundle $E$ over $B$ gives rise to the Ehresmann  groupoid $Equ(E)$ of $G$-maps between the fibres, and the Moore paths $\Lambda$ on this form a double category $D$ with $Equ(E)$ and $\Lambda(B)$ as edge categories. A connection $\Gamma$ is then a functor from $\Lambda(B)$ to one of the category structures on $D$ which gives a smooth lifting of paths to transport of the fibres. This is the origin of the term [[transport law]] for the relation of connections to composition. 
+
 
 
 ##References## 
+
+* R. Brown and C.B. Spencer,  "Double groupoids and crossed
+modules'', Cah.  Top. G\'{e}om. Diff. 17 (1976) 343-362.
 
 * Evrard, M., "Homotopie des complexes simpliciaux et cubiques", Preprint(1976).
 
