@@ -20,7 +20,7 @@ $$(x_1, \ldots \, , x_n) \mapsto
 We then say that $\alpha$ is the _composite_  of the cubes $\alpha_{(r)}$ and write
 $\alpha = [\alpha_{(r)}]$. The _domain_ of $\alpha_{(r)}$ is
 then the set $\{(x_1,\ldots,x_n) \in I^n : r_i-1 \leq x_i
-\leqslant r_i, 1 \leq i \leq n\}$.
+\leq r_i, 1 \leq i \leq n\}$.
 
 The composite is _in direction_ $j$  if $m_j$ is the only
 $m_i \gt 1,$ and we then write $\alpha = [\alpha_1 , \ldots\, ,
@@ -29,15 +29,15 @@ $k$ $(j \neq k)$  if $m_j$, $m_k$ are the only $m_i \gt 1,$ and we then write
 
 $$\alpha = [ \alpha_{rs}]_{j,k} \quad  or \quad  [ \alpha_{rs}] \quad  _{j}\!\downarrow ^{\textstyle\to ^k} $$
 
-for $r = 1 , \ldots , m_j$ and $s = 1, \ldots \,, m_k.$ The aim is to follow matrix conventions in writing double compositions. 
+for $r = 1 , \ldots\, , m_j$ and $s = 1, \ldots \,, m_k.$ The aim is to follow matrix conventions in writing double compositions. 
 
 These definitions and notations are useful for showing how the singular cubical complex allows expression for _algebraic inverses to subdivision_, something seemingly very difficult either simplicially or globularly. The implications of this advantage for weak category theory seem not to have been investigated. 
 
 
 A _cubical set with connections and compositions and inverses_ is a cubical
 set $K$ with connections in which each $K_n$ has $n$ partial
-compositions $+_i$ and $n$ unary operations $-_i\; i =
-1,2,\ldots,n)$ satisfying the following axioms.
+compositions $+_i$ and $n$ unary operations $-_i$, $i =
+1,2,\ldots \, ,n$ satisfying the following axioms.
 
  If $a,b \in K_n$, then $a+_i b$ is defined if and only if  $ \partial^+_i a=\partial^-_i  b
 $, and then for $\alpha=\pm$:
@@ -155,7 +155,7 @@ $$\Gamma^+_i a \circ_i\Gamma^-_i a = \varepsilon _{i+1} a, \quad
 
 These are important **cancellation** laws for the connections. They can be interpreted as saying that turning left and then right, or vice versa, leaves you facing the same way.  They were introduced by C.B. Spencer for double categories (see below). 
 
-In the [[omega-groupoid]] case, the $\Gamma^+_i$ can be recovered from the $\Gamma^-_i$ by using the inverses, and vice versa. 
+In the [[omega-groupoid]] case, the $\Gamma^+_i$ can be recovered from the $\Gamma^-_i$, and vice versa,  by using the inverses, assumed to arise from the groupoid structure. 
 
 The main result of the first paper below is that (strict) cubical omega-groupoids with connections are equivalent to crossed complexes. It is easy to construct a functor from the former to the latter; the hard work is to show that such an omega-groupoid may be functorially reconstructed from the crossed complex it contains. 
 
