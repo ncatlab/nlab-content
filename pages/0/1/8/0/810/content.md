@@ -116,7 +116,7 @@ $$ \begin{bmatrix} \Gamma^-_j a & \varepsilon_{j+1} b \\
 \varepsilon_{j} b & \Gamma^-_j b  \end{bmatrix} \quad _{j+1}\!\downarrow ^{\textstyle\to ^j} $$
 
 
-
+They can be interpreted as saying that turning left, or right, with your arm outstretched, is the same as turning left, or right. 
 
 
 
@@ -140,12 +140,27 @@ t_{j-1},1-t_j,t_{j+1} ,\ldots,t_n).
 $$
 
 
-The above list of relations may seem formidable, but they all express simple geometric ideas most of which have been in some form or another well used in algebraic topology. 
+The above list of relations may seem formidable, but they all express simple geometric ideas most of which have been well used in some form or another  in algebraic topology. 
 
 Notice also that in the singular cubical complex of a space, the interchange and transport laws hold **exactly**.  
 
 
-We also get a notion of [[cubical omega-category]] with connections by assuming that  all compositions $+_i$ give a category structure with source and target maps $\partial^-_i, \partial^+_i:K_n \to K_{n-1}$ and identity maps $\varepsilon_i: K_{n-1} \to K_n$.  
+
+
+We also get a notion of (strict) [[cubical omega-category]] with connections by assuming that  all compositions $+_i$ give a category structure with source and target maps $\partial^-_i, \partial^+_i:K_n \to K_{n-1}$ and identity maps $\varepsilon_i: K_{n-1} \to K_n$, and also for all $a$ 
+
+$$\Gamma^+_i a \circ_i\Gamma^-_i a = \varepsilon _{i+1} a, \quad
+\Gamma^+_i a \circ_{i+1}\Gamma^-_i a = \varepsilon_{i}a.  $$
+
+
+These are important **cancellation** laws for the connections. They can be interpreted as saying that turning left and then right, or vice versa, leaves you facing the same way. 
+
+In the [[omega-groupoid]] case, the $\Gamma^+_i$ can be recovered from the $\Gamma^-_i$ by using the inverses, and vice versa. 
+
+The main result of the first paper below is that (strict) cubical omega-groupoids with connections are equivalent to crossed complexes. It is easy to construct a functor from the former to the latter; the hard work is to show that such an omega-groupoid may be functorially reconstructed from the crossed complex it contains. 
+
+The main result of the second  paper below is that (strict) cubical omega-categories  with connections are equivalent to strict globular omega-categories. 
+
 
 ##References## 
 
