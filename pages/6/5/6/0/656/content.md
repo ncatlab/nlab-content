@@ -11,4 +11,6 @@ Such a functor is also called a profunctor or [[distributor]].
 
 #Examples#
 
+* Let $V = Set$ and let $C = D$.  Then the hom functor $C(-, -):C^{op} \times C \to Set$ is a bimodule.  Bimodules can be thought of as a kind of generalized hom, giving a set of morphisms (or object of $V$) between an object of $C$ and an object of $D$.
+
 * Let $V = Vect$ and let $C = \mathbf{B}A_1$ and $D = \mathbf{A}_2$ be two one-object $Vect$-enriched categories, whose endomorphism vector spaces are hence [[algebra]]s. Then a $C$-$D$ bimodule is a vector space $V$ with an action of $A_1$ on the left and and action of $A_2$ on the right.
