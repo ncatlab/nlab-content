@@ -16,6 +16,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Mike Shulman|Mike]]: created [[n-fibration]].
 
++--{.query}
+
+Why do I think of the Beach Boys every time I read the word $n$-fibrations? - Eric
+
+=--
+
 * [[Ronnie Brown|Ronnie]]: over the last two days, created [[compositions in cubical sets]] which gives the basic definitions and axioms for cubical sets with compositions and  connections, (and inverses), with the example of the cubical singular complex in mind. 
 
 # 2009-02-18
