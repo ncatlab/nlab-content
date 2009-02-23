@@ -15,7 +15,7 @@ restriction.
 * There is an alternative 'dual' form of this with $\bigcap_{i=0}^{n-1}Ker\,d_i^n$ and with the boundary /  differential $\partial$ induced by the last face map $d^n_n$. The theories run parallel but the fact there are two valid forms can be confusing for the formulae for various derived structures. 
 
 
-*  The notation $NG$ is quite widely used in the literature but can get confused with that sometimes used for the nerve functor, so care is needed.
+*  The notation $NG$ is quite widely used in the literature but can get confused with that sometimes used for the nerve functor, so care is needed. (The $N$ stands for 'normalised'.)
 
 
 #Discussion#
