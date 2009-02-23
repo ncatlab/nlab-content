@@ -12,6 +12,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-02-23
+
+* [[Tim Porter|Tim]]: 
+
+  *  Created an entry on the Conduch&#233; decomposition of the group of $n$-simplices of a simplicial group: [[decomposition theorem for simplicial groups]]. (An idea for renaming this entry would be welcome!)
+  *  Edited [[group T-complex]].
+
 # 2009-02-19
 
 * [[Mike Shulman|Mike]]: created [[n-fibration]].
