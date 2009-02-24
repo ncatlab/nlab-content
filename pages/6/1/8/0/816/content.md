@@ -1,6 +1,6 @@
 #Idea#
 
-The notion of _weighted limit_ is naturally understood from the point of view on [[limit]]s described at [[representable functor]].
+The notion of _weighted limit_ is naturally understood from the point of view on [[limit]]s as described at [[representable functor]].
 
 Weighted limits make sense and are considered in the general context of $V$-[[enriched category theory]], but restrict attention to $V=$ [[Set]] for the moment, in order to motivate the concept.
 
@@ -40,17 +40,54 @@ $$
 
 The **idea** of weighted limits is to 
 
-1. allow in the formular above the particular functor $\Delta pt$ to be replaced by any other functor $W : K \to Set$;
+1. allow in the formula above the particular functor $\Delta pt$ to be replaced by any other functor $W : K \to Set$;
 
 2. to generalize everything straightforwardly from the [[Set]]-[[enriched category|enriched]] context to arbitrary $V$-enriched contexts.
 
 #Definition#
 
+Let $V$ be a [[closed category|closed]] [[symmetric monoidal category]]. All categories in the following are $V$-[[enriched category|enriched categories]], all functors are $V$-functors.
+
+A **weighted limit** over a functor
+
+$$
+  F : K \to C
+$$
+
+with respect to a _weight_ or _indexing type_ functor
+
+$$
+  W : K \to V
+$$
+
+is, if it exists, the object $lim^W F \in V$ which [[representable functor|represents]] the functor
+
+$$
+  [K,V](W, C(-,F(-))) : C^{op} \to V
+  \,,
+$$
+
+i.e. such that for all objects $c \in C$ 
+there is an isomorphism
+
+$$
+  C(c, lim^W F)
+  \simeq
+  [K,V](W(-), C(c,F(-)))
+$$
+
+natural in $c$.
+
 
 #References#
+
+A standard reference is
+
+* M. Kelly, _Basic concepts of enriched category theory_, [section 3.1, p. 37](http://www.emis.de/journals/TAC/reprints/articles/10/tr10.pdf#page=37)
 
 In 
 
 * E. Riehl, _Weighted limits and colimits_ (2008) ([pdf](http://www.math.uchicago.edu/~eriehl/cat/weighted.pdf))
 
-[[Emily Riehl]] gives an account of lectures by [[Mike Shulman]] on the subject.
+[[Emily Riehl]] gives an account of lectures by [[Mike Shulman]] on the subject. The definition appears there as [definition 3.1, p. 4](http://www.math.uchicago.edu/~eriehl/cat/weighted.pdf#page=4) (in a form a bit more general than the one above).
+
