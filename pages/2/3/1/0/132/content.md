@@ -4,7 +4,7 @@ A [[category]] is **discrete** if it contains only identity morphisms.  The idea
 
 Conversely, for $S$ a collection, one says that the _discrete category over $S$_ is the category with $S$ as its collection of objects and only identity morphisms.  
 
-The notion of "discrete category" is [[evil]].  A corresponding non-evil property is that any two parallel morphisms are equal and invertible; this is the same as being [[equivalence of categories|equivalent]] to a discrete category.
+As stated, this definition of "discrete category" is [[evil]], because it states that any two objects with a morphism between them are equal (since this morphism is an identity morphism).  A non-evil version is that any two parallel morphisms are equal and invertible; this is the same as being [[equivalence of categories|equivalent]] to a discrete category as stated above.
 
 
 # Topological meaning #
