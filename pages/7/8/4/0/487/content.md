@@ -10,6 +10,8 @@ _Toby_:  It makes sense to me.  Using 'bi' in bicategories is bad anyway.  But i
 _Mike_: Of course, "bi" in bicategories is bad, but because of people who are used to "bi-" meaning "weak" I think it is better to avoid "bi-" altogether whenever possible.  I wouldn't object too strongly to "bimonomorphism."  But "monic epic" is the same number of syllables as "bimorphism," fewer syllables than "bimonomorphism," and its meaning is (to me) more obvious than either.
 
 I don't think that balanced categories are a very important object of study in their own right, but it is sometimes useful to know that a particular category, or a particular type of category (such as a [[pretopos]]), is balanced.
+
+_Toby_: As it doesn\'t matter too much, we can avoid 'bimorphism' here. But surely you realise that it\'s cheating to compare 'monic epic' and 'bimonomorphism'; you can compare the adjectives 'monic epic' and 'bimonic' or compare the nouns 'monic epimorphism' and 'bimonomorphism' (or compare their abbreviations 'monic epi' and 'bimono' if you like those, although I tend not to use those in writing).
 =--
 
 # Remarks #
