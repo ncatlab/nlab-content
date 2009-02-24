@@ -82,7 +82,11 @@ $$
   \,.
 $$
 
-Notice the $Id$-labels, which indicate that the edges and faces labeled by them are "thin" in much the same way as an [[identity]] [[morphism]] is thin (notice however that a cubical set by itself is not equipped with a notion of composition of cubes. If it were, we'd call it a [[cubical category]]). 
+Notice the $Id$-labels, which indicate that the edges and faces labeled by them are "thin" in much the same way as an [[identity]] [[morphism]] is thin (notice however that a cubical set by itself is not equipped with a notion of composition of cubes. If it were, we'd call it a [[cubical category]]).
+
++--{.query}
+Is this a [[cubical object in Cat]] or a [[cubically enriched category]]?  &#8212;Toby
+=--
 
 In an ordinary cubical set all degeneracy maps act in the kind of way depicted above. One might also want to require a cubical set to contain "thin" cells between equal _adjacent_ faces. These **extra degeneracy maps** act by sending 1-cells to degenerate 2-cells of the form
 
@@ -120,7 +124,7 @@ The notion of cubical set and of homology theory and homotopy theory based on si
 
 Nonetheless cubical sets continued to have a kind of underground existence. 
 
-Brown and Higgins introduced the extra structure of [[connection]]s $\Gamma^\pm_i$ on cubical sets, and included this structure into their cubical  [[omega-groupoid]]s. All this structure was essential for the equivalence with [[crossed complex]]es and for the applications to homotopy theory. For example these omega-groupoids have a canonical structure of [[thin]] elements, defined as any composition of elements of the form $\pm \epsilon_j x, \pm \Gamma^\pm_i$. Such elements have "commuting boundary". 
+Brown and Higgins introduced the extra structure of [[connection on a cubical set|connection]]s $\Gamma^\pm_i$ on cubical sets, and included this structure into their cubical  [[omega-groupoid]]s. All this structure was essential for the equivalence with [[crossed complex]]es and for the applications to homotopy theory. For example these omega-groupoids have a canonical structure of [[thin element]]s, defined as any composition of elements of the form $\pm \epsilon_j x, \pm \Gamma^\pm_i$. Such elements have "commuting boundary". 
 
 The geometric realisation of cubical sets with connections, and the relation with cartesian products, has not yet been analysed. 
 
@@ -139,16 +143,16 @@ For the first of these, we refer to [[compositions in cubical sets]].
 This discusses variations on the cubical set theme and normal forms in several cases. 
 
 
-* Brown, R. and Higgins, P.~J., Tensor products and homotopies for $\omega$-groupoids and crossed complexes.
+* Brown, R. and Higgins, P. J., Tensor products and homotopies for $\omega$-groupoids and crossed complexes.
  _J. Pure Appl. Algebra_ 47 (1987) 1--33.
 
-* Massey, W.~S.,   _Singular homology theory_, _Graduate Texts in
+* Massey, W. S.,   _Singular homology theory_, _Graduate Texts in
   Mathematics_, Volume~70. Springer-Verlag, New York (1980).
 
 
 Section 2 of
 
-* Sjoerd Crans, _Pasting schemes for the monoidal biclosed structure on $\omega-Cat$_ ([web](http://crans.fol.nl/papers/thten.html), [ps](http://crans.fol.nl/papers/thten.ps.gz), [[thten.pdf|pdf:file]])
+* Sjoerd Crans, _Pasting schemes for the monoidal biclosed structure on $\omega$-$\mathbf{Cat}$_ ([web](http://crans.fol.nl/papers/thten.html), [ps](http://crans.fol.nl/papers/thten.ps.gz), [[thten.pdf|pdf:file]])
 
 gives a general discussion of the cube category and of cubical sets. 
 The **cubical identities** satisfied by a cubical set are given in proposition 2.8 on p. 9.
