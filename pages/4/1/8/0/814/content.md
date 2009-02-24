@@ -1,7 +1,8 @@
-##Discussion## 
+#Discussion#
+
 The following observation of Conduch&#233; is very useful when working with [[simplicial groupoid|simplicial groupoids]].
 
-+--{.un_proposition}
++--{.un_prop}
 ######Proposition
 If $G$  is a simplicial group(oid), then $G_n$ decomposes as a
 multiple semidirect product:
@@ -22,6 +23,6 @@ If $G$ is a simplicial group(oid), then $G_n$ decomposes as a
 semidirect product:
 $$G_n \cong Ker d^n_n \rtimes  s^{n-1}_{n-1}(G_{n-1}).$$
 =--
-##Reference##
-D. Conduch&#233;, _Modules crois&#233;s g&#233;n&#233;ralis&#233;s de longueur 2_ , J. Pure Appl. Alg., 34, (1984), 155 
-&#8211; 178.
+
+#Reference#
+D. Conduch&#233;, _Modules crois&#233;s g&#233;n&#233;ralis&#233;s de longueur 2_ , J. Pure Appl. Alg., 34, (1984), 155--178.
