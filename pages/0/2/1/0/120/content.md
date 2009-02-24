@@ -16,4 +16,4 @@ In [[higher category theory]] an **equivalence** often means a morphism which is
 
 # In homotopy theory #
 
-...
+We need [[homotopy equivalence]] and [[weak homotopy equivalence]].
