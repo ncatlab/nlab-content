@@ -12,6 +12,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-02-24
+
+* [[Urs Schreiber|Urs]]
+
+  * added references to [[sheaf]] and [[simplicial set]]
+
+
 # 2009-02-23
 
 * [[Tim Porter|Tim]]: 
