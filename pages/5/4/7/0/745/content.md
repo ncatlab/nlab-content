@@ -64,7 +64,7 @@ _Toby_: Well, I never stick '$E$' in there unless necessary to avoid ambiguity. 
 
 _Mike_: The main reason I don't like unadorned $(f,g)$ for either comma objects or hom-sets is that it's already such an overloaded notation.  My first thought when I see $(f,g)$ in a category is that we have $f:X\to A$ and $g:X\to B$ and we're talking about the pair $(f,g):X\to A\times B$ &mdash; surely also a natural generalization of the _very_ well-established notation for ordered pairs.
 
-_Toby_: $[$ the notion of [[double comma object]] $]$ makes me like $(f_i \to f_j \to f_k)$ for (now double) comma objects even more!
+_Toby_: The notation $(f/g/h)$ for a [[double comma object]] makes me like $(f \to g \to h)$ even more!
 
 _Mike_: I'd rather avoid using $\to$ in the name of an object; talking about projections $p:(f\to g)\to A$ looks a good deal more confusing to me than $p:(f/g)\to A$.
 
