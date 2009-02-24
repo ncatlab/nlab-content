@@ -20,7 +20,7 @@ Following the proof of the Yoneda lemma, representability means precisely this: 
 
 ### Example 1: limits ###
 
-If $F:J\to C$ is a diagram in $C$, we can construct a diagram $\hom_C(-,F)$ in the [[functor category]] $Set^{C^{op}}$ as the composite of $F$ with the curried [[hom-functor]] $C\to\Set^{C^{op}}$.  The object-wise [[limit]] of this diagram in [[Set]], that is, the functor $C^{op}\to\Set$ sending on object $x$ to the set which is the limit of the diagram $\hom_C(x,F):J\to\Set$, is representable iff the diagram $F$ has a limit in $C$; in fact, a representing object for that limit functor is exactly $\lim F$, and we obtain a natural isomorphism
+If $F:J\to C$ is a diagram in $C$, we can construct a diagram $\hom_C(-,F)$ in the [[functor category]] $Set^{C^{op}}$ as the composite of $F$ with the curried [[hom-functor]] $C\to\Set^{C^{op}}$ (the [[Yoneda embedding]]).  The object-wise [[limit]] of this diagram in [[Set]], that is, the functor $C^{op}\to\Set$ sending on object $x$ to the set which is the limit of the diagram $\hom_C(x,F):J\to\Set$, is representable iff the diagram $F$ has a limit in $C$; in fact, a representing object for that limit functor is exactly $\lim F$, and we obtain a natural isomorphism
 
 $$\lim\hom_C(-,F)\cong\hom_C(-,\lim F).$$
 
@@ -28,7 +28,7 @@ For an example in the case of the [[product]], let $c, d$ be objects of $C$, and
 
 $$\hom_C(-, c) \times \hom_C(-, d): C^{op} \to Set;$$ 
 
-that is, the functor which takes an object $x$ of $C$ to the set $\hom_C(x, c) \times \hom_(x, d)$. A product $c \times d$ is precisely a representing or universal object for this presheaf, where the universal element is precisely the pair of projection maps 
+that is, the functor which takes an object $x$ of $C$ to the set $\hom_C(x, c) \times \hom_C(x, d)$. A product $c \times d$ is precisely a representing or universal object for this presheaf, where the universal element is precisely the pair of projection maps 
 
 $$(\pi_c, \pi_d) \in \hom(c \times d, c) \times \hom(c \times d, d)$$ 
 
