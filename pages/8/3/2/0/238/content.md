@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * have a question at the end of [[weighted limit]] for the homotopy coherency experts
+
   * created [[weighted limit]]
 
   * added references to [[sheaf]] and [[simplicial set]]
