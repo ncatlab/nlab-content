@@ -6,4 +6,10 @@ So far, we only discuss [[closed monoidal category|closed monoidal categories]].
 
 While this is less fashionable, in some cases it is more obvious what the correct internal-homs are than what the correct tensor product is, so the latter was originally defined as an adjoint to the former.  This is the case for the [[Gray tensor product]] and was probably the case for [[abelian group]]s as well.
 
+# References #
+
+Closed categories were first defined here:
+
 * Samuel Eilenberg and Max Kelly, _Closed categories_.  Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965).
+
+You can get some of the idea from a [post by Owel Biesel at the $n$-Caf&#233;](http://golem.ph.utexas.edu/category/2009/02/monoidal_closed_categories_and.html#c022133).
