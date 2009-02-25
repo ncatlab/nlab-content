@@ -99,6 +99,79 @@ $$
 
 where $K/k$ denotes the [[over category]] of $K$ over $k$ and $N(K/k)$ denotes its [[nerve]].
 
+For instance in the case that 
+$K = \{r \to t \leftarrow s\}$ is the [[pullback]] diagram we have
+
+$$
+  W(r) = \{r\}
+$$
+$$
+  W(s) = \{s\}
+$$
+$$
+  W(t) = N( \{r \to t \leftarrow s\} )
+$$
+and $W(r \to t) : \{r\} \to \{r \to t \leftarrow s\}$ injects the vertex $r$ into $\{r \to t \leftarrow s\}$ and similarly for $W(s \to t)$.
+
+This implies that for $F : K \to C$ a pullback diagram in the [[SSet]]-eriched category $C$, a $W$-weighted [[cone]] over $F$ with tip some object $c  \in C$, i.e. a natural transformation
+
+$$
+  W \Rightarrow C(c, F(-))
+$$
+
+is
+
+* over $r$ a "morphism" from the tip $c$ to $F(r)$ (i.e. a vertex in the Hom-simplicial set $C(c,F(r))$);
+
+* similarly over $s$;
+
+* over $t$ three "morphisms" from $c$ to $F(t)$ together with 2-cells between them (i.e. a 2-[[horn]] in the Hom-simplicial set $C(c,F(t))$)
+
+* such that the two outer morphisms over $t$ are identified with the morphisms over $r$ and $s$, respectively, postcompoised with the morphisms $F(r \to t)$ and $F(s \to t)$, respectively.
+
+So in total such a $W$-weighted cone looks like
+
+$$
+  \array{
+     &&& c
+     \\
+     & \swarrow &\Rightarrow& \downarrow    
+      &\Leftarrow& \searrow
+     \\
+     F(r) 
+      &&
+     \stackrel{F(r \to t)}{\to}
+      & 
+     F(t)
+      & 
+     \stackrel{F(s \to t)}{\leftarrow}
+     &&
+     F(s)
+  }
+$$
+
+as one would expect for a "homotopy cone".
+
+
+##References for homotopy limits in terms of weighted limits##
+
+Details of this are discussed for instance in the book
+
+* Hirschhorn, _Model categories and their localization_
+
+To compare with the above discussion notice that
+
+* The functor
+$$
+  W := N(K/-)
+$$
+is discussed there in definition 14.7.8 on p. 269. 
+
+* the $V$-enriched hom-category $[K,V]$ which on $V$-functors $S,T$ is the [[end and coend]] $[K,V](S,T) = \int_{k \in K} V(S(k), T(k))$ appears as $hom^K(S,T)$ in definition 18.3.1 (see bottom of the page).
+
+* for $V = $[[SSet]] the above definition of homotopy limit appears in example 18.3.6 (2).
+
+
 
 #References#
 
