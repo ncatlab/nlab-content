@@ -44,6 +44,8 @@ The **idea** of weighted limits is to
 
 2. to generalize everything straightforwardly from the [[Set]]-[[enriched category|enriched]] context to arbitrary $V$-enriched contexts.
 
+Heuristically, the weight $W : K \to V$ encodes the way in which one generalizes the concept of a [[cone]] over a diagram $F$ from something with just a tip from which morphisms are emanating down to $F$ to a more intricate structure over the diagram $F$. For instance in the application to [[homotopy limit]]s discussed below with $V = $[[SSet]] the weight is such that it ensures that not only 1-morphisms are emanating from the tip, but that any triangle formed by these is filled by a 2-cell, every tetrahedron by a 3-cell, etc.
+
 #Definition#
 
 Let $V$ be a [[closed category|closed]] [[symmetric monoidal category]]. All categories in the following are $V$-[[enriched category|enriched categories]], all functors are $V$-functors.
@@ -79,6 +81,25 @@ $$
 natural in $c$.
 
 
+#Examples#
+
+##Homotopy limits##
+
+For $V$ some category of higher structures, the _local_ definition of [[homotopy limit]] over a diagram $F : K \to C$ replaces the ordinary notion of [[cone]] over $F$ by a higher cone in which all triangles of 1-morphisms are filled by 2-cells, all tetrahedra by 3-cells, etc. 
+
+One can convince oneself that for the choise $V =$ [[SSet]] this is realized in terms of the weighted limit $lim^W F$ with the weight $W$ taken to be
+
+$$
+  W : K \to SSet
+$$
+$$
+  W : k \mapsto N(K/k)
+   \,,
+$$
+
+where $K/k$ denotes the [[over category]] of $K$ over $k$ and $N(K/k)$ denotes its [[nerve]].
+
+
 #References#
 
 A standard reference is
@@ -97,6 +118,8 @@ In
 
 #Discussion#
 
+
+A previous version of this entry came with the following discussion.
 
 +-- {: .query}
 
@@ -117,5 +140,9 @@ $$
 where $K/k$ is the [[over category]] of $K$ over $k \in K$ and $N(-)$ is the [[nerve]]. I am thinking that the $W$-weighted limit $lim^W F$ might be a reasonable way to encode a homotopy coherent limit over $F$. How wrong is this? If not so wrong, this will have been discussed somewhere. Where?
 
 [[Mike Shulman|Mike]]: That's exactly right (modulo fibrancy/cofibrancy conditions if there is a model structure hanging around).  This is a very classical way of defining homotopy limits, see Bousfield-Kan or Hirschhorn's book.  It's also mentioned in my own paper on homotopy limits.  Note that $N(K/k)$ can also be identified with the [[bar construction]] $B(K(-,k),K,*)$, making the connection with another way to define homotopy limits.
+
+[[Urs Schreiber|Urs]]: Thanks, Mike. I see. I should have found this earlier in the literature.  I have spent some time with your article, but maybe I still tend to keep getting a bit lost after a while, to be frank.
+
+Anyway, I have incorporated a bit of discussion of homotopy limits as weighted limits in the example section above now. Personally, I still need to figure out the details of the relation of this to the definition of homotopy limit in terms of bar construction which you hint at.
 
 =--
