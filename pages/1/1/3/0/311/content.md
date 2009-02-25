@@ -24,6 +24,8 @@ If $F:J\to C$ is a diagram in $C$, we can construct a diagram $\hom_C(-,F)$ in t
 
 $$\lim\hom_C(-,F)\cong\hom_C(-,\lim F).$$
 
+#### Example ####
+
 For an example in the case of the [[product]], let $c, d$ be objects of $C$, and consider the presheaf given by a product of [[hom-functor|hom-functors]]
 
 $$\hom_C(-, c) \times \hom_C(-, d): C^{op} \to Set;$$ 
@@ -40,6 +42,19 @@ $$(f, g) \in \hom(x, c) \times \hom(x, d)$$
 there exists a unique element in $\hom(x, c \times d)$, denoted $langle f, g \rangle$, such that 
 
 $$\pi_c \langle f, g \rangle = f \qquad \pi_d \langle f, g \rangle = g.$$
+
+### Example 1 a: weighted limits ###
+
+The above example has an important straightforward generalization.
+
+Noticing that the limit over the functor $H : J \to Set$ is just the collection of [[cone]]s over $H$ whose tip is the point
+$$
+  lim H = [J,Set](\Delta pt, H)
+$$ 
+the above expression
+$\lim\hom_C(-,F)$ can be rewritten equivalently as 
+$[J,Set](\Delta pt, C(-,F(-)))$. Replacing in this expression the constant terminal functor $\Delta pt : J \to Set$ by any other functor leads to the notion of [[weighted limit]], as described there.
+
 
 ### Example 2: exponential objects ### 
 
