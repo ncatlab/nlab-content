@@ -4,8 +4,27 @@ Try to make the questions concise; a link to the original page should be include
 
 ## Questions ##
 
-* From [[Froelicher space|Frölicher spaces]]: I want to discuss the following type of "thing": one starts with a category and takes triples $(C,F,c)$ where $C$ is a presheaf, $F$ is a copresheaf, and $c$ is a natural transformation to the $Hom$ functor (composition).  [[Urs Schreiber|Urs]] suggested looking at this in one of the comparative smootheology threads.  This is what I would like to call a "generalised space".  Is it known by some name already?  Is there some literature on this?  I would also like to consider (full) subcategories where there is some extra condition, the most obvious being that $C$ and $F$ satisfy the Isbell duality condition, but there are others.  This generalises the notion of the category of sheaves somewhat.  Is this known and/or studied somewhere?
+### The most abstract way to say "Fr&#246;licher space"? ###
 
-* From [[Froelicher space|Frölicher spaces]]: When considering functor categories such as the above, there's clearly some size issues.  What's the "standard" way to avoid this?  Is it to insist that the original category have a small skeleton?
+From [[Froelicher space|Frölicher spaces]]: I want to discuss the following type of "thing": one starts with a category and takes triples $(C,F,c)$ where $C$ is a presheaf, $F$ is a copresheaf, and $c$ is a natural transformation to the $Hom$ functor (composition).  [[Urs Schreiber|Urs]] suggested looking at this in one of the comparative smootheology threads.  This is what I would like to call a "generalised space".  Is it known by some name already?  Is there some literature on this?  I would also like to consider (full) subcategories where there is some extra condition, the most obvious being that $C$ and $F$ satisfy the Isbell duality condition, but there are others.  This generalises the notion of the category of sheaves somewhat.  Is this known and/or studied somewhere?
 
-* From [[Froelicher space|Frölicher spaces]]: I want to consider the case of a concrete category and a (maybe full) subcategory which can detect which set-morphisms come from the original category.  A bit like the idea that one can detect which set maps are smooth maps between, say, manifolds by testing with smooth maps from $R$.
+[[Urs Schreiber|Urs]]: maybe if we formulate this as much as possible within $V$-[[enriched category theory]] it rings a bell with something in somebody. 
+
+So for $V$ a symmetric closed monoidal category, for $S$ a $V$-enriched category, we are looking for the natural home of diagrams of the form
+
+$$
+  In(-) \otimes Out(-) \to S(-,-)
+  :
+  S^{op} \otimes S \to V
+$$
+
+for $V$-functors $In : S^{op} \to V$ and $Out : S \to V$.
+
+
+#### How to handle size issues in this context? ####
+
+From [[Froelicher space|Frölicher spaces]]: When considering functor categories such as the above, there's clearly some size issues.  What's the "standard" way to avoid this?  Is it to insist that the original category have a small skeleton?
+
+### How to detect morphisms from a concrete category? ###
+
+From [[Froelicher space|Frölicher spaces]]: I want to consider the case of a concrete category and a (maybe full) subcategory which can detect which set-morphisms come from the original category.  A bit like the idea that one can detect which set maps are smooth maps between, say, manifolds by testing with smooth maps from $R$.
