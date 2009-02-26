@@ -1,0 +1,11 @@
+This page is intended as a gathering place for unanswered mathematical queries.  It is particularly intended for those queries on a topic that are most likely to be answerable by an expert from a slightly different area than that of the immediate subject.  Such a person might not look at the original page and so not realise that there is a query there that they can answer.  Think of this as the virtual equivalent of having an equation on the board in your office where passers-by can glance at it and say "Oh, that looks awfully like Kipling's theory of Armadillos.  In fact, I think that the Proposition of the Painted Jaguar would solve your problem there."
+
+Try to make the questions concise; a link to the original page should be included for extra background.
+
+## Questions ##
+
+* From [[Froelicher space|Frölicher spaces]]: I want to discuss the following type of "thing": one starts with a category and takes triples $(C,F,c)$ where $C$ is a presheaf, $F$ is a copresheaf, and $c$ is a natural transformation to the $Hom$ functor (composition).  [[Urs Schreiber|Urs]] suggested looking at this in one of the comparative smootheology threads.  This is what I would like to call a "generalised space".  Is it known by some name already?  Is there some literature on this?  I would also like to consider (full) subcategories where there is some extra condition, the most obvious being that $C$ and $F$ satisfy the Isbell duality condition, but there are others.  This generalises the notion of the category of sheaves somewhat.  Is this known and/or studied somewhere?
+
+* From [[Froelicher space|Frölicher spaces]]: When considering functor categories such as the above, there's clearly some size issues.  What's the "standard" way to avoid this?  Is it to insist that the original category have a small skeleton?
+
+* From [[Froelicher space|Frölicher spaces]]: I want to consider the case of a concrete category and a (maybe full) subcategory which can detect which set-morphisms come from the original category.  A bit like the idea that one can detect which set maps are smooth maps between, say, manifolds by testing with smooth maps from $R$.
