@@ -1,36 +1,16 @@
 #Definition#
 
+
+There are various variants of the notion of something _acting_ on something else. They are all closely related.
+
+
 An **action** of a [[group]] $G$ on an [[object]] $x$ in a [[category]] $C$ is a [[group homomorphism]] $\rho : G \to Aut(x)$, where $Aut(x)$ is the group of [[automorphism|automorphisms]] of $x$.  
+
 
 A more sophisticated but equivalent definition treats the group $G$ as a category denoted $\mathbf{B} G$ with one object, say $*$.  Then an _action_ of $G$ in the category $C$ is just a [[functor]] 
 $$\rho : \mathbf{B} G \to C.$$  
 Here the object $x$ of the previous definition is just $\rho(*)$. 
 
-***
-
-On a previous version of the above entry which used the symbol $G$ instead of $\mathbf{B} G$ we had the following discussion. Now I see that somebody already changed it. Maybe we should wait for [[John Baez|John]] to have a look at this and comment on it and if we find agreement then we can remove this discussion here.
-
-+--{.query}
-  [[Urs Schreiber|Urs]]: I would prefer if we denote 
-a group $G$ when regarded as a one-object groupoid by
-$\mathbf{B} G$, and keep the symbol $G$ for its incarnation
-as a monoidal 0-category.
-We had half of a discussion of this issue 
-at the end of [[category algebra]], where I tried to list
-a couple of arguments for why this practice 
-is good and helpful. 
-Indeed, if the counterargument is that writing 
-$\mathbf{B} G$ is overly scary or the like, I would like
-to make a case that this notation actually makes
-it easier to understand some patterns instead of harder.
-In any case, whatever we decide to do, I would enjoy
-feedback on the points I raised in the discussion
-at the end of [[category algebra]].
-
-Mike: I agree.
-=--
-
-***
 
 More generally we can define an _action_ of a [[monoid]] $M$ in the category $C$ to be a functor
 $$\rho: \mathbf{B} M \to C $$
@@ -39,6 +19,8 @@ where $\mathbf{B} M$ is (again) $M$ regarded as a one-object category.
 The _category of actions_ of $M$ in $C$ is then defined to be the [[functor category]] $C^{\mathbf{B} M}$.
 
 One can also define an _action_ of a category $D$ on the category $C$ as a functor from $C$ to $D$, but usually one just calls this a 'functor'.
+
+Another perspective on the same situation is: a (small) category is a [[monad]] in the category of [[span]]s in [[Set]]. An action of the category is an algebra for this monad. See [[action of a category on a set]].
 
 +--{.query}
 I am wondering if we will need the notion of action which works in categories with product, i.e. $G\times X\to X$ and so on. There is also an action of one Lie algebra on another (for instance in some definitions of crossed module of Lie algebra, where $Aut$ is replaced by the Lie algebra of derivations. (a similar situation would seem to exist in various other categories where action is needed in a slightly wider context. I think most would be covered by an enriched setting but I am not sure.) Thoughts please.[[Tim Porter|Tim]]
