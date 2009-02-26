@@ -54,6 +54,10 @@ Given a morphism $(\alpha, \beta)$, $\gamma \in C_1(U)$, and $\phi \in F_2(U')$ 
 [[Andrew Stacey|Andrew]]: I presume that we need some hypothesis on $\mathcal{U}$ to ensure that the natural transformations form a set.  Is there a concise way to put this?
 
 We should also settle on a convention for what to call $C$ and $F$.  My notation and nomenclature is obviously influenced by Fr&#246;licher spaces but that's not a good basis for making a decision.
+
+[[Mike Shulman|Mike]]: Well, certainly if $U$ is essentially small (equivalent to a small category), then the natural transformations between any two functors $U\to Set$ or $U^{op}\to Set$ form a set, so that your category of generalized spaces will be locally small.  Conversely, it's true (though not obvious) that if the category $Psh(U)$ of Set-valued presheaves on $U$ is locally small, then $U$ is essentially small (although the natural transformations between some _particular_ pair of presheaves could be a set without $U$ being small).  So almost certainly the condition you want is that $U$ is (essentially) small.
+
+I might suggest that maybe the generalities on this page, not specific to Frolicher spaces, would fit better on a page such as "generalized space"?  Although that is such a generic-sounding word that maybe a better name should be found.  "Frolicher object over $U$"?  "Bi-presheaf"?
 =--
 
 Here, $\mathcal{U}(-,-)$ is the $Hom$--functor on $\mathcal{U}$ (strictly, $\mathcal{U}^{op} \times \mathcal{U}$).
@@ -293,6 +297,8 @@ That is to say, for two objects $U_1$ and $U_2$ of $\mathcal{U}$, a map of sets 
 
 +-- {: .query}
 I suspect that there's a proper name for this ...
+
+_Mike_: I don't know a whole lot about the terminology in common use here, but if there is no established term, my inclination would be to call it something like _concretely dense_ or _relatively dense_.  This is because it is equivalent to saying that the functor $U\to CPsh(V)$ is full and faithful, where $CPsh(V)$ is the category of _concrete presheaves_ on $V$, i.e. presheaves on $V$ equipped with a monomorphism to $Set(|-|,S)$ for some set $S$.  And of course _dense_ means that $U\to Psh(V)$ is full and faithful, where $Psh(V)$ is the category of ordinary presheaves on $V$.
 =--
 
 
