@@ -2,6 +2,10 @@ This page is intended as a gathering place for unanswered mathematical queries. 
 
 Try to make the questions concise; a link to the original page should be included for extra background.
 
++--{: .query}
+_Mike_: what is the procedure when answering a question here?  I presume it should be answered on the original page, but at what point does it get removed from this page?  Perhaps one should insert a note here that at least one answer has been given, and let the original asker remove the question from this page if they think it has been fully answered?
+=--
+
 ## Questions ##
 
 ### The most abstract way to say "Fr&#246;licher space"? ###
@@ -25,6 +29,11 @@ for $V$-functors $In : S^{op} \to V$ and $Out : S \to V$.
 
 From [[Froelicher space|Frölicher spaces]]: When considering functor categories such as the above, there's clearly some size issues.  What's the "standard" way to avoid this?  Is it to insist that the original category have a small skeleton?
 
+_Mike_: Yes, you almost certainly want it to be essentially small (see my comment at [[Froelicher space]]).
+
+
 ### How to detect morphisms from a concrete category? ###
 
 From [[Froelicher space|Frölicher spaces]]: I want to consider the case of a concrete category and a (maybe full) subcategory which can detect which set-morphisms come from the original category.  A bit like the idea that one can detect which set maps are smooth maps between, say, manifolds by testing with smooth maps from $R$.
+
+_Mike_: Perhaps "concretely dense" or "relatively dense?"  (See my comment at [[Froelicher space]])
