@@ -1,12 +1,12 @@
 [[!include all changes]]
 
-A list of all entries lately edited is given at
+A list of all recently edited entries can be seen here:
 
 * [Recently Revised](http://ncatlab.org/nlab/recently_revised).
 
-But since that list tends to contain lots of very minor changes and does not make it easy to spot the important new changes, in order to facilitate cooperation [[Contributors|we]] here list comments on changes we made. 
+But that list tends to contain lots of minor changes: it's not easy to spot the important ones.
 
-Drop a comment here if you feel people's attention should be drawn to some changes you made. For instance alert people of major additions or corrections you made.
+So, if you feel people's attention should be drawn to some changes you make, please mention them *here*.  That will help [[Contributors|us]] spot them, so we can learn what you know --- and maybe make further improvements!
 
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).
 
