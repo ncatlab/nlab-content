@@ -39,4 +39,6 @@ I don't think that balanced categories are a very important object of study in t
 _Toby_: As it doesn\'t matter too much, we can avoid 'bimorphism' here. But surely you realise that it\'s cheating to compare 'monic epic' and 'bimonomorphism'; you can compare the adjectives 'monic epic' and 'bimonic' or compare the nouns 'monic epimorphism' and 'bimonomorphism' (or compare their abbreviations 'monic epi' and 'bimono' if you like those, although I tend not to use those in writing).
 
 _Mike_: Yes, of course you're right for the syllable count.  I still maintain that the _meaning_ of "monic epic" is more obvious than either "bimorphism" or "bimonic," which is the more important thing, especially for a little-used concept.
+
+_Mike_: I just remembered another reason I dislike "bimorphism."  One context where people use it is in the study of [[reflective subcategory|reflective]] subcategories, where one talks about "mono-reflective" and "epi-reflective" subcategories to mean that the unit of the reflection is monic or epic, and some people say "bireflective" to mean that the unit is a bimorphism.  But to me, bireflective "obviously" means "reflective and coreflective;" this confused me for quite a whole once.
 =--
