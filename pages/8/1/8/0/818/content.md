@@ -4,6 +4,12 @@ Try to make the questions concise; a link to the original page should be include
 
 +--{: .query}
 _Mike_: what is the procedure when answering a question here?  I presume it should be answered on the original page, but at what point does it get removed from this page?  Perhaps one should insert a note here that at least one answer has been given, and let the original asker remove the question from this page if they think it has been fully answered?
+
+_Andrew_: I think that that is an excellent idea.  I certainly don't see any reason to have a record of these questions (beyond what is forced by being on a wiki).  I also think that it should be primarily up to the questioner to remove the question.
+
+Maybe the page should be a little more structured with "New Questions", "Open Questions", "Partially Answered Questions", and "Answered, 'but just seeing if anyone else has anything to say' Questions".  But maybe first we should see how useful this page is before spending too much time on it.
+
+(though it's already proved its worth for me!)
 =--
 
 ## Questions ##
