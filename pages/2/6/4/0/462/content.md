@@ -1,5 +1,30 @@
 **Geometric function theory** is an approach to [representation theory](http://en.wikipedia.org/wiki/Representation_theory) using structures appearing in the context of [[groupoidification]]. It studies the operation on derived categories of [[sheaf|sheaves]] (i.e. on the [[homotopy category|homotopy categories]] of [[complex|complexes]] of [[sheaf|sheaves]]) through [[span|spans]] of [[groupoid|groupoids]]. 
 
+The main idea is that in a context of generalized spaces $X$ in the form of [[infinity-stack homotopically|infinity-stacks]] one realizes a useful notion of higher "functions" $C(X)$, such that $C(X)$ is a monoidal [[higher category theory|infinity-structure]] in a suitablle sense and behaves as expected under [[homotopy theory|homotopy]] pullback and push-forward operations.
+
+The main two condition that one wants to have in _geometric function theory_ are
+
+1. for $X_1 \to Y \leftarrow X_2$ two generalized spaces sitting over a thrid one, we have an [[equivalence]] between the generalized functions on the [[pullback|fiber product]] $X_1 \times_Y X_2$ and the [[tensor product]] of functions on $X_1$ with functions on $X_2$ over functions on $Y$:
+$$
+  C(X_1 \times_Y X_2)
+  \simeq
+  C(X_1) \otimes_{C(Y)} C(X_2)
+  \,,
+$$
+where all operations are in the 
+suitable $\infty$-context (for instance the fiber product is a [[homotopy limit]]).
+
+2. again for given $X_1 \to Y \leftarrow X_2$ the generalized functions on the (homotopy/$\infty$-)fiber product are supposed to induce via (homotopy/$\infty$-) pull-tensor-push operation through the [[span]] $X_1 \leftarrow X_1 \times_{Y} X_2 \to X_2$ all $C(Y)$-linear morphism between $C(X_1)$ and $C(X_2)$:
+$$
+  C(X_1 \times_Y X_2)
+  \simeq
+  Maps_{C(Y)}(C(X_1), C(X_2))
+  \,.
+$$
+This is to be read as a vast generalization of ordinary matrix multiplication, to which it reduces in the case that all spaces here are finite sets and all functions are ordinary functions on finite sets with values in some field.  One step higher this gives Fourier-Moukai transformations etc.
+
+
+
 #Remarks#
 
 * Toy examples of the general pattern are [[group]] algebra regarded as [[category algebra|category algebras]] (see the end of that entry for the span-description of category algebras). 
