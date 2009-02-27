@@ -31,7 +31,7 @@ $\wedge := a_1 \to \top \leftarrow a_2$.
  * Grandis' higher cubical cospans, which generalize the previous example: these are obtained by restricting the domain posets to be the cartesian powers
 $\wedge^{\times n}$ (with $\wedge$ as above).
 
-An attempt at a discussion of multispans in greater generality is at [[hyperstructure]]&#180;.
+An attempt at a discussion of multispans in greater generality is at [[hyperstructure]].
 
 
 #Related concepts#
