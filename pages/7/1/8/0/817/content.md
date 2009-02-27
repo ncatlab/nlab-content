@@ -4,7 +4,7 @@ In the context of $V$-[[enriched category theory]], for
 $
   F,G : C \to D
 $
-two $V$-enriched functors between $V$-enriched categories, the collection of natural transformation from $F$ to $G$ can also be given the structure of an object in $V$, so that the [[functor category]] denoted $[C,D]$ in the enriched context is itself a $V$-enriched category.
+two $V$-[[enriched functor]]s between $V$-[[enriched category|enriched categories]], the collection of [[natural transformation]]s from $F$ to $G$ can also be given the structure of an object in $V$, so that the [[functor category]], denoted $[C,D]$ in the enriched context, is itself a $V$-enriched category.
 
 #Definition#
 
