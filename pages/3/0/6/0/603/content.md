@@ -69,6 +69,68 @@ Concerning the cobordisms: in the cospan picture, every boundary component expli
 
 [[Mike Shulman|Mike]]: Yes, the point is that a lot of these examples aren't really dagger at all, only [[compact closed category|compact closed]] (which I would prefer to call "autonomous").  My point about cobordisms has to do with orientations.  If $M$ and $N$ are two manifolds sharing a boundary component $B$, then I can glue them along it, but if they are _oriented_ then the gluing will only inherit an orientation if $M$'s boundary component is $B$ and $N$'s boundary component is $B^{op}$.  So it's just like rings; the category of oriented cobordisms is not dagger, only compact closed.  An oriented cobordism from $A$ to $B$ is not the same as an oriented cobordism from $B$ to $A$, but it is an oriented cobordism from $B^{op}$ to $A^{op}$.
 
+[[Urs Schreiber|Urs]]: True. I am not sure about the best answer yet, but have thought about the following:
+
+Suppose we have a span
+
+$$
+  A \leftarrow C \to B 
+$$
+
+and want to think of its index objects $A$ and $B$ to carry an orientation which gets reversed when we flip the legs around to 
+
+$$
+  B \leftarrow C \to A 
+  \,.
+$$
+
+We might be able to emulate this within the setting described below by supposing that there are two different dummy objects $\bullet$ and $\circ$ around which behave at least to some extent like initial objects and that the original span was secretly really the multispan 
+
+$$
+  \array{
+     && \bullet
+     \\
+     & \swarrow && \searrow
+     \\
+     A &\leftarrow& C &\to& B
+     \\
+     & \nwarrow && \nearrow
+     \\
+     && 
+     \circ
+  }
+  \,.
+$$
+
+Now, if in this multispan we want to exchange the original two legs, we could for instance rotate the entire multispan by a half turn to get
+
+$$
+  \array{
+     && \circ
+     \\
+     & \swarrow && \searrow
+     \\
+     B &\leftarrow& C &\to& A
+     \\
+     & \nwarrow && \nearrow
+     \\
+     && 
+     \bullet
+  }
+  \,.
+$$
+
+This would introduce the desired orientation on objects, as the second multispan behaves like
+
+$$
+  B^{op} \leftarrow C \to A^{op}
+  \,.
+$$
+
+For this to work out as desired, we would of course have to concentrate on planar multispans and disallow identification of multispans that can be turned into each other by reflections at lines in the plane. 
+
+
+
 =--
 
 ***
@@ -442,6 +504,8 @@ I am thinking of the difference between the above "flabby" version and the non-f
 
 [[Mike Shulman|Mike]]: Using cocontinuous functors will make the lifts unique, at least up to isomorphism.  It doesn't seem that you've included any information about isomorphisms, but perhaps that can be remedied with higher spans or with presheaves of groupoids or categories.  But I don't see the "flabby" version as very much like a Kan complex; in a Kan complex the fillers of horns _are_ unique up to homotopy, because of the higher-dimensional horn-filling conditions, but I don't see anything like that going on here.
 
+[[Urs Schreiber|Urs]]: But we have these higher filling conditions here automatically, too: if there are two different multispans which glue two given ones, they share these two given ones and can be glued along them. This should say that any two fillers are themselves connected by a filler.
+
 =--
 
 ### Bordism hyperstructure ###
@@ -470,6 +534,21 @@ Let $ExtendedCobordisms$, the **hyperstructure of extended cobordisms**, be the 
 
 +--{.query}
 [[Mike Shulman|Mike]]: In order for that to make sense, you need there to be a smallest sub-hyperstructure such that (blah).  But I don't see any reason for that to exist; the intersection of sub-hyperstructures need not be a hyperstructure.  Even in a simplicial set the intersection of sub-Kan-complexes need not be a Kan complex; if $X$ contains one filler for a given horn and $Y$ contains a different filler, then $X\cap Y$ may contain no filler at all.
+
+[[Urs Schreiber|Urs]]: I agree that it is not a priori clear that some smallest hyperstructure with a given property exists. But I am not sure that I see what this has to do with intersections. Shouldn't we we be looking at _inclusions_?
+
+But in the particular case at hand, it feels that this smallest hyperstructure should certainly exist, no? I should think about formalizing it, but heuristically it should be given by the colimit over inclusions of the following steps for building it:
+
+* start with the interval cospans and take all ways to glue the interval with copies of itself.
+
+1. then include for everey multi-cospan obtained so far also its product with the interval cospans;
+
+2. then form all composites of multi-cospans obtained so far
+
+3. then continue with 1. .
+
+
+
 =--
 
 This means that multi-cospans in $ExtendedCobordisms$ arise from iteratively tensoring with the interval and forming pushouts, which amounts to foming [[co-span co-trace]]s.
@@ -606,4 +685,7 @@ $$
 and now restricting along a suitable inclusion of posets, we get
 $$ \array{ [0,2] \\ \uparrow \\ \{1\}}$$
 and we can now glue this to another interval along the point $1$, obtaining a wedge of three copies of the interval.  I think the things you glue along should somehow be "canceled out" and no longer appear as sub-cells of the glued result (this is certainly what happens in the case of modules).
+
+[[Urs Schreiber|Urs]]: true. I need to think about a nice way to formalize such a cancellation.
+
 =--
