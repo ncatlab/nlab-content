@@ -57,7 +57,7 @@ $$\theta_c = \pi_c f$$
 for all objects $c$ of $C$. 
 
 
-### End of $C$-valued functors for $C \in V-Cat$ ###
+### End of $C$-valued functors for $C \in V\Cat$ ###
 
 If $X$ is any $V$-enriched category and $F: C^{op} \otimes C \to X$ is a $V$-enriched functor, then the **end** of $F$ in $X$ is an object $\int_{c: C} F(c, c)$ of $X$ equipped with an $Ob(C)$-indexed family of arrows 
 $$\pi_c: I \to X(\int_{c: C} F(c, c), F(c, c))$$ 
