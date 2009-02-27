@@ -18,3 +18,7 @@ Currently a comprehensive **textbook** is in preparation. It is not done yet, bu
 Meanwhile, there is the website
 
 * Ronald Brown, Philip J. Higgins and Rafael Sivera, _Nonabelian algebraic topology _ ([web](http://www.bangor.ac.uk/~mas010/nonab-a-t.html)).
+
++-- {: .query}
+This link is broken. Is there a current version? A quick Google search didn't find me anything useful.
+=--
