@@ -9,8 +9,12 @@ From this perspective one fundamental way to realize an action of some entity $K
 
 $$
   \rho : K \to C
-  \,.
 $$
+or
+$$
+  \rho : \mathbf{B} K \to C
+$$
+
 
 Here the collection $\sqcup_{k \in Obj(k)} \rho(k)$ of objects in $C$ in the image of objects of $K$ is "what $K$ is acting on" and the images of the morphisms in $K$ under $\rho$ produce the action itself.
 
