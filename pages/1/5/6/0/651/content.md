@@ -58,6 +58,8 @@ We should also settle on a convention for what to call $C$ and $F$.  My notation
 [[Mike Shulman|Mike]]: Well, certainly if $U$ is essentially small (equivalent to a small category), then the natural transformations between any two functors $U\to Set$ or $U^{op}\to Set$ form a set, so that your category of generalized spaces will be locally small.  Conversely, it's true (though not obvious) that if the category $Psh(U)$ of Set-valued presheaves on $U$ is locally small, then $U$ is essentially small (although the natural transformations between some _particular_ pair of presheaves could be a set without $U$ being small).  So almost certainly the condition you want is that $U$ is (essentially) small.
 
 I might suggest that maybe the generalities on this page, not specific to Frolicher spaces, would fit better on a page such as "generalized space"?  Although that is such a generic-sounding word that maybe a better name should be found.  "Frolicher object over $U$"?  "Bi-presheaf"?
+
+[[Andrew Stacey|Andrew]]: Yes, I was coming round to the idea of having a separate "generalised space" page, but wanted to know what to call it first - hence my first question on [[request for help]].
 =--
 
 Here, $\mathcal{U}(-,-)$ is the $Hom$--functor on $\mathcal{U}$ (strictly, $\mathcal{U}^{op} \times \mathcal{U}$).
