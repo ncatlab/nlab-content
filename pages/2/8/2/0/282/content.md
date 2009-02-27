@@ -21,4 +21,6 @@ Meanwhile, there is the website
 
 +-- {: .query}
 This link is broken. Is there a current version? A quick Google search didn't find me anything useful.
+
+*  [[Tim Porter]]:  Bangor's servers were `got at' a short time ago and there seems to be maintenance many nights so try again.  The link worked for mem but that may not be a good test! 
 =--
