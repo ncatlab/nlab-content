@@ -60,7 +60,7 @@ See also [[crossed n-cube]] for an alternative description.
 
 [[Ronnie Brown|Ronnie]]  Agreed, and I have corrected that. This is important since an [[n-category]] internal to [[Grp]] is equivalent to a single vertex [[crossed complex]]  of length $n+1$. 
 
-
+It is not so clear how to construct a homotopical functor from $n$-cubes of _non pointed spaces_, and what should be the receiving category. 
 =--
 
 ###Reference###
@@ -68,7 +68,7 @@ The original proof of Loday's result is to be found in
 
 J.-L. Loday, _Spaces with finitely many nontrivial homotopy groups_, J.Pure Appl. Alg., 24, (1982), 179 &#8211; 202.
 
-There are one or two gaps in that proof and various patches and complete proofs were then given. The main one is in 
+This paper also uses the term n-cat-group, but we later used the term cat$^n$-group to make it clearer that these were an [[n-fold category]] [[internal]] to [[Grp]]. There are one or two gaps in that proof and various patches and complete proofs were then given. The main one is in 
 
 R. Steiner, Resolutions of spaces by cubes of fibrations. J. London Math. Soc. (2) 34 (1986), 169-176.
 
