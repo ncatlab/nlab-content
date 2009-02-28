@@ -64,11 +64,11 @@ See also [[crossed n-cube]] for an alternative description.
 ###Reference###
 The original proof of Loday's result is to be found in
 
-J.-L. Loday, _Spaces with finitely many homotopy groups_, J.Pure Appl. Alg., 24, (1982), 179 &#8211; 202.
+J.-L. Loday, _Spaces with finitely many nontrivial homotopy groups_, J.Pure Appl. Alg., 24, (1982), 179 &#8211; 202.
 
 There are one or two gaps in that proof and various patches and complete proofs were then given. The main one is in 
 
-R. Steiner, Resolutions of spaces by $n$-cubes of fibrations. J. London Math. Soc. (2) 34 (1986), 169-176.
+R. Steiner, Resolutions of spaces by cubes of fibrations. J. London Math. Soc. (2) 34 (1986), 169-176.
 
 
 A proof using $cat^n$-groups and a neat detailed analysis of multisimplicial groups and related topics was given in
