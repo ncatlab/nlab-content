@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-02-28
+
+*  [[Tim Porter|Tim]] Added new material to [[crossed square]].
+
 # 2009-02-27
 
 * [[Urs Schreiber|Urs]]
