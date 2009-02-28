@@ -1,5 +1,5 @@
 ##Idea##
-A _$cat^n$-group_ is a strict [[n-category]] [[internal category|internal]] to [[Grp]]. 
+A _$cat^n$-group_ is a strict [[n-fold category]] [[internal category|internal]] to [[Grp]]. 
 
 Regarding a [[group]] as a [[groupoid]] with a single object, this is the same as an [[n-fold category|(n+1)-fold groupoid]] in which in one direction all morphisms are endomorphisms.
 
@@ -53,12 +53,14 @@ See also [[crossed n-cube]] for an alternative description.
 
 #Remarks#
 
-* Even though $cat^n$-groups are examples of strict [[n-category|n-categories]], Loday has shown that the [[homotopy category]] of $cat^{n-1}$-groups is equivalent to that of spaces which are pointed connected [[homotopy n-type]]s. Hence for $cat^n$-groups (thought of as $(n+1)$-fold groupoids) the [[homotopy hypothesis]] is true in this sense. See there for more details.
+* Even though $cat^n$-groups are examples of strict [[n-fold category|n-fold categories]], Loday has shown that the [[homotopy category]] of $cat^{n-1}$-groups is equivalent to that of spaces which are pointed connected [[homotopy n-type]]s. Hence for $cat^n$-groups (thought of as $(n+1)$-fold groupoids) the [[homotopy hypothesis]] is true in this sense. See there for more details.
 
 +-- {.query}
 [[Tim Porter|Tim]] Is the first statement above correct? $Cat^n$-groups are examples of strict (n+1)-fold categories, not strict n=categories or am I missing something?
 
-[[Ronnie Brown|Ronnie]] I have corrected that. cat^1-groups are equivalent to crossed modules which model homotopy 2-types. 
+[[Ronnie Brown|Ronnie]]  Agreed, and I have corrected that. This is important since an [[n-category]] internal to [[Grp]] is equivalent to a single vertex [[crossed complex]]  of length $n+1$. 
+
+
 =--
 
 ###Reference###
