@@ -4,8 +4,8 @@ For example, there should be a $0$-[[0-category|category]] of $(-1)$-groupoids; 
 $$
   (-1)Grpd := \{\bot, \top\}
 $$
-Actually, we should expect the $0$-category of $(-1)$-groupoids to be a $(0,1)$-category, or $1$-[[poset]]; this is simply a [[poset]], and indeed truth values do always form a poset, classically ($\bot \leq \top$).
+Actually, since for other values of $n$, $n$-groupoids form not just an $(n+1)$-category but an $(n+1,1)$-category, we should expect the $0$-category of $(-1)$-groupoids to be a $(0,1)$-category, or $1$-[[poset]].  This simply means a [[poset]], and indeed truth values do always form a poset, classically ($\bot \leq \top$).
 
-If we equip the category of $(-1)$-groupoids with the monoidal structure of [[conjunction]] (the logical AND operation), then a [[enriched category|groupoid enriched]] over this is an [[equivalence relation]].  Up to [[equivalence of categories]], this is the same as a [[set]] (a $0$-[[0-groupoid]]); this fits the patterns of the periodic table.
+If we equip the category of $(-1)$-groupoids with the monoidal structure of [[conjunction]] (the logical AND operation), then a [[enriched category|groupoid enriched]] over this is an [[equivalence relation]], and a category enriched over it is a [[preorder]].  Up to [[equivalence of categories]], these is the same as a [[set]] (a $0$-[[0-groupoid|groupoid]]) and a [[poset]] (a (0,1)-[[1-poset|category]]); this fits the patterns of the periodic table.
 
 See [[(-1)-category]] for more on this sort of 'negative thinking'.
