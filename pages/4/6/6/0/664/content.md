@@ -1,6 +1,6 @@
 #Idea#
 
-* A [[crossed module]] is the 'algebraic core' of a $\cat^1$-[[at-1-group|group]], in as much as within a $\cat^1$-group we can find a crossed module in a simple way from which the whole of the $\cat^1$-group in all its glory can be reconstructed.
+* A [[crossed module]] is the 'algebraic core' of a $\cat^1$-[[cat-1-group|group]], in as much as within a $\cat^1$-group we can find a crossed module in a simple way from which the whole of the $\cat^1$-group in all its glory can be reconstructed.
 
 * A [[crossed square]] is similarly the 'algebraic core' of a $\cat^2$[[cat-2-group|group]].
 
