@@ -1,23 +1,26 @@
-#Idea#
-For [[nice topological space|'nice' spaces]], i.e., CW-complexes, a weak [[homotopy equivalence]] is the same as a homotopy equivalence.  Here a weak homotopy equivalence is a map which induces an isomorphism on all [[homotopy group]]s:
+# Idea #
+
+A homotopy $n$-type is a space where we consider its properties only up to the $n$th [[homotopy group]] $\pi_n$.
+
+# Motivation #
+
+For [[nice topological space|'nice' spaces]], e.g., CW-complexes, a weak [[homotopy equivalence]] is the same as a homotopy equivalence.  Here a weak homotopy equivalence is a map which induces an isomorphism on all [[homotopy group]]s:
 $$f:X\to Y \Leftrightarrow \pi_k(f) : \pi_k(X)\to \pi_k(Y)$$
-for all $k \geq 0$ and all choices of base point.
+for all $k \geq 0$ and all choices of base point.  (For [[simplicial group]]s or [[groupoid]]s, we have a similar notion.)
 
-(For [[simplicial group]]s or [[groupoid]]s, we have a similar notion.)
+What if we only have that $\pi_k(f)$ is an isomorphism up to some dimension, $n$, what can we say about the 'homotopy types'? Any space is equivalent in this truncated form to a space with trivial homotopy groups above level $n$, so can we find reasonably complete _algebraic_ models for such $n$-types.
 
-What if we only have that $\pi_k(f)$ is an isomorphism up to some dimension, $n$, what can we say about the 'homotopy types'. Any space is equivalent in this truncated form to a space with trivial homotopy groups above level $n$, so can we find reasonably complete _algebraic_ models for such $n$-types.
+# Definition #
+
+A continuous map $X \to Y$ is a **homotopy $n$-equivalence** if it induces isomorphisms on $\pi_i$ for $0 \leq i \leq n$ at each basepoint.  Two spaces share the same **homotopy $n$-type** if they are linked by a zig-zag chain of homotopy $n$-equivalences.
+
+More formally, inverting the $n$-equivalences in a category $\Sp$ of nice spaces gives a category $\Ho_n(\Sp)$ and two spaces have the same **homotopy $n$-type** if they are isomorphic in $\Ho_n(\Sp)$.
+
+For any nice space $X$, you can kill its homotopy groups in higher dimensions by attaching cells, thus constructing a new space $Y$ so that the inclusion of $X$ into $Y$ is a homotopy $n$-equivalence; up to (weak) [[homotopy equivalence]], the result is the same for any space with the same homotopy $n$-type as $X$.  Accordingly, a **homotopy $n$-type** may alternatively be defined as a space with trivial $\pi_i$ for $i \gt n$, or as the unique (weak) [[homotopy type]] of such a space, or as its fundamental $\infty$-[[fundamental infinity-groupoid|groupoid]] (which should be an $n$-[[n-groupoid|groupoid]], by one direction of the [[homotopy hypothesis]]).
+
+# Algebraic models #
 
 We will use simplicial groups and simplicial groupoids rather than spaces below as they are already partially algebraicised.
- 
-#Definitions#
-
-
-
- A morphism $f : G \to H$ of simplicial group(oid)s is an **$n$-equivalence** if the induced homomorphisms, $\pi_k(f) : \pi_k(G)\to \pi_k(H)$ are isomorphisms for all $k \lt n$.
- 
- Inverting the $n$-equivalences in $Simp.Grps$ gives a category $Ho_n(Simp.Grps)$ and two simplicial groups have the same **$n$-type** if they are isomorphic in $Ho_n(Simp.Grps)$.
-
-#Remarks#
 
 Considerable effort has gone into finding 'good' algebraic models for (connected) homotopy $n$-types. In low dimensions the results are 'old' or 'classical'.  (We will consider connected cases only.  The extension to the non-connected case is 'routine'.)
 
@@ -40,5 +43,4 @@ Crossed complexes capture operations of the fundamental groupoid, but not quadra
 
 *(Conjecture) double crossed complexes capture the quadratic information on homotopy types, triple crossed complexes capture the cubic information, etc., etc. 
 
-This has the possibility of leading to computations, by applying [[van Kampen theorem]]s to specific levels.  
-
+This has the possibility of leading to computations, by applying [[van Kampen theorem]]s to specific levels.
