@@ -4,6 +4,6 @@ where $(f/g)$ and $(g/h)$ are the ordinary [[comma object]]s.  It can also be ch
 
 ### Examples
 
-* If $A=C=1$ are the [[terminal category]] in [[Cat]] and $g$ is the identity functor, then $f=x$ and $h=y$ are objects of $D$ and $(f/g/h) = (x/D/y)$ is sometimes called the **[[over category|over]]-[[under category|under]]-category**.
+* If $A=C=1$ are the [[terminal category]] in [[Cat]] and $g$ is the identity functor, then $f=x$ and $h=y$ are objects of $D$ and $(f/g/h) = (x/D/y)$ is sometimes called the **[[slice category|over]]-[[under category|under]]-category**.
 
 * If $f,g,h$ are all the identity functor of $A$, then $(f/g/h)$ is the [[power]] $A^{(\to\to)}$, the "object of composable pairs in $A$."
