@@ -2,6 +2,7 @@
 
 #entries related to topology#
 
+* [[generalized smooth space]]
 * [[model structure on topological spaces]]
 * [[nonabelian algebraic topology]]
 * [[nice topological space]]
