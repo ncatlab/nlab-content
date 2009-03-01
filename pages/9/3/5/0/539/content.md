@@ -7,3 +7,5 @@ But now I recall that [[John Baez|John]] [uses](http://arxiv.org/PS_cache/arxiv/
 Which terminology should we use? What's the standard term for the category of measure spaces?
 
 _Toby_: You can distinguish them as $\MeasSp$ and $\MeasCat$. But by default, I would expect $\Meas$ to mean $\MeasSp$. (Unless there was some sense that $\Meas\Sp$ can be built out of $\Sp$ and some operator $\Meas$, kind of like how $\Gray\Cat$ is $\Gray-\Cat$ for suitable [[Gray]]. But life is probably not that beautiful.)
+
+category: category
