@@ -2,7 +2,7 @@
 
 Many structures whose "traditional" definition takes place in [[Set]] can be formulated "internally" to any other category (or categorical structure) $C$ with "enough structure."  The structure required on $C$ is often referred to as a [[doctrine]], although it is not necessarily obvious that it will always be a doctrine in the formal sense (that is, a [[2-monad]]).
 
-Like [[categorification]], there is currently no completely general formal definition of this process, although there are one or two fairly general theorems.  However, its reverse is precise: given a doctrine $D$ to which $\Set$ (or some canonical Set-like category) belongs and a definition of foo internalized in the doctrine $D$, if this definition of foo in $\Set$ reduces to the usual definition of foo, then the definition is acceptable; foos are a _deinternalisation_ of internal foos.
+Like [[vertical categorification|categorification]] or [[horizontal categorification|oidification]], there is currently no completely general formal definition of this process, although there are one or two fairly general theorems.  However, its reverse is precise: given a doctrine $D$ to which $\Set$ (or some canonical Set-like category) belongs and a definition of foo internalized in the doctrine $D$, if this definition of foo in $\Set$ reduces to the usual definition of foo, then the definition is acceptable; foos are a _deinternalisation_ of internal foos.
 
 #Examples#
 
@@ -42,7 +42,7 @@ Perhaps from the perspective of this page, internal categories and enriched cate
 
 #General Results#
 
-Often, the structure on the ambient category $C$ allowing a certain type of structure to be internalized in it is itself a [[categorification|categorified]] version of that same structure (for example, monoids in monoidal categories).  This is an example of the [microcosm principle](http://golem.ph.utexas.edu/category/2008/12/the_microcosm_principle.html).
+Often, the structure on the ambient category $C$ allowing a certain type of structure to be internalized in it is itself a [[vertical categorification|categorified]] version of that same structure (for example, monoids in monoidal categories).  This is an example of the [microcosm principle](http://golem.ph.utexas.edu/category/2008/12/the_microcosm_principle.html).
 
 As one formal result along these lines, Tom Leinster has shown that for any [[cartesian monad]] $T$, $T$-algebras can be naturally internalized/enriched in $T$-multicategories, and in particular in $T$-structured categories.  For example, when $T$ is the monad whose algebras are monoids, this says that monoids can be internalized in multicategories and monoidal categories.
 
