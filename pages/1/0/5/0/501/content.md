@@ -12,7 +12,7 @@ In [[constructivism|constructive mathematics]], and internally to a [[topos]], a
 
 * A set is **finitely indexed** (also called **Kuratowski-finite**, **K-finite**, or even sometimes, confusingly, _subfinite_) if it is a surjective image of some finite set.
 
-* A set is **subfinitely indexed** (also called **$\tilde{K}$-finite**) if it admits a surjection from a subfinite set, or equivalently admits an injection to a finitely indexed set; that is, it is a [[subquotient]] of a finite set.
+* A set is **subfinitely indexed** (also called **$\tilde{K}$-finite**) if it admits a surjection from a subfinite set, or equivalently admits an injection to a finitely indexed set; that is, it is a [[subquotient set]] of a finite set.
 
 * A set is **Dedekind-finite** if any injection from it to itself must be a bijection.  In contrast to the previous three notions, Dedekind-finite infinite sets can coexist with [[excluded middle|PEM]], although [[countable choice]] suffices to banish them.
 
