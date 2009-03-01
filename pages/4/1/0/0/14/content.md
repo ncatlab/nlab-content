@@ -2,9 +2,11 @@
 
 #History#
 
-The [[HomePage|nLab]] is a _collaborative [wiki](http://en.wikipedia.org/wiki/Wiki)_ which has grown out of the desire ([I](http://golem.ph.utexas.edu/category/2007/09/towards_a_higherdimensional_wi.html), [II](http://golem.ph.utexas.edu/category/2008/11/beyond_the_blog.html)) of an on-line community communicating via the weblog [The <em>n</em>-Category Caf&eacute;](http://golem.ph.utexas.edu/category/) of people interested in discussion of expository and research nature about [[mathematics]], [[physics]] and [[philosophy]] in the light of [[category theory]] and [[higher category theory]] (the "$n$" in "$n$Lab") to have a place for development (the "Lab" in "$n$Lab") and indexed archivation of the ideas and concepts that were, are and will be subject of or that developed out of the discussion at the weblog.
+The [[HomePage|nLab]] is a _collaborative [wiki](http://en.wikipedia.org/wiki/Wiki)_ which has grown out of the desire ([I](http://golem.ph.utexas.edu/category/2007/09/towards_a_higherdimensional_wi.html), [II](http://golem.ph.utexas.edu/category/2008/11/beyond_the_blog.html)) of an on-line community communicating via the weblog [The $n$-Category Caf&#233;](http://golem.ph.utexas.edu/category/) of people interested in discussion of expository and research nature about [[mathematics]], [[physics]] and [[philosophy]] in the light of [[category theory]] and [[higher category theory]] (the "$n$" in "$n$Lab") to have a place for development (the "Lab" in "$n$Lab") and indexed archivation of the ideas and concepts that were, are and will be subject of or that developed out of the discussion at the weblog.
 
 The $n$Lab was [created](http://golem.ph.utexas.edu/category/2008/11/nlab.html) in November 2008 using software provided and set up by [[Jacques Distler]].
+
+The $n$Lab itself spun off the [$n$-Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/) for discussion about the $n$Lab that doesn\'t fit well here.
 
 ##Technology behind the $n$Lab##
 
@@ -41,7 +43,7 @@ These points together imply that
 
 * at the same time we want to indicate clearly which part of an entry is traditional common material, which is a modern but widely-accepted reformulation and which is genuinely the result of original research by a contributor or by several contributors;
 
-* we will intersperse possibly controversial but always constructive **discussion** into entries if we feel the need. While in general the [nCategory Caf&eacute;](http://golem.ph.utexas.edu/category) is where we have chat and discussion and the $n$Lab is where we compile material, few entries on the $n$Lab are or can be meant as representing a final truth. The $n$Lab will be the better the more we discuss its contents. For more on how to inject discussion into entries see the [[HowTo]] page.
+* we will intersperse possibly controversial but always constructive **discussion** into entries if we feel the need. While in general the [$n$-Category Caf&#233;](http://golem.ph.utexas.edu/category) is where we have chat and discussion and the $n$Lab is where we compile material, few entries on the $n$Lab are or can be meant as representing a final truth. The $n$Lab will be the better the more we discuss its contents. For more on how to inject discussion into entries see the [[HowTo]] page.
 
 
 ##What the $n$Lab is not
