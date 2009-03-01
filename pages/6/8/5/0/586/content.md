@@ -4,7 +4,7 @@ As there are already at least five distinct notions of finite set in [[construct
 
 # Definitions
 
-The _external_ version of a "finite set" in the strictest sense is usually called a **finite cardinal**.  This is an object $[n]$ which is the pullback of $N_{\lt}\to N$ along some [[global element]] $n:1\to N$.  Here $N$ is a [[natural numbers object]] and $N_{\lt} \hookrightarrow N\times N$ is its strict order relation.  We can then consider [[subobject]]s, [[quotient]]s, and [[subquotient]]s of finite cardinals to obtain external versions of subfinite, finitely indexed, and subfinitely indexed sets.
+The _external_ version of a "finite set" in the strictest sense is usually called a **finite cardinal**.  This is an object $[n]$ which is the pullback of $N_{\lt}\to N$ along some [[global element]] $n:1\to N$.  Here $N$ is a [[natural numbers object]] and $N_{\lt} \hookrightarrow N\times N$ is its strict order relation.  We can then consider [[subobject]]s, [[quotient object]]s, and [[subquotient object]]s of finite cardinals to obtain external versions of subfinite, finitely indexed, and subfinitely indexed sets.
 
 The full subcategory of finite cardinals in any topos is again a topos, and it is [[Boolean topos|Boolean]].  Its [[subobject classifier]] is $2=1\sqcup 1$, which in the ambient topos is the classifier only of [[decidable object|decidable]] subobjects.  This means that classically valid arguments, including all of finitary combinatorics, can generally be applied easily to finite cardinals, as long as we always interpret "subset" to mean "decidable subset."
 
