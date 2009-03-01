@@ -17,6 +17,7 @@
 * [[equality]]
 * [[evil]]
 * [[infinity-topos]]
+* [[internal logic]]
 * [[philosophy]]
 * [[predicativism]]
 * [[truth value]]
