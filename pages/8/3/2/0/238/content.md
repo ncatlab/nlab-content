@@ -14,7 +14,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-03-01
 
-[[Toby Bartels]]:  Spun [[simplicial groupoid]] off of [[simplicially enriched category]].  Experts please check that the definitions there (based somewhat on a remark in [[Dwyer-Kan loop groupoid]]) are correct.
+[[Toby Bartels]]:
+*  Created a bunch of articles on specific notions of $n$-category, especially for $n \leq 3$: [[3-poset]], [[3-groupoid]], [[n-poset]], [[2-poset]], [[locally posetal 2-category]], [[2-groupoid]], [[1-category]], [[1-poset]], [[1-groupoid]], [[(-2)-groupoid]], [[(-1)-poset]].  Similarly, I moved some material from [[(-1)-groupoid]] to [[truth value]] to fit the purposes of the former page (as explained in old discussion that was also moved).
+*  Spun [[simplicial groupoid]] off of [[simplicially enriched category]].  Experts please check that the definitions there (based somewhat on a remark in [[Dwyer-Kan loop groupoid]]) are correct.
 
 # 2009-02-28
 
