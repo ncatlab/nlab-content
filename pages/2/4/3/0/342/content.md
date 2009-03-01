@@ -19,7 +19,9 @@ If any two parallel $j$-morphisms are equivalent, then any $j$-morphism between 
 
 # Special cases
 
-An $(n,n)$-category is simply an $n$-[[n-category|category]]. An $(n,n+1)$-category is an $(n+1)$-[[n-poset|poset]]. Note that an $\infty$-category and an $\infty$-poset are the same thing. An $(n,0)$-category is an $n$-[[n-groupoid|groupoid]]. Even though they have no special name, $(n,1)$-[[(n,1)-category|categories]] are widely studied.
+An $(n,n)$-category is simply an $n$-[[n-category|category]]. An $(n,n+1)$-category is an $(n+1)$-[[n-poset|poset]]. Note that an $\infty$-category and an $\infty$-poset are the same thing. An $(n,0)$-category is an $n$-[[n-groupoid|groupoid]].  Even though they have no special name, $(n,1)$-[[(n,1)-category|categories]] are widely studied.
+
+For low values of $n$, many of these notions coincide.  For instance, a [[0-groupoid]] is the same as a [[0-category]], namely a set.  And [[(-1)-groupoid]], [[(-1)-category]], and [[0-poset]] all mean the same thing (namely, a [[truth value]]) while [[(-2)-groupoid]], [[(-2)-category]], and [[(-1)-poset]] likewise all mean the same thing (namely, the truth value "true").
 
 # The periodic table
 
