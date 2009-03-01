@@ -1,4 +1,4 @@
-A **Kapranov--Voevodsky 2-vector space** is a [[category]] [[equivalence|equivalent]] to $Vect^n$ for some finite $n$.  For details, see:
+A **Kapranov--Voevodsky 2-vector space** is a kind of [[2-vector space]], in this case a [[category]] [[equivalence|equivalent]] to $Vect^n$ for some finite $n$.  For details, see:
 
 * Mikhail Kapranov and Vladimir Voevodsky, 2-categories and
 Zamolodchikov tetrahedra equations, in _Algebraic Groups and
@@ -10,4 +10,3 @@ There is also a more abstract characterization of such categories, described her
 Ph.D. dissertation, University of Munich, 1997.
 
 * David Yetter, [Categorical linear algebra---a setting for questions from physics and low-dimensional topology](http://math.ucr.edu/home/baez/yetter.pdf), Kansas State University preprint.
-
