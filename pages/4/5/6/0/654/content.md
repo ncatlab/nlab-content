@@ -12,7 +12,7 @@ There are at least two distinct conceptual roles which vectors and vector spaces
 
 These two different ideas of a 'vector space' lead to two diferent ideas of a '2-vector space', broadly speaking those of _Kapranov and Voevodsky_ and those of _Baez and Crans_. 
 
-## Kapranov&#8211;Voevodsky $2$-vector spaces
+## [[Kapranov-Voevodsky 2-vector space]]s
 
 These were introduced in: 
 
@@ -91,7 +91,7 @@ It is argued in
 that the generalization from $Vect\Mod$ to $Ch(Vect)\Mod$ is necessary to have a good notion of higher sheaves of sections of 2-vector bundles, i.e. of higher coherent sheaves.
 
 
-## Revisiting Kapranov&#8211;Voevodsky $2$-vector spaces 
+## Revisiting [[Kapranov-Voevodsky 2-vector space]]s 
 
 Upon further restriction of $\Vect\Mod$ to 2-vector spaces whose basis is a _discrete category_, namely a set $S$ (or the $Vect$-enriched category over $S$ which has just the ground field object sitting over each element of $S$) one arrives at $Vect$-modules of the form
 
@@ -112,7 +112,7 @@ The idea is to categorify the construction of a vector space as the space of fin
 
 ## Infinite-dimensional K-V 2-vector spaces
 
-We can regard the objects of the $n$-dimensional  Kapranov&#8211;Voevodsky 2-vector space $Vect^n$ &#8211; which are $n$-tuples of vector spaces &#8211; as vector bundles over the finite set of $n$ elements. This has an obvious generalization to vector bundles over any topological space &#8211; in terms of modules these are the finitely generated projective modules of the algebra of continuous functions on this space. So categories of vector bundles can be regarded as infinite-dimensional 2-vector spaces. For the case that the underlying topological space is a _measure space_ such infinite dimensional K-V 2-vector spaces have been studied in
+We can regard the objects of the $n$-dimensional  Kapranov&#8211;Voevodsky $2$-vector space $Vect^n$ &#8211; which are $n$-tuples of vector spaces &#8211; as vector bundles over the finite set of $n$ elements. This has an obvious generalization to vector bundles over any topological space &#8211; in terms of modules these are the finitely generated projective modules of the algebra of continuous functions on this space. So categories of vector bundles can be regarded as infinite-dimensional 2-vector spaces. For the case that the underlying topological space is a _measure space_ such infinite dimensional K-V 2-vector spaces have been studied in
 
 * John C. Baez, Aristide Baratin, Laurent Freidel, Derek K. Wise, _Infinite-Dimensional Representations of 2-Groups_ ([arXiv](http://arxiv.org/abs/0812.4969)) 
 
