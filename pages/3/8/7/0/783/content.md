@@ -4,3 +4,4 @@ For a good account of his work, including work published in the 1980s, see the W
 
 &lt;http://en.wikipedia.org/wiki/Alexander_Grothendieck>
 
+category: biography
