@@ -21,7 +21,7 @@ Many operations in monoidal categories that look rather unenlightening in symbol
 Since a monoidal category is just a special case (namely the one-object case) of a [[bicategory]], there is also a string diagram calculus for bicategories. This makes it manifest that the string diagram notation is _Poincar&#233; dual_ to the [[globe|globular]] notation: where one uses $d$-dimensional symbolds the other uses $(2-d)$-dimensional symbols.
 
 ##See also
-[[sharing graphs]]
+[[sharing graph]]
 
 #References#
 
