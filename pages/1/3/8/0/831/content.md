@@ -1,0 +1,7 @@
+There is just one __$(-2)$-groupoid__, namely the [[point]].  Compare the concepts of $(-1)$-[[(-1)-groupoid|groupoid]] (a [[truth value]]) and $0$-[[0-groupoid|groupoid]] (a [[set]]).  Compare also with $(-2)$-[[(-2)-category|category]] and $(-1)$-[[(-1)-poset|poset]], which mean the same thing for their own reasons.
+
+The point of $(-2)$-groupoids is that they complete some patterns in the [[periodic table]]s and complete the general concept of $n$-[[n-groupoid|groupoid]].  For example, there should be a $(-1)$-[[(-1)-groupoid|groupoid]] $(-2)\Grpd$ of $(-2)$-groupoids; a $(-1)$-groupoid is simply a truth value, and $(-2)\Grpd$ is the [[true]] truth value.
+
+As a category, $(-2)\Grpd$ is a [[monoidal category]] in a unique way, and a [[enriched category|groupoid enriched]] over this should be (at least up to equivalence) a $(-1)$-groupoid, which is a truth value; and indeed, a groupoid enriched over $(-2)\Grpd$ is a groupoid in which any two objects are isomorphic in a unique way, which is [[equivalence of categories|equivalent]] to a truth value.
+
+See [[(-1)-category]] for references on this sort of 'negative thinking'.
