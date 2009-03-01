@@ -1,7 +1,7 @@
 #Idea#
 
 **Geometric function theory** 
-considers notions of higher generalized functions on higher generalized spaces (such as on [[groupoids]], on [[Lie groupoid|orbifolds]] and more generally on [[infinity-stack homotopically|infinity-stacks]]) such that all suitably generalized linear maps between the monoidal $\infty$-structures of functions on two spaces arise from a higher analog of plain matrix multiplication, namely from a _pull-tensor-push_ operation in the given $\infty$-context.
+considers notions of higher generalized functions on higher generalized spaces (such as on [[groupoid]]s, on [[Lie groupoid|orbifolds]] and more generally on [[infinity-stack homotopically|infinity-stacks]]) such that all suitably generalized linear maps between the monoidal $\infty$-structures of functions on two spaces arise from a higher analog of plain matrix multiplication, namely from a _pull-tensor-push_ operation in the given $\infty$-context.
 
 ## Motivating toy example: matrices ##
 
