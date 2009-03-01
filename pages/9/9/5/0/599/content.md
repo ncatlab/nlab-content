@@ -10,5 +10,4 @@
 
 * [[nonabelian algebraic topology]]
 
-category: biography
 category: people
