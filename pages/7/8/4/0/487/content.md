@@ -41,4 +41,6 @@ _Toby_: As it doesn\'t matter too much, we can avoid 'bimorphism' here. But sure
 _Mike_: Yes, of course you're right for the syllable count.  I still maintain that the _meaning_ of "monic epic" is more obvious than either "bimorphism" or "bimonic," which is the more important thing, especially for a little-used concept.
 
 _Mike_: I just remembered another reason I dislike "bimorphism."  One context where people use it is in the study of [[reflective subcategory|reflective]] subcategories, where one talks about "mono-reflective" and "epi-reflective" subcategories to mean that the unit of the reflection is monic or epic, and some people say "bireflective" to mean that the unit is a bimorphism.  But to me, bireflective "obviously" means "reflective and coreflective;" this confused me for quite a whole once.
+
+_Toby_:  O yeah, I agree with you there!  The best that I can say for 'bimorphism' is that it\'s got some sense to it; but as the right way to follow that sense would be 'bimonomorphism', there\'s still something wrong with it.
 =--
