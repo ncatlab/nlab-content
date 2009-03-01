@@ -2,13 +2,11 @@
 
 Every wiki needs a sandbox! Just test _below_ and don't worry about messing things up.
 
-***
+****
 
 \emph{Can we emphasize text?}
 
 *Yes, we can emphasize text.*
-
-****
 
 Trying to upload a file: [[n.png:pic]].... nope didn't work, I get "Internal Server Error".
 
@@ -204,8 +202,6 @@ This is the original Markdown list:
 | to $x^2$ | make |
 | a table  |      |
 
-category: meta
-
 [A pic](http://www.bangor.ac.uk/r.brown/fig6_10c2.jpg)
 
 $$\begin{aligned}
@@ -213,3 +209,6 @@ $$\begin{aligned}
   \cong& DFib(X)(1_X, B^A)
 \end{aligned}$$
 
+****
+
+category: meta
