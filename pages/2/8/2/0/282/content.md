@@ -13,7 +13,7 @@ Ronnie Brown has published a long series of articles over the years developing t
 
 * Ronnie Brown, _publication list_ ([web](http://www.bangor.ac.uk/~mas010/publicfull.htm))
 
-Currently a comprehensive **monograph** is in preparation on the subject of the algebraic topology of filtered spaces using [[crossed complex]]es and cubical [[omega groupoids]] with connections. It is not done yet, but if you email the author, maybe you can get a pdf copy of the latest version. A survey of that area is the Fields Institute article given below. 
+Currently a comprehensive **monograph** is in preparation on the subject of the algebraic topology of filtered spaces using [[crossed complex]]es and cubical [[omega-groupoid]]s with connections. It is not done yet, but if you email the author, maybe you can get a pdf copy of the latest version. A survey of that area is the Fields Institute article given below. 
 
 Meanwhile, there is the website
 
