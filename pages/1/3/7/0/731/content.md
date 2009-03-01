@@ -1,5 +1,5 @@
 ##Idea##
-The Dwyer&#8211;Kan loop groupoid is a [[simplicially enriched category|simplically enriched groupoid]] whose objects are the vertices of a [[simplicial set]], then the simplicial set of paths between two such picks up the 'strings' of higher dimensional simplices whose zeroth vertex is at the domain vertex and whose first vertex is at the  codoamin.
+The Dwyer&#8211;Kan loop groupoid is a [[simplicially enriched category|simplically enriched groupoid]] whose objects are the vertices of a [[simplicial set]], then the simplicial set of paths between two such picks up the composable 'strings' of higher dimensional simplices where the zeroth vertex is thought of as the domain vertex and the first vertex as  the  codomain.
 
 ##Definition##
 
