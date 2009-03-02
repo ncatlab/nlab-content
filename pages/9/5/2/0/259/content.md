@@ -26,7 +26,9 @@ The point of quasi-categories is that they are supposed to provide a fully [[hom
 
 * [[over-category in quasi-categories]]
 
-* [[initial object in quasi-categories]]
+* [[terminal object in a quasi-category]]
+
+* [[join of quasi-categories]]
 
 
 #References#
