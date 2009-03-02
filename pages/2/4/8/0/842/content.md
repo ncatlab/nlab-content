@@ -1,6 +1,6 @@
 #Idea#
 
-The notion of [[limit]] generalizes to [[quasi-category|quasi-categories]] straightforwardly using the generalization of [[over-category]] to [[over-category in quasi-categories|over-categories in quasi-categories]].
+The notion of [[limit]] generalizes to [[quasi-category|quasi-categories]] straightforwardly using the generalization of [[over category]] to [[over-category in quasi-categories|over-categories in quasi-categories]].
 
 
 #Definition#
