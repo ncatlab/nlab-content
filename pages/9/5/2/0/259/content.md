@@ -20,11 +20,14 @@ A quasi-category is a [[simplicial set]] in which all _inner_ [[horn]]s have fil
 
 # Constructions in quasi-categories #
 
-The point of quasi-categories is that they are supposed to provide a fully [[homotopy theory|homotopy-theoretic]] refinement of the ordinary notion of [[category]]. In particular, all the familiar constructions of category theory have natural analoga in the context of quasi-categories. See for instance
+The point of quasi-categories is that they are supposed to provide a fully [[homotopy theory|homotopy-theoretic]] refinement of the ordinary notion of [[category]]. In particular, all the familiar constructions of category theory have natural analogs in the context of quasi-categories. See for instance
 
-* [[limits in quasi-categories]]
+* [[limit in quasi-categories]]
 
-* (etc...)
+* [[over-category in quasi-categories]]
+
+* [[initial object in quasi-categories]]
+
 
 #References#
 
