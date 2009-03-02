@@ -18,6 +18,14 @@ A quasi-category is a [[simplicial set]] in which all _inner_ [[horn]]s have fil
 
 * The [[nerve]] of a category is always a quasi-category, while the nerve of a category is a Kan complex iff the category is a groupoid.  In this sense quasi-categories are a "minimal common generalization" of Kan complexes and nerves of categories.
 
+# Constructions in quasi-categories #
+
+The point of quasi-categories is that they are supposed to provide a fully [[homotopy theory|homotopy-theoretic]] refinement of the ordinary notion of [[category]]. In particular, all the familiar constructions of category theory have natural analoga in the context of quasi-categories. See for instance
+
+* [[limits in quasi-categories]]
+
+* (etc...)
+
 #References#
 
 Quasi-categories have originally been defined in
