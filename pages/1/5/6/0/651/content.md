@@ -62,6 +62,8 @@ I might suggest that maybe the generalities on this page, not specific to Frolic
 [[Andrew Stacey|Andrew]]: Yes, I was coming round to the idea of having a separate "generalised space" page, but wanted to know what to call it first - hence my first question on [[request for help]].
 
 _Toby_: Keep in mind that we\'ve already got [[generalized smooth space]].
+
+[[Andrew Stacey|Andrew]]: I'm not sure if that's an argument _for_ or _against_ "generalised space"!  Actually, my preference is "generalised $\mathcal{T}$-object" where $\mathcal{T}$ is the category of test spaces.  "Bi-presheaf" doesn't capture the composition natural transformation which is quite an important part of the structure.  "Frolicher object over $U$" would only apply to particular cases of these things.  Hmm.  Maybe - seeing as this is a wiki - I should just go ahead and if anyone objects they can change it!
 =--
 
 Here, $\mathcal{U}(-,-)$ is the $Hom$--functor on $\mathcal{U}$ (strictly, $\mathcal{U}^{op} \times \mathcal{U}$).
