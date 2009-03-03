@@ -10,7 +10,7 @@ For example:
 * In [[Set]], global elements are just elements: a function from a one-element set into $x$ picks out a single element of $x$.
 * In [[Cat]], global elements are objects: the terminal category $1$ is the [[discrete category]] with one object, and a [[functor]] from $1$ into a category $C$ singles out an object of $C$.
 * In a [[topos]], a global element of the [[subobject classifier]] is called a [[truth value]].
-* Working in a [[slice category]] $C/b$, a global element of the object $\pi: e \to b$ is a map into it from the terminal object $1_b: b \to b$; i.e., a [[right inverse]] for $\pi$.  In the context of [[bundle]]s, a global element of a bundle is called a *[[global section]]*.
+* Working in a [[over category|slice category]] $C/b$, a global element of the object $\pi: e \to b$ is a map into it from the terminal object $1_b: b \to b$; i.e., a [[right inverse]] for $\pi$.  In the context of [[bundle]]s, a global element of a bundle is called a *[[global section]]*.
 
 #Variation#
 
