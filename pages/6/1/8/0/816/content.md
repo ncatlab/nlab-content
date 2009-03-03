@@ -83,13 +83,6 @@ natural in $c$.
 (Here $[K,V]$ is the $V$-[[enriched functor category]], as usual.)
 
 
-+-- {: .query}
-
-[[Urs Schreiber|Urs]]: one more addition, Feb 25:
-
-=--
-
-
 In particular, if $C = V$ itself, then we get the direct formula
 $$
   lim^W F \simeq [K,V](W,F)
@@ -114,14 +107,6 @@ $$
     \,.
   \end{aligned}
 $$
-
-
-+-- {: .query}
-
- end of further addition
-
-=--
-
 
 
 #Examples#
@@ -241,35 +226,3 @@ In
 
 
 
-***
-
-#Discussion#
-
-
-A previous version of this entry came with the following discussion.
-
-+-- {: .query}
-
- [[Urs Schreiber|Urs]]: I'd like to better understand the relation between weighted limits and [[homotopy limit]]s. 
-
-Suppose I am considering enrichment in $V =$ [[SSet]]. Then how wrong is the following idea for encoding homotopy limits in terms of weighted limits:
-
-let $K$ be an ordinary small category and $F : K \to SSet$ a functor which happens to take values in Kan complexes, for definiteness. Now let the weight functor be given by
-
-$$
-  W : K \to SSet
-$$
-$$
-  W : k \mapsto N(K/k)
-  \,,
-$$
-
-where $K/k$ is the [[over category]] of $K$ over $k \in K$ and $N(-)$ is the [[nerve]]. I am thinking that the $W$-weighted limit $lim^W F$ might be a reasonable way to encode a homotopy coherent limit over $F$. How wrong is this? If not so wrong, this will have been discussed somewhere. Where?
-
-[[Mike Shulman|Mike]]: That's exactly right (modulo fibrancy/cofibrancy conditions if there is a model structure hanging around).  This is a very classical way of defining homotopy limits, see Bousfield-Kan or Hirschhorn's book.  It's also mentioned in my own paper on homotopy limits.  Note that $N(K/k)$ can also be identified with the [[bar construction]] $B(K(-,k),K,*)$, making the connection with another way to define homotopy limits.
-
-[[Urs Schreiber|Urs]]: Thanks, Mike. I see. I should have found this earlier in the literature.  I have spent some time with your article, but maybe I still tend to keep getting a bit lost after a while, to be frank.
-
-Anyway, I have incorporated a bit of discussion of homotopy limits as weighted limits in the example section above now. Personally, I still need to figure out the details of the relation of this to the definition of homotopy limit in terms of bar construction which you hint at.
-
-=--
