@@ -32,6 +32,10 @@ The [[category]] of Fr&#246;licher spaces is [[complete category|complete]], [[c
 [[Andrew Stacey|Andrew]]: I don't think that this category is _locally_ cartesian closed but the only evidence that I have for that is a side remark by Lawvere on the category mailing list.
 =--
 
+# Generalised Spaces
+
+Fr&#246;licher spaces are examples of [[generalized smooth space|generalised smooth spaces]].  They are also examples of [[generalized object|generalised objects]] (indeed, concrete ones).
+
 # Isbell Duality
 
 Fr&#246;licher spaces are examples of [[generalized smooth space|generalised smooth spaces]].  They are also examples of [[space and quantity|generalised spaces]] in the following sense.
