@@ -4,8 +4,10 @@ Frequently one is especially interested in pretoposes having additional properti
 
 * A _Heyting pretopos_, is a pretopos which is also a [[Heyting category]].
 * A _$\Pi$-pretopos_ is a pretopos which is also a [[locally cartesian closed category]].  A $\Pi$-pretopos is automatically Heyting.
-* A _$W$-pretopos_ is a pretopos which has [[inductive object]]s (initial [[algebra of a functor|algebras]] of [[polynomial]] [[endofunctor]]s).
-* A _$\Pi$-$W$-pretopos_ is of course a pretopos that has both $\Pi$ and $W$; these are widely studied as models of [[type theory]] especially in the style of Per Martin-L&#246;f.
+* A _$W$-pretopos_ is a pretopos which has [[inductive object]]s (initial [[algebra of a functor|algebras]] of [[polynomial]] [[endofunctor]]s), most famously a [[natural numbers object]].
+* A _$\Pi$-$W$-pretopos_ is of course a pretopos that has both $\Pi$ and $W$; these are widely studied as frameworks for [[predicativism]].
+* A _topos_ is a pretopos that has a [[subobject classifier]].  A topos is automatically a $\Pi$-pretopos.
+* A _$W$-topos_ is of course a topos that has $W$; these are widely studied as frameworks for [[constructivism]].
 
 Like any coherent (or Heyting) category, a (Heyting) pretopos has an [[internal logic]].  Extensivity and exactness make a Heyting pretopos a very set-like category.  One can say imprecisely that it has "all the good first-order properties of a [[topos]];" that is, all the good properties except the existence of exponentials and power objects.  Therefore, pretoposes (especially Heyting, $\Pi$, and/or $W$ ones) are related to [[predicativism|predicative mathematics]] in a way similar to how toposes are related to non-predicative [[constructivism|constructive mathematics]].
 
