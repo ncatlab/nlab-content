@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-03-03
+
+* [[Toby Bartels]]:  Since Urs is using both 'over category' and 'over-category' (and not 'slice category'), I tried to standardise things as 'over category' to diminish the temptation to slip further into 'over-category'.  Principally this means that I moved [[slice category]] to [[over category]] and [[over-category in quasi-categories]] to [[over quasi-category]].
+
 # 2009-03-02
 
 * [[Urs Schreiber|Urs]]
