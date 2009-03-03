@@ -5,4 +5,4 @@ $$
   \,.
 $$
 
-Compare with the category [[SSet]] of ordinary simplicial sets.
+Compare with the category [[SimpSet]] of ordinary [[simplicial set]]s.
