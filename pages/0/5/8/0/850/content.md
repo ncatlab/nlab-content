@@ -40,6 +40,12 @@ _Other elementary properties to follow_
 
 +--{: .query}
 [[Mike Shulman|Mike]]: I repeat here my [objection](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html#c022207) that "generalized object" is too general a term.
+
+[[Andrew Stacey|Andrew]]: Object away!  I see your point of view, but I really don't like 'bi-presheaf' as it doesn't have the composition law.  'Presheaves' and 'Sheaves' are examples of 'generalised object with conditions' but I don't know about the other ones that you mention.  I thought that putting the test category in (and using 'object' rather than 'space') might obviate your objections a little, but clearly not.
+
+As I wasn't getting flooded with suggestions then I figured I'd take the Wiki-line and just start.  I can easily run the page through a search-and-replace filter when we come up with a better name.
+
+To be midly - but not very - facetious, how about '$\mathcal{T}$-gjenstand'?  (Pronounced vaguely like 'yenstan')
 =--
 
 ## Concrete Generalised $\mathcal{T}$-Objects
