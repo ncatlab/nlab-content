@@ -5,3 +5,19 @@ $$Hom(I,hom(x,y)) \cong Hom(x,y)$$
 given by a [[natural isomorphism]].
 
 More generally, if $C$ is an [[enriched category]], you get a [[hom-object]].
+
+ 
+
++-- {: .query}
+
+[[Ronnie Brown|Ronnie]] I have found it convenient in a number of categories to use the convention that if say the set of morphisms is $hom(x,y)$ then the internal hom when it exists is $HOM(x,y)$. In particular we have the exponential law for categories 
+
+$$Cat(x \times y,z) \cong Cat(x,CAT(y,z)).$$ 
+
+Then one can get versions such as $CAT_a(y,z)$ if $y,z$ are objects over $a$. 
+
+Of course to use this the name of the category needs more than one letter. Also it obviates the use of those fonts which do not have upper and lower case, so I have tended to use mathsf, which does not work here! 
+
+How do people like this? Of course, panaceas do not exist.
+
+=--
