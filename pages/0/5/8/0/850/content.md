@@ -73,6 +73,10 @@ I guess this is one of the problems with allowing _research_ in the nLab.  Every
 
 I wonder how easy it would be to change something like this after the fact.  De facto standards are not always the best (witness the qwerty keyboard).
 
+[[Mike Shulman|Mike]]: Are you saying that presheaves can be recovered as the "generalized objects" satisfying some condition?  I presume, saying that the copresheaf is determined by the presheaf in the obvious way?
+
+I don't think we should discard "bipresheaf" just because there is a required compatibility between the presheaf and the copresheaf.  A [[bialgebra]] isn't just an algebra and a coalgebra; it has a compatibility between the two structures.  Likewise, a [[biproduct]] isn't just a product and a coproduct, but both in a compatible way.  And the composition law is really a very natural compatibility between a presheaf and a copresheaf.
+
 =--
 
 ## Concrete Generalised $\mathcal{T}$-Objects
