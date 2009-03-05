@@ -57,14 +57,14 @@ This functor sends the single object of $\mathbf{B}G$ to the set $S$.
 
 ## As a pseudo colimit ##
 
-$S//G$ is the [[pseudo colimit]] of $\rho$,
+$S//G$ is the [[2-limit|2-colimit]] of $\rho$,
 
 $$
-  S//G \simeq weakcolim_{\mathbf{B}G} \rho
+  S//G \simeq colim_{\mathbf{B}G} \rho
   \,.
 $$
 
-The weak universal cocone consists of cells of the form
+The universal cocone consists of cells of the form
 
 $$
   \array{
