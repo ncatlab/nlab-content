@@ -22,15 +22,6 @@ In the local injective structure all objects are cofibrant, so that the [[opposi
 
 Both local model structures are proper [[enriched category|simplicially enriched]] categories (_DHI04_ [p. 5](http://www.math.uiuc.edu/K-theory/0563/spre.pdf#page=6)). 
 
-+-- {.query}
-[[Urs Schreiber|Urs]]: I am hoping that $SimpPr(S)$ with the local model structure is hence a $SimpSet$-[[enriched homotopical category]]. Can anyone tell right away?
-
-[[Mike Shulman|Mike]]: Any $V$-model category is automatically a $V$-homotopical category.  So if by the above sentence you mean that they are "simplicial model categories," (that is, sSet-model categories) then they are sSet-homotopical categories too.
-
-[[Urs Schreiber|Urs]]: I didn't actually mean to say that these are $SimpSet$-model categories, but maybe that's what is implied to be meant by the respective statement in the literature. I'll check.
-
-=--
-
 The _local injective_ model structure on simplicial presheaves models is originally due to Jardine, following the construction of the the Quillen equivalent local [[model structure on simplicial sheaves]] by Joyal. It was only later realized in _DHI04_ as a left [[Bousfield localization]] of the global injective model structure.
 
 
