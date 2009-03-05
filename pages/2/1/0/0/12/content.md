@@ -249,6 +249,8 @@ Testing modifying styles: test2
 =--
 {:response}
 
+\* $*$ $\star$ $\ast$ $*f*$ *hi* *
+
 ****
 
 category: meta
