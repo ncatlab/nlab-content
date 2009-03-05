@@ -24,4 +24,11 @@ _Toby_:  I see, that fits with using $\CAT$ as the $2$-category of categories bu
 
 Most of the time, I would actually use the same symbol for both, just as I use the same symbol for both a group and its underlying set.  Every closed category is a [[concrete category]] (represented by $I$), and the underlying set of the internal hom is the external hom.  So I would distinguish them only when looking at the theorems that relate them, much as I would bother parenthesising an expression like $a b c$ only when stating the associative law.
 
+_Ronnie_: In the case of [[crossed complexes]] it would be possible to use $Crs_*(B,C)$ for the internal hom and then $Crs_0(B,C)$ is the actual set of morphisms, with $Crs_1(B,C)$ being the (left 1-) homotopies.  
+
+But if $G$ is a groupoid does $x \in G$ mean $x$ is an arrow or an object? The group example is special because a group has only one object. 
+
+If $G$ is a group I like to distinguish  between the group $Aut(G)$ of automorphisms, and the crossed module $AUT(G)$, some people call it the _actor_,   which is given by the inner automorphism map $G \to Aut(G)$, and this seems convenient. Similarly if $G$ is a groupoid we have a group $Aut(G)$ of automorphisms but also a group groupoid, and so crossed module, $AUT(G)$, which can be described as the maximal subgroup object of the monoid object $GPD(G,G)$ in the cartesian closed closed category of groupoids. 
+
+
 =--
