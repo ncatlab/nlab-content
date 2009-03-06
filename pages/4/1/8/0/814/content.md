@@ -4,8 +4,7 @@ The following observation of Conduch&#233; is very useful when working with [[si
 
 +--{.un_prop}
 ######Proposition
-If $G$  is a simplicial group(oid), then $G_n$ decomposes as a
-multiple semidirect product:
+If $G$  is a simplicial group(oid), then $G_n$ decomposes as a multiple [[semidirect product]]:
 
 $$G_n \cong NG_n \rtimes  s_0NG_{n-1}\rtimes  s_1NG_{n-1}\rtimes  s_1s_0NG_{n-2}
 \rtimes  s_2NG_{n-1}\rtimes  \ldots s_{n-1}s_{n-2}\ldots s_0NG_0$$
