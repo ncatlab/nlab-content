@@ -32,4 +32,10 @@ If $G$ is a group I like to distinguish  between the group $Aut(G)$ of automorph
 
 _Toby_:  'But if $G$ is a groupoid does $x \in G$ mean $x$ is an arrow or an object?':  I would take it to mean that $x$ is an object, but I also use $\mathbf{B}G$ for the pointed connected groupoid associated to a group $G$; I know that groupoid theorists descended from Brandt wouldn\'t like that.  I would use $x \in \Arr(G)$, where $\Arr(G)$ is the [[arrow category]] (also a groupoid now) of $G$, if you want $x$ to be an arrow.  (Actually I don\'t like to use $\in$ at all to introduce a variable, preferring the type theorist\'s colon.  Then $x: G$ introduces $x$ as an object of the known groupoid $G$, $f: x \to y$ introduces $f$ as a morphism between the known objects $x$ and $y$, and $f: x \to y: G$ introduces all three variables.  This generalises consistently to higher morphisms, and of course it invites a new notation for a hom-set: $x \to y$.)
 
+_Ronnie_: I would use, and have used,  $\mathbf{B}G$ for a (the) [[classifying space]] of the group, usually the realisation of the simplicial [[nerve]] of the group, and would often identify a group with its corresponding one-object groupoid. If $G$ is a [[crossed complex]] or multiple groupoid, I would want $\mathbf{B}G$ to be a space, and $Nerv(G)$ to be some combinatorial object, such as simplicial or cubical set, or multi versions of these. Actually, $Nerv(G)$ has in this case the structure of [[T-complex]], so is also a form of higher category. 
+
+Of course Brandt initiated the groupoid idea, coming from the composition of quaternary quadratic forms, generalising ideas of Gauss, but  other later traditions come via Reidemeister in algebraic topology and much wider from Charles Ehresmann, for fibre bundles, Lie groupoids, foliations, and other geometric applications, and these need to be considered for notational decisions. 
+
+I guess the needs of geometry, algebra, analysis, logic and computer science,  and even physics,  will never be completely reconciled. 
+
 =--
