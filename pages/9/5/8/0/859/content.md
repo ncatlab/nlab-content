@@ -1,27 +1,27 @@
 
-If a group $G$ acts on a group $\Gamma$ on the left, then there is a
+If a group $G$ [[action|acts]] on a group $\Gamma$ on the left, then there is a
 [[semidirect product]] group whose underlying set is $\Gamma \times  G$
 but whose multiplication is
 
-$$(\delta,h)(\gamma,g)= (\delta \, ^h \gamma, hg)$$
+$$(\delta,h)(\gamma,g)= (\delta \, ^h \gamma, h g)$$
 
 for $\delta, \gamma \in \Gamma,\; h,g \in G$. This is called in
 group theory the semidirect product and written $\Gamma \rtimes \, G$.
 There is a projection morphism $p:\Gamma \rtimes \, G \to G$ ,
 $(\gamma, g) \to g$. A section $s$ of this can be identified with a
-derivation $d$, i.e. $d$  satisfies $d(hg)= (dh) \,^h (dg)$.
+derivation $d$, i.e. $d$  satisfies $d(h g)= (d h) \,^h (d g)$.
 
-It is useful to generalise this to the case $\Gamma$ is a groupoid.
+It is useful to generalise this to the case $\Gamma$ is a [[groupoid]].
 This occurs if for example $\Gamma = \pi_1 X$ where $X$ is a (left)
 $G$-space.
 
 So if $X=Ob(\Gamma)$, then $\Gamma \rtimes \, G$ has object set $X$ and
 a morphism $y \to x$ is a pair $(\gamma,g)$ such that $\gamma: y \to
-gx$ in $\Gamma$. The composition law is then given again by   
+g x$ in $\Gamma$. The composition law is then given again by   
 
-$$(\delta,h)(\gamma,g)= (\delta \, ^h \gamma, hg) $$
+$$(\delta,h)(\gamma,g)= (\delta \, ^h \gamma, h g) $$
 
-if  $(\delta, h): z \to y$, so that $\delta: z \to hy$ in $\Gamma$. 
+if  $(\delta, h): z \to y$, so that $\delta: z \to h y$ in $\Gamma$. 
 
 If $\Gamma$ is a discrete groupoid, and so identified with $X$, then
 we get $X \rtimes \, G$ which is the [[action groupoid]] of the action. In
