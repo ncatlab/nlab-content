@@ -6,6 +6,10 @@ A preorder is like a partially ordered set (or [[poset]] for short), but without
 
 A **preorder** is a [[category]] such that for any pair of objects $x, y$, there is at most one morphism from $x$ to $y$. In other words, it's a category [[enriched category theory|enriched]] over the category of [[truth value]]s.
 
+People who call a partially ordered set a '[[poset]]' and a totally ordered set a '[[toset]]' may enjoy calling a preorder a '[[proset]]'.  While nonstandard, this term is occasionally used here on the $n$Lab.
+
+#Fact
+
 Any preorder is [[equivalence|equivalent]] to a [[poset]]. This is a special case of the theorem that every category has a [[skeleton]], but (if you define 'equivalence' properly) this case does _not_ require the [[axiom of choice]].
 
 #Discussion
@@ -31,3 +35,7 @@ Is there a slick arrow theoretic way to say that? Something like, "There is a [[
 I hope to write/read some arrow theoretic definition of a [[Hasse diagram]] too.
 
 _Mathieu says_: It's rather the other way round: there is a "forgetful" 2-functor $Ord \to Cat$ (which forgets that the category is in fact an order (it's a full inclusion, so it forgets a property rather than a structure)), and the left adjoint to this 2-functor maps a category $C$ to the order with the same objects as $C$ and $a\leq b$ iff there exists an arrow $a\to b$.
+
+_[[John Baez|John]] says_: You might try to define a Hasse diagram to be a [[directed graph]] whose [[quiver]] is a [[poset]].  In other words, you take a directed graph, consider the free category on that graph, and demand that this category be a poset.  
+
+However, maybe it's a rule that a [[Hasse diagram]] with directed edges $x \to y$ and $y \to z$ is not allowed to have a directed edge $x \to z$.   If so, this is a further restriction on what directed graphs count as Hasse diagrams. 
