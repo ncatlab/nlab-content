@@ -1,1 +1,1 @@
-By analogy with [[poset]] and [[toset]], we may define a **proset** to be a [[preorder]].  This terminology is nonstandard but tempting.
+By analogy with [[poset]] and [[toset]], we may define a **proset** to be a set equipped with a [[preorder]].  This terminology is nonstandard but tempting.
