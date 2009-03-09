@@ -26,7 +26,9 @@ One point to note is that the filler for any horn can be chosen to be a _product
 * There is a functor due to Dwyer and Kan, called the [[Dwyer-Kan loop groupoid]] that takes a  simplicial set to a simplcial groupoid. This has a left adjoint $\overline{W}$ (see below), called the _classifying space_ functor, and together they give an equivalence of categories between the homotopy category of simplical sets and that of simplicial groupoids. We thus have that all homotopy types are modelled by simplicial groupoids ... and for connected homotopy types by simplicial groups. One *important fact* to note in this equivalence is that it shifts dimension by 1, so if $G(K)$ is the simplicial group corresponding to the connected simplicial set $K$ then $\pi_k(K)$ is the same as $\pi_{k-1}(G(K))$.  This is important when considering algebraic models for a [[homotopy n-type]].
 
 #The classifying space of a simplicial group.#
-(We will give this in the more general form needed for a [[simplicial groupoid]].)
+We will give this in the more general form needed for a [[simplicial groupoid]].
+
+For a general discussion on [[classifying space|classifying spaces]] go to that entry.
 
 
 Let $H$ be a simplicial groupoid, then $\overline{W}H$ is the simplicial set  described by
