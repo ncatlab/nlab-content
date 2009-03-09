@@ -58,4 +58,7 @@ Special cases of crossed complexes are [[groupoid]]s, and so we get the classify
 A crossed module is equivalent to a category object in groups, and so a nerve of this can be constructed as a bisimplicial set. The geometric realisation of this is naturally bifiltered, in several ways!
 
 In considering what is desirable for a [[fundamental infinity-groupoid]] one should bring the notion of classifying space, and its inherited structure, into account. 
+# Classifying spaces for simplicial groups
 
+The W-bar construction which gives the classifying space functor for simplicial groups and simplicially enriched groupoids is given in the entry on [[simplicial group|simplicial groups]].  It provides a good example of the above as the W-bar functor is right adjoint to the [[Dwyer-Kan loop groupoid]] functor and induces an equivalence of homotopy categories between that of simplicial sets and that of simplicially enriched groupoids.
+The simplicial sets here are playing the role of 'topological data'.
