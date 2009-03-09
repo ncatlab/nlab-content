@@ -5,5 +5,5 @@ By analogy with [[poset]] and [[toset]], we may define a **proset** to be a set 
 
 _Toby_:  Does one write that 'proset', 'pro-set', or both?
 
-[[Tim Porter|Tim]]: It depends on how lazy one is feeling! I have used both. Pro-set is probably more correct, but the other does occur. It is perhaps unfortunate that poset is so well established otherwise `porset' might be used with `torset' etc as a consequence, but I wander!!!!
+[[Tim Porter|Tim]]: It depends on how lazy one is feeling! I have used both. Pro-set is probably more correct, but the other does occur. It is perhaps unfortunate that poset is so well established otherwise 'porset' might be used with 'torset' etc as a consequence, but I wander!!!!
 =--
