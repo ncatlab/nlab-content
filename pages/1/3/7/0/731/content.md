@@ -17,7 +17,7 @@ The face and degeneracy maps are given on generators by
 ##Remarks##
 *  This simplicial groupoid is a simplicially enriched groupoid, as the face and degeneracy operators are constant on the objects.
 
-* The loop groupoid functor has a right adjoint, $\overline{W}$, called the (simplicial) [[classifying space]] functor.
+* The loop groupoid functor has a right adjoint, $\overline{W}$, called the (simplicial) [[classifying space]] functor.  This is given in more detail in the entry on [[simplicial group]].
 
 * The original reference is 
 
