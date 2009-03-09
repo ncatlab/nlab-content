@@ -1,7 +1,7 @@
-##Idea##
-The Dwyer&#8211;Kan loop groupoid functor gives a [[simplicially enriched category|simplically enriched groupoid]] whose objects are the vertices of a [[simplicial set]], then the simplicial set of paths between two such picks up the composable 'strings' of higher dimensional simplices where the zeroth vertex is thought of as the domain vertex and the first vertex as  the  codomain.
+#Idea#
+The Dwyer&#8211;Kan loop groupoid of a [[simplicial set]] $K$ is a [[simplicial groupoid|simplically enriched groupoid]] whose objects are the vertices of $K$ and the simplicial set of paths between two such picks up the composable 'strings' of higher dimensional simplices where the zeroth vertex is thought of as the domain vertex and the first vertex as the codomain.
 
-##Definition##
+#Definition#
 
 The **loop groupoid functor of Dwyer and Kan** is a functor 
 $$G: \Simp\Set \to \Simp\Set\Groupoid,$$
@@ -14,7 +14,7 @@ The face and degeneracy maps are given on generators by
 *   $d_i^{GK}(x) = d_{i+1}^K(x)$, for $x \in K_{n+1}$, $1 \lt i \leq n$, and 
 *   $d_0^{GK}(x) = (d_0^K(x))^{-1}(d_1^K(x))$. 
 
-##Remarks##
+#Remarks#
 *  This simplicial groupoid is a simplicially enriched groupoid, as the face and degeneracy operators are constant on the objects.
 
 * The loop groupoid functor has a right adjoint, $\overline{W}$, called the (simplicial) [[classifying space]] functor.  This is given in more detail in the entry on [[simplicial group]].
