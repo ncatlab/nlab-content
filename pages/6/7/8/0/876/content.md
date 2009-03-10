@@ -22,6 +22,6 @@ The disjoint union of the empty family $()$ is [[empty set|empty]]; it has no el
 
 # Internal version #
 
-If a collection $\mathcal{A}$ of [[subset]]s of a given set $X$ are all pairwise disjoint (that is, $A \cap B$ has an element only if $A = B$, for $A, B \in \mathcal{A}$), then the [[union]] $\bigcup \mathcal{A}$ is [[natural isomorphism|naturally bijective]] with the (external) disjoint union defined above.  Conversely, given an external disjoint union $\biguplus_i A_i$, each $A_j$ may be identified with a subset of $\biguplus_i A_i$ (as explained above); these subsets are all pairwise disjoint, and their union is the entire disjoint union.
+If a family $(A_i)_{i: I}$ of [[subset]]s of a given set $X$ are all pairwise disjoint (that is, $A_i \cap A_j$ has an element only if $i = j$, for any indices $i$ and $j$), then the [[union]] $\bigcup_i A_i$ is [[natural isomorphism|naturally bijective]] with the (external) disjoint union defined above.  Conversely, given an external disjoint union $\biguplus_i A_i$, each $A_j$ may be identified with a subset of $\biguplus_i A_i$ (as explained above); these subsets are all pairwise disjoint, and their union is the entire disjoint union.
 
 Accordingly, a union of pairwise disjoint subsets may be called an __internal disjoint union__.  (Compare the internal vs external notions of [[direct sum]].)
