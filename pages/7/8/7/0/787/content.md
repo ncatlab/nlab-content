@@ -6,7 +6,7 @@ By the [[red herring principle]] a Courant algebroid is neither an [[algebroid]]
 
 * every [[Lie bialgebroid]] induced a Courant algebroid.
 
-* every Courant algebroid induces a [[L-infinity-algebra|Lie 3-algebra]] which is the [[String Lie 2-algebra]] if the base space is a point.
+* every Courant algebroid induces a [[L-infinity-algebra|Lie 3-algebra]] which is the [[string Lie 2-algebra]] if the base space is a point.
 
 
 The concept of Courant algebroids was originally introduced by T. Courant to study [[geometric quantization]] in the presence of constraints. Later it was studied by Liu, Weinstein and Xu in the study of [[double Lie algebroid]]s.
