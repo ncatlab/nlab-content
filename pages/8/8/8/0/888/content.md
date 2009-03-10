@@ -1,0 +1,10 @@
+A (binary) [[relation]] $\sim$ on a set $A$ is __left euclidean__ if in any two elements both related to a third are also related to each other:
+$$\forall (x, y, z: A),\; x \sim z \;\wedge\; y \sim z \;\Rightarrow\; x \sim y$$
+A relation $\sim$ is __right euclidean__ if this works in the other order:
+$$\forall (x, y, z: A),\; x \sim y \;\wedge\; x \sim z \;\Rightarrow\; y \sim z$$
+
+An [[equivalence relation]] is a relation that is both [[reflexive relation|reflexive]] and euclidean in either direction (in which case it\'s euclidean in both directions).  Defining equivalence relations this way (rather than using transitivity and symmetry) is analogous to defining a [[group]] using (one-sided) division instead of multiplication and inverse; both are special cases of an analogous definition of [[groupoid]].  One can also define an equivalence relation as a relation that is both [[entire relation|entire]] and left euclidean; this is analogous to defining a group using division and furthermore merely stating that some element exists rather than that there is an identity element.  (Perhaps more familiarly, one can define a [[subgroup]] of a given group as a subset that is closed under division and has at least one element.)
+
+This is the earliest notion of equivalence, dating back (at least) to Euclid\'s Common Notion 1.  In Heath's translation,
+>Things \[geometric figures\] which are equal to \[have the same magnitude as\] the same thing are also equal to one another.
+It is not clear, however, if Euclid appreciated the distinction between this and transitivity; he may have taken it for granted that equality of magnitude is symmetric, which destroys the distinction.  (One can similarly argue whether Common Notion 4 expresses reflexivity or whether it merely means that congruence entails equality of magnitude, with the equivalence-relation nature of congruence again going unstated.  See [this discussion](http://aleph0.clarku.edu/~djoyce/java/elements/bookI/cn.html).)
