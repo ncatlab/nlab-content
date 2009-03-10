@@ -8,7 +8,7 @@ The lack of cartesian closure and, to a lesser extent, local presentability, is 
 
 * The most common approach among algebraic topologists today is to use the subcategory of [[compactly generated space|compactly generated spaces]], which is cartesian closed, but not locally cartesian closed.  It is a coreflective subcategory of a reflective subcategory of $Top$.
 
-* The subcategory of [[Delta-generated spaces]], recently proposed by J. H. Smith, is both cartesian closed and locally presentable.
+* The subcategory of [[Delta-generated space]]s, recently proposed by J. H. Smith, is both cartesian closed and locally presentable.
 
 * An approach of mainly historical interest is to use [[quasitopological space|quasitopological spaces]], an enlargement of $Top$ which is cartesian closed.
 
@@ -24,7 +24,7 @@ The lack of cartesian closure and, to a lesser extent, local presentability, is 
 
 * O. Wyler, _Convenient categories for topology_
 
-* L. Fajstrup and J. Rosicky, _A convenient category for directed homotopy_ (for delta-generated spaces)
+* L. Fajstrup and J. Rosicky, _A convenient category for directed homotopy_ (for Delta-generated spaces)
 
 * E. Spanier, _Quasi-topologies_ (for quasi-topological spaces)
 
