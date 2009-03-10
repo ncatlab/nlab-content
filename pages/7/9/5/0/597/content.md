@@ -4,12 +4,12 @@ The notions of [[regular category]], [[exact category]], [[coherent category]], 
 
 Let $C$ be a [[finitely complete category]].  By a **sink** in $C$ we mean a family $\{f_i:A_i\to B\}_{i\in I}$ of [[morphism]]s with common [[target]].  A sink $\{f_i:A_i\to B\}$ is **strong epic** if it doesn't factor through any proper [[subobject]] of $B$.  The _pullback_ of a sink along a morphism $B'\to B$ is defined in the evident way.
 
-By a (many-object) **relation** in $C$ we will mean a family of objects $\{A_i\}_{i\in I}$ together with, for every $i,j\in I$, a monic span $A_i \leftarrow R_{i j} \to A_j$  (that is, a [[subobject]] $R_{i j}$ of $A_i\times A_j$.  We say such a relation is:
+By a (many-object) **[[relation]]** in $C$ we will mean a family of objects $\{A_i\}_{i\in I}$ together with, for every $i,j\in I$, a monic span $A_i \leftarrow R_{i j} \to A_j$  (that is, a [[subobject]] $R_{i j}$ of $A_i\times A_j$.  We say such a relation is:
 
-* _reflexive_ if $R_{i i}$ contains the diagonal $A_i\to A_i\times A_i$, for all $i$,
-* _transitive_ if the pullback $R_{i j} \times_{A_j} R_{j k}$ factors through $R_{i k}$, for all $i,j,k$,
-* _symmetric_ if $R_{i j}$ contains, hence is equal to, the transpose of $R_{j i}$ for all $i,j$, and
-* an _equivalence relation_ if it is reflexive, transitive, and symmetric.
+* [[reflexive relation|reflexive]] if $R_{i i}$ contains the diagonal $A_i\to A_i\times A_i$, for all $i$,
+* [[transitive relation|transitive]] if the pullback $R_{i j} \times_{A_j} R_{j k}$ factors through $R_{i k}$, for all $i,j,k$,
+* [[symmetric relation|symmetric]] if $R_{i j}$ contains, hence is equal to, the transpose of $R_{j i}$ for all $i,j$, and
+* an [[equivalence relation]] if it is reflexive, transitive, and symmetric.
 
 Abstractly, reflexive and transitive relations can be identified with categories [[enriched category|enriched]] in a suitable [[bicategory]]; see (Street 1984).
 
