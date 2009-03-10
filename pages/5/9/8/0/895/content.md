@@ -1,19 +1,19 @@
 
-#Cofibration category: ($C$, _cof_, _w.e._)
+#Cofibration category: $(C, \mathit{cof}, w.e.)$
 
-A *cofibration category* is a category $C$ with two classes of morphisms, _cof_ of
-_cofibrations_ and _w.e._ of _weak equivalences_.
+A *cofibration category* is a category $C$ with two classes of morphisms, $\mathit{cof}$ of
+_cofibrations_ and $w.e.$ of _weak equivalences_.
 These are to satisfy:
 
 C 1) Isomorphisms are both cofibrations and weak equivalences.  If
 
 $$A\stackrel{f}{\rightarrow} B \stackrel{g}{\rightarrow} C$$ 
-are composable morphisms in $C$, then if two of $f$, $g$ $gf$ are in  _w.e._, so is the
-third; if $f$, $g \in cof$ then $gf\in cof$.
+are composable morphisms in $C$, then if two of $f$, $g$, $g \circ f$ are in  $w.e.$, so is the
+third; if $f$, $g \in \mathit{cof}$ then $g \circ f\in \mathit{cof}$.
 
 C2) Pushout axiom:
 
-Given $B\rightarrow A$ in _cof_ and any $f : B\rightarrow Y$, the pushout
+Given $B\rightarrow A$ in $\mathit{cof}$ and any $f : B\rightarrow Y$, the pushout
 
 
 $$
@@ -28,7 +28,7 @@ $$
   }
 $$
 
-exists and $\bar{i}$ is in _cof_; if $f$ is a w.e., so is $\bar{f}$; if $i$ is also a w.e., so is $\bar{i}$.
+exists and $\bar{i}$ is in $\mathit{cof}$; if $f$ is in $w.e.$, so is $\bar{f}$; if $i$ is also in $w.e.$, so is $\bar{i}$.
 
 C3) Factorisation axiom:
 
@@ -41,14 +41,14 @@ B&\stackrel{f}{\longrightarrow}&Y\\
 &A&
 }$$
 
-with $i \in cof$, $g\in w.e.$
+with $i \in \mathit{cof}$, $g\in w.e.$
 
 C4) Axiom on fibrant models:
 
 Using the terminology: "$f$ is a _trivial cofibration_" to mean "$f\in
-cof \cap w.e.$", and "$RX$ is _fibrant_" to mean "Given any trivial
+\mathit{cof} \cap w.e.$", and "$RX$ is _fibrant_" to mean "Given any trivial
 cofibration $i: RX \stackrel{\simeq}{\rightarrow}Q$, there is a retraction $r :
-Q \rightarrow RX$, $ri = Id_{RX}$", the axiom states:
+Q \rightarrow RX$, $r \circ i = Id_{RX}$", the axiom states:
 
 Given $X\in C$, there is trivial cofibration $X\rightarrow RX$ with $RX$ fibrant.
 
