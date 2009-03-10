@@ -16,9 +16,9 @@ This data has to satisfy the following properties:
 
 * $C$ has a [[terminal object]];
 
-* fibrations are presverbed under [[pullback]];
+* fibrations are preserved under [[pullback]];
 
-* acyclic fibrations are presverved under [[pullback]];
+* acyclic fibrations are preserved under [[pullback]];
 
 * for every object there exists a [[path object]];
 
