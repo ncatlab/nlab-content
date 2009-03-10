@@ -33,7 +33,7 @@ Special kinds of relations from $A$ to $B$ include:
 A [[function]] can be seen as a binary relation that is both functional and entire.
 
 Special kinds of binary relations on $A$ additionally include:
-* [[reflexive relation|reflexive]] and [[irreflexive relations|irreflexive]] relations;
+* [[reflexive relation|reflexive]] and [[irreflexive relation|irreflexive]] relations;
 * [[symmetric relation|symmetric]]s, [[antisymmetric relation|antisymmetric]], and [[asymmetric relation|asymmetric]] relations;
 * [[transitive relation]]s and [[comparison]]s;
 * [[well-founded relation]]s.
