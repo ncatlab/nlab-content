@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-03-10
 
+*   [[Tim Porter]]:  Eventually we probably need a summary of some of the theory of algebraic homotopy that Baues has developed as if impinges on the [[homotopy hypothesis]] and on [[homotopical cohomology theory]].  To this end I have created a sort of historical entry on [[algebraic homotopy]].  
+
 * [[Toby Bartels]]:  I\'ve written several more articles on very basic topics, such as those that used to be '?'-links below.  You can see them on Recently Revised; I don\'t think that anything merits great attention.
 
 # 2009-03-09
