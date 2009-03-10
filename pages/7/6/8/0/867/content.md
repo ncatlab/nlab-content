@@ -5,9 +5,9 @@ A _partial order_ on a set is a way of ordering its elements to say that some el
 # Definition #
 
 Given a [[set]] $S$, a __partial order__ on $S$ is a (binary) [[relation]] $\leq$ with the following properties:
-* reflexivity: $x \leq x$ always;
-* transitivity: if $x \leq y \leq z$, then $x \leq z$;
-* antisymmetry: if $x \leq y \leq x$, then $x = y$.
+* [[reflexive relation|reflexivity]]: $x \leq x$ always;
+* [[transitive relation|transitivity]]: if $x \leq y \leq z$, then $x \leq z$;
+* [[antisymmetric relation|antisymmetry]]: if $x \leq y \leq x$, then $x = y$.
 
 A __[[poset]]__ is a set equipped with a partial order.
 
