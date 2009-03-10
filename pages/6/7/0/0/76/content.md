@@ -66,9 +66,19 @@ Quillen also introduced a highly structured notion of equivalence between model 
 
 * The [[model structure on crossed complexes]] gives an alternative approach to $\infty$-[[infinity-groupoid|groupoids]].
 
+* In his talk at the 1950 ICM in Harvard, Henry Whitehead introduced the idea of [[algebraic homotopy]] theory and said
+
+_"The ultimate aim of algebraic homotopy is to construct a purely
+  algebraic theory, which is equivalent to homotopy theory in the same sort of 
+  way that 'analytic' is equivalent to 'pure' projective geometry."_
+
+This theme has been taken up more recently by Baues, using a type of abstract homotopy theory closely related to Ken Brown's [[category of fibrant objects|categories of fibrant objects]].  Whitehead's own work was extended by Ronnie Brown and Phil Higgins, see [[nonabelian algebraic topology]].
+
 #Literature#
 
 long list goes here, but for the moment there is just:
+
+* H. J. Baues, _Homotopy types_, in  _Handbook of Algebraic Topology_, (edited by I.M. James), North Holland, 1995.
 
 * Julia Bergner, _A survey of $(\infty,1)$-categories_ ([arXiv](http://arxiv.org/abs/math/0610239)).
 
@@ -80,6 +90,7 @@ long list goes here, but for the moment there is just:
 
 #entries related to homotopy theory#
 
+* [[algebraic homotopy]]
 * [[category of fibrant objects]]
 * [[category with weak equivalences]]
 * [[closed monoidal deformation retract]]
