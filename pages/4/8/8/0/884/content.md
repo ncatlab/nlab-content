@@ -16,8 +16,8 @@ _Classify the homotopy types of polyhedra, $X$, $Y$, $\ldots$ , by algebraic dat
 _Compute the set of homotopy classes of maps, $[X,Y]$, in terms of the
 classifying data for $X$, $Y$._
 
-These aims, with the possible enlargement of the class of objects of study to
-include many other types of spaces, and ultimately $\infty$-[[infinity-groupoid|groupoids]], are still valid. 
+These aims are still valid, but, within the context of these webpages, with the  enlargement of the class of objects of study to
+include many other types of spaces, and ultimately $\infty$-[[infinity-groupoid|groupoids]]. 
 
 One may summarise them, optimistically,
 by saying that one searches for a nice "algebraic" category $\mathbf{A}$ together 
