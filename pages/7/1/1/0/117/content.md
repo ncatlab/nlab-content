@@ -1,6 +1,6 @@
 #The idea
 
-According to the [usual definition](http://en.wikipedia.org/wiki/Partially_ordered_set), a partially ordered set, or 'poset' for short, is a set with a relation $\le$ that is reflexive, transitive and antisymmetric.  
+According to the [usual definition](http://en.wikipedia.org/wiki/Partially_ordered_set), a partially ordered set, or 'poset' for short, is a set with a relation $\le$ that is [[reflexive relation|reflexive]], [[transitive relation|transitive]] and [[antisymmetric relation|antisymmetric]].  
 
 But we can reformulate this definition by creating a category where the objects are the elements of our poset, and where there is a unique morphism $f: x \to y$ whenever $x \le y$.  This lets us think of a poset as a special sort of category.  
 
