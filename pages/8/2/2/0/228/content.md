@@ -1,9 +1,9 @@
 A set $S$ equipped with an __apartness relation__ is a [[groupoid]] (with $S$ as the set of objects) [[enriched category|enriched]] over the [[cartesian category]] $TV^\op$, that is the [[opposite category|opposite]] of the [[poset]] of [[truth value|truth values]], made into a [[monoidal category]] using [[disjunction]]. By the law of [[excluded middle]] (which says that $TV$ is self-dual under [[negation]]), this is equivalent to equipping $S$ with an [[equivalence relation]] (which makes $S$ a groupoid enriched over the cartesian category $TV$ *itself*). But in [[constructivism|constructive mathematics]] (or interpreted [[internalization|internally]]), it is a richer concept with a topological flavour.
 
 Of course, nobody but a category-theorist would use the above as a *definition* of an apartness relation. Normally, one defines an apartness relation on $S$ as a binary relation $\#$ satisyfing these three properties:
-* [[reflexive relation|irreflexivity]]: for all $x: S$, $x \# x$ is false;
+* [[irreflexive relation|irreflexivity]]: for all $x: S$, $x \# x$ is false;
 * [[symmetric relation|symmetry]]: for all $x, y: S$, if $y # x$, then $x # y$;
-* [[transitive relation|comparison]]: for all $x, y, z: S$, if $x # z$, then $x # y$ or $y # z$.
+* [[comparison]]: for all $x, y, z: S$, if $x # z$, then $x # y$ or $y # z$.
 
 (Notice that these are dual to the axioms for an [[equivalence relation]]; like those axioms, these correspond to [[identity|identities]], [[inverse]]s, and [[composition]] in a groupoid.)
 
