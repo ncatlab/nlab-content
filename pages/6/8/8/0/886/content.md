@@ -1,0 +1,10 @@
+A (binary) [[relation]] $\sim$ on a set $A$ is __total__ if any two elements that are related in one order or the other:
+$$\forall (x, y: A),\; x \sim y \;\vee\; y \sim x$$
+
+In the language of the $2$-poset-with-duals [[Rel]] of sets and relations, a relation $R: A \to A$ is __total__ if its intersection with its reverse is the universal relation:
+$$A \times A \subseteq R \cup R^{op}$$
+Of course, this containment is in fact an equality.
+
+A total relation is necessarily [[reflexive relation|reflexive]].
+
+Note that an [[entire relation]] is sometimes called 'total', but these are unrelated concepts.  The 'total' there is in the sense of a total (as opposed to [[partial function|partial]]) [[function]], while the 'total' here is in the sense of [[total order|total]] (as opposed to [[partial order|partial]]) order.
