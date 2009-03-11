@@ -51,9 +51,9 @@ The interesting definition is composition:  If $R$ is a relation from $A$ to $B$
 $$(a,c) \in R;S \;\Leftrightarrow\; \exists b: B,\; (a,b) \in R \;\wedge\; (b,c) \in S.$$
 The identity morphism is given by [[equality]].
 
-The special properties of the kinds of binary relations listed earlier can all be described in terms internal to $\Rel$ and therefore make sense in any allegory with enough structure.  Functional, entire, reflexive, transitive, symmetric, antisymmetric, and euclidean relations can be defined in any allegory.  So can irreflexive and asymmetric ones, although it is most sensible to do so if the hom-posets are already known to have [[bottom]] elements.  Comparisons require the hom-posets to have finite [[union|unions]], and well-founded relations require some sort of higher-order structure.
+The special properties of the kinds of binary relations listed earlier can all be described in terms internal to $\Rel$; most of them make sense in any allegory.  Irreflexive and asymmetric relations are most useful if the allegory\'s [[hom-object|hom-poset]]s have [[bottom]] elements, and linear relations require this.  Comparisons require the hom-posets to have finite [[union|unions]], and well-founded relations require some sort of higher-order structure.
 
-As a [[function]] may be seen as a special kind of relation, so the category [[Set]] of sets and functions is a [[subcategory]] of [[Rel]].
+As a [[function]] may be seen as a functional, entire relation, so the category [[Set]] of sets and functions is a [[subcategory]] of [[Rel]] (in fact a [[replete subcategory|replete]] and locally [[full subcategory|full]] sub-$2$-category).
 
 # Generalisation #
 
