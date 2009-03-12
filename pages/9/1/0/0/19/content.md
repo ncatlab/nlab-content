@@ -26,6 +26,7 @@ But maybe surprisingly, category theory turns out to be much more than the study
 * [[epimorphism]]
 * [[equality]]
 * [[equivalence]]
+* [[equivalence of categories]]
 * [[essentially surjective functor]]
 * [[extensive category]]
 * [[faithful functor]]
