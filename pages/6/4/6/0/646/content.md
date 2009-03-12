@@ -5,6 +5,14 @@ A homotopy $n$-type is a space where we consider its properties only up to the $
 [[Tim Porter|Tim]]:  When teaching homotopy theory I found blank looks from students if I used this idea as motivation as they felt it was too vague. I also do not like the idea of an $n$-type being a space as it does not allow one to say that two spaces 'have the same $n$-type.'
 
 _Toby_:  If you can explain the motivation that works here, then please do!  But this doesn\'t say that a type is a kind of space, it says that it\'s a space 'up to ...', so two spaces have the same type if they\'re the same 'up to ...'.  (In other words, we have a surjection Spaces &#8594; Types rather than an injection Types &#8594; Spaces, at least for purposes of motivation since of course both do exist).
+
+[[Tim Porter|Tim]]:As you sort of suggest, the problem is in the exact choice of words! At present you actually do say it is a space, at least as I read it, and that is my problem with the wording. Liberal use of inverted commas is not a good way around the difficulty.  I will bounce a form of words past you to see how you like it first.
+
+'In talking of a homotopy n-type, we are thinking of a space, or spaces, where the properties being considered are given by the homotopy groups $\pi_1$ up to $\pi_n$, so information recorded by the even higher homotopy groups is ignored.'
+
+How about something along those lines?
+
+Another question is how long should this entry on homotopy n-type be? I put in something on simplicial groups as an illustration, which I think you removed, but that section now reads strangely as after the first line (which mentions them) there does not seem to be any mention after that! As you and I seem, de facto, to be the main contributors on this entry (not exclusively) perhaps some discussion of the overall structure might be an idea.
 =--
 # Motivation #
 
@@ -13,6 +21,8 @@ For [[nice topological space|'nice' spaces]],
 [[Tim Porter|Tim]]: As I read the entry on nice topological spaces, it really refers to 'nice categories' rather than 'nice spaces'! I have always thought of spaces such as CW-complexes and polyhedra as being 'locally nice', but the corresponding categories are certainly not 'nice' in the sense of  [[nice topological space]]. Perhaps we need to adjust that other entry in some way.
 
 _Toby_:  You\'re right, I think I\'ve been linking that page wrongly.  (I just now did it again on [[homotopy type]]!)  Perhaps we should write [[locally nice space]] or [[locally nice topological space]] (you pick), and I\'ll fix all of the links tomorrow.
+
+[[Tim Porter|Tim]]:I suggest [[locally nice space]].  (For some time I worked in Shape Theory where local singularities were allowed so the spaces were not locally nice!) There would need to be an entry on locally nice. I suggets various meanings are discussed briefly, e.g. locally contractible, locally Euclidean,  ... and so on, but each with a minimum on it as the real stuff is in CW-complex etc and these are the 'ideas'.
 =--
 e.g., CW-complexes, a weak [[homotopy equivalence]] is the same as a homotopy equivalence.  Here a weak homotopy equivalence is a map which induces an isomorphism on all [[homotopy group]]s:
 $$f:X\to Y \Leftrightarrow \pi_k(f) : \pi_k(X)\to \pi_k(Y)$$
