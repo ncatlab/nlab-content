@@ -25,6 +25,11 @@ otherwise it is called **strictly directed** or a **strictly directed object** w
   * in particular the interval $I$ itself is strictly directed, as there is no weak equivalence from $I_0 = I$ to $[I,I] = \{a \to b \to c\}$; 
   * in general, the undirected objects should be precisely those for which every $j$-morphism is an $\omega$-[[equivalence]].  These should consist of those $\infty$-[[infinity-groupoid]]s that are strict as $\infty$-categories, or those objects that are weakly equivalent to a strict $\omega$-groupoid.
 
++--{: .query}
+[[Mike Shulman|Mike]]: I don't believe this; it seems to me that with the above definition, the undirected objects will be those for which every _1-morphism_ is an equivalence, but with no condition on the $j$-morphisms for $j\gt 1$.  It seems that the map $[pt,X]\to [I,X]$ is always essentially $j$-surjective for $j\gt 0$, so it will be an equivalence as soon as it is essentially 0-surjective, which just says that every 1-morphism is an equivalence.
+=--
+
+
 * Once we have a closed monoidal homotopical structure on the category $dTop$ of [[directed space|directed topological spaces]], it should be true that in $V = dTop$ with $I = I_d$ the standard directed interval, an object $(X, d X)$ is undirected precisely if it contains no nontrivial directed path.
 
 #Remarks#
