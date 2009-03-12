@@ -2,13 +2,17 @@
 
 A homotopy $n$-type is a space where we consider its properties only up to the $n$th [[homotopy group]] $\pi_n$.
 +-- {: .query}
-[[Tim Porter|Tim]]:  When teaching homotopy theory I found blank looks from students if I used this idea as motivation as they felt it was too vague. I also do not like the idea of an $n$-type being a space as it does not allow one to say that two spaces 'have the same $n$-type.' 
+[[Tim Porter|Tim]]:  When teaching homotopy theory I found blank looks from students if I used this idea as motivation as they felt it was too vague. I also do not like the idea of an $n$-type being a space as it does not allow one to say that two spaces 'have the same $n$-type.'
+
+_Toby_:  If you can explain the motivation that works here, then please do!  But this doesn\'t say that a type is a kind of space, it says that it\'s a space 'up to ...', so two spaces have the same type if they\'re the same 'up to ...'.  (In other words, we have a surjection Spaces &#8594; Types rather than an injection Types &#8594; Spaces, at least for purposes of motivation since of course both do exist).
 =--
 # Motivation #
 
 For [[nice topological space|'nice' spaces]], 
 +-- {: .query}
 [[Tim Porter|Tim]]: As I read the entry on nice topological spaces, it really refers to 'nice categories' rather than 'nice spaces'! I have always thought of spaces such as CW-complexes and polyhedra as being 'locally nice', but the corresponding categories are certainly not 'nice' in the sense of  [[nice topological space]]. Perhaps we need to adjust that other entry in some way.
+
+_Toby_:  You\'re right, I think I\'ve been linking that page wrongly.  (I just now did it again on [[homotopy type]]!)  Perhaps we should write [[locally nice space]] or [[locally nice topological space]] (you pick), and I\'ll fix all of the links tomorrow.
 =--
 e.g., CW-complexes, a weak [[homotopy equivalence]] is the same as a homotopy equivalence.  Here a weak homotopy equivalence is a map which induces an isomorphism on all [[homotopy group]]s:
 $$f:X\to Y \Leftrightarrow \pi_k(f) : \pi_k(X)\to \pi_k(Y)$$
