@@ -26,6 +26,8 @@ _Toby says_: I think that this should go on [[equivalence]], so I\'ll make sure 
 
 _Mike_: Wait a minute; I see why every preorder is equivalent to a poset without choice, but I don't see how to show that every preorder has a [[skeleton]] without choice.  So unless I'm missing something, the statement that every preorder is equivalent to a poset isn't, in the absence of choice, a special case of categories having skeletons.
 
+_Toby_:  Given the definition there that a skeleton must be a subcategory (not merely any equivalent skeletal category), that depends on what [[subcategory]] means, doesn\'t it?  If a subcategory can be any category equipped with a [[pseudomonic functor]] and if functor means [[anafunctor]] in choice-free category theory, then it is still true.  On the other hand, since we decided not to formally define 'subcategory', we really shouldn\'t use it to define 'skeleton' (or anything else), in which case &#8249;equivalent skeletal category&#8250; is the guaranteed non-evil option.  You *still* need choice to define a skeleton of an arbitrary category, but not of a proset.
+
 ***
 
 _[[Eric Forgy|Eric]] says_: It seems to me that any category $C$ gives rise to a preorder in a natural way, i.e.
