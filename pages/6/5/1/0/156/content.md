@@ -1,1 +1,1 @@
-A [[category]] is _skeletal_ if objects that are [[isomorphism|isomorphic]] are necessarily equal. A _skeleton_ of a category is any skeletal [[subcategory]] that is [[equivalence|equivalent]] to the original category. By the [[axiom of choice]], every category has a skeleton.
+A [[category]] is _skeletal_ if objects that are [[isomorphism|isomorphic]] are necessarily equal. A _skeleton_ of a category is any skeletal [[subcategory]] that is [[equivalence of categories|equivalent]] to the original category. By the [[axiom of choice]], every category has a skeleton.
