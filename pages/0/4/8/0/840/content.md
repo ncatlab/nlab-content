@@ -4,4 +4,4 @@ $3$-posets can also be called $(2,3)$-[[(n,r)-category|categories]].  The concep
 
 # Definition
 
-Fix a meaning of $\infty$-[[infinity-category|category]], however weak or strict you wish. Then a __$3$-poset__ is an $\infty$-category such that all parallel pairs of $j$-morphisms are [[equivalence|equivalent]] for $j \geq 3$. Thus, up to equivalence, there is no point in mentioning anything beyond $3$-morphisms, not even whether two given parallel $3$-morphisms are equivalent.
+Fix a meaning of $\infty$-[[infinity-category|category]], however weak or strict you wish. Then a __$3$-poset__ is an $\infty$-category such that all parallel pairs of $j$-morphisms are [[equivalence|equivalent]] for $j \geq 3$. Thus, up to [[equivalence of categories|equivalence]], there is no point in mentioning anything beyond $3$-morphisms, not even whether two given parallel $3$-morphisms are equivalent.
