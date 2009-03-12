@@ -1,8 +1,9 @@
-#Definition:# (Here is an extended version)
+#Definition:#
 
-A **profinite group** is a [[filtered limit|filtered inverse limit]] of [[finite group|finite groups]] within the category of topological groups. (The finite groups are given the discrete topology.) Equivalently, it is a Hausdorff, compact, totally disconnected [[topological group]].
+A **profinite group** is a [[pro-object]] in the category of [[finite group|finite groups]].  In other words, it is a [[filtered category|cofiltered]] diagram of finite groups, which is thought of as a "formal limit" but the limit is not actually computed.  In most cases, the limit would not actually exist in the category of finite groups, and while it would exist in the category of all groups, it would be "wrong" categorically: maps between profinite groups are not the same as maps between their honest limits in [[Grp]].
 
-An alternative, and still equivalent, definition is that a **profinite group** is a [[pro-object]] in the category of [[finite group|finite groups]].
+However, because of [[Stone duality]], it turns out that maps between profinite groups _are_ the same as maps between their honest limits in the category of [[topological group|topological groups]], where the finite groups are given the discrete topology.  Thus, the category of profinite groups can alternately be defined as the category of topological groups that are filtered inverse limits of finite groups.  Moreover, the topological groups that arise in this way can be characterized as those which are Hausdorff, compact, and totally disconnected.
+
 
 #Examples#
 
@@ -10,14 +11,20 @@ An alternative, and still equivalent, definition is that a **profinite group** i
 
 * In SGA1, Grothendieck definied the fundamental group of a scheme to be a profinite group.  (This is linked with his work on [[pro-representable functor|pro-representable functors]].)
 
+
 #Developments from the concept#
+
 * The category of profinite groups has nice 'exactness' properties. The projective limit of a systems of profinite groups is an exact functor, unlike its behaviour on groups themselves. To extend this behaviour beyond (pro)finite groups sometimes pro-localic groups have been used.
+
++--{: .query}
+[[Mike Shulman|Mike]]: The three remarks below don't really seem to belong here; maybe they should go on something like [[profinite homotopy type]].
+=--
 
 * In Algebraic Topology, profinite homotopy types are frequently encountered. This is often because of the use of profinite completions of homotopy types in an attempt to get more information out of the invariants. 
 
 * In the 1960s Artin and Mazur constructed a functor which associates to
 each locally noetherian scheme $X$ its &#233;tale homotopy type $X_{et}$ , an object of
-$pro-Ho(SSets)$, the [[pro-category]] of the homotopy category $Ho(SSets)$ of simplicial sets. They observed that this did not correspond to a homotopy category of a [[model category]] on a category of pro simplicial sets.
+$pro-Ho(SSets)$, the [[pro-object|pro-category]] of the homotopy category $Ho(SSets)$ of simplicial sets. They observed that this did not correspond to a homotopy category of a [[model category]] on a category of pro simplicial sets.
 
 
 
