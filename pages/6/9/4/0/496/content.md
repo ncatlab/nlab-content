@@ -9,6 +9,6 @@ $$
 $$
 Actually, we should expect the $0$-category of $0$-posets to be a $1$-poset; this is simply a poset, and indeed truth values do form a poset (where $\bot \leq \top$).
 
-If we equip the category of $0$-posets with its [[cartesian monoidal category|monoidal cartesian structure]] (which is [[conjunction]], the logical AND operation), then an $\infty$-[[enriched category|category enriched]] over this should be a $1$-poset; and indeed it is (up to [[equivalence]]) a poset (although up to isomorphism only, a category enriched over truth values under conjunction is actually a set equipped with a [[preorder]]).
+If we equip the category of $0$-posets with its [[cartesian monoidal category|monoidal cartesian structure]] (which is [[conjunction]], the logical AND operation), then an $\infty$-[[enriched category|category enriched]] over this should be a $1$-poset; and indeed it is (up to [[equivalence of categories]]) a poset (although up to isomorphism only, a category enriched over truth values under conjunction is actually a set equipped with a [[preorder]]).
 
 See [[(-1)-category]] for references on this sort of 'negative thinking'.
