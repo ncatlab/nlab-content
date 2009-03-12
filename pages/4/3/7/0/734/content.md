@@ -28,7 +28,7 @@ Conversely, from any category with weak finite limits one can construct an [[exa
 
 # Weak limits and homotopy limits #
 
-Unlike usages of 'weak' in terms like [[weak n-category]], a weak limit is not be like a [[homotopy limit]] or a [[2-limit]], which satisfy uniqueness (as well as existence) albeit only up to higher [[homotopy|homotopies]] or [[equivalence|equivalences]].
+Unlike usages of 'weak' in terms like [[weak n-category]], a weak limit is not be like a [[homotopy limit]] or a [[2-limit]], which satisfy uniqueness (as well as existence) albeit only up to higher [[homotopy|homotopies]] or [[weak equivalence|equivalences]].
 
 However, some homotopy limits induce the corresponding type of weak limit in the corresponding [[homotopy category]].  For example, suppose that
 $$\array{ P & \overset{p}{\to} & A\\
@@ -42,13 +42,5 @@ $$\array{ X & \overset{x}{\to} & A\\
 that commutes in $Ho(M)$ commutes up to homotopy in $M$, and thus (by the ("local") universal property of homotopy pullbacks), there is a map $h:X\to P$ and homotopies $p h \simeq x$ and $q h\simeq y$; thus the given square is a weak pullback in $Ho(M)$.  While the universal property of a homotopy pullback means that $h$ is unique up to homotopy, this is only true for a given _choice_ of homotopy $f x \simeq g y$, and different such homotopies can induce inequivalent $h$'s.  Thus in $Ho(M)$, which remembers only the _existence_ of homotopies, we have only a weak pullback.
 
 Note, though, that not _all_ homotopy limits produce weak limits in the homotopy category, because in general it will not be possible to lift a cone that commutes in $Ho(M)$ to a cone that commutes up to _coherent_ homotopy in $M$.  However, in "simple" cases such as pullbacks, products, equalizers, sequential inverse limits, and so on, this is always true (and it will be true whenever the diagram category is a [[quiver]]).  On the other hand, homotopy products in $M$ give actual (not weak) products in $Ho(M)$, since there are no homotopies necessary.
-
-+--{.query}
-Can we say definitely that homotopy equalisers do *not* produce weak equalisers (that being the simplest sort of limit whose diagram is not a quiver).  &#8212;Toby
-
-I'm pretty sure that the diagram $(\cdot \rightrightarrows \cdot)$ for equalizers is a quiver.  -Mike
-
-Erm ... yeah, for some reason I was thinking about posets.  &#8249;sheepish grin&#8250;  &#8212;Toby
-=--
 
 Weak limits in homotopy categories play an important role in the [[Brown representability theorem]].
