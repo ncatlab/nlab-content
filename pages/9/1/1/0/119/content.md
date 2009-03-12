@@ -24,6 +24,8 @@ _[[Urs Schreiber|Urs]] says_: as indicated at [[anafunctor]] an equivalence in t
 
 _Toby says_: I think that this should go on [[equivalence]], so I\'ll make sure that it\'s there. People that don\'t know what 'equivalence' means without choice should look there.
 
+_Mike_: Wait a minute; I see why every preorder is equivalent to a poset without choice, but I don't see how to show that every preorder has a [[skeleton]] without choice.  So unless I'm missing something, the statement that every preorder is equivalent to a poset isn't, in the absence of choice, a special case of categories having skeletons.
+
 ***
 
 _[[Eric Forgy|Eric]] says_: It seems to me that any category $C$ gives rise to a preorder in a natural way, i.e.
