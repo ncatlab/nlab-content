@@ -6,14 +6,16 @@ The general theory of equivalence is discussed at [[equivalence relation]], but 
 
 In [[higher category theory]] an **equivalence** often means a morphism which is invertible in a maximally weak sense (that is, up to all higher equivalences).  Two objects are **equivalent** if there is an equivalence between them.  For example:
 
-* In a 1-category, an equivalence is just an [[isomorphism]].
+* In a [[set]] (a $0$-[[0-category|category]]), equivalence is just [[equality]].
 
-* In a (possibly weak) 2-category, an equivalence is a morphism $f : x \to y$ such that there exists a morphism $g : y\to x$ and 2-cell isomorphisms $f g \cong 1_y$ and $g f \cong 1_x$.  In the 2-category $Cat$ this reduces to the above notion.
+* In a [[category]] (a $1$-[[1-category|category]]), an equivalence is an [[isomorphism]].
 
-* In a (possibly weak) 3-category, an equivalence is a morphism $f : x \to y$ such that there exists a morphism $g : y\to x$ and 2-cells $f g \to 1_y$ and $g f \to 1_x$ which are equivalences in the appropriate hom-2-categories.  In the (weak) 3-category $Bicat$ of [[bicategory|bicategories]], pseudofunctors, pseudonatural transformations, and modifications, such equivalences are often called _biequivalences_, and that term is sometimes also used for an equivalence in any 3-category.
+* In a (possibly weak) $2$-[[2-category|category]], an equivalence is a morphism $f : x \to y$ such that there exists a morphism $g : y\to x$ and $2$-cell isomorphisms $f g \cong 1_y$ and $g f \cong 1_x$.  In the $2$-category [[Cat]] this reduces to the usual notion of [[equivalence of categories]] (although one must define $\Cat$ carefully using [[anafunctor]]s if one wants to avoid the [[axiom of choice]]).
 
-* In an $\infty$-category, an equivalence is a morphism $f : x \to y$ such that there exists a morphism $g : y\to x$ and 2-cells $f g \to 1_y$ and $g f \to 1_x$ which are equivalences in the appropriate hom-$\infty$-categories.  This "definition" is recursive with no base case, so it requires a little work to make rigorous.
+* In a (possibly weak) $3$-[[3-category|category]], an equivalence is a morphism $f : x \to y$ such that there exists a morphism $g : y\to x$ and 2-cells $f g \to 1_y$ and $g f \to 1_x$ which are equivalences in the appropriate hom-2-categories.  In the (weak) 3-category $Bicat$ of [[bicategory|bicategories]], pseudofunctors, pseudonatural transformations, and modifications, such equivalences are often called _biequivalences_, and that term is sometimes also used for an equivalence in any $3$-category.
+
+* In a (possibly weak) $\infty$-[[infinity-category|category]], an equivalence is a morphism $f : x \to y$ such that there exists a morphism $g : y\to x$ and 2-cells $f g \to 1_y$ and $g f \to 1_x$ which are equivalences in the appropriate hom-$\infty$-categories.  This can be made rigorous as a [[corecursive definition]].
 
 # In homotopy theory #
 
-We need [[homotopy equivalence]] and [[weak homotopy equivalence]].
+We need [[homotopy equivalence]] and [[weak homotopy equivalence]].  See also [[weak equivalence]].
