@@ -1,6 +1,6 @@
 #Idea#
 
-In general, "folk model structures" are [[model category]] structures for some flavor of [[n-category|n-categories]] for $1\le n\le \infty$ (note that $n=\infty$ or $\omega$ is allowed) in which the [[weak equivalence|weak equivalences]] are the [[equivalence|categorical equivalences]].  This is to be contrasted with [[Thomason model structure|Thomason model structures]] in which the weak equivalences are the morphisms that induce a weak homotopy equivalence of [[nerve|nerves]].  In a folk model structure for some flavor of $n$-categories, usually
+In general, "folk model structures" are [[model category]] structures for some flavor of [[n-category|n-categories]] for $1\le n\le \infty$ (note that $n=\infty$ or $\omega$ is allowed) in which the [[weak equivalence|weak equivalences]] are the [[equivalence of categories|category-theoretic equivalences]].  This is to be contrasted with [[Thomason model structure|Thomason model structures]] in which the weak equivalences are the morphisms that induce a weak homotopy equivalence of [[nerve|nerves]].  In a folk model structure for some flavor of $n$-categories, usually
 
 * a **fibration** is a functor that lifts [[equivalence|equivalences]] in all dimensions,
 * an **acyclic fibration** is a functor which is [[k-surjective functor|k-surjective]] for all $0\le k\le n$,
