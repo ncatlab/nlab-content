@@ -1,4 +1,4 @@
-The _Dold-Kan correspondence_ is the name of the [[equivalence]] of 
+The _Dold-Kan correspondence_ is the name of the [[equivalence of categories|equivalence]] of 
 
 * the category [[SimpAb]] of [[simplicial set|simplicial]] abelian groups;
 
