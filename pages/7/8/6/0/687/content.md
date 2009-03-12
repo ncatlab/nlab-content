@@ -1,3 +1,3 @@
-The category $Grpd$ of [[groupoid]]s is the full  [[subcategory]] of [[Cat]] on [[groupoid]]s.
+The category $Grpd$ of [[groupoid]]s is the [[full subcategory]] of [[Cat]] on [[groupoid]]s.
 
 category: category
