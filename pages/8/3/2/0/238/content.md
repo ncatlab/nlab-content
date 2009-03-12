@@ -18,6 +18,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
     * I have edited [[homotopy type]] as recent changes seem to have altered the idea away from the usual one making it perhaps too narrow.  A similar problem seems to occur with [[homotopy n-type]] and I have raised a terminological query there as well.
    * In [[homotopy n-type]] I have also queried the use of 'nice space' and its relation with [[nice topological space]].  This latter entry is perhaps misnamed as it is really the category of these spaces that is nice rather than the spaces themselves.
    *  I have raised a question on *Disambiguation* at [[proset]].  Have we a policy as to how to handle  terms with perfectly acceptable multiple meanings?
+   *  I have tried to 'better' the previous entry on [[profinite group]]! (see the old version to see why I say it this way.)
 * [[Mike Shulman]]: A question about the [[Crans-Gray tensor product]].
 
 *  [[Toby Bartels]]:
