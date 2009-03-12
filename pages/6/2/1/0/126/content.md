@@ -10,7 +10,7 @@ Given a [[category]] $C$, a __subcategory__ $D$ consists of a subcollection of t
 
 These conditions ensure that $D$ is a category in its own right and the inclusion $D\hookrightarrow C$ is a [[functor]].  Additionally, we say that $D$ is...
 
-* A __full subcategory__ if for any $x$ and $y$ in $D$, every morphism $f : x \to y$ in $C$ is also in $D$.
+* A __[[full subcategory]]__ if for any $x$ and $y$ in $D$, every morphism $f : x \to y$ in $C$ is also in $D$.
 
 * A __replete subcategory__ if for any $x$ in $D$ and any isomorphism $f:x\cong y$ in $C$, both $y$ and $f$ are also in $D$.
 
