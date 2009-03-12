@@ -2,7 +2,7 @@
 
 _Deformations_ and _deformation retracts_ are tools in [[homotopy theory]] for constructing the [[homotopy category]] of a [[model category]] or more general [[homotopical category]]. 
 
-The idea of a deformation retract is to find a full subcategory of a given [[homotopical category]] $C$ such that
+The idea of a deformation retract is to find a [[full subcategory]] of a given [[homotopical category]] $C$ such that
 
 * a given functor $F$ from $C$ to another [[homotopical category]] becomes a [[homotopical functor]] on this subcategory;
 
@@ -28,7 +28,7 @@ $$
 $$
 (it follows from [[category with weak equivalences|2-out-of-3]] that $Q$ is a [[homotopical functor]]).
 
-* A **left deformation retract** is a full [[subcategory]] $C_Q$ containing the image of a left deformation $(Q,q)$.
+* A **left deformation retract** is a [[full subcategory]] $C_Q$ containing the image of a left deformation $(Q,q)$.
 
 Now let $F : C \to D$ be a functor between [[homotopical category|homotopical categories]].
 
