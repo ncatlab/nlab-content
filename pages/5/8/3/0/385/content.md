@@ -20,12 +20,6 @@ A detailed discussion is in
 
 * Sjoerd Crans, _Pasting schemes for the monoidal biclosed structure on $\omega$-Cat_ ([ftp, gzipped PostScript](ftp://ftp.math.mcgill.ca/pub/crans/thten.ps.gz))
 
-+--{: .query}
-[[Mike Shulman|Mike]]: The above link appears to be broken.
-
-_Toby_:  Found a copy.
-=--
-
 * R. Brown and P.J. Higgins, Tensor products and homotopies for $\omega$-groupoids and crossed complexes,  J. Pure Appl. Alg. 47 (1987) 1-33.
 
 * F.A. Al-Agl, R. Brown and R. Steiner,  Multiple categories: the equivalence between a globular and cubical approach, Advances in Mathematics, 170 (2002) 71-118.
