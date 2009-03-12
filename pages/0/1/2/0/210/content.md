@@ -8,7 +8,7 @@ More abstractly, we may say a functor is full if it is $1$-[[k-surjective functo
 
 Fullness is most important for functors which are also [[faithful functor|faithful]], and full and faithful functors are often called _fully faithful_.  For ordinary functors this may sound odd, because there is no real sense in which "full" modifies "faithful."  However, in some contexts (such as for morphisms in a general [[2-category]]), there is a good notion of "full-and-faithful" or "fully faithful," but the right notion of "full" alone is not so clear.  "Fully faithful" is also sometimes abbreviated to "ff"; see also [[bo-ff factorization system]].
 
-A [[subcategory]] is called a **full subcategory** if its inclusion functor (which is automatically faithful) is also full, and any full and faithful functor exhibits an equivalence of its domain with a full subcategory of its codomain.
+A [[subcategory]] is called a _[[full subcategory]]_ if its inclusion functor (which is automatically faithful) is also full, and any full and faithful functor exhibits an equivalence of its domain with a full subcategory of its codomain.
 
 
 ### Discussion ###
