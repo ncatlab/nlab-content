@@ -64,7 +64,7 @@ There is a [[strict 2-category]] MonCat with:
 * [[monoidal functor]]s as morphisms, 
 * [[monoidal natural transformation]]s as 2-morphisms.
 
-One version of Mac Lane's Coherence Theorem states that in MonCat, every monoidal category is [[equivalence|equivalent]] to a strict one.
+One version of Mac Lane's Coherence Theorem states that in MonCat, every monoidal category is [[equivalence of categories|equivalent]] to a strict one.
 
 ##References##
 
