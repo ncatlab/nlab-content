@@ -2,3 +2,11 @@ A (binary) [[relation]] $\sim$ on a set $A$ is __linear__ if any two elements th
 $$\forall (x, y: A),\; x \nsim y \;\wedge\; y \nsim x \;\Rightarrow\; x = y$$
 
 The term 'linear' here is in the sense of [[linear order]] (as opposed to a mere [[quasiorder]]); the term 'linear relation' without this context is unlikely to be understood.  (In high-school mathematics, a 'linear relation' is a projective linear function, much as a 'linear function' there is an affine linear function.)
+
++--{.query}
+I\'m not aware of any standard name for this property, even in the constructive literature.  (Constructive mathematicians mostly think of it as antisymmetry of the negation; classical mathematicians mostly think of it as half of trichotomy, with asymmetry being the other half.)  The high-school meaning of 'linear relation' referred to above (which is what you find on Google) is unlikely to cause confusion, but an unambiguous name might be better.
+
+The alternative is 'tight relation'.  I\'ve never seen that used (in mathematics) except in reference to an [[apartness relation]].  One could therefore argue that the symmetrised form here has never appeared in the literature; since an apartness relation is symmetric, you only have to list one of the conjuncts in the hypothesis (and people always list the left one, since that looks most natural).
+
+Perhaps this is such an unimportant concept that it doesn\'t matter, but I wonder if there are any opinions?
+=--
