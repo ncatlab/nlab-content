@@ -18,6 +18,9 @@ However, because of [[Stone duality]], it turns out that maps between profinite 
 
 +--{: .query}
 [[Mike Shulman|Mike]]: The three remarks below don't really seem to belong here; maybe they should go on something like [[profinite homotopy type]].
+
+[[Tim Porter|Tim]]:  That was my eventual intention when others had had a chance to react to my rewrite of this entry.  (By the way I like your rewrite of my rewrite!)
+I suspect some entry on &#233;tale homotopy type will also be needed.  (I have a feeling that there may be some useful 'synergy' between this and Andrew's generalsied space stuff, but I may be wrong.)
 =--
 
 * In Algebraic Topology, profinite homotopy types are frequently encountered. This is often because of the use of profinite completions of homotopy types in an attempt to get more information out of the invariants. 
