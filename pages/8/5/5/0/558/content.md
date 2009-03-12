@@ -15,7 +15,7 @@ In analogy to the homotopy hypothesis, there are also attempts to relate general
 
 # The meaning of "models" #
 
-One has to be careful, in stating the homotopy hypothesis, to specify what one means by "models."  The usual, unstated, implication is that the notion of _equivalence_ of $n$-groupoids used to model $n$-types is the appropriate $n$-*categorical* notion of [[equivalence]].  It is in this way that, for instance, it is known that 1-groupoids model 1-types; to be precise, the 2-category of groupoids, functors, and natural transformations is equivalent to the 2-category of 1-types, continuous maps, and homotopy classes of homotopies.
+One has to be careful, in stating the homotopy hypothesis, to specify what one means by "models."  The usual, unstated, implication is that the notion of _equivalence_ of $n$-groupoids used to model $n$-types is the appropriate *$n$-category-theoretic* notion of [[equivalence of categories|equivalence]].  It is in this way that, for instance, it is known that 1-groupoids model 1-types; to be precise, the 2-category of groupoids, functors, and natural transformations is equivalent to the 2-category of 1-types, continuous maps, and homotopy classes of homotopies.
 
 The reason this is important to specify is that there are other notions of equivalence on categorical structures which model homotopy types in other ways.  For example, if we declare a functor between categories to be a weak equivalence iff its [[nerve]] is a weak equivalence of [[simplicial set]]s, then _all_ homotopy types can be modeled by 1-categories in this way; see the [[Thomason model structure]] for 1-categories.
 
