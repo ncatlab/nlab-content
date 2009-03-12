@@ -13,7 +13,9 @@ _Toby_:  Well, you can if you want, but I don\'t.  Seriously, 'proset' is not so
 
 But don\'t let this matter be conflated with the weighty question of whether things should be kept at separate pages!  The distinction between [[linear order]] and [[loset]] is probably the best example of how they would look if kept separate, while [[apartness relation]] is probably the closest example of something where there is even now only one page.  (By 'things' here, I mean [[poset]]/[[partial order]] and [[toset]]/[[total order]] in addition to ones already considered.  Since a [[quasiorder]] cannot define equality, I don\'t think that [[quoset]] is necessary, and of course a [[woset]] is the same as (one kind of) [[ordinal number]], so it may not come up either; anyway, we haven\'t even written [[well-order]] yet.)
 
-[[Tim Porter|Tim]]: On [[proset]] I suggest that we use the word 'synonym'! Something like, 'proset' is often used in the literature as a synonym for 'preordered set'.  This meaning should not be confused with that of a porjective system in the category of sets, that is a pro-object in Sets.
+[[Tim Porter|Tim]]: On [[proset]] I suggest that we use the word 'synonym'! Something like, 'proset' is often used in the literature as a synonym for 'preordered set'.  This meaning should not be confused with that of a projective system in the category of sets, that is a pro-object in Sets.
 
-I am not that worried about this, but do feel that we are hitting `Disambiguation' problems at various points and may need a discussion on how we should handle those technically see the Wikipedia page on Disambiguation, which you all probably know well.
+I am not that worried about this, but do feel that we are hitting 'Disambiguation' problems at various points and may need a discussion on how we should handle those technically see the Wikipedia page on Disambiguation, which you all probably know well.
+
+_Toby_:  [[simplicial category]] is pretty much a disambiguation page, although with some content too.  There a couple of others like it.
 =--
