@@ -3,6 +3,8 @@
 A _directed space_ is a topological space in which not every path is to be thought of as traversable in both directions. 
 Directed spaces are supposed to be to general $\infty$-[[infinity-category|categories]] as ordinary [[topological space|topological spaces]] are to $\infty$-[[infinity-groupoid|groupoids]] via the [[homotopy hypothesis]].
 
+Note that a directed space is generalised space; not every directed space is a space in the old sense, in accordance with the [[red herring principle]].
+
 Directed spaces are studied in [[directed homotopy theory]], a relatively young topic. In generalization of how a [[topological space]] has a [[fundamental groupoid]], a [[directed space]] has a [[fundamental category]].
 +--{.query}
 [[Tim Porter|Tim]]: Originally **directed space** was used to indicate a space together with a closed direceted partial order on it. If the space is nice enough then there are directed paths which cannot be traversed in both directions. It may be worth giving that definition as then the difference between directed and undirected homotopies between paths could be addressed. 
@@ -40,7 +42,7 @@ A **morphism of directed topological spaces**  $f : (X, d X)\to (Y , d Y)$ is a 
 
 #Remarks#
 
-* If we can equip directed spaces with an internal hom, then a directed space with at least one directed path should be a [[directed object]] in the category of directed spaces, with respect to the standard directed interval as the [[interval object]], while an ordinary topological spaces regarded as a directed space should be an undirected object.
+* If we can equip directed spaces with an internal hom, then a directed space with at least one directed path should be a strictly directed object in the category of directed spaces, with respect to the standard directed interval as the [[interval object]], while an ordinary topological space regarded as a directed space should be an [[undirected object]].
 
 +--{.query}
 But for that to work we need the structure of a directed topological space on $C(I_d,(X,d X))$. This requires that $X$ has _directed homotopies_! Does Grandis discuss higher directed paths, too? &#8212;Urs
