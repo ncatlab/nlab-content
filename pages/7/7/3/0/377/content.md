@@ -69,4 +69,8 @@ _Toby_:  I believe that the compact Hausdorff reflection (the Stone&#8211;&#268;
 
 Anyway, your plan sounds fine, although [[nice category of spaces]] might be another title.  (I guess that it\'s up to whoever gets around to writing it first.)  Although I\'m not sure that people really mean m-cofibrant spaces when they speak of nice topological spaces when doing homotopy theory; how do we know that they aren\'t referring to CW-complexes? (which is what I always assumed that *I* meant).
 
+[[Mike Shulman|Mike]]: I guess [[nice category of spaces]] would fit better with the existing cumbersomely-named [[dichotomy between nice objects and nice categories]].  I should have said that when people say "nice topological space" as a means of not having to worry about weak homotopy equivalences, they might as well mean (or maybe even "should" mean) m-cofibrant space.  If people do mean CW-complex for some more precise reason (such as wanting to induct up the cells), then they can say "CW complex" instead.
+
+Re: exponentials, the Stone-&#268;ech compactification of $Y^X$ will (as long as $Y^X$ isn't already compact) have more points than $Y^X$; but by the isomorphism $Hom(1,Y^X)\cong Hom(X,Y)$, points of an exponential space _have_ to be in bijection with continuous maps $X\to Y$.
+
 =--
