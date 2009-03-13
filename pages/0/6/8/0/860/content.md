@@ -45,4 +45,8 @@ The difference between [[loset]] and [[linear order]] is that the latter is abou
 
 Do you really not see how having both [[preorder]] and [[poset]] was inconsistent?  Yes, you can speak of a 'preorder' or a 'linear order' or a 'well ordering' without specifying the set ahead of time, but the same thing is true of a 'partial order'!  All in all, I see your arguments as suggesting that we should put everything on the same page, and that page should be [[preorder]]/[[partial order]]/etc rather than [[proset]]/[[poset]]/etc, but you make an arbitrary exception for [[poset]] (and maybe [[toset]], that\'s not clear).
 
+_Mike_: Okay, there's a fine distinction between what's on [[loset]] and what's on [[linear order]].  But I don't think its a fine distinction worth perpetuating; I have trouble imagining someone wanting to read what's on one of those pages but not what's on the other one.  Is there a specific reason not to put all the content on one page and have the other one be a redirect?
+
+I admit that having both preorder and poset is not completely uniform terminology, but I draw a fine distinction between nonuniformity and inconsistency.  (-:O  However, if you really want uniform terminology, I would be okay with putting everything on [[preorder]], [[partial order]], [[total order]], etc. with [[proset]], [[poset]], [[toset]], etc. as redirects.
+
 =--
