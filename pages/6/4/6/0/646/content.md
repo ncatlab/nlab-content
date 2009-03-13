@@ -1,6 +1,10 @@
 # Idea #
 
-A homotopy $n$-type is a space where we consider its properties only up to the $n$th [[homotopy group]] $\pi_n$.
+A homotopy $n$-type is like a space, but we only consider properties given by the [[homotopy group]]s up to $\pi_n$, so information recorded by even higher homotopy groups is ignored.
+
+It is possible to define a homotopy $n$-type as a special kind of space, but the usual language used better fits the idea of an [[equivalence relation]] on topological spaces.  Thus we say that two spaces 'have the same homotopy $n$-type' if they agree up to $\pi_n$.
+
+Note that merely having isomorphic homotopy groups is not enough; see below for the careful definition.
 
 +-- {: .query}
 [[Tim Porter|Tim]]:  When teaching homotopy theory I found blank looks from students if I used this idea as motivation as they felt it was too vague. I also do not like the idea of an $n$-type being a space as it does not allow one to say that two spaces 'have the same $n$-type.'
@@ -16,6 +20,10 @@ How about something along those lines?
 Another question is how long should this entry on homotopy n-type be? I put in something on simplicial groups as an illustration, which I think you removed, but that section now reads strangely as after the first line (which mentions them) there does not seem to be any mention after that! As you and I seem, de facto, to be the main contributors on this entry (not exclusively) perhaps some discussion of the overall structure might be an idea.
 
 [[Mike Shulman|Mike]]: The really precise way to say it is, of course, that a homotopy $n$-type is an object of the homotopy category (or $\infty$-category) of spaces where we invert the $n$-equivalences.  This is analogous to defining a real number to be an equivalence class of Cauchy sequences of rationals; two spaces 'have the same $n$-type' in the same sense that two Cauchy sequences of rationals 'define (or converge to) the same real number'.  Perhaps it would be useful to say this?
+
+_Toby_:  My only use of quotation marks was to provide direct quotations; of course we don\'t need scare quotes in the text.  You are all saying fine things, so I will [be bold](https://secure.wikimedia.org/wikipedia/en/wiki/Wikipedia:Be_bold) and incorporate them now.  (In the end, I tightened up the prose a bit, but change it if you don\'t like it.)
+
+I didn\'t mean to *remove* anything about simplicial groups, just to generalise.  But I specified how to interpret it for simplicial groups in the algebraic models below.  But maybe none of that really depends on using simplicial groups?  What you had before didn\'t read to me as an example so much as a prerequisite for the remainder to be correct.
 =--
 
 # Motivation #
@@ -30,6 +38,8 @@ _Toby_:  You\'re right, I think I\'ve been linking that page wrongly.  (I just n
 [[Tim Porter|Tim]]:I suggest [[locally nice space]].  (For some time I worked in Shape Theory where local singularities were allowed so the spaces were not locally nice!) There would need to be an entry on locally nice. I suggets various meanings are discussed briefly, e.g. locally contractible, locally Euclidean,  ... and so on, but each with a minimum on it as the real stuff is in CW-complex etc and these are the 'ideas'.
 
 [[Mike Shulman|Mike]]: Why not change the page [[nice topological space]] to be about CW-complexes and so on, and move the existing material there to something like [[convenient category of spaces]], which is also a historically valid term?  I am probably to blame for the current misleading content of [[nice topological space]] and I'd be happy to have this changed.
+
+_Toby_:  I thought that [[nice topological space]] was supposed to be about special kinds of spaces, such as locally compact Hausdorff spaces, whose full subcategories of $\Sp$ are also nice.  (Sort of a counterpoint to the [[dichotomy between nice objects and nice categories]], whose theme is better fit by the example of locally Euclidean spaces).  CW-complexes also apply ---if you\'re interested in the homotopy categories.
 =--
 
 e.g., CW-complexes, a weak [[homotopy equivalence]] is the same as a homotopy equivalence.  Here a weak homotopy equivalence is a map which induces an isomorphism on all [[homotopy group]]s:
@@ -48,15 +58,15 @@ For any nice space $X$, you can kill its homotopy groups in higher dimensions by
 
 # Algebraic models #
 
-We will use simplicial groups and simplicial groupoids rather than spaces below as they are already partially algebraicised.
+We will use simplicial groups and simplicial groupoids rather than spaces below as they are already partially algebraicised.  So in the definition above, 'space' means a simplicial group(oid) and 'continuous map' means a homomorphism of simplicial group(oid)s.
 
-Considerable effort has gone into finding 'good' algebraic models for (connected) homotopy $n$-types. In low dimensions the results are 'old' or 'classical'.  (We will consider connected cases only.  The extension to the non-connected case is 'routine'.)
+Considerable effort has gone into finding 'good' algebraic models for (connected) homotopy $n$-types. In low dimensions the results are 'old' or 'classical'.  We will consider connected cases (simplicial groups) only.  The extension to the non-connected case (simplicial groupoids) is 'routine'.
 
 * The 1-type of a connected space is completely determined by its [[fundamental group]], so groups form an algebraic model for [[homotopy 1-type]]s. For the non pointed case, we can say [[groupoid]]s form an algebraic model. 
 
 * [[crossed module|Crossed modules]] form an algebraic model for [[homotopy 2-type]]s by a result of Mac Lane and Whitehead
      
-     *  S. Mac Lane and J. H. C. Whitehead, _On the 3-type of a complex_, Proc. Nat. Acad. Sci. U.S.A., 36, (1950), 41 &#8211; 48.
+*  S. Mac Lane and J. H. C. Whitehead, _On the 3-type of a complex_, Proc. Nat. Acad. Sci. U.S.A., 36, (1950), 41 &#8211; 48.
 
 The use of crossed modules of groupoids and their [[classifying space]] for the non pointed case is explained under [[homotopy 2-type]]. 
 
