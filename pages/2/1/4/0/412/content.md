@@ -24,3 +24,18 @@ In general given two model structures with these inclusions, we get a third **mi
 
 On topological spaces, this model structure has weak homotopy equivalences for weak equivalences and Hurewicz fibrations for fibrations. 
 
+# References #
+
+For the original "Quillen" or "q-" model structure:
+
+* Quillen, _Homotopical algebra_
+
+* Any book on model categories, such as Hovey's _Model categories_ or Hirschhorn's _Model categories and their localizations_.
+
+For the "Hurewicz," "Str&#248;m," or "h-" model structure:
+
+* Arne Str&#248;m, _The homotopy category is a homotopy category_, Archiv der Mathematik 23 (1972)
+
+For the "mixed" or "m-" model structure:
+
+* Michael Cole, _Mixing model structures_, Topology Appl. 153 no. 7 (2006)
