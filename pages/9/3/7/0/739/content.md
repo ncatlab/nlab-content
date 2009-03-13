@@ -24,6 +24,8 @@ However, because of [[Stone duality]], it turns out that maps between profinite 
 I suspect some entry on &#233;tale homotopy type will also be needed.  (I have a feeling that there may be some useful 'synergy' between this and Andrew's generalsied space stuff, but I may be wrong.)
 
 _Toby_:  (I rewrote the rewrite or the rewrite a bit to make it more a 'narrative', as John says.)
+
+_Mike_: I actually think that the definition as pro-objects in finite-groups should be presented first and emphasized.  I see it as the "real" definition, whereas the fact that you can go ahead and take the inverse limit in topological groups is a nontrivial theorem, which is false for, say, pro-nonfinite-groups.
 =--
 
 * In Algebraic Topology, profinite homotopy types are frequently encountered. This is often because of the use of profinite completions of homotopy types in an attempt to get more information out of the invariants. 
