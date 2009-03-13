@@ -28,4 +28,10 @@ Your other point about separate pages needs thought.  My view would be that we n
 [[Mike Shulman|Mike]]: Toby, I wasn't saying you pulled "proset" out of thin air; I've never seen it in the literature but clearly I read different literature than you do.  (-:  My point was rather about what terminology we should use here on the nLab.  I think having "proset" be a disambiguation page is a good idea, but since there is potential ambiguity I would prefer that we avoid its use elsewhere on the nLab.
 
 I'm all in favor of having lots of pages, but I'm not really in favor of duplicating _content_.  I'd rather have [[toset]] just link to [[total order]], which in turn mentions that "toset" is a sometimes-used terminology for "totally ordered set."
+
+_Toby_:  Mike, except for briefly summarising a definition, there is no content duplicated between [[linear order]] and [[loset]].  (Some of the other pairs haven\'t been cleaned up so well, but I will happily do that.)  So my question is, is that a better way of organising things, or is [[poset]] (from which I have removed nothing to [[partial order]] yet) a better way?
+
+I am torn.  If the original page names [[poset]] and [[preorder]] had been consistent (one way or the other), I\'d have just gone with it.  (I have a better formed opinion that *if* we put everything on one page, then [[preorder]] is better and [[poset]] is worse.)  If we have to make an except for [[proset]], then that\'s a different matter.  (Although I think that we should be able to distinguish [[proset]] from [[pro-set]] if we want.)
+
+Tim, I would like to see [[pro-object]] (which I see you have already written!) and [[pro-set]], but I don\'t think that you have to write them just to convince me that 'proset' can be ambiguous.  I\'ll take your word for it that these are useful concepts.
 =--
