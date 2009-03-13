@@ -65,4 +65,8 @@ I guess you are right that one could argue that compactly generated spaces thems
 1. Update most links to point to one or the other of the above, since I think that in most places one or the other of them is what is meant.
 1. At [[nice topological space]], list many niceness properties of topological spaces.  Some of them, like compact generation, will also produce a [[convenient category of spaces]]; others, like [[CW complex]]es, will be in particular [[m-cofibrant space|m-cofibrant]]; and yet others, like [[locally contractible space]]es, will do neither.
 
+_Toby_:  I believe that the compact Hausdorff reflection (the Stone&#8211;&#268;ech compactification) of $Y^X$ is an exponential object.
+
+Anyway, your plan sounds fine, although [[nice category of spaces]] might be another title.  (I guess that it\'s up to whoever gets around to writing it first.)  Although I\'m not sure that people really mean m-cofibrant spaces when they speak of nice topological spaces when doing homotopy theory; how do we know that they aren\'t referring to CW-complexes? (which is what I always assumed that *I* meant).
+
 =--
