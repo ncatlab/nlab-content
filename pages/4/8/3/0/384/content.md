@@ -18,7 +18,7 @@ A "relative" CW-complex $(X, A)$ is similar, except $X_0$ is the disjoint union 
 
 A _finite CW-complex_ is one which admits a presentation in which there are only finitely many attaching maps, and similarly a _countable CW-complex_ is one which admits a presentation with countably many attaching maps. 
 
-Milnor has argued that the category of spaces which are homotopy equivalent to CW-complexes is a convenient category of spaces for algebraic topology. It is not [[cartesian monoidal category|cartesian closed]] (is not closed under formation of function spaces), but Milnor proved that if $Y$ is such a space and $X$ is compact Hausdorff, then $Y^X$ is another such space. Hence many desirable constructions are still available, in particular infinite loop space constructions. 
+Milnor has argued that the category of spaces which are homotopy equivalent to CW-complexes, also called [[m-cofibrant space]]s, is a convenient category of spaces for algebraic topology.
 
 ##References
 
