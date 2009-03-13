@@ -1,10 +1,13 @@
 # Idea #
 
-A homotopy $n$-type is like a space, but we only consider properties given by the [[homotopy group]]s up to $\pi_n$, so information recorded by even higher homotopy groups is ignored.
+A _homotopy $n$-type_ is like a [[topological space]], but we only consider properties contained in the [[homotopy group]]s up to $\pi_n$; information recorded by the homotopy groups in higher dimensions is ignored.
 
-It is possible to define a homotopy $n$-type as a special kind of space, but the usual language used better fits the idea of an [[equivalence relation]] on topological spaces.  Thus we say that two spaces 'have the same homotopy $n$-type' if they agree up to $\pi_n$.
+One way to define a homotopy $n$-type is as a space that _has_ no information above $\pi_n$; that is, one where $\pi_k(X)=0$ for $k\gt n$.  However, the usual language used better fits the idea that homotopy $n$-types are the equivalence classes of an [[equivalence relation]] imposed on topological spaces.  Thus, we say that two spaces 'have the same homotopy $n$-type' if they agree up to $\pi_n$, and 'a homotopy $n$-type' can equally well be represented by any space having that $n$-type.  This is analogous to the definition of 'a [[real number]]' as an equivalence class of Cauchy sequences.
 
-Note that merely having isomorphic homotopy groups is not enough; see below for the careful definition.
+However, as usual in homotopy theory, merely having isomorphic homotopy groups is not enough; rather there needs to be a map _inducing_ such an isomorphism.  Thus, the relevant equivalence relation relates two spaces when there is a zigzag of maps between them, all inducing isomorphisms on homotopy groups $\pi_k$ for $k\le n$.  One can then show that any space is equivalent, in this sense, to one having trivial homotopy groups above level $n$, so that the other definition is also correct.
+
+The use of [[topological space]]s is not, of course, essential; we could just as well use any other structure that models the same homotopy theory, such as [[simplicial set]]s or [[simplicial group]]s or [[groupoid]]s.  Moreover, the fact that homotopy $n$-types can be modeled by spaces that are trivial above level $n$ raises the possibility of finding reasonably complete _algebraic_ models for such $n$-types.
+
 
 +-- {: .query}
 [[Tim Porter|Tim]]:  When teaching homotopy theory I found blank looks from students if I used this idea as motivation as they felt it was too vague. I also do not like the idea of an $n$-type being a space as it does not allow one to say that two spaces 'have the same $n$-type.'
@@ -24,37 +27,20 @@ Another question is how long should this entry on homotopy n-type be? I put in s
 _Toby_:  My only use of quotation marks was to provide direct quotations; of course we don\'t need scare quotes in the text.  You are all saying fine things, so I will [be bold](https://secure.wikimedia.org/wikipedia/en/wiki/Wikipedia:Be_bold) and incorporate them now.  (In the end, I tightened up the prose a bit, but change it if you don\'t like it.)
 
 I didn\'t mean to *remove* anything about simplicial groups, just to generalise.  But I specified how to interpret it for simplicial groups in the algebraic models below.  But maybe none of that really depends on using simplicial groups?  What you had before didn\'t read to me as an example so much as a prerequisite for the remainder to be correct.
+
+[[Mike Shulman|Mike]]: I moved the discussion on nice spaces to [[nice topological space]], and merged the two sections "Idea" and "Motivation" since I was confused about the distinction between them.
 =--
-
-# Motivation #
-
-For [[nice topological space|'nice' spaces]],
-
-+-- {: .query}
-[[Tim Porter|Tim]]: As I read the entry on nice topological spaces, it really refers to 'nice categories' rather than 'nice spaces'! I have always thought of spaces such as CW-complexes and polyhedra as being 'locally nice', but the corresponding categories are certainly not 'nice' in the sense of  [[nice topological space]]. Perhaps we need to adjust that other entry in some way.
-
-_Toby_:  You\'re right, I think I\'ve been linking that page wrongly.  (I just now did it again on [[homotopy type]]!)  Perhaps we should write [[locally nice space]] or [[locally nice topological space]] (you pick), and I\'ll fix all of the links tomorrow.
-
-[[Tim Porter|Tim]]:I suggest [[locally nice space]].  (For some time I worked in Shape Theory where local singularities were allowed so the spaces were not locally nice!) There would need to be an entry on locally nice. I suggets various meanings are discussed briefly, e.g. locally contractible, locally Euclidean,  ... and so on, but each with a minimum on it as the real stuff is in CW-complex etc and these are the 'ideas'.
-
-[[Mike Shulman|Mike]]: Why not change the page [[nice topological space]] to be about CW-complexes and so on, and move the existing material there to something like [[convenient category of spaces]], which is also a historically valid term?  I am probably to blame for the current misleading content of [[nice topological space]] and I'd be happy to have this changed.
-
-_Toby_:  I thought that [[nice topological space]] was supposed to be about special kinds of spaces, such as locally compact Hausdorff spaces, whose full subcategories of $\Sp$ are also nice.  (Sort of a counterpoint to the [[dichotomy between nice objects and nice categories]], whose theme is better fit by the example of locally Euclidean spaces).  CW-complexes also apply ---if you\'re interested in the homotopy categories.
-=--
-
-e.g., CW-complexes, a weak [[homotopy equivalence]] is the same as a homotopy equivalence.  Here a weak homotopy equivalence is a map which induces an isomorphism on all [[homotopy group]]s:
-$$f:X\to Y \Leftrightarrow \pi_k(f) : \pi_k(X)\to \pi_k(Y)$$
-for all $k \geq 0$ and all choices of base point.  (For [[simplicial group]]s or [[groupoid]]s, we have a similar notion.)
-
-What if we only have that $\pi_k(f)$ is an isomorphism up to some dimension, $n$, what can we say about the 'homotopy types'? Any space is equivalent in this truncated form to a space with trivial homotopy groups above level $n$, so can we find reasonably complete _algebraic_ models for such $n$-types.
 
 # Definition #
 
 A continuous map $X \to Y$ is a **homotopy $n$-equivalence** if it induces isomorphisms on $\pi_i$ for $0 \leq i \leq n$ at each basepoint.  Two spaces share the same **homotopy $n$-type** if they are linked by a zig-zag chain of homotopy $n$-equivalences.
 
-More formally, inverting the $n$-equivalences in a category $\Sp$ of nice spaces gives a category $\Ho_n(\Sp)$ and two spaces have the same **homotopy $n$-type** if they are isomorphic in $\Ho_n(\Sp)$.
+More formally, inverting the $n$-equivalences in [[Top]] gives a [[homotopy category]] $\Ho_n(\Top)$, and two spaces have the same **homotopy $n$-type** if they become isomorphic in $\Ho_n(\Top)$.
 
-For any nice space $X$, you can kill its homotopy groups in higher dimensions by attaching cells, thus constructing a new space $Y$ so that the inclusion of $X$ into $Y$ is a homotopy $n$-equivalence; up to (weak) [[homotopy equivalence]], the result is the same for any space with the same homotopy $n$-type as $X$.  Accordingly, a **homotopy $n$-type** may alternatively be defined as a space with trivial $\pi_i$ for $i \gt n$, or as the unique (weak) [[homotopy type]] of such a space, or as its fundamental $\infty$-[[fundamental infinity-groupoid|groupoid]] (which should be an $n$-[[n-groupoid|groupoid]], by one direction of the [[homotopy hypothesis]]).
+For any space $X$, you can kill its homotopy groups in higher dimensions by attaching cells, thus constructing a new space $Y$ so that the inclusion of $X$ into $Y$ is a homotopy $n$-equivalence; up to (weak) [[homotopy equivalence]], the result is the same for any space with the same homotopy $n$-type as $X$.  Accordingly, a **homotopy $n$-type** may alternatively be defined as a space with trivial $\pi_i$ for $i \gt n$, or as the unique (weak) [[homotopy type]] of such a space, or as its fundamental $\infty$-[[fundamental infinity-groupoid|groupoid]] (which should be an $n$-[[n-groupoid|groupoid]], by one direction of the [[homotopy hypothesis]]).
+
+One can also construct [[model category|model structures]] on $\Top$ whose homotopy categories are the categories $\Ho_n(\Top)$.  This is one of the original examples of [[Bousfield localization]].  From this perspective, the above replacement of a space by one having trivial $\pi_k$ for $k\gt n$ is an example of _fibrant replacement_.
+
 
 # Algebraic models #
 
