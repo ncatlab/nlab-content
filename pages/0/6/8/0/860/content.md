@@ -34,4 +34,9 @@ _Toby_:  Mike, except for briefly summarising a definition, there is no content 
 I am torn.  If the original page names [[poset]] and [[preorder]] had been consistent (one way or the other), I\'d have just gone with it.  (I have a better formed opinion that *if* we put everything on one page, then [[preorder]] is better and [[poset]] is worse.)  If we have to make an except for [[proset]], then that\'s a different matter.  (Although I think that we should be able to distinguish [[proset]] from [[pro-set]] if we want.)
 
 Tim, I would like to see [[pro-object]] (which I see you have already written!) and [[pro-set]], but I don\'t think that you have to write them just to convince me that 'proset' can be ambiguous.  I\'ll take your word for it that these are useful concepts.
+
+[[Mike Shulman|Mike]]: No, there is no actual content duplicated between [[linear order]] and [[loset]], but it seems completely arbitrary to me which content is on which of the two pages.  Shouldn't the examples be on the same page that gives the definition and other discussion?
+
+I actually don't think that [[poset]] and [[preorder]] are inconsistent, since as I said, "preorder" can mean the same thing as "set equipped with a preorder."  This is actually fairly common, especially in set theory one speaks of "a linear order" or "a well-ordering" without specifying explicitly the set on which it lives (since, of course, it has to live on some set).  It's a similar sort of abuse to when we say "let $G$ be a group" rather than "let $(G,\cdot,e)$ be a group" (only maybe in reverse).
+
 =--
