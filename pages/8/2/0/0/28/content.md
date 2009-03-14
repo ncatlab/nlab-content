@@ -18,7 +18,7 @@ A groupoid $G$ is _connected_, or _transitive_,  if $G(x,y)$ is nonempty for all
 1. An equivalence relation $E$ on a set $X$ becomes a groupoid with the multiplication $(x,y)(y,z)= (x,z)$ 
 for all $(x,y), (y,z) \in E$. (This gives a reason for the above notation for composition.) 
 
-1. In particular if $E=X \times X$ then we get the _square groupoid_ $X^2$. This apparently trivial example has an important special case, namely the groupoid $\bf{I}= \{0,1\}^2$. This groupoid has non identity elements $\iota:0 \to 1, \iota^{-1}: 1 \to 0$, and can be regarded as a groupoid model of the unit interval $[0,1]$ in topology. In particular, there is  an isomorphism  $\pi_1([0,1],\{0,1\}) \cong \bf{I}.$
+1. In particular if $E=X \times X$ then we get the _square groupoid_ $X^2$. This apparently trivial example has an important special case, namely the groupoid $I= \{0,1\}^2$. This groupoid has non identity elements $\iota:0 \to 1, \iota^{-1}: 1 \to 0$, and can be regarded as a groupoid model of the unit interval $[0,1]$ in topology. In particular, there is  an isomorphism  $\pi_1([0,1],\{0,1\}) \cong I.$
 
 1. If $\Gamma$ is a directed graph, then the free groupoid $F(\Gamma)$ is well defined. It is the left adjoint to the forgetful functor from groupoids to directed graphs. This shows an advantage of groupoids: the notion of _free equivalence relation_ or _free action groupoid_ does not make sense. But we can still talk of a presentation of an equivalence relation or action groupoid by generators and relations by considering presentations of groupoids. 
 
@@ -36,4 +36,6 @@ Nostrand, New   York. Reprints in Theory and Applications of
 Categories, 7 (2005) pp 1-195.
 
 * P.J. Higgins, The fundamental groupoid of a graph of groups, J. London Math. Soc. (2) 13 (1976) 145--149. 
+
+* R. Brown, _Topology and groupoids_, Booksurge, 2006. 
 
