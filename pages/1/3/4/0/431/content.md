@@ -47,7 +47,7 @@ On the other hand, differences in axiomatization or definition that make no diff
 
 * There are multiple inequivalent constructive definitions of a [[field]], because of the axioms "every _nonzero_ element has an inverse" and $0 \neq 1$.
 
-* In pure constructive logic, the Dedekind [[real number]]s and the Cauchy real numbers need no longer coincide.  The Cauchy reals sit inside the Dedekind reals, but in general not every Dedekind real need be approximable by a _sequence_ of rationals.  From a topos-theoretic viewpoint, the Dedekind reals are usually the "correct" notion to study (although see also [[locale]]).  However, either excluded middle or countable choice suffices to ensure that every Dedekind real is a Cauchy real, and hence that the two notions coincide; see (Bridges et al, 1998) for details.
+* In pure constructive logic, the Dedekind [[real number]]s and the Cauchy real numbers need no longer coincide.  The Cauchy reals sit inside the Dedekind reals, but in general not every Dedekind real need be approximable by a _[[sequence]]_ of rationals.  From a topos-theoretic viewpoint, the Dedekind reals are usually the "correct" notion to study (although see also [[locale]]).  However, either excluded middle or countable choice suffices to ensure that every Dedekind real is a Cauchy real, and hence that the two notions coincide; see (Bridges et al, 1998) for details.
 
 * There are at least three different constructive notions of [[ordinal number]]; see (Taylor 1996) and (Joyal-Moerdijk 1995).
 
