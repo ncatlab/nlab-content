@@ -1,1 +1,3 @@
-A Frechet-Uryson space (sometimes spelled Frechet-Urysohn) is a topological space X such that a point x of the closure of any given subset A of X is a limit point of at least one sequence whose members belong to A. The class of Frechet-Uryson spaces is a subclass of [[sequential space|sequential spaces]].
+See [[Frechet-Uryson space]].
+
+category: redirect
