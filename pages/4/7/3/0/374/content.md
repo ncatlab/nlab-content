@@ -19,7 +19,7 @@ There are many equivalent ways to define a topological space.  A non-exhaustive 
 
 * A relational $\beta$-module; that is, a lax algebra of the [[monad]] of [[ultrafilter]]s on the 2-category [[Rel]] of sets and (binary) [[relation]]s.  More explicitly, this means a set $X$ together with a relation called "convergence" between ultrafilters and points satisfying certain axioms.  See [[pseudotopological space]].
 
-* A set with a convergence relation between [[net]]s and points, or even between transfinite sequences and points, satisfying appropriate axioms.
+* A set with a convergence relation between [[net]]s and points, or even between transfinite [[sequence]]s and points, satisfying appropriate axioms.
 
 
 # Variations #
