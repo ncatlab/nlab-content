@@ -32,10 +32,13 @@ This $N_s(c)$ is the **nerve** of $c$ with resppect to the chosen $s : S \to V$.
 
 * The nerve at the level of [[2-category|2-categories]] and [[bicategory|bicategories]] is called the _Duskin nerve_.
 
-#Remark: geometric realization#
+#Remarks:# 
 
+##Geometric realization##
 Often the operation of taking the nerve of a (higher) category is followed by forming the [[geometric realization]] of the corresponding cellular set.
 
-#Remark: nerves and higher categories#
-
+##Nerves and higher categories##
 For many purposes it is convenient to conceive categories and especially [[infinity-category|infinity-categories]] entirely in terms of their nerves: those simplicial sets that arise as certain nerves are usually characterized by certrain properties. So one can turn this around and _define_ an [[infinity-category]] as a simplicial set with certain properties. This is the strategy of a [[geometric definition of higher category]]. Examples for this are [[complicial set|complicial sets]], [[Kan complex|Kan complexes]], [[quasi-category|quasi-categories]], [[simplicial T-complex|simplicial T-complexes]],...
+
+##Internal nerve##
+The nerve construction can also be applied _internally_ within a category, to any internal category, see the discussion at [[internal category]].
