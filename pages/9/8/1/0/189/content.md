@@ -1,5 +1,5 @@
 
-A _quiver_ is a free category on a [[directed graph]]. Given a directed graph $G$ with collection of vertices $G_0$ and collection of edges $G_1$, there is the free category $F(G)$ on the graph whose collection of objects coincides with the collection of vertices, and whose collection of morphisms consists of finite sequences of edges in $G$ that fit together head-to-tail. The composition operation in this free category is the concatenation of sequences of edges.
+A _quiver_ is a free category on a [[directed graph]]. Given a directed graph $G$ with collection of vertices $G_0$ and collection of edges $G_1$, there is the free category $F(G)$ on the graph whose collection of objects coincides with the collection of vertices, and whose collection of morphisms consists of finite [[sequence]]s of edges in $G$ that fit together head-to-tail. The composition operation in this free category is the concatenation of sequences of edges.
 
 
 
