@@ -13,7 +13,7 @@ A **strict 2-group** is an [[internal category]] in [[Grp]].  Equivalently, it i
 
 Copying and adapting from the entry on general internal categories we have:
 
-A [[internal category]] in [[Grp]]_ is 
+A [[internal category]] in [[Grp]] is 
 
 * a collection of group homomorphisms of the form
   $$
