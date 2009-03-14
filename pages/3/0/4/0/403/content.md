@@ -134,6 +134,24 @@ In this case, $C_0$ is a set of objects and $C_1$ is a set of morphisms and the 
 
 Functors between internal categories are defined in a similar fashion. See [[functor]].  But if the ambient category does not satisfy the [[axiom of choice]] it is often better to use [[anafunctor|anafunctors]] instead.
 
+#Internal nerve#
+The idea of the nerve of a small category can be generalised to give an *internal nerve* construction. Recall (from [[nerve]]), the basic idea is that, for a small category, $D$, its nerve, $N(D)$, is a simplicial set whose set of $n$-simplices is the set of sequences of composable morphisms of length $n$ in $D$. This set can be given by a (multiple) pullback of copies of $D_1$.  That description will carry across to give a nerve construction for an internal category.  
+
+If $C$ is an internal category in some category $A$, (which thus has, at least, the pullbacks required for the constructions to make sense),its nerve $N(C)$ (or if more precision is needed $N_{int}(C)$, or similar) is the [[simplicial object]] in $A$ with 
+
+ * $N(C)_0 = C_0$, the 'object of objects' of $C$;
+ * $N(C)_1  = C_1$, the 'object of arrows' of $C$;
+ * $N(C)_2 = C_1 \times_{C_0} C_1$ the object of composable pairs of arrows of $C$;
+* $N(C)_3 = C_1 \times_{C_0} C_1\times_{C_0} C_1$, the object of composable triples of arrows;
+
+and so on.  Face and degeneracy morphisms are induced from the structural moprhisms of $C$ in a fairly obvious way.
+
+Internal functors between internal categories induce simplicial morphisms between the corresponding nerves.
+
+###Example###
+A 2-group is an internal category in [[Grp]] and so has an internal nerve, which is a simplicial object in [[Grp]], that is  a [[simplicial group]].  If the 2-group corresponds to a [[crossed module]],$(C\stackrel{\delta}{\to}P)$, then the simplicial group nerve of $(C\stackrel{\delta}{\to}P)$ has [[Moore complex]] having $P$ in dimension 0, and $C$ in dimension 1, with the trivial group in all other dimensions. The only possible non-trivial boundary map from dimension 1 to dimension 0 is then the boundary $\delta$ of the crossed module. 
+
+
 #Literature#
 
 [...]
