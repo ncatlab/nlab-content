@@ -14,7 +14,7 @@ Given sets $A$ and $B$, the cartesian product of the binary family $(A,B)$ is wr
 
 Given sets $A_1$ through $A_n$, the cartesian product of the $n$-ary family $(A_1,\ldots,A_n)$ is written $\prod_{i=1}^n A_i$; its elements $(a_1,\ldots,a_n)$ are called __ordered $n$-tuples__.
 
-Given sets $A_1$, $A_2$, etc, the cartesian product of the countably infinitary family $(A_1,A_2,\ldots)$ is written $\prod_{i=1}^\infty A_i$; its elements $(a_1,a_2,\ldots,)$ are called __infinite sequences__.
+Given sets $A_1$, $A_2$, etc, the cartesian product of the countably infinitary family $(A_1,A_2,\ldots)$ is written $\prod_{i=1}^\infty A_i$; its elements $(a_1,a_2,\ldots,)$ are called __infinite [[sequence]]s__.
 
 Given a set $A$, the cartesian product of the unary family $(A)$ may be identified with $A$ itself; that is, we identify the __ordered singleton__ $(a)$ with $a$.
 
