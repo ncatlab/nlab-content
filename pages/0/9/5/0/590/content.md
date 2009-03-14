@@ -7,4 +7,4 @@ Here are some important examples of colimits:
 * A colimit of a [[span]] is a [[pushout]].
 * A colimit of two (or more) [[parallel morphisms]] is a [[coequalizer]].
 
-[[nInsights]]
+There are some [[nInsights]] about colimits.
