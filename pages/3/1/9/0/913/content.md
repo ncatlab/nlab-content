@@ -14,5 +14,10 @@ For example, using this definition of sequence, every [[real number]] (defined a
 
 Why is this not done?  Using either [[excluded middle]] or [[countable choice]], any such map $A \to X$ is equivalent as a [[net]] (in the sense that it has the same eventuality filter) as an actual sequence.  So for the purposes of topology, at least, there is no added generality.  Most mathematicians accept at least one of the needed logical principles (EM or CC), and most mathematicians that doubt one still accept the other, so this better definition (if indeed it is better) is not widely appreciated.  But there are [[topos]]es, even widely studied ones, in which neither principle is valid.  (To be precise, the principle needed is a form of choice weaker than either EM or CC; see \[Richman et al, 1999\] for the precise statement as WCC, although this paper does not consider the definition of sequence.)
 
++--{: .query}
+[[Mike Shulman|Mike]]: I think that redefining a "sequence" to be a certain sort of net creates too much confusion relative to the potential gain.  If you want to use nets, you can just say "net."  If you want to work with the restricted sort of net whose order is induced by a surjection to $N$, then I would suggest introducing a new term for those, like $\omega$-net (since there is an obvious generalization replacing $\omega$ by any other ordinal).  But sequences are used all over the place in mathematics, not just in topology, and the meaning of "sequence" as "function defined on $N$" is so universal that I don't think one should mess with it.
+=--
+
+
 # References #
 * Douglas Bridges, Fred Richman, and Peter Schuster (1998). A weak countable choice principle. Available from [Fred Richman's Documents](http://www.math.fau.edu/Richman/HTML/DOCS.HTM).
