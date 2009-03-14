@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-03-14
 
+* [[Ronnie Brown]]: I've rewritten and expanded [[homotopy group]]s partly to clarify the operation of dimension 1 on higher dimensions  and to emphasise the groupoid aspects. 
+
 *  [[Toby Bartels]]:  I\'ve written [[sequence]], [[net]], [[multi-valued function]], [[partial function]], and the long-delayed [[surjection]] and [[injection]].  Those interested in foundations may be particularly interested in my proposed alternative definition of [[sequence]].
 
 *  [[Tim Porter|Tim]]: I have included a discussion of the nerve of an [[internal category]] at that entry.
