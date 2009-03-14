@@ -3,3 +3,4 @@ In Croatian we use diacritics for the sch-sound: &#352;koda.
 
 My web page is <a href="http://www.irb.hr/korisnici/zskoda"> here</a>.
 
+category: people
