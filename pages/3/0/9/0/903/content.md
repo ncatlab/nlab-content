@@ -32,3 +32,5 @@ One of the experts on this is David Blanc, see for instance
 http://arxiv.org/abs/math.AT/9803055. He uses a notion of $\pi$-algebra which encodes the groups, the primary operations, (I think that is all) and then searches for obstructions to realising such a system by a homotopy type.
 
 =--
+
+See also [[Postnikov system]]. 
