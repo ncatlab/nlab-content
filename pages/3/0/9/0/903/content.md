@@ -26,4 +26,9 @@ However, the homotopy groups by themselves, even considering the operations of $
 
 +--{.query}
 But the entire Postnikov tower does characterise weak homotopy types, does it not? (Actually, I shouldn\'t really phrase it that way, since the Postnikov tower as such is a sequence of maps that begins with the space in question.  I mean the homotopy groups together with the Postnikov invariants.) ---Toby
+
+[[Tim Porter|Tim]]:  The Postnikov tower of a space does characterise the weak homotopy type of the space as that is the inverse limit of the tower.  The point is not that however. The homotopy groups plus the 'primary' operations (which include the action of $\pi_1$ and the Whitehead products) still do not determine the weak homotopy type.
+One of the experts on this is David Blanc, see for instance
+http://arxiv.org/abs/math.AT/9803055. He uses a notion of $\pi$-algebra which encodes the groups, the primary operations, (I think that is all) and then searches for obstructions to realising such a system by a homotopy type.
+
 =--
