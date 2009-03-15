@@ -4,7 +4,7 @@ The _homotopy groups_ $\pi_n(X,a)$ of a [[pointed object|pointed]] space $(X,a)$
 
 Actually, $\pi_0(X,a)$ is not a group at all but merely a [[pointed set]].  Conversely, $\pi_2(X,a)$ and above are all [[abelian group]]s.  Only $\pi_1(X,a)$ may be an arbitrary group.
 
-Lower homotopy groups act on higher homotopy groups; the nonabelian group cohomology of this gives the Postnikov invariants of the space.  All of this data put together allows one to reconstruct the original space, at least up to weak [[homotopy type]], through its [[Postnikov tower]].
+Lower homotopy groups act on higher homotopy groups; the nonabelian group cohomology of this gives the Postnikov invariants of the space.  All of this data put together allows one to reconstruct the original space, at least up to weak [[homotopy type]], through its [[Postnikov system]].
 
 # History #
 
@@ -32,5 +32,3 @@ One of the experts on this is David Blanc, see for instance
 http://arxiv.org/abs/math.AT/9803055. He uses a notion of $\pi$-algebra which encodes the groups, the primary operations, (I think that is all) and then searches for obstructions to realising such a system by a homotopy type.
 
 =--
-
-See also [[Postnikov system]]. 
