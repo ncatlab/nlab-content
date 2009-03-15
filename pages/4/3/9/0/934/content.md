@@ -1,3 +1,3 @@
 See [[dg-algebra]].
 
-category: redirect
+category: delete
