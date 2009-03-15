@@ -1,0 +1,10 @@
+Given a $k$-[[bialgebra|bialgebra]] $(H,m_H,\eta,\Delta,\epsilon)$ a left-right *Hopf module* is a $k$-module $M$ with the structure of left $H$-module and right $H$-comodule, where the action $\nu: H\otimes M\to M$ and right $H$-coaction $\rho : M\to M\otimes H$ are compatible in the sense that the coaction is a morphism of left modules (the structure of left module on $M\otimes H$ is the standard tensor product of modules over Hopf algebras, with action given in this case by 
+$(\nu\otimes m_H)\circ(H\otimes \tau\otimes H)\circ(\Delta \otimes M\otimes H)$ as $k$-linear map $H\otimes(M\otimes H)\to M\otimes H$ where $\tau=\tau_{H,M}:H\otimes M\to M\otimes H$ is the standard flip of tensor factors). 
+
+An immediate generalization of Hopf modules is for the case where $E$ is a right $H$-comodule algebra (a monoid in the category of $H$-comodules); then one can define the category of left $E$- right $H$- relative Hopf modules, which are left $E$-modules which are right $H$-comodules with a natural compatibility condition. There are further generalizations where instead of a bialgebra $H$ and a $H$-comodule algebra $E$ one replaces $E$ by an arbitrary algebra $A$, and $H$ by a coalgebra $C$ and introduces a compatibility in the sense of a mixed distributive law or entwining (structure). Then the relative Hopf modules become a special case of so-called entwined modules, see the monograph
+
+T. Brzezinski, R. Wisbauer, Corings and comodules, London Math. Soc. Lec. Note Series 309, Cambridge 2003.
+
+The entwined modules are first introduced under the name "bialgebras" by van Osdol in 1970-s in the more general case of monads and comonads instead of $k$-algebras and $k$-coalgebras. 
+
+Geometrically, relative Hopf modules are instances of equivariant objects (equivariant quasicoherent sheaves) in noncommutative algebraic geometry, the statement which can be made precise, cf. Z. &#352;koda, Some equivariant constructions in noncommutative algebraic geometry   <a href="http://arxiv.org/abs/0811.4770"> arXiv:0811.4770 </a> 
