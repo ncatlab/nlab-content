@@ -1,7 +1,7 @@
 #Whitehead's algebraic homotopy programme
 
 
-In his talk at the 1950 ICM in Harvard, Henry Whitehead introduced the idea of *algebraic homotopy* theory and said
+In his talk at the 1950 ICM in Harvard, Henry Whitehead introduced the idea of *algebraic homotopy theory* and said
 
 _"The ultimate aim of algebraic homotopy is to construct a purely
   algebraic theory, which is equivalent to homotopy theory in the same sort of 
