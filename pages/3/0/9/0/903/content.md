@@ -22,7 +22,7 @@ It was early realised that the fundamental groupoid $\pi_1(X,a)$ operates on the
 
 A key property of homotopy groups is the _Whitehead theorem_: if $f:X \to Y$ is a map of connected [[m-cofibrant space]]s (spaces each of the homotopy type of a [[CW complex]]), and $f$ induces isomorphisms $\pi_n(X,a) \to \pi_n(Y,f(a))$ for some $a$ and all $n \geq 1$, then $f$ is a [[homotopy equivalence]].
 
-However, the homotopy groups by themselves, even considering the operations of $\pi_1$, do not characterise homotopy types. See also [[algebraic homotopy theory]].
+However, the homotopy groups by themselves, even considering the operations of $\pi_1$, do not characterise homotopy types. See also [[algebraic homotopy|algebraic homotopy theory]].
 
 +--{.query}
 But the entire Postnikov tower does characterise weak homotopy types, does it not? (Actually, I shouldn\'t really phrase it that way, since the Postnikov tower as such is a sequence of maps that begins with the space in question.  I mean the homotopy groups together with the Postnikov invariants.) ---Toby
