@@ -24,7 +24,7 @@ $$
 
 The category algebra of a category $C$ is a special case of a general [[arrow theory|arrow-theoretic]] construction that appears in [[quantization]] and in the theory of [[bi-brane]]s. 
 
-In order not to get distracted by inessential technicalities, consider the case of a finite [[category]] $C$, i.e. an [[internal category]] in $FinSet$. This is a [[span]]
+In order not to get distracted by inessential technicalities, consider the case of a finite [[category]] $C$, i.e. an [[internal category]] in [[FinSet]]. This is a [[span]]
 $$
   \array{
      && C_1
