@@ -13,6 +13,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-03-16
 
+* [[Toby Bartels]]:  Tired of writing `[[constructivism|constructive mathematics]]`, I moved [[constructivism]] to [[constructive mathematics]] and fixed links.  Similarly, I moved [[predicativism]] to [[predicative mathematics]].  After some thought, I also moved [[finitism]] to [[finite mathematics]] and expanded it a bit to fit the new name better.  To go with this, I finally created [[FinSet]].
+
 * [[Zoran Škoda|Zoran]]: Created [[Loday-Pirashvili category]], [[dense functor]] and [[equivariant object]]. There are two different notions of dense subcategory, first of which has two different definitions and is related to colimits and nerve functor, and second which is related to pro-objects. In the entry [[Bousfield localization]] I added a paragraph on Bousfield localization for triangulated categories; made changes to [[nerve]] (more to be done: one needs to clarify the example of geometric realization etc.). 
 
 * [[Tim Porter|Tim]]: 
