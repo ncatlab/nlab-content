@@ -13,7 +13,7 @@ The main point of a well-pointed topos in logic is the equivalence of *external*
 
 # In constructive mathematics
 
-To maintain this logical result in [[constructivism|constructive mathematics]] (that is, without excluded middle in the metalogic), one must add  the following requirements:
+To maintain this logical result in [[constructive mathematics]] (that is, without excluded middle in the metalogic), one must add  the following requirements:
 
 1. the terminal object is [[indecomposable object|indecomposable]], and
 1. the terminal object is [[projective object|projective]].
@@ -26,4 +26,4 @@ Incidentally, a well-pointed topos in a constructive metalogic is still "two-val
 
 If $E$ is only a [[pretopos]], we have to strengthen the condition that 1 is a generator to the condition that 1 is a [[strong generator]], i.e. for any monomorphism $m:A\to B$, if every global element $1\to B$ factors through $m$, then $m$ is an isomorphism.  In a category with a subobject classifier (such as a topos), any generator is a strong generator.
 
-This is important in [[predicativism|predicative mathematics]], where the category of sets (and in general, a [[Grothendieck topos|category of sheaves]]) is a pretopos but need not be a topos. But of course it applies whenever one is studying a pretopos.
+This is important in [[predicative mathematics]], where the category of sets (and in general, a [[Grothendieck topos|category of sheaves]]) is a pretopos but need not be a topos. But of course it applies whenever one is studying a pretopos.
