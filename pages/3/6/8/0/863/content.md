@@ -2,7 +2,7 @@
 
 A _linear order_ (also called _pseudo-order_, according to Wikipedia) is the irreflexive version of a [[total order]].  A _[[loset]]_ is a [[set]] equipped with a linear order; see there for examples.
 
-In classical mathematics, the distinction between linear orders and total orders is merely a terminological technicality, which is not always observed; more precisely, there is a [[natural isomorphism|natural bijection]] between the set of total orders on a given set $S$ and the set of linear orders on $S$, and one distinguishes them by the notation $\lt$ (for the linear order) and $\leq$ (for the total order).  In [[constructivism|constructive mathematics]], however, they are irreducibly different.
+In classical mathematics, the distinction between linear orders and total orders is merely a terminological technicality, which is not always observed; more precisely, there is a [[natural isomorphism|natural bijection]] between the set of total orders on a given set $S$ and the set of linear orders on $S$, and one distinguishes them by the notation $\lt$ (for the linear order) and $\leq$ (for the total order).  In [[constructive mathematics]], however, they are irreducibly different.
 
 # Definition #
 
