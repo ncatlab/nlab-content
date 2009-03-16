@@ -11,9 +11,13 @@ So, if you feel people's attention should be drawn to some changes you make, ple
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).
 
 ***
+# 2009-03-16
+
+* [[Zoran Škoda|Zoran]]: Created [[Loday-Pirashvili category]] and [[equivariant object]].
+
 # 2009-03-15
 
-* [[Zoran Škoda|Zoran]]: Created (in last two days) several entries mainly related to co- Hopf- algebras and algebras in categories of chain complexes: [[Frechet-Uryson space]], [[Hopf module]], [[Hopf-Galois extension]], [[Loday-Pirashvili category]], [[Maurer-Cartan equation]], [[category of elements]], [[compactly generated space]], [[coring]], [[dg-algebra]],[[distributive law]], [[torsor]] (very unfinished!), [[twisted module of homomorphisms]], [[twisted tensor product]], [[twisting cochain]] and made changes to few other entries including many changes in entry [[Hopf algebra]] and some in [[A-infinity-algebra]]. With the (Fukaya) convention used there $D_0$ should not exist.
+* [[Zoran Škoda|Zoran]]: Created (in last two days) several entries mainly related to co- Hopf- algebras and algebras in categories of chain complexes: [[Frechet-Uryson space]], [[Hopf module]], [[Hopf-Galois extension]], [[Maurer-Cartan equation]], [[category of elements]], [[compactly generated space]], [[coring]], [[dg-algebra]],[[distributive law]], [[torsor]] (very unfinished!), [[twisted module of homomorphisms]], [[twisted tensor product]], [[twisting cochain]] and made changes to few other entries including many changes in entry [[Hopf algebra]] and some in [[A-infinity-algebra]]. With the (Fukaya) convention used there $D_0$ should not exist.
 
 * [[Mike Shulman|Mike]]: Created [[homotopy equivalence]] and [[weak homotopy equivalence]].
 
