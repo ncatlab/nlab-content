@@ -3,4 +3,5 @@ An __$A$-coring__ is a [[comonoid]] in the monoidal category of [[bimodule]]s ov
 The notion of coring is introduced by M. Sweedler and recently lived through a renaissance in works of T. Brzezi&#324;ski, R. Wisbauer, G. B&#246;hm, L. Kaoutit, G&#243;mez-Torrecillas, S. Caenepeel, J. Y. Abuhlail, J. Vercruysse and others, including the creation of Galois theory for corings. Some prefer to speak about $A$-[[cocategory|cocategories]].
 
 There is already a monograph:
+
 * T. Brzezi&#324;ski, R. Wisbauer, Corings and comodules, London Math. Soc. Lec. Note Series 309, Cambridge 2003.
