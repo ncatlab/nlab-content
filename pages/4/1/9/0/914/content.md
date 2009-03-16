@@ -37,4 +37,4 @@ A net $\nu$ in a [[topological space]] __converges__ to a point $x$ in the space
 
 By keeping only the simple conditions, one gets the definition of a _convergence space_; this is a more general concept than a topological space and includes many non-topological situations where we want to say that a sequence converges to some value (such as convergence in measure).  It is also very nice to describe compact and Hausdorff spaces in terms of the convergence relation.
 
-Although nets are perhaps more familiar, due to their similarity to sequences, one gets a cleaner theory by talking about filters, since equivalent filters are equal and (as long as one is not a [[predicativism|predicativist]]) the set of filters on a set $X$ is small (not a proper class).
+Although nets are perhaps more familiar, due to their similarity to sequences, one gets a cleaner theory by talking about filters, since equivalent filters are equal and (as long as one is not a [[predicative mathematics|predicativist]]) the set of filters on a set $X$ is small (not a proper class).
