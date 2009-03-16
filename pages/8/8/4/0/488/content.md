@@ -8,4 +8,4 @@ There are several conditions on a topos that are necessary and sufficient to be 
 
 The [[internal logic]] of a boolean topos can serve as [[foundations]] for "ordinary" mathematics, except for that which relies on the [[axiom of choice]].
 
-Every [[locally cartesian closed category|locally cartesian closed]], boolean [[pretopos]] is in fact a topos. This is why [[predicativism]] (in the constructive sense) is necessarily a feature of [[constructivism|constructive mathematics]] only.
+Every [[locally cartesian closed category|locally cartesian closed]], boolean [[pretopos]] is in fact a topos. This is why [[predicative mathematics|predicativism]] (in the constructive sense) is necessarily a feature of [[constructive mathematics]] only.
