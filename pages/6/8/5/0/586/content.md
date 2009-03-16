@@ -18,7 +18,7 @@ The decidable $K$-finite objects in any topos also form a Boolean topos whose su
 
 * In any Boolean topos, all four internal notions coincide.  In a [[well-pointed topos]], each internal notion coincides with its external notion.  Therefore, in a well-pointed Boolean topos, including the topos [[Set]] as usually conceived, all notions of finiteness coincide.
 
-* In a [[presheaf]] topos $[C^{op},Set]$, the finite cardinals are the finite-set-valued functors which are constant on each connected component.  In particular, if $C$ is a [[group]], then the topos of finite cardinals is equivalent to $FinSet$.
+* In a [[presheaf]] topos $[C^{op},Set]$, the finite cardinals are the finite-set-valued functors which are constant on each connected component.  In particular, if $C$ is a [[group]], then the topos of finite cardinals is equivalent to [[FinSet]].
 
 * Likewise, in the topos $Sh(X)$ of [[sheaf|sheaves]] on a space $X$, the finite cardinals are the locally constant functions $X\to N$.  So if $X$ is connected, the topos of finite cardinals in $Sh(X)$ is also equivalent to $FinSet$.
 
