@@ -5,7 +5,7 @@ Fields are not as well-behaved categorically as most other common algebraic stru
 
 ## Constructive notions of field ##
 
-For the same reason, in [[constructivism|constructive mathematics]] (such as the [[internal logic]] of a topos) there are different inequivalent ways to define a field.  In this case the above definition is not usually the best one; for instance, the real numbers do not satisfy it.  There are several potential replacements with their own advantages and disadvantages.
+For the same reason, in [[constructive mathematics]] (such as the [[internal logic]] of a topos) there are different inequivalent ways to define a field.  In this case the above definition is not usually the best one; for instance, the real numbers do not satisfy it.  There are several potential replacements with their own advantages and disadvantages.
 
 * If we replace "an element is invertible iff it is nonzero" by "an element is invertible xor (exclusive or) it equals zero" (which is classically equivalent but constructively stronger), we obtain the notion of **discrete field**. Such a field $F$ is discrete in that it decomposes as a coproduct $F = \{0\} \sqcup F^\times$ (where $F^\times$ is the subset of invertible elements).  An advantage is that this is a [[coherent logic|coherent theory]]; a disadvantage is that it is not satisfied (constructively) by the ring of real numbers (however defined), although it is satisfied by the ring of rational (or even algebraic) numbers and by the finite fields as usual.
 
