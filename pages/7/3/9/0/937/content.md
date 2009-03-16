@@ -21,3 +21,7 @@ There are a number of remarkable functors relating [[internalization|internal]] 
 Notice that because of truncation, being a Lie algebra in LP is a bit less than a (strict) $2$-[[Lie n-algebra|Lie algebra]] (a requirement in degree $2$ is dropped). 
 
 See J-L. Loday, T. Pirashvili, The tensor category of linear maps, Georg. Math. J. vol. 5, n.3 (1998) 263--276.
+
++-- {: .query}
+[[Tim Porter|Tim]]: Methinks that we need some comment on the evident connection with [[Baez–Crans 2-vector space]]. I think I remember seeing some paper on 2-vector spaces that mentions the connection.  Whether or not it exploited that connection has slipped my memory.  Can Zoran say something on this? 
+=--
