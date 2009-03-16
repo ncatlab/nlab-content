@@ -2,4 +2,9 @@ A [[function]] $f$ from $A$ to $B$ is __injective__ if $x = y$ whenever $f(x) = 
 
 A _[[bijection]]_ is a function that is both injective and [[surjection|surjective]].
 
-In [[constructivism|constructive mathematics]], a strongly extensional function between sets equipped with tight [[apartness relation]]s is called __strongly injective__ if $f(x) \ne f(y)$ whenever $x \ne y$ (which implies that the function is injective).  This is the same as a monomorphism in the category of such sets and strongly extensional functions.  Some authors use 'one-to-one' for an injective function as defined above and reserve 'injective' for the stronger notion.
+In [[constructive mathematics]], a strongly extensional function between sets equipped with tight [[apartness relation]]s is called __strongly injective__ if $f(x) \ne f(y)$ whenever $x \ne y$ (which implies that the function is injective).  This is the same as a monomorphism in the category of such sets and strongly extensional functions.  Some authors use 'one-to-one' for an injective function as defined above and reserve 'injective' for the stronger notion.
+
++--{.query}
+This is wrong; remind me to fix it.
+--- [[Toby Bartels]]
+=--
