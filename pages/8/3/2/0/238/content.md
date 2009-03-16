@@ -18,7 +18,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 * [[Tim Porter|Tim]]: 
   * I have put a request on [[Loday-Pirashvili category]] for some discussion of the links between the ideas here and those in [[2-vector-space]], as there is overlap.
   * I have started a discussion on the exposition of [[dg-algebra]]. My preferred approach is via graded object,  differential algebra and  chain complex. The present approach I find a bit confusing.
-
+  * In [[profinite completion]], I have pointed out a difference in the use of the term [[profinite group]], that may need discussion.
 
 # 2009-03-15
 
