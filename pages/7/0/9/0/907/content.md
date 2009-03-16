@@ -9,6 +9,8 @@ Hi Zoran, you should know that, because redirects don\'t work as smoothly here a
 By the way, I think that the usual rule against non-ASCII characters in page names probably shouldn\'t really apply to people\'s names, so feel free to move this to [[Zoran Škoda]] if you like.
 
 ---[[Toby Bartels]]
+
+I prefer just the one with [[Zoran Škoda]] to exist, but when I started I made S-version first and then discovered that diacritics could be used; so this is how it is. Maybe you could do the moving into &#352;-only version without creating further errors ? --- Zoran
 =--
 
 category: people
