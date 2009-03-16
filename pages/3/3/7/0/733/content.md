@@ -6,7 +6,7 @@ To be explicit, a **finitely directed set** (which is the default notion) is equ
 * there exists an element (so the set is [[inhabited set|inhabited]]); and
 * given elements $x, y$, there exists an element $z$ such that $x \leq z$ and $y \leq z$.
 
-It follows that, given any finite set $x_1, \dots, x_n$ of elements, there exists an element $z$ such that $x_i \leq z$ for all $i$. (For [[constructivism|constructive]] purposes, one should interpret 'finite set' above as a [[finite set|finitely indexed set]], as shown.)
+It follows that, given any finite set $x_1, \dots, x_n$ of elements, there exists an element $z$ such that $x_i \leq z$ for all $i$. (For [[constructive mathematics|constructive]] purposes, one should interpret 'finite set' above as a [[finite set|finitely indexed set]], as shown.)
 
 More generally, if $\kappa$ is a [[cardinal number]], then a **$\kappa$-directed set** is equipped with a preorder $\leq$ such that, given any index set $A$ with $|A| \lt \kappa$ and function $i \mapsto x_i$ from $A$, there exists an element $z$ such that $x_i \leq z$ for all $i$. Then a finitely directed set is the same as an $\aleph_0$-directed set.  An **infinitely directed set** allows any index set $A$ whatsoever, but this reduces to the statement that the proset has a [[top]] element.
 
