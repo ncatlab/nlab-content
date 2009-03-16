@@ -13,6 +13,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-03-15
 
+* [[Zoran Škoda|Zoran]]: Created (in last two days) several entries mainly related to co- Hopf- algebras and algebras in categories of chain complexes: [[Frechet-Uryson space]], [[Hopf module]], [[Hopf-Galois extension]], [[Loday-Pirashvili category]], [[Maurer-Cartan equation]], [[category of elements]], [[compactly generated space]], [[coring]], [[dg-algebra]],[[distributive law]], [[torsor]] (very unfinished!), [[twisted module of homomorphisms]], [[twisted tensor product]], [[twisting cochain]] and made changes to few other entries including many changes in entry [[Hopf algebra]] and some in [[A-infinity-algebra]]. With the (Fukaya) convention used there $D_0$ should not exist.
+
 * [[Mike Shulman|Mike]]: Created [[homotopy equivalence]] and [[weak homotopy equivalence]].
 
 * [[Tim Porter|Tim]]: 
