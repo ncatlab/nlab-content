@@ -19,7 +19,7 @@ $$
   \end{aligned}
 $$
 
-is a [[pullback]] square (where the maps $p^*_{\cdots}$ project out the indicated parts of the objects of the [[simplex category]] $\Delta$ regarded as [[poset]]s). $X^\bullet$ is the [[nerve]] of a [[category]] precisely if this is the case for all $n, m$.
+is a [[pullback]] square (where the maps $p^*_{\cdots}$ project out the indicated parts of the objects of the [[simplex category]] $\Delta$ regarded as [[partial order|poset]]s). $X^\bullet$ is the [[nerve]] of a [[category]] precisely if this is the case for all $n, m$.
 
 This condition is internalized homotopically in the category of spaces to get the definition of a _Segal space_.  One can interpret "spaces" here as meaning either (sufficiently [[nice topological space|nice]]) [[topological space]]s or [[simplicial set]]s; in the latter case a Segal space is a particular sort of [[bisimplicial set]].
 
