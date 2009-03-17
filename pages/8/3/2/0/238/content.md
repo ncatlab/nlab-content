@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-03-17
 
+* [[Zoran Škoda]] created [[Waldhausen category]] and made a remark into entry [[cofibration category]]. 
+
 * [[Toby Bartels]]:  I created [[symmetric set]] out of material that [[Zoran Škoda]] added to [[FinSet]].
 
 # 2009-03-16
