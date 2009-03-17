@@ -1,29 +1,25 @@
-# Generalised Objects
+# The Isbell Envelope of a Category
 
 Given a category $\mathcal{T}$ of "test objects", one can consider "things" which $\mathcal{T}$ can detect.  If one already has a class of objects in mind, one can consider $\mathcal{T}$-structures on those objects by looking at morphisms to and from objects of $\mathcal{T}$.  Then one considers questions only in so far as they can be distinguished after mapping into $\mathcal{T}$.  A simple example is that of smooth manifolds where many questions are solved by transporting the problem to Euclidean spaces via charts.  Another example is the use of weak topologies on locally convex topological spaces.  Without a class of objects in mind, the natural definition of an object probeable by $\mathcal{T}$-objects involves presheaves and copresheaves and is as follows.
 
-+-- {: .num_defn #GenObject}
++-- {: .num_defn #IsbellEnvelope}
 ###### Definition
-Let $\mathcal{T}$ be an essentially small category.  A _generalised $\mathcal{T}$-object_ is a triple $(P,F,c)$ where
+Let $\mathcal{T}$ be an essentially small category.  The _Isbell envelope_ of $\mathcal{T}$, written $E(\mathcal{T})$, is the category whose objects are triples $(P,F,c)$ where
 
 1. $P$ is a contravariant functor $\mathcal{T} \to Set$ (a presheaf),
 2. $F$ is a covariant functor $\mathcal{T} \to Set$ (a co-presheaf),
 3. $c : P \times F \to \mathcal{T}(-,-)$ is a natural transformation of bifunctors $\mathcal{T}^{op} \times \mathcal{T} \to Set$.
 
-A _morphism_ of generalised $\mathcal{T}$-objects $X \to Y$ is a pair of natural transformations $(\alpha,\beta)$ with $\alpha : P_X \to P_Y$ $\beta : F_Y \to F_X$ which satisfy the relation $c_X(-,\beta -) = c_Y(\alpha -,-)$.
-
-We shall write the corresponding category as $\mathcal{T}^g$.
-
-For a generalised $\mathcal{T}$-object $X = (P_X,F_X,c_X)$ we refer to $P_X$ as the _plots_ of $X$, $F_X$ as the _functions_ on $X$, and $c_X$ as the _composition law_ of $X$.  We shall often write composition as $\phi \circ \alpha$ when the notation is not considered confusing.
+and where a morphism $X \to Y$ is a pair of natural transformations $(\alpha,\beta)$ with $\alpha : P_X \to P_Y$ $\beta : F_Y \to F_X$ which satisfy the relation $c_X(-,\beta -) = c_Y(\alpha -,-)$.
 =--
 
-The requirement that $\mathcal{T}$ be essentially small implies that the collections of natural transformations form sets and thus that this is, indeed, a [[locally small category]].
+The requirement that $\mathcal{T}$ be essentially small implies that the collections of natural transformations form sets and thus that this is a [[category]], indeed, a [[locally small category]].
 
 Certain elementary properties are easy to prove.
 
 +-- {: .num_prop #ElemProp}
 ###### Proposition
-There is an obvious embedding of $\mathcal{T}$ as a full subcategory of $\mathcal{T}^g$ via
+There is an obvious embedding of $\mathcal{T}$ as a full subcategory of $E(\mathcal{T})$ via
 
 \[
 T \mapsto (\mathcal{T}(-,T), \mathcal{T}(T,-), \circ)
@@ -38,62 +34,42 @@ Identifying $\mathcal{T}$ with its image, we have natural isomorphisms
 _Other elementary properties to follow_
 =--
 
-+--{: .query}
-[[Mike Shulman|Mike]]: I repeat here my [objection](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html#c022207) that "generalized object" is too general a term.
+## Profunctors
 
-[[Andrew Stacey|Andrew]]: Object away!  I see your point of view, but I really don't like 'bi-presheaf' as it doesn't have the composition law.  'Presheaves' and 'Sheaves' are examples of 'generalised object with conditions' but I don't know about the other ones that you mention.  I thought that putting the test category in (and using 'object' rather than 'space') might obviate your objections a little, but clearly not.
+The Isbell envelope of a category can be viewed as a category of [[distributor|profunctors]].
+In short, the Isbell envelope of $\mathcal{T}$ consists of the _lax factorisations of $Hom$ through $1$_.
 
-As I wasn't getting flooded with suggestions then I figured I'd take the Wiki-line and just start.  I can easily run the page through a search-and-replace filter when we come up with a better name.
+Let us spell this out.
+Recall that a profunctor $\mathcal{A} \to \mathcal{B}$ is a functor $\mathcal{A} \times \mathcal{B}^{op} \to Set$.
+Both covariant and contravariant functors to $Set$ are special examples of profunctors: a covariant functor $\mathfrak{F} : \mathcal{A} \to Set$ is a profunctor $\mathcal{A} \to 1$, where $1$ is the terminal category, and a contravariant functor $\mathfrak{G} : \mathcal{B} \to Set$ is a profunctor $1 \to \mathcal{B}$.
+The composition of these as profunctors produces the obvious  profunctor $\mathfrak{F} \times \mathfrak{G} : \mathcal{A} \times \mathcal{B}^{op} \to Set$.
+Thus extracting the functor part of the definition of an object in the Isbell envelope of $\mathcal{T}$ produces a profunctor $\mathcal{T} \to \mathcal{T}$ which factors through $1$.
 
-To be midly - but not very - facetious, how about '$\mathcal{T}$-gjenstand'?  (Pronounced vaguely like 'yenstan')
+There is an obvious profunctor $\mathcal{T} \to \mathcal{T}$ given by the $Hom$-bifunctor.
+This is the identity for profunctor composition.
+The natural transformation from the definition of an object in the Isbell envelope of $\mathcal{T}$ defines a morphism of profunctors from the corresponding profunctor to $Hom$.
+Thus an object in the Isbell envelope of $\mathcal{T}$ corresponds to an object in the subcategory of the slice category of profunctors over $Hom$ of those objects which factor through $1$.
 
-[[Urs Schreiber|Urs]]: I agree with Mike that "generalized object" is not a good term as a general reference, even if it may well express the use of the definition where it is being used.
+In other words, a lax factorisation of $Hom$ through $1$.
 
-Of course, as with all notions of generalized objects, if we are in a specific context, such as in an article we are writing, we may want to say once and for all at the beginning something like: "In the following  we take _Fr&#246;licher bi-prehseaves_ on $\mathcal{T}$ as our model for general $\mathcal{T}$-objects and shall refer to them just as _generalized spaces_."
+## Concrete Envelopes
 
-[[Andrew Stacey|Andrew]]: I completely and utterly agree with you both!  I'm not too happy about 'generalised object' either.  What I was hoping for was that this would already be a Known Concept and someone would know what it was called.  I can easily invent something (like 'gjenstand') but if we have to invent a new name then I'd like it to be
+A variant of the above involves having a background category, say $\mathcal{U}$.  The test objects should be viewable also as objects of $\mathcal{U}$, usually via a faithful functor.  Any object of $\mathcal{U}$ defines a profunctor $\mathcal{T} \to \mathcal{T}$ (which factors through $1$) via
 
-1. Snappy
-2. Uncontroversial
-3. Related to what it stands for
+\[
+\begin{aligned}
+\mathcal{T} \times \mathcal{T}^{op} &\to \mathcal{U} \times \mathcal{U}^{op} &&\to Set \\
+(T_1, T_2) &\mapsto (|T_1|, |T_2|) &&\mapsto \mathcal{U}(U,|T_1|) \times \mathcal{U}(|T_2|,U)
+\end{aligned}
+\]
 
-Unfortunately, I'm coming to doubt that these are compatible.
+Then one can consider those objects of the Isbell envelope of $\mathcal{T}$ that are sub-profunctors of one of this type.
+In addition one should restrict the morphisms to those that are induced by morphism of objects of $\mathcal{U}$.
+Translating this back to the language of functors yields the following definition.
 
-I'm going to impose a rule on this discussion: to say "I don't like that name" isn't helpful.  You've got to come up with something better.  "Bi-presheaves" doesn't capture the essence of it.
-
-Which bit of "generalised object" (and note that it really ought to be "generalised $\mathcal{T}$-object") is worst?  If the "generalised", how about "extended", "virtual", "experimental" (these are the things on which you can do experiments using your $\mathcal{T}$oolbox), "probeable".  Actually, I quite like "virtual" in that lot.  How about "virtual object of $\mathcal{T}$" (note the 'of' not 'in')?
-
-[[Urs Schreiber|Urs]]: Maybe it was missed: above I had suggested "Fr&#246;licher bi-presheaf".
-
-I am not enthusiastic about this. But it has at least the advantage that everybody who knows both terms can immediately guess what is  meant. 
-
-[[Andrew Stacey|Andrew]]: I didn't miss it, but I forgot to comment on it; sorry.  The problem with that is that the Frolicher condition is an extreme example of this sort of situation.  I do want to consider cases where there are conditions on the objects, as these can lead to categories of presheaves, sheaves, copresheaves, cosheaves, Frolicher spaces, and Isbell dual things (amongst others).  You get all the categories of generalised smooth objects.  So putting the word "Frolicher" in from the beginning is not something I'm happy with.
-
-I guess this is one of the problems with allowing _research_ in the nLab.  Every now and then someone is going to want to define something new and needs to come up with a name for it.  "Working" names are not always the best and it can take a few iterations to get the "right" one.  But it's a bit more public on a wiki!
-
-I wonder how easy it would be to change something like this after the fact.  De facto standards are not always the best (witness the qwerty keyboard).
-
-[[Mike Shulman|Mike]]: Are you saying that presheaves can be recovered as the "generalized objects" satisfying some condition?  I presume, saying that the copresheaf is determined by the presheaf in the obvious way?
-
-I don't think we should discard "bipresheaf" just because there is a required compatibility between the presheaf and the copresheaf.  A [[bialgebra]] isn't just an algebra and a coalgebra; it has a compatibility between the two structures.  Likewise, a [[biproduct]] isn't just a product and a coproduct, but both in a compatible way.  And the composition law is really a very natural compatibility between a presheaf and a copresheaf.
-
-[[Andrew Stacey|Andrew]]: Mentioning bialgebra gives me another objection to bipresheaf.  A 'bialgebra' is _one_ object that has _two_ structures.  Here, we have _two_ objects, each with its own structure.  So to me, 'bipresheaf' suggests, somehow, a single functor that is both covariant and contravariant (I know that's not possible - I think - but it's what is suggested in the mind).  Aaagh.
-
-I've emailed the categories mailing list to see if they have any suggestions (and references, if any).
-
-I _don't_ want to spend so long arguing over the name that we get so exhausted no-one looks at any of the stuff I want to actually do with these things, but also I don't want to annoy anyone with the name.  So 'generalised object' gets vetoed - which is fine - but I _really_ don't like 'bipresheaf'.  I really want something that suggests the situation that generalised smooth objects are in: things that _ought_ to be manifolds but aren't because we didn't define manifolds properly.  So I want these to be things that ought to be objects of $\mathcal{T}$ but aren't, because I forgot to put them in when I defined $\mathcal{T}$.
-
-_Toby_:  I like both '$\mathcal{T}$-probable object' and 'virtual object of $\mathcal{T}$' (which can also be 'virtual $\mathcal{T}$-object' especially if one wants to replace '$\mathcal{T}$' by an adjective, as in 'virtual smooth object').  But I also want to argue in favour of 'bipresheaf'.  It\'s rather arbitrary what one considers the underlying object of an object if one doesn\'t specify the category of underlying objects ahead of time.  For example, while a bialgebra is a module that\'s both an algebra and a coalgebra in a compatible way, you can also say that it simply *is* an algebra and a compatible coalgebra, where part of the compatibility condition is that they have the same (or isomorphic is enough) underlying module.  Similarly, a bipresheaf is a presheaf and a compatible copresheaf with an even simpler compatibility condition and no attempt to claim that they have the same underlying functor (or even the same underlying groupoid-functor, to use something that at least makes sense).  Furthermore, even Andrew has used the word 'bifunctor' in a perfectly analogous way; now a bipresheaf on $\mathcal{T}$ (or $\mathcal{T}$-bipresheaf) is a bifunctor $\mathcal{T}^{op} \times \mathcal{T} \to Set$ with an internal compatibility condition (a natural transformation to the hom-bifunctor).
-
-=--
-
-## Concrete Generalised $\mathcal{T}$-Objects
-
-A variant of the above involves having a background category, say $\mathcal{U}$.  The test objects should be viewable also as objects of $\mathcal{U}$, usually via a faithful functor.  Then one can consider those generalised objects that have an underlying $\mathcal{U}$-object.
-
-+-- {: .num_defn #ConcGenObj}
++-- {: .num_defn #ConcIsbellEnvelope}
 ###### Definition
-Let $\mathcal{T}$ and $\mathcal{U}$ be categories with a faithful functor $\mathcal{T} \to \mathcal{U}$ which we shall write as $T \mapsto |T|$.  A _$\mathcal{U}$-concrete generalised $\mathcal{T}$-object_ consists of a triple $(U,P,F)$ where
+Let $\mathcal{T}$ and $\mathcal{U}$ be categories with a faithful functor $\mathcal{T} \to \mathcal{U}$ which we shall write as $T \mapsto |T|$.  The _$\mathcal{U}$-concrete  Isbell envelope_ of $\mathcal{T}$, which we shall write $E_{\mathcal{U}}(\mathcal{T})$, is the category whose objects are triples $(U,P,F)$ where
 
 1. $U$ is an object of $\mathcal{U}$,
 2. $P : \mathcal{T} \to Set$ is a subfunctor of the (contravariant) functor $T \mapsto \mathcal{U}(|T|,U)$,
@@ -103,9 +79,9 @@ such that the image of the natural transformation
 \[
 P \times F \to \mathcal{U}(|-|,|-|),
 \]
-which comes from composition in $\mathcal{U}$, lies in the image of the natural transformation $\mathcal{T}(-,-) \to \mathcal{U}(|-|,|-|)$.
+which comes from composition in $\mathcal{U}$, lies in the image of the natural transformation $\mathcal{T}(-,-) \to \mathcal{U}(|-|,|-|).$
 
-A _morphism_ of $\mathcal{U}$-concrete generalised $\mathcal{T}$-objects is a $\mathcal{U}$-morphism on the underlying $\mathcal{U}$-objects that defines natural transformations $P_X \to P_Y$ and $F_Y \to F_X$.
+A morphism in $E_{\mathcal{U}}(\mathcal{T})$ is a $\mathcal{U}$-morphism on the underlying $\mathcal{U}$-objects that defines natural transformations $P_X \to P_Y$ and $F_Y \to F_X$.
 =--
 
 Having a background category ensures that the size issues with natural transformations do not occur and so we can drop the requirement that $\mathcal{T}$ be essentially small.
@@ -116,11 +92,11 @@ These notions can be considered in the enriched setting by replacing $Set$ where
 
 ## Isbell Duality
 
-Within the category of generalised $\mathcal{T}$-objects one can consider various subcategories where the objects satisfy extra conditions.  An obvious condition is that the presheaf is actually a sheaf.  Another useful condition is that of Isbell Duality.
+Within the Isbell envelope of $\mathcal{T}$ one can consider various subcategories where the objects satisfy extra conditions.  An obvious condition is that the presheaf is actually a sheaf.  Another useful condition is that of Isbell Duality.
 
 +-- {: .num_defn #IsbelDuality}
 ###### Definition
-A generalised $\mathcal{T}$-object $X$ is said to be _$P$-saturated_ if the obvious natural transformations
+An object $X$ of $E(\mathcal{T})$ is said to be _$P$-saturated_ if the obvious natural transformations
 
 \[
 P_X(T) \to NatTrans(F_X,F_T)
@@ -135,7 +111,7 @@ F_X(T) \to NatTrans(P_X,P_T)
 are isomorphisms.  It is said to satisfy _Isbell duality_ if it is both $P$- and $F$-saturated.
 =--
 
-Within the category of generalised $\mathcal{T}$-objects one can consider the full subcategories of $P$-saturated objects, of $F$-saturated objects, and those satisfying Isbell duality.  Clearly, the last is the intersection of the first two.  There are idempotent functors onto the first two categories given by replacing one of $P_X$ or $F_X$ by the natural transformations of the other.  An interesting question is to ask whether or not the obvious iteration stabilises after a finite number of steps (which would result in an object satisfying Isbell duality).
+Within $E(\mathcal{T})$ one can consider the full subcategories of $P$-saturated objects, of $F$-saturated objects, and those satisfying Isbell duality.  Clearly, the last is the intersection of the first two.  There are idempotent functors onto the first two categories given by replacing one of $P_X$ or $F_X$ by the natural transformations of the other.  An interesting question is to ask whether or not the obvious iteration stabilises after a finite number of steps (which would result in an object satisfying Isbell duality).
 
 
 If the test category has, or "morally has", a representable functor to $Set$ then there is a strong relationship between saturation and concreteness.
@@ -154,11 +130,11 @@ The property of being a constant separator is clearly equivalent to the conditio
 Moreover, it is easy to show that in a non-trivial category, any two constant separators have morphisms between them in both directions and so induce naturally isomorphic functors.
 Indeed, not just naturally isomorphic but naturally naturally isomorphic in that there is a canonical choice of natural isomorphism.
 
-Now we transfer this to generalised $\mathcal{T}$--spaces.
+Now we transfer this to the Isbell envelope of $\mathcal{T}$.
 
 +-- {: .num_defn #GenSpaceConst}
 ###### Definition
-Let $X=(P,F,c)$ be a generalised $\mathcal{T}$--space.
+Let $X=(P,F,c)$ be an object of $E(\mathcal{T})$.
 An element $\alpha \in P(T)$, for $T$ an object of $\mathcal{T}$, is said to be _constant_ if $\phi \circ \alpha \in \mathcal{T}(T,T')$ is constant for all $T'$ objects of $\mathcal{T}$ and $\phi \in F(T')$.
 
 Let us write $|X|_T$ for the set of constant elements in $P(T)$.
@@ -173,13 +149,13 @@ A $\mathcal{T}$--morphism $T_0 \to T_1$ defines a natural transformation of func
 
 +-- {.proof}
 ###### Proof
-Let $X_i = (P_i,F_i,c_i)$, $i = 1,2$, be two generalised $\mathcal{T}$--spaces.
+Let $X_i = (P_i,F_i,c_i)$, $i = 1,2$, be two objects in $E(\mathcal{T})$.
 Let $(\alpha,\beta)$ be a morphism from the first to the second.
 Then $\alpha$ is a natural transformation $P_1 \to P_2$ so in particular defines a morphism of sets $P_1(T_0) \to P_2(T_0)$.
 Let $\gamma \in P_1(U_0)$ be a constant element.
 Let $T$ be an object in $\mathcal{T}$ and $\phi \in F_2(T)$.
 We need to show that $\phi \circ (\alpha \circ \gamma)$ is a constant morphism.
-By the definition of a morphism of generalised $\mathcal{T}$--spaces, $\phi \circ (\alpha \circ \gamma) = (\phi \circ \beta) \circ \gamma$ and this latter is a constant morphism since $\gamma \in P_1(T_0)$ is a constant element.
+By the definition of a morphism in $E(\mathcal{T})$, $\phi \circ (\alpha \circ \gamma) = (\phi \circ \beta) \circ \gamma$ and this latter is a constant morphism since $\gamma \in P_1(T_0)$ is a constant element.
 
 For the extension, we observe that for $\gamma \in P_T(T_0)$ then if $\gamma$ is a constant morphism, $c_T(\phi,\gamma) = \phi \circ \gamma$ is constant for all $\phi$; whilst if $c_T(\phi,\gamma)$ is constant for all $\phi$ then in particular $\gamma = c_T(1_T,\gamma)$ is constant.
 That the morphisms correspond is obvious.
@@ -190,14 +166,14 @@ Then for $T'$ an object in $\mathcal{T}$ and $\phi \in F(U')$, $\phi \circ (\gam
 Hence $\gamma \circ \psi$ is a constant element in $P(T_0)$.
 =--
 
-The result that the natural transformations depend only on the existence of a morphism does not carry over to the generalised space setting.
+The result that the natural transformations depend only on the existence of a morphism does not carry over to this extended setting.
 
 +-- {: .query}
 [[Andrew Stacey|Andrew]]: Useful to have an example here, of course.
 =--
 
 Let us fix a $\mathcal{T}$--object $T_0$.
-We have two bifunctors $\mathcal{T} \times \mathcal{T}^g \to Set$ given by
+We have two bifunctors $\mathcal{T} \times E(\mathcal{T}) \to Set$ given by
 $$
 (T,X) \mapsto P_X(T)
 $$
@@ -205,14 +181,14 @@ and
 $$
 (T,X) \mapsto Set(|T|_{T_0},|X|_{T_0})
 $$
-Let us, to simplify notation, identify $T$ with its image in $\mathcal{T}^g$.
-Then $P_X(T)$ is naturally isomorphic to $\mathcal{T}^g(T,X)$ so the fact that $X \mapsto |X|_{T_0}$ is a functor defines a natural transformation from the first to the second via
+Let us, to simplify notation, identify $T$ with its image in $E(\mathcal{T})$.
+Then $P_X(T)$ is naturally isomorphic to $E(\mathcal{T})(T,X)$ so the fact that $X \mapsto |X|_{T_0}$ is a functor defines a natural transformation from the first to the second via
 $$
-P_X(T) \cong \mathcal{T}^g(T,X) \to Set(|T|_{T_0}, |X|_{T_0})
+P_X(T) \cong E(\mathcal{T})(T,X) \to Set(|T|_{T_0}, |X|_{T_0})
 $$
 In a similar fashion, we obtain a natural transformation
 $$
-F_X(T) \cong \mathcal{T}^g(X,T) \to Set(|X|_{T_0},|T|_{T_0}).
+F_X(T) \cong E(\mathcal{T})(X,T) \to Set(|X|_{T_0},|T|_{T_0}).
 $$
 We therefore obtain a functorial choice of underlying concrete object (with the underlying category being $Set$).
 We can refine the notion of concreteness slightly.
@@ -220,7 +196,7 @@ We can refine the notion of concreteness slightly.
 +-- {: .num_defn #ConcGenSp}
 ###### Definition
 Let $\mathcal{T}$ be an essentially small category with a concrete separator, say $T_0$.
-Let $X = (P_X,F_X,c_X)$ be a generalised $\mathcal{T}$--space.
+Let $X = (P_X,F_X,c_X)$ be an object of $E(\mathcal{T})$.
 We say that $X$ is _$P$--concrete_ if the map of sets
 $$
 P_X(T) \to Set(|T|_{T_0},|X|_{T_0})
@@ -239,7 +215,7 @@ Clearly, if it is both $P$-concrete and $F$-concrete then it is concrete.  Chang
 +-- {: .num_theorem #ConcreteIsbell}
 ###### Theorem
 Let $\mathcal{T}$ be an essentially small category admitting a constant separator.
-Then for a generalised $\mathcal{T}$--space $X$ the following hold:
+Then for an object $X$ of $E(\mathcal{T})$, the following hold:
 
 1. If $X$ is $P$-saturated then it is $P$-concrete,
 2. If $X$ is $F$-saturated then it is $F$-concrete,
@@ -252,7 +228,7 @@ Clearly the first and second statements imply the third.
 
 Let us consider the first.
 
-Let $X$ be a generalised $\mathcal{T}$--space such that $P_X(T) = NatTrans(F_X,F_T)$ for all $\mathcal{T}$--objects $T$.
+Let $X$ be an object of $E(\mathcal{T})$ such that $P_X(T) = NatTrans(F_X,F_T)$ for all $\mathcal{T}$--objects $T$.
 Let $S$ be a concrete separator in $\mathcal{T}$.  We shall write $|-|$ for $|-|_S$.
 Let $T$ be an object of $\mathcal{T}$.
 Let $\alpha \ne \beta \in P_X(T)$.
@@ -268,7 +244,7 @@ Thus the maps $\alpha,\beta : |T| \to |X|$ are different and so $X$ is $P$--conc
 
 The second statement is very similar.
 
-Let $X$ be a generalised $\mathcal{T}$--space such that $F_X(U) = NatTrans(P_X,P_T)$ for all $\mathcal{T}$--objects $T$.
+Let $X$ be an object of $E(\mathcal{T})$ such that $F_X(U) = NatTrans(P_X,P_T)$ for all $\mathcal{T}$--objects $T$.
 Let $S$ be a concrete separator in $\mathcal{T}$.
 Let $T$ be an object of $\mathcal{T}$.
 Let $\phi \ne \psi \in F_X(T)$.
