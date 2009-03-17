@@ -1,5 +1,3 @@
-A __setoid__ is a [[set]] $S$ equipped with an [[equivalence relation]] $\equiv$.
+See [[equivalence relation]].
 
-Equivalently, a setoid is a [[groupoid]] [[enriched category|enriched]] over the [[cartesian monoidal category]] of [[truth value]]s.  However, up to [[equivalence of categories]], such a groupoid is always a [[set]], the [[quotient set]] $S/{\equiv}$.
-
-Setoids are particularly important in [[foundations]] of mathematics where quotient sets don\'t always exist and the above equivalence cannot be carried out.  However, arguably this is a terminological mismatch, and such people should say 'set' where they say 'setoid' and something else (such as 'preset', 'type', or 'completely presented set') where they say 'set'.  (See page 9 of [these lecture notes](http://www.cs.chalmers.se/Cs/Research/Logic/TypesSS05/Extra/palmgren.pdf).)
+category: redirect
