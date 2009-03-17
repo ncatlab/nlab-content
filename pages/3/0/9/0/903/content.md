@@ -2,9 +2,21 @@
 
 The _homotopy groups_ $\pi_n(X,a)$ of a [[pointed object|pointed]] space $(X,a)$ are a sequence of [[group]]s that generalise the [[fundamental group]] $\pi_1(X,a)$ to higher homotopies.
 
-Actually, $\pi_0(X,a)$ is not a group at all but merely a [[pointed set]].  Conversely, $\pi_2(X,a)$ and above are all [[abelian group]]s.  Only $\pi_1(X,a)$ may be an arbitrary group.
+Actually, $\pi_0(X,a)$ is not a group at all but merely a [[pointed set]].  Conversely, $\pi_2(X,a)$ and above are all [[abelian group]]s.  Only $\pi_1(X,a)$ may be an arbitrary group.  In general, $\pi_n(X,a)$ is an $n$-[[k-tuply groupal n-groupoid|tuply groupal]] set.
 
 Lower homotopy groups act on higher homotopy groups; the nonabelian group cohomology of this gives the Postnikov invariants of the space.  All of this data put together allows one to reconstruct the original space, at least up to weak [[homotopy type]], through its [[Postnikov system]].
+
+# Definition #
+
+Let $S^n$ be the pointed $n$-[[sphere]], that is an $n$-dimensional real sphere equipped with any basepoint.  The underlying set of $\pi_n(X,a)$ will be the set of basepoint-preserving continuous maps from $S^n$ to $(X,a)$, with such maps identified if there is a basepoint-preserving [[homotopy]] between them.  Now we will put some structure on that set.
+
+First, the [[constant function]] that maps all of $S^n$ to $a$ is the __null element__ of $\pi_n(X,a)$.  Now, there are $n$ independent equators through the basepoint of $S^n$.  Given two maps $f, g: S^n \to (X,a)$, form their [[coproduct|copairing]] in the category of pointed spaces to get a map $S^n \vee S^n \to (X,a)$ (where $\vee$ indicates the [[wedge sum]]); then combine this with a map $S^n \to S^n \vee S^n$ that maps the $i$th equator to the basepoint and each hemisphere to one copy of the sphere.  The result is a map $S^n \to (X,a)$, called the $i$th __concatenation__ of $f$ and $g$:
+$$S^n \to_i S^n \vee S^n \to^{[f,g]} (X,a)$$
+One can check that this operation respects homotopy equivalence.
+
+This seems like quite a complicated kind of structure, but it is actually quite simple up to homotopy.  First of all, all $n$ concatenations of given maps $f$ and $g$ are homotopic, so we speak of simply a single __concatenation__ for $n \geq 1$ (and none for $n = 0$).  By the [[Eckmann-Hilton argument]], this concatenation will be commutative up to homotopy for $n \geq 2$.  In any case, it is associative and invertible up to homotopy, and the null element is an identity up to homotopy.
+
+The result is that the set $\pi_n(X,a)$ of equivalence classes is an abelian group for $n \geq 2$, a group for $n = 1$, and a pointed set for $n = 0$ (when the null element is the only structure).
 
 # History #
 
