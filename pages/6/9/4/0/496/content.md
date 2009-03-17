@@ -1,4 +1,4 @@
-A __0-poset__ is a [[truth value]]. Compare the concept of $1$[[1-poset|poset]] (a [[poset]]) and $(-1)$-[[(-1)-poset|poset]] (which is trivial); compare also with $(-1)$-[[(-1)-category|category]] and $0$-[[0-groupoid|groupoid]], which mean the same thing for different reasons.
+A __0-poset__ is a [[truth value]]. Compare the concept of $1$[[1-poset|poset]] (a [[partial order|poset]]) and $(-1)$-[[(-1)-poset|poset]] (which is trivial); compare also with $(-1)$-[[(-1)-category|category]] and $0$-[[0-groupoid|groupoid]], which mean the same thing for different reasons.
 
 The point of 0-posets is that they complete some patterns in the [[periodic table]] of $n$-categories, in particular the progression of $n$-[[n-poset|posets]].
 
