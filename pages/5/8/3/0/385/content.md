@@ -12,6 +12,14 @@ of
 
 Sjoerd Crans, _A tensor product for $Gray$-categories_ ([tac](http://www.tac.mta.ca/tac/volumes/1999/n2/5-02abs.html))
 
+_Mike_: Is the "cotruncation" what I would call the "reflection into $m$-categories"?
+
+I don't see a relevant remark on p. 14 of that paper, but on p. 41 he says (emphasis in original):
+
+> If the $Gray$-categories $C$ and $D$ are both 2-categories, then their tensor product _as 2-categories_ is precisely the 2-category obtained from _the $Gray$-category $C \otimes D$_ by formally turning all its 3-arrows into identities.  In other words, Gray's tensor product is the 2-categorical reflection of the tensor product of $Gray$-categories given here.
+
+I think this supports what I was saying, although the relationship between the tensor product of $Gray$-categories and the tensor product of strict $\omega$-categories is also an important question.  One might guess that on the intersection of their domains (namely, strict 3-categories) the former is the reflection of the latter into 3-categories, although it's not even obvious to me that the tensor product _qua_ $Gray$-categories of two strict 3-categories is again a strict 3-category.
+
 =--
 
 +--{: .query}
@@ -25,6 +33,14 @@ $$
   \;\;\;
   ??
 $$
+
+[[Mike Shulman|Mike]]: No.  Consider $C=D=\mathbf{2}$, the walking arrow $(0 \overset{f}{\to} 1)$.  Then $N C \times N D$ is a square
+$$\array{(0,0) & \overset{(f,0)}{\to} & (1,0)\\
+^{(0,f)}\downarrow & \searrow^{(f,f)} & \downarrow^{(1,f)}\\
+(0,1) & \underset{(f,1)}{\to} & (1,1)}$$
+in which both triangles contain a 2-simplex.  I don't think this is isomorphic to the nerve of any $\omega$-category, but it certainly isn't equivalent to the nerve of $C\otimes D$, since the latter only contains a 2-cell from $(1,f)(f,0)$ to $(f,1)(0,f)$.
+
+On the other hand, I do believe that the "pseudo" version of the tensor product on $\omega$-categories (has this been written down?) gets intertwined, at least up to equivalence, with the cartesian product of _stratified_ simplicial sets.  Possibly something about this could be found in Verity's work on [[weak complicial set]]s.
 
 =--
 
