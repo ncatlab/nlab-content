@@ -1,9 +1,9 @@
-If $x$ and $y$ are elements of a [[poset]], then their **meet**, or **infimum**, is an element $x \wedge y$ of the poset such that:
+If $x$ and $y$ are elements of a [[partial order|poset]], then their **meet**, or **infimum**, is an element $x \wedge y$ of the poset such that:
 * $x \wedge y \leq x$ and $x \wedge y \leq y$;
 * if $a \leq x$ and $a \leq y$, then $a \leq x \wedge y$.
 Such a meet may not exist; if it does, then it is unique.
 
-In a [[proset]], a meet may be defined similarly, but it need not be unique.  (However, it is still unique up the natural [[equivalence]] in the proset.)
+In a [[preorder|proset]], a meet may be defined similarly, but it need not be unique.  (However, it is still unique up the natural [[equivalence]] in the proset.)
 
 The above definition is for the meet of two elements of a poset, but it can easily be generalised to any number of elements.  It may be more common to use 'meet' for a meet of finitely many elements and 'infimum' for a meet of (possibly) infinitely many elements, but they are the same concept.  The meet may also be called the **minimum** if it equals one of the original elements.
 
