@@ -1,4 +1,4 @@
-There is just one __$(-1)$-poset__, namely the [[point]].  Compare the concepts of $0$-[[0-poset|poset]] (a [[truth value]]) and $1$-[[1-poset|poset]] (a [[poset]]).  Compare also with $(-2)$-[[(-2)-category|category]] and $(-2)$-[[(-2)-groupoid|groupoid]], which mean the same thing for their own reasons.
+There is just one __$(-1)$-poset__, namely the [[point]].  Compare the concepts of $0$-[[0-poset|poset]] (a [[truth value]]) and $1$-[[1-poset|poset]] (a [[partial order|poset]]).  Compare also with $(-2)$-[[(-2)-category|category]] and $(-2)$-[[(-2)-groupoid|groupoid]], which mean the same thing for their own reasons.
 
 The point of $(-1)$-posets is that they complete some patterns in the [[periodic table]]s and complete the general concept of $n$-[[n-poset|poset]].  For example, there should be a $0$-[[0-poset|poset]] $(-1)\Pos$ of $(-1)$-posets; a $0$-poset is simply a truth value, and $(-1)\Pos$ is the [[true]] truth value.
 
