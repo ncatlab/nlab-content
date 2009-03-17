@@ -3,8 +3,10 @@ A __symmetric set__ (or symmetric simplicial set) is a [[simplicial set]] $X$ eq
 The result is that a symmetric set is a [[presheaf]] of sets on the category [[FinSet]] of [[finite set]]s (or at least on its [[skeleton]]).
 
 An analogy to keep in mind is
-: symmetric set : simplicial set :: [[groupoid]] : [[category]]. This analogy can be formalized by noticing that the skeletal category of finite sets is simply the full subcategory of the category of small categories whose objects are the localizations $[n]^{-1}[n]$ which are groupoids. Connes' category $\Lambda$ of cyclic sets is a smaller localization where each $[n]$ is localized just by inverting the full cycle, that is the composition $0\to 1\to\ldots\to n$ in ordinal $[n]$ considered as a category.
-By the universal property of localization, the usual (simplicial) nerve of a groupoid has a canonical symmetric structure, hence in particular a cyclic structure.
+: symmetric set : simplicial set :: [[groupoid]] : [[category]].
+
+This analogy can be formalized by noticing that the skeletal category of finite sets is simply the [[full subcategory]] of [[Cat]] whose objects are the [[localization]]s $[n]^{-1}[n]$ which are groupoids. Connes' category $\Lambda$ of [[cyclic set]]s is a smaller localization where each $[n]$ is localized just by inverting the full cycle, that is the composition $0\to 1\to\ldots\to n$ in ordinal $[n]$ considered as a category.
+By the universal property of localization, the usual (simplicial) [[nerve]] of a groupoid has a canonical symmetric structure, hence in particular a cyclic structure.
 
 +--{: .query}
 [[Mike Shulman|Mike]]: I've never seen this called a "symmetric set" only a "symmetric simplicial set," which additionally has the advantage of being more descriptive.  "Symmetric set" sounds to me like it might also refer to a presheaf on the _groupoid_ of finite sets (sometimes called a "symmetric sequence").  Is there an advantage of "symmetric set" over "symmetric simplicial set?"
