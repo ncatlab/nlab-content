@@ -61,7 +61,7 @@ Note that in all these cases the morphisms are actually  special sorts of functi
 
 These classic examples are the original motivation for the term "category": all of the above categories encapsulate one "kind of mathematical structure". But just as widespread in applications as these categorization examples of categories are are other categories (often "[[small category|small]]" ones) which, roughly, model something like _states_ and _processes_ of some system.
 
-* **Poset** A [[poset]] can be thought of as a category with its elements as objects and one morphism in each $hom(x,y)$ if $x$ is less than or equal to $y$, but none otherwise.  
+* **Poset** A [[partial order|poset]] can be thought of as a category with its elements as objects and one morphism in each $hom(x,y)$ if $x$ is less than or equal to $y$, but none otherwise.  
 
 * **Group** A [[group]] is just a category where there's one object and all the morphisms have inverses - we call the morphisms "elements" of the group.  This may seem weird, but it's actually a very useful viewpoint. Here's another way to say it: _A group is a [[groupoid]] with a single object_.
 
