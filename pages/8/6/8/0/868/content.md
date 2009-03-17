@@ -12,6 +12,12 @@ Given a [[set]] $S$, a __total order__ on $S$ is a (binary) [[relation]] $\leq$ 
 
 A __toset__ is a set equipped with a partial order.
 
+# Relation to simplices #
+
+The category of finite nonempty totally ordered sets and order-preserving maps is called $\Delta$, the [[simplex category]]. 
+
+The category of *all* finite totally ordered sets and order-preserving maps is called $\Delta_a$, the **augmented** simplex category.
+
 # Relation to linear orders #
 
 A [[linear order]] is much like a total order, except that it is based on an irreflexive relation $\lt$.
