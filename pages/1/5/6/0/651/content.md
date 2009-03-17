@@ -32,26 +32,26 @@ The [[category]] of Fr&#246;licher spaces is [[complete category|complete]], [[c
 [[Andrew Stacey|Andrew]]: I don't think that this category is _locally_ cartesian closed but the only evidence that I have for that is a side remark by Lawvere on the category mailing list.
 =--
 
-# Generalised Spaces
+# Isbell Envelope
 
-Fr&#246;licher spaces are examples of [[generalized smooth space|generalised smooth spaces]].  They are also examples of [[generalized object|generalised objects]] (indeed, concrete ones).
-
+Fr&#246;licher spaces are examples of [[generalized smooth space|generalised smooth spaces]].  The category of F&#246;licher spaces is also closely related to the concept of the [[Isbell envelope]] of a category.
 
 +-- {: .num_defn #RCat}
 ###### Definition
 Let $\mathcal{R}$ denote the category with one object and morphism set $C^\infty(\mathbb{R},\mathbb{R})$.
 =--
 
-There is a close relationship between Fr&#246;licher spaces and the category of generalised $\mathcal{R}$-objects satisfying Isbell Duality.
+There is a close relationship between Fr&#246;licher spaces and the subcategory of $E(\mathcal{R})$, the Isbell envelope of $\mathcal{R}$, of those objects satisfying Isbell duality.
 
 +-- {: .num_prop #IsbellIsFroelicher}
 ###### Proposition
-A generalised $\mathcal{R}$-object that satisfies Isbell duality is a Fr&#246;licher space.
+An object of $E(\mathcal{R})$ that satisfies Isbell duality is a Fr&#246;licher space.
 =--
 
 +-- {: .proof}
+###### Proof
 Let $X = (C,F)$ be a generalised $\mathcal{R}$-object satisfying Isbell duality.
-From the page on [[generalized object#ConcreteIsbell|generalised objects]], $X$ is concrete.
+From the page about the [[Isbell envelope]], $X$ is concrete.
 Let $|X|$ denote the set of constant elements of $C$.
 By concreteness, $C$ injects into $Set(\mathbb{R},|X|)$ and $F$ injects into $Set(|X|,\mathbb{R})$.
 For clarity, we shall distinguish between an element of $C$ and its image in $Set(\mathbb{R},|X|)$ writing $\alpha$ for the former and $|\alpha|$ for the latter.
@@ -90,12 +90,13 @@ All Fr&#246;licher spaces satisfy half of the requirements for Isbell duality: t
 
 +-- {: .num_prop #FroFSat}
 ###### Proposition
-The generalised $\mathcal{R}$-object corresponding to a Fr&#246;licher space is $F$-saturated.
+The object of $E(\mathcal{R})$ corresponding to a Fr&#246;licher space is $F$-saturated.
 =--
 
 +-- {: .proof}
+###### Proof
 Let $(X,C,F)$ be a Fr&#246;licher space.
-Recall from [[generalized object# IsbelDuality|generalised object]] that $F$-saturated means that $F$ is precisely the set of $C^\infty(\mathbb{R}, \mathbb{R})$-homs $C \to C^\infty(\mathbb{R},\mathbb{R})$.
+Recall from the page about the [[Isbell envelope]] that $F$-saturated means that $F$ is precisely the set of $C^\infty(\mathbb{R}, \mathbb{R})$-homs $C \to C^\infty(\mathbb{R},\mathbb{R})$.
 
 We know that every element of $F$ gives a map $C \to C^\infty(\mathbb{R}, \mathbb{R})$ which commutes with the right actions.
 As $C$ contains the constant functions at the points of $X$, this assignment is injective.
@@ -112,14 +113,14 @@ The other half is more complicated.
 Using concreteness one can see that the essence depends on comparing the set $X$ with the set of _constant_ natural transformations $F \to C^\infty(\mathbb{R}, \mathbb{R})$.
 That is, those natural transformations $\gamma$ with the property that $\gamma(\phi)$ is a constant function in $C^\infty(\mathbb{R}, \mathbb{R})$ for all $\phi \in F$.
 
-+-- {: .num_lemma #Spec}
++-- {: .num_lemma #NatTransFSet}
 ###### Lemma
-The set $F$ is a $C^\infty(\mathbb{R}, \mathbb{R})$-algebra and the constant natural transformations on $F$ correspond with the algebra homomorphisms $F \to \mathbb{R}$.
+A constant natural transformation $F \to C^\infty(\mathbb{R}, \mathbb{R})$ is a function $\alpha : F \to \mathbb{R}$ with the property that $\alpha(\phi \circ \psi) = \phi(\alpha(\psi))$.
 =--
 
-That is, we are looking at $Spec(F)$.
+Let us write $|F|$ for this set.
 
-Now every point of $X$ defines a constant natural transformation via evaluation but this map need be neither injective nor surjective.
+Now every point of $X$ defines a constant natural transformation via evaluation but the map $X \to |F|$ need be neither injective nor surjective.
 However, we can determine conditions on when it is injective or surjective.
 Injectivity is related to a fairly simple condition (as indicated by the example earlier).
 
@@ -130,47 +131,105 @@ A Fr&#246;licher space is said to be _Hausdorff_ if the smooth functions separat
 
 +-- {: .num_prop #FroHausCSat}
 ###### Proposition
-A Fr&#246;licher space $(X,C,F)$ is Hausdorff if and only if the map $X \to Spec(F)$ is injective.
+A Fr&#246;licher space $(X,C,F)$ is Hausdorff if and only if the map $X \to |F|$ is injective.
 =--
 
 +-- {: .proof}
-The key point here is that an element of $Spec(F)$ is completely determined by its effect on functions in $F$.
-Thus $x, y \in X$ are such that they define the same element of $Spec(F)$ if and only if $\phi(x) = \phi(y)$ for all $\phi \in F$.
+###### Proof
+The key point here is that an element of $|F|$ is completely determined by its effect on functions in $F$.
+Thus $x, y \in X$ are such that they define the same element of $|F|$ if and only if $\phi(x) = \phi(y)$ for all $\phi \in F$.
 This means that the smooth functions do not separate $x$ and $y$.
-Hence $(X,C,F)$ is Hausdorff if and only if $X \to Spec(F)$ is injective.
+Hence $(X,C,F)$ is Hausdorff if and only if $X \to |F|$ is injective.
 =--
 
 It is simple to construct non-Hausdorff Fr&#246;licher spaces.
 Indeed, the example earlier was one.
 
-For surjectivity we need a kind of completeness result.
+Surjectivity is more complicated.
+As currently stated, not even very simple Fr&#246;licher spaces satisfy the surjectivity condition.
 
-+-- {: .num_lemma #SpecSurj}
++-- {: .num_lemma #PlaneNonSurj}
 ###### Lemma
-For a Fr&#246;licher space $(X,C,F)$ the following conditions are equivalent.
-1. $X \to Spec(F)$ is surjective.
-2. Whenever $\tau : F \to \mathbb{R}$ is such that $\phi^{-1}(\tau(\phi)) \cap \psi^{-1}(\tau(\psi)) \ne \emptyset$ for any $\phi, \psi \in F$ then $\tau$ is evaluation at some $x \in X$.
+The Fr&#246;licher space defined by the usual structure on $\mathbb{R}^2$ does not satisfy the surjectivity condition.
 =--
-
-Before proving this, let us note that the second condition implies that for each pair $\phi, \psi \in F$ there is some $x$ such that $\phi(x) = \tau(\phi)$ and $\psi(x) = \tau(\psi)$.
-We could call such a $\tau$ a _pairwise_ evaluation.
-The condition says that all pairwise evaluations are genuine evaluations.
 
 +-- {: .proof}
-* 1 implies 2.
+###### Proof
+We need to construct a map $\alpha : F \to C^\infty(\mathbb{R}, \mathhbb{R})$ such that $\alpha(\psi \circ \phi) = \psi(\alpha(\phi))$ but which does not correspond to a point in $\mathbb{R}^2$.
 
-  Let $\tau : F \to \mathbb{R}$ satisfy the condition of (2).
-We need to show that $\tau$ is an algebra homomorphism.
-
-  We start by showing that $\tau$ is a natural transformation.
-That is, that for $\phi \in F$ and $\theta \in C^\infty(\mathbb{R}, \mathbb{R})$ then $\tau(\theta \circ \phi) = \theta(\tau(\phi))$.
-The assumption on $\tau$ implies that there is some $x \in X$ such that $\phi(x) = \tau(\phi)$ and $(\theta \circ \phi)(x) = \tau(\theta \circ \phi)$.
-Thus
+A non-zero point $p \in \mathbb{R}^2$ defines an element $\pi_p$ of $F$ by composing orthogonal projection $\mathbb{R}^2 \to \langle p \rangle$ with the map $\langle p \rangle \to \mathbb{R}$ defined by $p \mapsto 1$.
+If $p, q \in \mathbb{R}^2$ are not collinear then the only situation in which $\psi \circ \pi_p = \phi \circ \pi_q$ is if $\psi$ and $\phi$ are constant functions.
+To see this, let $p'$ be orthogonal to $p$ and $q'$ orthogonal to $q$ be such that the orthogonal projection of $p'$ to the line spanned by $q$ is $q$, and similarly $q'$ maps to $p$.
+Then $p'$ and $q'$ span $\mathbb{R}^2$ and
 \[
-\tau(\theta \circ \phi) = (\theta \circ \phi)(x) = \theta(\phi(x)) = \theta(\tau(\phi)).
+\begin{aligned}
+\psi \circ \pi_p(\lambda p' + \mu q') &= \psi \circ \pi_p(\mu q') &&= \psi(\mu) \\
+\phi \circ \pi_q(\lambda p' + \mu q') &= \phi \circ \pi_q(\lambda p') &&= \phi(\lambda)
+\end{aligned}
 \]
+As this holds for all $\lambda, \mu$ we see that $\psi$ and $\phi$ are constant functions.
 
+Moreover, the functions $\pi_p$ are "initial" in $F$ in the sense that if $\pi_p = \psi \circ \phi$ for some $\phi \in F$ then $\phi$ is of the form $\theta \circ \pi_p$.
+We thus conclude that in defining a map $\alpha : F \to \mathbb{R}$ such that $\alpha(\psi \circ \phi) = \psi(\alpha(\phi))$ we have free choice on the values $\alpha(\pi_p)$.
+However, the maps $F \to C^\infty(\mathbb{R}, \mathbb{R})$ which come from evaluation do not have this free choice: their value on $\pi_p$ is completely determined by the values on $\pi_x$ and $\pi_y$.
 =--
+
+However, all is not lost.
+The set of functions in a Fr&#246;licher space has much more structure than simply composition by functions from $C^\infty(\mathbb{R}, \mathbb{R})$.
+
++-- {: .num_lemma #FroFunAlg}
+###### Lemma
+The set $F$ of functions in a Fr&#246;licher space is a commutative $\mathbb{R}$-algebra.
+=--
+
++-- {: .proof}
+###### Proof
+Let $(X,C,F)$ be a Fr&#246;licher space.
+Let $\phi, \psi, theta \in F$.
+Then $\phi \circ \alpha$, $\psi \circ \alpha$, and $\theta \circ \alpha$ lie in $C^\infty(\mathbb{R}, \mathbb{R})$.
+Thus as $C^\infty(\mathbb{R}, \mathbb{R})$ is a ring,
+\[
+\phi \circ \alpha + (\theta \circ \alpha) \cdot (\psi \circ \alpha) = (\phi + \theta \cdot \psi) \circ \alpha
+\]
+is in $C^\infty(\mathbb{R}, \mathbb{R})$.
+As this holds for all $\alpha \in C$, $\phi + \theta \cdot \psi \in F$.
+It is commutative because $C^\infty(\mathbb{R}, \mathbb{R})$ is commutative.
+Finally we note that there is an obvious ring homomorphism $\mathbb{R} \to F$ sending $\lambda$ to the function $x \mapsto \lambda$.
+=--
+
+This suggests that we should consider a Fr&#246;licher space not as a pair of functors $\mathcal{R}, \mathcal{R}^{op} \to Set$ but as a pair of functors $\mathcal{R} \to Set$ and $\mathcal{R}^{op} \to Alg$.
+
+There is yet more structure on $F$.
+Not only can we compose element of $F$ with elements of $C^\infty(\mathbb{R}, \mathbb{R})$ but if $\phi \in F$ is a particular element then we can compose $\phi$ with an element of $C^\infty(\im \phi, \mathbb{R})$.
+This suggests that we ought to enlarge the category $\mathcal{R}$ so that its objects are the power set $\mathcal{P}(\mathbb{R})$.
+
+(An alternative to this extension is to insist that the natural transformations be continuous with respect to a topology on $F$ compatible with the compact-open topology on $C^\infty(\mathbb{R}, \mathbb{R})$.)
+
+With these two augmentations, a constant natural transformation from $F(A) \to C^\infty(-,A)$, with $A \subseteq \mathbb{R}$, defines an algebra homomorphism $F(\mathbb{R}) \to \mathbb{R}$ with the property that $\alpha(\psi) \in \im \psi$ for all $\psi \in F(\mathbb{R})$.
+
++-- {: .num_lemma #LemPairEval}
+###### Lemma
+Such a natural transformation, $\alpha$, has the property that for any pair $\phi, \psi \in F(\mathbb{R})$ there is a point $x \in X$ such that $\alpha(\psi) = \psi(x)$ and $\alpha(\phi) = \phi(x)$.
+=--
+
++-- {: .proof}
+###### Proof
+Consider the function
+\[
+\theta = (\psi - \alpha(\psi))^2 + (\phi - \alpha(\phi))^2.
+\]
+As $\alpha$ is an algebra homomorphism, $\alpha(\theta) = 0$.
+Since $\alpha(\theta) \in \im \theta$, there is thus some $x \in X$ such that $\theta(x) = 0$.
+For this $x$ we therefore have that $\psi(x) = \alpha(\psi)$ and $\phi(x) = \alpha(\phi)$.
+=--
+
+This clearly extends to any finite family.
+Indeed, from the proof of this result we deduce that the family
+\[
+\mathcal{A} := \big\{\{x : \phi(x) = \alpha(\phi)\} : \phi \in F(\mathbb{R})\big\}
+\]
+is directed and thus defines a filter on $X$.
+
 
 +-- {: .query}
 To be continued ...
