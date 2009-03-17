@@ -4,7 +4,7 @@ Given a category $\mathcal{T}$ of "test objects", one can consider "things" whic
 
 +-- {: .num_defn #IsbellEnvelope}
 ###### Definition
-Let $\mathcal{T}$ be an essentially small category.  The _Isbell envelope_ of $\mathcal{T}$, written $E(\mathcal{T})$, is the category whose objects are triples $(P,F,c)$ where
+Let $\mathcal{T}$ be an [[small category|essentially small]] category.  The _Isbell envelope_ of $\mathcal{T}$, written $E(\mathcal{T})$, is the category whose objects are triples $(P,F,c)$ where
 
 1. $P$ is a contravariant functor $\mathcal{T} \to Set$ (a presheaf),
 2. $F$ is a covariant functor $\mathcal{T} \to Set$ (a co-presheaf),
@@ -13,7 +13,7 @@ Let $\mathcal{T}$ be an essentially small category.  The _Isbell envelope_ of $\
 and where a morphism $X \to Y$ is a pair of natural transformations $(\alpha,\beta)$ with $\alpha : P_X \to P_Y$ $\beta : F_Y \to F_X$ which satisfy the relation $c_X(-,\beta -) = c_Y(\alpha -,-)$.
 =--
 
-The requirement that $\mathcal{T}$ be essentially small implies that the collections of natural transformations form sets and thus that this is a [[category]], indeed, a [[locally small category]].
+The requirement that $\mathcal{T}$ be essentially small implies that the collections of natural transformations form sets, and thus that this is a [[locally small category]].
 
 Certain elementary properties are easy to prove.
 
