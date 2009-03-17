@@ -6,7 +6,7 @@ Giraud\'s theorem characterises Grothendieck toposes as follows:
 * a [[locally small category]] with a small [[generating set]],
 * with all finite [[limit]]s,
 * with all small [[coproduct]]s, which are [[disjoint coproduct|disjoint]], and [[pullback stability|pullback-stable]],
-* where all [[equivalence relation]]s have [[effective quotient]]s, which are also pullback-stable.
+* where all [[congruence]]s have effective [[quotient object]]s, which are also pullback-stable.
 
 These conditions are equivalent to
 
