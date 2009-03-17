@@ -26,6 +26,15 @@ $$x\darr X\darr y$$
 
 of all objects in the past of $x$ and in the future of $y$.
 
+
+_[[Tim Porter|Tim]]_: In a poset one can define a diamond as being an order convex subset possibly with extra properties: U is order convex if $x$, $z$ are in $U$ with $x \lt z$, and $y$ lies between $x$ and $z$ ($x\lt y \lt z$). 
+
+One possible interpretation of what Eric wants is that one specifies a collection of order convex subsets with inclusion on them making a directed set or possibly a lattice. (sort of needing to capture that diamonds should intersect in diamonds  (or not at all). Something like this is used by John Roberts in some of his work I seem to remember. 
+
+ Reminder ('cos I thought this had been mentioned in the caf&#233;) it may also pay to look at gr-qc/0410104 for some ideas but I never convinced myself that that was really what was needed.
+
+
+
 #References#
 
 * Marco Grandis, _Directed homotopy theory, I. The fundamental category_ ([arXiv](http://arxiv.org/abs/math.AT/0111048))
