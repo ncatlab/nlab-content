@@ -12,7 +12,7 @@ defined by the condition that there exists $k: a \to b$ such that $i = j k$. (Th
 
   * For example, in [[Top]] a monomorphism is just an injective function, whereas the strong and regular monomorphisms coincide and are the subspace embeddings.  In some contexts at least, one can argue that subspace embeddings are a more appropriate notion of "subobject" in $Top$ (for example, if one wants to exhibit it as a [[locally bounded category]]).  A similar thing happens in a [[quasitopos]].
 
-* The [[poset]] structure on the collection of subobjects internalizes into contexts more general than [[Set]]. For instance in every [[topos]] the [[subobject classifier]] $\Omega$ has the structure of an inernal poset (see there).
+* The [[partial order]] on the collection of subobjects internalizes into contexts more general than [[Set]]. For instance in every [[topos]] the [[subobject classifier]] $\Omega$ has the structure of an internal poset (see there).
 
 
 # Comparison with the notion of "subset" #
