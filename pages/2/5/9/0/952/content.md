@@ -4,3 +4,7 @@ The result is that a symmetric set is a [[presheaf]] of sets on the category [[F
 
 An analogy to keep in mind is
 : symmetric set : simplicial set :: [[groupoid]] : [[category]]
+
++--{: .query}
+[[Mike Shulman|Mike]]: I've never seen this called a "symmetric set" only a "symmetric simplicial set," which additionally has the advantage of being more descriptive.  "Symmetric set" sounds to me like it might also refer to a presheaf on the _groupoid_ of finite sets (sometimes called a "symmetric sequence").  Is there an advantage of "symmetric set" over "symmetric simplicial set?"
+=--
