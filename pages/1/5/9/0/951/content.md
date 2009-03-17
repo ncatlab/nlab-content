@@ -3,3 +3,6 @@ $\Fin\Set$ is the [[category]] of [[finite set]]s and all [[function]]s between 
 It is easy (and thus common) to make $\Fin\Set$ [[skeleton|skeletal]]; there is one [[object]] for each [[natural number]] $n$ (including $n = 0$), and a [[morphism]] from $m$ to $n$ is an $m$-tuple $(f_0, \ldots, f_{m-1})$ of numbers satisfying $0 \leq f_i \lt n$.  This amounts to identifying $n$ with the set $\{0, \ldots, n - 1\}$.  (Sometimes $\{1, \ldots, n\}$ is used instead.)
 
 Mathematics done within or about $\Fin\Set$ is [[finite mathematics]].
+
+Presheaves of sets on the skeletal version of $\Fin\Set$ are called [[symmetric set]]s. A simplicial set $X_\bullet$ becomes a symmetric set if it is equipped with additional main transposition endomorphisms $t^n_i$ of $X_n$, for $i=0,\ldots,n-1$ generating the symmetric group and sastifying certain commutation relations with the face and degeneracy maps. The simplex category embeds into $\Fin\Set$
+as a category with the same objects but with smaller number of morphisms. The category of cyclic sets introduced by Connes is laying in between. All the three are special cases of extensions of $\Delta$ by a group in a particularly nice way. Full classification of allowed "skewsimplical groups" has been given by Krasauskas and independently by Loday and Fiedorowicz.
