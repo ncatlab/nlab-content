@@ -10,6 +10,8 @@ I am not sure what name the SGA1 type fundamental group should be called. I do n
 [[David Roberts]]: This was a knock-together job, I must admit. Actually I think the SGA1 fundamental group is called the algebraic fundamental group - in the case of schemes its also called the etale fundamental group, but I personally think 'algebraic' would fit better in this example - it is changed!
 
 I'll also leave off the description of this object to its own page. Sometime I'll also get around to writing about [[Grothendieck's Galois theory]].
+
+[[Mike Shulman|Mike]]: Of course, it would be more consistent to use the same definition of profinite group here as at [[profinite group]].  As I said there, I prefer the cofiltered-system definition since it is more "basic"  and explains why you have to consider topological groups if you want to actually take the limit.  Would you object if we defined $\hat{G}$ to be the cofiltered diagram consisting of all finite quotients of $G$, and then observed that, just as always for a profinite group, we could instead take the limit as a topological group?
 =-- {: .query}
 
 More abstractly, the profinite completion can be defined as a [[profinite group]] $P$ with a homomorphism $\phi:G\to P$, such that if we are given any other profinite group $P'$ and homomorphism $\psi:G \to P'$, there is a unique homomorphism $P \to P'$ making the obvious triangle commute.
