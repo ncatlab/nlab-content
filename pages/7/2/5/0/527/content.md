@@ -14,9 +14,9 @@ This is an experiment in collaboration. I want to write an article about discret
 
 (From nCafe: <a href="http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html#c021347">Authorship</a>)
 
-_[[Urs Schreiber|Urs]] says_: I think Eric wants a [[poset]] of sorts.
+_[[Urs Schreiber|Urs]] says_: I think Eric wants a [[partial order|poset]] of sorts.
 
-It seems that a good formalization of "[[smooth Lorentzian space|smooth Lorentzian space(time)]]" is something like: a [[poset]] [[internal category|internal]] to a category of measure spaces.
+It seems that a good formalization of "[[smooth Lorentzian space|smooth Lorentzian space(time)]]" is something like: a [[partial order|poset]] [[internal category|internal]] to a category of measure spaces.
 
 There are some immediate possibilities about graph versions of this statement that come to mind. For one, a discrete "Lorentzian spacetime" should be a poset such that all causal subsets are finite set.
 
