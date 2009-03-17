@@ -8,7 +8,7 @@ One normally writes the value of the sequence $a$ at the argument $i$ as $a_i$ r
 
 # Generalisations #
 
-Infinite sequences are often used in topology, but for topology in general, one needs to generalise to [[net]]s, also called _Moore--Smith sequences_.  Here one replaces the domain $\mathbf{N}$ by any arbitrary [[directed set]].
+Infinite sequences are often used in topology, but for topology in general, one needs to generalise to [[net]]s, also called _Moore--Smith sequences_.  Here one replaces the domain $\mathbf{N}$ by any arbitrary [[direction|directed set]].
 
 Even for situations (such as metric spaces) where sequences classically suffice, the [[constructive mathematics|constructive]] definition of an infinite sequence in $X$ arguably should be a [[multi-valued function]] from $\mathbf{N}$ to $X$, that is a [[span]] $\mathbf{N} \leftarrow A \rightarrow X$ where the map $A \to \mathbf{N}$ is a [[surjection]].  (This is a special case of an alternative definition of [[net]] that uses only [[partial order|partially ordered]] directed sets.)  In some type-theoretic [[foundations]] of mathematics, you can get the same result by allowing the sequence to be an 'operation' (which is like a function but need not preserve equality).
 
