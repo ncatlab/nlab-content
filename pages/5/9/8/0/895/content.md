@@ -1,14 +1,15 @@
 #Idea
 The notion of _cofibration category_ was introduced by Baues (see references below) as a variant of the category of cofibrant objects, (for which, see [[category of fibrant objects]] and dualise). The axioms are substantially weaker than [[model category|those of  a Quillen model category]], but add one axiom to [[category of fibrant objects|those of K. S. Brown]].
 
- In the first chapter of his book *Algebraic Homotopy* (see below), Baues suggests two criteria for an axiom system:
+ In the first chapter of his book *Algebraic Homotopy* (see below), [[Baues|Hans-Joachim Baues]] suggests two criteria for an axiom system:
 
 1. _The axioms should be sufficiently strong to permit the basic constructions of homotopy theory._
 
 1. _The axioms should be as weak (and as simple) as possible, so that the constructions of homotopy theory are available in as many contexts as possible._
 
-He also introduces the notion of a [[I-category]] being a category with a natural cyclinder functor satisfying a set of good properties.
+Baues also introduces the notion of a [[I-category]] being a category with a natural cylinder functor satisfying a set of good properties.
 
+One should distinguish cofibration categories from the Waldhausen's notion of a "category with cofibrations and weak equivalences", nowdays called [[Waldhausen category]].
 
 #Definition
 
