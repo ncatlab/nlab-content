@@ -4,7 +4,7 @@ Initial objects are the [[duality|dual]] concept to [[terminal object]]s: an ini
 
 Examples include:
 
-* An initial object in a [[poset]] is a smallest element.
+* An initial object in a [[partial order|poset]] is a [[bottom]] element.
 
 * The empty set is an initial object in [[Set]].
 
