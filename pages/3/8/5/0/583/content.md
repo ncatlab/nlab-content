@@ -30,7 +30,7 @@ For purposes of this page, what we mean by a _theory_ is a _[[type theory]]_.  T
 
 * The theory will also generally contain _function symbols_ such as $f:A\to B$, each with a source and target that are types.  For example, the theory of a monoid has one type $M$, one function symbol $m:M\times M\to M$, and one function symbol $e:1\to M$.  Function symbols of source $1$ are also called _constants_.
 
-* The theory may also contain _relation symbols_ $R:A$, each equipped with a type.  For example, the theory of a [[poset]] has one type $P$ and one relation $\le:P\times P$.  The most basic relation symbol, which most theories contain, is _equality_ $=_A:A\times A$ on a type $A$.
+* The theory may also contain _relation symbols_ $R:A$, each equipped with a type.  For example, the theory of a [[partial order|poset]] has one type $P$ and one relation $\le:P\times P$.  The most basic relation symbol, which most theories contain, is _equality_ $=_A:A\times A$ on a type $A$.
 
 * Finally the theory may contain _logical axioms_ of the form $\Gamma | \varphi  \vdash \psi$.  Here $\varphi$ and $\psi$ are first-order formulas built up from terms and relation symbols using logical connectives and quantifiers such as $\top,\bot,\wedge,\vee,\Rightarrow,\neg,\forall,\exists$, and $\Gamma$ is a _[[context]]_ which declares the type of every variable occurring in $\varphi$ and $\psi$.
 
