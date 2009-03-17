@@ -2,11 +2,11 @@ The term **exact category** has several different meanings.  Perhaps this should
 
 ## Definition ##
 
-An **exact category** (in the sense of Barr) is a [[regular category]] in which every [[equivalence relation]] is a [[kernel pair]] (that is, every equivalence relation is _effective_).  Exact categories are also called **effective regular categories**.
+An **exact category** (in the sense of Barr) is a [[regular category]] in which every [[congruence]] is a [[kernel pair]] (that is, every internal [[equivalence relation]] is _effective_).  Exact categories are also called **effective regular categories**.
 
 ## Remarks ##
 
-* If $R\hookrightarrow X\times X$ is an equivalence relation which is the kernel pair of $f:X \to Y$, then if $f = m p$ is the image factorization of $f$, one can show that $p$ is a [[coequalizer]] of $R$.  Therefore, equivalence relations have [[quotient object|quotient]]s in an exact category.  However, not _every_ parallel pair of morphisms need have a coequalizer, and there are also regular categories having all coequalizers which are not exact.
+* If $R\hookrightarrow X\times X$ is a congruence which is the kernel pair of $f:X \to Y$, then if $f = m \circ p$ is the image factorization of $f$, one can show that $p$ is a [[coequalizer]] of $R$.  Therefore, congruences have [[quotient object|quotient]]s in an exact category.  However, not _every_ parallel pair of morphisms need have a coequalizer, and there are also regular categories having all coequalizers which are not exact.
 
 * See [[familial regularity and exactness]] for a generalization of exactness and its relationship to [[extensive category|extensivity]].
 
@@ -18,7 +18,7 @@ An **exact category** (in the sense of Barr) is a [[regular category]] in which 
 
 * Any [[abelian category]] is exact.
 
-* One can construct, for any regular category $C$, a "free" exact category $C_{ex/reg}$ on $C$ by adjoining formal quotients for equivalence relations.  One way to define $C_{ex/reg}$ is as the (locally discrete) [[2-category]] whose objects are equivalence relations in $C$ and whose morphisms are [[anafunctor|anafunctors]].  If $C$ is already exact, then $C_{ex/reg}$ is equivalent to $C$.
+* One can construct, for any regular category $C$, a "free" exact category $C_{ex/reg}$ on $C$ by adjoining formal quotient objects for congruences.  One way to define $C_{ex/reg}$ is as the (locally discrete) [[2-category]] whose objects are congruences in $C$ and whose morphisms are [[anafunctor|anafunctors]].  If $C$ is already exact, then $C_{ex/reg}$ is equivalent to $C$.
 
 * Similarly, one can construct the "free" exact category $C_{ex/lex}$ on any category $C$ with finite limits, or even with [[weak limit|weak finite limits]].  The exact categories of the form $C_{ex/lex}$ for a category $C$ with weak finite limits are exactly those which have [[projective object|enough (regular) projectives]]; in this case the projective objects are the retracts of objects of $C$ (Carboni-Vitale 1998).
 
