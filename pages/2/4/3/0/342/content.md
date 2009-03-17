@@ -21,14 +21,14 @@ If any two parallel $j$-morphisms are equivalent, then any $j$-morphism between 
 
 An $(n,n)$-category is simply an $n$-[[n-category|category]]. An $(n,n+1)$-category is an $(n+1)$-[[n-poset|poset]]. Note that an $\infty$-category and an $\infty$-poset are the same thing. An $(n,0)$-category is an $n$-[[n-groupoid|groupoid]].  Even though they have no special name, $(n,1)$-[[(n,1)-category|categories]] are widely studied.
 
-For low values of $n$, many of these notions coincide.  For instance, a [[0-groupoid]] is the same as a [[0-category]], namely a set.  And [[(-1)-groupoid]], [[(-1)-category]], and [[0-poset]] all mean the same thing (namely, a [[truth value]]) while [[(-2)-groupoid]], [[(-2)-category]], and [[(-1)-poset]] likewise all mean the same thing (namely, the truth value "true").
+For low values of $n$, many of these notions coincide.  For instance, a $0$-[[0-groupoid|groupoid]] is the same as a $0$-[[0-category|category]], namely a [[set]].  And $(-1)$-[[(-1)-groupoid|groupoid]], $(-1)$-[[(-1)-category|category]], and $0$-[[0-poset|poset]] all mean the same thing (namely, a [[truth value]]) while $(-2)$-[[(-2)-groupoid|groupoid]], $(-2)$-[[(-2)-category|category]], and $(-1)$-[[(-1)-poset|poset]] likewise all mean the same thing (namely, the [[point]]).
 
 # The periodic table
 
 There is a [[periodic table]] of $(n,r)$-categories:
 <table markdown="1"><tr><th>$r$&#8595;\$n$&#8594;</th><th>$-2$</th><th>$-1$</th><th>$0$</th><th>$1$</th><th>$2$</th><th>...</th></tr>
 <tr><th>$0$</th><td>trivial</td><td>[[truth value]]</td><td>[[set]]</td><td>[[groupoid]]</td><td>[[2-groupoid]]</td><td>...</td></tr>
-<tr><th>$1$</th><td>\"</td><td>\"</td><td>[[poset]]</td><td>[[category]]</td><td>[[(2,1)-category]]</td><td>...</td></tr>
+<tr><th>$1$</th><td>\"</td><td>\"</td><td>[[partial order|poset]]</td><td>[[category]]</td><td>[[(2,1)-category]]</td><td>...</td></tr>
 <tr><th>$2$</th><td>\"</td><td>\"</td><td>\"</td><td>[[2-poset]]</td><td>[[2-category]]</td><td>...</td></tr>
 <tr><th>$3$</th><td>\"</td><td>\"</td><td>\"</td><td>\"</td><td>[[3-poset]]</td><td>...</td></tr>
 <tr><th>&#8942;</th><td>\"</td><td>\"</td><td>\"</td><td>\"</td><td>\"</td><td>&#8945;</td></tr></table>
