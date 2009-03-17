@@ -18,15 +18,17 @@ This seems like quite a complicated kind of structure, but it is actually quite 
 
 The result is that the set $\pi_n(X,a)$ of equivalence classes is an abelian group for $n \geq 2$, a group for $n = 1$, and a pointed set for $n = 0$ (when the null element is the only structure).
 
+Note that $\pi_0(X,a)$ can be identified with the set of all [[path component]]s of $X$, with the component containing $a$ as the basepoint.  It is common to write simply $\pi_0(X)$ for the set of all path components without a chosen basepoint, although this is more properly called the [[fundamental infinity-groupoid|fundamental 0-groupoid]] of $X$.
+
+
 # History #
 
 In the early years of the 20th century it was known that the nonabelian fundamental group $\pi_1(X,a)$ of a space $X$ with base point $a$ was useful in geometry and complex analysis. It was also known that the abelian [[homology group]]s $H_n(X)$ existed for all $n \geq 0$ and that if $X$ is connected then $H_1(X)$ is isomorphic to the abelianisation of any $\pi_1(X,a)$. 
 
 Consequently it was hoped to generalise the fundamental group to higher dimensions, producing nonabelian groups whose abelianisations would be the homology groups.
 
-In 1932, E. &#268;ech proposed a definition of higher homotopy groups using maps of spheres, but the paper was rejected for the Zurich ICM since it was found that these groups $\pi_n(X,a)$ were abelian for $n \geq 2$, and so do not generalise the fundamental group as desired.
+In 1932, E. &#268;ech proposed a definition of higher homotopy groups using maps of spheres, but the paper was rejected for the Zurich ICM since it was found that these groups $\pi_n(X,a)$ were abelian for $n \geq 2$, and so do not generalise the fundamental group in the way that was originally desired.  Nonetheless, they have proved to be extremely important in homotopy theory, although more difficult to compute in general than homology groups.  See [[weak homotopy equivalence]].
 
-Nonetheless they have proved to be important, although more difficult to compute in general than homology groups.
 
 # Properties #
 
