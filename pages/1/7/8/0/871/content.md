@@ -1,6 +1,6 @@
-In a [[poset]] $P$, a __top__ of $P$ is an element $\top$ of $P$ such that $a \leq \top$ for every element $a$.  Such a top may not exist; if it does, then it is unique.
+In a [[partial order|poset]] $P$, a __top__ of $P$ is an element $\top$ of $P$ such that $a \leq \top$ for every element $a$.  Such a top may not exist; if it does, then it is unique.
 
-In a [[proset]], a top may be defined similarly, but it need not be unique.  (However, it is still unique up the natural [[equivalence]] in the proset.)
+In a [[preorder|proset]], a top may be defined similarly, but it need not be unique.  (However, it is still unique up the natural [[equivalence]] in the proset.)
 
 A top of $P$ can also be understood as a [[meet]] of zero elements in $P$.
 
