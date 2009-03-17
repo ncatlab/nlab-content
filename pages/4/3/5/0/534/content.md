@@ -2,7 +2,7 @@
 
 #Definition#
 
-A **smooth Lorentzian space** is "something like" a [[poset]] [[internal category|internal]] to a category of measure spaces.
+A **smooth Lorentzian space** is "something like" a [[partial order|poset]] [[internal category|internal]] to a category of measure spaces.
 
 See also [[causet]].
 
