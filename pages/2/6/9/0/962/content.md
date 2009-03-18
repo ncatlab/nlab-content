@@ -82,6 +82,7 @@ http://arxiv.org/abs/0706.1771
 
 [[David Corfield|David]]: The paper [Higher Monodromy](http://lanl.arxiv.org/abs/math/0407507) shows what the fundamental 2-groupoid classifies.
 
+[[Mike Shulman|Mike]]: Just looking at the abstract of _Higher Monodromy_, what I was saying above (for $i=2$) looks like the special case of their theory for locally constant stacks with values in the 2-category $Gpd$ of 1-types.  They don't seem to treat the topos case, though.
 
 =--
 
