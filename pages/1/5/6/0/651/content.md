@@ -1,6 +1,9 @@
+{:myproof: .proof style="margin-left:2em;"}
+{:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
+
 # Basics
 
-+-- {: .num_defn #FroelicherSpace}
++-- {: mynumdef #FroelicherSpace}
 ###### Definition
 A _Fr&#246;licher Space_ is a triple $(X,C_X,F_X)$ where
 
@@ -36,7 +39,7 @@ The [[category]] of Fr&#246;licher spaces is [[complete category|complete]], [[c
 
 Fr&#246;licher spaces are examples of [[generalized smooth space|generalised smooth spaces]].  The category of F&#246;licher spaces is also closely related to the concept of the [[Isbell envelope]] of a category.
 
-+-- {: .num_defn #RCat}
++-- {: mynumdef #RCat}
 ###### Definition
 Let $\mathcal{R}$ denote the category with one object and morphism set $C^\infty(\mathbb{R},\mathbb{R})$.
 =--
@@ -48,7 +51,7 @@ There is a close relationship between Fr&#246;licher spaces and the subcategory 
 An object of $E(\mathcal{R})$ that satisfies Isbell duality is a Fr&#246;licher space.
 =--
 
-+-- {: .proof}
++-- {: myproof}
 ###### Proof
 Let $X = (C,F)$ be a generalised $\mathcal{R}$-object satisfying Isbell duality.
 From the page about the [[Isbell envelope]], $X$ is concrete.
@@ -93,7 +96,7 @@ All Fr&#246;licher spaces satisfy half of the requirements for Isbell duality: t
 The object of $E(\mathcal{R})$ corresponding to a Fr&#246;licher space is $F$-saturated.
 =--
 
-+-- {: .proof}
++-- {: myproof}
 ###### Proof
 Let $(X,C,F)$ be a Fr&#246;licher space.
 Recall from the page about the [[Isbell envelope]] that $F$-saturated means that $F$ is precisely the set of $C^\infty(\mathbb{R}, \mathbb{R})$-homs $C \to C^\infty(\mathbb{R},\mathbb{R})$.
@@ -124,7 +127,7 @@ Now every point of $X$ defines a constant natural transformation via evaluation 
 However, we can determine conditions on when it is injective or surjective.
 Injectivity is related to a fairly simple condition (as indicated by the example earlier).
 
-+-- {: .num_defn #FroHausdorff}
++-- {: mynumdef #FroHausdorff}
 ###### Definition
 A Fr&#246;licher space is said to be _Hausdorff_ if the smooth functions separate points.
 =--
@@ -134,7 +137,7 @@ A Fr&#246;licher space is said to be _Hausdorff_ if the smooth functions separat
 A Fr&#246;licher space $(X,C,F)$ is Hausdorff if and only if the map $X \to |F|$ is injective.
 =--
 
-+-- {: .proof}
++-- {: myproof}
 ###### Proof
 The key point here is that an element of $|F|$ is completely determined by its effect on functions in $F$.
 Thus $x, y \in X$ are such that they define the same element of $|F|$ if and only if $\phi(x) = \phi(y)$ for all $\phi \in F$.
@@ -153,7 +156,7 @@ As currently stated, not even very simple Fr&#246;licher spaces satisfy the surj
 The Fr&#246;licher space defined by the usual structure on $\mathbb{R}^2$ does not satisfy the surjectivity condition.
 =--
 
-+-- {: .proof}
++-- {: myproof}
 ###### Proof
 We need to construct a map $\alpha : F \to C^\infty(\mathbb{R}, \mathhbb{R})$ such that $\alpha(\psi \circ \phi) = \psi(\alpha(\phi))$ but which does not correspond to a point in $\mathbb{R}^2$.
 
@@ -182,7 +185,7 @@ The set of functions in a Fr&#246;licher space has much more structure than simp
 The set $F$ of functions in a Fr&#246;licher space is a commutative $\mathbb{R}$-algebra.
 =--
 
-+-- {: .proof}
++-- {: myproof}
 ###### Proof
 Let $(X,C,F)$ be a Fr&#246;licher space.
 Let $\phi, \psi, theta \in F$.
@@ -212,7 +215,7 @@ With these two augmentations, a constant natural transformation from $F(A) \to C
 Such a natural transformation, $\alpha$, has the property that for any pair $\phi, \psi \in F(\mathbb{R})$ there is a point $x \in X$ such that $\alpha(\psi) = \psi(x)$ and $\alpha(\phi) = \phi(x)$.
 =--
 
-+-- {: .proof}
++-- {: myproof}
 ###### Proof
 Consider the function
 \[
