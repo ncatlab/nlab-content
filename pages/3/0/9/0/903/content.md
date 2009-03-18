@@ -13,6 +13,11 @@ Let $S^n$ be the pointed $n$-[[sphere]], that is an $n$-dimensional real sphere 
 First, the [[constant function]] that maps all of $S^n$ to $a$ is the __null element__ of $\pi_n(X,a)$.  Now, there are $n$ independent equators through the basepoint of $S^n$.  Given two maps $f, g: S^n \to (X,a)$, form their [[coproduct|copairing]] in the category of pointed spaces to get a map $S^n \vee S^n \to (X,a)$ (where $\vee$ indicates the [[wedge sum]]); then combine this with a map $S^n \to S^n \vee S^n$ that maps the $i$th equator to the basepoint and each hemisphere to one copy of the sphere.  The result is a map $S^n \to (X,a)$, called the $i$th __concatenation__ of $f$ and $g$:
 $$S^n \to_i S^n \vee S^n \to^{[f,g]} (X,a)$$
 One can check that this operation respects homotopy equivalence.
++--{.query}
+[[Tim Porter|Tim}}:  Whether the n-independent equators is the best way of doing this is debatable. I prefer to first note that the nth homotopy group is also homotopy classes of maps of an n-cube to X with the boundary mapped to the base point, and then to use concatenation in the different directions to give some compositions, which coincide etc. The advantage is that (and I wonder who I learnt this off!) cubes compose in an obvious way.  The extension to relative homotopy groups, and thus to crossed complexes is then much easier to see.
+
+When one comes to Whitehead products etc, both the sphere based and the cube based descriptions work well, but I think the cube based version has the advantage for this `simple' level. (I agree with your next statement!)
+=--
 
 This seems like quite a complicated kind of structure, but it is actually quite simple up to homotopy.  First of all, all $n$ concatenations of given maps $f$ and $g$ are homotopic, so we speak of simply a single __concatenation__ for $n \geq 1$ (and none for $n = 0$).  By the [[Eckmann-Hilton argument]], this concatenation will be commutative up to homotopy for $n \geq 2$.  In any case, it is associative and invertible up to homotopy, and the null element is an identity up to homotopy.
 
