@@ -18,8 +18,15 @@ This seems like quite a complicated kind of structure, but it is actually quite 
 
 The result is that the set $\pi_n(X,a)$ of equivalence classes is an abelian group for $n \geq 2$, a group for $n = 1$, and a pointed set for $n = 0$ (when the null element is the only structure).
 
-Note that $\pi_0(X,a)$ can be identified with the set of all [[path component]]s of $X$, with the component containing $a$ as the basepoint.  It is common to write simply $\pi_0(X)$ for the set of all path components without a chosen basepoint, although this is more properly called the [[fundamental infinity-groupoid|fundamental 0-groupoid]] of $X$.
+# Low-dimensional cases #
 
+The $0$th homotopy 'group' $\pi_0(X,a)$ can be identified with the set of all [[path component]]s of $X$, with the component containing $a$ as the basepoint.  Similarly, the [[fundamental infinity-groupoid|fundamental 0-groupoid]] $\Pi_0(X)$ is the set of all path components without a chosen basepoint.  Note that $\Pi_0(X)$ is traditionally written $\pi_0(X)$, even without a basepoint.
+
+The $1$st homotopy group $\pi_1(X,a)$ is precisely the [[fundamental group]] of $X$ at $a$.  This is the original example from which all others derived.  It was once written simply $\pi(X,a)$ with the $\pi$ standing for Poincar&#233;, who invented it.
+
++--{.query}
+At least, that\'s where I *think* that it comes from ...  ---Toby
+=--
 
 # History #
 
