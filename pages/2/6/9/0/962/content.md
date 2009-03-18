@@ -78,6 +78,9 @@ from $S^i$ into $X$!
 
   * T. Porter, Abstract Homotopy Theory, the interaction of category theory and homotopy theory , Cubo Matematica Educacional, 5, (2003), 115 &#8211; 165.
 
+*  On Grothendieck's original approach:
+
+  * A. Grothendieck, (1971), S.G.A.1 Revetements  &#233;tales et groupe fondamental, Lecture Notes in Maths. 224, Springer-Verlag. 
 
 
 
