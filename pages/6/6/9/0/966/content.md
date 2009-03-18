@@ -10,6 +10,10 @@ To obtain adjoint functor theorems for categories that are not preorders, one mu
 
 * $D$ is [[complete category|complete]] and [[locally small category|locally small]], and $G$ satisfies the [[solution set condition]].  This is Freyd's original version, sometimes called the "General Adjoint Functor Theorem."
 * $D$ is complete, locally small [[well-powered category|well-powered]], and has a small [[generating set|cogenerating set]], and $C$ is locally small.  This is sometimes called the "Special Adjoint Functor Theorem."
-* $D$ is [[total category|cototal]].
+* $D$ is [[total category|cototal]] and $C$ is locally small.
 
-In the first two cases, which work by replacing large limits by small ones, it suffices to assume that $G$ preserves small limits.  The third case works by assuming that $D$ has, while not all large limits, enough so that the theorem goes through; thus is this case $G$ must preserve large limits as well.
++--{.query}
+I copied the condition that $C$ be locally small from [[total category]].  ---Toby
+=--
+
+In the first two cases, which work by replacing large limits by small ones, it suffices to assume that $G$ preserves small limits (that it preserves all limits will follow).  The third case works by assuming that $D$ has, while not all large limits, enough so that the theorem goes through; thus is this case $G$ must be already known preserve large limits as well.
