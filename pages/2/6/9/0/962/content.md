@@ -49,8 +49,8 @@ use of paths, and other homotopies is impossible because of bad (or unknown)
 local properties.  Such spaces have been studied within [[shape theory]] and
 [[strong shape theory]], although not by using exactly Grothendieck's fundamental group,
 nor using sheaf theory. (See below for more on this connection and such
-sources as _Lisica and Mardesic_, _Edwards and
-Hastings_, _Cordier and Porter_, _Mardesic and Segal_  for more
+sources as _Lisica and Marde&#353;i&#263;_, _Edwards and
+Hastings_, _Cordier and Porter_, _Marde&#353;i&#263; and Segal_  for more
 information on Shape and Strong Shape).
 
 
@@ -97,7 +97,12 @@ http://arxiv.org/abs/0706.1771
 * Some of these references will need to be shifted to more appropriate entries perhaps, but those entries do not yet exist!
 
 [[Mike Shulman|Mike]]: I fixed 'Mardesic,' I don't know what else there is to fix.  One nice thing about HTML is that you can display accents without needing to type accented characters; just look up the unicode code point corresponding to the character and write an [HTML entity](http://www.w3schools.com/tags/ref_entities.asp).
+
+_Toby_:  To look up the numbers for SGML characters, I get best results at the [Unicode Character Names Index](http://unicode.org/charts/charindex.html).  I have my own [complete list of HTML and XML character entity references](http://toby.bartels.name/characters/) with individual pages where you can check browser compliance (originally for when you couldn\'t take even things like `\&&#8204;harr;` for granted, but even now `\&&#8204;lrm;` and `\&&#8204;thinsp;` may be lacking).
+
+Incdientally, what Mike typed are technically _SGML character entity references_; these are the numerical character references that correspond directly to Unicode.  They are harder to type since there is no mnemonic HTML (or XML) character entity reference like those at Mike\'s link; these are the named references that are no longer being added to.
 =--
+
 * The above was taken from an article: 
 
   * T. Porter, Abstract Homotopy Theory, the interaction of category theory and homotopy theory , Cubo Matematica Educacional, 5, (2003), 115--165.
