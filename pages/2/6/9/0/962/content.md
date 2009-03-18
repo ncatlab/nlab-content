@@ -15,6 +15,11 @@ covering space of $X$.)  Picking a base point in $X$ generalises to picking a
   is a base point $\{x_0\}\to X$ induces a 'fibre functor' $ Sh(X)\to
   Sh\{x_0\} \cong \mathbf{Sets}$, by pullback.)
 
++--{: .query}
+[[Mike Shulman|Mike]]: I presume that more generally any "point" of $\mathbb{E}$, meaning a [[geometric morphism]] $Set\to \mathbb{E}$, supplies a fibre functor (its inverse image)?  Of course, in general $\mathbb{E}$ might not have a point.  Are there other examples of fibre functors when $\mathbb{E}=Sh(X)$?
+=--
+
+
 If $F$ is 'pro-representable' by $P$, then $\pi_1(\mathbb{E},F)$ is defined to
 be $Aut(P)$, which is a [[profinite group]].  (Usually we will simply write
 $\pi_1(\mathbb{E})$, for this.)  Grothendieck proves there is an [[equivalence
@@ -60,11 +65,18 @@ $\pi_1(\mathbb{E}) \cong Gal(K/k)$, the Galois group of $k$.  A beautiful
 treatment of this can be found in Douady and Douady, (see below), and
 the link with locales (which is very strong) is explored in Joyal and Tierney.  It, in fact, leads to a classification theorem for
 Grothendieck toposes.  From this viewpoint, low dimensional homotopy theory is
-seen as being part of Galois theory, or _vice versa_. (Of course, the really interesting question is how to fit higher dimensional homotopy theory into a higher dimensional Galois theory, and, again, -vice versa-.  See A. Grothendieck, (1975?), _Letter to L. Breen_.  *NOT to Quillen as is sometimes claimed.*)
+seen as being part of Galois theory, or _vice versa_. (Of course, the really interesting question is how to fit higher dimensional homotopy theory into a higher dimensional Galois theory, and, again, -vice versa-.  See A. Grothendieck, (1975?), [[Pursuing Stacks|Letter to L. Breen]].  *NOT to Quillen as is sometimes claimed.*)
 
 * This underlines the fact that $\pi_1(X)$ classifies covering spaces -- but
 for $i \gt 1$, $\pi_i(X)$ does not seem to classify anything other than maps
 from $S^i$ into $X$!
+
++--{: .query}
+[[Mike Shulman|Mike]]: From a higher-categorical perspective, the reason $\pi_1(X)$ classifies covering spaces is that covering spaces are fibrations with discrete fibers, and so are classified by functors $\Pi_\infty(X)\to Set$.  But since $Set$ is a 1-category, any such functors factors through the 1-categorical reflection of $\Pi_\infty(X)$, which is the ordinary [[fundamental groupoid]] $\Pi_1(X)$.  Thus, to ask what higher homotopy groups classify, one should consider not $\pi_i(X)$ but $\Pi_i(X)$, which one might expect to classify fibrations over $X$ whose fibers are homotopy $(i-1)$-types.
+
+Does a topos have a fundamental groupoid?  A fundamental $i$-groupoid?  A fundamental $\infty$-groupoid?
+=--
+
 
 #References# 
 
@@ -73,6 +85,8 @@ from $S^i$ into $X$!
   * Can someone with diacriticals on their fonts fix 'Mardesic' and other instances, please?  I have not found out how to do the Croatian accents on my Mac!
 
   * Some of these references will need to be shifted to more appropriate entries perhaps, but those entries do not yet exist!
+
+[[Mike Shulman|Mike]]: I fixed 'Mardesic,' I don't know what else there is to fix.  One nice thing about HTML is that you can display accents without needing to type accented characters; just look up the unicode code point corresponding to the character and write an [HTML entity](http://www.w3schools.com/tags/ref_entities.asp).
 =--
 * The above was taken from an article: 
 
@@ -87,10 +101,10 @@ from $S^i$ into $X$!
 * On Shape and strong shape:
 
   * D.A. Edwards and H. M. Hastings, (1976), &#711;Cech and Steenrod homotopy theories with applications to geometric topology, Lecture Notes in Maths. 542, Springer-Verlag. 
-  * J.T. Lisica and S. Mardesic, Coherent prohomotopy and strong shape theory, Glasnik Mat. 19(39) (1984) 335-399.
+  * J.T. Lisica and S. Marde&#353;i&#263;, Coherent prohomotopy and strong shape theory, Glasnik Mat. 19(39) (1984) 335-399.
   * J.-M. Cordier and T. Porter, (1989), Shape Theory: Categorical Methods of Approximation, Mathematics and its Applications, Ellis Horwood. Reprinted Dover (2008).
-  * S. Marde&#711;si &#769;c and J. Segal, (1982) _Shape Theory_, North Holland. 
-  * S. Marde&#711;si &#769;c, _Strong Shape and Homology_, Springer monographs in mathematics, Springer-Verlag.
+  * S. Marde&#353;i&#263; and J. Segal, (1982) _Shape Theory_, North Holland. 
+  * S. Marde&#353;i&#263;, _Strong Shape and Homology_, Springer monographs in mathematics, Springer-Verlag.
 
 * On categorical Galois theory
 
