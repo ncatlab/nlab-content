@@ -75,6 +75,8 @@ from $S^i$ into $X$!
 [[Mike Shulman|Mike]]: From a higher-categorical perspective, the reason $\pi_1(X)$ classifies covering spaces is that covering spaces are fibrations with discrete fibers, and so are classified by functors $\Pi_\infty(X)\to Set$.  But since $Set$ is a 1-category, any such functors factors through the 1-categorical reflection of $\Pi_\infty(X)$, which is the ordinary [[fundamental groupoid]] $\Pi_1(X)$.  Thus, to ask what higher homotopy groups classify, one should consider not $\pi_i(X)$ but $\Pi_i(X)$, which one might expect to classify fibrations over $X$ whose fibers are homotopy $(i-1)$-types.
 
 Does a topos have a fundamental groupoid?  A fundamental $i$-groupoid?  A fundamental $\infty$-groupoid?
+
+[[Tim Porter|Tim]]: I am not an expert on the 'not enough points' case, but do know that a long time ago people generalised to a fundamental groupoid. (I think it was a preprint from Montpellier in which I saw this, but I know it was also taken up by others in (?) the 1970s.
 =--
 
 
@@ -94,7 +96,7 @@ Does a topos have a fundamental groupoid?  A fundamental $i$-groupoid?  A fundam
 
 *  On Grothendieck's original approach:
 
-   * A. Grothendieck, (1971), S.G.A.1 Revetements  &#233;tales et groupe fondamental, Lecture Notes in Maths. 224, Springer-Verlag. 
+   * A. Grothendieck, (1971), S.G.A.1 - Revetements  &#233;tales et groupe fondamental, Lecture Notes in Maths. 224, Springer-Verlag. 
 
 
 
