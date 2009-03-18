@@ -2,7 +2,7 @@ _Functorial quantum field theory_, one of the two approaches of axiomatizing [[q
 
 #Idea#
 
-Much work in quantum field theory is based on arguments using the [[path integral]]. While in the physics literature this is usually not a well defined object, it is generally assumed to satisfy a couple of properties, notably the _sewing laws_. These say, roughly, that the path integral over a domain $\Sigma$ which decomposes into subdomains $\Sigma_1$ and $\Sigma_2$ is the same as the path integral over $\Sigma_1$ composed with that over $\Sigma_2$.
+Much work in quantum field theory is based on arguments using the [[path integral]]. While in the physics literature this is usually not a well defined object, it is generally assumed to satisfy a handful of properties, notably the _sewing laws_. These say, roughly, that the path integral over a domain $\Sigma$ which decomposes into subdomains $\Sigma_1$ and $\Sigma_2$ is the same as the path integral over $\Sigma_1$ composed with that over $\Sigma_2$.
 
 ##Formalization of sewing and locality in terms of functoriality##
 
