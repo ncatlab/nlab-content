@@ -13,6 +13,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-03-18
 
+* [[Mike Shulman|Mike]]:
+
+  * Created [[quantale]], [[adjoint functor theorem]], and [[total category]].
+  * Asked some questions at [[fundamental group of a topos]].
+
 * [[Tim Porter|Tim]]: 
 
    * Created [[fundamental group of a topos]].  At present this is lifted / adapted from an article I wrote some time ago so needs some attention.  (This necessary attention includes fixing some diacriticals on some names.  HELP PLEASE ZORAN!)
