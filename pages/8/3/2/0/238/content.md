@@ -11,11 +11,17 @@ So, if you feel people's attention should be drawn to some changes you make, ple
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).
 
 ***
+# 2009-03-19
+
+Im Midwesten nichts Neues
+
 # 2009-03-18
+
+* [[Zoran Škoda]] has created [[dense subcategory]] (intentionally organized different than the entry for the entry for slight generalization, [[dense functor]]); created [[shape theory]] but needs much more work; I copied here references from [[fundamental group of a topos]] (plus to a Batanin's article) and in [[fundamental group of a topos]] I added the reference and link to Pataraia's article important for the abstract notion of fundamental groupoid in internal contexts. 
 
 * [[Urs Schreiber|Urs]]: 
 
-  * created an entry on the book [[Categories and Sheaves]]
+  * created an entry on the book [[Categories and Sheaves]] (comment you say that "sheaf condition is localization" there; well the category of sheaves is a localization of the category of presheaves, but the sheaf condition...you really meant what you say? -- Zoran)
 
   * in reaction to [[Toby Bartels|Toby]]'s discussion at [[large category]] I created entries for [[accessible category]], [[locally presentable category]] and [[sketch]]. But very incomplete.
 
