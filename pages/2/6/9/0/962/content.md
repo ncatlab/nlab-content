@@ -3,22 +3,22 @@
 (At present this is just lifted/adapted from another article, (see references below) and needs some editing and possibly correcting. T.P.)
 
 
-Let $\mathbb{E}$ be a Grothendieck topos (think of $\mathbb{E}$ as the
+Let $\mathbb{E}$ be a [[Grothendieck topos]] (think of $\mathbb{E}$ as the
 category, $Sh(X)$, of set valued sheaves on a space $X$).  Within
 $\mathbb{E}$, we can pick out a subcategory, $\mathbb{C}$, of locally finite,
 locally constant objects in $\mathbb{E}$.  (If $X$ is a space with
 $\mathbb{E}= Sh(X)$, $\mathbb{C}$ corresponds to those sheaves whose
-'\emph{espace &#233;tal&#233;}' (is a finite
+'_espace &#233;tal&#233;_' is a finite
 covering space of $X$.)  Picking a base point in $X$ generalises to picking a 
 '[[fibre functor]]' $F :\mathbb{C} \to \mathbf{Sets_{fin}}$, a functor satisfying
-  various conditions implying that it is [[pro-representable]]. (If $x_0 \in X$
+  various conditions implying that it is [[pro-representable functor|pro-representable]]. (If $x_0 \in X$
   is a base point $\{x_0\}\to X$ induces a 'fibre functor' $ Sh(X)\to
   Sh\{x_0\} \cong \mathbf{Sets}$, by pullback.)
 
 If $F$ is 'pro-representable' by $P$, then $\pi_1(\mathbb{E},F)$ is defined to
-be $Aut(P)$, which is a profinite group.  (Usually we will simply write
-$\pi_1(\mathbb{E})$, for this.)  Grothendieck proves there is an equivalence
-of categories 
+be $Aut(P)$, which is a [[profinite group]].  (Usually we will simply write
+$\pi_1(\mathbb{E})$, for this.)  Grothendieck proves there is an [[equivalence
+of categories]] 
 
 $$\mathbb{C} \simeq \pi_1(\mathbb{E})-\mathbf{Sets_{fin}},$$ 
 
@@ -26,23 +26,23 @@ the
 category of finite $\pi_1(\mathbb{E})$-sets. (This is what is called [[Grothendieck's Galois theory]].) 
 
 If $X$ is a locally nicely
-behaved space such as a CW-complex and $\mathbb{E} = Sh(X)$, then
-$\pi_1(\mathbb{E})$ is the profinite completion of $\pi_1(X)$.  This profinite 
-completion occurs only because Grothendieck considers locally finite objects.
+behaved space such as a [[CW complex]] and $\mathbb{E} = Sh(X)$, then
+$\pi_1(\mathbb{E})$ is the [[profinite completion of a group|profinite completion]] of $\pi_1(X)$.  This profinite 
+completion occurs only because Grothendieck considers locally [[finite object]]s.
 Without this restriction, a covering space $Y$ of $X$ would correspond to a
 $\pi_1(X)$-set, $Y^\prime$, but if $Y$ is a finite covering of $X$ then the
 homomorphism from $\pi_1(X)$ to the finite group of transformations of $Y$
-factors through the [[profinite completion]] of $\pi_1(X)$.  
+factors through the profinite completion of $\pi_1(X)$.  
 
  This idea of using covering spaces or their analogue in
 $\mathbb{E}$ raises several important points:
 
 * these are *homotopy theoretic results, but no paths are used*.  The argument
-involving sheaf theory, the theory of [[pro-representable]] functors, etc., is of 
+involving sheaf theory, the theory of [[pro-representable functor]]s, etc., is of 
 a purely categorical nature.  This means it is applicable to spaces where the
 use of paths, and other homotopies is impossible because of bad (or unknown)
-local properties.  Such spaces have been studied within [[Shape Theory]] and
-[[Strong Shape Theory]], although not by using exactly Grothendieck's fundamental group,
+local properties.  Such spaces have been studied within [[shape theory]] and
+[[strong shape theory]], although not by using exactly Grothendieck's fundamental group,
 nor using sheaf theory. (See below for more on this connection and such
 sources as _Lisica and Mardesic_, _Edwards and
 Hastings_, _Cordier and Porter_, Mardesic and Segal  for more
@@ -76,11 +76,11 @@ from $S^i$ into $X$!
 =--
 * The above was taken from an article: 
 
-  * T. Porter, Abstract Homotopy Theory, the interaction of category theory and homotopy theory , Cubo Matematica Educacional, 5, (2003), 115 &#8211; 165.
+  * T. Porter, Abstract Homotopy Theory, the interaction of category theory and homotopy theory , Cubo Matematica Educacional, 5, (2003), 115--165.
 
 *  On Grothendieck's original approach:
 
-  * A. Grothendieck, (1971), S.G.A.1 Revetements  &#233;tales et groupe fondamental, Lecture Notes in Maths. 224, Springer-Verlag. 
+   * A. Grothendieck, (1971), S.G.A.1 Revetements  &#233;tales et groupe fondamental, Lecture Notes in Maths. 224, Springer-Verlag. 
 
 
 
@@ -96,10 +96,10 @@ from $S^i$ into $X$!
 
   * F. Borceux and G. Janelidze, (2001), Galois Theories, Cambridge Studies in Advanced Mathematics, 72, Cambridge University Press.
 
-and for a more traditional approach:
+* and for a more traditional approach:
 
   * A. Douady and R. Douady, (1977) Alg&#233;bre et Th&#233;ories Galoisiennes, Cedic / F. Nathan. 
 
 *  For the link with locale theory
 
-  * A. Joyal and M. Tierney, (1984), An extension of the Galois theory of Grothendieck, Mem. Amer. Math. Soc. 309.
+   * A. Joyal and M. Tierney, (1984), An extension of the Galois theory of Grothendieck, Mem. Amer. Math. Soc. 309.
