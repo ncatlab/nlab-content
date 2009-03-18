@@ -232,6 +232,17 @@ Indeed, from the proof of this result we deduce that the family
 \mathcal{A} := \big\{\{x : \phi(x) = \alpha(\phi)\} : \phi \in F(\mathbb{R})\big\}
 \]
 is directed and thus defines a filter on $X$.
+If our natural transformation $\alpha$ is _not_ represented by a point on $X$ then this filter will have empty intersection.
+Now we can modify this filter slightly so that each element is a neighbourhood, not just a zero set, but still with empty intersection.
+We define
+\[
+\widehat{\mathcal{A}} := \big\{\{x : |\phi(x) - \alpha(\phi)| \le 1 : \phi \in F(\mathbb{R})\big\}
+\]
+Clearly every element of $\widehat{\mathcal{A}}$ contains one of $\mathcal{A}$.
+The intersections of $\mathcal{A}$ and $\widehat{\mathcal{A}}$ are, however, the same.
+To see this, let $x \in X$.
+As $\mathcal{A}$ has empty intersection, there must be some $\phi \in F(\mathbb{R})$ for which $\phi(x) \ne \alpha(\phi)$.
+By stretching $\phi$ if necessary, we can assume that $|\phi(x) - \alpha(\phi)| > 1$ and thus that $x \notin \bigcap \widehat{\mathcal{A}}$.
 
 
 +-- {: .query}
