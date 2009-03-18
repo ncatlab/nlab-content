@@ -42,6 +42,8 @@ in which both triangles contain a 2-simplex.  I don't think this is isomorphic t
 
 On the other hand, I do believe that the "pseudo" version of the tensor product on $\omega$-categories (has this been written down?) gets intertwined, at least up to equivalence, with the cartesian product of _stratified_ simplicial sets.  Possibly something about this could be found in Verity's work on [[weak complicial set]]s.
 
+[[Urs Schreiber|Urs]]: Right, thanks. It should be the pseudo version. Or else, I should have asked whether the $\omega$-nerve on strict $\omega$-groupoids intertwines the Brown-Gray tensor product with the cartesian product of Kan complexes. That should be true, right?
+
 =--
 
 
