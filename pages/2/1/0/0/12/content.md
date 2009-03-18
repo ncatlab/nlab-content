@@ -217,20 +217,22 @@ $$\begin{aligned}
 
 {:test2: style="border:\"solid #ce9\""}
 
-+-- 
++-- {: .query style="background:#888888"}
 Basic query box
 =--
-{: .query style="background:#888888"}
+
++-- {: test .query}
+Basic query box again
+=--
 
 +--
 Testing modifying styles: test
 =--
 {:test}
 
-+--
++-- {: style="background:#f6fff3" .proof}
 Testing modifying styles: testproof
 =--
-{:testproof}
 
 +--
 Testing modifying styles: test1
@@ -250,6 +252,10 @@ Testing modifying styles: test2
 {:response}
 
 \* $*$ $\star$ $\ast$ $*f*$ *hi* *
+
+Testing punctuation: $x^2 + y^2$.
+
+Testing punctuation: $x^2 + y^2.$
 
 ****
 
