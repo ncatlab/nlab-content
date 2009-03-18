@@ -18,7 +18,7 @@ D' &\leftarrow &A' &\hookrightarrow &B'
 }$$
 in which the vertical arrows are weak equivalences and right horizontal maps cofibrations, the induced map
 $B\cup_A D\hookrightarrow B'\cup_{A'} D'$
-is a cofibration. 
+is a weak equivalence. 
 
 The axioms imply that for any cofibration $A\hookrightarrow B$ there is a cofibration sequence $A\hookrightarrow B\to B/A$ where $B/A$ is the choice of the cokernel $B\cup_A 0$.
 
