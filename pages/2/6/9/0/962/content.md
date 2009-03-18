@@ -50,7 +50,7 @@ local properties.  Such spaces have been studied within [[shape theory]] and
 [[strong shape theory]], although not by using exactly Grothendieck's fundamental group,
 nor using sheaf theory. (See below for more on this connection and such
 sources as _Lisica and Mardesic_, _Edwards and
-Hastings_, _Cordier and Porter_, Mardesic and Segal  for more
+Hastings_, _Cordier and Porter_, _Mardesic and Segal_  for more
 information on Shape and Strong Shape).
 
 
@@ -76,7 +76,11 @@ from $S^i$ into $X$!
 
 Does a topos have a fundamental groupoid?  A fundamental $i$-groupoid?  A fundamental $\infty$-groupoid?
 
-[[Tim Porter|Tim]]: I am not an expert on the 'not enough points' case, but do know that a long time ago people generalised to a fundamental groupoid. (I think it was a preprint from Montpellier in which I saw this, but I know it was also taken up by others in (?) the 1970s.
+[[Tim Porter|Tim]]: I am not an expert on the 'not enough points' case, but do know that a long time ago people generalised to a fundamental groupoid. (I think it was a preprint from Montpellier in which I saw this, but I know it was also taken up by others in (?) the 1970s. More recently Marta Bunge and Eduardo Dubuc have published on this and look at at Eduardo's:
+
+http://arxiv.org/abs/0706.1771
+
+
 =--
 
 
@@ -84,9 +88,10 @@ Does a topos have a fundamental groupoid?  A fundamental $i$-groupoid?  A fundam
 
 +-- {: .query}
 [[Tim Porter|Tim]]: 
-  * Can someone with diacriticals on their fonts fix 'Mardesic' and other instances, please?  I have not found out how to do the Croatian accents on my Mac!
 
-  * Some of these references will need to be shifted to more appropriate entries perhaps, but those entries do not yet exist!
+* Can someone with diacriticals on their fonts fix 'Mardesic' and other instances, please?  I have not found out how to do the Croatian accents on my Mac!
+
+* Some of these references will need to be shifted to more appropriate entries perhaps, but those entries do not yet exist!
 
 [[Mike Shulman|Mike]]: I fixed 'Mardesic,' I don't know what else there is to fix.  One nice thing about HTML is that you can display accents without needing to type accented characters; just look up the unicode code point corresponding to the character and write an [HTML entity](http://www.w3schools.com/tags/ref_entities.asp).
 =--
