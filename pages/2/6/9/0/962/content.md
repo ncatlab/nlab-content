@@ -115,7 +115,7 @@ Incdientally, what Mike typed are technically _SGML character entity references_
 
 * On Shape and strong shape:
 
-  * D.A. Edwards and H. M. Hastings, (1976), &#711;Cech and Steenrod homotopy theories with applications to geometric topology, Lecture Notes in Maths. 542, Springer-Verlag. 
+  * D.A. Edwards and H. M. Hastings, (1976), &#268;ech and Steenrod homotopy theories with applications to geometric topology, Lecture Notes in Maths. 542, Springer-Verlag. 
   * J.T. Lisica and S. Marde&#353;i&#263;, Coherent prohomotopy and strong shape theory, Glasnik Mat. 19(39) (1984) 335-399.
   * J.-M. Cordier and T. Porter, (1989), Shape Theory: Categorical Methods of Approximation, Mathematics and its Applications, Ellis Horwood. Reprinted Dover (2008).
   * S. Marde&#353;i&#263; and J. Segal, (1982) _Shape Theory_, North Holland. 
