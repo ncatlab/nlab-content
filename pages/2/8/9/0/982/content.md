@@ -1,0 +1,1 @@
+A __cocyclic object__ in a category $C$ is a [[cyclic object]] in $C^{\mathrm{op}}$, or equivalently, a copresheaf on [[Connes' cyclic category]] $\Lambda$ with values in $C$.
