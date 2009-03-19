@@ -11,9 +11,20 @@ form a [[simplicial set]], $C(X,\alpha)$, whose $n$-simplices are $(n + 1)$-stri
 of open sets  from $\alpha$, i.e. $\langle U_0, \ldots, U_n\rangle$, each $U_i \in \alpha$,
 satisfying $\cap U_i \neq \emptyset$.
 
++-- {: .query}
+The word nerve of a covering has been used in late 
+1920-s for this construction, it is of course much more finite than the contemporary notion of &#268;ech groupoid.
+Historically these data were organizes in simplicial complex, rather than simplicial set. The idea has been paralelly worked out both by &#268;ech and P.S. Aleksandrov
+so one often talks about Aleksanrov-&#268;ech (co)homology. 
+One should have separate entries in nlab for &#268;ech homology
+and &#268;ech cohomology. The first is not exact, hence not
+a homology theory in the sense of Steenrod-Eilenberg axioms, however it can be corrected using coherent homotopy theory to the one which does and which satisfies the wedge axiom, and then it is the unique such theory, nowdays called strong homology and in special case it reduces to what was called Steenrod-Sitnikov homology (but which was originally constructed in a different way). -- Zoran
+=--
+
 If $\beta$ is another cover such that for each $V\in \beta$, there is a $U\in
 \alpha$ with $V\subseteq U$, then the assignment $V\to U$ in this case defines 
 a map 
+
 
 $$C(X,\alpha)\to C(X,\beta)$$
 
