@@ -13,12 +13,19 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-03-19
 
+* [[Urs Schreiber|Urs]]
+
+  * followed [[Mike Shulman|Mike]]'s remark and moved the previous content in [[stable infinity-category]] to [[stable (infinity,1)-category]], keeping just a general nonsense statement at [[stable infinity-category]]
+
+  * added a remark on this and a link at [[spectrum]]
+
+
 * [[Zoran Škoda]]: moved the earlier material from entry algebra to new entry [[associative unital algebra]], and put new material into [[algebra]]; one should have separate entry for any framework for algebras, and general entry [[algebra]] should have pointers to the major classes (like [[algebra over operad]]). 
 
 * [[Andrew Stacey|Andrew]]: Added some more to [[Froelicher space]].  I've started on a new project on this: adapting topological notions to Froelicher spaces.
 
 * [[Urs Schreiber|Urs]]: 
-
+  
   * created [[stable infinity-category]]
 
   * implemented [[Zoran Skoda|Zoran]]'s remark below by rephrasing a bit at [[Categories and Sheaves]]
