@@ -1,16 +1,22 @@
-An **algebra** is generally used concretely to refer to (equivalently) 
+Word **algebra** has many distinct but related meanings in mathematics:
 
-* a [[monoid]] [[internalization|internal to]] [[Vect]];
+* the field of mathematics concerning algebraic structures and algebraic (symbolic) manipulations 
 
-* a one-object category [[enriched category|enriched over]] ([[Vect]],$\otimes$);
+* a standard school or university curriculum on that subject
 
-* an [[algebroid]] with one object;
+* any algebraic structure ([[universal algebra]])
 
-* a vector space $V$ equipped with linear maps $p : V \otimes V \to V$ and $i : k \to V$ satisfying the associativity and unitalness conditions;
+* [[associative algebra]]
 
-* a [[ring]] [[bundle|under]] the ground field $k$.
+* [[associative unital algebra]]
 
-More abstractly, one speaks of **algebras** over any [[monad]], [[operad]], or other general way to express an algebraic theory.
+* monoid in any monoidal category
+
+* algebraic structure in some of the standard frameworks (algebras over [[operad]]s, [[monad]]s, Lawvere [[algebraic theory|algebraic theories]], representations of [[PROP]]-s etc.)
+
+* higher categorical analogues of algebras, for example [[pseudoalgebra]]s over [[pseudomonad]]s
+
+Various fields of mathematics or mathematical concepts can be manipulated in an algebraic or symbolic way, and such approaches or formalized subfields have names like [[categorical algebra]], [[homological algebra]], [[homotopical algebra]] and so on. Methods of combinatorics which involve much algebra, and manipulations with [[formal power series]] in particular, is called [[algebraic combinatorics]].
 
 #Further references#
 
