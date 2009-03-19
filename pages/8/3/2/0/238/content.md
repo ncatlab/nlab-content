@@ -15,6 +15,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
+  * created [[stable infinity-category]]
+
   * implemented [[Zoran Skoda|Zoran]]'s remark below by rephrasing a bit at [[Categories and Sheaves]]
 
   * added a bit more to [[large category]]
