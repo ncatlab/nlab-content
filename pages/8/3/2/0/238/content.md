@@ -13,6 +13,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-03-19
 
+* [[Andrew Stacey|Andrew]]: Added some more to [[Froelicher space]].  I've started on a new project on this: adapting topological notions to Froelicher spaces.
+
 * [[Urs Schreiber|Urs]]: 
 
   * created [[stable infinity-category]]
