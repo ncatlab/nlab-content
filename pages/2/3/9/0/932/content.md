@@ -7,13 +7,14 @@ A Maurer--Cartan equation for $A_\infty$-[[A-infinity-algebra|algebra]]s is usua
 
 #Maurer-Cartan and Lie theory#
 
-Sophus Lie considered groups of transformations first and discovered [[Lie algebra]]s only later (around 1874). He has shown that infinitesimally one can solve the Maurer--Cartan equations for a given set of structure constants of a finite-dimensional Lie algebra. This means that one can construct a neighborhood with either the invariant differential form, or dually the invariant vector fields whose commutator corresponds to the commutator of the Lie algebra. This amounts to integrating the Lie algebra to a local [[Lie group]]. Only much later, Elie Cartan succeeded in proving the global version of integration, that is the Cartan--Lie theorem. J-P. Serre in an influential textbook called the Cartan--Lie theorem the "[[Lie's three theorems|third Lie theorem]]", which became a rather popular term in recent years, though one should correctly call so just the theorem on local solvability of Maurer--Cartan equation.  
+Sophus Lie considered groups of transformations first and discovered [[Lie algebra]]s only later (letter to Mayer, 1874). He has shown that infinitesimally one can solve the Maurer--Cartan equations for a given set of structure constants of a finite-dimensional Lie algebra. This means that one can construct a neighborhood with either the invariant differential form, or dually the invariant vector fields whose commutator corresponds to the commutator of the Lie algebra. This amounts to integrating the Lie algebra to a [[local Lie group]]. Only much later, Elie Cartan succeeded in proving the global version of integration, that is the Cartan--Lie theorem. J-P. Serre in an influential textbook called the Cartan--Lie theorem the "[[Lie's three theorems|third Lie theorem]]", which became a rather popular term in recent years, though one should correctly call so just the theorem on local solvability of Maurer--Cartan equation.  
 
 For literature on the third Lie theorem from the point of view of Maurer--Cartan equations, compare the following references:
 * Sigurdur Helgason, Differential geometry, Lie groups, and symmetric spaces
 * N. Bourbaki, Lie algebras and lie groups, historical appendix 
-* the collected works of S. Lie.
----
-&lt;http://ncatlab.org/nlab/show/Maurer-Cartan+equation>
+* F. Engel, P. Heegaard, Sophus Lie Samlede Avhandliger (Collected works) 
 
-nLab page on [[nlab:Maurer-Cartan equation]]
+The historical article of <a href="http://en.wikipedia.org/wiki/Ludwig_Maurer">L. Maurer</a> is 
+
+* L. Maurer, &#220;ber allgemeinere Invarianten-Systeme,
+M&#252;nch. Ber. 18 (1888), 103-150.
