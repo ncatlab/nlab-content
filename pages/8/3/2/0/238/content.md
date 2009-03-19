@@ -13,6 +13,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-03-19
 
+* [[David Roberts]]:
+  * Created [[Grothendieck's Galois theory]]
+
 * [[Mike Shulman|Mike]]:
 
   * Removed the discussion about accented characters from   [[fundamental group of a topos]] and put it in the [[FAQ]].
