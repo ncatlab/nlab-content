@@ -1,6 +1,6 @@
 # Idea #
 
-Two spaces should be [[homotopy equivalence|homotopy equivalent]] if they\'re equivalent for the purposes of [[homotopy theory]].  However, the obvious definition of this concept doesn\'t always work, and _weak homotopy equivalence_ is a slightly weaker notion.  (Both of these can be considered examples of [[weak equivalence]]s.)
+There are (at least) two notions of equivalence in [[homotopy theory]].  _Weak homotopy equivalence_ is 'observational', i.e., $f: X \to Y$ is a w.h.e. if when we look at it through the observations that we can make of it using [[homotopy group]]s or even the [[fundamental infinity-groupoid]], it looks to be an equivalence.   In contrast, [[homotopy equivalence]] is more 'constructive'; $f$ is a h.e. if there exists an inverse for it (up to homotopy, of course).  Note that both of these notions are weaker than mere [[isomorphism]] of topological spaces (homeomorphism) and so can be considered examples of [[weak equivalence]]s.
 
 There are actually two related concepts here: whether two spaces are weakly homotopy equivalent and whether a map between spaces is a weak homotopy equivalence.  The former is usually defined in terms of the latter.
 
@@ -55,4 +55,8 @@ With the constructive logical side of the nLab becoming important is there some 
 
 
 On a niggly point, the homotopy group of a space is only defined if the space is non-empty so one of the statements in this entry is pedantically a bit dodgy! 
+
+_Toby_:  I would say that it has a homotopy group at every point, and this is true even if it is empty.  You can only pretend that it has a homotopy group, period, if it\'s inhabited and path-connected.
+
+Anyway, how do you like the introduction now?  You could add a more extensive History section too, if you want.
 =--
