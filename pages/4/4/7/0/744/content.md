@@ -59,6 +59,12 @@ Also including questions that should be frequently asked but aren't.  See also [
 
    One of the notable ways in which itex differs from latex is that in itex's math mode, a string of letters without spaces in between is interpreted as a single identifier.  This has the advantage that you can invent new identifiers without needing to use `\operatorname` or `\DeclareMathOperator`, but it means that when you _don't_ want a string of letters interpreted that way you need to put spaces in between.  For example, `$sin(x)$` produces $sin(x)$ which is probably what you want, but `$h=gf$` produces $h=gf$, whereas you probably wanted to write `$h=g f$` to get $h=g f$. On the other hand, you can (and, for the sake of the LaTeX output, probably should) use `$\sin(x)$`, etc.
 
+## HTML, XML, etc.
+
+1. *How do I get accented characters?*
+
+   You can use HTML/XML/SGML [character entities](http://www.w3schools.com/tags/ref_entities.asp).  If the character you want has a mnemonic HTML name, like &amp;eacute; for &eacute; you can use that.  Otherwise, you can use an _SGML character entity reference_ which is a the numerical character references that corresponds directly to Unicode.  To look up the numbers for SGML characters, try the [Unicode Character Names Index](http://unicode.org/charts/charindex.html).  Toby has his own [complete list of HTML and XML character entity references](http://toby.bartels.name/characters/) with individual pages where you can check browser compliance (originally for when you couldn\'t take even things like `\&&zwnj;harr;` for granted, but even now `\&&zwnj;lrm;` and `\&&zwnj;thinsp;` may be lacking).
+
 ## _n_-Lab Specifics
 
 1.  *Why did my page get redirected?*
