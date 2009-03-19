@@ -1,0 +1,1 @@
+An **essentially small category** is a possibly [[large category]] that is [[equivalence|equivalent]] to a [[small category]].
