@@ -6,3 +6,6 @@ __Connes' cyclic category__ $\Lambda$ is the full subcategory of $\mathrm{Cat}$ 
 
 Cyclic objects in a category $C$ are the contravariant functors $\Lambda^{\mathrm{op}}\to C$, [[cocyclic object]]s are the covariant functors $\Lambda\to C$. This standard terminology is repeating the usual confusion from simplicial categories, because $\Lambda$ itself is, via $\mathrm{id}_\Lambda$, an example of a cocyclic category; hence one should maybe say the [[category of cycles]], what is not customary for $\Lambda$.
 
++--{.query}
+We might also call it the [[cycle category]] in analogy with [[simplex category]], [[cube category]], and [[globe category]] that we\'ve already got here.  If that\'s a good system.  ---Toby
+=--
