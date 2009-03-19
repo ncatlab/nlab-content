@@ -2,6 +2,15 @@ This entry is about the book
 
 * M. Kashiwara and P. Schapira, _Categories and Sheaves_, Springer, 2000
 
+For general information on "categories and sheaves" see the entries
+
+* [[category theory]]
+
+* [[sheaf and topos theory]]
+
+or follow the links provided below.
+
+
 #Summary#
 
 The book discusses the theory of [[presheaf|presheaves]] and [[sheaf|sheaves]] with an eye towards their application in homological algebra and with an outlook on [[stack]]s.
@@ -14,11 +23,11 @@ The last part merges these two threads in a discussion of [[sheaf|sheaves]] in g
 
 A last section provides an outlook to the theory of [[stack]]s. 
 
-In fact, the organization and emphasis of the book (for instance the conception of the sheaf condition as a [[localization]]) makes it a suitable 1-categorical preparation for the [[infinity-category|infinity-categorical]] discussion of sheaves in
+In fact, the organization and emphasis of the book (for instance the conception of the passing from [[presheaf|presheaves]] to [[sheaf|sheaves]] as a [[localization]]) makes it a suitable 1-categorical preparation for the [[infinity-category|infinity-categorical]] discussion of sheaves in
 
 * J. Lurie, [[Higher Topos Theory]]
 
-and of triangulated categories (i.e. $\infty$-categories of [[stable]] objects) in 
+and of triangulated categories, i.e. [[stable infinity-category|stable infinity-categories]], in 
 
 * J. Lurie, [[Stable Infinity-Categories]]
 
