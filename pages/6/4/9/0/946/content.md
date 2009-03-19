@@ -12,4 +12,6 @@ Compare the [[Scott topology]], which is coarser.
 
 $P$ is a [[partial order|poset]] if and only if its specialisation topology is $T_0$.
 
-A function between preorders is order-preserving if and only if it is continuous with respect to the specialisation topology.  Thus, the specialization topology embeds the category of preorders fully-faithfully in the category of topological spaces.  Its essential image can be characterized as the category of [[Alexandroff space]]s (spaces where an arbitrary intersection of open sets is open).  The corresponding preorder can be recovered from an Alexandroff space as its [[specialization order]].
+A function between preorders is order-preserving if and only if it is continuous with respect to the specialisation topology.  Thus, the specialization topology embeds the category $\Pros$ of preordered sets [[full subcategory|fully-faithfully]] in the category $\Top$ of topological spaces.  Its essential image can be characterized as the category of [[Alexandroff space]]s (spaces where an arbitrary intersection of open sets is open).  The corresponding preorder can be recovered from an Alexandroff space as its [[specialization order]].
+
+If we restrict to a [[finite set|finite]] underlying set, then the categories $\Fin\Pros$ and $\Fin\Top$ of finite prosets and finite topological spaces are [[equivalence of categories|equivalent]] in this way.
