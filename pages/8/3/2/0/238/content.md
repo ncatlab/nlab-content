@@ -13,6 +13,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-03-19
 
+* [[Urs Schreiber|Urs]]: 
+
+  * implemented [[Zoran Skoda|Zoran]]'s remark below by rephrasing a bit at [[Categories and Sheaves]]
+
+  * added a bit more to [[large category]]
+
 *  [[Toby Bartels]]:  Let [[specialization topology]] lead me to [[specialization order]].
 
 * [[David Roberts]]:
