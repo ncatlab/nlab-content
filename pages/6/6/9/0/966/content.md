@@ -12,4 +12,4 @@ To obtain adjoint functor theorems for categories that are not preorders, one mu
 * $D$ is complete, locally small [[well-powered category|well-powered]], and has a small [[generating set|cogenerating set]], and $C$ is locally small.  This is sometimes called the "Special Adjoint Functor Theorem."
 * $D$ is [[total category|cototal]] and $C$ is locally small.
 
-In the first two cases, which work by replacing large limits by small ones, it suffices to assume that $G$ preserves small limits (that it preserves all limits will follow).  The third case works by assuming that $D$ has, while not all large limits, enough so that the theorem goes through; thus is this case $G$ must be already known to preserve large limits as well.
+In the first two cases, which work by replacing large limits by small ones, it suffices to assume that $G$ preserves small limits (that it preserves all limits will follow).  The third case works by assuming that $D$ has, while not all large limits, enough so that the theorem goes through; thus is this case $G$ must be already known to preserve [[large category|large]] limits as well.
