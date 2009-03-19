@@ -35,6 +35,19 @@ The [[category]] of Fr&#246;licher spaces is [[complete category|complete]], [[c
 [[Andrew Stacey|Andrew]]: I don't think that this category is _locally_ cartesian closed but the only evidence that I have for that is a side remark by Lawvere on the category mailing list.
 =--
 
+## Examples
+
+1. Any smooth manifold defines a Fr&#246;licher space with curves $C^\infty(\mathbb{R}, M)$ and functions $C^\infty(M, \mathbb{R})$.
+
+2. Taking quotients in the category of Fr&#246;licher spaces is straightforward: the smooth functions are those that pull-back to smooth functions on the original space.
+
+    As an example, consider the plane $\mathbb{R}^2$ quotiented out by the $x$-axis.
+Let us write this as $X$.
+This example is closely related to taking cones and suspensions in algebraic topology.
+The smooth functions on $X$ are simple to describe: the set is equivalent to those smooth functions $\mathbb{R}^2 \to \mathbb{R}$ which are constant on the $x$-axis.
+
+
+
 # Isbell Envelope
 
 Fr&#246;licher spaces are examples of [[generalized smooth space|generalised smooth spaces]].  The category of F&#246;licher spaces is also closely related to the concept of the [[Isbell envelope]] of a category.
@@ -370,9 +383,101 @@ Let $Y$ be the quotient of $X$ by the relation $x \sim y$ if $\phi(x) = \phi(y)$
 Then $Y$ inherits a Fr&#246;licher space structure from $X$ with respect to which it is Hausdorff.
 The natural map $X \to Y$ is a quotient mapping in the category of Fr&#246;licher spaces.
 It is split, but not canonically so.
+However, any two splittings are related by a diffeomorphism on $X$.
+
+The assignment $X \mapsto Y$ is left adjoint to the inclusion of the category of Hausdorff Fr&#246;licher spaces in the category of all Fr&#246;licher spaces.
 =--
 
 +-- {: myproof}
 ###### Proof
-_to be continued_
+The Fr&#246;licher structure on $Y$ is defined by setting $F_Y$ to be the set of functions $\phi : Y \to \mathbb{R}$ such that the composition $X \to Y \xrightarrow{\phi} \mathbb{R}$ is in $F_X$.
+The smooth curves are then defined by the saturation condition.
+It is automatic from this definition that any smooth curve in $X$ projects down to a smooth curve in $Y$ which explains why this family of functions on $Y$ is also saturated and hence we have a Fr&#246;licher space structure on $Y$.
+
+To show that $Y$ is Hausdorff, we merely observe that by slight abuse of notation, $F_X = F_Y$ so if $x,y \in X$ are such that $\phi(\overline{x}) = \phi(\overline{y})$ for all $\phi \in F_Y$ then $\phi(x) = \phi(y)$ for all $\phi \in F_X$, whence $overline{x} = \overline{y}$ in $Y$.
+
+That this is a quotient is straightforward.
+Any smooth map $g : X \to Z$ which factors through $Y$ _as a set_ must also do so as a Fr&#246;licher space.
+In particular, if $g : X \to Z$ is a smooth map with $Z$ Hausdorff then this must factor through $Y$ as a set, whence as a Fr&#246;licher space.
+This also establishes the necessary adjunction.
+
+Finally, let us look at the splitting.
+For each point in $Y$ choose a representative of the equivalence class.
+This choice defines a map on the underlying sets $Y \to X$.
+This is also smooth since the sets of functions $F_X$ and $F_Y$ are identified by the quotient mapping $X \to Y$.
+
+Given two such splittings, say $i, j : Y \to X$, define a bijection $X \to X$ which interchanges $i(y)$ and $j(y)$.
+As $i$ and $j$ are splits of the quotient mapping $X \to Y$ this is well-defined.
+It is also clearly a diffeomorphism since $F_X$ cannot detect the difference between $i$ and $j$.
+=--
+
+This shows, incidentally, that every smooth curve in the Hausdorffification of $X$ lifts to a smooth curve in $X$.
+This sort of behaviour does not _usually_ happen with quotients in the category of Fr&#246;licher spaces.
+
+The fibres of the Hausdorffification are straightforward to identify.
+
++-- {: .num_lemma #FibHaus}
+###### Lemma
+The fibres of the Hausdorffification of a Fr&#246;licher space correspond precisely to the maximal subsets which inherit an indiscrete structure from the ambient space.
+=--
+
++-- {: myproof}
+###### Proof
+Let $X$ be a Fr&#246;licher space, $Y$ its Hausdorffification.
+For $y \in Y$, let $X_y$ be the corresponding fibre.
+Then $X_y$ inherits a Fr&#246;licher space structure from its inclusion in $X$.
+The smooth curves in $X_y$ are those that are smooth when considered as curves in $X$.
+Let $\alpha : \mathbb{R} \to X_y$ be an arbitrary curve.
+Then for $\phi \in F_X$, as $\im \alpha \subseteq X_y$, $\phi \circ \alpha$ is constant.
+Hence $\alpha$ is smooth as a curve in $X$, and thus in $X_y$.
+Thus $X_y$ is indiscrete.
+
+Conversely, let $Z \subseteq X$ be a subset that inherits an indiscrete structure from $X$.
+Let $x,y \in Z$.
+Then there is a smooth curve $\alpha$ in $Z$ with $\im \alpha = \{x,y\}$.
+This is then smooth in $X$ so for all $\phi \in F_X$, $\phi(x) = \phi(y)$.
+Hence $Z$ is contained in a (unique) fibre of the quotient map $X \to Y$.
+=--
+
+Thus when we pass to the Hausdorffification we lose almost no information at all and one could certainly say that we lose no _interesting_ information.
+
+Having dealt with Hausdorff Fr&#246;licher spaces, the obvious next thing to do is to consider the other separation properties.
+Our next definition may be a little surprising at first.
+
++-- {: mynumdef #FroReg}
+###### Definition
+A Fr&#246;licher space is said to be _regular_ if the curvaceous and functional topologies agree.
+=--
+
+The point of this definition is that for the underlying topological space of a Fr&#246;licher space what one really wants to know is not whether or not it is regular but whether or not it is _smoothly_ regular.
+This is automatic for the functional topology so the only reasonable question is whether or not it happens for the curvaceous topology.
+However, a topology is smoothly regular if and only if the smooth functions generate the topology which means that the curvaceous topology is smoothly regular if and only if it agrees with the functional topology.
+Hence the definition.
+
+On another tack, it is straightforward to see what one version of compactness should be.
+
++-- {: mynumdef #FunComp}
+###### Definition
+A Fr&#246;licher space is _functionally compact_ if every smooth function has bounded image.
+=--
+
+The images are automatically compact as a smooth function with non-compact image can be converted to a smooth function with unbounded image by suitable composition.
+
++-- {: .num_lemma #LemFunComp}
+###### Lemma
+A Fr&#246;licher space is functionally compact if and only if the functional topology is compact.
+=--
+
++-- {: myproof}
+###### Proof
+One way is obvious: if the functional topology is compact then as the smooth functions are continuous, they have compact image, hence bounded.
+
+For the converse, assume that the functional topology is not compact.
+Then we can find a countable family of points $(x_n)$ with no accumulation points.
+As the functional topology is (smoothly) regular, we can find smooth functions $(\phi_n)$ such that $\phi_n(x_m) = \delta_{n m}$.
+We claim that it is possible to modify these to have disjoint support.
+This is done recursively using postcomposition by suitably chosen functions.
+Once this is done, we can define a new smooth function by $\sum n \widehat{\phi_n}$.
+This is smooth, as the components have disjoint support, and is unbounded.
+Hence the Fr&#246;licher space is not functionally compact.
 =--
