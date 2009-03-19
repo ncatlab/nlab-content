@@ -19,7 +19,7 @@ $$C(X,\alpha)\to C(X,\beta)$$
 
 dependent on the choice of $U$ for each
 $V$, but independent 'up to homotopy'.  Applying one's favourite homotopy
-functor, $F : \bf{S}\to \bf{A}$, to each $C(X,\alpha)$ and to these homotopy
+functor, $F : \mathbf{S}\to \mathbf{A}$, to each $C(X,\alpha)$ and to these homotopy
 classes of induced transition maps, yields an inverse  system of objects in
 $\mathbf{A}$, i.e.,  a
 [[pro-object]]  in $\mathbf{A}$.  
@@ -44,28 +44,28 @@ The use of modified &#268;ech methods in algebraic geometry was well
 established when Grothendieck and his collaborators in Paris started adapting
 it to work with a [[Grothendieck topology]].  Verdier in SGA4,
 introduced hypercoverings and in Artin and Mazur (SLN 100), you can find their use
-in homotopy theory.  (The work of Lubkin,(1967) , should also be
+in homotopy theory.  (The work of Lubkin (1967) should also be
 mentioned here as it contains much that is parallel to the development by
 Verdier, Artin and Mazur and is sometimes much easier to decipher for the
 non-specialist algebraic geometer.)
 
 Given that a [[Grothendieck topology]] is essentially about abstracting a notion
-of '[[covering]]', it is not surprising that 
+of '[[cover|covering]]', it is not surprising that 
 modified &#268;ech methods can be applied. Artin and Mazur 
-used Verdier's idea of a [[hypercovering]] to get, for each Grothendieck topos,
+used Verdier's idea of a [[hypercover|hypercovering]] to get, for each Grothendieck topos,
 $\mathbb{E}$, a pro-object in $Ho(\mathbf{S})$ (i.e. an inverse system of
-simplicial sets), which they call the [[étale homotopy type]] of the topos
+simplicial sets), which they call the &#233;tale [[homotopy type]] of the topos
 $\mathbb{E}$ (which for them is 'sheaves for the &#233;tale topology on a
 variety').  
 
 Applying homotopy group functors gives pro-groups $\pi_i(\mathbb{E})$ 
 such that $\pi_1(\mathbb{E})$ is essentially the same as Grothendieck's [[algebraic fundamental group]],
 $\pi_1(\mathbb{E})$.  (Here you need to know that the category of [[profinite
-groups]] in the topological sense, is equivalent to the category of [[pro-objects]] in the category of
+group]]s in the topological sense, is equivalent to the category of [[pro-object]]s in the category of
 finite groups (as explained in [[profinite group]]).  (If you remove
 'finite' the result does not hold, but you can recover it in part by
-working with ''pro-discrete localic groups'' instead of topological groups,
-i.e. take limits of finite groups within the category of '[[loale|localic]]' rather than 
+working with "pro-discrete localic groups" instead of topological groups,
+i.e. take limits of finite groups within the category of '[[locale|localic]]' rather than 
 '[[topological group|topological]]' groups, remembering that 'locales' are almost 'spaces without
 points'.
 
@@ -73,10 +73,10 @@ Grothendieck's nice $\pi_1$ has thus an interpretation as a formal limit of a &#
 type, or shape theoretic, system of $\pi_1$s of 'hypercoverings'.  
 
 Can [[shape
-theory]] (or its more powerfully structured 'strong' or ' homotopy coherent' version,
-cf. Lisica and Marde&#353;i&#263;, Edwards and Hastings, , Porter
+theory]] (or its more powerfully structured 'strong' or 'homotopy coherent' version,
+cf. Lisica and Marde&#353;i&#263;, Edwards and Hastings, Porter
 \cite{porter76,porter77,porter78}) be useful for studying &#233;tale homotopy
-type?  Not without extra work, since the Artin-Mazur-Verdier approach leads  
+type?  Not without extra work, since the Artin--Mazur--Verdier approach leads  
 one  to look at inverse systems in $proHo(\mathbf{S})$, i.e. inverse systems
 (diagrams) in a homotopy category not a homotopy category of inverse systems
 as in [[strong shape theory]].  Attempts to 'rigidify' the hypercovering approach,
@@ -91,7 +91,7 @@ What is the consensus on this here?  I have sometimes seen talks which claim to 
 One of the difficulties with this hypercovering approach is that 
 'hypercovering' is a difficult concept and to the 'non-expert' seem
 non-geometric and lacking in intuition.  Thankfully for us, there is an
-alternative approach put forward by Ken Brown (1973), (see [[BrownAHT]].
+alternative approach put forward by Ken Brown (1973), (see [[BrownAHT]]).
 
 As the Grothendieck topos $\mathbb{E}$ 'pretends to be' the category of
 $Sets$, but with a strange logic, we can 'do' simplicial set theory in
@@ -100,7 +100,7 @@ bit of this in action we can note that the object $[0]$ in $Simp(\mathbb{E})$
 will be the constant simplicial sheaf with value the ordinary $[0]$,
 ''constant'' here taking on two meanings at the same time, 
 
-(a) constant sheaf, i.e. not varying `over $X$' if $\mathbb{E}$ is thought of as $Sh(X)$, and 
+(a) constant sheaf, i.e. not varying 'over $X$' if $\mathbb{E}$ is thought of as $Sh(X)$, and 
 
 (b)
 constant simplicial object, i.e. each $K_n$ is the same and all face and
@@ -117,10 +117,10 @@ those fibrant objects $K$ in which the natural map
 $$p : K \to [0]$$
 
  is a weak 
-equivalence, we find that these $K$ are _exactly_ the [[hypercoverings]].  Global
+equivalence, we find that these $K$ are _exactly_ the [[hypercover|hypercoverings]].  Global
 sections of $p$ give a simplicial set, $\Gamma(K)$ and varying $K$ amongst the 
 hypercoverings gives a pro-simplicial set (still in $proHo(\mathbf{S})$ not in
-$Hopro(\mathbf{S})$ unfortunately) which determines the Artin-Mazur
+$Hopro(\mathbf{S})$ unfortunately) which determines the Artin--Mazur
 pro-homotopy type of $\mathbb{E}$
 
 
@@ -133,16 +133,16 @@ functor of some functor $F : \mathbf{C} \to \mathbf{A}$, say, on an object $C$,
 one takes the 'average' of the values of $F$ on objects weakly equivalent to
 $G$, i.e. one works with the functor 
 
-$$F^\prime : \mathbf{W}(C) \to \mathbf{A}$$
+$$F' : \mathbf{W}(C) \to \mathbf{A}$$
 
-(where $ \mathbf{W}(C)$ has objects, $\alpha : C \to C^\prime$, $\alpha$ a
+(where $ \mathbf{W}(C)$ has objects, $\alpha : C \to C'$, $\alpha$ a
 weak equivalence, and maps, the commuting 'triangles', and this has a 'domain' 
-functor $\delta :\mathbf{W}(C) \to \mathbf{C}$, $\delta(\alpha) = C^\prime$
-and $F^\prime$ is the composite $F\delta$). 
+functor $\delta :\mathbf{W}(C) \to \mathbf{C}$, $\delta(\alpha) = C'$
+and $F'$ is the composite $F\delta$). 
 
 This is in many cases a pro-object 
-in $\mathbf{A}$ - unfortunately standard derived functor theory interprets
+in $\mathbf{A}$ -- unfortunately standard derived functor theory interprets
 'commuting triangles' in too weak a sense and thus corresponds to shape rather 
-than strong shape theory - one thus, in some sense, arrives in $pro
+than strong shape theory -- one thus, in some sense, arrives in $pro
 Ho(\mathbf{A})$ instead of in $Ho(pro \mathbf{A})$.  This problem has been in part resolved with Grothendieck's theory of _Derivateurs_ (see the volume by Maltsiniotis.)
 
