@@ -2,7 +2,7 @@
 
 A stable [[(infinity,1)-category]], is an $(\infty,1)$-category all whose objects are stable in the sense of [[stable homotopy theory]]: they behave as if they were [[spectrum|spectra]].
 
-The [[homotopy category]] of a stable $\infty$-category is a [[triangulated category]].  This could be considered remarkable, because the definition of triangulated categories is involved and their behaviour is bad, whereas the definition of stable $\infty$-category is very simple.  Alternately, however, one can argue that the complexity and bad behavior of triangulated categories comes from trying to capture at the level of a homotopy category a type of structure that properly belongs to an $(\infty,1)$-category.
+The [[homotopy category]] of a stable $\infty$-category is a [[triangulated category]].  This could be considered remarkable, because the definition of triangulated categories is involved and their behaviour is bad, whereas the definition of stable $\infty$-category is very simple.  So the complexity and bad behavior of triangulated categories comes from trying to capture at the level of a homotopy category a type of structure that properly belongs to an $(\infty,1)$-category.
 
 The relation between triangulated categories and stable $\infty$-categories has apparently been clear to some experts, but a comprehensive discussion appeared only more recently in the first part of Jacob Lurie's PhD thesis
 
