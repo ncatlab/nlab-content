@@ -13,6 +13,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-03-19
 
+* [[Mike Shulman|Mike]]:
+
+  * Removed the discussion about accented characters from   [[fundamental group of a topos]] and put it in the [[FAQ]].
+
+  * Displayed my happiness at [[quotient object]] by removing the discussion.
+
 Im Midwesten nichts Neues
 
 # 2009-03-18
