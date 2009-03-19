@@ -13,7 +13,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-03-19
 
+*  [[Toby Bartels]]:  Let [[specialization topology]] lead me to [[specialization order]].
+
 * [[David Roberts]]:
+
   * Created [[Grothendieck's Galois theory]]
 
 * [[Mike Shulman|Mike]]:
