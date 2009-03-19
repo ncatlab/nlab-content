@@ -11,6 +11,11 @@ So, if you feel people's attention should be drawn to some changes you make, ple
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).
 
 ***
+# 2009-03-20
+
+Im Midwesten nichts Neues
+
+
 # 2009-03-19
 
 * [[Urs Schreiber|Urs]]
@@ -20,7 +25,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
   * added a remark on this and a link at [[spectrum]]
 
 
-* [[Zoran Škoda]]: moved the earlier material from entry algebra to new entry [[associative unital algebra]], and put new material into [[algebra]]; one should have separate entry for any framework for algebras, and general entry [[algebra]] should have pointers to the major classes (like [[algebra over operad]]). 
+* [[Zoran Škoda]]: moved the earlier material from entry algebra to new entry [[associative unital algebra]], and put new material into [[algebra]]; one should have separate entry for any framework for algebras, and general entry [[algebra]] should have pointers to the major classes (like [[algebra over operad]]). Thanks Toby, we continue together on that: now there is an entry [[nonassociative algebra]] and so on. I have also addressed concerns of Mike in [[Connes' cyclic category]] which now has I hope correct definitions, plus more foundational issues and relevant literature and link to just uploaded file  [[krasauskas.pdf:file]]
 
 * [[Andrew Stacey|Andrew]]: Added some more to [[Froelicher space]].  I've started on a new project on this: adapting topological notions to Froelicher spaces.
 
@@ -43,8 +48,6 @@ These comments should go in _reverse_ chronological order, so that the latest ar
   * Removed the discussion about accented characters from   [[fundamental group of a topos]] and put it in the [[FAQ]].
 
   * Displayed my happiness at [[quotient object]] by removing the discussion.
-
-Im Midwesten nichts Neues
 
 # 2009-03-18
 
