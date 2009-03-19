@@ -115,3 +115,7 @@ For $C =$ [[Top]] the $(\infty,1)$-category of topological spaces, $Sp(Top)$ is 
 Moreover, every [[derived category]] of an [[abelian category]] is the triangulated homotopy category of a stable $(\infty,1)$-category. 
 
 Hence stable homotopy theory and homological algebra are both special cases of the theory of stable $(\infty,1)$-categories.
+
+# Warning #
+
+A stable $\infty$-category should not be confused with a [[k-tuply monoidal n-category|stably monoidal]] $\infty$-category.  (The connection between the terms is that the $(\infty,1)$-category of [[k-tuply groupal n-groupoid|stably groupal]] $\infty$-groupoids is a stable $\infty$-category.)
