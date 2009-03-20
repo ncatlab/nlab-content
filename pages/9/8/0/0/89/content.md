@@ -1,25 +1,19 @@
-
-
-##Classical Morita theorem## 
+#Classical Morita theorem#
 
 Given rings $R$ and $S$, the following properties are equivalent
 
-(i)  categories of left $S$-modules and left $R$-modules are equivalent
-
-(ii) categories of right $S$-modules and right $R$-modules
-are equivalent
-
-(iii) there are bimodules ${}_R M_S$ and ${}_S N_R$ such that $\otimes_R M$ and $\otimes_S N$ form an adjoint equivalence between the
-category of right $S$- and the category of right $R$-modules
-
-(iv) ring $R$ is isomorphic to the endomorphism ring of a [[generator]] in the category of left (or right) $S$-modules
-
-(v) ring $S$ is isomorphic to the endomorphism ring of a [[generator]] in the category of left (or right) $R$-modules
+1. The categories of left $S$-modules and left $R$-modules are equivalent;
+1. The categories of right $S$-modules and right $R$-modules
+are equivalent;
+1. There are bimodules ${}_R M_S$ and ${}_S N_R$ such that $\otimes_R M$ and $\otimes_S N$ form an adjoint equivalence between the category of right $S$- and the category of right $R$-modules;
+1. The ring $R$ is isomorphic to the endomorphism ring of a [[generator]] in the category of left (or right) $S$-modules;
+1. The ring $S$ is isomorphic to the endomorphism ring of a [[generator]] in the category of left (or right) $R$-modules.
 
 #Definitions#
 
-#In algebra#
-Two rings are *Morita equivalent* if the equivalent statements in Morita theorem above are true. **Morita equivalence** is a weakly invertible 1-cell in the bicategory $\mathrm{Rng}$ of rings, bimodules and 
+##In algebra##
+
+Two rings are **Morita equivalent** if the equivalent statements in Morita theorem above are true. A **Morita equivalence** is a weakly invertible 1-cell in the bicategory $\mathrm{Rng}$ of rings, bimodules and 
 morphisms of bimodules.
 
 +--{+ .query}
@@ -31,7 +25,6 @@ By the way, in this entry below I like to avoid word context, because word "cont
 ## In homotopy theory ##
 
 In any [[homotopy theory]] framework a **Morita equivalence** between objects $C$ and $D$ is  a span 
-
 $$
   C \lt \stackrel{\simeq}{\leftarrow}
   \hat C
@@ -44,11 +37,10 @@ In particular, if the ambient [[homotopical category]] is a [[category of fibran
 
 Important fibrant objects are in particular [[infinity-groupoid]]s (for instance [[Kan complex]]es are fibrant in the standard [[model structure on simplicial sets]] and [[omega-groupoid]]s are fibrant with respect to the Brown-Golasinski [[folk model structure]]). And indeed, Morita equivalences play an important role in the theory of groupoids with extra structure:
 
-
 ## In Lie groupoid theory ##
 
 A **Morita morphism** of [[Lie groupoids]] is, even though it is not typically made explicit in the literature, precisely a (local) acyclic fibration with respect to the [[folk model structure]] on groupoids, which in turn is the same as an [[anafunctor]] of Lie groupoids. 
-A morita equivalence of Lie groupoids then is a span as above, equivalently a [[anafunctor|saturated anafunctor]].
+A Morita equivalence of Lie groupoids then is a span as above, equivalently an invertible anafunctor.
 
 Lie groupoids up to Morita equivalence are equivalent to [[differentiable stack]]s. This relation between Lie groupoids and their stacks of torsors is analogous to the relation between algebras and their categories of modules, which is probably the reason for the choice of terminology.
 
