@@ -13,10 +13,12 @@ The dual notion is [[cogenerator]].
 
 # Examples and applications
 
-The standard example of a generator in the category of $R$-modules over a ring $R$ is any free module $R^I$ and $R$ in particular. If a generator is a finitely generated [[projective object]] in the category of $R$-modules, then we say that it is a progenerator. Progenerators are important in classical Morita theory, see [[Morita equivalence]].
+The standard example of a generator in the category of $R$-modules over a ring $R$ is any free module $R^I$ and $R$ in particular. If a generator is a finitely generated [[projective object]] in the category of $R$-modules, then the traditional terminology is _progenerator_. Progenerators are important in classical Morita theory, see [[Morita equivalence]].
 
 +--{: .query}
 [[Mike Shulman|Mike]]: The term "progenerator" seems unfortunate to me; it sounds to me like a [[pro-object]] that is a generator.  Is it well-established?  I've never heard it, though I have heard "projective generator" in the context of Morita theory.
+
+[[Zoran Škoda]] It is an extremely frequent term in classical algebra and in many of the standard monographs in module theory over classical rings. I personally never use the expression and mentioned it only once in a survey. But as a link to that area of mathematics I tend to behave conservatively. Notice that the terminology subsumes finite generation. 
 =--
 
 The existence of a small generating family is one of the conditions in [[Giraud's theorem]] characterizing [[Grothendieck topos]]es.
