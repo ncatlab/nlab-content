@@ -1,12 +1,36 @@
-#Definition#
 
-## In algebra ##
 
-In its original sense, a **Morita equivalence** is a morphism between two algebras which induces an equivalence on their respective categories of modules.
+##Classical Morita theorem## 
+
+Given rings $R$ and $S$, the following properties are equivalent
+
+(i)  categories of left $S$-modules and left $R$-modules are equivalent
+
+(ii) categories of right $S$-modules and right $R$-modules
+are equivalent
+
+(iii) there are bimodules ${}_R M_S$ and ${}_S N_R$ such that $\otimes_R M$ and $\otimes_S N$ form an adjoint equivalence between the
+category of right $S$- and the category of right $R$-modules
+
+(iv) ring $R$ is isomorphic to the endomorphism ring of a [[generator]] in the category of left (or right) $S$-modules
+
+(v) ring $S$ is isomorphic to the endomorphism ring of a [[generator]] in the category of left (or right) $R$-modules
+
+#Definitions#
+
+#In algebra#
+Two rings are *Morita equivalent* if the equivalent statements in Morita theorem above are true. **Morita equivalence** is a weakly invertible 1-cell in the bicategory $\mathrm{Rng}$ of rings, bimodules and 
+morphisms of bimodules.
+
++--{+ .query}
+[[Zoran Škoda]]: Urs, it does not make sense part of what you originally wrote: the Morita equivalence is NOT a morphism of algebras which induces an equivalence. The equivalence is given by a pair of bimodules, not a morphism of algebras. So one can view them as an invertible 1-cell in a 2-category $\mathrm{Rng}$, but not as a special 1-cell in 1-category of rings as you wrote. 
+
+By the way, in this entry below I like to avoid word context, because word "context" in Morita theory has a specific meaning (Morita context). 
+=--
 
 ## In homotopy theory ##
 
-In any [[homotopy theory]] context a **Morita equivalence** between objects $C$ and $D$ is  a span 
+In any [[homotopy theory]] framework a **Morita equivalence** between objects $C$ and $D$ is  a span 
 
 $$
   C \lt \stackrel{\simeq}{\leftarrow}
@@ -23,7 +47,7 @@ Important fibrant objects are in particular [[infinity-groupoid]]s (for instance
 
 ## In Lie groupoid theory ##
 
-In the context of [[Lie groupoid]] theory a **Morita morphism** is, even though it is not generally made explicit in the literature, precisely a (local) acyclic fibration with respect to the [[folk model structure]] on groupoids, which in turn is the same as an [[anafunctor]] of Lie groupoids. 
+A **Morita morphism** of [[Lie groupoids]] is, even though it is not typically made explicit in the literature, precisely a (local) acyclic fibration with respect to the [[folk model structure]] on groupoids, which in turn is the same as an [[anafunctor]] of Lie groupoids. 
 A morita equivalence of Lie groupoids then is a span as above, equivalently a [[anafunctor|saturated anafunctor]].
 
 Lie groupoids up to Morita equivalence are equivalent to [[differentiable stack]]s. This relation between Lie groupoids and their stacks of torsors is analogous to the relation between algebras and their categories of modules, which is probably the reason for the choice of terminology.
