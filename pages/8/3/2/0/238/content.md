@@ -11,14 +11,15 @@ So, if you feel people's attention should be drawn to some changes you make, ple
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).
 
 ***
+# 2009-03-21
+
+Im Midwesten nichts Neues
+
 # 2009-03-20
 
 * [[Andrew Stacey]]: lifted the tangent/cotangent section from "Comparative Smootheology" to [[Froelicher space]].  I intend to remove this section from that paper and this seems like a good place to put and develop it.
 
-* [[Zoran Škoda]]: created [[algebraic monad]], [[generalized ring]], [[compact object]], [[noncommutative algebraic geometry]], [[spectrum (geometry)]], [[Pierce spectrum]], [[filter]] (thanks Mike for an essential typographic correction), [[generator]], [[cogenerator]] (the latter were prompted by editing [[Morita equivalence]], paragraph on classical Morita). I moved the paragraph on ultrafiters from long growing entry [[filter]] to new entry [[ultrafilter]]. (Toby -- I hope it is OK?)
-
-Im Midwesten nichts Neues
-
+* [[Zoran Škoda]]: created [[algebraic monad]], [[generalized ring]], [[compact object]], [[noncommutative algebraic geometry]], [[spectrum (geometry)]], [[Pierce spectrum]], [[filter]] (thanks Mike for an essential typographic correction), [[generator]], [[cogenerator]] (the latter were prompted by editing [[Morita equivalence]], paragraph on classical Morita). Zoran and Toby distributed the paragraph on ultrafilters from long growing entry [[filter]] partly to the new entry [[ultrafilter]]. Uploaded [[warsaw.gif:file]] with link within [[shape theory]].
 
 # 2009-03-19
 
