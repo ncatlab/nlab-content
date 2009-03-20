@@ -1,7 +1,11 @@
-A [[filter]] is an __ultrafilter__, or __maximal filter__, if it is maximal among the proper filters.  A filter $F$ in a [[Boolean algebra|Boolean lattice]] is an ultrafilter iff, given any subset $A$ of $S$, either $A$ or its complement belongs to $F$ but not both.  In constructive mathematics, an __ultrafilter__ is a filter of sets satisfying the axiom
+An __ultrafilter__ on a set $S$ is a collection $F$ of [[subset]]s of $S$ satisfying the axiom
 $$ A \in F \;\Leftrightarrow\; \forall (B \in F),\; \exists (x \in A \cap B) .$$
-This is equivalent to the previous definition, using [[excluded middle]].
+This is the only axiom necessary; from this, you can prove that $F$ is a [[filter]].
 
-In a distributive [[lattice]], every ultrafilter is prime; the converse holds in a Boolean lattice.  In this case, we can say that $F: L \to TV$ is a homomorphism of Boolean lattices.
+Using [[excluded middle]], it is equivalent to say that a filter $F$ is an ultrafilter if, given any subset $A$ of $S$, either $A$ or its complement belongs to $F$.  This version generalises to any [[Boolean algebra]].  Another way to define an ultrafilter on a Boolean algebra $L$ is as a Boolean-algebra homomorphisms from $L$ to the set $\{\bot,\top\}$ of [[truth value]]s.
 
-Given an element $x$ of $S$, the __principal ultrafilter__ (of subsets of $S$) at $x$ consists of every subset of $S$ to which $x$ belongs.  It is possible, if one denies the [[axiom of choice]], that every ultrafilter of subsets is principal.  In contrast, the [[Boolean prime ideal theorem]] states that any proper filter (in a Boolean lattice) may be extended to a maximal filter.
+Actually, we can define an __ultrafilter__ in any [[poset]] to be a proper [[filter]] that is maximal among proper filters.  In a distributive [[lattice]], every ultrafilter is prime; the converse holds in a Boolean lattice.
+
+Given an element $x$ of $S$, the __principal ultrafilter__ (on $S$) at $x$ consists of every subset of $S$ to which $x$ belongs.  In contrast, if $F$ is an ultrafilter on $S$ such that the intersection of the elements of $F$ is [[empty set|empty]], then we call $F$ a __free ultrafilter__.  It is possible, if one denies the [[axiom of choice]], that every ultrafilter of subsets is principal.  In contrast, the [[Boolean prime ideal theorem]] states that any proper filter (in a Boolean lattice) may be extended to a maximal filter.
+
+Free ultrafilters are important in [[nonstandard analysis]] and [[model theory]], where the Boolean prime ideal theorem seems to be a necessity.
