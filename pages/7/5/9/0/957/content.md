@@ -1,8 +1,10 @@
 A **direction** on a set $S$ is a [[preorder]] on $S$ in which any (finite) set of elements has a common upper bound.  A **directed set** is a set equipped with a direction.
 
+Directedness is an asymmetric condition.  Sometimes a direction as defined here is called **upward-directed**; a preorder whose [[opposite category|opposite]] is upward-directed is called **downward-directed**.
+
 # Definitions
 
-To be explicit, a **finitely directed set** (which is the default notion) is equipped with a [[preorder]] $\leq$ such that:
+To be explicit, a **finitely upward-directed set** (which is the default notion) is equipped with a [[preorder]] $\leq$ such that:
 * there exists an element (so the set is [[inhabited set|inhabited]]); and
 * given elements $x, y$, there exists an element $z$ such that $x \leq z$ and $y \leq z$.
 
@@ -13,6 +15,10 @@ More generally, if $\kappa$ is a [[cardinal number]], then a **$\kappa$-directed
 # Remarks
 
 Directions on the real line are quite interesting; there\'s a textbook that does ordinary calculus from scratch using directions, and there\'s a paper generalising interval arithmetic to arithmetic on directions.
+
++--{.query}
+Unfortunately, I cannot find these now.  ---Toby
+=--
 
 As a partially ordered set is a special kind of [[category]], so a (finitely) directed set is such a category in which all finite diagrams admit a cocone.  If the category actually has finite coproducts (equivalently, all finite colimits), then it is a [[join]]-semi[[lattice]].  (In particular, every join-semilattice is a directed set.)
 
