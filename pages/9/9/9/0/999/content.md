@@ -20,7 +20,7 @@ Compact objects in the derived categories of quasicoherent sheaves over a scheme
 
 In non-additive contexts, the above definition is not right.  For instance, with this definition a [[topological space]] would be compact iff it is [[connected space|connected]].  In non-additive situations, it is more common to say that an object $x$ is __compact__ if for every [[filtered category|filtered]] or [[direction|directed]] colimit $\colim_{d\in D} S_d$ in $C$, the canonical map
 $$
-\coprod_{d\in D} C(x,S_d)\to C(x,\coprod_{d\in D}S_d)
+\colim_{d\in D} C(x,S_d)\to C(x,\colim_{d\in D}S_d)
 $$
 is an isomorphism.  Sometimes, especially in categories like [[Top]], one may want to restrict to directed "unions," meaning directed colimits whose transition morphisms are (possibly [[strong monomorphism|strong]]) [[monomorphism]]s.
 
