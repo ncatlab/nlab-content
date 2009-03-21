@@ -28,15 +28,11 @@ Filters are often assumed to be proper by default in analysis and topology, wher
 
 If the complement of a filter is an ideal, then we say that the filter is __prime__ (and equivalently that the ideal is prime).  A prime filter is necessarily proper; a proper filter in a lattice is prime iff, whenever $A \cup B \in F$, either $A \in F$ or $B \in F$.  In other words, $F: L \to TV$ must be a homomorphism of lattices.
 
-A filter is an __[[ultrafilter]]__, or __maximal filter__, if it is maximal among the proper filters.  (See that article for alternative formulations.)  In a distributive lattice, every ultrafilter is prime; the converse holds in a [[Boolean algebra|Boolean lattice]].  In this case, we can say that $F: L \to TV$ is a homomorphism of Boolean lattices.
+A filter is an __[[ultrafilter]]__, or __maximal filter__, if it is maximal among the proper filters.  (See that article for alternative formulations and applications.)  In a distributive lattice, every ultrafilter is prime; the converse holds in a [[Boolean algebra|Boolean lattice]].  In this case, we can say that $F: L \to TV$ is a homomorphism of Boolean lattices.
 
 Given an element $x$ of $S$, the __principal ultrafilter__ (of subsets of $S$) at $x$ consists of every subset of $S$ to which $x$ belongs.  In contrast, if $F$ is an filter whose meet (of all elements) exists and is a [[bottom]] element, then we call $F$ __free__.
 
 Free ultrafilters on Boolean algebras are important in [[nonstandard analysis]] and [[model theory]].
-
-+--{.query}
-I restored some of the material on ultrafilters for the sake of completeness in this article.  In particular, principal ultrafilters are used below.  --Toby
-=--
 
 # Filterbases
 
