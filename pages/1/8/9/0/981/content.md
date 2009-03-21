@@ -39,6 +39,8 @@ We might also call it the [[cycle category]] in analogy with [[simplex category]
 (unlike in German where it is even written as one word, and in English in which it is one word but is written as two), or sometimes impossible, hence one needs to convert the modifier back into an adjective when translating, what one does not need with saxon genitive. But I am ambivalent to that issue in other cases, but cycle category sounds too similar to cyclic category (for simplicial there is no problem as it sounds very different from simplex)...
 =--
 
+Blog [discussion](http://golem.ph.utexas.edu/category/2007/06/the_curious_incident_of_the_do.html) 
+
 Literature:
 
 * J-L. Loday, Cyclic homology, Grundleheren Math.Wiss. 301, Springer 2nd ed.
