@@ -17,9 +17,6 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
    * I added a link to p-adic solenoid in [[shape theory]] as that example gives insights on the links between this area and dynamical systems.
 
-
-Im Midwesten nichts Neues
-
 # 2009-03-20
 
 * [[Andrew Stacey]]: lifted the tangent/cotangent section from "Comparative Smootheology" to [[Froelicher space]].  I intend to remove this section from that paper and this seems like a good place to put and develop it.
