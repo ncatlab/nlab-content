@@ -13,6 +13,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-03-21
 
+* [[Tim Porter|Tim]]: 
+
+   * I added a link to p-adic solenoid in [[shape theory]] as that example gives insights on the links between this area and dynamical systems.
+
+
 Im Midwesten nichts Neues
 
 # 2009-03-20
