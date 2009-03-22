@@ -2,6 +2,10 @@ An __ultrafilter__ on a set $S$ is a collection $F$ of [[subset]]s of $S$ satisf
 $$ A \in F \;\Leftrightarrow\; \forall (B \in F),\; \exists (x \in A \cap B) .$$
 This is the only axiom necessary; from this, you can prove that $F$ is a [[filter]].
 
++--{.query}
+No, I guess that you need to state closure under binary meets too.  (Counterexample:  $S$ is $\{a,b,c\}$, $F$ consists of the pairs and their supersets.)  Alternatively, generalise from $B$ to $B_1, \ldots, B_n$; which is better?  ---Toby
+=--
+
 Using [[excluded middle]], it is equivalent to say that a filter $F$ is an ultrafilter if, given any subset $A$ of $S$, either $A$ or its complement belongs to $F$.  This version generalises to any [[Boolean algebra]].  Another way to define an ultrafilter on a Boolean algebra $L$ is as a Boolean-algebra homomorphisms from $L$ to the set $\{\bot,\top\}$ of [[truth value]]s.
 
 Actually, we can define an __ultrafilter__ in any [[poset]] to be a proper [[filter]] that is maximal among proper filters.  In a distributive [[lattice]], every ultrafilter is prime; the converse holds in a Boolean lattice.
