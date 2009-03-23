@@ -2,7 +2,6 @@
 
 $L_\infty$-algebras are a [[vertical categorification]] of Lie algebras: in an $L_\infty$-algebra the Jacobi identity is allowed to hold only up to higher coherent homotopy. 
 
-
 #Definition#
 
 An **$L_\infty$-algebra** is 
