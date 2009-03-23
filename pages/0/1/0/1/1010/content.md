@@ -34,6 +34,10 @@ Certainly the examples that we\'re interested in have these properties, but ofte
 [[Urs Schreiber|Urs]]: ??
 
 _Toby_: Have I handled these question marks, Urs?
+
+ 
+_Urs_: Yes, thanks a lot. Also for your other modifications. Very helpful. Maybe one more question: Kashiwara-Shapira demand just $(u \in U) \Rightarrow (\{u \} \in U)$. The above however is taken from Wikipedia, 
+$(u, v  \in U) \Rightarrow (\{u, v\} \in U)$. What's the point of that, given 4?
 =--
 
 Given a universe $U$, an element of $U$ is called a **$U$-small set**, while a subset of $U$ is called **$U$-large**.  Technically, every $U$-small set is $U$-large (by requirement 1), but often one uses 'large' to mean 'large but not small'.  However, note that there are many sets (such as the power set of $U$) that are still *too* large to be 'large'.
