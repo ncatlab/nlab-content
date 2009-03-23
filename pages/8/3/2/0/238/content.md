@@ -14,6 +14,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-03-22
 
+* [[Urs Schreiber|Urs]]: created [[Grothendieck universe]] -- but have questions
+
+
+# 2009-03-22
+
 *  [[Toby Bartels]]:  I added a section on morphisms between [[context]]s (the substitutions, or interpretations), including (as an example) a complete description of the category of contexts of the theory of a group.  There is an exercise (to describe that category in group-theoretic terms) whose formatting all authors might want to look at.
 
 # 2009-03-21
