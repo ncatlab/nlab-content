@@ -18,7 +18,7 @@ In the case of vector spaces this means that we have diagonal lifts in squares s
 such that $g\circ u_1= u_0\circ f$ and $u_0=g\circ\phi$ while one does *not* require $\phi\circ f=u_1$.
 
 There are a number of remarkable functors relating [[internalization|internal]] algebras in LP, [[Lie algebra]]s in LP etc., to or from some other categories of algebras. For example the categories of left [[Leibniz algebra]]s and of right Leibniz algebras embed as full subcategories into the category of internal Lie algebras in LP. This embedding has an [[adjunction|adjoint]].
-Notice that because of truncation, being a Lie algebra in LP is a bit less than a (strict) $2$-[[Lie n-algebra|Lie algebra]] (a requirement in degree $2$ is dropped). 
+Notice that because of truncation, being a Lie algebra in LP is a bit less than a (strict) $2$-[[n-Lie algebra|Lie algebra]] (a requirement in degree $2$ is dropped). 
 
 See J-L. Loday, T. Pirashvili, The tensor category of linear maps, Georg. Math. J. vol. 5, n.3 (1998) 263--276.
 
