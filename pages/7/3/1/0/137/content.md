@@ -1,4 +1,14 @@
-An **epimorphism** (in a given category) is any morphism that every contravariant [[hom-functor]] sends to an [[injection]]. In more elementary terms, $f: X \to Y$ is an epimorphism if, given any $g, h: Y \to Z$, $g = h$ if $f; g = f; h$:
+An **epimorphism** (in a given [[category]] $C$) is any [[morphism]] 
+$f : X \to Y$ in $C$
+that every contravariant [[hom-functor]] $Hom(-,Z)$ sends to an [[injection]]
+$$
+  \forall Z \in C : \;
+  Hom(Y,Z) \stackrel{f^*}{\hookrightarrow} 
+  Hom(X,Z)
+  \,.
+$$
+
+In more elementary terms, $f: X \to Y$ is an epimorphism if, given any $g, h: Y \to Z$, $g = h$ if $f; g = f; h$:
 $$\array{
   &              & Y \\
   & \nearrow_{f} &   & \searrow^{g} \\
