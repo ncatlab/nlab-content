@@ -14,6 +14,8 @@
 
     * [[BV theory|BV Theory]]
 
+    * [[AKSZ theory]]
+
 * [[string theory|String Theory]]
 
   * [[brane|Branes]]
