@@ -38,7 +38,61 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
 * [[foundations]]
 
+  * [[Grothendieck universe]]
+
 * [[category]]
+
+  * [[object]]
+  
+  * [[morphism]]
+
+    * [[identity]]
+
+    * [[isomorphism]]
+
+    * [[endomorphism]]
+
+    * [[automorphism]]
+
+    * [[epimorphism]]
+  
+      * [[section]]
+
+    * [[monomorphism]]
+
+  * [[small category]]
+  
+  * [[locally small category]]
+
+  * [[finite category]]
+
+  * [[opposite category]]
+
+  * [[subcategory]]
+
+  * general examples
+
+    * [[discrete category]]
+
+    * [[monoid]]
+
+    * [[groupoid]]
+
+    * [[group]]
+
+    * [[poset]]
+
+  * concrete examples
+
+    * classical examples: sets with [[stuff, structure, property|extra structure]]    
+
+      * [[Set]]
+
+      * [[Top]]
+
+      * [[Vect]]
+
+    * [[fundamental groupoid]]
 
 * [[functor]]
 
@@ -47,7 +101,6 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 * [[Yoneda lemma]]
 
 * [[adjoint functor]]
-
 
 
 #2 Limits#
