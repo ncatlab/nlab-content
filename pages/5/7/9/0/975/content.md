@@ -43,22 +43,28 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 * [[category]]
 
   * [[object]]
+
+    * [[initial object]]
+
+    * [[terminal object]]
+
+    * [[zero object]]
   
   * [[morphism]]
 
     * [[identity]]
+
+    * [[epimorphism]]
+  
+    * [[monomorphism]]
+
+    * [[inverse]]
 
     * [[isomorphism]]
 
     * [[endomorphism]]
 
     * [[automorphism]]
-
-    * [[epimorphism]]
-  
-      * [[section]]
-
-    * [[monomorphism]]
 
   * [[small category]]
   
@@ -82,6 +88,8 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
     * [[poset]]
 
+    * [[arrow category]]
+
   * concrete examples
 
     * classical examples: sets with [[stuff, structure, property|extra structure]]    
@@ -92,9 +100,23 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
       * [[Vect]]
 
+      * [[simplex category]]
+
+    * [[point]]
+
+    * [[globe]]
+
     * [[fundamental groupoid]]
 
 * [[functor]]
+
+  * [[essentially surjective functor]]
+
+  * [[full functor]]
+
+  * [[faithful functor]]
+
+  * [[contravariant functor]]
 
 * [[presheaf]]
 
