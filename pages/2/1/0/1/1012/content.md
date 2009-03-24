@@ -2,11 +2,11 @@ An **inverse** of a [[morphism]] $f : X \to Y$ in a [[category]] is another morp
 $$
   f \circ f^{-1} : Y \to X \to Y 
 $$
-equls the [[identity]] on $Y$ and
+equals the [[identity]] on $Y$ and
 $$
   f^{-1} \circ f : X \to Y \to X 
 $$
-equls the [[identity]] on $X$.
+equals the [[identity]] on $X$.
 
 #Remarks#
 
