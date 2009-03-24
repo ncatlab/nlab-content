@@ -1,4 +1,4 @@
-The **Elementary Theory of the Category of Sets**, ETCS for short, is a formulation of set-theoretical [[foundations]] in a [[category theory|category-theoretic]] spirit. ETCS was proposed by [[Bill Lawvere]], who published an undergraduate set-theory textbook using it:
+The **Elementary Theory of the Category of Sets**, ETCS for short, is a formulation of [[set theory|set-theoretic]] [[foundations]] in a [[category theory|category-theoretic]] spirit. ETCS was proposed by [[Bill Lawvere]], who published an undergraduate set-theory textbook using it:
 
 * F. William Lawvere, R. Rosebrugh, [_Sets for mathematics_](http://books.google.de/books?id=h3_7aZz9ZMoC&pg=PP1&dq=sets+for+mathematics)
 
