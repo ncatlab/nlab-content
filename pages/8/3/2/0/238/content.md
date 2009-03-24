@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-03-24
+
+*  [[Toby Bartels]]:  Some more foundational material, including [[set theory]], [[pure set]], and [[point]] (which is a bit purple).  Note that Urs also started [[stuff, structure, property]].
+
 # 2009-03-23
 
 * [[Urs Schreiber|Urs]]: created [[Grothendieck universe]] -- but have questions. Mentioned Grothendieck universes at [[small category]] and [[locally small category]].
