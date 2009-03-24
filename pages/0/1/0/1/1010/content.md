@@ -28,7 +28,7 @@ Some authors (for instance [[Categories and Sheaves|Kashiwara-Shapira]]) add
 * $\emptyset \in U$;
 * $\mathbb{N} \in U$.
 
-Certainly the examples that we\'re interested in have these properties, but often it\'s nice to leave them out, so that $\emptyset$ and $\mathbb{N}$ themselves become examples of Grothendieck universes.  ($\emtpyset$ is arguable, but seeing $\mathbb{N}$ as a universe shows how the axiom of infinity is but the first in a series of large-cardinal axioms.)
+Certainly the examples that we\'re interested in have these properties, but often it\'s nice to leave them out, so that $\emptyset$ and $\mathbb{N}$ themselves become examples of Grothendieck universes.  ($\emptyset$ is arguable, but seeing $\mathbb{N}$ as a universe shows how the axiom of infinity is but the first in a series of large-cardinal axioms.)
 
 +-- {: .query}
 [[Urs Schreiber|Urs]]: ??
@@ -68,19 +68,19 @@ But a nice way of thinking of Grothendieck universes is as an internal topos obj
 
 #Applications#
 
-Let $U\Set$ be the [[category]] of $U$-small sets, a [[full subcategory]] of [[Set]].
+Let $U Set$ be the [[category]] of $U$-small sets, a [[full subcategory]] of [[Set]].
 
-A category whose set of morphisms is $U$-small may be called a $U$-[[small category]]; it can also be thought of as an [[internal category]] in $U\Set$.
+A category whose set of morphisms is $U$-small may be called a $U$-[[small category]]; it can also be thought of as an [[internal category]] in $U Set$.
 
-A category whose [[hom-set]]s are all $U$-small may be called [[locally small category|locally]] $U$-small; it can also be thought of as an [[enriched category]] over $U\Set$.  Every $U$-small category is locally $U$-small.
+A category whose [[hom-set]]s are all $U$-small may be called [[locally small category|locally]] $U$-small; it can also be thought of as an [[enriched category]] over $U Set$.  Every $U$-small category is locally $U$-small.
 
 A category whose set of morphisms is $U$-large may be called a $U$-[[large category]]; normally, this term is used only when the category is not also $U$-small.  Typically, $U$-large categories are locally $U$-small and vice versa, but exceptions are possible.
 
-Note that $U\Set$ itself is $U$-large and locally $U$-small.
+Note that $U Set$ itself is $U$-large and locally $U$-small.
 
 ##Presheaf categories##
 
-Let $C$ be a $U$-small category.  Then the category of $U$-[[presheaf|presheaves]] on $C$ (the [[functor category]] $[C^{op}, U\Set]$) is also $U$-large and locally $U$-small, but not $U$-small unless $C$ is empty.
+Let $C$ be a $U$-small category.  Then the category of $U$-[[presheaf|presheaves]] on $C$ (the [[functor category]] $[C^{op}, U Set]$) is also $U$-large and locally $U$-small, but not $U$-small unless $C$ is empty.  ($U Set$ itself is the special case of this where $C$ is the [[point]].)
 
 Now let $C$ be a $U$-large category (and not small).  Then the category of $U$-presheaves on $C$ is not even locally $U$-small, nor is it even $U$-large (it is 'too large to be large').  However, it is locally $U$-large.  Also, it is quite possible, if $C$ is a $U$-[[large site]], that the category of $U$-[[sheaf|sheaves]] on $C$ is $U$-large and locally $U$-small.
 
