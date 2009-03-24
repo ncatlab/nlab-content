@@ -1,6 +1,6 @@
 #Definition#
 
-A **section** of a [[morphism]] $f : A \to B$ is a **right-[[inverse]]** a [[morphism]] $\sigma : B \to A$ such that
+A **section** of a [[morphism]] $f : A \to B$ is a **right-[[inverse]]**: a [[morphism]] $\sigma : B \to A$ such that
 $$
   f \circ g : B \stackrel{\sigma}{\to} A \stackrel{f}{\to} B
 $$
