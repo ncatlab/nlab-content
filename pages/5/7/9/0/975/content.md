@@ -112,19 +112,37 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
 * [[functor]]
 
-  * [[essentially surjective functor]]
+  * [[stuff, structure, property]]
 
-  * [[full functor]]
+    * [[essentially surjective functor]]
 
-  * [[faithful functor]]
+    * [[full functor]]
+
+    * [[faithful functor]]
+
+    * [[subcategory]]
+
+  * [[natural transformation]]
+
+    * [[functor category]]
+
+    * [[skeleton]]
+
+    * [[equivalence|equivalence of categories]]
 
   * [[contravariant functor]]
 
 * [[presheaf]]
 
-* [[Yoneda lemma]]
+  * [[representable functor]]
 
-* [[adjoint functor]]
+  * [[Yoneda lemma]]
+
+  * [[Yondeda embedding]]
+
+  * [[adjoint functor]]
+
+  * [[adjunction]]
 
 
 #2 Limits#
