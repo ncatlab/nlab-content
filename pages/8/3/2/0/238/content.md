@@ -12,11 +12,17 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-03-25
+
+* [[Urs Schreiber|Urs]]
+
+  * expanded a bit more at [[stuff, structure, property]]
+
 # 2009-03-24
 
 * [[Urs Schreiber|Urs]] 
 
-  * have more stupid questions (for [[Toby Bartels|Toby]], probably) at [[Grothendieck universe]]
+  * have more stupid questions (for [[Toby Bartels|Toby]], probably) at [[Grothendieck universe]] and incorporated more of Toby's replies
 
 *  [[Toby Bartels]]:
    *  Gave a structural definition at [[Grothendieck universe]], but somebody should check it (Mike, this means you).
