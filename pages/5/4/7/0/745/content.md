@@ -1,6 +1,6 @@
 #Idea#
 
-The comma category of two functors $f : C \to E$ and $g : D \to E$ is like the an [[arrow category]] of $E$ where all arrows are required to start in the image of $g$ and end in the image of $g$.
+The comma category of two functors $f : C \to E$ and $g : D \to E$ is like an [[arrow category]] of $E$ where all arrows have a [[source]] in the image of $f$ and a [[target]] in the image of $g$ (and the morphisms between arrows keep track of how these sources and targets are in these images).
 
 
 # Definition #
