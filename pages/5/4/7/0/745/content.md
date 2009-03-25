@@ -1,9 +1,62 @@
+#Idea#
+
+The comma category of two functors $f : C \to E$ and $g : D \to E$ is like the an [[arrow category]] of $E$ where all arrows are required to start in the image of $g$ and end in the image of $g$.
+
+
 # Definition #
 
 If $f:C\to E$ and $g:D\to E$ are [[functor]]s, their **comma category** is the category $(f/g)$ (also written $(f\downarrow g)$ or $(f,g)$) whose
 
 * [[object]]s are triples $(c,d,\alpha)$ where $c\in C$, $d\in D$, and $\alpha:f(c)\to g(d)$ is a morphism in $E$, and whose
+
 * [[morphism]]s from $(c_1,d_1,\alpha_1)$ to $(c_2,d_2,\alpha_2)$ are pairs $(\beta,\gamma)$, where $\beta:c_1\to c_2$ and $\gamma:d_1\to d_2$ are morphisms in $C$ and $D$, respectively, such that $\alpha_2 . f(\beta) = g(\gamma) . \alpha_1$.
+
+$$
+  \array{
+    f(c_1)
+    &\stackrel{f(\beta)}{\to}&
+    f(c_2)
+    \\
+    \downarrow^{\alpha_1}
+    &&
+    \downarrow^{\alpha_2}
+    \\
+    f(d_1)
+    &\stackrel{g(\gamma)}{\to}&
+    f(d_2)    
+    \\
+    \\
+    (c_1,d_1, \alpha_1)
+    &\stackrel{(\beta,\gamma)}{\to}&
+    (c_2,d_2, \alpha_2)
+  }
+$$
+
+## Definition in terms of pullbacks ##
+
+Let $I = \{a \to b\}$ be the (directed) [[interval object|interval category]] and $E^I = Funct(I,E)$ the [[functor category]]. 
+
+The comma category is the [[pullback]]
+
+$$
+  \array{
+    (f,g) 
+    &\to&
+    E^I
+    \\
+    \downarrow && \downarrow^{d_0 \times d_1}
+    \\
+    C \times D
+    &\stackrel{f \times g}{\to}&
+    E \times E
+  }
+$$
+
+(in the 1-category of categories).
+
+Compare this with the construction at [[generalized universal bundle]] and with the definition of [[loop space object]]. 
+
+In terms of the imagery of loop spaces objects, the comma category is the category of [[interval object|directed paths]] in $E$ which start in the image of $f$ and end in the image of $g$.
 
 
 # Examples #
