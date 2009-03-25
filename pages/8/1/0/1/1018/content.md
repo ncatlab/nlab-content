@@ -10,3 +10,5 @@ $$
   [C^{op}, D] \simeq [C, D^{op}]^{op}
   \,.
 $$
+
+This matters when discussing a [[natural transformation]] from one contravariant functor to another.
