@@ -2,7 +2,7 @@
 
 An **epimorphism** in a [[category]] $C$ is a [[morphism]] 
 $f : X \to Y$ 
-such that it is sent by every contravariant [[hom-functor]] $Hom(-,Z)$ sends to an [[injection]]
+such that every contravariant [[hom-functor]] $Hom(-,Z)$ sends it to an [[injection]]
 $$
   \forall Z \in C : \;
   Hom(Y,Z) \stackrel{f^*}{\hookrightarrow} 
