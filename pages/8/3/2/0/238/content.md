@@ -16,6 +16,16 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * expanded a bit at [[natural transformation]]
+
+  * added simple remarks to [[contravariant functor]]
+
+  * added the illustrative diagram to [[over category]] and added a remark on over categories to [[subobject]];
+
+  * added an illustrative diagram to [[comma category]] and added a section there on how a comma category is a pullback;
+
+  * added a little bit of discussion that every presheaf is a colimit of representables to [[presheaf]];
+
   * expanded a bit more at [[stuff, structure, property]]
 
 # 2009-03-24
