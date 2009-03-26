@@ -18,4 +18,4 @@ Some examples of terminal objects in notable categories follow:
 
 ## In $(\infty,1)$-categories ##
 
-A **terminal object** in an [[(infinity,1)-category]] is an object $pt$ such that for any other object $c$ the $(\infty,0)$-groupoid $Hom(c,pt)$ is [[contractible]].
+A **terminal object** in an [[(infinity,1)-category]] is an object $pt$ such that for any other object $c$ the $(\infty,0)$-groupoid $Hom(c,pt)$ is [[contractible space|contractible]].
