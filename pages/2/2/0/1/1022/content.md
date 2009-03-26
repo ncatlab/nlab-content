@@ -1,0 +1,1 @@
+Another term for [[limit]], to be distinguished from [[inductive limit]], which is another term for [[colimit]].
