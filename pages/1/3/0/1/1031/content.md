@@ -4,7 +4,7 @@
 
 In a [[category]] with [[zero object]] [[generalized the|the]] **kernel** $ker(f)$ of a [[morphism]] $f : c \to d$ is, if it exists, the [[equalizer]] of $f$ and the [[zero morphism]] from $c$ to $d$.
 
-This is the same as the [[pullback]] of the [[zero object]] along $f$:
+More generally, it is sufficient to have an [[initial object]] still denoted $0$, the kernel is then its [[pullback]] along $f$:
 
 $$
   \array{
@@ -18,6 +18,7 @@ $$
   }
   \,.
 $$
+As $0$ is initial the map $0\to d$ in this diagram is unique.
 
 ## In a $Set_*$-enriched category ##
 
