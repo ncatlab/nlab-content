@@ -1,6 +1,6 @@
 #Idea#
 
-The concept of _colimit_ is that [[dual]] to a limit:
+The concept of _colimit_ is that [[duality|dual]] to a limit:
 
 a colimit of a [[diagram]] is, if it exists, the [[representable functor|co-classifying space]] for morphisms _out_ of that diagram.
 
@@ -11,6 +11,8 @@ We have
 * the notion of _weighted colimit_ generalizes the notion of _weighted (direct) sum_.
 
 (There are more remarks on this listed at [[nInsights]]).
+
+Sometimes colimits (or some colimits) are called [[inductive limit]]s.
 
 
 #Definition#
