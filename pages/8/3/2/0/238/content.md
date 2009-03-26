@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Mike Shulman|Mike]]:
 
+  * Wrote [[universe in a topos]] by way of responding to the query at [[Grothendieck universe]].
+
   * Focused [[adjunction]] on the internal version in a 2-category, to distinguish it from [[adjoint functor]], which I reorganized and added a definition to.  (The zig-zag identities are crying out for SVG!)
 
   * Corrected [[generalized element]] to distinguish it from [[global element]].
@@ -23,8 +25,6 @@ These comments should go in _reverse_ chronological order, so that the latest ar
   * Made a terminological suggestion at [[set theory]].
 
   * Commented about property-like structure at [[stuff, structure, property]].  It would be nice to move the examples earlier on this page.
-
-  * Made a few corrections at [[Grothendieck universe]], but didn't address the topos-theoretic version yet.
 
 
 * [[David Corfield|David]]
