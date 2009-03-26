@@ -48,6 +48,7 @@ It is noteworthy how this formalism captures the heuristic way in which "stuff",
 
 See also the examples below.
 
+
 ## Generalization to higher groupoids##
 
 The formulation in terms of $k$-surjectivity induces an immediate generalization of the notions of stuff, structure and property to the context of [[infinity-category|infinity-groupoids]].
@@ -57,7 +58,14 @@ The formulation in terms of $k$-surjectivity induces an immediate generalization
 
 ##Generalization to categories and higher categories##
 
-The theory is easiest when restricted to groupoids as above; for [[category|categories]], there are two ways to go.  One is to keep the definition as phrased above; the other is to look at the functor between the underlying groupoids of the categories.  To tell the difference, ask yourself whether the difference between a [[monoid]] and a [[semigroup]] is the *structure* of being equipped with an [[identity]] element or only the *property* that an identity element exists.  (Note that an identity element, if it exists, must be unique and must be preserved by semigroup isomorphisms and by monoid homomorphisms but not by semigroup homomorphisms.)
+The theory is easiest when restricted to groupoids as above; for [[category|categories]], there are several ways to go.  One is to keep the definition as phrased above (a functor between categories forgets only properties if it is fully faithful, forgets at most structure if it is faithful, etc.).  Another is to apply the above definition instead to the functor between the [[core|underlying groupoids]] of the categories in question.
+
+To tell the difference, ask yourself whether the difference between a [[monoid]] and a [[semigroup]] is the *structure* of being equipped with an [[identity]] element or only the *property* that an identity element exists.  Note that an identity element, if it exists, must be unique and must be preserved by semigroup isomorphisms and by monoid homomorphisms but not by semigroup homomorphisms.
+
+A third option is to define a new notion: a functor **forgets at most property-like structure** if it is [[pseudomonic functor|pseudomonic]].  This means that (1) the functor is faithful and (2) its induced functor between underlying groupoids is fully faithful.  Intuitively, property-like structure can be described as "a property which need not automatically be preserved by morphisms" or "structure which, if it exists, is uniquely determined."
+
+Property-like structure becomes much more prevalent for higher categories.  For example, the forgetful functor from the 2-category of categories-with-[[product]]s (and product-preserving functors) to $Cat$ is essentially $(k\ge 2)$-surjective, and its induced functor between 2-groupoids is essentially $(k\ge 1)$-surjective; thus it forgets property-like structure.  See also [[lax-idempotent 2-monad]].
+
 
 #Examples#
 
@@ -75,7 +83,7 @@ Hence indeed, by the above yoga, they forget this extra structure but remember t
 ## More examples ##
 
 
-The embedding of abelian groups into all groups, $F :$ [[Ab]] $\to$ [[Grp]] is faithful and full, but not essentially surjective. Hence it should remember stff and structure but forget property. Indeed, the property it forgets is the property "is abelian" which is a property of the group _structure_ sitting on the underlying set of a group. Hence the sequence of functors
+The embedding of abelian groups into all groups, $F :$ [[Ab]] $\to$ [[Grp]] is faithful and full, but not essentially surjective. Hence it should remember stuff and structure but forget property. Indeed, the property it forgets is the property "is abelian" which is a property of the group _structure_ sitting on the underlying set of a group. Hence the sequence of functors
 $$
   Ab \to Grp \to Set \to Pt
 $$
