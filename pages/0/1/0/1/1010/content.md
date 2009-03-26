@@ -1,12 +1,10 @@
 #Idea#
 
-Problems of set theory arise by unjustified recursion of the naive notion of collection. If "Col"s are one notion of collections, then the notion "Col of all Cols" is in general problematic, since it is subject to the construction of Russel-style paradoxes. 
+Problems of set theory arise by unjustified recursion of the naive notion of "collection of things."  If "Col"s are one notion of collections (such as "set" or "class"), then the notion "Col of all Cols" is in general problematic, since it is subject to the construction of Russel-style paradoxes. 
 
 One way out is to consider a hierarchy of notions of collections: postulate that the collection of all "Col"s is not a "Col" itself, but is another notion of collection, a "Col+": the "Col+ of all Cols". Similarly, the collection of all "Col+"-type collections may be taken to be a "Col++", and so on.
 
 One formalization of this idea is that of a _Grothendieck universe_: this is defined to be a set $U$ which behaves like a "set+ of all sets" in that all the standard operations of set theory (union, power set, etc.) can be performed on its elements. 
-
-
 
 
 #Membership-based version#
@@ -21,23 +19,27 @@ A **Grothendieck universe** $U$ is a [[pure set]] $U$ such that:
 1. the [[empty set]] $\empty \in U$;
 1. for all $I \in U$ and functions $u: I \to U$, the [[union]] $\cup_{i: I} u_i \in U$.
 
-Some authors leave out (3), which allows $\empty$ itself to be a Grothendieck universe.  Other authors use the set $\mathbb{N}$ of [[natural number]]s in place of $\empty$ in (3), which prevents $\mathbb{N}$ itself from being a Grothendieck universe.
+Some authors leave out (3), which allows $\empty$ itself to be a Grothendieck universe.  Other authors use the set $\mathbb{N}$ of [[natural number]]s in place of $\empty$ in (3), which prevents the set $V_\omega$ of hereditarily finite sets from being a Grothendieck universe.
 
 ##Consequences##
 
 From the definition above, one can prove additional closure properties of a universe $U$, including the usual codings in pure set theory of [[function set]]s and [[cartesian product]]s and [[disjoint union]]s of sets, using these lemmata:
 
-+--{.lemma}
++--{: .un_lemma}
+###### Lemma
 If $t$ is a [[subset]] of $u$ and $u \in U$, then $t \in U$.
 =--
-+--{.proof}
++--{: .proof}
+###### Proof
 By (2), $P(u) \in U$; $t \in P(u)$, so $t \in U$ by (1).
 =--
 
-+--{.lemma}
++--{: .un_lemma}
+###### Lemma
 If $u, v \in U$, then $u \cup v \in U$.
 =--
-+--{.proof}
++--{: .proof}
+###### Proof
 Since $\empty \in U$ by (3), so are $\star = P(\empty)$ and $TV = P(\star)$ by (2).  Even in [[constructive mathematics]], $2 = \{\bot, \top\}$ is a subset of $TV$, so $2 \in U$ in by Lemma 1.  Then $(\bot \mapsto u, \top \mapsto v)$ is a function $2 \to U$, so the union $u \cup v$ in $U$ by (4).
 =--
 
@@ -53,18 +55,28 @@ Then using their usual encodings in set theory:
 
 ## Terminology: small/large ##
 
-
-Given a universe $U$, an element of $U$ is called a **$U$-small set**, while a subset of $U$ is called **$U$-large**.  Technically, every $U$-small set is $U$-large (by requirement 1), but often one uses 'large' to mean 'large but not small'.  However, note that there are many sets (such as the power set of $U$) that are still *too* large to be 'large'.
+Given a universe $U$, an element of $U$ is called a **$U$-small set**, while a subset of $U$ is called **$U$-large**.  Technically, every $U$-small set is $U$-large (by requirement 1), but often one uses 'large' to mean 'large but not small'.  However, note that there are many sets (such as the power set of $U$) that are still *too* large to be 'large'.  If the universe $U$ is understood, we may simply say **small** and **large**.
 
 As such, these concepts are [[evil]], since two sets may be [[isomorphism|isomorphic]] yet have different properties with respect to $U$.  However, a set which is isomorphic to a $U$-small or $U$-large set is called **essentially** $U$-small or $U$-large; these concepts are non-evil.
 
+
 ## Axiom of universes ##
 
-When working with Grothendieck universes one usually adds the following **axiom of universes** to the usual axioms of set theory:
+If $U$ is a Grothendieck universe, then it is easy to show that $U$ is itself a model of [[ZFC]] (minus the axiom of infinity).  Therefore, one cannot prove in ZFC the existence of a Grothendieck universe containing $\mathbb{N}$, and so we need extra set-theoretic axioms to ensure that universes exist.  Grothendieck's original proposal was to add the following **axiom of universes** to the usual axioms of set theory:
 
 * For every set $s$ there exists a universe which contains $s$, i.e. such that $s \in U$.
 
 This way whenever any operation leads one outside of a given Grothendieck universe (see applications below), there is guaraneteed to be a bigger Grothendieck universe in which one lands.  In other words, every set is small if your universe is large enough!
+
+Later, Mac Lane pointed out that often, it suffices to assume the existence of *one* universe.
+
+
+## Large cardinals ##
+
+If $U$ is a Grothendieck universe, then one can prove in ZFC that it must be of the form $V_\kappa$ where $\kappa$ is a (strongly) [[inaccessible cardinal]].  Here $V_\kappa$ is the $\kappa$-th set in the [[von Neumann hierarchy]].  Conversely, every such $V_\kappa$ is a Grothendieck universe.  Thus, the existence of Grothendieck universes is equivalent to the existence of inaccessible cardinals, and so the axiom of universes is equivalent to the "large cardinal axiom" that "there exist arbitrarily large inaccessible cardinals."
+
+It is worth noting, for those with foundational worries, that the axiom of universes is much, much weaker than many large cardinal axioms which are routinely used, and believed to be consistent, by modern set theorists.  Of course, one cannot _prove_ the consistency of any large cardinal axiom except by invoking a stronger one.
+
 
 #Structural version#
 
@@ -114,27 +126,28 @@ _Toby_:  The important point is the bit about cardinal numbers as I have written
 
 # Examples #
 
-The set $\mathbb{N}$ of [[natural number]]s is a Grothendieck universe, unless you phrase axiom (3) in the definition to specifically rule it out.  In this way, the axiom of infinity can be seen as a simply universe axiom (stating that at least one universe exists).
+The set $V_\omega$ of hereditarily finite sets (finite sets of finite sets of $\dots$) a Grothendieck universe, unless you phrase axiom (3) in the definition to specifically rule it out.  In this way, the axiom of infinity can be seen as a simply universe axiom (stating that at least one universe exists).
 
 If you refrain from using the axiom of universes (except perhaps once, to get $\mathbb{N}$ as above), then the set of all sets (or cardinal numbers) that you can actually construct is a Grothendieck universe.  Of course, you cannot possibly have proved that this universe exists, but the intuition that you ought be able to form the collection of 'everything that we\'ve used so far' is the justification for the axiom of universes.
 
-Similarly, if you use the axiom of universes at most $n$ times, then the set of all sets that you can construct with this restriction is a Grothendieck universe.  So is, in principle, the set of all sets that you can construct using any number of applications of the axiom of universes, but the existence of *this* set cannot be proved, even using this axiom!  (So the axiom of universes is not the final word on large cardinal axioms.)
+Similarly, if you use the axiom of universes at most $n$ times, then the set of all sets that you can construct with this restriction is a Grothendieck universe.  Thus, we can find a sequence $U_1\in U_2\in U_3\in \dots$ of universes.  The [[axiom of replacement]] in ZFC then allows us to form the union $\bigcup_n U_n$.  This will not be a universe (it violates (4), by definition), but we can use the axiom of universes again to show that it is in some universe $U_\omega$.  Proceeding in this way we can construct a tower of universes indexed by the [[ordinal number]]s.
+
+The set of all sets that can be constructed using the axioms of ZFC together with the axiom of universes is, if it exists, again a universe which contains all the $U_\alpha$ constructed above.  Of course, it cannot be shown to exist using only ZFC and the axiom of universes, so the axiom of universes is not the final word on large cardinal axioms.
+
 
 #Applications#
 
-Let $U Set$ be the [[category]] of $U$-small sets, a [[full subcategory]] of [[Set]].
+Let $U Set$ be the [[category]] of $U$-small sets, a [[full subcategory]] of [[Set]].  It is common, especially when $U$ is understood, to redefine $Set$ to mean $U Set$, but here we keep the distinction for clarity.  When $Set$ means $U Set$, sometimes $SET$ is used to mean the category of _all_ sets.
 
-A category whose set of morphisms is $U$-small may be called a $U$-[[small category]]; it can also be thought of as an [[internal category]] in $U Set$.
+A category whose set of morphisms is (essentially) $U$-small may be called a $U$-[[small category]]; it can also be thought of as an [[internal category]] in $U Set$.  A category whose [[hom-set]]s are all (essentially) $U$-small may be called [[locally small category|locally]] $U$-small; it can also be thought of as an [[enriched category]] over $U Set$.  Every $U$-small category is locally $U$-small.
 
-A category whose [[hom-set]]s are all $U$-small may be called [[locally small category|locally]] $U$-small; it can also be thought of as an [[enriched category]] over $U Set$.  Every $U$-small category is locally $U$-small.
+A category whose set of morphisms is $U$-large may be called a $U$-[[large category]]; normally, this term is used only when the category is not also $U$-small.  Most, but not all, $U$-large categories are locally $U$-small.  Note that $U Set$ itself is $U$-large and locally $U$-small.
 
-A category whose set of morphisms is $U$-large may be called a $U$-[[large category]]; normally, this term is used only when the category is not also $U$-small.  Typically, $U$-large categories are locally $U$-small and vice versa, but exceptions are possible.
 
-Note that $U Set$ itself is $U$-large and locally $U$-small.
 
 ##Presheaf categories##
 
-Let $C$ be a $U$-small category.  Then the category of $U$-[[presheaf|presheaves]] on $C$ (the [[functor category]] $[C^{op}, U Set]$) is also $U$-large and locally $U$-small but not $U$-small unless $C$ is empty.  ($U Set$ itself is the special case of this where $C$ is the [[point]].)
+Let $C$ be a $U$-small category.  Then the category of $U$-[[presheaf|presheaves]] on $C$ (the [[functor category]] $[C^{op}, U Set]$) is also $U$-large and locally $U$-small but not $U$-small unless $C$ is empty.  ($U Set$ itself is the special case of this where $C$ is the [[terminal category]].)
 
 Now let $C$ be a $U$-large category (and not small).  Then the category of $U$-presheaves on $C$ is not even locally $U$-small, nor is it even $U$-large (it is 'too large to be large').  However, it is locally $U$-large.  Also, it is quite possible, if $C$ is a $U$-[[large site]], that the category of $U$-[[sheaf|sheaves]] on $C$ is $U$-large and locally $U$-small.
 
@@ -168,5 +181,7 @@ the results of Chorny-Dwyer is cited  (I did not look yet how much used yet) by 
 [www.math.yorku.ca/~tholen/HB07Rosicky.pdf](www.math.yorku.ca/~tholen/HB07Rosicky.pdf)
 
 [[Urs Schreiber|Urs]]: above we are talking about "$U$-presheaves", i.e. the functor categories $[C^{op}, U Set]$. Isn't that the same as "$U$-small presheaves"?
+
+[[Mike Shulman|Mike]]: I agree with Urs.
 
 =--
