@@ -1,6 +1,6 @@
-A projective limit is a [[limit]] of a functor whose [[source]] is a [[direction|directed set]].  The [[duality|dual]] notion is that of [[inductive limit]].
+A projective limit is a [[limit]] of a functor whose [[source]] is a downward-[[direction|directed set]].  The [[duality|dual]] notion is that of [[inductive limit]].
 
-Note that the terminology varies.  The most precise division can be made between _projective limit_ where the source is a directed set (as here), _[[filtered limit]]_ where the source is a [[filtered category]], _[[inverse limit]]_ where the source is a [[partial order|poset]], and _limit_ where the source is arbitrary.  However, many authors will simply take whichever term they learnt first and apply it to all situations.  In any given context, after all, there can be no confusion; the source is whatever it is.
+Note that the terminology varies.  The most precise division can be made between _projective limit_ where the source is a directed set (as here), _[[filtered limit]]_ or _[[cofiltered limit]]_ where the source is a co[[filtered category]], _[[inverse limit]]_ where the source is a [[partial order|poset]], and _limit_ where the source is arbitrary.  However, many authors will simply take whichever term they learnt first and apply it to all situations.  In any given context, after all, there can be no confusion; the source is whatever it is.
 
 +--{+ .query}
 [[Zoran Skoda]] This depends on an author. For us in algebraic geometry, projective limit is what you call limit. It does NOT need to be and often it isn't over directed set. Many in old school of topology put that 
@@ -9,6 +9,15 @@ assumption. Some ask it to be cofiltered. But most do not ask any. It was funny 
 _Toby_:  Does the paragraph above satisfy you, Zoran?
 
 _Zoran_: No, some people use term directed limit for a limit over directed set. This is precise if you prefer to assert the subtle subdivisions, and nobody questions this term (just some do not use it). As far as projective limit vs. limit the choice is now the matter of school. Many CATEGORY THEORY books define projective limit as a limit in general. For example Bucur-Deleanu influentiable category book is using only terms projective limit and inductive limit. 
+
+_Toby_:  Some people say 'directed limit'?  That would be confusing, since I would tend to misread that as 'direct limit' (which is a colimit, of course, unfortunately).
+
+Is it accurate to say that the school that uses 'projective limit' in the most general sense developed out of algebra, where 'projective limit' was first used as in the section on algebra below?
+
+I want to describe the terminology accurately, but at the same time, I think it\'s fair to talk about those things that apply only to projective limits in the strictest sense.  (Actually there is more, in algebra at least, that applies only to inductive limits in the strictest sense.)
+
+We can discuss this at [[limit]], if you\'d prefer.
+
 =--
 
 These were studied in algebra before the general notion of limit in category theory.  The elementary definition still seen there follows.
@@ -17,7 +26,7 @@ These were studied in algebra before the general notion of limit in category the
 
 Let $C$ be a [[category]].
 
-A __projective system__ in $C$ consists of a [[direction|directed set]] $I$, a family $(A_i)_{i: I}$ of objects of $C$, and a family $(f_{ij}: A_j \to A_i)_{i \leq j: I}$ of morphisms, such that:
+A __projective system__ in $C$ consists of a [[direction|directed set]] $I$ (which we will write directed-upward as usual), a family $(A_i)_{i: I}$ of objects of $C$, and a family $(f_{ij}: A_j \to A_i)_{i \leq j: I}$ of morphisms, such that:
 * $f_{ii}: A_i \to A_i$ is the [[identity]] on $A_i$;
 * $f_{ik}: A_k \to A_i$ is the [[composition|composite]] $f_{ij} \circ f_{jk}$.
 
@@ -37,3 +46,11 @@ As with other limits, a projective limit, if any exists at all, is unique up to 
 A projective limit in algebra is usually defined as a [[subobject|subalgebra]] of a [[cartesian product]].  To be precise, ${\textstyle \lim \atop \textstyle \longleftarrow}_i A_i$ consists of those elements $(x_i)_{i: I}$ of $\prod_{i: I} A_i$ such that:
 $$ x_i = f_ij(x_j) .$$
 This can be seen as a special case of the construction of an arbitrary limit out of [[product]]s and [[equalizer]]s.
+
+# Examples #
+
+A [[ring]] $ K [ [ x ] ] $ of formal [[power series]] (for $K$ a [[field]]) is a projective limit of the rings $K[x]/x^n$ (for $n$ a [[natural number]]).  Here, $C$ is the category of rings, $I$ is the directed set of natural numbers, $A_i = K[x]/x^i$, and $f_{ij}: A_j \to A_i$ is induced by the quotient map $K[x] \to K[x]/x^i$ (which must be proved well defined on $K[x]/x^j$ for $i \leq j$).
+
+Similarly, a ring $\mathbf{Z}_p$ of $p$-[[adic integer]]s (for $p$ a [[prime number]]) is a projective limit of the rings $\mathbf{Z}/p^n$.
+
+A set of infinite [[sequence]]s is a projective limit of sets of finite sequences (which, at the level of [[set]]s, includes the above examples).
