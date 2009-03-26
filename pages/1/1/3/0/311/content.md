@@ -6,6 +6,12 @@ $$F: C^{op} \to Set$$
 
 is **representable** if it is [[natural isomorphism|naturally isomorphic]] to a [[hom-functor]] $\hom_C(-, c): C^{op} \to Set$. The object $c$ is determined uniquely up to isomorphism, and is called a **representing object** for $F$. 
 
++--{+ .query}
+I am pretty unhappy that all entries related to limits, colimits and representable things at nlab say that the limit, colimit and representing functors are what normally in strict treatment are just the vertices of the corresponding universal construction. A representable functor is not a functor which is naturally 
+isomorphic to Hom(-,c) but a *pair* of 
+an object and such isomorphism! Similarly limit is the synonym for *limiting cone* (= universal cone), not just its vertex. Because if it were most of usages and theorems would not be true. For example, the notion and usage of creating limits under a functor, includes the words about the behaviour of the arrow under the functor, not only of the vertex. Definitions should be the collections of the data and one has to distinguish if the existence is really existence or in fact a **part of the structure**.--Zoran
+=--
+
 Representability is one of the most fundamental concepts of category theory, with close ties to the notion of [[adjunction]] and to the [[Yoneda lemma]]. It is the crucial concept underlying the idea of [[universal property]]; thus for example crucial concepts such as "[[limit]]", "[[colimit]]", "[[exponential object]]", "[[Kan extension]]" and so on are naturally expressed in terms of representing objects. The concept permeates much of algebraic geometry and algebraic topology. 
 
 # Definition #
