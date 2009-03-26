@@ -13,3 +13,9 @@ Some examples of terminal objects in notable categories follow:
 * The terminal object of [[Ring]] is the zero ring.  (Note however that if [[ring|rings]] have unities and ring [[homomorphism|homomorphisms]] must preserve them, then the zero ring is not a [[zero object]] of [[Ring]].)
 * The terminal object of [[Cat]] is the [[discrete category]] with just one object.
 * The terminal object of a [[over category|slice category]] $C/x$ is the [[identity]] $x\to x$.
+
+#Terminal object in higher categories#
+
+## In $(\infty,1)$-categories ##
+
+A **terminal object** in an [[(infinity,1)-category]] is an object $pt$ such that for any other object $c$ the $(\infty,0)$-groupoid $Hom(c,pt)$ is [[contractible]].
