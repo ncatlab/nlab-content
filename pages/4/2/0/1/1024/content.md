@@ -11,7 +11,7 @@ However, one of the important insights of category theory is that in arbitrary c
 
 #Examples#
 
-* For $C =$ [[Set]] and $I = \{\bullet\}$ the singleton set, the global elements of a set $C$ are precisely the ordinary elements of $C$.
+* For $C =$ [[Set]] and $I = \{\bullet\}$ the singleton set, the [[global element]]s of a set $C$ are precisely the ordinary elements of $C$.
 
 * For $C = [D^{op}, Set]$  a [[presheaf]] category and for $I = \Delta_{pt} = (d \mapsto \{\bullet\})$ the presheaf constant on the singleton set, the generalized elements of a presheaf $F$ are the _global sections_ of this presheaf, equivalently these are the elements in the [[limit]] set over $F$.
 
