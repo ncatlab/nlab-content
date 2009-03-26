@@ -1,0 +1,1 @@
+Another term for [[colimit]], to be distinguished from [[projective limit]], which is another term for [[limit]].
