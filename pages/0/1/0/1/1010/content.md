@@ -6,12 +6,10 @@ One way out is to consider a hierarchy of notions of collections: postulate that
 
 One formalization of this idea is that of a _Grothendieck universe_: this is defined to be a set $U$ which behaves like a "set+ of all sets" in that all the standard operations of set theory (union, power set, etc.) can be performed on its elements. 
 
+Although developed for application to [[category theory]], the definition is usually given in a form that only makes sense in a membership-based [[set theory]].  On this page we consider only that version; for a form that makes sense in structural set theory, see [[universe in a topos]].
 
-#Membership-based version#
 
-Although developed for application to [[category theory]], the definition is usually given in a form that only makes sense in a membership-based [[set theory]], so we begin with that.
-
-##Definition##
+#Definition#
 
 A **Grothendieck universe** $U$ is a [[pure set]] $U$ such that:
 1. for all $u \in U$ and $t \in u$, $t \in U$ (so $U$ is _transitive_);
@@ -21,7 +19,7 @@ A **Grothendieck universe** $U$ is a [[pure set]] $U$ such that:
 
 Some authors leave out (3), which allows $\empty$ itself to be a Grothendieck universe.  Other authors use the set $\mathbb{N}$ of [[natural number]]s in place of $\empty$ in (3), which prevents the set $V_\omega$ of hereditarily finite sets from being a Grothendieck universe.
 
-##Consequences##
+#Consequences#
 
 From the definition above, one can prove additional closure properties of a universe $U$, including the usual codings in pure set theory of [[function set]]s and [[cartesian product]]s and [[disjoint union]]s of sets, using these lemmata:
 
@@ -53,14 +51,14 @@ Then using their usual encodings in set theory:
 * the set of functions $u \to v$ is a subset of $P(u \times v)$.
 
 
-## Terminology: small/large ##
+# Terminology: small/large #
 
 Given a universe $U$, an element of $U$ is called a **$U$-small set**, while a subset of $U$ is called **$U$-large**.  Technically, every $U$-small set is $U$-large (by requirement 1), but often one uses 'large' to mean 'large but not small'.  However, note that there are many sets (such as the power set of $U$) that are still *too* large to be 'large'.  If the universe $U$ is understood, we may simply say **small** and **large**.
 
 As such, these concepts are [[evil]], since two sets may be [[isomorphism|isomorphic]] yet have different properties with respect to $U$.  However, a set which is isomorphic to a $U$-small or $U$-large set is called **essentially** $U$-small or $U$-large; these concepts are non-evil.
 
 
-## Axiom of universes ##
+# Axiom of universes #
 
 If $U$ is a Grothendieck universe, then it is easy to show that $U$ is itself a model of [[ZFC]] (minus the axiom of infinity).  Therefore, one cannot prove in ZFC the existence of a Grothendieck universe containing $\mathbb{N}$, and so we need extra set-theoretic axioms to ensure that universes exist.  Grothendieck's original proposal was to add the following **axiom of universes** to the usual axioms of set theory:
 
@@ -71,7 +69,7 @@ This way whenever any operation leads one outside of a given Grothendieck univer
 Later, Mac Lane pointed out that often, it suffices to assume the existence of *one* universe.
 
 
-## Large cardinals ##
+# Large cardinals #
 
 If $U$ is a Grothendieck universe, then one can prove in ZFC that it must be of the form $V_\kappa$ where $\kappa$ is a (strongly) [[inaccessible cardinal]].  Here $V_\kappa$ is the $\kappa$-th set in the [[von Neumann hierarchy]].  Conversely, every such $V_\kappa$ is a Grothendieck universe.  Thus, the existence of Grothendieck universes is equivalent to the existence of inaccessible cardinals, and so the axiom of universes is equivalent to the "large cardinal axiom" that "there exist arbitrarily large inaccessible cardinals."
 
@@ -80,36 +78,7 @@ It is worth noting, for those with foundational worries, that the axiom of unive
 
 #Structural version#
 
-An equivalent concept (at least for the purposes of category theory) can also be defined in structural set theories (like [[ETCS]]).
-
-The important point is the [[cardinal number|cardinality]] $|U|$ of the Grothendieck universe $U$; it must be a _strongly inaccessible cardinal_.  In the arithmetic of cardinal numbers, this means that $0 \lt |U|$ and $\sum_{i: I} \kappa_i \lt |U|$ whenever $|I| \lt |U|$ and $\kappa_i \lt |U|$ for each $i: I$ (to be inaccessible) and $2^\kappa \lt |U|$ whenever $\kappa \lt |U|$ (to be strongly so).  Traditionally one also requires an inaccessible cardinal to be uncountable, but this is just to rule out $\mathbb{N}$ again.
-
-We still need to formalise the idea that a set might 'belong' to $U$.  We can do this by equipping $U$ with a family $(S_u)_{u: U}$ of sets indexed by $U$; if you like, you can formalise this as a [[bundle]] over $U$.
-
-##Definition##
-
-A **Grothendieck universe** is a family $(S_u)_{u: U}$ of sets such that:
-1. for all $u$ in $U$, if $X$ is a [[subset]] of $S_u$ (in the sense that there exists an [[injection]] $X \embedsin S_u$), then there is a $v$ in $U$ such that $X \cong S_v$;
-1. for all $u$, there is a $v$ such that the [[power set]] $P(S_u) \cong S_v$;
-1. there is a $v$ such that $S_v$ is [[empty set|empty]];
-1. for all $u$ and functions $f: S_u \to U$, there is a $v$ such that the [[disjoint union]] $\biguplus_{i: S_u} S_{f(i)} \cong S_v$.
-
-If you want to allow $\empty$, then remove axiom (3) again; if you want to rule out $\mathbb{N}$, then replace it with the requirement that some set in the family is isomorphic to $\mathbb{N}$.
-
-
-## Terminology: small/large ##
-
-
-Given a universe $U$, an set $X$ is called **$U$-small** if $X \cong S_u$ for some $u$ in $U$; $X$ is called **$U$-large** if $X$ is a subset of $U$.  As before, every $U$-small set is technically $U$-large, but often one uses 'large' to mean 'large but not small'.  However, note that there are many sets (such as the power set of $U$) that are still *too* large to be 'large'.  These concepts are already non-[[evil]], so there is no need for versions with 'essentially'.
-
-
-## Axiom of universes ##
-
-When working with Grothendieck universes one usually adds the following **axiom of universes** to the usual axioms of set theory:
-
-* For every set $X$ there exists a universe which contains $X$, i.e. such that $X \cong S_u$ for some $u$ in $U$.
-
-This way whenever any operation leads one outside of a given Grothendieck universe (see applications below), there is guaranteed to be a bigger Grothendieck universe in which one lands.  In other words, every set is small if your universe is large enough!
+An equivalent concept (at least for the purposes of category theory) can also be defined in structural set theories (like [[ETCS]]).  See [[universe in a topos]].
 
 +-- {: .query}
 [[Urs Schreiber|Urs]]: unless I am missing something, the Grothendieck universe approach goes right against Lawvere's attitude to set theory as reviewed and emphasized at [[Trimble on ETCS I]]: that it is unnatural to consider membership of sets as a global relation, i.e. to handle sets and their elements on the same footing. On the contrary, for the above definition to even make sense, we have to assume that "everything is a set" (becuase the above definition tacitly assume that every element of a Grothendieck universe is itself a set). 
@@ -121,6 +90,8 @@ So what is the analog of Grothendieck universes, or of what they accomplish in p
 But a nice way of thinking of Grothendieck universes is as an internal topos object. That is, it is possible to express the notion of 'topos object' in any category with finite limits, and then one can define a Grothendieck universe within say a topos or pretopos of sets $E$ as such an internal topos object $U$ inside $E$. Mike?
 
 _Toby_:  The important point is the bit about cardinal numbers as I have written above.  The rest of the structural formulation *seems* right to me, but I wouldn\'t be surprised if I messed it up.  There is probably an elegant way to say this using [[indexed category|indexed categories]] anyway.  But the infinite strongly inacessible cardinal is the bottom line.
+
+[[Mike Shulman|Mike]]: I wrote [[universe in a topos]] by way of responding to this, since I thought it deserved its own page, and moved the relevant parts of the structural version above to there.
 =--
 
 
