@@ -14,6 +14,19 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-03-26
 
+* [[Mike Shulman|Mike]]:
+
+  * Focused [[adjunction]] on the internal version in a 2-category, to distinguish it from [[adjoint functor]], which I reorganized and added a definition to.  (The zig-zag identities are crying out for SVG!)
+
+  * Corrected [[generalized element]] to distinguish it from [[global element]].
+
+  * Made a terminological suggestion at [[set theory]].
+
+  * Commented about property-like structure at [[stuff, structure, property]].  It would be nice to move the examples earlier on this page.
+
+  * Made a few corrections at [[Grothendieck universe]], but didn't address the topos-theoretic version yet.
+
+
 * [[David Corfield|David]]
 
   * created [[algebraic set theory]]
