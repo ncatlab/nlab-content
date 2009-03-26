@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-03-26
 
+* [[David Corfield|David]]
+
+  * created [[algebraic set theory]]
+
 * [[Urs Schreiber|Urs]]
 
   * started expanding [[limit]]: more motivation, more details on definition, more examples
