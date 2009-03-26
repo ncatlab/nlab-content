@@ -143,6 +143,18 @@ the results of Chorny-Dwyer is cited  (I did not look yet how much used yet) by 
 
 [[Zoran Skoda]]: No it is not the same in general. For example you argue above that the category of $U$-presheaves on $U$-small category is $U$-large, while this is not true for category of $U$-small presheaves.  Not every $U$-presheaf in your sense is a $U$-small colimit of representables. 
 
+[[Mike Shulman|Mike]]: I'm still confused.  Zoran, can you say exactly what you mean by a "$U$-small presheaf?"  I can think of a number of _a priori_ different notions.
+
+1. A presheaf with values in $U$-small sets.
+
+1. A presheaf which itself, as a functor, is a $U$-small set.
+
+1. A presheaf with values in $U$-small sets which is the left Kan extension of its restriction to some $U$-small category.  This is the sense used in the the Day/Lack paper, and maybe in the other references you cited?
+
+The second implies the first by closure under subsets, while the first implies the second by the indexed-union axiom; so they are equivalent although not _a priori_ so.  The third obviously implies the first, but not conversely, _unless_ the domain is already a $U$-small category, which is the only case considered above.
+
+The third is definitely an important notion, when you want to consider presheaves with large domain, but I don't think this is the right page on which to discuss it.
+
 =--
 
 # Alternative approaches #
