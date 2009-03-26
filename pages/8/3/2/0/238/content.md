@@ -12,6 +12,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-03-26
+
+* [[Urs Schreiber|Urs]]
+
+  * more or less completed the hyperlinked keyword list of chapter one of [[Categories and Sheaves]]
+
+  * filled in three equivalent definitions at [[adjoint functor]]
+
 # 2009-03-25
 
 * [[Urs Schreiber|Urs]]
