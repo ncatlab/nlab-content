@@ -103,9 +103,13 @@ The second, more important, caveat is that the internal logic of all these categ
 The third caveat is that one must take care to distinguish the _internal_ logic of a category from what is _externally_ true about it.  In general, internal validity is "local" truth, meaning things which become true "after passing to a [[cover]]."  This is particularly important for formulas involving _disjunction_ and _existence_.  For example, an object's being [[projective object|projective]] in the category $C$ is a different statement from its being _internally_ projective, meaning that "$X$ is projective" is true in the internal logic.  Another good example can be found in the different notions of [[finite object]] in a topos.  This problem goes away if the ambient category is [[well-pointed topos|well-pointed]], but well-pointed categories are even rarer than Boolean ones satisfying choice; the only well-pointed Grothendieck topos is [[Set]] itself.
 
 
-# Completeness #
+# Completeness and syntactic categories  #
 
-(to be written...)
+The converse of the Soundness Theorem is called the _Completeness Theorem_, and states that if a sequent $\varphi\vdash\psi$ is valid in every model of a theory, then it is _provable_ from that theory.  This is noticeably less trivial.  In classical first-order logic, where the only models considered are set-valued ones, the completeness theorem is usually proven using [[ultraproduct]]s.  However, in categorical logic there is a more elegant approach: from any theory $T$ we can construct a category, called its **syntactic category** $C_T$, containing a "generic" model of the theory, in which the valid sequents are precisely those provable from the theory.  It turns out that $C_T$ is precisely the category of [[context]]s described on the page [[context]].  Therefore, if a sequent is valid in all models, it is also valid in the generic model in $C_T$, and hence provable from $T$.
+
+The syntactic category $C_T$ also has a universal property: any $T$-model in a category $D$ with suitable structure (regular, coherent, etc.) is the image of the generic model in $C_T$ under an essentially unique functor (of the appropriate type) $C_T\to D$.  In other words, the generic model is also the _initial_ model.
+
+Furthermore, if $T$ lives in a sub-fragment of geometric logic (such as regular, coherent, lextensive, or geometric logic), then the [[Grothendieck topos]] of [[sheaf|sheaves]] on $C_T$ for its appropriate (regular, coherent, extensive, or geometric) [[coverage]] contains a $T$-model which is generic for models in Grothendieck toposes: any $T$-model in a Grothendieck topos is its image under the inverse image of a unique [[geometric morphism]].
 
 
 # Kripke-Joyal semantics #
