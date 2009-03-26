@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * created [[generalized element]]
+
   * more or less completed the hyperlinked keyword list of chapter one of [[Categories and Sheaves]]
 
   * filled in three equivalent definitions at [[adjoint functor]]
