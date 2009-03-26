@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-03-26
 
+* [[Finn Lawler]]: (Hello all -- long-time lurker, first-time editor.)  For my first edit, I asked a silly question at [[context]] and then answered it myself a little later.  I'll delete the query box if nobody has any comments.  Apologies for noise.
+
 * [[Mike Shulman|Mike]]:
 
   * Split [[nice category of spaces]] from [[nice topological space]] and fixed all the links I could find.
