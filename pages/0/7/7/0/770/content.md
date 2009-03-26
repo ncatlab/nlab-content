@@ -6,7 +6,7 @@ A homotopy $1$-type is a space where we consider its properties with regard to t
 
 A continuous map $X \to Y$ is a **homotopy $1$-equivalence** if it induces isomorphisms on $\pi_0$ and $\pi_1$ at each basepoint.  Two spaces share the same **homotopy $1$-type** if they are linked by a zig-zag chain of homotopy $1$-equivalences.
 
-For any [[nice topological space|nice space]] $X$, you can kill its homotopy groups in higher dimensions by attaching cells, thus constructing a new space $Y$ so that the inclusion of $X$ into $Y$ is a homotopy $1$-equivalence; up to (weak) [[homotopy equivalence]], the result is the same for any space with the same homotopy $1$-type.  Accordingly, a **homotopy $1$-type** may alternatively be defined as a space with trivial $\pi_i$ for $i \gt 1$, or as the unique (weak) [[homotopy type]] of such a space, or as its fundamental $\infty$-[[fundamental infinity-groupoid|groupoid]] (which will be a $1$-[[1-groupoid|groupoid]]).
+For any space $X$, you can kill its homotopy groups in higher dimensions by attaching cells, thus constructing a new space $Y$ so that the inclusion of $X$ into $Y$ is a homotopy $1$-equivalence; up to (weak) [[homotopy equivalence]], the result is the same for any space with the same homotopy $1$-type.  Accordingly, a **homotopy $1$-type** may alternatively be defined as a space with trivial $\pi_i$ for $i \gt 1$, or as the unique (weak) [[homotopy type]] of such a space, or as its fundamental $\infty$-[[fundamental infinity-groupoid|groupoid]] (which will be a $1$-[[1-groupoid|groupoid]]).
 
 See the general discussion in [[homotopy n-type]].
 
