@@ -171,6 +171,8 @@ When you say that this is not the place to talk about U-small presheaves, why it
 There are unfortunately a number of different uses of the word "small" in category theory.  This page is about Grothendieck universes, and on this page, "$U$-small" means "element of $U$."  On this page, we _are_ talking about universes, and part of the point is that the category of presheaves on a large category _is_ defined if "large" things are still sets (just not elements of $U$).  Of course, if one wants this category to have certain good properties, one may want to consider instead a subcategory of small things.
 
 The reason I don't think this page is the place to talk about "small presheaves" in the small-colimit-of-representables sense is that, no matter how useful they may be in addressing the question of size of functors and functor categories, this page is not about addressing the question of size of functors and functor categories; it is about Grothendieck universes.  Any discussion of functor categories should be aimed at clarifying the role played by Grothendieck universes.  A brief mention of "small presheaves" in your sense might not be amiss, with a link to a page called [[small presheaf]] or [[small functor]], but I think it would be too confusing to talk for very long about a different meaning of the word "small" on this page.
+
+--Zoran--: OK, but let us then move BOTH our discussion (with possible usage of some of the links above) as well as the treatment of U-presheaves in above sense (discussed by Urs and you before) into a new entry small presheaves. But you'd be better (far more competent) person to do it with improvements than me (no hurry of course). 
 =--
 
 # Alternative approaches #
