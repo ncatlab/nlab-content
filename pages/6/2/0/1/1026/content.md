@@ -19,3 +19,7 @@ $$
   \lim Hom(c,F(-))
   \,.
 $$
+
+# Warning #
+
+Topologists sometimes use "continuous functor" to mean a functor [[enriched category|enriched]] over [[Top]], since a functor between topologically enriched categories is enriched iff its actions on hom-spaces are continuous functions.
