@@ -1,0 +1,77 @@
+# Idea #
+
+A **universe** in a [[topos]] is a topos-theoretic version of the notion of [[Grothendieck universe]]; see that page for general motivation and applications.
+
+To free the notion from membership-based set theory, we must replace _sets of sets_ by _families of sets_, just as in passing from [[power set]]s to [[power object]]s we must replace sets of subsets by families of subsets.
+
+
+# Definition #
+
+A **universe** in a topos $\mathcal{E}$ is a morphism $el:E\to U$ satisfying the axioms to follow.  We think of $el:E\to U$ as a $U$-indexed family of objects (sets), and we define a morphism $a:A\to I$ (regarded as an $I$-indexed family of objects) to be **$U$-small** if there exists a morphism $f:I\to U$ and a [[pullback]] square
+$$\array{A & \to & E\\
+  ^a\downarrow && \downarrow^{el}\\
+  I& \underset{f}{\to} & U.}
+$$
+Note that $f$ is not, in general, unique: a universe can contain many isomorphic sets.  With this definition, the pullback of a $U$-small morphism is automatically again $U$-small.  We say that an object $X$ is $U$-small if $X\to 1$ is $U$-small.
+
+The axioms which must be satisfied are:
+
+1. Every [[monomorphism]] is $U$-small.
+
+1. The composite of $U$-small morphisms is $U$-small.
+
+1. If $f:A\to I$ and $g:B\to A$ are $U$-small, then so is the [[dependent product]] $\Pi_f g$ (where $\Pi_f$ is the right adjoint to $f^*:\mathcal{E}/I\to \mathcal{E}/A$).
+
+1. The [[subobject classifier]] $\Omega$ is $U$-small.
+
+Note that since $0\to \Omega$ is a monomorphism, (1) and (4) imply that the [[initial object]] $0$ is $U$-small.  A _[[predicative mathematics|predicative]] universe_ is a morphism $el:E\to U$ where instead of (4) we assume merely that $0$ is $U$-small; this makes sense in any [[locally cartesian closed category]].  In a topos, the generic subobject $1\to \Omega$ is a predicative universe, and of course a morphism is $\Omega$-small if and only if it is a monomorphism.
+
+If we assume only (1)--(3), then the identity morphism $1_0:0\to 0$ of the initial object would be a universe, for which it itself is the only $U$-small morphism.  On the other hand, if $\mathcal{E}$ has a [[natural numbers object]] $N$, we may additionally assume that $N$ is $U$-small, to ensure that all universes contain "infinite" sets.
+
+Note that any object isomorphic to a $U$-small object is $U$-small; thus in the language of [[Grothendieck universe]]s this notion of smallness corresponds to _essential_ smallness.  Roughly, we may say that (1) corresponds to transitivity of a Grothendieck universe, (3) and (4) correspond to closure under power sets, and (2) corresponds to closure under indexed unions.
+
+
+# Axioms of universes #
+
+Just as [[ZFC]] and other material set theories may be augmented with axioms guaranteeing the existence of [[Grothendieck universe]]s, so may [[ETCS]] and other structural set theories may be augmented with axioms guaranteeing the existence of universes in the above sense.  For example, the counterpart of Grothendieck's axiom
+
+* For every set $s$ there exists a universe $U$ containing $s$, i.e. $s\in U$
+
+would be
+
+* For every morphism $a:A\to I$ in $\mathcal{E}$, there exists a universe $el:E\to U$ such that $a$ is $U$-small.
+
+
+# Consequences #
+
+One can show, from the above axioms, that the $U$-small morphisms are closed under finite [[coproduct]]s and under [[quotient]]s.  See the reference below.
+
+
+# In terms of indexed categories #
+
+Recall that an $\mathcal{E}$-[[indexed category]] is a [[pseudofunctor]] $\mathcal{E}^{op}\to \Cat$.  The fundamental $\mathcal{E}$-indexed category is the _self-indexing_ $\mathbb{E}$ of $\mathcal{E}$, which takes $I\in \mathcal{E}$ to the [[over category|slice category]] $\mathbb{E}^I = \mathcal{E}/I$ and $x:I\to J$ to the pullback functor $x^*$.
+
+An **internal full subcategory** of $\mathcal{E}$ is a full sub-indexed category $\mathbb{F}$ of $\mathbb{E}$ (that is, a collection of full subcategories $\mathbb{F}^I\subset \mathbb{E}^I$ closed under reindexing) such that there exists a generic $\mathbb{F}$-morphism, i.e. a morphism $el:E\to U$ in $\mathbb{F}^U$ such that for any $a:A\to I$ in $\mathbb{F}^I$, we have $a \iso f^*(el)$ for some $f:I\to U$.  In this case (since $\mathcal{E}$ is [[locally cartesian closed category|locally cartesian closed]]) there exists an [[internal category]] $U_1 \;\rightrightarrows\; U$ in $\mathcal{E}$ such that $\mathbb{F}$ is equivalent, as an indexed category, to the indexed category represented by $U_1 \;\rightrightarrows\; U$.
+
+An internal full subcategory is an **internal full subtopos** if each $\mathbb{F}$ is a logical subtopos of $\mathbb{E}$ (closed under finite limits, exponentials, and containing the subobject classifier).  A universe in $\mathcal{E}$, as defined above, can then be identified with an internal full subtopos satisfying the additional axiom that $U$-small morphisms are closed under composition.
+
+
+# In the internal logic #
+
+In a topos with a universe, we can talk about small objects in the [[internal logic]] by instead talking about elements of $U$.  We can then rephrase the axioms of a universe in the internal logic to look more like the usual axioms for a Grothendieck universe, with the morphism $el:E\to U$ interpreted as a "family of objects"  $(S_u)_{u:U}$:
+
+1. for all $u$ in $U$, if $X$ is a [[subset]] of $S_u$ (in the sense that there exists an [[injection]] $X \embedsin S_u$), then there is a $v$ in $U$ such that $X \cong S_v$;
+1. for all $u$ in $U$, there is a $v$ in $U$ such that the [[power set]] $P(S_u) \cong S_v$;
+1. there is a $v$ in $U$ such that $S_v$ is [[empty set|empty]];
+1. for all $u$ in $U$ and all functions $f: S_u \to U$, there is a $v$ in $U$ such that the [[disjoint union]] $\biguplus_{i: S_u} S_{f(i)} \cong S_v$.
+
+In a [[well-pointed topos]], such as a model of [[ETCS]], these "internal" axioms are equivalent to their "external" versions that refer to [[global element]]s of $U$.
+
++--{: .query}
+[[Mike Shulman|Mike]]: I haven't actually checked anything in this section, but it seems probable.
+=--
+
+
+# References #
+
+* Thomas Streicher, "[Universes in Toposes](http://www.mathematik.tu-darmstadt.de/~streicher/NOTES/UniTop.ps.gz)."  In _From sets and types to topology and analysis: towards practicable foundations for constructive mathematics_.
