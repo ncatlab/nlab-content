@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * started expanding [[limit]]: more motivation, more details on definition, more examples
+
   * created [[generalized element]]
 
   * more or less completed the hyperlinked keyword list of chapter one of [[Categories and Sheaves]]
