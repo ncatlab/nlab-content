@@ -20,8 +20,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
-  * added a link to [[David Corfield|David]]'s new entry [[algebraic set theory]] at [[set theory]]. It would be nice to put it into context there, eventually.
+  * good to see that [[Mike Shulman|Mike]] is back! Mike, there is a request for you at [[Grothendieck universe]]: can you say something about rephrasing that as a "topos object internal to the [[ETCS]]-version of $Set$"? 
 
+  * added the globular zig-zag diagrams to [[adjunction]]
+
+  * started [[continuous functor]]
+
+  * added a link to [[David Corfield|David]]'s new entry [[algebraic set theory]] at [[set theory]]. It would be nice to put it into context there, eventually.
 
   * started expanding [[limit]] (and also a bit [[colimit]]): more motivation, more details on definition, more examples
 
