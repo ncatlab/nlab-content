@@ -54,4 +54,4 @@ There is a nice way of describing these structures due to C. Ehresmann. For a ca
 
 An advantage of this approach is that it applies to the case of topological categories and groupoids (working in a convenient category of spaces). 
 
-An analogous approach works for strict cubical $\omega$-categories with connections, using the good properties of cubes, so leading to a monoidal closed structure for these objects. This yields by an equivalence of categories a monoidal closed closed structure on strict globular $\omega$-categories, where the tensor product is the Gray tensor product. 
+An analogous approach works for strict cubical $\omega$-categories with connections, using the good properties of [[cube]]s, so leading to a [[closed monoidal category|monoidal closed structure]] for these objects. This yields by an [[equivalence]] of categories a monoidal closed structure on [[strict omega-category|strict globular omega-categories]], where the [[tensor product]] is the [[Crans-Gray tensor product]]. 
