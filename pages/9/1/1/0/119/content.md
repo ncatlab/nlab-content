@@ -30,6 +30,8 @@ _Mike_: Wait a minute; I see why every preorder is equivalent to a poset without
 
 _Toby_:  Given the definition there that a skeleton must be a subcategory (not merely any equivalent skeletal category), that depends on what [[subcategory]] means, doesn\'t it?  If a subcategory can be any category equipped with a [[pseudomonic functor]] and if functor means [[anafunctor]] in choice-free category theory, then it is still true.  On the other hand, since we decided not to formally define 'subcategory', we really shouldn\'t use it to define 'skeleton' (or anything else), in which case &#8249;equivalent skeletal category&#8250; is the guaranteed non-evil option.  You *still* need choice to define a skeleton of an arbitrary category, but not of a proset.
 
+_Mike_: We decided not to formally define a non-evil version of "subcategory," but [[subcategory]] currently is defined to mean the evil version.  However, I see that you edited [[skeleton]] to allow any equivalent skeletal category, and I can't really argue that that is a more reasonable definition in the absence of choice.
+
 ## Poset reflection
 
 _[[Eric Forgy|Eric]] says_: It seems to me that any category $C$ gives rise to a preorder in a natural way, i.e.
