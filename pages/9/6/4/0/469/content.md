@@ -36,9 +36,9 @@ If $C$ is not symmetric, then $-\otimes b$ and $b\otimes -$ are different functo
 
  * The category of abelian groups is closed: for any two abelian groups $A, B$ the set of homomorphisms $A \to B$ carries (pointwise defined) abelian group structure. 
 
- * Certain categories [[Top]] of [[nice topological space|nice topological spaces]] are cartesian closed: for any two nice topological spaces $X$, $Y$ the set of continuous maps $X \to Y$ can be equipped with a topology to become a nice topological space itself.
+ * Certain [[nice category of spaces|nice categories]] of topological spaces are cartesian closed: for any two nice enough topological spaces $X$, $Y$ the set of continuous maps $X \to Y$ can be equipped with a topology to become a nice topological space itself.
 
- * Certain categories of nice _based_  topological spaces are closed symmetric monoidal.  The monoidal structure is the [[smash product]] and the internal-hom is the set of basepoint-preserving maps with topology induced from the space of unbased ones.
+ * Certain nice categories of _based_  topological spaces are closed symmetric monoidal.  The monoidal structure is the [[smash product]] and the internal-hom is the set of basepoint-preserving maps with topology induced from the space of unbased ones.
 
  * The category [[Cat]] is cartesian closed: the internal-hom is the [[functor category]] of functors and natural transformations.
 
