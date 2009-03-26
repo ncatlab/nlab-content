@@ -133,4 +133,4 @@ Reprints in Theory and Applications of Categories, No. 10 (2005) pp. 1-136 ([pdf
 
 The $(\infty,1)$-categorical discussion is in 
 
-J. Lurie, [[Higher Topos Theory]]
+* J. Lurie, [[Higher Topos Theory]]
