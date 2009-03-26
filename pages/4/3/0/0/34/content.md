@@ -42,9 +42,9 @@ Tom Leinster has written about "comparative $\infty$-categoriology" (to [borrow]
 
 * Tom Leinster, _Higher Operads, Higher Categories_ ([arXiv](http://arxiv.org/abs/math/0305049))
 
-Recently [[quasi-category|quasi-categories]] $(\infty, 1)$-categories (see [[homotopy theory]]) have attracted much attention :
+The theory of [[quasi-category|quasi-categories]] $(\infty, 1)$-categories (see [[homotopy theory]]) has reached a point where it is well developed and being applied to a wealth of problems with
 
-* Jacob Lurie, _Higher Topos Theory_ ([arXiv](http://arxiv.org/abs/math.CT/0608040))
+* Jacob Lurie, [[Higher Topos Theory]] ([arXiv](http://arxiv.org/abs/math.CT/0608040))
 
 There's a lot more to add here, even if we restrict ourselves to very general texts.  (More specialized stuff should go under more specialized subcategories!)
 
@@ -69,6 +69,7 @@ There's a lot more to add here, even if we restrict ourselves to very general te
 * [[geometric shapes for higher structures]]
 * [[globular set]]
 * [[Gray tensor product]]
+* [[Higher Topos Theory]]
 * [[infinity-groupoid]]
 * [[infinity-stack]]
 * [[infinity-stack homotopically]]
