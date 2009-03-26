@@ -35,6 +35,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * started expanding [[Kan extension]]
+
   * created [[fiber product]], [[parallel morphism]], [[zero morphism]], [[kernel]], added example to [[pointed object]]
 
   * good to see that [[Mike Shulman|Mike]] is back! Mike, there is a request for you at [[Grothendieck universe]]: can you say something about rephrasing that as a "topos object internal to the [[ETCS]]-version of $Set$"? 
