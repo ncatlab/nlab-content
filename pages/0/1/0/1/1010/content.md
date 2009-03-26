@@ -141,7 +141,7 @@ the results of Chorny-Dwyer is cited  (I did not look yet how much used yet) by 
 
 [[Mike Shulman|Mike]]: I agree with Urs.
 
-[[Zoran Skoda]]: No it is not the same in general. For example you argue above that the category of $U$-presheaves on $U$-small category is $U$-large, while this is not true for category of $U$-small presheaves.  Not every $U$-presheaf in your sense is a $U$-small colimit of representables. 
+[[Zoran Skoda]]: No it is not the same in general. For example you argue above that the category of $U$-presheaves on $U$-small category is not even $U$-large, while this is not true for category of $U$-small presheaves.  Not every $U$-presheaf in your sense is a $U$-small colimit of representables. 
 
 [[Mike Shulman|Mike]]: I'm still confused.  Zoran, can you say exactly what you mean by a "$U$-small presheaf?"  I can think of a number of _a priori_ different notions.
 
@@ -155,6 +155,12 @@ The second implies the first by closure under subsets, while the first implies t
 
 The third is definitely an important notion, when you want to consider presheaves with large domain, but I don't think this is the right page on which to discuss it.
 
+[[Zoran Škoda]] Of course I mean the third notion, this is standard notion of smallness of presheaves. Representable presheaf even on category of all sets is considered small.
+And to use the Grothendieck universes you look at colimits of U-small diagrams of representables, and allow them. Of course the links above I put in order to refer to what I mean. Actually the lack of those is my only complaint about your paper set theory for category theory which I found useful and beautiful. 
+
+Finally look at this: the category of presheaves on a large category (I am not talking about universes) is not even defined in general, one needs to look at equivalence classes of functors sometimes, as the functors themselves are not small. I am not a practioner in these questions but the data for a functor which is a colimit of a small diagram of representatives can be made into a set. 
+
+When you say that this is not the place to talk about U-small presheaves, why it would be a place for what you call above U-presheaves ? The first seem to be more useful and standard in addressing the question of size of functors and functor categories. 
 =--
 
 # Alternative approaches #
