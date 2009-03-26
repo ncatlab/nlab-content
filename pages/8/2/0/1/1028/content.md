@@ -8,7 +8,7 @@ $$
   \,.
 $$
 
-This means that for $f : c \to d$ and $g : c \to d$ two [[parallel morphism]]s in a [[category]] $C$, their equalizer is, if it exsist
+This means that for $f : c \to d$ and $g : c \to d$ two [[parallel morphisms]] in a [[category]] $C$, their equalizer is, if it exists
 
 * an object $Eq(f,g) \in C$;
 
@@ -16,11 +16,7 @@ This means that for $f : c \to d$ and $g : c \to d$ two [[parallel morphism]]s i
 
 * such that 
 
-  * pulled back to $Eq(f,g)$ both morphisms become [[equality|equal]]
-$
-  (Eq(f,g) \to c \stackrel{f}{\to} d) = (Eq(f,g) \to c \stackrel{g}{\to} d)
-$
-
+  * pulled back to $Eq(f,g)$ both morphisms become [[equality|equal]]: $ (Eq(f,g) \to c \stackrel{f}{\to} d) = (Eq(f,g) \to c \stackrel{g}{\to} d) $
   * and $Eq(f,g)$ is the universal object with this property.
 
 #Examples#
