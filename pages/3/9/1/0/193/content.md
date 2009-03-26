@@ -1,10 +1,12 @@
 #Definition#
 
-An _adjunction_ is a pair of [[category|categories]] $C, D$ together with [[functor|functors]] $L: C \to D$, $R : D \to C$ and [[natural transformation|natural transformations]] $\eta : 1_C \to R L$, $\epsilon : L R \to 1_D$ satisfying some equations called the [[zig-zag identities]] or the _triangle identities_.
+An __adjunction__ in a [[2-category]] is a pair of objects $C,D$ together with morphisms $L: C \to D$, $R : D \to C$ and 2-cells $\eta : 1_C \to R L$, $\epsilon : L R \to 1_D$ satisfying the equations
+$$ R\epsilon . \eta R = 1_R$$
+and
+$$ \epsilon L . L\eta = 1_L$$
+variously called the _triangle identities_ or the _zig-zag identities_.  We call $L$ the **left adjoint** (of $R$) and $R$ the **right adjoint** (of $L$).  We call $\eta$ the [[unit]] and $\epsilon$ the [[counit]] of the adjunction.
 
-In this situation we call $L$ and $R$ [[adjoint functor]]s &#8211; and more precisely, we call $L$ the [[left adjoint]] (of $R$) and $R$ the [[right adjoint]] (of $L$).  We call $\eta$ the [[unit]] and $\epsilon$ the [[counit]] of the adjunction.
-
-More generally, we can [[internalization|internalize]] the concept of adjunction in any [[strict 2-category|2-category]] or [[bicategory]].
+When interpreted in the prototypical 2-category [[Cat]], $C$ and $D$ are [[category|categories]], $L$ and $R$ are [[functor|functors]], and $\eta$ and $\epsilon$ are [[natural transformation|natural transformations]].  In this case (which was of course the first to be defined) there are a number of equivalent definitions of an adjunction, which can be found on the page [[adjoint functor]].  Conversely, the definition in any 2-category can be obtained by [[internalization]] from the definition in $\Cat$.
 
 #Remarks#
 
