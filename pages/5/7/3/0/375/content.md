@@ -2,6 +2,6 @@ A **cartesian closed category** (sometimes: **ccc**) is a category with finite [
 
 Since in such a category, the product functors $A \times -$ have [[right adjoint]]s, they preserve all [[colimit]]s.  In particular, a cartesian closed category is a [[distributive category]].
 
-Any [[topos]] or [[quasitopos]], such as [[Set]], is cartesian closed.  [[Cat]] is also cartesian closed.  Many categories of [[nice topological space|nice topological spaces]] are also cartesian closed.
+Any [[topos]] or [[quasitopos]], such as [[Set]], is cartesian closed.  [[Cat]] is also cartesian closed.  Many [[nice category of spaces|nice categories of topological spaces]] are also cartesian closed.
 
 The [[internal logic]] of cartesian closed categories is the [[typed lambda calculus]].
