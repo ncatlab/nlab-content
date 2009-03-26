@@ -29,14 +29,13 @@ Given $L : C \to D$, by precomposition it defines a functor
 $$
   L^* : [D^{op}, Set] \to [C^{op}, Set]
 $$
-of [[presheaf]] categories. This defines the functor
+of [[presheaf]] categories. By restriction along the [[Yoneda embedding]] $Y : D \to [D^{op}, Set]$ this yields the functor
 $$
-  \bar L : D \stackrel{Y}{\to} 
-   [D^{op}, Set] \stackrel{L^*}{\to}
-   [C^{op}, Set]
-  \,,
+ \bar L : D \stackrel{Y}{\to}
+  [D^{op}, Set] \stackrel{L^*}{\to}
+  [C^{op}, Set]
+ \,.
 $$
-where $Y$ is the [[Yoneda embedding]]. 
 
 Notice that
 $$
@@ -71,3 +70,6 @@ naturally in $c$ and $d$. This isomorphism is the **adjunction isomorphism** and
 
 
 #Definition in terms of adjunction #
+
+The pair $L \vdash R$ is precisely an [[adjunction]] in the
+[[2-category]] [[Cat]] of categories.
