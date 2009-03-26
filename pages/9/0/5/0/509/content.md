@@ -35,7 +35,7 @@ $$
 $$
 with the obvious basepoint.  These constructions make $1/C$ itself a closed monoidal category, which is symmetric if $C$ is.  The unit is $I_+$, where $I$ is the unit for the monoidal structure on $C$.
 
-If $C$ is [[monoidal category|monoidal]] but not closed, the same definition of the smash product makes $1/C$ monoidal as long as the tensor product of $C$ preserves finite colimits in each variable separately.  If not, the smash product can fail to be associative; for instance, the smash product on the ordinary category [[Top]] (without any [[nice topological space|niceness conditions]] imposed) is not associative.
+If $C$ is [[monoidal category|monoidal]] but not closed, the same definition of the smash product makes $1/C$ monoidal as long as the tensor product of $C$ preserves finite colimits in each variable separately.  If not, the smash product can fail to be associative; for instance, the smash product on the ordinary category [[Top]] (without any [[nice category of spaces|niceness conditions]] imposed) is not associative.
 
 This construction is almost always applied only when $C$ is [[cartesian monoidal category|cartesian]] monoidal, but this restriction is not necessary.
 
