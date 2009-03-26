@@ -22,7 +22,7 @@ The central fact about a monoidal model category is that its homotopy category i
 
 # Examples #
 
-* A category of [[nice topological space]]s with cartesian product and the usual (Quillen) [[model structure on topological spaces|model structure]].
+* A [[nice category of spaces|nice category of topological spaces]] with cartesian product and the usual (Quillen) [[model structure on topological spaces|model structure]].
 
 * The category of [[simplicial set]]s with cartesian product and the usual (Quillen) [[model structure on simplicial sets|model structure]].
 
