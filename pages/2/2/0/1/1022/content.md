@@ -7,6 +7,8 @@ Note that the terminology varies.  The most precise division can be made between
 assumption. Some ask it to be cofiltered. But most do not ask any. It was funny when at Evanston at homotopy theory conference somebody gave a talk (name privately) inducing laughter in the audience by saying I will use old terms projective and inductive limit instead of limit and colimit, because there are two many dualizations in this business already so one gets easily confused (as if taking new name for co in some cases does simplicification to the confusion).
 
 _Toby_:  Does the paragraph above satisfy you, Zoran?
+
+_Zoran_: No, some people use term directed limit for a limit over directed set. This is precise if you prefer to assert the subtle subdivisions, and nobody questions this term (just some do not use it). As far as projective limit vs. limit the choice is now the matter of school. Many CATEGORY THEORY books define projective limit as a limit in general. For example Bucur-Deleanu influentiable category book is using only terms projective limit and inductive limit. 
 =--
 
 These were studied in algebra before the general notion of limit in category theory.  The elementary definition still seen there follows.
