@@ -65,6 +65,6 @@ Their importance as a basis for [[category theory]] has been emphasized in the w
 
 Jacob Lurie developed the theory of quasi-categories in
 
-* Jacob Lurie, _Higher Topos Theory_ ([arXiv](http://arxiv.org/abs/math/0608040))
+* Jacob Lurie, [[Higher Topos Theory]] ([arXiv](http://arxiv.org/abs/math/0608040))
 
 in order to discuss [[infinity-stack]]s.
