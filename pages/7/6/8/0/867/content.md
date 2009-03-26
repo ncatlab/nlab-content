@@ -18,7 +18,7 @@ A __poset__ is a [[category]] such that:
 * for any pair of objects $x, y$, there is at most one morphism from $x$ to $y$
 * if there is a morphism from $x$ to $y$ and a morphism from $y$ to $x$, then $x = y$.
 
-Equivalently, we may define a poset to be a [[skeleton|skeletal category]] enriched over the [[cartesian monoidal category]] of [[truth value]]s.
+Equivalently, we may define a poset to be a [[skeleton|skeletal category]] [[enriched category|enriched over]] the [[cartesian monoidal category]] of [[truth value]]s.
 
 When we do this, we are soon led to contemplate a slight generalization of partial orders: namely [[preorder|preorders]].  The reason is that the antisymmetry law, saying that $x \le y$ and $y \le x$ imply $x = y$, is [[evil]] in a certain technical sense.
 
