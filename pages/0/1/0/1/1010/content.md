@@ -55,6 +55,10 @@ Then using their usual encodings in set theory:
 
 Given a universe $U$, an element of $U$ is called a **$U$-small set**, while a subset of $U$ is called **$U$-large**.  Technically, every $U$-small set is $U$-large (by requirement 1), but often one uses 'large' to mean 'large but not small'.  However, note that there are many sets (such as the power set of $U$) that are still *too* large to be 'large'.  If the universe $U$ is understood, we may simply say **small** and **large**.
 
++--{: .query}
+[[Mike Shulman|Mike]]: Is this use of "$U$-large" standard?  I've always seen "large" used in the context of a universe to mean _any_ set that is not necessarily in $U$, while sometimes "moderate" means a set that is no larger than the universe (hence, essentially a subset of $U$).  The use of "large" here to mean what I am used to calling "moderate" threw me for quite a while.
+=--
+
 As such, these concepts are [[evil]], since two sets may be [[isomorphism|isomorphic]] yet have different properties with respect to $U$.  However, a set which is isomorphic to a $U$-small or $U$-large set is called **essentially** $U$-small or $U$-large; these concepts are non-evil.
 
 
@@ -158,11 +162,17 @@ The third is definitely an important notion, when you want to consider presheave
 [[Zoran Škoda]] Of course I mean the third notion, this is standard notion of smallness of presheaves. Representable presheaf even on category of all sets is considered small.
 And to use the Grothendieck universes you look at colimits of U-small diagrams of representables, and allow them. Of course the links above I put in order to refer to what I mean. Actually the lack of those is my only complaint about your paper set theory for category theory which I found useful and beautiful. 
 
-Finally look at this: the category of presheaves on a large category (I am not talking about universes) is not even defined in general, one needs to look at equivalence classes of functors sometimes, as the functors themselves are not small. I am not a practioner in these questions but the data for a functor which is a colimit of a small diagram of representatives can be made into a set. 
+Finally look at this: the category of presheaves on a large category (I am not talking about universes) is not even defined in general, one needs to look at equivalence classes of functors sometimes, as the functors themselves are not small. I am not a practioner in these questions but the data for a functor which is a colimit of a small diagram of representables can be made into a set. 
 
 When you say that this is not the place to talk about U-small presheaves, why it would be a place for what you call above U-presheaves ? The first seem to be more useful and standard in addressing the question of size of functors and functor categories. 
+
+[[Mike Shulman|Mike]]: I'm glad you liked my paper, thanks!  And thanks for the suggestion, too; it might be worth including a brief note about small functors.
+
+There are unfortunately a number of different uses of the word "small" in category theory.  This page is about Grothendieck universes, and on this page, "$U$-small" means "element of $U$."  On this page, we _are_ talking about universes, and part of the point is that the category of presheaves on a large category _is_ defined if "large" things are still sets (just not elements of $U$).  Of course, if one wants this category to have certain good properties, one may want to consider instead a subcategory of small things.
+
+The reason I don't think this page is the place to talk about "small presheaves" in the small-colimit-of-representables sense is that, no matter how useful they may be in addressing the question of size of functors and functor categories, this page is not about addressing the question of size of functors and functor categories; it is about Grothendieck universes.  Any discussion of functor categories should be aimed at clarifying the role played by Grothendieck universes.  A brief mention of "small presheaves" in your sense might not be amiss, with a link to a page called [[small presheaf]] or [[small functor]], but I think it would be too confusing to talk for very long about a different meaning of the word "small" on this page.
 =--
 
 # Alternative approaches #
 
-* A different, potentially much more elegant and natural proposal for solving the problem to be solved by Grothendieck universes is that described at [[michaelshulman:category of all sets|category of all sets]].
+* A different, potentially much more elegant and natural proposal for solving the problem to be solved by Grothendieck universes is that described at [[michaelshulman:category of all sets|category of all sets]].  Don't get your hopes up too high, though; even if it works, it isn't quite the category theory you're used to.
