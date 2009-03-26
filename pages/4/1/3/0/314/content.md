@@ -9,7 +9,8 @@ In some cases the category theoretic notion of limit does reproduce notions of l
 
 # Warning on terminology #
 
-Another equivalent term for limit is [[projective limit]]. Texts that say projective limit instead of just limit will use the symbol $\lim_{\leftarrow}$ instead of just $lim$. Correspondingly, these text will write [[inductive limit]] for [[colimit]] and denote this by $\lim_{\rightarrow}$.
+Another equivalent term for limit are [[projective limit]]
+and inverse limit. Texts that say projective limit instead of just limit will use the symbol $\lim_{\leftarrow}$ instead of just $lim$. Correspondingly, these texts will write [[inductive limit]], or direct limit for [[colimit]] and denote this by $\lim_{\rightarrow}$.
 
 In some circles "projective limit" for limit and "inductive limit" for colimit is considered outdated, but notice that in any case it lives on in the notion of [[pro-object]] and [[ind-object]].
 
