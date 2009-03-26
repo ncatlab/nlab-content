@@ -1,8 +1,12 @@
-A projective limit is a [[limit]] of a functor whose source is a [[direction|directed set]].
+A projective limit is a [[limit]] of a functor whose [[source]] is a [[direction|directed set]].  The [[duality|dual]] notion is that of [[inductive limit]].
+
+Note that the terminology varies.  The most precise division can be made between _projective limit_ where the source is a directed set (as here), _[[filtered limit]]_ where the source is a [[filtered category]], _[[inverse limit]]_ where the source is a [[partial order|poset]], and _limit_ where the source is arbitrary.  However, many authors will simply take whichever term they learnt first and apply it to all situations.  In any given context, after all, there can be no confusion; the source is whatever it is.
 
 +--{+ .query}
 [[Zoran Skoda]] This depends on an author. For us in algebraic geometry, projective limit is what you call limit. It does NOT need to be and often it isn't over directed set. Many in old school of topology put that 
-assumption. Some ask it to be cofiltered. But most do not ask any. It was funny when at Evanston at homotopy theory conference somebody gave a talk (name privately) inducing laughter in the audience by saying I will use old terms projective and inductive limit instead of limit and colimit, because there are two many dualizations in this business already so one gets easily confused (as if taking new name for co in some cases does simplicification to the confusion). 
+assumption. Some ask it to be cofiltered. But most do not ask any. It was funny when at Evanston at homotopy theory conference somebody gave a talk (name privately) inducing laughter in the audience by saying I will use old terms projective and inductive limit instead of limit and colimit, because there are two many dualizations in this business already so one gets easily confused (as if taking new name for co in some cases does simplicification to the confusion).
+
+_Toby_:  Does the paragraph above satisfy you, Zoran?
 =--
 
 These were studied in algebra before the general notion of limit in category theory.  The elementary definition still seen there follows.
@@ -28,6 +32,6 @@ As with other limits, a projective limit, if any exists at all, is unique up to 
 
 # In algebra #
 
-A projective limit in algebra is usually defined as a [[subobject|subalgebra]] of a [[cartesian product]].  To be precise, ${\textstyle \lim \atop \textstyle \longleftarrow}_i A_i$ consists of those elements $(a_i)_{i: I}$ of $\prod_{i: I} A_i$ such that:
-$$ a_i = f_ij(a_j) .$$
+A projective limit in algebra is usually defined as a [[subobject|subalgebra]] of a [[cartesian product]].  To be precise, ${\textstyle \lim \atop \textstyle \longleftarrow}_i A_i$ consists of those elements $(x_i)_{i: I}$ of $\prod_{i: I} A_i$ such that:
+$$ x_i = f_ij(x_j) .$$
 This can be seen as a special case of the construction of an arbitrary limit out of [[product]]s and [[equalizer]]s.
