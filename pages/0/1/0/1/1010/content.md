@@ -80,20 +80,6 @@ It is worth noting, for those with foundational worries, that the axiom of unive
 
 An equivalent concept (at least for the purposes of category theory) can also be defined in structural set theories (like [[ETCS]]).  See [[universe in a topos]].
 
-+-- {: .query}
-[[Urs Schreiber|Urs]]: unless I am missing something, the Grothendieck universe approach goes right against Lawvere's attitude to set theory as reviewed and emphasized at [[Trimble on ETCS I]]: that it is unnatural to consider membership of sets as a global relation, i.e. to handle sets and their elements on the same footing. On the contrary, for the above definition to even make sense, we have to assume that "everything is a set" (becuase the above definition tacitly assume that every element of a Grothendieck universe is itself a set). 
-
-So what is the analog of Grothendieck universes, or of what they accomplish in practice, in [[ETCS]]? How are the applications mentioned below handled in [[ETCS]] without use of Grothendieck universes?
-
-[[Todd Trimble|Todd]]: Urs asked me to comment here, although I don't consider myself all that qualified. I know Mike Shulman has thought at length about all these issues. 
-
-But a nice way of thinking of Grothendieck universes is as an internal topos object. That is, it is possible to express the notion of 'topos object' in any category with finite limits, and then one can define a Grothendieck universe within say a topos or pretopos of sets $E$ as such an internal topos object $U$ inside $E$. Mike?
-
-_Toby_:  The important point is the bit about cardinal numbers as I have written above.  The rest of the structural formulation *seems* right to me, but I wouldn\'t be surprised if I messed it up.  There is probably an elegant way to say this using [[indexed category|indexed categories]] anyway.  But the infinite strongly inacessible cardinal is the bottom line.
-
-[[Mike Shulman|Mike]]: I wrote [[universe in a topos]] by way of responding to this, since I thought it deserved its own page, and moved the relevant parts of the structural version above to there.
-=--
-
 
 # Examples #
 
@@ -156,3 +142,7 @@ the results of Chorny-Dwyer is cited  (I did not look yet how much used yet) by 
 [[Mike Shulman|Mike]]: I agree with Urs.
 
 =--
+
+# Alternative approaches #
+
+* A different, potentially much more elegant and natural proposal for solviung the problem to be solved by Grothendieck universes is that described at [[michaelshulman:category of all sets|category of all sets]].
