@@ -151,6 +151,12 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
 * [[limit]]
 
+  * [[colimit]]
+
+  * [[weighted limit]]
+
+  * [[continuous functor]]
+
 * [[Kan extension]]
 
 
