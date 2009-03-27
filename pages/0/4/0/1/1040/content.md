@@ -16,7 +16,9 @@ In the language of [[stuff, structure, property]], an idempotent monad may be sa
 
 _Toby_:  This means that it can only forget 'structure', not 'stuff' in the sense of [[stuff, structure, property]].  By definition, that means precisely that it is faithful.
 
-_Zoran_ Aha. I do not use that terminology. Word faithful is standard and 'not forgetting stuff' is confusing and too long in my view.  
+_Zoran_ Aha. I do not use that terminology. Word faithful is standard and 'not forgetting stuff' is confusing and too long in my view. 
+
+_Toby_:  It\'s not supposed to be a technical term but a guide to intuition.  Personally, I wouldn\'t include that sentence about not forgetting stuff, since the previous sentence already states that $C^T \to C$ always forgets at most structure.  But it does help me to get a feel for idempotent monads to see that, in that case, $C^T \to C$ forgets only property.
 =--
 
 # References#
