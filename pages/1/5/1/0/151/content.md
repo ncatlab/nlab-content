@@ -28,7 +28,7 @@ A _duality_ or _dual equivalence_ is an [[equivalence of categories|equivalence]
 
 #Remarks#
 
-* Often two categories are not related by a dual equivalence, but just by a [[dual adjunction]]: an [[adjunction]] between $C^{op}$ and $C$. But every dual adjunction induces a _maximal dual equivalence_ between subcategories of $C$ and $D$, as described below.
+* Often two categories are not related by a dual equivalence, but just by a [[dual adjunction]]: an [[adjoint functor|adjunction]] between $C^{op}$ and $C$. But every dual adjunction induces a _maximal dual equivalence_ between subcategories of $C$ and $D$, as described below.
 
 
 #Maximal dualities inside dual adjunctions#
