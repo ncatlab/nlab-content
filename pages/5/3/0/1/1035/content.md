@@ -2,6 +2,6 @@ An **preadditive category** is a category [[enriched category|enriched]] over [[
 
 In a preadditive category, any [[initial object|initial]] or [[terminal object|terminal]] object is automatically a [[zero object]]; more generally, any finite [[product]] or [[coproduct]] is automatically a [[biproduct]].  However, these need not exist at all.
 
-An **additive category** is a preadditive category in which finite biproducts.  But originally (and often still) this requirement is not included in the term 'additive'.
+An **additive category** is a preadditive category having all finite biproducts.  But originally (and often still) this requirement is not included in the term 'additive'.
 
 An especially important sort of additive category is an [[abelian category]].
