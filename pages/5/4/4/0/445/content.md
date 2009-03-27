@@ -1,6 +1,6 @@
 Let $C$ be a category, and $f: c \to d$ be a morphism. The **image** of $f$ is the smallest [[subobject]] $s \subseteq d$ through which $f$ factors (if it exists). There is a [[duality|dual]] notion of _co-image_: the largest [[quotient object|quotient]] of $c$ through which $f$ factors. 
 
-Alternatively, let $C/d$ be the [[over category|slice category]] over $d$, and let $Mono(C)/d$ be the full subcategory whose objects are monos into $d$. Assuming images exist in $C$, taking the image of a map $f: c \to d$ provides a [[adjunction|left adjoint]] 
+Alternatively, let $C/d$ be the [[over category|slice category]] over $d$, and let $Mono(C)/d$ be the full subcategory whose objects are monos into $d$. Assuming images exist in $C$, taking the image of a map $f: c \to d$ provides a [[adjoint functor|left adjoint]] 
 
 $$C/d \to Mono(C)/d$$ 
 
