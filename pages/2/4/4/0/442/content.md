@@ -34,7 +34,7 @@ $$F(1) \to F(2)$$
 which by freeness corresponds to an element $1 \to F(2)$, and the element we are after should the product $a b$ of the generators $a, b$ of the free group $F(2) = F(a, b)$. The generators $a, b$ themselves correspond to the two coproduct inclusions 
 $$i_1: F(1) \to F(1) + F(1) = F(2) \qquad i_2: F(1) \to F(1) + F(1) = F(2)$$ 
 
-Then, since $M$ is assumed to [[product-preserving functor|preserve products]], we obtain a map 
+Then, since $M$ is assumed to [[exact functor|preserve products]], we obtain a map 
 $$G \times G = M(x) \times M(x) \cong M(x^2) \stackrel{M(m)}{\to} M(x) = G$$ 
 and this defines the group multiplication on $G$. The group identity and group inversion on $G$ are defined by following similar recipes. 
 
