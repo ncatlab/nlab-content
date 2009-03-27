@@ -3,7 +3,7 @@ $$y_S: S \to Set^{S^{op}}$$
 of a [[small category]] $S$ into the category $Set^{S^{op}}$ of [[presheaf|presheaves]] on $S$ 
 is universal among functors from $S$ into (small) [[cocomplete category|cocomplete categories]], in the sense that given a functor $F: S \to D$ where $D$ is cocomplete, there exists a unique (up to isomorphism) [[cocontinuous functor|cocontinuous]] extension 
 $$\hat{F}: Set^{S^{op}} \to D,$$
-meaning that $\hat{F} y_S \cong F$ and $\hat{F}$ preserves small colimits. Indeed, the desired $\hat{F}$ is [[adjunction|left adjoint]] to the functor 
+meaning that $\hat{F} y_S \cong F$ and $\hat{F}$ preserves small colimits. Indeed, the desired $\hat{F}$ is [[adjoint functor|left adjoint]] to the functor 
 $$D \to Set^{S^{op}}: d \mapsto \hom_D(F-, d)$$ 
 
 An explicit formula for the left adjoint is given by the [[weighted colimit]] or [[end|coend]] formula 
