@@ -7,6 +7,15 @@ The corresponding universal object for morphisms _out_ of the diagram is the [[c
 
 In some cases the category theoretic notion of limit does reproduce notions of limit as known from analysis. See the examples below.
 
+## Global versus local ##
+
+There is a _local_ definition of limits (in terms of cones), that defines a limit (if it exists) for each individual diagram, and there is a _global_ definition, which defines the limit for _all_ diagrams (in terms of an [[adjoint functor|adjoint]]).
+
+If all limits over the given shape of diagrams exist in a category, then both definitions are equivalent.
+
+See also the analogous discussion at [[homotopy limit]].
+
+
 # Warning on terminology #
 
 Another equivalent term for limit are [[projective limit]]
@@ -16,7 +25,7 @@ In some circles "projective limit" for limit and "inductive limit" for colimit i
 
 Moreover, a limit is taken over a [[functor]] $F : D^{op} \to C$ and since the functor comes equipped with the information about what its domain is, one can just write $\lim F$ for its limit. But often it is helpful to indicate how the functor is evaluated on objects, in which case the limit is written $\lim_{d \in D} F(d)$, for emphasis. 
 
-# Definition in terms of representable functors #
+# Local definition in terms of representable functors #
 
 There is a general abstract definition of limits
 in terms of representable functors, which we 
@@ -293,34 +302,11 @@ $$
 $$
 
 
+# Global Definition in terms of adjoint of the constant diagram functor #
 
-## Definition in terms of universal cones ##
+Given categories $D$ and $C$, limits over functors $D^{op} \to C$ may exist for some functors, but not for all. If it does exist for all functors, then the above _local definition_ of limits is equivalent to the following _global definition_.
 
-A **limit** of some [[diagram]] $F$ is a [[universal construction|universal]] [[cone]] to $F$. In more detail, it is a cone $\theta$ from an object denoted $lim F$ to $F$, such that given any cone $\gamma: \Delta c \to F$, there exists a unique morphism $f: c \to lim F$ such that 
-
-$$
-  (\Delta c
-    \stackrel{\gamma}{\to}
-   F
-   )
-    = 
-  (
-  \Delta c 
-    \stackrel{\Delta f}{\to} 
-  \Delta lim F 
-    \stackrel{\theta}{\to} 
-  F
-  )
-$$ 
-
-(Given $f: c \to d$, $\Delta f: \Delta c \to \Delta d$ is the evident natural transformation whose component at each object $j$ of $J$ is $f: c \to d$.) 
-
-[To be continued...]
-
-
-# Definition in terms of adjoint of the constant diagram functor #
-
-For $D$ a [[small category]] and $C$ a category the [[functor category]] $[D,C]$ is the category of $D$-[[diagram]]s in $C$.  Pullback along the functor $D \to pt$ to the [[terminal object|terminal]] category $pt = \{\bullet\}$ induces a functor
+For $D$ a [[small category]] and $C$ any category, the [[functor category]] $[D,C]$ is the category of $D$-[[diagram]]s in $C$.  Pullback along the functor $D \to pt$ to the [[terminal object|terminal]] category $pt = \{\bullet\}$ induces a functor
 $$
   const :  C \to [D,C]
 $$
@@ -335,9 +321,11 @@ which sends every diagram to its [[colimit]] and the [[adjoint functor|right adj
 $$
   lim_D : [D,C] \to C
 $$
-which sends every diagram to its [[limit]]. The Hom-isomorphisms of these adjunctions state precisely the universal property of [[limit]] and [[colimit]] given above.
+which sends every diagram to its [[limit]]. The Hom-isomorphisms of these [[adjunction]]s state precisely the universal property of [[limit]] and [[colimit]] given above.
 
-From this perspective, a limit is a special case of a [[Kan extension]], as described there.
+## Relation to Kan extension ##
+
+From this perspective, a limit is a special case of a [[Kan extension]], as described there, namely a Kan extension to the [[point]].
 
 
 #Examples#
