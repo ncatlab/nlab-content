@@ -184,9 +184,20 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
 #3 Filtrant Limits#
 
+* [[filtrant category]]
+
+* [[filtrant colimit]]
+
+
 #4 Tensor Categories#
 
 * [[monoidal category]]
+
+  * [[braided monoidal category]]
+
+  * [[closed monoidal category]]
+
+
 
 #5 Generators and Representability#
 
