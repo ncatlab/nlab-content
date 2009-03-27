@@ -2,7 +2,7 @@ In a [[category]] $C$ with a [[terminal object]], a **pointed object** is an [[o
 
 A pointed object is distinguished from an [[inhabited set|inhabited]] one in that the chosen point is _structure_ rather than a property.  In particular, a morphism of pointed objects is a morphism in the original category which preserves the points.  In other words, the category of pointed objects in $C$ is the [[under category|co-slice category]] $1/C$ under the terminal object.
 
-There is an obvious [[forgetful functor]] from $1/C$ to $C$.  If $C$ has finite coproducts, this functor has a left [[adjunction|adjoint]] which takes an object $X$ to the coproduct $1\sqcup X$, equipped with its obvious point.  This is often written $X_+$ and called "$X$ with a disjoint basepoint adjoined."
+There is an obvious [[forgetful functor]] from $1/C$ to $C$.  If $C$ has finite coproducts, this functor has a left [[adjoint functor]] which takes an object $X$ to the coproduct $1\sqcup X$, equipped with its obvious point.  This is often written $X_+$ and called "$X$ with a disjoint basepoint adjoined."
 
 
 ## Examples ##
