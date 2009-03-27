@@ -13,7 +13,9 @@ $$
 $$
 
 is, if it exists, a "best approximation" to extending the domain of $F$ through $p$ from $C$ to $C'$.
-
++-- {: .query}
+[[Tim Porter|Tim]]:  Strictly speaking the above idea does not correspond to the first of the definitions below. A particular Kan extension of one functor along another can exist without there being an adjoint to the functor induced by composition with $p$, which would imply that the extension exists for all $F$.
+=--
 
 #Definition#
 
