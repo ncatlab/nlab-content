@@ -1,4 +1,4 @@
-A functor $F : C \to D$ between categories is said to be an **[[equivalence]]** if there is a functor $G : D \to C$ that is a weak inverse for it, meaning that $F G$ is [[natural isomorphism|naturally isomorphic]] to the identity functor $1_C$, and $G F$ is naturally isomorphic to $1_D$.  Sometimes an _equivalence_ means a pair of functors $F$ and $G$ together with natural isomorphisms $F G\cong 1_C$ and $F G \cong 1_D$.  Any such equivalence can be improved to an **adjoint equivalence** in which these natural isomorphisms satisfy the [[adjoint functor|triangle identities]].  Two categories $C$ and $D$ are said to be **equivalent** if there is an equivalence between them.
+A functor $F : C \to D$ between categories is said to be an **[[equivalence]]** if there is a functor $G : D \to C$ that is a weak inverse for it, meaning that $F G$ is [[natural isomorphism|naturally isomorphic]] to the identity functor $1_C$, and $G F$ is naturally isomorphic to $1_D$.  Sometimes an _equivalence_ means a pair of functors $F$ and $G$ together with natural isomorphisms $F ; G\cong 1_C$ and $F \circ G \cong 1_D$.  Any such equivalence can be improved to an **adjoint equivalence** in which these natural isomorphisms satisfy the [[adjoint functor|triangle identities]].  Two categories $C$ and $D$ are said to be **equivalent** if there is an equivalence between them.
 
 This definition is correct if the [[axiom of choice]] holds; otherwise, you should use weak equivalences or equivalences of anafunctors; see the discussion below.
 
@@ -35,4 +35,6 @@ is fraught with peril.  For instance, the 2-category that is a free-living adjoi
 [[Zoran Skoda]]: I do not understand the clause
 "the 2-category that is a free-living adjoint equivalence is equivalent to the terminal 2-category" at all. 
 I have no idea what is a free-living adjoint equivalence, and how a 2-category can be an example of such an equivalence. Or you want to make some sort of 2-cat out of adjoint equivalences ? Please English...
+
+_Toby_:  It means a $2$-category with objects $C$ and $D$, morphisms $f: C \to D$, $g: D \to C$, iso-$2$-cells $\iota: \id_C \to f ; g$ and $\epsilon: g ; f \to id_D$, such that the triangle identities are satisfied, and everything else that is needed to make a $2$-category (the required composites and such).  In other words, it\'s the free $2$-category on the data in an adjoint equivalence.
 =--
