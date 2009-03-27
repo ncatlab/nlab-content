@@ -110,15 +110,32 @@ Hence indeed, by the above yoga, they forget this extra structure but remember t
 
 The embedding of abelian groups into all groups, $F :$ [[Ab]] $\to$ [[Grp]] is faithful and full, but not essentially surjective. Hence it should remember stuff and structure but forget property. Indeed, the property it forgets is the property "is abelian" which is a property of the group _structure_ sitting on the underlying set of a group. Hence the sequence of functors
 $$
-  Ab \to Grp \to Set \to Pt
+  Ab \to Grp \to Set \to pt
 $$
-(with [[point|Pt]] the terminal category) successively forgets first a property (being abelian) then a structure (group structure on a set) then stuff (the underlying set).
+(with [[point|pt]] the terminal category) successively forgets first a property (being abelian) then a structure (group structure on a set) then stuff (the underlying set).
 
+Notice that the order here is backwards from the automatic factorisation given by the $3$-way factorisation system described above.  (And in fact, the structure forgotten here is not 'pure'; $Grp \to Set$ is not essentially surjective.)  Inded, the above factorisation is arbitrary; it comes from seeing an abelian group as a group with an extra property and a group as a set with extra structure, but one may view things differently (for example, that an abelian group is a [[monoid]] with extra property).
 
+The automatic factorisation is in fact like this (up to [[equivalence of categories]]):
+$$
+  Ab \to \pt \to \pt \to \pt
+$$
+because the original functor $Ab \to \pt$ is already essentially surjective and full.  In other words, from the perspective of $\pt$, an abelian group is simply extra stuff.
 
+More interestingly, we can factor the forgetful functor $Ab \to Set$:
+$$
+  Ab \to Ab \to Set \setminus \{\empty\} \to Set
+$$
+Here, the first part is trivial because $Ab \to Set$ is faithful.  The category $Set \setminus \{\empty\}$ is the category of [[inhabited set]]s, that is the category of sets that are capable of being equipped with the structure of an abelian group.  So from the point of view of its underlying set, an abelian group is a set with the *property* that it is inhabited and the *structure* of an abelian group but no additional *stuff*.
+
+For something interesting at every level, take the functor $Ab \times Ab \to Set$ that takes the underlying set of the first abelian group.  This factors as follows:
+$$
+  Ab \times Ab \to Ab \to Set \setminus \{\empty\} \to Set
+$$
+So a pair of abelian groups (from the perspective of the underlying set of the first one) consists of the *property* that the set is inhabited, then the *structure* of an abelian group on that set, and finally extra *stuff* consisting of the entire second group.
 
 #References#
 
 * [original UseNet discussion](http://math.ucr.edu/home/baez/qg-spring2004/discussion.html) on `sci.physics.research` in 1998;
 * a pedagogical comparison to quadratic, linear, and constant polynomials ([PDF](http://math.ucr.edu/home/baez/qg-spring2004/polynomials.pdf)) by Toby Bartels in 2004;
-* [section 2.4, p. 15](http://arxiv.org/PS_cache/math/pdf/0608/0608420v2.pdf#page=15) of J. Baez and M. Shulman, _Lectures on $n$-categories and cohomology_ ([arXiv](http://arxiv.org/abs/math/0608420)).
+* [section 2.4, p. 15](http://arxiv.org/PS_cache/math/pdf/0608/0608420v2.pdf#page=15) and [section 3.1, p. 17](http://arxiv.org/PS_cache/math/pdf/0608/0608420v2.pdf#page=17) of J. Baez and M. Shulman, _Lectures on $n$-categories and cohomology_ ([arXiv](http://arxiv.org/abs/math/0608420)).
