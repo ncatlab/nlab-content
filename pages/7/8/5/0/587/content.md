@@ -64,7 +64,7 @@ Notice that, the exact definition of equality of morphisms can depend heavily on
 
 +--{.un_example}
 ###### Exercise
-Now that the category of contexts of the theory of a group has been completely defined, describe that category (up to [[equivalence of categories|equivalence]]) in terms familiar to an algebraist.  In particular, compare it to the [[Grp|category of groups]].
+Now that the category of contexts (in one sense) of the theory of a group has been completely defined, describe that category (up to [[equivalence of categories|equivalence]]) in terms familiar to an algebraist.  In particular, compare it to the [[Grp|category of groups]].
 =--
 
 +--{.proof}
@@ -76,6 +76,8 @@ In [rot13](http://www.rot13.com/): gur bccbfvgr bs gur pngrtbel bs svavgryl cerf
 [[Finn Lawler]] Shouldn't that be 'gur bccbfvgr bs gur pngrtbel bs svavgryl trarengrq serr tebhcf'?
 
 Wait, never mind.  I was confusing categories of contexts with Lawvere theories, which don't allow equations in contexts.  I can see how those would give you gur bccbfvgr bs gur pngrtbel bs svavgryl cerfragrq tebhcf.
+
+_Toby_:  Right.  Nothing wrong with your other answer, it just depends on what you mean by 'context'.
 =--
 
 # Display morphisms
