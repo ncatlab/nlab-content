@@ -42,7 +42,7 @@ Tom Leinster has written about "comparative $\infty$-categoriology" (to [borrow]
 
 * Tom Leinster, _Higher Operads, Higher Categories_ ([arXiv](http://arxiv.org/abs/math/0305049))
 
-The theory of [[quasi-category|quasi-categories]] $(\infty, 1)$-categories (see [[homotopy theory]]) has reached a point where it is well developed and being applied to a wealth of problems with
+The theory of [[quasi-category|quasi-categories]] as $(\infty, 1)$-[[(infinity,1)-category|categories]] has reached a point where it is well developed and being applied to a wealth of problems with
 
 * Jacob Lurie, [[Higher Topos Theory]] ([arXiv](http://arxiv.org/abs/math.CT/0608040))
 
