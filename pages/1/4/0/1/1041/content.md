@@ -13,6 +13,8 @@ the cokernel iso iso as required.
 [[Mike Shulman|Mike]]: Why is the canonical comparison map mono and epi?  It's late for me too right now, but I think that maybe a counterexample is the "multiplication by 2" map $\mathbb{Z}\to \mathbb{Z}$ in the  category of torsion-free abelian groups.
 
 However, if you assume explicitly that that comparison map is always an isomorphism, then I believe it for the reasons that you gave.
+
+[[Zoran Skoda]] I do not see this as a counterexample, as this is not a pre-abelian category, you do not have cokernels in this category ? In a pre-abelian category always the canonical map from coker ker to ker coker has its own kernel 0 and cokernel 0.
 =--
 
 Equivalently, an abelian category is a category enriched over the category [[Ab]] of abelian groups, with a [[zero object|null object]], binary [[biproduct]]s, kernels, cokernels and such that
