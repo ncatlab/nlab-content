@@ -14,7 +14,7 @@ This can be read as a characterization of the Hom-object $Hom(b,c)$ and is the b
 
 # Definition #
 
-A symmetric [[monoidal category]] $C$ is **closed** if for all objects $b \in C_0$ the functor $ - \otimes b : C \to C$ has a [[adjunction|right adjoint]] functor $[b,-] : C \to C$.
+A symmetric [[monoidal category]] $C$ is **closed** if for all objects $b \in C_0$ the functor $ - \otimes b : C \to C$ has a [[adjoint functor|right adjoint]] functor $[b,-] : C \to C$.
 
 This means that for all $a,b,c \in C_0$ we have a bijection
 
