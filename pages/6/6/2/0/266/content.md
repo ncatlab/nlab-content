@@ -152,6 +152,13 @@ Note, however, that _not_ all Kan extensions (in the universal-transformation se
 
 Kan extensions that are computed by limits and colimits are sometimes called **pointwise** Kan extensions, as in [[Categories Work]].  On the other hand, some authors (such as Kelly) assert that only pointwise Kan extensions deserve the name "Kan extension," and use a term such as "weak Kan extension" for a functor equipped with a universal natural transformation.  It is certainly true that most Kan extensions which arise in practice are pointwise.  This distinction is even more important in [[enriched category]] theory.
 
+The basic example for left Kan extensions using the above formula, is in the construction of the pullback of sheaves along a morphism of topological spaces. Let $f:X\to Y$ be a continuous map and $F$ a presheaf over $X$. Then the formula $(f_* F)(U) = F(f^{-1}(U))$ clearly defines a presheaf $f_* F$ on $Y$, which is in fact a sheaf if $F$ is.
+On the other hand, given a presheaf $G$ over $Y$ we can not
+define pullback presheaf $(f^{-1} G)(V)=G(f(V))$ because $f(V)$ might not be open in general (unless $f$ is an open map). For Grothendieck sites such $f(V)$ would not make even sense. But one can consider pproximating from above by $G(W)$ for all $W\supset f(V)$ which are open and take a colimit of this diagram of inclusions (all $W$ are bigger, so getting down to the lower bound means going reverse to the direction of inclusions). But inclusion $f(V)\subset W$ implies $V\subset f^{-1}(f(V))\subset f^{-1}(W)$. The latter identity $V\subset f^{-1}(W)$ involves _only open sets_. Thus we take a colimit over the comma category $(V\downarrow f^{-1})$ of $G$. If $G$ is a sheaf, the colimit $G(V)$ understood as a rule $V\mapsto G(V)$ is still not a sheaf, we need to sheafify. The result is sheaf-theoretic pullback 
+$$
+f^{-1}G = \mathrm{sheafify}(V\mapsto\mathrm{colim}_{V\hookrightarrow f^{-1}W} G(W)) = \mathrm{sheafify}(V\mapsto\mathrm{colim}_{(V\downarrow f^{-1})} G)
+$$ 
+which is a sheaf and one can analyze this construction to show that $f^{-1}$ is a right adjoint to $f_*$. This usage of left Kan extension persists in the more general case of Grothendieck topologies. 
 
 ## Global definition: adjoint to pullback of functor categories ##
 
@@ -206,10 +213,10 @@ In that sense one would denote this functor by $p^*$ and call the (left or right
 
 On the other hand, a crucial application of Kan extensions is to [[presheaf]] categories, i.e. to situations where $C = S^{op}$ and $S' = C'^{op}$ with $S$ and $S'$ both being [[site]]s.
 
-In these cases the [[site]] may be thought of as representing a topological space. In particular $S$ may be the [[poset]] $Op(X)$ of open subsets of a topological space $X$ and simlarly for $S'$. In that case morphisms of sites
+In these cases the [[site]] may be thought of as representing a topological space. In particular $S$ may be the [[poset]] $Open(X)$ of open subsets of a topological space $X$ and inclusions and simlarly for $S'$. In that case, morphisms of sites
 
 $$
-  O(X)^{op} \to O(X')^{op}
+  Open(X)^{op} \to Open(X')^{op}
 $$ 
 come from morphisms of topological spaces going the other way
 $$
