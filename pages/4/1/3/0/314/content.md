@@ -307,22 +307,33 @@ $$
 
 Given categories $D$ and $C$, limits over functors $D^{op} \to C$ may exist for some functors, but not for all. If it does exist for all functors, then the above _local definition_ of limits is equivalent to the following _global definition_.
 
-For $D$ a [[small category]] and $C$ any category, the [[functor category]] $[D,C]$ is the category of $D$-[[diagram]]s in $C$.  Pullback along the functor $D \to pt$ to the [[terminal object|terminal]] category $pt = \{\bullet\}$ induces a functor
+For $D$ a [[small category]] and $C$ any category, the [[functor category]] $[D^{op},C]$ is the category of $D$-[[diagram]]s in $C$.  Pullback along the functor $D^{op} \to pt$ to the [[terminal object|terminal]] category $pt = \{\bullet\}$ induces a functor
 $$
-  const :  C \to [D,C]
+  const :  C \to [D^{op},C]
 $$
 which sends every object of $C$ to the diagram functor constant on this object.
 
 The [[adjoint functor|left adjoint]]
 $$
-  colim_D : [D,C] \to C
+  colim_D : [D^{op},C] \to C
 $$
 of this functor is, if it exists, the functor
 which sends every diagram to its [[colimit]] and the [[adjoint functor|right adjoint]] is, if it exists, the functor
 $$
-  lim_D : [D,C] \to C
+  lim_D : [D^{op},C] \to C
 $$
 which sends every diagram to its [[limit]]. The Hom-isomorphisms of these [[adjunction]]s state precisely the universal property of [[limit]] and [[colimit]] given above.
+
+Concretely this means that for all $c \in C$ we have a bijection
+$$
+  Hom_C(c, \lim F)
+  \simeq
+  Hom_{[D^{op},C]}(const_X, F)
+  \,.
+$$
+
+Compare this with the discussion at [[Kan extension]].
+
 
 ## Relation to Kan extension ##
 
