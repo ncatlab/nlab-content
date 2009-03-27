@@ -1,4 +1,4 @@
-If $F\dashv G$ is an [[adjunction]] between [[category|categories]] $C$ and $D$, it comes with a [[bijection]]
+If $F\dashv G$ is an [[adjoint functor|adjunction]] between [[category|categories]] $C$ and $D$, it comes with a [[bijection]]
 $$ D(F X,Y) \cong C(X,G Y) $$
 for any object $X\in C$ and $Y\in D$.  Two morphisms $f:F X \to Y$ and $\overline{f}:X \to G Y$ which correspond under this bijection are said to be **adjuncts** of each other.  That is, $\overline{f}$ is the adjunct of $f$ and $f$ is the adjunct of $\overline{f}$.
 
