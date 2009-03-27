@@ -60,6 +60,6 @@ Now let $L_{\neg\neg}$ denote the poset of _regular_ elements of $L$, that is, t
 $$F: Heyt \to Bool$$
 called _Booleanization_, which is left adjoint to the full and faithful inclusion 
 $$i: Bool \hookrightarrow Heyt.$$
-The unit of the [[adjunction]], applied to a Heyting algebra $L$, is the map $L \to L_{\neg\neg}$ which maps each element $x$ to its _regularization_ $\neg\neg x$. $\Box$
+The unit of the [[adjoint functor|adjunction]], applied to a Heyting algebra $L$, is the map $L \to L_{\neg\neg}$ which maps each element $x$ to its _regularization_ $\neg\neg x$. $\Box$
 
 * Thus $\neg\neg: L \to L_{\neg\neg}$ preserves finite joins and finite meets and implication. In the other direction, we have an inclusion $i: L_{\neg\neg} \to L$, and this preserves meets but not joins, and negations but not implications generally. 
