@@ -20,7 +20,7 @@ The [[adjoint functor theorem]] states that any continuous functor between [[com
 
 If $C$ has finite [[limit]]s, then functors commuting 
 with these _finite_ limits are precisely what are
-called [[exact functor]]s.
+called left [[exact functor]]s.
 
 
 #Examples#
