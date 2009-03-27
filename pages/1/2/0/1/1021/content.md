@@ -1,1 +1,3 @@
-See [[adjoint functor]].
+See [[adjunction]].
+
+category: redirect
