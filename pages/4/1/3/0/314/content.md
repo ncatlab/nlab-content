@@ -5,26 +5,28 @@ In [[category theory]] a limit of a [[diagram]] $F : D \to C$ in a [[category]] 
 The limit construction has a wealth of applications throughout category theory and mathematics in general. On heuristic grounds it is possibly best thought of in the context of [[representable functor]]s as a **classifying space** for maps into a diagram. So in some sense the limit object $lim F$ "subsumes" the entire diagram $F(D)$ into a single object, as far as morphisms _into_ it are concerned.
 The corresponding universal object for morphisms _out_ of the diagram is the [[colimit]].
 
-In some cases the category theoretic notion of limit does reproduce notions of limit as known from analysis. See the examples below.
+Often, the general theory of limits (but not colimits!) works better if the source of $F$ is taken to be the [[opposite category]] $D^op$ (or equivalently, if $F$ is taken to be a [[contravariant functor]]).  This is what we do below.  In any given situation, of course, you use whatever categories and functors you\'re interested in.
+
+In some cases the category-theoretic notion of limit does reproduce notions of limit as known from analysis. See the examples below.
 
 ## Global versus local ##
 
-In correspondence to the _local_ defintion of [[adjoint functor]]s (as discussed there),
-there is a _local_ definition of limits (in terms of cones), that defines a limit (if it exists) for each individual diagram, and there is a _global_ definition, which defines the limit for _all_ diagrams (in terms of an [[adjoint functor|adjoint]]).
+In correspondence to the _local_ defintion of [[adjoint functor]]s (as discussed there), there is a _local_ definition of limits (in terms of cones), that defines a limit (if it exists) for each individual diagram, and there is a _global_ definition, which defines the limit for _all_ diagrams (in terms of an [[adjoint functor|adjoint]]).
 
 If all limits over the given shape of diagrams exist in a category, then both definitions are equivalent.
 
 See also the analogous discussion at [[homotopy limit]].
 
 
-# Warning on terminology #
+# Terminology and notation #
 
-Another equivalent term for limit are [[projective limit]]
-and inverse limit. Texts that say projective limit instead of just limit will use the symbol $\lim_{\leftarrow}$ instead of just $lim$. Correspondingly, these texts will write [[inductive limit]], or direct limit for [[colimit]] and denote this by $\lim_{\rightarrow}$.
+A limit is taken over a [[functor]] $F : D^{op} \to C$ and since the functor comes equipped with the information about what its domain is, one can just write $\lim F$ for its limit. But often it is helpful to indicate how the functor is evaluated on objects, in which case the limit is written $\lim_{d \in D} F(d)$; this is used particularly when $F$ is given by a formula (as with other notation with bound variables.)
 
-In some circles "projective limit" for limit and "inductive limit" for colimit is considered outdated, but notice that in any case it lives on in the notion of [[pro-object]] and [[ind-object]].
+In some schools of mathematics, limits are called _projective limits_, while colimits are called _inductive limits_.  Also seen are (repsectively) _inverse limits_ and _direct limits_.  Both these systems of terminology are alternatives to using 'co-' when distinguishing limits and colimits.  The first system also appears in [[pro-object]] and [[ind-object]].
 
-Moreover, a limit is taken over a [[functor]] $F : D^{op} \to C$ and since the functor comes equipped with the information about what its domain is, one can just write $\lim F$ for its limit. But often it is helpful to indicate how the functor is evaluated on objects, in which case the limit is written $\lim_{d \in D} F(d)$, for emphasis. 
+Correspondingly, the symbols $lim_{\leftarrow}$ and $lim_{\rightarrow}$ are used instead of $lim$ and $colim$.  (Actually, the arrows should be directly underneath the '$lim$'s, something like ${\lim \atop \longleftarrow}$ and ${\lim \atop \longrightarrow}$.  But the text should also be at normal size.)
+
+Confusingly, many authors restrict the meanings of these alternative terms to (co)limits whose sources are [[direction|directed set]]s; see [[directed limit]].  In fact, this is the original meaning; projective and inductive limits in this sense were studied in algebra before the general category-theoretic notion of (co)limit.
 
 # Local definition in terms of representable functors #
 
