@@ -1,3 +1,5 @@
+#Definition#
+
 A [[functor]] $F :  C \to D$ is **continuous** if it preserves all small ([[weighted limit|weighted]]) [[limit]]s that exist in $C$, i.e. if for 
 every [[small category]] [[diagram]] $A : E \to C$ in $C$ there is an isomorphism
 
@@ -7,9 +9,19 @@ $$
 $$
 
 
-(... say more ...)
+#Relation to other conecpt#
+
+
+##Relation to adjoint functors##
 
 The [[adjoint functor theorem]] states that any continuous functor between [[complete category|complete]] categories has a [[adjoint functor|left adjoint]] if it satisfies a certain 'small solution set' criterion.
+
+##Relation to exact functors ##
+
+If $C$ has finite [[limit]]s, then functors commuting 
+with these _finite_ limits are precisely what are
+called [[exact functor]]s.
+
 
 #Examples#
 
