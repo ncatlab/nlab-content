@@ -29,4 +29,10 @@ whereas considering
 
 * a pair of functors with the _structure_ of being a _non-adjoint_ equivalence (that is, merely a pair of natural isomorphisms $F G \cong 1$ and $1\cong G F$).
 
-is fraught with peril.  For instance, the 2-category that is a free-living adjoint equivalence is equivalent to the terminal 2-category, whereas the free-living non-adjoint equivalence is not.  Including adjoint equivalences is also the only way to make a higher-categorical structure completely _algebraic_.
+is fraught with peril.  For instance, the 2-category that is a free-living adjoint equivalence is equivalent to the terminal 2-category, whereas the free-living non-adjoint equivalence is not. Including adjoint equivalences is also the only way to make a higher-categorical structure completely _algebraic_.
+
++--{+ .query}
+[[Zoran Skoda]]: I do not understand the clause
+"the 2-category that is a free-living adjoint equivalence is equivalent to the terminal 2-category" at all. 
+I have no idea what is a free-living adjoint equivalence, and how a 2-category can be an example of such an equivalence. Or you want to make some sort of 2-cat out of adjoint equivalences ? Please English...
+=--
