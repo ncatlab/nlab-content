@@ -96,4 +96,9 @@ _David Roberts_: A coverage in Johnstone's sense is even weaker than requiring p
 
 _Mike_: Yes, that's what I intended by "stability under pullback (which can be defined even without required the underlying category to have pullbacks)."  But what you said is more correct.
 
+_Zoran_ "relationship between a category and its topology is quite different from the relationship between a set and its topology. In particular, when we construct a site from a topological space, the objects of the category are the open sets, not the points, of the space."
+
+I do not understand guys what is the complaint here. Classically topology is a FAMILY of open sets, not family of points. Who cares what kind of data determine open sets,
+this can always be generalized. But in any case, any proper generalization of topology of a top space is a collection of local windows into the space, which you call open sets.
+If they are determined by more than just points that means you have to give some orientation about where they lie. That is why you put the morphisms into the game. In noncommutative geometry there are other generalizations and nobody complains against word topology. For example the lattice of hereditary torsion theories. Over there one does not have stability axiom, pullback of cover will not be necessarily a cover. Van Oystaeyen has axiomatized this situation. There are oter approaches like Q-categories, where sheaf theory looks more like in Lawvere-Tierney approach. 
 =--
