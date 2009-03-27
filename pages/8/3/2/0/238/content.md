@@ -16,6 +16,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
+  * created [[Yoneda extension]]
+
+  * added section to [[Kan extension]] on formulas in terms of limits and colimits over comma categories;
+
   * added a section on the "local" computation of adjoint functors at [[adjoint functor]] and point out how this induces the local/global dichotomy at [[limit]], [[homotopy limit]] and [[Kan extension]] (see my previous modification below)
 
   * if I noticed correctly, [[Mike Shulman|Mike]] had changed my original notation $p^* := - \circ p : [C',D] \to [C,D]$ for precomposition with a functor $p : C \to C'$ (pullback notation) at [[Kan extension]] to $p_*$ (pushforward notation). I have now added a section _Remark on terminology: pushforward vs. pullback_ which is supposed to clarify this terminology issue.
