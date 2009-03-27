@@ -6,7 +6,7 @@ A directed $n$-graph is like an [[n-category]] with units and composition forgot
 
 $$U : n\Cat \to n\DiGraph$$
 
-where $n\DiGraph$ is the category of directed $n$-graphs and $n\Cat$ is the category of small $n$-categories.  Moreover, this forgetful functor has a [[left adjoint]] 
+where $n\DiGraph$ is the category of directed $n$-graphs and $n\Cat$ is the category of small $n$-categories.  Moreover, this forgetful functor has a [[adjoint functor|left adjoint]] 
 
 $$F : n\DiGraph \to n\Cat $$
 
