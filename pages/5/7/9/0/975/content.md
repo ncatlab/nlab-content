@@ -186,7 +186,7 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
 * [[filtrant category]]
 
-* [[filtrant colimit]]
+* [[exact functor]]
 
 
 #4 Tensor Categories#
@@ -205,31 +205,58 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
 * [[ind-object]]
 
+* [[pro-object]]
+
+
 #7 Localization#
 
 * [[localization]]
+
+* [[homotopy category]]
+
 
 #8 Additive and Abelian Categories#
 
 * [[Ab]]
 
+* [[abelian category]]
+
+
 #9 $\pi$-accesible Objects and $F$-injective Objects#
+
 
 #10 Triangulated Categories#
 
+
 #11 Complexes in Additive Categories#
+
+
 
 #12 Complexes in Abelian Categories#
 
+
 #13 Derived Categories#
+
 
 #14 Unbounded Derived Categories#
 
+
 #15 Indization and Derivation of Abelian Categories#
+
 
 #16 Grothedieck Topologies#
 
-* [[Grothendieck topology]]
+* [[sieve]]
+
+  * [[coverage]]
+
+  * [[Grothendieck topology]]
+
+    * [[Lawvere-Tierney topology]]
+
+  * [[site]]
+
+
 
 #17 Sheaves on Grothendieck Topologies#
 
@@ -240,5 +267,8 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 #19 Stacks and Twisted Sheaves#
 
 * [[stack]]
+
+* [[Higher Topos Theory]]
+
 
 category: reference
