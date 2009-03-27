@@ -14,6 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-03-27
 
+*  [[Toby Bartels]]:
+   *  Wrote [[hereditarily finite set]], which is more pretty than useful.
+   *  Threatened to rewrite [[Grothendieck universe]] once again.
+   *  Wrote about the $3$-way factorisation system at [[stuff, structure, property]].
+   *  Accepted Mike\'s terminology ('moderate') at [[Grothendieck universe]].
+
 * [[Zoran Škoda]]: Created [[abelian category]] with multiple equivalent definitions. 
 
 *  [[Toby Bartels]]:
