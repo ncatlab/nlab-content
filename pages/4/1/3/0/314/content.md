@@ -9,7 +9,8 @@ In some cases the category theoretic notion of limit does reproduce notions of l
 
 ## Global versus local ##
 
-There is a _local_ definition of limits (in terms of cones), that defines a limit (if it exists) for each individual diagram, and there is a _global_ definition, which defines the limit for _all_ diagrams (in terms of an [[adjoint functor|adjoint]]).
+In correspondence to the _local_ defintion of [[adjoint functor]]s (as discussed there),
+there is a _local_ definition of limits (in terms of cones), that defines a limit (if it exists) for each individual diagram, and there is a _global_ definition, which defines the limit for _all_ diagrams (in terms of an [[adjoint functor|adjoint]]).
 
 If all limits over the given shape of diagrams exist in a category, then both definitions are equivalent.
 
