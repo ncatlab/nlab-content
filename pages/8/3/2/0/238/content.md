@@ -14,6 +14,16 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-03-27
 
+* [[Urs Schreiber|Urs]]: 
+
+  * added a section on the "local" computation of adjoint functors at [[adjoint functor]] and point out how this induces the local/global dichotomy at [[limit]], [[homotopy limit]] and [[Kan extension]] (see my previous modification below)
+
+  * if I noticed correctly, [[Mike Shulman|Mike]] had changed my original notation $p^* := - \circ p : [C',D] \to [C,D]$ for precomposition with a functor $p : C \to C'$ (pullback notation) at [[Kan extension]] to $p_*$ (pushforward notation). I have now added a section _Remark on terminology: pushforward vs. pullback_ which is supposed to clarify this terminology issue.
+
+  * addressed [[Zoran Skoda|Zoran]]'s and [[Tim Porter|Tim]]'s remarks at [[Kan extension]]: I have added now to [[Kan extension]] as well as to [[limit]] -- in analogy to what we already had at [[homotopy limit]] -- an explicit discussion of the difference between _local_ and _global_ definitions of the universal constructions
+
+  * created [[universal construction]] -- but filled in just a question/query
+
 * [[Tim Porter|Tim]]: I have raised a query at [[Kan extension]].
 
 *  [[Toby Bartels]]:
