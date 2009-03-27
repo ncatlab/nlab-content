@@ -1,3 +1,3 @@
-The [[duality|dual]] notion to [[end]]. See there.
+See [[end]].
 
 category: redirect
