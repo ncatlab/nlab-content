@@ -6,7 +6,7 @@ A directed graph is like a [[category]] with units and composition forgotten. In
 
 $$U : Cat \to DiGraph$$
 
-where [[DiGraph]] is the category of directed graphs and [[Cat]] is the category of small categories.  Moreover, this forgetful functor has a [[left adjoint]] 
+where [[DiGraph]] is the category of directed graphs and [[Cat]] is the category of small categories.  Moreover, this forgetful functor has a [[adjoint functor|left adjoint]] 
 
 $$F : DiGraph \to Cat $$
 
