@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-03-27
 
+* [[Zoran Škoda]]: Created [[abelian category]] with multiple equivalent definitions. 
+
 *  [[Toby Bartels]]:
    *  If people don\'t like having several entries in one day per Mike\'s request, another option (hopefully good enough for Mike) is to move your entire list up to the top when you add to it (being sure to add to the top of your list too).
    *  Finn has nothing to apologise for at [[context]].
