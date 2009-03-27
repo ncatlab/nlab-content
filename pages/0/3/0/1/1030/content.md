@@ -5,4 +5,4 @@ $$
 $$
 See [[zero object]] for examples.
 
-More generally, in any category [[enriched category|enriched]] over the [[closed monoidal category]] of [[pointed set]]s (with [[smash product]]), the **zero morphism** $0_{c,d} : c \to d$ is the basepoint of the [[internal hom]] $[c,d]$.
+More generally, in any category [[enriched category|enriched]] over the [[closed monoidal category]] of [[pointed set]]s (with [[smash product]]), the **zero morphism** $0_{c,d} : c \to d$ is the basepoint of the [[hom-object]] $[c,d]$.
