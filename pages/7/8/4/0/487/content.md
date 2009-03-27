@@ -43,4 +43,6 @@ _Mike_: Yes, of course you're right for the syllable count.  I still maintain th
 _Mike_: I just remembered another reason I dislike "bimorphism."  One context where people use it is in the study of [[reflective subcategory|reflective]] subcategories, where one talks about "mono-reflective" and "epi-reflective" subcategories to mean that the unit of the reflection is monic or epic, and some people say "bireflective" to mean that the unit is a bimorphism.  But to me, bireflective "obviously" means "reflective and coreflective;" this confused me for quite a whole once.
 
 _Toby_:  O yeah, I agree with you there!  The best that I can say for 'bimorphism' is that it\'s got some sense to it; but as the right way to follow that sense would be 'bimonomorphism', there\'s still something wrong with it.
+
+_Zoran_ I am used to say "reflective and coreflective", never bireflective. Looks esoteric term. I never likes bimorphism either.
 =--
