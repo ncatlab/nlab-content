@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-03-27
 
+* [[Tim Porter|Tim]]: I have raised a query at [[Kan extension]].
+
 *  [[Toby Bartels]]:
    *  Wrote [[hereditarily finite set]], which is more pretty than useful.
    *  Threatened to rewrite [[Grothendieck universe]] once again.
