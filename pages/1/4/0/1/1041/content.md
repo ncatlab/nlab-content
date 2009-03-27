@@ -1,4 +1,10 @@
-A __pre-abelian category__ is an [[additive category]] (in the stricter sense) such that every morphism has a [[kernel]] and a [[cokernel]].  An __abelian category__ is a pre-abelian category in which every morphism decomposes [[generalized the|uniquely up to a unique isomorphism]] into a composition of an [[epimorphism]] followed by [[monomorphism]]. Equivalently, it is a pre-abelian category which is [[balanced category|balanced]] (every monic epi is iso). Equivalently it is a pre-abelian category such that every monic is a kernel and every epi is a cokernel.
+A __pre-abelian category__ is an [[additive category]] (in the stricter sense) such that every morphism has a [[kernel]] and a [[cokernel]].  Every morphism $f:A\to B$ in a pre-abelian category has a canonical decomposition
+$$
+A\stackrel{p}\to \coker(\ker f)\stackrel{\bar{f}}\to\ker(\coker f)\stackrel{i}\to B
+$$
+where $p$ is mono, and $i$ is epi. An __abelian category__ is a pre-abelian category in which for every $f$, the canonical morphism $\bar{f}$ is isomorphism. In an abelian category every morphism decomposes [[generalized the|uniquely up to a unique isomorphism]] into a composition of an [[epimorphism]] followed by [[monomorphism]]: the above decomposition gives the recipe. Moreover every abelian category is [[balanced category|balanced]]. 
+
+A pre-abelian category is abelian iff every mono is a kernel and every epi is a cokernel; in fact in that case for a mono $f =\ker(\coker f)$ and for an epi $f=\ker(\coker f)$.
 
 +--{: .query}
 [[Mike Shulman|Mike]]: In [[Categories Work]], and on [Wikipedia](http://en.wikipedia.org/wiki/Abelian_category), an abelian category is defined to be (in the terms above) a pre-abelian category such that every monic is a kernel and every epi is a cokernel.  This implies that (epi, mono) is an [[orthogonal factorization system]], but I don't see why the converse should hold, as this seems to assert.
@@ -19,9 +25,11 @@ However, if you assume explicitly that that comparison map is always an isomorph
 [[Mike Shulman|Mike]]: Torsion-free abelian groups are reflective in abelian groups, and therefore cocomplete.  In particular, they have cokernels, although those cokernels are not computed as in [[Ab]].  In particular, the cokernel of $2:\mathbb{Z}\to\mathbb{Z}$ is 0.
 
 [[Zoran Skoda]] Yes, I was thinking of this reflection argument (equivalence of torsion and localization argument), that is why I put question mark above. Now I tried to prove the assertion that in preabelian cat the canonical map has kernel 0 and cokernel 0 and I can't for more than an hour. But that would mean that for example Gelfand-Manin book is wrong -- it has the discussion on A4 axiom and it says exactly this. Popescu makes an example of preabelian category where canonical map is not iso, but emphasises in his example that it is bimorphism. On the other hand, later, he says that preabelian category is abelian iff it is balanced and the canonical map is bimorphism, hence he requires it explicitly. Let me think more... 
+
+[[Zoran Skoda]] I have rewritten in minimalistic way, leaving just what I can prove, and assuming that you are right and Gelfand-Manin book has one wrong statement (that the canonical map in preabelian category is mono and epi). But let us leave the discussion here for some time, maybe we can improve the question of the difference between preabelian with factorization and abelian. 
 =--
 
-Equivalently, an abelian category is a category enriched over the category [[Ab]] of abelian groups, with a [[zero object|null object]], binary [[biproduct]]s, kernels, cokernels and such that
+More explicitly, an abelian category is a category enriched over the category [[Ab]] of abelian groups, with a [[zero object|null object]], binary [[biproduct]]s, kernels, cokernels and such that
 $$
 coker (ker f) = ker (coker f),
 $$
