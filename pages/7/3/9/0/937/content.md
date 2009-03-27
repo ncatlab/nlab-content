@@ -17,7 +17,7 @@ Finally, $p$ is the natural projection.
 In the case of vector spaces this means that we have diagonal lifts in squares such that the lower square commutes but not necessarily the upper, i.e. $\mathrm{Hom}(f,g)$ is the space consisting of all triples $(u_1,u_0,\phi)$ where $u_1:V_1\to W_1$, $u_0:V_0\to W_0$ and $\phi:V_0\to W_1$
 such that $g\circ u_1= u_0\circ f$ and $u_0=g\circ\phi$ while one does *not* require $\phi\circ f=u_1$.
 
-There are a number of remarkable functors relating [[internalization|internal]] algebras in LP, [[Lie algebra]]s in LP etc., to or from some other categories of algebras. For example the categories of left [[Leibniz algebra]]s and of right Leibniz algebras embed as full subcategories into the category of internal Lie algebras in LP. This embedding has an [[adjunction|adjoint]].
+There are a number of remarkable functors relating [[internalization|internal]] algebras in LP, [[Lie algebra]]s in LP etc., to or from some other categories of algebras. For example the categories of left [[Leibniz algebra]]s and of right Leibniz algebras embed as full subcategories into the category of internal Lie algebras in LP. This embedding has an [[adjoint functor|adjoint]].
 Notice that because of truncation, being a Lie algebra in LP is a bit less than a (strict) $2$-[[n-Lie algebra|Lie algebra]] (a requirement in degree $2$ is dropped). 
 
 See J-L. Loday, T. Pirashvili, The tensor category of linear maps, Georg. Math. J. vol. 5, n.3 (1998) 263--276.
