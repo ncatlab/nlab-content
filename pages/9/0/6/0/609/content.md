@@ -16,7 +16,7 @@ Any simplicially enriched groupoid yields a simplicial groupoid in which the fac
 
 ##Remarks##
  
-*   Simplicially enriched groupoids are related to [[simplicial set|simplicial sets]] via an [[adjunction]] found independently by Dwyer&#8211;Kan and Joyal&#8211;Tierney; see [[Dwyer-Kan loop groupoid]].  This adjunction gives an [[equivalence of categories|equivalence]] of [[homotopy category|homotopy categories]] so that simplicially enriched groupoids model all [[homotopy type|homotopy types]].
+*   Simplicially enriched groupoids are related to [[simplicial set|simplicial sets]] via an [[adjoint functor|adjunction]] found independently by Dwyer&#8211;Kan and Joyal&#8211;Tierney; see [[Dwyer-Kan loop groupoid]].  This adjunction gives an [[equivalence of categories|equivalence]] of [[homotopy category|homotopy categories]] so that simplicially enriched groupoids model all [[homotopy type|homotopy types]].
 
 * A simplicially enriched groupoid having exactly one object is essentially the same as a [[simplicial group]]. Notationally however it is often important to distinguish a simplicial group form the corresponding single object simplicially enriched groupoid.
 
