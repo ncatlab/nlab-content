@@ -12,6 +12,12 @@ Although developed for application to [[category theory]], the definition is usu
 I don\'t really like how this page looks now, since it focuses once more on the 'evil' set theory.  I think that I\'ll rewrite it to talk about strongly inaccessible cardinal numbers first, which is a reasonable approach from any perspective, and then look at how you can say this more directly in both material and structural set theory.  That means that I\'ll restore some text that was removed (not much of that was moved to [[universe in a topos]]), but this time I\'ll verify the correctness of the structural material (using [[universe in a topos]] as a guide) as I go.  ---Toby
 
 [[Mike Shulman|Mike]]: I'm not sure I agree.  Firstly, I actually think it is better to define what you really want---in this case, a collection of sets closed under the operations we need---and only later observe that it may be equivalent to something in terms of inaccessible cardinals.  I also expect that the equivalence between universes and inaccessibles requires the [[axiom of choice]], so wouldn't it be better to separate them?  Finally, this page is called "Grothendieck universe," not [[inaccessible cardinal]], so I think that here we should take the universes as primary, not their cardinals.
+
+_Toby_:  I disagree that this is is 'what [we] really want'; the definition below is only what we want if we\'re using material set theory, which for the most part we aren\'t in the nLab.  So it\'s really out of place to focus on that.
+
+But I\'m not sure that you understand my intention, either.  In explaining the point of universe to Urs, or more generally in explaining the point in a structural way, I find the cardinal number the easiest way to get at what matters.  It is, as I said before, the bottom line for any proposed (re)definition.  So I intend to define Grothendieck universes, certainly, although I intend to define them in terms of cardinal numbers.  (Or rather, in terms of isomorphism classes of sets, but using cardinal arithmetic, so I\'ll call those cardinal numbers.)  The discussion of inaccessible cardinals would be only lemmatic (if that\'s a word); if I get around to doing it, then you\'ll see what I mean.
+
+But here\'s another possibility:  Maybe we should reserve this page for the strict notion in material set theory and make another page, say [[universe]], for the non-evil concept.  Then most (if not all) links here would really want to go there.  I\'m not sure that I like this, since 'universe' has other meanings, but maybe there\'s another term that we could use that doesn\'t conflict with this term?  In any case, if you want something like that, then I can go along with it.  What I really don\'t want is a bunch of links on the lab implying that category theorists deal with size issues using something that\'s fundamentally part of material set theory.
 =--
 
 
@@ -63,17 +69,9 @@ Given a universe $U$, an element of $U$ is called a **$U$-small set**, while a s
 
 The term _$U$-large_ is ambiguous; it sometimes means 'not small' but sometimes means the same as 'moderate' (or 'moderate but not small').  The reason is that language that distinguishes 'small' from 'large' in terms of sets and [[proper class|proper classes]] translates fairly directly into terms of $U$-small and $U$-moderate sets.  To be precise, if we redefine "set" to mean "$U$-small set," then every proper class in this new world of sets will be represented by a $U$-moderate set (a subset of $U$).  Those sets that are not even $U$-moderate are 'too large' to be translated into language of proper classes.
 
-(Note, though, that not all $U$-moderate sets represent proper classes relative to the world of $U$-small sets, only those that are _first-order definable_ from $U$-small sets.  If $\kappa$ is the [[cardinal number|cardinality]] of the universe $U$, then there are  $2^\kappa$ $U$-moderate sets, but only $\kappa$ proper classes.)
+(Note, though, that not all $U$-moderate sets represent proper classes in the language of set theory relative to the world of $U$-small sets, only those that are _first-order definable_ from $U$-small sets.  In fact, if $\kappa$ is the [[cardinal number|cardinality]] of the universe $U$, then there are only $\kappa$ proper classes relative to $U$, but there are  $2^\kappa$ $U$-moderate sets.)
 
-+--{: .query}
-[[Mike Shulman|Mike]]: Is this use of "$U$-large" standard?  I've always seen "large" used in the context of a universe to mean _any_ set that is not necessarily in $U$, while sometimes "moderate" means a set that is no larger than the universe (hence, essentially a subset of $U$).  The use of "large" here to mean what I am used to calling "moderate" threw me for quite a while.
-
-_Toby_:  I\'m pretty sure that I\'ve seen it, but maybe I\'m letting my memory be corrupted by [others](http://golem.ph.utexas.edu/category/2007/06/large_smooth_categories.html#c010236).  In any case, I think that 'moderate' is better language, so let\'s use that here.  (There is sense behind this usage of 'large', however, as I've explained above.)
-
-[[Mike Shulman|Mike]]: Yes, although it's not quite as straightforward as it may seem (see my correction).
-=--
-
-As such, these concepts are [[evil]], since two sets may be [[isomorphism|isomorphic]] yet have different properties with respect to $U$.  However, a set which is isomorphic to a $U$-small or $U$-moderate set is called **essentially** $U$-small or $U$-moderate; these concepts are non-evil.
+As defined above, these concepts are [[evil]], since two sets may be [[isomorphism|isomorphic]] yet have different properties with respect to $U$.  However, a set which is isomorphic to a $U$-small or $U$-moderate set is called **essentially** $U$-small or $U$-moderate; these concepts are non-evil.
 
 
 # Axiom of universes #
