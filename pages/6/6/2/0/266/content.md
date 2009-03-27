@@ -34,12 +34,12 @@ $$
   \,.
 $$
 
-The [[left adjoint]] to $p_*$ is **left Kan extension** along $p$ of functors
+The [[adjoint functor|left adjoint]] to $p_*$ is **left Kan extension** along $p$ of functors
 $$
   Lan = Lan_p : [C,D] \to [C',D]
   \,,
 $$
-and the [[right adjoint]] is **right Kan extension** along $p$ of functors
+and the [[adjoint functor|right adjoint]] is **right Kan extension** along $p$ of functors
 $$
   Ran = Ran_p: [C,D] \to [C',D]
   \,.
