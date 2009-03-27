@@ -60,6 +60,23 @@ $$
   \,.
 $$
 
+## Local definition ##
+
+This definition has the advantage that it yields useful information even if the adjoint functor $R$ does not exist globally, i.e. as a functor on all of $D$:
+
+it may happen that
+$$
+  \bar L(d) := Hom_D(L(-),d) \in [D^{op}, Set]
+$$
+is [[representable functor|representable]] for _some_ $d$ but not for all $d$. The representing object may still usefully be thought of as $R(d)$.
+
+This _global_ versus _local_ evaluation of adjoint functors induces the global/local pictures of the defintions
+
+* [[limit]] / [[homotopy limit]]
+
+* [[Kan extension]]
+
+as discussed there.
 
 # Definition in terms of universal arrows #
 
