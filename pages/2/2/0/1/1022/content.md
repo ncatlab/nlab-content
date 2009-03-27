@@ -26,6 +26,10 @@ I do not know how much it is true that it is algebra tradition. Who else was usi
 _Toby_:  Well, it\'s not the language that I learnt, but I agree that 'directed (co)limit' is a pretty good word, and maybe it\'s just as well if 'direct limit' falls out of use.  So I\'m OK to move this material to [[directed limit]] (and move the material at [[inductive limit]] to [[directed colimit]]), leaving this page as a redirect.  But I\'ll make a note at [[latest changes]] and wait a while, in case somebody else wants to speak up.
 
 By the way ---and maybe you already know this---, 'slowlier' is not an English word, at least not in formal writing; you have to say 'more slowly' instead.  (It\'s fine here, but I thought that you should know.)
+
+[[Mike Shulman|Mike]]: If you don't like "directed limit," then by analogy with "cofiltered limit," the term "codirected limit" naturally suggests itself.  (-:
+
+I agree (I think this is what Zoran is saying?) that it would be better if this page just says "projective limit is an older/alternate term for a (possibly codirected) [[limit]], as contrasted with inductive limit which means a (possibly directed) [[colimit]]," with the material about limits over codirected posets on a separate page.
 =--
 
 These were studied in algebra before the general notion of limit in category theory.  The elementary definition still seen there follows.
