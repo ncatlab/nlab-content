@@ -13,6 +13,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 # 2009-03-28
+* [[Zoran Škoda]]: Created [[etale space]]. The order of exposition is important, particularly in view of anticipated additional details. In [[Kan extension]] added a detailed paragraph on an example how left Kan extension pointwise formula has intuitive meaning in the case of constructing pullback for (pre)sheaves on topological spaces. 
 
 * [[Finn Lawler]]: Created [[linear logic]] -- just a short stub with basic ideas on motivation and models, plus a couple of references.  Comments effusively welcomed.
 
@@ -46,6 +47,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
     +--{: .query}
     [[Mike Shulman|Mike]]: That wasn't me.  I'm not sure that such a discussion belongs at [[Kan extension]]; it might belong somewhere but I would rather than the page [[Kan extension]] just pick one notation and possibly link to a discussion.
+
+    [[Zoran Škoda]]: It was me who changed, though I better did not. I am happy with the original notation as well. For as your discussion on pushfowards I am less happy. Namely, if one is not happy with the direction of maps between open sets, one just redefines what is a morphism of sites (opposite to the functor direction), so that the morphism of sites is always correct direction. So, unless one does not have strong feeling on the choice of pushfoward pullback meaning, what is not in this case, mayeb original notation just caring about covariant vs contravariant was better. 
     =--
 
   * addressed [[Zoran Skoda|Zoran]]'s and [[Tim Porter|Tim]]'s remarks at [[Kan extension]]: I have added now to [[Kan extension]] as well as to [[limit]] -- in analogy to what we already had at [[homotopy limit]] -- an explicit discussion of the difference between _local_ and _global_ definitions of the universal constructions
