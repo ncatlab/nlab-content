@@ -31,6 +31,8 @@ http://www.uni-trier.de/fileadmin/fb4/INF/TechReports/semi-abelian_categories.pd
 [[Mike Shulman|Mike]]: Okay, I happened to have a copy of K-S, but it would have been easier for you to just tell me the definition.  For the benefit of those listening who may not have a copy, I created [[strict epimorphism]].  Strict and regular are the same in any category with pullbacks, while regular and strong agree in any regular category but not in general.
 
 Probably this query box can be deleted, and the comment about semi-abelian (which suggests that Gelfand-Manin is wrong?) moved to the discussion below.
+
+[[Zoran Skoda]]: OK you can delete this box on strong vs strict; thanx for righting the entry for [[strict epimorphism]] yourself in very careful and informative manner! Beautiful.
 =--
 
 Finally, it is interesting to observe that the $Ab$-enrichment of an abelian category need not be specified a priori.  If an arbitrary (not necessarily pre-additive) category $C$ has a [[zero object]], binary products and coproducts, kernels, cokernels and the property that every monic is a kernel arrow and every epi is a cokernel arrow (so that all monos and epis are [[normal monomorphism|normal]]), then it can be equipped with a unique addition on the morphism sets such that composition is bilinear and $C$ is abelian with respect to this structure.  However, in most examples, the $Ab$-enrichment is evident.
