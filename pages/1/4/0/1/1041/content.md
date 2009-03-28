@@ -20,7 +20,9 @@ In particular, in an abelian category every morphism decomposes [[generalized th
 
 +--{+ .query}
 _Zoran_: Strong you mean strict monomorphism ? (like "strict epimorphism" in Kashiwara-Shapira, Adamek etc.)
-Let us try to be conventional in the sense of mainstream mathematics as possible. It seems that strong and strict are half half over the literature, but I am not sure if it is completely synonymus for all. 
+Let us try to be conventional in the sense of mainstream mathematics as possible. It seems that strong and strict are half half over the literature, but I am not sure if it is completely synonymus for all.
+
+[[Mike Shulman|Mike]]: I've never heard of a strict monomorphism.  Does it mean the same as what I mean by a strong one?  I've only ever heard this one meaning of strong.
 =--
 
 Finally, it is interesting to observe that the $Ab$-enrichment of an abelian category need not be specified a priori.  If an arbitrary (not necessarily pre-additive) category $C$ has a [[zero object]], binary products and coproducts, kernels, cokernels and the property that every monic is a kernel arrow and every epi is a cokernel arrow (so that all monos and epis are [[normal monomorphism|normal]]), then it can be equipped with a unique addition on the morphism sets such that composition is bilinear and $C$ is abelian with respect to this structure.  However, in most examples, the $Ab$-enrichment is evident.
