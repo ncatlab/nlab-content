@@ -13,6 +13,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 # 2009-03-28
+
+* [[Mike Shulman|Mike]]: Prompted by discussion with Zoran, created [[strict epimorphism]] and added a lengthier discussion of types of epimorphism to [[epimorphism]].
+
 * [[Zoran Škoda]]: Created [[etale space]]. The order of exposition is important, particularly in view of anticipated additional details. In [[Kan extension]] added a detailed paragraph on an example how left Kan extension pointwise formula has intuitive meaning in the case of constructing pullback for (pre)sheaves on topological spaces. Created [[torsor with structure category]] following the version in Moerdijk's book. 
 
 * [[Finn Lawler]]: Created [[linear logic]] -- just a short stub with basic ideas on motivation and models, plus a couple of references.  Comments effusively welcomed.
