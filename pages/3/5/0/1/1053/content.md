@@ -39,6 +39,10 @@ interprets negation.
 
 +--{: .query}
 [[Mike Shulman|Mike]]: I've usually seen $(-)^\bot$ for the linear negation; did you choose $(-)^*$ just to emphasize the connection with  $*$-autonomous categories?
+
+[[Finn Lawler|Finn]]: Well, $(-)^*$ above is the duality involution, really -- I haven't quite got to the syntax yet.  But, yes, that's what I mean.
+
+What I might do is move this basic stuff to the $*$-autonomous category page and make this page more about syntax.
 =--
 
 
@@ -61,7 +65,7 @@ then a symmetric $\otimes$-comonoid.
 An LL sequent
 $$A_1,\ldots,A_n \vdash B_1,\ldots,B_m$$
 is interpreted as a morphism
-$$ \otimes_i A_i \to &#8523;_j B_j $$
+$$ \otimes_i A_i \to \parr_j B_j $$
 The comonoid structure on $!A$ then yields the weakening
 $$ \Gamma\otimes !A \to \Gamma \otimes I \to \Gamma$$
 and contraction
