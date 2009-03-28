@@ -35,10 +35,19 @@ More generally, any [[compact closed category]] is $*$-autonomous with the unit 
 
 +--{: .query}
 [[Mike Shulman|Mike]]: Can someone fill in some examples of $*$-autonomous categories that are not compact closed?
+
+[[Finn Lawler|Finn]]: Blute and Scott in 'Category theory for linear
+logicians' (from [here](http://www.site.uottawa.ca/~phil/papers/))
+give an example: reflexive topological vector spaces where the
+topologies are 'linear', i.e. Hausdorff and with 0 having a
+neighbourhood basis of open linear subspaces; 'reflexive' meaning that
+the map $d_V$ as above is an isomorphism.  It seems this category is
+$*$-autonomous but not compact.  I don't know enough topology to make
+much sense of it, though.
+
 =--
 
-Models of [[linear logic]] are based on $*$-autonomous
-categories.
+Models of [[linear logic]] are based on $*$-autonomous categories.
 
 
 ## References ##
