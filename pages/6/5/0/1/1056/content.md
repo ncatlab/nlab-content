@@ -1,0 +1,2 @@
+R. W. Thomason, Cat as a closed model category.
+Cahiers Topologie G&#233;om. Diff&#233;rentielle 21 (1980), no. 3, 305--324. MR0591388 (82b:18005) <a href="http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1980__21_3_305_0">numdam scan</a>
