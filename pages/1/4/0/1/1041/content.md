@@ -27,6 +27,10 @@ Let us try to be conventional in the sense of mainstream mathematics as possible
 _Zoran_: Kashiwara-Shapira page 116, is a different definition, I do not see clearly if it is equivalent; but I know that in regular categories strict epi coincides with regular epi.
 
 http://www.uni-trier.de/fileadmin/fb4/INF/TechReports/semi-abelian_categories.pdf says at one place that Palamodov's version of semi-abelian category is preabelian + canonical morphism is epi and mono (our previous discussion). The same paper is one of many in that area which uses strict monomorphisms. Google search with quotation for the phrase "strict monomorphism" gives 190 hits, "strong monomorphism" 360 hits, similarly and a bit more for epi version with a bit different distribution in areas of usage. 
+
+[[Mike Shulman|Mike]]: Okay, I happened to have a copy of K-S, but it would have been easier for you to just tell me the definition.  For the benefit of those listening who may not have a copy, I created [[strict epimorphism]].  Strict and regular are the same in any category with pullbacks, while regular and strong agree in any regular category but not in general.
+
+Probably this query box can be deleted, and the comment about semi-abelian (which suggests that Gelfand-Manin is wrong?) moved to the discussion below.
 =--
 
 Finally, it is interesting to observe that the $Ab$-enrichment of an abelian category need not be specified a priori.  If an arbitrary (not necessarily pre-additive) category $C$ has a [[zero object]], binary products and coproducts, kernels, cokernels and the property that every monic is a kernel arrow and every epi is a cokernel arrow (so that all monos and epis are [[normal monomorphism|normal]]), then it can be equipped with a unique addition on the morphism sets such that composition is bilinear and $C$ is abelian with respect to this structure.  However, in most examples, the $Ab$-enrichment is evident.
