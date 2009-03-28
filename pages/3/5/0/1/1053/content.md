@@ -26,17 +26,21 @@ the topological kind).
 ## Discussion ##
 
 Probably the best way to explain LL to a category theorist
-is to say that its models are $*$-autonomous categories with
-extra structure (see \[2\]).
+is to say that its models are $*$-[[star-autonomous category|autonomous categories]] with extra structure (see \[2\]).
 
 Firstly, there is a monoidal tensor product $A \otimes B$
 and duals $A^*$ for each $A,B$, while the internal hom
 $A\multimap B$ is isomorphic to $(A\otimes B^*)^*$.  There
 is a De Morgan dual of the tensor called 'par', with $A
-&#8523; B = (A^*\otimes B^*)^*$.  These model the
+\parr B = (A^*\otimes B^*)^*$.  These model the
 'multiplicative' connectives, which roughly speaking
 interpret parallelism (via bifunctoriality), while $-^*$
 interprets negation.
+
++--{: .query}
+[[Mike Shulman|Mike]]: I've usually seen $(-)^\bot$ for the linear negation; did you choose $(-)^*$ just to emphasize the connection with  $*$-autonomous categories?
+=--
+
 
 The 'additive' connectives $\&$ and $\oplus$, which
 correspond more closely to the traditional conjunction and
