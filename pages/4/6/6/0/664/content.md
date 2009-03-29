@@ -10,7 +10,7 @@ A crossed square in the Guin-Valery Loday specification has quite a few axioms, 
 
 Finally a particular example of a [[crossed square] is given by a group with two [[normal subgroup]]s, and their intersection together with the commutator map.  It would be appropriate if a group together with $n$ normal subgroups, all the  intersections and all the commutator maps, formed an example of a crossed $n$-cube.  It does.  The axioms below govern the $h$-maps, by using analogues of the relationships between commutator maps in such a $n$-cube of inclusions of intersections.
 
-The result (definition due to Graham Ellis and Richard Steiner, reference below) is a set of 11 axioms. That is all, and these objects model all homotopy $(n+1)$-[[homtopy n-type|types]].
+The result (definition due to Graham Ellis and Richard Steiner, reference below) is a set of 11 axioms. That is all, and these objects model all homotopy $(n+1)$-[[homotopy n-type|types]].
 
 
 #Definition#
