@@ -6,7 +6,7 @@ There is a sequence of extra [[stuff, structure, property|structure and property
 1. **[[additive category]]**: a [[pre-additive category]] that admits finite [[product]]s and therefore finite [[coproduct]]s and [[biproduct]]s;
 
 1. **[[pre-abelian category]]**:
-  an [[additive category]] that admits [[kernel]]s and therefore also [[cokernel]]s;
+  an [[additive category]] that admits [[kernel]]s and  [[cokernel]]s (equivalently, a pre-additive category with all finite limits and colimits);
 
 1. **[[abelian category]]**:
   a [[pre-abelian category]] such that every [[monomorphism]] is a [[kernel]] and every [[epimorphism]] is a [[cokernel]].
