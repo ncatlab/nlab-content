@@ -90,7 +90,7 @@ Freed's ideas on how an extended or multi-tiered QFT arises from a path integral
 
 * Simon Willerton, _The twisted Drinfeld double of a finite group via gerbes and finite groupoids_ ([arXiv](http://arxiv.org/abs/math.QA/0503266))
 
-* Bruce Bartlett, _On unitary 2-representations of finite groups and topological quantum field theory_, PhD thesis, Sheffield (2008)
+* Bruce Bartlett, _On unitary 2-representations of finite groups and topological quantum field theory_, PhD thesis, Sheffield (2008) ([arXiv] (http://arxiv.org/abs/0901.3975))
 
 There are indications that a complete picture of this involves [[groupoidification]] 
 
