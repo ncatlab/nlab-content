@@ -1,29 +1,34 @@
+#Idea#
+
+An abelian category is the general context in which linear algebra and [[homological algebra]] makes sense. It is the richest concept in a sequence of [[additive and abelian categories]].
+
+
 # Definition
 
-A __pre-abelian category__ is an [[additive category]] (an [[Ab]]-enriched category with finite biproducts) such that every morphism has a [[kernel]] and a [[cokernel]].  Equivalently, it is an additive category with all finite [[limit]]s and colimits, since an equalizer of $f$ and $g$ in a (pre-)additive category is the same as a kernel of $f-g$, and dually.
+An **abelian category** is a [[pre-abelian category]] satisfying the following equivalent conditions.
 
-If $C$ is pre-abelian and $c\in C$, the operations $\ker$ and $\coker$ define a [[Galois connection]] between the [[preorder]]s $Sub(c)$ of monomorphisms into $c$ and $Quot(c)$ of epimorphisms out of $c$.  In particular, $f:b\to c$ is a kernel iff $f = ker(coker(f))$ and dually.  Furthermore, every morphism $f:A\to B$ in a pre-abelian category has a canonical decomposition
-$$
-A\stackrel{p}\to \coker(\ker f)\stackrel{\bar{f}}\to\ker(\coker f)\stackrel{i}\to B
-$$
-where $p$ is a cokernel, hence [[epimorphism|epic]], and $i$ is a kernel, and hence [[monomorphism|monic]].
+1. For every [[morphism]] $f$, the canonical morphism $\bar{f} : coker(ker(f)) \to ker(coker(f))$ (described at [[pre-abelian category]]) is an [[isomorphism]].
 
-An __abelian category__ is a pre-abelian category satisfying the following equivalent conditions.
+1. Every [[monomorphism|monic]] is a [[kernel]] and every [[epimorphism|epic]] is a [[cokernel]].
 
-1. For every $f$, the canonical morphism $\bar{f}$ is an isomorphism.
+#Remarks#
 
-1. Every monic is a kernel and every epic is a cokernel.
+* The two conditions are equivalent as follows. Assuming (1), when $f$ is monic we obtain $f\cong \ker(\coker(f))$ so that $f$ is a kernel, and dually; thus (1) implies (2).  The converse can be found in, among other places, Chapter VIII of [[Categories Work]].
 
-Assuming (1), when $f$ is monic we obtain $f\cong \ker(\coker(f))$ so that $f$ is a kernel, and dually; thus (1) implies (2).  The converse can be found in, among other places, Chapter VIII of [[Categories Work]].
+* In particular, in an abelian category every morphism decomposes [[generalized the|uniquely up to a unique isomorphism]] into the composition of an [[epimorphism]] and a [[monomorphism]], via the above decomposition.  Since every monic is [[regular monomorphism|regular]], hence [[strong monomorphism|strong]], it follows that (epi, mono) is an [[orthogonal factorization system]].  Furthermore, again since every monic is regular, every abelian category is [[balanced category|balanced]].
 
-In particular, in an abelian category every morphism decomposes [[generalized the|uniquely up to a unique isomorphism]] into the composition of an [[epimorphism]] and a [[monomorphism]], via the above decomposition.  Since every monic is [[regular monomorphism|regular]], hence [[strong monomorphism|strong]], it follows that (epi, mono) is an [[orthogonal factorization system]].  Furthermore, again since every monic is regular, every abelian category is [[balanced category|balanced]].
+* The $Ab$-enrichment of an abelian category need not be specified a priori.  If an arbitrary (not necessarily pre-additive) category $C$ has a [[zero object]], binary products and coproducts, kernels, cokernels and the property that every monic is a kernel arrow and every epi is a cokernel arrow (so that all monos and epis are [[normal monomorphism|normal]]), then it can be equipped with a unique addition on the morphism sets such that composition is bilinear and $C$ is abelian with respect to this structure.  
+However, in most examples, the $Ab$-enrichment is evident.
 
-Finally, it is interesting to observe that the $Ab$-enrichment of an abelian category need not be specified a priori.  If an arbitrary (not necessarily pre-additive) category $C$ has a [[zero object]], binary products and coproducts, kernels, cokernels and the property that every monic is a kernel arrow and every epi is a cokernel arrow (so that all monos and epis are [[normal monomorphism|normal]]), then it can be equipped with a unique addition on the morphism sets such that composition is bilinear and $C$ is abelian with respect to this structure.  However, in most examples, the $Ab$-enrichment is evident.
+* The last poin is of relevance in particular for [[infinity-category|higher categorical]] generalizations of additive categories. See for instance [remark 2.14, p. 5](http://www-math.mit.edu/~lurie/topoibook/DAGI.pdf#page=5) of Jacob Lurie's [[Stable infinity-categories]].
+
 
 
 # Examples
 
 * Of course, [[Ab]] is abelian, as is the category of [[module|modules]] over any [[ring]].
+
+* Therefore in particular the category [[Vect]] of vector spaces is an abelian category.
 
 * The category of [[sheaf|sheaves]] of abelian groups on any [[site]] is abelian.
 
