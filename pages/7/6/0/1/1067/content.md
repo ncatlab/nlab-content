@@ -6,11 +6,11 @@ A **chain complex** in an [[additive category]] $C$ [[category with translation|
 
 * a [[differential object]] 
 $
-  d_V : V \to t V
+  d_V : V \to T V
 $
 
 * such that $V \stackrel{d_V}{\to} T V \stackrel{T(d_V)}{\to} T T V$ is the [[zero morphism]].
 
 #Examples#
 
-* For $C = $ [[Vect]] or $C = R-Mod$ this reproduces the familiar defintion of chain complexes of vector spaces and of modules.
+* If $C$ is the category of $\mathbb{Z}$-[[graded object|graded objects]] in [[Ab]], [[Vect]] or $R-Mod$ this reproduces the familiar definition of an unbounded chain complex of abelian groups, vector spaces, or modules.
