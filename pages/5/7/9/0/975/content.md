@@ -217,9 +217,19 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
 #8 Additive and Abelian Categories#
 
+* [[group object]]
+
 * [[Ab]]
 
-* [[abelian category]]
+* [[Ab-renriched category]]
+
+  * [[pre-additive category]]
+
+  * [[additive category]]
+
+  * [[pre-abelian category]]
+
+  * [[abelian category]]
 
 
 #9 $\pi$-accesible Objects and $F$-injective Objects#
