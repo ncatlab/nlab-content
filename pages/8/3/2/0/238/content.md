@@ -14,6 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-03-29
 
+* [[Urs Schreiber|Urs]]: 
+
+  * began [[derived category]] before running out of time again...
+
+  * did some layout-editing for [[Mike Shulman|Mike]]'s additions to [[homotopy category of an (infinity,1)-category]]
+
 * [[Finn Lawler]]: Continued experimenting with graphics for diagrams.  Have a look and see what you think:
 
   * Added some PNGs at [[Kan extension]]
