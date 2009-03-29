@@ -2,6 +2,14 @@
 
 An abelian category is the general context in which linear algebra and [[homological algebra]] makes sense. It is the richest concept in a sequence of [[additive and abelian categories]].
 
++-- {+ .query}
+_Zoran_: I strongly disagree with the first sentence, particularly with THE (general context...). MacLane was (according to Janliedze) looking whole life for what is the
+general context for homological algebra, and the current answer of expert are semi-abelian categories of Borceux and Janelidze, and homological categories...Linear algebra as well makes sense in many other contexts. This "idea' is to me very misleading. MacLane in 1950 was lead by the idea to axiomatize the categories which behave like abelian groups.
+grothendieck wanted to unify on the obsrervation that the
+categories of abelian sheaves and categories of R-modules have the same setup for homological algebra as in Tohoku. 
+
+There is much linear algebra you can do with cokernel sofr example, as well as much linear algebra which you can not do if you are not over a field for example. So, saying that abelian categories are distinguished is only among categories which have closets properties to abelian sheaves and R-modules, not among principlkes for homlogical algebra and linear algebra that uniquely (although the strojng motivation was ever there).
+=--
 
 # Definition
 
@@ -19,6 +27,14 @@ An **abelian category** is a [[pre-abelian category]] satisfying the following e
 
 * The $Ab$-enrichment of an abelian category need not be specified a priori.  If an arbitrary (not necessarily pre-additive) category $C$ has a [[zero object]], binary products and coproducts, kernels, cokernels and the property that every monic is a kernel arrow and every epi is a cokernel arrow (so that all monos and epis are [[normal monomorphism|normal]]), then it can be equipped with a unique addition on the morphism sets such that composition is bilinear and $C$ is abelian with respect to this structure.  
 However, in most examples, the $Ab$-enrichment is evident.
+
++-- {+ .query}
+But this statement is true for additive categories as well,
+according to Kashiwara Shapira book, their Ab-structure is
+implied by the rest of the structure.
+
+Somebody should also write an entry for Quillen exact, they are also in between the additive and abelian but in different splitting...
+=-- 
 
 * The last poin is of relevance in particular for [[infinity-category|higher categorical]] generalizations of additive categories. See for instance [remark 2.14, p. 5](http://www-math.mit.edu/~lurie/topoibook/DAGI.pdf#page=5) of Jacob Lurie's [[Stable infinity-categories]].
 
