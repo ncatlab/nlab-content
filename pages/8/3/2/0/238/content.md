@@ -16,6 +16,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * started preparing the ground for [[derived category]] and [[triangulated category]] by creating [[category with translation]], [[chain complex]] and [[differential object]] before running out of time...
+
+  * created [[homotopy category of an (infinity,1)-category]]
+
+  * created [[homological algebra]], mainly as a collection of links to the keywords listed there
+
   * thanks to [[Mike Shulman|Mike]] for his polishing of my original [[filtrant category]] at [[filtered category]]
 
   * in a first attempt to clean up the entries surrounding [[abelian category]] I created the overview entry [[additive and abelian categories]] and branched off [[Ab-enriched category]], made [[pre-additive category]] a commented redirect to that and "commented out" the respective discussion still to be found at [[additive category]]; also made [[pre-abelian category]] a separate entry, so that now there is in order of increasing structure/property
