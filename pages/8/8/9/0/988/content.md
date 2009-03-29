@@ -5,3 +5,6 @@ see [[stable (infinity,1)-category]].
 
 This type of stability is not to be confused with being stably (or symmetric) [[k-tuply monoidal n-category|monoidal]].
 
+#References#
+
+* [[Jacob Lurie]], [[Stable Infinity-Categories]].
