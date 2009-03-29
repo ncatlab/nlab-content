@@ -4,65 +4,20 @@ An __adjunction__ in a [[2-category]] is a pair of objects $C,D$ together with m
 
 $$ 
   R\epsilon . \eta R = 1_R
-  \;\;\;\;
-  i.e.
-  \;\;\;\;
-  \;\;\;\;
-  \array{
-    &&& \nearrow && \searrow^{Id_C}
-    \\
-    &&&& \Downarrow^{\eta}
-    \\
-    D
-    & \stackrel{R}{\to}&
-    C
-    & \stackrel{L}{\to}&
-    D
-    & \stackrel{R}{\to}&
-    C
-    \\
-    && \Downarrow^{\epsilon}
-    \\
-    &
-    \searrow &&\nearrow_{Id_D}
-  }
-  \;\;
-  =
-  D \stackrel{R}{\to} C
 $$
 
-[[zigzag-0.png:pic]]
+i.e
+
+<center markdown="1">[[zigzag-0-bigger.png:pic]]</center>
 
 and
 $$ 
   \epsilon L . L\eta = 1_L
-  \;\;\;\;
-  i.e.
-  \;\;\;\;\;\;\;\;
-  \array{
-    & \nearrow && \searrow^{Id_C}
-    \\
-    && \Downarrow^{\eta}
-    \\
-    C
-    & \stackrel{L}{\to}&
-    D
-    & \stackrel{R}{\to}&
-    C
-    & \stackrel{L}{\to}&
-    D
-    \\
-    &&&& \Downarrow^{\epsilon}
-    \\
-    &&&
-    \searrow &&\nearrow_{Id_D}
-  }
-  \;\;
-  =
-  C \stackrel{L}{\to} D
 $$
 
-[[zigzag-1.png:pic]]
+i.e.
+
+<center markdown="1">[[zigzag-1-bigger.png:pic]]</center>
 
 variously called the _triangle identities_ or the _zig-zag identities_.  We call $L$ the **left adjoint** (of $R$) and $R$ the **right adjoint** (of $L$).  We call $\eta$ the [[unit]] and $\epsilon$ the [[counit]] of the adjunction.
 
