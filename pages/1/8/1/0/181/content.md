@@ -28,7 +28,7 @@ More generally:
 
     * an [[object]] $A$ of $C$;
 
-    * and a [[morphism]] $\alpha : A \to F(C)$;
+    * and a [[morphism]] $\alpha : A \to F(A)$;
 
 * a general **coassociative coalgebra** is a coalgebra over a comonad, dual to the concept of an [[algebra over a monad]].
 
