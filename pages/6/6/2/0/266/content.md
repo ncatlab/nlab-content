@@ -50,57 +50,21 @@ We give the following three definitions, which are equivalent in good situations
 
 
 
-
 ## Local definition: in terms of universal natural transformations ##
 
 [[generalized the|The]] left Kan extension $Lan F = Lan_p F$ of $F : C \to D$ along $p:C\to C'$ is a functor $Lan F : C' \to D$ equipped with a [[natural transformation]] $\eta_F : F \Rightarrow p_* Lan F$. 
 
-$$
-  \array{
-    C &&\stackrel{F}{\to}& D
-    \\
-    \downarrow^p & \Downarrow^{\eta_F} & \nearrow_{Lan F}
-    \\
-    C'
-  }
-$$
+<center markdown="1">[[kan-0.png:pic]]</center>
 
 with the property that every other natural transformation
 $F \Rightarrow p_* G$ factors uniquely through $\eta_F$ as
 
-$$
-  \array{
-    C &&\stackrel{F}{\to}& D
-    \\
-    \downarrow^p & \Downarrow & \nearrow_{G}
-    \\
-    C'
-  }
-  \;\;\;
-  =
-  \array{
-    C &&\stackrel{F}{\to}&& D
-    \\
-    \downarrow^p & \Downarrow^{\eta_F} 
-    & \nearrow_{Lan F} &
-    \Downarrow & \downarrow^{=}
-    \\
-    C' &&\stackrel{G}{\to}&& D
-  }
-  \,.
-$$
+<center markdown="1">[[kan-1.png:pic]]</center>
 
 Similarly for the right Kan extension, with the direction of the natural transformations reversed:
 
-$$
-  \array{
-    C &&\stackrel{F}{\to}& D
-    \\
-    \downarrow^p & \Uparrow^{\epsilon_F}& \nearrow_{Ran F}
-    \\
-    E
-  }
-$$
+<center markdown="1">[[kan-2.png:pic]]</center>
+
 It is clear that the definition in this form makes sense in every 2-category. In a bit different terminology, the left Kan extension 1-cell $F:C\to D$ along 1-cell $p\in K(C,C')$ in a 2-category $K$ is a pair $(Lan_p F,\alpha)$ where $\alpha : F\to Lan_p F\circ p$ is a 2-cell which reflects the object $F\in K(C,D)$ along the functor $p_* = K(p,D):K(C',D)\to K(C,D)$. 
 
 This version of the definition clearly makes sense in any [[2-category]].
