@@ -218,10 +218,11 @@ MacLane's book
 
 has a famous treatment of Kan extensions with a statement: "The notion of Kan extensions subsumes all the other fundamental concepts in category theory".  Of course, many other fundamental concepts of category theory can also be regarded as subsuming all the others.
 
-For the context of [[enriched category theory]] see 
-chapter 4 of
+For Kan extensions in the context of [[enriched category theory]] see
 
-* G.M. Kelly, _Basic Concepts of Enriched Category Theory_, 
+* Dubuc, Eduardo J. Kan extensions in enriched category theory. Lecture Notes in Mathematics, Vol. 145 Springer-Verlag, Berlin-New York 1970 xvi+173 pp.
+
+* chapter 4 from G.M. Kelly, _Basic Concepts of Enriched Category Theory_, 
  Cambridge University Press, Lecture Notes in Mathematics 64, 1982,  Republished in:
 Reprints in Theory and Applications of Categories, No. 10 (2005) pp. 1-136 ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
 
