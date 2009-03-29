@@ -16,11 +16,11 @@ is natural in $A$, so that there is a natural isomorphism
 $d:1\Rightarrow(-)^{**}$.  We also have
 
 $$\begin{aligned}
-\hom(A\otimes B,C^*)& =\hom(A\otimes B, C\multimap\bot) \\
-& \cong\hom((A\otimes B)\otimes C,\bot) \\
-& \cong\hom(A\otimes(B\otimes C), \bot) \\
-& \cong\hom(A,(B\otimes C)\multimap\bot) \\
-&=\hom(A,(B\otimes C)^*)
+\hom(A\otimes B,C^*)& = \hom(A\otimes B, C\multimap\bot) \\
+& \cong \hom((A\otimes B)\otimes C,\bot) \\
+& \cong \hom(A\otimes(B\otimes C), \bot) \\
+& \cong \hom(A,(B\otimes C)\multimap\bot) \\
+& = \hom(A,(B\otimes C)^*)
 \end{aligned}$$
 
 The functor $(-)^*$, together with these two isomorphisms,
