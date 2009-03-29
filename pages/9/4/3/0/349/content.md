@@ -113,4 +113,8 @@ with the topology itself, in noncommutative geometry on a hypothetical object lo
 polyhedra and so on. When Hausdorff defined a topology on a set, it was just an abstraction of situation where he was considering what part is essential from topological point of view and made axioms for "topology" on a set. So space he started looking at was already there, and only in his particular abstraction he said well, I can STILL call it space, though I have neglected fine structure of the metric and just left this assembly out of it...topology. 
 On the other hand, I do not consider "site" a "space"; for many reasons not the least being that Grothendieck considered topos more invariant than a site. From the point of view of algebraic geometer, the site of interest is the category of affine schemes with some subcanonical Grothendieck (pre)topology, and an algebraic kind of SPACE is NOT that site, but rather any sheaf in that topology.
 Thus such sheaf is a space, site is not (any 'affine' site is just a toolbox having pieces and scissors for assemblying such a space out of "pieces' via descent). The objects are of course representable sheaves, hence representable spaces. 
+
+[[Mike Shulman|Mike]]: I view that as reaching pretty far back.  Hausdorff was writing in 1914, nearly a century ago.  In modern mathematics, "topology" is always used is Hausdorff's sense, until Grothendieck decided it should also mean something different.
+
+I did remark that probably the topos of sheaves should be considered the space rather than the site.  Certainly a topos is not always considered a "space," but sometimes it is.  Anyway I don't think the question of what is, or isn't, a "space" is really relevant.
 =--
