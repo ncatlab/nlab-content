@@ -188,7 +188,12 @@ $$
 
 #Discussion#
 
-The original definition of triangulated categories is apparently due to Verdier in his thesis, but about the same time Dold and Puppe came out with a very similar idea. Grothendieck in the manuscript [[Pursuing Stacks]] mentions that the usual definition of triangulated categories and the corresponding [[derived category|derived categories]]  seemed to be inadequate for some of the developments that he wished for.  He also says something to the effect that he had tried to interest various of his ex-students in doing a thorough treatment of the ideas, which he considered to be necessary for future development and which he then proceeds  to sketch out. That was the theory of [[[dérivateur|dérivateurs]].  
+The original definition of triangulated categories is apparently due to Verdier who developed the theory upon guidelines by Grothendieck; Dold and Puppe developed independently a version without octahedron axiom with motivation in algebraic topology. Grothendieck in the manuscript [[Pursuing Stacks]] mentions that the usual definition of triangulated categories and the corresponding [[derived category|derived categories]]  seemed to be inadequate for some of the developments that he wished for.  He also says something to the effect that he had tried to interest various of his ex-students in doing a thorough treatment of the ideas, which he considered to be necessary for future development and which he then proceeds  to sketch out. That was the theory of [[[dérivateur|dérivateurs]].  
+
++--{+ .query}
+[[Zoran Skoda]]: I am not quite sure if this is entirely correct. Grothendieck indeed wanted more flexibility in homotopical algebra and went to develop these things; but if one talks
+only very specifically about the concept of triangulated category itself (not wider context) than the main complaint of everybody was about the crudeness of localization at quasiisomorphisms; the thing which for example Drinfel'd's "quotients of dg-categories" paper successfully rectifies (and then again Lyubashenko in quotients of $A_\infty$-categories).
+=--
 
 The idea of 'd&#233;rivateurs' is that in addition to looking at a basic category of 'things' such as chain complexes, you should also look at all categories of diagrams of such things, and the derived / homotopy Kan extensions between the corresponding derived categories that correspond to a change of the indexing category.
 
