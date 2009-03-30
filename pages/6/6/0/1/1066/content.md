@@ -17,9 +17,9 @@ The details of the definition depend on the chosen model for $(\infty,1)$-catego
 
 ##For simplicially enriched categories##
 
-The **homotopy category** $h C$ of a [[SSet]]-[[enriched category]] $C$ (equivalently of a [[Top]]-[[enriched category]]) is hom-wise the image under the functor
+The **homotopy category** $h C$ of a [[SimpSet|SSet]]-[[enriched category]] $C$ (equivalently of a [[Top]]-[[enriched category]]) is hom-wise the image under the functor
 $$
-  \pi_0 : SSet \to Set
+  \Pi_0 : SSet \to Set
  \,,
 $$
 which sends each [[simplicial set]] to its [[set]]
@@ -37,9 +37,9 @@ Similar, but more complicated, definitions work for [[complete Segal space]]s an
 
 ##For quasi-categories ##
 
-For [[quasi-category|quasi-categories]], one can write down a definition similar to those of [[SSet]]-[[enriched category|enriched categories]], but there is also the following direct construction: 
+For [[quasi-category|quasi-categories]], one can write down a definition similar to those of $SSet$-enriched categories, but there is also the following direct construction: 
 
-the [[nerve|simplicial nerve]] functor $N :$ [[Cat]] $\to$ [[SSet]] has a [[left adjoint]]
+the [[nerve|simplicial nerve]] functor $N :$ [[Cat]] $\to$ [[SimpSet|SSet]] has a [[left adjoint]]
 $$
  h : SSet \to Cat
  \,.
