@@ -15,6 +15,16 @@ If morphisms $h \circ g$ and $g \circ f$ are weak equivalences, then so are $f$,
 
 * A functor $F : C \to D$ between homotopical categories which preserves weak equivalences is a [[homotopical functor]].
 
+#Related concepts#
+
+* [[category of fibrant objects]]
+
+* [[Waldhausen category]]
+
+* [[model category]]
+
+* category with [[multiplicative system]]
+
 #References#
 
 This definition is in paragraph 33 of
