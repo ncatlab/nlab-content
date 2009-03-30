@@ -220,7 +220,8 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
 * [[homotopy category]]
 
-* [[multiplicative system]]
+* [[derived functor]]
+
 
 
 #8 Additive and Abelian Categories#
@@ -296,7 +297,7 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
 * [[derived category]]
 
-* [[derived functor]]
+* [[derived functor on a derived category]]
 
 #14 Unbounded Derived Categories#
 
