@@ -14,6 +14,18 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-03-30
 
+* [[Urs Schreiber|Urs]]:
+
+  * created [[category of chain complexes]], but then didn't quite know where to go with this...
+
+  * agreed at [[homological algebra]] and [[filtrant category]]
+
+  * created [[homology]]
+
+  * expanded [[differential object]] and created [[differential]] just to satisfy links
+
+  * created [[matrix calculus]] and [[mapping cone]]
+
 *  [[Tim Porter|Tim]]: 
    *  I have tried to edit [[homological algebra]] somewhat along the lines that my query suggested but taking in ideas from [[Zoran Škoda|Zoran's]] query at that entry.
    * I have added some background material on [[dérivateur]]s on the [[triangulated category]] entry. 
@@ -25,7 +37,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
-  * concerning the entry [[homological algebra]]: [[Tim Porter]] and [[Zoran Skoda]] (or anyone else): please feel free to improve/revie the exposition
+  * concerning the entry [[homological algebra]]: [[Tim Porter]] and [[Zoran Skoda]] (or anyone else): please feel free to improve/revise the exposition
 
   * created [[triangulated category]] -- have a question about _d&#233;rivateurs_ there
 
