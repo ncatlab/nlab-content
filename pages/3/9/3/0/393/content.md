@@ -19,6 +19,8 @@ If morphisms $h \circ g$ and $g \circ f$ are weak equivalences, then so are $f$,
 
 * [[category of fibrant objects]]
 
+* [[cofibration category]]
+
 * [[Waldhausen category]]
 
 * [[model category]]
