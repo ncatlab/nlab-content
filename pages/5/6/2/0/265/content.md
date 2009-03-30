@@ -2,10 +2,9 @@
 
 Recall that the [[homotopy category]] $Ho_C$ of a [[category with weak equivalences]] $C$ or of a [[homotopical category]] is the best 1-categorical approximation to the [[(infinity,1)-category]] in which the weak equivalences of $C$ are literally [[equivalence]]s.
 
-Analagously, for $F : C \to D$ a functor, a _derived functor_ of $F$ is a best 1-categorical approximation to a functor which respects the weak equivalences in $C$, i.e. to a factorization of $F$ through the injection $C \to Ho_C$.
+Analagously, for $F : C \to D$ a functor, a _derived functor_ of $F$ is a 1-categorical approximation to a functor which respects the weak equivalences in $C$.  If $F$ preserves weak equivalences, then by the universal property of $\Ho_C$ it factors uniquely through $C \to Ho_C$, but in general this is too much to ask.  Derived functors are "approximations" to $F$ defined on $\Ho_C$, but which are _not_ extensions of $F$ along $C\to \Ho_C$ (even up to isomorphism).
 
-Often the term _derived functor_ refers to the particular case where $C = K(A)$ is a [[category of chain complexes]] in an [[abelian category]] $A$ and $Ho_C$ is the [[derived category]] of $A$. For this special case see also
-[[derived functor on a derived category]].
+Often the term _derived functor_ refers to the particular case where $C = K(A)$ is a [[category of chain complexes]] in an [[abelian category]] $A$ and $Ho_C$ is the [[derived category]] of $A$. For this special case see also [[derived functor on a derived category]].
 
 
 #Definition#
@@ -27,6 +26,10 @@ $$
 More generally, if $D$ is itself a category with weak equivalences, then by derived functors of $F$ we often mean derived functors of the composite
 
 $$ C \stackrel{F}{\to} D \to Ho_D $$
+
++--{: .query}
+[[Mike Shulman|Mike]]: I personally hold the opinion that it is better to _define_ a derived functor to be the result of applying $F$ to a fibrant and/or cofibrant replacement of some sort.  I have come to view the fact that sometimes (when a fibrant _or_ cofibrant replacement alone suffices) this happens to be a left or right Kan extension as merely an accident, which is of little practical or conceptual use.  I think this is borne out by the fact that these Kan extension are not "pointwise," that they are basically the _only_  non-pointwise Kan extensions that I have seen arise anywhere in mathematics, and that many of the nice properties of Kan extensions apply only to pointwise ones (in fact, Kelly _defines_ Kan extension to refer only to pointwise ones).  But I would be very interested to hear alternate points of view.
+=--
 
 
 #Remarks#
