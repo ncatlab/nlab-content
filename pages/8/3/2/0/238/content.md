@@ -14,6 +14,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-03-30
 
+*  [[Tim Porter|Tim]]: 
+   *  I have tried to edit [[homological algebra]] somewhat along the lines that my query suggested but taking in ideas from [[Zoran Škoda|Zoran's]] query at that entry.
+   * I have added some background material on [[dérivateur]]s on the [[triangulated category]] entry. 
 *  [[Toby Bartels]]:
    *  Wrote [[biproduct]], [[direct sum]], and [[direct product]].
    *  Added more versions to [[additive and abelian categories]].
