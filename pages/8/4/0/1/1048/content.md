@@ -8,6 +8,8 @@ I don\'t see the point of putting this information here, of commenting the redir
 This is different from when the two terms are real variations with their own definitions etc, even if they somehow correspond.  If that were the case, then sometimes we would want to point here, even if most of the discussion is at the other page.  And in particular, the target page would have a link back here, so it would get seen!  (Compare how [[2-category]] and [[bicategory]] link to each other.)
 
 ---Toby
+
+[[Mike Shulman|Mike]]: Makes sense to me.  I am still hoping that one day we can get mediawiki-style redirects that don't require an extra click from the user.
 =--
 
 category: redirect
