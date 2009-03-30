@@ -1,6 +1,6 @@
 #Definition#
 
-An **Ab-enriched category** is a [[enriched category|category enriched over]] the category [[Ab]] of abelian groups with its [[tensor product]].
+An **Ab-enriched category** is a [[enriched category|category enriched over]] the category [[Ab]] of abelian groups with its usual [[tensor product]].
 
 Sometimes Ab-enriched categories are called [[pre-additive category|pre-additive categories]], although sometimes that term also implies the existence of a [[zero object]].
 
@@ -19,7 +19,7 @@ $
 is bilinear.
 
 * There is a canonical forgetful functor $Ab \to Set_*$ from
-abelian groups to pointed sets, which sends each group to its underlying set with point being the neutral element. Using this functor every pre-additive category $C$ is in particular also a  category that is enriched over pointed sets. This is sufficient for there to be a notion of 
+abelian groups to [[pointed set]]s, which sends each group to its underlying set with point being the neutral element. Using this functor every pre-additive category $C$ is in particular also a  category that is enriched over pointed sets. This is sufficient for there to be a notion of 
 [[zero morphism]], [[kernel]] and [[cokernel]] in 
 $C$.
 
@@ -38,7 +38,7 @@ In an Ab-enriched category $C$, any [[initial object]] is also a [[terminal obje
 
 ## Biproducts ##
 
-For $a, b \in C$ two objects in an Ab-enriched category $C$,  [[generalized the|the]] [[product]] $a \times b$ coincides  with [[generalized the|the]] [[coproduct]] $a \cup b$ when either exists.  More precisely, when both exist, the canonical morphism
+For $c_1, c_2 \in C$ two objects in an Ab-enriched category $C$,  [[generalized the|the]] [[product]] $c_1 \times c_2$ coincides  with [[generalized the|the]] [[coproduct]] $c_1 \sqcup c_2$ when either exists.  More precisely, when both exist, the canonical morphism
 $$
   r : c_1 \sqcup c_2 \to c_1 \times c_2
 $$
@@ -59,7 +59,7 @@ $$
 $$
 which exists whenever $c_1\sqcup c_2$ and $c_1\times c_2$ do, is an [[isomorphism]].  This object is called a [[biproduct]] or (sometimes) a [[direct sum]] and is generally denoted
 $$
-  a \oplus b.
+  c_1 \oplus c_2.
 $$
 It can be characterized diagrammatically as an object $c_1\oplus c_2$ equipped with morphisms $q_i:c_i\to c_1\oplus c_2$ and $p_i:c_1\oplus c_2 \to c_i$ such that $p_i q_j = \delta_{i j}$ and $q_1 p_1 + q_2 p_2 = 1_{c_1\oplus c_2}$.  Expressed in this form, it is clear that any Ab-enriched functor preserves biproducts.
 
