@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * created [[null system]]
+
   * created [[category of chain complexes]], but then didn't quite know where to go with this...
 
   * agreed at [[homological algebra]] and [[filtrant category]]
