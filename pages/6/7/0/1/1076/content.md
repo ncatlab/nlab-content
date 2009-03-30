@@ -165,7 +165,7 @@ $$
 
 #Remarks#
 
-* In the context of triangulated categories the translation functor $T : C \to C$ is often called the **suspension functor** and usually denoted $(-)[1] : X \mapsto X[1]$.
+* In the context of triangulated categories the translation functor $T : C \to C$ is often called the **suspension functor** and usually denoted $(-)[1] : X \mapsto X[1]$. However unlike "translation functor", suspension functor is also the term used when the invertibility is not assumed, cf. [[suspended category]].
 
 #Examples#
 
