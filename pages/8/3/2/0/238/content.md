@@ -16,6 +16,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * QUESTION: came across MacLane's 
+    _Foundations for Categories and Sets_ where it it argued that neither standared set/class set theory nor [[Grothendieck universe]]s provide decent foundations for categories and a formalism of _schools_ is introduced instead -- can anyone comment on that in the light of our discussion at [[Grothendieck universe]]?
+
+  * added an "Idea" section to [[derived functor]] and split off [[derived functor on a derived category]] from that in order to discuss the special homological algebra aspects of derived functors separately -- but incomplete for the moment
+
   * created [[null system]]
 
   * created [[category of chain complexes]], but then didn't quite know where to go with this...
