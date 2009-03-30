@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-03-29
 
+* [[Mike Shulman|Mike]]: A grammatical suggestion at [[stuff, structure, property]].
+
 * [[Urs Schreiber|Urs]]: 
 
   * began [[derived category]] before running out of time again...
