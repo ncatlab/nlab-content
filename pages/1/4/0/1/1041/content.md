@@ -1,6 +1,6 @@
 #Idea#
 
-An abelian category is the general context in which linear algebra and [[homological algebra]] makes sense. It is the richest concept in a sequence of [[additive and abelian categories]].
+An abelian category is a general context in which linear algebra and [[homological algebra]] makes sense.  It is the richest concept in a sequence of [[additive and abelian categories]].
 
 +-- {+ .query}
 _Zoran_: I strongly disagree with the first sentence, particularly with THE (general context...). MacLane was (according to Janliedze) looking whole life for what is the
@@ -9,6 +9,8 @@ grothendieck wanted to unify on the obsrervation that the
 categories of abelian sheaves and categories of R-modules have the same setup for homological algebra as in Tohoku. 
 
 There is much linear algebra you can do with cokernel sofr example, as well as much linear algebra which you can not do if you are not over a field for example. So, saying that abelian categories are distinguished is only among categories which have closets properties to abelian sheaves and R-modules, not among principlkes for homlogical algebra and linear algebra that uniquely (although the strojng motivation was ever there).
+
+[[Mike Shulman|Mike]]: I changed it to "a" general context; is that satisfactory?  Once we have pages about those other notions, there can be links from here to there.
 =--
 
 # Definition
@@ -34,9 +36,11 @@ according to Kashiwara Shapira book, their Ab-structure is
 implied by the rest of the structure.
 
 Somebody should also write an entry for Quillen exact, they are also in between the additive and abelian but in different splitting...
+
+[[Mike Shulman|Mike]]: Why not write that down on the page [[additive category]] and make this refer to it?
 =-- 
 
-* The last poin is of relevance in particular for [[infinity-category|higher categorical]] generalizations of additive categories. See for instance [remark 2.14, p. 5](http://www-math.mit.edu/~lurie/topoibook/DAGI.pdf#page=5) of Jacob Lurie's [[Stable infinity-categories]].
+* The last point is of relevance in particular for [[infinity-category|higher categorical]] generalizations of additive categories. See for instance [remark 2.14, p. 5](http://www-math.mit.edu/~lurie/topoibook/DAGI.pdf#page=5) of Jacob Lurie's [[Stable infinity-categories]].
 
 
 
