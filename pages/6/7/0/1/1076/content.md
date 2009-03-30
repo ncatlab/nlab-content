@@ -7,6 +7,9 @@ Therefore, all the structure and properties of a triangulated category is best u
 +-- {: .query}
 [[Urs Schreiber|Urs]]: as far as I overheard, the concept of _d&#233;rivateurs_ is an attempt to enhance the axioms of a triangulated category to get closer to the "true answer" (= stable $(\infty,1)$-category). Maybe somebody who knows more can make an educated comment on the relation to _d&#233;rivateurs_ here.
 
+
+[[Tim Porter|Tim]]: I have added some comments below.  Eventually I suspect we will need an entry on them, but I am probably not the person to do it at my current stage of knowledge.
+
 =--
 
 #Definition#
@@ -185,11 +188,20 @@ $$
   * Therefore in particular the category of [[spectrum|spectra]] is a triangulated category.
 
 
+#Discussion#
+
+The original definition of triangulated categories is apparently due to Verdier in his thesis, but about the same time Dold and Puppe came out with a very similar idea. Grothendieck in the manuscript [[Pursuing Stacks]] mentions that the usual definition of triangulated categories and the corresponding [[derived category|derived categories]]  seemed to be inadequate for some of the developments that he wished for.  He also says something to the effect that he had tried to interest various of his ex-students in doing a thorough treatment of the ideas, which he considered to be necessary for future development and which he then proceeds  to sketch out. That was the theory of [[[dérivateur|dérivateurs]].  
+
+The idea of 'd&#233;rivateurs' is that in addition to looking at a basic category of 'things' such as chain complexes, you should also look at all categories of diagrams of such things, and the derived / homotopy Kan extensions between the corresponding derived categories that correspond to a change of the indexing category.
+
+The basic idea behind this was explored slightly later by Alex Heller (1988). His memoir discusses the corresponding homotopy theory and links it to earlier work of Doug Anderson. 
+
+
+
 #References#
-
-The original definition of triangulated categories is apparently due to Verdier.
-
 Accounts can be found for instance in
+
+* A. Neeman, 2001, Triangulated Categories , Princeton University Press Press,
 
 section 10 of
 
@@ -198,3 +210,17 @@ section 10 of
 section 3 of 
 
 * J. Lurie, [[Stable Infinity-Categories]]
+
+A link for discussion and a list of source material for  'd&#233;rivateurs' can be found at
+
+
+http://people.math.jussieu.fr/~maltsin/groth/Derivateurs.html
+
+This includes copies of the first thirteen chapters of a 2000 page manuscript of Grothendieck. 
+
+George Maltsiniotis has written an introduction to the topic (in French) which is listed near the bottom of the webpage: (G. Maltsiniotis , "Introduction &#224; la th&#233;orie des d&#233;rivateurs, d'apr&#232;s Grothendieck", Preprint (2001).) 
+
+
+Alex Heller's memoir is very readable and is readily available.
+
+*  A. Heller, "Homotopy theories", Memoirs of the American Mathematical Society, Vol. 71, No 383 (1988).  
