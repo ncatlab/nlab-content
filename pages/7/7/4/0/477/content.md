@@ -8,6 +8,7 @@ In a [[category]], a **product** (also called a **cartesian product**) of two [[
 * One can define in a similar way a product of any family of objects.  A product of the [[empty set|empty]] family is a [[terminal object]].
 * A product is a special case of a [[limit]] in which the domain category is [[discrete category|discrete]].
 * A product in $C$ is the same as a [[coproduct]] in its [[opposite category]] $C^{op}$.
+* A product created by the [[forgetful functor]] of a [[concrete category]], especially in algebra, is often called a [[direct product]].
 
 # Demonstration #
 
