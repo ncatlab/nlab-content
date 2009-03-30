@@ -62,6 +62,8 @@ We will give a sort of lexicon of some terms which are taken from a source on [[
 
 **Note** With $\mathbb{Z}$-graded vector spaces (and sometimes with other examples as well), some authors work with a direct sum of the various vector spaces instead of using an indexed family.
 
+[[Tim Porter|Tim]]: I have typed this in but do not like it in some of its terminology. (I am using a latex file from some years ago.) Once I have everything I have in my lexicon down in the nLab I hope we can make the entry  fit more closely to others.
+
 
 **(Pre-)graded vector spaces**
 
@@ -93,7 +95,7 @@ If $r\in \mathbb{Z}$, the $r$-suspension of $V$ is given by $(s^rV)_n = V_{n-r}.
 
 We will need $s$, the 1-suspension, and $s^{-1}$ in particular.  Of course, $(s^{-1}V)_n = V_{n+1}$.  It is also useful to note $(s^rV)^p = V^{p+r}$. Again, of course, $s^r: V\to s^rV$ is an isomorphism of degree $-r$ having $s^{-r}$ as its inverse.
 
-(This is the basic example of the *suspension functor** discussed in [[triangulated category]].)
+(This is the basic example of the **suspension functor** discussed in [[triangulated category]].)
 
 
 **Duals**
@@ -158,7 +160,8 @@ and is of degree $|f| + |g|$.
 
 In particular there is a natural injection $(\#V)\otimes (\#W) \to \#(V\otimes W)$, and this is an isomorphism if either $V$ or $W$ is of finite type.
 
-
+##Remark ##
+A [[differential object]] in the category of gvs is a [[differential graded vector space]] or dgvs. This is just a [[chain complex]] or cochain complex
 
 
 
