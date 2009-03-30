@@ -4,7 +4,7 @@ The __direct sum__, or __weak direct product__, is a concept from algebra that a
 
 The name 'weak direct product' comes from the concept of [[direct product]] in algebra for a [[product]] in a [[concrete category]] that is created by the [[forgetful functor]].  Here we will not restrict ourselves to that context.
 
-The term 'direct sum' comes from the (finitary) [[biproduct]] (simultaneiously product and coproduct) in [[additive category|additive categories]].  The additive character of these biproducts extends in the infinitary case (where biproducts generally no longer appear) to the direct sum rather than to the product.  (In these cases, the direct sum is often still a [[coproduct]], but the importance of coproducts in algebra was not evident as early.)
+The term 'direct sum' comes from the (finitary) [[biproduct]] (simultaneously product and coproduct) in [[additive category|additive categories]].  The additive character of these biproducts extends in the infinitary case (where biproducts generally no longer appear) to the direct sum rather than to the product.  (In these cases, the direct sum is often still a [[coproduct]], but the importance of coproducts in algebra was not evident as early.)
 
 # Definition #
 
