@@ -6,6 +6,8 @@ A special case of the general notion of a [[derived functor]] on the [[homotopy 
 [[Mike Shulman|Mike]]: Somewhere, we should talk about derived functors in the very traditional sense of "extending the image of a short exact sequence to a long exact sequence."
 
 [[Zoran Skoda]] Not only universal $\delta$ and $\delta^*$ functors, but we should also have satelites.
+
+Title of this entry misleading, and nonstandard (I can say I never heard of exact phrase "derived functor on a derived category"). It seems that Urs wanted to do all kinds of derived functors in the setting of chain complexes, not only inducing functors between derived categories from functors between abelian. The example below are classical derived functors between abelian categories, not between derived (I see downstairs Ext and Tor). 
 =--
 
 #Derived functors in homological algebra#
