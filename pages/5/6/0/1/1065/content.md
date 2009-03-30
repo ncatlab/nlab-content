@@ -1,6 +1,10 @@
 #Idea#
 
-From a modern perspective, homological algebra is the study of those [[stable infinity-category|stable objects]] whose [[homotopy category of an (infinity,1)-category|homotopy category]] is the [[derived category]] of an [[abelian category]].
+From a modern perspective, homological algebra is the study of algebraic objects, (such as groups, rings or Lie algebras, or objects coming from  algebraic geometric contexts such as sheaves of such objects), by 'resolving them', replacing them by  more [[stable infinity-category|stable objects]] whose [[homotopy category of an (infinity,1)-category|homotopy category]] is the [[derived category]] of an [[abelian category]]. 
+
+Functors between the original algebraic objects lead to derived functors between the homotopy categories, and much effort is devoted to the study of those derived functors, and the interpretation of their properties in terms of structure  of the original algebraic objects.
+
+There are variants of the above idea that handle more non-linear phenomena.  These include non-Abelian (co)homology and crossed and quadratic versions that use  a small degree of non-linearity in the models.  These latter theories make extensive use of techniques from [[homotopical algebra]] in the wide sense of that term and simplicial methods to avoid the crushing of homotopical information that can occur when passing to chain complexes.
 
 +-- {+ .query}
 _Zoran_: with this viewpoint objects are more important than  the task of defining derived functors; at least for many practioners the main task is to define derived versions of
@@ -19,9 +23,9 @@ I am also slightly worried by too much emphasis on 'stable' as this can be a 'we
 
 So homological algebra studies in particular the [[homology]] of [[chain complex]]es in [[abelian category|abelian categories]] -- therefore the name.
 
-The most refined 1-categorical approximation to the right context in which such [[chain complex]]es live is axiomatized by the structure of a [[triangulated category]]. The true context however is the corresponding [[stable infinity-category]], of which the triangulated category in question is just the [[homotopy category of an (infinity,1)-category|homotopy category]].
+One of the most refined 1-categorical approximations to the right context in which such [[chain complex]]es live is axiomatized by the structure of a [[triangulated category]]. Perhaps the better context however is the corresponding [[stable infinity-category]], of which the triangulated category in question is just the [[homotopy category of an (infinity,1)-category|homotopy category]] possibly enriched by derived Kan extensions as in the theory of [[dérivateur|dérivateurs]].
 
-#related entries#
+#Related entries#
 
 * [[additive and abelian categories]]
 
