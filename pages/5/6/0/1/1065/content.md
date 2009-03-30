@@ -6,7 +6,7 @@ Functors between the original algebraic objects lead to [[derived functor]]s bet
 
 There are variants of the above idea that handle more non-linear phenomena.  These include non-Abelian (co)homology and crossed and quadratic versions that use a small degree of non-linearity in the models.  These latter theories make extensive use of techniques from [[homotopical algebra]] in the wide sense of that term and simplicial methods to avoid the crushing of homotopical information that can occur when passing to chain complexes.
 
-So homological algebra studies in particular the [[homology]] of [[chain complex]]es in [[abelian category|abelian categories]] -- therefore the name.
+Homological algebra thus studies, in particular, the [[homology]] of [[chain complex]]es in [[abelian category|abelian categories]] -- therefore the name.
 
 One of the most refined 1-categorical approximations to the right context in which such [[chain complex]]es live is axiomatized by the structure of a [[triangulated category]]. Perhaps the better context however is the corresponding [[stable infinity-category]], of which the triangulated category in question is just the [[homotopy category of an (infinity,1)-category|homotopy category]] possibly enriched by derived Kan extensions as in the theory of [[dérivateur|dérivateurs]].
 
