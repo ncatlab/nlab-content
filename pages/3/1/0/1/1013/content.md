@@ -17,6 +17,11 @@ Another way to break down the possibilities (used in a $3$-way [[factorization s
 * $F$ **forgets purely structure** if $F$ is [[essentially surjective functor|essentially surjective]] (on objects) and faithful;
 * $F$ **forgets purely stuff** if $F$ is essentially surjective and full.
 
++--{: .query}
+[[Mike Shulman|Mike]]: Maybe you all had this out somewhere that I haven't read, but in the English I am accustomed to speak, "property" is not a mass noun.  So you can "forget a property" or "forget properties" but you can't "forget property."
+=--
+
+
 ## Interpretation in terms of k-surjectivity##
 
 The pattern here is best understood in terms of the notion of [[k-surjective functor|essentially k-surjective functor]]. 
@@ -58,9 +63,7 @@ See also the examples below.
 
 ## Generalization to higher groupoids##
 
-The formulation in terms of $k$-surjectivity induces an immediate generalization of the notions of stuff, structure and property to the context of [[infinity-category|infinity-groupoids]].
-
-(Baez's students speak of "2-stuff", etc.)
+The formulation in terms of $k$-surjectivity induces an immediate generalization of the notions of stuff, structure and property to the context of [[infinity-category|infinity-groupoids]].  Baez's students speak of "2-stuff," "3-stuff," and so on.   Of course, structure and properties can then be called 0-stuff and $(-1)$-stuff, respectively.
 
 
 ##Generalization to categories and higher categories##
