@@ -223,7 +223,7 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
 * [[Ab]]
 
-* [[Ab-enrriched category]]
+* [[Ab-enriched category]]
 
 * [[additive and abelian categories]]
 
@@ -244,12 +244,19 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
 #11 Complexes in Additive Categories#
 
+* [[chain complex]]
+
+  * [[category with translation]]
+
+  * [[differential object]]
 
 
 #12 Complexes in Abelian Categories#
 
 
 #13 Derived Categories#
+
+* [[derived category]]
 
 
 #14 Unbounded Derived Categories#
