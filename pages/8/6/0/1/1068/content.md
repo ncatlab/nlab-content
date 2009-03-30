@@ -19,7 +19,7 @@ $$
   \,.
 $$
 
- If $C$,$C'$ are additive and $F$ is additive $F$ is a "morphism of additive categories with translation". 
+ If $C$,$C'$ are [[additive category|additive]] and $F$ is additive $F$ is a "morphism of additive categories with translation". 
 
 In any additive category with translation a **triangle** is a sequence of morphisms of the form
 $$a\stackrel{f}\to b\stackrel{g}\to c\stackrel{h}\to T a.$$
