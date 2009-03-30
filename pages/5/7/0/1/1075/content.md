@@ -22,10 +22,10 @@ for each object $U \in S$.
 
 For a morphism $f : A \to Y(U)$ in the [[presheaf]] category 
 $[S^{op},Set]$ with $U \in S$ and $Y : S \to [S^{op}, Set]$ the
-[[Yoneda embedding]], let $sieve_A \subset Y(U) \in [S^{op}}, Set]$ be the
+[[Yoneda embedding]], let $sieve_A \subset Y(U) \in [S^{op}, Set]$ be the
 [[sieve]]  at $U$ 
 $$
-  sieve_f : V \mapsto \{ h : V \to U \in S | Y(h) = Y(V) \stackrel{\exists}{\to} A \to Y(U)\}
+  sieve_f : V \mapsto \{ h : V \to U \in S \;|\; Y(h) = Y(V) \stackrel{\exists}{\to} A \to Y(U)\}
 $$
 which assigns to $V$ all morphisms from $V$ to $U$ that factor through $f$.
 
