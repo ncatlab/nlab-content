@@ -8,7 +8,7 @@ other propositions.  By contrast, in using a resource $A$ to
 make available a resource $B$, $A$ itself may be consumed or
 otherwise modified.  Linear logic deals with this by
 restricting our ability to duplicate or discard resources
-freely.  For example, classically we might have
+freely.  For example, we have
 
 $$\text{have cake}\vdash\text{eat cake}$$
 
@@ -17,15 +17,17 @@ from which we can prove
 $$\text{have cake},\text{have cake}\vdash \text{have cake}
 \wedge \text{eat cake}$$
 
-which by left contraction (duplication of inputs) yields
+which by left contraction (duplication of inputs) in classical logic yields
 
 $$\text{have cake}\vdash\text{have cake}\wedge\text{eat cake}$$
 
 Linear logic would disallow the contraction step and treat
 $\text{have cake},\text{have cake}\vdash A$ as explicitly
-meaning that _two_ slices of cake yield $A$.  Disallowing
-contraction then corresponds to the fact that we can't turn
-one slice of cake into two (more's the pity).
+meaning that _two_ slices of cake yield $A$.  Disallowing contraction then corresponds to the fact that we can't turn one slice of cake into two (more's the pity), so you can\'t have your cake and eat it too.
+
++--{: .query}
+Lynn, I can\'t believe that you shied away from the punchline!  ---Toby
+=--
 
 Linear logic was introduced in \[1\].  Although it is
 usually presented in terms of inference rules, it was
@@ -41,10 +43,10 @@ $*$-[[star-autonomous category|autonomous categories]] with extra
 structure (see \[2\]).
 
 Firstly, there is a monoidal 'tensor' connective
-$A \otimes B$.  Negation $A^\bot$ is modelled by the duality
+$A \otimes B$.  [[negation|Negation]] $A^\bot$ is modelled by the duality
 involution $(-)^*$, while linear implication $A\multimap B$
 corresponds to the internal hom, which can be defined as
-$(A\otimes B^\bot)^\bot$.  There is a De Morgan dual of the
+$(A\otimes B^\bot)^\bot$.  There is a [[de Morgan duality|De Morgan dual]] of the
 tensor called 'par', with 
 $A \parr B = (A^\bot\otimes B^\bot)^\bot$.  Tensor and par are the
 'multiplicative' connectives, which roughly speaking represent the
@@ -62,10 +64,9 @@ changed the above to refer to the syntax of LL.
 =--
 
 The 'additive' connectives $\&$ and $\oplus$, which
-correspond more closely to the traditional conjunction and
-disjunction, are modelled as usual by products and
-coproducts.  Seely notes \[2\] that products are sufficient,
-as $*$-autonomy then guarantees the existence of coproducts.
+correspond in another way to traditional conjunction and
+disjunction, are modelled as usual by [[product]]s and
+[[coproduct]]s.  Seely notes \[2\] that products are sufficient, as $*$-autonomy then guarantees the existence of coproducts; that is, they are also linked by [[de Morgan duality]].
 
 LL recaptures the notion of a resource that can be discarded
 or copied arbitrarily by the use of the modal operator $!$:
@@ -89,7 +90,7 @@ maps.  The corresponding rules are interpreted by
 precomposing the interpretation of a sequent with one of
 these maps.
 
-The (co)Kleisli category of $!$ is cartesian closed, and
+The (co)Kleisli category of $!$ is [[cartesian closed category|cartesian closed]], and
 the product there coincides with the product in the base
 category.  The exponential (unsurprisingly for a Kleisli
 category) is $B^A \cong !A\multimap B$.
@@ -104,3 +105,5 @@ category) is $B^A \cong !A\multimap B$.
    and cofree coalgebras', _Contemporary Mathematics_ 92,
    1989.  Available at
    &lt;http://www.math.mcgill.ca/rags/nets/llsac.ps.gz>.
+
+3. The [article](https://secure.wikimedia.org/wikipedia/en/wiki/Linear_logic) on the English Wikipedia has good summaries of the meanings of the logical operators and of the commonly studied fragments.
