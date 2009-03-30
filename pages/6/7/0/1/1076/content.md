@@ -4,14 +4,6 @@ A _triangulated category_ is a [[category]] that behaves like the [[homotopy cat
 
 Therefore, all the structure and properties of a triangulated category is best understood as a 1-categorical shadow of the corresponding properties of [[stable (infinity,1)-category|stable (infinity,1)-categories]], which are in fact simpler and more natural. 
 
-+-- {: .query}
-[[Urs Schreiber|Urs]]: as far as I overheard, the concept of _d&#233;rivateurs_ is an attempt to enhance the axioms of a triangulated category to get closer to the "true answer" (= stable $(\infty,1)$-category). Maybe somebody who knows more can make an educated comment on the relation to _d&#233;rivateurs_ here.
-
-
-[[Tim Porter|Tim]]: I have added some comments below.  Eventually I suspect we will need an entry on them, but I am probably not the person to do it at my current stage of knowledge.
-
-=--
-
 #Definition#
 
 A **triangulated category** is 
@@ -177,7 +169,7 @@ $$
 
 #Examples#
 
-* The [[homotopy category]] of [[chain complexes]] in an [[abelian category]] (the category of chain complexes modulo [[chain homotopy]]) is a triangulated category: the translation functor is the shift functor on [[chain complex]]es and the distinguished triangles are those coming from the [[mapping cone]] construction $X \stackrel{f}{\to}Y \to Cone(f) \to T X$.
+* The [[homotopy category]] of [[chain complex]]es in an [[abelian category]] (the category of chain complexes modulo [[chain homotopy]]) is a triangulated category: the translation functor is the shift functor on [[chain complex]]es and the distinguished triangles are those coming from the [[mapping cone]] construction $X \stackrel{f}{\to}Y \to Cone(f) \to T X$.
 
 * The [[localization]] $C/N$ of any triangulated category $C$ at a [[null system]] $N \hookrightarrow C$, i.e. the localization at the [[multiplicative system]] given by the morphisms $f : X \to Y$ such that there exists dts $X \to Y \to Z \to T X$ with $Z$ an object of a [[null system]], is still naturally a triangulated category, with the dts being the triangles isomorphic to an image of a dt under $Q : C \to C/N$.
 
@@ -189,7 +181,7 @@ $$
 
 * Likewise, the homotopy category of a [[stable model category]] is also a triangulated category.
 
-  * This is a more classical route to the triangulated category of spectra.
+  * This is a more classical route to the triangulated category of [[spectrum|spectra]].
 
   * It also provides a direct construction of the homotopy category and derived category of many abelian categories.
 
@@ -205,22 +197,22 @@ The basic idea behind this was explored slightly later by Alex Heller (1988). Hi
 
 
 #References#
+
 Accounts can be found for instance in
 
 * A. Neeman, 2001, Triangulated Categories , Princeton University Press Press,
 
-section 10 of
+or section 10 of
 
 * Kashiwara-Schapira, [[Categories and Sheaves]];
 
-section 3 of 
+or section 3 of 
 
 * J. Lurie, [[Stable Infinity-Categories]]
 
 A link for discussion and a list of source material for  'd&#233;rivateurs' can be found at
 
-
-http://people.math.jussieu.fr/~maltsin/groth/Derivateurs.html
+* A. Grothendieck,  [Les D&#233;rivateurs](http://people.math.jussieu.fr/~maltsin/groth/Derivateurs.html)
 
 This includes copies of the first thirteen chapters of a 2000 page manuscript of Grothendieck. 
 
