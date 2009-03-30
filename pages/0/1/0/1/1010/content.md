@@ -24,6 +24,10 @@ But here\'s another possibility:  Maybe we should reserve this page for the stri
 Of course the definition below is only correct in material set theory, but there is also a straightforward structural version that you wrote down, in terms of families, that makes no reference to cardinality.  What I don't see is _why_ the cardinal number is "what matters" or "the bottom line for any proposed (re)definition."  It seems to me that what's important for category theory is that we have a collection of sets, called "small," which are closed under various constructions (power sets, indexed unions, etc.), so that the resulting category $Set$ of small sets behaves the way we want it to.  It's completely irrelevant whether "small" is defined to mean "of cardinality less than $\kappa$" for some $\kappa$, or defined in some other way.  If you assume the axiom of choice, then any collection of small sets closed under enough constructions _will_ consist precisely of the sets of cardinality $\lt\kappa$ for some $\kappa$, but in the absence of choice I see no reason for that to be true.  All of this is equally true materially and structurally.
 
 (As an aside, I'm not so sure that on the nLab we "aren't" using material set theory; rather, I think that practically everything we do is completely agnostic as to whether the foundation is material or structural.  In fact, if you assume the axioms of choice and foundation, then the two are completely equivalent---a model of ZFC can be reconstructed, up to isomorphism, from its category of sets, and that category of sets is determined, up to equivalence, by its well-founded-set-objects.)
+
+[[Mike Shulman|Mike]]: In fact, you yourself wrote at [[foundations]]:
+
+> I understand all these large cardinals much better in terms of their categories of small sets.
 =--
 
 
