@@ -29,6 +29,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 *  [[Tim Porter|Tim]]: 
    *  I have tried to edit [[homological algebra]] somewhat along the lines that my query suggested but taking in ideas from [[Zoran Škoda|Zoran's]] query at that entry.
    * I have added some background material on [[dérivateur]]s on the [[triangulated category]] entry. 
+   * I have a **lexicon** for the concepts needed for rational homotopy theory that may be useful.  I have started adding some of this to [[graded vector space]].  My intention is to put quite a lot of routine stuff on this there and elsewhere and then to sort out links, conflicts of notation afterwards. Feedback, queries etc welcome. (They will encourage me to put more of the lexicon on there!)
+
 *  [[Toby Bartels]]:
    *  Wrote [[biproduct]], [[direct sum]], and [[direct product]].
    *  Added more versions to [[additive and abelian categories]].
