@@ -1,0 +1,1 @@
+An **abelian sheaf** is a [[sheaf]] with values in an [[abelian category]].
