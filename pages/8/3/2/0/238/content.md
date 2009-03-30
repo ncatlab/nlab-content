@@ -14,7 +14,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-03-29
 
-* [[Mike Shulman|Mike]]: A grammatical suggestion at [[stuff, structure, property]].
+* [[Mike Shulman|Mike]]:
+
+  * A grammatical suggestion at [[stuff, structure, property]].
+
+  * Did some work on [[chain complex]] and all the [[additive and abelian categories]] pages.
 
 * [[Urs Schreiber|Urs]]: 
 
