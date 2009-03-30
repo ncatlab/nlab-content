@@ -13,7 +13,7 @@ or follow the links provided below.
 
 #Summary#
 
-The book discusses the theory of [[presheaf|presheaves]] and [[sheaf|sheaves]] with an eye towards their application in homological algebra and with an outlook on [[stack]]s.
+The book discusses the theory of [[presheaf|presheaves]] and [[sheaf|sheaves]] with an eye towards their application in [[homological algebra]] and with an outlook on [[stack]]s.
 
 A self-contained introduction of the basics of [[presheaf]]-categories with detailed discussion of [[representable functor]]s and the corresponding notions of [[limit]]s, [[colimit]]s, [[adjoint functor]]s and [[ind-object]]s forms the first third of the book.
 
@@ -184,7 +184,7 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
 #3 Filtrant Limits#
 
-* [[filtered category|filtrant category]]
+* [[filtered category]]
 
 * [[exact functor]]
 
@@ -201,7 +201,9 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
   * [[enriched category]]
 
+
 #5 Generators and Representability#
+
 
 #6 Indization of Categories#
 
@@ -219,6 +221,7 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 * [[homotopy category]]
 
 * [[multiplicative system]]
+
 
 #8 Additive and Abelian Categories#
 
@@ -238,32 +241,62 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
   * [[abelian category]]
 
+* [[biproduct]]
+
+  * [[direct sum]]
+
+  * [[matrix calculus]]
+
+* [[chain complex]]
+
+  * [[kernel]]
+
+  * [[cokernel]]
+
+  * [[homology]]
+
 
 #9 $\pi$-accesible Objects and $F$-injective Objects#
 
 
 #10 Triangulated Categories#
 
+* [[stable infinity-category]]
+
 * [[triangulated category]]
 
 * [[cohomological functor]]
 
+* [[null system]]
+
+
 #11 Complexes in Additive Categories#
 
-* [[chain complex]]
+* [[homological algebra]]
 
   * [[category with translation]]
 
   * [[differential object]]
+  
+  * [[mapping cone]] 
+
+  * [[category of chain complexes]]
+
 
 
 #12 Complexes in Abelian Categories#
+
+* [[snake lemma]]
+
+* [[quasi-isomorphism]]
+
 
 
 #13 Derived Categories#
 
 * [[derived category]]
 
+* [[derived functor]]
 
 #14 Unbounded Derived Categories#
 
