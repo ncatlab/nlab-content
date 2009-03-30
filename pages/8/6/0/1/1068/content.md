@@ -8,7 +8,7 @@ $$
 A **functor of categories with translation** $F:(C,T)\to (C',T')$ is a functor $F:C\to C'$ equipped with an isomorphism $F\circ T\cong T'\circ F$. If $C$,$C'$ are additive and $F$ is additive $F$ is a "functor of additive categories with translation". 
 
 In any additive category with translation a **triangle** is a sequence of morphisms of the form
-$$a\stackrel{f}\to b\stackrel{g}\to c\stackrel{h}\to Ta.$$
+$$a\stackrel{f}\to b\stackrel{g}\to c\stackrel{h}\to T a.$$
 
 
 #Examples#
