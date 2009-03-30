@@ -15,7 +15,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 # 2009-03-30
 
 *  [[Toby Bartels]]:
-   *  Wrote [[biproduct]].
+   *  Wrote [[biproduct]], [[direct sum]], and [[direct product]].
    *  Added more versions to [[additive and abelian categories]].
    *  Questioned the purpose of [[filtrant category]].
    *  I hope that people saw Zoran\'s addition to a query box below.
