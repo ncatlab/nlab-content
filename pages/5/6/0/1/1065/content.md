@@ -12,6 +12,9 @@ homotopical in nature. That is why they invented "protomodular categoriews", "ho
 [[Tim Porter|Tim]]: I would support a different wording as well. The above does not make clear that, say, group (co)homology or Lie algebra (co)homology might be considered as subclasses of 'homological algebra'.  It also does not really include the crossed homological algebra that Ronnie has developed.  There is also the point, which sometime I will make more precise, that homological algebra is a linearised version of homotopical algebra and that there are crossed, quadratic and so on versions intermediate between the two.  
 
 I am also slightly worried by too much emphasis on 'stable' as this can be a 'weasel word' like 'progress'!
+
+[[Urs Schreiber|Urs]]: please feel free to improve and expand on the wording! 
+
 =--
 
 So homological algebra studies in particular the [[homology]] of [[chain complex]]es in [[abelian category|abelian categories]] -- therefore the name.
