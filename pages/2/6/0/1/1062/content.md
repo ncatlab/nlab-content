@@ -1,15 +1,16 @@
 #Definition#
 
-An **Ab-enriched category** is a [[enriched category|category enriched in]] the cateory [[Ab]] of abelian groups.
+An **Ab-enriched category** is a [[enriched category|category enriched over]] the category [[Ab]] of abelian groups with its [[tensor product]].
 
-Sometimes this is called a [[pre-additive category]].
+Sometimes Ab-enriched categories are called [[pre-additive category|pre-additive categories]], although sometimes that term also implies the existence of a [[zero object]].
+
 
 #Remarks#
 
-* The above means explicitly that
+*  Explicitly, the definition means that
 an Ab-enriched category is a category $C$ such that
 for all objects $a,b$ the [[hom-set]] $Hom_C(a,b)$
-is equipped with the structure of an abelian group; and
+is equipped with the structure of an [[abelian group]]; and
 such that for all triples $a$, $b$, $c$ of objects the
 [[composition]] operation 
 $
@@ -18,26 +19,30 @@ $
 is bilinear.
 
 * There is a canonical forgetful functor $Ab \to Set_*$ from
-abelian groups to pointed sets, which sends each group to its underlying set with point being the neutral element. Using this functor every pre-addive category $C$ is in particular also a  category that is enriched over pointed sets. This is sufficient for there to be a notion of 
+abelian groups to pointed sets, which sends each group to its underlying set with point being the neutral element. Using this functor every pre-additive category $C$ is in particular also a  category that is enriched over pointed sets. This is sufficient for there to be a notion of 
 [[zero morphism]], [[kernel]] and [[cokernel]] in 
 $C$.
 
+* In general [[abelian category|abelian categories]] are the most important examples of Ab-enriched categories.  See [[additive and abelian categories]].
 
-#Properties#
 
-## An  Ab-enriched category has biproducts ##
+# Finite products are Cauchy #
 
-For $a, b \in C$ two objects in an Ab-enriched category $C$,  [[generalized the|the]] [[product]] $a \times b$ coincides  with [[generalized the|the]] [[coproduct]] $a \cup b$ when either exists. This [[biproduct]] is denoted
-$$
-  a \oplus b
-$$
-and called the **direct sum** of $a$ and $b$.
+One of the remarkable facts about Ab-enriched categories is that finite products (and coproducts) are [[Cauchy colimit]]s.  This implies that finite products coincide with finite coproducts, and are preserved by _any_ Ab-enriched functor.  
 
-The [[isomorphism]]
+
+## Zero objects ##
+
+In an Ab-enriched category $C$, any [[initial object]] is also a [[terminal object]], hence a [[zero object]], and dually.  An object $a\in C$ is a zero object just when its identity $1_a$ is equal to the zero morphism $0:a\to a$ (that is, the identity element of the abelian group $\hom_C(a,a)$).  Expressed in this way, it is easy to see that any Ab-enriched functor preserves zero objects.
+
+
+## Biproducts ##
+
+For $a, b \in C$ two objects in an Ab-enriched category $C$,  [[generalized the|the]] [[product]] $a \times b$ coincides  with [[generalized the|the]] [[coproduct]] $a \cup b$ when either exists.  More precisely, when both exist, the canonical morphism
 $$
-  r : c_1 \sqcup c_2 \stackrel{\simeq}{\to} c_1 \times c_2
+  r : c_1 \sqcup c_2 \to c_1 \times c_2
 $$
-is the unique morphism characterized by
+defined by
 $$
   \left(
     c_i \to c_1 \sqcup c_2 \stackrel{r}{\to} c_1 \times c_2 \to c_j
@@ -50,12 +55,20 @@ $$
       0 & if i \neq j
     }
   \right.
-  \,.
+  \,,
 $$
+which exists whenever $c_1\sqcup c_2$ and $c_1\times c_2$ do, is an [[isomorphism]].  This object is called a [[biproduct]] or (sometimes) a [[direct sum]] and is generally denoted
+$$
+  a \oplus b.
+$$
+It can be characterized diagrammatically as an object $c_1\oplus c_2$ equipped with morphisms $q_i:c_i\to c_1\oplus c_2$ and $p_i:c_1\oplus c_2 \to c_i$ such that $p_i q_j = \delta_{i j}$ and $q_1 p_1 + q_2 p_2 = 1_{c_1\oplus c_2}$.  Expressed in this form, it is clear that any Ab-enriched functor preserves biproducts.
+
 
 
 #Examples#
 
 * The category [[Ab]] is [[closed monoidal category|closed monoidal]] and hence canonically enriched over itself.
 
-* In general [[abelian category|abelian categories]] are the most important examples of Ab-enriched categories. 
+* An Ab-enriched category with one object is precisely a [[ring]].
+
+* For any small Ab-enriched category $R$, the enriched [[presheaf category]] $[R^{op},Ab]$ is, of course, Ab-enriched.  If $R$ is a ring, as above, then $[R^{op},Ab]$ is the category of $R$-modules.
