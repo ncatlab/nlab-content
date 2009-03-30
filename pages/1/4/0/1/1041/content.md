@@ -1,6 +1,6 @@
 #Idea#
 
-An abelian category is a general context in which linear algebra and [[homological algebra]] makes sense.  It is the richest concept in a sequence of [[additive and abelian categories]].
+An abelian category is a general context in which much of linear algebra and [[homological algebra]] makes sense.  It is one concept in a sequence of [[additive and abelian categories]].
 
 +-- {+ .query}
 _Zoran_: I strongly disagree with the first sentence, particularly with THE (general context...). MacLane was (according to Janliedze) looking whole life for what is the
@@ -11,6 +11,8 @@ categories of abelian sheaves and categories of R-modules have the same setup fo
 There is much linear algebra you can do with cokernel sofr example, as well as much linear algebra which you can not do if you are not over a field for example. So, saying that abelian categories are distinguished is only among categories which have closets properties to abelian sheaves and R-modules, not among principlkes for homlogical algebra and linear algebra that uniquely (although the strojng motivation was ever there).
 
 [[Mike Shulman|Mike]]: I changed it to "a" general context; is that satisfactory?  Once we have pages about those other notions, there can be links from here to there.
+
+_Toby_:  I\'ve made the phrasing even weaker.  Abelian categories are pretty cool, but (if you don\'t already have the examples that make it so useful) the definition is a fairly arbitrary place to draw the line.
 =--
 
 # Definition
