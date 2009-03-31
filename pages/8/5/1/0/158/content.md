@@ -10,7 +10,7 @@ Familiar models for the catgeory [[Infinity-Grpd]] of _weak_ $\infty$-groupoids 
 
 * CW-complexes; see [[homotopy theory]].
 
-#Strict $\infinity$-groupoids$#
+#Strict $\infinity$-groupoids#
 
 Entirely strict $\infty$-groupoids, usually called $\omega$-groupoids or [[strict omega-groupoid|strict omega-groupoids]] are equivalent to [[crossed complex|crossed complexes]].
 
