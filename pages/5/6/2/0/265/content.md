@@ -44,6 +44,8 @@ That said, here is a general situation in which you get derived functors that ar
 Such "derived functors" are not Kan extensions because $Q R$ does not come equipped with a single weak equivalence to or from the identity functor, but rather a zigzag $Q R \to R \leftarrow Id$ (or $Q R \leftarrow Q \to Id$).  If you generalize the definition of "derived functor" to allow replacement by such zigzags, there is no longer any universal property or uniqueness, since left and right derived functors are now both examples and they don't need to be the same.  But for that very reason, this generalization can be important in proving commutation relations between left and right derived functors.  See [my paper](http://arxiv.org/abs/math/0610194), sections 4 and 17-18, and [May-Sigurdsson](http://arxiv.org/abs/math/0411656) for some applications (in more classical language).
 
 I don't know what a "satellite" is.
+
+_Zoran_ Cartan-Eilenberg book has the whole chapter on satelites. If you have derivd functors then they can be expressed via satelites; but satelites may exist even when the functor is not half exact. It is also instructive to look at satelites in nonabelian setup, for eample the small note by Janelidze, from 1970-s reprinted on the arXiv.
 =--
 
 
