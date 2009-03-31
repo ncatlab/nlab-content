@@ -15,6 +15,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * started adding comments on embeddings at [[geometric morphism]], but ran out of time
+
   * following [[Mike Shulman|Mike]]'s suggestion I moved the material that was at [[sheafification in a Lawvere-Tierney topos]] over to [[Lawvere-Tierney topology]]
 
 
