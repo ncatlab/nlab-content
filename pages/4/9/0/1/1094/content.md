@@ -1,7 +1,7 @@
 
 #Definition#
 
-Given a [[site]] $S$, every [[presheaf]] $F$ in $PSh(S) := [S^{op}, Set]$ is [[local isomorphism|locally isomorphic]] (weakly eqiuivalent) to a [[sheaf]] $\bar F$. This construction extends to a functor
+Given a [[site]] $S$, every [[presheaf]] $F$ in $PSh(S) := [S^{op}, Set]$ is [[local isomorphism|locally isomorphic]] (weakly equivalent) to a [[sheaf]] $\bar F$. This construction extends to a functor
 
 $$
   \bar{(-)} : PSh(S) \to Sh(S)
