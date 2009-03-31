@@ -13,6 +13,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-03-31
 
+* [[Mike Shulman|Mike]]:
+
+  * Mentioned at [[triangulated category]] that the definition is   redundant.  If I had time I would fix it myself.
+
+  * We are having an interesting discussion at [[derived functor]].  Unfortunately I am leaving town for a couple of weeks (starting with  [PSSL88](http://www.cheng.staff.shef.ac.uk/pssl88/)) so will be less active for a while.
+
 * [[Urs Schreiber|Urs]]:
 
   * created [[category of open subsets]] and [[presheaf on open subsets]] to satisfy links at [[Categories and Sheaves]]
