@@ -60,9 +60,9 @@ More details on this perspective on graded vector spaces are in [[schreiber:Nona
 [[Tim Porter|Tim]]:
 The case  $G = \mathbb{Z}$ serves as a base for many other applications of the same basic idea. It has some of its own 'traditional' terminology and structure that links it to [[differential object|differential objects]], so that a 'differential graded vector space' is a [[chain complex]] of vector spaces. I will use 'gvs' as an abbreviation for this sort of graded vector space and 'dgvs' for the differential form. (Of course, the theory easily adapts to handle graded modules over a ring, and with some restriction, to graded groups.) Basing algebras on dgvs gives differential graded algebras ([[dg-algebra]]) and so on.
 
-I wan to put here a sort of lexicon of some terms which are taken from a source on [[rational homotopy theory]]. 
+I want to put here a sort of lexicon of some terms which are taken from a source on [[rational homotopy theory]]. 
 
-This will, for the moment, be more or less 'as-is' from the source (except translating it from  the original French that is!), i.e. without too much editing. This means that there may be conflicts with other entries, which will need resolving later. Some links to other entries have been given but more could be made.
+This will, for the moment, be more or less 'as-is' from the source (except translating it from  the original French that is!), i.e. without too much editing. This means that there may be conflicts with other entries, which will need resolving later. Some links to other entries have been given but more could be made. There WILL initially be some duplication but that will be eliminated later on.
 
 I have put this in the main area so as to encourage feedback and the identification of potential clashes of notation, terminology and conventions.  I have typed this in but do not like it in some of its terminology. (I am using a latex file from some years ago.) Once I have everything I have in my lexicon down in the nLab I hope we can make the entry  fit more closely to others.
 
