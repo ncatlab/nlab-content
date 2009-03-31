@@ -15,6 +15,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * created [[category of open subsets]] and [[presheaf on open subsets]] to satisfy links at [[Categories and Sheaves]]
+
+  * fixed and expanded [[local isomorphism]] and used that to create [[category of sheaves]], [[(infinity,1)-category of (infinity,1)-sheaves]] and [[sheafification]]
+
   * created [[base change]] and [[cobase change]]
 
   * started listing [[Zoran Skoda|Zoran]]'s latest entries and previous ones on examples/refinements of additive and abelian categories at [[additive and abelian categories]]. 
