@@ -135,6 +135,8 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
     * [[complete Segal space]]
 
+    * [[Segal category]]
+
   * [[(infinity,n)-category]]
  
 
@@ -165,11 +167,21 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
 ##6 $\infty$-Topoi##
 
-* [[infinity-stack]]
+* [[(infinity,1)-category of (infinity,1)-sheaves]]
 
-* [[infinity-stack homotopically]]
+  * [[simplicial presheaf]]
+
+  * [[model structure on simplicial presheaves]]
+
+  * [[infinity-stack homotopically]]
+
 
 ##7 Higher Topos Theory in Topology
+
+
+
+
+
 
 ##Appendix##
 
