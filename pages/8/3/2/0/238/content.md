@@ -15,7 +15,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
-  * incorporated in part [[Zoran Skoda|Zoran]]'s comment at [[sheafification]] on non-set-valued sheaves and created an entry on the [[IPC-property]] in the course of that
+  * have (started) a discussion with [[David Roberts]] on the relation between internal [[anafunctor]]s and localization in higher sheaf categories over at his private area [[davidroberts:comments on chapter 2]]
+
+  * incorporated in part [[Zoran Skoda|Zoran]]'s comment at [[sheafification]] of non-set-valued presheaves and created an entry on the [[IPC-property]] in the course of that
 
   * started [[Sheaves in Geometry and Logic]], on the MacLane-Moerdijk book
 
