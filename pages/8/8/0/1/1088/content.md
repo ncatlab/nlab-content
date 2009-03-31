@@ -1,16 +1,50 @@
-WARNING: this entry is incomplete and incoherent -- to be continued tomorrow...
-
 #Idea#
 
-For $S$ a [[category]] equipped with a [[Grothendieck topology]], i.e. a $S$ [[site]], there is a collection of [[morphism]]s in the [[presheaf]] category $[S^{op}, Set]$ -- called the _local isomorphisms_ -- such that the [[category of sheaves]] $Sh(S)$ on $S$ is [[equivalence|equivalent]] to the [[homotopy category]] of $[S^{op}, Set]$  with respect to local isomorphisms as [[category with weak equivalences|weak equivalences]].
+A _local isomorphism_ in a [[presheaf]] category $PSh(S)$ is a morphism that becomes an [[isomorphism]] after passing to  [[sheaf|sheaves]] with respect to a given [[Grothendieck topology]] on $S$.
 
-#Definition#
+The collection of all local isomorphisms not only determines the [[Grothendieck topology]] but is precisely the collection of morphisms that are inverted when passing to sheaves. Hence local isomorphisms serve to understand [[sheaf|sheaves]] and [[sheafification]] in terms of the passage to a [[homotopy category]] of $PSh(S)$.
 
-Recall that a collection of [[local epimorphism]]s on $[S^{op}, Set]$ is equivalent to a [[Grothendieck topology]] on $S$.
+This is discussed in more detail at [[category of sheaves]].
+
+#Axioms#
+
+A system of **local isomorphism**s on $PSh(S)$ is any collection of morphisms satisyfing
+
+1. local isomorphisms are a system of [[category with weak equivalences|weak equivalences]] (i.e. every [[isomorphism]] is a local isomorpphism and they satisfy 2-out-of-3);
+
+2. a morphism is a local isomorphism if and only if its [[pullback]] along any morphism is 
+$
+  \array{
+    U \times_X Y &\to& Y
+    \\
+    \downarrow^{loc iso}
+    &&
+    \downarrow^{\Leftrightarrow loc iso}
+    \\
+    U &\to& X
+  }
+$
+
+#Relation to Grothendieck topologies#
+
+Systems of local isomorphisms on $PSh(S)$ are equivalent to [[Grothendieck topology|Grothendieck topologies]] on $S$.
+
+The following indicates how choices of systems of local isomorphisms are equivalent to choices of systems of [[local epimorphism]]s. The claim follows by the discussion at [[local epimorphism]].
+
+##Local epimorphisms from local isomorphisms##
+
+A system of [[local epimorphism]]s is defined from a system of local isomorphisms by declaring that $f : Y \to X$ is a [[local epimorphism]] precisely if $im(f) \to B$ is a local isomorphism.
+ 
+
+#Definition in terms of local epimorphisms#
+
+Given a [[Grothendieck topology]] in terms of a system of [[local epimorphism]]s, a system of local isomorphisms is constructed as follows.
 
 A **local monomorphism** with respect to this topology is a morphism $f : A \to B$ in $[S^{op}, Set]$ such that the canonical morphism $A \to A \times_B A$ is a [[local epimorphism]].
 
 A **local isomorphism** with respect to a Grothendieck topology is a morphism in $[S^{op}, Set]$ that is both a [[local epimorphism]] as well as a local monomorphism in the above sense.
+
+
 
 #Properties#
 
@@ -19,24 +53,11 @@ A **local isomorphism** with respect to a Grothendieck topology is a morphism in
 
 # Sheafification #
 
-Write $Ho := Ho_{[S^{op}, Set]}$ for the [[homotopy category]] induced by letting weak equivalences be the local isomorphisms with respect to a Grothendieck topology on $S$. 
-
-Let $F \in [S^{op}, Set]$ be a [[presheaf]] on $S$. Its **sheafification** is the presheaf
-
-$$
-  \bar F : U \mapsto Hom_{Ho}(Y(U), F)
-  \,,
-$$
-
-where $Y$ denotes the [[Yoneda embedding]]. This can be computed explciitly as
-
-$$
-  \bar F(U) 
-  =
-   \colim_{ \hat U \stackrel{local iso}{\to} U } 
-   Hom_{[S^{op}, Set]}(\hat U, F)
-  \,,
-$$
+The [[sheafification]] functor 
+which sends a [[presheaf]] $F$ to its weakly 
+equivalent [[sheaf]] $\bar F$
+can be realized using a [[colimit]] over local
+isomorphisms. See there.
 
 
 #Characterization and relation to sieves#
@@ -48,6 +69,8 @@ $$
 
 #References#
 
-Sections 16 and 17 of
+This is in section 16.2 of
 
-* Kashiwara-Schapira, [[Categories and Sheaves]]
+* Kashiwara-Schapira, [[Categories and Sheaves]] .
+
+See in particular exercise 16.5 there for the characterization of [[Grothendieck topology|Grothendieck topologies]] in terms of local isomorphisms.
