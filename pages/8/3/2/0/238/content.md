@@ -13,6 +13,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-03-31
 
+*  [[Tim Porter|Tim]]: 
+
+   *  Last night I continued my 'lexicon' with an entry on [[differential graded vector space]]s (yes I know these are just chain complexes, but my thought is to put the lexicon that I have on then prune and adjust!) (My connection crashed at that point as I was editing this page!)
+
 * [[Zoran Škoda]]: Created [[suspended category]] and [[Quillen exact category]]. This is a continuation of our efforts to enter various classes of additive categories useful in homological algebra and K-theory. 
 
 # 2009-03-30
