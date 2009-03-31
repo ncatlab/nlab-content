@@ -36,7 +36,7 @@ the dense monomorphisms in $PSh(S)$ are precisely the [[local isomorphism]]s tha
 A [[presheaf]] $F \in PSh(S)$ is a [[sheaf]] with respect to the given topology if $Hom_{PSh(S)}(-, F)$ sends all dense monomorphisms to [[isomorphism]]s.
 
 
-Since Lawvere-Tierney topologies make sense for every [[topos]] (not necessarily a [[presheaf]]  [[Grothendieck topos]]) this provides a general notion of [[sheafification in a Lawvere-Tierney topos]].
+Since Lawvere-Tierney topologies make sense for every [[topos]] (not necessarily a [[presheaf]]  [[Grothendieck topos]]) this provides a general notion of [[Lawvere-Tierney topolog|sheafification in a Lawvere-Tierney topology]].
 
 
 #References#
