@@ -28,7 +28,7 @@ $$a\stackrel{f}\to b\stackrel{g}\to c\stackrel{h}\to T a.$$
 #Remarks#
 
 * In some variants the translation endofunctor $T$ is not required to be an [[equivalence]]. This is the case for instance for the 
-[[presuspended category|presuspended categories]] of Keller and Vossieck. 
+[[suspended category|presuspended categories]] of Keller and Vossieck. 
 
 #Examples#
 
