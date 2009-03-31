@@ -15,6 +15,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * incorporated in part [[Zoran Skoda|Zoran]]'s comment at [[sheafification]] on non-set-valued sheaves and created an entry on the [[IPC-property]] in the course of that
+
+  * started [[Sheaves in Geometry and Logic]], on the MacLane-Moerdijk book
+
+  * created [[dense monomorphism]] (thanks to [[Mike Shulman|Mike]] for the relation to [[local isomorphism]]) and then [[sheafification in a Lawvere-Tierney topos]]
+
   * created [[(infinity,1)-essentially surjective functor]] and [[(infinity,1)-fully faithful functor]]
 
 * [[Mike Shulman|Mike]]:
