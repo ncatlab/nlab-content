@@ -1,6 +1,6 @@
 #Idea#
 
-$n$-Dimensional manifolds (possibly and usually equipped with certain structure, notably for instance with orientation) should naturally form an [[(infinity,n)-category]] whose
+$n$-Dimensional manifolds (possibly and usually equipped with certain structure, notably for instance with orientation) should naturally form an [[(infinity,n)-category]] of [[extended cobordism]]s whose
 
 * [[object]]s are 0-dimensional (oriented) manifolds (disjoint unions of (oriented) points);
 
@@ -18,7 +18,7 @@ $n$-Dimensional manifolds (possibly and usually equipped with certain structure,
 
 A specific realization of this idea has recently been proposed in
 
-* Jacob Lurie, _On the classification of Topological Field Theories_ ([pdf](http://www-math.mit.edu/~lurie/papers/cobordism.pdf))
+* [[Jacob Lurie]], _On the classification of Topological Field Theories_ ([pdf](http://www-math.mit.edu/~lurie/papers/cobordism.pdf))
 
 (definition 2.2.9 [page 36](http://www-math.mit.edu/~lurie/papers/cobordism.pdf#page=36))
 
