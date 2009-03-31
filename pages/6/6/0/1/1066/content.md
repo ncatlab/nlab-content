@@ -30,6 +30,13 @@ $$
   \,.
 $$
 
++-- {: .query}
+ 
+  [[Urs Schreiber|Urs]]: something is missing here: the homotopy category of an $(\infty,1)$-category is supposed to be enriched in $Ho_{Top}$, I think
+
+=--
+
+
 ## For complete Segal spaces and Segal categories ##
 
 Similar, but more complicated, definitions work for [[complete Segal space]]s and [[Segal category|Segal categories]].
