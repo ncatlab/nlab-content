@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-03-30
 
+* [[David Roberts]]: 
+
+  * Asked question about Grothendieck's tame topology at [[nice topological space]].
+
 * [[Urs Schreiber|Urs]]:
 
   * QUESTION: came across MacLane's 
