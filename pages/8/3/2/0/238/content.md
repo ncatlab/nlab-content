@@ -13,6 +13,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 #2009-04-01
 
+* [[Urs Schreiber|Urs]]:
+
+  * prodded by [[Tim Porter|Tim]]'s latest comment at [[Dold-Kan correspondence]] I looked up and then created an  entry for [[semi-abelian category]]
+
 * [[Tim Porter|Tim]]: (I seem to remember a request to put more recent changes at the top, even if you have one on today's page so ... .)
 
   * I have put another of the Lexicon series of entries up.  It is [[differential graded Lie algebra]].
