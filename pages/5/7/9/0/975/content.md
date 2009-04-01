@@ -312,6 +312,10 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
 #14 Unbounded Derived Categories#
 
+* [[injective object]]
+
+* [[projective object]]
+
 
 #15 Indization and Derivation of Abelian Categories#
 
@@ -345,11 +349,19 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
     * [[geometric morphism]]
 
-    * [[sheafification on Lawvere-Tierney topos]]
+    * sheafification with respect to a  [[Lawvere-Tierney topology]]
 
     * [[IPC-property]]
 
 #18 Abelian Sheaves#
+
+* hindsight motivation
+
+  * [[simplicial presheaf|simplicial sheaf]]
+
+  * [[Dold-Kan correspondence]]
+
+  * [[abelian sheaf]]
 
 #19 Stacks and Twisted Sheaves#
 
