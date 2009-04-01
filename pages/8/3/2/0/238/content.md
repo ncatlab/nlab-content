@@ -15,6 +15,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[David Roberts]]:
 
+  * Started adding the construction of the [[localization]] of a category, as well as a speculative comment on computing this as a [[fundamental category]].
+
   * Migrated [[2009 March changes|March changes]] 
 
   * Continued discussion with Urs at my private page [[davidroberts:comments on chapter 2]].
