@@ -1,4 +1,6 @@
-Let $B$ be a  bicategory $B$ with a class $W$ of 1-cells. $W$ is said to **admit a right calculus of fractions** if it satisfies the following conditions
+#Definition#
+
+Let $B$ be a  [[bicategory]] with a class $W$ of 1-[[morphism|cells]]. $W$ is said to **admit a right calculus of fractions** if it satisfies the following conditions
 
 * [2CF1.] $W$ contains all equivalences
 * [2CF2.]
@@ -29,7 +31,11 @@ If $B$ is a category, then these axioms reduce to the ones of Gabriel and Zisman
 
 Given such a setup, in the article _Etendues and stacks as bicategories of fractions_, Pronk constructs the [[localization]] of $B$ at $W$.
 
-As an example, let $S$ be a category with binary products and pullbacks together with a class of [[davidroberts:class of admissible maps|admissible maps]] $E$.
+
+
+#Example#
+
+Let $S$ be a category with binary products and pullbacks together with a class of [[davidroberts:class of admissible maps|admissible maps]] $E$.
 
 +-- {: .un_theorem}
 ######Theorem: 
