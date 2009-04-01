@@ -249,6 +249,8 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
   * [[abelian category]]
 
+  * [[Grothendieck category]]
+
 * [[biproduct]]
 
   * [[direct sum]]
@@ -285,6 +287,8 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
   * [[category with translation]]
 
   * [[differential object]]
+
+    * [[complex]]
   
   * [[mapping cone]] 
 
