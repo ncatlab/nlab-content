@@ -7,6 +7,7 @@
 
 This will, for the moment duplicate, overlap and perhaps conflict with [[dg-algebra]]. The approach adopted here  favours the 'internal' idea of a graded algebra, involving a direct sum decomposition, which can often seem more natural than the 'external' one as an indexed family of vector spaces etc. Of course, there are instances and examples where the converse is true!
 =--
+
 ###Pre-graded algebras
 
 A _pre-graded algebra- (pre-ga) or $\mathbb{Z}$-graded algebra_ is a pre-gvs, $A$, together with an algebra multiplication satisfying $A_p.A_q \subseteq A_{p+q}$ for any $p,q$.  The relevant morphisms are pre-gvs morphisms which respect the multiplication.  This gives a category $pre-GA$.
@@ -71,7 +72,7 @@ We get obvious full subcategories $pre-CDGA$ and $pre-\varepsilon CDGA$ correspo
 
 ####CDGAs
 
-A cdga is a negatively graded pre-cdga (in upper grading), $A= \bigoplus_{p\geq 0} A^p.$
+A cdga is a **negatively** graded pre-cdga (in upper grading), $A= \bigoplus_{p\geq 0} A^p.$
 
 There is an augmented variant, of course.  These definitions give categories $CGDA$, etc.
 
