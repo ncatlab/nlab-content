@@ -181,6 +181,8 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
   * [[infinity-stack homotopically]]
 
+  * [[infinity-stackification]]
+
 
 ##7 Higher Topos Theory in Topology
 
