@@ -60,10 +60,11 @@ The dual notion is a [[projective object]].
 
 ## In abelian categories ##
 
-More specifically, the term "injective" is used for such object in the context that  $C$ is an [[abelian category]] for $J$ the class of morphisms $f : X \to Y$ such that $0 \to X \stackrel{f}{\to} Y$ is exact.
+More specifically, the term _injective object_ is used in the context that  $C$ is an [[abelian category]] for $J$ the class of morphisms $f : X \to Y$ such that $0 \to X \stackrel{f}{\to} Y$ is exact.
 
 +--{: .query}
 [[Mike Shulman|Mike]]: Unless I'm very confused, in an abelian category, that is just the class of all monomorphisms.  But maybe you have some more general context in mind?
+
 =--
  
 An [[object]] $I$ of $C$ is **injective** if it satisfies the following equivalent conditions:
@@ -76,7 +77,7 @@ $$
   \array{
     0 &\to& X &\stackrel{f}{\to}& Y
     \\
-    && \downarrow^k & \swarrow_{\exists h
+    && \downarrow^k & \swarrow_{\exists h}
     \\
     &&
     I 
@@ -88,7 +89,7 @@ $$
 
 Let $A$ be an [[abelian category]] [[category with translation|with translation]]. 
 
-An object in the [[complex]]es modulo chain homotopy, $K(A)$, 
+An object in the category of [[complex]]es modulo chain homotopy, $K(A)$, 
 of an [[abelian category]] $C$ is **homotopically injective** if for every $X \in K(C)$ that is
 [[quasi-isomorphism|quasi-isomorphic]] to $0$
 we have
@@ -97,7 +98,7 @@ $$
   \,.
 $$
 
-Let $QuasiIsoMono = \{f \in Mor(A_c) | f mono and quasiio\}$ be the set of morphisms in the category of [[complex]]es $A_c$ which are both [[quasi-isomorphism]]s as well as [[monomorphisms]]. 
+Let $QuasiIsoMono = \{f \in Mor(A_c) | f mono and quasiio\}$ be the set of morphisms in the category of [[complex]]es $A_c$ which are both [[quasi-isomorphism]]s as well as [[monomorphism]]s. 
 
 Then
 
@@ -111,7 +112,7 @@ A [[complex]] $I$ is injective with respect to monomorphic quasi-isomorphisms pr
 #Existence of injective objects#
 
 
-## In a complexes in a Grothendieck category ##
+## In complexes in a Grothendieck category ##
 
 **Proposition** 
 For $A$ a [[Grothendieck category]] [[category with translation|with translation]] $T : C  \to C$, every [[complex]] $X$ in $A_c$ is quasi-isomorphic to a complex $I$ which is injective and homotopically injective (i.e. QuasiIsoMono-injective).
