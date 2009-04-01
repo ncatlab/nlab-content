@@ -15,6 +15,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * created [[injective object]]
+
   * created [[complex]]
 
   * created [[Grothendieck category]] -- it feels like this should make me say something about that axiom list at [[additive and abelian categories]]...
