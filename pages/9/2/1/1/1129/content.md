@@ -1,11 +1,10 @@
-
 #Definition#
 
 There is a very general notion of _injective object_s in a category $C$, and a sequence of refinements as $C$ is equipped with more [[stuff, structure, property|structure and property]], in particular for $C$ an [[abelian category]] [[additive and abelian categories|of sorts]].
 
 ## General definition ##
 
-Let $C$ be a [[category]] and $J$ a collection of morphisms in $C$. An object $I$ in $C$ is **$J$-injective** if all diagrams
+Let $C$ be a [[category]] and $J$ a collection of morphisms in $C$. Frequently $J$ is the class of all [[monomorphism]]s or a related class.  An object $I$ in $C$ is **$J$-injective** if all diagrams
 
 $$
   \array{
@@ -30,7 +29,7 @@ $$
   \,.
 $$
 
-If $C$ has a [[terminal object]] $*$ this is to be thought of as a lift
+If $C$ has a [[terminal object]] $*$ this can be thought of as a lift
 
 $$
   \array{
@@ -56,10 +55,16 @@ $$
 
 takes morphisms in $J$ to [[epimorphism]]s in [[Set]].
 
+The dual notion is a [[projective object]].
+
 
 ## In abelian categories ##
 
 More specifically, the term "injective" is used for such object in the context that  $C$ is an [[abelian category]] for $J$ the class of morphisms $f : X \to Y$ such that $0 \to X \stackrel{f}{\to} Y$ is exact.
+
++--{: .query}
+[[Mike Shulman|Mike]]: Unless I'm very confused, in an abelian category, that is just the class of all monomorphisms.  But maybe you have some more general context in mind?
+=--
  
 An [[object]] $I$ of $C$ is **injective** if it satisfies the following equivalent conditions:
 
