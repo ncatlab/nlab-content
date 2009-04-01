@@ -13,6 +13,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 #2009-04-01
 
+* [[Tim Porter|Tim]]:
+
+  * I have added a comment on the terminology [[localization]]. Perhaps an algebraic geometric historical perspective could be useful here to help explain the terminology. (I'm not sure that I am competent to provide this however!)
+
 * [[David Roberts]]:
 
   * Added [[bicategory of fractions]], [[category of fractions]] and [[wide subcategory]].
