@@ -27,6 +27,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * I have added a comment on the terminology [[localization]]. Perhaps an algebraic geometric historical perspective could be useful here to help explain the terminology. (I'm not sure that I am competent to provide this however!)
 
+  * I have put another of the Lexicon series of entries up.  It is [[differential graded coalgebra]].
+
 * [[David Roberts]]:
 
   * Added [[bicategory of fractions]], [[category of fractions]] and [[wide subcategory]].
