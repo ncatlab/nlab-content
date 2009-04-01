@@ -44,7 +44,8 @@ $$
 $$
 
 See [[strict omega-groupoid]] and [[crossed complex]].
-
+ 
+Perhaps the 'ultimate' form of a 'classical' Dold-Kan result is by Pilar Carrasco, who identified the extra structure on chain complexes of groups in order that they be [[Moore complex|Moore complexes]] of simplicial groups.  Dominique Bourn has a general form of this result for his 'semi-Abelian' categories. His results provide a neat categorical gloss on the theorem.
 
 #Details#
 
