@@ -1,31 +1,50 @@
+#Idea#
+
 The **localization** of a [[category]] $C$ at a class of [[morphism]]s $W$ is the universal solution to making the morphisms in $W$ into [[isomorphism]]s; it is written $C[W^{-1}]$ or $W^{-1}C$.
 
-This (perhaps confusing) terminology is by analogy with localization of rings, and also gives its name to [[Bousfield localization]] of [[model category|model categories]].  In 2-categorical language, $C[W^{-1}]$ is the [[coinverter]] of the canonical natural transformation $s\to t$, where $s,t:W\to C$ are the "source" and "target" functors and $W$ is considered as a full subcategory of the [[arrow category]] $C ^{\mathbf{2}}$.
+## Terminology ##
 
-+-- { .query}
-[[Zoran Skoda]] Mike, why do you say confusing? First of all localization of a ring induces localization of categories of 1-sided modules by tensoring with the localized ring over original ring and conversely applying localization functor to a ring itself produces the localized ring. The canonical morphism from the ring to its localization, sometimes also called localization, is the adjunction morphism indexed by the ring. The localization functor is just a natural extension of the localization from a ring to all modules over the ring not just the ring itself. The same for corresponding (components of) the adjunction morphisms 
-in that case.
+The terminology "localization" originates from the localization of [[ring]]s, which is a special case when [[ring]]s are regarded as [[Ab]]-[[enriched category|enriched categories]] with a single objects.
+Notice that what is literally _localized_ when localizing the ring is really its [[spectrum]]: it becomes smaller.
 
-Second, if one does special case when localizations can be made via categories of fractions then Ore conditions are literally Ore conditions from the theory of localization of monoids 
-or rings (besides a monoid is just a category with one object). Third, [[Bousfield localization]] in triangulated setup is a localization associated to an idempotent monad just like usual flat localization (or any localization having faithfully flat right adjoint), just
-the functors are triangulated, and the monad is Z-graded.
-Finally Cohn universal localization is just H_0 of Bousfield localization and in the matrix form one is essentially solving the Ore condition, as it is shown by Malcolmson and 
-independently and earlier Gerasimov. In fact when one restricts the Cohn localization to finitely generated projectives one has a flat localization. So it is not just an analogy -- these are all special cases of the **same** picture and mechanism. 
+The term localization is now widely used for instance in [[Bousfield localization]] of [[model category|model categories]] as well as for [[simplicial localization]]s of [[model category|model categories]] to [[(infinity,1)-category|(infinity,1)-categories]].
 
-[[Mike Shulman|Mike]]: The thing that is confusing to me is when one extends the use of "localization" beyond the context of localization of things like modules and sheaves.  I do not see any "locality" involved in the process of inverting an arbitrary class of morphisms in a category.  Of course there is just one concept here, but I do not like the choice of the word "localization" to describe it.
+In these cases, $W$ is a system of [[category with weak equivalences|weak equivalences]] and $C[W^{-1}]$ is also called the [[homotopy category]] of $C$.
 
-[[Tim Porter|Tim]]:  Might I suggest that a little historical note tracing the origin of the term (including local ring, as well) might be a good point.  Sometimes such a look back to the origins of a term can show old light on new concepts and help one 'create' good new concepts or to view the concepts in  a new light.
+In 2-categorical language, $C[W^{-1}]$ is the [[coinverter]] of the canonical natural transformation $s\to t$, where $s,t:W\to C$ are the "source" and "target" functors and $W$ is considered as a full subcategory of the [[arrow category]] $C ^{\mathbf{2}}$.
 
-[[Mike Shulman|Mike]]: Just to clarify, I do definitely see the reason why inverting a multiplicative system on a ring is called "localization."  I still might prefer it if people had chosen a word that describes what happens to the ring itself, rather than its spectrum, but I understand the motivation behind the term.
 
-[[Tim Porter|Tim]]:  My point was just that others (i.e. more 'debutant' in the area) might benefit from a few lines on the geometric origin of the term.  
+#Definition#
 
-Actually I agree with what you, Mike, sort of imply namely  that some 'local' example would be good to see. Is there something in the geometric function theory area that would provide a nice example say of a naturally occurring 'prestack' where the passage to the corresponding stack is clearly restricting to 'germs' of the categories involved?  I have never thought about that point,  any ideas?? It may be easy, I just don't know.
-=--
+Let $C$ be a [[category]] and $W \subset Mor(C)$ a collection of [[morphism]]s. 
 
-If $C$ is [[large category|large]], then the existence of $C[W^{-1}]$ may depend on [[foundations]], and it will not necessarily be [[locally small category|locally small]] even if $C$ is.  The tools of [[homotopy theory]], and in particular [[model category|model categories]], can be used to address this question.
+A **localization** of $C$ by $W$ (or "at $W$") is
+
+* a (generally [[large category|large]], see below) [[category]] $W^{-1}C$;
+
+* and a functor $Q : C \to W^{-1}C$;
+
+* such that
+
+  * for all $w \in W$, $Q(w)$ is an [[isomorphism]];
+
+  * for any category $A$ and any [[functor]] $F : C \to A$ such that $F(w)$ is an [[isomorphism]] for all $w \in W$, there exists a functor $F_W : W^{-1}C \o A$ and a [[natural transformation|natural isomorphism]] $F \simeq F_W \circ Q$;
+
+  * the [[functor]] of [[functor category|functor categories]] $(-)\circ Q : Funct(W^{-1}C, A) \to Funct(C,A)$ is [[full and faithful]].
+
+#Remarks#
+
+* if $W^{-1}C$ exists, it is unique up to [[equivalence]].
+
+* **size issues**: If $C$ is [[large category|large]], then the existence of $C[W^{-1}]$ may depend on [[foundations]], and it will not necessarily be [[locally small category|locally small]] even if $C$ is.  The tools of [[homotopy theory]], and in particular [[model category|model categories]], can be used to address this question.
 
 ### Construction ###
+
+There is a general construction of $W^{-1}C$, if it exists, which is however hard to use. 
+
+When the system $W$ has special properties, such as if $W$ is a [[multiplicative system]]/[[category of fractions|factorization system]] then there are more direct formulas for the [[hom-set]]s of $W^{-1}C$.
+
+## General construction ##
 
 If $C$ is a category and $W$ is a set of arrows, we construct the localization of $C$. Let $W^{op}$ be the class in $C^{op}$ corresponding to $W$ (it isn't necessarily a category).
 
@@ -55,6 +74,49 @@ $$(y;\overline{f},f;y)\sim (y;id_y;y)$$
 [[David Roberts]]: This could probably be described as the [[fundamental category]] of 2-dimensional [[simplicial complex]] with the directed space structure coming from the 1-skeleton, which will be the path category above. In that case, we could/should probably leave out the paths of zero length. 
 =--
 
-If the class $W$ admits a [[category of fractions]], then there is a simpler description of $C[W^{-1}]$ in terms of [[span|spans]] instead of zig-zags.
+## For the case of multiplicative systems/factoization system ##
+
+If the class $W$ admits a [[category of fractions]]/[[multiplicative system]], then there is a simpler description of $C[W^{-1}]$ in terms of [[span|spans]] instead of zig-zags. This is describe at [[multiplicative system]].
 
 This concept has been extended to [[bicategory of fractions|bicategories of fractions]] by Dorette Pronk, where a class of 1-arrows is sent to [[equivalence|equivalences]].
+
+
+#References#
+
+( classical references go here ...)
+ 
+One account of localization for [[multiplicative system]]s is section 7 of
+
+* Kashiwara-Schapira, [[Categories and Sheaves]]
+
+
+***
+
+# Discussion #
+
+This discussion started on the question in which sense "localization" is a descriptive term or not.
+
++-- { .query}
+[[Zoran Skoda]] Mike, why do you say confusing? First of all localization of a ring induces localization of categories of 1-sided modules by tensoring with the localized ring over original ring and conversely applying localization functor to a ring itself produces the localized ring. The canonical morphism from the ring to its localization, sometimes also called localization, is the adjunction morphism indexed by the ring. The localization functor is just a natural extension of the localization from a ring to all modules over the ring not just the ring itself. The same for corresponding (components of) the adjunction morphisms 
+in that case.
+
+Second, if one does special case when localizations can be made via categories of fractions then Ore conditions are literally Ore conditions from the theory of localization of monoids 
+or rings (besides a monoid is just a category with one object). Third, [[Bousfield localization]] in triangulated setup is a localization associated to an idempotent monad just like usual flat localization (or any localization having faithfully flat right adjoint), just
+the functors are triangulated, and the monad is Z-graded.
+Finally Cohn universal localization is just H_0 of Bousfield localization and in the matrix form one is essentially solving the Ore condition, as it is shown by Malcolmson and 
+independently and earlier Gerasimov. In fact when one restricts the Cohn localization to finitely generated projectives one has a flat localization. So it is not just an analogy -- these are all special cases of the **same** picture and mechanism. 
+
+[[Mike Shulman|Mike]]: The thing that is confusing to me is when one extends the use of "localization" beyond the context of localization of things like modules and sheaves.  I do not see any "locality" involved in the process of inverting an arbitrary class of morphisms in a category.  Of course there is just one concept here, but I do not like the choice of the word "localization" to describe it.
+
+[[Tim Porter|Tim]]:  Might I suggest that a little historical note tracing the origin of the term (including local ring, as well) might be a good point.  Sometimes such a look back to the origins of a term can show old light on new concepts and help one 'create' good new concepts or to view the concepts in  a new light.
+
+[[Mike Shulman|Mike]]: Just to clarify, I do definitely see the reason why inverting a multiplicative system on a ring is called "localization."  I still might prefer it if people had chosen a word that describes what happens to the ring itself, rather than its spectrum, but I understand the motivation behind the term.
+
+[[Tim Porter|Tim]]:  My point was just that others (i.e. more 'debutant' in the area) might benefit from a few lines on the geometric origin of the term.  
+
+Actually I agree with what you, Mike, sort of imply namely  that some 'local' example would be good to see. Is there something in the geometric function theory area that would provide a nice example say of a naturally occurring 'prestack' where the passage to the corresponding stack is clearly restricting to 'germs' of the categories involved?  I have never thought about that point,  any ideas?? It may be easy, I just don't know.
+
+[[Urs Schreiber|Urs]]: sounds good. I have now tried to rework the entry a bit reflecting this discussion. We could/should still add a more detailed historical note.
+
+Also, it would be good to arrange the points that [[Zoran Skoda|Zoran]] mentions into a coherent bulleted list in an examples section. Maybe somebody can do that.
+=--
