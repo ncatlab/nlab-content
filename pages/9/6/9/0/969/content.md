@@ -11,6 +11,8 @@ or rings (besides a monoid is just a category with one object). Third, [[Bousfie
 the functors are triangulated, and the monad is Z-graded.
 Finally Cohn universal localization is just H_0 of Bousfield localization and in the matrix form one is essentially solving the Ore condition, as it is shown by Malcolmson and 
 independently and earlier Gerasimov. In fact when one restricts the Cohn localization to finitely generated projectives one has a flat localization. So it is not just an analogy -- these are all special cases of the **same** picture and mechanism. 
+
+[[Mike Shulman|Mike]]: The thing that is confusing to me is when one extends the use of "localization" beyond the context of localization of things like modules and sheaves.  I do not see any "locality" involved in the process of inverting an arbitrary class of morphisms in a category.  Of course there is just one concept here, but I do not like the choice of the word "localization" to describe it.
 =--
 
 If $C$ is [[large category|large]], then the existence of $C[W^{-1}]$ may depend on [[foundations]], and it will not necessarily be [[locally small category|locally small]] even if $C$ is.  The tools of [[homotopy theory]], and in particular [[model category|model categories]], can be used to address this question.
