@@ -13,6 +13,8 @@ Finally Cohn universal localization is just H_0 of Bousfield localization and in
 independently and earlier Gerasimov. In fact when one restricts the Cohn localization to finitely generated projectives one has a flat localization. So it is not just an analogy -- these are all special cases of the **same** picture and mechanism. 
 
 [[Mike Shulman|Mike]]: The thing that is confusing to me is when one extends the use of "localization" beyond the context of localization of things like modules and sheaves.  I do not see any "locality" involved in the process of inverting an arbitrary class of morphisms in a category.  Of course there is just one concept here, but I do not like the choice of the word "localization" to describe it.
+
+[[Tim Porter|Tim]]:  Might I suggest that a little historical note tracing the origin of the term (including local ring, as well) might be a good point.  Sometimes such a look back to the origins of a term can show old light on new concepts and help one `create' good new concepts or to view the concepts in  a new light.
 =--
 
 If $C$ is [[large category|large]], then the existence of $C[W^{-1}]$ may depend on [[foundations]], and it will not necessarily be [[locally small category|locally small]] even if $C$ is.  The tools of [[homotopy theory]], and in particular [[model category|model categories]], can be used to address this question.
