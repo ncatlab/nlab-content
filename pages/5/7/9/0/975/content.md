@@ -363,6 +363,21 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
   * [[abelian sheaf]]
 
+* [[closed monoidal structure on sheaves]]
+
+* [[ringed site]]
+
+* [[abelian sheaf cohomology]]
+
+  * [[derived global section functor]]
+
+  * [[Cech cohomology]]
+
+* examples
+
+  * [[Deligne cohomology]]
+
+
 #19 Stacks and Twisted Sheaves#
 
 * [[higher category theory]]
@@ -372,7 +387,6 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
   * [[2-groupoid]]
 
 * [[stack]]
-
 
 * outloook and further reading
 
