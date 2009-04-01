@@ -15,7 +15,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[David Roberts]]:
 
-  * Started adding the construction of the [[localization]] of a category, as well as a speculative comment on computing this as a [[fundamental category]].
+  * Added [[bicategory of fractions]], [[category of fractions]] and [[wide subcategory]].
+  * Started adding the construction of the [[localization]] of a category, as well as a speculative comment at that page on computing this as a [[fundamental category]].
 
   * Migrated [[2009 March changes|March changes]] 
 
