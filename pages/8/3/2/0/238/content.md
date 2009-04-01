@@ -15,6 +15,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * added a section "Idea" to [[Dold-Kan correspondence]]
+
   * created [[injective object]]
 
   * created [[complex]]
