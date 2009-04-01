@@ -86,7 +86,7 @@ _Toby_: Can we at least say 'category-theoretic' instead of 'categorical'? It ca
 
 Lawvere\'s system [[ETCS]] (for 'the Elementary Theory of the Category of Sets') essentially states that the category of sets is a [[topos]] with certain properties, in particular a [[well-pointed topos]]. This can be stated in elementary (first-order) terms; indeed, Lawvere invented the now-default notion of *elementary* topos (in contrast to the original notion of [[Grothendieck topos]]) to do this.
 
-It is also possible to found mathematics on the [[internal logic|internal language]] of a topos. In this case, the topos need *not* be well-pointed (and indeed, the condition that a topos be well-pointed cannot be stated in its own internal language; or if you prefer, *every* topos is well-pointed *internally*). This is equivalent to a certain formulation of type theory, so it is (in a sense) nothing new, although it leads to new persepectives, as in the next paragraph.
+It is also possible to found mathematics on the [[internal logic|internal language]] of a topos. In this case, the topos need *not* be well-pointed (and indeed, the condition that a topos be well-pointed cannot be stated in its own internal language; or if you prefer, *every* topos is well-pointed *internally*). This is equivalent to a certain formulation of type theory, so it is (in a sense) nothing new, although it leads to new perspectives, as in the next paragraph.
 
 Categories (not just toposes) can serve as models of type theories, each type theory corresponding to a certain class of categories. Toposes correspond directly to a constructive but impredicative type theory; to make the theory predicative (in the constructivists\' sense) you generalise to a [[pretopos]] (maybe [[locally cartesian closed category|locally cartesian closed]]), to make the theory nonconstructive you specialise to a [[Boolean topos]], and so on. More specifically, every category\'s internal language is a type theory (with many odd constants), and every type theory (of appropriate form) defines a category (its free model); this is an [[adjunction]] between categories and type theories. Paul Taylor\'s book _[[Practical Foundations|Practical Foundations of Mathematics]]_ is essentially all about this subject, as is (at a more advanced level) most of the career of Michael Makkai.
 
@@ -102,3 +102,7 @@ In contrast, many of the optional or controversial axioms of set theory (such as
 #Other topics#
 
 * There is also [[algebraic set theory]].
+
+#Blog discussion#
+
+* [Foundations](http://golem.ph.utexas.edu/category/2006/10/foundations.html)
