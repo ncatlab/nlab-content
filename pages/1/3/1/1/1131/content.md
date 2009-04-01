@@ -164,5 +164,5 @@ The differential on $L\star L^\prime$ is the unique Lie algebra derivation exten
 
 ###### Lexicon links onwards:
 
-[[Tim Porter|Tim]]:  The lexicon will continue on a new entry on [[differential graded Hopf algebra|differential graded Hopf algebras]].  
+[[Tim Porter|Tim]]:  The lexicon will continue with a new entry on [[differential graded Hopf algebra|differential graded Hopf algebras]].  
 =--
