@@ -1,34 +1,19 @@
-* [[category theory|Category Theory]]
+* Structural Foundations
 
-  * [[sheaf and topos theory|Sheaf and Topos Theory]]
+  * [[Categories and Sheaves]]
 
-    * [[foundations and logic|Foundations and Logic]]
+  * [[Sheaves in Geometry and Logic]]
 
-  * [[enriched category theory|Enriched Category Theory]]
-
-  * [[homotopy theory|Homotopy Theory]]
-
-  * [[higher category theory|Higher Category Theory]]
-
-    * [[homotopy coherent category theory]]
-
-  * [[groupoidification|Groupoidification]]
-
+  * [[Higher Topos Theory]]
 
 
 * [[topology and geometry|Topology and Geometry]]
 
-  * [[topology|Topology]]
+  * [[homotopy theory|Homotopy Theory]]
+
+  * [[rational homotopy theory|Rational Homotopy Theory]]
 
   * [[differential geometry|Differential Geometry]]
-
-    * [[Lie theory|Lie Theory]]
-
-      * [[BV theory|BV Theory]]
-
-    * [[generalized smooth space|Generalized Smooth Spaces]]
-
-      * [[Froelicher space|Frölicher spaces]]
 
 * [[algebra|Algebra]]
 
