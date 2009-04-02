@@ -1,3 +1,5 @@
+[[!include mathematicscontents]]
+
 * Structural Foundations
 
   * [[Categories and Sheaves]]
