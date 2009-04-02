@@ -33,21 +33,7 @@ Equivalently, a [[category]] $C$ is **semi-abelian** if
 
 #Remarks#
 
-* In its most general form, the [[Dold-Kan correspondence]] holds for simplicial objects in semi-abelian categories.
-
-+--{: .query}
-[[Urs Schreiber|Urs]]: Or so [[Tim Porter|Tim]] seemed to indicate. It would be nice to have more details on this statement.
-
-[[Tim Porter|Tim]]: The reference is
-
-D. Bourn, 2007, Moore normalisation and Dold-Kan theorem for semi-Abelian categories , in 
-Categories in algebra, geometry and mathematical physics , volume 431 of Contemp. Math., 
-105 &#8211; 124, Amer. Math. Soc., Providence, RI.
-
-Dominique's formulation is very pretty. The Moore complex functor is monadic when the basic category is semi-Abelian (Th. 1.4. p.113) Of course for simplicial GROUPS, the  monad on chain complexes f groups gives the hypercrossed complexes of Carrasco and Cegarra, but here they fall out from the theory.  On the down side there is no analysis as yet of the actual form of this monad as far as I know.  I may be wrong. There is a beginning of such a thing in the paper.
-
-=--
-
+* In its most general form, the [[Dold-Kan correspondence]] holds for [[simplicial object]]s in semi-abelian categories.
 
 
 #Examples#
