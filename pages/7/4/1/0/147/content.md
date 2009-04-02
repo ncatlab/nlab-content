@@ -58,11 +58,22 @@ Then a **morphism of sites** $f : X \to Y$ is
 
 * such that the [[Yoneda extension]] $\hat f^t : [S_Y^\op, Set] \to [S_X^{op}, Set]$ (of $Y_X \circ f^t : S_Y \to [S_X^{op}, Set]$) sends [[local isomorphism]]s to local isomorphisms.
 
-## Properties ## 
 
-* A morphism of sites $f : X \to Y$ as above induces a morphism of [[category of sheaves|categories of sheaves]] $Sh(X) \to Sh(Y)$ and this morphism is a [[geometric morphism]] of [[topos|topoi]].
+**Proposition**
 
+A morphism of sites $f : X \to Y$ as above induces a morphism of [[category of sheaves|categories of sheaves]] $Sh(X) \to Sh(Y)$ and this morphism is a [[geometric morphism]] of [[topos|topoi]].
 
+## Direct and inverse image ##
+
+So for $f : X \to Y$ a morphisms of sites, coming from a functor $f^t : S_Y \to S_X$, the [[direct image]] functor is the functor may be denoted
+$$
+  f_* : Sh(X) \to Sh(Y)
+$$
+and the [[inverse image]] functor 
+$$
+  f^{-1} : Sh(Y) \to Sh(X)
+  \,.
+$$
 
 
 #Remarks#
