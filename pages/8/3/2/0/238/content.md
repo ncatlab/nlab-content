@@ -15,6 +15,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * reorganized the entry [[mathematics]] a bit -- I am hoping that eventually this becomes a useful top of a small hierarchy of link-list entries which allow the reader to get an idea of the scope of topics covered (and not yet covered) by the $n$Lab, and possibly to facilitate searches by topic rather than by keyword
+
+  * as discussed with [[Timothy Porter]], I created a stub for [[rational homotopy theory]] whose main purpose at the moment is to contain the link list to his lexicon entries on concepts in differential graded algebra
+
   * created [[closed monoidal structure on presheaves]] and [[closed monoidal structure on sheaves]], but am being dense: have a question at the former
 
   * created [[direct image]] and [[inverse image]] and [[restriction and extension of sheaves]]
