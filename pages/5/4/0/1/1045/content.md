@@ -1,6 +1,6 @@
 #Idea#
 
-The _Yoneda extenion_ of a [[functor]] $F : C \to D$ is extension along the [[Yoneda embedding]] $Y : C \to [C^{op},Set]$ of its domain category to a functor
+The _Yoneda extension_ of a [[functor]] $F : C \to D$ is extension along the [[Yoneda embedding]] $Y : C \to [C^{op},Set]$ of its domain category to a functor
 $$
   \tilde F : [C^{op}, Set] \to D
   \,.
@@ -22,19 +22,58 @@ $$
   \,.
 $$
 
+## Remarks ##
+
+Often it is of interest to Yoneda extend not $F : C \to D$ 
+itself, but the composition $Y \circ F : C \to [D^{op}, Set]$ to get a functor entirely between presheaf categories
+
+$$
+  \hat F := \tilde{Y \circ F} : 
+  [C^{op},Set] \to [D^{op}, Set]
+  \,.
+$$
+
 ## Formula ##
 
 Recalling the general formula for the left [[Kan extension]] of a functor $F : C \to D$ through a functor $p : C  \to C'$ 
 
 $$
-  (Lan F)(c') \simeq co\lim_{(p(c) \to c') \in (p,c')} F(c)
+  (Lan F)(c') \simeq \colim_{(p(c) \to c') \in (p,c')} F(c)
 $$
 
 one finds for the Yoneda extension the formula
 
 $$
-  \hat F (A)(U) = ...
+  \begin{aligned}
+    \tilde F (A) 
+    & := (Lan F)(A) 
+    \\
+    & \simeq
+    \colim_{(Y(U) \to A) \in (Y,A) } F(U)
+  \end{aligned}
+  \,.
 $$
+
+(Recall the notation for the [[comma category]] $(Y,A) := (Y, const_A)$ whose objects are pairs $(U \in C, (Y(U) \to A) \in [C^{op}, Set] )$.
+
+For the full extension $\hat F : [D^{op}, Set] \to [C^{op}. Set]$ this yields
+
+$$
+  \begin{aligned}
+    \hat F(A)(V)
+    &=
+    (\colim_{(Y(U) \to A) \in (Y,A) } F(U))(V)
+    \\
+    &\simeq
+    \colim_{(Y(U) \to A) \in (Y,A) } F(U)(V)    
+    \\
+    &\simeq
+    \colim_{(Y(U) \to A) \in (Y,A) } Hom_{D}(V,F(U))    
+  \end{aligned}
+  \,.
+$$
+
+Here the first step is from above, the second uses that colimits in presheaf categories are computed objectwise and the last one is again using the [[Yoneda lemma]].
 
 
 # Properties #
