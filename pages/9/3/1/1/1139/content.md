@@ -15,6 +15,10 @@ to the [[direct image]] or, in this case, **restriction** functor
 $$
   (j_{U \to X})_* : Sh(X) \to Sh(U)
 $$
+whose action may suggestively be denoted
+$$
+  (j_{U \to X})_* : F \mapsto F|_U
+$$
 
 happens to take sheaves to sheaves
 (when $U$ is equipped with the canonical induced topology as described at [[site]]):
