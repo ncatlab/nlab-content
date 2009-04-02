@@ -9,7 +9,61 @@ The structure of a _site_ on a [[category]] $C$ is a structure that regards each
 A _site_ is a category $C$ equipped with a [[Grothendieck topology]] $J$.
 =--
 
-Sometimes it is useful to define a site to be a category equipped merely with a [[coverage]].
+##Remarks##
+
+* Sometimes it is useful to define a site to be a category equipped merely with a [[coverage]].
+
+* Notice also that there are many equivalent ways to define a [[Grothendieck topology]], for instance in terms of a system of [[local isomorphism]]s, or in terms of a system of [[dense monomorphism]]s in the [[presheaf]] category $PSh(S)$.
+
+## Examples ##
+
+* The archetypical class of examples is the [[category of open subsets]] $S = Op(X)$ of a [[topological space]] $X$. Notice that a morphism $f : X \to Y$ of topological spaces induces naturally a [[functor]] $f^t : Op(Y) \to Op(X)$ going the other way around, sending an open subset $U \in Y$ to the open subset $f^{-1}(U)$ in $X$.
+
+
+
+
+# Definition: morphisms of sites #
+
+Motivated from the archetypical example of [[category of open subsets|categories of open subsets]], one says that 
+
+* a **presite** is the same as a [[category]] $S$;
+
+* a **morphisms of presites** $S \to S'$ is a [[functor]] going the other way round, $S' \to S$. 
+
+Hence the **category of presites** is just the [[opposite category]] of the category [[Cat]] of categoris, 
+
+$$
+  PSit := Cat^{op}
+  \,.
+$$
+
+This is just terminology, but supposedly suggestive for working with presheaf categories. For instance one would denote a presite by $X$ and the same entity regarded as a category as $S_X$ and write
+
+$$
+  PSh(X) := [S_X^{op}, Set]
+$$
+
+and thus have notation entirely analogous to the familiar notation for presheaves on a topological space $X$.
+
+Moreover, for $X$ a presite and $U \in S_X$ an object in the corresponding category, the [[over category]] $S_X \downarrow U$ is naturally regarded as the presite defined by $U$, which by convenient abuse of notation one would just write $U$ itself, so that $S_U = S_X \downarrow U$. For instance for $X$ a topological space and $U \in Op(X)$ an open subset, $U$ regarded as a topological space in its own right has corresponding to it the site $U$ with $S_U = Op(U) = Op(X) \downarrow U$.
+
+
+
+
+In this notation a **site** $X$ is a pair consisting of a category $S_X$ and a [[coverage]] on $S_X$. 
+
+Then a **morphism of sites** $f : X \to Y$ is
+
+* a [[functor]] $f^t : S_Y \to S_X$
+
+* such that the [[Yoneda extension]] $\hat f^t : [S_Y^\op, Set] \to [S_X^{op}, Set]$ (of $Y_X \circ f^t : S_Y \to [S_X^{op}, Set]$) sends [[local isomorphism]]s to local isomorphisms.
+
+## Properties ## 
+
+* A morphism of sites $f : X \to Y$ as above induces a morphism of [[category of sheaves|categories of sheaves]] $Sh(X) \to Sh(Y)$ and this morphism is a [[geometric morphism]] of [[topos|topoi]].
+
+
+
 
 #Remarks#
 
@@ -21,3 +75,19 @@ On a site one can consider
 
  * [[infinity-stack|infinity stacks]].
 
+
+#References#
+
+Morphisms between sites are discussed for instance
+
+in section 17.2 of 
+
+* Kashiwara-Schapira, [[Categories and Sheaves]]
+
+(in terms of [[local isomorphism]]s)
+
+as well as in section VII. 10 of
+
+* MacLane-Moerdijk, [[Sheaves in Geometry and Logic]] 
+
+(in terms of covering [[sieve]]s), where also the relation to [[geometric morphism]]s is discussed.
