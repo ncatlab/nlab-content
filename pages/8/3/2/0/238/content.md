@@ -15,7 +15,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
-  * created [[direct image]] and [[inverse image]]
+  * created [[closed monoidal structure on presheaves]] and [[closed monoidal structure on sheaves]], but am being dense: have a question at the former
+
+  * created [[direct image]] and [[inverse image]] and [[restriction and extension of sheaves]]
 
   * moved discussion from [[semi-abelian category]] to [[Dold-Kan correspondence]] and added references
 
