@@ -15,6 +15,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * moved discussion from [[semi-abelian category]] to [[Dold-Kan correspondence]] and added references
+
+  * added explicit formulas to [[Yoneda extension]] (not the [[end]]-yoga, though)
+
   * added a question to [[Mike Shulman|Mike]]'s question at [[semi-abelian category]] (probably for [[Tim Porter|Tim]])
 
   * polished [[infinity-topos]]
