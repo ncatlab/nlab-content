@@ -282,6 +282,8 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
   * [[differential object]]
 
     * [[complex]]
+
+    * [[double complex]]
   
   * [[mapping cone]] 
 
