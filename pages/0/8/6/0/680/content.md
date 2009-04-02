@@ -43,9 +43,21 @@ $$
   crossed complexes
 $$
 
-See [[strict omega-groupoid]] and [[crossed complex]].
+Here on the left we have [[strict omega-groupoid]]s
+and on the right [[crossed complex]]es, a non-abelian generalization of chain complexes of groups.
+
+$$
+  crossed complexes \supset
+  chain complexes_+ internal of abelian groups
+$$
  
 Perhaps the 'ultimate' form of a 'classical' Dold-Kan result is by Pilar Carrasco, who identified the extra structure on chain complexes of groups in order that they be [[Moore complex|Moore complexes]] of simplicial groups.  Dominique Bourn has a general form of this result for his [[semi-abelian category|semi-abelian categories]]. His results provide a neat categorical gloss on the theorem.
+
+Dominique Bourn's formulation is very pretty. The Moore complex functor is monadic when the basic category is semi-Abelian (Th. 1.4. p.113 in _Bourn2007_ below). Of course for simplicial _groups_, the  monad on chain complexes of groups gives the hypercrossed complexes of Carrasco and Cegarra, but here they fall out from the theory.  On the down side there is apparently no 
+full analysis as yet of the actual form of this monad.
+
+
+
 
 #Details#
 
@@ -94,3 +106,16 @@ An obvious analogue gives cubical or globular nerves.
 
 *  There is a discussion of some of these and extensions to them to the non-Abelian case, in the entry on [[Moore complex]]
 ...
+
+
+#References#
+
+The relation between [[strict omega-groupoid]]s and [[crossed complex]]es is in
+
+* R. Brown, P. Higgins, _The equivalence of $\infty$-groupoids and crossed complexes_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 22 no. 4 (1981), p. 371-386  ([pdf](http://archive.numdam.org/article/CTGDC_1981__22_4_371_0.pdf))
+
+The discussion of Dold-Kan in the generalized context of [[semi-abelian category|semi-abelian categories]] is in
+
+* **Bourn2007** D. Bourn, _Moore normalisation and Dold-Kan theorem for semi-Abelian categories_, in 
+Categories in algebra, geometry and mathematical physics , volume 431 of Contemp. Math., 
+105 &#8211; 124, Amer. Math. Soc., Providence, RI. (2007)
