@@ -2,13 +2,15 @@ This entry is about the book
 
 * Jacob Lurie, _Higher Topos Theory_ ([arXiv](http://arxiv.org/abs/math.CT/0608040))
 
-which discusses the theory of [[(infinity,1)-category|(infinity,1)-categories]] in general and that of $(\infty,1)$-categories of $(\infty,0)$-category valued [[sheaf|sheaves]] -- called (Grothendieck-Rezk-Lurie) $(\infty,1)$-topoi -- in particular.
+which discusses the theory of [[(infinity,1)-category|(infinity,1)-categories]] in general and that of $(\infty,1)$-categories of $(\infty,0)$-category valued [[sheaf|sheaves]] -- called (Grothendieck-Rezk-Lurie) [[(infinity,1)-topos|(infinity,1)-topoi]] -- in particular.
 
 For general information on higher category and higher topos theory see also
 
 * [[higher category theory]]
 
-* [[michaelshulman:n-topos for large n|n-topos for large n]]
+* [[infinity-category]]
+
+* [[infinity-topos]]
 
 for more on $\infty$-sheaves (usually known as [[infinity-stack]])s see
 
@@ -172,6 +174,10 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 ##5 Presentable and Accessible $\infty$-Categories##
 
 ##6 $\infty$-Topoi##
+
+* [[infinity-topos]]
+
+  * [[(infinity,1)-topos]]
 
 * [[(infinity,1)-category of (infinity,1)-sheaves]]
 
