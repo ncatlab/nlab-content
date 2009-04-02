@@ -39,7 +39,13 @@ or see the list of links below.
 
   * [[sheaf]]
 
-  * [[sheafification]]
+    * [[sheafification]]
+
+    * [[direct image]]
+ 
+    * [[inverse image]]
+
+    * [[restriction and extension of sheaves]]
 
   * [[category of sheaves]]
 
