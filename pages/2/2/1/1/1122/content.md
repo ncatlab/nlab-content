@@ -1,3 +1,7 @@
+Much has been said about inverting a class of morphisms in a category (see [[localization]]), and there are many different settings in which one wants to, and can, do this. Homotopical algebra is largely concerned with how to compute the [[homotopy category]] so it is locally small. One the other hand, we have [[simplicial localization]] which retains all the homotopy information and returns an $(\infty,1)$-catgeory. 
+
+If we have a 2-category with a notion of weak equivalence, one could localize the underlying 1-category in a way hopefully compatible with the 2-arrows, or extend the result fully into the 2-dimensional setting. In general this will require bicategories, and is the subject of the paper _Etendues and stacks as bicategories of fractions_ by Dorette Pronk.
+
 #Definition#
 
 Let $B$ be a  [[bicategory]] with a class $W$ of 1-[[morphism|cells]]. $W$ is said to **admit a right calculus of fractions** if it satisfies the following conditions
@@ -29,7 +33,7 @@ $$
 If $B$ is a category, then these axioms reduce to the ones of Gabriel and Zisman for a [[category of fractions]].
 
 
-Given such a setup, in the article _Etendues and stacks as bicategories of fractions_, Pronk constructs the [[localization]] of $B$ at $W$.
+Given such a setup, Pronk constructs the [[localization]] of $B$ at $W$ and the universal functor sending elements of $W$ to equivalences.
 
 
 
