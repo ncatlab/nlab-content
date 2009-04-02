@@ -1,0 +1,3 @@
+
+
+The [[closed monoidal structure on presheaves]] extends to a [[closed monoidal category|closed monoidal structure]] on [[sheaf|sheaves]] as follows...
