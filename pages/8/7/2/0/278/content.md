@@ -1,17 +1,22 @@
+[[!include mathematicscontents]]
+
 
 #entries related to differential geometry#
 
-* [[generalized smooth algebra]]
+* [[space and quantity]]
 
-* [[generalized smooth space]]
+  * [[generalized smooth algebra]]
 
-* [[integration over supermanifolds]]
+  * [[generalized smooth space]]
 
 * [[Lie theory]]
 
-* [[NQ-supermanifold]]
+* [[supermanifold]]
 
-* [[space and quantity]]
+  * [[NQ-supermanifold]]
+
+  * [[integration over supermanifolds]]
+
 
 
 
