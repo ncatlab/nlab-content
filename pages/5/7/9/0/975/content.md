@@ -336,7 +336,7 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
 
   * [[dense monomorphism]]
 
-  * [[site]]
+* [[site]]
 
 
 #17 Sheaves on Grothendieck Topologies#
@@ -352,6 +352,14 @@ and of triangulated categories, i.e. [[stable (infinity,1)-category|stable infin
     * sheafification with respect to a  [[Lawvere-Tierney topology]]
 
     * [[IPC-property]]
+
+  * operations
+
+    * [[direct image]]
+
+    * [[inverse image]]
+
+    * [[restriction and extension of sheaves]]
 
 #18 Abelian Sheaves#
 
