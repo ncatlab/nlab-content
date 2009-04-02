@@ -21,7 +21,7 @@ One can think of
 $(\infty,1)$-topoi as
 the generalization of the above situation
 from $1$ to $(\infty,1)$ 
-(recall the notion of [[(n,r)-category]]):
+(recall the notion of [[(n,r)-category]] and see the general discussion at [[infinity-topos]]):
 
 * Working in the $(\infty,1)$-[[category]] 
 [[Infinity-Grpd]]
