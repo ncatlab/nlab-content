@@ -1,3 +1,5 @@
+[[!include mathematicscontents]]
+
 #Idea#
 
 In the modern perspective (or at least, the perspective considered here) **homotopy theory** is the theory of $(\infty,1)$-[[(infinity,1)-category|categories]]: those $\infty$-[[infinity-category|categories]] in which all $k$-morphisms for $k \gt 1$ are invertible.
