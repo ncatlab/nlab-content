@@ -1,15 +1,8 @@
-This entry is about the book
+[[!include mathematicscontents]]
+
+This entry provides a keyword list on concepts related to **categories and sheaves** following the book
 
 * M. Kashiwara and P. Schapira, _Categories and Sheaves_, Springer (2000)
-
-For general information on "categories and sheaves" see the entries
-
-* [[category theory]]
-
-* [[sheaf and topos theory]]
-
-or follow the links provided below.
-
 
 #Summary#
 
