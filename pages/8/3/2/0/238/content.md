@@ -15,6 +15,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * created [[direct image]] and [[inverse image]]
+
   * moved discussion from [[semi-abelian category]] to [[Dold-Kan correspondence]] and added references
 
   * added explicit formulas to [[Yoneda extension]] (not the [[end]]-yoga, though)
