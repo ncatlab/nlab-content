@@ -1,7 +1,7 @@
 #Idea#
 
-Using [[Higher Topos Theory|higher topos theory]], complexes of abelian sheaves can be understood as a generalization of [[topological space]]s, in a precise sense recalled below. 
-This induces a notion of cohomology of complexes of abelian sheaves from the familiar notion of cohomology of spaces.
+Using the [[Dold-Kan correspondence]] in [[Higher Topos Theory|higher topos theory]], [[complex]]es of [[abelian sheaf|abelian sheaves]] can be understood as a generalization of [[topological space]]s, in a precise sense recalled below. 
+This induces a notion of cohomology of [[complex]]es of [[abelian sheaf|abelian sheaves]] from the familiar notion of cohomology of spaces.
 
 Which is a simple one: recall that the [[cohomology]] of one [[topological space]] $X$ with coefficients in another space $A$ is nothing but the space of morphisms (continuous maps) $H(X,A) := [X,A]$ from $X$ to $A$ -- or, in a more restrictive sense traditiuonally adopted, the set $\pi_0[X,A]$ of connected path components of this space. 
 
