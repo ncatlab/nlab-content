@@ -15,17 +15,57 @@ In the 1-categorical [[model category|model theoretic models]] these hom-spaces 
 
 This, then, is the definition of sheaf cohomology as usually presented: the cohomology of the complex $R \Gamma(X,A)$.
 
-#Definition#
 
-...
+#Details#
 
+Under the [[Dold-Kan correspondence]] we have the following
+identification of sheaves taking values in [[chain complex]]es
+with sheaves taking values in [[infinity-groupoid]]s and
+[[spectrum|spectra]], crucial for a conceptual understanding of
+abelian sheaf cohomology:
+
+let $X$ be a [[site]]
+
+* the category $Sh(X, Ch_+(Ab))$ of non-negatively graded
+[[chain complex]]es of [[abelian sheaf|abelian sheaves]] is
+[[homotopical functor|homotopically]] [[equivalence|equivalent]]
+to the category $Sh(X, sAb)$ of [[sheaf|sheaves]] with values in 
+simplicial abelian groups (i.e. [[Kan complex]]es with strict abelian group structure);
+
+* the category $Sh(X, Ch(Ab))$ of unbounded 
+[[chain complex]]es of [[abelian sheaf|abelian sheaves]] is 
+[[equivalence|equivalent]] to $Sh(X, Sp(Ab))$, the category
+of sheaves with values in [[combinatorial spectrum|combinatorial spectra]] 
+internal to abelian groups.
+
+
+(...)
+
+
+$$
+  \begin{aligned}
+    H^q(X,F)
+    & \simeq
+    [X, \mathbf{B}^q F]
+  \end{aligned}
+$$
 
 #Examples#
 
 ...
 
-
 #References#
 
-...
+For a discussion of that and how abelian sheaf cohomology is 
+embedded into [[generalized sheaf cohomology]] and
+[[nonabelian cohomology]] see 
+
+* K. Brown, [[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf Cohomology]]
+
+The reformulation of abelian sheaf cohomology in terms
+of hom-spaces $[X,A]$ is in the list of observations on p. 9,
+culminating in the sequence of identities of
+cohomologies and hom-spaces in the proof of theorem
+2 on the bottom of page 10.
+
 
