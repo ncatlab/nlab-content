@@ -40,6 +40,13 @@ Depending on how one thinks of the object whose cohomology one computes, there a
 
 Either way, one obtaines a notion of _cohomology on $\infty$-categories with coefficients in $\infty$-catgories_. This is, most generally, the setup of "[[nonabelian cohomology]]".
 
+This is conceptually best understood today in terms of [[Higher Topos Theory|higher topos theory]], using [[(infinity,1)-category of (infinity,1)-sheaf|(infinity,1)-categories of (infinity,1)-sheaves]]. 
+
+This perspective on nonabelian cohomology is discussed for instance in
+
+* Bertrand To&#235;en, _Non-abelian cohomology_ ([slides](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/index.html) [ps](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/meta/aux/toen.ps))
+
+
 But sometimes the term is used in a more restrictive sense. Often people mean "nonabelian _group_ cohomology" when they say nonabelian cohomology, hence restricting to the domains to [[group|groups]], which are [[groupoid|groupoids]] with a single object.
 
 This kind of nonabelian cohomology is discussed for instance in
