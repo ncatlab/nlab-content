@@ -113,6 +113,7 @@ long list goes here, but for the moment there is just:
 * [[model structure on crossed complexes]]
 * [[model structure on simplicial sets]]
 * [[path object]]
+* [[rational homotopy theory]]
 * [[weak equivalence]]
 
 +--{.query}
