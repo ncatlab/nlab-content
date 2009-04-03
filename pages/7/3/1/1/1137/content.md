@@ -13,13 +13,14 @@ $$
 The restriction of this operation to [[sheaf|sheaves]], which respects sheaves, is the **direct image of sheaves**
 
 $$
-  f_* : PSh(X) \to PSh(Y)
+  f_* : Sh(X) \to Sh(Y)
   \,.
 $$
 
+More generally, the right adjoint part of any [[geometric morphism]] is called its **direct image functor**.
 
 #Remarks#
 
 * The [[left adjoint]] to the direct image is the [[inverse image]] functor.
 
-* The [[right adjoint]] to the direct image functor is the [[restriction and extension of sheaves|extension]] operation on (pre)sheaves.
+* The [[right adjoint]] to the direct image functor, if it exists, is the [[restriction and extension of sheaves|extension]] operation on (pre)sheaves.
