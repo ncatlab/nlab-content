@@ -1,6 +1,6 @@
 #Idea#
 
-As every [[topos]], the category $PSh(X)$ of [[presheaf|presheaves]] is  [[cartesian monoidal category|cartesian]] [[closed monoidal category|closed mnonoidal]].
+As every [[topos]], the category $PSh(X)$ of [[presheaf|presheaves]] is  [[cartesian monoidal category|cartesian]] [[closed monoidal category|closed monoidal]].
 
 #Definition#
 
