@@ -8,6 +8,8 @@ This allows
 
 * on the other to efficiently compute with certain higher categorical structures.
 
+Compare this to the role played by [[rational homotopy theory]].
+
 The classical Dold-Kan correspondence states the equivalence of
 
 $$
@@ -55,6 +57,39 @@ Perhaps the 'ultimate' form of a 'classical' Dold-Kan result is by Pilar Carrasc
 
 Dominique Bourn's formulation is very pretty. The Moore complex functor is monadic when the basic category is semi-Abelian (Th. 1.4. p.113 in _Bourn2007_ below). Of course for simplicial _groups_, the  monad on chain complexes of groups gives the hypercrossed complexes of Carrasco and Cegarra, but here they fall out from the theory.  On the down side there is apparently no 
 full analysis as yet of the actual form of this monad.
+
+
+## parameterized version of the Dold-Kan correspondence ##
+
+The statement of the Dold-Kan correspondence generalizes to
+[[sheaf|sheaves]] with values in the respective categories and this way from [[Infinity-Grpd]] to more general [[(infinity,1)-topos|(infinity,1)-topoi]]:
+
+for $X$ be a [[site]] let $Sh(X, sAb)$ be the category of 
+_simplicial abelian sheaves_ -- i.e. 
+[[simplicial presheaf|simplicial sheaves]] which take values
+in simplicial abelian groups -- and let $Sh(X, Ch_+(Ab))$
+be the category of [[sheaf|sheaves]] on $S$ with values in
+non-negatively graded [[chain complex]]es of abelian groups.
+The normalized chain complex extends objectwise to a functor
+$$
+  Sh(X,sAb) \stackrel{\simeq}{\to} Sh(X, Ch_+(Ab))
+$$
+which is an [[equivalence]] of categories. Moreover, 
+both these categories are naturally 
+[[category with weak equivalences|categories with weak equivalences]]:
+the weak equivalences in $Sh(X, sAb)$ are the stalkwise
+[[model structure on simplicial sets|weak equivalences of simplicial sets]]
+and the weak equivalences in $Sh(X, Ch_+(Ab))$ are the
+[[quasi-isomorphism]]s. The normalized chain complex functor
+preserves these weak equivalences.
+This sheaf version of the Dold-Kan correspondence 
+allows to understand [[abelian sheaf cohomology]]
+as a special case of [[nonabelian cohomology]] and
+[[generalized sheaf cohomology]].
+
+See page 9,10 of 
+
+* K. Brown, [[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf Cohomology]]
 
 
 
