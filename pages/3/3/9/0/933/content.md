@@ -23,3 +23,10 @@ _Toby_:  Well, we definitely need [[chain complex]].  I\'ve been thinking of wri
 
 One possibility is to just slap your TeX source up, kind of like [[Trimble on ETCS I]] etc, then people can go through it later.
 =--
+
+##Differential graded algebras## 
+
+(as considered in [[rational homotopy theory]].
+
+
+These are explored briefly in the lexicon style entry [[differential graded algebra]]. (At present this is 'bare bones' with little or no motivation or discussion. Eventually we may need to combine the two entries. - [[Tim Porter|Tim]].)
