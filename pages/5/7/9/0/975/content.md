@@ -4,6 +4,14 @@ This entry provides a keyword list on concepts related to **categories and sheav
 
 * M. Kashiwara and P. Schapira, _Categories and Sheaves_, Springer (2000)
 
+
+#Pedagogical motivation#
+
+For a pedagogical motivation of the general topic under consideration here see
+
+* [[heuristic introduction to sheaves, cohomology and higher stacks]]
+
+
 #Summary#
 
 The book discusses the theory of [[presheaf|presheaves]] and [[sheaf|sheaves]] with an eye towards their application in [[homological algebra]] and with an outlook on [[stack]]s.
