@@ -24,7 +24,8 @@ a contractible open subset $U \subset X$ the space $P$ looks like
 the [[product]] of $U$ with the circle, $P|_U \simeq U \times S^1$. One says that $B U(1)$ is the [[classifying space]] for circle [[bundle]]s.
 
   * A famous such circle bundle you may have seen is the [Hopf bundle](http://en.wikipedia.org/wiki/Hopf_bundle), which is a way to map the 3-dimensional sphere $S^3$ to the familiar 2-dimensional sphere $S^2$, such that over small parts $U \subset S^2$ of the 2-sphere the 3-sphere looks like the product space $U \times S^1$.
-This circle bundle corresponds to a very special class of maps $X \to B U(1)$: 
+
+  * This circle bundle corresponds to a very special class of maps $X \to B U(1)$: 
   namely the collection of maps $[S^2, B U(1)]$ happens to have the structure
   of the abelian group $\mathbb{Z}$ of integers under addition, 
   and the Hopf fibration corresponds to the 
@@ -57,8 +58,8 @@ over its endpoints;
  something akin to topological spaces: maybe we just need a slightly more
  flexible notion of what "space" should mean.
  
-* There is a generalization of the notion of topological space which does
- accomplish this: the notion of a [[sheaf]].
+* the generalization of the notion of _space_ which does
+ accomplish this: the notion of a [[sheaf]] in proper interpretation in the general context of [[space and quantity]]:
 
 
 ## the basic idea of sheaves ##
@@ -69,29 +70,19 @@ over its endpoints;
  examples $B^{n-1} U(1)$: these spaces were
  entirely characterized by how one can _map_ other spaces _into_ them.
 
-* this is a general strategy that one can adopt: suppose I dream up
- a space but don't tell you which one it is, but I give you hints:
- for each other space $U$ that you can dream up, I tell you how
- you can _probe_ my space by mapping your space $U$ into it.
+* this is a general strategy that one can adopt: suppose I dream up a space but don't tell you which one it is, but I give you hints: for each other space $U$ that you can dream up, I tell you how you can _probe_ my space by mapping your space $U$ into it.
  
- * Let's call the space which I dreamed up $X$. For every space
- $U$ that you come up with, I do some secret computation and then
- present you with the result: I hand you a set, let's call it $X(U)$, 
- and tell you 
- that this is the set of ways that $U$ can be mapped into $X$.
+ * Let's call the space which I dreamed up $X$. For every space $U$ that you come up with, I do some secret computation and then present you with the result: I hand you a set, let's call it $X(U)$, and tell you  that this is the set of ways that $U$ can be mapped into $X$.
  
- * will you be able, in general, to guess my space $X$ from this information? Hardly.
- So, to be fair, I should provide a bit more of information: what you
- need to know to actually get a feeling for what my space $X$ is like
- is an idea about how different ways of probing my space relate to each other
+ * will you be able, in general, to guess my space $X$ from this information? Hardly. So, to be fair, I should provide a bit more of information: what you
+ need to know to actually get a feeling for what my space $X$ is like is an idea about how different ways of probing my space relate to each other
  
  * Okay, so we'll do this: for every pair $U$ and $V$ of test spaces that 
  you come up with, and for every way $f : U \to V$ of mapping these into each other,
  I inform you not only about the set of ways $X(U)$ that $U$ can be mapped 
  into my secret space $X$, and the set of ways $X(V)$ that $V$ can be mapped
- into my secret space, but I also tell you how these are related when you 
- first map $V$ into $X$ by a map $p : V \to X$ and then map $U$ into $X$
- by first mapping it to $V$: $\xymatrix{ U \ar[r]^f & V \ar[r]^p & X}$.
+ into my secret space, but I also tell you how these are related when you first map $V$ into $X$ by a map $p : V \to X$ and then map $U$ into $X$
+ by first mapping it to $V$: $U \stackrel{f}{\to}  V \stackrel{p}{\to}  X}$.
  This transforms every element in $X(V)$ into an element in $X(U)$. To be fair,
  I should tell you at least what this transformation is!
  
@@ -99,15 +90,12 @@ over its endpoints;
  that you hand me, I return you a map of sets that I denote 
  $X(f) : X(V) \to X(U)$.
  
- * Do you need still more information to guess my space $X$? 
- It turns out that: no, this information is enough!
+ * Do you need still more information to guess my space $X$? It turns out that: no, this information is enough!
+This somewhat remarkable fact is closely related to a 
+fundamental statement of [[category theory]]: the [[Yoneda lemma]] and its impliciation on [[representable functor]]s.
  
- * But, on the other hand, you need to be sure that even if I 
- won't reveal my space $X$ to you directly, the little information about it
- which I do provide I should provide honestly and consistently. 
- Some consistency checks to assure that I am not just making things up
- but am giving you consistent information about my secret space $X$ are the 
- following:
+ * But, on the other hand, you need to be sure that even if I  won't reveal my space $X$ to you directly, the little information about it which I do provide I should provide honestly and consistently. Some consistency checks to assure that I am not just making things up
+ but am giving you consistent information about my secret space $X$ are the following:
  
    * it must be true that if you hand me the identity map $Id_U : U \to U$
    on a test space, that then then I return you the identity map 
@@ -119,14 +107,9 @@ over its endpoints;
    is the result of composing my two replies about the former:
    $X(g \circ f) = X(W) \stackrel{X(g)}{\to} X(V) \stackrel{X)(f)}{\to} X(U)$.
    
-   * There is one further, more nontrivial consistency check on my information
-   which you should do: it must be true that you can piece together the 
-   information which I give for small test spaces to deduce information about
-   probes by bigger test spaces. More precisely, if I tell you the set $X(U)$
-   of probes of my secret space $X$ by the test space $U$, and if you then 
-   chop up $U$ into two pieces $V_1$ and $V_2$ 
-   sitting inside $U$ by inclusion maps $p_i : V_i \hookrightarrow U$,
-   with a bit of overlap $V_1 \cap V_2$, then it ought
+   * so far, an assignment $U \mapsto X(U)$ of sets to spaces which satisfies the above two properties is what is called a [[presheaf]]: this, in turn, is nothing but what is called a [[functor]] on a [[category]].
+
+   * But there is one further, more nontrivial consistency check on my information which you should do: it must be true that you can piece together the information which I give for small test spaces to deduce information about probes by bigger test spaces. More precisely, if I tell you the set $X(U)$ of probes of my secret space $X$ by the test space $U$, and if you then chop up $U$ into two pieces $V_1$ and $V_2$  sitting inside $U$ by inclusion maps $p_i : V_i \hookrightarrow U$, with a bit of overlap $V_1 \cap V_2$, then it ought
    to be true all the probes by $U$ in $X(U)$ can be entirely and exactly reconstructed
    from taking probes by $V_1$ in $X(V_1)$ and by $V_2$in $X(V_2)$ and see if they match
    over the overlap $V_1 \cap V_2$ of the two small probes: 
@@ -149,50 +132,34 @@ over its endpoints;
 which space $X$ I am thinking of, but I give you all the information
 about its probes $U \mapsto X(U)$ by test spaces, subject to these three 
 consistency conditions. Such a collection of information (the sets $X(U)$)
-subject to these consistency conditions is called a **sheaf**
-on the collection $S$ of test spaces. 
+subject to these consistency conditions is called a **[[sheaf]]**
+on the collection (being a [[category]]) $S$ of test spaces. 
 
-  * here this collection of test spaces, by the way, with all the maps
-  between them, organizes itself into what is called a [[category]].
-  The notion of sheaf makes sense on every category $S$ for which there
-  is an agreement about how some of its elements $U$, can be covered by
-  other elements, such as the $V_1$ and $V_2$ above.
+  * More generally, this notion of sheaf easily makes sense on every other category $S$ for which there is an agreement about how some of its elements $U$, can be covered by other elements, such as the $V_1$ and $V_2$ above. Such an agreement of what counts as a [[cover]] in a [[category]] is called a [[coverage]], and a [[category]] equipped with such an information is called a [[site]].
 
-* and it turns out that, indeed, if I am sticking to these rules of sheaves,
-then you can reconstruct the space $X$ that I am thinking of from just the
-information about how to probe it by other spaces;
+* and it turns out that, indeed, if I am sticking to these rules of sheaves, then you can reconstruct the space $X$ that I am thinking of from just the information about how to probe it by other spaces.
 
 
 ## sheaves more general than spaces ##
 
-* But now something nice happens: it turns out that there are 
-collections of this probe information $U \mapsto X(U)$ which does obey the rules 
-(satisfies the three conditions above) but for which there is
-nevertheless no ordinary space $X$ that it describes probes into;
+* So far this just reformulates the familar notion of space in a somewhat more indirect form: a rule for how to probe a space. But now something nice happens: it turns out that there are collections of this probe information $U \mapsto X(U)$ which do obey the rules 
+(satisfies the three conditions above) but for which there is nevertheless _no_ _ordinary_ space $X$ that it describes probes into;
 
-* on the other hand, maybe this just means that our notion of
-"ordinary space" was a bit too restrictive: after all, we 
-noticed that all that really matters usually are the 
+* on the other hand, maybe this just means that our notion of "ordinary space" was a bit too restrictive: after all, we noticed that all that really matters usually are the 
 ways we can probe a given space by other spaces; and
 that the information about such probes is useful if only
 it obeys the above three consistency rules;
 
-* so we regard sheaves in general then as generalized spaces:
-or more precisely: we regard sheaves as rules for how to 
-probe generalized spaces, and we take these generalized spaces
-to be entirely specified by their possible probes.
+* so we regard sheaves in general then as generalized spaces; or more precisely: we regard sheaves as rules for how to  probe generalized spaces, and we take these generalized spaces to be entirely specified by their possible probes.
 
-* it turns out that every important type of operation on spaces
-has its analogs as an operation on sheaves: one says that 
-sheaves form a [[topos]]: a place where we can go 
+* it turns out that every important type of operation on spaces has its analogs as an operation on sheaves: one says that  sheaves form a [[topos]]: a place where we can go 
 to study generalized [[homotopy theory]], 
 more general than the place of topological spaces, but where
 still all the crucial constructions familiar from topological spaces makes sense;
 
 ## higher sheaves: $\infty$-stacks ##
 
-* But once we are at this point, we should go even a bit further:
-we have been talking about _sets_ of probes $X(U)$. But of course 
+* But once we are at this point, we should go even a bit further: we have been talking about _sets_ of probes $X(U)$. But of course 
 for $X$ a true [[topological space]] and $U$ a [[topological space]], there
 is not just a set, but a [[topological space]] of maps $U \to X$. 
 So we should be looking at sheaves with values in topological spaces.
