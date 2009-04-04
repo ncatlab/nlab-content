@@ -12,6 +12,20 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+#2009-05-03
+
+* [[Urs Schreiber|Urs]]: 
+
+  * further polished [[nonabelian cohomology]]
+
+  * created [[combinatorial spectrum]]
+
+  * expanded [[abelian sheaf cohomology]]
+
+  * created [[cohomology]]
+
+  * created [[heuristic introduction to sheaves, cohomology and higher stacks]]
+
 #2009-04-03
 
 * [[Urs Schreiber|Urs]]: 
