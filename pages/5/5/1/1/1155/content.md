@@ -54,9 +54,11 @@ I see that my original phrasing reflected this only very imprecisely. I have tri
 
 But this looks like the condition which does appear in the definition of the $n$-simplex spectra (next page of Brown). I have added that in the list of examples now.
 
-Another question: what's the established term for these things here? I made up both "combinatorial spectrum" and "simplicial spectrum" after reading Brown's articl, which just calls this "spectrum" without qualification. I am tending to think that "simplicial spectrum" would be a good term.
+Another question: what's the established term for these things here? I made up both "combinatorial spectrum" and "simplicial spectrum" after reading Brown's article, which just calls this "spectrum" without qualification. I am tending to think that "simplicial spectrum" would be a good term.
 
 Related to that: what's a more recent good reference on these combinatorial version of spectra?
 
+[[Mike Shulman|Mike]]: I was remembering a condition like that from Kan's original article "Semisimplicial spectra," which I unfortunately don't have access to a copy of right now.  I think the idea is that a spectrum of this sort is built out of a naive prespectrum of simplicial sets (that is, a sequence of based simplicial sets $X_n$ with maps $\Sigma X_n \to X_{n+1}$) by making the $k$-simplices of $X_n$ into $(k-n)$-simplices in the spectrum.  I thought the condition on $m\lt n$ is sort of saying that each simplex comes from $X_n$ for some $n\lt \infty$.  But possibly my memory is just wrong.
 
+Since Kan's original term was "semisimplicial spectrum" back when "semisimplicial set" meant what we now call a "simplicial set," it's hard to argue with "simplicial spectrum."  As far as I know, however, no algebraic topologist has really thought seriously about these things for quite some time, probably due largely to the appearance of symmetric monoidal categories of spectra (EKMM $S$-modules, orthogonal spectra, symmetric spectra, etc.) of which there is no known analogue for this sort of spectra.  It's kind of a shame, I think, since these spectra give a really good intuition of "an object with $k$-cells for all $k\in\mathbb{Z}$."  I spent a little while once trying to come up with a version of these that would have a symmetric monoidal smash product, maybe starting with simplicial symmetric spectra instead of naive prespectra, but I failed.
 =--
