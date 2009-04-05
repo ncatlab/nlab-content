@@ -59,7 +59,9 @@ over its endpoints;
  flexible notion of what "space" should mean.
  
 * the generalization of the notion of _space_ which does
- accomplish this: the notion of a [[sheaf]] in proper interpretation in the general context of [[space and quantity]]:
+ accomplish this: the notion of a [[sheaf]] 
+
+* there is a very general abstract nonsense way to understand [[sheaf|sheaves]] as generalized spaces in the context of a very general abstract [[duality]] between the notions of  [[space and quantity]]. The following is a heuristic way to understand this.
 
 
 ## the basic idea of sheaves ##
