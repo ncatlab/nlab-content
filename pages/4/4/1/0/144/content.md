@@ -16,12 +16,12 @@ Let $S$ be some category whose objects we want to think of as certain simple spa
 
 An ordinary manifold, for instance, is a space required to be _locally isomorphic_ to an object in $S = CartSp$. But more generally, a space $X$ modeled on $S$ need only be _probeable_ by objects of $S$, giving a rule which to each test object $U \in S$ assigns the collection of admissible maps from $U$ to $X$,  such that this assignment is well-behaved with respect to morphisms in $S$. Such an assignment is nothing but a [[presheaf]] on $S$, i.e. a contravariant functor
 $$
-  X : S^{op} \to Sets
+  X : S^{op} \to Set
   \,.
 $$
 Therefore general spaces modeled on $S$ are nothing but presheaves on $S$:
 $$
-  Spaces_S := PrSh(S)
+  Spaces_S := PSh(S)
   \,.
 $$
 Of course this is an extremely general notion of spaces modeled on $S$. 
@@ -65,9 +65,41 @@ $$
 
 Lawvere addresses this adjoint pair as **Isbell conjugation**.
 
-In conclusion, the grand duality between spaces and quantities is a consequence of the [[duality|formal duality]] which reverses the arrows in the category $S$ of test spaces.
+In conclusion, the grand [[duality]] between spaces and quantities is a consequence of the [[duality|formal duality]] which reverses the arrows in the category $S$ of test spaces.
 
-##References##
+This story generalizes straightforwardly from [[presheaf|presheaves]] with values in [[Set]] to presheaves with values in other categories. Of relevance ar in particular presheaves with values in the category [[Top] of [[topological space]]s and presheaves with values in the category of [[spectrum|spectra]]. See the examples below. 
+
+#Examples#
+
+
+## Examples for generalized spaces ##
+
+
+*  A [[sheaf]] is a generalized space in the above sense which satisfies a certain extra natural condition which encodes that it is _locally well behaved_. The [[sheaf]] condition on a [[presheaf]] says that the generalized space whose probes form a [[presheaf]] is such that the probes by a big test object $U$ can be reconstructed from those probes by smaller test objects $\{V_i\}$ [[coverage|covering]] $U$ which are given by restricting the probe by $U$ to all of the $V_i$. So generalized spaces whih are given not just by presheaves but by sheaves satisfy a very natural locality conditions: they can be _built up from smaller pieces_. 
+
+* Arbitrary generalized spaces given by sheaves can still be much more general than an "ordinary space". A **concrete sheaf** is (the collection of probes of) a generalized space which at least shares with an ordinary space the property that it has an _underlying set of points_. Important examples of generalized spaces given by concrete sheaves are the Chen-smooth or diffeological spaces discussed at [[generalized smooth space]]. 
+
+* There is a natural generalization of the above examples for generalized spaces whose presheaves of probes take values not in [[Set]] but in [[Top]] (equivalently in [[SSet]]): when these satisfy the respective locality condition they are called [[infinity-stack]]s or [[(infinity,1)-sheaf|(infinity,1)-sheaves]]. For instance a [[Lie groupoid]]s also known as [[differentiable stack]]s  and more generally [[Lie infinity-groupoid]]s are examples of this.
+
+
+* A pedagogical discussion of generalized spaces is at
+
+  * [[heuristic introduction to sheaves, cohomology and higher stacks]]
+
+
+## examples for generalized quantitities ##
+
+...
+
+
+
+#References#
+
+The _duality of space and quantity_ in the above sense is described in
 
 * F. W. Lawvere, [Taking categories seriously](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf)
+
+A related blog discussion is here:
+
 *  _Space and Quantity_ ([blog](http://golem.ph.utexas.edu/category/2008/03/space_and_quantity.html))
+
