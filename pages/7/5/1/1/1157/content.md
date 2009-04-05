@@ -9,7 +9,7 @@
 
    * [[Todd Trimble]], _On the Bar Construction_ ([blog](http://golem.ph.utexas.edu/category/2007/05/on_the_bar_construction.html))
 
-* There is some discussion of the bar-cobar adjointness as it related to [[twisted cohain|twisted cochains]], at that entry.
+* There is some discussion of the bar-cobar adjointness as it related to [[twisting cochain|twisting cochains]], at that entry.
 
 Here we will concentrate on the bar-cobar adjointness itself and start exploring the links with other parts of differential algebra.
 
