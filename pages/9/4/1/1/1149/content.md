@@ -82,7 +82,7 @@ over its endpoints;
  I inform you not only about the set of ways $X(U)$ that $U$ can be mapped 
  into my secret space $X$, and the set of ways $X(V)$ that $V$ can be mapped
  into my secret space, but I also tell you how these are related when you first map $V$ into $X$ by a map $p : V \to X$ and then map $U$ into $X$
- by first mapping it to $V$: $U \stackrel{f}{\to}  V \stackrel{p}{\to}  X}$.
+ by first mapping it to $V$: $U \stackrel{f}{\to}  V \stackrel{p}{\to}  X$.
  This transforms every element in $X(V)$ into an element in $X(U)$. To be fair,
  I should tell you at least what this transformation is!
  
@@ -92,7 +92,7 @@ over its endpoints;
  
  * Do you need still more information to guess my space $X$? It turns out that: no, this information is enough!
 This somewhat remarkable fact is closely related to a 
-fundamental statement of [[category theory]]: the [[Yoneda lemma]] and its impliciation on [[representable functor]]s.
+fundamental statement of [[category theory]]: the [[Yoneda lemma]] and its implication on [[representable functor]]s.
  
  * But, on the other hand, you need to be sure that even if I  won't reveal my space $X$ to you directly, the little information about it which I do provide I should provide honestly and consistently. Some consistency checks to assure that I am not just making things up
  but am giving you consistent information about my secret space $X$ are the following:
@@ -105,24 +105,18 @@ fundamental statement of [[category theory]]: the [[Yoneda lemma]] and its impli
    spaces, $f : U \to V$ and $g : V \to W$, and then hand me their composite
    $g \circ f : U \to W$, that my reply $X(g \circ f) : X(W) \to X(U)$ to the latter
    is the result of composing my two replies about the former:
-   $X(g \circ f) = X(W) \stackrel{X(g)}{\to} X(V) \stackrel{X)(f)}{\to} X(U)$.
+   $X(g \circ f) = X(W) \stackrel{X(g)}{\to} X(V) \stackrel{X(f)}{\to} X(U)$.
    
    * so far, an assignment $U \mapsto X(U)$ of sets to spaces which satisfies the above two properties is what is called a [[presheaf]]: this, in turn, is nothing but what is called a [[functor]] on a [[category]].
 
    * But there is one further, more nontrivial consistency check on my information which you should do: it must be true that you can piece together the information which I give for small test spaces to deduce information about probes by bigger test spaces. More precisely, if I tell you the set $X(U)$ of probes of my secret space $X$ by the test space $U$, and if you then chop up $U$ into two pieces $V_1$ and $V_2$  sitting inside $U$ by inclusion maps $p_i : V_i \hookrightarrow U$, with a bit of overlap $V_1 \cap V_2$, then it ought
    to be true all the probes by $U$ in $X(U)$ can be entirely and exactly reconstructed
-   from taking probes by $V_1$ in $X(V_1)$ and by $V_2$in $X(V_2)$ and see if they match
+   from taking probes by $V_1$ in $X(V_1)$ and by $V_2$ in $X(V_2)$ and see if they match
    over the overlap $V_1 \cap V_2$ of the two small probes: 
    in symbols, the collection of
    pairs in $\{matching maps from V_1 and V_2\} \hookrightarrow
    X(V_1) \times X(V_2)$ whose elements coincide when restricted to the overlap
-   $
-       X(V_1) \times X(V_2)
-       \stackrel{\to}{\to}
-       X(V_1 \cap V_2)
-     }
-   $
-   should be exactly all the possible maps in $X(U)$
+   $X(V_1) \times X(V_2) \stackrel{\to}{\to} X(V_1 \cap V_2)$ should be exactly all the possible maps in $X(U)$
    $$
      \{matching maps on V_1 and V_2\} \simeq X(U)
      \,.
@@ -177,9 +171,9 @@ space which matter so much, but they way they hang together.
   are measured by a collection of groups called the 
   [[homotopy group]]s $\pi_n(X(U))$, one for each natural number $n$.
   
-  * So i we are being careful, we should recognize that two sheaves
-  $X : U \mapto X(U)$ and $Y : Y \mapsto Y(U)$ must characterize
-  essentially the same generalied space if there is a rule
+  * So if we are being careful, we should recognize that two sheaves
+  $X : U \mapsto X(U)$ and $Y : Y \mapsto Y(U)$ must characterize
+  essentially the same generalized space if there is a rule
   $f : X \to Y$ for turning for each test space $U$, probes of $X$ into 
   probes of $Y$, $f_U : X(U) \to Y(U)$
   such that for _sufficiently small_ $U$ this comparison map of
@@ -197,8 +191,7 @@ that it may require a bit of effort to determine if two of them
 determine the same generalized space, for all practical purposes. 
 
 
-  * One nice way to 
-deal with it is to again go back to our attitude that everything 
+  * One nice way to deal with it is to again go back to our attitude that everything 
 should be determined by how we map other things into it: if 
 $f : X \to Y$ is a weak equivalence of sheaves, as above, then we
 we would expect that for $Z$ any other sheaf, the induced map 
@@ -214,13 +207,13 @@ of $Z'$ by $X$ and by $Y$ is a homotopy equivalence.
 
   * The sheaves with this niceness property are called [[infinity-stack]]s
   of [[(infinity,1)-sheaf|(infinity,1)-sheaves]]. Recall that despite the
-  fance terminology, these things are nothing but consistent rules 
+  fancy terminology, these things are nothing but consistent rules 
   for something that may be probed with test spaces $U$, $V$,...
 
 
 ## generalized cohomology ##
 
-* We come back to our orighinal motivation. Recall that we were looking
+* We come back to our original motivation. Recall that we were looking
 at cohomology groups of spaces $X$ by mapping $X$ into other spaces.
 We noticed that there is in general interesting information about
 $X$ which cannot be gained by mapping it into an ordinary topological
