@@ -15,6 +15,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 
 #2009-05-03
+
+* [[Urs Schreiber|Urs]]:
+
+  touched [[combinatorial spectrum]]: replied to [[Mike Shulman|Mike]], added a list of examples and have further questions
+
 * [[Tim Porter|Tim]]: 
 
   * I have put another of the Lexicon series of entries up.  It is [[bar and cobar construction]]. This looks at the differential algebra behind those constructions, and sketches the bar-cobar adjunction. 
