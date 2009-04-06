@@ -11,7 +11,11 @@ So, if you feel people's attention should be drawn to some changes you make, ple
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).
 
 ***
+#2009-04-06
 
+* [[Tim Porter|Tim]]: 
+
+  * I have adjusted an addition to [[differential graded Lie algebra]]. This used the term 'simply', but it is often not clear that one definition is 'simpler' than another.  'Simplicity' is sometimes clear, but is often in the eye of the beholder. I would love to see some discussion on this as it is an easy trap to fall into (as I know to my cost!) and there are several other similar traps out there which are just as difficult to avoid! Perhaps on the caf&#233;???
 
 
 #2009-04-05
