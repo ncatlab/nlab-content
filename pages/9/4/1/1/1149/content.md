@@ -80,7 +80,7 @@ over its endpoints;
  need to know to actually get a feeling for what my space $X$ is like is an idea about how different ways of probing my space relate to each other
  
  * Okay, so we'll do this: for every pair $U$ and $V$ of test spaces that 
- you come up with, and for every way $f : U \to V$ of mapping these into each other,
+ you come up with, and for every way $\phi : U \to V$ of mapping these into each other,
  I inform you not only about the set of ways $X(U)$ that $U$ can be mapped 
  into my secret space $X$, and the set of ways $X(V)$ that $V$ can be mapped
  into my secret space, but I also tell you how these are related when you first map $V$ into $X$ by a map $p : V \to X$ and then map $U$ into $X$
@@ -90,7 +90,7 @@ over its endpoints;
  
  * So I'll do that: for every map of test space $f : U \to V$
  that you hand me, I return you a map of sets that I denote 
- $X(f) : X(V) \to X(U)$.
+ $X(\phi) : X(V) \to X(U)$.
  
  * Do you need still more information to guess my space $X$? It turns out that: no, this information is enough!
 
@@ -124,9 +124,12 @@ but am giving you consistent information about my secret space $X$ are the follo
      \{matching maps on V_1 and V_2 to X\} \simeq X(U)
      \,.
    $$
+
+  * this condition is called a [[sheaf]] or [[descent and codescent|descent]] condition.
    
-* This now is a sensible game to play: I don't tell you directly which space $X$ I am thinking of, but I give you all the information about its probes $U \mapsto X(U)$ by test spaces, subject to these three consistency conditions. Such a collection of information (the sets $X(U)$)
-subject to these consistency conditions is called a **[[sheaf]]** on the collection (being a [[category]]) $S =  [[Top]]$ of test spaces. 
+* This now is a sensible game to play: I don't tell you directly which space $X$ I am thinking of, but I do give you all the information $U \mapsto X(U)$ about its probes $X(U)$  by test spaces $U$, subject to these three consistency conditions. Such a collection of information (the sets $X(U)$)
+subject to these consistency conditions is called a **[[sheaf]]** on the collection (being a [[category]]) 
+$S =  $ [[Top]] of test spaces. 
 
 * More generally, this notion of [[sheaf]] easily makes sense on every other category $S$ for which there is an agreement about how some of its elements $U$, can be [[cover]]ed by other elements, such as the $V_1$ and $V_2$ above. Such an agreement of what counts as a [[cover]] in a [[category]] is called a [[coverage]] or a [[Grothendieck topology|topology]], and a [[category]] equipped with such an information is called a [[site]];
 
@@ -135,22 +138,109 @@ subject to these consistency conditions is called a **[[sheaf]]** on the collect
 ## sheaves more general than spaces ##
 
 * So far this just reformulates the familar notion of space in a somewhat more indirect form: a rule for how to probe a space. But now something nice happens: it turns out that there are collections of this probe information $U \mapsto X(U)$ which do obey the rules 
-(satisfies the three conditions above) but for which there is nevertheless _no_ _ordinary_ space $X$ that it describes probes into;
+(satisfy the three conditions above) but for which there is nevertheless _no_ _ordinary_ space $X$ that it describes probes into;
 
 * on the other hand, maybe this just means that our notion of "ordinary space" was a bit too restrictive: after all, we noticed that all that really matters usually are the 
 ways we can probe a given space by other spaces; and
 that the information about such probes is useful if only
 it obeys the above three consistency rules;
 
-* so we regard sheaves in general then as generalized spaces; or more precisely: we regard sheaves as rules for how to  probe generalized spaces, and we take these generalized spaces to be entirely specified by their possible probes.
-
-* By the way, since we are thinking of sheaves as 'generalized spaces', we had better have a good notion of maps between sheaves. Indeed, this is easy to figure out: a map $f: X \rightarrow Y$ from a sheaf $X$ to a sheaf $Y$ consists of, for each probing space $U$, an ordinary map of sets $f_U : X(U) \rightarrow Y(U)$, and these maps must be natural in the obvious way.
+* so we have every justification then to regard sheaves in general as perfectly valid _generalized spaces_; or more precisely: we regard sheaves as rules for how to  probe generalized spaces, and we take these generalized spaces to be entirely specified by their [[sheaf|sheaves]] of probes.
 
 
-* it turns out that every important type of operation on spaces has its analogs as an operation on sheaves: one says that  sheaves form a [[topos]]: a place where we can go 
+# maps between generalized spaces#
+
+* Since we are thinking of sheaves $F_X : S^{op} \to Set$ and $F_Y : S^{op} \to Set$ as characterizing 'generalized spaces' $X$ and $Y$, we had better have a good notion of maps between sheaves $F_X \to F_Y$ which correspondonds to a sensible notion of maps $X \to Y$ between generalized spaces.  
+
+* That's easy to figure out: if $f : X \to Y$ is supposed to be a map between generalizeed spaces, whatever these are, then in particular it turns every probe $p \in X(U)$, of $X$ which we are thinking of as a probe map $p : U \to X$, to a probe $f \circ p \in Y(U)$ of $Y$, which we should think of as the composite map $f \circ p : U \stackrel{p}{\to} X \stackrel{f}{\to} Y$ that simply maps the image of $U$ in $X$ further to an image of $U$ in $Y$ using the map $f : X \to Y$.
+
+so in terms of their collections (sheaves) of probes a map $f : X \to Y$ of generalized spaces should be given for each probe space $U$ by a map of sets of probes
+$f_U : X(U) \to Y(U)$;
+
+but again we can notice a consistency condition on all these maps $f_U : X(U) \to Y(U)$ which is necessary to ensure that these really describe transformation between probes of $X$ and $Y$:
+
+namely whenever we have two probes $p_1 : U \to X$ and $p_2 : V \to X$ of $X$, and have in addition a map $\phi : U \to V$ between the probe spaces, and know that $p_1$ is just the result of first mapping $U$ to $V$ via $\phi$ and then further to $X$ via $p_2$, then the induced two probes of $Y$ given by
+$U \stackrel{p_1}{\to} X \stackrel{f}{\to} Y$
+and
+$V \stackrel{p_2}{\to} X \stackrel{f}{\to} Y$ must be  similarly be related;
+
+this means that the map 
+$X(V) \stackrel{f_V}{\to} X(V) \stackrel{\phi^*}{\to} Y(V)$
+which first turns a $V$-probe of $X$ into a $V$-probe of $Y$ and then turns the result into a $U$-probe of $Y$, must coincide with the map
+$X(V) \stackrel{\phi^*}{\to} X(U) \stackrel{f_U}{\to}$
+which first turns a $V$-propbe of $X$ into a $U$-probe of $X$ and then turns the result into a $V$-probe of $Y$.
+
+Such an equality between two different composite maps is conveniently depicted as a square
+
+$$
+  \array{
+     X(U)
+     &\stackrel{f_U}{\to}&
+     Y(U)
+     \\
+     \uparrow^{X(\phi)}
+     &&
+     \uparrow^{Y(\phi)}
+     \\
+     X(V)
+     &\stackrel{f_V}{\to}&
+     Y(V)
+  }
+$$
+
+The fact that the two ways of going from the bottom left to the top right of the square are supposed to be equal is called. "the square commutes", or "the square is commutative".
+
+
+So that then is our definition of maps $f : X \to Y$ between generalized spaces $X$ and $Y$: if $U \mapsto X(U)$ and $V \mapsto X(V)$ are the probe-assignments that define $X$ and $Y$, then the map $f$ is defined by probe-transformations $f_U : X(U) \to Y(U)$ such that for all maps $\phi : U \to V$ the above squares commute.
+
+Such a collection of data is called a [[natural transformation]] between the probe-assigning [[functor]]s $X(-)$ and $Y(-)$. Clearly, its a transformation, and it being "natural" just means that it satisfies the obvious consistency condition we discussed. 
+
+
+* With this understanding of maps between generalized spaces in hand, we should go back and compare it to the notion of _probes_ of generalized spaces by ordinary spaces.
+
+  * we had started the discussion with observing that every ordinary topological space $X$ defines a [[sheaf]] of probes by the assignment $U \mapto X(U) := \{maps from U to X\}$ =: Maps(U,X).
+
+  * this way every ordinary space is a generalized space, of course;
+
+  * but that should make us nervous: because it means that now there are two _different_ definitions of what a map from a test topological space $U$ to a topological space should be: 
+
+    * on the one hand, it should be an element in $X(U) = MapsOfTopologicalSpaces(U,X)$;
+
+    * on the other hand, we can regard both $U$ and $X$ as generalized spaces and then look at the maps of generalized spaces between them, as just discussed above;
+
+    * if  these two notions of maps don't coincide, then the whole picture of generalized spaces so far runs into inconsistencies!
+
+    * luckily it doesn't, as one can check. Both notions of maps, while defined differently, happen to be perfectly equivalent. This statement is a simple exercise to prove, and still is the fudnamental fact which makes the important idea of generalized spaces works -- this fact is called the [[Yoneda lemma]]: it says that
+$
+  MapsOfOrdinarySpaces(U,X) =: X(U) = MapsOfGeneralizedSpaces(U,X)
+$
+or more formally
+$
+  Hom_{Sheaves}(U,X) \simeq X(U)
+$.
+
+  * as a slogan: **The Yoneda lemma says that the idea of generalized spaces determined by their collections of probes is consistent.**
+
+* This point is so important that it is worthwhile to build it into our very notation, so that we can't but think of the situation in this way.
+
+* So we agree for any two generalized spaces $X$ and $Y$ to write $X(Y)$ for the collection of maps from $Y$ to $X$
+
+$$
+  X(Y) := MapsOfGeneralizedSpaces(Y,X)
+  \,.
+$$
+
+If $Y = U$ happens to be an ordinary spaces, then $X(U)$ consistently and equivalently denotes both: the collection of probes of $X$ by the ordinary space $U$, and the collection of maps of $U$ into $X$, with $U$ regarded as a generalized space itself.
+
+(This notation is for instance used in the book [[Categories and Sheaves]], see page 25.)
+
+
+## and more: a topos of generalized spaces ##
+
+
+*  It turns out that we can keep going this way. There is not just a natural notion of maps between generalized spaces given by  [[sheaf|sheaves]], but every important type of operation on spaces has its analogs as an operation on sheaves: one says that  sheaves form a [[topos]]: a place where we can go 
 to study generalized [[homotopy theory]], 
-more general than the place of topological spaces, but where
-still all the crucial constructions familiar from topological spaces makes sense;
+more general than the place of [[topological space]]s, but where still all the crucial constructions familiar from topological spaces makes sense;
 
 ## higher sheaves: $\infty$-stacks ##
 
@@ -201,7 +291,15 @@ of $Z$ by $X$ and $Y$ is a [[weak homotopy equivalence]].
 
 +-- {: .query}
 I found this last sentence tough. Can you explain it better? What are $Z(Y)$ and $Z(X)$? Here you are applying the sheaf $Z$ to _other_ sheaves... that is weird and deserves a bit of explanation.    Bruce Bartlett
+
+[[Urs Schreiber|Urs]]: good point, I have now added the expanded section "maps of generalized spaces" above and the comments following now. Please let me know if that clarifies the situation.
+
 =--
+
+
+Recall from the discussion in the above section "maps of generalized spaces" that $Z(Y)$ is just another way saying "space of maps of generalized spaces from $Y$ to $Z$", and similarly for $Z(X)$. 
+
+
 
 Now, that may fail to be true, simply because we are using
 an awkward realization of the sheaf $Z$. It may be that we have
