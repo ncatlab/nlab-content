@@ -343,7 +343,7 @@ general context.
   
 ##  complexes of sheaves: abelian $\infty$-stacks  ##
 
-* Another term for this [[generalized cohomology]] theory thus obtained is
+* Another term for this [[cohomology|generalized cohomology]] theory thus obtained is
 [[nonabelian cohomology]]. The reason for that terms is a historic
 one: before arriving at the full picture of higher topos theory as 
 described here, people had a pretty good guess about some aspects of
@@ -386,7 +386,40 @@ techniques are used to compute these mapping spaces
 fully general case. This wealth of computational machinery
 employed, useful as it is, sometimes hides the simple conceptual
 reasoning underlying everything.
+
++-- {: .query}
+
+from here on at least it's  a bit incoherent for the moment, but I have to quit for the moment...
+
+=--
+
+
   
+* there is a collection of tools available for _computing_ explicitly the cohomologies  $H(X,A) := [X,A]$ for the case that the coefficient space can be thought of as a complex of abelian groups, or a complex of modules, these tools go by names like
+
+  * [[model category]]
+
+    * [[derived category]]
+
+    * [[multiplicative system]] / [[factorization system]]
+
+    * [[localization]]
+
+  * [[derived functor]]
+
+    * [[injective object|injective resoltution]]
+
+    * [[bar and cobar construction]]
+
+* and so forth; historically many concepts in abelian sheaf theory were thought to be _defined_ in terms of these constructions. From a more modern perspective all these are just tools for unraveling an independent reality. This also explains why there are so many different tools which yield the same results. Most notably in the context of [[abelian sheaf cohomology]] there are two general ways for computing this cohomology called
+
+  * right derived global section functor
+
+  * Cech cohomology;
+
+* these two methods differ in whether one computes using "resolutions" of either the coefficient object $A$ (this happens in the right derived global section functor approach) or in the domain object $X$ (this happens in Cech cohomolohy).
+
+
 ## Examples ##
 
 * Recall that we started the search for a generalized notion of space
@@ -397,11 +430,29 @@ We had wanted to obtain a generalized notion of space such that
 this is remedied.
 
   * Indeed, this is now the case. There is a famous 
-  abelian sheaf, called the second [[Deligne cohomology|Deligne complex]], which has precisely
-  the property that maps from a manifold $X$ into it classify circle bundles
-  with connection on $X$.
+  abelian sheaf, called the second [[Deligne cohomology|Deligne complex]] which we may denote by
+  $[P_1(-), \mathbf{B}U(1)]$ (as explained at [[Deligne cohomology]]), which has precisely the property that maps from a manifold $X$ into it classify circle bundles with connection on $X$. Moreover, by varying the two parameters here we get the following cases
   
-  * more....
+
+    * $A = [P_0(-), \mathbf{B}U(1)] = \mathbf{B}U(1)$ -- $H(X,A) = H^2(X,A)$ is second integral cohomology -- line bundles;
+
+    * $A = [P_1(-), \mathbf{B}U(1)] $ -- $H(X,A) = \bar H^2(X,\mathbb{Z})$ is second differential integral cohomology -- line bundles with connection;
+
+    * $A = [P_2(-), \mathbf{B}U(1)] $ -- $ H(X,A) = \bar H_{flat}^2(X,\mathbb{Z})$ is second flat differential integral cohomology -- line bundles with flat connection;
   
+    * $A = [P_0(-), \mathbf{B}^2U(1)] = \mathbf{B}^2U(1)$ -- $H(X,A) = H^3(X,A)$ is thrid integral cohomology -- line bundle gerbes;
+
+    * $A = [P_1(-), \mathbf{B}^2U(1)] $ -- line bundle gerbes with connective structure;
+
+    * $A = [P_2(-), \mathbf{B}^2U(1)] $ -- $ H(X,A) = \bar H_{flat}^3(X,\mathbb{Z})$ is third differential integral cohomology -- line bundle gerbes with connection;
   
-  ...
+    * $A = [P_3(-), \mathbf{B}^2U(1)] $ -- $ H(X,A) = \bar H_{flat}^3(X,\mathbb{Z})$ is third flat differential integral cohomology -- line bundle gerbes with flat connection;
+
+
+* Notice that all these objects $A$ do indeed behave, and cen be treated like, generalized spaces. For instance one can look at paths in these spaces and for instance form their [[fundamental groupoid]]s. One finds results such that for instance 
+
+   * $\Pi_1([P_2(-), \mathbf{B}U(1)]) \simeq \mathbf{B}R$
+
+   * more generally: for $G$ any Lie group, we have
+     $\Pi_1([\Pi_1(-), \mathbf{B}G]) \simeq \mathbf{B}\hat G$, where $\hat G$ is the unique simply connected Lie group covering $G$.
+
