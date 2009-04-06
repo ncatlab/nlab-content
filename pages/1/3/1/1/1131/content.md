@@ -75,6 +75,12 @@ For instance I have seen experts who calucalted with differential graded algebra
 
 This doesn't mean that it is best to introduce DGCA in this internal language. But it does mean that it is worthwhile pointting out that lots of nitty-gritty details of definitions can "simply" be derived by starting with an abstract internal definition and then turning the crank.
 
+
+[[Tim Porter|Tim]]: I could not have put it better myself. I was wondering if there might not be some  way in which this viewpoint might not be expressed explicitly.  Perhaps David C has some thoughts.. sort of 'the unreasonable effectiveness of categorical language'?
+
+My intention for my own contribution (with help hopefully) is to gradually add glosses in the lexicon entries so as to help interpret in both directions, categorically,and geometrically. 
+
+For instance, in the construction of the cobar one take the tensor algebra of the suspension of the cokernel (is it?) of the augmentation.  WHY?!!!!!!! How can one understand this? Magic? It works? In fact it is still a bit of a mystery to me and saying that it comes from such and such a categorical property still needs spelling out for me. I have asked rational homotopy theorists and have partially understood things from their point of view but there are still gaps in my understanding of it and some of them worry me!
 =--
 
 ####Examples
