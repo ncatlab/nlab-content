@@ -26,11 +26,17 @@ The following entries provide lexicalic information about basic concepts in diff
 
 * [[differential graded algebra]]
 
-* [[differential graded coalgebra]]
+  * [[differential graded coalgebra]]
 
-* [[differential graded Lie algebra]]
+  * [[differential graded Lie algebra]]
 
-* [[differential graded Hopf algebra]]
+  * [[differential graded Hopf algebra]]
+
+* [[twisting cochain]]
+
+  * [[twisted tensor product]]
+
+* [[bar and cobar construction]]
 
 
 #References#
