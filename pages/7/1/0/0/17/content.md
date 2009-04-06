@@ -57,7 +57,7 @@ If you want to make a comment or question about a page without changing its main
     How do I ask a question?
     =--
 
-produces
+which produces
 
 +-- {: .query}
 How do I ask a question?
