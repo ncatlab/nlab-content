@@ -98,28 +98,28 @@ over its endpoints;
 fundamental statement of [[category theory]]: the [[Yoneda lemma]] and its implication on [[representable functor]]s.
 These terms will be discussed in a moment:
 
- * There is a bit more to the game than mentioned so far: you need to be sure that even if I  won't reveal my space $X$ to you directly, the little information about it which I do provide, that rule $U \mapto X(U)$,  I should provide honestly and consistently. Some consistency checks to assure that I am not just making things up
+ * There is a bit more to the game than mentioned so far: you need to be sure that even if I  won't reveal my space $X$ to you directly, the little information about it which I do provide, that rule $U \mapsto X(U)$,  I should provide honestly and consistently. Some consistency checks to assure that I am not just making things up
 but am giving you consistent information about my secret space $X$ are the following:
  
-   * it must be true that if you hand me the identity map $Id_U : U \to U$ on a test space, that then then I return you the identity map $Id_{X(U)} : X(U) \to X(U)$ on the set of probes of $X$ by $U$. 
+   * it must be true that when you hand me the identity map $Id_U : U \to U$ on a test space, that then then I return you the identity map $Id_{X(U)} : X(U) \to X(U)$ on the set of probes of $X$ by $U$;
    
-   * also, it must be true that if you first hand me two consecutive maps of test spaces, $f : U \to V$ and $g : V \to W$, and then hand me their composite $g \circ f : U \to W$, that my reply $X(g \circ f) : X(W) \to X(U)$ to the latter is the result of composing my two replies about the former: $X(g \circ f) = X(W) \stackrel{X(g)}{\to} X(V) \stackrel{X(f)}{\to} X(U)$.
+   * also, it must be true that when you first hand me two consecutive maps of test spaces, $f : U \to V$ and $g : V \to W$, and then hand me their composite $g \circ f : U \to W$, that my reply $X(g \circ f) : X(W) \to X(U)$ to the latter is the result of composing my two replies about the former: $X(g \circ f) = X(W) \stackrel{X(g)}{\to} X(V) \stackrel{X(f)}{\to} X(U)$.
    
-   * so far, an assignment $U \mapsto X(U)$ of sets to spaces which satisfies the above two properties is what is called a [[presheaf]]: this, in turn, is nothing but what is called a [[functor]] on a [[category]]:
+* So far, an assignment $U \mapsto X(U)$ of sets to spaces which satisfies the above two properties is what is called a [[presheaf]]: this, in turn, is nothing but what is called a [[functor]] on a [[category]]:
 
-    * the [[category]] in question here is the collection of test [[topological space]]s $\{U\}$, called [[object]]s, equipped with continuous maps between them $\{f : U \to V\}$, called [[morphism]]s, which may be composed when their domains and targets match. This composition is associative in the obvious way and on every object $U$ there is an [[identity]] map $Id_U : U \to U$ composition with which does nothing; this category is known by the name [[Top]];
+    * the [[category]] in question here is the collection of test [[topological space]]s $\{U\}$, called [[object]]s, equipped with continuous maps between them $\{f : U \to V\}$, called [[morphism]]s, which may be composed when their domains and targets match. This composition is associative in the obvious way and on every object $U$ there is an [[identity]] map $Id_U : U \to U$,  composition with which does nothing. This category is known by the name [[Top]];
 
     * there is another [[category]] in the game, namely the [[category]] called [[Set]] whose [[object]]s are [[set]]s and whose [[morphism]]s are functions between sets;
 
-    * the probe-game which we are playing can hence be understood as being an assignment of [[object]]s in [[Top]] to [[object]]s in [[Set]] and to [[morphism]]s in [[Top]] to [[morphism]]s in [[Set]] which satisfies the above consistency coditions: this is called a [[contravariant]] [[Set]]-valued [[functor]] or a [[presheaf]] on [[Top]] and it is denoted $X(-) : Top^{op} \to Set$.
+    * the probe-game which we are playing can hence be understood as being an assignment of [[object]]s in [[Top]] to [[object]]s in [[Set]] and to [[morphism]]s in [[Top]] to [[morphism]]s in [[Set]] which satisfies the above consistency coditions: this is called a [[contravariant functor|contravariant]] [[Set]]-valued [[functor]] or a [[presheaf]] on [[Top]] and it is denoted $X(-) : Top^{op} \to Set$. That's just terminology for nothing but what we have been describing above.
 
  * But there is one further, more nontrivial consistency check on the information about probes of my secret space $X$ which you should do: it must be true that you can piece together the information which I give for small test spaces to deduce information about probes by bigger test spaces.
 
-* More precisely, if I tell you the set $X(U)$ of probes of my secret space $X$ by the test space $U$, and if you then chop up $U$ into two pieces $V_1$ and $V_2$  sitting inside $U$ by inclusion maps $p_i : V_i \hookrightarrow U$, with a bit of overlap $V_1 \cap V_2$, then it ought to be true all the probes by $U$ in $X(U)$ can be entirely and exactly reconstructed from taking probes by $V_1$ in $X(V_1)$ and by $V_2$ in $X(V_2)$ and see if they match over the overlap $V_1 \cap V_2$ of the two small probes: 
+  * More precisely, if I tell you the set $X(U)$ of probes of my secret space $X$ by the test space $U$, and if you then chop up $U$ into two pieces $V_1$ and $V_2$  sitting inside $U$ by inclusion maps $p_i : V_i \hookrightarrow U$, with a bit of overlap $V_1 \cap V_2$, then it ought to be true that all the probes by $U$ in $X(U)$ can be entirely and exactly be reconstructed from taking probes by $V_1$ in $X(V_1)$ and by $V_2$ in $X(V_2)$ and see if they match over the overlap $V_1 \cap V_2$ of the two small probes: 
    
   * in symbols, the collection of pairs in $\{matching maps from V_1 and V_2 to X\} \hookrightarrow
    X(V_1) \times X(V_2)$ whose elements coincide when restricted to the overlap
-   $X(V_1) \times X(V_2) \stackrel{\to}{\to} X(V_1 \cap V_2)$ should be exactly all the possible maps in $X(U)$
+   $X(V_1) \times X(V_2) \stackrel{\stackrel{restrict first element}{\to}}{\stackrel{restrict second element}{\to}} X(V_1 \cap V_2)$ should be exactly all the possible maps in $X(U)$
    $$
      \{matching maps on V_1 and V_2 to X\} \simeq X(U)
      \,.
