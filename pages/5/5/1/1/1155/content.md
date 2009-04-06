@@ -96,4 +96,8 @@ Yes, this combinatorial spectrum is nicely suggestive of a $\mathbb{Z}$-category
 
 Concerning terminology: now that I thought about it I feel that "simplicial spectrum" may tend to be misleading, as it collides with the use of "simplicial xyz" as a simplicial object internal to the category of $xyz$s. Surely some people out there will already be looking at functors $\Delta^{op} \to Spectra$ and call them "simplicial spectra" (?)
 
+[[Mike Shulman|Mike]]: Yes, you're quite right that "simplicial spectrum" should probably be reserved for a simplicial object in spectra; I wasn't thinking.  What we really need is a name for the shape category that arises here, analogous to "simplex category," "cube category," and so on.  Like "spectrix category."  Then combinatorial spectra would be "spectricial sets."  (I'm only half joking.)
+
+The thing that goes wrong with the symmetric monoidal product is, as far as I can tell, sort of the same thing that goes wrong for naive prespectra: there are automorphisms that don't get taken into account.  But it's possible that no one has just been clever enough.
+
 =--
