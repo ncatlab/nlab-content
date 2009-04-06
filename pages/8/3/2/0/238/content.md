@@ -13,6 +13,16 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 #2009-04-06
 
+* [[Urs Schreiber|Urs]]: 
+
+  * expanded slightly at [[AQFT]] -- still just a stub entry, though
+
+  * touched [[combinatorial spectrum]]: replied to [[Mike Shulman|Mike]], expanded the discussion of examples and changed the notation there a bit. But please check. I'll send a request about this to the blog.
+
+  * replied to [[Tim Porter|Tim]]'s comments on [[Zoran Skoda|Zoran]]'s comment at [[differential graded Lie algebra]]
+
+  * replied to the questions that were at [[restriction and extension of sheaves]] (on notation and existence) by adding more details
+
 * [[Tim Porter|Tim]]: 
 
   * I have adjusted an addition to [[differential graded Lie algebra]]. This used the term 'simply', but it is often not clear that one definition is 'simpler' than another.  'Simplicity' is sometimes clear, but is often in the eye of the beholder. I would love to see some discussion on this as it is an easy trap to fall into (as I know to my cost!) and there are several other similar traps out there which are just as difficult to avoid! Perhaps on the caf&#233;???
