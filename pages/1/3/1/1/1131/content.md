@@ -55,6 +55,8 @@ A differential $\partial$ of a pre-gla is a Lie algebra derivation of degree -1 
 
 A morphism of pre-dglas is a morphism for both the underlying pre-gla and the pre-dgvs. We denote the corresponding category  by $pre-DGLA$.
 
+Alternatively, dgla is simply an internal Lie algebra in symmetric monoidal category of chain complexes. 
+
 ####Examples
 
 a) If $(A,\partial)$ is an augmented pre-dga, $(\bar{A}_L,\partial)$ is a pre-dgla.
