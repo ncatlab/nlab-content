@@ -15,6 +15,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
+  * created [[Deligne cohomology]]
+
   * reacted to [[Bruce Bartlett|Bruce]]'s question at [[heuristic introduction to sheaves, cohomology and higher stacks]] by expanding further on the notion of morphisms of sheaves
 
   * expanded slightly at [[AQFT]] -- still just a stub entry, though
