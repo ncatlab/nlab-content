@@ -397,7 +397,7 @@ We had wanted to obtain a generalized notion of space such that
 this is remedied.
 
   * Indeed, this is now the case. There is a famous 
-  abelian sheaf, called the second [[Deligne complex]], which has precisely
+  abelian sheaf, called the second [[Deligne cohomology|Deligne complex]], which has precisely
   the property that maps from a manifold $X$ into it classify circle bundles
   with connection on $X$.
   
