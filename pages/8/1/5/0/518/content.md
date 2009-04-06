@@ -4,4 +4,12 @@ Generalized [[homotopical cohomology theory]] of [[sheaf|sheaves]] with values i
 
 The article introduces this concept of [[category of fibrant objects]], establishes the crucial structures available in such a category (notably the _factorization lemma_ and the characterization of the homotopy category by one-step spans) and then studies the cohomology of sheaves with coefficients in combinatorial [[spectrum|spectra]].
 
+#Related entries#
+
+* [[category of fibrant objects]]
+
+* [[abelian sheaf cohomology]]
+
+* [[combinatorial spectrum]]
+
 category: reference
