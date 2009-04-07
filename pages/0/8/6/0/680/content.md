@@ -1,6 +1,6 @@
 #Idea#
 
-The _Dold-Kan correspondence_ asserts that certain [[infinity-category|infinity-categories]] are equivalently encoded as [[chain complex]]es. 
+The _Dold-Kan correspondence_ asserts that certain [[infinity-category|infinity-categories]] are equivalently encoded as categories of [[chain complex]]es. 
 
 This allows 
 
@@ -58,6 +58,18 @@ Perhaps the 'ultimate' form of a 'classical' Dold-Kan result is by Pilar Carrasc
 Dominique Bourn's formulation is very pretty. The Moore complex functor is monadic when the basic category is semi-Abelian (Th. 1.4. p.113 in _Bourn2007_ below). Of course for simplicial _groups_, the  monad on chain complexes of groups gives the hypercrossed complexes of Carrasco and Cegarra, but here they fall out from the theory.  On the down side there is apparently no 
 full analysis as yet of the actual form of this monad.
 
+In **characteristic zero** there is also a Dold-Kan correspondence between simplicial algebras and dg-algebras in nonnegative degrees, as well as between cosimplicial algebras and dg-algebras in nonpositive degrees, which is rather a Quillen equivalence (thus the two adjoint functors constructed in that case are inverses up to a quasiisomorphism of dg-algebras):
+
+J.L. Castiglioni, G. Corti&#241;as, 
+Cosimplicial versus DG-rings: a version of the Dold-Kan correspondence, J. Pure Appl. Algebra  191  (2004),  no. 1-2, 119--142 (<a href="http://arxiv.org/abs/math/0306289"> arXiv:math.KT/0306289</a> 
+
+Stefan Schwede, Brooke Shipley, 
+Equivalences of monoidal model categories,
+Algebr. Geom. Topol. 3 (2003), 287--334
+
+In rational homotopy theory, Quillen proved and used an analogous statement for Lie algebras: Quillen equivalence between the reduced rational dg Lie algebras and reduced rational simplicial Lie algebras:
+
+D. G. Quillen, Rational homotopy theory, Ann. Math. 90 (1969), 204--265.
 
 ## parameterized version of the Dold-Kan correspondence ##
 
@@ -140,7 +152,6 @@ An obvious analogue gives cubical or globular nerves.
 * There is a whole list of generalizations of this by Brown and Higgins, showing equivalences of various strict infinity-categories [[internal category|internal to]] $Ab$ with $Ch_+(Ab)$. 
 
 *  There is a discussion of some of these and extensions to them to the non-Abelian case, in the entry on [[Moore complex]]
-...
 
 
 #References#
