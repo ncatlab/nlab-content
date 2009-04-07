@@ -4,13 +4,27 @@ A [[topological space]] is _sequential_ if (in a certain sense) you can do topol
 
 Sequential spaces are a kind of [[nice topological space]].
 
+
 # Definition #
 
-A __sequential topological space__ is a [[topological space]] $X$ such that a subset $A$ of $X$ is closed iff it contains all the limit points of all [[sequence]]s whose members are in $A$.
+A __sequential topological space__ is a [[topological space]] $X$ such that a subset $A$ of $X$ is closed iff it contains all the limit points of all [[sequence]]s whose members are in $A$---or equivalently, such that $A$ is open iff any sequence converging to a point of $A$ must eventually be in $A$.
+
 
 # Examples #
 
-Every [[Frechet-Uryson space]] is a sequential space. Every topological space satisfying the first countability axiom is Frechet&#8211;Uryson, hence a sequential space.
+* Every [[Frechet-Uryson space]] is a sequential space.
+
+* Every topological space satisfying the first countability axiom is Frechet&#8211;Uryson, hence a sequential space.  In particular, this includes any [[metric space|metrizable]] space.
+
+* Every [[quotient object|quotient]] of a sequential space is sequential.   In particular, every [[CW complex]] is also a sequential space.  Conversely, every sequential space is a quotient of a metrizable space.
+
+
+# Properties
+
+* The category of sequential spaces is a [[coreflective subcategory]] of the category of all topological spaces.
+
+* The category of sequential spaces is a [[reflective subcategory]] of the category of [[subsequential space]]s.
+
 
 # References #
 
