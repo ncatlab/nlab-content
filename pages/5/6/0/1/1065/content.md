@@ -8,7 +8,7 @@ There are variants of the above idea that handle more non-linear phenomena.  The
 
 Homological algebra thus studies, in particular, the [[homology]] of [[chain complex]]es in [[abelian category|abelian categories]] -- therefore the name.
 
-One of the most refined 1-categorical approximations to the right context in which such [[chain complex]]es live is axiomatized by the structure of a [[triangulated category]]. Perhaps the better context however is the corresponding [[stable infinity-category]], of which the triangulated category in question is just the [[homotopy category of an (infinity,1)-category|homotopy category]] possibly enriched by derived Kan extensions as in the theory of [[dérivateur|dérivateurs]].
+One of the most refined 1-categorical approximations to the right context in which such [[chain complex]]es live is axiomatized by the structure of a [[triangulated category]]. Perhaps the better context however is the corresponding [[stable infinity-category]], of which the triangulated category in question is just the [[homotopy category of an (infinity,1)-category|homotopy category]] possibly enriched by derived Kan extensions as in the theory of [[derivateur|dérivateurs]].
 
 
 #Entries on concepts in homological algebra#
