@@ -10,4 +10,4 @@ $$
 
 is the [[zero morphism]].
 
-Unwarpping this for the case that the [[category with translation]] is a [[category of chain complexes]], this reproduces the ordinary notion of a differential as a degree -1 morphism that squares to 0.
+Unwarpping this for the case that the [[category with translation]] is a [[category of chain complexes]], this reproduces the ordinary notion of a differential as a degree-$(-1)$ morphism that squares to $0$.
