@@ -26,7 +26,7 @@ $$
 $$
 Of course this is an extremely general notion of spaces modeled on $S$. 
 
-We have the [[Yoneda lemma|Yoneda embedding]]  $S \hookrightarrow Spaces_S$ and using this we can say that the collection of _functions_ on a generalized space $C$ with values in $U \in S$ is 
+We have the [[Yoneda lemma|Yoneda embedding]]  $S \hookrightarrow Spaces_S$ and using this we can say that the collection of _functions_ on a generalized space $X$ with values in $U \in S$ is 
 $$
   C(X,U) := Hom_{Spaces_S}(X,U)
   \,.
@@ -57,7 +57,7 @@ In  total this yields an adjoint pair of functors between generalized spaces and
 $$
   Spaces_S
 \stackrel{\stackrel{C(-)}{\leftarrow}}{\stackrel{Spec(-)}{\to}}
-  Quantities_A
+  Quantities_S
   \,.
 $$
 
