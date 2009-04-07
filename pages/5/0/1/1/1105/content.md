@@ -1,4 +1,3 @@
-see the corresponding section at [[Lawvere-Tierney topology]]
-
+See the corresponding section at [[Lawvere-Tierney topology]].
 
 category: redirect
