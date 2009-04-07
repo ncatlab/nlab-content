@@ -12,3 +12,5 @@ We have
 If $A$ is moreover [[abelian category|abelian]], then we also have
 
 * $D(A)$, the [[derived category]] obtained from $C(A)$ (or $K(A)$) by inverting all [[quasi-isomorphism]]s.
+
+category: category
