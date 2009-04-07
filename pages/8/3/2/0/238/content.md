@@ -11,6 +11,11 @@ So, if you feel people's attention should be drawn to some changes you make, ple
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).
 
 ***
+
+#2009-04-07
+
+*  [[Toby Bartels]]:  I have a terminological question at [[direct sum]].  (It\'s a rather elementary question in universal algebra.)
+
 #2009-04-06
 
 * [[Urs Schreiber|Urs]]: 
