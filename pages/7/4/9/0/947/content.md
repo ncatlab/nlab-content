@@ -8,6 +8,6 @@ The __complement__ of an element $S$ of a [[lattice]] is (if it exists) the uniq
 
 More generally, the __pseudocomplement__ of an element $S$ of a [[Heyting algebra]] is given by $\tilde{S} = S \Rightarrow \bot$.  This satisfies $S \wedge \tilde{S} = \bot$ but not $S \vee \tilde{S} = \top$ in general.  This case includes the complement of a subset even in [[constructive mathematics]].
 
-In another direction, the __complement__ of a [[subobject]] $S$ of an object $X$ in a [[coherent category]] is (if it exists) the unique subobject $\tilde{S}$ such that $S \cap \tilde{S}$ is the [[initial object]] and $S \cup \tilde{S} = X$.  Such complements always exist in a [[Boolean category]].
+In another direction, the __complement__ of a [[complemented subobject]] $S$ of an object $X$ in a [[coherent category]] is the unique subobject $\tilde{S}$ such that $S \cap \tilde{S}$ is the [[initial object]] and $S \cup \tilde{S} = X$.
 
 The complement of a [[truth value]] is called its _[[negation]]_.
