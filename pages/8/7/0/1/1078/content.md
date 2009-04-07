@@ -47,4 +47,6 @@ OK, so which of these is correct for [[pointed set]]s?  In particular, given poi
 Or should we use both?  There are, after all, two names: 'direct sum' and 'weak direct product'; I\'d naturally use these for the image-of-coproduct and almost-zero-product versions, respectively.  Is there already a convention in universal algebra?  If not, do people like this terminology?  Or do you know that one is definitely what is wanted while the other is useless?
 
 ---[[Toby Bartels]]
+
+[[Mike Shulman|Mike]]: I've only ever heard "direct sum" used to mean "coproduct," or sometimes "finite biproduct," in an [[additive category]].
 =--
