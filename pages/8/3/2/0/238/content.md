@@ -14,7 +14,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 #2009-04-07
 
-* [[Zoran Škoda]]: I created [[satellite]] with most basic definitions, properties and references, but quickly run out of energy; one should at least add the definition of the morphism part of the satellite functors, the connecting morphism for long exact sequence of satellites, and connection to the Kan extensions.
+* [[Zoran Škoda]]: I created entries [[orbit category]], [[Dold-Thom theorem]] and [[satellite]] with most basic definitions, properties and references, but quickly run out of energy; one should at least add the definition of the morphism part of the satellite functors, the connecting morphism for long exact sequence of satellites, and connection to the Kan extensions. Made some additions to [[Dold-Kan correspondence]].
 
 *  [[Toby Bartels]]:  I have a terminological question at [[direct sum]].  (It\'s a rather elementary question in universal algebra.)
 
