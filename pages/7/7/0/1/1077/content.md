@@ -29,7 +29,7 @@ where $0$ indicates the [[zero morphism]].
 
 If this morphism $r$ is an [[isomorphism]], then the isomorphic objects $c_1 \times c_2$ and $c_1 \sqcup c_2$ are called [[generalized the|the]] __biproduct__ of $c_1$ and $c_2$.  This object is often denoted $c_1 \oplus c_2$, alluding to the [[direct sum]] (which is often an example).
 
-The above definition has a straightforward generalization to biproducts of any number of objects.  The [[zero object]] is itself the biproduct of no objects.
+The above definition has a straightforward generalization to biproducts of any number of objects (although this requires extra structure on the category in [[constructive mathematics]] if the set of these objects need not have [[decidable equality]]).  The [[zero object]] is itself the biproduct of no objects.
 
 # Enriched structure #
 
