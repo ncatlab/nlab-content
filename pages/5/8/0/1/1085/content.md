@@ -41,4 +41,4 @@ Then$D(C) := K(C)/N$ is the [[derived category]] of $C$.
 
 For instance section 10.2 of
 
-* Kashiwara-Schapira, [[Categories and Sheaves]]
+* Kashiwara--Schapira, [[Categories and Sheaves]]
