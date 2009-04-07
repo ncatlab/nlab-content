@@ -3,6 +3,7 @@
 #entries related to topos theory#
 * [[classifying topos]]
 * [[cover]]
+* [[decidable object]]
 * [[foundations]]
 * [[Grothendieck topology]]
 * [[Grothendieck topos]]
