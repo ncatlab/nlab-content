@@ -167,7 +167,7 @@ Examples:
 
 # maps between generalized spaces#
 
-* Since we are thinking of sheaves $F_X : S^{op} \to Set$ and $F_Y : S^{op} \to Set$ as characterizing 'generalized spaces' $X$ and $Y$, we better have a good notion of maps between sheaves $F_X \to F_Y$ that correspondonds to a sensible notion of maps $X \to Y$ between generalized spaces.  
+* Since we are thinking of sheaves $F_X : S^{op} \to Set$ and $F_Y : S^{op} \to Set$ as characterizing 'generalized spaces' $X$ and $Y$, we better have a good notion of maps between sheaves $F_X \to F_Y$ that corresponds to a sensible notion of maps $X \to Y$ between generalized spaces.  
 
 * That's easy to figure out: if $f : X \to Y$ is supposed to be a map between generalized spaces, whatever these are, then in particular it turns every probe $p \in X(U)$, of $X$ which we are thinking of as a probe map $p : U \to X$, to a probe $f \circ p \in Y(U)$ of $Y$, which we should think of as the composite map $f \circ p : U \stackrel{p}{\to} X \stackrel{f}{\to} Y$ that simply maps the image of $U$ in $X$ further to an image of $U$ in $Y$ using the map $f : X \to Y$.
 
@@ -393,7 +393,7 @@ reasoning underlying everything.
 
   * Cech cohomology;
 
-* these two methods differ in whether one computes using "resolutions" of either the coefficient object $A$ (this happens in the right derived global section functor approach) or in the domain object $X$ (this happens in Cech cohomolohy).
+* these two methods differ in whether one computes using "resolutions" of either the coefficient object $A$ (this happens in the right derived global section functor approach) or in the domain object $X$ (this happens in Cech cohomology).
 
 
 ## Examples ##
