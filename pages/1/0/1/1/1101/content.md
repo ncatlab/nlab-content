@@ -7,7 +7,7 @@ functor
 $$
   h F : h C \to h D
 $$ 
-of $Ho_{Top}$-[[enriched category|enriched categories]] is fully faithful, i.e. if the morphisms
+of $Ho_{Top}$-[[enriched category|enriched categories]] is [[full and faithful functor|fully faithful]], i.e. if the morphisms
 
 $$
   h F_{X,Y} : h C(X,Y) \to h D(F(X), F(Y))
