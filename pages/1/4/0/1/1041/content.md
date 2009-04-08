@@ -35,22 +35,7 @@ An **abelian category** is a [[pre-abelian category]] satisfying the following e
 
 * In particular, in an abelian category every morphism decomposes [[generalized the|uniquely up to a unique isomorphism]] into the composition of an [[epimorphism]] and a [[monomorphism]], via the above decomposition.  Since every monic is [[regular monomorphism|regular]], hence [[strong monomorphism|strong]], it follows that (epi, mono) is an [[orthogonal factorization system]].  Furthermore, again since every monic is regular, every abelian category is [[balanced category|balanced]].
 
-* The $Ab$-enrichment of an abelian category need not be specified a priori.  If an arbitrary (not necessarily pre-additive) category $C$ has a [[zero object]], binary products and coproducts, kernels, cokernels and the property that every monic is a kernel arrow and every epi is a cokernel arrow (so that all monos and epis are [[normal monomorphism|normal]]), then it can be equipped with a unique addition on the morphism sets such that composition is bilinear and $C$ is abelian with respect to this structure.  
-However, in most examples, the $Ab$-enrichment is evident.
-
-+-- {: .query}
-Don't you have to assume that $C$ is locally small here?
-=--
-
-+-- {+ .query}
-But this statement is true for additive categories as well,
-according to Kashiwara Shapira book, their Ab-structure is
-implied by the rest of the structure.
-
-Somebody should also write an entry for Quillen exact, they are also in between the additive and abelian but in different splitting...
-
-[[Mike Shulman|Mike]]: Why not write that down on the page [[additive category]] and make this refer to it?
-=-- 
+* The $Ab$-enrichment of an abelian category need not be specified a priori.  If an arbitrary (not necessarily pre-additive) [[locally small category|locally small]] category $C$ has a [[zero object]], binary products and coproducts, kernels, cokernels and the property that every monic is a kernel arrow and every epi is a cokernel arrow (so that all monos and epis are [[normal monomorphism|normal]]), then it can be equipped with a unique addition on the morphism sets such that composition is bilinear and $C$ is abelian with respect to this structure.  (In fact, a similar statement is true for [[additive category|additive categories]].)  However, in most examples, the $Ab$-enrichment is evident from the start and does not need to be constructed in this way.
 
 * The last point is of relevance in particular for [[infinity-category|higher categorical]] generalizations of additive categories. See for instance [remark 2.14, p. 5](http://www-math.mit.edu/~lurie/topoibook/DAGI.pdf#page=5) of Jacob Lurie's [[Stable infinity-categories]].
 
