@@ -70,6 +70,10 @@ The Yoneda lemma tends to carry over to all important generalizations of the con
 
 * In [[functional programming]], the Yoneda embedding is the [[continuation passing style]] transform.
 
+#Related constructions#
+
+* The [[Coyoneda lemma]].
+
 #References#
 
 * Tom Leinster, [[LeinsterYoneda.ps:file]] 
