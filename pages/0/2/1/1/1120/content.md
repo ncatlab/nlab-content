@@ -35,4 +35,8 @@ The above definition is due to Gabriel-Zisman in the book
 
 we should probably merge the entries and make one a redirect to the other, or something -- any opinions?
 
+[[Mike Shulman|Mike]]: The definition above is what I am accustomed to call a *calculus* of (left/right) fractions.  I thought the *category* of fractions referred to the resulting localization $C[W^{-1}]$.
+
+Regarding terminology, in my experience "calculus of fractions" is the more common term.  I've never seen "multiplicative system" anywhere except Kashiwara-Schapira.  (People with differing experiences, please speak up.)  "Multiplicative system" sounds to me just like something that is closed under multiplication, which is precisely what it means in commutative ring theory.  I don't know anything about noncommutative ring theory, but this [wikipedia page](http://en.wikipedia.org/wiki/Ore_condition), at least, still uses "multiplicative" for "closed under multiplication" in the noncommutative case, with "right denominator set" for the calculus-of-fractions-like condition.
+
 =--
