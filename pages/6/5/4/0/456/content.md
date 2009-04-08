@@ -46,22 +46,28 @@ such that the left adjoint $f^*:F \to E$ preserves finite [[limit]]s.
 
 #Surjections and embeddings#
 
-A geometric morphism $f : E \to F$ is a **surjection** if $f^*$ is [[faithful functor|faithful]].
+A geometric morphism $f : E \to F$ is a **surjection** if $f^*$ is [[faithful functor|faithful]].  It is an **embedding** if $f_*$ is [[full and faithful functor|fully faithful]].
 
-It is an **embedding** if $f_*$ is [[full and faithful functor|fully faithful]].
-
-**Proposition**
-
++--{: .un_prop}
+###### Proposition
 Up to equivalence, every embedding of topoi is of the form 
-
 $$
   Sh_j(E) \to E
   \,,
 $$
-
 where $Sh_j(E)$ is the topos of [[sheaf|sheaves]] with respect to a [[Lawvere-Tierney topology]] $j : \Omega \to \Omega$ on $E$.
+=--
 
 This means in particular that fully faithful geometric morphisms into [[Grothendieck topos|Grothendieck topoi]] are an equivalent way of encoding a [[Grothendieck topology]]. 
+
++--{: .un_prop}
+###### Proposition
+Up to equivalence, every surjection of topoi is of the form 
+$$ E \to E_G $$
+where $E_G$ is the category of coalgebras for a finite-limit-preserving [[comonad]] on $E$.
+=--
+
+Every geometric morphism $f:E\to F$ factors, uniquely up to equivalence, as a surjection followed by an embedding.  There are two ways to produce this factorization: either construct $E_G$ where $G= f^*f_*$ is the comonad induced by the adjunction $f^*\dashv f_*$, or construct $Sh_j(F)$ where $j$ is the smallest Lawvere-Tierney topology on $F$ such that $f$ factors through $Sh_j(F)$.  In fact, surjections and embeddings form a 2-categorical [[orthogonal factorization system]] on the 2-category of topoi.
 
 
 #References#
