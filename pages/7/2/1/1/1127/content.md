@@ -21,11 +21,11 @@ A Grothendieck category $C$ satisfies the following properties.
 
 * if a functor $F : C^{op} \to Set$ commutes with small [[limit]]s, the $F$ is [[representable functor|representable]];
 
-* if a functor $F : C^{op} \to Set$  commutes with small [[colimit]]s, then $F$ has a [[right adjoint]].
+* if a functor $F : C^{op} \to Set$  commutes with small [[colimit]]s, then $F$ has a [[adjoint functor|right adjoint]].
 
 * If $C$ is equipped with [[category with translation|translation]] $T : C \to C$, then for every [[complex]] $X \in Cplx(C)$ there exists a [[quasi-isomorphism]] of [[complex]]es $X \to I$ such that $I$ is [[injective object|homotopically injective]].
 
-* it satisfies Pierre Gabriel's sup property: every small family of subobjects of a given object $X$ has a supremum which is a subobject of $X$
+* it satisfies Pierre Gabriel's sup property: every small family of subobjects of a given object $X$ has a [[supremum]] which is a subobject of $X$
 
 #Examples#
 
@@ -39,6 +39,6 @@ A Grothendieck category $C$ satisfies the following properties.
 
 Grothendieck categories are mentioned at the end of section 8.3 in
 
-* Kashiwara-Schapira, [[Categories and Sheaves]]
+* Kashiwara--Schapira, [[Categories and Sheaves]]
 
 The relation to complexes is in section 14.1
