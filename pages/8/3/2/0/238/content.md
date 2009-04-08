@@ -14,6 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 #2009-04-08
 
+* [[Mike Shulman|Mike]]: 
+
+  * Following Toby's suggestion, moved [[subsequential space]] to [[sequential convergence space]].  Split [[convergence space]] and [[Cauchy space]] off from [[filter]], and added some stuff about pseudotopological spaces to [[convergence space]].
+
+  * Created [[Reedy category]].
+
 * [[David Corfield|David]]: Created [[Coyoneda lemma]]. What does it mean?
 
 #2009-04-07
