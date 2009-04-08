@@ -1,7 +1,20 @@
-For $K:D \to Set$, $(* \darr K)$ is the category of elements $x \in K d$, $Q: (* \darr K) \to D$ is the projection $x \in K d \mapsto d$ and for each $a \in d, a: (* \darr K) \to D$ is the diagonal functor sending everything to the constant value $a$. There is a natural isomorphism
+
+#Definition#
+
+For $K : D \to Set$ a [[functor]], let $(* \darr K)$ be the [[comma category]] of elements $x \in K d$, let $Q: (* \darr K) \to D$ be the projection $(x \in K d) \mapsto d$ and let for each $a \in D$  the functor $\Delta_a: (* \darr K) \to D$ be the diagonal functor sending everything to the constant value $a$. 
+
+The **Coyoneda lemma** is the statement that there is a natural isomorphism of [[functor category|functor categories]]
 
 $$
-Nat(K, D(a, -)) \cong Nat (a, Q).
+[D,Set](K, D(a, -)) \cong [(*\darr K), D](\Delta_a, Q).
 $$
 
-p. 63 of Categories for the Working Mathematician.
+#Remarks#
+
+* See also [[Yoneda lemma]].
+
+#References#
+
+see p. 63 of 
+
+* MacLane, [[Categories Work|Categories for the Working Mathematician]].
