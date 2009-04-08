@@ -25,7 +25,7 @@ If the above conditions hold, then the [[hom-set]]s of the [[localization]] of $
 
 The above definition is due to Gabriel-Zisman in the book 
 
-* Gabriel-Zisman, _Categories of fractions and homotopy theory_
+* Gabriel-Zisman, _Calculus of fractions and homotopy theory_
 
 
 
