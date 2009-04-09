@@ -1,8 +1,8 @@
 #Definition#
 
-A [[category]] $C$ with a class of [[morphism]]s $W$ is said to admit a **category of right fractions** if
+A pair $(C,W)$ of a [[category]] $C$ and a class of [[morphism]]s $W$ is said to be a **calculus of right fractions** or a **right Ore system** (in $C$) or to **admit a category of right fractions** if
 
-* $W$ is a [[wide subcategory]] of $C$
+* it is a [[wide subcategory]] of $C$ (= $W$ contains all identities of $C$; for localization conditions without loss of generality one may add a stronger condition: $W$ contains all isomorphisms in $C$) 
 * (right Ore condition) Given an arrow $v:x\to z$ in $W$ and any arrow $f: y\to z$, there is an arrow $v':w \to y$ in $W$ and an arrow $f':w \to x$ in $C$ such that
 $$
 \begin{matrix}
@@ -14,22 +14,30 @@ $$
 commutes
 * (right cancelability) Given an arrow $v:x\to y$ in $W$ and a pair of [[parallel morphisms]] $f,g: y\to z$ such that $f\circ v = g \circ v$, there is an arrow $v':w\to x$ in $W$ such that $v'\circ f = v' \circ g$.
 
-If the above conditions hold, then the [[hom-set]]s of the [[localization]] of $C$ at $W$ are given by equivalence classes of [[span|spans]].
+If the above conditions hold, then a [[localization]] of $C$ at $W$ can be realized by taking the same objects as in $C$
+and the [[hom-set]] $C[W^{-1}](a,b)$ is realized by equivalence classes of [[span|spans]] whose left leg is in $W$: $a\stackrel{v}\leftarrow a'\stackrel{f}\rightarrow b$ is equivalent to $a\stackrel{w}\leftarrow a''\stackrel{g}\rightarrow b$ iff there exists $\bar{a}$
+and morphisms $s:\bar{a}\to a'$, $t:\bar{a}\to a''$ such that $f\circ s = g\circ t$ and $v\circ s = w\circ t$. The equivalence class of $a\stackrel{v}\leftarrow a'\stackrel{f}\rightarrow b$ is simply denoted by $f\circ v^{-1}$. 
+
+The equivalence classes compose as follows: take a representative $a\stackrel{v}\leftarrow a'\stackrel{f}\rightarrow b$
+and representative  $b\stackrel{u}\leftarrow b'\stackrel{h}\rightarrow c$; then by the Ore condition
+there exist morphism $z:d\to a'$ and $k:d\to b'$ where $z\in  W$ such that $f\circ z= u\circ k$. 
+The composition $(k\circ u^{-1})\circ (f\circ v^{-1})$ is the equivalence class of the span
+$a\stackrel{v\circ z}\leftarrow d\stackrel{h\circ k}\rightarrow c$. One proves that this definition does not depend on the choice of representatives, and that it is associative with units $1_a\circ 1^{-1}_a$. The localization functor sends a morphism $p : a\to b$ to $p\circ 1^{-1}_a$.
 
 #Remarks#
 
-* This definition has a [[duality|dual]] version, a category of left fractions. Then the [[hom-set]]s are equivalence classes of [[cospan]]s.
+* This definition has a [[duality|dual]] version, a category of left fractions. Then the [[hom-set]]s are equivalence classes of [[cospan]]s (spans in opposite category). More precisely, the localization $W^{-1}C$ of $C$ at the calculus of left fractions $(C,W)$ may be realized 
+as the opposite category $(C^{\mathrm{op}}[(W^{\mathrm{op}})^{-1}])^{\mathrm{op}}$
+to the localization of the opposite category $C^{\mathrm{op}}$ at the calculus of right fractions $(C^{\mathrm{op}},W^{\mathrm{op}})$ 
+(hence two dualizations are involved).
 
 +--{+ .query}
-[[Zoran Škoda]] NO !!! This is NOT called category of left fractions.
+[[Zoran Škoda]] 
+I just had a discussion with Urs, where he pointed to the usual picture with another view of double dualization, taking indeed cospans but RIGHT ones. But this is the same as taking one more dualization as I explained before. So
+I will give up on complaining to cospans, it is OK if one understands it as doing both dualizations simultaneously (left vs right leg and span vs cospan). Simialrly in ring theory right Ore localization is obtained by taking the opposite of left Ore localizations in the opposite ring. In any case TWO dualizations are involved. Otherwise we would get opposite category as localization at trivial Ore system. 
 
-Still the hom sets are spans, NOT cospans!!! The question is which leg of the span is in Ore system and which is general (that is which is denominator and which is denumerator), and accordingly for equivalence relation and so on.
-
-The left Ore condition IS dual to right Ore condition (left Ore in a dual category). However you have to
-use the rule from quantum mechanics for operators if you want to get the correct answer for category of fractions. 
-That is conjugate $A$ to $D^{-1}AD$. That is dualize, perform the category of fractions and then dualize back the answer! Otherwise, with cospans, you would get that the localization functor is contravariant! In particular if you take the trivial left Ore system, with cospans the "localization" would be just taking opposite category, and the system which is simultenously left and right Ore would give nonunique answer!
+By the way, GZ call left what we call right and other way around, the convention here is the one generalizing the ring theory convention where composition is multiplication in the usual order. I do not know what to do about it. The entry [[multiplicative system]] has left what is here right. 
 =--
-
 
 #References#
 
@@ -69,6 +77,4 @@ I do not think that all Gabriel style localisations of  rings are called rings o
 
 [[Zoran Škoda]]: I did not say that "all Gabriel style localisations of rings are called rings of fractions", but on the other hand, it is not reserved for Ore construction 
 only (you have zillions of other constructions, for example Martindale ring of fractions). I just said that in th ering theory "extending the distinction between 'fractions' and 'rational numbers' " is already not customary, and in category setup it will be even further from this hypercorrection. I think it is common and sensible to distinguish between general localized category and category of fractions when introducing the concepts. In practice, most of the time we use the case with Ore conditions; I personally in papers/applications always write localization, never the long terms in special cases, but if I teach I will teach with making the distinctions. 
-
-Again it is not cospans but spans with equivalence in other leg. Word cospan means that both arrows are inverted, and it  is ambivalent to the question on which leg is in the Ore system. 
 =--
