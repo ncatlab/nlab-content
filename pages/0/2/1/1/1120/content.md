@@ -77,4 +77,10 @@ I do not think that all Gabriel style localisations of  rings are called rings o
 
 [[Zoran Škoda]]: I did not say that "all Gabriel style localisations of rings are called rings of fractions", but on the other hand, it is not reserved for Ore construction 
 only (you have zillions of other constructions, for example Martindale ring of fractions). I just said that in th ering theory "extending the distinction between 'fractions' and 'rational numbers' " is already not customary, and in category setup it will be even further from this hypercorrection. I think it is common and sensible to distinguish between general localized category and category of fractions when introducing the concepts. In practice, most of the time we use the case with Ore conditions; I personally in papers/applications always write localization, never the long terms in special cases, but if I teach I will teach with making the distinctions. 
+
+[[Mike Shulman|Mike]]: Would anyone object to the following course of action?
+
+1. Create [[calculus of fractions]] which combines the current contents of this page with those of [[multiplicative system]].
+1. Make this page say "A category of fractions is a [[localization]] that is constructed using a [[calculus of fractions]]."
+1. Make [[multiplicative system]] be about multiplicative systems in rings, with a comment that it is occasionally used to mean a [[calculus of fractions]].
 =--
