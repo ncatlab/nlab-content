@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+#2009-04-09
+
+*  [[Toby Bartels]]:  I came to some sort of decision at [[direct sum]].
+
 #2009-04-08
 
 * [[Urs Schreiber|Urs]]:
