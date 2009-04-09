@@ -39,4 +39,8 @@ we should probably merge the entries and make one a redirect to the other, or so
 
 Regarding terminology, in my experience "calculus of fractions" is the more common term.  I've never seen "multiplicative system" anywhere except Kashiwara-Schapira.  (People with differing experiences, please speak up.)  "Multiplicative system" sounds to me just like something that is closed under multiplication, which is precisely what it means in commutative ring theory.  I don't know anything about noncommutative ring theory, but this [wikipedia page](http://en.wikipedia.org/wiki/Ore_condition), at least, still uses "multiplicative" for "closed under multiplication" in the noncommutative case, with "right denominator set" for the calculus-of-fractions-like condition.
 
+
+[[Tim Porter|Tim]]:  My experience is very much the same as Mike's. Note however the word 'admits' in the definition. I think Gabriel and Zisman chose the terminology very carefully so that $C[W^{-1}]$ is the localised category, but is not really 'the category of fractions'. They are extending the distinction between 'fractions' and 'rational numbers' that we often forget in causal speech. We should, perhaps,  use 'calculus' as Mike suggests. 
+
+I should also point out that the dual notion gives the construction (as equivalence classes of cospans) not the universal property. That seems slightly 'evil' to me!
 =--
