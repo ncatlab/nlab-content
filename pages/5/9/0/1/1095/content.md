@@ -1,18 +1,18 @@
-This entry is about the general properties and characterization of [[(infinity,1)-category|(infinity,1)-categories]] of [[(infinity,1)-sheaves]] (also known as [[infinity-stack]]s).
+This entry is about the general properties and characterization of [[(infinity,1)-category|(infinity,1)-categories]] of [[(infinity,1)-sheaf|(infinity,1)-sheaves]] (also known as [[infinity-stack]]s).
 
 The 1-categorical analog of the discussion is this entry is at [[category of sheaves]].
 
 #Idea#
 
-For any [[(infinity,1)-category]] $C$ every [[(infinity,1)-functor]] $\bar {(-)} : C \to D$ which admits a [[(infinity,1)-fully faithful|fullly faithful]] [[(infinity,1)-adjoint functor|right adjoint]] -- equivalently every [[(infinity,1)-functor]] $L : C \to C$ which is 
-[[(infinity,1)-adjoint functor|left adjoint]] to the inclusion $L C \hookrightarrow C$ of its [[(infinity,1)-essential image|essential image]] $L C$ into $C$ -- is characterized by the collection $W$ of [[(infinity,1)-morphism|morphisms]] which it sends to [[(infinity,1)-equivalence|equivalences]]. One can think of it 
+For any [[(infinity,1)-category]] $C$ every [[(infinity,1)-functor]] $\bar {(-)} : C \to D$ which admits a [[(infinity,1)-fully faithful functor|fully faithful]] [[adjoint (infinity,1)-functor|right adjoint]] -- equivalently every [[(infinity,1)-functor]] $L : C \to C$ which is 
+[[adjoint (infinity,1)-functor|left adjoint]] to the inclusion $L C \hookrightarrow C$ of its [[essential image|essential image]] $L C$ into $C$ -- is characterized by the collection $W$ of [[morphism|morphisms]] which it sends to [[(infinity,1)-equivalence|equivalences]]. One can think of it 
 
 * as _inverting_ these morphisms;
 
 * as projecting onto those objects of $C$ which are [[(infinity,1)-local object|local]] with respect to these morphsims: those objects which sees $W$ as a collection of equivalences.
 
 Using the familiar characterization of the [[category of sheaves]] in the 1-categorical context, this straightforwardly suggests to characterize 
-_$(\infinity,1)$-categories $Sh(S)$ of $(\infty,1)$-sheaves_ -- also called (Grothendieck-Rezk-Lurie) [[(infinity,1)-topos|(infinity,1)-topoi]] as essential images of [[(infinity,1)-exact functor|left exact]] $(\infty,1)$-functors 
+_$(\infinity,1)$-categories $Sh(S)$ of $(\infty,1)$-sheaves_ -- also called (Grothendieck-Rezk-Lurie) [[(infinity,1)-topos|(infinity,1)-topoi]] as essential images of [[exact (infinity,1)-functor|left exact]] $(\infty,1)$-functors 
 
 $$
  \bar{(-)} : PSh(S) \to Sh(S)
@@ -21,7 +21,7 @@ $$
 (called [[infinity-stackification]], analogous to [[sheafification]])
 
 that have a 
-[[(infinity,1)-fully faithful|fullly faithful]] [[(infinity,1)-adjoint functor|right adjoint]] [[stuff, structure, propert|forgetful]] functor
+[[(infinity,1)-fully faithful functor|fully faithful]] [[adjoint (infinity,1)-functor|right adjoint]] [[stuff, structure, property|forgetful]] functor
 
 $$
   Sh(S) \hookrightarrow PSh(S)
@@ -56,4 +56,4 @@ J. Lurie, [[Higher Topos Theory]].
 
 * the characterization of $(\infty,1)$-sheaves in terms of [[descent and codescent]] is in section 6.1.3 
 
-* the relation between the Brown-Joyal-Jardine model and the general story is discussed at length in section 6.5.4
+* the relation between the Brown--Joyal--Jardine model and the general story is discussed at length in section 6.5.4
