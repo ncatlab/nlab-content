@@ -4,7 +4,7 @@ The structure of a _site_ on a [[category]] $C$ is a structure that regards each
 
 One says a site is a [[category]] equipped with a [[topology]], called a [[Grothendieck topology]]. The structure of a site on a category allows to characterize thos [[presheaf|presheaves]] on the category which are "continuous" with respect to this topology in that they send covering morphisms to [[equivalence]]s. 
 
-Such presheaves are [[sheaf|sheaves]]. Or, in [[higher category theory|higher categorical contexts]], [[stack]]s, and further [[infinity-stacks]].
+Such presheaves are [[sheaf|sheaves]]. Or, in [[higher category theory|higher categorical contexts]], [[stack]]s, and further [[infinity-stack]]s.
 
 #Definition#
 
