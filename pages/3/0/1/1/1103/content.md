@@ -12,22 +12,22 @@ This will, for the moment duplicate, overlap and perhaps conflict with [[dg-alge
 
 ###Pre-graded algebras
 
-A _pre-graded algebra- (pre-ga) or $\mathbb{Z}$-graded algebra_ is a pre-gvs, $A$, together with an algebra multiplication satisfying $A_p.A_q \subseteq A_{p+q}$ for any $p,q$.  The relevant morphisms are pre-gvs morphisms which respect the multiplication.  This gives a category $pre-GA$.
+A _pre-graded algebra- (pre-ga) or $\mathbb{Z}$-graded algebra_ is a pre-gvs, $A$, together with an algebra multiplication satisfying $A_p.A_q \subseteq A_{p+q}$ for any $p,q$.  The relevant morphisms are pre-gvs morphisms which respect the multiplication.  This gives a category $pre GA$.
 
 An _augmentation_ of a pre-ga, $A$, is a homomorphism $\varepsilon : A \to k$.  The _augmentation ideal_ of $(A,\varepsilon)$ is $ker \varepsilon$ and will also be denoted $\bar{A}$.  The pair $(A,\varepsilon)$ is called an _augmented pre-ga_.  
 
-A morphism $f:(A,\varepsilon)\to (A^\prime,\varepsilon^\prime)$ of augmented pre-gas is a homomorphism $f : A \to A^\prime$ (thus of degree zero) such that $\varepsilon = \varepsilon ^\prime f$.  The resulting category will be written $pre-\varepsilon GA$. 
+A morphism $f:(A,\varepsilon)\to (A',\varepsilon')$ of augmented pre-gas is a homomorphism $f : A \to A'$ (thus of degree zero) such that $\varepsilon = \varepsilon ' f$.  The resulting category will be written $pre \varepsilon GA$. 
 
 
 ####Tensor product
 
-If $A$, $A^\prime$ are two pre-gas, then $A\otimes A^\prime$ is a pre-ga with
+If $A$, $A'$ are two pre-gas, then $A\otimes A'$ is a pre-ga with
 
-$$(a\otimes a^\prime)(b\otimes b^\prime) = (-1)^{|a^\prime | |b|}ab\otimes a^\prime b^\prime$$
+$$(a\otimes a')(b\otimes b') = (-1)^{|a' | |b|}ab\otimes a' b'$$
 
-for homogeneous $a,b \in A$, $a^\prime, b^\prime \in A^\prime$.
+for homogeneous $a,b \in A$, $a', b' \in A'$.
 
-If $\varepsilon, \varepsilon$ are augmentations of $A$ and $A^\prime$ respectively, then $\varepsilon\otimes \varepsilon^\prime$ is an augmentation of $A\otimes A^\prime$.
+If $\varepsilon, \varepsilon$ are augmentations of $A$ and $A'$ respectively, then $\varepsilon\otimes \varepsilon'$ is an augmentation of $A\otimes A'$.
 
 
 ####Derivations
@@ -53,12 +53,12 @@ In the case of upper gradings, an element of $Der_p(A)$ sends $A^n$ into $A^{n-p
 A _differential_ $\partial$ on an (augmented) pre-ga is a derivation of the (augmented) algebra of degree -1 such that $\partial\circ\partial = 0$.
 
 
-  The pair $(A,\partial)$ is called a _pre-differential graded algebra_ (pre-dga).  If $A$ is augmented, then $(A,\partial)$ will be called an _augmented pre-dga_ $pre-\varepsilon dga$. 
+  The pair $(A,\partial)$ is called a _pre-differential graded algebra_ (pre-dga).  If $A$ is augmented, then $(A,\partial)$ will be called an _augmented pre-dga_ $pre \varepsilon dga$. 
 
-If $(A,\partial)$ and $(A^\prime,\partial^\prime)$ are pre-dgas, then $(A,\partial)\otimes (A^\prime,\partial^\prime)$, with the conventions already noted, is one as well.
+If $(A,\partial)$ and $(A',\partial')$ are pre-dgas, then $(A,\partial)\otimes (A',\partial')$, with the conventions already noted, is one as well.
 
 
-A morphism of pre-dgas (or pre-$\varepsilon$dgas) is a morphism which is both of pre-gdvs and of pre-gas (with $\varepsilon$ as well if used).  This gives categories $pre-DGA$ and $pre-\varepsilon DGA$.
+A morphism of pre-dgas (or pre-$\varepsilon$-dgas) is a morphism which is both of pre-gdvs and of pre-gas (with $\varepsilon$ as well if used).  This gives categories $pre DGA$ and $pre \varepsilon DGA$.
 
 
 
@@ -69,7 +69,7 @@ A pre-ga $A$ is said to be _commutative_ if $ab = (-1)^{|a||b|}ba$ for each pair
  
 Commutativity is preserved by tensor product. 
 
-We get obvious full subcategories $pre-CDGA$ and $pre-\varepsilon CDGA$ corresponding to the case with differentials.
+We get obvious full subcategories $pre CDGA$ and $pre \varepsilon CDGA$ corresponding to the case with differentials.
 
 
 ####CDGAs
@@ -104,7 +104,7 @@ $$F^0 A = A, \quad F^p A = Im\bar{\mu}^{(p-1)}  if p\geq 1.$$
 
 $Q(A) = \bar{A}/Im\bar{\mu}$ is the _space of indecomposables_ of A.
 
-If $(A,\partial)$ is an augmented pre-dga, $F^pA$ is stable under $\partial$ and we get $Q(\partial)$ is a differential on $Q(A)$ and hence we get a functor  $Q: pre\!-\!\varepsilon DGA\to pre\!-\!DGVA.$
+If $(A,\partial)$ is an augmented pre-dga, $F^pA$ is stable under $\partial$ and we get $Q(\partial)$ is a differential on $Q(A)$ and hence we get a functor  $Q: pre \varepsilon DGA\to pre DGVA.$
 
 
 ####Free GAs: $T(V)$, the tensor algebra
@@ -150,7 +150,7 @@ If $(\bigwedge V,d)$ is a pre-cdga, which is free as a pre-cga on a fixed $V$, t
 
 ####Sum and Product of CDGAs.
 
-If $(A,d)$ and $(A^\prime,d^\prime)$ are two cdgas, their (categorical) _sum_ (i.e. coproduct) is their tensor product, $(A,d)\otimes(A^\prime,d^\prime )$, whilst their product is the 'direct sum', $(A,d)\oplus (A^\prime,d^\prime )$.
+If $(A,d)$ and $(A',d')$ are two cdgas, their (categorical) _sum_ (i.e. coproduct) is their tensor product, $(A,d)\otimes(A',d' )$, whilst their product is the 'direct sum', $(A,d)\oplus (A',d' )$.
 
 
 ####Koszul convention
