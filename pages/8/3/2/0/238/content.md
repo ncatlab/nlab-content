@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 #2009-04-10
 
+*  [[Toby Bartels]]:  I aksed an idle question at [[combinatorial spectrum]] about Kan complexes and $\mathbf{Z}$-groupoids.
+
 * [[Mike Shulman|Mike]]: 
 
   * Created [[type theory]] with an introduction for category-theorists.  Additions and corrections are welcome.
