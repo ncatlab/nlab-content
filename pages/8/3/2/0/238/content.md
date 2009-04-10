@@ -12,6 +12,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+#2009-04-10
+
+* [[Urs Schreiber|Urs]]:
+
+  * created [[natural numbers object]] just to saturate links (and it should indeed by "natural numbers object", not "natural number object", agreed?)
+
+  * worked comment by [[David Ben-Zvi]] into [[why (infinity,1)-categories?]], but more needs to be done
+
 #2009-04-09
 
 * [[Urs Schreiber|Urs]]: 
