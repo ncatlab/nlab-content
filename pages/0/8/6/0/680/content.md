@@ -75,7 +75,22 @@ See page 9,10 of
 
 * K. Brown, [[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf Cohomology]]
 
+## $(\infinity,1)$-verson ##
 
+There is a version of the Dold-Kan correspondence in the context of [[(infinity,1)-category|(infinity,1)-categories]]:
+
+let $C$ be a [[stable (infinity,1)-category]]. Then the $(\infty,1)$-categories of [[complex]]es in $C$ is equivalent to the $(\infty,1)$-category of [[simplicial object]]s in $C$
+
+$$
+  Fun(N(\mathbb{Z}_{\geq 0}), C)
+  \simeq
+  Fun(N(\Delta)^{op}, C)  
+  \,.
+$$
+
+This is [theorem 12.8, p. 50](http://math.mit.edu/~lurie/topoibook/DAGI.pdf) of 
+
+* [[Jacob Lurie]], [[Stable Infinity-Categories]] 
 
 
 #Details#
