@@ -2,7 +2,7 @@
 
 #Mathematics Contents
 
-* Structural Foundations
+* [[foundations|Structural Foundations]]
 
   * [[Categories and Sheaves]]
 
@@ -25,6 +25,6 @@
 
   * [[group theory|Group Theory]]
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/physicscontents)</div>
+<div markdown="1">[Edit this sidebar](/nlab/edit/mathematicscontents)</div>
 
 </div>
