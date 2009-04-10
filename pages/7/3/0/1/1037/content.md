@@ -173,11 +173,18 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
 * [[homotopy limit]]
 
+* [[limit in quasi-categories]]
+
 ##5 Presentable and Accessible $\infty$-Categories##
+
+* [[cardinal number]]
+
+* [[compact object in an (infinity,1)-category]]
 
 * [[accessible (infinity,1)-category]]
 
 * [[presentable (infinity,1)-category]]
+
 
 ##6 $\infty$-Topoi##
 
