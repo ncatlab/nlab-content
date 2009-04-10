@@ -1,0 +1,1 @@
+A set $S$ is __transitive__ if the relation of belonging is a transitive relation on $S$: for any three elements of $S$, $Z\in Y\in X$ implies $Z\in X$. [[well-order|Well-ordered]] transtive sets are called [[ordinal]]s. 
