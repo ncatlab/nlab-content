@@ -5,9 +5,9 @@ Cardinals are one generalization of [[natural numbers object|natural numbers]] t
 
 # Definition ##
 
-The  **cardinals** or **cardinal numbers** are the [[isomorphism]] classes in the [[category]] [[Set]].
+In naive set theory, the  **cardinals** or **cardinal numbers** are the [[isomorphism]] classes in the [[category]] [[Set]]. This definition is unpleasant because each of them is then a proper class (and one could not make further sets using them as elements). For this reason, in axiomatic set theory one usually chooses the canonical representatives of cardinals among [[ordinal]]s. In this vein, a **cardinal** is an ordinal ([[well-order|well-ordered]] [[transitive set]]) which is not equipotent (bijective) to any smaller (with respect to the total order $\in$ on the class $\mathbf{Ord}$ of ordinals) ordinal. 
 
-The cardinality of a finite set is a **finite cardinal**, that of a non-finite set is a **transfinite cardinal**.
+The cardinality of a finite set is a **finite cardinal**, that of a non-finite set is a **infinite** or **transfinite** cardinal.
 
 
 
@@ -41,7 +41,9 @@ $$
 
 # Regular cardinals #
 
-A transfinite cardinal $\pi$ is **regular** if for $P \to X$ a function of sets with $|X| \lt \pi$ and $|P_x| \lt \pi$ for all $x \in X$ then $|P| \lt \pi$.
+A transfinite cardinal $\pi$ is **regular** if given a function of sets $P \to X$ where $|X| \lt \pi$ and $|P_x| \lt \pi$ for all $x \in X$, then $|P| \lt \pi$.
+
+In ordinal picture, a cardinal $\pi$ is **regular** if it is not a union of $\lt\pi$ cardinals. A cardinal is a **strongly limiting cardinal** if $\lambda\lt \pi$ implies $2^\lambda\lt\pi$ (hence, in ordinal picture, if $A\in\pi$ then the partitive (=power) set $P(A)\in\pi$). An [[inaccessible cardinal]] is any uncountable strongly limiting regular cardinal. 
 
 
 # Properties #
