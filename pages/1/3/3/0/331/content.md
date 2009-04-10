@@ -12,3 +12,4 @@
 * [[negation]]
 * [[predicative mathematics]]
 * [[truth value]]
+* [[type theory]]
