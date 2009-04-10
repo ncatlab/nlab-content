@@ -1,10 +1,13 @@
-A [[cardinal number|cardinal]] is an [[ordinal]] ([[well-order]]ed [[transitive set]]) which is not a [[successor]] of any other ordinal. A cardinal $\pi$ is **regular** if it is not a union of $\lt\pi$ cardinals. A cardinal is a **strongly limiting cardinal** if $\lambda\lt \pi$ implies $2^\lambda\lt\pi$ (hence if $A\in\pi$ then the partitive (=power) set $P(A)\in\pi$). An **inaccessible cardinal** is any uncountable strongly limiting regular cardinal.
+# Idea
 
-In ZFC one can not prove the existence of inaccessible cardinals. If one inaccessible cardinal exists, there are also infinitely many larger inaccessible cardinals.
+An **inaccessible cardinal** is a [[cardinal number]] $\kappa$ which cannot be "accessed" from smaller cardinals using only the basic operations on cardinals.  It follows that the collection of sets smaller than $\kappa$ satisfies the axioms of set theory.
 
-The class $\mathbf{Card}$ of cardinals is the subclass of the well-ordered class $\mathbf{Ord}$ of [[ordinal]]s. Using transfinite recursion one defines a hierarchy of well-founded sets $V_\alpha$ where $\alpha\in\mathbf{Ord}$ as follows:
-* $V_0 = \emptyset$
-* $V_{\alpha+1} = P(V_\alpha)$
-* $V_\alpha = \cup_{\beta\lt\alpha} V_\beta$ if $\alpha$ is a limiting ordinal. 
+# Definition
 
-A [[Grothendieck universe]] in this approach is a set of the form $V_\alpha$ where $\alpha$ is an inaccessible cardinal. Thus the existence of inaccessible cardinals amounts to the axiom of existence of Grothendieck universes. 
+An **inaccessible cardinal** is a regular strong limit [[cardinal number|cardinal]].  Recall that $\kappa$ is _regular_ if it is not a union of $\lt\kappa$ cardinals each of which is $\lt\kappa$, and a **strong limit** if $\lambda\lt \kappa$ implies $2^\lambda\lt\kappa$.
+
+By this definition, $0$ (the cardinality of the empty set) and $\aleph_0$ (the cardinality of the [[natural number]]s) are both inaccessible.  Sometimes one explicitly requires inaccessible cardinals to be uncountable, so as to exclude these cases.
+
+# Properties
+
+A cardinal $\kappa$ is inaccessible precisely when the $\kappa$th level $V_\kappa$ of the [[von Neumann hierarchy]] is a [[Grothendieck universe]], and hence in particular itself a model of axiomatic [[set theory]].  For this reason, the existence of inaccessible cardinals cannot be proven in ordinary axiomatic set theory such as [[ZFC]].  The axiom asserting that there exists an inaccessible (which amounts to the existence of a Grothendieck universe) is thus the beginning of the study of [[large cardinal]]s.  
