@@ -129,6 +129,8 @@ The following is supposed to going to be a list of linked keywords corresponding
 
 #### definition of a perfect stack ####
 
+* [[compact object in an (infinity,1)-category]]
+
 #### base change and projection formula ####
 
 #### construcons of perfect stacks ####
@@ -164,6 +166,8 @@ The following is supposed to going to be a list of linked keywords corresponding
 
 #### topological field theory from perfect stacks ####
 
+* [[sigma-model]]
+
 #### Deligne-Kontsevich conjectures for derived centers ####
 
 
@@ -173,3 +177,14 @@ The following is supposed to going to be a list of linked keywords corresponding
 
 
 ### and so on ###
+
+
+# Background literature #
+
+For the general [[(infinity,1)-category|(infinity,1)-categorical]] formalism
+
+* [[Jacob Lurie]], [[Higher Topos Theory]].
+
+For the [[stable (infinity,1)-category|stable]] aspects
+
+* [[Jacob Lurie]], [[Stable Infinity-Categories]].
