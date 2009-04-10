@@ -60,6 +60,10 @@ $$
 
 A condition entirely analogous to the [[Kan fibration]] condition on [[Kan complex|Kan simplicial sets]] leads to the notion of **Kan combinatorial spectrum**.
 
++--{: .query}
+If Kan simplicial sets work as a model for $\mathbf{N}$-groupoids, then does this mean that Kan spectricial sets work as a model for $\mathbf{Z}$-groupoids?   ---[[Toby Bartels]]
+=--
+
 
 #References#
 
