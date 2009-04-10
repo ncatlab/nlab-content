@@ -1,6 +1,6 @@
 [[!include mathematicscontents]]
 
-* Structural Foundations
+* [[foundations|Structural Foundations]]
 
   * [[Categories and Sheaves]]
 
