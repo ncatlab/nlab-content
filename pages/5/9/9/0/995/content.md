@@ -42,13 +42,14 @@ A filterbase $F$ of sets is proper (that is, it generates a proper filter of set
 
 # Application to analysis and topology
 
-Every [[net]] $\nu: I \to S$ defines an __eventuality filter__ $E_\nu$: let $A$ belong to $E_\nu$ if, for some index $k$, for every $l \geq k$, $\nu_l \in A$.  (That is, $\nu$ is eventually in $A$.)  Note that $E_\nu$ is proper; conversely, any proper filter $F$ has a net whose eventuality filter is $F$ (as described at [[net]]).  Everything below can be done for nets as well as filters, but filters often lead to a cleaner theory.
+Every [[net]] $\nu: I \to S$ defines an __eventuality filter__ $E_\nu$: let $A$ belong to $E_\nu$ if, for some index $k$, for every $l \geq k$, $\nu_l \in A$.  (That is, $\nu$ is eventually in $A$.)  Note that $E_\nu$ is proper; conversely, any proper filter $F$ has a net whose eventuality filter is $F$ (as described at [[net]]).  Everything below can be done for nets as well as for (proper) filters, but filters often lead to a cleaner theory.
 
-## Convergent and Cauchy filters
+In a [[topological space]] $S$, a filter $F$ on $S$ __converges__ to a point $x$ of $S$ if every neighbourhood of $x$ belongs to $F$.  A filter $F$ __cluster__ at a point $x$ if every neighbourhood of $x$ intersects every element of $F$.  With these definitions, the improper filter converges to every point and clusters at no point; a proper filter, however, clusters at every point that it converges to.
 
-See [[convergence space]] and [[Cauchy space]].
+The concepts of continuous function and such conditions as compactness and Hausdorffness may be defined quite nicely in terms of the convergence relation.  In fact, everything about topological spaces may be defined in terms of the convergence relation, although not always nicely.  This is because topological spaces form a [[full subcategory]] of the category of [[convergence space]]s, where the convergence relation is the fundamental concept.  More details are there.
+
+In a [[metric space]] $S$, a filter $F$ on $S$ is __Cauchy__ if it has elements of arbitrarily small diameter.  Then a [[sequence]] is a [[Cauchy sequence]] iff its eventuality filter is Cauchy.  (This can be generalised to uniform spaces.)  The concept of completion of a metric space may be defined quite nicely in terms of the Cauchy filters, but although not every property (not even every uniform property) of metric spaces can be defined in this way.  As for convergence, there is a general notion of [[Cauchy space]], but the forgetful functors from metric and uniform spaces are now not full.
 
 # References
 * [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Filter_%28mathematics%29).
 * Johnstone, Peter T. (1982). _Stone Spaces_. Cambridge University Press. ISBN 0-521-23893-5.
-* Eva Lowen-Colebunders (1989). Function Classes of Cauchy Continuous Maps. Dekker, New York, 1989.
