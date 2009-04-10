@@ -4,12 +4,10 @@ A **double complex** is a [[complex]] in a category of [[complex]]es. Accordingl
 
 In the presence of enough [[product]]s and/or [[coproduct]]s, there is a _total complex_ associated to a double complex, and the interest in double complexes is usually that in these total complexes.
 
-Double chain complexes usually arise from the application of [[bifunctor]]s of [[additive category|additive categories]] $C_1, C_2, C_3$
-
+Double chain complexes usually arise from the application of bifunctors ([[additive functor]]s of two variables) of [[additive category|additive categories]] $C_1, C_2, C_3$
 $$
   F :  C_1 \times C_2 \to C_3
 $$
-
 to complexes in their two arguments. Combining this with the formation of total complexes then yields bifunctors from  categories of complexes to categories of complexes. 
 
 $$
