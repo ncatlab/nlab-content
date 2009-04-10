@@ -1,0 +1,1 @@
+An __ordinal__ is a [[transitive set|transitive]] [[well-order|well-ordered]] set. The class of ordinals is well-ordered with respect to relation $\in$. [[cardinal number|Cardinal]] is an ordinal which is not bijective to any smaller ordinal (with respect to that relation). Limit ordinal is any ordinal which is not a successor of any other ordinal. 
