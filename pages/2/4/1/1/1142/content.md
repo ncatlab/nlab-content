@@ -16,7 +16,7 @@ $$
 
 where on the right the product is in [[Set]].
 
-By the [[adjoint functor|hom-adjunction isomorphism]] it follows that the corresponding **internal hom**
+By the [[adjoint functor|hom-adjunction isomorphism]] it follows that the corresponding **[[internal hom]]**
 
 $$
   [-,-] : PSh^{op} \times PSh \to PSh
@@ -34,7 +34,7 @@ where $Y : S \to [S^{op}, Set]$ is the [[Yoneda embedding]].
 
 ## Definition in terms of homs of direct images ##
 
-Often another, equivalent, expression is used to express the internal hoom of presheaves:
+Often another, equivalent, expression is used to express the internal hom of presheaves:
 
 Let $X$ be a [[site|pre-site]] with underlying [[category]] $S_X$. Recall from the discussion at [[site]] that just means that we have a category $S_X$ on which we consider [[presheaf|presheaves]] $F \in PSh(S_X) := [S_X^{op}, Set]$, but that it suggests that
 
