@@ -1,6 +1,6 @@
 #Idea#
 
-A [[Lawvere-Tierney topology]] on a [[topos]] defines naturally a certain closure operation on every object. A subobject inlcusion is called a _dense monomorphism_ if after taking the closure of its domain it becomes an isomorphism.
+A [[Lawvere-Tierney topology]] on a [[topos]] defines naturally a certain closure operation on [[subobject]]s. A subobject inlcusion is called a _dense monomorphism_ if its closure is an isomorphism.  In other words, a _dense subobject_ of an object $B$ is a subobject whose closure is all of $B$.
 
 
 
@@ -8,21 +8,21 @@ A [[Lawvere-Tierney topology]] on a [[topos]] defines naturally a certain closur
 
 Let $E$ be a [[topos]] equipped with a [[Lawvere-Tierney topology]] $j : \Omega \to \Omega$.
 
-For every [[subobject]] $A \hookrightarrow E$ in the [[topos]] classified by $char A : E \to \Omega$, let its **closure**
+For every [[subobject]] $A \hookrightarrow B$ in the [[topos]] classified by $char A : B \to \Omega$, let its **closure**
 
 $$
-  \bar A \hookrightarrow E
+  \bar A \hookrightarrow B
 $$
 
-be the subobject classified by $char \bar A := E \stackrel{char A}{\to} \Omega \stackrel{j}{\to} \Omega$.
+be the subobject classified by $char \bar A := B \stackrel{char A}{\to} \Omega \stackrel{j}{\to} \Omega$.
 
-The monomorphism $A \hookrightarrow E$ is called a **dense monomorphism** if $\bar A = E$.
-
-
+The monomorphism $A \hookrightarrow B$ is called a **dense monomorphism** if $\bar A = B$, that is if $\bar A \hookrightarrow B$ is an [[isomorphism]].
 
 
 
-#Relation to local isomorphism#
+
+
+#Relation to local isomorphisms#
 
 Recall that when $E$ is a [[presheaf]] [[Grothendieck topos]] $E = PSh(S) = [S^{op}, Set]$ then [[Lawvere-Tierney topology|Lawvere-Tierney topologies]] on $E$ are in bijection with [[Grothendieck topology|Grothendieck topologies]] on $S$ (making $S$ a [[site]]).
 In this case there is the notion of [[local epimorphism]] and [[local isomorphism]] in $PSh(S)$ with respect to this topology. 
