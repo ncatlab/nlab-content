@@ -60,7 +60,7 @@ This is notably the case in (functorial extended topological) [[FQFT|quantum fie
 
 * based on this, Ben-Zvi, Francis and Nadler have begun in their work on [[geometric infinity-function theory]] to systematically study those extended TFTs which arise from _geometric backgrounds_ as _$\sigma$-models_ using an $(\infty,1)$-categorical version of [[geometric function theory]]. They show that [[infinity-stack homotopically|infinity-stacks]] arising in [[Lie theory]] represent $\infty$-categorical extended TFTs in this sense which organize a rich amount of structures and theorems in representation theory. 
 
-* this perspective also incorporates the $A_\infty$-categorical work by Konmtsevich, Fukaya and others on homological mirror symmetry: linear $A_\infty$-categories are equivalent to [[dg-category|dg-categories]] and pre[[triangulated category|triangulated]] dg-categories are [[stable (infinity,1)-category|stable (infinity,1)-categories]].
+* this perspective also incorporates the $A_\infty$-categorical work by Kontsevich, Fukaya and others on homological mirror symmetry: linear $A_\infty$-categories are equivalent to [[dg-category|dg-categories]] and pre[[triangulated category|triangulated]] dg-categories are [[stable (infinity,1)-category|stable (infinity,1)-categories]].
 
 
 (... needs more detals and more scope ...)
