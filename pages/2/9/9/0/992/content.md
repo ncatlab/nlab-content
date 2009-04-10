@@ -116,6 +116,19 @@ Moreover, every [[derived category]] of an [[abelian category]] is the triangula
 
 Hence stable homotopy theory and homological algebra are both special cases of the theory of stable $(\infty,1)$-categories.
 
-# Warning #
+# Alternative models # 
+
+A [[triangulated category]] linear over a field $k$ can canonically be refined to 
+
+* a pre-triangulated [[dg-category]];
+
+* an [[A-infinity category]];
+
+* a stable $(\infinity,1)$-category.
+
+If $k$ has characteristic 0, then all these three concepts become equivalent.
+
+
+# Warning on terminology #
 
 A stable $\infty$-category should not be confused with a [[k-tuply monoidal n-category|stably monoidal]] $\infty$-category.  A connection between the terms is that the $(\infty,1)$-category of [[spectrum|spectra]] is the prototypical stable $\infty$-category, while _connective_ spectra (not all spectra) can be identified with [[k-tuply groupal n-groupoid|stably groupal]] $\infty$-groupoids, aka _infinite loop spaces_ or $E_\infty$-[[E_infinity-spaces|spaces]].
