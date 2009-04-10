@@ -16,6 +16,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * created [[accessible (infinity,1)-category]] and [[accessible (infinity,1)-category]], but incomplete
+
+  * created [[compact object in an (infinity,1)-category]], but incomplete
+
   * created [[cardinal number]] and [[well-order]], but experts should please check these
 
   * created [[sigma-model]]
