@@ -3,13 +3,13 @@
 Using the [[Dold-Kan correspondence]] in [[Higher Topos Theory|higher topos theory]], [[complex]]es of [[abelian sheaf|abelian sheaves]] can be understood as a generalization of [[topological space]]s, in a precise sense recalled below. 
 This induces a notion of cohomology of [[complex]]es of [[abelian sheaf|abelian sheaves]] from the familiar notion of cohomology of spaces.
 
-Which is a simple one: recall that the [[cohomology]] of one [[topological space]] $X$ with coefficients in another space $A$ is nothing but the space of morphisms (continuous maps) $H(X,A) := [X,A]$ from $X$ to $A$ -- or, in a more restrictive sense traditiuonally adopted, the set $\pi_0[X,A]$ of connected path components of this space. 
+Which is a simple one: recall that the [[cohomology]] of one [[topological space]] $X$ with coefficients in another space $A$ is nothing but the space of morphisms (continuous maps) $H(X,A) := [X,A]$ from $X$ to $A$ -- or, in a more restrictive sense traditionally adopted, the set $\Pi_0[X,A]$ of connected path components of this space. 
 
 Similarly, when considering complexes of abelian sheaves in their natural [[Higher Topos Theory|higher topos theoretic]] home, the cohomology of a complex of sheaves $A$ on a space $X$ is nothing but the hom-space $H(X,A) = [X,A]$ -- where the space $X$ itself is regarded as a special case of a sheaf.
 
 One reason this conceptually simple picture is not usually presented is that the space $X$ is typically not represented by an _abelian_ complex of sheaves, so that the full simplicity of the story becomes manifest only in general [[nonabelian cohomology]].
 
-More precisely, via the [[Dold-Kan correspondence]] (non-negatively graded) [[complex]]es of [[abelian sheaf|abelian sheaves]] -- which are equivalently [[sheaf|sheaves]] with values in (non-negatively graded) [[category of chain complexes|categories of chain complexes]] -- can be regarded as special cases of [[simplicial presheaf|simplicial sheaves]]. But thanks to the [[model structure on simplicial presheaves|model category structure]] on the category of [[simplicial presheaf|simplicial sheaves]], this in turn is a model for the [[(infinity,1)-topos]] of  [[space and quantity|generalized spaces]] called [[infinity-stack]]s. The very point of [[(infinity,1)-topos|(\infty,1)-topoi]] is that they are [[(infinity,1)-category|(infintiy,1)-categories]] which behave in all structural aspects relevant for [[homotopy theory]] as the archetypical example [[Top]] does. In particular, as in [[Top]], the notion of [[cohomology]] in any [[(infinity,1)-topos]] simply coincides with that of [[hom-space]]s.
+More precisely, via the [[Dold-Kan correspondence]] (non-negatively graded) [[complex]]es of [[abelian sheaf|abelian sheaves]] -- which are equivalently [[sheaf|sheaves]] with values in (non-negatively graded) [[category of chain complexes|categories of chain complexes]] -- can be regarded as special cases of [[simplicial presheaf|simplicial sheaves]]. But thanks to the [[model structure on simplicial presheaves|model category structure]] on the category of [[simplicial presheaf|simplicial sheaves]], this in turn is a model for the [[(infinity,1)-topos]] of  [[space and quantity|generalized spaces]] called [[infinity-stack]]s. The very point of $(\infty,1)$-[[(infinity,1)-topos|topoi]] is that they are [[(infinity,1)-category|(infintiy,1)-categories]] which behave in all structural aspects relevant for [[homotopy theory]] as the archetypical example [[Top]] does. In particular, as in [[Top]], the notion of [[cohomology]] in any [[(infinity,1)-topos]] simply coincides with that of [[hom-space]]s.
 
 In the 1-categorical [[model category|model theoretic models]] these hom-spaces are computed technically by [[derived functor]]s. More precisely, the Hom-space $[X,A]$ for $X$ an ordinary space computes the [[global section]]s $\Gamma(X,A)$ of the complex of [[abelian sheaf|abelian sheaves]] $A$ which is computed by the [[derived global section functor]] $R \Gamma(X,-)$ of the [[global section functor]] $\Gamma(X,-)$, which does exist entirely within the abelian context.
 
@@ -34,7 +34,7 @@ simplicial abelian groups (i.e. [[Kan complex]]es with strict abelian group stru
 
 * the category $Sh(X, Ch(Ab))$ of unbounded 
 [[chain complex]]es of [[abelian sheaf|abelian sheaves]] is 
-[[equivalence|equivalent]] to $Sh(X, Sp(Ab))$, the category
+[[equivalence of categories|equivalent]] to $Sh(X, Sp(Ab))$, the category
 of sheaves with values in [[combinatorial spectrum|combinatorial spectra]] 
 internal to abelian groups.
 
@@ -73,14 +73,14 @@ $$
 
 giving the $n$th [[derived functor]] of the [[global section functor]] of the [[abelian sheaf]] $F$. 
 
-This, finally, is the same group as obtained by choosing any [[complex]] $I_F$ of [[abelian sheaf|abelian sheaves]] that is [[injective]] and [[quasi-isomorphism|quasi-isomorphic]] to $F$ regarded as a complex concentrated in degree 0 and then computing the $n$ [[homology]] group of the complex $\Gamma(X,I_F)$ of global sections of $F$:
+This, finally, is the same group as obtained by choosing any [[complex]] $I_F$ of [[abelian sheaf|abelian sheaves]] that is [[injective complex|injective]] and [[quasi-isomorphism|quasi-isomorphic]] to $F$ regarded as a complex concentrated in degree 0 and then computing the $n$ [[homology]] group of the complex $\Gamma(X,I_F)$ of global sections of $F$:
 
 $$
   \cdots \simeq H_n(\Gamma(X,I_F))
   \,.
 $$ 
 
-Historically the development of abelian sheaf cohomology was precisely in reverse order to this derivation from the general [[(infinity,1)-categorical]] [[cohomology]].
+Historically the development of abelian sheaf cohomology was precisely in reverse order to this derivation from the general $(\infty,1)$-[[(infinity,1)-category|categorical]] [[cohomology]].
 
 #Examples#
 
