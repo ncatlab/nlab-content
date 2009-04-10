@@ -58,14 +58,24 @@ This is notably the case in (functorial extended topological) [[FQFT|quantum fie
 
 * using [[(infinity,n)-category|(infinity,1)-categories]] iteratively built out of [[(infinity,1)-category|(infinity,1)-categories]] Jacob Lurie has formalized proven the fundamental structure theorem for extended topological [[quantum field theory]] (TFT): the [[generalized tangle hypothesis|Baez-Dolan hypothesis]];
 
-* based on this, David Ben-Zvi and collaborators have begun to systematically study those extended TFTs which arise from _geometric backgrounds_ as _$\sigma$-models_ using an $(\infty,1)$-categorical version of [[geometric function theory]]. They show that [[infinity-stack homotopically|infinity-stacks]] arising in [[Lie theory]] represent $\infty$-categorical extended TFTs in this sense which organize a rich amount of structures and theorems in representation theory. 
+* based on this, Ben-Zvi, Francis and Nadler have begun in their work on [[geometric infinity-function theory]] to systematically study those extended TFTs which arise from _geometric backgrounds_ as _$\sigma$-models_ using an $(\infty,1)$-categorical version of [[geometric function theory]]. They show that [[infinity-stack homotopically|infinity-stacks]] arising in [[Lie theory]] represent $\infty$-categorical extended TFTs in this sense which organize a rich amount of structures and theorems in representation theory. 
+
+* this perspective also incorporates the $A_\infty$-categorical work by Konmtsevich, Fukaya and others on homological mirror symmetry: linear $A_\infty$-categories are equivalent to [[dg-category|dg-categories]] and pre[[triangulated category|triangulated]] dg-categories are [[stable (infinity,1)-category|stable (infinity,1)-categories]].
 
 
-(... out of time for the moment ...)
+(... needs more detals and more scope ...)
+
+
+***
+
+#Discussion#
+
+A previous version of this entry triggered the following discussion.
 
 +--{+ .query}
+
 This gives impression that (infty,1) categories are the first higher categorical framework to naturally capture TQFT-s, and derived techniques in rep theory. My impression is that so far much greater number of concrete cases has been worked out using A-infty categories, related to mirror
-symmetry and related models; and the picture in Lagrangean geometry and homological mirror symmetry emerged in works of Fukaya and Kontsevich in early 1990s. Can (infty, 1) approach at least reproduce after the fact the results which can be studied using Ainfty setup ? in particular is there a good treatment of Lagrangean intersection theory using derived geometry of topos and (infty,1) school ? -- Zoran
+symmetry and related models; and the picture in Lagrangean geometry and homological mirror symmetry emerged in works of Fukaya and Kontsevich in early 1990s. Can (infty, 1) approach at least reproduce after the fact the results which can be studied using Ainfty setup ? in particular is there a good treatment of Lagrangean intersection theory using derived geometry of topos and (infty,1) school ? -- [[Zoran Skoda|Zoran]]
 
 [[Urs Schreiber|Urs]]: good point. I'll have to think about that. Just two quick remarks: 
 
@@ -73,6 +83,12 @@ symmetry and related models; and the picture in Lagrangean geometry and homologi
 
 * Over on the blog John and Mike are talking about whether and in which sense $A_\infty$-categories are models for $(\infty,1)$-categories, too.
 
+
+[[David Ben-Zvi]] (by email, forwards here by [[Urs Schreiber|Urs]]): the $A-\infty$ categories appearing
+in the literature mentioned above are all $A-\infty$ categories in the usual linear sense (unlike the nonlinear ones John talks about on the blog). Anyway these are all quasiequivalent to dg categories - ie. the $\infty$-cats of dg cats and $A_\infty$-cats are all the same. 
+In particular they are all examples of $(\infty,1)$-cats -- and are almost stable
+(ie. they might be too small, like dg cats with one object, but if you add cones to them -- aka passing to their category of modules or derived category -- you get a stable $\infty$-cat. So it's really the same subject,
+or rather rationally these are all equivalent languages.)
 
 =--
 
