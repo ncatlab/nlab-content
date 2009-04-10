@@ -43,6 +43,6 @@ Of course, the zero morphism $0: a \to b$ is the usual [[zero morphism]] given b
 $$ a \to 1 \cong 0 \to b .$$
 One proves that $0$ is the neutral element for $+$.
 
-If additionally every morphism $f: a \to b$ has an inverse $-f: a \to b$, then $C$ is enriched over the category $Ab$ of abelian [[group]]s and therefore an _[[additive category]]_.
+If additionally every morphism $f: a \to b$ has an inverse $-f: a \to b$, then $C$ is enriched over the category $Ab$ of abelian [[group]]s and is therefore (precisely) an _[[additive category]]_.
 
-If, on the other hand, the addition of morphisms is idempotent ($f+f=f$), then $C$ is enriched over the category $SLat$ of [[semilattice]]s and is therefore a [[2-poset]].
+If, on the other hand, the addition of morphisms is idempotent ($f+f=f$), then $C$ is enriched over the category $SLat$ of [[semilattice]]s (and is therefore a kind of [[2-poset]]).
