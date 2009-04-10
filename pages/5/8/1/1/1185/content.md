@@ -15,14 +15,15 @@ The cardinality of a finite set is a **finite cardinal**, that of a non-finite s
 
 For $S$ a [[set]], write $|S|$ for its cardinality. Then the standard operations in the [[cartesian closed category]] [[Set]] induced arithmetic operations on cardinals:
 
-for $S_1$ and $S_2$ two sets, the  *product** of their cardinalities is the cardinality of their [[product]] in [[Set]]
+for $S_1$ and $S_2$ two sets, the  **product** of their cardinalities is the cardinality of their [[product]] in [[Set]]
 
 $$
   |S_1| \cdot |S_2| := | S_1 \times S_2|
   \,.
 $$
 
-The exponentiation of $|S_1|$ by $|S_2|$ is the cardinality of the [[hom-set]]
+In as far as the [[hom-set]] $S_1^{S_2}$ exists (as a set),
+the exponentiation of $|S_1|$ by $|S_2|$ is the cardinality of the [[hom-set]]
 
 $$
   |S_1|^{|S_2|} := | Set(S_1,S_2)  |
