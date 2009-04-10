@@ -14,7 +14,9 @@
 
     * [[BV theory|BV Theory]]
 
-    * [[AKSZ theory]]
+      * [[AKSZ theory]]
+
+    * [[geometric infinity-function theory]]
 
 * [[string theory|String Theory]]
 
