@@ -1,8 +1,9 @@
 # Definition #
 
-A [[set]] $S$ is **well-ordered** if it is [[order]]ed and every [[inhabited set|inhabited subset]] has a lowest element:
+A [[set]] $S$ is **well-ordered** if it is [[total order|totally ordered]] and every [[inhabited set|inhabited subset]] has a lowest element.  That is, for all $U \subset I$ with $U \neq \emptyset$ there exists $\bottom_U \in U$ such that for all $u \in U$ we have $\bottom_U \leq u$.
 
-more precisely, if for all $U \subset I$ with $U \neq \emptyset$ there exists $\bottom_U \in U$ such that for all $u \in U$ we have $\bottom_U \leq u$.
+A total order on $S$ with this property is therefore called a "well-order" on $S$, the cringes of grammarians notwithstanding.
+
 
 # Successor #
 
