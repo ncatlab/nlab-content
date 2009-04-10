@@ -14,6 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 #2009-04-10
 
+* [[Mike Shulman|Mike]]: 
+
+  * Created [[type theory]] with an introduction for category-theorists.  Additions and corrections are welcome.
+
+  * Some improvements and corrections to [[cardinal number]], [[ordinal]], [[well-order]] (what an ugly noun!), [[transitive set]], and [[inaccessible cardinal]], and created [[von Neumann hierarchy]].  In particular, I added the structural point of view to complement the naive and material ones.
+
 * [[Urs Schreiber|Urs]]:
 
   * added a reference with a remark to [[A-infinity category]]. Would be nice to have more literature here, and more discussion on the relatoin to [[dg-category]] and [[stable (infinity,1)-category]] 
