@@ -12,7 +12,21 @@ Conversely, for $C$ any category and $X \in C$, the condition that $C(X,-) : C \
 
 #Definition#
 
-definmition 5.3.4.5  in
+The general definition has a bit of cumbersome fine print, see definition 5.3.4.5  in
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
+It becomes simpler in [[stable (infinity,1)-category|stable (infinity,1)-categoris]]:
+
+An object $X$ in a [[stable (infinity,1)-category]] is **compact** if the $(\infty,1)$-functor
+
+$$
+  C(X,-) : C \to C
+$$
+
+commutes with all [[limit in quasi-categories|colimit]].
+
+
+#Remarks#
+
+* For more discussion of the relevance of compact objects, see also [[geometric infinity-function theory]].
