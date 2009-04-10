@@ -20,7 +20,7 @@ Here we will concentrate on the bar-cobar adjointness itself and start exploring
 ##The Bar construction
 
 (due originally Eilenberg-MacLane)
-\[B :pre\!-\!\varepsilon CDGA \to pre\!-\!CDGHA\]
+\[B :pre \varepsilon CDGA \to pre CDGHA\]
 Let $(A,d,\varepsilon) $ be a commutative, augmented differential $\mathbb{Z}$-graded algebra, $d(A_n)\subseteq A_{n-1}$, $\overline{A} = Ker \varepsilon$.  
 
 ##Definition
@@ -55,7 +55,7 @@ We define a functor:
 
 
 
-\[F :pre\!-\!\eta  CoDGC \to pre\!-\!CoDGHA\]
+\[F :pre \eta  CoDGC \to pre CoDGHA\]
 
 so essentially from cocommutative [[differential graded coalgebra|differential graded coalgebras]] to  cocommutative [[differential graded Hopf algebra|differential graded Hopf algebras]] (with frills attached in the way of coaugmentations, etc).
 
@@ -76,8 +76,8 @@ Here
 
 and 
 
-*  $$\partial_E (s^{-1}c_1\otimes \ldots\otimes s^{-1}c_n) = -\sum_{i = 1} ^n\eta(i-1)\sum_\mu (-1)^{|c^\prime_{i\mu}| +1} (s^{-1}c_1\otimes \ldots\otimes s^{-1}c^\prime_{i\mu}\otimes  s^{-1}c^{\prime\prime}_{i\mu}\otimes \ldots\otimes s^{-1}c_n),$$
-with $\overline{\Delta}c_i = \sum_\mu c^\prime_{i\mu}\otimes  c^{\prime\prime}_{i\mu}$; $\eta(i) = (-1)^{ \sum^i_{k=1}|s^{-1}c_k|}.$
+*  $$\partial_E (s^{-1}c_1\otimes \ldots\otimes s^{-1}c_n) = -\sum_{i = 1} ^n\eta(i-1)\sum_\mu (-1)^{|c'_{i\mu}| +1} (s^{-1}c_1\otimes \ldots\otimes s^{-1}c'_{i\mu}\otimes  s^{-1}c^{\prime\prime}_{i\mu}\otimes \ldots\otimes s^{-1}c_n),$$
+with $\overline{\Delta}c_i = \sum_\mu c'_{i\mu}\otimes  c^{\prime\prime}_{i\mu}$; $\eta(i) = (-1)^{ \sum^i_{k=1}|s^{-1}c_k|}.$
 
 The image of a 1-connected cdgc is a connected cocommutative dgha.
 
@@ -95,9 +95,9 @@ In particular, let
 
 then the Bar and Cobar constructions yield functors
 
-$$B: \varepsilon\!-\!DGA\to DGC_0$$
+$$B: \varepsilon DGA\to DGC_0$$
 
-$$F : DGC_0\to  \varepsilon\!-\!DGA.$$
+$$F : DGC_0\to  \varepsilon DGA.$$
 
 
 +-- {: .num_theorem #}
