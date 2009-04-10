@@ -1,7 +1,6 @@
 #Idea#
 
-Recall that a [[topos]] is a [[category]] that behaves likes the category [[Set]] of [[set]]s. A _natural numbers object_ in a topos is an [[object]] that behaves in that topos like the set $\mathbb{N}$ of [[natural number]]s does in [[Set]].
-The idea is due <a href="http://en.wikipedia.org/wiki/William_Lawvere">William Lawvere</a>.
+Recall that a [[topos]] is a [[category]] that behaves likes the category [[Set]] of [[set]]s.  A _natural numbers object_ in a topos is an [[object]] that behaves in that topos like the set $\mathbb{N}$ of [[natural number]]s does in [[Set]]; thus it provides a formulation of the "axiom of infinity" in structural [[set theory]] (such as [[ETCS]]).  The definition is due to <a href="http://en.wikipedia.org/wiki/William_Lawvere">William Lawvere</a>.
 
 #Definition#
 
@@ -30,3 +29,5 @@ $$
   && A &\stackrel{f}{\to} & A
   }
 $$
+
+Note that this definition actually makes sense in any category $E$ having finite [[product]]s.  However, if $E$ is not [[cartesian closed category|cartesian closed]], then it is better to explicitly assume a stronger version of this definition "with parameters" (which follows automatically when $E$ is cartesian closed, such as a topos).
