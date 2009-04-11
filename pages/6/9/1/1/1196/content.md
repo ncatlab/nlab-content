@@ -3,9 +3,7 @@ formalism intended to encode Brouwer's [[constructivism]].
 It is most easily described as [[classical logic]] without
 the principle of the excluded middle $\vdash A\vee\not A$
 or the double-negation rule $\not\not A\vdash A$.  It
-may also be defined by means of a [[sequent calculus]]
-system where in a sequent $\Gamma\vdash\Delta$, $\Delta$
-may contain _at most one_ formula.
+may also be defined by starting with Gentzen\'s [[sequent calculus]] for classical logic and restricting to sequents  $\Gamma\vdash\Delta$ where $\Delta$ may contain _at most one_ formula.
 
 ## Properties ##
 
@@ -20,7 +18,7 @@ logic 'constructive'.
 On the other hand, (classical) Peano arithmetic is
 conservative over (intuitionistic) Heyting arithmetic when
 restricted to $\Pi^0_1$ formulas; that is, formulas of the
-form $\forall x:N\exists y:N.F(x,y)$.  Roughly speaking,
+form $\forall x:N.\exists y:N.F(x,y)$.  Roughly speaking,
 classical logic can be just as 'constructive' as
 intuitionistic logic as far as proving the totality of
 functions is concerned.
