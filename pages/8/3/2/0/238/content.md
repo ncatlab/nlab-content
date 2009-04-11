@@ -15,7 +15,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 *  [[Toby Bartels]]:
    *  Wrote [[axiom of foundation]], [[well-founded relation]], and [[well-ordering theorem]].
-   *  Added to [[successor]], [[inaccessible cardinal]], [[well-order]], and [[partial function]].
+   *  Added to [[successor]], [[inaccessible cardinal]], [[well-order]], [[partial function]], [[ordinal number]], and [[cardinal number]].
    *  Commented on [[direct sum]], [[presentable (infinity,1)-category]], [[stable (infinity,1)-topos]], [[sequential convergence space]], and [[quantale]].
    *  Moved material from [[Cat]] to [[n-category]].
    *  Moved [[ordinal]] to [[ordinal number]], partly because it\'s more noun-like and partly to match [[cardinal number]].
