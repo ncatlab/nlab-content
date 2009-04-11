@@ -8,3 +8,7 @@ Additional conditions often imposed on a quantale include:
 
 If all three of commutativity, idempotence, and $1=\top$ are assumed, they force $\otimes$ to be the [[meet]] and therefore the quantale to be a [[frame]].  General quantales are sometimes considered to be a "noncommutative" version of a frame, whose [[opposite category]] would be a category of "noncommutative [[locale]]s" (hence the name, a [portmanteau](
 http://en.wikipedia.org/wiki/Portmanteau) of "quantum" and "locale").
+
++--{: .query}
+Now, if you really thought of quantales as quantum locales, then you would define a morphism of quantales to go backwards.  What does the literature say about that?  ---Toby
+=--
