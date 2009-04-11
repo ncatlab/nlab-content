@@ -62,6 +62,8 @@ A condition entirely analogous to the [[Kan fibration]] condition on [[Kan compl
 
 +--{: .query}
 If Kan simplicial sets work as a model for $\mathbf{N}$-groupoids, then does this mean that Kan spectricial sets work as a model for $\mathbf{Z}$-groupoids?   ---[[Toby Bartels]]
+
+_Mike_: Presumably, if we knew what a Z-groupoid was.
 =--
 
 
