@@ -2,7 +2,7 @@
 
 #References#
 
-The fusion operation on Hlbert modules of [[von Neumann algebra]]s has been described in
+The fusion operation on Hilbert modules of [[von Neumann algebra]]s has been described in
 
 * A. Connes, On the spatial theory of von Neumann algebras, J. of functional analysis 35 (1980) 153--164;
 
