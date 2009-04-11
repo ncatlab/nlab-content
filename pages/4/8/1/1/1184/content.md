@@ -20,6 +20,10 @@ I for one would be happy to move this to [[well order]].  Indeed, when I began r
 [[Mike Shulman|Mike]]: Well, I'm not an expert at grammar, so I don't know what the difference is between "well-order" and "well order."  Neither sounds really correct to me, however, since "well" is an _adverb_ but is being used as an adjective modifying "order."
 
 _Toby_:  Actually, 'well' (like 'ill') can be either an adjective or an adverb.  If it were an adverb here, then we wouldn\'t need the hyphen even in 'well ordered', and the noun would be 'good order'.  Note that an 'ordered set' is a set equipped with an order as well as a set that\'s been ordered (and in fact the verb 'order' is derived from the noun); so is a 'well ordered set' a set that\'s been ordered well, or is a 'well-ordered set' a set equipped with a well order?  (Although by this logic, there should be no hyphen in 'well-founded', since 'found' is definitely a verb there and not a noun.  ...  This reasoning doesn\'t really fit with 'partially-ordered set' either, does it?  Of course, I\'ve never liked those hyphens, and now I see why.)
+
+[[Mike Shulman|Mike]]: "Well" can of course be an adjective, but I'm pretty sure than in "well ordered" it is an adverb, meaning the set has been ordered well.  I don't think the order on a well ordered set is "healthy."  Also, the other words that come in front of "ordered set" are adverbs: "partially," "totally," "linearly," etc.
+
+I think the reason there is a hyphen in well-founded is that there is no notion of a "founded set."  Thus, rather than a founded set that happens to have been founded well, we use a hyphen to indicate that "well-founded" is an atomic notion.  On the other hand there is a notion of "ordered set" to which we can apply adverbs "partially," "totally," "well," etce, so I don't usually put hyphens in these.
 =--
 
 # Examples #
