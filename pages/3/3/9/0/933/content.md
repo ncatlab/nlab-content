@@ -16,13 +16,7 @@ For some special algebras this is true. For example, the dual of symmetric algeb
 
 A __cochain algebra__ is simply a dg-algebra following the cochain convention (where the differential $d$ raises the degree); a __chain algebra__ is simply a dg-algebra following the chain convention (where $d$ lowers the degree).
 
-+--{.query}
-[[Tim Porter|Tim]]:  From the point of view of exposition, there is a good case for someone (?) to do  entries on graded object, differential graded object, chain complexes, together with setting conventions for degree of a map, tensor product etc. Then 'graded algebra' and 'differential algebra' make sense and a dga is then the combination of the two. (I have some tex code that does introduce things in this way and I can make it available to you both to see if you think it works.  As it would require  the addition of quite a lot on new entries I don't feel like putting them on if they prove unnecessary.)
 
-_Toby_:  Well, we definitely need [[chain complex]].  I\'ve been thinking of writing that, although it would probably just be a stub.
-
-One possibility is to just slap your TeX source up, kind of like [[Trimble on ETCS I]] etc, then people can go through it later.
-=--
 
 ##Differential graded algebras## 
 
