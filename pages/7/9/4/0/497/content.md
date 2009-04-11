@@ -14,14 +14,6 @@ Excluded middle can be seen as a very weak form of the [[axiom of choice]] (a sl
 
 The proof is as follows.  If $p$ is a truth value, then divide $\{0,1\}$ by the equivalence relation where $0 \equiv 1$ iff $p$ holds.  Then we have a surjection $2\to A$, whose domain is $2$ (and in particular, finite), and whose codomain $A$ is finitely-indexed.  But this surjection splits iff $p$ is true or false, so if either $2$ is choice or $2$-indexed sets are projective, then PEM holds.
 
-+--{.query}
-
-Wow, Mike! Can we have an argument now that the literature that I\'ve read uses 'choice set' to mean (modulo constructively provable facts about $\Set$) the same as 'projective set'? (Actually, I\'m quite happy with the terminology as you\'re using it, since it has two nice words for the two nice concepts. But it is does conflict with the literature that I know, most of which is written by constructivists, including logicians but not category theorists; I\'ll make a note about this on [[choice object]] if you ever write that.) &#8212;[[Toby Bartels|Toby]]
-
-Fascinating!  I took "choice object" from the Elephant; I don't know how widely it is used among category theorists.  It seems perfectly natural to me, especially since we already have "projective" for the other notion. -Mike
-
-=--
-
 On the other hand, if PEM holds, then we can show by induction that if $A$ and $B$ are choice, so is $A\sqcup B$ (add details).  Thus, all finite sets are choice.  Now if $n\to A$ is a surjection, exhibiting $A$ as finitely indexed, it has a section $A\to n$.  Since a finite set is always projective, and any retract of a projective object is projective, this shows that $A$ is projective.
 
 In particular, the axiom of choice implies PEM.  This argument, due originally to Diaconescu, can be internalized in any [[topos]]. However, other weak versions of choice such as [[countable choice]] (any surjection to a countable set (which for this purpose is any set isomorphic to the set of natural numbers) has a section), [[dependent choice]], or even [[COSHEP]] do not imply PEM. In fact, it is often claimed that axiom of choice is *true* in constructive mathematics (by the BHK interpretation of predicate logic), leading to much argument about exactly what that means.
