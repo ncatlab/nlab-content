@@ -12,6 +12,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 #2009-04-11
+* [[Zoran Škoda]]: Created [[Frobenius category]]; added material in [[dg-category]] on dg-modules, Yoneda functor and  "pre-triangulated". One should also explain the pre-triangulated envelope functor.
 
 Im Westen nichts Neues
 
