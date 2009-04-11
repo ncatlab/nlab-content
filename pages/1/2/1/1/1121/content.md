@@ -2,4 +2,4 @@ A **wide subcategory** of a category $C$ is a subcategory containing all the obj
 
 A wide subcategory is also called a **lluf subcategory** ("lluf" being "[[full subcategory|full]]" spelled backwards).
 
-Note that this is an [[evil]] condition (on top of whatever evil is in the term 'subcategory'); to fix this, an **essentially wide subcategory** contains at least one object from each isomorphism class of objects (its inclusion functor is [[essentially surjective functor|essentially surjective]]).
+Note that this is an [[evil]] condition (on top of whatever evil is in the term 'subcategory').  To fix this, let an **essentially wide subcategory** contain at least one object from each isomorphism class of objects; that is, its inclusion functor is [[essentially surjective functor|essentially surjective on objects]].
