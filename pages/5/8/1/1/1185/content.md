@@ -1,39 +1,60 @@
 # Idea #
 
-Cardinals are one generalization of [[natural numbers object|natural numbers]] to non-finite numbers.
+The _cardinal numbers_ (or just _cardinals_) constitute a generalisation of a [[natural number|natural numbers]]s to possibly infinite magnitudes.  Specifically, cardinal numbers generalise the concept of 'the number of ...'.  In particular, the number of natural numbers is the first infinite cardinal number.
 
+# Definition #
 
-# Definition ##
+Na&#239;vely, a **cardinal number** should be an [[isomorphism]] class of [[set]]s, and the **cardinality** of a set $S$ would be its isomorphism class.  That is:
+1. every set has a unique cardinal number as its cardinality;
+1. every cardinal number is the cardinality of some set;
+1. two sets have the same cardinality if and only if they are isomorphic as sets.
 
-In naive [[set theory]], the  **cardinals** or **cardinal numbers** are the [[isomorphism]] classes in the [[category]] [[Set]].  The cardinality of a [[finite set]] is a **finite cardinal**, that of a non-finite set is a **infinite** or **transfinite** cardinal.
+Then a **finite cardinal** is the cardinality of a [[finite set]], while an **infinite cardinal** or **transfinite cardinal** is the cardinality of an [[infinite set]].  (If you interpret both terms in the strictest sense, then there may be cardinals that are neither finite nor infinite, without some form of the [[axiom of choice]]).
 
-This naive definition is unpleasant because each cardinal is then a [[proper class]] (and one could not make further sets using them as elements).  For this reason, in axiomatic (material) [[set theory]] one usually chooses the canonical representatives of cardinals among [[ordinal]]s.  According to this approach, a **cardinal** is an ordinal (a [[transitive set]] which is [[well-order|well-ordered]] by the membership relation $\in$) which is not equipotent ([[bijection|bijective]]) to any smaller (with respect to the total order $\in$ on the class $\mathbf{Ord}$ of ordinals) ordinal.  The **cardinality** of a set $X$ is defined to be the unique cardinal number to which it is bijective.
+Taking this definition literally in material [[set theory]], each cardinal is then a [[proper class]] (so one could not make further sets using them as elements).  For this reason, in axiomatic set theory one usually defines a cardinal number as a particular representative of this equivalence class.  There are two ways to do this:
 
-This definition relies on the [[axiom of choice]] to ensure that any set can be well-ordered (so that is is bijective to some ordinal).  In the absence of choice, various other tricks can be used to define cardinalities.  For instance, in the presence of the [[axiom of foundation]], every set appears somewhere in the [[von Neumann hierarchy]], and this hierarchy is indexed by the ordinals.  We can therefore consider, instead of the proper class of _all_ sets of a given cardinality, the set of all sets of a given cardinality of least rank.
+* The __cardinality__ of a set $S$ is the set of all [[ordinal number]]s (themselves usually defined following von Neumann) less than the ordinal rank of every [[well-order]] on $S$; then a __cardinal number__ is any cardinality.  On well-orderable sets, this cardinality function satisfies (1--3), but one needs the [[axiom of choice]] (or at least the [[well-ordering theorem]]) to prove that every set is well-orderable.
+* Alternatively, the __cardinality__ of a set $X$ is the set of all well-founded [[pure set]]s that are isomorphic as sets to $X$ and such that no pure set of smaller hereditary rank is isomoprhic to $X$.  On those sets that are isomorphic to some well-founded set in the [[von Neumann hierarchy]], this cardinality function satisfies (1--3), but one needs the [[axiom of foundation]] to prove that every set is isomorphic to a well-founded set.
 
-On the other hand, in structural [[set theory]] it is [[evil]] to care about distinguishing isomorphic objects (which is the case of sets just means bijective ones), and silly to want to have a canonical choice of representative for isomorphism classes.  Thus, from this approach it is natural to simply define a cardinal to _be_ a set (that is, an object of [[Set]]).
+In the absence of the appropriate axioms, the definitions above can still be used to define __well-ordered cardinals__ and __well-founded cardinals__, respectively.
 
+From the perspective of structural [[set theory]], it is [[evil]] to care about distinctions between isomorphic objects, and unnecessary to insist on a canonical choice of representatives for isomorphism classes.  Therefore, from this point of view it is natural to simply say:
+
+* A __cardinal__ is a [[set]] (that is, an object of [[Set]]).
+
+However, one still may need sets of cardinals, that is sets that serve as the target of a cardinality function satisfying (1--3) on any small class of sets.  One defines this as a [[quotient set]] of the set of those sets under consideration.
 
 # Cardinal arithmetic #
 
-For $S$ a [[set]], write $|S|$ for its cardinality. Then the standard operations in the [[cartesian closed category]] [[Set]] induced arithmetic operations on cardinals:
+For $S$ a [[set]], write $|S|$ for its cardinality. Then the standard operations in the [[category]] [[Set]] induce arithmetic operations on cardinal numbers:
 
-For $S_1$ and $S_2$ two sets, the **sum** of their cardinalities is the cardinality of their [[coproduct]] in [[Set]]
+For $S_1$ and $S_2$ two sets, the **sum** of their cardinalities is the cardinality of their [[disjoint union]], the [[coproduct]] in $Set$:
 $$
-  |S_1| + |S_2| := | S_1 \sqcup S_2|
+  |S_1| + |S_2| := |S_1 \amalg S_2|
   \,.
 $$
 
-Likewise, , the  **product** of their cardinalities is the cardinality of their [[product]] in [[Set]]
+More generally, given any family $(S_i)_{i: I}$ of sets indexed by a set $I$, the **sum** of their cardinalities is the cardinality of their disjoint union:
 $$
-  |S_1| \cdot |S_2| := | S_1 \times S_2|
+  \sum_{i: I} |S_i| := |\coprod_{i: I} S_i|
   \,.
 $$
 
-In so far as the [[hom-set]] $S_1^{S_2}$ exists (as a set),
-the exponentiation of $|S_1|$ by $|S_2|$ is its cardinality
+Likewise, the **product** of their cardinalities is the cardinality of their [[cartesian product]], the [[product]] in $Set$:
 $$
-  |S_1|^{|S_2|} := | Set(S_1,S_2)  |
+  |S_1| \, |S_2| := |S_1 \times S_2|
+  \,.
+$$
+
+More generally again, given any family $(S_i)_{i: I}$ of sets indexed by a set $I$, the **product** of their cardinalities is the cardinality of their cartesian product:
+$$
+  \prod_{i: I} |S_i| := |\prod_{i: I} S_i|
+  \,.
+$$
+
+Also, the **exponential** of one cardinality raised to the power of the other is the cardinality of their [[function set]], the [[exponential object]] in $Set$:
+$$
+  |S_1|^{|S_2|} := |Set(S_2,S_1)|
   \,.
 $$
 
