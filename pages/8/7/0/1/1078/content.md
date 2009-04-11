@@ -56,6 +56,8 @@ $$ \{ a , b : A \;|\; p \;\Rightarrow\; a = b \} .$$
 See?
 
 [[Mike Shulman|Mike]]: Right, I was being silly.  The point is rather than having finitely-indexed products is, in general, stronger than having finite products.
+
+_Toby_:  Yes, to which I say: we don\'t need to have them, since direct sums don\'t need to exist; but if $I$ has finitely-indexed subsets that may not be finite, then we really should include these (even at the risk that the products might not exist) or the direct sum will be too small.
 =--
 
 These finite products form a [[directed limit|direct system]] indexed by the [[direction|directed set]] $\mathcal{P}_{fin}I$ of finite subsets of $I$ (ordered by inclusion) with the map
