@@ -12,6 +12,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 #2009-04-11
+
+* [[Mike Shulman|Mike]]:  Thanks Finn!  It was great to meet you too.  I sliced up your paragraph mentioning fibrations and incorporated the material in other places where I thought it fit better.
+
 * [[Zoran Škoda]]: Created [[Frobenius category]]; added material in [[dg-category]] on dg-modules, Yoneda functor and  "pre-triangulated". One should also explain the pre-triangulated envelope functor.
 
 #2009-04-10
