@@ -24,3 +24,5 @@ where $k$ is the ground field. Notice that such a formulation of Koszul duality 
 Moore was one of the people who studied the subject of 'differential coalgebra', including twisting cochains, in the 1960s and 1970s and gave a survey of the area during his ICM address.
 
 There are variants of the notion of twisting cochain in a variety of other contexts.
+
+A [[twisting function]] is an analogue of a twisting cochain in the context of [[simplicial set]]s.
