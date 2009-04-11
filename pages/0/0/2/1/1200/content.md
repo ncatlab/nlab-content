@@ -1,19 +1,32 @@
-# Idea
+# Idea #
 
-An **ordinal number** (or just **ordinal**) is one generalization of the [[natural number]]s to infinite magnitudes.
+The _ordinal number_ (or just _ordinals_) constitute a generalisation of a [[natural number|natural numbers]]s to possibly infinite magnitudes.  Specifically, ordinal numbers generalise the concept of 'the next number after ...' or 'the index of the next item after ...'.  In particular, the next number after the natural numbers is the first infinite ordinal number.
 
+# Definition #
 
-# Definition
+Na&#239;vely, an **ordinal number** should be an [[isomorphism]] class of [[well-order|well-ordered set]]s, and the **ordinal rank** of a well-ordered set $S$ would be its isomorphism class.  That is:
+1. every well-ordered set has a unique ordinal number as its ordinal rank;
+1. every ordinal number is the ordinal rank of some well-ordered set;
+1. two well-ordered sets have the same ordinal rank if and only if they are isomorphic as well-ordered sets.
 
-In naive [[set theory]], an **ordinal** is an [[isomorphism]] class of [[well-order|well-ordered sets]].  If the well-ordered set is finite, it is a **finite ordinal**; otherwise it is an **infinite** or **transfinite** one.
+Then a **finite ordinal** is the ordinal rank of a [[finite set]], while an **infinite ordinal** or **transfinite ordinal** is the ordinal rank of an infinite set.  (If you interpret both terms in the strictest sense, then there may be ordinals that are neither finite nor infinite, without some form of the [[axiom of choice]]).
 
-Like the naive definition of [[cardinal number]], this definition has the problem that each ordinal is then itself a [[proper class]].  Thus, in axiomatic (material) [[set theory]] it is common to consider particular representatives of these equivalence classes as "being" ordinals.  One particularly slick definition is due to von Neumann; in this approach one defines an __ordinal__ to be a [[transitive set|transitive]] set which is [[well-order|well-ordered]] by the membership relation $\in$.  In the presence of the [[axiom of foundation]] so that $\in$ is automatically a [[well-founded relation]], it suffices to require that $\in$ be a transitive relation on the ordinal $X$ in the usual sense, i.e. for $a,b,c\in X$, if $a\in b\in c$ then $a\in c$.  Defined in this way, it is the ordinals form a basis for a similar definition of  [[cardinal number]], as an ordinal which is not bijective in terms of underlying sets to any smaller ordinal (with respect to that relation).
+Taking this definition literally in material [[set theory]], each ordinal is then a [[proper class]] (so one could not make further sets using them as elements).  For this reason, in axiomatic set theory one usually defines an ordinal number as a particular representative of this equivalence class.  One particularly slick definition is due to von Neumann:
 
-On the other hand, from the perspective of structural [[set theory]], it is [[evil]] to care about distinctions between isomorphic objects, and silly to insist on having a canonical choice of representatives for isomorphism classes.  Therefore, from this point of view it is natural to simply define an **ordinal** to be any [[well-order|well-ordered set]].
+* An __ordinal__ is a [[transitive set|transitive]] [[pure set]] $X$ which is [[well-order|well-ordered]] by the membership relation $\in$.  Then the __ordinal rank__ of a well-ordered set $S$ is the unique ordinal number that is isomorphic (as a well-ordered set) to $S$; it is a theorem that this exists, satisfying (1--3).
 
+In the presence of the [[axiom of foundation]], $\in$ is automatically a [[well-founded relation]], so it suffices to require that $\in$ be a [[transitive relation]] on $X^+ = X \cup \{X\}$.
+
+From the perspective of structural [[set theory]], it is [[evil]] to care about distinctions between isomorphic objects, and unnecessary to insist on a canonical choice of representatives for isomorphism classes.  Therefore, from this point of view it is natural to simply say:
+
+* An __ordinal__ is a [[well-order|well-ordered set]].
+
+However, one still may need sets of ordinals, that is sets that serve as the target of an ordinal rank function satisfying (1--3) on any small class of well-ordered sets.  One defines this as a [[quotient set]] of the set of those well-ordered sets under consideration.
 
 # Properties
 
 The class of ordinals is itself [[well-order|well-ordered]].  There are many equivalent ways to define this ordering.  One is that $\alpha\lt\beta$ iff $\alpha$ is isomorphic to a proper _initial segment_ of $\beta$ (that is, a subset $S\subsetneq \beta$ such that $b\in S$ and $a\lt b$ imply $a\in S$).  With the von Neumann definition, this is equivalent to simply saying that $\alpha\in\beta$.
 
-Every ordinal $\alpha$ has a **successor**, which in the von Neumann definition is simply $\alpha \cup \{\alpha\}$.  A **limit ordinal** is any ordinal which is not a successor of any other ordinal.
+Every ordinal $\alpha$ has a **[[successor]]** $\alpha^+$, which in the von Neumann definition is simply $\alpha^+ = \alpha \cup \{\alpha\}$.  A **limit ordinal** is any ordinal which is not a successor of any other ordinal.
+
+In the presence of the [[axiom of choice]], a [[cardinal number]] can be defined as a special ordinal number, specifically an ordinal which is not equipollent (isomorphic as a [[set]]) to any smaller ordinal.
