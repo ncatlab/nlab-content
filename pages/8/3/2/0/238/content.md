@@ -11,6 +11,9 @@ So, if you feel people's attention should be drawn to some changes you make, ple
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).
 
 ***
+#2009-04-11
+
+Im Westen nichts Neues
 
 #2009-04-10
 
@@ -30,9 +33,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
-  * added a reference with a remark to [[A-infinity category]]. Would be nice to have more literature here, and more discussion on the relatoin to [[dg-category]] and [[stable (infinity,1)-category]] 
+  * added a reference with a remark to [[A-infinity category]]. Would be nice to have more literature here, and more discussion on the relation to [[dg-category]] and [[stable (infinity,1)-category]] 
 
-* [[Zoran Škoda]]: I have made additions to [[cardinal number]]: Urs uses a naive set definition where cardinals are equipotence classes of sets hence his cardinals are proper classes; I follow a choice of representative among ordinals ([[well-order]]ed [[transitive set]]s); to this aim I created [[transitive set]], [[ordinal]], [[successor]], [[inaccessible cardinal]]. In doing this I used some intro parts of my lectures on sheaf theory which I currently teach in Zagreb in Croatian (and which initially started with cardinals, universes and categories). 
+* [[Zoran Škoda]]: I have made additions to [[cardinal number]]: Urs uses a naive set definition where cardinals are equipotence classes of sets hence his cardinals are proper classes; I follow a choice of representative among ordinals ([[well-order]]ed [[transitive set]]s); to this aim I created [[transitive set]], [[ordinal]], [[successor]], [[inaccessible cardinal]]. In doing this I used some intro parts of my lectures on sheaf theory which I currently teach in Zagreb in Croatian (and which initially started with cardinals, universes and categories). I created [[twisting function]].
 
 * [[Urs Schreiber|Urs]]:
 
