@@ -1,10 +1,10 @@
 # Idea
 
-The **von Neumann hierarchy** is a way of "building up" all [[pure set]]s recursively, starting with the [[empty set]], and indexed by the [[ordinal]]s.
+The **von Neumann hierarchy** is a way of "building up" all [[pure set]]s recursively, starting with the [[empty set]], and indexed by the [[ordinal number]]s.
 
 # Definition
 
-Using [[transfinite recursion]], define a hierarchy of well-founded sets $V_\alpha$, where $\alpha\in\mathbf{Ord}$ is an [[ordinal]], as follows:
+Using [[transfinite recursion]], define a hierarchy of well-founded sets $V_\alpha$, where $\alpha\in\mathbf{Ord}$ is an [[ordinal number]], as follows:
 
 * $V_0 = \emptyset$
 * $V_{\alpha+1} = P(V_\alpha)$ (the [[power set]] of $V_\alpha$)
