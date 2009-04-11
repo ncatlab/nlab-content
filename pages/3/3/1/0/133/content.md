@@ -22,8 +22,10 @@ If $A$ is a [[extensive category|superextensive]] [[site]], then the axiom of ch
 
 * The axiom of choice in [[Set]] is equivalent to the statement that the pair ($L =$ [[monomorphism]]s, $R =$ [[epimorphism]]s) is a [[weak factorization system]] in [[Set]].
 
+* In the context of [[constructive mathematics]], the full axiom of choice in $Set$ implies the principle of [[excluded middle]] and so is rejected.  However, weaker forms of choice, up to [[COSHEP]], are often (if not usually) accepted by constructivists.
+
+* The axiom of choice in $Set$ implies (and is implied by, given excluded middle) the [[well-ordering theorem]].
+
 * See also 
-
   * [[anafunctor]];
-
   * [[foundations]].
