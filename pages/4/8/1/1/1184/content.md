@@ -12,7 +12,7 @@ Sometimes one wants $S$ to have a [[total order]] $\preceq$ instead of a linear 
 
 With this in mind, we may equivalently define a well order on $S$ to be a total order $\preceq$ such that every [[inhabited set|inhabited subset]] has a lowest element.  That is, for all $U \subset S$ with $U \neq \emptyset$ there exists $\bottom_U \in U$ such that for all $u \in U$ we have $\bottom_U \leq u$.  (Again, in constructive mathematics, this will not work; indeed, it\'s not possible to prove constructively the existence of any well order, in this sense, on any set with at least $2$ elements.)
 
-A set equipped with a well order is called a __well-ordered set__.  Actually, the term 'well-ordered' came first; 'well order' is a back formation.  Accordingly, many writers spell this noun as 'well-order', the cringes of grammarians notwithstanding.
+A set equipped with a well order is called a __well-ordered set__, or (following '[[partial order|poset]]') a __woset__.  Actually, the term 'well-ordered' came first; 'well order' is a back formation.  Accordingly, many writers spell this noun as 'well-order', the cringes of grammarians notwithstanding.
 
 +--{: .query}
 I for one would be happy to move this to [[well order]].  Indeed, when I began rewriting it, I naturally used that spelling until I got to the paragraph above.  ---Toby
