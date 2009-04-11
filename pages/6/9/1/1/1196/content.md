@@ -1,5 +1,5 @@
 Intuitionistic logic was introduced by Heyting as a
-formalism intended to encode Brouwer's [[constructivism]].
+formalism intended to encode Brouwer's [[constructive mathematics|constructivism]].
 It is most easily described as [[classical logic]] without
 the principle of the excluded middle $\vdash A\vee\not A$
 or the double-negation rule $\not\not A\vdash A$.  It
