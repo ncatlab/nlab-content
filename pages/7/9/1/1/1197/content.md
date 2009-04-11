@@ -1,4 +1,4 @@
-Twisting function is an analogue of [[twisting cochain]] in the context of [[simplicial set]]s. 
+A twisting function is an analogue of a [[twisting cochain]] in the context of [[simplicial set]]s. 
 
 Let $X_\bullet$ be a simplicial set and $G_\bullet$ a simplicial group. Then a __twisting function__ $\phi :X_\bullet\to G_\bullet$ is a family of maps $\phi=\{\phi_n : X_n\to G_{n-1}\}_{n\gt 1}$ such that
 
