@@ -8,7 +8,7 @@ The use of "topology" for this and the related Grothendieck concept is regarded 
 
 Let $E$ be a [[topos]], with [[subobject classifier]] $\Omega$. A __Lawvere--Tierney topology__ in $E$ is a map $j: \Omega \to \Omega$ that satisfies certain axioms.
 
-The axioms say that $j$ is ([[internalization|internally]]) a [[exact functor|left exact]] [[monad]] on the internal meet-semi[[lattice]] $\Omega$. To be explicit:
+The axioms say that $j$ is ([[internalization|internally]]) a [[exact functor|left exact]] [[monad]] on the internal meet-[[semilattice]] $\Omega$. To be explicit:
 * $\id_\Omega \leq j: \Omega \to \Omega$ ('if $p$ is true, then $p$ is locally true');
 * $j \circ j = j: \Omega \to \Omega$ ('$p$ is locally locally true iff $p$ is locally true');
 * $j \circ \wedge = \wedge \circ j \times j: \Omega \times \Omega \to \Omega$ ('$p \wedge q$ is locally true iff $p$ and $q$ are each locally true').
