@@ -40,7 +40,7 @@ Here are some examples:
 * For a commutative ring $R$, a monoid object in the category of $R$-modules (with its usual tensor product) is an $R$-algebra.
 * A monoid object in [[Top]] (with cartesian product as the tensor product) is a topological monoid.
 * A monoid object in the category of monoids (with cartesian product as the tensor product) is a commutative monoid.  This is a version of the [[Eckmann-Hilton argument]].
-* A monoid object in the category of complete join-semi[[lattice]]s (with its tensor product that represents maps preserving joins in each variable separately) is a unital [[quantale]].
+* A monoid object in the category of complete join-[[semilattice]]s (with its tensor product that represents maps preserving joins in each variable separately) is a unital [[quantale]].
 * Given any monoidal category $C$, a monoid in the monoidal category $C^{op}$ is called a [[comonoid]] in $C$.
 * For any category $C$, the [[endofunctor]] category $C^C$ has a monoidal structure induced by composition of endofunctors, and a monoid object in $C^C$ is a [[monad]] on $C$.
 
