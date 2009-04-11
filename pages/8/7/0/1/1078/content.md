@@ -54,6 +54,8 @@ _Toby_:  If they don\'t exist, then that\'s no big deal; we only want them if $F
 However, $Set$ certainly has finitely-indexed products; it has *all* (small) products, after all.  For example, consider the quotient set $I$ of $2$ given by the truth value $p$ and a constant $I$-indexed family of sets with the value $A$.  Then the product of this family is the set of functions from $I$ to $A$.  If $p$ is true, then the product is $A$, and if $p$ is false, then the product is $A^2$; in general, the product is a subset of $A^2$:
 $$ \{ a , b : A \;|\; p \;\Rightarrow\; a = b \} .$$
 See?
+
+[[Mike Shulman|Mike]]: Right, I was being silly.  The point is rather than having finitely-indexed products is, in general, stronger than having finite products.
 =--
 
 These finite products form a [[directed limit|direct system]] indexed by the [[direction|directed set]] $\mathcal{P}_{fin}I$ of finite subsets of $I$ (ordered by inclusion) with the map
