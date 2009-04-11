@@ -6,6 +6,11 @@ Notice that a dg-category $\mathbf{B}A$ with a single object is a _differential 
 
 Therefore, following the terminology for [[horizontal categorification]] a dg-category might more descriptively be addressed as a **differential graded algebroid**. (A similar comment applies for instance to [[C*-category]], which is a $C^*$-algebroid.)
 
+A **left dg-module** over a dg-category $C$ is a dg-functor $L : C\to \mathrm{Com}_k$ where $\mathrm{Com}_k$ is the dg-category of complexes of $k$-vector spaces (that is Ch(Mod_k) with inner hom); similarly a right dg-module is a contravariant right dg-module. Morphisms between left dg-modules $L$ and $L'$ are elements of $Z^0\mathbf{Hom}(L,L')$ where the inner hom $\mathbf{Hom}$ is the complex of graded morphisms. Left dg-modules and their morphisms make a category $C-dgMod$
+which has a natural structure of [[Quillen exact category]],
+which is in fact [[Frobenius category|Frobenius]].
+There is a *Yoneda functor* $Z^0(C)\to C-dgMod$ given by $X\mapsto C(-,X)$. 
+
 # Pre-triangulated dg-categories #
 
 Intuitively, a dg-category is **pre-triangulated** if its homotopy category is a [[triangulated category]]. More precisely, it is pre-triangulated if the image of the Yoneda functor is closed under translations (in both directions) and extensions. 
