@@ -13,6 +13,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 #2009-04-11
 
+*  [[Toby Bartels]]:
+   *  Wrote [[axiom of foundation]], [[well-founded relation]], and [[well-ordering theorem]].
+   *  Added to [[successor]], [[inaccessible cardinal]], [[well-order]], and [[partial function]].
+   *  Commented on [[direct sum]], [[presentable (infinity,1)-category]], [[stable (infinity,1)-topos]], [[sequential convergence space]], and [[quantale]].
+   *  Moved material from [[Cat]] to [[n-category]].
+   *  Moved [[ordinal]] to [[ordinal number]], partly because it\'s more noun-like and partly to match [[cardinal number]].
+   *  Moved $1$-categorial material from [[compact object in an (infinity,1)-category]] to [[compact object]].
+
 * [[Mike Shulman|Mike]]:  Thanks Finn!  It was great to meet you too.  I sliced up your paragraph mentioning fibrations and incorporated the material in other places where I thought it fit better.
 
 * [[Zoran Škoda]]: Created [[Frobenius category]]; added material in [[dg-category]] on dg-modules, Yoneda functor and  "pre-triangulated". One should also explain the pre-triangulated envelope functor.
