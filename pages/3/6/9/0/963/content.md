@@ -11,4 +11,6 @@ http://en.wikipedia.org/wiki/Portmanteau) of "quantum" and "locale").
 
 +--{: .query}
 Now, if you really thought of quantales as quantum locales, then you would define a morphism of quantales to go backwards.  What does the literature say about that?  ---Toby
+
+[[Mike Shulman|Mike]]: I think that whatever the origins of the name, quantales are generally treated in the literature as more like "quantum frames" than "quantum locales."  Note, though, that in the past, it was common to use the word "locale" for what we now call a "frame" and simply distinguish between "locale homomorphisms" and "continuous maps."
 =--
