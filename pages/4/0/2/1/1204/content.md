@@ -1,6 +1,6 @@
-The aim of [[homological perturbation theory|Homological Perturbation Theory]] is to construct small chain complexes from large ones. It was originally developed for the calculation of chain models of the total spaces of fibre spaces, but has since developed into a useful general computational tool. 
+The aim of _Homological Perturbation Theory_ is to construct small [[chain complex]]es from large ones. It was originally developed for the calculation of chain models of the total spaces of fibre spaces, but has since developed into a useful general computational tool. 
 
-Let $(X,d), (Y,d)$ be chain complexes over a ring $R$ and let $f: X \to Y, \nabla: Y \to X$ be chain maps, and $\Phi: X \to X$ a chain homotopy such that 
+Let $(X,d), (Y,d)$ be chain complexes over a ring $R$ and let $f: X \to Y, \nabla: Y \to X$ be chain maps, and $\Phi: X \to X$ a [[chain homotopy]] such that 
 
 $$ f \nabla=1, \quad \nabla f= 1 + d\Phi + \phi d, $$ 
 
