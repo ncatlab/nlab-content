@@ -1,5 +1,4 @@
-Minimal logic is [[intuitionistic logic]] without the _ex falso
-quodlibet_ rule $\bot\vdash A$.  Alternatively, it may be presented as a [[sequent calculus]] where each sequent $\Gamma\vdash A$ must contain _exactly one_ formula on the right-hand side.
+Minimal logic is [[intuitionistic logic]] without the _ex falso quodlibet_ rule $\bot \vdash A$.  It may also be defined by starting with Gentzen\'s [[sequent calculus]] for classical logic and restricting to sequents $\Gamma\vdash\Delta$ where $\Delta$ must contain _exactly one_ formula.
 
 Because it is not the case here that
 anything follows from a contradiction, minimal logic is a
