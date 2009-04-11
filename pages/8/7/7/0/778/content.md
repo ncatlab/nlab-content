@@ -2,11 +2,11 @@
 
 A **dg-category** or **differential graded category** is a category [[enriched category|enriched]] over a [[symmetric monoidal category]] of [[category of chain complexes|chain complexes]], usually taken to be that of [[chain complex]]es of $k$-vector spaces for some field $k$: $dgCat := Ch(Mod_k)\Cat$.
 
-Notice that a dg-category $\mathbf{B}A$ with a single object is a _differential graded [[algebra]]_ $A$.
+Notice that a dg-category $\mathbf{B}A$ with a single object is a _differential graded algebra_ (see [[dg-algebra]]), $A$.
 
 +--{.query}
 
-[[Tim Porter|Tim]] : Would it be better to say cochain complexes as both Keller and Toen use the cochain convention?  This can be confusing. (In other words I am confused!) 
+[[Tim Porter|Tim]] : Would it be better to say cochain complexes as both Keller and Toen use the cochain convention?  This can be confusing. (In other words I am confused!) Things related to this seem central to several questions elsewhere. Perhaps a word here would be a good idea.
 
 To get from a simplicially enriched category to a chain enriched one is easy (it is linearisation plus Dold-Kan, looked at by Tabuada in arXiv:0711.3845) but to get to a dg-category in the sense of Keller or Toen  (i.e. cochain enriched) is more interesting and complicated.
 =--
