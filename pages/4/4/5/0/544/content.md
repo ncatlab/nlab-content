@@ -40,7 +40,7 @@ Then:
 
 One can also allow $D_0$, in which case one talks about weak $A_\infty$-algebras, which are less understood.
 
-There is a resolution of the operad $\mathrm{Ass}$ of associative algebras (as operad on the category of chain complexes) which is called the $A_\infty$-operad; the algebras over the [[A-infinity operad|$A_\infty$-operad]] are precisely the $A_\infty$-algebras. 
+There is a resolution of the operad $\mathrm{Ass}$ of associative algebras (as operad on the category of chain complexes) which is called the $A_\infty$-operad; the algebras over the $A_\infty$-[[A-infinity operad|operad]] are precisely the $A_\infty$-algebras. 
 
 A **morphism of $A_\infty$-algebras** $f : A\to B$ is a collection $\lbrace f_n\rbrace_{n\geq 1}$ of maps 
 $$
