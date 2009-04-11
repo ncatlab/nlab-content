@@ -9,7 +9,7 @@ The above definition is for the meet of two elements of a poset, but it can easi
 
 Special cases:  A meet of zero elements is a [[top]] element.  Any element $a$ is a meet of that one element.
 
-A poset that has all finite meets is a **meet-semi[[lattice]]**.  A poset that has all infima is a **[[complete lattice|complete]] meet-semilattice**.
+A poset that has all finite meets is a **meet-[[semilattice]]**.  A poset that has all infima is a **[[complete lattice|complete]] meet-semilattice**.
 
 As a poset is a special kind of [[category]], a meet is simply a [[product]] in that category.
 
