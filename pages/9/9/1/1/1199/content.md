@@ -8,6 +8,8 @@ then $x \in A$.  Such an $A$ may be called a _$\prec$-inductive subset_ of $S$. 
 
 # Examples #
 
+Let $S$ be a [[finite set]].  Then any relation on $S$ is well-founded.
+
 Let $S$ be the set of [[natural number]]s, and let $x \prec y$ if $y$ is the [[successor]] of $x$: $y = x + 1$.  That this relation is well-founded is the usual principle of _mathematical induction_.
 
 Again let $S$ be the set of natural numbers, but now let $x \prec y$ if $x \lt y$ in the usual order.  That this relation is well-founded is the principle of _strong induction_.
