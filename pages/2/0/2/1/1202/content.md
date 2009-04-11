@@ -18,6 +18,8 @@ Ironically, in [[constructive mathematics]], the well-ordering principle is actu
 
 +--{: .query}
 At least, as far as I can tell it doesn\'t.  I\'ve never actually seen a metamathematical result proving this, however.
+
+[[Mike Shulman|Mike]]: If "well-order" is interpreted in the classical sense "every nonempty set has a least element," then I believe it does imply full choice.  I don't know what happens if "well-order" is interpreted in the constructively reasonable sense.   I know that Zorn's lemma, even in the classical version, can be true in a non-Boolean topos, although it is not particularly useful without excluded middle.
 =--
 
 # Consequences #
@@ -26,4 +28,4 @@ If every set can be well-ordered, then the natural map from [[ordinal number]]s 
 
 As in the argument above, the [[axiom of choice]] follows; given any [[surjection]] $f: A \to B$, place a well-ordering on $A$ and then split $f$ by mapping an element $y$ of $B$ to the smallest element $x$ of $A$ such that $y = f(x)$.  Again, this uses [[excluded middle]] to show that such a smallest element exists, so the well-ordering principle does not (seem to) imply the axiom of choice constructively.
 
-To get the large axiom of choice (that any surjection between proper classes splits), we need a large well-ordering theorem: that every proper class can be well-ordered.  The large principles do not follow from the small ones.
+To get the large (or "global") axiom of choice (that any surjection between proper classes splits), we need a large well-ordering theorem: that every proper class can be well-ordered.  The large principles do not follow from the small ones.
