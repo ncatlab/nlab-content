@@ -24,7 +24,7 @@ If $A$ is a [[extensive category|superextensive]] [[site]], then the axiom of ch
 
 * In the context of [[constructive mathematics]], the full axiom of choice in $Set$ implies the principle of [[excluded middle]] and so is rejected.  However, weaker forms of choice, up to [[COSHEP]], are often (if not usually) accepted by constructivists.
 
-* The axiom of choice in $Set$ implies (and is implied by, given excluded middle) the [[well-ordering theorem]].
+* The axiom of choice in $Set$ implies (and is implied by, given excluded middle) the [[well-ordering theorem]] and [[Zorn's lemma]].
 
 * See also 
   * [[anafunctor]];
