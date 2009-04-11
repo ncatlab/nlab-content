@@ -4,6 +4,12 @@ A **dg-category** or **differential graded category** is a category [[enriched c
 
 Notice that a dg-category $\mathbf{B}A$ with a single object is a _differential graded [[algebra]]_ $A$.
 
++--{.query}
+
+[[Tim Porter|Tim]] : Would it be better to say cochain complexes as both Keller and Toen use the cochain convention?  This can be confusing. (In other words I am confused!) 
+
+To get from a simplicially enriched category to a chain enriched one is easy (it is linearisation plus Dold-Kan, looked at by Tabuada in arXiv:0711.3845) but to get to a dg-category in the sense of Keller or Toen  (i.e. cochain enriched) is more interesting and complicated.
+=--
 Therefore, following the terminology for [[horizontal categorification]] a dg-category might more descriptively be addressed as a **differential graded algebroid**. (A similar comment applies for instance to [[C*-category]], which is a $C^*$-algebroid.)
 
 A **left dg-module** over a dg-category $C$ is a dg-functor $L : C\to \mathrm{Com}_k$ where $\mathrm{Com}_k$ is the dg-category of complexes of $k$-vector spaces (that is Ch(Mod_k) with inner hom); similarly a right dg-module is a contravariant right dg-module. Morphisms between left dg-modules $L$ and $L'$ are elements of $Z^0\mathbf{Hom}(L,L')$ where the inner hom $\mathbf{Hom}$ is the complex of graded morphisms. Left dg-modules and their morphisms make a category $C dgMod$
