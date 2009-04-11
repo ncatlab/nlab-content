@@ -18,6 +18,8 @@ A set equipped with a well order is called a __well-ordered set__, or (following
 I for one would be happy to move this to [[well order]].  Indeed, when I began rewriting it, I naturally used that spelling until I got to the paragraph above.  ---Toby
 
 [[Mike Shulman|Mike]]: Well, I'm not an expert at grammar, so I don't know what the difference is between "well-order" and "well order."  Neither sounds really correct to me, however, since "well" is an _adverb_ but is being used as an adjective modifying "order."
+
+_Toby_:  Actually, 'well' (like 'ill') can be either an adjective or an adverb.  If it were an adverb here, then we wouldn\'t need the hyphen even in 'well ordered', and the noun would be 'good order'.  Note that an 'ordered set' is a set equipped with an order as well as a set that\'s been ordered (and in fact the verb 'order' is derived from the noun); so is a 'well ordered set' a set that\'s been ordered well, or is a 'well-ordered set' a set equipped with a well order?  (Although by this logic, there should be no hyphen in 'well-founded', since 'found' is definitely a verb there and not a noun.)
 =--
 
 # Examples #
@@ -42,7 +44,7 @@ this sends $a \in S$ to the lowest element of the subset $S_a := \{ s \in S, a \
 
 # Interpretation as an ordinal number #
 
-Any well-ordered set $S$ defines a (von Neumann) [[ordinal number]] $\alpha$ and an order isomorphism $r$ between $S$ and the set of ordinal numbers less than $\alpha$.  The idea is that the minimal element $\bot$ of $S$ itself (if any) is mapped to the ordinal number $0$, the minimal element of $S \setminus \{\bot\}$ (if any) is mapped to $1$, and so on; after which the next element of $S$ (if any) is mapped to $\omega$; and so on; and so on.
+Any well-ordered set $S$ defines an [[ordinal number]] $\alpha$ and an order isomorphism $r$ between $S$ and the set of ordinal numbers less than $\alpha$; as such, $S$ may be identified (up to isomorphism of wosets) with the von Neumann ordinal $\alpha$.  The idea is that the minimal element $\bot$ of $S$ itself (if any) is mapped to the ordinal number $0$, the minimal element of $S \setminus \{\bot\}$ (if any) is mapped to $1$, and so on; after which the next element of $S$ (if any) is mapped to $\omega$; and so on; and so on.
 
 This may be defined immediately (and constructively) as a recursively defined function from $S$ to the class of all ordinal numbers:
 $$ r(x) = \bigcup_{t \prec x} r(t)+ ;$$
