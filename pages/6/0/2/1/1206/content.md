@@ -1,0 +1,5 @@
+In a strict symmetric monoidal category $C$ with symmetry $\tau$, a map $\triangleright : B\otimes A\to A$, where $(B,\Delta_B)$ is a comonoid and $(A,\mu_A)$ a monoid, is a [[measuring|measuring]] if 
+$$
+B\triangleright \mu_A = \mu_A\circ(\triangleright \otimes \triangleright)\circ (B\otimes \tau\otimes A)\circ (\Delta_B\otimes A\otimes A) : B\otimes A\otimes A\to A
+$$
+where we wrote $B=\mathrm{id}_B$ etc. If $B$ is in fact a bimonoid and if the measuring $\triangleright:B\otimes A\to A$ is an [[action]], then $\triangleright$ is said to be a __Hopf action__. In the $k$-linear case, a $k$-algebra $(A,\mu_A)$ equipped with a Hopf action is called also a __left $B$-module algebra__; it is the same as a monoid (=algebra) in the monoidal category of left $B$-modules, where the monoidal structure is induced by the coaction $\Delta_B$. It is straightforward to modify the condition above to the case of non-strict symmetric monoidal categories. A dual concept is a *Hopf coaction* or equivalently, a notion of a $B$-[[comodule algebra]].
