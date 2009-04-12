@@ -26,6 +26,24 @@ In secondary-school mathematics, one often makes functions partial by fiat, just
 
 In analysis, one often considers partial functions whose domains are required to be intervals in the real line, regions of the complex plane, or dense subsets of a Banach space.
 
++-- {: .query}
+
+[[Ronnie Brown!Ronnie]] There is an interesting debate possible here! 
+
+On the basis of my teaching of first year analysis and calculus since 1959, I found the most convenient  idea is that of a function $f: R \to R$ being a _partial function_ with a domain  which can be calculated from a formula for the function, and may be empty. Then one finds that the inverse of an injective function $R \to R$ is also a function $R \to R$. A first order differential equation has a solution which is a partial function. What seems to be lacking is the functional analysis of such solutions. For example $dy/dx=1/ (\lambda +x)$ has a solution whose domain varies with $\lambda$ and ought to (and can be made to) vary continuously, including its open domain! 
+
+The work of Charles Ehresmann is full of partial functions, derived from his strong interest in analysis and differential geometry, and local-to-global problems. So he developed for example the theory of pseudogroups, and contributed to inverse semigroups. 
+
+A possible reason for the difficulties some have of accepting groupoids rather than groups is that groupoids have a partial composition, which is of course very intuitive when one thinks of composing journeys.  
+
+In higher dimensional algebra one is dealing with algebraic structures whose domains are defined by geometric conditions. 
+
+Of course category theory initially derived from algebra and algebraic topology, where partial functions are unusual. However they are necessary in dealing with fibred exponential laws, i.e. exponential laws in a slice category of $Top$, and their applications. See papers of Peter Booth. 
+
+
+
+=--
+
 In a [[field]], the multiplicative [[inverse]] is a partial function whose domain is the set of non-zero elements of the field.
 
 # The category of partial functions #
