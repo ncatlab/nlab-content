@@ -1,6 +1,6 @@
 # Idea #
 
-The _cardinal numbers_ (or just _cardinals_) constitute a generalisation of a [[natural number|natural numbers]]s to possibly infinite magnitudes.  Specifically, cardinal numbers generalise the concept of 'the number of ...'.  In particular, the number of natural numbers is the first infinite cardinal number.
+The _cardinal numbers_ (or just _cardinals_) constitute a generalisation of a [[natural number|natural numbers]] to possibly infinite magnitudes.  Specifically, cardinal numbers generalise the concept of 'the number of ...'.  In particular, the number of natural numbers is the first infinite cardinal number.
 
 # Definition #
 
@@ -11,10 +11,17 @@ Na&#239;vely, a **cardinal number** should be an [[isomorphism]] class of [[set]
 
 Then a **finite cardinal** is the cardinality of a [[finite set]], while an **infinite cardinal** or **transfinite cardinal** is the cardinality of an [[infinite set]].  (If you interpret both terms in the strictest sense, then there may be cardinals that are neither finite nor infinite, without some form of the [[axiom of choice]]).
 
-Taking this definition literally in material [[set theory]], each cardinal is then a [[proper class]] (so one could not make further sets using them as elements).  For this reason, in axiomatic set theory one usually defines a cardinal number as a particular representative of this equivalence class.  There are two ways to do this:
+Taking this definition literally in material [[set theory]], each cardinal is then a [[proper class]] (so one could not make further sets using them as elements).  For this reason, in axiomatic set theory one usually defines a cardinal number as a particular representative of this equivalence class.  There are several ways to do this:
 
-* The __cardinality__ of a set $S$ is the set of all [[ordinal number]]s (themselves usually defined following von Neumann) less than the ordinal rank of every [[well-order]] on $S$; then a __cardinal number__ is any cardinality.  On well-orderable sets, this cardinality function satisfies (1--3), but one needs the [[axiom of choice]] (or at least the [[well-ordering theorem]]) to prove that every set is well-orderable.
-* Alternatively, the __cardinality__ of a set $X$ is the set of all well-founded [[pure set]]s that are isomorphic as sets to $X$ and such that no pure set of smaller hereditary rank is isomoprhic to $X$.  On those sets that are isomorphic to some well-founded set in the [[von Neumann hierarchy]], this cardinality function satisfies (1--3), but one needs the [[axiom of foundation]] to prove that every set is isomorphic to a well-founded set.
+* The __cardinality__ of a set $S$ is the smallest possible ordinal rank of any [[well-order]] on $S$.  In other words, it is the smallest [[ordinal number]] (usually defined following von Neumann) which can be put in bijection with $S$.  A __cardinal number__ is then any cardinality, i.e. any ordinal which is not in bijection with any smaller ordinal.
+
+  * On well-orderable sets, this cardinality function satisfies (1--3), but one needs the [[axiom of choice]] (precisely, the [[well-ordering theorem]]) to prove that every set is well-orderable.  This approach is probably the most common one in the presence of the axiom of choice.
+
+  * In the absence of [[excluded middle]], when the "correct" definition of well-order is different from the usual one (and so "the least ordinal such that ..." may not exist), a better definition of the cardinality of $S$ is as the set of all [[ordinal number]]s less than the ordinal rank of every [[well-order]] on $S$.
+
+* Alternatively, we can define the __cardinality__ of a set $X$ to be the set of all well-founded [[pure set]]s that are isomorphic as sets to $X$ and such that no pure set of smaller hereditary rank (that is, which occurs earlier in the [[von Neumann hierarchy]]) is isomorphic to $X$.
+
+  * On those sets that are isomorphic to some well-founded set in the [[von Neumann hierarchy]], this cardinality function satisfies (1--3), but one needs a weak form of the [[axiom of foundation]] to prove that every set is isomorphic to a well-founded set.  (The ordinary [[axiom of foundation]] is the stronger statement that every set is itself well-founded.  It follows from the [[axiom of choice]], for instance, that any set is isomorphic to a well-founded one, since then any set is isomorphic to a well-ordered one.)
 
 In the absence of the appropriate axioms, the definitions above can still be used to define __well-ordered cardinals__ and __well-founded cardinals__, respectively.
 
@@ -23,6 +30,10 @@ From the perspective of structural [[set theory]], it is [[evil]] to care about 
 * A __cardinal__ is a [[set]] (that is, an object of [[Set]]).
 
 However, one still may need sets of cardinals, that is sets that serve as the target of a cardinality function satisfying (1--3) on any small class of sets.  One defines this as a [[quotient set]] of the set of those sets under consideration.
+
++--{: .query}
+_Mike_: I don't understand that last paragraph.
+=--
 
 Lowercase Greek letters starting from $\kappa$ are often used for cardinal numbers.
 
