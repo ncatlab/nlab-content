@@ -22,7 +22,7 @@ This result derived from earlier work of G. Hirsch, E.H. Brown, Weishu Shih, and
 
 #References#
 
-* R. Brown, The twisted Eilinberg-Zilber Theorem,  Simposio di Topologia (Messina, 1964)  pp. 33--37 Edizioni Oderisi, Gubbio
+* R. Brown, The twisted Eilenberg-Zilber Theorem,  Simposio di Topologia (Messina, 1964)  pp. 33--37 Edizioni Oderisi, Gubbio
 
 * Barnes, Donald W.(5-SYD-PM); Lambe, Larry A.(5-SYD-PM)
 A fixed point approach to homological perturbation theory.
