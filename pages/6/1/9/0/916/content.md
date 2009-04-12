@@ -22,13 +22,13 @@ We consider two partial functions (with the same given source and target) to be 
 
 # Examples #
 
-In secondary-school mathematics, one often makes functions partial by fiat, just to see if students can calculate the domains of composite functions and the like.  This is not (only) busywork, as in applications one often has a function given by a formula that is really valid only on a certain domain.  However, in a more sophisticated analyses (such as those that Lawvere and his followers propose for physics and synthetic geometry), these domains and the total functions on them become the primary objects of study, with the partial functions being secondary (as $\iota$ is seen as merely a way to place _coordinates_ on $D$).
+In secondary-school mathematics, one often makes functions partial by fiat, just to see if students can calculate the domains of composite functions and the like.  This is not (only) busywork, as in applications one often has a function given by a formula that is really valid only on a certain domain.  However, in more sophisticated analyses (such as those that Lawvere and his followers propose for physics and synthetic geometry), these domains and the total functions on them become the primary objects of study, with the partial functions being secondary (as $\iota$ is seen as merely a way to place _coordinates_ on $D$).
 
 In analysis, one often considers partial functions whose domains are required to be intervals in the real line, regions of the complex plane, or dense subsets of a Banach space.
 
 +-- {: .query}
 
-[[Ronnie Brown!Ronnie]] There is an interesting debate possible here! 
+[[Ronnie Brown|Ronnie]] There is an interesting debate possible here! 
 
 On the basis of my teaching of first year analysis and calculus since 1959, I found the most convenient  idea is that of a function $f: R \to R$ being a _partial function_ with a domain  which can be calculated from a formula for the function, and may be empty. Then one finds that the inverse of an injective function $R \to R$ is also a function $R \to R$. A first order differential equation has a solution which is a partial function. What seems to be lacking is the functional analysis of such solutions. For example $dy/dx=1/ (\lambda +x)$ has a solution whose domain varies with $\lambda$ and ought to (and can be made to) vary continuously, including its open domain! 
 
@@ -40,7 +40,9 @@ In higher dimensional algebra one is dealing with algebraic structures whose dom
 
 Of course category theory initially derived from algebra and algebraic topology, where partial functions are unusual. However they are necessary in dealing with fibred exponential laws, i.e. exponential laws in a slice category of $Top$, and their applications. See papers of Peter Booth. 
 
+_Toby_:  For first-year calculus, I agree with you, except that you ought to be able to restrict the definition to an interval (or a union of intervals) by fiat.  (Actually, you can get this from formulas by adding appropriate terms of the form $\sqrt {x-a} - \sqrt{x-a}$, $\log(a-x) - \log(a-x)$, etc, but that\'s silly.)  So calculus is about (certain) functions to $\mathbf{R}$ from unions of intervals on $\mathbf{R}$.  Of course, this doesn\'t include *all* partial functions on $\mathbf{R}$, but then it doesn\'t even include all such *total* functions, so maybe the restriction on allowed domains doesn\'t matter.
 
+But if you disagree that 'in more sophisticated analyses [...], these domains and the total functions on them become the primary objects of study', then feel free to change the text (say to 'in other analyses [...]'; I don\'t intend to defend the claim that this is really the right way to do things.
 
 =--
 
