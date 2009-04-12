@@ -29,6 +29,11 @@ A [[twisting function]] is an analogue of a twisting cochain in the context of [
 
 This area is related to [[homological perturbation theory]], often abbreviated to HPT. 
 
++--{+ .query}
+It is equally true that it is related to 20 more areas like
+that one (which is not the central). Brown's paper on twisting cochains, is much earlier than homological perturbation theory. basic idea was to give algebraic models for fibrations. Nowedays you have these things in deformation theory, A-infty, gluing of complexes on varieties, Grothendieck duality on complex manifolds (Toledo-Tong), rational homotopy theory etc. One should either give a fairly balanced view to all applications or not list anything, otherwise it is not fair. This should be done together with massive expansion of [[Maurer-Cartan equation]] what is almost the same topic. The same with literature: Smirnov's book on simplicial and operadic methods in algebraic topology is the most wide reference for twisting cochains and related issues in algebraic topology setup; Keller wrote much and well about this and Lefevre-Hasegawa thesis is very good, and the first reference is E. Brown's paper from 1959. For applications in deformation theory there are many references, pretty good one from dg point of view and using 2-categorical picture of def functors is a trilogy of Efimov, Lunts and orlov on the arXiv. Few days ago Sharygin wrote a long article on twisting cochains on the arXiv, with more specific purposes in index theory. Interesting is the application of Baranovsky on constructing universal enveloping of L infty algebra. -- Zoran
+=--
+
 #Reference# 
 
 D. Barnes and L. A. Lambe, A Fixed Point Approach to Homological Perturbation Theory, with Don Barnes, Proc. AMS, 112 (1991), 881-892. 
