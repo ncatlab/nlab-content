@@ -1,8 +1,8 @@
-The _well-ordering theorem_ states that every [[set]] may be [[well-order]]ed.  It is a theorem in the sense that it can be proved assuming the [[axiom of choice]].  On the other hand, the axiom of choice can instead be proved using the well-ordering theorem and the principle of [[excluded middle]].
+The _well-ordering theorem_ states that every [[set]] may be [[well-order|well-ordered]].  It is a theorem in the sense that it can be proved assuming the [[axiom of choice]].  On the other hand, the axiom of choice can instead be proved using the well-ordering theorem and the principle of [[excluded middle]].
 
 # Statement and proof #
 
-Given any [[set]] $S$, there exists a [[well-order|well order]] $\prec$ on $S$.
+Given any [[set]] $S$, there exists a [[well-order]] $\prec$ on $S$.
 
 To prove this, ... read [Zermelo](http://gdz.sub.uni-goettingen.de/no_cache/en/dms/load/img/?IDDOC=28526) (in German).
 
@@ -13,9 +13,9 @@ Georg Cantor first developed [[set theory]] in the context of studying well-orde
 Ernst Zermelo gave a proof in 1904, but many mathematicians were concerned about the proof\'s validity.  Analysis of Zermelo\'s proof isolated the [[axiom of choice]] and led to that axiom\'s first explicit formulation (also by Zermelo).
 
 That the well-ordering theorem is more of a *theorem* in need of a proof, while the axiom of choice is more of an *axiom* to be assumed without proof is, of course, a matter of opinion, but it\'s reflected in Jerry Bona\'s famous quotation:
->The Axiom of Choice is obviously true, the well-ordering principle obviously false, and who can tell about Zorn's lemma?
+>The Axiom of Choice is obviously true, the well-ordering principle obviously false, and who can tell about [[Zorn's lemma]]?
 
-Ironically, in [[constructive mathematics]], the well-ordering principle is actually *weaker* than the full axiom of choice, as it does not imply excluded middle by itself.  However, this requires a careful definition of 'well order'; using a more na&#239;ve definition (called 'classical well-order' at [[well-order]]) makes the well-ordering theorem imply [[excluded middle]] and then the full axiom of choice by the usual classical argument.
+Ironically, in [[constructive mathematics]], the well-ordering principle is (seemingly) actually *weaker* than the full axiom of choice, as it does not imply excluded middle by itself.  It does, however, imply the full axiom of choice (and hence excluded middle) if by 'well-order' we mean a _classical_ [[well-order]], in the sense that every inhabited subset has a least element, rather than the constructively sensible notion of well-order that merely permits inductive proofs.  [[Zorn's lemma] is likewise constructively weaker than the axiom of choice, although it is not particularly useful without excluded middle.
 
 +--{: .query}
 At least, as far as I can tell it doesn\'t.  I\'ve never actually seen a metamathematical result proving this, however.
@@ -31,6 +31,8 @@ _Toby_:  Shockingly many constructivists aren\'t aware how to fix the definition
 We have '[[choice object|choice set]]' for 'classically well-order*able* set', so maybe we could say 'choice order' or something for 'classical well-order'.  (Obviously, those constructivists who say 'choice set' for a [[projective object|projective set]] wouldn\'t use this term.)  There may be more terms in Paul Taylor\'s [paper](http://paultaylor.eu/ordinals/#intso) on various kinds of ordinals in constructive mathematics (as isomorphism classes of well-ordered sets are not the only useful kind), which I\'ve never fully read.
 
 But I think that 'classically well-ordered' should be all right.  By default, 'well-ordered' should mean the constructively correct notion, since this is what constructivists need and classical mathematicians don\'t care.  The only place where 'classically well-ordered' needs to be said is here (and possibly at [[axiom of choice]]), in the definition section of [[well-order]], and perhaps in statements about well-ordered sets that aren\'t constructively valid (if adding 'classically' will make them constructively valid), but even that is kind of pointless and it\'s simpler just to say that the result is not constructively valid and useful.
+
+[[Mike Shulman|Mike]]: I've started trying to uniformize terminology among these pages, using 'classical well-order' where appropriate.  I agree that 'well-order' should mean the constructively correct notion, but I don't want to alienate non-constructivists by hiding the definition they are familiar with in comments about constructivism.  So I'm trying to isolate the comments about constructivism a bit.  I think this query box could probably be deleted now.
 =--
 
 # Consequences #
