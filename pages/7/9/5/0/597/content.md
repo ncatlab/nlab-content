@@ -61,4 +61,4 @@ Actually, Street's paper referenced below gives a version of regularity and exac
 
 # References #
 
-Street, "The family approach to total cocompleteness and toposes."  Transactions of the AMS 281 no. 1, 1984
+Street, "The family approach to total cocompleteness and toposes."  Transactions of the AMS 284 no. 1, 1984
