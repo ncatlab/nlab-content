@@ -21,7 +21,7 @@ Taking this definition literally in material [[set theory]], each cardinal is th
 
 * Alternatively, we can define the __cardinality__ of a set $X$ to be the set of all well-founded [[pure set]]s that are isomorphic as sets to $X$ and such that no pure set of smaller hereditary rank (that is, which occurs earlier in the [[von Neumann hierarchy]]) is isomorphic to $X$.
 
-  * On those sets that are isomorphic to some well-founded set in the [[von Neumann hierarchy]], this cardinality function satisfies (1--3), but one needs a weak form of the [[axiom of foundation]] to prove that every set is isomorphic to a well-founded set.  (The ordinary [[axiom of foundation]] is the stronger statement that every set is itself well-founded.  It follows from the [[axiom of choice]], for instance, that any set is isomorphic to a well-founded one, since then any set is isomorphic to a well-ordered one.)
+  * On those sets that are isomorphic to some well-founded set, this cardinality function satisfies (1--3), but one needs some assumption to prove that every set is isomorphic to a well-founded set.  (This will follow directly from the [[axiom of foundation]]; it will also follow from the [[axiom of choice]], since then every set is isomoprhic to a von Neumann ordinal.)
 
 In the absence of the appropriate axioms, the definitions above can still be used to define __well-ordered cardinals__ and __well-founded cardinals__, respectively.
 
@@ -29,10 +29,14 @@ From the perspective of structural [[set theory]], it is [[evil]] to care about 
 
 * A __cardinal__ is a [[set]] (that is, an object of [[Set]]).
 
-However, one still may need sets of cardinals, that is sets that serve as the target of a cardinality function satisfying (1--3) on any small class of sets.  One defines this as a [[quotient set]] of the set of those sets under consideration.
+However, one still may need sets of cardinals, that is sets that serve as the target of a cardinality function satisfying (1--3) on any (small) collection of sets.  One can construct this as a [[quotient set]] of that collection.
 
 +--{: .query}
 _Mike_: I don't understand that last paragraph.
+
+_Toby_:  The reason why material set theorists go to all this trouble to define cardinal numbers as sets rather than proper classes is so that they can make them elements of sets.  This isn\'t just for fun; if you have a small collection of sets, then you want to form the set of their cardinalities.  Fortunately, this is easy to do up to isomorphism, which is all that we need.
+
+I think that my wording was a bit confusing, so perhaps it\'s clearer now.
 =--
 
 Lowercase Greek letters starting from $\kappa$ are often used for cardinal numbers.
