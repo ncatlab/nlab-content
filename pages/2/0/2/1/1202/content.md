@@ -14,7 +14,8 @@ Ernst Zermelo gave a proof in 1904, but many mathematicians were concerned about
 
 That the well-ordering theorem is more of a *theorem* in need of a proof, while the axiom of choice is more of an *axiom* to be assumed without proof is, of course, a matter of opinion, but it\'s reflected in Jerry Bona\'s famous quotation:
 >The Axiom of Choice is obviously true, the well-ordering principle obviously false, and who can tell about Zorn's lemma?
-Ironically, in [[constructive mathematics]], the well-ordering principle is actually *weaker* than the full axiom of choice, as it does not imply excluded middle by itself.
+
+Ironically, in [[constructive mathematics]], the well-ordering principle is actually *weaker* than the full axiom of choice, as it does not imply excluded middle by itself.  However, this requires a careful definition of 'well order'; using a more na&#239;ve definition (called 'classical well-order' at [[well-order]]) makes the well-ordering theorem imply [[excluded middle]] and then the full axiom of choice by the usual classical argument.
 
 +--{: .query}
 At least, as far as I can tell it doesn\'t.  I\'ve never actually seen a metamathematical result proving this, however.
@@ -24,6 +25,12 @@ At least, as far as I can tell it doesn\'t.  I\'ve never actually seen a metamat
 _Toby_:  That\'s correct; any well-ordered set, even in the slightly weaker sense that every *inhabited* subset has a least element, must be a choice set (as you remarked at [[choice object]]).  One of us should add a note about that to this article.
 
 _Mike_: It would be nice to have different words to distinguish between "constructively correctly well-ordered" and "classically well-ordered."  The [[Elephant]], at least, uses "well-ordered" for the classical notion which implies choice; do most practicing constructivists use the constructively sensible notion?
+
+_Toby_:  Shockingly many constructivists aren\'t aware how to fix the definition (which is highly non-predicative anyway).  Some use the no-infinite-descending-chains version for the purpose of doing Burali-Forti, but it\'s not good for anything else.  Since the existence of any 'classically' well-ordered set with two non-equal elements implies excluded middle already, many constructivists consider the concept useless.  So basically, constructivists either have to do it right or not at all.
+
+We have '[[choice object|choice set]]' for 'classically well-order*able* set', so maybe we could say 'choice order' or something for 'classical well-order'.  (Obviously, those constructivists who say 'choice set' for a [[projective object|projective set]] wouldn\'t use this term.)  There may be more terms in Paul Taylor\'s [paper](http://paultaylor.eu/ordinals/#intso) on various kinds of ordinals in constructive mathematics (as isomorphism classes of well-ordered sets are not the only useful kind), which I\'ve never fully read.
+
+But I think that 'classically well-ordered' should be all right.  By default, 'well-ordered' should mean the constructively correct notion, since this is what constructivists need and classical mathematicians don\'t care.  The only place where 'classically well-ordered' needs to be said is here (and possibly at [[axiom of choice]]), in the definition section of [[well-order]], and perhaps in statements about well-ordered sets that aren\'t constructively valid (if adding 'classically' will make them constructively valid), but even that is kind of pointless and it\'s simpler just to say that the result is not constructively valid and useful.
 =--
 
 # Consequences #
