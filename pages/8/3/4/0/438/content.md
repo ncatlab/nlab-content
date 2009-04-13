@@ -19,8 +19,7 @@ I am also very interested in directed homotopy theory and the application of ide
 
 
 
-+-- {: .query}
 
+See also my [private $n$Lab area](http://ncatlab.org/timporter/show/HomePage).
 
-=--
 category: people
