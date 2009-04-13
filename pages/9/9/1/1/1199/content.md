@@ -6,6 +6,9 @@ Given a [[subset]] $A$ of $S$, suppose that $A$ has the property that, given any
 $$ \forall (t: S),\; t \prec x \Rightarrow t \in A ,$$
 then $x \in A$.  Such an $A$ may be called a _$\prec$-inductive subset_ of $S$.  The relation $\prec$ is __well-founded__ if the only $\prec$-inductive subset of $S$ is $S$ itself.
 
+Note that this is precisely what is necessary to validate induction over $\prec$: if we can show that a statement is true of $x\in S$ whenever it is true of everything $\prec$-below $x$, then it must be true of everything in $S$.  In the presence of [[excluded middle]] it is equivalent to other commonly stated definitions; see "alternative formulations" below.
+
+
 # Examples #
 
 Let $S$ be a [[finite set]].  Then any relation on $S$ is well-founded.
@@ -20,7 +23,7 @@ Let $S$ be the set of positive integers, and let $x \prec y$ mean that $x$ divid
 
 # Alternative formulations #
 
-While the definition above follows how a well-founded relation is generally *used* ---to prove properties of elements of $S$ by induction---, it is complicated.  Two alternative formulations are given by the following lemmas:
+While the definition above follows how a well-founded relation is generally *used* (namely, to prove properties of elements of $S$ by induction), it is complicated.  Two alternative formulations are given by the following lemmas:
 
 1. The relation $\prec$ is well-founded if and only if there exists no infinite descending [[sequence]] $\cdots \prec x_2 \prec x_1 \prec x_0$.
 
@@ -28,7 +31,12 @@ While the definition above follows how a well-founded relation is generally *use
 
 Lemma (1) is essentially Fermat\'s method of _infinite descent_.  Lemma (2) is favoured as a definition by set theorists (particularly when stating the [[axiom of foundation]]), since it uses neither higher-order reasoning (as our first definition does) or infinity (as infinite descent does).
 
-However, neither of these is acceptable in [[constructive mathematics]].  This is because both lemmas require the principle of [[excluded middle]] to prove one direction.  Thus the nonexistence of infinite descending sequences is too weak to allow proofs by induction (except for special forms of $A$), while the requirement that every inhabited subset have a minimal element is too strong to ever be established (except for degenerate cases of $S$).
++--{: .query}
+[[Mike Shulman|Mike]]: Why is Lemma (2) not higher-order?  It still involves a quantifier over subsets.
+=--
+
+However, neither of these is acceptable in [[constructive mathematics]], since both lemmas require the principle of [[excluded middle]] to prove one direction.  The nonexistence of infinite descending sequences is too weak to allow proofs by induction (except for special forms of $A$), although it is sufficient to establish the [[Burali-Forti paradox]].  On the other hand, the requirement that every inhabited subset have a minimal element is too strong to ever be established (except for degenerate cases of $S$).  When necessary, we call a relation with the property of Lemma (2) **classically well-founded**.
+
 
 # Remarks #
 
