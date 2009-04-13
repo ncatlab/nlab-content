@@ -9,7 +9,9 @@ R \times_X R & \stackrel{q_2}\rightarrow & R\\
 \downarrow^{q_1} && \downarrow^{p_1}\\
 R & \stackrel{p_2}\rightarrow & X
 }$$
-the following holds: $p_1\circ q_1 = p_1\circ t$ and $p_2\circ q_2 = p_2\circ t$. 
+the following holds: $p_1\circ q_1 = p_1\circ t$ and $p_2\circ q_2 = p_2\circ t$.
+
+Note that since $(p_1,p_2)$ is a [[monomorphism]], the maps $r$, $s$, and $t$ are necessarily unique if they exist.
 
 Any [[kernel pair]] is a congruence; a congruence which is the kernel pair of some morphism is called **effective**.  The [[coequalizer]] of a congruence is called a **[[quotient object]]**.  An effective congruence is always the kernel pair of its quotient if that quotient exists; the quotient of an effective congruence is an **effective quotient**.  A [[regular category]] is called an [[exact category]] if every congruence is effective.
 
