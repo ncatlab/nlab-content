@@ -1,4 +1,4 @@
-For a given fixed [[ETCS|category of sets]] $S$, a __Grothendieck topos__ over $S$ may be defined as a category of [[sheaf|sheaves]] over a [[site]] which is [[small category|small]] relative to $S$, that is a site [[internal category|internal]] to $S$. (The site is not considered part of the structure; different sites may give rise to the same category of sheaves.) 
+For a given fixed [[ETCS|category of sets]] $S$, a __Grothendieck [[topos]]__ over $S$ may be defined as a category of [[sheaf|sheaves]] over a [[site]] which is [[small category|small]] relative to $S$, that is a site [[internal category|internal]] to $S$. (The site is not considered part of the structure; different sites may give rise to the same category of sheaves.) 
 
 Giraud characterized Grothendieck toposes as categories satisfying certain exactness and small [[complete category|completeness]] properties (where "small" is again relative to the given category of sets $S$). The exactness properties are elementary (not depending on $S$), and are satisfied in any elementary [[topos]], or even a [[pretopos]].
 
