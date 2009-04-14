@@ -10,7 +10,7 @@ Then
 
 * the category $Sh(S)$ of [[sheaf|sheaves]] on $S$ is the full [[subcategory]] of the category of $PSh(S)$ on sheaves;
 
-* the [[stuff, structure, property|fully faithful forgetful]] inclusion functor $i : Sh(S) \hookrightarrow PSh(S)$ has an [[left adjoint]] $\bar{(-)} : PSh(S) \to Sh(S)$ -- [[sheafification]] -- which is [[exact functor|exact]];
+* the [[stuff, structure, property|fully faithful forgetful]] inclusion functor $i : Sh(S) \hookrightarrow PSh(S)$ has an [[adjoint functor|left adjoint]] $\bar{(-)} : PSh(S) \to Sh(S)$ -- [[sheafification]] -- which is [[exact functor|exact]];
 
 * the functor $L := i \circ \bar{(-)}: PSh(S) \to PSh(S)$ whose [[image]] is $Sh(S)$ has the property that $L(A_1 \to A_2)$ is an [[isomorphism]] if and only if $A_1 \to A_2$ is a [[local isomorphism]];
 
@@ -20,7 +20,7 @@ $$
   \,.
 $$
 
-* also the converse is true: for every [[exact functor|left exaxt]] functor $L : PSh(S) \to PSh(S)$ (preserving finite limits) which is [[left adjoint]] to the inclusion of its image, there is a Grothendieck topology on $S$ such that the image of $L$ is the category of sheaves on $S$ with respect to that topology 
+* also the converse is true: for every [[exact functor|left exaxt]] functor $L : PSh(S) \to PSh(S)$ (preserving finite limits) which is [[adjoint functor|left adjoint]] to the inclusion of its image, there is a Grothendieck topology on $S$ such that the image of $L$ is the category of sheaves on $S$ with respect to that topology 
 
 +--{: .query}
 [[Mike Shulman|Mike]]: You need $L$ to be [[exact functor|left exact]] .  (And actually, to be completely precise, it is not that $L : PSh(S) \to PSh(S)$ itself has a ff right adjoint, but that $L$ is left adjoint to _the_ (necessarily ff) inclusion of its full image.)  Under that hypothesis the proof can be found in many books on topos theory.  You might want to go via a [[Lawvere-Tierney topology]] on $Psh(S)$.
