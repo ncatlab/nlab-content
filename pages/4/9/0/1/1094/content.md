@@ -9,7 +9,7 @@ $$
 
 This functor is **sheafification**. 
 
-Sheafification is [[exact functor|left exact]] [[left adjoint]] to the [[stuff, structure, property|fully faithful forgetful]] [[injection|subcategory]] [[functor]] $i : Sh(S) \hookrightarrow PSh(S)$. Therefore it constitutes a [[geometric morphism]] of [[Grothendieck topos|Grothendieck topoi]]
+Sheafification is [[exact functor|left exact]] [[adjoint functor|left adjoint]] to the [[stuff, structure, property|fully faithful forgetful]] [[injection|subcategory]] [[functor]] $i : Sh(S) \hookrightarrow PSh(S)$. Therefore it constitutes a [[geometric morphism]] of [[Grothendieck topos|Grothendieck topoi]]
 
 $$
   PSh(S) \stackrel{\stackrel{\bar {(-)}}{\to}}{\stackrel{i}{\leftarrow}}
@@ -100,7 +100,7 @@ $$
 
 * For more on the role of sheafification see [[category of sheaves]].
 
-* The notion of sheafification generalizes from [[presheaf]] [[Grothendieck topos|Grothendieck topoi]] to arbitrary [[topos|topoi]] with [[Lawvere-Tierney topology]]. See [[sheafification in a Lawvere-Tierney topos]].
+* The notion of sheafification generalizes from [[presheaf]] [[Grothendieck topos|Grothendieck topoi]] to arbitrary [[topos|topoi]] with [[Lawvere-Tierney topology]]. See the last.
 
 * The notion of sheafification also generalizes from the 1-categorical to the [[(infinity,1)-category|(infinity,1)-categorical]] context. See [[(infinity,1)-category of (infinity,1)-sheaves]]. 
 
