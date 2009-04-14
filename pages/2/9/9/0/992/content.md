@@ -122,7 +122,7 @@ A [[triangulated category]] linear over a field $k$ can canonically be refined t
 
 * a pre-triangulated [[dg-category]];
 
-* an [[A-infinity category]];
+* an [[A-infinity-category]];
 
 * a stable $(\infinity,1)$-category.
 
