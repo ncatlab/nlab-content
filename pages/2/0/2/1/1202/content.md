@@ -33,6 +33,8 @@ We have '[[choice object|choice set]]' for 'classically well-order*able* set', s
 But I think that 'classically well-ordered' should be all right.  By default, 'well-ordered' should mean the constructively correct notion, since this is what constructivists need and classical mathematicians don\'t care.  The only place where 'classically well-ordered' needs to be said is here (and possibly at [[axiom of choice]]), in the definition section of [[well-order]], and perhaps in statements about well-ordered sets that aren\'t constructively valid (if adding 'classically' will make them constructively valid), but even that is kind of pointless and it\'s simpler just to say that the result is not constructively valid and useful.
 
 [[Mike Shulman|Mike]]: I've started trying to uniformize terminology among these pages, using 'classical well-order' where appropriate.  I agree that 'well-order' should mean the constructively correct notion, but I don't want to alienate non-constructivists by hiding the definition they are familiar with in comments about constructivism.  So I'm trying to isolate the comments about constructivism a bit.  I think this query box could probably be deleted now.
+
+_Toby_:  Well, constructivists are used to being isolated.  At least we give the good definitions *first*, so that\'s a big improvement!  (^_^)
 =--
 
 # Consequences #
