@@ -87,7 +87,7 @@ For a pedagogical motivation of the general topic under consideration here see
 
     * [[discrete category]]
 
-    * [[poset]]
+    * [[partial order|poset]]
 
     * [[groupoid]]
 
