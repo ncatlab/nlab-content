@@ -120,5 +120,6 @@ and the object $x$ is also called the **pullback**.  It has the universal proper
 Note that the concept of pullback is dual to the concept of [[pushout]]: that is, a pullback in $C$ is the same as a pushout in $C^{op}$.
 
 # See also:
+* [[base change]]
 * [[homotopy pullback]]
 * [[2-limit]] for pullbacks in a [[2-category]]
