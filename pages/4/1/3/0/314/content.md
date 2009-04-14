@@ -356,6 +356,6 @@ Here are some important examples of limits, classified by the shape of the diagr
 
 ## Familiar concepts that are examples of limits ##
 
-* A limit over a [[subcategory|sub-poset]] $F : D \hookrightarrow C$ of a [[poset]] is, if it exists, the **supremum** of $D$ in $C$. Similarly, the limit over $F^{op} : D^{op} \to C^{op}$ is, if it exists, the **infimum** of $D$ in $C$.
+* A limit over a [[subcategory|sub-poset]] $F : D \hookrightarrow C$ of a [[partial order|poset]] is, if it exists, the **supremum** of $D$ in $C$. Similarly, the limit over $F^{op} : D^{op} \to C^{op}$ is, if it exists, the **infimum** of $D$ in $C$.
 
 
