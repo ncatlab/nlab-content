@@ -19,3 +19,17 @@ While the statement above follows how the axiom of foundation is generally *used
 Lemma (1) is essentially a transfinite version of Fermat\'s method of _infinite descent_.  Lemma (2) is favoured by set theorists as a statement of the axiom, since it uses neither higher-order reasoning (as our first definition does) or infinity (as infinite descent does).
 
 However, neither of these is acceptable in [[constructive mathematics]].  This is because both lemmas require the principle of [[excluded middle]] to prove one direction.  Thus the nonexistence of infinite descending sequences is too weak to allow proofs by transfinite induction (except for special forms of $A$), while the requirement that every inhabited pure set have a minimal element is unnecessarily strong and itself implies excluded middle.
+
+# Anti-foundation #
+
+Most of set theory works without the axiom of foundation, but not the deep study of well-founded pure sets.  However, one might want to do material set theory without assuming that all sets are well-founded, then one would not assume this axiom.
+
+Alternatively, one can adopt the __axiom of anti-foundation__, which says something like:
+
+* given any binary [[relation]] $\prec$ on any [[set]] $S$, there exists a unique [[transitive set]] $U$ such that $(U,\in)$ is [[isomorphism|isomorphic]] to $(S,\prec)$.
+
+Note that the axiom of foundation is precisely the converse of this for a [[well-founded relation]] $\prec$.
+
+(This might be wrong, so somebody should fix it.  There might also be several versions.)
+
+category: foundational axiom
