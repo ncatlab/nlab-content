@@ -1,4 +1,4 @@
-Let [[Top]] be a category of [[topological space]]s and $B$ an object in $Top$ (the 'base' space). The [[slice category]] $Top/B$ is called the category of (topological) spaces over $B$ (or sometimes simply bundles).
+Let [[Top]] be a category of [[topological space]]s and $B$ an object in $Top$ (the 'base' space). The [[over category|slice category]] $Top/B$ is called the category of (topological) spaces over $B$ (or sometimes simply bundles).
 
 An __&#233;tale space__ (or _&#233;tale map_) over $B$ is an object $p:E\to B$ in $Top/B$ such that $p$ is a [[local homeomorphism]]: that is, for every $e\in E$, there is an open neighborhood $U\ni e$ such that $p(U)$ is open in $B$ and the restriction $p|_{p(U)}:U\to p(U)$ is a homeomorphism. The set $E_x = p^{-1}(x)$ where $x\in U$ is called the __[[stalk]]__ of $p$ over $x$.  The underlying set of the _total space_ $E$ (from 'espace') is the union of its stalks (notice that we do not say fiber!).  $p$ is sometimes refered to as the _projection_.
 
