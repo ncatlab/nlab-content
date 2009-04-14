@@ -30,6 +30,71 @@ If we assume only (1)--(3), then the identity morphism $1_0:0\to 0$ of the initi
 
 Note that any object isomorphic to a $U$-small object is $U$-small; thus in the language of [[Grothendieck universe]]s this notion of smallness corresponds to _essential_ smallness.  Roughly, we may say that (1) corresponds to transitivity of a Grothendieck universe, (3) and (4) correspond to closure under power sets, and (2) corresponds to closure under indexed unions.
 
+#Example: universes in SET#
+
+We spell out in detail some implications of these axioms for the case
+that the [[topos]] in question is the Categeory of Sets according to 
+[[ETCS]], to be denoted $SET$.
+
+Write $*$ for [[generalized the|the]] 
+[[terminal object]] in $SET$, the singleton set. Notice that for each
+ordinary element $u \in U$, i.e. $* \stackrel{u}{\to} U$, there is the
+set $E_u $ over $u$, defined as the [[pullback]] 
+$$\array{
+  E_u &\to& E
+  \\
+  \downarrow && \downarrow
+  \\
+  * &\stackrel{u}{\to}& U
+}$$
+
+(We think of $E$ as being the disjoint union over $U$ of the $E_u$.
+(  Can we make this precise? ))
+
+* By the definition of $U$-smallness and the notation just introduced, 
+an object $S$ in $SET$, regarded as a $*$-indexed family
+$S \to *$, is $U$-small precisely if it is isomorphic to 
+one of the $E_u$.
+
+* If $S$ is a $U$-small set by the above and if 
+$S_0 \hookrightarrow S$ is a [[monomorphism]] so that $S_0$
+is a subset of $S$, it follows from 1) and 2) that the comoposite 
+$(S_0 \hookrightarrow S \to *) = (S_0 \to *)$ is $U$-small, hence that
+$S_0$ is $U$-small. So: a subset of a $U$-small set is $U$-small.
+
+  * In particular, let $\emptyset$ be the [[initial object]], which is
+  a subset $\emptyset \hookrightarrow \Omega$ of $\Omega = \mathbf{2}$. So: the 
+  empty set is $U$-small.
+  
+* Let $S$, $T$ and $K$ be objects of $SET$, regarded as $*$-indexed families
+$f : S \to *$, $T \to *$ and $K \to *$. Notice that 
+$(SET\downarrow S)(f^* K, f^* T) \simeq (SET\downarrow S)(\array{K \times S \\ \downarrow^{p_2} \\ S}, \array{T \times S \\ \downarrow^{p_2} \\ S})$
+is canonically isomorphic to $SET(K \times S, T)$. Since $\Pi_f$ is 
+defined to be the [[right adjoint]] to $f^* : SET \to SET \downarrow S$
+it follows that $\Pi_f f^* T \simeq T^S$  is the function set of functions
+from $S$ to $T$. By 3), if $S$, $T$ are $U$-small then so is 
+the function set $T^S$.
+
+  * Since by 4) $\Omega = \mathbf{2}$ is $U$-small and for every $S$ the function
+  set $\mathbf{2}^S \simeq P(S)$ is the power set of $S$, it follows that
+  the power set of a $U$-small set is $U$-small.
+  
+ 
+* Let $I$ be a $U$-small set, in that $I \to *$ is $U$-small, and let 
+$S \to I$ be $U$-small, to be thought of as an $I$-indexed family of
+$U$-small sets $S_i$, where $S_i$ is the [[pullback]] $\array{
+  S_i &\to& S
+  \\
+  \downarrow && \downarrow
+  \\
+  * &\stackrel{i}{\to}& I
+}$, so that $S$ is the disjoint union of the $S_i$: $S = sqcup_{i \in I} S_i$.
+By axiom 2) the composite morphism $(S \to I \to *) = (S \to *)$ is $U$-small,
+hence $S$ is a $U$-small set, hence the $I$-indexed union of $U$-small sets
+$\sqcup_{i \in I} S_i$ is $U$-small.
+
+
+
 
 # Axioms of universes #
 
