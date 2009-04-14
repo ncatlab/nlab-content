@@ -16,11 +16,6 @@ are equivalent;
 Two rings are **Morita equivalent** if the equivalent statements in Morita theorem above are true. A **Morita equivalence** is a weakly invertible 1-cell in the bicategory $\mathrm{Rng}$ of rings, bimodules and 
 morphisms of bimodules.
 
-+--{+ .query}
-[[Zoran Škoda]]: Urs, it does not make sense part of what you originally wrote: the Morita equivalence is NOT a morphism of algebras which induces an equivalence. The equivalence is given by a pair of bimodules, not a morphism of algebras. So one can view them as an invertible 1-cell in a 2-category $\mathrm{Rng}$, but not as a special 1-cell in 1-category of rings as you wrote. 
-
-By the way, in this entry below I like to avoid word context, because word "context" in Morita theory has a specific meaning (Morita context). 
-=--
 
 ## In homotopy theory ##
 
@@ -48,4 +43,7 @@ Lie groupoids up to Morita equivalence are equivalent to [[differentiable stack]
 
 So is it true that there is a model category structure on algebras such that Morita equivalences of algebras are spans  of acyclic fibrations with respect to that structure?
 
+[[Zoran Škoda]]: Associative (nonunital) algebras make a semi-abelian category, ins't it ? So one could then apply
+the general results of van den Linden published in TAC to 
+get such a result, using regular epimorphism pretopology, it seems to me. It is probably known to the experts in this or another form. 
 =--
