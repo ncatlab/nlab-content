@@ -76,7 +76,7 @@ to the [[subcategory]] $i : Sh(E) \hookrightarrow E$ of objects local with respe
 
 * [[exact functor|left exact]] (commutes with all small limits);
 
-* [[left adjoint]] to $i$.
+* [[adjoint functor|left adjoint]] to $i$.
 
 In the case that $E = PSh(S)$ and the Lawvere--Tierney topology is that corresponding to a Grothendieck topology on $S$, the two notions of [[sheafification]] coincide.
 
