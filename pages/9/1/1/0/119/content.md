@@ -44,7 +44,7 @@ I hope to write/read some arrow theoretic definition of a [[Hasse diagram]] too.
 
 _Mathieu says_: It's rather the other way round: there is a "forgetful" 2-functor $Ord \to Cat$ (which forgets that the category is in fact an order (it's a full inclusion, so it forgets a property rather than a structure)), and the left adjoint to this 2-functor maps a category $C$ to the order with the same objects as $C$ and $a\leq b$ iff there exists an arrow $a\to b$.
 
-_[[John Baez|John]] says_: You might try to define a Hasse diagram to be a [[directed graph]] whose [[quiver]] is a [[poset]].  In other words, you take a directed graph, consider the free category on that graph, and demand that this category be a poset.  
+_[[John Baez|John]] says_: You might try to define a Hasse diagram to be a [[directed graph]] whose [[quiver]] is a [[partial order|poset]].  In other words, you take a directed graph, consider the free category on that graph, and demand that this category be a poset.  
 
 However, maybe it's a rule that a [[Hasse diagram]] with directed edges $x \to y$ and $y \to z$ is not allowed to have a directed edge $x \to z$.   If so, this is a further restriction on what directed graphs count as Hasse diagrams. 
 
@@ -52,7 +52,7 @@ _Toby_:
 
 Eric, there *is* a functor $\Cat \to \Ord$ as you describe.  If you call it a forgetful functor, then a category is a proset with extra stuff (not just structure), since this functor is not faithful (although it is essentially surjective).  In contrast, a proset is a category with extra property (as you can literally see from John\'s slick definition above), since the functor $\Ord \to \Cat$ is fully faithful (as Matthieu points out).
 
->(Recall that [[essentially surjective functor]]s, [[full functor]]s, and [[faithful functor]]s form the three anti-homogenous parts of the yoga of stuff, structure, and property, where in general you can call *any* functor a 'forgetful functor' and see what that gets you.  I am treating only the $1$-category of categories, since otherwise this discussion would be at [[poset]] by rights.)
+>(Recall that [[essentially surjective functor]]s, [[full functor]]s, and [[faithful functor]]s form the three anti-homogenous parts of the yoga of stuff, structure, and property, where in general you can call *any* functor a 'forgetful functor' and see what that gets you.  I am treating only the $1$-category of categories, since otherwise this discussion would be at [[partial order]] by rights.)
 
 In fact, as Mike points out below, these two functors form an adjunction that makes $\Ord$ into a [[reflective subcategory]] of $\Cat$.
 
