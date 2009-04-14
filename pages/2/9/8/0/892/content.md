@@ -5,3 +5,5 @@ One generally needs a specific axiom in the [[foundations]] of mathematics to en
 The power set $\mathcal{P}S$ is in fact a [[partial order|poset]] ordered by containment: $A$ precedes $B$ means that $A$ is a [[subset]] of $B$ ($A \subseteq B$).
 
 Power sets live in the category [[Set]].  Given an object $S$ of any [[category]], one can similarly form a poset of [[subobject]]s of $S$; the category is called [[well-powered category|well-powered]] when this poset is [[small category|small]].  One also has an internal notion of power set (a [[power object]]) in a [[topos]].
+
+category: foundational axiom
