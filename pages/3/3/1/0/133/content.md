@@ -22,7 +22,7 @@ If $A$ is a [[extensive category|superextensive]] [[site]], then the axiom of ch
 
 * When the full axiom of choice it may still be valid for some restricted class of objects $A$ and/or $B$.  An object $B$ such that any epimorphism $A\to B$ splits is called [[projective object|projective]]; this means that one can make choices 'indexed by' $B$.  Dually, an object $A$ such that one can make choices 'with values in' $A$ is called a [[choice object]] (this is not quite equivalent to every epimorphism $A\to B$ splitting).
 
-* In the context of [[constructive mathematics]], the full axiom of choice in $Set$ implies the principle of [[excluded middle]] and so is rejected.  However, weaker forms of choice, up to [[COSHEP]], are often (if not usually) accepted by constructivists.  One good example is the axiom of _countable choice_, which says that the set $\mathbb{N}$ of [[natural number]]s is projective.  A stronger version is the [[axiom of dependent choice]].
+* In the context of [[constructive mathematics]], the full axiom of choice in $Set$ implies the principle of [[excluded middle]] and so is rejected.  However, weaker forms of choice, up to [[COSHEP]], are often (if not usually) accepted by constructivists.  One good example is the axiom of _[[countable choice]]]_, which says that the set $\mathbb{N}$ of [[natural number]]s is projective.  A stronger version is the axiom of [[dependent choice]].
 
 
 # Equivalents 
@@ -36,3 +36,5 @@ The following statements are all equivalent to the axiom of choice in $Set$ (alt
 # See also #
 * [[anafunctor]];
 * [[foundations]].
+
+category: foundational axiom
