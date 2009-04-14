@@ -39,7 +39,7 @@ Important fibrant objects are in particular [[infinity-groupoid]]s (for instance
 
 ## In Lie groupoid theory ##
 
-A **Morita morphism** of [[Lie groupoids]] is, even though it is not typically made explicit in the literature, precisely a (local) acyclic fibration with respect to the [[folk model structure]] on groupoids, which in turn is the same as an [[anafunctor]] of Lie groupoids. 
+A **Morita morphism** of [[Lie groupoid]]s is, even though it is not typically made explicit in the literature, precisely a (local) acyclic fibration with respect to the [[folk model structure]] on groupoids, which in turn is the same as an [[anafunctor]] of Lie groupoids. 
 A Morita equivalence of Lie groupoids then is a span as above, equivalently an invertible anafunctor.
 
 Lie groupoids up to Morita equivalence are equivalent to [[differentiable stack]]s. This relation between Lie groupoids and their stacks of torsors is analogous to the relation between algebras and their categories of modules, which is probably the reason for the choice of terminology.
