@@ -8,7 +8,7 @@ defined by the condition that there exists $k: a \to b$ such that $i = j k$. (Th
 
 # Restated in terms of over categories #
 
-Let $C_c$ be the [[full subcategory]] of the [[over category]] $C/c$ on monomorphisms. Then $C_c$ is the [[poset]] of subobjects of $c$ and the set of isomorphism classes of $C_c$ is the set of subobjects of $c$.
+Let $C_c$ be the [[full subcategory]] of the [[over category]] $C/c$ on monomorphisms. Then $C_c$ is the [[partial order|poset]] of subobjects of $c$ and the set of isomorphism classes of $C_c$ is the set of subobjects of $c$.
 
 # Generalizations #
 
