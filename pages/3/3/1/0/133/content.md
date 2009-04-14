@@ -24,17 +24,15 @@ If $A$ is a [[extensive category|superextensive]] [[site]], then the axiom of ch
 
 * In the context of [[constructive mathematics]], the full axiom of choice in $Set$ implies the principle of [[excluded middle]] and so is rejected.  However, weaker forms of choice, up to [[COSHEP]], are often (if not usually) accepted by constructivists.  One good example is the axiom of _countable choice_, which says that the set $\mathbb{N}$ of [[natural number]]s is projective.  A stronger version is the [[axiom of dependent choice]].
 
-* See also 
-  * [[anafunctor]];
-  * [[foundations]].
-
 
 # Equivalents 
 
 The following statements are all equivalent to the axiom of choice in $Set$ (although sometimes the proof in one direction or the other requires [[excluded middle]]):
 
-* The [[well-ordering theorem]] (any set can be [[well-order|well-ordered]])
+* The [[well-ordering theorem]] (that any set can be [[well-order|well-ordered]]),
+* [[Zorn's lemma]],
+* that ($L =$ [[monomorphism]]s, $R =$ [[epimorphism]]s) is a [[weak factorization system]] in [[Set]].
 
-* [[Zorn's lemma]].
-
-* ($L =$ [[monomorphism]]s, $R =$ [[epimorphism]]s) is a [[weak factorization system]] in [[Set]].
+# See also #
+* [[anafunctor]];
+* [[foundations]].
