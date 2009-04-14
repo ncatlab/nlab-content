@@ -18,3 +18,5 @@ _Kreisel and Lawvere on Category Theory and the Foundations of Mathematics_
 
 * Todd Trimble, _ETCS: Building joins and coproducts_
 ([[Trimble on ETCS III|nLab entry]], [original blog entry](http://topologicalmusings.wordpress.com/2008/12/15/etcs-building-joins-and-coproducts/))
+
+category: foundational axiom
