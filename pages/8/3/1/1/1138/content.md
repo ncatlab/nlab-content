@@ -23,7 +23,7 @@ $$
   f^{-1} : PSh(Y) \to PSh(X)
 $$
 
-on [[presheaf|presheaves]] is the [[left adjoint]] to the direct image operation on presheaves, hence the left [[Kan extension]]
+on [[presheaf|presheaves]] is the [[adjoint functor|left adjoint]] to the direct image operation on presheaves, hence the left [[Kan extension]]
 
 $$
   f^{-1} F := Lan_{f^t} F
@@ -32,7 +32,7 @@ $$
 of a [[presheaf]] $F$ along $f^t$. 
 
 The **inverse image** operation on [[sheaf|sheaves]] is the 
-[[left adjoint]] to the direct image operation on sheaves. This is _not_ simply the left Kan extension of the sheaf regarded as a presheaf, but the Kan extension followed by [[sheafification]] $\bar{(-)} : PSh(X) \to Sh(X)$:
+[[adjoint functor|left adjoint]] to the direct image operation on sheaves. This is _not_ simply the left Kan extension of the sheaf regarded as a presheaf, but the Kan extension followed by [[sheafification]] $\bar{(-)} : PSh(X) \to Sh(X)$:
 
 $$
   f^{-1} : Sh(Y) \to Sh(X)
@@ -50,4 +50,4 @@ More generally, the left adjoint part of any [[geometric morphism]] is called it
 
 #Remarks#
 
-* The other adjoint to the [[direct image]], the [[right adjoint]], is (if it exists) the [[restriction and extension of sheaves|extension]] of sheaves.
+* The other adjoint to the [[direct image]], the [[adjoint functor|right adjoint]], is (if it exists) the [[restriction and extension of sheaves|extension]] of sheaves.
