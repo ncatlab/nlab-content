@@ -7,8 +7,6 @@ Not offering a maths degree is one thing, but it seems that they don\'t even hav
 
 
 
-
-
 =--
 
 I am writing a series of notes on the theory and application of crossed gadgetry in algebra and topology, and some parts of these notes (approximately first 7 chapters) have been made available on the web at various times. I am currently trying to write new sections on the links between lax methods and homotopy coherence.  
@@ -20,6 +18,6 @@ I am also very interested in directed homotopy theory and the application of ide
 
 
 
-See also my [private $n$Lab area](http://ncatlab.org/timporter/show/HomePage).
+See also my [private $n$Lab area](http://ncatlab.org/timporter/show/HomePage), where I have put a link to a recent version of the first 7 chapters of the Menagerie.
 
 category: people
