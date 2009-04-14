@@ -6,7 +6,7 @@ The **simplex category** $\Delta$ encodes one of the main [[geometric shapes for
 
 * The __simplex category__ $\Delta$ is the [[full subcategory]] of [[Cat]] consisting of the [[finite set|finite]] [[inhabited set|inhabited]] linear [[quiver]]s.
 
-* Equivalently: $\Delta$ is the category of finite inhabited [[totally ordered set]]s and order-preserving functions between them.
+* Equivalently: $\Delta$ is the category of finite inhabited [[total order|totally ordered set]]s and order-preserving functions between them.
 
 #Remarks#
 
