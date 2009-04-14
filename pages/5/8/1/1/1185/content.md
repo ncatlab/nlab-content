@@ -95,7 +95,7 @@ The __[[successor]]__ of a well-ordered cardinal $\kappa$ is the smallest well-o
 
 # Properties #
 
-* It is traditional to write $\aleph_0$ for the first infinite cardinal (the cardinality of the natural numbers), $\aleph_1$ for the next (the first uncountable cardinality), and so on.  In this way every cardinal (assuming choice) is labeled $\aleph_\mu$ for a unique [[ordinal]] $\mu$, with $(\aleph_\mu))^+ = \aleph_{\mu+1}$.
+* It is traditional to write $\aleph_0$ for the first infinite cardinal (the cardinality of the natural numbers), $\aleph_1$ for the next (the first uncountable cardinality), and so on.  In this way every cardinal (assuming choice) is labeled $\aleph_\mu$ for a unique [[ordinal number]] $\mu$, with $(\aleph_\mu))^+ = \aleph_{\mu+1}$.
 
 * For every cardinal $\pi$, we have $2^\pi \gt \pi$ (this is sometimes called "Cantor's theorem").  The question of whether $2^{\aleph_n} = \aleph_{n+1}$ is called the [[continuum hypothesis]].
 
@@ -108,7 +108,7 @@ A transfinite cardinal $\pi$ is **regular** if no set of cardinality $\pi$ is th
 
 A cardinal is called **singular** if it is not regular.  For instance, $\aleph_\omega = \bigcup_{n\in \mathbb{N}} \aleph_n$ is singular, more or less by definition, since $\aleph_n\lt\aleph_\omega$ and $|\mathbb{N}| = \aleph_0 \lt\aleph_\omega$.
 
-A **limit cardinal** is one which is not a successor of any other cardinal.  Note that _every_ cardinal is a limit [[ordinal]] (in the picture where cardinals are identified with certain ordinals).
+A **limit cardinal** is one which is not a successor of any other cardinal.  Note that _every_ cardinal is a limit [[ordinal number|ordinal]] (in the picture where cardinals are identified with certain ordinals).
 
 A **strong limit cardinal** is a cardinal $\pi$ such that if $\lambda\lt \pi$, then $2^\lambda\lt\pi$, for any cardinal $\lambda$. Since $\lambda^+ \le 2^\lambda$, any strong limit is a limit. Conversely, assuming the [[continuum hypothesis]], every limit is a strong limit.  Since $2^\lambda$ is the cardinality of the [[power set]] $P(\lambda)$, a cardinal $\pi$ is a strong limit iff the category $\Set_{\lt\pi}$ is an elementary [[topos]].
 
