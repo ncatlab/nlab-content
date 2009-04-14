@@ -42,7 +42,7 @@ So I spent 9 years trying to construct a _strict_ homotopy double groupoid of a 
 
 Then Loday constructed a [[cat-n-group]] from an n-cube of spaces, published in 1982. Its multi-nerve  is an $(n+1)$-simplicial set, whose realisation is $(n+1)$-filtered. 
 
-A strict homotopy double groupoid of a Hausdorff space has been constructed but this needs a subtle notion of [[thin]] homotopy.
+A strict homotopy double groupoid of a Hausdorff space has been constructed but this needs a subtle notion of [[thin element|thin]] homotopy.
 
 Of course the filtration for a group is not so apparent, but it is more clear that  [[groupoid]]s  carry structure in dimension 0 and 1, and hence are useful for representing non connected homotopy 1-types, and their identifications in dimension 0, as explained in the first edition (1968) of my Topology book.   
 
