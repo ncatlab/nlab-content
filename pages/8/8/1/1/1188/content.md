@@ -8,7 +8,7 @@ An _accessible_ $(\infty,1)$-category is one which may be [[large category|large
 
 Let $\kappa$ be a [[cardinal number|regular cardinal]]. An [[(infinity,1)-category]] $C$ is **accessible** if it satisfies the following equivalence conditions
 
-* $C$ is equivalent to the $(\infty,1)$-category  $Ind_\kappa(C^0)$ of [[ind-object]]s for small $C^0$;
+* $C$ is equivalent to the $(\infty,1)$-category  $Ind_\kappa(C^0)$ of [[ind-object in an (infinity,1)-category]]s for small $C^0$;
 
 * $C$ admits small $\kappa$-[[filtered category|filtered]] colimits and contains an essentially small full subcategory which consists of $\kappa$-[[compact object in an (infinity,1)-category|compact]] objects and generates $C$ under small $\kappa$-filtered colimits.
 
