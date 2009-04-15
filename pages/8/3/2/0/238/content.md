@@ -12,6 +12,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-04-15 #
+
+* [[Urs Schreiber|Urs]]: 
+
+  * created [[cofinal functor]] and [[cofinally small category]], but just the bare defintion so far
+
+  * expanded [[ind-object]]: added more motivation in "Idea" section, added examples, added list of properties
+
 # 2009-04-14 #
 
 * [[Urs Schreiber|Urs]]:
