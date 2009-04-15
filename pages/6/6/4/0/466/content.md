@@ -72,7 +72,7 @@ The Yoneda lemma tends to carry over to all important generalizations of the con
 
 #Related constructions#
 
-* The [[Coyoneda lemma]].
+* The [[co-Yoneda lemma]].
 
 #References#
 
