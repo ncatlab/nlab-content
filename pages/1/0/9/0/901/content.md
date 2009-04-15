@@ -6,6 +6,9 @@ An **ind-object** of a category $C$ is a "formal [[filtered category|filtered]] 
 
 +-- {: .query}
 Would it make sense to take this opportunity on nLab to give this a new modern name? Maybe call it "colimit-object" or "filtered colimit" or something? Something more consistent with the rest of the nLab might be nice. Just a thought. - [[Eric Forgy|Eric]]
+
+[[Tim Porter|Tim]]: By the way, `pro' in pro-object is short for `projective system' NOT `projective limit'.  Similarly ind-object is, I have always understood, an abbreviation for `inductive system'. As they are very special diagrams, I do not think that Eric's suggestion is a good one. The pro and ind terminology was to replace inverse and direct system which was already being used in the 1930s (I think?) 
+
 =--
 
 Recalling the nature of [[filtered category|filtered]] colimits, this means that in particular chains of inclusions 
