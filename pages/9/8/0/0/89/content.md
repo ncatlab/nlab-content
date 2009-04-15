@@ -43,7 +43,7 @@ Lie groupoids up to Morita equivalence are equivalent to [[differentiable stack]
 
 So is it true that there is a model category structure on algebras such that Morita equivalences of algebras are spans  of acyclic fibrations with respect to that structure?
 
-[[Zoran Škoda]]: Associative (nonunital) algebras make a semi-abelian category, ins't it ? So one could then apply
+[[Zoran Škoda]]: Associative (nonunital) algebras make a [[semi-abelian category]], ins't it ? So one could then apply
 the general results of van den Linden published in TAC to 
 get such a result, using regular epimorphism pretopology, it seems to me. It is probably known to the experts in this or another form. 
 =--
