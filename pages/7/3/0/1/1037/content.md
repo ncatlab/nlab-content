@@ -179,6 +179,10 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
 * [[cardinal number]]
 
+* [[filtered (infinity,1)-category]]
+
+* [[ind-object in an (infinity,1)-category]]
+
 * [[compact object in an (infinity,1)-category]]
 
 * [[accessible (infinity,1)-category]]
