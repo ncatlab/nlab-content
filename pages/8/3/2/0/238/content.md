@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
+  * created [[ind-object in an (infinity,1)-category]] 
+
   * created [[cofinal functor]] and [[cofinally small category]], but just the bare defintion so far
 
   * expanded [[ind-object]]: added more motivation in "Idea" section, added examples, added list of properties
