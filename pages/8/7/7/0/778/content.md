@@ -30,9 +30,22 @@ Pre-triangulated dg-categories linear over field $k$ of characteristic 0 are equ
 
 #References#
 
-* Bernard Keller, _On differential graded categories_ ([arXiv](http://arxiv.org/abs/math/0601185))
+* Bernhard Keller, _On differential graded categories_  International Congress of Mathematicians. Vol. II,  151--190, Eur. Math. Soc., Z&#252;rich, 2006. ([arXiv](http://arxiv.org/abs/math/0601185))
 
 * Bertrand To&#235;n, _Lectures on dg-categories_ ([pdf](http://www.math.univ-toulouse.fr/~toen/swisk.pdf))
+
+* B. Keller, Deriving DG categories,  Ann. Sci. &#201;cole Norm. Sup. (4)  27  (1994),  no. 1, 63--102 (<a href="http://www.numdam.org/item?id=ASENS_1994_4_27_1_63_0">numdam</a>)
+
+* B. Keller, A remark on tilting theory and DG algebras.  Manuscripta Math.  79  (1993),  no. 3-4, 247--252.
+
+* S. Mahanta, Noncommutative geometry in the framework of differential graded categories (<a href="http://arxiv.org/abs/0805.1628">arXiv:0805.1628</a>)
+
+* Dmitry Tamarkin, What do dg-categories form? 
+Compos. Math. 143 (2007), no. 5, 1335--1358. 
+
+* M. Batanin, What do dg-categories form (after Tamarkin), talks at Paris 7 and Australian category seminar (<a href="http://www.maths.usyd.edu.au/u/AusCat/abstracts/060726mb.html">abstract</a>)
+
+See also [[motives and dg-categories]].
 
 +--{.query}
 
