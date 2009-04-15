@@ -45,6 +45,12 @@ Compos. Math. 143 (2007), no. 5, 1335--1358.
 
 * M. Batanin, What do dg-categories form (after Tamarkin), talks at Paris 7 and Australian category seminar (<a href="http://www.maths.usyd.edu.au/u/AusCat/abstracts/060726mb.html">abstract</a>)
 
+* Gon&#231;alo Tabuada, Invariants additifs de DG-cat&#233;gories. Int. Math. Res. Not.  2005,  no. 53, 3309--3339; Addendum in Int. Math. Res. Not.  2006, Art. ID 75853, 3 pp. ; Erratum in Int. Math. Res. Not. IMRN  2007,  no. 24, Art. ID rnm149, 17 pp.; Une structure de cat&#233;gorie de mod&#232;les de Quillen sur la cat&#233;gorie des dg-cat&#233;gories,  C. R. Math. Acad. Sci. Paris  340  (2005),  no. 1, 15--19.
+
+* G. Tabuada, Homotopy theory of DG categories, Thesis, Paris, 2007, <a href="http://people.math.jussieu.fr/~keller/TabuadaThese.pdf">pdf</a> (some chapters in English and some in French)
+
+* A. I. Bondal, M. Larsen, V. A. Lunts, Grothendieck ring of pretriangulated categories (<a href="http://front.math.ucdavis.edu/0401.5009">arXiv</a>)
+
 See also [[motives and dg-categories]].
 
 +--{.query}
