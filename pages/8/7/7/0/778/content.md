@@ -12,10 +12,14 @@ To get from a simplicially enriched category to a chain enriched one is easy (it
 =--
 Therefore, following the terminology for [[horizontal categorification]] a dg-category might more descriptively be addressed as a **differential graded algebroid**. (A similar comment applies for instance to [[C*-category]], which is a $C^*$-algebroid.)
 
-A **left dg-module** over a dg-category $C$ is a dg-functor $L : C\to \mathrm{Com}_k$ where $\mathrm{Com}_k$ is the dg-category of complexes of $k$-vector spaces (that is Ch(Mod_k) with inner hom); similarly a right dg-module is a contravariant right dg-module. Morphisms between left dg-modules $L$ and $L'$ are elements of $Z^0\mathbf{Hom}(L,L')$ where the inner hom $\mathbf{Hom}$ is the complex of graded morphisms. Left dg-modules and their morphisms make a category $C dgMod$
+A **left dg-module** over a dg-category $C$ is a dg-functor $L : C\to \mathrm{Com}_k$ where $\mathrm{Com}_k$ is the dg-category of complexes of $k$-vector spaces (that is Ch(Mod_k) with inner hom); similarly a right dg-module is a contravariant right dg-module. Morphisms between left dg-modules $L$ and $L'$ are elements of $Z^0\mathbf{Hom}(L,L')$ where the inner hom $\mathbf{Hom}$ is the complex of graded morphisms. Left dg-modules and their morphisms make a category $dgMod-C$
 which has a natural structure of [[Quillen exact category]],
 which is in fact [[Frobenius category|Frobenius]].
-There is a *Yoneda functor* $Z^0(C)\to C dgMod$ given by $X\mapsto C(-,X)$. 
+There is a *Yoneda functor* $Z^0(C)\to dgMod-C$ given by $X\mapsto C(-,X)$. 
+
++--{+ .query}
+[[Zoran Škoda]]: If one talks about left modules then we have category dgMod-C, and if talk about right modules then C-dgMod. When it is all the time clear which one we talk about than one can use either notation, but as long as we talk about left and right, then we should use A-Mod for left and Mod-A for right as it is usual in noncommutative algebra. 
+=--
 
 # Pre-triangulated dg-categories #
 
