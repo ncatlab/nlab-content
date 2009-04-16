@@ -1,0 +1,3 @@
+See [[idempotent]].
+
+category: redirect
