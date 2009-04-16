@@ -1,6 +1,6 @@
 #Idea#
 
-The axioms of a _semi-abelian_ category are supposed to capture the properties of the categories of [[group]]s, [[ring]]s, [[algebra]]s as nicely as the axioms of an [[abelian category]] captures the properties of the category of abelian groups and of modules.
+The axioms of a _semi-abelian_ category are supposed to capture the properties of the categories of [[group]]s, [[ring]]s without unit, [[algebra]]s without unit, Lie algebras, as nicely as the axioms of an [[abelian category]] captures the properties of the category of abelian groups and of modules.
 
 
 #Definition#
@@ -15,7 +15,10 @@ A [[category]] $C$ is **semi-abelian** if it
 
 * is [[Bourn-protomodular category|Bourn-protomodular]].
 
-Equivalently, a [[category]] $C$ is **semi-abelian** if
++--{: .query}
+[[Mike Shulman|Mike]]: Can someone explain more about why those are equivalent?  How does the second set of axioms imply the existence of finite limits and finite coproducts?
+
+[[Mathieu Dupont|Mathieu]]: The second definition (which I removed and pasted below in the discussion) is not equivalent to the first.  For example, the category of pointed sets satisfies the following conditions but is not semi-abelian (because in a semi-abelian category every regular epimorphism is the cokernel of its kernel, but this is not true for pointed sets).
 
 * it has a [[zero object]];
 
@@ -27,8 +30,6 @@ Equivalently, a [[category]] $C$ is **semi-abelian** if
 
 * [[congruence|equivalence relations]] are effective.
 
-+--{: .query}
-[[Mike Shulman|Mike]]: Can someone explain more about why those are equivalent?  How does the second set of axioms imply the existence of finite limits and finite coproducts?
 =--
 
 #Remarks#
