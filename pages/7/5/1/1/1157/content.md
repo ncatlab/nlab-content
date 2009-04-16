@@ -16,7 +16,21 @@ Here we will concentrate on the bar-cobar adjointness itself and start exploring
 
 (The previous entry in this lexicon can be found at [[differential graded Hopf algebra]].) 
 =--
+One of the earliest examples of a pair of adjoint functors studied in algebraic topology was that giving the relationship between the functors for reduced suspension and loop space. If we take a pointed connected space $(X,x_0)$, then its [[reduced suspension]] $\Sigma X$ is obtained by taking  the cylinder $I\times X$ and identifying the subspace $\{0,1\}\times X\cup I\times \{x_0\}$ to a point.  (Think of crushing the two ends of the cylinder and the line through the base point to a point.) This can also be thought of as forming $S^1\wedge X$ the 'smash product of the circle with $X$. 
 
+Adjoint to $\Sigma$ is the loop space functor: $\Omega Y$ is the space of pointed maps from $S^1$ to $Y$. This has a monoid structure (up to homotopy) given by concatenation of loops.  (Back in $S^1$, we have a comonoid structure with respect to the pointed coproduct $S^1\to S^1\vee S^1$. This in some sense  is _'subdivision as an inverse for composition'_.)
+
+(perhaps: Picture to go here?)
+
+Using ordinary (co)homology to study spaces such as CW-complexes, we naturally use the complexes of (cellular) chains on spaces. The structure of chains on the suspension is  easy to work out using the obvious cellular structure, but that on the loop space is much harder as $\Omega X$ is given the compact open topology and only has the homotopy type of a CW-complex, so no nice cellular structure is given us 'on a plate'.  The idea is thus to start with  a chain complex model, $C_*(X)$, for a CW-complex, $X$, (usually the complex of cellular chains on $X$),  and we try to construct from $C_*(X)$ a 'model' for the chain complex of  the loop space $\Omega X$ of $X$. Adams' cobar construction was such a method (see below). This was adjoint to a bar construction defined by Eilenberg and MacLane. 
+
+Both directions use an abstract algebraic model of concatenation of paths and so their construction is linked to that of free monoids, and through those to monads, operads and related abstract machinery to handle concatenation and its higher categorical analogues in categorical contexts.
+
+The chain complex $C_*(X)$ has a rich coalgebraic structure coming from induced by a cellular diagonal approximation on $X$ so the *cobar* construction will start with a [[differential graded coalgebra|dg-coalgebra]] as 'input' and as output we will hope for both a coalgebra structure (reflecting the chain coalgebra idea) and an algebra structure (coming from modelling the concatenation of loops). We therefore might hope for, and in fact do get, a [[differential graded Hopf algebra]].
+
+Going the other way, we start with a [[differential graded algebra]] and use 'coconcatenation' or 'subdivision'  to get a coalgebra structure. In fact, once again, this is a Hopf algebra.
+
+These topologically motivated constructions can be applied in much greater generality as we will see:
 
 ##The Bar construction
 
@@ -28,6 +42,8 @@ Here we will concentrate on the bar-cobar adjointness itself and start exploring
 [[Urs Schreiber|Urs]]:
  This is a bit abrupt. Could we just say this in words, once, like "The bar construction, originally due to MacLane, is a map that sends xyz to abc such that rst."? I would also  greatly appreciate some more motivational background and other helpful side remarks. Such as: why does the bar/cobar-construction go between algebras and coalgebras, instead of being an endomorphism of either? 
 
+[[Tim Porter|Tim]]:
+I have tried to motivate this a bit above. This needs more filling in (and also I think that (slowly) I will go through changing pre-gvs etc to gvs and then talk about positively or negatively graded gvs and so on.)
 =--
 
 
@@ -61,7 +77,7 @@ with $\eta(i) = (-1)^{\sum_{k=1}^i |sa_k|}$.
 
 (due to J. F. Adams)
 
-The idea is if we have a chain complex model, $C_*(X)$, for a CW-complex, $X$, (usually the complex of cellular chains on $X$),  can we construct from $C_*(X)$ a 'model' for the chain complex of  the loop space $\Omega X$ of $X$. Adams' cobar construction was such a method.
+
 
 We define a functor:
 
