@@ -30,7 +30,7 @@ Consider a type of structure $T$ defined in terms of finite limits (such as grou
 
 ### Sheafification using IPC-property
 
-If a [[category]] $A$ satisfies the following assumptions, sheafification of presheaves in $[S^{op}, A]$ exists and is constructed analgously as for [[Set]]-valued sheaves.
+If a [[category]] $A$ satisfies the following assumptions, sheafification of presheaves in $[S^{op}, A]$ exists and is constructed analogously as for [[Set]]-valued sheaves.
 
 
 * $A$ admits small [[limit]]s;
@@ -113,3 +113,11 @@ The description of sheafification in terms of local isomorphisms is in section 1
 The description in terms of [[dense monomorphism]]s using [[Lawvere-Tierney topology]] is in section V.3 of
 
 * Mac Lane, Moerdijk, [[Sheaves in Geometry and Logic]]
+
+Extension of sheafification of presheaves with values in other categories has been advanced in
+
+* A. Heller, K. A. Rowe, On the category of sheaves, Amer. J. Math. 84, 1962, 205-216.
+
+* Barr, Grillet and Van Osdol, Exact categories and categories of sheaves, Lecture Notes in Math., Vol. 236, Springer, Berlin, 1971 
+
+* A. Rosenberg, Almost quotient categories, sheaves and localizations, 181 p. Seminar on supermanifolds 25, University of Stockholm, D. Leites editor, 1988 (in Russian; partial remake in English exists)
