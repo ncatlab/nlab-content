@@ -63,22 +63,71 @@ In a brief uncommented exercise on p. 63 of
 
 * MacLane, [[Categories Work|Categories for the Working Mathematician]],
 
-the following statement, which is atributed to Kan, is called the **co-Yoneda lemma**.
+the following statement, which is atrributed to Kan, is called the **co-Yoneda lemma**.
 
 
 For $D$ a [[category]], [[Set]] the [[category]] of [[set]]s, $K : D \to Set$ a [[functor]], let $(* \darr K)$ be the [[comma category]] of elements $x \in K d$, let $\Pi: (* \darr K) \to D$ be the projection $(x \in K d) \mapsto d$ and let for each $a \in D$  the functor $\Delta_a: (* \darr K) \to D$ be the diagonal functor sending everything to the constant value $a$. 
 
-The **coYoneda lemma** is the statement that there is a natural isomorphism of [[functor category|functor categories]]
+The **co-Yoneda lemma in the sense of Kan/MacLane** is the statement that there is a natural isomorphism of [[functor category|functor categories]]
 
 $$
 [D,Set](K, D(a, -)) \cong [(*\darr K), D](\Delta_a, \Pi).
 $$
 
-#Outline of Proof#
+#Proof of the MacLane version of co-Yoneda#
 
-The best proof is probably the one described [here](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html#c023131).
+## outline of an explicit proof ##
 
 A natural transformation $\phi: K \to D(a, -)$ assigns to each element $x \in K c$ an element $\phi_c(x) \in D(a, c)$, i.e., an arrow $\phi_c(x): a \to c$. We define a corresponding transformation $\psi: \Delta_a \to \Pi$ which assigns to each object $(c, x \in K c)$ in $(*\darr K)$ the morphism $\phi_c(x): a \to c = \Pi(c, x)$. It is easy to check that the naturality condition on $\phi$ corresponds to the naturality condition on $\psi$, and that the correspondence is bijective.   
+
+## a conceptual proof in terms of comma categories ##
+
+
+[[Set]] classifies discrete fibrations, in the sense that a functor $G : D \to Set$ classifies the discrete fibration
+
+$$
+  Q : \Pi_G : El(G) \to D
+$$
+
+and natural transformations $\alpha : G \to F$ correspond to maps of fibrations 
+
+$$
+  El(G) \to El(f)
+$$
+
+i.e. functor which commute on the nose with the projections $\Pi_G$, $\Pi_F$ to the base category $D$).
+
+
+This applies in particular to $F = hom(a,-)$. Notice the category of elements $El(hom(a,-))$ is the co-slice $(a \downarrow D)$, with its usual projection $\Pi$ to $D$.
+
+However, the [[comma category]] $(a \downarrow D)$ is the lax pullback appearing in
+
+$$
+  \array{
+    (a \downarrow D) &\stackrel{\Pi}{\to}& D
+    \\
+    \downarrow &\Uparrow& \downarrow^{Id}
+    \\
+    * &\stackrel{a}{\to}& D
+  }  
+$$
+
+and so a fibration map $El(G) \to (a \downarrow D)$ corresponds exactly to a lax square
+
+$$
+  \array{
+    El(G) &\stackrel{\Pi_G}{\to}& D
+    \\
+    \downarrow &\Uparrow& \downarrow^{Id}
+    \\
+    * &\stackrel{a}{\to}& D
+  }    
+   \,.
+$$
+
+
+This yields the co-Yoneda lemma in the sense of MacLane's exercise.
+
 
 #References#
 
@@ -89,3 +138,4 @@ The coYoneda lemma appears as a brief uncommented exercise on p. 63 of
 where it is atributed to Kan.
 
 A blog discussion which led to the creation of this entry is [here](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html#c023106).
+
