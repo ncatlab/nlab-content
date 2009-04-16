@@ -171,4 +171,5 @@ $L_*$ is an isomorphism between $DGLA_{fq}$ and $f-CDGA$_0$.
 
  [[Urs Schreiber|Urs]]: eventually it would be nice if we could put these very detailed discussions in context with existing entries such as [[L-infinity-algebra]] and [[NQ-supermanifold]] which do mention closely related things. Or, in as far as these existing entries are to be regarded as not so good in the light of the present discussiion, we should point out what's amiss and eventually improve things.
 
+[[Tim Porter|Tim]]: I agree, but before that I am hoping that others will help me to sort out the relationships here and with those other areas as I am no expert in this.
 =--
