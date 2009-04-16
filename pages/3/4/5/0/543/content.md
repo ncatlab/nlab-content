@@ -1,37 +1,81 @@
-An $A_\infty$-category is a variation of a [[category]] 
-in which the associativity condition on the [[composition]] of [[morphism]]s is relaxed:
+# Idea #
 
-in an $A_\infty$-category composition of [[morphism]]s is associative only up to "higher coherent homotopy" in some sense:
+An _$A_\infty$-category_ is a kind of [[category]] in which the associativity condition on the [[composition]] of [[morphism]]s is relaxed "up to higher coherent homotopy".
 
-* in the case of [[enriched category|enrichement]] over [[Vect]], the concept _$A_\infty$-category_ is the [[horizontal categorification]] of [[A-infinity-algebra]];
+The "A" is for Associative and the "${}_\infty$" indicates that associativity is relaxed up to higher homotopies without bound on the degree of the homotopies.
 
-* more generally, one can describe $A_\infty$-categories as a generalization of algebras over [[operad]]s.
+## ordinary linear $A_\infty$-categories ##
 
-* The classical notion of [[bicategory]] can be interpreted as an $A_\infty$-category in [[Cat]] for a suitable Cat-operad.
+In what is strictly speaking a restrictive sense -- which is however widely and conventionally understood in [[homological algebra]] as the standard notion of $A_\infty$-category (see references below) -- the [[hom-space]]s of an $A_\infty$-category are taken to be linear spaces, i.e. [[module]]s over some [[ring]] or [[field]], and in fact [[chain complex]]es of such modules.
 
-See the example appearing at [[interval object]] and [[Trimble n-category]].
+Therefore an $A_\infty$-category in this standard sense of [[homological algebra]] is a category which is in some way [[homotopical enrichment|homotopically enriched]] over a [[category of chain complexes]] $Ch$. Since a category which is [[enriched category|enriched]] in the ordinary sense of [[enriched category theory]] is a [[dg-category]], there is a close relation between $A_\infty$-categories and [[dg-category|dg-categories]].
+
++--{.query}
+
+  [[Urs Schreiber|Urs]]: it seems that it ought to be true in some precise sense that we have the following analogy
+
+ [[quasi-category]]/[[complete Segal space]] is to [[simplicial category]]
+ as
+ $A_\infty$-category is to [[dg-category]]
+ namely as
+ homotopical enrichment is to
+ strict enrichment
+
+Is there a way to make this (or something similar) precise? In particular: does one get $A_\infty$-categories by applying the definition of [[complete Segal space|Segal space]] with [[Top]] replaced by [[category of chain complexes|Ch]]?
+
+=--
+
+$A_\infty$-categories in this linear sense are a [[horizontal categorification]] of the notion of [[A-infinity algebra]]. As such they are to [[A-infinity algebra]]s as [[Lie infinity-algebroid]]s are to [[L-infinity-algebra]]s. For this point of view see the Kontsevich-Soibelman reference below.
+
+
+## more general $A_\infty$-categories
+
+In the widest sense, "$A_\infty$-category" may be used as a term for a category in which the [[composition]] operation constitute an algebra over an [[operad]] which resolves in some sense the associative operad $Ass$.
+
+One should be aware, though, that this use of the term is not understood by default in the large body of literature concerned with the above linear notion.
+
+Examples for this are
+
+* [[Trimble n-category|Trimble n-categories]];
+
+* also the classical notion of [[bicategory]] can be interpreted as an $A_\infty$-category in [[Cat]] for a suitable Cat-operad.
+
+
 
 # References #
 
-The article
-
-* Maxim Kontsevich, Yan Soibelman, _Notes on A-infinity algebras, A-infinity categories and non-commutative geometry. I_ ([arXiv](http://arxiv.org/abs/math/0606241))
-
-mostly discusses just [[A-infinity-algebra]]s, but points out a generalizations to $A_\infty$-categories, see the overview on [p. 3](http://arxiv.org/PS_cache/math/pdf/0606/0606241v2.pdf#page=3)
-
-One point made there is that in the linear case, apart from the [[operad]]ic definition there is a geometric definition of $A_\infty$-categories. Essentially the authors say that an $A_\infty$-category should be a non(-graded-)commutative [[NQ-supermanifold]]. Recall that a graded-commutative [[NQ-supermanifold]] is a [[L-infinity-algebroid]]. From this perspective one would want to think of a non-graded commutative [[NQ-supermanifold]] as an _$A_\infty$-algebroid_.
-
-A very explicit treatment of A-infinity categories is a recent book 
-
-* Yu. Bespalov, V. Lyubashenko, O. Manzyuk, <a href="http://www.math.ksu.edu/~lub/cmcMonad.gz"> (ps.gz file ) </a> Proceedings of the Institute of Mathematics of NAS of Ukraine, vol. 76, Institute of Mathematics of NAS of Ukraine, Kyiv, 2008, 598 p. File (gzipped postcript) has different number of pages than printed version, but the numbering of sections and formulae is final. Errata to published version are <a href="http://www.math.ksu.edu/~lub/cmcMoCor.pdf">here</a>.
+## for $A_\infty$-categories in the sense of homological algebra ##
 
 For a short and precise introduction see
 
-* B. Keller, Introduction to A-infinity algebras and modules (<a href="http://people.math.jussieu.fr/~keller/publ/ioan.dvi">dvi</a>, <a href="http://people.math.jussieu.fr/~keller/publ/ioan.ps">ps</a>) and Addendum (<a href="http://people.math.jussieu.fr/~keller/publ/addendum.ps">ps</a>), Homology, Homotopy and Applications 3 (2001), 1-35; 
+* B. Keller, _Introduction to $A_\infty$-algebras and modules_ (<a href="http://people.math.jussieu.fr/~keller/publ/ioan.dvi">dvi</a>, <a href="http://people.math.jussieu.fr/~keller/publ/ioan.ps">ps</a>) and Addendum (<a href="http://people.math.jussieu.fr/~keller/publ/addendum.ps">ps</a>), Homology, Homotopy and Applications 3 (2001), 1-35; 
 
-* B. Keller, A-infinity algebras, modules and functor categories, (<a href="http://people.math.jussieu.fr/~keller/publ/ainffun.dvi">pdf</a>, <a href="http://people.math.jussieu.fr/~keller/publ/ainffun.ps">ps</a>).
+* B. Keller, _$A_\infty$ algebras, modules and functor categories_, (<a href="http://people.math.jussieu.fr/~keller/publ/ainffun.dvi">pdf</a>, <a href="http://people.math.jussieu.fr/~keller/publ/ainffun.ps">ps</a>).
 
-and for a Fukaya-category-oriented introduction see chapter 1 in 
+and for a [[Fukaya category]]-oriented introduction see chapter 1 in 
 
-* P. Seidel,  Fukaya category and Picard-Lefschetz theory,
+* P. Seidel,  _Fukaya category and Picard-Lefschetz theory_,
 <a href="http://web.archive.org/web/20070807231549/http://www.math.uchicago.edu/~seidel">draft version</a>
+
+
+A very detailed treatment of $A_\infty$-categories is a recent book 
+
+* Yu. Bespalov, V. Lyubashenko, O. Manzyuk, <a href="http://www.math.ksu.edu/~lub/cmcMonad.gz"> (ps.gz file ) </a> Proceedings of the Institute of Mathematics of NAS of Ukraine, vol. 76, Institute of Mathematics of NAS of Ukraine, Kyiv, 2008, 598 p. File (gzipped postcript) has different number of pages than printed version, but the numbering of sections and formulae is final. Errata to published version are <a href="http://www.math.ksu.edu/~lub/cmcMoCor.pdf">here</a>.
+
+
+The relation of $A_\infty$-categories to [[differential graded algebra]] is emphasized in the introduction of
+
+* Maxim Kontsevich, Yan Soibelman, _Notes on A-infinity algebras, A-infinity categories and non-commutative geometry. I_ ([arXiv](http://arxiv.org/abs/math/0606241))
+
+which mostly discusses just [[A-infinity-algebra]]s, but points out a generalizations to $A_\infty$-categories, see the overview on [p. 3](http://arxiv.org/PS_cache/math/pdf/0606/0606241v2.pdf#page=3)
+
+Essentially the authors say that an $A_\infty$-category should be a non(-graded-)commutative [[NQ-supermanifold]]. Recall that a graded-commutative [[NQ-supermanifold]] is a [[L-infinity-algebroid]]. From this perspective one would want to think of a non-graded commutative [[NQ-supermanifold]] as an _$A_\infty$-algebroid_.
+
+
+## for $A_\infty$-categories in the wider sense ##
+
+
+If one understands $A_\infty$-category as "operadically defined higher category", then relevant references would include:
+
+* Eugenia Cheng, _Comaring operadic definitions of $n$-category_ ([arXiv](http://arxiv.org/abs/0809.2070))
+
