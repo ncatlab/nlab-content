@@ -18,7 +18,7 @@ Here we will concentrate on the bar-cobar adjointness itself and start exploring
 =--
 One of the earliest examples of a pair of [[adjoint functor|adjoint functors]] studied in algebraic topology was that giving the relationship between the functors for [[reduced suspension]] and [[loop space object|based loop space]]. If we take a pointed connected space $(X,x_0)$, then its [[reduced suspension]] $\Sigma X$ is obtained by taking  the cylinder $I\times X$ and identifying the subspace $\{0,1\}\times X\cup I\times \{x_0\}$ to a point.  (Think of crushing the two ends of the cylinder and the line through the base point to a point.) This can also be thought of as forming $S^1\wedge X$ the  [[smash product]] of the circle with $X$. 
 
-Adjoint to $\Sigma$ is the loop space functor: $\Omega Y$ is the space of pointed maps from $S^1$ to $Y$. This has a monoid structure (up to homotopy) given by concatenation of loops.  (Back in $S^1$, we have a comonoid structure with respect to the pointed coproduct $S^1\to S^1\vee S^1$. This in some sense  is _'subdivision as an inverse for composition'_.)
+Adjoint to $\Sigma$ is the loop space functor: $\Omega Y$ is the space of pointed maps from $S^1$ to $Y$. This has a monoid structure (up to homotopy) given by concatenation of loops.  (Back in $S^1$, we have a comonoid structure with respect to the pointed coproduct $S^1\to S^1\vee S^1$ as described at [[interval object]]. This in some sense  is _'subdivision as an inverse for composition'_.)
 
 (perhaps: Picture to go here?)
 
@@ -155,12 +155,6 @@ $$\hat{\alpha} : FB(A,d) \to (A,d)$$
 $$\hat{\beta} : (C,\partial) \to BF(C,\partial)$$
 
 are weak equivalences / [[quasi-isomorphism|quasi-isomorphisms]].
-
-=--
-
-+-- {: .query}
- 
-Here weak equivalence means [[quasi-isomorphism]], I suppose?
 
 =--
 
