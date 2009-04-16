@@ -16,7 +16,7 @@ Here we will concentrate on the bar-cobar adjointness itself and start exploring
 
 (The previous entry in this lexicon can be found at [[differential graded Hopf algebra]].) 
 =--
-One of the earliest examples of a pair of adjoint functors studied in algebraic topology was that giving the relationship between the functors for reduced suspension and loop space. If we take a pointed connected space $(X,x_0)$, then its [[reduced suspension]] $\Sigma X$ is obtained by taking  the cylinder $I\times X$ and identifying the subspace $\{0,1\}\times X\cup I\times \{x_0\}$ to a point.  (Think of crushing the two ends of the cylinder and the line through the base point to a point.) This can also be thought of as forming $S^1\wedge X$ the  [[smash product]] of the circle with $X$. 
+One of the earliest examples of a pair of [[adjoint functor|adjoint functors]] studied in algebraic topology was that giving the relationship between the functors for [[reduced suspension]] and [[loop space object|based loop space]]. If we take a pointed connected space $(X,x_0)$, then its [[reduced suspension]] $\Sigma X$ is obtained by taking  the cylinder $I\times X$ and identifying the subspace $\{0,1\}\times X\cup I\times \{x_0\}$ to a point.  (Think of crushing the two ends of the cylinder and the line through the base point to a point.) This can also be thought of as forming $S^1\wedge X$ the  [[smash product]] of the circle with $X$. 
 
 Adjoint to $\Sigma$ is the loop space functor: $\Omega Y$ is the space of pointed maps from $S^1$ to $Y$. This has a monoid structure (up to homotopy) given by concatenation of loops.  (Back in $S^1$, we have a comonoid structure with respect to the pointed coproduct $S^1\to S^1\vee S^1$. This in some sense  is _'subdivision as an inverse for composition'_.)
 
@@ -30,11 +30,12 @@ The chain complex $C_*(X)$ has a rich coalgebraic structure coming from induced 
 
 Going the other way, we start with a [[differential graded algebra]] and use 'coconcatenation' or 'subdivision'  to get a coalgebra structure. In fact, once again, this is a Hopf algebra.
 
-These topologically motivated constructions can be applied in much greater generality as we will see:
+These topologically motivated constructions can be applied in much greater generality as we will see both here and elsewhere:
 
 ##The Bar construction
 
-(due originally Eilenberg-MacLane)
+(due originally Eilenberg-MacLane) Remeber this goes from 'algebras' to Hopf algebras in general.
+
 \[B :pre \varepsilon CDGA \to pre CDGHA\]
 
 +-- {: .query}
@@ -71,6 +72,18 @@ $$d_E(sa_1\otimes \ldots\otimes sa_n) = -\sum_{i = 1} ^n\eta(i-1)sa_1\otimes \ld
 with $\eta(i) = (-1)^{\sum_{k=1}^i |sa_k|}$.
 
 **Note** that _the image of a 1-connected cdga is a connected commutative Hopf algebra_.
+#### Things to note in this construction:
+
+* It uses the _suspension_ operator on the graded vector spaces.  This mirrors the reduced suspension at the cell complex level.
+
+* It uses a tensor algebra construction.  This from one point of view handles the formal concatenation aspect,  
+but has also a rich structure of a coalgebraic structure with reduced diagonal, given by 
+
+$$\bar{\Delta}(v_1\otimes \ldots \otimes v_n) = \sum_{p=1}^{n-1} (v_1\otimes \ldots \otimes v_p)\otimes(v_{p+1}\otimes \ldots \otimes v_n),$$
+
+(see [[differential graded coalgebra]]).
+This can be interpreted as looking at how a formal concatenation can be 'subdivided' into its various parts.
+
 
 
 ## The Cobar construction
@@ -141,7 +154,7 @@ $$\hat{\alpha} : FB(A,d) \to (A,d)$$
 
 $$\hat{\beta} : (C,\partial) \to BF(C,\partial)$$
 
-are weak equivalences.
+are weak equivalences / [[quasi-isomorphism|quasi-isomorphisms]].
 
 =--
 
