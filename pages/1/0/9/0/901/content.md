@@ -7,7 +7,7 @@ An **ind-object** of a category $C$ is a "formal [[filtered category|filtered]] 
 +-- {: .query}
 Would it make sense to take this opportunity on nLab to give this a new modern name? Maybe call it "colimit-object" or "filtered colimit" or something? Something more consistent with the rest of the nLab might be nice. Just a thought. - [[Eric Forgy|Eric]]
 
-[[Tim Porter|Tim]]: By the way, 'pro' in pro-object is short for 'projective system' NOT 'projective limit'.  Similarly ind-object is, I have always understood, an abbreviation for 'inductive system'. As they are very special diagrams, I do not think that Eric's suggestion is a good one. The pro and ind terminology was to replace inverse and direct system which was already being used in the 1930s (I think?) 
+[[Tim Porter|Tim]]: By the way, 'pro' in pro-object is short for 'projective system' NOT 'projective limit'.  Similarly ind-object is, I have always understood, an abbreviation for 'inductive system'. As they are very special diagrams, I do not think that Eric's suggestion is a good one. The pro and ind terminology was to replace inverse and direct system which was already being used in the 1930s (I think?)  The 'ind' terminology is at least as old as 1960 (see Grothendeck's seminar on descent.)
 
 =--
 
@@ -112,6 +112,10 @@ Ind-categories are discussed in
 * Kashiwara-Schapira, [[Categories and Sheaves]], section 6
 
 * Grothendieck et al. SGA4.I.6 <a href="http://modular.math.washington.edu/sga/djvu/SGA4-1.tif.djvu">djvu file</a>
+
+* A. Grothendieck, Techniques de d&#233;scente et th&#233;or&#232;mes d'existence en g&#233;om&#233;trie
+alg&#233;brique, II: le th&#233;or&#232;me d'existence en th&#233;orie formelle des modules, Seminaire
+Bourbaki, 195, 1960.
 
 See also the remarks at the beginning of section 5.3 of
 
