@@ -22,3 +22,5 @@
   * [[universal algebra|Universal Algebra]]
 
   * [[group theory|Group Theory]]
+
+  * [[representation theory]]
