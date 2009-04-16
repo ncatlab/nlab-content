@@ -13,6 +13,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-04-16 #
 
+* [[Tim Porter|Tim]]:
+
+  * Replied to [[Urs Schreiber|Urs]] at [[bar and cobar construction]] (at least I hope the reply goes some way to answering the query).
+
+  * Created [[reduced suspension]] as I needed it for my 'reply' above.
+
 * [[Urs Schreiber|Urs]]: 
 
   * replied to [[David Roberts|David]] at [[ind-object]]
