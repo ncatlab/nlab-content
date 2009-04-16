@@ -13,6 +13,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-04-16 #
 
+* [[Urs Schreiber|Urs]]:
+
+  * tried to bring [[A-infinity-category]] into some shape by adding more introductory discussion and ordering the references a bit -- also have a question
+
 * [[Tim Porter|Tim]]:
 
   * Replied to [[Urs Schreiber|Urs]] at [[bar and cobar construction]] (at least I hope the reply goes some way to answering the query).
