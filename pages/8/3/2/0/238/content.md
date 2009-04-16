@@ -15,6 +15,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * included [[Todd Trimble|Todd]]'s proof of MacLane's co-Yoneda into [[co-Yoneda lemma]]
+
   * tried to bring [[A-infinity-category]] into some shape by adding more introductory discussion and ordering the references a bit -- also have a question
 
 * [[Tim Porter|Tim]]:
