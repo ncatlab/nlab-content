@@ -2,7 +2,7 @@
 
 _Grothendieck categories_ are those [[abelian category|abelian categories]] $C$
 
-* such that for [[presheaf|presheaves]] on a [[site]] with values in $C$ there is a notion of [[sheafification]];
+* such that for [[presheaf|presheaves]] on a [[site]] with values in $C$ there is an existence theorem for  [[sheafification]] functor;
 
 * such that all [[complex]]es in $C$ (with respect to a [[category with translation|translation]]) are [[quasi-isomorphism|quasi-isomorphic]] to [[injective object|homotopically injective]] complexes (so that [[derived functor on a derived category|derived functor]] can be computed on homotopically injective replacements).
 
@@ -23,9 +23,8 @@ This means that a **Grothendieck category** is an [[abelian category|abelian]] [
 
   * for $I$ a [[directed set]] and $0 \to A_i \to B_i \to C_i \to 0$ an [[exact sequence]] for each $i \in I$, then $0 \to colim_i A_i \to colim_i B_i \to colim_j B_j \to 0$ is also an [[exact sequence]].
 
-
-
-
+Dually a *co-Grothendieck category* is an AB5$^*$ category 
+with a [[cogenerator]].
 #Properties#
 
 A Grothendieck category $C$ satisfies the following properties.
