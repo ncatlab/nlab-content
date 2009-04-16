@@ -14,7 +14,7 @@ There is a sequence of extra [[stuff, structure, property|structure and property
 1. **[[abelian category]]**:
   a pre-abelian category such that every [[monomorphism]] is a kernel and every [[epimorphism]] is a cokernel (and many other equivalent definitions).
 
-Pre-abelian and abelian categories are sometimes called (AB1) and (AB2) categories, after the sequence of axioms introduced by Grothendieck in [[Tohoku]].  These continue:
+Pre-abelian and abelian categories are sometimes called (AB1) and (AB2) categories, after the sequence of additional axioms on top of additive categories introduced by Grothendieck in [[Tohoku]].  AB1 and AB2 are self-dual axioms (AB1 is existence of kernels and cokernels, and AB2 requires that, for any $f$, the canonical morphism $\mathrm{Coim}\,f\to \mathrm{Im}\,f$ is an isomorphism). These continue in non-selfdual manner:
 
 * AB3: an abelian category with all coproducts and products (hence with all [[colimit]]s and [[limit]]s);
 
@@ -28,13 +28,11 @@ Pre-abelian and abelian categories are sometimes called (AB1) and (AB2) categori
 
   * Notice that this implies that inf for any family of subobjects exists.
 
-The concepts (AB3--6) can also be split into independent colimit-like and limit-like parts.
+The concepts (AB3--6) can also be split into independent colimit-like and limit-like parts. One can also consider dual axioms AB3$^\star$, AB4$^\star$, AB5$^\star$ and AB6$^\star$.
 
 There are further refinements along these lines. In particular
 
 * [[Grothendieck category]]: an AB5 category with a [[generator]].
-
-
 
 #Further refinements#
 
