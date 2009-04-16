@@ -18,6 +18,10 @@
 
     * [[geometric infinity-function theory]]
 
+  * Models
+
+    * [[GUT|Grand Unified Theories]]
+
 * [[string theory|String Theory]]
 
   * [[brane|Branes]]
