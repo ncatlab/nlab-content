@@ -1,6 +1,6 @@
 {:myundef: .un_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
-[Kuo Tsai Chen](http://www.ams.org/mathscinet/search/publications.html?pg1=IID&s1=47865) described several categories of [generalized smooth space|generalised smooth spaces] in his works.
+[Kuo Tsai Chen](http://www.ams.org/mathscinet/search/publications.html?pg1=IID&s1=47865) described several categories of [[generalized smooth space|generalised smooth spaces]] in his works.
 Four are reproduced below.
 His initial motivation appears to be extending the theory of differential forms from ordinary manifolds to path spaces.
 
@@ -59,14 +59,13 @@ __Definition 1.2.1__ A differentiable space $M$ is a set equipped with a family 
   If $\{U_i\}$ is an open covering of $U$ and if each restriction $\phi | U_i$ is a plot, then $\phi$ is itself a plot.
 =--
 
-##### Remarks
+# Remarks #
 * In 1986, Chen gave a definition equivalent to the last.
 * It seems clear from the context that in the 1975 paper Chen was first recalling the definition from the 1973 paper.  However, his recollection was not completely accurate as the underlying object was now a topological space rather than a Hausdorff space.
 * The forcing condition on the maps in the 1975 paper is actually stronger than that in the 1977 paper.
 * The final structure is of [[sheaf|sheaves]] on a [[site]].  This is the definition used in, for example, Baez and Hoffnung [0807.1704].
 
-## References ##
-
+# References #
 * [Iterated integrals of differential forms and loop space homology](http://www.ams.org/mathscinet-getitem?mr=380859), 1973
 * [Iterated integrals, fundamental groups and covering spaces](http://www.ams.org/mathscinet-getitem?mr=0377960), 1975
 * [Iterated path integrals](http://www.ams.org/mathscinet-getitem?mr=0454968), 1975
