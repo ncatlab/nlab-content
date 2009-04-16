@@ -32,6 +32,8 @@ The following entries provide lexicalic information about basic concepts in diff
 
   * [[differential graded Hopf algebra]]
 
+  * [[differential graded algebras and differential graded Lie algebras-relationships]]
+
 * [[twisting cochain]]
 
   * [[twisted tensor product]]
