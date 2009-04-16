@@ -39,3 +39,129 @@ $$(su_1, \ldots, su_p)\to (su_i,su_j,su_1,\ldots, s\hat{u_i}, \ldots,s\hat{u_j},
 
 where ''$s\hat{u_i}$'' indicates that the element $su_i$ has been omitted.  Putting $d = d_1 + d_2$, we have a commutative dga, $C^*(L,\partial)$, $d_1$ and $d_2$ being called, respectively, the linear and quadratic part of $d$.
 
+
+When $L$ has finite type, this algebra can be identified with $\bigwedge s\# L$.  Before making this precise, we will develop the extension of duality to the tensor algebra.
+
+Let $\# V$ be the dual of a gvs $V$ of finite type, the elements of the tensor algebra $T(\#V)$ can be interpreted as multilinear functions on $V$ 
+
+$$\langle x_1\otimes \ldots x_p,y_1,\ldots , y_p\rangle  = \varepsilon \prod_{i=1}^{p}\langle x_i,y_i\rangle ,$$
+
+where $\varepsilon$ is the Koszul sign of 
+ 
+$$(x_1,\ldots,x_p,y_1,\ldots,y_p)\to (x_1,y_1,\ldots, ,x_p,y_p).$$
+
+The free commutative graded algebra $\bigwedge\# V$ then can be identified as the algebra $C^*(V)$ defined above, via the canonical injection $\chi : \bigwedge \# V\to T(\# V)$.
+
+
+## The cochains of a dgla, $(L,\partial)$, of finite type.
+
+Applying the preceding conventions, we get
+
+
+
+$$\array{C^*(L,\partial) &=& (\bigwedge s^{-1}\#L, d = d_1+d_2);\\
+\langle d_1s^{-1}z;sx\rangle  &=& - \langle z;\partial x\rangle ;\\
+\langle d_2s^{-1}z;sx_1,sx_2\rangle &=& (-1)^{|x_1|}\langle z;[x_1,x_2]\rangle }$$
+for  $ z\in \#L, x_i\in L, x\in L.$
+
+
+
+## Remark
+
+The differential $d$ is a sum of a linear differential $d_1$ and a quadratic differential, $d_2$.  By a word length argument, $d^2 = 0$ is equivalent to 
+
+$\left\{\array{
+(a) & d_1^2 = 0\\
+(b) & d_1d_2 + d_2d_1 = 0\\
+(c) & d_2^2 = 0
+}\right.$
+
+If one lifts the definitions of $d_1$ and $d_2$ back to the Lie algebra $(L,\partial)$, one has 
+
+(a) is equivalent to $\partial^2 = 0$;
+
+(b) is equivalent to '$\partial$ is a Lie algebra derivation';
+
+(c) is equivalent to 'the bracket satisfies the Jacobi identity'.
+
+
+
+Conversely if $(\bigwedge V,d_1 + d_2)$ is a cdga, free on $V$ as a cga, we can define a dgla structure on $s^{-1}\#V$ using the above formulae.
+
+## Definition
+
+$CDGA_{fg}$ will denote the subcategory of $CDGA$ with
+
+
+* as objects the cdgas $(\bigwedge V, d)$ of finite type, which are free as cgas on a gvs of generators $V = \sum_{k\geq 1}V^k$ with differential given by a linear part and a quadratic part;
+
+* as arrows, the cdga morphisms that send generators to generators.
+
+
+The preceding remark translates as
+## Proposition
+
+$CDGA_{fg}$ and the full subcategory of $DGLA$ formed by Lie algebras of finite type.
+
+
+
+Let $\overline{C}$ be the inverse functor.
+
+
+
+Let $(\bigwedge V, d)$ and $(\bigwedge V^\prime, d^\prime)$ be two cdgas of finite type, which are free as cgas.  Denote by $d_1$, the linear part of $d$, the differential $\overline{d}$ induced by $d$ on $H(\bigwedge V, d_1) = \bigwedge H(V,d_1)$, has zero linear part.  Its quadratic part $\overline{d_2}$ is thus a differential.  It determines, via $\overline{C}$, a gla structure on $s^{-1}\#H(V,d_1)$
+
+If $(\bigwedge V, d) = C^*(L,\partial)$, we can easily check that the identification of $s^{-1}\#H(V,d_1)$ with $H(L,\partial)$ is a Lie algebra isomorphism.
+
+In particular, if $d$ is decomposable, $(d(V)\subseteq \bigwedge^{\geq 2}V)$, then $s^{-1}\#V$ has a Lie algebra structure defined by $\overline{C}(\bigwedge V,d_2)$.  Applying our earlier description of this, we have that the bracket on $s^{-1}\#V$ is characterised by
+
+$$\langle v;s[s^{-1}x_1,s^{-1}x_2]\rangle  = (-1)^{|x_2|+1}\langle d_2v;x_1,x_2\rangle ,v \in V, x_i\in \#V.$$
+
+
+Now let $\Phi : (\bigwedge V, d) \to (\bigwedge V^\prime, d^\prime)$ be a morphism of cdgas, then $$s^{-1}\#H(Q(\Phi)): s^{-1}\#H(\bigwedge V^\prime, d^\prime_1) \to  s^{-1}\#H(\bigwedge V, d_1)$$ is a Lie algebra morphism.
+
+## The functor $L_*$
+
+Let $(A,d)$ be a connected cdga of finite type.  Recall that $\mathbb{L}(s^{-1}\# A) \subset T(s^{-1}\#A) $ denotes the free Lie algebra on $s^{-1}\#A$ and note that $T^p(s^{-1}\#A)  = \#T^p(sA)$.  The linear and quadratic derivations $\partial_1$ and $\partial_2$ respectively are determined on $\mathbb{L}(s^{-1}\#A) $ by 
+
+$\array{
+\langle sa;\partial_1s^{-1}b\rangle  &=& -\langle da;b\rangle ,\\
+\langle sa_1.sa_2;\partial_2s^{-1}b\rangle & =& (-1)^{|a_1|}\langle a_1.a_2;b\rangle ; \quad a\in A, a_i\in A,b\in \#A.}$
+
+The three conditions
+
+(a) $d^2 = 0$, 
+
+(b) $d$ is an algebra derivative, 
+
+(c) $A$ is associative,
+
+are equivalent, respectively, to
+
+(a) $\partial_1^2 = 0$,
+
+(b) $\partial_1\partial_2 + \partial_2\partial_1 = 0$, 
+
+(c) $\partial_2^2 = 0$.
+
+
+
+## Definition
+
+$L_* $ is the functor with domain the full subcategory $f-CDGA_0$ of $CDGA$ formed by the connected cdgas of finite type and with codomain $DGLA$.  It is defined by $L_*(A,d) = (\mathbb{L}(s^{-1}\#A,\partial = \partial_1 + \partial_2$).
+
+Note: $L_* = P\circ \# \circ B$. [$B$ , the bar construction, $\#$ duality, and $P$, primitives.]
+
+
+## Definition
+ 
+
+Let $DGLA_{fq}$ be the subcategory of $DGLA$ having as objects the dglas $(\mathbb{L}(V),\partial)$, which, as graded Lie algebras, are free on a vector space of generators $V$ of finite type, having a differential that is the sum of a linear and a quadratic part, and for arrows the dgla morphisms that send generators to generators.  
+
+The above remarks show
+
+Proposition
+
+$L_*$ is an isomorphism between $DGLA_{fq}$ and $f-CDGA$_0$.
+
+(WORK IN PROGRESS!)
