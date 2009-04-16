@@ -99,10 +99,11 @@ $CDGA_{fg}$ will denote the subcategory of $CDGA$ with
 
 
 The preceding remark translates as
-## Proposition
 
-$CDGA_{fg}$ and the full subcategory of $DGLA$ formed by Lie algebras of finite type.
-
++-- {: .num_prop}
+######Proposition
+$C^*$ is an isomorphism between $CDGA_{fg}$ and the full subcategory of $DGLA$ formed by Lie algebras of finite type.
+=--
 
 
 Let $\overline{C}$ be the inverse functor.
@@ -118,7 +119,11 @@ In particular, if $d$ is decomposable, $(d(V)\subseteq \bigwedge^{\geq 2}V)$, th
 $$\langle v;s[s^{-1}x_1,s^{-1}x_2]\rangle  = (-1)^{|x_2|+1}\langle d_2v;x_1,x_2\rangle ,v \in V, x_i\in \#V.$$
 
 
-Now let $\Phi : (\bigwedge V, d) \to (\bigwedge V^\prime, d^\prime)$ be a morphism of cdgas, then $$s^{-1}\#H(Q(\Phi)): s^{-1}\#H(\bigwedge V^\prime, d^\prime_1) \to  s^{-1}\#H(\bigwedge V, d_1)$$ is a Lie algebra morphism.
+Now let $\Phi : (\bigwedge V, d) \to (\bigwedge V^\prime, d^\prime)$ be a morphism of cdgas, then 
+
+$$s^{-1}\#H(Q(\Phi)): s^{-1}\#H(\bigwedge V^\prime, d^\prime_1) \to  s^{-1}\#H(\bigwedge V, d_1)$$ 
+
+is a Lie algebra morphism.
 
 ## The functor $L_*$
 
@@ -160,11 +165,10 @@ Let $DGLA_{fq}$ be the subcategory of $DGLA$ having as objects the dglas $(\math
 
 The above remarks show
 
-Proposition
-
++-- {: .num_prop}
+######Proposition
 $L_*$ is an isomorphism between $DGLA_{fq}$ and $f-CDGA$_0$.
-
-(WORK IN PROGRESS!)
+=--
 
 
 +-- {: .query}
@@ -173,3 +177,14 @@ $L_*$ is an isomorphism between $DGLA_{fq}$ and $f-CDGA$_0$.
 
 [[Tim Porter|Tim]]: I agree, but before that I am hoping that others will help me to sort out the relationships here and with those other areas as I am no expert in this.
 =--
+
+
+We denote by $\overline{L}$, the inverse functor.
+
+Let $(L(W), \partial)$ be a dgla, that is, as a gla, free on a finite type vector space $W$.  Denote by $\partial_1$, the linear part of $\partial$, and $\overline{\partial}_2$, the quadratic part of the differential induced by $\partial$ on $\mathbb{L}(H(W,\partial_1))$.  The space $k \oplus s^{-1}\#H(W,\partial_1)$ has then a commutative graded algebra structure induced via $\overline{L}$.  If $(\mathbb{L}(W),\partial) = L_*(A,d)$, the identification of $k \oplus s^{-1}\#H(W,\partial_1)$  with $H(A,\partial)$ is an algebra isomorphism.
+
+In particular, if $\partial$ is decomposable, $(\partial(W) \subset \mathbb{L}^{\geq 2}(W)$), then $k \oplus s^{-1}\#W$ has a graded commutative algebra  structure defined by $\overline{L}(\mathbb{L}(W),\partial_2)$.  Applying earlier results, the multiplication on $s^{-1}\#W$ is characterised by 
+
+$\langle s(s^{-1}x_1.s^{-1}x_2;w\rangle  = (-1)^{|x_2| + 1}\langle x_1,x_2;\partial_2 w\rangle ; \quad w\in W,x_i \in\#W.$
+
+
