@@ -2,7 +2,7 @@
 
 An **ind-object** of a category $C$ is a "formal [[filtered category|filtered]] colimit" of objects of $C$.  The category of ind-objects of $C$ is written $ind$-$C$.
 
-"Ind" is short for "inductive limit," an old term for a [[colimit]], as contrasted with "pro" in the [[pro-object|dual notion]] for "projective limit," the old term for [[limit]].
+Here, "ind" is short for "inductive system", as in the inductive systems used to define [[directed colimit]]s, as contrasted with "pro" in the [[pro-object|dual notion]] for "projective system".
 
 +-- {: .query}
 Would it make sense to take this opportunity on nLab to give this a new modern name? Maybe call it "colimit-object" or "filtered colimit" or something? Something more consistent with the rest of the nLab might be nice. Just a thought. - [[Eric Forgy|Eric]]
@@ -17,7 +17,7 @@ $$
   c_1 \hookrightarrow c_2 \hookrightarrow c_3 \hookrightarrow c_4 \hookrightarrow \cdots
 $$
 
-of objects in $C$ are regarded to converge to an object in $ind-C$, even if that object does not exist in $C$ itself. 
+of objects in $C$ are regarded to converge to an object in $ind C$, even if that object does not exist in $C$ itself. 
 Standard examples where ind-objects are relevant are categories $C$ whose objects are finite in some sense, such as finite sets or finite vector spaces. Their ind-categories contain then also the infinite versions of these objects as limits of sequences of inclusions of finite objects of ever increasing size. 
 
 Moreover, ind-categories allow to handle "big things in terms of small things" also in another important sense: many [[large category|large categories]] are actually ([[equivalence of categories|equivalent]] to) ind-categories of [[small category|small categories]]. This means that, while [[large category|large]], they are for all practical purposes controlled by a [[small category]] (see the description of the [[hom-set]] of $ind-C$ in terms of that of $C$ below). Such [[large category|large categories]] equivalent to ind-categories are therefore called [[accessible category|accessible categories]].
@@ -31,10 +31,10 @@ There are many ways to make this notion precise.
 ## as diagrams ##
 
 One definition is to define the objects of $ind$-$C$ to be diagrams $F:D\to C$ where $D$ is a [[small category|small]] [[filtered category|filtered]] category.  
-The idea is to think of these diagrams as being the placeholder for the [[colimit]] over them (possibly non-existant in $C$)
+The idea is to think of these diagrams as being the placeholder for the [[colimit]] over them (possibly non-existent in $C$)
 We identify an ordinary object of $C$ with the corresponding diagram $1\to C$.  To see what the morphisms should be between $F:D\to C$ and $G:E\to C$, we stipulate that
 
-1. The embedding $C\to ind$-$C$ should be full and faithful,
+1. The embedding $C\to ind$-$C$ should be [[full and faithful functor|full and faithful]],
 1. each diagram $F:D\to C$ should be the colimit of itself (considered as a diagram in $ind$-$C$ via the above embedding), and
 1. the objects of $C$ should be [[finitely presentable object|finitely presentable]] in $ind$-$C$.
 
@@ -80,11 +80,11 @@ Another, equivalent, definition is to let $ind$-$C$ be the [[full subcategory]] 
 
 * $ind\text{-}C$ admits small [[filtered category|filtered]] [[colimit]]s and the inclusion $ind\text{-}C\hookrightarrow PSh(C)$ commutes with these colimits.
 
-* If $C$ admits finite [[colimit]]s, then $ind\text{-}C$ is the full [[subcategory]] of the [[presheaf]] category $PSh(C)$ consisting of those functors $F : C^{op} \to Set$ such that $F$ is [[exact functor|left exact]] and the [[comma category]] $(Y,F)$ (with $Y$ the [[Yoneda embedding]]) is [[cofinally small category|cofinally small]].
+* If $C$ admits finite [[colimit]]s, then $ind\text{-}C$ is the [[full subcategory]] of the [[presheaf]] category $PSh(C)$ consisting of those functors $F : C^{op} \to Set$ such that $F$ is [[exact functor|left exact]] and the [[comma category]] $(Y,F)$ (with $Y$ the [[Yoneda embedding]]) is [[cofinally small category|cofinally small]].
 
 # Generalizations #
 
-* There is a notion of [[ind-object (infinity,1)-category]].
+* There is a notion of [[ind-object in an (infinity,1)-category]].
 
 Notice that the [[comma category]] $(Y,F)$ is the [[pullback]] of the [[generalized universal bundle|universal Set-bundle]] $Set_* \to Set$ along $F : C^{op} \to Set$. This means that the canonical
 
@@ -130,7 +130,7 @@ Ind-categories are discussed in
 
 * Kashiwara-Schapira, [[Categories and Sheaves]], section 6
 
-* Grothendieck et al. SGA4.I.6 <a href="http://modular.math.washington.edu/sga/djvu/SGA4-1.tif.djvu">djvu file</a>
+* Grothendieck et al. SGA4.I.6 [djvu file](http://modular.math.washington.edu/sga/djvu/SGA4-1.tif.djvu)
 
 * A. Grothendieck, Techniques de d&#233;scente et th&#233;or&#232;mes d'existence en g&#233;om&#233;trie
 alg&#233;brique, II: le th&#233;or&#232;me d'existence en th&#233;orie formelle des modules, Seminaire
