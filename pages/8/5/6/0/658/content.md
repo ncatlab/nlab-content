@@ -78,6 +78,10 @@ $$
 
 _(what is a good  comprehensive reference?)_
 
+Some exposition at
+
+* John Baez, _Re: Klein 2-Geometry VII_ ([blog](http://golem.ph.utexas.edu/category/2006/11/klein_2geometry_vii.html#c005985))
+
 The common generalization of [[bimodule]]s and [[span]]s in terms of distributors has been discussed on the blog at
 
 * John Baez, _Bimodules versus spans_ ([blog](http://golem.ph.utexas.edu/category/2008/08/bimodules_versus_spans.html))
