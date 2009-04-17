@@ -18,13 +18,15 @@ The basic idea is that the set of well-founded sets is the [[initial algebra]] o
 
 Concretely, it may be easier to define first a __[[transitive set|transitive pure set]]__; this is a [[set]] (in the structural sense) $U$ equipped with an [[extensional relation]] $\in$; $U$ is a __well-founded transitive set__ if $\in$ is a [[well-founded relation]].  Then a pure set is an element of any transitive pure set; a well-founded set is an element of any well-founded transitive set.
 
-So far, this is not very useful, since different transitive sets have no relationship.  However, a _morphism_ of transitive sets $f: U \to V$ is a [[function]] (on the underlying structural sets) such that
+So far, this is not very useful, since different transitive sets have no relationship.  However, a _morphism_ of well-founded transitive sets $f: U \to V$ is a [[function]] (on the underlying structural sets) such that
 * $f(x) \in f(y)$ if and only if $x \in y$ and
 * $f$ induces a [[bijection]] between $\{t \;|\; t \in x\}$ and $\{t \;|\; t \in f(x)\}$.
 
-(At least, this definition is correct for well-founded transitive sets.)
+For general transitive sets, one must use the reflexive-[[transitive closure]] $\in^*$ of $\in$, although then one can combine the two conditions into one:
 
-Then any two morphisms $f, g: U \to V$ must in fact be equal, so the category of transitive sets is a (large) [[partial order|poset]].  Furthermore, this poset has [[join]]s ([[coproduct]]s); each join (which we think of as the [[union]] of transitive sets) may be constructed as a [[quotient set]] of a [[disjoint union]] of underlying sets.  Actually, all that really matters is that this poset is finitely [[direction|directed]]; we take the [[directed limit|directed colimit]] of the entire poset to get (intuitively speaking) the union of all of the transitive sets.  Of course, this is a large object.
+* $f$ induces an [[isomorphism]] (of sets equipped with a relation $\in$) between $\{t \;|\; t \in^* x\}$ and $\{t \;|\;t \in^* f(x)\}$.
+
+Using the extensionality of $\in$, any two morphisms $f, g: U \to V$ must in fact be equal, so the category of transitive sets is a (large) [[partial order|poset]].  Furthermore, this poset has [[join]]s ([[coproduct]]s); each join (which we think of as the [[union]] of transitive sets) may be constructed as a [[quotient set]] of a [[disjoint union]] of underlying sets.  Actually, all that really matters is that this poset is finitely [[direction|directed]]; we take the [[directed limit|directed colimit]] of the entire poset to get (intuitively speaking) the union of all of the transitive sets.  Of course, this is a large object.
 
 A little less flamboyantly, simply define a __pure set__ to be a transitive set $U$ together with an element $x$ of $U$; then define $(x,U)$ and $(y,V)$ be equal (as pure sets) if $x$ and $y$ become equal in the join $U \cup V$.  We also define that $(x,U)$ is a __member__ of $(y,V)$ if $x$ becomes a member of $y$ ($x \in y$) in the join.  The extensionality condition on $\in$ in $U \cup V$ becomes the [[axiom of extensionality]] for pure sets.
 
