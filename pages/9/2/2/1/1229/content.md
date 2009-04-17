@@ -1,3 +1,3 @@
-See [[element of an abelian category]].
+See [[element in an abelian category]].
 
 category: redirect
