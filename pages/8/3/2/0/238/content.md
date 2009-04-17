@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-17 #
 
+* [[David Corfield|David]]
+
+  * created [[coherent logic]]
+
 * [[Urs Schreiber|Urs]]: 
 
   * expanded [[hom-set]] a bit
