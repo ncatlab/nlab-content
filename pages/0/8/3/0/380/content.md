@@ -6,7 +6,7 @@ The idea of Klein's original Erlangen program is to study geometries that have s
 
 To categorify this we'd like to replace $G$ with a 2-group, and replace $H$ with a "sub-2-group".  We then need to define the suitable analogue of the quotient $G/H$, and see in what sense $G$ acts transitively on this.
 
-A suitable notion of sub-2-group is a faithful, but not necessarily full, functor into $G$. Quotients may be thought of as homogeneous [[orbifold|orbifolds]].
+A suitable notion of sub-2-group is a [[faithful functor|faithful]], but not necessarily full, functor into $G$. Quotients may be thought of as homogeneous [[orbifold|orbifolds]].
 
 #Discussion#
 
