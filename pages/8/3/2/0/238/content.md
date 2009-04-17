@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[David Corfield|David]]
 
+  * made a request at Mike's [categorified logic](http://ncatlab.org/michaelshulman/show/categorified+logic)
+
   * created [[D-module]]
 
   * created [[coherent logic]]
