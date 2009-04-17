@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-17 #
 
+* [[Urs Schreiber|Urs]]: 
+
+  * remarked at [[semi-abelian category]] that the now deprecated second equivalent definition was taken directly from the (single) reference we give. I think instead of just removing it we should try to correct it.
+
 *  [[Toby Bartels]]:
    *  Wrote [[axiom of extensionality]] and [[transitive closure]] while writing the below.
    *  Added the more general definition to [[extensional relation]].  It seems right to me and I can prove that it\'s correct for well-founded relations, but I must admit that I made it up just now.
