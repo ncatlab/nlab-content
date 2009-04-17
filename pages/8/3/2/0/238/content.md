@@ -13,6 +13,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-04-16 #
 
+Im Westens nicht neues
+
+# 2009-04-16 #
+* [[Zoran Škoda]]: created [[Tohoku]], [[quasi-pointed object]], made changes to [[sheafification]],[[additive and abelian categories]], [[torsion]], [[torsion subgroup]]
+
 * [[Mathieu Dupont|Mathieu]]:
 
   * corrected [[semi-abelian category]] and answered to Mike
