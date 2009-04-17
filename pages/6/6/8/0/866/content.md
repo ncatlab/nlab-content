@@ -1,12 +1,12 @@
 A _relation_ is the extension of a [[predicate]].  That is, if you have a statement whose [[truth value]] may depend on some variables, then you get a relation that consists of those instantiations of the variables that make the statement true.  Equivalently, you can think of a relation as a [[function]] whose [[target]] is the set of truth values.
 
-# Definitions #
+## Definitions ##
 
-## General case ##
+### General case ###
 
 Given a family $(A_i)_{i: I}$ of [[set]]s, a **relation** on that family is a [[subset]] of the [[cartesian product]] $\prod_{i: I} A_i$.  Equivalently, a **relation** is a [[function]] from $\prod_{i: I} A_i$ to the set $\TV$ of [[truth value]]s (because $\TV$ is the [[subobject classifier]] in [[Set]]).
 
-## Special cases ##
+### Special cases ###
 
 A __nullary relation__ is a relation on the empty family of sets.  This is the same as a [[truth value]].
 
@@ -20,11 +20,27 @@ An __$n$-ary relation__ on $A$ is a relation on a family of $n$ copies of $A$, t
 
 For a binary relation, one often uses a symbol such as $\sim$ and writes $a \sim b$ instead of $(a,b) \in \sim$.  Actually, even when a relation is given by a letter such as $R$, one often sees $a R b$ instead of $(a,b) \in R$, although now that does not look so good.
 
-# Binary relations #
+## Morphisms ##
+
+If $A$ and $B$ are each sets equipped with a relation, then what makes a [[function]] $f: A \to B$ a _morphism_ of sets so equipped?
+
+There are really two ways to do this, shown below.  (We will write these as if each set is equipped with a binary relation $\sim$, but any fixed arity would work.)
+*  $f$ __preserves__ the relation if $x \sim y \;\Rightarrow\; f(x) \sim f(y)$ always;
+*  *f* __reflects__ the relatin if $x \sim y \;\Leftarrow\; f(x) \sim f(y)$ always.
+
+Now, if $f$ is a [[bijection]], then it preserves the relation if and only if its inverse reflects it, so clearly an [[isomorphism]] of relation-equipped sets should do both.  What about a mere morphism?
+
+In general, it should also do both.  But in some contexts, we only require it to do one or the other.  For binary relations, use this rule of thumb:
+*  A morphism of sets, each equipped with a [[reflexive relation]], need only *preserve* the relation;
+*  A morphism of sets, equipped with an [[irreflexive relation]], need only *reflect* the relation.
+
+Sometimes an even stricter condition is imposed, as for [[extensional relation]]s or [[well-founded relation]]s (including [[well-order]]s as a special case of both).  But even in these cases, the definition of isomorphism comes out the same.
+
+## Binary relations ##
 
 Binary relations are especially widely used.
 
-## Kinds of binary relations ##
+### Kinds of binary relations ###
 
 Special kinds of relations from $A$ to $B$ include:
 * [[functional relation]]s;
@@ -38,11 +54,11 @@ Special kinds of binary relations on $A$ additionally include:
 * [[transitive relation]]s and [[comparison]]s;
 * left and right [[euclidean relation]]s;
 * [[total relation|total]] and [[tight relation|tight]] relations;
-* [[well-founded relation]]s.
+* [[extensional relation|extensional]] and [[well-founded relation|well-founded]] relations.
 
 Combinations of the above properties of binary relations produce [[equivalence relation]]s, [[apartness relation]]s, and the various kinds of [[order]]s.
 
-## The $2$-poset of binary relations ##
+### The $2$-poset of binary relations ###
 
 Binary relations form a $2$-[[2-category|category]] (in fact a $2$-[[2-poset|poset]]) [[Rel]], which is the basic example of an [[allegory]].
 
@@ -56,6 +72,6 @@ The special properties of the kinds of binary relations listed earlier can all b
 
 As a [[function]] may be seen as a functional, entire relation, so the category [[Set]] of sets and functions is a [[subcategory]] of [[Rel]] (in fact a [[replete subcategory|replete]] and locally [[full subcategory|full]] sub-$2$-category).
 
-# Generalisation #
+## Generalisation ##
 
 Most of the preceding makes sense in any [[category]] with enough [[product]]s.  Probably the trickiest bit is the definition of composition of binary relations, so not every category with finite products has an allegory of relations.  In fact, in a certain precise sense, a category has an allegory of relations if and only if it is [[regular category|regular]].  It can then be recovered from this allegory by looking at the functional and entire relations.
