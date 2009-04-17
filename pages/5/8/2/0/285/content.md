@@ -1,8 +1,8 @@
 Given [[object|objects]] $x$ and $y$ in a [[locally small category]], the __hom-set__ $hom(x,y)$ is the collection of all morphisms from $x$ to $y$.  
 
-## Remarks ##
+# Remarks #
 
-* We say a category is [[locally small category|locally small]] if this collection is always actually a set instead of a proper class, or in the context of a [[Grothendieck universe]]: if this set is a $U$-small set.  This holds for many examples, but not for all. For example, if $C$ and $D$ are not [[small category|small categories]], then the [[functor category]] $C^D$ (whose objects are [[natural transformation]]s) will not be locally small.
+* We say a category is [[locally small category|locally small]] if this collection is always actually a set instead of a proper class, or in the context of a [[Grothendieck universe]]: if this set is a $U$-small set.  This holds for many examples, but not for all. For example, if $C$ and $D$ are not [[small category|small categories]], then the [[functor category]] $C^D$ (whose morphisms are [[natural transformation]]s) will not be locally small.
 
 
 
@@ -12,17 +12,14 @@ For a category $C$ [[enriched category theory|enriched over]] a category $V$, th
 
 #for internal categories#
 
-For $C = (C_0, C_1, s,t,e, comp)$ a [[internal category|category internal to]] a category with a [[terminal object|terminal]] [[generator]] $*$, we may identitfy morphisms $x,y * \to C_0$ with objects of $C$ and the corresponding "hom-thing" is the [[pullback]] $C(x,y)$ in
+For $C = (C_0, C_1, s,t,e, c)$ an [[internal category]], the [[generalized element|generalized]] objects of $C$ are morphisms $x: X \to C_0$ and $y: Y \to C_0$, and the "hom-set" becomes the [[pullback]] $C(x,y)$ in
 
-$$
-  \array{
-    C(x,y) &\to& C_1
-    \\
-    \downarrow && \downarrow^{s \times t}
-    \\
-    * &\stackrel{x \times y}{\to}&
-    C_0 \times C_0
-  }
-$$
+$$ \array{
+C(x,y)     & \to          & Y            \\
+\downarrow & \searrow     &              & \searrow^{y}    \\
+X          &              & C_1          & \stackrel{t}\to & C_0 \\
+           & \searrow^{x} & \downarrow_s \\
+           &              & C_0
+} $$
 
-
+In particular, in a category with a [[terminal object|terminal]] [[generator]] $*$, we may identitfy morphisms $x,y: * \to C_0$ with [[global element|global]] objects of $C$ and form $C(x,y)$ as above.
