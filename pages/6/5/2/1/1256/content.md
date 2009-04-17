@@ -1,0 +1,1 @@
+Coherent logic is a fragment of first-order logic restricted to $\wedge$, $\vee$, $\top$, $\bot$, and $\exists$. Coherent logic can be interpreted in a [coherent category](http://ncatlab.org/nlab/show/coherent+category).
