@@ -30,6 +30,8 @@ A [[category]] $C$ is **semi-abelian** if it
 
 * [[congruence|equivalence relations]] are effective.
 
+[[Urs Schreiber|Urs]]: the statement about the two equivalent defintions was taken directly from the reference given below -- maybe I copied it incorrectly, but then we should keep the corrected version of the second definition here
+
 =--
 
 #Remarks#
