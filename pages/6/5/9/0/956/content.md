@@ -3,6 +3,10 @@ $$\forall (x, y: A),\; x \nsim y \;\wedge\; y \nsim x \;\Rightarrow\; x = y$$
 
 The term 'tight' here comes from the theory of [[apartness relation]]s, although this is also a property of [[linear order]]s.
 
+## Discussion ##
+
+This discussion is from when the article was at [[linear relation]].
+
 +--{.query}
 I\'m not aware of any standard name for this property, even in the constructive literature.  (Constructive mathematicians mostly think of it as antisymmetry of the negation; classical mathematicians mostly think of it as half of trichotomy, with asymmetry being the other half.)  The high-school meaning of 'linear relation' referred to above (which is what you find on Google) is unlikely to cause confusion, but an unambiguous name might be better.
 
