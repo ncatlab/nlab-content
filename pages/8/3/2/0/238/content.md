@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
+  * expanded [[hom-set]] a bit
+
   * remarked at [[semi-abelian category]] that the now deprecated second equivalent definition was taken directly from the (single) reference we give. I think instead of just removing it we should try to correct it.
 
 *  [[Toby Bartels]]:
