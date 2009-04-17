@@ -1,3 +1,5 @@
-An __element__ of an object $W$ in a fixed [[abelian category]] $A$ is an <em>equivalence class</em> $[X,h]$ of pairs $(X,h)$ where $X$ is an object of $A$ and $h:X\to A$ morphism and the equivalence is defined as follows: $(X,h)\equiv (Y,k)$ iff there exists an object $Z$ in $A$ and [[epimorphism]]s $u:Z\to X$, $v:Z\to Y$ such that $h\circ u = k\circ v$. 
+An __element__ of an object $W$ in a fixed [[abelian category]] $A$ is an <em>equivalence class</em> $[X,h]$ of pairs $(X,h)$ where $X$ is an object of $A$ and $h:X\to A$ morphism and the equivalence is defined as follows: $[X,h] = [Y,k]$ iff there exists an object $Z$ in $A$ and [[epimorphism]]s $u:Z\to X$, $v:Z\to Y$ such that $h\circ u = k\circ v$. 
 
 Elements in an abelian category can be used for [[diagram chasing]].
+
+See also: [[generalized element]].
