@@ -12,7 +12,7 @@ $$Set^{C^{op}}(\hom_C(-, c), F)$$
 
 appropriate to the presheaf category. 
 
-There is an $V$-enriched category version, whenever $C$ is a category enriched in a [[complete category|complete]], [[cocomplete category|cocomplete]], [[closed monoidal category|symmetric monoidal closed category]] $V$. Here "Nat" is constructed as an enriched [[end]] (an example of a [[weighted limit]]): 
+There is an $V$-enriched category version, whenever $C$ is a category enriched in a [[complete category|complete]], [[cocomplete category|cocomplete]], [[symmetric monoidal category|symmetric]] [[closed monoidal category|monoidal closed category]] $V$. Here "Nat" is constructed as an enriched [[end]] (an example of a [[weighted limit]]): 
 
 $$V^{C^{op}}(C(-, c), F) = \int_d F(d)^{C(d, c)}$$ 
 
