@@ -17,5 +17,5 @@ the action of the differential operation given by a vector field $v$ on $X$ on a
 
 * Secret Blogging Seminar [Musings on D-modules](http://sbseminar.wordpress.com/2007/07/07/musings-on-d-modules/), [Musings on D-modules, part 2](http://sbseminar.wordpress.com/2007/07/14/musings-on-d-modules-part-2/)
 
-* [D-module Basics I](http://cornellmath.wordpress.com/2007/09/06/d-module-basics-i/), [D-Module Basics II](http://cornellmath.wordpress.com/2007/09/09/d-module-basics-ii/).
+* The Everything Seminar [D-module Basics I](http://cornellmath.wordpress.com/2007/09/06/d-module-basics-i/), [D-Module Basics II](http://cornellmath.wordpress.com/2007/09/09/d-module-basics-ii/).
 
