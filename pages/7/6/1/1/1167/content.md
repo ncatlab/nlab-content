@@ -1,3 +1,3 @@
-see [[co-Yoneda lemma]]
+See [[co-Yoneda lemma]].
 
-category redirect
+category: redirect
