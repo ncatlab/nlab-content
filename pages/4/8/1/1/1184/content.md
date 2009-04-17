@@ -1,10 +1,10 @@
-# Idea #
+## Idea ##
 
 A _well-order_ on a set $S$ is a [[relation]] $\prec$ that allows one to interpret $S$ as an [[ordinal number]] $\alpha$ and $\prec$ as the relation $\lt$ on the ordinal numbers less than $\alpha$.  In particular, one can do [[induction]] on $S$ over $\prec$ (although the more general [[well-founded relation]]s also allow this).
 
 The [[well-ordering theorem]] states precisely that every set may be equipped with a well-order.  This theorem follows from the [[axiom of choice]], and is equivalent to it in the presence of [[excluded middle]].
 
-# Definition #
+## Definition ##
 
 A binary [[relation]] $\prec$ on a [[set]] $S$ is a __well-order__ if it is a [[well-founded relation|well-founded]] [[linear order]].  Equivalently, a well-order is a [[transitive relation|transitive]], [[extensional relation|extensional]], well-founded relation.  A set equipped with a well-order is called a __well-ordered set__, or (following '[[partial order|poset]]') a __woset__.  Actually, the term 'well-ordered' came first; 'well-order' is a back formation, which explains the strange grammar.
 
@@ -14,7 +14,15 @@ Using either $\prec$ or $\preceq$, we may equivalently define a well order on $S
 
 Note that in [[constructive mathematics]], $\prec$ cannot necessarily be reconstructed from $\preceq$ (which is not necessarily a total order either), and we really want $\prec$.  Also, not every well-ordered set satisfies the property that every inhabited subset has a least element; if it does we call it **classically well-ordered**.  Any classically well-ordered set is a [[choice object|choice set]], and so if any set with at least $2$ elements has a classical well-order, [[excluded middle]] follows.
 
-# Examples #
+## Morphisms ##
+
+Given two well-ordered sets $S$ and $T$, a [[function]] $f: S \to T$ is a __morphism__ of such sets if
+*  $f(x) \prec f(y)$ if and only if $x \prec y$ and
+*  $f$ induces a [[bijection]] between $\{t \;|\; t \in x\}$ and $\{t \;|\; t \in f(x)\}$.
+
+This is the same definition of morphism as you get if you think of $\prec$ as merely [[well-founded relation|well-founded]] or if you think of it as merely [[extensional relation|extensional]].  Note that, as is always the case with extensional relations, any such morphism will be unique.  That is, we have a (large) [[poset]] of well-ordered sets.
+
+## Examples ##
 
 * Any [[finite set|finite]] [[total order|totally ordered set]] $\{x_1 \lt \cdots \lt x_n\}$ is well-ordered.
 
@@ -24,7 +32,7 @@ Note that in [[constructive mathematics]], $\prec$ cannot necessarily be reconst
 
 * The [[cardinal number]]s of well-orderable sets are themselves well-ordered.  So by the well-ordering theorem, the class of all cardinal numbers is well-ordered.
 
-# Successor #
+## Successor ##
 
 A well-ordered set $S$ comes equipped with a **[[successor]]** map
 $
@@ -34,7 +42,7 @@ $
 this sends $a \in S$ to the lowest element of the subset $S_a := \{ s \in S, a \prec s\}$.
 (A slightly more involved argument proves that this map is well-defined constructively.)
 
-# Interpretation as an ordinal number #
+## Interpretation as an ordinal number ##
 
 Any well-ordered set $S$ defines an [[ordinal number]] $\alpha$ and an order isomorphism $r$ between $S$ and the set of ordinal numbers less than $\alpha$; as such, $S$ may be identified (up to isomorphism of wosets) with the von Neumann ordinal $\alpha$.  The idea is that the minimal element $\bot$ of $S$ itself (if any) is mapped to the ordinal number $0$, the minimal element of $S \setminus \{\bot\}$ (if any) is mapped to $1$, and so on; after which the next element of $S$ (if any) is mapped to $\omega$; and so on; and so on.
 
