@@ -48,16 +48,10 @@ For a pedagogical motivation of the general topic under consideration here see
   * [[Grothendieck universe]]
 
 * [[category]]
-
-  * [[object]]
-
-    * [[initial object]]
-
-    * [[terminal object]]
-
-    * [[zero object]]
   
   * [[morphism]]
+
+     * [[hom-set]]
 
     * [[identity]]
 
@@ -72,6 +66,14 @@ For a pedagogical motivation of the general topic under consideration here see
     * [[endomorphism]]
 
     * [[automorphism]]
+
+  * [[object]]
+
+    * [[initial object]]
+
+    * [[terminal object]]
+
+    * [[zero object]]
 
   * [[small category]]
   
