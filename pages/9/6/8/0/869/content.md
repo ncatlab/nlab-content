@@ -6,7 +6,7 @@ In [[intuitionistic logic]], we only have
 $$\neg\neg{p} \dashv p,$$
 while in [[paraconsistent logic]], we instead have
 $$\neg\neg{p} \vdash p.$$
-You can interpret intuitionistic negation as 'denial' and paraconsistent negation as 'doubt'.  So when one says that one doesn\'t deny $p$, that\'s weaker than actually asserting $p$; while when one says that one doesn\'t doubt $p$, that\'s stronger than merely asserting $p$.  Paraconsistent logic has even been applied to the theory of law: if $p$ is a judgment that requires only the preponderance of evidence, then $\neg\neg{p}$ is a judgment beyond reasonable doubt.
+You can interpret intuitionistic negation as 'denial' and paraconsistent negation as 'doubt'.  So when one says that one doesn\'t deny $p$, that\'s weaker than actually asserting $p$; while when one says that one doesn\'t doubt $p$, that\'s stronger than merely asserting $p$.  Paraconsistent logic has even been applied to the theory of law: if $p$ is a judgment that normally requires only the preponderance of evidence, then $\neg\neg{p}$ is a judgment of $p$ beyond reasonable doubt.
 
 [[linear logic|Linear logic]] features (at least) three different forms of negation, one for each of the above.  (The default meaning of the term 'negation' in linear logic, $p^\bot$, is the one that satisfies the classical double-negation law.)
 
