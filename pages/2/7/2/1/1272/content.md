@@ -1,1 +1,1 @@
-&lt;richard.body@shaw.ca>
+send e-mail to richardDOTbodyATshawDOTca
