@@ -56,7 +56,7 @@ Based on this Dan Freed interpreted large classes of gauge fields in [[physics]]
 
 The differential refinement of K-theory was and is studied in a series of articles by Bunke and Schick. See for instance
 
-* U. Bundle, _Differential cohomology in geometry and analysis_ ([pdf slides](http://www.uni-regensburg.de/Fakultaeten/nat_Fak_I/Bunke/Vortrag-Erlangen.pdf))
+* U. Bunke, _Differential cohomology in geometry and analysis_ ([pdf slides](http://www.uni-regensburg.de/Fakultaeten/nat_Fak_I/Bunke/Vortrag-Erlangen.pdf))
 
 and many more...
 
