@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-17 #
 
+* [[Finn Lawler]]:
+
+  * created [[sequent calculus]] and [[paraconsistent logic]]: just brief explanations and links to Wikipedia.
+
 * [[Urs Schreiber|Urs]]: 
 
   * created a stub for [[differential cohomology]]
