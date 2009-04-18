@@ -3,6 +3,8 @@ I was until 2006 a professor of mathematics at the University of Wales Bangor (a
 +--{.query}
 Not offering a maths degree is one thing, but it seems that they don\'t even have a maths *department*! Who teaches basic maths courses to the CS (and chemistry, biology, electronics, ...) majors? &#8212;[[Toby Bartels|Toby]]
 
+In the UK, there are several universities that do not have mathematics departments and in which engineers, computer scientists, physicists and chemists do not get any theoretically based mathematics to speak of. Biologists have traditionally received no mathematics training after the age of 16. (Sometimes it shows and is the bane of the statisticians detailed to teach biology students statistics. Note also that quite a few of the so called 'financial  experts' in the UK have little or no maths. Some do, and I am not saying that they were any better in the causes of the recent crisis!) -[[Tim Porter|Tim]]
+
 
 
 
@@ -14,7 +16,7 @@ I am writing a series of notes on the theory and application of crossed gadgetry
 
 I am also very interested in directed homotopy theory and the application of ideas form the general area of the infinity category/homotopy toolkit in topological data analysis, artificial intelligence, and computer science.
 
-
+I have added a series of entries on differential algebra to the nLab.  This is not my expert area and these were produced from a set of notes that I typed up some years ago (based on Tanr&#233;'s SLN 1025).  I think that the terminology needs making 'leaner and meaner'! 
 
 
 
