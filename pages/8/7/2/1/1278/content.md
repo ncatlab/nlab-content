@@ -25,11 +25,12 @@ $$
   \\
   \Gamma^\bullet(-)
   &\to&
-  H^\bullet(-, \mathbb{R}) \otimes \Gamma^\bullet(*)
+  Z^\bullet(-, \mathbb{R}) \otimes \Gamma^\bullet(*)
   }
   \,,
 $$
 
+where $Z^\bullet(-,\mathbb{R})$ is the complex underlying real singular cohomology $H^\bullet(-,\mathbb{R})$ and 
 where $\Omega^\bullet(-,\mathbb{R})$ is the complex underlying deRham cohomology and $\Omega^\bullet(-) \to H^\bullet(-,\mathbb{R})$ is the deRham map.
 
 ##Examples##
