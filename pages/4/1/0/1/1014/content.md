@@ -8,6 +8,10 @@ For ill-founded sets, there are additional possibilities, such as a set $\bullet
 
 # Formalisation
 
++--{: .query}
+There are some problems here.  I\'ll fix it in a bit.  ---[[Toby Bartels]]
+=--
+
 In material [[set theory|set theories]] (such as ZFC and its variations), one usually assumes that everything is a pure set (although ur-elements are also sometimes used).  The late addition (1930) of Zermelo\'s [[axiom of foundation]] assures that only well-founded sets are included.
 
 In a structural set theory like [[ETCS]], we model a pure set by the membership relation on its [[transitive set|transitive closure]].
