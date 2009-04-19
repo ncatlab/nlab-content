@@ -12,7 +12,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
-# 2009-04-17 #
+# 2009-04-19 #
+
+*  [[Toby Bartels]]:  I\'ve started a dispute at [[paraconsistent logic]].
+
+# 2009-04-18 #
 
 * [[Finn Lawler]]:
 
