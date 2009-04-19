@@ -4,9 +4,9 @@ This is a circular definition; if you interpret it [[recursion|recursively]], th
 
 At first, the only well-founded set possible is the [[empty set]] $\empty = \{ \}$, the set of no pure sets.  Once you have that, you can form $\star = \{\empty\}$, then $\{\star\}$ and $\{\empty,\star\}$, and so on.  These are the [[hereditarily finite set]]s; using an axiom of infinity, you can jump to the countably infinite set of all hereditarily finite sets and continue from there.
 
-For ill-founded sets, there are additional possibilities, such as a set $\bullet$ such that $\bullet = \{\bullet\}$ (a suggestive model for the [[point]]), or sets $A$ and $B$ such that $A = \{B\}$ and $B = \{\empty, A\}$.  These may be ruled out by an appropriate [[axiom of foundation]].
+For ill-founded sets, there are additional possibilities, such as a set $\bullet$ such that $\bullet = \{\bullet\}$ (a suggestive model for the [[point]]), or sets $A$ and $B$ such that $A = \{B\}$ and $B = \{\empty, A\}$.  These may be ruled out by an appropriate [[axiom of foundation]] (or explicitly allowed and tamed by the dual axiom of anti-foundation).
 
-# Formalisation
+## Formalisation ##
 
 +--{: .query}
 There are some problems here.  I\'ll fix it in a bit.  ---[[Toby Bartels]]
@@ -14,11 +14,27 @@ There are some problems here.  I\'ll fix it in a bit.  ---[[Toby Bartels]]
 
 In material [[set theory|set theories]] (such as ZFC and its variations), one usually assumes that everything is a pure set (although ur-elements are also sometimes used).  The late addition (1930) of Zermelo\'s [[axiom of foundation]] assures that only well-founded sets are included.
 
-In a structural set theory like [[ETCS]], we model a pure set by the membership relation on its [[transitive set|transitive closure]].
+In a structural set theory like [[ETCS]], we can model a pure set by its membership tree or by the membership relation on its [[transitive set|transitive closure]].
 +--{.query}
 If I learnt SVG, I could draw some pictures.  (Or I could draw them in XyPic and upload them.)  ---Toby
 =--
-The basic idea is that the set of well-founded sets is the [[initial algebra]] of the covariant [[power set]] functor, while the set of ill-founded sets is the [[final coalgebra]] of the same functor.  Of course, neither of these algebras exists (since this would violate [[Cantor's theorem]]), but we can still describe what their elements would be like (and in fact define these algebras as [[discrete category|discrete]] [[large category|large categories]]).
+The basic theoretical idea is that the set of well-founded sets is the [[initial algebra]] of the covariant [[power set]] functor, while the set of ill-founded sets is the [[final coalgebra]] of the same functor.  Of course, neither of these algebras exists (since this would violate [[Cantor's theorem]]), but we can still describe what their elements would be like (and in fact define these algebras as [[discrete category|discrete]] [[large category|large categories]]).
+
+## Membership trees ##
+
+In the representation, a pure set is an _extensional rooted directed tree_, possibly a _well-founded_ one.  We will define this in several stages:
+*  A __[[digraph|directed graph]]__ (technically, a _simple_ directed _pseudo_graph) consists of a set $N$ of _nodes_ and a binary _directed adjacency_ [[relation]] $\to$ on the nodes.
+*  Every directed graph (simple or not) generates a [[quiver]], a category whose morphisms are called _paths_.
+*  A __tree__ (technically, a _directed_ _rooted_ tree) is a simple directed graph equipped with a _root_ node $r$ that is a [[terminal object]] of the quiver (meaning that every node has a unique path to the root).
+*  A __well-founded tree__ is a tree such that $\to$ is a [[well-founded relation]] (note that the [[opposite relation]] $\leftarrow$ is automatically well-founded).  Assuming the principal of [[excluded middle]], this equivalent to saying that every branch in the tree is of finite length
+*  A tree (well-founded or not) is __extensional__ if $\to$ is an [[extensional relation]].  In the case of a tree, it means that if two subtrees rooted to the same node are isomorphic (as graphs), then they must be the same subtree.
+*  Two extensional trees are __equal__ if there exists a graph isomorphism between them; note that (thanks to extensionality) such an isomorphism must be unique.
+
+...
+
+## Transitive pure sets ##
+
+...
 
 Concretely, it may be easier to define first a __[[transitive set|transitive pure set]]__; this is a [[set]] (in the structural sense) $U$ equipped with an [[extensional relation]] $\in$; $U$ is a __well-founded transitive set__ if $\in$ is a [[well-founded relation]].  Then a pure set is an element of any transitive pure set; a well-founded set is an element of any well-founded transitive set.
 
