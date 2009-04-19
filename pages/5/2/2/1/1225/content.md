@@ -1,3 +1,3 @@
-see [[ind-object in an (infinity,1)-category]].
+See [[ind-object in an (infinity,1)-category]].
 
-category: rdirect
+category: redirect
