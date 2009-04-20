@@ -15,6 +15,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 # 2009-04-19 #
 
 *  [[Toby Bartels]]:  I\'ve started a dispute at [[paraconsistent logic]].
++--{: .query}
+[[Finn Lawler|Finn]]: No, you haven't -- I was wrong.
+=--
 
 # 2009-04-18 #
 
