@@ -89,10 +89,10 @@ Another, equivalent, definition is to let $ind$-$C$ be the [[full subcategory]] 
 
 * There is a notion of [[ind-object in an (infinity,1)-category]].
 
-Notice that the [[comma category]] $(Y,F)$ is the [[pullback]] of the [[generalized universal bundle|universal Set-bundle]] $Set_* \to Set$ along $F : C^{op} \to Set$. This means that the canonical
+Notice that the [[comma category]] $(Y,const_F)$ is the [[pullback]] of the [[generalized universal bundle|universal Set-bundle]] $U : Set_* \to Set$ along $F : C^{op} \to Set$. This means that the canonical
 
 $$
-  (Y,F) \to C
+  (Y,const_F) \to C
 $$
 
 is the fibration classified by $F$. 
@@ -121,6 +121,8 @@ $$
 $$ 
 
 No?
+
+[[Urs Schreiber|Urs]]: Accordingly, I have now made the notation more precise by replacing "$F$" by "const_F" in the above. 
 
 =--
 
