@@ -131,6 +131,8 @@ The following is supposed to going to be a list of linked keywords corresponding
 
 * [[(infinity,1)-category of (infinity,1)-sheaves]]
 
+* [[derived stack]]
+
 #### definition of a perfect stack ####
 
 * [[compact object in an (infinity,1)-category]]
