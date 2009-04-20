@@ -1,5 +1,23 @@
-A paraconsistent logic is one that does not include the law
-_ex contradictione quodlibet_, that is, the schema $A, \neg{A} \vdash B$ for all formulas $A$ and $B$.  An example is [[minimal logic]], which simply omits the law $\bot \vdash B$ (which is otherwise used in the proof) from the presentation of intuitionistic logic.
+A paraconsistent logic is one that does not include the
+law _ex contradictione quodlibet_, that is, the schema $A,
+\neg{A} \vdash B$ for all formulas $A$ and $B$.  An
+example is [[minimal logic]], which simply omits the law
+of _ex falso quodlibet_ $\bot \vdash B$ from the
+presentation of intuitionistic logic -- the latter proves
+$A,\neg A \vdash B$ via the law of non-contradiction
+$A,\neg A \vdash \bot$.
+
+Another example is given by the formal dual of
+intuitionistic logic, which may be presented as a
+[[sequent calculus]] with the restriction that for
+$\Gamma\vdash\Delta$ any sequent, $\Gamma$ may contain _at
+most one_ formula.  This system, which we may call
+$LJ^{op}$, does not prove the law of non-contradiction,
+for the same (or the dual of the) reason that $LJ$ does
+not prove the law of the excluded middle.  $LJ^{op}$ is
+therefore paraconsistent, although _ex falso quodlibet_ is
+valid, because it is the dual of the $LJ$-valid sequent
+$A\vdash\top$.
 
 +--{: .query}
 I made a big change here; I would argue that the failure of $\bot \vdash B$ means that '$\bot$' simply doesn\'t mean $\bot$; but in any case, I\'ve always seen the definition given in terms of negation.  In particular, dual-intuitionistic logic has $\bot \vdash B$ (just as intuitionistic logic has $B \vdash \top$) but is still considered paraconsistent.
