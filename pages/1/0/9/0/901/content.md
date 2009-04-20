@@ -4,15 +4,6 @@ An **ind-object** of a category $C$ is a "formal [[filtered category|filtered]] 
 
 Here, "ind" is short for "inductive system", as in the inductive systems used to define [[directed colimit]]s, as contrasted with "pro" in the [[pro-object|dual notion]] for "projective system".
 
-+-- {: .query}
-Would it make sense to take this opportunity on nLab to give this a new modern name? Maybe call it "colimit-object" or "filtered colimit" or something? Something more consistent with the rest of the nLab might be nice. Just a thought. - [[Eric Forgy|Eric]]
-
-[[Tim Porter|Tim]]: As they are very special diagrams, I do not think that Eric's suggestion is a good one. The pro and ind terminology was to replace inverse and direct system which was already being used in the 1930s (I think?)  The 'ind' terminology is at least as old as 1960 (see Grothendeck's seminar on descent.)
-
-[[Mike Shulman|Mike]]: I think the terminology "ind-object" is too well-established to be changed.  And I don't really think there's much reason to want to change it anyway; it may come historically from a terminology that we do not use, but it is unambiguous and the notion deserves its own name.  In particular, it is not a (filtered) colimit; the whole point is that you don't actually _take_ the colimit (or alternately, you only take it inside the free colimit-completion).
-
-_Toby_:  Not to disparage 'ind-object', but I think that the term that Eric\'s looking for is 'formal filtered colimit'.
-=--
 
 Recalling the nature of [[filtered category|filtered]] colimits, this means that in particular chains of inclusions 
 
@@ -26,10 +17,10 @@ Standard examples where ind-objects are relevant are categories $C$ whose object
 Moreover, ind-categories allow to handle "big things in terms of small things" also in another important sense: many [[large category|large categories]] are actually ([[equivalence of categories|equivalent]] to) ind-categories of [[small category|small categories]]. This means that, while [[large category|large]], they are for all practical purposes controlled by a [[small category]] (see the description of the [[hom-set]] of $ind-C$ in terms of that of $C$ below). Such [[large category|large categories]] equivalent to ind-categories are therefore called [[accessible category|accessible categories]].
 
 
-
 # Definition #
 
-There are many ways to make this notion precise.  
+There are several equivalrnt ways to define ind-objects
+
 
 ## as diagrams ##
 
@@ -58,7 +49,7 @@ $$
   \,.
 $$
 
-## as filtered colimits ##
+## as filtered colimits in presheaves ##
 
 Another, equivalent, definition is to let $ind$-$C$ be the [[full subcategory]] of the [[presheaf]] [[category]] $[C^{op},Set]$ determined by those [[functor]]s which are [[filtered category|filtered]] colimits of [[representable functor|representables]].  This is reasonable since $[C^{op},Set]$ is the [[free cocompletion]] of $C$, so $ind$-$C$ defined in this way is its "free cocompletion under filtered colimits."
 
@@ -79,7 +70,7 @@ Another, equivalent, definition is to let $ind$-$C$ be the [[full subcategory]] 
 
 * The inclusion $C \hookrightarrow ind\text{-}C$ is [[exact functor|right exact]].
 
-* a functor $F : C^{op} \to Set$ is in $ind\text{-}C$ (i.e. is a [[filtered category|filtered]] colimit of [[representable functor|representables]]) precisely if the [[comma category]] $(Y,F)$ (with $Y$ the [[Yoneda embedding]]) is [[filtered category|filtered]] and [[cofinally small category|cofinally small]].
+* a functor $F : C^{op} \to Set$ is in $ind\text{-}C$ (i.e. is a [[filtered category|filtered]] colimit of [[representable functor|representables]]) precisely if the [[comma category]] $(Y,const_F)$ (with $Y$ the [[Yoneda embedding]]) is [[filtered category|filtered]] and [[cofinally small category|cofinally small]].
 
 * $ind\text{-}C$ admits small [[filtered category|filtered]] [[colimit]]s and the inclusion $ind\text{-}C\hookrightarrow PSh(C)$ commutes with these colimits.
 
@@ -87,18 +78,55 @@ Another, equivalent, definition is to let $ind$-$C$ be the [[full subcategory]] 
 
 # Generalizations #
 
-* There is a notion of [[ind-object in an (infinity,1)-category]].
+## in $(\infty,1)$-catgeories ##
 
-Notice that the [[comma category]] $(Y,const_F)$ is the [[pullback]] of the [[generalized universal bundle|universal Set-bundle]] $U : Set_* \to Set$ along $F : C^{op} \to Set$. This means that the canonical
+There is a notion of [[ind-object in an (infinity,1)-category]].
 
-$$
+With regard to the third of the properties listed above, notice that the [[comma category]] $(Y,const_F)$ is the [[pullback]] of the [[generalized universal bundle|universal Set-bundle]] $U : Set_* \to Set$ along $F : C^{op} \to Set$. This means that the [[stuff, structure, property|forgetful functor]]
+$
   (Y,const_F) \to C
-$$
-
+$
 is the fibration classified by $F$. 
 
-(...or close, let me check this...)
+This is the starting point for the definition at [[ind-object in an (infinity,1)-category]].
 
+
+#References#
+
+Ind-categories are discussed in
+
+* Kashiwara-Schapira, [[Categories and Sheaves]], section 6
+
+* Grothendieck et al. SGA4.I.6 [djvu file](http://modular.math.washington.edu/sga/djvu/SGA4-1.tif.djvu)
+
+* A. Grothendieck, Techniques de d&#233;scente et th&#233;or&#232;mes d'existence en g&#233;om&#233;trie
+alg&#233;brique, II: le th&#233;or&#232;me d'existence en th&#233;orie formelle des modules, Seminaire
+Bourbaki, 195, 1960.
+
+See also the remarks at the beginning of section 5.3 of
+
+* [[Jacob Lurie]], [[Higher Topos Theory]]
+
+
+
+***
+
+# Discussion #
+
+We had the following discussion on the term "ind-object":
+
++-- {: .query}
+Would it make sense to take this opportunity on nLab to give this a new modern name? Maybe call it "colimit-object" or "filtered colimit" or something? Something more consistent with the rest of the nLab might be nice. Just a thought. - [[Eric Forgy|Eric]]
+
+[[Tim Porter|Tim]]: As they are very special diagrams, I do not think that Eric's suggestion is a good one. The pro and ind terminology was to replace inverse and direct system which was already being used in the 1930s (I think?)  The 'ind' terminology is at least as old as 1960 (see Grothendeck's seminar on descent.)
+
+[[Mike Shulman|Mike]]: I think the terminology "ind-object" is too well-established to be changed.  And I don't really think there's much reason to want to change it anyway; it may come historically from a terminology that we do not use, but it is unambiguous and the notion deserves its own name.  In particular, it is not a (filtered) colimit; the whole point is that you don't actually _take_ the colimit (or alternately, you only take it inside the free colimit-completion).
+
+_Toby_:  Not to disparage 'ind-object', but I think that the term that Eric\'s looking for is 'formal filtered colimit'.
+=--
+
+
+We had the following discussion  on the comma category $(Y,const_F)$. 
 
 +-- {: .query}
 
@@ -126,21 +154,3 @@ No?
 
 =--
 
-This is the starting point for the definition at [[ind-object in an (infinity,1)-category]].
-
-
-#References#
-
-Ind-categories are discussed in
-
-* Kashiwara-Schapira, [[Categories and Sheaves]], section 6
-
-* Grothendieck et al. SGA4.I.6 [djvu file](http://modular.math.washington.edu/sga/djvu/SGA4-1.tif.djvu)
-
-* A. Grothendieck, Techniques de d&#233;scente et th&#233;or&#232;mes d'existence en g&#233;om&#233;trie
-alg&#233;brique, II: le th&#233;or&#232;me d'existence en th&#233;orie formelle des modules, Seminaire
-Bourbaki, 195, 1960.
-
-See also the remarks at the beginning of section 5.3 of
-
-* [[Jacob Lurie]], [[Higher Topos Theory]]
