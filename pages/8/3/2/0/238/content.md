@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-20 #
 
+* [[David Corfield|David]]:
+
+  * imported Urs' material on [[bundle gerbe]]. nLab doesn't seem to like latex within lists. How do we fix this?
+
 * [[Urs Schreiber|Urs]]: 
 
   * created [[limits and colimits by example]] for purposes discussed on the blog [here](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html#c023321) and [here](http://golem.ph.utexas.edu/category/2009/04/graphical_category_theory_demo.html#c023323)
