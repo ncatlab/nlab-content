@@ -1,1 +1,1 @@
-A **subquotient** of an object $X$ in some category is a [[quotient]] of a [[subobject]] of $X$, or a subobject of a quotient of $X$.  The two are equivalent whenever quotients are stable under pullback and subobjects are stable under pushout, such as in a [[topos]].
+A **subquotient** of an object $X$ in some category is a [[quotient object]] of a [[subobject]] of $X$, or a subobject of a quotient object of $X$.  The two are equivalent whenever quotients are [[pullback stability|stable under pullback]] and subobjects are stable under pushout, such as in a [[topos]].
