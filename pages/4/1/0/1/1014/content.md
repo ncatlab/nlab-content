@@ -4,32 +4,33 @@ This is a circular definition; if you interpret it [[recursion|recursively]], th
 
 At first, the only well-founded set possible is the [[empty set]] $\empty = \{ \}$, the set of no pure sets.  Once you have that, you can form $\star = \{\empty\}$, then $\{\star\}$ and $\{\empty,\star\}$, and so on.  These are the [[hereditarily finite set]]s; using an axiom of infinity, you can jump to the countably infinite set of all hereditarily finite sets and continue from there.
 
-For ill-founded sets, there are additional possibilities, such as a set $\bullet$ such that $\bullet = \{\bullet\}$ (a suggestive model for the [[point]]), or sets $A$ and $B$ such that $A = \{B\}$ and $B = \{\empty, A\}$.  These may be ruled out by an appropriate [[axiom of foundation]] (or explicitly allowed and tamed by the dual axiom of anti-foundation).
+For ill-founded sets, there are additional possibilities, such as a set $\bullet$ such that $\bullet = \{\bullet\}$ (a suggestive model for the [[point]]), or sets $A$ and $B$ such that $A = \{B\}$ and $B = \{\empty, A\}$.  These may be ruled out by an appropriate [[axiom of foundation]], or explicitly allowed and tamed by the dual axiom of anti-foundation.
 
 ## Formalisation ##
 
-In material [[set theory|set theories]] (such as ZFC and its variations), one usually assumes that everything is a pure set (although ur-elements are also sometimes used).  The late addition (1930) of Zermelo\'s [[axiom of foundation]] assures that only well-founded sets are included.
+In material [[set theory|set theories]] (such as ZFC and its variations), one usually assumes that everything is a pure set (although ur-elements are also sometimes used).  The late addition (von Neumann 1925, Zermelo 1930) of the [[axiom of foundation]] assures that only well-founded sets are included.
 
-In a structural set theory like [[ETCS]], we can model a pure set by its membership tree or by the membership relation on its [[transitive set|transitive closure]].
+In a structural set theory like [[ETCS]], we can model a pure set by its membership tree or by the membership relation on its reflexive-[[transitive set|transitive closure]].
 
-The basic theoretical idea is that the set of well-founded sets is the [[initial algebra]] of the covariant [[power set]] functor, while the set of ill-founded sets is the [[final coalgebra]] of the same functor.  Of course, neither of these algebras exists (since this would violate [[Cantor's theorem]]), but we can still describe what their elements would be like (and in fact define these algebras as [[discrete category|discrete]] [[large category|large categories]]).
+The basic theoretical idea is that the class of well-founded sets is the [[initial algebra]] of the covariant [[power set]] functor, while the class of ill-founded sets is the [[final coalgebra]] of the same functor.  Of course, neither of these algebras exists (since this would violate [[Cantor's theorem]]), but we can still describe what their elements would be like (and in fact define these algebras as [[discrete category|discrete]] [[large category|large categories]]).
 
-## Membership trees ##
+### Membership trees ###
 
-In the representation, a pure set is a _fixed rooted directed tree_, possibly a _well-founded_ one.  We will define this in several stages:
-*  A __[[digraph|directed graph]]__ (technically, a _simple_ directed _pseudo_graph) consists of a set $N$ of _nodes_ and a binary _directed adjacency_ [[relation]] $\to$ on the nodes.
-*  Every directed graph (simple or not) generates a [[quiver]], a category whose morphisms are called _paths_.
-*  A __tree__ (technically, a _directed_ _rooted_ tree) is a simple directed graph equipped with a _root_ node $r$ that is a [[terminal object]] of the quiver (meaning that every node has a unique path to the root).
-*  A __well-founded tree__ is a tree such that $\to$ is a [[well-founded relation]] (note that the [[opposite relation]] $\leftarrow$ is automatically well-founded).  Assuming the principal of [[excluded middle]], this equivalent to saying that every branch in the tree is of finite length
-*  A tree (well-founded or not) is __fixed__ if, whenever two subtrees rooted to the same node are isomorphic (as graphs), then they are the same subtree; equivalently, any graph-automorphism of the tree must be the identity map.
+In this representation, a pure set is a _fixed rooted directed tree_, possibly a _well-founded_ one.  We will define this in several stages:
+*  A __[[directed graph]]__ (technically, a _simple directed pseudograph_) consists of a set $N$ of __nodes__ and a binary [[relation]] $\to$ on the nodes; a node $i$ is called a __child__ of a node $j$ if $i \to j$.
+*  Every directed graph (simple or not) generates a [[quiver]], a category whose morphisms are called __paths__.
+*  A __tree__ (technically, a _directed rooted tree_) is a simple directed graph equipped with a __root__ node $r$ that is a [[terminal object]] of the quiver (meaning that every node has a unique path to the root).
+*  The __full subtree__ of a tree rooted at a node $i$ consists of all of the nodes with a path (necessarily unique) to $i$.
+*  A tree is __fixed__ if, whenever two full subtrees rooted to children of the same node are isomorphic (as graphs), then they are the same subtree; equivalently, any graph automorphism of the tree must be the identity function.
+*  A tree is __well-founded__ if $\to$ is a [[well-founded relation]] (note that the [[opposite relation]] $\leftarrow$ is automatically well-founded).  Assuming the principle of [[excluded middle]], this equivalent to saying that every branch in the tree is of finite length.
 
 These subsidiary notions are also needed:
-*  Two extensional trees are __equal__ if there exists a graph isomorphism between them; note that (thanks to fixedness) such an isomorphism must be unique.
-*  One extensional tree $X$ is an __immediate subtree__ of a tree $Y$ if $X$ is isomorphic to a tree rooted at one of the children of the root in $Y$; again (thanks to fixedness) this can happen only in one way.
+*  Two trees are __equivalent__ if there exists a graph isomorphism between them; for fixed trees, such an isomorphism must be unique.
+*  A tree $X$ is an __immediate subtree__ of a tree $Y$ if $X$ is isomorphic to a tree rooted at one of the children of the root in $Y$; for fixed trees, this can again happen only in one way.
 
-Then fixed trees model ill-founded pure sets; well-founded fixed trees model well-founded pure sets.  The immediate-subtree relation models the global membership relation on pure sets.  Notice that the [[axiom of extensionality]] holds: if two tree have the same (isomorphic) immediate subtrees, then they are themselves equal (isomorphic).  More generally, if [[ETCS]] holds for the structural sets (of nodes, etc) used in this definition, then ZC ([[ZFC]] without the axioms of [[axiom of replacement|replacement]] and [[axiom of foundation|foundation]]) holds for fixed trees, while ZC and foundation hold for well-founded fixed trees.  (Similar results hold for [[constructive mathematics|constructive]] weakenings of ETCS and ZFC; other possible changes, such as adding replacement or [[Grothendieck universe]]s, also correspond.)
+Then fixed trees model ill-founded pure sets; well-founded fixed trees model well-founded pure sets.  The immediate-subtree relation models the global membership relation on pure sets.  Notice that the [[axiom of extensionality]] holds: if two trees have equivalent immediate subtrees, then they are themselves equivalent.  More generally, if __[[ETCS]]__ holds for the structural sets (of nodes, etc) used in this definition, then $\mathbf{ZC}^-$ (which is __[[ZFC]]__ without the axioms of [[axiom of replacement|replacement]] and [[axiom of foundation|foundation]]) holds for fixed trees, while $\mathbf{ZC}$ ($\mathbf{ZC}^-$ together with foundation) holds for well-founded fixed trees.  (Similar results hold for [[constructive mathematics|constructive]] weakenings of ETCS and ZFC; other possible changes, such as adding replacement or [[Grothendieck universe]]s, also correspond.)
 
-### Examples ###
+#### Examples ####
 
 You should think of the root as representing the pure set itself, the root\'s children as the elements of the pure set, the next level as those elements\' elements, and so on.
 
@@ -38,6 +39,7 @@ $$ \empty $$
 
 The set $\star = \{\empty\}$ has the empty set attached to the root (which we draw at the top):
 $$ \array { \star \\ \uparrow \\ \empty } $$
+Notice that $\empty$ is an immediate subtree, so we can write $\empty \in \star$.
 
 Then $2_Z = \{\star\}$ and $2_N = \{\empty, \star\}$ are as follows:
 $$ \array { 2_Z \\ \uparrow \\ \star \\ \uparrow \\ \empty } \quad \quad \quad \quad \array { 
@@ -47,6 +49,7 @@ $$ \array { 2_Z \\ \uparrow \\ \star \\ \uparrow \\ \empty } \quad \quad \quad \
        &          &     &          & \uparrow \\
        &          &     &          & \empty
 } $$
+Looking at immediate subtrees, $\star \in 2_Z$, $\empty \in 2_N$, and $\star \in 2_N$.
 
 At first, $\{\star, \empty\}$ might appear different:
 $$ \array {
@@ -70,40 +73,87 @@ But this is not fixed, since the obvious vertical symmetry is a non-identity aut
 
 A non-well-founded set will give an infinite picture; here is $\bullet = \{\bullet\}$:
 $$ \array { \bullet \\ \uparrow \\ \bullet \\ \uparrow \\ \bullet \\ \uparrow \\ \vdots } $$
+Looking at the immediate subtree, we verify that $\bullet \in \bullet$.
 
-Of course, even a well-founded infinite set has an infinite picture, but each individual branch is finite; here is $\omega$, the set of von Neumann [[natural number]]s:
+Of course, even a well-founded infinite set has an infinite picture, but each individual branch is finite; here is $\omega_N$, the set of von Neumann [[natural number]]s:
 $$ \array {
-        &          &          & \omega  \\
-        & \nearrow & \nearrow &         & \nwarrow & \cdots \\
-\empty  &          & \star    &         &          & 2_N      & \cdots \\
-        &          & \uparrow &         & \nearrow & \uparrow & \cdots \\
-        &          & \empty   & \empty  &          & \star    & \cdots \\
-        &          &          &         &          & \uparrow & \cdots \\
-        &          &          &         &          & \empty   & \cdots \\
-        &          &          &         &          &          & \vdots } $$
+        &          &          & \omega_N \\
+        & \nearrow & \nearrow &          & \nwarrow & \cdots \\
+\empty  & \star    &          &          &          & 2_N      & \cdots \\
+        & \uparrow &          &          & \nearrow & \uparrow & \cdots \\
+        & \empty   &          & \empty   &          & \star    & \cdots \\
+        &          &          &          &          & \uparrow & \cdots \\
+        &          &          &          &          & \empty   & \cdots \\
+        &          &          &          &          &          & \vdots
+} $$
+So we have $\empty \in \omega_N$, $\star \in \omega_N$, $2_N \in \omega$, etc.
 
 By definition, a tree models a _[[hereditarily finite set]]_ if every node has finitely many children; classically (at least) a tree models a well-founded hereditarily finite set if and only if it is finite.  The relation between these two facts and the finite-branch formulation of well-foundedness is a form of K&#337;nig's Lemma.
 
-## Transitive pure sets ##
+### Reflexive-transitive closure ###
 
 The picture above may be seen as an _unwrapped_ representation; there is also a _wrapped_ picture.
 
-+--{: .query}
-There remainder is largely wrong.  I\'ll fix it later, or you can look at [Aczel](http://standish.stanford.edu/pdf/00000056.pdf) to help.  ---[[Toby Bartels]]
-=--
+In this representation, a pure set is an _extensional accessible graph_, again possibly a _well-founded_ one.  Again, we will define this in several stages:
+*  A __[[directed graph]]__ again consists of a set $N$ of __nodes__ and a binary [[relation]] $\to$ on the nodes; again, $i$ is a __child__ of $j$ is $i \to j$.
+*  Now instead of forming the quiver of paths, we simply form the [[transitive closure]] $\to^*$ of $\to$.  That is, we only care whether there exists a path, not which paths there are.
+*  A graph is __accessible__ (technically, _directed accessible pointed_) if it is equipped with a __root__ node $r$ that is a [[top]] of $\to^*$ (meaning that every node has a path to the root).
+*  A graph is __extensional__ if $\to$ is an [[extensional relation]], meaning that $\to$-isomorphic $\to^*$-[[downset]]s must be equal.
+*  A graph is __well-founded__ if $\to$ is a [[well-founded relation]] (note that the [[opposite relation]] $\leftarrow$ is automatically well-founded for an accessible graph).
 
-Concretely, it may be easier to define first a __[[transitive set|transitive pure set]]__; this is a [[set]] (in the structural sense) $U$ equipped with an [[extensional relation]] $\in$; $U$ is a __well-founded transitive set__ if $\in$ is a [[well-founded relation]].  Then a pure set is an element of any transitive pure set; a well-founded set is an element of any well-founded transitive set.
+These subsidiary notions are also needed:
+*  Two graphs are __equivalent__ if there exists a graph isomorphism between them; for extensional graphs, such an isomorphism must be unique.
+*  An accessible graph $X$ is an __immediate subgraph__ of an accessible graph $Y$ if $X$ is isomorphic to the $\to^*$-downset of one of the children of the root in $Y$; for extensional graphs, this can again happen only in one way.
 
-So far, this is not very useful, since different transitive sets have no relationship.  However, a _morphism_ of well-founded transitive sets $f: U \to V$ is a [[function]] (on the underlying structural sets) such that
-* $f(x) \in f(y)$ if and only if $x \in y$ and
-* $f$ induces a [[bijection]] between $\{t \;|\; t \in x\}$ and $\{t \;|\; t \in f(x)\}$.
+In this picture, the nodes are precisely the elements of the reflexive-[[transitive closure]] of the pure set, and the relation $\to$ on them is precisely the membership relation $\in$.
 
-For general transitive sets, one must use the reflexive-[[transitive closure]] $\in^*$ of $\in$, although then one can combine the two conditions into one:
+#### Examples ####
 
-* $f$ induces an [[isomorphism]] (of sets equipped with a relation $\in$) between $\{t \;|\; t \in^* x\}$ and $\{t \;|\;t \in^* f(x)\}$.
+Again, the root represents the pure set itself, the root\'s children are its elements, and so on.  Now, however, there is no more branching than necessary and no repetition whatsoever among the identities of the nodes.
 
-Using the extensionality of $\in$, any two morphisms $f, g: U \to V$ must in fact be equal, so the category of transitive sets is a (large) [[partial order|poset]].  Furthermore, this poset has [[join]]s ([[coproduct]]s); each join (which we think of as the [[union]] of transitive sets) may be constructed as a [[quotient set]] of a [[disjoint union]] of underlying sets.  Actually, all that really matters is that this poset is finitely [[direction|directed]]; we take the [[directed limit|directed colimit]] of the entire poset to get (intuitively speaking) the union of all of the transitive sets.  Of course, this is a large object.
+Again $\empty = \{ \}$ consists of nothing but the root:
+$$ \empty $$
 
-A little less flamboyantly, simply define a __pure set__ to be a transitive set $U$ together with an element $x$ of $U$; then define $(x,U)$ and $(y,V)$ be equal (as pure sets) if $x$ and $y$ become equal in the join $U \cup V$.  We also define that $(x,U)$ is a __member__ of $(y,V)$ if $x$ becomes a member of $y$ ($x \in y$) in the join.  The extensionality condition on $\in$ in $U \cup V$ becomes the [[axiom of extensionality]] for pure sets.
+The set $\star = \{\empty\}$ still the empty set attached to the root:
+$$ \array { \star \\ \uparrow \\ \empty } $$
+Again $\empty$ is an immediate subgraph, so we can write $\empty \in \star$.
 
-Note that each transitive pure set may itself be interpreted as a pure set.  Given a transitive set $U$, let its __[[successor]]__ $U^+$ be $U \uplus 1$ (as a set) with every element of $U$ a member of the new element of $U \uplus 1$.  Then $U$ can be identified with this new element.  That is, the elements of (the underlying structural set of) $U$ become the members of (the new element of $U \uplus 1$ which is identified with) $U$.
+Even $2_Z = \{\star\}$ looks the same as before, but now $2_N = \{\empty, \star\}$ looks different:
+$$ \array { 2_Z \\ \uparrow \\ \star \\ \uparrow \\ \empty } \quad \quad \quad \quad \array { 
+2_N         \\
+\uparrow    & \nwarrow \\
+|           &          & \star    \\
+|           & \nearrow \\
+\empty
+} $$
+Looking at immediate subgraphs, again $\star \in 2_Z$, $\empty \in 2_N$, and $\star \in 2_N$.
+
+The non-well-founded set $\bullet = \{\bullet\}$ consists of a loop:
+$$ \array {
+           & \bullet \\
+/          &         & \nwarrow \\
+\backslash &         & /        \\
+} $$
+As the root is a child of itself, the entire subgraph is an immediate subgraph of itself, so $\bullet \in \bullet$.
+
+Finally, here is the set $\omega_N$ of von Neumann [[natural number]]s:
+$$ \array {
+         &            & \omega_N \\
+         & \nearrow   & \uparrow & \nwarrow & \cdots \\
+|        &            & |        &          & 2_N      & \cdots \\
+|        &            & |        & \nearrow & \uparrow & \cdots \\
+|        &            & \star    &          & |        & \cdots \\
+         & \backslash & \uparrow & /        & \cdots   \\
+         &            & \empty
+} $$
+Again we have $\empty \in \omega_N$, $\star \in \omega_N$, $2_N \in \omega$, etc.
+
+Now an extensional accessible graph models a [[hereditarily finite set]] iff the graph itself is finite.
+
+### Relation between these ###
+
+Peter Aczel\'s general model a pure set is any _simple directed accessible pointed pseudograph_.  That is, the graph need not be a tree (much less a fixed one), nor need it be extensional.  One can make such a graph extensional by identifying nodes if their $\to^*$-downsets are $\to$-isomorphic (and counting as a node\'s children any nodes identified with any of its children).  Then one can unwrap this extensional graph into a tree by including one copy of each node for each of its paths to the root.  So there are two extreme ways to represent a pure set by an isomorphism class of graphs, but any accessible graph will represent a pure set one way or another.
+
+## References ##
+
+*  Peter Aczel (1988).  Non-well-founded sets.  CSLI 14; Stanford University.  [PDF](http://standish.stanford.edu/pdf/00000056.pdf).
