@@ -1,4 +1,5 @@
-A paraconsistent logic is one that does not include the _law of non-contradiction_, that is, the schema $A, \neg{A} \vdash B$ for all formulas $A$ and $B$.  An example is [[minimal logic]], which simply omits the law $\bot \vdash B$ (which is otherwise used in the proof) from the presentation of intuitionistic logic.
+A paraconsistent logic is one that does not include the law
+_ex contradictione quodlibet_, that is, the schema $A, \neg{A} \vdash B$ for all formulas $A$ and $B$.  An example is [[minimal logic]], which simply omits the law $\bot \vdash B$ (which is otherwise used in the proof) from the presentation of intuitionistic logic.
 
 +--{: .query}
 I made a big change here; I would argue that the failure of $\bot \vdash B$ means that '$\bot$' simply doesn\'t mean $\bot$; but in any case, I\'ve always seen the definition given in terms of negation.  In particular, dual-intuitionistic logic has $\bot \vdash B$ (just as intuitionistic logic has $B \vdash \top$) but is still considered paraconsistent.
@@ -10,6 +11,8 @@ _Toby_:  Yeah, I\'m sure about the standard; our links agree with me too.  (And 
 _Finn_: I think you've hit the nail on the head there: *I* think 'ex falso quodlibet' means $\bot\vdash A$ (as you said above, this says that '$\bot$' means $\bot$, the least truth-value), but it seems my sources may have meant $A\wedge\neg A\vdash B$, without saying so.  This is why I never cared much for what's called 'philosophical logic' -- even though I'm a philosophy graduate studying logic (albeit in a computer science department), it was always too fuzzy for my tastes.
 
 Thanks for clearing this up.  Obviously your version should stand.
+
+_Toby_:  You\'re welcome.  But your fancy Latin reminds me that what we have here is technically really the *combination* of the law of non-contradiction (any contradiction is false: $A \wedge \neg{A} \equiv \bot$) and ex falso quodlibet (anything follows from falsehood: $\bot \vdash B$), so I changed the name above.
 =--
 
 # Links #
