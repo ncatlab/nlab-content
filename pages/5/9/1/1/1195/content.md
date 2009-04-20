@@ -29,4 +29,12 @@ _Toby_:  Actually, I find the sequent-structure distinction between intuitionist
 Actually, as I like dependent type theory, I tend to always think of logical judgements as having arbitrary left-hand sides but always a single item on the right.  Of course, dependent type theory does lend itself particularly well to intuitionistic logic, so perhaps that\'s unfair.  Maybe I ought to get more into the spirit of the sequent calculus to understand why the differences between these three logics *should* be understood as structural.
 
 Mike has some inference rules [[michaelshulman:2-internal logic|here]].
+
+_Finn_:  Thanks for the link.  I'll have a go at typesetting some inference rules at some point.
+
+I don't think the distinction between different kinds of sequent is arbitrary at all -- it seems to me to be fundamental.  Of course, a sequent like $\vdash P\vee\neg P$ has exactly one formula on the right, but in proving it you need to pass through $\vdash P,\neg P$.  You need the same sequent to prove the double negation law too, so I like to think of these axioms as really being artefacts of the extra structural freedom of classical logic.
+
+I don't understand you when you say 'Gentzen chose the axiomatic \[sequents\] to avoid \[well-formed but invalid sequents\]'.  The axiom sequents are just those that have the same formula $P$ both on the left and on the right -- are you thinking of derived ones like $P\wedge Q\vdash P$?  They are not essential.  It may be a matter of taste, but I certainly find sequent calculus to be far more elegant than natural deduction, precisely because it draws a very clear distinction between logical rules and structural rules.
+
+If you're interested, my TCD technical report is all about the Curry--Howard correspondence for classical logic, and it includes (what I hope is) a fairly intuitive explanation of sequent calculus and associated term notations for minimal and classical logic.  It's available [here](https://www.cs.tcd.ie/publications/tech-reports/reports.08/TCD-CS-2008-55.pdf).
 =--
