@@ -59,7 +59,7 @@ is a morphism of $(n-1)$-fibrations.
 
 # From fibrations to functors
 
-If $p:E\to B$ is an $n$-fibration, we define a functor from $B$ to $n Cat$ as follows.  (Like the above definition, this is only a schematic sketch.)
+If $p:E\to B$ is an $n$-fibration, we define a functor (or '$n$-pseudofunctor') from $B$ to $n Cat$ as follows.  (Like the above definition, this is only a schematic sketch.)
 
 * Send $x\in B$ to the [[essential fiber]] $E_x$, whose objects are objects $a\in E$ equipped with a equivalence $p a \simeq x$.
 
@@ -71,9 +71,22 @@ If $p:E\to B$ is an $n$-fibration, we define a functor from $B$ to $n Cat$ as fo
 
 Note that the functor we obtain is "totally contravariant:" it is contravariant on $k$-cells for all $1\le k\le n$.
 
+One expects that in this way, the $(n+1)$-category of fibered $n$-categories over $B$ is equivalent to the $(n+1)$-category of functors $B\to n Cat$.  The inverse should be a generalization of the [[Grothendieck construction]], which is known only for $n=2$.
+
 
 # References #
 
-* Claudio Hermida, "Some properties of Fib as a fibred 2-category"
+[Claudio Hermida](http://maggie.cs.queensu.ca/chermida) introduced 2-fibrations in:
+
+* Claudio Hermida, "Some properties of Fib as a fibred 2-category," J. Pure Appl. Algebra 134 (1), 83--109, 1999; [preprint version ps.gz](http://maggie.cs.queensu.ca/chermida/papers/jpaa.ps.gz)
+
+In fact they also appeared earlier, in some form, in [[Gray-adjointness-for-2-categories|Gray's book]]. 
+
+A definition for strict $n$-categories due to Hermida is unpublished, but it is used and presented in another joint work with [Marta Bunge](http://www.math.mcgill.ca/bunge), presented at CATS07 at Calais:
 
 * Marta Bunge, "Intrinsic $n$-stack completions over a topos," slides [here](http://saxo.univ-littoral.fr/CT08/slides/Bunge.pdf)
+
+ $n$-pseudofunctors may be viewed (and defined) as [[anafunctor]]s.  For $n$-groupoids such an approach to $n$-pseudofunctors has been studied in
+
+* [D. Bourn](http://www-lmpa.univ-littoral.fr/~bourn), 
+Pseudo functors and non abelian weak equivalences, in "Categorical algebra and its applications", Springer LNM 1348 (1988), 55--70.
