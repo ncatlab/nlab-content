@@ -14,7 +14,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-20 #
 
-* [[Urs Schreiber|Urs]]: created [[derived stack]] to go along with our [Journal Club activity](http://golem.ph.utexas.edu/category/2009/04/journal_club_geometric_infinit.html)
+* [[Urs Schreiber|Urs]]: 
+
+  * created stub for [[local system]] in the context of a comment I left [here](http://sbseminar.wordpress.com/2009/04/20/three-ways-of-looking-at-a-local-system-introduction-and-connection-to-cohomology-theories/)
+
+  * created [[derived stack]] to go along with our [Journal Club activity](http://golem.ph.utexas.edu/category/2009/04/journal_club_geometric_infinit.html)
 
 *  [[Toby Bartels]]:  I think that the naming discussion at [[ind-object]] is still current until Eric is happy.
    *  [[Urs Schreiber|Urs]] responds:  sure, I just thought for readability the discussion would be better had at the bottom of the page -- a big green box in the middle of the entry gives the reader the impression that he or she needs to beware of some urgent unsettled issue before reading on.
