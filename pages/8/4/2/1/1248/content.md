@@ -53,6 +53,10 @@ Note that although negation doesn\'t have all of its usual properties in constru
 
 The next version is classically equivalent to the previous version (at least if you check that $\mathcal{P}S$ is [[inhabited set|inhabited]]), but not constructively.  Indeed, it has no constructive analogue in the general case.  This argument is from Proposition 2.8.8 of Paul Taylor\'s [[Practical Foundations]] (although I don\'t know if it really originated there).
 
++--{: .query}
+[[Mike Shulman|Mike]]: What do you mean by "has no constructive analogue in the general case?"
+=--
+
 +--{: .num_theorem #taylor}
 ###### Theorem
 (Taylor\'s version.)
@@ -65,6 +69,19 @@ Let $i: \mathcal{P}S$ to $S$ be any function.  Define $f: S \to \mathcal{P}S$ as
 $$ f(a) = \{ b: S \;|\; \forall (U: \mathcal{P}S),\; i(U) = a \;\Rightarrow\; b \in U \} .$$
 If $i$ is an injection, then $f$ is a [[retraction]] of $i$ and hence a surjection, which is impossible by Theorem \ref{cantor}.
 =--
+
+We can combine Theorems \ref{cantor} and \ref{taylor} into the following even more general statement, taken from D4.1.8 of the [[Elephant]].
+
++-- {: .num_theorem #johnstone}
+###### Theorem
+Given a set $S$, its power set $\mathcal{P}S$ cannot be expressed as a [[subquotient]] of $S$.
+=--
++--{: .proof}
+###### Proof
+Suppose we had an injection $f:B\hookrightarrow S$ and a surjection $g:B \to \mathcal{P}S$.  Then $f^{-1}:\mathcal{P}S \to \mathcal{P}B$ would be a surjection, as would the [[image]] function $\exists_f: \mathcal{P}B \to \mathcal{P P}S$.  Thus their composite would be a surjection $\mathcal{P}S \to \mathcal{P P}S$, which is impossible by Theorem \ref{cantor}.
+=--
+
+
 
 # Interpretation #
 
