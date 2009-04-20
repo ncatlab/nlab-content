@@ -55,6 +55,8 @@ The next version is classically equivalent to the previous version (at least if 
 
 +--{: .query}
 [[Mike Shulman|Mike]]: What do you mean by "has no constructive analogue in the general case?"
+
+_Toby_:  I mean that we don\'t have, under the hypotheses of Theorem \ref{general}, that there is no injection from $S \to V$ to $S$.  (In fact, I thought that I had a counterexample, but now I can\'t think of it.)
 =--
 
 +--{: .num_theorem #taylor}
