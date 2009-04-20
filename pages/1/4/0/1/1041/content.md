@@ -2,24 +2,6 @@
 
 An abelian category is a general context in which much of linear algebra and [[homological algebra]] makes sense.  It is one concept in a sequence of [[additive and abelian categories]].
 
-+-- {+ .query}
-_Zoran_: I strongly disagree with the first sentence, particularly with THE (general context...). MacLane was (according to Janliedze) looking whole life for what is the
-general context for homological algebra, and the current answer of expert are semi-abelian categories of Borceux and Janelidze, and homological categories...Linear algebra as well makes sense in many other contexts. This "idea' is to me very misleading. MacLane in 1950 was lead by the idea to axiomatize the categories which behave like abelian groups.
-grothendieck wanted to unify on the obsrervation that the
-categories of abelian sheaves and categories of R-modules have the same setup for homological algebra as in Tohoku. 
-
-There is much linear algebra you can do with cokernel sofr example, as well as much linear algebra which you can not do if you are not over a field for example. So, saying that abelian categories are distinguished is only among categories which have closets properties to abelian sheaves and R-modules, not among principlkes for homlogical algebra and linear algebra that uniquely (although the strojng motivation was ever there).
-
-[[Mike Shulman|Mike]]: I changed it to "a" general context; is that satisfactory?  Once we have pages about those other notions, there can be links from here to there.
-
-_Toby_:  I\'ve made the phrasing even weaker.  Abelian categories are pretty cool, but (if you don\'t already have the examples that make it so useful) the definition is a fairly arbitrary place to draw the line.
-
-_Tim_ : I note that sometimes we (collectively) take parts of a discussion and turn it into part of an entry, because of that I would like to note two points here. The first is that the accepted first definition of semi-abelian category is in the Janelidze, Marki, and Tholen (JPAA, but we have a link on the semi-abelian entry.)
-
-The other point is that Tim Van der Linden's thesis does a lot of stuff that could be useful.  It is available online
-http://arxiv.org/abs/math/0607100
-
-=--
 
 # Definition
 
@@ -83,4 +65,27 @@ However, if you assume explicitly that that comparison map is always an isomorph
 [[Mike Shulman|Mike]]: Okay, it's obvious: the epimorphisms in $tfAb$ are the maps whose cokernel (in $Ab$) is torsion.  Thus $2:\mathbb{Z}\to\mathbb{Z}$ is monic and epic, so $tfAb$ is not balanced.  And since $2:\mathbb{Z}\to\mathbb{Z}$ is its own canonical map, that canonical map _is_ monic and epic in $tfAb$, so this isn't a counterexample.
 
 _Zoran_: http://www.uni-trier.de/fileadmin/fb4/INF/TechReports/semi-abelian_categories.pdf says at one place that Palamodov's version of semi-abelian category is preabelian + canonical morphism is epi and mono.
+=--
+
+
+The following discussion is about to which extent abelian categories are a general context for [[homological algebra]].
+
+
++-- {+ .query}
+_Zoran_: I strongly disagree with the first sentence, particularly with THE (general context...). MacLane was (according to Janliedze) looking whole life for what is the
+general context for homological algebra, and the current answer of expert are semi-abelian categories of Borceux and Janelidze, and homological categories...Linear algebra as well makes sense in many other contexts. This "idea' is to me very misleading. MacLane in 1950 was lead by the idea to axiomatize the categories which behave like abelian groups.
+grothendieck wanted to unify on the obsrervation that the
+categories of abelian sheaves and categories of R-modules have the same setup for homological algebra as in Tohoku. 
+
+There is much linear algebra you can do with cokernel sofr example, as well as much linear algebra which you can not do if you are not over a field for example. So, saying that abelian categories are distinguished is only among categories which have closets properties to abelian sheaves and R-modules, not among principlkes for homlogical algebra and linear algebra that uniquely (although the strojng motivation was ever there).
+
+[[Mike Shulman|Mike]]: I changed it to "a" general context; is that satisfactory?  Once we have pages about those other notions, there can be links from here to there.
+
+_Toby_:  I\'ve made the phrasing even weaker.  Abelian categories are pretty cool, but (if you don\'t already have the examples that make it so useful) the definition is a fairly arbitrary place to draw the line.
+
+_Tim_ : I note that sometimes we (collectively) take parts of a discussion and turn it into part of an entry, because of that I would like to note two points here. The first is that the accepted first definition of semi-abelian category is in the Janelidze, Marki, and Tholen (JPAA, but we have a link on the semi-abelian entry.)
+
+The other point is that Tim Van der Linden's thesis does a lot of stuff that could be useful.  It is available online
+http://arxiv.org/abs/math/0607100
+
 =--
