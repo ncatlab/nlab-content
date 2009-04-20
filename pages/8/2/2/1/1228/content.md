@@ -55,6 +55,8 @@ $$
 
 [[Urs Schreiber|Urs]]: what is, generally, a good elegant way to see the relation between the expression of [[Kan extension]] in terms of (co)ends and in terms of (co)limits over comma categories. Currently at [[Kan extension]] only the latter formula is discussed.
 
+[[Mike Shulman|Mike]]: With tongue in cheek, I would say that there isn't any elegant way to see it, because it's not an elegant statement: it doesn't have any enriched analogue.  But it is an instance of the general fact that $W$-[[weighted limit|weighted]] colimits for any $Set$-weight $W:D\to Set$ can be computed as 'unweighted' colimits over the [[category of elements]] of $W$ (see section 3.4 of Kelly's book).
+
 =--
 
 # MacLane's co-Yoneda lemma#
