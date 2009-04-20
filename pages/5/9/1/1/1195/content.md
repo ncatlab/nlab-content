@@ -15,4 +15,6 @@ Finn, I\'m unsure of what exactly is supposed to be 'minimal logic'.  Does [this
 I think that I thought that minimal logic did not have $\neg$ or $\bot$ at all; that seems like a more reasonable amount of minimality to me.  Also, it seems that your first paragraph fits the above reference better, while your last fits better the version with no negation at all.  But I may be missing something.  ---[[Toby Bartels]]
 
 [[Mike Shulman|Mike]]: I've definitely seen "minimal logic" used to mean logic that has $\bot$ and $\neg$ but no rule $\bot\vdash A$.
+
+_Toby_:  Possibly I was just thinking of the wrong thing when I created the links here; it doesn\'t seem so interesting anymore.  (^_^)  Well, no point changing it now.
 =--
