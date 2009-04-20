@@ -1,14 +1,13 @@
 #Idea#
 
-A _derived stack_ is an [[(infinity,1)-sheaf]] whose domain is not 1-categorical.
+A _derived stack_ is an [[(infinity,1)-sheaf]] whose domain is not a [[1-category]].
 
-One says _derived stack_ in order to distinguish from the traditional ntion of [[infinity-stack]] which is an [[(infinity,1)-sheaf]] whose domain is still a 1-categorical [[site]].
+One says _derived stack_ in order to distinguish from the traditional notion of [[infinity-stack]] which is an [[(infinity,1)-sheaf]] whose domain is still a 1-categorical [[site]].
 
 For recall that a [[sheaf]] is a [[functor]] $F : C^{op} \to Set$ satisfying some [[descent and codescent|descent]]-condition.
 So there are two steps in which the notion of [[sheaf]] may be [[vertical categorification|categorified]]:
 
 1. the codomain is categorified and the domain remains a 1-category
-
 1. the codomain and the domain are categorified.
 
 The categorification of the codomain leads to the notion of [[stack]]s when [[Set]] replaced by [[Grpd]], and further to [[infinity-stack]]s, when sets are replaced by [[infinity-groupoid]]s. 
