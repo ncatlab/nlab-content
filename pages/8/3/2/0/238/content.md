@@ -14,6 +14,16 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-20 #
 
+* [[Mike Shulman|Mike]]: 
+
+  * Added the correct equivalent definition to [[semi-abelian category]] and deleted the discussion about what it might be.
+
+  * Added another version of [[Cantor's theorem]].
+
+  * Expanded [[extensional relation]] to discuss several possible notions of extensionality, reserving the term 'extensional' for the one that I think is most important (but feel free to disagree).
+
+  * Commented on the right notions of morphism for [[relation]], [[well-founded relation]], [[well-order]], and [[extensional relation]].
+
 * [[David Corfield|David]]:
 
   * imported Urs' material on [[bundle gerbe]]. nLab doesn't seem to like latex within lists. How do we fix this?
