@@ -37,4 +37,23 @@ I don't think the distinction between different kinds of sequent is arbitrary at
 I don't understand you when you say 'Gentzen chose the axiomatic \[sequents\] to avoid \[well-formed but invalid sequents\]'.  The axiom sequents are just those that have the same formula $P$ both on the left and on the right -- are you thinking of derived ones like $P\wedge Q\vdash P$?  They are not essential.  It may be a matter of taste, but I certainly find sequent calculus to be far more elegant than natural deduction, precisely because it draws a very clear distinction between logical rules and structural rules.
 
 If you're interested, my TCD technical report is all about the Curry--Howard correspondence for classical logic, and it includes (what I hope is) a fairly intuitive explanation of sequent calculus and associated term notations for minimal and classical logic.  It's available [here](https://www.cs.tcd.ie/publications/tech-reports/reports.08/TCD-CS-2008-55.pdf).
+
+_Toby_:  Thanks, that looks interesting.  As for Gentzen\'s choice and the arbitrariness, you must have seen that LK can be presented in slightly different forms and that the little choices here make a big difference when you restrict to sequents with so many formulas on a given side.
+
+For example, is the rule for disjunction on the left
+$$\frac{\Gamma, A \vdash \Delta \qquad \Sigma, B \vdash \Pi}
+{\Gamma, \Sigma, A \vee B \vdash \Delta, \Pi}$$
+as on [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Sequent_calculus) or
+$$\frac{\Gamma, A \vdash \Delta \qquad \Gamma, B \vdash \Delta}
+{\Gamma, A \vee B \vdash \Delta}$$
+as in your report?
+By Wikipedia\'s version, there aren\'t enough such intuitionistic sequents (and so their definition of $LJ$ needs an exception to fix this) and no such minimal sequents, while your version allows them.  On the other hand, if you include corresponding rules for $\bot$ (which are surely required for elegance), then Wikipedia would have
+$$\frac{}
+{\bot \vdash}$$
+which is (correctly) an intuitionistic but not minimal sequent, while you would have
+$$\frac{}
+{\Gamma, \bot \vdash \Delta}$$
+which could be a minimal sequent even though you wouldn\'t want it.
+
+Anyway, I\'ll read your report more closely than is needed just to see how you write LK.  (^_^)
 =--
