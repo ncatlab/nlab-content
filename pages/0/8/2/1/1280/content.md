@@ -13,6 +13,8 @@ _Finn_: I think you've hit the nail on the head there: *I* think 'ex falso quodl
 Thanks for clearing this up.  Obviously your version should stand.
 
 _Toby_:  You\'re welcome.  But your fancy Latin reminds me that what we have here is technically really the *combination* of the law of non-contradiction (any contradiction is false: $A \wedge \neg{A} \equiv \bot$) and ex falso quodlibet (anything follows from falsehood: $\bot \vdash B$), so I changed the name above.
+
+_Finn_: Right -- I was going to mention that (no, really), but forgot.  Perhaps we should incorporate some of this discussion into the article proper, to help resolve any imprecision in other sources.  I'll do that, if you'd rather not, but not now -- it's way past bedtime here in GMT-land.
 =--
 
 # Links #
