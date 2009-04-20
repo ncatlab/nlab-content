@@ -4,6 +4,8 @@ The axioms of a _semi-abelian_ category are supposed to capture the properties o
 
 +--{: .query}
 [[Mike Shulman|Mike]]: Why only rings without units (that is, rngs)?  Intuitively, what important properties do the above listed examples share that are not shared by rings with units?
+
+[[Zoran Skoda]]: I want to know the answer as well. It might be something in the self-dual axioms. For unital rings artinian implies noetherian but not other way around; though the definitions of the two notions are dual. 
 =--
 
 
@@ -21,6 +23,8 @@ A [[category]] $C$ is **semi-abelian** if it
 
 +--{: .query}
 [[Mike Shulman|Mike]]: I was about to create the link to Bourn-protomodular category, but then I wondered whether we should just say "protomodular"---is there a reason to disambiguate it with the prefix "Bourn-"?  We (sometimes) say "Barr-exact" to avoid confusion with [[Quillen exact category|Quillen-exact]]; is there any ambiguity for "protomodular?"
+
+[[Zoran Skoda]]: I think not, I saw just one notion of protomodular so far (unlike word semi-abelian which has been  used for some other things, mainly before the now accepted dominant notion); besides the notion is mainly used by one and the same community (unlike word exact category which lives with different meanings in completely different societies of mathematicians). I think no need to call it Bourn-protomodular; of course the entry should have pointers to the original references and short mention of the optional modifier, I think. 
 =--
 
 Equivalently, $C$ is semi-abelian if:
