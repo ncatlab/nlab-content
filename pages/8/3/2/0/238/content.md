@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-20 #
 
+*  [[Toby Bartels]]:  I think that the naming discussion at [[ind-object]] is still current until Eric is happy.
+
 * [[Finn Lawler]]:  Replied to Toby at [[minimal logic]], and slightly expanded [[paraconsistent logic]] to incorporate some of our discussion.
 
 * [[Urs Schreiber|Urs]]:
