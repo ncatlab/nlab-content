@@ -344,6 +344,8 @@ From this perspective, a limit is a special case of a [[Kan extension]], as desc
 
 #Examples#
 
+* For a pedagogical list of examples see [[limits and colimits by example]].
+
 ## Types of shapes of limit cones ##
 
 Here are some important examples of limits, classified by the shape of the diagram:
