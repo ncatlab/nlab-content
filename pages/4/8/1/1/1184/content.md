@@ -22,6 +22,11 @@ Given two well-ordered sets $S$ and $T$, a [[function]] $f: S \to T$ is a __morp
 
 This is the same definition of morphism as you get if you think of $\prec$ as merely [[well-founded relation|well-founded]] or if you think of it as merely [[extensional relation|extensional]].  Note that, as is always the case with extensional relations, any such morphism will be unique.  That is, we have a (large) [[poset]] of well-ordered sets.
 
++--{: .query}
+[[Mike Shulman|Mike]]: See my comment at [[well-founded relation]].
+=--
+
+
 ## Examples ##
 
 * Any [[finite set|finite]] [[total order|totally ordered set]] $\{x_1 \lt \cdots \lt x_n\}$ is well-ordered.
