@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-20 #
 
+* [[Finn Lawler]]:  Replied to Toby at [[minimal logic]], and slightly expanded [[paraconsistent logic]] to incorporate some of our discussion.
+
 * [[Urs Schreiber|Urs]]:
 
   * added to [[Yoneda lemma]] the following: a word on the proof, two further corollaries, a word on the meaning of the first two corollaries
