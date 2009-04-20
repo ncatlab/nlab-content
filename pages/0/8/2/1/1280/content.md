@@ -1,23 +1,20 @@
 A paraconsistent logic is one that does not include the
 law _ex contradictione quodlibet_, that is, the schema $A,
-\neg{A} \vdash B$ for all formulas $A$ and $B$.  An
-example is [[minimal logic]], which simply omits the law
-of _ex falso quodlibet_ $\bot \vdash B$ from the
-presentation of intuitionistic logic -- the latter proves
-$A,\neg A \vdash B$ via the law of non-contradiction
-$A,\neg A \vdash \bot$.
+\neg{A} \vdash B$ for all formulas $A$ and $B$.
 
-Another example is given by the formal dual of
-intuitionistic logic, which may be presented as a
-[[sequent calculus]] with the restriction that for
-$\Gamma\vdash\Delta$ any sequent, $\Gamma$ may contain _at
-most one_ formula.  This system, which we may call
-$LJ^{op}$, does not prove the law of non-contradiction,
-for the same (or the dual of the) reason that $LJ$ does
-not prove the law of the excluded middle.  $LJ^{op}$ is
-therefore paraconsistent, although _ex falso quodlibet_ is
-valid, because it is the dual of the $LJ$-valid sequent
-$A\vdash\top$.
+Compare _ex falso quodlibet_ $\bot \vdash B$ and the _law of non-contradiction_ $A, \neg{A} \vdash \bot$, which are not quite the same; either may hold in a paraconsistent logic, but of course not both.
+
+# Examples #
+
+In [[minimal logic]], one omits ex falso quodlibet from any of the usual presentations of intuitionistic logic.  The law non-contradiction is valid here.
+
+In the formal dual of intuitionistic logic (which may be presented as a [[sequent calculus]] with the restriction that the left-hand side of any sequent has at most one formula), the law of non-contradiction fails, for the same (or the dual of the) reason that intuitionistic logic does not prove the law of the [[excluded middle]].  Although ex falso quodlibet is still valid (because it is the dual of the intuitionistically valid sequent $A \vdash \top$), ex contradictione quodlibet still does not follow.
+
+In [[relevance logic]], no sequent can be valid unless the hypothesis and conclusion have a variable in common.  Thus, ex contradictione quodlibet is invalid in general, but special cases such as $p, \neg{p} \vdash p$ or $p \wedge q, \neg{p \wedge q} \vdash p \vee r$ are valid.
+
+# Discussion #
+
+Here is some past discussion about which law should define whether a logic is paraconsistent:
 
 +--{: .query}
 I made a big change here; I would argue that the failure of $\bot \vdash B$ means that '$\bot$' simply doesn\'t mean $\bot$; but in any case, I\'ve always seen the definition given in terms of negation.  In particular, dual-intuitionistic logic has $\bot \vdash B$ (just as intuitionistic logic has $B \vdash \top$) but is still considered paraconsistent.
