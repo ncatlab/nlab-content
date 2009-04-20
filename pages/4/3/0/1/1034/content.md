@@ -92,6 +92,29 @@ By axiom 2) the composite morphism $(S \to I \to *) = (S \to *)$ is $U$-small,
 hence $S$ is a $U$-small set, hence the $I$-indexed union of $U$-small sets
 $\sqcup_{i \in I} S_i$ is $U$-small.
 
+By standard constructions in [[nLab:set theory|set theory]] from these
+properties the following further closure properties of the universe $U$
+follow.
+
+* For $I$ a $U$-small set and $S \to I$ an $I$-indexed family of
+$U$-small sets $S_i$, the cartesian product $\prod_{i \in I} S_i$
+is $U$-small, as it is a subset of $P(I \times S)$.
+
+
+In **summary**
+
+* the sets $\emptyset, *, \mathbf{2}$ are $U$-small;
+
+* a subset of a $U$-small set is $U$-small;
+
+* the power set $P(S)$ of any $U$-small set is $U$-small;
+
+* the function set $T^S$ for any two $U$-small sets is $U$-small;
+
+* the [[coproduct|union]] of a $U$-small family of $U$-small sets is $U$-small.
+
+* the [[product|product]] of a $U$-small family of $U$-small sets is $U$-small.
+
 
 
 
