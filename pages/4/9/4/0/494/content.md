@@ -85,3 +85,8 @@ $$Hom_C(c,R(d)) \cong Hom_D(L(c),d)$$
 which it is easy to see is natural in $d$.  Again, in this case there is a unique way to make $L$ into a functor so that this isomorphism is natural in $c$ as well.
 
 Note that this definition is simply obtained by applying the [[Yoneda lemma]] to the definition in terms of representable functors.
+
+
+#Examples#
+
+* see [[examples of adjoint functors]].
