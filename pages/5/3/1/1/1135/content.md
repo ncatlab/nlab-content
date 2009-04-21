@@ -75,7 +75,20 @@ in which both legs are split monics.  Filling in one of the equivalent definitio
 
 * The opposite of the category of [[pointed object|pointed objects]] in a [[topos]] is semi-abelian. In particular, $Set_*^{op}$ is semi-abelian.
 
++-- {: .query}
+
+[[Urs Schreiber|Urs]]: how can I understand that this (has to?) involve the opposite category?
+
+=--
+
+
 * The category of [[crossed module|crossed modules]] is semi-abelian.
+
++-- {: .query}
+
+[[Urs Schreiber|Urs]]: what about the category of [[crossed complex]]es?
+
+=--
 
 #References#
 
