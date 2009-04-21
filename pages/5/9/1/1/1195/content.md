@@ -64,4 +64,6 @@ You're right that the multiplicative versions don't work well for these subsyste
 As for $\Gamma,\bot\vdash\Delta$ as an axiom, that just isn't included in minimal logic.  (By the way, your point above was well taken, that it would seem better to leave $\bot$ out of minimal logic entirely, but I think most people like having $\neg$ in their logics, even if it's just $\to$ in disguise)
 
 _Toby_:  Well, I can\'t accept that minimal logic is really about exactly one item on the right while intuitionistic logic is really about at most one item on the right, not if you have to ignore $\bot$ to make that work.  But I think that I now have a better understanding of how intuitionistic logic is (in one sense) really about having one item on the right (and using additive rules).
+
+_Finn_:  Maybe a better way to think of this -- and I'm probably not explaining things very well -- is to say that $\bot$ and an empty RHS are really the same thing (just like $\top$ and an empty context), so that leaving the _ex falso quodlibet_ schema out of minimal logic is (morally) the same as forbidding right weakening.  Does that help?  I still often get confused by sequent calculus; as the case of linear logic shows, it's a surprisingly subtle formalism.
 =--
