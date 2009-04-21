@@ -1,0 +1,1 @@
+A __coreflective subcategory__ is a full subcategory whose inclusion has a right adjoint. The abstract properties are consequently dual to the ones for [[reflective subcategory]].
