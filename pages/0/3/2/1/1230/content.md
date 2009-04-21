@@ -22,6 +22,14 @@ And I agree that "fibered strict $n$-category" is better than "strict fibered $n
 I disagree that algebraic geometers are the main consumers of fibrations.  They are used plenty by category theorists as well, and people working in related fields such as categorical topology.  (And they _should_ be used by more topologists, an oversight I am working to correct.)
 
 Yes, actually the category of elements (aka lax colimit, aka one of Grothendieck's constructions) works for lax functors landing in $Prof$ and not just in $Cat$, and that way it recaptures all functors, not just fibrations.  Probably there is a similar version of this in the $n$-case.
+
+[[Zoran Skoda]] Yes, Hermida has pseudofunctors into 2Cat;
+the target is strict but the pseudo- is in the weakest 3-categorical sense. I think "strict fibration of strict n-categories" is unnecessarily precise: you see if one wants to consider strict categories as non-strict then one can just say that; I think that fibration of strict n-categories is enough; one can always in concrete case say fibration of n-categories where the domain and target happen to be 
+strict. For an example, look at the category of internal categories (taken as descent data in the spirit of MacLane-Pare article) in an indexed category is a 2-fibered strict 2-category. There is a reason more, that I woudl not like "strict fibered strict n-catgeory"; usually one starts 
+developing theory by saying what a category over category is; so here what a strict 2-category over a strict 2-category is; prefix fibered is just about modifying this
+to a sub-2-category of such. So really starting with strict 2-categories viewed as nonstrict, means that we modify nonstrict (2-category over 2-category); but if you are strongly inclined it is OK, at least for the lexicon. 
+
+
 =--
 
 category: redirect
