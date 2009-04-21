@@ -53,4 +53,6 @@ this sends $a \in S$ to the lowest element of the subset $S_a := \{ s \in S, a \
 
 +--{: .query}
 This need not exist; in particular, $S_a$ may be empty.  What do we really want to say here?  (We could talk about the successor *of* a well-ordered set.)  ---Toby
+
+[[Mike Shulman|Mike]]: Yeah, or we could say that successor is a partial function.  One definition of a limit ordinal is one on which successor is totally defined.
 =--
