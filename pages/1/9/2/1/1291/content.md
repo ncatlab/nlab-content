@@ -8,9 +8,9 @@ where $N$ is an object in $S$ and $P$ is an object in $T$.
 +--{: .query}
 Surely one of these should be in $T$?  It\'s arbitrary, so I\'ll let somebody else decide what the convention is.  ---[[Toby Bartels]]
 
-[[Zoran Skoda]] ZSorry I guess the convention is the way I corrected (I will check). the multiplication is not commutative in any case. 
+[[Zoran Skoda]] Sorry. I guess the convention is the way I corrected (I will check). the multiplication is not commutative in any case. 
 =--
 
 When restricted to the class of [[topologizing subcategory|topologizing subcategories]], Gabriel multiplication is associative; if $A$ is small then the topologizing subcategories make a semiring with respect to the commutative operation $\cap$ and Gabriel multiplication; in particular $\bullet$ is left and right distributive with respect to intersection of topologizing subcategories.  
 
-In the case of the abelian category of modules over a ring, the Gabriel multiplication is sometimes expressed in terms of filters of ideals, rather than abelian subcategories. 
+In the case of the abelian category of modules over a ring, the Gabriel multiplication is sometimes expressed as [[Gabriel composition of filters]] of ideals, rather than in terms of abelian subcategories.
