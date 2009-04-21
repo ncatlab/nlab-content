@@ -10,6 +10,20 @@ A __local system__ is a locally constant [[sheaf]] on a topological space $X$ (o
 
 [[Zoran Škoda]]: connected because otherwise you do not have 
 even the same dimension of the typical stalk of teh lcoally constant sheaf. Maybe there is a fancy wording with groupoids avoiding this, but when you have a representation on a single space, you need connectedness. 
+
+[[Ronnie Brown]] I do not have time to write more tonight but mention that there is a section of the paper 
+
+(with P.J.HIGGINS), ``The classifying space of a crossed
+complex'',   Math. Proc. Camb. Phil. Soc. 110 (1991) 95-120.
+
+on local systems, where a module over the fundamental groupoid of a space is regarded as a special case of a crossed complex. This seems convenient for the singular theories but has not been developed in a Cech setting. The homotopy classification theorem 
+
+$$ [X, BC] \cong [\Pi X_* ,C] $$
+
+where $X_*$ is the skeletal filtration of the CW-complex $X$, $C$ is a crossed complex, and $BC$ is the classifying space of $C$,  thus includes the local coefficient version of the classical Eilenberg-Mac Lane theory. 
+
+
+
 =--
 
 #Examples#
