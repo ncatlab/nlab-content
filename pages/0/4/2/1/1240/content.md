@@ -106,7 +106,7 @@ We then have:
 
 $\pi(g_1\cdot [(g,v)]) = \pi[(g_1 g,v)] = (g_1 g) H = g_1\cdot (g H) = g_1\cdot \pi([(g,v)])$
 
-That is, $\pi$ is a $G$-morphism.  This also means that the action maps fibres to fibres, $g_1:E_{(g H)}\to E_{g_1\cdot (g H)}$.  What's more, the action of $g_1$ restricted to the fibre $E_{(g H)}$ is $\phi_{g_1 g}\circ \phi_g^{-1}$, passing from $E_{(g H)}\to V \to E_{g_1\cdot (g H)}$, and this
+That is, $\pi$ is a $G$-morphism.  This also means that the action maps fibers to fibers, $g_1:E_{(g H)}\to E_{g_1\cdot (g H)}$.  What's more, the action of $g_1$ restricted to the fiber $E_{(g H)}$ is $\phi_{g_1 g}\circ \phi_g^{-1}$, passing from $E_{(g H)}\to V \to E_{g_1\cdot (g H)}$, and this
 is linear simply by virtue of the way we've defined the vector space operations on the $E_x$.
 
 We get a representation $r$ of $G$ on the vector space $\Gamma(E)$ of sections of the bundle $E$ by:
@@ -125,7 +125,6 @@ There is a related functor going the other way:
 $$R: Vect(M,G) \to Rep(H) $$
 
 which restricts the action of $G$ on the whole bundle to the action of the stabilizer subgroup $H$ on the fiber over the chosen point $x$.  We now wish to show that $L$ and $R$ are adjoint functors.
-
 
 <svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='600' height='700'>
 <g transform='translate(-66.000000, -5.000000)'>
@@ -211,7 +210,7 @@ which restricts the action of $G$ on the whole bundle to the action of the stabi
 <text x='0' y='32' font-size='12px'>vector bundle <tspan font-style='italic'>L</tspan>(<tspan font-style='italic'>V</tspan>), &#x03c0;<tspan dy='5px' font-size='10px'>2</tspan><tspan dy='-5px'>: </tspan>(<tspan font-style='italic'>G</tspan>&#xd7;<tspan font-style='italic'>V</tspan>) / <tspan font-style='italic'>H</tspan> &#8594; <tspan font-style='italic'>G</tspan> / <tspan font-style='italic'>H</tspan></text>
 </g>
 <g transform='translate(481.500000, 430)'>
-<text x='0' y='24' font-size='12px'>Representation of <tspan font-style='italic'>H</tspan> on <tspan font-style='italic'>V</tspan></text>
+<text x='0' y='24' font-size='12px'>Representation <tspan font-style='italic'>s</tspan> of <tspan font-style='italic'>H</tspan> on <tspan font-style='italic'>V</tspan></text>
 </g>
 <polygon stroke='none' opacity='1' fill-rule='evenodd' fill='rgb(100%,100%,100%)' points='77.2783,505.135 149.459,469.044 185.55,541.225 113.369,577.316 ' />
 <polygon fill='none' stroke-opacity='1' stroke-width='2px' stroke='rgb(100%,0%,0%)' points='77.2783,505.135 149.459,469.044 185.55,541.225 113.369,577.316 ' />
@@ -278,7 +277,7 @@ which restricts the action of $G$ on the whole bundle to the action of the stabi
 </g>
 <g transform='translate(325.092760, 136.434389)'>
 <text x='6' y='12' font-size='12px'>Restrict to action of <tspan font-style='italic'>H</tspan></text>
-<text x='0' y='28' font-size='12px'>on a single fibre &#x03c0;<tspan dy='5px' font-size='10px'>1</tspan><tspan dy='-10px' font-size='10px'>&#8211;1</tspan><tspan dy='5px'>(</tspan><tspan font-style='italic'>x</tspan>)</text>
+<text x='0' y='28' font-size='12px'>on a single fiber &#x03c0;<tspan dy='5px' font-size='10px'>1</tspan><tspan dy='-10px' font-size='10px'>&#8211;1</tspan><tspan dy='5px'>(</tspan><tspan font-style='italic'>x</tspan>)</text>
 </g>
 <polyline fill='none' stroke-opacity='1' stroke-width='2px' stroke='rgb(0%,0%,0%)' points='492.319,487.089 330.021,487.089 ' />
 <polygon stroke='none' opacity='1' fill-rule='evenodd' fill='rgb(0%,0%,0%)' points='331.867,492.353 331.573,491.754 330.932,490.318 330.591,489.454 330.296,488.583 330.091,487.773 330.021,487.089 330.091,486.471 330.296,485.671 330.591,484.771 330.932,483.852 331.573,482.283 331.867,481.616 311.867,487.089 331.867,492.353 ' />
@@ -287,7 +286,7 @@ which restricts the action of $G$ on the whole bundle to the action of the stabi
 </g>
 <g transform='translate(319.592760, 499.089367)'>
 <text x='12' y='12' font-size='12px'>Construct induced bundle</text>
-<text x='24' y='32' font-size='12px'><tspan font-style='italic'>h</tspan> &#8901; (<tspan font-style='italic'>g</tspan>, <tspan font-style='italic'>v</tspan>) = (<tspan font-style='italic'>g h</tspan><tspan dy='-5px' font-size='10px'>&#8211;1</tspan><tspan dy='5px'>,</tspan><tspan font-style='italic'> h v</tspan>)</text>
+<text x='24' y='32' font-size='12px'><tspan font-style='italic'>h</tspan> &#8901; (<tspan font-style='italic'>g</tspan>, <tspan font-style='italic'>v</tspan>) = (<tspan font-style='italic'>g h</tspan><tspan dy='-5px' font-size='10px'>&#8211;1</tspan><tspan dy='5px'>, </tspan><tspan font-style='italic'>s</tspan>(<tspan font-style='italic'>h</tspan>)<tspan font-style='italic'>v</tspan>)</text>
 <text x='24' y='52' font-size='12px'>&#x03c0;<tspan dy='5px' font-size='10px'>2</tspan><tspan dy='-5px'>:</tspan> (<tspan font-style='italic'>G</tspan>&#xd7;<tspan font-style='italic'>V</tspan>) / <tspan font-style='italic'>H</tspan> &#8594; <tspan font-style='italic'>G</tspan> / <tspan font-style='italic'>H</tspan></text>
 <text x='24' y='72' font-size='12px'>&#x03c0;<tspan dy='5px' font-size='10px'>2</tspan><tspan dy='-5px'>(</tspan>[(<tspan font-style='italic'>g</tspan>, <tspan font-style='italic'>v</tspan>)]) = <tspan font-style='italic'>g H</tspan></text>
 <text x='24' y='92' font-size='12px'><tspan font-style='italic'>g</tspan><tspan dy='5px' font-size='10px'>1</tspan><tspan dy='-5px'> &#8901; </tspan>[(<tspan font-style='italic'>g</tspan>, <tspan font-style='italic'>v</tspan>)] = [(<tspan font-style='italic'>g</tspan><tspan dy='5px' font-size='10px'>1</tspan><tspan dy='-5px' font-style='italic'>g</tspan>, <tspan font-style='italic'>v</tspan>)]</text>
@@ -338,6 +337,54 @@ which restricts the action of $G$ on the whole bundle to the action of the stabi
 In the diagram above, on the top left we have a generic $G$-equivariant vector bundle over $M$, $F\in Vect(M,G)$, with projection $\pi_1:F\to M$, and a chosen point $x\in M$ whose stabilizer subgroup is $H$.  The functor $R$ maps $F$ to a representation of $H$ on the fiber over $x$, $\pi_1^{-1}(x)$, shown on the top right.
 
 On the bottom right, we have a generic representation of $H$ on a vector space $V$.  The morphisms of $Rep(H)$ are intertwiners, so we are interested in intertwiners such as $i:V\to \pi_1^{-1}(x)$.  The functor $L$, the induced bundle construction, maps a generic representation of $H$ to a $G$-equivariant vector bundle $(G\times V)/H$, shown on the bottom left.  This bundle has a projection $\pi_2: (G\times V)/H \to G/H$, $\pi_2([(g,v)])=g H$.  Since $M \cong G/H$, this bundle is in $Vect(M,G)$.  And we are interested in the morphisms of $Vect(M,G)$, such as $(f,m)$ where $f:L(V)\to F$ and $m:G/H\to M$.
+
+We wish to show that $L$ and $R$ are adjoint functors, but before proceeding with the details of this we will introduce some supplementary structures.
+
+We are assuming that $G$ acts transitively on $M$, so given any $y\in M$ there exists at least one element of $G$, say $k(y)$, such that $k(y)\cdot x = y$.  We will now assume that some definite function $k:M\to G$ has been chosen with this property, and for convenience we will further assume that $k(x)=e$, the identity element in $G$.  The group element $k(y)$ gives us a specific way to use the action of $G$ on $M$ to get from our chosen point $x$ to some other point $y$ --- and equally, to use the action of $G$ on the whole bundle $F$ to get from the fiber over $x$ to the fiber over $y$.
+
+The choice of $k$ allows us to define representations of $H$ on every fiber $\pi_1^{-1}(y)$ of $F$; for every $y\in M, h\in H, w\in \pi_1^{-1}(y)$:
+
+$$\rho_y(h,w)=(k(y) h k(y)^{-1})\cdot w$$
+
+In other words, we use $k(y)^{-1}$ to map the fiber over $y$ to the fiber over $x$, we act with the element $h\in H$ which preserves the fiber over $x$, then we use $k(y)$ to map the result back to the fiber over $y$.
+
+Along with these representations $\rho_y$ we have intertwiners $i_{y,z}:\pi_1^{-1}(y)\to \pi_1^{-1}(z)$:
+
+$$i_{y,z}(w)=(k(z) k(y)^{-1})\cdot w$$
+
+which satisfy the condition:
+
+$$i_{y,z}(\rho_y(h,w)) = (k(z) h k(y)^{-1})\cdot w = \rho_z(h,i_{y,z}(w))$$
+
+Of course these intertwiners are isomorphisms, because the representations on all the fibers are equivalent.
+
+Now, to show that $L$ and $R$ are adjoint functors, we need to construct a bijection between the intertwiners $i:V\to \pi_1^{-1}(x)$ and the $G$-equivariant vector bundle morphisms $(f,m)$, where $f:L(V)\to F$ and $m:G/H\to M$.
+
+Given an intertwiner $i:V\to \pi_1^{-1}(x)$, we start by defining $m:G/H\to M$ by:
+
+$$m(g H)=g\cdot x$$
+
+which is independent of $i$, and is just the obvious bijection between $G/H$ and $M$.  Next, we define $f:L(V)\to F$ by:
+
+$$ f([(g,v)]) = g\cdot i(v)$$
+
+In other words, given the equivalence class $[(g,v)]$ we use the intertwiner $i$ to take $v\in V$ to $\pi_1^{-1}(x)$, and then the action of $G$ on $F$ to take the result to the fiber $\pi_1^{-1}(g\cdot x)$.  This satisfies the compatibility condition on the projections:
+
+$$\pi_1(f([(g,v)])) = g\cdot x = m(g H) = m(\pi_2([(g,v)]))$$
+
+We also need to check that $f$ commutes with the actions of $G$ on the respective bundles:
+
+$$f(g_1\cdot [(g,v)]) = f([(g_1 g,v)]) = (g_1 g)\cdot i(v) = g_1\cdot f([(g,v)])$$
+
+Next, given a $G$-equivariant vector bundle morphism $(f,m)$, where $f:L(V)\to F$ and $m:G/H\to M$, we define an intertwiner $i:V\to \pi_1^{-1}(x)$ by:
+
+$$i(v)=k(m(e H))^{-1}\cdot f([(e,v)])$$
+
+We know this will map to $\pi_1^{-1}(x)$ because $f$ must map $[(e,v)]$ to the fiber over $m(\pi_2([(e,v)]))=m(e H)$, and we use the action of $k(m(e H))^{-1}$ to map it to the fiber over $x$.
+
+We check that this is an intertwiner for the representations of $H$ on the respective vector spaces.  We abbreviate $k(m(e H))^{-1}$ as $k_1$:
+
+$$i(s(h)v)=k_1\cdot f([(e,s(h)v)])=k_1\cdot f([(h,v)])=(k_1 h) \cdot f([(e,v)])$$
 
 #Related issues#
 
