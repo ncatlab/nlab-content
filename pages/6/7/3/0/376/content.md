@@ -2,9 +2,9 @@ A **locally cartesian closed category** is a [[category]] $C$ whose [[over categ
 
 Equivalently, $C$ is a category with [[pullback]]s (and a terminal object, if required) such that each [[base change]] functor $f^*: C/y \to C/x$ has a right adjoint $\Pi_f$. In particular, such pullbacks preserve all [[colimit]]s. Therefore, if a locally cartesian closed category has [[finite colimit]]s, it is automatically a [[coherent category]] and in fact a [[Heyting category]].
 
-The [[internal logic]] of locally cartesian closed categories is [[dependent type theory]].
+The [[internal logic]] of locally cartesian closed categories is dependent [[type theory]].  In particular, $\Pi_f$ is interpreted as a [[dependent product]].
 
-There are categories which are cartesian closed and not locally cartesian closed, but in which for some $f$ the  pullback functor $f^*: C/y \to C/x$ has a right adjoint. This includes $Cat$, $Gpd$, and the category of [[crossed complex]]es; in the latter two cases, it is necessary and sufficient for $f$ to be a [[fibration]], while in $Cat$ it is sufficient for $f$ to be a fibration or an opfibration.
+There are categories which are cartesian closed and not locally cartesian closed, but in which for some $f$ the  base change functor $f^*: C/y \to C/x$ has a right adjoint. This includes $Cat$, $Gpd$, and the category of [[crossed complex]]es; in the latter two cases, it is necessary and sufficient for $f$ to be a [[fibration]], while in $Cat$ it is sufficient for $f$ to be a fibration or an opfibration.
 
 #References#
 
