@@ -6,38 +6,6 @@ $$F: C^{op} \to Set$$
 
 is **representable** if it is [[natural isomorphism|naturally isomorphic]] to a [[hom-functor]] $\hom_C(-, c): C^{op} \to Set$. The object $c$ is determined uniquely up to isomorphism, and is called a **representing object** for $F$. 
 
-+--{+ .query}
-I am pretty unhappy that all entries related to limits, colimits and representable things at nlab say that the limit, colimit and representing functors are what normally in strict treatment are just the vertices of the corresponding universal construction. A representable functor is not a functor which is naturally 
-isomorphic to Hom(-,c) but a *pair* of 
-an object and such isomorphism! Similarly limit is the synonym for *limiting cone* (= universal cone), not just its vertex. Because if it were most of usages and theorems would not be true. For example, the notion and usage of creating limits under a functor, includes the words about the behaviour of the arrow under the functor, not only of the vertex. Definitions should be the collections of the data and one has to distinguish if the existence is really existence or in fact a **part of the structure**.--Zoran
-
-[[Mike Shulman|Mike]]: I disagree (partly).  First of all, a functor $F$ *equipped with* an isomorphism $F\cong hom_C(-,c)$ is not a represent<b>able</b> functor, it is a represent<b>ed</b> functor, or a functor equipped with a representation.  A representable functor is one that is "able" to be represented, or _admits_ a representation.
-
-Second, the page [[limit]] says "a limit of a diagram $F : D \to C$ ... is an object $lim F$ of $C$ _equipped with_ morphisms to the objects $F(d)$ for all $d \in D$..." (emphasis added).  It doesn't say "such that there exist" morphisms.  (Prior to today, it defined a limit to be a universal cone.)  It is true that one frequently speaks of "the limit" as being the vertex, but this is an abuse of language no worse than other abuses that are common and convenient throughout mathematics (e.g. "let $G$ be a group" rather than "let $(G,\cdot,e)$ be a group").  If there are any _definitions_ you find that are wrong (e.g. that say "such that there exists" rather than "equipped with"), please correct them!  (Thanks to your post, I just discovered that [[Kan extension]] was wrong, and corrected it.)
-
-[[Zoran Skoda]] I fully agree, Mike that "equipped with" is just a synonym of a "pair". But look at entry for limit for example, and it is clear there that the limiting cone/universal cone and limit are clearly distinguished there and the term limit is used just for the vertex there. Unlike for limits where up to economy nobody doubt that it is a pair, you are right that many including the very MacLane representable take as existence, but then they really use term "representation" for the whole pair. Practical mathematicians are either sloppy in writing or really mean a pair for representable. Australians and MacLane use indeed word representation for the whole thing, but practical mathematicians (example: algebraic geometers) are not even aware of term "representation" in that sense, and I would side with them. Let us leave as it is for representable, but I do not believe I will ever use term "representation" in such a sense. For limit, colimit let us talk about pairs: I am perfectly happy with word "equipped" as you suggest. 
-
-[[Mike Shulman|Mike]]: I'm not sure what your point is about [[limit]]s.  The definition at the beginning very clearly uses the words "equipped with."  Later on in the page, the word "limit" is used to refer to the vertex, but this is just the common abuse of language.
-
-Regarding representable functors, since representations are unique up to unique isomorphism when they exist, it really doesn't matter whether "representable functor" means "functor such that there exists an isomorphism $F\cong hom_C(-,c)$" or "functor equipped with an isomorphism $F\cong hom_C(-,c)$."  (As long as it doesn't mean something stupid like "functor equipped with an object $c$ such that there exists an isomorphism $F\cong hom_C(-,c)$.")  In the language of [[stuff, structure, property]], we can say that the [[Yoneda embedding]] is [[full and faithful functor|fully faithful]], so that "being representable" is really a property, rather than structure, on a functor.
-
-[[Zoran Skoda]] For limit look at the section Unwrapping. This section clearly distiguishes between the limiting cone and the limit. It says roughly if we have a limit then we can define a special cone, and then it is called limiting cone. So it strongly suggests that the limiting cone is something different from a limit, but in fact they are synonyms, except that it is common to abuse the language and say a limit for the vertex only: however one does not do that abuse when introducing the notion. Then one has to be clear that it is the same thing.
-Even it uses a terminology "universal limiting cone" what is double notation as limiting cone and universal cone and universal initial cone and initial cone and limit are equivalent terms. One allows "universal initial" because sometimes one says "universal terminal".
-
-For representable I agreed, though I will of course continue using it with the structure whenever needed. 
-
-[[Mike Shulman|Mike]]: Actually, that page has not defined limits using cones, but using an isomorphism of hom-sets.  This is, of course, equivalent, but the section "Unwrapping" is about that equivalence.  So when it says "if the limit $lim F\in C$ of $F$ exists, then it singles out a special cone" it means that given an object $lim F$ _equipped with_ an isomorphism $Hom(c,lim F)\cong Hom(pt,Hom(c,F-))$ natural in $c$, there exists a particular cone and so on.  On the next line it defines that cone, using the isomorphism with which $\lim F$ is equipped.
-
-That is, a limit is an object equipped with data which makes it a limit.  That data might be a limiting cone, or it might be a certain natural isomorphism; it doesn't matter since either can be constructed from the other.
-
-I don't think anyone would argue, though, that that page is a work in progress.  It's certainly not all that clear which parts are the definitions, which parts are alternate definitions, and which parts are theorems.
-
-_Toby_:  Hum ...  If you think of mathematics as done in type theory with the 'propositions as types' paradigm, then there is no literal difference between 'such that there exists' and 'equipped with'.  At best, you can distinguish these as locutions for describing what the notion of equality is (or what the morphisms are) between the things being described (in which case 'equipped with' is what you usually want), but in definitions one ought to be explicit about that too.
-
-I would normally say 'equipped with' (or just 'with'), and I think that you, Zoran, should feel free to change 'such that there exists' to 'equipped with' when you find it appropriate.  But I also think that mathematicians should learn to read 'such that there exists' to mean 'equipped with' unless it\'s explicitly stated that one is using a more loose notion of equality (or morphism).
-
-[[Mike Shulman|Mike]]: Perhaps unsurprisingly, I disagree.  In all the working mathematics I have ever seen, types and propositions are not the same.  The set of all $X$s is not the same as the property of existence of $X$s; the latter is the [[image]] of the former.  It's fine and fun to view your types as propositions and propositions as types and there are real insights to be gained in that way, but I think that when applied to ordinary mathematics, one should use a type theory in which propositions (aka (-1)-types) are distinguished from types (aka 0-types).
-=--
 
 Representability is one of the most fundamental concepts of category theory, with close ties to the notion of [[adjoint functor]] and to the [[Yoneda lemma]]. It is the crucial concept underlying the idea of [[universal property]]; thus for example crucial concepts such as "[[limit]]", "[[colimit]]", "[[exponential object]]", "[[Kan extension]]" and so on are naturally expressed in terms of representing objects. The concept permeates much of algebraic geometry and algebraic topology. 
 
@@ -119,3 +87,42 @@ $$G\Bund: Ho_{Top}^{op} \to Set.$$
 A **[[classifying space]]** $\mathcal{B}G$ is precisely a representing object for this functor; the universal element is the (isomorphism class of the) classifying $G$-bundle $[\pi: \mathcal{E}G \to \mathcal{B}G]$.
 
 These general considerations are quite commonplace in algebraic topology, where they crop up for example in the connection between generalized cohomology theories and spectra; cf. Brown's representability theorem. 
+
+
+
+***
+
+#Discussion#
+
++--{+ .query}
+I am pretty unhappy that all entries related to limits, colimits and representable things at nlab say that the limit, colimit and representing functors are what normally in strict treatment are just the vertices of the corresponding universal construction. A representable functor is not a functor which is naturally 
+isomorphic to Hom(-,c) but a *pair* of 
+an object and such isomorphism! Similarly limit is the synonym for *limiting cone* (= universal cone), not just its vertex. Because if it were most of usages and theorems would not be true. For example, the notion and usage of creating limits under a functor, includes the words about the behaviour of the arrow under the functor, not only of the vertex. Definitions should be the collections of the data and one has to distinguish if the existence is really existence or in fact a **part of the structure**.--Zoran
+
+[[Mike Shulman|Mike]]: I disagree (partly).  First of all, a functor $F$ *equipped with* an isomorphism $F\cong hom_C(-,c)$ is not a represent<b>able</b> functor, it is a represent<b>ed</b> functor, or a functor equipped with a representation.  A representable functor is one that is "able" to be represented, or _admits_ a representation.
+
+Second, the page [[limit]] says "a limit of a diagram $F : D \to C$ ... is an object $lim F$ of $C$ _equipped with_ morphisms to the objects $F(d)$ for all $d \in D$..." (emphasis added).  It doesn't say "such that there exist" morphisms.  (Prior to today, it defined a limit to be a universal cone.)  It is true that one frequently speaks of "the limit" as being the vertex, but this is an abuse of language no worse than other abuses that are common and convenient throughout mathematics (e.g. "let $G$ be a group" rather than "let $(G,\cdot,e)$ be a group").  If there are any _definitions_ you find that are wrong (e.g. that say "such that there exists" rather than "equipped with"), please correct them!  (Thanks to your post, I just discovered that [[Kan extension]] was wrong, and corrected it.)
+
+[[Zoran Skoda]] I fully agree, Mike that "equipped with" is just a synonym of a "pair". But look at entry for limit for example, and it is clear there that the limiting cone/universal cone and limit are clearly distinguished there and the term limit is used just for the vertex there. Unlike for limits where up to economy nobody doubt that it is a pair, you are right that many including the very MacLane representable take as existence, but then they really use term "representation" for the whole pair. Practical mathematicians are either sloppy in writing or really mean a pair for representable. Australians and MacLane use indeed word representation for the whole thing, but practical mathematicians (example: algebraic geometers) are not even aware of term "representation" in that sense, and I would side with them. Let us leave as it is for representable, but I do not believe I will ever use term "representation" in such a sense. For limit, colimit let us talk about pairs: I am perfectly happy with word "equipped" as you suggest. 
+
+[[Mike Shulman|Mike]]: I'm not sure what your point is about [[limit]]s.  The definition at the beginning very clearly uses the words "equipped with."  Later on in the page, the word "limit" is used to refer to the vertex, but this is just the common abuse of language.
+
+Regarding representable functors, since representations are unique up to unique isomorphism when they exist, it really doesn't matter whether "representable functor" means "functor such that there exists an isomorphism $F\cong hom_C(-,c)$" or "functor equipped with an isomorphism $F\cong hom_C(-,c)$."  (As long as it doesn't mean something stupid like "functor equipped with an object $c$ such that there exists an isomorphism $F\cong hom_C(-,c)$.")  In the language of [[stuff, structure, property]], we can say that the [[Yoneda embedding]] is [[full and faithful functor|fully faithful]], so that "being representable" is really a property, rather than structure, on a functor.
+
+[[Zoran Skoda]] For limit look at the section Unwrapping. This section clearly distiguishes between the limiting cone and the limit. It says roughly if we have a limit then we can define a special cone, and then it is called limiting cone. So it strongly suggests that the limiting cone is something different from a limit, but in fact they are synonyms, except that it is common to abuse the language and say a limit for the vertex only: however one does not do that abuse when introducing the notion. Then one has to be clear that it is the same thing.
+Even it uses a terminology "universal limiting cone" what is double notation as limiting cone and universal cone and universal initial cone and initial cone and limit are equivalent terms. One allows "universal initial" because sometimes one says "universal terminal".
+
+For representable I agreed, though I will of course continue using it with the structure whenever needed. 
+
+[[Mike Shulman|Mike]]: Actually, that page has not defined limits using cones, but using an isomorphism of hom-sets.  This is, of course, equivalent, but the section "Unwrapping" is about that equivalence.  So when it says "if the limit $lim F\in C$ of $F$ exists, then it singles out a special cone" it means that given an object $lim F$ _equipped with_ an isomorphism $Hom(c,lim F)\cong Hom(pt,Hom(c,F-))$ natural in $c$, there exists a particular cone and so on.  On the next line it defines that cone, using the isomorphism with which $\lim F$ is equipped.
+
+That is, a limit is an object equipped with data which makes it a limit.  That data might be a limiting cone, or it might be a certain natural isomorphism; it doesn't matter since either can be constructed from the other.
+
+I don't think anyone would argue, though, that that page is a work in progress.  It's certainly not all that clear which parts are the definitions, which parts are alternate definitions, and which parts are theorems.
+
+_Toby_:  Hum ...  If you think of mathematics as done in type theory with the 'propositions as types' paradigm, then there is no literal difference between 'such that there exists' and 'equipped with'.  At best, you can distinguish these as locutions for describing what the notion of equality is (or what the morphisms are) between the things being described (in which case 'equipped with' is what you usually want), but in definitions one ought to be explicit about that too.
+
+I would normally say 'equipped with' (or just 'with'), and I think that you, Zoran, should feel free to change 'such that there exists' to 'equipped with' when you find it appropriate.  But I also think that mathematicians should learn to read 'such that there exists' to mean 'equipped with' unless it\'s explicitly stated that one is using a more loose notion of equality (or morphism).
+
+[[Mike Shulman|Mike]]: Perhaps unsurprisingly, I disagree.  In all the working mathematics I have ever seen, types and propositions are not the same.  The set of all $X$s is not the same as the property of existence of $X$s; the latter is the [[image]] of the former.  It's fine and fun to view your types as propositions and propositions as types and there are real insights to be gained in that way, but I think that when applied to ordinary mathematics, one should use a type theory in which propositions (aka (-1)-types) are distinguished from types (aka 0-types).
+=--
