@@ -1,4 +1,4 @@
-Minimal logic, introduced by I. Johansson in 1936, is [[intuitionistic logic]] without the _ex falso quodlibet_ rule $\bot \vdash A$.  It may also be defined by starting with Gentzen\'s [[sequent calculus]] for classical logic and restricting to sequents $\Gamma\vdash\Delta$ where $\Delta$ must contain _exactly one_ formula.
+Minimal logic, introduced by I. Johansson in 1936, is [[intuitionistic logic]] without the _ex falso quodlibet_ rule $\bot \vdash A$.  It may also be defined by starting with Gentzen\'s [[sequent calculus]] for classical logic (with $\neg$ but not $\bot$) and restricting to sequents $\Gamma \vdash \Delta$ where $\Delta$ must contain *exactly one* formula.
 
 Because it is not the case here that
 anything follows from a contradiction, minimal logic is a
@@ -66,4 +66,6 @@ As for $\Gamma,\bot\vdash\Delta$ as an axiom, that just isn't included in minima
 _Toby_:  Well, I can\'t accept that minimal logic is really about exactly one item on the right while intuitionistic logic is really about at most one item on the right, not if you have to ignore $\bot$ to make that work.  But I think that I now have a better understanding of how intuitionistic logic is (in one sense) really about having one item on the right (and using additive rules).
 
 _Finn_:  Maybe a better way to think of this -- and I'm probably not explaining things very well -- is to say that $\bot$ and an empty RHS are really the same thing (just like $\top$ and an empty context), so that leaving the _ex falso quodlibet_ schema out of minimal logic is (morally) the same as forbidding right weakening.  Does that help?  I still often get confused by sequent calculus; as the case of linear logic shows, it's a surprisingly subtle formalism.
+
+_Toby_:  I don\'t think that they\'re morally equivalent at all; the difference between these is exactly the difference between structural and logical changes.  You might as well say that $\vee$ is the same as a multiple RHS so that intuitionistic logic shouldn\'t have it (or at least shouldn\'t have the left-hand rule for it), but that\'s clearly not correct.
 =--
