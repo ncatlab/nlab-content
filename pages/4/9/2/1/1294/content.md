@@ -14,7 +14,7 @@ In fact, one usually turns this around and _defines_ the free $C'$-structure on 
 
 For instance
 
-* forgetful right adjoint $R:$ [[Grp]] $\to$ [[Set]] forgets the group structure on a group and just rememebers the underlying set -- the left adjoint  $L : Set \to Grp$ sends each set to the [free group](http://en.wikipedia.org/wiki/Free_group) over it.
+* forgetful right adjoint $R:$ [[Grp]] $\to$ [[Set]] forgets the group structure on a group and just remembers the underlying set -- the left adjoint  $L : Set \to Grp$ sends each set to the [free group](http://en.wikipedia.org/wiki/Free_group) over it.
 
 #Nerves and realization#
 
