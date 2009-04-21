@@ -8,6 +8,8 @@ The axioms of a _semi-abelian_ category are supposed to capture the properties o
 [[Zoran Skoda]]: I want to know the answer as well. It might be something in the self-dual axioms. For unital rings artinian implies noetherian but not other way around; though the definitions of the two notions are dual.
 
 _Toby_:  The category of unital rings and unitary ring homomorphisms has no zero object.
+
+[[Mike Shulman|Mike]]: Ah, right.  Is it protomodular?  I think I will understand this definition better from some non-examples that violate each clause individually.
 =--
 
 
