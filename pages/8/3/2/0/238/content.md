@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-21 #
 
+*  [[Toby Bartels]]:
+   *  A request at [[fibered n category]].
+   *  There\'s an obvious typo at [[Gabriel multiplication]], but I don\'t know which way to fix it.
+
 * [[Urs Schreiber|Urs]]: 
 
   * have two questions on examples at [[semi-abelian category]]
