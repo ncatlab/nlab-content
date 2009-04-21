@@ -38,13 +38,15 @@ The Yoneda lemma states that the functor $Y$ has good properties which make this
 
 #The Yoneda Lemma#
 
-Let $C$ be a [[locally small category]], $[C^{op}, Set]$ the category of [[presheaf|presheaves]] on $C$, then
+Let $C$ be a [[locally small category]], $[C^{op}, Set]$ the category of [[presheaf|presheaves]] on $C$, then for all $c \in C$ there is a canonical [[isomorphism]]
 
 $$
   [C^op,Set](C(-,c),X) \simeq X(c)
+  \,.
 $$
 
-naturally for all $c \in C$.
+This is _natural_ in $c$ and $X$, i.e. there is in fact an [[isomorphism]] in the [[functor category]] $[C^{op} \times [C^{op},Set],Set]$ between the left and the right side.
+
 
 ## Proof ##
 
