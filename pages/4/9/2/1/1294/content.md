@@ -8,7 +8,7 @@ For examples of the other [[universal construction]]s see
 
 #Free/forgetful functors#
 
-The classical examples of pairs of [[adjoint functor]]s are $L \dashv R$ where the right adjoint $R : C' \to C$ [[stuff, structure, property|forgets structure]] in that it is a [[faithful functor]]. In these case the left adjoint $L : C \to C'$ usually is the functor that "adds structure freely". 
+The classical examples of pairs of [[adjoint functor]]s are $L \dashv R$ where the right adjoint $R : C' \to C$ [[stuff, structure, property|forgets structure]] in that it is a [[faithful functor]]. In these case the left adjoint $L : C \to C'$ usually is the [[free functor]] that "adds structure freely". 
 
 In fact, one usually turns this around and _defines_ the free $C'$-structure on an object $c$ of $C$ as the image of that object under the left adjoint (if it exsists) to the functor $R : C' \to C$ that forgets this structure.
 
