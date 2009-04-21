@@ -338,25 +338,9 @@ In the diagram above, on the top left we have a generic $G$-equivariant vector b
 
 On the bottom right, we have a generic representation of $H$ on a vector space $V$.  The morphisms of $Rep(H)$ are intertwiners, so we are interested in intertwiners such as $i:V\to \pi_1^{-1}(x)$.  The functor $L$, the induced bundle construction, maps a generic representation of $H$ to a $G$-equivariant vector bundle $(G\times V)/H$, shown on the bottom left.  This bundle has a projection $\pi_2: (G\times V)/H \to G/H$, $\pi_2([(g,v)])=g H$.  Since $M \cong G/H$, this bundle is in $Vect(M,G)$.  And we are interested in the morphisms of $Vect(M,G)$, such as $(f,m)$ where $f:L(V)\to F$ and $m:G/H\to M$.
 
-We wish to show that $L$ and $R$ are adjoint functors, but before proceeding with the details of this we will introduce some supplementary structures.
+We will impose a restriction to a _subcategory_ of $Vect(M,G)$ consisting _only_ of morphisms that preserve the point $x\in M$.  When we deal with bundles over $G/H \cong M$, we will use the obvious bijection $g H \to g\cdot x$, and accordingly restrict ourselves to vector bundle morphisms that map $x$ to the coset $e H$ or _vice versa_.
 
 We are assuming that $G$ acts transitively on $M$, so given any $y\in M$ there exists at least one element of $G$, say $k(y)$, such that $k(y)\cdot x = y$.  We will now assume that some definite function $k:M\to G$ has been chosen with this property, and for convenience we will further assume that $k(x)=e$, the identity element in $G$.  The group element $k(y)$ gives us a specific way to use the action of $G$ on $M$ to get from our chosen point $x$ to some other point $y$ --- and equally, to use the action of $G$ on the whole bundle $F$ to get from the fiber over $x$ to the fiber over $y$.
-
-The choice of $k$ allows us to define representations of $H$ on every fiber $\pi_1^{-1}(y)$ of $F$; for every $y\in M, h\in H, w\in \pi_1^{-1}(y)$:
-
-$$\rho_y(h,w)=(k(y) h k(y)^{-1})\cdot w$$
-
-In other words, we use $k(y)^{-1}$ to map the fiber over $y$ to the fiber over $x$, we act with the element $h\in H$ which preserves the fiber over $x$, then we use $k(y)$ to map the result back to the fiber over $y$.
-
-Along with these representations $\rho_y$ we have intertwiners $i_{y,z}:\pi_1^{-1}(y)\to \pi_1^{-1}(z)$:
-
-$$i_{y,z}(w)=(k(z) k(y)^{-1})\cdot w$$
-
-which satisfy the condition:
-
-$$i_{y,z}(\rho_y(h,w)) = (k(z) h k(y)^{-1})\cdot w = \rho_z(h,i_{y,z}(w))$$
-
-Of course these intertwiners are isomorphisms, because the representations on all the fibers are equivalent.
 
 Now, to show that $L$ and $R$ are adjoint functors, we need to construct a bijection between the intertwiners $i:V\to \pi_1^{-1}(x)$ and the $G$-equivariant vector bundle morphisms $(f,m)$, where $f:L(V)\to F$ and $m:G/H\to M$.
 
@@ -366,7 +350,7 @@ $$m(g H)=g\cdot x$$
 
 which is independent of $i$, and is just the obvious bijection between $G/H$ and $M$.  Next, we define $f:L(V)\to F$ by:
 
-$$ f([(g,v)]) = g\cdot i(v)$$
+$$f([(g,v)]) = g\cdot i(v)$$
 
 In other words, given the equivalence class $[(g,v)]$ we use the intertwiner $i$ to take $v\in V$ to $\pi_1^{-1}(x)$, and then the action of $G$ on $F$ to take the result to the fiber $\pi_1^{-1}(g\cdot x)$.  This satisfies the compatibility condition on the projections:
 
@@ -376,20 +360,17 @@ We also need to check that $f$ commutes with the actions of $G$ on the respectiv
 
 $$f(g_1\cdot [(g,v)]) = f([(g_1 g,v)]) = (g_1 g)\cdot i(v) = g_1\cdot f([(g,v)])$$
 
-Next, given a $G$-equivariant vector bundle morphism $(f,m)$, where $f:L(V)\to F$ and $m:G/H\to M$, we define an intertwiner $i:V\to \pi_1^{-1}(x)$ by:
+Next, given a $G$-equivariant vector bundle morphism $(f,m)$, where $f:L(V)\to F$ and $m:G/H\to M$ with $m(e H)=x$, we define an intertwiner $i:V\to \pi_1^{-1}(x)$ by:
 
-$$i(v)=f([(g_x,v)])$$
+$$i(v)=f([(e,v)])$$
 
-where $g_x$ is any element of $G$ that satisfies $m(g_x H)=x$, i.e. any element of the coset $m^{-1}(x)$.
-We know $i$ will map to $\pi_1^{-1}(x)$ because $f$ must map $[(g_x,v)]$ to the fiber over $m(\pi_2([(g_x,v)]))=m(g_x H)$.
+We know $i$ will map to $\pi_1^{-1}(x)$ because $f$ must map $[(e,v)]$ to a point in the fiber over $m(\pi_2([(e,v)]))=m(e H)=x$.
 
-However, this is <i>not</i> an intertwiner for the representations of $H$ on the respective vector spaces:
+We check that this is an intertwiner for the representations of $H$ on the respective vector spaces:
 
-$$i(s(h)v)=f([(g_x,s(h)v)])=f([(g_x h,v)])=f(g_x\cdot [(h,v)])=g_x\cdot f([(h,v)])\ne h\cdot i(v)$$
+$$i(s(h)v)=f([(e,s(h)v)])=f([(h,v)])=f(h\cdot[(e,v)])=h\cdot i(v)$$
 
-So the obvious construction doesn't work ...
-
-We can demonstrate a bijection between intertwiners and $G$-equivariant vector bundle morphisms in the other direction:  intertwiners $i^*:\pi_1^{-1}(x)\to V$ and vector bundle morphisms $(f^*,m^*)$, where $f^*:F\to L(V)$ and $m^*:M\to G/H$.
+We can also demonstrate a bijection between intertwiners and $G$-equivariant vector bundle morphisms in the other direction:  intertwiners $i^*:\pi_1^{-1}(x)\to V$ and vector bundle morphisms $(f^*,m^*)$, where $f^*:F\to L(V)$ and $m^*:M\to G/H$.
 
 Given an intertwiner $i^*:\pi_1^{-1}(x)\to V$, we define $m^*:M\to G/H$ as:
 
@@ -397,7 +378,7 @@ $$m^*(y) = k(y) H$$
 
 We define the map $f^* : F \to L(V)$ by:
 
-$$f^*(w) = [(k(\pi_1(w)), i(k(\pi_1(w))^{-1}\cdot w) )]$$
+$$f^*(w) = [(k(\pi_1(w)), i^*(k(\pi_1(w))^{-1}\cdot w) )]$$
 
 for each $w\in F$.  Because $k(\pi_1(w))\cdot x = \pi_1(w)$, $k(\pi_1(w))^{-1}$ will map the entire fiber to which $w$ belongs to $\pi_1^{-1}(x)$, the domain of the intertwiner $i^*$.  And we have:
 
@@ -407,12 +388,28 @@ The map $f^*$ is a linear map between the fibers $\pi_1^{-1}(y)$ and $\pi_2^{-1}
 
 In order to be a morphism in the category of $G$-equivariant vector bundles, $f^*$ should also commute with the action of $G$.  We have:
 
-$$f^*(g\cdot w) = [(k(\pi_1(g\cdot w)), i(k(\pi_1(g\cdot w))^{-1} g\cdot w) )] = [(k(g\cdot \pi_1(w)), i(k(g\cdot \pi_1(w))^{-1} g\cdot w) )]$$
+$$f^*(g\cdot w) = [(k(\pi_1(g\cdot w)), i^*(k(\pi_1(g\cdot w))^{-1} g\cdot w) )] = [(k(g\cdot \pi_1(w)), i^*(k(g\cdot \pi_1(w))^{-1} g\cdot w) )]$$
 
 Let's abbreviate $\pi_1(w)$ as $y$ and define $h=k(g\cdot y)^{-1} g k(y)$, which takes $x$ to $x$ and so must lie in $H$.  Then we have:
 
-$$f^*(g\cdot w) = [(k(g\cdot y), i(h k(y)^{-1}\cdot w) )] = [(k(g\cdot y), s(h) i(k(y)^{-1}\cdot w) )] = [(k(g\cdot y) h, i(k(y)^{-1}\cdot w) )]$$
-$$ = [(g k(y) , i(k(y)^{-1}\cdot w) )] = g\cdot [(k(y) , i(k(y)^{-1}\cdot w) )] = g\cdot f^*(w)$$
+$$f^*(g\cdot w) = [(k(g\cdot y), i^*(h k(y)^{-1}\cdot w) )] = [(k(g\cdot y), s(h) i^*(k(y)^{-1}\cdot w) )] = [(k(g\cdot y) h, i^*(k(y)^{-1}\cdot w) )]$$
+$$ = [(g k(y) , i^*(k(y)^{-1}\cdot w) )] = g\cdot [(k(y) , i^*(k(y)^{-1}\cdot w) )] = g\cdot f^*(w)$$
+
+Suppose we're given a $G$-invariant vector bundle morphism $(f^*,m^*)$, where $f^*:F\to L(V)$ and $m^*:M\to G/H$, with $m^*(x)=e H$.
+
+We make use of the linear bijection $\phi_e:V\to E_{e H}$, defined by $\phi_e(v)=[(e,v)]$.  We introduced these linear bijections $\phi_g$ when initially describing the induced bundle construction. We define $i^*:\pi_1^{-1}(x)\to V$ by:
+
+$$i^*(w) = \phi_e^{-1}(f^*(w))$$
+
+We check that this is an intertwiner between the relevant representations of $H$:
+
+$$i^*(h\cdot w) = \phi_e^{-1}(f^*(h\cdot w))= \phi_e^{-1}(h\cdot f^*(w))$$
+
+Suppose $f^*(w)=[(e,v)]$ for some $v\in V$.  Then $i^*(w) = v$, and :
+
+$$h\cdot f^*(w) = [(h,v)] = [(e,s(h)v)]$$
+
+$$i^*(h\cdot w) = \phi_e^{-1}([(e,s(h)v)]) = s(h)v = s(h) i^*(w)$$
 
 #Related issues#
 
