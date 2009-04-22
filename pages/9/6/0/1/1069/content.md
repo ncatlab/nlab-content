@@ -4,7 +4,7 @@ A **differential object** in a [[category with translation]] $T : C \to C$ is an
 
 # Remarks #
 
-* This says that a differential object is a [[coalgebra]] for the endofunctro $T$.
+* This says that a differential object is a [[coalgebra]] for the endofunctor $T$.
 
 #Further constructions#
 
