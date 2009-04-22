@@ -9,10 +9,11 @@ given by $k\mapsto k/(n+1)\,\mathrm{mod}\,\mathbf{Z}$ on the level of objects, t
 [[Mike Shulman|Mike]]: What does it mean for a functor to be "of degree 1?"  I assume that your parenthetical is meant to explain this, but to me it is not obvious.
 
 [[Zoran Skoda]]: By degree I mean the degree of a map in the sense of homotopy theory -- the class of circle to circle map, either at the level of nerves or looking at the subset of circle. 
+
+[[Mike Shulman|Mike]]: It's not immediately obvious to me that the nerve of your category $[n]_\Lambda$ is homotopically a sphere or something else for which the notion of 'degree' makes sense.  What does "looking at the subset of circle" mean?  I would prefer if we give a more explicit combinatorial description of $\Lambda$ as its definition, although we could also include this version later on the page.
 =--
 
-The [[simplex category]] $\Delta$ is a subcategory of $\Lambda$, with the same morphisms but with less objects.
-Thus we can identify externally $[n]$ and $[n]_\Lambda$.
+The [[simplex category]] $\Delta$ can be identified with a subcategory of $\Lambda$, having the same objects but with fewer morphisms.  This identification does not respect the inclusions into $Cat$, however, since $[n]$ and $[n]_\Lambda$ are different categories.
 
 Theorem. 
  (i) $\Aut_\Lambda([n]) = \mathbf{Z}/(n+1)\mathbf{Z}$
@@ -33,7 +34,7 @@ $$\array{
 \tau_m\sigma_0 = \sigma_n\tau_{n+1}^2
 }$$
 
-[[cyclic object|Cyclic objects]] in a category $C$ are the contravariant functors $\Lambda^{\mathrm{op}}\to C$, [[cocyclic object]]s are the covariant functors $\Lambda\to C$. This standard terminology is repeating the usual confusion from simplicial categories, because $\Lambda$ itself is, via $\mathrm{id}_\Lambda$, an example of a cocyclic category; hence one should maybe say the [[category of cycles]], what is not customary for $\Lambda$.
+[[cyclic object|Cyclic objects]] in a category $C$ are the contravariant functors $\Lambda^{\mathrm{op}}\to C$, [[cocyclic object]]s are the covariant functors $\Lambda\to C$.  Note that $\Lambda$ itself is, via its inclusion into $Cat$, an example of a cocyclic category.  (Thus, the common term "the cyclic category" to refer to $\Lambda$ is misleading, just like using "the [[simplicial category]]" to refer to the [[simplex category]] $\Delta$.)
 
 +--{.query}
 We might also call it the [[cycle category]] in analogy with [[simplex category]], [[cube category]], and [[globe category]] that we\'ve already got here.  If that\'s a good system.  ---Toby
@@ -49,7 +50,11 @@ Regarding translation, I would be inclined to just regard that as something that
 
 [[Zoran Skoda]]: Look, one can translate a phrase, but not just a stack of nouns. Stack of nouns either stays stack of nouns (what is very awkward nowdays, with young people using lots of stacks of nouns literally from English semi-translated to languages which do not do massive bahuvrihi compounds) or need to be expanded/described. But how to expand cycle category then to category of cycles. Hence I have no problem to translate cycle category to Croatian, but then it will coincide in Croatian with category of cycles. Or I can make unnatural compounds with hyphen ciklus-kategorija, what sounds like water-fruit for juicy fruit or for fruit with juice. What do you, mathematics-man think of this word-compound tongue-thing ? And beware that the cost (unusualness) in many languages of such compounds is orders of magnitude more unusual than in English. Or give me another descriptive expansion (if category of cycles already used/not accepted!).
 
-By the way, I hear around certain students of Kan talking "the category of simplices" for $\Delta$. I see no problem with the fact that there are more general "categories of simplices" in specialistic usage (non-specialists use them very little and specialists will anyway say simplices where...$\Delta$ is used by everybody, not only homotopy theorists or simplicial experts, the latetr comma category is a rather specialists' thing).
+By the way, I hear around certain students of Kan talking "the category of simplices" for $\Delta$. I see no problem with the fact that there are more general "categories of simplices" in specialistic usage (non-specialists use them very little and specialists will anyway say simplices where...$\Delta$ is used by everybody, not only homotopy theorists or simplicial experts, the latter comma category is a rather specialists' thing).
+
+[[Mike Shulman|Mike]]: You appear to be trying to ridicule me for exactly I was saying one _shouldn't_ do.  Of course, when you translate "cycle category" to Croatian it will come out the same as "category of cycles."  When written in language X, mathematics should be written in language X, not simply obtained from language Y by replacing things word-for-word; this is just as true when X=English and Y=Croatian as when X=Croatian and Y=English.  In particular, a noun together with some noun adjuncts _is_ a phrase in English, not just a "stack of nouns," and should be translated to result in a grammatical phrase in whatever other language one is translating to.  Don't blame me because _some_ people translate things from English incorrectly.
+
+I don't have a problem with people saying "category of simplices" for $\Delta$, but I prefer to say "simplex category" myself as it is slightly more precise.
 =--
 
 Blog [discussion](http://golem.ph.utexas.edu/category/2007/06/the_curious_incident_of_the_do.html) 
