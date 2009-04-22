@@ -6,4 +6,6 @@ For a more in-depth discussion see [[subcanonical coverage]].
 [[Mike Shulman|Mike]]: Does this page deserve to coexist with [[subcanonical coverage]] or should it redirect?
 
 [[Zoran Skoda]: I did not see the other page. I looked for subcanonical topology, subcanonical site and did not find anything. Coverage is far less standard term which will be hence overlooked by a casual and external user of nlab and human google seeker for wiki pages. As you see I did not find it. Now I put the link, let it be the way it is: for example [[subcanonical coverage]] does not have the term subcanonical site explained so the search does not find that term.  
+
+_Toby_:  In principle this could exist separately, since [[coverage]] and [[Grothendieck pretopology]] are not defined the same way, but in practice I would redirect unless something is written that really makes use of the description as a pretopology rather than as a coverage.
 =--
