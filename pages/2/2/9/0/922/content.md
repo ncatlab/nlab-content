@@ -43,7 +43,9 @@ An advantage of the Homological Perturbation Lemma (HPL) is that it is an explic
 
 For me, an insight of the HPL was the explicit use of the _homotopies_ in  a deformation retract situation to lead to new results. This has been developed to calculate resolutions of groups, where one is constructing inductively a universal cover of a $K(G,1)$ with its contracting homotopy. 
 
-So let us continue to have various individually "unbalanced" points of view explained in this  wiki, to let the readers be informed, and decide.                                   
+So let us continue to have various individually "unbalanced" points of view explained in this  wiki, to let the readers be informed, and decide.
+
+_Toby_:  Knowing basically nothing about this, I prefer to see various people explain their own perspectives.  Even if they don\'t try to take the work to integrate them.
 =--
 
 #References# 
