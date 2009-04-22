@@ -32,6 +32,8 @@ to a sub-2-category of such. So really starting with strict 2-categories viewed 
 [[Mike Shulman|Mike]]: I am skeptical that the pseudo- is in the weakest 3-categorical sense; what reference are you looking at?
 
 I wasn't really serious about "strictly fibered strict $n$-category;" I think [[fibered strict n-category]] would be fine.
+
+[[Zoran Skoda]]: In my memory, Igor checked that the Gordon-Power-Street style of a weak 3 functor when the codomain is 2Cat as a strict 3 category, and domain is a strict 2-category in the case of invertible coherences corresponds to what is the input for Grothendieck construction for Hermida case. I did not check his calculation (whose outcome was partly even typed). We did not check if the Grothendieck construction gives an equivalence of 2- or 3- categories of such objects; it would be more work. 
 =--
 
 category: redirect
