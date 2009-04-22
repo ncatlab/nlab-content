@@ -49,6 +49,6 @@ He is a blogger at [Secret Blogging Seminar](http://sbseminar.wordpress.com/).
 ###Social choice theory###
 [Why Arrow's theorem is a scam](http://sbseminar.wordpress.com/2008/02/17/why-arrows-theorem-is-a-scam/)
 
-[Stable marriages]
-(http://sbseminar.wordpress.com/2008/01/21/stable-marriages/)
+[Stable marriages](http://sbseminar.wordpress.com/2008/01/21/stable-marriages/)
 
+category: people
