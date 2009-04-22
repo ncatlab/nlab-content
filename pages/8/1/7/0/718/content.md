@@ -29,4 +29,8 @@ Read the following quote from
 
 Incidentally, category theory also inspired me to invent a way of <a href="http://www.j-paine.org/#safe_spreadsheets_fast_with_excelsior">building spreadsheets from modules</a>, and of <a href="http://www.spreadsheet-parts.org/">storing these modules on the Web</a> for anyone to download into their own spreadsheets.
 
++--{: .query}
+Note the Markdown method for block-level code (which cannot produce a blank line at the beginning or end of the block), now also at the [[Sandbox]].  ---[[Toby Bartels]]
+=--
+
 category: people
