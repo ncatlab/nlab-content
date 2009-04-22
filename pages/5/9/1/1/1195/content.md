@@ -80,4 +80,10 @@ Even assuming that we write LK additively, there are still some variations possi
 If one does so and then restricts to sequents with exactly one formula on the right, then one gets intuitionistic logic, not minimal logic.  And if such a restriction leads one to remove the axioms for $\bot$ in a shadowing manner, then it also ought to lead one to remove $\vee$, which will not get one the right result either.  So while you\'ve convinced me that seeing intuitionistic logic as a *structural* weakening of classical logic really is an important way to look at it (and not just an artefact of some specific representation), I\'m far from convinced about minimal logic.
 
 Incidentally, here\'s another way that I\'ve thought of that you can see the relationships between these logics.  If you start with LK (including $\top$ and $\bot$) and then remove $\neg$, then you get intuitionistic logic.  (If you then go on to remove $\bot$, then you get the version of minimial logic without negation.)  This view still pleases me more, but I\'ll try to like the structural view too.  (^_^)
+
+_Finn_:  You make some good points here, and I should admit that I still haven't grokked the logical/structural distinction in fullness, especially in the case of $\bot$ and $\vee$ in LJ.  As I said, in my sort of work the structural side of things comes through more strongly, but I'm not trying to convert anyone (and I hope it didn't come across that way).  I suppose whatever way you look at this hierarchy of logics, there are some pleasing patterns to be found, even if they're not as straightforward as we might like!
+
+You've certainly given me food for thought.  I'll ponder this for a bit and maybe try to distil some of the above wisdom into the sequent calculus entry.
+
+(By the way, Gentzen's original paper (auf Deutsch) is available on the Springer-Verlag website, linked to at [[sequent calculus]].  If you don't have Szabo's translation handy it's worth a look, even if your German is as bad as mine :).
 =--
