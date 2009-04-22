@@ -11,6 +11,10 @@ So, if you feel people's attention should be drawn to some changes you make, ple
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).
 
 ***
+# 2009-04-22 #
+
+* [[Mike Shulman|Mike]]: Created [[cyclic order]] in order to propose a clean definition of the [[Connes' cyclic category|cycle category]].
+
 # 2009-04-21 #
 
 * [[Zoran Škoda]]: [[quasicompact]]
