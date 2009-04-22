@@ -12,7 +12,9 @@ given by $k\mapsto k/(n+1)\,\mathrm{mod}\,\mathbf{Z}$ on the level of objects, t
 
 [[Mike Shulman|Mike]]: It's not immediately obvious to me that the nerve of your category $[n]_\Lambda$ is homotopically a sphere or something else for which the notion of 'degree' makes sense.  What does "looking at the subset of circle" mean?  I would prefer if we give a more explicit combinatorial description of $\Lambda$ as its definition, although we could also include this version later on the page.
 
-[[Zoran Skoda]]: As I wrote above, $k\mapsto k/(n+1)\,\mathrm{mod}\,\mathbf{Z}$, is THE formula for embedding $[n]_{\Lambda}$ into the circle.  On the other hand, the nerve the free category on the graph $0\to 1\to ..\to n\to 0$ is homotopically the circle, isn't it? I think the definition is cleaner than the explanation below via generators and relations. 
+[[Zoran Skoda]]: As I wrote above, $k\mapsto k/(n+1)\,\mathrm{mod}\,\mathbf{Z}$, is THE formula for embedding $[n]_{\Lambda}$ into the circle.  On the other hand, the nerve the free category on the graph $0\to 1\to ..\to n\to 0$ is homotopically the circle, isn't it? I think the definition is cleaner than the explanation below via generators and relations.
+
+[[Mike Shulman|Mike]]: What about "$\Lambda$ is the category of finite nonempty [[cyclic order|cyclically ordered]] sets?"  I think that gets across the intended intuition better than either, and is cleaner than either modulo a definition of "cyclic order."
 =--
 
 The [[simplex category]] $\Delta$ can be identified with a subcategory of $\Lambda$, having the same objects but with fewer morphisms.  This identification does not respect the inclusions into $Cat$, however, since $[n]$ and $[n]_\Lambda$ are different categories.
@@ -57,6 +59,8 @@ By the way, I hear around certain students of Kan talking "the category of simpl
 [[Mike Shulman|Mike]]: You appear to be trying to ridicule me for exactly I was saying one _shouldn't_ do.  Of course, when you translate "cycle category" to Croatian it will come out the same as "category of cycles."  When written in language X, mathematics should be written in language X, not simply obtained from language Y by replacing things word-for-word; this is just as true when X=English and Y=Croatian as when X=Croatian and Y=English.  In particular, a noun together with some noun adjuncts _is_ a phrase in English, not just a "stack of nouns," and should be translated to result in a grammatical phrase in whatever other language one is translating to.  Don't blame me because _some_ people translate things from English incorrectly.
 
 I don't have a problem with people saying "category of simplices" for $\Delta$, but I prefer to say "simplex category" myself as it is slightly more precise.
+
+[[Mike Shulman|Mike]]: You do, however, have a good point that when writing in English we should not try to distinguish in _meaning_ between "cycle category" and "category of cycles," since when translating into many other languages they will become the same.  I would still prefer that we name the page "cycle category" here on the nLab, since it accords better with our existing terminology for similar categories, but I think you should feel free to use "category of cycles."
 =--
 
 The cyclic category is a [[generalized Reedy category]], as explained [here](http://arxiv.org/abs/0809.3341).
