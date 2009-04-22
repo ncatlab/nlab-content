@@ -86,4 +86,6 @@ _Finn_:  You make some good points here, and I should admit that I still haven't
 You've certainly given me food for thought.  I'll ponder this for a bit and maybe try to distil some of the above wisdom into the sequent calculus entry.
 
 (By the way, Gentzen's original paper (auf Deutsch) is available on the Springer-Verlag website, linked to at [[sequent calculus]].  If you don't have Szabo's translation handy it's worth a look, even if your German is as bad as mine :).
+
+_Toby_:  Actually, I think that you *should* try to convert me, if you can, to the view that a structural variation is a good way to view intuitionistic logic (as you pretty much have) or minimal logic (which you haven\'t done yet).  Not to the view that other ways are bad or even that the structural way is best; but the more that I understand certain points of view, well, the more that I understand!
 =--
