@@ -15,6 +15,8 @@ given by $k\mapsto k/(n+1)\,\mathrm{mod}\,\mathbf{Z}$ on the level of objects, t
 [[Zoran Skoda]]: As I wrote above, $k\mapsto k/(n+1)\,\mathrm{mod}\,\mathbf{Z}$, is THE formula for embedding $[n]_{\Lambda}$ into the circle.  On the other hand, the nerve the free category on the graph $0\to 1\to ..\to n\to 0$ is homotopically the circle, isn't it? I think the definition is cleaner than the explanation below via generators and relations.
 
 [[Mike Shulman|Mike]]: What about "$\Lambda$ is the category of finite nonempty [[cyclic order|cyclically ordered]] sets?"  I think that gets across the intended intuition better than either, and is cleaner than either modulo a definition of "cyclic order."
+
+[[Zoran Skoda]]: very good!
 =--
 
 The [[simplex category]] $\Delta$ can be identified with a subcategory of $\Lambda$, having the same objects but with fewer morphisms.  This identification does not respect the inclusions into $Cat$, however, since $[n]$ and $[n]_\Lambda$ are different categories.
