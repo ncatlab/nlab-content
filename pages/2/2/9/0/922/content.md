@@ -35,7 +35,15 @@ that one (which is not the central). Brown's paper on twisting cochains, is much
 
 [[Urs Schreiber|Urs]]: concerning the "either give a fairly balanced view to all applications or not list anything", I can see where you are coming from, Zoran, but I would still prefer here to have a little bit of material than to have none. The $n$Lb is imperfect almost everywhere, we'll have to improve it incrementally as we find time, leisure and energy. But it's good that you point out further aspects in a query box, so that we remember to fill them in later.
 
-Zoran Skoda]] My experience is that correcting a rambling and unbalanced entries takes more time than writing a new one at a stage when you really work on it. Plus all the communication explaining to others who made original entry which is hastily written. When it beomces very random and biased I stoped enjoying it at all to work on it.
+[[Zoran Skoda]] My experience is that correcting a rambling and unbalanced entries takes more time than writing a new one at a stage when you really work on it. Plus all the communication explaining to others who made original entry which is hastily written. When it becomes very random and biased I stopped enjoying it at all to work on it.
+
+[[Ronnie Brown]] It may not possible for one person to give a "balanced entry" and is certainly not possible for me in this area. On the other hand, this may be endemic to the description of an area of maths for students and research workers. 
+
+An advantage of the Homological Perturbation Lemma (HPL) is that it is an explicit formula, and this has been exploited by various writers, especially Gugenheim, Larry Lambe and collaborators, Huebschmann, and others,  for symbolic computations in homological algebra. It is good of course to have the wide breadth of applications of twisting cochains explained.
+
+For me, an insight of the HPL was the explicit use of the _homotopies_ in  a deformation retract situation to lead to new results. This has been developed to calculate resolutions of groups, where one is constructing inductively a universal cover of a $K(G,1)$ with its contracting homotopy. 
+
+So let us continue to have various individually "unbalanced" points of view explained in this  wiki, to let the readers be informed, and decide.                                   
 =--
 
 #References# 
