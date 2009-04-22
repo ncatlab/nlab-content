@@ -13,6 +13,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-04-22 #
 
+* [[Urs Schreiber|Urs]]: created [[Lie infinity-algebroid representation]] -- but ran out of time before done with polishing
+
 * [[Mike Shulman|Mike]]: Created [[cyclic order]] in order to propose a clean definition of the [[Connes' cyclic category|cycle category]].
 
 # 2009-04-21 #
