@@ -11,19 +11,17 @@ So, if you feel people's attention should be drawn to some changes you make, ple
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).
 
 ***
+
 # 2009-04-22 #
 
 * [[Urs Schreiber|Urs]]: created [[Lie infinity-algebroid representation]] -- but ran out of time before done with polishing
 
 * [[Mike Shulman|Mike]]: Created [[cyclic order]] in order to propose a clean definition of the [[Connes' cyclic category|cycle category]].
 
-# 2009-04-21 #
-
 * [[Zoran Škoda]]: [[quasicompact]]
 
-Nothing new in category land.
-
 # 2009-04-21 #
+
 * [[Zoran Škoda]]: created [[quasicoherent sheaf]],[[kernel functor]], [[Gabriel composition of filters]], [[Gabriel filter]], [[uniform filter]], [[Serre subcategory]]. Corrected [[Gabriel multiplication]], thanks Toby. Created [[ringed space]] differing from [[ringed site]].
 
 * [[Urs Schreiber|Urs]]: edited [[geometric infinity-function theory]] to go along with [this](http://golem.ph.utexas.edu/category/2009/04/journal_club_geometric_infinit.html#c023356) blog message
@@ -31,7 +29,7 @@ Nothing new in category land.
 *  [[Toby Bartels]]:
    *  Started to expand on [[dependent product]], but I need to leave now without finishing, so I\'ll let Mike do it.  (^_^)
    *  A request at [[fibered n category]].
-   *  There's an obvious typo at [[Gabriel multiplication]], but I don\'t know which way to fix it.
+   *  There\'s an obvious typo at [[Gabriel multiplication]], but I don\'t know which way to fix it.
 
 * [[Urs Schreiber|Urs]]: 
 
