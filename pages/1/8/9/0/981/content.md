@@ -17,6 +17,8 @@ given by $k\mapsto k/(n+1)\,\mathrm{mod}\,\mathbf{Z}$ on the level of objects, t
 [[Mike Shulman|Mike]]: What about "$\Lambda$ is the category of finite nonempty [[cyclic order|cyclically ordered]] sets?"  I think that gets across the intended intuition better than either, and is cleaner than either modulo a definition of "cyclic order."
 
 [[Zoran Skoda]]: very good!
+
+[[Mike Shulman|Mike]]: I think I understand what you are getting at with your definition now, although I still don't think it's quite right yet.  I agree that the nerve of $[n]_\Lambda$ is homotopically a circle---except when $n=0$.  And I think that exception means that not all the functors you want have degree 1---those that factor through $[0]_\Lambda$ have degree 0.  It seems like those might be the only functors with degree 0, though so maybe it would suffice to consider all functors with degree 0 or 1.
 =--
 
 The [[simplex category]] $\Delta$ can be identified with a subcategory of $\Lambda$, having the same objects but with fewer morphisms.  This identification does not respect the inclusions into $Cat$, however, since $[n]$ and $[n]_\Lambda$ are different categories.
