@@ -267,6 +267,11 @@ More code, code, code.
 </pre>
 After the pre tag.
 
+Markdown method:
+
+    Code, code, code.
+    More code, code, code.
+
 Testing in-line code. With markdown: `this is code`. With HTML: <code>this is code</code>.
 
 ****
