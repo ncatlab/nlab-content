@@ -98,4 +98,6 @@ On a previous version of this entry with opposite convention on where to put the
 
 +--{.query}
 _Todd_: There is an inevitable debate here about whether one should use $C^{op} \otimes D \to V$ or $C \otimes D^{op} \to V$. My own convention is to use the latter. For example, every functor $C \to D$ yields a distributor by composition with the Yoneda embedding on $D$. 
+
+[[Mike Shulman|Mike]]: My convention is $D^{op}\otimes C$.  I agree with your reasoning for why $D$ should be contravariant; I like to put it first because in the hom-functor $C(-,-)$ the contravariant variable appears first.
 =--
