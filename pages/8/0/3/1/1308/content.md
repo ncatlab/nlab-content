@@ -1,5 +1,51 @@
-An argument showing that a monoid object in the category of monoids is a commutative monoid. In other terms, if a set is equipped with two monoid structures, such that one is a homomorphism for the other, then the two structures coincide and the resulting monoid is commutative. 
+In its usual form, the Eckmann--Hilton argument shows that a [[monoid]] or [[group object]] [[internalization|in]] the category of monoids or [[Grp|groups]] is [[abelian group|commutative]]. In other terms, if a set is equipped with two monoid structures, such that one is a homomorphism for the other, then the two structures coincide and the resulting monoid is commutative.
+
+An even more general version is this:  If a set is equipped with two binary operations with [[identity]], as long as they commute with each other in the sense that one is (with respect to the other) a homomorphism of sets with binary operations, then everything else follows:
+1.  the other is also a homomorphism with respect to the first;
+1.  each also preserves the other\'s identity;
+1.  the identities are the same;
+1.  the operations are the same;
+1.  the operation is commutative;
+1.  the operation is associative.
+
+# Proof #
+
+The basic equation that we have (that one operation $*$ is a homomorphism with respect to another operation $\circ$) is
+$$ (a \circ b) * (c \circ d) = (a * c) \circ (b * d) .$$
+We prove the above list of results in order:
+
+1.  Simply read the basic equation backwards to see that $\circ$ is a homomorphism with respect to $*$.
+
+1.  Now if $1_*$ is the identity of $*$ and $1_\circ$ is the identity of $\circ$, we have
+$$ 1_\star \circ 1_\star = (1_\star \circ 1_\star) * 1_\star = (1_\star \circ 1_\star) * (1_\star \circ 1_\circ) = (1_\star * 1_\star) \circ (1_\star * 1_\circ) = 1_\star \circ 1_\circ = 1_\star .$$
+A similar argument proves the other half.
+
+1.  Then
+$$ 1_\star = 1_\star * 1_\star = (1_\star \circ 1_\circ) * (1_\circ \circ 1_\star) = (1_\star * 1_\circ) \circ (1_\circ * 1_\star) = 1_\circ \circ 1_\circ = 1_\circ ,$$
+so the identities are the same; we will now write this identity simply as $1$.
+
+1.  Now
+$$ a * b = (a \circ 1) * (1 \circ b) = (a * 1) \circ (1 * b) = a \circ b ,$$
+so the operations are the same; we will write them both with concatenation.
+
+1.  Then
+$$ a b = (1 a) (b 1) = (1 b) (a 1) = b a ,$$
+so this operation is commutative.
+
+1.  Finally ... I don\'t see this part off-hand, but [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Eckmann&#8211;Hilton_argument) says that it\'s so.
+
+Note that if you start with the slick monoid-in-$Mon$ approach, then only (4&5) need to be shown.
+
+# Corollaries #
+
+A $2$-[[k-tuply monoidal n-category|tuply monoidal]] $0$-[[0-category|category]], if defined as a [[pointed object|pointed]] $2$-[[k-tuply connected n-category|tuply connected]] [[bicategory]] is also the same as an abelian monoid.
+
+A $2$-tuply monoidal $1$-[[1-category|category]], if defined as a pointed $2$-tuply connected [[tricategory]], is the same as a [[braided monoidal category]].
+
+Every [[homotopy group]] $\pi_n$ for $n \geq 2$ is [[abelian group|abelian]].
 
 #Videos#
 
-Catsters, [Eckmann-Hilton 1](http://www.youtube.com/watch?v=Rjdo-RWQVIY); [Eckmann-Hilton 2](http://www.youtube.com/watch?v=wnRqo7UHa-k&feature=related)
+The argument is really much more interesting if proved (and applied) geometrically, as in these lectures from the Catsters:
+*  [Eckmann-Hilton 1](http://www.youtube.com/watch?v=Rjdo-RWQVIY);
+*  [Eckmann-Hilton 2](http://www.youtube.com/watch?v=wnRqo7UHa-k).
