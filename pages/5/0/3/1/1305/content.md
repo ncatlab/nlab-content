@@ -5,4 +5,6 @@ Algebraic geometers sometimes also talk about __quasicompact objects__ in more g
 
 +--{: .query}
 [[Mike Shulman|Mike]]: To accord with terminological conventions, this page should probably be either "quasicompact space" or "quasicompact object."
+
+[[Zoran Skoda]]: I do not know what are the conventions, but it was intentional to look both at quasicompact spaces and quasicompact morphisms (which are according to the dominant point of view in algebraic geometry, more important and basic notion); and aside also for q. objects. Personally I do not understand English-language preference for noun phrases. If one is to choose, quasicompact morphism is the choice.
 =--
