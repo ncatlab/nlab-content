@@ -139,7 +139,7 @@ Am I going to get an undefined term in gray at the end of this [[question]]
    * Nested lists
    * lalala
 
-Here's a Unicode WikiLink: [[שנה טובה]]. The only funky bit is mixing LTR and RTL scripts.
+Here's a Unicode WikiLink: [[??? ????]]. The only funky bit is mixing LTR and RTL scripts.
 
 [[Contributors]]
 
@@ -161,7 +161,7 @@ The example of query blocks on the HOWTO page is this syntax
 But the maruku page says that this is right.  Do both work?
 =--
 
-[[3⁄2-colimit]]s have not yet been defined.  When they are, our [[HowTo|naming conventions]] would name the page [[3/2-colimit]].
+[[3?2-colimit]]s have not yet been defined.  When they are, our [[HowTo|naming conventions]] would name the page [[3/2-colimit]].
 
 Ta. 
 
@@ -259,6 +259,15 @@ Testing punctuation: $x^2 + y^2.$
 
 `&amp;&rarr;`
 <code>&amp;&rarr;</code>
+
+Testing &lt;pre> tags for embedding program code:
+<pre>
+Code, code, code.
+More code, code, code.
+</pre>
+After the pre tag.
+
+Testing in-line code. With markdown: `this is code`. With HTML: <code>this is code</code>.
 
 ****
 
