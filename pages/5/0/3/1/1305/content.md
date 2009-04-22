@@ -2,3 +2,7 @@ For many topologists, analysts and so on, word compact means "a compact Hausdorf
 A scheme is quasicompact iff it has a Zariski cover by finitely many open affine subschemes. In particular, any affine scheme is quasicompact. 
 
 Algebraic geometers sometimes also talk about __quasicompact objects__ in more general categories, meaning [[compact object]]s (object which corepresent covariant functors commuting with filtered colimits); with or without a modifier denoting a cardinal ($\kappa$-quasicompact objects).  
+
++--{: .query}
+[[Mike Shulman|Mike]]: To accord with terminological conventions, this page should probably be either "quasicompact space" or "quasicompact object."
+=--
