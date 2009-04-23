@@ -1,3 +1,16 @@
+{:myproof: .proof style="margin-left:2em;"}
+{:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
+{:goal: style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
++-- {: goal}
+###### Lexicon entry on
+##Some  relationships between  differential graded algebras and differential graded Lie algebras (DGLA)
+
+
+( Previous relevant entries in this lexicon can be found at [[differential graded  Lie algebra]], [[differential graded  Hopf algebra]] and [[bar and cobar construction]].) 
+=--
+
+
+
 ##Idea
 
 Here we will look at the relationships between the two topics in the title! We will explore some of the functors linking the two categories.
@@ -188,3 +201,11 @@ In particular, if $\partial$ is decomposable, $(\partial(W) \subset \mathbb{L}^{
 $\langle s(s^{-1}x_1.s^{-1}x_2;w\rangle  = (-1)^{|x_2| + 1}\langle x_1,x_2;\partial_2 w\rangle ; \quad w\in W,x_i \in\#W.$
 
 
+{:myproof: .proof style="margin-left:2em;"}
+{:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
+{:goal: style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
++-- {: goal}
+###### Lexicon links onwards:
+
+[[Tim Porter|Tim]]:  There is no direct continuation, but the development continues lexicon  in a new entry on [[differential forms on simplices]].  
+=--
