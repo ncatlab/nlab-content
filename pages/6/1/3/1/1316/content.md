@@ -1,1 +1,1 @@
-A **simplicial vector space** is a [[simplicial object]] in the category of vector spaces over some field.
+A **simplicial vector space** is a [[simplicial object]] in the category [[Vect]] of vector spaces over some field.
