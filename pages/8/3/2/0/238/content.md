@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
+  * started creating a random list of some examples at [[limits and colimits by example]] -- but not in the intended detailed form yet
+
   * started reworking [[local system]] as we discussed there -- still lots of room for improvement left, of course!, in particular many references could use more details and links
 
     * notice that I moved the discussion box to the end of the entry; _not_ to imply that the discussion is closed, but so that the box does not disturb the structure of the entry; I think this is reasonable for every discussion that concerns an entry as a whole more than a particular point in it
