@@ -16,12 +16,14 @@ As with other [[universal construction]]s, an exponential object, if any exists,
 
 # Subsidiary notions #
 
-An object $Y$ of a category $C$ is __exponentiable__ if $X^Y$ exists for every object $X$ of $C$.
+An object $Y$ of a category $C$ with finite products is __exponentiable__ if $X^Y$ exists for every object $X$ of $C$.  Thus $C$ is cartesian closed just when every object is exponentiable.  More generally, a morphism $Y\to A$ is __exponentiable__ when it is exponentiable in the [[over category]] $C/A$; thus $C$ is [[locally cartesian closed category|locally cartesian closed]] just when every morphism is exponentiable.
 
 +--{: .query}
 Wow, really?  I don\'t really use that word, but the other concept seems more important to me.  Although I suppose that this concept gives you theorems like the closure of exponentiable objects under coproduct in a lextensive category.
 
 No matter.  But is there a term for the other way around?  ---[[Toby Bartels]]
+
+[[Mike Shulman|Mike]]: Why do you say the other concept seems more important?  I think in most cases, the existence of $X^Y$ is more related to properties of $Y$ than properties of $X$.  For instance, in [[Top]] $X^Y$ exists whenever $Y$ is locally compact Hausdorff.  Similar characterizations hold for locales and toposes.  In [[algebraic set theory]] one often assumes that only small objects (and morphisms) are exponentiable, analogously to how in material set theory you can talk about the class of functions $Y\to X$ when $Y$ is a set and $X$ a class, but not the other way round.  But no examples come immediately to mind of an object $X$ in a non-cartesian-closed category such that $X^Y$ exists for all $Y$ (other than stupid examples like $X=0$ and $X=1$).
 =--
 
 A __coexponential object__ in $C$ is an exponential object in the [[opposite category]] $C^op$.
