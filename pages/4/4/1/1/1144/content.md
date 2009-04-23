@@ -51,6 +51,7 @@ The following entries provide lexicalic information about basic concepts in diff
 
 * [[bar and cobar construction]]
 
+* [[differential forms on simplices]]
 
 #References#
 
