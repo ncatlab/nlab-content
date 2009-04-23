@@ -44,7 +44,7 @@ $$
 
 as a _flat section_ (or flat $I$-section) of the flat bundle given by $tra$.
 
-In general there are few or none such sections on $X$, but for each subset $u \hookrightarrow X$ there is an obvious inclusion functor $i_U : \Pi_1(U) \hookrigharrow \Pi_1(X)$ and the pulled back functor $tra \circ i_U : \Pi(U) \to Vect$ in general has a nontrivial collection of sections when $U$ is small enough (in particular when $U$ is contractible).
+In general there are few or none such sections on $X$, but for each subset $u \hookrightarrow X$ there is an obvious inclusion functor $i_U : \Pi_1(U) \hookrightarrow \Pi_1(X)$ and the pulled back functor $tra \circ i_U : \Pi(U) \to Vect$ in general has a nontrivial collection of sections when $U$ is small enough (in particular when $U$ is contractible).
 
 This way  a functor $tra : \Pi_1(X) \to A$ induces a [[sheaf]] of flat $I$-sections on $X$
 
@@ -65,7 +65,7 @@ $$
   tra : \Pi(X) \to A
 $$
 
-may be regarded as a flat $\infty$-bundle on $X$. Examples are for instance higher gerbes with flat connection (see [[Deligne cohomology]] and more generally [[schreiber:Differential Nonabelian Cohomology]]|differential nonabelian cohomology).
+may be regarded as a flat $\infty$-bundle on $X$. Examples are for instance higher gerbes with flat connection (see [[Deligne cohomology]] and more generally [[schreiber:Differential Nonabelian Cohomology|differential nonabelian cohomology]]).
 
 Moreover, the space $X$ may itself be replaced by a [[heuristic introduction to sheaves, cohomology and higher stacks|generalized space]]: an [[infinity-stack]] (which may be a [[derived stack]]). Under mild assumptions there is still a notion of [[fundamental infinity-groupoid]] $\Pi(X)$ in the context of $\infty$-stacks and hence for $A$ any coefficient object in the relevant [[(infinity,1)-topos]], the $\infty$-category
 
