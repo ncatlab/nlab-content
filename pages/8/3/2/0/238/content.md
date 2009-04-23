@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-23 #
 
+*  [[Toby Bartels]]:  Please note that there are no actual links to [[Differential Nonabelian Cohomology]] (except this one just now).  That there appear to be is actually a bug in Instiki (which I haven\'t bothered to report to Jacques yet).
+
 * [[Tim Porter|Tim]]:  
 
    * I have added a request  at [[local system]]. Basically the current entry reads as if it related to a relatively recent idea. I suggest we look at the origins of the idea,  at least as old as 'Steenrod (1943)' if not before.  It is central to much of the nLab work. Probably we need to be much less restrictive in the motivation of this entry.
