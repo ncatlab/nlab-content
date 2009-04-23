@@ -14,6 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-23 #
 
+* [[Urs Schreiber|Urs]]: 
+
+  * started reworking [[local system]] as we discussed there -- still lots of room for improvement left, of course!, in particular many references could use more details and links
+
+    * notice that I moved the discussion box to the end of the entry; _not_ to imply that the discussion is closed, but so that the box does not disturb the structure of the entry; I think this is reasonable for every discussion that concerns an entry as a whole more than a particular point in it
+
 *  [[Toby Bartels]]:
    *  From our first spam post (which I will not link to), I\'d like to preserve this: 'with a country like India, the [[limit]]s are [[end]]less' (links added).
    *  Wrote [[k-tuply connected n-category]].  I also made the numbering consistent on the other pages; connectedness should be $1$-tuple connectedness, not $0$-tuple connectedness.
