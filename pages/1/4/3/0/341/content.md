@@ -14,9 +14,9 @@ Fully filled out, the table looked like this:
 <tr><th>&#8942;</th><td>\"</td><td>\"</td><td>\"</td><td>\"</td><td>\"</td><td>&#8945;</td></tr></table>
 Actually, the columns where $n = -1$ and $n = -2$ were not there, but they appeared to be required by the pattern of the table.
 
-We now recognise that a $0$-tuply monoidal $n$-category should be *pointed*, leading to a slightly different table (see that page). Similarly, the definition given when $k \gt 0$ didn\'t mention pointedness, giving essentially the definition of $(k-1)$-[[k-connected n-category|connected]] $(n+k)$-category. This makes a difference to the notions of morphism and higher morphism between such structures.
+We now recognise that a $0$-tuply monoidal $n$-category should be *pointed*, leading to a slightly different table (see that page). Similarly, the definition given when $k \gt 0$ didn\'t mention pointedness, giving essentially the definition of $k$-[[k-tuply connected n-category|tuply connected]] $(n+k)$-category. This makes a difference to the notions of morphism and higher morphism between such structures.
 
-Eugenia Cheng and Nick Gurski wrote a [paper](http://arxiv.org/abs/0708.1178) about how these don't end up quite right if you just look at $(k-1)$-connected $(n+k)$-categories, but in all cases we have analyzed they do come out correct if you look at the pointed versions.  More on this can be found in the appendix to  [n-categories and cohomology](http://arxiv.org/abs/math.CT/0608420).
+Eugenia Cheng and Nick Gurski wrote a [paper](http://arxiv.org/abs/0708.1178) about how these don't end up quite right if you just look at $k$-tuply connected $(n+k)$-categories, but in all cases we have analyzed they do come out correct if you look at the pointed versions.  More on this can be found in the appendix to  [n-categories and cohomology](http://arxiv.org/abs/math.CT/0608420).
 
 # Examples
 
