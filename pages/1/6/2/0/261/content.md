@@ -52,6 +52,14 @@ Here are some examples:
 
 +-- {: .query}
 [[Tim Porter|Tim]]: What is the reference for this simplicial nerve? (I do not like that terminology.)  Is it what I would call the homotopy coherent nerve (as explicitly first introduced by Cordier)? If so it needs an entry for itself.
+
+[[Urs Schreiber|Urs]]: I guess it should be the notion introduced in 
+
+* Cordier, J. M. Sur la notion de diagramme homotopiquement coh&#180;erent. Cahiers Top. et Geom. Diff.
+XXIII 1, 1982, 93-112.
+
+Over at [[geometric infinity-function theory]] I am asking for an entry titled [[simplicial nerve of simplicial categories]]. Likely not a good term either. I took "simplicial nerve" from [section 1.1.5, p. 26](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=26) of [[Higher Topos Theory|HTT]].
+
 =--
 
 * The adjunction $- \times X: \SimpSet \leftrightarrow \SimpSet :(-)^X$ between the product with a simplicial set $X$ and the internal-hom, which makes $\Simp\Set$ into a [[cartesian closed category]].
