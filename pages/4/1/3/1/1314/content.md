@@ -44,7 +44,7 @@ $$A_\infty(\mathbf{\Delta}^n) =\sum_{p=0}^{n}A^p_\infty(\mathbf{\Delta}^n) $$
 
 there is a unique multiplication, $\wedge$, and a unique differential $d$ such that the restriction $A^p_\infty(F^n)\to A^p_\infty(\mathbf{\Delta}^n)$ is a homomorphism of commutative [[differential graded algebra|differential graded algebras]], (c.d.g.a). 
 
-Moreover, the standard proofs of the [[Poincaré lemma]] apply to show that $(A_\infty(\mathbf{\Delta}^n),d)$ is acyclic:
+Moreover, the standard proofs of the [[Poincare lemma|Poincaré lemma]] apply to show that $(A_\infty(\mathbf{\Delta}^n),d)$ is acyclic:
 
 $$H(A_\infty(\mathbf{\Delta}^n),d) \cong \mathbf{R}.$$
 
