@@ -49,7 +49,7 @@ _Toby_:  Knowing basically nothing about this, I prefer to see various people ex
 =--
 
 #References# 
-* Edgar H. Brown Jr. Twisted tensor products. I.  Ann. of Math. (2)  69  1959 223--246.
+* Edgar H. Brown Jr. Twisted tensor products. I.  Ann. of Math. (2)  69  (1959) 223--246.
 
 * Kenji Lef&#232;vre-Hasegawa, Sur les A-infini cat&#233;gories, (<a href="http://people.math.jussieu.fr/~keller/lefevre/TheseFinale/tel-00007761.pdf">pdf</a>)
 
