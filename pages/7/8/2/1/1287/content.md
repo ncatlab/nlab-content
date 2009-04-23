@@ -1,3 +1,50 @@
+#Idea#
+
+[[schreiber:Differential Nonabelian Cohomology|Recall]] that for $X$ a manifold and $P_1(X)$ its [[path groupoid]] (moprhisms are thin-homotopy classes of smooth paths in $X$) and [[Vect]] the category of vector spaces, a suitably well-behaved [[functor]]
+
+$$
+  tra_\nabla : P_1(X) \to Vect
+$$
+
+is the same thing as a vector bundle $E \to X$ bundle with connection $\nabla$: the functor sends each point of $X$ to the fiber $E_x$ of $E$ over $x$, and sends each path $x \stackrel{\gamma}{\to} y$ to the _parallel transport_ 
+$tra_\nabla(\gamma) : E_x \to E_y$
+induced by the connection along the path.
+
+Precisely when the connection $\nabla$ is _flat_ does the functor $tra_\nabla$ factor through 
+
+$$
+  h : P_1(X) \to \Pi_1(X)
+$$
+
+where $\Pi_1(X)$ is the [[fundamental groupoid]] of $X$, and where $h$ sends each smooth path to its homotopy class relative its endpoints.
+
+Accordingly, vector bundles with _flat_ connection on $X$ are equivalent to functors from the [[fundamental groupoid]] to $Vect$
+
+$$
+  tra : \Pi_1(X) \to Vect
+  \,.
+$$
+
+This notion now makes sense whether $X$ is equipped with a smooth structure or not. Moreover, the concept obviously generalizes to any other coefficient category $A$ replacing $Vect$. A functor
+
+$$
+  tra : \Pi_1(X) \to A
+$$
+
+may hence be thought of as defining an "$A$-bundle" with flat connection. And this is precisely what is called a _local system with coefficnets in $A$_.
+
+If $I$ is some special object of $A$, such as a [[terminal object]], or a [[generator]] or a tensor unit if $A$ is [[monoidal]], then it makes sense to think of natural transformations
+
+$$
+  \sigma : const_I \to tra
+$$
+
+as a _flat section_ of the flat bundle given by $tra$.
+
+
+(need to interrupt for a second...)
+
+
 #Definitions and characterizations#
 
 A __local system__ is a locally constant [[sheaf]] on a topological space $X$ (or manifold, analytic manifold, or algebraic variety) whose stalk is a finite-dimensional vector space. On a connected topological space this is the same as a sheaf of sections of a finite-dimensional vector space equipped with flat connection; and it also corresponds to the representations of the [[fundamental group]] $\pi_1(X,x_0)$ in the typical stalk. On an analytic manifold or a variety, there is an equivalence between the category of non-singular coherent $D_X$-[[D-module|modules]] and local systems on $X$.
@@ -66,6 +113,10 @@ There is a starting thread (still little info) at
 * David Speyer: _Three ways of looking at a local system_
 
   * [Introduction and connection to cohomology theories](http://sbseminar.wordpress.com/2009/04/20/three-ways-of-looking-at-a-local-system-introduction-and-connection-to-cohomology-theories/)
+
+
+  * [Local systems: the path groupoid approach](http://sbseminar.wordpress.com/2009/04/21/local-systems-the-path-groupoid-approach/)
+
 
 A categorification of local systems to (a bit nontrivial) notion of locally constant stacks is given in 
 
