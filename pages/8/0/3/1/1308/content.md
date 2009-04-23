@@ -32,9 +32,13 @@ so the operations are the same; we will write them both with concatenation.
 $$ a b = (1 a) (b 1) = (1 b) (a 1) = b a ,$$
 so this operation is commutative.
 
-1.  Finally ... I don\'t see this part off-hand, but [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Eckmann&#8211;Hilton_argument) says that it\'s so.
+1.  Finally,
+$$ (a b) c = (a b) (1 c) = (a 1) (b c) = a (b c) ,$$
+so the operation is associative.
 
-Note that if you start with the slick monoid-in-$Mon$ approach, then only (4&5) need to be shown.
+Note that if you start with the slick monoid-in-$Mon$ approach, then only (4&5) need to be shown; the others are part of the hypothesis.  This classic form of the Eckmann--Hilton argument may be combined into a single calculation:
+$$ a * b = (a \circ 1) * (1 \circ b) = (a * 1) \circ (1 * b) = a \circ b = (1 * a) \circ (b * 1) = (1 * b) \circ (a * 1) = b * a ,$$
+where the desired results involve the first, middle, and last expressions.
 
 # Corollaries #
 
