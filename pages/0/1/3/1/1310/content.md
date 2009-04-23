@@ -1,6 +1,6 @@
 
 This entry discusses the conceptual notion of representations 
-of Lie-infinity-algebroids and their realization in terms of
+of [[Lie infinity-algebroid]]s and their realization in terms of
 **modules for [[differential graded algebra]]s**
 and of modules of [[differential graded coalgebra]]s. 
 See the remarks at [[rational homotopy theory]] and
@@ -31,16 +31,16 @@ While essentially equivalent, it is noteworthy that the first definition
 naturally takes place in the context of not-necessarily smooth ($\infty$-)categories, 
 while the second one usually remains within the context of smooth ($\infty$)-groupoids: 
 
-namely for $G$ a [[Lie group]], for definiteness and for simplicity, 
+namely for $G$ a Lie group, for definiteness and for simplicity, 
 with corresponding one-object Lie groupoid
-$\mathbf{B}G$, a linear representation in terms of an action morphisms is a [[functor]]
+$\mathbf{B} G$, a linear representation in terms of an action morphisms is a [[functor]]
 
 $$
-  \rho : \mathbf{B}G \to Vect
+  \rho : \mathbf{B} G \to Vect
 $$
 
-from $\mathbf{B}G$ to the category of vector spaces. In fact, there is a
-canonical equivalence of the [[functor category]] $[\mathbf{B}G]$ with the
+from $\mathbf{B} G$ to the category of vector spaces. In fact, there is a
+canonical equivalence of the [[functor category]] $[\mathbf{B}G, Vect]$ with the
 category $Rep(G)$ of linear representations of $G$
 
 $$
@@ -49,8 +49,8 @@ $$
 $$
 
 Every such functor $\rho$ induces a [[fibration]] $V//G \to \mathbf{B}G$ 
-over $\mathbf{B}G$, obtained by
-the [[pullback]] of the [[universal Vect-bundle|generalized universal bundle]]
+over $\mathbf{B}G$, obtained as
+the [[pullback]] of the [[generalized universal bundle]]
 $Vect_* \to Vect$ along $\rho$
 
 $$
@@ -84,6 +84,7 @@ $$
      G &\hookrightarrow& \mathbf{E}G &\to& \mathbf{B}G
      \\
      = && = && =
+     \\
      G &\hookrightarrow& G//G &\to& \mathbf{B}G
    }
    \,.
@@ -113,27 +114,39 @@ Recall that we take, by definition, [[Lie infinity-algebroid]]s to be
 free as graded-commutative algebras (qDGCAs): we write
 $CE_A(g)$ for the qDGCA whose underlying graded-commutative algebra
 is the free (over the algebra $A$) graded commutative algebra
-$\wegde^\bullet g^*$ for $g$ a non-postively graded cochain complex of
+$\wedge^\bullet g^*$ for $g$ a non-postively graded cochain complex of
 $A$-modules and $g^*$ its degree-wise dual over $A$, to remind us
 that this is to be thought of as the Chevalley-Eilenberg algebra
-of the Lie-infinity-algebra $g$ whose space of objects is characterized
+of the [[Lie infinity-algebroid]] $g$ whose space of objects is characterized
 dually by the algebra $A$.
 
 The category DGCAs is naturally equipped with the 
-[[model structure on DGCAs]]. 
+[[model structure on differential graded algebras]]. 
 
 **Definition**
 
 A **representation** $\rho$ of a Lie $\infty$-algebroid $(g, A)$ on a 
-co-chain complex $V$ is a [[fibration sequence]]
+co-chain complex $V$ of $A$-modules is a co[[fibration sequence]]
 
 $$
   \wedge^\bullet V \leftarrow CE_\rho(g,V) \leftarrow CE_A(g)
 $$
 
-in DGCAs.
+in DGCAs, i.e. a homotopy pushout
 
-A **proper representation** $\rho$ is a strict fiber sequence of morphisms
+$$
+  \xymatrix{
+    \wedge^\bullet V &\leftarrow& CE_\rho(g)
+    \\
+    \downarrow && \downarrow
+    0 &\leftarrow & CE_A(g)
+  }
+  \,.
+$$
+
+What has been considered in the literature so far is the more restrictive version, where the pushout is taken to be strict ([[Urs Schreiber|Urs]]: at least I think that this is the right way to say it):
+
+A **proper representation** $\rho$ is a strict cofiber sequence of morphisms of DGCAs
 
 $$
   \wedge^\bullet V \leftarrow CE_\rho(g,V) \leftarrow CE_A(g)
@@ -150,13 +163,13 @@ i.e. such that
 * the composite of both is the 0-map.
 
 It follows that the differential $d_\rho$ on $CE_\rho(g,V)$ is given by
-a "twisting map" $\rho^* : V \to \wedge^\bullet V \wedge g^* \wedge \wedge^\bullet g^*$ as
+a **twisting map** $\rho^* : V \to (\wedge^\bullet V) \wedge (g^*) \wedge (\wedge^\bullet g^*)$ as
 
 * $d_\rho|_{g^*} = d_g$
 
 * $d_\rho|_{V} = d_V + \rho^*$
 
-which may be thought of as the representation morphism.
+which may be thought of as the dual of the representation morphism (see the examples below).
 
 # DG-category of Lie-infinity-algebroid representations #
 
@@ -168,6 +181,30 @@ In
 the [[dg-category]] $Rep(g,A)$ of proper representations of a Lie-infinity-algebroid
 $(g,A)$ in the above sense -- called dg-algebra modules there -- is defined.
 
+**Definition**
+
+Given two objects $CE_\rho(g,V)$ and $CE_{\rho'}(g,V')$
+in $Rep(g,A)$, the cochain complex 
+
+$Hom( CE_\rho(g,V),  CE_{\rho'}(g,V') )$
+
+consist in degree $k$ of morphisms of degree $k$
+
+$$
+  \phi : V \otimes \wedge^\bullet g \to V' \otimes \wedge^\bullet g^*
+$$
+
+satisfying $\phi(v t) = (-1)^{k |a|} \phi(v) t$
+
+and the differential $d_{Hom}$ is the usual differential on hom-complexes $d \phi = d_{\rho'} \circ \phi - (-1)^{|\phi|} \phi \circ d_\rho$.
+
+For a fixed Lie $\infty$-algebroid $(g,A)$, the category 
+
+$$
+  Rep(g,A)
+$$
+
+with Lie representations of $(g,A)$ as objects and chain comoplexes as above as hom-objects is a [[dg-category]].
 
 
 ## relation to coherent complexes of sheaves ##
@@ -176,7 +213,8 @@ $(g,A)$ in the above sense -- called dg-algebra modules there -- is defined.
 **Theorem**
 
 For $X$ a smooth complex manifold and $(g,A) = T_{hol} X$ the holomorphic tangent Lie algebroid
-of $X$ (so that $CE_A(g) = \Omega^\bullet_{hol}(X)$ the holomorphic deRham complex of $X$), 
+of $X$ (so that $CE_A(g) = \Omega^\bullet_{hol}(X)$ the holomorphic deRham complex of $X$), and for 
+$Rep(T_{hol} X)$ taken to have as objects complexes of _finitely generated_ and _projective_ $C^\infty(X)$-modules (i.e. complexes of smooth vector bundles)
 the [[homotopy category of an (infinity,1)-category|homotopy category]]
 $Ho Rep(T_{hol} X)$ of the [[dg-category]] $Rep(T_{hol} X)$ is [[equivalence of categories|equivalent]]
 to the _bounded derived category of complexes of sheaves with coherent cohomology_ on $X$
@@ -184,7 +222,7 @@ to the _bounded derived category of complexes of sheaves with coherent cohomolog
 
 This is theorem 2.22, p. 17 of Block's article.
 
-
+The objects of $Rep(T_{hol} X)$ are literally complexes of smooth vector bundles that are equipped with "half a flat connection", namely with a flat covariant derivative only along holomorphic tangent vectors. It is an old result that holomorphic vector bundles are equivalent to such smooth vector bundles with "half a flat connection". This is what the theorem is based on.
 
 
 
@@ -197,7 +235,17 @@ up to technicalities to be spelled out here eventually, that $Ho Rep(T X)$ is eq
 to the derived category of [[D-module]]s on $X$, or the like.
 
 
+#Coalgebraic formulation #
+
+...
+
 #Examples#
+
+* ordinary representation of a Lie algebra on a vector space: CH_\rho(g,V) is essentially the Chevalley-Eilenberg complex that computes the cohomology of $g$ with coefficients in $V$.
+
+* flat connections on bundles
+
+* adjoint representation of [[L-infinity algebra]]s
 
 
 #References#
