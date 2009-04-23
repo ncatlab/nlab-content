@@ -1,6 +1,9 @@
 #Definition#
 
-A **simplicial set**  is a [[presheaf]] on the [[simplex category]] $\Delta$.
+A **simplicial set**  is a [[presheaf]] on the [[simplex category]] $\Delta$, that is, a functor $X : \Delta^{op} \to Sets$.
+
+It is, of course, a [[simplicial object]] in the category of sets.
+
 
 #Remarks#
 
@@ -43,9 +46,13 @@ Here are some examples:
 
 * Let $E = \Top$ and $F$ be the functor $[n] \mapsto {\Delta}_n$. The right adjoint is the total singular complex functor $S$ described above. The left adjoint $|-|$ is called **geometric realization**.  As a consequence of the Kan extension construction, the geometric realization of the represented simplicial set $\Delta[n]$ is the standard $n$-simplex ${\Delta}_n$.
 
-* Subdivision and extension $\sd: \Simp\Set \leftrightarrow \Simp\Set :\ex$.
+* (Barycentric) subdivision and extension $\sd: \Simp\Set \leftrightarrow \Simp\Set :\ex$.
 
 * The simplicial nerve functor and its left adjoint $\Simp\Set \leftrightarrow \Simp\Cat$ where [[SimpCat]] denotes the category of [[simplicially enriched category|simplicially enriched categories]], i.e., categories enriched in $\Simp\Set$.
+
++-- {: .query}
+[[Tim Porter|Tim]]: What is the reference for this simplicial nerve? (I do not like that terminology.)  Is it what I would call the homotopy coherent nerve (as explicitly first introduced by Cordier)? If so it needs an entry for itself.
+=--
 
 * The adjunction $- \times X: \SimpSet \leftrightarrow \SimpSet :(-)^X$ between the product with a simplicial set $X$ and the internal-hom, which makes $\Simp\Set$ into a [[cartesian closed category]].
 
@@ -54,3 +61,13 @@ Here are some examples:
 A pedagogical introduction to simplicial sets is
 
 * Greg Friedman, _An elementary illustrated introduction to simplicial sets_ ([arXiv](http://arxiv.org/abs/0809.4221))
+
+A useful(if old) survey article is: 
+
+*  E. Curtis, _Simplicial Homotopy Theory_, Advances in Math., 6, (1971), 107 &#8211; 209.
+
+
+More advanced treatments include 
+
+* P. G. Goerss and J. F. Jardine, 1999, _Simplicial Homotopy Theory_, number 174 in Progress in Mathematics, Birkhauser. 
+
