@@ -257,6 +257,9 @@ My main point is that a local system is **not** the same as a locally constant s
 
 Your comment on monodromy reinforced my feeling about it.  I have not got Steenrod's paper, so wonder if it shows that he was aware of the link. His fibre bundles book was still in the future ... interesting historical question there.
 
+[[Zoran Skoda]]: I like your comment and historical remarks (by the way, the present homological algebra books like Methods...by Gelfand-Manin (p.28) distinguishes homology coefficient systems (on simplicial sets) and cohomology coefficient systems (maybe some remark within [[simplicial local system]] is due). As far as using internal nerve of a (hyper)cover in arbitrary site (I emphasise site, not topos)
+one can try defining fund. groupoid along such terms, that is implicit in the work of Pataraia on internal cosimplicial objects, which I never studied enough, and includes some conditions; in any case it does not look elementary to me.
+As far as historical info we should keep looking for it (including original usage of "monodromy"); it is instructive and shows some curious geometrical insights in old papers. 
 =--
 
 
