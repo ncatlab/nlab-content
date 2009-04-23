@@ -34,7 +34,16 @@ Local systems with other codomains than vector spaces are used in rational homot
 
 [[Urs Schreiber|Urs]]: I am all in favor of emphasizing that "local system" is nothing but a functor from a fundamental groupoid. That's of course right up my alley, compare the discussion with David Ben-Zvi at the "[Journal Club](http://golem.ph.utexas.edu/category/2009/04/journal_club_geometric_infinit.html#c023324)". Whoever finds the time to write something along these lines here should do so (and  in clude in particular the reference Ronnie Brown gives above). 
 
-BUT at the same time it seems to me that many practitioners will by defualt think of the explicitly sheaf-theoretic notion when hearing "local syetem" which the entry currently states. We should emphasize this explicitly, something like: "while in general a local system is to be thought of as a representation of a funcdamental groupoid, often the term is understood exclusively in its realization within [[abelian sheaf]] theory as follows ..."
+BUT at the same time it seems to me that many practitioners will by defualt think of the explicitly sheaf-theoretic notion when hearing "local syetem" which the entry currently states. We should emphasize this explicitly, something like: "while in general a local system is to be thought of as a representation of a fundamental groupoid, often the term is understood exclusively in its realization within [[abelian sheaf]] theory as follows ..."
+
+[[Tim Porter|Tim]]: How about wording such as:
+
+In general a local system is defined to be ... (ref. Spanier (1966) and earlier Steenrod (1943).) .... . (Perhaps a classical example would help here.)
+
+ A particularly important case of this is when the functor takes its values in the category of vector spaces or slightly more generally abelian groups.  For instance given a locally constant sheaf
+on a manifold then there is naturally a local system that encodes valuable information in a neat way. In this entry we will primarily discuss this latter more restrictive sense, at least to start with. Later we will look at other applications and instances of the more general case.
+
+(I tend to not use the word representation when functor is meant and I would discourage saying that a local system IS a locally constant sheaf of whatever, as they are very different types of stuff (I almost get the 'I spy evil' reaction when I see that!). 
 
 
 =--
