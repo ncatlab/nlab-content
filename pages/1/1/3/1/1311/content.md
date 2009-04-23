@@ -1,0 +1,5 @@
+A __$k$-tuply connected $n$-category__ is an $n$-[[n-category|category]] such that any two parallel $j$-morphisms are [[equivalence|equivalent]], for $j \lt k$.  You may interpret this definition as weakly or strictly as you like, by starting with weak or strict notions of $n$-category.  Note that we include the case $j = -1$ to mean that the $n$-category is [[inhabited set|inhabited]] when $k \geq 0$.
+
+Thus, a $(-1)$-tuply connected $n$-category is simply an $n$-category, a $0$-tuply connected $n$-category is an ihabited $n$-category, a $1$-tuply is an inhabited $n$-category in which all objects are equivalent, and so on.
+
+The [[delooping hypothesis]] says that a $k$-[[k-tuply monoidal n-category|tuply monoidal]] $n$-category is the same thing as a [[pointed object|pointed]] $k$-tuply connected $(n+k)$-category.
