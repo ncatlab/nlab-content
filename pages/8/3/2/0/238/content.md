@@ -14,6 +14,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-23 #
 
+*  [[Toby Bartels]]:
+   *  From our first spam post (which I will not link to), I\'d like to preserve this: 'with a country like India, the [[limit]]s are [[end]]less' (links added).
+   *  Wrote [[k-tuply connected n-category]].  I also made the numbering consistent on the other pages; connectedness should be $1$-tuple connectedness, not $0$-tuple connectedness.
+   *  Tried my hand at a constructive version of [[cyclic order]].  Interestingly, the apartness relation doesn\'t seem to be recoverable from the cyclic order relation (which is related to the difficulty of doing antisymmetry and thus a reflexive version, which as well is not ---even classically--- equivalent to the negation of the irreflexive version).
+
 * [[Urs Schreiber|Urs]]: 
 
   * have a reply at [[local system]]
