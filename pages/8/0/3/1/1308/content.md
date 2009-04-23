@@ -48,8 +48,12 @@ A $2$-tuply monoidal $1$-[[1-category|category]], if defined as a pointed $2$-tu
 
 Every [[homotopy group]] $\pi_n$ for $n \geq 2$ is [[abelian group|abelian]].
 
-#Videos#
+#References#
 
-The argument is really much more interesting if proved (and applied) geometrically, as in these lectures from the Catsters:
-*  [Eckmann-Hilton 1](http://www.youtube.com/watch?v=Rjdo-RWQVIY);
-*  [Eckmann-Hilton 2](http://www.youtube.com/watch?v=wnRqo7UHa-k).
+*The argument is really much more interesting if proved (and applied) geometrically, as in these VIDEO lectures from the Catsters:
+ *  [Eckmann-Hilton 1](http://www.youtube.com/watch?v=Rjdo-RWQVIY);
+ *  [Eckmann-Hilton 2](http://www.youtube.com/watch?v=wnRqo7UHa-k).
+
+*For higher analogues see 
+ * (within the discussion of commutative algebraic monads) N. Durov, New approach to Arakelov geometry, [arXiv:0704.2030](http://arxiv.org/abs/0704.2030)
+ * M. A. Batanin, The Eckmann-Hilton argument and higher operads,  Adv. Math.  217  (2008),  no. 1, 334--385; [arXiv:math.CT/0207281](http://arxiv.org/abs/math/0207281)
