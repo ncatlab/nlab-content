@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
+  * created [[path groupoid]] -- other realizations of that idea should be stated there, too
+
   * started creating a random list of some examples at [[limits and colimits by example]] -- but not in the intended detailed form yet
 
   * started reworking [[local system]] as we discussed there -- still lots of room for improvement left, of course!, in particular many references could use more details and links
