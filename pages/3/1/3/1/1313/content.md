@@ -2,6 +2,7 @@
 
 An __exponential object__ $X^Y$ is an [[internal hom]] $[Y,X]$ is a [[cartesian closed category]].  It generalises the notion of [[function set]], which is an exponential object in [[Set]].
 
+
 # Definition #
 
 The above is actually a complete definition, but here we spell it out.
@@ -10,14 +11,16 @@ Given objects $X$ and $Y$ of a [[category]] $C$ with binary [[product]]s, an __e
 $$ Z \times Y \stackrel{u \times id_Y}\to X^Y \times Y \stackrel{ev}\to X $$
 equals $e$.
 
-As with other [[universal construction]]s, an exponenetial object, if any exists, is [[generalized the|unique up to unique isomorphism]].
+As with other [[universal construction]]s, an exponential object, if any exists, is [[generalized the|unique up to unique isomorphism]].
+
 
 # Subsidiary notions #
 
-An object $X$ of a category $C$ is __exponentiable__ if $X^Y$ exists for every object $Y$ of $C$.
+An object $Y$ of a category $C$ is __exponentiable__ if $X^Y$ exists for every object $X$ of $C$.
 
 A __coexponential object__ in $C$ is an exponential object in the [[opposite category]] $C^op$.
 
 As with other internal homs, the __currying__ isomorphism
 $$ hom_C(Z,X^Y) \cong hom_C(Z \times Y,X) $$
-is a [[natural isomorphism]].
+is a [[natural isomorphism]] of sets.  By the usual [[Yoneda lemma|Yoneda]] arguments, this isomorphism can be internalized to an isomorphism in $C$:
+$$ (X^Y)^Z \cong X^{Y\times Z}. $$
