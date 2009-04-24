@@ -220,6 +220,10 @@ or section 3 of
 
 * J. Lurie, [[Stable Infinity-Categories]]
 
+or
+
+* B. Noohi, _Lectures on derived and triangulated categories_ ([arXiv](http://arxiv.org/abs/0704.1009))
+
 A link for discussion and a list of source material for  'd&#233;rivateurs' can be found at
 
 * A. Grothendieck,  [Les D&#233;rivateurs](http://people.math.jussieu.fr/~maltsin/groth/Derivateurs.html)
