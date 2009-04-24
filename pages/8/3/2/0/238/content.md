@@ -14,6 +14,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-24 #
 
+*  [[Toby Bartels]]:
+   *  Changed the numbering at [[k-tuply connected n-category]] but haven\'t moved the page yet.
+   *  Created a new [category: lexicon](/nlab/list/lexicon) to find Tim\'s lexicon entries.  (If these are incorporated into more mainstream $n$Lab entries, then we could get rid of this category, but for now it\'s nice to be able to track them down without running through the whole list.)
+   *  I answered Mike\'s question at [[Boolean topos]].
+   *  I coined a new term at [[exponential object]].
+   *  I finished [[dependent product]].
+
 * [[Urs Schreiber|Urs]]: 
 
   * came across the useful interrelation diagram and associated literature list on "enhancements of triangulated categories" [here](http://www.math.uni-bonn.de/people/schwede/EnhancedSeminar.pdf) and added this to [[stable (infinity,1)-category]], together with some links it suggests, to entries still to be created -- I am hoping we'll eventually be able to accumulate a good collection of material on this topic
