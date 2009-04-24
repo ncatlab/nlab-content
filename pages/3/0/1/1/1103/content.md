@@ -76,7 +76,7 @@ We get obvious full subcategories $pre CDGA$ and $pre \varepsilon CDGA$ correspo
 
 A cdga is a **negatively** graded pre-cdga (in upper grading), $A= \bigoplus_{p\geq 0} A^p.$
 
-There is an augmented variant, of course.  These definitions give categories $CGDA$, etc.
+There is an augmented variant, of course.  These definitions give categories, $CDGA$, etc.
 
 
 
@@ -104,7 +104,7 @@ $$F^0 A = A, \quad F^p A = Im\bar{\mu}^{(p-1)}  if p\geq 1.$$
 
 $Q(A) = \bar{A}/Im\bar{\mu}$ is the _space of indecomposables_ of A.
 
-If $(A,\partial)$ is an augmented pre-dga, $F^pA$ is stable under $\partial$ and we get $Q(\partial)$ is a differential on $Q(A)$ and hence we get a functor  $Q: pre \varepsilon DGA\to pre DGVA.$
+If $(A,\partial)$ is an augmented pre-dga, $F^pA$ is stable under $\partial$ and we get $Q(\partial)$ is a differential on $Q(A)$ and hence we get a functor  $Q: pre \varepsilon DGA\to pre DGVS.$
 
 
 ####Free GAs: $T(V)$, the tensor algebra
@@ -163,7 +163,7 @@ in $\bigwedge(x_1, \ldots, x_p )$. We note that although we write $\varepsilon(\
 
 ###Terminology
 
-Baues (in his book on _Algebraic Homotopy_) has suggested using the terminology **chain algebra** for positively graded differential algebras  and **cochain algebras** for the negatively graded ones. 
+Baues (in his book on _Algebraic Homotopy_) has suggested using the terminology **chain algebra** for positively graded differential algebras  and **cochain algebras** for the negatively graded ones. This seems to be a very useful convention.
 
 {:myproof: .proof style="margin-left:2em;"}
 {:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
