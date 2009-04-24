@@ -59,7 +59,7 @@ If $f$ is a face map or a degeneracy map we will simply write $d_i$ or $s_i$ for
 Each element of $A^p_\infty(\mathbf{\Delta}^n)$ may be uniquely written
 
 
-$$\Phi =\sum_{1\leq i_1\lt\ldots\lt i_p\leq n}\Phi_{i_1\ldots i_p}db_{i_1}\wedge\ldots db_{i_p},$$
+$$\Phi =\sum_{1\leq i_1\lt\ldots\lt i_p\leq n}\Phi_{i_1\ldots i_p}d b_{i_1}\wedge\ldots d b_{i_p},$$
 
 
 where $b_j$ is as above the $j^{th}$ barycentric coordinate function and each $\Phi_{i_1\ldots i_p}$ is a $C^\infty$-function on $\mathbf{\Delta}^n$.
@@ -68,19 +68,19 @@ where $b_j$ is as above the $j^{th}$ barycentric coordinate function and each $\
 
 With this representation the multiplication and differential are given by the usual formulae. The multiplication is defined by $\Phi \wedge \Psi$ and extends linearly the product 
 
-$$(db_{i_1}\wedge\ldots db_{i_p})\wedge (db_{j_1}\wedge\ldots db_{j_q}) = (db_{i_1}\wedge\ldots db_{i_p}\wedge db_{j_1}\wedge\ldots db_{j_q})$$
+$$(d b_{i_1}\wedge\ldots d b_{i_p})\wedge (d b_{j_1}\wedge\ldots d b_{j_q}) = (d b_{i_1}\wedge\ldots d b_{i_p}\wedge d b_{j_1}\wedge\ldots d b_{j_q})$$
 
 on the generating forms. Now if $f$ is a differentiable function
  
-$$df = \sum_{i=1}^{n} \frac{\partial f}{\partial x^i}dx_i,$$ 
+$$d f = \sum_{i=1}^{n} \frac{\partial f}{\partial x^i}d x_i,$$ 
 
 so if 
 
-$$\Phi =\sum_{1\leq i_1\lt \ldots\lt i_p\leq n}\Phi_{i_1\ldots i_p}db_{i_1}\wedge\ldots db_{i_p},$$
+$$\Phi =\sum_{1\leq i_1\lt \ldots\lt i_p\leq n}\Phi_{i_1\ldots i_p}d b_{i_1}\wedge\ldots d b_{i_p},$$
 
 then 
 
-$$d\Phi =\sum_{1\leq i_1\lt\ldots\lt i_p\leq n} d\Phi_{i_1\ldots i_p} \wedge db_{i_1} \wedge \ldots db_{i_p},$$
+$$d\Phi =\sum_{1\leq i_1\lt\ldots\lt i_p\leq n} d\Phi_{i_1\ldots i_p} \wedge d b_{i_1} \wedge \ldots d b_{i_p},$$
 
 
 ##References
@@ -103,3 +103,5 @@ _Infinitesimal computations in topology_, Publications Math&#233;matiques de l'I
 
 [[Tim Porter|Tim]]:  The development of these ideas continues  in a new entry on [[simplicial local system|simplicial local systems]].  
 =--
+
+category: lexicon
