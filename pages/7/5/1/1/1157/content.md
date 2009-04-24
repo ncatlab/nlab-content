@@ -185,3 +185,5 @@ Math. Soc. 25 (230) (1980) ix+171.
 
 [[Tim Porter|Tim]]:  The lexicon  continues on a new entry that goes from  [[differential graded algebras and differential graded Lie algebras-relationships|Differential graded algebras to differential graded Lie algebras and back]].  
 =--
+
+category: lexicon
