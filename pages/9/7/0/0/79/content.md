@@ -23,4 +23,4 @@
 
   * [[group theory|Group Theory]]
 
-  * [[representation theory]]
+  * [[representation theory|Representation Theory]]
