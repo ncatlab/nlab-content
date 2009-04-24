@@ -350,7 +350,7 @@ There is a collection of tools available for _computing_ explicitly the cohomolo
 
   * [[derived category]]
 
-  * [[multiplicative system]] / [[factorization system]]
+  * [[calculus of fractions]] / [[factorization system]]
 
   * [[localization]]
 
