@@ -1,3 +1,11 @@
+#Idea#
+
+It is familiar from topology that one can form the path fibration $P X \to X$ of a [[topological space]]. This can be understood as an example of a general construction where one computes [[homotopy pullback]]s of the [[point]] -- or, if things are not [[groupoid]]al, [[comma object]]s.
+
+Since universal bundles are examples of this construction, we here speak of _generalized universal bundles_. Another appropriate term might be _generalized path fibrations_.
+
+One generalizaton of "generalized universal bundles" is that the objects in question need not be groupoidal, i.e. they behave like [[directed space]]s. In this case the [[homotopy pullback]]s familiar from topology are replaced by [[2-limit|lax limit]]s, or rather by [[comma object]] constructions. This is useful in various applications. For instance the constructions [[category of elements]] and [[Grothendieck construction]] can be understood as such directed homotopy pullbacks of the point.
+
 #Definition#
 
 Let $C$ be a [[closed monoidal category]] with [[interval object]] $I$. Then for any [[pointed object]] $pt \stackrel{pt_B}{\to}B$ in $C$ the **generalized universal $B$-bundle** is (if it exists) the morphism
@@ -30,7 +38,48 @@ $$
 So the object $\mathbf{E}_{pt} := [I,B]\times_{B} pt $ is defined to be the [[pullback]] of the diagram
 $ [I,B] \stackrel{d_1}{\to} B \stackrel{pt_B}{\leftarrow} pt$ and the morphism $\mathbf{E}_{pt}B \to B$ is the composite of the left vertical morphism in the above diagram which comes from the definition of [[pullback]] and $d_0$.
 
+Then a (generalized) "$B$-bundle" on some object $X$ is a morphism $P \to X$ which is the [[pullback]] of the generalized universal $B$-bundle $\mathbf{E}_{pt}$ along a "classifying morphism" $g : X \to B$
+
+$$
+  \array{
+    P &\to& \mathbf{E}_{pt}
+    \\
+    \downarrow && \downarrow
+    \\
+    X &\stackrel{g}{\to}& B
+  }
+$$
+
+This can be understood as a "(directed) [[homotopy pullback]]" of the point:
+
+If one defines, as one does, a (possiby [[directed object|directed]]) homotopy between two morphisms $f,g : A \to B$ to be a morphism $\eta : A \to [I,B]$ such that $d_0^* \eta = f $ and $d_1^* \eta = g$, then $P$ is the "lax pullback" (really [[comma object]]) of the point along $g$ 
+
+$$
+  \array{
+    P &\to& *
+    \\
+    \downarrow &\Downarrow& \downarrow^{pt_B}
+    \\
+    X &\stackrel{g}{\to}& B
+  }
+  \,.
+$$
+
+
+
 The fiber of the generalized universal bundle is the [[loop space object|loop monoid]] $\Omega_{pt} B$:
+
+$$
+  \array{
+    \Omega_{pt} B &\to& P &\to& *
+    \\
+    \downarrow &\Downarrow& \downarrow &\Downarrow& \downarrow^{pt_B}
+    \\
+    * &\to& X &\stackrel{g}{\to}& B
+  }
+  \,.
+$$
+
 
 the sequence
 
