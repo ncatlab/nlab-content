@@ -26,7 +26,7 @@ $$
 $$
 
 Then
-$N Q$ is a left and right [[multiplicative system]] in $C$.
+$N Q$ admits a left and right [[calculus of fractions]] in $C$.
 
 #Examples#
 
