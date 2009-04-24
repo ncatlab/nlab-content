@@ -4,7 +4,7 @@ It is familiar from topology that one can form the path fibration $P X \to X$ of
 
 Since universal bundles are examples of this construction, we here speak of _generalized universal bundles_. Another appropriate term might be _generalized path fibrations_.
 
-One generalizaton of "generalized universal bundles" is that the objects in question need not be groupoidal, i.e. they behave like [[directed space]]s. In this case the [[homotopy pullback]]s familiar from topology are replaced by [[2-limit|lax limit]]s, or rather by [[comma object]] constructions. This is useful in various applications. For instance the constructions [[category of elements]] and [[Grothendieck construction]] can be understood as such directed homotopy pullbacks of the point.
+One generalizaton of "generalized universal bundles" is that the objects in question need not be groupoidal, i.e. they behave like [[directed space]]s. In this case the [[homotopy pullback]]s familiar from topology are replaced by [[comma object]] constructions. This is useful in various applications. For instance the constructions [[category of elements]] and [[Grothendieck construction]] can be understood as such directed homotopy pullbacks of the point.
 
 #Definition#
 
