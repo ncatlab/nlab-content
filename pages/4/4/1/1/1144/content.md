@@ -53,11 +53,58 @@ The following entries provide lexicalic information about basic concepts in diff
 
 * [[differential forms on simplices]]
 
+The following entries discuss many of these differential algebraic structures from the [[Lie theory|Lie theoretic]] perspective, which, recall, is one perspective on what rational homotopy theory is all about:
+
+* [[Lie theory]]
+
+  * [[Lie's three theorems]]
+
+  * [[Lie integration]]
+
+  * [[Lie theory for stacky Lie groupoids]]
+
+* [[Lie infinity-algebroid]]
+
+  * [[NQ-supermanifold]]
+
+  * [[L-infinity-algebra]]
+
+  * [[Lie algebroid]]
+
+  * [[n-Lie algebra]]
+
+  * [[Lie infinity-algebroid representation]]
+
+  * [[Courant algebroid]]
+
+    * [[Lie bialgebroid]]
+
+
 #References#
+
+
+
+A useful introduction to rational homotopy theory is
 
 * Kathryn Hess, _Rational homotopy theory: a brief introduction_ ([arXiv](http://arxiv.org/abs/math.AT/0604626))
 
+A standard textbook is
 
 * Y. F&#233;lix, S. Halperin and J.C. Thomas, _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000. 
 
+
+Early original articles include
+
 * D. Quillen, _Rational Homotopy Theory_, Ann. of Math., (2) 90 (1969), 205-295.
+
+* D. Sullivan, _Infinitesimal computations in topology_ ([pdf](http://archive.numdam.org/ARCHIVE/PMIHES/PMIHES_1977__47_/PMIHES_1977__47__269_0/PMIHES_1977__47__269_0.pdf))
+
+
+The relation to Lie theory was made fully explicit in
+
+* E. Getzler, _Lie theory for nilpotent $L_\infty$-algebras_ ([arXiv](http://arxiv.org/abs/math.AT/0404003))
+
+
+Related blog discussion includes
+
+* _On Lie $N$-tegration and Rational Homotopy Theory_ ([blog](http://golem.ph.utexas.edu/category/2007/10/on_lie_ntegration.html))
