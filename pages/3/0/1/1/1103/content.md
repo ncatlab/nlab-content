@@ -76,7 +76,7 @@ We get obvious full subcategories $pre CDGA$ and $pre \varepsilon CDGA$ correspo
 
 A cdga is a **negatively** graded pre-cdga (in upper grading), $A= \bigoplus_{p\geq 0} A^p.$
 
-There is an augmented variant, of course.  These definitions give categories, $CDGA$, etc.
+There is an augmented variant, of course.  These definitions give categories $CDGA$, etc.
 
 
 
