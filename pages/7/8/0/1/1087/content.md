@@ -105,3 +105,5 @@ There is no real distinction between the two cases in the abstract, but in appli
 
 [[Tim Porter|Tim]]:  The lexicon will continue on a new entry on [[differential graded algebra|differential graded algebras]].  (Yes I know there is [[dg-algebra]] already but as I said before, these lexicon pages are for editing and I am not 100% happy about the terminological conventions on that existing page, nor am I suggesting that this lexicon gets things 'right'!
 =--
+
+category: lexicon
