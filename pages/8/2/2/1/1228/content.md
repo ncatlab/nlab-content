@@ -82,10 +82,11 @@ $$
 
 A natural transformation $\phi: K \to D(a, -)$ assigns to each element $x \in K c$ an element $\phi_c(x) \in D(a, c)$, i.e., an arrow $\phi_c(x): a \to c$. We define a corresponding transformation $\psi: \Delta_a \to \Pi$ which assigns to each object $(c, x \in K c)$ in $(*\darr K)$ the morphism $\phi_c(x): a \to c = \Pi(c, x)$. It is easy to check that the naturality condition on $\phi$ corresponds to the naturality condition on $\psi$, and that the correspondence is bijective.   
 
+
 ## a conceptual proof in terms of comma categories ##
 
 
-[[Set]] classifies discrete fibrations, in the sense that a functor $G : D \to Set$ classifies the discrete fibration
+[[Set]] classifies discrete fibrations, in the sense that a functor $G : D \to Set$ classifies the discrete [[fibration]]
 
 $$
   Q : \Pi_G : El(G) \to D
@@ -100,9 +101,9 @@ $$
 i.e. functor which commute on the nose with the projections $\Pi_G$, $\Pi_F$ to the base category $D$).
 
 
-This applies in particular to $F = hom(a,-)$. Notice the category of elements $El(hom(a,-))$ is the co-slice $(a \downarrow D)$, with its usual projection $\Pi$ to $D$.
+This applies in particular to $F = hom(a,-)$. Notice the [[category of elements]] $El(hom(a,-))$ is the co-slice $(a \downarrow D)$, with its usual projection $\Pi$ to $D$.
 
-However, the [[comma category]] $(a \downarrow D)$ is the lax pullback appearing in
+However, the [[comma category]] $(a \downarrow D)$ is the "lax pullback" (really, the [[comma object]], the discussion at [[2-limit]]) appearing in
 
 $$
   \array{
