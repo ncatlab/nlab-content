@@ -165,3 +165,5 @@ D. Quillen, Rational Homotopy Theory, Ann. of Math., (2) 90 (1969), 205-295.
 
 [[Tim Porter|Tim]]:  The lexicon  continues on a new entry on [[bar and cobar construction|bar and cobar constructions]].  
 =--
+
+category: lexicon
