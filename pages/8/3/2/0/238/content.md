@@ -16,6 +16,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
+  * came across the useful interrelation diagram and associated literature list on "enhancements of triangulated categories" [here](http://www.math.uni-bonn.de/people/schwede/EnhancedSeminar.pdf) and added this to [[stable (infinity,1)-category]], together with some links it suggests, to entries still to be created -- I am hoping we'll eventually be able to accumulate a good collection of material on this topic
+
+  * added Lie $\infty$-links to [[rational homotopy theory]]
+
   * added missing links back and forth between [[Yoneda extension]] and [[free cocompletion]]
 
   * added to [[generalized universal bundle]] the remark that it is a means to compute the "lax pullback" (really: [[comma object]]) of a point.
