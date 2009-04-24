@@ -138,7 +138,7 @@ $$
   \array{
     \wedge^\bullet V &\leftarrow& CE_\rho(g)
     \\
-    \downarrow && \downarrow
+    \uparrow && \uparrow
     \\
     0 &\leftarrow & CE_A(g)
   }
