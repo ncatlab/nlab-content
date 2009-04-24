@@ -199,3 +199,5 @@ The differential on $L\star L'$ is the unique Lie algebra derivation extending $
 
 [[Tim Porter|Tim]]:  The lexicon will continue with a new entry on [[differential graded Hopf algebra|differential graded Hopf algebras]].  
 =--
+
+category: lexicon
