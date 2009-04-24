@@ -34,20 +34,20 @@ In the following examples, $D$ is a [[small category]], $C$ is any category and 
 the limit of $F : D^{op} \to C$ is always a [[nLab:subobject|subobject]] of the [[nLab:product|product]] of the $F(d)$, namely the [[nLab:equalizer|equalizer]] of
 
 $$
-  \prod_{d \in Obj(d)}
+  \prod_{d \in Obj(D)}
   F(d)
-  \stackrel{\prod_{f \in Mor(d)} (F(f) \circ p_{t(f)}) }{\to}  
-  \prod_{f \in Mor(d)}
+  \stackrel{\prod_{f \in Mor(D)} (F(f) \circ p_{t(f)}) }{\to}  
+  \prod_{f \in Mor(D)}
   F(s(f))
 $$
 
 and
 
 $$
-  \prod_{d \in Obj(d)}
+  \prod_{d \in Obj(D)}
   F(d)
-  \stackrel{\prod_{f \in Mor(d)} (p_{s(f)}) }{\to}  
-  \prod_{f \in Mor(d)}
+  \stackrel{\prod_{f \in Mor(D)} (p_{s(f)}) }{\to}  
+  \prod_{f \in Mor(D)}
   F(s(f))  
   \,.
 $$
