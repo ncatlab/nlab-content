@@ -7,18 +7,18 @@ The analogue of the category of elements for functors landing in $Cat$, rather t
 
 #Definition#
 
-Given a functor $P:C^{\mathrm{op}}\to\mathbf{Set}$ (a [[presheaf]] of sets on $C$), the **category of elements**$ \int_C P$ of $P$ is equivalently
+Given a functor $P:C^{\mathrm{op}}\to\mathbf{Set}$ (a [[presheaf]] of sets on $C$), the **category of elements**$ \int_C P$ of $P$ may be understood in any of these equivalent ways:
 
-* The [[category]] whose objects are pairs $(c,x)$ where $c$ is an object in $C$ and $x$ is an element in $P(c)$ and morphisms $(c,x)\to(c',x')$ are morphisms $u:c\to c'$ such that $P(u)(x') = x$.
+* It is the [[category]] whose objects are pairs $(c,x)$ where $c$ is an object in $C$ and $x$ is an element in $P(c)$ and morphisms $(c,x)\to(c',x')$ are morphisms $u:c\to c'$ such that $P(u)(x') = x$.
 
-* The [[comma category]] $(Y/P)$, where $Y$ is the [[Yoneda embedding]] $C\to [C^{op},Set]$ and $P$ is the functor $*\to [C^{op},Set]$ which picks out $P$ itself:
+* It is the [[comma category]] $(Y/P)$, where $Y$ is the [[Yoneda embedding]] $C\to [C^{op},Set]$ and $P$ is the functor $*\to [C^{op},Set]$ which picks out $P$ itself:
 $$\array{ \int_C P &\overset{\pi_P}{\to}& C \\ \downarrow &\Downarrow& \downarrow^{Y} \\ * & \underset{P}{\to}& [C^{op},Set].}$$
 
-* The [[opposite category|opposite]] of the [[pullback]] along $F$ of the [[generalized universal bundle|universal Set-bundle]] $U : Set_* \to Set$
+* Its [[opposite category|opposite]] is the [[pullback]] along $F$ of the [[generalized universal bundle|universal Set-bundle]] $U : Set_* \to Set$
 $$\array{ (\int_C P)^{op} &\to& Set_* \\ \downarrow^{\pi_P^{op}} && \downarrow^U \\ C^{op} &\to& Set}\,,$$
 where $U$ is the [[forgetful functor]] from [[pointed set]]s to sets.
 
-* The opposite of the [[comma category]] $(*/P)$, where $*$ is the inclusion of the one-point set $*:*\to Set$ and $P:C^{op}\to Set$ is itself:
+* Its opposite is the [[comma category]] $(*/P)$, where $*$ is the inclusion of the one-point set $*:*\to Set$ and $P:C^{op}\to Set$ is itself:
 $$\array{ (\int_C P)^{op} &\to& * \\ \downarrow^{\pi_P^{op}} &\Downarrow& \downarrow^{pt} \\ C^{op} &\to& Set.}$$
 
 
