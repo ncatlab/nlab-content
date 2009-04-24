@@ -64,11 +64,13 @@ satisfying the simplicial identities.
 
 ###Remark###
 
-There is an obvious way of assigning a small category to a simplicial set in which the simplices are the objects and the face and degeneracy maps generate the morphisms.  A local system is then just a functor from that category to $\mathcal{C}$.
+There is an obvious way of assigning a small category to a simplicial set in which the simplices are the objects and the face and degeneracy maps generate the morphisms.  A simplicial local system is then just a functor from that category to $\mathcal{C}$.
 
 +-- {: .query}
 
 [[Urs Schreiber|Urs]]: Here it says "a local system". I suppose "simplicial local system" is meant? We should have a discussion about how this notion of simplicial local system relates to the functors from fundamental groupoids discussed at [[local system]].
+
+[[Tim Porter|Tim]]: That has been amended! Halperin just calls them 'local systems', so in the notes that were the basis for this so did I. I copied and pasted from them, so this slip may occur elsewhere as well.
 
 =--
 
@@ -94,6 +96,8 @@ $$\Phi_{d_i\sigma} = d_i(\Phi_\sigma) \quad  and  \quad \Phi_{s_i\sigma}  = s_i(
 
 For ordinary [[local system]]s this gives the flat sections. 
 
+[[Tim Porter|Tim]]: I'm not sure.
+
 =--
 
 
@@ -116,5 +120,7 @@ Now suppose $F$ is a local system over $K$.  Assume $M_n \subset K_n$ are subset
 +-- {: .query}
 
 [[Urs Schreiber|Urs]]: So what are simplicial local systems used for? Is there a good motivating example? Relating it to the other definition of [[local system]], maybe?
+
+[[Tim Porter|Tim]]: Aha! All will be revealed in the next entry 'Differential forms on a simplicial set' ... when I get to putting it in!  There is some more to go here as well, describing special properties, but it was getting late last night. 
 
 =--
