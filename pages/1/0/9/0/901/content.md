@@ -91,7 +91,7 @@ Another, equivalent, definition is to let $ind$-$C$ be the [[full subcategory]] 
 
 There is a notion of [[ind-object in an (infinity,1)-category]].
 
-With regard to the third of the properties listed above, notice that the [[comma category]] $(Y,const_F)$ is the [[pullback]] of the [[generalized universal bundle|universal Set-bundle]] $U : Set_* \to Set$ along $F : C^{op} \to Set$. This means that the [[stuff, structure, property|forgetful functor]]
+With regard to the third of the properties listed above, notice that the [[comma category]] $(Y,const_F)$ is the [[category of elements]] of $F$, i.e. the [[pullback]] of the [[generalized universal bundle|universal Set-bundle]] $U : Set_* \to Set$ along $F : C^{op} \to Set$. This means that the [[stuff, structure, property|forgetful functor]]
 $
   (Y,const_F) \to C
 $
