@@ -24,8 +24,6 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * added the discussion and diagram at [[comma category]] characterizing it as a [[comma object]] 
 
-    * (and notice that [[comma object]] seems to be lacking the intended diagram)
-
     * added link and remark to [[comma object]] and [[comma category]] at [[co-Yoneda lemma]]
 
   * made the comma category explicit on which a [[simplicial local system]] is a functor
