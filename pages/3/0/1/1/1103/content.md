@@ -173,3 +173,5 @@ Baues (in his book on _Algebraic Homotopy_) has suggested using the terminology 
 
 [[Tim Porter|Tim]]:  This lexicon will continue with a new entry on [[differential graded coalgebra|differential graded coalgebras]].  (Yes, I know there is [[CoDGCA]] already but as I said before, these lexicon pages are for editing once they are 'there'.
 =--
+
+category: lexicon
