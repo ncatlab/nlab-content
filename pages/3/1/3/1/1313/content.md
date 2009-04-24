@@ -16,27 +16,35 @@ As with other [[universal construction]]s, an exponential object, if any exists,
 
 # Related notions #
 
-If $X^Y$ exists, then we say that $X$ __exponentiates__ $Y$ or that $Y$ is __exponentiable__ by $X$.
+Let $C$ be a category with finite products and $X,Y\in C$.
 
-More generally, an object $Y$ of a category $C$ is __exponentiable__ if all products with $Y$ exist and $X^Y$ exists for every object $X$ of $C$.  Then $C$ is __[[cartesian closed category|cartesian closed]]__ if it has a [[terminal object]] and every object is exponentiable.
+* If $X^Y$ exists, then we say that $X$ __exponentiates__ $Y$ or that $Y$ is __exponentiable__ by $X$.
 
-More generally, a morphism $Y \to A$ is __exponentiable__ when it is exponentiable in the [[over category]] $C/A$.  Then $C$ is __[[locally cartesian closed category|locally cartesian closed]]__ if every morphism is exponentiable.
+* If $Y$ is such that $X^Y$ exists for all $X$, we say that $Y$ is __exponentiable__.  Then $C$ is __[[cartesian closed category|cartesian closed]]__ if  every object is exponentiable.
 
-+--{: .query}
-Wow, really?  I don\'t really use that word, but the other concept seems more important to me.  Although I suppose that this concept gives you theorems like the closure of exponentiable objects under coproduct in a lextensive category.
+* More generally, a morphism $Y \to A$ is __exponentiable__ when it is exponentiable in the [[over category]] $C/A$.  Then $C$ is __[[locally cartesian closed category|locally cartesian closed]]__ if every morphism is exponentiable.
 
-No matter.  But is there a term for the other way around?  ---[[Toby Bartels]]
+* Conversely, if $X$ is such that $X^Y$ exists for all $Y$, we say that $X$ __exponentiates__.  Again, $C$ is __cartesian closed__ if every object is exponentiates.
 
-[[Mike Shulman|Mike]]: Why do you say the other concept seems more important?  I think in most cases, the existence of $X^Y$ is more related to properties of $Y$ than properties of $X$.  For instance, in [[Top]] $X^Y$ exists whenever $Y$ is locally compact Hausdorff.  Similar characterizations hold for locales and toposes.  In [[algebraic set theory]] one often assumes that only small objects (and morphisms) are exponentiable, analogously to how in material set theory you can talk about the class of functions $Y\to X$ when $Y$ is a set and $X$ a class, but not the other way round.  But no examples come immediately to mind of an object $X$ in a non-cartesian-closed category such that $X^Y$ exists for all $Y$ (other than stupid examples like $X=0$ and $X=1$).
+If $C$ instead has finite _coproducts_, then a __coexponential object__ in $C$ is an exponential object in the [[opposite category]] $C^{op}$.  A __[[cocartesian closed category]]__ has all of these.
 
-_Toby_:  Yeah, I think was getting things backwards.  But here\'s an example for the other version:  in [Abstract Stone Duality](http://www.paultaylor.eu/ASD/), Sierpinski space exponentiates (to coin a term).  Similarly, a recent comment of mine on the Caf&#233; argued that predicative mathematics can have a set of truth values as long as it doesn\'t exponentiate (or even exponentiates only finite sets).
 
-In fact, I thought of some properties, so I\'m going to go ahead and define my new term.
-=--
+# Examples #
 
-Conversely, an object $X$ of a [[cartesian monoidal category]] $C$ __exponentiates__ if $X^Y$ exists for every object $Y$ of $C$.  Again, $C$ is __cartesian closed__ if every object is exponentiates.
+Of course, in any cartesian closed category every object is exponentiable and exponentiates.  In general, exponentiable objects are more common and important than exponentiating ones, since the existence of $X^Y$ is usually more related to properties of $Y$ than properties of $X$.
 
-A __coexponential object__ in $C$ is an exponential object in the [[opposite category]] $C^op$.  A __[[cocartesian closed category]]__ has all of these.
+* In [[Top]] (the category of _all_ topological spaces), locally compact Hausdorff spaces are exponentiable.  Note, though, that most [[nice category of spaces|nice categories of spaces]] are cartesian closed.
+
+* There are similar characterizations of exponentiable [[locale]]s and [[topos]]es.
+
+* In [[algebraic set theory]] one often assumes that only small objects (and morphisms) are exponentiable.  This is  analogous to how in material [[set theory] one can talk about the class of functions $Y\to X$ when $Y$ is a set and $X$ a class, but not the other way round.
+
+However, exponentiating objects do exist.
+
+* In [Abstract Stone Duality](http://www.paultaylor.eu/ASD/), Sierpinski space exponentiates.
+
+* [[Toby Bartels]] has argued that predicative mathematics can have a set of truth values as long as this set doesn\'t exponentiate (or even exponentiates only finite sets).
+
 
 # Properties #
 
@@ -52,8 +60,8 @@ Other natural isomorphisms that match equations from ordinary algebra include:
 
 These show that, in a cartesian monoidal category, a product of exponentiating objects also exponentiates.
 
-Now suppose that $C$ is an [[extensive category]].  Then we have these isomorphisms:
+Now suppose that $C$ is a [[distributive category]].  Then we have these isomorphisms:
 *  $X^{Y + Z} \cong X^Y \times X^Z$;
 *  $X^0 \cong 1$.
 
-Here $Y + Z$ is a [[coproduct]] of $Y$ and $Z$, while $0$ is an [[initial object]].  Thus in an extensive category, the exponentiable objects are closed under coproducts.  Note that any cartesian closed category with finite coproducts must be extensive, so all of these isomorphisms hold in any closed [[2-rig]].
+Here $Y + Z$ is a [[coproduct]] of $Y$ and $Z$, while $0$ is an [[initial object]].  Thus in a distributive category, the exponentiable objects are closed under coproducts.  Note that any cartesian closed category with finite coproducts must be distributive, so all of these isomorphisms hold in any closed [[2-rig]].
