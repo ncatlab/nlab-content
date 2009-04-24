@@ -86,7 +86,7 @@ type, or shape theoretic, system of $\pi_1$s of 'hypercoverings'.
 Can [[shape
 theory]] (or its more powerfully structured 'strong' or 'homotopy coherent' version,
 cf. Lisica and Marde&#353;i&#263;, Edwards and Hastings, Porter
-(papers 1976-78) be useful for studying &#233;tale homotopy
+(papers 1976--78) be useful for studying &#233;tale homotopy
 type?  Not without extra work, since the Artin--Mazur--Verdier approach leads  
 one  to look at inverse systems in $proHo(\mathbf{S})$, i.e. inverse systems
 (diagrams) in a homotopy category not a homotopy category of inverse systems
