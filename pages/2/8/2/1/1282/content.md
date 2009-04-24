@@ -140,7 +140,7 @@ I'll start with the definition of coproduct, which I've lightly edited from Sect
 
 * [_Categories for the Working Mathematician_], by Saunders Mac Lane.
 
-> For any [[category]] $C$, a _coproduct diagram_ consists of [[object|objects]] $a$, $b$ and $c$ of $C$, and a pair of [[arrow|arrows]] $i:a\to c$ and $j:b\to c$. This pair has the familiar [[universal property]]: For any pair of arrows $f:a\to d$ and $g:b\to d$, there is a unique arrow $h:c\to d$, such that $f = i;h$ and $g = j;h$.
+> For any [[category]] $C$, a _coproduct diagram_ consists of [[object|objects]] $a$, $b$ and $c$ of $C$, and a pair of [[morphism|arrows]] $i:a\to c$ and $j:b\to c$. This pair has the familiar [[universal property]]: For any pair of arrows $f:a\to d$ and $g:b\to d$, there is a unique arrow $h:c\to d$, such that $f = i;h$ and $g = j;h$.
 
 Before going on to an example, I must just explain that I am using semicolon to denote composition, with the meaning that $(i;h)(x)$ = $h(i(x))$. That is, we apply $i$ first, then $h$. As the page on [[composition]] explains, this is an alternative to the standard mathematical notation $h \circ i$: computer scientists often prefer the semicolon notation, because it reflects the order in which the functions get applied.
 
