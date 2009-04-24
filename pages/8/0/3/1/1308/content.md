@@ -42,9 +42,9 @@ where the desired results involve the first, middle, and last expressions.
 
 # Corollaries #
 
-A $2$-[[k-tuply monoidal n-category|tuply monoidal]] $0$-[[0-category|category]], if defined as a [[pointed object|pointed]] $2$-[[k-tuply connected n-category|tuply connected]] [[bicategory]] is also the same as an abelian monoid.
+A $2$-[[k-tuply monoidal n-category|tuply monoidal]] $0$-[[0-category|category]], if defined as a [[pointed object|pointed]] [[k-tuply connected n-category|simply connected]] [[bicategory]] is also the same as an abelian monoid.
 
-A $2$-tuply monoidal $1$-[[1-category|category]], if defined as a pointed $2$-tuply connected [[tricategory]], is the same as a [[braided monoidal category]].
+A $2$-tuply monoidal $1$-[[1-category|category]], if defined as a pointed simply connected [[tricategory]], is the same as a [[braided monoidal category]].
 
 Every [[homotopy group]] $\pi_n$ for $n \geq 2$ is [[abelian group|abelian]].
 
