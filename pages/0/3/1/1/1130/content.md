@@ -192,3 +192,5 @@ $$F_p T'(V) = T^{\leq p}(V) = \bigoplus_{k\leq p} T^k(V).$$
 
 [[Tim Porter|Tim]]:  The lexicon  continues on a new entry on [[differential graded Lie algebra|differential graded Lie algebras]].  
 =--
+
+category: lexicon
