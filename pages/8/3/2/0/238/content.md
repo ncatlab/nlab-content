@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-04-24 #
+
+* [[Urs Schreiber|Urs]]: have some questions at [[simplicial local system]]
+
 # 2009-04-23 #
 
 * [[Mike Shulman|Mike]]: Since no one objected to my proposal on how to resolve the duplication between [[category of fractions]] and [[multiplicative system]], I implemented it.  The relevant material is now at [[calculus of fractions]].  I deleted a bit of the material about derived functors because it was not really specific to calculi of fractions, belonging more at [[derived functor]].
