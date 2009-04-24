@@ -18,4 +18,6 @@ In general, a $1$-foo should always be the same as a foo, as with $1$-category, 
 I have no opinion about 'tuply'; it just came naturally to me since I was thinking about $k$-tuple monoidality.
 
 [[Mike Shulman|Mike]]: Yeah, I agree that in general it is better if a 1-foo is the same as an unadorned foo, but not everyone has adhered to that.  [Wikipedia](http://en.wikipedia.org/wiki/N-connected) agrees with me about the meaning of $k$-connected in topology.
+
+_Toby_:  All right, I\'ll change the numbering and move the page.  But what do you think about '$k$-simply connected'?  This doesn\'t seem to have any conflicts, although search for '$m$-simply connected' to see what might be potential conflicts ---or might actually agree with me (I haven\'t been able to check).
 =--
