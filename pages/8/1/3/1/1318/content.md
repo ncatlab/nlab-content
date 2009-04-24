@@ -158,7 +158,7 @@ Now suppose $F$ is a local system over $K$.  Assume $M_n \subset K_n$ are subset
 [[Tim Porter|Tim]]: Aha! All will be revealed in the next entry 'Differential forms on a simplicial set' ... when I get to putting it in!  There is some more to go here as well, describing special properties, but it was getting late last night. 
 
 =--
-+-- {: .lemma }
++-- {: .un_lemma }
 ###### Lemma 
 
 Suppose $\Phi_\sigma \in F^p_\sigma$ ( $\sigma \in M_n$), $n \geq 0$, satisfy $\Phi_{d_i\sigma} = d_i\Phi_\sigma$ and $\Phi_{s_i\sigma} = s_i\Phi_\sigma$ (this is with $s_i\sigma\in M_n$, and $n\geq 0$). Then there is a unique element $\Phi\in F^p(L)$ extending $\Phi_\sigma$.
@@ -166,13 +166,13 @@ Suppose $\Phi_\sigma \in F^p_\sigma$ ( $\sigma \in M_n$), $n \geq 0$, satisfy $\
 
 The proof is by induction and can be found in Halperin's notes if required.
 
-For any simplicial set $K$, any $n$-simplex $\sigma \in K_n$ determines a unique simplicial map, which we will also write as $\sigma$ from $\Delta[n]$ to $K$ that sends the unique non-degenerate $n$-simplex of the standard $n$-simplex $\Delta[n]$ to the element $\sigma$. In particular, if $F$ is a local system over $K$, then we can form $\sigma^*F$ over $\Delta[n]$. We will say that $F$ is \emph{extendable} if for each $\sigma$ the restriction 
+For any simplicial set $K$, any $n$-simplex $\sigma \in K_n$ determines a unique simplicial map, which we will also write as $\sigma$ from $\Delta[n]$ to $K$ that sends the unique non-degenerate $n$-simplex of the standard $n$-simplex $\Delta[n]$ to the element $\sigma$. In particular, if $F$ is a local system over $K$, then we can form $\sigma^*F$ over $\Delta[n]$. We will say that $F$ is _extendable_ if for each $\sigma$ the restriction 
 
 $$\sigma^*(F)(\Delta[n]) \to \sigma^*(F)(\partial\Delta[n])$$
 
 is surjective, where $\partial\Delta[n]$ is the boundary of the $n$-simplex.
 
-+-- {: .prop }
++-- {: .un_prop }
 ######Proposition
 
 Suppose $\varphi :L \to K$ is a simplicial map and $F$ is an extendable system over $K$, then $\varphi^*F$ is an extendable local system over $L$.
@@ -180,7 +180,7 @@ Suppose $\varphi :L \to K$ is a simplicial map and $F$ is an extendable system o
 =--
 The proof is easy.
 
-+-- {: .prop }
++-- {: .un_prop }
 ######Proposition
 Suppose that $L\subset K$ is a subsimplicial set and $F$ is an extendable local system over $K$.  Then the restriction morphism $F(K)\to F(L)$ is surjective.
 =--
@@ -202,7 +202,7 @@ $$d_i^* : H(F_\sigma) \to H(F_{d_i\sigma}) \quad  and  s_i^* : H(F_\sigma) \to H
  are isomorphisms, in other words if the corresponding cohomology is a local system of coefficients.
 
 
-+-- {: .theorem }
++-- {: .un_theorem }
 ######Theorem
 
 Let $F$ and $G$ be extendable local systems of differential coefficients over $K$.  Assume we are given morphisms
@@ -216,3 +216,4 @@ $$\varphi^* : H(F(K))\to H(G(K))$$
 is an isomorphism.
 =--
 
+category: lexicon
