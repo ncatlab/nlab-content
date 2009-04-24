@@ -178,4 +178,4 @@ In particular there is a natural injection $(\#V)\otimes (\#W) \to \#(V\otimes W
 A [[differential object]] in the category of gvs is a [[differential graded vector space]] or dgvs. This is just a [[chain complex]] or cochain complex.
 =--
 
-
+category: lexicon
