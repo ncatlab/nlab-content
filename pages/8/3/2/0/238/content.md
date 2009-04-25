@@ -12,6 +12,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-04-25 #
+
+
+* [[Urs Schreiber|Urs]]: 
+
+  * expanded [[A-infinity-operad]]: a bit about associahedra, but mostly more detailed links to references
+
 # 2009-04-24 #
 
 * [[Urs Schreiber|Urs]]
