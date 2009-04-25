@@ -17,7 +17,7 @@ $C$, a **category over the operad** $O$, or **$O$-category** $D$ is
 object of **morphisms** from $x$ to $y$ in $D$;
 
 * for each [[natural number]] $n$ and each sequence $x_0, x_1, \cdots, x_n$
-of objects of $D$ a morphism
+of objects of $D_0$ a morphism
 $$ comp_{(x_0, \cdots, x_n} : \left(D(x_0,x_1) \otimes D(x_1,x_2) 
 \otimes \cdots \otimes C(x_{n-1},x_n) \right) \otimes O(n) \to D(x_0, x_n)$$
 called the **$n$-ary composition** operation;
@@ -37,7 +37,12 @@ i.e. a [[locally small category]].
 $A$-category is a [[Vect]]-[[enriched category]].
 
 * We may regard the operad $A$ as a dg-operad i.e. an operad in 
-the category of [[chain complex]]es. As such, $A$ has a 
-resolution, the operad $A_\infty$. An 
+the category of [[cochain complex]]es. As such, $A$ has a 
+resolution, the [[A-infinity-operad]] operad $A_\infty$. An 
 $A_\infty$-category is an [[A-infinity-category]] (see there).
 
+* A class of definitions of [[infinity-category|infinity-categories]] is operadic in this sense, or in a generalization thereof. See
+
+  * [[Trimble n-category]]
+
+  * Eugenia Cheng, _Comparing operadic definitions of $n$-category_ ([arXiv](http://arxiv.org/abs/0809.2070))
