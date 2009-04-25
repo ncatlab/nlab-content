@@ -5,11 +5,11 @@ The 1-categorical analog of the discussion is this entry is at [[category of she
 #Idea#
 
 For any [[(infinity,1)-category]] $C$ every [[(infinity,1)-functor]] $\bar {(-)} : C \to D$ which admits a [[(infinity,1)-fully faithful functor|fully faithful]] [[adjoint (infinity,1)-functor|right adjoint]] -- equivalently every [[(infinity,1)-functor]] $L : C \to C$ which is 
-[[adjoint (infinity,1)-functor|left adjoint]] to the inclusion $L C \hookrightarrow C$ of its [[essential image|essential image]] $L C$ into $C$ -- is characterized by the collection $W$ of [[morphism|morphisms]] which it sends to [[(infinity,1)-equivalence|equivalences]]. One can think of it 
+[[adjoint (infinity,1)-functor|left adjoint]] to the inclusion $L C \hookrightarrow C$ of its [[essential image|essential image]] $L C$ into $C$ -- is a [[localization of an (infinity,1)-category]] onto a [[reflective (infinity,1)-subcategory]] characterized by the collection $W$ of [[morphism|morphisms]] which it sends to [[(infinity,1)-equivalence|equivalences]]. One can think of it 
 
 * as _inverting_ these morphisms;
 
-* as projecting onto those objects of $C$ which are [[(infinity,1)-local object|local]] with respect to these morphsims: those objects which sees $W$ as a collection of equivalences.
+* as projecting onto those objects of $C$ which are [[local object|local]] with respect to these morphsims: those objects which sees $W$ as a collection of equivalences.
 
 Using the familiar characterization of the [[category of sheaves]] in the 1-categorical context, this straightforwardly suggests to characterize 
 _$(\infinity,1)$-categories $Sh(S)$ of $(\infty,1)$-sheaves_ -- also called (Grothendieck-Rezk-Lurie) [[(infinity,1)-topos|(infinity,1)-topoi]] as essential images of [[exact (infinity,1)-functor|left exact]] $(\infty,1)$-functors 
@@ -27,6 +27,7 @@ $$
   Sh(S) \hookrightarrow PSh(S)
   \,.
 $$
+
 
 #Examples#
 
