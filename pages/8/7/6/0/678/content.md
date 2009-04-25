@@ -24,9 +24,100 @@ In more illustrative language this means that a simplicial presheaf on $S$ can b
 
 * There are various useful [[model category]] structures on the category of simplicial presheaves. See [[model structure on simplicial presheaves]].
 
+#Properties#
+
+Here are some basic but useful facts about simplicial presheaves.
+
+**Proposition**
+
+Every simplicial presheaf $X$ is a 
+[[homotopy limit|homotopy colimit]] over a [[diagram]]
+of [[Set]]-valued sheaves regarded as discrete simplicial sheaves.
+
+More precisely, for $X : S^{op} \to SSet$ a simplicial presheaf, 
+let $D_X : \Delta^{op} \to Set \hookrightarrow SSet$ be
+given by $D_X : [n] \mapsto X_n$. Then there is a weak equivalence
+
+$$
+  hocolim_{[n] \in \Delta} D_X([n]) \stackrel{\simeq}{\to} X
+  \,.
+$$
+
+Proof. See for instance [remark 2.1, p. 6](http://www.math.uiuc.edu/K-theory/0563/spre.pdf#page=6)
+
+* Daniel Dugger, Sharon Hollander, Daniel C. Isaksen, _Hypercovers and simplicial presheaves_ ([web](http://www.math.uiuc.edu/K-theory/0563/)) 
+
+(which is otherwise about [[descent for simplicial presheaves]]).
+
+
+**Corollary**
+
+Let $[-,-] : SSet^{S^{op}} \to SSet$ be the canonical $SSet$-enrichment of the category of simplicial presheaves (i.e. the assignment of [[SSet]]-[[enriched functor category|enriched functor categories]]).
+
+It follows in particular from the above that every such [[hom-object]] $[X,A]$ of simplical presheaves can be written as a [[homotopy limit]] (in [[SSet]] for instance realized as a [[weighted limit]], as described there) over evaluations of $X$.
+
+First the above yields
+
+$$
+  \begin{aligned}
+     [X, A ]  & \simeq [ hocolim_{[n] \in \Delta} X_n , A ]
+  \\
+      & holim_{[n] \in \Delta} [X_n, A]
+  \end{aligned}
+  \,.
+$$
+
+Next from the [[co-Yoneda lemma]] we know that the [[Set]]-valued presheaves $X_n$ are in turn colimits over representables in $S$, so that
+
+$$
+  \begin{aligned}
+     \cdots & \simeq 
+     holim_{[n] \in \Delta} 
+     [ colim_i U_{i}, A]
+     \\
+     & \simeq
+     holim_{[n] \in \Delta} lim_i
+     [  U_{i}, A]       
+  \end{aligned}
+  \,.
+$$
+
+And finally the [[Yoneda lemma]] reduces this to
+
+$$
+  \begin{aligned}
+     \cdots
+      & 
+     holim_{[n] \in \Delta} lim_i
+     A(U_i)            
+  \end{aligned}
+  \,.
+$$
+
+
+Notice that these kinds of computations are in particular often used when checking/computing [[descent and codescent]] along a [[cover]] or [[hypercover]]. For more on that in the context of simplicial presheaves see [[descent for simplicial presheaves]].
+
+
+#Related entries#
+
+* [[model structure on simplicial presheaves]]
+
+* [[descent for simplicial presheaves]]
+
+* [[infinity-stack homotopically]]
+
+Applications appear for instance at
+
+* [[geometric infinity-function theory]]
+
 #References#
 
 The theory of simplicial presheaves and of simplicial sheaves was developed by J. Jardine in a long series of articles, some of which are listed below. It's usage as a model for [[infinity-stack]]s was developed by To&#235; as described at [[infinity-stack homotopically]].
 
 * **JardStackSSh** -- J. Jardine, _Stacks and the homotopy theory of simplicial sheaves_, Homology, homotopy and applications, vol. 3(2), 2001 p. 361-284 ([pdf](http://intlpress.com/HHA/v3/n2/a5/v3n2a5.pdf))
 * **JardSimpSh** -- J. Jardine, _Fields Lectures: Simplicial presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
+
+For their interpretation in the more general context of [[(infinity,1)-category of (infinity,1)-sheaves|(infinity,1)-sheaves]] see [section 6.5.2]() of
+
+*  [[Jacob Lurie]], [[Higher Topos Theory]] .
+
