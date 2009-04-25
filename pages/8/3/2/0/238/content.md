@@ -17,9 +17,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
+  * created [[reflective (infinity,1)-subcategory]] and [[localization of an (infinity,1)-category]]
+
   * created [[hypercompletion]] and [[descent for simplicial presheaves]]
 
-  * created [[associahedron]]
+  * created [[associahedron]] (see the discussion with [[Jim Stasheff]] over at the blog, [here](http://golem.ph.utexas.edu/category/2009/04/categorification_and_topology.html#c023441))
 
   * expanded [[A-infinity-operad]]: a bit about associahedra, but mostly more detailed links to references
 
