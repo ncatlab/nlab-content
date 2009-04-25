@@ -177,18 +177,21 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
 ##5 Presentable and Accessible $\infty$-Categories##
 
-* [[cardinal number]]
-
-* [[filtered (infinity,1)-category]]
-
 * [[ind-object in an (infinity,1)-category]]
 
-* [[compact object in an (infinity,1)-category]]
+  * [[cardinal number]]
 
-* [[accessible (infinity,1)-category]]
+  * [[filtered (infinity,1)-category]]
 
-* [[presentable (infinity,1)-category]]
+  * [[compact object in an (infinity,1)-category]]
 
+  * [[accessible (infinity,1)-category]]
+
+  * [[presentable (infinity,1)-category]]
+
+* [[localization of an (infinity,1)-category]]
+
+  * [[reflective (infinity,1)-subcategory]]
 
 ##6 $\infty$-Topoi##
 
@@ -198,13 +201,20 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
 * [[(infinity,1)-category of (infinity,1)-sheaves]]
 
-  * [[simplicial presheaf]]
+  * [[hypercompletion]]
 
-  * [[model structure on simplicial presheaves]]
+  * [[derived stack]]
+
+* [[model structure on simplicial presheaves]]
+
+  * [[simplicial presheaf]]
 
   * [[infinity-stack homotopically]]
 
   * [[infinity-stackification]]
+
+  * [[descent for simplicial presheaves]]
+
 
 
 ##7 Higher Topos Theory in Topology
