@@ -1,3 +1,7 @@
+This entry is about models/presentations for an [[(infinity,1)-category of (infinity,1)-sheaves]] in terms of [[model category|model categories]] of $\infty$-presheaves, in particular in terms of the Brown-Joyal-Jardine [[model structure on simplicial presheaves]]. 
+
+For other notions see [[infinity-stack]] and in general see [[Higher Topos Theory]].
+
 #Idea#
 
 From one perspective, [[sheaf|sheaves]], [[stack|stacks]], [[infinity-stack|infinity-stacks]] on a given site $S$ with their [[descent and codescent|descent conditions]] are nothing but a way of talking about the [[infinity-category]] of [[infinity-category|infinity-categories]] modeled on $S$, in  the sense of [[space and quantity]]: the $\infty$-category of $\infty$-category-valued [[presheaf|presheaves]]/[[sheaf|sheaves]] on $S$.
