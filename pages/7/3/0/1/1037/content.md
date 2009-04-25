@@ -193,6 +193,8 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
   * [[reflective (infinity,1)-subcategory]]
 
+  * [[local object]]
+
 ##6 $\infty$-Topoi##
 
 * [[infinity-topos]]
