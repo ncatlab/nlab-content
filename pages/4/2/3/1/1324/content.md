@@ -2,7 +2,14 @@
 
 The $A_\infty$-operad is the free resolution 
 in the context of dg-operads of the linear
-associative [[operad]] $A$. 
+associative [[operad]] $A$.
+
++--{: .query}
+[[Mike Shulman|Mike]]: Evidently some people use the terminology this way, but for many people there is no 'the' $A_\infty$-operad.  Rather _an_ $A_\infty$-operad is any operad equivalent to the associative operad (in whatever enrichment we are working).  Likewise, an $A_\infty$-algebra is an algebra for _some_ $A_\infty$-operad.
+
+If we want a page about this particular operad, could we call it maybe [[standard linear A-infinity-operad]]?  Or [[linear Stasheff operad]] since, as Jim Stasheff pointed out at the cafe, it is the operad of cellular chains on the standard topological $A_\infty$-operad of associahedra?
+=--
+
 
 #Definition#
 
