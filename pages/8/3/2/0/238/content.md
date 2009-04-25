@@ -17,6 +17,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
+  * created [[hypercompletion]] and [[descent for simplicial presheaves]]
+
   * created [[associahedron]]
 
   * expanded [[A-infinity-operad]]: a bit about associahedra, but mostly more detailed links to references
