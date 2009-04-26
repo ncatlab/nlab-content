@@ -39,3 +39,6 @@ _[[Todd Trimble|Todd]] says_: Yes, something like that. I talk a little about th
 The usual Fourier transform (for periodic functions) passes between Fourier coefficients $a_n$ and functions $\sum_n a_n z^n$ on $S^1$. One way of categorifying this is to pass from the category of functors $a: \mathbb{N} \to Set$ (considered as a monoidal category with respect to Day convolution) to their so-called "analytic functors" $\hat{a}: Set \to Set$, mapping a set $x$ to $\hat{a}(x) = \sum_n a_n \cdot x^n$. The "categorified Fourier transform" $a \mapsto \hat{a}$ takes Day convolution products to (pointwise) cartesian products. 
 
 If the "Fourier transform" is properly formulated (using enriched tensor products), then the same holds for any monoidal category in place of the discrete monoidal category $\mathbb{N}$. 
+
+_[[AnonymousCoward]] says_: The passage to analytic functors eems more like a z-transform or Laplace transform. In the particular case of species, it is the Laplace transform formula that applies to the analytic functor of a derivative of a species, not the Fourier transform one involving multiplication by the imaginary unit.
+The use of hom above is reminiscent of the Dirac delta. Is there a connection?
