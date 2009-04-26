@@ -12,8 +12,15 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
-# 2009-04-25 #
+# 2009-04-26 #
 
+* [[Mike Shulman|Mike]]: 
+
+  * Added a couple new examples, and tried to uniformize the descriptions, at [[A-infinity-operad]].
+
+  * Created [[indiscrete category]].
+
+# 2009-04-25 #
 
 * [[Urs Schreiber|Urs]]: 
 
