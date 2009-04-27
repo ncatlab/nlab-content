@@ -36,7 +36,7 @@ I ([[Urs Schreiber|Urs]]) am imagining that whatever the report is like, it cons
 The idea is that we have discussion on the blog but distill whatever we can into the $n$Lab here.
 
 
-Here is the list of reports, as planned so far
+Here is the list of reports, as planned so far:
 
 * Monday, April 27: [[Alex Hoffnung|Alex]] on section 1, [Introduction](http://arxiv.org/PS_cache/arxiv/pdf/0805/0805.0157v4.pdf#page=2) [[tick6.png:pic]] ([n-category caf&#233; entry](http://golem.ph.utexas.edu/category/2009/04/journal_club_geometric_infinit_1.html))
 
