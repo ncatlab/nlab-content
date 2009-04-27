@@ -12,6 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-04-27 #
+
+* [[Urs Schreiber|Urs]]
+
+  * added a list of basic propeties to the end of [[limit]]
+
 # 2009-04-26 #
 
 * [[Mike Shulman|Mike]]: 
