@@ -1,3 +1,37 @@
+**Warning** this entry is currently under re-construction. The original material is found below under "previous version of this entry". The new version is supposed to give a more coherent picture starting from more general nonsense and deriving the concrete nonsense more systematically. 
+
+
+***
+
+#Idea#
+
+Descent is a notion used to characterize [[(infinity,1)-sheaf|(infinity,1)-sheaves]] (i.e. [[infinity-stack]]s) among all [[(infinity,1)-presheaf|(infinity,1)-presheaves]] as those $(\infty,1)$-presheaves which are [[local object]]s with respect to certain morphisms $U_\bullet \to X$ which are to be regarded as [[cover]]s or [[hypercover]]s of the $(\infty,1)$-presheaf $X$: the idea is that an $(\infty,1)$-sheaf "descends from the cover $U_\bullet$ down to $X$".
+
+In concrete models for the [[(infinity,1)-category of (infinity,1)-sheaves]] (for instance in terms of [[simplicial presheaf|simplicial presheaves]]) it turns out that descent is formulated in terms of certain [[homotopy limit]]s. These in turn are equivalent to [[hom-object]]s out of certain homotopy colimit objects, which are then called _codescent_ objects. 
+
+## Motivation by and comparison to ordinary sheaves ##
+
+Descent and codescent best understood as a direct generalization of the  situation for 0-stacks, i.e. ordinary sheaves, which we briefly  recall in a language suitable for the following generalization.
+
+For $S$ any small [[category]] and [[Set]] the category of small sets, write $\mathrm{PSh}(S) = [S^{op}, Set]$ for the category of [[presheaf|presheaves]] on $S$. Categories of this form enjoy various nice properties which are familiar from $Set$ itself,  and which are summarized by saying that $\mathrm{PSh}(S)$ is a [[topos]]. The relevance of
+this for the present purpose is that there is a natural notion of morphisms of topoi, which are [[functor]]s respecting this structure in some sense: these are called [[geometric morphism]]s.
+
+A [[category of sheaves]] on $S$ is a sub-topos of $PSh(S)$ in that it is a [[full and faithful functor]] $Sh(S)\hookrigtharrow PSh(S)$ which is a [[geometric morphism]].
+
+It turns out that such sub-topoi of sheaves can be characterized alternatively by
+
+* specifying a [[coverage]] of $S$ which makes it a [[site]];
+
+* letting $Sh(S)$ be the [[full subcategory]] of $PSh(S)$ on those presheaves which _satisfy descent_ with respect to the corresponding [[cover]]s.
+
+
+Now...
+
+
+***
+
+#Previous version of this entry#
+
 #Idea#
 
 Descent is the property satisfied by an [[(infinity,1)-presheaf]] that models an [[infinity-stack]] or [[(infinity,1)-sheaf]]: it in effect simply says that evaluating the stack on any space must yield a result equivalent to evaluating it on an equivalent stack. 
