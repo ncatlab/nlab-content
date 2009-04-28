@@ -21,7 +21,7 @@ $$
   H(X,A) := Ho(C)(X,A)
 $$
 as the **cohomology** of $X$ with coefficients in $A$.
-From the point of view of generalized [[sheaf cohomology]] this can be understood by recognizing the replacement object $\hat X$ appearing here as a [[descent and codescent|codescent object]].
+From the point of view of generalized [[sheaf cohomology]] this can be understood by recognizing the replacement object $\hat X$ appearing here as a [[descent|codescent object]].
 
 #Literature#
 
