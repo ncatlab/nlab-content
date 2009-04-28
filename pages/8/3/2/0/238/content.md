@@ -10,9 +10,14 @@ So, if you feel people's attention should be drawn to some changes you make, ple
 
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).
 
+
 ***
 
 # 2009-04-28 #
+
+* [[Urs Schreiber|Urs]]:
+
+  * started adding a list "properties" to [[colimit]] analogous to the one at [[limit]]
 
 *  [[Toby Bartels]]:
    *  Since I\'m making up a word at [[exponential object]], I decided that both terms should be adjectives, leaving the verb simpler.
