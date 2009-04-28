@@ -13,6 +13,9 @@ instead of
 
 If there are no objections, I can still wait until after the rewrite to move ... or instead you could do the rewrite at the new name before redirecting this one.
 ---[[Toby Bartels]]
+
+[[Urs Schreiber|Urs]]: I agree, good idea, let's move this to [[descent]].
+
 =--
 
 ***
