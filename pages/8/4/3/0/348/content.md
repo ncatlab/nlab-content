@@ -67,7 +67,7 @@ $$
   \array{
      \sqcup_{i,j} hom(-,U_i \cap U_j)
      &\to&
-     \sqcup_i hom(-, U_i)
+     \sqcup_i hom(-, U_j)
      \\
      \downarrow && \downarrow
      \\
