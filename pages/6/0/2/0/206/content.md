@@ -5,7 +5,7 @@ The word 'algebra' is often also used for an algebraic structure:
 * often by default an [[associative unital algebra]];
 * more generally a [[monoid]] [[internalization|in]] any [[monoidal category]];
 * also often used for [[nonassociative algebra]];
-* an algebra over an [[operad]], a [[monad]], a [[PROP]], etc;
+* an [[algebra over an operad]], of a [[monad]], a [[PROP]], etc;
 * a model of an [[algebraic theory]];
 * higher categorical analogues of algebras, for example [[algebroid]]s, and [[pseudoalgebra]]s over [[pseudomonad]]s.
 
