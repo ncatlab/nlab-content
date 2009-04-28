@@ -31,6 +31,10 @@ If this morphism $r$ is an [[isomorphism]], then the isomorphic objects $c_1 \ti
 
 The above definition has a straightforward generalization to biproducts of any number of objects (although this requires extra structure on the category in [[constructive mathematics]] if the set of these objects need not have [[decidable equality]]).  The [[zero object]] is itself the biproduct of no objects.
 
++--{: .query}
+_Mike_: Can anyone give a definition of a biproduct that doesn't require the category to be presupposed to have a zero object, but which specializes to a zero object in the 0-ary case?
+=--
+
 # Biproducts imply enrichment #
 
 A category with all finite biproducts is automatically [[enriched category|enriched]] over the [[monoidal category]] of abelian [[monoid]]s with the usual [[tensor product]], as follows.
