@@ -161,7 +161,7 @@ left [[Bousfield localization]] with respect to local weak equivalence of the gl
 
 ##Characterization of fibrations##
 
-Fibrations in the local model structure are global fibrations that satisfy [[descent and codescent|descent]].
+Fibrations in the local model structure are global fibrations that satisfy [[descent]].
 Therefore the fibrant objects in the local model structure on simplicial presheaves are
 globally fibrant [[infinity-stack]]s on $S$.
 
@@ -176,7 +176,7 @@ More precisely:
 
   1. for all test domains $U \in S$ the simplicial set $P(U)$ is a [[Kan complex]].
 
-  2. $P$ satisfies [[descent and codescent|descent]] for all [[hypercover]]s $\pi : Y \to X$
+  2. $P$ satisfies [[descent]] for all [[hypercover]]s $\pi : Y \to X$
 $$
   P(X) \stackrel{\simeq}{\to} Desc(Y,P)
   \,.
@@ -186,7 +186,7 @@ $$
 
   1. $P$ is a fibration with respect to the global injective model structure;
 
-  2. $P$ satisfies [[descent and codescent|descent]] for all [[hypercover]]s $\pi : Y \to X$
+  2. $P$ satisfies [[descent]] for all [[hypercover]]s $\pi : Y \to X$
 $$
   P(X) \stackrel{\simeq}{\to} Desc(Y,P)
   \,.
