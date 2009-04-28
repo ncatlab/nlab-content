@@ -37,3 +37,67 @@ Here are some important examples of colimits:
 A [[weighted colimit]] in $C$ is a 
 [[weighted limit]] in $C^{op}$.
 
+#Properties#
+
+The properties of colimits are of course [[duality|dual]] to those of [[limit]]s. It is still worthwhile to make some of them explicit.
+
++-- {: .un_prop}
+###### Contravariant Hom sends colimits to limits
+
+For $C$ a [[locally small]] category,
+for $F : D \to C$ a functor, for $c \in C$ and object and writing $C(F(-), c) : C \to Set$, we have
+$$
+  C(colim F, c) \simeq lim C(F(-), c)
+  \,.
+$$
+=--
+Depending on how one introduces limits this holds by definition or is an easy consequence. In fact, this is just rewriting the respect of the covariant Hom  of [[limit]]s (as described there) in $C^{op}$ in terms of $C$:
+
+$$
+  \begin{aligned}
+    C(colim F, c) & \simeq C^{op}(c, colim F)
+    \\
+    & \simeq C^{op}(c, lim F^{op})
+    \\
+    & \simeq lim C^{op}(c, F^{op}(-))
+    \\
+    & \simeq lim C(F(-), c)
+  \end{aligned}
+$$
+
+Notice that this actually says that $C(-,-) : C^{op} \times C \to Set$ is a [[continuous functor]] in both variables: in the first it sends limits in $C^{op}$ and hence equivalently colimits in $C$ to limits in $Set$.
+
+
+
++-- {: .un_prop}
+###### Proposition -- left adjoints commute with colimits
+
+Let $L : C \to C'$ be a functor that is [[left adjoint]] to some functor $R : C' \to C$. Let $D$ be a [[small category]] such that $C$ admits limits of shape $D$. Then $L$ commutes with $D$-shaped colimits in $C$ in that
+
+for $F : D \to C$ some diagram, we have
+$$
+  L(colim F) \simeq colim (L \circ F)
+  \,.
+$$
+=--
+
++-- {: .proof}
+######Proof
+
+Using the adjunction isomorphism and the above fact that commutes with limits in both arguments, one obtains for every $c' \in C'$
+$$
+\begin{aligned}
+  C'(L (colim F), c) & \simeq C(colim F, R(c'))
+  \\
+  & \simeq lim C(F(-), R(c')) 
+  \\
+  & \simeq lim C'(L \circ F(-), c')
+  \\
+  & \simeq C'(colim (L \circ F), c') 
+  \,.
+\end{aligned}
+  \,.
+$$
+
+Since this holds naturally for every $c'$, the [[Yoneda lemma|Yoneda lemma, corollary II]] on uniquenes of representing objects implies that $R (lim F) \simeq lim (R \circ F)$.
+=--
