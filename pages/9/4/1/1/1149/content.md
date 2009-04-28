@@ -104,13 +104,13 @@ We say [[presheaf]] instead of just [[functor]], even though taken at face value
   $$ X(V_1) \times X(V_2) \stackrel{\stackrel{restrict first element}{\to}}{\stackrel{restrict second element}{\to}} X(V_1 \cap V_2) :$$
   the optimal solution to mapping into $X(V_1) \times X(V_2)$ such that these two maps become equal;
 
-* this condition is called a [[sheaf]] or [[descent and codescent|descent]] condition: one thinks of the sheaf of _descending_ from the cover to the base along the map $(V_1 \sqcup V_2) \stackrel{p_1 \sqcup p_2}{\to} U$;
+* this condition is called a [[sheaf]] or [[descent]] condition: one thinks of the sheaf of _descending_ from the cover to the base along the map $(V_1 \sqcup V_2) \stackrel{p_1 \sqcup p_2}{\to} U$;
    
 This now is a sensible game to play: I don't tell you directly which space $X$ I am thinking of, but I do give you all the information $U \mapsto X(U)$ about its probes $X(U)$  by test spaces $U$, subject to the conditions that
 
 * $X(-)$ is functorial and hence a [[presheaf]];
 
-* $X(-)$ satisfies [[descent and codescent|descent]] and is therefore a [[sheaf]]
+* $X(-)$ satisfies [[descent]] and is therefore a [[sheaf]]
 
 # sheaves more general than spaces #
 
