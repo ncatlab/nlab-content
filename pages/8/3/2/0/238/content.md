@@ -12,6 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-04-28 #
+
+*  [[Toby Bartels]]:
+   *  Since I\'m making up a word at [[exponential object]], I decided that both terms should be adjectives, leaving the verb simpler.
+   *  I included some lower-dimensional cases at [[associahedron]].  I managed to get down to $K_1$.
+
 # 2009-04-27 #
 
 * [[Urs Schreiber|Urs]]
