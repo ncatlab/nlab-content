@@ -377,15 +377,17 @@ $$
   C(c, lim F) \simeq lim C(c, F(-))
   \,.
 $$
-Depending on how one introduces limits this holds by definition or is an easy consequence.
 =--
+
+Depending on how one introduces limits this holds by definition or is an easy consequence.
+
 
 +-- {: .un_prop}
 ###### Proposition -- limits in functor categories are computed pointwise
 
 Let $D$ be a small category and let $D'$ be any category. Let $C$ be a category which admits limits of shape $D$. Write $[D',C]$ for the [[functor category]]. Then
 * $[D',C]$ admits $D$-shaped limits;
-* these limits are computed objectwise ("pointwise") in $C$:  for $F : D \to [D',C]$ a functor we have for all $d' \in D'$ that $(lim F)(d') \simeq lim (F(-)(d'))$. Here the limit on the right is in $C$.
+* these limits are computed objectwise ("pointwise") in $C$:  for $F : D^{op} \to [D',C]$ a functor we have for all $d' \in D'$ that $(lim F)(d') \simeq lim (F(-)(d'))$. Here the limit on the right is in $C$.
 =--
 
 +-- {: .un_prop}
@@ -422,17 +424,17 @@ $$
 Using the adjunction isomorphism and the above fact that Hom commutes with limits, one obtains for every $c' \in C'$
 $$
 \begin{aligned}
-  C'(c', R (lim F)) & \simeq C(G(c'), lim F)
+  C'(c', R (lim F)) & \simeq C(L(c'), lim F)
   \\
-  & \simeq lim C(G(c'), F) 
+  & \simeq lim C(L(c'), F) 
   \\
-  & \simeq lim C'(c', G\circ F)
+  & \simeq lim C'(c', R\circ F)
   \\
-  & \simeq C'(c', lim (G \circ F)) 
+  & \simeq C'(c', lim (R \circ F)) 
   \,.
 \end{aligned}
   \,.
 $$
 
-Since this holds for every $c'$, the [[Yoneda lemma|Yoneda lemma, corollary II]] on uniquenes of representing objects implies that $R (lim F) \simeq lim (G \circ F)$.
+Since this holds naturally for every $c'$, the [[Yoneda lemma|Yoneda lemma, corollary II]] on uniquenes of representing objects implies that $R (lim F) \simeq lim (G \circ F)$.
 =--
