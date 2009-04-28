@@ -3,6 +3,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[Alex Hoffnung]]
 * [[Andrew Stacey]]
 * [[Ben Webster]]
+* [[Benjamin Antieau]]
 * [[Bruce Bartlett]]
 * [[Dan Lior]]
 * [[David Corfield]]
