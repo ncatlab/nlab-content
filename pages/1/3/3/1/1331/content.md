@@ -1,6 +1,6 @@
 #Idea#
 
-A _reflective_ $(\infty,1)$-subcategory is the obvious generalization of a [[reflective subcategory]].
+A _reflective_ $(\infty,1)$-subcategory is the obvious generalization of a [[reflective subcategory]] to $(\infty,1)$-[[(infinity,1)-category|categories]].
 
 #Definition#
 
