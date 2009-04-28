@@ -70,7 +70,65 @@ $$
 
 ## as filtered colimits in presheaves ##
 
-Another, equivalent, definition is to let $ind$-$C$ be the [[full subcategory]] of the [[presheaf]] [[category]] $[C^{op},Set]$ determined by those [[functor]]s which are [[filtered category|filtered]] colimits of [[representable functor|representables]].  This is reasonable since $[C^{op},Set]$ is the [[free cocompletion]] of $C$, so $ind$-$C$ defined in this way is its "free cocompletion under filtered colimits."
+Recall the [[co-Yoneda lemma]] that every presheaf $X \in PSh(C)$ is a [[colimit]] over [[representable functor|representable presheaves]]:
+
+
+there is some functor $\alpha : D \to C$ such that
+
+$$
+  X \simeq colim_{d \in D} Y(\alpha(d))
+  \,.
+$$
+
+**Defnition**
+
+$ind\text{-}C \subset PSh(C)$ be the [[full subcategory]] of the [[presheaf]] [[category]] $PSh(C) = [C^{op},Set]$ on those [[functor]]s which are [[filtered category|filtered]] colimits of [[representable functor|representables]], i.e. those for which 
+
+$$
+  X \simeq colim_{d \in D} Y(\alpha(d))
+$$
+
+with $D$ a [[filtered category]].
+
+##Remarks##
+
+Given that $[C^{op},Set]$ is the [[free cocompletion]] of $C$, $ind$-$C$ defined in this way is its "free cocompletion under filtered colimits."
+
+To compare with the first definition, notice that indeed the formula for the [[hom-set]]s s reproduced:
+
+Generally we have
+
+$$
+  \begin{aligned}
+     [C^{op},Set](X,Y)
+     & \simeq
+     [C^{op}, Set](colim_{d \in D} Y F d, colim_{d' \in D'} Y G d)
+     \\
+     & \simeq 
+     lim_{d \in D} [C^{op}, Set]( Y F d, colim_{d' \in D'} Y G d)
+  \end{aligned}
+$$
+
+by the fact that the [[hom-functor]] sends [[colimit]]s to [[limit]]s in its first argument (see _properties_ at [[colimit]]). 
+
+By the [[Yoneda lemma]] this is
+
+$$
+  \cdots \simeq 
+   lim_{d \in D} (colim_{d' \in D'} Y G d')(F d)
+  \,.
+$$
+
+Using that [[colimit]]s in $PSh(C)$ are computed objectwise (see again _properties_ at [[colimit]]) this is
+
+$$
+  \cdots \simeq 
+   lim_{d \in D} colim_{d' \in D'} 
+   C(F d, G d')  \,.
+$$
+
+
+
 
 # Examples #
 
