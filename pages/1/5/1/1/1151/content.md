@@ -32,7 +32,7 @@ a [[stable (infinity,1)-category]].
 
 ## Grading ##
 
-Notice that the grading one usually sees on cohomology classes is in the above definition entirely encoded in the [[higher category theory|categorical degree]] of the coefficient object. The cohomology $H(X,A)$ is the usual degree $0$ cohomology with coefficients in $A$. Cohomology of other degree can be obtained by looping or delooping the coefficients $A$. For example, if $A$ is a 0-type which is $n$-times de-loopable to an $n$-type $B^n A$, then degree $n$ cohomology with coefficients in $A$ is cohomology with coefficients in $\mathbf{B}^n A$: $H^n(X,A) := H(X, \mathbf{B}^n A)$. Similarly, looping can be used to define negative cohomology.
+Notice that the grading one usually sees on cohomology classes is in the above definition entirely encoded in the [[higher category theory|categorical degree]] of the coefficient object. The cohomology $H(X,A)$ is the usual degree $0$ cohomology with coefficients in $A$. Cohomology of other degree can be obtained by looping or delooping the coefficients $A$. For example, if $A$ is a 0-type which is $n$-times de-loopable to an $n$-[[homotopy n-type|type]] $B^n A$, then degree $n$ cohomology with coefficients in $A$ is cohomology with coefficients in $\mathbf{B}^n A$: $H^n(X,A) := H(X, \mathbf{B}^n A)$. Similarly, looping can be used to define negative cohomology.
 
 #Examples#
 
