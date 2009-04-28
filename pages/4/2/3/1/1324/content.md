@@ -3,13 +3,9 @@
 An __$A_\infty$-operad__ is an [[operad]] over some enriching category $C$ which is a (free) [[homological resolution|resolution]] of the standard associative operad enriched over $C$ (that is, the operad whose algebras are monoids).
 
 Important examples, to be discussed below, include:
-
 * The topological operad of Stasheff associahedra.
-
 * The little-1-cubes operad.
-
 * The standard dg-$A_\infty$-operad.
-
 * The standard categorical $A_\infty$-operad.
 
 An $A_\infty$-operad, like the standard associative operad, can be defined to be either a _symmetric_ or a _non-symmetric_ operad.  On this page we assume the non-symmetric version.  When regarded as a symmetric operad, an $A_\infty$-operad may also be called an $E_1$-operad.
