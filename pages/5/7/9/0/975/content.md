@@ -169,6 +169,7 @@ For a pedagogical motivation of the general topic under consideration here see
 
     * [[examples of adjoint functors]]
 
+
 * functor and presheaf categories
 
   * [[simplicial set]]
@@ -237,13 +238,17 @@ For a pedagogical motivation of the general topic under consideration here see
 
 #5 Generators and Representability#
 
+* [[generator]]
 
 #6 Indization of Categories#
 
 * [[ind-object]]
 
-* [[pro-object]]
+  * [[pro-object]]
 
+  * [[finitely presentable object]]
+
+  * [[compact object]]
 
 #7 Localization#
 
@@ -275,6 +280,8 @@ For a pedagogical motivation of the general topic under consideration here see
 
   * [[abelian category]]
 
+  * [[semi-abelian category]]
+
   * [[Grothendieck category]]
 
 * [[biproduct]]
@@ -297,7 +304,7 @@ For a pedagogical motivation of the general topic under consideration here see
 
 #10 Triangulated Categories#
 
-* [[stable infinity-category]]
+* [[stable (infinity,1)-category]]
 
 * [[triangulated category]]
 
@@ -337,6 +344,7 @@ For a pedagogical motivation of the general topic under consideration here see
 * [[derived category]]
 
 * [[derived functor on a derived category]]
+
 
 #14 Unbounded Derived Categories#
 
@@ -426,9 +434,12 @@ For a pedagogical motivation of the general topic under consideration here see
 
     * [[model structure on simplicial presheaves]]
 
+    * [[descent for simplicial presheaves]]
+
   * [[Higher Topos Theory]]
 
     * [[(infinity,1)-category of (infinity,1)-sheaves]]
 
+    * [[descent]]
 
 category: reference
