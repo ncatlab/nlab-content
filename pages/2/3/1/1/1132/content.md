@@ -6,7 +6,7 @@ Recall that for $S$ a [[site]], [[sheafification]] is the [[functor]]
 $$
   \bar{(-)} : PSh(S) \to Sh(S) \hookrightarrow PSh(S)
 $$
-which sends every [[presheaf]] $F$ on $S$ to another [[presheaf]] $\bar F$ which is weakly equivalent to $F$ with respect to the [[homotopical category]] structure on $PSh(S)$ induced from the [[Grothendieck topology]] on $X$. The presheaf $\bar F$ respects weak equivalences and satisfies [[descent and codescent|descent]] in that the [[hom-functor]] $Hom_{PSh(S)}(-,\bar F)$ sends weak equivalences (the [[local isomorphism]]s) to weak equivalences.
+which sends every [[presheaf]] $F$ on $S$ to another [[presheaf]] $\bar F$ which is weakly equivalent to $F$ with respect to the [[homotopical category]] structure on $PSh(S)$ induced from the [[Grothendieck topology]] on $X$. The presheaf $\bar F$ respects weak equivalences and satisfies [[descent]] in that the [[hom-functor]] $Hom_{PSh(S)}(-,\bar F)$ sends weak equivalences (the [[local isomorphism]]s) to weak equivalences.
 
 Essentially by definition (according to [[Higher Topos Theory]]) the situation for $\infty$-stacks is entirely analogous, as described at [[(infinity,1)-category of (infinity,1)-sheaves]].
 
