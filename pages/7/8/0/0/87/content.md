@@ -81,7 +81,7 @@ An anafunctor is an **anaequivalence** if it is a span as above, with the right 
 If we restrict from categories to groupoids, then according to the [[folk model structure|groupoid folk model structure]] by Brown-Golasinski all objects are _fibrant_ and then according to Kenneth Brown's theorem in [[homotopical cohomology theory]] it follows that one-step generalized morphisms already realize the full localization of $Groupoids$ in that they represent all morphisms in the [[homotopy category]] $Ho(Groupoids)$.
 
 By the general idea of [[homotopical cohomology theory]]
-this means that anafunctors between groupoids represent [[nonabelian cocycle]]s on groupoids with values in groupoids. By the notion of [[descent and codescent|codescent]] such homotopical cocycles are related to [[descent and codescent|descent data]] that enters the definition of [[sheaf|sheaves]] and [[stack]]s.
+this means that anafunctors between groupoids represent [[nonabelian cocycle]]s on groupoids with values in groupoids. By the notion of [[descent|codescent]] such homotopical cocycles are related to [[descent|descent data]] that enters the definition of [[sheaf|sheaves]] and [[stack]]s.
 
 ##Generalizations##
 
