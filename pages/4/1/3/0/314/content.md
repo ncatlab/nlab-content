@@ -358,68 +358,68 @@ Here are some important examples of limits, classified by the shape of the diagr
 
 ##Properties#
 
-**limits in Set are hom-sets**
++-- {: .un_prop}
+###### Limits in Set are hom-sets
 
 For $F : D^{op} \to Set$ any functor and $const_{*} : D^{op} \to Set$ the functor constant on the [[point]], the limit of $F$ is the [[hom-set]]
-
 $$
   lim F \simeq [D^{op}, Set](const_{*}, F)
 $$
-
 in the [[functor category]], i.e. the set of [[natural transformation]]s from the constant functor into $F$.
+=--
 
-
-**covariant Hom commutes with limits**
++-- {: .un_prop}
+###### Covariant Hom commutes with limits
 
 For $C$ a [[locally small]] category,
 for $F : D^{op} \to C$ a functor and writing $C(c, F(-)) : C \to Set$, we have
-
 $$
   C(c, lim F) \simeq lim C(c, F(-))
   \,.
 $$
-
 Depending on how one introduces limits this holds by definition or is an easy consequence.
+=--
 
-
-**Proposition -- limits in functor categories are computed pointwise**
++-- {: .un_prop}
+###### Proposition -- limits in functor categories are computed pointwise
 
 Let $D$ be a small category and let $D'$ be any category. Let $C$ be a category which admits limits of shape $D$. Write $[D',C]$ for the [[functor category]]. Then
-
 * $[D',C]$ admits $D$-shaped limits;
-
 * these limits are computed objectwise ("pointwise") in $C$:  for $F : D \to [D',C]$ a functor we have for all $d' \in D'$ that $(lim F)(d') \simeq lim (F(-)(d'))$. Here the limit on the right is in $C$.
- 
+=--
 
-**Proposition -- small limits commute with small limits**
++-- {: .un_prop}
+###### Proposition -- small limits commute with small limits
 
 Let $D$ and $D'$ be small catgeories and let $C$ be
 a category which admits limits of shape $D$ as well as
 limits of shape $D'$. Then these limits commute with each other, in that 
 
 for $F : D^{op} \times {D'}^{op} \to C$ a functor , with corresponding induced functors $F_D : {D'}^{op} \to [D^{op},C]$ and $F_{D'} : {D}^{op} \to [{D'}^{op},C]$, then
-
 $$
   lim F \simeq lim_{D}  (lim_{D'} F_D )
   \simeq
    lim_{D'}  (lim_{D} F_{D'} )
   \,.
 $$
+=--
 
-**Proposition -- right adjoints commute with limits**
++-- {: .un_prop}
+###### Proposition -- right adjoints commute with limits
 
 Let $R : C \to C'$ be a functor that is [[right adjoint]] to some functor $L : C' \to C$. Let $D$ be a small category such that $C$ admits limits of shape $D$. Then $R$ commutes with $D$-shaped limits in $C$ in that
 
 for $F : D^{op} \to C$ some diagram, we have
-
 $$
   R(lim F) \simeq lim (R \circ F)
   \,.
 $$
+=--
 
-Proof.
++-- {: .proof}
+######Proof
+
 Using the adjunction isomorphism and the above fact that Hom commutes with limits, one obtains for every $c' \in C'$
-
 $$
 \begin{aligned}
   C'(c', R (lim F)) & \simeq C(G(c'), lim F)
@@ -435,3 +435,4 @@ $$
 $$
 
 Since this holds for every $c'$, the [[Yoneda lemma|Yoneda lemma, corollary II]] on uniquenes of representing objects implies that $R (lim F) \simeq lim (G \circ F)$.
+=--
