@@ -1,7 +1,7 @@
 #Idea#
 
 
-The _associahedra_ or _Stasheff polytopes_ $\{K_n\}$ are [[topological space]]s that naturally arrange themselves into an topological [[operad]] that resolves the standard associative operad: an [[A-infinity-operad]]. 
+The _associahedra_ or _Stasheff polytopes_ $\{K_n\}$ are [[CW complex]]es that naturally arrange themselves into an topological [[operad]] that resolves the standard associative operad: an [[A-infinity-operad]]. 
 
 The vertices of $K_n$ correspond to ways in which one can bracket a product of $n$ variables. The edges correspond to rebracketings, the faces relate different sequences of rebracketings that lead to the same result, and so on.
 
@@ -11,12 +11,21 @@ The associahedra were introduced by Jim Stasheff in order to describe [[topologi
 
 Here is the rough idea, copied, for the moment, verbatim from Markl94 [p. 26] (http://arxiv.org/PS_cache/hep-th/pdf/9411/9411208v1.pdf#page=26) (for more details see references below):
 
-For $n \geq 2$ the **associahedron** $K_n$ is an $(n-2)$-dimensional polyhedron whose $i$-dimensional cells are, for $0 \leq i \leq n-2$, indexed by all (meaningful) insertions of $(n-i-2)$ pairs of brackets between $n$ independent indeterminants, with suitably defined incidence maps.
+For $n \geq 1$ the **associahedron** $K_n$ is an $(n-2)$-dimensional polyhedron whose $i$-dimensional cells are, for $0 \leq i \leq n-2$, indexed by all (meaningful) insertions of $(n-i-2)$ pairs of brackets between $n$ independent indeterminants, with suitably defined incidence maps.
 
 #Illustrations#
 
-* **$K_4$** The fourth associahedron $K_4$ is the pentagon which expresses the different ways a product of four elements may be bracketed
+* **$K_1$** is the [[empty set]], a degenerate case not usually considered.
 
+* **$K_2$** is simply the shape of a binary operation:
+$$ x \otimes y ,$$
+which we interpret here as a single [[point]].
+
+* **$K_3$** is the shape of the usual [[associator]] or associative law
+$$ (x \otimes y) \otimes z \to x \otimes (y \otimes z) ,$$
+consisting of a single [[interval]].
+
+* **$K_4$** The fourth associahedron $K_4$ is the pentagon which expresses the different ways a product of four elements may be bracketed
 
 +--{: style="text-align:center"}
 <svg xmlns="http://www.w3.org/2000/svg" width="30em" height="20em" viewBox="0 0 480 320">
@@ -48,7 +57,7 @@ For $n \geq 2$ the **associahedron** $K_n$ is an $(n-2)$-dimensional polyhedron 
 </svg>
 =--  
 
-One can also think of this as the top-level structure of the 4th [[oriental]]. This controls in particular the _pentagon identity_ in the definition of [[monoidal category]], as dicussed there.
+One can also think of this as the top-level structure of the 4th [[oriental]]. This controls in particular the _pentagon identity_ in the definition of [[monoidal category]], as discussed there.
 
 * **$K_5$** is the [dual polyhedron](http://en.wikipedia.org/wiki/Dual_polyhedron) to the [triaugmented triangular prism](http://en.wikipedia.org/wiki/Triaugmented_triangular_prism) 
 
