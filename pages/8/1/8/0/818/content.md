@@ -44,5 +44,4 @@ From [[Froelicher space|Frölicher spaces]]: I want to consider the case of a co
 
 _Mike_: Perhaps "concretely dense" or "relatively dense?"  (See my comment at [[Froelicher space]])
 
-
 category: meta
