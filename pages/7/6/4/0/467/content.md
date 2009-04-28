@@ -4,9 +4,9 @@ For other notions see [[infinity-stack]] and in general see [[Higher Topos Theor
 
 #Idea#
 
-From one perspective, [[sheaf|sheaves]], [[stack|stacks]], [[infinity-stack|infinity-stacks]] on a given site $S$ with their [[descent and codescent|descent conditions]] are nothing but a way of talking about the [[infinity-category]] of [[infinity-category|infinity-categories]] modeled on $S$, in  the sense of [[space and quantity]]: the $\infty$-category of $\infty$-category-valued [[presheaf|presheaves]]/[[sheaf|sheaves]] on $S$.
+From one perspective, [[sheaf|sheaves]], [[stack|stacks]], [[infinity-stack|infinity-stacks]] on a given site $S$ with their [[descent]] conditions are nothing but a way of talking about the [[infinity-category]] of [[infinity-category|infinity-categories]] modeled on $S$, in  the sense of [[space and quantity]]: the $\infty$-category of $\infty$-category-valued [[presheaf|presheaves]]/[[sheaf|sheaves]] on $S$.
 
-In particular, the all-important [[descent and codescent|descent condition]] is from this perspective nothing but the condition that the [[Yoneda lemma]] extends to respect higher categorical [[equivalence|equivalences]]: 
+In particular, the all-important [[descent]] condition is from this perspective nothing but the condition that the [[Yoneda lemma]] extends to respect higher categorical [[equivalence|equivalences]]: 
 
 for $X \in S$ a representable $\infty$-category valued presheaf, $Y \stackrel{\simeq}{\to} X$ a weakly equivalent replacement of $X$, descent says that the usual statement of the [[Yoneda lemma]] for an $\infty$-category valued presheaf $\mathbf{A}$ -- that $[X,\mathbf{A}] \simeq \mathbf{A}(X)$ -- extends along the weak equivalence to yield also $\cdots \simeq [Y,\mathbf{A}]$.
 
@@ -66,7 +66,7 @@ The $Ho_V$-[[enriched category]] $Ho_C$ is now our model for the $\infty$-catego
 
 * $\infty$-stacks on $S$ are nothing but the objects in $Ho_C$;
 
-* the [[descent and codescent|descent condition]] on these morphisms is an extension of the statement of the [[Yoneda lemma]] -- which says that for $X \in S \subset C$ a space and $Y \in C$ a [[cover]] $Y \stackrel{\simeq}{\to} X$ we have
+* the [[descent]] condition on these morphisms is an extension of the statement of the [[Yoneda lemma]] -- which says that for $X \in S \subset C$ a space and $Y \in C$ a [[cover]] $Y \stackrel{\simeq}{\to} X$ we have
 $
   [X,\mathbf{A}] \simeq \mathbf{A}(X)
 $ -- 
