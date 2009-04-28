@@ -1,12 +1,12 @@
 
 #Idea#
 
-The Bousfield-Kan map(s) are comparison morphisms in a [[simplicial model category]] between two different "puffed up" versions of (co)limits over (co-)simplicial objects: one close to a [[homotopy limit|homotopy (co)limit]] and the other a version of nerve/geometric realization.
+The Bousfield--Kan map(s) are comparison morphisms in a [[simplicial model category]] between two different "puffed up" versions of (co)limits over (co-)simplicial objects: one close to a [[homotopy limit|homotopy (co)limit]] and the other a version of nerve/geometric realization.
 
 #Definition#
 
 
-Let $C$ be an ([[SSet]],$\otimes = \times$)-[[enriched category]] and write 
+Let $C$ be an ([[SimpSet|SSet]],$\otimes = \times$)-[[enriched category]] and write 
 
 $$
   \Delta : \Delta \to Set^{\Delta^{op}}
@@ -16,7 +16,7 @@ for the canonical cosimplicial [[simplicial set]] (the [[adjunct]] of the [[hom-
 
 Write furthermore $N(\Delta/-) : \Delta \to Set^{\Delta^{op}}$ for the cosimplicial simplicial set which assigns to $[n]$ the [[nerve]] of the [[over category]] $\Delta / [n]$.
 
-The **Bousfield-Kan map of cosimplicial simplicial maps** is a canonical morphism
+The **Bousfield--Kan map of cosimplicial simplicial maps** is a canonical morphism
 
 $$
   \varphi : N(\Delta/(-)) \to \Delta
@@ -34,9 +34,9 @@ $$
 
 This morphism induces the following morphisms between (co)[[simplicial object]]s in $C$.
 
-##Bousfield-Kan for simplicial objects##
+##Bousfield--Kan for simplicial objects##
 
-For $X : \Delta^\to \to C$ any [[simplicial object]] in $C$, the **realization** of $X$ is the [[coend]]
+For $X : \Delta^\to \to C$ any [[simplicial object]] in $C$, the **realization** of $X$ is the [[end|coend]]
 
 $$
   |X| := X \otimes_{\Delta^{op}} \Delta := 
@@ -44,9 +44,9 @@ $$
   \,,
 $$
 
-where in the integrand we have the [[copower]] or tensor of $C$ by [[SSet]].
+where in the integrand we have the [[copower]] or tensor of $C$ by [[SimpSet|SSet]].
 
-Here the **Bousfield-Kan** map is the morphism
+Here the **Bousfield--Kan** map is the morphism
 
 $$
   X \otimes_{\Delta^{op}} N((-)/\Delta^{op})^{op}
@@ -56,7 +56,7 @@ $$
 $$
 
 
-##Bousfield-Kan for cosimplicial objects##
+##Bousfield--Kan for cosimplicial objects##
 
 
 
@@ -67,10 +67,10 @@ $$
   \,,
 $$
 
-where in the integrand we have the [[power]] or cotensor $X_n^{\Delta^n} = \pitchfork(\Delta, X_n)$ of $C$ by [[SSet]].
+where in the integrand we have the [[power]] or cotensor $X_n^{\Delta^n} = \pitchfork(\Delta, X_n)$ of $C$ by [[SimpSet|SSet]].
 
 
-Here the **Bousfield-Kan** morphisms is the morphism
+Here the **Bousfield--Kan** morphism is the morphism
 
 $$
   Tot X \simeq hom(\Delta,X) \stackrel{hom(\phi,Id_X)}{\to}  
@@ -84,9 +84,9 @@ $$
 
 **Theorem**
 
-If the [[simplicial object]] $X$ is [[Reedy category|Reedy cofibrant]] then its Bousfield-Kan map is a natural weak equivalence.
+If the [[simplicial object]] $X$ is [[Reedy category|Reedy cofibrant]] then its Bousfield--Kan map is a natural weak equivalence.
 
-If the co[[simplicial object]] $X$ is [[Reedy category|Reedy fibrant]] then its Bousfield-Kan map is a natural weak equivalence.
+If the co[[simplicial object]] $X$ is [[Reedy category|Reedy fibrant]] then its Bousfield--Kan map is a natural weak equivalence.
 
 
 #Relation to homotopy limits#
@@ -110,7 +110,7 @@ $$
 
 * Hirschhorn, _Simplicial model categories and their localization_.
 
-The Bousfield-Kan map(s) are on p. 397, def. 18.7.1 and def. 18.7.3.
+The Bousfield--Kan map(s) are on p. 397, def. 18.7.1 and def. 18.7.3.
 
  _Realization_ and _totalization_ are defs 18.6.2 and 18.6.3 on p. 395.
 
