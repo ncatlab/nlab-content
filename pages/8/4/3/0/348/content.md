@@ -108,13 +108,13 @@ $$
  \prod_i G(U_i) \stackrel{\to}{\to} \prod_{i, j} G(U_i \cap U_j)
 $$
 
-and hence identifies $Hom(F,G)$ indeed as the set of [[descent and codescent|descent]] data for the [[sheaf]] condition on $G$. 
+and hence identifies $Hom(F,G)$ indeed as the set of [[descent]] data for the [[sheaf]] condition on $G$. 
 
 ### Interpretation in terms of higher descent and codescent ###
 
 (... I'll expand on the following later ...)
 
-As described at [[descent and codescent]], for $(Y = \sqcup_i U_i) \to X$ a cover of spaces, there is an $\infty$-groupoid
+As described at [[descent]], for $(Y = \sqcup_i U_i) \to X$ a cover of spaces, there is an $\infty$-groupoid
 
 $$
   Codesc(Y) := \int^{[n] \in \Delta} O([n])\cdot Y^{[n+1]}
