@@ -6,7 +6,7 @@ Morphisms between finite biproducts are encoded in a [[matrix calculus]].
 
 # Definition #
 
-For $c_1, c_2$ two objects in a category $C$ with a [[zero object]], suppose a [[product]] $c_1 \times c_2$ and a [[coproduct]] $c_1 \sqcup c_2$ both exist.  Then consider the canonical morphism
+Let $C$ be a [[category]] with [[zero morphism]]s; that is, $C$ is [[enriched category|enriched]] over [[pointed set]]s.  For $c_1, c_2$ two objects in $C$, suppose a [[product]] $c_1 \times c_2$ and a [[coproduct]] $c_1 \sqcup c_2$ both exist.  Then consider the canonical morphism
 $$
   r : c_1 \sqcup c_2 \to c_1 \times c_2
 $$
@@ -20,19 +20,21 @@ $$
     \array{
       Id_{c_i} & if i = j
       \\
-      0 & if i \neq j
+      0_{i,j} & if i \neq j
     }
   \right.
   \,
 $$
-where $0$ indicates the [[zero morphism]].
+where $0_{i,j}$ is the zero morphism from $c_i$ to $c_j$.
 
 If this morphism $r$ is an [[isomorphism]], then the isomorphic objects $c_1 \times c_2$ and $c_1 \sqcup c_2$ are called [[generalized the|the]] __biproduct__ of $c_1$ and $c_2$.  This object is often denoted $c_1 \oplus c_2$, alluding to the [[direct sum]] (which is often an example).
 
-The above definition has a straightforward generalization to biproducts of any number of objects (although this requires extra structure on the category in [[constructive mathematics]] if the set of these objects need not have [[decidable equality]]).  The [[zero object]] is itself the biproduct of no objects.
+The above definition has a straightforward generalization to biproducts of any number of objects (although this requires extra structure on the category in [[constructive mathematics]] if the set of these objects need not have [[decidable equality]]).  A [[zero object]] is the biproduct of no objects.
 
 +--{: .query}
 _Mike_: Can anyone give a definition of a biproduct that doesn't require the category to be presupposed to have a zero object, but which specializes to a zero object in the 0-ary case?
+
+[[Toby Bartels]]:  Actually, our current definition does this; I just wrote it badly.  Of course, now the category starts with an enriched structure ... but at least it is a weaker requirement.
 =--
 
 # Biproducts imply enrichment #
@@ -43,7 +45,7 @@ Given two morphisms $f, g: a \to b$ in $C$, let their sum $f + g: a \to b$ be
 $$ a \to a \times a \cong a \oplus a \to^{f \oplus g} b \oplus b \cong b \sqcup b \to b .$$
 One proves that $+$ is associative and commutative. Of course, the zero morphism $0: a \to b$ is the usual [[zero morphism]] given by the zero object:
 $$ a \to 1 \cong 0 \to b .$$
-One proves that $0$ is the neutral element for $+$.
+One proves that $0$ is the neutral element for $+$ and that this matches the $0$ morphism that we began with in the definition.
 
 If additionally every morphism $f: a \to b$ has an inverse $-f: a \to b$, then $C$ is enriched over the category $Ab$ of abelian [[group]]s and is therefore (precisely) an _[[additive category]]_.
 
