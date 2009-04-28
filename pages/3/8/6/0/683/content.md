@@ -313,7 +313,7 @@ This example, too, is important at [[geometric function theory]].
 
 ## Descent objects ##
 
-_Descent objects_ as they appear in [[descent and codescent]] are naturally conceived as homotopy limits. See also [[infinity-stack]].
+_Descent objects_ as they appear in [[descent|descent and codescent]] are naturally conceived as homotopy limits. See also [[infinity-stack]].
 
 # References #
 
