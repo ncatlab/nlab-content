@@ -13,6 +13,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-04-29 #
+
+* [[Mike Shulman|Mike]]:
+
+  * I've noticed that Urs (in particular) has been widely using the notation $(f,g)$ for [[comma category|comma categories]] that Toby tried to prevent me from denigrating.  But I haven't heard any convincing arguments in favor of that notation, and I have lots of reasons to dislike it; see the discussion at [[comma category]].  If general opinion is against me, I'll shut up, but I want to hear from more people.  If you use the notation $(f,g)$, do you have positive reasons to prefer it to $(f/g)$ or $(f\downarrow g)$?
+
+
 # 2009-04-28 #
 
 * [[Mike Shulman|Mike]]: 
