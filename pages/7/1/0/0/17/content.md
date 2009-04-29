@@ -69,6 +69,18 @@ If you want to ask a question of a specific person, then you can place a query b
 
 If your comment or question is more general than a specific page or person, then try the [n-Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum).  Previous discussions have been on the [[General Discussion]] page and on an entry at the [n-Cafe](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html).  These previous discussions should not be added to but you may find your question answered there.  Important answers are being migrated to [[HowTo|this How To]] and the [[FAQ]].  As this is a Wiki, if you find an answer to your question and feel it should be added to one of those then do so.
 
+# How to search the nLab from firefox #
+
+Here are two search plugins for firefox that will let you search the nLab from the firefox search bar.
+
+* [[nlab-search.xml:file]]
+* [[nlab-goto.xml:file]]
+
+The first one searches the nLab (like the search box at the top of every page), and the second takes you directly to the page with a given title (if it exists; otherwise it takes you to an edit box to create it).  It would be nice if they had different icons.
+
+To use one or both, drop it in the 'searchplugins' directory of your firefox profile.
+
+
 # Instiki HowTo #
 
 For general information and help with Instiki, see the [Instiki](http://golem.ph.utexas.edu/instiki/show/HomePage) wiki.
