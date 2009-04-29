@@ -4,7 +4,7 @@ It is well-known that the concept of a [[triangulated category]] is suffering ma
 
 introduce a notion of dg-enhancement of a triangulated category. 
 
-A __dg-enhancement of a triangulated category__ $T$ is a (pretriangulated) [[differential graded category]] $A$ together with an equivalence $H^0(A)\to T$. The triangulated
+A **dg-enhancement of a triangulated category** $T$ is a ([[pretriangulated dg-category|pretriangulated]]) [[differential graded category]] $A$ together with an equivalence $H^0(A)\to T$. The triangulated
 category $T$ with that structure is called __enhanced__. According to the new results presented in
 
 * Valery Lunts, Uniqueness of enhancement for a triangulated category, talk at Workshop on triangulated categories, Swansea, Wales, Dec 10-12, 2008, (report on a joint work with D. Orlov)
