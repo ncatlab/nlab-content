@@ -5,7 +5,7 @@ The comma category of two functors $f : C \to E$ and $g : D \to E$ is like an [[
 
 # Definition #
 
-If $f:C\to E$ and $g:D\to E$ are [[functor]]s, their **comma category** is the category $(f/g)$ (also written $(f\downarrow g)$ or $(f,g)$) whose
+If $f:C\to E$ and $g:D\to E$ are [[functor]]s, their **comma category** is the category $(f/g)$ whose
 
 * [[object]]s are triples $(c,d,\alpha)$ where $c\in C$, $d\in D$, and $\alpha:f(c)\to g(d)$ is a morphism in $E$, and whose
 
@@ -32,6 +32,9 @@ $$
   }
 $$
 
+Another common notation for the comma category is $(f\downarrow g)$.  The original notation, from which the terminology is derived, is $(f,g)$, but this is rarely used any more; see the discussion below.
+
+
 ## Definition in terms of pullbacks ##
 
 Let $I = \{a \to b\}$ be the (directed) [[interval object|interval category]] and $E^I = Funct(I,E)$ the [[functor category]]. 
@@ -40,7 +43,7 @@ The comma category is the [[pullback]]
 
 $$
   \array{
-    (f,g) 
+    (f/g) 
     &\to&
     E^I
     \\
@@ -73,7 +76,7 @@ i.e. the universal cone that commutes up to a natural transformation
 
 $$
   \array{
-    (f,g) &\to& C
+    (f/g) &\to& C
     \\
     \downarrow &\Downarrow& \downarrow^f
     \\
@@ -126,7 +129,7 @@ The comma category $(f/g)$ comes with a canonical 2-cell in the square
 which is universal in the [[2-category]] [[Cat]]; that is, it is an example of a [[2-limit]] (in fact, it is a [[strict 2-limit]]).  Squares with the same universal property in an arbitrary 2-category are called _comma squares_ and their top left vertex is called a [[comma object]].
 
 
-# Remarks #
+# Discussion about terminology #
 
 The terminology "comma category" is a holdover from the original notation $(f,g)$ for such a category, which generalises $(x,y)$ or $C(x,y)$ for a [[hom-set]].
 
@@ -149,6 +152,14 @@ _Mike_: I'd rather avoid using $\to$ in the name of an object; talking about pro
 _Toby_: I can handle that, but after thinking about it more, I\'ve realised that the arrow doesn\'t really work.  If $f, g: A \to B$, then $f \to g$ ought to be the set of transformations between them.  (Or $f \Rightarrow g$, but you can\'t keep that decoration up.) 
 
 [[Mike Shulman|Mike]]: Let me summarize this discussion so far, and try to get some other people into it.  So far the only argument I have heard in favor of the notation $(f,g)$ is that it generalizes a notation for hom-sets.  In my experience that notation for hom-sets is rare-to-nonexistent, nor do I like it as a notation for hom-sets: for one thing it doesn't indicate the category in question, and for another it looks like an ordered pair.  The notation $(f,g)$ for a comma category also looks like an ordered pair, which it isn't.  I also don't think that a comma category is very much like a hom-set; it happens to be a hom-set when the domains of $f$ and $g$ are the point, but in general it seems to me that a more natural notion of hom-set between functors is a set of natural transformations.  It's really the _fibers_ of the comma category, considered as a fibration from $C$ to $D$, that are hom-sets.  Finally, I don't think the notation $(f,g)$  scales well to [[double comma object]]s; we could write $(f,g,h)$ but it is now even less like a hom-set.
+
+[[Urs Schreiber|Urs]]: to be frank, I used it without thinking much about it. Which of the other two is your favorite? By the way, Kashiwara-Schapira use $M[C\stackrel{f}{\to} E \stackrel{g}{\leftarrow} D]$. Maybe $comma[C\stackrel{f}{\to} E \stackrel{g}{\leftarrow} D]$? Lengthy, but at least unambiguous. Or maybe ${}_f {E^I}_g$? 
+
+[[Zoran Skoda]]: $(f/g)$ or $(f\downarrow g)$ are the only two standard notations nowdays, I think the original $(f,g)$ which was done for typographical reasons in archaic period is abandonded by the LaTeX era. $(f/g)$ is more popular among practical mathematicians, and special cases, like when $g = id_D$) and $(f\downarrow g)$ among category experts...other possibilities for notation should be avoided I think. 
+
+[[Urs Schreiber|Urs]]: sounds good. I'll try to stick to $(f/g)$ then.
+
+[[Mike Shulman|Mike]]: There are many category theorists who write $(f/g)$, including (in my experience) most Australians.  I prefer $(f/g)$ myself, although I occasionally write $(f\downarrow g)$ if I'm talking to someone who I worry might be confused by $(f/g)$.
 =--
 
 # Further reading #
