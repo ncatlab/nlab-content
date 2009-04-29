@@ -143,7 +143,7 @@ There is a proper closed [[enriched category|simplicially enriched]] [[model cat
 ###### Theorem 
 
 The inclusion of sheaves into simplicial presheaves
-$SimpSh(S) \hookrightarrow SimpPr(S)$ and the sheafification functor 
+$SimpSh(S) \hookrightarrow SimpPr(S)$ and the [[sheafification]] functor 
 $SimpPr(S) \to SimpSh(S)$ constitute a 
 [[Quillen equivalence]] with respect to the above
 _local injective model structure_ on $SimpPr(S)$ ans the local [[model structure on simplicial sheaves]].
