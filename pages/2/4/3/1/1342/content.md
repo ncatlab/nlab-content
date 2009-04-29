@@ -1,6 +1,6 @@
 #Idea#
 
-Descent is a notion used to characterize [[(infinity,1)-sheaf|(infinity,1)-sheaves]] (i.e. [[infinity-stack]]s) among all [[(infinity,1)-presheaf|(infinity,1)-presheaves]] as those $(\infty,1)$-presheaves which are [[local object]]s with respect to certain morphisms $Y \to X$ which are to be regarded as [[cover]]s or [[hypercover]]s of the $(\infty,1)$-presheaf $X$: the idea is that an $(\infty,1)$-sheaf "descends from the cover $U_\bullet$ down to $X$".
+Descent is a notion used to characterize [[(infinity,1)-sheaf|(infinity,1)-sheaves]] (i.e. [[infinity-stack]]s) among all [[(infinity,1)-presheaf|(infinity,1)-presheaves]] as those $(\infty,1)$-presheaves which are [[local object]]s with respect to certain morphisms $Y \to X$ which are to be regarded as [[cover]]s or [[hypercover]]s of the $(\infty,1)$-presheaf $X$: the idea is that an $(\infty,1)$-sheaf "descends from the cover $Y$ down to $X$".
 
 More concretely 
 
@@ -284,13 +284,21 @@ have a very similar appearance. Street took his weighted limit as the _definitio
 
 To that end, notice that:
 
-* a simplicial presheaf of the form $N \circ A$ with $A : S^{op} \to Str \omega Grpd$ is indeed a [[Kan-complex]]-valued presheaf;
+* a simplicial presheaf of the form $N \circ A$ with $A : S^{op} \to Str \omega Grpd$ is indeed a [[Kan complex]]-valued presheaf;
 
 * by work of Domic Verity the $\omega$-nerve $N : Str \omega Cat \to SSet$ prolonged to taking values in stratified simplicial sets has a left adjoint $F : Strat \to Str \omega Cat$ which is strict monoidal.
 
-Therefore...
+Therefore one would hope that some flavor of the following equation would hold:
+
+$$
+  N lim^{F(\Delta)} \, A(Y_\bullet)
+  \simeq
+  lim^\Delta \, N(A(Y_\bullet))
+  \,.
+$$
 
 
+Does it?
 
 
 # Descent in terms of gluing conditions #
@@ -298,30 +306,30 @@ Therefore...
 We unwrap the expression 
 
 $$
-  lim^\Delta A(U^\bullet)
+  lim^\Delta A(Y_\bullet)
 $$
 
-for the descent data for a presheaf $A$ with respect to a cover $U \to X$
+for the descent data for a presheaf $A$ with respect to a (hyper)cover $Y \to X$
 
 
 This [[weighted limit]] (whether taken in $SSet$- or in $Str \omega Cat$-[[enriched category theory]]) is given by the [[coend]]
 
 $$
-  lim^W\Delta A(U^\bullet)
+  lim^W\Delta A(Y_\bullet)
   \simeq
-  \int^{[n] \in \Delta} [\Delta^n, A(U_n)]
+  \int^{[n] \in \Delta} [\Delta^n, A(Y_n)]
   \,.
 $$
 
 
-Unwrapping what this means one finds that an object/vertex of this is a choice of $n$-simplex in each $A(U^{n})$, subject to conditions which say that the boundary of this $n$-simplex must be obtained from pullback of $A$ along the maps $U^{[n]} \to U^{[n-1]}$ of the $(n-1)$-simplex in $A(U^{n-1})$
+Unwrapping what this means one finds that an object/vertex of this is a choice of $n$-simplex in each $A(Y_n)$, subject to conditions which say that the boundary of this $n$-simplex must be obtained from pullback of $A$ along the maps $Y_n \to Y_{[n-1]}$ of the $(n-1)$-simplex in $A(Y_{n-1})$
 
 Namely an object in 
 
 $
-  lim^W\Delta A(U^\bullet)
+  lim^W\Delta A(Y_\bullet)
   \simeq
-  \int^{[n] \in \Delta} [\Delta^n, A(U_n)]
+  \int^{[n] \in \Delta} [\Delta^n, A(Y_n)]
 $
 
 is a commuting diagram
@@ -333,33 +341,33 @@ $$
     [2]
     &&&&
     \Delta^2 &\stackrel{f}{\to}& 
-    A(U^2)
+    A(Y_2)
     \\
     \uparrow &&&& \uparrow && \uparrow
     \\
     [1]
     &&&&
     \Delta^1 &\stackrel{g}{\to}& 
-    A(U^1)
+    A(Y_1)
     \\
     \uparrow &&&& \uparrow && \uparrow
     \\
     [0]
     &&&&
     \Delta^0 &\stackrel{a}{\to}& 
-    A(U^0)
+    A(Y_0)
   }
 $$
 
-where the vertical arrows indicate all the simplicial maps of the cosimplicial objects $\Delta$ and $A(U_\bullet)$.
+where the vertical arrows indicate all the simplicial maps of the cosimplicial objects $\Delta$ and $A(Y_\bullet)$.
 
 So this is
 
-* on $U$ an object $a \in A(U)$;
+* on $Y_0$ an object $a \in A(Y_0)$;
 
-* on double intersections $U \times_X U$ a gluing isomorphism $g : \pi_1^* a \to \pi_2^* a$ which identifies the two copies of $a$ obtained by pullback along the two projection maps $\pi_1, \pi_2 : U \times_X U \to U$.
+* on "double intersections" (might be a cover of double intersections) $Y_1$ a gluing isomorphism $g : \pi_1^* a \to \pi_2^* a$ which identifies the two copies of $a$ obtained by pullback along the two projection maps $\pi_1, \pi_2 : U \times_X U \to U$.
 
-* on triple intersections $U \times_X U \times_X U$ a gluing 2-isomorphism
+* on "triple intersections" $Y_2$ a gluing 2-isomorphism
 $
  \array{
    && \pi_2^* a
@@ -378,7 +386,7 @@ $
 $
 which identifies the different gluing 1-isomorphisms.
 
-
+And so on.
 
 
 ## Gluing for ordinary stacks ##
