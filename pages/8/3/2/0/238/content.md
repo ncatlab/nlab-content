@@ -15,6 +15,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-29 #
 
+* [[Urs Schreiber|Urs]]:
+ 
+  * filled the "details" section at [[descent for simplicial presheaves]] with the relevant material copy-and-pasted from [[descent]].
+
+  * keep polishing, expanding and rearranging [[descent]] --  when [[Mike Shulman|Mike]] comes back online I am hoping to discuss a bit more the relation between Street's descent for $Str \omega Cat$-valued presheaves and the standard descent for their SSet-valued image under the $\omega$-nerve. As the new version indicates: the homotopy limit may be a red herring and the lack of monoidalness of the left adjoint of the nerve might be fixed by recourse to stratified simplicial sets using Verity's results (?)
+
+  * added a pullback description to [[double comma object]]
+
 * [[Mike Shulman|Mike]]:
 
   * I've noticed that Urs (in particular) has been widely using the notation $(f,g)$ for [[comma category|comma categories]] that Toby tried to prevent me from denigrating.  But I haven't heard any convincing arguments in favor of that notation, and I have lots of reasons to dislike it; see the discussion at [[comma category]].  If general opinion is against me, I'll shut up, but I want to hear from more people.  If you use the notation $(f,g)$, do you have positive reasons to prefer it to $(f/g)$ or $(f\downarrow g)$?
