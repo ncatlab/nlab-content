@@ -71,6 +71,29 @@ $$
 * [[Simpson's conjecture]], a statement about [[semi-strict infinity-category|semi-strictness]], states that every weak $\infty$-category should be equivalent to an $\infty$-category in which strictness conditions 1. and 2. hold, but not 3.
 
 
+# As simplicial sets #
+
+Under the [[oriental|omega nerve]] 
+
+$$
+  N : Str \omega Cat \to SSet
+$$
+
+strict omega categories yield simplicial sets that are called [[complicial set]]s. 
+
+**Proposition**
+
+The categories of $\omega$-categories and complicial sets are [[equivalence of categories|equivalent]].
+
+This is sometimes called the _Street-Roberts conjecture_. It was completely proven in
+
+* Dominic Verity, _Complicial sets_ ([arXiv](http://arxiv.org/abs/math/0410412))
+
+which also presents the history of the conjecture.
+
+Based on this fact, there are attempts to weaken the condition on a [[simplicial set]] to be a [[complicial set]] such as to obtain a notion of [[simplicial weak omega-category]].
+
+
 #Literature#
 
 Strict $\omega$-categories have probably been independently invented by several people.  Possibly the earliest definition can be found in
