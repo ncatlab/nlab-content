@@ -17,6 +17,15 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
+  * moved a bit of material from [[derived infinity-stack]] to [[derived stack]] and then made [[derived infinity-stack]] a redirect to [[derived stack]]
+
+  * finally wrote at least a blurb at [[stack]], only to make it look less orphaned in between [[sheaf]] and [[(infinity,1)-sheaf]].
+
+  * created [[Verdier site]]
+
+  * further fine-tuned the [DHI](http://arxiv.org/PS_cache/math/pdf/0205/0205027v2.pdf)-review at [[descent]]: now I dropped the discussion of homotopy limits entirely, as it's not really necessary; but I did include for a smoother presentation the assumption that we are on a [[Verdier site]], so that hypercovers "split" ([section 9](http://arxiv.org/PS_cache/math/pdf/0205/0205027v2.pdf#page=29)) which happens to be a Reedy fibrancy kind of condition after all ([page 11](http://arxiv.org/PS_cache/math/pdf/0205/0205027v2.pdf#page=11))
+
+
   * I browsed a bit through Dominic Verity's work and created entries on [[stratified simplicial set]], [[complicial set]], [[weak complicial set]], [[simplicial weak omega-category]] and [[Verity-Gray tensor product]] -- my main motivation was the claim now recounted at [[stratified simplicial set]] that the $\omega$-nerve on strict $\omega$-categories with values in $Strat$ has a strong monoidal left adjoint
 
 * [[Zoran Škoda]]: created [[enhanced triangulated category]]
@@ -35,8 +44,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
     * [[Urs Schreiber|Urs]]: to be frank, I used it without thinking much about it. Which of the other two is your favorite? By the way, Kashiwara-Schapira use $M[C\stackrel{f}{\to} E \stackrel{g}{\leftarrow} D]$. Maybe $comma[C\stackrel{f}{\to} E \stackrel{g}{\leftarrow} D]$? Lengthy, but at least unambiguous. Or maybe ${}_f {E^I}_g$? 
 
-   * [[Zoran Skoda]]: $(f/g)$ or $(f\downarrow g)$ are the only two standard notations nowdays, I think the original
-$(f,g)$ which was done for typographical reasons in archaic period is abandonded by the LaTeX era. $(f/g)$ is more popular among practical mathematicians, and special cases, like when $g = id_D$) and $(f\downarrow g)$ among category experts...other possibilities for notation should be avoided I think. 
+    * [[Zoran Skoda]]: $(f/g)$ or $(f\downarrow g)$ are the only two standard notations nowdays, I think the original $(f,g)$ which was done for typographical reasons in archaic period is abandonded by the LaTeX era. $(f/g)$ is more popular among practical mathematicians, and special cases, like when $g = id_D$) and $(f\downarrow g)$ among category experts...other possibilities for notation should be avoided I think. 
+
+    * [[Urs Schreiber|Urs]]: sounds good. I'll try to stick to $(f/g)$ then.
 
 # 2009-04-28 #
 
