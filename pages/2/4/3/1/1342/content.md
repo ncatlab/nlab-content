@@ -81,9 +81,41 @@ $$
 This is the form of the condition that is most commonly called the _descent condition_.
 
 
+
 # Descent for simplicial presheaves #
 
-This is descibed at [[descent for simplicial presheaves]].
+A well-studied class of models/presentations for an [[(infinity,1)-category of (infinity,1)-sheaves]] is obtained using the [[model structure on simplicial presheaves]] on an  ordinary (1-categorical) [[site]] $S$, as follows.
+
+Let $[S^{op}, SSet]$ be the [[SSet]]-[[enriched category]] of [[simplicial presheaf|simplicial presheaves]] on $S$. 
+
+Recall from [[model structure on simplicial presheaves]] that there is the _global_ and the _local_ injective simplicial model structure on $[S^{op}, SSet]$, and that the local model structure is a (Bousfield-)localization of the global model structure.
+
+According to [section 6.5.2](http://www-math.mit.edu/~lurie/papers/highertopoi.pdf#page=528)  of [[Higher Topos Theory|HTT]] we have:
+
+* the full simplicial subcategory on fibrant-cofibrant objects of $[S^{op}, SSet]$ with respect to the _global_ injective model structure is (the [[SSet]]-[[enriched category]] realization of) the $(\infty,1)$-category  $PSh_{(\infty,1)}(S)$ of [[(infinity,1)-presheaf|(infinity,1)-presheaves]] on $S$.
+
+* the full simplicial subcategory on fibrant-cofibrant objects of $[S^{op}, SSet]$ with respect to the _local_ injective model structure is (the [[SSet]]-[[enriched category]] realization of) the $(\infty,1)$-category  $\bar{Sh}_{(\infty,1)}(S)$ which is the [[hypercompletion]] of the $(\infty,1)$-category $Sh_{(\infty,1)}(S)$ of [[(infinity,1)-sheaf|(infinity,1)-sheaves]] on $S$.
+
+Since with respect to the local or global injective model structure all objects are automatically cofibrant, this means that $\bar Sh_{(\infty,1)}(S)$ is the full sub-$(\infty,1)$-category of $PSh_{(\infty,1)}(S)$ on simplicial presheaves which are fibrant with respect to the local injective model structure: these are the [[infinity-stack]]s in this model.
+
+By the general properties of [[localization of an (infinity,1)-category]] there should be a class of morphisms $f : Y \to X$ in $PSh_{(\infty,1)}(S)$ -- hence between injective-fibrant objects in $[S^{op}, PSh(S)]$ -- such that the simplicial presheaves representing $\infty$-stacks are precisely the [[local object]]s with respect to these morphisms.
+
+This was worked out in 
+
+* D. Dugger, S. Hollander, D. Isaksen, _Hypercovers and simplicial presheaves_ ([pdf](http://hopf.math.purdue.edu//Dugger-Hollander-Isaksen/hypspre.pdf))
+ 
+**Proposition**
+
+The objects of $Sh_{(\infty,1)}(S)$ -- i.e. the fibrant objects with respect to the local injective model structure on $[S^{op}, SSet]$ -- are precisely those objects $A$ of $PSh_{(\infty,1)}(S)$ -- i.e. the fibrant objects with respect to the global injective model structure on $[S^{op}, SSet]$ -- which **satisfy descent for all hypercovers**, i.e. those for which for all hypercover $f : U \to X$ in $[S^{op}, SSet]$ we have that
+
+$$
+  [S^{op}, SSet](X,A) \stackrel{\simeq}{\to}
+  [S^{op}, SSet](U,A)
+$$
+
+is a [[model structure on simplicial sets|weak equivalence of simplicial sets]].
+
+For more see [[descent for simplicial presheaves]].
 
 Notice from the discussion at [[abelian sheaf cohomology]] that this is known to reproduce in particular sheaf cohomology in terms of right [[derived functor]]s of global section functors as well as Cech hypercohomolohy for complexes of ableian sheaves.
 
