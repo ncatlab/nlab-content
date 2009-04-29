@@ -1,4 +1,28 @@
-See also [[infinity-stack]].
+#Idea#
+
+The notion of _stack_ is the one-step [[vertical categorification]] of a [[sheaf]]. 
+
+Or rather, it is the categorification of the _codomain_ of a sheaf. If also the domain (the [[site]]) is categorified, one speaks of a [[derived stack]].
+
+Since the full $\infty$-categorification of "[[sheaf]]" is [[infinity-stack]], a stack is conversely an [[infinity-stack]] which happens to be 1-truncated.
+
+From this $\infty$-point of view it seems a bit pointless to say "stack" instead of "2-sheaf" and accordingly for instance in [[Higher Topos Theory|HTT]] the term [[(infinity,1)-sheaf|infinity-sheaf]] is used instead of $\infty$-stack.
+
+More concretely this means that a stack on a [[site]] $S$ is 
+
+* a ([[pseudofunctor|pseudo]]-)[[functor]] $S^{op} \to Grpd$ to the 2-category [[Grpd]] of groupoids;
+
+* that satisfies [[descent]].
+
+
+In some circles the notion of a stack as a generalized groupoid is almost more familiar than the notion of sheaf as a [[space and quantity|generalized space]]. For instance [[differentiable stack]]s have attracted much attention in the study of [[Lie groupoid]]s and [[orbifold]]s, while [[generalized smooth space]]s are only beginning to be investigated more in [[Lie theory]]. 
+
+
+#Provisional discussion#
+
+The following is "provisional" material on stacks that [[Todd Trimble]] wrote in the course of a discussion with [[Urs Schreiber|Urs]]. Somebody should turn this here into a coherent entry on stacks.
+
+***
 
 (Todd speaking.) I don't really speak "stacks", but in an effort to build a bridge between sheaves and stacks, I'll write down what I thought I understood, and ask someone such as Urs to come in and check. (Warning: I'm treating this edit box almost as a sandbox, in that what I say below is all a bit provisional until we get some discussion going.) 
 
