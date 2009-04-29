@@ -15,6 +15,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-29 #
 
+* [[Urs Schreiber|Urs]]: 
+
+  * I browsed a bit through Dominic Verity's work and created entries on [[stratified simplicial set]], [[complicial set]], [[weak complicial set]], [[simplicial weak omega-category]] and [[Verity-Gray tensor product]] -- my main motivation was the claim now recounted at [[stratified simplicial set]] that the $\omega$-nerve on strict $\omega$-categories with values in $Strat$ has a strong monoidal left adjoint
+
 * [[Zoran Škoda]]: created [[enhanced triangulated category]]
 
 * [[Urs Schreiber|Urs]]:
