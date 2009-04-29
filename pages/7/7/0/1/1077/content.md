@@ -6,7 +6,7 @@ Morphisms between finite biproducts are encoded in a [[matrix calculus]].
 
 # Definition #
 
-Let $C$ be a [[category]] with [[zero morphism]]s; that is, $C$ is [[enriched category|enriched]] over [[pointed set]]s.  For $c_1, c_2$ two objects in $C$, suppose a [[product]] $c_1 \times c_2$ and a [[coproduct]] $c_1 \sqcup c_2$ both exist.  Then consider the canonical morphism
+Let $C$ be a [[category]] with [[zero morphism]]s; that is, $C$ is [[enriched category|enriched]] over [[pointed set]]s (for example, $C$ might have a [[zero object]]).  For $c_1, c_2$ two objects in $C$, suppose a [[product]] $c_1 \times c_2$ and a [[coproduct]] $c_1 \sqcup c_2$ both exist.  Then consider the canonical morphism
 $$
   r : c_1 \sqcup c_2 \to c_1 \times c_2
 $$
@@ -35,6 +35,8 @@ The above definition has a straightforward generalization to biproducts of any n
 _Mike_: Can anyone give a definition of a biproduct that doesn't require the category to be presupposed to have a zero object, but which specializes to a zero object in the 0-ary case?
 
 [[Toby Bartels]]:  Actually, our current definition does this; I just wrote it badly.  Of course, now the category starts with an enriched structure ... but at least it is a weaker requirement.
+
+[[Mike Shulman|Mike]]: The reason I ask is that I'm trying to work out an indexed version of biproducts.  In a fibration or indexed category, coproducts are left adjoint $f_!$ to reindexing $f^*$ and products are right adjoint $f_*$, so having $f$-indexed biproducts should mean that some canonical map $f_!\to f_*$ is an isomorphism.  But I'm not having much luck constructing such a canonical map.  Perhaps this is related to the need for decidable equality?
 =--
 
 # Biproducts imply enrichment #
@@ -42,7 +44,7 @@ _Mike_: Can anyone give a definition of a biproduct that doesn't require the cat
 A category with all finite biproducts is automatically [[enriched category|enriched]] over the [[monoidal category]] of abelian [[monoid]]s with the usual [[tensor product]], as follows.
 
 Given two morphisms $f, g: a \to b$ in $C$, let their sum $f + g: a \to b$ be
-$$ a \to a \times a \cong a \oplus a \to^{f \oplus g} b \oplus b \cong b \sqcup b \to b .$$
+$$ a \to a \times a \cong a \oplus a \overset{f \oplus g}{\to} b \oplus b \cong b \sqcup b \to b .$$
 One proves that $+$ is associative and commutative. Of course, the zero morphism $0: a \to b$ is the usual [[zero morphism]] given by the zero object:
 $$ a \to 1 \cong 0 \to b .$$
 One proves that $0$ is the neutral element for $+$ and that this matches the $0$ morphism that we began with in the definition.
