@@ -147,6 +147,8 @@ _Toby_: The notation $(f/g/h)$ for a [[double comma object]] makes me like $(f \
 _Mike_: I'd rather avoid using $\to$ in the name of an object; talking about projections $p:(f\to g)\to A$ looks a good deal more confusing to me than $p:(f/g)\to A$.
 
 _Toby_: I can handle that, but after thinking about it more, I\'ve realised that the arrow doesn\'t really work.  If $f, g: A \to B$, then $f \to g$ ought to be the set of transformations between them.  (Or $f \Rightarrow g$, but you can\'t keep that decoration up.) 
+
+[[Mike Shulman|Mike]]: Let me summarize this discussion so far, and try to get some other people into it.  So far the only argument I have heard in favor of the notation $(f,g)$ is that it generalizes a notation for hom-sets.  In my experience that notation for hom-sets is rare-to-nonexistent, nor do I like it as a notation for hom-sets: for one thing it doesn't indicate the category in question, and for another it looks like an ordered pair.  The notation $(f,g)$ for a comma category also looks like an ordered pair, which it isn't.  I also don't think that a comma category is very much like a hom-set; it happens to be a hom-set when the domains of $f$ and $g$ are the point, but in general it seems to me that a more natural notion of hom-set between functors is a set of natural transformations.  It's really the _fibers_ of the comma category, considered as a fibration from $C$ to $D$, that are hom-sets.  Finally, I don't think the notation $(f,g)$  scales well to [[double comma object]]s; we could write $(f,g,h)$ but it is now even less like a hom-set.
 =--
 
 # Further reading #
