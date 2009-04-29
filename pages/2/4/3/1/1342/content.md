@@ -12,9 +12,19 @@ More concretely
 
 * This condition is essentially the _descent conditon_.
 
-* In concrete models for the [[(infinity,1)-category of (infinity,1)-sheaves]] -- notably in terms of the [[model structure on simplicial presheaves]] -- the morphisms $Y \to X$ in $W$ usually come from [[hypercover]]s  $Y$ which are [[homotopy limit|homotopy colimits]] $Y = hocolim U^\bullet$ in [[SSet]]-[[enriched category theory]]  over a  [[simplicial object]] $U^\bullet$.
+In concrete models for the [[(infinity,1)-category of (infinity,1)-sheaves]] -- notably in terms of the [[model structure on simplicial presheaves]] -- the morphisms $Y \to X$ in $W$ usually come from [[hypercover]]s  $Y \to X$;
 
-  * In this case the above condition becomes $PSh(S)(X,A) \stackrel{\simeq}{\to} PSh(S)(hocolim U^\bullet, A)$ which is equivalent to $ PSh(S)(X,A) \stackrel{\simeq}{\to} holim PSh(S)(U^\bullet, A) $. This in turn is usually equivalently written $ A(X) \stackrel{\simeq}{\to} holim A(U^\bullet) $. And this is the form of the [[local object]]-condition which is usually called _descent condition_.
+in this case the above condition becomes $PSh(S)(X,A) \stackrel{\simeq}{\to} PSh(S)(colim^\Delta Y_\bullet, A)$ which is equivalent to $ PSh(S)(X,A) \stackrel{\simeq}{\to} lim^\Delta PSh(S)(Y_\bullet, A) $. This in turn is usually equivalently written 
+
+$$
+  A(X) 
+  \stackrel{\simeq}{\to} 
+   Desc(Y_\bullet \to X, A) 
+   := lim^\Delta A(U^\bullet)
+  \,.
+$$ 
+
+And this is the form of the [[local object]]-condition which is usually called **descent condition**.
 
 
 
@@ -442,7 +452,7 @@ $$
 
 This should presumeably be read as saying that $P_n(-)$ _satisfies codescent_ and is hence an _$n$-costack_. 
 
-This statement is closely related to the _homotopy van Kampen theorem_, which essentially asserts that $\Pi_n$ satisfies even a strict form of codescent.
+This statement is closely related to the higher homotopy [[van Kampen theorem]], which essentially asserts that $\Pi_n$ satisfies even a strict form of codescent.
 
 For blog discussion about this see
 
