@@ -160,6 +160,11 @@ _Toby_: I can handle that, but after thinking about it more, I\'ve realised that
 [[Urs Schreiber|Urs]]: sounds good. I'll try to stick to $(f/g)$ then.
 
 [[Mike Shulman|Mike]]: There are many category theorists who write $(f/g)$, including (in my experience) most Australians.  I prefer $(f/g)$ myself, although I occasionally write $(f\downarrow g)$ if I'm talking to someone who I worry might be confused by $(f/g)$.
+
+[[Urs Schreiber|Urs]]: recently in a talk when an over-category appeared as $C/a$ somebody in the audience asked: "What's that quotient?". But $(C/a)$ already looks different. And of course the proper $(Id_C/const_a)$ even more so. 
+
+Anyway, that just to say: i like $(f/g)$, find it less cumbersome than $(f\downarrow g)$ and apologize for having written  $(f,g)$ so often.
+
 =--
 
 # Further reading #
