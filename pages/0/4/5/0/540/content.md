@@ -4,7 +4,10 @@ Weak $\omega$-categories are examples of [[higher category theory|higher categor
 
 * [[Trimble n-category]]
 
+* [[simplicial weak omega-category]]
+
 * [[Batanin omega-category]]
+
 
 
 ***
