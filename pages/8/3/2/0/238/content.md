@@ -15,6 +15,19 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-30 #
 
+* [[Urs Schreiber|Urs]]: 
+
+  * replied to [[David Corfield|David]] at [[why (infinity,1)-categories?]]
+
+  * added
+
+    * [[(infinity,1)-category of (infinity,1)-presheaves]]
+
+    * [[(infinity,1)-category of (infinity,1)-functors]]
+
+    * [[(infinity,1)-category of (infinity,1)-categories]]
+
+
 * [[David Corfield|David]]:
 
   * asked question at [[why (infinity,1)-categories?]]
