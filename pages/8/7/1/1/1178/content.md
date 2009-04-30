@@ -36,6 +36,26 @@ If [[set theory]] is really the [[ETCS|elementary theory of the category of sets
 
 And the entire discussion for the 1-category [[Set]] above then has its analogs for the [[(infinity,1)-category]] [[Top]]. In particular, [[Top]] is an [[(infinity,1)-category]] which happens to be the archetypical example of an [[(infinity,1)-topos]]. This means that once one understans constructions in [[homotopy theory]] as $(\infty,1)$-categorical constructions, they tend to generalize to the wider contexts of other other [[(infinity,1)-topos|(infinity,1)-topoi]].
 
+## side remark: relation to more general $\infty$-categories ##
+
+At this point the natural question is:
+
+>But why then $(\infty,1)$-categories instead of directly more general [[infinity-category|infinity-categories]]?
+
+This has a good but somewhat more technical answer:
+
+the problem of defining higher categories is the problem of defining the right coherence laws -- associators, pentagonators and so forth. But even if the higher category in question is not groupoidal, i.e. is [[directed object|directed]], the coherence cells will be equivalences, i.e. weakly invertivle cells. So the problem of controlling coherence laws is a problem of $(\infty,0)$-categorical nature. 
+
+For this reason it is useful to first go to infinit cell degree with just the invertible cells, and  only after that start increasing the degree of the non-invertible cells. 
+
+Concretely, we have the following useful constructions for $(\infty,1)$-categories:
+
+* there is a simple definition of the [[(infinity,1)-category of (infinity,1)-categories]]. This should be the $(\infty,1)$-subcategory on all invertible 2-cells (transformations of $(\infty,1)$-functors) of the [[(infinity,2)-category of (infinity,1)-categories]], which has a more involved definition, but the point is that the $(\infty,1)$-category of all $(\infty,1)$-categories is allready quite sufficient for many constructions. 
+
+* there is a simple iterative definition of [[(infinity,n)-category]] by an iterative weak enrichment in $(\infty,n-1)$-categories, again precisely due to the presence of invertible cells in all degrees, which allows to say what a [[homotopy limit]] of $(\infty,n-1)$-categories is, as enters for instance in the definition of [[complete Segal space]].
+
+
+
 ## consequence: unification and generalization ##
 
 In particular, there is an [[(infinity,1)-category of (infinity,1)-sheaves|(infinity,1)-category of (infinity,1)-sheaves]] on every [[site]] $S$. Homotopy theory inside these "Grothendieck-Rezk-Lurie" $(\infty,1)$-topoi is much like ordinary [[homotopy theory]], only that what used to be topological spaces are now generalized spaces called [[infinity-stack homotopically|infinity-stacks]].
