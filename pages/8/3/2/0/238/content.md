@@ -17,6 +17,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
+  * continued filling in material at [[geometric infinity-function theory]] -- am hoping that my co-journalists will eventually start helping me there
+
   * replied to [[David Corfield|David]] at [[why (infinity,1)-categories?]]
 
   * added
