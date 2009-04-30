@@ -79,3 +79,12 @@ In that case, the stack condition on $X$ becomes the statement that the canonica
 $$X(c) \stackrel{Yoneda}{\cong} Nat(d \hom(-, c), X) \to Nat(d F, X)$$ 
 
 (where the first equivalence comes from the bicategorical Yoneda lemma, and the second functor is induced from the subfunctor $i: F \to \hom(-, c)$) is an equivalence for all $J$-covering sieves $F$. This formulation connects up nicely, that is, is a straight categorification of what was put down in the entry [[sheaf]]. 
+
+
+#References#
+
+Introductory material is
+
+* J. Heinloth, _Some notes on differentiable stacks_ ([pdf](http://www.uni-duisburg-essen.de/~hm0002/stacks.pdf))
+
+* I. Moerdijk, _Introduction to the language of stacks and gerbes_ ([arXiv](http://arxiv.org/abs/math/0212266))
