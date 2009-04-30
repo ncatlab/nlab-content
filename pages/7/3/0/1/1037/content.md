@@ -141,6 +141,8 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
     * [[Segal category]]
 
+  * [[(infinity,1)-category of (infinity,1)-functors]]
+
   * [[(infinity,n)-category]]
  
 
@@ -169,6 +171,9 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
 ##3 The $\infty$-Category of $\infty$-Categories
 
+* [[(infinity,1)-category of (infinity,1)-categories]]
+
+
 ##4 Limits and Colimits##
 
 * [[homotopy limit]]
@@ -176,6 +181,8 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 * [[limit in quasi-categories]]
 
 ##5 Presentable and Accessible $\infty$-Categories##
+
+* [[(infinity,1)-category of (infinity,1)-presheaves]]
 
 * [[ind-object in an (infinity,1)-category]]
 
@@ -188,6 +195,7 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
   * [[accessible (infinity,1)-category]]
 
   * [[presentable (infinity,1)-category]]
+
 
 * [[localization of an (infinity,1)-category]]
 
