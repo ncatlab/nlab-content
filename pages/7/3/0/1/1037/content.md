@@ -237,11 +237,44 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
 ##Appendix##
 
+### Category theory ###
+
+
 * [[category theory]]
+
+* [[enriched category theory]]
+
+
+### Model categories ###
 
 * [[homotopy theory]]
 
+* [[category with weak equivalences]]
+
+* [[homotopical category]]
+
+  * [[enriched homotopical category]]
+
+  * [[category of fibrant objects]]
+
+  * [[Waldhausen category]]
+
+  * [[model category]]
+ 
+    * [[monoidal model category]]
+
+    * [[enriched model category]]
+
+    * [[localization of a model category]]
+
+
+### Simplicial model categories
+
 * [[simplicially enriched category]]
+
+* [[simplicial model category]]
+
+  * [[localization of a simplicial model category]]
 
 
 category: reference
