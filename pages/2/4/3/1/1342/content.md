@@ -102,8 +102,12 @@ A well-studied class of models/presentations for an [[(infinity,1)-category of (
 
 Let $[S^{op}, SSet]$ be the [[SSet]]-[[enriched category]] of [[simplicial presheaf|simplicial presheaves]] on $S$. 
 
-Recall from [[model structure on simplicial presheaves]] that there is the _global_ and the _local_ injective simplicial model structure on $[S^{op}, SSet]$, and that the local model structure is a (Bousfield-)localization of the global model structure.
+Recall from [[model structure on simplicial presheaves]] that there is the _global_ and the _local_ injective simplicial model structure on $[S^{op}, SSet]$ which makes it a [[simplicial model category]] and that the local model structure is a (Bousfield-)localization of the global model structure.
 
+So in terms of simplicial presheaves the [[localization of an (infinity,1)-categroy]] that we want to describe, namely [[infinity-stackification]], is modeled as the [[localization of a simplicial model category]]. 
+
+
+Recall that the [[(infinity,1)-category]] modeled/presented by a [[simplicial model category]] is the full [[SSet]]-subcategory on fibrant-cofibrant objects.
 According to [section 6.5.2](http://www-math.mit.edu/~lurie/papers/highertopoi.pdf#page=528)  of [[Higher Topos Theory|HTT]] we have:
 
 * the full simplicial subcategory on fibrant-cofibrant objects of $[S^{op}, SSet]$ with respect to the _global_ injective model structure is (the [[SSet]]-[[enriched category]] realization of) the $(\infty,1)$-category  $PSh_{(\infty,1)}(S)$ of [[(infinity,1)-presheaf|(infinity,1)-presheaves]] on $S$.
