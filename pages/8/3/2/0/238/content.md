@@ -15,6 +15,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-04-30 #
 
+* [[David Corfield|David]]:
+
+  * asked question at [[why (infinity,1)-categories?]]
+
 * [[Urs Schreiber|Urs]]: 
 
   * added one more paragraph to [[why (infinity,1)-categories?]]
