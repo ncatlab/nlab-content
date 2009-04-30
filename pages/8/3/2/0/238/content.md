@@ -19,9 +19,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * asked questions at [[exponential object]]
 
-# 2009-04-29 #
-
 * [[Urs Schreiber|Urs]]:
+
+  * started [[localization of a simplicial model category]]
 
   * created [[enriched model category]] and [[simplicial model category]]
 
