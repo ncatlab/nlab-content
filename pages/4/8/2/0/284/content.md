@@ -39,11 +39,11 @@ Here we follow Joyal and say [[quasi-category]] when we mean concretely the simp
 
 With [[quasi-category|quasi-categories]] being just [[simplicial set]]s with extra property, there are evident and simple definitions of 
 
-* the [[quasi-category of (infinity,1)-functors|(infinity,1)-category of (infinity,1)-functors]] between two [[quasi-category|quasi-categories]] $C$ and $D$;
+* the [[(infinity,1)-category of (infinity,1)-functors|quasi-category of (infinity,1)-functors|]] between two [[quasi-category|quasi-categories]] $C$ and $D$;
 
 * the quasi-category of all [[infinity-groupoid]]s;
 
-* the [[quasi-category of all quasi-categories|(infinity,1)-category of (infinity,1)-categories]].
+* the [[(infinity,1)-category of (infinity,1)-categories|quasi-category of all quasi-categories]].
 
 Similarly, [[Andre Joyal]] and [[Jacob Lurie]] have shown that all other constructions in [[category theory]] have good generalizations to quasi-categories, which usually have conceptually simple formulations: see [[Higher Topos Theory]] for more.
 
@@ -60,16 +60,16 @@ This indeed turns out to be true: there is a precise sense in which every [[mode
 
 * given a model category $A$;
 
-* it bcomes canonically an [[SSet]]-[[enriched category]] making it a [[simplial model category]] $\mathbf{A}$;
+* it bcomes canonically an [[SSet]]-[[enriched category]] making it a [[simplicial model category]] $\mathbf{A}$;
 
 * the full [[SSet]]-[[subcategory]] $\mathbf{A}^\circ$ on the fibrant-cofibrant objects of $\mathbf{A}$ happens to be [[Kan complex]]-[[enriched category|enriched]];
 
 * the [[simplicial nerve]] $N(\mathbf{A}^\circ)$ of $\mathbf{A}^\circ$ is the [[quasi-category]] _presented_ by $A$.
 
-With the relation between [[simplicial category|simpliical categories]] and [[quasi-category|quasi-categories]] via [[simplicial nerve]] understood, we shall here often not distinguish between $\mathbf{A}^\circ$ and $N(\mathbf{A}^\circ)$ as the $(\infty,1)$-category [[presentable (infinity,1)-category|presented]] by the [[model category]] $A$.
+With the relation between [[simplicial category|simplical categories]] and [[quasi-category|quasi-categories]] via [[simplicial nerve]] understood, we shall here often not distinguish between $\mathbf{A}^\circ$ and $N(\mathbf{A}^\circ)$ as the $(\infty,1)$-category [[presentable (infinity,1)-category|presented]] by the [[model category]] $A$.
 
 
-The following analogy (appearing in this way on [p. 44 of Ben-Zvi/Nadler07]()) might illustrate how model categories, $(\infty,1)$-categories and homotopy categories relate
+The following analogy (appearing in this way on [p. 44 of Ben-Zvi/Nadler07](http://arxiv.org/PS_cache/arxiv/pdf/0706/0706.0322v1.pdf#page=44)) might illustrate how model categories, $(\infty,1)$-categories and homotopy categories relate
 
 $$
  \array{
