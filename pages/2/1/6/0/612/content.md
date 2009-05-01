@@ -1,22 +1,15 @@
-[website](http://www-math.mit.edu/~lurie/)
 
-#articles#
+* [website](http://www-math.mit.edu/~lurie/)
 
-* [[Higher Topos Theory]]
+#articles (partly) indexed on the $n$Lab#
 
-* [[Stable Infinity-Categories]]
+* [[Higher Topos Theory]] ([pdf](http://www-math.mit.edu/~lurie/topoibook/highertopoi.pdf))
 
-#related entries#
+* [[Stable Infinity-Categories]]([pdf](http://www-math.mit.edu/~lurie/topoibook/DAGI.pdf))
 
-* [[(infinity,1)-category]]
+* [[Higher Algebra|Noncommutative Algebra]] ([pdf](http://www-math.mit.edu/~lurie/topoibook/DAGII.pdf))
 
-* [[stable infinity-category]]
-
-* [[(infinity,n)-category]]
-
-* [[(infinity,n)-category of cobordisms]]
-
-* [[generalized tangle hypothesis]]
+* [[Higher Algebra|Commutative Algebra]] ([pdf](http://www-math.mit.edu/~lurie/topoibook/DAGIII.pdf))
 
 
 category: biography
