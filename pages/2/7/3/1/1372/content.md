@@ -45,7 +45,11 @@ The links are ordered following the sections of the articles
 
 # Commutative ring spectra #
 
-* [[spectrum]]
+* [[stable (infinity,1)-category of spectra]]
+
+  * [[spectrum]]
+
+  * [[spectrum object]]
 
 # Symmetric monoidal model categories #
 
