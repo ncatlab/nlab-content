@@ -46,9 +46,13 @@ The homotopy category of a stable $(\infty,1)$-category is shown to be a [[trian
 
 ##8 Stabilization##
 
+* [[spectrum object]]
+
 ##9 The $\infty$-Category of Spectra##
 
 * [[spectrum]]
+
+* [[stable (infinity,1)-category of spectra]]
 
 ##10 Excisive Functors##
 
