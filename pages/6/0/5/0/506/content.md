@@ -1,2 +1,3 @@
-see [[derived stack]]
+See [[derived stack]].
 
+category: redirect
