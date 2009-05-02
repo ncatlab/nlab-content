@@ -20,6 +20,12 @@ However, the previous versions of these assertions work in weaker logics.  In fa
 
 +--{: .query}
 [[Mike Shulman|Mike]]: What is a cartesian multicategory, and how do I interpret the theory of groups in one?  I can guess what it would mean for a multicategory to have finite products.  But if I interpret the multiplication as a morphism $G\times G\to G$, then I'm not using the multicategory structure, so we might as well just be in a category with finite products.  And if I interpret the multiplication as a multimap $(G;G)\to G$, then I don't know how to interpret the axiom of inverses, since there is no 'diagonal' $G\to (G;G)$ or 'projection' $G\to ()$.
+
+_Toby_:  I\'m not sure why I generalised to cartesian multicategories, but it is a nontrivial generalisation.  (Perhaps I was planning to show, as an example, how the category of contexts of the canonical language of a multicategory becomes a monoidal category or something, but that doesn\'t seem very useful.  Maybe I was just doing unnecessary generality, but of course it\'s not the absolutely most general situation either.)
+
+Anyway ... you make a multicategory cartesian much as you might make a monoidal category cartesian by equipping it with appropriate diagonal and projection maps.  The problem is that, while $G \to G \otimes G$ and $G \to 1$ make sense in a monoidal category, they don\'t make sense in a multicategory.  But you fix this by filtering through Yoneda.
+
+So a __cartesian multicategory__ is a multicategory equipped with, for each object $G$ and object $X$, a function $\check{G}^*_X: hom(G;X) \to hom(G,G;X)$ and a function $\hat{G}^*_X: hom(G;X) \to hom(;X)$.  (H\'m, my commas and semicolons are the opposite of yours; no matter.)  Then these are subject to various coherence requirements that should be obvious.
 =--
 
 Even if one is completely uninterested in [[internalization]] or weak logics, a basic familiarity with contexts may help drive home a point that is important throughout reasoning: **What you can state and prove depends on your assumptions.**
@@ -78,6 +84,10 @@ In [rot13](http://www.rot13.com/): gur bccbfvgr bs gur pngrtbel bs svavgryl cerf
 
 +--{: .query}
 _David_: Not too sophisticated a code. What can be said in general about such context phenomena? Seems reminiscent of algebraic theories being equivalent to the opposite of the category of their free models.
+
+_Toby_:  If you mean rot13, it\'s only supposed to be sophisticated enough to keep people from reading it accidentally (and also to be involutory).  The link is mostly for lazy people.
+
+As for the code that hides finitely presented groups in this category of contexts, or free groups on finite sets in the category of contexts without equational hypotheses, or groups in the category of contexts with arbitrary hypotheses in the language of higher-order logic, well ... that\'s sophisticated enough that I don\'t understand it very well yet.  But I do believe that it\'s closely related to hiding a Lawvere theory\'s free models in itself.
 =--
 
 # Display morphisms
