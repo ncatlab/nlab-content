@@ -1,4 +1,4 @@
-There are two general types of strategies for defining and handling [[higher category theory|higher categories]]. In the _geometric_ approach a higher category is defined to be a [[simplicial set]] with extra [[property|properties]].
+There are two general types of strategies for defining and handling [[higher category theory|higher categories]]. In the _geometric_ approach a higher category is defined to be a [[simplicial set]] with extra [[stuff, structure, property|properties]].
 
 From the alternative point of view of [[algebraic definition of higher category]] the simplicial set here is the [[nerve]] of the $\infty$-category which it encodes.
 
