@@ -37,6 +37,9 @@ _Mike_: Can anyone give a definition of a biproduct that doesn't require the cat
 [[Toby Bartels]]:  Actually, our current definition does this; I just wrote it badly.  Of course, now the category starts with an enriched structure ... but at least it is a weaker requirement.
 
 [[Mike Shulman|Mike]]: The reason I ask is that I'm trying to work out an indexed version of biproducts.  In a fibration or indexed category, coproducts are left adjoint $f_!$ to reindexing $f^*$ and products are right adjoint $f_*$, so having $f$-indexed biproducts should mean that some canonical map $f_!\to f_*$ is an isomorphism.  But I'm not having much luck constructing such a canonical map.  Perhaps this is related to the need for decidable equality?
+
+_Toby_:  If it helps, here is a bit more on that subject, which I wrote at [[direct sum]]:
+>An arbitrary index set will still work if $C$ is enriched over the category of sets and [[partial function]]s; this may be embedded as a [[full subcategory]] of the category of pointed sets, and the embedding is an [[equivalence of categories]] if and only if the law of [[excluded middle]] holds.  But the usual examples of $C$ are not (constructively) so enriched.
 =--
 
 # Biproducts imply enrichment #
