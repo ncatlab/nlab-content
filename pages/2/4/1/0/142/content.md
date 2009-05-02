@@ -2,7 +2,7 @@
 
 The notion of _stack_ is the one-step [[vertical categorification]] of a [[sheaf]]. 
 
-Or rather, it is the categorification of the _codomain_ of a sheaf. If also the domain (the [[site]]) is categorified, one speaks of a [[derived stack]].
+Or rather, it is the half-categorification of a sheaf where the _codomain_ is categorified (from [[Set]] to [[Grpd]]). If also the domain (the [[site]]) is categorified, one speaks of a [[derived stack]].
 
 Since the full $\infty$-categorification of "[[sheaf]]" is [[infinity-stack]], a stack is conversely an [[infinity-stack]] which happens to be 1-truncated.
 
