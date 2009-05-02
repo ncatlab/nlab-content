@@ -81,9 +81,11 @@ $$
 
 strict omega categories yield simplicial sets that are called [[complicial set]]s. 
 
-**Proposition**
++-- {: .un_prop}
+###### Proposition
 
 The categories of $\omega$-categories and complicial sets are [[equivalence of categories|equivalent]].
+=--
 
 This is sometimes called the _Street-Roberts conjecture_. It was completely proven in
 
