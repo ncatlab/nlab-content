@@ -37,6 +37,8 @@ in any 2-category, lax 2-adjunctions can be defined in any [[3-category]] when t
 [[Mike Shulman|Mike]]: What 3-category are we intended to work in to obtain an equivalence with the original notion?  I guess this is the question of how strict we require $C,D,F,G$ to be and whether "suitably natural" means "strictly 2-natural" or "pseudo natural."
 
 Since on the nLab, everything is weak by default, it seems that we should probably use the unadorned name for the version where $C$, $D$ are weak 2-categories, $F$ and $G$ are weak 2-functors, and $\hat\phi$ and $\check\phi$ are pseudo natural.
+
+[[Finn Lawler|Finn]]:  For Gray, $C,D,F,G$ are all strict, and $\eta,\epsilon$ are lax.  I'm still trying to understand the connection between the two formulations, so I'm not sure how extra weakness on one side translates to the other.  I should have a better idea soon.
 =--
 
 ## Sources ##
@@ -49,4 +51,6 @@ This idea was introduced in Gray's [[Gray-adjointness-for-2-categories|book]] un
 * Renato Betti and John Power, _On Local Adjointness of Distributive Bicategories_
 
 except that they allow $F$ to be an oplax functor, $G$ a lax functor, $\hat\phi$ an oplax transformation, and $\check\phi$ a lax transformation.
+
+[[Finn Lawler|Finn]]:  I'm roughly following Seely, _Modelling computations: a 2-categorical framework_, from [here](http://www.math.mcgill.ca/~rags/WkAdj/LICS.pdf).  He cites Gray and Kelly--Street, _Review of the elements of 2-categories_ (which I haven't seen yet).
 =--
