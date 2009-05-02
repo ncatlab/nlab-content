@@ -100,19 +100,19 @@ For more references and background on the following see [[descent for simplicial
 
 A well-studied class of models/presentations for an [[(infinity,1)-category of (infinity,1)-sheaves]] is obtained using the [[model structure on simplicial presheaves]] on an  ordinary (1-categorical) [[site]] $S$, as follows.
 
-Let $[S^{op}, SSet]$ be the [[SSet]]-[[enriched category]] of [[simplicial presheaf|simplicial presheaves]] on $S$. 
+Let $[S^{op}, SSet]$ be the [[SimpSet|SSet]]-[[enriched category]] of [[simplicial presheaf|simplicial presheaves]] on $S$. 
 
 Recall from [[model structure on simplicial presheaves]] that there is the _global_ and the _local_ injective simplicial model structure on $[S^{op}, SSet]$ which makes it a [[simplicial model category]] and that the local model structure is a (Bousfield-)localization of the global model structure.
 
 So in terms of simplicial presheaves the [[localization of an (infinity,1)-categroy]] that we want to describe, namely [[infinity-stackification]], is modeled as the [[localization of a simplicial model category]]. 
 
 
-Recall that the [[(infinity,1)-category]] modeled/presented by a [[simplicial model category]] is the full [[SSet]]-subcategory on fibrant-cofibrant objects.
+Recall that the [[(infinity,1)-category]] modeled/presented by a [[simplicial model category]] is the full [[SimpSet|SSet]]-subcategory on fibrant-cofibrant objects.
 According to [section 6.5.2](http://www-math.mit.edu/~lurie/papers/highertopoi.pdf#page=528)  of [[Higher Topos Theory|HTT]] we have:
 
-* the full simplicial subcategory on fibrant-cofibrant objects of $[S^{op}, SSet]$ with respect to the _global_ injective model structure is (the [[SSet]]-[[enriched category]] realization of) the $(\infty,1)$-category  $PSh_{(\infty,1)}(S)$ of [[(infinity,1)-presheaf|(infinity,1)-presheaves]] on $S$.
+* the full simplicial subcategory on fibrant-cofibrant objects of $[S^{op}, SSet]$ with respect to the _global_ injective model structure is (the [[SimpSet|SSet]]-[[enriched category]] realization of) the $(\infty,1)$-category  $PSh_{(\infty,1)}(S)$ of [[(infinity,1)-presheaf|(infinity,1)-presheaves]] on $S$.
 
-* the full simplicial subcategory on fibrant-cofibrant objects of $[S^{op}, SSet]$ with respect to the _local_ injective model structure is (the [[SSet]]-[[enriched category]] realization of) the $(\infty,1)$-category  $\bar{Sh}_{(\infty,1)}(S)$ which is the [[hypercompletion]] of the $(\infty,1)$-category $Sh_{(\infty,1)}(S)$ of [[(infinity,1)-sheaf|(infinity,1)-sheaves]] on $S$.
+* the full simplicial subcategory on fibrant-cofibrant objects of $[S^{op}, SSet]$ with respect to the _local_ injective model structure is (the [[SimpSet|SSet]]-[[enriched category]] realization of) the $(\infty,1)$-category  $\bar{Sh}_{(\infty,1)}(S)$ which is the [[hypercompletion]] of the $(\infty,1)$-category $Sh_{(\infty,1)}(S)$ of [[(infinity,1)-sheaf|(infinity,1)-sheaves]] on $S$.
 
 Since with respect to the local or global injective model structure all objects are automatically cofibrant, this means that $\bar Sh_{(\infty,1)}(S)$ is the full sub-$(\infty,1)$-category of $PSh_{(\infty,1)}(S)$ on simplicial presheaves which are fibrant with respect to the local injective model structure: these are the [[infinity-stack]]s in this model.
 
@@ -124,10 +124,10 @@ This was worked out in
 
 We now describe central results of that article.
  
-**Definition**
++-- {: .un_defn}
+###### Definition
 
 For $X \in S$ an object in the [[site]] regarded as a simplicial presheaf and $Y \in [S^{op}, SSet]$ a simplicial presheaf on $S$, a morphism $Y \to X$ is a **[[hypercover]]** if it is a _local acyclic fibration_, i.e. of for all $V \in S$ and all diagrams
-
 $$
   \array{
     \Lambda^k[n]\otimes V &\to & Y
@@ -148,7 +148,6 @@ $$
   }
 $$
 there exists a covering  [[sieve]] $\{U_i \to V\}$ of $V$ with respect to the given [[Grothendieck topology]] on $S$ such that for every $U_i \to V$ in that [[sieve]] the pullback of the abve diagram to $U$ has a lift
-
 $$
   \array{
     \Lambda^k[n]\otimes U_i &\to & Y
@@ -169,25 +168,27 @@ $$
   } 
   \,.
 $$
+=--
 
 If $S$ is a [[Verdier site]] then every such hypercover $Y \to X$ has a refinement by a hypercover which is cofibrant with respect to the projective global [[model structure on simplicial presheaves]]. We shall from now on make the assumption that the hypercovers $Y \to X$ we discuss are cofibrant in this sense. These are called _split hypercovers_. (This works in many cases that arise in practice, see the discussion after [DHI, def. 9.1](http://hopf.math.purdue.edu//Dugger-Hollander-Isaksen/hypspre.pdf#page=29).)
 
-
-
-**Proposition**
++-- {: .un_prop}
+###### Proposition
 
 The objects of $Sh_{(\infty,1)}(S)$ -- i.e. the fibrant objects with respect to the projective model structure on $[S^{op}, SSet]$ -- are precisely those objects $A$ of $PSh_{(\infty,1)}(S)$ -- i.e. [[Kan complex]]-valued simplicial presheaves -- which
 **satisfy descent for all split hypercovers**, i.e. those for which for all split hypercover $f : Y \to X$ in $[S^{op}, SSet]$ we have that
-
 $$
   [S^{op}, SSet](X,A) \stackrel{\simeq}{\to}
   [S^{op}, SSet](Y,A)
 $$
-
 is a [[model structure on simplicial sets|weak equivalence of simplicial sets]].
+=--
 
-Proof. This is [DHI, thm 1.3](http://hopf.math.purdue.edu//Dugger-Hollander-Isaksen/hypspre.pdf#page=3) formulated in the light of [DHI, lemma 4.4 ii)](http://hopf.math.purdue.edu//Dugger-Hollander-Isaksen/hypspre.pdf#page=9).
++-- {: .proof}
+###### Proof
 
+This is [DHI, thm 1.3](http://hopf.math.purdue.edu//Dugger-Hollander-Isaksen/hypspre.pdf#page=3) formulated in the light of [DHI, lemma 4.4 ii)](http://hopf.math.purdue.edu//Dugger-Hollander-Isaksen/hypspre.pdf#page=9).
+=--
 
 Notice that by the [[co-Yoneda lemma]] every simplicial presheaf $F : S^{op} \to SSet$, which we may regard as a presheaf $F : \Delta^{op}\times S^{op} \to Set$, is isomorphic to the [[weighted limit|weighted colimit]] 
 
@@ -195,7 +196,7 @@ $$
     F \simeq colim^\Delta F_\bullet
 $$
 
-which is equivalently the [[coend]]
+which is equivalently the [[end|coend]]
 
 $$
   F \simeq \int^{[n] \in \Delta} \Delta^n \cdot F_n
@@ -203,7 +204,7 @@ $$
 $$ 
 
 where $F_n$ is the Set-valued presheaf of $n$-cells of $F$ regarded as an $SSet$-valued presheaf under the inclusion $Set \hookrightarrow SSet$, and
-where the [[SSet]]-weight is the canonical cosimplicial simplicial set $\Delta$, i.e. for all $X \in S$
+where the [[SimpSet|SSet]]-weight is the canonical cosimplicial simplicial set $\Delta$, i.e. for all $X \in S$
 
 $$
   F : X \mapsto \int^{[n] \in \Delta} \Delta^n \times F(X)_n
@@ -330,7 +331,7 @@ $$
 for the descent data for a presheaf $A$ with respect to a (hyper)cover $Y \to X$
 
 
-This [[weighted limit]] (whether taken in $SSet$- or in $Str \omega Cat$-[[enriched category theory]]) is given by the [[coend]]
+This [[weighted limit]] (whether taken in $SSet$- or in $Str \omega Cat$-[[enriched category theory]]) is given by the [[end|coend]]
 
 $$
   lim^W\Delta A(Y_\bullet)
@@ -478,7 +479,7 @@ $$
 
 This should presumeably be read as saying that $P_n(-)$ _satisfies codescent_ and is hence an _$n$-costack_. 
 
-This statement is closely related to the higher homotopy [[van Kampen theorem]], which essentially asserts that $\Pi_n$ satisfies even a strict form of codescent.
+This statement is closely related to the [[higher homotopy van Kampen theorem]], which essentially asserts that $\Pi_n$ satisfies even a strict form of codescent.
 
 For blog discussion about this see
 
