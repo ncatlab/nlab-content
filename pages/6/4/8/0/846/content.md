@@ -74,6 +74,3 @@ in [definition 1.2.8.1, p. 42](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4
 A useful discussion emphasizing the Day convolution operation is also in section 3.1 of
 
 * Dominic Verity, _Weak complicial sets I_ ([arXiv](http://arxiv.org/abs/math/0604414))
-
-* 
-
