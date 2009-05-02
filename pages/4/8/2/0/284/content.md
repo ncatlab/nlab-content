@@ -66,21 +66,16 @@ This indeed turns out to be true: there is a precise sense in which every [[mode
 
 * the [[simplicial nerve]] $N(\mathbf{A}^\circ)$ of $\mathbf{A}^\circ$ is the [[quasi-category]] _presented_ by $A$.
 
-With the relation between [[simplicial category|simplical categories]] and [[quasi-category|quasi-categories]] via [[simplicial nerve]] understood, we shall here often not distinguish between $\mathbf{A}^\circ$ and $N(\mathbf{A}^\circ)$ as the $(\infty,1)$-category [[presentable (infinity,1)-category|presented]] by the [[model category]] $A$.
+With the relation between [[simplicial object in Cat|simplical categories]] and [[quasi-category|quasi-categories]] via [[simplicial nerve]] understood, we shall here often not distinguish between $\mathbf{A}^\circ$ and $N(\mathbf{A}^\circ)$ as the $(\infty,1)$-category [[presentable (infinity,1)-category|presented]] by the [[model category]] $A$.
 
 
 The following analogy (appearing in this way on [p. 44 of Ben-Zvi/Nadler07](http://arxiv.org/PS_cache/arxiv/pdf/0706/0706.0322v1.pdf#page=44)) might illustrate how model categories, $(\infty,1)$-categories and homotopy categories relate
 
-$$
- \array{
-   model category &\to& (\infty,1)-category &\to& homotopy category
-   \\
-   vector space with basis &\to& vector space &\to& dimension of vector space
- }
-$$
+: model category &#8594; $(\infty,1)$-category &#8594; homotopy category
+: vector space with basis &#8594; vector space &#8594; dimension of vector space
 
 
-## Top-, Kan- and simplicially enriched categories ##
+## $Top$-, $Kan$- and simplicially enriched categories ##
 
 As the above example of presentations by [[model category|model categories]]
 already indicates,
