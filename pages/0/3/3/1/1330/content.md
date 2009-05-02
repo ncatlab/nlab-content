@@ -1,7 +1,7 @@
 #Idea#
 
 
-A _localization_ of an [[(infinity,1)-category]] $C$ is a functor $L : C \to C_0$ to an $(\infty,1)$-subcategory $C_0 \hookrightarrow C$ such that with $c$ any object there is a morphism connecting it to its localization 
+A _[[localization]]_ of an [[(infinity,1)-category]] $C$ is a functor $L : C \to C_0$ to an $(\infty,1)$-subcategory $C_0 \hookrightarrow C$ such that with $c$ any object there is a morphism connecting it to its localization 
 
 $$
   c \to L(c)
@@ -24,7 +24,7 @@ $$
 $$
 
 to a [[reflective (infinity,1)-subcategory]] $C_0 \hookrightarrow C$ is called 
-a **[[localization]]** of $C$.
+a **localization** of $C$.
 
 #Examples#
 
