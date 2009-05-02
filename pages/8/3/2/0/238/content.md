@@ -10,8 +10,16 @@ So, if you feel people's attention should be drawn to some changes you make, ple
 
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).
 
-
 ***
+
+# 2009-05-02 #
+
+*  [[Toby Bartels]]:
+   *  Disambiguated [[simplicial category]], hopefully correctly, at [[(infinity,1)-category]], [[derived stack]], and [[pretriangulated dg-category]].
+   *  Wrote [[proper class]].
+   *  Moved [[Higher Algebra]] to [[higher algebra]] because it *seemed* to be about the subject rather than about just Lurie\'s two papers, but I may have been wrong about that.
+   *  Formatted theorems at [[descent for simplicial presheaves]] and [[descent]].
+   *  Answered questions at [[biproduct]], [[comma category]], [[exponential object]], and [[context]].
 
 # 2009-05-01 #
 
