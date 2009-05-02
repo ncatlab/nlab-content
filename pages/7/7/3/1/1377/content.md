@@ -39,6 +39,8 @@ in any 2-category, lax 2-adjunctions can be defined in any [[3-category]] when t
 Since on the nLab, everything is weak by default, it seems that we should probably use the unadorned name for the version where $C$, $D$ are weak 2-categories, $F$ and $G$ are weak 2-functors, and $\hat\phi$ and $\check\phi$ are pseudo natural.
 
 [[Finn Lawler|Finn]]:  For Gray, $C,D,F,G$ are all strict, and $\eta,\epsilon$ are lax.  I'm still trying to understand the connection between the two formulations, so I'm not sure how extra weakness on one side translates to the other.  I should have a better idea soon.
+
+[[Mike Shulman|Mike]]: Unfortunately, there is no 3-category, not as usually understood, in which the 2-cells are lax transformations.  The interchange law for whiskering lax transformations holds only laxly, so at most you have some sort of 'lax 3-category.'  Actually, in the case of $2Cat$, what you have is that $2Cat$ with the lax [[Gray tensor product]] is biclosed and hence enriched over itself, and that sort of enrichment is the relevant 3-category-like structure.  (More grist for [[michaelshulman:n-topos for large n|my mill]] that lax things are important!)
 =--
 
 ## Sources ##
@@ -53,4 +55,6 @@ This idea was introduced in Gray's [[Gray-adjointness-for-2-categories|book]] un
 except that they allow $F$ to be an oplax functor, $G$ a lax functor, $\hat\phi$ an oplax transformation, and $\check\phi$ a lax transformation.
 
 [[Finn Lawler|Finn]]:  I'm roughly following Seely, _Modelling computations: a 2-categorical framework_, from [here](http://www.math.mcgill.ca/~rags/WkAdj/LICS.pdf).  He cites Gray and Kelly--Street, _Review of the elements of 2-categories_ (which I haven't seen yet).
+
+[[Mike Shulman|Mike]]: Kelly-Street don't say anything about lax adjunctions.  I want to make sure we think seriously about what this sort of thing should be called, rather than just following one or another author.  As far as I can tell, it doesn't fit into the general precise meaning of 'lax' (being a type of morphism of algebras for a 2-monad), and there are so many possible variations (as in Gray's book) that it might be nice to have a sensible system of nomenclature that would include them all.  Maybe.  On the other hand, I actually never really took Gray's stuff very seriously because I couldn't think of any examples; maybe I should look more closely at Seely's paper.
 =--
