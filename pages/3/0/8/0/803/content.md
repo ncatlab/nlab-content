@@ -1,5 +1,5 @@
 
-#Definition#
+##Definition#
 
 
 The **double comma object** of three morphisms $f:A\to D$, $g:B\to D$, and $h:C\to D$ in a [[2-category]] can be defined as
@@ -7,9 +7,9 @@ $$(f/g/h) = (f/g)\times_B (g/h)$$
 where $(f/g)$ and $(g/h)$ are the ordinary [[comma object]]s.  It can also be characterized as a [[2-limit]] in its own right.
 
 
-### Examples
+## Examples
 
-#### in Cat ####
+### in [[Cat]] ####
 
 A double comma category is among other things the strict pullback
 
