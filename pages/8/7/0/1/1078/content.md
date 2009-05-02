@@ -38,7 +38,7 @@ where $0_{ij}$ is the zero morphism from $A_i$ to $A_j$.
 
 Then if $C$ is a [[regular category]] or otherwise has a good concept of [[image]], we define the __direct sum__ $\bigoplus_i A_i$ to be the image of the map $r$.
 
-In [[constructive mathematics]], the definition of $r$ requires that the index set $I$ have [[decidable equality]], which is the case in most applications of interest.  An arbitrary index set will still work if $C$ is enriched over the category of sets and [[partial function]]s; this may be embedded as a [[full subcategory]] of the category of pointed sets, but the embedding is an [[equivalence of categories]] if and only if the law of [[excluded middle]] holds.  But the usual examples of $C$ are not (constructively) so enriched.
+In [[constructive mathematics]], the definition of $r$ requires that the index set $I$ have [[decidable equality]], which is the case in most applications of interest.  An arbitrary index set will still work if $C$ is enriched over the category of sets and [[partial function]]s; this may be embedded as a [[full subcategory]] of the category of pointed sets, and the embedding is an [[equivalence of categories]] if and only if the law of [[excluded middle]] holds.  But the usual examples of $C$ are not (constructively) so enriched.
 
 ## Weak direct product ##
 
