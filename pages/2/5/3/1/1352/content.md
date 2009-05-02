@@ -1,6 +1,6 @@
 #Idea#
 
-A _stratified simplicial set_ is a [[simplicial set]] equipped with information about which of its [[simplex|simplices]] are to be regarded as being _thin_ in that they are like identies or at least like equivalences in a [[higher category theory|higher category]].
+A _stratified simplicial set_ is a [[simplicial set]] equipped with information about which of its [[simplex|simplices]] are to be regarded as being _[[thin element|thin]]_ in that they are like identies or at least like equivalences in a [[higher category theory|higher category]].
 
 The theory of [[simplicial weak omega-category|simplicial weak omega-catgeories]] is based on stratified simplicial sets.
 
