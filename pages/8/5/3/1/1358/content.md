@@ -1,7 +1,7 @@
 #Idea#
 
 
-Pretriangulated dg-categories are models for [[stable (infinity,1)-category|stable (infinity,1)-categories]] in terms of [[differential graded category|dg-categories]], much like [[simplicial category|simplicial categories]] are models for [[(infinity,1)-category|(infinity,1)-categories]].
+Pretriangulated dg-categories are models for [[stable (infinity,1)-category|stable (infinity,1)-categories]] in terms of [[differential graded category|dg-categories]], much like [[simplicially enriched category|simplicial categories]] are models for [[(infinity,1)-category|(infinity,1)-categories]].
 
 The cohomology category of a pretriangulated dg-category is an ordinary [[triangulated category]], hence pretrignaulated dg-categories are called [[enhanced triangulated category|enhanced triangulated categories]].
 
