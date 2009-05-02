@@ -33,4 +33,4 @@ $$
 
 definition 1.1.14 in
 
-* [[Jacob Lurie]], [[Higher Algebra|Noncommutative Algebra]]
+* [[Jacob Lurie]], [[higher algebra|Noncommutative Algebra]]
