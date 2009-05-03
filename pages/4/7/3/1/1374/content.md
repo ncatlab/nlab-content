@@ -19,7 +19,7 @@ $$
 
   * an [[algebra in an (infinity,1)-category|algebra object]] in $Sp(Top_*)$ with respect to this monoidal structure is an [[associative ring spectrum]];
 
-  * an [[commutative algebra in an (infinity,1)-category|algebra object]] in $Sp(Top_*)$ with respect to this monoidal structure is a [[commutative ring spectrum]];
+  * a [[commutative algebra in an (infinity,1)-category|commutative algebra object]] in $Sp(Top_*)$ with respect to this monoidal structure is a [[commutative ring spectrum]];
 
 
 #References#
