@@ -1,0 +1,3 @@
+FOLDS (first-order logic with dependent sorts) is a form of ([[intuitionistic logic|intuitionistic]] or [[classical logic|classical]]) [[predicate logic|predicate]] [[logic]] with a weak form of [[equality]] in which [[category theory]] (and even [[higher category theory]]) can be formulated but it is impossible to say anything [[evil]].  It was developed by [[Michael Makkai]].
+
+*  First Order Logic with Dependent Sorts, with Applications to Category Theory, available from [Makkai\'s homepage](http://www.math.mcgill.ca/makkai/).
