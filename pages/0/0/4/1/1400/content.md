@@ -1,0 +1,3 @@
+An **anabicategory** is a particular notion of _weak [[2-category]]_ appropriate in the absence of the [[axiom of choice]] (including in many [[internal category|internal]] contexts).  It is derived from the notion of [[bicategory]] by replacing the [[hom-functor]]s with [[anafunctor]]s.
+
+If [[Cat]] is defined as consisting of ([[small category|small]]) [[category|categories]], anafunctors, and [[ananatural transformation]]s, then $Cat$ is naturally an anabicategory rather than any stricter notion.
