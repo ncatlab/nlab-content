@@ -6,6 +6,10 @@ So far this work is presented in the two articles
 
 * **CharTheo** David Ben-Zvi, David Nadler, _The Character Theory of a Complex Group_ ([arXiv](http://arxiv.org/abs/0904.1247))
 
+This is based in particular on
+
+* **LoopSpace** David Ben-Zvi, David Nadler, _Loop Spaces and Langlands Parameters_ ([arXiv](http://arxiv.org/abs/0706.0322))
+
 
 +-- {: .query}
 
@@ -167,7 +171,57 @@ The following is supposed to going to be a list of linked keywords corresponding
 
 ### 2. Preliminaries ###
 
-#### 2. $\infty$-categories ####
+Recall that the goal of **geometric $\infty$-function theorys** is
+
+* to establish a good [[higher category theory|higher categorical]] version of linear algebra ("integral transform" = "higher matrix multiplication"!)
+
+* such that interesting classes of [[sigma-model]] [[FQFT|extended TQFTs]] $Z_P$ are [[representable functor|represented]] by [[heuristic introduction to sheaves, cohomology and higher stacks|generalized spaces]] $P$ 
+
+  * in that the "higher linear map" $Z_P(\Sigma)$ assigned by the [[FQFT|QFT]] to a [[cobordism]] [[cospan]] $\array{ && \Sigma \\ & \nearrow && \nwarrow \\ \Sigma_{in} &&&& \Sigma_{out}}$ is giveen by the [[span]] $\array{ && [\Sigma,P] \\ & \swarrow && \searrow \\ [\Sigma_{in},P] &&&& [\Sigma_{out}, P]}$.
+
+This clearly requires that
+
+* we fix a good ambient context of [[Higher Topos Theory|higher sheaf- and category theory]];
+
+* and inside that a good general concept of [[higher algebra]].
+
+One point made by the [[David Ben-Zvi|Ben-Zvi]]/Francis/Nadler work is that a good working context of [[higher category theory]] in which a good notion of _geometric $\infty$-function theory_ can be set up nicely is the context assembled and developed in the PhD thesis of [[Jacob Lurie]], consisting of
+
+* [[Higher Topos Theory]] -- the theory of [[(infinity,1)-category|(infinity,1)-categories]] and [[(infinity,1)-sheaf|(infinity,1)-sheaves]]
+
+  * this assembles and develops 
+
+    * work by [[Andre Joyal]] on [[quasi-category|quasi-categories]];
+
+    * work by Simpson, Rezk, To&#235;n, Vezzosi and others on higher categories and higher stacks;
+
+    * work by [[BrownAHT|Brown]], [[Andre Joyal|Joyal]], Jardine and others on [[model category|models]] for [[infinity-stack]]s. 
+
+* [[Stable Infinity-Categories|Stable Higher Category Theory]] -- essentially the theory of [[additive and abelian categories]] lifted to the $(\infty,1)$-context;
+
+  * which puts the large body of work on [[homotopy theory|stable homotopy theory]] and [[homological algebra]] into the above [[(infinity,1)-category|(infinity,1)-categorical]] context, in essence identifying the abstract idea modeled by [[pretriangulated dg-category|pretriangulated dg-categories]] and [[A-infinity category|A-infinity categories]]
+
+* [[higher algebra|Higher Algebra]] -- the theory of [[monoid]]- or [[algebra]]-objects [[internalization|internal to]] ([[symmetric monoidal (infinity,1)-category|symmetrix]]) [[monoidal (infinity,1)-category|monoidal]] [[(infinity,1)-category|(infinity,1)-categories]]
+
+  * expanding on work by To&#235;n-Vezoosi;
+
+  * wich puts the "brave new algebra" of [[commutative ring spectrum|ring spectra]] into its natural higher categorical context.
+
+Especially for the newcomer and non-expert it must be understood that the plethora of high-powered terminology appearing here is conceptually _simplified_ and unified by their description in the higher categorical context:
+
+* the concept of an [[(infinity,1)-sheaf]]/[[infinity-stack]] is _much simpler_ than its model in terms of the [[model structure on simplicial presheaves]];
+
+* the concept of a [[stable (infinity,1)-category]] is _much simpler_ than its 1-categorical shadow as a [[triangulated category]];
+
+* the concept of a [[commutative algebra in an (infinity,1)-category]] is _simpler_ than the details of its realization given by a [[commutative ring spectrum]].
+
+* Moreover, the gain of _geometric $\infty$-function theory_ will be that it turns out to _unify_ a wealth of concepts appearing in [[FQFT]] and [[representation theory]].
+
+This is the reason why we bother with geometric $\infty$-function theory and devote a detailed discussion to it: _geometric $\infty$-function theory_ carries the promise of getting close to the sought-for Lawvere-ification of quantum field theory -- providing its [[physics|natural language]].
+
+
+
+#### 2.1 $\infty$-categories ####
 
 The [[infinity-category|infinity-categories]] that we are dealing with here are 
 
@@ -196,7 +250,7 @@ is naturally a
 
 * [[presentable (infinity,1)-category|presentation of an (infinity,1)-category]].
 
-##### Enhancing triangulated categories ####
+##### 2.1.1 Enhancing triangulated categories ####
 
 The aim of _geometric $\infty$-function theory_ is to develop a good $\infty$-categorical generalization of the simple notion of 
 
@@ -228,7 +282,7 @@ Experience shows that the right (or at least a very good) $\infty$-[[vertical ca
 
 * [[stable (infinity,1)-category]].
   
-It turns out that just as [[model category|model categories]] and related [[homotopical categor|homotopical categories]] are best thought of as, well, _models_ for $(\infty,1)$-categories, so various constructions in [[homological algebra]] -- and in the end really all of modern homological algebra -- is best thought of as models for [[stable (infinity,1)-category|stable (infinity,1)-categories]].
+It turns out that just as [[model category|model categories]] and related [[homotopical category|homotopical categories]] are best thought of as, well, _models_ for $(\infty,1)$-categories, so various constructions in [[homological algebra]] -- and in the end really all of modern homological algebra -- is best thought of as models for [[stable (infinity,1)-category|stable (infinity,1)-categories]].
 
 This concerns notably
 
@@ -254,19 +308,46 @@ This is a general pattern here:
 
 
 
-#### monoidal $\infty$-categories ####
+#### 2.2 monoidal $\infty$-categories ####
 
-* recall
+A central aspect of geometric $\infty$-function theory is that we regard the collection $C(X)$ of $\infty$-functions assigned to a generalized space $X$ (concretely modeled as $QC(X)$, see section 3 below) not just as a higher vector space but naturally as a [[higher algebra]]. Indeed, the central two theorems/properties of [[geometric function theory]] concern the interplay between the _geometry_ of intersections or [[pullback]]s
 
-  * [[monoidal category]]
- 
-  * [[symmetric monoidal category]]
+$$
+  \array{
+     && Y_1 \times_X Y_2
+     \\
+     & \swarrow && \searrow
+     \\
+     Y_1 &&&& Y_2
+     \\
+     & \searrow && \swarrow
+     \\
+     && X
+  }
+$$
 
-now consider
+of generalized spaces and the _algebra_ of [[tensor product]]s 
 
-* [[monoidal (infinity,1)-category]]
+$$
+  C(Y_1) \otimes_{C(X)} C(Y_2)
+  \,.
+$$
 
-* [[symmetric monoidal (infinity,1)-category]]
+In order to formulate this, one needs a good general theory of [[higher algebra]]. Just as ordinary [[algebra]] takes place inside a [[monoidal category]], [[higher algebra]] takes place in a [[monoidal (infinity,1)-category]]:
+
+an &#176;$\infty$-monoid" or &#176;$\infty$-algebra" is an [[algebra in an (infinity,1)-category|algebra/monoid object in a monoidal (infinity,1)-category]].
+
+In order to characterize the $(\infty,1)$-categories $C(X)$ as algebra objects in such a sense we profit from the ease with which [[quasi-category|quasi-categories]] naturally reflect on themselves and allow us with comparative ease to talk about the [[(infinity,1)-category of (infinity,1)-categories]] $(\infty,1)Cat_1$.
+
+Since $(\infty,1)Cat_1$ itself is a [[symmetric monoidal (infinity,1)-category]], we will essentially identity the $\infty$-algebras $C(X)$ as [[algebra in an (infinity,1)-category|algebra objects]] in $(\infty,1)Cat_1$.
+
+But there is actually a slight technical simplification: we don't deal with _all_ $(\infty,1)$-categories, but just with [[presentable (infinity,1)-category|presentable (infinifty,1)-categories]]. See there for the (long) list of nice properties and characterization of presentable $(\infty,1)$-categories.
+
+So
+
+* presentable $(\infty,1)$-categories form the [[symmetric monoidal (infinity,1)-category of presentable (infinity,1)-categories]]  $Pr(\infty,1)Cat_1$;
+
+* the $\infty$-algebras of $\infty$-functions $C(X)$ are [[algebra in an (infinity,1)-category|algebra objects in]] $Pr(\infty,1)Cat_1$.
 
 
 
