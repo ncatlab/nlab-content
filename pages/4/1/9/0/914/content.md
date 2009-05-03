@@ -19,7 +19,7 @@ $$\ess\exists_\nu (p \wedge q) \;\Rightarrow\; \ess\exists_\nu p \wedge \ess\exi
 $$\ess\forall_\nu (p \vee q) \;\Leftarrow\; \ess\forall_\nu p \wedge \ess\forall_\nu q$$
 $$\ess\exists_\nu (p \vee q) \;\Leftrightarrow\; \ess\exists_\nu p \vee \ess\exists_\nu q$$
 $$\ess\forall_\nu \neg{p} \;\Leftrightarrow\; \neg\ess\exists_\nu p$$
-and other analogues of theorems from [[predicate calculus]].  Note that the last item listed requires [[excluded middle]] even though its analogue from the ordinary predicate calculus does not.
+and other analogues of theorems from [[predicate logic]].  Note that the last item listed requires [[excluded middle]] even though its analogue from ordinary predicate logic does not.
 
 A similar logic is satisfied by 'almost everywhere' and its dual in [[measure space]]s.
 
