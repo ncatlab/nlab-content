@@ -29,7 +29,7 @@ where $0_{i,j}$ is the zero morphism from $c_i$ to $c_j$.
 
 If this morphism $r$ is an [[isomorphism]], then the isomorphic objects $c_1 \times c_2$ and $c_1 \sqcup c_2$ are called [[generalized the|the]] __biproduct__ of $c_1$ and $c_2$.  This object is often denoted $c_1 \oplus c_2$, alluding to the [[direct sum]] (which is often an example).
 
-The above definition has a straightforward generalization to biproducts of any number of objects (although this requires extra structure on the category in [[constructive mathematics]] if the set indexing these objects does not have [[decidable equality]]).  A [[zero object]] is the biproduct of no objects.
+The above definition has a straightforward generalization to biproducts of any number of objects (although this requires extra structure on the category in [[constructive mathematics]] if the set indexing these objects might not have [[decidable equality]]).  A [[zero object]] is the biproduct of no objects.
 
 +--{: .query}
 _Mike_: Can anyone give a definition of a biproduct that doesn't require the category to be presupposed to have a zero object, but which specializes to a zero object in the 0-ary case?
@@ -42,6 +42,8 @@ _Toby_:  If it helps, here is a bit more on that subject, which I wrote at [[dir
 >An arbitrary index set will still work if $C$ is enriched over the category of sets and [[partial function]]s; this may be embedded as a [[full subcategory]] of the category of pointed sets, and the embedding is an [[equivalence of categories]] if and only if the law of [[excluded middle]] holds.  But the usual examples of $C$ are not (constructively) so enriched.
 
 [[Mike Shulman|Mike]]: Was that what you had in mind for the "extra structure" above?  It occurred to me that it could also mean the existence of "subzero objects," i.e. $\coprod_A X \to \prod_A X$ is an isomorphism whenever $A$ is a subsingleton---which is also, I think, not constructively true in the usual examples.
+
+_Toby_:  Yes, that\'s what I had in mind.  (Although you could also do a more local version, letting the requirement that the index set be discrete and the requirement the hom-sets be enriched over $Set_part$ meet halfway, if you see what I mean.)
 =--
 
 # Biproducts imply enrichment #
