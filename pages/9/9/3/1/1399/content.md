@@ -1,0 +1,3 @@
+The __identity anafunctor__ on a [[category]] $C$ is the [[anafunctor]] $id_C: C \to C$ that, as a [[span]] of [[functor]]s, looks like $C \stackrel{id_C}\leftarrow C \stackrel{id_C}\rightarrow C$, where now $id_C$ is the [[identity functor]] on $C$.  Of course, this is the same as the identity functor on $C$ interpreted as an anafunctor.
+
+The identity anafunctors are the [[identity|identities]] for [[composition]] of anafunctors in [[Cat]].
