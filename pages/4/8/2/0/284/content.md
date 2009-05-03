@@ -98,7 +98,7 @@ In fact, this is also equivalent to
 
 * the [[model structure on simplicial sets|standard model structure]] on the category [[SimpSet|SSet]] of [[simplicial set]]s.
 
-If we takes a [[Kan complex]] to most manifestly be an incarnation of the idea "[[infinity-groupoid]]", then under these equivalences one should think of
+If we take the notion of [[Kan complex]] to be the most manifest incarnation of the idea "[[infinity-groupoid]]", then under these equivalences one may think of
 
 * a [[simplicial set]] as representing the [[Kan complex]] which is obtained from it by "freely throwing in the missing inverses" of cells (technically: as representing its fibrant replacement);
 
