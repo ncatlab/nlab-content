@@ -1,0 +1,1 @@
+**$E_\infty$-ring** is another term for [[commutative ring spectrum]].
