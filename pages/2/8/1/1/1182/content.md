@@ -171,13 +171,13 @@ The following is supposed to going to be a list of linked keywords corresponding
 
 ### 2. Preliminaries ###
 
-Recall that the goal of **geometric $\infty$-function theorys** is
+Recall that the goal of **geometric $\infty$-function theory** is
 
 * to establish a good [[higher category theory|higher categorical]] version of linear algebra ("integral transform" = "higher matrix multiplication"!)
 
 * such that interesting classes of [[sigma-model]] [[FQFT|extended TQFTs]] $Z_P$ are [[representable functor|represented]] by [[heuristic introduction to sheaves, cohomology and higher stacks|generalized spaces]] $P$ 
 
-  * in that the "higher linear map" $Z_P(\Sigma)$ assigned by the [[FQFT|QFT]] to a [[cobordism]] [[cospan]] $\array{ && \Sigma \\ & \nearrow && \nwarrow \\ \Sigma_{in} &&&& \Sigma_{out}}$ is giveen by the [[span]] $\array{ && [\Sigma,P] \\ & \swarrow && \searrow \\ [\Sigma_{in},P] &&&& [\Sigma_{out}, P]}$.
+  * in that the "higher linear map" $Z_P(\Sigma)$ assigned by the [[FQFT|QFT]] to a [[cobordism]] [[cospan]] $\array{ && \Sigma \\ & \nearrow && \nwarrow \\ \Sigma_{in} &&&& \Sigma_{out}}$ is given by the [[span]] $\array{ && [\Sigma,P] \\ & \swarrow && \searrow \\ [\Sigma_{in},P] &&&& [\Sigma_{out}, P]}$.
 
 This clearly requires that
 
@@ -250,7 +250,7 @@ is naturally a
 
 * [[presentable (infinity,1)-category|presentation of an (infinity,1)-category]].
 
-##### 2.1.1 Enhancing triangulated categories ####
+##### 2.1.1 Enhancing triangulated categories #####
 
 The aim of _geometric $\infty$-function theory_ is to develop a good $\infty$-categorical generalization of the simple notion of 
 
@@ -335,7 +335,7 @@ $$
 
 In order to formulate this, one needs a good general theory of [[higher algebra]]. Just as ordinary [[algebra]] takes place inside a [[monoidal category]], [[higher algebra]] takes place in a [[monoidal (infinity,1)-category]]:
 
-an &#176;$\infty$-monoid" or &#176;$\infty$-algebra" is an [[algebra in an (infinity,1)-category|algebra/monoid object in a monoidal (infinity,1)-category]].
+an "$\infty$-monoid" or "$\infty$-algebra" is an [[algebra in an (infinity,1)-category|algebra/monoid object in a monoidal (infinity,1)-category]].
 
 In order to characterize the $(\infty,1)$-categories $C(X)$ as algebra objects in such a sense we profit from the ease with which [[quasi-category|quasi-categories]] naturally reflect on themselves and allow us with comparative ease to talk about the [[(infinity,1)-category of (infinity,1)-categories]] $(\infty,1)Cat_1$.
 
@@ -596,7 +596,7 @@ Morphisms from the [[fundamental infinity-groupoid]] are also called [[local sys
 
 #### base change and projection formula ####
 
-#### construcons of perfect stacks ####
+#### constructions of perfect stacks ####
 
 ### tensor products and integral transforms ###
 
