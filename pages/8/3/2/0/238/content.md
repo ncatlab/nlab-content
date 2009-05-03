@@ -12,6 +12,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-05-03 #
+
+* [[Urs Schreiber|Urs]]: 
+
+  * created [[symmetric monoidal (infinity,1)-category]]
+
+  * thanks, [[Toby Bartels|Toby]], for your editorial help! Yes, right, "higher algebra" should be lower case, true.
+
 # 2009-05-02 #
 
 *  [[Toby Bartels]]:
