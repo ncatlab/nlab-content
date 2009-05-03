@@ -23,18 +23,26 @@ A central motivating example example for or special case of the study of higher 
 
 * monoids internal to the [[stable (infinity,1)-category of spectra]] -- called [[commutative ring spectrum|commutative ring spectra]]
 
-The "higher algebra" embodied by them has been called **brave new algebra** by F. Waldhausen.
+The "higher algebra" embodied by [[commutative ring spectrum|commutative ring spectra]] has been called **brave new algebra** by F. Waldhausen.
+
+More recently [[Jacob Lurie]] argued that the natural ambient formalism for "brave new algebra" is that of ([[symmetric monoidal (infinity,1)-category|symmetric]]) [[monoidal (infinity,1)-category|monoidal]] [[(infinity,1)-category|(infinity,1)-categories]]:
+
+>We should emphasize that the theory of [[A-infinity algebra|A-infinity rings]] is not new. There are various definitions available in the the literature; see for example _EKMM97_. We have chosen to present the subject using the language of [[(infinity,1)-category|(infinity,1)-categories]], which we feel is the natural home for these ideas. [#](http://www-math.mit.edu/~lurie/papers/DAG-II.pdf#page=3)
 
 
 #Related entries#
 
-The links are ordered following the sections of the articles
+The following links are ordered following the sections of the articles
 
 * [[Jacob Lurie]] 
 
   * _Noncommutative algebra_ ([pdf](http://www-math.mit.edu/~lurie/topoibook/DAGII.pdf))
 
   * _Commutative algebra_ ([pdf](http://www-math.mit.edu/~lurie/topoibook/DAGIII.pdf)) 
+
+See also 
+
+* **EKMM97** Elmendorf, Kriz, Mandell, May, _Rings, modules and algebras in stable homotopy theory_, Mathematical surveys and monographs 47, American Mathematical Society, 1997
 
 
 #Monoidal $(\infty,1)$-Categories#
@@ -69,6 +77,8 @@ The links are ordered following the sections of the articles
 
 * [[symmetric monoidal (infinity,1)-category]]
 
+* [[commutative algebra in an (infinity,1)-category]]
+
 # Commutative ring spectra #
 
 * [[stable (infinity,1)-category of spectra]]
@@ -84,3 +94,5 @@ The links are ordered following the sections of the articles
 # Symmetric monoidal model categories #
 
 * [[model category]]
+
+
