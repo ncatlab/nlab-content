@@ -11,4 +11,6 @@ _Toby_:  Ah, I see how 'simplicial nerve' is confusing; so how about just [[nerv
 
 [[Urs Schreiber|Urs]]: right, that might be the best option -- I have to run now, maybe you can implement that?
 
+_Toby_:  I\'ll wait to hear from Tim.
+
 =--
