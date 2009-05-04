@@ -1,3 +1,19 @@
+#Idea#
+
+An _end_ is a special kind of [[limit]] over a [[functor]] of the form $F : C^{op} \times C \to D$ (sometimes called a _bifunctor_).
+
+If we think of such a functor in the sense of [[distributor]]s as encoding a left and right [[action]] on the object
+
+$$
+  \prod_{c \in C} F(c,c)
+$$
+
+then the _end_ of the functor picks out the universal [[subobject]] on which the left and right action coincides.
+
+A classical example of an _end_ is the $V$-object of [[natural transformation]]s between $V$-[[enriched functor]]s in [[enriched category theory]]. 
+
+#In ordinary category theory#
+
 In ordinary [[category theory]], given a [[functor]] $F: C^{op} \times C \to X$, an __end__ of $F$ in $X$ is an object $e$ of $X$ equipped with a [[universal construction|universal]] [[dinatural transformation]] from $e$ to $F$. This means that given any dinatural transformation from an object $x$ of $X$ to $F$, there exists a unique map $x \to e$ which respects the dinatural transformations. 
 
 In more detail: the end of $F$ is traditionally denoted $\int_{c: C} F(c, c)$, and the components of the universal dinatural transformation, 
@@ -14,11 +30,11 @@ The notion of __coend__ is dual to the notion of end, written $\int^{c: C} F(c, 
 
 Perhaps the most common way in which ends and coends arise is through homs and tensor products of (generalized) modules, and their close cousins, weighted limits and weighted colimits. These concepts are fundamental in enriched category theory. 
 
-## Enriched ends and coends
+# In enriched category theory #
 
-There is a version in [[enriched category theory]], as follows. 
+There is a definition of _end_ in [[enriched category theory]], as follows. 
 
-### End of $V$-valued functors ###
+## End of $V$-valued functors ##
 
 Let $V$ be a [[symmetric monoidal category]], let $C$ be a $V$-[[enriched category]], and let $F: C^{op} \otimes C \to V$ be a $V$-[[enriched functor]]. 
 
@@ -57,7 +73,7 @@ $$\theta_c = \pi_c f$$
 for all objects $c$ of $C$. 
 
 
-### End of $C$-valued functors for $C \in V\Cat$ ###
+## End of $C$-valued functors for $C \in V\Cat$ ##
 
 If $X$ is any $V$-enriched category and $F: C^{op} \otimes C \to X$ is a $V$-enriched functor, then the **end** of $F$ in $X$ is an object $\int_{c: C} F(c, c)$ of $X$ equipped with an $Ob(C)$-indexed family of arrows 
 $$\pi_c: I \to X(\int_{c: C} F(c, c), F(c, c))$$ 
@@ -65,3 +81,8 @@ in $V$, such that for every object $x$ of $X$, the family
 of maps 
 $$X(x, \pi_c): X(x, \int_{c: C} F(c, c)) \to X(x, F(c, c))$$ 
 are the projection maps realizing $X(x, \int_{c: C} F(c, c))$ as the corresponding end in $V$. This is an example of the general notion of [[weighted limit]] in enriched category theory. 
+
+
+## End as an equaliizer ##
+
+...
