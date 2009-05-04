@@ -76,4 +76,13 @@ $$\begin{aligned}
   (h\circ g) \circ f &= (\lambda x)(((\lambda y)(h(g y)))(f x))
 \end{aligned}$$
 which are (as far as I can tell) not the same, but both admit a beta reduction to $(\lambda x)(h(g(f x)))$.  Is there some other way of defining composition so that it is associative?
+
+[[Finn Lawler|Finn]]:  The composite $f\circ g$ is defined to be the _substitution_ $f[x:=g]$ of $g$ for the free variable $x$ of $f$.  Associativity follows.  Substitution is meta-notation, and not part of the syntax of $\lambda$-calculus.
+
+If $\hat\phi:f\mapsto \lambda x.f$ and $\check\phi:g\mapsto g\cdot x$ (where $\cdot$ is application and $x$ is a fresh variable), then the 'local' adjunctions give
+$$\begin{aligned}
+  (\lambda x.f)\cdot x & \Rightarrow f \\
+  f & \Rightarrow \lambda x.(f\cdot x)
+\end{aligned}$$
+which when combined with the definition of composition as substitution give you exactly the $\beta$-reduction and $\eta$-expansion laws.
 =--
