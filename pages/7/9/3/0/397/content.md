@@ -19,6 +19,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[Jim Stasheff]]
 * [[Jocelyn Paine]]
 * [[John Baez]]
+* [[Jonas Frey]]
 * [[Josep Elgueta]]
 * [[Mathieu Dupont]]
 * [[Mike Shulman]]
