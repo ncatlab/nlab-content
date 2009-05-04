@@ -70,7 +70,7 @@ It is clear that the definition in this form makes sense in every 2-category. In
 This version of the definition clearly makes sense in any [[2-category]].
 
 
-## Local definition: in terms of weighted (co)limits ##
+## Local definition: pointwise definition in terms of weighted (co)limits ##
 
 
 Whenever the [[limit]] on the right hand side of the following 
@@ -110,13 +110,23 @@ $$
 
 It follows in particular that the (right/left) Kan extension exists when $D$ admits weighted [[limit]]s/[[colimit]]s over $C$.
 
-These statements have an elegant formulation in terms of [[end]]s and [[end|coend]]s (...)
 
 Note, however, that _not_ all Kan extensions (in the universal-transformation sense) are computed in this way, and Kan extensions in that sense can exist even when $D$ does not admit very many limits.  For instance, the Kan extensions that arise in the study of [[derived functor]]s are not computed in this way.
 
 Kan extensions that are computed by limits and colimits are sometimes called **pointwise** Kan extensions, as in [[Categories Work]].  On the other hand, some authors (such as Kelly) assert that only pointwise Kan extensions deserve the name "Kan extension," and use a term such as "weak Kan extension" for a functor equipped with a universal natural transformation.  It is certainly true that most Kan extensions which arise in practice are pointwise.  This distinction is even more important in [[enriched category]] theory.
 
-The basic example for left Kan extensions using the above formula, is in the construction of the pullback of sheaves along a morphism of topological spaces. Let $f:X\to Y$ be a continuous map and $F$ a presheaf over $X$. Then the formula $(f_* F)(U) = F(f^{-1}(U))$ clearly defines a presheaf $f_* F$ on $Y$, which is in fact a sheaf if $F$ is.
+### in terms of ends and coends ###
+
+These statements have an elegant formulation in terms of [[end]]s and [[end|coend]]s (...)
+
+
+### basic example: restriction and extenion of sheaves ###
+
+For more on the following see also 
+
+* [[restriction and extension of sheaves]]
+
+The basic example for left Kan extensions using the above pointwise formula, is in the construction of the pullback of sheaves along a morphism of topological spaces. Let $f:X\to Y$ be a continuous map and $F$ a presheaf over $X$. Then the formula $(f_* F)(U) = F(f^{-1}(U))$ clearly defines a presheaf $f_* F$ on $Y$, which is in fact a sheaf if $F$ is.
 On the other hand, given a presheaf $G$ over $Y$ we can not
 define pullback presheaf $(f^{-1} G)(V)=G(f(V))$ because $f(V)$ might not be open in general (unless $f$ is an open map). For Grothendieck sites such $f(V)$ would not make even sense. But one can consider approximating from above by $G(W)$ for all $W\supset f(V)$ which are open and take a colimit of this diagram of inclusions (all $W$ are bigger, so getting down to the lower bound means going reverse to the direction of inclusions). But inclusion $f(V)\subset W$ implies $V\subset f^{-1}(f(V))\subset f^{-1}(W)$. The latter identity $V\subset f^{-1}(W)$ involves _only open sets_. Thus we take a colimit over the comma category $(V\downarrow f^{-1})$ of $G$. If $G$ is a sheaf, the colimit $G(V)$ understood as a rule $V\mapsto G(V)$ is still not a sheaf, we need to [[sheafification|sheafify]]. The result is sheaf-theoretic pullback 
 $$
@@ -148,6 +158,9 @@ $$
 Hom_{[C,D]}(F,p_*(-))\cong Hom_{[C',D]}(Lan\,F,-),
 $$
 i.e. a (co)representative of the functor $Hom_{[C,D]}(F,p_*(-))$. Similarly, right Kan extensions along $p$ may exist only for some $F$.
+
+
+
 
 
 
