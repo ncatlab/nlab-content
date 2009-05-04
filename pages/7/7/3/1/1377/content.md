@@ -87,4 +87,6 @@ $$\begin{aligned}
 which when combined with the definition of composition as substitution give you exactly the $\beta$-reduction and $\eta$-expansion laws.
 
 [[Mike Shulman|Mike]]: Ah, I didn't notice that the morphisms from $A$ to $B$ are terms of type $B$ with a free variable of type $A$, rather than the (to me) more obvious choice of terms of type $A\Rightarrow B$.  I don't follow your second paragraph, though.
+
+(Of course, on a moment's reflection that choice makes perfect sense; those are the same as the morphisms in any other category of [[context]]s.)
 =--
