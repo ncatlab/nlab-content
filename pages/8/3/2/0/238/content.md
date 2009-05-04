@@ -12,6 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-05-04 #
+
+* [[Urs Schreiber|Urs]]
+
+  * added the definition to [[enriched category]] (yes, that was still "left as an exercise")
+
 # 2009-05-03 #
 
 *  [[Toby Bartels]]:
