@@ -69,4 +69,11 @@ except that they allow $F$ to be an oplax functor, $G$ a lax functor, $\hat\phi$
 [[Finn Lawler|Finn]]:  Yes, that would be nice, but I for one don't know enough yet about the big picture to make any suggestions that would generalize easily.
 
 I'm interested in this stuff because I want to use strict 2-categories with lax structure to model rewrite systems, as Seely does.  These lax/quasi/local adjunctions are one way of specifying lax structure, but there are probably others (3-monads on 2-Cat?  Lawvere 3-theories?).
+
+[[Mike Shulman|Mike]]: I don't understand how Seely's definitions give you a 2-category; all I can see is a 'lax 2-category' of some sort.  If the composite of lambda terms $f$ and $g$ is defined by $(\lambda x) (g(f x))$, then we have
+$$\begin{aligned}
+  h\circ (g\circ f) &= (\lambda x)(h(((\lambda y)(g(f y)))x))\\
+  (h\circ g) \circ f &= (\lambda x)(((\lambda y)(h(g y)))(f x))
+\end{aligned}$$
+which are (as far as I can tell) not the same, but both admit a beta reduction to $(\lambda x)(h(g(f x)))$.  Is there some other way of defining composition so that it is associative?
 =--
