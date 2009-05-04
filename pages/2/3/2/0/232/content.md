@@ -1,4 +1,4 @@
-#The Idea#
+#Idea#
 
 The idea of an enriched category is that we take the definition of [[locally small category]] and replace the [[hom-set|hom-sets]] by objects in some [[monoidal category]] $K$.  So, a __category enriched over $K$__ (also called a __category enriched in $K$__, or simply a __$K$-category__), say $C$, has a collection $ob(C)$ of objects and for each pair $x,y \in ob(C)$, a 'hom-object' 
 $$ hom(x,y) \in K .$$
@@ -13,11 +13,76 @@ There is also an enriched notion of [[limit]] called a [[weighted limit]], but i
 
 More generally, we may allow $K$ to be a [[multicategory]], a [[bicategory]], a [[double category]], or an [[fc-multicategory]].
 
-#The Details#
+#Definition#
 
-The details are an exercise for future contributors to this page. If you get stuck, try Max Kelly's book, cited in the page on [[enriched category theory]].
 
-Also see John Armstrong's article: [Enriched categories](http://unapologetic.wordpress.com/2007/08/13/enriched-categories/). 
+Let $V$ be a [[monoidal category]] with
+
+* tensor product $\otimes : C \times C \to C$;
+
+* tensor unit $I \in Obj(V)$;
+
+* associator $\alpha_{a,b,c} : (a \otimes b)\otimes c \to a \otimes (b \otimes c)$;
+
+* left unitor $l_a : I \otimes a \to a$;
+
+* right unitor $r_a : a \otimes I \to a$.
+
+A (small) **$V$-category** $C$ (or **$V$-enriched category** or **category enriched over/in $V$**) is
+
+* a [[set]] $Obj(C)$ -- called the set of objects;
+
+* for each ordered pair $(a,b) \in Obj(C) \times Obj(C)$ of objects in $C$ an object $C(a,b) \in Obj(V)$ -- called the [[hom-object]] or _object of morphisms_;
+
+* for each ordered triple $(a,b,c)$ of objects of $V$ a morphism $\circ_{a,b,c} : C(b,c) \otimes C(a,b) \to C(a,c)$ in $V$ -- called the _composition morphism_;
+
+* for each object $a \in Obj(V)$ a morphism $j_a : I \to C(a,a)$ -- called the _identity element_ 
+
+* such the following diagrams commute:
+
+for all $a,b,c,d \in Obj(V)$:
+
+$$
+  \array{
+     (C(c,d)\otimes C(b,c)) \otimes C(a,b)
+     &&\stackrel{\alpha}{\to}&&
+     C(c,d) \otimes (C(b,c) \otimes C(a,b))
+     \\
+     \downarrow^{\circ_{b,c,d}\otimes Id_{C(a,b)}} 
+     &&&& \downarrow^{Id_{C(c,d)\otimes \circ_{a,b,c}}}
+     \\
+     C(b,d)\otimes C(a,b)
+     &\stackrel{\circ_{a,b,c}}{\to}&
+       C(a,d)
+     &\stackrel{\circ_{a,c,d}}{\leftarrow}&
+     C(c,d) \otimes C(a,c)
+  }
+$$ 
+
+this says that composition in $C$ is _associative_;
+
+and
+
+$$
+  \array{
+    C(b,b)\otimes C(a,b)
+    &\stackrel{\circ_{a,b,b}}{\to}&
+    C(a,b)
+    &\stackrel{\circ_{a,a,b}}{\leftarrow}&
+    C(a,b) \otimes C(a,a)
+    \\
+    \uparrow^{j_b \otimes Id_{C(a,b)}}
+    & \nearrow_{l}&& {}_r\nwarrow& 
+    \uparrow^{Id_{C(a,b)}\otimes j_a}
+    \\
+    I \otimes C(a,b)
+    &&&&
+    C(a,b) \otimes I
+  }
+$$
+
+this says that composition is _unital_.
+
 
 ##Passage between ordinary categories and enriched categories##
 
@@ -28,6 +93,8 @@ If $K(I, -): K \to Set$ has a left adjoint $- \cdot I: Set \to K$ (taking a set 
 $$Ob(C) \times Ob(C) \stackrel{\hom}{\to} Set \stackrel{-\cdot I}{\to} K$$
 
 More generally, a (lax) [[monoidal functor]] $F: K \to L$ between monoidal categories can be regarded as a "change of base", so that by applying $F$, any category enriched over $K$ can be seen as enriched over $L$. 
+
+
 
 ##Internalization versus Enrichment##
 
@@ -67,3 +134,16 @@ Nevertheless, internalization and enrichment are related in several ways.  On th
 * An [[apartness relation|apartness space]] is a [[groupoid]] enriched over the opposite of the category of truth values, where $\otimes$ is [[disjunction]].
 
 * A [[group torsor]] (over a group $G$) can be modeled by a category enriched over the [[discrete category]] on the set $G$, where $\otimes$ is the group operation.  Not every such category determines a torsor, however; it must be nonempty as well as [[Cauchy complete category|Cauchy complete]].
+
+#References#
+
+
+The standard reference on enriched categories is
+
+* G. M. Kelly, _Basic concepts of enriched category theory_ ([tac](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html) ,[pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
+
+
+
+#Blog entries#
+
+* John Armstrong: [Enriched categories](http://unapologetic.wordpress.com/2007/08/13/enriched-categories/).
