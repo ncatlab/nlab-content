@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * worked on [[end]]: added a section "End as equalizer" where I try to motivate the formula for the end over $V$-valued functors from the equalizer formula for limits, then give the equalizer formula for ends -- personally I find this a bit more helpful than dinatural transformations, but that is certainly just my ignorance -- I added an "Idea" and a "References" and an "Examples" section 
+
   * added the definition to [[enriched category]] (yes, that was still "left as an exercise")
 
 # 2009-05-03 #
