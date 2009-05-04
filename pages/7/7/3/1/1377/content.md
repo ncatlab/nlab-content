@@ -45,6 +45,10 @@ Since on the nLab, everything is weak by default, it seems that we should probab
 [[Finn Lawler|Finn]]:  Yes, that's been worrying me.  Figuring out the relationship between the two definitions will be my mini-project for the coming week -- it's about time I got to grips with this sort of enriched-Yoneda wizardry.
 
 Gray shows that given a strict 2-adjunction between the 2-comma categories $(F\downarrow D)$ and $(C\downarrow G)$ you get lax $\eta,\epsilon$.  Maybe using a stricter comma construction will yield pseudo-natural unit and counit -- I don't know, but I'll try to find out.  (Of course, any hints or suggestions you have will be greatly appreciated!)
+
+[[Mike Shulman|Mike]]: One thing worth pointing out is that there is  no Yoneda lemma for lax transformations (though there is for pseudo ones).  So in order for $\hat\phi$ to be determined by $\eta$, $\hat\phi$ must be pseudo natural in $B$, and likewise for $\check\phi$ to be determined by $\epsilon$, it must be pseudo natural in $A$.  My guess is that laxity in the remaining variable will correspond to laxity of $\eta$ and $\epsilon$, and $s,t$ will come from the adjunction $\check\phi\dashv\hat\phi$.  That suggests that if we do everything in a (strict or weak) 3-category, so that $\eta$ and $\epsilon$ must be at least pseudo, we get the homwise notion where "suitably natural" means strict or pseudo.
+
+It appears that in Seely's paper (referenced below) the functor $G$, at least, is also lax.  Lax functors are even harder to incorporate in a 3-category-like structure than lax transformations are; you can't even whisker any sort of transformation by a lax functor.  Moreover, he also seems to say that $\hat\phi$ and $\check\phi$ are both strict in their _first_ coordinate, rather than one in the first and one in the second as seems (to me) to be necessary for a Yoneda restatement.  Hmm.
 =--
 
 ## Sources ##
