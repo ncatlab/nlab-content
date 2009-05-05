@@ -1,4 +1,8 @@
-Due to James Dolan and John Baez, this principle states that "certain algebraic structures can be defined in any category equipped with a categorified version of the same structure". A standard example is a monoid object being defined in a monoidal category. The term arises from the idea that the monoid object (the 'microcosm') can only thrive in a category (a 'macrocosm') that resembles itself. 
+Due to James Dolan and John Baez, this principle states that 
+
+>**Microcosm principle**: _Certain algebraic structures can be defined in any category equipped with a categorified version of the same structure._ 
+
+A standard example is a monoid object being defined in a monoidal category. The term arises from the idea that the monoid object (the 'microcosm') can only thrive in a category (a 'macrocosm') that resembles itself. 
 
 
 ###Reference###
