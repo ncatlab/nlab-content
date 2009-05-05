@@ -281,6 +281,9 @@ Markdown method:
 
 Testing in-line code. With markdown: `this is code`. With HTML: <code>this is code</code>.
 
+Testing HTML comments:
+<!-- this is a comment --> this is after the comment.
+
 ****
 
 category: meta
