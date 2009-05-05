@@ -67,6 +67,6 @@ See
 
 for errata and more. 
 
-For yet another introduction to model categories, see
+For yet another introduction to model categories, with an eye towards their use as [[presentable (infinity,1)-category|presentations]] of [[(infinity,1)-category|(infinity,1)-categories]] see Appendix A.2 of
 
-* Appendix A2 of Lurie's book on higher topos theory, available on [his webpage](http://www-math.mit.edu/~lurie/)
+* [[Jacob Lurie]], [[Higher Topos Theory]]
