@@ -1,6 +1,7 @@
 Here is a list of people who have contributed content to the nLab. 
 
 * [[Alex Hoffnung]]
+* [[Andreas Holmstrom]]
 * [[Andrew Stacey]]
 * [[Ben Webster]]
 * [[Benjamin Antieau]]
