@@ -2,7 +2,7 @@
 
 Weak complicial sets are [[simplicial set]]s with [[stuff, structure, property|extra structure]] that are closely related to the [[nerve]]s of weak $\omega$-[[omega-category|categories]].
 
-The goal of characterizing such nerves, without an *a priori* definition of "weak $\omega$-category" to start from, is called  [[simplicial weak omega-category]] theory.  It is expected that the (nerves of) weak $\omega$-categories will be weak complicial sets satisfying an extra "saturation" condition ensuring that "every [[equivalence]] is thin."  General weak complicial sets can be regarded as "presentations" of weak $\omega$-categories.
+The goal of characterizing such nerves, without an *a priori* definition of "weak $\omega$-category" to start from, is called  [[simplicial weak omega-category]] theory.  It is expected that the (nerves of) weak $\omega$-categories will be weak complicial sets satisfying an extra "saturation" condition ensuring that "every [[equivalence]] is [[thin element|thin]]."  General weak complicial sets can be regarded as "presentations" of weak $\omega$-categories.
 
 Weak complicial sets are a joint generalization of
 
