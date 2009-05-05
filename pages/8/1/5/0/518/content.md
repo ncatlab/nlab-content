@@ -4,12 +4,14 @@ Generalized [[homotopical cohomology theory]] of [[sheaf|sheaves]] with values i
 
 The article introduces this concept of [[category of fibrant objects]], establishes the crucial structures available in such a category (notably the _factorization lemma_ and the characterization of the homotopy category by one-step spans) and then studies the cohomology of sheaves with coefficients in combinatorial [[spectrum|spectra]].
 
+This work by K. Brown later led to [[Andre Joyal]] and Jardine's construction of the [[model structure on simplicial presheaves]]. This [[presentable (infinity,1)-category|presentation]] of an [[(infinity,1)-category of (infinity,1)-sheaves]] is therefore sometimes called the _Brown-Joyal-Jardine model_ (for instance in [[Higher Topos Theory|HTT]]). 
+
 #Related entries#
 
-* [[category of fibrant objects]]
+* for details of the [[homotopy coherent category theory|homotopical]] tool used by Brown see [[category of fibrant objects]]
 
-* [[abelian sheaf cohomology]]
+* for details on his main result about ordinary sheaf cohomology see [[abelian sheaf cohomology]]
 
-* [[combinatorial spectrum]]
+* for the definition of his model for [[spectrum]] see [[combinatorial spectrum]]
 
 category: reference
