@@ -769,13 +769,13 @@ $$
 
 #### 2.5 $E_n$-structures ####
 
-A [[higher category theory|higher category]] may be a [[k-tuply monoidal n-category]] or more generally [[k-tuply monoidal (n,r)-category]] for different values of $k$. The lowest value of $k= 1$ (since for $k = 0$ there is no monoidal structure at all) corresponds to monoidal product which is $\infty$-associative, i.e.  associative up to higher coherent homotopies, but need not have any degree of _commutativity_. 
-
-While for ordinary [[monoid]]s there is just one notion of commutativity (either it is or it is not commutative), already a [[monoidal category]] distbguishes between being just [[braided monoidal category|braided monoidal]] or fully [[symmetric monoidal category|symmetric monoidal]].
+While for an ordinary [[monoid]]s there is just one notion of commutativity (either it is or it is not commutative), already a [[monoidal category]] distinguishes between being just [[braided monoidal category|braided monoidal]] or fully [[symmetric monoidal category|symmetric monoidal]].
 
 This pattern continues, as expressed by the [[k-tuply monoidal n-category|periodic table of k-tuply monoidal categories]].
 
-In general we say that an $n$-category is _symmetric monoiodal_ if it is "as monoidal as possible", i.e. $\infty$-tuply monoidal. In particular, in [[higher algebra|Noncommutative algebra]] and [[higher algebra|Commutative algebra]] [[Jacob Lurie]] describes
+A [[higher category theory|higher category]] may be a [[k-tuply monoidal n-category]] or more generally [[k-tuply monoidal (n,r)-category]] for different values of $k$. The lowest value of $k= 1$ (since for $k = 0$ there is no monoidal structure at all) corresponds to monoidal product which is $\infty$-associative, i.e.  associative up to higher coherent homotopies, but need not have any degree of _commutativity_. 
+
+One says that an $n$-category is _symmetric monoiodal_ if it is "as monoidal as possible", i.e. $\infty$-tuply monoidal. In particular, in [[higher algebra|Noncommutative algebra]] and [[higher algebra|Commutative algebra]] [[Jacob Lurie]] describes
 
 * [[monoidal (infinity,1)-category|1-fold monoidal (infinity,1)-categories]];
 
@@ -784,28 +784,26 @@ In general we say that an $n$-category is _symmetric monoiodal_ if it is "as mon
 
 It turns out that the monoidal $(\infty,1)$-categories that we are concerned with here in general have a tuplicity  of monoidalness (heh) in between 1 and $\infty$:
 
-For each $1 \leq n \leq \infty$ let $E_n$ denote the [[|little n-disklittle n-disk operad]] [[operad]] whose [[topological space]] of $E_n^k$ of $k$-ary operations is the space of embedding of $k$ $n$-dimensional disks (balls) in one $n$-dimensional disk without intersection, and whose composition operation is the obvious one obtained from gluing the big outer disks into given inner disks.
+For each $1 \leq n \leq \infty$ let $E_n$ denote the [[little n-disk operad|little n-disk]] [[operad]] whose [[topological space]] of $E_n^k$ of $k$-ary operations is the space of embedding of $k$ $n$-dimensional disks (balls) in one $n$-dimensional disk without intersection, and whose composition operation is the obvious one obtained from gluing the big outer disks into given inner disks.
 
-In his PhD thesis, which unfortunately I havn't seen, John Francis apparently establishes the theory of [[(infinity,1)-categories]] equipped with an action of the $E_n$-operad so that
+In [John Francis' PhD thesis](http://dspace.mit.edu/handle/1721.1/43792) (reference _EnAction_ below ) the theory of [[(infinity,1)-categories]] equipped with an action of the $E_n$-[[operad]] is established, so that
 
-* $(\infty,1)$-categories with an $E_1$-action are [[algebra in an (infinity,1)-category|algebra objects in]] $(\infty,1)Cat_1$ -- 1-fold monoidal;
+* $(\infty,1)$-categories with an $E_1$-action are precisely [[monoidal (infinity,1)-category|monoidal (infinity,1)-categories]] ( _is that right??_ ) -- 1-fold monoidal $(\infty,1)$-categories;
 
-* $(\infty,1)$-categories with an $E_\infty$-action are [[commutative algebra in an (infinity,1)-category|algebra objects in]] $(\infty,1)Cat_1$ -- $\infty$-tuply monoidal;
+* $(\infty,1)$-categories with an $E_\infty$-action are precisely [[symmetric monoidal (infinity,1)-category|symmetric monoidal (infinity,1)-categories]] -- $\infty$-tuply monoidal $(\infty,1)$-categories;
 
 * $(\infty,1)$-categories with an $E_n$-action for $1 \lt n \lt \infty$ are the corresponding $n$-tuply monoidal $(\infty,1)$-categories in between.
-
-**warning**: the above statement needs scrutinization, this is what I gather from the little I have seen about this. Corrections and more details are very welcome. If you have them, feel free to insert them here.
 
 
 Now, since geometric $\infty$-function theory is indeed _geometric_, we obtain a simple but powerful statement about the $k$-tupliness (heh) of the monoidal structure on our $(\infty,1)$-category of $\infty$-functions $C(X)$ of a space $X$:
 
-As described above, by the fundamental theorem of geometric $\infty$-function theorem, higher traces on $C(X)$ corresponds to forming higher loop spaces of $X$. More generally, the **$E_n$-center** $Z_{E_n}(C(X))$ of $C(X)$ may be taken to be $C([S^n,X])$, where $[S^n, X]$ is my notation for the $n$-sphere space of the generalized space $X$. But there is, 
+As described above, by the _fundamental theorem of geometric $\infty$-function theorey_ , higher traces on $C(X)$ corresponds to forming higher loop spaces of $X$. More generally, the **$E_n$-center** $Z_{E_n}(C(X))$ of $C(X)$ may be taken to be $C([S^n,X])$, where $[S^n, X]$ is my notation for the $n$-sphere space of the generalized space $X$. But there is, 
 
 * by construction, a natural action of $E_{n+1}$ on $[S^n,X]$;
 
-*  accordingly, a natural action of $E_{n+1}$ on $C([S^n,,X])$;
+*  accordingly, a natural action of $E_{n+1}$ on $C([S^n,X])$;
 
-*  accordingly, a natural action of $E_{n+1}$ on $Z_{E_n}(C(X))$.
+*  accordingly, due to the _fundamental theorem_ a natural action of $E_{n+1}$ on $Z_{E_n}(C(X))$.
 
 Again, due to the good formalism, this statement becomes almost a tautology. Notice that this statement is otherwise known as the _Kontsevich conjecture_, which categorifies the _Deligne conjecture_.
 
@@ -895,4 +893,8 @@ For the [[monoidal (infinity,1)-category|monoidal]] aspects
 
 For more details on [[loop space object]]s for [[derived stack]]s  
 
-* **LoopSpace** David Ben-Zvi, David Nadler, _Loop Spaces and Langlands Parameters_ ([arXiv](http://arxiv.org/abs/0706.0322))
+* **LoopSpace** [[David Ben-Zvi]], David Nadler, _Loop Spaces and Langlands Parameters_ ([arXiv](http://arxiv.org/abs/0706.0322))
+
+John Francis' work on $E_n$-actions on $(\infty,1)$-categories is here
+
+* **EnAction** John Francis, PhD thesis ([web](http://dspace.mit.edu/handle/1721.1/43792))
