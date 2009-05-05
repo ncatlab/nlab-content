@@ -22,7 +22,7 @@ In this representation, a pure set is a _fixed rooted directed tree_, possibly a
 *  A __tree__ (technically, a _directed rooted tree_) is a simple directed graph equipped with a __root__ node $r$ that is a [[terminal object]] of the quiver (meaning that every node has a unique path to the root).
 *  The __full subtree__ of a tree rooted at a node $i$ consists of all of the nodes with a path (necessarily unique) to $i$.
 *  A tree is __fixed__ if, whenever two full subtrees rooted to children of the same node are isomorphic (as graphs), then they are the same subtree; equivalently, any graph automorphism of the tree must be the identity function.
-*  A tree is __well-founded__ if $\to$ is a [[well-founded relation]] (note that the [[opposite relation]] $\leftarrow$ is automatically well-founded).  Assuming the principle of [[excluded middle]], this equivalent to saying that every branch in the tree is of finite length.
+*  A tree is __well-founded__ if $\to$ is a [[well-founded relation]] (note that the [[opposite relation]] $\leftarrow$ is automatically well-founded).  Assuming the principle of [[excluded middle]], this is equivalent to saying that every branch in the tree is of finite length.
 
 These subsidiary notions are also needed:
 *  Two trees are __equivalent__ if there exists a graph isomorphism between them; for fixed trees, such an isomorphism must be unique.
@@ -32,9 +32,9 @@ Then fixed trees model ill-founded pure sets; well-founded fixed trees model wel
 
 #### Examples ####
 
-You should think of the root as representing the pure set itself, the root\'s children as the elements of the pure set, the next level as those elements\' elements, and so on.
+You should think of the root as representing the pure set itself, the root\'s children as the elements of the pure set, the next level as those elements\' elements, and so on.  Note that the nodes in most of the pictures below have labels, but these are for illustration only; they are *not* part of the structure defining the tree.
 
-So $\empty = \{ \}$ consists of nothing but a root:
+First, $\empty = \{ \}$ consists of nothing but a root:
 $$ \empty $$
 
 The set $\star = \{\empty\}$ has the empty set attached to the root (which we draw at the top):
@@ -49,27 +49,27 @@ $$ \array { 2_Z \\ \uparrow \\ \star \\ \uparrow \\ \empty } \quad \quad \quad \
        &          &     &          & \uparrow \\
        &          &     &          & \empty
 } $$
-Looking at immediate subtrees, $\star \in 2_Z$, $\empty \in 2_N$, and $\star \in 2_N$.
+Looking at immediate subtrees, $\star \in 2_Z$, $\empty \in 2_N$, and $\star \in 2_N$, but $\empty \notin 2_Z$.
 
-At first, $\{\star, \empty\}$ might appear different:
+$2_N$ can also be represented as $\{\star, \empty\}$:
 $$ \array {
-         &          & \bullet \\
-         & \nearrow &         & \nwarrow \\
-\bullet  &          &         &          & \bullet  \\
+         &          & 2_N \\
+         & \nearrow &     & \nwarrow \\
+\star    &          &     &          & \empty \\
 \uparrow \\
-\bullet
+\empty
 } $$
-But this is isomorphic to $\{\empty, \star\}$.
+This is isomorphic to $\{\empty, \star\}$.
 
-Na&#239;vely, $\{\star, \star\}$ looks like this:
+We might want to write $2_Z$ as $\{\star, \star\}$:
 $$ \array { 
-         &          & \bullet \\
-         & \nearrow &         & \nwarrow \\
-\bullet  &          &         &          & \bullet  \\
-\uparrow &          &         &          & \uparrow \\
-\bullet  &          &         &          & \bullet
+         &          & 2_Z \\
+         & \nearrow &     & \nwarrow \\
+\star    &          &     &          & \star    \\
+\uparrow &          &     &          & \uparrow \\
+\empty   &          &     &          & \empty
 } $$
-But this is not fixed, since the obvious vertical symmetry is a non-identity automorphism.  Really we should use $\{\star\}$ again.
+But this is not fixed, since the obvious vertical symmetry is a non-identity automorphism.
 
 A non-well-founded set will give an infinite picture; here is $\bullet = \{\bullet\}$:
 $$ \array { \bullet \\ \uparrow \\ \bullet \\ \uparrow \\ \bullet \\ \uparrow \\ \vdots } $$
@@ -88,9 +88,9 @@ $$ \array {
 } $$
 So we have $\empty \in \omega_N$, $\star \in \omega_N$, $2_N \in \omega$, etc.
 
-By definition, a tree models a _[[hereditarily finite set]]_ if every node has finitely many children; classically (at least) a tree models a well-founded hereditarily finite set if and only if it is finite.  The relation between these two facts and the finite-branch formulation of well-foundedness is a form of K&#337;nig's Lemma.
+By definition, a tree models a _[[hereditarily finite set]]_ if every node has finitely many children; a tree models a well-founded hereditarily finite set if and only if it is finite and $\prec$ is [[decidable subset|decidable]].  The relationship between these two facts and the finite-branch formulation of well-foundedness is a form of [[Konig's lemma|Kőnig's Lemma]].
 
-### Reflexive-transitive closure ###
+### Reflexive-transitive closures as graphs ###
 
 The picture above may be seen as an _unwrapped_ representation; there is also a _wrapped_ picture.
 
@@ -148,11 +148,11 @@ $$ \array {
 } $$
 Again we have $\empty \in \omega_N$, $\star \in \omega_N$, $2_N \in \omega$, etc.
 
-Now an extensional accessible graph models a [[hereditarily finite set]] iff the graph itself is finite.
+Now an extensional accessible graph models a [[hereditarily finite set]] iff the graph itself is finite and $\prec$ is decidable.
 
 ### Relation between these ###
 
-Peter Aczel\'s general model a pure set is any _simple directed accessible pointed pseudograph_.  That is, the graph need not be a tree (much less a fixed one), nor need it be extensional.  One can make such a graph extensional by identifying nodes to make the extensional quotient as explained at [[extensional relation]].  Then one can unwrap this extensional graph into a tree by including one copy of each node for each of its paths to the root.  So there are two extreme ways to represent a pure set by an isomorphism class of graphs, but any accessible graph will represent a pure set one way or another.
+Peter Aczel\'s general model of a pure set is any _simple directed accessible pointed pseudograph_.  That is, the graph need not be a tree (much less a fixed one), nor need it be extensional.  One can make such a graph extensional by identifying nodes to make the extensional quotient as explained at [[extensional relation]].  Then one can unwrap this extensional graph into a fixed tree by including one copy of each node for each of its paths to the root.  So there are two extreme ways to represent a pure set by an isomorphism class of graphs, but any accessible graph will represent a pure set one way or another.
 
 ## References ##
 
