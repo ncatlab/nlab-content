@@ -38,9 +38,7 @@ Given two sets $S$ and $T$, each equipped with a well-founded relation $\prec$, 
 *  $f(x) \prec f(y)$ whenever $x \prec y$ and
 *  given $t \prec f(x)$, there exists $y \prec x$ with $t = f(y)$.
 
-+--{: .query}
-[[Mike Shulman|Mike]]: The notion of morphism between well-founded relations that seems most important to me is a **simulation**: a function $f:S\to T$ which preserves $\prec$ and such that for all $s$ and $t\prec f(s)$, there exists $s'\prec s$ with $f(s)=t$.  For instance, these are the morphisms that model subset inclusions when reconstructing pure sets in structural set theory.  However, it's not entirely clear to me that even these are 'natural' enough to be called "morphisms of well-founded relations."
-=--
+Then sets so equipped form a [[category]] with simulations as [[morphism]]s.  See [[extensional relation]] for more uses of simulations.
 
 ## Remarks ##
 
