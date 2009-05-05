@@ -1,4 +1,4 @@
-Due to James Dolan and John Baez, this principle states that 
+Due to James Dolan and John Baez, this principle states
 
 >**Microcosm principle**: _Certain algebraic structures can be defined in any category equipped with a categorified version of the same structure._ 
 
