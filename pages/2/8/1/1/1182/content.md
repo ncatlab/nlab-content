@@ -190,9 +190,9 @@ One point made by the [[David Ben-Zvi|Ben-Zvi]]/Francis/Nadler work is that a go
 
     * work by [[Andre Joyal]] on [[quasi-category|quasi-categories]];
 
-    * work by Simpson, Rezk, To&#235;n, Vezzosi and others on higher categories and higher stacks;
+    * work by Simpson, Rezk, To&#235;n, Vezzosi and others on [[higher category theory|higher categories]] and [[infinity-stack|higher stacks]];
 
-    * work by [[BrownAHT|Brown]], [[Andre Joyal|Joyal]], Jardine and others on [[model category|models]] for [[infinity-stack]]s. 
+    * work by [[BrownAHT|Brown]], [[Andre Joyal|Joyal]], Jardine and others on [[presentable (infinity,1)-category|models]] for [[infinity-stack]]s in terms of a [[model structure on simplicial presheaves]].
 
 * [[Stable Infinity-Categories|Stable Higher Category Theory]] -- essentially the theory of [[additive and abelian categories]] lifted to the $(\infty,1)$-context;
 
@@ -202,7 +202,11 @@ One point made by the [[David Ben-Zvi|Ben-Zvi]]/Francis/Nadler work is that a go
 
   * expanding on work by To&#235;n-Vezzosi;
 
-  * wich puts the "brave new algebra" of [[commutative ring spectrum|ring spectra]] into its natural higher categorical context.
+  * wich puts into its natural higher categorical context
+
+    * the "brave new algebra" of [[commutative ring spectrum|ring spectra]];
+
+    * the notions of things like [[A-infinity ring]]s and [[symmetric monoidal category|E-infinity category]].
 
 Especially for the newcomer and non-expert it must be understood that the plethora of high-powered terminology appearing here is conceptually _simplified_ and unified by their description in the higher categorical context -- so you _gain_ by trying to learn this stuff here first before going into the standard literature:
 
@@ -233,7 +237,7 @@ in the present context, the main one being that they allow to make precise the i
 * [[heuristic introduction to sheaves, cohomology and higher stacks]].
 
 
-In principle one will want to eventually understand [[geometric function theory]] in the context of more general [[higher category theory]], in particular for [[(infinity,n)-category|(infinity,1)-categories]], but a great deal is already gained by just (hah!) looking at [[(infinity,1)-category|(infinity,1)-categories]] -- not the least because (only) for them a well-developed theory exists, developed by [[Andre Joyal]] and further developed by [[Jacob Lurie]]:
+In principle one will want to eventually understand [[geometric function theory]] in the context of more general [[higher category theory]], in particular for [[(infinity,n)-category|(infinity,n)-categories]], but a great deal is already gained by just (hah!) looking at [[(infinity,1)-category|(infinity,1)-categories]] -- not the least because (only) for them a working well-developed full theory exists at the moment, developed by [[Andre Joyal]] and further developed by [[Jacob Lurie]]:
 
 * [[Higher Topos Theory]]
 
@@ -299,9 +303,9 @@ It's the most obvious thing in the world. And yet, it turns out that the rather 
 
 This is a general pattern here:
 
-* $(\infty,1)$-categorical notions -- and in particular [[quasi-category|quasi-categorical]] notions are _conceptually_ simple and lend themselves to the formulation and description of higher categorical situations;
+* $(\infty,1)$-categorical notions -- and in particular [[quasi-category|quasi-categorical]] notions -- are _conceptually_ simple and lend themselves to the formulation and description of higher categorical situations;
 
-* but for concrete constructions in terms of them there is a wealth of tools with different areas of applicability, many of which have been understood and developed as theories in their own right.
+* but for concrete constructions in terms of them there is a wealth of tools with different areas of applicability, many of which have been understood and developed as theories in their own right for a considerable time.
 
 
 
@@ -332,11 +336,11 @@ $$
 
 In order to formulate this, one needs a good general theory of [[higher algebra]]. Just as ordinary [[algebra]] takes place inside a [[monoidal category]], [[higher algebra]] takes place in a [[monoidal (infinity,1)-category]]:
 
-an "$\infty$-monoid" or "$\infty$-algebra" is an [[algebra in an (infinity,1)-category|algebra/monoid object in a monoidal (infinity,1)-category]].
+an "$\infty$-monoid" or "$\infty$-algebra" (to distinguish from the traditional [[A-infinity algebra]], which is supposedly a special case) is an [[algebra in an (infinity,1)-category|algebra/monoid object in a monoidal (infinity,1)-category]].
 
 In order to characterize the $(\infty,1)$-categories $C(X)$ as algebra objects in such a sense we profit from the ease with which [[quasi-category|quasi-categories]] naturally reflect on themselves and allow us with comparative ease to talk about the [[(infinity,1)-category of (infinity,1)-categories]] $(\infty,1)Cat_1$.
 
-Since $(\infty,1)Cat_1$ itself is a [[symmetric monoidal (infinity,1)-category]], we will essentially identity the $\infty$-algebras $C(X)$ as [[algebra in an (infinity,1)-category|algebra objects]] in $(\infty,1)Cat_1$.
+Since $(\infty,1)Cat_1$ itself is a [[symmetric monoidal (infinity,1)-category]], we will essentially identify the $\infty$-algebras $C(X)$ as [[algebra in an (infinity,1)-category|algebra objects]] in $(\infty,1)Cat_1$.
 
 But there is actually a slight technical simplification: we don't deal with _all_ $(\infty,1)$-categories, but just with [[presentable (infinity,1)-category|presentable (infinifty,1)-categories]]. See there for the (long) list of nice properties and characterization of presentable $(\infty,1)$-categories.
 
@@ -356,9 +360,9 @@ In terms of this [[higher algebra]] we will obtain the two central (defining) th
 
 For $X \to Y \leftarrow X'$ morphisms of nice generalized spaces ([[perfect infinity-stack]]s) and for $\infty$-functions $C(-) = QC(-)$ (given by the assignment of $(\infty,1)$-categories of quasicoherent sheaves) we have
 
-* _$\infty$-matrices (integral transforms) are $\infty$-functions on fiber products:_ $ C(X \times_Y X') \simeq C(X) \otimes_{C(Y)} C(X')$
+* _$\infty$-matrices (integral transforms) are $\infty$-functions on fiber products_ in that the following equivalence holds: $ C(X \times_Y X') \simeq C(X) \otimes_{C(Y)} C(X')$
 
-* _$\infty$-linear maps are given by $\infty$-matrices:_ $C(X \times_Y X') \simeq Fun_{C(Y)}(C(X), C(Y))$;
+* _$\infty$-linear maps are given by $\infty$-matrices in that also the following equivalence holds: $C(X \times_Y X') \simeq Fun_{C(Y)}(C(X), C(Y))$;
 
 =--
 
@@ -534,7 +538,7 @@ assume that our [[site]] $S$ is
 [[monoidal category|monoidal]] and
 equipped with a cosimplicial object, i.e. a functor 
 $\Delta_S : \Delta \to S$ from the [[simplex category]], 
-such that $\Delta_S[0]$ is a [[generators]] of $S$,
+such that $\Delta_S[0]$ is a [[generator]] of $S$,
 then there is canonically the functor
 
 $$
@@ -582,7 +586,7 @@ Morphisms from the [[fundamental infinity-groupoid]] are also called [[local sys
 #### 2.4 derived loop spaces ####
 
 Of particular interest in this study of 
-_geometric $\infty$_-function theory is the behaviour of $\infty$-functions on [[loop space object|loop spaces]]. The $(\infty,1)$-category $C(\Lambda X)$ of $\infty$-functions on the loop space $\Lambda X$ of a sufficiently nice generalized space (a _perfect_ [[infinity-stack]]) $X$ turns out to be the  [[infinity-trace]] or [[infinity-center]] of that of $X$
+_geometric $\infty$_-function theory is the behaviour of $\infty$-functions on [[loop space object|loop spaces]]. The $(\infty,1)$-category $C(\Lambda X)$ of $\infty$-functions on the free loop space $\Lambda X$ of a sufficiently nice generalized space (a _perfect_ [[infinity-stack]]) $X$ turns out to be the  [[infinity-trace]] or [[infinity-center]] of that of $X$
 
 $$
   C(\Lambda X) \simeq Tr( C(C)) \simeq Tr (C X)
@@ -610,9 +614,9 @@ All these statements, powerful as they are, become trivialities, due to the natu
 one of the central crucial facts of 
 [[higher category theory]] is that 
 
-**the fiber product of two points is not the point, but [[loop space object]] based at the point**:
+**the fiber product of a point with itself is not the point, but the [[loop space object]] based at the point**:
 
-let $x : * \to X$ be a morphism from the terminal object $*$ to some object $X$ in some $\infty$-category, then the $\infty$-categorical pullback of $x$ along itself is the based [[loop space object]] $\Omega_x X$.
+let $x : * \to X$ be a morphism from the [[terminal object]] $*$ to some object $X$ in some $\infty$-category, then the $\infty$-categorical pullback of $x$ along itself is the based [[loop space object]] $\Omega_x X$.
 
 $$
   \array{
@@ -633,7 +637,7 @@ $$
   A \to B \to C
 $$
 
-is _exact_ (a fibration sequence) if the first morphism is the kernel of the second, meaning that we have a pullbacl
+is _exact_ (a fibration sequence) if the first morphism is the kernel of the second, meaning that we have a pullback
 
 $$
   \array{
@@ -646,7 +650,7 @@ $$
   \,.
 $$
 
-But then, since $\infty$-pullback squares commute just as ordinary pullback squares do, further comuting the kernel of the kernel $A \to B$ does not product 0, as it would in an ordinary [[abelian category]], but produces loops in $C$
+But then, since $\infty$-pullback squares compose just as ordinary pullback squares do, further computing the kernel of the kernel $A \to B$ does not produce 0, as it would in an ordinary [[abelian category]], but produces loops in $C$
  
 $$
   \array{
@@ -658,7 +662,7 @@ $$
   }
 $$
 
-since the total (outer diagram) is of the form
+since the total (outer) diagram is of the form
 
 $$
   \array{
@@ -693,7 +697,7 @@ $$
 
 induced from the single map $f : B \to C$.
 
-For the purposes of geometric $\infty$-function theory what  is more relevant than this construction of based loop spaces as kernels is the constructon of _unbased_ [[loop space object]]s. By a similar reasoning, one finds that the free loop space $\Lambda X$ of a generalized space $X$ is the $\infty$-pullback of the morphism $X \stackrel{Id \times Id}{\to}X \times X$ along itself
+For the purposes of geometric $\infty$-function theory what  is more relevant than this construction of based loop spaces as kernels is the construction of _unbased_ [[loop space object]]s. By a similar reasoning, one finds that the free loop space $\Lambda X$ of a generalized space $X$ is the $\infty$-pullback of the morphism $X \stackrel{Id \times Id}{\to}X \times X$ along itself
 
 $$
   \array{
@@ -705,7 +709,7 @@ $$
   }
 $$
 
-The intuitive reasoning is the same as before, only that now we don't fix a single point. For descriptions and examples for how to explicitly compute these loops space objects by [[homotopy limit]]s see the examples listed at
+The intuitive reasoning is the same as before, only that now we don't fix a single point. For more details and in particular for descriptions and examples of how to explicitly compute these loops space objects by [[homotopy limit]]s see the examples listed at
 
 * [[loop space object]]
 
@@ -717,9 +721,9 @@ The intuitive reasoning is the same as before, only that now we don't fix a sing
 
 * [[generalized universal bundle]].
 
-Notice that when we speak of "homotopy" in the above, we mean _categorical homotopies_. These loop space constructions see only homotopies which actually exist as _morphism_s. If it is isn't clear what is meant by that statement, see the discusssion at [[constant infinity-stack]] for the two different perspective on a [[topological space]], once as a categorically discrete but topologically non-discrete object, once as a topologically discrete but categorically non-discrete object. 
+Notice that when we speak of "homotopy" in the above, we mean _categorical homotopies_. These loop space constructions see only homotopies which actually exist as _morphism_s. If it is isn't clear what is meant by that statement, see the discusssion at [[constant infinity-stack]] for the two different perspectives on a [[topological space]], once as a categorically discrete but topologically non-discrete object, once as a topologically discrete but categorically non-discrete object:
 
-In order for the above homotopy pullbacks to compute the intended loop spaces of topological spaces, these topological spaces need to be regarded as the (topologiccally discrete!) [[infinity-groupoid]]s they correspond to, i.e. as [[constant infinity-stack]]s.
+In order for the above homotopy pullbacks to compute the intended loop spaces of topological spaces, these topological spaces need to be regarded as the topologically discrete(!) [[infinity-groupoid]]s they correspond to, i.e. as [[constant infinity-stack]]s.
 
 Now, with the understanding of [[loop space object]]s as homotopy pullbacks understood, the above statement about $\infty$-Hochschild (co)homology becomes essentially a triviality:
 
@@ -765,18 +769,53 @@ $$
 
 #### 2.5 $E_n$-structures ####
 
-* [[operad]]
+A [[higher category theory|higher category]] may be a [[k-tuply monoidal n-category]] or more generally [[k-tuply monoidal (n,r)-category]] for different values of $k$. The lowest value of $k= 1$ (since for $k = 0$ there is no monoidal structure at all) corresponds to monoidal product which is $\infty$-associative, i.e.  associative up to higher coherent homotopies, but need not have any degree of _commutativity_. 
 
-  * [[category over an operad]]
+While for ordinary [[monoid]]s there is just one notion of commutativity (either it is or it is not commutative), already a [[monoidal category]] distbguishes between being just [[braided monoidal category|braided monoidal]] or fully [[symmetric monoidal category|symmetric monoidal]].
+
+This pattern continues, as expressed by the [[k-tuply monoidal n-category|periodic table of k-tuply monoidal categories]].
+
+In general we say that an $n$-category is _symmetric monoiodal_ if it is "as monoidal as possible", i.e. $\infty$-tuply monoidal. In particular, in [[higher algebra|Noncommutative algebra]] and [[higher algebra|Commutative algebra]] [[Jacob Lurie]] describes
+
+* [[monoidal (infinity,1)-category|1-fold monoidal (infinity,1)-categories]];
+
+* [[symmetric monoidal (infinity,1)-category|infinity-tuply monoidal (infinity,1)-categories]].
 
 
-* [[algebra in an (infinity,1)-category]]
+It turns out that the monoidal $(\infty,1)$-categories that we are concerned with here in general have a tuplicity  of monoidalness (heh) in between 1 and $\infty$:
 
-  * [[A-infinity ring]]
+For each $1 \leq n \leq \infty$ let $E_n$ denote the [[|little n-disklittle n-disk operad]] [[operad]] whose [[topological space]] of $E_n^k$ of $k$-ary operations is the space of embedding of $k$ $n$-dimensional disks (balls) in one $n$-dimensional disk without intersection, and whose composition operation is the obvious one obtained from gluing the big outer disks into given inner disks.
 
-* [[commutative algebra in an (infinity,1)-category]]
+In his PhD thesis, which unfortunately I havn't seen, John Francis apparently establishes the theory of [[(infinity,1)-categories]] equipped with an action of the $E_n$-operad so that
 
-  * [[E-infinity ring]]
+* $(\infty,1)$-categories with an $E_1$-action are [[algebra in an (infinity,1)-category|algebra objects in]] $(\infty,1)Cat_1$ -- 1-fold monoidal;
+
+* $(\infty,1)$-categories with an $E_\infty$-action are [[commutative algebra in an (infinity,1)-category|algebra objects in]] $(\infty,1)Cat_1$ -- $\infty$-tuply monoidal;
+
+* $(\infty,1)$-categories with an $E_n$-action for $1 \lt n \lt \infty$ are the corresponding $n$-tuply monoidal $(\infty,1)$-categories in between.
+
+**warning**: the above statement needs scrutinization, this is what I gather from the little I have seen about this. Corrections and more details are very welcome. If you have them, feel free to insert them here.
+
+
+Now, since geometric $\infty$-function theory is indeed _geometric_, we obtain a simple but powerful statement about the $k$-tupliness (heh) of the monoidal structure on our $(\infty,1)$-category of $\infty$-functions $C(X)$ of a space $X$:
+
+As described above, by the fundamental theorem of geometric $\infty$-function theorem, higher traces on $C(X)$ corresponds to forming higher loop spaces of $X$. More generally, the **$E_n$-center** $Z_{E_n}(C(X))$ of $C(X)$ may be taken to be $C([S^n,X])$, where $[S^n, X]$ is my notation for the $n$-sphere space of the generalized space $X$. But there is, 
+
+* by construction, a natural action of $E_{n+1}$ on $[S^n,X]$;
+
+*  accordingly, a natural action of $E_{n+1}$ on $C([S^n,,X])$;
+
+*  accordingly, a natural action of $E_{n+1}$ on $Z_{E_n}(C(X))$.
+
+Again, due to the good formalism, this statement becomes almost a tautology. Notice that this statement is otherwise known as the _Kontsevich conjecture_, which categorifies the _Deligne conjecture_.
+
+For more on this see also the blog entry
+
+* Noah Snyder, [The cohomology of the periodic table on n-categories](http://sbseminar.wordpress.com/2009/03/30/the-witt-group-or-the-cohomology-of-the-periodic-table-of-n-categories/)
+
+and in particular David Ben-Zvi's comments to that.
+
+>Okay, this entire section here needs more details and in particular more links to nLab entries with more details.
 
 
 ### 3. perfect stacks ###
