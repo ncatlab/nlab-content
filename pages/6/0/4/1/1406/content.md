@@ -1,0 +1,1 @@
+This page contains ideas of concepts and constructions which might be profitably [[vertical categorification|categorified]].
