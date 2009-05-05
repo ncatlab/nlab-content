@@ -20,20 +20,6 @@ Here the context on the left side is the **empty context**, consisting of no ass
 
 However, these versions involve $\forall$ and $\Rightarrow$, while the previous versions work in weaker logics.  In fact, these assertions make sense (and the valid one may be proved) in the [[internal logic]] of a [[group object]] in a [[finitely complete category]] (and somewhat more generally than that).  Accordingly, they can be interpreted as statements about any group object in any finitely complete category (and the valid one will then be interpreted as a true statement), exactly as they do for groups (which are group objects in the finitely complete category [[Set]]).
 
-+--{: .query}
-[[Mike Shulman|Mike]]: What is a cartesian multicategory, and how do I interpret the theory of groups in one?  I can guess what it would mean for a multicategory to have finite products.  But if I interpret the multiplication as a morphism $G\times G\to G$, then I'm not using the multicategory structure, so we might as well just be in a category with finite products.  And if I interpret the multiplication as a multimap $(G;G)\to G$, then I don't know how to interpret the axiom of inverses, since there is no 'diagonal' $G\to (G;G)$ or 'projection' $G\to ()$.
-
-_Toby_:  I\'m not sure why I generalised to cartesian multicategories, but it is a nontrivial generalisation.  (Perhaps I was planning to show, as an example, how the category of contexts of the canonical language of a multicategory becomes a monoidal category or something, but that doesn\'t seem very useful.  Maybe I was just doing unnecessary generality, but of course it\'s not the absolutely most general situation either.)
-
-Anyway ... you make a multicategory cartesian much as you might make a monoidal category cartesian by equipping it with appropriate diagonal and projection maps.  The problem is that, while $G \to G \otimes G$ and $G \to 1$ make sense in a monoidal category, they don\'t make sense in a multicategory.  But you fix this by filtering through Yoneda.
-
-So a __cartesian multicategory__ is a multicategory equipped with, for each object $G$ and object $X$, a function $\check{G}^*_X: hom(G;X) \leftarrow hom(G,G;X)$ and a function $\hat{G}^*_X: hom(G;X) \leftarrow hom(;X)$.  (H\'m, my commas and semicolons are the opposite of yours; no matter.)  Then these are subject to various coherence requirements that should be obvious.
-
-[[Mike Shulman|Mike]]: Okay, I see.  Though I'm guessing you wanted those natural transformations to go the other way.  Are there any naturally occurring examples of cartesian multicategories that are not cartesian monoidal categories?  Even if there are, I'm inclined to regard the concept as esoteric enough that it would be clearer to just say "category with finite products" in this introductory article.
-
-_Toby_:  Ah, the curse of contravariance!  Going over the whole introduction again, I think that I understand why I mentioned multicategories, which is that a context like $a: G, b: G$ is more naturally interpreted as a list $(G, G)$ of objects than as a single object $G \times G$.  But if we were really to go in that direction, then we\'d also want the context $a: G, b: G, (a b)^2 = a^2 b^2$ to be interpreted as a list in its own right rather than an actual subobject of $G \times G$, and that\'s going a bit far ... farther than I understand clearly, in any case.  So in fact I let the category be finitely complete so that we could form that subobject (referred to only via the link to [[internal logic]], of course).
-=--
-
 Even if one is completely uninterested in [[internalization]] or weak logics, a basic familiarity with contexts may help drive home a point that is important throughout reasoning:  **What you can state and prove depends on your assumptions.**
 
 # The category of contexts
@@ -105,3 +91,23 @@ As for the code that hides finitely presented groups in this category of context
 # References
 * [[Practical Foundations]], Chapter VIII
 * The [[Elephant]], Section D4.4
+
+# Discussion
+
+The following discussion was initiated by a previous version of the above entry which referred to "cartesian multicategories" rather than finitely complete categories.
+
++--{: .query}
+[[Mike Shulman|Mike]]: What is a cartesian multicategory, and how do I interpret the theory of groups in one?  I can guess what it would mean for a multicategory to have finite products.  But if I interpret the multiplication as a morphism $G\times G\to G$, then I'm not using the multicategory structure, so we might as well just be in a category with finite products.  And if I interpret the multiplication as a multimap $(G;G)\to G$, then I don't know how to interpret the axiom of inverses, since there is no 'diagonal' $G\to (G;G)$ or 'projection' $G\to ()$.
+
+_Toby_:  I\'m not sure why I generalised to cartesian multicategories, but it is a nontrivial generalisation.  (Perhaps I was planning to show, as an example, how the category of contexts of the canonical language of a multicategory becomes a monoidal category or something, but that doesn\'t seem very useful.  Maybe I was just doing unnecessary generality, but of course it\'s not the absolutely most general situation either.)
+
+Anyway ... you make a multicategory cartesian much as you might make a monoidal category cartesian by equipping it with appropriate diagonal and projection maps.  The problem is that, while $G \to G \otimes G$ and $G \to 1$ make sense in a monoidal category, they don\'t make sense in a multicategory.  But you fix this by filtering through Yoneda.
+
+So a __cartesian multicategory__ is a multicategory equipped with, for each object $G$ and object $X$, a function $\check{G}^*_X: hom(G;X) \leftarrow hom(G,G;X)$ and a function $\hat{G}^*_X: hom(G;X) \leftarrow hom(;X)$.  (H\'m, my commas and semicolons are the opposite of yours; no matter.)  Then these are subject to various coherence requirements that should be obvious.
+
+[[Mike Shulman|Mike]]: Okay, I see.  Though I'm guessing you wanted those natural transformations to go the other way.  Are there any naturally occurring examples of cartesian multicategories that are not cartesian monoidal categories?  Even if there are, I'm inclined to regard the concept as esoteric enough that it would be clearer to just say "category with finite products" in this introductory article.
+
+_Toby_:  Ah, the curse of contravariance!  Going over the whole introduction again, I think that I understand why I mentioned multicategories, which is that a context like $a: G, b: G$ is more naturally interpreted as a list $(G, G)$ of objects than as a single object $G \times G$.  But if we were really to go in that direction, then we\'d also want the context $a: G, b: G, (a b)^2 = a^2 b^2$ to be interpreted as a list in its own right rather than an actual subobject of $G \times G$, and that\'s going a bit far ... farther than I understand clearly, in any case.  So in fact I let the category be finitely complete so that we could form that subobject (referred to only via the link to [[internal logic]], of course).
+
+[[Mike Shulman|Mike]]: True.  Is a one-object cartesian multicategory the same as a Lawvere theory, aka an operad relative to the theory of categories with finite products?  If so, then perhaps the relevant place to work is a multicategory relative to the theory of lex categories?  Can that be generalized to stronger logics?
+=--
