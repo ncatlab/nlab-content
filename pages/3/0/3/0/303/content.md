@@ -11,39 +11,35 @@ Given two categories $C, D$ [[enriched category|enriched in]] a [[monoidal categ
 $$F_{x, y}: C(x, y) \to D(F_0x, F_0y)$$ 
 [where $C(x, y)$ denotes the hom-object $\hom_C(x, y)$ in $V$], compatible with the enriched identities and compositions of $C$ and $D$;
 
-* such that the following diagrams commute
+* such that the following diagrams commute for all $a, b, c \in C_0$:
 
-for all $a, b, c \in C_0$
+  * respect for composition:
+    $$
+      \array{
+        C(b,c) \otimes C(a,b) 
+        &\stackrel{\circ_{a,b,c}}{\to}&
+        C(a,c)
+        \\
+        \downarrow^{F_{b,c} \otimes F_{a,b}} && \downarrow^{F_{a,c}}
+        \\
+        D(F_0(b), F_0(c)) \otimes D(F_0(a), F_0(b))
+        &\stackrel{\circ_{F_0(a),F_0(b), F_0(c)}}{\to}&
+        D(F_0(a), F_0(c))
+      }
+    $$
 
--- respect for composition --
-
-$$
-  \array{
-    C(b,c) \otimes C(a,b) 
-    &\stackrel{\circ_{a,b,c}}{\to}&
-    C(a,c)
-    \\
-    \downarrow^{F_{b,c} \otimes F_{a,b}} && \downarrow^{F_{a,c}}
-    \\
-    D(F_0(b), F_0(c)) \otimes D(F_0(a), F_0(b))
-    &\stackrel{\circ_{F_0(a),F_0(b), F_0(c)}}{\to}&
-    D(F_0(a), F_0(c))
-  }
-$$
-
--- respect for units --
-
-$$
-  \array{
-    && I
-    \\
-    & {}^{j_a}\swarrow && \searrow^{j_{F_0(a)}}
-    \\
-    C(a,a)
-    &&\stackrel{F_{a,a}}{\to}&&
-    D(F_0(a), F_0(a))
-  }
-$$
+  * respect for units:
+    $$
+      \array{
+        && I
+        \\
+        & {}^{j_a}\swarrow && \searrow^{j_{F_0(a)}}
+        \\
+        C(a,a)
+        &&\stackrel{F_{a,a}}{\to}&&
+        D(F_0(a), F_0(a))
+      }
+    $$
 
 
 #Remarks#
