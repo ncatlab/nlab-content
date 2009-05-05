@@ -189,7 +189,14 @@ Testing lists:
 1. Hello World
 1. This should be number 2
 
+Ok, trying out a query box: 
+
++-- {: .query}
+Am I mad?
+=--
+
 This is the original Markdown list:
+
 
 1.  Bird
 1.  McHale
