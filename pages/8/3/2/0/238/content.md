@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-05 #
 
+* [[David Corfield|David]]:
+
+  * began [[microcosm principle]]
+
 * [[Urs Schreiber|Urs]]:
 
   * added details to [[enriched functor]]
