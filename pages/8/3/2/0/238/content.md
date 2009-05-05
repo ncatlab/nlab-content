@@ -14,7 +14,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-05 #
 
-*  [[Toby Bartels]]:  I also have an opinion at [[simplicial model for weak omega-categories]].
+*  [[Toby Bartels]]:
+   *  Fixed up [[extensional relation]], although there seems to be a problem with one of the counterexamples.
+   *  I also have an opinion at [[simplicial model for weak omega-categories]].
 
 * [[Urs Schreiber|Urs]]:
 
