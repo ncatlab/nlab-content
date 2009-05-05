@@ -4,4 +4,7 @@ This program was originally begun by Ross Street and has been carried forward by
 
 +--{: .query}
 [[Mike Shulman|Mike]]: This term is kind of unfortunate; *simplicial weak $\omega$-category* could also mean a simplicial object in weak $\omega$-categories.  I don't suppose we can do anything about that?
+
+[[Urs Schreiber|Urs]]: my impression is that what Dominic Verity mainly wants to express with the term is "simplicial model for weak $\omega$-category". Maybe we could/should use a longer phrase like that?
+
 =--
