@@ -3,7 +3,7 @@
 
 Pretriangulated dg-categories are models for [[stable (infinity,1)-category|stable (infinity,1)-categories]] in terms of [[differential graded category|dg-categories]], much like [[simplicially enriched category|simplicial categories]] are models for [[(infinity,1)-category|(infinity,1)-categories]].
 
-The cohomology category of a pretriangulated dg-category is an ordinary [[triangulated category]], hence pretrignaulated dg-categories are called [[enhanced triangulated category|enhanced triangulated categories]].
+The zeroth cohomology category of a pretriangulated dg-category is an ordinary [[triangulated category]], hence a morphism from $H^0(C)\to D$ where $C$ is a pretriangulated dg-category and $D$ a triangulated category is called [[enhanced triangulated category|enhanced triangulated categories]].
 
 
 #Definition#
@@ -37,6 +37,6 @@ is an [[equivalence of categories|equivalence]] of [[triangulated category|trian
 
 #References#
 
-* A. Bondal and M. Kapranov, _Enhanced triangulated categories_ 
+* A. I. Bondal, M. M. Kapranov, Enhanced triangulated categories, &#1052;&#1072;&#1090;&#1077;&#1084;. &#1057;&#1073;&#1086;&#1088;&#1085;&#1080;&#1082;, &#1058;&#1086;&#1084; 181 (1990), No.5, 669&#8211;683 (Russian); transl. in USSR Math. USSR Sbornik, vol. 70 (1991), No. 1, pp. 93&#8211;107, (MR91g:18010) ([[bondalKaprEnhTRiangCat.pdf:file]])
 
 See [[enhanced triangulated category]] for more links to references.
