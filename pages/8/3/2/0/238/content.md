@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-05 #
 
+*  [[Toby Bartels]]:  I also have an opinion at [[simplicial model for weak omega-categories]].
+
 * [[Urs Schreiber|Urs]]:
 
   * added a pedagogical example to [[enriched functor category]]
