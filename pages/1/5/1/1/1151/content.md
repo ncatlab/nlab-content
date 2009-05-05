@@ -8,6 +8,23 @@ Is it true that cohomology theories defined for algebraic varieties over a field
 For applications of many cohomology theories in arithmetic geometry, it is of crucial importance that the cohomology groups carry "extra structure", for example Galois action, Frobenius action, or Hodge structure. Is it the case that the language of infinity-stacks is the most natural language for understanding such "extra structure"? Has anyone thought about this at all?
 
 Am grateful for any (partial) answers or references.
+
+[[Urs Schreiber|Urs]]: Thanks for the question. What is subsumed in the definition below is
+
+* every kind of [[abelian sheaf cohomology]];
+
+* [[nonabelian cohomology|nonabelian sheaf cohomology]];
+
+* generalized Eilenberg-Steenrod-type [abelian cohomology](http://en.wikipedia.org/wiki/List_of_cohomology_theories) 
+
+The observation of the unity of these goes back to at least [[BrownAHT]], the main new bit here being that the model-theoretic constructions used there (or rather the [[category of fibrant objects|Brown category]] used there) is nicely understood as presenting $(\infty,1)$-categories, which unifies the picture still a bit more.
+
+Please correct me if the following is wrong, but my understanding is that for instance [crystalline cohomology](http://en.wikipedia.org/wiki/Crystalline_cohomology) is a kind of sheaf cohomology, too, where the only terminological twist is that we say that the crystalline cohomology of some site is by definition the sheaf cohomology of a certain other site associated to it (its crystalline site). Similarly for syntomic cohomology and the syntomic site.
+
+So I would tend to think that all these are subsumed under abelian sheaf cohomology. But I'd be grateful for being corrected here, if necessary.
+
+
+
 =--
 
 #Definition#
@@ -55,7 +72,7 @@ Notice that the grading one usually sees on cohomology classes is in the above d
 
 * [[abelian sheaf cohomology|Abelian sheaf cohomology]] for complexes of sheaves in non-negative degree is cohomology of the sub-[[(infinity,1)-topos]] of $\infty$-stacks which take values in [[infinity-groupoid]]s which, under the [[Dold-Kan correspondence]] come from [[chain complex]]es.
 
-* [[abelian sheaf cohomology|Abelian sheaf cohomology]] for unbounded complexes of sheaves is stable cohomology of the [stable (infinity,1)-topos]] of [[spectrum]]-valued [[(infinity,1)-sheaf|(infinity,1)-sheaves]].
+* [[abelian sheaf cohomology|Abelian sheaf cohomology]] for unbounded complexes of sheaves is stable cohomology of the [[stable (infinity,1)-topos]] of [[spectrum]]-valued [[(infinity,1)-sheaf|(infinity,1)-sheaves]].
 
 Several familiar "cohomology theories" are not so much genuine cohomology theories as rather computational techniques for computing certain cohomology classes in an [[(infinity,1)-category]] by using 1-categorical tools of [[homotopy coherent category theory]] such as [[model category|model categories]], [[derived category|derived categories]] and the like.
 
@@ -63,13 +80,13 @@ Several familiar "cohomology theories" are not so much genuine cohomology theori
 
 * The technique of computing [[abelian sheaf cohomology]] by computing the [[derived global section functor]] is similarly a technique of computing $H(X,A)$ in terms of 1-categorical [[hom-set]]s $C(X,\hat A)$ into _resolutions_ of the coefficient object (namely [[injective resolution]]s).
 
-* [[monadic cohomology|Monadic cohomology]], like [[Cech cohomology]], is concerned with 1-categorical resolutions of the coefficient object in terms of [[bar construction]]s. [[David Ben-Zvi]] can provide more details on the precise [[(infinity,1)-category|(infinity,1)-categorical]] cohomology that this corresponds to ...
+* [[monadic cohomology|Monadic cohomology]], like [[Cech cohomology]], is concerned with 1-categorical resolutions of the coefficient object in terms of [[bar construction]]s...
 
 * Differential cohomology theories are effectively the cohomology theories of [[fundamental infinity-groupoid]]s. 
 
 #References#
 
-A heuristic account of some concepts in cohomology is at 
+A non-technical account of some concepts in cohomology is at 
 
 * [[heuristic introduction to sheaves, cohomology and higher stacks]].
 
