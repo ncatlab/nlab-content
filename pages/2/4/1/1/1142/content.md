@@ -6,7 +6,9 @@ As every [[topos]], the category $PSh(X)$ of [[presheaf|presheaves]] is  [[carte
 
 Let $S$ be a [[category]]. 
 
-The standard **monoidal**  structure on presheaves $PSh := [S^{op}, Set]$ is the pointwise [[cartesian monoidal category|cartesian]] product in [[Set]]: for two presheaves $F, G$ their product presheaf $F \times G$ is given by
+The standard **monoidal**  structure on presheaves $PSh := [S^{op}, Set]$ is the  [[cartesian monoidal category|cartesian monoidal structure]]. 
+
+Recalling that [[limit]]s of [[presheaf|presheaves]] are computed objectwise, this is the pointwise [[cartesian monoidal category|cartesian]] product in [[Set]]: for two presheaves $F, G$ their product presheaf $F \times G$ is given by
 
 $$
   F \times G : U \mapsto
@@ -16,13 +18,17 @@ $$
 
 where on the right the product is in [[Set]].
 
-By the [[adjoint functor|hom-adjunction isomorphism]] it follows that the corresponding **[[internal hom]]**
+
++-- {: .un_prop}
+###### Proposition
+
+The corresponding **[[internal hom]]**
 
 $$
   [-,-] : PSh^{op} \times PSh \to PSh
 $$
 
-is given by
+exists and is given by
 
 $$
   [F,G] : U \mapsto Hom_{PSh}( Y(U)\times F, G )
@@ -30,6 +36,33 @@ $$
 $$
 
 where $Y : S \to [S^{op}, Set]$ is the [[Yoneda embedding]].
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+First assume that $[F,G]$ exists, so that by the
+[[adjoint functor|hom-adjunction isomorphism]]  we have
+$Hom(R, [F,G]) \simeq Hom(R \times F, G)$. In particular, for each [[representable functor]] $R = Y(U)$ (with $Y$ the [[Yoneda embedding]]) and using the [[Yoneda lemma]] we get
+
+$$
+  \begin{aligned}
+     [F,G](U) & \simeq Hom(Y(U), [F,G])
+     \\
+      & \simeq Hom(Y(U) \times F, G)
+  \end{aligned}
+  \,.
+$$
+
+So if the [[internal hom]] exists, it has to be of the form given. It remains to show that with this definition $[-,F]$ really is [[right adjoint]] to $-\otimes F$.
+
+See pages 46, 47 of 
+
+* MacLane-Moerdijk, [[Sheaves in Geometry and Logic]].
+
+=--
 
 
 ## Definition in terms of homs of direct images ##
