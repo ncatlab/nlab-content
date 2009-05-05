@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * added details to [[enriched functor]]
+
   * added a bit more detail to [[closed monoidal structure on presheaves]]
 
   * replied at [[cohomology]]
