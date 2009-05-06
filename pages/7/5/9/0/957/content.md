@@ -18,6 +18,8 @@ Directions on the real line are quite interesting; there\'s a textbook that does
 
 +--{.query}
 Unfortunately, I cannot find these now.  ---Toby
+
+[LIMITS: A New Approach to Real Analysis](http://www.amazon.com/LIMITS-Approach-Analysis-Undergraduate-Mathematics/dp/0387982744) perhaps? ---David
 =--
 
 As a partially ordered set is a special kind of [[category]], so a (finitely) directed set is such a category in which all finite diagrams admit a cocone.  If the category actually has finite coproducts (equivalently, all finite colimits), then it has all [[join]]s and so is a join-[[semilattice]].  (In particular, every join-semilattice is a directed set.)
