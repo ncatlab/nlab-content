@@ -1,3 +1,4 @@
+
 As indicated in
 
 * F. W. Lawvere, _Taking categories seriously_, Reprints in Theory and Applications of Categories, No. 8, 2005, pp. 1&#8211;24. ([pdf](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf))
@@ -86,10 +87,7 @@ This story generalizes straightforwardly from [[presheaf|presheaves]] with value
 
   * [[heuristic introduction to sheaves, cohomology and higher stacks]]
 
-
-## examples for generalized quantitities ##
-
-...
+* The idea of a _space equipped with a structure sheaf_ generalizes in the above sense to a mix of a copresheaf and a presheaf, see [[structured generalized space]].
 
 
 
