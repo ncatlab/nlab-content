@@ -41,7 +41,7 @@ $$
   }
 $$
 
-of a certain prescribed form (see [p. 9](http://arxiv.org/PS_cache/math/pdf/0501/0501487v5.pdf#page=9)) of _BunkeRumpfSchick08_.
+of a certain prescribed form (see [p. 9](http://arxiv.org/PS_cache/math/pdf/0501/0501487v5.pdf#page=9)) of _BunkeRumpfSchick08_).
 
 
 #References#
