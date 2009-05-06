@@ -891,6 +891,12 @@ For the [[monoidal (infinity,1)-category|monoidal]] aspects
 
 * [[Jacob Lurie]], [[higher algebra|Noncommutative and commutative algebra]].
 
+For the general TQFT background and in particular see
+
+* [[Jacob Lurie]], _On the classification of TFT_ ([pdf](http://www-math.mit.edu/~lurie/papers/cobordism.pdf))
+
+In particular see also the beginning of section 4.1 there for more on $E_n$-monoidal $(\infty,1)$-categories.
+
 For more details on [[loop space object]]s for [[derived stack]]s  
 
 * **LoopSpace** [[David Ben-Zvi]], David Nadler, _Loop Spaces and Langlands Parameters_ ([arXiv](http://arxiv.org/abs/0706.0322))
