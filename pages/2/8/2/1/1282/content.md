@@ -173,13 +173,21 @@ This is where it begins getting interesting. Below, I put the _function_ <code>e
     >>> myfunc(1)
     2.7182818284590451
 
-Instead of using <code>exp</code> as a function value, I can write a lambda expression \[ explain and link \] ... [Classical vs Quantum Computation (Week 1)](http://golem.ph.utexas.edu/category/2006/10/classical_vs_quantum_computati.html) ... $\lambda x.2x$ ...:
+Instead of using <code>exp</code> as a function value, I can write a "lambda expression":
 
+    >>> identity = lambda x: x
+    >>> identity(5)
+    5
     >>> double = lambda x: 2*x
     >>> double(5)
     10
 
-I now have all the prerequisites needed for some functional programming....
+A lambda expression is a way of writing a function without naming it or hiving it off into a separate definition. Thus, in the same way that 1 denotes an integer and can be used as a constant in a language of arithmetic expressions, the lambda expression above denotes a function, and can be used in a language of expressions over functions. You can see this in the interaction below, where I have applied a lambda expression to 5. The syntax is the same as for <code>double(5)</code>, except that in place of <code>double</code>, we have the lambda expression:
+
+    >>> (lambda x: 2*x)(5)
+    10
+
+... I now have all the prerequisites needed for some functional programming....
 
     >>> compose = lambda f, g: lambda x: g(f(x))
 
