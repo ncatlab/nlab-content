@@ -173,7 +173,7 @@ This is where it begins getting interesting. Below, I put the _function_ <code>e
     >>> myfunc(1)
     2.7182818284590451
 
-Instead of using <code>exp</code> as a function value, I can write a lambda expression \[ explain and link \]:
+Instead of using <code>exp</code> as a function value, I can write a lambda expression \[ explain and link \] ... [Classical vs Quantum Computation (Week 1)](http://golem.ph.utexas.edu/category/2006/10/classical_vs_quantum_computati.html) ... $\lambda x.2x$ ...:
 
     >>> double = lambda x: 2*x
     >>> double(5)
