@@ -1,4 +1,4 @@
-Let $V$ be a symmetric [[closed monoidal category]] and $C$, $D$, [[enriched category|enriched categories]] over $V$. Then a __distributor__ or __profunctor__ (also called a _[[bimodule|(bi)module]]_) from $C$ to $D$ is a $V$-functor from $C \otimes D^{op}$ to $V$, we write
+Let $V$ be a symmetric [[closed monoidal category]] and $C$, $D$, [[enriched category|enriched categories]] over $V$. Then a **distributor** or **[[profunctor]]** or **[[bimodule|(bi)module]]** from $C$ to $D$ is a $V$-functor from $C \otimes D^{op}$ to $V$, we write
 
 $$
   F : C \stackrel{|}{\to} D : C\otimes D^{op} \to V
