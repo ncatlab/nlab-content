@@ -26,15 +26,17 @@ This yields a [[bicategory]] $V\Mod$ with
 
 * Recall that a one-object [[Vect]]-[[enriched category]] is just an [[algebra]], while a general [[Vect]]-[[enriched category]] is an [[algebroid]]. The full sub-bicategory of $Vect\Mod$ on one-object $Vect$-enriched categories is the familiar category of [[algebra]]s, [[bimodule]]s and bimodule homomorphisms.
 
-* For $V = (Set, \times)$ we have that the bicategory of $Set$-modules is equivalent to that of sets, [[span]]s of sets and morphisms of spans:
+* For $V = (Set, \times)$, $SetMod$ is the bicategory of [[locally small category|locally small categories]], [[profunctor]]s and transformations. 
+
+The full sub-bicategory on [[discrete category|discrete categories]] is that of sets, [[span]]s of sets and morphisms of spans:
 $$
-  Set\Mod \simeq Span(Set) 
+  Set\Mod_{disc} \simeq Span(Set) 
   \,.
 $$
 
 * Accordingly for $S = (Set^{op}, \times)$ we get the bicategory of [[cospan]]s
 $$
-  Set^{op}\Mod \simeq Span(Set^{op}) = Cospan(Set) 
+  Set^{op}\Mod_{disc} \simeq Span(Set^{op}) = Cospan(Set) 
   \,.
 $$
 
