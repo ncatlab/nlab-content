@@ -1,7 +1,23 @@
-**Simplicial models for weak $\omega$-categories** -- sometimes called [[simplicial weak omega-category|simplicial weak omega-categories]] -- are a way  study weak $\omega$-[[omega-category|categories]] through their [[nerve]]s.  In effect, the goal is to _define_ a weak $\omega$-category to be a certain sort of ([[stratified simplicial set|stratified]]) simplicial set.  One could then hope to prove that these are precisely the [[nerve|nerves]] of weak $\omega$-categories defined in some other way.
+In general, [[omega-category|omega-categories]] are taken to be an [[algebraic definition of higher category]]. While an algebraic realization for [[strict omega-category|strict omega-categories]] is comparatively straightforward, an algebraic definition of fully weak $\omega$-categories has so far not been achieved.
+
+Howver, just like strict $\omega$-categories have a [[simplicial set|simplicial]] [[nerve]] -- a [[complicial set]] -- induced by the [[oriental]]s, and just like the category of strict $\omega$-categories is equivalent to the category of complicial sets, one expects that every weak $\omega$-category naturally has a simplicial nerve and that the theory of algebraically defined weak $\omega$-categories is equivalent to the theory of the simplicial sets that arise as their nerves.
+
+In the context of _simplicial models for weak $\omega$-categories_ the goal is to characterize those [[simplicial set]]s which should arise as [[nerve]]s of algebraically defined weak $\omega$-categories and thus provide a [[geometric definition of higher category]] generalizing the familiar simplicial description of [[infinity-groupoid]]s as [[Kan complex]]es and of [[(infinity,1)-category|(infinity,1)-categories]] as [[quasi-category|quasi-categories]] to general higher categories.
+
+In effect, the goal is to _define_ a weak $\omega$-category to be a certain sort of ([[stratified simplicial set|stratified]]) simplicial set.  One could then hope to prove that these are precisely the [[nerve|nerves]] of weak $\omega$-categories defined in some other way.
+
+
+To distinguish the study of weak $\omega$-categories in terms of their presumed nerves from the study of their would-be algebraic descriptions people speak of [[simplicial weak omega-category|simplicial weak omega-categories]], see in particular the articles by Dominic Verity referenced below.
+
+One should just beware that in this context [[simplicial weak omega-category]] is not meant as [[simplicial object]] in the category of weak $\omega$-categories.
 
 This program was originally begun by Ross Street and has been carried forward by Dominic Verity with the theory of [[weak complicial set]]s.  It is expected that the (nerves of) weak $\omega$-categories will be weak complicial sets satisfying an extra "saturation" condition ensuring that "every [[equivalence]] is [[thin element|thin]]."
 
+#References#
+
+* Dominic Verity, _Weak complicial sets, a simplicial weak omega-category theory. Part I: basic homotopy theory_ ([arXiv](http://arxiv.org/abs/math.CT/0604414))
+
+* Dominc Verity, _Weak complicial sets, a simplicial weak omega-category theory. Part II: nerves of complicial Gray-categories_ ([pdf](http://uk.arxiv.org/PS_cache/math/pdf/0604/0604416v1.pdf))
 
 ***
 
@@ -30,4 +46,7 @@ or even
 and only later mention [[simplicial weak omega-category|simplicial weak omega-categories]]?
 
 [[Mike Shulman|Mike]]: You're right that 'simplicial $\omega$-category' it fits into 'globular $\omega$-category' and 'opetopic $\omega$-category' and so on.  It seems more problematic in this case, though, since simplicial objects of random categories are a good deal more prevalent than globular ones and opetopic ones.  But perhaps I should just live with it.  
+
+[[Urs Schreiber|Urs]]: I have now expanded the entry text on this point, trying to make very clear to the reader what's going on here.
+
 =--
