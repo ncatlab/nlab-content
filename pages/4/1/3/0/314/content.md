@@ -2,7 +2,7 @@
 
 In [[category theory]] a limit of a [[diagram]] $F : D \to C$ in a [[category]] $C$ is an [[object]] $lim F$ of $C$ equipped with morphisms to the objects $F(d)$ for all $d \in D$, such that everything in sight commutes. Moreover, the limit $lim F$ is the _universal_ object with this property, i.e. the "most optimized solution" to the problem of finding such an object.
 
-The limit construction has a wealth of applications throughout category theory and mathematics in general. On heuristic grounds it is possibly best thought of in the context of [[representable functor]]s as a **classifying space** for maps into a diagram. So in some sense the limit object $lim F$ "subsumes" the entire diagram $F(D)$ into a single object, as far as morphisms _into_ it are concerned.
+The limit construction has a wealth of applications throughout category theory and mathematics in general.  In practice, it is possibly best thought of in the context of [[representable functor]]s as a **classifying space** for maps into a diagram. So in some sense the limit object $lim F$ "subsumes" the entire diagram $F(D)$ into a single object, as far as morphisms _into_ it are concerned.
 The corresponding universal object for morphisms _out_ of the diagram is the [[colimit]].
 
 Often, the general theory of limits (but not colimits!) works better if the source of $F$ is taken to be the [[opposite category]] $D^op$ (or equivalently, if $F$ is taken to be a [[contravariant functor]]).  This is what we do below.  In any given situation, of course, you use whatever categories and functors you\'re interested in.
