@@ -290,8 +290,7 @@ Testing HTML comments: <!-- this is a comment --> this is after the comment. Oh,
 
 Testing tikzpicture to svg capability.
 
-$$
-\begin{svg}
+
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="290.70103pt" height="156.89008pt" viewBox="-62.8791 -114.01097 290.70103 156.89008 "> 
 <g transform="translate(0, 42.8791 ) scale(1,-1) translate(0,114.01097 )"> 
                           
@@ -1384,4 +1383,4 @@ $$
  <g stroke="rgb(7.4997%,0.0%,7.4997%)"> 
  <g fill="rgb(7.4997%,0.0%,7.4997%)"> 
  <g fill="rgb(7.4997%,0.0%,7.4997%)"> 
- <path d=" M  36.96129 10.66977 M  54.28185 10.66977 C  54.28185 21.76962 46.57407 30.66977 36.96129 30
+ <path d=" M  36.96129 10.66977 M  54.28185 10.66977 C  54.28185 21.76962 46.57407 30.66977 36.96129 30.66977 C  27.3
