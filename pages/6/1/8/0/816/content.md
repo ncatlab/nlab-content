@@ -44,7 +44,7 @@ The **idea** of weighted limits is to
 
 2. to generalize everything straightforwardly from the [[Set]]-[[enriched category|enriched]] context to arbitrary $V$-enriched contexts.
 
-Heuristically, the weight $W : K \to V$ encodes the way in which one generalizes the concept of a [[cone]] over a diagram $F$ from something with just a tip from which morphisms are emanating down to $F$ to a more intricate structure over the diagram $F$. For instance in the application to [[homotopy limit]]s discussed below with $V$ set to [[SimpSet]] the weight is such that it ensures that not only 1-morphisms are emanating from the tip, but that any triangle formed by these is filled by a 2-cell, every tetrahedron by a 3-cell, etc.
+The idea is that the weight $W : K \to V$ encodes the way in which one generalizes the concept of a [[cone]] over a diagram $F$ (that is, something with just a tip from which morphisms are emanating down to $F$) to a more intricate structure over the diagram $F$. For instance in the application to [[homotopy limit]]s discussed below with $V$ set to [[SimpSet]] the weight is such that it ensures that not only 1-morphisms are emanating from the tip, but that any triangle formed by these is filled by a 2-cell, every tetrahedron by a 3-cell, etc.
 
 #Definition#
 
