@@ -4,7 +4,7 @@ $$F : hom(x,y) \to hom(F(x), F(y))$$
 
 is onto.  
 
-More abstractly, we may say a functor is full if it is $1$-[[k-surjective functor|1-surjective]] &#8211; or heuristically speaking, 'surjective on morphisms between given objects'.  (Note that a functor may be full without being surjective on morphisms,overall, since $F$ is allowed to not hit morphisms between objects that are not in the image of $F$.)
+More abstractly, we may say a functor is full if it is $1$-[[k-surjective functor|1-surjective]] &#8211; or, in simple terms, 'surjective on morphisms between given objects'.  (Note that a functor may be full without being surjective on morphisms,overall, since $F$ is allowed to not hit morphisms between objects that are not in the image of $F$.)
 
 Fullness is most important for functors which are also [[faithful functor|faithful]], and full and faithful functors are often called _fully faithful_.  For ordinary functors this may sound odd, because there is no real sense in which "full" modifies "faithful."  However, in some contexts (such as for morphisms in a general [[2-category]]), there is a good notion of "full-and-faithful" or "fully faithful," but the right notion of "full" alone is not so clear.  "Fully faithful" is also sometimes abbreviated to "ff"; see also [[bo-ff factorization system]].
 
