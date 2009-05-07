@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-07 #
 
+*  [[Toby Bartels]]:  Reply to Andrew below:
+   *  Yeah, that\'s pretty much how to do it.  Except that you mark the old page as `category: redirect` rather than as `category: delete`, since it contains edit history that we want to preserve.  (Instiki has no cool page-move feature like MediaWiki does.)  Also, I usually don\'t change links from meta pages like [[2009 April changes]] and [[General Discussion]] (much as you didn\'t change them in discussion), although that\'s a matter for some discretion.
+   *  I would move [[heuristic introduction to sheaves, cohomology and higher stacks]] to [[motivation for sheaves, cohomology and higher stacks]], since Urs doesn\'t like [[introduction to sheaves, cohomology and higher stacks]].
+
 * [[Andrew Stacey|Andrew]]
 
   * Heuristically altered records containing the word "heuristic".  The original list of records matching the search term "heuristic" is below (so anyone worried can check what I've done).  Most actually were references to [[heuristic introduction to sheaves, cohomology and higher stacks]] which obviously needs to be renamed before the other pages are changed (what's the best way to rename a page?  Is it: create a new one, copy over the content, put in a redirect, change all referring pages, mark old one for delete?  Or is there a simpler way?).  In a couple of the others the word was used in a discussion so I didn't change those.  One I even left as I thought it was (almost) correctly used!
