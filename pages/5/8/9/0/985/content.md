@@ -42,7 +42,7 @@ G6) $F$ reflects isomorphisms
 
 ***
 
-It follows from the axioms that $F$ is a [[pro-representable functor]]. The automorphisms of the [[pro-object]] $P$ representing $F$ form (should be. I'm not familiar enough with pro-objects) a profinite group $\pi$. This acts on $F(X) = [P,-]$ by precomposition (talking out of my depth here -- it's getting a bit heuristic) and so $F$ lifts to a functor to $\pi-Set$, and Grothendieck's result is that this functor is an [[equivalence of categories]].
+It follows from the axioms that $F$ is a [[pro-representable functor]]. The automorphisms of the [[pro-object]] $P$ representing $F$ form (should be. I'm not familiar enough with pro-objects) a profinite group $\pi$. This acts on $F(X) = [P,-]$ by precomposition (talking out of my depth here -- it's getting a bit unsure) and so $F$ lifts to a functor to $\pi-Set$, and Grothendieck's result is that this functor is an [[equivalence of categories]].
 
 There are several modifications one can make the above. In the case that $C$ is the category of covering spaces of a nice enough space, the functor $F$ is [[representable functor|representable]] by the [[universal covering space]], and so there is a 'representable' version of the above, not needing to utilise profinite groups. One can also consider just the connected-objects version, and end up with an equivalence to the category of _transitive_ $\pi$-sets.
 
