@@ -193,6 +193,7 @@ A blog exposition of some aspects of local system is developed here:
 
   * [the infinitesimal perspective](http://sbseminar.wordpress.com/2009/04/30/three-ways-of-looking-at-a-local-system-the-infinitesimal-perspective/)
 
+  * [the infinitesimal site](http://sbseminar.wordpress.com/2009/05/06/the-infinitesimal-site/)
 
 ***
 
