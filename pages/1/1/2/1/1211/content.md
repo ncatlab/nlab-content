@@ -10,47 +10,63 @@ We begin with the historically first definition, which is correct for [[well-fou
 
 A relation $\prec$ on a set $S$ is __weakly extensional__ if, given any elements $x$ and $y$ of $S$, $x = y$ whenever (for all $t$) $t \prec x$ if and only if $t \prec y$.
 
-Interpreting $\prec$ as membership $\in$, this corresponds to the [[axiom of extensionality]] as usually stated for [[pure set]]s. However, it is really only appropriate when $\prec$ is [[well-founded relation|well-founded]], just as the usual axiom of extensionality must be strengthened in the absence of the [[axiom of foundation]]. For example, consider the set $\{a,b\}$ where $a\prec b$ and $b\prec a$; then $a$ and $b$ cannot really be distinguished by their $\prec$-elements, but this set does satisfy the above criterion.
+Interpreting $\prec$ as membership $\in$, this corresponds to the [[axiom of extensionality]] as usually stated for [[pure set]]s. However, it is really only appropriate when $\prec$ is [[well-founded relation|well-founded]], just as the usual axiom of extensionality must be strengthened in the absence of the [[axiom of foundation]].
 
 However, when $\prec$ is well-founded, weak extensionality is equivalent to all the stronger notions below; thus in that case it is usually called just **extensionality**.
 
-
 ### Finsler extensionality ###
 
-Let $\prec^*$ be the [[transitive closure]] of the relation $\prec$ on $S$ (so $\prec^*$ is a [[preorder]]).  Given an element $y$ of $S$, let $S_y$ be the [[downset]] of $y$ under $\prec^*$:
-$$ S_y = \{ x: S \;|\; x = t_0 \prec \cdots \prec t_n = y\} $$
-with $n \gt 0$.
-Then $\prec$ is __Finsler-extensional__ if, given any elements $x$ and $y$ of $S$, $x = y$ whenever $S_x$ and $S_y$ are isomorphic as sets equipped with a relation $\prec$.
+Let $\prec^*$ be the reflexive-[[transitive closure]] of the relation $\prec$ on $S$ (so $\prec^*$ is a [[preorder]]).  Given an element $y$ of $S$, let $S \downarrow^* y$ be the [[downset]] of $y$ under $\prec^*$:
+$$ S \downarrow^* y = \{ x: S \;|\; x = t_0 \prec \cdots \prec t_n = y\} $$
+with $n \geq 0$.  Note that $y$ itself belongs to $S \downarrow^* y$ (through $n = 0$, if in no other way), so we may take it to be a [[pointed set]].  Then $\prec$ is __Finsler-extensional__ if it is weakly extensional and, given any elements $x$ and $y$ of $S$, $x = y$ whenever $S \downarrow ^+ x$ and $S \downarrow^+ y$ are isomorphic as pointed sets equipped with a relation $\prec$.
 
-It is important that $\prec^*$ be merely the transitive closure of $\prec$ rather than the reflexive-[[transitive closure]] (so that $n = 0$ is allowed in the definition of $S_y$), even though that is a [[preorder]].  As pointed out by Aczel in Chapter 4 of [Non-Well-Founded Sets](http://standish.stanford.edu/pdf/00000056.pdf), such a definition would not even imply weak extensionality.  Consider the set $S=\{a,b\}$ where $b\prec a$ and $b\prec b$.  Then $S_a$ would be $S$ while $S_b$ would be $\{b\}$, which are not isomorphic so this criterion would not require $a=b$; however it is true that $t\prec a$ if and only if $t\prec b$, so weak extensionality _would_ require $a=b$.  Using the definition above, however, we have $S_a = \{b\}$ and $S_b = \{b\}$, so $a = b$ is again required.
+Note that this definition includes weak extensionality, which won\'t follow from the other half unless $\prec$ is well-founded (see the examples below).  It is possible to get weak extensionality free by using the [[transitive closure]] $\prec^+$ instead; that is, define $S \downarrow^+ y$ with $n \gt 0$ only.  But then you need another step; define $S \downarrow^+ y)^\top$ to be a pointed set with a new point $\top$ adjoined to $S \downarrow^+ y$; let $x \prec \top$ if and only if $x \prec y$ in $S$ itself.  (For a well-founded relation, $(S \downarrow^+ y)^\top \cong S \downarrow^* y$; in general, however, $y$ may already belong to $S \downarrow^+ y$, yet $y \ne \top$.)  Then $\prec$ is Finsler-extensional on $S$ if and only if $x = y$ whenever $(S \downarrow^+ x)^\top \cong (S \downarrow^+ y)^\top$ as pointed sets equipped with $\prec$.
 
-It is easy to show that Finsler extensionality implies weak extensionality, and (using [[induction]]) that the converse is true for well-founded relations.
+It is immediate that Finsler extensionality implies weak extensionality, and (using [[induction]]) that the converse is true for well-founded relations.
 
+### Scott extensionality ###
+
+...
+
+It is easy to show that Scott extensionality implies Finsler extensionality and the converse for well-founded relations.
 
 ### Strong extensionality ###
 
-Finsler-extensionality is often also not strong enough, however.  Consider the set $\{a,b_0,b_1,b_2,\dots\}$ where $a\prec a$ and $b_{n+1}\prec b_n$ for all $n$.  Then both $a$ and $b_0$ (and, in fact, every $b_n$) are characterized by a single infinite descending chain of $\prec$-elements, namely $\dots \prec a \prec a \prec a$ and $\dots \prec b_2\prec b_1\prec b_0$.  But $a\neq b_0$ and yet this set is Finsler-extensional.
+The strongest version of extensionality is motivated by the study of [[final coalgebra]]s and [[coinduction]].
 
-+-- {: .query}
-If this set is Finsler-extensional, then $b_0 = b_1 = \cdots$, so $S_a \cong S_{b_0}$ after all.  So this set is Finsler-extensional if and only if it is strongly extensional (in which case it is a point).  ---Toby
+Let $S$ be equipped with a binary relation $\prec$.  A __[[bisimulation]]__ on $(S,\prec)$ is a binary relation $\sim$ such that whenever $x \sim y$, for any $a \prec x$ there is a $b \prec y$ with $a \sim b$, and conversely for every $b \prec y$ there is an $a \prec x$ with again $a \sim b$.  We then say that $\prec$ is __strongly extensional__ if every bisimulation is contained in the identity relation; i.e., $x = y$ whenever $x \sim y$ for any bisimulation $\sim$.  In general, this is probably the best situation in which to say that $\prec$ is simply __extensional__.
 
-[[Mike Shulman|Mike]]: You're right.  I think that actually the notion here is not quite the same as what Aczel calls 'Finsler-extensional.' he uses isomorphisms of $S_y\cup \{y\}$ rather than $S_y$, and his counterexample is $\{a,b\}$ with $a\prec a$ and $a\prec b$.  So maybe we should call it something else.  But probably we can come up with a counterexample to this version too.
-=--
+Finsler and Scott extensionality may be understood as special cases of this for particular bisumulations $\sim$.  (So can strong extensionality, since any set equipped with a relation has a weakest bisimulation $\approx$.)  This is the approach taken by Aczel to study all three notions of extensionality.
 
-To remedy this, we give the following definition.  Let $S$ be equipped with a binary relation $\prec$.  A **bisimulation** on $S$ is a binary relation $\sim$ such that whenever $x\sim y$, for any $a\prec x$ there is a $b\prec y$ with $a\sim b$, and for every $b\prec y$ there is an $a\prec x$ with $a\sim b$.  We then say that $\prec$ is **strongly extensional** if every bisimulation is contained in the identity relation; i.e. if $\sim$ is a bisimulation then $x\sim y$ implies $x=y$.  Again, it is easy to show that strong extensionality implies Finsler-extensionality, hence also weak extensionality, and is equivalent to weak extensionality for well-founded relations.
+In particuar, it is easy to show that strong extensionality implies Scott extensionality and the converse for well-founded relations.  Thus, all forms of extensionality are equivalent for well-founded relations.
+
+## Examples ##
+
+*  The [[axiom of extensionality]] in material [[set theory]] states membership is an extensional relation on the class of [[pure set]]s.  (Note that the [[axiom of foundation]] states that membership is a well-founded relation, so one usually doesn\'t worry about the different notions of extensionality for ill-founded relations.)  More generally, the membership relation on the [[transitive closure]] or reflexive-transtive closure of a pure set is an extensional relation on a set.
+
+*  Conversely, one can *define* [[pure set]]s in *structural* [[set theory]] in part as sets equipped with an extensional (and optionally well-founded) relation.
+
+*  A [[well-order]] is precisely a well-founded, [[transitive relation|transitive]], extensional relation.  Removing well-foundedness here gives a theory of ill-founded [[ordinal number]]s.
+
+*  On the set $\mathbf{2} = \{0,1\}$, let $0 \prec 1$ and $1 \prec 0$ (but $0 \nprec 0$ and $1 \nprec 1$).  This relation is weakly extensional but not Finsler-extensional.  Yet $0$ and $1$ can hardly be distinguished by $\prec$ when there is an [[automorphism]] of $(\mathbf{2},\prec)$ that swaps them; this and the other examples below motivate the stronger notions of extensionality.
+
+*  On the set $\mathbf{2}$ again, now let $0 \prec 0$ and $0 \prec 1$ (but no other relationships).  This relation is not weakly extensional, although it does satisfy the other half of Finsler extensionality, since $\mathbf{2} \downarrow^* 0 \ncong \mathbf{2} \downarrow^* 1$.  However, $(\mathbf{2} \downarrow^+ 0)^\top \cong (\mathbf{2} \downarrow^+ 1)^\top$.
+
+*  On the set $\mathbf{3} = \{0,1,2\}$, let $2 \nprec 0$ and $i \nprec i$ but all other relationships hold.  Then this relation is Finsler-extensional but not Scott-extensional.
+
+*  Finally, on the set $\mathbf{2}$ again, let $1 \nprec 0$ but all other relationships hold.  Then this relation is Scott-extensional but not strongly extensional.
 
 ## Extensional quotients ##
 
 Weak extensionality is a kind of [[antisymmetric relation|antisymmetry]] condition: Let $x \leq y$ mean that $t \prec y$ whenever $t \prec x$.  Then $\leq$ is clearly a [[preorder]], which is antisymmetric (so a [[partial order]]) if and only if $\prec$ is weakly extensional.
 
-Now suppose that if $t \prec x$ if and only if $t \prec y$ for all $t$, then $x \prec z$ if and only if $y \prec z$ for all $z$.  Then if we define $x\sim y$ to mean $x\leq y$ and $y\leq x$, $\sim$ is an equivalence relation such that $\prec$ descends to a weakly extensional relation on the [[quotient set]] $S/{\sim}$.
+Now suppose that if $t \prec x$ if and only if $t \prec y$ for all $t$, then $x \prec z$ if and only if $y \prec z$ for all $z$.  Then if we define $x \equiv y$ to mean that $x \leq y$ and $y \leq x$, then $\equiv$ is an equivalence relation such that $\prec$ descends to a weakly extensional relation on the [[quotient set]] $S/{\equiv}$.
 
-Strongly extensional quotients are even easier to construct.  It is easy to see that the union of any family of bisimulations is a bisimulation, and therefore there is a largest bisimulation $\approx$ for any binary relation $\prec$ on $S$.  Moreover, $\approx$ is an equivalence relation (though not every bisimulation need be so), and $\prec$ descends to a (strongly) extensional relation on the quotient $S/\approx$.
-
+Strongly extensional quotients are even easier to construct.  It is easy to see that the union of any family of bisimulations is a bisimulation, and therefore there is a largest bisimulation $\approx$ for any binary relation $\prec$ on $S$.  Moreover, $\approx$ is an equivalence relation (though not every bisimulation need be so), and $\prec$ descends to a strongly extensional relation on the quotient $S/\approx$.
 
 ## Simulations ##
 
-Given two sets $S$ and $T$, each equipped with an extensional relation $\prec$, a [[function]] $f: S \to T$ is a __simulation__ of $S$ in $T$ if
+Given two sets $S$ and $T$, each equipped with a strongly extensional relation $\prec$, a [[function]] $f: S \to T$ is a __simulation__ of $S$ in $T$ if
 *  $f(x) \prec f(y)$ whenever $x \prec y$ and
 *  given $t \prec f(x)$, there exists $y \prec x$ with $t = f(y)$.
 
@@ -60,13 +76,10 @@ Note that there is at most one simulation from $S$ to $T$; in fact, strong exten
 
 Thus, we have a (large) [[poset]] of sets equipped with extensional relations, and we can consistently interpret the simulations as [[subset]] inclusion.  This leads to the model of sets equipped with extensional relations as [[transitive set]]s.
 
-
-## Applications ##
-
-Well-founded relations are often used to represent [[axiom of foundation|well-founded]] [[pure set]]s.  In this case, where $\prec$ represents the 'membership' relation $\in$, a restriction to (weakly) extensional such relations corresponds to imposing the [[axiom of extensionality]] (that two sets are equal if they have the same elements).  For non-well-founded sets, one usually wants to impose one of the stronger versions of extensionality.
-
-A well-founded relation that is both extensional and [[transitive relation|transitive]] is precisely a [[well-order]].
-
 ## References ##
 
-*  Peter Aczel; [Non-Well-Founded Sets](http://standish.stanford.edu/pdf/00000056.pdf).
+*  Peter Aczel; [Non-Well-Founded Sets](http://standish.stanford.edu/pdf/00000056.pdf), especially Chapter 4.
+
+## Discussion ##
+
+For past discussions in context, see [version 8](http://ncatlab.org/nlab/revision/extensional+relation/8) and [version 11](http://ncatlab.org/nlab/revision/extensional+relation/11).
