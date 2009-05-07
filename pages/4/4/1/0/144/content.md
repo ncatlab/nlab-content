@@ -89,7 +89,9 @@ This story generalizes straightforwardly from [[presheaf|presheaves]] with value
 
 * The idea of a _space equipped with a structure sheaf_ generalizes in the above sense to a mix of a copresheaf and a presheaf, see [[structured generalized space]].
 
+## Examples for generalised quantities ##
 
+It would be nice if we had some of these, although [[structured generalized space]] above is sort of a mixture.
 
 #References#
 
