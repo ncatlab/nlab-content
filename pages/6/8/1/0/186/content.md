@@ -1452,7 +1452,7 @@ $$
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan8547"
-       x="-170.73953"
+       x="-190.73953"
        y="5.241375">Chen</tspan></text>
   <text
      xml:space="preserve"
@@ -1463,7 +1463,7 @@ $$
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan8551"
-       x="-170.59654"
+       x="-190.59654"
        y="-51.933746">Chen</tspan></text>
   <text
      xml:space="preserve"
@@ -1474,7 +1474,7 @@ $$
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan8555"
-       x="-84.436295"
+       x="-104.436295"
        y="6.6110468">Chen</tspan></text>
   <text
      xml:space="preserve"
@@ -1485,7 +1485,7 @@ $$
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan8559"
-       x="-171.14886"
+       x="-191.14886"
        y="61.289673">Chen</tspan></text>
   <text
      xml:space="preserve"
@@ -1496,7 +1496,7 @@ $$
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan8563"
-       x="-1.7328552"
+       x="-21.7328552"
        y="10.212161">Smith</tspan></text>
   <text
      xml:space="preserve"
@@ -1507,7 +1507,7 @@ $$
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan8567"
-       x="81.665855"
+       x="61.665855"
        y="10.212161">Sikorski</tspan></text>
   <text
      xml:space="preserve"
@@ -1518,7 +1518,7 @@ $$
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan8571"
-       x="-87.340805"
+       x="-107.340805"
        y="67.100021">Souriau</tspan></text>
   <text
      xml:space="preserve"
@@ -1529,8 +1529,8 @@ $$
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan8575"
-       x="-1.1805462"
-       y="67.652336">Frolicher</tspan></text>
+       x="-21.1805462"
+       y="67.652336">Fr&#246;licher</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:9.60000038px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans;-inkscape-font-specification:Bitstream Vera Sans"
@@ -1545,6 +1545,12 @@ $$
 </svg>
 \end{svg}
 $$
+
++-- {: .query}
+I subtracted $20$ from the $x$-coordinates on the names in the diagram so that they would stay in the boxes on my screen, but I\'m not sure if this is right; the original looks fine to me as [a free-standing diagram](http://www.math.ntnu.no/~stacey/documents/smooth.7-1.svg), so I don\'t know why it looks wrong here.
+
+Anyway, if anybody finds that this version is worse than the previous one, then change it back to the previous one and chalk it up to an error in my browser.  ---Toby
+=--
 
 #Literature#
 
