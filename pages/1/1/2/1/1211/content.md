@@ -1,12 +1,12 @@
-# Idea #
+## Idea ##
 
 Given an extensional relation $\prec$ on a set, two elements are equal if they cannot be distinguished by the structure of the set of elements that they are related to, that those elements are related to, and so on forever in one direction.  We generally think of $x \prec y$ as saying that $x$ is an 'element' of $y$, so that $\prec$ is extensional when "$x$ is determined by its elements" as in the [[axiom of extensionality]] for material [[set theory]].
 
-# Definitions #
+## Definitions ##
 
 We begin with the historically first definition, which is correct for [[well-founded relation]]s.  We then consider ways to extend this to more general relations, where the last version seems to be 'correct'.
 
-## Weak extensionality ##
+### Weak extensionality ###
 
 A relation $\prec$ on a set $S$ is __weakly extensional__ if, given any elements $x$ and $y$ of $S$, $x = y$ whenever (for all $t$) $t \prec x$ if and only if $t \prec y$.
 
@@ -15,7 +15,7 @@ Interpreting $\prec$ as membership $\in$, this corresponds to the [[axiom of ext
 However, when $\prec$ is well-founded, weak extensionality is equivalent to all the stronger notions below; thus in that case it is usually called just **extensionality**.
 
 
-## Finsler extensionality ##
+### Finsler extensionality ###
 
 Let $\prec^*$ be the [[transitive closure]] of the relation $\prec$ on $S$ (so $\prec^*$ is a [[preorder]]).  Given an element $y$ of $S$, let $S_y$ be the [[downset]] of $y$ under $\prec^*$:
 $$ S_y = \{ x: S \;|\; x = t_0 \prec \cdots \prec t_n = y\} $$
@@ -27,7 +27,7 @@ It is important that $\prec^*$ be merely the transitive closure of $\prec$ rathe
 It is easy to show that Finsler extensionality implies weak extensionality, and (using [[induction]]) that the converse is true for well-founded relations.
 
 
-## Strong extensionality ##
+### Strong extensionality ###
 
 Finsler-extensionality is often also not strong enough, however.  Consider the set $\{a,b_0,b_1,b_2,\dots\}$ where $a\prec a$ and $b_{n+1}\prec b_n$ for all $n$.  Then both $a$ and $b_0$ (and, in fact, every $b_n$) are characterized by a single infinite descending chain of $\prec$-elements, namely $\dots \prec a \prec a \prec a$ and $\dots \prec b_2\prec b_1\prec b_0$.  But $a\neq b_0$ and yet this set is Finsler-extensional.
 
@@ -39,7 +39,7 @@ If this set is Finsler-extensional, then $b_0 = b_1 = \cdots$, so $S_a \cong S_{
 
 To remedy this, we give the following definition.  Let $S$ be equipped with a binary relation $\prec$.  A **bisimulation** on $S$ is a binary relation $\sim$ such that whenever $x\sim y$, for any $a\prec x$ there is a $b\prec y$ with $a\sim b$, and for every $b\prec y$ there is an $a\prec x$ with $a\sim b$.  We then say that $\prec$ is **strongly extensional** if every bisimulation is contained in the identity relation; i.e. if $\sim$ is a bisimulation then $x\sim y$ implies $x=y$.  Again, it is easy to show that strong extensionality implies Finsler-extensionality, hence also weak extensionality, and is equivalent to weak extensionality for well-founded relations.
 
-# Extensional quotients #
+## Extensional quotients ##
 
 Weak extensionality is a kind of [[antisymmetric relation|antisymmetry]] condition: Let $x \leq y$ mean that $t \prec y$ whenever $t \prec x$.  Then $\leq$ is clearly a [[preorder]], which is antisymmetric (so a [[partial order]]) if and only if $\prec$ is weakly extensional.
 
@@ -66,3 +66,7 @@ Thus, we have a (large) [[poset]] of sets equipped with extensional relations, a
 Well-founded relations are often used to represent [[axiom of foundation|well-founded]] [[pure set]]s.  In this case, where $\prec$ represents the 'membership' relation $\in$, a restriction to (weakly) extensional such relations corresponds to imposing the [[axiom of extensionality]] (that two sets are equal if they have the same elements).  For non-well-founded sets, one usually wants to impose one of the stronger versions of extensionality.
 
 A well-founded relation that is both extensional and [[transitive relation|transitive]] is precisely a [[well-order]].
+
+## References ##
+
+*  Peter Aczel; [Non-Well-Founded Sets](http://standish.stanford.edu/pdf/00000056.pdf).
