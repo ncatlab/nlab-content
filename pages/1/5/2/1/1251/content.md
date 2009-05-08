@@ -9,7 +9,7 @@ Directed (co)limits were studied in algebra (as inductive and projective limits)
 Let $C$ be a [[category]].
 
 An __inductive system__ in $C$ consists of a [[direction|directed set]] $I$, a family $(A_i)_{i: I}$ of objects of $C$, and a family $(f_{ij}: A_i \to A_j)_{i \leq j: I}$ of morphisms, such that:
-* $f_{ii}: A_i \to A_i$ is the [[identity]] on $A_i$;
+* $f_{ii}: A_i \to A_i$ is the [[identity morphism]] on $A_i$;
 * $f_{ik}: A_i \to A_k$ is the [[composition|composite]] $f_{ij} ; f_{jk}$.
 
 Then an __inductive cone__ of this inductive system is an object $X$ and a family of __inductions__ $\iota_i: A_i \to X$ such that
