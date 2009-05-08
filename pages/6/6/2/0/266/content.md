@@ -49,91 +49,6 @@ We give the following three definitions, which are equivalent in good situations
   * Kan extension as the adjoint to pullback of functor categories;
 
 
-
-## Local definition: in terms of universal natural transformations ##
-
-[[generalized the|The]] left Kan extension $Lan F = Lan_p F$ of $F : C \to D$ along $p:C\to C'$ is a functor $Lan F : C' \to D$ equipped with a [[natural transformation]] $\eta_F : F \Rightarrow p_* Lan F$. 
-
-<center markdown="1">[[kan-0.png:pic]]</center>
-
-with the property that every other natural transformation
-$F \Rightarrow p_* G$ factors uniquely through $\eta_F$ as
-
-<center markdown="1">[[kan-1.png:pic]]</center>
-
-Similarly for the right Kan extension, with the direction of the natural transformations reversed:
-
-<center markdown="1">[[kan-2.png:pic]]</center>
-
-It is clear that the definition in this form makes sense in every 2-category. In a bit different terminology, the left Kan extension 1-cell $F:C\to D$ along 1-cell $p\in K(C,C')$ in a 2-category $K$ is a pair $(Lan_p F,\alpha)$ where $\alpha : F\to Lan_p F\circ p$ is a 2-cell which reflects the object $F\in K(C,D)$ along the functor $p_* = K(p,D):K(C',D)\to K(C,D)$. 
-
-This version of the definition clearly makes sense in any [[2-category]].
-
-
-## Local definition: pointwise definition in terms of weighted (co)limits ##
-
-
-Whenever the [[limit]] on the right hand side of the following 
-equivalence exists for all $c'$, the right Kan extension on the 
-left exists and is specified by this expression:
-
-$$
-  (Ran_p F)(c') \simeq \lim_{c' \to p(c) \in (c'/p)}
-  F(c)
-  \,.
-$$
-
-Here 
-$$
-  (c',p)
-  = 
-  \left\{
-    \array{
-      && c'
-      \\
-      & \swarrow && \searrow
-      \\
-      p(c) &&\stackrel{p(f)}{\to} && p(c')
-    }
-  \right\}
-$$ 
-is the [[comma category]].  We have written this as an ordinary "conical" limit over a comma category, but it can equivalently be written as a [[weighted limit]] over $C$ itself, weighted by the hom-functor $C'(c',-)$.
-
-Similarly if the following [[colimit]] exists, it 
-computes a left Kan extension
-
-$$
-  (Lan_p F)(c') \simeq co\lim_{p(c) \to c' \in (p/c')}
-  F(c)
-  \,.
-$$
-
-It follows in particular that the (right/left) Kan extension exists when $D$ admits weighted [[limit]]s/[[colimit]]s over $C$.
-
-
-Note, however, that _not_ all Kan extensions (in the universal-transformation sense) are computed in this way, and Kan extensions in that sense can exist even when $D$ does not admit very many limits.  For instance, the Kan extensions that arise in the study of [[derived functor]]s are not computed in this way.
-
-Kan extensions that are computed by limits and colimits are sometimes called **pointwise** Kan extensions, as in [[Categories Work]].  On the other hand, some authors (such as Kelly) assert that only pointwise Kan extensions deserve the name "Kan extension," and use a term such as "weak Kan extension" for a functor equipped with a universal natural transformation.  It is certainly true that most Kan extensions which arise in practice are pointwise.  This distinction is even more important in [[enriched category]] theory.
-
-### in terms of ends and coends ###
-
-These statements have an elegant formulation in terms of [[end]]s and [[end|coend]]s (...)
-
-
-### basic example: restriction and extenion of sheaves ###
-
-For more on the following see also 
-
-* [[restriction and extension of sheaves]]
-
-The basic example for left Kan extensions using the above pointwise formula, is in the construction of the pullback of sheaves along a morphism of topological spaces. Let $f:X\to Y$ be a continuous map and $F$ a presheaf over $X$. Then the formula $(f_* F)(U) = F(f^{-1}(U))$ clearly defines a presheaf $f_* F$ on $Y$, which is in fact a sheaf if $F$ is.
-On the other hand, given a presheaf $G$ over $Y$ we can not
-define pullback presheaf $(f^{-1} G)(V)=G(f(V))$ because $f(V)$ might not be open in general (unless $f$ is an open map). For Grothendieck sites such $f(V)$ would not make even sense. But one can consider approximating from above by $G(W)$ for all $W\supset f(V)$ which are open and take a colimit of this diagram of inclusions (all $W$ are bigger, so getting down to the lower bound means going reverse to the direction of inclusions). But inclusion $f(V)\subset W$ implies $V\subset f^{-1}(f(V))\subset f^{-1}(W)$. The latter identity $V\subset f^{-1}(W)$ involves _only open sets_. Thus we take a colimit over the comma category $(V\downarrow f^{-1})$ of $G$. If $G$ is a sheaf, the colimit $G(V)$ understood as a rule $V\mapsto G(V)$ is still not a sheaf, we need to [[sheafification|sheafify]]. The result is sheaf-theoretic pullback 
-$$
-f^{-1}G = \mathrm{sheafify}(V\mapsto\mathrm{colim}_{V\hookrightarrow f^{-1}W} G(W)) = \mathrm{sheafify}(V\mapsto\mathrm{colim}_{(V\downarrow f^{-1})} G)
-$$ 
-which is a sheaf and one can analyze this construction to show that $f^{-1}$ is a right adjoint to $f_*$. This usage of left Kan extension persists in the more general case of Grothendieck topologies. 
-
 ## Global definition: adjoint to pullback of functor categories ##
 
 The functor $p : C \to C'$ induces, by precomposition, a functor between [[functor category|functor categories]]
@@ -153,11 +68,113 @@ $$
   \,.
 $$
 
+This definition clearly makes sense as stated in particular also in [[enriched category theory]].
+
 As discussed at [[adjoint functor]], it is possible that these adjoints do not exist, but may still be partially defined. Namely, for some functor $F\in [C,D]$ there exist a functor $Lan_p\,F:C'\to D$, *the left Kan extension of $F$ along $p$*,  and a natural isomorphism 
 $$
 Hom_{[C,D]}(F,p_*(-))\cong Hom_{[C',D]}(Lan\,F,-),
 $$
 i.e. a (co)representative of the functor $Hom_{[C,D]}(F,p_*(-))$. Similarly, right Kan extensions along $p$ may exist only for some $F$.
+
+
+## Local definition: in terms of universal natural transformations ##
+
+The above global definition _implies_ the following property:
+
+[[generalized the|The]] left Kan extension $Lan F = Lan_p F$ of $F : C \to D$ along $p:C\to C'$ is a functor $Lan F : C' \to D$ equipped with a [[natural transformation]] $\eta_F : F \Rightarrow p_* Lan F$. 
+
+<center markdown="1">[[kan-0.png:pic]]</center>
+
+with the property that every other natural transformation
+$F \Rightarrow p_* G$ factors uniquely through $\eta_F$ as
+
+<center markdown="1">[[kan-1.png:pic]]</center>
+
+Similarly for the right Kan extension, with the direction of the natural transformations reversed:
+
+<center markdown="1">[[kan-2.png:pic]]</center>
+
+It is clear that the definition in this form makes sense in every 2-category. In a bit different terminology, the left Kan extension 1-cell $F:C\to D$ along 1-cell $p\in K(C,C')$ in a 2-category $K$ is a pair $(Lan_p F,\alpha)$ where $\alpha : F\to Lan_p F\circ p$ is a 2-cell which reflects the object $F\in K(C,D)$ along the functor $p_* = K(p,D):K(C',D)\to K(C,D)$. 
+
+This version of the definition clearly makes sense in any [[2-category]].
+
+**Warning.** While this property is implied by the above global definition, it does not itself imply the global definition. For emphasis this definition here is sometimes called a **weak Kan extension** instead. See also the comment in the following section.
+
+
+
+## Local definition: pointwise definition in terms of weighted (co)limits ##
+
+We give now a list of ways to express the Kan extension of a functor in terms of [[weighted limit|weighted]] [[limit|(co)limit]]s. These definitions apply in particular in the case that of $V$-[[enriched category theory]] for $V$ a [[closed monoidal category|closed]] [[symmetric monoidal category]].
+
+### in terms of weighted (co)limit###
+
+The right Kan extension of a functor $F : C \to D$ along $p : C \to C'$ is at $c' \in C'$ the [[weighted limit]] over $F$ with weight $\hat p_{c'} : C^{op} \stackrel{C'(c',p(-))}{\to}  V$
+$$
+  (Ran_p F)(c') := lim^{C'(c',p(-))} F
+  \,.
+$$
+
+Similarly the left Kan extension is given by the [[weighted limit|weighted colimit]]
+
+$$
+  (Lan_p F)(c') := colim^{C'(p(-),c')} F
+  \,.
+$$
+
+### in terms of ends and coends ###
+
+If the $V$-[[enriched category]] $D$ is [[power]]ed over $V$, then the above weighted limit may be re-expressed in terms of an [[end]] as
+
+$$
+  (Ran_p F)(c') \simeq \int_{c \in C} C'(c',p(c))\pitchfork F(c')
+  \,.
+$$
+
+So in particular when $D = V$ this is
+
+$$
+  (Ran_p F)(c') \simeq \int_{c \in C} [C'(c',p(c)),F(c')]
+  \,.
+$$
+
+
+Similarly, if $D$ is [[copower|tensored]] over $V$, then the left Kan extension is given by a [[coend]].
+
+$$
+  (Lan_p F)(c') \simeq \int^{c \in C} C'(p(c),c')\otimes F(c')
+  \,.
+$$
+
+### in terms of (co)limits over comma-categories ###
+
+
+In the special case that $V = Set$, and only then, there is an expression of the Kan extension as a (co)limit over a [[comma category]].
+
+The right Kan extension of a functor of ordinary categories is given by the [[limit]]
+
+$$
+    (Ran_p F)(c')
+      \simeq lim ((const_{c'}/p) \to C \stackrel{F}{\to} Set)
+  \,,
+$$
+
+The left Kan extension of a functor of ordinary categories is given by the [[colimit]]
+
+$$
+  \begin{aligned}
+    (Lan_p F)(c')
+      \simeq colim ((p/const_{c'}) \to C \stackrel{F}{\to} Set)
+  \end{aligned}
+$$
+
+Here $(const_{c'}/p)$ and $(p/const_{c'})$ are [[comma category|comma categories]] in the notation described there.
+
+
+**Warning.** Note, however, that _not_ all _weak Kan extensions_ (in the universal-transformation sense defined above) are computed in this way, and weak Kan extensions can exist even when $D$ does not admit very many limits.  For instance, the weak Kan extensions that arise in the study of [[derived functor]]s are not computed in this way.
+
+Kan extensions that are computed by limits and colimits are sometimes called **pointwise** Kan extensions, as in [[Categories Work]].  On the other hand, some authors (such as Kelly) assert that only pointwise Kan extensions deserve the name "Kan extension," and use a term such as "weak Kan extension" for a functor equipped with a universal natural transformation.  It is certainly true that most Kan extensions which arise in practice are pointwise.  This distinction is even more important in [[enriched category]] theory.
+
+
 
 
 
@@ -167,8 +184,9 @@ i.e. a (co)representative of the functor $Hom_{[C,D]}(F,p_*(-))$. Similarly, rig
 # Definition in $(\infty,1)$-categories #
 
 The global definition of Kan extensions for
-$(\infty,1)$-functors is discussed in
-[section 4.3, p. 215](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=215) of Lurie's [[Higher Topos Theory]].
+$(\infty,1)$-functors in terms of left/right adjoints to pullbacks may be interpreted essentially verbatim in the context of [[(infinity,1)-category|(infinity,1)-categories]] using the corresponding notion of [[limit in quasi-categories]].
+
+Details are in [section 4.3, p. 215](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=215)  of [[Higher Topos Theory|HTT]].
 
 
 #Examples#
@@ -178,6 +196,21 @@ $(\infty,1)$-functors is discussed in
 * For $f : X \to Y$ a [[site|morphism of sites]] coming from a functor $f^t : S_Y \to S_X$ of the underlying categories, the left Kan extension of functors along $f^t$ is the [[inverse image]] operation $f^{-1} : PSh(Y) \to PSh(X)$.
 
 * see also [[examples of Kan extensions]]
+
+### basic example: restriction and extenion of sheaves ###
+
+For more on the following see also 
+
+* [[restriction and extension of sheaves]]
+
+The basic example for left Kan extensions using the above pointwise formula, is in the construction of the pullback of sheaves along a morphism of topological spaces. Let $f:X\to Y$ be a continuous map and $F$ a presheaf over $X$. Then the formula $(f_* F)(U) = F(f^{-1}(U))$ clearly defines a presheaf $f_* F$ on $Y$, which is in fact a sheaf if $F$ is.
+On the other hand, given a presheaf $G$ over $Y$ we can not
+define pullback presheaf $(f^{-1} G)(V)=G(f(V))$ because $f(V)$ might not be open in general (unless $f$ is an open map). For Grothendieck sites such $f(V)$ would not make even sense. But one can consider approximating from above by $G(W)$ for all $W\supset f(V)$ which are open and take a colimit of this diagram of inclusions (all $W$ are bigger, so getting down to the lower bound means going reverse to the direction of inclusions). But inclusion $f(V)\subset W$ implies $V\subset f^{-1}(f(V))\subset f^{-1}(W)$. The latter identity $V\subset f^{-1}(W)$ involves _only open sets_. Thus we take a colimit over the comma category $(V\downarrow f^{-1})$ of $G$. If $G$ is a sheaf, the colimit $G(V)$ understood as a rule $V\mapsto G(V)$ is still not a sheaf, we need to [[sheafification|sheafify]]. The result is sheaf-theoretic pullback 
+$$
+f^{-1}G = \mathrm{sheafify}(V\mapsto\mathrm{colim}_{V\hookrightarrow f^{-1}W} G(W)) = \mathrm{sheafify}(V\mapsto\mathrm{colim}_{(V\downarrow f^{-1})} G)
+$$ 
+which is a sheaf and one can analyze this construction to show that $f^{-1}$ is a right adjoint to $f_*$. This usage of left Kan extension persists in the more general case of Grothendieck topologies. 
+
 
 
 #Remark on terminology: pushforward vs. pullback#
@@ -245,4 +278,4 @@ Reprints in Theory and Applications of Categories, No. 10 (2005) pp. 1-136 ([pdf
 
 The $(\infty,1)$-categorical discussion is in section 4.3 
 
-* J. Lurie, [[Higher Topos Theory]]
+* [[Jacob Lurie]], [[Higher Topos Theory]]
