@@ -5,7 +5,7 @@ Of course, nobody but a category-theorist would use the above as a *definition* 
 * [[symmetric relation|symmetry]]: for all $x, y: S$, if $y # x$, then $x # y$;
 * [[comparison]]: for all $x, y, z: S$, if $x # z$, then $x # y$ or $y # z$.
 
-(Notice that these are dual to the axioms for an [[equivalence relation]]; like those axioms, these correspond to [[identity|identities]], [[inverse]]s, and [[composition]] in a groupoid.)
+(Notice that these are dual to the axioms for an [[equivalence relation]]; like those axioms, these correspond to [[identity morphism]]s, [[inverse]]s, and [[composition]] in a groupoid.)
 
 The [[negation]] of an apartness relation is an equivalence relation. (The converse of this is equivalent to [[excluded middle]].) An apartness relation is _tight_ if this equivalence relation is [[equality]]; any apartness relation defines a tight apartness relation on the [[quotient set]]. A tight apartness relation, also called an _inequality_, is often written $\ne$ instead of $\#$, but keep in mind that $\ne$ is not the negation of $=$; rather, $=$ is the negation of $\ne$. (So inequality, when it exists, is more basic than equality.)
 
