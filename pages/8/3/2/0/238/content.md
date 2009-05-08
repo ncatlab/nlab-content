@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-08 #
 
+* [[Urs Schreiber|Urs]]:
+
+  * tied up the loose end at [[descent]] using the expected result that Dominic Verity was kind enough to proof on request and then confirm by private communication
+
 * [[Andrew Stacey|Andrew]]: (I forget whether I'm supposed to add this to my earlier comment, or here, or add a word of this to each of the other entries of the day).  I've created [[SVG Sandbox]] expressly for the purpose of mucking about with SVGs to get them to look right.  My rationale is explained at the top of that page, together with some suggestions on how it might work.  The point is that one SVG can be rather large and I think that putting them in the regular Sandbox to test stuff is a bit anti-social.  Hopefully we can get stuff in the [[FAQ]] and [[HowTo]] on good ways of importing SVGs as there seem to be a few "special features".  I've shifted the recent SVG-related stuff from the original [[Sandbox]] to the [[SVG Sandbox]], but I shifted the discussion that Bruce started to the [nForum](http://www.math.ntnu.no/~stacey/Vanilla/nForum).
 
   * [[Urs Schreiber|Urs]]: I believe [[Mike Shulman|Mike]] had requested that we announce each change here always on the very top of the list, even if we had earlier logs the same day with other people's logs already on top of them. Seems to be a reasonable practice if the point of this page here is to alert others of changes. Which it is. So, yes, the way you did it should be the preferred way.
