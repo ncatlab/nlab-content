@@ -17,18 +17,22 @@ However, when $\prec$ is well-founded, weak extensionality is equivalent to all 
 ### Finsler extensionality ###
 
 Let $\prec^*$ be the reflexive-[[transitive closure]] of the relation $\prec$ on $S$ (so $\prec^*$ is a [[preorder]]).  Given an element $y$ of $S$, let $S \downarrow^* y$ be the [[downset]] of $y$ under $\prec^*$:
-$$ S \downarrow^* y = \{ x: S \;|\; x = t_0 \prec \cdots \prec t_n = y\} $$
+$$ S \downarrow^* y = \{ x: S \;|\; x = t_0 \prec \cdots \prec t_n = y \} $$
 with $n \geq 0$.  Note that $y$ itself belongs to $S \downarrow^* y$ (through $n = 0$, if in no other way), so we may take it to be a [[pointed set]].  Then $\prec$ is __Finsler-extensional__ if it is weakly extensional and, given any elements $x$ and $y$ of $S$, $x = y$ whenever $S \downarrow ^+ x$ and $S \downarrow^+ y$ are isomorphic as pointed sets equipped with a relation $\prec$.
 
 Note that this definition includes weak extensionality, which won\'t follow from the other half unless $\prec$ is well-founded (see the examples below).  It is possible to get weak extensionality free by using the [[transitive closure]] $\prec^+$ instead; that is, define $S \downarrow^+ y$ with $n \gt 0$ only.  But then you need another step; define $S \downarrow^+ y)^\top$ to be a pointed set with a new point $\top$ adjoined to $S \downarrow^+ y$; let $x \prec \top$ if and only if $x \prec y$ in $S$ itself.  (For a well-founded relation, $(S \downarrow^+ y)^\top \cong S \downarrow^* y$; in general, however, $y$ may already belong to $S \downarrow^+ y$, yet $y \ne \top$.)  Then $\prec$ is Finsler-extensional on $S$ if and only if $x = y$ whenever $(S \downarrow^+ x)^\top \cong (S \downarrow^+ y)^\top$ as pointed sets equipped with $\prec$.
 
-It is immediate that Finsler extensionality implies weak extensionality, and (using [[induction]]) that the converse is true for well-founded relations.
+It is immediate that Finsler extensionality implies weak extensionality; the converse may be proved (using [[induction]]) for well-founded relations.
 
 ### Scott extensionality ###
 
-...
+Given an element $y$ of $S$, let a __path__ to $y$ consist of a sequence
+$$ x = t_0 \prec \cdots \prec t_n = y $$
+for $n \geq 0$.  Then let $T_y$ be the set of paths to $y$; given paths $\vec{t}$ and $\vec{u}$ in $N_y$, say that $\vec{t} \to \vec{u}$ if $\vec{u} = (t_1, \ldots, t_n)$.  Then $T_y$ with the relation $\to$ is the __tree__ to $y$.
 
-It is easy to show that Scott extensionality implies Finsler extensionality and the converse for well-founded relations.
+$S$ is __Scott-extensional__ if the only [[automorphism]] of any such tree $T_y$ (as a set equipped with a relation $\to$) is the [[identity function]] on $T_y$.
+
+Then Scott extensionality implies Finsler extensionality, and the converse holds for well-founded relations.
 
 ### Strong extensionality ###
 
@@ -38,7 +42,7 @@ Let $S$ be equipped with a binary relation $\prec$.  A __[[bisimulation]]__ on $
 
 Finsler and Scott extensionality may be understood as special cases of this for particular bisumulations $\sim$.  (So can strong extensionality, since any set equipped with a relation has a weakest bisimulation $\approx$.)  This is the approach taken by Aczel to study all three notions of extensionality.
 
-In particuar, it is easy to show that strong extensionality implies Scott extensionality and the converse for well-founded relations.  Thus, all forms of extensionality are equivalent for well-founded relations.
+In particuar, strong extensionality implies Scott extensionality, and the converse holds for well-founded relations.  Thus, all forms of extensionality are equivalent for well-founded relations.
 
 ## Examples ##
 
@@ -52,7 +56,7 @@ In particuar, it is easy to show that strong extensionality implies Scott extens
 
 *  On the set $\mathbf{2}$ again, now let $0 \prec 0$ and $0 \prec 1$ (but no other relationships).  This relation is not weakly extensional, although it does satisfy the other half of Finsler extensionality, since $\mathbf{2} \downarrow^* 0 \ncong \mathbf{2} \downarrow^* 1$.  However, $(\mathbf{2} \downarrow^+ 0)^\top \cong (\mathbf{2} \downarrow^+ 1)^\top$.
 
-*  On the set $\mathbf{3} = \{0,1,2\}$, let $2 \nprec 0$ and $i \nprec i$ but all other relationships hold.  Then this relation is Finsler-extensional but not Scott-extensional.
+*  On the set $\mathbf{3} = \{0,1,2\}$, let $2 \nprec 0$ and $i \nprec i$ but all other relationships hold.  Then this relation is Finsler-extensional but not Scott-extensional, since $T_2 \cong T_1$.
 
 *  Finally, on the set $\mathbf{2}$ again, let $1 \nprec 0$ but all other relationships hold.  Then this relation is Scott-extensional but not strongly extensional.
 
