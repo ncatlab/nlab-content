@@ -82,7 +82,7 @@ $$
   \,.
 $$
 
-Notice the $Id$-labels, which indicate that the edges and faces labeled by them are "thin" in much the same way as an [[identity]] [[morphism]] is thin (notice however that a cubical set by itself is not equipped with a notion of composition of cubes. If it were, we'd call it a [[cubical category]]).
+Notice the $Id$-labels, which indicate that the edges and faces labeled by them are "thin" in much the same way as an [[identity morphism]] is thin (notice however that a cubical set by itself is not equipped with a notion of composition of cubes. If it were, we'd call it a [[cubical category]]).
 
 +--{.query}
 Is this a [[cubical object in Cat]] or a [[cubically enriched category]]?  &#8212;Toby
