@@ -104,7 +104,7 @@ Let $[S^{op}, SSet]$ be the [[SimpSet|SSet]]-[[enriched category]] of [[simplici
 
 Recall from [[model structure on simplicial presheaves]] that there is the _global_ and the _local_ injective simplicial model structure on $[S^{op}, SSet]$ which makes it a [[simplicial model category]] and that the local model structure is a (Bousfield-)localization of the global model structure.
 
-So in terms of simplicial presheaves the [[localization of an (infinity,1)-categroy]] that we want to describe, namely [[infinity-stackification]], is modeled as the [[localization of a simplicial model category]]. 
+So in terms of simplicial presheaves the [[localization of an (infinity,1)-category]] that we want to describe, namely [[infinity-stackification]], is modeled as the [[localization of a simplicial model category]]. 
 
 
 Recall that the [[(infinity,1)-category]] modeled/presented by a [[simplicial model category]] is the full [[SimpSet|SSet]]-subcategory on fibrant-cofibrant objects.
@@ -116,9 +116,32 @@ According to [section 6.5.2](http://www-math.mit.edu/~lurie/papers/highertopoi.p
 
 Since with respect to the local or global injective model structure all objects are automatically cofibrant, this means that $\bar Sh_{(\infty,1)}(S)$ is the full sub-$(\infty,1)$-category of $PSh_{(\infty,1)}(S)$ on simplicial presheaves which are fibrant with respect to the local injective model structure: these are the [[infinity-stack]]s in this model.
 
+
+
+
 By the general properties of [[localization of an (infinity,1)-category]] there should be a class of morphisms $f : Y \to X$ in $PSh_{(\infty,1)}(S)$ -- hence between injective-fibrant objects in $[S^{op}, PSh(S)]$ -- such that the simplicial presheaves representing $\infty$-stacks are precisely the [[local object]]s with respect to these morphisms.
 
-This was worked out in 
+The general idea of descent in this simplicial context is the precise analog of the situation for ordinary sheaves, but with ordinary [[limit|(co)limits]] replaced everywhere with the [[limit in quasi-categories|(infinity,1)-categorical (co)limits]], which in terms of the [[presenatble (infinity,1)-category|presentation]] by the [[model structure on simplicial presheaves]] amounts to the [[homotopy limit|homotopy (co)limit]].
+
+
+So for $Y \to X$ a morphism of simplicial presheaves, the condition that a simplicial presheaf $A$ is [[local object|local]] with respect to it, hence satisfies descent with respect to it, is generally that
+
+$$
+  \begin{aligned}
+    RHom(X,A)  \stackrel{}{\to} & RHom(Y,A)
+    \\
+    & \simeq RHom(hocolim_n Y_n, A)
+    \\
+    & \simeq holim_n RHom(Y_n, A)
+    \\
+    & =: holim_n A(Y_n)
+  \end{aligned}
+$$
+
+is a weak equivalence, where $RHom$ denotes the corresponding $(\infty,1)$-categorical hom, i.e. the derive hom with respect to the [[model structure on simplicial presheaves]] -- for instance the ordinary simplicial hom if both $Y$ and $A$ are fibrant with respect to the given model structure.
+
+
+The details on which morphisms $Y \to X$ one needs to check against here have been worked out in
 
 * D. Dugger, S. Hollander, D. Isaksen, _Hypercovers and simplicial presheaves_ ([pdf](http://hopf.math.purdue.edu//Dugger-Hollander-Isaksen/hypspre.pdf))
 
@@ -299,25 +322,28 @@ $$
  }
 $$
 
-have a very similar appearance. Street took his weighted limit as the _definition_ of higher descent. In view of the above general nonsense introduction, it would be desireable to understand how and to which extent this definition actually describes parts of an [[(infinity,1)-category of (infinity,1)-sheaves]].
+have a very similar appearance. The following theorem asserts if and when they are actually equivalent.
 
-To that end, notice that:
++-- {: .un_theorem }
+###### Theorem (D. Verity, private communication)
 
-* a simplicial presheaf of the form $N \circ A$ with $A : S^{op} \to Str \omega Grpd$ is indeed a [[Kan complex]]-valued presheaf;
-
-* by work of Domic Verity the $\omega$-nerve $N : Str \omega Cat \to SSet$ prolonged to taking values in stratified simplicial sets has a left adjoint $F : Strat \to Str \omega Cat$ which is strict monoidal.
-
-Therefore one would hope that some flavor of the following equation would hold:
+There exists a canonical comparison map
 
 $$
-  N lim^{F(\Delta)} \, A(Y_\bullet)
-  \simeq
-  lim^\Delta \, N(A(Y_\bullet))
+  N(Desc_{Street}(U^\bullet, A))
+  :=
+  N(lim^{F \Delta} A(U^\bullet))
+  \;\;\;\stackrel{\;\;\;\;\;\;\;\;\;}{\hookrightarrow}\;\;\;
+  Desc_{simp}(U^\bullet, N \circ A)
+  :=
+  holim_\bullet N(A(U^\bullet))
   \,.
 $$
 
+This is a [[model structure on simplicial sets|weak equivalence]] of [[Kan complex]]es if the cosimplicial simplicial set $N(A(U^\bullet))$ is [[Reedy category|Reedy fibrant]].
 
-Does it?
+=--
+
 
 
 # Descent in terms of gluing conditions #
