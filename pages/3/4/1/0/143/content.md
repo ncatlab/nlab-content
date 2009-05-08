@@ -2,7 +2,7 @@
 
 A gentle, detailed introduction to the basic ideas of the notion "sheaf" is at
 
-* [[heuristic introduction to sheaves, cohomology and higher stacks]].
+* [[motivation for sheaves, cohomology and higher stacks]].
 
 A [[presheaf]] can be regarded as an assignment of "sets of structures to [[space and quantity|spaces]]", such that these structures can be pulled back along maps of spaces. A presheaf is a _sheaf_ if this assignment satisfies [[descent]]: if $\pi: Y \to X$ is a _cover_ of a space $X$ by a space $Y$, then the collection of structures assigned to $X$ is isomorphic to the collection of structures assigned to $Y$ which _glue_ and hence descend from $Y$ down to $X$.
 
