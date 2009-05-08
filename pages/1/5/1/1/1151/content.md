@@ -88,7 +88,7 @@ Several familiar "cohomology theories" are not so much genuine cohomology theori
 
 A non-technical account of some concepts in cohomology is at 
 
-* [[heuristic introduction to sheaves, cohomology and higher stacks]].
+* [[motivation for sheaves, cohomology and higher stacks]].
 
 One of the earliest references which draw a comprehensive picture of cohomology in the general sense is
 
