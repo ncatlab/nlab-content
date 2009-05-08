@@ -67,7 +67,7 @@ $$
 
 may be regarded as a flat $\infty$-bundle on $X$. Examples are for instance higher gerbes with flat connection (see [[Deligne cohomology]] and more generally [[schreiber:Differential Nonabelian Cohomology|differential nonabelian cohomology]]).
 
-Moreover, the space $X$ may itself be replaced by a [[heuristic introduction to sheaves, cohomology and higher stacks|generalized space]]: an [[infinity-stack]] (which may be a [[derived stack]]). Under mild assumptions there is still a notion of [[fundamental infinity-groupoid]] $\Pi(X)$ in the context of $\infty$-stacks and hence for $A$ any coefficient object in the relevant [[(infinity,1)-topos]], the $\infty$-category
+Moreover, the space $X$ may itself be replaced by a [[motivation for sheaves, cohomology and higher stacks|generalized space]]: an [[infinity-stack]] (which may be a [[derived stack]]). Under mild assumptions there is still a notion of [[fundamental infinity-groupoid]] $\Pi(X)$ in the context of $\infty$-stacks and hence for $A$ any coefficient object in the relevant [[(infinity,1)-topos]], the $\infty$-category
 
 $$
   [\Pi(X), A]
