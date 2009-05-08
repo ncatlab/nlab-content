@@ -50,7 +50,7 @@ But maybe surprisingly, category theory turns out to be much more than the study
 * [[homotopy theory]]
 * [[hom-set]]
 * [[horizontal categorification]]
-* [[identity]]
+* [[identity morphism]]
 * [[image]]
 * [[infinity-groupoid]]
 * [[infinity-stack]]
