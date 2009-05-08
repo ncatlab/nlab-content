@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-08 #
 
+*  [[Toby Bartels]]:  Fixed the last 'heuristic', at [[local system]], among other such fixes.  (You gotta open them up for editing and look at the source!)
+
 * [[Urs Schreiber|Urs]]:
 
   * tied up the loose end at [[descent]] using the expected result that Dominic Verity was kind enough to proof on request and then confirm by private communication
