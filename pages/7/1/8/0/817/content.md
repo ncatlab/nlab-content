@@ -17,12 +17,36 @@ For $C$ and $D$ $V$-enriched categories, there is a $V$-[[enriched category]] de
 $$
   [C,D](F,G) := \int_{c \in C} D(F(c), G(c))
 $$
-
 over the functor
 $$
   D(F(-),G(-)) : C^{op} \otimes C \to V
   \,.
 $$
+Write in the following $E_c : [C,D](F,G) \to D(F(c),G(c))$ for the canonical morphism out of the end (the counit).
+
+* the composition operation 
+$$
+  \circ_{K,F,G} : [C,D](F,G)\otimes [C,D](K,F) \to [C,D](K,G)
+$$
+is the universal morphism into the end $[C,D](K,F)$ obtained from observing that the composites
+$$
+ [C,D](F,G)\otimes [C,D](K,F)
+ \stackrel{E_c\otimes E_d}{\to}
+ D(F(c),G(c)) \otimes D(K(c),F(c))
+ \stackrel{\circ_{K(c), F(c), G(c)}}{\to}
+ D(K(c), F(c))
+$$
+form an extraordinary $V$-natural family, equivalently that
+$$
+ [C,D](F,G)\otimes [C,D](K,F)
+ \stackrel{\prod_{c \in Obj(c)}E_c\otimes E_c}{\to}
+ \prod_{c \in Obj(c)}
+ D(F(c),G(c)) \otimes D(K(c),F(c))
+ \stackrel{\prod_{c \in Obj(c)}\circ_{K(c), F(c), G(c)}}{\to}
+ \prod_{c \in Obj(c)}D(K(c), F(c))
+$$
+equalizes the two maps appearing in the [[equalizer]] definition of the [[end]].
+
 
 +-- {: .un_prop}
 ######Proposition
@@ -70,7 +94,7 @@ $
   (F(c) \stackrel{F(f)}{\to} F(d) \stackrel{\eta_d}{\to} G(d) )
 $.
 
-So the invariants under the combined action are those $eta$ for which for all $f : c \to d$ in $C$ the diagram
+So the invariants under the combined action are those $\eta$ for which for all $f : c \to d$ in $C$ the diagram
 $$
   \array{
     F(c) &\stackrel{\eta_c}{\to} & G(c)
