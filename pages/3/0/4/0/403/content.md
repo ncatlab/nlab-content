@@ -18,7 +18,7 @@ together with
 
 * [[source]] and [[target]] morphisms $s,t: C_1 \to C_0$;
 
-* an [[identity assigning morphism]] $e: C_0 \to C_1$;
+* an [[identity-assigning morphism]] $e: C_0 \to C_1$;
 
 * a [[composition]] morphism $c: C_1 \times_{C_0} C_1 \to C_1$;
 
