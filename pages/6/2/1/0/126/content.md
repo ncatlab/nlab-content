@@ -6,7 +6,7 @@ Given a [[category]] $C$, a __subcategory__ $D$ consists of a subcollection of t
 
 * If $f : x \to y$ and $g : y \to z$ are in $D$, then so is the [[composition|composite]] $g f : x \to z$.  
 
-* If $x$ is in $D$ then so is the [[identity]] morphism $1_x$.
+* If $x$ is in $D$ then so is the [[identity morphism]] $1_x$.
 
 These conditions ensure that $D$ is a category in its own right and the inclusion $D\hookrightarrow C$ is a [[functor]].  Additionally, we say that $D$ is...
 
