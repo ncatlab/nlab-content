@@ -18,3 +18,7 @@ However, one of the important insights of category theory is that in arbitrary c
 * Again for $C = [D^{op}, Set]$ and $I=D(-,d)$ a [[representable functor|representable]] presheaf, the generalized elements of $F$ at stage $d$ are precisely the elements of the set $F(d)$, by the [[Yoneda lemma]].
 
 * An [[element in an abelian category]] is an equiavalence class of generalised elements.
+
++-- {: .query}
+How do global elements allow to reconstruct the element-wise thinking from set theory?
+=--
