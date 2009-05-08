@@ -138,7 +138,7 @@ $$
   \end{aligned}
 $$
 
-is a weak equivalence, where $RHom$ denotes the corresponding $(\infty,1)$-categorical hom, i.e. the derive hom with respect to the [[model structure on simplicial presheaves]] -- for instance the ordinary simplicial hom if both $Y$ and $A$ are fibrant with respect to the given model structure.
+is a weak equivalence, where $RHom$ denotes the corresponding $(\infty,1)$-categorical hom, i.e. the derived hom with respect to the [[model structure on simplicial presheaves]] -- for instance the ordinary simplicial hom if both $Y$ and $A$ are fibrant with respect to the given model structure.
 
 
 The details on which morphisms $Y \to X$ one needs to check against here have been worked out in
