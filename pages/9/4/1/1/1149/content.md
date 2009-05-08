@@ -1,3 +1,3 @@
-see [[motivation for sheaves, cohomology and higher stacks]]
+See [[motivation for sheaves, cohomology and higher stacks]].
 
 category: redirect
