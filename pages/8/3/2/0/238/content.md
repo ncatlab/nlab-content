@@ -14,6 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-08 #
 
+* [[Urs Schreiber|Urs]]:
+
+  * recalled [[Tim Porter]]'s comment at [[simplicial set]] and moved [[simplicial nerve of simplicial categories]] to [[homotopy coherent nerve]];
+
+  * started expanding, polishing and reorganizing [[simplicial set]] -- still not satisfied, though.
+
 * [[Bruce Bartlett|Bruce]]: Added discussion to [[Sandbox]] about Andrew's TikZ->SVG method. Maybe we can get good and easy graphics going soon in Instiki!
 
 * [[Urs Schreiber|Urs]]:
