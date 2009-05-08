@@ -12,6 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-05-08 #
+
+*  [[Toby Bartels]]:
+   *  I split [[identity]] into [[identity morphism]] and [[identity element]].  Maybe I\'ll do the same to [[inverse]] later, but not now.
+   *  More details at [[extensional relation]].
+
 # 2009-05-07 #
 
 *  [[Toby Bartels]]:  Reply to Andrew below:
