@@ -12,7 +12,7 @@ Some examples of terminal objects in notable categories follow:
 * The trivial [[group]] is the terminal object of [[Grp]] and, as an [[abelian group]], of [[Ab]].
 * The terminal object of [[Ring]] is the zero ring.  (Note however that if [[ring|rings]] have unities and ring [[homomorphism|homomorphisms]] must preserve them, then the zero ring is not a [[zero object]] of [[Ring]].)
 * The terminal object of [[Cat]] is the [[discrete category]] with just one object.
-* The terminal object of a [[over category|slice category]] $C/x$ is the [[identity]] $x\to x$.
+* The terminal object of a [[over category|slice category]] $C/x$ is the [[identity morphism]] $x\to x$.
 
 #Terminal object in higher categories#
 
