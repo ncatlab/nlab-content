@@ -86,7 +86,7 @@ but am giving you consistent information about my secret space $X$ are the follo
 
 Such an assignment $U \mapsto X(U)$ of sets to spaces which satisfies the above two properties is what is called a [[presheaf]]: this, in turn, is nothing but what is called a [[functor]] on a [[category]]:
 
-* the [[category]] in question here is the collection of test [[topological space]]s $U$, called [[object]]s, equipped with continuous maps $f : U \to V$ between them, called [[morphism]]s, which may be composed when their domains and targets match. This composition is associative in the obvious way and on every object $U$ there is an [[identity]] map $Id_U : U \to U$,  composition with which does nothing. This category is known by the name [[Top]]; $Top = \{ $topological spaces and continuous maps between them$ \}$
+* the [[category]] in question here is the collection of test [[topological space]]s $U$, called [[object]]s, equipped with continuous maps $f : U \to V$ between them, called [[morphism]]s, which may be composed when their domains and targets match. This composition is associative in the obvious way and on every object $U$ there is an [[identity morphism|identity]] map $Id_U : U \to U$,  composition with which does nothing. This category is known by the name [[Top]]; $Top = \{ $topological spaces and continuous maps between them$ \}$
 
 * the other [[category]] in the game, namely the [[category]] called [[Set]] whose [[object]]s are [[set]]s and whose [[morphism]]s are functions between sets: $Set = \{ $sets and functions between them$ \}$
 
