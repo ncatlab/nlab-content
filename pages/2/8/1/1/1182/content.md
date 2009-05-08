@@ -131,13 +131,13 @@ The following is supposed to going to be a list of linked keywords corresponding
 ### 1. Introduction ###
 
 +-- {: .query}
-I am going to use this space (the introduction) as my sandbox and a place to begin a conversation on things I want to talk about it.  This way things do not muck up areas that Urs and others have made nice and they can be transported to the appropriate areas later.
+[[Alex Hoffnung|I]] am going to use this space (the introduction) as my sandbox and a place to begin a conversation on things I want to talk about it.  This way things do not muck up areas that Urs and others have made nice and they can be transported to the appropriate areas later.
 
 * Drinfeld centers
 
 Comment by David Ben-Zvi from [n-category cafe](http://golem.ph.utexas.edu/category/2009/04/journal_club_geometric_infinit_1.html#c023524)
 
-One quick comment: the Drinfeld center is not a "sub" in any reasonable sense (except in the loose sense that it's a categorical limit). This is easy to see already for the category of representations of a finite group, where the Drinfeld center (or modules for the Drinfeld double) is the category of G-equivariant vector bundles on the group G (I think they also go by the name Yetter-Drinfeld modules?) Likewise the center of a ring in the derived world (ie Hochschild cohomology) is not really a subring - even for a commutative ring, its derived center doesn't map in injectively (for a smooth commutative ring the Hochschild-Kostant-Rosenberg theorem tells us that Hochschild cohomology is the exterior algebra on derivations of the ring). I think we have to abandon the notions of sub and quotient in the homotopical world and stick to notions like (homotopy) limit and colimit.
+>One quick comment: the Drinfeld center is not a "sub" in any reasonable sense (except in the loose sense that it's a categorical limit). This is easy to see already for the category of representations of a finite group, where the Drinfeld center (or modules for the Drinfeld double) is the category of G-equivariant vector bundles on the group G (I think they also go by the name Yetter-Drinfeld modules?) Likewise the center of a ring in the derived world (ie Hochschild cohomology) is not really a subring - even for a commutative ring, its derived center doesn't map in injectively (for a smooth commutative ring the Hochschild-Kostant-Rosenberg theorem tells us that Hochschild cohomology is the exterior algebra on derivations of the ring). I think we have to abandon the notions of sub and quotient in the homotopical world and stick to notions like (homotopy) limit and colimit.
 
 I want to start replying to/understanding this comment.  I have some reading to do first so I will just leave this query box as is for now.
 =--
