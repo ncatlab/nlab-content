@@ -1,5 +1,5 @@
 
-[[simplicial nerve]] etc.
+[[homotopy coherent nerve]] etc.
 
 #References#
 
