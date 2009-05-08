@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-08 #
 
+* [[Urs Schreiber|Urs]]:
+
+  * added lots of further stuff to [[simplex category]]
+
 * [[Andrew Stacey|Andrew]]: Finished off the heuristic shift.  Bizarrely, one page, [[local system]], comes up in the Instiki search as having "heuristic" in it but I can't find it.  The other instances of "heuristic" that are left are either correct or within discussions.
 
 * [[Urs Schreiber|Urs]]:
