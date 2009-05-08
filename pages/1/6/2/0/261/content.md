@@ -1,17 +1,36 @@
+#Idea#
+
+A _simplicial set_ is like a combinatorial space built up out of gluing abstract [[simplex|simplices]] to each other. Equivalently, it is an object equipped with a rule for how to consistently map the objects of the [[simplex category]] into it.
+
+More concretely, a simplicial set $S$ is a collection of [[set]]s $S_n$ for $n \in \mathbb{N}$, so that elements in $S_n$ are to be thought of as one $n$-[[simplex|simplices]], equipped with a rule that says:
+
+* which $(n-1)$-simplices in $S_{n-1}$ are faces of which elements of $S_n$;
+
+* which $(n+1)$-simplices are "thin" in that they are really just $n$-simplices regarded as "flat" $(n+1)$-simplices.
+
+One of the main uses of simplicial sets is as combinatorial _models_ for [[topological space]]s. They can also be taken as models for [[infinity-groupoid]]s. This is encoded in the [[model structure on simplicial sets]].
+
 #Definition#
 
 A **simplicial set**  is a [[presheaf]] on the [[simplex category]] $\Delta$, that is, a functor $X : \Delta^{op} \to Sets$.
 
-It is, of course, a [[simplicial object]] in the category of sets.
+This is, of course, a [[simplicial object]] in the category [[Set]] of sets.
 
+With the standard morphisms of [[presheaf|presheaves]] as morphisms, simplicial sets form the category [[SSet]].
 
 #Remarks#
 
-* The definition is to be understood from the point of view of [[space and quantity]]: a **simplicial set** is a space characterized by the fact that and how it may be _probed_ by mapping standard simplices into it: the set $S_n$ assigned by a simplicial set to the standard $n$-simplex $[n]$ is the set of $n$-simplicies in this space, hence the way of mapping a standard $n$-simplex into this spaces.
+## simplicial sets as spaces built of simplices ##
 
-* Simplicial sets generalize the idea of [[simplicial complex]]: a simplicial set can be thought of as something consisting of a set of $n$-simplices for all $n \in \mathbb{N}$ together with face and degeneracy functions. More precisely, if $X$ is a simplicial set, we write $X_n$ to denote the set of $n$-simplices. The **face** maps (also called **boundary** maps) are functions $d_i : X_n \rightarrow X_{n-1}$ for each $0\leq i \leq n$, which associate to each $n$-simplex one of its $n+1$ faces, themselves $(n-1)$-simplices. The **degeneracy** maps are functions $s_i : X_n \rightarrow X_{n+1}$ for each $0\leq i \leq n$, which allow one to regard an $n$-simplex as a degenerate $(n+1)$-simplex. 
+The definition is to be understood from the point of view of [[space and quantity]]: a **simplicial set** is a space characterized by the fact that and how it may be _probed_ by mapping standard simplices into it: the set $S_n$ assigned by a simplicial set to the standard $n$-simplex $[n]$ is the set of $n$-simplicies in this space, hence the way of mapping a standard $n$-simplex into this spaces.
 
-* The face map $d_i : X_n \rightarrow X_{n-1}$ is dual to the unique injection $\delta^i : [n-1] \rightarrow [n]$ in the category $\Delta$ whose image omits the element $i \in [n]$. Similarly, the degeneracy map $s_i : X_n \rightarrow X_{n+1}$ is dual to the unique surjection $\sigma^i : [n+1] \rightarrow [n]$ in $\Delta$ such that $i \in [n]$ has two elements in its preimage. The maps $\delta^i$ and $\sigma^i$ satisfy certain obvious relations; the face are degeneracy maps satisfy relations dual to these (so we get a [[functor]] from $\Delta^{op}$ to $\Set$).  The relations satisfied by the face and degeneracy maps are often called  the [[simplicial identities]].
+* The face map $d_i : X_n \rightarrow X_{n-1}$ is dual to the unique injection $\delta^i : [n-1] \rightarrow [n]$ in the category $\Delta$ whose image omits the element $i \in [n]$. Similarly, the degeneracy map $s_i : X_n \rightarrow X_{n+1}$ is dual to the unique surjection $\sigma^i : [n+1] \rightarrow [n]$ in $\Delta$ such that $i \in [n]$ has two elements in its preimage. The maps $\delta^i$ and $\sigma^i$ satisfy certain obvious relations, dual to the _simplicial relations_ spelled out at [[simplex category]]; the face are degeneracy maps satisfy relations dual to these (so we get a [[functor]] from $\Delta^{op}$ to $\Set$).  The relations satisfied by the face and degeneracy maps are often called  the [[simplicial identities]].
+
+
+## simplicial complexes ##
+
+Simplicial sets generalize the idea of [[simplicial complex]]: a simplicial set can be thought of as something consisting of a set of $n$-simplices for all $n \in \mathbb{N}$ together with face and degeneracy functions. More precisely, if $X$ is a simplicial set, we write $X_n$ to denote the set of $n$-simplices. The **face** maps (also called **boundary** maps) are functions $d_i : X_n \rightarrow X_{n-1}$ for each $0\leq i \leq n$, which associate to each $n$-simplex one of its $n+1$ faces, themselves $(n-1)$-simplices. The **degeneracy** maps are functions $s_i : X_n \rightarrow X_{n+1}$ for each $0\leq i \leq n$, which allow one to regard an $n$-simplex as a degenerate $(n+1)$-simplex. 
+
 
 
 #Examples#
@@ -20,15 +39,52 @@ It is, of course, a [[simplicial object]] in the category of sets.
 
 * If $C$ is a small category, the **nerve** of $C$ is a simplicial set which we denote $NC$. If we intepret the poset $[n]$ defined above as a category, we define the $n$-simplices of $NC$ to be the set of functors $[n] \rightarrow C$. Equivalently, the $0$-simplices of $NC$ are the objects of $C$, the $1$-simplices are the morphisms, and the $n$-simplices are strings of $n$ composable arrows in $C$. Face maps are given by composition (or omission, in the case of $d_0$ and $d_n$) and degeneracy maps are given by inserting identity arrows.
 
-* If $Z$ is a topological space, the **total singular complex** of $Z$ is a simplicial set, which we denote $S Z$. Let ${\Delta}_n$ denote the standard _topological_ $n$-simplex $\{ (x_0, \ldots, x_n) : 0\leq x_i \leq n, \sum x_i =1\}$. The $n$-simplices of $SZ$ are defined to be the continuous functions ${\Delta}_n \rightarrow Z$. The face map $d_i$ is given by precomposition by the continuous injection $\delta^i$ of ${\Delta}_{n-1}$ as the $i$-th face of ${\Delta}_n$ (with a 0 in the $x_i$ coordinate). The degeneracy map $s_i$ is given by precomposition by the continuous function ${\Delta}_{n+1} \rightarrow {\Delta}_n$ that adds the $x_i$ and $x_{i+1}$ coordinates.
+* Recall from [[simplex category]] or [[geometric realization]] the standard functor $\Delta \to Top$ which sends $[n] \in \Delta$ to the standard topological $n$-simplex.  This functor induces for every [[topological space]] $X$ the simplicial set
+$$
+  S X : [n] \mapsto Hom_{Top}(\Delta^n, X)
+$$
+called the **simplicial singular complex** of $X$. This simplicial set is always a [[Kan complex]] and may be regarded as the [[fundamental infinity-groupoid]] of $X$.
+
+
 
 * A [[symmetric set]] is a simplicial set equipped with additional *transposition maps* $t^n_i: X_n \to X_n$ for $i=0,\ldots,n-1$.  These transition maps generate an [[action]] of the [[symmetric group]] on $X_n$ and satisfy certain commutation relations with the face and degeneracy maps.
 
-#The Category of Simplicial Sets#
+#The category of simplicial sets#
 
-Like all categories of presheafs on a small category, the category [[SimpSet]] of simplicial sets is complete and cocomplete (with limits and colimits constructed levelwise) and cartesian closed. In fact, like all [[presheaf category|presheaf categories]], it is a topos. 
+Like all categories of [[presheaf|presheaves]] on a [[small category]], the [[category]] [[SSet]] of simplicial sets is complete and cocomplete (with [[limit]]s and [[colimit]]s constructed levelwise) and [[cartesian closed category|cartesian closed]]. In fact, like all [[presheaf|presheaf categories]], it is a [[topos]]. 
 
-We write $Y^X$ for the internal-hom of simplicial sets $X$ and $Y$. By the Yoneda lemma, the $n$-simplices of $Y^X$ correspond to maps $\Delta[n] \rightarrow Y^X$, or equivalently, maps $X \times \Delta[n] \rightarrow Y$ (by the defining adjunction). So we may _define_ the simplicial set $Y^X$ to have these $n$-simplices. The face and degeneracy maps are given by precomposition by the dual maps in $\Delta$.
+### monoidal structure ##
+
+As described at [[closed monoidal structure on presheaves]]
+the cartesian tensor product $S \otimes T = S \times T$ of simplicial sets $S$ and $T$ is the simplicial set
+$$
+  (S \otimes T) : [n] \mapsto S_n \times T_n
+  \,,
+$$
+where the product on the right is the cartesian product in [[Set]].
+
+One cental reason why simplicial sets are useful and important is that this simple monoidal structure ("disturbingly simple minded" in the words of [Friedman08, p. 24](http://arxiv.org/PS_cache/arxiv/pdf/0809/0809.4221v1.pdf#page=24)) actually does fully caopture the standard monoidal structure on [[topological space]]s under [[geometric realization]] $|\cdot| : SSet \to Top$
+
+**Proposition**
+
+For $S$ and $T$ simplicial sets, we have
+$$
+  |S \times T| \simeq |S| \times |T|
+  \,,
+$$
+where on the right the cartesian product is in the category of compactly generated Hausdorff spaces.
+
+
+## closed structure ##
+
+As described at [[closed monoidal structure on presheaves]]
+the [[internal hom]]  $[S,T]$ of simplicial sets is the simplicial set
+$$
+  [S,T] : [n] \mapsto Hom_{SSet}(S \times \Delta^n, T)
+  \,,
+$$
+where $\Delta^n = Y([n])$ is the standard simplicial $n$-[[simplex]], the image of $[n] \in \Delta$ under the [[Yoneda embedding]].
+
 
 # Adjunctions #
 
@@ -48,7 +104,7 @@ Here are some examples:
 
 * (Barycentric) subdivision and extension $\sd: \Simp\Set \leftrightarrow \Simp\Set :\ex$.
 
-* The simplicial nerve functor and its left adjoint $\Simp\Set \leftrightarrow \Simp\Cat$ where [[SimpCat]] denotes the category of [[simplicially enriched category|simplicially enriched categories]], i.e., categories enriched in $\Simp\Set$.
+* The [[homotopy coherent nerve]] functor and its left adjoint $\Simp\Set \leftrightarrow \Simp\Cat$ where [[SimpCat]] denotes the category of [[simplicially enriched category|simplicially enriched categories]], i.e., categories enriched in $\Simp\Set$.
 
 +-- {: .query}
 [[Tim Porter|Tim]]: What is the reference for this simplicial nerve? (I do not like that terminology.)  Is it what I would call the homotopy coherent nerve (as explicitly first introduced by Cordier)? If so it needs an entry for itself.
