@@ -51,9 +51,9 @@ For a pedagogical motivation of the general topic under consideration here see
   
   * [[morphism]]
 
-     * [[hom-set]]
+    * [[hom-set]]
 
-    * [[identity]]
+    * [[identity morphism]]
 
     * [[epimorphism]]
   
