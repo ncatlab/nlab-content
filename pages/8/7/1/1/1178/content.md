@@ -75,7 +75,7 @@ In particular, there is an [[(infinity,1)-category of (infinity,1)-sheaves|(infi
 
 This for instance yields a unified picture of [[cohomology]]: in [[Top]] the cohomology on one object $X$ with coefficients in another object $A$ is nothing but the [[hom-space]] $[X,A]$. By simply [[internalization|internalizing]] this statement into other [[(infinity,1)-topos|(infinity,1)-topoi]] one finds many notions of [[cohomology]] as special cases, for instance group cohomology, [[abelian sheaf cohomology]], [[nonabelian cohomology]].
 
-More details on the key ideas of this are at [[heuristic introduction to sheaves, cohomology and higher stacks]].
+More details on the key ideas of this are at [[motivation for sheaves, cohomology and higher stacks]].
 
 Notably in the "abelian" or "stable" case, where the objects of the [[(infinity,1)-category]] don't just behave like [[topological space]]s but like [[spectrum|spectra]], this allows to subsume central developments in [[homological algebra]] in a simple pattern:
 
