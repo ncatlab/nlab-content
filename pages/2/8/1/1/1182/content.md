@@ -416,7 +416,7 @@ Of these consider [[quasi-category|quasi-categories]], which are
 [[simplicial set]]s that are [[Kan fibration|weak Kan complex]]es,
 and [[SSet]]-[[enriched category|enriched categories]]. 
 These are related by the 
-[[simplicial nerve of simplicial categories]]-functor: 
+[[homotopy coherent nerve]] functor: 
 
 $$ 
   N : SSet\text{-}Cat \to SSet
@@ -444,7 +444,7 @@ we describe it in terms of these models as follows.
 * $S$ is some small [[simplicial set]] which we can assume to be a [[weak Kan complex]];
 
 * $\infty\text{-}Grpd := N(Kan)$ is the [[simplicial set]] which is the image under
-the [[simplicial nerve of simplicial categories]]-functor of the full [[SSet]]-subcategory
+the [[homotopy coherent nerve]] functor of the full [[SSet]]-subcategory
 of [[SSet]] on [[Kan complex]]es;
 
 * $PSh(S) = SSet(S^{op},\infty\text{-}Grpd)$ is just the simplicial set of
