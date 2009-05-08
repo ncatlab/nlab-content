@@ -14,6 +14,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-08 #
 
+* [[Urs Schreiber|Urs]]:
+
+  * added the definition of composition to [[enriched functor category]];
+
+  * thanks to [[Andrew Stacey|Andrew]] for the thing about "heuristic". I'll be aware of that in the future.
+
+    * following [[Toby Bartels|Toby]] I made [[heuristic introduction to sheaves, cohomology and higher stacks|heuristic intro...]] a redirection to [[motivation for sheaves, cohomology and higher stacks]]
+
 *  [[Toby Bartels]]:
    *  I split [[identity]] into [[identity morphism]] and [[identity element]].  Maybe I\'ll do the same to [[inverse]] later, but not now.
    *  More details at [[extensional relation]].
