@@ -120,7 +120,7 @@ $$
   A : pt \to C
 $$
 
-from the point to $C$. This lax functor sends the point to some object of $C$, sends the [[identity]] morphism on the point to some [[endomorphism]] of that object. The unitor of the lax functor gives the product on that endomorphism and the coherence of the unitor is the associativity condition on this product.
+from the point to $C$. This lax functor sends the point to some object of $C$, sends the [[identity morphism]] on the point to some [[endomorphism]] of that object. The unitor of the lax functor gives the product on that endomorphism and the coherence of the unitor is the associativity condition on this product.
 
 This is part of a more general principle. A lax[[monoid]] in any tricategory would again be a lax functor from the point to that tricategory. 
 
