@@ -18,5 +18,5 @@ They are also special cases of strict globular omega-groupoids, and the category
 
 * A strict 2-category is the same as a [[strict omega-category]] which is trivial in degree $n \geq 3$.
 
-* This is to be contrasted with a _weak 2-category_ called a [[bicategory]]. In a strict 2-category composition of 1-morphisms is strictly associative and comoposition with [[identity]] morphisms strictly satisfies the required identity law. In a weak 2-category these laws may hold only up to coherent 2-morphisms.
+* This is to be contrasted with a _weak 2-category_ called a [[bicategory]]. In a strict 2-category composition of 1-morphisms is strictly associative and comoposition with [[identity morphism]]s strictly satisfies the required identity law. In a weak 2-category these laws may hold only up to coherent 2-morphisms.
 
