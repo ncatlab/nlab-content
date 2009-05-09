@@ -23,4 +23,8 @@ However, one of the important insights of category theory is that in arbitrary c
 How do global elements allow to reconstruct the element-wise thinking from set theory?
 
 _Answer_:  In general, by themselves, they don\'t.  In general, you need to use *all* of the generalized elements.  On the other hand, if the [[terminal object]] (or whatever object is used to define the [[global element]]s) is a [[generator]], then global elements are enough.  In particular, this is true in a [[concrete category]].
+
+_Rafael_:  Can you be more specific in the case of a concrete category?
+In particular, how can elements of an abstract set be morphisms (with domain the terminal object) in a concrete category?
+Compare with the definition of an abstract set from set theory where elements are featureless dots.
 =--
