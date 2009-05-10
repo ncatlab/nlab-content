@@ -365,6 +365,7 @@ Notice that this means in particular that the "additive" structure on $C(X)$ is 
 
 In terms of this [[higher algebra]] we will obtain the two central (defining) theorems of _geometric $\infty$-function theory_.
 
++-- {: .standout}
 +-- {: .un_theorem}
 ###### Theorem
 **Fundamental theorem of geometric $\infty$-function theory**
@@ -376,7 +377,7 @@ For $X \to Y \leftarrow X'$ morphisms of nice generalized spaces ([[perfect infi
 * _$\infty$-linear maps are given by $\infty$-matrices in that also the following equivalence holds: $C(X \times_Y X') \simeq Fun_{C(Y)}(C(X), C(Y))$;
 
 =--
-
+=--
 
 #### basic ideas related to $\infty$-stacks ####
 
