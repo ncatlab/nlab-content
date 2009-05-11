@@ -28,7 +28,7 @@ Conversely, for $C$ any category and $X \in C$, the condition that $C(X,-) : C \
 
 * in $C = $ [[Set]] this is the case if the set $X$ is [[finite set|finite]];
 * in $C$ a [[topos]] this is the case if the object $X$ is $K$-[[finite object|finite]];
-* in $C =$ [[Grp]] this is the case if the group $X$ is [[finitely presented object|finitely presented]] as a group.
+* in $C =$ [[Grp]] this is the case if the group $X$ is [[finitely presentable object|finitely presented]] as a group.
 
 ## Definition ##
 
