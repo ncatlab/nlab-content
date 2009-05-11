@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-11 #
 
+* [[Urs Schreiber|Urs]]:
+
+  * after reading it I got the idea that [[Toby Bartels|Toby]]'s latest addition to [[stuff, structure, property]] is really about higher subobject classifiers as discussed at [[generalized universal bundle]]. I added corresponding remarks, but didn't find the time to look into this very carefully.
+
 *  [[David Corfield|David]]: Started [[locally finitely presentable category]]
 
 *  [[Toby Bartels]]:
