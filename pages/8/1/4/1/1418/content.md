@@ -10,6 +10,8 @@ A category $C$ satisfying (any of) the following equivalent conditions is said t
 1. $C$ is the category of models for an [[essentially algebraic theory]].
    +-- {: .query}
    Does this essentially algebraic theory also have to be finitary?; that is, if it\'s an [[algebraic theory]], then it\'s a [[Lawvere theory]]?  ---Toby
+
+   [[Mike Shulman|Mike]]: Yes, it certainly has to be finitary.  Possibly the standard meaning of "essentially algebraic" implies finitarity, though, I don't know.
    =--
 1. $C$ is equivalent to the category of finite-limit-preserving functors $D \to Set$ for some small category $D$ with finite limits.
 1. $C_{fp}$ has finite colimits, and the restricted [[Yoneda embedding]] $C\hookrightarrow [C_{fp}^{op},Set]$ identifies $C$ with the category of finite-limit-preserving functors $C_{fp}^{op} \to Set$.
