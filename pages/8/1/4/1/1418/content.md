@@ -14,7 +14,7 @@ category $D$ with finite limits.
 
 ###Examples###
 
-[[Set]], Graph, Poset, [[Cat]], [[Ab]] are all lfp.
+[[Set]], Graph, [[Pos]], [[Cat]], [[Ab]] are all lfp.
 
 [[Top]], [[FinSet]] are not lfp.
 
