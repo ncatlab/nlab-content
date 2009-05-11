@@ -51,6 +51,7 @@ Even if $C$ doesn\'t have *all* binary products, as long as products with $G$ (a
 * A group object in [[Ab]] is an abelian group again.
 * A group object in [[Cat]] is a strict [[2-group]].
 * A group object in [[Grpd]] is a strict $2$-group again.
+* A group object in [[CRing]]$^{op}$ is a commutative [[Hopf algebra]].
 
 # Theory #
 
