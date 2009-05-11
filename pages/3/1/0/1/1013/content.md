@@ -164,7 +164,7 @@ Diagrammatically this may be phrased as saying that every faithful functor $D \t
 
 $$
   \array{
-    D_{iso} &\to& (Set_{iso})_*
+    D_{iso} &\to& (Set_*)_{iso}
     \\
     \downarrow &\Downarrow& \downarrow
     \\
@@ -180,7 +180,7 @@ Diagrammatically this may be phrased as saying that every functor $D \to C$ aris
 
 $$
   \array{
-    D_{iso} &\to& (Grpd_{iso})_*
+    D_{iso} &\to& (Grpd_*)_{iso}
     \\
     \downarrow &\Downarrow& \downarrow
     \\
@@ -198,6 +198,8 @@ Lest we forget, to be even more simple than an extra property, the groupoid of $
 +-- {: .query}
 
 [[Urs Schreiber|Urs]]: after reading [[Toby Bartels|Toby]]'s above account on "logical interpretation" it seemed to me that this is about higher subobject classifiers the way it is discussed towards the end of [[generalized universal bundle]]. So I added the diagrammatic interpretation to the above. But take with a grain of salt at the moment, I haven't thought about this in much detail yet.
+
+_Toby_:  Urs, are we stuck with this numbering system yet?  Because I would very much like it if a $1$-subobject could be the same thing as a subobject, just as $1$-stuff is the same thing as stuff, a $1$-group is the same thing as a group, etc.
 
 =--
 
