@@ -9,15 +9,7 @@ $$
     &&&&1_C& 
     \\
     &&\cellopts{\colspan{5}}\begin{svg}
-       <svg xmlns="http://www.w3.org/2000/svg" width="8.5em" height="2em" viewBox="0 0 85 20">
-          <defs>
-            <marker id='svg195arrowhead' markerHeight='5' markerUnits='strokeWidth' markerWidth='8' orient='auto' refX='0' refY='5' viewBox='0 0 10 10'>
-              <path d='M 0 0 L 10 5 L 0 10 z'/>
-            </marker>
-         </defs>
-         <path marker-end='url(#svg195arrowhead)' stroke-width="1" stroke="#000" fill="none" d="M5 15q40-28 75 0"/>
-         <foreignObject height='20' width='20' x='40' y='3' font-size='10'><math xmlns="http://www.w3.org/1998/Math/MathML" display='inline'><msup><mo>&#8659;</mo><mi>&#951;</mi></msup></math></foreignObject>
-       </svg>
+       [[!include adjunction/zigzageta]]
        \end{svg}\\
     D
     & \stackrel{R}{\to}&
@@ -28,10 +20,7 @@ $$
     C
     \\
     \cellopts{\colspan{4}}\begin{svg}
-       <svg xmlns="http://www.w3.org/2000/svg" width="8.5em" height="2em" viewBox="0 0 85 20">
-         <path marker-end='url(#svg195arrowhead)' stroke-width="1" stroke="#000" fill="none" d="M5 5q40 28 75 0"/>
-           <foreignObject height='20' width='20' x='40' y='0' font-size='10'><math xmlns="http://www.w3.org/1998/Math/MathML" display='inline'><msup><mo>&#8659;</mo><mi>&#1013;</mi></msup></math></foreignObject>
-       </svg>
+       [[!include adjunction/zigzagepsilon]]
        \end{svg}
     \\
     &&1_D&
@@ -41,11 +30,29 @@ $$
 and
 $$ 
   \epsilon L . L\eta = 1_L
+  \qquad \text{i.e.} \qquad
+  \array{\arrayopts{ \padding{0} }
+    &&1_C& 
+    \\
+    \cellopts{\colspan{5}}\begin{svg}
+       [[!include adjunction/zigzageta]]
+       \end{svg}\\
+    C
+    & \stackrel{L}{\to}&
+    D
+    & \stackrel{R}{\to}&
+    C
+    & \stackrel{L}{\to}&
+    D
+    \\
+    &&\cellopts{\colspan{4}}\begin{svg}
+       [[!include adjunction/zigzagepsilon]]
+       \end{svg}
+    \\
+    &&&&1_D&
+  }
+  \quad = \quad C \stackrel{L}{\to} D
 $$
-
-i.e.
-
-<center markdown="1">[[zigzag-1-bigger.png:pic]]</center>
 
 variously called the _triangle identities_ or the _zig-zag identities_.  We call $L$ the **left adjoint** (of $R$) and $R$ the **right adjoint** (of $L$).  We call $\eta$ the [[unit]] and $\epsilon$ the [[counit]] of the adjunction.
 
