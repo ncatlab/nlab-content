@@ -6,7 +6,7 @@ To define a perfect stack $X$, we must first define which [[quasicoherent sheaf|
 
 +-- {: .un_defn}
 ###### Definition
-Let $A$ be a derived commutative ring. An $A$-module is _perfect_ if it lies in the smallest $\infty$-subcategory of $Mod_A$ containing $A$ and closed under finite colimits and retracts. For a derived stack $X$, the $\infty$-category $Perf(X)$ is the full $\infty$-subcategory of $QC(X)$ consisting of those sheaves $M$ whose restriction $f^*M$ to any affine $f \colon U \rightarrow X$ over $X$ is a perfect module.
+Let $A$ be a derived commutative ring. An $A$-module is _perfect_ if it lies in the smallest $\infty$-subcategory of $Mod_A$ containing $A$ and closed under finite colimits and retracts. For a derived stack $X$, the $\infty$-category $Perf(X)$ is the full $\infty$-subcategory of $QC(X)$ consisting of those sheaves $M$ whose restriction $f^*M$ to any affine $f: U \rightarrow X$ over $X$ is a perfect module.
 =--
 
 Now we can define what it means for a stack to be perfect, as well as for morphisms between them.
