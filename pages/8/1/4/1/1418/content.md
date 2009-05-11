@@ -1,20 +1,21 @@
-An object $X$ of a category $C$ is said to be finitely presentable (or finitary) if the representable
-functor $C(X, )$ preserves filtered colimits. Write $C_{fp}$ for the full subcategory of $C$ on the
-[[finitely presentable object|finitely presentable objects]].
+An object $X$ of a category $C$ is said to be [[finitely presentable object|finitely presentable]] (or finitary) if the [[representable functor]] $C(X,-)$ preserves [[filtered category|filtered colimits]]. Write $C_{fp}$ for the full subcategory of $C$ on the finitely presentable objects.
 
-A category $C$ satisfying one of the following equivalent conditions is said to be _locally finitely presentable_:
++--{: .query}
+[[Mike Shulman|Mike]]: Do people really call finitely presentable _objects_ "finitary"?  I've only seen that word applied to functors (those that preserve filtered colimits).
+=--
 
-1. $C$ has all small [[limit|limits]] and [[colimit|colimits]], the category $C_{fp}$ is [[essentially small category|essentially small]], and any object in $C$
-is a filtered colimit of the finitely presentable objects which map into it.
+A category $C$ satisfying (any of) the following equivalent conditions is said to be __locally finitely presentable__ (or **lfp**):
+
+1. $C$ has all small [[limit|limits]] and [[colimit|colimits]], the category $C_{fp}$ is [[essentially small category|essentially small]], and any object in $C$ is a [[filtered category|filtered]] colimit of the canonical diagram of finitely presentable objects mapping into it.
 1. $C$ is the category of models for an [[essentially algebraic theory]].
-1. $C$ is equivalent to the category of finite-limit-preserving functors $D \to Set$ for some small
-category $D$ with finite limits.
-1. $C$ is equivalent to the category of finite-limit-preserving functors $C_{fp} \to Set$.
+1. $C$ is equivalent to the category of finite-limit-preserving functors $D \to Set$ for some small category $D$ with finite limits.
+1. $C_{fp}$ has finite colimits, and the restricted [[Yoneda embedding]] $C\hookrightarrow [C_{fp}^{op},Set]$ identifies $C$ with the category of finite-limit-preserving functors $C_{fp}^{op} \to Set$.
 1. $C$ is the category of models for a finite limit [[sketch]].
+
+Replacing "finite" by "of cardinality less than $\kappa$" everywhere, for some [[cardinal number]] $\kappa$, results in the notion of a [[locally presentable category]].
 
 ###Examples###
 
-[[Set]], Graph, [[Pos]], [[Cat]], [[Ab]] are all lfp.
+* [[Set]], Graph, [[Pos]], [[Cat]], [[Ab]] are all lfp.
 
-[[Top]], [[FinSet]] are not lfp.
-
+* [[Top]], [[FinSet]] are not lfp.
