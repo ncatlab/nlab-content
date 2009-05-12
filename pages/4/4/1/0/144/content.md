@@ -57,7 +57,7 @@ In  total this yields an adjoint pair of functors between generalized spaces and
 
 $$
   Spaces_S
-\stackrel{\stackrel{C(-)}{\leftarrow}}{\stackrel{Spec(-)}{\to}}
+\stackrel{\stackrel{C(-)}{\to}}{\stackrel{Spec(-)}{\leftarrow}}
   Quantities_S
   \,.
 $$
