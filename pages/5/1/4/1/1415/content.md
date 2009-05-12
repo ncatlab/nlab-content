@@ -95,3 +95,5 @@ _Toby_:  Here\'s the diagram again, but *without* the SVG code in the edit box, 
 (This is included from the new [[Inclusion Sandbox]].)
 
 _Bruce_: The files I received from Olivier Binda, which includes a nice comprehensive test suite of how his patch to htlatex (which changes ordinary text in SVG into foreignobject tags) performs, are available here: [[LD@Svg@Tests_files.zip]]
+
+category: meta
