@@ -16,13 +16,30 @@ But there is no natural reason why the domain should in general remain a 1-categ
 
 In practice one often looks at the model of derived stacks obtained from generalizing the theory of [[simplicial presheaf|simplicial presheaves]]: so a derived pre-stack is often modeled as a [[SSet]]-[[enriched category theory|enriched]] functor $F : C^{op} \to SSet$ from an [[SSet]]-enriched category to $SSet$.
 
-# Fiber products #
+## Central motivation: derived stacks have good limits ##
 
 One general idea for the use of higher and derived stacks is that
 
-* passing to a higher categorical codomain  -- i.e. from Set-values [[sheaf|sheaves]] to higher [[groupoid]] valued sheaves -- is a means to complete under colimits. For instance in the category [[Diff]] of manifolds the quotient by a non-free action of a group may not exist, but in [[stack]]s $[Diff^{op}, Grpd]$ it exists as the corresponding smooth [[action groupoid]] or [[orbifold]].
+* passing to a higher categorical codomain  -- i.e. from Set-values [[sheaf|sheaves]] to higher [[groupoid]] valued sheaves -- is a means to obtain _good colimits_, [[colimit]]s that do not lose information. For instance 
 
-* passing to higher categorical domain -- i.e. from presheaves on categories to presheaves on higher categories, is analogously a means to complete under limits. For instance (... standard example should go here ...)
+  * in the category [[Diff]] of manifolds the quotient by a non-free action of a group may not exist
+
+  * in [[sheaf|sheaves]] in [Diff^{op},Set] it will exist, but will have the wrong properties in general with respect to some operations such as taking cohommology,
+
+  * while finally in [[stack]]s $[Diff^{op}, Grpd]$ it exists as the corresponding smooth [[action groupoid]] or [[orbifold]] and in this form rembers in terms of the isomorphisms how the quotient was obtained. The cohomology of the stack is then indeed the equivariant cohomology of the original manifold.
+
+* similarly passing to higher categorical domain -- i.e. from presheaves on categories to presheaves on higher categories, is analogously a means to ensure that good [[limit]]s exist.
+
+A detailed illustration and motivation of the need of these "good limits" that don't forget the way they were formed is 
+
+* in the introductory section of 
+
+  * [[Jacob Lurie]], [Structured Spaces](http://www-math.mit.edu/~lurie/papers/DAG-V.pdf)
+
+* in the introductory section of 
+
+  * David Spivak, [Quasi-smooth derived manifolds](http://math.berkeley.edu/~dspivak/thesis2.pdf)
+
 
 #Examples#
 
@@ -59,4 +76,12 @@ The unifying picture, in particular independent of the choice of model for the [
 Derived ($\infty$-)stacks are currently mostly, maybe exclusively, studied on algebraic sites $S$, where the category $S^{op} := $ [[Alg]] is replaced with a category of "$\infty$-algebras" of sorts. The theory of these $\infty$-algebras is described in great detail in
 
 
-* Jacob Lurie, _Derived Algebraic Geometry II: Noncommutative Algebra_ ([arXiv](http://arxiv.org/abs/math/0702299))
+* Jacob Lurie, [[higher algebra|Noncommutative and Commutative algebra]]
+
+Concretely the need for the site of simplicial ring objects is discussed in the introduction of 
+
+* [[Jacob Lurie]], [Structured Spaces](http://www-math.mit.edu/~lurie/papers/DAG-V.pdf)
+
+and in the introduction of
+
+  * David Spivak, [Quasi-smooth derived manifolds](http://math.berkeley.edu/~dspivak/thesis2.pdf).
