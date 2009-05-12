@@ -6,11 +6,9 @@ Let $C$ be a [[differential graded category]].
 
 A **twisted complex** $E$ in $C$ is
 
-* a graded set $\{E_i\}_{i \in \mathbb{Z}}$ of [[object]]s of $C$, 
+* a graded set $\{E_i\}_{i \in \mathbb{Z}}$ of [[object]]s of $C$, such that only finitly many $E_i$ are not the [[zero object]];
 
-  * such that only finitly many $E_i$ are not the [[zero object]];
-
-* a set of [[morphism]]s $\{q_{i j} : E_i \to E_j \in C(E_i,E_j)\}_{i,j \in \mathbb{Z}}$ such that
+* a set of [[morphism]]s $\{q_{i j} : E_i \to E_j \}_{i,j \in \mathbb{Z}}$ such that
 
   * $deg(q_{i j}) = i-j+1$;
 
