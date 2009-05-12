@@ -12,10 +12,10 @@ Let in the following $C$ be a small [[(infinity,1)-category]].
 
 the definition in terms of formal colimits is precisely analogous to the one for ordinary [[ind-object]]s, with colimits and limits replaced by the corresponding $\infty$-notion (compare [[homotopy limit]] and [[limit in quasi-categories]])
 
-So the objects of $ind-C$ are small filtered diagrams $X : D_X \to C$ in $C$, and the morphisms are given by
+So the objects of $Ind C$ are small filtered diagrams $X : D_X \to C$ in $C$, and the morphisms are given by
 
 $$
-  Hom_{Ind-C}(X,Y) := lim_{d\in D_X} colim_{d' \in D_Y} Hom_C(X(d), Y(d'))
+  Hom_{Ind C}(X,Y) := lim_{d\in D_X} colim_{d' \in D_Y} Hom_C(X(d), Y(d'))
   \,.
 $$
 
