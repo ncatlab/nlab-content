@@ -36,7 +36,7 @@ Then Scott extensionality implies Finsler extensionality, and the converse holds
 
 ### Strong extensionality ###
 
-The strongest version of extensionality is motivated by the study of [[final coalgebra]]s and [[coinduction]].
+The strongest version of extensionality is motivated by the study of [[terminal coalgebra]]s and [[coinduction]].
 
 Let $S$ be equipped with a binary relation $\prec$.  A __[[bisimulation]]__ on $(S,\prec)$ is a binary relation $\sim$ such that whenever $x \sim y$, for any $a \prec x$ there is a $b \prec y$ with $a \sim b$, and conversely for every $b \prec y$ there is an $a \prec x$ with again $a \sim b$.  We then say that $\prec$ is __strongly extensional__ if every bisimulation is contained in the identity relation; i.e., $x = y$ whenever $x \sim y$ for any bisimulation $\sim$.  In general, this is probably the best situation in which to say that $\prec$ is simply __extensional__.
 
