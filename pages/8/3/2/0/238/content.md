@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-12 #
 
+*  [[Toby Bartels]]:  An extensive rewrite and expansion of [[predicative mathematics]], including material on the non-[[constructive mathematics|constructive]] school (which rejects function sets), thanks to reading sparked by [one of Jonathan's posts](http://golem.ph.utexas.edu/category/2009/04/taming_the_boundless.html#c023753) to the Caf&#233;.
+
 * [[Urs Schreiber|Urs]]
 
   * created [[derived smooth manifold]], but will have to continue tomorrow
