@@ -46,6 +46,12 @@ The constructive school, however, often accepts function sets.  In this school, 
 
 Brouwer, on the other hand, did not accept the sequence above, although his followers differ on when (if ever) it stops.
 
+## Ill-founded structures ##
+
+Most foundations of mathematics are predicative in one sense: no set may belong to itself.  This (or rather, a certain strengthening of this) is the [[axiom of foundation]].  An alternative is the axiom of antifoundation, which explicitly allows for and tames such sets as $\bullet$, where $\bullet = \{\bullet\}$.  Indeed, this equation is a perfectly good way to *define* $\bullet$ using antifoundation, yet this is about as impredicative as a definition can get.
+
+Once one accepts the [[axiom of infinity]], there\'s not much objection to accepting more general [[W-type]]s; these are sets that are defined recursively much like a [[natural numbers object]].  Categorially, we may see these as [[initial algebra]]s of certain functors on $Set$.  The [[terminal coalgebra|final coalgebra]]s of these functors also exist in impredicative theories, but not predicatively.
+
 # The category of sets #
 
 So what is the category of sets in predicative mathematics?
