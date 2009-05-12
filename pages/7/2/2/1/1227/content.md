@@ -6,9 +6,24 @@ The notion of _ind-object_ and _ind-category_ in an [[(infinity,1)-category]] is
 
 The different equivalent definitions of ordinary [[ind-object]]s have their analog for [[(infinity,1)-category|(infinity,1)-categories]].
 
+Let in the following $C$ be a small [[(infinity,1)-category]]. 
+
+## in terms of formal colimits ##
+
+the definition in terms of formal colimits is precisely analogous to the one for ordinary [[ind-object]]s, with colimits and limits replaced by the corresponding $\infty$-notion (compare [[homotopy limit]] and [[limit in quasi-categories]])
+
+So the objects of $ind-C$ are small filtered diagrams $X : D_X \to C$ in $C$, and the morphisms are given by
+
+$$
+  Hom_{Ind-C}(X,Y) := lim_{d\in D_X} colim_{d' \in D_Y} Hom_C(X(d), Y(d'))
+  \,.
+$$
+
+(... should be made more precise...)
+
 ## in terms of filtered fibrations ##
 
-Let $C$ be a small [[(infinity,1)-category]]. Write $\kappa$ for a [[cardinal number|regular cardinal]] and write $ind_\kappa \text{-}C$ for the full sub-[[(infinity,1)-category]] of [[(infinity,1)-presheaf|(infinity,1)-presheaves]] on those $(\infty,1)$-presheaves
+Write $\kappa$ for a [[cardinal number|regular cardinal]] and write $ind_\kappa \text{-}C$ for the full sub-[[(infinity,1)-category]] of [[(infinity,1)-presheaf|(infinity,1)-presheaves]] on those $(\infty,1)$-presheaves
 
 $$
   F : C^{op} \to Top
