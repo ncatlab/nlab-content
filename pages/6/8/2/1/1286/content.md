@@ -16,6 +16,19 @@ But there is no natural reason why the domain should in general remain a 1-categ
 
 In practice one often looks at the model of derived stacks obtained from generalizing the theory of [[simplicial presheaf|simplicial presheaves]]: so a derived pre-stack is often modeled as a [[SSet]]-[[enriched category theory|enriched]] functor $F : C^{op} \to SSet$ from an [[SSet]]-enriched category to $SSet$.
 
+# Fiber products #
+
+One general idea for the use of higher and derived stacks is that
+
+* passing to a higher categorical codomain  -- i.e. from Set-values [[sheaf|sheaves]] to higher [[groupoid]] valued sheaves -- is a means to complete under colimits. For instance in the category [[Diff]] of manifolds the quotient by a non-free action of a group may not exist, but in [[stack]]s $[Diff^{op}, Grpd]$ it exists as the corresponding smooth [[action groupoid]] or [[orbifold]].
+
+* passing to higher categorical domain -- i.e. from presheaves on categories to presheaves on higher categories, is analogously a means to complete under limits. For instance (... standard example should go here ...)
+
+#Examples#
+
+* passing from [[sheaf|sheaves]] or [[infinity-stack]]s on the domain [[CRing]] of commutative rings to the [[simplicially enriched category]] (hence an [[(infinity,1)-category]]) $SimpCRing$ of simplicial commutative rings corresponds, under the [[Dold-Kan correspondence]] to passing from spaces with an ordinary function algebra to spaces with a [[differential graded algebra]] as a function algebra. These are generalized [[NQ-supermanifold]]s. (...more details and context should go here ...)
+
+
 #References#
 
 An overview is provided in 
