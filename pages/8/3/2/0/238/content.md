@@ -16,7 +16,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
-  * created [[correspondence]]
+  * created [[derived smooth manifold]], but will have to continue tomorrow
+
+  * created [[category of local models]] and [[locally modeled monoid]]
 
   * expanded a bit more on the "good limits"-motivation at [[derived stack]], alongside the [blog discussion](http://golem.ph.utexas.edu/category/2009/05/journal_club_geometric_infinit_3.html#c023770)
 
