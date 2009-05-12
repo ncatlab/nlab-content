@@ -12,7 +12,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
-# 2009-05-11 #
+# 2009-05-12 #
 
 * [[Urs Schreiber|Urs]]
 
@@ -35,6 +35,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
   * added the coherence diagrams to [[braided monoidal category]]
 
   * added the enriched versions to [[representable functor]] and [[opposite category]]
+
+# 2009-05-11 #
 
 *  [[Toby Bartels]]:  I moved all of the <abbr title="scalable vector graphics">SVG</abbr> out of article pages and into included subpages as described at [[HowTo]].  (Note that this is supposed to be a temporary fix until we get a working automated system to include somehthing like TikZ; see [the discussion](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=20).)
 
