@@ -24,7 +24,7 @@ One general idea for the use of higher and derived stacks is that
 
   * in the category [[Diff]] of manifolds the quotient by a non-free action of a group may not exist
 
-  * in [[sheaf|sheaves]] in [Diff^{op},Set] it will exist, but will have the wrong properties in general with respect to some operations such as taking cohommology,
+  * in [[sheaf|sheaves]] in $[Diff^{op},Set]$ it will exist, but will have the wrong properties in general with respect to some operations such as taking cohommology,
 
   * while finally in [[stack]]s $[Diff^{op}, Grpd]$ it exists as the corresponding smooth [[action groupoid]] or [[orbifold]] and in this form rembers in terms of the isomorphisms how the quotient was obtained. The cohomology of the stack is then indeed the equivariant cohomology of the original manifold.
 
@@ -84,4 +84,4 @@ Concretely the need for the site of simplicial ring objects is discussed in the 
 
 and in the introduction of
 
-  * David Spivak, [Quasi-smooth derived manifolds](http://math.berkeley.edu/~dspivak/thesis2.pdf).
+* David Spivak, [Quasi-smooth derived manifolds](http://math.berkeley.edu/~dspivak/thesis2.pdf).
