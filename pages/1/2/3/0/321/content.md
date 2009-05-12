@@ -1,6 +1,6 @@
 # Definition #
 
-In any [[category]] $C$, a **span** from an [[object]] $x$ to an object $y$ is a [[diagram]]
+In any [[category]] $C$, a __span__, __roof__, or __correspondence__, from an [[object]] $x$ to an object $y$ is a [[diagram]]
 $$
   \array{
      && s
@@ -13,7 +13,9 @@ $$
      y
   }
 $$
-where $s$ is some other object of the category.  This [[diagram]] is called a 'span' because it looks like a little bridge.
+where $s$ is some other object of the category.
+
+This [[diagram]] is called a 'span' because it looks like a little bridge; 'roof' is similar.  The term 'correspondence' is prevalent in geometry and related areas; it comes about because a correspondence is a generalisation of a binary [[relation]].  Discussion of this terminology on the blog is [here](http://golem.ph.utexas.edu/category/2009/05/nlab_more_general_discussion.html#c023768).
 
 Note that a span with $f = 1$ is just a morphism from $x$ to $y$, while a span with $g = 1$ is a morphism from $y$ to $x$.  So, a span can be thought of as a generalization of a morphism in which there is no longer any asymmetry between source and target.
 
