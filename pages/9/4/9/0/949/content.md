@@ -1,16 +1,86 @@
 # Idea #
 
-**Predicative mathematics** is a version of [[constructive mathematics]] which, in addition to rejecting the [[axiom of choice]] and the principle of [[excluded middle]], rejects _impredicative definitions_.
+__Predicative mathematics__ is a way of doing [[mathematics]] without allowing impredicative definitions.
 
-Informally, a definition is _impredicative_ if it refers to a totality which includes the thing being defined.  For example, the definition of a particular real number $x$ as the least upper bound of a given set $A$ is impredicative, because it characterizes $x$ as a particular element of some set (the upper bounds of $A$) which includes $x$.
+Informally, a definition is _impredicative_ if it refers to a totality which includes the thing being defined.  For example, the definition of a particular real number $x$ as the least upper bound of a given set $A$ is impredicative, because it characterizes $x$ as a particular element of some set (the upper bounds of $A$) which includes $x$.  Possibly $x$ can be defined in some other way and then proved to be the least upper bound of $A$, but to define it thus by fiat is impredicative.
+
+There are (at least) two broad schools of the [[foundations]] of predicative mathematics that don\'t talk much to each other: one school that uses lower-order forms of [[higher-order logic]] (or the [[set theory]] that this justifies) and [[classical logic]], and a [[constructive mathematics|constructive]] school that uses first-order [[type theory]] (or the set theory that this justifies) and [[intuitionistic logic]].  The common ground is that both schools reject [[power set]]s; other axioms may vary.  Here we tend to think of what predicative mathematics allows [[Set|the category of sets]] to be.
 
 # Impredicative axioms #
 
-Two [[set theory|set-theoretic]] axioms which are commonly rejected by predicativists as leading to impredicative definitions are the axiom of unbounded [[separation]] and the axiom that any set has a power set.  In particular, the rejection of the latter means that predicativists do not believe the category of sets is a [[topos]], and that conversely predicative mathematics is naturally interpreted in the [[internal logic]] of categories more general than toposes, such as [[Heyting category|Heyting]] [[pretopos]]es.
+Not all of these axioms are rejected by all predicativists, but they at least come under some suspicion.
 
-However, many predicativists do accept the existence of the [[function set]] $B^A$ for any sets $A,B$ (that is, the set of functions $A\to B$).  These predicativists believe that the category of sets is [[locally cartesian closed category|locally cartesian closed]], and their mathematics can be interpreted in any locally cartesian closed pretopos (sometimes called a $\Pi$-pretopos).  Some predicativists also assume stronger axioms, such as the "fullness" or "[[subset collection]]" axiom of Aczel's theory CZF, or the existence of [[W-type|W-types]] (equivalently, [[initial algebra]]s of polynomial functors, a strong form of the axiom of infinity).
+## Infinity ##
 
-It is worth noting that [[excluded middle]] together with the existence of function sets implies the existence of power sets, or equivalently that any cartesian closed [[Boolean category|Boolean]] pretopos is a topos.  (In fact, any Boolean pretopos has a [[subobject classifier]], namely $2=1\sqcup 1$.)
+The [[axiom of infinity]] is not usually considered impredicative, but we list it anyway, as it is needed for the others to have force.  Mathematics that does not require this axiom, [[finite mathematics]], can be interpreted in a predicative framework even if it uses the axioms below.
+
+## Power set ##
+
+The axiom that any set has a [[power set]] is perhaps the fundamental feature missing from predicative mathematics.  In particular, the sequence
+$$ \mathbf{N}, \mathcal{P}\mathbf{N}, \mathcal{P}\mathcal{P}\mathbf{N}, \ldots $$
+may be accepted in part, but not forever.
+
+The failure of the power set axiom means that the category of sets is not an elementary [[topos]].  (Note that $Set$ is still a [[Grothendieck topos]], defined as a category of sheaves or in terms of Giraud\'s characterisation, since the theorem that such a category is an elementary topos requires the power set axiom.)
+
+## Unbounded separation ##
+
+The constructive school generally accepts the [[axiom of replacement]] but not unbounded forms of the [[axiom of separation]].  (This choice is not available to the classical school, since replacement and [[excluded middle]] together imply unbounded separation.)
+
+Na&#239;vely, the axiom of separation says that, if $A$ is a set and $P$ is a [[function]] from $A$ to the set of [[truth value]]s, then there is a set
+$$ \{ A | P \} = \{ x \in A \;|\; P(x) \} .$$
+To be precise, however, this $P$ should be written as a [[predicate]] in the language of set theory.  The form of separation justified by type theory and such structural set theories as [[ETCS]] requires the quantifiers in this predicate to be guarded; unbounded separation is the generalisation of this to unbounded quantifiers.
+
+(We need more on this, particularly with regards to the classical school and replacement.)
+
+## Function sets ##
+
+One sometimes speaks of forbidding [[function set]]s instead of power sets.  That is, it is the sequence
+$$ \mathbf{N}, \mathbf{N}^{\mathbf{N}}, \mathbf{N}^{\mathbf{N}^{\mathbf{N}}}, \ldots $$
+that is avoided.
+
+Of course, function sets can be constructed out of power sets (using *bounded* separation), so forbidding function sets certainly forbids power sets.  The converse holds if there is a set $\Omega$ of [[truth value]]s.
+
+With [[excluded middle]], the set of truth values is easy to achieve, as $\{0,1\}$; in particular, if you have $\mathbf{N}$, then you certainly have $\Omega$.  So the classical school of predicativism rejects function sets.
+
+The constructive school, however, often accepts function sets.  In this school, the sequence above is fine.  Actually, the slightly stronger axiom of [[subset collection]] is adopted by Peter Aczel\'s $\mathbf{CZF}$ and justified by Per Martin-L&#246;f\'s $\mathbf{ITT}$.
+
+Brouwer, on the other hand, did not accept the sequence above, although his followers differ on when (if ever) it stops.
+
+# The category of sets #
+
+So what is the category of sets in predicative mathematics?
+
+At bottom, let us suppose that $Set$ is a [[Heyting category|Heyting]] [[pretopos]]; this is a category whose [[internal logic]] is first-order and contains only constructions that don\'t require any of the above axioms.
+
+Since we\'re not doing finite mathematics, we may also include a [[natural numbers object]].  In fact, we could include more general [[W-type]]s, since these are no harder to justify philosophically than $\mathbf{N}$, although the proofs that these exist if $\mathbf{N}$ does rely on possibly impredicative axioms.  Then $Set$ is a Heyting $W$-pretopos.
+
+If you accept function sets, then $Set$ is [[locally cartesian closed category|locally cartesian closed]].  In this case, $\mathbf{N}$ is enough to get all $W$-types, so we have a $\Pi$-$W$-pretopos.  If you accept excluded middle, then $Set$ is a [[Boolean category|Boolean]] pretopos or a Boolean $W$-pretopos.  But a Boolean $\Pi$-pretopos is necessarily a topos, which would make the theory impredicative.
+
+# The real numbers #
+
+An important question in predicative mathematics is the status of the set $\mathbf{R}$ of [[real number]]s.  This set is often constructed as a subset $R_D$ of $\mathcal{P}\mathbf{N}$ or as a [[subquotient]] $R_C$ of $\mathbf{N}^{\mathbf{N}}$, neither of which can be formed in an arbitrary Heyting $W$-pretopos.  The latter can be formed in a $\Pi$-$W$-pretopos, but it is not necessarily correct.
+
+The constructive school of predicativism can construct $\mathbf{R}$ in various ways.  One method is to use $R_C$ directly, but this will only go so far unless something is done to prove that it is Dedekind-complete.  This will follow from [[countable choice]], which is accepted by most constructive schools; it also follows from [[excluded middle]], but of course that is not an option here.  Using [[subset collection]], a variation on $R_C$ is possible which can be proved Dedekind-complete without countable choice; this is very natural from the perpective of type theory (but then, countable choice is also very natural from that perspective).
+
+It is also possible to assert the existence of $\mathbf{R}$ by fiat, much like $\mathbf{N}$ exists by the axiom of infinity.  This is the approach taken by the classical school; they use $\mathcal{P}\mathbf{N}$ instead of $\mathbf{R}$ directly, but these are isomorphic by excluded middle.  This is natural from the perspective of predicative set theory as a weak form of higher-order logic; you assert the existence of $\mathbf{N}$, $\mathcal{P}\mathbf{N}$, and maybe $\mathcal{P}\mathcal{P}\mathbf{N}$, then stop.
+
+There is also the question of what exactly it means to say that $\mathbf{R}$ exists; is it a set or a [[proper class]]?  Without function sets, the distinction between these is not clear-cut; higher order logic suggest a hierarchy of more and more proper (less and less [[small category|small]]) classes rather than a single unified notion of set.  If you allow $\mathbf{N}$ only as a proper class, then you are basically still doing [[finite mathematics]]; if you allow $\mathbf{R}$ only as a proper class, then you are doing predicative mathematics.
+
+# Formalising mathematics #
+
+How much of mathematics can be done predicatively?
+
+A surprisingly large amount of mathematics can be formalised, using various coding tricks, in a theory in which $\mathbf{N}$ is a set but $\mathcal{P}\mathbf{N}$ is a proper class.  This is somewhat easier in Nik Weaver\'s 'conceptualist' approach, which accepts $\mathcal{P}\mathcal{P}\mathbf{N}$ as a proper class; the encoding is not really more complicated than what is usually done in material set theory for ordered pairs and the like.  Note that these are conservative over Peano arithmetic; that is, anything expressible in $\mathbf{PA}$ and provable in these systems is provable in $\mathbf{PA}$ (which certainly cannot be said of <b>[[ZFC]]</b> or <b>[[ETCS]]</b>, which prove the consistency of $\mathbf{PA}$).
+
+Constructive mathematics generally requires great care with anything other than basic discrete mathematics after the middle of the 19th century, but requiring it to be predicative does not usually add much difficulty, as long as function sets are allowed.  This even extends to [[category theory]], which is not usually contemplated in the classical approach.  (However, the internal logic of a $\Pi$-$W$-pretopos is certainly not conservative over $\mathbf{PA}$; it also proves consistency.)
+
+# References #
+
+*  Sol Feferman; [Relationships between Constructive, Predicative and Classical Systems of Analysis](http://hlombardi.free.fr/FefermanRelationships.pdf) (PDF).
+*  Nik Weaver; [papers on conceptualism](http://www.math.wustl.edu/~nweaver/conceptualism.html).
+*  from the Standford Encyclopedia of Philosophy:
+   *  [Predicativity in constructive set theory](http://plato.stanford.edu/entries/set-theory-constructive/#PreConSetThe).
+   *  [Predicativism](http://plato.stanford.edu/entries/philosophy-mathematics/index.html#Pre)
 
 # Discussion #
 
