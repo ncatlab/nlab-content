@@ -49,7 +49,7 @@ Here is the list of reports, as planned so far:
 
 * Monday, May 25: somebody on section 5, [Applications](http://arxiv.org/PS_cache/arxiv/pdf/0805/0805.0157v4.pdf#page=32)
 
-* Monday, June 1: somebody on section 6, [Epilogue: TFT](http://arxiv.org/PS_cache/arxiv/pdf/0805/0805.0157v4.pdf#page=39)
+* Monday, June 1: [[Alex Hoffnung|Alex]] on section 6, [Epilogue: TFT](http://arxiv.org/PS_cache/arxiv/pdf/0805/0805.0157v4.pdf#page=39)
 
 
 
@@ -835,6 +835,8 @@ and in particular David Ben-Zvi's comments to that.
 * [[(infinity,1)-category of (infinity,1)-sheaves]]
 
 * [[derived stack]]
+
+* [[perfect infinity-stack]]
 
 #### definition of a perfect stack ####
 
