@@ -35,7 +35,7 @@ Gotta go eat and for a walk...be back soon.  I had a meatball sub, tea, orange j
 
 Braided Hopf algebras provide solutions to the braid equation.  The Drinfel'd quantum double construction is a way to get our hands on these starting with finite dimensional Hopf algebras with invertible antipodes.
 
-The quantum double $D(H)$ is the bicrossed product of the Hopf algebra $H$ and its dual $H^*$.  See Kassel for definitions.  The quantum double contains $H$ and its dual as Hopf subalgebras.  Given a finite group $G$ there is a double construction for its group algebra.
+The quantum double $D(H)$ is the [[bicrossed product]] of the Hopf algebra $H$ and its dual $H^*$.  See Kassel for definitions.  The quantum double contains $H$ and its dual as Hopf subalgebras.  Given a finite group $G$ there is a double construction for its group algebra.
 
 Theorem: Left $D(H)$-modules are the same as crossed $H$-bimodules.
 
