@@ -30,4 +30,4 @@ In Lurie's definition the collection of critical points on a $n$-dimensional man
 
 For details on how this kind of construction works in low dimensions see also
 
-* Christ Schommer-Pries _The classification of 2-dimensional extended TFT_ ([pdf]())
+* Chris Schommer-Pries _The classification of 2-dimensional extended TFT_ ([pdf]())
