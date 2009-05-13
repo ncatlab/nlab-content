@@ -38,7 +38,7 @@ $$
   \,.
 $$
 
-#Definition#
+#Definitions#
 
 +-- {: .un_defn}
 ###### Definition
@@ -65,9 +65,6 @@ The category of such functors and [[natural transformation]]s between them we de
 =--
 
 
-
-#Definition#
-
 +-- {: .un_defn}
 ###### Definition
 
@@ -83,7 +80,7 @@ $$
 
 
 +-- {: .un_defn}
-###### Definition (smooth tenspor product)
+###### Definition (smooth tensor product)
 
 
 The [[coproduct]] in $C^\infty Alg$
