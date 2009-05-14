@@ -45,11 +45,11 @@ such that the left adjoint $f^*:F \to E$ preserves finite [[limit]]s.
 
 #Surjections and embeddings#
 
-A geometric morphism $f : E \to F$ is a **surjection** if $f^*$ is [[faithful functor|faithful]].  It is an **embedding** if $f_*$ is [[full and faithful functor|fully faithful]].
+A geometric morphism $f : E \to F$ is a **surjection** if $f^*$ is [[faithful functor|faithful]].  It is an **[[geometric embedding|embedding]]** if $f_*$ is [[full and faithful functor|fully faithful]].
 
 +--{: .un_prop}
 ###### Proposition
-Up to equivalence, every embedding of topoi is of the form 
+Up to equivalence, every [[geometric embedding|embedding]] of topoi is of the form 
 $$
   Sh_j(E) \to E
   \,,
