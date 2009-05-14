@@ -137,6 +137,8 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
     * [[simplicially enriched category]]
 
+      * [[homotopy coherent nerve]]
+
     * [[complete Segal space]]
 
     * [[Segal category]]
@@ -178,6 +180,7 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 * [[homotopy limit]]
 
 * [[limit in quasi-categories]]
+
 
 ##5 Presentable and Accessible $\infty$-Categories##
 
@@ -272,7 +275,9 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
     * [[enriched model category]]
 
-    * [[localization of a model category]]
+* [[localization of a simplicial model category]]
+
+  * [[Bousfield localization]]
 
 
 ### Simplicial model categories
