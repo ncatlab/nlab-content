@@ -6,6 +6,7 @@ Notably the inclusion $Sh(S) \hookrightarrow PSh(S)$ of a [[category of sheaves]
 
 Another perspective is that a geometric embedding $F \hookrightarrow E$ is the [[localization]]s of $E$ at the class $W$ or morphisms that the [[left adjoint]] $E \to F$ sends to isomorphisms in $F$.
 
+
 #Definition#
 
 For $F$ and $E$ two [[topos|topoi]], a [[geometric morphism]]
@@ -67,11 +68,111 @@ Follows since isomorphisms satisfy 2-out-of-3.
 
 =--
 
++-- {: .un_prop}
+###### Proposition
+
+$W$ is a left [[calculus of fractions|multiplicative system]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows using the fact that $f^*$ is left exact and hence preserves finite limits.
+
+In more detail:
+
+We have already seen in the previous proposition that
+
+* every isomorphism is in $W$;
+
+* $W$ is closed under composition.
+
+It remains to check the following points:
+
+Given any 
+
+$$
+  \array{
+     && a
+     \\
+     && \downarrow^w
+     \\
+     b &\stackrel{h}{\to}& c 
+  }
+$$
+
+with $w \in W$, we have to show that there is
+
+$$
+  \array{
+     d &\to& a
+     \\
+     \downarrow^{w'} && \downarrow^w
+     \\
+     b &\stackrel{h}{\to}& c 
+  }
+$$
+
+with $w' \in W$.
+
+To get this, take this to be the [[pullback]] diagram, 
+$w' := h^* w$. 
+Since $f^*$ preserves pullbacks, it follows that
+
+$$
+  \array{
+     \bar d &\to& \bar a
+     \\
+     \downarrow^{\bar w'} && \downarrow^{\bar w}
+     \\
+     \bar b &\stackrel{\bar h}{\to}& \bar c 
+  }
+$$
+
+is a pullback diagram in $F$ with $\bar w' = \bar h^* \bar w$. But by assumption $\bar w$ is an isomorphism. Therefore $\bar w'$ is an isomorphism, therefore $w'$ is in $W$.
+
+
+Finally for every
+
+$$
+  a \stackrel{\stackrel{r}{\to}}{\stackrel{s}{\to}} b \stackrel{w}{\to} c
+$$
+
+with $w \in W$ such that the two composites coincide,
+we need to find
+
+$$
+  d \stackrel{w'}{\to} a \stackrel{\stackrel{r}{\to}}{\stackrel{s}{\to}} b 
+$$
+
+with $w' \in W$ such that the composites again coincide.
+
+To get this, take $w'$ to be the [[equalizer]]
+of the two morphisms. Sending everything with $f^*$ to $F$ we find from 
+
+$$
+  \bar a \stackrel{\stackrel{\bar r}{\to}}{\stackrel{\bar s}{\to}} b \stackrel{\bar w}{\to} c
+$$
+
+that $\bar r = \bar s$, since $\bar w$ is an isomorphism. This implies that $\bar w'$ is the equalizer
+
+$$
+  \bar d \stackrel{\bar w'}{\to} a \stackrel{\stackrel{\bar r}{\to}}{\stackrel{\bar s}{\to}} b 
+$$
+
+of two equal morphism, hence an identity. So $w'$ is in $W$.
+
+
+=--
+
+
+
 
 +-- {: .un_prop}
 ###### Proposition
 
-For every object $a \in E$ the 
+For every object $a \in E$ 
 
 * the unit $\eta_a : a \to \bar a$ is in $W$;
 
@@ -218,6 +319,127 @@ $$
 $$
 
 has a unique extension $h'$. The map $h \mapsto h'$ is the desired isomorphism.
+
+
++-- {: .un_prop}
+###### Proposition
+
+$F$ is [[equivalence of categories|equivalent]] to the [[localization]] $E[W^{-1}]$ of $E$ at $W$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By one of the above propositions we know that
+$W$ is a [[calculus of fractions|left multiplicative systems]]. 
+
+This implies that the localization $E[W^{-1}]$ is (equivalent to) the category with the same objects as $E$, and with [[hom-set]]s given by
+
+$$
+  Hom_{E[W^{-1}]}(a,b)
+  =
+  \underset{a' \stackrel{p \in W}{\to}a}{colim} Hom_E(a',b)
+  \,.
+$$
+
+There is an obvious candidate for a functor
+
+$$
+  F \to E[W^{-1}] 
+$$
+
+given on objects by the usual embedding by $f_*$ and on morphism by the map which regards a morphism trivially as a [[span]] with left leg the identity
+
+$$
+  (a \to b) 
+   \;\;
+   \mapsto 
+   \;\;
+   \left(
+   \array{
+     a &\to& b
+     \\
+     \downarrow^{Id_a}
+     \\
+     a
+  }
+  \right)
+  \,.
+$$
+
+For this to be an [[equivalence of categories]] we need to show that this is a [[essentially surjective functor|essentially surjective]] and [[full and faithful functor]].
+
+To see essential surjectivity, let $a$ be any object in $E$ and let $\eta_a : a \to \bar a$ be the component of the unit of our adjunction on $a$, as above. By one of the above propositons, $\eta_a$ is in $W$. This means that the span
+
+$$
+  \array{
+    a &\stackrel{Id_a}{\to}& a
+    \\
+    \downarrow^{\eta_a}
+    \\
+    \bar a
+  }
+$$
+
+represents an element in $Hom_{E[W^{-1}]}(\bar a,a)$, and this element is clearly an isomorphism: the inverse is represented by
+
+$$
+  \array{
+    a &\stackrel{\eta_a}{\to}& \bar a
+    \\
+    \downarrow^{Id_a}
+    \\
+    a
+  }
+  \,.
+$$
+
+Since every $\bar a$ is in the image of our functor, this shows that it is essentially surjective.
+
+To see fullness and faithfulness, let $a, b\in F$ be any two objects. By one of the above propositions this means in particular that $b$ is a $W$-[[local object]]. As discussed above, this means that every span
+
+$$
+  \array{
+    a' &\to& b
+    \\
+    \downarrow^w
+    \\
+    a
+  }
+$$
+
+with $w \in W$ has a unique extension
+
+$$
+  \array{
+    a' &\to& b
+    \\
+    \downarrow^w & \nearrow
+    \\
+    a
+  }
+  \,.
+$$
+
+But this implies that in the colimit that defines the [[hom-set]] of $E[W^{-1}]$ all these spans are identified
+with spans whose left leg is the identiy. And these are clearly in bijection with the morphisms in $Hom_E(a,b) \simeq Hom_F(a,b)$ so that indeed
+
+$$
+  Hom_{E[W^{-1}]}(a,b)
+  \simeq
+  Hom_{F}(a,b)  
+$$
+
+for all $a,b \in F$. Hence our functor is also full and faithful and therefore define an [[equivalence of categories]]
+
+$$
+  F \stackrel{\simeq}{\to} E[W^{-1}]
+  \,.
+$$
+
+=--
+
 
 #References#
 
