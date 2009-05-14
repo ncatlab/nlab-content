@@ -31,7 +31,7 @@ Moreover, $f^*$ preserves the  [[subobject classifier]] and [[internal hom]]s.
 
 This is theorem 2 in section IV, 7 of
 
-* MacLane, Moerdijk, _Sheaves in geometry and logic_
+* MacLane, Moerdijk, [[Sheaves in Geometry and Logic]]
 
 #Examples#
 
