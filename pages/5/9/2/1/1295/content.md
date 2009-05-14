@@ -33,7 +33,6 @@ This is theorem 2 in section IV, 7 of
 
 * MacLane, Moerdijk, _Sheaves in geometry and logic_
 
-
 #Examples#
 
 * the dependent product plays a role in the definition of [[universe in a topos]].
