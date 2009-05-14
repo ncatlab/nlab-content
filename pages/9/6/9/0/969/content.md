@@ -4,14 +4,50 @@ The **localization** of a [[category]] $C$ at a class of [[morphism]]s $W$ is th
 
 ## Terminology ##
 
-The terminology "localization" originates from the localization of [[ring]]s, which is a special case when [[ring]]s are regarded as [[Ab]]-[[enriched category|enriched categories]] with a single objects.
+* The terminology "localization" originates from the localization of [[ring]]s, which is a special case when [[ring]]s are regarded as [[Ab]]-[[enriched category|enriched categories]] with a single objects.
 Notice that what is literally _localized_ when localizing the ring is really its [[spectrum]]: it becomes smaller.
 
-The term localization is now widely used for instance in [[Bousfield localization]] of [[model category|model categories]] as well as for [[simplicial localization]]s of [[model category|model categories]] to [[(infinity,1)-category|(infinity,1)-categories]].
+* In 2-categorical language, $C[W^{-1}]$ is the [[coinverter]] of the canonical natural transformation $s\to t$, where $s,t:W\to C$ are the "source" and "target" functors and $W$ is considered as a full subcategory of the [[arrow category]] $C ^{\mathbf{2}}$.
 
-In these cases, $W$ is a system of [[category with weak equivalences|weak equivalences]] and $C[W^{-1}]$ is also called the [[homotopy category]] of $C$.
 
-In 2-categorical language, $C[W^{-1}]$ is the [[coinverter]] of the canonical natural transformation $s\to t$, where $s,t:W\to C$ are the "source" and "target" functors and $W$ is considered as a full subcategory of the [[arrow category]] $C ^{\mathbf{2}}$.
+
+## Relation to geometric embeddings ##
+
+If $C$ is a [[topos]] then localizations of $C$ are related to [[geometric morphism|geometric embeddings]] $C[W^{-1}] \to C$.
+
+In particular, [[sheafification]] given by the geometric embedding $Sh(S) \hookrightarrow PSh(S)$ is the localization of a presheaf topos $PSh(S)$ at [[local isomorphism]]s. 
+
+More generally:
+
+**Proposition**
+
+Every geometric embedding $C' \hookrightarrow C$ of [[topos|topoi]] is of the form $sheaves of C \hookrightarrow C$ for some [[Lawvere-Tierney topology]] on $C$. The objects of $sheaves of C$ are the [[local object]]s with respect to the [[dense monomorphism]]s of $C$ determined by the [[Lawvere-Tierney topology]]. The class $W$ of morphism inverted this way is the saturation of the [[dense monomorphism]]s of $C$.
+
+
+
+This  perspective on localization is very useful for understanding the important case of localization of [[model category|model categories]], known as
+
+* [[Bousfield localization]]
+
+* [[simplicial localization]]
+
+* [[localization of a simplicial model category]].
+
+All these constructions are to be thought of a _modelling_ the geometric embeddings not of ordinary [[topos|topoi]], but of [[(infinity,1)-topos|(infinity,1)-topos]], hence the [[localization of an (infinity,1)-category]]:
+
+with the right $\infty$-version of left exact, left adjoitn etc understood, a [[localization of an (infinity,1)-category]] $C$ is nothing but a fully faithful [[(infinity,1)-functor]]
+
+$$
+  L \hookrightarrow C
+$$
+
+with a left [[exact]] [[left adjoint]].
+
+
+**Wrning** There is the notion of [[Bousfield localization]] of a model category to another model category, and there is also the term "localization of a model category" referring to passing to the [[homotopy category]].
+
+
+
 
 
 #Definition#
