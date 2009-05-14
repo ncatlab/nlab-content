@@ -41,19 +41,183 @@ Since $f_*$ is fully faithful we will identify objects and
 morphism of $F$ with their images in $E$. To further trim down the notation write $\bar {(-)} := f^*$ for the left adjoint.
 
 
-Then the zig-zag identities say that
++-- {: .un_defn}
+###### Definition
+
+Write $W$ for the class of morphism that are sent to isomorphism under $f^*$,
+
+$$
+  W = (f^*)^{-1}\{g: c\stackrel{\simeq}{\to} d \in Mor(E)\}
+  \,.
+$$
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+$E$ equipped with the class $W$ is a [[category with weak equivalences]], in that $W$ satisfies 2-out-of-3.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Follows since isomorphisms satisfy 2-out-of-3.
+
+=--
+
+
++-- {: .un_prop}
+###### Proposition
+
+For every object $a \in E$ the 
+
+* the unit $\eta_a : a \to \bar a$ is in $W$;
+
+* if $a$ is already in $F$ then the unit is already an isomorphism.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows from the zig-zag identities
+of the [[adjoint functor]]s. They say that
 
 * for every $a \in E$ we have $(\bar a \stackrel{\bar \eta_a}{\to} \bar{\bar a} \stackrel{\simeq}{\to} \bar a) = Id_{\bar a}$
 
 * for every $a \in F$ we have $(a \stackrel{\eta_a}{\to} \bar a \stackrel{\simeq}{\to} a)  = Id_a$
 
-If we write $W$ for the class of morphisms in $E$ which are sent to isomorphisms by $f^*$, then this says that
+This implies the claim.
 
-* for every $a$ the unit $\eta_a : a \to \bar a$ is in $W$;
-
-* for $a$ in $F$ the unit is already an isomorphism.
+=--
 
 
++-- {: .un_defn}
+###### Definition
+
+An object $a \in E$ is **$W$-[[local object]]** if for every
+$g : c \to d$ in $W$ the map
+
+$$
+  g^* : Hom_E(d,a) \stackrel{\simeq}{\to}
+        Hom_E(c,a)
+$$
+
+obtained by precomposition is an isomorphism.
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+Every object $a \in F \hookrightarrow E$ is $W$-local.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First notice that the existence of an isomorphism
+$
+  Hom_F(d,a) \simeq Hom_F(c,a)
+$
+is equivalent to the statement that for every diagram
+
+$$
+  \array{
+     c &\stackrel{}{\to}& d
+     \\
+     \downarrow^{h}
+     \\
+     a
+  }
+$$
+
+there is a unique extension
+
+$$
+  \array{
+     c &\stackrel{}{\to}& d
+     \\
+     \downarrow^{h} & \swarrow
+     \\
+     a
+  }
+  \,.
+$$
+
+To see the existence of this extension, hit the original diagram with $f^*$ to get
+
+$$
+  \array{
+     \bar c &\stackrel{\simeq}{\to}& \bar d
+     \\
+     \downarrow^{\bar h}
+     \\
+     \bar a \simeq a
+  }
+  \,.
+$$
+
+By the assumption that $c \to d$ is in $W$ the morphism $\bar c \to \bar d$ here is an isomorphism. By the assumption that $a$ is already in $F$ we have $\bar a \simeq a$ since the counit is an isomorphism. Therefore this diagram clearly has a unique extension
+
+$$
+  \array{
+     \bar c &\stackrel{\simeq}{\to}& \bar d
+     \\
+     \downarrow^{\bar h} & \swarrow_{\exists ! k}
+     \\
+     \bar a \simeq a
+  }
+  \,.
+$$
+
+By the hom-isomorphism (using full faithfullness of $f_*$ to work entirely in $E$)
+
+$$
+  Hom_E(\bar d, a) \simeq Hom_E(d,a)
+$$
+
+this defines a morphism $k : d \to a$. Chasing $k$ through the naturality diagram of the hom-isomorphism
+
+$$
+  \array{
+     Hom_E(\bar d, \bar a) &\stackrel{\simeq}{\to}& Hom_E(d,\bar a)
+     \\
+     \downarrow && \downarrow
+     \\
+     Hom_E(\bar c, \bar a) &\stackrel{\simeq}{\to}& Hom_E(c,\bar a)     
+  }
+  \,.
+$$
+
+shows that $k : d \to a$ does extend the original diagram. Again by the Hom-isomorphism, it is the unique morphism with this property.
+
+
+=--
+
+Conversely, for every $W$-local object we have
+for every object $c$
+$$
+  Hom_E(c,a) \simeq Hom_E(\bar c,a)
+  \,.
+$$
+
+To see this, use the proposition above which says that the  unit $\eta_c : c \to \bar c$ is in $W$. Then the claim follows from observing that by assumption of locality of $a$ every diagram
+
+$$
+  \array{
+     c &\stackrel{\eta_c}{\to}& \bar c
+     \\
+     \downarrow^h
+     \\
+     a
+  }
+$$
+
+has a unique extension $h'$. The map $h \mapsto h'$ is the desired isomorphism.
 
 #References#
 
