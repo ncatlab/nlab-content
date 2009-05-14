@@ -1,3 +1,8 @@
+#Idea#
+
+To the extent that a [[model category]] is a [[presentable (infinity,1)-category|presentation]] of an [[(infinity,1)-category]], the [[localization]] of a model category is a presentation for the [[localization of an (infinity,1)-category]].
+
+See also [[localization of a simplicial model category]].
 
 #Definition in model categories#
 
