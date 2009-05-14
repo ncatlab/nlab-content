@@ -445,4 +445,4 @@ $$
 
 section VII, 4 of 
 
-* Moerdijk-MacLane, _Sheaves in Geometry and logic_ 
+* Moerdijk-MacLane, _[[Sheaves in Geometry and Logic]]_ 
