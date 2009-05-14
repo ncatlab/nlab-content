@@ -53,6 +53,9 @@ or see the list of links below.
 
 ##IV First Properties of Elementary Topoi ##
 
+* [[subobject classifier]]
+
+  * [[subobject]]
 
 * [[topos]]
 
@@ -100,6 +103,8 @@ or see the list of links below.
     * [[paraconsistent logic]]
 
     * [[coherent logic]]
+
+* [[Boolean algebra]]
 
 * [[Heyting algebra]]
 
