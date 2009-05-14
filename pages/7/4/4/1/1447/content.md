@@ -30,6 +30,30 @@ That the first two conditions are equivalent is standard, that the third one is 
 * MacLane-Moerdijk, _Sheaves in geometry and logic_
 
 
+#Details#
+
+We unwrap some consequences of this definition.
+
+Write $\eta : Id_E \to f_* f^*$ for the unit of the
+adjunction. 
+
+Since $f_*$ is fully faithful we will identify objects and
+morphism of $F$ with their images in $E$. To further trim down the notation write $\bar {(-)} := f^*$ for the left adjoint.
+
+
+Then the zig-zag identities say that
+
+* for every $a \in E$ we have $(\bar a \stackrel{\bar \eta_a}{\to} \bar{\bar a} \stackrel{\simeq}{\to} \bar a) = Id_{\bar a}$
+
+* for every $a \in F$ we have $(a \stackrel{\eta_a}{\to} \bar a \stackrel{\simeq}{\to} a)  = Id_a$
+
+If we write $W$ for the class of morphisms in $E$ which are sent to isomorphisms by $f^*$, then this says that
+
+* for every $a$ the unit $\eta_a : a \to \bar a$ is in $W$;
+
+* for $a$ in $F$ the unit is already an isomorphism.
+
+
 
 #References#
 
