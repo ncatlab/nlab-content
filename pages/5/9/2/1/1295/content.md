@@ -18,7 +18,7 @@ For this to make sense, $f^*$ must exist; that is, all [[pullback]]s along $f$ m
 
 #Remarks#
 
-The dual concept is the _depenedent coproduct_, the [[left adjoint]] $\coprod_k : C/A \to C/I$ to $f^* : C/I \to C/A$.
+The dual concept is the _dependent coproduct_, the [[left adjoint]] $\coprod_k : C/A \to C/I$ to $f^* : C/I \to C/A$.
 
 +-- {: .un_prop }
 ###### Proposition
