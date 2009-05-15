@@ -18,18 +18,7 @@ Compact objects in the derived categories of quasicoherent sheaves over a scheme
 
 # Compactness in non-additive categories
 
-In non-additive contexts, the above definition is not right.  For instance, with this definition a [[topological space]] would be compact iff it is [[connected space|connected]].
-
-Instead, in the category [[Top]] of [[topological space]]s one has the following equivalent definitions of when a [[topological space]] $X$ is _compact_ in that every open cover of it has a finite subcover:
-
-$X$ is compact precisely if the [[hom-functor]] $Top(X,-) : Top \to Top$ commutes with [[filtered category|filtered]] [[colimit]]s.
-
-+-- {: .query}
-_Bruce_: In fact, this characterization is not right, as was [pointed out](http://golem.ph.utexas.edu/category/2009/05/journal_club_geometric_infinit_3.html#c023790) by Todd Trimble at the n-category cafe, via a counterexample due to Don Stanley. (more...)
-=--
-
-
-Conversely, for $C$ any category and $X \in C$, the condition that $C(X,-) : C \to C$ preserves [[filtered category|filtered]] [[colimit]]s imposes  some kind of finiteness condition on $X$. For instance 
+In non-additive contexts, the above definition is not right.  For instance, with this definition a [[topological space]] would be compact iff it is [[connected space|connected]]. In general one should expect to preserve _filtered colimits_ (see below for discussion). For $C$ any category and $X \in C$, the condition that $C(X,-) : C \to C$ preserves [[filtered category|filtered]] [[colimit]]s imposes  some kind of finiteness condition on $X$. For instance 
 
 * in $C = $ [[Set]] this is the case if the set $X$ is [[finite set|finite]];
 * in $C$ a [[topos]] this is the case if the object $X$ is $K$-[[finite object|finite]];
@@ -44,6 +33,56 @@ $$
 is an isomorphism.  Sometimes, especially in categories like [[Top]], one may want to restrict to directed "unions," meaning directed colimits whose transition morphisms are (possibly [[strong monomorphism|strong]]) [[monomorphism]]s.
 
 
+# Compact objects in Top
+
+In the category [[Top]] of [[topological space]]s it is sometimes said that one has the following equivalent definitions of when a [[topological space]] $X$ is _compact_ in that every open cover of it has a finite subcover:
+
+   X is compact precisely if the [[hom-functor]] $Top(X,-) : Top \to Top$ commutes with [[filtered category|filtered]] [[colimit]]s.
+
+In fact, this characterization is not right, as was [pointed out](http://golem.ph.utexas.edu/category/2009/05/journal_club_geometric_infinit_3.html#c023790) by Todd Trimble at the n-category cafe, via a (corrected) counterexample given on page 49 of Hovey's Model Categories due to Don Stanley. 
+
+Namely, the two-element set with the indiscrete topology is a compact space $X$ for which 
+ \[
+ Hom(X, -): Top \rightarrow Top
+\]
+doesn't preserve filtered colimits, in fact not even colimits of sequences (functors out of the ordered set of natural numbers). 
+
+For example, consider the sequence of spaces 
+ \[
+ X_n=[n,\infty) \times \{0,1\}
+\]
+where the open sets are of the form 
+\[
+ [n, \infty]\cup [m,\infty) \times {1}
+\]
+(where $m \geq n$), plus the empty set. Define $X_n \rightarrow X_{n+1}$ so that it sends a pair $(k, \epsilon)$ to itself if $k > n$, and $(n,\epsilon)$ to $(n+1,\epsilon)$. This defines a functor 
+\[
+F: \mathbb{N} \rightarrow Top 
+\]
+The colimit $X_\infty$ of this sequence is the two-element set $\{{0,1\}$ with the indiscrete topology. However, the identity map on this space does not factor through any of the canonical maps $X_n \rightarrow X_\infty$. It follows that 
+the comparison map 
+\[
+ colim_n Hom(X_\infty, X_n) \rightarrow Hom(X_\infty, X_\infty)
+\]
+is not surjective, and therefore not an isomorphism. 
+
++--{.query}
+_Todd_ (posted from n-category cafe): I don't know if the story is any different for X compact _Hausdorff_, but it could be worth considering. 
+=--
+
+
+# Further categorical properties of compact topological spaces
+
++--{.query}
+_Todd_ (posted from n-category cafe):  One of the "hall-of-fame" results I had in mind is given on page 50 of Hovey's book: if Y is compact, then 
+$hom(Y,-)$ preserves colimits of functors mapping out of limit ordinals, provided that the arrows of the cocone diagram, 
+ \[
+ X_\alpha \rightarrow X_\beta,
+\]
+are closed inclusions of $T_1$ spaces. (This applies for example to the sequence of inclusions of n-skeleta in a CW-complex. Taking $Y=S_k$, this has obvious desirable consequences for the functor $\pi_k$.) Hovey wants this result in view of a small object argument on the way to proving that Top is a model category. I'll bet one can beef it up to a similar result but for more general filtered diagrams. 
+
+I call it a hall-of-fame result because (a) it's quite useful; (b) it's not entirely trivial to prove. Further precise results along these lines would be most welcome. 
+=--
 
 
 
