@@ -12,6 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-05-15 #
+
+* [[Urs Schreiber|Urs]]:
+
+  * further refined the discussion of the relation to localization at [[geometric embedding]]
+
 # 2009-05-14 #
 
 * [[Urs Schreiber|Urs]]:
