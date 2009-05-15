@@ -24,7 +24,7 @@ In this vein, Anders Kock, in a long series of articles, reformulates large part
 
 *  [Mike Shulman](http://www.math.uchicago.edu/~shulman/exposition/sdg/pizza-seminar.pdf)
 
-*  [John Bell](http://publish.uwo.ca/~jbell/Two%20Approaches%20to%20Modelling%20the%20Universe.pdf)
+*  [John Bell](http://publish.uwo.ca/~jbell/invitation%20to%20SIA.pdf)
 
 
 # Generalization #
