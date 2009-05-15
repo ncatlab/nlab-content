@@ -43,3 +43,11 @@ $$
 \colim_{d\in D} C(x,S_d)\to C(x,\colim_{d\in D}S_d)
 $$
 is an isomorphism.  Sometimes, especially in categories like [[Top]], one may want to restrict to directed "unions," meaning directed colimits whose transition morphisms are (possibly [[strong monomorphism|strong]]) [[monomorphism]]s.
+
+
+
+
+
+
+
+
