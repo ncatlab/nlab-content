@@ -24,6 +24,12 @@ Instead, in the category [[Top]] of [[topological space]]s one has the following
 
 $X$ is compact precisely if the [[hom-functor]] $Top(X,-) : Top \to Top$ commutes with [[filtered category|filtered]] [[colimit]]s.
 
++-- {: .query}
+_Bruce_: In fact, this characterization is not right, as was [pointed out](http://golem.ph.utexas.edu/category/2009/05/journal_club_geometric_infinit_3.html#c023790) by Todd Trimble at the n-category cafe, via a counterexample due to Don Stanley. (more...)
+
+. =--
+
+
 Conversely, for $C$ any category and $X \in C$, the condition that $C(X,-) : C \to C$ preserves [[filtered category|filtered]] [[colimit]]s imposes  some kind of finiteness condition on $X$. For instance 
 
 * in $C = $ [[Set]] this is the case if the set $X$ is [[finite set|finite]];
