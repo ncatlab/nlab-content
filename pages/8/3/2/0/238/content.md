@@ -14,6 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-15 #
 
+* [[Bruce Bartlett|Bruce]]:
+
+  * I created a Stylish extension for Firefox to make the edit box  bigger and wider when editing pages (I always found this annoying). To install it, install [Stylish](https://addons.mozilla.org/en-US/firefox/addon/2108) and then [click here](http://userstyles.org/styles/17934).
+
+  * Started adding Todd's comments about compact objects in categories to the [[compact object]] page.
+
 * [[David Corfield|David]]:
 
   * began [[synthetic differential geometry]] and [[analytic versus synthetic]]
