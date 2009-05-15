@@ -43,7 +43,7 @@ Here is the list of reports, as planned so far:
 
 * Monday, May 4: [[Urs Schreiber|Urs]] on section 2, [Preliminaries](http://arxiv.org/PS_cache/arxiv/pdf/0805/0805.0157v4.pdf#page=10) [[tick6.png:pic]]
 
-* Monday, May 11: [[Bruce Bartlett|Bruce]] on section 3, [Perfect Stacks](http://arxiv.org/PS_cache/arxiv/pdf/0805/0805.0157v4.pdf#page=16)
+* Monday, May 11: [[Bruce Bartlett|Bruce]] on section 3, [Perfect Stacks](http://arxiv.org/PS_cache/arxiv/pdf/0805/0805.0157v4.pdf#page=16) [[tick6.png:pic]]
 
 * Monday, May 18: [[Christopher Brav|Christopher]] on section 4, [Tensor products and integral transforms](http://arxiv.org/PS_cache/arxiv/pdf/0805/0805.0157v4.pdf#page=24)
 
