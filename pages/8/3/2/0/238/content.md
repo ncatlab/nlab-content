@@ -16,7 +16,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[David Corfield|David]]:
 
-  * began [[synthetic differential geometry]]
+  * began [[synthetic differential geometry]] and [[analytic versus synthetic]]
 
 * [[Urs Schreiber|Urs]]:
 
