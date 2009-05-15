@@ -4,6 +4,8 @@ If $F$ has a terminal coalgebra $\alpha: X \to F(X)$, then $X$ is isomorphic to 
 
 +--{: .query}
 _Mike_: Is there any reason not to move the relevant section of [[coalgebra]] to this page?
+
+_David_: None I can see. And then we might have a dual proof for initial algebras.
 =--
 
 The dual concept is [[initial algebra]].
