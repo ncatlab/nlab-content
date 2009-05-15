@@ -27,10 +27,10 @@ Another motivation of the concept comes from the the fact that a [[functor]] suc
 
 If $E$ and $F$ are [[topos|toposes]], a **geometric morphism** $f:E\to F$ consists of an pair of [[adjoint functor]]s $(f^*,f_*)$
 $$
-  f_* : F \to E
-$$
-$$
   f_* : E \to F
+$$
+$$
+  f^* : F \to E
   \,,
 $$
 
