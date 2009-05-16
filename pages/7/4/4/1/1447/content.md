@@ -42,8 +42,8 @@ and let $W \subset Mor(E)$ be the class of morphisms sent by $f^*$ to isomorphis
 +-- {: .un_theorem}
 ###### Theorem
 
+We have:
 * $F$ is equivalent to the [[localization]] $E[W]^{-1}$;
-
 * $F$ is equivalent to the full [[subcategory]] of $E$ on $W$-[[local object]]s.
 
 =--
