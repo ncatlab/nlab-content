@@ -840,7 +840,7 @@ an object $R \in {\mathbf Ab}$ together with multiplication and unit morphisms $
 
 [[higher algebra|Brave new algebra]] is about constructions in the [[stable (infinity,1)-category of spectra]] $S_{\infty}$, which, like [[Ab]], is [[symmetric monoidal (infinity,1)-category|closed symmetric monoidal]] (under [[smash product of spectra]]) and [[cocomplete category|(co)]] [[complete category|complete]]. This means that we can consider [[algebra in an (infinity,1)-category|algebra objects]] $R$ and [[commutative algebra in an (infinity,1)-category|commutative algebra objects]] $A$ in $S_{\infty}$, as well as modules over them.
 
-Even more generally, one can develop a sort-of _fearless new algebra_ in which we consider some closed, symmetric monoidal and (co)complete $\infty$-category $C$ and algebras
+Even more generally, one can develop a _fearless new algebra_ in which we consider some closed, symmetric monoidal and (co)complete $\infty$-category $C$ and algebras
 and commutative algebras in it (see [[higher algebra]]). For our purposes,
 we take $C$ to be $Pr^{L}$, the $\infty$-category of [[presentable (infinity,1)-category|presentable (infinity,1)-categories]] with morphisms given by colimit preserving functors.  (More on the closed monoidal structure
 below.)
@@ -882,10 +882,115 @@ one can define a functor $\Phi$ in the same way at the level of [[triangulated c
 
 #### 4.1 Tensor products of $\infty$-categories ####
 
+In order to be more precise, we need look at the closed, symmetric monoidal structure on $Pr^{L}$, as developed by
+Jacob Lurie DAG II.4 and DAG III.6. The internal Hom 
+between two presentable $\infty$-categories $C,D$
+is $Fun^{L}(C,D)$, which consists of colimit preserving functors. To construct it, one considers $C$ and $D$ as
+quasi-categories or weak Kan complexes. Functors from $C$ to $D$ are just maps of simplicial sets, so the $\infty$-category of functors from $C$ to $D$ is just
+the simplicial set of maps (internal Hom in simplicial sets)
+$Fun(C,D)$. This is indeed an $\infty$-category again, whenever $D$ is an $\infty$-category/weak Kan complex.
+Now inside of $Fun(C,D)$, we take the $\infty$-subcategory spanned by $0$-simplices representing colimit preserving functors to get $Fun^{L}(C,D)$.
+
+(If there is some inaccuracy noted by anyone, feel free to comment. I might have forgotten some fibrant or cofibrant 
+replacement somewhere.)
+
+For the tensor product of presentable $\infty$-categories,
+we construct the $\infty$-category $C \otimes D$ which is
+'the universal recipient of a bilinear functor' from $C \times D$. Here, we think of coproducts in $C$ and $D$
+as addition, and then if a functor $C \times D \rightarrow E$ preserves colimits in each variable, in particular it preserves coproducts and so is 'bilinear'. Such a bilinear
+functor will factor uniquely (in a homotopic sense)
+through a universal bilinear functor $C \times D \rightarrow C \otimes D$, just like for bilinear maps
+and tensor products of abelian groups.
+
+(Eventually, there should be a separate entry about this closed symmetric monoidal structure on $Pr^{L}$.)
+
+Now given the above closed symmetric monoidal structure
+on $Pr^{L}$ and since $Pr^{L}$ also has limits and colimits,
+we can have all kinds of fun. For instance, given
+an algebra object $R \in Pr^{L}$, a right $R$-module $M \in Pr^{L}$, and a left $R$-module $N \in Pr^{L}$, we can form
+their relative tensor product over $R$, $M \otimes_R N \in Pr^{L}$ as the coequalizer of the pair of functors
+
+$$M \otimes R \otimes N \underoverset{\alpha}{\beta}{\rightrightarrows} M \otimes N$$
+where $\alpha$ is the action of $R$ on the right of $M$
+and $\beta$ is the action of $R$ on the left of $N$. (This generalizes the relative tensor product of modules over a ring in the category of abelian groups, which is defined
+to have exactly this coequalizing property.)
+
+
+In section of 4.1 BZFN, there are various results, which are consequences of the $\infty$-categorical Barr-Beck theorem. They seem interesting and useful, but I don't seem to need them just at the moment, so I'll come back to them some other time.
+
 #### 4.2 Sheaves on fiber products ####
+
+In our present context, we consider a morphism of perfect derived stacks perfect derived stack $q: X \rightarrow Y$.
+By pulling-back along $q$ and tensoring, we make $M=QC(X)$
+into a $R=QC(Y)$-module. To see this, note that the functor
+$(?) \otimes q^{*}(?): QC(X) \times QC(Y) \rightarrow QC(X)$
+is indeed bilinear since pullback $q^{*}$ is the left adjoint of pushforward $q_{*}$ preserves colimits, as does
+$\otimes$, being the left adjoint of the internal Hom of sheaves ('sheaf' or 'local' Hom). Thus by the universal property of the tensor product of $\infty$-categories, we do indeed get an action functor $QC(X) \otimes QC(Y) \rightarrow QC(Y)$. 
+
+Now given a pair of perfect derived stacks $X_1, X_2$ over $Y$, we get two $R=QC(Y)$-modules $M=QC(X_1)$ and $N=QC(X_2)$ (left and right don't matter here, since $R=QC(Y)$ is symmetric monoidal) and we can form their relative tensor product
+
+$$QC(X_1) \otimes_{QC(Y)} QC(X_2).$$
+
+Now we can define a functor 
+
+$$\boxtimes:={p_1}^{*}? \otimes {p_2}^{*}?: QC(X_1) \otimes_{QC(Y)} QC(X_2) \rightarrow QC(X_1 \times_Y X_2).$$
+(We see that the above functor is bilinear (since pullbacks and tensor products preserve colimits) and coequalizes
+the action of $QC(Y)$ on $QC(X_1)$ and $QC(X_2)$ (by commutativity of the fibre product diagram), so $\boxtimes$ does indeed define a functor.)
+
+The first step in proving that 'integral transforms=colimit preserving functors' is to show that $\boxtimes$ is an equivalence. Then one has to show that $QC(X_1)$ is self-dual as a $QC(Y)$-module, and so conclude that
+
+$$QC(X_1) \otimes_{QC(Y)} QC(X_2) \simeq QC(X_1)^{*}\otimes_{QC(Y)} QC(X_2)\simeq Fun_{Y}^{L}(QC(X_1),QC(X_2)).$$
+
+As an intermediate step, BZFN first establish
+an equivalence $\boxtimes: QC(X_1)^{c} \otimes QC(X_2)^{c} \simeq QC(X_1 \times X_2)^{c}$, where the superscript $c$
+denotes the $\infty$-subcategories of compact objects.
+(Here, we use the tensor product of small, stable idempotent complete $\infty$-categories $QC(X_1)^{c} \otimes QC(X_2)^{c}$, which is just like that for presentable $\infty$-categories except that bilinear functors are only required to preserve finite colimits.) Proposition 3.22 established that the external product $\otimes$ takes compact objects to compact objects, so 
+we do get a functor as above, and that the category
+$QC(X_1 \times X_2)^{c}$ is generated by external products.
+To prove that $\boxtimes$ is an equivalence, it is therefore
+sufficient to prove that for $M_i,N_i \in QC(X_i)$, we have
+a natural isomorphism
+
+$$Hom_{X_1 \times X_2}(M_1 \boxtimes M_2, N_1 \boxtimes N_2) \simeq Hom_{X_1}(M_1, N_1) \otimes Hom_{X_2}(M_2, N_2),$$
+which is a nice exercise using the dualizability of the $M_i$ and the projection formula. (Come back and explain more.)
+
+
+Having established the equivalence $\boxtimes: QC(X_1)^{c} \otimes QC(X_2)^{c} \simeq QC(X_1 \times X_2)^{c}$, we can now establish the equivalence without the superscript $c$.
+Since (by definition of a perfect stack) $Ind(QC(X_i)^{c})\simeq QC(X_i)$ and the fact (Proposition 4.4) that $Ind: Idem \rightarrow Pr^{L}$ from small idempotent complete stable $\infty$-categories to $Pr^{L}$ is symmetric monoidal, we get that 
+
+$$QC(X_1) \otimes QC(X_2) \simeq Ind(QC(X_1)^{c} \otimes QC(X_2)^{c}) \simeq Ind(QC(X_1 \times X_2)^{c}) \simeq QC(X_1 \times X_2).$$
+
+This gives the absolute version of the equivalence we want. To make it relative over $Y$, one has to think about 
+how to actually compute $QC(X_1) \otimes_{QC(Y)} QC(X_2)$
+and $X_1 \times_{Y} X_2$ in concrete terms. For the former,
+you use Barr-Beck and realize the category as modules for the monad $\pi_{*}\pi^{*}$, where $\pi: X_1 \times_{Y} X_2 \rightarrow X_1 \times X_2$. For the latter, you realize the fibre product
+as the limit of a cosimplicial diagram. Then some comparision takes place. It would be hard to give a nicer, more concise explanation than in BZFN, so for further details, take a look.
+
+Now given the equivalence $\boxtimes: QC(X_1) \otimes_{QC(Y)} QC(X_2) \rightarrow QC(X_1 \times_Y X_2)$,
+it remains to see that given a morphism $p: X \rightarrow Y$
+of perfect stacks, $QC(X)$ is self-dual as a $QC(Y)$-module.
+For this, we use the already established equivalence
+$QC(X) \otimes_{QC(Y)} QC(X) \simeq QC(X \times _Y X)$. To establish self-duality, we
+need to define a trace $\tau: QC(X) \otimes_{QC(Y)} QC(X) \rightarrow QC(Y)$ and unit $u: QC(Y) \rightarrow QC(X) \otimes_{QC(Y)} QC(X)$ so that the composition
+$id \otimes \tau \circ u \otimes id: QC(Y) \rightarrow QC(Y)$ is the identity. To do this, consider the relative diagonal morphism
+$\Delta: X \rightarrow X \times_Y X$ and define $u=\Delta_{*}\p^{*}$ and $\tau: p_{*}\Delta^{*}$. Then a diagram chase and the base-change formula show that $u$ and $\tau$ satisfy the necessary conditions.
+
 
 #### 4.3 Geometric base stacks ####
 
+#### A little speculation (comments welcome) ###
+Given a presentable stable monoidal $\infty$-category $R$,
+one can consider its $\infty$-category of (right or left)
+modules and hope that it is again presentable (and stable?).
+Given two presentable stable monoidal categories $R, S \in Pr^{L}$ and an $R-S$-bimodule $P \in Pr^{L}$, we should be
+able to define an adjoint pair of functors 
+
+$$Mod-R \rightleftarrows Mod-S$$
+in the usual way: $L=? \otimes_{R} P$ and $R= Hom_S(P,?)$.
+
+$L$ being a left adjoint, it preserves colimits, and so we should have a functor 
+$$R-Mod-S \rightarrow Fun^{L}(Mod-R, Mod-S).$$
+An $\infty$-categorical Eilenberg-Watts theorem would say that this is an equivalence. 
 
 ### applications ###
 
