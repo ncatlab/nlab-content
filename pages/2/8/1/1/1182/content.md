@@ -324,19 +324,6 @@ This is a general pattern here:
 
 A central aspect of geometric $\infty$-function theory is that we regard the collection $C(X)$ of $\infty$-functions assigned to a generalized space $X$ (concretely modeled as $QC(X)$, see section 3 below) not just as a higher vector space but naturally as a [[higher algebra]]. Indeed, the central two theorems/properties of [[geometric function theory]] concern the interplay between the _geometry_ of intersections or [[pullback]]s
 
-$$
-  \array{
-     && Y_1 \times_X Y_2
-     \\
-     & \swarrow && \searrow
-     \\
-     Y_1 &&&& Y_2
-     \\
-     & \searrow && \swarrow
-     \\
-     && X
-  }
-$$
 
 of generalized spaces and the _algebra_ of [[tensor product]]s 
 
@@ -848,20 +835,58 @@ and in particular David Ben-Zvi's comments to that.
 
 ### 4. Tensor products and integral transforms ###
 
-Classical algebra is all about constructions in the category <b>[[Ab]]</b> of [[abelian group]]s. A [[ring]] $R$ in the usual sense is
-an object $R \in \mathbf{Ab}$ together with multiplication and unit morphisms $m: R \otimes R \rightarrow R$ and $\eta: \mathbb{Z} \rightarrow R$ so that we have commutativity of appropriate diagrams expressing associativity and unity. Likewise, a right [[module]] $M$ over $R$ in the usual sense is an object $M \in \mathbf{Ab}$ together with an action morphism $a: M \otimes R \rightarrow M$ such that appropriate diagrams commute, and similarly for left modules.
+Classical algebra is all about constructions in the category ${\mathbf Ab}$ of abelian groups. A ring $R$ in the usual sense is
+an object $R \in {\mathbf Ab}$ together with multiplication and unit morphisms $m: R \otimes R \rightarrow R$ and $\eta: \mathbb{Z} \rightarrow R$ so that we have commutativity of appropriate diagrams expressing associativity and unity. Likewise, a right module $M$ over $R$ in the usual sense is an object $M \in {\mathbf Ab}$ together with an action morphism $a: M \otimes R \rightarrow M$ such that appropriate diagrams commute, and similarly for left modules.
 
-Brave new algebra is about constructions in the $\infty$-category of spectra $S_{\infty}$ of [[spectrum|spectra]], which, like $\mathbf{Ab}$, is closed symmetric monoidal (under [[smash product]]) and (co)complete. This means that we can consider algebra objects $R$ and commutative algebra objects $A$ in $S_{\infty}$, as well as modules over them.
-Even more generally, one can develop a sort-of fearless new algebra in which we consider some closed symmetric monoidal and (co)complete $\infty$-category $C$ and algebras
-and commutative algebras in it. 
+Brave new algebra is about constructions in the $\infty$-category of spectra $S_{\infty}$ of spectra, which, like {\bf Ab}, is closed symmetric monoidal (under smash product) and (co)complete. This means that we can consider algebra objects $R$ and commutative algebra objects $A$ in $S_{\infty}$, as well as modules over them.
+
+Even more generally, one can develop a sort-of _fearless new algebra_ in which we consider some closed, symmetric monoidal and (co)complete $\infty$-category $C$ and algebras
+and commutative algebras in it. For our purposes,
+we take $C$ to be $Pr^{L}$, the $\infty$-category of presentable $\infty$-categories with morphisms given by colimit preserving functors.  (More on the closed monoidal structure
+below.)
+
+The particular algebra objects in $Pr^{L}$ of interest to BZFN
+are stable $\infty$-categories $QC(X)$ of quasi-coherent sheaves on a perfect derived stack $X$ (the homotopy category of $QC(X)$ being the good old-fashioned derived
+category of quasi-coherent sheaves). Here $QC(X)$ is symmetric monoidal under the usual tensor product of quasi-coherent sheaves. Given two perfect derived stacks $X_{1}, X_{2}$, consider the diagram 
+
+
+$$
+  \array{
+     && X_1 \times X_2
+     \\
+     & {}^{p_1}\swarrow && \searrow{}^{p_2}
+     \\
+     X_1 &&&& X_2
+    
+  }
+$$
+Given an object $\mathcal{P} \in QC(X_1 \times X_2)$, we can define a functor $\Phi_{\mathcal{P}}: QC(X_1) \rightarrow QC(X_2)$ by pulling-back along $p_1$, tensoring
+with $\mathcal{P}$, and then pushing-forward along $p_2$.
+Thus given an object $\mathcal{F} \in QC(X_1)$, we have $\Phi_{\mathcal{P}}(\mathcal{F}):= {p_2}_{*}({p_1}^{*}\mathcal{F} \otimes \mathcal{P})$. We think
+of this an integral transform of the sheaf $\mathcal{F}$
+with respect to the kernel $\mathcal{P}$. 
+
+In fact, because of the naturality of the above operations,
+this process gives a functor
+
+$$\Phi: QC(X_1 \times X_2) \rightarrow Fun^{L}(QC(X_1), QC(X_2)),$$
+where $Fun^{L}(QC(X_1), QC(X_2))$ is the internal
+Hom in $Pr^{L}$ and consists of colimit preserving functors and their natural transformations.
+ 
+
+The main result of section 4 of BZFN is that this functor and its cousins are equivalences. (This should be thought of as analogues of (look up some theorem) in functional analysis and the Eilenberg-Watts theorem for abelian categories of modules over a ring.) This was first proved
+in the context of differential graded categories by Toen,
+building on work of Bondal, Orlov, and others. Note that
+one can define a functor $\Phi$ in the same way at the level of triangulated categories, but it is known to be badly behaved, and in fact could not be well-behaved, since we do not know how to make the category of triangulated categories into a closed symmetric monoidal category.
 
 
 
-#### tensor products of $\infty$-categories ####
 
-#### sheaves on fiber products ####
+#### 4.1 Tensor products of $\infty$-categories ####
 
-#### geometric base stacks ####
+#### 4.2 Sheaves on fiber products ####
+
+#### 4.3 Geometric base stacks ####
 
 
 ### applications ###
