@@ -37,7 +37,7 @@ This  perspective on localization is very useful for understanding the important
 All these constructions are to be thought of as _modelling_ or [[presentable (infinity,1)-category|presenting]] the passage not just from categories to [[reflective subcategory|reflective subcategories]] but from [[(infinity,1)-category|(infinity,1)-categories]] to [[reflective (infinity,1)-subcategory|reflective (infinity,1)-subcategories]], i.e. the 
 [[localization of an (infinity,1)-category]]:
 
-with the right $\infty$-version of left exact, left adjoitn etc. understood, a [[localization of an (infinity,1)-category]] $C$ is nothing but a fully faithful [[(infinity,1)-functor]]
+with the right $\infty$-version of left exact, left adjoint etc. understood, a [[localization of an (infinity,1)-category]] $C$ is nothing but a fully faithful [[(infinity,1)-functor]]
 
 $$
   L \hookrightarrow C
