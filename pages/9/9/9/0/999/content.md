@@ -53,13 +53,13 @@ For example, consider the sequence of spaces
 \]
 where the open sets are of the form 
 \[
- [n, \infty]\cup [m,\infty) \times {1}
+ [n, \infty]\cup [m,\infty) \times \{1\}
 \]
-(where $m \geq n$), plus the empty set. Define $X_n \rightarrow X_{n+1}$ so that it sends a pair $(k, \epsilon)$ to itself if $k > n$, and $(n,\epsilon)$ to $(n+1,\epsilon)$. This defines a functor 
+(where $m \geq n$), plus the empty set. Define $X_n \rightarrow X_{n+1}$ so that it sends a pair $(k, \epsilon)$ to itself if $k \gt n$, and $(n,\epsilon)$ to $(n+1,\epsilon)$. This defines a functor 
 \[
 F: \mathbb{N} \rightarrow Top 
 \]
-The colimit $X_\infty$ of this sequence is the two-element set $\{{0,1\}$ with the indiscrete topology. However, the identity map on this space does not factor through any of the canonical maps $X_n \rightarrow X_\infty$. It follows that 
+The colimit $X_\infty$ of this sequence is the two-element set $\{0,1\}$ with the indiscrete topology. However, the identity map on this space does not factor through any of the canonical maps $X_n \rightarrow X_\infty$. It follows that 
 the comparison map 
 \[
  colim_n Hom(X_\infty, X_n) \rightarrow Hom(X_\infty, X_\infty)
