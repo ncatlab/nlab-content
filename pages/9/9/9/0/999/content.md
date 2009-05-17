@@ -2,9 +2,61 @@
 
 An [[object]] of a [[category]] is often called *compact* if it is "finite" in some precise sense.
 
-# Compactness in additive categories
 
-When $C$ is an [[additive category]] (often a [[triangulated category]]), an object $x$ in $C$ is called __compact__ if for every set $S$ of objects of $C$ such that the coproduct $\coprod_{s\in S} s$ exists, the canonical map
+# Definition #
+
+Let $C$ be a [[locally small category]] that admits [[filtered category|filtered]] [[colimit]]s. Then an [[object]] $X \in C$ is **compact** (or sometimes called **finitely presented**) if the [[representable functor|corepresentable functor]]
+
+$$
+  Hom_C(X,-) : C \to Set
+$$
+
+commutes with these [[filtered category|filtered]] [[colimit]]s.
+
+So if for every [[filtered category]] $D$ and every functor $F : D \to C$ the canonical morphism
+
+$$
+  colim C(X,F(-)) \stackrel{\simeq}{\to} 
+  C(X, colim F)
+$$
+
+is an [[isomorphism]].
+
+#Examples#
+
+##In Set##
+
+In $C = $ [[Set]] an object is compact precisely if it is a finite set.
+
+## In Grp ##
+
+In $C = $ [[Grp]] an object is compact precisely if it is finitely presented as a group.
+
+## In a topos ##
+
+For $C$ a [[topos]], $X$ is compact if it is 
+$K$-[[finite object|finite]];
+
+
+## In Top ##
+
+Let $X$ be a [[topological space]] and let $C = Op(X)$ be the [[category of open subsets]] of $X$. The an open subset $U \in C$ is a compact object in $C$ precisely if it is a compact topological space (in the sense that (it is Hausdorff and) every open cover has a finite subcover).
+
+See the discussion below for variations of this theme.
+
+#Generalizations#
+
+This definition has an obvious generalization to [[compact object in an (infinity,1)-category]].
+
+
+# Subtleties and different meanings #
+
+One has to be careful about the following variations on this theme
+
+
+## Compactness in additive categories ##
+
+When $C$ is an [[additive category]] (often a [[triangulated category]]), an object $x$ in $C$ is called **compact** if for every set $S$ of objects of $C$ such that the coproduct $\coprod_{s\in S} s$ exists, the canonical map
 $$
 \coprod_{s\in S} C(x,s)\to C(x,\coprod_{s\in S}s)
 $$
@@ -16,30 +68,20 @@ The notion can be modified for categories [[enriched category|enriched]] over a 
 
 Compact objects in the derived categories of quasicoherent sheaves over a scheme are called perfect complexes. Any compact object in the category of modules over a perfect ring is finitely generated as a module.  Lurie uses $\kappa$-compact objects in the setup of $(\infty,1)$-categories.
 
-# Compactness in non-additive categories
+## Compactness in non-additive categories ##
 
 In non-additive contexts, the above definition is not right.  For instance, with this definition a [[topological space]] would be compact iff it is [[connected space|connected]]. In general one should expect to preserve _filtered colimits_ (see below for discussion). For $C$ any category and $X \in C$, the condition that $C(X,-) : C \to C$ preserves [[filtered category|filtered]] [[colimit]]s imposes  some kind of finiteness condition on $X$. For instance 
 
-* in $C = $ [[Set]] this is the case if the set $X$ is [[finite set|finite]];
-* in $C$ a [[topos]] this is the case if the object $X$ is $K$-[[finite object|finite]];
-* in $C =$ [[Grp]] this is the case if the group $X$ is [[finitely presentable object|finitely presented]] as a group.
-
-## Definition ##
-
-An object $x$ is __compact__ if for every [[filtered category|filtered]] or [[direction|directed]] colimit $\colim_{d\in D} S_d$ in $C$, the canonical map
-$$
-\colim_{d\in D} C(x,S_d)\to C(x,\colim_{d\in D}S_d)
-$$
-is an isomorphism.  Sometimes, especially in categories like [[Top]], one may want to restrict to directed "unions," meaning directed colimits whose transition morphisms are (possibly [[strong monomorphism|strong]]) [[monomorphism]]s.
 
 
-# Compact objects in Top
 
-In the category [[Top]] of [[topological space]]s it is sometimes said that one has the following equivalent definitions of when a [[topological space]] $X$ is _compact_ in that every open cover of it has a finite subcover:
+## Compact objects in Top ##
 
-   X is compact precisely if the [[hom-functor]] $Top(X,-) : Top \to Top$ commutes with [[filtered category|filtered]] [[colimit]]s.
+Recall the above example of compact topological spaces. Notice that the statement which one might expect, that a topological space $X$ is compact if it is a compact object in $Top$ is not quite right in general.
 
-In fact, this characterization is not right, as was [pointed out](http://golem.ph.utexas.edu/category/2009/05/journal_club_geometric_infinit_3.html#c023790) by Todd Trimble at the n-category cafe, via a (corrected) counterexample given on page 49 of Hovey's Model Categories due to Don Stanley. 
+A counterexample is given for instance on page 49 of Hovey's Model Categories, which itself was corrected by Don Stanley (see the errata of that book).
+See also the blog discussion 
+[here](http://golem.ph.utexas.edu/category/2009/05/journal_club_geometric_infinit_3.html#c023790).
 
 Namely, the two-element set with the indiscrete topology is a compact space $X$ for which 
  \[
@@ -67,25 +109,32 @@ the comparison map
 is not surjective, and therefore not an isomorphism. 
 
 +--{.query}
-_Todd_ (posted from n-category cafe): I don't know if the story is any different for X compact _Hausdorff_, but it could be worth considering. 
+_[[Todd Trimble|Todd]]_ (posted from n-category cafe): I don't know if the story is any different for $X$ compact _Hausdorff_, but it could be worth considering. 
 =--
 
+But with a bit care on the assumptions, similar results do hold:
 
-# Further categorical properties of compact topological spaces
-
-+--{.query}
-_Todd_ (posted from n-category cafe):  One of the "hall-of-fame" results I had in mind is given on page 50 of Hovey's book: if Y is compact, then 
+If $Y$ is compact, then 
 $hom(Y,-)$ preserves colimits of functors mapping out of limit ordinals, provided that the arrows of the cocone diagram, 
  \[
  X_\alpha \rightarrow X_\beta,
 \]
-are closed inclusions of $T_1$ spaces. (This applies for example to the sequence of inclusions of n-skeleta in a CW-complex. Taking $Y=S_k$, this has obvious desirable consequences for the functor $\pi_k$.) Hovey wants this result in view of a small object argument on the way to proving that Top is a model category. I'll bet one can beef it up to a similar result but for more general filtered diagrams. 
+are closed inclusions of $T_1$ spaces. (This applies for example to the sequence of inclusions of n-skeleta in a CW-complex. Taking $Y=S_k$, this has obvious desirable consequences for the functor $\pi_k$.) 
 
-I call it a hall-of-fame result because (a) it's quite useful; (b) it's not entirely trivial to prove. Further precise results along these lines would be most welcome. 
-=--
+This example is discussed on page 50 of Hovey's book. 
 
-
-
+Hovey wants this result in view of a small object argument on the way to proving that $Top$ is a model category. 
 
 
+
+
+#References#
+
+for the pages quoted see
+
+* Mark Hovey, _Model categories_.
+
+For the general definition with an eye towards the definition of [[compact object in an (infinity,1)-category]]  see section A.1.1 section 5.3.4 of 
+
+* [[Jacob Lurie]], [[Higher Topos Theory]]
 
