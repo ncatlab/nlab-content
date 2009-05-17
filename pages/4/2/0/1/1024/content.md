@@ -24,17 +24,3 @@ The most general case where a single object $I$ may be used to define global ele
 * Again for $C = [D^{op}, Set]$ and $I=D(-,d)$ a [[representable functor|representable]] presheaf, the generalized elements of $F$ at stage $d$ are precisely the elements of the set $F(d)$, by the [[Yoneda lemma]].
 
 * An [[element in an abelian category]] is an equivalence class of generalised elements.
-
-+-- {: .query}
-How do global elements allow to reconstruct the element-wise thinking from set theory?
-
-_Answer_:  In general, by themselves, they don\'t.  In general, you need to use *all* of the generalized elements.  On the other hand, if the [[terminal object]] (or whatever object is used to define the [[global element]]s) is a [[generator]], then global elements are enough.  In particular, this is true in a [[concrete category]].
-
-_Rafael_:  Can you be more specific in the case of a concrete category?
-In particular, how can elements of an abstract set be morphisms (with domain the terminal object) in a concrete category?
-Compare with the definition of an abstract set from set theory where elements are featureless dots.
-
-_John_: I have attempted to answer Rafael's question in the second paragraph of the article.  This paragraph isn't elegantly written, but it's important: people need to see how elements of sets are a special case of generalized elements!  
-
-_Rafael_: Thank you John. There is no word more difficult to understand than IS (or are).
-=--
