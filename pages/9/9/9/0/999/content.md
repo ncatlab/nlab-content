@@ -26,7 +26,7 @@ is an [[isomorphism]].
 
 ##In Set##
 
-In $C = $ [[Set]] an object is compact precisely if it is a finite set.
+In $C = $ [[Set]] an object is compact precisely if it is a (Kuratowski) [[finite set]].
 
 ## In Grp ##
 
