@@ -28,8 +28,29 @@ then we get __ultrametric spaces__, a more restricted concept.  (This include fo
 
 ## Lawvere metric spaces
 
-Lawvere has pointed out that Lawvere metric spaces are precisely [[enriched category|categories enriched]] in the monoidal poset $([0, \infty], \geq)$, where the monoidal product is taken to be addition.  Taking the monoidal product to be $(x, y) \mapsto max(x, y)$ instead, enriched categories amount to Lawvere ultrametric spaces.
+Lawvere has pointed out that Lawvere metric spaces are precisely [[enriched category|categories enriched]] in the [[monoidal category|monoidal]] [[partial order|poset]] $([0, \infty], \geq)$, where the monoidal product is taken to be addition.  Taking the monoidal product to be supremum instead, enriched categories amount to Lawvere ultrametric spaces.
 
 Thus generalized, many constructions and results on metric spaces turn out to be special cases of yet more general constructions and results of enriched category theory.  This includes for example the notion of (Cauchy) completion, which in general enriched category theory is related to [[Karoubi envelope]]s and [[Morita equivalence]]. 
 
-One would like to say that imposing the symmetry axiom gives us [[enriched groupoid]]s, but it\'s not clear that this makes sense.  (In particular, the enriching categories are not [[cartesian monoidal category|cartesian]].)
+One would like to say that imposing the symmetry axiom gives us [[enriched groupoid]]s, which is correct for ultrametric spaces.  It\'s not clear, however, what this means for more general metric spaces, since the enriching category is then not [[cartesian monoidal category|cartesian]].
+
+## Motivation for the axioms
+
+The triangle axiom is the fundamental idea behind a metric space; it goes back (at least) to Euclid and captures the idea that we are discussing the *shortest* distance between two points.  Given the triangle inequality, we have the polygon inequality
+$$ d(x_0,x_1) + \cdots + d(x_{n-1},x_n) \geq d(x_0,x_n) $$
+for all $n \gt 0$; the point inequality extends this to $n = 0$.
+
+Besides extended metric spaces (where distances may be infinite), one might consider spaces where distances may be negative.  But in fact this gives us nothing new, at least if we have symmetry.  First,
+$$ d(x,x) + d(x,x) \geq d(x,x) $$
+forces $d(x,x) \geq 0$, so $d(x,x) = 0$; then
+$$ 2 d(x,y) = d(x,y) + d(y,x) \geq d(x,x) $$
+forces $d(x,y) \geq 0$.  A generalisation to negative distances is possible for quasimetric spaces, however; the simplest example has $2$ elements, with $d(x,y) = -d(y,x)$.
+
+We can define a [[partial order]] $\leq$ on the points of a Lawvere metric space:
+$$ x \leq y \;\Leftrightarrow\; d(x,y) = 0 .$$
+Then the symmetry axiom implies that this relation is [[symmetric relation|symmetric]] and hence an [[equivalence relation]].  The [[quotient set]] under this equivalence relation satisfies separation; in this way, every pseudometric space is [[equivalence of categories|equivalent]] (as an enriched category) to a metric space.  Even for quasimetric spaces, we can still define an equivalence relation:
+$$ x \equiv y \;\Leftrightarrow\; d(x,y) = 0 \;\wedge\; d(y,x) = 0 .$$
+In [[constructive mathematics]], it works better to use $\lt$:
+$$ x \lt y \;\Leftrightarrow\; d(x,y) \gt 0 ;$$
+then the symmetry axiom implies that this is an [[apartness relation]], which (for quasimetric spaces) we can also define directly:
+$$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
