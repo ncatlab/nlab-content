@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-17 #
 
+*  [[Todd Trimble]] wrote [[metric space]], and there was much rejoicing.
+
 * [[Urs Schreiber|Urs]]:
 
   * restructured [[compact object]]
