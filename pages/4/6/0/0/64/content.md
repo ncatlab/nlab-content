@@ -21,4 +21,4 @@ Clearly, the more extra properties one imposes, the less likely it is that these
 
 The notion of "nice objects" can be formalized to some degree for instance in terms of _Isbell self-duality_ as described in 
  
- * W. Lawevere, _Taking categories seriously_ ([pdf](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf))
+ * W. Lawvere, _Taking categories seriously_ ([pdf](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf))
