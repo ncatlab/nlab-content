@@ -5,7 +5,7 @@ An [[object]] of a [[category]] is often called *compact* if it is "finite" in s
 
 # Definition #
 
-Let $C$ be a [[locally small category]] that admits [[filtered category|filtered]] [[colimit]]s. Then an [[object]] $X \in C$ is **compact** (or sometimes called **finitely presented**) if the [[representable functor|corepresentable functor]]
+Let $C$ be a [[locally small category]] that admits [[filtered category|filtered]] [[colimit]]s. Then an [[object]] $X \in C$ is **compact** (or sometimes called **[[locally finitely presentable category|finitely presented]]**) if the [[representable functor|corepresentable functor]]
 
 $$
   Hom_C(X,-) : C \to Set
