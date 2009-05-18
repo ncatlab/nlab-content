@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * added an "Idea"-section to [[homotopy category]] and added the precise definition of the universality condition on $Q : C \to Ho(C)$
+
   * replied to [[Chris Brav|Chris]] at [[fiber product]]
 
   * expanded [[local isomorphism]]: more about sieves, more about pullbacks -- but needs polishing
