@@ -240,6 +240,18 @@ For a pedagogical motivation of the general topic under consideration here see
 
 #5 Generators and Representability#
 
+* [[image]]
+
+  * [[coimage]]
+
+  * [[strict morphism]]
+
+    * [[strict epimorphism]]
+
+    * [[regular epimorphism]]
+
+* [[subobject]]
+
 * [[generator]]
 
 #6 Indization of Categories#
