@@ -14,6 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-18 #
 
+*[[Chris Brav|Chris]]: 
+  * Replied to Urs on fiber product, suggesting that
+fiber products be computed using a cobar resolution and 
+that we should eventually make a section about derived
+fiber product of spaces.
+
 * [[Urs Schreiber|Urs]]:
 
   * added an "Idea"-section to [[homotopy category]] and added the precise definition of the universality condition on $Q : C \to Ho(C)$
