@@ -94,7 +94,14 @@ $$
 
 would still be $A \times_C B$, but the homotopy limit would pick up the right first degree correction for the homotopy fiber product.
 
+[[Chris Brav| Chris]]: Thanks, Urs. I'll continue thinking about this. While I was at the coffee shop, I realized
+that to form $A \times_C B$ in a homotopically meaningful way, we should somehow resolve $B$. So if $\mathcal{D}$ is our category and $\mathcal{D}_C$ is the category of objects over $C \in \mathcal{D}$, then we have an adjoint
+pair of functors $R:= C\times? : \mathcal{D} \rightarrow \mathcal{D}_C$ and $L:=\mathcal{D}_C \rightarrow \mathcal{D}$ forgetting the map to $C$. (Strange to me, but it seems that forgetting here is the left adjoint.) Then
+we can apply the comonad $RL$ to $B \rightarrow C$ to get
+a cobar resolution of $B$, take the product with $A$, and so get the cosimplicial object $A \times C \times B, A \times C \times C \times B,...$. 
 
+Perhaps this is the wrong section to discuss this, and when we figure it out, maybe we should make a section on 
+fiber products of derived spaces. 
 
 
 =--
