@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * replied to [[Chris Brav|Chris]] at [[fiber product]]
+
   * expanded [[local isomorphism]]: more about sieves, more about pullbacks -- but needs polishing
 
   * created [[commutativity of limits and colimits]] as a place to list results such as commutativity of filtered colimits with finite limits;
