@@ -361,7 +361,7 @@ For $X \to Y \leftarrow X'$ morphisms of nice generalized spaces ([[perfect infi
 
 * _$\infty$-matrices (integral transforms) are $\infty$-functions on fiber products_ in that the following equivalence holds: $ C(X \times_Y X') \simeq C(X) \otimes_{C(Y)} C(X')$
 
-* _$\infty$-linear maps are given by $\infty$-matrices in that also the following equivalence holds: $C(X \times_Y X') \simeq Fun_{C(Y)}(C(X), C(Y))$;
+* _$\infty$-linear maps are given by $\infty$-matrices in that also the following equivalence holds: $C(X \times_Y X') \simeq Fun_{C(Y)}(C(X), C(X'))$;
 
 =--
 =--
@@ -989,6 +989,11 @@ $X$, we may form the mapping stack $X^{\Sigma}$, which is again perfect. Then th
 The 'fundamental theorem' described above can be extended
 to the case where $X_1 \rightarrow Y$ is a perfect morphism of geometric stacks ($X_1$ and $Y$ need not be absolutely perfect) and $X_2 \rightarrow Y$ is an arbitrary morphism of stacks.
 
++-- {: .query}
+
+_Bruce_: What's a geometric stack? 
+
+=--
 
 ### applications ###
 
