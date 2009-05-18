@@ -17,4 +17,4 @@ that is the [[coequalizer]] of its [[kernel pair]].
 
 #Remarks#
 
-* Morphisms for which image and coimage coincide are [[strict morphism]]s.
+* Morphisms for which image and coimage coincide (in a certain sense) are [[strict morphism]]s.
