@@ -1,10 +1,10 @@
 #Idea#
 
-Frequently one encounters ordinary [[category|categories]] $C$ which are known in some way or other to be the 1-categorical truncation of [[higher category theory|higher categories]] $\hat C$. 
+Frequently one encounters an ordinary [[category]] $C$ which is known in some way or other to be the $1$-[[1-category|categorical]] truncation of a [[higher category theory|higher category]] $\hat C$. 
 
-Standard examples are the 1-category [[Top]] of [[topological space]]s or the 1-category $Ch(Ab)$ of [[chain complex]]es. Both are obtained from full [[(infinity,1)-category|(infinity,1)-categories]] by forgetting higher morphisms.
+Standard examples include the categories [[SimpSet]] of [[simplicial set]]s (or [[Top]] of [[topological space]]s) and $Ch(Ab)$ of [[chain complex]]es of [[abelian group]]s. Both are obtained from full [[(infinity,1)-category|(infinity,1)-categories]] by forgetting higher morphisms.
 
-The most important information that is lost by forgetting the higher morphisms of a higher category is that about which 1-morphisms are, while not [[isomorphism]]s, invertible up to higher cells, i.e. equivalences. 
+The most important information that is lost by forgetting the higher morphisms of a higher category is that about which 1-morphisms are, while not [[isomorphism]]s, invertible up to higher cells, i.e. [[equivalence]]s. 
 
 To the full $(\infty,1)$-category $\hat C$ is canonically associated a 1-category $Ho(\hat C)$ called the [[homotopy category of an (infinity,1)-category]], which is obtained from $\hat C$ not by simply forgetting the higher morphisms, but by quotienting them out, i.e. by remembering the _equivalence classes_ of 1-morphisms. In the $(\infty,1)$-category [[Top]] (restricted to sufficiently nice objects, such as compactly generated weakly Hausdorff topological spaces) these higher morphisms are literally the [[homotopy|homotopies]] between 1-morphisms, and more generally one tends to address higher cells in $(\infty,1)$-categories as homotopies. Therefore the name _homotopy category of an $(\infty,1)$-category_ for $Ho(\hat C)$. In particular $Ho(\hat{Top})$ is the standard homotopy category originally introduced in topology.
 
@@ -32,7 +32,7 @@ One also writes $Ho(C) := W^{-1}C$ or $C[W^{-1}]$ and calls it the [[localizatio
 
 More in detail, the universality of $Ho(C)$ means the following:
 
-* for any other (usually [[large category|large]]) category $A$ and functor $F : C \to A$ such that $F$ sends all $w \in W$ to isomorphisms in $A$, there exists a functor $F_Q : Ho(C) \to A$ and a natural isomorphism
+* for any (possibly [[large category|large]]) category $A$ and functor $F : C \to A$ such that $F$ sends all $w \in W$ to isomorphisms in $A$, there exists a functor $F_Q : Ho(C) \to A$ and a natural isomorphism
 
 $$
   \array{
@@ -48,11 +48,11 @@ $$
 * the functor $Q^* : Func(Ho(C),A) \to Func(C,A)$ is a [[full and faithful functor]].
 
 
-The second condition implies that the functor $F_Q$ in the first condition is unique within unique isomorphism.
+The second condition implies that the functor $F_Q$ in the first condition is unique up to unique isomorphism.
 
 #Properties#
 
-* If it exists, the homotopy category $Ho(C)$ is unique within [[equivalence of categories]].
+* If it exists, the homotopy category $Ho(C)$ is unique up to [[equivalence of categories]].
 
 
 # Remarks #
