@@ -19,4 +19,4 @@ A sketch of [2-structure types](http://golem.ph.utexas.edu/category/2008/04/2str
 
 ###Riemann-Hilbert problem###
 
-For any representation of the fundamental group of a punctured Riemann surface, we can find a linear differential equation with holomorphic coefficients, such that the monodromies of the solutions realize this representation [discussion](http://golem.ph.utexas.edu/category/2007/08/justificatory_narratives.html#c011603).
+For any representation of the fundamental group of a punctured Riemann surface, we can find a linear differential equation with holomorphic coefficients, such that the monodromies of the solutions realize this representation: [discussion](http://golem.ph.utexas.edu/category/2007/08/justificatory_narratives.html#c011603).
