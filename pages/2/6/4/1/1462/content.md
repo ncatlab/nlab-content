@@ -9,11 +9,11 @@ The **coimage** of a [[morphism]] $f : c \to d$ in a [[category]] $C$ is the [[i
 ## In terms of colimits ##
 
 If $C$ has finite [[limit]]s and [[colimit]]s, then the coimage of a morphism $f : c \to d$ is
-
 $$
   Coim f \simeq colim ( c \times_d c \stackrel{\to}{\to} c)
-  \,.
+  \,,
 $$
+that is the [[coequalizer]] of its [[kernel pair]].
 
 #Remarks#
 
