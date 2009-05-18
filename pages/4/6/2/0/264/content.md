@@ -1,12 +1,12 @@
 #Idea#
 
-Frequently one encounters ordinary [[category|categories]] $C$ which are known in some way or other to the 1-categorical truncation of [[higher category theory|higher categories]] $\hat C$. 
+Frequently one encounters ordinary [[category|categories]] $C$ which are known in some way or other to be the 1-categorical truncation of [[higher category theory|higher categories]] $\hat C$. 
 
-Standard examples are the 1-cateories [[Top]] of [[topological space]]s or the category $Ch(Ab)$ of [[chain complex]]es. Both are obtained from full [[(infinity,1)-category|(infinity,1)-categories]] by forgetting higher morphisms.
+Standard examples are the 1-category [[Top]] of [[topological space]]s or the 1-category $Ch(Ab)$ of [[chain complex]]es. Both are obtained from full [[(infinity,1)-category|(infinity,1)-categories]] by forgetting higher morphisms.
 
 The most important information that is lost by forgetting the higher morphisms of a higher category is that about which 1-morphisms are, while not [[isomorphism]]s, invertible up to higher cells, i.e. equivalences. 
 
-To the full $(\infty,1)$-category $\hat C$ is canonically associated a 1-category $Ho(\hat C)$ called the [[homotopy category of an (infinity,1)-category]], which is obtained from $\hat C$ not by simply forgetting the higher morphisms, but by quotienting them out, i.e. by remembering the _equivalence classes_ of 1-morphisms. In the $(\infty,1)$-category [[Top]] these higher morphisms are literally the [[homotopy|homotopies]] between 1-morphisms, and more generally one tends to address higher cells in $(\infty,1)$-categories as homotopies. Therefore the name _homtopy category of an $(\infty,1)$-category_ for $Ho(\hat C)$. In particular $Ho(\hat{Top})$ is the standard homotopy category originally introduced in topology.
+To the full $(\infty,1)$-category $\hat C$ is canonically associated a 1-category $Ho(\hat C)$ called the [[homotopy category of an (infinity,1)-category]], which is obtained from $\hat C$ not by simply forgetting the higher morphisms, but by quotienting them out, i.e. by remembering the _equivalence classes_ of 1-morphisms. In the $(\infty,1)$-category [[Top]] these higher morphisms are literally the [[homotopy|homotopies]] between 1-morphisms, and more generally one tends to address higher cells in $(\infty,1)$-categories as homotopies. Therefore the name _homotopy category of an $(\infty,1)$-category_ for $Ho(\hat C)$. In particular $Ho(\hat{Top})$ is the standard homotopy category originally introduced in topology.
 
 
 Now, given just the truncated 1-category $C$ but equipped with the structure of a [[category with weak equivalences]] which indicates which morphisms in $C$ are to be regarded as equivalences in a higher categorical context, there is a universal solution to the problem of finding a cartegory $Ho(C)$ equipped with a functor $Q : C \to Ho(C)$ such that $Q$ sends all (morphisms labeled as) weak equivalences in 
