@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * created [[commutativity of limits and colimits]] as a place to list results such as commutativity of filtered colimits with finite limits;
+
   * added a further definition to [[image]], created [[coimage]] and [[strict morphism]]
 
 # 2009-05-17 #
