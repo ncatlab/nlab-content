@@ -1,4 +1,4 @@
-An object $X$ of a category $C$ is said to be [[finitely presentable object|finitely presentable]] (or finitary) if the [[representable functor]] $C(X,-)$ preserves [[filtered category|filtered colimits]]. Write $C_{fp}$ for the full subcategory of $C$ on the finitely presentable objects.
+An object $X$ of a category $C$ is said to be [[finitely presentable object|finitely presentable]] or [[compact object|compact]] (or finitary) if the [[representable functor]] $C(X,-)$ preserves [[filtered category|filtered colimits]]. Write $C_{fp}$ for the full subcategory of $C$ on the finitely presentable objects.
 
 +--{: .query}
 [[Mike Shulman|Mike]]: Do people really call finitely presentable _objects_ "finitary"?  I've only seen that word applied to functors (those that preserve filtered colimits).
