@@ -28,3 +28,5 @@ $$
   \right\}
   \,.
 $$
+
+>[[Chris Brav| Chris]]: I'd appreciate it if someone could add an explanation of fiber products as limits of compsimplicial diagrams $A \times B, A \times C \times B, A \times C \times C \times A,...$, making the coface maps explicit.
