@@ -36,7 +36,7 @@ $$
   \array{
       c &\stackrel{f}{\to}& d
       \\
-      \downarrow && \downarrow
+      \downarrow && \uparrow
       \\
       Coim f &\stackrel{u}{\to}& Im f
   }
