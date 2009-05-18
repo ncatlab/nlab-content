@@ -120,47 +120,41 @@ $(\sqcup_i Y(V_i))\times_{Y(U)} (\sqcup_i Y(V_i))$ is replaced in turn by one of
 
 Notice that local isomorphism with codomain a representable already induce general local isomorphisms using the fact that every presheaf is a colimit of representables (the [[co-Yoneda lemma]]) and that local isomorphisms/sieves are stable under [[pullback]]:
 
-**Proposition**
++-- {: .un_prop}
+###### Proposition
 
 If $A \in PSh(S)$ is a [[local object]] with respect to local isomorphisms whose codomain is a representable, then every morphism $X \to Y$ of presheaves such that for every representble $U$ and every morphism $U \to Y$ the pullback
 $X \times_Y U  \to U$ is a local isomorphism, the canonical morphism
-
 $$
   Hom(Y,A) \to Hom(X,A)
 $$
-
 is an isomorphism.
+=--
 
-Proof.
++-- {: .proof}
+###### Proof
 
 We may first rewrite trivially
-
 $$
   X \simeq X \times_Y Y
 $$
-
 and then use the [[co-Yoneda lemma]] to write (suppressing notationally the Yoneda embedding)
-
 $$
   Y \simeq colim_{U \to Y} U
 $$
-
 and hence rewrite $(X \to Y)$ as
-
 $$
   X \times_Y (\colim_{U \to Y} U) \to colim_{U \to Y} U
   \,.
 $$
 
 Then using that colimits of presheaves are [[commutativity of limits and colimits|stable under base change]] this is
-
 $$
   (\colim_{U \to Y}(X \times_Y U)) \to colim_{U \to Y} U
   \,.
 $$
 
 Recall that by assumption the components $X \times_Y U \to U$ of this are local isomorphisms. Hence
-
 $$
   (Hom(Y,A) \to Hom(X,A))
   =
@@ -169,8 +163,8 @@ $$
   \lim_{U  \to Y}
   Hom(X \times_Y U, A)
 $$
-
 is a limit over isomorphisms, hence an isomorphism.
+=--
 
 #References#
 
