@@ -9,7 +9,7 @@ There are several equivalent defintions.
 
 ## In terms of subobjects ##
 
-Let $C$ be a [[category]], and $f: c \to d$ be a [[morphism]]. The **image** of $f$ is the smallest [[subobject]] $s \subseteq d$ through which $f$ factors (if it exists). There is a [[duality|dual]] notion of _co-image_: the largest [[quotient object|quotient]] of $c$ through which $f$ factors. 
+Let $C$ be a [[category]], and $f: c \to d$ be a [[morphism]]. The **image** of $f$ is the smallest [[subobject]] $s \subseteq d$ through which $f$ factors (if it exists). There is a [[duality|dual]] notion of _[[coimage|co-image]]_: the largest [[quotient object|quotient]] (in the co-subobject sense) of $c$ through which $f$ factors. 
 
 ## as a left adjoint functor ##
 
@@ -21,7 +21,7 @@ to the inclusion $Mono(C)/d \hookrightarrow C/d$.
 
 ## as an equalizer ##
 
-If the category $C$ admits finite [[limit]]s and [[colimit]]s, then the image $If f$ of a morphism $f : c \to d$ my be expressed as 
+If the category $C$ admits finite [[limit]]s and [[colimit]]s, then the image $Im f$ of a morphism $f : c \to d$ my be expressed as 
 
 $$
   Im f \simeq lim (d \stackrel{\to}{\to} d \sqcup_c d)
@@ -40,6 +40,8 @@ $$
   }
   \,.
 $$
+
+In other words, the image is the [[equalizer]] of the [[cokernel pair]].
 
 In this case there is a canonical morphism
 
