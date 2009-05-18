@@ -108,4 +108,5 @@ Page 6 gives some general overview for the paper which will be helpful.
 Go back here to see different correspondences related to the Hecke algebra
 
 * [[Hecke algebra]]
+
 category: people
