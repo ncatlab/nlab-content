@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-19 #
 
+* [[Todd Trimble|Todd]] added a bit more to [[compact space]], in particular linking back to [[quasicompact]]. There is so much one could say about compact spaces, it's quite the embarrassment of riches. 
+
 * [[Zoran Škoda]]: created [[algebraic geometry]], [[algebraic stack]], [[topological stack]]; updated [[quasicompact]] with the definition and facts about quasicompact morphisms.
 
 * [[Urs Schreiber|Urs]]: 
