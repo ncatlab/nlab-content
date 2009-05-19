@@ -1080,3 +1080,6 @@ For more details on [[loop space object]]s for [[derived stack]]s
 John Francis' work on $E_n$-actions on $(\infty,1)$-categories is here
 
 * **EnAction** John Francis, PhD thesis ([web](http://dspace.mit.edu/handle/1721.1/43792))
+
+
+For more related material see [[Northwestern TFT Conference 2009]].
