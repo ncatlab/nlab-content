@@ -40,7 +40,8 @@ $K$-[[finite object|finite]];
 
 ## In Top ##
 
-Let $X$ be a [[topological space]] and let $C = Op(X)$ be the [[category of open subsets]] of $X$. The an open subset $U \in C$ is a compact object in $C$ precisely if it is a compact topological space (in the sense that (it is Hausdorff and) every open cover has a finite subcover).
+Let $X$ be a [[topological space]] and let $C = Op(X)$ be the [[category of open subsets]] of $X$. The an open subset $U \in C$ is a compact object in $C$ precisely if it is a [[compact space|compact topological space]].
+
 
 See the discussion below for variations of this theme.
 
@@ -77,7 +78,7 @@ In non-additive contexts, the above definition is not right.  For instance, with
 
 ## Compact objects in Top ##
 
-Recall the above example of compact topological spaces. Notice that the statement which one might expect, that a topological space $X$ is compact if it is a compact object in $Top$ is not quite right in general.
+Recall the above example of [[compact space|compact topological spaces]]. Notice that the statement which one might expect, that a topological space $X$ is [[compact space|compact]] if it is a compact object in $Top$ is not quite right in general.
 
 A counterexample is given for instance on page 49 of Hovey's Model Categories, which itself was corrected by Don Stanley (see the errata of that book).
 See also the blog discussion 
