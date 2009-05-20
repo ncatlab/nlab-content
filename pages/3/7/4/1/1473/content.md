@@ -1,6 +1,6 @@
 ## Statement 
 
-The **Tychonoff theorem** is a theorem of [[topology]], which in its classical form is equivalent to the [[axiom of choice]].  Spellings vary; the theorem is named after &#1040;&#1085;&#1076;&#1088;&#1077;&#1081; &#1053;&#1080;&#1082;&#1086;&#1083;&#1072;&#1077;&#1074;&#1080;&#1094; &#1058;&#1080;&#1093;&#1086;&#1085;&#1086;&#1074;, whose name becomes 'Andrey Nikolayevich Tikhonov' is modern English (BGN/PCGN) transliteration, but he originally published in German as 'A.N. Tychonoff'.
+The **Tychonoff theorem** is a theorem of [[topology]], which in its classical form is equivalent to the [[axiom of choice]].  Spellings vary; the theorem is named after &#1040;&#1085;&#1076;&#1088;&#1077;&#1081; &#1053;&#1080;&#1082;&#1086;&#1083;&#1072;&#1077;&#1074;&#1080;&#1094; &#1058;&#1080;&#1093;&#1086;&#1085;&#1086;&#1074;, whose name becomes 'Andrey Nikolayevich Tikhonov' in modern English (BGN/PCGN) transliteration, but he originally published in German as 'A.N. Tychonoff'.
 
 The theorem states that a [[product]] of [[topological space|spaces]] (indexed over an arbitrary [[set]]) is [[compact space|compact]] if each of the spaces is compact. (Compare the axiom of choice: a product of sets is [[inhabited set|inhabited]] if each set is inhabited.)
 
@@ -12,13 +12,20 @@ To prove the Tychonoff theorem for [[Hausdorff space]]s only, the full axiom of 
 
 One method of proof uses [[ultrafilter]] convergence. Let $\langle X_\alpha \rangle_{\alpha \in A}$ be a family of compact spaces. 
 
-1. Every ultrafilter $U_\alpha$ on the underlying set of $X_\alpha$ converges to some point $x_\alpha$. (If not, then $U_\alpha$ contains a closed set $C_x$ in the complement of each point $x$. The intersection of all the $C_x$ is empty. Thus some finite subcollection of the $C_x$ is empty, by compactness. But then $U_\alpha$, being closed under finite intersections, contains the empty set, contradiction.) 
+1. Every ultrafilter $U_\alpha$ on the underlying set of $X_\alpha$ converges to some point $x_\alpha$. (Consider the collection of all closed sets belonging to $U_\alpha$. Finite subcollections have nonempty intersection, so by compactness the intersection of the collection is also nonempty. Let $x_\alpha$ be a point belonging to that intersection. Every closed set disjoint from $x_\alpha$ belongs to the complement of $U_\alpha$, hence every open set containing $x_\alpha$ belongs to $U_\alpha$, i.e., $U_\alpha$ converges to $x_\alpha$.)
 
 1. Let $U$ be an ultrafilter on $\prod_\alpha X_\alpha$. Since the set-of-ultrafilters construction $S \mapsto \beta S$ is [[functor]]ial, we have a push-forward ultrafilter $U_\alpha = \beta(\pi_\alpha)(U)$ on each $X_\alpha$, where $\pi_\alpha$ is a projection map. Choose a point $x_\alpha$ to which $U_\alpha$ converges. Then it is easily checked that $U$ converges to the point $\langle x_\alpha \rangle$ in the product space.
 
 1. Since every ultrafilter $U$ on $\prod_\alpha X_\alpha$ converges to a point, the product is compact. (If it were not, then we could find a collection of nonempty closed sets whose intersection is empty, but closed under finite intersections. This collection generates a filter which is contained in some ultrafilter $U$, by the [[ultrafilter theorem]]. Since every ultrafilter $U$ converges to some $x$, it cannot contain any closed set in the complement of $x$, hence cannot contain some closed set in the original collection, contradiction.) 
++--{.query}
+[[Todd Trimble|Todd]]: Here it's not so clear that there's any direct argument. For it's at this point where we have to use the ultrafilter theorem, in order to produce a witnessing ultrafilter. Witness to what? The statement as it stands involves universal quantification over ultrafilters, so the witness would be in view of a contradiction.
+=--
+ 
+[[Toby Bartels|Toby]]: Note that we use excluded middle in two places (maybe just one now, after some editing -- Todd) for a proof by contradiction; I\'ll try to remove these if possible.  We use the axiom of choice in the middle step to combine the $x_\alpha$ into a single family $\langle x_\alpha \rangle$; if the $X_\alpha$ were Hausdorff, then the $x_\alpha$ would be unique, and we would not need the axiom of choice here.  Finally, we use the ultrafilter theorem in the last step.
 
-Note that we use excluded middle in two places for a proof by contradiction; I\'ll try to remove these if possible.  We use the axiom of choice in the middle step to combine the $x_\alpha$ into a single family $\langle x_\alpha \rangle$; if the $X_\alpha$ were Hausdorff, then the $x_\alpha$ would be unique, and we would not need the axiom of choice here.  Finally, we use the ultrafilter theorem in the last step.
++--{.query} 
+[[Todd Trimble|Todd]]: Yes, although I'm not too fussed about using indirect arguments, since in a topos, excluded middle follows from AC. I don't know whether it also follows from a weaker choice principle equivalent to the ultrafilter theorem, but I guess I wouldn't be surprised if it did. 
+=--
 
 ## Proof of converses
 
