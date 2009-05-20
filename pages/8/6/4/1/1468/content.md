@@ -50,3 +50,5 @@ This page contains material related to the event
 #Further links#
 
 * $n$Caf&#233; [blog entry](http://golem.ph.utexas.edu/category/2009/05/tft_at_northwestern.html)
+
+category: reference
