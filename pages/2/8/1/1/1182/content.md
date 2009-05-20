@@ -1013,20 +1013,71 @@ to the case where $X_1 \rightarrow Y$ is a perfect morphism of geometric stacks 
 
 _Bruce_: What's a geometric stack? 
 
+_Chris_: A stack is geometric if it is quasi-compact (any open cover has a finite sub-cover) and the diagonal morphism
+is representable and affine, though that probably doesn't help much. I don't know much about stacks yet, but maybe someone else can explain this. I think the point is that one needs some hypotheses to actually prove stuff for stacks. 
+
 =--
 
-### applications ###
+### 5. Applications ###
 
+In this section, BZFN study the categorical center $\mathit{Z}$ and trace $\mathit{Tr}$
+of presentable mononoidal $\infty$-categories, which will be defined as analogues of some classical algebraic notions.
 
+Two geometric cases are of special interest. 
 
-#### centers and traces ####
+When the monoidal category is $QC(X)$, then there are equivalences
+
+$$\mathit{Z}(QC(X))\simeq QC(LX) \simeq \mathit{Tr}(QC(X)),$$
+where $LX=X \times_{X \times X} X$, the derived loop space
+of $X$.
+
+When the monoidal category is $QC(X \times_Y X)$ equipped with convolution, then there is an equivalence
+
+$$\mathit{Z}(QC(X \times_Y X))\simeq QC(LY)$$
+and once Grothendieck duality has been worked out for derived stacks, then there will be another equivalence
+$$QC(LY) \simeq \mathit{Tr}(QC(X \times_Y X)).$$
+
+The categorical center is a generalization of lots of things: the center of an algebra, the Hochschild cochain complex of an algebra, the Drinfeld double of a monoidal category... It turns out to be an $E_2$-category, the $\infty$-categorical version of a braided monoidal category. That's probably explained in section 6.
+
+#### Some background####
+
+Let's start with a good old-fashioned algebra $A$ (an algebra object in $Ab$ of $Vect$). We can form the center $Z(A)$ of $A$, which again is a commutative algebra. 
+One can also form the endomorphisms of $A$ as a bimodule over itself: $End_{A \otimes A^{op}}(A)$. The natural homomorphism 
+$$Z(A) \rightarrow End_{A \otimes A^{op}}(A)$$
+that sends a central element $x$ to multiplication
+by $x$ is an isomorphism of algebras (multiplication by $x$ is indeed a bimodule endomorphism since $x$ is central and 
+every bimodule endomorphism $\varphi$ is of this form since it is determined by $\varphi(1)=x$).
+
+If we consider $A$ as an algebra object in the (dg enhanced) derived category of $Ab$, then we can also 
+consider the _derived_ endomorphisms of $A$ as an $A$-bimodule, which is a dg algebra (defined up to quasi-isomorphism) that we may think of as the _derived center_ of  $A$:
+
+$$RHom_{A \otimes A^{op}}(A,A).$$  
+
+The cohomology of this dg algebra is a graded algebra
+known as the _Hochschild cohomology_ of $A$. Its zeroth graded piece is of course just the classical center $Z(A)=End_{A \otimes A^{op}}(A)$. 
+
+To compute $RHom_{A \otimes A^{op}}(A,A)$ in practice, one has take a projective resolution of the first entry $A$ as an $A$-bimodule and then write down the complex of $Hom$s from this resolution to $A$. The standard such resolution is the 'bar resolution' of $A$, which is built using
+the functor
+$$L=A \otimes ?: Mod A^{op} \rightarrow  Mod A \otimes A^{op},$$
+which is left adjoint to the forgetful functor $R:Mod A \otimes A^{op} \rightarrow Mod A^{op}$. Then $LR$ is a comonad on $Mod A \otimes A^{op}$ and so applying it to $A$ gives (in the usual way) an augmented simplicial object whose $k$th term is $A^{\otimes k+1}$. In particular, the $-1$st term is just $A$. By taking alternating sums of the face maps, one gets a complex $C_*(A)$ of free $A$-bimodules that can be shown to be exact and so provides a resolution of $A$. Then the $Hom$ complex 
+$$Hom_{A \otimes A^{op}}(C_*(A),A)$$
+is known as the Hochschild cochain complex of $A$ and provides the standard model for the derived center of $A$.
+
+Now for the categorical trace. Given two bimodules $M,N$
+we can form their relative tensor product $M \otimes_A\otimes A^{op} N$, giving a new bimodule. We think of this
+operation as a 'bilinear pairing' on the category of bimodules (remember, bilinear=colimit preserving). We could also take tensor product in the derived category of bimodules, which in practice requires that we resolve one of $M$ or $N$ by flat (or a fortiori free) $A$-bimodules, and so get a derived pairing of bimodules. In particular,
+we could take the derived pairing of $A$ with itself as an $A$-bimodule to get the Hochschild chain complex
+
+$$A \otimes_{A \otimes A^{op}} C_*(A),$$
+whose homology is the _Hochschild homology_ of $A$.
+
+#### Centers and traces ####
 
  * [[span trace]]
 
  * [[co-span co-trace]]
 
-
-#### centers of convolution categories ####
+#### Centers of convolution categories ####
 
 #### higher centers ####
 
