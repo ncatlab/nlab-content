@@ -25,7 +25,7 @@ This page contains material related to the event
 
 * [[David Ben-Zvi]], [[DBZLecture1.ps:file]], talk notes by [[Alex Hoffnung]]
 
-
+* [[David Ben-Zvi]], [[DBZLecture2.ps:file]], talk notes by [[Alex Hoffnung]]
 
 ### related $n$Lab entries ###
 
@@ -37,6 +37,16 @@ This page contains material related to the event
 ##Jacob Lurie on Topological Quantum Field Theories ##
 
 * [[Jacob Lurie]], [[LurieLecture1.ps:file]], talk notes by [[Alex Hoffnung]]
+
+* [[Jacob Lurie]], [[LurieLecture2.ps:file]], talk notes by [[Alex Hoffnung]]
+
+
+##Bertrand Toen on Secondary K-theory ##
+
+* [[Bertrand Toen]], [[ToenLecture1.ps:file]], talk notes by [[Alex Hoffnung]]
+
+* [[Bertrand Toen]], [[ToenLecture2.ps:file]], talk notes by [[Alex Hoffnung]]
+
 
 ### related $n$Lab entries ###
 
