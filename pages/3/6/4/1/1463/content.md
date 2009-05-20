@@ -30,14 +30,14 @@ These basic results in [[logic]] are equivalent to the ultrafilter theorem:
 *  Compactness: if every finite subset of $\Sigma$ has a model, then so does $\Sigma$.  (The converse is immediate; stronger formulations of the compactness theorem, including for predicate logic, also follow.)
 
 Various characterisations of [[compact space]]s are equivalent to the ultrafilter theorem:
-*  Given a set $S$, the space $2^S$ (in the product topology) is compact.  (This can be seen as a very weak form of the Tychonov theorem below.)
+*  Given a set $S$, the space $2^S$ (in the product topology) is compact.  (This can be seen as a very weak form of the Tychonoff theorem below.)
 *  More generally, if every ultrafilter on a [[convergence space]] $X$ is convergent, then $X$ is compact.
 *  A [[uniform space]] is compact if it is complete and totally bounded.  (The converse is immediate.)
 
 These classical results in analysis are equivalent to the ultrafilter theorem in a [[Boolean topos]] with [[natural numbers object]]:
-*  The Tychonov theorem for Hausdorff spaces: any product of compact Hausdorff spaces is compact; equivalently, any product of compact Hausdorff spatial [[locale]]s is spatial.  (If we drop the Hausdorff condition, then the result is equivalent to the full [[axiom of choice]].)
-*  Stone--Cech compactification: the compact Hausdorff spaces are a [[reflective subcategory]] of [[Top]].  (The classical result that they form a reflective subcategory of the category $T_3$ of completely regular Hausdorff spaces is enough; the classical result that the reflection is a dense embedding on $T_3$ also follows.)
-*  Banach--Alaoglu theorem: the closed unit ball of the double dual of a [[Banach space]] is weak* compact.  (The result for *separable* spaces does not require the ultrafilter theorem.)
+*  The [[Tychonoff theorem]] for Hausdorff spaces: any product of compact Hausdorff spaces is compact; equivalently, any product of compact Hausdorff spatial [[locale]]s is spatial.  (If we drop the Hausdorff condition, then the result is equivalent to the full [[axiom of choice]].)
+*  [[Stone-Cech compactification]]: the compact Hausdorff spaces are a [[reflective subcategory]] of [[Top]].  (The classical result that they form a reflective subcategory of the category $T_3$ of completely regular Hausdorff spaces is enough; the classical result that the reflection is a dense embedding on $T_3$ also follows.)
+*  [[Banach-Alaoglu theorem]]: the closed unit ball of the double dual of a [[Banach space]] is weak* compact.  (The result for *separable* spaces does not require the ultrafilter theorem.)
 
 ## References
 
