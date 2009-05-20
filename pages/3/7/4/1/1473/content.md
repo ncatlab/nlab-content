@@ -1,6 +1,6 @@
 ## Statement 
 
-The **Tychonoff theorem** is a theorem of [[topology]], which in its classical form is equivalent to the [[axiom of choice]].  Spellings of the name 'Tychonoff' vary; this is German (his original language of publication), but the original is '&#1058;&#1080;&#1093;&#1086;&#1085;&#1086;&#1074;', whose modern English transliteration is 'Tikhonov'.
+The **Tychonoff theorem** is a theorem of [[topology]], which in its classical form is equivalent to the [[axiom of choice]].  Spellings vary; the theorem is named after &#1040;&#1085;&#1076;&#1088;&#1077;&#1081; &#1053;&#1080;&#1082;&#1086;&#1083;&#1072;&#1077;&#1074;&#1080;&#1094; &#1058;&#1080;&#1093;&#1086;&#1085;&#1086;&#1074;, whose name becomes 'Andrey Nikolayevich Tikhonov' is modern English (BGN/PCGN) transliteration, but he originally published in German as 'A.N. Tychonoff'.
 
 The theorem states that a [[product]] of [[topological space|spaces]] (indexed over an arbitrary [[set]]) is [[compact space|compact]] if each of the spaces is compact. (Compare the axiom of choice: a product of sets is [[inhabited set|inhabited]] if each set is inhabited.)
 
