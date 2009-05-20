@@ -7,6 +7,8 @@
 _Which mathematical structures are_ natural _in physics_?
 
 
+* [[n-categorical physics]]
+
 ## Search for a natural language ##
 
 The history of theoretical physics is not the least the story of a search process for suitably notions: while mathematical theories -- such as symplectic geometry, group theory, differential geometry, etc -- are a priori "just languages" -- and each of these languages was upon its introduction to theoretical physics originally met with some hostility (just compare the [Gruppenpest](http://books.google.de/books?id=8QxvNuqxSYIC&pg=RA5-PA209&lpg=RA5-PA209&dq=Pauli+Gruppenpest&source=bl&ots=wG-UJI8nHV&sig=pFyZhKKrut7cB4QGF4bpdQc4ehE&hl=de&sa=X&oi=book_result&resnum=1&ct=result)  (plague of [[group theory]]) complaint by nobody less than  [Wolfgang Pauli](http://en.wikipedia.org/wiki/Wolfgang_Pauli)) -- we do know in retrospect that the modern insights and theorems of, respectively, classical mechanics, [[quantum field theory|quantum mechanics]] and general relativity would have been literally unthinkable without usage of these languages.
