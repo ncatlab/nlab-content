@@ -10,7 +10,7 @@ locally constant objects in $\mathbb{E}$.  (If $X$ is a space with
 $\mathbb{E}= Sh(X)$, $\mathbb{C}$ corresponds to those sheaves whose
 '_espace &#233;tal&#233;_' is a finite
 covering space of $X$.)  Picking a base point in $X$ generalises to picking a 
-'[[fibre functor]]' $F :\mathbb{C} \to \mathbf{Sets_{fin}}$, a functor satisfying
+'[[fiber functor]]' $F :\mathbb{C} \to \mathbf{Sets_{fin}}$, a functor satisfying
   various conditions implying that it is [[pro-representable functor|pro-representable]]. (If $x_0 \in X$
   is a base point $\{x_0\}\to X$ induces a 'fibre functor' $ Sh(X)\to
   Sh\{x_0\} \cong \mathbf{Sets}$, by pullback.)
