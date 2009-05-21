@@ -38,7 +38,7 @@ These aspects have motivated the impression that the string perturbation series 
 
 #References#
 
-The standard literature on string theory is nowehere close to what we would usually regard as a helpful informative reference on the $n$Lab. The inclined reader is asked to regard this as a challenge to his or her mathematical model-building skills: it is clear that string theory has run into _some_ structure of interest. The question is "what is it?" Every now and then one aspect of the huge edifice it has become suddenly finds a well defined formalization and branches off as a branch of pure mathemtics. Famous examples are
+The standard literature on string theory is nowhere close to what we would usually regard as a helpful informative reference on the $n$Lab. The inclined reader is asked to regard this as a challenge to his or her mathematical model-building skills: it is clear that string theory has run into _some_ structure of interest. The question is "what is it?" Every now and then one aspect of the huge edifice it has become suddenly finds a well defined formalization and branches off as a branch of pure mathemtics. Famous examples are
 
 * [[FQFT|topological field theory]]
 
