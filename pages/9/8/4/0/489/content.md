@@ -8,4 +8,4 @@ Actually, since for other values of $n$, $n$-groupoids form not just an $(n+1)$-
 
 If we equip the category of $(-1)$-groupoids with the monoidal structure of [[conjunction]] (the logical AND operation), then a [[enriched category|groupoid enriched]] over this is a [[equivalence relation|setoid]], and a category enriched over it is a [[preorder|proset]].  Up to [[equivalence of categories]], these are the same as a [[set]] (a $0$-[[0-groupoid|groupoid]]) and a [[partial order|poset]] (a (0,1)-[[1-poset|category]]); this fits the patterns of the periodic table.
 
-See [[(-1)-category]] for more on this sort of 'negative thinking'.
+See [[(-1)-category]] for more on this sort of [[negative thinking]].
