@@ -1,7 +1,7 @@
 #Idea
 The notion of _cofibration category_ was introduced by [[Hans-Joachim Baues]] (see references below) as a variant of the category of cofibrant objects, (for which, see [[category of fibrant objects]] and dualise). The axioms are substantially weaker than [[model category|those of  a Quillen model category]], but add one axiom to [[category of fibrant objects|those of K. S. Brown]].
 
- In the first chapter of his book *Algebraic Homotopy* (see below), [[Baues|Hans-Joachim Baues]] suggests two criteria for an axiom system:
+ In the first chapter of his book *Algebraic Homotopy* (see below), [[Hans-Joachim Baues|Baues]] suggests two criteria for an axiom system:
 
 1. _The axioms should be sufficiently strong to permit the basic constructions of homotopy theory._
 
