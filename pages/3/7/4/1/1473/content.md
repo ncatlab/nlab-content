@@ -21,7 +21,7 @@ One method of proof uses [[ultrafilter]] convergence. Let $\langle X_\alpha \ran
 [[Todd Trimble|Todd]]: Here it's not so clear that there's any direct argument. For it's at this point where we have to use the ultrafilter theorem, in order to produce a witnessing ultrafilter. Witness to what? The statement as it stands involves universal quantification over ultrafilters, so the witness would be in view of a contradiction.
 =--
  
-[[Toby Bartels|Toby]]: Note that we use excluded middle in two places (maybe just one now, after some editing -- Todd) for a proof by contradiction; I\'ll try to remove these if possible.  We use the axiom of choice in the middle step to combine the $x_\alpha$ into a single family $\langle x_\alpha \rangle$; if the $X_\alpha$ were Hausdorff, then the $x_\alpha$ would be unique, and we would not need the axiom of choice here.  Finally, we use the ultrafilter theorem in the last step.
+[[Toby Bartels|Toby]]: Note that we use excluded middle in two places for a proof by contradiction; I\'ll try to remove these if possible. ([[Todd Trimble|Todd]]: I've rearranged the argument in the first step; the first formulation I gave looked unnecessarily "choice-y".) We use the axiom of choice in the middle step to combine the $x_\alpha$ into a single family $\langle x_\alpha \rangle$; if the $X_\alpha$ were Hausdorff, then the $x_\alpha$ would be unique, and we would not need the axiom of choice here.  Finally, we use the ultrafilter theorem in the last step.
 
 +--{.query} 
 [[Todd Trimble|Todd]]: Yes, although I'm not too fussed about using indirect arguments, since in a topos, excluded middle follows from AC. I don't know whether it also follows from a weaker choice principle equivalent to the ultrafilter theorem, but I guess I wouldn't be surprised if it did. 
@@ -31,4 +31,12 @@ One method of proof uses [[ultrafilter]] convergence. Let $\langle X_\alpha \ran
 
 Now we will prove that the Tychonoff theorem implies the axiom of choice, while the Tychonoff theorem for Hausdorff spaces implies the ultrafilter theorem.  This is done by judicious choice of examples.
 
-...  I\'ll look these up later today, if I don\'t think of them myself.
+**Tychonoff theorem implies axiom of choice**: let $\{X_\alpha\}_{\alpha \in A}$ be a family of nonempty sets. Let $Y_\alpha$ be obtained by adjoining a point $p$ to $X_\alpha$. Topologize $Y_\alpha$ by taking the nontrivial open sets to be $X_\alpha$ and $\{p\}$. Then $Y_\alpha$ is compact; assuming Tychonoff, $Y = \prod_\alpha Y_\alpha$ is compact. For each $\alpha$, put 
+
+$$K_\alpha = \{y \in Y: y_\alpha \in X_\alpha\}$$ 
+
+Then $K_\alpha$ is closed, and any finite intersection of the $K_\alpha$ is nonempty (use $p$ in all but finitely many components). Hence 
+
+$$\prod_\alpha X_\alpha = \bigcap_\alpha K_\alpha$$ 
+
+is nonempty as well, by compactness. Thus the axiom of choice follows. 
