@@ -25,6 +25,8 @@ One method of proof uses [[ultrafilter]] convergence. Let $\langle X_\alpha \ran
 
 +--{.query} 
 [[Todd Trimble|Todd]]: Yes, although I'm not too fussed about using indirect arguments, since in a topos, excluded middle follows from AC. I don't know whether it also follows from a weaker choice principle equivalent to the ultrafilter theorem, but I guess I wouldn't be surprised if it did. 
+
+_Toby_:  As far as I know, UF and EM are independent (although I\'m not certain).  So I\'m interested in whether the Hausdorff case requires EM as well as UF.
 =--
 
 ## Proof of converses
