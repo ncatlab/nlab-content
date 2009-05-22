@@ -15,4 +15,4 @@ There are also
 We had some discussion on the use of terminology, which 
 is archived [[discussion on terminology -- omega-category|here]].
 
-
+redirect: [[∞-category]]
