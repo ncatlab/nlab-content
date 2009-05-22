@@ -2,7 +2,7 @@
 
 A **ringed site** is a [[site]] $S_X$ equipped with a [[sheaf]] $O_X$ of [[ring]]s.
 
-A morphism of ringed sites $(S_X, O_X) \to (S_Y, O_Y)$ is ...
+A morphism $(f^{-1}, f^\sharp):(S_X, O_X) \to (S_Y, O_Y)$ of ringed sites is a pair $(f^{-1},f^\sharp)$ where $f^{-1}:S_Y\to S_X$ is a functor representing a morphism $f:S_X\to S_Y$ of sites and $f^\sharp:O_Y\to f_* O_X$ is a morphism of sheaves of rings over $Y$ (also called a $f$-[[comorphism]]). 
 
 #Examples#
 
