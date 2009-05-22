@@ -11,6 +11,13 @@ So, if you feel people's attention should be drawn to some changes you make, ple
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).
 
 ***
+
+# 2009-05-22 #
+
+* [[Urs Schreiber|Urs]] 
+
+  * added explicit description of colimits in $Set$ to [[limits and colimits by example]] -- I have a dumb question: frequently I want to use displayed math equations in a bullet list item. But more often than not when I try this the parser gets very mixed up and produces weirly formatted output -- what am I doing wrong??
+
 # 2009-05-21 #
 * [[Bruce Bartlett|Bruce]] added link to Evan Jenkins' notes of the [[Northwestern TFT Conference 2009]], and changed text+math font on the nLab to a serif theme by editing the CSS. This will only be for one day, just to create awareness of what's possible. Discussion on the [nForum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=23).
 
