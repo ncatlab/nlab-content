@@ -1,9 +1,5 @@
 [[!include contents]]
 
-+-- {: .query}
-_Bruce_: Serif text and math fonts are being used on the nLab, just for a day, to create awareness of what's possible. Discussion on the [nForum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=23). 
-=--
-
 Welcome!
 
 This is a lab for collaborative work on _Mathematics_, _Physics_ and _Philosophy_ &#8212; especially insofar as these subjects touch on $n$-categories and related 'higher algebraic structures'.  
