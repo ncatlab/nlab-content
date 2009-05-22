@@ -84,47 +84,44 @@ $Set(X, lim F) \simeq lim Set(X,F(-))$, where on the right the limit is taken of
 * the limit over a [[nLab:Set|Set]]-valued functor $F : D^{op} \to Set$ is a subset of the product $\Pi_{d \in Obj(d)} F(d)$ of all objects: $lim F = \left\{ (s_d)_d \in \prod_d F(d) | for all (d \stackrel{f}{\to} d') : F(f)(s_{d'}) = s_d  \right\}$.
 
 * the colimit over a [[nLab:Set|Set]]-valued functor $F : D \to Set$ is a quotient set of the disjoint union $\coprod_{d \in Obj(D)} D(d)$: 
-
-$$ 
-  colim F \simeq (\coprod_{d\in D} F(d))/_\sim \,, 
-$$
-
-where the equivalence relation $\sim$ is that which is _generated_ by 
-$$
-  ((x \in F(d)) \sim (x' \in F(d'))) if (\exists (f : d \to d') with F(f)(x) = x')
-\,.
-$$
-
-If $D$ is a [[filtered category]] then the relation $\sim$ already is an equivalence relation.
+  $$ 
+    colim F \simeq (\coprod_{d\in D} F(d))/_\sim \,, 
+  $$
+  where the equivalence relation $\sim$ is that which is _generated_ by 
+  $$
+    ((x \in F(d)) \sim (x' \in F(d'))) if (\exists (f : d \to d') with F(f)(x) = x')
+  \,.
+  $$
+  If $D$ is a [[filtered category]] then the relation $\sim$ already is an equivalence relation.
 
 ### limits in presheaf categories ###
 
 Here consider limits of functors $F : D^{op} to PSh(C)$
 with values in the category of [[nLab:presheaf|presheaves]] on a [[nLab:small category|small category]] $C$.
 
-**Proposition**
++-- {: .un_prop}
+###### Proposition
 
 Limits of presheaves are computed objectwise:
-
 $$
   lim F : c \mapsto lim F(-)(c)
 $$ 
-
 Here on the right the limit is over the functor 
 $F(-)(c) : D^{op} \to Set$.
+=--
 
-
-**Proposition**
++-- {: .un_prop}
+###### Proposition
 
 The [[nLab:Yoneda embedding|Yoneda embedding]] 
 $Y : C \to PSh(C)$ commutes with small limit:
 
-Let $F : D^{op} \to C$, then of $lim F$ exists we have
-
+Let $F : D^{op} \to C$, then we have
 $$
-  Y(lim F) \simeq lim Y\circ F
+  Y(lim F) \simeq lim (Y\circ F)
 $$
-
+if $lim F$ exists.
+=--
 
 +--{.query}
 [[Todd Trimble]]: So far, this is a really good article. However, I would not say in this last line "if either limit exists", because small limits on the right certainly exist always since $Set$ is complete; instead, "if $lim F$ exists". 
