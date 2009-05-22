@@ -4,4 +4,4 @@ The point of $(-2)$-groupoids is that they complete some patterns in the [[perio
 
 As a category, $(-2)\Grpd$ is a [[monoidal category]] in a unique way, and a [[enriched category|groupoid enriched]] over this should be (at least up to equivalence) a $(-1)$-groupoid, which is a truth value; and indeed, a groupoid enriched over $(-2)\Grpd$ is a groupoid in which any two objects are isomorphic in a unique way, which is [[equivalence of categories|equivalent]] to a truth value.
 
-See [[(-1)-category]] for references on this sort of 'negative thinking'.
+See [[(-1)-category]] for references on this sort of [[negative thinking]].
