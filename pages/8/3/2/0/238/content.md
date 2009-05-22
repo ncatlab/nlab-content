@@ -13,6 +13,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 # 2009-05-22 #
+
+* [[Urs Schreiber|Urs]]
+
+  * I tried to fix the query box layout at [[Tychonoff theorem]] only to find that there is apparently some software clash between the query box syntax and some symbols used. So I "rolled back". Hopefully the entry is now again in the form that [[Todd Trimble|Todd]] and [[Toby Bartels|Body]] left it. Please check.
+
+  * started filling something into [[n-categorical physics]] just so the page looks less blank -- but didn't really have the energy or intention to produce anything of more than vaguely suggestive nature so far
+
 * [[Zoran Škoda]] made changes to [[pure motives]]. Please do not use defined term [[algebraic spaces]] when it is not appropriate.
 
 *  _David_ added exposition references to [[pure motive]]
