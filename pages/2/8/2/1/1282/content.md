@@ -97,7 +97,7 @@ $$
 
 If $D$ is a [[filtered category]] then the relation $\sim$ already is an equivalence relation.
 
-### limits in presheaf categorories ###
+### limits in presheaf categories ###
 
 Here consider limits of functors $F : D^{op} to PSh(C)$
 with values in the category of [[nLab:presheaf|presheaves]] on a [[nLab:small category|small category]] $C$.
@@ -119,16 +119,23 @@ $F(-)(c) : D^{op} \to Set$.
 The [[nLab:Yoneda embedding|Yoneda embedding]] 
 $Y : C \to PSh(C)$ commutes with small limit:
 
-Let $F : D^{op} \to C$, then
+Let $F : D^{op} \to C$, then of $lim F$ exists we have
 
 $$
   Y(lim F) \simeq lim Y\circ F
 $$
 
-(if either limit exists).
 
 +--{.query}
 [[Todd Trimble]]: So far, this is a really good article. However, I would not say in this last line "if either limit exists", because small limits on the right certainly exist always since $Set$ is complete; instead, "if $lim F$ exists". 
+
+[[Urs Schreiber|Urs]]: thanks, Todd, I have changed the above now accordingly. Please don't hesitate to correct and/or improve things you see as needed.
+
+By the way, I am not completely happy with this entry as yet. It was originally motivated from the desire to 
+_explain_ in small steps the computation of limits and colimits to those readers unfamiliar with it. Currently this here mostly just lists results, where maybe we would eventually want to include also pedagocial proofs. 
+
+The material below "explanation for programmers" goes more in that pedagogical direction, though I'd think eventually it would be good to also have the kind of pedestrian explanation given there but without (at first) its realization in Python! :-)
+
 =--
 
 
