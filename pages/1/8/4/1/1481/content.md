@@ -14,7 +14,7 @@ We were trying to understand this by looking at simple finite combinatorial toy 
 [Extended quantum field theory](http://golem.ph.utexas.edu/category/2008/05/raltion_between_aqft_and_exten.html) of [&#931;-model type](http://golem.ph.utexas.edu/category/2008/04/sigmamodels_and_nonabelian_dif.html) should work like this:
 
 
-a) the "classical" data is: a [[target space]] $X$ together with a [nonabelian differential n-cocycle](http://golem.ph.utexas.edu/category/2008/04/sigmamodels_and_nonabelian_dif.html) $\nabla$ on it, expressed in terms of a [[parallel transport functor]].
+a) the "classical" data is: a [[target]] space $X$ together with a [nonabelian differential n-cocycle](http://golem.ph.utexas.edu/category/2008/04/sigmamodels_and_nonabelian_dif.html) $\nabla$ on it, expressed in terms of a [[parallel transport functor]].
 
 b) the quantization procedure is, roughly: to each piece $\Sigma$ of [[parameter space]] assign the result of forming the "space of sections" of the [[transgression]] of $\nabla$ to $Maps(\Sigma,X)$.
 
@@ -30,7 +30,7 @@ So I want to look at this pathetically simple setup:
 
 ##Background/motivation##
 
-[[target space]] is a category $P_1(X)$ generated from a _[[directed graph|finite graph]]_.
+[[target]] space is a category $P_1(X)$ generated from a _[[directed graph|finite graph]]_.
 
 We fix a finite [[gauge group]] $G$ and some [[representation]] 
 
