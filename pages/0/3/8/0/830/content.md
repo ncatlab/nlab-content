@@ -4,4 +4,4 @@ The point of $(-1)$-posets is that they complete some patterns in the [[periodic
 
 As a category, $(-1)\Pos$ is a [[monoidal category]] in a unique way, and a [[enriched category|category enriched]] over this should be (at least up to equivalence) a $0$-poset, which is a truth value; and indeed, a category enriched over $(-1)\Pos$ is a category in which any two objects are isomorphic in a unique way, which is [[equivalence of categories|equivalent]] to a truth value.
 
-See [[(-1)-category]] for references on this sort of 'negative thinking'.
+See [[(-1)-category]] for references on this sort of [[negative thinking]].
