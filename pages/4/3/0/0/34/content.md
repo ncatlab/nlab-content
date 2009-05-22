@@ -1,4 +1,4 @@
-Unsurprisingly, _higher category theory_ is the study of higher [[category|categories]], known as [[n-category|n-categories]] or, when $n\to \infty$, as  [[∞-category|∞-categories]] or [[∞-category|∞-categories]].
+Unsurprisingly, _higher category theory_ is the study of higher [[category|categories]], known as [[n-category|n-categories]] or, when $n\to \infty$, as  [[infinity-category|infinity-categories]] or [[omega-category|omega-categories]].
 
 #Development of higher category theory#
 
@@ -55,7 +55,7 @@ There's a lot more to add here, even if we restrict ourselves to very general te
 #Entries on Higher Category Theory#
 * [[(-1)-category]]
 * [[2-morphism]]
-* [[(∞,1)-category]]
+* $(\infty,1)$-[[(infinity,1)-category]]
 * $\infty$-[[infinity-stack|stack]]
 * [[adjunction]]
 * [[bicategory]]
@@ -71,8 +71,8 @@ There's a lot more to add here, even if we restrict ourselves to very general te
 * [[globular set]]
 * [[Gray tensor product]]
 * [[Higher Topos Theory]]
-* [[∞-groupoid]]
-* [[∞-stack]]
+* [[infinity-groupoid]]
+* [[infinity-stack]]
 * [[infinity-stack homotopically]]
 * [[k-surjective functor]]
 * [[omega-category]]
@@ -83,5 +83,5 @@ There's a lot more to add here, even if we restrict ourselves to very general te
 * [[simplex category]]
 * [[simplicial set]]
 * [[strict omega-category]]
-* [[strict ∞-groupoid]]
+* [[strict omega-groupoid]]
 * [[vertical categorification]]
