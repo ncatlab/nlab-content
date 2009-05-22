@@ -46,6 +46,8 @@ In addition to the notes provided by Alex Hoffnung below, there are also notes b
 
 * [[Jacob Lurie]], [[LurieLecture3.ps:file]], talk notes by [[Alex Hoffnung]]
 
+* [[Jacob Lurie]], [[LurieLecture4.ps:file]], talk notes by [[Alex Hoffnung]]
+
 ##Bertrand Toen on Secondary K-theory ##
 
 * [[Bertrand Toen]], [[ToenLecture1.ps:file]], talk notes by [[Alex Hoffnung]]
