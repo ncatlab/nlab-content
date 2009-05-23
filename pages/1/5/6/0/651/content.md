@@ -466,7 +466,7 @@ This is automatic for the functional topology so the only reasonable question is
 However, a topology is smoothly regular if and only if the smooth functions generate the topology which means that the curvaceous topology is smoothly regular if and only if it agrees with the functional topology.
 Hence the definition.
 
-On another tack, it is straightforward to see what one version of compactness should be.
+On another tack, it is straightforward to see what one version of [[compact space|compactness]] should be.
 
 +-- {: mynumdef #FunComp}
 ###### Definition
