@@ -47,7 +47,7 @@ The [[category]] of Fr&#246;licher spaces is [[complete category|complete]], [[c
 
 ## Examples
 
-1. Any smooth manifold defines a Fr&#246;licher space with curves $C^\infty(\mathbb{R}, M)$ and functions $C^\infty(M, \mathbb{R})$.
+1. Any smooth [[manifold]] defines a Fr&#246;licher space with curves $C^\infty(\mathbb{R}, M)$ and functions $C^\infty(M, \mathbb{R})$.
 
 2. Taking quotients in the category of Fr&#246;licher spaces is straightforward: the smooth functions are those that pull-back to smooth functions on the original space.
 
