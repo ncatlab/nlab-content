@@ -48,15 +48,15 @@ People often write $hom(x,y)$, $hom_C(x,y)$, or $C(x,y)$ for the collection of m
 
 The classic example is [[Set]], the category with sets as objects and functions as morphisms, and the usual composition of functions as composition.  Here are some other famous examples, which arise as variations on this theme:
 
-* [[Vect]] - vector spaces as objects, linear maps as morphisms.
+* [[Vect]] - [[vector space]]s as objects, linear maps as morphisms.
 
-* [[Grp]] - groups as objects, homomorphisms as morphisms.
+* [[Grp]] - [[group]]s as objects, homomorphisms as morphisms.
 
-* [[Top]] - topological spaces as objects, continuous functions as morphisms.
+* [[Top]] - [[topological space]]s as objects, continuous functions as morphisms.
 
-* [[Diff]] - smooth manifolds as objects, smooth maps as morphisms.
+* [[Diff]] - smooth [[manifold]]s as objects, smooth maps as morphisms.
 
-* [[Ring]] - rings as objects, ring homomorphisms as morphisms.
+* [[Ring]] - [[ring]]s as objects, ring homomorphisms as morphisms.
 
 Note that in all these cases the morphisms are actually special sorts of functions.  That need not be the case in general!
 
