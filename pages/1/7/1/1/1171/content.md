@@ -1,13 +1,13 @@
 A __convergence space__ is a [[set]] $S$ together with a [[relation]] $\to$ from $\mathcal{F}S$ to $S$, where $\mathcal{F}S$ is the set of [[filter]]s on $S$, satisfying some axioms.  (If $F \to x$, we say that $F$ __converges__ to $x$.)  The axioms are these:
-1. If $F \subseteq G$ and $F \to x$, then $G \to x$;
-1. The principal ultrafilter $F_x$ at $x$ converges to $x$;
-1. If $F \to x$ and $G \to x$, then $F \cap G \to x$.
+1. Centred: The principal ultrafilter $F_x = \{ A \;|\; x \in A \}$ at $x$ converges to $x$;
+1. Isotone: If $F \subseteq G$ and $F \to x$, then $G \to x$;
+1. Filtered: If $F \to x$ and $G \to x$, then $F \cap G \to x$.
 
-It follows that $F \to x$ if and only if $F \cap F_x$ does.  Given that, the convergence space is defined precisely by specifying, for each point $x$, a filter of subsets of the set of subfilters of the principal ultrafilter at $x$.  (But that is sort of a tongue twister.)
+It follows that $F \to x$ if and only if $F \cap F_x$ does.  Given that, the convergence space is defined precisely by specifying, for each point $x$, a filter of subfilters of the principal ultrafilter at $x$.  (But that is sort of a tongue twister.)
 
 A **[[pseudotopological space]]** or **Choquet space** is a convergence space in which furthermore,
 
-* if $F$ is a filter such that for every filter $G \supseteq F$ there exists a filter $H \supseteq G$ with $H \to x$, then $F \to x$.
+* Star property: If $F$ is a filter such that for every proper filter $G \supseteq F$ there exists a proper filter $H \supseteq G$ with $H \to x$, then $F \to x$.
 
 In a pseudotopological space, we have $F\to x$ if and only if every ultrafilter refining $F$ converges to $x$ (assuming the [[axiom of choice]], or more precisely the [[ultrafilter theorem]]).  Thus a pseudotopology consists precisely of a convergence relation between ultrafilters and points satisfying the single axiom that $F_x$ converges to $x$, for every $x$.
 
