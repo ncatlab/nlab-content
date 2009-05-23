@@ -1,5 +1,5 @@
 A __ringed space__ is a pair $(X,O_X)$ where $X$ is a [[topological space]] and $O_X$ is a [[sheaf]] of unital [[ring]]s. The sheaf $O_X$ is called the __structure ring__ of the ringed space $(X,O_X)$. A __morphism of ringed spaces__ $(f,f^\sharp):(X,O_X)\to (Y,O_Y)$ is a pair
-where $f:X\to Y$ is a continuous map and the __comorphism__ $f^\sharp : O_Y\to f_* O_X$ is a morphism of [[sheaf|sheaves]] of rings over $Y$. Here $f_*$ denotes the [[direct image]] [[functor]] for [[sheaf|sheaves]]. Any sheaf of abelian modules $\mathcal{M}$ equipped with actions $O_X(U)\times\mathcal{M}(U)\to\mathcal{M}(U)$ making $\mathcal{M}(U)$ left $O_X$-modules, and such that the actions strictly commute with the restrictions,
+where $f:X\to Y$ is a continuous map and the __[[comorphism]]__ $f^\sharp : O_Y\to f_* O_X$ is a morphism of [[sheaf|sheaves]] of rings over $Y$. Here $f_*$ denotes the [[direct image]] [[functor]] for [[sheaf|sheaves]]. Any sheaf of abelian modules $\mathcal{M}$ equipped with actions $O_X(U)\times\mathcal{M}(U)\to\mathcal{M}(U)$ making $\mathcal{M}(U)$ left $O_X$-modules, and such that the actions strictly commute with the restrictions,
 is called a __sheaf of left $O_X$-modules__.
 
 #Remarks#
