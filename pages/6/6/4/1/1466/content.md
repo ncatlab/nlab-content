@@ -31,7 +31,7 @@ One feature of uniform space theory which is not available for general topologic
 
 * A uniform space $X$ is **complete** if every Cauchy net/filter in $X$ converges (not necessarily to a unique point).
 
-* A uniform space $X$ is **Hausdorff** or **separated** if every convergent net/filter converges to a unique point.  (This is a purely topological concept.)
+* A uniform space $X$ is **[[Hausdorff space|Hausdorff]]** or **separated** if every convergent net/filter converges to a unique point.  (This is a purely topological concept.)
 
 Every uniform space $X$ admits a Hausdorff completion $\overline{X}$, i.e., there is a uniformly continuous map $X \to \overline{X}$ (an embedding if $X$ is Hausdorff, dense in any case), characterized by the following universal property: 
 
