@@ -1,1 +1,3 @@
-redirect: [[Infinity-Grpd]]
+See [[Infinity-Grpd]].
+
+category: redirect
