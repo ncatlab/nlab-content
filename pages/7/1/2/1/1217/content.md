@@ -2,7 +2,7 @@
 
 [Kuo Tsai Chen](http://www.ams.org/mathscinet/search/publications.html?pg1=IID&s1=47865) described several categories of [[generalized smooth space|generalised smooth spaces]] in his works.
 Four are reproduced below.
-His initial motivation appears to be extending the theory of differential forms from ordinary manifolds to path spaces.
+His initial motivation appears to be extending the theory of differential forms from ordinary [[manifold]]s to path spaces.
 
 +-- {: myundef}
 ###### 1973
