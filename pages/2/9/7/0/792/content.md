@@ -2,9 +2,9 @@
 
 Recall that ( _geometric_ ) [[T-duality]] is an operation acting on tuples consisting of
 
-* a manifold $X$
+* a [[manifold]] $X$
   : with the structure of a principal torus bundle $T^n \to X \to X/T^n$
-* equipped with a gerbe 
+* equipped with a [[gerbe]] 
   : with connection
 * and possibly with elements in twisted K-theory
   : refined to elements in differential twisted K-theory
