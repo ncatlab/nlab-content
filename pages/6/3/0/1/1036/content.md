@@ -4,7 +4,7 @@ The category [[Top]] of [[topological space|topological spaces]] lacks many good
 * not [[locally presentable category|locally presentable]], and
 * not a [[topos]] or even a [[quasitopos]].
 
-The lack of cartesian closure and, to a lesser extent, local presentability, is especially problematic for [[homotopy theory]].  Many different solutions have been proposed, generally involving either restricting to a subcategory of [[Top]] (usually [[reflective subcategory|reflective]] or coreflective, so that it inherits completeness and cocompleteness), enlarging it to a supercategory, or some combination thereof.  Most involve restricting the topologies to those that can be specified on "small" (and in particular, compact) subsets.
+The lack of cartesian closure and, to a lesser extent, local presentability, is especially problematic for [[homotopy theory]].  Many different solutions have been proposed, generally involving either restricting to a subcategory of [[Top]] (usually [[reflective subcategory|reflective]] or coreflective, so that it inherits completeness and cocompleteness), enlarging it to a supercategory, or some combination thereof.  Most involve restricting the topologies to those that can be specified on "small" (and in particular, [[compact space|compact]]) subsets.
 
 A [[convenient category of topological spaces]] is, in particular, a cartesian-closed category of spaces.
 
