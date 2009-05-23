@@ -1,1 +1,3 @@
-redirect: [[infinity-stack]]
+See [[infinity-stack]].
+
+category: redirect
