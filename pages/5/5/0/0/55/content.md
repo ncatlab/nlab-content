@@ -3,7 +3,7 @@
 A _Lie algebroid_ is the [[horizontal categorification|many object version]] of a Lie algebra. There are various equivalent definitions:
 
 **Definition in terms of vector bundles with anchor map.**
-A Lie algebroid over a manifold $X$ is 
+A Lie algebroid over a [[manifold]] $X$ is 
 
  * a vector bundle $E \to X$;
 
