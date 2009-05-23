@@ -1,0 +1,96 @@
+## Idea
+
+A Banach space is both a [[vector space]] and a [[metric space]], in a compatible way.  The finite-dimensional examples are all of the form $\mathbb{R}^n$, which is quite familiar; the tricky bit is to let the dimension be infinite.  Examples may be drawn from [[measure theory]], [[Hilbert space]]s, and spaces of [[sequence]]s.
+
+## Definitions
+
+Let $V$ be a [[vector space]] over the field of [[real number]]s.  (One can generalise the choice of [[field]] somewhat.)  A **psuedonorm** on $V$ is a function
+$$ \| - \|: V \to \mathbb{R} $$
+such that:
+
+1.  $ \|0\| \leq 0 $;
+1.  $ \|r v\| = |r| \|v\| $ (for $r$ a scalar and $v$ a vector);
+1.  $ \|v + w\| \leq \|v\| + \|w\| $.
+
+It follows from the above that $\|v\| \geq 0$; in particular, $\|0\| = 0$.  A **norm** is a pseudonorm that satisfies a converse to this: $v = 0$ if $\|v\| = 0$.
+
+A norm on $V$ is **complete** if, given any infinite [[sequence]] $(v_1, v_2, \ldots)$ such that
+\[ \label{Cauchy} \lim_{m,n\to\infty} \left\| \sum_{i=m}^{m+n} v_i \right\| = 0 ,\]
+there exists a (necessarily unique) **sum** $S$ such that
+\[ \label{converge} \lim_{n\to\infty} \left\| S - \sum_{i=1}^n v_i \right\| = 0 ;\]
+we write
+$$ S = \sum_{i=1}^\infty v_i $$
+(with the right-hand side undefined if no such sum exists).
+
+Then a **Banach space** is simply a vector space equipped with a complete norm.  As in the real line, we have in a Banach space that
+$$ \left\| \sum_{i=1}^\infty v_i \right\| \leq \sum_{i=1}^\infty \|v_i\| ,$$
+with the left-hand side guaranteed to exist if the right-hand side exists as a finite real number (but the left-hand side may exist even if the right-hand side diverges, the usual distinction between absolute and conditional convergence).
+
+### Banach spaces as metric spaces
+
+The three axioms for a pseudonorm are very similar to the three axioms for a pseudo[[metric space|metric]].
+
+Indeed, in any pseudonormed vector space, let the **distance** $d(v,w)$ be
+$$ d(v,w) = \|w - v\| .$$
+Then $d$ is a pseudometric.  Conversely, given any pseudometric $d$ on a vector space $V$, let $\|v\|$ be
+$$ \|v\| = d(0,v) .$$
+Then $\|-\|$ satisfies the axioms (1--3) for a pseudonorm, except that it may satisfy (2) only for $r = \pm 1$.  It will actually be a pseudonorm iff the pseudometric satisfies a homogeneity rule:
+$$ d(r v,r w) = |r| d(v,w) .$$
+Thus pseudonorms correspond precisely to homogeneous pseudometrics.
+
+Similarly, norms correspond to homogenous metrics and complete norms correspond to complete homogeneous metrics.  Indeed, (eq:Cauchy) says that the sequence of partial sums is a [[Cauchy sequence]], while (eq:converge) says that the sequence of partial sums converges to $S$.
+
+Thus a Banach space may equivalently be defined as a vector space equipped with a complete homogeneous metric.  Actually, one usually sees a sort of hybrid approach: a Banach space is a normed vector space whose corresponding metric is complete.
+
+### Morphisms of Banach spaces
+
+If $V$ and $W$ are pseudonormed vector spaces, then the **norm** of a linear function $f: V \to W$ may be defined in either of these equivalent ways:
+
+*  $ \|f\| = \inf \{ \|f v\| \;|\; \|v\| \leq 1 \} $;
+*  $ \|f\| = \sup \{ r \;|\; \forall{v},\; \|f v\| \leq r \|v\| \} $.
+
+(Some other forms are sometimes seen, but these may break down in degenerate cases.)
+
+For finite-dimensional spaces, any linear map has a well-defined finite norm.  In general, the following are equivalent:
+
+*  $f$ is continuous (as measured by the pseudometrics on $V$ and $W$) at $0$;
+*  $f$ is continuous;
+*  $f$ is uniformly continuous;
+*  $\|f\|$ is finite.
+
+In this case, we say that $f$ is **bounded**.  (In [[constructive mathematics]], it is necessary to further require that $\|f\|$ be a located real number.)
+
+The bounded linear maps from $V$ to $W$ themselves form a pseudonormed vector space $\mathcal{B}(V,W)$.  This will be a Banach space if (and, except for degenerate cases of $V$, only if) $W$ is a Banach space.  In this way, the category $Ban$ of Banach spaces is a [[closed category]] with $\mathbb{R}$ as the unit.
+
+The clever reader will note that we have not yet defined $Ban$ as a category!  Na&#239;vely, one might accept all bounded linear maps between Banach spaces as morphisms, but this doesn\'t give a good notion of [[isomorphism]].  Instead, we take a morphism to be a **short** linear map: a linear map $f$ such that $\|f\| \leq 1$.  Then the isomorphisms are the (surjective) linear isometries.
+
+Note that this makes the 'underlying set' (in the sense of $Ban$ as a [[concrete category]] like any closed category) of a Banach space its (closed) **unit ball**
+$$ Hom_Ban(\mathbb{R},V) \cong \{ v \;|\; \|v\| \leq 1 \} $$
+rather than the set of all vectors in $V$ (the underlying set of $V$ as a vector space).
+
+## Examples
+
+Many examples of Banach spaces are parametrised by an exponent $1 \leq p \leq \infty$.  (Sometimes one can also try $0 \leq p \lt 1$, but these generally don\'t give Banach spaces.)
+
+*  $\mathbb{R}^n$ is a Banach space with
+   $$ \|(x_1,\ldots,x_n)\|_p = \root p {\sum_i |x_i|^p} .$$
+   (We can allow $p = \infty$ by taking a limit; the result is that $\|x\|_\infty = \max_i |x_i|$.)  Every finite-dimensional Banach space is isomorphic to this for some $n$ and $p$; in fact, once you fix $n$, the value of $p$ is irrelevant up to isomorphism.
+*  Let $\ell^p$ be the set of infinite [[sequence]]s $(x_1,x_2,\ldots)$ of real numbers such that
+   $$ \|(x_1,x_2,\ldots)\|_p = \root p {\sum_i |x_i|^p} $$
+   exists as a finite real number.  (The only question is whether the sum converges.  Again $p = \infty$ is a limit, with the result that $\|x\|_\infty = \sup_i |x_i|$.)  Then $\ell^p$ is a Banach space with that norm.  These are all versions of $\mathbb{R}^\infty$, but they are no longer isomorphic for different values of $p$.
+*  Any [[Hilbert space]] is Banach space; in principle, this corresponds to $p = 2$.
+*  On any [[measure space]] $X$, let $\mathcal{L}^p(X)$ be the set of measurable almost-everywhere-defined real-valued functions on $X$ such that
+   $$ \|f\|_p = \root p {\int |f|^p} $$
+   exists as a finite real number.  (Again, the only question is whether the integral converges.  And again $p = \infty$ is a limit, with the result that $\|f\|_\infty$ is the essential supremum of $|f|$.)  As such, $\mathcal{L}^p$ is a complete pseudonormed vector space; but we identify functions that are equal almost everywhere to make $\mathcal{L}^p$ into a Banach space.
+
+The last example actually includes all of the other examples, for appropriate choices of $X$.
+
+## Categorial operations on Banach spaces
+
+To describe:
+*  product ($p = \infty$);
+*  coproduct ($p = 1$);
+*  dual ($p + q = p q$);
+*  whether $Ban$ can be made closed monoidal;
+*  completion ($Ban$ is a [[reflective subcategory]] of $PsNVect$).
+*  $Ban$ as a (somewhat larger) category with duals.
