@@ -1,1 +1,3 @@
-redirect: [[strict omega-groupoid]]
+See [[strict omega-groupoid]].
+
+category: redirect
