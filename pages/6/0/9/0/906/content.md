@@ -23,7 +23,7 @@ A __sequential topological space__ is a [[topological space]] $X$ such that a su
 
 * The category of sequential spaces is a [[coreflective subcategory]] of the category of all topological spaces.
 
-* The category of sequential spaces is a [[reflective subcategory]] of the category of [[subsequential space]]s, much as $Top$ itself is a reflective subcategory of the category of all pseudotopological spaces.
+* The category of sequential spaces is a [[reflective subcategory]] of the category of [[subsequential space]]s, much as $Top$ itself is a reflective subcategory of the category of all [[pseudotopological space]]s.
 
 
 # References #
