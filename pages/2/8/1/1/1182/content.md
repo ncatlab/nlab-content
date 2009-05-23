@@ -81,7 +81,7 @@ Very generally, the point of _geometric $\infty$-function theory_ is to construc
 
 The central tool, from which this entry draws its title, is an [[(infinity,1)-category|(infinity,1)-categorical]] version of [[geometric function theory]]: 
 
-the rough idea is that the data the [[FQFT]] assigns to a manifold $\Sigma$ is a collection $Z(\Sigma)$ of $\infty$-functions -- the physical _fields_ -- on $\Sigma$, or, more generally, sections of some $\infty$-bundle on $\Sigma$, and that the morphism $Z(\Sigma) : Z(\Sigma_{in}) \to Z(\Sigma_{out})$ assigned by the [[FQFT]] to a [[cobordism]] $\Sigma : \Sigma_{in} \to \Sigma_{out}$
+the rough idea is that the data the [[FQFT]] assigns to a [[manifold]] $\Sigma$ is a collection $Z(\Sigma)$ of $\infty$-functions -- the physical _fields_ -- on $\Sigma$, or, more generally, sections of some $\infty$-bundle on $\Sigma$, and that the morphism $Z(\Sigma) : Z(\Sigma_{in}) \to Z(\Sigma_{out})$ assigned by the [[FQFT]] to a [[cobordism]] $\Sigma : \Sigma_{in} \to \Sigma_{out}$
 is obtained from a [[groupoidification|pull-push-operation]] on the objects of $Z(\Sigma_{in})$ through a [[span]] to obtain objects in $Z(\Sigma_{out})$.
 
 This picture arises  naturally and is maybe best understood in terms of [[FQFT]]s that arise as [[sigma-model]]s, namely which are [[representable functor|represented]] by a _target space_ object $P$:
