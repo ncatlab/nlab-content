@@ -2,9 +2,9 @@
 
 The notion of a [[category]] can be formulated [[internalization|internal]] to any other category with enough [[pullback|pullbacks]]. By regarding [[group|groups]] as one-object [[groupoid|groupoids]], this generalizes the familiar way in which, for instance
 
- * topological groups are groups _internal to topological spaces_
+ * topological groups are groups _internal to [[topological space]]s_
  
- * Lie groups are groups _internal to (smooth) manifolds_.
+ * Lie groups are groups _internal to (smooth) [[manifold]]s_.
 
 #Definition#
 
