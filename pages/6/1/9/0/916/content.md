@@ -24,7 +24,7 @@ We consider two partial functions (with the same given source and target) to be 
 
 In secondary-school mathematics, one often makes functions partial by fiat, just to see if students can calculate the domains of composite functions and the like.  This is not (only) busywork, as in applications one often has a function given by a formula that is really valid only on a certain domain.  However, in more sophisticated analyses (such as those that Lawvere and his followers propose for physics and synthetic geometry), these domains and the total functions on them become the primary objects of study, with the partial functions being secondary (as $\iota$ is seen as merely a way to place _coordinates_ on $D$).
 
-In analysis, one often considers partial functions whose domains are required to be intervals in the real line, regions of the complex plane, or dense subsets of a Banach space.
+In analysis, one often considers partial functions whose domains are required to be intervals in the real line, regions of the complex plane, or dense subsets of a [[Banach space]].
 
 +-- {: .query}
 
