@@ -11,10 +11,34 @@ So, if you feel people's attention should be drawn to some changes you make, ple
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).
 
 ***
+
 # 2009-05-23 #
-   * [[Bruce Bartlett|Bruce]]: 
-      * Added example of the internal hom in super vector spaces to [[internal hom]].
-      * Urs: I tried to understand what went wrong with your query box example for [[Tychonoff theorem]] but I think the roll-back has removed the original problem from the records.
+
+*  [[Toby Bartels]]:
+   *  Another example, Banach spaces, at [[internal hom]].
+   *  Looking at other things that Urs has done, the problem may be this:  If you want to put an equation within a bullet list, then you either have to put no blank lines between the equation and the surrounding text
+$$
+like this
+$$
+or put enough spacing before the equation to match the indentation of the list
+
+      $$
+      like this
+      $$
+
+      or, of course, both
+      $$
+      like this
+      $$
+      but it will fall outside of the bullet list if you do neither
+
+$$
+like this
+$$
+
+* [[Bruce Bartlett|Bruce]]: 
+   * Added example of the internal hom in super vector spaces to [[internal hom]].
+   * Urs: I tried to understand what went wrong with your query box example for [[Tychonoff theorem]] but I think the roll-back has removed the original problem from the records.
 
 # 2009-05-22 #
 
