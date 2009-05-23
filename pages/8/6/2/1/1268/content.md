@@ -1,6 +1,6 @@
 #Definition#
 
-A _D-module_ is a [[abelian sheaf|sheaf]] of [[module]]s over the [[sheaf]] $D_X$ of [[regular differential operator]]s on a 'variety" $X$ (the latter notion depends on whether we work over a scheme, manifold, analytic complex manifold etc.). As $O_X$ is a subsheaf of $D_X$ consisting of the constant differential operators (multiplications by the sections of structure sheaf), every $D_X$-module is an $O_X$-module, and (quasi)coherence of $D_X$-modules implies the (quasi)coherence od a $D_X$-module just as $O_X$-module (but not viceversa). 
+A _D-module_ is a [[abelian sheaf|sheaf]] of [[module]]s over the [[sheaf]] $D_X$ of [[regular differential operator]]s on a 'variety" $X$ (the latter notion depends on whether we work over a [[scheme]], [[manifold]], analytic complex manifold etc.). As $O_X$ is a subsheaf of $D_X$ consisting of the constant differential operators (multiplications by the sections of structure sheaf), every $D_X$-module is an $O_X$-module, and (quasi)coherence of $D_X$-modules implies the (quasi)coherence od a $D_X$-module just as $O_X$-module (but not viceversa). 
 
 #Meaning and usage#
 
