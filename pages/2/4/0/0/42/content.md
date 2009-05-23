@@ -1,7 +1,7 @@
 
 #Idea#
 
-There are different ways to define a differential volume element on a smooth manifold. Some of these definitions can be carried over to supergeometry, others cannot. The possibly most familiar way of talking about differential volume elements, in terms of top-degree differential forms, does _not_ carry over to supermanifolds.
+There are different ways to define a differential volume element on a smooth [[manifold]]. Some of these definitions can be carried over to supergeometry, others cannot. The possibly most familiar way of talking about differential volume elements, in terms of top-degree differential forms, does _not_ carry over to [[supermanifold]]s.
 
 
 
