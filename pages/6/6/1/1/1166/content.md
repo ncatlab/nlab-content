@@ -19,7 +19,7 @@ The final property can be stated less [[constructive mathematics|constructively]
 
 Note that this definition matches the definition of [[pseudotopological space]] except for the restriction to sequences instead of general [[net]]s.  Accordingly, one may call a subsequential space a __sequential pseudotopological space__.
 
-A subsequential space is said to be **sequentially Hausdorff** if each sequence converges to at most one limit.
+A subsequential space is said to be **sequentially [[Hausdorff space|Hausdorff]]** if each sequence converges to at most one limit.
 
 
 # Properties
