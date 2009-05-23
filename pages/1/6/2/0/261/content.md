@@ -64,15 +64,16 @@ where the product on the right is the cartesian product in [[Set]].
 
 One cental reason why simplicial sets are useful and important is that this simple monoidal structure ("disturbingly simple minded" in the words of [Friedman08, p. 24](http://arxiv.org/PS_cache/arxiv/pdf/0809/0809.4221v1.pdf#page=24)) actually does fully caopture the standard monoidal structure on [[topological space]]s under [[geometric realization]] $|\cdot| : SSet \to Top$
 
-**Proposition**
++-- {: .un_prop}
+###### Proposition
 
 For $S$ and $T$ simplicial sets, we have
 $$
   |S \times T| \simeq |S| \times |T|
   \,,
 $$
-where on the right the cartesian product is in the category of compactly generated Hausdorff spaces.
-
+where on the right the cartesian product is in the [[nice category of spaces|nice category]] of compactly generated Hausdorff spaces.
+=--
 
 ## closed structure ##
 
