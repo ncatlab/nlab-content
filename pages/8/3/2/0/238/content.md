@@ -15,6 +15,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 # 2009-05-23 #
 
 *  [[Toby Bartels]]:
+   *  Created [[Banach space]]s.  I need to at least describe products and coproducts in $Ban$.
    *  Another example, Banach spaces, at [[internal hom]].
    *  Looking at other things that Urs has done, the problem may be this:  If you want to put an equation within a bullet list, then you either have to put no blank lines between the equation and the surrounding text
 $$
