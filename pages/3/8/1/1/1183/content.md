@@ -17,7 +17,7 @@ These cases describe non-topological quantum field theories. Here the formalizat
 
 ## Non-topological $\sigma$-models ##
 
-* The canonical textbook example of a quantum mechanical system is of this form for $n=1$: A line bundle with connection $E \to X$ on a Riemannian manifold $X$ induces the 1-dimensional quantum field theory which is the quantum mechanics of a point particle which propagates on $X$, subject to the forces of gravitation (given by the metric on $X$) and electromagnetism (given by the line bundle with connection). The Hamilton operator encoding this quantum dynamics in this case is the Laplace-operator of $T X$ twisted by the line bundle $E$.
+* The canonical textbook example of a quantum mechanical system is of this form for $n=1$: A line bundle with connection $E \to X$ on a [[Riemannian manifold]] $X$ induces the 1-dimensional quantum field theory which is the quantum mechanics of a point particle which propagates on $X$, subject to the forces of gravitation (given by the metric on $X$) and electromagnetism (given by the line bundle with connection). The Hamilton operator encoding this quantum dynamics in this case is the Laplace-operator of $T X$ twisted by the line bundle $E$.
 
 * Generalizing in the above example the line bundle $E$ by an abelian gerbe with a connection yields a background for a 2-dimensional $\sigma$-model which mayb be thought of as describing the propgation of a string.  The best-studied version of this is the case where $X = G$ is a Lie group, in which case this $\sigma$-model is known as the _Wess--Zumino--Witten model_.
 
