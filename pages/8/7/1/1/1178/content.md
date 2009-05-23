@@ -24,7 +24,7 @@ Possibly the most striking consequence of the realization that [[set theory]] is
 
 large classes of general constructions and facts that work within [[Set]] (namely all those that make sense within [[constructive mathematics]]) actually make sense in every other [[topos]] (with [[natural numbers object]]), too. Using the concept of [[internalization]], the category-theoretic description of [[set theory]] extends to a considerable unification of concepts.  
 
-In particular, every [[category of sheaves]] is a [[topos]] and therefore allows to be treated as a category of generalized sets. For instance the theory of [[generalized smooth space]]s, which underlies [[Lie theory]] is the study of the [[topos]] of [[sheaf|sheaves]] on the category [[Diff]] of manifolds. Constructions in this [[topos]], for instance involving [[group]]s, will be smooth versions of constructions in [[Set]], for instance [[Lie groupoid|Lie group]]s.
+In particular, every [[category of sheaves]] is a [[topos]] and therefore allows to be treated as a category of generalized sets. For instance the theory of [[generalized smooth space]]s, which underlies [[Lie theory]] is the study of the [[topos]] of [[sheaf|sheaves]] on the category [[Diff]] of [[manifold]]s. Constructions in this [[topos]], for instance involving [[group]]s, will be smooth versions of constructions in [[Set]], for instance [[Lie groupoid|Lie group]]s.
 
 
 
