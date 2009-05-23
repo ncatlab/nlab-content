@@ -45,7 +45,7 @@ Taking $Z$ to be the initial object, we see that $C(Y,X)\cong *$ for any objects
 
 Of course, in any cartesian closed category every object is exponentiable and exponentiating.  In general, exponentiable objects are more common and important than exponentiating ones, since the existence of $X^Y$ is usually more related to properties of $Y$ than properties of $X$.
 
-* In [[Top]] (the category of _all_ topological spaces), locally compact Hausdorff spaces are exponentiable.  Note, though, that most [[nice category of spaces|nice categories of spaces]] are cartesian closed.
+* In [[Top]] (the category of _all_ topological spaces), [[locally compact Hausdorff space]]s are exponentiable.  Note, though, that most [[nice category of spaces|nice categories of spaces]] are cartesian closed.
 
 * There are similar characterizations of exponentiable [[locale]]s and [[topos]]es.
 
