@@ -4,7 +4,7 @@ For $X$ a smooth space, there are useful refinements of the [[fundamental groupo
 
 #Definition#
 
-Let $X$ be a smooth manifold.
+Let $X$ be a smooth [[manifold]].
 
 +--{: .un_defn}
 ###### Definition
