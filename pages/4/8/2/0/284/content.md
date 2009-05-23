@@ -90,7 +90,7 @@ themselves form a higher category.
 
 As discussed at  [[homotopy hypothesis]] there is a Quillen equivalence of the [[model category|model categories]] of 
 
-* the [[model structure on topological spaces|standard model structure]] on the category [[Top]] of compactly generalted weakly Hausdorff [[topological space]]s;
+* the [[model structure on topological spaces|standard model structure]] on the [[nice category of spaces|nice category]] of compactly generated weakly Hausdorff [[topological space]]s;
 
 * the [[model structure on simplicial sets|standard model structure]] on the category of [[Kan complex]]es.
 
