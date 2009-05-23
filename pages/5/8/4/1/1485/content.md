@@ -38,6 +38,12 @@ is a morphism of $G$ whenever $(U, \phi)$ is a coordinate chart of $x \in M$, an
 
 * Alternatively, atlases are ordered by inclusion, and two atlases define the same manifold structure on $M$ if they have a common upper bound. Equivalently, two atlases define the same manifold structure if each chart of one is compatible with each chart of the other. Or, one could extend any atlas to the (unique) maximal atlas containing it, which consists of all charts compatible with each of the charts in the original atlas, and simply identify a manifold structure with a maximal atlas. 
 
++--{.query}
+_Todd_: I think I'd want to hold off on calling these morphisms (where one uses a general continuous $f: M \to N$), because it may give rise to later confusion when one settles down to define categories of manifolds (in the usual way, with manifolds of varying dimensions). For example, even between manifolds of the same dimension, we'd want constant maps as part of that category, but constant maps are (almost) never morphisms in the sense here. I just think we're asking for trouble here. 
+
+[In fact, it seems to me that the pseudogroup approach may be a bit limiting: really we should be reformulating the definitions so that the pseudogroups (for varying $X$, like $X = \mathbb{R}^n$) are part of a larger category, e.g., the category of open maps in Euclidean space and smooth maps between them, so that it becomes easier to say what we mean by a map between manifolds of the same type (i.e., real, complex, PL, etc.). But I've not seen this actually carried out, and it looks like this would involve some original research which I haven't had time to, um, research yet.] 
+=-- 
+
 ## Examples 
 
 If the term "manifold" appears without further qualification, what is usually meant is a **smooth $n$-manifold** of some [[natural number]] **dimension** $n$: a $G$-manifold where $G$ is the pseudogroup of invertible $C^{\infty}$ maps between open sets of $\mathbb{R}^n$. Replacing $\mathbb{R}^n$ here by a half-space $\{x \in \mathbb{R}^n: x_1 \geq 0\}$, one obtains the notion of smooth **manifold with boundary**. Or, replacing $\mathbb{R}^n$ here by the $n$-cube $I^n$, one obtains the notion of (smooth) $n$-**manifold with (cubical) corners**.  Morphisms of manifolds are here called **smooth maps**, and isomorphisms are called **diffeomorphisms**.  (In manifold theory, one usually reserves the term **smooth function** for smooth maps to $\mathbb{R}$.)
@@ -60,7 +66,7 @@ obtained by dividing by the equivalence relation
 
 $$(p \in U_\alpha, v) \sim (p \in U_\beta, g_{\alpha\beta}(p) v)$$ 
 
-where $p \in U_\alpha \cap U_\beta$, and $g_{\alpha\beta}(p)$ is the result of differentiating the transition function $\phi_{\alpha\beta}$ at the point $\phi_\alpha(p)$. We thus obtain a covering $U_\alpha \times \mathbb{R}^n$ of $T M$, and these form coordinate charts of a smooth manifold structure on $T M$ in a more or less evident way. 
+where $p \in U_\alpha \cap U_\beta$, and $g_{\alpha\beta}(p) \in GL(\mathbb{R}^n)$ is the result of differentiating the transition function $\phi_{\alpha\beta}$ at the point $\phi_\alpha(p)$. We thus obtain a covering $U_\alpha \times \mathbb{R}^n$ of $T M$, and these form coordinate charts of a smooth manifold structure on $T M$ in a more or less evident way. There is an obvious projection map $\pi: T M \to M$, called the _tangent bundle_; the fiber $\pi^{-1}(p)$ over a point $p \in M$ is called the _tangent space_ at $p$, denoted $T_p M$. Elements $v \in T_p M$ are called _tangent vectors_ at $p$. 
 
 * It is not immediately apparent that this construction yields the same manifold (in the sense described earlier) independent of the atlas chosen. To make this manifest, it is preferable to deal with coordinate-free expressions, defining for example tangent vectors with reference to the sheaf of smooth functions on $M$. We discuss this below. 
 
@@ -74,4 +80,4 @@ $$g_{\alpha \gamma} = g_{\beta\gamma} \circ g_{\alpha\beta}: U_{\alpha} \cap U_\
 
 $$\qquad g_{\alpha\alpha} = 1: U_{\alpha} \to GL(\mathbb{R}^n)$$ 
 
-and the same type of 1-cocycle date can be used to define any $n$-dimensional [[vector bundle]], indeed any fiber [[bundle]] with structure group $GL(\mathbb{R}^n)$. 
+These 1-cocycle data make the tangent bundle an $n$-dimensional [[vector bundle]] with structure group $GL(\mathbb{R}^n)$. 
