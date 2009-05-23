@@ -2,7 +2,7 @@
 
 Smooth Deligne cohomology in degree $n$, 
 denoted $\bar H^n(X,\mathbb{Z}) = H(X, \mathbb{Z}(n)^\infty,D)$,
-of a smooth manifold $X$
+of a smooth [[manifold]] $X$
 is a realization of the 
 [[differential cohomology|differential refinement]] (or smooth extension) $\bar H^n(X,\mathbb{Z})$ of the 
 [[integral cohomology]] $H^n(X, \mathbb{Z})$ of $X$ in terms of
