@@ -21,4 +21,4 @@ An **algebroid** is a [[category]] [[enriched category|enriched over]] ([[Vect]]
 * Replacing plain vector spaces with chain complexes of vector spaces leads to an $\infty$-version of algebroids:
 a category enriched in chain complexes, which following the above reasoning could justly be called a _DG algebroid_  is usually called a _DG-category_. 
 
-* Replacing plain vector spaces with Banach spaces leads to a $C^*$-version of algebroids: a category enriched in Banach spaces with some extra structure, which following the above reasoning could justly be call a _$C^*$-algebroid_ is usually called a $C^*$-category. See [[spaceoid]]s.
+* Replacing plain vector spaces with [[Banach space]]s leads to a $C^*$-version of algebroids: a category enriched in Banach spaces with some extra structure, which following the above reasoning could justly be call a _$C^*$-algebroid_ is usually called a $C^*$-category. See [[spaceoid]]s.
