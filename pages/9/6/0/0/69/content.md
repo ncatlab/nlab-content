@@ -10,7 +10,7 @@ $$
 
 #Formulation in terms of nonabelian cohomology#
 
-This can be reformulated as follows: for $X$ a manifold let
+This can be reformulated as follows: for $X$ a [[manifold]] let
 $hom(X,G)$ denote the [[internal hom]] of [[groupoid]]s (or of categories with topological or smooth structure), with $X$ regarded as the [[discrete category|discrete]] groupoid over $X$. We can regard this as the groupoid of _trivial_ $G$-principal bundles over $X$:
 
 This is contravariantly functorial in $X$ and indeed yields a groupoid-valued presheaf
