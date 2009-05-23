@@ -8,6 +8,34 @@ naturally.  The rightward map here is often called __currying__, especially in a
 
 Every closed category may be seen as a category [[enriched category|enriched]] over itself.  Accordingly, an internal hom is a special case of a [[hom-object]].
 
+## Examples of internal homs
+
+The following examples are meant to illustrate the concept of an 'internal hom', hopefully showing the utility of the concept.
+
+### Internal hom for super vector spaces
+The category $SVect$ of [[super vector space]]s has objects $\mathbb{Z}/2$-[[graded vector space]]s with morphisms being _even_ linear maps between them (linear maps which send even things to even things and odd things to odd things):
+$$
+ Hom_SVect (V, W) = Even Lin(V,W).
+$$
+This convention allows one nicely to capture the concepts of superalgebra and so on in succinct categorical terms. But occasionally one does need to refer to the _odd_ linear maps. This is the function of the internal hom:
+$$
+ hom_SVect (V, W) = Lin(V,W).
+$$
+Note that $hom_{SVect}$ is indeed a super vector space, with the even elements being those maps which preserve the grading and the odd elements being those which change it. One uses this definition to turn SVect into a [[closed monoidal category]]. 
+
+### Internal hom for Banach spaces
+A similar thing happens in the category $Ban$ of [[Banach space]]s.  The external hom consists of only the linear maps bounded by $1$:
+$$ Hom_Ban(V,W) = \{ f: Lin(V,W) \;|\; \|f\| \leq 1 \} .$$
+This definition of morphism recovers the proper notion of [[isomorphism]] of Banach spaces, as well as defining the [[product]] and [[coproduct]] as the [[direct sum]] completed with $p = 1$ or $p = \infty$ respectively.
+
+But the internal hom is the Banach space of all bounded linear maps:
+$$ hom_Ban(V,W) = \{ f: Lin(V,W) \;|\; \|f\| \lt \infty \} .$$
+This is a Banach space and makes $Ban$ into a [[closed category]].
+
+## Discussion
+
+Here\'s some discussion on notation:
+
 +-- {: .query}
 
 _[[Ronnie Brown|Ronnie]]_: I have found it convenient in a number of categories to use the convention that if say the set of morphisms is $hom(x,y)$ then the internal hom when it exists is $HOM(x,y)$. In particular we have the exponential law for categories 
@@ -45,18 +73,3 @@ Probably it was a mistake to use the letter $B$ again.  I think that the idea wa
 By 'groupoid theorists descended from Brandt' I really meant all those who see groupoids as generalised groups (a single set with a partial binary operation satisfying various conditions) rather than those who see them as special kinds of categories (a set of objects, a set ---or even doubly-indexed family of sets--- of isomorphisms, and so on; while it is perfectly possible to view general categories in the Brandt-like way, that seems pretty rare).
 
 =--
-
-## Examples of internal homs
-
-The following examples are meant to illustrate the concept of an 'internal hom', hopefully showing the utility of the concept.
-
-### Internal hom for super vector spaces
-The category SVect of super vector spaces has objects $\mathbb{Z}/2$-graded vector spaces with morphisms being _even_ morphisms between them (morphisms which send even things to even things and odd things to odd things):
- \[
- \text{Hom}_\text{SVect} (V, W) = \text{even linear maps from } V \text{ to } W.
-\]
-This convention allows one nicely to capture the concepts of superalgebra and so on in succinct categorical terms. But occasionally one does need to refer to the _odd_ linear maps. This is the function of the internal hom:
- \[
- \text{hom}_\text{SVect} (V, W) = \text{all linear maps from } V \text{ to } W.
-\]
-Note that $hom_{SVect}$ is indeed a super vector space, with the even elements being those maps which preserve the grading and the odd elements being those which change it. One uses this definition to turn SVect into a [[closed monoidal category]]. 
