@@ -8,7 +8,7 @@ It is a general phenomenon that
 
 Here we take a category to be the "nicer" the more limits, colimits etc. it admits.
 
-On the other hand, a "nice object" is, loosely speaking, an object in some context which has more special properties than the generic object in that context will have. For instance manifolds are nice objects in the context of [[generalized smooth space|generalized smooth spaces]].
+On the other hand, a "nice object" is, loosely speaking, an object in some context which has more special properties than the generic object in that context will have. For instance [[manifold]]s are nice objects in the context of [[generalized smooth space|generalized smooth spaces]].
 
 Clearly, the more extra properties one imposes, the less likely it is that these are preserved under limits and colimits. For instance 
 
