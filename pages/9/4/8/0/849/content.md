@@ -45,3 +45,18 @@ Probably it was a mistake to use the letter $B$ again.  I think that the idea wa
 By 'groupoid theorists descended from Brandt' I really meant all those who see groupoids as generalised groups (a single set with a partial binary operation satisfying various conditions) rather than those who see them as special kinds of categories (a set of objects, a set ---or even doubly-indexed family of sets--- of isomorphisms, and so on; while it is perfectly possible to view general categories in the Brandt-like way, that seems pretty rare).
 
 =--
+
+## Examples of internal homs
+
+The following examples are meant to illustrate the concept of an 'internal hom', hopefully showing the utility of the concept.
+
+### Internal hom for super vector spaces
+The category SVect of super vector spaces has objects $\mathbb{Z}/2$-graded vector spaces with morphisms being _even_ morphisms between them (morphisms which send even things to even things and odd things to odd things):
+ \[
+ \text{Hom}_\text{SVect} (V, W) = \text{even linear maps from } V \text{ to } W.
+\]
+This convention allows one nicely to capture the concepts of superalgebra and so on in succinct categorical terms. But occasionally one does need to refer to the _odd_ linear maps. This is the function of the internal hom:
+ \[
+ \text{hom}_\text{SVect} (V, W) = \text{all linear maps from } V \text{ to } W.
+\]
+Note that $hom_{SVect}$ is indeed a super vector space, with the even elements being those maps which preserve the grading and the odd elements being those which change it. One uses this definition to turn SVect into a [[closed monoidal category]]. 
