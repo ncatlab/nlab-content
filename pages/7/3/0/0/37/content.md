@@ -1,6 +1,6 @@
 #Definition: Stacky Lie groupoid#
 
-A _stacky Lie groupoid_ (in contrast to a [[Lie groupoid]]) is an [[internal category|internal groupoid]] in the category of [[differentiable stack|differentiable stacks]], such that the space of objects is an ordinary manifold.
+A _stacky Lie groupoid_ (in contrast to a [[Lie groupoid]]) is an [[internal category|internal groupoid]] in the category of [[differentiable stack|differentiable stacks]], such that the space of objects is an ordinary [[manifold]].
 
 Notice that differentiable stacks are equivalent to Lie groupoids modulo [[homotopy theory|Morita equivalence]].
 
