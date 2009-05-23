@@ -1,6 +1,6 @@
 #Idea#
 
-$n$-Dimensional manifolds (possibly and usually equipped with certain structure, notably for instance with orientation) should naturally form an [[(infinity,n)-category]] of [[extended cobordism]]s whose
+$n$-Dimensional [[manifold]]s (possibly and usually equipped with certain structure, notably for instance with orientation) should naturally form an [[(infinity,n)-category]] of [[extended cobordism]]s whose
 
 * [[object]]s are 0-dimensional (oriented) manifolds (disjoint unions of (oriented) points);
 
