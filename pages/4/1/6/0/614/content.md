@@ -5,7 +5,7 @@ The basic idea is that of a topological space in which points can be compared us
 
 # Definitions #
 
-* A **partially ordered space** or **pospace**, $X$, is a topological space with a (globally defined) closed partial order, $\leq$, so considering $\leq$ as a subset of $X \times X$, it is a closed subset.  (It follows that $X$ must be a Hausdorff space.)
+* A **partially ordered space** or **pospace**, $X$, is a topological space with a (globally defined) closed partial order, $\leq$, so considering $\leq$ as a subset of $X \times X$, it is a closed subset.  (It follows that $X$ must be a [[Hausdorff space]].)
 
 * A **dimap** $f: X \to Y$ between two pospaces, $X$ and $Y$, is a continuous map that respects the partial order:
 $$x \leq x' \Rightarrow f(x) \leq f(x').$$
