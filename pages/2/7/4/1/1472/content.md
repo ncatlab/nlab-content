@@ -23,7 +23,7 @@ For instance just recently with the [[generalized tangle hypothesis]] taking con
 
 If we take the presently available evidence of the picture that is emerging here, then it appears that all $n$-categorical phenomena in physics that have been identified already in the past may be fit into and organized according to the following pattern:
 
-* **0th quantization: classical physics**: quantization is quantization of "action functionals". Action functionals in fundamental physics tend to arise in the form of holonomies of higher [[schreiber:differential nonabelian cohomology|differential cocycles]]. For instance the Chern-Simons action functional is the 3-dimensional holonomy of a $U(1)$ 2-gerbe, the Wess-Zumino model term the 2-dimensional holonomy of a 1-gerbe, and the gauge coupling term of the ordinary charged particle (an electron, or a quark) the ordinary holonomy of a bundle with connection. So  0th quantized physics is about parallel transport $n$-functors $\nabla$ that send "classical trajectories" to the "phases" assigned to them by the "gauge coupling". So 0th quantization is controled by $n$-functors of the form
+* **0th quantization: classical physics**: quantization is quantization of "action functionals". Action functionals in fundamental physics tend to arise in the form of holonomies of higher [[schreiber:Differential Nonabelian Cohomology|differential cocycles]]. For instance the Chern-Simons action functional is the 3-dimensional holonomy of a $U(1)$ 2-gerbe, the Wess-Zumino model term the 2-dimensional holonomy of a 1-gerbe, and the gauge coupling term of the ordinary charged particle (an electron, or a quark) the ordinary holonomy of a bundle with connection. So  0th quantized physics is about parallel transport $n$-functors $\nabla$ that send "classical trajectories" to the "phases" assigned to them by the "gauge coupling". So 0th quantization is controled by $n$-functors of the form
 
   * classical action: target space $\to$ phases
 
@@ -46,10 +46,10 @@ We will now list $n$-categorical physics ordered according to this rough pattern
 
 * background fields -- forces: 
 
-  * integral description: [[schreiber:differential nonabelian cohomology|higher gauge theory]]: the description of _background fields_: higher bundles with connection
+  * integral description: [[schreiber:Differential Nonabelian Cohomology|higher gauge theory]]: the description of _background fields_: higher bundles with connection
 
 
-  * differential description: [[rational homotopy theory]] -- [[Lie-infinity-algebroid]]
+  * differential description: [[rational homotopy theory]] -- [[Lie infinity-algebroid]]
 
 * tools for handling $\infty$-categorical action functionals
 
