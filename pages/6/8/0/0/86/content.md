@@ -2,7 +2,7 @@
 
 BV theory is the answer to two different questions:
 
- * **Hamiltonian BV**: taking quotients of Poisson manifolds by group actions;
+ * **Hamiltonian BV**: taking quotients of [[Poisson manifold]]s by group actions;
 
  * **Lagrangian BV**: integrating forms over [[NQ-supermanifold]]s.
 
