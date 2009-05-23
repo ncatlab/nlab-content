@@ -8,7 +8,7 @@ which sends every Lie group to its Lie algebra and every homomorphism of Lie gro
 
 Lie's three theorems establish the following properties of this functor.
 
-  1. **Lie's first theorem** is today regarded as lacking a good notion of differentiable manifold;
+  1. **Lie's first theorem** is today regarded as lacking a good notion of differentiable [[manifold]];
 
   2. **Lie II** 
      If $G$ and $H$ are Lie groups 
