@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-24 #
 
+*  [[Toby Bartels]]:
+   *  An answer for [[Mike Shulman]] at [[subsequential space]].
+   *  A question for [[Bruce Bartlett]] at [[semisimple category]].
+
 * [[Todd Trimble|Todd]]: Added a section "morphisms of manifolds" to [[manifold]] which attempts to enlarge the notion of pseudogroup, so as to get general notions of map for general notions of manifold. However, this is "original research" and should be vetted -- I don't see the enlarged notion (or an equivalent) in any of the literature I've read. 
 
 * [[Bruce Bartlett|Bruce]]: started/added material to some pages related to fusion categories, like [[fusion category]], [[Pivotal symbols]] (this name needs to be changed to fit the naming conventions), [[semisimple category]] and [[rigid monoidal category]].
