@@ -1,4 +1,8 @@
-A linear [[monoidal category]] (that is, a [[monoidal category]] [[enriched category|enriched over]] [[Vect]]) is called _semisimple_ if it has [[direct sum]]s and [[subobject]]s and if there exist [[object]]s $V_i$ labeled by an index set $I$ such that $Hom(V_i, V_j) \cong \delta_{ij} k$ where $k$ is the ground field (such objects are called _simple_) and such that for any two objects $V$ and $W$ in the category, the natural composition map
+A linear [[monoidal category]] (that is, a [[monoidal category]] [[enriched category|enriched over]] [[Vect]]) is called _semisimple_ if it has [[biproduct|direct sum]]s and [[subobject]]s ...
++-- {: .query}
+What does it mean to 'have subobjects'?  (I assume that the 'direct sums' are [[biproduct]]s.)  ---Toby
+=--
+... and if there exist [[object]]s $V_i$ labeled by an index set $I$ such that $Hom(V_i, V_j) \cong \delta_{ij} k$ where $k$ is the ground field (such objects are called _simple_) and such that for any two objects $V$ and $W$ in the category, the natural composition map
  \[
  \bigoplus_{i \in I} Hom(V, V_i) \otimes Hom(V_i, W) \rightarrow Hom(V, W)
 \]
