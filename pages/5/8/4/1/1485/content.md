@@ -32,7 +32,7 @@ We can think of a $G$-manifold as a space which is _locally modeled_ on $X$ acco
 
 An atlas is _not_ considered an essential part of the structure of a manifold: two different atlases may yield the same manifold structure. Here are the relevant definitions:
 
-An **isomorphism** of $G$-manifolds $f: M \to N$ (defined by chosen atlas structures) is a hom&#339;omorphism $f$ such that
+An **isomorphism** of $G$-manifolds $f: M \to N$ (defined by chosen atlas structures) is a homeomorphism $f$ such that
 $$\phi(U \cap f^{-1}(V)) \overset{\phi^{-1}}{\to} U \cap f^{-1}(V) \overset{f}{\to} f(U) \cap V \overset{\psi}{\to} \psi(f(U) \cap V)$$
 is in $G$ whenever $(U, \phi)$ is a coordinate chart of $x \in M$, and $(V, \psi)$ is a coordinate chart of $f(x) \in N$. If $M_1$ and $M_2$ are two $G$-manifold structures on the same topological space $M$, then $M_1$ and $M_2$ are considered **equal** as $G$-manifolds if $id: M \to M$ is an isomorphism from $M_1$ to $M_2$ (and hence also from $M_2$ to $M_1$).
 
@@ -46,9 +46,13 @@ Note: the following is tentative "original research". It is prompted by the desi
 I\'ve read through it once, and it makes sense.  I\'ll read through it again more carefully later.  ---Toby
 =--
 
-We begin by defining the [[locally posetal 2-category|locally posetal]] [[bicategory]] of **regions**, denoted $Reg$. The objects are topological spaces (or locales if you prefer); the morphisms are [[partial function]]s, that is spans
+We begin by defining the [[locally posetal 2-category|locally posetal]] [[bicategory]] of **regions**, denoted $Reg$. The objects are topological spaces (or locales if you prefer); the morphisms are [[partial function]]s with open domain, that is spans
 $$X \overset{i}{\leftarrow} U \overset{f}{\to} Y$$
 where $f$ is continuous and $i$ is an open embedding. The spans are locally (that is, for fixed $X$ and $Y$) ordered by inclusion.
+
++-- {: .query}
+A technical note:  If we allow $i$ to be an arbitrary open embedding, then the hom-sets are preordered rather than partially ordered.  That\'s why I said 'up to equivalence of $2$-categories' before.  It might be nice to use arbitrary open embeddings here, but then I\'d prefer to say '$2$-poset' instead of 'locally posetal bicategory', on the grounds that the latter is a specific implementation of the former (and our definition now doesn\'t follow the latter).
+=--
 
 These local posets are not cocomplete, but they admit certain obvious [[join]]s: given a family of regional maps
 $$(U_\alpha, f_\alpha): X \to Y$$
