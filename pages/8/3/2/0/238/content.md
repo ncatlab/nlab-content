@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * created a stub for [[String field theory]]
+
   * created [[A Survey of Cohomological Physics]]
 
   * added cross-links to [[monoidal category]] and [[manifold]]
