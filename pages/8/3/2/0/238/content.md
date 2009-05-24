@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-24 #
 
+* [[Bruce Bartlett|Bruce]]: started/added material to some pages related to fusion categories, like [[fusion category]], [[Pivotal symbols]] (this name needs to be changed to fit the naming conventions), [[semisimple category]] and [[rigid monoidal category]].
+
 * [[Urs Schreiber|Urs]]:
 
   * started expanding [[sheaf]] -- my goal is (as now indicated) to give a full derivation of how a geometric morphism into a presheaf category defines a Grothendieck topology and sheaves with respect to that -- but my machine's battery runs low and will leave me offline any minute now, so will have to continue later (darn technology...)
