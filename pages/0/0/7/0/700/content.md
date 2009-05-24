@@ -1,6 +1,6 @@
 An [[object]] $A$ in a [[category]] is a **retract** of an object $B$ if there are [[morphism]]s $i:A\to B$ and $r:B\to A$ such that $r \circ i = 1_A$.
 
-In this situation, $r$ is a [[split epimorphism]] and $i$ is a [[split monomorphism]].  Sometimes $r$ is called a **retraction** of $i$ and $i$ is called a **section** of $r$; these terms come from topology.  Also $A$ is a splitting of the [[idempotent]] $i \circ r$ on $B$.
+In this situation, $r$ is a [[split epimorphism]] and $i$ is a [[split monomorphism]].  Sometimes $r$ is called a [[retraction]] of $i$ and $i$ is called a [[section]] of $r$; these terms come from topology.  Also $A$ is a **splitting** of the [[idempotent]] $i \circ r$ on $B$.
 
 ### Retracts of arrows ###
 
