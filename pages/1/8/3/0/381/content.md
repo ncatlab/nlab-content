@@ -64,7 +64,7 @@ $$
 
 * Terminology on $\omega$-categories varies. We here follow section 2.2 of Sjoerd Crans: [Pasting presentations for $\omega$-categories](http://crans.fol.nl/papers/thpp.html), where it says 
 
-  * _Street allowed $\omega$-categories to have infinite dimensional cells. Steiner has the extra condition that every cell has to be finite dimensional, and called them $\infty$-categories, following Brown and Higgins. I will use Steiner's approach here since that's the one that reflects the notion of higher dimensional homotopies closest, but I will nonethless call them $\omega$-categoires, and I agree with Verity's suggestion to call the other ones $\omega^+$-categories._
+  * _Street allowed $\omega$-categories to have infinite dimensional cells. Steiner has the extra condition that every cell has to be finite dimensional, and called them $\infty$-categories, following Brown and Higgins. I will use Steiner's approach here since that's the one that reflects the notion of higher dimensional homotopies closest, but I will nonethless call them $\omega$-categories, and I agree with Verity's suggestion to call the other ones $\omega^+$-categories._
 
 
 
