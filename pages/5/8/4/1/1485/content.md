@@ -83,3 +83,13 @@ $$g_{\alpha \gamma} = g_{\beta\gamma} \circ g_{\alpha\beta}: U_{\alpha} \cap U_\
 $$\qquad g_{\alpha\alpha} = 1: U_{\alpha} \to GL(\mathbb{R}^n)$$ 
 
 These 1-cocycle data make the tangent bundle an $n$-dimensional [[vector bundle]] with structure group $GL(\mathbb{R}^n)$. 
+
+#Generalizations#
+
+* [[generalized smooth space]]
+
+* [[differentiable stack]]
+
+* [[derived smooth manifold]]
+
+* [[supermanifold]]
