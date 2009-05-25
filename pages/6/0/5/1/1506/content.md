@@ -1,3 +1,3 @@
-see [[Bertrand Toën]]
+See [[Bertrand Toën]].
 
 category: redirect
