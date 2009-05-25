@@ -1,17 +1,18 @@
-A linear [[monoidal category]] (that is, a [[monoidal category]] [[enriched category|enriched over]] [[Vect]]) is called _semisimple_ if it has [[biproduct|direct sum]]s and has [[subobject]]s in that [[idempotents split]] ...
-+-- {: .query}
-What does it mean to 'have subobjects'?  (I assume that the 'direct sums' are [[biproduct]]s.)  ---Toby
+A linear [[monoidal category]] (that is, a [[monoidal category]] [[enriched category|enriched over]] [[Vect]]) is called _semisimple_ if:
+*  it has finite [[biproduct]]s (usually called '[[direct sum]]s'),
+*  [[split idempotent|idempotents split]] (so we say that it 'has [[subobject]]s' or, perhaps better, 'has [[retract]]s'), and
+   +-- {: .query}
+   What does it mean to 'have subobjects'?  (I assume that the 'direct sums' are [[biproduct]]s.)  ---Toby
 
-have subobjects = idempotents split and yes, finite biproducts. Simple objects are ones in which End(X) = k. 
+   have subobjects = idempotents split and yes, finite biproducts. Simple objects are ones in which End(X) = k. 
 
-[[Urs Schreiber|Urs]]: shouldn't we say something like: a category is semisimple if each object is a direct sum of finitely many simple objects?
-
-=--
-... and if there exist [[object]]s $V_i$ labeled by an index set $I$ such that $Hom(V_i, V_j) \cong \delta_{ij} k$ where $k$ is the ground field (such objects are called _simple_) and such that for any two objects $V$ and $W$ in the category, the natural composition map
- \[
- \bigoplus_{i \in I} Hom(V, V_i) \otimes Hom(V_i, W) \rightarrow Hom(V, W)
-\]
-is an isomorphism.
+   [[Urs Schreiber|Urs]]: shouldn't we say something like: a category is semisimple if each object is a direct sum of finitely many simple objects?
+   =--
+*  there exist [[object]]s $V_i$ labeled by an index set $I$ such that $Hom(V_i, V_j) \cong \delta_{ij} k$ where $k$ is the ground field (such objects are called _simple_) and such that for any two objects $V$ and $W$ in the category, the natural composition map
+   \[
+     \bigoplus_{i \in I} Hom(V, V_i) \otimes Hom(V_i, W) \rightarrow Hom(V, W)
+   \]
+   is an isomorphism.
 
 For instance, the category of [[representation theory|representation]]s of a compact Lie group $G$ is semisimple, with the simple objects being precisely the irreducible representations (this is the content of Schur's lemma). If $G$ is noncompact, one needs to pass from the concept of 'direct sum' to 'direct integral'.
 
