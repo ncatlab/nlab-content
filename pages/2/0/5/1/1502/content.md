@@ -1,3 +1,11 @@
+#Idea#
+
+A [[Vect]]-[[enriched category]] with [[direct sum]]s is _semisimple_ if each object is [[isomorphism|isomorphic]] to a [[direct sum]] of finitely many [[simple object]]s.
+
+
+#Definition#
+
+
 A linear [[monoidal category]] (that is, a [[monoidal category]] [[enriched category|enriched over]] [[Vect]]) is called _semisimple_ if:
 *  it has finite [[biproduct]]s (usually called '[[direct sum]]s'),
 *  [[split idempotent|idempotents split]] (so we say that it 'has [[subobject]]s' or, perhaps better, 'has [[retract]]s'), and
@@ -10,8 +18,10 @@ A linear [[monoidal category]] (that is, a [[monoidal category]] [[enriched cate
 
    [[Bruce Bartlett|Bruce]]: Urs, you're right, and that's indeed the way one morally thinks about it, but it's a less canonical way of proceeding. We ask ourselves: given a linear category with direct sums and subobjects, and a chosen maximal collection $\{X_i\}$ of nonisomorphic simple objects, how can we check if its semisimple? In the one way, we have to check whether a certain canonically defined map is an isomorphism. In the other way, we have to check if each object $V$ can be expressed as a direct sum of the $X_i$'s. Actually finding such a decomposition would be a noncanonical operation. So your shorter more snappy definition would force an auditor to perform an evil thing if he actually wanted to check it :-) It's that old thing about "only that part of a representation which behaves like an irreducible $\rho$ is canonical, the actual break-down of that rep into direct sums of $\rho$'s is noncanonical". That is, what is canonical is $Hom(V, X_i)$ and not $V = \bigoplus_i n_i X_i$.
 
-Also, if we just had "a category is semisimple if each object is a direct sum of finitely many simple objects" without the conditions on direct sums and subobjects then we could have someone who nastily removes, say, all three-dimensional vector spaces from $Vect$. It would still satisfy "each object is a direct sum of finitely many simple objects" but it shouldnt be regarded as a semisimple category since there are "holes".
-   =--
+[[Urs Schreiber|Urs]]: okay, so it seems you are saying "eacxh object being finite direct sum of simples" is the right _idea_, while the _right definition_ is a bit different. Sounds good to me. So I have now created above a section "Idea" and put the former statement there. (Every entry should start with an "Idea"-section!) Then I created a section headline _Definition_ for the present bit. Just a suggestion. See how you like it.
+
+=--
+
 *  there exist [[object]]s $X_i$ labeled by an index set $I$ such that $Hom(X_i, X_j) \cong \delta_{ij} k$ where $k$ is the ground field (such objects are called _simple_) and such that for any two objects $V$ and $W$ in the category, the natural composition map
    \[
      \bigoplus_{i \in I} Hom(V, X_i) \otimes Hom(X_i, W) \rightarrow Hom(V, W)
