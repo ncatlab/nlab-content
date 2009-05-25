@@ -46,12 +46,14 @@ Note: the following is tentative "original research". It is prompted by the desi
 I\'ve read through it once, and it makes sense.  I\'ll read through it again more carefully later.  ---Toby
 =--
 
-We begin by defining the [[locally posetal 2-category|locally posetal]] [[bicategory]] of **regions**, denoted $Reg$. The objects are topological spaces (or locales if you prefer); the morphisms are [[partial function]]s with open domain, that is spans
+We begin by defining the [[2-poset]] (i.e., locally [[preorder]]ed [[bicategory]]) of **regions**, denoted $Reg$. The objects are topological spaces (or locales if you prefer); the morphisms are [[partial function]]s with open domain, that is spans
 $$X \overset{i}{\leftarrow} U \overset{f}{\to} Y$$
 where $f$ is continuous and $i$ is an open embedding. The spans are locally (that is, for fixed $X$ and $Y$) ordered by inclusion.
 
 +-- {: .query}
 A technical note:  If we allow $i$ to be an arbitrary open embedding, then the hom-sets are preordered rather than partially ordered.  That\'s why I said 'up to equivalence of $2$-categories' before.  It might be nice to use arbitrary open embeddings here, but then I\'d prefer to say '$2$-poset' instead of 'locally posetal bicategory', on the grounds that the latter is a specific implementation of the former (and our definition now doesn\'t follow the latter).
+
+Right; I think I originally had "locally ordered", thinking that some people use this to mean locally preordered. 
 =--
 
 These local posets are not cocomplete, but they admit certain obvious [[join]]s: given a family of regional maps
