@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-25 #
 
+* [[Urs Schreiber|Urs]]
+
+  * edited and replied at [[semisimple category]]
+
 * [[Bruce Bartlett|Bruce]] responded to comments at [[semisimple category]].
 
 * [[Zoran Skoda]]: *as far as google (and other search machine's) counterarguments of Toby (see down 22. may) I still disagree. I do care if our stuff is well indexed and hence better used by anybody looking for answer at the google including us; and I do not care about vanity issues of pro or contra google movements. If somebody gets directed to a less relevant page this is creating noise, and showing a less convenient side of our work. If effectivity is not important why are we doing this ? 
