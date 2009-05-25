@@ -14,7 +14,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-25 #
 
-*  [[Toby Bartels]]:  **Vanity issue!?!?!?**  Trying to get highly-ranked on search engines *is* a vanity issue!  I\'m here to create a permanent resource and figure out ideas, not to beat Wikipedia!
+*  [[Toby Bartels]]:  Copied comments on Google and page names to the Caf&#233; [here](http://golem.ph.utexas.edu/category/2009/05/nlab_more_general_discussion.html#c024021).
 
 * [[Urs Schreiber|Urs]]
 
