@@ -31,7 +31,34 @@ There are many different equivalent aspects of the definition of sheaf.
 
 Let $S$ be a [[site]].
 
-A **sheaf** (of [[set]]s) is a [[presheaf]] (of sets) in $S$ that satisfies [[descent]] with respect to the corresponding [[Grothendieck topology]] in that it is a [[local object]] with respect to the [[local isomorphism]]s defined by the [[Grothendieck topology]] (for which it is sufficient to be a [[local object]] with respect to the [[local epimorphism]]s, see below).
+A **sheaf** (of [[set]]s) is a [[presheaf]] (of sets) in $S$ that satisfies [[descent]] with respect to the corresponding [[Grothendieck topology]] in that it is a [[local object]] with respect to the [[local isomorphism]]s defined by the [[Grothendieck topology]]. For this it is sufficient to be a [[local object]] with respect to the [[dense monomorphism]]s into [[representable functor|representables]], as described in more detail below. A [[dense monomorphism]] into a representable is a covering [[sieve]], namely a morphism of the form
+
+$$
+  colim( U \times_X U \stackrel{\to}{\to} U)
+  \to 
+  X
+$$
+
+where
+
+$U = \coprod_\alpha U_\alpha$ is the [[coproduct]] of a covering family $\{U_\alpha \}$ for $X$ of objects in $S$ as presheaves (the [[Yoneda embedding]] $S \to PSh(S)$ is implicit throughout).
+
+So a [[presheaf]] $A$ is [[local object|local]] with respect to this morphism if there is a bijection of sets
+
+$$
+  Hom(X,A) \simeq Hom(colim( U \times_X U \stackrel{\to}{\to} U)
+)
+ \,.
+$$
+
+By the defining universal property of the [[colimit]] ([[coproduct]] and [[coequalizer]] in this case) it follows that the [[hom-set]] on the right consists of 
+
+* morphisms $U \to A$, wich by the [[coproduct]] property are the same as collections of morphisms $\{U_\alpha \to A\}$, which by the [[Yoneda lemma]] are the same as collections of elements $\{s_\alpha \in A(U_\alpha)\}$;
+
+* such that the two pullbacks to $U \times X U = \coprod_{\alpha,\beta} U_\alpha \times_X U_\beta$ coincide; which means in terms of the $\{s_\alpha\}$ that these glue on double overlaps in that $s_\alpha|_{U_{\alpha,\beta}} = s_\beta|_{U_{\alpha, \beta}}$.
+
+This is the sheaf condition as one often sees it stated in the literature, especially for the case that $S$ is a [[category of open subsets]] of some [[topological space]].
+
 
 The [[category of sheaves]] $Sh(S)$ is the full [[subcategory]] of $PSh(S) = [S^{op}, Set]$ on presheaves that are sheaves. The [[category of sheaves]] is a [[topos]] and the [[full and faithful functor]]
 
