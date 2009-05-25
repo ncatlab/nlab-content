@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * expanded and restructured [[sieve]] -- introduced the explicit _distinction_ between the notion of _sieve_ and that of _subfunctor_ and made their _bijection_ explicit: this seems to be the standard way that "sieve" is used in the literature: authors don't seem to say "sieve" synonymously with "subfunctor", but say "sieve" if they explicitly mean the _set_ of elements of the subfunctor. There is a bijection, but not an equality of concepts. 
+
   * further expanded [[image]] and [[coimage]]
 
   * edited and replied at [[semisimple category]]
