@@ -19,7 +19,10 @@ This page contains material related to the event
 
 #Workshop lectures#
 
-In addition to the notes provided by Alex Hoffnung below, there are also notes being posted by Evan Jenkins on his [webpage](http://www.math.uchicago.edu/~ejenkins/nwtft.html). 
+In addition to the notes provided by Alex Hoffnung below, there are also notes being posted by Evan Jenkins:
+
+* Evan Jenkins [talk notes](http://www.math.uchicago.edu/~ejenkins/nwtft.html)
+
 
 ## David Ben-Zvi on   Topological Field Theory, Loop Spaces, and Representation Theory
 
@@ -48,15 +51,15 @@ In addition to the notes provided by Alex Hoffnung below, there are also notes b
 
 * [[Jacob Lurie]], [[LurieLecture4.ps:file]], talk notes by [[Alex Hoffnung]]
 
-##Bertrand Toen on Secondary K-theory ##
+##Bertrand To&#235;n on Secondary K-theory ##
 
-* [[Bertrand Toen]], [[ToenLecture1.ps:file]], talk notes by [[Alex Hoffnung]]
+* [[Bertrand Toën]], [[ToenLecture1.ps:file]], talk notes by [[Alex Hoffnung]]
 
-* [[Bertrand Toen]], [[ToenLecture2.ps:file]], talk notes by [[Alex Hoffnung]]
+* [[Bertrand Toën]], [[ToenLecture2.ps:file]], talk notes by [[Alex Hoffnung]]
 
-* [[Bertrand Toen]], [[ToenLecture3.ps:file]], talk notes by [[Alex Hoffnung]]
+* [[Bertrand Toën]], [[ToenLecture3.ps:file]], talk notes by [[Alex Hoffnung]]
 
-* [[Bertrand Toen]], [[ToenLecture4.ps:file]], talk notes by [[Alex Hoffnung]]
+* [[Bertrand Toën]], [[ToenLecture4.ps:file]], talk notes by [[Alex Hoffnung]]
 
 ##Orit Davidovich on Modular Tensor Categories ##
 
