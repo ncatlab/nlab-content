@@ -215,8 +215,7 @@ $$
   \,.
 $$
 
-But since $X \simeq colim_i U_i$ the right hand is $X \times_X Y$, which is just $Y$. So $Y = colim_i (Y \times_X U_i)$ and we find that $Y \to X$ is a morphism of colimits. But under $f^*$ the two respective diagrams become isomorphic, since $Y \times_X U_i \to U_i$ is in $W$. That means that the corresponding morphism of colimits $f^*(Y \to X)$ (since $f^*$ preserves colimits) is an isomorphism, which finally means that $Y \to X$ is in $W$.. 
-
+But since $X \simeq colim_i U_i$ the right hand is $X \times_X Y$, which is just $Y$. So $Y = colim_i (Y \times_X U_i)$ and we find that $Y \to X$ is a morphism of colimits. But under $f^*$ the two respective diagrams become isomorphic, since $Y \times_X U_i \to U_i$ is in $W$. That means that the corresponding morphism of colimits $f^*(Y \to X)$ (since $f^*$ preserves colimits) is an isomorphism, which finally means that $Y \to X$ is in $W$.
 =--
 
 +-- {: .un_lemma}
@@ -250,10 +249,9 @@ $$
 Because $f^*$ is exact, the pullbacks and pushouts in this diagram remain such under $f^*$. But since $f^*(Y \to X)$ is an isomorphism by assumption, the all these are pullbacks and pushouts along isomorphisms in $Sh(S)$, so all morphisms in the above diagram map to isomorphisms in $Sh(S)$, hence the entire diagram in $PSh(S)$ is in $W$.
 
 Since the morphism $Y \sqcup_{Y \times_X Y} Y  \to X$ out of the [[coimage]] is at the same time the [[equalizer|equalizing]] morphism into the [[image]] $lim(X \stackrel{\to}{\to} X \sqcup_Y X)$, it is a [[monomorphism]].
-
 =--
 
-+-- {: .un_theorem}
++-- {: .un_corollary}
 ###### Corollary
 
 A presheaf $A$ is $W$-local, i.e. a sheaf, already if it is local (satisfies descent) with respect to all [[monomorphism]]s in $W$ with codomain a [[representable functor|representable]], i.e. for all [[dense monomorphism]]s.
@@ -275,8 +273,6 @@ with $Y' \to X$ a monomorphism. So $Y \to X$ is in $W$ if both $Y \to Y'$ and $Y
 Then factor again through monomorphism, etc.
 
 But this needs an argument for why this recursive procedure terminates...
-
-
 =--
 
 
@@ -286,12 +282,11 @@ Now we use the standard
 ###### Lemma
 
 Monomorphisms in $PSh(S)$ are canonically in bijection with [[sieve]]s.
-
 =--
 
 to finally conclude
 
-+-- {: .un_theorem}
++-- {: .un_corollary}
 ###### Corollaries
 
 We have:
@@ -308,7 +303,6 @@ For $A$ a presheaf, its [[sheafification]] $\bar A := f_* f^* A$ is the presheaf
 $$
   \bar A : U \mapsto colim_{(Y \to U) \in W} A(U)
 $$
-
 =--
 
 +-- {: .proof}
@@ -324,7 +318,7 @@ $$
 
 So we have
 
-$$
+$$ \array {
   Sh(S) &\stackrel{\stackrel{f^*}{\leftarrow}}{\stackrel{f_*}{\to}}&
   PSh(S)
   \\
@@ -333,16 +327,16 @@ $$
   &&
   PSh(S)[W^{-1}]
   \,.
-$$
+} $$
 
 By the [[Yoneda lemma]] we get $\bar A(U) = PSh_S(U, \bar A)$. By the hom-adjunction this is $\cdots \simeq Sh_S(\bar U, \bar A)$. By the equivalence just mentioned this is
 $\cdots \simeq PSh_S[W^{-1}](U,A)$.
-
 =--
 
 
 
-**Remark: covers versus hypercovers**
++-- {: .un_remark}
+###### Remark: covers versus hypercovers
 
 Notice that for checking the sheaf condition the [[dense monomorphism]]s, i.e. the ordinary [[cover]]s are sufficient. But for [[sheafification]] one really needs the [[local isomorphism]]s, which are [[hypercover]]s. 
 
@@ -375,7 +369,7 @@ for $Z \to Y \times_X Y$ a cover. For higher [[stack]]s the hypercover is in gen
 
 
 >[[Urs Schreiber|Urs]]: will polish this later...
-
+=--
 
 ## In terms of sieves ##
 
