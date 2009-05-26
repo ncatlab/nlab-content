@@ -32,11 +32,27 @@ A linear [[monoidal category]] (that is, a [[monoidal category]] [[enriched cate
    \]
    is an isomorphism.
 
-Note that this definition implies that every object $V$ is a direct sum of simple objects $X_i$. This is because... 
-
-+-- {: .query}
-[[Bruce Bartlett|Bruce]] Gosh, I'm suddenly stuck at this point. I used to know this stuff. Can anyone help?
-=--
+Note that this definition implies that every object $V$ is a direct sum of simple objects $X_i$. To see this, note that the third item of the definition is equivalent to stipulating that the vector space $Hom(X_i, V)$ is in canonical duality with the vector space $Hom(V, X_i)$. Indeed, we have a canonical pairing
+ \[
+ Hom(V, X_i) \otimes Hom(X_i, V) \rightarrow k
+\]
+given by sending $f \otimes g \mapsto \langle f \circ g \rangle$ where the "$\langle \cdot \rangle$" notation refers to extracting scalars from endomorphisms of simple objects (each such endomorphism is a scalar multiple of the identity). We also have a canonical copairing
+ \[
+ k \rightarrow Hom(X_i, V) \otimes Hom(V, X_i)
+\]
+given by sending $\id_{X_i}$ to the "$i$th block" of the image of the identity $\id_V$ arrow under the isomorphism given in the definition. One can check that this pairing and copairing satisfy the snake equations. Hence if we choose a basis 
+ \[
+ \{ a_{i,p} : X_i \rightarrow V \}
+\]
+for each vector space $Hom(X_i, V)$, we get a corresponding dual basis
+ \[
+ \{ a_i^p : V \rightarrow X_i \}
+\]
+satisfying
+ \[
+ a_i^p a_{j,q} = \delta_{ij} \delta_p^q \quad and \quad \sum_{i,p} a_{i,p} a_i^p = \id_V.
+\]
+This says precisely that $V$ has been expressed as a direct sum of the $X_i$.
 
 
 #Remarks#
