@@ -11,11 +11,27 @@ The traditional name for a coverage, with the extra saturation conditions impose
 
 # Definition #
 
+
+
++-- {: .un_def}
+###### Definition
+
+
 A **coverage** on a category $C$ consists of a collection of families of coterminal morphisms $\{f_i:U_i\to U\}_{i\in I}$, called _covering families_, such that
 
 * If $\{f_i:U_i\to U\}_{i\in I}$ is a covering family and $g:V\to U$ is a morphism, then there exists a covering family $\{h_j:V_j\to V\}$ such that each composite $g h_j$ factors through some $f_i$.
 
-A [[site]] is a category equipped with a coverage.  Often [[site]]s are required to be [[small category|small]] (see [[large site]]).
+=--
+
++-- {: .un_def}
+###### Definition
+
+
+A [[site]] is a category equipped with a coverage.  
+
+=--
+
+Often [[site]]s are required to be [[small category|small]] (see [[large site]]).
 
 
 ### Sheaves on a site ###
