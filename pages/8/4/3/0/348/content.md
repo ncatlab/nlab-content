@@ -24,6 +24,7 @@ A _sieve_ $S$ (Fr. _crible_) on an object $c \in C$ is a subset $S \subset Ob(C/
 
 Sometimes the condition of a sieve being closed under the operation of precomposing with an arbitrary morphism $g: e \to d$ is called a "saturation condition". Given any collection of morphisms targeted at $c$, one can always close it up or saturate it, to obtain a sieve on $c$. 
 
+
 # Relation to subfunctors #
 
 There is a canonical way to create subfunctors from sieves and sieves from subfunctors.
@@ -48,7 +49,7 @@ Given a subfunctor $F \hookrightarrow Y(c)$, the **sieve defined by the subfunct
 
 or equivalently
 
-* $S_F = \coprod_{c \in Obj(C)}F(c)$.
+* $S_F = \coprod_{d \in Obj(C)}F(d)$.
 
 =--
 
@@ -84,8 +85,8 @@ $$
 * In the presence of a [[Grothendieck topology]] a morphism $F \to Y(c)$ is sometimes called a [[local epimorphism]] if the sieve $S_F$ is a covering sieve. If $F \to Y(c)$ is actually a subfunctor, then it is called a [[dense monomorphism]].
 
 
-* The [[pullback]] of a subfunctor $i: F \hookrightarrow Y(c) = \hom(-, c)$ along any morphism $\hom(-, g): \hom(-, d) \to \hom(-, c)$ is again a subfunctor $g^* F$ of $d$, hence sieves are closed under pulling back. Concretely, 
-$$g^* F = \bigcup_{e \in Ob(C)} \{f: e \to d: g f \in F\}
+* The [[pullback]] of a subfunctor $i: F_S \hookrightarrow Y(c) = \hom(-, c)$ along any morphism $\hom(-, g): \hom(-, d) \to \hom(-, c)$ is again a subfunctor $g^* F$ of $d$, hence sieves are closed under pulling back. Concretely, 
+$$g^* S = \bigcup_{e \in Ob(C)} \{f: e \to d: g f \in S\}
 \,.$$
 
 * A sieve $S_F$ on $c$, for $i: F \hookrightarrow \hom(-, c)$ a subfunctor, may be described as a function which assigns to each object $d$ a collection of morphisms $f: d \to c$ into $c$. Naturality of the inclusion $i$ means that whenever $f: d \to c$ belongs to the sieve and $g: e \to d$ is any morphism, then $f g: e \to c$ also belongs to the sieve. 
@@ -139,8 +140,8 @@ where the equivalence relation is
 
 $$
   ((f \to U \to X) \sim (g \to U \to X))
-  \sim
-  f and g coincide as maps to X
+  \Leftrightarrow
+  (f and g coincide as maps to X)
   \,.
 $$
 
