@@ -220,7 +220,7 @@ But since $X \simeq colim_i U_i$ the right hand is $X \times_X Y$, which is just
 +-- {: .un_lemma}
 ###### Lemma
 
-An presheaf $A \in PSh(S)$ is a [[local object]] with respect to all of $W$ already if it is local with respect to those morphisms in $W$ whose codomain is [[representable functor|representable]]
+A presheaf $A \in PSh(S)$ is a [[local object]] with respect to all of $W$ already if it is local with respect to those morphisms in $W$ whose codomain is [[representable functor|representable]]
 
 =--
 
