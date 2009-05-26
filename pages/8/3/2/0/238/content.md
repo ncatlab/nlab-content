@@ -14,6 +14,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-25 #
 
+* [[Urs Schreiber|Urs]]:
+
+  * created [[separated presheaf]]
+
+  * further worked on the section "in terms of geometric embedding" at [[sheaf]]
+
+# 2009-05-25 #
+
 *  [[Toby Bartels]]:  Copied comments on Google and page names to the Caf&#233; [here](http://golem.ph.utexas.edu/category/2009/05/nlab_more_general_discussion.html#c024021).
 
 * [[Urs Schreiber|Urs]]
