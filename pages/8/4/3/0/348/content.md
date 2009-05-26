@@ -33,6 +33,8 @@ There is a canonical way to create subfunctors from sieves and sieves from subfu
 _Bruce_: What is a subfunctor? Can you link that word to a page?
 =--
 
+A subfunctor is a [[subobject]] in a [[functor category]]. Here, specifically, one is interested in [[subobject]]s in a [[presheaf]] category of [[representable functor]]s. It's these subfunctors of representable functors that are in bijection with sieves.
+
 +-- {: .un_defn}
 ###### Definition
 
