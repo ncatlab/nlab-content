@@ -4,24 +4,34 @@ Uniform spaces were invented by Andr&#233; Weil, to capture a general notion of 
 
 A uniform structure or uniformity on a set $X$ consists of a collection of global binary relations $\varepsilon$ which allow us to say when one point $x$ is "$\varepsilon$-close" to another $y$. For a metric space, we have for instance relations expressed by the formula $d(x, y) \lt \epsilon$. For a topological group, we have relations $x y^{-1} \in \varepsilon$, where $\varepsilon$ is a neighborhood of the identity. 
 
+
 ## Definitions 
 
 A **uniform structure** on a set $X$ consists of a collection of binary [[relation]]s $U \subseteq X \times X$ (called _entourages_) satisfying the following conditions: 
 * The diagonal $\Delta = \{(x, x): x \in X\}$ is contained in every entourage. 
 * If $U$ is an entourage, then so is $U^{op} = \{(x, y): (y, x) \in U\}$. 
 * For every entourage $U$, there exists an entourage $V$ such that $V \circ V \subseteq U$. Here $W \circ V$ denotes the ordinary [[relation|relational composite]]: 
-  $$W \circ V = \{(x, z): \exists_y (y, z) \in W \wedge (x, y) \in V\}.$$
+  $$W \circ V = \{(x, z): \exists_y (y, z) \in W \;\wedge\; (x, y) \in V\}.$$
 * $X \times X$ is an entourage.
 * If $U, V$ are entourages, so is $U \cap V$. 
 * If $U$ is an entourage and $U \subseteq V \subseteq X \times X$, then $V$ is an entourage. 
 
+In [[constructive mathematics]], we also need this (classically trivial) condition:
+
+* For every entourage $U$, there exists an entourage $V$ such that
+  $$(x, y) \in U \;\vee\; (x, y) \notin V$$
+  for all $x$ and $y$ in $X$.
+
 A set equipped with a uniform structure is called a **uniform space**. 
+
 
 The **uniform topology** induced by a uniformity is defined by taking the neighborhoods of a point $x$ to be sets of the form 
 $$U[x] := \{y: (x, y) \in U\}$$ 
 where $U$ is an entourage. (Recall that a set is open if it is a neighborhood of every point it contains.) We point out that different uniformities may give rise to the same topology (just as different metrics, even uniformly inequivalent ones, may give rise to the same topology).
 
+
 Given uniform spaces $X$ and $Y$, a function $f: X \to Y$ is said to be **uniformly continuous** if for every entourage $V$ of $Y$, $(f \times f)^{-1}(V)$ is an entourage of $X$. Clearly, uniformly continuous functions are continuous with respect to the corresponding uniform topologies, but the converse is false (although see below the discussion in the case where $X$ is compact). There is an obvious [[concrete category]] $Unif$ of uniform spaces and uniformly continuous functions.
+
 
 One feature of uniform space theory which is not available for general topological spaces is the possibility of taking (Cauchy) completions. The relevant definitions are straightforward: 
 
@@ -33,11 +43,13 @@ One feature of uniform space theory which is not available for general topologic
 
 * A uniform space $X$ is **[[Hausdorff space|Hausdorff]]** or **separated** if every convergent net/filter converges to a unique point.  (This is a purely topological concept.)
 
+
 Every uniform space $X$ admits a Hausdorff completion $\overline{X}$, i.e., there is a uniformly continuous map $X \to \overline{X}$ (an embedding if $X$ is Hausdorff, dense in any case), characterized by the following universal property: 
 
 * Every uniformly continuous function $f: X \to Y$ to a complete Hausdorff uniform space $Y$ extends uniquely to a uniformly continuous $\overline{f}: \overline{X} \to Y$. 
 
 In short, the category of complete Hausdorff uniform spaces is a [[reflective subcategory]] of $Unif$.
+
 
 ## Basic Results
 
@@ -63,6 +75,7 @@ Finally, we mention the special case of compact spaces:
 
 It follows then that if $X, Y$ are uniform spaces with $X$ compact and if $f: X \to Y$ is continuous, then $f$ is uniformly continuous. 
 
+
 ## Variations
 
 Some authors insist that a uniform space must be Hausdorff; this can be arranged directly in the definition (that is without reference to the uniform topology or to the concept of convergent net/filter) by adding the following axiom, a sort of converse of the first axiom:
@@ -75,11 +88,14 @@ A __gauge space__ consists of a set $X$ and a collection $\mathcal{D}$ of pseudo
 
 In weak [[foundations]] of mathematics, the theorems above may not be provable.  In particular, the theorem that every uniform space arises from a gauge space is equivalent (internal to an arbitrary [[topos]] with a [[natural numbers object]]) to [[dependent choice]] plus [[excluded middle]].  If the concept is to be applied to analysis, then it may be best to define a uniform space as a gauge space satisfying a saturation condition.  (Then not every topological group will count as a uniform space, although the classical examples of Lie groups and topological vector spaces will.)
 
+
 ## Motivation for the axioms
 
 The really critical axioms are the first three: given a collection of binary relations which satisfies those three axioms, we generate a uniform structure straightforwardly by closing up under finite intersections and then taking upward closure. (A collection of binary relations which generates a uniformity in this way is called a _subbase_ of the uniformity. A collection of binary relations which generates a uniformity only upon taking upward closure is called a _base_ of the uniformity; in particular, the finite-intersection closure of a subbase is a base.) Indeed, the final three axioms simply state that the entourages form a [[filter]], so the closure operation is simply the usual generation of a filter from a base or subbase.
 
-We draw particular attention to the third axiom, which may be called an "$\frac{\varepsilon}{2}$"-principle. It generalizes a principle familiar from analysis in metric spaces, where one establishes $d(x, z) \lt \varepsilon$ by showing there exists $y$ such that $d(x, y) \lt \frac{\varepsilon}{2}$ and $d(y, z) \lt \frac{\varepsilon}{2}$, and applying the triangle inequality. The utility of this principle for metric spaces, extrapolated in this way, gives uniform spaces much of their power. 
+We draw particular attention to the third axiom, which may be called an "$\frac{\varepsilon}{2}$" principle. It generalizes a principle familiar from analysis in metric spaces, where one establishes $d(x, z) \lt \varepsilon$ by showing there exists $y$ such that $d(x, y) \lt \frac{\varepsilon}{2}$ and $d(y, z) \lt \frac{\varepsilon}{2}$, and applying the triangle inequality. The utility of this principle for metric spaces, extrapolated in this way, gives uniform spaces much of their power.
+
+For full power in [[constructive mathematics]], we also need the extra axiom which may similarly be called a "something less than $\varepsilon$" principle. (These two can actually be combined into a single statement, as you might expect since $\frac{\varepsilon}{2} \lt \epsilon$, but that makes the intuition less clear.)
 
 The first axiom is a nullary version of the third axiom; together they prove that, given any entourage $U$ and any integer $n \geq 0$, there exists a sequence $V_1, \ldots, V_n$ of entourages such that the composite of this sequence is contained in $U$.  The symmetry axiom then allows one to take the duals of any of the $V_i$ as well.
 
