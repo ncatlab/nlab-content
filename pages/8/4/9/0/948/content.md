@@ -22,7 +22,7 @@ There are, however, differences among constructivists as well.
 
 * Very extreme constructivists, like Doron Zeilberger, reject the existence of infinite sets; see [[finite mathematics]].  (Kronecker, the 'father of constructivism', is often considered a finitist, but as he came before the foundational crisis, it is difficult to classify him accurately.)  Ironically, this means that excluded middle and choice, as such, may become acceptable, or even true.  (Even constructivists believe that they are true in the topos [[FinSet]] of [[finite set]]s.)
 
-* The most extreme position of all is to deny even the existence of very large finite sets.  This is called [[finite mathematics|ultrafinitism]].  According to [Wikipedia](http://en.wikipedia.org/wiki/Ultrafinitism), "even constructivists generally view \[ultrafinitism\] as unworkably extreme."
+* The most extreme position of all is to deny even the existence of very large finite sets.  This is called [[finite mathematics|ultrafinitism]].  According to [Wikipedia](http://en.wikipedia.org/wiki/Ultrafinitism) (to be fair, in an edit originally made by our own [[Toby Bartels]]), "even constructivists generally view \[ultrafinitism\] as unworkably extreme."
 
 Many constructivists (like many classical mathematicians) believe in an absolute mathematical sense of "truth," and that in this sense choice and excluded middle are simply _wrong_. (Some constructivists, using classically false axioms, can even refute them; others merely claim that no possible correct reasoning could ever prove them.  See "Truth versus assertability," below.) To most mathematicians, this makes them seem quite strange.
 
@@ -88,14 +88,71 @@ The distinction between object language and metalanguage exists even in classica
 
 ## Related entries ##
 
-Concepts that usually only arise in constructive mathematics (usually because they are trivial or trivially equivalent to some other concept in classical mathematics):
-*  ...
+Concepts that usually arise in constructive mathematics, often because they are classically trivial:
+*  [[anafunctor]] (classically equivalent to [[functor]])
+*  [[apartness relation]] (classically equivalent to [[equivalence relation]])
+*  [[comparison]] (classically equivalent to [[transitive relation]])
+*  [[decidable equality]] (classically trivial)
+*  [[decidable subset]] (classically trivial)
+*  [[inhabited set]] (classically equivalent to non-[[empty set]])
+*  [[linear order]] (classically equivalent to [[total order]])
+*  [[locale]] (classically similar but not equivalent to [[topological space]])
+*  [[quasiorder]] (classically equivalent to [[partial order]])
+*  [[subsingleton]] (classically equivalent to empty set or [[singleton]])
+
+Some of these are also useful internally or even classically.
+
 
 Topics relevant to the foundations of constructive mathematics:
-*  ...
+*  [[axiom of choice]]
+*  [[centipede mathematics]]
+*  [[choice object]]
+*  [[COSHEP]]
+*  [[excluded middle]]
+*  [[finite mathematics]]
+*  [[internalization]]
+*  [[internal logic]]
+*  [[intuitionistic logic]]
+*  [[power set]]
+*  [[predicative mathematics]]
+*  [[pretopos]]
+*  [[set theory]]
+*  [[truth value]]
 
-Articles which substantial content on how they work in constructive mathematics:
-*  ...
+Other articles with content relating to constructive mathematics:
+*  [[axiom of foundation]]
+*  [[biproduct]]
+*  [[Cantor's theorem]]
+*  [[cardinal number]]
+*  [[complement]]
+*  [[complete lattice]]
+*  [[cyclic order]]
+*  [[direct sum]]
+*  [[field]]
+*  [[filter]]
+*  [[finite set]]
+*  [[Grothendieck topos]]
+*  [[Hausdorff space]]
+*  [[hereditarily finite set]]
+*  [[injection]]
+*  [[local ring]]
+*  [[metric space]]
+*  [[partial function]]
+*  [[pure set]]
+*  [[real number]]
+*  [[sequence]]
+*  [[Set]]
+*  [[Sierpinski space]]
+*  [[sober space]]
+*  [[topological space]]
+*  [[Tychonoff theorem]]
+*  [[well-founded relation]]
+*  [[well-order]]
+*  [[well-ordering theorem]]
+*  [[well-pointed topos]]
+*  [[Zorn's lemma]]
+
+In principle, every article could explain how it applies to constructive mathematics, but that will probably never happen.
 
 
 ## References ##
