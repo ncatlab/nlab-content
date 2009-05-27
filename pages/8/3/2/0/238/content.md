@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-27 #
 
+*  [[Toby Bartels]]:  Last night, I made some lists of entries relevant to [[constructive mathematics]], starting with the back links and classifying them.  (Hopefully the third list will become so large that we can\'t really use it, but for now I want to keep track of which entries have that material.)
+
 * [[Urs Schreiber|Urs]]
 
   * created [[Quantization as a Kan Extension]]
