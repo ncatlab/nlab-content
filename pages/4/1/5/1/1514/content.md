@@ -43,7 +43,7 @@ More recently, one sees attempts to formalize this observation of Freed's, notab
 
 * Last not least, there is a proposal to realize [The n-Cafe Quantum Conjecture](http://golem.ph.utexas.edu/category/2007/06/the_ncaf_quantum_conjecture.html) -- which says that the the path integral is the push-forward of the action functional regarded as a functor --
 
-  * Johan Alm, [[Kantization.pdf:file]]
+  * [[Johan Alm]], [[Quantization as a Kan Extension]]
 
 >[[Urs Schreiber|Urs]]: there would be a lot to say and discuss how these more or less different approaches all relate and hang together. Maybe we can eventually use this place here to do so. One observation that might relate the [[schreiber:Nonabelian cocycles and their sigma model QFTs|pull-push]] with Johan Alm's [[Kan extension]] is described at [[Kanpull.pdf:file]] 
 
