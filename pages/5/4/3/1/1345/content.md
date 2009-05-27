@@ -36,7 +36,7 @@ This morphism induces the following morphisms between (co)[[simplicial object]]s
 
 ##Bousfield--Kan for simplicial objects##
 
-For $X : \Delta^\to \to C$ any [[simplicial object]] in $C$, the **realization** of $X$ is the [[end|coend]]
+For $X : \Delta^\op \to C$ any [[simplicial object]] in $C$, the **realization** of $X$ is the [[end|coend]]
 
 $$
   |X| := X \otimes_{\Delta^{op}} \Delta := 
