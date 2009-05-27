@@ -1,6 +1,6 @@
 ## Idea ##
 
-If $C$ is a [[finitely complete category]] (a category with all [[finite limit]]s), then it\'s interesting to consider a left [[exact functor]] on $C$ (a functor that preserves all finite limits).  Even if $C$ lacks some finite limits, then this concept still makes sense, but it may not be the correct one.  Instead we use the stronger concept of a _flat functor_, which may be thought of as a functor that preserves all finite limits ---even the ones that don\'t exist yet!
+If $C$ is a [[finitely complete category]] (a category with all finite limits), then it\'s interesting to consider a left [[exact functor]] on $C$ (a functor that preserves all finite limits).  Even if $C$ lacks some finite limits, then this concept still makes sense, but it may not be the correct one.  Instead we use the stronger concept of a _flat functor_, which may be thought of as a functor that preserves all finite limits ---even the ones that don\'t exist yet!
 
 ## Definition ##
 
