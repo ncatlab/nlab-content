@@ -32,6 +32,8 @@ A linear [[monoidal category]] (that is, a [[monoidal category]] [[enriched cate
    \]
    is an isomorphism.
 
+# Direct sums of simple objects #
+
 Note that this definition implies that every object $V$ is a direct sum of simple objects $X_i$. To see this, note that the third item of the definition is equivalent to stipulating that the vector space $Hom(X_i, V)$ is in canonical duality with the vector space $Hom(V, X_i)$. Indeed, we have a canonical pairing
  \[
  Hom(V, X_i) \otimes Hom(X_i, V) \rightarrow k
