@@ -24,6 +24,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[John Baez]]
 * [[Jonas Frey]]
 * [[Josep Elgueta]]
+* [[Marc Olschok]]
 * [[Mathieu Dupont]]
 * [[Mike Shulman]]
 * [[Mike Stay]]
