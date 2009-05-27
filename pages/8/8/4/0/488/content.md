@@ -8,7 +8,7 @@ There are several conditions on a topos that are necessary and sufficient to be 
 
 The [[internal logic]] of a boolean topos with [[natural numbers object]] can serve as [[foundations]] for "ordinary" mathematics, except for that which relies on the [[axiom of choice]].  If you add the axiom of choice, then you get (an internal version of) [[ETCS]]; conversely, if you use an arbitrary topos, then you get [[constructive mathematics]].  (For some high-powered work, you may also need to add a version of the [[axiom of replacement]] or an axiom of [[Grothendieck universe]]s.)
 
-Every [[cartesian closed category|cartesian closed]] boolean [[pretopos]] is in fact a topos.  This is why [[predicative mathematics|predicativism]] (in our sense) is necessarily a feature of [[constructive mathematics]] only.
+Every [[cartesian closed category|cartesian closed]] boolean [[pretopos]] is in fact a topos.  This is why [[predicative mathematics|predicativism]] in the sense of the constructive school is necessarily a feature of [[constructive mathematics]] only.
 
 +--{: .query}
 [[Mike Shulman|Mike]]: Something sounds circular about saying "predicativism in the constructive sense is a feature of constructive mathematics only."  What non-constructive sense of predicativism are you referring to?
