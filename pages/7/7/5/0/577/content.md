@@ -37,9 +37,8 @@ This monad is cartesian if
 
 There is some slight inconsistency in the use of
 the word _cartesian_ in category theory.
-Sometimes, a category (resp. functor)
-is called cartesian if it has (resp. preserves)
-all [[finite limit]]s.
+Sometimes, a category is called cartesian if it [[finitely complete category|has all finite limits]];
+similarly, a functor is called cartesian if it [[exact functor|preserves all finite limit]]s.
 In most examples of cartesian monads, the category
 $C$ has a [[terminal object]], and hence finite limits.
 However, the functor $T$ almost never preserves
@@ -48,6 +47,17 @@ For example, the free monoid monad on
 $\mathrm{Set}$ is cartesian, as can be checked
 directly, but $T 1 \simeq \mathbb{N}$ is not
 a terminal object.
+In this sense, a cartesian monad is really *locally* cartesian.
+
+#References
+
+* Tom Leinster, _Higher Operads, Higher Categories_ 
+  ([arXiv](http://arxiv.org/abs/math.CT/0305049)),
+  section 4.1
+
+## Discussion ##
+
+Here is some past discussion about the term 'cartesian'.
 
 +--{.query}
 I would call a category with all pullbacks 'locally cartesian'.  Shouldn\'t a cartesian category at least have a terminal object?  Would a terminal object make any difference here?  &#8212;[[Toby Bartels|Toby]]
@@ -66,11 +76,5 @@ _Toby_: Yes, despite the historical justification that Johnstone gives in the El
 
 _Mike_: I assume you mean that 'cartesian' means finite _products_.  "Finitely complete" is also an reasonable term meaning "having finite limits."
 
-_Toby_: Yes, of course, sorry.
+_Toby_: Yes, of course, fixed.
 =--
-
-#References
-
-* Tom Leinster, _Higher Operads, Higher Categories_ 
-  ([arXiv](http://arxiv.org/abs/math.CT/0305049)),
-  section 4.1
