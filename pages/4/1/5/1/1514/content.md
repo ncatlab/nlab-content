@@ -45,7 +45,7 @@ More recently, one sees attempts to formalize this observation of Freed's, notab
 
   * Johan Alm, [[Kantization.pdf:file]]
 
->[[Urs Schreiber|Urs]]: there would be a lot to say and discuss how these more or less different approaches all relate and hang together. Maybe we can eventually use this place here to do so.
+>[[Urs Schreiber|Urs]]: there would be a lot to say and discuss how these more or less different approaches all relate and hang together. Maybe we can eventually use this place here to do so. One observation that might relate the [[schreiber:Nonabelian cocycles and their sigma model QFTs|pull-push]] with Johan Alm's [[Kan extension]] is described at [[Kanpull.pdf:file]] 
 
 
 
