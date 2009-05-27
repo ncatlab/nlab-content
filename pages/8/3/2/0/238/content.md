@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-05-27 #
+
+* [[David Corfield|David]] created [[extended natural numbers]], [[corecursion]], and [[coalgebra for an endofunctor]]. Moved proof of terminal coalgebra being fixed point to [[terminal coalgebra]]. 'Coalgebra' still needs disambiguation.
+
 # 2009-05-26 #
 
 * [[Bruce Bartlett|Bruce]] filled in a small thing at [[semisimple category]].
