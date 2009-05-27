@@ -32,6 +32,6 @@ Alternatively, one can adopt the __axiom of anti-foundation__, which says someth
 
 Note that the converse of this is obvious.  If you include the hypothesis that $\prec$ be [[well-founded relation|well-founded]], then the statement is a theorem but the converse is the axiom of foundation.
 
-If you adopt the axiom of anti-foundation instead of foundation, then the univere of [[pure set]]s becomes the [[corecursion|corecursively]] defined ill-founded sets instead of the [[recursion|recursively]] defined well-founded sets.
+If you adopt the axiom of anti-foundation instead of foundation, then the universe of [[pure set]]s becomes the [[corecursion|corecursively]] defined ill-founded sets instead of the [[recursion|recursively]] defined well-founded sets.
 
 category: foundational axiom
