@@ -13,7 +13,7 @@ The analogue of the category of elements for functors landing in $Cat$, rather t
 
 #Definition#
 
-Given a functor $P:C^{\mathrm{op}}\to\mathbf{Set}$ (a [[presheaf]] of sets on $C$), the **category of elements** $El(P)$ may be understood in any of these equivalent ways:
+Given a functor $P:C^{\mathrm{op}}\to\mathbf{Set}$ (a [[presheaf]] of sets on $C$), the **category of elements** $El(P)$ or $El_C(P)$ may be understood in any of these equivalent ways:
 
 * It is the [[category]] whose objects are pairs $(c,x)$ where $c$ is an object in $C$ and $x$ is an element in $P(c)$ and morphisms $(c,x)\to(c',x')$ are morphisms $u:c\to c'$ such that $P(u)(x') = x$.
 
@@ -27,6 +27,7 @@ where $U$ is the [[forgetful functor]] from [[pointed set]]s to sets.
 * Its opposite is the [[comma category]] $(*/P)$, where $*$ is the inclusion of the one-point set $*:*\to Set$ and $P:C^{op}\to Set$ is itself:
 $$\array{ El(P)^{op} &\to& * \\ \downarrow^{\pi_P^{op}} &\Downarrow& \downarrow^{pt} \\ C^{op} &\to& Set.}$$
 
+$El(P)$ is also often written with [[end]] notation as $\int_C P$, $\int_{c: C} P(c)$, or $\int_c P(c)$.  This suggests the fact the set of objects of the category of elements is the [[disjoint union]] (sum) of all of the sets $P(c)$. 
 
 #Properties#
 
@@ -54,10 +55,12 @@ $$V//G=El(V\nearrow G).$$
 
 [[Eric Forgy|Eric]]: This seems like the gadget I'm trying to describe at [[Exploding a Category]] (I may remove that material once I understand what's going on). I understand the concept (I think!), but why the notation $\int_C P$?
 
-_Toby_:  That notation is a reference to the standard notation for a co[[end]].
+_Toby_:  That notation is a reference to the standard notation for an [[end]].
 
 [[Urs Schreiber|Urs]]: I'd say the integral sign here originates quite concretely in the idea that the category of elements of $F$ is the _union_ of all the elements of $P(c)$ for all $c$. 
 
 [[Eric Forgy|Eric]]: I think this concept is important (for me anyway) and the intergal notation is cumbersome. What would be an acceptable alternative? For now, I think I will borrow from [[category of generalized elements]] and [Wikipedia](http://en.wikipedia.org/wiki/Category_of_elements) and denote it $El(P)$. I can change it back if there is an uproar. I would actually prefer something like $Unpack(C)$ to emphasize the relation to $C$.
 
 PS: Don't worry. I will make the edits once a nice notation is decided.
+
+_Toby_:  I don\'t really like $Unpack$, although $El$ seems fine.  I do think that we should show the integral notation too, however, and give Urs\'s justification for it.  (I\'ll do that now.)
