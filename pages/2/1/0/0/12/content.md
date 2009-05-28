@@ -297,7 +297,7 @@ Internal error?
 [[Sandbox/test]]
 [[!include Sandbox/test]]
 
-$$A \lozenge B \;\vee\; A \bowtie B$$
+$$A \diamond B \;\vee\; A \bowtie B$$
 
 ****
 
