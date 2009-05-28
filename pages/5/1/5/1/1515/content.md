@@ -1,7 +1,7 @@
-Corecursion exploits the existence of a morphism from a [[coalgebra for an endofunctor]] to a [[terminal coalgebra]] for the same endofunctor to define an operation.  It is [[duality|dual]] to [[recursion]].
+Corecursion exploits the existence of a morphism from a [[coalgebra for an endofunctor]] to a [[terminal coalgebra]] for the same endofunctor to define an operation.  It is [[duality|dual]] to [[recursion]]. See also [[coinduction]].
 
-##Example##
-For the endofunctor $H(X) = 1 + X$ on [[Set]], the terminal coalgebra is $\bar{\mathbb{N}}$, the [[extended natural number system]]. Define a function $add: \bar{\mathbb{N}} \times \bar{\mathbb{N}} \to 1 + \bar{\mathbb{N}} \times \bar{\mathbb{N}}$:
+##Examples##
+1. For the endofunctor $H(X) = 1 + X$ on [[Set]], the terminal coalgebra is $\bar{\mathbb{N}}$, the [[extended natural number system]]. Define a function $add: \bar{\mathbb{N}} \times \bar{\mathbb{N}} \to 1 + \bar{\mathbb{N}} \times \bar{\mathbb{N}}$:
 
 $$
 add(n, m) =
