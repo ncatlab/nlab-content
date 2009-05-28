@@ -13,7 +13,7 @@
 
 * [[structured generalized space|Structured spaces]] ([pdf](http://www-math.mit.edu/~lurie/papers/DAG-V.pdf))
 
-* [[generalized tangle hypothesis|Topological Field Theories]] ([pdf](http://www-math.mit.edu/~lurie/papers/cobordism.pdf))
+* [[On the Classification of Topological Field Theories]] ([pdf](http://www-math.mit.edu/~lurie/papers/cobordism.pdf))
 
 * [[(infinity,n)-category|(infinity,2)-categories]] ([pdf](http://www-math.mit.edu/~lurie/papers/bicat.pdf))
 
