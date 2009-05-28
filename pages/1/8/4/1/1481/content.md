@@ -1,60 +1,34 @@
 #The Path Integral#
 
-+-- {.query}
-This is material that Urs originally posted at the [n-Cafe](http://golem.ph.utexas.edu/category/2008/06/an_exercise_in_groupoidificati.html), but I think deserves to be cleaned up and made into a nice introductory example.
-=--
+**Under Construction**
 
-As we have been reminded of by the [last entry](http://golem.ph.utexas.edu/category/2008/06/a_groupoid_approach_to_quantiz.html) a while ago some of us had been very busily thinking here about 
+##Background/Motivation##
 
-      What is the quantum path integral really?
-
-We were trying to understand this by looking at simple finite combinatorial toy models. I can't tell how far John Baez and Alex Hoffnung have gotten since [then](http://golem.ph.utexas.edu/category/2007/03/quantization_and_cohomology_we_17.html), but I know how far I got. Here is where I am coming from:
-
-
-[Extended quantum field theory](http://golem.ph.utexas.edu/category/2008/05/raltion_between_aqft_and_exten.html) of [&#931;-model type](http://golem.ph.utexas.edu/category/2008/04/sigmamodels_and_nonabelian_dif.html) should work like this:
-
-
-a) the "classical" data is: a [[target]] space $X$ together with a [nonabelian differential n-cocycle](http://golem.ph.utexas.edu/category/2008/04/sigmamodels_and_nonabelian_dif.html) $\nabla$ on it, expressed in terms of a [[parallel transport functor]].
-
-b) the quantization procedure is, roughly: to each piece $\Sigma$ of [[parameter space]] assign the result of forming the "space of sections" of the [[transgression]] of $\nabla$ to $Maps(\Sigma,X)$.
-
-It's comparatively clear [that and how](http://golem.ph.utexas.edu/category/2008/02/states_of_chernsimons_theory.html) this works for dim $\sigma \lt n$: [transgression of transport is just forming the [inner hom](http://golem.ph.utexas.edu/category/2007/12/transgression_of_ntransport_an.html) and then [taking sections](http://golem.ph.utexas.edu/category/2008/02/chernsimons_states_from_linfin.html). 
-
-The more mysterious part is this: with the _really_ right way of looking at this, it _should_ be true that turning this crank for dim $\Sigma=n$ magically leads to the path integral itself, thus realizing [Dan Freed's old observation](http://golem.ph.utexas.edu/category/2008/06/an_exercise_in_groupoidificati.html) that the path integral should be just the top dimension part of a general process which always just transgresses and then takes sections. If this comes out as hoped, one would begin to hope that this provides hints for how we should _really_ be thinking of the mystery of the path integral.
-
-Anyway, I had a bunch of ideas about this but didn't quite get to the point where I was entirely happy. Now here is something which is simple but looks a bit like progress to me. A simple exercise in [Groupoidification](http://math.ucr.edu/home/baez/qg-fall2007/hecke.pdf). I haven't really had the time to think it true in its entirety. But that's one reason more for me to share it.
-
-***
-
-So I want to look at this pathetically simple setup:
-
-##Background/motivation##
-
-[[target]] space is a category $P_1(X)$ generated from a _[[directed graph|finite graph]]_.
+[[target|Target]] space is a finite [[path category]] $P_1(X)$ generated from a [[directed graph]].
 
 We fix a finite [[gauge group]] $G$ and some [[representation]] 
 
-$$\rho: BG \to Set$$
+$$\rho: \mathbf{BG} \to Set$$
 
-(where $BG$ is the one-object [[groupoid]] version of $G$). Let's write $V//G$ for the corresponding action groupoid.
+(where $\mathbf{BG}$ is the one-object [[groupoid]] version of $G$). Let's write $V//G$ for the corresponding [[action groupoid]].
 
 The [[background field]] is a [[functor]]
 
-$$\nabla: P_1(X) \to BG.$$
+$$\nabla: P_1(X) \to \mathbf{BG}.$$
 
-A [[state]] is a [[section]] of this restricted to points, namely a [[lift]] of $\left.\nabla \right|_0: P_0(X)\to BG$ through
+A [[state]] is a [[section]] of this restricted to points, namely a [[lift]] of $\left.\nabla \right|_0: P_0(X)\to \mathbf{BG}$ through
 
-$$V\to V//G\to BG.$$
+$$V\to V//G\to \mathbf{BG}.$$
 
 So that's just a choice of element in $V$ over each point.
 
 A bit more interesting, if we [[transgression|transgress]] to [[path space]] by homming the [[interval category]] $(a\to b)$ into everything to get
 
-$$tg\nabla:hom((a\to b),P_1(X))\to hom(a\to b,BG).$$
+$$tg\nabla:hom((a\to b),P_1(X))\to hom(a\to b,\mathbf{BG}).$$
 
 Then restricting that functor to objects and taking sections in terms of lifts through
 
-$$hom(a\to b,V)\to hom(a\to b,V//G)\to hom(a\tob,BG)$$
+$$hom(a\to b,V)\to hom(a\to b,V//G)\to hom(a\tob,\mathbf{BG})$$
 
 over objects yields: over each path a choice of element in $V$ over the endpoints, such that they are related by the parallel transport of $\nabla$ along that path.
 
@@ -163,3 +137,11 @@ c) the natural and automatic appearance of V-colored sets.
 
 
 But I have to stop here. If Konrad or Hisham read this, or some of the other people waiting for me getting back to them with tasks finished, they'll be unhappy to see me instead talk about foundational abstract nonsense here. But I needed to relax a bit. :-)
+
+##References##
+
++-- {.query}
+This is material that Urs originally posted at the [n-Cafe](http://golem.ph.utexas.edu/category/2008/06/an_exercise_in_groupoidificati.html), but I think deserves to be cleaned up and made into a nice introductory example.
+=--
+
+* [[Exploding a Category]]
