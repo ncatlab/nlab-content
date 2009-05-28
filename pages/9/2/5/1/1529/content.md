@@ -131,28 +131,6 @@ $$
 
 As described there, $V//G \to \mathbf{B}G$ is the [[groupoid]] incarnation of the vector bundle that is associated via $\rho$ to the universal $G$-bundle on the [[classifying space]] $B G$.
 
-
-
-
-***
-
->[[Urs Schreiber|Urs]]: I am not sure what is meant with the following example!
-
-
-##Example: Path Category##
-
-Consider a category $X\nearrow\Gamma$ with one object, a set $X$, and one morphism
-
-$\Gamma:X\to X$
-
-for each "evolution map" in $X$. This category may be depicted as
-
-$$X\bullet\righttoleftarrow\Gamma.$$
-
-The [[path category]] $P_1(X)$ is given by
-
-$$P_1(X)=Explode(X\nearrow\Gamma).$$
-
 ##References##
 
 >[[Urs Schreiber|Urs]]: I am not so happy with the term "exploding a category". 
