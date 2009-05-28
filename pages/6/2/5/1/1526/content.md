@@ -1,9 +1,13 @@
 **Under Construction**
 
-Given a [[concrete category]] $C$, we can **explode** $C$ into a new category $Explode(C)$. The objects of $Explode(C)$ consist of all the elements of all the objects of $C$.
+Given a [[concrete category]] $C$, we can **explode** $C$ into a new [[category of elements]] that we will denote by $Explode(C)$. The objects of $Explode(C)$ consist of all the elements of all the objects of $C$.
 
 +-- {: .query}
 Eric, what would you call $Explode(C)$ is words?: the 'explosion' of $C$, the 'exploding' of $C$, the 'exploded category' of $C$?  ---Toby
+
+[[Eric Forgy|Eric]]: If the term '[[category of elements]]' is standard, then you could just call it that. I'm not excited by the notation $El(C)$ though. I'm still thinking about the best way to present this. I like the picture (see below) of "exploding" a category that is missing in the description of [[category of elements]] and is also not indicated by the notation $El(C)$. The image I get when I think of this is roughly like a fireworks display.
+
+PS: For a field that is so "pictorial" in nature, the nCafe generally is sadly lacking in "pictures".
 =--
 
 The morphisms of $Explode(C)$ are the obvious ones inherited from the morphisms of $C$, i.e. given a morphism
@@ -19,6 +23,9 @@ $$(x\in X)\stackrel{f_x}{\to} (y\in Y)$$
 
 
 in $Explode(C)$.
+
+[[explode.jpg|Exploding a Category:pic]]
+
 
 ##Example: Action Groupoid##
 
