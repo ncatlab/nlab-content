@@ -8,9 +8,9 @@ Let $X$ be a [[topological space]]. It **Moore path category** $P(X)$ has
 
 * $Obj(P(X)) = X$
 
-* $Mor(P(X)) = \sqcup_{t \in [0,\infty)} Top([0,t],X)$ .
+* $Mor(P(X)) = \coprod_{t \in [0,\infty)} Top([0,t],X)$ .
 
-Composition is the obvious concatenation of paths obtaibed by pullback along the injection maps
+Composition is the obvious concatenation of paths obtained by pullback along the injection maps
 
 $$
   [0,t_1] \stackrel{1}{\hookrightarrow} [0, t_1 + t_2]
