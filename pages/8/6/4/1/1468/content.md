@@ -28,6 +28,7 @@ In addition to the notes provided by Alex Hoffnung below, there are also notes b
 
 * [[David Ben-Zvi]], [[DBZLecture1.ps:file]], talk notes by [[Alex Hoffnung]]
 
+
 * [[David Ben-Zvi]], [[DBZLecture2.ps:file]], talk notes by [[Alex Hoffnung]]
 
 * [[David Ben-Zvi]], [[DBZLecture3.ps:file]], talk notes by [[Alex Hoffnung]]
@@ -51,6 +52,11 @@ In addition to the notes provided by Alex Hoffnung below, there are also notes b
 
 * [[Jacob Lurie]], [[LurieLecture4.ps:file]], talk notes by [[Alex Hoffnung]]
 
+### Related $n$Lab entries ###
+
+* [[On the Classification of Topological Field Theories]]
+
+
 ##Bertrand To&#235;n on Secondary K-theory ##
 
 * [[Bertrand Toën]], [[ToenLecture1.ps:file]], talk notes by [[Alex Hoffnung]]
@@ -61,9 +67,19 @@ In addition to the notes provided by Alex Hoffnung below, there are also notes b
 
 * [[Bertrand Toën]], [[ToenLecture4.ps:file]], talk notes by [[Alex Hoffnung]]
 
+
 ##Orit Davidovich on Modular Tensor Categories ##
 
 * [[Orit Davidovich]], [[Davidovich.ps:file]], talk notes by [[Alex Hoffnung]]
+
+### related $n$Lab entries ###
+
+* [[semisimple category]]
+
+* [[fusion category]]
+
+* [[modular tensor category]]
+
 
 ##John Francis##
 
@@ -86,22 +102,27 @@ Can someone who has these notes or wants to write a summary put something here p
 I (Alex) am back in California.  It would be great if someone passed on notes of some sort from the conference.
 =--
 
+##Kevin Costello##
 
 * [[Kevin Costello]], [[costello.pdf:file]], talk notes by [[Christoph Wockel]]
 
+### related $n$Lab entries ###
+
+* [[factorization algebra]]
+
+  * [[vertex operator algebra]]
+
+* [[BV theory]]
+
+
+## Chris Douglas##
+
 * [[Chris Douglas]], [[douglas.pdf:file]], talk notes by [[Christoph Wockel]]
+
+## Jacob Lurie ##
 
 * [[Jacob Lurie]], [[lurie.pdf:file]], talk notes by [[Christoph Wockel]]
 
-
-
-### related $n$Lab entries ###
-
-* [[FQFT]]
-
-  * [[(infinity,n)-category of cobordisms]]
-
-* [[generalized tangle hypothesis]]
 
 
 #Further links#
