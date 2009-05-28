@@ -7,7 +7,7 @@ The analogue of the category of elements for functors landing in $Cat$, rather t
 
 #Definition#
 
-Given a functor $P:C^{\mathrm{op}}\to\mathbf{Set}$ (a [[presheaf]] of sets on $C$), the **category of elements**$ \int_C P$ of $P$ may be understood in any of these equivalent ways:
+Given a functor $P:C^{\mathrm{op}}\to\mathbf{Set}$ (a [[presheaf]] of sets on $C$), the **category of elements** $\int_C P$ of $P$ may be understood in any of these equivalent ways:
 
 * It is the [[category]] whose objects are pairs $(c,x)$ where $c$ is an object in $C$ and $x$ is an element in $P(c)$ and morphisms $(c,x)\to(c',x')$ are morphisms $u:c\to c'$ such that $P(u)(x') = x$.
 
@@ -29,5 +29,7 @@ $$\array{ (\int_C P)^{op} &\to& * \\ \downarrow^{\pi_P^{op}} &\Downarrow& \downa
 +--{.query}
 
 [[Eric Forgy|Eric]]: This seems like the gadget I'm trying to describe at [[Exploding a Category]] (I may remove that material once I understand what's going on). I understand the concept (I think!), but why the notation $\int_C P$?
+
+_Toby_:  That notation is a reference to the standard notation for a co[[end]].
 
 =--
