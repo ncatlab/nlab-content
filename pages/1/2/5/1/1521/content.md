@@ -4,7 +4,7 @@ This entry is about the article
 
 #Summary#
 
-The article examines in terms of finitized toy examples of [[quantum field theory|quantum field theories]] the suggestion that [[path integral]] quantization of a [[sigma-model]] to a [[FQFT|functorial quantum field theory]] 
+The article examines in terms of finitized toy examples of [[quantum field theory|quantum field theories]] the suggestion that [[path integral]] quantization of a [[sigma-model|∞-model]] to a [[FQFT|functorial quantum field theory]] 
 
 $$
  Z_\nabla : \Sigma \to Vect
@@ -67,7 +67,7 @@ Since Tom Leinster motivated his measure from considerations of push-forwards of
 
 this seemed like a natural, albeit still vague, indication for the validitiy of the _$n$-Caf&#233; quantum conjecture_ .  In Johan Alm's computation of the Kan extension the Leinster measure appears automatically as the path integral weight, and in the expected way when applied to Dijkgraaf-Witten theory.
 
-A little later more indications accumulated that the push-forward appearing in the _$n$-Caf&#233; quantum conjecture_ is the push-part in a pull-push operation, where a quantum [[sigma-model]] with target space $X$ and background field $\nabla : X \to V$ classifying a bundle $P \to X$ assigns to a [[cobordism]] [[cospan]] $\Sigma_in \to \Sigma \leftarrow \Sigma_{out}$ the pull-push operation through the [[span]] $[\Sigma_{in},P] \leftarrow [\Sigma, P] \to [\Sigma_{out}, P]$.
+A little later more indications accumulated that the push-forward appearing in the _$n$-Caf&#233; quantum conjecture_ is the push-part in a pull-push operation, where a quantum [[sigma-model|∞-model]] with target space $X$ and background field $\nabla : X \to V$ classifying a bundle $P \to X$ assigns to a [[cobordism]] [[cospan]] $\Sigma_in \to \Sigma \leftarrow \Sigma_{out}$ the pull-push operation through the [[span]] $[\Sigma_{in},P] \leftarrow [\Sigma, P] \to [\Sigma_{out}, P]$.
 
 A toy example supporting this idea was described as
 
