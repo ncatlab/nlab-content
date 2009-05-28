@@ -1,16 +1,6 @@
 **Under Construction**
 
-Given a [[concrete category]] $C$, we can **explode** $C$ into a new [[category of elements]] that we will denote by $Explode(C)$. The objects of $Explode(C)$ consist of all the elements of all the objects of $C$.
-
-+-- {: .query}
-Eric, what would you call $Explode(C)$ is words?: the 'explosion' of $C$, the 'exploding' of $C$, the 'exploded category' of $C$?  ---Toby
-
-[[Eric Forgy|Eric]]: If the term '[[category of elements]]' is standard, then you could just call it that. I'm not excited by the notation $El(C)$ though. I'm still thinking about the best way to present this. I like the picture (see below) of "exploding" a category that is missing in the description of [[category of elements]] and is also not indicated by the notation $El(C)$. The image I get when I think of this is roughly like a fireworks display.
-
-PS: For a field that is so "pictorial" in nature, the nCafe generally is sadly lacking in "pictures".
-=--
-
-The morphisms of $Explode(C)$ are the obvious ones inherited from the morphisms of $C$, i.e. given a morphism
+Given a [[concrete category]] $C$, we can **explode** $C$ into a new [[category of elements]] that we will denote by $Explode(C)$. The objects of $Explode(C)$ consist of all the elements of all the objects of $C$. The morphisms of $Explode(C)$ are the obvious ones inherited from the morphisms of $C$, i.e. given a morphism
 
 
 $$X\stackrel{f}{\to} Y$$
@@ -51,6 +41,8 @@ $$V//G=Explode(V\nearrow G).$$
 
 >[[Urs Schreiber|Urs]]: I am not sure what is meant with the following example!
 
+>[[Eric Forgy|Eric]]: The idea needs fleshing out, but the basic concept was outlined <a href="http://golem.ph.utexas.edu/category/2008/06/an_exercise_in_groupoidificati.html#c017583">here</a> (and you partially approved <a href="http://golem.ph.utexas.edu/category/2008/06/an_exercise_in_groupoidificati.html#c017596">here</a>! :))
+
 =--
 
 Consider a category $X\nearrow\Gamma$ with one object, a set $X$, and one morphism
@@ -70,6 +62,14 @@ $$P_1(X)=Explode(X\nearrow\Gamma).$$
 * [Exploding a Category](http://golem.ph.utexas.edu/category/2008/06/an_exercise_in_groupoidificati.html#c017574)
 
 ##Discussion##
+
++-- {: .query}
+Eric, what would you call $Explode(C)$ is words?: the 'explosion' of $C$, the 'exploding' of $C$, the 'exploded category' of $C$?  ---Toby
+
+[[Eric Forgy|Eric]]: If the term '[[category of elements]]' is standard, then you could just call it that. I'm not excited by the notation $El(C)$ though. I'm still thinking about the best way to present this. I like the picture (see below) of "exploding" a category that is missing in the description of [[category of elements]] and is also not indicated by the notation $El(C)$. The image I get when I think of this is roughly like a fireworks display.
+
+PS: For a field that is so "pictorial" in nature, the nCafe generally is sadly lacking in "pictures".
+=--
 
 >[[Urs Schreiber|Urs]]: the following really describes this concept: given a category $C$ with a [[generator]] ${*}$ or some other singled out object such as a tensor unit if $C$ is monoidal, there is the category of [[generalized element]]s of $C$ with respect to ${*}$, which is the [[over category]] $(*/C)$. The term "exploding a category" is very non-standard and I don't really like it, to be frank. Could we move this here maybe to something like "category of elements", or the like? 
 
