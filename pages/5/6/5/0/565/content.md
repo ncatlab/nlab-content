@@ -1,10 +1,10 @@
 #Idea#
 
-A **concrete category** is a category that looks like a category of "sets with extra structure".
+A concrete category is a category that looks like a category of "sets with extra structure".
 
 #Definition#
 
-A _concrete category_ is a category $C$
+A __concrete category__ is a category $C$
 
 * equipped with a [[faithful functor]]
 $$
