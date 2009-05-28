@@ -38,4 +38,7 @@ $$\array{ (\int_C P)^{op} &\to& * \\ \downarrow^{\pi_P^{op}} &\Downarrow& \downa
 
 _Toby_:  That notation is a reference to the standard notation for a co[[end]].
 
+[[Urs Schreiber|Urs]]: I'd say the integral sign here originates quite concretely in the idea that the category of elements of $F$ is the _union_ of all the elements of $P(c)$ for all $c$. 
+
+
 =--
