@@ -8,27 +8,27 @@
 
 We fix a finite [[gauge group]] $G$ and some [[representation]] 
 
-$$\rho: \mathbf{BG} \to Set$$
+$$\rho: \mathbf{B}G \to Set$$
 
-(where $\mathbf{BG}$ is the one-object [[groupoid]] version of $G$). Let's write $V//G$ for the corresponding [[action groupoid]].
+(where $\mathbf{B}G$ is the one-object [[groupoid]] version of $G$). Let's write $V//G$ for the corresponding [[action groupoid]].
 
 The [[background field]] is a [[functor]]
 
-$$\nabla: P_1(X) \to \mathbf{BG}.$$
+$$\nabla: P_1(X) \to \mathbf{B}G.$$
 
-A [[state]] is a [[section]] of this restricted to points, namely a [[lift]] of $\left.\nabla \right|_0: P_0(X)\to \mathbf{BG}$ through
+A [[state]] is a [[section]] of this restricted to points, namely a [[lift]] of $\left.\nabla \right|_0: P_0(X)\to \mathbf{B}G$ through
 
-$$V\to V//G\to \mathbf{BG}.$$
+$$V\to V//G\to \mathbf{B}G.$$
 
 So that's just a choice of element in $V$ over each point.
 
 A bit more interesting, if we [[transgression|transgress]] to [[path space]] by homming the [[interval category]] $(a\to b)$ into everything to get
 
-$$tg\nabla:hom((a\to b),P_1(X))\to hom(a\to b,\mathbf{BG}).$$
+$$tg\nabla:hom((a\to b),P_1(X))\to hom(a\to b,\mathbf{B}G).$$
 
 Then restricting that functor to objects and taking sections in terms of lifts through
 
-$$hom(a\to b,V)\to hom(a\to b,V//G)\to hom(a\tob,\mathbf{BG})$$
+$$hom(a\to b,V)\to hom(a\to b,V//G)\to hom(a\to b,\mathbf{B}G)$$
 
 over objects yields: over each path a choice of element in $V$ over the endpoints, such that they are related by the parallel transport of $\nabla$ along that path.
 
