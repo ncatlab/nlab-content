@@ -1,0 +1,41 @@
+#idea#
+
+A _factorization algebra_ is like an [[algebra over an operad]] where the [[operad]] in question is like the [[little disks operad]], but with each disk emedded into a given manifold $X$.
+
+This way a factorization algebra is an assignment of a [[object]] (in the standard case a vector space) $V_D$ to each ball $D \subset X$ embedded in $X$, and for each collection of non-intersecting embedded balls $D_1 , \cdots, D_n \subset D \subset X$ sitting inside a bigger embedded ball $D$ in $X$ a morphism
+
+$$
+  V_{D_1} \otimes V_{D_2} \otimes \cdots \otimes V_{D_n} \to V_{D}
+$$
+
+such that for every collection of further nested balls inside balls, all the different ways to bracket
+
+$$
+  V_{D_{11}} \otimes V_{D_{12}} \otimes \cdots \otimes V_{D_{1 n}}
+  \otimes V_{D_{21}} \otimes V_{D_{2 2}} \otimes \codots \to V_D
+  \,.
+$$
+
+This is pretty much like saying that the factoriuation algebra is an extended [[FQFT]] of genus 0 [[cobordism]]s that are embedded into $X$.
+
+Inded, such factorization algebras serve to describe [[quantum field theory|quantum field theories]] on $X$, pretty much in a way that generalizes the familiar way that 2-dimensional [[conformal field theory]] is given by [[vertex operator algebra]]s. See also the comments on the references below.
+
+#References#
+
+This may be regarded as a slight variation on the concept _chiral algebra_ originally introduced by Beilinson and Drinfeld.
+
+A definition appears in section 4.1 _Topological Chiral Homology_ of
+
+* [[Jacob Lurie]], [[On the Classification of Topological Field Theories]]
+
+There it is demonsztrated how factorization algebras can be used to construct extended [[FQFT]]s.
+
+Concrete constructions of formal algebras for familiar [[quantum field theory|quantum field theories]] are described in the work of Kevin Costello. This can be found mentioned in the talk notes of the [[Northwestern TFT Conference 2009]], see in particular
+
+* notes by  [[Christoph Wockel]] [[costello.pdf:file]]
+
+* notes by Evan Jenkins, [Factorization algebras in perturbative quantum gravity](http://www.math.uchicago.edu/~ejenkins/notes/nwtft/25may-kc.pdf)
+
+There seems to be a close relation between the description of [[quantum field theory]] by factorization algebras and the proposal presented in 
+
+* Stefan Hollands ([arXiv](http://arxiv.org/abs/0802.2198))
