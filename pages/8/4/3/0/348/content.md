@@ -31,8 +31,11 @@ Let $C$ be a [[small category]].
 A _sieve_ $S$ (Fr. _crible_) on an object $c \in C$ is a subset $S \subset Ob(C/c)$ of the set of objects of the [[over category]] over $c$ which is _closed under precomposition_:  it has the property that with $(d \to c) \in S$ for every morphism $(e \to d) \in Mor(C)$ also the composite $(e \to d \to c)$ is in $S$.
 =--
 
-
 Sometimes the condition of a sieve being closed under the operation of precomposing with an arbitrary morphism $g: e \to d$ is called a "saturation condition". Given any collection of morphisms targeted at $c$, one can always close it up or saturate it, to obtain a sieve on $c$. 
+
++-- {: .query}
+_Bruce_: Perhaps say here: "It is called a _sieve_ because it "sieves out" the 'special' maps into $c$ from the set of _all_ maps into $c$.
+=--
 
 
 # Relation to subfunctors #
@@ -67,7 +70,13 @@ or equivalently
 * $S_F = \coprod_{d \in Obj(C)}F(d)$.
 =--
 
-+-- {: .un_lemma}
++-- {: .query}
+_Bruce_: Hey, if you are being extra careful here you should be saying that the sieve $S_F$ obtained from the subfunctor $F \hookrightarrow Y(c)$ is really the _image_ of $F$ (as you say below), i.e. if we write $i: F \hookrightarrow Y(c)$ for the explicit inclusion map, then for each $d$, $S_F(d) = Image of i_d in Hom(d,c)$. 
+
+Right now, this makes me _prefer_ the notion of 'sieve' to the notion of 'subfunctor of a representable'. The reason is that the elements of the sieve are actually morphisms in the category, whereas the subfunctor can be composed of 'abstract elements'. Why are you pushing the viewpoint of 'subfunctor of a representable'? Is it for later $\infty$-category purposes? If so, you should say that at the top of the article, so the reader understands why you are introducing extraneous 'abstract nonsense' elements into the conversation... :-)
+=--
+
+ {: .un_lemma}
 ###### Lemma
 
 These two definitions establish a bijection between sieves on $c$ and subobjects of $Y(c)$.
@@ -181,7 +190,7 @@ The followig is a pedagogical step-by-step description of the crucial aspects of
 To start with the simplest example that already contains in it all the relevant aspects, consider a [[topological space]] $X$ with an open subset $V \subset X$ that is covered by two open subsets $U_1, U_2 \subset X$ in that the union $U_1 \cup U_2$ in $X$ coincides with $V$:
 
 $$
-  U_1 \cup U_2 = X
+  U_1 \cup U_2 = V
   \,.
 $$
 
