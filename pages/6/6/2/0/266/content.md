@@ -13,7 +13,7 @@ $$
 $$
 
 is, if it exists, a "best approximation" to 
-the problem of finding a functor $C' \to C$ such that 
+the problem of finding a functor $C' \to D$ such that 
 $$
   \array{
      C &\stackrel{F}{\to}& D
