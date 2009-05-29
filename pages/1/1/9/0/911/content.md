@@ -29,15 +29,13 @@ $$\array{ Elem(P,C) &\to& * \\ \downarrow^{\pi_P} &\Downarrow& \downarrow^{pt} \
 * Its [[opposite category|opposite]] is the [[comma category]] $(Y/P)$, where $Y$ is the [[Yoneda embedding]] $C^{op}\to [C,Set]$ and $P$ is the functor $*\to [C,Set]$ which picks out $P$ itself:
 $$\array{ Elem(P,C)^{op} &\overset{\pi_P^{op}}{\to}& C^{op} \\ \downarrow &\Downarrow& \downarrow^{Y} \\ * & \underset{P}{\to}& [C,Set].}$$
 
-$Elem(P,C)$ is also often written with [[end|coend]] notation as $\int^C P$, $\int^{c: C} P(c)$, or $\int^c P(c)$.  This suggests the fact the set of objects of the category of elements is the [[disjoint union]] (sum) of all of the sets $P(c)$.
+$Elem(P,C)$ is also often written with [[end|coend]] notation as $\int^C P$, $\int^{c: C} P(c)$, or $\int^c P(c)$.  This suggests the fact the set of objects of the category of elements is the [[disjoint union]] (sum) of all of the sets $P(c)$. Another fairly common notation for $Elem(P,C)$ is simply $el(P)$.
 
-+--{.query}
+When $C$ is a [[concrete category]] and the functor $F:C\to Set$ is simply the [[forgetful functor]], we can define a functor
 
-Should the above statement be changed from disjoint union to direct product? - Eric
+$$Explode(-) := Elem(F,-).$$
 
-No.  Each object of $el(P)$ is an element of exactly one $P(c)$, so the set of objects is the disjoint union.  An element of the direct product would consist of an element of $P(c)$ for _every_ $c$.  -Mike
-
-=--
+This is intended to illustrate the concept that constructing a category of elements is like "unpacking" or "exploding" a category into its elements.
 
 #Properties#
 
@@ -55,13 +53,14 @@ $$V\nearrow G.$$
 
 The [[action groupoid]] $V//G$ is then given by
 
-$$V//G=Elem(F,V\nearrow G),$$
-
-where $F:V\nearrow G\to Set$ is a [[forgetful functor]].
+$$V//G=Explode(V\nearrow G).$$
 
 ##References##
 
 * [Wikipedia: Category of elements](http://en.wikipedia.org/wiki/Category_of_elements)
+* [An Exercise in Groupoidification: The Path Integral](http://golem.ph.utexas.edu/category/2008/06/an_exercise_in_groupoidificati.html)
+  * [Exploding a Category](http://golem.ph.utexas.edu/category/2008/06/an_exercise_in_groupoidificati.html#c017574)
+  * [Library of Loops](http://golem.ph.utexas.edu/category/2008/06/an_exercise_in_groupoidificati.html#c017584)
 
 ##Discussion##
 
@@ -80,3 +79,9 @@ _Toby_:  I don\'t really like $Unpack$, although $El$ seems fine.  I do think th
 _Eric_: Excellent. Instead of $El$ (and forget about $Unpack$), could we call it $Element(P,C)$ or even $Elem(P,C)$ and let $P:C\to Set$? From what I can tell about [[Grothendieck construction]], this would be more consistent. Lurie uses the notation $Groth(P,C)$ for $P:C\to Cat$ so $Elem(P,C)$ with $P:C\to Set$ makes sense to me.
 
 [[Mike Shulman|Mike]]: $el(P)$ is a fairly common notation.
+
+[[Eric Forgy|Eric]]: Should the above statement be changed from disjoint union to direct product? - Eric
+
+[[Mike Shulman|Mike]]: No.  Each object of $el(P)$ is an element of exactly one $P(c)$, so the set of objects is the disjoint union.  An element of the direct product would consist of an element of $P(c)$ for _every_ $c$.
+
+[[Eric Forgy|Eric]]: Thanks. I hope my changes are acceptable. I'm pretty happy with the article now. I also added a note about $el(P)$.
