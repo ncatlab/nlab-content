@@ -1,5 +1,6 @@
 #Idea#
 
+A _sieve_ is a way to encode a morphism of [[presheaf|presheaves]] that behaves like a [[cover]]. It is used to say which [[presheaf|presheaves]] are actually [[sheaf|sheaves]] with respect to a given [[coverage]] or [[Grothendieck topology]].
 
 _Sieves_ are an equivalent way to encode [[subobject]]s of [[representable functor]]s in a [[presheaf]] category in terms of the total sets of _elements_ of such a subfunctor.
 
