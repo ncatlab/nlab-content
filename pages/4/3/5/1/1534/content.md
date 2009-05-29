@@ -12,7 +12,7 @@ such that for every collection of further nested balls inside balls, all the dif
 
 $$
   V_{D_{11}} \otimes V_{D_{12}} \otimes \cdots \otimes V_{D_{1 n}}
-  \otimes V_{D_{21}} \otimes V_{D_{2 2}} \otimes \codots \to V_D
+  \otimes V_{D_{21}} \otimes V_{D_{2 2}} \otimes \cdots \to V_D
   \,.
 $$
 
