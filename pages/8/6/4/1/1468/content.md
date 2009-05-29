@@ -119,6 +119,10 @@ I (Alex) am back in California.  It would be great if someone passed on notes of
 
 * [[Chris Douglas]], [[douglas.pdf:file]], talk notes by [[Christoph Wockel]]
 
+## Liang Kong ##
+
+* [[Liang Kong]], [[kong.pdf:file]], talk notes by [[Christoph Wockel]]
+
 ## Jacob Lurie ##
 
 * [[Jacob Lurie]], [[lurie.pdf:file]], talk notes by [[Christoph Wockel]]
