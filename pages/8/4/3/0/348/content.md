@@ -7,6 +7,13 @@ The notion of _sieve_ is usually used when certain such subobjects are singled o
 
 +-- {: .query}
 Urs, I changed 'coverage' back to 'Grothendieck topology' above, since it\'s specifically Grothendieck topologies that deal with covering sieves; coverages deal with arbitrary covering families (generally not sieves and generally not all of them), which is part of why coverages both can be more useful and are less canonical.
+
+[[Urs Schreiber|Urs]]: hm, okay. My impression was that the point of coverages is that we don't impose the four axioms of Grothendieck topology on the covering things, while we do keep the notion of sieves itself. Because "sieve" is really just another way to say "subfunctor of a representable" so the question really is: which collections of subfunctors of representables do we want to use as coverages.  For me the 1-line definition of "coverage" would be: choice of subcollection of all monois in a given 1-topos. That then makes sense also in non-presheaf topoi. For presheaf topoi it happens to have a reformulation in terms of sieves.
+
+So, in conclusion, I am thinking that the point of using more general coverages over Grothendieck topologies is not primarily to relax the closure under composition that makes a sieve a sieve. That's kind of a trivial thing. The point is that we don't need to impose the four axioms of a Grothendieck topology on the collection of all such.
+
+But maybe not. This is just so you know what I am thinking. :-)
+
 =--
 
 A choice of collections of morphism $d \to c$ into an object $c \in C$  for each $d \in C$ reminds one of the [[representable functor]] [[presheaf]]
