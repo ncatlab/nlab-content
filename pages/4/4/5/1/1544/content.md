@@ -1,12 +1,12 @@
 #Idea#
 
-Given a smooth [[fiber bundle]] $P \to X$, for instance a $G$-[[principal bundle]] or a [[vector bundle]], a _connection_ on $P$ is a prescription to associate with each path
+Given a smooth [[bundle]] $P \to X$, for instance a $G$-[[principal bundle]] or a [[vector bundle]], a _connection_ on $P$ is a prescription to associate with each path
 
 $$
   \gamma : x \to y
 $$
 
-in $X$  (which is a [[morphism]] in the [[path groupoid]] $P_1(X)$) a morphism $tra(\gamma)$ between the fibers of $P$ over these point
+in $X$  (which is a [[morphism]] in the [[path groupoid]] $P_1(X)$) a morphism $tra(\gamma)$ between the fibers of $P$ over these points
 
 $$
   \array{
@@ -18,7 +18,7 @@ $$
 
 such that
 
-* this assignment respects the structure on the fibers $P_x$ (for instance is $G$-equivariant in the case that $P$ is a $G$-[[principal bundle]] or that is linear in the case that $P$ is a [[vector bundle]]);
+* this assignment respects the structure on the fibers $P_x$ (for instance is $G$-equivariant in the case that $P$ is a $G$-bundle or that is linear in the case that $P$ is a vector bundle);
 
 * this assignment is smooth in a suitable sense;
 
@@ -46,7 +46,7 @@ $$
   tra : P_1(X) \to At''(P)
 $$
 
-from the [[path groupoid]] of $X$ to the [[Atiyah Lie-groupoid]] of $P$ that is smooth in a suitable sense and _splits the Atiyah sequence_ in that $P_1(X) \stackrel{tra}{\to} At''(X) \to P_1(X)$ (see the notation at [[Atiyah Lie-groupoid]]).
+from the [[path groupoid]] of $X$ to the [[Atiyah Lie groupoid]] of $P$ that is smooth in a suitable sense and _splits the Atiyah sequence_ in that $P_1(X) \stackrel{tra}{\to} At''(X) \to P_1(X)$ (see the notation at [[Atiyah Lie groupoid]]).
 
 ## Terminology ##
 
@@ -58,7 +58,7 @@ It may happen that the assignment $tra : \gamma \mapsto tra(\gamma)$ only depend
 
 ## more concrete picture ##
 
-By [[Lie theory|Lie differentiation]] the functor $tra$, i.e. by looking what it does to very short pieces of paths, one obtains from it a splitting of the [[Atiyah Lie-groupoid|Atiyah Lie algebroid sequence]], which is a morphism
+By [[Lie theory|Lie differentiation]] the functor $tra$, i.e. by looking at what it does to very short pieces of paths, one obtains from it a splitting of the [[Atiyah Lie groupoid|Atiyah Lie algebroid sequence]], which is a morphism
 
 $$
   \nabla : T X \to at(P)
@@ -88,7 +88,7 @@ $$
   X \to \mathbf{B}G
 $$
 
-(namely a morhism in the right [[(infinity,1)-category]] which may be represented by an [[anafunctor]]).
+(namely a morphism in the right [[(infinity,1)-category]] which may be represented by an [[anafunctor]]).
 
 It turns out that similarly suitable morphisms
 
@@ -98,7 +98,7 @@ $$
 
 encode in one step the $G$-bundle together with its parallel transport functor.
 
-This is described in great detail in the reference by Schreiber-Waldorf below.
+This is described in great detail in the reference by Schreiber--Waldorf below.
 
 (...am running out of time... for more see [[schreiber:Differential Nonabelian Cohomology|here]])
 ...
@@ -114,7 +114,7 @@ The description of connections as smooth functors on the [[path groupoid]] has a
 
 * [[Urs Schreiber]], [History of Understanding Bundles with Connection using Parallel Transport around Loops](http://golem.ph.utexas.edu/category/2007/03/history_of_understanding_bundl.html).
 
-The idea to generalize this from loops to path is due to [[John Baez]] and appears in 
+The idea to generalize this from loops to paths is due to [[John Baez]] and appears in 
 
 * [[John Baez]], [[Urs Schreiber]], _Higher Gauge Theory_ ([arXiv](http://math.ucr.edu/home/baez/higher.pdf))
 
