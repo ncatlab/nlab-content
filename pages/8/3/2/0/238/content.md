@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * added to [[distributor]] the description in terms of colimit preserving functors on presheaf categories and added corresponding remarks at the beginning of [[symmetric monoidal (infinity,1)-category of presentable (infinity,1)-categories]]
+
   * created [[Atiyah Lie-groupoid]] and [[principal bundle]] to link to from the blog discussion [here](http://sbseminar.wordpress.com/2009/05/28/local-systems-what-do-you-know-about-connections/#comment-5791)
 
 *  [[Toby Bartels]]:
