@@ -4,7 +4,7 @@ The Atiyah Lie-groupoid of a $G$-[[principal bundle]] is the [[Lie groupoid]] wh
 
 #Definition#
 
-For $G$ a Lie group and $P \to X$ a $G$-principal bundle, the **Atiyah grououpoid** $At(P)$ -- also called the **gauge groupoid** or **transport groupoid** of $P$ is the [[Lie groupoid]] with
+For $G$ a Lie group and $P \to X$ a $G$-principal bundle, the **Atiyah grououpoid** $At(P)$ -- also called the **gauge groupoid** or **transport groupoid** -- of $P$ is the [[Lie groupoid]] with
 
 * $Obj(At(P)) = X$;
 
@@ -20,11 +20,15 @@ where
 
 * $Ad(P) = P \times_G G$ is the **adjoint bundle** of groups associated via the adjoint action of $G$ on itself; regarded as a smooth union $\coprod_{x \in X} \mathbf{B} P_x \times_G G$ of one-object groupoids coming from [[group]]s;
 
-* $Codisc(X) = (X \times X \stackrel{\to}{\to} X)$ is the [[codiscrete groupoid]] of $X$
+* $Codisc(X) = (X \times X \rightrightarrows X)$ is the [[codiscrete groupoid]] of $X$
 
 * the [[functor]] $Ad(P) \to At(P)$ is the identity on objects and on morphisms given by the canonical identification $P_x \times_G G \stackrel{\simeq}{\to} (P_x \times P_x)_{diag} G$
 
 * the functor $At(P) \to Codisc(X)$ is the unique one that is the identity on objects.
+
++-- {: .query}
+What is all of this $diag$ stuff?  I don\'t understand either $(P \times P)/_{diag} G$ or $(P_x \times P_x)_{diag} G$.  ---Toby
+=--
 
 Notice that a splitting (a [[section]])
 
@@ -32,7 +36,7 @@ $$
   Codisc(X) \to At(P)
 $$
 
-of the Atiyah groupoid is a trivialization of $P$. On the other hand, locally on conztractible $U \subset X$ we have $Codisc(U) \simeq \Pi_1(U)$ with $U$ the [[fundamental groupoid]] of $U$, and a splitting $Codisc(U) \simeq \Pi_1(U) \to At(P)|_U$ is still a trivialization over $U$ but indicates now that one may want to interpret it as giving rise to a flat connection.
+of the Atiyah groupoid is a trivialization of $P$. On the other hand, locally on [[contractible space|contractible]] $U \subset X$ we have $Codisc(U) \simeq \Pi_1(U)$ with $U$ the [[fundamental groupoid]] of $U$, and a splitting $Codisc(U) \simeq \Pi_1(U) \to At(P)|_U$ is still a trivialization over $U$ but indicates now that one may want to interpret it as giving rise to a flat [[connection]].
 
 Indeed, we have the sequence of 
 of surjective and [[full functor]]s of
