@@ -22,6 +22,43 @@ This yields a [[bicategory]] $V\Mod$ with
 
 * 2-morphisms are natural transformations.
 
+At least for $V = Set$ a morphism in $Set-Mod$ is often called a **profucntor** and the bicategory $Set-Mod$ is then often denoted $Prof$.
+
+#Alternative definitions#
+
+
+## In terms of colimit preserving functors on presheaf categories ##
+
+A basic fact (e.g. Kashiwara, Schapira, [[Categories and Sheaves]], corollary 2.7.4, page 63) is that for $A$ a category with all small colimits, colimit preserving functors from [[presheaf|presheaves]] on some category $C$ to $A$ are canonically equivalent to functors from $C$ to $A$: we have an equivalence of [[functor category|functor categories]]
+
+$$
+ Func^{cocont}(PSh(C),A)
+ \simeq
+  Func(C,A)
+  \,.
+$$
+
+This may be thought of as a consequence of the [[co-Yoneda lemma]] (and hence, of course, of the [[Yoneda lemma]]) which says that every presheaf is colimit over [[representable functor|representables]], i.e. over objects in the image of the [[Yoneda embedding]] $Y : C \to PSh(C)$. This immediate implies that a colimit preserving functor on $PSh(C)$ is already determined by its restriction along $Y$ to $C$.
+
+Now, distributors $C \otimes D^{op} \to V$ are [[adjunct]] to functors $C \to [D^{op}, V] \simeq PSh(D)$. Hence by the avove distributors are equivalent to colimit preserving functors
+
+$$
+  PSh(C) \to PSh(D)
+  \,.
+$$
+
+Indeed, there is an equivalence of bicategories
+$V-Mod$ and that of categories and colimit preserving functors and natural transformation between their presheaf categories.
+
+An explicit statement of this can be found for instance as prop. 4.2.4
+
+* Gian Luca Cattani, PhD thesis from BRICS, University of Aarhus ([pdf](http://www.daimi.au.dk/~luca/thesis.htmlPhD))
+
+This formulation plays a big role also in the context of [[(infinity,1)-category|(infinity,1)-categories]]. A [[presentable (infinity,1)-category]] is one equivalent to a [[localization]] of some [[(infinity,1)-category of (infinity,1)-presheaves]] (i.e. some [[reflective (infinity,1)-subcategory]] of the latter). The collection of all [[presentable (infinity,1)-category|presentable (infinity,1)-categories]] and colimit preserving [[(infinity,1)-functor]]s betweem them forms the [[symmetric monoidal (infinity,1)-category of presentable (infinity,1)-categories]], whose [[tensor product]] is the "bilinear" tensor product coming from interpreting colimit preserving functors as "linear" (reading: colimit $\sim$ sum).
+
+This $(\infinity,1)$-category $Pr^L$ therefore is an $(\infty,1)$-analog of $Set\text{-}Mod$. In [[geometric infinity-function theory]] one finds (see sectin 4 there) that morphisms in $Pr^L$ encode the "correspondence operations" such as Fourier-Mukai and its generalizations. See in that context also the examples below.
+
+
 #Examples#
 
 * Recall that a one-object [[Vect]]-[[enriched category]] is just an [[algebra]], while a general [[Vect]]-[[enriched category]] is an [[algebroid]]. The full sub-bicategory of $Vect\Mod$ on one-object $Vect$-enriched categories is the familiar category of [[algebra]]s, [[bimodule]]s and bimodule homomorphisms.
