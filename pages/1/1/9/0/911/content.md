@@ -17,7 +17,7 @@ The analogue of the category of elements for functors landing in $Cat$, rather t
 
 #Definition#
 
-Given a functor $P:C\to\mathbf{Set}$, the **category of elements** $Elem(P,C)$ may be understood in any of these equivalent ways:
+Given a functor $P:C\to\mathbf{Set}$, the **category of elements** $el(P)$ or $Elem(P,C)$ (or obvious variations) may be understood in any of these equivalent ways:
 
 * It is the [[category]] whose objects are pairs $(c,x)$ where $c$ is an object in $C$ and $x$ is an element in $P(c)$ and morphisms $(c,x)\to(c',x')$ are morphisms $u:c\to c'$ such that $P(u)(x) = x'$.
 
@@ -31,7 +31,7 @@ $$\array{ Elem(P,C) &\to& * \\ \downarrow^{\pi_P} &\Downarrow& \downarrow^{pt} \
 * Its [[opposite category|opposite]] is the [[comma category]] $(Y/P)$, where $Y$ is the [[Yoneda embedding]] $C^{op}\to [C,Set]$ and $P$ is the functor $*\to [C,Set]$ which picks out $P$ itself:
 $$\array{ Elem(P,C)^{op} &\overset{\pi_P^{op}}{\to}& C^{op} \\ \downarrow &\Downarrow& \downarrow^{Y} \\ * & \underset{P}{\to}& [C,Set].}$$
 
-$Elem(P,C)$ is also often written with [[end|coend]] notation as $\int^C P$, $\int^{c: C} P(c)$, or $\int^c P(c)$.  This suggests the fact the set of objects of the category of elements is the [[disjoint union]] (sum) of all of the sets $P(c)$. Another fairly common notation for $Elem(P,C)$ is simply $el(P)$.
+$Elem(P,C)$ is also often written with [[end|coend]] notation as $\int^C P$, $\int^{c: C} P(c)$, or $\int^c P(c)$.  This suggests the fact the set of objects of the category of elements is the [[disjoint union]] (sum) of all of the sets $P(c)$.
 
 When $C$ is a [[concrete category]] and the functor $F:C\to Set$ is simply the [[forgetful functor]], we can define a functor
 
@@ -80,10 +80,14 @@ _Toby_:  I don\'t really like $Unpack$, although $El$ seems fine.  I do think th
 
 _Eric_: Excellent. Instead of $El$ (and forget about $Unpack$), could we call it $Element(P,C)$ or even $Elem(P,C)$ and let $P:C\to Set$? From what I can tell about [[Grothendieck construction]], this would be more consistent. Lurie uses the notation $Groth(P,C)$ for $P:C\to Cat$ so $Elem(P,C)$ with $P:C\to Set$ makes sense to me.
 
+>_Toby_:  Strictly speaking, $C$ is redundant, which is why people leave it out.  I\'m fine with having it in there, but I moved the very common $el(P)$ higher up.  I also dislike long words in mathematical notation, but '$Elem$' is OK by me.
+
 [[Mike Shulman|Mike]]: $el(P)$ is a fairly common notation.
 
 [[Eric Forgy|Eric]]: Should the above statement be changed from disjoint union to direct product? - Eric
 
 [[Mike Shulman|Mike]]: No.  Each object of $el(P)$ is an element of exactly one $P(c)$, so the set of objects is the disjoint union.  An element of the direct product would consist of an element of $P(c)$ for _every_ $c$.
+
+>_Toby_:  Even as a coend, it\'s still like an integral: a sum.
 
 [[Eric Forgy|Eric]]: Thanks. I hope my changes are acceptable. I'm pretty happy with the article now. I also added a note about $el(P)$.
