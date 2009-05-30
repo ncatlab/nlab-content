@@ -59,4 +59,4 @@ $$
 
 See also 
 
-* [[Atiyah Lie-groupoid]]
+* [[Atiyah Lie groupoid]]
