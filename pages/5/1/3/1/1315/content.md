@@ -56,3 +56,7 @@ $$
   Ana(P_1(X), \mathbf{B}G) \simeq G Bund_\nabla(X)
   \,.
 $$
+
+See also 
+
+* [[Atiyah Lie-groupoid]]
