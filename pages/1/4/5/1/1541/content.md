@@ -98,3 +98,11 @@ Indeed, a splitting $\nabla_{flat} : T X \to at(P)$ of this sequence in the cate
 To get non-flat connections in the literature one often sees discussed splittings of the Atiyah Lie algebroid sequence in the category just of vector bundles. In that case one finds the curvature of the connection precisely as the obstruction to having a splitting even in Lie-algebroids.
 
 One can describe non-flat connections without leaving the context of Lie algebroids by passing to higher Lie algebroids, namely [[L-infinity algebroid]]s.
+
+#References#
+
+...
+
+some related blog discussion is at
+
+* [n-Transport and Higher Schreier Theory](http://golem.ph.utexas.edu/category/2006/09/nconnections_and_higher_schrei.html)
