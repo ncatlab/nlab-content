@@ -1,3 +1,3 @@
-see  [[Dijkgraaf-Witten theory]]
+See [[Dijkgraaf-Witten theory]].
 
 category: delete
