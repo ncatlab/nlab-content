@@ -12,4 +12,4 @@ where $D$ is a [[small category]] has a colimit in $C$.
 
 #Examples#
 
-Many familiar categories of mathematical structures are cocomplete: to name just a few examples, [[Set]], [[Grp]], [[Ab]], [[Vect]] and [[Top]] are complete.
+Many familiar categories of mathematical structures are cocomplete: to name just a few examples, [[Set]], [[Grp]], [[Ab]], [[Vect]] and [[Top]] are cocomplete.
