@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-05-30 #
 
+* [[Urs Schreiber|Urs]]:
+
+  * created [[Atiyah Lie-groupoid]] and [[principal bundle]] to link to from the blog discussion [here](http://sbseminar.wordpress.com/2009/05/28/local-systems-what-do-you-know-about-connections/#comment-5791)
+
 *  [[Toby Bartels]]:
    *  A new query at [[sieve]].
    *  Wrote [[finitely cocomplete category]] by copying [[finitely complete category]] and cutting it down.
