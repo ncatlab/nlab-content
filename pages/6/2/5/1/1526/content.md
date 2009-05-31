@@ -2,6 +2,12 @@ A better title might be "Unpacking a Concrete Category"
 
 See also [[category of elements]].
 
++--{.query}
+
+[[Eric Forgy|Eric]]: I wonder if the concept I'm thinking of is better thought of as "exploding a functor" rather than "exploding a category"?
+
+=--
+
 ##Example: Action Groupoid##
 
 Given a vector space $V$, a group $G$, and a [[representation]] 
