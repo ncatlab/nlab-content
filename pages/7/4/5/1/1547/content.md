@@ -18,6 +18,18 @@ $$(U_\alpha \cap U_\beta) \times V \overset{\phi_\beta \circ \phi_{\alpha}^{-1}}
 
 are linear on the fibers: $g_{\alpha\beta}(x) \in GL(V)$. 
 
+Alternatively, a vector bundle may be defined as a bundle $\pi: E \to X$ together with a vector space structure on each fiber $E_x$, such that there exists an open cover $U_\alpha$ and local trivializations: isomorphisms 
+
+$$\phi_\alpha: E|_{U_\alpha} = \pi^{-1}(U_\alpha) \to U_\alpha \times V$$ 
+
+which respect the projections to $U_\alpha$, and which respect the linear structures on the fibers. 
+
+Or, what is the same, that there are global addition and scalar multiplication functions 
+
+$$+: E \times_X E \to E \qquad \cdot: \mathbb{R} \times E \to E$$ 
+
+subject to some axioms that make $E$ a fiberwise $\mathbb{R}$-module, again subject to a local trivialization condition. This last formulation suggests yet another formulation in terms of sheaves (see below). 
+
 ## Remarks ##
 
 * In most applications, the ground field of scalars is assumed to be $\mathbb{R}$ or $\mathbb{C}$, although sometimes other fields are allowed, as in the study of algebraic vector bundles. 
