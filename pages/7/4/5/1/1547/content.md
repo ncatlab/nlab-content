@@ -4,7 +4,25 @@ A **vector bundle** is a [[vector space]] which "continuously varies" over a [[t
 
 ## Definition ## 
 
-A **vector bundle** over a space $X$ is a [[bundle]] over $X$ which is locally trivial and has a [[vector space]] $V$ as fiber.  That is, it\'s a continuous map $\pi: E \to X$ with an open [[cover]] $\{U_\alpha\}_{\alpha \in A}$ of $X$ together with **local trivializations**, i.e., bundle isomorphisms $\phi_{\alpha}$ from the pullback of $\pi$ along $U_\alpha \hookrightarrow X$ to a product bundle with fiber $V$: 
+A **vector bundle** over a space $X$ is a [[bundle]] over $X$ which is locally isomorphic to a product with a [[vector space]] $V$ as fiber.  More precisely, the data is an object $\pi: E \to X$ in $Top/X$ equipped with a vector space structure internal to $Top/X$, consisting of maps 
+
+$$+: E \times_X E \to E \qquad \cdot: \mathbb{R} \times E \to E$$ 
+
+(where $E \times_X E$ denotes the fiber product or pullback of $\pi$ along itself) satisfying vector space axioms. This vector space object must satisfy the _local triviality condition_: there exists an open [[cover]] 
+
+$$U = \sum_{\alpha \in A} U_\alpha \rightrightarrows X$$ 
+
+and an isomorphism from the pullback $U \times_X E$ to the projection $\pi: U \times V \to U$, 
+
+$$\array{
+U \times V & \overset{\phi}{\leftarrow} & U \times_X E & \to & E\\
+ & & \downarrow & & \downarrow \pi \\
+ & & U \rightrightarrows X
+}$$
+ 
+as vector space objects in $Top/X$. The projection $U \times V \to U$ itself is called a **trivial (vector) bundle** over $U$. 
+
+Equivalently, each fiber $E_x$ carries a vector space structure, and there exists an open covering $\{U_\alpha\}_{\alpha \in A}$ of $X$ together with **local trivializations**: bundle isomorphisms $\phi_{\alpha}$ from a trivial bundle $U_{\alpha} \times V$ to the pullback of $\pi$ along $U_\alpha \hookrightarrow X$: 
 
 $$\array{
 \pi^{-1}(U_\alpha) & \overset{\phi_\alpha}{\to} & U_\alpha \times V\\
@@ -12,23 +30,28 @@ $$\array{
 & U_\alpha &
 }$$ 
 
-where the transition functions 
+such that $\phi_{\alpha}$ induces a linear map $V \to E_x$ between the fibers.  
 
-$$(U_\alpha \cap U_\beta) \times V \overset{\phi_\beta \circ \phi_{\alpha}^{-1}}{\to} (U_\alpha \cap U_\beta) \times V: (x, v) \mapsto (x, g_{\alpha\beta}(x)(v))$$ 
+In terms of the local trivialization data, there are **transition functions** 
 
-are linear on the fibers: $g_{\alpha\beta}(x) \in GL(V)$. 
+$$(U_\alpha \cap U_\beta) \times V \overset{\phi_\beta \circ \phi_{\alpha}^{-1}}{\to} (U_\alpha \cap U_\beta) \times V: (x, v) \mapsto (x, g_{\alpha\beta}(x)(v)),$$ 
 
-Alternatively, a vector bundle may be defined as a bundle $\pi: E \to X$ together with a vector space structure on each fiber $E_x$, such that there exists an open cover $U_\alpha$ and local trivializations: isomorphisms 
+where the $g_{\alpha\beta}(x)$ are linear automorphisms on $V$ and satisfy the Cech 1-cocycle conditions:
 
-$$\phi_\alpha: E|_{U_\alpha} = \pi^{-1}(U_\alpha) \to U_\alpha \times V$$ 
+$$g_{\beta\gamma} \circ g_{\alpha\beta} = g_{\alpha\gamma} \qquad g_{\alpha\alpha} = id$$ 
 
-which respect the projections to $U_\alpha$, and which respect the linear structures on the fibers. 
+In the converse direction, given such a collection $g_{\alpha\beta}: U_{\alpha} \cap U_\beta \to GL(V)$ satisfying the 1-cocycle conditions, there is a vector bundle obtained by pasting local trivial bundles together along the $g_{\alpha\beta}$, namely the coequalizer of a pair 
 
-Or, what is the same, that there are global addition and scalar multiplication functions 
+$$i, \mu: \sum_{\alpha, \beta} (U_\alpha \cap U_\beta) \times V \overset{\to}{\to} \sum_{\alpha} U_\alpha \times V$$ 
 
-$$+: E \times_X E \to E \qquad \cdot: \mathbb{R} \times E \to E$$ 
+in the category of vector space objects in $Top/X$. Here the restriction of $i$ to the coproduct summands is induced by inclusion: 
 
-subject to some axioms that make $E$ a fiberwise $\mathbb{R}$-module, again subject to a local trivialization condition. This last formulation suggests yet another formulation in terms of sheaves (see below). 
+$$(U_\alpha \cap U_\beta) \times V \hookrightarrow U_\alpha \times V \hookrightarrow \sum_\alpha U_\alpha \times V$$ 
+
+and the restriction of $\mu$ to the coproduct summands is 
+via the action of the transition functions: 
+
+$$(U_\alpha \cap U_\beta) \times V \overset{(\langle incl, g_{\alpha\beta} \rangle) \times V}{\to} U_\beta \times GL(V) \times V \overset{action}{\to} U_\beta \times V \hookrightarrow \sum_{\beta} U_\beta \times V$$
 
 ## Remarks ##
 
