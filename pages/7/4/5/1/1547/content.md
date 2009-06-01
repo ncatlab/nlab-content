@@ -4,7 +4,7 @@ A **vector bundle** is a [[vector space]] which "continuously varies" over a [[t
 
 ## Definition ## 
 
-A **vector bundle** over a space $X$ is a [[bundle]] over $X$ which is locally trivial and has a [[vector space]] $V$ as fiber.  That is, it\'s a continuous map $\pi: E \to X$ with an open [[cover]] $\{U_\alpha\}_{\alpha \in A}$ of $X$ together with a **local trivializations**, i.e., bundle isomorphisms $\phi_{\alpha}$ from the pullback of $\pi$ along $U_\alpha \hookrightarrow X$ to a product bundle with fiber $V$: 
+A **vector bundle** over a space $X$ is a [[bundle]] over $X$ which is locally trivial and has a [[vector space]] $V$ as fiber.  That is, it\'s a continuous map $\pi: E \to X$ with an open [[cover]] $\{U_\alpha\}_{\alpha \in A}$ of $X$ together with **local trivializations**, i.e., bundle isomorphisms $\phi_{\alpha}$ from the pullback of $\pi$ along $U_\alpha \hookrightarrow X$ to a product bundle with fiber $V$: 
 
 $$\array{
 \pi^{-1}(U_\alpha) & \overset{\phi_\alpha}{\to} & U_\alpha \times V\\
