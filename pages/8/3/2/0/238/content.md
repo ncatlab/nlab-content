@@ -12,6 +12,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-06-01 #
+
+* [[Bruce Bartlett|Bruce]] added some stuff to Section 4 [[geometric infinity-function theory]] (with about query $QC(X)$ when $X$ is an $\omega$-groupoid internal to dg-manifolds) and ticked some things.
 # 2009-05-30 #
 
 *  [[Toby Bartels]]:  I don\'t understand $diag$ at [[Atiyah Lie groupoid]].
