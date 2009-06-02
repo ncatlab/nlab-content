@@ -14,7 +14,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-02 #
 
-*  [[Toby Bartels]]:  Created [[gauge space]].  A lot of this is original research; years ago, I wanted to work out the general theory (even constructively) of quasigauge spaces, and perhaps now I will.  (Or perhaps I will stop here, with only results that are known or easy to prove from what is known.)
+*  [[Toby Bartels]]:
+   *  A new reference, [[HAF]], since I\'ve now cited it thrice.
+   *  Created [[gauge space]].  A lot of this is original research; years ago, I wanted to work out the general theory (even constructively) of quasigauge spaces, and perhaps now I will.  (Or perhaps I will stop here, with only results that are known or easy to prove from what is known.)
 
 * [[Todd Trimble]]: Added some details on categorical operations on the category of [[Banach space]]s. 
 
