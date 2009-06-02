@@ -87,26 +87,30 @@ The last example actually includes all of the other examples, for appropriate ch
 
 ## Categorial operations on Banach spaces
 
-The category of Banach spaces is small complete, small cocomplete, and symmetric monoidal closed with respect to its standard internal hom (described at [[internal hom]]). Some details follow. 
+The category of Banach spaces is [[complete category|small complete]], [[cocomplete category|small cocomplete]], and [[symmetric monoidal closed category|symmetric monoidal closed]] with respect to its standard internal hom (described at [[internal hom]]). Some details follow.
 
-* The category of Banach spaces admits small [[product]]s. Given a family of Banach spaces $\{X_\alpha\}_{\alpha \in A}$, its product in $Ban$ is the space consisting of $A$-tuples $\langle x_\alpha \rangle$ which are _uniformly_ bounded (i.e., there exists $C$ such that $\forall \alpha \in A: \|x_\alpha\| \leq C$), taking the least such upper bound as the norm of $\langle x_\alpha \rangle$. In particular, the product of an $A$-indexed family of copies of $\mathbb{C}$ is what is normally denoted as $l^{\infty}(A)$. 
-* The category of Banach spaces admits equalizers. Indeed, the equalizer of a pair of maps $f, g: X \rightrightarrows Y$ in $Ban$ is the kernel of $f-g$ under the norm inherited from $X$ (the kernel is closed since $f-g$ is continuous, and is therefore complete). 
-* The category of Banach spaces admits small [[coproduct]]s. Given a family of Banach spaces $\{X_\alpha\}_{\alpha \in A}$, its coproduct in $Ban$ is the completion of the vector space coproduct 
+* The category of Banach spaces admits small [[product]]s. Given a small family of Banach spaces $\{X_\alpha\}_{\alpha \in A}$, its product in $Ban$ is the subspace of the vector-space product
+$$\prod_{\alpha \in A} X_\alpha$$
+consisting of $A$-tuples $\langle x_\alpha \rangle$ which are _uniformly_ bounded (i.e., there exists $C$ such that $\forall \alpha \in A: \|x_\alpha\| \leq C$), taking the least such upper bound as the norm of $\langle x_\alpha \rangle$. This norm is called the $\infty$-norm; in particular, the product of an $A$-indexed family of copies of $\mathbb{C}$ is what is normally denoted as $l^{\infty}(A)$.
+
+* The category of Banach spaces admits [[equalizer]]s. Indeed, the equalizer of a pair of maps $f, g: X \rightrightarrows Y$ in $Ban$ is the [[kernel]] of $f-g$ under the norm inherited from $X$ (the kernel is closed since $f-g$ is continuous, and is therefore complete).
+
+* The category of Banach spaces admits small [[coproduct]]s. Given a small family of Banach spaces $\{X_\alpha\}_{\alpha \in A}$, its coproduct in $Ban$ is the completion of the vector space coproduct 
 $$\bigoplus_{\alpha \in A} X_\alpha$$ 
-with respect to the norm given by $\|\sum_{s \in S} x_s\| = \sum_{s \in S} \|x_s\|$, where $S \subseteq A$ is finite and $\|x_s\|$ denotes the norm of an element in $X_s$. In particular, the coproduct of an $A$-indexed family of copies of $\mathbb{C}$ is what is normally denoted as $l^1(A)$. 
-* The category of Banach spaces admits coequalizers. Indeed, the coequalizer of a pair of maps $f, g: X \rightrightarrows Y$ is the cokernel of $f-g$ under the quotient norm (in which the norm of a coset $y + C$ is the minimum norm attained by elements of $y + C$; here $C$ is the [closed] image $(f-g)(X)$). It is standard that the quotient norm on $Y/C$ is complete given that the norm on $Y$ is complete. 
-*  dual ($p + q = p q$); 
+with respect to the norm given by $\|\bigoplus_{s \in S} x_s\| = \sum_{s \in S} \|x_s\|$, where $S \subseteq A$ is finite and $\|x_s\|$ denotes the norm of an element in $X_s$. This norm is called the $1$-norm; in particular, the coproduct of an $A$-indexed family of copies of $\mathbb{C}$ is what is normally denoted as $l^1(A)$.
 
-To describe the tensor product of two Banach spaces (making $Ban$ symmetric monoidal closed with respect to its usual internal hom), we invoke a standard consequence of the [[uniform boundedness principle]]: 
+* The category of Banach spaces admits [[coequalizer]]s. Indeed, the coequalizer of a pair of maps $f, g: X \rightrightarrows Y$ is the [[cokernel]] of $f-g$ under the quotient norm (in which the norm of a coset $y + C$ is the minimum norm attained by elements of $y + C$; here $C$ is the [[image]] $(f-g)(X)$, which is closed). It is standard that the quotient norm on $Y/C$ is complete given that the norm on $Y$ is complete.
+
+To describe the tensor product of two Banach spaces (making $Ban$ symmetric monoidal closed with respect to its usual internal hom), we invoke a standard consequence of the [[uniform boundedness principle]]:
 
 * Let $X, Y$ be Banach spaces, let $Z$ be a (pseudo)normed vector space, and suppose $f: X \times Y \to Z$ is separately linear and continuous (meaning each $f(x, -): Y \to Z$ and $f(-, y): X \to Z$ is linear and continuous). Then there is a uniform bound $C$ such that 
-$$f(x, y) \leq C\|x\|\cdot\|y\|$$ 
+  $$ f(x, y) \leq C\|x\|\cdot\|y\| .$$
 
 As a result, we may define $X \otimes_{Ban} Y$ by completing the ordinary vector space tensor product with respect to a suitable norm. In detail, let $F(X \times Y)$ be the free vector space generated by the set $X \times Y$, with norm on a typical element defined by 
+$$ \|\sum_{1 \leq i \leq n} x_i \otimes y_i\| = \sum_{1 \leq i \leq n} \|x_i\|\cdot\|y_i\| ,$$
+and let $\overline{F}(X \times Y)$ denote its completion with respect to this norm. Then take the cokernel of $\overline{F}(X \times Y)$ by the closure of the subspace spanned by the obvious bilinear relations. This quotient is $X \otimes_{Ban} Y$.
 
-$$\|\sum_{1 \leq i \leq n} x_i \otimes y_i\| = \sum_{1 \leq i \leq n} \|x_i\|\cdot\|y_i\|,$$ 
-
-and let $\overline{F}(X \times Y)$ denote its completion with respect to this norm. Then take the cokernel of $\overline{F}(X \times Y)$ by the closure of the subspace spanned by the obvious bilinear relations. This quotient is $X \otimes_{Ban} Y$. 
-
+To be described:
+*  duals ($p + q = p q$); 
 *  completion ($Ban$ is a [[reflective subcategory]] of $PsNVect$).
 *  $Ban$ as a (somewhat larger) category with duals.
