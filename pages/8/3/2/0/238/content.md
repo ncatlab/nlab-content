@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-02 #
 
+* [[Todd Trimble]]: Added some details on categorical operations on the category of [[Banach space]]s. 
+
 *  [[Toby Bartels]]:
    *  Added the standard examples to [[uniform space]].
    *  Corrected Andrew\'s reply to Mike at [[Froelicher space]].  (I\'m pretty sure that this is what you meant, Andrew!)
