@@ -4,15 +4,15 @@ A **vector bundle** is a [[vector space]] which "continuously varies" over a [[t
 
 ## Definition ## 
 
-A **vector bundle** over a space $X$ is a [[bundle]] over $X$ which is locally isomorphic to a product with a [[vector space]] $V$ as fiber.  More precisely, the data is an object $\pi: E \to X$ in $Top/X$ equipped with a vector space structure internal to $Top/X$, consisting of maps 
+A **vector bundle** over a space $X$ is a [[bundle]] over $X$ which is locally isomorphic to a product with a [[vector space]] $V$ as fiber.  More precisely, the data is an object $\pi: E \to X$ in $Top/X$ equipped with a vector space structure [[internalization|internal]] to $Top/X$, consisting of maps 
 
 $$+: E \times_X E \to E \qquad \cdot: \mathbb{R} \times E \to E$$ 
 
-(where $E \times_X E$ denotes the fiber product or pullback of $\pi$ along itself) satisfying vector space axioms. This vector space object must satisfy the _local triviality condition_: there exists an open [[cover]] 
+(where $E \times_X E$ denotes the [[fiber product]] or pullback of $\pi$ along itself) satisfying vector space axioms. This vector space object must satisfy the _local triviality condition_: there exists an open [[cover]] 
 
 $$U = \sum_{\alpha \in A} U_\alpha \rightrightarrows X$$ 
 
-and an isomorphism from the pullback $U \times_X E$ to the projection $\pi: U \times V \to U$, 
+and an isomorphism from the [[pullback]] $U \times_X E$ to the projection $\pi: U \times V \to U$, 
 
 $$\array{
 U \times V & \overset{\phi}{\leftarrow} & U \times_X E & \to & E\\
