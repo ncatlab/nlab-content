@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-02 #
 
+*  [[David Roberts]] answered [[Toby Bartels]]\'s question at [[Atiyah Lie groupoid]], and Toby asked one right back again.
+
 * [[Andrew Stacey]]: replied to [[Mike Shulman]] at [[Froelicher space]]
 
 *  [[Toby Bartels]]:
