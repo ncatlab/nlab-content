@@ -132,4 +132,4 @@ One could stop there, but this is not a very useful notion of approximation.  In
 
 *  A. Weil, _Sur les espaces &#224; structure uniforme et sur la topologie g&#233;n&#233;rale_, Actualit&#233;s Sci. Ind. 551, Paris, (1937).
 *  John Kelley, _General Topology_, GTM 27, 1955.
-*  Eric Schechter, _Handbook of Analysis and its Foundations_.
+*  Eric Schechter, _[[HAF|Handbook of Analysis and its Foundations]]_.
