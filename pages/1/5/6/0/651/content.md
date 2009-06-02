@@ -572,6 +572,8 @@ Do I need to prove this, or is it automatic?
 (I can prove it if necessary)
 
 [[Mike Shulman|Mike]]: Completeness and cocompleteness are of course automatic.  It is not automatic that a reflective subcategory inherits cartesian closure; the closest thing I can think of is A4.3.1 in the [[Elephant]] which says that a reflective subcategory is an [[exponential ideal]] iff its reflector preserves finite products.
+
+[[Andrew Stacey|Andrew]]: Is it true, then, that all I need to do is to prove that the exponential of one Hausdorff object by another Hausdorff object is again Hausdorff?
 =--
 
 In considering [[Isbell duality]] in the context of Fr&#246;licher spaces we saw one good reason to restrict to Hausdorff Fr&#246;licher spaces.
@@ -651,6 +653,10 @@ The colimit of this in the category of Fr&#246;licher spaces is the real line wi
 
 +--{: .query}
 [[Mike Shulman|Mike]]: What if we re-define "manifold" to remove the Hausdorff axiom?  Does the inclusion into Fr&#246;licher spaces then preserve colimits?
+
+[[Andrew Stacey|Andrew]]: I think so, but the inclusion from manifolds to Fr&#246;licher spaces is then not faithful.  Let $X$ be the real line with a double point at the origin.  Take a curve $\mathbb{R} \to X$ which oscillates between the two points.  This is a morphism into the Fr&#246;licher space, but not into the manifold.
+
+I think that to make it work, you have to redefine "Euclidean space" to include anything that becomes a Euclidean space upon Hausdorffification.
 =--
 
 
