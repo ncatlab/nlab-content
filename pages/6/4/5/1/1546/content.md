@@ -7,7 +7,7 @@ The Atiyah Lie-groupoid of a $G$-[[principal bundle]] is the [[Lie groupoid]] wh
 For $G$ a Lie group and $P \to X$ a $G$-principal bundle, the **Atiyah groupoid** $At(P)$ -- also called the **gauge groupoid** or **transport groupoid** -- of $P$ is the [[Lie groupoid]] with
 
 * $Obj(At(P)) = X$;
-* $Mor(At(P)) = (P \times P)/G$, where the [[quotient object|quotient]] is taken with respect to the diagonal action of $G$ on $P \times P$.
+* $Mor(At(P)) = (P \times P)/G$, where the [[quotient object|quotient]] is taken with respect to the [[diagonal action]] of $G$ on $P \times P$.
 
 The Atiyah groupoid sits in an sequence of groupoids
 
@@ -33,6 +33,8 @@ What is all of this $diag$ stuff?  I don\'t understand either $(P \times P)/_{di
 _Toby_:  How well do you think it works now, with the notation suppressed and a note added in words?  (For what it\'s worth, the diagonal action seems to me the only obvious thing to do here, although admittedly the others that you mention do exist.)
 
 _Todd_: I personally believe it works well. A small note is that this construction can also be regarded as a tensor product, regarding the first factor $P$ as a right $G$-module and the second a left module, where the actions are related by $g p = p g^{-1}$. 
+
+_Toby_:  H\'m, maybe we should write [[diagonal action]] if there\'s something interesting to say about it.
 =--
 
 Notice that a splitting (a [[section]])
