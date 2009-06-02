@@ -7,8 +7,7 @@ The Atiyah Lie-groupoid of a $G$-[[principal bundle]] is the [[Lie groupoid]] wh
 For $G$ a Lie group and $P \to X$ a $G$-principal bundle, the **Atiyah grououpoid** $At(P)$ -- also called the **gauge groupoid** or **transport groupoid** -- of $P$ is the [[Lie groupoid]] with
 
 * $Obj(At(P)) = X$;
-
-* $Mor(At(P)) = (P \times P)/_{diag} G$.
+* $Mor(At(P)) = (P \times P)/G$, where the [[quotient object|quotient]] is taken with respect to the diagonal action of $G$ on $P \times P$.
 
 The Atiyah groupoid sits in an sequence of groupoids
 
@@ -22,7 +21,7 @@ where
 
 * $Codisc(X) = (X \times X \rightrightarrows X)$ is the [[codiscrete groupoid]] of $X$
 
-* the [[functor]] $Ad(P) \to At(P)$ is the identity on objects and on morphisms given by the canonical identification $P_x \times_G G \stackrel{\simeq}{\to} (P_x \times P_x)_{diag} G$
+* the [[functor]] $Ad(P) \to At(P)$ is the identity on objects and on morphisms given by the canonical identification $P_x \times_G G \stackrel{\simeq}{\to} (P_x \times P_x) G$, where again we use the diagonal action of $G$ on $P_x \times P_x$.
 
 * the functor $At(P) \to Codisc(X)$ is the unique one that is the identity on objects.
 
@@ -30,6 +29,8 @@ where
 What is all of this $diag$ stuff?  I don\'t understand either $(P \times P)/_{diag} G$ or $(P_x \times P_x)_{diag} G$.  ---Toby
 
 [[David Roberts]]: It's to do with the diagonal action of $G$ on $P\times P$ as opposed to the antidiagonal (if $G$ is abelian) or the action on only one factor. I agree that it's a bad notation.
+
+_Toby_:  How well do you think it works now, with the notation suppressed and a note added in words?  (For what it\'s worth, the diagonal action seems to me the only obvious thing to do here, although admittedly the others that you mention do exist.)
 =--
 
 Notice that a splitting (a [[section]])
