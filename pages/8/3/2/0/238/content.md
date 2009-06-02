@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-02 #
 
+* [[Andrew Stacey]]: replied to [[Mike Shulman]] at [[Froelicher space]]
+
 *  [[Toby Bartels]]:
    *  Archived [[2009 May changes]].
    *  Fixed some mistakes at [[uniform space]].
