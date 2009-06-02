@@ -10,12 +10,12 @@ A uniform structure or uniformity on a set $X$ consists of a collection of globa
 A **uniform structure**, or **uniformity**, on a set $X$ consists of a collection of binary [[relation]]s $U \subseteq X \times X$ (called _entourages_) satisfying some conditions. Write $x \approx_U y$ if $x$ is related to $y$ through $U$; then the conditions are the following:
 
 1. The diagonal $\Delta = \{(x, x): x \in X\}$ is contained in every entourage. That is,
-   $$ \forall U,\; \exists V,\; \forall x,\; x \approx_U x .$$
+   $$ \forall U,\; \forall x,\; x \approx_U x .$$
 1. For every entourage $U$, there exists an entourage $V$ such that $V^op \subseteq U$, where $V^\op$ is the [[opposite relation]] to $V$. That is,
    $$ \forall U,\; \exists V,\; \forall x, y,\; y \approx_V x \;\Rightarrow\; x \approx_U y .$$
    In light of axiom (6), it follows that $U^op$ itself is an entourage.
 1. For every entourage $U$, there exists an entourage $V$ such that $V \circ V \subseteq U$, where $\circ$ is the ordinary operation of [[relation|relational composition]]. That is,
-   $$ \forall U,\; \exists V,\; \forall x, y, z,\; x \approx_V y \approx_V z \;\Rightarrow X \approx_U z .$$
+   $$ \forall U,\; \exists V,\; \forall x, y, z,\; x \approx_V y \approx_V z \;\Rightarrow x \approx_U z .$$
 1. There exists an entourage; in light of axiom (6), it follows that $X \times X$ is an entourage.
 1. If $U, V$ are entourages, so is some subset of $U \cap V$. In light of axiom (6), it follows that $U \cap V$ is an entourage.
 1. If $U$ is an entourage and $U \subseteq V \subseteq X \times X$, then $V$ is an entourage.
