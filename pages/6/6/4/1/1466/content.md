@@ -88,7 +88,7 @@ Some authors insist that a uniform space must be Hausdorff; this can be arranged
 
 * If $x \approx_U y$ for every entourage $U$, then $x = y$.
 
-If the symmetry axiom (2) is dropped, then the result is a __quasiuniform space__.  Quasiuniform spaces are related to quasi(pseudo)metrics in the same way as uniform spaces are related to (psuedo)metrics.  Perhaps surprisingly, *every* topological space is quasiuniformisable.
+If the symmetry axiom (2) is dropped, then the result is a __quasiuniform space__.  Quasiuniform spaces are related to quasi(pseudo)metrics in the same way as uniform spaces are related to (pseudo)metrics.  Perhaps surprisingly, *every* topological space is quasiuniformisable.
 
 A __gauge space__ consists of a set $X$ and a collection $\mathcal{D}$ of pseudometrics on $X$; one usually requires $\mathcal{D}$ to be a [[filter]].  A gauge space defines a uniform space by taking one entourage for each pseudometric in $\mathcal{D}$ and each positive number $\epsilon$, and every uniform space arises in this way.  However, gauge spaces form a category with a stricter notion of morphism, in which the categories $Met$ (of [[metric space]]s and short maps) and $Unif$ (of uniform spaces and uniformly continuous maps) are both [[full subcategory|full subcategories]].  A __quasigauge space__ consists of a set and a collection of quasipseudometrics; every quasiuniform space arises from a quasigauge space.
 
