@@ -1,0 +1,3 @@
+A $2$-[[2-category|category]] is __locally groupoidal__ if each of its [[hom-category|hom-categories]] is a [[groupoid]].  In other words, a locally groupoidal $2$-category is a $(2,1)$-[[(2,1)-category|category]].
+
+As the concept of $2$-category makes sense either [[strict 2-category|strictly]] or weakly (as a [[bicategory]]), so a locally groupoidal $2$-category might be either a locally groupoidal strict $2$-category or a locally groupoidal bicategory.  As for $2$-categories in general, it is really the strictness of the [[2-functor|functors]] between them that matters.
