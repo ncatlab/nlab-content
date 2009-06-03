@@ -1,3 +1,5 @@
+[[!redirects (∞,0)-category]]
+
 
 Following the terminology of [[(n,r)-category|(n,r)-categories]], an __$(\infty,0)$-category__ is an $\infty$-[[infinity-category|category]] in which every $j$-morphism (for $j \gt 0$) is invertible.  This is one way to define an _[[infinity-groupoid]]_.
 
