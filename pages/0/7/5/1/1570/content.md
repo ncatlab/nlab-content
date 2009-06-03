@@ -1,0 +1,1 @@
+Test a redirect to an existing page.
