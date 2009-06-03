@@ -18,6 +18,9 @@ OK, so for a while `[[nitwits]]` above actually linked to [[nitwit]].  But I was
 Now I\'ve (re?)-created [[nitwits]] with redirect content, but that doesn\'t seem to work; is it off again, or did I type it wrong?
 
 ---Toby
+
+Hi Toby. We are discussing this with Jacques over at [Musings](http://golem.ph.utexas.edu/~distler/blog/archives/001083.html#c024203). The user manual confused me, but I think I get it now. It is different than Mediawiki, but probably better once we get the hang of it. - Eric
+
 =--
 
 [[test]]
