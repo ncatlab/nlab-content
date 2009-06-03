@@ -1,3 +1,9 @@
+[[!redirects metric]]
+[[!redirects pseudometric]]
+[[!redirects pseudometric space]]
+[[!redirects quasimetric]]
+[[!redirects quasimetric space]]
+
 ## Idea
 
 A **metric space** is a set which comes equipped with a function which measures distance between points, called a _metric_. The metric can be used to generate a topology on the set, and a topological space whose topology comes from some metric is said to be _metrizable_. 
