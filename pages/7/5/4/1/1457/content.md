@@ -41,6 +41,11 @@ Thus generalized, many constructions and results on metric spaces turn out to be
 
 One would like to say that imposing the symmetry axiom gives us [[enriched groupoid]]s, which is correct for ultrametric spaces.  It\'s not clear, however, what this means for more general metric spaces, since the enriching category is then not [[cartesian monoidal category|cartesian]].
 
++--{: .query}
+[[Mike Shulman|Mike]]: Perhaps it would be more accurate to say that the symmetry axiom gives us enriched $\dagger$-[[dagger category|categories]]?
+=--
+
+
 ## Motivation for the axioms
 
 The triangle axiom is the fundamental idea behind a metric space; it goes back (at least) to Euclid and captures the idea that we are discussing the *shortest* distance between two points.  Given the triangle inequality, we have the polygon inequality
