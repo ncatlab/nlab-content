@@ -1,3 +1,3 @@
-See [[infinity-category]].
+[[!redirects infinity-category]]
 
 category: redirect
