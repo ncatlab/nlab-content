@@ -12,6 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-06-03 #
+
+*  [[Toby Bartels]]:
+   *  [[Eric Forgy|Eric]] and I have been testing the new move and redirect features at the *top* (for some reason) of the [[Sandbox]].  It seems possible to move and to create new redirects (make sure that you see how, it\'s backwards from MediaWiki), but not (yet) possible to regularise all of the current redirect pages.
+   *  Created a few requested pages.  The interesting ones are [[Bill Lawvere]], [[Boolean ring]], and [[ideal]].
+
 # 2009-06-02 #
 
 *  [[Toby Bartels]]:
