@@ -33,9 +33,9 @@ If the prometrics of $X$ and $Y$ are presented by bases, then this is equivalent
 
 # Categorical interpretation
 
-As observed by Lawvere, an (extended quasi pseudo) metric space is a category enriched over $([0,\infty],\ge,+,0)$.  In other words, it is a monoid (or monad) in the [[bicategory]] $[0,\infty]-Mat$ of matrices with values in this monoidal category.  Analogously, an (extended quasi) prometric space is a monoid in the bicategory $Pro-[0,\infty]-Mat$ whose hom-categories are the categories of [[pro-object]]s in the hom-categories of $[0,\infty]-Mat$.
+As observed by Lawvere, an (extended quasi pseudo) metric space is a category enriched over $([0,\infty],\ge,+,0)$.  In other words, it is a monoid (or monad) in the [[bicategory]] $[0,\infty] Mat$ of matrices with values in this monoidal category.  Analogously, an (extended quasi) prometric space is a monoid in the bicategory $Pro [0,\infty] Mat$ whose hom-categories are the categories of [[pro-object]]s in the hom-categories of $[0,\infty] Mat$.
 
-Note that if $Rel = \{0,1\}-Mat$ denotes the bicategory of [[relation]]s in $Set$, then a monoid in $Rel$ is a [[preorder]], while a monoid in $ProSet$ is a (quasi) [[uniform space]].
+Note that if $Rel = \{0,1\} Mat$ denotes the bicategory of [[relation]]s in $Set$, then a monoid in $Rel$ is a [[preorder]], while a monoid in $ProSet$ is a (quasi) [[uniform space]].
 
 In all these cases, in order to recover the correct notion of morphism abstractly, we must consider monoids in a [[double category]] or [[equipment]] rather than merely a bicategory.
 
