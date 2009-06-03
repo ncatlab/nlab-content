@@ -75,15 +75,16 @@ Many examples of Banach spaces are parametrised by an exponent $1 \leq p \leq \i
 *  $\mathbb{R}^n$ is a Banach space with
    $$ \|(x_1,\ldots,x_n)\|_p = \root p {\sum_i |x_i|^p} .$$
    (We can allow $p = \infty$ by taking a limit; the result is that $\|x\|_\infty = \max_i |x_i|$.)  Every finite-dimensional Banach space is isomorphic to this for some $n$ and $p$; in fact, once you fix $n$, the value of $p$ is irrelevant up to isomorphism.
-*  Let $\ell^p$ be the set of infinite [[sequence]]s $(x_1,x_2,\ldots)$ of real numbers such that
+*  Let $l^p$ be the set of infinite [[sequence]]s $(x_1,x_2,\ldots)$ of real numbers such that
    $$ \|(x_1,x_2,\ldots)\|_p = \root p {\sum_i |x_i|^p} $$
-   exists as a finite real number.  (The only question is whether the sum converges.  Again $p = \infty$ is a limit, with the result that $\|x\|_\infty = \sup_i |x_i|$.)  Then $\ell^p$ is a Banach space with that norm.  These are all versions of $\mathbb{R}^\infty$, but they are no longer isomorphic for different values of $p$.
-*  Any [[Hilbert space]] is Banach space; in principle, this corresponds to $p = 2$.
+   exists as a finite real number.  (The only question is whether the sum converges.  Again $p = \infty$ is a limit, with the result that $\|x\|_\infty = \sup_i |x_i|$.)  Then $l^p$ is a Banach space with that norm.  These are all versions of $\mathbb{R}^\infty$, but they are no longer isomorphic for different values of $p$.
+*  More generally, let $A$ be any [[set]] and let $l^p(A)$ be the set of [[function]]s $f$ from $A$ to $\mathbb{R}$ such that
+   $$ \|f\|_p = \root p {\sum_{x: A} |f(x)|^p} $$
+   exists as a finite real number.  (Again, $\|f\|_\infty = \sup_{x: A} |f(x)|$.)  Then $l^p(A)$ is a Banach space.  (This example includes the previous examples, for $A$ a countable set.)
 *  On any [[measure space]] $X$, let $\mathcal{L}^p(X)$ be the set of measurable almost-everywhere-defined real-valued functions on $X$ such that
    $$ \|f\|_p = \root p {\int |f|^p} $$
-   exists as a finite real number.  (Again, the only question is whether the integral converges.  And again $p = \infty$ is a limit, with the result that $\|f\|_\infty$ is the essential supremum of $|f|$.)  As such, $\mathcal{L}^p$ is a complete pseudonormed vector space; but we identify functions that are equal almost everywhere to make $\mathcal{L}^p$ into a Banach space.
-
-The last example actually includes all of the other examples, for appropriate choices of $X$.
+   exists as a finite real number.  (Again, the only question is whether the integral converges.  And again $p = \infty$ is a limit, with the result that $\|f\|_\infty$ is the essential supremum of $|f|$.)  As such, $\mathcal{L}^p(X)$ is a complete pseudonormed vector space; but we identify functions that are equal almost everywhere to make it into a Banach space.  (This example includes the previous examples, for $X$ a set with counting measure.)
+*  Any [[Hilbert space]] is Banach space; this includes all of the above examples for $p = 2$.
 
 ## Categorial operations on Banach spaces
 
@@ -91,13 +92,15 @@ The category of Banach spaces is [[complete category|small complete]], [[cocompl
 
 * The category of Banach spaces admits small [[product]]s. Given a small family of Banach spaces $\{X_\alpha\}_{\alpha \in A}$, its product in $Ban$ is the subspace of the vector-space product
 $$\prod_{\alpha \in A} X_\alpha$$
-consisting of $A$-tuples $\langle x_\alpha \rangle$ which are _uniformly_ bounded (i.e., there exists $C$ such that $\forall \alpha \in A: \|x_\alpha\| \leq C$), taking the least such upper bound as the norm of $\langle x_\alpha \rangle$. This norm is called the $\infty$-norm; in particular, the product of an $A$-indexed family of copies of $\mathbb{C}$ is what is normally denoted as $l^{\infty}(A)$.
+consisting of $A$-tuples $\langle x_\alpha \rangle$ which are _uniformly_ bounded (i.e., there exists $C$ such that $\forall \alpha \in A: \|x_\alpha\| \leq C$), taking the least such upper bound as the norm of $\langle x_\alpha \rangle$. This norm is called the $\infty$-norm; in particular, the product of an $A$-indexed family of copies of $\mathbb{R}$ or $\mathbb{C}$ is what is normally denoted as $l^{\infty}(A)$.
 
 * The category of Banach spaces admits [[equalizer]]s. Indeed, the equalizer of a pair of maps $f, g: X \rightrightarrows Y$ in $Ban$ is the [[kernel]] of $f-g$ under the norm inherited from $X$ (the kernel is closed since $f-g$ is continuous, and is therefore complete).
 
 * The category of Banach spaces admits small [[coproduct]]s. Given a small family of Banach spaces $\{X_\alpha\}_{\alpha \in A}$, its coproduct in $Ban$ is the completion of the vector space coproduct 
-$$\bigoplus_{\alpha \in A} X_\alpha$$ 
-with respect to the norm given by $\|\bigoplus_{s \in S} x_s\| = \sum_{s \in S} \|x_s\|$, where $S \subseteq A$ is finite and $\|x_s\|$ denotes the norm of an element in $X_s$. This norm is called the $1$-norm; in particular, the coproduct of an $A$-indexed family of copies of $\mathbb{C}$ is what is normally denoted as $l^1(A)$.
+  $$\bigoplus_{\alpha \in A} X_\alpha$$ 
+  with respect to the norm given by
+  $$ \left\| \bigoplus_{s \in S} x_s \right\| = \sum_{s \in S} \|x_s\| ,$$
+  where $S \subseteq A$ is finite and $\|x_s\|$ denotes the norm of an element in $X_s$. This norm is called the $1$-norm; in particular, the coproduct of an $A$-indexed family of copies of $\mathbb{R}$ or $\mathbb{C}$ is what is normally denoted as $l^1(A)$.
 
 * The category of Banach spaces admits [[coequalizer]]s. Indeed, the coequalizer of a pair of maps $f, g: X \rightrightarrows Y$ is the [[cokernel]] of $f-g$ under the quotient norm (in which the norm of a coset $y + C$ is the minimum norm attained by elements of $y + C$; here $C$ is the [[image]] $(f-g)(X)$, which is closed). It is standard that the quotient norm on $Y/C$ is complete given that the norm on $Y$ is complete.
 
@@ -107,7 +110,7 @@ To describe the tensor product of two Banach spaces (making $Ban$ symmetric mono
   $$ f(x, y) \leq C\|x\|\cdot\|y\| .$$
 
 As a result, we may define $X \otimes_{Ban} Y$ by completing the ordinary vector space tensor product with respect to a suitable norm. In detail, let $F(X \times Y)$ be the free vector space generated by the set $X \times Y$, with norm on a typical element defined by 
-$$ \|\sum_{1 \leq i \leq n} a_i (x_i \otimes y_i)\| = \sum_{1 \leq i \leq n} |a_i| \|x_i\|\cdot\|y_i\| ,$$
+$$ \left\| \sum_{1 \leq i \leq n} a_i (x_i \otimes y_i) \right\| = \sum_{1 \leq i \leq n} |a_i| \|x_i\|\cdot\|y_i\| ,$$
 and let $\overline{F}(X \times Y)$ denote its completion with respect to this norm. Then take the cokernel of $\overline{F}(X \times Y)$ by the closure of the subspace spanned by the obvious bilinear relations. This quotient is $X \otimes_{Ban} Y$.
 
 To be described:
