@@ -1,3 +1,6 @@
+[[!redirects Hausdorff maximality principle]]
+
+
 The __Hausdorff maximal principle__ is a version of [[Zorn's lemma]], equivalent to the usual version and thus (given [[excluded middle]]) equivalent to the [[axiom of choice]].
 
 ## Statement and proofs
