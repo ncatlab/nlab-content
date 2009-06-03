@@ -41,13 +41,19 @@ The categories $Gau$ and $QGau$ are not well known, but some of their subcategor
 
 *  A [[metric space]] (or pseudometric space) defines a gauge space, taking its single (pseudo)metric as a base; similarly, a quasi(psuedo)metric space defines a quasigauge space.  Taking short maps (in the usual sense, that is distance-nonincreasing functions) as morphisms, the categories $Met$ and $PsMet$ are full subcategories of $Gau$; similarly, $QMet$ and $QPsMet$ are full subcategories of $QGau$.
 
-*  A [[uniform space]] $X$ defines a gauge space, consisting of all of the pseudometrics on $X$ that are uniformly continuous as maps from $X \times X$ to the real line; similarly, a quasiuniform space defines a quasigauge space.  Taking uniformly continuous maps as morphisms, the category $Unif$ is a full subcategory of $Gau$; similarly, $QUnif$ is a full subcategory of $QGau$.
+*  A [[uniform space]] $X$ defines a gauge space, consisting of all of the pseudometrics on $X$ that are uniformly continuous as maps from $X \times X$ to the real line; similarly, a quasiuniform space defines a quasigauge space.  Taking uniformly continuous maps as morphisms, the category $Unif$ is a full subcategory of $Gau$; similarly, $QUnif$ is a full subcategory of $QGau$.  Thus, uniform spaces can be viewed as gauge spaces whose collection of gauging distances is "saturated."
 
-*  A completely regular [[topological space]] $X$ defines a gauge space, consisting of all the pseudometrics on $X$ that are continuous as maps from $X \times X$ to the real line.  Taking continuous maps as morphisms, the category $CReg Top$ is a full subcategory of $Gau$; it is in fact contained in $Unif$.
+*  A completely regular [[topological space]] $X$ defines a gauge space, consisting of all the pseudometrics on $X$ that are continuous as maps from $X \times X$ to the real line.  In this way the category $CReg Top$ of completely regular spaces and continuous maps is a full subcategory of $Gau$; it is in fact contained in $Unif$.  (In general, a completely regular space can be uniformized in many ways; this inclusion corresponds to the "initial" uniformity.)
 
-*  An arbitrary topological space defines a quasigauge space in a more complicated way.  Given any open set $U$, define the pseudometric (in fact a pseudoultrametric) $d_U$ as follows:
+*  An arbitrary topological space defines a quasigauge space in a more complicated way.  Given any open set $U$ in a space $X$, define the pseudometric (in fact a pseudoultrametric) $d_U$ as follows:
    $$ d_U(x,y) = \begin{cases} 0 & if\; x \in U \;\Rightarrow\; y \in U ,\\ 1 & if\; x \in U \;\wedge\; y \notin U ;\end{cases} $$
-   then the $d_U$ form a base for a quasigauge.
+   then the $d_U$ form a base for a quasigauge, which induces the original topology on $X$.  In other words, every space is "quasigaugeable."  In this way $Top$ also becomes a full subcategory of $QGau$.
+
+Note, though, that these various inclusions are not "compatible."  Any metric induces a uniformity, but the triangle
+$$\array{Met &\to& Unif \\ & \searrow &\downarrow \\ && Gau}$$
+does not commute.  (In particular, note that $Met\to Unif$ is not full, whereas both inclusions into $Gau$ are.)  Likewise, any uniformity induces a topology, but
+$$\array{Unif &\to& Top \\ & \searrow &\downarrow \\ && QGau}$$
+does not commute.
 
 
 ## Reflections
