@@ -14,7 +14,7 @@ In [[higher category theory]] an **equivalence** often means a morphism which is
 
 * In a (possibly weak) $3$-[[3-category|category]], an equivalence is a morphism $f : x \to y$ such that there exists a morphism $g : y\to x$ and 2-cells $f g \to 1_y$ and $g f \to 1_x$ which are equivalences in the appropriate hom-2-categories.  In the (weak) 3-category $Bicat$ of [[bicategory|bicategories]], pseudofunctors, pseudonatural transformations, and modifications, such equivalences are often called _biequivalences_, and that term is sometimes also used for an equivalence in any $3$-category.
 
-* In a (possibly weak) $\infty$-[[infinity-category|category]], an equivalence is a morphism $f : x \to y$ such that there exists a morphism $g : y\to x$ and 2-cells $f g \to 1_y$ and $g f \to 1_x$ which are equivalences in the appropriate hom-$\infty$-categories.  This can be made rigorous as a [[corecursive definition]].
+* In a (possibly weak) $\infty$-[[infinity-category|category]], an equivalence is a morphism $f : x \to y$ such that there exists a morphism $g : y\to x$ and 2-cells $f g \to 1_y$ and $g f \to 1_x$ which are equivalences in the appropriate hom-$\infty$-categories.  This can be made rigorous as a [[corecursion|corecursive definition]].
 
 # In homotopy theory #
 
