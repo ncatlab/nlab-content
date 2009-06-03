@@ -9,7 +9,7 @@ Given a [[preorder]]ed set $(S, \leq)$, an element $x$ of $S$ is _maximal_ if $y
 +-- {: .un_theorem}
 ###### Theorem (Zorn\'s lemma)
 
-A nonempty preordered set $S$ has a maximal element if every chain has an upper bound.
+A preordered set $S$ has a maximal element if every chain has an upper bound.
 =--
 
 +-- {: .un_proof}
@@ -17,11 +17,11 @@ A nonempty preordered set $S$ has a maximal element if every chain has an upper 
 
 The proof may be arranged in the following steps: 
 * For each subset of $A \subseteq S$ which is well-ordered under the preorder it inherits from $S$, choose a _strict_ upper bound $f(A) \in S$ [if it has one]. 
-* Say a well-ordered subset $A$ is $f$-_inductive_ if for all $x \in A$, $x = f(\{y \in A: y \lt x\})$. Thus $A_0 = \emptyset$ is inductive, as is $A_1 = \{f(A_0)\}$, $A_2 = A_1 \cup \{f(A_1)\}$, $A_3 = A_2 \cup \{f(A_2)\}$ and so on. Intuitively, using the chain hypothesis, one can [by transfinite induction] define $A_\alpha$ for ordinals $\alpha$ by appending strict upper bounds in this way, until at some point $\alpha$, one has run out of further strict upper bounds to choose from. But by hypothesis, $A_\alpha$ does have an upper bound $x$. This element is necessarily maximal. 
+* Say a well-ordered subset $A$ is $f$-_inductive_ if for all $x \in A$, $x = f(\{y \in A: y \lt x\})$. Thus $A_0 := \emptyset$ is inductive, as is $A_1 = \{f(A_0)\}$, $A_2 = A_1 \cup \{f(A_1)\}$, $A_3 = A_2 \cup \{f(A_2)\}$ and so on. Intuitively, using the chain hypothesis, one can [by transfinite induction] define $A_\alpha$ for ordinals $\alpha$ by appending strict upper bounds in this way, until at some point $\alpha$, one has run out of further strict upper bounds to choose from. But by hypothesis, $A_\alpha$ does have an upper bound $x$. This element is necessarily maximal. 
 * More precisely, $f$-inductive sets are well-ordered by inclusion. For if $A$ and $B$ are distinct (well-ordered and) $f$-inductive sets, then there is a smallest element contained in one but not the other, say $x \in A$ but $\neg(x \in B)$. But then $\{y \in A: y \lt x\}$ is a down-closed subset of $B$, i.e., is an initial segment of $B$. If it were a _proper_ subset of $B$, then for the least $z \in B$ in its complement we would have 
 $$\{y \in A: y \lt x\} = \{y' \in B: y' \lt z\}$$ 
-whence by applying $f$ to both sides, we infer $x = z$ by $f$-inductivity of $A$ and $B$, contradiction. In that case, $B = \{y \in A: y \lt x\}$. In other words, one of $A$, $B$ is an initial segment of the other. 
-* Therefore the union of all $f$-inductive sets is also $f$-inductive. Being the maximal $f$-inductive set $M$, it contains any upper bound (in fact there is only one up to isomorphism), and this element is necessarily maximal in $S$.
+whence by applying $f$ to both sides, we infer $x = z$ by $f$-inductivity of $A$ and $B$, contradiction. In that case, $B = \{y \in A: y \lt x\}$. In other words, one of $A$, $B$ must be an initial segment of the other. 
+* Therefore the union of all $f$-inductive sets is also $f$-inductive. Being the maximal $f$-inductive set $M$, it contains any of its upper bounds (in fact there is only one up to isomorphism), and this element is necessarily maximal in $S$.
 =--
 
 +-- {: .un_proof}
