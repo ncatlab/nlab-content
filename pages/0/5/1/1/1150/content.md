@@ -5,8 +5,8 @@ We usually refer to such a bundle simply as $E$, even though $p$ is really part 
 The category of bundles over a given object $B$ is the [[over category]] $\mathcal{C}/B$.
 
 One generally considers bundles with extra properties or structure:
-* [[fiber bundles|fibre bundles]],
-* [[vector bundle]]s,
+* [[fiber bundle|fiber bundles]],
+* [[vector bundle|vector bundles]],
 * bundles with [[connection]],
 * etc.
 
