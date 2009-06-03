@@ -12,6 +12,31 @@ It works! Let's try a second redirect to the same page
 
 [[nincompoops]]
 
++-- {: .query}
+OK, so for a while `[[nitwits]]` above actually linked to [[nitwit]].  But I was unable to actually get a hold of [[nitwits]] itself in any way!  <http://ncatlab.org/nlab/show/nitwit> redirected me to <http://ncatlab.org/nlab/new/nitwit>, where there was no content, and <http://ncatlab.org/nlab/edit/nitwit> sent me to the [[HomePage]].  All of this is the behaviour appropriate if [[nitwits]] simply didn\'t exist ... yet something was happening, by the link here.
+
+Now I\'ve (re?)-created [[nitwits]] with redirect content, but that doesn\'t seem to work; is it off again, or did I type it wrong?
+
+---Toby
+=--
+
+[[test]]
+[[testing]]
+[[tested]]
+[[tester]]
+
++-- {: .query}
+Update: Omigosh, I see how it works ... it\'s backwards!
+=--
+
+I was able to move [[∞-category]] to [[temp]] and fix it so that it redirects properly to [[infinity-category]].  This is not really ideal; there was edit history at [[∞-category]] which is now at [[tmp]] (see below for why); although it is not important, some redirect pages\' is.
+
+Then I moved [[temp]] to [[tmp]] and moved [[$\infty$-category]] to [[temp]] ---but that failed!  The content and history (such as it is) is now duplicated between [[$\infty$-category]] and [[temp]].  I also managed to duplicate [[$n$-category]] at [[temporary]].  So still a few bugs in the system ... wait, no, now it works!  The problem is that <http://ncatlab.org/nlab/show/%24%5Cinfty%24-category> is not redirecting to <http://ncatlab.org/nlab/new/%24%5Cinfty%24-category> as it should for a nonexistent page.
+
+OK, well, this will work fine for moving pages and creating new redirects for existing pages.  It won\'t work for combining pages (which is rare) or for regularising current redirect pages.  (I mean, I did regularise some ... but only by creating extra pages with nonsense names and hiding the edit history.)  Ultimately, there is no way to reduce the number of pages with current content except by reducing the number of pages with edit history (that is, by deleting them).
+
+***
+
 \emph{Can we emphasize text?}
 
 *Yes, we can emphasize text.*
