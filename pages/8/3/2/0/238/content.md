@@ -14,6 +14,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-03 #
 
+*  [[Toby Bartels]]:
+   *  Thanks for [[prometric space]], Mike.  I didn\'t know about those, but they seem quite reasonable.  I was thinking that I might want to figure out the categorial meaning of the definition of [[gauge space]], but maybe it\'s just that it\'s a halfway attempt at prometric space!  (But do you have any good example of a nongaugeable prometric space?)
+   *  I seem to have gotten into an edit conflict with you at [[Zorn's lemma]], Todd.  I didn\'t tell it to override your edit, but something happened regardless.  Anyway, I think that I\'ve fixed it.
+   *  Also, our page is at [[Hausdorff maximal principle]], which seems to be more common, but maybe your name is better.  But look!, now it redirects!  And you can move it too!
+
 * [[Todd Trimble]]: gave a proof of [[Zorn's lemma]]. Wouldn't mind expanding that entry to include the mutual equivalence between AC, Zorn, and well-ordering principle (assuming excluded middle). May get around to putting in something at [[Hausdorff maximality principle]]. 
 
 * [[Mike Shulman|Mike]]: Inspired by [[gauge space]], created [[prometric space]].
