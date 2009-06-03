@@ -1,2 +1,4 @@
-[[!redirects nitwits]]
-Testing a redirect.
+[[!redirects Sandbox]]
+
+category: meta
+category: redirect
