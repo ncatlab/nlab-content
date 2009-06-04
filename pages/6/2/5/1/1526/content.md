@@ -1,6 +1,9 @@
+[[!redirects Exploding a Category]]
 A better title might be "Unpacking a Concrete Category"
 
 See also [[category of elements]].
+
+Redirect Test: [[Exploding a Category]]
 
 +--{.query}
 
