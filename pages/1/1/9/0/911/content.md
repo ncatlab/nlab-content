@@ -91,3 +91,5 @@ _Eric_: Excellent. Instead of $El$ (and forget about $Unpack$), could we call it
 >_Toby_:  Even as a coend, it\'s still like an integral: a sum.
 
 [[Eric Forgy|Eric]]: Thanks. I hope my changes are acceptable. I'm pretty happy with the article now. I also added a note about $el(P)$.
+
+[[!redirects Exploding a Category]]
