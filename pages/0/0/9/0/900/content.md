@@ -21,3 +21,6 @@ One source for the theory of pro-objects is
 
 (I might as well get a plug in!!  It is a reprint of the 1989 edition without amendments.)
 
+Another good reference is
+
+* P. T. Johnstone, _Stone Spaces_.
