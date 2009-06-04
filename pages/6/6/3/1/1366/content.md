@@ -30,3 +30,5 @@ of all [[(infinity,1)-category|(infinity,1)-categories]] is, modeled as a [[simp
 chapter 3 of 
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
+
+See also [[(∞,1)-category of (∞,1)-categories]]
