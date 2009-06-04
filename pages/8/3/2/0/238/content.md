@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-06-04 #
+
+* [[Mike Shulman|Mike]]: Added some exposition to [[Hopf algebra]].
+
 # 2009-06-03 #
 
 *  [[Toby Bartels]]:
