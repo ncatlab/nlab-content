@@ -31,4 +31,5 @@ chapter 3 of
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
-See also [[(∞,1)-category of (∞,1)-categories]]
+
+[[!redirects (∞,1)-category of (∞,1)-categories]]
