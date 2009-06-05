@@ -12,5 +12,5 @@ $$a_1 v + a_2 w_1 + \ldots + a_n w_n = 0 \qquad (w_1, \ldots, w_n \in S_W)$$
 
 we must have $a_1 = 0$ -- else we can multiply by $1/a_1$ and express $v$ as a linear combination of the $w_i$, contradicting $\neg(v \in W)$ -- and then the remaining $a_i$ are 0 since the $w_i$ are linearly independent). The span of $S_W \cup \{v\}$ now strictly contains $W$ and has $S_W \cup \{v\}$ as basis; this contradicts the maximality of $(W, S_W)$. We therefore conclude that $W = V$, and $S_W$ is a basis for $V$. 
 
-Anybody know how to prove the converse: that the axiom of choice follows from the basis theorem? 
+I'll write out a proof of the converse, that the axiom of choice follows from the basis theorem, as soon as I've digested it -- Todd. 
 
