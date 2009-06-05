@@ -1,3 +1,5 @@
+[[!redirects pro-objects]]
+
 # Idea #
 
 A **pro-object** of a category $C$ is a "formal [[filtered category|cofiltered]] limit" of objects of $C$.  The category of pro-objects of $C$ is written $pro$-$C$. Such a category is sometimes called a 'pro-category', but notice that that is *not* the same thing as a pro-object in [[Cat]].
