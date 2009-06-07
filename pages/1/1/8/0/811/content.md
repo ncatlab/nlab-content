@@ -54,9 +54,9 @@ is a morphism of $(n-1)$-fibrations.
 
 * When $n=1$, this reduces to Street's weakened version of a [[Grothendieck fibration]].  We recover Grothendieck's original notion by requiring that for any $a\in E$ and $f:x\to p a$ in $B$, there exists a cartesian $\phi:b\to a$ such that $p\phi$ and $f$ are _equal_ (an [[evil]] condition).
 
-+--{+ .query}
-Zoran: Where did Street define this weaker notion of fibered category ? Which examples you know of such weakened version which do not fit into Grothendieck definition ? The geometric examples appearing in real nature (say inverse image of qcoh sheaves in algebraic geometry etc.) correspond to Grothendieck's definition. If he had seen real examples of more general notion, I do not believe Grothendieck would fail to deliver the definition in appropriate generality. The universality property is a universality property in its own right and it is internal so I am not convinced on the basis of "counterevil" philosophy. Finally, am I wrong in thinking that it is a theorem that Grothendieck's fibered categories are exactly those categories over categories which are in essential image of Grothendieck's construction for pseudofunctors with values in Cat ?
-=--
+  +--{+ .query}
+  Zoran: Where did Street define this weaker notion of fibered category ? Which examples you know of such weakened version which do not fit into Grothendieck definition ? The geometric examples appearing in real nature (say inverse image of qcoh sheaves in algebraic geometry etc.) correspond to Grothendieck's definition. If he had seen real examples of more general notion, I do not believe Grothendieck would fail to deliver the definition in appropriate generality. The universality property is a universality property in its own right and it is internal so I am not convinced on the basis of "counterevil" philosophy. Finally, am I wrong in thinking that it is a theorem that Grothendieck's fibered categories are exactly those categories over categories which are in essential image of Grothendieck's construction for pseudofunctors with values in Cat ?
+  =--
 
 * Likewise, when $n=2$ this is a weakened version of Hermida's definition of 2-fibration.
 
