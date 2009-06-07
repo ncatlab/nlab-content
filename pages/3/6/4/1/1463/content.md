@@ -1,3 +1,6 @@
+[[!redirects ultrafilter principle]]
+
+
 In classical mathematics, the ultrafilter theorem is a theorem about ultrafilters, proved as a standard application of [[Zorn's lemma]].  In the [[foundations]] of mathematics, however, it is interesting to consider which results are implied by it or equivalent to it (very few imply it without being equivalent, other than those that imply the full axiom of choice itself).
 
 
