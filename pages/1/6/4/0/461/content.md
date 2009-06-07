@@ -14,4 +14,8 @@ I was a relative defender of the undefined position, but even I couldn\'t accept
 
 All of the arguments (probably nothing to you, unless perhaps some history) are on [the sci.math FAQ](http://www.faqs.org/faqs/sci-math-faq/specialnumbers/0to0/).
 
+[[Mike Shulman|Mike]]: I don't think _I_ should be blamed for opening the can of worms... I think that distinction belongs to the person who wrote "algebra textbooks still teach them that $0^0$ is undefined" as if it were obvious that it is defined.  (-:
+
+Maybe the right thing to say is that the value of $0^0$ depends on whether by $0$ you mean zero, the natural number, or zero, the real number.  Perhaps $0_natural^{0_natural} = 1$ and $0_real^{0_natural}=1$ but $0_real^{0_real}$ is undefined.  (-:  Of course, the cardinality of the empty set is $0_natural$, so in the context of this page, $0^0=1$.
+
 =--
