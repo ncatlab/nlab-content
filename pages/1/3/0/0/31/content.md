@@ -2,12 +2,11 @@
 
 [[!include contents ]]
 
-I work on mathematical physics --- which I interpret broadly as 'math that could be of interest in physics, and physics that could be of interest in mathematics'.  I'm especially interested in $n$-categories and their applications.  I've spent a lot of time explaining these subjects on the web.   You can see a sampling below.  For a lot more stuff, see my [website](http://math.ucr.edu/home/baez/).
+I work on mathematical physics --- which I interpret broadly as 'math that could be of interest in physics, and physics that could be of interest in math'.  I'm especially interested in $n$-categories and their applications.  I've spent a lot of time explaining these subjects on the web.   You can see a sampling below.  For a lot more stuff, see my [website](http://math.ucr.edu/home/baez/).
 
-I have a [[John Baez:HomePage|personal web]] here on the $n$Lab.  My first goal for that is to help James Dolan write a paper on the foundations of algebraic geometry.  The ideas we'll explain are presumably well-known to some, but it's darn hard to find a place to learn them.  This paper is tentatively titled 'Doctrines of Algebraic Geometry'.
+I haven't contributed much to the $n$Lab yet, but I hope to someday.  I have a [[John Baez:HomePage|personal web]] here, which I plan to use to help [[James Dolan:HomePage|James Dolan]] write a paper on the [[John Baez:Doctrines of Algebraic Geometry|foundations of algebraic geometry]].  The ideas we'll explain are presumably well-known to some, but it's darn hard to find anybody who'll explain them.  
 
-
-#Expository Stuff
+#Web Pages
 
 [Symmetries, Groups, and Categories](http://math.ucr.edu/home/baez/symmetries.html)
 
