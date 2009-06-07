@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-06-07 #
+
+* [[Mike Shulman|Mike]]: Tried to distill a bit of the [cafe discussion](http://golem.ph.utexas.edu/category/2009/06/mathematical_principles.html#c024277) about the [[empty space]].
+
 # 2009-06-04 #
 
 * [[Mike Shulman|Mike]]: Added some exposition to [[Hopf algebra]].
