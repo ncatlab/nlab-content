@@ -12,6 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-06-08 #
+
+* [[Bruce Bartlett|Bruce]]: Added link to notes to the strings, fields and topology workshop at Oberwolfach. Also added a "How To" section for creating CSS gismos like query boxes on your personal nLab wiki space.
+
 # 2009-06-07 #
 
 * [[John Baez|John]]: I created myself a [[John Baez:HomePage|new personal web]] since I lost the password for my old one --- and besides, the name of my old one was nonstandard.  So far the only thrilling feature of this new web is the introduction to a paper I'm writing with [[James Dolan]], tentatively titlded 'Doctrines of Algebraic Geometry'.
