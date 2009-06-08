@@ -63,7 +63,7 @@ Here are some scanned notes of talks from Bruce (not always complete!):
 **Fact (Reshitikhin-Turaev)** for any modula tensor category
 $C$ there is a monoidal functor
 $$
-  tft_C : cobord_{3,2}^C \to vect_f(\magthcal{C})
+  tft_C : cobord_{3,2}^C \to vect_f(\mathcal{C})
 $$ 
 
 * 1) factorization homomorphism: given a surface $\Sigma_{U,U^*}$ with two marked points labeled by $U$ and $U^*$ consider the 3d cobordism from $\Sigma$ to the result of gluing a handle
