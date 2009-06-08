@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-08 #
 
+* [[Urs Schreiber]]: created [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]], linked to from [this](http://golem.ph.utexas.edu/category/2009/06/strings_fields_topology_in_obe.html) blog entry (am hoping to get around to add lots of further keyword links to existing $n$Lab entries, but maybe won't)
+
 * [[Todd Trimble]]: asked Alex a question at [[Alex Hoffnung]]. 
 
 * [[Bruce Bartlett|Bruce]]: Added link to notes to the strings, fields and topology workshop at Oberwolfach. Also added a "How To" section for creating CSS gismos like query boxes on your personal nLab wiki space.
