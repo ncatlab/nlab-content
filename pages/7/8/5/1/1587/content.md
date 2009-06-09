@@ -1,4 +1,7 @@
-A **covering space** is a [[bundle]] $p: E \to B$ in [[Top]] which is locally trivial and with [[discrete space|discrete]] fiber. That is, a map $p: E \to B$ is a covering space over $B$ if for each point $x \in B$, there exists an open neighborhood $U$ of $x$ **evenly covered** by $p$: the [[pullback]] of $p$ over $U$ is isomorphic to a product bundle with discrete fiber $E_x = p^{-1}(x)$: 
+[[!redirects wrapping space]]
+
+
+A **covering space** (or **wrapping space**) is a [[bundle]] $p: E \to B$ in [[Top]] which is locally trivial and with [[discrete space|discrete]] fiber. That is, a map $p: E \to B$ is a covering space over $B$ if for each point $x \in B$, there exists an open neighborhood $U$ of $x$ **evenly covered** by $p$: the [[pullback]] of $p$ over $U$ is isomorphic to a product bundle with discrete fiber $E_x = p^{-1}(x)$: 
 
 $$\array{
 U \times E_x & \cong & p^{-1}(U) & \to & E\\
@@ -8,7 +11,7 @@ U \times E_x & \cong & p^{-1}(U) & \to & E\\
 
 (the square is a pullback and the isomorphism maps $(x, e \in E_x) \mapsto e$). 
 
-Covering spaces over $B$ form an evident [[full subcategory]] $Cov/B \hookrightarrow Top/B$. These can be put together to form a full subcategory $Cov$ of $Top$, so that $Cov/B$ is an [[over category]], just as the notation suggests.
+Covering spaces over $B$ form an evident [[full subcategory]] $Cov/B \hookrightarrow Top/B$. These can be put together to form a [[replete subcategory|replete]], [[wide subcategory|wide]] subcategory $Cov$ of $Top$, so that $Cov/B$ is an [[over category]], just as the notation suggests.
 
 ## Remarks ##
 
