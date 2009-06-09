@@ -72,7 +72,7 @@ More recently, Mike Hopkins and Jacob Lurie claimed
 ([Hopkins-Lurie on Baez-Dolan](http://golem.ph.utexas.edu/category/2008/05/hopkinslurie_on_baezdolan.html))
 to have found a complete coherent formalization of topological extended FQFT in the context of [[(infinity,1)-category|(infinity,n)-categories]] using an [[(infinity,n)-category of cobordisms]]. This is described in 
 
-* [[Jacob Lurie]], _On the classification of topological field theories_ ([pdf](http://www-math.mit.edu/~lurie/papers/cobordism.pdf))
+* [[Jacob Lurie]], [[On the Classification of Topological Field Theories]] 
 
 A very detailed account of this for the 2-dimensional case is presented in
 
@@ -134,5 +134,7 @@ As usual, the problem of constructing FQFT becomes much more tractable when line
 * Kontsevich
 
 * Costello
+ 
+  * [[factorization algebra]]
 
 * etc.
