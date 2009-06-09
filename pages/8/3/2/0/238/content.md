@@ -14,6 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-09 #
 
+* [[David Roberts]]
+
+  * Created [[universal covering space]], but it's still pretty much a stub.
+  * Added some remarks to [[covering space]], but they will probably need to move to [[universal covering space]].
+
+
 *  [[Toby Bartels]]
    *  Started [[discrete space]].
    *  There seems to be a link missing from the [[HowTo]] on CSS in personal webs.
