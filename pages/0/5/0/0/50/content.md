@@ -7,7 +7,7 @@ There is an obvious functor
 $$
   diff : LieGroups \to LieAlgebras
 $$
-which sends every Lie group to its Lie algebra and every homomorphism of Lie groups to the corresponding homomorphism of Lie algebras. 
+which sends every [[Lie group]] to its Lie algebra and every homomorphism of Lie groups to the corresponding homomorphism of Lie algebras. 
 
 Lie's three theorems establish the following properties of this functor.
 
