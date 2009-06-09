@@ -1,6 +1,6 @@
 #Idea#
 
-Many structures whose "traditional" definition takes place in [[Set]] can be formulated "internally" to any other category (or categorical structure) $C$ with "enough structure."  The structure required on $C$ is often referred to as a [[doctrine]], although it is not necessarily obvious that it will always be a doctrine in the formal sense (that is, a [[2-monad]], or more generally a [[pseudomonad]] on [[Cat]]).
+Many structures whose "traditional" definition takes place in [[Set]] can be formulated "internally" to any other category (or categorical structure) $C$ with "enough structure."  The structure required on $C$ is often referred to as a [[doctrine]], although it is not necessarily obvious that it will always be a doctrine in the formal sense (that is, a [[2-monad]], possibly in a weak sense, on [[Cat]]).
 
 Like [[vertical categorification|categorification]] or [[horizontal categorification|oidification]], there is currently no completely general formal definition of this process, although there are one or two fairly general theorems.  However, its reverse is precise: given a doctrine $D$ to which $\Set$ (or some canonical Set-like category) belongs and a definition of foo internalized in the doctrine $D$, if this definition of foo in $\Set$ reduces to the usual definition of foo, then the definition is acceptable; foos are a _deinternalisation_ of internal foos.
 
