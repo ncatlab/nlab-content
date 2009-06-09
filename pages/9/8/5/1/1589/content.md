@@ -750,6 +750,8 @@ notice that factorizations algebras on real line tend to be associativ algebras,
 so that fits in with the expectation from quantum mechanics.
 
 
+# Tuesday, June 9 #
+
 
 ## Schick: differential cohomology ##
 
@@ -965,3 +967,8 @@ as well.
 
 **example** if we don't require compatibility with $S^1$-integration, then there
 are "exotic" abelian group structures on $\hat K^1$
+
+## Bunke: smooth K-theory ##
+
+(I gave up taking notes in that one, maybe somebody else
+has notes?)
