@@ -42,7 +42,7 @@ There the notion of 2-dimensionaspl [[conformal field theory]] is axiomatized as
 
 (Apparently a similar definition has been given by Kontsevich, but never published.) The details of the category of conformal cobordisms can get a bit technical and slight variations of Segal's original definition may be necessary. The work by Huang and Kong can be regarded as a further refinement and maybe completion of Segal's program
 
-* Yi-Zhi Huan, _Geometric interpretation of vertex operator algebras_, Proc. Natl. Acad. Sci. USA, Vol 88. (1991) pp. 9964-9968
+* Yi-Zhi Huang, _Geometric interpretation of vertex operator algebras_, Proc. Natl. Acad. Sci. USA, Vol 88. (1991) pp. 9964-9968
 
 * Liang Kong, _Open-closed field algebras_ Commun. Math. Physics. 280, 207-261 (2008) ([arXiv](http://arxiv.org/abs/math/0610293)).
 
