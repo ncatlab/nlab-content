@@ -1,0 +1,9 @@
+Orbispaces are to topological spaces what [[orbifold]]s are to manifolds. An orbispace is a topological generalization of an orbifold, a class of [[topological stack]]s with locally finite stabilizers. A detailed but elementary approach via atlases can be found in 
+
+* Weimin Chen, A homotopy theory of orbispaces ([arXiv](http://arxiv.org/abs/math/0102020))
+
+and another approach is sketched in 
+
+* Andre Henriques, Orbispaces and orbifolds from the point of view of the Borel construction, a new definition ([arXiv](http://arxiv.org/abs/math/0112006))
+
+
