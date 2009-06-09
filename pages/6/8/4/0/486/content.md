@@ -4,7 +4,7 @@ Frequently one is especially interested in pretoposes having additional properti
 
 * A _Heyting pretopos_, is a pretopos which is also a [[Heyting category]].  Likewise, a _Boolean pretopos_ is a pretopos which is also a [[Boolean category]].
 * A _$\Pi$-pretopos_ is a pretopos which is also a [[locally cartesian closed category]].  A $\Pi$-pretopos is automatically Heyting.
-* A _$W$-pretopos_ is a pretopos which has (locally) [[inductive object]]s (initial [[algebra of a functor|algebras]] of [[polynomial]] [[endofunctor]]s), most famously a [[natural numbers object]].
+* A _$W$-pretopos_ is a pretopos which has (locally) [[inductive object]]s (initial [[algebra of an endofunctor|algebras]] of [[polynomial]] [[endofunctor]]s), most famously a [[natural numbers object]].
 * A _$\Pi$-$W$-pretopos_ is of course a pretopos that has both $\Pi$ and $W$; these are widely studied as frameworks for [[predicative mathematics]] in the constructive sense.
 * A _topos_ is a pretopos that has [[power object]]s.  A topos is automatically a $\Pi$-pretopos; conversely, a $\Pi$-pretopos is a topos iff it has a [[subobject classifier]], and a Boolean $\Pi$-pretopos is always a topos.
 * A _$W$-topos_ is of course a topos that has $W$; it is sufficient that the topos have a [[natural numbers object]], so this is often called a _topos with NNO_.  These are widely studied as frameworks for (non-predicative) [[constructive mathematics]], while a [[Boolean topos|Boolean]] $W$-topos is a framework for ordinary classical mathematics.  (You still need to add the [[axiom of choice]] to get [[ETCS]].)
