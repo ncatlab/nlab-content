@@ -1,5 +1,3 @@
-[[!redirects doctrine]]
-
 A **2-monad** is a [[monad]] on a [[2-category]], or more generally a monad _in_ a [[3-category]].  2-monads on [[Cat]] are also sometimes called **[[doctrine]]s**, which categorifies the sense in which a monad is an [[algebraic theory]].
 
 This concept manifests at varying levels of strictness:
