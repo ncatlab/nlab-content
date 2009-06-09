@@ -12,7 +12,7 @@ These conditions ensure that $D$ is a category in its own right and the inclusio
 
 * A __[[full subcategory]]__ if for any $x$ and $y$ in $D$, every morphism $f : x \to y$ in $C$ is also in $D$ (that is, the inclusion [[functor]] $D\hookrightarrow C$ is [[full functor|full]]).
 
-* A __replete subcategory__ if for any $x$ in $D$ and any isomorphism $f:x\cong y$ in $C$, both $y$ and $f$ are also in $D$.
+* A __[[replete subcategory]]__ if for any $x$ in $D$ and any isomorphism $f:x\cong y$ in $C$, both $y$ and $f$ are also in $D$.
 
 * A __[[wide subcategory]]__ if every object of $C$ is also an object of $D$.
 
