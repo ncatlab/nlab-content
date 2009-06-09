@@ -1,13 +1,15 @@
+[[!redirects Lie's first theorem]]
+[[!redirects Lie's second theorem]]
 [[!redirects Lie's third theorem]]
 
 
 #Lie's three theorems#
 
-There is an obvious functor
+There is an obvious [[functor]]
 $$
-  diff : LieGroups \to LieAlgebras
+  diff : Lie Gp \to Lie Alg
 $$
-which sends every [[Lie group]] to its Lie algebra and every homomorphism of Lie groups to the corresponding homomorphism of Lie algebras. 
+which sends every [[Lie group]] to its [[Lie algebra]] and every homomorphism of Lie groups to the corresponding homomorphism of Lie algebras. 
 
 Lie's three theorems establish the following properties of this functor.
 
