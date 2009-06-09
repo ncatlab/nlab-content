@@ -51,7 +51,7 @@ Path(B) & \to & B^I & \\
 $$
 \array{
 \widetilde{B} & \to & T_b\Pi_1(B) \\
-downarrow && \downarrow\\
+\downarrow && \downarrow\\
 B & \to \Pi_1(B)
 }
 $$
