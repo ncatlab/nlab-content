@@ -1,3 +1,6 @@
+[[!redirects Lie's third theorem]]
+
+
 #Lie's three theorems#
 
 There is an obvious functor
