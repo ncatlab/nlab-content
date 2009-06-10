@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-10 #
 
+*  New pages: [[Green-Schwarz mechanism]], [[quasigroup]].
+
 * [[Urs Schreiber]] added Wednesday talk notes to [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]]
 
 * [[David Roberts]]: 
