@@ -49,7 +49,7 @@ be $\infty$-[[differentiable stack]]s if one considers
 
 #Definition#
 
-A Grothendieck--Rezk--Lurie **$(\infty,1)$-topos** is an [[(infinity,1)-category]] $X$ satisfying the following equivalent coditions:
+A Grothendieck--Rezk--Lurie **$(\infty,1)$-topos** is an [[(infinity,1)-category]] $X$ satisfying the following equivalent conditions:
  
 
 * $X$ is an [[(infinity,1)-category of (infinity,1)-sheaves]]: in other words, there exists a small [[(infinity,1)-category]] $S$ and an accessible left [[exact (infinity,1)-functor|exact]] [[(infinity,1)-functor]] $\bar {(-)} : PSh(S) \to X$
