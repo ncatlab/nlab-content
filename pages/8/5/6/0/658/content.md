@@ -4,13 +4,13 @@
 Let $V$ be a symmetric [[closed monoidal category]] and $C$, $D$, [[enriched category|enriched categories]] over $V$. Then a **distributor** or **profunctor** or **[[bimodule|(bi)module]]** from $C$ to $D$ is a $V$-functor from $C \otimes D^{op}$ to $V$, we write
 
 $$
-  F : C \stackrel{|}{\to} D : C\otimes D^{op} \to V
+  F : C &#8696; D : C\otimes D^{op} \to V
   \,.
 $$
 
 Such distributors are composed by using a [[end|coend]] to "trace out" the middle variable:
 
-for $F : C \stackrel{|}{\to} D$ and $G : D \stackrel{|}{\to} E$ distributors, their composite  $G \circ F: C \stackrel{|}{\to} E$ is defined to be
+for $F : C &#8696; D$ and $G : D &#8696; E$ distributors, their composite  $G \circ F: C &#8696; E$ is defined to be
 
 $$
   G \circ F := \int^{d \in D} F(-,d)\otimes G(d,-)
@@ -83,7 +83,7 @@ $$
 
 #Remarks#
 
-* Every ordinary $V$-functor $f : C \to D$ yields a distributor $\hat F : C \stackrel{|}{\to} D$ which is 
+* Every ordinary $V$-functor $f : C \to D$ yields a distributor $\hat F : C &#8696; D$ which is 
 the [[adjunct]] of the postcomposition 
 $$
   C \stackrel{f}{\to} D \stackrel{Y}{\to} [D^{op},V]
