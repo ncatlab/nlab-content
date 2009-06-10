@@ -1,0 +1,1 @@
+A loop is a quasigroup with an identity element.
