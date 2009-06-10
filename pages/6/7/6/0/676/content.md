@@ -2,32 +2,33 @@
 
 #Physics Contents
 
-* [[quantum field theory|Quantum Field Theory]]
+*  [[quantum field theory|Quantum Field Theory]]
 
-  * Axiomatizations
+   *  Axiomatizations
 
-    * [[AQFT|AQFT]]
+      *  [[AQFT|AQFT]]
 
-    * [[FQFT|FQFT]]
+      *  [[FQFT|FQFT]]
 
-  * Tools
+   *  Tools
 
-    * [[BV theory|BV Theory]]
+      *  [[BV theory|BV Theory]]
 
-      * [[AKSZ theory]]
+         *  [[AKSZ theory]]
 
-    * [[geometric infinity-function theory]]
+      *  [[geometric infinity-function theory]]
 
-  * Models
+      *  [[Green–Schwarz mechanism]]
 
-    * [[GUT|Grand Unified Theories]]
+   *  Models
 
-* [[string theory|String Theory]]
+      *  [[GUT|Grand Unified Theories]]
 
-  * [[brane|Branes]]
+*  [[string theory|String Theory]]
 
-* [[gnarly problems in physics|Gnarly problems in physics]]
+   *  [[brane|Branes]]
 
+*  [[gnarly problems in physics|Gnarly problems in physics]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/physicscontents)</div>
 
