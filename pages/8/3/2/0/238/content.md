@@ -14,7 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-10 #
 
-* [[David Roberts]]: Put next, very drafty, chapter of my thesis on my personal web. Just click on my name and follow the white rabbit. 
+* [[David Roberts]]: 
+
+  * Put next, very drafty, chapter of my thesis on my personal web. Just click on my name and follow the white rabbit. 
+  * Added another comment to [[covering space]]. This time about the (total) tangent groupoid as applied to the non-basepoint version of the universal covering space.
 
 
 # 2009-06-09 #
