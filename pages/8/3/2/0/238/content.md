@@ -13,6 +13,15 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 # 2009-06-11 #
+
+* [[Urs Schreiber|Urs]]:
+
+  * created [[tetracategory]]
+
+  * added Thursday talks to [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology
+]]
+
+  * replied to [[Tim Porter]] at [[join of simplicial sets]]
  
 * [[Bruce Bartlett|Bruce]]: Added some comments abotu query boxes in personal nLab pages in the [[HowTo]] page.
 
