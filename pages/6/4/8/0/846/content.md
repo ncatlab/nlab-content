@@ -4,7 +4,7 @@
 
 The objects of the _augmented_ [[simplex category]] $\Delta_a$ can be identified with finite sets of cardinality $0$, $1$, $2$ .... The operation of addition of natural numbers extends to the structure of a [[monoidal category]] on $\Delta_a$:
 
-Using the ordinary notation for the objects of the simplex category this product acts as
+Using the ordinary notation for the objects of the simplex category, this product acts as
 
 $$
   \otimes_{join}: \Delta_a \times \Delta_a \to \Delta_a
@@ -60,10 +60,22 @@ $$
   \,.
 $$
 
-In this form the join appears
+In this form, the join is used
 in [definition 1.2.8.1, p. 42](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=42) of
 
 * J. Lurie, _Higher topos theory_ ([arXiv](http://arxiv.org/abs/math.CT/0608040))
+
+
+##Some history## 
+
+(please augment this?)
+
+This join was studied by P. J. Ehlers, in his thesis
+
+_Algebraic Homotopy in Simplicially Enriched Groupoids_, 1993, 
+University of Wales Bangor, (see also the reference below),
+
+but was there ascribed to Jack Duskin and Don van Osdol in some unpublished notes.  The main ideas were derived there from earlier work by Bill Lawvere.
 
 
 #References#
@@ -74,3 +86,7 @@ in [definition 1.2.8.1, p. 42](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4
 A useful discussion emphasizing the Day convolution operation is also in section 3.1 of
 
 * Dominic Verity, _Weak complicial sets I_ ([arXiv](http://arxiv.org/abs/math/0604414))
+
++--{: .query}
+[[Tim Porter]]:  I find the initial definition given here VERY confusing. By saying the objects of $\Delta_a$ can be identified with finite sets of cardinality $0$, $1$, $2$ ... . Of course that is true, but by saying it, the ordinal property of the objects is lost.  No explicit mention of that property is made.  Perhaps I am missing something ??? The nature of the monoidal operation as being derived from 'ordinal sum' seems to be obscured here.  I have not tried to edit it as I fear that I might disturb some insight that is important from that other point of view.
+=--
