@@ -12,7 +12,7 @@ This is to be contrasted with the [[geometric definition of higher category]] wh
 
 * [[n-fold category|n-fold categories]] are also algebraically defined.
 
-* [[bicategory|Bicategories]] and [[tricategory|tricategories]] are algebraic notions of weak 2-categories and weak 3-categories, respectively.
+* [[bicategory|Bicategories]] and [[tricategory|tricategories]],  [[tetracategory|tetracategories]]  are algebraic notions of weak 2-categories and weak 3-categories, respectively.
 
 * The Batanin/Leinster approach to higher categories involves algebraic structure imposed all at once (using higher [[operad|operads]]) on a globular set.
 
