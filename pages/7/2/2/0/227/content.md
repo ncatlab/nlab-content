@@ -1,3 +1,5 @@
+[[!redirects commutative ring]]
+
 A **ring** is (equivalently)
 
 * a [[monoid]] [[internalization|internal to]] [[Ab]].  
