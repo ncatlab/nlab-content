@@ -143,3 +143,4 @@ By first applying various "completion" processes to syntactic categories before 
 * "Categorical Logic and Type Theory" by Jacobs works in the even more general context of [[Grothendieck fibration|fibrations]], allowing us to associate to each object $A$ an arbitrary poset instead of $Sub(A)$.
 
 * Paul Taylor\'s book _[[Practical Foundations|Practical Foundations of Mathematics]]_ is arguably all about this subject (although you wouldn\'t know it until about Chapter VIII), but from a different perspective.  In particular, Taylor allows us to replace having *all* pullbacks with pullbacks along a pullback-stable class of _display morphisms_.
+
