@@ -31,7 +31,7 @@ Here are some scanned notes of talks from Bruce (not always complete!):
 
 * Kevin Costello 3 [[oberwolfach_costello3.pdf:file]]
 
-* Scott Wilson [[oberwolfach_wilson.pdf]]
+* Scott Wilson [[oberwolfach_wilson.pdf:file]]
 
 * Alex Kahle, Superconnections and index theory [[oberwolfach_kahle.pdf]]
 
@@ -1973,5 +1973,3 @@ $$
 then acting with this $\Delta$ on something produces interesting non-linear
 differential equations related to Witten't Morse-theory deformation 
 of susy quantum mechanics and to Navier-Stokes' equations in fluid dynamics...
-
-
