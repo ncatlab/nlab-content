@@ -94,4 +94,5 @@ A useful discussion emphasizing the Day convolution operation is also in section
 
 Please go ahead and edit this entry to a form that you find satisfactory. You are clearly the expert here.
 
+[[Tim Porter|Tim]]:  Will do ... tomorrow. I am constrained by havng broken my glasses / spactacles which means typing is a pain (literally).
 =--
