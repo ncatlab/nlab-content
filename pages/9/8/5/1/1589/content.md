@@ -33,7 +33,7 @@ Here are some scanned notes of talks from Bruce (not always complete!):
 
 * Scott Wilson [[oberwolfach_wilson.pdf:file]]
 
-* Alex Kahle, Superconnections and index theory [[oberwolfach_kahle.pdf]]
+* Alex Kahle, Superconnections and index theory [[oberwolfach_kahle.pdf:file]]
 
 * Dan Freed, Orientifolds [[oberwolfach_freed.pdf:file]]
 
