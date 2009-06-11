@@ -50,3 +50,43 @@ In this way, every pretopological space becomes a [[convergence space]].
 In fact, we can recover the pretopological structure from the convergence structure as follows: $x \stackrel{\circ}\in U$ if and only if $U$ belongs to every filter that converges to $x$.  In other words, that intersection that appears in the infinite filtration condition is the neighbourhood filter of $x$.  Furthermore, this definition assigns a pretopological structure to any convergence space satsifying the conditions above, and a map between pretopological spaces is continuous if and only if it is continuous as a map between convergence spaces.
 
 Thus, we can define a pretopological space as an infinitely filtered convergence space, making $Pre Top$ a [[full subcategory]] of the category $Conv$ of convergence spaces.
+
+Every pretopological convergence satisfies the star property, so that $Pre Top$ is in fact a full subcategory of the category $Ps Top$ of [[pseudotopological spaces]].
+
+
+## Examples
+
+Every [[topological space]] is a pretopological space, using the usual definition of (not necessarily open) neighbourhood: $x \stackrel{\circ}\in U$ if there exists some open set $G$ such that $x \in G$ and $G \subseteq U$.  Also, a map between topological spaces is continuous if and only if it\'s continuous as a map between pretopological spaces.  In this way, the category [[Top]] of topological spaces becomes a full subcategory of $Pre Top$.
+
+In fact, we can easily characterise the topological pretopologies, allowing us to define a topological space as a pretopological space satisfying this axiom:
+
+*  If $U$ is a set, then let $\stackrel{\circ}U$ be the set of all points that $U$ is a neighbourhood of.  Then $\stackrel{\circ}U$ is a neighbourhood of each of its members.  That is,
+   $$ x \stackrel{\circ}\in U \;\Rightarrow\; x \stackrel{\circ}\in \{ y \;|\; y \stackrel{\circ}\in U \} .$$
+
+In the terms defined below, a topological space is a pretopological space in which every preinterior is open.
+
+
+Here is an example of a nontopological pretopological space, although admittedly it is a bit artificial.  (This is based on Section 15.6 of [[HAF]].)  Consider a [[metric space]] $S$; according to the usual pretopology on $S$, $U$ is a neighbourhood of $x$ if there is a positive number $\epsilon$ such that $U$ contains the ball $ \{ y \;|\; d(x,y) \lt \epsilon \} $.  Now given a [[natural number]] $n$, we will give $S^n$ the _plus pretopology_: $U$ is a neighbourhood of $\vec{x} = (x_1,\ldots,x_n)$ if there is a positive number $\epsilon$ such that $U$ contains the $l^0$-ball $ \{ \vec{y} \;|\; \inf_i d(x_i,y_i) \lt \epsilon \} $.  (If $S$ is a line and $n = 2$, then this is a plus sign '+' with $(x_1,x_2)$ at the centre and cross bars of length $2 \epsilon$.)  Then $S^n$ is a pretopological space, but it is topological only if $n \leq 1$ or $S$ is a [[subsingleton]].
+
+This example can probably be generalised to a [[uniform space]] $S$.  Possibly there is some interesting universal property of this 'plus product', although it seems to go from $Unif \times Unif$ to $Pre Top$, so maybe we need to work in a different category.  (There is a notion of [[uniform convergence space]] that generalises uniform spaces much like convergence spaces generalise topological spaces; perhaps the plus product takes place there.)
+
+
+## Topological structure
+
+Fix a pretopological space $S$.
+
+The __preinterior__ of a set $A$ is the set $\stackrel{\circ}A$ of all points that $A$ is a neighbourhood of:
+$$ \stackrel{\circ}A = \{ x \;|\; x \stackrel{\circ}\in A \} .$$
+A set $A$ is __open__ if it equals its preinterior.  The __interior__ $Int(A)$ of $A$ is the union of all of the open sets contained in $A$.
+
+The __preclosure__ of $A$ is the set $\bar{A}$ of all points that $A$ meets every neighbourhood of:
+$$ \{ x \;|\; \forall{U},\; x \stackrel{\circ}\in U \;\Rightarrow\; A \cap U \neq \empty \} .$$
+A set $A$ is __closed__ if it equals its preclosure.  The __closure__ $Cl(A)$ of $A$ is the intersection of all of the closed sets containing $A$.
+
+The duality between (pre)interiors and open sets on the one hand and (pre)closures and closed sets on the other hand is (at least if you assume [[excluded middle]]) just what you would expect: the (pre)interior of a [[complement]] is the complement of the (pre)closure, and a set is open if and only if its complement is closed.  However, a preinterior is generally not open but larger than an interior; similarly, a preclosure is generally not closed but smaller than a closure.  The situation looks like this:
+$$ A \supseteq \stackrel{\circ}A \supseteq \stackrel{\circ}{\stackrel{\circ}A} \supseteq \cdots \supseteq Int(A) ,$$
+and
+$$ A \subseteq \bar{A} \subseteq \overline{\bar{A}} \subseteq \cdots \subseteq Cl(A) .$$
+In principle, there could be transfinitely many terms in these sequences.  (An example would be nice; the plus product seems to stabilise after $n$ iterations.)
+
+Although it\'s not immediately obvious from the definitions, an interior is open, and a closure is closed.  Thus, the open sets in $S$ form a topological structure on $S$.  This topological structure does *not* (in general) give the original pretopology on $S$; instead, this makes $Top$ a [[reflective subcategory]] of $Pre Top$.
