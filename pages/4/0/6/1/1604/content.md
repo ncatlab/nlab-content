@@ -87,6 +87,13 @@ The duality between (pre)interiors and open sets on the one hand and (pre)closur
 $$ A \supseteq \stackrel{\circ}A \supseteq \stackrel{\circ}{\stackrel{\circ}A} \supseteq \cdots \supseteq Int(A) ,$$
 and
 $$ A \subseteq \bar{A} \subseteq \overline{\bar{A}} \subseteq \cdots \subseteq Cl(A) .$$
-In principle, there could be transfinitely many terms in these sequences.  (An example would be nice; the plus product seems to stabilise after $n$ iterations.)
+
+In general, there can be transfinitely many terms in these sequences.  For example, let $\Omega$ be any [[ordinal number]] with the following pretopology:
+* $0 \stackrel{\circ}\in U$ iff $U=\Omega$.
+* $\alpha \stackrel{\circ}\in U$, where $\alpha\lt\Omega$ is a nonzero ordinal, iff $[\beta,\Omega)\subseteq U$ for some $\beta \lt\alpha$.
+
+Let $A=[1,\Omega)$.  Then $\stackrel{\circ}A = [2,\Omega)$, $\stackrel{\circ}{\stackrel{\circ}A} = [3,\Omega)$, and so on, the process taking $\Omega$ steps to stabilize at $Int(A)=\emptyset$.
+
+However, in many cases this iteration stabilizes after finitely many terms.  The plus product seems to stabilise after $n$ iterations.  And of course, in a topological space it only takes one step.
 
 Although it\'s not immediately obvious from the definitions, an interior is open, and a closure is closed.  Thus, the open sets in $S$ form a topological structure on $S$.  This topological structure does *not* (in general) give the original pretopology on $S$; instead, this makes $Top$ a [[reflective subcategory]] of $Pre Top$.
