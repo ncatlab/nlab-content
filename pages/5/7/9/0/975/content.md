@@ -4,6 +4,7 @@ This entry provides a keyword list on concepts related to **categories and sheav
 
 * M. Kashiwara and P. Schapira, _Categories and Sheaves_, Springer (2000)
 
+_Some other newer terms added_ (notably [[partially ordered category]]
 
 #Summary#
 
@@ -106,6 +107,8 @@ For a pedagogical motivation of the general topic under consideration here see
         * [[generalized universal bundle]]
 
       * [[subobject]]
+
+  * [[partially ordered category]]
 
   * concrete examples
 
