@@ -37,7 +37,8 @@ Here are some scanned notes of talks from Bruce (not always complete!):
 
 * Dan Freed, Orientifolds [[oberwolfach_freed.pdf:file]]
 
-
+Here is a link to notes by Gabriel C. Drummond-Cole:
+&lt;http://www.math.sunysb.edu/~blafard/notes/>
 
 ### 1. Modular tensor categories and rational CFT ###
 
@@ -962,7 +963,7 @@ with $S^1$-integration are constructed for
 * K-theory (Bunke-Schick)
 
 * MU-bordisms (unitary bordisms)  
-  (Bunke-Schr&#246;der-Schick-Wiethaupts; and from there Landweber exact cohomology theories)
+  (Bunke-Schr&ouml;der-Schick-Wiethaupts; and from there Landweber exact cohomology theories)
   
 
 **uniqueness theorem (Bunke-Schick)** 
@@ -1786,6 +1787,7 @@ have handwriitten notes?)
 
 * [Higher Hochschild Cohomology and Differential Forms on Mapping Spaces](http://golem.ph.utexas.edu/category/2008/04/higher_hochschild_cohomology_a.html)
 
+
 )
 
 outline
@@ -1981,13 +1983,13 @@ of susy quantum mechanics and to Navier-Stokes' equations in fluid dynamics...
 
 ## Henriques: Invertible conformal nets ##
 
-Andr&#233; Henriques has notes on this work available on [his website](http://www.math.uu.nl/people/henrique/);
+Andr&eacute; Henriques has notes on this work available on [his website](http://www.math.uu.nl/people/henrique/);
 
-* Chris Douglas, Andr&#233; Henriques, Michael Hill, _Geometric String structures -- notes on $\mathbb{Z}_2$-graded conformal nets_ ([ps](http://www.math.uu.nl/people/henrique/TringWP.ps))
+* Chris Douglas, Andr&eacute; Henriques, Michael Hill, _Geometric String structures -- notes on $\mathbb{Z}_2$-graded conformal nets_ ([ps](http://www.math.uu.nl/people/henrique/TringWP.ps))
 
 today: classification of invertible objects in a 3-category
 
-**theorem** (Andr&#233; Henriques, Arthur Bartels, Chris Douglas):
+**theorem** (Andr&eacute; Henriques, Arthur Bartels, Chris Douglas):
 _Conformal nets form the objects of a symmetric monoidal 
 3-category CN3_ .
 
@@ -2012,7 +2014,7 @@ $$
 
 >Freed: why do you call this conformal ?
 
-> Andr&#233;: (as far as I understand the reply he gives after my question) the usual covariance condition under Moebius group imposed on conformal nets is taken care of here by havin not intervals in the
+> Andr&eacute;: (as far as I understand the reply he gives after my question) the usual covariance condition under Moebius group imposed on conformal nets is taken care of here by havin not intervals in the
 real line on the line but abstract intervals with maps between them being  embeddings. The claim is that this automatically implies the right kind of covariance that is otherwise imposed by hand.
 
 
