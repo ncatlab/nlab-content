@@ -12,9 +12,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
-# 2009-06-11 #
+# 2009-06-12 #
 
 * [[Todd Trimble]]: I finally found some time to write up more of what I had planned for [[covering space]]s, and tried to link up with the comments made by David Roberts. David and Urs, please take a look. 
+
+# 2009-06-11 #
 
 * [[Urs Schreiber|Urs]]:
 
