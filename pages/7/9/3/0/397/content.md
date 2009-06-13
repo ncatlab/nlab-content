@@ -16,7 +16,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[Emily Riehl]]
 * [[Eric Forgy]]
 * [[Finn Lawler]]
-* [[Gabriel C. Drummond-Cole]]
+* [[Gabriel Drummond-Cole]]
 * [[Geoff Cruttwell]]
 * [[Greg Egan]]
 * [[jdthomas|J. D. Thomas]]
@@ -47,6 +47,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[Tom Leinster]]
 * [[Tom Prince]]
 * [[Urs Schreiber]]
+* [[Victor Porton]]
 * [[Vishal Lama]]
 * [[Zoran Škoda]]
 
