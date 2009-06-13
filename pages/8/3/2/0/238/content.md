@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * created [[point of a topos]] and [[stalk]]
+
   * created [[Oberwolfach]]
 
   * pasted notes on Thomas Schick's talk on differential cohomology at [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]] into [[differential cohomology]]
