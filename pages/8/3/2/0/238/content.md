@@ -16,6 +16,22 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * created [[Oberwolfach]]
+
+  * pasted notes on Thomas Schick's talk on differential cohomology at [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]] into [[differential cohomology]]
+
+  * created 
+
+    * [[local net]]
+
+    * [[TQFT]]
+
+    * [[FFRS-formalism]]
+
+    * [[modular tensor category]] 
+
+    but more like stubs to get some material in place, didn't find the leisure to really polish this
+
   * started adding links to keywords in the list of abstracts that [[Bruce Bartlett|Bruce]] added to [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]] -- am hoping that eventually we'll fill these links with content, partly just by copy-and-pasting the relevant bits from the lecture notes (as a start)
 
 * [[Tim Porter|Tim]]: 
