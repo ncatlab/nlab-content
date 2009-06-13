@@ -1,3 +1,3 @@
-_Pursuing Stacks_ is a soon-to-be-published manuscript written by Grothendieck in 1983. Its influence on higher category theory and homotopy is quite substantial. For an account of the origins, see [Ronnie Brown's account](http://www.bangor.ac.uk/~mas010/pstacks.htm). A copy in djvu format is available [here](http://modular.fas.harvard.edu/sga/djvu/Pursuing%20Stacks.tif.djvu) (warning: 23MB).
+_Pursuing Stacks_ is a soon-to-be-published manuscript written by Grothendieck in 1983. Its influence on higher category theory and homotopy is quite substantial. For an account of the origins, see [Ronnie Brown's account](http://www.bangor.ac.uk/~mas010/pstacks.htm). Copies are available [here](http://modular.fas.harvard.edu/sga/djvu/Pursuing%20Stacks.tif.djvu) (in djvu, warning: 23MB) and [here](http://www.math.umn.edu/~messing/docs/).
 
 category: reference
