@@ -21,7 +21,7 @@ In more details, $\Delta$ looks as follows.
 
 First of all, it is common, convenient and without risk to use a [[skeleton]] of $\Delta$, where we pick a fixed representative in each isomorphism class of objects. Since isomorphisms of totally ordered sets are _unique_ this step is so trivial that it is often not even mentioned explicitly.
 
-Often the the _simplex category_ is defined to be the following [[skeleton]]:
+Often the _simplex category_ is defined to be the following [[skeleton]]:
 
 * objects are the finite totally ordered sets $[n] := \{0 \lt 1 \lt  \cdots \lt n\}$ for all $n \in \mathbb{N}$;
 
@@ -75,7 +75,7 @@ $$
 
 Under the [[Yoneda embedding]] $Y : \Delta \to $ [[SSet]] the object $[n]$ induces the standard simplicial $n$-[[simplex]] $Y([n]) =: \Delta^n$.
 
-The face and degeracy maps and the relation they satisfy are geometrically best understood in terms of the [[full and faithful functor|full and faithful]] image under $Y$ in [[SSet]]: 
+The face and degeneracy maps and the relation they satisfy are geometrically best understood in terms of the [[full and faithful functor|full and faithful]] image under $Y$ in [[SSet]]: 
 
 * the face map $Y(\delta_i) : \Delta^{n-1} \to \Delta^{n}$ injects the standard simplicial $(n-1)$-simplex as the $i$th face into the standard simplicial $n$-simplex;
 
@@ -85,24 +85,24 @@ The face and degeracy maps and the relation they satisfy are geometrically best 
 
 ## augmented simplex category ##
 
-* Often, it is highly convenient to extend the category $\Delta$ to contain also the empty totally ordered set $[-1] := \emptyset$. This is called the _augmented_ simplex category $\Delta_a$, and presheaves on it are **augmented simplicial sets**. The category $\Delta_a$ may be characterized as the initial strict monoidal category equipped with a monoid; the monoidal product is ordinal sum, and the monoidal unit is the empty ordinal. This style of definition also opens up the possibility of using string diagrams to visualize the structure of $\Delta_a$ and of the [[cube category]] $\Box$. 
+* Often, it is highly convenient to extend the category $\Delta$ to contain also the empty totally ordered set $[-1] := \emptyset$. This is called the _augmented_ simplex category $\Delta_a$, and presheaves on it are **augmented simplicial sets**. The category $\Delta_a$ may be characterized as the initial strict monoidal category equipped with a monoid; the monoidal product is **ordinal sum**, and the monoidal unit is the empty ordinal. This style of definition also opens up the possibility of using string diagrams to visualize the structure of $\Delta_a$ and of the [[cube category]] $\Box$. 
 
 
 ## monoidal structure ##
 
-Addition of natural numbers extends to [[tensor product]]-functor on $\Delta$
-
+The idea of addition of natural numbers extends, and adapts, to give a [[tensor product]]-type functor on both $\Delta$ and $\Delta_a$. If we visualise an object, $[n]$ of $\Delta$, as above, as a totally ordered set
+$\{0 \lt 1 \lt  \cdots \lt n\}$, then from two such $[m]$ and $[n]$, we can form a new one by making all the elements of $[n]$, strictly greater than those in $[m]$. (It can be convenient to adopt the following notational device here. Add an ${}^*$ to each element of $[n]$ just as a label (a different font would serve the same purpose), so we form a new ordinal $[m]+[n] = \{0 \lt 1 \lt  \cdots \lt m \lt 0^*\lt 1^* \lt  \cdots \lt n^*\}$.) Clearly we have 
 $$
   + : \Delta \times \Delta \to \Delta
 $$
 
-which acts on objects 
+acts on objects 
 
 $$
-  [n] + [m] = [n + m]
+  [n] + [m] = [n + m + 1],
 $$
 
-and on morphisms $f : [m] \to [m']$ and $g : [n] \to [n']$ as 
+but that is not really where the subtleties  are apparent, they are clearer with the morphisms. On morphisms given $f : [m] \to [m']$ and $g : [n] \to [n']$, we have 
 
 $$
   (f+g)(i) = \left\lbrace
@@ -115,7 +115,14 @@ $$
   \,.
 $$
 
+It is important to note that this tensor does _not_ give a monoidal structure to $\Delta$, as it does not have a unit.  The unit that would be needed would be the empty ordinal, and, as that _is_ there in $\Delta_a$, that does become a monoidal category.
+
+
 Under [[Day convolution]] this monoidal structure induces the [[join of simplicial sets]].
+
++--{.query}
+[[Tim Porter|Tim]]: a neat notation for the ordinal sum is $\oplus$ read as 'o plus' with 'o' recalling 'ordinal' and 'plus .... . In editing the above I did not change the pre-existing notation, but would have liked to!
+=--
 
 
 ### realization and nerve ###
@@ -134,7 +141,7 @@ $$
 $$
 sends $[n]$ to the $n$th [[oriental]]. This induces simplicial [[nerve]]s of [[omega-category|omega-categories]].
 
-Under the functro $Str \omega Cat \to Cat$ which discards all higher morphisms and identifies all 1-morphisms that are connected by a 2-morphisms, this becomes again the identification of $\Delta$ with the full subbcategory of $Cat$ on linear [[quiver]]s that we srated the above definition with
+Under the functor $Str \omega Cat \to Cat$ which discards all higher morphisms and identifies all 1-morphisms that are connected by a 2-morphisms, this becomes again the identification of $\Delta$ with the full subbcategory of $Cat$ on linear [[quiver]]s that we started the above definition with
 
 $$
   [n] \mapsto \{0 \to 1 \to \cdots \to n\}
