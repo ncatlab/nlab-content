@@ -1,0 +1,30 @@
+A **topological quantum field theory** is a [[quantum field theory]] which is a [[FQFT|functorial quantum field theory]] is a functor on the [[(infinity,n)-category of cobordisms]] $Bord_n$ that do not carry any further structure.
+
+For more on the general idea and its development, see [[FQFT]]. For the central structural result in [[TQFT]], the [[generalized tangle hypothesis]] see
+
+* [[Jacob Lurie]], [[On the Classification of Topological Field Theories]]
+
+
+#Remarks#
+
+* often topological _quantum_ field theories are just called _topological field theories_ and accordingly the abbreviation TQFT is reduced to TFT. Strictly speaking this is a misnomer, which is however convenient and very common. It should be noted, however, that TQFTs may have classical counterparts (for instance [[Chern-Simons theory]]) which would better deserve to be called TFTs. But they are not usually.
+
+#Non-topological QFTs#
+
+In constrast to topological QFTs, non-topological quantum field theries in the [[FQFT]] description are $n$-functors on $n$-categories $Bord^S_n$ whose morphisms are manifolds with extra $S$-structure, for instance
+
+* $S =$ conformal structure $\to$ [[conformal field theory]]
+
+* $S =$ Riemannian structure $\to$ "euclidean QFT"
+
+* $S =$ pseudo-Riemannian structure $\to$ "relativistic QFT"
+
+#Examples#
+
+* [[Dijkgraaf-Witten theory]]
+
+* [[Chern-Simons theory]]
+
+* [[Reshetikhin-Turaev model]]
+
+* [[Turaev-Viro model]]
