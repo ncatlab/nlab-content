@@ -10,9 +10,9 @@ Compare the notion of [[locally partially ordered category]].  A partially order
 
 **TODO: Create special page for _categories with inverses_.**
 
-  I will call a _precategory with inverses_ a precategory together
+  I will call a _precategory with inverses_ a [[precategory]] together
   with a function $x \mapsto x^{- 1}$ defined on the set of morphisms, which
-  reverses source and destination of the morphism subject to following
+  reverses source and destination of the morphism, subject to the following
   equalities for any morphisms $f$, $g$:
  $(f^{- 1})^{- 1} = f$;
  $(g \circ f)^{- 1} = f^{- 1} \circ g^{- 1}$.
@@ -23,6 +23,8 @@ Compare the notion of [[locally partially ordered category]].  A partially order
 
 +-- {: .query}
 If you also require that every identity morphism is its own inverse (and it seems to me that you should, since inverses preserve binary composition already), then you get the notion of [[dagger category]].  ---[[Toby Bartels]]
+
+[[Mike Shulman|Mike]]: Also, the name "inverses" doesn't really seem appropriate, since they are not (necessarily) inverses in the sense with which that word is generally used in category theory.  They could be, of course, but most interesting dagger categories are not groupoids.
 =--
 
 For a partially ordered (pre)category with inverses I will additionally
