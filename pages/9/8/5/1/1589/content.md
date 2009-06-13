@@ -18,7 +18,7 @@ We have the following resources:
 
   * Christoph Schweigert, Monday morning 9.15. CFT and algebra in braided tensor categories I. [[talk1.pdf:file]]
 
-  * Ullrich Bunke, Smooth K-theory [[oberwolfach_bunke.pdf:file]]
+  * Ullrich Bunke, Smooth K-theory [[obunke.pdf:file]]
 
   * Thomas Schick, Smooth differential cohomology [[oberwolfach_schick.pdf:file]]
 
