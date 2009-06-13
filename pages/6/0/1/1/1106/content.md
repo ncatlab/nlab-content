@@ -47,6 +47,8 @@ or see the list of links below.
 
     * [[restriction and extension of sheaves]]
 
+    * [[stalk]]
+
   * [[category of sheaves]]
 
 * [[Grothendieck topos]]
@@ -115,6 +117,9 @@ or see the list of links below.
 
   * [[geometric embedding]]
 
+  * [[point of a topos]]
+
+    * [[stalk]]
 
 ##VIII Classifying Topoi##
 
