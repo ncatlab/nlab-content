@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-13 #
 
+* [[Urs Schreiber|Urs]]
+
+  * started adding links to keywords in the list of abstracts that [[Bruce Bartlett|Bruce]] added to [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]] -- am hoping that eventually we'll fill these links with content, partly just by copy-and-pasting the relevant bits from the lecture notes (as a start)
+
 * [[Tim Porter|Tim]]: 
 
   * Mike, ditto from me!
