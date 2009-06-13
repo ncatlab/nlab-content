@@ -3,16 +3,22 @@
 The _homotopy coherent nerve_ (also called _simplicial nerve_) of a [[simplicially enriched category]] is a [[simplicial set]] which includes information about all the higher homotopies present in the hom-spaces.  It generalizes the ordinary [[nerve]] of an ordinary [[category]].
 
 
-#Definition#
+#Preliminary definition#
 
 For $\Delta^n$ the standard [[simplicial set|simplicial]] $n$-[[simplex]], define the [[simplicially enriched category]] $S[\Delta^n]$ as follows:
 
 * the objects of $S[\Delta^n]$ are $\{0,1, \cdots, n\}$;
 
-* for $i, j \in \{0,1,\cdots, n\}$ define  $S[\Delta^n](i,j) = \left\lbrace \array{ \emptyset & if j \lt i \\ N(P_{i,j}) & if i \leq j }\right.$ where $P_{i,j}$ is the [[poset]]  $\left\{ I \subset J : (i,j \in I) \wedge (\forall k \in I) [i \leq k \leq j] \right\}$
+* for $i, j \in \{0,1,\cdots, n\}$ define  $S[\Delta^n](i,j) = \left\lbrace \array{ \emptyset & if j \lt i \\ N(P_{i,j}) & if i \leq j }\right.$     
 
-* the composition operation is induced by ...
+where $P_{i,j}$ is the [[poset]]  $\left\{ I \subset J : (i,j \in I) \wedge (\forall k \in I) [i \leq k \leq j] \right\}$.  
 
+This interprets as the simplicial set of paths from $i$ to $j$. For such a path the corresponding $I$ is the set of vertices visited by the path, so $I\subset J$ means that the path for $J$ is a 'subdivided' version of that for $I$. The simplicial set $N(P_{i,j})$ is isomorphic to the $j-i-1$ cube $\Delta[1]^{j-i-1}$. (We will look at an example after this definition.)
+
+* the composition operation is induced by 'composition of the corresponding paths' and thus essentially by union of the sets involved.
+
+
+#Definition#
 
 For $C$ a [[simplicially enriched category]], the **homotopy coherent nerve**  $N(C)$ is the [[simplicial set]] uniquely characterized by the formula $ Hom_{SSet}(\Delta^n, N(C)) = Hom_{SSet-Cat}(S[\Delta^n], C)$.
 
