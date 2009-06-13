@@ -1,8 +1,12 @@
-_Partially ordered category_ is a category together with partial order on the set of its morphisms with the additional requirement that
-$f_1 \subseteq f_2 \wedge g_1 \subseteq g_2 \Rightarrow g_1 \circ f_1 \subseteq g_2 \circ f_2$ for any morphisms $f_1$, $g_1$, $f_2$, $g_2$ such that $\mathrm{Dst} f_1 =
-\mathrm{Src} g_1 \wedge \mathrm{Dst} f_2 = \mathrm{Src} g_2$
+_Partially ordered category_ is a category together with [[partial order]]ing $\subseteq$ of its morphisms such that
+$$ f_1 \subseteq f_2 \;\wedge\; g_1 \subseteq g_2 \;\Rightarrow\; g_1 \circ f_1 \subseteq g_2 \circ f_2 $$
+for any morphisms $f_1$, $g_1$, $f_2$, $g_2$ such that the composites above are defined.
 
 For a _partially ordered category_ its set of objects is partially ordered by the formula $A \subseteq B \Leftrightarrow 1_A \subseteq 1_B$.
+
+Compare the notion of [[locally partially ordered category]].  A partially ordered category is a category *[[internal category|internal]] to* the category [[Pos]] of [[poset]]s, while a locally partially ordered category is a category *[[enriched category|enriched]] over* $Pos$.  Similarly, a partially ordered category is a special kind of [[double category]], while a locally partially ordered category is a special kind of $2$-[[2-category|category]].
+
+## Partially ordered dagger categories ##
 
 **TODO: Create special page for _categories with inverses_.**
 
@@ -17,6 +21,10 @@ For a _partially ordered category_ its set of objects is partially ordered by th
   which is a category with additional requirement that for any isomorphism its
   inverse is the reverse isomorphism.
 
++-- {: .query}
+If you also require that every identity morphism is its own inverse (and it seems to me that you should, since inverses preserve binary composition already), then you get the notion of [[dagger category]].  ---[[Toby Bartels]]
+=--
+
 For a partially ordered (pre)category with inverses I will additionally
 require (for any morphisms $f$ and $g$)
 \[ f^{- 1} \subseteq g^{- 1} \Leftrightarrow f \subseteq g. \]
@@ -30,4 +38,5 @@ require (for any morphisms $f$ and $g$)
 
 See more in [this online article](http://www.mathematics21.org/binaries/ordered-cats-with-inv.pdf). Feel free to copy the information from this my article to nLab wiki.
 
-See also [[generalized continuity]].
+## See also ##
+* [[generalized continuity]]
