@@ -89,11 +89,6 @@ First quantization is a mystery, but second quantization is a functor.
 To fiddle with the CSS code, go to "Edit web" on the main page of your wiki, and then click on "Stylesheat tweaks". Here you can add new CSS gismos like query boxes and standout boxes. These kind of gismos come from the mechanism of putting CSS classes into the Markdown syntax, in the  [same way](http://golem.ph.utexas.edu/~distler/blog/archives/001820.html) that Jacques created the Theorem environments in Instiki. In other words, a query box is like a theorem environment: it's a way in Markdown to create an HTML block with a specific id, which you can then style in the CSS. You can grab the CSS code for query boxes from the main nLab page. It requires a password to change the CSS, but to view it does not require one. 
 
 
-
-+-- {: .query}
-Where\'s the explanation?
-=--
-
 # How to search the nLab from firefox #
 
 Here are two search plugins for firefox that will let you search the nLab from the firefox search bar.
