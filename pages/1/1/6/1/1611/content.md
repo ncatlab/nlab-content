@@ -3,4 +3,13 @@
 
 Victor Porton is the owner of a [math weblog](http://portonmath.wordpress.com/2009/05/). He wishes to be nominated for the Abel Prize ([link](http://www.mathematics21.org/abel-prize.html)).
 
+
++-- {: .query}
+Hi Victor, and welcome!
+
+You added a note to the top of [[Categories and Sheaves]] that seemed to be more about explaining how you were editing the page just then than something that should actually be on the page itself.  So I moved it to [[latest changes]], which is where we normally tell people about what we\'ve done that they might want to know about.
+
+---[[Toby Bartels]]
+=--
+
 category: people
