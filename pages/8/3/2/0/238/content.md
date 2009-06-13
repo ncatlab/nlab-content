@@ -14,6 +14,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-13 #
 
+* [[Tim Porter|Tim]]: 
+
+  * Mike, ditto from me!
+
+
+  * Made some changes to [[simplex category]] and [[join of simplicial sets]]. A more explicit mention of ordinal sum has been made and some minor corrections done.
+
 * [[Bruce Bartlett|Bruce]]:
   
   * Congrats Mike!
