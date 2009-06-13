@@ -4,11 +4,7 @@ for any morphisms $f_1$, $g_1$, $f_2$, $g_2$ such that the composites above are 
 
 For a _partially ordered category_ its set of objects is partially ordered by the formula $A \subseteq B \Leftrightarrow 1_A \subseteq 1_B$.
 
-Compare the notion of [[locally partially ordered category]].  A partially ordered category is a category *[[internal category|internal]] to* the category [[Pos]] of [[poset]]s, while a locally partially ordered category is a category *[[enriched category|enriched]] over* $Pos$.  Similarly, a partially ordered category is a special kind of [[double category]], while a locally partially ordered category is a special kind of $2$-[[2-category|category]].
-
-+--{: .query}
-[[Mike Shulman|Mike]]: In order to get an internal category in $Pos$, I think you also need to require that the source and target functions preserve $\subseteq$.
-=--
+Compare the notion of [[locally partially ordered category]].  A partially ordered category in which the [[source]] and [[target]] maps preserve the partial order is a category *[[internal category|internal]] to* the category [[Pos]] of [[poset]]s, while a locally partially ordered category is a category *[[enriched category|enriched]] over* $Pos$.  Similarly, such a partially ordered category is a special kind of [[double category]], while a locally partially ordered category is a special kind of $2$-[[2-category|category]].
 
 ## Partially ordered dagger categories ##
 
@@ -26,15 +22,15 @@ Compare the notion of [[locally partially ordered category]].  A partially order
   inverse is the reverse isomorphism.
 
 +-- {: .query}
-If you also require that every identity morphism is its own inverse (and it seems to me that you should, since inverses preserve binary composition already), then you get the notion of [[dagger category]].  ---[[Toby Bartels]]
+[[Mike Shulman|Mike]] (with [[Toby Bartels|Toby]], as editor, concurring): What you call a "category with inverses" is the same as a [[dagger category]] in which every isomorphism is unitary.
 
-[[Mike Shulman|Mike]]: Also, the name "inverses" doesn't really seem appropriate, since they are not (necessarily) inverses in the sense with which that word is generally used in category theory.  They could be, of course, but most interesting dagger categories are not groupoids.
+The name "inverses" doesn't really seem appropriate, since they are not (necessarily) inverses in the sense with which that word is generally used in category theory.  They could be, of course, but most interesting dagger categories are not groupoids.
 
-[[Mike Shulman|Mike]]: Actually, preservation of identities is automatic once you have an involution that preserves binary composition.
+Preservation of identities is automatic once you have an involution that preserves binary composition.
 $$
 1_x^\dagger = 1_x^\dagger \circ 1_x = 1_x^\dagger \circ (1_x^\dagger)^\dagger = (1_x^\dagger \circ 1_x)^\dagger = (1_x^\dagger)^\dagger = 1_x.
 $$
-Note that in a dagger category, a morphism is called _unitary_ if its adjoint $f^\dagger$ is its inverse (in the usual sense, i.e. $f f^\dagger = 1$ and $f^\dagger f=1$).  Thus, what you call a "category with inverses" is the same as a dagger category in which every isomorphism is unitary.
+Note that in a dagger category, a morphism is called _unitary_ if its adjoint $f^\dagger$ is its inverse (in the usual sense, i.e. $f f^\dagger = 1$ and $f^\dagger f=1$).
 =--
 
 For a partially ordered (pre)category with inverses I will additionally
