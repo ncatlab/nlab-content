@@ -58,7 +58,7 @@ $$
 In this form, the join is used
 in [definition 1.2.8.1, p. 42](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=42) of
 
-* J. Lurie, _Higher topos theory_ ([arXiv](http://arxiv.org/abs/math.CT/0608040))
+* [[Jacob Lurie]], [[Higher Topos Theory]] 
 
 
 ##Some history## 
