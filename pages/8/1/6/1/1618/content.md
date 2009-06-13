@@ -12,7 +12,11 @@ On the other hand, if $E$ is the [[classifying topos]] of a [[geometric theory]]
 
 #Remarks#
 
-* see also [[stalk]]
+* see also 
+
+  * [[stalk]]
+
+  * [[skyscraper sheaf]]
 
 #References#
 
