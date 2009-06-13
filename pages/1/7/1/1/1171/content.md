@@ -5,10 +5,10 @@ A convergence space is a generalisation of a [[topological space]] based on the 
 
 ## Definitions ##
 
-A __convergence space__ is a [[set]] $S$ together with a [[relation]] $\to$ from $\mathcal{F}S$ to $S$, where $\mathcal{F}S$ is the set of [[filter]]s on $S$; if $F \to x$, we say that $F$ __converges__ to $x$.  This must satisfy some axioms:
+A __convergence space__ is a [[set]] $S$ together with a [[relation]] $\to$ from $\mathcal{F}S$ to $S$, where $\mathcal{F}S$ is the set of [[filter]]s on $S$; if $F \to x$, we say that $F$ __converges__ to $x$ or that $x$ is a __limit__ of $F$.  This must satisfy some axioms:
 1. Centred: The principal ultrafilter $F_x = \{ A \;|\; x \in A \}$ at $x$ converges to $x$;
 1. Isotone: If $F \subseteq G$ and $F \to x$, then $G \to x$;
-1. Filtered: If $F \to x$ and $G \to x$, then $F \cap G \to x$.
+1. Directed: If $F \to x$ and $G \to x$, then some set contained in the [[intersection]] $F \cap G$ converges to $x$.  In light of (2), it follows that $F \cap G \to x$.  (Strictly speaking, the relation should not be called directed unless also every point is a limit of some filter, but this follows from 1.)
 
 It follows that $F \to x$ if and only if $F \cap F_x$ does.  Given that, the convergence relation is defined precisely by specifying, for each point $x$, a filter of subfilters of the principal ultrafilter at $x$.  (But that is sort of a tongue twister.)
 
@@ -28,7 +28,9 @@ In [[measure theory]], given a measure space $X$ and a measurable space $Y$, the
 
 A [[pseudotopological space]] is a convergence space satisfying the _star property_:
 
-* If $F$ is a filter such that for every proper filter $G \supseteq F$ there exists a proper filter $H \supseteq G$ with $H \to x$, then $F \to x$.
+* If $F$ is a filter such that every proper filter $G \supseteq F$ clusters at $x$, then $F$ converges to $x$.
+
+Assuming the [[ultrafilter theorem]] (a weak version of the [[axiom of choice]]), it\'s enough to require that $F$ converges to $x$ whenever every [[ultrafilter]] that refines $F$ converges to $x$.
 
 
 A [[subsequential space]] is a pseudotopological space that may be defined using only [[sequence]]s instead of arbitrary nets/filters.
@@ -51,6 +53,24 @@ The improper filter (the [[power set]] of $S$) converges to every point.  On the
 A convergence space $S$ is __compact__ if every proper filter clusters at some point; that is, every proper filter is contained in a convergent proper filter.  Equivalently (assuming the [[ultrafilter theorem]]), $S$ is compact iff every ultrafilter converges.  A topological space is compact in the [[compact space|usual sense]] if and only if it is compact as a convergence space.
 
 The topological convergence spaces can be characterized as the pseudotopological ones in which the convergence satisfies a certain "associativity" condition.  In this way one can think of a topological space as a "multicategory" parametrized by ultrafilters.  In particular, note that a compact Hausdorff pseudotopological space is defined by a single function $\mathcal{U}S \to S$, where $\mathcal{U}S$ is the set of ultrafilters on $S$, such that the composite $S \to \mathcal{U}S \to S$ is the identity.  That is, it is an [[algebra for an endofunctor|algebra]] for the [[pointed endofunctor]] $\mathcal{U}$.  The compact Hausdorff _topological_ spaces are precisely the algebras for $\mathcal{U}$ considered as a [[monad]].
+
+
+## Topological structure ##
+
+Given a convergence space, a filter $F$ __star-converges__ to a point $x$ if every proper filter that refines $F$ clusters at $x$.  (Assuming the [[ultrafilter theorem]], $F$ star-converges to $x$ iff every ultrafilter that refines $F$ converges to $x$.)  The relation of star convergence makes any convergence space into a [[pseudotopological space]] with a weaker convergence.  In this way, $Ps Top$ becomes a [[reflective subcategory]] of $Conv$ over $Set$.
+
+>Note: the term 'star convergence' is my own, formed from 'star property' above, which I got from _[[HAF]]_.  Other possibilities that I can think of: 'ultraconvergence', 'universal convergence', 'subconvergence'.  ---[[Toby Bartels|Toby]]
+
+
+Given a convergence space, a set $U$ is a __neighbourhood__ of a point $x$ if $U$ belongs to every filter that converges to $x$; it follows that $U$ belongs to every filter that star-converges to $x$.  The relation of being a neighbourhood makes any convergence space into a [[pretopological space]], although the pretopological convergence is weaker in general.  In this way, $Pre Top$ is a [[reflective subcategory]] of $Conv$ (and in fact of $Ps Top$) over $Set$.
+
+
+Given a convergence space, a set $G$ is __open__ if $G$ belongs to every filter that converges to any point in $G$, or equivalently if $G$ equals its preinterior.  The class of open sets makes any convergence space into a [[topological space]], although the topological convergence is weaker in general.  In this way, $Top$ is a [[reflective subcategory]] of $Conv$ (and in fact of $Ps Top$ and $Pre Top$) over $Set$.
+
+
+Other pretopological notions:  The __preinterior__ of a set $A$ is the set of all points $x$ such that $A$ is a neighbourhood of $x$.  The __preclosure__ of $A$ is the set of all points $x$ such that every neighbourhood $U$ of $x$ meets (has [[inhabited set|inhabited]] [[intersection]] with) $A$.  For more on these, see [[pretopological space]].
+
+Other topological notions:  A set $F$ is __closed__ if $F$ meets every neighbourhood of every point that belongs to $F$, equivalently if $F$ equals its preclosure.  The __interior__ of $A$ is the union of all of the open sets contained in $A$; it is the largest open set contained in $A$.  The __closure__ of $A$ is the intersection of all of the closed sets that contain $A$; it is the smallest closed set that contains $A$.
 
 
 ## References ##
