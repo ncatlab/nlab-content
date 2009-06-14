@@ -1,6 +1,6 @@
 #Definition#
 
-Recall that a [[point of a topos|point x of a topos E]] is a geometric morphism 
+Recall that a [[point of a topos|point]] $x$ of a [[topos]] $E$ is a geometric morphism 
 
 $$
   x : Set \to E
@@ -52,6 +52,7 @@ $$
     \\
     &=
     colim_{V \subset X | x \in V} F(V)
+  \end{aligned}
   \,.
 $$
 
