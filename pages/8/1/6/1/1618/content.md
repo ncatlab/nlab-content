@@ -64,7 +64,7 @@ $$
 
 ## points of classifying topoi ##
 
-On the other hand, if $E$ is the [[classifying topos]] of a [[geometric theory]] $T$, then a point of $E$ is the same as a model of $T$ in $Set$.
+On the other hand, if $E$ is the [[classifying topos]] of a [[geometric theory]] $T$, then a point of $E$ is the same as a model of $T$ in [[Set]].
 
 
 #References#
