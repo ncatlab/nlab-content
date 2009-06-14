@@ -2,7 +2,7 @@
 
 A _skyscraper sheaf_ is a [[sheaf]] supported at a single point.
 
-This is not unlike the Dirac-$\delta$ distribution.
+This is not unlike the Dirac $\delta$-distribution.
 
 #Definition#
 
