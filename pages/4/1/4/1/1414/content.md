@@ -3,7 +3,7 @@
 The _homotopy coherent nerve_ (also called _simplicial nerve_) of a [[simplicially enriched category]] is a [[simplicial set]] which includes information about all the higher homotopies present in the hom-spaces.  It generalizes the ordinary [[nerve]] of an ordinary [[category]].
 
 
-#Preliminary definition#
+#Preliminary definitions#
 
 For $\Delta^n$ the standard [[simplicial set|simplicial]] $n$-[[simplex]], define the [[simplicially enriched category]] $S[\Delta^n]$ as follows:
 
@@ -16,6 +16,47 @@ For $\Delta^n$ the standard [[simplicial set|simplicial]] $n$-[[simplex]], defin
 
 * the composition operation is induced by 'composition of the corresponding paths' and thus essentially by union of the sets involved.
 
+#Example and (hopefully) explanation#
+
+We will examine the lowest dimensional cases. For $n = 0,1$, there is nothing of note.
+
+For $n = 2$, there are unique paths in $[2]$ from $0$ to $[1]$, and $[1]$ to $[2]$, so the corresponding homs in $S[2]$ are copies of $\Delta[0]$ (or, if you prefer, of $\Delta[1]^0$!). Things are slightly more interesting for $S[2](0,2)$. Looking at this from the 'subsets' viewpoint, as above, there clearly are two subsets of $\{0,1,2\}$ containing both $0$ and $2$, one corresponds to the direct route in $[2]$ from $0$ to $2$, the other goes via $1$ so is $0\to 1\to 2$. In $S[2](0,2)$, there is a 1-simplex starting at $\{0,2\}$ and ending at $\{0,1,2\}$.  
+ Everything else, in higher dimensions, is degenerate, so $S[2](0,2)\cong \Delta[1]$. Sometimes it is useful to think of this 1-simplex as 'rewriting' the direct path to that via 1, all this happening in the free category on the underlying graph of the poset $[2]$. 
+
+In this example there are no significant compositions. To see examples of those, you need to look at $n = 3$. In $S[3]$, the simplicial hom-sets $S[3](i,j)$ for $(i,j) \neq (0,3)$, can all be analysed by the same sort of argument to the above.  The new features occur in $S[3](0,3)$.  The vertices of this simplicial set are the subsets $\{ 0.3\}$, $\{0,1,3\}$, $\{0,2,3\}$, and  $\{0,1,2,3\}$, corresponding to the direct path $0\to 3$ and then the three other. Rewriting the direct path can be done in two immediate ways, to go via 1 or via 2. Each of these can be 'rewritten' to give the longest path /  largest subset. There is also, of course, an inclusion of the smalles to the largest of these:
+$$
+  \array{
+     \{0,3\}&\rightarrow & \{0,1,3\}
+     \\
+     \downarrow & \searrow &\downarrow\\
+     \{0,2,3\}&\rightarrow &\{0,1,2,3\}
+   }
+$$
+In addition, there will be 2-simplexes filling the two triangles, coming from the chains $\{0,3\}\subset \{0,1,3\}\subset \{0,1,2,3\}$ and $\{0,3\}\subset \{0,2,3\}\subset \{0,1,2,3\}$ in the poset. We thus get $S[3](0,3) \cong \Delta[1]^2$, a square. 
+
+The composition maps
+
+$$S[3](1,3)\times S[3](0,1)\to S[3](0,3)$$
+
+and similarly for the one with 1 replaced by 2, *are* now fairly obvious.  
+
+
+
+For $n = 4$, the corresponding diagram for $S[4](0,4)$ gives a cube (left to the reader), but here there is an interesting feature.  The 4-simplex has five 3-dimensional faces and each will give one 2-dimensional face of that cube.  A cube has six 2-dimensional faces. The 'extra' sixth face corresponds to the interchange law, or, if preferred, to the fact that
+
+$$S[4](2,4)\times S[4](0,2)\to S[4](0,4)$$
+
+is to be a simplicial map.
+
+A similar phenomenon occurs in higher dimensions.  There are two 'extra faces' in $S[5](0,5)$, and so on.
+
+
+##Remark##
+
+We will return to other thoughts on this $S$ construction later in the entry.
+
+
+One of the reasons for discussing the above is the following:
 
 #Definition#
 
