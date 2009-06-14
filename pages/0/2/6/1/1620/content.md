@@ -1,4 +1,9 @@
-[[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]]
+
+Here are abstracts of talks given at
+
+* [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]]
+
+For detailed notes see the above link.
 
 ###Abstracts###
 
@@ -65,7 +70,9 @@ involving a certain normal bundle and the 'Bott element in K-theory', which look
 
   For instance, if $Y$ is any space and $A$ a partial algebra, the resulting total complex can be seen as a generalization of [[Hochschild cohomology]]. One really interesting example (for [[Bruce Bartlett|Bruce]]) was where $Y$ is the interval, and $A$ is the partial algebra of forms on a Riemannian manifold $M$. It turns out that a certain canonical equation which pops out is precisely the Navier-Stokes equation. Gulp!
 
-* **Urs Schreiber**, _[[Background fields in twisted differential nonabelian cohomology]]_.
+* **Urs Schreiber**, _Background fields in twisted differential nonabelian cohomology_
+
+  (detailed notes are at [[schreiber: Background fields in twisted differential nonabelian cohomology]])
 
   What can I ([[Bruce Bartlett|Bruce]]) say about Urs's talk? Many mere mortals might think it impressive to pass from ordinary cohomology to twisted cohomology, or to differential cohomology, or to nonabelian cohomology. Urs does this all in one step! Yes, we're talking about _twisted differential nonabelian cohomology_. As we all know and love, Urs has developed some $\infty$-machinery based on all sorts of work which enables him to 'turn the crank' and output all the cohomology theories which mathematicians and physicists currently are bumping into. A great application of his machinery is an understanding of the 'Green-Schwarz anomaly cancellation' mechanism in terms of twisted nonabelian String-gerbes with connection and the Chern-Simons 2-gerbe. Unfortunately Urs didn't have time to quite get to that point, but he did at least mention other examples like how his machinery naturally produces the 'twisted Bianchi identities' in twisted flat differential cohomology, as well as nonabelian gerbes. Urs ended his talk by explaining how nonabelian cohomology on $X$ is related to _twisted_ abelian cohomology on $X$. This ties in with Konrad's talk, where the abelian viewpoint is taken, but the nonabelian viewpoint is essential for some applications.
 
