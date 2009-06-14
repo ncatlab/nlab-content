@@ -2,4 +2,4 @@
 
 * [website](http://ucb.konradwaldorf.de/)
 
-category: biography
+category: people
