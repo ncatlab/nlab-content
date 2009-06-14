@@ -6,7 +6,7 @@ As a [[category]], we can interpret this as a category with a single [[object]] 
 
 In the other direction, the point is a [[set]] with a unique element $\bullet$.  It can also be seen as a [[truth value]] that is true.  It can even be understood as the $(-2)$-[[(-2)-category|category]].
 
-As a [[topological space]], the point is the usual point from geometry: that which has no part.  In more modern language, we might say that it has no *structure* ---except that something exists.  (So it is *not* [[empty set|empty]]!)  This is consistent with the preceding paragraphs using the interpretation of a topological space as an $\infty$-[[infinity-groupoid|groupoid]].  (But up to [[homotopy equivalence]], any [[contractible space]] qualifies as a point.)
+As a [[topological space]], the point is the usual point from geometry: that which has no part.  In more modern language, we might say that it has no *structure* ---except that something exists.  (So it is *not* [[empty space|empty]]!)  This is consistent with the preceding paragraphs using the interpretation of a topological space as an $\infty$-[[infinity-groupoid|groupoid]].  (But up to [[homotopy equivalence]], any [[contractible space]] qualifies as a point.)
 
 In all of the above, the point can be seen as a [[terminal object]] in an appropriate category (or $\infty$-category).  However, you can also see it as a [[zero object|null object]] in a category of [[pointed object]]s.  (Of course, it\'s always true that a terminal object $1$ in $C$ becomes a null object in $1/C$, but the dual argument also holds, so the question is which is the primary picture.)
 
