@@ -1,4 +1,10 @@
-Talk notes for the Friday June, 12 session of [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]]
+Talk notes for the session of 
+
+* Friday June 12 
+
+of 
+
+* [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]].
 
 
 ## Corbett Redden: String structures and 3-forms ##
