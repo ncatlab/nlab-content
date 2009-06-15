@@ -62,4 +62,28 @@ By the general definition of colimits in [[Set]] described at [[limits and colim
 
 for $F = C(-)$ a sheaf of functions on $X$, such an equivalence class, hence such an element in a stalk of $F$ is called a function **germ**.
 
-  
+### testing sheaf morphisms on stalks ###
+
+For $E = Sh(X)$ a topos of sheaves on a topological space (or generally of the topos $E$ has "[[point of a topos|enough points]]"), the bahaviour of morphisms $f : A \to B$ in $E$ can be tested on stalks
+
++-- {: .un_theorem}
+###### Theorem
+
+A morphism $f : A \to B$ of sheaves on $X$ is a
+
+* [[monomorphism]]
+
+* resp. [[epimorphism]]
+
+* resp. [[isomorphism]]
+
+if and only every induced map of stalk sets $stalk_x(f) : stalk_x(A) \to stalk_x(B)$ is, for all $x \in X$
+=--
+
++-- {: .proof}
+###### Proof
+
+The statement for isomorphisms follows from the identification of sheaves with [[etale space]]s (e.g. section II, 6, corollary 3 in MacLane-Moerdijk, [[Sheaves in Geometry and Logic]]). The statement for epimorphisms/monomorphisms is proposition 6 there. 
+
+=--
+
