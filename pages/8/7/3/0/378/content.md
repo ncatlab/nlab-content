@@ -1,3 +1,11 @@
+#Idea#
+
+Simplicial sets are the archetypical combinatorial "model" for the [[(infinity,1)-category]] of (compactly generated weakly Hausdorff) [[topological space]]s and equivalently that of [[infinity-groupoid]]s, as well as a standard model for the [[(infinity,1)-category of (infinity,1)-categories]] itself.
+
+This statement is made precise by the existence of the structure of a [[model category]] on [[SSet]], called the **classical model structure**  that is a [[presentable (infinity,1)-category|presentation]] for the [[(infinity,1)-category]] [[Top]], as well as the **Joyal model structure** which similarly is a presentation of the $(\infty,1)$-category $(\infty,1)Cat$.
+
+
+
 #Classical Model Structure#
 
 The classical [[model category|model structure]] on simplicial sets has the following distinguished classes of morphisms:
@@ -33,6 +41,8 @@ It follows from this that
     }
     \,.
   $$
+
+* A morphism $f : X \to Y$ of fibrant simplicial sets / [[Kan complex]]es is a weak equivalence precisely if it induces an [[isomorphism]] on all [[simplicial homotopy group]]s.
 
 * All simplicial sets are cofibrant with respect to this model structure. 
 
