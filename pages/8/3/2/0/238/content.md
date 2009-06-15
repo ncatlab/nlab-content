@@ -22,7 +22,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * created [[homeomorphism]] and [[local homeomorphism]] just to satisfy links
 
-  * added theorem about stalkwise characterization of epi/mono/isos of sheaves to [[stalk]]
+  * added theorem about stalkwise characterization of epi/mono/isos of sheaves to [[stalk]] and included an example
 
   * added a bit more to [[string structure]] (discussion of description in terms of class on total space, also some references, but very incomplete) - but still not done
 
