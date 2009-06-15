@@ -16,6 +16,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]:
 
+  * created [[homeomorphism]] and [[local homeomorphism]] just to satisfy links
+
+  * added theorem about stalkwise characterization of epi/mono/isos of sheaves to [[stalk]]
+
   * added a bit more to [[string structure]] (discussion of description in terms of class on total space, also some references, but very incomplete) - but still not done
 
   * split off remaining Friday session [[Oberwolfach Workshop, June 2009 -- Friday, June 12]] for [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]] following [[Toby Bartels|Toby]]
