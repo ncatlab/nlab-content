@@ -61,7 +61,9 @@ We have the following resources on these talks:
 * [[Oberwolfach Workshop, June 2009 -- Monday, June 8|Monday, June 8]] (Schweigert, Runkel, Freed, Costello I)
 * [[Oberwolfach Workshop, June 2009 -- Tuesday, June 9|Tuesday, June 9]] (Schick, Bunke, Costello II, Costello III)
 * [[Oberwolfach Workshop, June 2009 -- Wednesday, June 10|Wednesday, June 10]] (Kahle, Drummond-Cole, Wilson)
-* [[Oberwolfach Workshop, June 2009 -- Thursday, June 11|Thursday, June 11]] (Henriques, Redden, Waldorf, Hopkins)
+* [[Oberwolfach Workshop, June 2009 -- Thursday, June 11|Thursday, June 11]] (Henriques, Schreiber)
+* [[Oberwolfach Workshop, June 2009 -- Friday, June 12|Friday, June 12]] (Redden, Waldorf, Hopkins)
+
 
 ## Pictures
 
