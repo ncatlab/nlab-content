@@ -23,7 +23,7 @@ It is a classical theorem of homotopy theory that grouplike $E_k$-spaces are the
 
 ## Special cases
 
-A $0$-tuply groupal $n$-groupoid is simply a pointed $n$-groupoid, that is an $n$-groupoid equipped with a chosen object (or a space equipped with a chosen basepoint).  A $1$-tuply groupal $n$-groupal may be called simply a __groupal $n$-groupoid__, or an __$(n+1)$-[[n-group|group]]__; topologically these can be identified with grouplike monoids that are $n$-types.
+A $0$-tuply groupal $n$-groupoid is simply a pointed $n$-groupoid, that is an $n$-groupoid equipped with a chosen object (or a space equipped with a chosen basepoint).  A $1$-tuply groupal $n$-groupoid may be called simply a __groupal $n$-groupoid__, or an __$(n+1)$-[[n-group|group]]__; topologically these can be identified with grouplike monoids that are $n$-types.
 
 A __stably groupal $n$-groupoid__, or __symmetric groupal $n$-groupoid__, is an $(n+2)$-tuply groupal $n$-groupoid.  This is also called a __symmetric $(n+1)$-group__, with the numbering off as before.  Although the general definition above won\'t give it, there is a notion of stably groupal $\infty$-groupoid, basically an $\infty$-groupoid that can be made $k$-tuply groupal for any value of $k$ in a consistent way.  Topologically, these are called _grouplike $E_\infty$-[[E-infinity-space|spaces]]_ and can be identified with infinite [[loop space]]s.
 
