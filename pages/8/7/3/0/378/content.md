@@ -8,7 +8,7 @@ This statement is made precise by the existence of the structure of a [[model ca
 
 #Classical Model Structure#
 
-The classical [[model category|model structure]] on simplicial sets has the following distinguished classes of morphisms:
+The classical [[model category|model structure]] on [[SimpSet|the category of simplicial sets]] has the following distinguished classes of morphisms:
 
 * The **cofibrations** $C$ are simply the [[monomorphism]]s $f : X \to Y$ which are precisely the levelwise injections, i.e. the morphisms of simplicial sets such that $f_n : X_n \to Y_n$ is an injection of sets for all $n \in \mathbb{N}$.
 
