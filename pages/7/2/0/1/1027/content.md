@@ -112,3 +112,6 @@ fiber products of derived spaces.
 =--
 
 
+[[!redirects fibre product]]
+[[!redirects fibered product]]
+[[!redirects fibred product]]
