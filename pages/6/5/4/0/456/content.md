@@ -15,7 +15,7 @@ between the corresponding  [[Grothendieck topos|Grothendieck topoi]] of [[sheaf|
 
 Morever, if $X$ and $Y$ are 
 [[sober space|sober]] [[topological space]]s
-every pair of functors with these properties comes uniquely from a continuous map $X \to Y$.
+every pair of functors with these properties comes uniquely from a continuous map $X \to Y$ (see the theorem below).
 
 A _geometric morphism_ between arbitrary [[topos|topoi]] is the direct generalization of this situation.
 
@@ -84,6 +84,110 @@ $$
 
 is a geometric morphism.
 
+
+# Geometric morphisms of sheaf topoi #
+
+For $X$ a [[topological space]], write $Sh(X) := Sh(Op(X))$ as usual for the [[topos]] given by the [[category of sheaves]] on the [[category of open subsets]] $Op(X)$ with the standard [[coverage]]
+
++-- {: .un_lemma}
+###### Lemma
+
+For every continuous map $f : X \to Y$ of [[Hausdorff space|Hausdorff]] [[topological space]]s with the induced [[functor]] $f^{-1} : Op(Y) \to Op(X)$ of [[site]]s, the [[direct image]]
+
+$$
+  f_* : Sh(X) \to Sh(Y)
+$$
+
+and the [[inverse image]]
+
+$$
+  f^* : Sh(Y) \to Sh(X)
+$$
+
+constitute a geometric morphism 
+
+$$
+   f : Sh(X) \to Sh(Y)
+$$
+
+(denoted by the same symbol, by convenient abuse of notation). 
+
+This map $Hom_{Top}(X,Y) \to GeomMor(Sh(X),Sh(Y))$ is an bijection of sets.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+That the induced pair $(f^*, f_*)$ forms a geometric morphism is (or should eventually be) discussed at [[inverse image]].
+
+We now show that the map is a bijection, i.e. that every geometric morphism of of sheaf topoi arises this way from a continuous function. We follow page 348 of
+
+* MacLane-Moerdijk, [[Sheaves in Geometry and Logic]].
+
+One reconstructs the continuous map $f : X \to Y$ from a geometric morphism $f : Sh(X) \to Sh(Y)$ as follows.
+
+Write ${*} = Y \in Sh(Y)$ for the sheaf on $Op(Y)$ constant on the singleton set, the [[terminal object]] in $Sh(Y)$.
+
+Notice that since the [[inverse image]] $f^*$ preserves finite [[limit]]s, every [[subobject]] $U_Y \hookrightarrow {*}$ is taken by $f^*$ to a subobject $U_X \hookrightarrow X$, obtained by applying $f^*$ to the [[pullback]] diagram 
+
+$$
+  \array{
+    U_Y &\to& {*} = Y
+    \\
+    \downarrow && \downarrow
+    \\
+    {*} = Y &\to& \Omega
+  }
+$$
+
+that characterizes the subobject $U_Y$ in the [[topos]].
+
+But, as the notation already suggests, the subobjects of $X,Y$ are just the open sets, i.e. the representable sheaves.
+
+This yields a _function_ $f^* : Obj(Op(Y)) \to Obj(Op(X))$ from open subsets to open subsets of which we know by assumption that it preserves finite limits and arbitrary colimits, i.e. finite intersections and arbitrary unions of open sets.
+
+Using this define a function $\bar f : X \to Y$ of the sets underlying the topological spaces $X$ and $Y$ by setting
+
+$$
+  (\bar f(x) = y)
+  \Leftrightarrow
+  \forall V \ni y: x \in f^*(V)  
+  \,.
+$$
+
+This yields a well defined function for the following reasons:
+
+* there is at most one $y$ satisfying this equation: if $y_1 \neq y_2$ both satisfy it, there are, by assumption of $Y$ being [[Hausdorff space|Hausdorff]], neighbourhoods $V_1 \ni y_1$ and $V_2 \ni y_2$ such that (using that $f^*$ preserves limits hence intersections) $f^*(V_1) \cap f^*(V_2) = f^*(V_1 \cap V_2) = \emptyset$, which contradicts the assumption.
+
+* there is at least one $y$ satisfying this equation: again by contradiction: if there were none then every $y \in Y$ has a neighbourhood $V_y$ with $x \not\in f^*(V_y)$, so that similarly to above we conclude with $x \not\in \cup_{y \in Y} f^*(V_y) = f^*(\cup_y V_y) = f^*(Y) = X$ again a contradiction.
+
+So our function $\bar f : X \to Y$ is well defined and satisfies $\bar f^{-1}(U_Y) = f^*(U_Y)$ for every open set $U_Y \in Obj(Op(Y))$. In particular it is therefore a continuous map.
+
+It remains to check that this map reproduces the geometric morphism that we started with. For that we compute its [[direct image]] on any sheaf $A \in Sh(X)$ as
+
+$$
+  \begin{aligned}
+    \bar f_*(A) : U_Y &\mapsto A(\bar f^{-1}(U_Y))
+    \\
+    & \simeq Hom_{Sh(X)}(\bar f^{-1}(U_Y),A)
+    \\
+    & = Hom_{Sh(X)}(f^* V, E)
+    \\
+    & \simeq Hom_{Sh(X)}(V, f_* E)
+    \\
+    & \simeq (f_* A)(U_Y)
+  \end{aligned}
+$$
+
+=--
+
++-- {: .un_cor}
+###### Corollary
+
+The points $x \in X$ of the topological space $X$ are in canonical bijection with the points of $Sh(X)$ in the sense of [[point of a topos]].
+
+=--
 
 #References#
 
