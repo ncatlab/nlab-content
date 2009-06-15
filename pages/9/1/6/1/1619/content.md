@@ -108,3 +108,96 @@ This means the following:
    \,.
   $$
 
+
+## References ##
+
+The relevance of String structures (like that of Spin structures half a century before) was recognized in the physics of spinning strings, therefore the name.
+
+String stuctures had originally been mostly discussed in terms of their transgressions to loop spaces
+
+* Killingback, Witten 
+
+  * blog entry on [String(n)](http://golem.ph.utexas.edu/string/archives/000572.html)
+
+later it was reformulated in terms of the classes down on base space just mentioned in
+
+* Stolz, Teichner, [What is an elliptic object](http://math.ucr.edu/home/baez/qg-winter2007/Oxford.pdf).
+
+The relation between the two pictures is analyzed for instance in
+
+* Asada ...
+
+
+# Description in terms of classes on the total space #
+
+One can reformulate an
+
+* orientation-
+ 
+* Spin-
+
+* String-
+
+* Fivebrane-
+
+structure in terms of thge existence of a certain class on the total space of the given bundle.
+
+We write this out for the case of string structures, all other cases work entirely analogously.
+
+Let $X$ be an oriented Spin manifold and let $P \to X$ be the corresponding $Spin(n)$-bundle. Notice that this, like any principal bundle (see [[generalized universal bundle]]) is the [[homotopy limit|homotopy pullbacks]] 
+
+$$
+  \array{
+    P &\to& {*}
+    \\
+    \downarrow && \downarrow
+    \\
+    X &\stackrel{}{\to}& B Spin(n)
+  }
+$$
+of the point along the classifying map from $X$ to the [[classifying space]] $B Spin(n)$.
+
+If now $X$ does admit a String structure, i.e. a decomposition of $X \to B Spin(n)$ into a map $X \to B String(n) \to B Spin(n)$ then we obtain the following diagram, where each square is a [[homotopy limit|homotopy pullbacks]]
+
+$$
+  \array{
+    String &\to& \hat P &\to& {*}
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    Spin &\to& P &\to&  B^2 U(1) &\to& {*}
+    \\
+    \downarrow && \downarrow && \downarrow && \downarrow
+    \\
+    {*} &\to& X &\to& B String(n) &\to& B Spin(n)
+  }
+$$
+
+The map $P \o B^2 U(1)$ appears by decomposing the homotopy pullback of the point along $X \to B Spin(n)$ into a homotopy pullback first along $B String(n) \to B Spin(n)$ and then along $X \to B String(n)$ using the given String structure. The rest of the diagram is constructed in order to prove the following:
+
+* The class in $H^3(P, \mathbb{Z})$ represented by $P \to B^2 U(1)$ has the property that restricted to the fibers of the $Spin(n)$-principal bundle $P$ it becomes the generating class in $H^3(Spin(n), \mathbb{Z})$.
+
+**Proof**. 
+
+Here $\hat P \to X$ denotes the $String(n)$-principal bundle classified by $X \to B String(n)$.
+
+This uses 
+
+* the fact that pasting compositites of homotopy pullbacks are again homtopy pullbacks.
+
+* the fact that the homotopy pullback of the point to itself produces the loop space, e.g.
+  $$
+    \array{
+      \Omega B Spin(n) \simeq Spin(n) &\to& {*}
+      \\
+      \downarrow && \downarrow
+      \\
+      {*} &\to& B Spin
+    }
+  $$
+
+## References ##
+
+For discussion of String-structures using 3-classes on total spaces see for instance the work by Corbett Redden and Konrad Waldorf described at 
+
+* [[Oberwolfach Workshop, June 2009 -- Friday, June 12]]
