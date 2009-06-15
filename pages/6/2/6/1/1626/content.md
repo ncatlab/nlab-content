@@ -24,13 +24,15 @@ The elementary definitions above have been carefully phrased to be correct in [[
 
 1. The [[image]] of a connected space $X$ under a continuous map $f: X \to Y$ is connected.
 
-1. (Wide) [[pushout]]s of connected spaces are connected. (This would of course be false if the empty space were considered to be connected.) This follows from the hom-functor definition of connectedness, plus the fact that coproducts in $Top$ commute with wide pullbacks. More memorably: connected colimits of connected spaces are connected. 
+1. Wide [[pushout]]s (that is [[cofibered coproduct]]s) of connected spaces are connected. (This would of course be false if the empty space were considered to be connected.) This follows from the hom-functor definition of connectedness, plus the fact that coproducts in $Top$ commute with wide pullbacks ([[fibered product]]s). More memorably: connected colimits of connected spaces are connected. 
 
 +-- {: .query}
 
-Todd, what\'s a 'wide' pushout? 
+Todd, what\'s a 'wide' pushout?  ---Toby
 
-It's a colimit of a diagram of shape $X \to X_i$ where $i$ ranges over a set. So having many legs, not just two. Here was my thinking: it's intuitively obvious that wide pushouts of connected spaces are connected. If one works with the hom-functor formulation of connectedness, the formal bottom line here is that the coproduct functor $\sum_J: Set/J \to Set$ preserves wide pullbacks. One can then deduce that more generally it preserves limits of connected diagrams, and this leads to the cited result about colimits of connected diagrams of connected spaces.  
+It's a colimit of a diagram of shape $X \to X_i$ where $i$ ranges over a set. So having many legs, not just two. Here was my thinking: it's intuitively obvious that wide pushouts of connected spaces are connected. If one works with the hom-functor formulation of connectedness, the formal bottom line here is that the coproduct functor $\sum_J: Set/J \to Set$ preserves wide pullbacks. One can then deduce that more generally it preserves limits of connected diagrams, and this leads to the cited result about colimits of connected diagrams of connected spaces.  ---Todd
+
+OK, that\'s (dual to) what are being called [[fibered product]]s elsewhere.  I thought of that, but it also seemed like you might be using it to mean any connected colimit; I see now that that\'s just a consequence.  Thanks!  ---Toby
 
 =--
 
