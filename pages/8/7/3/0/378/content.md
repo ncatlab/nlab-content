@@ -18,7 +18,7 @@ It follows from this that
 
 * This model structure is [[cofibrantly generated model category|cofibrantly generated]] by 
 
-  * the set $I$ of generating weak equivalences is the set of boundary inclusions of simplices
+  * the set $I$ of is the set of boundary inclusions of simplices
     $$
       i_n : \partial \Delta[n] \hookrightarrow \Delta[n]
     $$ 
