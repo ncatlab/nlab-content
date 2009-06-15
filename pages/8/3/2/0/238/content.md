@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-15 #
 
+*  [[Toby Bartels]]:
+   *  Discussions at [[connected space]] and [[simplicial homotopy group]].
+   *  New page at [[neighborhood]].
+
 * [[Urs Schreiber|Urs]]
 
   * created [[simplicial homotopy group]]
