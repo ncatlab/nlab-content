@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-15 #
 
+* [[Urs Schreiber|Urs]]
+
+  * added detailed proof to [[geometric morphism]] of the fact that geometric morphisms $Sh(X) \to Sh(Y)$ are bijectively induced from continuous functions $X \to Y$
+
 *  [[Tim Porter|Tim]]: I have continued at [[homotopy coherent nerve]].  This ended up with several new links to not-yet-existing pages!
 
 
