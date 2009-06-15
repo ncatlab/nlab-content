@@ -25,11 +25,14 @@ The elementary definitions above have been carefully phrased to be correct in [[
 1. The [[image]] of a connected space $X$ under a continuous map $f: X \to Y$ is connected.
 
 1. (Wide) [[pushout]]s of connected spaces are connected. (This would of course be false if the empty space were considered to be connected.) This follows from the hom-functor definition of connectedness, plus the fact that coproducts in $Top$ commute with wide pullbacks. More memorably: connected colimits of connected spaces are connected. 
-   +-- {: .query}
-   Todd, what\'s a 'wide' pushout?
 
-It's the colimit of a diagram where all the non-identity arrows have the same domain -- so having arbitrarily many legs where a pushout has just two. If a category admits wide pushouts, then it admits colimits over connected diagrams. 
-   =--
++-- {: .query}
+
+Todd, what\'s a 'wide' pushout? 
+
+It's a colimit of a diagram of shape $X \to X_i$ where $i$ ranges over a set. So having many legs, not just two. Here was my thinking: it's intuitively obvious that wide pushouts of connected spaces are connected. If one works with the hom-functor formulation of connectedness, the formal bottom line here is that the coproduct functor $\sum_J: Set/J \to Set$ preserves wide pullbacks. One can then deduce that more generally it preserves limits of connected diagrams, and this leads to the cited result about colimits of connected diagrams of connected spaces.  
+
+=--
 
 1. An arbitrary [[product]] of connected spaces is connected.
 
