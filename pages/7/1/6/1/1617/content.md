@@ -87,3 +87,22 @@ The statement for isomorphisms follows from the identification of sheaves with [
 
 =--
 
+### Example ###
+
+Let $X$ be a smooth manifold and let $\Omega^n(X)$ and $\Omega_{closed}^{n+1}(X)$ be the sheaves of differential $n$-forms and that of _closed_ differential $(n+1)$-forms on $X$, respectively, for some $n \in \mathbb{N}$. Let
+
+$$
+  d : \Omega^n(X) \to \Omega_{closed}^{n+1}
+$$
+
+be the morphism of sheaves that is given on each open subset by the deRham differential.
+
+Then:
+
+* for $U \subset X$ the map $d_U : \Omega^n(U) \to \Omega_{closed}^{n+1}(U)$ need not be [[epimorphism|epi]], since not every closed form is exact;
+
+* but by the [[Poincare lemma]] every closed form is _locally_ exact, so that for each $x \in X$ the map of stalks $d_x : stalk_x(\Omega^n(X)) \to stalk_x(\Omega^{n+1}_{closed}(X))$ is an epimorphism.
+
+Accordingly, the morphism $d : \Omega^n(X) \to \Omega^{n+1}_{closed}(X)$ is an [[epimorphism]] of sheaves.
+
+This kind of example plays a crucial role in the computation of [[abelian sheaf cohomology]], see the examples listed there.
