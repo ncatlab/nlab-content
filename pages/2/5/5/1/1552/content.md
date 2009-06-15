@@ -25,11 +25,11 @@ A pregauge satisfying axioms (1&2) is a __base__ for a gauge; a base is precisel
 A __gauge space__ is a set equipped with a gauge.  A __quasigauge__ is a collection of quasipseudometrics satisfying (1--3); a __quasigauge space__ is a set equipped with a quasigauge.
 
 
-Given (quasi)gauge spaces $X$ and $X'$, a __short map__ from $X$ to $X'$ is a [[function]] $F$ (on their underlying sets) such that the [[pullback]] along $F$ (or along $F \times F$, to be precise) of any gauging distance on $X'$ is a gauging distance on $X$.  That is,
+Given (quasi)gauge spaces $X$ and $X'$, a __short map__ from $X$ to $X'$ is a [[function]] $F$ (on their underlying sets) such that the [[composite]] with $F$ (or with $F \times F$, to be precise) of any gauging distance on $X'$ is a gauging distance on $X$.  That is,
 
 *  for every $e \in G'$, there is a $d \in G$ such that
    $$ e(F(x),F(y)) \leq d(x,y) $$
-   for all $x, y$ in $X$; in the light of (3), the pseudometric $( x, y \mapsto e(F(x),F(y)) )$ (this is the pullback) is a gauging distance.
+   for all $x, y$ in $X$; in the light of (3), the pseudometric $( x, y \mapsto e(F(x),F(y)) )$ (this is the composite) is a gauging distance.
 
 (Warning: this definition of short map is probably the most significant original research on this page.)
 
@@ -43,7 +43,7 @@ The categories $Gau$ and $QGau$ are not well known, but some of their subcategor
 
 *  A [[metric space]] (or pseudometric space) defines a gauge space, taking its single (pseudo)metric as a base; similarly, a quasi(psuedo)metric space defines a quasigauge space.  Taking short maps (in the usual sense, that is distance-nonincreasing functions) as morphisms, the categories $Met$ and $PsMet$ are full subcategories of $Gau$; similarly, $QMet$ and $QPsMet$ are full subcategories of $QGau$.
 
-*  A [[uniform space]] $X$ defines a gauge space, consisting of all of the pseudometrics on $X$ that are uniformly continuous as maps from $X \times X$ to the real line; similarly, a quasiuniform space defines a quasigauge space.  Taking uniformly continuous maps as morphisms, the category $Unif$ is a full subcategory of $Gau$; similarly, $QUnif$ is a full subcategory of $QGau$.  Thus, uniform spaces can be viewed as gauge spaces whose collection of gauging distances is "saturated."
+*  A [[uniform space]] $X$ defines a gauge space, consisting of all of the pseudometrics on $X$ that are uniformly continuous as maps from $X \times X$ to the real line; similarly, a quasiuniform space defines a quasigauge space.  Taking uniformly continuous maps as morphisms, the category $Unif$ is a full subcategory of $Gau$; similarly, $QUnif$ is a full subcategory of $QGau$.  Thus, uniform spaces can be viewed as gauge spaces whose collection of gauging distances is "saturated" under uniform continuity.
 
 *  A completely regular [[topological space]] $X$ defines a gauge space, consisting of all the pseudometrics on $X$ that are continuous as maps from $X \times X$ to the real line.  In this way the category $CReg Top$ of completely regular spaces and continuous maps is a full subcategory of $Gau$; it is in fact contained in $Unif$.  (In general, a completely regular space can be uniformized in many ways; this inclusion corresponds to the "initial" uniformity.)
 
@@ -51,7 +51,8 @@ The categories $Gau$ and $QGau$ are not well known, but some of their subcategor
    $$ d_U(x,y) = \begin{cases} 0 & if\; x \in U \;\Rightarrow\; y \in U ,\\ 1 & if\; x \in U \;\wedge\; y \notin U ;\end{cases} $$
    then the $d_U$ form a base for a quasigauge, which induces the original topology on $X$.  In other words, every space is "quasigaugeable."  In this way $Top$ also becomes a full subcategory of $QGau$.  Note, though that replacing $1$ by any other positive real number gives a _different_ embedding of $Top$ in $QGau$.
 
-* Another way to get a quasigauge space from a topological space is to take as a base the set of all quasi-pseudometrics $d$ on $X$ such that for each $x\in X$, the function $d(x,-):X\to \mathbb{R}$ is [[semicontinuous function|upper semicontinuous]].  This is also a full embedding of $Top$ in $QGau$, which is perhaps more "canonical."
+*  Another way to get a quasigauge space from a topological space is to take as a base the set of all quasi-pseudometrics $d$ on $X$ such that for each $x\in X$, the function $d(x,-):X\to \mathbb{R}$ is [[semicontinuous function|upper semicontinuous]].  This is also a full embedding of $Top$ in $QGau$, which is perhaps more "canonical."
+
 
 +--{: .query}
 [[Mike Shulman|Mike]]: Back atcha... do you have any good examples of gauge spaces that are not of one of these types?  And is there any value in embedding metric spaces, uniform spaces, and topological spaces into this mysterious larger category $QGau$, in ways so that their images are essentially disjoint?  Do we ever, for instance, want to talk about a short map from a metric space to a topological space, or vice versa?  I would like the answer to be "yes," but I haven't managed to make it come out that way myself yet.
@@ -72,6 +73,7 @@ I removed my comments about triangles commuting; go ahead and write about the re
 
 _Toby_:  Ah yes, I think that that\'s the good one that I wasn\'t finding.
 =--
+
 
 ## Reflections
 
