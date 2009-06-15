@@ -154,5 +154,8 @@ The notion of _category of fibrant objects_ was introduced and the above results
 
 * Kenneth S. Brown, _[[BrownAbstractHomotopyTheory.pdf:file]]_, Transactions of the American Mathematical Society, Vol. 186 (1973), 419-458 ([[BrownAHT]]).
 
-
 for application to [[homotopical cohomology theory]].
+
+A review is in [section I.9](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-1.dvi) of 
+
+* Goerss, Jardine, _Simplicial homotopy theory_ .
