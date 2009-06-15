@@ -388,4 +388,4 @@ rescaling the fiber in the Hopf fibration $S^1 \to S^3 \to S^2$
 
 ***
 
-[[Oberwolfach Workshop, June 2009 -- Wednesday, June 10|Previous day]] --- [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology|Main workshop page]] --- No next day
+[[Oberwolfach Workshop, June 2009 -- Thursday, June 11|Previous day]] --- [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology|Main workshop page]] --- No next day
