@@ -12,6 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-06-16 #
+
+*  [[Tim Porter|Tim]]:
+   
+   *  Discussion at [[simplicial homotopy group]].
+
 # 2009-06-15 #
 
 *  [[Toby Bartels]]:
