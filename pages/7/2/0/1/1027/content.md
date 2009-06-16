@@ -1,4 +1,4 @@
-A __fibre product__ or __fiber product__ is simply a [[product]] in a [[over category|slice category]].  The fibre product of two morphisms is the same as their [[pullback]].
+A __fibre product__ or __fiber product__ is simply a [[product]] in a [[over category|slice category]].  The fibre product of two morphisms is the same as their [[pullback]]. A fiber product of a collection of objects in a slice category, usually more than two, is often called a _wide pullback_. 
 
 More explicitly, for $f : A \to C$ and $g : B \to C$ two [[morphism]]s in a [[category]] $C$, the fiber product $A \times_C B$
 of $A$ with $B$ over $C$ is, if it exists, [[generalized the|the]] [[pullback]]
