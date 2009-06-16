@@ -20,6 +20,8 @@ Of course, the fiber of $A$ at the generalized element $x: I \to C$ is itself a 
 
 +-- {: .query}
 You\'re English, [[David Corfield|David]], so how come you don\'t like 'fibre'?  ---[[Toby Bartels|Toby]]
+
+I just thought it was policy here. That's what the [[HowTo]] page says anyway. ---[[David Corfield|David]]
 =--
 
 #Examples#
