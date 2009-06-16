@@ -197,7 +197,7 @@ Summary appearing soon...
 
 #### Scott Wilson, _Some algebra relat4ed to mapping spaces and applications_. {#wilson}
 
-Wilson defined a _partial algebra_ as a lax [[monoidal functor]] from the category of finite sets to [[chain complexe]]s, such that the map $A(j \coprod k) \rightarrow A(j) \otimes A(k)$ is a quasi-isomorphism. He showed how these pop up in [[homotopy theory]] all the time. 
+Wilson defined a _partial algebra_ as a lax [[monoidal functor]] from the category of finite sets to [[chain complex|chain complexes]], such that the map $A(j \coprod k) \rightarrow A(j) \otimes A(k)$ is a quasi-isomorphism. He showed how these pop up in [[homotopy theory]] all the time. 
 
 (Remark: this formula is the basis for [[Jacob Lurie]]'s discussion of [[commutative algebra in an (infinity,1)-category]] in general and of [[symmetric monoidal (infinity,1)-category]] in particular).
 
