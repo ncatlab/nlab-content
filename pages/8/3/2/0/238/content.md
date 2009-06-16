@@ -14,6 +14,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-16 #
 
+* [[Urs Schreiber|Urs]]: I have a comment and appeal an [[nInsights]]
+
+  * in this context I also want to ask again everybody:
+
+    * please don't forget to drop latest changes logs here alerting us of which changes you made where, if it's anything beyond fixing typos
+
+    * if you feel something needs to have a place in the nLab, don't feel hesitant to add it. I am getting the impression there is in parts some hesitation to insert material without checking with everybody else first. I'd say more efficient would be: add the material you would like to see, and if it should really turn out that there is serious disagreement with some other contributor, we can still roll back things and look for compromises.
+
 * [[Urs Schreiber|Urs]]:
  
   * expanded [[inverse image]]: added an "Idea" section, restructured discussion into presheaf and sheaf and sheaf on top-space bits, added the crucial lemmas and theorems and provided detailed proofs of some of them.
