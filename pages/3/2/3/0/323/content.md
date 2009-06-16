@@ -1,4 +1,4 @@
-#The idea
+##The idea
 
 In the category [[Set]] a 'pullback' is a subset of the cartesian product of two sets.  Given a diagram of sets and functions like this:
 $$
@@ -73,7 +73,7 @@ and
 $$ q_B h = p_B .$$
 Since this universal property expresses the concept of pullback purely arrow-theoretically, we can formulate it in any category.  It is, in fact, a simple special case of a [[limit]].
 
-#Definition
+##Definition
 
 A **pullback** is a [[limit]] of a [[diagram]] like this:
 $$
@@ -119,7 +119,8 @@ and the object $x$ is also called the **pullback**.  It has the universal proper
 
 Note that the concept of pullback is dual to the concept of [[pushout]]: that is, a pullback in $C$ is the same as a pushout in $C^{op}$.
 
-# See also:
+## See also:
 * [[base change]]
 * [[homotopy pullback]]
 * [[2-limit]] for pullbacks in a [[2-category]]
+* [[wide pullback]]
