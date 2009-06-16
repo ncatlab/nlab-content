@@ -38,7 +38,7 @@ For the purpose of considering what makes two objects of a $\dagger$-category [[
 
 For example, in $Hilb$, there are many invertible linear operators, but only those of norm $1$ (the invertible isometries) are unitary.
 
-The unitary isomorphisms form a [[groupoid]], which may be regarded as the _underlying groupoid_ of the $\dagger$-category.
+The unitary isomorphisms form a [[groupoid]], which may be regarded as the _[[core]]_ of the $\dagger$-category.
 
 #References#
 
