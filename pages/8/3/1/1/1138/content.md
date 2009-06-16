@@ -240,4 +240,4 @@ for the general description in terms of Kan extension and sheafification see sec
 
 For the description in terms of pullback of etale spaces see secton VII.1 of
 
-MacLane-Moerdijk, [[Sheaves in Geometry and Logic]]
+* MacLane-Moerdijk, [[Sheaves in Geometry and Logic]]
