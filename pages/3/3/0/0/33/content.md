@@ -34,3 +34,6 @@ An early article where the concept of categorification is described is
 
 * Crane and Yetter, 
 [Examples of categorification](http://arxiv.org/abs/q-alg/9607028)
+
+
+[[!redirects categorification]]
