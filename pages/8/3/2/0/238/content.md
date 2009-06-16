@@ -15,6 +15,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 # 2009-06-16 #
 
 * [[Urs Schreiber|Urs]]:
+ 
+  * expanded [[inverse image]]: added an "Idea" section, restructured discussion into presheaf and sheaf and sheaf on top-space bits, added the crucial lemmas and theorems and provided detailed proofs of some of them.
+
+  * replied again at [[simplicial homotopy group]]: [[Tim Porter|Tim]] or [[Toby Bartels|Toby]] should please feel free to implement the remaining terminology adjustment
 
   * reacted and replied at [[simplicial homotopy group]] (also have a question) and added a few further bits
 
