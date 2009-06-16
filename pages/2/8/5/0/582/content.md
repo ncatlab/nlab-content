@@ -17,3 +17,6 @@ I don't think so... regular logic is, so far as I know, about regular _epimorphi
 =--
 
 * In [[Ab]], or more generally any [[abelian category]], every monomorphism is regular.
+
+
+[[!redirects regular subobject]]
