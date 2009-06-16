@@ -13,9 +13,16 @@ Recall the classical [[model structure on simplicial sets]]. Let $X$ be a fibran
 Define
 
 * the **0th simplicial homotopy group** $\pi_0(X) := X_0/X_1$ of $X$  to be the set of connected components of it;
-  +-- {: .query}
+
++-- {: .query}
   I would like the set of connnected components to be the simplicial homotopy $0$-group*oid* $\Pi_0(X)$, while the $0$th simplicial homotopy 'group' itself is (like the following) a property of a *pointed* space: $\pi_0(X,x)$ is the [[pointed set]] $\Pi_0(X)$ equipped with the component of $x$ as point.  That way, the $n$th simplicial homotopy group is really an $n$-[[k-tuply groupal n-groupoid|tuply groupal]] set, as I\'ve done at [[homotopy group]].  (This also becomes strictly a special case of the general definition below, not an exception.)  ---Toby
-  =--
+
+*  [[Tim Porter|Tim]]: Good point.  In fact the simplicial homotopy groups are defined for _pointed_ simplicial sets, not for arbitrary ones. The traditional terminology is sloppy, since there is usually a caveat that everything is connected, except when it is not, that is.
+ 
+   On the other hand, the idea of a 0th simplicial homotopy *group* is incorrect as it is not a group. Perhaps the trick of putting inverted commas to indicate that it is 'as if but not really' could be used.  
+
+   Of course, there are really two homotopy theories, the pointed one and the non-pointed one.  The first leads to groups, the second to groupoids.
+=--
 
 * for every $n \geq 1$ and $x \in X_0$ the **$n$th simplicial homotopy group** of $X$ at $x$ to be the set 
 
