@@ -328,7 +328,7 @@ Notes needed... help...
 ##### Resources
 * [[oberwolfach_june2009_freed_extra.pdf|Notes by Bruce Bartlett:file]]
 
-#### David Chataur, _Evening informal session explaining recent results in opeards_ {#chataur_extra}.
+#### David Chataur, _Evening informal session explaining recent results in operads_ {#chataur_extra}.
 
 Notes needed... help...
 
