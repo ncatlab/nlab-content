@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-16 #
 
+* [[Urs Schreiber|Urs]]:
+
+  * reacted and replied at [[simplicial homotopy group]] (also have a question) and added a few further bits
+
 *  [[Tim Porter|Tim]]:
    
    *  Discussion at [[simplicial homotopy group]].
