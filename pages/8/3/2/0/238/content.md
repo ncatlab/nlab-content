@@ -14,7 +14,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-17 #
 
-*  [[Toby Bartels]]:  [[David Roberts]] and I would appreciate any terminological suggestions at the unfortunately-named [[topological category]].
+*  [[Toby Bartels]]:
+   *  Wrote [[Hilbert space]].  I finished the definitions and then got tired, so there\'s not much else.  But we need this if we\'re ever going to discuss $2$-[[2-Hilbert space|Hilbert spaces]]!
+   *  [[David Roberts]] and I would appreciate any terminological suggestions at the unfortunately-named [[topological category]].
 
 # 2009-06-16 #
 
