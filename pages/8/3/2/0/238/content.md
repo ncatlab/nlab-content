@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-17 #
 
+*  [[Toby Bartels]]:  Fixed mistakes at [[topological concrete category]], thanks to having a good online reference.
+
 * [[Todd Trimble|Todd]]: 
 
    * Wrote [[approximation of the identity]], linked to by one thing I wrote at [[Hilbert space]]. 
