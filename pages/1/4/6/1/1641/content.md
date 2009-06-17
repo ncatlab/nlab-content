@@ -2,6 +2,9 @@
 
 The term 'topological category' is traditional, and comes from the frequent examples in [[topology]].  It does *not* mean an [[internal category]] in [[Top]]!
 
++-- {: .query}
+[[David Roberts]]: How about saying _a category is topological_ instead of/as well as topological category? From the other side, people (used to) refer to _continuous categories_ when talking about categories in Top. This brings clashes of its own, when extending this to continuous functors!
+=--
 
 ## Idea
 
