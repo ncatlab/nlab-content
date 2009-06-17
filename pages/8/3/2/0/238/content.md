@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-17 #
 
+*  [[Tim Porter|Tim]]:
+
+   * Did my idea of a partial fix for the dilemma at [[simplicial homotopy group]]. Please edit! The entry still needs the definition of the group structure on the homotopy groups.  I have included the link with the [[Moore complex]] of the [[Dwyer-Kan loop groupoid]]. I have also added a request for discussion here. 
+
 * [[Todd Trimble|Todd]]: 
 
    * Added a bit to the examples section at [[Hilbert space]], mentioning in particular the orthonormal basis theorem. 
