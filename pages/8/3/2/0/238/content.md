@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-17 #
 
+*  [[Tim Porter|Tim]]:
+
+   * Added a useful reference to [[topological category]], plus a comment on terminology. It should be noted that the authors (Adamek, Herrlich and Strecker) use 'topological concrete category' in the index, which they shorten to 'topological category' in the text.  Does that provide a solution to the terminological problem?
+
 *  [[Toby Bartels]]:
    *  Wrote [[Hilbert space]].  I finished the definitions and then got tired, so there\'s not much else.  But we need this if we\'re ever going to discuss $2$-[[2-Hilbert space|Hilbert spaces]]!
    *  [[David Roberts]] and I would appreciate any terminological suggestions at the unfortunately-named [[topological category]].
