@@ -101,6 +101,6 @@ Blog discussion on Johan Alm's work is here:
 
 For those non-experts who are interested in working through Alm's paper step-by-step, see:
 
-[[An Exercise in Kantization]]
+* [[An Exercise in Kantization]]
 
 category: reference
