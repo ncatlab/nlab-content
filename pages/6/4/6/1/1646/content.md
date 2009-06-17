@@ -72,16 +72,28 @@ $$ \cos \theta(x,y) = \frac { \langle x, y \rangle } { \|x\| \|y\| } .$$
 
 A Hilbert space cannot be reconstructed entirely from its angles, however (even given the underlying vector space).  The inner product can only be recovered up to a positive scale factor.
 
-
 ## Examples
 
-$\mathbb{C}^n$, $l^2$, $L^2(\mathbb{R})$, etc.  Basically the examples at [[Banach space]] for $p = 2$.
+$\mathbb{C}^n$, $l^2$, $L^2(\mathbb{R})$, etc.  Basically the examples at [[Banach space]] for $p = 2$. 
 
+A basic result is that abstractly, Hilbert spaces are all of the same type: every (say complex) Hilbert space $H$ admits an orthonormal basis, meaning a subset $S \subseteq H$ which extends uniquely to an isomorphism 
+
+$$l^2(S) \to H$$
+
+of Hilbert spaces. Here $l^2(S)$ is the completion of the complex inner product space $V$ where the underlying vector space consists of formal $\mathbb{C}$-linear combinations of elements of $S$, and where the inner product on $V$ is uniquely determined by the rule 
+
+$$\langle u, v \rangle = \delta_{u v} \qquad u, v \in S$$ 
+
+in which $\delta_{u v}$ denotes Kronecker delta. 
+
+This basic result uses the [[axiom of choice]] (in the form of [[Zorn's lemma]]) in its proof, and is equivalent to it. 
+In particular, all infinite-dimensional separable Hilbert spaces are abstractly isomorphic to $l^2(\mathbb{N})$. 
+
+On the other hand, orthonormal bases for particular Hilbert spaces can often be produced constructively, using [[approximation of the identity]] techniques, often in concert with a [[Gram-Schmidt process]]. 
 
 ## Morphisms of Hilbert spaces
 
 See discussion at [[Banach space]].  There is more to be said here concerning duals (including why the theory of Hilbert spaces is slightly nicer over $\mathbb{C}$ while that of Banach spaces is slightly nicer over $\mathbb{R}$).
-
 
 ## Cauchy--Schwartz
 
