@@ -14,6 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-18 #
 
+* [[Todd Trimble|Todd]]: 
+
+  * wrote [[measurable space]], including material on measures and basic integration theory. 
+
+  * responded to queries of [[David Roberts]] at [[covering space]] and [[locally path-connected space]]. David wondered whether some material at [[covering space]] ought to be moved to [[universal covering space]]. I think we're covering similar material but with slightly different emphases; I'd like to see David put his imprimatur on the article on universal covering spaces, but leave [[covering space]] essentially intact while the material continues to settle into place; I'm thinking of adding more to it anyway (so that "to be continued" might still be appropriate). 
+
 * [[Urs Schreiber|Urs]]: 
 
   * added a reference (and minor comments on references) to [[model structure on simplicial presheaves]]
