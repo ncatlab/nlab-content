@@ -28,9 +28,9 @@ between typical fibers over $x \in U$, $y \in V$, and $z \in U \cap V$. If $B$ i
 
 The connection between covering spaces over $B$ and the [[fundamental group]] $\pi_1(B)$ (for $B$ a [[connected space]]) is very old and runs very deep. An updated account involves shifting attention to representations of the [[fundamental groupoid]] $\Pi_1(B)$ (regardless of connectedness); we give a brief outline of the theory here. 
 
-Under the assumptions that the space $B$ is [[locally path-connected space|locally path-connected]] and [[semi-locally simply-connected space|semi-locally simply-connected]], the fundamental theorem can be stated thus: 
+Under some technical topological assumptions on the space $B$, the fundamental theorem can be stated thus: 
 
-+-- {: .un_thm}
++-- {: .un_theorem}
 ###### Theorem
 
 The category of covering spaces $Cov/B$ is equivalent to the category of functors $\Pi_1(B) \to Set$. 
@@ -49,8 +49,7 @@ I & \overset{\phi}{\to} & B
 
 and we define $Fiber([\phi]): E_b \to E_c$ as the map sending $e \in E_b$ to $\tilde{\phi}(1) \in E_c$. 
 
-The precise statement of the theorem above is that if $B$ is locally path-connected and semi-locally simply-connected, then the functor $Fiber$ is an equivalence. 
-
+The precise statement of the theorem above is that if $B$ is [[locally path-connected space|locally path-connected]] and [[semi-locally simply-connected space|semi-locally simply-connected]], then the functor $Fiber$ is an [[equivalence of categories]]. 
 =--
 
 In fact, in the proof of this theorem one establishes an adjoint equivalence: one constructs a left adjoint to $Fiber$,  
@@ -125,8 +124,7 @@ is under these conditions quasi-inverse to the fiber functor
 
 $$Fiber: Cov/B \to Set^{\Pi_1(B)}$$ 
 
-+--{: .un_thm}
-
++-- {: .un_remark}
 ###### Remark
 
 An abstract way of considering the functor $Fiber$ is that it is obtained by homming: 
@@ -134,7 +132,6 @@ An abstract way of considering the functor $Fiber$ is that it is obtained by hom
 $$Fiber(p: E \to B)(b) = (Cov/B)(\tilde{B}_b, p)$$ 
 
 and this forces its left adjoint to be given by the tensor product construction described above. 
-
 =--
 
 ## Special case: the universal covering space ##  
@@ -171,12 +168,10 @@ with $I$ the groupoid $(0 \overset{\sim}{\to} 1)$. This is then a groupoid over 
 
 Since the set of arrows of $G$ is obtained as a quotient of the set of paths in $B$, it inherits naturally a topology (a quotient of the compact-open topology on $B^I$) which, together with the given topology on $G_0 = B$, makes $G$ a topological groupoid. Then we recover the universal covering space $B^{(1)}_b$ (I prefer this notation for the 1-connected cover, rather than the usual $\tilde{B}$, because it generalises to $B^{(n)}$ for $n$-connected covers - DR) over $B$ by pulling back along the functor $B \to G$, where we consider $B$ as a topological groupoid with only identity arrows. The assumptions on the topology of $B$ mean that $G$ is a [[locally trivial groupoid]] with discrete hom-spaces, which implies that $B^{(1)}_b$ is a locally trivial bundle with discrete fibres.  Local path-connectedness implies that it is locally trivial, and the local condition on $\pi_1$ holds if and only if the fibres are discrete - this last result is due to Daniel Bliss.
  
-+--{: .un_thm}
-
++--{: .un_remark}
 ###### Remark
 
 Another way to consider the topological conditions on $B$ is to realise that $\Pi_1(B)$, with its inherited topology, is equivalent to a topologically discrete groupoid (in some appropriate localisation of the 2-category of topological groupoids) if and only if $B$ is locally path-connected and semi-locally simply-connected. Otherwise one has to consider the pro-homotopy 1-type of $B$, as in the theory of algebraic fundamental groups (recall that varieties with appropriate topologies - e.g Zariski - are topologically badly behaved).
-
 =--
 
 +--{: .query}
