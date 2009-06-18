@@ -31,7 +31,7 @@ Recall the classical [[model structure on simplicial sets]]. Let $X$ be a fibran
 Define
 
 
-* the **$0$th simplicial homotopy groupoid** $\Pi_0(X)$ to be the [[discrete category|discrete groupoid]] on the _set_ $(X_0/X_1)$ of connected components of $X$,
+* the **$0$th simplicial homotopy groupoid** $\Pi_0(X)$ to be the [[discrete category|discrete groupoid]] on the _set_ $(X_0/X_1)$ of connected components of $X$, i.e. on the set oof equivalence classes of 0-cells under [[simplicial homotopy]];
 
   * for each vertex, $x \in X_0$, the [[pointed set]] $\pi(X,x)$ to be the set $(X_0/X_1)$ with point the connected component $[x]$ of $x \in X_0$; this is actually a special case of the following definition, until the group structure.
 
@@ -64,7 +64,7 @@ But okay, I am not dogmatic about issues at that fine-grained level of pedantery
 
 * for every $n \geq 1$ and $x \in X_0$ the **$n$th simplicial homotopy group** of $X$ at $x$ to be the set 
 
-  * of equivalence classes of morphism
+  * of equivalence classes of morphisms
   $$
     \alpha : \Delta^n \to X
   $$ 
@@ -115,21 +115,72 @@ But okay, I am not dogmatic about issues at that fine-grained level of pedantery
        \,.
      $$
 
-
-One shows as in the case for topological spaces that 
-there is naturally the structure of a group on $\pi_n(X,x)$ for all $x \in X_0$, $n \geq 1$ that this is an abelian group for all $n \geq 2$.
+These pointed sets are taken to be equipped with the following group structure.
 
 +-- {: .un_defn}
 ###### Definition (group structure on $\pi_n(X,x)$)
   
-...
+Let $n \geq 1$. For 
+$f,g : \Delta^n \to X$ two representatives
+of $\pi_n(X,x)$, define the following $n$-simplices in $X_n$:
+
+$$
+  v_i =
+  \left\{
+    \array{
+      s_0 \circ s_0 \circ \cdots \circ s_0 (x) & for 0 \leq i \leq  n-2
+      \\
+      f & for i = n-1
+      \\
+      g & for i = n+1
+    }
+  \right.
+$$
+
+This is designed such that it yields a morphism $\Lambda^{n+1}_n \to X$ from a [[horn]] of the $(n+1)$-[[simplex]] into $X$. By the [[Kan complex]] property of $X$ this morphism has an extension $\theta$ through the $(n+1)$-[[simplex]] $\Delta^n$
+$$
+  \array{
+     \Lambda^{n+1}_n &\to& X
+     \\
+     \downarrow & \nearrow_{\theta}
+     \\
+     \Delta^{n+1}
+  }
+$$
+From the [[simplicial identities]] one finds that the boundary of the $n$-simplex arising as the $n$th boundary piece $d_n \theta$ of $\theta$ is constant on $x$
+$$
+  d_i d_{n} \theta = d_{n-1} d_i \theta = x
+$$
+
+So $d_n \theta$ represents an element in $\pi_n(X,x)$ and we define the product operation by
+
+$$
+  [f]\cdot [g] := [d_n \theta]
+  \,.
+$$
+
 =--
+
+*Remark*: All the degenerate $n$-simplices $v_{0 \leq i \leq n-2}$ above are just there so that the gluing of the two $n$-cells $f$ and $g$ to each other can be regarded as forming the boundary of an $(n+1)$-simplex except for one face. BY the Kan extension property that missing face exists, namely $d_n \theta$.  This is a choice of gluing composite of $f$ with $g$.
+
++-- {: un_lemma}
+###### Lemma
+
+The above product on homotopy group elements is
+indeed well defined, in that it is independent of the
+choice of representatives $f$, $g$ and of the extension $\theta$.
+
+=--
+
+
 
 +-- {: un_lemma}
 ###### Lemma
 
 For $n \geq 2$ all the groups $\pi_n(X,x)$ are abelian.
 =--
+
+
 
 
 # Weak homotopy equivalences of Kan simplicial sets#
