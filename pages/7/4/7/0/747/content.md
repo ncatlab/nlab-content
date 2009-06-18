@@ -248,16 +248,34 @@ See _Jardine07_ [page 12](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf#p
 
 #References#
 
-* **Jardine01** J. Jardine, _Stacks and the homotopy theory of simplicial sheaves_, Homology, homotopy and applications, vol. 3 (2), 2001, pp.361-384
+A nicely helpful introduction and survey is provided in the notes
+
+* Dan Dugger, _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [dvi](http://math.uoregon.edu/~ddugger/cech.dvi))
+
+The standard, but somewhat more terse, lecture notes are
 
 * **Jardine07** J. Jardine, _Field Lectures: Simplicial presheaves_ ([pdf]([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
 
+based on
+
+* **Jardine01** J. Jardine, _Stacks and the homotopy theory of simplicial sheaves_, Homology, homotopy and applications, vol. 3 (2), 2001, pp.361-384
+
 * Benjamin Blander, _Local projective model structures on simplicial presheaves_,  K-Theory, Volume 24, Number 3, November 2001 , pp. 283-301(19) ([journal](http://www.ingentaconnect.com/content/klu/kthe/2001/00000024/00000003/00384649?crawler=true))
+
+A detailed study of [[descent]] for simplicial presheaves is given in
 
 * **DHI04** Daniel Dugger, Sharon Hollander, Daniel C. Isaksen, _Hypercovers and simplicial presheaves_ ([web](http://www.math.uiuc.edu/K-theory/0563/)) 
 
 * **DI02** D. Dugger, D. Isaksen, _Weak equivalences of simplicial presheaves_ ([arXiv](http://arxiv.org/abs/math/0205025))
 
+The characterization of the model category of simplicial presheaves as the canonical [[presentable (infinity,1)-category|presentation]] of the (hypercompletion of) the [[(infinity,1)-category of (infinity,1)-sheaves]] on a site is in
+
 * [proposition 6.5.2.1](http://www-math.mit.edu/~lurie/papers/highertopoi.pdf#page=528) of 
 
   * [[Jacob Lurie]], [[Higher Topos Theory]]
+
+Last not least, it is noteworthy that the idea of localizing simplicial sheaves at stalkwise weak equivalences is already described and applied in 
+
+* Kenneth Brown, [[BrownAHT|Abstract Homotopy Theory and Generalized Sheaff cohomology]],
+
+using instead of a full [[model category]] structure the more lightweight one of a Brown [[category of fibrant objects]].
