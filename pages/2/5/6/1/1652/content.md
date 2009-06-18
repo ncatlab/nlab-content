@@ -1,2 +1,2 @@
-A topological space $X$ is semi-locally simply-connected if it has a basis of neighbourhoods $U$ such that $\Pi_1(U) \to \Pi_1(X)$ factors through the canonical functor $\Pi_1(U) \to codisc(U)$ to the codiscrete groupoid with objects $U$.
+A topological space $X$ is **semi-locally simply-connected** if it has a basis of neighbourhoods $U$ such that $\Pi_1(U) \to \Pi_1(X)$ factors through the canonical functor $\Pi_1(U) \to codisc(U)$ to the codiscrete groupoid with objects $U$. Equivalently, if each point $x$ has an open neighborhood $U$ such that the homomorphism $\pi_1(U, x) \to \pi_1(X, x)$ induced by inclusion $U \subseteq X$ is trivial. 
 
