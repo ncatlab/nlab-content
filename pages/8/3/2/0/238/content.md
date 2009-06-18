@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-18 #
 
+* [[Urs Schreiber|Urs]]: added the defintion of the product to [[simplicial homotopy group]]
+
 * [[Todd Trimble|Todd]]: wrote the beginnings of an apparently long-awaited article on [[weighted colimit]]s. 
 
 * [[Urs Schreiber|Urs]]
