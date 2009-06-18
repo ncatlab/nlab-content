@@ -7,7 +7,19 @@ The _simplicial homotopy groups_ of a Kan complex (actually a *[[pointed object|
 
 Accordingly, the definition of the discussion of simplicial homotopy groups is essentially literally the same as that of ordinary [[homotopy group]]s.  One technical difference is for instance that the definition of the group structure is slightly more non-immediate for simplicial homotopy groups than for topological homotopy groups (see below).
 
-As for ordinary homotopy groups, an $n$th simplicial homotopy 'group' is really an $n$-[[k-tuply groupal n-groupoid|tuply groupal]] $0$-[[0-groupoid|groupoid]].  That is, for $n = 0$, it is not a group at all but rather a [[pointed set]]; for $n = 1$, it is a [[group]]; and for $n \geq 2$, it is an [[abelian group]].  On the other hand, we could drop the base vertex and move to the $n$th simplicial homotopy 'groupoid', which is really an $n$-[[n-groupoid|groupoid]].  By a special case of the [[delooping hypothesis]] (a case known to be true for many if not all practical definitions of $n$-groupoid), every pointed (that is, $0$-tuply groupal) $n$-groupoid has an $n$-tuply groupal $0$-groupoid, which gives the connection between these.
+As for ordinary homotopy groups, an $n$th simplicial homotopy 'group' is really an $n$-[[k-tuply groupal n-groupoid|tuply groupal]] $0$-[[0-groupoid|groupoid]].  That is, for $n = 0$, it is not a group at all but rather a [[pointed set]]; for $n = 1$, it is a [[group]]; and for $n \geq 2$, it is an [[abelian group]].  On the other hand, we could drop the base vertex and move to the $n$th simplicial homotopy 'groupoid', which is really an $n$-[[n-groupoid|groupoid]].  
+
++-- {: .query}
+
+[[Urs Schreiber|Urs]]: This statement is important and useful for the analogous situation with homotopy groups of topological spaces. Here for Kan complexes it has a different flavor, and I find it more subtle in that it becomes more tautological: For notice that in a sensible sense the fundamental $\infty$-groupoid of a Kan complex is nothing but the Kan complex itself! In fact, every Kan complex arises up to equivalence as the fundamental $\infty$-groupoid of a topological space. And one nice way to think of the homotopy groups of topological spaces is as the homotopy groups of their fundamental $\infty$-groupoids. 
+
+So if one were to strictly follow the perspective of the above paragraph, the concept would become a bit empty.
+
+In contrast to that I think that for simplicial homotopy groups the point really is to have them as groups and not as groupoids, for here they are a tool and means to characterize $\infty$-groupoids and in particular their weak equivalence classes.
+
+=--
+
+By a special case of the [[delooping hypothesis]] (a case known to be true for many if not all practical definitions of $n$-groupoid), every pointed (that is, $0$-tuply groupal) $n$-groupoid has an $n$-tuply groupal $0$-groupoid, which gives the connection between these.
 
 If we restrict to $X$ being connected (and pointed), then $\pi_0(X)$ will be just a single point. If we allow a pointed $X$ which is not connected, then $\pi_0$ will tell us how many connected components there are, but $\pi_n$ for $n \gt 0$ will only give information about the connected component of the base vertex. There are various ways out of this dilemma, and going towards a groupoid-based definition is a good one in our context. Most basically, we can chose a base vertex in each component and obtain (for every $n$, even $n = 0$) a [[groupoid]] which is a disjoint union of groups. Or we could choose all vertices at once and include the [[fundamental groupoid]] information on change of base vertices along edges ($1$-simplices), and there are various intermediate and other alternative forms. Few give us groups, but we will still, perhaps, stubbornly use the terminology of homotopy 'groups', so as not to confuse things too much. Which version you need, depends on the use it is being put to.
 
