@@ -1,7 +1,11 @@
 A weighted colimit is a concept of [[colimit]] suitable for [[enriched category theory]], dual (in the enriched sense) to the concept of [[weighted limit]]. 
 
 +--{: .query}
-[[Mike Shulman|Mike]]: Are weighted limits and weighted colimits really different enough that they need entirely separate pages?
+[[Mike Shulman|Mike]]: Are weighted limits and weighted colimits really different enough that they need entirely separate pages? 
+
+[[Todd Trimble|Todd]]: I saw a lot of requests for weighted colimits from other pages; thus prompted, I started writing this. 
+
+I haven't been following discussion about duplication of material. I'm guessing it irritates some people, which I don't understand really. My own guess is that in the present case, it might help having separate pages, rather than force non-experts to deduce what they need to know about weighted colimits by staring at the article on weighted limits. But I'm generally open to discussion. 
 =--
 
 
