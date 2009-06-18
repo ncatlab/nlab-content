@@ -35,7 +35,7 @@ If $(G,T)$ is a group $T$-complex then $T = D$.
 +--{.proof}
 ######Proof
 
- To see this, we note that
+To see this, we note that
 as every degenerate element is this, $D \subseteq T$. Conversely if $t \in T_n$, then it
 fills the box made up of $ (  - , d_1t, \ldots, d_n t )$.  This, in turn, has a
 filler, $d$, in  $D$, but, as this filler is also thin, it must be that $t = d$, 
