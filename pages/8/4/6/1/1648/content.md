@@ -29,6 +29,12 @@ Maybe we can start by skimming the paper and collecting some unfamiliar keywords
 * [[Kan extension]]
 * etc
 
+#References#
+
+* [Action as a Functor](http://math.ucr.edu/home/baez/qg-fall2004/action.pdf)
+* [Connections as Functors](http://math.ucr.edu/home/baez/qg-fall2004/connection.pdf)
+* [Categorifying Fundamental Physics](http://math.ucr.edu/home/baez/diary/fqxi_narrative.pdf)
+
 #Discussion#
 
 _Daniel_: On page 3, he writes: "Usually, one has a classical 'action' of some kind definedned for manifolds with some extra structure, e.g. a riemannian metric, a symplectic form, a principalbundle, or etc. Quantization is what happens when one tries to assign that same action to a manifold that does not have that structure!" We can define many structures over a manifolds. Like, a toplogy, a piecewise linear strucure, a metric, etc. Just like the layers of an onion. So, quantization is just summing over all possible new layers of every new structure? It looks like so.
