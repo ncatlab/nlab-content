@@ -75,4 +75,82 @@ $;
   }  
 $.
 
-See also [[anafunctor]].
+#Example: Linear Maps#
+
+Let $\mathbf{B} End(U)$ and $\mathbf{B} End(V)$ be one-object categories whose objects are finite-dimensional vector spaces and morphisms are linear endomorphisms, i.e. [[endomorphism|full subcategories]] of <nowiki>FinVect</nowiki>.
+
+###Left Inverses###
+
+If the linear map $F:U\to V$ has a left inverse, i.e.
+
+$$F_L^{-1}\circ F = 1_U,$$
+
+then we can construct a functor 
+
+$$F:\mathbf{B} End(U)\to\mathbf{B} End(V)$$
+
+by defining its action on objects by
+
+$$F(U) = FU$$
+
+and its action on endomorphisms by
+
+$$F(f) = F f F_L^{-1}.$$
+
+Composition follows immediately
+
+$$F(fg) = F fg F_L^{-1} = F f F_L^{-1} F g F_L^{-1} = F(f) F(g).$$
+
+Identity morphisms are preserved since for any vector $y$ in $F(U)\subset V$, then 
+
+$$y = Fx$$
+
+for some vector $x$ in $U$ and we have
+
+$$F(1_U)y = F\circ F_L^{-1}y = F\circ F_L^{-1}\circ F x = Fx = y$$
+
+so that
+
+$$F(1_U) = 1_{F(U)}$$
+
+as required. Hence, $F$ is a functor.
+
+###Right Inverses###
+
+If the linear map $F:U\to V$ has a right inverse, i.e.
+
+$$F\circ F_R^{-1} = 1_V,$$
+
+then we can construct a functor 
+
+$$F^{op}:\mathbf{B} End(V)\to\mathbf{B} End(U)$$
+
+by defining its action on objects by
+
+$$F^{op}(V) = F_R^{-1}(V)$$
+
+and its action on endomorphisms by
+
+$$F^{op}(f) = F_R^{-1} f F.$$
+
+Composition follows immediately
+
+$$F(fg) = F_R^{-1} fg F = F_R^{-1} f F F_R^{-1} g F = F(f) F(g).$$
+
+Identity morphisms are preserved since for any vector $x$ in $F_R^{-1}(V)\subset U$, then 
+
+$$x = F_R^{-1}y$$
+
+for some vector $y$ in $V$ and we have
+
+$$F^{op}(1_V)x = F_R^{-1}\circ F x = F_R^{-1}\circ F \circ F_R^{-1} y = F_R^{-1} y = x$$
+
+so that
+
+$$F^{op}(1_V) = 1_{F^{op}(V)}$$
+
+as required. Hence, $F^{op}$ is a functor.
+
+#References#
+
+* See also [[anafunctor]].
