@@ -3,7 +3,7 @@
 Recall that a [[Kan complex]] is a special [[simplicial set]] that [[homotopy hypothesis|behaves like]] a combinatorial model for a [[topological space]].
 
 
-The _simplicial homotopy groups_ of a Kan complex (actually a *[[pointed object|pointed]]* Kan complex) are accordingly the combinatorial analog of the [[homotopy group]]s of [[topological space]]s: instead of being maps from topological sphere modulo maps from topological disks, they are maps from the [[boundary of a simplex]] modulo those from the [[simplex]] itself. Of course, they only tell you something about the connected component of the Kan complex that contains the base vertex, so sometimes it is assumed that $X$ is connected, but see below!
+The _simplicial homotopy groups_ of a Kan complex (actually a *[[pointed object|pointed]]* Kan complex) are accordingly the combinatorial analog of the [[homotopy group]]s of [[topological space]]s: instead of being maps from topological spheres modulo maps from topological disks, they are maps from the [[boundary of a simplex]] modulo those from the [[simplex]] itself. Of course, they only tell you something about the connected component of the Kan complex that contains the base vertex, so sometimes it is assumed that $X$ is connected, but see below!
 
 Accordingly, the definition of the discussion of simplicial homotopy groups is essentially literally the same as that of ordinary [[homotopy group]]s.  One technical difference is for instance that the definition of the group structure is slightly more non-immediate for simplicial homotopy groups than for topological homotopy groups (see below).
 
