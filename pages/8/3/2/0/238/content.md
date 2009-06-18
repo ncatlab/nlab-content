@@ -16,7 +16,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Tim Porter|Tim]]:
 
-   * I finally added some stuff into [[crossed complex]] giving more information on the link with [[simplicial group]] and [[More complex]].  I hope to get around to creating 2-crossed complex in a day or two!
+   * I finally added some stuff into [[crossed complex]] giving more information on the link with [[simplicial group]] and [[Moore complex]].  I hope to get around to creating 2-crossed complex in a day or two!
 
    * The discussion on [[simplicial homotopy group]] possibly needs more opinions! I just added a bit more of my viewpoint to Urs's thoughts box, but I do find that I am not sure what the idea / context / viewpoint (or whatever) of this entry should 'optimally' be!
 
