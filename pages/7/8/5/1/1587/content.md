@@ -1,4 +1,5 @@
 [[!redirects wrapping space]]
+[[!redirects wrapping space]]
 
 
 A **covering space** (or **wrapping space**) is a [[bundle]] $p: E \to B$ in [[Top]] which is locally trivial and with [[discrete space|discrete]] fiber. That is, a map $p: E \to B$ is a covering space over $B$ if for each point $x \in B$, there exists an open neighborhood $U$ of $x$ **evenly covered** by $p$: the [[pullback]] of $p$ over $U$ is isomorphic to a product bundle with discrete fiber $E_x = p^{-1}(x)$: 
@@ -27,7 +28,7 @@ between typical fibers over $x \in U$, $y \in V$, and $z \in U \cap V$. If $B$ i
 
 The connection between covering spaces over $B$ and the [[fundamental group]] $\pi_1(B)$ (for $B$ a [[connected space]]) is very old and runs very deep. An updated account involves shifting attention to representations of the [[fundamental groupoid]] $\Pi_1(B)$ (regardless of connectedness); we give a brief outline of the theory here. 
 
-Under some technical topological assumptions on the space $B$, the fundamental theorem can be stated thus: 
+Under the assumptions that the space $B$ is [[locally path-connected space|locally path-connected]] and [[semi-locally simply-connected space|semi-locally simply-connected]], the fundamental theorem can be stated thus: 
 
 +-- {: .un_thm}
 ###### Theorem
@@ -48,7 +49,7 @@ I & \overset{\phi}{\to} & B
 
 and we define $Fiber([\phi]): E_b \to E_c$ as the map sending $e \in E_b$ to $\tilde{\phi}(1) \in E_c$. 
 
-The precise statement of the theorem above is that if $E$ is locally connected and semi-locally simply connected, then the functor $Fiber$ is an equivalence. 
+The precise statement of the theorem above is that if $B$ is locally path-connected and semi-locally simply-connected, then the functor $Fiber$ is an equivalence. 
 
 =--
 
@@ -142,21 +143,69 @@ As a special case, consider the permutation representation $\Pi_1(B) \to Set$ gi
 
 $$cod: \Pi_1(B) \to |B|$$ 
 
++-- {: .query}
+[[David Roberts]]: shouldn't such a discrete fibration then give rise to a functor $|B| \to Set$? If you mean $Mor(\Pi_1(B))$, then this could probably be described as the total tangent groupoid, which is the action groupoid for the action of $\Pi_1(B)$ on itself.
+=--
+
 (as a span from $1$ to $|B|$) equipped with the obvious (covariant) action of the monad $\Pi_1(B)$ (as a span from $|B|$ to $|B|$). This is essentially the "regular representation" of the fundamental groupoid. The tensor product of the previous section, 
 
 $$\overline{Path}(B) \otimes_{\Pi_1(B)} cod,$$ 
 
 is a way of realizing the [[universal covering space]] over $B$. 
 
-Here is a way of thinking of this construction which links it to the description of Roberts and Schreiber, which is based on considering tangent spaces of the fundamental groupoid. Here, if the fundamental groupoid $G = \Pi_1(B)$ is connected, its universal covering space may be realized as a "tangent groupoid" or slice 
+Here is a way of thinking of this construction which links it to the description of universal bundles by Roberts and Schreiber, which is based on considering tangent spaces of the fundamental groupoid. If the fundamental groupoid $G = \Pi_1(B)$ is connected, its universal bundle (as a fibration of groupoids) may be realized as the "tangent groupoid at $b$" or slice 
 
-$$T_b(G) := B(b/G) \to B G$$
+$$T_b(G) := (b/G) \to  G$$
 
-induced from the projection $b/G \to G$, for a chosen basepoint $b \in B$. (There may be some discrepancy with the variance conventions chosen by Roberts and Schreiber; possibly they work with slices instead of coslices, but this makes no essential difference. We will work with coslices.) Then we recover the universal covering space over $B$ by pulling back along a universal classifying map $B \to B G$. More precisely, in their analysis the universal covering space $E_b$ of (path-connected) $B$ is retrieved as the quotient of the space of paths which start at the basepoint $b$, modulo homotopy-rel-boundary; the projection to $B$ takes a class of a path $\phi$ to its terminal point $\phi(1)$. Then of course if $B$ is locally path-connected, its universal covering space can be obtained as the sum of universal covering spaces over each of its path components. 
+ for a chosen basepoint $b \in B$. Note that this slice groupoid is the pullback
 
-The dependence on basepoints is of course spurious; we can make this explicit by considering the colimit obtained by pasting together the universal covering spaces $E_b$ along isomorphisms induced by paths $b \to c$. But this is in effect how our tensor product construction of the universal covering space works: $\overline{Path}(B)$ is precisely the sum of tangent groupoids 
+$$\array{
+(b/G) & \to & G^I & \\
+\downarrow & & \downarrow & ev_0\\
+\{b\}  & \to & G & 
+}$$ 
 
-$$\sum_{b \in |B|} E_b$$ 
+with $I$ the groupoid $(0 \overset{\sim}{\to} 1)$. This is then a groupoid over $G$ by the restriction of $ev_1$.
+
+Since the set of arrows of $G$ is obtained as a quotient of the set of paths in $B$, it inherits naturally a topology (a quotient of the compact-open topology on $B^I$) which, together with the given topology on $G_0 = B$, makes $G$ a topological groupoid. Then we recover the universal covering space $B^{(1)}_b$ (I prefer this notation for the 1-connected cover, rather than the usual $\tilde{B}$, because it generalises to $B^{(n)}$ for $n$-connected covers - DR) over $B$ by pulling back along the functor $B \to G$, where we consider $B$ as a topological groupoid with only identity arrows. The assumptions on the topology of $B$ mean that $G$ is a [[locally trivial groupoid]] with discrete hom-spaces, which implies that $B^{(1)}_b$ is a locally trivial bundle with discrete fibres.  Local path-connectedness implies that it is locally trivial, and the local condition on $\pi_1$ holds if and only if the fibres are discrete - this last result is due to Daniel Bliss.
+ 
++--{: .un_thm}
+
+###### Remark
+
+Another way to consider the topological conditions on $B$ is to realise that $\Pi_1(B)$, with its inherited topology, is equivalent to a topologically discrete groupoid (in some appropriate localisation of the 2-category of topological groupoids) if and only if $B$ is locally path-connected and semi-locally simply-connected. Otherwise one has to consider the pro-homotopy 1-type of $B$, as in the theory of algebraic fundamental groups (recall that varieties with appropriate topologies - e.g Zariski - are topologically badly behaved).
+
+=--
+
++--{: .query}
+[[David Roberts]]: Is there a prodiscrete completion of a topological groupoid? Maybe we need to assume it is locally trivial, so it is weakly equivalent (in the said localised 2-category) to a groupoid enriched in $Top$, considered as being internal to $Top$. We could then talk about quotients by wide subgroupoids being topologically discrete. Or even quotients being discrete and having finite Leinster cardinality?? Hmm...
+=--
+
+In this analysis, the universal covering space $E_b$ of (path-connected) $B$ is retrieved as the quotient of the space of paths which start at the basepoint $b$, modulo homotopy-rel-boundary; the projection to $B$ takes a class of a path $\phi$ to its terminal point $\phi(1)$. This last description is what one would find in any textbook on algebraic topology dealing with covering spaces. This covering space is, strictly speaking, universal among *connected* covering spaces 
+
+More generally, if $S \subset |B|$ is a set of basepoints (Thanks, Ronnie Brown! - DR), we can form the pullback
+
+$$\array{
+(S/G) & \to & G^I & \\
+\downarrow & & \downarrow & ev_0\\
+S  & \to & G & 
+}$$ 
+
+which is again a groupoid over $G$ by restriction of $ev_1$. Then pullback of $(S/G) \to G$ along the inclusion $B \to G$ is a covering space which is the sum 
+$$
+B^{(1)}\langle S\rangle = \sum_{b\in S} B^{(1)}_b
+$$
+of connected, 1-connected covering spaces based at the points in $S$. Thus for not-necessarily-connected $B$, taking $S$ such that it intersects each component of $B$ once we can get a universal covering space of $B$ (universal among covering spaces $E \to B$ that induce isomophisms $\Pi_0(E) \to \Pi_0(B)$).
+
+This construction is functorlal (for general $S\subset |B|$), since a map $(B,S) \to (B',S')$ of pairs (remember we are giving $S,S'$ the discrete topology, not the subspace topology) induces a functor of (topological) groupoids $\Pi_1(B) \to \Pi_1(B')$, which by universality of the pulbacks in the above construction gives a map 
+$$
+B^{(1)}\langle S\rangle \to B'^{(1)}\langle S'\rangle
+$$
+covering the given map $B \to B'$.
+
+The dependence on basepoints is of course spurious; we can make this explicit by considering the colimit obtained by pasting together the universal covering spaces $B^{(1)}_b$ along isomorphisms induced by paths $b \to c$. But this is in effect how our tensor product construction of the universal covering space works: $\overline{Path}(B)$ is precisely the sum 
+
+$$\sum_{c \in |B|} B^{(1)}_c$$ 
 
 which can be viewed as a topological span from $|B|$ to $B$. The fundamental groupoid acts contravariantly on this sum, and the tensor product 
 
@@ -164,11 +213,19 @@ $$\overline{Path}(B) \otimes_{\Pi_1(B)} (cod: \Pi_1(B) \to |B|)$$
 
 is the same thing as the coequalizer of the pair of arrows 
 
-$$\sum_{[\phi]: b \to c} \sum_c E_c \overset{\to}{\to} \sum_c E_c$$ 
+$$\sum_{[\phi]: b \to c} \sum_c B^{(1)}_c \overset{\to}{\to} \sum_c B^{(1)}_c$$ 
 
-in $Top/B$, where one arrow is projection and the other is given by the action of pulling back along classes of paths; this coequalizer is a precise description of the pasting colimit alluded to above. 
+in $Top/B$, where one arrow is projection and the other is given by the action of pulling back along classes of paths; this coequalizer is a precise description of the pasting colimit alluded to above. It should be noted that this coequaliser is isomorphic to the covering space $B^{(1)}\langle S\rangle$ when $S$ has one point in each component of $B$, but the description as the tensor product is a priori functorial without reference to a set of basepoints. 
+
++-- {: .query}
+[[David Roberts]]: I think, though, due to the lifting theorems for covering spaces, that given a map $f:B \to B'$ and basepoint sets $S \subset |B|$, $S' \subset |B'|$ that are not necessarily preserved by $f$, there should be a unique lift of $B^{(1)}\langle S\rangle \to B'$ to $B'^{(1)}\langle S'\rangle$ anyway. This would also make this construction independent, up isomorphism, of the choice of basepoints and probably also functorial.
+=--
+
+
 
 (David or Urs: please feel free to sprinkle your own sugar over this, by adapting or even copying what David wrote below based on your paper.) 
+
+([[David Roberts]]: unless someone feels the discussion below is essential, it can be deleted.)
 
 +-- {: .query}
 [[David Roberts]]: My personal favourite way of doing this is to topologise the fundamental groupoid, then form the following strict pullback of topological groupoids 
@@ -206,4 +263,4 @@ $$
 or equivalently the slice $Obj(G)\downarrow id_G$ for an internal groupoid $G$ (internal in $Top$, but extensions to other categories work too). The tangent groupoid at a point $g$ is just the subgroupoid of this gotten by pulling back $TG \to Obj(G)$ along the inclusion $\{g\} \to Obj(G)$. I hadn't thought about applying this construction to my personal universal covering space recipe, so maybe we need to take the discrete topology on $Obj(G)$. That's what your pullback square above seems to indicate. Urs' and my paper [arXiv:0708.1741] has stuff on tangent groupoids for anyone who interested in pitching in.
 =--
 
-[To be continued] 
+
