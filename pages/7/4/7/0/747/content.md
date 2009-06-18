@@ -1,6 +1,6 @@
 There are many [[model category]] structures on the category of [[simplicial presheaf|simplicial presheaves]] derived from the [[model structure on simplicial sets]]. 
 
-The _local_ such model structures are of interest in that they model [[infinity-stack homotopically|infinity-stacks]].
+The _local_ such model structures are of interest in that they model [[infinity-stack homotopically|infinity-stacks]] in that they are a [[presentable (infinity,1)-category|presentation]] of the [[(infinity,1)-category of (infinity,1)-sheaves]] on the given [[site]].
 
 They can be thought of as being obtained from global model structures, of which there are two:
 
