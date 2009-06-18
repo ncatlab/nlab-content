@@ -12,6 +12,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-06-18 #
+
+*  [[David Roberts]]: 
+
+  * Edited [[covering space]] as requested by [[Todd Trimble|Todd]]. I still wonder whether some of the discussion would be better off at [[universal covering space]].
+
+  * Created stubs at [[semi-locally simply-connected space]] and [[locally path-connected space]].
+
 # 2009-06-17 #
 
 *  [[Toby Bartels]]:  Fixed mistakes at [[topological concrete category]], thanks to having a good online reference.
