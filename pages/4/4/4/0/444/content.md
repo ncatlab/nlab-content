@@ -29,7 +29,225 @@ The nerve functor may be viewed as a [[singular functor]] of the functor $i$.
 
 #Examples#
 
-* The standard example is $C =$ [[Cat]] and $i : \Delta \to Cat$ the functor which embeds the [[simplex category]] (regarded, say, as the full subcategory of finite occupied linear [[quiver]]s). Then for $D$ any category its _nerve_, $N(D)$ is a simplicial set whose set of $n$-simplices is the set of sequences of composable morphisms of length $n$ in $D$. The face and degeneracy maps come from composition of morphisms and from inserting identity morphisms.
+## ordinary nerve of a category ##
+
+Recall that the [[nLab:simplex category|simplex category]] $\Delta$ is equivalent to the full subcategory 
+$$
+  i : \Delta \hookrightarrow Cat
+$$
+of [[nLab:Cat|Cat]] on linear [[nLab:quiver|quivers]], meaning that the object $[n] \in Obj(\Delta)$ can be identified with the category $[n] = \{0 \to 1 \to 2 \to \cdots \to n\}$. The morphisms of $\Delta$ are all functors between these "linear quiver" categories.
+
+For $D$ any [[nLab:locally small category|locally small category]], the **nerve** $N(D)$ of $D$ is the [[nLab:simplicial set]] given by
+
+$$
+  N(D) : \Delta^{op} 
+     \hookrightarrow
+     Cat
+    \stackrel{Cat(-,D)}{\to}
+    Set
+  \,,
+$$
+where [[nLab:Cat|Cat]] is regarded as an ordinary 1-category with objects locally small categories, and morphisms being [[nLab:functor|functors]] between these.
+
+So the set $N(D)_n$ of $n$-[[nLab:simplex|simplices]] of the nerve is the set of functors $\{0 \to 1 \to \cdots \to n\} \to D$. This is clearly the same as the set of sequences of composable morphisms in $D$ of length $n$:
+
+$$
+  N(D)_n = 
+   \underbrace{
+   Mor(D) {}_t \times_s Mor(D) {}_t \times_s \cdots
+   {}_t \times_s Mor(D)}_{n factors}
+$$
+
+The collection of all functors between linear quivers 
+$$
+  \{
+    0 \to 1 \to \cdots \to n
+  \}
+  \to
+  \{
+    0 \to 1 \to \cdots \to m
+  \}
+$$
+is generated from those that map almost all generating morphisms $k \to k+1$ to another generating morphism, except at one position, where they
+
+* map a single generating morphism to the composite of two generating morphisms 
+  $$
+   \delta^n_i : [n-1] \to n
+  $$
+  $$
+    \delta^n_i : ((i-1) \to i) \mapsto ((i-1) \to i \to (i+1))
+  $$
+
+* map one generating morphism to an identity morphism
+  $$
+   \sigma^n_i : [n+1] \to [n]
+  $$
+  $$
+    \sigma^n_i : (i \to i+1) \mapsto Id_i
+  $$
+
+It follows that, for instance
+
+* for $(d_0 \stackrel{f_1}{\to} d_1, d_1 \stackrel{f_2}{\to} d_2, d_2 \stackrel{f_3}{\to} d_3) \in N(D)_3$ the image under $d_1 := N(D)(\delta_1) : N(D)_3 \to N(D)_2$ is obtained by composing the first two morphisms in this sequence: $(d_0 \stackrel{f_2 \circ f_1}{\to} d_2, d_2 \stackrel{f_3}{\to} d_3) \in N(D)_2$
+
+* for $(d_0 \stackrel{f_1}{\to} d_1) \in N(D)_1$ the image under $s_1 := N(D)(\sigma_1) : N(D)_1 \to N(D)_2$ is obtained by inserting an identity morphism: 
+$(d_0 \stackrel{f_1}{\to} d_1, d_1 \stackrel{Id_{d_1}}{\to} d_1) \in N(D)_2$.
+
+In this way, generally the face and degeneracy maps of the nerve of a category come from composition of morphisms and from inserting identity morphisms.
+
+In particular in light of their generalization to nerves of higher categories, discussed below, the cells in the nerve $N(D)$ have the following interpretation:
+
+* $S_0 = \{d | d \in Obj(D)\} $ is the collection of objects of $D$;
+
+* $S_1 = Mor(D) = \{d \stackrel{f}{\to} d' | f \in Mor(D)\}$ is the collection of morphisms of $D$;
+
+* $S_2 = \left\{
+    \left.
+    \array{
+      && d_1
+      \\
+      & {}^{f_1}\nearrow &\Downarrow^{\exists !}& \searrow^{f_2}
+      \\
+      d_0 &&\stackrel{f_2 \circ f_1}{\to}&& d_2
+    }
+    \right|
+    (f_1, f_2) \in Mor(D) {}_t \times_s Mor(D)
+  \right\}$ is the collection of composable morphisms in $D$: the 2-cell itself is to be read as the _composition operation_, which is unique for an  ordinary category (there is just one way to compose to morphisms);
+
+* $S_3 =
+    \left\{
+      \left.
+        \array{
+          d_1 &\stackrel{f_2}{\to}& d_2
+          \\
+          {}^{f_1}\uparrow &
+            {}^{f_2 \circ f_1}\nearrow
+          & \downarrow^{f_3}
+          \\
+          d_0 &\stackrel{f_3\circ (f_2\circ f_1)}{\to}&
+          d_3
+        }
+        \;\;\;\;\;\stackrel{\exists !}{\Rightarrow}
+        \;\;\;\;\;
+        \array{
+          d_1 &\stackrel{f_2}{\to}& d_2
+          \\
+          {}^{f_1}\uparrow &
+            \searrow^{f_3\circ f_2}
+          & \downarrow^{f_3}
+          \\
+          d_0 &\stackrel{(f_3\circ f_2) \circ f_1}{\to}&
+          d_3
+        }
+      \right|
+      (f_3,f_2, f_1) \in
+      Mor(D) {}_t \times_s Mor(D) {}_t \times_s Mor(D)
+    \right\}
+  $ is the collection of triples of composable morphisms, to be read as the unique associators that relate one way to compose three morphisms using the above 2-cells to the other way.
+
+### properties of the nerve of a category ###
+
++-- {: .un_prop}
+###### Proposition
+
+A [[simplicial set]] $S$ is the nerve of a locally small category $C$ if and only if all the commuting squares
+
+$$
+  \array{
+    S_{n+m} &\stackrel{\cdots \circ d_0 \circ d_0}{\to}& S_m
+    \\
+    {}^{\cdots d_{n+m-1}\circ d_{n+m}}\downarrow && \downarrow
+    \\
+    S_n &\stackrel{d_0 \circ \cdots d_0}{\to}& S_0
+  }
+$$
+
+are [[pullback]] diagrams.
+
+=--
+
+Unwrapping this definition inductively in $(n+m)$, this says that a simplicial set is the nerve of a category if and only if all its cells in degree $\geq 2$ are unique compositors, associators, pentagonators, etc of composition of 1-morphisms. No non-trivial such structure cells appear and no further higher cells appear.
+
+This characterization of categories in terms of nerves directly leads to the model of [[(infinity,1)-category]] in terms of [[complete Segal space]]s by replacing in the above discussion sets by [[topological space]]s (or something similar, like [[Kan complex]]es) and pullbacks by [[homotopy pullback]]s.
+
++-- {: .un_prop}
+###### Proposition
+
+The nerve functor
+
+$$
+  N : Cat \to SSet
+$$
+
+is a [[full and faithful functor]].
+
+=--
+
+So  [[functor]]s between [[locally small category|locally small categories]] are in bijections with morphisms of [[simplicial set]]s between their nerves.
+
+
+
++-- {: .un_prop}
+###### Proposition
+
+The nerve $N(C)$ of a locally small category 
+is a [[Kan complex]] if and only if $C$ is a [[groupoid]].
+
+=--
+
+The existence of [[inverse]] morphisms in $D$ corresponds to the fact that in the [[Kan complex]] $N(D)$ the "outer" [[horn]]s
+
+$$
+  \array{
+    && d_0
+    \\
+    & && \searrow^{f}
+    \\
+    d_1 &&\stackrel{Id_{d_1}}{\to} && d_1
+  }
+  \;\;\; 
+  \;\;\; 
+  and
+  \;\;\; 
+  \;\;\; 
+  \array{
+    && d_1
+    \\
+    & {}^f\nearrow &&     
+    \\
+    d_0 &&\stackrel{Id_{d_0}}{\to} && d_1
+  }
+$$
+
+have fillers 
+
+$$
+  \array{
+    && d_0
+    \\
+    & {}^{f^{-1}}\nearrow&& \searrow^{f}
+    \\
+    d_1 &&\stackrel{Id_{d_1}}{\to} && d_1
+  }
+  \;\;\; 
+  \;\;\; 
+  and
+  \;\;\; 
+  \;\;\; 
+  \array{
+    && d_1
+    \\
+    & {}^f\nearrow && \searrow^{f^{-1}}
+    \\
+    d_0 &&\stackrel{Id_{d_0}}{\to} && d_0
+  }
+$$
+
+(even unique fillers, due to the above).
+
+It is in this sense that a simplicial set that is a [[Kan complex]] but which does not necessarily have the above pullback property that makes it a nerve of an ordinary groupoid models an [[infinity-groupoid]].
+
+## nerve of an $\omega$-category ##
 
 * This previous example is the restriction to [[1-category|1-categories]] of the nerve ("$\omega$-nerve") on [[strict omega-category|strict omega-categories]] which is induced by the [[oriental]]s $i := O : \Delta \to \omega Cat$. This nerve is not fully faithful.
 
@@ -48,12 +266,12 @@ A variant of the nerve construction can also be applied _internally_ within a ca
 
 ##Literature##
 
-[Dwyer Kan 1984]
+* [Dwyer Kan 1984]
 W. G. Dwyer, D. M. Kan, Singular functors and realization functors, Nederl. Akad. Wetensch. Indag. Math. 46 (1984), no. 2, 147--153. [pdf](http://www.nd.edu/~wgd/Dvi/SingularAndRealization.pdf)
 
-[Isbell 1960] J. R. Isbell, Adequate subcategories, Illinois J. Math. 4, 541--552 (1960)
+* [Isbell 1960] J. R. Isbell, Adequate subcategories, Illinois J. Math. 4, 541--552 (1960)
 
-[Leinster 2004] T. Leinster, Higher operads, higher categories, London Mathematical Society Lecture Note Series, 298. Cambridge Univ. Press 2004. xiv+433 pp. ISBN: 0-521-53215-9, [arXiv:math.CT/0305049](http://front.math.ucdavis.edu/0305.5049)
+* [Leinster 2004] T. Leinster, Higher operads, higher categories, London Mathematical Society Lecture Note Series, 298. Cambridge Univ. Press 2004. xiv+433 pp. ISBN: 0-521-53215-9, [arXiv:math.CT/0305049](http://front.math.ucdavis.edu/0305.5049)
 
-[Street 1987] R. Street, The algebra of oriented simplexes,
+* [Street 1987] R. Street, The algebra of oriented simplexes,
 J. Pure Appl. Algebra 49 (1987), no. 3, 283--335.  
