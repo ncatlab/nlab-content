@@ -36,7 +36,7 @@ so that $f = f_+ - f_{-}$, $|f| = f_+ + f_{-}$. We say $f$ is **integrable** if 
 
 $$\int f d\mu = \int f_{+} d\mu - \int f_{-} d\mu$$ 
 
-Finally, a measurable complex-valued function $f: X \to \mathbb{C}$ is integrable if both its real and imaginary parts are; its integral is defined in the obvious way. It is not hard to show that $f$ is integrable if and only if $|f|$ is integrable. Hence a [[pseudonorm]] is defined on the vector space of complex-valued integrable functions by 
+Finally, a measurable complex-valued function $f: X \to \mathbb{C}$ is integrable if both its real and imaginary parts are; its integral is defined in the obvious way. It is not hard to show that $f$ is integrable if and only if $|f|$ is integrable. Hence a [[pseudonormed vector space|pseudonorm]] is defined on the vector space of complex-valued integrable functions by 
 
 $$\|f\|_1 = \int |f| d\mu$$ 
 
