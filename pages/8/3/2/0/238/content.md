@@ -14,7 +14,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-19 #
 
-*  [[Toby Bartels]]:  Split [[measure space]] off from [[measurable space]].
+*  [[Toby Bartels]]:
+   *  Expanded [[measurable space]] quite a bit, but I need to go, so it hasn\'t really been proofread.
+   *  Split [[measure space]] off from [[measurable space]].
 
 # 2009-06-18 #
 
