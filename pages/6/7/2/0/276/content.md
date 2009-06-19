@@ -46,7 +46,7 @@ if quite easy to do. We will usually state results below for the group case, lea
 
 #From simplicial group(oid)s to crossed complexes# 
 
-It is fairly clear that crossed complexes / group(oid) $T$-complexes correspond to simplicial group(oid)s in which certain  equations hold.  It therefore is reasonable that they are equivalent to a variety / reflexive subcategory in the category, $SSet Grpd$, of simplicially enriched groupoids.  (The discussion in the entry on [[group T-complex]] is relevant here.)
+It is fairly clear that crossed complexes / group(oid) $T$-complexes correspond to simplicial group(oid)s in which certain  equations hold.  It therefore is reasonable that they are equivalent to a variety / [[reflective subcategory]] in the category, $SSet Grpd$, of simplicially enriched groupoids.  (The discussion in the entry on [[group T-complex]] is relevant here.)
 
 There is a functor $C(-)$ from simplicial groups to crossed complexes given by 
 
