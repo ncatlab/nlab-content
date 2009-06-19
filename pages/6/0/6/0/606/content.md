@@ -6,7 +6,7 @@ The *simplicial identities* encode the relationships between the face and degene
 
 ## Definition##
 
-The **simplicial identities** are:
+The **simplicial identities** are the duals to the _simplicial relations_  of coface and codegeneracy maps described at [[simplex category]]:
 
 * $ d_i d_j  = d_{j-1}d_i$ if $i \lt j$,
 
