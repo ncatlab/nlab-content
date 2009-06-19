@@ -10,7 +10,11 @@ For $\Delta^n$ the standard [[simplicial set|simplicial]] $n$-[[simplex]], defin
 * the objects of $S[\Delta^n]$ are $\{0,1, \cdots, n\}$;
 
 * for $i, j \in \{0,1,\cdots, n\}$ define  $S[\Delta^n](i,j) = \left\lbrace \array{ \emptyset & if j \lt i \\ N(P_{i,j}) & if i \leq j }\right.$     
-  where $P_{i,j}$ is the [[poset]]  $\left\{ I \subset J : (i,j \in I) \wedge (\forall k \in I) [i \leq k \leq j] \right\}$.  
+  where $P_{i,j}$ is the [[poset]]  $\left\{ I \subset J : (i,j \in I) \wedge (\forall k \in I) [i \leq k \leq j] \right\}$. 
+
++--{.query}
+[[Todd Trimble|Todd]]: I am learning this for the first time, and I had some difficulty with how the definition of $P_{i,j}$ reads. From the ensuing discussion, it seems you want the elements of the poset to be $I \subseteq [i, j]: i, j \in I$, ordered by inclusion. But in the definition, it's not clear what sort of thing $J$ is supposed to be, and it looks like the elements of the poset are instances of inclusions. (Another minor thing I don't understand is why $\subset$ is being used instead of $\subseteq$, since for many mathematicians $\subset$ means strict inclusion. I see this preference for $\subset$ all over the nLab in fact; has this been discussed somewhere?)
+=--
 
   This interprets as the simplicial set of paths from $i$ to $j$. For such a path the corresponding $I$ is the set of vertices visited by the path, so $I\subset J$ means that the path for $J$ is a 'subdivided' version of that for $I$. The simplicial set $N(P_{i,j})$ is isomorphic to the $j-i-1$ cube $\Delta[1]^{j-i-1}$. (We will look at an example after this definition.)
 
