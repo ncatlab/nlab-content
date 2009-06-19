@@ -14,7 +14,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-19 #
 
-* [[Tim Porter|Tim]]: I have adjusted [[homotopy coherent nerve]] in an attempt to answer some of the points made there by [[Todd Trimble|Todd]],
+* [[Tim Porter|Tim]]: 
+    
+    *  I have added more material to [[2-crossed module]] including some exercises (at the foot of the 'page'! (Have fun!) I will not get around to doing an entry on 2-crossed complexes today.
+
+    * I have adjusted [[homotopy coherent nerve]] in an attempt to answer some of the points made there by [[Todd Trimble|Todd]],
 
 * [[Urs Schreiber|Urs]]:
 
