@@ -8,10 +8,11 @@ Therefore for $f,g : X \to Y$ two morphisms of [[simplicial set]]s, a [[homotopy
 
 $$
   \array{
-    X \simeq X\times \Delta^0 &\stackrel{Id \times \delta^1}{\to}& X \times \Delta^1 \simeq Y
+    X \simeq X\times \Delta^0 &\stackrel{Id \times \delta^1}{\to}& X \times \Delta^1 
    &
    \stackrel{Id \times \delta^0}{\leftarrow}&
-   Y \times \Delta^0
+   X \times \Delta^0
+   \simeq X
    \\
    &
     {}_f\searrow &\downarrow^\eta& \swarrow_{g}
