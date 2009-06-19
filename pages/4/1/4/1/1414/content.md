@@ -9,16 +9,27 @@ For $\Delta^n$ the standard [[simplicial set|simplicial]] $n$-[[simplex]], defin
 
 * the objects of $S[\Delta^n]$ are $\{0,1, \cdots, n\}$;
 
-* for $i, j \in \{0,1,\cdots, n\}$ define  $S[\Delta^n](i,j) = \left\lbrace \array{ \emptyset & if j \lt i \\ N(P_{i,j}) & if i \leq j }\right.$     
-  where $P_{i,j}$ is the [[poset]]  $\left\{ I \subset J : (i,j \in I) \wedge (\forall k \in I) [i \leq k \leq j] \right\}$. 
+* for $i, j \in \{0,1,\cdots, n\}$ define  $S[\Delta^n](i,j) = N(P_{i,j}),$ the nerve of the poset $P(i,j)$ defined in either of the two equivalent ways:     
+   1. $P_{i,j}$ is the [[poset]] whose  elements are the subsets of $[i,j]$ that contain both $i$ and $j$ (so in particular is $i\gt j$ then $P(i,j)$ is empty and hence so is its nerve), the partial order is given by inclusion.
+
+   1. $P(i,j)$ is the set of paths in $[n]$ that start at $i$ and finish at $j$ (hence is empty if $i\gt j$), the order relation is given by `subdivision', i.e. path $a$ is less than path $b$ in $P(i,j)$ if $b$ visits all the vertices that $i$ does ... and perhaps some others as well.
+
+Of course, the way you go between the two descriptions is that a path corresponds to the set of vertices it visits.
 
 +--{.query}
 [[Todd Trimble|Todd]]: I am learning this for the first time, and I had some difficulty with how the definition of $P_{i,j}$ reads. From the ensuing discussion, it seems you want the elements of the poset to be $I \subseteq [i, j]: i, j \in I$, ordered by inclusion. But in the definition, it's not clear what sort of thing $J$ is supposed to be, and it looks like the elements of the poset are instances of inclusions. (Another minor thing I don't understand is why $\subset$ is being used instead of $\subseteq$, since for many mathematicians $\subset$ means strict inclusion. I see this preference for $\subset$ all over the nLab in fact; has this been discussed somewhere?)
+
+[[Tim Porter|Tim]]:  I did not originate the poset based description as I always think of things as being paths through the $N$-simplex from $i$ to $j$ and then use a rewrite idea for the link.  I will try to clean up the poset definition a bit and see if it helps, otherwise we can switch to the path based description and use the poset as a second way. I'm not bothered either way.
+
+Some minutes later!  Does this read well now?
+
 =--
 
-  This interprets as the simplicial set of paths from $i$ to $j$. For such a path the corresponding $I$ is the set of vertices visited by the path, so $I\subset J$ means that the path for $J$ is a 'subdivided' version of that for $I$. The simplicial set $N(P_{i,j})$ is isomorphic to the $j-i-1$ cube $\Delta[1]^{j-i-1}$. (We will look at an example after this definition.)
+ The simplicial set $N(P_{i,j})$ is isomorphic to the $j-i-1$ cube $\Delta[1]^{j-i-1}$. (We will look at an example after this definition.)
 
 * the composition operation is induced by 'composition of the corresponding paths' and thus essentially by union of the sets involved.
+
+#Remark:# in case you are wondering why we did not just say $P(i,j)$ was the poset of subsets of the set of elements between $i$ and $j$, it is because of the composition.  Of course, it can be done but looks more messy.
 
 #Example and (hopefully) explanation#
 
