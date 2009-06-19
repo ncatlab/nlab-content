@@ -16,6 +16,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * added the example of the bar construction of a group $G$ as the nerve of $\mathbf{B} G$ to [[nerve]]
+
+  * added illustration to [[Kan fibration]]
+
   * added illustrative diagrams to [[boundary of a simplex]] and [[horn]]
 
   * added a section with details on ordinary nerves of ordinary categories to [[nerve]]
