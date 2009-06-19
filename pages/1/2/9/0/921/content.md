@@ -1,6 +1,4 @@
-[[!redirects real numbers]]
-
-# Idea #
+## Idea ##
 
 A real number is an approximation of a rational number.  (This is if you use the usual ordering of rational numbers; others will give the idea of $p$-[[p-adic number|adic numbers]].)
 
@@ -11,3 +9,8 @@ A big project of the 19th century (at least in hindsight) was the 'arithmetisati
 A more modern approach is instead to characterise the properties that the set of real numbers must have and to prove that this is categorical (unique up to a unique bijection preserving those properties).  Then the important result of the 19th century programme is simply that this is consistent (that there exists at least one such set).  One can even use Hilbert\'s or Tarski\'s axioms for geometry to do this, coming full circle.
 
 Exactly how to define or characterise real numbers is still important in [[constructive mathematics]] and [[topos]] theory.  We should consider possible definitions (including those that don\'t make the numbers primary) and their consequences below, but I\'m done writing for now.
+
+
+[[!redirects real line]]
+[[!redirects real number line]]
+[[!redirects real numbers]]
