@@ -45,4 +45,6 @@ _Toby_:  That seems like a wild idea to me, but it does seem to be what he\'s sa
 
 _Eric_: There is something about Kan extension that reminds me of some kind of linear least squares. I started trying to make it explicit by building an example with finite-dimensional vector spaces. I placed the example at [[functor]]. It seems like left and right Kan extensions are like left and right inverses (which in my universe means linear least squares).
 
+_Daniel_: Eric, I don't understand why you wrote on  [[functor]] specificaly about linear least squares, it doesn't seem to have any special relation to do with what I found [on wikipedia](http://en.wikipedia.org/wiki/Linear_least_squares), other then being just a general observation about linear spaces.
+
 category: reference
