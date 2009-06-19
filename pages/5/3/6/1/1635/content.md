@@ -221,6 +221,9 @@ There is an isomorphism between $\pi_n(X)$ as defined above and $H_{n-1}(\mathca
 
 +-- {: .query}
 The fact that the n-1th homology of $NG(X)$ is $\pi_n(X)$ in the reduced case is, for me, a strong argument to **define** the type of object that should be studied to be $H_{n-1}(NG(X))$ in general, that is to take ALL the base points at once and to consider the result as a groupoid which is the disjoint union of the homotopy groups at the various base points. That leads to a neat theory when you look for models of homotopy n-types.  If 'properly' done the $\pi_1$ is then the fundamental groupoid, and you get all the change of base point actions in the same set of machinery. What do you all think?  _ Tim
+
+[[Urs Schreiber|Urs]]: Sounds very good. Maybe you can eventually rearrange the entry to make that the viewpoint to start with and derive the more traditional description from that.
+
 =--
 
 
