@@ -224,6 +224,7 @@ The fact that the n-1th homology of $NG(X)$ is $\pi_n(X)$ in the reduced case is
 
 [[Urs Schreiber|Urs]]: Sounds very good. Maybe you can eventually rearrange the entry to make that the viewpoint to start with and derive the more traditional description from that.
 
+[[Tim Porter|Tim]]: The thing I like about that approach is that it combines the idea of algebraic processes (concatenation of the strings in the free groupoids) and the recombination via geometric simplices in higher dimensions giving rewrites.  That is a good neat elegant combination.
 =--
 
 
