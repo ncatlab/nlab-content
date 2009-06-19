@@ -15,7 +15,11 @@ restriction.
 * There is an alternative 'dual' form of this with $\bigcap_{i=0}^{n-1}Ker\,d_i^n$ and with the boundary /  differential $\partial$ induced by the last face map $d^n_n$. The theories run parallel but the fact there are two valid forms can be confusing for the formulae for various derived structures. 
 
 
-*  The notation $NG$ is quite widely used in the literature but can get confused with that sometimes used for the nerve functor, so care is needed. We have therefore used a $\mathcal{N}$. (The $N$ stands for 'normalised'.)
+*  The notation $N G$ is quite widely used in the literature but can get confused with that sometimes used for the nerve functor, so care is needed. We have therefore used $\mathcal{N}$ below. (The $N$ stands for 'normalised'.)
+
++-- {: .query}
+Dang, my fault; I read it as nerve on [[crossed complex]] and so changed it.  I would use $\mathcal{N}$ for the nerve, as discussed ... somewhere.  (Sorry, I have to run, or I would fix it now.  If you change it back, remember to use a space: `$N G$` instead of `$NG$`.)
+=--
 
 
 #Discussion#
