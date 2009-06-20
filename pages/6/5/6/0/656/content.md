@@ -21,10 +21,10 @@ Second: bimodules are not that much good unless you can compose them; for that o
 
 * Let $\hat{C} = Set^{C^{op}}$; the objects of $\hat{C}$ are "generating functions" that assign to each object of $C$ a set.  Every bimodule $f:D^op \times C \to Set$ can be curried to give a Kleisli arrow $\tilde{f}:C \to \hat{D}$.  Composition of these arrows corresponds to convolution of the generating functions. 
 
-+--{.query}
-[[Todd Trimble|Todd]]: I am not sure what is trying to be said with regard to "convolution". I know about Day convolution, but this is not the same thing. 
+  +--{.query}
+  [[Todd Trimble|Todd]]: I am not sure what is trying to be said with regard to "convolution". I know about Day convolution, but this is not the same thing. 
 
-Also, with regard to "Kleisli arrow": I understand the intent, but one should proceed with caution since there is no global monad $C \mapsto \hat{C}$ to which Kleisli would refer. Again there are size issues that need attending to.
-=--
+  Also, with regard to "Kleisli arrow": I understand the intent, but one should proceed with caution since there is no global monad $C \mapsto \hat{C}$ to which Kleisli would refer. Again there are size issues that need attending to.
+  =--
 
 * Let $V = Vect$ and let $C = \mathbf{B}A_1$ and $D = \mathbf{B}A_2$ be two one-object $Vect$-enriched categories, whose endomorphism vector spaces are hence [[algebra]]s. Then a $C$-$D$ bimodule is a vector space $V$ with an action of $A_1$ on the left and and action of $A_2$ on the right.
