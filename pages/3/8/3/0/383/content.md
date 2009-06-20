@@ -1,3 +1,3 @@
 See [[Mike Shulman]].
 
-category: redirect
+category: delete
