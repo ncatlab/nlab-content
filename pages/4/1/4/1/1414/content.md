@@ -133,3 +133,6 @@ Any 2-category can be thought of as a simplicially enriched category and the Dus
 In the meantime, I suggest we keep the term h.c. nerve although it is probably not 'best possible'.
 I agree that 'simplicial nerve'  is probably not a good term.
 =--
+
+
+[[!redirects nerve of a simplicial category]]
