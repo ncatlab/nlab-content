@@ -23,3 +23,7 @@ Category theory can provide a common [[model theory]] to compare all of these no
 #Remarks#
 
 * There is also [[algebraic set theory]].
+
+
+[[!redirects material set theory]]
+[[!redirects structural set theory]]
