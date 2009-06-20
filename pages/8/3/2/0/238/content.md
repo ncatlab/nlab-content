@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-20 #
 
+*  [[Tim Porter|Tim]]: Finally I have created [[2-crossed complex]], and in the process needed to create [[normal complex of groups]].  What would be nice is to work out exactly what $\infty$/$\omega$-groupoids correspond to 2-crossed complexes. Any ideas?  (It probably is obvious viewed from the right perspective but I fear I do not yet have the right perspective to say 'aha!') I can characterise these objects in homotopy theoretic language, but really would like some neat way of describing them in $\infty$-cat terms.
+
 * [[Todd Trimble]]: asked a question of [[Mike Shulman|Mike]] and [[Toby Bartels|Toby]] over at [[cyclic order]]. 
 
 *  [[Toby Bartels]]:
