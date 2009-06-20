@@ -25,3 +25,11 @@ See also my [private $n$Lab area](http://ncatlab.org/timporter/show/HomePage), w
 Other goodies there include parts of a draft monograph on profinite homotopical algebra, and a (slightly reformatted) version of a research proposal from 2002, that did not get funded, but may be useful as it does have some ideas in it (or related to it) that are worth pursuing especially since the recent progress on the cobordism and TQFT problems.
 
 category: people
+
+
+[[!redirects   Tim Porter]]
+[[!redirects Timothy Porter]]
+[[!redirects Tim]]
+[[!redirects Tim Porrter]]
+[[!redirects Tim Portr]]
+[[!redirects Tim  Porter]]
