@@ -17,3 +17,5 @@ To model the homotopy 3-type of a space, we can use either a [[2-crossed module]
  
  
  A  2-crossed complex morphism is defined in the obvious way, being compatible with all the actions, the pairings and Peiffer liftings.  We will denote by $2-Crs$, the corresponding category. 
+
+(MORE TO COME.)
