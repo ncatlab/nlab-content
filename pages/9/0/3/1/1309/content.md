@@ -47,6 +47,10 @@ _Toby_:  Doubting a $\le$ version and believing that reflecting linear orders is
 This is the point that I stumbled on in the blog discussion on the cyclic category almost exactly two years ago, when I attempted to give my own description of $\Lambda$ (but using a cyclic analogue of total orders, which you two have challenged readers to give). You can see my attempted description [here](http://golem.ph.utexas.edu/category/2007/06/the_curious_incident_of_the_do.html#c010503), and my retraction [here](http://golem.ph.utexas.edu/category/2007/06/the_curious_incident_of_the_do.html#c010511). 
 
 _Toby_:  The problem is that the $0$-cycle (unlike the $[0]$-simplex) should not be a point but instead have a nontrivial loop, is that right?  And so it\'s not terminal, since a map to it from $[n]$ really consists of $n + 1$ binary choices (whether to be a degeneracy or to map to the nontrivial loop).
+
+_Todd_: I'm sorry -- I must be making some embarrassingly stupid mistake -- but I still don't follow. What loop? For the 1-element set {t}, there are only two ternary relations. The relation consisting of the point (t, t, t) cannot be a cyclic order by irreflexivity. So the only cyclic order is the empty one (which seems to be vacuously allowed by the axioms). And it seems that the condition that the unique map f: C --> {t} is monotone [by Mike's definition], for any cyclically ordered set C, is vacuously satisfied. 
+
+Trust me -- I want you guys to be right, because I think that the definition of $\Lambda$ I attempted two years ago is (in classical logic) equivalent to yours (although I should check that carefully) -- and I was disappointed when I thought it failed. 
 =--
 
 # Remarks #
