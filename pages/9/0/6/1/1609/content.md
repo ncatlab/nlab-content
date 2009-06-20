@@ -22,11 +22,15 @@ Compare the notion of [[locally partially ordered category]].  A partially order
   inverse is the reverse isomorphism.
 
 +-- {: .query}
-[[Mike Shulman|Mike]] (with [[Toby Bartels|Toby]], as editor, concurring): What you call a "category with inverses" is the same as a [[dagger category]] in which every isomorphism is unitary.
+[[Mike Shulman|Mike]] (edited by [[Toby Bartels|Toby]], who concurs): What you call a "category with inverses" is the same as a [[dagger category]] in which every isomorphism is unitary.
 
 The name "inverses" doesn't really seem appropriate, since they are not (necessarily) inverses in the sense with which that word is generally used in category theory.  They could be, of course, but most interesting dagger categories are not groupoids.
 
-[[VictorPorton|Victor]]: So suggest me how to rename "category with inverses". I have not yet published (only put on my Web site) the article where I define "category with inverses". So it is yet not late to rename. My email: porton@narod.ru.
+>[[VictorPorton|Victor]]: So suggest me how to rename "category with inverses". I have not yet published (only put on my Web site) the article where I define "category with inverses". So it is yet not late to rename. My email: porton@narod.ru.
+
+>_Toby_: How about 'category with duals'?  That\'s a vague term that some people use to mean a dagger category but which can have other meanings, like a dagger compact category, which is more specific.  So it should be available for use in one paper or another for another concept more specific than dagger category, such as yours.  (Using a vague term leaves open the possibility of changing it later, or other people calling it a 'Porton category' if it really takes off, or even deciding that you want to write only about dagger categories later.)  But I think that it would definitely be best to speak of the 'dual' rather than the 'inverse' of a morphism, since 'inverse' is so widely used for what you have called the 'reverse isomorphism'.  That is, if you say 'every morphism has an inverse', then people will easily get confused, but not if you say 'every morphism has a dual'.
+
+>Another possibility: 'unitary dagger category'.  (Or see if what you\'re doing actually makes sense for arbitrary dagger categories and then use those.)
 
 Preservation of identities is automatic once you have an involution that preserves binary composition.
 $$
