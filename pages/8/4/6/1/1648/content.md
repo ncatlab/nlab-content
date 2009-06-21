@@ -59,6 +59,8 @@ _Daniel_:I am trying to understand why Kan extension were used in that way to de
 
 _Eric_: It looks like you're making good progress! I'm still trying to understand Kan extensions. I'm even still shaky on functors :) My goal is to start with the linear map examples on [[functor]], i.e. one-object [[endomorphism|full subcategories]] of [[FinVect]] and see what Kan extension means there. I wouldn't be broken hearted if someone spoiled the fun and explained it.
 
+_Daniel_: Actualy no! I am trying to understand Kan extensions going backwards from QM! I am just waiting to someone to tell me if the above makes sense. Otherwise, I will remain completely confused as I am indeed now... Worse, people can take seriously what I wrote! 
+
 ***
 
 _Eric_: There is something about Kan extension that reminds me of some kind of linear least squares. I started trying to make it explicit by building an example with finite-dimensional vector spaces. I placed the example at [[functor]]. It seems like left and right Kan extensions are like left and right inverses (which in my universe means linear least squares).
