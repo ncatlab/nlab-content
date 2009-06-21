@@ -57,6 +57,12 @@ $$
   \,.
 $$
 
++--{.query}
+
+[[Todd Trimble|Todd]]: I really think the notation ought to be $ p^* $, not $ p_* $. Normally the superscript form is used for pulling back in the direction opposite to $p$. For example, in the article [[preimage]], we have $ f^* = f^{-1}: P B \to P A $ where $f: A \to B$, where we could equally well write $ f^* = hom(f, 2): hom(B, 2) \to hom(A, 2) $. This is an instance of precomposition, so we should correspondingly write $ p^* = [p, D]: [C', D] \to [C, D] $.
+
+=--
+
 The [[adjoint functor|left adjoint]] to $p_*$ is **left Kan extension** along $p$ of functors
 $$
   Lan = Lan_p : [C,D] \to [C',D]
