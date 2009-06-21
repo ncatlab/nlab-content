@@ -79,5 +79,7 @@ $$F = F'\circ p + \epsilon.$$
 
 We want to find $F':C'\to D$ that minimizes $\epsilon$.
 
+Question: How could you express this in a more general category-theoretic way?
+
 
 category: reference
