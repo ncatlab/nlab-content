@@ -81,5 +81,11 @@ We want to find $F':C'\to D$ that minimizes $\epsilon$.
 
 Question: How could you express this in a more general category-theoretic way?
 
+_Toby_:  OK, maybe I have a better idea what you mean now.  In particular, just as there are left and right Kan extensions, there are really also two kinds of linear least squares.  Looking at [this picture from Wikipedia](http://commons.wikimedia.org/wiki/File:Linear_least_squares_example2.png) for reference, instead of minimising the (squares of the) lengths of the *vertical* lines marked, we could just as easily minimise the (squares of the) lengths of corresponding *horizontal* lines.  It is a (sometimes rather arbitrary) distinction between dependent and independent variable that tells us which to use.
+
+Also, looking at your example at [[functor]], it occurs to me that at some point you\'ll have to deal with the fact that linear least squares doesn\'t happen in [[Vect]]; it happens in [[Hilb]] (or at least in [[Ban]]).  That is, to minimise $\epsilon$, you\'ve got to be able to measure the size (norm) of $\epsilon$.  And that\'s where all of those transpose matrices in formulas for linear least squares get in.
+
+Anyway, I wouldn\'t rule out a priori the idea that linear least squares might be given by a Kan extension, but I\'m not seeing it yet myself.  But at least I see what is the analogy that is exciting you.
+
 
 category: reference
