@@ -119,5 +119,6 @@ To be described:
 *  $Ban$ as a (somewhat larger) category with duals.
 
 
+[[!redirects Ban]]
 [[!redirects normed vector space]]
 [[!redirects pseudonormed vector space]]
