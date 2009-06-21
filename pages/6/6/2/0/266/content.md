@@ -1,4 +1,4 @@
-#Idea#
+##Idea#
 
 The _Kan extension_ of a [[functor]]
 $F : C \to D$ with respect to a functor
@@ -26,7 +26,7 @@ $$
 $$
 i.e. to extending the domain of $F$ through $p$ from $C$ to $C'$.
 
-## Local and global definition ##
+## Local vs global ##
 
 As for the definition of [[limit]] (and [[homotopy limit]]) and induced from the _local_ definition of [[adjoint functor]]s, there is a _local_ definition of what Kan extension means, which applies to every single functor, and there is a _global_ definition, which applies to the category of all functors. If the local Kan extension of every single functor exists for some category, then both definitions coincide. 
 
@@ -34,7 +34,7 @@ In particular, the _global_ definition of Kan extension is a direct generalizati
 
 
 
-#Definition#
+##Definitions#
 
 We give the following three definitions, which are equivalent in good situations
 
@@ -49,7 +49,7 @@ We give the following three definitions, which are equivalent in good situations
   * Kan extension as the adjoint to pullback of functor categories;
 
 
-## Global definition: adjoint to pullback of functor categories ##
+### Global: adjoint to pullback of functor categories ##
 
 The functor $p : C \to C'$ induces, by precomposition, a functor between [[functor category|functor categories]]
 $$
@@ -60,6 +60,8 @@ $$
 +--{.query}
 
 [[Todd Trimble|Todd]]: I really think the notation ought to be $ p^* $, not $ p_* $. Normally the superscript form is used for pulling back in the direction opposite to $p$. For example, in the article [[preimage]], we have $ f^* = f^{-1}: P B \to P A $ where $f: A \to B$, where we could equally well write $ f^* = hom(f, 2): hom(B, 2) \to hom(A, 2) $. This is an instance of precomposition, so we should correspondingly write $ p^* = [p, D]: [C', D] \to [C, D] $.
+
+_Toby_: Yes, I would think so as well; and this fits into a much wider theory, like [[geometric morphism]]s of topoi.  It also gives us the notation $p_*$ for the left Kan extension and $p_!$ for the right Kan extension.  But see the **remark on terminology** below for the other side, I guess.
 
 =--
 
@@ -83,7 +85,7 @@ $$
 i.e. a (co)representative of the functor $Hom_{[C,D]}(F,p_*(-))$. Similarly, right Kan extensions along $p$ may exist only for some $F$.
 
 
-## Local definition: in terms of universal natural transformations ##
+### Local: in terms of universal natural transformations ##
 
 The above global definition _implies_ the following property:
 
@@ -104,15 +106,16 @@ It is clear that the definition in this form makes sense in every 2-category. In
 
 This version of the definition clearly makes sense in any [[2-category]].
 
-**Warning.** While this property is implied by the above global definition, it does not itself imply the global definition. For emphasis this definition here is sometimes called a **weak Kan extension** instead. See also the comment in the following section.
++-- {: .un_remark}
+###### Warning
+
+While this property is implied by the above global definition, it does not itself imply the global definition. For emphasis this definition here is sometimes called a **weak Kan extension** instead. See also the comment in the following section.
+=--
 
 
-
-## Local definition: pointwise definition in terms of weighted (co)limits ##
+### Local: pointwise in terms of weighted (co)limits ##
 
 We give now a list of ways to express the Kan extension of a functor in terms of [[weighted limit|weighted]] [[limit|(co)limit]]s. These definitions apply in particular in the case that of $V$-[[enriched category theory]] for $V$ a [[closed monoidal category|closed]] [[symmetric monoidal category]].
-
-### in terms of weighted (co)limit###
 
 The right Kan extension of a functor $F : C \to D$ along $p : C \to C'$ is at $c' \in C'$ the [[weighted limit]] over $F$ with weight $\hat p_{c'} : C^{op} \stackrel{C'(c',p(-))}{\to}  V$
 $$
@@ -127,7 +130,7 @@ $$
   \,.
 $$
 
-### in terms of ends and coends ###
+### Local: pointwise in terms of (co)ends ###
 
 If the $V$-[[enriched category]] $D$ is [[power]]ed over $V$, then the above weighted limit may be re-expressed in terms of an [[end]] as
 
@@ -151,7 +154,7 @@ $$
   \,.
 $$
 
-### in terms of (co)limits over comma-categories ###
+### Local: in terms of (co)limits over comma-categories ###
 
 
 In the special case that $V = Set$, and only then, there is an expression of the Kan extension as a (co)limit over a [[comma category]].
@@ -176,7 +179,11 @@ $$
 Here $(const_{c'}/p)$ and $(p/const_{c'})$ are [[comma category|comma categories]] in the notation described there.
 
 
-**Warning.** Note, however, that _not_ all _weak Kan extensions_ (in the universal-transformation sense defined above) are computed in this way, and weak Kan extensions can exist even when $D$ does not admit very many limits.  For instance, the weak Kan extensions that arise in the study of [[derived functor]]s are not computed in this way.
++-- {: .un_remark}
+###### Warning
+
+Note, however, that _not_ all _weak Kan extensions_ (in the universal-transformation sense defined above) are computed in this way, and weak Kan extensions can exist even when $D$ does not admit very many limits.  For instance, the weak Kan extensions that arise in the study of [[derived functor]]s are not computed in this way.
+=--
 
 Kan extensions that are computed by limits and colimits are sometimes called **pointwise** Kan extensions, as in [[Categories Work]].  On the other hand, some authors (such as Kelly) assert that only pointwise Kan extensions deserve the name "Kan extension," and use a term such as "weak Kan extension" for a functor equipped with a universal natural transformation.  It is certainly true that most Kan extensions which arise in practice are pointwise.  This distinction is even more important in [[enriched category]] theory.
 
@@ -187,7 +194,7 @@ Kan extensions that are computed by limits and colimits are sometimes called **p
 
 
 
-# Definition in $(\infty,1)$-categories #
+### in $(\infty,1)$-categories #
 
 The global definition of Kan extensions for
 $(\infty,1)$-functors in terms of left/right adjoints to pullbacks may be interpreted essentially verbatim in the context of [[(infinity,1)-category|(infinity,1)-categories]] using the corresponding notion of [[limit in quasi-categories]].
@@ -195,7 +202,7 @@ $(\infty,1)$-functors in terms of left/right adjoints to pullbacks may be interp
 Details are in [section 4.3, p. 215](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=215)  of [[Higher Topos Theory|HTT]].
 
 
-#Examples#
+##Examples#
 
 * For $C' = $ the [[point]], the right Kan extension of $F$ is the [[limit]] of $F$, $Ran F \simeq \lim F$ and the left Kan extension is the [[colimit]] $Lan F \simeq colim F$.
 
@@ -203,7 +210,7 @@ Details are in [section 4.3, p. 215](http://arxiv.org/PS_cache/math/pdf/0608/060
 
 * see also [[examples of Kan extensions]]
 
-### basic example: restriction and extension of sheaves ###
+### restriction and extension of sheaves ###
 
 For more on the following see also 
 
@@ -219,7 +226,7 @@ which is a sheaf and one can analyze this construction to show that $f^{-1}$ is 
 
 
 
-#Remark on terminology: pushforward vs. pullback#
+##Remark on terminology: pushforward vs. pullback#
 
 Generally, for $p : C \to C'$ a [[functor]], the induced functor on [[functor category|functor categories]]
 $$
@@ -262,7 +269,7 @@ It is however noteworthy that also the opposite perspective does occur in geomet
 This means that whether or not Kan extension corresponds geometrically to pushforward or to pullback depends on the way (covariant or contravariant) in which the domain categories $C$, $C'$ are identified with geometric entities.
 
 
-#References#
+##References#
 
 See for instance section 2.3 in 
 
