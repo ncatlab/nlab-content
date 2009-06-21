@@ -53,6 +53,8 @@ _Todd_: I'm sorry -- I must be making some embarrassingly stupid mistake -- but 
 Trust me -- I want you guys to be right, because I think that the definition of $\Lambda$ I attempted two years ago is (in classical logic) equivalent to yours (although I should check that carefully) -- and I was disappointed when I thought it failed. 
 
 _Toby_:  It\'s also possible that I\'m making an embarrassingly stupid mistake, but if you\'re making one, then it\'s probably missing my word 'should'.  I agree with you that there is a unique cyclic order (as defined here) on the $1$-element set and that this gives the terminal cyclically ordered set.  What I\'m not certain about is that I understand what the cycle category is supposed to be, but is it right that the $1$-element cycle (the $0$-cycle) *should* have a nontrivial loop?  Because if so, then I understand what your objection is!
+
+_Todd_: Part of the problem is that I don't have a deep feeling myself for Connes' $\Lambda$. But David Ben-Zvi (I believe) mentioned on the blog that $\Lambda$ has the homotopy type of a circle, meaning I guess that the classifying space of the nerve $B N \Lambda$ has this homotopy type. But the classifying space of a category with a terminal object is contractible. That's the point where I got worried about my own construction, and it's a worry for me here as well: terminal objects would seem to be fatal.
 =--
 
 # Remarks #
