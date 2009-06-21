@@ -91,5 +91,7 @@ Also, looking at your example at [[functor]], it occurs to me that at some point
 
 Anyway, I wouldn\'t rule out a priori the idea that linear least squares might be given by a Kan extension, but I\'m not seeing it yet myself.  But at least I see what is the analogy that is exciting you.
 
+_Eric_: It would be neat if you could use an intrinsic property of categories, e.g. maybe Leinster measure, to minimize $\epsilon$ rather than depend on a metric within the objects of the category. I seem to remember something about "Hom" behaving like a metric in some circumstances (?)
+
 
 category: reference
