@@ -93,5 +93,5 @@ Trans. Amer. Math. Soc. 291 (1985), no. 1, 281--289.
 * Z. Fiedorowicz, J-L. Loday, Jean-Louis, Crossed simplicial groups and their associated homology,  Trans. Amer. Math. Soc.  326  (1991),  no. 1, 57--87.
 
 
+[[!redirects Connes' cyclic category]]
 [[!redirects category of cycles]]
-[[!redirects cycle category]]
