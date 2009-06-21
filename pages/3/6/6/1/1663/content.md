@@ -17,11 +17,11 @@ To model the [[homotopy 3-type]] of a space, we can use either a [[2-crossed mod
 
  
  
- A  2-crossed complex morphism is defined in the obvious way, being compatible with all the actions, the pairings and Peiffer liftings.  We will denote by $2-Crs$, the corresponding category. 
+ A  2-crossed complex morphism is defined in the obvious way, being compatible with all the actions, the pairings and Peiffer liftings.  We will denote by $2 Crs$, the corresponding category. 
 
 ##Examples:#
 
-* As any [[crossed module]] gives a [[2-crossed module]] with trivial Peiffer lifting (see the entry on [[2-crossed module]]), it is not unexpected that any [[crossed complex]] can be considered as a 2-crossed complex with trivial Peiffer lifting. This gives an embedding of the category $Crs$ into the category $2-Crs).  This embedding has a left adjoint given by 'killing off' the Peiffer lifting.
+* As any [[crossed module]] gives a [[2-crossed module]] with trivial Peiffer lifting (see the entry on [[2-crossed module]]), it is not unexpected that any [[crossed complex]] can be considered as a 2-crossed complex with trivial Peiffer lifting. This gives an embedding of the category $Crs$ into the category $2 Crs$).  This embedding has a left adjoint given by 'killing off' the Peiffer lifting.
 
 * Any 2-crossed module clearly gives a 2-crossed complex (with trivial 'tail').
 
