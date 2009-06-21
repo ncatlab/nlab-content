@@ -73,4 +73,11 @@ _Eric_: Hi Toby and Daniel, linear least squares is what you think it is and is 
 
 In my work, we often have a bunch of time series representing prices of financial securities. We also have time series of financial/economic factors and we try to explain the prices in terms of factors. There are not enough factors to find a true "inverse", but we do "the best we can". That spirit of doing "the best we can" sounded very close to what John was describing. That's all I was trying to say.
 
+_Eric_: Here's how I think of it (which may be completely misguided). Given $F:C\to D$ and $p:C\to C'$, and an expression (in the linear case)
+
+$$F = F'\circ p + \epsilon.$$
+
+We want to find $F':C'\to D$ that minimizes $\epsilon$.
+
+
 category: reference
