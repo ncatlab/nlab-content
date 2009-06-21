@@ -101,7 +101,25 @@ If $X$ is a [[topological space]], the intersection of all $\sigma$-algebras whi
 If $X$ is any measurable space, then a _measurable function_ from $X$ to $\mathbb{R}$ is generally taken to refer to Borel sets in $\mathbb{R}$; then $f$ is measurable if and only if $f^{-1}(U)$ is measurable whenever $U \subseteq \mathbb{R}$ is open. The convention is similar if $\mathbb{R}$ is replaced by the space of extended reals $[-\infty, \infty]$, or by the space of complex numbers $\mathbb{C}$.
 
 
-## In alternative fondations
+## In alternative foundations
+
+While Lebesgue measure on $\mathbb{R}^n$ can be done in very weak [[foundations]], a general theory of measure and measurable spaces seems to require very powerful [[set theory|set-theoretic]] machinery.  Indeed, not much seems to be possible in [[predicative mathematics|predicative]] contexts, and the (nonpredicative) [[constructive mathematics|constructive]] theory is noticeably more complicated than the classical theory.  On the other hand, the classical theory has its own complications, with nonmeasurable sets and functions that can be proved to exist but which seem to never arise in practice.  Instead, there are classically false but apparently consistent foundations in which measure theory is extremely simple.
+
+
+### Predicative theory
+
+...
+
+
+### Constructive theory
+
+...
+
+
+### In dream universes
+
+...
+
 
 ... coming ...
 
