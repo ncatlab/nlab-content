@@ -14,6 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-22 #
 
+* [[Urs Schreiber|Urs]]: 
+
+  * added the detailed formal proof to [[abelian sheaf cohomology]] that shows how it is sitting as a special case inside the more conceptual [[nonabelian cohomology]] (= hom-sets of [[infinity-stack]]s, really)
+
+    * in this context I also rewrote the "Idea" section in the desire to drive home the main point better, but without removing the previous material. As a result the text of the entry is now somewhat repetitive, I am afraid. Maybe a little later, when I have more distance to it, I'll try to trim it down again. Or else, maybe one of you feels like polishing it.
+
 *  [[Toby Bartels]]:  Wrote [[Moore closure]], since I linked it and it\'s a neat idea.  As I was writing it, I realised that it was more abstract than what I\'d been writing lately and must correspond to something very nice categorially; by the time I was done, I realised what it was: a special case of a [[monad]].  Then I saw that there were really no examples of monads on our page!, so I added a few, but the majority of examples of monads on the wiki now are Moore closures.  (And believe me, Moore closures are everywhere.)  Anyway, if you\'re trying to understand what monads are, why not try [[Moore closure]]s first?
 
 * [[Urs Schreiber|Urs]]
