@@ -109,4 +109,26 @@ In fact, you could even say the challenge is to find an $F'$ such that $F'p$ is 
 
 It would be neat if we could eventually say something like "Kan extension is our best attempt to find a functor $F':C\to C'$ such that $F'p$ and the residual $\epsilon$ are orthogonal." Or something...
 
+_Eric_: Here is an example from the world of time series. Maybe it can be a model for a more general construction. Say we have two time series $x$ and $y$ and we would like to find the constant $b$ that minimizes the variance of $a$ in the expression
+
+$$y = a + b x.$$
+
+This problem is equivalent to finding $b$ such that $bx$ and $a$ are uncorrelated, i.e. their covariance is zero. The computation is simple
+
+$$cov(y,x) = cov(a,x) + b cov(x,x).$$
+
+Setting
+
+$$b = \frac{cov(y,x)}{cov(x,x)}$$
+
+gives 
+
+$$cov(a,x) = 0.$$
+
+My suspicion is that this is somehow related to Kan extension.
+
+Note: See also an article I wrote while ago:
+
+<a href="http://phorgyphynance.wordpress.com/2008/02/10/visualizing-market-risk-a-physicists-perspective/">Visualizing Market Risk: A Physicists Perspective</a>
+
 category: reference
