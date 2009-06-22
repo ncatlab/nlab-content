@@ -57,4 +57,8 @@ Many entries are [stubs](http://en.wikipedia.org/wiki/Wikipedia:Stub)!
 
 See the [[HowTo]] page for information on how to contribute to the $n$Lab and edit and/or create its entries.
 
+#Organization of the $n$Lab#
+
+* see [[organization of the nLab]]
+
 category: meta
