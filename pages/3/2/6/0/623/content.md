@@ -14,7 +14,7 @@ of $G$ is a [[chain complex]]
 
 * whose boundary map is literally that: it sends an $n$-disk to its boundary, read as an $(n-1)$-disk whose entire boundary is concentrated at the identity point.
 
-
+This is entirely analogous to how a [[crossed complex]] is obtained from a [[strict omega-groupoid]].
 
 #Definition#
 
