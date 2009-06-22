@@ -61,9 +61,11 @@ $$
 
 [[Todd Trimble|Todd]]: I really think the notation ought to be $ p^* $, not $ p_* $. Normally the superscript form is used for pulling back in the direction opposite to $p$. For example, in the article [[preimage]], we have $ f^* = f^{-1}: P B \to P A $ where $f: A \to B$, where we could equally well write $ f^* = hom(f, 2): hom(B, 2) \to hom(A, 2) $. This is an instance of precomposition, so we should correspondingly write $ p^* = [p, D]: [C', D] \to [C, D] $.
 
-_Toby_: Yes, I would think so as well; and this fits into a much wider theory, like [[geometric morphism]]s of topoi.  It also gives us the notation $p_*$ for the left Kan extension and $p_!$ for the right Kan extension.  But see the **remark on terminology** below for the other side, I guess.
+_Toby_:  Yes, I would think so as well; and this fits into a much wider theory, like [[geometric morphism]]s of topoi.  It also gives us the notation $p_*$ for the left Kan extension and $p_!$ for the right Kan extension.  But see the **remark on terminology** below for the other side, I guess.
 
 _Todd_: IMHO, the example of sheaves on a space seems a bit loaded, since there one homs an arrow $f$ into something twice (once into Sierpinski space, bringing one to maps between frames of the form $Open(X)$, and then once again into $Set$), which brings one back to covariance. The general situation just homs into something once. As it stands, the notation above really goes against the grain of established conventions, methinks.
+
+_Toby_:  Yeah, well, *I* certainly won\'t mind if you change it!  (^_^)
 
 =--
 
