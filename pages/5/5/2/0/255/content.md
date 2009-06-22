@@ -1,8 +1,8 @@
-#Definition#
+##Definition#
 
 A _monad_ in any [[bicategory]] $B$ is a [[monoid]] in the endomorphism category on an object of $B$.
 
-#Explicit description#
+##Explicit description#
 
 This means that a monad is
 
@@ -46,7 +46,16 @@ Monads in $Cat$ are sometimes, mostly in older literature, also called **triple*
 * We can picture a monad in $B$ as an image of the [[oriental|third oriental]] in $B$. See the remarks at [[monoidal category]].
 
 
-#Algebra over a monad#
+## Examples
+
+Monads on [[partial order|posets]] are particularly simple.  In fact, monads on [[power set]]s are extremely common throughout mathematics; they are known in less categorially-inclined circles as [[Moore closure]]s, and there are many examples there.
+
+Every [[algebraic theory]] with a notion of free algebra defines a monad on [[Set]].  For example, the operation taking a set $S$ to the underlying set of the [[free group]] on $S$ may be extended to a monad.
+
+An [[internalization|internal]] monad on the [[subobject classifier]] of a [[topos]] $E$ is a [[Lawvere-Tierney topology]] on $E$.
+
+
+##Algebras over a monad#
 
 Given that a monad in $B$ is nothing but a [[monoid]] in a hom-category $B(a,a)$, it is natural to consider [[module]]s over this monad.  This notion of module is more general than a module in a monoidal category, however, since they need not live in $B(a,a)$ but can be in $B(b,a)$ (for left modules) or $B(a,c)$ (for right modules).
 
@@ -54,7 +63,7 @@ In a Cat-like bicategory, left modules over a monad are usually called _algebras
 
 Some monads arise from [[operad]]s, in which case algebras for the monad are the same as algebras for the operad.  A [[Lawvere theory]] is another special sort of monad in $Cat$.
 
-#References#
+##References#
 
 Introductory slides:
 
