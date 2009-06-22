@@ -56,3 +56,10 @@ This need not exist; in particular, $S_a$ may be empty.  What do we really want 
 
 [[Mike Shulman|Mike]]: Yeah, or we could say that successor is a partial function.  One definition of a limit ordinal is one on which successor is totally defined.
 =--
+
+
+[[!redirects well order]]
+[[!redirects well ordered set]]
+[[!redirects well ordering]]
+[[!redirects well-ordered set]]
+[[!redirects well-ordering]]
