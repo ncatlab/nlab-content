@@ -14,6 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-22 #
 
+*  [[Toby Bartels]]:  A section on [[measurable space]] about the constructive theory due to Cheng.  (This is *not* a straightforward variation on the classical theory but distinctly a generalisation, so may be of interest even to classical mathematicians.)
+
 * [[Urs Schreiber|Urs]] linked to [[normal complex of groups]] by a little lemma now added to [[Moore complex]]
 
 * [[Tim Porter]] added [[normal complex of groups]]
