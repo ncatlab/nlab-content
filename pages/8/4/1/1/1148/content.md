@@ -206,7 +206,7 @@ $$
 
 1. The third step uses that the [[normalized chain complex]] functor $Sh(X,AbSimpGrp) \to Sh(X, Ch_+(Ab))$ is an [[equivalence of categories]] that preserves the respective weak equivalences and homotopies.
 
-1. The fourth step finally uses that the [[stuff, structure, property|forgetful functor]] $Sh(X, SimpAbGrp) \to Sh(X, \infty Grpd)$ that only remembers the [[Kan complex]] underlying a [[simplicial group]] has a [[left adjoint]], the free abelian group functor $\mathbb{Z} : Sh(X,\infty Grpd) \to Sh(X, AbSimpGrp)$ (see [[Dold-Kan correspondence]] for details), and that preserves weak equivalences. 
+1. The fourth step finally uses that the [[stuff, structure, property|forgetful functor]] $Sh(X, SimpAbGrp) \to Sh(X, \infty Grpd)$ that only remembers the [[Kan complex]] underlying a [[simplicial group]] has a [[left adjoint]], the free abelian group functor $\mathbb{Z} : Sh(X,\infty Grpd) \to Sh(X, AbSimpGrp)$ (see [[Dold-Kan correspondence]] for details), and that preserves weak equivalences (see the discussion at [[simplicial group]] for more on that). 
 
 =--
 
