@@ -1,0 +1,3 @@
+The axiom of __countable choice__ is a weak form of the [[axiom of choice]]; it says that the set of [[natural number]]s is a [[projective object]] in [[Set]].  (Recall that the full axiom of choice states that *every* set is projective.)
+
+More explicitly, let $X$ be any [[set]] and let $p: X \to \mathbf{N}$ be a [[surjection]].  Then the axiom of countable choice states that $p$ has a [[section]].
