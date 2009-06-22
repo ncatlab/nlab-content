@@ -16,6 +16,12 @@ _[[essentially algebraic theory|Essentially algebraic theories]]_ allow for part
 
 _[[commutative algebraic theory|Commutative algebraic theories]]_ form an important subclass. Their categories of models are closed: the Hom sets have a natural model-structure, and the enriched Hom-functor has a left adjoint, _tensor-product_. The theory of complete lattices and suprema-preserving functions is an interesting (non-finitary) example.
 
+# Metaphor #
+
+Ring theory is a branch of mathematics with a well-developed terminology. A ring $A$ determines and is determined by an algebraic theory, whose models are left $A$-modules and whose n-ary operations have the form
+$$(x_1,\ldots ,x_n) \to a_1x_1+\ldots +a_n x_n$$
+for some n-ple $(a_1,\ldots ,a_n)$ of elements of $A$. We may call such an algebraic theory **annular**. The pun _model/module_ is due to Jon Beck. The notion that an algebraic theory is a generalized ring is often a fertile one, that automatically provides a slew of suggestive terminology and interesting problems. Many fundamental ideas of ring/module-theory are simply the restriction to annular algebraic theories of ideas that apply more widely to algebraic theories and their models.
+
 # References #
 
 * <span id="Johnstone" markdown="1">Peter Johnstone; Stone Spaces</span>
