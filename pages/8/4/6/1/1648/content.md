@@ -99,5 +99,14 @@ _Toby_:  Well, in a $2$-[[2-Hilbert space|Hilbert space]] (h\'m, doesn\'t exist 
 
 And of course! another way in which $Hom$ can be like a metric is that, in a [[metric space]] (this is described at that link), the metric really *is* the [[hom-object]] operation of a certain [[enriched category]].  That\'s probably what you were thinking of.  The enriching category is a [[poset]] (the poset of nonnegative real numbers under $\geq$), so minimising $\epsilon$ is now like taking a (co)[[limit]].  Say, maybe this will work out!
 
+_Eric_: Neat! The vague gut feeling just got a little clearer, but still extremely fuzzy. Maybe I'll keep talking and something will make sense :)
+
+The idea behind least squares can also be thought of in terms of orthogonal projections, so if we had some kind of intrinsic inner product (involving colimits??) then we could use that to decompose $F$ into $F'p$ and $\epsilon$ where
+
+$$F'p\cdot\epsilon = 0.$$
+
+In fact, you could even say the challenge is to find an $F'$ such that $F'p$ is orthogonal to the residual $\epsilon$. This $F'$ is the "best we can do".
+
+It would be neat if we could eventually say something like "Kan extension is our best attempt to find a functor $F':C\to C'$ such that $F'p$ and the residual $\epsilon$ are orthogonal." Or something...
 
 category: reference
