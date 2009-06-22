@@ -26,6 +26,35 @@ $$
 $$
 i.e. to extending the domain of $F$ through $p$ from $C$ to $C'$.
 
+More generally, this makes sense in any [[2-category]] other than [[Cat]].
+
+Similarly, a [[Kan lift]] is the best approximation to lifting a morphism $F : C \to D$ through a morphism
+
+$$
+  \array{
+    D'
+    \\
+    \downarrow
+    \\
+    D
+  }
+$$
+
+to a morphism $\hat F$
+
+$$
+  \array{
+    && D'
+    \\
+    & {}^{\hat F}\nearrow & \downarrow
+    \\
+    C &\stackrel{F}{\to}& D
+  }
+  \,.
+$$
+
+
+
 ## Local vs global ##
 
 As for the definition of [[limit]] (and [[homotopy limit]]) and induced from the _local_ definition of [[adjoint functor]]s, there is a _local_ definition of what Kan extension means, which applies to every single functor, and there is a _global_ definition, which applies to the category of all functors. If the local Kan extension of every single functor exists for some category, then both definitions coincide. 
@@ -66,6 +95,8 @@ _Toby_:  Yes, I would think so as well; and this fits into a much wider theory, 
 _Todd_: IMHO, the example of sheaves on a space seems a bit loaded, since there one homs an arrow $f$ into something twice (once into Sierpinski space, bringing one to maps between frames of the form $Open(X)$, and then once again into $Set$), which brings one back to covariance. The general situation just homs into something once. As it stands, the notation above really goes against the grain of established conventions, methinks.
 
 _Toby_:  Yeah, well, *I* certainly won\'t mind if you change it!  (^_^)
+
+[[Urs Schreiber|Urs]]: I had written the section _Remark on terminology: pushforward vs. pullback_ below after my original $p^*$ had been changed to $p_*$ by somebody, as far as I remember. I am in favor of having the $p^*$ back. So if we all agree on that, the next one reading this here should just implement the change.
 
 =--
 
