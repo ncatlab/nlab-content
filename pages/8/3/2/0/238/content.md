@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * added an "Idea" section to [[Moore complex]], edited the section headers a bit -- and have a question onm terminology: isn't this really the "normalized chain complex" whereas the Moore complex is the one on all cells with differential the  alternating sum of face maps?
+
   * created [[organization of the nLab]] -- please see there for what this is about (or in fact, see the corresponding [nForum thread](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=36&page=1#Item_2) that is being linked to there)
 
   * added references to Goerss-Jardine's _Simplicial homotopy theory_ to [[Dold-Kan correspondence]] and [[Moore complex]]
