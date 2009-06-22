@@ -71,6 +71,8 @@ If any experts happen to wonder by, Daniel would appreciate any clarification on
    [[Urs Schreiber|Urs]]: I don't really see the 
    point about self-adjointness made here --
 
+   _Daniel_: This is also confusing to me, but since I am trying to think about Quantum Mechanics, I want to understand how a definintion of  Lan and Ran should induce an hermitian state  representation matrix of the operator Z. To see this, take  projection operators k and j of sections 1.1 and 1.2 to another diagram such that their roles are interchanged. Both of these diagrams are the same, except that now the components of the natural transformations pho and lambda will be reveresed. Equivalentely, it is like inverting the arrow of the definitions of the natural transformations, and because of this, exchanging the definition of left and right kan extensions. Given that, both pictures must describe the evolution of Z and that  k and j ends up on their dual space, because of theorem 1, and so, I don't really know how to finish this, but it seems that we will see that Lan and Kan are self adjoint operators.
+
   =--
 
 
@@ -83,6 +85,8 @@ If any experts happen to wonder by, Daniel would appreciate any clarification on
 
    [[Urs Schreiber|Urs]]: I am not sure that I understand
    what this means
+
+   Forget about that. The fact that Kan extension filters all natural transofrmations of a given kind, means that a matrix is invertible. The unitarity is ad hock, but it seems that operations involving the proof of unitarity, involving Kan exenting, will involve speaking about the filtering of natural transformations.
 
   =--
 
