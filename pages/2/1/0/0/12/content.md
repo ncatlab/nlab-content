@@ -335,6 +335,45 @@ Internal error?
 
 $$A \diamond B \;\vee\; A \bowtie B$$
 
+$F : C \to D$ with respect to a functor
+$$
+ \array{
+  C
+  \\
+  \downarrow^p
+  \\
+  C'
+ }
+$$
+
+$$
+  \array{
+    D'
+    \\
+    \downarrow
+    \\
+    D
+  }
+$$
+
+$$
+  Ran = Ran_p: [C,D] \to [C',D]
+  \,.
+$$
+
+$$
+  \array{
+     C &\stackrel{Ferryboat}{\to}& D
+     \\
+     \downarrow^peixe & \nearrow
+     \\
+     C'
+  }
+  \,,
+$$
+
+
+
 A trivial change
 ****
 
