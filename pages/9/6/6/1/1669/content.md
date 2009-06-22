@@ -30,6 +30,10 @@ $$ \biguplus_i A_i = \{ x \;|\; \exists!{x},\; x \in A_i \} .$$
 
 It is widely said that 'or' in English can mean either inclusive or exclusive disjunction, while Latin has two terms, respectively 'vel' and 'aut'.  It\'s not at all clear that this is correct.  It may be more correct that 'or' can sometimes mean [[union]] and sometimes [[disjoint union]] (with the latter sometimes external and sometimes internal), but never symmetric difference.  Thus, the only meaning of 'or' is for some kind of [[coproduct]], which exclusive disjunction is not.  (Similarly, 'aut' may be more about disjoint union than symmetric difference.)
 
++-- {: .query}
+What about the 'or' of parental threat? Consider the logician parent who says "Come here or I'll smack you" to his child and smacks even after obedience as they believe in the inclusive 'or'. -David
+=--
+
 I should find the reference that argued this; it certainly did not use this terminology.
 
 
