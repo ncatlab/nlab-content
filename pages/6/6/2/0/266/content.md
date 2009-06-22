@@ -100,6 +100,8 @@ _Toby_:  Yeah, well, *I* certainly won\'t mind if you change it!  (^_^)
 
 _Todd_: Thanks, Urs. I've made the changes accordingly. The section on _Remark on terminology_ hasn't been touched. 
 
+_Eric_: It looks like Zoran changed it from $p^*$ to $p_*$ on March 26, 2009 in Revision 4.
+
 =--
 
 The [[adjoint functor|left adjoint]] to $p^*$ is **left Kan extension** along $p$ of functors
