@@ -16,7 +16,7 @@ The relation of this more conceptual and more general point of view on abelian s
 
 (whose proof is reproduced below). 
 
-With the modern understanding of [[model structure on simplicial presheaves]] as a [[presentable (infinity,1)-category|presentation]] of the [[(infinity,1)-category of (infinity,1)-sheaves]] this says that ordinary abelian sheaf cohomology in fact computes the isomorphism classes of the [[infinity-stackification]] of a sheaf with complexes in abelian groups.
+With the modern understanding of the [[model structure on simplicial presheaves]] as a [[presentable (infinity,1)-category|presentation]] of the [[(infinity,1)-category of (infinity,1)-sheaves]] this says that ordinary abelian sheaf cohomology in fact computes the isomorphism classes of the [[infinity-stackification]] of a sheaf with values in complexes of abelian groups.
 
 ## more details on this idea ##
 
