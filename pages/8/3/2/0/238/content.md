@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * added the theorem to [[Kan fibration]] that Kan fibrations between Kan complexes that are also weak equivalences are precisely those with the right lifting property with respect to simplex boundary inclusions
+
   * added example of fundamental $\infty$-groupoid = singular simplicial complex to [[Kan complex]]
 
   * edited [[Kan complex]] slightly and added two little propositions characterizing groupoids in terms of their Kan complex nerves
