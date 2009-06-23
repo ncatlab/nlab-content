@@ -121,7 +121,7 @@ projects down to the one in $X$:
    \,.
   $$
   
-    * Crucial is this condition for the _outer horns_ $\Lambda^n_0$ and $\Lambda^n_n$, where it says that the above works not only when edges are composable, but also when they mit with their sources or their targets. For 
+  * Crucial is this condition for the _outer horns_ $\Lambda^n_0$ and $\Lambda^n_n$, where it says that the above works not only when edges are composable, but also when they meet just at  their sources or their targets. For 
 instance for the horn $\Lambda^2_2$ the picture is
     $$
     \array{
