@@ -72,18 +72,23 @@ A **functorial factorization** is a functor $F : [[2],K] \rightarrow [[3],K]$ su
 
 #Detail#
 
-We give the deatils of the proof that 
+We give the details of the proof that morphisms defined by a right lifting property are stable under pullback.
 
 +-- {: .un_lemma }
 ###### Lemma
 
 
-$R$ is closed under [[pullback]].
+$R$ is preserved under [[pullback]].
 
 =--
 
+This is for instance lemma 7.2.11 in
+
+* Hirschhorn, _Model categories and their localization_ .
+
 +-- {: .proof}
 ###### Proof
+
 
 Let $p : X \to Y$ be in $R$ and and let 
 
@@ -91,9 +96,9 @@ $$
   \array{
     Z \times_f X &\to& X
     \\
-    \downarrow^{f^* p} && \downarrow
+    \downarrow^{f^* p} && \downarrow^p
     \\
-    Z &\stackrel{f}{\to} X& 
+    Z &\stackrel{f}{\to} & Y 
   }
 $$
 
@@ -116,9 +121,9 @@ $$
      A &\to& Z \times_f X &\to& X
      \\
      \downarrow^i && \downarrow^{f^* p} 
-     && \downarrow^f
+     && \downarrow^p
      \\
-     B &\stackrel{g}{\to}& Z &\stackrel{f}{\to}& X
+     B &\stackrel{g}{\to}& Z &\stackrel{f}{\to}& Y
   }
   \,.
 $$
@@ -129,9 +134,9 @@ $$
   \array{
     A &\to& X
     \\
-    \downarrow^i &{}^{\hat {f g}}\nearrow&  \downarrow^p
+    \downarrow^i &{}^{\hat {(f g)}}\nearrow&  \downarrow^p
     \\
-    B &\stackrel{f g}{\to}& X
+    B &\stackrel{f g}{\to}& Y
   }
   \,.
 $$
@@ -140,12 +145,12 @@ By the [[pullback]] property this gives rise to the lift $\hat g$ in
 
 $$
   \array{
-     &Z \times_f X &\to& X
+     && Z \times_f X &\to& X
      \\
-     \downarrow^i &{}^{\hat g} \nearrow& \downarrow^{f^* p} 
-     && \downarrow^f
+     &{}^{\hat g} \nearrow& \downarrow^{f^* p} 
+     && \downarrow^p
      \\
-     B &\stackrel{g}{\to}& Z &\stackrel{f}{\to}& X
+     B &\stackrel{g}{\to}& Z &\stackrel{f}{\to}& Y
   }
   \,.
 $$
@@ -168,13 +173,17 @@ commutes. To do so we notice that we obtain two pullback [[cone]]s with tip $A$:
 * one is given by the morphisms 
   1. $A \to Z \times_f X \to X$
   2. $A \stackrel{i}{\to} B \stackrel{g}{\to} Z$
+
   with universal morphism into the pullback being
+
   * $A \to Z \times_f X$
 
 * the other by
-  1. $A \stackrel{i}{\to} B \stackrel{\hat g}{\to Z \times_f X} \to X$
+  1. $A \stackrel{i}{\to} B \stackrel{\hat g}{\to} Z \times_f X \to X$
   2. $A \stackrel{i}{\to} B \stackrel{g}{\to} Z$.
+  
   with universal morphism into the pullback being
+  
   * $A \stackrel{i}{\to} B \stackrel{\hat g}{\to} Z \times_f X$.
 
 The commutativity of the diagrams that we have established so far shows that the first and second morphisms here equal each other, respectively. By the fact that the universal morphism into a pullback diagram is _unique_ this implies the required identity of morphisms.
