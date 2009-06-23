@@ -190,9 +190,18 @@ We can go on to define relative complement $(A,B) \setminus (C,D)$ and symmetric
 
 At this point, the reader could be forgiven for thinking that we have cleverly pulled a [[Boolean algebra]] out of a mere [[Heyting algebra]], but this is not true; aside from the give-away that this lattice is not constructively completely distributive, it is not even classically a Boolean algebra.  This is because $(A,B) \cup \neg(A,B) = (A \cup B, \empty)$ (and similarly for intersection) and there is no requirement that $A \cup B = X$.  What we have instead is a complete Boolean [[rig]], aka semi-ring with unit; to keep consistent with previous terminology, I\'ll call such a thing a _Boolean semi-algebra_.
 
+As Todd pointed out, this is a special case of the [[Chu construction]]; the poset of disjoint pairs in $X$ is $Chu_{TV}(P X, \empty)$, where $TV$ is the [[enriched category|enriching]] category of [[truth value]]s.
+
 +--{.query} 
 _Todd_: This is interesting; it smells like a decategorified version of the [[Chu construction]], which takes a pair $(C, d)$ consisting of a symmetric monoidal category $C$ and an object $d$ therein, and produces a [[*-autonomous category]] whose objects are triples $(a, b, f: a \otimes b \to d)$, and whose dualizing object is $(d, I, d \otimes I \cong d)$ where $I$ is the monoidal unit. But I should think about it a bit more. 
+
+_Toby_:  Ah, so $C$ is the power set of $X$, $d$ is the empty set, and $\otimes$ is intersection, so we have $(A, B, A \cap B \subseteq \empty)$.  And (even constructively) $C$ is even a bi-complete closed monoidal category, that is (in this decategorified, truth-value enriched case) a complete Heyting algebra.  So we really are looking at $Chu(P X, \empty)$ here.  And let\'s see ... the internal hom $(A,B) \multimap (C,D)$ comes out to $((A \Rightarrow C) \cap (D \Rightarrow B), A \cap D) = ((A \cup D) \Rightarrow (B \cup C)), A \cap D)$, which comes with tensor tensor product $(A,B) \otimes (C,D) = (A \cap C, (A \Rightarrow D) \cap (C \Rightarrow B)) = (A \cap C, (A \cup C) \Rightarrow (B \cup D))$.
+
+Too bad that these operations don\'t seem to be relevant; if they\'d been $\setminus$ or $\uplus$ instead, then I\'d have been pretty pleased.  Still, $(A,B) \multimap [\empty]$ = (B,A) = \neg(A,B)$, so everything can be nicely described with that structure if we want.
+
+I was worried for a bit, since $Chu(P X, \empty)$ isn\'t constructively cartesian closed (although it is classically).  But intersection is not the relevant monoidal structure anymore.
 =--
+
 
 #### The $\sigma$-semi-algebra of complemented pairs
 
