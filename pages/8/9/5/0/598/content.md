@@ -47,7 +47,7 @@ The [[simplicial set]] underlying any simplicial group
 
 =--
 
-In fact, not only are the [[horn]] fillers guaranteed to exist, but there is an algorithm that provide explicit fillers
+In fact, not only are the [[horn]] fillers guaranteed to exist, but there is an algorithm that provide explicit fillers.  This implies that constructions on a simplicial group that use fillers of horns can often be adjusted to be functorial by using the algorithmically defined fillers.  An argument that just uses 'existence' of fillers can be refined to give something more 'coherent'.
 
 
 +-- {: .proof}
@@ -76,7 +76,9 @@ Let $(y_0,\ldots, y_{k-1}, -,y_{k+1}, \ldots, y_n)$ give a [[horn]] in $G_{n-1}$
 
 =--
 
-* **Remark** The filler for any horn can be chosen to be a _product of degenerate elements_.
+**Remark** 
+
+* The filler for any horn can be chosen to be a _product of degenerate elements_.
 
 * The [[simplicial homotopy group]]s of a simplicial group, $G$, can be calculated as the homology groups of the [[Moore complex]] of $G$.  This is, in general,  a non-Abelian chain complex.
 
