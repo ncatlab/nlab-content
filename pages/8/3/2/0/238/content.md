@@ -12,6 +12,16 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+# 2009-06-23 #
+
+* [[Urs Schreiber|Urs]]
+
+  * added example of fundamental $\infty$-groupoid = singular simplicial complex to [[Kan complex]]
+
+  * edited [[Kan complex]] slightly and added two little propositions characterizing groupoids in terms of their Kan complex nerves
+
+  * added further illustrations to [[Kan fibration]]
+
 # 2009-06-22 #
 
 *  [[Toby Bartels]]:  A section on [[measurable space]] about the constructive theory due to Cheng.  (This is *not* a straightforward variation on the classical theory but distinctly a generalisation, so may be of interest even to classical mathematicians.)
