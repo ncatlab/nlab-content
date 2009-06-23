@@ -37,6 +37,8 @@ If this convention really is widely adopted, then I'll let the matter drop. But 
 _Toby_:  That\'s a good argument, and I have no contrary references.  (The best that I have is to use 'symmetric difference' for two, then later state the generalisation to many as above, but without actually calling that anything other than using the same symbol.)  So I\'ll go along with your 'exclusive union'.
 
 _Todd_: Okay, thanks. I'll remove this discussion in a little while. 
+
+_Toby_:  Now I feel like [[symmetric difference]] (which currently redirects here) should go somewhere else ---which is ironic, since I created this page primarily to provide a target for links to [[symmetric difference]] from [[measurable space]]!
 =--
 
 
