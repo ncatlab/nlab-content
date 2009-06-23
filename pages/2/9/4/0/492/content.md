@@ -178,6 +178,135 @@ A _quasi-fibration_ or _weak Kan fibration_ of simplicial sets is defined as abo
 
 This weakened condition then says that _composition_ of cells may be lifted through the quasi-fibration, but not necessarily [[inverse|inversion]] of 1-cells.
 
+#Properties#
+
++-- {: .un_theorem}
+###### Theorem
+
+The morphisms $f : X \to Y$ of Kan complexes that are both Kan fibrations as well as [[model structure on simplicial sets|weak equivalences]] in that they induce isomorphisms on all [[simplicial homotopy group]]s (i.e. the **acyclic fibrations** of Kan complexes) are precisely the morphisms that have the [[weak factorization system|right lifting property]] with respect to all [[boundary of a simplex|boundary inclusions]] $\partial \Delta^n \hookrightarrow \Delta^n$:
+  $$
+    \array{
+      \partial \Delta[n] &\to& X
+      \\
+      \downarrow &{}^\exists\nearrow& \downarrow^f 
+      \\
+      \Delta[n] &\to& Y
+    }
+    \,.
+  $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+A proof is in chapter I of
+
+* Goerss-Jardine, _Simplicial homotopy theory_. Explicitly, it is theorem 7.10 [here](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-1.dvi).
+
+=--
+
++-- {: .un_cor}
+###### Corollary
+
+Kan fibrations and acyclic Kan fibrations are both stable under [[pullback]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Because every class of morphisms defined by a [[weak factorization system|right lifting property]] is stable under pullback.
+
+=--
+
+**Remark** From this it follows readily that [[Kan complex]]es form a Brownian [[category of fibrant objects]].
+
+
+Let $C, D$ be ordinary [[nLab:groupoid|groupoid]]s and $N(C)$, $N(D)$ their ordinary [[nLab:nerve|nerve]]s. We'd like to show in detail that 
+
++-- {: .un_theorem}
+###### Theorem
+
+A [[nLab:functor|functor]] $F : C \to D$ is 
+
+* [[nLab:k-surjective functor|k-surjective]] for all $k$ and hence a surjective [[nLab:equivalence of categories|equivalence of categories]] precisely if under the [[nLab:nerve|nerve]] $N(F) : N(C) \to N(D)$ it induces an acyclic fibration of Kan complexes;
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We know that both $N(C)$ and $N(D)$ are Kan complexes. By the above theorem it suffices to show that $N(f)$ being a surjective equivalence is the same as having all lifts
+
+$$
+  \array{
+    \delta \Delta[n] &\to& N(C)
+    \\
+    \downarrow &{}^\exists\nearrow& \downarrow^{N(F)}
+    \\
+    \Delta[n] &\to& N(D)
+  }
+  \,.
+$$
+
+
+We check successively what this means for increasing $n$:
+
+* $n= 0$. In degree 0 the boundary inclusion is that of the empty set into the [[nLab:point|point]] $\emptyset \hookrightarrow {*}$. The lifting property in this case amounts to saying that every point in $N(D)$ lifts through $N(F)$. 
+  $$
+    \array{
+      \emptyset &\to& N(C)
+      \\
+      \downarrow &{}^\exists\nearrow& \downarrow^{N(F)}
+      \\
+      {*} &\to& N(D)
+    }
+    \Leftrightarrow
+    \array{
+      && N(C)
+      \\
+      &{}^\exists\nearrow& \downarrow^{N(F)}
+      \\
+      {*} &\to& N(D)
+    }
+    \,.
+  $$
+  This precisely says that $N(F)$ is surjective on 0-cells and hence that $F$ is surjective on objects.
+
+* $n=1$. In degree 1 the boundary inclusion is that of a pair of points as the endpoints of the interval
+  $\{\circ, \bullet\} \hookrightarrow \{\circ \to \bullet\}$. The lifting property here evidently is  equivalent to saying that for all objects $a,b \in Obj(C)$ all elements in $Hom(F(a),F(b))$ are hit. Hence that $F$ is a [[nLab:full functor|full functor]].
+
+* $n=2$. In degree 2 the boundary inclusion is that of the triangle as the boundary of a filled triangle. It is sufficient to restrict attention to the case that the map $\partial \Delta[2] \to N(C)$ sends the top left edge of the triangle to an identity. Then the lifting property here evidently is  equivalent to saying that for all objects $a,b \in Obj(C)$ the map $F_{a,b} : Hom(a,b) \to Hom(F(a),F(b))$ is injective. Hence that $F$ is a [[nLab:faithful functor|faithful functor]].
+  $$
+    \left(
+    \array{
+      && a 
+      \\
+      & {}^{Id_a}\nearrow && \searrow^{f}
+      \\
+      a &&\stackrel{g}{\to}&& b
+    }
+    \right)
+    \stackrel{N(F)}{\mapsto}
+    \left(
+    \array{
+      && a 
+      \\
+      & {}^{Id_a}\nearrow &\Downarrow^=& \searrow^{F(f)}
+      \\
+      a &&\stackrel{F(g)}{\to}&& b
+    }
+    \right)
+  $$
+
+
+=--
+
+
+
+
+
 
 #Relation to other concepts#
 
