@@ -47,6 +47,26 @@ Maybe we can start by skimming the paper and collecting some unfamiliar keywords
 _(We'll pull out any outstanding questions from the discussion below to here in order to make life a little easier for would be angels who might be willing and able to help without forcing them to read the entire discussion.)_
 
 
+
+
+
+#Discussion#
+_(Topics are separated by horizontal lines, with topics presented in reverse chronological order, i.e. the first section is the most recent.)_
+
+_Eric_: As I read Alm's notes, I keep getting distracted thinking things like, "Why do they do that? What if they did this instead?" For example, why not
+
+$$e^{iS}:\mathcal{P}_1(M)\to \mathbf{B}U(1)$$
+
+? Then with $\rho:\mathbf{B}U(1)\to Vect$, we'd have
+
+$$\rho\circ e^{iS}:\mathcal{P}_1(M)\to\Vect.$$
+
+That might make things a little clearer.
+
+Now, I'm wondering if we should introduce [[double category|double categories]] as a model for the [Feynman checkerboard](http://en.wikipedia.org/wiki/Feynman_checkerboard).
+
+***
+
 If any experts happen to wonder by, Daniel would appreciate any clarification on these points (should be considered as questions more than statements):
 
 * Using left and right Kan extensions simultaneously seems to be required because QM mechanics needs symmetric everywhere defined operators. 
@@ -92,8 +112,7 @@ If any experts happen to wonder by, Daniel would appreciate any clarification on
 
   =--
 
-
-#Discussion#
+***
 
 _Daniel_: On page 3, he writes: "Usually, one has a classical 'action' of some kind definedned for manifolds with some extra structure, e.g. a riemannian metric, a symplectic form, a principalbundle, or etc. Quantization is what happens when one tries to assign that same action to a manifold that does not have that structure!" We can define many structures over a manifolds. Like, a toplogy, a piecewise linear strucure, a metric, etc. Just like the layers of an onion. So, quantization is just summing over all possible new layers of every new structure? It looks like so.
 
