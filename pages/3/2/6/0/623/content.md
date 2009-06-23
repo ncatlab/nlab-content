@@ -91,7 +91,7 @@ The Moore complex is a [[normal complex of groups]].
 
 =--
 
-# Related complexes #
+# related complexes #
 
 At least for $G$ an _abelian_ simplicial group, there are two other complexes naturally associated with it:
 
@@ -124,7 +124,18 @@ There is
 
 =--
 
+This is in section 3 of 
 
+* Goerss-Jardine, _Simplicial homotopy theory_. Theorem 2.4 [here](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-3.dvi).
+
+This indicates that probably
+
+* $G$ should be called "the Moore complex"
+
+* $N G$ should be called "the normalized Moore complex".
+
+Both describe the same complex, up to quasi-isomorphism, but $G$ is "big" while $N G$ encodes the same information more efficiently.
+ 
 #Homology of the Moore complex and homotopy groups#
 
 If an element $g \in G_n$ is in the Moore complex then all but its zeroth face is trivial. In dimension 1, this means that $g$ is a 1-simplex that 'starts' at the identity element of $G_0$. If this $g$ is in the kernel of the boundary map 
