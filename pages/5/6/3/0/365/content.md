@@ -68,3 +68,115 @@ The precise requirements for a factorization of morphisms to be _functorial_ are
 Write $[2]$ and $[3]$ for the [[ordinal number]]s, regarded as categories. So $arr(K)$ is isomorphic to the functor category $[[2],K]$. There are three injective functors $[2] \rightarrow [3]$; let $d_1$ be the functor that sends the objects $\{0,1\}$ of $[2]$ to the objects $\{0,2\}$ of $[3]$. This induces a functor $c : [[3],K] \rightarrow [[2],K]$ which can be thought of as "composition."
 
 A **functorial factorization** is a functor $F : [[2],K] \rightarrow [[3],K]$ such that $c F$ is the identity on $arr(K)$.  Not all weak factorization systems are functorial, although most (including those produced by the [[small object argument]]) are, but all orthogonal ones are automatically functorial.
+
+
+#Detail#
+
+We give the deatils of the proof that 
+
++-- {: .un_lemma }
+###### Lemma
+
+
+$R$ is closed under [[pullback]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $p : X \to Y$ be in $R$ and and let 
+
+$$
+  \array{
+    Z \times_f X &\to& X
+    \\
+    \downarrow^{f^* p} && \downarrow
+    \\
+    Z &\stackrel{f}{\to} X& 
+  }
+$$
+
+be a [[pullback]] diagram. We need to show that $f^* p$ has the right lifting property with respect to all $i : A \to B$ in $L$. So let
+
+$$
+  \array{
+     A &\to& Z \times_f X
+     \\
+     \downarrow^i && \downarrow^{f^* p}
+     \\
+     B &\stackrel{g}{\to}& Z
+  }
+$$
+
+be any commuting square. We need to construct a diagonal lift of that square. To that end, first compose with the pullback square from above to obtain the commuting diagram
+
+$$
+  \array{
+     A &\to& Z \times_f X &\to& X
+     \\
+     \downarrow^i && \downarrow^{f^* p} 
+     && \downarrow^f
+     \\
+     B &\stackrel{g}{\to}& Z &\stackrel{f}{\to}& X
+  }
+  \,.
+$$
+
+By the right lifting property of $p$, there is a diagonal lift of the total outer diagram
+
+$$
+  \array{
+    A &\to& X
+    \\
+    \downarrow^i &{}^{\hat {f g}}\nearrow&  \downarrow^p
+    \\
+    B &\stackrel{f g}{\to}& X
+  }
+  \,.
+$$
+
+By the [[pullback]] property this gives rise to the lift $\hat g$ in
+
+$$
+  \array{
+     &Z \times_f X &\to& X
+     \\
+     \downarrow^i &{}^{\hat g} \nearrow& \downarrow^{f^* p} 
+     && \downarrow^f
+     \\
+     B &\stackrel{g}{\to}& Z &\stackrel{f}{\to}& X
+  }
+  \,.
+$$
+
+In order for $\hat g$ to qualify as the intended lift
+of the total diagram, it remains to show that 
+
+$$
+  \array{
+     A &\to& Z \times_f X
+     \\
+     \downarrow^i & {}^{\hat g}\nearrow
+     \\
+     B
+  }
+$$
+
+commutes. To do so we notice that we obtain two pullback [[cone]]s with tip $A$:
+
+* one is given by the morphisms 
+  1. $A \to Z \times_f X \to X$
+  2. $A \stackrel{i}{\to} B \stackrel{g}{\to} Z$
+  with universal morphism into the pullback being
+  * $A \to Z \times_f X$
+
+* the other by
+  1. $A \stackrel{i}{\to} B \stackrel{\hat g}{\to Z \times_f X} \to X$
+  2. $A \stackrel{i}{\to} B \stackrel{g}{\to} Z$.
+  with universal morphism into the pullback being
+  * $A \stackrel{i}{\to} B \stackrel{\hat g}{\to} Z \times_f X$.
+
+The commutativity of the diagrams that we have established so far shows that the first and second morphisms here equal each other, respectively. By the fact that the universal morphism into a pullback diagram is _unique_ this implies the required identity of morphisms.
+
+=--
