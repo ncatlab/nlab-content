@@ -10,7 +10,7 @@ or
 
 of $G$ is a [[chain complex]] 
 
-* whose $n$-cells ar the "$n$-disks with basepoint on their boundary" in this space, with the basepoint sitting on the identity element of the space;
+* whose $n$-cells are the "$n$-disks with basepoint on their boundary" in this space, with the basepoint sitting on the identity element of the space;
 
 * the boundary map on which acts literally like a boundary map should: it sends an $n$-disk to its boundary, read as an $(n-1)$-disk whose entire boundary is concentrated at the identity point.
 
