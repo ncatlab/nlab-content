@@ -13,6 +13,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 # 2009-06-24 #
+
+* [[Eric Forgy|Eric]]: I've started the process of applying redirects for symbolic links. This maintains the original ascii titles and urls, but makes links look much better. I've also started adding redirects for plural nouns, e.g. you no longer have to type <nowiki>[[category|categories]]</nowiki>. Now you can simply type <nowiki>[[categories]]</nowiki> and will be redirected automatically to [[category]]. To see the changes in action, have a look at [[higher category theory]]. Feedback welcome!
+
 * [[Zoran Škoda]]:  Created [[Hopf envelope]], [[free Hopf algebra]] and [[matrix Hopf algebra]] simultaneously with posting a related comment to a discussion between Baez, Trimble and Vicary on free and cofree functors for bialgebras. 
 
 * [[Tim Porter|Tim]]:  I have created a stub on [[gerbe|gerbes]].  There was a request on the Caf&#233; for en entry and I thought this was a good way to remind me to start one.  ... but feel free to do it for me!
@@ -117,7 +120,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Todd Trimble|Todd]]: 
 
-   * I have a notational comment at [[Kan extension]]. Spurred by [[David Corfield]]'s [post](http://golem.ph.utexas.edu/category/2009/06/kan_lifts.html) at the Caf&#233;, I hope to get started on [[Kan lift]] soon. (Done.) 
+   * I have a notational comment at [[Kan extension]]. Spurred by [[David Corfield]]'s [post](http://golem.ph.utexas.edu/category/2009/06/kan_lifts.html) at the Caf&eacute;, I hope to get started on [[Kan lift]] soon. (Done.) 
 
    * There's a running discussion between [[Toby Bartels]] and me at [[cyclic order]], centering on whether Connes' cycle category $\Lambda$ has been correctly characterized, or if not how to fix it. We agree now that a notion of "total cyclic order" is classically equivalent to the "linear cyclic order" notion used in the article, and equally feasible for purposes of trying to characterize $\Lambda$, but I'm currently perplexed by the apparent presence of a terminal object. 
 
