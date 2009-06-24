@@ -13,6 +13,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 # 2009-06-24 #
+* [[Zoran Škoda]]: created [[Hochschild-Serre spectral sequence]].
 
 * [[Eric Forgy|Eric]]: I've started the process of applying redirects for symbolic links. This maintains the original ascii titles and urls, but makes links look much better. I've also started adding redirects for plural nouns, e.g. you no longer have to type <nowiki>[[category|categories]]</nowiki>. Now you can simply type <nowiki>[[categories]]</nowiki> and will be redirected automatically to [[category]]. To see the changes in action, have a look at [[higher category theory]]. Feedback welcome!
 
