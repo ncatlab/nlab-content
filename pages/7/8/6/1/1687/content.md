@@ -16,11 +16,13 @@ We thus can think of a stack of groupoids as a 'lax' generalisation of a sheaf o
 (It should be mentioned that often in topological settings the sheaf of groups is actually a constant sheaf and that in that case a $G$-torsor is just a principal $G$-bundle.)
 
 
-Groups 'are' groupoids with a single object, but groupoids are not 'groups with many objects' (although that is a nice phrase to use when introducing them. A groupoid need not have any objects ... if it is empty! Of course, we think of the vertex groups of a groupoid, but if the groupoid is not connected there may be many different non-isomorphic ones. So a groups *is* a very special type of groupoid,
+Groups 'are' groupoids with a single object, but groupoids are not 'groups with many objects' (although that is a nice phrase to use when introducing them). A groupoid need not have any objects ... if it is empty! Of course, we think of the vertex groups of a groupoid, but if the groupoid is not connected there may be many different non-isomorphic ones. So a group *is* a very special type of groupoid.
 
-The term 'gerbe' refers to a special sort of stack of groupoids. 
+Similarly, the term 'gerbe' refers to a special sort of stack of groupoids. 
 
- _A gerbe is to a general stack what, up to equivalence, a group is to a general groupoid. It is non-empty and connected._
++-- {: .standout}
+A gerbe is to a general stack what, up to equivalence, a group is to a general groupoid. It is non-empty and connected.
+=--
 
 To make this precise we use some additional notions:
 
