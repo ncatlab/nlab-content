@@ -14,7 +14,15 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-24 #
 
-* [[Urs Schreiber|Urs]]: am offering a reply to [[Finn Lawler]] at [[modification]]
+* [[Urs Schreiber|Urs]]: 
+
+  * created [[K-theory spectrum]] with just a question
+
+  * created a stub for [[tmf]] based on a recent Category Theory mailing list contribution  -- am thinking that we should more generally try to move good stuff from the mailing list into $n$Lab entries
+
+  * created [[Eilenberg-MacLane space]], [[Eilenberg-MacLane spectrum]]
+
+  * am offering a reply to [[Finn Lawler]] at [[modification]]
 
 *  [[Toby Bartels]]:  Just more questions, instead of answers, for Finn and Gavin.
 
