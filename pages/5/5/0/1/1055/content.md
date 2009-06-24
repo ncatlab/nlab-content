@@ -12,4 +12,14 @@ Every [[covering space]] (even in the more general sense not requiring any conne
 
 ## Grammar note
 
-In French, the verb '&#233;taler' means, roughly, to spread out; '-er' becomes '-&#233;' to make a past participle.  So an 'espace &#233;tal&#233;' is a space that has been spread out over $B$.  On the other hand, '&#233;tale' is a (relatively obscure, distantly related) nautical adjective that can be translated as 'calm' or 'slack'.  So a 'fonction &#233;tale' is a slack function, one which is kind of a homeomorphism, but perhaps only locally.  [Reference](http://secure.wikimedia.org/wikipedia/en/wiki/Wikipedia_talk:WikiProject_Mathematics/Archive11#french_spelling).
+In French, the verb '&#233;taler' means, roughly, to spread out; '-er' becomes '-&#233;' to make a past participle.  So an 'espace &#233;tal&#233;' is a space that has been spread out over $B$.  On the other hand, '&#233;tale' is a (relatively obscure, distantly related) nautical adjective that can be translated as 'calm' or 'slack'.  So a 'fonction &#233;tale' is a slack function, one which is kind of a homeomorphism, but perhaps only locally. 
+
+To quote from the Wiktionnaire:
+`&#233;tale'_qualifie la mer qui ne monte ni ne descend &#224; la fin du flot ou du jusant._
+
+(`Flot' = `flow' and `jusant' = `ebb'.)
+
+
+
+
+ [Reference](http://secure.wikimedia.org/wikipedia/en/wiki/Wikipedia_talk:WikiProject_Mathematics/Archive11#french_spelling).
