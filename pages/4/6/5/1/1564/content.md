@@ -22,15 +22,15 @@ Define $x \vee y$ to mean $x + x y + y$.  Then:
 
 Next define $\neg{x}$ to be $x + 1$.  Then:
 
-*  $\neg{x}$ is a pseudocomplement of $x$ (meaning that $x \neg{x} = 0$):
-   $$ x \neg{x} = x (x + 1) = x^2 + x = 2 x = 0 .$$
-   By generalising $\neg{x}$ to $x y + x + 1$, we can show that $R$ is a [[Heyting algebra]].
+*  $\neg{x}$ is a pseudocomplement of $x$ (meaning that $x (\neg{x}) = 0$):
+   $$ x (\neg{x}) = x (x + 1) = x^2 + x = 2 x = 0 .$$
+   By relativising from $x + 1$ to $x y + x + 1$, we can show that $R$ is a [[Heyting algebra]].
 *  But don\'t bother, because $\neg{x}$ is also an op-pseudocomplement of $x$:
    $$ x \vee \neg{x} = x + x (x + 1) + (x + 1) = x^2 + 3 x + 1 = x + x + 1 = 1 .$$
    Therefore, $\neg{x}$ is a [[complement]] of $x$, and $R$ is a [[Boolean algebra]].
 
 
-Conversely, starting with a Boolean algebra $R$ (with the meet written multiplicatively), let $x + y$ be $x \neg{y} \vee \neg{x} y$.  Then $R$ is a Boolean ring.
+Conversely, starting with a Boolean algebra $R$ (with the meet written multiplicatively), let $x + y$ be $x (\neg{y}) \vee (\neg{x}) y$ (which is called [[exclusive disjunction]] in $\{\top,\bot\}$ and [[symmetric difference]] in $2^X$).  Then $R$ is a Boolean ring.
 
 In fact, we have:
 +-- {: .standout}
@@ -40,3 +40,8 @@ Boolean rings and Boolean algebras are equivalent.
 This extends to an equivalence of [[concrete category|concrete categories]]; that is, given the underlying [[set]] $R$, the set of Boolean ring structures on $R$ is [[natural isomorphism|naturally]] (in $R$) [[bijection|bijective]] with the set of Boolean algebra structures on $R$.
 
 Here is a very convenient result: although a Boolean ring $R$ is a [[rig]] in two different ways (as a ring or as a distributive lattice), these have the same concept of [[ideal]]!
+
+
+## Terminology
+
+Back in the day, the term 'ring' meant a possibly *non*unital ring; that is, a [[semigroup]], rather than a [[monoid]], in [[Ab]].  This terminology applied also to Boolean rings, and it changed even more slowly.  Thus older books will make a distinction between 'Boolean ring' (meaning an idemptotent semigroup in $Ab$) and 'Boolean algebra' (meaning an idempotent monoid in $Ab$), in addition to (or even instead of) the difference between $+$ and $\vee$ as fundamental operation.  This distinction survives most in the terminology of $\sigma$-[[sigma-ring]]s and $\sigma$-[[sigma-algebra]]s.
