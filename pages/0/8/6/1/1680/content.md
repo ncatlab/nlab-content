@@ -1,6 +1,6 @@
 
 
-As a [[symmetric monoidal (infinity,1)-category|symmetric monoidal]] [[infinity-groupoid]] the _Eilenberg-MacLane_ [[spectrum]] is the integers
+As a [[symmetric monoidal (infinity,1)-category|symmetric monoidal]] [[infinity-groupoid]] the _Eilenberg--Mac Lane_ [[spectrum]] is the integers
 
 $$
   E_{EM} := \mathbb{Z}
@@ -37,7 +37,7 @@ $$
   |-| : \infty Grpds \to Top
 $$
 
-between [[infinity-groupoid]]s and [[topological space]]s this sequence of suspensions of $\mathbb{Z}$ maps to the sequence of [[Eilenberg-MacLane space]]s
+between [[infinity-groupoid]]s and [[topological space]]s this sequence of suspensions of $\mathbb{Z}$ maps to the sequence of [[Eilenberg–Mac Lane space]]s
 
 $$
   |\mathbf{B}^n \mathbb{Z}|
@@ -45,10 +45,17 @@ $$
   K(\mathbb{Z}, n)
 $$
 
-that give the Eilenberg-MacLane spectrum 
+that give the Eilenberg--Mac Lane spectrum 
 
 $$
   (E_n) := (K(\mathbb{Z},n))
 $$
 
 its name.
+
+
+[[!redirects Eilenberg-Mac Lane spectrum]]
+[[!redirects Eilenberg--MacLane spectrum]]
+[[!redirects Eilenberg--Mac Lane spectrum]]
+[[!redirects Eilenberg–MacLane spectrum]]
+[[!redirects Eilenberg–Mac Lane spectrum]]
