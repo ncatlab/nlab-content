@@ -74,13 +74,15 @@ This co-operation $I \to I \vee I$ is not strictly coassociative, but is coassoc
 
 But we don't actually need the $A_{\infty}$-jargon: all we will need are two basic facts: 
 
-* There is a topological operad $T$ where the component $T_n$ is the space $\hom(I, I^{\vee n})$ of cospan maps; 
+* There is a tautological topological operad $T$ where the component $T_n$ is the space $\hom(I, I^{\vee n})$ of cospan maps; 
 
-+--{.query} 
-[[John Baez|John]] has just substituted "topological" for my ([[Todd Trimble|Todd]]'s) original "tautological", which I don't mind at all -- "topological" is correct and arguably more informative -- but maybe this is a good place to explain that "tautological" was not a typo, but rather an expansion of a technical usage: 
+  +--{.query} 
+  [[John Baez|John]] has just substituted "topological" for my ([[Todd Trimble|Todd]]'s) original "tautological", which I don't mind at all -- "topological" is correct and arguably more informative -- but maybe this is a good place to explain that "tautological" was not a typo, but rather an expansion of a technical usage: 
 
-One of the first examples of an operad that people are taught is the one where the n-th component consists of _all_ n-ary operations $X^n \to X$. (Here $X^n$ denotes an n-fold tensor power in a monoidal category.) Because it's the simplest or most obvious example of an operad, and because it's canonically there no matter what $X$ is, it's often in the literature called a "tautological operad". What is less often noted is that by the same logic, $hom(X, X^n)$ is an equally tautological operad, except that it consists of all "co-operations" instead of operations. Then, I am applying this observation to the example of the monoidal category of topological cospans from a point to itself, where $X$ is the interval. 
-=--
+  One of the first examples of an operad that people are taught is the one where the n-th component consists of _all_ n-ary operations $X^n \to X$. (Here $X^n$ denotes an n-fold tensor power in a monoidal category.) Because it's the simplest or most obvious example of an operad, and because it's canonically there no matter what $X$ is, it's often in the literature called a "tautological operad". What is less often noted is that by the same logic, $hom(X, X^n)$ is an equally tautological operad, except that it consists of all "co-operations" instead of operations. Then, I am applying this observation to the example of the monoidal category of topological cospans from a point to itself, where $X$ is the interval. 
+
+  _Toby_:  Considering that the original was 'tautological topological', which is more informative, I\'ve changed it back.  But perhaps this explanation has a place in the main text?
+  =--
 
 * Each component $T_n$ is contractible. 
 
