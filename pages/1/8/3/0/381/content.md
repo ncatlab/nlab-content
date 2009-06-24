@@ -1,5 +1,6 @@
 [[!redirects strict ∞-category]]
 [[!redirects strict ∞-categories]]
+[[!redirects strict omega-categories]]
 
 
 #Idea#
