@@ -1,5 +1,5 @@
 [[!redirects (∞,1)-category]]
-
+[[!redirects (∞,1)-categories]]
 
 #Idea#
 
