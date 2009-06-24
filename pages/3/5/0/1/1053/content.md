@@ -43,7 +43,7 @@ the topological kind).
 
 Probably the best way to explain LL to a category theorist
 is to say that its models are
-$*$-[[star-autonomous category|autonomous categories]] with extra
+[[*-autonomous categories]] with extra
 structure (see \[2\]).
 
 Firstly, there is a monoidal 'tensor' connective
@@ -63,8 +63,11 @@ parallel availability of resources.
 
 What I might do is move this basic stuff to the $*$-autonomous category page and make this page more about syntax.
 
-_Finn_: I've created [[star-autonomous category]] and
+_Finn_: I've created [[*-autonomous category]] and
 changed the above to refer to the syntax of LL.
+
+_Eric_: Hi! Technical note on n-Lab. Jacques recently implemented redirects for us. I've added redirects for <nowiki>[[*-autonomous category]] and [[*-autonomous categories]]. From now on, these will point to [[star-autonomous category]]. Just FYI. Hope it makes life a little easier for you. Now you can avoid typing things like $*$-[[star-autonomous category|autonomous categories]].</nowiki>
+
 =--
 
 The 'additive' connectives $\&$ and $\oplus$, which
@@ -108,6 +111,6 @@ category) is $B^A \cong !A\multimap B$.
 2. Seely, R. A. G., 'Linear logic, $*$-autonomous categories
    and cofree coalgebras', _Contemporary Mathematics_ 92,
    1989.  Available at
-   &lt;http://www.math.mcgill.ca/rags/nets/llsac.ps.gz>.
+   <http://www.math.mcgill.ca/rags/nets/llsac.ps.gz>.
 
 3. The [article](https://secure.wikimedia.org/wikipedia/en/wiki/Linear_logic) on the English Wikipedia has good summaries of the meanings of the logical operators and of the commonly studied fragments.
