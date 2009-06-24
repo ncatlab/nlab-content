@@ -1,7 +1,3 @@
-[[!redirects *-autonomous category]]
-[[!redirects *-autonomous categories]]
-
-
 ## Definition ##
 
 A $*$-autonomous category \[1\] is a [[symmetric monoidal
@@ -60,3 +56,4 @@ Models of [[linear logic]] are based on $*$-autonomous categories.
 
 
 [[!redirects *-autonomous category]]
+[[!redirects *-autonomous categories]]
