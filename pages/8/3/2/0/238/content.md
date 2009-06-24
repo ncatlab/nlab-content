@@ -14,7 +14,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-24 #
 * [[Zoran Škoda]]: 
-  * Created [[class of adapted objects]]. It is better to say class of objects adapted to a functor (we talk half exact additive functors between abelian categories). 
+
+  * Created [[class of adapted objects]]. It would be better to say class of objects adapted to a functor (we talk half exact additive functors between abelian categories). Created [[Grothendieck spectral sequence]] and [[spectral sequence]]. Both need more input/work...
 
   * I have added a general paragraph at the beginning of [[descent]] because far not all the cases of descent theory fit into the framework of sheaf/stack theory, Grothendieck topologies and homotopical methods. Namely something is a sheaf when it satisfies the descent for all covers, but there are cases when one considers just the descent problem for a single morphism, not all morphisms of anything like a Grothendieck topology. There is also a descent along families of noncommutative localizations, when one needs to resort to noncommutative generalizations of Grothendieck topologies. So descent theory is more general than the geometry of sheaves and stacks, though the latter is surely he most important part. 
 
