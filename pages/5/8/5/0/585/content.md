@@ -74,7 +74,7 @@ This co-operation $I \to I \vee I$ is not strictly coassociative, but is coassoc
 
 But we don't actually need the $A_{\infty}$-jargon: all we will need are two basic facts: 
 
-* There is a tautological topological operad $T$ where the component $T_n$ is the space $\hom(I, I^{\vee n})$ of cospan maps; 
+* There is a 'tautological' topological operad $T$ where the component $T_n$ is the space $\hom(I, I^{\vee n})$ of cospan maps; 
 
   +--{.query} 
   [[John Baez|John]] has just substituted "topological" for my ([[Todd Trimble|Todd]]'s) original "tautological", which I don't mind at all -- "topological" is correct and arguably more informative -- but maybe this is a good place to explain that "tautological" was not a typo, but rather an expansion of a technical usage: 
@@ -84,11 +84,13 @@ But we don't actually need the $A_{\infty}$-jargon: all we will need are two bas
   _Toby_:  Considering that the original was 'tautological topological', which is more informative, I\'ve changed it back.  But perhaps this explanation has a place in the main text?
 
   _Todd_: Sounds like a good idea. If you can figure out a smooth way to do that, I'd be grateful. 
+
+  _Toby_:  Actually, I just realised that most of it is already in the next paragraph below.  I\'ll just add a sentence noting that this explains the name.
   =--
 
 * Each component $T_n$ is contractible. 
 
-The operad structure on $T$ is derived from pure abstract nonsense: if $A$ is an object in a monoidal category, then the objects $\hom(A, A^{\otimes n})$ are the components of an operad, just as are the objects $\hom(A^{\otimes n}, A)$ the components of the familiar tautological endomorphism operad. This applies in particular to the cospan $I$, seen as an object in the monoidal category of cospans from a point to itself. 
+The operad structure on $T$ is derived from pure abstract nonsense: if $A$ is an object in a monoidal category, then the objects $\hom(A, A^{\otimes n})$ are the components of an operad, just as are the objects $\hom(A^{\otimes n}, A)$ the components of the familiar tautological endomorphism operad. This applies in particular to the cospan $I$, seen as an object in the monoidal category of cospans from a point to itself; in analogy, we call $T$ 'tautological' as well.
 
 Now we just hom out of the cospan co-operations encapsulated in the operad $T$ to get span operations on the topological span above. That is, we use the facts that 
 
