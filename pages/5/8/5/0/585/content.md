@@ -74,7 +74,7 @@ This co-operation $I \to I \vee I$ is not strictly coassociative, but is coassoc
 
 But we don't actually need the $A_{\infty}$-jargon: all we will need are two basic facts: 
 
-* There is a tautological topological operad $T$ where the component $T_n$ is the space $\hom(I, I^{\vee n})$ of cospan maps; 
+* There is a topological operad $T$ where the component $T_n$ is the space $\hom(I, I^{\vee n})$ of cospan maps; 
 
 * Each component $T_n$ is contractible. 
 
