@@ -12,6 +12,15 @@ There are many "models" for spectra, all of which present the same homotopy theo
 
 * In direct analogy to how topological spaces form the archetypical example, [[Top]], of an [[(infinity,1)-category]], spectra form the archetypical example $Sp(Top)$ of a [[stable (infinity,1)-category]]. In fact, there is a general procedure for turning any [[pointed category|pointed]] [[(infinity,1)-category]] $C$ into a stable $(\infty,1)$-category $Sp(C)$, and doing this to the category $Top_*$ of [[pointed object|pointed]] spaces yields $Sp(Top)$.
 
+#Examples of spectra#
+
+* [[Eilenberg-MacLane spectrum]]
+
+* [[K-theory spectrum]]
+
+* [[tmf]]
+
+
 # Conjectures #
 
 There might be a type of categorical structure related to a spectrum in the same way that $\infty$-categories are related to $\infty$-groupoids.  In other words, it would contain $k$-cells for all integers $k$, not necessarily invertible.  Some people have called this conjectural object a **$Z$-category**.   "Connective" $Z$-categories could perhaps then be identified with stably monoidal $\infty$-categories.
