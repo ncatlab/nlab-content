@@ -1,5 +1,5 @@
 [[!redirects ∞-groupoid]]
-
+[[!redirects ∞-groupoids]]
 
 An $\infty$-groupoid -- equivalently an [[(infinity,0)-category]] is an $\infty$-[[infinity-category|category]] in which all morphisms are [[equivalence|equivalences]].
 
