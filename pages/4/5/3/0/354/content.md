@@ -182,9 +182,21 @@ $$
 
 in the obvious way, the $(\Pi(X)_n)$ become a [[simplicial set]] in the corresponding obvious way. For instance the face maps are induced by restricting maps to $X$ along the face inclusions $\delta^i : \Delta^{n-1} \hookrightarrow \Delta^n$.
 
-That $\Pi(X)$ is indeed a Kan complex is intuitively clear. Technically it follows from the fact that the inclusions ${{\Lambda^n}_{Top}}_k \hookrightarrow \Delta^n_{Top}$ of topological horns into topological simplices are [[retract]]s.
+That $\Pi(X)$ is indeed a Kan complex is intuitively clear. Technically it follows from the fact that the inclusions ${{\Lambda^n}_{Top}}_k \hookrightarrow \Delta^n_{Top}$ of topological horns into topological simplices are 
+[[retract]]s, in that there are continuous maps $\Delta^n_{Top} \to {{\Lambda^n}_{Top}}_k$ given by "squashing" a topological $n$-simplex onto parts of its boundary, such that
+$$
+  ({{\Lambda^n}_{Top}}_k \to \Delta^n_{Top} \to
+  {{\Lambda^n}_{Top}}_k)
+  =
+  Id
+  \,.
+$$
+Therefore the map
+$[\Delta^n, \Pi(X)] \to [\Lambda^n_k,\Pi(X)]$ is an epimorphism, since it is equal to 
+to $Top(\Delta^n, X) \to Top(\Lambda^n_k, X)$ which has a right inverse $Top(\Lambda^n_k, X) \to Top(\Delta^n, X)$.
 
-The [[infinity-groupoid]] represented by the Kan complex $\Pi(X)$ is the [[fundamental infinity-groupoid]] of $X$.
+
+The [[infinity-groupoid]] represented by the Kan complex $\Pi(X)$ is called the [[fundamental infinity-groupoid]] of $X$.
 
 This example is the universal one: up to [[model structure on simplicial sets|weak equivalence of Kan complexes]] every Kan complex is the fundamental $\infty$-groupoid of a (compactly generated, weakly Hausdorff) [[topological space]].
 
