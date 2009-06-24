@@ -8,4 +8,4 @@ Assume now in the above theorem that $R_F = I_A$ is the class of [[injective obj
 $$
 E^{p,q}_2 = R^p G \circ R^q F
 $$ 
-and which is converging to $R^n(G\circ F)$. These statements should be understood as applied to any object $a$ in $A$ and the spectral sequence is functorial in $a$. Grothendieck spectral sequence has many classical spectral sequences as a special case.
+and which is converging to $R^n(G\circ F)$. These statements should be understood as applied to any object $a$ in $A$ and the spectral sequence is functorial in $a$. Grothendieck spectral sequence has many classical spectral sequences as a special case (see e.g. [[Hochschild-Serre spectral sequence]]). 
