@@ -1,4 +1,5 @@
 [[!redirects strict ∞-category]]
+[[!redirects strict ∞-categories]]
 
 
 #Idea#
