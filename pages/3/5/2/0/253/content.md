@@ -25,7 +25,7 @@ If there is exactly one 0-cell, say $*$, then the definition is exactly the same
 
 * Objects, [[span]]s, and morphisms of spans in any category with [[pullback]]s also form a bicategory.
 
-* The [[fundamental 2-groupoid]] of a space is a bicategory which is not necessarily strict (although it can be made strict fairly easily by quotienting by [[thin homotopy]]).
+* The [[fundamental 2-groupoid]] of a space is a bicategory which is not necessarily strict (although it can be made strict fairly easily by quotienting by [[thin homotopy]], see [[path groupoid]] and [[fundamental infinity-groupoid]]). 
 
 
 # Coherence theorems #
