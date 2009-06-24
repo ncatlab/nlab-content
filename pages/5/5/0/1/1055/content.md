@@ -15,11 +15,26 @@ Every [[covering space]] (even in the more general sense not requiring any conne
 In French, the verb '&#233;taler' means, roughly, to spread out; '-er' becomes '-&#233;' to make a past participle.  So an 'espace &#233;tal&#233;' is a space that has been spread out over $B$.  On the other hand, '&#233;tale' is a (relatively obscure, distantly related) nautical adjective that can be translated as 'calm' or 'slack'.  So a 'fonction &#233;tale' is a slack function, one which is kind of a homeomorphism, but perhaps only locally. 
 
 To quote from the Wiktionnaire:
-`&#233;tale'_qualifie la mer qui ne monte ni ne descend &#224; la fin du flot ou du jusant._
+'&#233;tale'_qualifie la mer qui ne monte ni ne descend &#224; la fin du flot ou du jusant._
 
-(`Flot' = `flow' and `jusant' = `ebb'.)
+('Flot' = 'flow' and 'jusant' = 'ebb'.)
+
+There is an interesting stanza from a song of L&#233;o Ferr&#233;:
+
+    * Et que les globules figurent
+
+      Une math&#233;matique bleue,
+
+      Sur cette mer jamais &#233;tale
+
+      D'o&#249; me remonte peu &#224; peu
+
+      Cette m&#233;moire des &#233;toiles. &#8212; (L&#233;o Ferr&#233; , La m&#233;moire et la mer,)
 
 
+He also mentions geometry and 'th&#233;or&#232;me' elsewhere in the song.
 
 
- [Reference](http://secure.wikimedia.org/wikipedia/en/wiki/Wikipedia_talk:WikiProject_Mathematics/Archive11#french_spelling).
+ [Reference](http://secure.wikimedia.org/wikipedia/en/wiki/Wikipedia_talk:WikiProject_Mathematics/Archive11#french_spelling)
+
+and also for the [Wiktionnaire references](http://fr.wiktionary.org/wiki/%C3%A9tale)
