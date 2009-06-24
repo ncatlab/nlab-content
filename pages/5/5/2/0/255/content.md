@@ -68,3 +68,7 @@ Some monads arise from [[operad]]s, in which case algebras for the monad are the
 Introductory slides:
 
 * John Baez, [Universal Algebra and Diagrammatic Reasoning](http://math.ucr.edu/home/baez/universal/universal_hyper.pdf)
+
+
+[[!redirects algebra of a monad]]
+[[!redirects algebra over a monad]]
