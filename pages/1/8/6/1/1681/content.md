@@ -1,17 +1,17 @@
 #Idea#
 
-An _Eilenberg-MacLane space_ is a connected [[topological space]] with nontrivial [[homotopy group]]s only in a single degree.
+An _Eilenberg--Mac Lane space_ is a connected [[topological space]] with nontrivial [[homotopy group]]s only in a single degree.
 
 #Definition#
 
-For $G$ a [[group]], the Eilenberg-MacLane space $K(G,1)$ is the image under the [[homotopy hypothesis]] [[Quillen equivalence]] $|-| : \infty Grpd \to Top$ of the one-object groupoid $\mathbf{B}G$ whose [[hom-set]] is $G$:
+For $G$ a [[group]], the Eilenberg--Mac Lane space $K(G,1)$ is the image under the [[homotopy hypothesis]] [[Quillen equivalence]] $|-| : \infty Grpd \to Top$ of the one-object groupoid $\mathbf{B}G$ whose [[hom-set]] is $G$:
 
 $$
   K(G,1) = | \mathbf{B} G |
   \,.
 $$
 
-For $A$ an abelian group, the Eilenberg-MacLane space $K(A,n)$ is the image of the [[infinity-groupoid]] $\mathbf{B}^n A$ that is the [[strict omega-groupoid]] given by the [[crossed complex]] $[\mathbf{B}^n A]$ that is trivial everywhhere except in degree $n$, where it is $A$:
+For $A$ an abelian group, the Eilenberg--Mac Lane space $K(A,n)$ is the image of the [[infinity-groupoid]] $\mathbf{B}^n A$ that is the [[strict omega-groupoid]] given by the [[crossed complex]] $[\mathbf{B}^n A]$ that is trivial everywhhere except in degree $n$, where it is $A$:
 
 $$
   \begin{aligned}
@@ -33,11 +33,11 @@ $$
   \,.
 $$
 
-Therefore Eilenberg-MacLane spaces constitute a [[spectrum]]: the [[Eilenberg-MacLane spectrum]].
+Therefore Eilenberg--Mac Lane spaces constitute a [[spectrum]]: the [[Eilenberg–Mac Lane spectrum]].
 
 # Cohomology #
 
-One common use of Eilenberg-MacLane spaces is as coefficient objects for "ordinary" [[cohomology]].
+One common use of Eilenberg--Mac Lane spaces is as coefficient objects for "ordinary" [[cohomology]].
 
 The $n$th "ordinary" [[cohomology]]_ of a [[topological space]] $X$ with coefficients in $G$ (when $n=1$) or $A$ (generally) is the collection of [[homotopy]] classes of maps from $X$ into $K(G,1)$ or $K(A,n)$, respectively:
 
@@ -53,3 +53,10 @@ $$
 Here on the right $Ho_{Top}$ and $Ho_{\infty Grpd}$ denotes the [[homotopy category]] of the [[(infinity,1)-category|(infinity,1)-categories]] of [[topological space]]s and of [[infinity-groupoid]]s, respectively.
 
 Notice that for $G$ a nonabelian group, $H^1(X,G)$ is a simple (and the most familiar) example of [[nonabelian cohomology]]. Nonabelian cohomology in higher degrees is obtained by replacing here the coefficient $\infty$-groupoids of the simple for $\mathbf{B}^n A$ with more general $\infty$-groupoids.
+
+
+[[!redirects Eilenberg-Mac Lane space]]
+[[!redirects Eilenberg--MacLane space]]
+[[!redirects Eilenberg--Mac Lane space]]
+[[!redirects Eilenberg–MacLane space]]
+[[!redirects Eilenberg–Mac Lane space]]
