@@ -1,3 +1,5 @@
+[[!redirects categories]]
+
 #Idea#
 
 * A category consists of a collection of things and binary relationships (or transitions) between them, such that these relationships can be combined and include the "identity" relationship "is the same as."
