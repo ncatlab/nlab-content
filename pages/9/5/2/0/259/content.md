@@ -1,3 +1,8 @@
+[[!redirects quasi-categories]]
+[[!redirects quasicategory]]
+[[!redirects quasicategories]]
+
+
 #Idea#
 
 The notion of quasi-category is a [[geometric definition of higher category]] which relaxes the [[Kan complex|Kan condition]] on a simplicial set.
