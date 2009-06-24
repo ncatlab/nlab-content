@@ -1,3 +1,3 @@
 See [[quasi-category]].
 
-category: redirect
+category: delete
