@@ -1,5 +1,5 @@
 [[!redirects ∞-category]]
-
+[[!redirects ∞-categories]]
 
 The term _$\omega$-category_ is used more or less synonymous with [[infinity-category]], though the two terms appear with different frequency in different parts of the literature.
 
