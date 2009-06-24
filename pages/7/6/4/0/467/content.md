@@ -1,3 +1,5 @@
+[[!redirects ∞-stack homotopically]]
+
 This entry is about models/presentations for an [[(infinity,1)-category of (infinity,1)-sheaves]] in terms of [[model category|model categories]] of $\infty$-presheaves, in particular in terms of the Brown-Joyal-Jardine [[model structure on simplicial presheaves]]. 
 
 For other notions see [[infinity-stack]] and in general see [[Higher Topos Theory]].
