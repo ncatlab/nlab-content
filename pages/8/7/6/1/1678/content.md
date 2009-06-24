@@ -33,12 +33,14 @@ $\alpha_f$ is [[isomorphism|invertible]], a _strict_ one if each is
 an [[identity morphism|identity]].  An _oplax_ transformation is as above, only
 with all 2-cells reversed.  As usual, nothing significant
 changes if the definitions of _lax_ and _oplax_ are
-swapped; it is a matter of convention.
+swapped; it is a matter of convention.  (For example, we are following Leinster below, but the [[Elephant]] uses the reverse convention.)
 
 +-- {: .query}
 How consistent are different authors in this convention?  Should we include a warning ---or for that matter, a reassurance?  ---Toby
 
 [[Finn Lawler|Finn]]:  I don't know myself, but back in [May](http://ncatlab.org/nlab/show/2009+May+changes) (see end of page) Jonas Frey said 'Johnstone in the elephant and Gurski in his PhD-thesis for example use an other orientation than Leinster and Borceux in their books'.  The one above is Leinster's.  I haven't seen any of the other references.
+
+_Toby_:  OK, I just checked the Elephant, and it is reverse.
 =--
 
 The [[category]] $Lax(F,G)$ consists of lax transformations from $F$ to $G$ and [[modification]]s between them.
