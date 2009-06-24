@@ -1,0 +1,1 @@
+The latest version of Instiki includes the ability to redirect pages.
