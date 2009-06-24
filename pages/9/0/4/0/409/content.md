@@ -1,5 +1,5 @@
 [[!redirects strict ∞-groupoid]]
-
+[[!redirects strict ∞-groupoids]]
 
 #Idea#
 
