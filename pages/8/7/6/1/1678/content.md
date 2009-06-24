@@ -51,16 +51,37 @@ The [[category]] $Lax(F,G)$ consists of lax transformations from $F$ to $G$ and 
 Given a bicategory $C$, a lax functor $F:C\to Cat$ and a $0$-cell $A\in C$, there
 are [[adjoint functor]]s
 
-\[ I : Lax(y A,F) \stackrel{\to}{\leftarrow} F(A) : J \]
+$$ I : Lax(y A,F) \stackrel{\to}{\leftarrow} F(A) : J $$
 
 such that $J \dashv I$.  Here $y A:C \to Cat$ is the image of $A$ under the
 bicategorical [[Yoneda embedding]].
 
 +-- {: .proof}
-###### Proof
+###### Proof (sketch)
 
-Sketch to follow, or see Gray for the case [[strict 2-categories]] and
-strict 2-functors.
+For $a\in F(A)$, let $J(a):y A\Rightarrow F$ be the lax transformation defined by $J(a)_B(f) = (F f)(a)$.  The components
+
+$$  J(a)_g : F(g) \circ J(a)_X \dot{\to} J(a)_Y \circ g_* $$
+
+for $g:X\to Y$ in $C$ are given by $F$'s comparison map $(F_{g,-})_a$.  The coherence conditions follow from those on $F$ wrt the associator and left unitor of $C$.  For $x:a\to b$ in $F(A)$, $J(x)$ is a modification because $F_{g,f}$ is a natural transformation (i.e. 2-cell in $Cat$).
+
+Let $I(\alpha) = \alpha_A(1_A)$ as usual.  For $m:\alpha\ddot{\to}\beta$ a modification, $I(m)=(m_A)(1_A)$.
+
+The unit $\eta: F A \dot{\to} I J$ at $a\in F A$ is the component $(F_A)_a$ of $F$'s comparison map, which is natural in $a$ by definition.  The counit $\epsilon_\alpha$ is obtained via the usual 1-chasing, and is given in components by
+
+\[ (\epsilon_\alpha)_B(f) = \alpha_B(r_f) \circ (\alpha_f)(1_A) \]
+
+where $r$ is the right unitor of $C$.  Some diagram-chasing confirms that this is indeed natural in everything, and so $\epsilon: J I \dot{\to} Lax(y A,F)$.
+
+The triangle identities may be proved by expanding the definitions above and using the coherence conditions on lax functors and transformations and coherence of $C$.
+
+See Gray for the case [[strict 2-categories]] and strict 2-functors.
+=--
+
++-- {: .query}
+[[Finn Lawler|Finn]]:  I don't know how natural this is in $F$ and $A$, but I'll try to figure it out.
+
+Also, if you reverse the definitions of lax and oplax transformations, then you should do the same for functors, and I think in that case $I\dashv J$.
 =--
 
 
