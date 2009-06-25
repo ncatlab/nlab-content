@@ -1,0 +1,6 @@
+Jean-Luc Brylinski is a French mathematician now working in the USA. He has developed [[gerbes]] in a differential geometric context.
+
+##Reference##
+ [Wikipedia article](http://en.wikipedia.org/wiki/Jean-Luc_Brylinski)
+
+category: people
