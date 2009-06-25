@@ -1,4 +1,6 @@
-A $2$-group is a [[vertical categorification]] of the idea of [[group]].
+A $2$-group is a [[vertical categorification]] of the idea of [[group]]. 
+
+It is the special case of an [[n-group]] for $n=2$.
 
 # Strict $2$-groups
 
