@@ -2,7 +2,7 @@
 
 In 
 
-* Carlos Simpson, _Homotopy types of strict 3-groupoids_ ([arXiv](http://arxiv.org/abs/math/9810059))
+* [[Carlos Simpson]], _Homotopy types of strict 3-groupoids_ ([arXiv](http://arxiv.org/abs/math/9810059))
 
 it was conjectured ([page 27](http://arxiv.org/PS_cache/math/pdf/9810/9810059v1.pdf#page=27)) that
 
