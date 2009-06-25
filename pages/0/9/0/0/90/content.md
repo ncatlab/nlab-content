@@ -108,3 +108,6 @@ See the discussion in
 *Ronnie Brown, A new higher homotopy groupoid: the fundamental  globular $\omega$-groupoid of a filtered space, Homotopy, Homology and Applications, 10 (2008), No. 1, pp.327-343.
 
 To obtain the required structure of well defined compositions in this globular $\omega$-groupoid it has been found necessary to use the known structure in the cubical cases, and their relation with the globular case. 
+
+
+[[!redirects n-globe]]
