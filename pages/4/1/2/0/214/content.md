@@ -34,3 +34,6 @@ For a brief review and a collection of many relevant references see
 #Functorial reformulation#
 
 There is a succinct functorial reformulation of $k$-conjugacy classes. This is described at [[schreiber:higher group characters]].
+
+
+[[!redirects higher group characters]]
