@@ -81,3 +81,6 @@ We had extensive discussion of generalized smooth spaces at the $n$-Caf&#233;:
 
 
 =--
+
+
+[[!redirects generalized smooth spaces]]
