@@ -125,7 +125,8 @@ structure in terms of the existence of a certain class on the total space of the
 
 We write this out for the case of string structures, all other cases work entirely analogously.
 
-Let $X$ be an oriented Spin manifold and let $P \to X$ be the corresponding $Spin(n)$-bundle. Notice that this, like any principal bundle (see [[generalized universal bundle]]) is the [[homotopy limit|homotopy pullbacks]] 
+
+Let $X$ be an oriented Spin manifold and let $P \to X$ be the corresponding $Spin(n)$-bundle. Notice that this, like any principal bundle (see [[generalized universal bundle]], [[principal bundle]] and [[principal infinity-bundle]]) is the [[homotopy limit|homotopy pullback]] 
 
 $$
   \array{
@@ -137,6 +138,21 @@ $$
   }
 $$
 of the point along the classifying map from $X$ to the [[classifying space]] $B Spin(n)$.
+
+In other words, there is a [[fibration sequence]]
+
+$$
+  \cdots 
+  \to
+  (\Omega B Spin = Spin(n))
+  \to
+  P
+  \to 
+  X 
+  \to
+  B Spin(n)
+  \,.
+$$
 
 If now $X$ does admit a String structure, i.e. a decomposition of $X \to B Spin(n)$ into a map $X \to B String(n) \to B Spin(n)$ then we obtain the following diagram, where each square is a [[homotopy limit|homotopy pullbacks]]
 
