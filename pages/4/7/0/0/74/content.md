@@ -3,7 +3,7 @@ Usurprisingly, _enriched category theory_ studies [[enriched category|enriched c
 But maybe surprisingly, enriched category theory proves to be more that just the study of a given mathematical structures. Compare [[category theory]].
 
 
-#Literature#
+##Literature##
 
 The standard monograph on enriched category is
 
@@ -24,3 +24,4 @@ Reprints in Theory and Applications of Categories, No. 10 (2005) pp. 1-136 ([pdf
 * [[monoidal category]]
 
 
+[[!redirects Enriched Category Theory]]
