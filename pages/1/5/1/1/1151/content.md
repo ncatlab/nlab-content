@@ -5,17 +5,26 @@ There are various different-looking definitions of the general notion of _cohomo
 
 ## Nonabelian (unstable) cohomology ##
 
-Given an [[(infinity,1)-topos]] $H$, for any two [[object]]s $X$, $A$ of $H$ the **cohomology** of $X$ with coefficients in $A$ is nothing but the [[hom-space]] $H(X,A)$ (an [[infinity-groupoid]]).
+Given an [[(infinity,1)-topos]] $\mathbf{H}$, for any two [[object]]s $X$, $A$ of $\mathbf{H}$ the **cohomology** of $X$ with coefficients in $A$ is nothing but the [[hom-space]] $\mathbf{H}(X,A)$ (an [[infinity-groupoid]]).
 
 More precisely:
 
-* the [[object]]s $ c \in H(X,A)$ are the **cocycle**s on $X$ with values in $A$;
+* the [[object]]s $ c \in \mathbf{H}(X,A)$ are the **cocycle**s on $X$ with values in $A$;
 
-* the [[morphism]]s $\lambda : c \to c'$ in $H(X,A)$ are the **coboundaries** between cocycles;
+* the [[morphism]]s $\lambda : c \to c'$ in $\mathbf{H}(X,A)$ are the **coboundaries** between cocycles;
 
-* the higher morphisms in $H(X,A)$ are the **higher coboundaries** or **coboundaries of coboundaries**.
+* the higher morphisms in $\mathbf{H}(X,A)$ are the **higher coboundaries** or **coboundaries of coboundaries**.
 
-* the equivalence classes $[c] \in \pi_0 H(X,A)$ are the **cohomology classes**.
+* the equivalence classes $[c] \in \pi_0 \mathbf{H}(X,A)$ are the **cohomology classes**.
+
+Hence for $H = Ho_{\mathbf{H}}$ the [[homotopy category of an (infinity,1)-category|homotopy category]] of $\mathbf{H}$, the _cohomology set_ is
+
+$$
+  H(X,A) := Ho_{\mathbf{H}}(X,A)
+  \,.
+$$
+
+This is itself a group if $A$ happens to carry a group structure (being a [[2-group]] or [[cat-n-group]] or the like).
 
 ### Remarks ###
 
@@ -37,9 +46,23 @@ Notice that the grading one usually sees on cohomology classes is in the above d
 
 #Examples#
 
+* classes of special cases of cohomology their own entries include
+
+  * [[nonabelian cohomology]]
+
+  * [[abelian sheaf cohomology]]
+
+  * [[group cohomology]].
+
 * The archetypical example for [[nonabelian cohomology]] theory is the [[(infinity,1)-topos]] $H = $ [[Top]], the [[(infinity,1)-category]] of [[topological space]]s. For $X$ and $A$ two topological spaces, the cohomology classes of $X$ with values in $A$ are the homotopy classes of continuous maps $X \to A$. For $A = K(a,n)$ an [[Eilenberg-Mac Lane space]] with $a$ an abelian group this reproduces "ordinary cohomology" of spaces. For $A = B G$ a [[classifying space]] of a topological [[group]] $G$, this reproduces degree 1 [[nonabelian cohomology]] $H^1(X,G)$. In general, for $A$ an $n$-type, $H(X,A)$ is topological degree-$n$ [[nonabelian cohomology]].
 
-* The archetypical example for abelian cohomology theory is the [[stable (infinity,1)-topos]] $H = $ [[Spec]], the [[stable (infinity,1)-category]] of [[spectrum|spectra]]. This is the case in the literature often addressed as [[generalized cohomology]], since it generalizes the entities specified by the Eilenberg--Steenrod axioms. But really, the general concept of cohomology is more general than this "generalized cohomology".
+* The archetypical example for abelian cohomology theory is the [[stable (infinity,1)-topos]] $H = $ [[Spec]], the [[stable (infinity,1)-category]] of [[spectrum|spectra]]. This is the case in the literature often addressed as [[generalized cohomology]], since it generalizes the entities specified by the Eilenberg--Steenrod axioms. But really, the general concept of cohomology is more general than this "generalized cohomology". 
+
+  * "ordinary" cohomology is cohomology with coefficients in the [[Eilenberg-MacLane spectrum]]
+
+  * K-theory is cohomology with coefficients in the [[K-theory spectrum]]
+
+  * elliptic cohomology is somehow subsumes by cohomology with coefficients in [[tmf]].
 
 * Objects in general nonabelian cohomology are usually called [[infinity-stack]]s are 
 [[(infinity,1)-sheaf|(infinity,1)-sheaves]], since every Grothendieck--Rezk--Lurie [[(infinity,1)-topos]] arises as a [[(infinity,1)-category of (infinity,1)-sheaves]].
