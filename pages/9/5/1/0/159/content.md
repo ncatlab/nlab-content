@@ -11,3 +11,6 @@ For $n \leq 3$ two alternative semi-strictifications are known:
 A review, some references and further discussion is at
 
 * [_Semistrict $\infty$-categories and $\omega$-Semi-Categories_](http://golem.ph.utexas.edu/category/2008/10/semicategories.html)
+
+
+[[!redirects semi-strict]]
