@@ -16,4 +16,7 @@ If we write [[FinSet]] for the skeletal version of the category of finite sets, 
 
 * $CartSp$ appear as test objects in the context of [[generalized smooth space|generalized smooth spaces]] and [[generalized smooth algebra|generalized smooth algebras]].
 
+
 category: category
+
+[[!redirects CartesianSpaces]]
