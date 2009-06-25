@@ -121,3 +121,6 @@ _[[Tim Porter|Tim]]_ : Should someone attempt to discuss the Baues approach to H
 
 
 =--
+
+
+[[!redirects Homotopy Theory]]
