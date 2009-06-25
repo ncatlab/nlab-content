@@ -4,3 +4,6 @@
 [[An Exercise in Groupoidification]]
 
 category: people
+
+
+[[!redirects Eric]]
