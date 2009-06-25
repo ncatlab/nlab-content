@@ -50,10 +50,21 @@ _Local connectedness_ can be well stated by saying that for the various $U$, if 
 
 
 
-## Example## 
-$\mathcal{T}ors(G)$ is a gerbe on $B$.
+## Example and important proposition## 
 
-To see _locally non-empty_: If $U$ is any open set in $B$, then as $\mathcal{T}ors(G)(U) = Tors(U;G)$, the category of $G_U$-torsors over $U$, it has at least the [[trivial torsor|trivial $G_U$-torsor]] amongst its objects, so $\mathcal{T}ors(G)$ is locally non-empty.
+
++-- {: .un_proposition}
+
+###### Proposition
+$\mathcal{T}ors(G)$ is a gerbe on $B$.
+=--
+
++-- {: .proof}
+######Proof
+To see _locally non-empty_: If $U$ is any open set in $B$, then as $\mathcal{T}ors(G)(U) = Tors(U;G)$, the category of $G_U$-torsors over $U$, it has at least the [[trivial torsor|trivial G-torsor]] (over $U$) amongst its objects, so $\mathcal{T}ors(G)$ is locally non-empty.
+
+Next look at $\mathcal{T}ors(G)(U)$ again.  Any two $G_U$-torsors are locally isomorphic to each other, since they are both locally isomorphic to the trivial $G$-torsor, so, if $F$ and $F^\prime$ are two $G_U$-torsors, there is an open cover such that over that cover $F$ and $F^\prime$ are isomorphic, hence $\mathcal{T}ors(G)$ is locally connected.  We thus have that $\mathcal{T}ors(G)$ is a gerbe.
+=--
 
 
 +--{: .query}
@@ -65,3 +76,13 @@ I got it from the entry on wikipedia on [gerbes,]( http://en.wikipedia.org/wiki/
 
 [[Tim Porter|Tim]]:  I will get there but the route is not that short! It is however not that long either.
 =--
+
+####References
+
+There is a lengthier description of gerbes (at this level of generality) in the Menagerie notes that are available from [[Tim Porter|Tim Porter's]] home page.
+
+Other material available online includes:
+
+* I. Moerdijk, _Introduction to the language of stacks and gerbes_ ([arXiv](http://arxiv.org/abs/math/0212266))
+
+
