@@ -12,6 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 # 2009-06-25 #
+
+* [[Urs Schreiber|Urs]]: 
+
+  * added an "Idea"-section to [[gerbe]] supposed to be read as "general idea", where I try to describe the concept in a way independent of the notion of stack, relating it to princpal bundles, principal $\infty$-bundles, fibration sequences and cohomology . At the end I say "in the following we spell out concrete realization of this idea". Then I made [[Tim Porter]]'s material a section "Realization of gerbes as stacks". Eventually I'd like to add similarly "Realization of gerbes as Stasheff-Wirth fibrations", "Realization of gerbes as bundle gerbes" etc.
+
+    * I hope that this is okay with you all, in particular I hope that [[Tim Porter|Tim]] doesn't mind me putting such a chunk of material in front of his work. If anyone has the impression that the chunk I added should rather be separated to a different entry, I'll have no objections. But please have a look first to see what I am trying to get at.
 * [[Tim Porter|Tim]]: 
 
    * I have added material to [[gerbe]], although it is still a long way from explaining the link with cohomology with integer coefficients that was requested.
