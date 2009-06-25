@@ -8,7 +8,7 @@ There are these and those conditions on the various maps involved...
 
 Topological and differentiable (or smooth, "Lie") groupoids (and more generally categories) were introduced in
 
-* C. Ehresmann -Colloque de G&#233;ometrie Differentielle Globale_ (Bruxelles, 1958), 137--150, Centre Belge Rech. Math., Louvain, 1959; 
+* C. Ehresmann _Colloque de G&#233;ometrie Differentielle Globale_ (Bruxelles, 1958), 137--150, Centre Belge Rech. Math., Louvain, 1959; 
 
 Reviews and developments of the theory of Lie groupoids include
 
@@ -22,3 +22,6 @@ Reviews and developments of the theory of Lie groupoids include
 ##Further discussion##
 
 John Baez talks about various kinds of Lie groupoids in [TWF](http://math.ucr.edu/home/baez/TWF.html) [256](http://math.ucr.edu/home/baez/week256.html).
+
+
+[[!redirects Lie groupoids]]
