@@ -228,3 +228,6 @@ The definition itself appears on p. 16.
 A brief but useful review is also on p. 3 of
 
 * David Spivak, _Quasi-Smooth derived manifolds_ ([pdf](http://math.berkeley.edu/~dspivak/thesis2.pdf))
+
+
+[[!redirects generalized smooth algebras]]
