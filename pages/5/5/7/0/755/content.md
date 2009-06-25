@@ -1,3 +1,4 @@
-_Pursuing Stacks_ is a soon-to-be-published manuscript written by Grothendieck in 1983. Its influence on higher category theory and homotopy is substantial. For an account of the origins, see [Ronnie Brown's account](http://www.bangor.ac.uk/~mas010/pstacks.htm). Scanned copies of the original typescript are available [here](http://modular.fas.harvard.edu/sga/djvu/Pursuing%20Stacks.tif.djvu) (in djvu, warning: 23MB) and [here](http://www.math.umn.edu/~messing/docs/).
+_La poursuite des [[stack|champs]]_ (literally _The Pursuit of Stacks_, also _Pursuing Stacks_ and _In Pursuit of Stacks_) is a soon-to-be-published manuscript written by Grothendieck in 1983. Its influence on higher category theory and homotopy is substantial. For an account of the origins, see [Ronnie Brown's account](http://www.bangor.ac.uk/~mas010/pstacks.htm). Scanned copies of the original typescript are available [here](http://modular.fas.harvard.edu/sga/djvu/Pursuing%20Stacks.tif.djvu) (in djvu, warning: 23MB) and [here](http://www.math.umn.edu/~messing/docs/).
+
 
 category: reference
