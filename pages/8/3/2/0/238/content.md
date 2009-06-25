@@ -15,6 +15,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
+  * added the example of principal bundles to [[fibration sequence]]
+
+  * added an example section to [[group cohomology]] with details of how the abstract-nonsense definition reproduces the familiar formulas
+
   * created [[twisted cohomology]]
 
   * created [[n-group]]
