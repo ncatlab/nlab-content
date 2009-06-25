@@ -21,3 +21,7 @@ In this context
 * the generators in degree $2$ are called **ghosts of ghosts**;
 
 * etc.
+
+
+[[!redirects Chevalley–Eilenberg algebra]]
+[[!redirects Chevalley--Eilenberg algebra]]
