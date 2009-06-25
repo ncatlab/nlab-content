@@ -1,6 +1,6 @@
 # Idea #
 
-A **homotopy pullback** is the appropriate notion of [[pullback]] in the context of [[homotopy theory]]. They model the [[limit in quasi-categories|quasi-category pullbacks]] in the [[(infinity,1)-category]] that is [[presentabled (infinity,1)-category|presented]] by a given [[homotopical category]].  It is a special case of the notion of [[homotopy limit]].  Since pullbacks are also called fiber products, homotopy pullbacks are also called **homotopy fiber products**.
+A **homotopy pullback** is the appropriate notion of [[pullback]] in the context of [[homotopy theory]]. They model the [[limit in quasi-categories|quasi-category pullbacks]] in the [[(infinity,1)-category]] that is [[presentable (infinity,1)-category|presented]] by a given [[homotopical category]].  It is a special case of the notion of [[homotopy limit]].  Since pullbacks are also called fiber products, homotopy pullbacks are also called **homotopy fiber products**.
 
 
 # Definition #
