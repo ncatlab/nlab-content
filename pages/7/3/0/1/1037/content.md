@@ -181,6 +181,7 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
 * [[limit in quasi-categories]]
 
+  * [[fibration sequence]]
 
 ##5 Presentable and Accessible $\infty$-Categories##
 
@@ -204,6 +205,7 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
   * [[reflective (infinity,1)-subcategory]]
 
   * [[local object]]
+
 
 ##6 $\infty$-Topoi##
 
@@ -236,8 +238,24 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
   * [[descent for simplicial presheaves]]
 
+* [[cohomology]]
 
+  * [[nonabelian cohomology]]
 
+  * [[abelian sheaf cohomology]]
+
+  * [[fibration sequence]]
+
+    * [[principal infinity-bundle]]
+   
+      * [[gerbe (general idea)]]
+  
+      * [[gerbe (as a stack)]]
+     
+      * [[bundle gerbe]]
+
+      * [[principal 2-bundle]]
+     
 ##7 Higher Topos Theory in Topology
 
 
@@ -269,15 +287,17 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
   * [[Waldhausen category]]
 
+  * [[simplicial localization]]
+ 
   * [[model category]]
  
     * [[monoidal model category]]
 
     * [[enriched model category]]
 
-* [[localization of a simplicial model category]]
+    * [[localization of a simplicial model category]]
 
-  * [[Bousfield localization]]
+      * [[Bousfield localization]]
 
 
 ### Simplicial model categories
