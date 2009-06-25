@@ -70,7 +70,7 @@ The pivotal theorem here is the [[cobordism hypothesis]], a proof of which was r
 
 #Literature#
 
-For a very gentle introduction to higher category theory, try [The Tale of <em>n</em>-Categories](http://mah.ucr.edu/home/baez/week73.html#tale), which begins in "week73" of This Week's Finds and goes on from there... keep clicking the links.
+For a very gentle introduction to higher category theory, try [The Tale of <em>n</em>-Categories](http://math.ucr.edu/home/baez/week73.html#tale), which begins in "week73" of This Week's Finds and goes on from there... keep clicking the links.
 
 For a slightly more formal but still pathetically easy introduction, try:
 
