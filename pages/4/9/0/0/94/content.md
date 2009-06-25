@@ -56,3 +56,4 @@ For more general 'weak Lie 2-algebras', see:
 * Dmitry Roytenberg, _On weak Lie 2-algebras_,  ([arXiv](http://arxiv.org/abs/0712.3461))
 
 
+[[!redirects Lie infinity-algebra]]
