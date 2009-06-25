@@ -99,3 +99,6 @@ $$
 $$
 
 I have added this remark now explicitly to the entry above.
+
+
+[[!redirects day convolution]]
