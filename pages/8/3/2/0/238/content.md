@@ -15,6 +15,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
+  * created [[principal 2-bundle]] -- this is just the result of what came to mind while typing, I am sure to have forgotten and misrepresented crucial aspects. [[Toby Bartels]] should please have a critical look and modify as necessary, as should [[Igor Bakovic]] and [[Christoph Wockel]] in case they are reading this. 
+
   * based on a reaction I received concerning my comment below on the entry [[gerbe]] I have split the material into entries [[gerbe (as a stack)]], [[gerbe (general idea)]], [[bundle gerbe]] and kept at [[gerbe]] only pointers to these entries -- let me know what you think
 
   * created an entry for [[Carlos Simpson]] motivated by a link to a recent [pdf note](http://math.unice.fr/~carlos/slides/ihesAGjan09.pdf) -- that [[Zoran Skoda]] kindly pointed me to --  where Simpson briefly sketches the topic of higher stacks, old and recent progress and putting his own contribution into context. I thought that was a nice short comprehensive collection of keywords and so I reproduce that text now at the entry [[Carlos Simpson]] with all the keywords hyperlinked
