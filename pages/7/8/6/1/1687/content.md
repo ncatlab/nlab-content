@@ -48,3 +48,9 @@ It is important to note that it does not state in the definition of a gerbe that
 
 ## Example## 
 $\mathcal{T}ors(G)$ is a gerbe on $B$.
+
+===Differential geometry===
+* $H^3(X,\mathbb{Z})$ and $\mathcal{O}_X^*$-gerbes: [[Jean-Luc Brylinski]]'s approach
+
+_Daniel_:Please, would someone mind explain this with detail? I am interested in understand quantization and somehow, this thing comes up all the time...
+I got it from the entry on wikipedia on [gerbes,]( http://en.wikipedia.org/wiki/Gerbe) but it was not explained.
