@@ -117,10 +117,13 @@ In the case where the action is [[internalization|internal]] to sets with struct
 #References#
 
 * P.J. Higgins, 1971, "Categories and Groupoids", van
-Nostrand, {New   York}. Reprints in Theory and Applications of Categories, 7 (2005) pp 1-195.
+Nostrand, {New   York}. Reprints in Theory and Applications of Categories, 7 (2005) pp 1--195.
 
 * R. Brown, "Topology and groupoids", Booksurge, 2006. 
 
 * John Armstrong's article, [Groupoids (and more group actions)](http://unapologetic.wordpress.com/2007/06/09/groupoids-and-more-group-actions/)
 
 * John Baez, [TWF 249](http://math.ucr.edu/home/baez/week249.html)
+
+
+[[!redirects action group]]
