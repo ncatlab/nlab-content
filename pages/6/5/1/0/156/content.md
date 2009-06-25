@@ -9,3 +9,6 @@ _Mike_: It would be interesting to know the precise strength of the statement "e
 =--
 
 Notice that the [[axiom of choice]] fails in general when one considers [[internal category|internal categories]].  Hence not every [[internal category]] has a skeleton.
+
+
+[[!redirects skeletal]]
