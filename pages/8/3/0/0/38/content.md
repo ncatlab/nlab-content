@@ -84,3 +84,6 @@ bla bla bla
 * [[space and quantity]]
 * [[superdifferential form]]
 * [[volume of Lie groupoids]]
+
+
+[[!redirects Lie Theory]]
