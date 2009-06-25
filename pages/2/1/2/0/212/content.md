@@ -16,4 +16,7 @@ $$
 
 to the category [[Bimod]], which sends algebra homomorphisms $f : A \to B$ to the $A$-$B$ bimodule ${}_f B$.  This exhibits $Bimod$ as a [[framed bicategory]] in the sense of Shulman.
 
+
 category: category
+
+[[!redirects Algebras]]
