@@ -2,7 +2,7 @@
 
 The notion of [[cohomology]] finds its natural general formulationn in terms of [[hom-space]]s in an [[(infinity,1)-topos]], as described at [[cohomology]]. Much of the cohomologies which have been traditionally considered, such as [[abelian sheaf cohomology|sheaf cohomology]] turn out to be just a special case of the general situation, for objects which are sufficiently abelian in the sense of [[stable (infinity,1)-category|stable (infinity,1)-categories]].
 
-Therefore to make the distinction, more general notions of cohomology are often called **nonabelian cohomology**. 
+Therefore to amplify that one is looking at general [[cohomology]] without restricting to [[abelian sheaf cohomology|abelian cohomology]] one sometimes speaks of  **nonabelian cohomology**. 
 
 #History#
 
