@@ -15,6 +15,11 @@ If morphisms $h \circ g$ and $g \circ f$ are weak equivalences, then so are $f$,
 
 * A functor $F : C \to D$ between homotopical categories which preserves weak equivalences is a [[homotopical functor]].
 
+# Simplicial localization #
+
+Every homotopical category $C$ "presents" or "models" an [[(infinity,1)-category]] $L C$, a [[simplicially enriched category]] called the [[simplicial localization]] of $C$, which is in some sense the universal solution to inverting the weak equivalence up to [[higher category theory|higher categorical]] morphisms.
+
+
 #Related concepts#
 
 * [[category of fibrant objects]]
