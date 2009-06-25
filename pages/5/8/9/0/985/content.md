@@ -1,4 +1,4 @@
-Grothendieck's Galois theory was constructed in order to define for schemes an analogue of the following correspondence
+Grothendieck's [[Galois theory]] was constructed in order to define for schemes an analogue of the following correspondence
 
 : [[covering space]]s of $X$ : $\pi_1(X)$-sets
 
