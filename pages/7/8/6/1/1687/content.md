@@ -1,4 +1,6 @@
 [[!redirects gerbes]]
+[[!redirects gerb]]
+
 
 ##Idea## 
 
