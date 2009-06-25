@@ -26,6 +26,13 @@ $$
 
 This is itself a group if $A$ happens to carry a group structure (being a [[2-group]] or [[cat-n-group]] or the like).
 
+## objects classified by cohomology classes ##
+
+For $g : X \to A$ a cocycle, one says that is [[fibration sequence|homotopy fiber]] $P \to X$ is the
+object **classified by the cohomology class*.
+
+Such an object usually has the interpretation of a [[principal infinity-bundle]]. Special cases of this are [[principal bundle]]s, [[gerbe]]s, [[principal 2-bundle]]s, etc.
+
 ### Remarks ###
 
 * Notice that this definition is in a way the very point of the notion of [[(infinity,1)-topos]]: an [[(infinity,1)-topos]] is supposed to be an [[(infinity,1)-category]] which behaves structurally exactly like the [[(infinity,1)-category]] [[Top]] of [[topological space]]s. Since cohomology of topological spaces is nothing but homotopy classes of maps between topological spaces, the analogous statement should be true in a general [[(infinity,1)-topos]]. This is what the above definition asserts.
