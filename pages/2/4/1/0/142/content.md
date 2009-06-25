@@ -88,3 +88,6 @@ Introductory material is
 * J. Heinloth, _Some notes on differentiable stacks_ ([pdf](http://www.uni-duisburg-essen.de/~hm0002/stacks.pdf))
 
 * I. Moerdijk, _Introduction to the language of stacks and gerbes_ ([arXiv](http://arxiv.org/abs/math/0212266))
+
+
+[[!redirects stack*]]
