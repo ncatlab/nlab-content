@@ -15,6 +15,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]: 
 
+  * created [[principal infinity-bundle]], just for completeness
+
   * created [[principal 2-bundle]] -- this is just the result of what came to mind while typing, I am sure to have forgotten and misrepresented crucial aspects. [[Toby Bartels]] should please have a critical look and modify as necessary, as should [[Igor Bakovic]] and [[Christoph Wockel]] in case they are reading this. 
 
   * based on a reaction I received concerning my comment below on the entry [[gerbe]] I have split the material into entries [[gerbe (as a stack)]], [[gerbe (general idea)]], [[bundle gerbe]] and kept at [[gerbe]] only pointers to these entries -- let me know what you think
