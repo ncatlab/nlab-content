@@ -4,4 +4,7 @@ $$F : hom(x,y) \to hom(F(x), F(y))$$
 
 is one-to-one.  
 
-More abstractly, we may say a functor is faithful if it is $2$-[[k-surjective functor|2-surjective]] &#8211; or loosely speaking, 'surjective on equations between given morphisms'.
+More abstractly, we may say a functor is faithful if it is $2$-[[k-surjective functor|surjective]] &#8211; or loosely speaking, 'surjective on equations between given morphisms'.
+
+
+[[!redirects faithful]]
