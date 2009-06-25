@@ -21,10 +21,13 @@ As a warm-up, we first discuss the classifying category for the theory of groups
 
 Thus, we take $Lex[T]$ to be the category opposite to the category of _finitely presented groups_: those groups $G$ which arise as coequalizers of diagrams 
 
-$$F(m) \stackrel{\to}{\to} F(n)$$ 
+$$F(m) \rightrightarrows F(n)$$ 
 
 between finitely generated free groups. It may be shown that $Lex[T]$ is finitely complete, and the "generic group" inside $Lex[T]$ is $F(1)$, the free group on one generator, just as it is for the [[Lawvere theory]] (see the discussion at that entry). 
 
 * The classifying topos for intervals. 
 
 * The classifying topos for [[local ring|local rings]]. 
+
+
+[[!redirects Another page]]
