@@ -233,24 +233,23 @@ The fact that the n-1th homology of $NG(X)$ is $\pi_n(X)$ in the reduced case is
 +-- {: .un_lemma }
 ###### Lemma
 
-Let $C$ be a [[groupoid]] and $N(C)$ its [[nerve]].
+Let $C$ be a [[groupoid]] and $\mathcal{N}(C)$ its [[nerve]].
 
 Then 
 
-* $\pi_0 N(C) = set of isomorphism classes of C$
+* $\pi_0 \mathcal{N}(C,c)$ is the set of isomorphism classes of $C$ with the class of $c$ as base point
 
-* $\pi_1 N(C,c) = automorphism group Aut_C(c) of c$
+* $\pi_1 \mathcal{N}(C,c)$ is the automorphism group $Aut_C(c)$ of $c$
 
-* $\pi_{n \geq 2} N(C,c) = 0$
+* $\pi_{n \geq 2} \mathcal{N}(C,c)$ is trivial
 
 =--
 
 In particular a [[functor]]
-$f : C \to D$ of [[groupoids]] is a [[equivalence of categories]] if under the nerve it induces a weak equivalence $N f : N(C) \to N(D)$ of [[Kan complex]]es:
+$f : C \to D$ of [[groupoids]] is a [[equivalence of categories]] if under the nerve it induces a weak equivalence $\mathcal{N}(f) : \mathcal{N}(C) \to \mathcal{N}(D)$ of [[Kan complex]]es:
 
-* that $N(f)_0 : \pi_0(C) \to \pi_0(D)$ is an isomorphism is equivalent to $f$ being [[essentially surjective functor]];
-
-* that $N(f)_1 : \pi_1(C) \to \pi_1(D)$ is an isomorphism is equivalent to $f$ being a [[full and faithful functor]].
+* that $\pi_0 \mathcal{N}(f,c) : \pi_0(C,c) \to \pi_0(D,f(c))$ is an isomorphism implies that $f$ is an [[essentially surjective functor]] and is implied by $f$\'s being a [[full functor]];
+* that $\pi_1 \mathcal{N}(f,c) : \pi_1(C,c) \to \pi_1(D,f(c))$ is an isomorphism is equivalent to $f$\'s being a [[full and faithful functor]].
 
 
 #References#
