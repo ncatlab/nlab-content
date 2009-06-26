@@ -1,4 +1,4 @@
-The notion of fibration theory was created by James Wirth in his PhD thesis in 1965. It allows classification of what would now be called $\infty$-[[infinity-bundle|bundles]].
+The notion of fibration theory was created by James Wirth in his PhD thesis in 1965. It allows classification of what would now be called $\infty$-[[principal infinity-bundle|bundles]].
 
 
 ### The axioms ###
