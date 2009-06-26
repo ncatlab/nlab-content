@@ -11,9 +11,12 @@ So, if you feel people's attention should be drawn to some changes you make, ple
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).
 
 ***
+
 # 2009-06-26 #
 
-[[David Roberts]]: created [[fibration theory]]. Also a comment at [[gerbe (general idea)]] about the fibration theory axioms.
+*  [[Eric Forgy]] has a request at [[notation]].
+
+*  [[David Roberts]]: created [[fibration theory]]. Also a comment at [[gerbe (general idea)]] about the fibration theory axioms.
 
 # 2009-06-25 #
 
