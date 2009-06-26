@@ -15,7 +15,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 # 2009-06-26 #
 
 * [[Urs Schreiber|Urs]]:
- 
+
+  * added discussion that Kan complexes form a category of fibrant objects to [[category of fibrant objects]] that is slightly more direct than the argument using the full model category structure (crucial point being the theorem now at [[model structure on simplicial sets]] that acyclic fibrations of simplicial sets are characterized by a right lifting property).
+
+  * added the example of a functor that is an equivalence of groupoids as inducing isomorphisms of simplicial homotopy groups under the nerve to [[simplicial homotopy group]]
+
+  * created [[right proper model category]]
+
   * started filling in detailed proofs at [[category of fibrant objects]] -- am thinking that maybe eventually now the entry should be broken apart into a brief overview and one containing all the details
 
 *  [[Toby Bartels]]:
