@@ -29,6 +29,11 @@ Similarly, the term 'gerbe' refers to a special sort of stack of groupoids.
 A gerbe is to a general stack what, up to equivalence, a group is to a general groupoid. It is non-empty and connected.
 =--
 
++--{: .query}
+
+[[David Roberts]]: This is reflected in the fact that the fibres of bundle gerbes (either abelian or $G$-bundles gerbes) are transitive groupoids. I believe Tim and I had a bit of discussion of this sort of thing last year (or before - mists of time...). Or maybe this comment should go in [[gerbe (general idea)]]?
+=--
+
 To make this precise we use some additional notions:
 
 We will have a pseudofunctor $F : Open(B)^{op}\to Grpd$, and this will be a stack.
