@@ -94,7 +94,7 @@ and the formula for limits is obtained by dualizing the formula for colimits in 
 
 ## Chu spaces ## 
 
-While the Chu construction is worthy of exploration for many types symmetric monoidal categories $C$, a great deal of attention has been focused just on the particular case $Chu(Set, 2)$ (or $Chu(Set,TV)$, where $TV$ is the set of [[truth value]]s, to be [[constructive mathematics|constructive]]), called the category of **Chu spaces**, and relatives like $Chu(E, \Omega)$ where $E$ is a [[topos]] and $\Omega$ its [[subobject classifier]]. The reason is that a great many concrete categories of interest are fully embedded in Chu spaces. Moreover, the 2-element set $TV$ carries a panoply of [[ambimorphic object|ambimorphic]] (formerly, schizophrenic) object structures which induce concrete dualities between these categories, and nearly all of these dualities are embedded in (i.e., are restrictions of) the one overarching duality that obtains on Chu spaces. 
+While the Chu construction is worthy of exploration for many types of symmetric monoidal categories $C$, a great deal of attention has been focused just on the particular case $Chu(Set, 2)$ (or $Chu(Set,TV)$, where $TV$ is the set of [[truth value]]s, to be [[constructive mathematics|constructive]]), called the category of **Chu spaces**, and on relatives like $Chu(E, \Omega)$ where $E$ is a [[topos]] and $\Omega$ its [[subobject classifier]]. The reason is that a great many concrete categories of interest are fully embedded in Chu spaces. Moreover, the 2-element set $TV$ carries a panoply of [[ambimorphic object|ambimorphic]] (formerly, schizophrenic) object structures which induce concrete dualities between these categories, and all of these dualities are embedded in (i.e., are restrictions of) the one overarching duality that obtains on Chu spaces. 
 
 The way this works is invariably the same: if $U: C \to Set$ is a [[concrete category]] and $\mathbf{2}$ is an object of $C$ over the 2-element set $TV$, then there is a functor 
 
@@ -106,22 +106,47 @@ What is striking is that this functor $i$ is also *full* in many cases of intere
 
 $$g: hom(d, \mathbf{2}) \overset{monic}{\to} hom(U d, 2) \overset{f^*}{\to} hom(U c, 2)$$ 
 
-to be a restriction of the [[preimage]] function $f^*$ -- and then the mere additional fact that $f^*(\phi) = \phi \circ f \in hom(c, \mathbf{2})$ whenever $\phi \in hom(d, \mathbf{2})$ is often enough to force $f$ to be (the underlying function of) a morphism of $C$. What is required is that there should be sufficiently many morphisms $d \to \mathbf{2}$ to detect $C$-structure in $d$. Some examples follow: 
+to be a restriction of the [[preimage]] function $f^*$ -- and then the mere additional fact that $f^*(\phi) = \phi \circ f \in hom(c, \mathbf{2})$ whenever $\phi \in hom(d, \mathbf{2})$ is often enough to force $f$ to be (the underlying function of) a morphism of $C$. All that is required is that there be sufficiently many morphisms $d \to \mathbf{2}$ to detect $C$-structure on $d$. Some examples follow: 
 
 * As explained above, $Set$ fully embeds in $Chu(Set, 2)$ by $X \mapsto (X, 2^X; eval: X \times 2^X \to 2)$. 
 
 * For $C = Top$, taking $\mathbf{2}$ to be [[Sierpinski space]], we have for each [[topological space]] $c$ an identification $Open(c) = hom(c, \mathbf{2})$. Then the adjointness condition on a morphism $(f, g): i c \to i d$ between the corresponding Chu spaces expresses precisely the continuity condition that the [[preimage]] $f^*$ takes opens of $d$ to opens of $c$. Hence the functor $Top \to Chu(Set, 2)$ is full. 
 
-* For $C = Pos$, the category of [[poset]]s, take $\mathbf{2}$ to be the partially ordered set of truth values. Here we have that for a partial order $c$, $hom(c, \mathbf{2})$ is the set of [[up-set]]s (upward-closed subsets) of $c$. Given a function $f: U c \to U d$ between posets, the condition that the preimage $f^*(v)$ of an up-set of $d$ is an up-set of $c$ is enough to force $f$ to be a poset map (consider $v = \{q \in d: f p \leq q\}$). 
+* For $C = Pos$, the category of [[poset]]s, take $\mathbf{2}$ to be the partially ordered set of truth values. Here we have that for a partial order $c$, $hom(c, \mathbf{2})$ is the set of [[up-set]]s (upward-closed subsets) of $c$. Given a function $f: U c \to U d$ between posets, the condition that the preimage $f^*(v)$ of an up-set of $d$ is an up-set of $c$ is enough to force $f$ to be a poset map (consider $v = \{q \in d: f p \leq q\}$). It follows that the functor $Pos \to Chu(Set, 2)$ is full. 
 
-* For $C = Sup$, the category of [[sup-lattice]]s (whose morphisms are those functors between the underlying posets that are left adjoints), take $\mathbf{2}$ to be the partially ordered set of truth values, but this time as the _opposite_ of the poset $TV$. For a sup-lattice $c$, $hom(c, \mathbf{2})$ may be identified with the set of representable functors $c(-, x): c^{op} \to TV$. The Chu condition then is that $d(-, y) \circ f = d(f-, y)$ is representable for every representable $d(-, y)$. But this condition is equivalent $f$'s being a left adjoint. 
+* For $C = Sup$, the category of [[sup-lattice]]s (whose morphisms are those functors between the underlying posets that are left adjoints), take $\mathbf{2}$ to be the partially ordered set of truth values, but this time as the _opposite_ of the poset $TV$. For a sup-lattice $c$, $hom(c, \mathbf{2})$ may be identified with the set of representable functors $c(-, x): c^{op} \to TV$. The Chu condition then is that $d(-, y) \circ f = d(f-, y)$ is representable for every representable $d(-, y)$. But this condition is equivalent $f$'s being a left adjoint. Therefore the functor $Sup \to Chu(Set, 2)$ is full. 
 
 For other examples of concrete categories, the presence of enough elements in $\hom_C(c, \mathbf{2})$ to detect the $C$-structure of $c$ often requires some form of choice principle, such as the [[axiom of choice]] or [[ultrafilter theorem]]: 
 
 * For $C = Vect_{\mathbb{F}_2}$, the category of vector spaces over the 2-element field, any object $d$ has a [[basis theorem|basis]], let us say $S$. For each $s \in S$, the characteristic or indicator $\chi_{s}: S \to \mathbf{2}$ extends uniquely to a linear function $\phi_s: d \to \mathbf{2}$. If $f: U c \to U d$ is a function such that $\phi_s \circ f: c \to \mathbf{2}$ is linear for every basis element $s \in S$, then 
 $$f(a x + b y) = \sum_{s \in S} \phi_s(f(a x + b y))s = \sum_s (a\phi_s(f(x)) + b\phi_s(f(y)))s = a f(x) + b f(y)$$
+It follows that the functor $Vect_{\mathbb{F}_2} \to Chu(Set, 2)$ is full. 
 
 Similar considerations apply to Boolean algebras, Stone Boolean algebras, algebraic lattices, and so on. 
+
+In all of these cases, the fullness of these embeddings entitles one to identify a topological space, a Boolean algebra, a vector space over $\mathbb{F}_2$, etc. with its corresponding Chu space, and the same consideration applies to the duals (opposites) of these categories. 
+
+Now many of these formal categorical duals are themselves concrete categories, as in the famous example of classical [[Stone duality]] between Boolean algebras and Stone spaces, i.e., [[compact space|compact]] [[Hausdorff space|Hausdorff]] [[connected space|totally disconnected]] [[topological space]]s. In many such Stone duality situations, and certainly wherever Stone duality applies to the categories listed above, a contravariant equivalence between a concrete category $C$ and an algebraic category $D$ (i.e., where $U: D \to C$ is monadic), 
+
+$$\array{
+ & C^{op} & \overset{\sim}{\to} & D & \\
+hom(-, \mathbf{2}) & \searrow & & \swarrow & U\\
+ & & Set, & & 
+}$$
+
+is effected by lifting the object $\mathbf{2}$ of $C$ to a $D$-algebra structure in $C$ (making $\mathbf{2}$ an [[ambimorphic object]], carrying $C$- and $D$-structures compatible with one another); equivalently, seeing $hom(-, \mathbf{2}): C^{op} \to Set$ as an algebra over the monad $U F$ for which $U: D \to Set$ is monadic. For example, classical Stone duality is the case where $C$ is the category of Stone spaces, $D$ is the category of Boolean algebras, and the Boolean operations on $\mathbf{2}$ are continuous with respect to its Stone space structure, making $\mathbf{2}$ a Boolean algebra object in the category of Stone spaces. (For much more on this, see Johnstone's classic treatise _Stone Spaces_, especially the chapter on general concrete dualities.) 
+
+The point is that in each of these situations, a Stone duality is a restriction of the more global duality on Chu spaces, in that the diagram 
+
+$$\array{
+ C^{op} & \overset{hom(-, \mathbf{2})}{\to} & D \\
+i^{op} \downarrow & & \downarrow i \\
+Chu(Set, 2)^{op} & \overset{(-)^*}{\to} & Chu(Set, 2)
+}$$ 
+
+(where the vertical arrows are full embeddings as described above) commutes up to canonical isomorphism. 
+
+The same principle extends to other situations. For example, [[Pontryagin duality]] is fully embedded in the larger duality which obtains on $Chu(Top, S^1)$, where $Top$ is a [[nice category of spaces]]. 
 
 +--{.query}
 Hi Toby; could I get you to explain the aside about Boolean rigs above? I'm thinking Boolean algebras is appropriate, as we have $ I \to x^* \wp x $, $ x \otimes x^* \to D $ [where $\wp$ denotes Girard's "par" and $D$ denotes the dualizer], together with appropriate triangular equations, categorifying the inequalities $1 \leq (\neg x) \vee v$ and $x \wedge (\neg x) \leq 0$ in a Boolean algebra. ---Todd
