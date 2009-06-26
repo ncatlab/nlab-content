@@ -90,20 +90,26 @@ and considering dinatural transformations from the constant $1$ (the terminal se
 
 We set down a few basic lemmas which describe how extranatural transformations compose. These lemmas become very intuitive once one draws string diagrams to accompany them. (Cf. "yanking moves" in the string diagram calculus of adjunctions.) 
 
-Lemma 1 ("stalactites"): Let $F, G$ be functors of the form $C^{op} \times C \to D$. If $\alpha_{x, y}: F(x, y) \to G(x, y)$ is natural in $x, y$ and $\beta_x: G(x, x) \to H$ is dinatural in $x$ (for some object $H$ of $D$), then 
++-- {: .un_lemma}
+###### Lemma 1 ("stalactites")
 
+Let $F, G$ be functors of the form $C^{op} \times C \to D$. If $\alpha_{x, y}: F(x, y) \to G(x, y)$ is natural in $x, y$ and $\beta_x: G(x, x) \to H$ is dinatural in $x$ (for some object $H$ of $D$), then 
 $$\beta_x \alpha_{x, x}: F(x, x) \to H$$ 
-
 is dinatural in $x$. 
+=--
 
-Lemma 2 ("stalagmites"): Let $G, H$ be functors of the form $C^{op} \times C \to D$. If $\alpha_x: F \to G(x, x)$ is dinatural in $x$ (for some object $F$ of $D$) and $\beta_{x, y}: G(x, y) \to H(x, y)$ is natural in $x, y$, then 
++-- {: .un_lemma}
+###### Lemma 2 ("stalagmites")
 
+Let $G, H$ be functors of the form $C^{op} \times C \to D$. If $\alpha_x: F \to G(x, x)$ is dinatural in $x$ (for some object $F$ of $D$) and $\beta_{x, y}: G(x, y) \to H(x, y)$ is natural in $x, y$, then 
 $$\beta_{x, x} \alpha_x: F \to H(x, x)$$ 
-
 is dinatural in $x$. 
+=--
 
-Lemma 3 ("yanking"): Let $F, H$ be functors of the form $C \to D$, and let $G: C \times C^{op} \times C \to D$ be a functor. If $\alpha_{x, y}: F(y) \to G(x, x, y)$ is natural in $y$ and dinatural in $x$, and if $\beta_{x, y}: G(x, y, y) \to H(x)$ is natural in $x$ and dinatural in $y$, then 
++-- {: .un_lemma}
+###### Lemma 3 ("yanking")
 
+Let $F, H$ be functors of the form $C \to D$, and let $G: C \times C^{op} \times C \to D$ be a functor. If $\alpha_{x, y}: F(y) \to G(x, x, y)$ is natural in $y$ and dinatural in $x$, and if $\beta_{x, y}: G(x, y, y) \to H(x)$ is natural in $x$ and dinatural in $y$, then 
 $$\beta_{x, x} \alpha_{x, x}: F(x) \to H(x)$$ 
-
 is natural in $x$. 
+=--
