@@ -8,7 +8,7 @@ As described at [[cohomology]], a notion of [[cohomology]] exists for every [[(i
 
 * the cohomology classes are the equivalence classes of $\mathbf{H}(X,A)$, so that the cohomology set of $A$-valued cohomology on $X$ is
   $$
-    H(X,A) = := \pi_0 \mathbf{H}(X,A) = Ho_{\mathbf{H}}(X,A)
+    H(X,A) := \Pi_0 \mathbf{H}(X,A) = Ho_{\mathbf{H}}(X,A)
     \,,
   $$
   where $\mathbf{H}$ is the [[homotopy category of an (infinity,1)-category|homotopy category]] of the [[(infinity,1)-category]] $\mathbf{H}$.
@@ -23,7 +23,7 @@ The various notions of **group cohomology** are special cases of this:
 
   * the coefficient object is $A = \mathbf{B}^n K$, the [[strict infinity-groupoid]] coming from the [[crossed complex]] that is concentrated in degree $n$, where it is the abelian group $K$ (see [[Eilenberg-MacLane space|Eilenberg-MacLane object]] for more details).
 
-  For $n \in \mathbB{N}$ One writes
+  For $n \in \mathbb{N}$ One writes
   $$
     H_{Grp}^n(G,K) := H(\mathbf{B}G, \mathbf{B}^n K)
     = Ho_{\infty Grpd}(\mathbf{B}G , \mathbf{B}^n K)
@@ -132,7 +132,7 @@ $$
   \,,
 $$
 
-where the diagram indicates what the face maps on $N (\mathbf{B}G) = G \time G$ are.
+where the diagram indicates what the face maps on $N (\mathbf{B}G) = G \times G$ are.
 
 Accordingl, the 3-cells look like
 
