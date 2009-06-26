@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-26 #
 
+*  [[Toby Bartels]]:
+   *  Wrote [[upper set]] and [[lower set]] to satisfy more links (including the one from [[Chu construction]] that didn\'t mean what I thought that it meant!).
+   *  Started to move stuff from [[generalized tangle hypothesis]] to [[cobordism hypothesis]] but realised that I don\'t really know enough to disentangle the material ---at least not without reading the references, which I don\'t have time to do right now.
+
 * [[Urs Schreiber|Urs]]:
 
   * created [[gerbe (in nonabelian cohomology)]] based on the blog discussion [here](http://golem.ph.utexas.edu/category/2008/08/connections_on_nonabelian_gerb.html#c024774)
