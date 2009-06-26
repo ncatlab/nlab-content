@@ -26,18 +26,6 @@ The elementary definitions above have been carefully phrased to be correct in [[
 
 1. Wide [[pushout]]s (that is [[cofibered coproduct]]s) of connected spaces are connected. (This would of course be false if the empty space were considered to be connected.) This follows from the hom-functor definition of connectedness, plus the fact that coproducts in $Top$ commute with wide pullbacks ([[fibered product]]s). More memorably: connected colimits of connected spaces are connected. 
 
-+-- {: .query}
-
-Todd, what\'s a 'wide' pushout?  ---Toby
-
-It's a colimit of a diagram of shape $X \to X_i$ where $i$ ranges over a set. So having many legs, not just two. Here was my thinking: it's intuitively obvious that wide pushouts of connected spaces are connected. If one works with the hom-functor formulation of connectedness, the formal bottom line here is that the coproduct functor $\sum_J: Set/J \to Set$ preserves wide pullbacks. One can then deduce that more generally it preserves limits of connected diagrams, and this leads to the cited result about colimits of connected diagrams of connected spaces.  ---Todd
-
-OK, that\'s (dual to) what are being called [[fibered product]]s elsewhere.  I thought of that, but it also seemed like you might be using it to mean any connected colimit; I see now that that\'s just a consequence.  Thanks!  ---Toby 
-
-I first saw the term 'wide pullback' in the paper by Carboni and Johnstone on Artin gluing and familial representability, and it seems to be common in articles which deal with familial representability (for example those which deal in general notions of operad via cartesian monads; see for instance Tom Leinster's book). ---Todd
-
-=--
-
 1. An arbitrary [[product]] of connected spaces is connected.
 
 1. The interval $[0, 1]$, as a subspace of $\mathbb{R}$, is connected. (This is the topological underpinning of the intermediate value theorem.)
@@ -59,6 +47,8 @@ It is not generally true that a space is the coproduct (in $Top$) of its connect
 =--
 
 Indeed, a space is the coproduct of its connected components precisely when it is **locally connected** (meaning that every point has a connected neighborhood). This occurs for example if there are only finitely many connected components (because then each connected component will be both closed and open).
+
+A space $X$ is **totally disconnected** if its connected components are precisely the singletons of $X$. 
 
 ## Path-connectedness ##
 
