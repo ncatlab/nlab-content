@@ -2,7 +2,7 @@ An **$n$-group** $G$ is the [[hom-object]] $G = Aut_{\mathbf{B}G}({*})$ of an [[
 
 If $\mathbf{B}G$ is a [[strict omega-groupoid|strict n-groupoid]], then the corresponding $n$-group is called strict. Strict $n$-groups are equivalent to [[crossed complex]]es of groups, of length $n$.
 
-Under the [[homotopy hypothesis]] $n$-groups correspond to (pointed) _connected_ [[homtopy n-type]]s.
+Under the [[homotopy hypothesis]] $n$-groups correspond to (pointed) _connected_ [[homotopy n-type]]s.
 
 See also 
 
