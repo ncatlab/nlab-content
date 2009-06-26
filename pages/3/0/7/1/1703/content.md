@@ -44,10 +44,14 @@ $$
   \\
   \downarrow && \downarrow
   \\
-  X &\to& \mathbf{B} G_{(2)}
+  X &\to& \mathbf{B}H
  }
   \,.
 $$
+
++-- {: .query}
+Urs, I hope that you don\'t my changing your $G_{(2)}$s to $H$s here and elsewhere.  $G_{(2)}$ makes me think that it ought to be derivable from $G$, whereas you really just want to indicate a shift from the group $G$ to some $2$-group.  So I have dubbed the $2$-group $H$ instead.  ---Toby
+=--
 
 As ordinary [[principal bundle]]s, these gadgets may be described from various points of view, using [[anafunctor]] cocycles $g : X \stackrel{\simeq}{\to}\leftarrow Y \to \mathbf{B}H$ in [[nonabelian cohomology]], or the corresponding total spaces being 2-[[torsor]]s equipped with 2-group [[action]], or certain variants of this. 
 
