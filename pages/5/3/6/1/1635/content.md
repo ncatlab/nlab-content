@@ -228,6 +228,31 @@ The fact that the n-1th homology of $NG(X)$ is $\pi_n(X)$ in the reduced case is
 =--
 
 
+# Examples #
+
++-- {: .un_lemma }
+###### Lemma
+
+Let $C$ be a [[groupoid]] and $N(C)$ its [[nerve]].
+
+Then 
+
+* $\pi_0 N(C) = set of isomorphism classes of C$
+
+* $\pi_1 N(C,c) = automorphism group Aut_C(c) of c$
+
+* $\pi_{n \geq 2} N(C,c) = 0$
+
+=--
+
+In particular a [[functor]]
+$f : C \to D$ of [[groupoids]] is a [[equivalence of categories]] if under the nerve it induces a weak equivalence $N f : N(C) \to N(D)$ of [[Kan complex]]es:
+
+* that $N(f)_0 : \pi_0(C) \to \pi_0(D)$ is an isomortphism is equivalent to $f$ being [[essentially surjective functor]];
+
+* that $N(f)_1 : \pi_1(C) \to \pi_1(D)$ is an isomorphism is equivalent to $f$ being a [[full and faithful functor]].
+
+
 #References#
 
 [chapter 1](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-1.dvi) of 
