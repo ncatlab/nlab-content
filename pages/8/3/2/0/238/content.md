@@ -16,6 +16,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]:
 
+  * created [[gerbe (in nonabelian cohomology)]] based on the blog discussion [here](http://golem.ph.utexas.edu/category/2008/08/connections_on_nonabelian_gerb.html#c024774)
+
+  * removed the former section "references" at [[cohomology]] and replaced it with a new section "History and references" by using the material of my blog comment [here](http://golem.ph.utexas.edu/category/2009/06/cohomology_and_homotopy.html#c024778)
+
+  * added to [[Trimble n-category]] a section "basic idea" with a paragraph that [[John Baez|John]] suggested to include ([here](http://golem.ph.utexas.edu/category/2009/06/kan_lifts.html#c024776))
+
   * added discussion that Kan complexes form a category of fibrant objects to [[category of fibrant objects]] that is slightly more direct than the argument using the full model category structure (crucial point being the theorem now at [[model structure on simplicial sets]] that acyclic fibrations of simplicial sets are characterized by a right lifting property).
 
   * added the example of a functor that is an equivalence of groupoids as inducing isomorphisms of simplicial homotopy groups under the nerve to [[simplicial homotopy group]]
