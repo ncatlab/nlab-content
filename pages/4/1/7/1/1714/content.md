@@ -6,7 +6,7 @@ Every $j$-morphism $f$ has a $(j-1)$-morphism $\sigma f$ as its [[source]] and a
 
 A $1$-morphism may simply be called a [[morphism]]; a $0$-morphism is an [[object]].
 
-For the purposes of [[negative thinking]], it may be useful to recognise that every $\infty$-category has a $(-1)$-morphism, which is the source and target of every object.  (In the geometric picture, this comes is the $(-1)$-simplex of an [[augmented simplicial set]].)
+For the purposes of [[negative thinking]], it may be useful to recognise that every (non-empty? -David R) $\infty$-category has a $(-1)$-morphism, which is the source and target of every object.  (In the geometric picture, this comes is the $(-1)$-simplex of an [[augmented simplicial set]].)
 
 
 [[!redirects k-morphism]]
