@@ -5,3 +5,7 @@ When the domain and codomain are known to be bicategories, there is not much rea
 Pseudo or weak functors are also to be distinguished from [[lax functor|lax]] and oplax functors, which preserve identities and composition only up to a non-invertible transformation in one direction or the other.
 
 An older terminology, which the author of this page believes should be avoided at all costs, uses "homomorphism of bicategories" for a weak functor and "morphism of bicategories" for a lax one.
+
+
+[[!redirects pseudo functor]]
+[[!redirects pseudo-functor]]
