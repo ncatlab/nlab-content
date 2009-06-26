@@ -20,7 +20,7 @@ a naturality square with globs $m_A : \alpha_A \Rightarrow
 
 ## Generalisation
 
-When you get tired of thinking individually about $n$-categories, functors, transformations, modifications, and so on, check out [[(n,k)-transformation]].
+When you get tired of thinking individually about $n$-categories, functors, transformations, modifications, and so on, check out [[(n,j)-transformation]].
 
 (Some discussion from here has also been moved to there.)
 
