@@ -13,6 +13,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 # 2009-06-25 #
 
+* [[Todd Trimble|Todd]]: Recently [[loop space]] was created. Also, I added some examples to [[Chu construction]] and to [[star-autonomous category]]. 
+
 * [[Urs Schreiber|Urs]]: 
 
   * added the example of principal bundles to [[fibration sequence]]
