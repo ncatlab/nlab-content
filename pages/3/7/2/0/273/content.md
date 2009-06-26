@@ -57,13 +57,14 @@ This perspective on nonabelian cohomology is discussed for instance in
 
 #Nonabelian group cohomology#
 
-Sometimes the term _nonabelian cohomology_ is used in a more restrictive sense. Often people mean "nonabelian _group_ cohomology" when they say nonabelian cohomology, hence restricting to the domains to [[group|groups]], which are [[groupoid|groupoids]] with a single object.
+Sometimes the term _nonabelian cohomology_ is used in a more restrictive sense. Often people mean 
+"nonabelian [[group cohomology]]" when they say nonabelian cohomology, hence restricting to the domains to [[group|groups]], which are [[groupoid|groupoids]] with a single object.
 
 This kind of nonabelian cohomology is discussed for instance in
 
 * John C. Baez, Michael Shulman, _Lectures on $n$-Categories and Cohomology_ ([arXiv](http://arxiv.org/abs/math.CT/0608420)).
 
-That and how ordinary group cohomology is reproduced from the [[homotopical cohomology theory]] of [[strict omega-groupoid|strict omega-groupoids]] is discussed in detail in 
+That and how ordinary [[group cohomology]] is reproduced from the [[homotopical cohomology theory]] of [[strict omega-groupoid|strict omega-groupoids]] is discussed in detail in chapter 12 of 
 
 * R. Brown, P. Higgins, R. Sivera, [[nonabelian algebraic topology|Nonabelian algebraic topology]].
 
