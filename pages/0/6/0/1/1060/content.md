@@ -57,13 +57,11 @@ where $\sigma: V \otimes W \to W \otimes V$ is the symmetry. The unit is the ten
 
 * In a similar vein, I am told that there is a $*$-autonomous category of quadratic operads. 
 
-* Girard's coherence spaces give an historically important example of a $*$-autonomous category. 
+* Girard's [[coherence space]]s, developed as models of [[linear logic]], give an historically important example of a $*$-autonomous category. 
 
 * Hyland and Ong have given a completeness theorem for multiplicative linear logic in terms of a $*$-autonomous category of _fair games_, part of a series of work on game semantics for closed category theory (compare Joyal's interpretation of Conway games as forming a compact closed category). 
 
 * The [[Chu construction]] can be used to form many more examples of $*$-autonomous categories. 
-
-Models of [[linear logic]] are based on $*$-autonomous categories.
 
 
 ## References ##
@@ -72,6 +70,7 @@ Models of [[linear logic]] are based on $*$-autonomous categories.
    Springer-Verlag 1979.
 
 More references to come...
+
 
 [[!redirects *-autonomous category]]
 [[!redirects *-autonomous categories]]
