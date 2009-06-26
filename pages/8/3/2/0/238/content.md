@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-26 #
 
+* [[Urs Schreiber|Urs]]:
+ 
+  * started filling in detailed proofs at [[category of fibrant objects]] -- am thinking that maybe eventually now the entry should be broken apart into a brief overview and one containing all the details
+
 *  [[Toby Bartels]]:
    *  Wrote [[up set]] and [[down set]] to satisfy some links.
    *  Inspired [[David Roberts]] to write [[numerable open cover]].
