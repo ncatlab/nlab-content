@@ -6,7 +6,15 @@ Every $j$-morphism $f$ has a $(j-1)$-morphism $\sigma f$ as its [[source]] and a
 
 A $1$-morphism may simply be called a [[morphism]]; a $0$-morphism is an [[object]].
 
-For the purposes of [[negative thinking]], it may be useful to recognise that every (non-empty? -David R) $\infty$-category has a $(-1)$-morphism, which is the source and target of every object.  (In the geometric picture, this comes is the $(-1)$-simplex of an [[augmented simplicial set]].)
+For the purposes of [[negative thinking]], it may be useful to recognise that every $\infty$-category has a $(-1)$-morphism, which is the source and target of every object.  (In the geometric picture, this comes is the $(-1)$-simplex of an [[augmented simplicial set]].)
+
++-- {: .query}
+(non-empty? -David R)
+
+Reply from Toby:  I think every.  Up to equivalence, a $j$-morphism in $C$ is given by a functor from the oriented $j$-simplex to $C$.  As the $(-1)$-simplex is empty, there is a unique such functor for every $C$; thus every $C$ has a unique $(-1)$-morphism.
+
+Also note that every $j$-morphism has $j + 1$ identity $(j+1)$-morphisms, which just happen to all be the same (which can be made part of the [[Eckmann-Hilton argument]]).  Thus, the $(-1)$-morphism has $0$ identity $0$-morphisms, so we don\'t need any object.  (This confused me once.)
+=--
 
 
 [[!redirects k-morphism]]
