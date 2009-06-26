@@ -124,3 +124,6 @@ _Mike_: I do think it's better to have them combined.  It might be nice if we co
 _Mike_: Yes, I like that.  I think it would be even better if we could do like Wikipedia does and have loset automatically redirect to linear order, but instiki doesn't appear to have that capability.
 
 _Toby_:  Well, I guess that I\'ll move things around then.  We can still discuss whether [[proset]] should simply redirect to [[preorder]] or should be a more explicit disambiguation page.  (For now, I\'ll move things so that it redirects, but I\'ll do that last, so feel free to make more comments in the meantime.)
+
+
+[[!redirects proset]]
