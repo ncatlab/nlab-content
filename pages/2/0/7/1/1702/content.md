@@ -1,8 +1,8 @@
 for related entries see
 
 * [[bundle gerbe]]
-
 * [[gerbe (general idea)]]
+
 
 ##Idea## 
 
@@ -34,7 +34,7 @@ To make this precise we use some additional notions:
 We will have a pseudofunctor $F : Open(B)^{op}\to Grpd$, and this will be a stack.
 
 
-##Definition:## 
+##Definitions## 
 
 *   A stack of groupoids, $F$, on $B$ is *locally non-empty* if there is an open covering $\mathcal{U}$ of $B$ for which each groupoid $F(U)$ is non-empty, for $U \in \mathcal{U}$.
 
@@ -52,7 +52,7 @@ _Local connectedness_ can be well stated by saying that for the various $U$, if 
 
 
 
-## Example and important proposition## 
+## Important example## 
 
 
 +-- {: .un_proposition}
@@ -69,17 +69,19 @@ Next look at $\mathcal{T}ors(G)(U)$ again.  Any two $G_U$-torsors are locally is
 =--
 
 
-+--{: .query}
-===Differential geometry===
-* $H^3(X,\mathbb{Z})$ and $\mathcal{O}_X^*$-gerbes: [[Jean-Luc Brylinski]]'s approach
+##Differential geometry
 
+$H^3(X,\mathbb{Z})$ and $\mathcal{O}_X^*$-gerbes: [[Jean-Luc Brylinski]]'s approach
+
++--{: .query}
 _Daniel_:Please, would someone mind explain this with detail? I am interested in understand quantization and somehow, this thing comes up all the time...
 I got it from the entry on wikipedia on [gerbes,]( http://en.wikipedia.org/wiki/Gerbe) but it was not explained.
 
 [[Tim Porter|Tim]]:  I will get there but the route is not that short! It is however not that long either.
 =--
 
-References
+
+##References
 
 There is a lengthier description of gerbes (at this level of generality) in the Menagerie notes that are available from [[Tim Porter|Tim Porter's]] home page.
 
@@ -94,5 +96,5 @@ See the references given there for more, in particular also the reference to the
 
 The work by Stasheff and Wirth mentioned at the beginning is
 
-* James Wirth & Jim Stashef, _Homotopy Transition Cocycles_ ([arXiv](http://arxiv.org/abs/math.AT/0609220) [blog](http://golem.ph.utexas.edu/category/2006/09/wirth_and_stasheff_on_homotopy.html))
+* James Wirth & Jim Stasheff, _Homotopy Transition Cocycles_ ([arXiv](http://arxiv.org/abs/math.AT/0609220) [blog](http://golem.ph.utexas.edu/category/2006/09/wirth_and_stasheff_on_homotopy.html))
 
