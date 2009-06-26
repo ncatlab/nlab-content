@@ -1,5 +1,6 @@
 A closed monoidal category is a [[monoidal category]] that is also a [[closed category]], in a compatible way.
 
+
 ## Formalization ##
 
 The strategy for formalizing the idea of a closed category, that "the collection of morphisms from $a$ to $b$ can be regarded as an object of $C$ itself", is to mimic the situation in [[Set]] where for any three objects (sets) $a$, $b$, $c$ we have an isomorphism
@@ -12,7 +13,8 @@ where $\otimes = \times$ is the standard [[cartesian monoidal category|cartesian
 
 This can be read as a characterization of the Hom-object $Hom(b,c)$ and is the basis for the following definition.
 
-# Definition #
+
+## Definition #
 
 A symmetric [[monoidal category]] $C$ is **closed** if for all objects $b \in C_0$ the functor $ - \otimes b : C \to C$ has a [[adjoint functor|right adjoint]] functor $[b,-] : C \to C$.
 
@@ -30,6 +32,7 @@ If the monoidal structure of $C$ is [[cartesian monoidal category|cartesian]], t
 
 If $C$ is not symmetric, then $-\otimes b$ and $b\otimes -$ are different functors, and either one or both may have an adjoint.  The terminology here is less standard, but many people use **left closed**, **right closed**, and **biclosed**.
 
+
 ## Examples ##
 
  * The tautological example is the category [[Set]] of sets: the collection of maps between any two sets is itself a set.  More generally, any [[topos]] is cartesian closed.
@@ -42,7 +45,7 @@ If $C$ is not symmetric, then $-\otimes b$ and $b\otimes -$ are different functo
 
  * The category [[Cat]] is cartesian closed: the internal-hom is the [[functor category]] of functors and natural transformations.
 
- * The category $2-Cat$ of [[strict 2-category|strict 2-categories]] and strict 2-functors is closed symmetric monoidal under the [[Gray tensor product]].  The internal-hom is the 2-category of strict 2-functors, _pseudo_ natural transformations, and modifications.
+ * The category $2 Cat$ of [[strict 2-category|strict 2-categories]] and strict 2-functors is closed symmetric monoidal under the [[Gray tensor product]].  The internal-hom is the 2-category of strict 2-functors, _pseudo_ natural transformations, and modifications.
 
  * The category of strict $\omega$-[[strict omega-category|categories]] is also biclosed monoidal, under the [[Crans-Gray tensor product]].
 
@@ -50,8 +53,11 @@ If $C$ is not symmetric, then $-\otimes b$ and $b\otimes -$ are different functo
 
  * The category of [[species]], with the monoidal structure given by substitution product of species, is closed monoidal (each functor $- \circ G$ admits a right adjoint) but not biclosed monoidal. 
 
-#References#
+
+##References#
 
 * Max Kelly, _Basic concepts of enriched category theory_, section 1.5, ([tac](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html)) 
-
 * Samuel Eilenberg and Max Kelly, _Closed categories_.  Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965).
+
+
+[[!redirects monoidal closed category]]
