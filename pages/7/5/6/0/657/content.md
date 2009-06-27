@@ -1,3 +1,3 @@
 See [[distributor]].
 
-category: redirect
+category: delete
