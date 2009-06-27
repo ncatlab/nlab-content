@@ -105,3 +105,6 @@ The concrete discussion in the context of [[strict omega-category|strict omega-c
 The analogous discussion for simplicial set is in
 
 * (any discussion of homotopy theory of simplicial sets).
+
+
+[[!redirects k-surjectivity]]
