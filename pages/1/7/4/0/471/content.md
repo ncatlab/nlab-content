@@ -1,6 +1,6 @@
 #Idea#
 
-The structure of a category $V$ with _interval object_ is supposed to be the right structure to ensure 
+The structure of a category $V$ with **interval object** is supposed to be the right structure to ensure 
 
 1. that there is an object $I$ in $V$ such that for every object $X$ of $V$ the [[closed monoidal category|internal hom object]] $[I,X]$ exists and behaves like a [[path object]] for $B$;
 
