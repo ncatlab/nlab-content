@@ -1,3 +1,3 @@
 See [[Peter May]].
 
-category: redirect
+category: delete
