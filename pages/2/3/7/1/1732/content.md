@@ -225,43 +225,43 @@ growing.  So, it will appear separately.
 * [Bat2] 
   M. Batanin, 
   _The Eckmann--Hilton argument, higher 
-operads and $E_n$-spaces._  ([arXiv](arXiv:math/0207281))
+[[operad]]s and $E_n$-spaces._  ([arXiv](arXiv:math/0207281))
 
 * [Bat3] 
   M. Batanin, 
   _The combinatorics of iterated
-loop spaces._  ([arXiv](http://arxiv.org/abs/math/0301221))
+[[loop space]]s._  ([arXiv](http://arxiv.org/abs/math/0301221))
 
 * [Benabou] 
   J. B&eacute;nabou, 
-  _Introduction to bicategories,_ 
+  _Introduction to [[bicategory|bicategories]],_ 
   in _Reports of the Midwest Category Seminar_ , 
   Springer, Berlin, 1967, pp. 1--77.
 
 * [Berger1] 
   C. Berger, 
-  _Iterated wreath product of the simplex
-  category and iterated loop spaces_ 
+  _Iterated wreath product of the 
+  [[simplex category]] and iterated [[loop space]]s_ 
   Adv. Math. **213**
   (2007), 230--270.  
   ([arXiv](http://arxiv.org/abs/math/0512575))
 
 * [Berger2] 
   C. Berger, 
-  _A cellular nerve for higher categories, 
+  _A cellular [[nerve]] for higher categories, 
   Adv. Math. **169** (2002), 118--175.  
   ([web]("http://math.ucr.edu.fr/~cberger/))
 
 * [Be1] 
   J. Bergner, 
-  _A model category structure on the category of 
-simplicial categories_, 
+  _A [[model category]] structure on the category of 
+[[simplicially enriched category|simplicial categories]]_, 
   Trans. Amer. Math. Soc. **359**  (2007), 2043-2058.  
   ([arXiv](http://arxiv.org/abs/math/0406507))
 
 * [Be2] 
   J. Bergner, 
-  _Three models of the homotopy theory
+  _Three models of the [[homotopy theory]]
 of homotopy theory_ , 
   Topology **46** (2006), 
 1925--1955.  
