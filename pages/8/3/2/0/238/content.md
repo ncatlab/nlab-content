@@ -16,6 +16,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]
 
+  * created [[QFT with defects]]
+
+  * created [[2-category of 2-dimensional cobordisms]]
+
+  * added to [[cobordism hypothesis]] more details on formalization and proof by J. Lurie
+
+  * reworked [[(infinity,n)-category of cobordisms]]
+
   * split off [[n-fold complete Segal space]] from [[(infinity,n)-category]]
 
   * created [[(infinity,2)-category]]
