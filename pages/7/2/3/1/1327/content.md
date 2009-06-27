@@ -62,3 +62,6 @@ A textbook discussion (slightly modified) is in section 1.6 of the book
 
 * Martin Markl, Steve Shnider, Jim Stasheff, _Operads in Algebra, Topology and Physics_ ([web](http://books.google.de/books?id=fMhZjT9lQo0C&pg=PA56&lpg=PA56&dq=Stasheff+associahedra&source=bl&ots=ZuGXjT4zbp&sig=V-taGG2LHS0msHK-PTxmUXXCvEY&hl=de#PPP1,M1))
 
+Further explanations and references are collected at
+
+* [AMS entry on associahedra](http://www.ams.org/featurecolumn/archive/associahedra.html)
