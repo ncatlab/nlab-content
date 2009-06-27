@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]
 
+  * created a section "Category theory for Trimble $n$-categories" at [[Trimble n-category]] and put in a query box with a list of questions -- I'd be interested in whatever partial answers and comments 
+
   * created [[Approaching Higher Category Theory]] (following blog discussion [here](http://golem.ph.utexas.edu/category/2009/06/this_book_needs_a_title.html#c024835) and [here](http://golem.ph.utexas.edu/category/2009/06/this_weeks_finds_in_mathematic_36.html#c024834))
 
   * added to [[point of a topos]] a section "enough points" with discussion about what it means for a topos to have "enough points" and two examples
