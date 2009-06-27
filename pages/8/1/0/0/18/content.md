@@ -6,4 +6,6 @@ The three areas of interest at the $n$Lab are
 
 and their interaction with [[category theory]] and [[higher category theory]].
 
+See also [[Bibliography]]
+
 category: meta
