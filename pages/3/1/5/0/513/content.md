@@ -1,3 +1,3 @@
 See [[initial object]].
 
-category: redirect
+category: delete
