@@ -44,3 +44,6 @@ Then consider pairs of objects $(a \in A, b \in B)$ with the same underlying set
 * H.-E. Porst, W. Tholen, _Concrete Dualities_ in _Category Theory at Work_, Herrlich, Porst (eds.) ([pdf](http://www.heldermann.de/R&E/RAE18/ctw07.pdf))
 
 * Michael Barr, John F. Kennison, R. Raphael, _Isbell Duality_ ([pdf](http://www.tac.mta.ca/tac/volumes/20/15/20-15.pdf))
+
+
+[[!redirects ambimorphic object]]
