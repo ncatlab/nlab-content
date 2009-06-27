@@ -312,3 +312,6 @@ and then generalizes it
 A comparison of Trimble's definition with that of a [[Batanin omega-category]] is in
 
 * Eugenia Cheng, _Comparing operadic theories of $n$-category_ ([arXiv](http://arxiv.org/abs/0809.2070))
+
+
+[[!redirects Trimble's notion of weak n-category]]
