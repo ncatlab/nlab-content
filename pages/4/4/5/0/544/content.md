@@ -60,3 +60,6 @@ For example, $f_1\circ D_1 = D_1\circ f_1$.
 #References#
 
 * B. Keller, _A brief introduction to $A_\infty$-algebras_ ([pdf](http://people.math.jussieu.fr/~keller/publ/IntroAinfEdinb.pdf))
+
+
+[[!redirects A-infinity algebra]]
