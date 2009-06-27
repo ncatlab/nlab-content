@@ -1,3 +1,3 @@
-For **d-space** see [[directed space]]
+See [[directed space]].
 
 category:redirect
