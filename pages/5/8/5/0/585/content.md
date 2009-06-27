@@ -332,6 +332,68 @@ and so the terminal $E$-coalgebra is the category $Trimble(\omega)Cat$ as descri
 
 $$\Pi_\omega: Top \to Trimble(\omega)Cat$$ 
 
+# Category theory for Trimble $n$-categories #
+
+
++-- {: .query}
+
+[[Urs Schreiber|Urs]]:
+
+suppose I wanted to serious apply the Trimble $n$-category tool to some class of problems. It would be helpful to have an idea about some of the following points. 
+
+The main reason why [[quasi-category|quasi-categories]]
+and other models for 
+[[(infinity,1)-category|(infinity,1)-categories]] 
+are popular is that Joyal and Lurie showed that beyond
+just having a definition, one can _do category theory_
+with them. I would like to understand to which extent
+we know how to "do category theory" with Trimble $n$-categories.
+
+I understand that much of this will remain to be worked out, but probably in particular [[Todd Trimble|Todd]] has many ideas about how one should go about approaching this. I'd be interested in whatever idea or tentative suggestion there is.
+
+So:
+
+What can be said about 
+
+* [[universal construction]]s
+
+  * definition of [[weak limit]]/weak colimit, of [[adjunction]]s and [[Kan extension]] 
+43
+in Trimble $n$-catgeories? 
+
+For instance for what I am doing
+I'd need in particular weak pullbacks and the resulting
+[[fibration sequence]]s in a Trimble $n$-category.
+What are the chances to get hold of these notions in this context?
+
+What is known about the reflection of Trimble $n$-categories on themselves
+
+* Is there a definition of Trimble $(n+1)$-categorry of all Trimble $n$-categories?
+
+* A Trimble $\infty$-category of all Trimble $\infty$-categories?
+
+
+What is the relation to 
+
+* [[simplicial model for weak omega-categories|simplicial models for weak omega categories]],
+
+  * do we have a notion of [[nerve]] of a Trimble $n$-category? 
+
+  * can we characterize the nerves of Trimble $n$-categories?
+
+Probably we want to define the cosimplicial Trimble $\infty$-category that sends $[n]$ to the fundamental Trimble $\infty$-path category of the topological $n$-simplex and induce a notion of nerve of that. But the naive version of that will give just $\infty$-groupoidal nerve. What is generally needed is probably a notion of [[directed space|directed]] Trimble path $n$-category.
+
+What can be said about [[(n,r)-category]]-cases of Trimble $n$-categories. How to we say "Trimble $n$-groupoid"?
+
+
+What about monoidal structures? Is there a good guess for what it would mean to have a
+
+* monoidal Trimble $n$-category
+
+* symmetric (i.e. stably) monoidal Trimble $n$-category?
+
+=--
+
 #References#
 
 The first appearance in print of the definition was in 
