@@ -22,3 +22,5 @@ exhibits $F(c \times d)$ as a product of $F(c)$ and $F(d)$, where $\pi_1: c \tim
 $$F(i): F(e) \to F(c)$$ 
 is the equalizer of $F(f), F(g): F(c) \stackrel{\to}{\to} F(d)$, whenever $i: e \to c$ is the equalizer of $f, g: c \stackrel{\to}{\to} d$ in $C$. 
  
+
+[[!redirects lex category]]
