@@ -15,3 +15,6 @@ Examples include:
 * The integers are the initial object of [[Ring]].
 
 An initial object 0 is called **strict** if any morphism $x\to 0$ must be an isomorphism.  The initial objects of a poset, of $Set$, $Cat$, $Top$, and of any [[topos]] (in fact, any [[extensive category]]) are strict.  At the other extreme, a zero object is only a strict initial object if the category is trivial (equivalent to the [[terminal category]]).
+
+
+[[!redirects initial]]
