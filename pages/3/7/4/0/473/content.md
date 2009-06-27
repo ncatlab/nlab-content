@@ -1,3 +1,5 @@
+The _generalized tangle hypothesis_ is a refinement of the [[cobordism hypothesis]].
+
 #History#
 
 The original _tangle hypothesis_ was formulated in
