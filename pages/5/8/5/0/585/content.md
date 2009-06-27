@@ -291,6 +291,28 @@ to $T$. But other operads are possible; for the purposes of $n$-category theory,
 
 Using some theory of terminal coalgebras, Tom Leinster and Eugenia Cheng described a viable notion of Trimble $\infty$-category. 
 
+To get some idea of what is involved, consider the basic shape of the fundamental $n$-groupoid $\Pi_n(X)$ as a globular set: in dimensions $j \lt n$, the $j$-cells are just continuous maps $D^j \to X$. The dimension $j = n$ is exceptional: one "truncates" (_abus de langage_) a putative $\infty$-groupoid $\Pi_\omega(X)$ to a fundamental $n$-groupoid $\Pi_n(X)$ by forcing all $j$-cells in dimensions $j \gt n$ to be identity cells, that is by taking the quotient of the set of $n$-cells $D^n \to X$ with respect to homotopy-equivalence rel boundary $\partial D^n$. (Thus it isn't literal truncation or amputation -- one also "closes the wound" by passing to a homotopical quotient!) Thinking of homotopy-equivalence classes in terms of applying a path-components functor $\Pi_0$ to a suitable function space, one sees after some reflection that this globular "truncation", which is a sort of enforcement of coherence at the level of top-dimensional cells, is really the result of beginning the iterative enrichment with the path-components functor 
+
+$$\Pi_0: Top \to Set$$ 
+
+in the first place. 
+
+In slightly different words: this form of "truncation" from a higher-dimensional category to a lower one is iterated "decategorification", going from isomorphisms between $n$-cells to isomorphism classes of $n$-cells: again the effect of applying a connected components functor $\Pi_0$. To take weak $\omega$-categories seriously is to completely eliminate all vestiges of such decategorification: there are no coherence _equations_ to impose at the top level; there is only the data of higher and higher coherence data all the way up the dimensional chain, which one is free to chop off past a certain point (instead of modding out by). 
+
+So: instead of starting out the iterative enrichment with $\Pi_0$, one could start by replacing it with the underlying set functor 
+
+$$U: Top \to Set$$
+
+and again set the machine in motion, defining a **decoherent** (or in Leinster and Cheng's terminology, incoherent) Trimble 1-category as a graph equipped with a structure of algebra over the operad $D_0 = U T$, a decoherent Trimble 2-category as a graph enriched in decoherent 1-categories and with a structure of algebra over the operad $D_1 = D_0 T$, and so on. Again, one proves that $D_n$ preserves coproducts and finite products by induction, starting with the base observation that the underlying set functor $U$ preserves coproducts and finite products. Thus by induction we have a category of decoherent $n$-categories, $Dec(n)Cat$.  
+
+As a result, we have actual truncation functors 
+
+$$\ldots Dec(n+1)Cat \to Dec(n)Cat \to \ldots ... \to Set$$ 
+
+where one just saws off the $(n+1)$-cells at each step, and one may define the category of Trimble $\omega$-categories as the inverse limit of this sequence. 
+
+As Cheng and Leinster indicate, the inverse limit may be viewed as a terminal coalgebra construction for the iterative enrichment process. (To be continued.) 
+
 #References#
 
 The first appearance in print of the definition was in 
@@ -312,6 +334,3 @@ and then generalizes it
 A comparison of Trimble's definition with that of a [[Batanin omega-category]] is in
 
 * Eugenia Cheng, _Comparing operadic theories of $n$-category_ ([arXiv](http://arxiv.org/abs/0809.2070))
-
-
-[[!redirects Trimble's notion of weak n-category]]
