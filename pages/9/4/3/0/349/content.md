@@ -9,9 +9,7 @@ Probably the main point of having a site is so that one can define [[sheaf|sheav
 
 #Definition#
 
-+-- {: .un_defn}
-###### Definition
-A _Grothendieck topology_ $J$ on a category $C$ assigns to each object $c$ a collection of [[sieve|sieves]] on $c$ which are called _covering sieves_, satisfying the following axioms: 
+A **Grothendieck topology** $J$ on a category $C$ assigns to each object $c$ a collection of [[sieve|sieves]] on $c$ which are called _covering sieves_, satisfying the following axioms: 
 
 *  If $F$ is a [[sieve]] that covers $c$ and $g: d \to c$ is any morphism, then the pullback sieve $g^* F$ covers $d$. 
 
@@ -22,7 +20,6 @@ A _Grothendieck topology_ $J$ on a category $C$ assigns to each object $c$ a col
 * If $F$ is a sieve on $c$ such that the sieve 
     $\bigcup_d \{g: d \to c| g^* F \; covers \; d\}$
     is a covering sieve of $c$, then $F$ itself covers $c$. 
-=--
 
 The set of covering sieves of an object $c$ is denoted $J(c)$, and the first axiom guarantees that we have a functor $J: C^{op} \to Set$.
 
