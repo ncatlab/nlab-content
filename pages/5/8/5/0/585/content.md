@@ -291,19 +291,19 @@ to $T$. But other operads are possible; for the purposes of $n$-category theory,
 
 Using some theory of terminal coalgebras, Tom Leinster and Eugenia Cheng described a viable notion of Trimble $\infty$-category. 
 
-To get some idea of what is involved, consider the basic shape of the fundamental $n$-groupoid $\Pi_n(X)$ as a globular set: in dimensions $j \lt n$, the $j$-cells are just continuous maps $D^j \to X$. The dimension $j = n$ is exceptional: one "truncates" (_abus de langage_) a putative $\infty$-groupoid $\Pi_\omega(X)$ to a fundamental $n$-groupoid $\Pi_n(X)$ by forcing all $j$-cells in dimensions $j \gt n$ to be identity cells, that is by taking the quotient of the set of $n$-cells $D^n \to X$ with respect to homotopy-equivalence rel boundary $\partial D^n$. (Thus it isn't literal truncation or amputation -- one also "closes the wound" by passing to a homotopical quotient!) Thinking of homotopy-equivalence classes in terms of applying a path-components functor $\Pi_0$ to a suitable function space, one sees after some reflection that this globular "truncation", which is a sort of enforcement of coherence at the level of top-dimensional cells, is really the result of beginning the iterative enrichment with the path-components functor 
+To get some idea of what is involved, consider the basic shape of the fundamental $n$-groupoid $\Pi_n(X)$ as a globular set: in dimensions $j \lt n$, the $j$-cells are just continuous maps $D^j \to X$. The dimension $j = n$ is exceptional: one "truncates", _abus de langage_, a putative $\infty$-groupoid $\Pi_\omega(X)$ to a fundamental $n$-groupoid $\Pi_n(X)$ by forcing all $j$-cells in dimensions $j \gt n$ to be identity cells, that is by taking the quotient of the set of $n$-cells $D^n \to X$ with respect to homotopy-equivalence rel boundary $\partial D^n$. (Thus it isn't literal truncation or amputation -- one also "closes the open wounds" by passing to a homotopical quotient!) Thinking of homotopy-equivalence classes in terms of applying a path-components functor $\Pi_0$ to a suitable function space, one sees after some reflection that this globular "truncation", which is a sort of enforcement of coherence at the level of top-dimensional cells, is really the result of beginning the iterative enrichment with the path-components functor 
 
 $$\Pi_0: Top \to Set$$ 
 
 in the first place. 
 
-In slightly different words: this form of "truncation" from a higher-dimensional category to a lower one is iterated "decategorification", going from isomorphisms between $n$-cells to isomorphism classes of $n$-cells: again the effect of applying a connected components functor $\Pi_0$. To take weak $\omega$-categories seriously is to completely eliminate all vestiges of such decategorification: there are no coherence _equations_ to impose at the top level; there is only the data of higher and higher coherence data all the way up the dimensional chain, which one is free to chop off past a certain point (instead of modding out by). 
+In slightly different words: this form of "truncation" from a higher-dimensional category to a lower one is iterated "decategorification", going from isomorphisms between $n$-cells to isomorphism classes of $n$-cells: again the effect of applying a connected components functor $\Pi_0$. To take weak $\omega$-categories seriously is to eliminate all vestiges of such decategorification: there are no coherence _equations_ to impose at the top level; there are only higher and higher coherence data all the way up the dimensional chain, which one could elect to chop off past a certain point (instead of modding out by). 
 
 So: instead of starting out the iterative enrichment with $\Pi_0$, one could start by replacing it with the underlying set functor 
 
 $$U: Top \to Set$$
 
-and again set the machine in motion, defining a **decoherent** (or in Leinster and Cheng's terminology, incoherent) Trimble 1-category as a graph equipped with a structure of algebra over the operad $D_0 = U T$, a decoherent Trimble 2-category as a graph enriched in decoherent 1-categories and with a structure of algebra over the operad $D_1 = D_0 T$, and so on. Again, one proves that $D_n$ preserves coproducts and finite products by induction, starting with the base observation that the underlying set functor $U$ preserves coproducts and finite products. Thus by induction we have a category of decoherent $n$-categories, $Dec(n)Cat$.  
+and again set the machine in motion, defining a **decoherent** (Leinster and Cheng's word is "incoherent") Trimble 1-category as a graph equipped with a structure of algebra over the operad $D_0 = U T$, a decoherent Trimble 2-category as a graph enriched in decoherent 1-categories and with a structure of algebra over the operad $D_1 = D_0 T$, and so on. Again, one proves that $D_n$ preserves coproducts and finite products by induction, starting with the base observation that the underlying set functor $U$ preserves coproducts and finite products. Thus by induction we have a category of decoherent $n$-categories, $Dec(n)Cat$.  
 
 As a result, we have actual truncation functors 
 
@@ -311,7 +311,26 @@ $$\ldots Dec(n+1)Cat \to Dec(n)Cat \to \ldots ... \to Set$$
 
 where one just saws off the $(n+1)$-cells at each step, and one may define the category of Trimble $\omega$-categories as the inverse limit of this sequence. 
 
-As Cheng and Leinster indicate, the inverse limit may be viewed as a terminal coalgebra construction for the iterative enrichment process. (To be continued.) 
+A more conceptual point of view is provided by Cheng and Leinster. The idea is that $Trimble(\omega)Cat$ should be a fixed point of the weak-enriched iteration process, much as $\omega$-$Cat$ is a fixed point of the ordinary enrichment process
+
+$$E: V \mapsto V-Cat$$ 
+
+taking a (complete, cocomplete) closed symmetric monoidal $V$ to the (complete, cocomplete) closed symmetric monoidal category of small $V$-categories. More precisely, Cheng and Leinster recall Simpson's observation that $\omega$-$Cat$ is a [[terminal coalgebra]] for the ordinary enrichment process. In fact, $\omega$-$Cat$ as terminal coalgebra may be computed as the limit of a sequence 
+
+$$\ldots \to Strict(n+1)Cat \overset{E^n !}{\to} Strict(n)Cat \to \ldots Set \overset{!}{\to} 1$$ 
+
+according to Adamek's theorem that this is the terminal coalgebra if $E$ preserves limits of sequences of this form. (Here $E^n !$ works out to be the usual globular truncation from $(n+1)$-categories to $n$-categories.) Then, they observe that the same principle applies to the weak enrichment process 
+
+$$E: \langle V, \Pi \rangle \mapsto \langle (V, \Pi)-Cat, \Pi^+ \rangle$$ 
+
+where $\Pi: Top \to V$ preserves finite products (and coproducts), where $(V, \Pi)$-$Cat$ is the category of $\Pi(T)$-algebras in $V$-enriched graphs, and where $\Pi^+$ takes a space $X$ to $\Pi(X^\tilde)$ as a $\Pi(T)$-algebra. 
+This time $E^n !$ works out to be the globular truncation  
+
+$$Dec(n+1)Cat \to Dec(n)Cat$$ 
+
+and so the terminal $E$-coalgebra is the category $Trimble(\omega)Cat$ as described above, equipped with the fundamental $\omega$-groupoid functor 
+
+$$\Pi_\omega: Top \to Trimble(\omega)Cat$$ 
 
 #References#
 
