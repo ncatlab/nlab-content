@@ -1,3 +1,3 @@
 See [[terminal object]].
 
-category: redirect
+category: delete
