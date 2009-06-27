@@ -66,6 +66,24 @@ $$
 
 On the other hand, if $E$ is the [[classifying topos]] of a [[geometric theory]] $T$, then a point of $E$ is the same as a model of $T$ in [[Set]].
 
+#enough points#
+
+A [[topos]] is said to have **enough points** if isomorphy can be tested [[stalk]]wise.
+
+More precisely: if it is true that every morphism $f : A \to B$ such that for every point $p$ of the topos the morphism of [[stalk]]s $p^* f : p^* A \to p^* B$ is an isomorphism implies already that $f$ itself is an isomorphism.
+
+
+##Examples##
+
+* For $X$ any [[topological space]], the  [[category of sheaves|topos of sheaves]] on (the [[category of open subsets]] of) $X$ has enough points: a morphism of sheaves is a mono-/epi-/isomorphism precisely if it is so on every [[stalk]].
+
+* Let $Diff$ be a [[small category]] version of the category of smooth manifolds (for instance take it to be the category of manifolds embedded in $\mathbb{R}^\infty$). Then the sheaf topos $Sh(Diff)$ has precisely one point $p_n$ per natural number $n \in \mathbb{N}$ , corresponding to the $n$-ball: the [[stalk]] of a sheaf on $Diff$ at that point is the colimit over the result of evaluating the sheaf on all $n$-dimensional smooth balls.
+
+  This is discussed for instance on p. 36 of 
+
+  * Dan Dugger, _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html))
+
+  in the context of the [[model structure on simplicial presheaves]].
 
 #References#
 
