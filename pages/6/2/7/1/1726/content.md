@@ -1,10 +1,14 @@
-An ordinary [[complete Segal space]] is a model for an [[(infinity,1)-category]].
+##Motivation
+
+An ordinary [[complete Segal space]] is a model for an $(\infty,1)$-[[(infinity,1)-category|category]].
 
 One may iterate this constructoin and define an $n$-fold complete Segal space as an complete Segal space in complete $(n-1)$-fold Segal spaces, roughly.
 
-$n$-fold complete Segal spaces are models for [[(infinity,n)-category|(infinity,n)-categories]].
+Then $n$-fold complete Segal spaces are models for $(\infty,n)$-[[(infinity,n)-category|categories]].
 
-Recall that a [[complete Segal space]] is to be thought of as the nerve of a category which is _[[homotopy coherent category theory|homotopically]]_ [[enriched category|enriched]] over [[Top]]: it is a simplicial object in [[Top]], $X^\bullet : \Delta^{op} \to Top$ satisfying some conditions and thought of as a model for an [[(infinity,1)-category]]. 
+##Definition
+
+Recall that a [[complete Segal space]] is to be thought of as the [[nerve]] of a category which is _[[homotopy coherent category theory|homotopically]]_ [[enriched category|enriched]] over [[Top]]: it is a simplicial object in [[Top]], $X^\bullet : \Delta^{op} \to Top$ satisfying some conditions and thought of as a model for an $(\infty,1)$-[[(infinity,1)-category|category]]. 
 
 An $(\infty,n)$-category is in its essence the $(n-1)$-fold iteration of this process: recursively, it is a category which is _[[homotopy coherent category theory|homotopically]]_ [[enriched category|enriched]] over $(\infty,n-1)$-categories.
 
@@ -29,8 +33,12 @@ $$
 
 are [[homotopy coherent category theory|homotopy pullbacks]] of $(n-1)$-fold Segal spaces.
 
-#References#
+
+##References#
 
 The definition is apparently due to the currently unpublished PhD thesis of Clark Barwick. It is being popularized and put to use in
 
 * [[Jacob Lurie]], [[On the Classification of Topological Field Theories]]
+
+
+[[!redirects n-fold Segal space]]
