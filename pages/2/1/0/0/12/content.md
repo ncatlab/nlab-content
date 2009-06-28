@@ -4,7 +4,7 @@
 
 Testing bibliography with anchor.
 
-[[Bibliography]](#Goldblatt1984)
+[Goldblatt 1984](http://ncatlab.org/nlab/show/Bibliography#Goldblatt%201984)
 
 ***
 
