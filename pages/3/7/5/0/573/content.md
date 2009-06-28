@@ -1,6 +1,6 @@
 #Idea#
 
-Combining the idea of [[(infinity,1)-category]] with that of [[n-category]], an $(\infty,n)$-category is supposed to be an [[infinity-category]] which behaves like its $k$-morphisms for $k \gt n$ are all [[equivalence]]s. See [[(n,r)-category]].
+Combining the idea of $(\infty,1)$-[[(infinity,1)-category|category]] with that of $n$-[[n-category|category]], an $(\infty,n)$-category is supposed to be an $\infty$-[[infinity-category|category]] which behaves like its $k$-morphisms for $k \gt n$ are all [[equivalence]]s. See [[(n,r)-category]].
 
 #Idea in terms of complete Segal spaces#
 
@@ -11,10 +11,11 @@ Due to this definition an $(\infty,n)$-category is an [[n-fold complete Segal sp
 #Special cases#
 
 See also 
-
+* [[infinity-groupoid]] = $(\infty,0)$-category
 * [[(infinity,1)-category]]
-
 * [[(infinity,2)-category]]
+* etc ...
+* [[infinity-category]] = $(\infty,\infty)$-category
 
 
 #Examples#
