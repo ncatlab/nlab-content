@@ -63,7 +63,7 @@ Yet another theory, due to Joyal [Berger1,Joyal], is based on a
 [[presheaf]] category called the category of "theta-sets".  Also, Lurie
 [Lurie3] has begun making extensive use of [[n-fold complete Segal space|Barwick's approach]] to
 [[(infinity,n)-category|(infinity,n)-categories]], which are roughly weak $\infty$-categories
-where [[(n,r)-category|all morphisms above dimension $n$ are invertible]].
+where [[(n,r)-category|all morphisms above dimension n are invertible]].
 
 The theme of the 2004 conference was comparisons among all these
 approaches to higher categories --- or at least, those that existed at
@@ -280,3 +280,5 @@ Algebraic Topology]]: Higher Homotopy Groupoids of Filtered Spaces_
 
 * [This Book Needs a Title](http://golem.ph.utexas.edu/category/2009/06/this_book_needs_a_title.html)
 
+
+category: reference
