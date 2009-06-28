@@ -8,13 +8,15 @@ _Eric_: I think Bruce figured it out on that recent conference page. Found it
 
 [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]]
 
-_Eric_: Oh! Oh! Can we do a redirect to an anchor??? For example, have <nowiki>[[Goldblatt1984]]</nowiki> redirect to <nowiki>[[Bibliography#Goldblatt1984]]</nowiki>? Or something...
+_Eric_: Oh! Oh! Can we do a redirect to an anchor??? For example, have [[Goldblatt 1984]] redirect to <nowiki>[[Bibliography#Goldblatt 1984]]</nowiki>? Or something...
+
+_Toby_:  Not with the current software.  But we can add redirect commands (not just anchors) to each entry and then trust that, when people click on 'Goldblatt 1984' and arrive at this page, they\'ll have the sense to search the page for 'Goldblatt 1984'.  (Also, check out the [[Sandbox]] now.)
   
 #Bibliography#
 
 These are just incomplete examples in need of formatting adjustments, etc:
 
-* <nowiki>[Goldblatt1984]</nowiki> Goldblatt, "Topoi: The Categorial Analysis of Logic" {#Goldblatt1984}
+* <span id="Goldblatt 1984" markdown="1">\[Goldblatt 1984\] Goldblatt, "Topoi: The Categorial Analysis of Logic"</span> [[!redirects Goldblatt 1984]]
 
 * <nowiki>[MacLane1998]</nowiki> MacLane, "Categories for the Working Mathematician"
 
