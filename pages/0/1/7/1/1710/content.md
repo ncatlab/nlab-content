@@ -2,6 +2,8 @@ In the following $C$ and $D$ are [[categories]], $x$ and $y$ are [[objects]]...
 
 * $\mathbf{1}$
 * $\mathbf{2}$
+* $Arr(C)$ - See [[arrow category]]
+* $C^\to$ - See [[arrow category]]
 * $[C,D]$ - See [[functor category]]
 * $D^C$ - See [[functor category]]
 * $C\darr D$ - See [[comma category]]
