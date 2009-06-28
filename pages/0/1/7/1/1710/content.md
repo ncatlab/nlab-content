@@ -23,6 +23,8 @@ _Toby_:  If you like, but what we really need to do, I think, is to explain nota
 
 _Eric_: Sure, but sometimes I come across notation in a reference (not necessarily on the n-Lab) and it is not 100% clear from the context what concept that notation corresponds to. I thought this could be an index of notation that merely points to the correct page. 
 
+_Toby_:  OK, fair enough.
+
 category: meta
 
 [[!redirects notation]]
