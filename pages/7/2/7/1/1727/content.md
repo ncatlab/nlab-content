@@ -1,6 +1,7 @@
-The specical case of the [[(infinity,n)-category of cobordisms]].
+This is a special case of the $(\infty,n)$-[[(infinity,n)-category of cobordisms|category of cobordisms]].
 
-#References#
+
+##References#
 
 A complete [[generators and relations]] presentation of the 2-dimensional extended unoriented oriented bordism [[bicategory]] as a [[symmetric monoidal bicatgeory]] is given in
 
