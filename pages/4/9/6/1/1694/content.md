@@ -53,7 +53,7 @@ Alternatively, you could get a little fancy with
 
 <nowiki>$(\infty,1)$-[[(infinity,1)-category|(infinity,1)-categories]]</nowiki>
 
-which is no fun at all.
+which but doesn\'t allow the link to cover the entire linking phrase.
 
 Currently, if you edit [[(infinity,1)-category]], and look at the bottom, you will see
 
@@ -62,8 +62,12 @@ Currently, if you edit [[(infinity,1)-category]], and look at the bottom, you wi
 <nowiki>[[!redirects (infinity,1)-categories]]</nowiki><br>
 <nowiki>[[!redirects infinity comma one category]].</nowiki><br>
 
-This means that we can now simply insert links like [[(∞,1)-categories]] and be redirected to [[(infinity,1)-category]].
+This means that we can now simply insert links like [[(∞,1)-categories]] and be redirected to [[(infinity,1)-category]].  The only downside here (compared to the previous alternative) is that math material is in the text font.  (Some of us even write `$2$-[[2-category|category]] for this reason.)
 
 ##Caveat##
 
 The $\infty$ symbol included in the link is not obtained via the itex syntax <nowiki>\infty.</nowiki> To actually include non-ASCII symbols in links, you either need to be an expert at unicode OR simply find the $\infty$ symbol already displayed somewhere, copy it, and paste the symbol into the edit box. To see what I mean, you can edit this page to look at the source code for the link: [[(∞,1)-categories]].
+
+***
+
+See also [the official Instiki guidelines](http://golem.ph.utexas.edu/instiki/show/Syntax#redirecting).
