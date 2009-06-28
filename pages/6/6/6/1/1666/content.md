@@ -12,15 +12,6 @@ Questions that will ultimately be addressed here include:
 * Who are the nLab administrators?
 * What do I do if there is a technical problem?
 
-
-+--{.query}
-
-_Eric_: I think some page titles deserve to be in upper case. This page is an example. What do you think about changing this page name to "Organization of the nLab"?
-
-_Toby_:  Done.
-
-=--
-
 See also [[On Scientific Contributions to the nLab]]
 
 
