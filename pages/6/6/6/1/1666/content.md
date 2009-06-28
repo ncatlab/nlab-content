@@ -17,8 +17,13 @@ Questions that will ultimately be addressed here include:
 
 _Eric_: I think some page titles deserve to be in upper case. This page is an example. What do you think about changing this page name to "Organization of the nLab"?
 
+_Toby_:  Done.
+
 =--
 
 See also [[On Scientific Contributions to the nLab]]
 
+
 category: meta
+
+[[!redirects organization of the nLab]]
