@@ -32,5 +32,7 @@ _Todd_: I agree with everything in this last comment, but the tone could be misc
 
 My own guess is that people will instinctively turn to canonical representatives whenever they can -- think of what we would tell a student who asks for help understanding how to multiply elements in $\mathbb{Z}_13$. And for students of topos theory, too, it probably helps to keep it concrete whenever possible. So while we tell them that in abstract topos theory, we define subobjects this way, we should encourage them to think of e.g. [[sieve]]s in a Grothendieck topos in whatever terms are comfortable to them, e.g. as a subfunctor whose components are 'literal' subset inclusions. And not to give off whiffs of "well, if you really feel you need this psychological crutch, go right ahead, but it's not 'categorially correct' to do so" -- because I think if we are honest, we admit to doing the same things ourselves in visualizing mathematics. 
 
-_Toby_:  How\'s this?
+_Toby_:  How\'s this? 
+
+_Todd_: Thanks, and sorry if my remark came off as rude! I guess I could have just written that myself. :-)
 =--
