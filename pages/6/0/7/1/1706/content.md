@@ -42,9 +42,9 @@ The precise formulation of the cobordism hypothesis then takes the form of the f
 +-- {: .num_theorem #Lagrange}
 ###### Theorem (cobordism hypothesis, framed version)
 
-Let $C$ by a [[symmetric monoidal (infinity,n)-category]] [[(infinity,n)-category]] [[(infinity,n)-category with duals|with duals]] and $Core(C)$ its [[core]] (the maximal [[infinity-groupoid]] in $C$).
+Let $C$ by a [[symmetric monoidal (infinity,n)-category|symmetric monoidal]] [[(infinity,n)-category]] [[(infinity,n)-category with duals|with duals]] and $Core(C)$ its [[core]] (the maximal [[infinity-groupoid]] in $C$).
 
-Let $Bord_n^{fr}$ be the [[symmetric monoidal (infinity,n)-category]] [[(infinity,n)-category of cobordisms|(infinity,n)-category of cobordisms]].
+Let $Bord_n^{fr}$ be the [[symmetric monoidal (infinity,n)-category|symmetric monoidal]] [[(infinity,n)-category of cobordisms|(infinity,n)-category of cobordisms]].
 
 Finally let $Fun^\otimes(Bord_n^{fr} , C )$ be the [[(infinity,n)-category]] of symmetric monoidal $(\infinity,n)$-functors from bordisms to $C$.
 
@@ -54,7 +54,7 @@ $$
   F \mapsto F({*})
 $$
 
-induces an [[(infinity,n)-functor]]
+induces an $(\infty,n)$-[[n-functor|functor]]
 
 $$
   pt^* : Fun^\otimes(Bord_n^{fr} , C ) \to C .
