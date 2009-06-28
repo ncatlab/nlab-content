@@ -35,4 +35,6 @@ My own guess is that people will instinctively turn to canonical representatives
 _Toby_:  How\'s this? 
 
 _Todd_: Thanks, and sorry if my remark came off as rude! I guess I could have just written that myself. :-)
+
+_Toby_:  No, it didn\'t seem rude to me.
 =--
