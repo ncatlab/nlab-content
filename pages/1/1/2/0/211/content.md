@@ -12,6 +12,8 @@ But if you want to be anonymous on the web, try searching for '[web proxy](http:
 
 _Toby_:  I see that Urs managed to post from 'from bogus address' today (June 27).  Maybe we should ask him what he did differently!
 
+_Eric_: I don't mind if administrators can see my IP, but it is not clear what purpose it serves to actually display it publicly for all to see.
+
 =--
 
 category: meta
