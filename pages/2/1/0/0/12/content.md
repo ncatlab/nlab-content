@@ -1,5 +1,13 @@
 [[!include contents]] 
 
+***
+
+Testing bibliography with anchor.
+
+[[Bibliography]](#Goldblatt1984)
+
+***
+
 Every wiki needs a sandbox! Just test _below_ and don't worry about messing things up.
 
 ****
