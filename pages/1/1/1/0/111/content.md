@@ -1,5 +1,3 @@
-[[!redirects categories]]
-
 #Idea#
 
 * A category consists of a collection of things and binary relationships (or transitions) between them, such that these relationships can be combined and include the "identity" relationship "is the same as."
@@ -90,3 +88,6 @@ Let's include a lot of nice online introductions. Here is a start:
 
 * A. Martini, H. Ehrig, and D. Nunes, [Elements of basic category theory](http://citeseer.ist.psu.edu/martini96element.html), Technical Report 96-5, Technical University Berlin.
 
+[[!redirects categories]]
+[[!redirects Category]]
+[[!redirects Categories]]
