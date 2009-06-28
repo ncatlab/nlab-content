@@ -2,6 +2,8 @@
 
 _Eric_: I had the idea that maybe we can create a comprehensive bibliography here. Then, within a page when you want to provide a reference you can simply provide a link to this page with an anchor placed at the appropriate article. Html anchors work on the nLab, right? What do you think?
 
+_Toby_:  That\'s a good idea!  References like 'Bat3' are really not going to work, however; we could try APA-style 'Batanin 2003' (although that will also be ambiguous sometimes).  Of course, anything on the arXiv has a unique identifier ....  I\'ll see what I can do about getting anchors on this page so that we can test it out.
+
 =--
 
 These are just incomplete examples in need of formatting adjustments, etc:
@@ -73,3 +75,6 @@ of homotopy theory_ ,
   _[[nonabelian algebraic topology|Nonabelian
 Algebraic Topology]]: Higher Homotopy Groupoids of Filtered Spaces_
   ([web](http://www.bangor.ac.uk/~mas010/nonab-a-t.html))
+
+
+category: meta
