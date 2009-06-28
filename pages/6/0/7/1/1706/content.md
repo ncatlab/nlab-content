@@ -7,7 +7,7 @@ The material that should go here is, for some reason, still to some extent at [[
 The $n$-category $n Cob$ of cobordisms is the free stable $n$-category with duals on one object (the point).
 =--
 
-In [[FQFT|extended toplogical quantum field theory]], which is really the representation theory of these cobordism $n$-categories, we expect:
+In [[FQFT|extended topological quantum field theory]], which is really the representation theory of these cobordism $n$-categories, we expect:
 +-- {: .un_prop}
 ###### Extended TQFT Hypothesis
 
