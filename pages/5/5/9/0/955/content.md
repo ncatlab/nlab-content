@@ -258,3 +258,6 @@ As $\delta$ is a constant morphism, $\alpha \circ \delta \in P_X(S)$ is a consta
 We therefore have an element of $|X|$ which distinguishes between the induced maps from $\phi$ and $\psi$.
 Hence $X$ is $F$--concrete.
 =--
+
+
+[[!redirects generalized object]]
