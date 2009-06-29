@@ -24,7 +24,7 @@ This entry is about the article
 
   * [[stuff, structure, property]]
 
-* negative thinking
+* [[negative thinking]]
 
   * [[(-1)-category]]
 
