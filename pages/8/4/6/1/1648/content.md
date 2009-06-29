@@ -52,6 +52,8 @@ Why do we consider groupoids here? I wouldn't expect paths to have "inverses", I
 
 Shouldn't there be a [[partial order]] somewhere related to causality?
 
+_Toby_:  Good point.  Especially since we\'re looking only at timelike (or lightlike on the boundary) paths here (those with proper time rather than proper distance), it would be quite natural to fit causality in here.  Even if you want to allow for timelike loops, the individual paths can be classified as forward or backward under very weak orientability assumptions (and assuming only one timelike dimension, of course).
+
 
 #Discussion#
 _(Topics are separated by horizontal lines, with topics presented in reverse chronological order, i.e. the first section is the most recent.)_
