@@ -1,3 +1,3 @@
 see [[Charles Ehresmann]]
 
-category: redirect
+category: delete
