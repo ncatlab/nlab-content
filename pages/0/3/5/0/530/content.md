@@ -95,7 +95,7 @@ All this has close analogs in other models of higher structures, in particular i
 
 The general idea of $k$-surjectivity is described around [definition 4](http://arxiv.org/PS_cache/math/pdf/0608/0608420v2.pdf#page=17) of
 
-* Baez-Shulman, _Lectures on $n$-Categories and Cohomology_
+* Baez-Shulman, [[Lectures on n-Categories and Cohomology]]
 ([arXiv](http://arxiv.org/abs/math.CT/0608420))
 
 The concrete discussion in the context of [[strict omega-category|strict omega-categories]] is in
