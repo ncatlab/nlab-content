@@ -45,6 +45,8 @@ $*$-autonomous but not compact.  I don't know enough topology to make
 much sense of it, though.
 
 [[Todd Trimble|Todd]]: Finn, I expect that example is in Barr's book, which would then probably have a lot of details. But I must admit I have not studied that book carefully. Also, the Chu construction was first given as an appendix to that book. 
+
+[[John Baez|John]]: I get the impression that a lot of really important examples of $*$-autonomous categories --- important for logicians, anyway --- are of a more 'syntactical' nature, i.e., defined by generators and relations.
 =--
 
 * A more interesting example of a $*$-autonomous category is the category of [[sup-lattice]]s and sup-preserving maps (= left adjoints). Clearly the poset of sup-preserving maps $hom(A, B)$ is itself a sup-lattice, so this category is closed. The free sup-lattice on a poset $X$ is the internal hom of posets $[X^{op}, \Omega]$; in particular the poset of truth values $\Omega$ is a unit for the closed structure. Define a duality $ (-)^* $ on sup-lattices, where $ X^* = X^{op} $ is the opposite poset (inf-lattices are sup-lattices), and where $ f^*: Y^* \to X^* $ is the left adjoint of $f^{op}: X^{op} \to Y^{op}$. In particular, take as dualizing object $D = \Omega^{op}$. Some simple calculations show that under the tensor product defined by the formula $ (X \multimap Y^*)^* $, the category of sup-lattices becomes a $*$-autonomous category. 
