@@ -331,7 +331,7 @@ $$
   }
 $$
 
-one reads of that the 2-out-of-3 
+one reads off that the 2-out-of-3 
 property for weak equivalences implies that $d_i$
 is also a weak equivalence.
 
@@ -339,8 +339,7 @@ is also a weak equivalence.
 =--
 
 
-# Generalized universal bundles and 
-the factorization lemma #
+# Generalized universal bundles and the factorization lemma #
 
 A central lemma in the theory of categories of fibrant objects is the factorization lemma
 
@@ -388,7 +387,7 @@ with
 
 The way the proof of this lemma works, one sees that
 this really arises in the wider context of computing
-[[homotopy limit]]s in $C$. Therefore we split the
+[[homotopy pullback]]s in $C$. Therefore we split the
 proof in two steps that are useful in their own right
 and will be taken up in the next section on homotopy limits.
 
@@ -406,17 +405,72 @@ $$
    \\
    \downarrow && \downarrow^f
    \\
-   [\Delta^1,B] &\stackrel{d_0}{\to}& B
+   B^I &\stackrel{d_0}{\to}& B
    \\
    \downarrow^{d_1}
    \\
    B
   }
 $$
+
+for some [[path space object|path object]] $B^I$
 is the [[generalized universal bundle]] over $B$
 relative to $f$.
 
 =--
+
+The universal bundle terminology is best
+understood from the following example
+
++-- {: .num_example}
+###### Example
+
+Consider the category of fibrant objects given by
+[[Kan complex]]es or just [[strict omega-groupoid]]s.
+
+For $G$ an ordinary [[group]] write $\mathbf{B} G$
+for the corresponding [[groupoid]].
+When regarding $G$ as a constant [[simplicial group]]
+the corresponding [[Kan complex]] is often denoted
+$\bar W G$ (see [[simplicial group]]) but we shall
+just write $\mathbf{B} G$ also for this Kan complex,
+for simplicity.
+
+The corresponding [[path object]] is given by the [[groupoid]] 
+(or its corresponding Kan complex) 
+$$
+  (\mathbf{B} G)^I
+  =
+  [\Delta^1, \mathbf{B} G ]
+  =
+  G \backslash \backslash G//G
+$$
+where the right denotes the [[action groupoid]]
+of $G \times G$ acting on $G$ by left and right multiplication.
+
+Let ${*} : {*} \to \mathbf{B} G$ be the unique
+morphism from the [[point]] into $\mathbf{B} G$.
+The corresponding generalized universal bundle is
+
+$$
+  \mathbf{E}_{*} G = G//G
+$$
+
+the [[action groupoid]] of $G$ acting on  itself
+from just the right. (The corresponding [[Kan complex]]
+is traditionally denoted $W G$ when thought of as a 
+[[simplicial group]]).
+
+That $G//G \to \mathbf{B}G$ is indeed the 
+universal $G$-[[principal bundle]] 
+(under the [[homotopy hypothesis|Quillen equivalence of]]
+[[Kan complex]]es and [[topological space]]s) is an
+old result of Segal
+(as described at [[generalized universal bundle]]).
+
+
+=--
+
 
 +-- {: .un_lemma }
 ###### Lemma
@@ -620,14 +674,14 @@ $$
   \array{
     A \times_C C^I \times_C B &&&\to & B
     \\
-    &&&& \downarrow
+    &&&& \downarrow^v
     \\
     & &C^I & \stackrel{d_0}{\to}& C
     \\
     \downarrow &&
-    \downarrow
+    \downarrow^{d_1}
     \\
-    A &\to & C    
+    A &\stackrel{u}{\to} & C    
   }
   \,.
 $$
@@ -642,9 +696,9 @@ $$
   \array{
      A \times_C C^I \times_C B &\to& B
      \\
-     \downarrow && \downarrow
+     \downarrow && \downarrow^v
      \\
-     A &\to& C
+     A &\stackrel{u}{\to}& C
   }
 $$
 commute up to [[homotopy]] 
@@ -659,67 +713,80 @@ The projection
 $$
  A \times_C C^I \times_C B \to A
 $$
-out of a homotopy fiber product is a fibrations. If $v$ is 
+out of a homotopy fiber product is a fibration. If $v : B \to C$ is 
 a weak equivalence, then this is an acyclic fibration.
 
 =--
 
+The same is of course true for the map to $B$ and the
+morphism $u : A \to C$, by symmetry of the diagram.
+
 +-- {: .proof}
 ###### Proof
 
-One may compute this [[nLab:limit]] in terms of two consecutive 
+One may compute this [[nLab:limit|limit]] in terms of two consecutive 
 [[nLab:pullback|pullback]]s in two different ways.
 
 On the one hand we have
 
 $$
   \array{
-    A \times_C C^I \times_C B &\to& \mathbf{E}_v C &\to & B
+    A \times_C C^I \times_C B &\to& \mathbf{E}_v C &\to 
+    & B
     \\
-    && \downarrow && \downarrow
+    && \downarrow && \downarrow^v
     \\
     & &C^I & \stackrel{d_0}{\to}& C
     \\
     \downarrow &&
-    \downarrow
+    \downarrow^{d_1}
     \\
-    A &\to & C    
+    A &\stackrel{u}{\to}& C    
   }
 $$
 
-where every square is a pullback. 
+where both squares are [[pullback]] squares. 
 
 By the above lemma on generalized universal bundles,
 the map $\mathbf{E}_v C \to C$ is a fibration. The first
 claim follows then since fibrations are stable under pullback.
 
-On the other hand we have 
-
+On the other hand we can rewrite the limit diagram also as
 $$
   \array{
     A \times_C C^I \times_C B &\to& && B
     \\
-    \downarrow && && \downarrow
+    \downarrow && && \downarrow^v
     \\
     \mathbf{E}_u C & \to &C^I & \stackrel{d_0}{\to}& C
     \\
     \downarrow 
     &&
-    \downarrow
+    \downarrow^{d_1}
     \\
-    A &\to & C    
+    A &\stackrel{u}{\to} & C    
   }
 $$
 
-This now implies that the map $\mathbf{E}_u C \to C$ is a fibration.
-By on of the above propositions weak equivalences
-are stable under pullback along fibrations, hence the pullback
-of $v$ is a weak equivalence.
+where again both inner squares are [[pullback]] squares.
+
+Again by the above statement on generalized universal
+bundles, we have that the morphism 
+$\mathbf{E}_u C \to C$ is a fibration.
+By one of the above propositions, weak equivalences
+are stable under pullback along fibrations, hence the pullback 
+$A \times_C C^I \times_C B \to \mathbf{E}_u C$
+of $v$ is a weak equivalence. Since also 
+$\mathbf{E}_u C \to A$ is a weak equivalence 
+(being the pullback of an acyclic fibration)
+the entire morphism 
+$A \times_C C^I \times_C B  \to A$ is.
 
 =--
 
 
 # Homotopies #
+
 
 +-- {: .un_defn}
 ###### Definition
@@ -751,37 +818,17 @@ $$
   }
 $$
 
-for some [[path space object]] $B^I$ of $I$
+for some [[path object|path space object]] $B^I$ of $I$
 
 =--
 
 **Proposition**
 
 For $ u : B \to C$ a morphism and $B^I$, $C^I$ choices of path objects,
-there is always another path object $B^{I'}$ that is weakly equivalent
-to $B^I$ in that 
+there is always another path object $B^{I'}$
+with an acyclic fibration $B^I \leftarrow B^{I'}$ 
+and a span of morphism of path objects
 
-$$
-  B 
-  &\stackrel{\sigma'}{\to}&
-  B^{I'}
-  &\stackrel{d'_0 \times d'_1}{\to}&
-  B \times B
-  \\
-  \downarrow^= 
-  &&
-  \downarrow^{\in F\cap W}
-  &&
-  \downarrow^{=}
-  \\
-  B 
-  &\stackrel{\sigma}{\to}&
-  B^{I}
-  &\stackrel{d_0 \times d_1}{\to}&
-  B \times B
-$$
-
-such that this fits into a span of morphism of path objects lifting $u : B \to C$
 
 $$
   \array{
@@ -791,9 +838,14 @@ $$
     \\
     B^I &\stackrel{\in W \cap F}{\leftarrow}& B^{I'} &\stackrel{\bar u}{\to}& C^I
     \\
-    \downarrow^{d_0 \times d_1} && \downarrow^{d'_0 \times d'_1} && \downarrow
+    \;\;\downarrow^{d_0 \times d_1} 
+    && \;\;\downarrow^{d'_0 \times d'_1} 
+    && \;\;\downarrow^{d_0^C \times d_1^C}
     \\
-    B \times B &\stackrel{u \times u}{\to}&
+    B \times B
+    &\stackrel{=}{\leftarrow}&
+    B \times B 
+    &\stackrel{u \times u}{\to}&    
   }
 $$
 
@@ -805,7 +857,7 @@ $$
   \array{
     B &\stackrel{u}{\to}& C &\stackrel{\sigma_C}{\to}& C
     \\
-    \downarrow^{\sigma} && \downarrow^{d_0 \times d_1}
+    \downarrow^{\sigma} &&&& \downarrow^{d_0 \times d_1}
     \\
     B^I &\stackrel{d_0 \times d_1}{\to}& B \times B
     &\stackrel{u \times u}{\to}& C \times C
@@ -814,22 +866,25 @@ $$
 
 
 
-**Proposition**
++-- {: .un_prop}
+###### Proposition
 
 Homotopy is preserved under pre- and postcomposition with a given morphism.
 
 More precisely,
 let $f, g : B \to C$ be two homotopic morphisms. Then 
 
-* for every morphisms $A \to B$ and $C \to D$ the composites
+* for all morphisms $A \to B$ and $C \to D$ the composites
 $A \to B \stackrel{f}{\to} C \to D$ and $A \to B \stackrel{g}{\to} C \to D$
 are still homotopic.
 
 * moreover, the homotopy may be realized with every given choice of   
   [[nLab:path object|path space object]] $D^I$ for $D$.
 
+=--
 
-**Proof**
++-- {: .proof}
+###### Proof
 
 We decompose this into two statements:
 
@@ -849,11 +904,7 @@ The first of these follows trivially.
 The second one follows by using the weak functoriality property of path objects
 from above.
 
-
-
-
-
-
+=--
 
 
 
@@ -928,7 +979,8 @@ The weak equivalences in $\pi C$ form  a left multiplicative system.
 =--
 
 
-##Proof##
++-- {: .proof}
+###### Proof
 
 We need to show that for every diagram
 
@@ -961,14 +1013,7 @@ We accomplish this by letting $A' := A \time_C C^I \times_C B$ be the homotopy f
 in $C$ of a representative of the pullback diagram. The above
 lemma implies then that $A' \o A$ is a weak equivalence.
 
-
-The following proposition says that, while there need not be 
-a functorial choice of path object
-$$
-  (-)^I : C \to C
-$$
-in a general category of fibrant objects, whatever choice one makes
-is always _weakly_ functorial.
+ =--
 
 
 
@@ -1058,7 +1103,6 @@ $$
 where the first functor is the obvious forgetful functor.
 
 **Remark**
-
 It is again the factorization lemma above (and using 2-out-of-3 that implies that inverting just the acyclic fibrations in $C$ is already equivalent to inverting all weak equivalences. This means that the above theorem remains valid if the weak equivalences $t : A' \to A$ are replaced by _acyclic fibrations_.
 
 Using acyclic fibrations here has the advantage that these are preserved under [[pullback]]. This allows to consistently compose spans whose left leg is an acyclic fibration by [[pullback]]. See [[homotopical cohomology theory]] and [[anafunctor]].
@@ -1070,13 +1114,6 @@ A discussion of this point of using weak equivalences versus acyclic fibrations 
 We now provide the missing definitions and then the proof
 of this theorem.
 
-+-- {: .un_lemma }
-###### Lemma
-
-The weak equivalences $\pi W$ in $\pi C$ form
-a [[calculus of fractions|left multiplicative system]].
-
-=--
 
 +-- {: .un_lemma }
 ###### Lemma
