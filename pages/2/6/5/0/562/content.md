@@ -18,7 +18,7 @@ is a **morphism of fibrations** if the top arrow takes cartesian arrows to carte
 
 Given a fibration $p:E\to B$, we obtain a pseudofunctor $B^{op}\to Cat$ by sending each $b\in B$ to the category $E_b = p^{-1}(b)$ of objects mapping onto $b$ and morphisms mapping onto $1_b$.  To obtain the action on morphisms, given an $f:a\to b$ in $B$ and an object $e\in E_b$, we choose a cartesian arrow $\phi:e'\to e$ over $f$ and call its [[source]] $f^*(e)$.  The universal factorization property of cartesian arrows then makes $f^*$ into a functor $E_b \to E_a$, and it is easy to verify that it is a pseudofunctor.  The construction in the other direction is left as an exercise for the reader (or future contributor to this page).
 
-Important special cases include when each fiber is a groupoid, corresponding to pseudofunctors $B^{op}\to Grpd$, and when each fiber is a discrete set, corresponding to functors $B^{op}\to Set$.  The latter case is called a **discrete fibration**.
+Important special cases include when each fiber is a [[groupoid]], corresponding to pseudofunctors $B^{op}\to Grpd$, and when each fiber is a [[discrete category]], corresponding to functors $B^{op}\to Set$.  The latter case is called a **[[discrete fibration]]**.
 
 
 # Remarks #
