@@ -1,0 +1,77 @@
+The __triangle identities__ or __zigzag identities__ are identities satisfied by the unit and counit of an [[adjunction]].
+
+Given $C, D$ (categories, or otherwise objects of a $2$-[[2-category|category]]) with functors (or otherwise morphisms) $L: C \to D$ and $R : D \to C$ and natural isomorphisms (or otherwise $2$-morphisms) $\eta: 1_C \to R \circ L$ and $\epsilon: L \circ R \to 1_D$, the triangle identities are the following:
+
+
+## As equations
+
+$$ L \stackrel{L\eta}\to L R L\stackrel{\epsilon L}\to L $$
+and 
+$$ R\stackrel{\eta R}\to R L R \stackrel{R\epsilon}\to R $$
+are identities.
+
+
+## As diagrams
+
+$$ 
+  R\epsilon . \eta R = 1_R
+  \qquad \text{i.e.} \qquad
+  \array{\arrayopts{ \padding{0} }
+    &&&&1_C& 
+    \\
+    &&\cellopts{\colspan{5}}\begin{svg}
+       [[!include adjunction/zigzageta]]
+       \end{svg}\\
+    D
+    & \stackrel{R}{\to}&
+    C
+    & \stackrel{L}{\to}&
+    D
+    & \stackrel{R}{\to}&
+    C
+    \\
+    \cellopts{\colspan{4}}\begin{svg}
+       [[!include adjunction/zigzagepsilon]]
+       \end{svg}
+    \\
+    &&1_D&
+  }
+  \quad = \quad D \stackrel{R}{\to} C
+$$
+and
+$$ 
+  \epsilon L . L\eta = 1_L
+  \qquad \text{i.e.} \qquad
+  \array{\arrayopts{ \padding{0} }
+    &&1_C& 
+    \\
+    \cellopts{\colspan{5}}\begin{svg}
+       [[!include adjunction/zigzageta]]
+       \end{svg}\\
+    C
+    & \stackrel{L}{\to}&
+    D
+    & \stackrel{R}{\to}&
+    C
+    & \stackrel{L}{\to}&
+    D
+    \\
+    &&\cellopts{\colspan{4}}\begin{svg}
+       [[!include adjunction/zigzagepsilon]]
+       \end{svg}
+    \\
+    &&&&1_D&
+  }
+  \quad = \quad C \stackrel{L}{\to} D
+$$
+
+
+## As string diagrams
+
+>Please draw these!
+
+
+[[!redirects zigzag identities]]
+[[!redirects zigzag identity]]
+[[!redirects zig-zag identities]]
+[[!redirects zig-zag identity]]
