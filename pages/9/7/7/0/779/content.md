@@ -14,4 +14,7 @@ He had a succession of influential students, and among the concepts which he ini
               Edited by Andr&#233;e Charles Ehresmann,  Cahiers Topologie G&#233;om&#233;trie Diff&#233;rentielle, 24,
   (1983) suppll. 1.
 
+
 category: biography
+
+[[!redirects Ehresmann]]
