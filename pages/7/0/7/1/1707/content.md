@@ -21,7 +21,7 @@ The various notions of **group cohomology** are special cases of this:
 
   * the domain $X = \mathbf{B} G$ is a one-object [[groupoid]] coming from a [[group]] $G$;
 
-  * the coefficient object is $A = \mathbf{B}^n K$, the [[strict infinity-groupoid]] coming from the [[crossed complex]] that is concentrated in degree $n$, where it is the abelian group $K$ (see [[Eilenberg-MacLane space|Eilenberg-MacLane object]] for more details).
+  * the coefficient object is $A = \mathbf{B}^n K$, the [[strict omega-groupoid]] coming from the [[crossed complex]] that is concentrated in degree $n$, where it is the abelian group $K$ (see [[Eilenberg-MacLane space|Eilenberg-MacLane object]] for more details).
 
   For $n \in \mathbb{N}$ One writes
   $$
@@ -78,7 +78,8 @@ We spell out in detail how the above reproduces the ordinary definition of group
 
 For the case of ordinary abelian group cohomology, the context of [[strict omega-groupoid]]s is in principle fully sufficient, since the domain object $\mathbf{B}G$ in that case is a 1-[[groupoid]], clearly a strict [[infinity-groupoid]], as are the abelian coefficient $n$-groupoids $\mathbf{B}^n K$, manifestly so as images of [[crossed complex]]es under the equivalence of crossed complexes with [[strict omega-groupoid]]s.
 
-So one possibility is to model $Ho_{\infty Grpd}$ in this case as the [[homotopy category]] induced by the [[model structure on strict omega-groupoid]]s.
+So one possibility is to model $Ho_{\infty Grpd}$ in this case as the [[homotopy category]] induced by the 
+[[model structure on strict omega-groupoids]].
 
 This is, more or less implicitly, the route taken in chapter 12 of
 
