@@ -9,4 +9,7 @@ kajkavian dialect of Croatian. In Croatian we use diacritics for the sch-sound: 
 
 My web page is [here](http://www.irb.hr/korisnici/zskoda).
 
+
 category: people
+
+[[!redirects Zoran Skoda]]
