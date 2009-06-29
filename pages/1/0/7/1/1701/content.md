@@ -16,7 +16,7 @@ equipped with a map $P \to X$ to a base space $X$,
 such that each [[fiber]] of $P$ looks like $G$
 in a nice way.
 
-A _$G$-gerbe_ is similarly a space $P \to X$ such that
+A _$G$-gerbe_ is similarly a "space", $P \to X$ such that
 each fiber looks like $\mathbf{B}G$ in a nice way.
 We can also replace $G$ with a sheaf of groups,
 or even with a $2$-[[2-group|group]].
@@ -41,7 +41,7 @@ The notion that a generalized space, also called an [[infinity-stack]], is an ob
 simplifies the situation conceptually by
 separating 
 
-* conceptual structures (certain spaces with certain fibers) 
+* conceptual structures (certain maps between spaces having certain fibers) 
 
 from their 
 
@@ -138,8 +138,8 @@ $$
 
 in the [[homotopy category of an (infinity,1)-category|homotopy category]] of our generalized spaces, it is a tautology that these $G$-gerbes are classified by $H^2(X,G)$. 
 
-Notice in particular that for $G = U(1)$ we have $H^2(X, U(1)) \simeq H^3(X, \mathbb{Z})$, so that $U(1)$-gerbes in the above sense are classified by third integral cohomology.
-This classification statement was the main motivatoin for the study of the realization of the notion of gerbe that goes by the name [[bundle gerbe]].
+Notice in particular that for $G = U(1)$ we have $H^2(X, U(1)) \simeq H^3(X, \mathbb{Z})$, for instance by a long exact sequence argument, so that $U(1)$-gerbes in the above sense are classified by third integral cohomology.
+This classification statement was the main motivation for the study of the realization of the notion of gerbe that goes by the name [[bundle gerbe]].
 
 
 In this fashion, for $G$ abelian, the entire concept of 
@@ -188,7 +188,7 @@ whose typical fiber is $\mathbf{B}G$. Since this is not a [[2-group]],
 one has to say what one wants to mean by this.
 
 This now is the crucial fact that translates between the
-straightfoirward definition of $H$-[[principal 2-bundle]]s
+straightforward definition of $H$-[[principal 2-bundle]]s
 as above and the notion of $G$-gerbe:
 
 For every group $G$, there is the [[2-group]] $AUT(G)$, defined equivalently
@@ -239,7 +239,7 @@ See also
 
 #References#
 
-There is a lengthier description of gerbes (at this level of generality) in the Menagerie notes that are available from [[Tim Porter|Tim Porter's]] home page.
+There is a lengthier description of gerbes, concentrating on the low-dimensional aspects, in the Menagerie notes that are available from [[Tim Porter|Tim Porter's]] home page.
 
 Other material available online includes the following:
 
