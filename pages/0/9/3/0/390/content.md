@@ -10,14 +10,14 @@ OFS's are traditionally called just **factorization systems**.  Our use of the a
 
 Several classical examples of OFS $(E,M)$:
 
-* in any topos, $E$ = class of all epis, $M$ = class of all monos
+* in any [[topos]], $E$ = class of all epis, $M$ = class of all monos
 
-* (Street) in $\mathrm{Cat}$, $E$ = 0-final functors, $M$ = [[discrete fibration]]s 
+* (Street) in [[Cat]], $E$ = 0-final functors, $M$ = [[discrete fibration]]s 
 
 * (Street) in $\mathrm{Cat}$,  $M$ = 0-initial functors, $M$ = [[discrete opfibration]]s
 
-* in $\mathrm{Cat}$, $M$= class of all [[conservative functor]]s, $E$ = left orthogonal of $M$ ("iterated strict localizations" after A. Joyal)
+* in $\mathrm{Cat}$, $M$ = [[conservative functor]]s, $E$ = left orthogonal of $M$ ("iterated strict localizations" after A. Joyal)
 
-* in the category of small categories where morphisms are functors which are exact and having right adjoint, $E$ = class of all such functors which are also localizations, $M$ = class of all such functors which are also conservative
+* in the category of small categories where morphisms are functors which are [[exact functor|left exact]] and have [[right adjoint]]s, $E$ = class of all such functors which are also localizations, $M$ = class of all such functors which are also conservative
 
-* if $F\to C$ is a fibered category in the sense of Grothendieck, then $F$ admits a factorization system $(E,M)$ where $E$ = arrows whose projection to $C$ is invertible, $M$ = cartesian arrows in $F$
+* if $F\to C$ is a [[fibered category]] in the sense of Grothendieck, then $F$ admits a factorization system $(E,M)$ where $E$ = arrows whose projection to $C$ is invertible, $M$ = cartesian arrows in $F$
