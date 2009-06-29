@@ -12,3 +12,20 @@ There are several concepts often called a _path category_ .
   *  When $X$ is a smooth space, there is a notion of path category where less than homotopy of paths is divided out: just _thin_ homotopy. This yields a notion of [[path groupoid]]. 
 
   * If _parameterized_ paths are used, there is a way to get a category of paths without dividing out any equivalence relation: this is the [[Moore path category]].
+
+
++--{.query}
+
+_Eric_: What is the [[functor category]] $[I,X]$ called, where $I$ is the [[interval category]]? 
+
+Background: I was thinking that given any category $X$ and the interval category $I$, then a functor 
+
+$$\gamma:I\to X$$
+
+looks like a curve/path in $X$. Once I started thinking about that, the next thing to think of is a collection of such functors, which made me think of $[I,X]$. If $X$ is a "space", then $[I,X]$ would be a "path space", but if $X$ is just any category, I might be tempted to call $[I,X]$ a "path category". 
+
+Is there another standard name for this?
+
+_Eric_: I see. It is called the [[arrow category]].
+
+=--
