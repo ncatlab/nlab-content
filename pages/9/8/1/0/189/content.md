@@ -60,3 +60,5 @@ Also by the way, I've moved this down here because I imagine many pages on the $
 I removed the green 'query' box, which gets a bit inconvenient when the discussion gets long. But, it might be nice to have this sort of discussion be visibly different from the main article.
 
 [[Eric Forgy|Eric]] says: What if we create a separate page called **Discussion: quiver** and link to it from here? Or something... 
+
+[[!redirects quivers]]
