@@ -4,7 +4,7 @@
 
 I work on mathematical physics --- which I interpret broadly as 'math that could be of interest in physics, and physics that could be of interest in math'.  I'm especially interested in $n$-categories and their applications.  I've spent a lot of time explaining these subjects on the web.   You can see a sampling below.  For a lot more stuff, see my [website](http://math.ucr.edu/home/baez/).
 
-I haven't contributed much to the $n$Lab yet, but I hope to someday.  I have a [[John Baez:HomePage|personal web]] here, which I plan to use to help [[James Dolan:HomePage|James Dolan]] write a paper on the [[John Baez:Doctrines of Algebraic Geometry|foundations of algebraic geometry]].  The ideas we'll explain are presumably well-known to some, but it's darn hard to find anybody who'll explain them.  
+If you visit my [[John Baez:HomePage|personal web]] here, you'll see my work with James Dolan on doctrines in algebraic geometry, and the preface of a book I edited with Peter May, called something like _Toward Higher Categories_.
 
 #Web Pages
 
