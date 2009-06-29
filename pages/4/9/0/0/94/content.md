@@ -57,3 +57,4 @@ For more general 'weak Lie 2-algebras', see:
 
 
 [[!redirects Lie infinity-algebra]]
+[[!redirects L-infinity algebra]]
