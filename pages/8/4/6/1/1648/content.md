@@ -46,8 +46,11 @@ Maybe we can start by skimming the paper and collecting some unfamiliar keywords
 #Open Questions#
 _(We'll pull out any outstanding questions from the discussion below to here in order to make life a little easier for would be angels who might be willing and able to help without forcing them to read the entire discussion.)_
 
+_Eric_: "Let $\tilde{X}$ be the groupoid which has as objects pairs $(x,s)$, where $x\in M$ and $s\in\mathbf{R}$, and as morphisms $(x,s)\to(x',s')$ paths $\gamma:x\to x'\in\mathcal{P}_1(M)$ of proper time $\tau(\gamma)=s'-s$."
 
+Why do we consider groupoids here? I wouldn't expect paths to have "inverses", I'd expect them to have "adjoints" or maybe "opposites". 
 
+Shouldn't there be a [[partial order]] somewhere related to causality?
 
 
 #Discussion#
