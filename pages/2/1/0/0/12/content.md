@@ -2,15 +2,17 @@
 
 ***
 
+Every wiki needs a sandbox! Just test _below_ and don't worry about messing things up.
+
+***
+
 <span id="bibtest" markdown="1">Testing bibliography with anchor.</span> 
 
 [Goldblatt1984](http://ncatlab.org/nlab/show/Bibliography#Goldblatt1984)
 
 _Eric_: I removed the space between "Goldblatt" and "1984" so that the url looks more intuitive, i.e. does not have "%20" for the space.
 
-***
 
-Every wiki needs a sandbox! Just test _below_ and don't worry about messing things up.
 
 ****
 
