@@ -13,3 +13,6 @@ So let $U\Set$ be the category of $U$-small sets. Then
 * a $U$-small category is a category [[internal category|internal to]] $U Set$.
 
 Note that in this context, 'large' is used more strictly than in general category theory.  A category is **$U$-large** if its set of objects and set of morphisms are both subsets of $U$; usually one does not count $U$-small categories as $U$-large.  However, some categories (such as the category of $U$-large categories) are 'too large to be large'.
+
+
+[[!redirects essentially small category]]
