@@ -9,3 +9,6 @@ Every first-countable space is a Frechet&#8211;Uryson space.
 # Properties #
 
 Every Frechet&#8211;Uryson space is a [[sequential space]].
+
+
+[[!redirects Frechet-Uryson space ]]
