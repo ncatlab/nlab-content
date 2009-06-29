@@ -1,3 +1,42 @@
-See [[adjunction]].
+## Idea
 
-category: redirect
+The left adjoint of a [[functor]], if it exists, is one of two best approximations to a [[weak inverse]] of that functor.  (The other best approximation is the functor\'s [[right adjoint]], if it exists.)  Note that a weak inverse itself, if it exists, must be a left adjoint.
+
+A left adjoint to a [[forgetful functor]] is called a [[free functor]]; in general, left adjoints may be thought of as being defined freely, consisting of anything that an inverse might want, regardless of whether it works.
+
+The concept generalises immediately to [[enriched category|enriched categories]] and in [[2-category|2-categories]].
+
+
+## Definitions
+
+Given [[partial order|posets]] (or [[preorder|proset]]s) $C$ and $D$ and a monotone function $U: C \to D$, a __left adjoint__ of $U$ is a monotone function $F: D \to C$ such that
+$$ F(x) \leq y \;\Leftrightarrow\; x \leq U(y) $$
+for all $x$ in $C$ and $y$ in $D$.
+
+Given [[locally small categories]] $C$ and $D$ and a [[functor]] $U: C \to D$, a __left adjoint__ of $U$ is a functor $F: D \to C$ with a [[natural isomorphism]] between the [[hom-set]] functors
+$$ Hom_C(F(-),-), Hom_D(-,U(-)): C^op \times D \to Set .$$
+
+Given $V$-enriched categories $C$ and $D$ and a $V$-[[enriched functor]] $U: C \to D$, a __left adjoint__ of $U$ is a $V$-enriched functor $F: D \to C$ with a $V$-[[enriched natural transformation|enriched natural isomorphism]] between the [[hom-object]] functors
+$$ Hom_C(F(-),-), Hom_D(-,U(-)): C^op \times D \to Set .$$
+
+Given categories $C$ and $D$ and a functor $U: C \to D$, a __left adjoint__ of $U$ is a functor $F: D \to C$ with [[natural transformation]]s
+$$ \iota: id_C \to F ; U,\; \epsilon: U ; F \to id_D $$
+satisfying certain [[triangle identities]].
+
+Given a [[2-category]] $\mathcal{B}$, objects $C$ and $D$ of $\mathcal{B}$, and a morphism $U: C \to D$ in $\mathcal{B}$, a __left adjoint__ of $U$ is a morphism $F: D \to C$ with $2$-morphisms
+$$ \iota: id_C \to F ; U,\; \epsilon: U ; F \to id_D $$
+satisfying the triangle identities.
+
+Although it may not be immediately obvious, these definitions are all compatible.
+
+Whenever $F$ is a left adjoint of $U$, we have that $U$ is a [[right adjoint]] of $F$.
+
+
+## Further remarks
+*  See [[Galois connection]] for left adjoints of monotone functions.
+*  See [[adjoint functor]] for left adjoints of functors.
+*  See [[adjunction]] for left adjionts in $2$-categories.
+*  See [[examples of adjoint functors]] for examples.
+
+
+[[!redirects left adjoint -- history]]
