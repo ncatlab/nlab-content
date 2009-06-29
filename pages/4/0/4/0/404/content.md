@@ -6,7 +6,7 @@ $$
   Arr(C) := Funct(I,C)
 $$
 
-for $I$ the [[interval category]].  $Arr(C)$ is also written $[\mathbf{2},C]$ or $C^{\mathbf{2}}$, since **[[2]]** is a common [[notation]] for the interval category.
+for $I$ the [[interval category]] $\{0 \to 1\}$.  $Arr(C)$ is also written $[\mathbf{2},C]$ or $C^{\mathbf{2}}$, since **[[2]]** is a common [[notation]] for the interval category.
 
 #Remarks#
 
