@@ -111,3 +111,6 @@ To obtain the required structure of well defined compositions in this globular $
 
 
 [[!redirects n-globe]]
+[[!redirects 1-globe]]
+[[!redirects 2-globe]]
+[[!redirects 3-globe]]
