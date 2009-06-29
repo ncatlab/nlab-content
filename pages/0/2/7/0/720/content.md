@@ -38,3 +38,6 @@ Street and Roberts conjectured that the nerves of strict $\omega$-categories cou
 Such stratified simplicial sets are called [[complicial set]]s.  This conjecture was later proven by Verity.
 
 A [[weak complicial set]] is a stratified simplicial set satisfying the above conditions except that thin fillers need not be unique. Street conjectured that these represent the nerves of _weak_ $\omega$-categories, where now the thin simplices are supposed to be the _equivalences_ rather than the identities.  But since every complicial set is weak complicial, one should also require that the collection of thin simplices is "maximal" in some sense; Street gave one proposed characterization.  Weak complicial sets have been studied extensively by Verity.
+
+
+[[!redirects thin]]
