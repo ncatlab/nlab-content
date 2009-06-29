@@ -18,3 +18,7 @@ Can any of you size-issue experts help to clarify this?
 
 _Mike_: I wish.  I added some stuff, but I still don't really understand this business.  In particular I don't really know what is meant by "inessential."  It certainly seems unlikely that you would  get _equivalent_ homotopy theories, but it does seem likely that you would get similar behavior no matter where you draw the line.  And if all you care about is, say, having a good category of sheaves in which you can embed any _particular_ space or manifold you happen to care about, then that may be good enough.  But I don't really know what the goal is of considering such large sites.
 =--
+
+
+[[!redirects large sheaf]]
+[[!redirects sheaves on large sites]]
