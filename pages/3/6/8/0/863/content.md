@@ -60,3 +60,6 @@ Constructively, these are still the default definitions to use; that is, if one 
 One often sees $x \lt y$ defined as $x \le y$ but $x \ne y$; this is equivalent, but doesn\'t show the de Morgan duality explicitly.  Similarly, one often sees $x \leq y$ defined as $x \lt y$ or $x = y$; this is not even equivalent constructively, although it is classically.
 
 Keep in mind, however, that the only use of [[excluded middle]] in the classical theory is the assumption that $x = y$, $x \lt y$, and $x \leq y$ are always either true or false.  There is therefore a perfect correspondence between *discrete* linear orders and total orders on [[decidable object|decidable set]]s.
+
+
+[[!redirects loset]]
