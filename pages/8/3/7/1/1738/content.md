@@ -16,7 +16,7 @@ It also appears as
 
 * accordingly, the [[nerve]] of the interval category is the [[simplicial set]] $\Delta^1$ that is [[representable functor|represented by]] $[1] \in \Delta$.
 
-In the context not of categories but of [[groupoids]] and further that of [[∞-groupoids]] the free groupoid on the interval category is relevant, wher the morphism $0 \to 1$ is an [[isomorphism]].
+In the context not of categories but of [[groupoids]] and further that of [[∞-groupoids]] the free groupoid on the interval category is relevant, where the morphism $0 \to 1$ is an [[isomorphism]].
 
 
 $$\overset{0}{\bullet}\leftrightarrows\overset{1}{\bullet}$$
