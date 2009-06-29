@@ -27,3 +27,6 @@ The slice category is a special case of a [[comma category]].
 
 # See also #
 * [[over quasi-category]]
+
+
+[[!redirects slice category]]
