@@ -31,3 +31,7 @@ One often sees $x \lt y$ defined as $x \le y$ but $x \ne y$; this is equivalent,
 In classical mathematics, the distinction between total orders and linear orders is merely a terminological technicality, which is not always observed; more precisely, there is a [[natural isomorphism|natural bijection]] between the set of total orders on a given set $S$ and the set of linear orders on $S$, and one distinguishes them by their notation.  In [[constructive mathematics]], however, they are irreducibly different.
 
 For more, including why linear orders are more often useful in constructive mathematics, see [[linear order]].
+
+
+[[!redirects toset]]
+[[!redirects totally ordered set]]
