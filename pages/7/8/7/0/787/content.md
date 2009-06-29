@@ -43,3 +43,6 @@ This was further developed in the thesis _Roytenberg99_.
 A useful summary of the theory of Courant algebroids in in [section 3](http://arxiv.org/PS_cache/math/pdf/0401/0401221v1.pdf#page=19) of
 
 * Marco Gualtieri, _Generalized complex geometry_ ([arXiv](http://arxiv.org/abs/math/0401221))
+
+
+[[!redirects Courant Lie algebroid]]
