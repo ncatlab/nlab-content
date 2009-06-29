@@ -17,3 +17,4 @@ However, this use of the word "locally" does not really have anything to do with
 
 
 [[!redirects locally small]]
+[[!redirects locally small categories]]
