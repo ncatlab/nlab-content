@@ -4,7 +4,7 @@
 
 I work on mathematical physics --- which I interpret broadly as 'math that could be of interest in physics, and physics that could be of interest in math'.  I'm especially interested in $n$-categories and their applications.  I've spent a lot of time explaining these subjects on the web.   You can see a sampling below.  For a lot more stuff, see my [website](http://math.ucr.edu/home/baez/).
 
-If you visit my [[John Baez:HomePage|personal web]] here, you'll see my work with James Dolan on doctrines in algebraic geometry, and the preface of a book I edited with Peter May, called something like _Toward Higher Categories_.
+If you visit my [[John Baez:HomePage|personal web]] here, you'll see my work with James Dolan on doctrines in algebraic geometry, and the preface of a book I edited with Peter May, called _[[Towards Higher Categories]]_.
 
 #Web Pages
 
@@ -99,8 +99,7 @@ proceedings of the 2007 Abel Symposium, eds. Nils Baas <i>et al</i>.
 
 [Convenient categories of smooth spaces](http://arXiv.org/abs/0807.1704), with Alex Hoffnung.
 
-[Categorified symplectic
-geometry and the classical string]((http://arXiv.org/abs/0808.0246), with Alex Hoffnung and Chris Rogers.
+[Categorified symplectic geometry and the classical string](http://arXiv.org/abs/0808.0246), with Alex Hoffnung and Chris Rogers.
 
 [Categorified symplectic geometry and the string Lie 2-algebra](http://arxiv.org/abs/0901.4721), with Christopher L. Rogers. 
 
