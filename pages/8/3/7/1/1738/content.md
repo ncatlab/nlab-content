@@ -12,11 +12,14 @@ It also appears as
 
 * the [[1-globe]].
 
-* the object $[1]$ in the [[simplex category]] when that is thought of as the full subcategory in [[Cat]] on finite (nonemty) linear [[quiver]]s.
+* the object $[1]$ in the [[simplex category]] when that is thought of as the full subcategory in [[Cat]] on finite (nonemty) linear [[quivers]].
 
 * accordingly, the [[nerve]] of the interval category is the [[simplicial set]] $\Delta^1$ that is [[representable functor|represented by]] $[1] \in \Delta$.
 
-In the context not of categories but of [[groupoid]]s and further that of [[infinity-groupoid]]s the free groupoid on the interval category is relevant, wher the morphism $0 \to 1$ is an [[isomorphism]].
+In the context not of categories but of [[groupoids]] and further that of [[∞-groupoids]] the free groupoid on the interval category is relevant, wher the morphism $0 \to 1$ is an [[isomorphism]].
+
+
+$$\overset{0}{\bullet}\leftrightarrows\overset{1}{\bullet}$$
 
 This is the _undirected_ [[interval object]] in [[Cat]] and in [[Grpd]].
 
