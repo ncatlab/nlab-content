@@ -206,3 +206,6 @@ I have been trying for some time to figure out the "categorical meaning" of the 
 _Toby_: OK, forget I said anything about constructibilty.
 
 =--
+
+
+[[!redirects constructivism]]
