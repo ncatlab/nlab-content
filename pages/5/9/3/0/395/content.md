@@ -339,7 +339,8 @@ is also a weak equivalence.
 =--
 
 
-# Generalized universal bundles and the factorization lemma #
+# Generalized universal bundles and 
+the factorization lemma #
 
 A central lemma in the theory of categories of fibrant objects is the factorization lemma
 
@@ -552,7 +553,6 @@ $$
 
 =--
 
-
 #More sophisticated consequences of the definition#
 
 Using the factorization lemma, one obtaines the following
@@ -596,7 +596,384 @@ in the closely related work
 
 
 
-## The homotopy category ##
+# Homotopy fiber product #
+
+Using the existence of [[path object|path space objects]] one can construct specific [[homotopy pullback]]s
+called  _homotopy fiber products_ .
+
+
++-- {: .un_defn}
+###### Definition
+
+A **homtopy fiber product** 
+or **homotopy pullback** of two morphisms
+
+$$
+  A \stackrel{u}{\to} C \stackrel{v}{\leftarrow} B
+$$
+
+in a category of fibrant objects
+is the object $A \times_C C^I \times_C B$  defined as the 
+(ordinary) [[nLab:limit|limit]]
+
+$$
+  \array{
+    A \times_C C^I \times_C B &&&\to & B
+    \\
+    &&&& \downarrow
+    \\
+    & &C^I & \stackrel{d_0}{\to}& C
+    \\
+    \downarrow &&
+    \downarrow
+    \\
+    A &\to & C    
+  }
+  \,.
+$$
+
+=--
+
+
+
+**Remark** This essentially says that $A \times_C C^I \times_C B$ is the 
+universal object that makes the diagram
+$$
+  \array{
+     A \times_C C^I \times_C B &\to& B
+     \\
+     \downarrow && \downarrow
+     \\
+     A &\to& C
+  }
+$$
+commute up to [[homotopy]] 
+(see the section on homotopies for more on that).
+
++-- {: .num_lemma }
+###### Lemma
+
+
+The projection
+
+$$
+ A \times_C C^I \times_C B \to A
+$$
+out of a homotopy fiber product is a fibrations. If $v$ is 
+a weak equivalence, then this is an acyclic fibration.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+One may compute this [[nLab:limit]] in terms of two consecutive 
+[[nLab:pullback|pullback]]s in two different ways.
+
+On the one hand we have
+
+$$
+  \array{
+    A \times_C C^I \times_C B &\to& \mathbf{E}_v C &\to & B
+    \\
+    && \downarrow && \downarrow
+    \\
+    & &C^I & \stackrel{d_0}{\to}& C
+    \\
+    \downarrow &&
+    \downarrow
+    \\
+    A &\to & C    
+  }
+$$
+
+where every square is a pullback. 
+
+By the above lemma on generalized universal bundles,
+the map $\mathbf{E}_v C \to C$ is a fibration. The first
+claim follows then since fibrations are stable under pullback.
+
+On the other hand we have 
+
+$$
+  \array{
+    A \times_C C^I \times_C B &\to& && B
+    \\
+    \downarrow && && \downarrow
+    \\
+    \mathbf{E}_u C & \to &C^I & \stackrel{d_0}{\to}& C
+    \\
+    \downarrow 
+    &&
+    \downarrow
+    \\
+    A &\to & C    
+  }
+$$
+
+This now implies that the map $\mathbf{E}_u C \to C$ is a fibration.
+By on of the above propositions weak equivalences
+are stable under pullback along fibrations, hence the pullback
+of $v$ is a weak equivalence.
+
+=--
+
+
+# Homotopies #
+
++-- {: .un_defn}
+###### Definition
+
+Two morphism $f,g : A \to B$ in $C(A,B)$
+are **[[homotopy|homotopic]]**, denoted $f \sim g$, precisely if they fit into a diagram
+
+$$
+  \array{
+    &&
+    A 
+    &\stackrel{f}{\to}& B
+    \\
+    &{}^{w \in W}\nearrow&&& \uparrow^{d_0}
+    \\
+    \hat A 
+    &&
+    \stackrel{\eta}{\to}
+    &&
+    B^I
+    \\
+    &{}_{w\in W}\searrow & &&
+    \downarrow^{d_1}
+    \\
+    &&
+    A
+    &\stackrel{g}{\to}& 
+    B
+  }
+$$
+
+for some [[path space object]] $B^I$ of $I$
+
+=--
+
+**Proposition**
+
+For $ u : B \to C$ a morphism and $B^I$, $C^I$ choices of path objects,
+there is always another path object $B^{I'}$ that is weakly equivalent
+to $B^I$ in that 
+
+$$
+  B 
+  &\stackrel{\sigma'}{\to}&
+  B^{I'}
+  &\stackrel{d'_0 \times d'_1}{\to}&
+  B \times B
+  \\
+  \downarrow^= 
+  &&
+  \downarrow^{\in F\cap W}
+  &&
+  \downarrow^{=}
+  \\
+  B 
+  &\stackrel{\sigma}{\to}&
+  B^{I}
+  &\stackrel{d_0 \times d_1}{\to}&
+  B \times B
+$$
+
+such that this fits into a span of morphism of path objects lifting $u : B \to C$
+
+$$
+  \array{
+    B &\stackrel{=}{\leftarrow}& B &\stackrel{u}{\to}& C
+    \\
+    \downarrow^\sigma && \downarrow^{\sigma'} && \downarrow^{\sigma_C}
+    \\
+    B^I &\stackrel{\in W \cap F}{\leftarrow}& B^{I'} &\stackrel{\bar u}{\to}& C^I
+    \\
+    \downarrow^{d_0 \times d_1} && \downarrow^{d'_0 \times d'_1} && \downarrow
+    \\
+    B \times B &\stackrel{u \times u}{\to}&
+  }
+$$
+
+**Proof**
+
+Apply the factorization lemma to
+
+$$
+  \array{
+    B &\stackrel{u}{\to}& C &\stackrel{\sigma_C}{\to}& C
+    \\
+    \downarrow^{\sigma} && \downarrow^{d_0 \times d_1}
+    \\
+    B^I &\stackrel{d_0 \times d_1}{\to}& B \times B
+    &\stackrel{u \times u}{\to}& C \times C
+  }
+$$
+
+
+
+**Proposition**
+
+Homotopy is preserved under pre- and postcomposition with a given morphism.
+
+More precisely,
+let $f, g : B \to C$ be two homotopic morphisms. Then 
+
+* for every morphisms $A \to B$ and $C \to D$ the composites
+$A \to B \stackrel{f}{\to} C \to D$ and $A \to B \stackrel{g}{\to} C \to D$
+are still homotopic.
+
+* moreover, the homotopy may be realized with every given choice of   
+  [[nLab:path object|path space object]] $D^I$ for $D$.
+
+
+**Proof**
+
+We decompose this into two statements:
+
+1. for any $A \to B$ the morphisms $A \to B \stackrel{f,g}{\to} B$ are homotopic.
+
+1. for any $C \to D$ and choice $D^I$ of path object there is an acyclic fibration
+   $
+     B' \to B
+   $
+   such that 
+   $B' \to B \stackrel{f}{\to} C \to D$ is homotopic to
+   $B' \to B \stackrel{g}{\to} C \to D$
+   by a homotopy $\eta : B' \to D^I$.
+   
+The first of these follows trivially.
+
+The second one follows by using the weak functoriality property of path objects
+from above.
+
+
+
+
+
+
+
+
+
+
+
+
+
++-- {: .un_lemma }
+###### Lemma
+
+The relation "$f, g \in C(A,B)$ are homotopic"
+(as defined above)
+is an [[equivalence relation]] on $C(A,B)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Requires some work. For the time being see
+pages 6 and 7 of [[BrownAHT]].
+
+=--
+
+
++-- {: .un_defn}
+###### Definition
+
+For $C$ a category of fibrant objects the category
+$\pi C$ is defined to be the category
+
+* with the same objects as $C$;
+
+* with [[hom-set]]s the set of equivalence classes
+  $$
+   \pi C(A,B) := C(A,B)/_\sim
+  $$
+  under the above equivalence relation.
+
+* Composition in $\pi C$ is given by composition of
+  representatives in $C$.
+
+=--
+
++-- {: .un_defn}
+###### Definition
+
+The obvious functor
+
+$$
+  C \to \pi C
+$$
+
+is the identity on objects and the projection to
+[[equivalence relation|equivalence classes]] on
+[[hom-set]].
+
+Let $\pi W \subset Mor(\pi C)$ be the image of the 
+weak equivalences of $C$ in $\pi C$ under this functor,
+and $\pi F$ the image of the fibrations.
+
+=--
+
+
+
+
++-- {: .num_theorem }
+###### Theorem
+
+The weak equivalences in $\pi C$ form  a left multiplicative system.
+
+=--
+
+
+##Proof##
+
+We need to show that for every diagram
+
+$$
+  \array{
+    && B
+    \\
+    && \downarrow^{w \in W}
+    \\
+    A &\to& C  
+  }
+$$
+
+$\in \pi C$
+
+there is a commuting diagram
+
+$$
+  \array{
+    A' &\to & B
+    \\
+    \downarrow^{w' \in W} && \downarrow^{w \in W}
+    \\
+    A &\to& C  
+  }
+  \,.
+$$
+
+We accomplish this by letting $A' := A \time_C C^I \times_C B$ be the homotopy fiber product
+in $C$ of a representative of the pullback diagram. The above
+lemma implies then that $A' \o A$ is a weak equivalence.
+
+
+The following proposition says that, while there need not be 
+a functorial choice of path object
+$$
+  (-)^I : C \to C
+$$
+in a general category of fibrant objects, whatever choice one makes
+is always _weakly_ functorial.
+
+
+
+
+# The homotopy category #
 
 We discuss now 
 that the structure of a category of fibrant objects on a 
@@ -692,95 +1069,6 @@ A discussion of this point of using weak equivalences versus acyclic fibrations 
 
 We now provide the missing definitions and then the proof
 of this theorem.
-
-+-- {: .un_defn}
-###### Definition
-
-Two morphism $f,g : A \to B$ in $C(A,B)$
-are **[[homotopy|homotopic]]**, denoted $f \sim g$, precisely if they fit into a diagram
-
-$$
-  \array{
-    &&
-    A 
-    &\stackrel{f}{\to}& B
-    \\
-    &{}^{w \in W}\nearrow&&& \uparrow^{d_0}
-    \\
-    \hat A 
-    &&
-    \stackrel{\eta}{\to}
-    &&
-    B^I
-    \\
-    &{}_{w\in W}\searrow & &&
-    \downarrow^{d_1}
-    \\
-    &&
-    A
-    &\stackrel{g}{\to}& 
-    B
-  }
-  \,.
-$$
-
-=--
-
-
-+-- {: .un_lemma }
-###### Lemma
-
-This relation is an [[equivalence relation]]
-on $C(A,B)$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Requires some work. For the time being see
-pages 6 and 7 of [[BrownAHT]].
-
-=--
-
-
-+-- {: .un_defn}
-###### Definition
-
-For $C$ a category of fibrant objects the category
-$\pi C$ is defined to be the category
-
-* with the same objects as $C$;
-
-* with [[hom-set]]s the set of equivalence classes
-  $$
-   \pi C(A,B) := C(A,B)/_\sim
-  $$
-  under the above equivalence relation.
-
-* Composition in $\pi C$ is given by composition of
-  representatives in $C$.
-
-=--
-
-+-- {: .un_defn}
-###### Definition
-
-The obvious functor
-
-$$
-  C \to \pi C
-$$
-
-is the identity on objects and the projection to
-[[equivalence relation|equivalence classes]] on
-[[hom-set]].
-
-Let $\pi W \subset Mor(\pi C)$ be the image of the 
-weak equivalences of $C$ in $\pi C$ under this functor,
-and $\pi F$ the image of the fibrations.
-
-=--
 
 +-- {: .un_lemma }
 ###### Lemma
