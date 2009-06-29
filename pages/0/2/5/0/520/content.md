@@ -48,8 +48,7 @@ $$
 
 in the 1-category [[Cat]], where
 
-* $I = \{a \to b\}$ is the interval category (the first [[oriental]] = the 1-[[globe]])  -- the [[interval object]]
-in [[Cat]];
+* $I = \{a \to b\}$ is the [[interval category]];
 
 * $[I, Set] = Arr(Set)$ is the [[closed monoidal category|internal hom]] category which here is the [[arrow category]] of $Set$;
 
