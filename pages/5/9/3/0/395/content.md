@@ -413,7 +413,7 @@ $$
   }
 $$
 
-for some [[path space object|path object]] $B^I$
+for some [[path object|path space object]] $B^I$
 is the [[generalized universal bundle]] over $B$
 relative to $f$.
 
@@ -539,9 +539,10 @@ of two fibrations. Therefore it is itself a fibration.
 ###### Lemma
 
 The morphism $\mathbf{E}_f B \stackrel{\simeq}{\to} C$ 
-has a [[section]] $\sigma_f : C \stackrel{\simeq}{\to}
+has a [[section]] (a [[inverse|right inverse]])
+$\sigma_f : C \stackrel{\simeq}{\to}
    \mathbf{E}_f B$ and its composite with
-   $p_f$ if $f$:
+   $p_f$ is $f$:
 
   $$
     \array{
@@ -559,7 +560,11 @@ has a [[section]] $\sigma_f : C \stackrel{\simeq}{\to}
 +-- {: .proof}
 ###### Proof
 
-The [[section]] is the morphism induced via the
+The [[section]] 
+$$
+  \sigma_f = Id \times \sigma \circ f
+$$
+is the morphism induced via the
 universal property of the [[pullback]] by the
 [[section]] $\sigma : B  \to B^I$ of
 $d_0 : B^I \to B$:
@@ -567,9 +572,9 @@ $d_0 : B^I \to B$:
 $$
   \array{
     C 
-    &\stackrel{\sigma_f}{\to}&
+    &\stackrel{\sigma_f \in W}{\to}&
     \mathbf{E}_f B 
-    &\to&
+    &\stackrel{\in W \cap F}{\to}&
     C
     \\
     \downarrow^f 
@@ -580,7 +585,7 @@ $$
     \\
     B &\stackrel{\sigma}{\to}&
     B^I
-    &\stackrel{d_1}{\to}&
+    &\stackrel{d_1 \in W \cap F}{\to}&
     B
     \\
     & {}_{Id}\searrow & \downarrow^{d_0}
@@ -640,9 +645,10 @@ $$
   \array{
     E \times_B B' &\to& B'
     \\
-    \downarrow && \downarrow
+    \;\;\;\downarrow^{\Rightarrow \in W } 
+    && \;\downarrow^{\in W}
     \\
-    E &\to& B
+    E &\stackrel{\in F}{\to}& B
   }
 $$
 
@@ -651,10 +657,12 @@ is a fibration.
 First of all, using the factorization lemma
 we may always factor $B' \to B$ as
 
-$B ' \to \mathbf{E} B \to B$
+$B ' \stackrel{\in W}{\to} \mathbf{E} B 
+ \stackrel{\in W \cap F}{\to} B$
 
 with the first morphism a weak equivalence that is
-a left inverse and the right one an acyclic fibration.
+a right inverse to an acyclic fibration
+and the right one an acyclic fibration.
 
 Then then pullback diagram in question may be decomposed
 in two consecutive pullback diagrams
@@ -666,7 +674,8 @@ $$
     \\
     Q &\stackrel{\in F}{\to}& \mathbf{E} B
     \\
-    \downarrow^{\in W \cap F} && \downarrow^{\in W \cap F}
+    \;\;\downarrow^{\in W \cap F} 
+    && \;\;\downarrow^{\in W \cap F}
     \\
     E &\stackrel{\in F}{\to}& B
   }
@@ -675,77 +684,94 @@ $$
 
 where the morphisms are indicated as fibrations and
 acyclic fibrations using the stability of these
-under any pullback.
+under arbitrary pullback.
 
 So the proof reduces to proving that weak equivalences
-$u : B' \to B$ left inverse to some acyclic fibration
-$v : B \to B'$
-are preserved by pullback along a fibration.
+$u : B' \stackrel{\in}{\to} B$ 
+that are right inverse to some acyclic fibration
+$v : B \stackrel{\in W \cap F}{\to} B'$
+map to a weak equivalence under pullback along a fibration.
 
-Given these, consider the pullback
+Given such $u$, consider the pullback diagram
 
 $$
   \array{
     E
     \\
-    & \searrow^{p \times Id} && \searrow^{Id}
+    & {}_{\in W}\searrow^{p \times Id} && \searrow^{Id}
     \\
     &&
-       E_1 := B \times_{B^I} E 
+       E_1 := B \times_{B'} E 
     &
        \stackrel{\in W \cap F}{\to} 
     & 
        E
     \\
-    &&\downarrow && \downarrow^{p}
+    &&\downarrow^{\in F} && \downarrow^{p \in F}
     \\
     &&&& B 
     \\
-    &&\downarrow && \downarrow^{v}
+    &&\downarrow && \downarrow^{v \in F \cap W}
     \\
     &&B &\stackrel{v \in W \cap F}{\to}& B'
   }
   \,.
 $$
 
-This says that $E \to E_1$ is a weak equivalence
-(and in fact right inverse to to a weak equivalence).
+This says that the universal morphism 
+$p \times Id : E \stackrel{\in W}{\to} E_1$ 
+is a weak equivalence
+(and in fact in turn 
+right inverse to to a weak equivalence).
 
 The above lemma (...to by typed  in a moment...)
 says that weak equivalences between fibrations over $B$
 are themselves preserved by base extension along
-$U : B' \to B$
+$u : B' \to B$. In total this yields the following diagram
 
 $$
   \array{
-    u^* E &\to&E
+    u^* E = B' \times_B E
+    &\to &E
     \\
-    &\searrow^{u^*(p \times Id)}
-    && \searrow^{p \times Id} && \searrow^{Id}
+    &{}_{\in W}\searrow^{u^*(p \times Id)}
+    && {}_{\in W}\searrow^{p \times Id} && \searrow^{Id}
     \\
     &&
     u^* E_1
-    &&
-       E_1 := B \times_{B^I} E 
-    &
+    &\to&
+       E_1     &
        \stackrel{\in W \cap F}{\to} 
     & 
        E
     \\
-    &&\downarrow&&\downarrow && \downarrow^{p}
+    &&\downarrow^{\in F}&&\downarrow^{\in F} 
+    && \downarrow^{p \in F}
     \\
     &&&&&& B 
     \\
-    &&\downarrow&&\downarrow && \downarrow^{v}
+    &&\downarrow&&\downarrow && \downarrow^{v \in F \cap W}
     \\
     &&
     B'
     &\stackrel{u}{\to}&
     B &\stackrel{v \in W \cap F}{\to}& B'
   }
-  \,.
 $$
 
+so that with $p \times Id  : E \to E_1$ a
+weak equivalence also $u^* (p \times Id)$ 
+is a weak equivalence, as indicated.
+
+Notice that $u^* E = B' \times_B E \to E$ is the morphism that we want to show is a weak equivalence.
+By 2-out-of-3 for that it is now sufficient to 
+show that $u^* E_1  \to E_1$ is a weak equivalence.
+
+That finally follows now since by assumption the
+total bottom horizontal morphism is the identity.
+Hence so is the top horizontal morphism. Hence
+$u^* E_1  \to E_1$ is right inverse to a weak
+equivalence, hence is a weak equivalence.
 
 =--
 
@@ -961,6 +987,7 @@ $$
     &\stackrel{=}{\leftarrow}&
     B \times B 
     &\stackrel{u \times u}{\to}&    
+    C \times C
   }
 $$
 
