@@ -1,7 +1,7 @@
 In the following $C$ and $D$ are [[categories]], $x$ and $y$ are [[objects]]...
 
 * $\mathbf{1}$
-* $\mathbf{2}$
+* $\mathbf{2}$ - See [[interval category]]
 * $Arr(C)$ - See [[arrow category]]
 * $C^\to$ - See [[arrow category]]
 * $[C,D]$ - See [[functor category]]
@@ -14,6 +14,7 @@ In the following $C$ and $D$ are [[categories]], $x$ and $y$ are [[objects]]...
 * $x\darr C$ - See [[under category]] a.k.a. coslice category
 * $x/C$ - See [[under category]] a.k.a. coslice category
 * $x\backslash C$ - See [[under category]] a.k.a. coslice category
+* $C(x,y)$ - See [[hom-category]]
 
 #Discussion#
 
