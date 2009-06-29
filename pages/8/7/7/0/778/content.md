@@ -109,3 +109,6 @@ this article we consider homological notation (the differential decreases the de
 To go from $SSet$-cat to $dg^+$-cat you need a bar /  cobar construction it seems.
 
 =--
+
+
+[[!redirects differential graded category]]
