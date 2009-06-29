@@ -18,3 +18,6 @@ The historical article of <a href="http://en.wikipedia.org/wiki/Ludwig_Maurer">L
 
 * L. Maurer, &#220;ber allgemeinere Invarianten-Systeme,
 M&#252;nch. Ber. 18 (1888), 103-150.
+
+
+[[!redirects Maurer-Cartan equation ]]
