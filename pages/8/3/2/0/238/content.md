@@ -15,7 +15,20 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 # 2009-06-30 #
 
 * [[Urs Schreiber|Urs]]
-  
+
+  * prompted by [[David Corfield|David]]'s remark at [[homotopy group]] I was led to all of the following:
+
+    I split [[homotopy]] into 
+
+    * [[homotopy (as a transformation)]]
+
+    * [[homotopy (as an operation)]]
+
+    and moved the material originally found at [[homotopy]] to [[homotopy (as a transformation)]], kept only two commented links at [[homotopy]] and then wrote [[homotopy (as an operation)]] in the spirit of David's remark and in the light of the entry [[Eckmann-Hilton duality]] (but just some tentative abstract nonsense so far).
+
+    then finally I added to [[homotopy group]] a last section "some abstract nonsense" that indicates how the discussion of homtopy groups could be given analogous, just dual, to the discussion the way we have it (since recently) at [[cohomology group]]
+
+   
   * expanded at [[cohomology group]] (standard abelian examples, standard nonabelian examples)
 
     * [[David Corfield]] has an interesting question there, I think he is right, will try to write something at [[homotopy group]]
