@@ -57,10 +57,10 @@ From that perspective we might say that:
 
 for $B, X$ any two objects in an [[(infinity,1)-topos]] $\mathbf{H}$, the "homotopy of $X$ with co-coefficients $B$" is the [[hom-set]]
   $$
-    \pi(X,B) := H(B,X) := \pi_0 \mathbf{H}(B,X)
+    \pi_H(X,B) := H(B,X) := \pi_0 \mathbf{H}(B,X)
     \,,
   $$
-  where $H$ denotes the [[homotopy category of an (infinity,1)-category|homotopy category]] of $\mathbf{H}$.
+  where $\pi_H$ denotes the [[homotopy category of an (infinity,1)-category|homotopy category]] of $\mathbf{H}$.
 
 For the special case that the object $B$ here is a [[co-group object]], this _homotopy set_ $\pi(X,B)$ naturally inherits the structure of a [[group]].
 
