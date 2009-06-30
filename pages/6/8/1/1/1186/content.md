@@ -69,3 +69,6 @@ The long list of equivalent statements above is theorem 5.5.1.1., which is origi
 
 
 The characterization in terms of simplicial model categories is proposition A.3.7.6.
+
+
+[[!redirects presentable (∞,1)-category]]
