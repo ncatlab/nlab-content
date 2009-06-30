@@ -1,7 +1,7 @@
 [[!redirects Approaching Higher Category Theory]]
 This is a book on higher categories:
 
-* [[John Baez]] and [[Peter May]], [_Towards Higher Categories_](http://ncatlab.org/johnbaez/show/Towards+Higher+Categories), Institute for Mathematics and Its Applications, to appear.
+* [[John Baez]] and [[Peter May]], [[John Baez:Towards Higher Categories|Towards Higher Categories]], Institute for Mathematics and Its Applications, to appear.
 
 
 ***
