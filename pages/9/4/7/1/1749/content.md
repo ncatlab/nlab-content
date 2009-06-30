@@ -10,7 +10,7 @@
 
  Ordinary _homotopy_ is a way to probe objects in an [[(infinity,1)-topos]] $\mathbf{H}$ by mapping [[sphere]]s into them:
 
-the ordinary [[homotopy group]] $\pi_n(X,x)$ of an object $X \in \mathbf{H}$ is the fiber ober $x \in X$ of the morphism
+the ordinary [[homotopy group]] $\pi_n(X,x)$ of an object $X \in \mathbf{H}$ is the fiber over $x \in X$ of the morphism
 
 $$
   H(S^n, X) \to H({*},X) \simeq \pi_0(X)
@@ -35,12 +35,14 @@ For a more precise statement of homotopy in $(\infty,1)$-toposes see section 6.5
 =--
 
 
-**Remark** This duality suggests that more generally we may be entitled to speak for $B$ and $X$ objects in $\mathbf{H}$ of
++-- {: .un_remark}
+###### Remark
 
+This duality suggests that more generally we may be entitled to speak for $B$ and $X$ objects in $\mathbf{H}$ of
 $$
   H(B,X) := \pi_0 \mathbf{H}(B,X)
 $$
-
-as the **homotopy of $X$ with co-coefficients $B$**.
+as the **homotopy of $X$ with co-coefficients in $B$** (or efficients in $B$ if you want to be funny).
 
 Examples of such constructions exist, but are rarely thought of (or even recognized as) generalizations of the notion of homotopy. Rather, by the above dulity, the same situation is usually regarded in the context of [[cohomology]], which, still by the above duality, is just as well.
+=--
