@@ -22,7 +22,7 @@ Notice that
 
 * $F$ (being a left Quillen adjoint) preserves weak equivalences between cofibrant objects
 
-* so that in induces a functor $L F : h C \to h D$ between the [[homotopy category|homotopy categories]]: its total left [[derived functor]].
+* so that it induces a functor $L F : h C \to h D$ between the [[homotopy category|homotopy categories]]: its total left [[derived functor]].
 
 * Similarly (but dually) for $G$ and its right total derived functor $R G : h D \to h C$.
 
