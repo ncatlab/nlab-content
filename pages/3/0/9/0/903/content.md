@@ -1,6 +1,6 @@
 # Idea #
 
-The _homotopy groups_ $\pi_n(X,a)$ of a [[pointed object|pointed]] space $(X,a)$ are a sequence of [[group]]s that generalise the [[fundamental group]] $\pi_1(X,a)$ to higher homotopies.
+The _homotopy groups_ $\pi_n(X,a)$ of a [[pointed object|pointed]] space $(X,a)$ are a sequence of [[group]]s that generalise the [[fundamental group]] $\pi_1(X,a)$ to higher [[homotopy (as a transformation)|homotopies]].
 
 Actually, $\pi_0(X,a)$ is not a group at all but merely a [[pointed set]].  Conversely, $\pi_2(X,a)$ and above are all [[abelian group]]s.  Only $\pi_1(X,a)$ may be an arbitrary group.  In general, $\pi_n(X,a)$ is an $n$-[[k-tuply groupal n-groupoid|tuply groupal]] set.
 
@@ -47,3 +47,23 @@ A key property of homotopy groups is the _Whitehead theorem_: if $f:X \to Y$ is 
 However, the homotopy groups by themselves, even considering the operations of $\pi_1$, do not characterise homotopy types. See also [[algebraic homotopy|algebraic homotopy theory]].
 
 See also the [[Freudenthal suspension theorem]].
+
+# Some general nonsense #
+
+Using the [[Eckmann-Hilton duality]] between
+[[cohomology]] and [[homotopy (as an operation)]] one may discuss homotopy groups along the same lines as the discussion of [[cohomology group]]s  (see there).
+
+From that perspective we might say that:
+
+for $B, X$ any two objects in an [[(infinity,1)-topos]] $\mathbf{H}$, the "homotopy of $X$ with co-coefficients $B$" is the [[hom-set]]
+  $$
+    \pi(X,B) := H(B,X) := \pi_0 \mathbf{H}(B,X)
+    \,,
+  $$
+  where $H$ denotes the [[homotopy category of an (infinity,1)-category|homotopy category]] of $\mathbf{H}$.
+
+For the special case that the object $B$ here is a [[co-group object]], this _homotopy set_ $\pi(X,B)$ naturally inherits the structure of a [[group]].
+
+The standard example is that where $B = S^n$ is the $n$-[[sphere]]. This naturally comes with an co-group structure up to homotopy, which is precisely the structure underlying the co-category structure of the [[interval object]] and more generally that underlying the mechanism of the [[Trimble n-category]].
+
+As opposed to [[cohomology]] where people are used to talking about [[generalized cohomology]], "homotopy" usually just means this ordinary homotopy for $B = S^n$.
