@@ -5,7 +5,7 @@
 #Definition#
 
 
-For every $k \in \mathbb{N}$ let $\Delta|_k \hookrightarrow \Delta$ be the full [[subcategory]] of the [[simplex category]] $\Delta$ on objects $[n]$  with $0 \leq n \keq k$.
+For every $k \in \mathbb{N}$ let $\Delta|_k \hookrightarrow \Delta$ be the full [[subcategory]] of the [[simplex category]] $\Delta$ on objects $[n]$  with $0 \leq n \leq k$.
 
 Precomposition with the inclusion induces a functor
 
