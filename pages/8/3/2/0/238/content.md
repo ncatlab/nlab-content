@@ -16,6 +16,24 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * created [[Quillen adjunction]]
+
+  * added definition to [[Quillen equivalence]]
+
+  * reorganized [[model structure on simplicial presheaves]]:
+
+    * expanded the idea/introduction-section 
+
+    * moved the original material to 
+
+      * [[global model structure on simplicial presheaves]] (and expanded that)
+
+      * [[local model structure on simplicial presheaves]]
+
+    * created [[local model structure on simplicial sheaves]]
+
+    * [[rectified infinity-stack]]
+
   * fixed (hopefully) the nonsense paragraph (due to me) that [[Toby Bartels|Toby]] had pointed out at [[sieve]]
 
 * [[Tim Porter|Tim]]: 
