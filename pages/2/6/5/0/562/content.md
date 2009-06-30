@@ -54,7 +54,7 @@ While almost any fibration between "concrete" categories that arises in practice
 
 In a [[strict 2-category]] $K$, a morphism $p:E\to B$ is called a fibration if for every object $X$, $K(X,E)\to K(X,B)$ is a fibration of categories, and for every morphism $f:Y\to X$, the square
 $$\array{ K(X,E) & \to & K(Y,E) \\ \downarrow && \downarrow \\ K(X,B) & \to & K(Y,B)}$$
-is a morphism of fibrations.  There is an alternate characterization in terms of [[comma object]]s and adjoints, see [[?]].  The same definition works in a [[bicategory]], as long as we use the non-evil version above.  Interpreted in [[Cat]] we obtain the explicit notion we started with.
+is a morphism of fibrations.  There is an alternate characterization in terms of [[comma object]]s and adjoints, see [[fibration in a 2-category]].  The same definition works in a [[bicategory]], as long as we use the non-evil version above.  Interpreted in [[Cat]] we obtain the explicit notion we started with.
 
 ### Two-sided version ###
 
