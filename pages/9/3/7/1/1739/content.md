@@ -18,11 +18,15 @@ This entry is about the article
 
 * [[cohomology]]
 
+  * [[nonabelian cohomology]]
+
   * [[group cohomology]]
 
 * [[k-surjective functor]]
 
   * [[stuff, structure, property]]
+
+  * [[Postnikov system]]
 
 * [[negative thinking]]
 
