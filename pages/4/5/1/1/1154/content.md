@@ -1,3 +1,3 @@
 See [[homotopy n-type]].
 
-category: redirect
+category: delete
