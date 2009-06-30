@@ -7,8 +7,12 @@ $$
 
 This is the _cohomology set_ . 
 
-It is a [[pointed set]] of $A$ is a [[pointed object]].
+It is a [[pointed set]] if $A$ is a [[pointed object]].
 
 In the case that $A$ moreover carries the structure of a [[group object]], the set $H(X,A)$ inherits naturally itself the structure of a [[group]]. In this case one speaks of the _cohomology group_ of $X$ with coefficients in $A$.
 
 ...
+
++-- {: .query}
+Dually, is this why n-spheres are good for homotopy as they are cogroups? ---David
+=--
