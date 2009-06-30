@@ -577,3 +577,6 @@ The book by MacLane and Moerdijk has an emphasis on the [[topos]]-theoretic aspe
 The book by Kashiwara and Shapira discusses sheaves with motivation from [[homological algebra]], [[abelian sheaf cohomology]] and [[homotopy theory]], leading over in the last chapter to the notion of [[stack]].
 
 * Kashiwara, Shapira, [[Categories and Sheaves]], Springer
+
+
+[[!redirects sheaves]]
