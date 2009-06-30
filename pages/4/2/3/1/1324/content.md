@@ -90,3 +90,6 @@ If we want a page about this particular operad, could we call it maybe [[standar
 [[Mike Shulman|Mike]]: Yes, I think that is a good idea.  I have added a couple more 'standard' examples and tried to uniformize the description of each.  This meant deleting a little that I thought was extraneous from the standard dg-$A_\infty$-operad.  What do you think?
 
 =--
+
+
+[[!redirects A-infinity operad]]
