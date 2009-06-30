@@ -20,7 +20,7 @@ $$
 
 and these to the corresponding constant simplicial sheaves (on whatever [[site]]) that we denote by the same symbol, for convenience.
 
-Regarding the simplicial sheaf $K(A,n)$ as an object of the $(\infty,1)$-[[(infinity,1)-topos|topos]] [[presentable (infinity,1)-category|presented]] by the given [[model structure on simplicial presheaves|model structure on simplicial sheaves]] means regarding them as the $\infty$-[[infinity-stack|stacks]]s that they correspond to under $\infty$-[[infinity-stackification|stackification]]. These are then the **Eilenberg--Mac Lane object**s in our [[(infinity,1)-topos]].
+Regarding the simplicial sheaf $K(A,n)$ as an object of the $(\infty,1)$-[[(infinity,1)-topos|topos]] [[presentable (infinity,1)-category|presented]] by the given [[model structure on simplicial presheaves|model structure on simplicial sheaves]] means regarding them as the $\infty$-[[infinity-stack|stacks]] that they correspond to under $\infty$-[[infinity-stackification|stackification]]. These are then the **Eilenberg--Mac Lane object**s in our [[(infinity,1)-topos]].
 
 #Cohomology#
 
