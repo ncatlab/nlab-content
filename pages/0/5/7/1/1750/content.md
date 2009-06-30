@@ -5,7 +5,7 @@ It [[Grothendieck fibration|generalizes]] to the notion of a fibration in a 2-ca
 Fix a 2-category $\mathcal{K}$. For any two morphisms
 $f: A \to C$ and $c: B \to C$, let $f/g$ be the corresponding [[comma object]] and let $f/=g$ be their [[pullback]].
 
-A morphism $p:A \to B$ in it is a **fibration** when for all morphism $f: X \to B$, the canonical map $i: f/=p \to f/p$ has a right adjoint in $\mathcal{K} / X$.
+A morphism $p:A \to B$ in it is a **fibration** when for all morphism $f: X \to B$, the canonical map $i: f/=p \to f/p$ has a [[right adjoint]] in $\mathcal{K} / X$.
 
 The purpose of this page is the following result:
 
