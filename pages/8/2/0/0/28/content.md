@@ -51,3 +51,5 @@ Categories, 7 (2005) pp 1--195.
 
 
 [[!redirects groupoids]]
+[[!redirects tame groupoid]]
+[[!redirects tame groupoids]]
