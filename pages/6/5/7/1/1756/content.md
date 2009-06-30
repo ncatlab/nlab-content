@@ -13,7 +13,7 @@ $$
 $$
   D \stackrel{F}{\leftarrow} C
 $$
-of [[adjoint functor]]s is a **Quillen adjunction** if the following equivalent conditions are satisfied:
+of [[adjoint functor]]s (with $F$ [[left adjoint]]) is a **Quillen adjunction** if the following equivalent conditions are satisfied:
 
 * $F$ preserves cofibrations and acyclic cofibrations;
 
