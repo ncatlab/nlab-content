@@ -317,7 +317,7 @@ The category of fibrant objects $SSh(X)$
 is in fact the motivating example in [[BrownAHT]]. Notice that the [[homotopy category]] in question coincides with that using the [[model structure on simplicial presheaves]], so that the category of fibrant objects of stalk-wise Kan sheaves is a model for the homotopy category of [[infinity-stack]]s.
 
 
-**Example**
+### Example ###
 
 Let $G$ be a topogical [[group]] and recall that
 $\mathbf{B} G$ denotes the corresponding one-object
@@ -338,7 +338,7 @@ we ontain an assignment of [[Kan complex]]es to
 open subsets:
 
 $$
-  U \mapto N \mathbf{B} C(U,G) 
+  U \mapsto N \mathbf{B} C(U,G) 
   \,.
 $$
 
@@ -397,7 +397,7 @@ over $B$:
   in $\mathbf{C}$.
 
 There is the obvious forgetful functor 
-$f : \mathbf{C}_B^F \o \mathbf{C}$. This induces
+$f : \mathbf{C}_B^F \to \mathbf{C}$. This induces
 a notion of weak equivalence and fibration on 
 $\mathbf{C}_B^F$ by. 
 
@@ -860,7 +860,7 @@ $$
 be a morphism of fibrations over 
 some object $B$ in $\mathbf{C}$
 and let $u : B' \to B$ be any morphism in 
-\mathbf{C}. Let 
+$\mathbf{C}$. Let 
 
 $$
  \array{
@@ -1347,11 +1347,14 @@ for some [[path object|path space object]] $B^I$ of $I$
 
 =--
 
-**Remark** So this says that there is a
++-- {: .un_remark}
+###### Remark
+
+So this says that there is a
 right [[homotopy]] between the two morphisms after
 both are pulled back to a sufficiently good resolution of 
 their domain.
-
+=--
 
 +-- {: .un_lemma }
 ###### Lemma
