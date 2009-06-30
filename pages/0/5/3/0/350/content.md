@@ -88,3 +88,10 @@ Lawvere--Tierney topologies are discussed in section V.1 of
 * MacLane, Moerdijk, [[Sheaves in Geometry and Logic]]
 
 the notion of sheaves in section V.3, the sheafification functor in section V.3 and the relation to Grothendieck topologies in section V.4.
+
+
+[[!redirects sheafification in a Lawvere-Tierney topos]]
+[[!redirects sheafification in a Lawvere--Tierney topos]]
+[[!redirects sheafification in a Lawvere–Tierney topos]]
+[[!redirects Lawvere–Tierney topology]]
+[[!redirects Lawvere--Tierney topology]]
