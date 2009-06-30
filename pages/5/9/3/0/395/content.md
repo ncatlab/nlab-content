@@ -1245,7 +1245,29 @@ $A \times_C C^I \times_C B  \to A$ is.
 ###### Definition
 
 Two morphism $f,g : A \to B$ in $C(A,B)$
-are **[[homotopy|homotopic]]**, denoted $f \sim g$, precisely if they fit into a diagram
+are 
+
+* **right [[homotopy|homotopic]]**, denoted $f \simeq g$, precisely if they fit into a diagram
+  $$
+    \array{
+      && B
+      \\
+      & {}^f\nearrow & \uparrow^{d_0}
+      \\
+      A &\stackrel{\eta}{\to}&
+      B^I
+      \\
+      & {}_g\searrow & \downarrow^{d_1}
+      \\
+      && B
+    }
+  $$ 
+  for some [[path object|path space object]] $B^I$;
+
+* **[[homotopy|homotopic]]**, denoted $f \sim g$,
+  if they become right homotopic after pulled back
+  to a weakly equivalent domain, 
+  i.e. precisely if they fit into a diagram
 
 $$
   \array{
@@ -1281,7 +1303,179 @@ right [[homotopy]] between the two morphisms after
 both are pulled back to a sufficiently good resolution of 
 their domain.
 
-**Proposition**
+
++-- {: .un_lemma }
+###### Lemma
+
+For $A,B \in \mathbf{C}$, right homotopy
+is an equivalence relation on the 
+[[hom-set]] $\mathbbf{C}(A,B)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows by "piecong path spaces together":
+
+Let $B^{I_1}$ and $B^{I_2}$ be two path space
+objects of $B$. Then the pullback
+
+$$
+  \array{
+    B^{I_1 \vee I_2} &\to&  B^{I_2}
+    \\
+    \downarrow && \downarrow^{d_0}
+    \\
+    B^{I_1} &\stackrel{d_1}{\to}& B
+  }
+$$
+
+defines a new path object, with structure maps
+
+$$
+  B
+  \stackrel{\sigma_1 \times \sigma_2}{\to}
+  B^{I_1 \vee I_2}
+  \stackrel{(d_0 \circ p_1) \times (d_1\circ p_2)}{\to}
+  B \times B
+  \,.
+$$
+
+So given two right homotopies 
+with respect to $B^{I_1}$ and $B^{i_2}$ we can paste them
+next to each other and deduce a homotopy through 
+$B^{I_1 \vee I_2}$
+
+$$
+  \array{
+    && B
+    \\
+    & {}^f\nearrow &  \uparrow^{d_0^1}
+    \\
+    A &\stackrel{\eta_1}{\to}&
+    B^{I_1}
+    \\
+    & {}_{g}\searrow& \downarrow^{d_1^1}
+    & \nwarrow
+    \\
+    && B && B^{I_1 \vee I_2}
+    \\
+    & {}^{g}\nearrow & \downarrow^{d_0^2}
+    & \swarrow
+    \\
+    A &\stackrel{\eta_2}{\to}& B^{I_2}
+    \\
+    & {}_h\searrow & \downarrow^{d_1^2}
+    \\
+    &&B
+  }
+$$
+
+=--
+
+
+We next similarly want to deduce that not only right homotopy
+$f \simeq g$ but also true homtopy $f \sim g$
+defines an equivalence relation on [[hom-set]]s 
+$\mathbf{C}(A,B)$. For that we need the following to lemmas.
+
+
++-- {: .un_lemma }
+###### Lemma
+
+Every diagram
+
+$$
+  \array{
+    A &\to& E
+    \\
+    \;\;\downarrow^{i \in W}
+    &&
+    \;\;\downarrow^{p \in F}
+    \\
+    X
+    &\to&
+    B
+  }
+$$
+
+may be refined to a diagram
+
+$$
+  \array{
+    A &\to & X' &\to& E
+    \\
+    & {}_{i}\searrow & 
+    \;\;\downarrow^{t \in W \cap F}
+    &&
+    \;\;\downarrow^{p \in F}
+    \\
+    && X
+    &\to&
+    B
+  }
+$$
+
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+Consider the pullback square
+
+$$
+  \array{
+    A &\to&
+    X \times_B E &\to& E 
+    \\
+    &{}_{i \in W}\searrow& \;\; \downarrow^{\in F}
+    &&
+    \;\; \downarrow^{\in F}
+    \\
+    && X &\to& B
+  }
+$$
+
+and apply the factorization lemma to factor 
+the universal morphism $A \to X \times_B E \to E$
+into the pullback as
+
+$$
+  A \stackrel{\in W}{\to} \mathbf{E} E \stackrel{\in F}{\to}
+  E
+$$ 
+
+to obtain the diagram
+
+$$
+  \array{
+    A &\stackrel{\simeq}{\to}&
+    \mathbf{E} E &\to& E 
+    \\
+    &{}_{i \in W}\searrow& 
+    \;\; \downarrow^{\in F}
+    &&
+    \;\; \downarrow^{\in F}
+    \\
+    && X &\to& B
+  }
+  \,,
+$$
+
+where the middle vertical morphism is still a
+fibration, being the composite of two fibrations.
+By [[category with weak equivalences|2-out-of-3]]
+it follows that it is also a weak equivalence.
+
+=--
+
+
++-- {: .un_lemma}
+###### Lemma
+
 
 For $ u : B \to C$ a morphism and $B^I$, $C^I$ choices of path objects,
 there is always another path object $B^{I'}$
@@ -1310,36 +1504,46 @@ $$
   }
 $$
 
-**Proof**
+=--
 
-Apply the factorization lemma to
+
++-- {: .proof}
+###### Proof
+
+Apply the lemma above to the square
 
 $$
   \array{
-    B &\stackrel{u}{\to}& C &\stackrel{\sigma_C}{\to}& C
+    B &\stackrel{u}{\to}& C 
+     &\stackrel{\sigma_C}{\to}& 
+     C^I
     \\
     \downarrow^{\sigma} &&&& \downarrow^{d_0 \times d_1}
     \\
     B^I &\stackrel{d_0 \times d_1}{\to}& B \times B
     &\stackrel{u \times u}{\to}& C \times C
   }
+  \,.
 $$
 
+=--
 
 
 +-- {: .un_prop}
 ###### Proposition
 
-Homotopy is preserved under pre- and postcomposition with a given morphism.
+Right homotopy $f \simeq g$ between morphisms 
+is preserved under pre- and postcomposition with a given morphism.
 
 More precisely,
 let $f, g : B \to C$ be two homotopic morphisms. Then 
 
 * for all morphisms $A \to B$ and $C \to D$ the composites
 $A \to B \stackrel{f}{\to} C \to D$ and $A \to B \stackrel{g}{\to} C \to D$
-are still homotopic.
+are still right homotopic.
 
-* moreover, the homotopy may be realized with every given choice of   
+* moreover, the right homotopy may be realized 
+  with every given choice of   
   [[nLab:path object|path space object]] $D^I$ for $D$.
 
 =--
@@ -1349,35 +1553,206 @@ are still homotopic.
 
 We decompose this into two statements:
 
-1. for any $A \to B$ the morphisms $A \to B \stackrel{f,g}{\to} B$ are homotopic.
+1. for any $A \to B$ the morphisms $A \to B \stackrel{f,g}{\to} B$ are right homotopic.
 
-1. for any $C \to D$ and choice $D^I$ of path object there is an acyclic fibration
+1. for any $u : C \to D$ and choice $D^I$ of path object there is an acyclic fibration
    $
      B' \to B
    $
    such that 
-   $B' \to B \stackrel{f}{\to} C \to D$ is homotopic to
+   $B' \to B \stackrel{f}{\to} C \to D$ 
+   is right homotopic to
    $B' \to B \stackrel{g}{\to} C \to D$
-   by a homotopy $\eta : B' \to D^I$.
+   by a right homotopy $\eta : B' \to D^I$.
    
 The first of these follows trivially.
 
 The second one follows by using the weak functoriality property of path objects
-from above.
+from above: let $B' := B \times_{C^I} C^{I'}$ 
+be the [[pullback]]
+in the following diagram
+
+$$
+  \array{
+    B' 
+    &\to&
+    C^{I'}
+    &\stackrel{\bar u}{\to}&
+    D^I
+    \\
+    \;\;\;\downarrow^{\in W \cap F}
+    &&
+    \;\;\;\downarrow^{\in W \cap F}     
+    &&
+    \downarrow
+    \\
+    B 
+    &\stackrel{\eta}{\to}&
+    C^I 
+    \\
+    &{}_{f \times g}\searrow
+    & \downarrow
+    && 
+    \downarrow
+    \\
+    &&
+    C \times C
+    &\stackrel{u \times u}{\to}&
+    D \times D
+  }
+$$
 
 =--
 
 
+We need one more intermediate result 
+for seeing that homotopy is an equivalence relation
 
 
++-- {: .un_lemma}
+###### Lemma
+
+* Every diagram
+
+  $$
+  \array{
+    && B
+    \\
+    && \downarrow^{w \in W}
+    \\
+    A &\to& C  
+  }
+  $$
+
+  in $\mathbf{C}$ extends to a 
+  (right) homtopy-commutative diagram
+  $$
+  \array{
+    A' &\to & B
+    \\
+    \downarrow^{w' \in W} && \downarrow^{w \in W}
+    \\
+    A &\to& C  
+  }
+  \,.
+  $$
+
+* For every pair of morphisms
+  $$
+    f, g, A \stackrel{\to}{\to} B
+  $$
+  and weak equivalence
+  $t : B \stackrel{\in W}{\to} C$
+  such that there is a right homotopy
+  $t \circ f \simeq t \circ g$, there exists
+  a weak equivalence $t' : A' \to A$
+  such that $f \circ t' \simeq g \circ t'$.
 
 
+=--
+
++-- {: .proof}
+###### Proof
+
+
+* The first point we accomplish this by letting $A' := A \times_C C^I \times_C B$ be the homotopy fiber product
+in $C$ of a representative of the pullback diagram. 
+The lemma 
+about morphisms out of the
+homotopy fiber product says 
+that $A' \to A$ is a weak equivalence.
+
+* The second point is more work. 
+  Let $\eta : A \to C^I$ the right homotopy in question. 
+  We start by considering
+  the homotopy fiber product
+  $$
+    \array{
+      D := B \times_C C^I \times_C B
+      &\to&&\stackrel{\in W}{\to}& B
+      \\
+      \downarrow^{\in W} &&&&
+      \downarrow^{t \in W}
+      \\
+      && C^I &\stackrel{d_0}{\to}&
+      C
+      \\
+      \downarrow && \downarrow^{d_1}
+      \\
+      B &\stackrel{t \in W}{\to}& C
+    }
+    \,,
+  $$
+  where the long morphisms are weak equivalences
+  by the lemma on morphisms out of homotopy fiber products.
+
+ Then consider the two universal morphisms
+  $$
+   (f,\eta,g) : A \to B \times_C C^I \times_C B
+  $$
+  and
+  $$
+    (Id, \sigma \circ t, Id) : 
+    B \stackrel{\in W}{\to} B \times_C C^I \times_C B
+  $$
+  into that. It follows by 2-out-of-3 that the latter
+  is a weak equivalence. Factoring this 
+  using the factorization lemma produces hence
+  $$
+    B \stackrel{\in W}{\to} D' \stackrel{\in W \cap F}{\to}
+    D
+    \,.
+  $$
+
+  We know moreover that the product map 
+  $D \stackrel{\in F}{\to} B \times B$
+  is a fibration, as we can rewrite the homotopy
+  limit as the pullback
+  $$
+    \array{  
+       D &\to& C^I
+       \\
+       \downarrow && \downarrow^{\in F}
+       \\
+       B \times B &\stackrel{f \times g}{\to}&
+       C \times C
+    }
+    \,.
+  $$
+
+  It follows that the composite $D' \to D \to B \times B$
+  is a fibration and hence $D'$ a path space object for
+  $B$.
+
+  Finally, by setting $A' = A \times_D D'$
+  we obtaine the desired right homotopy
+  $f \circ t' \simeq g \circ t'$.
+  $$
+    \array{
+      A' &\to& D'
+      \\
+      \downarrow^{t'} && \downarrow
+      \\
+      A &\to & D &\to & C^I
+      \\
+      & {}_{f \times g}\searrow & \downarrow 
+      && \downarrow 
+      \\
+      && B \times B
+      &\stackrel{t \times t}{\to}&
+      C \times C
+    }
+    \,.
+  $$
+
+=--
+ 
 
 +-- {: .un_lemma }
 ###### Lemma
 
-The relation "$f, g \in C(A,B)$ are homotopic"
-(as defined above)
+The relation "$f, g \in C(A,B)$ are homotopic",
+$f \sim g$,
 is an [[equivalence relation]] on $C(A,B)$.
 
 =--
@@ -1385,10 +1760,26 @@ is an [[equivalence relation]] on $C(A,B)$.
 +-- {: .proof}
 ###### Proof
 
-Requires some work. For the time being see
-pages 6 and 7 of [[BrownAHT]].
+The nontrivial part is to show transitivity.
+This now follows with the above lemma
+about homtopy commutative composition of 
+pullback diagrams and then using the
+"piecing together of path objects"
+used above to show that right homotopy
+is an equivalence relation.
+
 
 =--
+
+
+
+
+
+
+
+
+
+
 
 
 +-- {: .un_defn}
@@ -1430,8 +1821,6 @@ and $\pi F$ the image of the fibrations.
 =--
 
 
-
-
 +-- {: .num_theorem }
 ###### Theorem
 
@@ -1439,43 +1828,13 @@ The weak equivalences in $\pi C$ form  a left multiplicative system.
 
 =--
 
-
 +-- {: .proof}
 ###### Proof
 
-We need to show that for every diagram
+This is now a direct consequence of the above
+lemma on homotopy-commutative completions of diagrams.
 
-$$
-  \array{
-    && B
-    \\
-    && \downarrow^{w \in W}
-    \\
-    A &\to& C  
-  }
-$$
-
-$\in \pi C$
-
-there is a commuting diagram
-
-$$
-  \array{
-    A' &\to & B
-    \\
-    \downarrow^{w' \in W} && \downarrow^{w \in W}
-    \\
-    A &\to& C  
-  }
-  \,.
-$$
-
-We accomplish this by letting $A' := A \times_C C^I \times_C B$ be the homotopy fiber product
-in $C$ of a representative of the pullback diagram. The above
-lemma implies then that $A' \o A$ is a weak equivalence.
-
- =--
-
+=--
 
 
 
