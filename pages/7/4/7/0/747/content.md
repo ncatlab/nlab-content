@@ -26,7 +26,7 @@ In proposition 6.5.2.1 of
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
-a fully general definition of a [[(infinity,1)-category of infinity-stacks]] is given it is shown that, indeed, the Brown-Joyal-Jardine model is a [[presentable (infinity,1)-category|presentation]] of that.
+a fully general definition of a [[(infinity,1)-category of (infinity,1)-sheaves|(infinity,1)-category of infinity-stacks]] is given it is shown that, indeed, the Brown-Joyal-Jardine model is a [[presentable (infinity,1)-category|presentation]] of that.
 
 More precisely
 
@@ -85,6 +85,8 @@ A detailed study of [[descent]] for simplicial presheaves is given in
 Further variants of this can be found at
 
 * Benjamin Blander, _Local projective model structure on simplicial presheaves_ ([pdf](http://www.math.uiuc.edu/K-theory/0462/combination2.pdf))
+
+See also
 
 * Daniel Isaksen, _Flasque model structure for simplicial presheaves_  ([web](http://www.math.uiuc.edu/K-theory/0679/), [pdf](http://www.math.uiuc.edu/K-theory/0679/flasque.pdf))
 
