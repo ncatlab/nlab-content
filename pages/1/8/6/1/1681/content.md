@@ -56,7 +56,8 @@ Notice that for $G$ a nonabelian group, $H^1(X,G)$ is a simple (and the most fam
 
 #Generalizations#
 
-The notion of [[Eilenberg-MacLane object]] makes sense in every [[(infinity,1)-topos]] other than [[Top]].
+The notion of [[Eilenberg–Mac Lane object]] makes sense in every $(\infty,1)$-[[(infinity,1)-topos|topos]], not just in [[Top]].
+
 
 [[!redirects Eilenberg-Mac Lane space]]
 [[!redirects Eilenberg--MacLane space]]
