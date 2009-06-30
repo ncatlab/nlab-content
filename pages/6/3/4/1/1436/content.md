@@ -1,6 +1,8 @@
 Eckmann--Hilton duality is an abstract [[duality]] arising from arrow reversal in [[Top]]. It manifests itself in a duality between [[homotopy theory|homotopy]] and [[cohomology]].
 
-One can see this in the fact that [[cohomology group]]s consist of [[homotopy]] classes of maps into a space with a single nontrivial [[homotopy group]], while homotopy groups consist of homotopy classes of maps from a space with a single nontrivial cohomology group:
+One can see this in the fact that [[cohomology group]]s 
+(for [[Eilenberg-Mac Lane spectrum|ordinary cohomology]])
+consist of [[homotopy]] classes of maps into [[Eilenberg-Mac Lane space|a space with a single nontrivial]] [[homotopy group]], while homotopy groups consist of homotopy classes of maps from a space with a single nontrivial cohomology group:
 * $H^n(X, \mathbb{Z}) \cong [X, K(\mathbb{Z},n)]$
 * $\pi_n(X) \cong [S^n, X]$
 
