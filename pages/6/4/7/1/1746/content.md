@@ -1,5 +1,5 @@
 
-What is usually called "generalized cohomology" is obtained from a generalization of the axioms of Eilenberg-Steenrod. 
+What is usually called "generalized cohomology" is obtained from a generalization of the axioms of Eilenberg--Steenrod. 
 
 This turns out to be equivalent to [[cohomology]] with coefficient object a [[spectrum]]. See
 
