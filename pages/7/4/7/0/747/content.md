@@ -2,7 +2,7 @@
 
 Recall that
 
-* a [[model category]] is a way to [[presentable (infinity,1)-category|present]] an [[(\infty,1)-category]];
+* a [[model category]] is a way to [[presentable (infinity,1)-category|present]] an [[(infinity,1)-category]];
 
 * in the context of [[(infinity,1)-category|(infinity,1)-categories]] [[presheaf|presheaves]] on an $(\infty,1)$-category $C$ are given by [[(infinity,1)-functor]]s $C^{op} \to$ [[SSet]].
 
@@ -15,7 +15,7 @@ $$
   [C^{op},SSet] \simeq [\Delta^{op}, PSh(C)]
 $$ 
 
--- the category of _simplicial presheaves_ .
+-- the category of [[simplicial presheaf|simplicial presheaves]] .
 
 Various interrelated flavors of model structures on the category of simplicial presheaves on $C$ have been introduced and studied since the 1970s, originally by K. Brown and A. Jocal and then developed in detail by Jardine.
 
@@ -35,6 +35,23 @@ More precisely
 * the [[local model structure on simplicial presheaves]] on a [[site]] is a [[presentable (infinity,1)-category|presentation]] of the [[(infinity,1)-category of (infinity,1)-sheaves]];
 
 * the [[Bousfield localization]] of the global [[model category]] structure to the local one presents the corresponding [[localization of an (infinity,1)-category]] from presheaves to sheaves, mimicking the corresponding statement for a [[category of sheaves]].
+
+Originally K. Brown had considered in [[BrownAHT]] not a model structure on simplicial presheaves but
+
+* a [[category of fibrant objects]] structure on locally Kan simplicial sheaves (see there for details)
+
+and Joyal had originally considered a 
+
+* [[local model structure on simplicial sheaves]].
+
+Joyal's [[local model structure on simplicial sheaves]] is [[Quillen equivalence|Quillen equivalent]] to the injective [[local model structure on simplicial presheaves]]. 
+
+If K. Brown's [[category of fibrant objects]] on locally Kan simplicial sheaves is restricted to globally Kan simplicial sheaves on a [[topos]] with [[point of a topos|enough point]] then it is the full subcategory on the fibrant objects in the projective [[local model structure on simplicial sheaves]].
+
+But since in all cases the weak equivalences are the same (where they apply, for Brown's model if the topos has enough points), all these local [[homotopical category|homotopical categories]] define equivalent [[homotopy category|homotopy categories]].
+
+By Lurie's result these are in each case in turn equivalent to the [[homotopy category of an (infinity,1)-category|homtopy category of]] the [[(infinity,1)-topos]] of [[infinity-stack]]s. So in particular they serve as a home for general [[cohomology]].
+
 
 Various old results appear in a new light this way. For instance using the old result of [[BrownAHT]] on the way ordinary [[abelian sheaf cohomology]] is embedded in the [[homotopy theory]] of simplicial sheaves, one sees that the old right derived functor definition of [[abelian sheaf cohomology]] really computes the [[infinity-stackification]] of a sheaf of [[chain complex]]es regarded under the [[Dold-Kan correspondence]] as a simplicial sheaf.
 
