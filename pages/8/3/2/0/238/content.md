@@ -27,6 +27,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-29 #
 
+* [[John Baez]]: I polished up the entry about the book [[John Baez:Towards Higher Categories|Towards Higher Categories]] on my personal web, and modified the [[Towards Higher Categories|nLab entry]] accordingly.  I expect someday to have lots of my papers and books on the $n$Lab. Somehow I want them to be easy to find from the main $n$Lab, while discouraging other people from changing them (yet perhaps not making this impossible).  The search feature on the main portion of the $n$Lab doesn't search people's personal webs, does it?
+
 *  [[Toby Bartels]]:  People keep linking to [[left adjoint]] and [[right adjoint]] when talking about [[adjoint functor]]s, even though these redirect to the general concept of [[adjunction]].  This is very natural, so I\'ve now created those as pages in their own right.  They consist of the definitions in a variety of contexts and then refer you to the other pages for more detail.  While I was creating pages that collected information from other pages, I also wrote [[triangle identities]] and [[weak inverse]].  A picture in string diagrams would be very welcome at the former.
 
 * [[Urs Schreiber]] continued filling in propositions and detailed proofs at [[category of fibrant objects]]
