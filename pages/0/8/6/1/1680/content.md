@@ -1,5 +1,3 @@
-
-
 As a [[symmetric monoidal (infinity,1)-category|symmetric monoidal]] [[infinity-groupoid]] the _Eilenberg--Mac Lane_ [[spectrum]] is the integers
 
 $$
