@@ -1,7 +1,7 @@
 #Idea#
 
 _Hypercover_ is another word for 
-[[acyclic fibration]] in 
+(local) [[acyclic fibration]] in 
 [[model category|model categories]] of _higher structures_ such as 
 [[globular set|globular sets]] and [[simplicial set|simplicial sets]] and the
 [[infinity-category|infinity-categories]] and
@@ -86,6 +86,12 @@ In the globular set by replacing the inclusion $\partial G^n \hookrightarrow G^n
 
 
 
+#Reference#
 
+See the remark at the end of section 2, on p. 6 of
 
+* Jardine, _Fields Lectures: Simplicial presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
 
+For a thorough discussion see
+
+} Daniel Dugger, Sharon Hollander, Daniel C. Isaksen, _Hypercovers and simplicial presheaves_ ([web](Daniel Dugger, Sharon Hollander, Daniel C. Isaksen, Hypercovers and simplicial presheaves (web)))
