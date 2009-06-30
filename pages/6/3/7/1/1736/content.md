@@ -1,6 +1,6 @@
 #Idea#
 
-Quillen equivalence is the right notion of [[equivalence]] for [[model category|model categories]].  Most importantly, it is weaker than equivalence of categories.  The work of Dwyer--Kan, Bergner and others has shown that Quillen equivalent model categories [[presentable (infinity,1)-category|present]] equivalent [[(infinity,1)-category|(infinity,1)-categories]].
+Quillen equivalence is the right notion of [[equivalence]] for [[model category|model categories]].  Most importantly, it is weaker than [[equivalence of categories]].  The work of Dwyer--Kan, Bergner and others has shown that Quillen equivalent model categories [[presentable (infinity,1)-category|present]] equivalent [[(infinity,1)-category|(infinity,1)-categories]].
 
 #Definition#
 
