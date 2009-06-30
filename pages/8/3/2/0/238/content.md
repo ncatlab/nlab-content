@@ -14,6 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 # 2009-06-30 #
 
+* [[Tim Porter|Tim]]: 
+   
+  * I have pointed out at [[simplicial homotopy]] that the combinatorial description has much greater validity than claimed there before. It works for simplicial objects in any finitely cocomplete category. (I think that is in Duskin's Memoir volume, but is not difficult to check directly.) It depends on having the [[copower]] with $\Delta[1]$, which brings me to 
+
+   * We have two notations for simplices in $SSet$. We use both $\Delta[n]$ and $\Delta^n$.  I do not like the second one.  I have started a query on this at [[simplicial set]].
+
 * [[Urs Schreiber|Urs]]
 
   * prompted by [[David Corfield|David]]'s remark at [[homotopy group]] I was led to all of the following:
