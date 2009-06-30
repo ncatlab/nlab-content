@@ -1,3 +1,3 @@
 See [[exact category]].
 
-category: redirect
+category: delete
