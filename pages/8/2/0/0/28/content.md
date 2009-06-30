@@ -34,6 +34,8 @@ A groupoid $G$ is _connected_, or _transitive_,  if $G(x,y)$ is nonempty for all
 
 +--{: .query}
 [[Mike Shulman|Mike]]: It's not clear to me that the notion of "free equivalence relation" doesn't make sense.  Can't I talk about a left adjoint to the forgetful functor from equivalence relations to, say, directed graphs?  Maybe sets-equipped-with-a-binary-relation would be more appropriate, but either one works fine.
+
+[[Ronnie Brown|Ronnie]]: Are you sure this forgetful functor equivalence relations to directed graphs has a left adjoint? Suppose the directed graph $\Gamma$ has one vertex $x$ and one loop $u:x  \to x$. The free groupoid on $\Gamma$ is the group of integers, which as a groupoid is not an equivalence relation. 
 =--
 
 
