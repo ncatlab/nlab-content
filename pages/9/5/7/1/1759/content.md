@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-01
 
+*  [[Toby Bartels]]:
+   *  Incorporated Zoran\'s new references at [[principal 2-bundle]] into the text.
+   *  Added a note at [[group]] how $Grp$ is a full sub-$2$-category of $Grpd_*$ (even though not of $Grpd$).
+
 * [[Urs Schreiber|Urs]]
 
   * expanded at [[group]] on the statement that "a group is a groupoid with a single object"
