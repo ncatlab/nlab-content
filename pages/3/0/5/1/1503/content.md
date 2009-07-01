@@ -41,3 +41,6 @@ If all the $3j$ symbols were equal to $1$, this would just be an ordinary [[mono
 * P. Etingof, D. Nikshych and V. Ostrik, [On fusion categories](http://arxiv.org/abs/math/0203060).
 * T. J. Hagge and S-M Hong, [Some non-braided fusion categories of rank 3](http://arxiv.org/abs/math/0704.0208).
 * B. Bartlett, [On unitary 2-representations of finite groups and topological quantum field theory](http://arxiv.org/abs/0901.3975) (chapter 6).
+
+
+[[!redirects Pivotal symbols]]
