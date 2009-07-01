@@ -21,3 +21,7 @@ See also
 #Examples#
 
 The motivating example for $(\infty,n)$-categories is the [[(infinity,n)-category of cobordisms]] which plays a central role in the formalization of the [[cobordism hypothesis]]. 
+
+
+[[!redirects (infinity,r)-category]]
+[[!redirects (infinity,k)-category]]
