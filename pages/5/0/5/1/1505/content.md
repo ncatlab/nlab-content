@@ -17,3 +17,5 @@ Bertrand To&euml;n is a mathematician at the University of Toulouse. He works on
 
 
 category: biography
+
+[[!redirects Bertrand Toen]]
