@@ -44,5 +44,17 @@ the [[Bousfield localization]] of these global model structures at morphisms tha
 
 #References#
 
-
 See [[model structure on simplicial presheaves]].
+
+The fact that the global injective model structure yields a proper simplicial cofibrantly generated model category is originally due to 
+
+* A. Heller, _Universal Homotopy Theories_ ([hopf](http://hopf.math.purdue.edu/pub/hopf.html))
+
+The fact that the global projective structure yields a proper simplicial cellular model category is due to Hirschhorn-Bousfield-Kan-Quillen
+
+* P. Hirschhorn, _Localizations of Model Categories_ ([web](http://www-math.mit.edu/~psh/))
+
+A quick review of these facts is on the first few pages of
+
+* Benjamin Blander, _Local projective model structure on simplicial presheaves_ ([pdf](http://www.math.uiuc.edu/K-theory/0462/combination2.pdf))
+
