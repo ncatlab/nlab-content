@@ -33,3 +33,6 @@ David R: Of course. And the intended application was something like a superexten
 ## Generalizations ##
 
 A coproduct $a+b$ in a [[bicategory]] is disjoint if $a\to a+b$ and $b\to a+b$ are [[full and faithful functor|fully faithful]] and their [[comma object]] is initial.
+
+
+[[!redirects disjoint coproducts]]
