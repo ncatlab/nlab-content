@@ -16,6 +16,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber|Urs]]
 
+  * expanded at [[group]] on the statement that "a group is a groupoid with a single object"
+
+  * added to [[loop space object]] the true definition, added also an "idea" section, links to related entries and an introductory blurb to the original material
+
+  * created [[delooping]] for the matter discussed by [[Eric Forgy|Eric]] and [[Toby Bartels|Toby]] at [[Dijkgraaf-Witten theory]]
+
   * added Jardine-Luo reference to [[principal 2-bundle]] and [[principal infinity-bundle]]
 
   * added to [[Froelicher space]] an "Idea" and a "Reference" section, prompoted by the blog entry [here](http://golem.ph.utexas.edu/category/2009/07/laubinger_on_lie_algebras_for.html)
