@@ -1,8 +1,8 @@
 #Idea#
 
-To some extent, a group "is" a [[groupoid]] with a single object.
+To some extent, a group "is" a [[groupoid]] with a single object. More precisely a group "is" a [[pointed object|pointed]] groupoid with a single object.
 
-More precisely and more along the lines of [the definition you're used to](http://en.wikipedia.org/wiki/Group_%28mathematics%29#Definition).
+Of course to start with, more along the lines of [the definition you're used to](http://en.wikipedia.org/wiki/Group_%28mathematics%29#Definition).
 a **group** is a [[monoid]] in which every element has an [[inverse]].
 
 But the [[delooping]] of a group $G$ is a [[groupoid]] $\mathbf{B} G$ with 
