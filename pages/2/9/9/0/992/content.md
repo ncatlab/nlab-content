@@ -32,6 +32,8 @@ $$
   }
 $$
 
+(so that $ker(g) \to X \stackrel{g}{\to} Y$ is a [[fibration sequence]])
+
 and the **cokernel** of $g$ is the [[pushout]]
 
 $$
