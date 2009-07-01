@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-01
 
+* [[Urs Schreiber|Urs]]
+
+  * added to [[Froelicher space]] an "Idea" and a "Reference" section, prompoted by the blog entry [here](http://golem.ph.utexas.edu/category/2009/07/laubinger_on_lie_algebras_for.html)
+
 *  [[Toby Bartels]]:
    *  I archived the [[2009 June changes]] by the sneaky method of changing this page\'s name, copying the header and footer text (with appropriate changes) from the previous archive, and then creating this page anew.  Maybe that will keep us from testing Instiki\'s tolerance for pages with thousands of edits in their history.  (^_^)
    *  I\'ve completed migrating all old redirect pages to history pages; all links within the body of the Lab should now take you immediately to the target page.  (There are a few victims of a bug, but I\'ll straighten that out with Jacques.)  I have [more comments](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=39) on the Forum.
