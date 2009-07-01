@@ -33,3 +33,6 @@ It appears as [definition 1.2.13.4, p. 48](http://arxiv.org/PS_cache/math/pdf/06
 
 
 [[!redirects limits in quasi-categories]]
+[[!redirects colimit in quasi-categories]]
+[[!redirects (infinity,1)-limit]]
+[[!redirects (infinity,1)-colimit]]
