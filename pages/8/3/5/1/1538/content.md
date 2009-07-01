@@ -2,24 +2,6 @@ _Dijkgraaf-Witten theory_ in dimension $n$ is the topological [[sigma-model]] [[
 
 * target space is the groupoid $\mathbf{B}G = \{ \bullet \righttoleftarrow g \;|\; g \in G \}$ obtained by [[delooping]]  from a _finite_ [[group]] $G$ ;
 
-+--{.query}
-
-  _Eric_: This notation seems to cause some initial confusion. At least until you realize both $\bullet$'s are the same, so the morphism is really a loop. Why not just represent it as a loop? I like this notation:
-
-  $$\mathbf{B}G = \{\bullet\righttoleftarrow g | g\in G\}$$
-
-  What do you think?
-
-  Or better yet
-
-  $$\mathbf{B}G = \bullet\righttoleftarrow G.$$
-
-  _Toby_:  I like your first suggestion, so I implemented; but I think that I only understand the second suggestion since I already know what it means.
-
-  [[Urs Schreiber|Urs]]: added link to [[delooping]] above so that we have one page where this is treated discussed, since it appears in lots of other entries, too.
-
-  =--
-
 * background field is an $n$-functor $exp(i S) : \mathbf{B} G \to \mathbf{B}^n U(1)$ 
 
   * this is the same thing as a $U(1)$-valued group $n$-cocycle $c$ on $G$;
