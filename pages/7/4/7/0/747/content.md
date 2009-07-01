@@ -67,13 +67,15 @@ A nicely helpful introduction and survey is provided in the notes
 
 This in particular gives a detailed account on the relation and difference between the "Cech model structure" (section 3) which localizes (only) at Cech [[cover]]s, and the Jardine model structure (section 4), which localizes at all [[stalk]]wise weak equivalences ([[hypercover]]s). The latter is what in [[Higher Topos Theory|HTT]] is called the _hypercompletion_ .
 
-The standard, but somewhat more terse, lecture notes are
+The standard lecture notes are
 
 * **Jardine07** J. Jardine, _Field Lectures: Simplicial presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
 
 based on
 
 * **Jardine01** J. Jardine, _Stacks and the homotopy theory of simplicial sheaves_, Homology, homotopy and applications, vol. 3 (2), 2001, pp.361--384
+
+and ...
 
 See also
 
