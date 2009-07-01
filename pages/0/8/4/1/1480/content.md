@@ -11,3 +11,5 @@ amongst others.
 
 
 category: biography
+
+[[!redirects Baues]]
