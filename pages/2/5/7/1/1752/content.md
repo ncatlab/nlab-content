@@ -39,7 +39,7 @@ In between the injective and the projective model structures there are many othe
 In the following let $S$ be a small [[site]] and denote by $SimpPr(S)$ be the category of [[simplicial presheaf|simplicial presheaves]] on $S$.
 
 
-#Local or injective model structures#
+#Local model structures#
 
 One usually says that a **local model structure** on a category of [[presheaf|presheaves]] is one whose weak equivalences are not defined objectwise but on [[cover]]s and/or on stalks.
 
