@@ -75,7 +75,7 @@ $$
   \}
 $$
 
-to emphasize that there is really only a single arrow.
+to emphasize that there is really only a single object.
 
 Notice how the [[homotopy pullback]] works in this simple case:
 
@@ -97,7 +97,7 @@ $$
   G \to {*} \to \mathbf{B}G
 $$
 
-to itself, whose map
+to itself, whose component map
 
 $$
   \eta : Obj(G) \to Mor(\mathbf{B}G)
@@ -109,9 +109,16 @@ is just the identity map, using that $Obj(G) = G$ and $Mor(\mathbf{B}G) = G$.
 
 _Eric_: When the two arguments coincide in $Hom_{\mathbf{B}G}(\bullet,\bullet)$, is there another notation, e.g. maybe $Aut_{\mathbf{B}G}(\bullet)$ or something? 
 
+_[[Urs Schreiber|Urs]]_: yes. In general for $C$ a category and $c \in C$ an object one writes $End_C(c) := Hom_C(c,c)$ (for "endomorphisms"). One writes $Aut_C(c) \subset End_C(c)$ for the subset of all endomorphims that are invertible (are "automorphisms"). So for $C$ a groupoid, we have alsways $End_C(c) = Aut_C(c)$. 
+
 ***
 
 _Eric_: Is there a difference between $Hom$ and $hom$? For example, [[hom-set]] says $hom$, but [[internal hom]] has $Hom$, $hom$, and $HOM$.
+
+_[[Urs Schreiber|Urs]]_: I have added some links regarding this point at [[Notation]]. There is no really universally adopted convention here, but people do use the different capitalizations to indicate different things.
+
+Usually "Hom" is the ordinary [[hom-set]], while some variant of this is usually chosen for the [[internal hom]]. Sometimes "HOM", yes. Many people like an underlined "Hom" for the internal Hom. But also $hom$ and $[-,-]$ may denote internal homs. The last one is the standard choice in Kelly's standard book on [[enriched category theory]] (though concerning just [[monoidal category]] here), so I like that one.
+
 
 ***
 
