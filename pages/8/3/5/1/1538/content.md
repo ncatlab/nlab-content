@@ -61,3 +61,7 @@ An description of extended DW theory as the systematic pull-push quantization in
 * [[schreiber:Nonabelian cocycles and their sigma model QFTs]]
 
 There in particular a first-principle derivation of the fact that extended DW theory assigns the representation category of the Drinfeld double to the circle is given (following Willerton, but deriving his construction from still more fundamental abstract nonsense).
+
+
+[[!redirects Dijkgraaf--Witten theory]]
+[[!redirects Dijkgraaf–Witten theory]]
