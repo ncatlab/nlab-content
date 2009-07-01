@@ -48,7 +48,7 @@ It is fairly easy to prove that the combinatorial definition of homotopy agrees 
 =--
 
 
-In the case of the category of (not necessarily abelian) groups, the combinatorial definition equals the one via cylinder only if the role of "cylinder" for a group $G$ is played by a simplicial object in the category of groups which in degree $n$ equals the free product of $(n+2)$ copies of $G$, indexed by the set $(\Delta^1)_n$ (noted by Swan and quoted in exercise 8.3.5 of Weibel: _Homological algebra_).
+In the case of the category of (not necessarily abelian) groups, the combinatorial definition equals the one via cylinder only if the role of "cylinder" for a group $G$ is played by a simplicial object in the category of groups which in degree $n$ equals the free product of $(n+2)$ copies of $G$, indexed by the set $\Delta[1]_n$ (noted by Swan and quoted in exercise 8.3.5 of Weibel: _Homological algebra_).
 
 +--{: .query}
 [[Tim Porter]]:   Perhaps we need an explicit description of [[copower|copowers]] in simplicial objects also. I pointed out in an edit above that the combinatorial description is much more general than just for  simplicial objects in an abelian category. 
