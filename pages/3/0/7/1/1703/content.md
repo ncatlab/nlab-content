@@ -61,7 +61,12 @@ Maybe the earliest explicit description of a principal $\infty$-bundle using a [
 
 This describes [[torsor]]s over [[infinity-groupoid]]s in terms of the corresponding $\infty$-[[action groupoid]]s.
 
-The first article aiming to make this theory of higher bundles and [[gerbe]]s more manifestly look concretely like a systematic [[vertical categorification|categorification]] of the familiar description of ordinary [[principal bundle]]s in terms of cocycles and local trivializations is
+This theory of higher bundles and [[gerbe]]s was made to look manifestly like a systematic [[vertical categorification|categorification]] of the familiar description of ordinary [[principal bundle]]s in terms of cocycles and local trivializations in
+
+*  [Luca Mauri's thesis](http://home.aubg.bg/faculty/aganchev/Category Theory/Mauri %28papers%29/mauri-2.pdf) in 1998;
+*  an abridged version: L. Mauri, M. Tierney, Two-descent, two-torsors and local equivalence, J. Pure Appl. Algebra 143 (1999), 313--327.
+
+The first article in the differential-geometric context was
 
 * [[Toby Bartels]], _2-Bundles_ ([arXiv](http://arxiv.org/abs/math.CT/0410328), [web](http://toby.bartels.name/2bundles/))
 
@@ -69,6 +74,8 @@ The first article aiming to make this theory of higher bundles and [[gerbe]]s mo
 Zoran: surely true for differential-geometric context, but in topos theoretic context concrete and systematic local trivialization vs. cocycle and 2-descent description is given also much earlier in Luca Mauri's thesis (http://home.aubg.bg/faculty/aganchev/Category Theory/Mauri (papers)/mauri-2.pdf) in 1998 and soon after that an abridged version is published in the article 
 
 L. Mauri, M. Tierney, Two-descent, two-torsors and local equivalence, J. Pure Appl. Algebra 143 (1999), 313--327
+
+_Toby_:  Thanks, Zoran, I should read those!  Do the paragraphs above seem accurate now?
 =--
 
 One should notice that if one uses categories internal to [[diffeological space]]s, then these are (under their [[nerve]]) in particular [[simplicial presheaf|simplicial presheaves]], and that the [[anafunctor]]s used as morphisms between these simplicial presheaves represent precisely the morphisms the corresponding [[(infinity,1)-category of (infinity,1)-sheaves]] using the [[model structure on simplicial presheaves]] or, more lightweight, the structure of a Brown [[category of fibrant objects]] on $\infty$-groupoid valued sheaves.
