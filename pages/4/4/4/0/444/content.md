@@ -293,4 +293,7 @@ W. G. Dwyer, D. M. Kan, Singular functors and realization functors, Nederl. Akad
 * [Leinster 2004] T. Leinster, Higher operads, higher categories, London Mathematical Society Lecture Note Series, 298. Cambridge Univ. Press 2004. xiv+433 pp. ISBN: 0-521-53215-9, [arXiv:math.CT/0305049](http://front.math.ucdavis.edu/0305.5049)
 
 * [Street 1987] R. Street, The algebra of oriented simplexes,
-J. Pure Appl. Algebra 49 (1987), no. 3, 283--335.  
+J. Pure Appl. Algebra 49 (1987), no. 3, 283--335.
+
+
+[[!redirects simplicial nerve]]
