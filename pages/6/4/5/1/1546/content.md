@@ -117,3 +117,6 @@ One can describe non-flat connections without leaving the context of Lie algebro
 some related blog discussion is at
 
 * [n-Transport and Higher Schreier Theory](http://golem.ph.utexas.edu/category/2006/09/nconnections_and_higher_schrei.html)
+
+
+[[!redirects Atiyah Lie-groupoid]]
