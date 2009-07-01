@@ -108,7 +108,9 @@ Next assume that $C$ is a [[cartesian monoidal category]]. Then clearly $Span_1(
 
 The above list of facts about spans is described in
 
-* John Baez, _Spans in quantum Theory_ ([web](http://math.ucr.edu/home/baez/span/), [pdf](http://math.ucr.edu/home/baez/span/span.pdf)
-[blog](http://golem.ph.utexas.edu/category/2007/10/spans_in_quantum_theory.html))
+* John Baez, _Spans in quantum Theory_ ([web](http://math.ucr.edu/home/baez/span/), [pdf](http://math.ucr.edu/home/baez/span/span.pdf), [blog](http://golem.ph.utexas.edu/category/2007/10/spans_in_quantum_theory.html))
 
 which discusses how spans naturally capture crucial aspects of [[quantum field theory]].
+
+
+[[!redirects correspondence]]
