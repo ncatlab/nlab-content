@@ -1,20 +1,22 @@
 _Dijkgraaf-Witten theory_ in dimension $n$ is the topological [[sigma-model]] [[quantum field theory]] whose 
 
-* target space is the groupoid $\mathbf{B} G = \{\bullet \stackrel{g}{\to} \bullet | g \in G\}$ for $G$ a finite [[group]];
+* target space is the groupoid $\mathbf{B}G = \{ \bullet \righttoleftarrow g \;|\; g \in G \}$ for $G$ a finite [[group]];
 
-+--{.query}
+  +--{.query}
 
-_Eric_: This notation seems to cause some initial confusion. At least until you realize both $\bullet$'s are the same, so the morphism is really a loop. Why not just represent it as a loop? I like this notation:
+  _Eric_: This notation seems to cause some initial confusion. At least until you realize both $\bullet$'s are the same, so the morphism is really a loop. Why not just represent it as a loop? I like this notation:
 
-$$\mathbf{B}G = \{\bullet\righttoleftarrow g | g\in G\}$$
+  $$\mathbf{B}G = \{\bullet\righttoleftarrow g | g\in G\}$$
 
-What do you think?
+  What do you think?
 
-Or better yet
+  Or better yet
 
-$$\mathbf{B}G = \bullet\righttoleftarrow G.$$
+  $$\mathbf{B}G = \bullet\righttoleftarrow G.$$
 
-=--
+  _Toby_:  I like your first suggestion, so I implemented; but I think that I only understand the second suggestion since I already know what it means.
+
+  =--
 
 * background field is an $n$-functor $exp(i S) : \mathbf{B} G \to \mathbf{B}^n U(1)$ 
 
