@@ -3,3 +3,6 @@ For a [[category]] $C$ and [[endofunctor]] $F$, an __algebra of $F$__ is an obje
 The dual concept is a [[coalgebra for an endofunctor]].
 
 See also [[initial algebra]].
+
+
+[[!redirects algebra of an endofunctor]]
