@@ -1,6 +1,6 @@
 [[!redirects ?]]
 Recall the notion of a [[Grothendieck fibration]].
-It [[Grothendieck fibration|generalizes]] to the notion of a fibration in a 2-category using [[Grothendieck fibration|Grothendieck fibrations]] themselves, using [[generalized element|generalized elements]]. We here give an alternative, yet equivalent, 2-categorical definition, trying to explain how it specializes to Grothendieck fibrations. The definition is due to the Australian school, probably Ross Street, and is recall in Mark Weber's paper _Yoneda Structure from 2-toposes_, the main source for this page.
+It [[Grothendieck fibration|generalizes]] to the notion of a fibration in a 2-category using [[Grothendieck fibration|Grothendieck fibrations]] themselves, using [[generalized element|generalized elements]]. We here give an alternative, yet equivalent, 2-categorical definition, trying to explain how it specializes to Grothendieck fibrations. The definition is due to the Australian school, probably Ross Street, and is recalled in Mark Weber's paper _Yoneda Structure from 2-toposes_, the main source for this page.
 
 Fix a 2-category $\mathcal{K}$. For any two morphisms
 $f: A \to C$ and $c: B \to C$, let $f/g$ be the corresponding [[comma object]] and let $f/=g$ be their [[pullback]].
@@ -55,4 +55,4 @@ b & \stackrel{\alpha}{\to} & a.}$$
 
 In other words, the universal property provides a unique $m$ such that $\epsilon_0 m = h$ and $p(m) = k$, which exactly asserts that $\epsilon_0$ is [[Grothendieck fibration|cartesian]]. 
 
-Hence $p$ is a Grothendieck fibration. The other implication remains to prove, but not today.
+Hence $p$ is a Grothendieck fibration. The other implication remains to be proved, but not today.
