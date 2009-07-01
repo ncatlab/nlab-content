@@ -33,3 +33,6 @@ pred(x) = \begin{cases}
 *                & if\; x_0 = 0 ,\\
 (x_1,x_2,\ldots) & if\; x_0 = 1 .\end{cases}
 $$
+
+
+[[!redirects extended natural numbers]]
