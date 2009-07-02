@@ -47,7 +47,10 @@ and Joyal had originally considered a
 
 Joyal's [[local model structure on simplicial sheaves]] is [[Quillen equivalence|Quillen equivalent]] to the injective [[local model structure on simplicial presheaves]]. 
 
+By repackaging [[Kan complex]]es as [[simplicial groupoid]]s one obtains a [[model structure on presheaves of simplicial groupoids]] which is also Quillen equivalent to the above.
+
 If K. Brown's [[category of fibrant objects]] on locally Kan simplicial sheaves is restricted to globally Kan simplicial sheaves on a [[topos]] with [[point of a topos|enough point]] then it is the full subcategory on the fibrant objects in the projective [[local model structure on simplicial sheaves]].
+
 
 But since in all cases the weak equivalences are the same (where they apply, for Brown's model if the topos has enough points), all these local [[homotopical category|homotopical categories]] define equivalent [[homotopy category|homotopy categories]].
 
@@ -101,8 +104,8 @@ $$
      &\stackrel{left Bousf. localization}{\leftarrow|}&
      Heller
      &\stackrel{Quillen equivalence}{\leftrightarrow}&
-     Kan-Quillen
-     &\stackrel{left Bousf. localization}{\mapsto}&
+     Bousfield-Kan 
+    &\stackrel{left Bousf. localization}{\mapsto}&
      Blander
      &\stackrel{Quillen equivalence}{\leftrightarrow}& 
      Brown-Gersten    
@@ -156,6 +159,46 @@ while
 * the local model structures [[presentable (infinity,1)-category|presents]] the [[(infinity,1)-category of (infinity,1)-sheaves]] (i.e. [[infinity-stack]]s).
 
 
+The following diagram collection [[model category|model categories]] that are [[presentable (infinity,1)-category|presentations]] for the [[(infinity,1)-category of (infinity,1)-sheaves]]. All indicated morphism pairs are [[Quillen equivalence]]s.
+
+$$
+  \array{
+     PSh(X, SGrpd)
+     &\stackrel{\stackrel{embedding}{\leftarrow}}
+       {\stackrel{sheafification}{\to}}&
+     Sh(X,SGrpd)
+     &\stackrel{}{\leftrightarrow}&
+     Sh(X, SSet)^{l loc}_{inj}
+     &\stackrel{\stackrel{sheafification}{\leftarrow}}
+        {\stackrel{embedding}{\to}}&
+     PSh(X, SSet)^{l loc}_{inj}
+     &\stackrel{\stackrel{Id}{\leftarrow}}
+        {\stackrel{Id}{\to}}&
+     PSh(X, SSet)^{l loc}_{proj}
+     &\stackrel{\stackrel{embedding}{\leftarrow}}
+       {\stackrel{sheafification}{\to}}&
+     Sh(X, SSet)^{l loc}_{proj}
+     \\
+     \\
+     Luo-Bubenik-Tim
+     &&
+     Joyal-Tierney
+     &&
+     Joyal
+     &&
+     Jardine
+     &&
+     Blander
+     &&
+     Brown-Gersten     
+  }
+$$
+
+On the right this lists the model structures on simplicial (pre)sheaves, here displayed as (pre)sheaves with values in [[simplicial set]]s, using $SPSh(C) \simeq PSh(C,SSet)$.
+
+On the left we have the Joyal-Tierney and Luo-Bubenik-Tim [[model structures on presheaves of simplicial groupoids]].
+
+(...have to check here the relation $Sh(X,SGrpd)\leftrightarrow PSh(X, SGrpd)$)
 
 #References#
 
