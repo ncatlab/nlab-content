@@ -69,3 +69,8 @@ For an elementary introduction to braided monoidal categories using string diagr
 +--{.query}
 Eventually we should include all these diagrams here!  Can anyone help out?
 =--
+
+
+[[!redirects braided monoidal categories]]
+[[!redirects braided category]]
+[[!redirects braided categories]]
