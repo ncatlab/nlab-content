@@ -1,15 +1,15 @@
 Stratifolds are a generalization of smooth [[manifold]]s -- a notion of [[generalized smooth space]] --  which were introduced by Kreck; see his [lecture notes](http://www.him.uni-bonn.de/files/kreck-DA24_08_07.pdf). 
 
-It is one of the many variant of a concept of a stratified space, and it may include some types of singularities.
-Formally it is a subclass of differential spaces, which are pairs $(S,C)$ of a [[topological space]] $S$ together with an subalgebra $C$ of algebra of continuous real-valued functions $S\to R$ such that 
+Stratifolds comprise one of the many variants of the concept of a [[stratified space]], and they may include some types of singularities.
+Formally they form a class of _differential spaces_, which are pairs $(S,C)$ of a [[topological space]] $S$ together with an subalgebra $C$ of the algebra of continuous real-valued functions $S\to R$ such that 
 
 1) $C$ is locally detectable, i.e. for all continuous functions $f: S\to R$, $f$ is in $C$ iff for every $x\in S$ there exist an open neighborhood $U\ni x$ and $g\in C$ such that $g|_U = f|_U$,  
 
 2) let $f_1,\ldots,f_n$ be elements of $C$ and $\phi : R^n\to R$ a smooth function. Then $\phi \circ (f_1,\ldots,f_n) : S\to R$ is in $C$.
 
-Local detectability is equivalent to requiring that $C$ is an algebra of global sections of a given subsheaf of a sheaf of all continuous functions on $S$; in particular germs at every point can be defined. 
+Local detectability is equivalent to requiring that $C$ is an algebra of global sections of a given subsheaf of the [[sheaf]] of all continuous functions on $S$; in particular [[germ]]s at every point can be defined. 
 
-For a manifold $C= C^\infty(S)$. For a differentiable space $S = (S,C)$ a tangent space $T_x S$ can be defined at each $x\in S$. Define $S^i = \{x\in S | \mathrm{dim} T_x S = i\}$. By construction, $S$ decomposes into disjoint union $S = \cup_{i=0}^\infty S^i$. There is an induced stratifold structure on the topological subspace $S^i\subset S$, which we denote by $(S^i, C(S^i))$.  
+For a [[manifold]] $C= C^\infty(S)$. For a differentiable space $S = (S,C)$ a tangent space $T_x S$ can be defined at each $x\in S$. Define $S^i = \{x\in S | \mathrm{dim} T_x S = i\}$. By construction, $S$ decomposes into a [[disjoint union]] $S = \biguplus_{i=0}^\infty S^i$. There is an induced stratifold structure on the topological subspace $S^i\subset S$, which we denote by $(S^i, C(S^i))$.  
 
 +-- {: .un_def }
 ###### Definition
@@ -18,7 +18,7 @@ A __$k$-dimensional stratifold__ $(S,C)$ is a differential space such that
 
 * $S$ is _locally compact [[Hausdorff space]] with countable basis,
 
-* $T_x S \leq k$ for all $x\in S$ (i.e. $S = \cup_{i=0}^k S^i$), 
+* $T_x S \leq k$ for all $x\in S$ (i.e. $S = \bigcup_{i=0}^k S^i$), 
 
 * $(S^i,C(S^i))$ is isomorphic to a smooth [[manifold]],
 
