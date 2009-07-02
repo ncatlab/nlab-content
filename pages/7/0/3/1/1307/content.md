@@ -1,3 +1,3 @@
-See [[schreiber:Differential Nonabelian Cohomology]].
+For differential [[nonabelian cohomology]], see [[schreiber:Differential Nonabelian Cohomology|Differential Nonabelian Cohomology]] on [[Urs Schreiber]]\'s web.
 
-category: delete
+[[!redirects Differential Nonabelian Cohomology]]
