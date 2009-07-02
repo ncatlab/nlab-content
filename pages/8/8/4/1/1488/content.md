@@ -1,3 +1,5 @@
 See [[infinity-category]].
 
-category: delete
+category: redirect
+
+[[!redirects ∞-category/history]]
