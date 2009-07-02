@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-02
 
+* [[Zoran Skoda]] created [[two dimensional sheaf theory]]
+
+  * [[Urs Schreiber|Urs]]: this was motivated from some behind-the-scenes discussion Zoran and I are having -- Zoran rightly points out that the present characterization of [[derived stack]] may be wanting, as strictly speaking saying "derived stack" should be related to but not be regarded as equivalent to "higher stack on higher categorical site" -- what we really need eventually is more details on the To&eum;n-Vezzosi [work](http://www.math.uiuc.edu/K-theory/0579/) on higher topos theory in the context of SSet-enriched categories, 
+
 * [[Urs Schreiber|Urs]] 
 
   * replied at [[delooping]]
