@@ -55,9 +55,9 @@ Let $G$ be a [[group]] regarded as a [[discrete category|discrete groupoid]] in 
 
 Then $\mathbf{B} G$ exists and is, up to equivalence, the [[groupoid]]
 
-* with a single object $\bullet$
+* with a single object $\bullet$,
 
-* with $Hom_{\mathbf{B} G}(\bullet, \bullet) = G$
+* with $Hom_{\mathbf{B} G}(\bullet, \bullet) = G$, or equivalently $Aut_{\mathbf{B}G}(\bullet) = G$,
 
 * and with composition of morphisms in $\mathbf{B} G$ being given by the product operation in the group.
 
@@ -125,7 +125,7 @@ _[[Eric]]_: Is $[-,-]$ also [[functor category]]? I see you answered this at [[N
 
 ***
 
-<i>The following discussion originally took place at [[Dijkgraaf-Witten theory]].</i>
+>The following discussion originally took place at [[Dijkgraaf-Witten theory]].
 
 _Eric_: This notation seems to cause some initial confusion. At least until you realize both $\bullet$'s are the same, so the morphism is really a loop. Why not just represent it as a loop? I like this notation:
 
@@ -137,8 +137,6 @@ _Eric_: This notation seems to cause some initial confusion. At least until you 
 
   $$\mathbf{B}G = \bullet\righttoleftarrow G.$$
 
-_Toby_:  I like your first suggestion, so I implemented; but I think that I only understand the second suggestion since I already know what it means.
+_Toby_:  I like your first suggestion, so I implemented it; but I think that I only understand the second suggestion since I already know what it means.
 
   [[Urs Schreiber|Urs]]: added link to [[delooping]] above so that we have one page where this is treated discussed, since it appears in lots of other entries, too.
-
-  =--
