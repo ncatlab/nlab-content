@@ -113,6 +113,12 @@ _[[Urs Schreiber|Urs]]_: yes. In general for $C$ a category and $c \in C$ an obj
 
 _[[Eric]]_: Thanks. Maybe I read too much into choices of notation, but I can sort of see why you prefer $\bullet\to\bullet$ if you are accustomed to thinking in terms of $Hom(\bullet,\bullet)$. They look the same! My brain is wired to think of $Aut(\bullet)$, so I prefer $\bullet\righttoleftarrow$ (because they look the same). Maybe there is no connection. I know it is irrelevant, but just a random observation :)
 
+Urs: Well, the main reason is that one doesn't get very far with any computation or any nontrivial statement when not allowing oneself to write several $\bullet$s, even though they all denote the same object. Try drawing the naturality squares of the natural transformations that appear in the above discussion without using several copies of the point!
+
+And notice that in every other context, you wouldn't hesitate to use several copies of one symbol that denotes the same variable. Try writing an equation with many $x$s in it by writing all the $x$s on the same spot. All you'd get is an unreadable mess. Nobody would ever complain that in $x = ln(x)$ the two $x$s are really the same and should hence be drawn on the same spot.
+
+Remarkably, I should add that I had this discussion before with professional pure mathematicians. Once they stopped a talk I gave when I wrote $\bullet \stackrel{g}{\to} \bullet$ to the board, complaining that Ii drew two copies of that bullet. If it's just about saying quickly what $\mathbf{B}G$ is like that's fine with me, but for doing anything nontrivial with it it becomes useless. Try drawing $\mathbf{B}G$ for $G$ a 2-group or a 3-group! Not to speak of drawing the transformations between functors between these.
+
 ***
 
 _Eric_: Is there a difference between $Hom$ and $hom$? For example, [[hom-set]] says $hom$, but [[internal hom]] has $Hom$, $hom$, and $HOM$.
@@ -122,6 +128,8 @@ _[[Urs Schreiber|Urs]]_: I have added some links regarding this point at [[Notat
 Usually "Hom" is the ordinary [[hom-set]], while some variant of this is usually chosen for the [[internal hom]]. Sometimes "HOM", yes. Many people like an underlined "Hom" for the internal Hom. But also $hom$ and $[-,-]$ may denote internal homs. The last one is the standard choice in Kelly's standard book on [[enriched category theory]] (though concerning just [[monoidal category]] here), so I like that one.
 
 _[[Eric]]_: Is $[-,-]$ also [[functor category]]? I see you answered this at [[Notation]]. Handy :)
+
+_Urs_: yes, you see by itself one often write $Func(-,-)$ for the functor category. But the category [[Cat]] is an [[enriched category]] over itself, with the [[internal hom]] being $[-,-] := Func(-,-)$. So I like writing $[-,-]$ for the functor category. But in many other places you'll find $Func(-,-)$ or other things.
 
 ***
 
