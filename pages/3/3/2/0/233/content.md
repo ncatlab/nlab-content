@@ -51,7 +51,7 @@ $$
   \,.
 $$
 
-Don't panic: this definition is equivalent to [the one you're used to](http://en.wikipedia.org/wiki/Module_mathematics#Formal_definition).
+Don't panic: this definition is equivalent to [the one you're used to](http://en.wikipedia.org/wiki/Module_%28mathematics%29#Formal_definition).
 
 The category $R Mod$ has $R$-modules as objects and $R$-module homomorphisms as morphisms.  More abstractly, this is the [[enriched category|enriched]] [[functor category]] $[R,Ab]$ (see [page 29](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf#page=29) of Kelly's book.)
 
