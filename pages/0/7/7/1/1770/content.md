@@ -64,6 +64,17 @@ $$
   called the
   category of [[diffeological space]]s..
 
+  * The standard class of examples of smooth spaces that motivate their use even in cases where one starts out being intersted just in smooth [[manifold]]s are **mapping spaces**: for $X$ and $\Sigma$ two smooth spaces (possibly just ordinary smooth manifolds), by the [[closed monoidal structure on presheaves]] the **mapping space** $[\Sigma,X]$, i.e. the space of smooth maps $\Sigma \to X$ exists again naturally as a smooth. By the general formula it is given as a [[sheaf]] by the assignment
+
+    $$
+      [\Sigma,X] : U \mapsto SmoothSpaces(\Sigma \times U, X)
+     \,.
+    $$
+
+    If $X$ and $\Sigma$ are ordinary manifolds, then the [[hom-set]] on the right sits inside that of the underlying sets $SmoothSpaces(\Sigma \times U , X) \subset Set(|\Sigma| \times |U|, |X| )$ so that [[Sigma,X]] is a [[diffeological space]].
+
+    The above formula says that a $U$-parameterized family of maps $\Sigma \to X$ is smooth as a map into the smooth space $[\Sigma,X ]$ precisely if the corresponding map of sets $U \times \Sigma \to X$ is an ordinary morphism of smooth manifolds.
+
 * The canonical examples of smooth spaces that
   are not diffeological spaces are the sheaves of
   (closed) differential forms:
