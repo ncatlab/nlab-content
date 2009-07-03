@@ -46,7 +46,7 @@ Perhaps from the perspective of this page, internal categories and enriched cate
 
 Often, the structure on the ambient category $C$ allowing a certain type of structure to be internalized in it is itself a [[vertical categorification|categorified]] version of that same structure (for example, monoids in monoidal categories).  This is an example of the [microcosm principle](http://golem.ph.utexas.edu/category/2008/12/the_microcosm_principle.html).
 
-As one formal result along these lines, Tom Leinster has shown that for any [[cartesian monad]] $T$, $T$-algebras can be naturally internalized/enriched in $T$-multicategories, and in particular in $T$-structured categories.  For example, when $T$ is the monad whose algebras are monoids, this says that monoids can be internalized in multicategories and monoidal categories.
+As one formal result along these lines, [[Tom Leinster]] has shown that for any [[cartesian monad]] $T$, $T$-algebras can be naturally internalized/enriched in $T$-multicategories, and in particular in $T$-structured categories.  For example, when $T$ is the monad whose algebras are monoids, this says that monoids can be internalized in multicategories and monoidal categories.
 
 On the other hand, this is not always true.  For example, the categorification of a [[rig]] is a [[rig category]], but it is difficult to see how to define a rig internal to a rig category, and the usual definition of rig in $Set$ does not use the rig-category structure of $Set$ but only that it has finite products.
 
