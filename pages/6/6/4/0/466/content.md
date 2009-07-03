@@ -149,4 +149,4 @@ The Yoneda lemma tends to carry over to all important generalizations of the con
 
 #References#
 
-* Tom Leinster, [[LeinsterYoneda.ps:file]] 
+* [[Tom Leinster]], [[LeinsterYoneda.ps:file]] 
