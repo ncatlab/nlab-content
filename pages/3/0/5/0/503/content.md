@@ -23,4 +23,4 @@ _Toby_: Sorry, I interpreted it more broadly as a suggestion for future developm
 
 _Todd_: Okay, that makes sense. It would have been clearer had I said "I plan to...": in a sense I was both thinking to myself and also letting people know what I was thinking. Anyway, thanks for clarifying, and I promise to try to add some more intellectual content to this so far scintillating conversation we're having. ;-) 
 
-_Toby_:  I just read this again after a couple of months, and I think that I was just completely stupid.  Of course one should start with $\[0, \infty]$!
+_Toby_:  I just read this again after a couple of months, and I think that I was just completely stupid.  Of course one should start with $[0, \infty]$!
