@@ -144,17 +144,70 @@ The point of the axioms of a category of fibrant objects is that when passing fr
 +-- {: .un_defn}
 ###### Definition ($\infty$-groupoid valued sheaves)
 
-For $X$ a [[topological space]] let $\mathbf{C} = SSh(X)$ be the full [[subcategory]] of 
+For $C$ be a [[site]] such that the [[sheaf]] [[topos]]
+$Sh(C)$ has [[point of a topos|enough points]],
+i.e. so that a morphism $f : A \to B$ in $Sh(X)$
+is an isomorphism precisely if its image
 
-* [[sheaf|sheaves]] on $X$ with values in the category [[SSet]] of [[simplicial set]]s 
+$$
+  x^* f : x^* A \to x^* B
+$$
 
-* equivalently: [[simplicial object]]s in the [[category of sheaves]] on $X$
+is a bijection of sets for all [[point of a topos|points]]
+([[geometric morphism]]s from $Sh({*}) \simeq Set$)
 
-on sheaves $A$ for which each [[stalk]] $x^* A \in SSet$ is a [[Kan complex]].
+$$
+  x : Set \simeq Sh({*}) 
+   \stackrel{\stackrel{x^*}{\leftarrow}}
+     {\stackrel{x_*}{\to}}
+  Sh(C)
+  \,.
+$$
+
+Then let
+
+$$
+  \mathbf{C} = SSh(C)
+$$ 
+
+be the full [[subcategory]] of 
+
+* [[sheaf|sheaves]] on $C$ with values in the category [[SSet]] of [[simplicial set]]s 
+
+* equivalently: [[simplicial object]]s in the [[category of sheaves]] on $C$
+
+on those sheaves $A$ 
+for which each [[stalk]] $x^* A \in SSet$ is a [[Kan complex]].
 
 Define a morphism $f : A \to B$ to be a fibration or a weak equivalence, if on each [[stalk]] $x^* f : x^* A \to x^* B$ is a fibration or weak equivalence, respectively, of Kan complexes (in terms of the standard [[model structure on simplicial sets]]).
 
 =--
+
+**Remarks**
+
+* For instance for $X$ any [[topological space]]
+we may take $C = Op(X)$ to be the 
+[[category of open subsets]] of $X$. 
+The points of this topos precisely correspond to the
+ordinary points of $X$.
+
+  Equipped with its structure as a category of fibrant
+objects, simplicial sheaves on $X$ are a model
+for [[infinity-stack]]s living **over $X$**
+(the way an object $A \in Sh(X)$ is a sheaf "over $X$").
+
+* Or let $C = $ [[Diff]] be a (small model of)
+the [[site]] of smooth [[manifold]]s. 
+The corresponding [[sheaf]] [[topos]], 
+that of [[smooth space]]s has, up to
+isomorphism, one point per natural number, corresponding
+to the $n$-dimensional ball $D^n$.
+
+  Equipped with its structure as a category of fibrant
+objects, simplicial sheaves on $Diff$ are a model
+for [[smooth infinity-stack]]s.
+
+
 
 +-- {: .un_lemma }
 ###### Lemma
