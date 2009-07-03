@@ -7,3 +7,8 @@ See [[(infinity,1)-category of (infinity,1)-sheaves]] for more.
 The practice of writing "$\infty$-sheaf" inead of [[infinity-stack]] is a rather reasonable one, since a [[stack]] is nothing but a _2-sheaf_. This is the practice adopted for instance in
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
+
+
+[[!redirects (infinity,1)-sheaves]]
+[[!redirects (∞,1)-sheaf]]
+[[!redirects (∞,1)-sheaves]]
