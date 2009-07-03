@@ -49,7 +49,7 @@ They occured as  weak Kan complexes in
 
 * R. Vogt, _Homotopy limits and colimits_, Math. Z., 134, (1973), 11&#8211;52.
 
-Vogt's main theorem involved a category of homotopy coherent diagrams defined on a topologically enriched category and showed it was equivalent to a quotient category of the category of (commutative) diagrams on the same category. 
+Vogt's main theorem involved a category of [[homotopy coherent diagram|homotopy coherent diagrams]] defined on a topologically enriched category and showed it was equivalent to a quotient category of the category of (commutative) diagrams on the same category. 
 
 
 Cordier in
@@ -57,7 +57,7 @@ Cordier in
 * J.-M. Cordier, _Sur la notion de diagramme homotopiquement coh&#233;rent_, Cahiers de Top. 
 G&#233;om. Diff., 23, (1982), 93 &#8211;112,
 
-defined a homotopy coherent nerve of any [[simplicially enriched category]], which generalised the [[nerve]] of an ordinary category. In 
+defined a [[homotopy coherent nerve]] of any [[simplicially enriched category]], which generalised the [[nerve]] of an ordinary category. In 
 
 * J.-M. Cordier and T. Porter, _Vogt's theorem on categories of homotopy coherent diagrams_, 
 Math. Proc. Cambridge Philos. Soc., 100, (1986), 65&#8211;90, 
