@@ -1,1 +1,3 @@
-See also [[homological resolution]].
+See [[homological resolution]].
+
+category: delete
