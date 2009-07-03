@@ -1421,7 +1421,7 @@ is an equivalence relation on the
 +-- {: .proof}
 ###### Proof
 
-This follows by "piecong path spaces together":
+This follows by "piecing path spaces together":
 
 Let $B^{I_1}$ and $B^{I_2}$ be two path space
 objects of $B$. Then the pullback
