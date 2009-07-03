@@ -1,11 +1,10 @@
-
 # Idea #
 
 Following the logic of [[space and quantity]], a _smooth space_ is, in full generality, a space that may be probed by standard smooth test spaces.
 
 See [[generalized smooth space]] for more on the general idea and for examples and variations.
 
-Here standard smooth test spaces may be taken to be smooth [[manifold]]s. But since [[manifold]]s themselves are built from gluing together smooth open balls $D^n_{int} \subset \mathbb{R}^n$, one may just as well consider just smooth balls as test spaces. Finally, since $D^n$ is diffeomorphic to $\mathbb{R}^n$, one can just as well take just the cartesian smooth spaces $\mathbb{R}^n$ as test objects.
+Here standard smooth test spaces may be taken to be smooth [[manifolds]]. But since [[manifolds]] themselves are built from gluing together smooth open balls $D^n_{int} \subset \mathbb{R}^n$, one may just as well consider just smooth balls as test spaces. Finally, since $D^n$ is diffeomorphic to $\mathbb{R}^n$, one can just as well take just the cartesian smooth spaces $\mathbb{R}^n$ as test objects.
 
 #Definition#
 
@@ -17,7 +16,7 @@ $$
 
 of [[sheaf|sheaves]] on a small version of the [[site]] [[Diff]] of smooth manifolds equipped with its standard [[coverage]] ([[Grothendieck topology]]) given by open covers of manifolds.
 
-One may for instance take $Diff$ to be the category of [[manifold]]s _embedded_ into $\mathbb{R}^\infty$. This makes $Diff$ a [[small category]].
+One may for instance take $Diff$ to be the category of [[manifolds]] _embedded_ into $\mathbb{R}^\infty$. This makes $Diff$ a [[small category]].
 
 But since manifolds themselves are defined in terms of gluing conditons, the [[Grothendieck topos]] $SmoothSpaces$ depends on much less than all of $Diff$.
 
@@ -46,7 +45,7 @@ $$
 
 #Examples#
 
-* The category of ordinary [[manifold]]s is a
+* The category of ordinary [[manifolds]] is a
   full subcategory of smooth spaces:
   $$
     Diff \hookrightarrow SmoothSpaces 
@@ -62,9 +61,9 @@ $$
   $$
   on [[concrete sheaf|concrete sheaves]] is 
   called the
-  category of [[diffeological space]]s..
+  category of [[diffeological spaces]].
 
-  * The standard class of examples of smooth spaces that motivate their use even in cases where one starts out being intersted just in smooth [[manifold]]s are **mapping spaces**: for $X$ and $\Sigma$ two smooth spaces (possibly just ordinary smooth manifolds), by the [[closed monoidal structure on presheaves]] the **mapping space** $[\Sigma,X]$, i.e. the space of smooth maps $\Sigma \to X$ exists again naturally as a smooth. By the general formula it is given as a [[sheaf]] by the assignment
+  * The standard class of examples of smooth spaces that motivate their use even in cases where one starts out being intersted just in smooth [[manifolds]] are **mapping spaces**: for $X$ and $\Sigma$ two smooth spaces (possibly just ordinary smooth manifolds), by the [[closed monoidal structure on presheaves]] the **mapping space** $[\Sigma,X]$, i.e. the space of smooth maps $\Sigma \to X$ exists again naturally as a smooth. By the general formula it is given as a [[sheaf]] by the assignment
 
     $$
       [\Sigma,X] : U \mapsto SmoothSpaces(\Sigma \times U, X)
@@ -89,11 +88,11 @@ $$
     SmoothSpaces^{\Delta^{op}}
   $$
   equivalently that of sheaves on $Diff$ with
-  values in [[simplicial set]]s
+  values in [[simplicial sets]]
   $$
     \cdots \simeq Sh(Diff, SSet)
   $$
-  of [[simplicial object]]s in smooth spaces
+  of [[simplicial objects]] in smooth spaces
   naturally carries the structure of a 
   [[homotopical category]] 
   (for instance the 
@@ -101,13 +100,11 @@ $$
   or that of a Brown [[category of fibrant objects]]
   (if one restricts to locally Kan simplicial sheaves))
   and as such is a 
-  [[presentable (infinity,1)-category|presentation]]
-  for the [[(infinity,1)-topos]] of 
-  [[smooth infinity-stack]]s.
-
+  [[presentable (∞,1)-category|presentation]]
+  for the [[(∞,1)-topos]] of 
+  [[smooth ∞-stacks]].
 
 # Topos points and stalks #
-
 
 +-- {: .un_lemma }
 ###### Lemma
@@ -149,7 +146,7 @@ $D^n$ for $n \in \mathbb{N}$.
 
 #References#
 
-The category $SmoothSpaces := Sh(Diff)$ is discussed with an eye towards its generalization to [[smooth infinity-stack]]s  in section 3.4, from page 29 on in
+The category $SmoothSpaces := Sh(Diff)$ is discussed with an eye towards its generalization to [[smooth ∞-stacks]]  in section 3.4, from page 29 on in
 
 * Daniel Dugger, _Sheaves and Homotopy Theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html))
 
