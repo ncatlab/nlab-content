@@ -10,12 +10,12 @@ Following the logic described at
 
 * [[motivation for sheaves, cohomology and higher stacks]]
 
-* [[(infinity,1)-topos]]
+* [[(∞,1)-topos]]
 
-a _smooth $\infty$-stack_ is the $\infty$-[[vertical categorification|categorification]] of [[smooth space]] and[[differentiable stack]]. It is
-an [[infinity-stack]] on (a small version of) the [[site]] [[Diff]] of smooth [[manifold]], or correspondingly on $Balls \subset Diff$ or $CartesianSpaces \subset Diff$ (see [[smooth space]] for more on that).
+a _smooth $\infty$-stack_ is the [[∞-categorification]] of [[smooth space]] and [[differentiable stack]]. It is
+an [[∞-stack]] on (a small version of) the [[site]] [[Diff]] of smooth [[manifold]], or correspondingly on $Balls \subset Diff$ or $CartesianSpaces \subset Diff$ (see [[smooth space]] for more on that).
 
-So smooth $\infty$-stacks are the objects in the [[(infinity,1)-topos]] that computes _smooth_ generalized [[cohomology]]. (See [[schreiber:Differential Nonabelian Cohomology|differential nonabelian cohomology]] and the disucssion under "Models" below for more on that).
+So smooth $\infty$-stacks are the objects in the [[(∞,1)-topos]] that computes _smooth_ generalized [[cohomology]]. (See [[schreiber:Differential Nonabelian Cohomology|differential nonabelian cohomology]] and the disucssion under "Models" below for more on that).
 
 # Definition #
 
@@ -27,7 +27,7 @@ $$
   \mathbf{H}_{Diff} := (\infty,1)Sh(CartesianSpaces)
 $$
 
-is the [[(infinity,1)-topos]] given by the [[(infinity,1)-category of (infinity,1)-sheaves]] on $CartesianSpaces$.
+is the [[(∞,1)-topos]] given by the [[(∞,1)-category of (∞,1)-sheaves]] on $CartesianSpaces$.
 
 
 # Models #
@@ -46,7 +46,7 @@ $$
   =: SmoothSpaces
 $$
 
-is the category of [[smooth space]]s, and $SSh(CartesianSpaces)$ is just the category of [[simplicial object]]s of that
+is the category of [[smooth spaces]], and $SSh(CartesianSpaces)$ is just the category of [[simplicial objects]] of that
 
 $$
   SSh(CartesialSpaces) 
@@ -55,7 +55,7 @@ $$
   \,.
 $$
 
-So one model for smooth $\infty$-stacks is given by [[simplicial object|simplicial]] [[smooth space]]s.
+So one model for smooth $\infty$-stacks is given by [[simplicial object|simplicial]] [[smooth spaces]].
 
 Notice that the fibrant object in $SmoothSpaces^{\Delta^{op}}$ are the globally [[Kan complex]] valued sheaves under the [[equivalence of categories]]
 
@@ -68,13 +68,13 @@ $$
 
 that satisfy [[descent]] (see [[descent for simplicial presheaves]]).
 
-Being [[Kan complex]]-valued just means that the fibrant objects are sheaves on $CartesianSpaces$ with values in [[infinity-groupoid]]s.
+Being [[Kan complex]]-valued just means that the fibrant objects are sheaves on $CartesianSpaces$ with values in [[∞-groupoids]].
 
 Moreover, the [[descent]]-condition on $CartesianSpaces$ is comparatively trivial, and in many cases (...details eventually here, but see examples below...) entirely empty, as every cartesian space is (smoothly, even) contractible. 
 
-This means that the fibrant objects in $SSh(CartesianSpaces)$ are pretty much nothing but [[infinity-groupoid]]s [[internalization|internal to]] [[smooth space]]s. (But notice that the requirement that she corresponding sheaf is [[Kan complex]]-valued is a bit weaker that other notions of "$\infty$-groupoid internal to smooth spaces" that one may come up with).
+This means that the fibrant objects in $SSh(CartesianSpaces)$ are pretty much nothing but [[∞-groupoids]] [[internalization|internal to]] [[smooth space]]s. (But notice that the requirement that she corresponding sheaf is [[Kan complex]]-valued is a bit weaker that other notions of "$\infty$-groupoid internal to smooth spaces" that one may come up with).
 
-In particular [[infinity-groupoid]]s internal to [[diffeological space]]s are therefore a model for smooth $\infty$-stacks.
+In particular [[∞-groupoids]] internal to [[diffeological spaces]] are therefore a model for smooth $\infty$-stacks.
 
 Moreover, a morphism between smooth $\infty$-stacks modeled by such internal $\infty$-groupoids is modeled as an $\infty$-[[anafunctor]] (see [[simplicial localization]], [[homotopy category]] and [[category of fibrant objects]] for details).
 
@@ -90,12 +90,12 @@ $$
   Diff \hookrightarrow SmoothSpaces
 $$
 
-of [[manifold]]s into [[smooth space]]s we may regard
+of [[manifolds]] into [[smooth spaces]] we may regard
 $G$ naturally as a sheaf on CartesianSpaces.
 
 Write $\mathbf{B} G$ for the [[delooping]] of $G$, a one-object [[groupoid]] [[internalization|internal to]] [[smooth space|SmoothSpaces]]. Postcomposing with the [[nerve]] functor $N : $ [[Grpd]] $\to$ [[SSet]] this yields a [[Kan complex]]-valued [[simplicial presheaf|simplicial sheaf]] $N \mathbf{B} G$ which we shall by convenient and useful abuse of notation just call $\mathbf{B} G$ itself.
 
-Notice that $\mathbf{B} G$ does not satisfy [[descent]] when regarded as a simplicial sheaf on all of [[Diff]]: there its [[infinity-stackification]] is instead $G Bund(-)$, the [[stack]] of $G$-[[principal bundle]]s 
+Notice that $\mathbf{B} G$ does not satisfy [[descent]] when regarded as a simplicial sheaf on all of [[Diff]]: there its [[∞-stackification]] is instead $G Bund(-)$, the [[stack]] of $G$-[[principal bundle]]s 
 
 $$
   G Bund(-) : U \mapsto groupoid of G-bundles on U
