@@ -1,6 +1,6 @@
 {:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
-_Diffeological spaces_ are a  kind of [[generalized smooth space]]s, namely [[concrete sheaf|concrete]] [[smooth space]]s.
+_Diffeological spaces_ are a  kind of [[generalized smooth spaces]], namely [[concrete sheaf|concrete]] [[smooth spaces]].
 
 
 Diffeological spaces were originally described by J.M. Souriau in 1980.  They have subsequently been developed by [Patrick Iglesias-Zemmour](http://www.umpa.ens-lyon.fr/~iglesias/) who is writing a book on the subject.
