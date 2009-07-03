@@ -18,4 +18,4 @@ An fc-multicategory is a $T$-multicategory, in the sense of Leinster, for the mo
 
 #References#
 
-* Tom Leinster, _Higher Operads, Higher Categories_
+* [[Tom Leinster]], _Higher Operads, Higher Categories_
