@@ -1,6 +1,6 @@
 #Idea#
 
-The _mapping cone_ of a [[morphism]] $f : X \to Y$ is a _weak quotient_ of $Y$ by the image of $X$.
+The _mapping cone_ of a [[morphism]] $f : X \to Y$ is a _[[weak quotient]]_ of $Y$ by the image of $X$.
 
 #In additive categories with translation#
 
