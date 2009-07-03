@@ -5,3 +5,5 @@ $$
 $$
 
 which satisfies the usual axioms of an action/[[module]] up to coherent isomorphism.
+
+[[!redirects monoidal category modules]]
