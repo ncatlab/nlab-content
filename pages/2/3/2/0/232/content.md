@@ -147,3 +147,6 @@ The standard reference on enriched categories is
 #Blog entries#
 
 * John Armstrong: [Enriched categories](http://unapologetic.wordpress.com/2007/08/13/enriched-categories/).
+
+
+[[!redirects enriched categories]]
