@@ -10,3 +10,5 @@ There is also a more abstract characterization of such categories, described her
 Ph.D. dissertation, University of Munich, 1997.
 
 * David Yetter, [Categorical linear algebra---a setting for questions from physics and low-dimensional topology](http://math.ucr.edu/home/baez/yetter.pdf), Kansas State University preprint.
+
+[[!redirects Kapranov-Voevodsky 2-vector spaces]]
