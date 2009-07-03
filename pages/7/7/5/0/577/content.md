@@ -51,7 +51,7 @@ In this sense, a cartesian monad is really *locally* cartesian.
 
 #References
 
-* Tom Leinster, _Higher Operads, Higher Categories_ 
+* [[Tom Leinster]], _Higher Operads, Higher Categories_ 
   ([arXiv](http://arxiv.org/abs/math.CT/0305049)),
   section 4.1
 
