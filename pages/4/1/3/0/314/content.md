@@ -476,3 +476,4 @@ In general limits do not commute with colimits. But under a number of special co
 
 
 [[!redirects projective limit]]
+[[!redirects limits]]
