@@ -28,3 +28,5 @@ _Diffeology_
 ([web](http://math.huji.ac.il/~piz/Site/The%20Book/The%20Book.html), [pdf](http://math.huji.ac.il/~piz/documents/Diffeology.pdf))
 
 * John C. Baez, Alexander E. Hoffnung, _Convenient Categories of Smooth Spaces_ ([arXiv](http://arxiv.org/abs/0807.1704))
+
+[[!redirects diffeological spaces]]
