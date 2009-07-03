@@ -155,3 +155,5 @@ The category $SmoothSpaces := Sh(Diff)$ is discussed with an eye towards its gen
 
 
 The [[point of a topos|topos points]] of $Sh(Diff)$ are discussed there in example 4.1.2 on p. 36. (they are mentioned before on p. 31).
+
+[[!redirects smooth spaces]]
