@@ -57,3 +57,5 @@ Specifically, replace each set $S$ with the set $S_\bot$ of all [[subset]]s of $
 Classically, $S_\bot \cong S \amalg \{\bot\}$, although this is not true [[constructive mathematics|constructively]].  Then the category $Set_part$ becomes equivalent to the category $Set_*$ of [[pointed set]]s and total point-preserving functions.  Traditionally, one uses the notation of $Set_\bot$ but (unless one is a constructivist) thinks of this as simply different notation for $Set_*$.
 
 For a more sophisticated analysis of computation, $Set_\bot$ can be replaced with a suitable category of domains, such as [[direction|directed]] [[complete lattice|complete]] [[partial order|partially ordered]] sets (DCPOs).  The requirement that $\bot$ be preserved can then be removed to model lazy computation, but now we are hardly talking about partial functions anymore.
+
+[[!redirects partial functions]]
