@@ -146,3 +146,5 @@ In applications one often assumes these 2-Hilbert spaces to be [[semisimple alge
 A review of these ideas of 2-Hilbert spaces as well as applications of 2-Hilbert spaces to finite group representation theory are in
 
 * Bruce Bartlett, _On unitary 2-representations of finite groups and topological quantum field theory_ ([arXiv](http://arxiv.org/abs/0901.3975))
+
+[[!redirects 2-vector spaces]]
