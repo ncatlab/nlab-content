@@ -137,7 +137,7 @@ The orientals were introduced in
 
 The $\omega$-groupoids $\Pi_\omega(\Delta^{n})$ are discussed in detail in
 
-* Ronald Brown, Philip J. Higgins and Rafael Sivera, _Nonabelian algebraic topology_ ([pdf](http://www.bangor.ac.uk/~mas010/rbrsbookb-e-131008.pdf))
+* Ronald Brown, Philip J. Higgins and Rafael Sivera, _Nonabelian algebraic topology_ ([pdf](http://www.bangor.ac.uk/~mas010/pdffiles/rbrsbookb-e040609.pdf))
 
 #Further resources#
 
