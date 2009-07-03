@@ -14,3 +14,5 @@ A poset that has all finite joins is a **join-[[semilattice]]**.  A poset that h
 As a poset is a special kind of [[category]], a join is simply a [[coproduct]] in that category.
 
 A join of [[subset]]s or [[subobject]]s is called a [[union]].
+
+[[!redirects joins]]
