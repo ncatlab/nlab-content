@@ -137,3 +137,5 @@ These 1-cocycle data make the tangent bundle an $n$-dimensional [[vector bundle]
 * [[differentiable stack]]
 * [[derived smooth manifold]]
 * [[supermanifold]]
+
+[[!redirects manifolds]]
