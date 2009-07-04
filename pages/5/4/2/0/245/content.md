@@ -60,11 +60,11 @@ There is a [[strict 2-category]] BrMonCat with:
 
 For definitions of all these concepts, see:
 
-* John Baez, [Some definitions everyone should know](http://math.ucr.edu/home/baez/qg-fall2004/definitions.pdf).
+* [[John Baez]], [Some definitions everyone should know](http://math.ucr.edu/home/baez/qg-fall2004/definitions.pdf).
 
 For an elementary introduction to braided monoidal categories using string diagrams, see:
 
-* John Baez and Mike Stay, [Physics, topology, logic and computation: a Rosetta Stone](http://math.ucr.edu/home/baez/rosetta.pdf).
+* John Baez and [[Mike Stay]], [Physics, topology, logic and computation: a Rosetta Stone](http://math.ucr.edu/home/baez/rosetta.pdf).
 
 +--{.query}
 Eventually we should include all these diagrams here!  Can anyone help out?
