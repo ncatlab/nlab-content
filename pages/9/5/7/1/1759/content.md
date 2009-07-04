@@ -15,6 +15,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-04
 
+* [[Tim]]: I have added new references to [[distributor]] and [[Grothendieck fibration]].
+
 *  [[Toby Bartels]] added a bit to the scandalously short page [[isomorphism]].
 
 
