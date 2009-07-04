@@ -62,7 +62,7 @@ Now that the clue has been given, the rest is not hard to figure out. The compon
 
 $$End(v)(n) = \hom(v^{\otimes n}, v)$$ 
 
-Certainly $S_n$ acts on the right (that is, contravariantly) on the hom-object $\hom(v^{\otimes n}, v)$. And clearly there is a canonical map $e: I \to \hom(v, v)$ to play the role of the unit. The operad composition involves an instance of enriched functoriality of iterated tensor products: there is a map 
+Certainly $S_n$ acts on the right (that is, contravariantly) on the [[hom-object]] $\hom(v^{\otimes n}, v)$. And clearly there is a canonical map $e: I \to \hom(v, v)$ to play the role of the unit. The operad composition involves an instance of enriched functoriality of iterated tensor products: there is a map 
 
 $$\hom(v^{\otimes n_1}, v) \otimes \ldots \otimes \hom(v^{\otimes n_k}, v) \to \hom(v^{n_1 + \ldots + n_k}, v^{\otimes k})$$
 
@@ -140,7 +140,7 @@ A ($Set$-based) **operad** is a monoid in the monoidal category $(Set^{\mathbb{P
 
 * We can get different flavors of operad by considering different notions of monoidal category. For instance, for the theory of monoidal categories, the discrete category $\mathbb{N}$ plays the role of the free (strict) monoidal category on one generator, and $Set^{\mathbb{N}^{op}}$ the free monoidally cocomplete category on one generator. Similarly, for braided monoidal categories, we have the braid category $\mathbb{B}$, and $Set^{\mathbb{B}^{op}}$ is the free braided monoidally cocomplete category on one generator. Again, for cartesian categories, we have $Fin^{op}$ (the opposite of finite sets and functions) as the free cartesian category on one generator, and $Set^{Fin}$ is the free cartesian monoidally cocomplete category on one generator. In each of these cases we get a corresponding notion of operad by following the above treatment _mutatis mutandis_: nonpermutative operads, braided operads, cartesian operads (better known as [[Lawvere theory|Lawvere theories]]). 
 
-* All of the above carries over to the enriched setting, where we work over a complete, cocomplete symmetric monoidal closed base category $V$. Here ordinary categories (like $\mathbb{N}, \mathbb{P}, \mathbb{B}, Fin$) are viewed as $V$-enriched by a simple change of base: change from hom-sets to hom-objects by applying the change of base functor 
+* All of the above carries over to the enriched setting, where we work over a complete, cocomplete symmetric monoidal closed base category $V$. Here ordinary categories (like $\mathbb{N}, \mathbb{P}, \mathbb{B}, Fin$) are viewed as $V$-enriched by a simple change of base: change from [[hom-set]]s to [[hom-objects]] by applying the change of base functor 
 $$Set \to V$$ 
 that takes a set $S$ to the $S$-fold coproduct $S \cdot I$, where $I$ is the monoidal unit of $V$. 
 
