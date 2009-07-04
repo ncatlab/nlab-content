@@ -11,7 +11,7 @@ The **fundamental groupoid** $\pi_1(X)$ of a topological space  $X$ is the [[gro
 
 #Remarks#
 
-* For any $x$ in $X$ the first homotopy group $\pi_1(X,x)$ of $X$ based at $X$ arises as the automorphisms in $\Pi_1(X)$ at $x$:
+* For any $x$ in $X$ the first homotopy group $\pi_1(X,x)$ of $X$ based at $X$ arises as the [[automorphism group]] of $x$ in $\Pi_1(X)$:
 $$
   \pi_1(X,x) = Aut_{\Pi_1(X)}(x)
   \,.
