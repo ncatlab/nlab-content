@@ -69,13 +69,13 @@ The definition of monoidal category can be found on [John Armstrong's blog](http
 
 For definitions of all the concepts mentioned above, including a precise description of the 'couple of equations' alluded to above, see:
 
-* John Baez, [Some definitions everyone should know](http://math.ucr.edu/home/baez/qg-fall2004/definitions.pdf).
+* [[John Baez]], [Some definitions everyone should know](http://math.ucr.edu/home/baez/qg-fall2004/definitions.pdf).
 
 It would be nice if you, dear reader, would add all these definitions to the $n$Lab!   The [LaTeX code](http://math.ucr.edu/home/baez/qg-fall2004/texfiles/definitions.tex) is available if you want.
 
 For an elementary introduction to monoidal categories using string diagrams, see:
 
-* John Baez and Mike Stay, [Physics, topology, logic and computation: a Rosetta Stone](http://math.ucr.edu/home/baez/rosetta.pdf).
+* John Baez and [[Mike Stay]], [Physics, topology, logic and computation: a Rosetta Stone](http://math.ucr.edu/home/baez/rosetta.pdf).
 
 For a more detailed tour of monoidal categories, also using string diagrams, try:
 
