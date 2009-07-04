@@ -12,3 +12,5 @@ One would expect some relation of this to the [[BV theory|Lagrangian BV formalis
 
 * Richard Hepworth, _2-Vector Bundles and the Volume of a Differentiable Stack ([pdf](http://www.hepworth.staff.shef.ac.uk/files/2VB.pdf))
 
+
+[[!redirects volume of Lie groupoids]]
