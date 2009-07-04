@@ -30,7 +30,7 @@ While this definition makes a lot of sense, its main shortcomings of this defini
 
 Because Kapranov--Voevodsky $2$-vector spaces categorify the idea of a vector space as a 'state-space' of a system, they are the notion of 2-vector space which feature on the right hand side of extended TQFTs (functors from higher [[cobordism]] categories to higher vector spaces).
 
-An example of a Kapranov--Voevodsky $2$-vector space is $Rep(G)$, the category of representations of a finite group $G$. 
+An example of a Kapranov--Voevodsky $2$-vector space is $Rep(G)$, the category of [[representation]]s of a finite group $G$. 
 
 ## [[Baez–Crans 2-vector spaces]]
 
