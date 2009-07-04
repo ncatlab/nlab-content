@@ -9,6 +9,10 @@
 
   * [[generalized smooth space]]
 
+    *  [[Frölicher space]]
+    *  [[diffeological space]]
+    *  [[smooth space]]
+
 * [[Lie theory]]
 
 * [[supermanifold]]
