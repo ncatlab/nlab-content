@@ -1,5 +1,5 @@
 
-This entry discusses the conceptual notion of representations 
+This entry discusses the conceptual notion of [[representation]]s 
 of [[Lie infinity-algebroid]]s and their realization in terms of
 **modules for [[differential graded algebra]]s**
 and of modules of [[differential graded coalgebra]]s. 
@@ -21,7 +21,7 @@ the notion of representation of a Lie group.
 
 In view of this notice that 
 there are essentially two fundamental ways to express the notion of
-representation of a [[group]] or [[infinity-groupoid]] $Gr$:
+[[representation]] of a [[group]] or [[infinity-groupoid]] $Gr$:
 
 1. as a morphism out of $Gr$: the [[action]];
 
@@ -78,7 +78,7 @@ $$
 As described at [[generalized universal bundle]], this may be thought of as
 (the groupoid incarnation of) the vector bundle which is associated via $\rho$
 to the universal $G$-bundle $\mathbf{E}G  \to \mathbf{B}G$, which itself 
-is the [[action groupoid]] of the _fundamental representation_ of $G$ on itself,
+is the [[action groupoid]] of the _[[fundamental representation]]_ of $G$ on itself,
 $$
   \array{
      G &\hookrightarrow& \mathbf{E}G &\to& \mathbf{B}G
@@ -94,7 +94,7 @@ From this perspective a representation of a group $G$ is
 nothing but a $G$-equivariant
 vector bundle over the point, or equivalently a vector bundle on the
 [[orbifold]] $\bullet//G$.
-So from this perspective the notion "representation" is not a primitive
+So from this perspective the notion "[[representation]]" is not a primitive
 notion, but just a particular perspective on [[fibration sequence]]s.
 
 The definition of Lie-infinity algebroid representation below is in this
@@ -246,7 +246,7 @@ to the derived category of [[D-module]]s on $X$, or the like.
 
 * flat connections on bundles
 
-* adjoint representation of [[L-infinity algebra]]s
+* [[adjoint representation]] of [[L-infinity algebra]]s
 
 
 #References#
