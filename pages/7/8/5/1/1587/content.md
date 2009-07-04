@@ -26,7 +26,7 @@ between typical fibers over $x \in U$, $y \in V$, and $z \in U \cap V$. If $B$ i
 
 ## Fundamental theorem of covering spaces ## 
 
-The connection between covering spaces over $B$ and the [[fundamental group]] $\pi_1(B)$ (for $B$ a [[connected space]]) is very old and runs very deep. An updated account involves shifting attention to representations of the [[fundamental groupoid]] $\Pi_1(B)$ (regardless of connectedness); we give a brief outline of the theory here. 
+The connection between covering spaces over $B$ and the [[fundamental group]] $\pi_1(B)$ (for $B$ a [[connected space]]) is very old and runs very deep. An updated account involves shifting attention to [[representation]]s of the [[fundamental groupoid]] $\Pi_1(B)$ (regardless of connectedness); we give a brief outline of the theory here. 
 
 Under some technical topological assumptions on the space $B$, the fundamental theorem can be stated thus: 
 
@@ -136,7 +136,7 @@ and this forces its left adjoint to be given by the tensor product construction 
 
 ## Special case: the universal covering space ##  
 
-As a special case, consider the permutation representation $\Pi_1(B) \to Set$ given by the discrete fibration 
+As a special case, consider the [[permutation representation]] $\Pi_1(B) \to Set$ given by the discrete fibration 
 
 $$cod: \Pi_1(B) \to |B|$$ 
 
@@ -148,7 +148,7 @@ $$cod: \Pi_1(B) \to |B|$$
 [[David Roberts]]: Yes, I see now.
 =--
 
-(as a span from $1$ to $|B|$) equipped with the obvious (covariant) action of the monad $\Pi_1(B)$ (as a span from $|B|$ to $|B|$). This is essentially the "regular representation" of the fundamental groupoid. The tensor product of the previous section, 
+(as a span from $1$ to $|B|$) equipped with the obvious (covariant) action of the monad $\Pi_1(B)$ (as a span from $|B|$ to $|B|$). This is essentially the "[[regular representation]]" of the fundamental groupoid. The tensor product of the previous section, 
 
 $$\overline{Path}(B) \otimes_{\Pi_1(B)} cod,$$ 
 
