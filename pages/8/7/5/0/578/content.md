@@ -8,7 +8,7 @@ $$
   \downarrow && \downarrow \\
   C(B,Y) & \to & C(A,Y)}
 $$
-is a [[pullback]] in [[Set]].  It is then clear that if $C$ is enriched over some [[monoidal category]] $V$, to say that $e\perp m$ in an enriched sense, we should instead require this square to be a pullback of enriched hom-objects in $V$.  Note, though, that $e$ and $m$ are still maps in the underlying ordinary category $C_0$ of $C$.  Likewise, the factorization property still only makes sense for maps in $C_0$.
+is a [[pullback]] in [[Set]].  It is then clear that if $C$ is enriched over some [[monoidal category]] $V$, to say that $e\perp m$ in an enriched sense, we should instead require this square to be a pullback of enriched [[hom-objects]] in $V$.  Note, though, that $e$ and $m$ are still maps in the underlying ordinary category $C_0$ of $C$.  Likewise, the factorization property still only makes sense for maps in $C_0$.
 
 Therefore, we define an **enriched (orthogonal) factorization system** on an enriched category $C$ to consist of two classes of maps $(E,M)$ in $C_0$ such that
 
