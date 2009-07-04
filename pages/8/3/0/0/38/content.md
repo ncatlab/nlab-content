@@ -83,7 +83,7 @@ bla bla bla
 * [[integration over supermanifolds]]
 * [[space and quantity]]
 * [[superdifferential form]]
-* [[volume of Lie groupoids]]
+* [[volume of a Lie groupoid]]
 
 
 [[!redirects Lie Theory]]
