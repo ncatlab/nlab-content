@@ -27,7 +27,7 @@ Here are several statements equivalent (internal to an arbitrary [[topos]]) to t
 The first three are, if you work through the definitions, almost direct rephrasings of the theorem above:
 *  Every [[net]] has a universal subnet.  (We must define 'subnet' and 'universal net' properly to make this work, at which point the equivalence is immediate.)
 *  The Boolean prime ideal theorem: every proper [[ideal]] in a [[Boolean ring]] is contained in a [[prime ideal]].  (Stronger formulations of the Boolean prime ideal theorem also follow.)
-*  The Stone representation theorem: every [[Boolean algebra]] is a subalgebra of some (classical) [[power set]] $2^X$.  (Stronger formulationss of the Stone representation theorem also follow.)
+*  The [[Stone representation theorem]]: every [[Boolean algebra]] is a subalgebra of some (classical) [[power set]] $2^X$.  (Stronger formulations of the Stone representation theorem also follow.)
 
 These basic results in [[logic]] are equivalent to the ultrafilter theorem:
 *  Consistency: if a set $\Sigma$ of formulas in propositional [[classical logic]] is syntactically consistent (proves no contradiction), then it is semantically consistent (has a model).  (The converse is immediate; stronger formulations of the consistency theorem, including for predicate logic, also follow.)
