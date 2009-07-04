@@ -43,7 +43,7 @@ A detailed illustration and motivation of the need of these "good limits" that d
 
 #Examples#
 
-* passing from [[sheaf|sheaves]] or [[infinity-stack]]s on the domain [[CRing]] of commutative rings to the [[simplicially enriched category]] (hence an [[(infinity,1)-category]]) $SimpCRing$ of simplicial commutative rings corresponds, under the [[Dold-Kan correspondence]] to passing from spaces with an ordinary function algebra to spaces with a [[differential graded algebra]] as a function algebra. These are generalized [[NQ-supermanifold]]s. (...more details and context should go here ...)
+* passing from [[sheaf|sheaves]] or [[infinity-stack]]s on the domain [[CRing]] of commutative rings to the [[simplicially enriched category]] (hence an [[(infinity,1)-category]]) $SimpCRing$ of simplicial commutative rings corresponds, under the [[Dold-Kan correspondence]] to passing from spaces with an ordinary function algebra to spaces with a [[differential graded algebra]] as a function algebra. These are generalized [[NQ-supermanifolds]] (...more details and context should go here ...)
 
 
 #References#
