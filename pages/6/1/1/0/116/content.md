@@ -33,7 +33,7 @@ $$
   \mathbf{B}f_1, \mathbf{B}f_2 : \mathbf{B}G \to \mathbf{B}H
 $$ 
 
-coming from two group homomorphisms $f_1, f_2 : G \to H$ are related by a [[natural transformation]] $\eta_h : f_1 \to f_2$ with single component $\eta_h : \bullet \mapsto h \in Mor(\mathbf{B} H)$ for each element $h \in H$ such that the homomorphisms $f_1$ and $f_2$ differ by the inner automorphism $Ad_h : H \to H$
+coming from two group homomorphisms $f_1, f_2 : G \to H$ are related by a [[natural transformation]] $\eta_h : f_1 \to f_2$ with single component $\eta_h : \bullet \mapsto h \in Mor(\mathbf{B} H)$ for each element $h \in H$ such that the homomorphisms $f_1$ and $f_2$ differ by the [[inner automorphism]] $Ad_h : H \to H$
 
 $$
   (\eta_h : \mathbf{B}f_1 \to \mathbf{B}f_2)
