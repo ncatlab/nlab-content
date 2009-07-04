@@ -100,7 +100,7 @@ We say
 
 * $d_{\mathfrak{g}}$ is the **BRST operator** 
 
-* $\mathrm{CE}(\mathfrak{g})$ is the **BRST complex**
+* $\mathrm{CE}(\mathfrak{g})$ is the **[[BRST complex]]**
 
 Next there is the corresponding [[Weil algebra]],
 equivalently 
