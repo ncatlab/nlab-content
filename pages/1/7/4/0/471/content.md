@@ -2,7 +2,7 @@
 
 The structure of a category $V$ with **interval object** is supposed to be the right structure to ensure 
 
-1. that there is an object $I$ in $V$ such that for every object $X$ of $V$ the [[closed monoidal category|internal hom object]] $[I,X]$ exists and behaves like a [[path object]] for $B$;
+1. that there is an object $I$ in $V$ such that for every object $X$ of $V$ the [[internal hom|internal hom object]] $[I,X]$ exists and behaves like a [[path object]] for $B$;
 
 2. that there is a notion of composition on these path objects which induces on $[I,X]$ a structure of a (higher) category internal to $V$: the [[fundamental category]] or [[fundamental groupoid]] of the object $X$, or rather its [[fundamental infinity-groupoid]].
 
