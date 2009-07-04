@@ -58,7 +58,7 @@ encapsulates a lot of information, as  is shown by the complications of the Elli
 
 =--
 
-Strict $n$-fold categories can in fact be considered as modeling certain diagrams of spaces, or structured spaces, which is useful for computing with "higher van Kampen theorems."  In general, we have some functors
+Strict $n$-fold categories can in fact be considered as modeling certain diagrams of spaces, or structured spaces, which is useful for computing with "[[higher van Kampen theorems]]."  In general, we have some functors
 $$\Xi:({diagrams of spaces })\leftrightarrow ({higher groupoids}):B $$
 such that:
 1. $\Xi$ is homotopically defined and preserves certain colimits;
