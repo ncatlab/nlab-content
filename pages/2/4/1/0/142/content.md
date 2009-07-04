@@ -15,7 +15,7 @@ More concretely this means that a stack on a [[site]] $S$ is
 * that satisfies [[descent]].
 
 
-In some circles the notion of a stack as a generalized groupoid is almost more familiar than the notion of sheaf as a [[space and quantity|generalized space]]. For instance [[differentiable stack]]s have attracted much attention in the study of [[Lie groupoid]]s and [[orbifold]]s, while [[generalized smooth space]]s are only beginning to be investigated more in [[Lie theory]]. 
+In some circles the notion of a stack as a generalized groupoid is almost more familiar than the notion of sheaf as a [[space and quantity|generalized space]]. For instance [[differentiable stacks]] have attracted much attention in the study of [[Lie groupoid]]s and [[orbifold]]s, while [[generalized smooth space]]s are only beginning to be investigated more in [[Lie theory]]. 
 
 
 #Provisional discussion#
