@@ -48,7 +48,7 @@ $$\theta \otimes x_1 \otimes \ldots \otimes x_n \mapsto \theta(x_1, \ldots, x_n)
 
 so that "elements" of $F(n)$ are interpreted as as $n$-ary operations on $v$. These data are subject to some natural conditions which implement this idea. 
 
-Perhaps the quickest way to define it is to suppose that $V$ is symmetric monoidal closed, and work by way of parallel to how representations or modules work. Just as an $R$-module (over a ring $R$) can be defined as a ring homomorphism 
+Perhaps the quickest way to define it is to suppose that $V$ is symmetric monoidal closed, and work by way of parallel to how [[representations]] or [[modules]] work. Just as an $R$-module (over a ring $R$) can be defined as a ring homomorphism 
 
 $$R \to \hom(A, A)$$ 
 
