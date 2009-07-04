@@ -257,7 +257,7 @@ For $C$ and $D$ both $V$-[[enriched category|enriched categories]], the $V$-[[en
 
 * objects are $V$-[[enriched functor]]s $F : C \to D$;
 
-* [[hom-object]]s in $V$ are given by the end-formula $[C,D](F,G) := \int_{c \in C} D(F(c), G(c))$.
+* [[hom-objects]] in $V$ are given by the end-formula $[C,D](F,G) := \int_{c \in C} D(F(c), G(c))$.
 
 For $V = Set$ this reproduces of course the ordinary [[functor category]].
 
