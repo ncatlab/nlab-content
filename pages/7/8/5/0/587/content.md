@@ -2,7 +2,7 @@ In [[logic]], the **context** of an assertion (or judgement) consists of all of 
 
 Generally, a context is thought of as relative to some underlying logical theory.  This underlying theory will contain most of the assumptions of what constitutes validity; the context of an assertion in this theory will then include only those extra assumptions that may be used by that assertion.  (On the other hand, one could also think of the entire base theory as part of the context.)
 
-For example, in the theory of a [[group]], it is understood that there is a group $G$, that $G$ has various elements, that two elements of $G$ may be equal, that any two elements of $G$ have as product an element of $G$, and that various equational laws are satisfied (which we will not list here).  However, the validity and meaningful of an assertion that two elements of $G$ commute will depend on the context.
+For example, in the theory of a [[group]], it is understood that there is a group $G$, that $G$ has various elements, that two elements of $G$ may be [[equality|equal]], that any two elements of $G$ have as product an element of $G$, and that various equational laws are satisfied (which we will not list here).  However, the validity and meaningful of an assertion that two elements of $G$ commute will depend on the context.
 
 To be more explicit, the assertion that $a$ and $b$ commute does not make sense without the additional context that $a$ and $b$ are elements of $G$.  Even in that context, this assertion, while at least meaningful, is not valid.  However, if we add to the context the assumption that $(a b)^2 = a^2 b^2$, then the assertion is valid.  Written symbolically,
 $$ \vdash\; a b = b a $$
@@ -54,11 +54,11 @@ and then inserting a proof that
 $$ \Gamma \;\vdash\; (a a)^2 = a^2 a^2 .$$
 All the same, we would not want to say that $\Gamma$ and $\Delta$ are isomorphic contexts; although there are morphisms in each direction, composing them should never produce identity morphisms on both sides.
 
-Now I should finish defining the category.  First, given a context $\Gamma$, there is an obvious **identity** morphism where every variable is substituted for itself and every statement assumed is proved immediately from itself.
+Now I should finish defining the category.  First, given a context $\Gamma$, there is an obvious **[[identity morphism|identity]]** morphism where every variable is substituted for itself and every statement assumed is proved immediately from itself.
 
-Given morphisms $\Gamma \to^f \Delta \to^g E$, form the **composite** as follows:  First, for each variable $X$ required by $\Gamma$, $f$ tells us how to substitute a term $T$ built out of the variables in $\Delta$, while $g$ tells us how to substitute a term from $E$ for each of these variables.  So in the end, $X$ is expressed as a term $T[g]$ involving variables available in $E$.  Also, by combining the proofs provided by $f$ and $g$, we get the proofs required for their composite.
+Given morphisms $\Gamma \to^f \Delta \to^g E$, form the **[[composite]]** as follows:  First, for each variable $X$ required by $\Gamma$, $f$ tells us how to substitute a term $T$ built out of the variables in $\Delta$, while $g$ tells us how to substitute a term from $E$ for each of these variables.  So in the end, $X$ is expressed as a term $T[g]$ involving variables available in $E$.  Also, by combining the proofs provided by $f$ and $g$, we get the proofs required for their composite.
 
-To really complete the definition of a category, I should also describe when two morphisms $\Gamma \to \Delta$ are **equal**.  There are actually many options here; the most strict is to say that they are equal only if the substitutions and proofs used are syntactically identical, and the most weak is to say that any parallel morphisms are equal.  Neither of these is very useful; for purposes of this example, let us require only that the expressions substituted for each variable $X$ in $\Gamma$ can be proved equal in the context $\Delta$.
+To really complete the definition of a category, I should also describe when two morphisms $\Gamma \to \Delta$ are **[[equality|equal]]**.  There are actually many options here; the most strict is to say that they are equal only if the substitutions and proofs used are syntactically identical, and the most weak is to say that any parallel morphisms are equal.  Neither of these is very useful; for purposes of this example, let us require only that the expressions substituted for each variable $X$ in $\Gamma$ can be proved equal in the context $\Delta$.
 
 Now you should be able to prove that composition satisfies the axioms of a [[category]].
 
