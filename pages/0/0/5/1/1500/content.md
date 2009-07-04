@@ -6,7 +6,7 @@ A **fusion category** is a [[rigid monoidal category|rigid]]  [[semisimple categ
 
 #Remarks#
 
-The name "fusion category" comes from the central examples of structures whose canonical [[tensor product]] is called a "fusion product", notably representations of [[loop group]]s and of [[Hopf algebra]]s and of [[vertex operator algebra]]s. 
+The name "fusion category" comes from the central examples of structures whose canonical [[tensor product]] is called a "fusion product", notably [[representation]]s of [[loop group]]s and of [[Hopf algebra]]s and of [[vertex operator algebra]]s. 
 
 Fusion categories were first systematically studied by Etingof, Nikshych and Ostrik in [On fusion categories](http://arxiv.org/abs/math/0203060). This paper listed many examples and proved many properties of fusion categories. One of the important conjectures made in that paper was the following:
 
