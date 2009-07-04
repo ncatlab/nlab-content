@@ -1,4 +1,4 @@
-A (binary) [[relation]] $\sim$ on a set $A$ is __tight__ if any two elements that are related in neither order are equal:
+A (binary) [[relation]] $\sim$ on a set $A$ is __tight__ if any two elements that are related in neither order are [[equality|equal]]:
 $$\forall (x, y: A),\; x \nsim y \;\wedge\; y \nsim x \;\Rightarrow\; x = y$$
 
 The term 'tight' here comes from the theory of [[apartness relation]]s, although this is also a property of [[linear order]]s.
