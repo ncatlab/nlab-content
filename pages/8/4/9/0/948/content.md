@@ -90,14 +90,14 @@ The distinction between object language and metalanguage exists even in classica
 
 Concepts that usually arise in constructive mathematics, often because they are classically trivial:
 *  [[anafunctor]] (classically equivalent to [[functor]])
-*  [[apartness relation]] (classically equivalent to [[equivalence relation]])
-*  [[comparison]] (classically equivalent to [[transitive relation]])
+*  [[apartness relation]] (classically dual to [[equivalence relation]])
+*  [[comparison]] (classically dual to [[transitive relation]])
 *  [[decidable equality]] (classically trivial)
 *  [[decidable subset]] (classically trivial)
 *  [[inhabited set]] (classically equivalent to non-[[empty set]])
-*  [[linear order]] (classically equivalent to [[total order]])
-*  [[locale]] (classically similar but not equivalent to [[topological space]])
-*  [[quasiorder]] (classically equivalent to [[partial order]])
+*  [[linear order]] (classically dual to [[total order]])
+*  [[locale]] (classically similar to but not equivalent to [[topological space]])
+*  [[quasiorder]] (classically dual to [[partial order]])
 *  [[subsingleton]] (classically equivalent to empty set or [[singleton]])
 
 Some of these are also useful internally or even classically.
@@ -118,6 +118,7 @@ Topics relevant to the foundations of constructive mathematics:
 *  [[predicative mathematics]]
 *  [[pretopos]]
 *  [[set theory]]
+*  [[topos]]
 *  [[truth value]]
 
 Other articles with content relating to constructive mathematics:
