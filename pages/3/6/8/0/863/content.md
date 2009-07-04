@@ -27,7 +27,7 @@ In classical mathematics, there are even more options.  Now comparison can be dr
 
 Thus the most common definition uses only trichotomy and transitivity.
 
-One can also interpret tightness not as an axiom but as a definition of equality, getting a linear order on a [[quotient set]] of $S$.
+One can also interpret tightness not as an axiom but as a definition of [[equality]], getting a linear order on a [[quotient set]] of $S$.
 
 # Examples #
 
