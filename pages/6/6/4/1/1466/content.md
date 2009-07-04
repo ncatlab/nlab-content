@@ -13,7 +13,7 @@ A uniform structure or uniformity on a set $X$ consists of a collection of globa
 
 A **uniform structure**, or **uniformity**, on a set $X$ consists of a collection of binary [[relation]]s $U \subseteq X \times X$ (called _entourages_) satisfying some conditions. Write $x \approx_U y$ if $x$ is related to $y$ through $U$; then the conditions are the following:
 
-1. The [[equality]] relation $\Delta = \{(x, x): x \in X\}$ is contained in every entourage. That is,
+1. The [[equality relation]] $\Delta = \{(x, x): x \in X\}$ is contained in every entourage. That is,
    $$ \forall U,\; \forall x,\; x \approx_U x .$$
 1. For every entourage $U$, there exists an entourage $V$ such that $V^op \subseteq U$, where $V^\op$ is the [[opposite relation]] to $V$. That is,
    $$ \forall U,\; \exists V,\; \forall x, y,\; y \approx_V x \;\Rightarrow\; x \approx_U y .$$
