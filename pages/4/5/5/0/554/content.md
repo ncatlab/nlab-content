@@ -30,7 +30,7 @@ $$
 
 Assume that the terminal object $pt$ is the tensor unit in $V$.
 
-Then moreover, following the construction of the $V$-internal hom of [[pointed object]]s and being a special case of that of [[co-span]]s in $V$, there is an internal hom-object
+Then moreover, following the construction of the $V$-internal hom of [[pointed object]]s and being a special case of that of [[co-span]]s in $V$, there is an internal [[hom-object]]
 ${}_{pt}[X,Y]_{pt} \in Obj(V)$
 of bipointed objects $X$ and $Y$ defined as the pullback
 
