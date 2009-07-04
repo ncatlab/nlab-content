@@ -4,7 +4,7 @@ The FFRS-formalism (after Fjelstad, Fuchs, Runkel, Schweigert) is a [[state sum 
 
 given a [[modular tensor category]] $C$ it produces a 2-dimensional [[TQFT]] which is such that
 
-* if the MTC $C$ is equivalent to a representation category of a [[vertex operator algebra]], one can construct an identification of the linear map assigned by the construction to a surface to an element in the space of [[conformal block]]s of that surface.
+* if the MTC $C$ is equivalent to a [[representation category]] of a [[vertex operator algebra]], one can construct an identification of the linear map assigned by the construction to a surface to an element in the space of [[conformal block]]s of that surface.
 
   * A conformal block is a function that depends onthe conformal structure on the surface, so that after this identification the construction yields an assignment of data to conformal surfaces. It is well known that a CFT assigns to a surface a conformal block in this way. What the FFRS prescription achieves is that it provides a way to pick all these conformal blocks in such a way that they actually satisfy the sewing law, i.e. that they actually conspire to yields a functor on conformal cobordisms.
 
