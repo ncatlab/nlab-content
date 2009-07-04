@@ -1,6 +1,6 @@
 AKSZ formalism is a method for constructing a [[BV theory|BV Laplacian]] from a given symplectic [[NQ-supermanifold]] $X$ target which describes a generalization of the [[Poisson sigma-model]]. 
 
-The AKSZ construction works entirely in terms of [[NQ-supermanifold]]s.
+The AKSZ construction works entirely in terms of [[NQ-supermanifolds]].
 
 (...details go here...)
 
