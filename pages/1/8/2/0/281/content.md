@@ -7,3 +7,4 @@ Given an object $x$, the automorphisms of $x$ form a [[group]] under composition
 
 [[!redirects automorphisms]]
 [[!redirects automorphism group]]
+[[!redirects automorphism groups]]
