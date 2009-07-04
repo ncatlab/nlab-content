@@ -239,7 +239,7 @@ Then
 
 * $\pi_0 \mathcal{N}(C,c)$ is the set of isomorphism classes of $C$ with the class of $c$ as base point
 
-* $\pi_1 \mathcal{N}(C,c)$ is the automorphism group $Aut_C(c)$ of $c$
+* $\pi_1 \mathcal{N}(C,c)$ is the [[automorphism group]] $Aut_C(c)$ of $c$
 
 * $\pi_{n \geq 2} \mathcal{N}(C,c)$ is trivial
 
