@@ -21,3 +21,6 @@ The generators of the BRST complex are called
 #Relation to BV theory#
 
 In as far as the BRST complex can be regarded as being the algebra of functions on an $L_\infty$-[[Lie infinity-algebroid|algebroid]], the theory of [[integration over supermanifolds|integration]] over this $L_\infty$-[[Lie infinity-algebroid|algebroid]] is given by the [[BV theory|BV formalism]].
+
+
+[[!redirects BRST complexes]]
