@@ -43,7 +43,7 @@ The same idea works if we are enriched over a category $V$ that is not $\SimpSet
 
 Following the reasoning described in Example 1 of [[representable functor]] one then defines the homotopy limit $L$ of a functor $F: K \to C$ to be a representing object for such homotopy cones, in the sense that we have a (weak) equivalence
 $$ Map(X,L) \simeq HoCones(X,F)$$
-of hom-objects (spaces or simplicial sets in the classical context; enriched hom-objects in the enriched context).
+of [[hom-objects]] (spaces or simplicial sets in the classical context; enriched hom-objects in the enriched context).
 
 
 ## Global versus local ##
