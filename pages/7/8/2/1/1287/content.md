@@ -151,14 +151,18 @@ There is a very close relationship between this notion and sheaf theory. Locally
 ## sheaf-theoretic definition ##
 
 
-**Definition**
++-- {: .un_defn}
+###### Definition
 
 A **local system** is a locally constant [[sheaf]] on a [[topological space]] $X$ (or manifold, analytic manifold, or algebraic variety) whose stalk is a finite-dimensional vector space. 
+=--
 
-**Lemma**
++-- {: .un_lemma}
+###### Lemma
 
-On a connected topological space this is the same as a sheaf of sections of a finite-dimensional vector bundle equipped with flat connection; and it also corresponds to the representations of the [[fundamental group]] $\pi_1(X,x_0)$ in the typical stalk. On an analytic manifold or a variety, there is an equivalence between the category of non-singular coherent 
+On a connected topological space this is the same as a sheaf of sections of a finite-dimensional vector bundle equipped with flat connection; and it also corresponds to the [[representations]] of the [[fundamental group]] $\pi_1(X,x_0)$ in the typical stalk. On an analytic manifold or a variety, there is an equivalence between the category of non-singular coherent 
 $D_X$-[[D-module|modules]] and local systems on $X$.
+=--
 
 
 #Examples#
