@@ -4,7 +4,7 @@ BV theory is the answer to two different questions:
 
  * **Hamiltonian BV**: taking quotients of [[Poisson manifold]]s by group actions;
 
- * **Lagrangian BV**: integrating forms over [[NQ-supermanifold]]s.
+ * **Lagrangian BV**: integrating forms over [[NQ-supermanifolds]].
 
 ##Hamiltonian BV## 
 
@@ -52,8 +52,8 @@ _Quantization of Donaldson-Uhlenbeck-Yau theory_
 ###Idea###
 
 * Lagrangian BV-formalism is a means to describe 
-[[integration over supermanifolds]] for [[NQ-supermanifold]]s given by $L_\infty$-[[Lie infinity-algebroid|algebroid]]s.
-(Recall that in the physics literture the function algebra of these [[NQ-supermanifold]]s is addressed as the [[BRST complex]].)
+[[integration over supermanifolds]] for [[NQ-supermanifolds]] given by $L_\infty$-[[Lie infinity-algebroid|algebroid]]s.
+(Recall that in the physics literture the function algebra of these [[NQ-supermanifolds]] is addressed as the [[BRST complex]].)
 
 
 
@@ -108,7 +108,7 @@ See [[examples for Lagrangian BV]].
 There ought to be a close relation between the 
 integration over $L_\infty$-[[Lie infinity-algebroid|algebroid]]s using BV-formalism and the notion of [[groupoid cardinality]]
 for finite groupoids, which was recently generalized to 
-a notion of [[volume of Lie groupoids]].
+a notion of [[volume of a Lie groupoid]].
 
 
 
@@ -133,7 +133,7 @@ The interpretation of the BV quantum master equation as a description of closed 
 
 * E. Witten, 
 _A note on the antibracket formalism_
-Modern Physics Letters A, 5 7, 487 - 494
+Modern Physics Letters A, 5 7, 487--494
 ([scan](http://ccdb4fs.kek.jp/cgi-bin/img_index?9004090))
 
 
