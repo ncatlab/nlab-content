@@ -10,14 +10,14 @@ Another obvious question to ask is what tools and techniques can be extrapolated
 
 #Examples#
 
-According to the general nonsense of [[space and quantity]], generalized smooth spaces are determined either by [[sheaf|sheaves]] on smooth test spaces, called [[smooth space]]s here, or by co-(pre)sheaves on these called [[structured generalized space]]s here.
+According to the general nonsense of [[space and quantity]], generalized smooth spaces may be determined by [[sheaf|sheaves]] on smooth test spaces, in which case we call them [[smooth space]]s here, or by co-(pre)sheaves on test spaces, in which case we call them [[structured generalized space]]s here.
 
 * [[smooth space|Smooth spaces]]
 
   * [[Chen space|Chen spaces]] (called _differentiable spaces_ in Chen's works).
   * [[diffeological space|Diffeological spaces]]
-  * [[Froelicher space|Frölicher spaces]]
   * [[smooth infinity-stack|Smooth infinity-stacks]]
+
     * [[differentiable stack|Differentiable stacks]]
     * [[orbifold|Orbifolds]]
 
@@ -28,6 +28,10 @@ According to the general nonsense of [[space and quantity]], generalized smooth 
   * [[stratifold|Stratifolds]]
   * [[polyfold|Polyfolds]]
   * [[derived smooth manifold|Derived smooth manifolds]]
+
+* both
+
+  * [[Froelicher space|Frölicher spaces]]
 
 
 The relationships between (some) of the categories can be sumarised by the following diagram.
