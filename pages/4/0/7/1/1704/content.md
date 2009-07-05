@@ -13,11 +13,11 @@ For motivation, background and further details see
 
 #Definition#
 
-Let $C$ be an [[(infinity,1)-topos]], i.e. an [[(infinity,1)-category of (infinity,1)-sheaves]] whose objects behave as used to from [[topological space]]s, but are actually _parameterized_ topological spaces (for instance [[generalized smooth space|smooth]] spaces), namely [[infinity-stack]]s.
+Let $\mathbf{H}$ be an [[(infinity,1)-topos]], i.e. an [[(infinity,1)-category of (infinity,1)-sheaves]] whose objects behave as used to from [[topological space]]s, but are actually _parameterized_ topological spaces (for instance [[generalized smooth space|smooth]] spaces), namely [[infinity-stack]]s.
 
-Let $\mathbf{B} G$ be a one-object $\infty$-groupoid in $C$, defining an $\infty$-group $G$. 
+Let $\mathbf{B} G$ be a one-object $\infty$-groupoid in $\mathbf{H}$, defining an $\infty$-group $G$. 
 
-Then for $X$ any object in $C$, a $G$-principal $\infty$-bundle $P \to X$ is a [[fibration sequence|homotopy fiber]] of a morphism  $X \to \mathbf{B} G$
+Then for $X$ any object in $\mathbf{H}$, a $G$-principal $\infty$-bundle $P \to X$ is a [[fibration sequence|homotopy fiber]] of a morphism  $X \to \mathbf{B} G$
 
 $$
   \array{
@@ -33,7 +33,75 @@ for some classifying morphism $g : X \to \mathbf{B} G$.
 
 Notice that $g$ is a cocycle in the [[nonabelian cohomology|nonabelian]] [[cohomology]] on $X$ with coefficients in $G$.
 
-The morphisms of principal $\infty$-bundles are to be such that the [[infinity-groupoid]] $G Bund(X)$ of $G$-principal $\infty$-bundles on $X$ is naturally equivalent to the cocycle $\infty$-groupoid $Hom_C(X, \mathbf{B} G)$
+Also notice that every such object naturally comes equipped with a coherent [[action]] of $G$ obtained by further pulling back $P \to X$ along the [[simplicial object]] in $\mathbf{H}$ given by the [[homotopy pullback|homotopy fiber product]] of ${*} \to \mathbf{B}G$ along itself
+
+$$
+ \array{
+   &\cdots&
+   {*} \times_{\mathbf{B}G} {*} 
+   \times_{\mathbf{B}G} {*}
+   &\stackrel{\to}{\stackrel{\to}{\to}}&
+   {*} \times_{\mathbf{B}G} {*} 
+   &\stackrel{\to}{\to}& 
+   {*} 
+   &\to& 
+   \mathbf{B}G
+ }
+$$
+
+which by the discussion at [[fibration sequence]] is
+
+$$
+ \array{
+  &\cdots&
+  G \times G
+  &\stackrel{\to}{\stackrel{\to}{\to}}&
+  G 
+  &\stackrel{\to}{\to}&
+  {*} 
+  &\to& 
+  \mathbf{B}G
+ }
+  \,.
+$$
+
+Now from any $X \to \mathbf{B} G$ we obtain another simplicial object $P \times G^{\times n-1}$ with a map to the above of the form
+
+$$
+ \array{
+  &\cdots&
+  P \times G \times G
+  &\stackrel{\to}{\stackrel{\to}{\to}}&
+  P \times G 
+  &\stackrel{\to}{\to}& 
+  P 
+  &\to& 
+  X
+  \\
+  &\cdots&
+  \downarrow
+  &&
+  \downarrow
+  &&
+  \downarrow
+  &&
+  \downarrow
+  \\
+  &\cdots&
+  G \times G
+  &\stackrel{\to}{\stackrel{\to}{\to}}&
+  G 
+  &\stackrel{\to}{\to}& 
+  {*} 
+  &\to& 
+  \mathbf{B}G
+ }
+  \,.
+$$
+
+This encodes the action of $G$ on $P$.
+
+The morphisms of principal $\infty$-bundles are to be such that they respect this action, so that the [[infinity-groupoid]] $G Bund(X)$ of $G$-principal $\infty$-bundles on $X$ is naturally equivalent to the cocycle $\infty$-groupoid $Hom_C(X, \mathbf{B} G)$
 
 $$
   G Bund(X) \simeq Hom_C(X, \mathbf{B} G)
