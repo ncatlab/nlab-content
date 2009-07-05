@@ -87,4 +87,9 @@ and in the introduction of
 * David Spivak, [Quasi-smooth derived manifolds](http://math.berkeley.edu/~dspivak/thesis2.pdf).
 
 
+The proof that [[simplicial object|simplicial]] [[algebra]]s are Quillen equivalent of [[differential graded algebra]]s -- so that derived stacks on simplicial algebras are the same as derived stacks on DGAs -- is in
+
+* Stefan Schwede, Brooke Shipley, Equivalences of monoidal model categories, Algebr. Geom. Topol. 3 (2003), 287--334 ([arXiv](http://arxiv.org/abs/math.AT/0209342)) .
+
+
 [[!redirects derived infinity-stack]]
