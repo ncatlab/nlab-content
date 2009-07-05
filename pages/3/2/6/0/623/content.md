@@ -166,7 +166,7 @@ The resulting structure is that of a [[hypercrossed complex]]. Typically one has
 $$N G_p \times N G_q \to N G_{p+q}.$$
 These are well understood in low dimensions, see the entry on [[hypercrossed complex]] for more details. 
 
-* Suppose that $G$ is a simplicial group with Moore complex $N G$, which satisfies $N G_k = 1$ for $k\gt 1$, then $(G_1,G_0,d_1,d_0)$ has the structure of a [[2-group]]. The interchange law is satisfied since the corresponding equation in $G_1$ is always the image of an element in $N G_2$, and here that must be trivial. If one thinks of the 2-group as being specified by a [[crossed module]] $(C,P,\delta, a)$, then in terms of the original simplicial group, $G$,  $N G_0 = G_0 = P$, $N G_1 \cong C$, $ \partial = \delta$ and the action of $P$ on $C$ translates to an action of $N G_0$ on $N G_1$ using conjugation by $s_0(p)$, i.e., for $p\in G_0$ and $c\in N G_1$, 
+* Suppose that $G$ is a simplicial group with Moore complex $N G$, which satisfies $N G_k = 1$ for $k\gt 1$, then $(G_1,G_0,d_1,d_0)$ has the structure of a [[2-group]]. The [[interchange law]] is satisfied since the corresponding equation in $G_1$ is always the image of an element in $N G_2$, and here that must be trivial. If one thinks of the 2-group as being specified by a [[crossed module]] $(C,P,\delta, a)$, then in terms of the original simplicial group, $G$,  $N G_0 = G_0 = P$, $N G_1 \cong C$, $ \partial = \delta$ and the action of $P$ on $C$ translates to an action of $N G_0$ on $N G_1$ using conjugation by $s_0(p)$, i.e., for $p\in G_0$ and $c\in N G_1$, 
 $$a(p)(c) = s_0(p)c s_0(p)^{-1}.$$
 
 
@@ -183,4 +183,4 @@ for instance [chapter III.2](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goer
 
 * Goerss, Jardine, _Simplicial Homotopy Theory_ ([web](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
  
-Notice that Goerss--Jardine write "normalized chain complex" for the complex that elsewhere in the literature would be called just "Moore complex", whereas what Goerss--Jardine call "Moore complex" is sometime maybe just called "alternating sum complex" .
+Notice that Goerss--Jardine write "normalized chain complex" for the complex that elsewhere in the literature would be called just "Moore complex", whereas what Goerss--Jardine call "Moore complex" is sometime maybe just called "alternating sum complex".
