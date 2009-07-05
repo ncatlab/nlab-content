@@ -10,6 +10,8 @@ Another obvious question to ask is what tools and techniques can be extrapolated
 
 #Examples#
 
+According to the general nonsense of [[space and quantity]], generalized smooth spaces are determined either by [[sheaf|sheaves]] on smooth test spaces, called [[smooth space]]s here, or by co-(pre)sheaves on these called [[structured generalized space]]s here.
+
 * [[smooth space|Smooth spaces]]
 
   * [[Chen space|Chen spaces]] (called _differentiable spaces_ in Chen's works).
