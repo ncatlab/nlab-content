@@ -341,3 +341,7 @@ An earlier description in terms of simplicial objects is
 In article not the total space of the bundle $P \to X$ is axiomatized, but the $\infty$-[[action groupoid]] of the action of $G$ on it.
 
 See the remarks at [[principal 2-bundle]].
+
+[[!redirects principal infinity-bundles]]
+[[!redirects principal ∞-bundle]]
+[[!redirects principal ∞-bundles]]
