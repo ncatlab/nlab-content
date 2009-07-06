@@ -30,7 +30,7 @@ with basepoint provided by the right vertical arrow.
 
 A loop space is an example of a [[homotopy-associative space]], or H-space. In fact, loop spaces admit a rich algebraic structure which arises from the fact that the based space $S^1$ carries a correspondingly rich co-algebraic structure, starting from the fact that the based space $S^1$ is an H-[[cogroup]]. 
 
-An important theoretical consideration is when an H-space, and particularly one having the type of a [[CW-complex]], has the homotopy type of a loop space of another CW-complex: $X \simeq \Omega Y$. In this circumstance, one calls $Y$ a **delooping** of $X$; an important example is where $X$ carries a topological group structure $G$, and $Y$ is the [[classifying space]] of $G$. 
+An important theoretical consideration is when an H-space, and particularly one having the type of a [[CW-complex]], has the homotopy type of a loop space of another CW-complex: $X \simeq \Omega Y$. In this circumstance, one calls $Y$ a **[[delooping]]** of $X$; an important example is where $X$ carries a topological group structure $G$, and $Y$ is the [[classifying space]] of $G$. 
 
 The most basic fact about deloopings is the shift in homotopy groups: 
 
@@ -38,7 +38,7 @@ The most basic fact about deloopings is the shift in homotopy groups:
 
 which follows straight from the adjunction $S \dashv \Omega$ plus the fact that the suspension of $S^n$ is $S^{n+1}$. (This isomorphism needs to be developed at greater length.) 
 
-The modern study of the question "when can an H-space be delooped?" was inaugurated by [[Jim Stasheff]]. The basic theorem is as follows (all spaces assumed to be CW-complexes): 
+The modern study of the question "when can an H-space be [[delooping|delooped]]?" was inaugurated by [[Jim Stasheff]]. The basic theorem is as follows (all spaces assumed to be CW-complexes): 
 
 +-- {: .un_theorem}
 ###### Theorem
