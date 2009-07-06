@@ -125,5 +125,9 @@ or rather rationally these are all equivalent languages.)
 
 =--
 
+
 [[!redirects Why (infinity,1)-categories?]]
 [[!redirects Why (∞,1)-categories?]]
+[[!redirects why (∞,1)-categories?]]
+[[!redirects why (∞,1)-categories]]
+[[!redirects why (infinity,1)-categories]]
