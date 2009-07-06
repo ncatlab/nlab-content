@@ -244,6 +244,13 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
   * [[descent for simplicial presheaves]]
 
+* [[groupoid object in an (infinity,1)-category]]
+
+  * [[Cech-nerve]]
+
+  * [[delooping]]
+
+    * [[quotient object]]
 
 * [[cohomology]]
 
