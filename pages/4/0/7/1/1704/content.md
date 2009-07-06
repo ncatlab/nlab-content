@@ -8,6 +8,7 @@ The notion of _principal $\infty$-bundle_ is a [[vertical categorification|categ
 For motivation, background and further details see 
 
 * [[motivation for sheaves, cohomology and higher stacks]]
+* [[principal bundle]]
 * [[gerbe]]
 * [[principal 2-bundle]].
 
@@ -33,7 +34,7 @@ for some classifying morphism $g : X \to \mathbf{B} G$.
 
 Notice that $g$ is a cocycle in the [[nonabelian cohomology|nonabelian]] [[cohomology]] on $X$ with coefficients in $G$.
 
-Also notice that every such object naturally comes equipped with a coherent [[action]] of $G$ obtained by further pulling back $P \to X$ along the [[simplicial object]] in $\mathbf{H}$ given by the [[homotopy pullback|homotopy fiber product]] of ${*} \to \mathbf{B}G$ along itself
+Also notice that every such object naturally comes equipped with a coherent [[action]] of $G$ obtained by further pulling back $P \to X$ along the [[simplicial object]] in $\mathbf{H}$ given by the [[homotopy pullback|homotopy fiber product]] of ${*} \to \mathbf{B}G$ along itself -- the [[groupoid object in an (infinity,1)-category]] given by the [[Cech nerve]] of ${*} \to \mathbf{B}G$ --
 
 $$
  \array{
@@ -64,6 +65,8 @@ $$
  }
   \,.
 $$
+
+See [[principal bundle]] for details on how this works for 1-bundles.
 
 Now from any $X \to \mathbf{B} G$ we obtain another simplicial object $P \times G^{\times n-1}$ with a map to the above of the form
 
@@ -232,7 +235,7 @@ $\infty$-bundles:
 +-- {: .un_theorem }
 ###### Theorem 
 
-Let now $C$ be a [[groupoid]] and for 
+Let now $C$ be a [[category]] and for 
 
 $$
   \rho_P : C \to SSet
@@ -243,6 +246,9 @@ equivalences of simplicial sets.
 
 +--{: .query}
 [[David Roberts]]: Do you mean ordinary functor or something weaker? Unless you have something weaker, then all those weak equivalences are actually isomorphisms. Also cf [[simplicial localization]].
+
+[[Urs Schreiber|Urs]]: right, $C$ is allowed to be a _category_, not required to be a groupoid. I have corrected that now. See the beginning of [Jardine's article](http://www.math.uiuc.edu/K-theory/0723/diagrams3.pdf).
+
 =--
 
 Let now for each object $c \in C$
