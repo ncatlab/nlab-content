@@ -15,7 +15,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-06
 
-*  [[Toby Bartels]]:  A question at [[cogroup]] about what we really want there.  (Surely more than just the empty set?)
+*  [[Toby Bartels]]:
+   *  I would like to suggest that the appearance of links to nonexistent pages is a *feature* that we should not break.  Thus we should not create blank pages (or pages that are blank except for redirects) but instead create pages only when we have something to put there.  Conversely, we shouldn\'t change links to go to redirected forms (as at [[geometric infinity-function theory]] currently) unless the redirects have actually been created.  If this means that we have things like `[[∞-foo|infinity-foo]]` (when nobody has written about $\infty$-foos yet), then we\'re no worse off than before we had redirects, and the appearance of links to nonexistent pages still tells us something.  (Note: there is some related discussion now hidden under July 3.)
+   *  A question at [[cogroup]] about what we really want there.  (Surely more than just the empty set?)
 
 * [[Urs Schreiber|Urs]] 
 
@@ -25,7 +27,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * provided explicit details at [[Cech cohomology]] for the general (nonabelian) case in low degree
 
-* [[Zoran Škoda]]: created [[small fibration]], added more general discussion on [[endomorphism monoids]]. 
+* [[Zoran ?koda]]: created [[small fibration]], added more general discussion on [[endomorphism monoids]]. 
 
 * [[Urs Schreiber|Urs]] created [[Cech cohomology]]
 
@@ -73,7 +75,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ## 2009-07-03
 
 *  [[Eric Forgy]] created [[exchange law]] blank (perhaps by accident?) and [[Toby Bartels]] wrote a very brief stub there.
-  * _Eric_: This was not an accident. I was cleaning some pages and wanted a redirect for [[exchange laws]], but [[exchange law]] did not exist yet, so I created it so I could insert a redirect assuming (correctly) that someone would fill in some content.
+   *  _Eric_: This was not an accident. I was cleaning some pages and wanted a redirect for [[exchange laws]], but [[exchange law]] did not exist yet, so I created it so I could insert a redirect assuming (correctly) that someone would fill in some content.
+   *  _Toby_:  I wouldn\'t agree with your assumption.  What I wrote there is not very useful; if I\'d waited to write it by choice rather than by necessity, then I would have written rather more.
 
 * [[Urs Schreiber|Urs]]
 
@@ -111,7 +114,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
     Evidently i shouldn't be discussing this here but in some entry. But it's time for me to go to bed now.
 
 
-* [[Zoran Škoda]] created [[grouplike element]]. It contains few words on Amitsur complex for a coring with a (semi-)grouplike. The aim is to soon (using the setup) introduce entries for connections for corings; and then correpsondence between falt connections and descent data in the comonadic and coring setups (after Menini et al; all coming back to the example which is the correspondence between 1-order costratifications and flat connections in the crystalline setup due Grothendieck). 
+* [[Zoran ?koda]] created [[grouplike element]]. It contains few words on Amitsur complex for a coring with a (semi-)grouplike. The aim is to soon (using the setup) introduce entries for connections for corings; and then correpsondence between falt connections and descent data in the comonadic and coring setups (after Menini et al; all coming back to the example which is the correspondence between 1-order costratifications and flat connections in the crystalline setup due Grothendieck). 
 
 * [[Urs Schreiber|Urs]]
 
@@ -120,7 +123,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
     * in that context created [[model structure on presheaves of simplicial groupoids]]
 
 
-* [[Zoran Škoda]] created [[coseparable coring]],[[Sweedler coring]], [[two dimensional sheaf theory]]; expanded [[stratifold]] (which was empty, but existing!), added a reference to [[fibration in a 2-category]] and somewhere else. I think that in K-theory delooping has a bit different multiple meanings which are related but are more procedures making from something what can not be delooped strictly in the sense of [[delooping]] to the delooping of something what is the best approximation of deloopable; there are procedures due to Quillen, Waldhausen, Karoubi etc. 
+* [[Zoran ?koda]] created [[coseparable coring]],[[Sweedler coring]], [[two dimensional sheaf theory]]; expanded [[stratifold]] (which was empty, but existing!), added a reference to [[fibration in a 2-category]] and somewhere else. I think that in K-theory delooping has a bit different multiple meanings which are related but are more procedures making from something what can not be delooped strictly in the sense of [[delooping]] to the delooping of something what is the best approximation of deloopable; there are procedures due to Quillen, Waldhausen, Karoubi etc. 
 
   * [[Urs Schreiber|Urs]]: the entry on [[two dimensional sheaf theory]] is motivated from some behind-the-scenes discussion Zoran and I are having -- Zoran rightly points out that the present characterization of [[derived stack]] may be wanting, as strictly speaking saying "derived stack" should be related to but not be regarded as equivalent to "higher stack on higher categorical site" -- what we really need eventually is more details on the To&#235;n-Vezzosi [work](http://www.math.uiuc.edu/K-theory/0579/) on higher topos theory in the context of SSet-enriched categories, 
 
