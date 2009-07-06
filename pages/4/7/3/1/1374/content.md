@@ -35,3 +35,5 @@ It monoidal structure is described in section 4.2
 That this is a symmetric monoidal structure is described in section  6 of
 
 * [[Jacob Lurie]], [[higher algebra|Commutative algebra]].
+
+[[!redirects stable (∞,1)-category of spectra]]
