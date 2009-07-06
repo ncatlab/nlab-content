@@ -1,0 +1,7 @@
+The topological K-theory of is defined starting from the category of finite-dimensional vector bundles on a space. In __algebraic K-theory__ one studies generalizations where this category is replaced by some other sufficiently nice category, like category of finitely generated projectives over a unital $k$-algebra, category of coherent sheaves over a noetherian schemes, category of locally free sheaves over a scheme, a triangulated category, Waldhausen category, Quillen exact category and alike. When one talks about algebraic K-theory of rings, one means the algebraic K-theory of the corresponding category of (one-sided) finitely-generated projective modules. 
+
+A K-theory should be given by a sequence of functors $K_i$ from some class of categories as above to abelian groups having some similarity to derived functors and cohomology theory for spaces. $K_0$ and $K_1$ are rather classical objects from 1950-s; higher K-groups are defined by Quillen in two steps: to a [[Quillen exact category]] $C$ one first associates a K-theory space $\mathcal{K}(C)$ (or in better versions, K-theory spectrum) and then defines K-groups as homotopy groups of that space 
+
+$$K_i(C)=\pi_i(\mathcal{K}(C)).$$  
+
+The K-theory space of $C$ in Quillen's version was obtained as a classifying space of the Quillen Q-construction applied to $C$. The Q-construction has been refined to more sofisticated delooping methods by Waldhausen, Karoubi and others. 
