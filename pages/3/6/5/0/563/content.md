@@ -6,6 +6,9 @@ A **pseudofunctor** is a specific algebraic notion of _weak $2$-[[2-functor|func
 Both are about equally represented in the literature that I have seen which gets confusing. (In other words, I'm confused!)
 
 _Toby_:  As you suggest, the two versions are equivalent, so in a way it doesn\'t make a difference.  But it might be nice to settle a convention in case we need it.
+
+
+[[Tim]]: I have been using (for the Menagerie) the idea that there are pseudofunctors presented in two equivalent flavours lax pseudofunctor and oplax ones. 
 =--
 
 
@@ -15,6 +18,8 @@ In general, there is not much reason to say "pseudofunctor" instead of "functor,
 [[Tim]]: This wording is inconsistent with general principles elsewhere in the Lab I think. Any 1-category or strict 2-category _is_ a bicategory by default. I cannot think of a wording that gets around that without destroying the good sense that the paragraph talks about.
 
 _Toby_:  How\'s this?
+
+[[Tim]]: Very good.
 =--
 
 Pseudo or weak functors are also to be distinguished from [[lax functor|lax]] and oplax functors, which preserve identities and composition only up to a  transformation in one direction or the other, which may be non-invertible.
