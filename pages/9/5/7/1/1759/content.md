@@ -15,9 +15,15 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-06
 
+* [[Urs Schreiber|Urs]]
+
+  * replied to [[Toby Bartels|Toby]] at [[cogroup]] (yes, that wasn't so good) and to [[David Roberts|David R.]] at [[principal infinity-bundle]] (yes, that was a typo)
+
 *  [[Toby Bartels]]:
    *  I would like to suggest that the appearance of links to nonexistent pages is a *feature* that we should not break.  Thus we should not create blank pages (or pages that are blank except for redirects) but instead create pages only when we have something to put there.  Conversely, we shouldn\'t change links to go to redirected forms (as at [[geometric infinity-function theory]] currently) unless the redirects have actually been created.  If this means that we have things like `[[∞-foo|infinity-foo]]` (when nobody has written about $\infty$-foos yet), then we\'re no worse off than before we had redirects, and the appearance of links to nonexistent pages still tells us something.  (Note: there is some related discussion now hidden under July 3.)
    *  A question at [[cogroup]] about what we really want there.  (Surely more than just the empty set?)
+
+      * [[Urs Schreiber|Urs]]: we want to say that pointed _spheres_ are co-groups, so that maps out of them, called homotopy groups, are, well, groups. Supposed to be dual to the statement that mapping _into_ a group coefficient object gives [[cohomology group]]s
 
 * [[Urs Schreiber|Urs]] 
 
