@@ -62,3 +62,7 @@ such that
 The defintion of symmetric monoidal quasi-category is definition 1.2 in 
 
 * [[Jacob Lurie]], [[higher algebra|Commutative algebra]]
+
+[[!redirects symmetric monoidal (infinity,1)-categories]]
+[[!redirects symmetric monoidal (∞,1)-category]]
+[[!redirects symmetric monoidal (∞,1)-categories]]
