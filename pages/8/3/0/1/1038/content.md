@@ -82,5 +82,7 @@ The homotopy category of a stable $(\infty,1)$-category is shown to be a [[trian
 ##16 Accessible t-Structures##
 
 
-
 category: reference
+
+[[!redirects Stable ∞-Categories]]
+[[!redirects Stable infinity-Categories]]
