@@ -62,3 +62,5 @@ For example, consider the bicategory $V-Mat$ of $V$-valued [[matrix|matrices]] f
 An [[fc-multicategory]] is a common generalization of a multicategory and a bicategory (and actually of a [[double category]]).  Among other things, it has objects, 1-cells, and "multi-2-cells."  We leave it to the reader to define a notion of tensor product of 1-cells in such a context, analogous to the tensor product of objects in a multicategory.  A multicategory can be regarded as a 1-object fc-multicategory, so this generalizes the notion of tensor product in a multicategory.
 
 On the other hand, in any bicategory (in fact, any double category) there is an fc-multicategory whose objects are monads and whose 1-cells are bimodules, and the tensor product in this fc-multicategory is the tensor product of modules in a bicategory defined above.  Thus, tensor products in an fc-multicategory include all notions of tensor product discussed above.
+
+[[!redirects tensor products]]
