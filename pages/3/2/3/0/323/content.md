@@ -124,3 +124,5 @@ Note that the concept of pullback is dual to the concept of [[pushout]]: that is
 * [[homotopy pullback]]
 * [[2-limit]] for pullbacks in a [[2-category]]
 * [[wide pullback]]
+
+[[!redirects pullbacks]]
