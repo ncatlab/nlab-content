@@ -1,20 +1,25 @@
-An $H$-space is a [[groupoid object in an (infinity,1)-category|group object in the (∞,1)-category]] [[Top]] . Or so.
 
-Wikipedia\'s definition is rather a [[magma]]-with-[[identity element|identity]] object in that $Top$.
+An $H$-space (at least one equivalent to a [[delooping|deloopable one]] ) is a [[groupoid object in an (infinity,1)-category|group object in the (∞,1)-category]] [[Top]] . 
 
+For more details see 
 
-See
-
-* [[loop space]]
-
-for more.
+* [[loop space]].
 
 
 #Reference#
 
-* [[Jim Stasheff]], I, II, ...
+The theory of $H$-spaces was established in
+
+* [[Jim Stasheff]], _Homotopy associative $H$-spaces I, II_, Trans. Amer. Math. Soc. 108, 1963, 275-312 
 
 For a historical account see
 
 * John McCleary, _An appreciation of the work of Jim Stasheff_ ([pdf](http://www.math.unc.edu/Faculty/jds/jds.pdf))
 
+The description in terms of [[groupoid object in an (infinity,1)-category]] is due to 
+
+* [[Jacob Lurie]], [[Higher Topos Theory]]
+
+see last remark of section 6.1.3 .
+
+Wikipedia\'s definition (at time of this writing) is rather a [[magma]]-with-[[identity element|identity]] object in [[Top]].
