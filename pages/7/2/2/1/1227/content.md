@@ -1,7 +1,6 @@
 #Idea#
 
 The notion of _ind-object_ and _ind-category_ in an [[(infinity,1)-category]] is the straightforward generalization of the notion of [[ind-object]] in an ordinary category. See there for idea and motivation.
-
 #Definition#
 
 The different equivalent definitions of ordinary [[ind-object]]s have their analog for [[(infinity,1)-category|(infinity,1)-categories]].
@@ -47,3 +46,7 @@ Section 5.3 and in particular 5.3.3 of
 
 
 [[!redirects ind-object (infinity,1)-category]]
+[[!redirects ind-object (infinity,1)-categories]]
+[[!redirects ind-object (∞,1)-category]]
+[[!redirects ind-object (∞,1)-categories]]
+[[!redirects ind-object in an (∞,1)-category]]
