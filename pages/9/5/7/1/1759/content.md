@@ -73,6 +73,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ## 2009-07-03
 
 *  [[Eric Forgy]] created [[exchange law]] blank (perhaps by accident?) and [[Toby Bartels]] wrote a very brief stub there.
+  * _Eric_: This was not an accident. I was cleaning some pages and wanted a redirect for [[exchange laws]], but [[exchange law]] did not exist yet, so I created it so I could insert a redirect assuming (correctly) that someone would fill in some content.
 
 * [[Urs Schreiber|Urs]]
 
