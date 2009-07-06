@@ -59,7 +59,7 @@ from [[(infinity,1)-presheaf|(infinity,1)-presheaves]] on $X$, which has a [[(in
   * $X$ is [[presentable (infinity,1)-category|presentable]];
   * [[limit in quasi-categories|(infinity,1)-colimit]]s in $X$ are universal;
   * [[coproduct]]s in $X$ are [[disjoint coproduct|disjoint]];
-  * every [[groupoid object]] in $X$ is [[quotient object|effective]]. 
+  * every [[groupoid object in an (infinity,1)-category|groupoid object]] in $X$ is [[quotient object|effective]] (i.e. has a [[delooping]]). 
 
 #References#
 
