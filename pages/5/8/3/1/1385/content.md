@@ -52,3 +52,5 @@ That this is in fact a symmetric monoidal structure is discussed in section 6 of
 * [[Jacob Lurie]], [[higher algebra|Commutative algebra]].
 
 see proposition 6.14 and remark 6.18.
+
+[[!redirects symmetric monoidal (∞,1)-category of presentable (∞,1)-categories]]
