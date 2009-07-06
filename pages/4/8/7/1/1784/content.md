@@ -10,6 +10,8 @@ But the only [[group object]] in $Set^{op}$ is empty.  Don\'t we really want to 
 
 [[Urs Schreiber|Urs]]: ah, that might be. Please save me here, I started wrting this when I realized it took me more thinking than I could afford, time-wise.  
 
+_Toby_:  Perhaps the only relevant concept is [[cogroup object]].  In the examples of spheres and homotopy groups, what matters is that the spheres are cogroup objects in pointed spaces; that\'s the relevant category.  (And a good thing too, since the only cogroup object in $Top$ itself is empty again!)
+
 =--
 
 
