@@ -14,7 +14,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-06
 
-* [[Urs Schreiber|Urs]] provided explicit details at [[Cech cohomology]] for the general (nonabelian) case in low degree
+* [[Urs Schreiber|Urs]] 
+
+  * rediscovered that we had an entry [[Cech methods]] and added lots of links to that
+
+  * provided explicit details at [[Cech cohomology]] for the general (nonabelian) case in low degree
 
 * [[Zoran Škoda]]: created [[small fibration]], added more general discussion on [[endomorphism monoids]]. 
 
