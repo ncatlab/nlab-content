@@ -95,3 +95,5 @@ The proof that [[simplicial object|simplicial]] [[algebra]]s are Quillen equival
 [[!redirects derived stacks]]
 [[!redirects derived infinity-stack]]
 [[!redirects derived infinity-stacks]]
+[[!redirects derived ∞-stack]]
+[[!redirects derived ∞-stacks]]
