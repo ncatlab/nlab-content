@@ -14,6 +14,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-06
 
+* [[David Corfield|David]]
+
+  * more suggestions than changes, but it would be good to have entries for [[cogroup]] and [[co-H-space]]. Could [[homotopy group]] and [[cohomology group]] be made to resemble each other more? I.e., must the former be restricted to $n$-spheres as domain?
+
 * [[Urs Schreiber|Urs]]
 
   * created [[groupoid object in an (infinity,1)-category]]
