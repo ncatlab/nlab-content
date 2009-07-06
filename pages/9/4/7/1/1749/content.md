@@ -44,5 +44,5 @@ $$
 $$
 as the **homotopy of $X$ with co-coefficients in $B$** (or efficients in $B$ if you want to be funny).
 
-Examples of such constructions exist, but are rarely thought of (or even recognized as) generalizations of the notion of homotopy. Rather, by the above dulity, the same situation is usually regarded in the context of [[cohomology]], which, still by the above duality, is just as well.
+Examples of such constructions exist, but are rarely thought of (or even recognized as) generalizations of the notion of homotopy. Rather, by the above duality, the same situation is usually regarded in the context of [[cohomology]], which, still by the above duality, is just as well.
 =--
