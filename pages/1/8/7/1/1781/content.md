@@ -1,1 +1,1 @@
-See the 1996 [preprint](http://www.math.uiuc.edu/K-theory/0170) by [Voevodsky](http://en.wikipedia.org/wiki/Vladimir_Voevodsky) and the [wikipedia](http://en.wikipedia.org/wiki/Milnor's_conjecture) article.
+See the 1996 [preprint](http://www.math.uiuc.edu/K-theory/0170) by [[Vladimir Voevodsky]] and the [wikipedia](http://en.wikipedia.org/wiki/Milnor's_conjecture) article.
