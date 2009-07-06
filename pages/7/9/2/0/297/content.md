@@ -143,3 +143,7 @@ As usual, the problem of constructing FQFT becomes much more tractable when line
   * [[factorization algebra]]
 
 * etc.
+
+[[!redirects FQFTs]]
+[[!redirects Functorial quantum field theory]]
+[[!redirects Functorial quantum field theories]]
