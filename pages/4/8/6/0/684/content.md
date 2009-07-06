@@ -149,3 +149,5 @@ $$
   \Omega \mathbf{B}G = G
   \,.
 $$
+
+[[!redirects loop space objects]]
