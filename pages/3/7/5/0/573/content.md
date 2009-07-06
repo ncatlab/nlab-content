@@ -25,3 +25,11 @@ The motivating example for $(\infty,n)$-categories is the [[(infinity,n)-categor
 
 [[!redirects (infinity,r)-category]]
 [[!redirects (infinity,k)-category]]
+[[!redirects (infinity,r)-categories]]
+[[!redirects (infinity,k)-categories]]
+[[!redirects (∞,n)-category]]
+[[!redirects (∞,n)-categories]]
+[[!redirects (∞,r)-category]]
+[[!redirects (∞,r)-categories]]
+[[!redirects (∞,k)-category]]
+[[!redirects (∞,k)-categories]]
