@@ -17,14 +17,14 @@ Eric: Hi Rafael. I like what you wrote, but I also like these nontechnical parag
 #What is category theory?#
 **Category theory** is so useful because it can be seen from so many perspectives.
 
-* The theory of [[category|categories]] as algebraic structures with several objects and a relation (morphism) algebra on these objects. Structures in abstract algebra have only one object in the categorical sense.
-* The theory of categories as primitive mathematical universes or spaces (nothing as fancy as a topos).
-* A unifying tool and language in mathematics.
-* A top-down foundation of mathematics (that is structural and more than just type theories).
-* An abstarction of an abstarction of an abstarction of ... The first level is sets and is as concrete. This is abstracted to categories (only some categories are categories of sets, hence the abstraction). The next abstraction is to categories of categories or more properly 2-categories. This can be iterated to n-categories and indefinitely. This could be called the theory of abstractions.
-* A description of partial symmetries. In the sense that groups describe some symmetries.
-* A generalized theory of representations.
-* The theory of combinatorial directed multigraphs with a composition law (and loops).
+* The theory of [[category|categories]] as [[essentially algebraic theory|essentially algebraic structures]] with several objects and a relation (morphism) algebra on these objects. Structures in ordinary [[algebraic theory|abstract algebra]], like [[monoid]]s, have only one object.
+* The theory of categories as primitive mathematical [[universe]]s or [[space]]s (nothing as fancy as a [[topos]]).
+* A unifying tool and language in [[mathematics]].
+* A top-down [[foundations|foundation of mathematics]] (that is structural and more than just type theories).
+* An abstraction of an abstraction of an abstraction of .... The first level is [[set]]s and is most concrete. This is abstracted to categories (only some categories are categories of sets, hence the abstraction). The next abstraction is to categories of categories or more generally $2$-[[2-category|categories]]. This can be iterated to $n$-[[n-category|categories]] and [[infinity-category|indefinitely]]. This could be called the theory of abstractions.
+* A description of partial [[symmetry|symmetries]], in the sense that [[group]]s describe symmetries.
+* A generalized theory of [[representations]].
+* The theory of combinatorial [[directed graph|directed multipseudographs]] with a [[composition]] law.
 * A theory of [[type theory|type theories]]. There is a bijection between categories and type theories.
 * A theory of [[deductive system]]s. There is a bijection between categories and deductive systems.
 
