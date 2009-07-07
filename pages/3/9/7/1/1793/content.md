@@ -1,7 +1,7 @@
 
 # Idea #
 
-Under the [[Dold-Kan correspondence]] there is an [[equivalence of categories]] relating non-negatively graded [[chain complex]]es in an [[abelian category]] $A$ to [[simplicial object]]s in $A$.
+Under the [[Dold–Kan correspondence]] there is an [[equivalence of categories]] relating non-negatively graded [[chain complex]]es in an [[abelian category]] $A$ to [[simplicial object]]s in $A$.
 
 $$
   Ch_+(A) \simeq A^{\Delta^{op}}
@@ -17,7 +17,7 @@ Analogous statements apply to the category of unbounded chain complexes and the 
 
 # History and references#
 
-Of course the above description of categories of chain complexes as ([[presentable (infinity,1)-category|presentations]] of ) special cases of (stable) $(\infty,1)$-categories is exactly opposite to the historical development of these ideas. 
+Of course the above description of categories of chain complexes as ([[presentable (infinity,1)-category|presentations]] of) special cases of (stable) $(\infty,1)$-categories is exactly opposite to the historical development of these ideas. 
 
 While the homotopical treatment of weak equivalences of chain complexes ([[quasi-isomorphism]]) of chain complexes is at the beginning of all studies of higher categories and a "folk theorem" ever since
 
@@ -25,7 +25,7 @@ While the homotopical treatment of weak equivalences of chain complexes ([[quasi
 
 it seems that the injective model structure on chain complexes has been made fully explicit in print only in proposition 3.13 of
 
-* Tibor Beke, _Sheafifiable homotopy model categories_ ([arXiv](http://arxiv.org/abs/math/0102087) [pdf](http://arxiv.org/PS_cache/math/pdf/0102/0102087v1.pdf))
+* Tibor Beke, _Sheafifiable homotopy model categories_ ([arXiv](http://arxiv.org/abs/math/0102087), [pdf](http://arxiv.org/PS_cache/math/pdf/0102/0102087v1.pdf))
 
 (at least according to the remark below that).
 
