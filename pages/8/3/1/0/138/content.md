@@ -1,11 +1,22 @@
 #Idea#
 
-_Hypercover_ is another word for 
-(local) [[acyclic fibration]] in 
-[[model category|model categories]] of _higher structures_ such as 
-[[globular set|globular sets]] and [[simplicial set|simplicial sets]] and the
-[[infinity-category|infinity-categories]] and
-[[omega-category|omega-categories]] based on them.
+Depending a bit on context, a _hypercover_ is a local weak equivalence or local acyclic fibration in the [[model structure on simplicial presheaves]] for a given [[site]] $C$.
+
+In particular, for $C = {*}$ the [[point]] hypercovers are hypercovers of [[simplicial set]]s and hence of [[topological space]]s.
+
+So a hypercover is a morphism $Y \to X$ of [[simplicial presheaf|simplicial presheaves]] (thought of a [[model category|models]] for [[infinity-stack]]s and hence for [[motivation for sheaves, cohomology and higher stacks|generalized spaces]]) that exhibits $Y$ as a possibly big "puffed-up" version of $X$.
+
+The term hypercover is to be read in contrast with the term [[Cech cover]] of which it is, in general, a generalization.  If all hypercovers are [[Cech cover]]s one deals with the [[Cech model structure on simplicial presheaves]]. The [[hom-set]]s in the corresponding [[homotopy category]] are then [[Cech cohomology]].
+
+More generally in the standard [[local model structure on simplicial presheaves]] hypercovers are the local ([[stalk]]wise if the [[sheaf]] [[topos]] $Sh(C)$ has [[point of a topos|enough points]]) weak equivalences (local acyclic fibrations), of which there are more than [[Cech cover]]s. One also speaks of the _hypercompletion_ of the Cech model. 
+
+Generally, [[cohomology]] defined in terms of the [[(infinity,1)-topos]] [[presentable (infinity,1)-category|presented]] by the hypercompleted [[local model structure on simplicial presheaves]] has been regarded as the "right" notion of cohomology. In particular that coincides with standard [[abelian sheaf cohomology]] when restricted to the abelian case.
+
+On the other hand, more rencently in
+
+* [[Jacob Lurie]], [[Higher Topos Theory]]
+
+it is argued that the [[(infinity,1)-topos]] coming from just localizing at [[Cech cover]]s is in fact better behaved in many respects.
 
 #Origin of the term#
 
