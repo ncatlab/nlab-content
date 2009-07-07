@@ -549,9 +549,11 @@ and hence identifies $Hom(F,G)$ indeed as the set of [[descent]] data for the [[
 # Interpretation in terms of higher descent and codescent #
 
 
-This description contains in it the seed of its generalization from the context of [[sheaf|sheaves]] to that of [[descent]] for [[infinity-stack]]s: 
+This description contains in it the seed of its generalization from the context of [[sheaf|sheaves]] to that of [[descent]] for [[infinity-stack]]s. 
 
-for $Y := \coprod_i U_i$ a cover, there is a [[simplicial presheaf]] $ Y_\bullet$ -- the [[Cech nerve]] of the cover -- that in degree $n$ is the $(n+1)$-fold [[fiber product]] $Y_n = Y^{[n+1]} = Y \times_X Y \times_X \cdots \times_X Y$.
+See also the discussion at [[Cech cover]].
+
+For $Y := \coprod_i U_i$ a cover, there is a [[simplicial presheaf]] $ Y_\bullet$ -- the [[Cech nerve]] of the cover -- that in degree $n$ is the $(n+1)$-fold [[fiber product]] $Y_n = Y^{[n+1]} = Y \times_X Y \times_X \cdots \times_X Y$.
 
 This may be regarded as an [[infinity-groupoid]] valued presheaf.
 
@@ -579,7 +581,6 @@ $$
 $$
 
 simply because all the higher morphism of $Codesc(Y)$ have to map to identity morphisms in $A$.
-
 
 
 
