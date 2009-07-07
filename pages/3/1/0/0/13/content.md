@@ -4,4 +4,7 @@ The readers here may be especially interested in my PhD dissertation, [Higher Ga
 
 I now have [[Toby Bartels:HomePage|my own personal web here]], although not much is on it yet.
 
+
 category: people
+
+[[!redirects Toby Bartels, from http://en[dot]wikipedia[dot]org/wiki/File:Suspension[dot]svg]]
