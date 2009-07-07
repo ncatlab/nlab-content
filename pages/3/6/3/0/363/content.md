@@ -9,6 +9,7 @@ A **Gray-category** is a category [[enriched category|enriched]] over the symmet
 #Coherence Theorem#
 
 Gordon, Power, and Street proved that every [[tricategory]] (that is, weak 3-category) is equivalent to a Gray-category.  Not every tricategory is equivalent to a fully strict 3-category; any doubly-degenerate [[braided monoidal category]] which is not [[symmetric monoidal category|symmetric]] is an example.  So this is "the best one can do" in one sense, although there are other incomparable paths one can take, such as [[Simpson's conjecture|weakening units]] but keeping interchange strict.
+The inclusion of Gray-categories into tricategories is non-canonical -- there is a left and right-hand version (from a remark in Example 9.3.9 of Leinster's book cited below). 
 
 #References#
 
@@ -16,5 +17,6 @@ Gordon, Power, and Street proved that every [[tricategory]] (that is, weak 3-cat
 
 * Nick Gurski, _Algebraic tricategories_, Ph. D. Thesis.
 
+* Tom Leinster, Higher operads, higher categories
 
 [[!redirects Gray category]]
