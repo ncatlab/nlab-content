@@ -20,16 +20,16 @@ A probably incomplete list is:
 
 * Pure category theory (vaguely category theory without the use of any other branches of mathematics except essential concepts from them).
 * Categorical abstract algebra, including [[representation theory]] of abstract algebraic structures and [[universal algebra]].
-* [[Homological algebra]].
-* [[Homotopical algebra]].
-* Topology using categories. It includes [[algebraic topology]],[[categorical topology]],[[quantum topology]],[[low dimensional topology]].
-* [[internal logic|Categorical logic]] and set theory in the categorical context such as [[algebraic set theory]].
-* Foundations of mathematics building on categories, for instance [[topos theory]].
-* Abstract geometry, including [[algebraic geometry]] on the level of schemes and above, [[categorical noncommutative geometry]], different categorifications of differential geometry, etc. 
-* [[Categorical quantization]] (in mathematics).
-* [[Applied category theory]]. Especially to mathematical physics, computer science and dynamical systems ([[categorical dynamics]]).
+* [[homologica algebra|Homological algebra]].
+* [[homotopical algebra|Homotopical algebra]].
+* Topology using categories. It includes [[algebraic topology]], [[categorical topology]] (see [[topological concrete category]] for a bit of this), [[quantum topology]], [[low-dimensional topology]].
+* [[internal logic|Categorical logic]] and [[set theory]] in the category-theoretic context such as [[algebraic set theory]].
+* [[foundations|Foundations]] of mathematics building on categories, for instance [[topos theory]].
+* Abstract [[geometry]], including [[algebraic geometry]] on the level of schemes and above, categorical [[noncommutative geometry]], different categorifications of [[differential geometry]], etc. 
+* [[categorical quantization|Categorical quantization]] (in mathematics).
+* [[applied category theory|Applied category theory]]. Especially to mathematical [[physics]], [[computer science]] and [[dynamic system]]s (categorical dynamics).
 
-Most of these include some higher dimensional category theory. Some would regard category theory as the human activity of [[category theorists]].
+Most of these include some [[higher category theory]]. Some would define category theory as the human activity of [[category theorists]].
 
 #category theory entries#
 * [[(-1)-category]]
