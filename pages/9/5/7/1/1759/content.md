@@ -12,7 +12,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+
 ## 2009-07-07
+
+*  [[Toby Bartels]]:  Started [[suspension]] to fill links.  (We already have [[reduced suspension]].  There\'s also a suspension defined at [[delooping]] which doesn\'t seem to be quite the same; what\'s the connection?)
 
 * [[David Corfield|David]]
 
@@ -23,7 +26,6 @@ These comments should go in _reverse_ chronological order, so that the latest ar
   * created [[Cech cover]] and [[Cech model structure on simplicial presheaves]]
 
     * in that context also rewrote and expanded the introduction at [[hypercover]] and included corresponding links at [[model structure on simplicial presheaves]].
-
 
   * I notice that [[Timeline of category theory and related mathematics]] is a renamed version of the original Sandbox(!). (As you can see by clicking on its "history" link. But also the current [[Sandbox]]'s very first link claims to lead to the historical Sandbox, but takes on to the Sandbox poage with title "Timeline of category theory-...") I guess that's not intended. 
 
@@ -36,6 +38,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
   * Reminds Urs that he no longer needs to type <nowiki>[[Urs Schreiber|Urs]]</nowiki> because there is now a redirect from [[Urs]] to [[Urs Schreiber]]., i.e. the link <nowiki>[[Urs]]</nowiki> points to [[Urs]]. Try it! :)
 
   * Along similar lines, after seeing <nowiki>[[internalization|internal to]]</nowiki> about a million times, I just added a redirect so that typing <nowiki>[[internal to]]</nowiki> gets redirected automatically to [[internal to]]. Try it! :)
+
 
 ## 2009-07-06
 
