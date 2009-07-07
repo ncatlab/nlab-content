@@ -1,7 +1,7 @@
 #Idea#
 
 
-The [[model category|model structure]] $SPSh(C)$ on [[SSet]]-[[enriched functor category|enriched presheaves]] is supposed to be a [[presentable (infinity,1)-category|presentation]] of the [[(infinity,1)-category of (infinity,1)-sheaves]] on an [[SSet-site]] $C$.
+The [[model category|model structure]] $SPSh(C)$ on [[SSet]]-[[enriched functor category|enriched presheaves]] is supposed to be a [[presentable (infinity,1)-category|presentation]] of the [[(infinity,1)-category of (infinity,1)-sheaves]] on an $SSet$-enriched [[site]] $C$.
 
 It generalizes the [[model structure on simplicial presheaves]] which is the special case obtained when $C$ happens to be just an ordinary [[category]].
 
@@ -14,7 +14,7 @@ The construction of the model structure on [[SSet]]-[[enriched category|enriched
 To define the [[model category|model structure]] first consider the ordinary [[category]]
 
 $$
-  SPSh(C) := SSet-Cat(C^{op}, SSet)
+  SPSh(C) := SSet Cat(C^{op}, SSet)
 $$
 
 of [[SSet]]-[[enriched functor]]s.
@@ -46,3 +46,5 @@ The theory of model structures on SSet-enriched presheaf categories was develope
 
 * [[Bertrand Toen]], Gabriele Vezzozi, _Topos Theory_ ([arXiv](http://arxiv.org/abs/math/0207028))
 
+
+[[!redirects model structure on SimpSet-enriched presheaves]]
