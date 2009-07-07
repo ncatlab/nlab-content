@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * I notice that [[Timeline of category theory and related mathematics]] is a renamed version of the original Sandbox(!). (As you can see by clicking on its "history" link. But also the current [[Sandbox]]'s very first link claims to lead to the historical Sandbox, but takes on to the Sandbox poage with title "Timeline of category theory-...") I guess that's not intended. 
 
+    *  This came about because [[Rafael Borowiecki]] created the [[Timeline of category theory and related mathematics|Timeline]] by moving the [[Sandbox]] instead of as a new page.  So I was faced with the choice to move it back and then create Rafael\'s page properly or to just recreate the Sandbox instead.  So I recreated the Sandbox but then put a note at the top in case anybody wants to see the history of that page, which is now at the [[Timeline of category theory and related mathematics|Timeline]].  (But now that it\'s been more than half an hour, I can remove that note; anyone looking through the history will still see it.)  ---Toby
+
   * tried to improve the exposition at [[groupoid object in an (infinity,1)-category]]. More to be done eventually, though.
 
 * [[Eric]]
