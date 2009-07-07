@@ -4,6 +4,8 @@ If we take a [[pointed set|pointed space]] $(X,x_0)$, then its *reduced suspensi
 
 (Think of crushing the two ends of the cylinder and the line through the base point to a point.) 
 
+Compare the [[suspension]] $S X$, where there is no basepoint and only the ends of the cylinder are crushed.
+
 ##Definition
 For a pointed space $(X,x_0)$,
 $$\Sigma X = (I\times X)/\{0,1\}\times X\cup I\times \{x_0\}$$
