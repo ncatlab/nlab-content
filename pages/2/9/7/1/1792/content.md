@@ -2,7 +2,7 @@
 
 The suspension $S X$ of a [[topological space]] $X$ is a space of one higher dimension, which is (for [[inhabited set|inhabited]] $X$) a [[quotient object|quotient space]] of $X \times [0,1]$.  The difference between $S X$ and $X \times [0,1]$ is that the copy of $X$ at each endpoint ($0$ or $1$) is replaced by a single point.
 
-[[!include suspension/commons]]
+Check out [this picture](http://secure.wikimedia.org/commons/wiki/File:Suspension.svg) until such time as I can get Instiki to accept it.  (This shows the suspension of the blue circle as $X$; the green dots correspond to $2$ in the first definition below.)
 
 Note that we *replace* $X$ by a single point at each endpoint; we don\'t merely *identify* all of the points in $X$ there.  This only makes a different for the [[empty space]]; we should have $S \empty = \{\bot,\top\}$, not $S \empty = \empty$.  (This is related to the issues in the definition of [[connected space]].)
 
