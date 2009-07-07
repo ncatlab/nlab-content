@@ -7,6 +7,8 @@ If i had started a little later when nLab existed i would write in nLab from the
 
 [[Urs Schreiber|Urs]]: I like this idea. Why is the timeline here only 3 items long at the moment? Was there some technical problem with the migration? Should we all invest energy into migrating more of the material, or are you planning to do this?
 
+Rafael: I am just learning the nLab wiki syntax and rules. A preview when you edit an entry would be of enormous help. If i just cut and paste i have no idea how the wikipedia syntax will be interpreted. Hence i expect a lot of work. It is also a little more work than just cut and paste: the links must be changed/renamed to make more sense. If you know how to automate the copying process or any good idea how to efficiently migrate please help me out. It sounds like you know an easy way Urs.
+
 =--
 
 #Timeline#
