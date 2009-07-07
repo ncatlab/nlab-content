@@ -1,5 +1,7 @@
 [[!include contents]]
 
+#Idea#
+
 Unsurprisingly, **category theory** is the theory of [[category|categories]].
 
 But maybe surprisingly, category theory turns out to be much more than the study of a particular mathematical structure. The degree to which category theory for instance is more encompassing than [[group theory]] is more drastic than the simple straightforward generalization from the mathematical structure [[group]] to the mathematical structure [[category]] might suggest. This is one of the main reasons for interest in category theory: it seems to provide a unified language for mathematics.
@@ -7,6 +9,9 @@ But maybe surprisingly, category theory turns out to be much more than the study
 +--{.query}
 Rafael: Eric, the first section don't have a headline and it also don't bring much new information that is not in the section what is category theory.
 Is the first section really necessary?
+
+Eric: Hi Rafael. I like what you wrote, but I also like these nontechnical paragraphs that Urs writes. It's not so important to be efficient, so I'd be hesitant about deleting material that others might find helpful. We often have an opening paragraph that is very light in nature like that. I added a common heading we use for such colloquial paragraphs: "Idea".
+
 =--
 
 #What is category theory?#
