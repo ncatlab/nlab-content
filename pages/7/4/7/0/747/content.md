@@ -33,7 +33,9 @@ More precisely
 
 * the [[global model structure on simplicial presheaves]] on a category is a [[presentable (infinity,1)-category|presentation]] of the [[(infinity,1)-category of (infinity,1)-presheaves]];
 
-* the [[local model structure on simplicial presheaves]] on a [[site]] is a [[presentable (infinity,1)-category|presentation]] of the [[(infinity,1)-category of (infinity,1)-sheaves]];
+* the [[Cech model structure on simplicial presheaves]] on a [[site]] is a [[presentable (infinity,1)-category|presentation]] of the [[(infinity,1)-category of (infinity,1)-sheaves]];
+
+* the [[local model structure on simplicial presheaves]] on a [[site]] is a [[presentable (infinity,1)-category|presentation]] of the _hypercompletion_ of the [[(infinity,1)-category of (infinity,1)-sheaves]] (see the discussion at [[hypercover]]).
 
 * the [[Bousfield localization]] of the global [[model category]] structure to the local one presents the corresponding [[localization of an (infinity,1)-category]] from presheaves to sheaves, mimicking the corresponding statement for a [[category of sheaves]].
 
