@@ -19,6 +19,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
    *  Gave Tim a link at [[category theory]].
    *  Started [[suspension]] to fill links.  (We already have [[reduced suspension]].  There\'s also a suspension defined at [[delooping]] which doesn\'t seem to be quite the same; what\'s the connection?)
 
+      * [[Urs Schreiber|Urs]]: when passing from topological spaces to spectra, suspension of spaces becomes the suspension mentioned at delooping: that in a [[stable (infinity,1)-category]], I'd say
+
 * [[David Corfield|David]]
 
   * added to [[co-H-space]]. It's not looking very much like a dual version of [[H-space]].
