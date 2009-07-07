@@ -35,3 +35,5 @@ $$
 $$
 
 In an [[(∞,1)-topos]] every groupoid object is [[delooping|deloopable]].
+
+[[!redirects groupoid object in an (∞,1)-category]]
