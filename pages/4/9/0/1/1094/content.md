@@ -71,6 +71,10 @@ really unnecessary for the examples above?
 
 #Construction#
 
+## In terms of matching families ##
+
+A concrete component-based construction of sheafification proceeds via [[matching family|matching families]]. See there for details.
+
 ## In terms of local isomorphisms ##
 
 Encoding the [[Grothendieck topology]] on $S$ equivalently in a system of [[local isomorphism]]s, sheafification can be expressed as follows.
@@ -93,7 +97,6 @@ $$
    Hom_{PSh(S)}(\hat U, F)
   \,,
 $$
-
 
 
 
