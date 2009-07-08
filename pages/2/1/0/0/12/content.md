@@ -342,7 +342,7 @@ The framework of dg-categories and dg-functors is too narrow for many problems, 
 
 |Year| |Contributors     | |Event|
 |----|-|-----------------|-|-----|
-|1993| |[[John Barret (mathematician)|John Barret]]-Bruce Westbury| |[[Spherical categories]]: [[Monoidal category|Monoidal categories]] with duals for diagrams on spheres instead for in the plane|
+|1993| |[[John Barrett (mathematician)|John Barrett]]-Bruce Westbury| |[[Spherical categories]]: [[Monoidal category|Monoidal categories]] with duals for diagrams on spheres instead for in the plane|
 |1993| |[[Maxim Kontsevich]]| |[[Kontsevich invariant]]s for knots (are perturbation expansion Feynman integrals for the [[Witten functional integral]]) defined by the Kontsevich integral. They are the universal [[Vassiliev invariant]]s for knots|
 |1993| |Daniel Freed| |A new view on [[TQFT]] using [[modular tensor categories]] that unifies 3 approaches to TQFT (modular tensor categories from path integrals)|
 |1994| |Francis Borceux| |Handbook of categorical algebra (3 volumes)|
