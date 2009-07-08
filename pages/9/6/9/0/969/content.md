@@ -1,6 +1,6 @@
 #Idea#
 
-The **localization** of a [[category]] $C$ at a class of [[morphism]]s $W$ is the universal solution to making the morphisms in $W$ into [[isomorphism]]s; it is written $C[W^{-1}]$ or $W^{-1}C$.
+The **localization** of a [[category]] $C$ at a class of [[morphism]]s $W$ is the universal solution to making the morphisms in $W$ into [[isomorphism]]s; it is written $C[W^{-1}]$ or $W^{-1}C$ and often also (deserves to be) called the [[homotopy category]] of $C$ with respect to $W$.
 
 ## Terminology ##
 
