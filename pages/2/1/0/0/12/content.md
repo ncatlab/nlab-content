@@ -48,6 +48,8 @@ Every entry should include:
 
 +-- {: .query}
 On the contrary, I think that we should keep entries in the table short and save explanations and definitions for the links.  The key is too choose intelligent links, especially for concepts that don\'t yet have entries.  Compare the [[HowTo|naming conventions]] and the [current page names](http://ncatlab.org/nlab/list) (ignoring those with `-- history` in the name, which tend to be ill formed).  ---Toby
+
+Rafael: It depends how short. I had nontechnical definitions in mind but sometime i only have technical definitions. It is no point in only giving a link in each entry under event. On the other hand the longest entries are too long. It is no harm in repeating intuitive definitions and the point of the subjects from the links in the timeline. Just as it is no harm in moving/copying information from the timeline to the links as long as there is something to read in the timeline.
 =--
 
 #Timeline#
