@@ -13,7 +13,7 @@ Is the first section really necessary?
 Eric: Hi Rafael. I like what you wrote, but I also like these nontechnical paragraphs that Urs writes. It's not so important to be efficient, so I'd be hesitant about deleting material that others might find helpful. We often have an opening paragraph that is very light in nature like that. I added a common heading we use for such colloquial paragraphs: "Idea".
 
 Rafael:
-I like the idea sections. But this section looks more to me like an introduction section than an idea section. I would be glad if someone, maby Urs, could reformulate it to make the perspective of an idea more explicit. Then maby Urs had that in mind but just did't put a headline.
+I like the idea sections. But this section looks more to me like an introduction section (or even more a nontechnical what is category theory section) than an idea section. I would be glad if someone, maby Urs, could reformulate it to make the perspective of an idea more explicit. Then maby Urs had that in mind but just did't put a headline.
 =--
 
 #What is category theory?#
