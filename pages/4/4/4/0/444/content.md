@@ -1,4 +1,33 @@
+# Idea #
+
+As soon as any [[locally small category]] $C$ comes equipped with a [[simplicial object|cosimplicial object]]
+
+$$
+  \Delta_C : \Delta \to C
+$$
+
+that we may think of as determining a [[geometric realization|realization]] of the standard $n$-[[simplex]] in $C$, we make every [[object]] of $C$ [[space and quantity|probeable]] by [[simplex|simplices]] in that there is now a way to find the set 
+
+$$
+  N(A)_n := Hom_C(\Delta_C[n],A)
+$$
+
+of ways to map the $n$-[[simplex]] into a given object $A$.
+
+These collections of sets evidently organize into a [[simplicial set]]
+
+$$
+  N(A) : \Delta^{op} \to Set
+  \,.
+$$
+
+This [[simplicial set]] is called the _nerve_ of $A$ (with respect to the chosen [[geometric realization|realization]] of the standard simplicies in $C$).
+
+There various obvious generalizations of this procedure, some of which described below.
+
 #Definition#
+
+> (notice that for the moment the following gives just one particular case of the more general notion of nerver)
 
 Let $S$ be one of the categories of [[geometric shapes for higher structures]], such as the [[globe category]] $G$, the [[simplex category]] $\Delta$, the [[cube category]] $\Box$, the [[cycle category]] $\Lambda$ of Connes, or certain category $\Omega$ related to trees whose corresponding presheaves are [[dendroidal set]]s.
 
@@ -271,6 +300,27 @@ It is in this sense that a simplicial set that is a [[Kan complex]] but which do
 * This previous example is the restriction to [[1-category|1-categories]] of the nerve ("$\omega$-nerve") on [[strict omega-category|strict omega-categories]] which is induced by the [[oriental]]s $i := O : \Delta \to \omega Cat$. This nerve is not fully faithful.
 
 * When $C$ is the strict 1-category of [[2-category|2-categories]] or of [[bicategory|bicategories]] and homomorphisms of bicategories, and $S=\Delta$ the corresponding nerve is called the _Duskin nerve_.
+
+
+## nerve of chain complexes ##
+
+Let $Ch_+$ be the [[category of chain complexes]]
+of abelian groups. 
+
+Then there is a [[simplicial object|cosimplicial chain complex]]
+
+$$
+  C_\bullet : \Delta \to Ch_+
+$$
+
+given by sending the standard $n$-simplex $\Delta[n]$ first to the free [[simplicial group]] $F(\Delta[n])$ over it and then that to the normalized [[Moore complex]]. This is a small version of the ordinary [[homology]] [[chain complex]] of the standard $n$-[[simplex]].
+
+The nerve induced by this cosimplicial object was first considered in 
+
+* D. Kan, _Functors involving c.s.s complexes_, Transactions of the American Mathematical Society, Vol. 87, No. 2 (Mar., 1958), pp. 330-346 ([jstor](http://www.jstor.org/stable/1993103))
+
+The nerve/[[geometric realization|realization]] adjunction induced from this is the [[Dold-Kan correspondence]]. See there for more details.
+
 
 #Remarks# 
 
