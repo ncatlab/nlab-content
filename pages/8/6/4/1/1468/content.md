@@ -38,7 +38,17 @@ In addition to the notes provided by Alex Hoffnung below, there are also notes b
 
 * [[David Ben-Zvi]], [[DBZLecture4.ps:file]], talk notes by [[Alex Hoffnung]]
 
+The above instant talk notes have been refined into typeset lecture notes:
+
+* Orit Davidovich, Alex Hoffnung, _David Ben-Zvi, Workshop on TFTs at Northwestern_
+
+  * Lecture 1 ([blog](http://golem.ph.utexas.edu/category/2009/07/benzvis_lectures_on_topologica.html#more) [pdf](http://math.ucr.edu/~alex/Ncafe_postings/DBZ_lecture1.pdf))
+
 ### related $n$Lab entries ###
+
+* [[On the Classification of Topological Field Theories]]
+
+  * [[Dijkgraaf-Witten theory]]
 
 * [[geometric infinity-function theory]]
 
