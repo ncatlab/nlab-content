@@ -51,6 +51,8 @@ i have to change the code to HTML table markup?
 
 I tried it. See the test furthest down the page.
 I need help with the table! 
+
+David: I can see the milestone list being contentious. Anyway far more important to improve this timeline first. We could do with some experts looking it over. I'm sure most would include the effective topos concept much sooner than the quantum topos. I've transported out some of the material for a couple of lengthy entries, e.g., AST. It looks better to have entries of comparable length and with no breaks in the table, e.g., to define cosmoses.
 =--
 
 
