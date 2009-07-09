@@ -47,7 +47,11 @@ Such an object usually has the interpretation of a [[principal infinity-bundle]]
 Analogous to the above, but with $H$ now
 a [[stable (infinity,1)-category]]. 
 
++--{.query}
 
+[[Eric]]: Could someone explain how this relates to the version of <a href="http://en.wikipedia.org/wiki/Cohomology">cohomology I am familiar with</a>? Where is the coboundary?
+
+=--
 
 #Remarks#
 
