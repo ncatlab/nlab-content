@@ -40,7 +40,7 @@ The category of simplicial groups is the category of functors from $\Delta^{op}$
 
 
 +-- {: .un_theorem}
-###### Theorem
+###### Theorem (J. C. Moore)
 
 The [[simplicial set]] underlying any simplicial group
 (by forgetting the group structure) is a [[Kan complex]].
@@ -181,3 +181,7 @@ The algorithm for finding the horn fillers in a simplicial group is given in the
 theorem 17.1, page 67 of
 
 * P. May, _Simplicial Objects in Algebraic Topology_ .
+
+The theorem that every simplicial group is a Kan complex is originally due to
+
+* J. C. Moore, _Algebraic homotopy theory_, lecture notes, Princeton University, 1955-1956
