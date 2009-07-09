@@ -1,44 +1,23 @@
 [[!include contents]]
 
 #Idea#
-
-Unsurprisingly, **category theory** is the theory of [[category|categories]].
-
-But maybe surprisingly, category theory turns out to be much more than the study of a particular mathematical structure. The degree to which category theory for instance is more encompassing than [[group theory]] is more drastic than the simple straightforward generalization from the mathematical structure [[group]] to the mathematical structure [[category]] might suggest. This is one of the main reasons for interest in category theory: it seems to provide a unified language for mathematics.
-
-+--{.query}
-Rafael: Eric, the first section don't have a headline and it also don't bring much new information that is not in the section what is category theory.
-Is the first section really necessary?
-
-Eric: Hi Rafael. I like what you wrote, but I also like these nontechnical paragraphs that Urs writes. It's not so important to be efficient, so I'd be hesitant about deleting material that others might find helpful. We often have an opening paragraph that is very light in nature like that. I added a common heading we use for such colloquial paragraphs: "Idea".
-
-Rafael:
-I like the idea sections. But this section looks more to me like an introduction section (or even more a nontechnical what is category theory section) than an idea section. I would be glad if someone, maby Urs, could reformulate it to make the perspective of an idea more explicit. Then maby Urs had that in mind but just did't put a headline.
-=--
+Category theory was invented by Samuel Eilenberg and Saunders Mac Lane in the 1945 paper **General theory of natural equivalences**. The reason was to introduce functors, and the reason to introduced functors was to introduce natural transformations (more specifically natural equivalences) to define what natural means in mathematics. Another reason was the need to find a common language that would unify and simplify many advances in the 1930's. It was a clash of ideas from abstract algebra (Mac Lane) and topology (Eilenberg). The paper was first rejected on the ground that it had no content but was later published. Unexpectedly category theory has flourished into almost all areas of mathematics, has found many applications outside mathematics and even attempts to build a foundation of mathematics.
 
 #What is category theory?#
 **Category theory** is so useful because it can be seen from so many perspectives.
 
-* The theory of [[category|categories]] as [[essentially algebraic theory|essentially algebraic structures]] with several objects and a relation (morphism) algebra on these objects. Structures in ordinary [[algebraic theory|abstract algebra]], like [[monoid]]s, have only one object.
+* The theory of [[category|categories]] as [[essentially algebraic theory|essentially algebraic structures]] with several objects and a relation (morphism) "algebra" on these objects. Structures in ordinary [[algebraic theory|abstract algebra]], like [[monoid]]s, have only one object. This theory also include [[functor]]s between categories and [[natural transformation]]s.
 * The theory of categories as primitive mathematical [[universe]]s or [[space]]s (nothing as fancy as a [[topos]]).
 * A unifying tool and language in [[mathematics]].
 * A top-down [[foundations|foundation of mathematics]] (that is structural and more than just type theories).
 * An abstraction of an abstraction of an abstraction of .... The first level is [[set]]s and is most concrete. This is abstracted to categories (only some categories are categories of sets, hence the abstraction). The next abstraction is to categories of categories or more generally $2$-[[2-category|categories]]. This can be iterated to $n$-[[n-category|categories]] and [[infinity-category|indefinitely]]. This could be called the theory of abstractions.
 * A description of partial [[symmetry|symmetries]], in the sense that [[group]]s describe symmetries.
-* A generalized theory of [[representations]].
+* A generalized theory of [[representations]]. In this view every functor is a representation of its domain in its codomain and natural transformations are the [[intertwining operator]]s between representations.
 * The theory of combinatorial [[directed graph|directed multipseudographs]] with a [[composition]] law.
 * A theory of [[type theory|type theories]]. There is a bijection between categories and type theories.
 * A theory of [[deductive system]]s. There is a bijection between categories and deductive systems.
 
 #Branches of category theory#
-A good, but  imperfect perspective of category theory can be obtained from the [MSC subject classification (18-XX)](http://www.ams.org/mathscinet/msc/msc.html?t=18-XX) (but remember the current one is from 2000 and reflects ideas of the decade before that).  The subject has exploded into many new areas since.
-
-+--{.query}
-Rafael: Don't try to make logical sense of MSC. I have since very long abondoned it. It works better to bring chaos than order in a classification. The reason is that it was not made to classify mathematics but mathematical articles.
-
-I think that this section can with help grow into a much better classification. Or it could even become in time an entry. The aim is in any case not to need MSC.
-=--
-
 A probably incomplete list is:
 
 * Pure category theory (vaguely category theory without the use of any other branches of mathematics except essential concepts from them).
@@ -54,7 +33,7 @@ A probably incomplete list is:
 
 Most of these include some [[higher category theory]]. Some would define category theory as the human activity of [[category theorists]].
 
-#category theory entries#
+#Category theory entries#
 * [[(-1)-category]]
 * [[2-morphism]]
 * [[adjoint functor]]
