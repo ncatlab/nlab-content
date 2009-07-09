@@ -1,5 +1,5 @@
 
-&#268;ech cohomology is less a special kind of [[cohomology]] than a special algorithm (see [[Čech methods]]) for _computing_ cohomology classes.
+&#268;ech cohomology is less a special kind of [[cohomology]] than a special algorithm (see [[?ech methods]]) for _computing_ cohomology classes.
 
 
 On the other hand, while the algorithm always produces results that look like cohomology classes, these actually are the abstractly defined cohomology classes only under certain assumptions. Historically &#268;ech cohomology has often been understood as being defined as whatever that algorithm computes, and theorems would be proven that determine under which conditions such "&#268;ech cohomology" coincides with cohomology defined by other means, where "by other means" traditionally is: "in terms of right derived functor definition of [[abelian sheaf cohomology]]".
@@ -16,7 +16,7 @@ $$
 
 where the colimit is over all acyclic fibrations $Y \stackrel{\in W \cap }{\to} X$ in an appropriate [[model category]] $C_H$ that [[presentable (infinity,1)-category|presents]] $\mathbf{H}$. For $\mathbf{H}$ an [[infinity-stack]] [[(infinity,1)-topos]] this $C_H$ is a [[model structure on simplicial presheaves]] and the acyclic fibrations $Y \stackrel{\in W \cap F}{\to} X$ for $X$ an ordinary space are the [[hypercover]]s.
 
-Now, for some coefficient objects $A$ it is sufficient to take the colimit here not over all [[hypercover]]s, but just over [[Cech cover|Čech cover]]s. The resulting formula
+Now, for some coefficient objects $A$ it is sufficient to take the colimit here not over all [[hypercover]]s, but just over [[Cech cover|?ech cover]]s. The resulting formula
 
 $$
   H(X,A)
@@ -26,7 +26,7 @@ $$
 
 is then called the formula for **&#268;ech cohomology** on $X$ with values in $A$.
 
-Here a [[Cech cover|Čech cover]] is a simplicial presheaf that arises from an ordinary covering map $U \to X$ of $X$ by another space $U$ as the corresponding [[Čech nerve]] simplicial presheaf
+Here a [[Cech cover|?ech cover]] is a simplicial presheaf that arises from an ordinary covering map $U \to X$ of $X$ by another space $U$ as the corresponding [[?ech nerve]] simplicial presheaf
 
 $$
  \begin{aligned}
@@ -46,7 +46,7 @@ See [[descent for simplicial presheaves]] for more on the manipulations involved
 
 To amplify, a general [[hypercover]] would start in degree 0 with a $U$ as above, but then in the next degree would have a cover $V \to U \times_X U$ of the fiber product, and so on, each fiber product in turn being covered by another space.
 
-If $Y$ is not simply a [[Cech cover|Čech cover]] but also not the most general [[hypercover]] in that this iterative choice of further covering stops in degree $n$, then one also speaks of **&#268;ech cover of level $n$** and of the corresponding cohomology formula as **higher &#268;ech cohomology**. See for instance the reference by Tibor Beke below.
+If $Y$ is not simply a [[Cech cover|?ech cover]] but also not the most general [[hypercover]] in that this iterative choice of further covering stops in degree $n$, then one also speaks of **&#268;ech cover of level $n$** and of the corresponding cohomology formula as **higher &#268;ech cohomology**. See for instance the reference by Tibor Beke below.
 
 
 
@@ -590,8 +590,8 @@ $$
     & \simeq
     \int_{n}
        \prod_{i_0, i_1, \cdots, i_n} 
-       A(U_{i_0,i_1, \dots, i_n})_l  
-     )
+       A(U_{i_0,i_1, \dots, i_n})_n  
+    \\
     & =
     ker d_{C(U, A_\bullet)} \subset C(U,A_\bullet)_0
   \end{aligned}
@@ -610,15 +610,57 @@ Here
 
 * the fifth step expresses the set of morphisms of [[chain complex]]es as an [[end]] (being itself a [[natural transformation]]);
 
-* the sixth step uses the [[Fubini theorem]] of [[enriched category theory]] to commute the two [[end]]s
+* the sixth step uses the [[Fubini theorem]] of [[enriched category theory]] to commute the two [[end]]s;
 
 * the seventh step uses that the chain complex in the left argument is generated freely on elements of a set to rewrite the hom of abelian groups into one of sets;
 
 * this finally allows to apply the [[Yoneda lemma]] in step eight
 
-* and in step nine one notices that the result thus obtained is the set of 0-cycles in the Cech complex $C(U,A_\bullet)$.
+* and in step nine, by inspection, one notices that the result thus obtained is the set of 0-cycles in the Cech complex $C(U,A_\bullet)$ as previously defined.
 
-An entirely analogous argument shows that dividing out homotopies is respected. To see that one just needs to observe that the normalized [[Moore complex]] of the 1-[[simplex]] serves as an [[interval object]] in chain complexes.
+An entirely analogous argument shows that dividing out homotopies is respected. 
+
+One starts by observing that the cohomology coboundaries are given by homotopies in the hom-simplicial set, i.e. by
+
+$$
+  Hom_{SPSh}(C(U) \times \Delta^1, N(A_\bullet))
+  \,.
+$$
+
+With this one goes in the above computation.
+After applying the 
+[[Dold-Kan correspondence|Dold-Kan adjunction]]
+we now have on the left in the integrand the term
+
+$$
+  N_\bullet(F(C(U)(W) \times \Delta^1))
+  \,.
+$$
+
+Using first that the free simplicial group functor is monoidal and then that the normalized [[Moore complex]]
+functor is lax monoidal (as described at 
+[[Dold-Kan correspondence]])
+
+> what to do about laxness versus pseudoness??
+
+we get a morphism to that from 
+
+$$
+  N_\bullet(F(C(U)(W))) \otimes  N_\bullet(F(\Delta^1))
+  \,.
+$$
+
+Using that the normalized Moore complex is 
+isomorphic to the Moore complex divided by the part
+generated by degenerate cells, 
+on the right we identify the [[interval object]] complex
+
+$$
+   (  \cdots \to 0 \to I  \stackrel{1 \oplus -1}{\to} I \oplus I)
+  \,.
+$$
+
+To see that one just needs to observe that the normalized [[Moore complex]] of the 1-[[simplex]] serves as an [[interval object]] in chain complexes.
 
 ...
 
@@ -630,4 +672,4 @@ An entirely analogous argument shows that dividing out homotopies is respected. 
 * Tibor Beke, _Higher &#268;ech theory_ ([journal](http://www.math.uiuc.edu/K-theory/0646/), [pdf](http://www.math.uiuc.edu/K-theory/0646/cech.pdf))
 
 
-[[!redirects Čech cohomology]]
+[[!redirects ?ech cohomology]]
