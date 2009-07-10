@@ -2,7 +2,7 @@
 
 An _end_ is a special kind of [[limit]] over a [[functor]] of the form $F : C^{op} \times C \to D$ (sometimes called a _bifunctor_).
 
-If we think of such a functor in the sense of [[distributor]]s as encoding a left and right [[action]] on the object
+If we think of such a functor in the sense of [[distributors]] as encoding a left and right [[action]] on the object
 
 $$
   \prod_{c \in C} F(c,c)
@@ -10,7 +10,7 @@ $$
 
 then the _end_ of the functor picks out the universal [[subobject]] on which the left and right action coincides.
 
-A classical example of an _end_ is the $V$-object of [[natural transformation]]s between $V$-[[enriched functor]]s in [[enriched category theory]]. 
+A classical example of an _end_ is the $V$-object of [[natural transformations]] between $V$-[[enriched functors]] in [[enriched category theory]]. 
 
 #In ordinary category theory#
 
@@ -89,7 +89,7 @@ are the projection maps realizing $X(x, \int_{c: C} F(c, c))$ as the correspondi
 
 ### ordinary ends as equalizers ###
 
-Now we motivate and define the _end_ in [[enriched category theory]] in terms of [[equalizer]]s.
+Now we motivate and define the _end_ in [[enriched category theory]] in terms of [[equalizers]].
 
 Recall from the discussion at the end of [[limit]] that the [[limit]] over an (ordinary, i.e. not enriched) [[functor]]
 
@@ -236,7 +236,7 @@ This definition manifestly exhibits the **end as the equalizer of the left and r
 
 ## End as a weighted limit ##
 
-The end for $V$-functors with values in $V$ serves, among other things, to define [[weighted limit]]s, and weighted limits in turn define ends of bifunctors with values in more general $V$-categories.
+The end for $V$-functors with values in $V$ serves, among other things, to define [[weighted limits]], and weighted limits in turn define ends of bifunctors with values in more general $V$-categories.
 
 For $C$ and $D$ both $V$-categories and $F : C^\op \times C \to D$ an $V$-[[enriched functor]], the **end** of $F$ is the [[weighted limit]]
 
@@ -255,7 +255,7 @@ where the right hand denotes the [[weighted limit]] over $F$ with weight $Hom_C 
 
 For $C$ and $D$ both $V$-[[enriched category|enriched categories]], the $V$-[[enriched functor category]] $[C,D]$ is the $V$-[[enriched category]] whose
 
-* objects are $V$-[[enriched functor]]s $F : C \to D$;
+* objects are $V$-[[enriched functors]] $F : C \to D$;
 
 * [[hom-objects]] in $V$ are given by the end-formula $[C,D](F,G) := \int_{c \in C} D(F(c), G(c))$.
 
@@ -273,9 +273,10 @@ in
 
   * the enriched functor category that they give rise to is discussed in section 2.2;
 
-  * enriched [[weighted limit]]s in terms of enriched functor categories are in section 3.1
+  * enriched [[weighted limits]] in terms of enriched functor categories are in section 3.1
 
   * the end of general $V$-enriched functors in terms of weighted limits is in section 3.10 .
 
-
+[[!redirects ends]]
 [[!redirects coend]]
+[[!redirects coends]]
