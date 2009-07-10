@@ -9,13 +9,13 @@ A non-technical account of some concepts in cohomology from this perspective is 
 
 ## General (or "nonabelian" or "unstable") cohomology ##
 
-Given an [[(infinity,1)-topos]] $\mathbf{H}$, for any two [[object]]s $X$, $A$ of $\mathbf{H}$ the **cohomology** of $X$ with coefficients in $A$ is nothing but the [[hom-space]] $\mathbf{H}(X,A)$ (an [[infinity-groupoid]]).
+Given an [[(∞,1)-topos]] $\mathbf{H}$, for any two [[objects]] $X$, $A$ of $\mathbf{H}$ the **cohomology** of $X$ with coefficients in $A$ is nothing but the [[hom-space]] $\mathbf{H}(X,A)$ (an [[∞-groupoid]]).
 
 More precisely:
 
-* the [[object]]s $ c \in \mathbf{H}(X,A)$ are the **cocycle**s on $X$ with values in $A$;
+* the [[objects]] $ c \in \mathbf{H}(X,A)$ are the **cocycle**s on $X$ with values in $A$;
 
-* the [[morphism]]s $\lambda : c \to c'$ in $\mathbf{H}(X,A)$ are the **coboundaries** between cocycles;
+* the [[morphisms]] $\lambda : c \to c'$ in $\mathbf{H}(X,A)$ are the **coboundaries** between cocycles;
 
 * the higher morphisms in $\mathbf{H}(X,A)$ are the **higher coboundaries** or **coboundaries of coboundaries**.
 
@@ -41,17 +41,17 @@ The cohomology _of_ $X$ with coefficients in $A$ is the [[homotopy]] of $A$ with
 For $g : X \to A$ a cocycle, one says that its [[fibration sequence|homotopy fiber]] $P \to X$ is the
 object **classified by the cohomology class*.
 
-Such an object usually has the interpretation of a [[principal infinity-bundle]]. Special cases of this are [[principal bundle]]s, [[gerbe]]s, [[principal 2-bundle]]s, etc.
+Such an object usually has the interpretation of a [[principal ∞-bundle]]. Special cases of this are [[principal bundles]], [[gerbes]], [[principal 2-bundles]], etc.
 
 ### Remarks ###
 
-* Notice that this definition is in a way the very point of the notion of [[(infinity,1)-topos]]: an [[(infinity,1)-topos]] is supposed to be an [[(infinity,1)-category]] which behaves structurally exactly like the [[(infinity,1)-category]] [[Top]] of [[topological space]]s. Since cohomology of topological spaces is nothing but homotopy classes of maps between topological spaces, the analogous statement should be true in a general [[(infinity,1)-topos]]. This is what the above definition asserts.
+* Notice that this definition is in a way the very point of the notion of [[(∞,1)-topos]]: an [[(∞,1)-topos]] is supposed to be an [[(∞,1)-category]] which behaves structurally exactly like the [[(∞,1)-category]] [[Top]] of [[topological spaces]]. Since cohomology of topological spaces is nothing but homotopy classes of maps between topological spaces, the analogous statement should be true in a general [[(∞,1)-topos]]. This is what the above definition asserts.
 
 
 ## Abelian (stable) cohomology ##
 
 Analogous to the above, but with $H$ now
-a [[stable (infinity,1)-category]]. 
+a [[stable (∞,1)-category]]. 
 
 +--{.query}
 
@@ -63,7 +63,7 @@ a [[stable (infinity,1)-category]].
 
 The ordinary notion of cohomology of a cochain complex
 is the special case of cohomology in the 
-[[stable (infinity,1)-category]] of [[chain complex]]es.
+[[stable (∞,1)-category]] of [[chain complexes]].
 
 For $V^\bullet$ a cochain complex let $V_\bullet = (V^\bullet)^*$
 be the corresponding dual [[chain complex]]. Let
@@ -121,10 +121,10 @@ Notice that the grading one usually sees on cohomology classes is in the above d
 
 
 
-* The archetypical example for [[nonabelian cohomology]] theory is the [[(infinity,1)-topos]] $H = $ [[Top]], the [[(infinity,1)-category]] of [[topological space]]s. For $X$ and $A$ two topological spaces, the cohomology classes of $X$ with values in $A$ are the homotopy classes of continuous maps $X \to A$. For $A = K(a,n)$ an [[Eilenberg-Mac Lane space]] with $a$ an abelian group this reproduces "ordinary cohomology" of spaces. For $n \gt 1$ this special case happens to be actually abelian.
+* The archetypical example for [[nonabelian cohomology]] theory is the [[(∞,1)-topos]] $H = $ [[Top]], the [[(∞,1)-category]] of [[topological spaces]]. For $X$ and $A$ two topological spaces, the cohomology classes of $X$ with values in $A$ are the homotopy classes of continuous maps $X \to A$. For $A = K(a,n)$ an [[Eilenberg-Mac Lane space]] with $a$ an abelian group this reproduces "ordinary cohomology" of spaces. For $n \gt 1$ this special case happens to be actually abelian.
  For $A = B G$ a [[classifying space]] of a topological [[group]] $G$, this reproduces degree 1 [[nonabelian cohomology]] $H^1(X,G)$. In general, for $A$ an $n$-type, $H(X,A)$ is topological degree-$n$ [[nonabelian cohomology]].
 
-* The archetypical example for abelian cohomology theory is the [[stable (infinity,1)-topos]] $H = $ [[Spec]], the [[stable (infinity,1)-category]] of [[spectrum|spectra]]. This is the case in the literature often addressed as [[generalized cohomology]], since it generalizes the entities specified by the Eilenberg--Steenrod axioms. But really, the general concept of cohomology is more general than this "generalized cohomology". 
+* The archetypical example for abelian cohomology theory is the [[stable (∞,1)-topos]] $H = $ [[Spec]], the [[stable (∞,1)-category]] of [[spectrum|spectra]]. This is the case in the literature often addressed as [[generalized cohomology]], since it generalizes the entities specified by the Eilenberg--Steenrod axioms. But really, the general concept of cohomology is more general than this "generalized cohomology". 
 
   * "ordinary" cohomology is cohomology with coefficients in the [[Eilenberg-MacLane spectrum]]
 
@@ -132,22 +132,22 @@ Notice that the grading one usually sees on cohomology classes is in the above d
 
   * elliptic cohomology is somehow subsumes by cohomology with coefficients in [[tmf]].
 
-* Objects in general nonabelian cohomology are usually called [[infinity-stack]]s are 
-[[(infinity,1)-sheaf|(infinity,1)-sheaves]], since every Grothendieck--Rezk--Lurie [[(infinity,1)-topos]] arises as a [[(infinity,1)-category of (infinity,1)-sheaves]].
+* Objects in general nonabelian cohomology are usually called [[∞-stacks]] are 
+[[(∞,1)-sheaves]], since every Grothendieck--Rezk--Lurie [[(∞,1)-topos]] arises as a [[(∞,1)-category of (∞,1)-sheaves]].
 
-* [[abelian sheaf cohomology|Abelian sheaf cohomology]] for complexes of sheaves in non-negative degree is cohomology of the sub-[[(infinity,1)-topos]] of $\infty$-stacks which take values in [[infinity-groupoid]]s which, under the [[Dold-Kan correspondence]] come from [[chain complex]]es.
+* [[abelian sheaf cohomology|Abelian sheaf cohomology]] for complexes of sheaves in non-negative degree is cohomology of the sub-[[(∞,1)-topos]] of $\infty$-stacks which take values in [[∞-groupoids]] which, under the [[Dold-Kan correspondence]] come from [[chain complexes]].
 
-* [[abelian sheaf cohomology|Abelian sheaf cohomology]] for unbounded complexes of sheaves is stable cohomology of the [[stable (infinity,1)-topos]] of [[spectrum]]-valued [[(infinity,1)-sheaf|(infinity,1)-sheaves]].
+* [[abelian sheaf cohomology|Abelian sheaf cohomology]] for unbounded complexes of sheaves is stable cohomology of the [[stable (∞,1)-topos]] of [[spectrum]]-valued [[(∞,1)-sheaves]].
 
-Several familiar "cohomology theories" are not so much genuine cohomology theories as rather computational techniques for computing certain cohomology classes in an [[(infinity,1)-category]] by using 1-categorical tools of [[homotopy coherent category theory]] such as [[model category|model categories]], [[derived category|derived categories]] and the like.
+Several familiar "cohomology theories" are not so much genuine cohomology theories as rather computational techniques for computing certain cohomology classes in an [[(∞,1)-category]] by using 1-categorical tools of [[homotopy coherent category theory]] such as [[model categories]], [[derived categories]] and the like.
 
-* [[Cech cohomology]] is the technique of computing $H(X,A)$ by computing 1-categorical [[hom-set]]s $C(\hat X,A)$ on _resolutions_ of the domain object $X$.
+* [[Cech cohomology]] is the technique of computing $H(X,A)$ by computing 1-categorical [[hom-sets]] $C(\hat X,A)$ on _resolutions_ of the domain object $X$.
 
-* The technique of computing [[abelian sheaf cohomology]] by computing the [[derived global section functor]] is similarly a technique of computing $H(X,A)$ in terms of 1-categorical [[hom-set]]s $C(X,\hat A)$ into _resolutions_ of the coefficient object (namely [[injective resolution]]s).
+* The technique of computing [[abelian sheaf cohomology]] by computing the [[derived global section functor]] is similarly a technique of computing $H(X,A)$ in terms of 1-categorical [[hom-sets]] $C(X,\hat A)$ into _resolutions_ of the coefficient object (namely [[injective resolutions]]).
 
-* [[monadic cohomology|Monadic cohomology]], like [[Cech cohomology]], is concerned with 1-categorical resolutions of the coefficient object in terms of [[bar construction]]s...
+* [[monadic cohomology|Monadic cohomology]], like [[Cech cohomology]], is concerned with 1-categorical resolutions of the coefficient object in terms of [[bar constructions]]...
 
-* Differential cohomology theories are effectively the cohomology theories of [[fundamental infinity-groupoid]]s. 
+* Differential cohomology theories are effectively the cohomology theories of [[fundamental ∞-groupoids]]. 
 
 #History and reference#
 
@@ -169,7 +169,7 @@ This article establishes that
 
 * as well as [[nonabelian cohomology]] 
 
-  * classifying [[gerbe]]s and [[principal infinity-bundle]]s 
+  * classifying [[gerbes]] and [[principal ∞-bundles]] 
 
 * as well as the more mundane special cases of this like [[group cohomology]] and, yes, cohomology of cochain complexes itself
 
@@ -179,12 +179,12 @@ $$
   H(X,A) := Ho_{SSh}(X,A)
 $$ 
 
-in the [[homotopy category]] of [[infinity-groupoid]]-valued [[sheaf|sheaves]].
+in the [[homotopy category]] of [[∞-groupoid]]-valued [[sheaves]].
 
 The only fundamental new addition to this insight that is available now and wasn't available 35 years ago is that 
 
 
-* These categories $H = Ho_{SSh}$ are precisely the [[homotopy category of an (infinity,1)-category|hom-wise decategorification]] of [[(infinity,1)-category of (infinity,1)-sheaves]] otherwise known as the [[(infinity,1)-topos]]es of [[infinity-stack]]s.
+* These categories $H = Ho_{SSh}$ are precisely the [[homotopy category of an (infinity,1)-category|hom-wise decategorification]] of [[(∞,1)-category of (∞,1)-sheaves]] otherwise known as the [[(∞,1)-topoi]] of [[∞-stacks]].
 
 
 This is propositon 6.5.2.1 in [[Jacob Lurie]]'s [[Higher Topos Theory]] and builds on the fundamental work by K. Brown, Joyal and Jardine and others on the 
@@ -195,7 +195,7 @@ For a _motivation_ of these definitions from the point of view of cohomology as 
 * Dan Dugger, [Sheaves and homotopy theory](http://www.uoregon.edu/~ddugger/cech.html) .
 
 
-Essentially by applying these general constructions in the presence of a smooth [[fundamental infinity-groupoid]] functor $\Pi : H \to H$ one obtains _differential_ cohomology. More on that is at [[schreiber:Differential Nonabelian Cohomology]].
+Essentially by applying these general constructions in the presence of a smooth [[fundamental ∞-groupoid]] functor $\Pi : H \to H$ one obtains _differential_ cohomology. More on that is at [[schreiber:Differential Nonabelian Cohomology]].
 
 #Related blog entries#
 
