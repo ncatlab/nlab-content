@@ -196,3 +196,5 @@ Geoemtric morphisms are the topic of section VII of
 * MacLan-Moerdijk, [[Sheaves in Geometry and Logic]].
 
 Embeddings and surjections are discussed in section VII.4.
+
+[[!redirects geometric morphisms]]
