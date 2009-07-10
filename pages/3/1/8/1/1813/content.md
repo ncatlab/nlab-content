@@ -1,0 +1,182 @@
+
+# Idea #
+
+Under rather general conditions a functor
+
+$$
+  S_C : S \to C
+$$
+
+into a [[category]] (or $V$-[[enriched category]] with $V$ asome [[symmetric monoidal category]] with [[limit]]s) $C$ with [[colimit]]s induces a pair of [[adjoint functor]]s
+
+$$
+  N : C \stackrel{\leftarrow}{\to} [S^{op}, V] : |-|
+$$
+
+where 
+
+* $N$ behaves like a [[nerve]] operation;
+
+* $|-|$ behaves like [[geometric realization]].
+
+**Remark** Here "$S$" is supposed to be suggestive of a category of certain "[[geometric shapes for higher structures|geometric Shapes]]".  The canonical example is $S = \Delta$, the [[simplex category]], and the reader may find it helpful to keep that example in mind.
+
+
+# Definition #
+
+We place ourselves in the context of $V$-[[enriched category theory]]. The reader wishing to stick to the ordinary notions in [[locally small category|locally small categories]] takes $V$= [[Set]].
+
+The _realization_ operation is the left [[Kan extension]] of $S_C : S \to C$ along the [[Yoneda embedding]] $S \hookrightarrow [S^{op},V]$:
+
+$$
+  \array{
+    S &\stackrel{S_C}{\to}&& C
+    \\
+    \downarrow^{Y} &\Downarrow& \nearrow_{|-|}
+    \\
+    [S^{op},V]
+  }
+  \,.
+$$
+
+If we assume that $C$ is [[copower|tensored]] over $V$, then by the general [[coend]] formula for left [[Kan extension]] we find that for $X \in [S^{op}, V]$ we have
+
+$$
+  |X| \simeq 
+   \int^{s \in S}
+   S_C(s) \cdot X_s
+  \,.
+$$
+
+For instance when $S = \Delta$ is the [[simplex category]] this reads more recognizably
+
+$$
+  |X| \simeq 
+   \int^{[n] \in \Delta}
+   \Delta_C[n] \cdot X_n
+  \,.
+$$
+
+The corresponding [[nerve]] operation
+
+$$
+  N :
+  C \stackrel{}{\to} [S^{op},V]
+$$
+
+is given by 
+
+$$
+  N(c) : S^{op} \stackrel{S_C^{op}}{\to} C^{op}
+  \stackrel{C(-,c)}{\to}  
+  V
+  \,.
+$$
+
+
++-- {: .un_theorem }
+###### Theorem (Kan)
+
+Nerve and realization are a pair of [[adjoint functor]]s 
+
+$$
+  (|-| \dashv N)
+$$
+
+with $N$ [[right adjoint]].
+=--
+
++-- {: .proof}
+###### Proof
+
+Using the fact that the Hom in its first argument
+sends [[coend]]s to [[end]]s
+and then using the definition of [[copower|tensoring]]
+over $V$, we check
+the hom-isomorphism
+
+$$
+  \begin{aligned}
+    Hom_C(|X|, c)
+    &:=
+    Hom_C( \int^{s} S_C(s) \cdot X_a, c)
+    \\
+    & \simeq
+    \int_{s} Hom_C( S_C(s) \cdot X_s, c)
+    \\
+    & \simeq
+    \int_{s} Hom_C( X_s , C(S_C(s), c))
+    \\
+    & =:
+    \int_{s} Hom_C( X_s , N(c)_s)
+    \\
+    & \simeq
+    Hom_{[S^{op},V]}(X, N(c))
+    \,,
+  \end{aligned}
+$$
+
+where in the last step we used the definition of the
+[[enriched functor category]] in terms of an [[end]].
+
+=--
+
+#Remarks#
+
+* In many cases we have $V = Set$ and the [[copower|tensoring]] of an object $c$ over a set $I$ is given by coproducts as
+  $$  
+    c \cdot I = \coprod_{i \in I} c
+    \,.
+  $$
+  This is the case for instance for the below examples of realization of simplicial sets, nerves of categories and the Dold-Kan correspondence.
+
+# Examples #
+
+## Topological realization of simplicial sets ##
+
+A classical examples is given by the [[simplicial object|cosimplicial]] [[topological space]]
+  $$
+    \Delta_{Top} : \Delta \to Top
+  $$
+  that sends the abstract $n$-simplex $[n]$ to the standard topological $n$-simplex $\Delta_{Top}[n] \subset \mathbb{R}^n$.
+  
+* The corresponding realization is [[geometric realization]];
+
+* The corresponding [[nerve]] is the [[singular simplicial complex]] of [[infinity-groupoid]] functor.
+
+
+## Nerve of categories ##
+
+Pretty much every notion of [[category]] and [[higher category theory|higher category]] comes, or should come, with its notion of simplicial nerve, induced from a functor
+  $$
+    \Delta_C : \Delta \to n Cat
+  $$
+  that sends the standard $n$-[[simplex]] to something like the free $n$-category on the $n$-[[directed graph]] underlying that simplex.
+  One formalization of this for $n = \infty$ in the context of [[strict omega-category|strict omega-categories]] is the cosimplicial $\omega$-category called the [[oriental]]s
+  $$
+    \Delta_{\omega} : \Delta \to \omega Cat
+    \,.
+  $$
+
+* The induced [[nerve]] is the [[omega-nerve]].
+
+* The induced realization operation is the operation of forming the free $\omega$-category on a simplicial set. See [[oriental]] for more details.
+
+
+## Dold-Kan correspondence ##
+
+The [[Dold-Kan correspondence]] is the nerve/realization adjunction for the [[homology]] functor
+  $$
+    \Delta_{C_\bullet} : \Delta \to Ch_+
+  $$
+  to the [[category of chain complexes]] of abelian groups, which sends the standard $n$-[[simplex]] to its [[homology]] chain complex, more precisely to its normalized [[Moore complex]].
+
+* The induced realization is the normalized [[Moore complex]] functor extended from $\Delta$ to all [[simplicial set]]s.
+
+# References #
+
+The notion of nerve and realization (not with these names yes) was introduced and proven to be an [[adjunction]] in section 3 of
+
+* [[Daniel Kan]], _Functors involving c.s.s complexes_, Transactions of the American Mathematical Society, Vol. 87, No. 2 (Mar., 1958), pp. 330-346 ([jstor](http://www.jstor.org/stable/1993103)).
+
+In that article, as an example of the general mechanism, also the [[Dold-Kan correspondence]] was found and discussed, independently of the work by Dold and Puppe shortly before, who used a much less general-nonsense approach.
