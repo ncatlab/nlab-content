@@ -33,3 +33,5 @@ $$
 $$
 
 * For $C$ a category with [[zero object]] the equalizer of a morphism $f : c \to d$ with the corresponding [[zero morphism]] is the [[kernel]] of $f$.
+
+[[!redirects equalizers]]
