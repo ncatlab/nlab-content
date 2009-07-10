@@ -66,3 +66,5 @@ The collection $S$ of morphisms is called **saturated** if the collection of $S$
 
 
 * a [[reflective subcategory]] as well as a [[reflective (infinity,1)-subcategory]] can be realized as the full (($\infty,1$)-)subcategory on $S$-local objects, where $S$ is the collection of morphisms sent by the corresponding [[localization of an (infinity,1)-category]] to equivalences. For details on this see the discussion at [[geometric embedding]].
+
+[[!redirects local objects]]
