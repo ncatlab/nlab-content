@@ -1,13 +1,13 @@
 #Idea#
 
 For $S$ a [[category]], a 
-system of _local epimorphisms_ is a system of [[morphism]]s in the [[presheaf]] category $[S^{op}, Set]$ that has the closure properties expected of [[epimorphism]]s under [[composition]] and under [[pullback]].
+system of _local epimorphisms_ is a system of [[morphisms]] in the [[presheaf]] category $[S^{op}, Set]$ that has the closure properties expected of [[epimorphisms]] under [[composition]] and under [[pullback]].
 
 A specification of a system of _local epimorphisms_ 
 is equivalent to giving a [[Grothendieck topology]]
 and hence the structure of a [[site]] on $S$.
 
-Moreover the [[local isomorphism]]s among the local epimorphisms admit a [[calculus of fractions]] which equips $[S^{op}, Set]$ with the structure of a [[category with weak equivalences]]. The corresponding [[homotopy category]] is the category of [[sheaf|sheaves]] on the site $S$.
+Moreover the [[local isomorphisms]] among the local epimorphisms admit a [[calculus of fractions]] which equips $[S^{op}, Set]$ with the structure of a [[category with weak equivalences]]. The corresponding [[homotopy category]] is the category of [[sheaf|sheaves]] on the site $S$.
 
 #Definition#
 
@@ -23,7 +23,7 @@ Let $S$ be a [[category]]. A system of **local epimorphisms** on the [[presheaf]
 
 #Relation to sieves#
 
-The specification of a system of local epimorphisms is equivalent to a system of [[Grothendieck topology|Grothendieck covering]] [[sieve]]s.
+The specification of a system of local epimorphisms is equivalent to a system of [[Grothendieck topology|Grothendieck covering]] [[sieves]].
 
 To see this, translate between local epimorphisms to sieves as follows.
 
@@ -31,7 +31,7 @@ To see this, translate between local epimorphisms to sieves as follows.
 
 Let $S$ be a [[category]] equipped with a 
 [[Grothendieck topology]], hence in particular
-with a collection of covering [[sieve]]s
+with a collection of covering [[sieves]]
 for each object $U \in S$.
 
 For a morphism $f : A \to Y(U)$ in the [[presheaf]] category 
