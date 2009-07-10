@@ -135,3 +135,5 @@ $$
 and the object $x$ is also called the **pushout**.  It has the universal property already described above in the special case of the category $Set$.
 
 Note that the concept of pushout is dual to the concept of [[pullback]]: that is, a pushout in $C$ is the same as a pullback in $C^{op}$.
+
+[[!redirects pushouts]]
