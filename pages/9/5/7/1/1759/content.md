@@ -15,6 +15,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-10
 
+* [[David Corfield|David]]: began an experiment on [[homotopy (as an operation)]] of dualizing the [[cohomology]] page. Began [[generalized (Eilenberg-Steenrod) homotopy]].
+
 * [[Urs Schreiber]]:
 
   * rewrote the intro to [[Cech cohomology]] (see there) and started adding a list of examples for the abelian case: the standard series line bundles, line bundle gerbes, with connection, etc. -- but not well written at the moment and no effort to get signs straight
