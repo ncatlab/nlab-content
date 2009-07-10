@@ -37,6 +37,12 @@ With the standard morphisms of [[presheaf|presheaves]] as morphisms, simplicial 
 
 * The maps $\delta^i$ and $\sigma^i$ satisfy certain obvious relations -- the [[simplicial identities]] -- dual to those  spelled out at [[simplex category]].
 
++-- {: .query}
+
+What do these face and degeneracy maps look like?  I'm looking for something similar to the pictures in [[cubical set]].
+
+=--
+
 ## simplicial complexes ##
 
 Simplicial sets generalize the idea of [[simplicial complex]]: a simplicial set can be thought of as something consisting of a set of $n$-simplices for all $n \in \mathbb{N}$ together with face and degeneracy functions. More precisely, if $X$ is a simplicial set, we write $X_n$ to denote the set of $n$-simplices. The **face** maps (also called **boundary** maps) are functions $d_i : X_n \rightarrow X_{n-1}$ for each $0\leq i \leq n$, which associate to each $n$-simplex one of its $n+1$ faces, themselves $(n-1)$-simplices. The **degeneracy** maps are functions $s_i : X_n \rightarrow X_{n+1}$ for each $0\leq i \leq n$, which allow one to regard an $n$-simplex as a degenerate $(n+1)$-simplex. 
