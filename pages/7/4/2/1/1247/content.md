@@ -5,3 +5,5 @@ Given a [[small category]] $C$ with set of objects $C_0$ and set of morphisms $C
 For the generalisation to an [[internal category]] $C$, see [[identity-assigning morphism]].
 
 In [[Set]], the identity morphisms are the [[identity function]]s.
+
+[[!redirects identity morphisms]]
