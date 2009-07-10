@@ -33,7 +33,7 @@ Notice the minus sign here, coming from the definition of a [[differential objec
 
 ## Distinguished triangles from mapping cones ##
 
-A [[category of chain complexes]] naturally becomes a [[triangulated category]] where the distinguished triangles are the **mapping cone triangle**s
+A homotopy category of the [[category of chain complexes]] (with respect to chain homotopy equivalences) has a natural structure of a [[triangulated category]] where the distinguished triangles are the triangles isomorphic to **mapping cone triangle**s
 
 $$
   X \stackrel{f}{\to}
@@ -59,6 +59,15 @@ $$
   \,.
 $$
 
+For every map of chain complexes $f:A^\bullet\to B^\bullet$, the cylinder $Cyl(f)$ is quasi-isomorphic to $B^\bullet$, and moreover in the homotopy category of chain complexes, every distinguished triangle is quasi-isomorphic to a distinguished triangle of the form 
+
+$$ A\to Cyl{u}\to Cone(u}\to A[1]$$
+
+for some $u:A\to B$ where all the morphisms in the triangle are appropriatedly induced by $u$. 
+
 #In Top#
 
-...
+Given a continuous map $f:X\to Y$, define the topological space $Cone(f)$ as the mapping cylinder which is the amalgamated sum $X \cup_{(f,0)} Y\times I$
+(here each $x\in X$ is identified with $(f(x),0)$) modulo the contraction of $Y\times \{1\}$ to a point. 
+
+Singular chain complex functor from $Top$ to the category of chain complexes of abelian groups sends the mapping cone to a mapping cone in the sense of chain complexes (up to conventions on the orientation of the interval and vector order in the definition of mapping cone of chain complexes). 
