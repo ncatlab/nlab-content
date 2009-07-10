@@ -1,12 +1,11 @@
 #Idea#
 
-
 A _principal 2-bundle_ is a [[vertical categorification|categorification]] of a [[principal bundle]]. It is closely related to and in fact a generalization (in the case of a single group rather than a sheaf of groups) of the concept [[gerbe]] (although that concept could easily be further generalised to match). See [[gerbe (general idea)]] for more background.
 
 
 #Definition#
 
-Recall first the situation for ordinary [[principal bundle]]s:
+Recall first the situation for ordinary [[principal bundles]]:
 
 As essentially originally due to an an old observation by Segal, recalled in the context of interest here in
 
@@ -25,16 +24,16 @@ $$
   \,.
 $$
 
-This is a very general construction that is to be interpreted and makes sense with all objects here appearing as generalized spaces called [[infinity-stack]]s, in practice in particular [[presentable (infinity,1)-category|presented]] using the [[model structure on simplicial presheaves]]. The general idea used here is described at [[motivation for sheaves, cohomology and higher stacks]] and at [[gerbe (general idea)]]. 
+This is a very general construction that is to be interpreted and makes sense with all objects here appearing as generalized spaces called [[∞-stacks]], in practice in particular [[presentable (infinity,1)-category|presented]] using the [[model structure on simplicial presheaves]]. The general idea used here is described at [[motivation for sheaves, cohomology and higher stacks]] and at [[gerbe (general idea)]]. 
 
-This general description of higher bundles internal to generalized spaces modeled as [[infinity-stack]]s is discussed in
+This general description of higher bundles internal to generalized spaces modeled as [[∞-stacks]] is discussed in
 
 * Jardine, _Cocycle categories_ ([pdf](http://arxiv.org/abs/math.AT/0605198)) .
 
 
-The above situation of ordinary $G$-[[principal bundle]]s is section 2.1 _[[torsor|Torsor]]s for [[sheaf|sheaves]] of groups_ in that article. The generalization to principal 2-bundles and [[principal infinity-bundle]]s is then briefly indicated in section 2.2, _Diagrams and torsors_ .
+The above situation of ordinary $G$-[[principal bundles]] is section 2.1 _[[torsor|Torsors]] for [[sheaves]] of groups_ in that article. The generalization to principal 2-bundles and [[principal ∞-bundles]] is then briefly indicated in section 2.2, _Diagrams and torsors_ .
 
-The point is that in the [[(infinity,1)-topos]] of topological or smooth or whatever [[infinity-groupoid]]s (i.e. in the [[(infinity,1)-category]] of [[infinity-stack]]s on our category of [[space and quantity|test spaces]]) the above situation generalizes straightforwardly:
+The point is that in the [[(∞,1)-topos]] of topological or smooth or whatever [[∞-groupoids]] (i.e. in the [[(∞,1)-category]] of [[∞-stacks]] on our category of [[space and quantity|test spaces]]) the above situation generalizes straightforwardly:
 
 For $H$ a [[2-group]], an $H$-principal $2$-bundle is a fibration of groupoids $P \to X$ that arises as the [[fibration sequence|homotopy fiber]] of a classifying morphism $X \to \mathbf{B}H$ (a $2$-[[2-anafunctor|anafunctor]])
 
@@ -49,15 +48,15 @@ $$
   \,.
 $$
 
-As ordinary [[principal bundle]]s, these gadgets may be described from various points of view, using [[anafunctor]] cocycles $g : X \stackrel{\simeq}{\to}\leftarrow Y \to \mathbf{B}H$ in [[nonabelian cohomology]], or the corresponding total spaces being 2-[[torsor]]s equipped with 2-group [[action]], or certain variants of this. 
+As ordinary [[principal bundles]], these gadgets may be described from various points of view, using [[anafunctor]] cocycles $g : X \stackrel{\simeq}{\to}\leftarrow Y \to \mathbf{B}H$ in [[nonabelian cohomology]], or the corresponding total spaces being 2-[[torsors]] equipped with 2-group [[action]], or certain variants of this. 
 
 Maybe the earliest explicit description of a principal $\infty$-bundle using a [[geometric definition of higher category]] is
 
 * P. Glenn, _Realization of cohomology classes in arbitrary exact categories_, J. Pure Appl. Algebra 25, 1982, no. 1, 33- 105.
 
-This describes [[torsor]]s over [[infinity-groupoid]]s in terms of the corresponding $\infty$-[[action groupoid]]s.
+This describes [[torsors]] over [[∞-groupoids]] in terms of the corresponding $\infty$-[[action groupoids]].
 
-This theory of higher bundles and [[gerbe]]s was made to look manifestly like a systematic [[vertical categorification|categorification]] of the familiar description of ordinary [[principal bundle]]s in terms of cocycles and local trivializations in
+This theory of higher bundles and [[gerbes]] was made to look manifestly like a systematic [[vertical categorification|categorification]] of the familiar description of ordinary [[principal bundles]] in terms of cocycles and local trivializations in
 
 *  Luca Mauri, PhD thesis, 1998
    ([pdf](http://home.aubg.bg/faculty/aganchev/Category%20Theory/Mauri%20%28papers%29/mauri-2.pdf));
@@ -70,9 +69,9 @@ The first article in the differential-geometric context was
 
 * [[Toby Bartels]], _2-Bundles_ ([arXiv](http://arxiv.org/abs/math.CT/0410328), [web](http://toby.bartels.name/2bundles/))
 
-One should notice that if one uses categories internal to [[diffeological space]]s, then these are (under their [[nerve]]) in particular [[simplicial presheaf|simplicial presheaves]], and that the [[anafunctor]]s used as morphisms between these simplicial presheaves represent precisely the morphisms the corresponding [[(infinity,1)-category of (infinity,1)-sheaves]] using the [[model structure on simplicial presheaves]] or, more lightweight, the structure of a Brown [[category of fibrant objects]] on $\infty$-groupoid valued sheaves.
+One should notice that if one uses categories internal to [[diffeological spaces]], then these are (under their [[nerve]]) in particular [[simplicial presheaf|simplicial presheaves]], and that the [[anafunctors]] used as morphisms between these simplicial presheaves represent precisely the morphisms the corresponding [[(∞,1)-category of (∞,1)-sheaves]] using the [[model structure on simplicial presheaves]] or, more lightweight, the structure of a Brown [[category of fibrant objects]] on $\infty$-groupoid valued sheaves.
 
-A description of higher principal bundles (see also [[principal infinity-bundle]]) in terms of the [[model structure on simplicial presheaves]] appears in
+A description of higher principal bundles (see also [[principal ∞-bundle]]) in terms of the [[model structure on simplicial presheaves]] appears in
 
 * Jardine, Luo, _Higher order principal bundles_ ([pdf](http://www.math.uiuc.edu/K-theory/0681/cocycles6.pdf))
 
