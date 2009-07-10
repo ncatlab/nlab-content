@@ -1,9 +1,9 @@
 
-A _stable $(\infty,1)$-topos_ is to an [[(infinity,1)-topos]] as a [[stable (infinity,1)-category]] is to an [[(infinity,1)-category]].
+A _stable $(\infty,1)$-topos_ is to an [[(∞,1)-topos]] as a [[stable (∞,1)-category]] is to an [[(∞,1)-category]].
 
-Recall that a Grothendieck-Rezk-Lurie [[(infinity,1)-topos]] is an [[(infinity,1)-category of (infinity,1)-sheaves]], i.e. of [[sheaf|sheaves]] with values in the [[(infinity,1)-category]] of [[infinity-groupoid]]s. 
+Recall that a Grothendieck-Rezk-Lurie [[(∞,1)-topos]] is an [[(∞,1)-category of (∞,1)-sheaves]], i.e. of [[sheaves]] with values in the [[(∞,1)-category]] of [[∞-groupoids]]. 
 
-A _stable_ Grothendieck--Rezk--Lurie [[(infinity,1)-topos]] should therefore be an [[(infinity,1)-category]] of [[sheaf|sheaves]] with values in [[spectrum|spectra]].
+A _stable_ Grothendieck--Rezk--Lurie [[(∞,1)-topos]] should therefore be an [[(∞,1)-category]] of [[sheaves]] with values in [[spectra]].
 
 But maybe a full formalization of this idea has not appeared yet (?)
 
@@ -30,5 +30,9 @@ _Toby_:  I didn\'t think that this would make a difference to the elementary pro
 
 _Toby_:  All right.  Well, it might be possible to get something out of 'abelian' yet, but presumably not 'abelian $(\infty,1)$-category' exactly.
 
-_Mike_: Maybe the best notion of "abelian" in the $(\infty,1)$-world is just a [[stable (infinity,1)-category]].
+_Mike_: Maybe the best notion of "abelian" in the $(\infty,1)$-world is just a [[stable (∞,1)-category]].
 =--
+
+[[!redirects stabel (infinity,1)-topoi]]
+[[!redirects stable (∞,1)-topos]]
+[[!redirects stable (∞,1)-topoi]]
