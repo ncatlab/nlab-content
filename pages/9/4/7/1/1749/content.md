@@ -46,3 +46,23 @@ as the **homotopy of $X$ with co-coefficients in $B$** (or efficients in $B$ if 
 
 Examples of such constructions exist, but are rarely thought of (or even recognized as) generalizations of the notion of homotopy. Rather, by the above duality, the same situation is usually regarded in the context of [[cohomology]], which, still by the above duality, is just as well.
 =--
+
+##An experimental attempt to dualize the [[cohomology]] page##
+
+###Examples###
+
+*  classes of special cases of homotopies with their own entries include (create page if you think it might work)
+
+  * group homotopy
+
+  * [[generalized (Eilenberg-Steenrod) homotopy]]
+
+  * abelian cosheaf homotopy
+
+  * nonabelian homotopy
+
+  * Cech homotopy
+
+  * differential homotopy
+
+  * twisted homotopy
