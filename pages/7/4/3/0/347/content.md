@@ -16,3 +16,4 @@ There are several different but related formalizations of the notion of cover.
 
 * In the context of [[homotopy theory]] and in particular in the corresponding [[homotopical cohomology theory]] a cover is an [[model category|acyclic fibration]]. In the homotopy theory of simplicial objects this is usually called a [[hypercover]].
 
+[[!redirects covers]]
