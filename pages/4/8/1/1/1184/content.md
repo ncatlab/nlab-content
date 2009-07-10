@@ -1,6 +1,6 @@
 ## Idea ##
 
-A _well-order_ on a set $S$ is a [[relation]] $\prec$ that allows one to interpret $S$ as an [[ordinal number]] $\alpha$ and $\prec$ as the relation $\lt$ on the ordinal numbers less than $\alpha$.  In particular, one can do [[induction]] on $S$ over $\prec$ (although the more general [[well-founded relation]]s also allow this).
+A _well-order_ on a set $S$ is a [[relation]] $\prec$ that allows one to interpret $S$ as an [[ordinal number]] $\alpha$ and $\prec$ as the relation $\lt$ on the ordinal numbers less than $\alpha$.  In particular, one can do [[induction]] on $S$ over $\prec$ (although the more general [[well-founded relations]] also allow this).
 
 The [[well-ordering theorem]] states precisely that every set may be equipped with a well-order.  This theorem follows from the [[axiom of choice]], and is equivalent to it in the presence of [[excluded middle]].
 
@@ -18,11 +18,11 @@ Note that in [[constructive mathematics]], $\prec$ cannot necessarily be reconst
 
 * Any [[finite set|finite]] [[total order|totally ordered set]] $\{x_1 \lt \cdots \lt x_n\}$ is well-ordered.
 
-* The set of [[natural number]]s is well-ordered under the usual order $\lt$.
+* The set of [[natural numbers]] is well-ordered under the usual order $\lt$.
 
-* More generally, any set of [[ordinal number]]s (or even the proper class of all ordinal numbers) is well-ordered under the usual order $\lt$.
+* More generally, any set of [[ordinal numbers]] (or even the proper class of all ordinal numbers) is well-ordered under the usual order $\lt$.
 
-* The [[cardinal number]]s of well-orderable sets are themselves well-ordered.  So by the well-ordering theorem, the class of all cardinal numbers is well-ordered.
+* The [[cardinal numbers]] of well-orderable sets are themselves well-ordered.  So by the well-ordering theorem, the class of all cardinal numbers is well-ordered.
 
 ## Interpretation as an ordinal number ##
 
