@@ -9,3 +9,5 @@ $$\array{X & \to & Z & \to & X\\
   f \downarrow  & & g \downarrow & & \downarrow f\\
   Y & \to & W & \to & Y}$$
 such that the top and bottom rows compose to identities.
+
+[[!redirects retracts]]
