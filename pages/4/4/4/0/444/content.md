@@ -349,5 +349,6 @@ W. G. Dwyer, D. M. Kan, Singular functors and realization functors, Nederl. Akad
 * [Street 1987] [[Ross Street]], The algebra of oriented simplexes,
 J. Pure Appl. Algebra 49 (1987), no. 3, 283--335.
 
-
+[[!redirects nerves]]
 [[!redirects simplicial nerve]]
+[[!redirects simplicial nerves]]
