@@ -161,3 +161,5 @@ Peter Aczel\'s general model of a pure set is any _simple directed accessible po
 ## References ##
 
 *  Peter Aczel (1988).  Non-well-founded sets.  CSLI 14; Stanford University.  [PDF](http://standish.stanford.edu/pdf/00000056.pdf).
+
+[[!redirects pure sets]]
