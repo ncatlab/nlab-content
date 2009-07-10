@@ -1,10 +1,10 @@
 #Idea#
 
-A _simplicial model category_ is a model or presentation for an [[(infinity,1)-category]] that is half way in between a bare [[model category]] and a [[Kan complex]]-[[enriched category]].
+A _simplicial model category_ is a model or presentation for an [[(∞,1)-category]] that is half way in between a bare [[model category]] and a [[Kan complex]]-[[enriched category]].
 
 Specifically, a simplicial model category is an [[SSet]]-[[enriched category]] $C$ together with the structure of a [[model category]] on its underlying [[category]] $C_0$ such that both structures are compatible in a reasonable way.
 
-One important use of simplicial model categories comes from the fact that the full [[SSet]]-subcategory $C^\circ \hookrightarrow C$ on the fibrant-cofibrant objects -- which is not just [[SSet]]-enriched but actually [[Kan complex]]-enriched -- is the [[(infinity,1)-category]]-enhancement of the [[homotopy category]] of the [[model category]] $C_0$.
+One important use of simplicial model categories comes from the fact that the full [[SSet]]-subcategory $C^\circ \hookrightarrow C$ on the fibrant-cofibrant objects -- which is not just [[SSet]]-enriched but actually [[Kan complex]]-enriched -- is the [[(∞,1)-category]]-enhancement of the [[homotopy category]] of the [[model category]] $C_0$.
 
 For generalizations of this construction with [[SSet]] replaced by another [[monoidal model category]] see [[enriched homotopical category]].
 
@@ -29,7 +29,7 @@ This means that a simplicial model category is
 
 #Examples#
 
-* The most well-developed model/presentation for the [[hypercompletion]] of the [[(infinity,1)-category of (infinity,1)-sheaves]] on an ordinary (i.e. 1-categorical) [[site]] $S$ is the [[Kan complex]]-[[enriched category]] $C^\circ \hookrightarrow C$ for $C = [S^{op}, SSet]$ the simplicial model category of [[simplicial presheaf|simplicial presheaves]] on $S$ equippped with the [[model structure on simplicial presheaves]].
+* The most well-developed model/presentation for the [[hypercompletion]] of the [[(∞,1)-category of (∞,1)-sheaves]] on an ordinary (i.e. 1-categorical) [[site]] $S$ is the [[Kan complex]]-[[enriched category]] $C^\circ \hookrightarrow C$ for $C = [S^{op}, SSet]$ the simplicial model category of [[simplicial presheaves]] on $S$ equippped with the [[model structure on simplicial presheaves]].
 
 
 
@@ -42,3 +42,5 @@ section 9.1.5 of
 section A.3 in
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
+
+[[!redirects simplicial model categories]]
