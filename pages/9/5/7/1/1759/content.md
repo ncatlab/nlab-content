@@ -19,6 +19,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 SOURCE of old versions. I sometimes write some items partly motivated by need to have them for my students, and plan to incorporate something close to my version into student scripta. You are very knowledgable about wiki world. :)
 I was trying to take the export of the whole nlab and succeeded to get the markupML version but not html: when asking nlab/export_html i get 403 FORBIDDEN message in my browser. 
 
+  * [[Urs Schreiber]]: I also get this error message when trying to export the $n$Lab as html -- I remember the html export was particularly heavy on the server and maybe it was truned off in view of the server being a bit weak -- we are trying to move to a better host eventually
+
 * [[David Corfield|David]]: began an experiment on [[homotopy (as an operation)]] of dualizing the [[cohomology]] page. Began [[generalized (Eilenberg-Steenrod) homotopy]].
 
 * [[Urs Schreiber]]:
