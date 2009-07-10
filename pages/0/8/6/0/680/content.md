@@ -399,7 +399,7 @@ that generalizes the result to arbitrary [[abelian category|abelian categories]]
 
 The expression of the correspondence in terms of [[nerve]]s is due to
 
-* [[Daniel Kan]], _Functors involving c.s.s complexes_, Transactions of the American Mathematical Society, Vol. 87, No. 2 (Mar., 1958), pp. 330-346 ([jstor](http://www.jstor.org/stable/1993103?seq=8)).
+* [[Daniel Kan]], _Functors involving c.s.s complexes_, Transactions of the American Mathematical Society, Vol. 87, No. 2 (Mar., 1958), pp. 330-346 ([jstor](http://www.jstor.org/stable/1993103)).
 
 
 A standard modern textbook reference for the ordinary Dold-Kan correspondence is [chapter III.2](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-3.dvi) of 
