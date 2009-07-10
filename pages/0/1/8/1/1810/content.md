@@ -1,3 +1,11 @@
+# Idea #
+
+A [[triangulated category]], or at least an [[enhanced triangulated category]], is a model for a [[stable (infinity,1)-category]]. The archetypical example of these is the [[stable (infinity,1)-category of spectra]] of [[topological space]]s. For topological spaces there is the classical notion of [[Postnikov system]].
+
+A Postnikov system in a general triangulated category is an abstraction of that topological construction to the general case.
+
+# Definition #
+
 Given a triangulated category $D$ a finite complex over $D$ is any sequence of objects and morphisms in $D$
 
 $$
