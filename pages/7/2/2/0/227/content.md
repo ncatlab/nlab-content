@@ -7,3 +7,5 @@ A **ring** is (equivalently)
 Here $Ab$ is the category of [[abelian group|abelian groups]], made into a monoidal category using the tensor product of abelian groups.
 
 Don't worry: these definitions equivalent to [the one you're used to](http://en.wikipedia.org/wiki/Ring_mathematics#Definition).
+
+[[!redirects rings]]
