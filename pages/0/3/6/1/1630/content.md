@@ -4,6 +4,10 @@ $$
   N : \omega Cat \to SSet
 $$
 
-from [[omega-category|omega-categories]] to [[simplicial set]]s is the functor induced from the [[oriental]]s.
+from [[∞-categories]] to [[simplicial sets]] is the functor induced from the [[orientals]].
 
 For the time being, see there for more details.
+
+[[!redirects omega-nerves]]
+[[!redirects ∞-nerve]]
+[[!redirects ∞-nerves]]
