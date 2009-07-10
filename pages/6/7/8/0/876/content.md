@@ -1,10 +1,10 @@
-The _disjoint union_ is a [[coproduct]] in [[Set]], the category of [[set]]s.
+The _disjoint union_ is a [[coproduct]] in [[Set]], the category of [[sets]].
 
 # Definition #
 
 Given any family $(A_i)_{i:I}$ of sets, the (external) __disjoint union__ $\biguplus_i A_i$ (also written $\sum_i A_i$, $\coprod_i A_i$, etc) of the family is the set of all (ordered) pairs $(i,a)$ with $i$ in the index set $I$ and $a$ in $A_i$.
 
-As stated, the second element of such a pair depends on the first element, which is natural in dependent type theory; but if you don't like this, then define $\biguplus_i A_i$ to be the set of those elements $x$ of the [[cartesian product]] $\prod_i \mathcal{P}A_i$ of the [[power set]]s such that there is exactly one index $j$ such that $x_j$ is [[inhabited set|inhabited]] and that $x_j$ is a [[singleton]].
+As stated, the second element of such a pair depends on the first element, which is natural in dependent type theory; but if you don't like this, then define $\biguplus_i A_i$ to be the set of those elements $x$ of the [[cartesian product]] $\prod_i \mathcal{P}A_i$ of the [[power sets]] such that there is exactly one index $j$ such that $x_j$ is [[inhabited set|inhabited]] and that $x_j$ is a [[singleton]].
 
 There is a natural [[injection]] $A_j \to \biguplus_i A_i$ (mapping $a$ to $(j,a)$) for each index $j$, and its common to treat $A_j$ as a [[subset]] of $\biguplus_i A_i$.  So if no confusion can result (in particular, when the notation for an elements of $A_j$ always makes the ambient set clear), one often suppresses the index in the notation for an element of the disjoint union.
 
@@ -22,6 +22,8 @@ The disjoint union of the empty family $()$ is [[empty set|empty]]; it has no el
 
 # Internal version #
 
-If a family $(A_i)_{i: I}$ of [[subset]]s of a given set $X$ are all pairwise disjoint (that is, $A_i \cap A_j$ has an element only if $i = j$, for any indices $i$ and $j$), then the [[union]] $\bigcup_i A_i$ is [[natural isomorphism|naturally bijective]] with the (external) disjoint union defined above.  Conversely, given an external disjoint union $\biguplus_i A_i$, each $A_j$ may be identified with a subset of $\biguplus_i A_i$ (as explained above); these subsets are all pairwise disjoint, and their union is the entire disjoint union.
+If a family $(A_i)_{i: I}$ of [[subsets]] of a given set $X$ are all pairwise disjoint (that is, $A_i \cap A_j$ has an element only if $i = j$, for any indices $i$ and $j$), then the [[union]] $\bigcup_i A_i$ is [[natural isomorphism|naturally bijective]] with the (external) disjoint union defined above.  Conversely, given an external disjoint union $\biguplus_i A_i$, each $A_j$ may be identified with a subset of $\biguplus_i A_i$ (as explained above); these subsets are all pairwise disjoint, and their union is the entire disjoint union.
 
 Accordingly, a union of pairwise disjoint subsets may be called an __internal disjoint union__.  (Compare the internal vs external notions of [[direct sum]].)
+
+[[!redirects disjoint unions]]
