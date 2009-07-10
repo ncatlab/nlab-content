@@ -1,4 +1,4 @@
-Cosmoses categorize [[universe]]s in set theory. A cosmos is a generalized universe of 1-categories in which you can do category theory. When set theory is generalized to the study of a [[topos]], the analogous generalization of category theory is the study of a cosmos.
+Cosmoses categorize [[universes]] in set theory. A cosmos is a generalized universe of 1-categories in which you can do category theory. When set theory is generalized to the study of a [[topos]], the analogous generalization of category theory is the study of a cosmos.
 
 Ross Street definition:
 
