@@ -3,9 +3,9 @@
 Recall that a [[Kan complex]] is a special [[simplicial set]] that [[homotopy hypothesis|behaves like]] a combinatorial model for a [[topological space]].
 
 
-The _simplicial homotopy groups_ of a Kan complex (actually a *[[pointed object|pointed]]* Kan complex) are accordingly the combinatorial analog of the [[homotopy group]]s of [[topological space]]s: instead of being maps from topological spheres modulo maps from topological disks, they are maps from the [[boundary of a simplex]] modulo those from the [[simplex]] itself. Of course, they only tell you something about the connected component of the Kan complex that contains the base vertex, so sometimes it is assumed that $X$ is connected, but see below!
+The _simplicial homotopy groups_ of a Kan complex (actually a *[[pointed object|pointed]]* Kan complex) are accordingly the combinatorial analog of the [[homotopy groups]] of [[topological spaces]]: instead of being maps from topological spheres modulo maps from topological disks, they are maps from the [[boundary of a simplex]] modulo those from the [[simplex]] itself. Of course, they only tell you something about the connected component of the Kan complex that contains the base vertex, so sometimes it is assumed that $X$ is connected, but see below!
 
-Accordingly, the definition of the discussion of simplicial homotopy groups is essentially literally the same as that of ordinary [[homotopy group]]s.  One technical difference is for instance that the definition of the group structure is slightly more non-immediate for simplicial homotopy groups than for topological homotopy groups (see below).
+Accordingly, the definition of the discussion of simplicial homotopy groups is essentially literally the same as that of ordinary [[homotopy groups]].  One technical difference is for instance that the definition of the group structure is slightly more non-immediate for simplicial homotopy groups than for topological homotopy groups (see below).
 
 As for ordinary homotopy groups, an $n$th simplicial homotopy 'group' is really an $n$-[[k-tuply groupal n-groupoid|tuply groupal]] $0$-[[0-groupoid|groupoid]].  That is, for $n = 0$, it is not a group at all but rather a [[pointed set]]; for $n = 1$, it is a [[group]]; and for $n \geq 2$, it is an [[abelian group]].  On the other hand, we could drop the base vertex and move to the $n$th simplicial homotopy 'groupoid', which is really an $n$-[[n-groupoid|groupoid]].  
 
@@ -189,7 +189,7 @@ For $n \geq 2$ all the groups $\pi_n(X,x)$ are abelian.
 
 # Weak homotopy equivalences of Kan simplicial sets#
 
-For $X$ and $Y$ [[model structure on simplicial sets|fibrant]] simplicial sets, i.e. [[Kan complex]]es, a morphism $f : X \to Y$ is a weak equivalence with respect to the classical [[model structure on simplicial sets]] if 
+For $X$ and $Y$ [[model structure on simplicial sets|fibrant]] simplicial sets, i.e. [[Kan complexes]], a morphism $f : X \to Y$ is a weak equivalence with respect to the classical [[model structure on simplicial sets]] if 
 
 $$
   f_* : \pi_0(X) \to \pi_0(Y)
@@ -201,7 +201,7 @@ $$
   f_* : \pi_n(X,x) \to \pi_n(Y,f(x))
 $$
 
-are [[isomorphism]]s for all choices of base vertex $x \in X_0$.
+are [[isomorphisms]] for all choices of base vertex $x \in X_0$.
 
 
 
@@ -246,7 +246,7 @@ Then
 =--
 
 In particular a [[functor]]
-$f : C \to D$ of [[groupoids]] is a [[equivalence of categories]] if under the nerve it induces a weak equivalence $\mathcal{N}(f) : \mathcal{N}(C) \to \mathcal{N}(D)$ of [[Kan complex]]es:
+$f : C \to D$ of [[groupoids]] is a [[equivalence of categories]] if under the nerve it induces a weak equivalence $\mathcal{N}(f) : \mathcal{N}(C) \to \mathcal{N}(D)$ of [[Kan complexes]]:
 
 * that $\pi_0 \mathcal{N}(f,c) : \pi_0(C,c) \to \pi_0(D,f(c))$ is an isomorphism implies that $f$ is an [[essentially surjective functor]] and is implied by $f$\'s being a [[full functor]];
 * that $\pi_1 \mathcal{N}(f,c) : \pi_1(C,c) \to \pi_1(D,f(c))$ is an isomorphism is equivalent to $f$\'s being a [[full and faithful functor]].
@@ -260,7 +260,7 @@ A standard textbook reference is
 
 * **GoerJard**, Goerss, Jardine, _Simplicial homotopy theory_ 
 
-Originally homotopy groups of simplicial sets had been defined in terms of the ordinary [[homotopy group]]s of the [[topological space]]s [[geometric realization|realizing]] them. Apparently the first or one of the first discussions of the purely combinatorial definition is 
+Originally homotopy groups of simplicial sets had been defined in terms of the ordinary [[homotopy groups]] of the [[topological spaces]] [[geometric realization|realizing]] them. Apparently the first or one of the first discussions of the purely combinatorial definition is 
 
 * D. Kan, _A combinatorial definition of homotopy groups_ ([jstor](http://www.jstor.org/stable/1970006?seq=8))
 
