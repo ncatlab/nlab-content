@@ -1,6 +1,8 @@
 #Idea#
 
-The _Dold--Kan correspondence_ asserts that certain [[infinity-groupoid]]s may equivalently be encoded as [[chain complex]]es. 
+The _Dold--Kan correspondence_ asserts that the [[nerve and realization]] [[adjunction]] between abelian 
+[[simplicial group]]s and [[chain complex]]es encodes
+certain classes of [[infinity-groupoid]]s equivalently be as [[chain complex]]es. 
 
 This allows one
 
@@ -53,7 +55,7 @@ These functors respect the standard weak equivalences with respect to the standa
 +-- {: .num_theorem }
 ###### Theorem (Kan)
 
-For the case that $A$ is the category of abelian groups, the functor $\Xi$ is is the [[nerve]] functor on chain complexes that is induced from the [[simplicial object|cosimplicial chain complex]]
+For the case that $A$ is the category of abelian groups, the functors $N$ and $\Xi$ are [[nerve and realization]] with respect to the cosimplicial chain complex
 
 $$
   Ch_\bullet := N F_\mathbb{Z}(-): \Delta \to Ch_+(Ab)
