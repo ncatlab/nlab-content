@@ -1,28 +1,26 @@
 #Idea#
 
-The **localization** of a [[category]] $C$ at a class of [[morphism]]s $W$ is the universal solution to making the morphisms in $W$ into [[isomorphism]]s; it is written $C[W^{-1}]$ or $W^{-1}C$ and often also (deserves to be) called the [[homotopy category]] of $C$ with respect to $W$.
+The **localization** of a [[category]] $C$ at a class of [[morphisms]] $W$ is the universal solution to making the morphisms in $W$ into [[isomorphisms]]; it is written $C[W^{-1}]$ or $W^{-1}C$ and often also (deserves to be) called the [[homotopy category]] of $C$ with respect to $W$.
 
 ## Terminology ##
 
-* The terminology "localization" originates from the localization of [[ring]]s, which is a special case when [[ring]]s are regarded as [[Ab]]-[[enriched category|enriched categories]] with a single objects.
+* The terminology "localization" originates from the localization of [[rings]], which is a special case when [[rings]] are regarded as [[Ab]]-[[enriched category|enriched categories]] with a single objects.
 Notice that what is literally _localized_ when localizing the ring is really its [[spectrum]]: it becomes smaller.
 
 * In 2-categorical language, $C[W^{-1}]$ is the [[coinverter]] of the canonical natural transformation $s\to t$, where $s,t:W\to C$ are the "source" and "target" functors and $W$ is considered as a full subcategory of the [[arrow category]] $C ^{\mathbf{2}}$.
-
-
 
 ## Relation to geometric embeddings ##
 
 If $C$ is a [[topos]] then localizations of $C$ are related to [[geometric morphism|geometric embeddings]] $C[W^{-1}] \to C$.
 
-In particular, [[sheafification]] given by the geometric embedding $Sh(S) \hookrightarrow PSh(S)$ is the localization of a presheaf topos $PSh(S)$ at [[local isomorphism]]s. 
+In particular, [[sheafification]] given by the geometric embedding $Sh(S) \hookrightarrow PSh(S)$ is the localization of a presheaf topos $PSh(S)$ at [[local isomorphisms]]. 
 
 More generally:
 
 +-- {: .un_prop}
 ###### Proposition
 
-Every geometric embedding $C' \hookrightarrow C$ of [[topos|topoi]] is of the form $Sh_j C \hookrightarrow C$ for some [[Lawvere-Tierney topology]] $j$ on $C$. The objects of $Sh_j C$ are the [[local object]]s with respect to the [[dense monomorphism]]s of $C$ determined by the [[Lawvere-Tierney topology]]. The class $W$ of morphism inverted this way is the saturation of the [[dense monomorphism]]s of $C$.
+Every geometric embedding $C' \hookrightarrow C$ of [[topos|topoi]] is of the form $Sh_j C \hookrightarrow C$ for some [[Lawvere-Tierney topology]] $j$ on $C$. The objects of $Sh_j C$ are the [[local objects]] with respect to the [[dense monomorphisms]] of $C$ determined by the [[Lawvere-Tierney topology]]. The class $W$ of morphism inverted this way is the saturation of the [[dense monomorphisms]] of $C$.
 
 =--
 
@@ -34,10 +32,10 @@ This  perspective on localization is very useful for understanding the important
 
 * [[localization of a simplicial model category]].
 
-All these constructions are to be thought of as _modelling_ or [[presentable (infinity,1)-category|presenting]] the passage not just from categories to [[reflective subcategory|reflective subcategories]] but from [[(infinity,1)-category|(infinity,1)-categories]] to [[reflective (infinity,1)-subcategory|reflective (infinity,1)-subcategories]], i.e. the 
-[[localization of an (infinity,1)-category]]:
+All these constructions are to be thought of as _modelling_ or [[presentable (infinity,1)-category|presenting]] the passage not just from categories to [[reflective subcategory|reflective subcategories]] but from [[(∞,1)-categories]] to [[reflective (∞,1)-subcategories]], i.e. the 
+[[localization of an (∞,1)-category]]:
 
-with the right $\infty$-version of left exact, left adjoint etc. understood, a [[localization of an (infinity,1)-category]] $C$ is nothing but a fully faithful [[(infinity,1)-functor]]
+with the right $\infty$-version of left exact, left adjoint etc. understood, a [[localization of an (∞,1)-category]] $C$ is nothing but a fully faithful [[(∞,1)-functor]]
 
 $$
   L \hookrightarrow C
@@ -54,7 +52,7 @@ with a [[left adjoint]].
 
 #Definition#
 
-Let $C$ be a [[category]] and $W \subset Mor(C)$ a collection of [[morphism]]s. 
+Let $C$ be a [[category]] and $W \subset Mor(C)$ a collection of [[morphisms]]. 
 
 A **localization** of $C$ by $W$ (or "at $W$") is
 
@@ -80,7 +78,7 @@ A **localization** of $C$ by $W$ (or "at $W$") is
 
 There is a general construction of $W^{-1}C$, if it exists, which is however hard to use. 
 
-When the system $W$ has special properties, such as if $W$ admits a [[calculus of fractions]] or a [[factorization system]], then there are more direct formulas for the [[hom-set]]s of $W^{-1}C$.
+When the system $W$ has special properties, such as if $W$ admits a [[calculus of fractions]] or a [[factorization system]], then there are more direct formulas for the [[hom-sets]] of $W^{-1}C$.
 
 ## General construction ##
 
@@ -158,3 +156,5 @@ Actually I agree with what you, Mike, sort of imply namely  that some 'local' ex
 
 Also, it would be good to arrange the points that [[Zoran Skoda|Zoran]] mentions into a coherent bulleted list in an examples section. Maybe somebody can do that.
 =--
+
+[[!redirects localizations]]
