@@ -30,6 +30,8 @@ $$
 
 is an isomorphism.
 
+
+
 #Definition for $(\infty,1)$-categories#
 
 
@@ -54,12 +56,45 @@ $$
 
 induces an isomorphism in the [[homotopy category]] of [[Top]].
 
+# Definition in simplicial model categories #
+
+Let $C$ be a [[simplicial model category]]. And let $S \subset Mor(C)$
+be a collection of [[morphism]]s in $C$.
+
+Consider in the following the standard [[model structure on simplicial sets]]
+with weak equivalences given by morphisms that induce isomorphisms on all
+[[simplicial homotopy group]]s.
+
+* An object $c \in C$ is a **$S$-local object** if for all $s : a \to b$
+in $C$ the induced morphismm
+  $$
+    C(s,c) : C(b,c) \to C(a,c)
+  $$
+  is a homotopy equivalence of simplicial sets.
+  
+* A morphism $f : x \to y$ in $C$ is an **$S$-local morphism**
+  or **$S$-equivalence** if for every $S$-local object $c$
+  the induced morphism
+  $$
+    C(f,c) : C(y,c) \to C(x,c)
+  $$
+  is a homotopy equivalence of simplicial sets.
+
+
+This is section A.3.7 of
+
+* [[Jacob Lurie]], [[Higher Topos Theory]]
+
+> do we really want to say homotopy equivalence here?
+
 
 
 # Saturated class of morphisms #
 
 Every morphism in $S$ is $S$-local.
-The collection $S$ of morphisms is called **saturated** if the collection of $S$-local morphisms coinices with $S$.
+The collection $S$ of morphisms is called **saturated** if the collection of $S$-local morphisms coincides with $S$.
+
+
 
 
 #Remarks#
