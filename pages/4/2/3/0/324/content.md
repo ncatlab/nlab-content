@@ -23,3 +23,5 @@ A cospan in the category $C$ is the same as a [[span]] in the [[opposite categor
 
 * [[Cospans in Algebraic Topology]]
 * [[multispan]]
+
+[[!redirects cospans]]
