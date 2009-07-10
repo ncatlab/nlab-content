@@ -1,16 +1,16 @@
 #Idea#
 
-The notion of _weighted limit_ is naturally understood from the point of view on [[limit]]s as described at [[representable functor]].
+The notion of _weighted limit_ is naturally understood from the point of view on [[limits]] as described at [[representable functor]].
 
 Weighted limits make sense and are considered in the general context of $V$-[[enriched category theory]], but restrict attention to $V=$ [[Set]] for the moment, in order to motivate the concept.
 
-Let $K$ denote the small category which indexes [[diagram]]s over which we want to consider limits and eventually weighted limits. Notice that for 
+Let $K$ denote the small category which indexes [[diagrams]] over which we want to consider limits and eventually weighted limits. Notice that for 
 
 $$
   F : K \to Set
 $$
 
-a [[Set]]-valued functor on $K$, the limit of $F$ is canonically identified simply with the set of [[cone]]s with tip the singleton set $pt = \{\bullet\}$:
+a [[Set]]-valued functor on $K$, the limit of $F$ is canonically identified simply with the set of [[cones]] with tip the singleton set $pt = \{\bullet\}$:
 
 $$
   lim F = [K,Set](\Delta pt, F)
@@ -44,7 +44,7 @@ The **idea** of weighted limits is to
 
 2. to generalize everything straightforwardly from the [[Set]]-[[enriched category|enriched]] context to arbitrary $V$-enriched contexts.
 
-The idea is that the weight $W : K \to V$ encodes the way in which one generalizes the concept of a [[cone]] over a diagram $F$ (that is, something with just a tip from which morphisms are emanating down to $F$) to a more intricate structure over the diagram $F$. For instance in the application to [[homotopy limit]]s discussed below with $V$ set to [[SimpSet]] the weight is such that it ensures that not only 1-morphisms are emanating from the tip, but that any triangle formed by these is filled by a 2-cell, every tetrahedron by a 3-cell, etc.
+The idea is that the weight $W : K \to V$ encodes the way in which one generalizes the concept of a [[cone]] over a diagram $F$ (that is, something with just a tip from which morphisms are emanating down to $F$) to a more intricate structure over the diagram $F$. For instance in the application to [[homotopy limits]] discussed below with $V$ set to [[SimpSet]] the weight is such that it ensures that not only 1-morphisms are emanating from the tip, but that any triangle formed by these is filled by a 2-cell, every tetrahedron by a 3-cell, etc.
 
 #Definition#
 
@@ -226,5 +226,5 @@ In
 
 [[Emily Riehl]] gives an account of lectures by [[Mike Shulman]] on the subject. The definition appears there as [definition 3.1, p. 4](http://www.math.uchicago.edu/~eriehl/cat/weighted.pdf#page=4) (in a form a bit more general than the one above).
 
-
+[[!redirects weighted limits]]
 
