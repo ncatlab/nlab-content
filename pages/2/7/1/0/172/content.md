@@ -1,8 +1,3 @@
-[[!redirects ∞-stack]]
-[[!redirects ∞-stacks]]
-[[!redirects infinity stack]]
-
-
 #Idea#
 
 An [[higher category theory|infinity category]]-valued (pseudo)[[presheaf]] $\mathbf{A} : Spaces^{op} \to \infty-Cat$ is an _$\infty$-stack_ if it "satisfies descent" in that its assignment to a space $X$ is equivalent to its [[descent]] data for any [[hypercover]] $Y^\bullet \stackrel{\simeq}{\to}\gt X$: if the canonical morphism
@@ -71,3 +66,8 @@ The explicit descent condition formulated above appears there on [page 12](http:
 All this has been embedded into a coherent global theory in
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
+
+[[!redirects infinity-stacks]]
+[[!redirects ∞-stack]]
+[[!redirects ∞-stacks]]
+[[!redirects infinity stack]]
