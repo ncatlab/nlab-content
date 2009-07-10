@@ -17,4 +17,6 @@ $$
 
 is a [[homotopy pullback]] square.
 
-One definition of $(\infty,n)$-[[(infinity,n)-category|category]] is in terms of [[complete Segal space]]s.
+One definition of $(\infty,n)$-[[(infinity,n)-category|category]] is in terms of [[complete Segal spaces]].
+
+[[!redirects Segal spaces]]
