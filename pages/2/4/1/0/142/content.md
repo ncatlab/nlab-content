@@ -94,3 +94,4 @@ Introductory material is
  * A. Vistoli, _Notes on Grothendieck topologies, fibered categories and descent theory_ ([arXiv](http://arxiv.org/abs/math/0412512))
 
 [[!redirects stack*]]
+[[!redirects stacks]]
