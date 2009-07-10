@@ -7,7 +7,10 @@ is called a **coequalizer** diagram if
 This concept is a special case of that of [[colimit]]; specifically, its the colimit of the diagram
 $$U \underoverset{b}{a}{\rightrightarrows} V .$$
 
-
+[[!redirects coequalizers]]
 [[!redirects coequaliser]]
 [[!redirects coequalize]]
 [[!redirects coequalise]]
+[[!redirects coequalisers]]
+[[!redirects coequalizes]]
+[[!redirects coequalises]]
