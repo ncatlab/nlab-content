@@ -11,9 +11,9 @@ But the [[delooping]] of a group $G$ is a [[groupoid]] $\mathbf{B} G$ with
 
 * $Hom_{\mathbf{B}G}(\bullet, \bullet) = G$.
 
-Since for $G, H$ two groups, [[functor]]s $\mathbf{B}G \to \mathbf{B}H$ are canonically in bijection with group homomorphisms $G \to H$, this gives rise to the following statement:
+Since for $G, H$ two groups, [[functors]] $\mathbf{B}G \to \mathbf{B}H$ are canonically in bijection with group homomorphisms $G \to H$, this gives rise to the following statement:
 
-Let [[Grpd]] be the 1-[[category]] whose objects are [[groupoid]]s and whose [[morphism]]s are [[functor]]s (discarding the [[natural transformation]]s). Let [[Grp]] be the category of groups. Then the [[delooping]] functor
+Let [[Grpd]] be the 1-[[category]] whose objects are [[groupoids]] and whose [[morphisms]] are [[functors]] (discarding the [[natural transformations]]). Let [[Grp]] be the category of groups. Then the [[delooping]] functor
 
 $$
   \mathbf{B} : Grp \to Grpd
@@ -42,7 +42,7 @@ $$
   \,.
 $$
 
-To fix this, look at the category of [[pointed object|pointed]] groupoids with [[pointed functor]]s and pointed natural transformations.  Between group homomorphisms as above, only identity transformations are pointed, so $Grp$ becomes a full sub-$2$-category of $Grpd_*$ (one that happens to be a $1$-[[1-category|category]]).  (Details may be found in the appendix to [[Lectures on n-Categories and Cohomology]] and should probably be added to [[pointed functor]] and maybe also [[k-tuply monoidal n-category]].)
+To fix this, look at the category of [[pointed object|pointed]] groupoids with [[pointed functors]] and pointed natural transformations.  Between group homomorphisms as above, only identity transformations are pointed, so $Grp$ becomes a full sub-$2$-category of $Grpd_*$ (one that happens to be a $1$-[[1-category|category]]).  (Details may be found in the appendix to [[Lectures on n-Categories and Cohomology]] and should probably be added to [[pointed functor]] and maybe also [[k-tuply monoidal n-category]].)
 
 
 # Internalization #
@@ -54,3 +54,5 @@ Equivalently, it is a functor $C^{op}\to Grp$ whose underlying functor $C^{op} \
 For example, a group object in [[Diff]] is a [[Lie group]].  A group object in [[Top]] is a [[topological group]].  And a group object in $CAlg^{op}$, where $CAlg$ is the category of commutative algebras, is a (commutative) [[Hopf algebra]].
 
 A group object in [[Grp]] is the same thing as an abelian group (see [[Eckmann-Hilton argument]]), and a group object in [[Cat]] is the same thing as an [[internal category]] in [[Grp]], both being equivalent to the notion of [[crossed module]]. 
+
+[[!redirects groups]]
