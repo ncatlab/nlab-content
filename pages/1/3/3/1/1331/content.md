@@ -47,3 +47,7 @@ Let $C$ be a [[presentable (infinity,1)-category]] and $S$ a small collection of
   * the morphism $f$ belongs to $\bar S$;
 
   * for $L : C \to C'$ the [[localization of an (infinity,1)-category|localization functor]] left adjoint to $C' \hookrightarrow C$ the induced morphism $L f$ is an equivalence.
+
+[[!redirects reflective (infinity,1)-subcategories]]
+[[!redirects reflective (∞,1)-subcategory]]
+[[!redirects reflective (∞,1)-subcategories]]
