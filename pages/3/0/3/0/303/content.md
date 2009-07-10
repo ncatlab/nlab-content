@@ -1,6 +1,6 @@
 #Idea#
 
-Enriched functors are used in place of [[functor]]s in [[enriched category theory]]: like functors they send objects to objects, but instead of mapping [[hom-set]]s to [[hom-set]]s they assign morphisms in the enriching category between [[hom-object]]s, while being compatible with composition and units in the obvious way.
+Enriched functors are used in place of [[functors]] in [[enriched category theory]]: like functors they send objects to objects, but instead of mapping [[hom-sets]] to [[hom-sets]] they assign morphisms in the enriching category between [[hom-objects]], while being compatible with composition and units in the obvious way.
 
 #Definition#
 
@@ -44,7 +44,7 @@ $$F_{x, y}: C(x, y) \to D(F_0x, F_0y)$$
 
 #Remarks#
 
-* Analogous to the [[functor category]] for ordinary [[functor]]s between ordinary [[category|categories]], enriched functors between two enriched categories form an [[enriched functor category]].
+* Analogous to the [[functor category]] for ordinary [[functors]] between ordinary [[categories]], enriched functors between two enriched categories form an [[enriched functor category]].
 
 
 #References#
@@ -52,3 +52,5 @@ $$F_{x, y}: C(x, y) \to D(F_0x, F_0y)$$
 The standard reference on [[enriched category theory]] is
 
 * Max Kelly, _Basic Concepts of Enriched Category Theory_ ([web](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html))
+
+[[!redirects enriched functors]]
