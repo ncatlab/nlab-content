@@ -1,10 +1,10 @@
 #Idea#
 
-A **geometric embedding** is the right notion of embedding or inclusion of [[topos|topoi]] $F \hookrightarrow E$.
+A **geometric embedding** is the right notion of embedding or inclusion of [[topoi]] $F \hookrightarrow E$.
 
 Notably the inclusion $Sh(S) \hookrightarrow PSh(S)$ of a [[category of sheaves]] into its [[presheaf]] [[topos]] or more generally the inclusion $Sh_j E \hookrightarrow E$ of sheaves in a topos $E$ into $E$ itself, is a geometric embedding. Actually every geometric embedding is of this form, up to equivalence of [[topos|topoi]].
 
-Another perspective is that a geometric embedding $F \hookrightarrow E$ is the [[localization]]s of $E$ at the class $W$ or morphisms that the [[left adjoint]] $E \to F$ sends to isomorphisms in $F$.
+Another perspective is that a geometric embedding $F \hookrightarrow E$ is the [[localizations]] of $E$ at the class $W$ or morphisms that the [[left adjoint]] $E \to F$ sends to isomorphisms in $F$.
 
 
 #Definition#
@@ -44,7 +44,7 @@ and let $W \subset Mor(E)$ be the class of morphisms sent by $f^*$ to isomorphis
 
 We have:
 * $F$ is equivalent to the [[localization]] $E[W]^{-1}$;
-* $F$ is equivalent to the full [[subcategory]] of $E$ on $W$-[[local object]]s.
+* $F$ is equivalent to the full [[subcategory]] of $E$ on $W$-[[local objects]].
 
 =--
 
@@ -52,11 +52,11 @@ This fact connects for instance the description of [[sheafification]] in terms o
 
 * MacLane-Moerdijk, [[Sheaves in Geometry and Logic]]
 
-with that in terms of [[localization]] at [[local isomorphism]]s, as described in
+with that in terms of [[localization]] at [[local isomorphisms]], as described in
 
 * Kashiwara-Schapira, [[Categories and Sheaves]].
 
-Moreover, this is the basis on which sheafification is generalized to [[(infinity,1)-sheafification]] in
+Moreover, this is the basis on which sheafification is generalized to [[(∞,1)-sheafification]] in
 
 * [[Jacob Lurie]], [[Higher Topos Theory]] .
 
@@ -211,7 +211,7 @@ For every object $a \in E$
 ###### Proof
 
 This follows from the zig-zag identities
-of the [[adjoint functor]]s. 
+of the [[adjoint functors]]. 
 
 $$
   \array{
@@ -488,7 +488,7 @@ So if $a$ is $W$-local we find that $\eta_a : a \to \bar a$ is an isomorphism, h
 +-- {: .un_cor}
 ###### Corollary
 
-$F$ is equivalent to the full [[subcategory]] $E_{W-loc}$ of $E$ on $W$-[[local object]]s.
+$F$ is equivalent to the full [[subcategory]] $E_{W-loc}$ of $E$ on $W$-[[local objects]].
 
 =--
 
@@ -526,7 +526,7 @@ $F$ is [[equivalence of categories|equivalent]] to the [[localization]] $E[W^{-1
 By one of the above propositions we know that
 $W$ is a [[calculus of fractions|left multiplicative systems]]. 
 
-This implies that the localization $E[W^{-1}]$ is (equivalent to) the category with the same objects as $E$, and with [[hom-set]]s given by
+This implies that the localization $E[W^{-1}]$ is (equivalent to) the category with the same objects as $E$, and with [[hom-sets]] given by
 
 $$
   Hom_{E[W^{-1}]}(a,b)
@@ -638,3 +638,5 @@ $$
 section VII, 4 of 
 
 * Moerdijk-MacLane, _[[Sheaves in Geometry and Logic]]_ 
+
+[[!redirects geometric embeddings]]
