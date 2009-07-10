@@ -6,5 +6,5 @@ $$
   \,.
 $$
 
-This is always a [[Kan complex]] and as such has the interpretation of the [[fundamental infinity-groupoid]] $\Pi(X)$ of $X$.
+This is always a [[Kan complex]] and as such has the interpretation of the [[fundamental ∞-groupoid]] $\Pi(X)$ of $X$.
 
