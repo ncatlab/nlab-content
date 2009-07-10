@@ -1,3 +1,12 @@
+# Idea #
+
+_Geometric_ realization denotes usually the special case of [[nerve and realization]] induced from the standard [[simplicial set|cosimplicial]] topological space that in degree $n$ is the standard topological $n$-simplex $\Delta^n_{Top}$.
+
+In this case geometric realization is the operation that reads in a [[simplicial set]] $X$ and spits out the [[topological space]] that is obtained by interpreting each 
+element in $X_n$ -- each abstract $n$-simplex in $X$ -- as one copy of $\Delta^n_{Top}$ and then guing together all these along their boundaries to a big topological space, using the information encoded in the face and degeneracy maps of $X$ on how these simplices are supposed to be stuck together.
+
+# Details #
+
 Let $S$ be one of the categories of [[geometric shapes for higher structures]], such as the [[globe category]] or the [[simplex category]] or the [[cube category]].
 
 There is an obvious functor
@@ -12,3 +21,13 @@ $$
   |K^\bullet| = \int^{[n] \in S} st([n]) \cdot K^n
   \,.
 $$
+
+# Examples #
+
+* For $G$ a [[group]], $\mathbf{B}G$ its one-object [[groupoid]] obtained by [[delooping]], $N(\mathbf{B}G)$ the corresponding simplicial [[nerve]] [[Kan complex]], we have that the geometric realization
+
+  $$
+    B G = |N\mathbf{B} G|
+  $$
+
+  is the [[topological space]] that is the [[classifying space]] for $G$-[[principal bundle]]s (cover spaces, as long as we don't put nontrivial topology on $G$).
