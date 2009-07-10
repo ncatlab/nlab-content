@@ -1,6 +1,6 @@
 #Idea#
 
-Globular sets are to [[simplicial set]]s as [[globe]]s are to simplices.
+Globular sets are to [[simplicial sets]] as [[globes]] are to simplices.
 
 #Definition#
 
@@ -145,3 +145,5 @@ consecutive identity-assigning, source or target maps, respectively.
 * Globular sets are also referred to as $\omega$-[[omega-graph|graphs]].
 
 * globular sets are based on one of the three major [[geometric shapes for higher structures]].
+
+[[!redirects globular sets]]
