@@ -12,11 +12,11 @@ Note that this is precisely what is necessary to validate induction over $\prec$
 
 Let $S$ be a [[finite set]].  Then any relation on $S$ is well-founded.
 
-Let $S$ be the set of [[natural number]]s, and let $x \prec y$ if $y$ is the [[successor]] of $x$: $y = x + 1$.  That this relation is well-founded is the usual principle of _mathematical induction_.
+Let $S$ be the set of [[natural numbers]], and let $x \prec y$ if $y$ is the [[successor]] of $x$: $y = x + 1$.  That this relation is well-founded is the usual principle of _mathematical induction_.
 
 Again let $S$ be the set of natural numbers, but now let $x \prec y$ if $x \lt y$ in the usual order.  That this relation is well-founded is the principle of _strong induction_.
 
-More generally, let $S$ be a set of [[ordinal number]]s (or even the proper class of all ordinal numbers), and let $x \prec y$ if $x \lt y$ in the usual order.  That this relation is well-founded is the principle of _transfinite induction_.
+More generally, let $S$ be a set of [[ordinal numbers]] (or even the proper class of all ordinal numbers), and let $x \prec y$ if $x \lt y$ in the usual order.  That this relation is well-founded is the principle of _transfinite induction_.
 
 Let $S$ be the set of positive integers, and let $x \prec y$ mean that $x$ divides $y$: $x \mid y$, or $y/x$ is an integer.  This relation is also well-founded, so one can prove properties of integers by induction on their divisors.
 
@@ -38,7 +38,7 @@ Given two sets $S$ and $T$, each equipped with a well-founded relation $\prec$, 
 *  $f(x) \prec f(y)$ whenever $x \prec y$ and
 *  given $t \prec f(x)$, there exists $y \prec x$ with $t = f(y)$.
 
-Then sets so equipped form a [[category]] with simulations as [[morphism]]s.  See [[extensional relation]] for more uses of simulations.
+Then sets so equipped form a [[category]] with simulations as [[morphisms]].  See [[extensional relation]] for more uses of simulations.
 
 ## Remarks ##
 
@@ -46,6 +46,6 @@ Every well-founded relation is [[irreflexive relation|irreflexive]]; that is, $x
 
 A [[well-order|well order]] may be defined as a well-founded [[linear order]], or alternatively as a [[transitive relation|transitive]], [[extensional relation|extensional]], well-founded relation.
 
-The [[axiom of foundation]] in material [[set theory]] states precisely that the membership relation $\in$ on the proper class of all [[pure set]]s is well-founded.  In structural set theory, accordingly, one uses well-founded relations in building structural models of well-founded pure sets.
+The [[axiom of foundation]] in material [[set theory]] states precisely that the membership relation $\in$ on the proper class of all [[pure sets]] is well-founded.  In structural set theory, accordingly, one uses well-founded relations in building structural models of well-founded pure sets.
 
 [[!redirects well-founded relations]]
