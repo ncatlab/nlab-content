@@ -29,3 +29,5 @@ A __sequential topological space__ is a [[topological space]] $X$ such that a su
 # References #
 
 R. Engelking, _General topology_
+
+[[!redirects sequential spaces]]
