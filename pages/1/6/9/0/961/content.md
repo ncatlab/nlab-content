@@ -24,3 +24,5 @@ The eponymous example is congruence modulo $n$ (for a fixed [[natural number]] $
 # Remarks #
 
 A [[Mal'cev category]] is a [[finitely complete category]] in which every internal relation satisfying reflexivity is thereby actually a congruence.
+
+[[!redirects congruences]]
