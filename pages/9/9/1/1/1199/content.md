@@ -47,3 +47,5 @@ Every well-founded relation is [[irreflexive relation|irreflexive]]; that is, $x
 A [[well-order|well order]] may be defined as a well-founded [[linear order]], or alternatively as a [[transitive relation|transitive]], [[extensional relation|extensional]], well-founded relation.
 
 The [[axiom of foundation]] in material [[set theory]] states precisely that the membership relation $\in$ on the proper class of all [[pure set]]s is well-founded.  In structural set theory, accordingly, one uses well-founded relations in building structural models of well-founded pure sets.
+
+[[!redirects well-founded relations]]
