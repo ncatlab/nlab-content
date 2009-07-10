@@ -1,4 +1,4 @@
-The notion of _nerve_ is part of a notion of pairs of [[adjoint functor]]s. For the general nonsense behind this see
+The notion of _nerve_ is part of a notion of pairs of [[adjoint functors]]. For the general nonsense behind this see
 
 * [[nerve and realization]] .
 
@@ -33,7 +33,7 @@ There various obvious generalizations of this procedure, some of which described
 
 > (notice that for the moment the following gives just one particular case of the more general notion of nerver)
 
-Let $S$ be one of the categories of [[geometric shapes for higher structures]], such as the [[globe category]] $G$, the [[simplex category]] $\Delta$, the [[cube category]] $\Box$, the [[cycle category]] $\Lambda$ of Connes, or certain category $\Omega$ related to trees whose corresponding presheaves are [[dendroidal set]]s.
+Let $S$ be one of the categories of [[geometric shapes for higher structures]], such as the [[globe category]] $G$, the [[simplex category]] $\Delta$, the [[cube category]] $\Box$, the [[cycle category]] $\Lambda$ of Connes, or certain category $\Omega$ related to trees whose corresponding presheaves are [[dendroidal sets]].
 
 If $C$ is any [[locally small category|locally small]] category or, more generally, a $V$-[[enriched category]] equipped with a [[functor]]
 $$
@@ -43,7 +43,7 @@ we obtain a functor
 $$
   N : C \to V^{S^{op}}
 $$
-from $C$ to [[globular set]]s or [[simplicial set]]s or [[cubical set]]s, respectively, (or the corresponding $V$-objects) given on an [[object]] $c \in C$ by
+from $C$ to [[globular sets]] or [[simplicial sets]] or [[cubical sets]], respectively, (or the corresponding $V$-objects) given on an [[object]] $c \in C$ by
 $$
   N_i(c) : S^{op} \stackrel{i}\to C^{op} 
     \stackrel{C(-,c)}{\to}
@@ -194,7 +194,7 @@ In particular in light of their generalization to nerves of higher categories, d
        A \times A \stackrel{\to}{\to} A \to {*}
     \right)
   $$
-  In particular, when $A = G$ is a discrete group, then the [[geometric realization]] $|N(\mathbf{B} G)|$ of the nerve of $\mathbf{B}G$ is the [[classifying space|classifying]] [[topological space]] $ \cdots \simeq B G$ for $G$-[[principal bundle]]s.
+  In particular, when $A = G$ is a discrete group, then the [[geometric realization]] $|N(\mathbf{B} G)|$ of the nerve of $\mathbf{B}G$ is the [[classifying space|classifying]] [[topological space]] $ \cdots \simeq B G$ for $G$-[[principal bundles]].
 
 
 ### properties of the nerve of a category ###
@@ -220,7 +220,7 @@ are [[pullback]] diagrams.
 
 Unwrapping this definition inductively in $(n+m)$, this says that a simplicial set is the nerve of a category if and only if all its cells in degree $\geq 2$ are unique compositors, associators, pentagonators, etc of composition of 1-morphisms. No non-trivial such structure cells appear and no further higher cells appear.
 
-This characterization of categories in terms of nerves directly leads to the model of [[(infinity,1)-category]] in terms of [[complete Segal space]]s by replacing in the above discussion sets by [[topological space]]s (or something similar, like [[Kan complex]]es) and pullbacks by [[homotopy pullback]]s.
+This characterization of categories in terms of nerves directly leads to the model of [[(∞,1)-category]] in terms of [[complete Segal spaces]] by replacing in the above discussion sets by [[topological spaces]] (or something similar, like [[Kan complexes]]) and pullbacks by [[homotopy pullbacks]].
 
 +-- {: .un_prop}
 ###### Proposition
@@ -235,7 +235,7 @@ is a [[full and faithful functor]].
 
 =--
 
-So  [[functor]]s between [[locally small category|locally small categories]] are in bijections with morphisms of [[simplicial set]]s between their nerves.
+So  [[functors]] between [[locally small category|locally small categories]] are in bijections with morphisms of [[simplicial sets]] between their nerves.
 
 
 
@@ -247,7 +247,7 @@ is a [[Kan complex]] if and only if $C$ is a [[groupoid]].
 
 =--
 
-The existence of [[inverse]] morphisms in $D$ corresponds to the fact that in the [[Kan complex]] $N(D)$ the "outer" [[horn]]s
+The existence of [[inverse]] morphisms in $D$ corresponds to the fact that in the [[Kan complex]] $N(D)$ the "outer" [[horns]]
 
 $$
   \array{
@@ -297,11 +297,11 @@ $$
 
 (even unique fillers, due to the above).
 
-It is in this sense that a simplicial set that is a [[Kan complex]] but which does not necessarily have the above pullback property that makes it a nerve of an ordinary groupoid models an [[infinity-groupoid]].
+It is in this sense that a simplicial set that is a [[Kan complex]] but which does not necessarily have the above pullback property that makes it a nerve of an ordinary groupoid models an [[∞-groupoid]].
 
 ## nerve of an $\omega$-category ##
 
-* This previous example is the restriction to [[1-category|1-categories]] of the nerve ("$\omega$-nerve") on [[strict omega-category|strict omega-categories]] which is induced by the [[oriental]]s $i := O : \Delta \to \omega Cat$. This nerve is not fully faithful.
+* This previous example is the restriction to [[1-category|1-categories]] of the nerve ("$\omega$-nerve") on [[strict omega-category|strict omega-categories]] which is induced by the [[orientals]] $i := O : \Delta \to \omega Cat$. This nerve is not fully faithful.
 
 * When $C$ is the strict 1-category of [[2-category|2-categories]] or of [[bicategory|bicategories]] and homomorphisms of bicategories, and $S=\Delta$ the corresponding nerve is called the _Duskin nerve_.
 
@@ -332,7 +332,7 @@ The nerve/[[geometric realization|realization]] adjunction induced from this is 
 Often the operation of taking the nerve of a (higher) category is followed by forming the [[geometric realization]] of the corresponding cellular set.
 
 ##Nerves and higher categories##
-For many purposes it is convenient to conceive categories and especially [[infinity-category|infinity-categories]] entirely in terms of their nerves: those simplicial sets that arise as certain nerves are usually characterized by certain properties. So one can turn this around and _define_ an [[infinity-category]] as a simplicial set with certain properties. This is the strategy of a [[geometric definition of higher category]]. Examples for this are [[complicial set|complicial sets]], [[Kan complex|Kan complexes]], [[quasi-category|quasi-categories]], [[simplicial T-complex|simplicial T-complexes]],...
+For many purposes it is convenient to conceive categories and especially [[∞-categories]] entirely in terms of their nerves: those simplicial sets that arise as certain nerves are usually characterized by certain properties. So one can turn this around and _define_ an [[∞-category]] as a simplicial set with certain properties. This is the strategy of a [[geometric definition of higher category]]. Examples for this are [[complicial set|complicial sets]], [[Kan complex|Kan complexes]], [[quasi-category|quasi-categories]], [[simplicial T-complex|simplicial T-complexes]],...
 
 ##Internal nerve##
 A variant of the nerve construction can also be applied _internally_ within a category, to any internal category, see the discussion at [[internal category]].
