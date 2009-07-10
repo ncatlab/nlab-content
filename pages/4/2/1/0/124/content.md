@@ -14,8 +14,12 @@ In a way, however, these concise definitions can be misleading, because a topos 
 
 Some of the most important examples of toposes are [[Grothendieck topos]]es, which are the categories of [[sheaf|sheaves]] on [[site]]s.  The word "topos" was originally used only to mean Grothendieck's sort.
 
-
+[[!redirects topoi]]
 [[!redirects Lawvere-Tierney topos]]
 [[!redirects Lawvere--Tierney topos]]
 [[!redirects Lawvere–Tierney topos]]
 [[!redirects elementary topos]]
+[[!redirects Lawvere-Tierney topoi]]
+[[!redirects Lawvere--Tierney topoi]]
+[[!redirects Lawvere–Tierney topoi]]
+[[!redirects elementary topoi]]
