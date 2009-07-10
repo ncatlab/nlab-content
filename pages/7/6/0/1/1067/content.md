@@ -21,3 +21,5 @@ When discussing chain or cochain complexes within the area of [[differential alg
 There is a [[model category]] structure on the category $Ch(A)$ of chain complexes. Its [[homotopy category]] is the [[derived category]] of $A$.
 
 See [[model structure on chain complexes]].
+
+[[!redirects chain complexes]]
