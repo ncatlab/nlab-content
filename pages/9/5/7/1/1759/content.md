@@ -15,6 +15,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-10
 
+* [[Urs Schreiber]]:
+
+  * added an "Idea" section to the beginning of 
+    [[Postnikov system in triangulated category]]
+
+    * in the course of that I noticed that the sub-web of stable higher category links was lacking a bit of coherence.  I tried to improve the link lists at [[stable (infinity,1)-category]] a bit accordingly and also added an "Idea" piece with links to [[enhanced triangulated category]].
+
 *  [[Toby Bartels]]:  A quick note:  I also have been changing `[[apple]]s` to `[[apples]]` but I will not do it now unless I have reason to think that it was written by someone who prefers `[[apples]]`.  In general, I do not edit matters of taste; I didn\'t know that this was a matter of taste, but now I do know that.  (Sometimes if I\'m changing something else, then I will change matters of taste at the same time, but only if I have substantially rewritten the sentence or if helps to standardise the notation and terminology.  And this does not qualify as notation and terminology.)  I\'m sorry if I caused offence, but please understand that I did not know that there was a difference of style.
    *  PS:  If Eric adds `[[!redirects apples]]` to the bottom of `[[apple]]`, then both `http://ncatlab.org/nlab/show/apple` and `http://ncatlab.org/nlab/show/apples` should work.  I will still add such redirects myself, for the benefit of the style preferred by Urs, Eric, and me; but I will no longer change styles in what Zoran has written.
    *  PPS:  To see the source of an old version of a page, hit **Back in time** until you find the right version (or try **History** to get a list of versions), then hit **Rollback** to see the source of that version.  After you\'ve copied the source, hit **Cancel** (or **Submit** if you really want to change it back to the old version).
