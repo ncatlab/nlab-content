@@ -1,3 +1,7 @@
+The notion of _nerve_ is part of a notion of pairs of [[adjoint functor]]s. For the general nonsense behind this see
+
+* [[nerve and realization]] .
+
 # Idea #
 
 As soon as any [[locally small category]] $C$ comes equipped with a [[simplicial object|cosimplicial object]]
