@@ -22,5 +22,3 @@ But this site started operation only a few months ago. Some structure is beginni
 * Distilled wisdom from the various discussions is starting to appear on the [[FAQ]].
 
 category: meta
-
-[[!redirects action groupoids]]
