@@ -15,3 +15,5 @@ $$\gamma_j: c \to F j,$$
 one for each object $j$ of $J$, which are compatible with all the morphisms $F f: F j \to F k$ of the diagram, in the sense that $(F f)\gamma_j = \gamma_k$ for every morphism $f: j \to k$ of $J$. 
 
 It's called a cone because one pictures $c$ as sitting at the vertex, and the diagram itself as forming the base of the cone. 
+
+[[!redirects cones]]
