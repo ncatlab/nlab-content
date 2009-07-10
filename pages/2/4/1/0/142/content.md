@@ -4,9 +4,9 @@ The notion of _stack_ is the one-step [[vertical categorification]] of a [[sheaf
 
 Or rather, it is the half-categorification of a sheaf where the _codomain_ is categorified (from [[Set]] to [[Cat]] or [[Grpd]]). If also the domain (the [[site]]) is categorified, one speaks of a [[derived stack]].
 
-Since the full $\infty$-categorification of "[[sheaf]]" is [[infinity-stack]], a stack is conversely an [[infinity-stack]] which happens to be 1-truncated.
+Since the full $\infty$-categorification of "[[sheaf]]" is [[∞-stack]], a stack is conversely an [[∞-stack]] which happens to be 1-truncated.
 
-From this $\infty$-point of view it seems a bit pointless to say "stack" instead of "2-sheaf" and accordingly for instance in [[Higher Topos Theory|HTT]] the term [[(infinity,1)-sheaf|infinity-sheaf]] is used instead of $\infty$-stack.
+From this $\infty$-point of view it seems a bit pointless to say "stack" instead of "2-sheaf" and accordingly for instance in [[Higher Topos Theory|HTT]] the term [[(infinity,1)-sheaf|∞-sheaf]] is used instead of $\infty$-stack.
 
 More concretely this means that a stack on a [[site]] $S$ is 
 
@@ -16,7 +16,7 @@ More concretely this means that a stack on a [[site]] $S$ is
 
 In the latter case, the stack is sometimes referred to as a stack of groupoids. This is the more commonly occurring case so the term 'stack' has come to mean 'stack of groupoids' in much of the literature. 
 
-In some circles the notion of a stack as a generalized groupoid is almost more familiar than the notion of sheaf as a [[space and quantity|generalized space]]. For instance [[differentiable stacks]] have attracted much attention in the study of [[Lie groupoid]]s and [[orbifold]]s, while [[generalized smooth space]]s are only beginning to be investigated more in [[Lie theory]]. 
+In some circles the notion of a stack as a generalized groupoid is almost more familiar than the notion of sheaf as a [[space and quantity|generalized space]]. For instance [[differentiable stacks]] have attracted much attention in the study of [[Lie groupoids]] and [[orbifolds]], while [[generalized smooth spaces]] are only beginning to be investigated more in [[Lie theory]]. 
 
 
 #Provisional discussion#
@@ -28,7 +28,7 @@ The following is "provisional" material on stacks that [[Todd Trimble]] wrote in
 (Todd speaking.) I don't really speak "stacks", but in an effort to build a bridge between sheaves and stacks, I'll write down what I thought I understood, and ask someone such as Urs to come in and check. (Warning: I'm treating this edit box almost as a sandbox, in that what I say below is all a bit provisional until we get some discussion going.) 
 
 +--{.query}
- Hi Todd, thanks for this. I started making some remarks on the relation between descent $\infty$-categories and pseudofunctors from [[cover]]s regarded as [[sieve]]s (hence as presheaves) at [[descent and codescent]] in the section titled _Descent in terms of pseudo-functors_.
+ Hi Todd, thanks for this. I started making some remarks on the relation between descent $\infty$-categories and pseudofunctors from [[covers]] regarded as [[sieves]] (hence as presheaves) at [[descent and codescent]] in the section titled _Descent in terms of pseudo-functors_.
 =--
 
 At the simplest level, let $C$ be a category. As we know, a presheaf on $C$ is just a functor $X: C^{op} \to Set$. 
