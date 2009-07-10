@@ -41,3 +41,5 @@ a **localization** of $C$.
 [definition 5.2.7.2](http://www-math.mit.edu/~lurie/papers/highertopoi.pdf#page=296) of
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
+
+[[!redirects localization of an (∞,1)-category]]
