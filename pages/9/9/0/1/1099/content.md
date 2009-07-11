@@ -1,13 +1,13 @@
 #Idea#
 
-An _$(\infty,1)$-functor_ is a morphism between [[(infinity,1)-category|(infinity,1)-categories]].
+An _$(\infty,1)$-functor_ is a morphism between [[(∞,1)-categories]].
 
-The collection of all $(\infty,1)$-functors between two $(\infty,1)$-categories form an [[(infinity,1)-category of (infinity,1)-functors]].
+The collection of all $(\infty,1)$-functors between two $(\infty,1)$-categories form an [[(∞,1)-category of (∞,1)-functors]].
 
 #Definition#
 
 The details of the definition depend on the model chosen for
-[[(infinity,1)-category|(infinity,1)-categories]].
+[[(∞,1)-categories]].
 
 1. [[quasi-category]]
 
