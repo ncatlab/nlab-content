@@ -285,3 +285,5 @@ Comparing with the general definition of cocycles and coboudnaries from above, o
 # References #
 
 * Baez, [Lectures On n-Categories and Cohomology](http://math.ucr.edu/home/baez/cohomology.pdf)
+
+  * See, in particular, the discussion beginning at the bottom of page 24.
