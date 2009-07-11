@@ -1,6 +1,6 @@
 #Idea#
 
-The _mapping cone_ of a [[morphism]] $f : X \to Y$ is a _[[weak quotient]]_ of $Y$ by the image of $X$.
+The _mapping cone_ of a [[morphism]] $f : X \to Y$ is a _[[weak quotient]]_ of $Y$ by the [[image]] of $X$ in $Y$ under $f$.
 
 #In additive categories with translation#
 
@@ -33,7 +33,7 @@ Notice the minus sign here, coming from the definition of a [[differential objec
 
 ## Distinguished triangles from mapping cones ##
 
-A homotopy category of the [[category of chain complexes]] (with respect to chain homotopy equivalences) has a natural structure of a [[triangulated category]] where the distinguished triangles are the triangles isomorphic to **mapping cone triangle**s
+A [[homotopy category]] of the [[category of chain complexes]] (with respect to chain [[homotopy equivalence]]s) has a natural structure of a [[triangulated category]] where the distinguished triangles are the triangles isomorphic to **mapping cone triangle**s
 
 $$
   A \stackrel{f}{\to}
@@ -59,7 +59,7 @@ $$
   \,.
 $$
 
-For every map of chain complexes $f:A\to B$, the cylinder $Cyl(f)$ is quasi-isomorphic to $B$, and moreover in the homotopy category of chain complexes, every distinguished triangle is quasi-isomorphic to a distinguished triangle of the form 
+For every map of [[chain complex]]es $f:A\to B$, the cylinder $Cyl(f)$ is quasi-isomorphic to $B$, and moreover in the [[homotopy category]] of chain complexes, every distinguished triangle is quasi-isomorphic to a distinguished triangle of the form 
 
 $$ A\to Cyl(u)\to Cone(u)\to A[1]$$
 
@@ -67,7 +67,11 @@ for some $u:A\to B$ where all the morphisms in the triangle are appropriatedly i
 
 #In Top#
 
-Given a continuous map $f:X\to Y$, define the topological space $Cone(f)$ as the mapping cylinder which is the amalgamated sum $X\times I \cup_{f} Y$
+A more geometric version of the mapping cone construction exists in the category [[Top]] of [[topological space]]s.
+
+Given a continuous map $f:X\to Y$, define the 
+[[topological space]] $Cone(f)$ as the mapping cylinder which is the amalgamated sum $X\times I \cup_{f} Y$
 (here for all $x\in X$, $(x,1)$ is identified with $f(x)$) modulo the contraction of $X\times \{0\}$ to a point. 
 
-Singular chain complex functor from $Top$ to the category of chain complexes of abelian groups sends the mapping cone to a mapping cone in the sense of chain complexes (up to conventions on the orientation of the interval and vector order in the definition of mapping cone of chain complexes). 
+Singular chain complex functor from [[Top]] to the 
+[[category of chain complexes]] of abelian groups sends the mapping cone to a mapping cone in the sense of chain complexes (up to conventions on the orientation of the interval and vector order in the definition of mapping cone of chain complexes). 
