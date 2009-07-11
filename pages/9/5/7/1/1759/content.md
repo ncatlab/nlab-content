@@ -15,6 +15,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-11
 
+* [[Urs Schreiber|Urs]]:
+
+  * branched off [[chain homology and cohomology]] from [[cohomology]], prodded by the blog discussion [here](http://golem.ph.utexas.edu/category/2009/06/cohomology_and_homotopy.html#c025198) -- but left somewhat unfinished as I need to run
+
 *  [[Toby Bartels]]:
 
    *  Another tip for Zoran:  If $\sqrt{\frac{a}{b}}$ looks bad, then the problem is on your end.  To be sure, it looks bad to me too, but that problem is on my end; it looks good if I use the STIX fonts (as discussed [here](http://golem.ph.utexas.edu/instiki/show/Browsers/)), but I think that those are otherwise pretty ugly, so I don\'t use them.  So the problem is that almost every font doesn\'t know how to do that sort of thing correctly ... but the MathML produced by Instiki is correct.  (Update:  Actually, that example looks just fine in DejaVu Serif too, but I remember that there are other examples that don\'t.)
