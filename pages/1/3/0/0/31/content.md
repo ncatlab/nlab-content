@@ -119,4 +119,8 @@ Hans Halvorson. <b>Draft version.</b>
 
 [Higher gauge theory II: 2-connections](http://math.ucr.edu/home/baez/2conn.pdf), with Urs Schreiber.  <b>Draft version.</b>
 
+
 category: people
+
+[[!redirects John C. Baez]]
+[[!redirects John C Baez]]
