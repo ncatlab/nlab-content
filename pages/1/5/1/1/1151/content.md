@@ -57,41 +57,12 @@ a [[stable (∞,1)-category]].
 
 [[Eric]]: Could someone explain how this relates to the version of <a href="http://en.wikipedia.org/wiki/Cohomology">cohomology I am familiar with</a>? Where is the coboundary?
 
+[[Urs Schreiber|Urs]]: I have moved the discussion of the answer to this case now to [[chain homology and cohomology]].
+
 =--
 
-### ordinary cohomology of cochain complexes ###
 
-The ordinary notion of cohomology of a cochain complex
-is the special case of cohomology in the 
-[[stable (∞,1)-category]] of [[chain complexes]].
 
-For $V^\bullet$ a cochain complex let $V_\bullet = (V^\bullet)^*$
-be the corresponding dual [[chain complex]]. Let
-
-$$
-  K(n,I) := \mathbf{B}^n I
-$$ 
-
-be the chain complex with the 
-tensor unit (the ground field, say) in degree $n$ and
-trivial elsewhere. Then cochain complex
-cohomology of $V^\bullet$ in degree $n$ is
-
-$$
-  H^n(V^\bullet)
-  \simeq
-  \pi_0\mathbf{H}(V_\bullet, \mathbf{B}^{-n} I)
-  \,.
-$$
-
-Comparing with the general definition of cocycles and coboudnaries from above, one confirms that
-
-* the **cocycles** are the chain maps
-  $$
-    V_\bullet \to I[n]_\bullet
-  $$
-
-* the **coboundaries** are the chain homotopies between these chain maps.
 
 #Remarks#
 
@@ -102,6 +73,8 @@ Notice that the grading one usually sees on cohomology classes is in the above d
 #Examples#
 
 * classes of special cases of cohomologies with their own entries include
+
+  * [[chain homology and cohomology]]
 
   * [[group cohomology]].
 
