@@ -40,3 +40,7 @@ is an [[equivalence of categories|equivalence]] of [[triangulated category|trian
 * A. I. Bondal, M. M. Kapranov, Enhanced triangulated categories, &#1052;&#1072;&#1090;&#1077;&#1084;. &#1057;&#1073;&#1086;&#1088;&#1085;&#1080;&#1082;, &#1058;&#1086;&#1084; 181 (1990), No.5, 669&#8211;683 (Russian); transl. in USSR Math. USSR Sbornik, vol. 70 (1991), No. 1, pp. 93&#8211;107, (MR91g:18010) ([[bondalKaprEnhTRiangCat.pdf:file]])
 
 See [[enhanced triangulated category]] for more links to references.
+
+
+[[!redirects pre-triangulated dg-category]]
+[[!redirects pretriangulated dg-categories]]
