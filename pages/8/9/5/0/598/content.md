@@ -184,4 +184,4 @@ theorem 17.1, page 67 of
 
 The theorem that every simplicial group is a Kan complex is originally due to
 
-* J. C. Moore, _Algebraic homotopy theory_, lecture notes, Princeton University, 1955-1956
+* J. C. Moore, _Algebraic homotopy theory_, lecture notes, Princeton University, 1955--1956
