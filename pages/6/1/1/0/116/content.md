@@ -42,7 +42,7 @@ $$
   \,.
 $$
 
-To fix this, look at the category of [[pointed object|pointed]] groupoids with [[pointed functors]] and pointed natural transformations.  Between group homomorphisms as above, only identity transformations are pointed, so $Grp$ becomes a full sub-$2$-category of $Grpd_*$ (one that happens to be a $1$-[[1-category|category]]).  (Details may be found in the appendix to [[Lectures on n-Categories and Cohomology]] and should probably be added to [[pointed functor]] and maybe also [[k-tuply monoidal n-category]].)
+To fix this, look at the category of [[pointed object|pointed]] groupoids with [[pointed functor|pointed functors]] and pointed natural transformations.  Between group homomorphisms as above, only identity transformations are pointed, so $Grp$ becomes a full sub-$2$-category of $Grpd_*$ (one that happens to be a $1$-[[1-category|category]]).  (Details may be found in the appendix to [[Lectures on n-Categories and Cohomology]] and should probably be added to [[pointed functor]] and maybe also [[k-tuply monoidal n-category]].)
 
 
 # Internalization #
