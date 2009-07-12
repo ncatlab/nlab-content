@@ -37,7 +37,9 @@ A probably incomplete list is:
 Most of these include some [[higher category theory]]. Some would define category theory as the human activity of [[category theorists]].
 
 #Contrast with set theory#
-Here set theory is assumed to be a theory of the usual concept of sets. No one of these is more fundamental than the other. Category theory is a holistic (structural) approach to mathematics that can by [[Algebraic set theory]] reproduce all the different axiomatic set theories and do not need the concept of set to be formulated. Set theory is an analytic approach (elementwise) that can reproduce category theory by Lawvere's [[Elementary theory of abstract categories]]. Lawvere also pointed out that set theory is axiomatized by a binary membership relation while category theory is axiomatized by a ternary composition relation.
+Here set theory is assumed to be a theory of the usual concept of sets, that is *material* [[set theory]].
+
+No one of these is more fundamental than the other. Category theory is a holistic (structural) approach to mathematics that can (through such methods as Lawvere\'s [[ETCS]]) provide [[foundations]] of mathematics and (through [[algebraic set theory]]) reproduce all the different axiomatic set theories; elementary category theory does not need the concept of set to be formulated. Set theory is an analytic approach (element-wise) that can reproduce category theory by Lawvere's [[elementary theory of abstract categories]]. Lawvere also pointed out that set theory is axiomatized by a binary membership relation while category theory is axiomatized by a ternary composition relation.
 
 For more on this and for the many different generalized sets see
 
@@ -45,6 +47,10 @@ For more on this and for the many different generalized sets see
 
 +--{.query}
 Rafael: I am a bit skeptical if to interpret ETAC as a set theory.
+
+_Toby_:  See [[set theory]] for the contrast between material and structural set theories.  See also [[foundation]]s; there may be some overlap between what you intend to write here and what is or should be there.
+
+I don\'t understand why you say that (material) set theory can reproduce category theory through ETAC.  Doesn\'t set theory reproduce category theory through the usual set-based definitions of category, functor, and natural transformation?
 =--
 
 #Literature#
