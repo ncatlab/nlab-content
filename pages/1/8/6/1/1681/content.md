@@ -1,6 +1,6 @@
 #Idea#
 
-An _Eilenberg--Mac Lane space_ is a connected [[topological space]] with nontrivial [[homotopy group]]s only in a single degree.
+An _Eilenberg--Mac Lane space_ is a connected [[topological space]] with nontrivial [[homotopy groups]] only in a single degree.
 
 #Definition#
 
@@ -11,7 +11,7 @@ $$
   \,.
 $$
 
-For $A$ an abelian group, the Eilenberg--Mac Lane space $K(A,n)$ is the image of the [[infinity-groupoid]] $\mathbf{B}^n A$ that is the [[strict omega-groupoid]] given by the [[crossed complex]] $[\mathbf{B}^n A]$ that is trivial everywhhere except in degree $n$, where it is $A$:
+For $A$ an abelian group, the Eilenberg--Mac Lane space $K(A,n)$ is the image of the [[∞-groupoid]] $\mathbf{B}^n A$ that is the [[strict ∞-groupoid]] given by the [[crossed complex]] $[\mathbf{B}^n A]$ that is trivial everywhhere except in degree $n$, where it is $A$:
 
 $$
   \begin{aligned}
@@ -33,7 +33,7 @@ $$
   \,.
 $$
 
-Therefore Eilenberg--Mac Lane spaces constitute a [[spectrum]]: the [[Eilenberg–Mac Lane spectrum]].
+Therefore Eilenberg--Mac Lane spaces constitute a [[spectrum]]: the [[Eilenberg?Mac Lane spectrum]].
 
 # Cohomology #
 
@@ -50,17 +50,17 @@ $$
   \,.
 $$
 
-Here on the right $Ho_{Top}$ and $Ho_{\infty Grpd}$ denotes the [[homotopy category]] of the [[(infinity,1)-category|(infinity,1)-categories]] of [[topological space]]s and of [[infinity-groupoid]]s, respectively.
+Here on the right $Ho_{Top}$ and $Ho_{\infty Grpd}$ denotes the [[homotopy category]] of the [[(∞,1)-categories]] of [[topological spaces]] and of [[∞-groupoids]], respectively.
 
 Notice that for $G$ a nonabelian group, $H^1(X,G)$ is a simple (and the most familiar) example of [[nonabelian cohomology]]. Nonabelian cohomology in higher degrees is obtained by replacing here the coefficient $\infty$-groupoids of the simple for $\mathbf{B}^n A$ with more general $\infty$-groupoids.
 
 #Generalizations#
 
-The notion of [[Eilenberg–Mac Lane object]] makes sense in every $(\infty,1)$-[[(infinity,1)-topos|topos]], not just in [[Top]].
+The notion of [[Eilenberg?Mac Lane object]] makes sense in every $(\infty,1)$-[[(infinity,1)-topos|topos]], not just in [[Top]].
 
 
 [[!redirects Eilenberg-Mac Lane space]]
 [[!redirects Eilenberg--MacLane space]]
 [[!redirects Eilenberg--Mac Lane space]]
-[[!redirects Eilenberg–MacLane space]]
-[[!redirects Eilenberg–Mac Lane space]]
+[[!redirects Eilenberg?MacLane space]]
+[[!redirects Eilenberg?Mac Lane space]]
