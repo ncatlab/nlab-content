@@ -95,7 +95,7 @@ This is a timeline of category theory and related mathematics.  For discussion a
 |1965| |Edgar Brown| |Abstract [[homotopy category|homotopy categories]]: A proper framework for the study of homotopy theory of [[CW-complex]]es|
 |1965| |[[Max Kelly]]| |[[differential graded category|dg-categories]]|
 |1965| |[[Max Kelly]]-[[Samuel Eilenberg]]| |[[Enriched category theory]]: Categories C enriched over a category V are categories with [[Hom-set]]s Hom<sub>C</sub> not just a set or class but with the structure of objects in the category V. Enrichment over V is a way to rise the [[categorical dimension]]|
-|1965| |[[Charles Ehresmann]]| |Defines both [[n-category|strict n-categories]] and [[2-category|strict 2-categories]]|
+|1965| |[[Charles Ehresmann]]| |Defines both [[2-category|strict 2-categories]] and [[n-category|strict n-categories]]|
 |1966| |[[Alexander Grothendieck]]| |[[Crystalline cohomology#Crystals|Crystals]] (a kind of sheaf used in [[crystalline cohomology]])|
 |1966| |[[William Lawvere]]| |ETAC [[Elementary theory of abstract categories]], first proposed axioms for Cat or category theory using first order logic|
 |1967| |[[Jean Bénabou]]| |[[Bicategory|Bicategories]] (weak 2-categories) and weak 2-functors|
@@ -407,6 +407,9 @@ Rafael: Why not splitting?  The table will grow larger and a split will be neces
 
 [[John Baez|John]]: I've deleted the entry on 'quantum topos', since in fact most experts are very doubtful that a correct definition has been found for this notion, and they're even uncertain such a notion deserves to exist. Let's stick to concepts that are fairly widely considered to be fruitful.
 
+:Rafael:
+I don't mind deleting it. But i am also curious what is wrong with the definition
+
 [[Urs Schreiber|Urs]]: that sounds good. Maybe I was thinking that "timeline of category theory" sounds like it shouldn't contain just every little bit. So maybe if and when we split, is there any majority for keeping this title here for the _short_ list and another title for the long list, maybe _literature list of category theory_ or the like?
 
 [[John Baez|John]]:  Right now I don't feel this timeline contains too much minor stuff.  It mostly just contains stuff that's very important to the history of categories and related math.   I might take out a few things, but mostly I'd feel the need to add things to get a reasonably full timeline.
@@ -415,4 +418,4 @@ I might shorten some of the entries though: the longer ones seem to be on topics
 
 Someday someone (maybe Andrew Stacey) will create an easy way for us to dump bibliographical information into the $n$Lab, and then maybe we can grow an enormous 'literature list' without doing too much work.  
 
-Rafael: I actually had the idea to collect John's first paper in a separate entry. If i don't find a way to do line breaks a separate page is needed for it. The same goes for pursuing stacks! I am very interesting to hear what you have in mind to add!
+Rafael: I actually had the idea to collect John's first paper in a separate entry. If i don't find a way to do line breaks a separate page is needed for it. The same goes for pursuing stacks! I am very interesting to hear what you have in mind to add! I would edit more (especially clean up links and style in the timeline) but nLab is too slow for me to edit efficiently.
