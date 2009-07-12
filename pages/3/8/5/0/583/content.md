@@ -1,6 +1,3 @@
-[[!redirects categorical logic]]
-[[!redirects syntactic category]]
-
 # Idea #
 
 One of the most important observations of [[category theory]] is that large parts of mathematics can be [[internalization|internalized]] in any [[category]] with sufficient structure.  The most basic examples of this involve algebraic structures; for instance, a [[group]] can be defined in any category with finite products, and an [[internal category]] can be defined in any ambient category with [[pullback]]s. For such [[algebraic theory|algebraic]] (or even [[essentially algebraic theory|essentially algebraic]]) structures, which are defined by _operations_ with _equational axioms_ imposed, it suffices for the ambient category to have (usually finite) limits.
@@ -130,6 +127,8 @@ By first applying various "completion" processes to syntactic categories before 
 
 (to be written...)
 
+But see [[Mitchell–Bénabou language]] for the version in a [[topos]].
+
 
 # References #
 
@@ -143,3 +142,8 @@ By first applying various "completion" processes to syntactic categories before 
 * "Categorical Logic and Type Theory" by Jacobs works in the even more general context of [[Grothendieck fibration|fibrations]], allowing us to associate to each object $A$ an arbitrary poset instead of $Sub(A)$.
 
 * Paul Taylor\'s book _[[Practical Foundations|Practical Foundations of Mathematics]]_ is arguably all about this subject (although you wouldn\'t know it until about Chapter VIII), but from a different perspective.  In particular, Taylor allows us to replace having *all* pullbacks with pullbacks along a pullback-stable class of _display morphisms_.
+
+
+[[!redirects internal language]]
+[[!redirects categorical logic]]
+[[!redirects syntactic category]]
