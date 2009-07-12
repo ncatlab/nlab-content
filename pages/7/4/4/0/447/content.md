@@ -25,9 +25,7 @@ $$
 # Examples #
 
 * For $G$ a [[group]], $\mathbf{B}G$ its one-object [[groupoid]] obtained by [[delooping]], $N(\mathbf{B}G)$ the corresponding simplicial [[nerve]] [[Kan complex]], we have that the geometric realization
-
   $$
-    B G = |N\mathbf{B} G|
+    \mathcal{B}G = |N\mathbf{B}G|
   $$
-
-  is the [[topological space]] that is the [[classifying space]] for $G$-[[principal bundle]]s (cover spaces, as long as we don't put nontrivial topology on $G$).
+  is the [[topological space]] that is the [[classifying space]] for $G$-[[principal bundle]]s ([[cover space]]s), as long as we give $G$ the [[discrete topology]].
