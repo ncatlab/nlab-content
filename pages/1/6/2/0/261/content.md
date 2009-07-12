@@ -37,11 +37,86 @@ With the standard morphisms of [[presheaf|presheaves]] as morphisms, simplicial 
 
 * The maps $\delta^i$ and $\sigma^i$ satisfy certain obvious relations -- the [[simplicial identities]] -- dual to those  spelled out at [[simplex category]].
 
-+-- {: .query}
 
-What do these face and degeneracy maps look like?  I'm looking for something similar to the pictures in [[cubical set]].
+## Visualisation
+(based on [[cubical set]])
 
-=--
+The **face maps**  go from sets $S_{n+1}$ of $(n+1)$-dimensional simplices to the corresponding set $S_{n}$ of $n$-dimensional simplices and can be thought of as sending each simplex in the simplicial set to one of its faces, for instance for $n=1$ the set $S_2$ of 2-simplices would be sent in three different ways by three different face maps to the set of $1$-simplices, for instance one of the face maps would send
+
+$$
+  \left(
+  \array{
+       &          & b
+     \\
+       & \nearrow & \Downarrow^F & \searrow
+     \\
+     a &          & \rightarrow  &          & c
+  }
+  \right)
+  \;\;
+  \mapsto
+  \;\;
+  \left(
+  \array{
+       &          & b
+     \\
+       & \nearrow
+     \\
+     a
+  }
+  \right)
+$$
+
+another one would send
+
+$$
+  \left(
+  \array{
+       &          & b
+     \\
+       & \nearrow & \Downarrow^F & \searrow
+     \\
+     a &          & \rightarrow  &          & c
+  }
+  \right)
+  \;\;
+  \mapsto
+  \;\;
+  \left(
+  \array{
+     a &          & \rightarrow  &          & c
+  }
+  \right)
+  \,.
+$$
+
+On the other hand, the **degeneracy maps** go the other way round and send sets $S_n$ of $n$-simplices to sets $S_{n+1}$ of $(n+1)$-simplices by regarding an $n$-simplex as a degenerate or "thin" $(n+1)$-simplex in the various different ways that this is possible. For instance again for $n=1$ a degeneracy map may act by sending
+
+$$
+  \left(
+  \array{
+     a
+     &\stackrel{f}{\to}&
+     b
+  }
+  \right)
+  \;\;
+  \mapsto
+  \;\;
+  \left(
+  \array{
+       &            & b
+     \\
+       & \nearrow_f & \Downarrow^{Id} & \searrow^{Id}
+     \\
+     a &            & \stackrel{f}\to &               & b
+  }
+  \right)
+  \,.
+$$
+
+Notice the $Id$-labels, which indicate that the edges and faces labeled by them are "[[thin element|thin]]" in much the same way as an [[identity morphism]] is thin (notice however that a simplicial set by itself is not equipped with a notion of composition of simplices. If it were, we'd call it a [[simplicial category]]).
+
 
 ## simplicial complexes ##
 
