@@ -4,7 +4,9 @@
 # Idea #
 
 A [[chain complex]] in non-negative degree is, under the [[Dold-Kan correspondence]] a [[homological algebra]] model for a particularly nice [[topological space]] or [[∞-groupoid]]: namely one with an abelian group structure on it.
-
++--{: .query}
+[[David Roberts]]: Should this be _of the homotopy type of an abelian topological group_? Or an $E_\infty$-algebra?
+=--
 Accordingly, an unbounded (arbitrary) [[chain complex]] is a model for a [[spectrum]] with abelian group structure. 
 
 One consequence of this embedding
