@@ -34,3 +34,4 @@ The Quillen adjunction $(F,G)$ is a **Quillen equivalence** if the following equ
 
 * for every cofibrant object $c \in C$ and every fibrant object $d \in D$ a morphism $c \to G(d)$ is a weak equivalence in $C$ precisely is the [[adjunct]] morphism $F(c) \to d$ is a weak equivalence in $D$.
 
+[[!redirects Quillen equivalences]]
