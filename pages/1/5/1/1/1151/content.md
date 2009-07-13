@@ -15,9 +15,7 @@ More precisely:
 
 * the [[objects]] $ c \in \mathbf{H}(X,A)$ are the **cocycle**s on $X$ with values in $A$;
 
-* the [[morphisms]] $\lambda : c \to c'$ in $\mathbf{H}(X,A)$ are the **coboundaries** between cocycles;
-
-* the higher morphisms in $\mathbf{H}(X,A)$ are the **higher degree coboundaries**.
+* the [[j-morphisms]] in $\mathbf{H}(X,A)$ are the **coboundaries**;
 
 * the equivalence classes $[c] \in \pi_0 \mathbf{H}(X,A)$ are the **cohomology classes**.
 
