@@ -1,4 +1,6 @@
 
+# Idea #
+
 An [[(infinity,1)-sheaf]] -- often called a [[infinity-stack]] -- is the 
 [[(infinity,1)-category|(infinity,1)-categorical]] analog of a [[sheaf]].
 Just like a [[category of sheaves]] is a [[topos]], 
@@ -16,6 +18,8 @@ What we describe is effectively the old theory of the
 [[model structure on simplicial presheaves]] seen in the new light of
 [[Higher Topos Theory]].
 
+
+# Plan #
 
 We proceed as follow.
 
@@ -54,6 +58,8 @@ We proceed as follow.
 
 
 # Sheaf toposes #
+
+It is helpful to briefly recall the story that we want to tell in the [[category theory]] context, because in the full [[higher category theory]] context it will be **literally the same** with all notions such as [[adjoint functor]], [[exact functor]] etc suitably regarded in the context of [[(infinity,1)-functor]]s.
 
 ## Presheaves ##
 
@@ -100,22 +106,27 @@ Recall that this means that
 
 in other words that
 
-* * $Sh(C) \hookrightarrow PSh(C)$ is the inclusion of a [[reflective subcategory]];
+* $Sh(C) \hookrightarrow PSh(C)$ is the inclusion of a [[reflective subcategory]];
 
-* with the special property that the [[left adjoint]] to the inclusion is [[left exact|exact functor]] (i.e. preserves finite [[limit]]s).
+* with the special property that the [[left adjoint]] to the inclusion is [[exact functor|left exact]] (i.e. preserves finite [[limit]]s).
 
 
 In view of our models for $\infty$-sheaves it is of importance that
 this implies an equivalence characterization
 
-**Proposition**
+
++-- {: .un_prop }
+###### Proposition
 
 The category $Sh(C)$ is equivalent to the full [[subcategory]] of 
-$S$-[[local object|local]] presheeaves, where $S$ is the set of
-[[local isomorphism]]s.
+$S$-[[local object|local]] presheaves, where $S$ is the set of [[local isomorphism]]s.
 
 
-Another useful kind of geometric embeddings is that of the point: 
+=--
+
+
+
+Another useful kind of [[geometric embedding]]s is that of the point: 
 
 let
 ${*}$ be the category with a single morphism (the identity on a single object).
@@ -144,8 +155,34 @@ This is the situation we shall concentrate on here.
 
 * The topos $Sh(Op(X))$ has enough points: one for every ordinary point of $X$.
 
+If $Sh(C)$ has enough points, we may characterize sheaves in yet another way, which is the one that directly suggests the  [[local model structure on simplicial presheaves]] discussed below:
+
++-- {: .un_defn}
+###### Definition
 
 
+=--
+
++-- {: .un_prop }
+###### Proposition
+
+Let $S \subset Mor(PSh(C))$ be the set of _[[stalk]]wise isomorphisms_, i.e. those morphisms $f : A \to B$ of presheaves such that for all [[point of a topos|points]]
+$x$ the morphism $x^* f : x^* A \to x^* B$ is
+an [[isomorphism]] (of [[set]]s).
+
+If $Sh(C)$ has [[point of a topos|enough points]], then $Sh(C)$ is equivalent to the full [[subcategory]] of $S$-local presheaves.
+
+=--
+
+The [[local model structure on simplicial presheaves]] that we are going to describe are obtained from this description of sheaves by 
+
+* replacing [[set]]s by [[simplicial set]]
+
+* replacing [[stalk]]wise [[isomorphism]] of sets by [[stalk]]wise [[model structure on simplicial sets|weak homotopy equivalence]]s of simplicial sets.
+
+So the model structures we shall encounter are plausible guesses. What is less trivial is that this plausible structure indeed models the fully general notion of [[(infinity,1)-sheaf]]/[[infinity-stack]].
+
+This fully general notion we introduce now.
 
 # $(\infty,1)$-categories and their presentation #
 
