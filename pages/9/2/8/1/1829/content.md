@@ -49,9 +49,7 @@ We proceed as follow.
       
   and finally
   
-  * the definition of the [[(infinity,1)-category of (infinity,1)-sheaves]] by
-    $(\infty,1)$-categorical geometric embedding;
-    
+  * the definition of the [[(infinity,1)-category of (infinity,1)-sheaves]] by [[reflective (infinity,1)-subcategory|(infinity,1)-geometric embedding]];    
     * and the [[model category|1-categorical model]] of this by 
       [[Bousfield localization]] to the [[local model structure on simplicial presheaves]].
   
@@ -157,11 +155,6 @@ This is the situation we shall concentrate on here.
 
 If $Sh(C)$ has enough points, we may characterize sheaves in yet another way, which is the one that directly suggests the  [[local model structure on simplicial presheaves]] discussed below:
 
-+-- {: .un_defn}
-###### Definition
-
-
-=--
 
 +-- {: .un_prop }
 ###### Proposition
@@ -174,15 +167,17 @@ If $Sh(C)$ has [[point of a topos|enough points]], then $Sh(C)$ is equivalent to
 
 =--
 
-The [[local model structure on simplicial presheaves]] that we are going to describe are obtained from this description of sheaves by 
+The [[local model structure on simplicial presheaves]] that we are going to describe is obtained from this description of sheaves by 
 
 * replacing [[set]]s by [[simplicial set]]
 
 * replacing [[stalk]]wise [[isomorphism]] of sets by [[stalk]]wise [[model structure on simplicial sets|weak homotopy equivalence]]s of simplicial sets.
 
-So the model structures we shall encounter are plausible guesses. What is less trivial is that this plausible structure indeed models the fully general notion of [[(infinity,1)-sheaf]]/[[infinity-stack]].
+So the model structures we shall encounter are plausible guesses. What is less trivial is that this plausible structure indeed [[presentable (infinity,1)-category|presents]] the fully general notion of [[(infinity,1)-sheaf]]/[[infinity-stack]].
 
 This fully general notion we introduce now.
+
+
 
 # $(\infty,1)$-categories and their presentation #
 
@@ -198,7 +193,7 @@ Recall that there is a notion of
 [[nerve and realization]] 
 
 $$
-  N : SSet-Cat \stackrel{\leftarrow}{\to} SSet : |-|
+  N : SSet\text{-}Cat \stackrel{\leftarrow}{\to} SSet : |-|
 $$
 
 for [[SSet]]-[[enriched category|enriched categories]] 
@@ -251,7 +246,7 @@ $(\infty,1)Cat$ is that whose
 * Using the monoidal embedding $const : Set \hookrightarrow \infty Grpdf \subset SSet$
   every ordinary category is an $(\infty,1)$-category.
   
-* The $(\infty,1)$-category $\infty Grpd$ is the full [[SSet]-subcategory of [[SSet]]
+* The $(\infty,1)$-category $\infty Grpd$ ([[Infinity-Grpd]]) is the full [[SSet]-subcategory of [[SSet]]
   on [[Kan complex]]es.
   
 
@@ -279,11 +274,13 @@ Two $(\infty,1)$-categories $\mathbf{C}$ and $\mathbf{D}$ are
 **equivalent** if they are isomorphic in $H((\infty,1)Cat)$
 
 $$
-  (\mathbf{C} \simeq \mathbf{D})
+  (f : \mathbf{C} \to \mathbf{D} \;is equivalence)
   \;\;
   \Leftrightarrow
   \;\;
-  (\mathbf{C} \stackrel{\simeq}{\to} \mathbf{D}) \in H((\infty,1)Cat)(\mathbf{C}, \mathbf{D})
+  (H_{(\infty,1)Cat}(f) : \mathbf{C} \to \mathbf{D}
+  \;
+  is isomorphism)
   \,.
 $$
 
@@ -330,6 +327,8 @@ $$
 
 # $(\infty,1)$-Sheaf $(\infty,1)$-toposes #
 
+There is now an obvious definition of $(\infty,1)$-categories of $(\infty,1)$-presheaves and 
+of $(\infty,1)$-sheaves by interpreting the 1-categorical story in the $(\infty,1)$-categorical context.
 
 
 ## $(\infty,1)$-Presheaves ##
@@ -339,7 +338,9 @@ Now we generalize the above from sheaves to
 [[infinity-stack]]s.
 
 
-**Definition**
+
++-- {: .un_defn}
+###### Definition ($(\infty,1)$-presheaves)
 
 
 The $(\infty,1)$-category of [[(infinity,1)-presheaf|(infinity,1)-presheaves]]
@@ -351,10 +352,12 @@ $$
   \,.
 $$
 
+=--
 
 
++-- {: .un_prop}
+###### Proposition (models for $(\infty,1)$-presheaves)
 
-**Proposition** (
 [[Higher Topos Theory|HTT, prop. 4.2.4.4]],
 see also
 [[Higher Topos Theory|HTT, prop. 5.1.1.1]])
@@ -375,6 +378,7 @@ $$
  \,.
 $$
 
+=--
 
 
 ## $(\infty,1)$-sheaves ##
@@ -389,7 +393,7 @@ notions from [[category theory]], in particular
 Using this we obtain a definition of [[geometric embedding]]
 of $(\infty,1)$-toposes by literally copying the 1-categorical definition.
 
-**Definition** ([[Higher Topos Theory|HTT, def. 6.1.0.4]])
+**Definition $(\infty,1)$-sheaves** ([[Higher Topos Theory|HTT, def. 6.1.0.4]])
 
 An [[(infinity,1)-category of (infinity,1)-sheaves]] is a [[geometric embedding]]
 into an [[(infinity,1)-category of (infinity,1)-presheaves]]
@@ -400,7 +404,7 @@ $$
 $$
 
 
-**Proposition**
+**Proposition (models for reflective $(\infty,1)$-subcategories)**
 
 Let 
 the [[combinatorial simplicial model category]] $\mathbf{B}$ 
@@ -450,7 +454,7 @@ the [[local model structure on simplicial presheaves]] is a
 
 That this is indeed the case is 
 
-**Proposition** ([[Higher Topos Theory|HTT, prop. 6.5.2.14]])
+**Proposition (model for hypercomplete $(\infty,1)$-sheaves) ** ([[Higher Topos Theory|HTT, prop. 6.5.2.14]])
 
 The [[local model structure on simplicial presheaves]]
 $SSh(C)^{l loc}_{proj}$ presents the [[hypercompletion|hypercompleted version]]
