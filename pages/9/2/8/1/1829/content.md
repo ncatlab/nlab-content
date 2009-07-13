@@ -84,7 +84,8 @@ respect the way test objects in $C$ are supposed to glue together.
 The full subcategory on those presheaves that do respect some
 kind of gluing of test objects is the [[category of sheaves]].
 
-**Definition**
++-- {: .un_defn}
+###### Definition
 
 A [[category of sheaves]] on $C$ is a category $Sh(C)$
 equipped with a [[geometric embedding]] into $PSh(C)$
@@ -93,6 +94,10 @@ $$
   Sh(C) \stackrel{\leftarrow}{\to} PSh(C)
   \,.
 $$
+
+
+=--
+
 
 Recall that this means that
 
@@ -204,9 +209,8 @@ $$
 where the [[nerve]] operation $N$ is called the [[homotopy coherent nerve]]
 of [[simplicially enriched category|simplicially enriched categories]].
 
-
-
-**Definition ($(\infty,1)$-category)**
++-- {: .un_defn}
+###### Definition ($(\infty,1)$-category)
 
 An [[(infinity,1)-category]] is a 
 [[enriched category|category enriched]] over $\infty$-groupoids,
@@ -239,17 +243,21 @@ $(\infty,1)Cat$ is that whose
     \,.
   $$ 
 
+=--
+
+
 **Examples**
 
-* Using the monoidal embedding $const : Set \hookrightarrow \infty Grpdf \subset SSet$
+* Using the [[monoidal category|monoidal]] embedding $const : Set \hookrightarrow \infty Grpdf \subset SSet$
   every ordinary category is an $(\infty,1)$-category.
   
 * The $(\infty,1)$-category $\infty Grpd$ ([[Infinity-Grpd]]) is the full [[SSet]-subcategory of [[SSet]]
   on [[Kan complex]]es.
   
 
++-- {: .un_defn}
+###### Definition (homotopy category)
  
-**Definition (homotopy category)**
 
 The [[simplicial homotopy groups|simplicial connected components]] functor 
 
@@ -282,6 +290,8 @@ $$
   \,.
 $$
 
+=--
+
 
 ## Presentations ##
 
@@ -289,13 +299,16 @@ It is often convenient to [[presentable (infinity,1)-category|present]]
 $(\infty,1)$-categories by 1-categorical [[model category|models]].
 
 
-**Definition**
++-- {: .un_defn}
+###### Definition ($(\infty,1)$-category presented by a model category)
 
 For $\mathbf{A}$ a [[combinatorial simplicial model category]],
 the $(\infty,1)$-category [[presentable (infinity,1)-category|presented]]
 by it is the full 
 subcategory $\mathbf{A}^\circ \subset \mathbf{A}$ on objects that
 are both cofibrant and fibrant.
+
+=--
 
 
 **Remark** The axioms of a simplicial model category
@@ -304,7 +317,9 @@ $\mathbf{A}^\circ$ are indeed [[Kan complex]]es.
 (for instance [[Higher Topos Theory|HTT, remark 3.1.8]]).
 
 
-**Proposition** ([[Higher Topos Theory|HTT, remark A.3.7.7]])
++-- {: .un_prop }
+###### Proposition ([[Higher Topos Theory|HTT, remark A.3.7.7]])
+
 
 Let $\mathbf{A}$ and $\mathbf{B}$ be 
 [[combinatorial simplicial model category|combinatorial simplicial model categories]].
@@ -321,6 +336,7 @@ $$
   \,.
 $$
 
+=--
 
 
 # $(\infty,1)$-Sheaf $(\infty,1)$-toposes #
@@ -354,9 +370,7 @@ $$
 
 
 +-- {: .un_prop}
-###### Proposition (models for $(\infty,1)$-presheaves)
-
-[[Higher Topos Theory|HTT, prop. 4.2.4.4]],
+###### Proposition (models for $(\infty,1)$-presheaves) ([[Higher Topos Theory|HTT, prop. 4.2.4.4]],
 see also
 [[Higher Topos Theory|HTT, prop. 5.1.1.1]])
 
@@ -389,9 +403,12 @@ notions from [[category theory]], in particular
 * [[exact functor]] (preserving finite [[limit]]s).
 
 Using this we obtain a definition of [[geometric embedding]]
-of $(\infty,1)$-toposes by literally copying the 1-categorical definition.
+of $(\infty,1)$-toposes , i.e. left exaxt 
+[[reflective (infinity,1)-subcategory|reflective (infinity,1)-subcategories]]
+by literally copying the 1-categorical definition.
 
-**Definition $(\infty,1)$-sheaves** ([[Higher Topos Theory|HTT, def. 6.1.0.4]])
++-- {: .un_defn}
+###### Definition ($(\infty,1)$-sheaves) ([[Higher Topos Theory|HTT, def. 6.1.0.4]])
 
 An [[(infinity,1)-category of (infinity,1)-sheaves]] is a [[geometric embedding]]
 into an [[(infinity,1)-category of (infinity,1)-presheaves]]
@@ -401,8 +418,12 @@ $$
   \,.
 $$
 
+=--
 
-**Proposition (models for reflective $(\infty,1)$-subcategories)**
++-- {: .num_lemma }
+###### Proposition (models for reflective $(\infty,1)$-subcategories)
+
+
 
 Let 
 the [[combinatorial simplicial model category]] $\mathbf{B}$ 
@@ -419,7 +440,10 @@ $$
 
 is the inclusion of a [[reflective (infinity,1)-subcategory]].
 
-Proof.
+=--
+
++-- {: .proof}
+###### Proof
 
 
 By [[Higher Topos Theory|HTT, prop A.3.7.4]] every
@@ -441,6 +465,9 @@ subcategory of $\mathbf{A}^\circ$ on $S$-[[local object]]s.
 By [[Higher Topos Theory|HTT, prop. 5.5.4.15]] this means that
 $\mathbf{B}$ is a [[reflective (infinity,1)-subcategory]] of $\mathbf{A}$.
 
+=--
+
+
 **Remark**
 Notice that this does not yet say that the localization is 
 _left exact_ .
@@ -452,7 +479,9 @@ the [[local model structure on simplicial presheaves]] is a
 
 That this is indeed the case is 
 
-**Proposition (model for hypercomplete $(\infty,1)$-sheaves) ** ([[Higher Topos Theory|HTT, prop. 6.5.2.14]])
++-- {: .num_lemma #SizeOfLeftCoset}
+###### Proposition (model for hypercomplete $(\infty,1)$-sheaves) ([[Higher Topos Theory|HTT, prop. 6.5.2.14]])
+
 
 The [[local model structure on simplicial presheaves]]
 $SSh(C)^{l loc}_{proj}$ presents the [[hypercompletion|hypercompleted version]]
@@ -465,6 +494,9 @@ $$
   Sh^{hc}(C)
   \,.
 $$
+
+=--
+
 
 **Remark** See the discussion at [[Cech cohomology]] for 
 the  role of [[hypercompletion]].
