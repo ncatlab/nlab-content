@@ -15,6 +15,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-13
 
+* [[Andrew Stacey]]: started fleshing out an example over at [[Frolicher space]].
+
 * [[Urs Schreiber]]:
 
   * added to [[limit]] the $(\infty,1)$-categorical definition with a pointer to the entry on limits in quasi-categories
