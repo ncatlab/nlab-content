@@ -11,6 +11,8 @@ $$ S(V) = \{ x: V \;|\; \|x\| = 1 \} .$$
 But this provides nothing new to homotopy theory, as an infinite-dimensional sphere is [[contractible space|contractible]].
 +-- {: .query}
 Is there a nice formula for this?  If so, it would be good to write it down here.
+
+[[David Roberts]]: In which topology? Smoothly or continuously? From memory one sort of shuffles things up one coordinate, by some sort of rotation. That sentence (I almost wrote _this sentence_ :) ) may mean little..
 =--
 
 The $n$-sphere is the boundardy of the $(n+1)$-[[ball]].
