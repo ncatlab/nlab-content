@@ -68,4 +68,7 @@ Section 16 of
 
 * Kashiwara-Schapira,  [[Categories and Sheaves]]
 
+
 [[!redirects local epimorphisms]]
+[[!redirects local epi]]
+[[!redirects local epis]]
