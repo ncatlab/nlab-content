@@ -1,5 +1,7 @@
 #Idea#
 
+[[model category|Model structures]] on [[simplicial presheaf|simplicial presheaves]] are [[models for infinity-stack (infinity,1)-toposes]].
+
 Recall that
 
 * a [[model category]] is a way to [[presentable (infinity,1)-category|present]] an [[(infinity,1)-category]];
