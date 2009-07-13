@@ -15,6 +15,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-13
 
+* [[David Roberts]]: Comment at [[chain homology and cohomology]] re: type of space represented by a positive-degrees chain complex. Also comment at [[sphere]] regarding topology on infinite sphere for the purposes of contractibility.
+
 *  [[Toby Bartels]]:
    *  Comments on [[Timeline of category theory and related mathematics]].
    *  Created [[opposite relation]], quite brief.
