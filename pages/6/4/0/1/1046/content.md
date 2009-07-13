@@ -1,6 +1,8 @@
 The [[(∞,1)-category]] $\infty Grpd$ has as objects [[∞-groupoids]], i.e. [[(∞,0)-categories]].
 
 
+As a [[simplicially enriched category|Kan complex enriched category]] $\infty Grpd$ is the full [[SSet]]-[[enriched category|enriched subcategory]] of [[SSet]] on [[Kan complex]]es.
+
 category: category
 
 [[!redirects ∞Grpd]]
