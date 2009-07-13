@@ -44,14 +44,12 @@ We proceed as follow.
 
   * the general definition of [[(infinity,1)-presheaf|(infinity,1)-presheaves]];
   
-    * and their [[presentable (infinity,1)-category|presentation]] by the
-      [[global model structure on simplicial presheaves]]
+    * and their [[presentable (infinity,1)-category|presentation]] by the [[global model structure on simplicial presheaves]]
       
   and finally
   
   * the definition of the [[(infinity,1)-category of (infinity,1)-sheaves]] by [[reflective (infinity,1)-subcategory|(infinity,1)-geometric embedding]];    
-    * and the [[model category|1-categorical model]] of this by 
-      [[Bousfield localization]] to the [[local model structure on simplicial presheaves]].
+  * and the [[model category|1-categorical model]] of this by [[Bousfield localization]] to the [[local model structure on simplicial presheaves]].
   
 
 
@@ -388,7 +386,7 @@ notions from [[category theory]], in particular
 
 * [[adjoint functor]]
 
-* [[exact functor]].
+* [[exact functor]] (preserving finite [[limit]]s).
 
 Using this we obtain a definition of [[geometric embedding]]
 of $(\infty,1)$-toposes by literally copying the 1-categorical definition.
