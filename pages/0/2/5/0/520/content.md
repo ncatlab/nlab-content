@@ -42,7 +42,7 @@ $$
     \\
     \downarrow^{d_1}
     \\
-    Sets
+    Set
   }
 $$
 
@@ -84,3 +84,5 @@ It was David Roberts who pointed out in
 the relation between these higher classifiers and higher [[generalized universal bundle]]s, motivated by the observations on principal universal 1- and 2-bundles in 
 
 * David Roberts, Urs Schreiber, _The inner automorphism 3-group of a strict 2-group_, Journal of Homotopy and Related Structures, Vol. 3(2008), No. 1, pp. 193-244, ([arXiv](http://arxiv.org/abs/0708.1741v2)).
+
+[[!redirects pointed sets]]
