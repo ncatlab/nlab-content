@@ -50,4 +50,6 @@ The proof of Giraud's theorem for [[(∞,1)-topoi]] is section 6.1.5 of
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
+
 [[!redirects Grothendieck topoi]]
+[[!redirects Grothendieck toposes]]
