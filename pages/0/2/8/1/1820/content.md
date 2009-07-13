@@ -1,10 +1,13 @@
-**Definition** (Jeff Smith)
++-- {: .un_defn}
+###### Definition
+(Jeff Smith)
 
 A [[model category]] $C$ is **combinatorial** if
 
 * it is a [[presentable category]]
 
 * it has a set of [[generating cofibrations]] and of trivial generating cofibrations.
+=--
 
 # Remarks #
 
