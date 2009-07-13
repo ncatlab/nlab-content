@@ -10,6 +10,12 @@
 
       *  [[FQFT|FQFT]]
 
+   * Types
+ 
+     * [[gauge theory]]
+
+     * [[sigma-model]]
+
    *  Tools
 
       *  [[BV theory|BV Theory]]
@@ -18,11 +24,11 @@
 
       *  [[geometric infinity-function theory]]
 
-      *  [[Green–Schwarz mechanism]]
-
    *  Models
 
       *  [[GUT|Grand Unified Theories]]
+
+      *  [[Dijkgraaf-Witten theory]]
 
 *  [[string theory|String Theory]]
 
