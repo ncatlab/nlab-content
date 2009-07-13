@@ -341,6 +341,31 @@ Compare this with the discussion at [[Kan extension]].
 
 From this perspective, a limit is a special case of a [[Kan extension]], as described there, namely a Kan extension to the [[point]].
 
+# Definition for $(\infty,1)$-categories #
+
+The definition of a limit as a terminal cone
+has a straightforward generalization to the 
+context of 
+[[(infinity,1)-category|(infinity,1)-categories]].
+
+
++-- {: .un_defn}
+###### Definition
+
+For $K$ and $C$ two [[quasi-category|quasi-categories]] and $F : K \to C$ a morphism of [[quasi-category|quasi-categories]], the **limit** over $F$ is, if it exists, the [[terminal object in a quasi-category|quasi-categorical terminal object]] in the [[over quasi-category|over quasi-categories]] $C_{/F}$:
+
+$$
+  lim F := TerminalObj(C_{/F})
+  \,.
+$$
+
+=--
+
+For more details see [[limit in quasi-categories]].
+
+
+
+
 
 #Examples#
 
