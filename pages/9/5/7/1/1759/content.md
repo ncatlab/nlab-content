@@ -15,6 +15,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-13
 
+* [[Urs Schreiber]]:
+
+  * added references to [[John Baez|John]]'s lectures and TWFs to [[generalized (Eilenberg-Steenrod) cohomology]] and to [[Postnikov system]]
+
+  * brough [[models for infinity-stack (infinity,1)-toposes]] to a reasonable completion
+
+  * added [[homotopy coherent nerve]] as a further example at [[nerve and realization]]
+
 * [[Eric]]: Added a section to [[redirects]] on "Undoing a Redirect". 
 
 * [[Andrew Stacey]]: started fleshing out an example over at [[Frolicher space]].
