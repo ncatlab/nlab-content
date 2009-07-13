@@ -1,8 +1,9 @@
-#Idea#
+# Idea #
 
 The familiar notion of the image of a map of sets may be formalized to yield a notion of image for morphisms in an arbitrary [[category]].
 
-#Definition#
+
+# Definitions #
 
 There are several definitions that are equivalent when they jointly apply.
 
@@ -12,13 +13,14 @@ There are several definitions that are equivalent when they jointly apply.
 Let $C$ be a [[category]], and $f: c \to d$ be a [[morphism]]. The **image** of $f$ is the smallest [[subobject]] $s \subseteq d$ through which $f$ factors (if it exists). There is a [[duality|dual]] notion of _[[coimage|co-image]]_: the largest [[quotient object|quotient]] (in the co-subobject sense) of $c$ through which $f$ factors. 
 
 
-### Remarks ####
+### Remarks ###
 
 * If $C$ admits equalizers, and if $i: k \to d$ represents the image of $f: c \to d$, then the unique map $q: c \to k$ such that $f = i q$ is an epimorphism. Thus, in a finitely complete category in which every morphism admits an image, one obtains in this way an [[weak factorization system|epi-mono factorization]], but the factorization may not have particularly good properties (in particular, the factorization through the image might not be stable with respect to [[pullback]]). 
 
 * The notion of [[regular category]] formalizes a sense in which image factorizations do behave well: factorizations into a [[regular epimorphism]] followed by a mono which are stable under pullback. 
 
-* In $\mathrm{Cat}$, the image of a functor $F:A\to B$ is the smallest subcategory of $B$ which contains images through $F$ of all morphisms in $A$; some of the morphisms in the image are not images of any morphism in $A$; all morphisms in the image of $F$ are compositions in $B$ of  $B$-composable sequences of images of morphisms in $A$ which themselves do not necessarily form $A$-composable sequences of morphisms in $A$. Sometimes the notion of   [[essential image]] is more appropriate; as the essential image is only equivalent to the image, this is somewhat bicategorical point of view.  
+* In [[Cat]], the __image__ of a [[functor]] $F:A\to B$ is the smallest [[subcategory]] of $B$ which contains images through $F$ of all morphisms in $A$.  Some of the morphisms in the image may not be images of any morphism in $A$; all morphisms in the image of $F$ are [[composite|compositions]] in $B$ of $B$-composable sequences of images of morphisms in $A$ which themselves do not necessarily form $A$-composable sequences of morphisms in $A$. Sometimes the notion of   [[essential image]] is more appropriate; as the essential image is only [[equivalence of categories|equivalent]] to the image, this is somewhat $2$-[[2-category|category]]-theoretic point of view.  
+
 
 ## as a left adjoint functor ##
 
@@ -27,7 +29,6 @@ Alternatively, let $C/d$ be the [[over category|slice category]] over $d$, and l
 $$C/d \to Mono(C)/d$$ 
 
 to the inclusion $Mono(C)/d \hookrightarrow C/d$. 
-
 
 
 ## as an equalizer ##
@@ -109,7 +110,6 @@ $$
 
 =--
 
-
 +-- {: .proof}
 ###### Proof
 
@@ -156,10 +156,11 @@ exists uniquely.
 =--
 
 
-###Remarks###
+### Remarks ###
 
 * If $u$ is an [[isomorphism]] then $f$ is called a [[strict morphism]].
 
 * So if $C$ has finite limits and colimits and every morphism is a [[strict morphism]] we get an [[weak factorization system|epi-mono factorization]] of every morphism $f : c \to d$ through its image $\simeq$ coimage.
+
 
 [[!redirects images]]
