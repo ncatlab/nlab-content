@@ -76,6 +76,61 @@ Let us write this as $X$.
 This example is closely related to taking cones and suspensions in algebraic topology.
 The smooth functions on $X$ are simple to describe: the set is equivalent to those smooth functions $\mathbb{R}^2 \to \mathbb{R}$ which are constant on the $x$-axis.
 
+Now let us consider the smooth curves.
+Let $\alpha : \mathbb{R} \to X$ be a smooth curve.
+We can partition $\mathbb{R}$ into two pieces: those points that are mapped to the squashed point in $X$ and those points that aren't.
+Let us write $A$ for the set of points that are __not__ mapped to the squashed point.
+Using bump functions it is easy to show that $A$ is open in $\mathbb{R}$.
+As the quotient map $\mathbb{R}^2 \to X$ is bijective off the $x$-axis, the restriction of $\alpha$ to $A$ has a unique lift to $\mathbb{R}^2$.
+Let us write $\alpha_x$ and $\alpha_y$ for the coordinate functions of this lift.
+Again using bump functions, it is easy to show that $\alpha_x$ and $\alpha_y$ are smooth on $A$.
+Furthermore, as the projection $(x,y) \mapsto y$ descends to a smooth function on $X$, $\alpha_y$ is actually the restriction to $A$ of a smooth function $\mathbb{R} \to \mathbb{R}$ which we shall also denote by $\alpha_y$.
+Note that $A = \alpha_y^{-1}(0)$.
+
+The interesting part comes when looking at what happens to $\alpha_x$ at the boundary of $A$.
+As $A$ is open, it is a disjoint union of open intervals.
+The boundaries of each of these intervals forms part of the boundary of $A$ and it is simplest to start with these points.
+For further simplicity, let us assume that $(0,1)$ is one of the components of $A$ and we are considering the boundary point $0$.
+Thus we wish to consider $\lim_{t \to 0^+} \alpha_x(t)$.
+
+We wish to show that this limit exists.
+There are basically two cases to rule out here:
+
+1. $t \mapsto (\frac1t,t)$,
+2. $t \maspto (\sin \frac1t, t)$.
+
+Both can be ruled out using the function $\phi : \mathbb{R}^2 \to \mathbb{R}$ defined by $\phi(x,y) = x y$.
+This is constant, indeed zero, on the $x$-axis and so descends to a smooth function on $X$.
+In the first case, $\phi \circ \alpha(t) = 1$ for $t \in (0,1)$ but $\phi \circ \alpha(0) = 0$.
+In the second case, $\phi \circ \alpha$ is continuous at $0$ but not differentiable there.
+Thus as $\phi \circ \alpha$ must be smooth, neither case is possible.
+
+Thus $\alpha_x$ extends to a continuous function on $[0,1)$.
+It is straightforward to extend this to show that $\alpha_x$ extends to a smooth function on $[0,1)$, where by "smooth" we mean that the all one-sided derivatives exist at $0$.
+
+Thus the original curve $\alpha$ consists of a sequence of paths in either the upper or lower half planes with endpoints anchored on the $x$-axis.
+These paths are parametrised by smooth paths $[a,b] \to \mathbb{R}^2$ with domains that are disjoint except, perhaps, for endpoints.
+If the endpoints of two of these paths coincide then one of two things must happen:
+
+1. The paths are infinitely flat at the common endpoint, in which case nothing can be said about the corresponding points on the $x$-axis.
+2. The paths are not infinitely flat at the common endpoint, in which case the image of this point in $\mathbb{R}^2$ is the same under each path and the joined path is again smooth.
+
+The final thing to determine is what happens if we have a sequence of endpoints that converge in the domain.
+
++-- {: .query}
+
+[[Andrew Stacey]]:
+Note finished with this example, of course.
+Some pictures would be nice, I guess.
+As it's an example I'm not sure how much detail to give.
+Comments would be helpful on that score!
+
+=--
+
+
+
+
+
 ***
 
 # Isbell Envelope # {#isbell}
