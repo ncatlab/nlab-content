@@ -224,3 +224,39 @@ In this context the half-line $\{x^1 \geq 0\}$ is called a **Dirac string**. Whi
 ...Dirac effectively considered the overlap cocycle condition $A_j - A_i = something$, found that by the requirement that $A$ has well defined holonomy it follows that there must be $g_{ij}$ a function with values in $U(1)$ such that  $A_j - A_i = d log g_{ij}$, then did away with the $j$-patch (considering a kind of limit as we encircle the half axis) and concluded that $A$ must be the log-differential of a $U(1)$-valued function, whose winding number around the half-axis he identified with the magnetic charge, which in terms of bundles one identifies with the Chern-class of the bundle in question ... 
 
 ...have to run...
+
+#Discussion#
+
+[[Eric]]: I remember the first time I saw you discuss EM theory in this context. It, at first, seems like a good motivation for more general concepts, but then, as now, a second wave of doubt crossed my mind. Throughout this article, there is no mention of any physical question as to the existence of magnetic charges. Do we just take their existence for granted? If magnetic charges do not exist, is this a good motivating example for more general concepts? If we were paranoid, we could then start asking if we were on a wild goose chase.
+
+There are two other topological/geometrical aspects of EM theory worth mentioning. One is the hypothetical "perfect electrical conductor". Consider a perfectly conducting sphere. This will trace out a tube in spacetime. I might have the details slightly confused because its been a while since I've thought about this, but you can model perfect conductors via nontrivial topology, i.e. you remove the sphere and its world volume from spacetime. Let me say that again a different way and maybe one of the ways will make sense. 
+
+<blockquote>
+
+<i>Removing a world volume from spacetime is equivalent to introducing a perfectly conducting body.</i>
+
+</blockquote>
+
+There has got to be something interesting category theory can say about this. Perhaps you can relate it to "relative cohomology" or something.
+
+Another thing that might be worth mentioning is the geometric character of material properties. After all, we all sit in a bath of electromagnetic radiation, both man made and natural. This radiation permeates our bodies which are made up of dielectric, magnetic, and conducting materials, i.e. body tissue. I always found it interesting that just as geometry is encoded in the metric and manifests itself via the Hodge star, so too do the constitutive equations. For example, in linear media we have the simple constitutive equations
+
+$$D = \epsilon E\text{ and } B = \mu H.$$
+
+In 4d, we have
+
+$$F = B + E\wedge dt$$
+
+The 4d constitutive relation is 
+
+$$G = \star F,$$
+
+which under assumptions of linearity gives
+
+$$\star F = -\eta(D-H\wedge dt).$$
+
+For more details see [page 111](http://ncatlab.org/ericforgy/show/Dissertation).
+
+What this means is the the electromagnetic properties of matter can be interpreted geometrically and are encoded in the Hodge star.
+
+It would be nice to see the importance of the Hodge star amplified a bit.
