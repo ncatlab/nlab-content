@@ -786,8 +786,7 @@ To see that one just needs to observe that the normalized [[Moore complex]] of t
 
 =--
 
-## Relation of abelian Cech cohomology to 
-abelian sheaf cohomology ##
+## Relation of abelian Cech cohomology to abelian sheaf cohomology ##
 
 For $A$ a complex of sheaves, there is a canonical morphism
 
