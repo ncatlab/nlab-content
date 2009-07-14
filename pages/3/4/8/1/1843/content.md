@@ -25,7 +25,7 @@ The derivation of the fact that the Kalb-Ramon field that is locally given by a 
     hol(\Sigma)
     =
     \prod_{f} \exp(i \int_f \Sigma^* B_{\rho(f)})
-    \prod_{e \subset f}} 
+    \prod_{e \subset f}
     \exp(i \int_{e} \Sigma^* A_{\rho(f) \rho(e)})
     \prod_{v \subset e \subset f}
     \exp(i \lambda_{\rho(f) \rho(e) \rho(v)})
