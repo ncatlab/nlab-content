@@ -15,19 +15,19 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-14
 
+* [[Andrew Stacey]]: Stumbled across the discussion at [[Timeline of category theory and related mathematics]] on bibliographies and realised that more people were keen for this to be sorted out than I'd thought.  A few possibilities are laid out in the corresponding discussion on the [forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=40).  Please stop by and let us know what you want from a bibliography system so that we can design it according to what everyone wants rather than just what a few of us want.
+
+    On that note, seeing as my mathematical skills are not in the mainstream of the current focus of the n-lab, I'm concentrating a bit more on technical support (stuff like the forum, bibliography, diagrams, useful little scripts like how to download the entire lab for offline browsing).  There are lots of things that I (and the others who do a little hacking like this) _could_ do but only so much time in which to do it.  So if there's something you'd like done, say a bibliography, that you think I could help with then the fact that someone actually wants it done pushes it up my priority list.  However, _unless you tell me about it_ or mention it somewhere that I will _actually_ see it then I'm not going to do anything about it because I won't know about it!
+
 *  [[Urs Schreiber]]:
-
-   * added a sentence about combinatorial simplicial model categories to [[model category]] and expanded the list of examples
-
-   * fixed, I think, the signs in the abelian Cech complex at [[Cech cohomology]] -- also drew the pictures that make clear what the signs have to be
 
    * after a little reflection I moved the previous content at [[electromagnetism]] to [[electromagnetic field]] and kept just a brief note at the former, for later expansion 
   
-     then I worked on [[electromagnetic field]]
+   then I worked on [[electromagnetic field]]
 
-     I renamed the section I was working on into _Mathematical model from physical input_ . This now starts with quick and concise derivation of the fact that the EM field is modeled by a Cech-Deligne cocycle based on a quick definition of Maxwell's equations and the quantization condition.
+   I renamed the section I was working on into _Mathematical model from physical input_ . This now starts with quick and concise derivation of the fact that the EM field is modeled by a Cech-Deligne cocycle based on a quick definition of Maxwell's equations and the quantization condition.
 
-      the following sections "the local picture" and "the global picture" are supposed to provide the remaining details and background. Still needs polishing.
+    the following sections "the local picture" and "the global picture" are supposed to provide the remaining details and background. Still needs polishing.
 
 *  [[Toby Bartels]]:
 
