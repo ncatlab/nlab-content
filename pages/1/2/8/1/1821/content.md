@@ -293,7 +293,7 @@ Comparing with the general definition of cocycles and coboudnaries from above, o
 
 # References #
 
-* Baez, Lectures on n-Categories and Cohomology ([pdf](http://math.ucr.edu/home/baez/cohomology.pdf), [[Lectures on n-Categories and Cohomology|nLab]])
+* [[John Baez]] and [[Mike Shulman]], _Lectures on $n$-Categories and Cohomology_ ([pdf](http://math.ucr.edu/home/baez/cohomology.pdf), [[Lectures on n-Categories and Cohomology|nLab]])
 
   * See, in particular, the discussion beginning at the bottom of page 24.
 
