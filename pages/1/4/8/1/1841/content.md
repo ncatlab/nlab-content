@@ -52,7 +52,7 @@ Physical experiment shows that the electromagnetic field on a pseudo-Riemannian 
 
    -- the interaction action functional of the charge particle -- has to be a well defined element in $U(1)$ (independent of all the choice made).
 
-   This implies in particular that cancelling from the triangulation an edge $e_i$ of vanishing length must have no effect on the formul, which in turn means that for all $i,j,k$ we have
+   This implies in particular that cancelling from the triangulation an edge $e_i$ of vanishing length must have no effect on the formula, which in turn means that for all $i,j,k$ we have
 
    $$
      \exp(i \gamma^*\lambda_{i j}(v_{i j}))
@@ -97,7 +97,7 @@ In modern notation what Maxwell discovered in the 1860s is that locally, when ph
 
 * the electric charge density
   $$
-    \rho : \mathbb{R} \to C^\infty(\mathbb{R}^3)
+    \ro : \mathbb{R} \to C^\infty(\mathbb{R}^3)
   $$
 
 * the electric current vector field
@@ -142,7 +142,7 @@ $$
 
 in $\Omega^3(U)$
 
-such that the following two equations are of differential forms are satisfied
+such that the following two equations of differential forms are satisfied
 
 $$
   \begin{aligned}
@@ -154,6 +154,8 @@ $$
 $$
 
 This are a bunch of equations on the components involved -- called Maxwell's equations.
+
+
 
 
 ## the global picture ##
@@ -285,7 +287,7 @@ given by $X$ minus the right half of the first coordinate axis.
 
 Traditionally physicist try to give that half-line a physical interpretation by imagining that it is the body of an idealized infinitely-thin and to one side infinitely-long solenoid. Indeed, such a solenoid would have a magnetic monopole charge on each of its ends, so if the one end is imagined to have disappeared to infinity, then the other one is the magentic charge that Dirac imagines to sit at the origin of our setup.
 
-In this context the half-line $\{x^1 \geq 0\}$ is called a **Dirac string**. While there is the possibility to sensibly discuss the idea that this Dirac string actually models a physical entity like an idealized solenoid, its main purpose histroically is to confuse physics students and keep them from understanding the theory of [[fiber bundle]]s. Therefore here we shall refrain from talking about Dirac strings and consider $U := \mathbb{R}^3 \backslash \{x^1 \geq 0\} \subset X$ as exactly what it is, by itself: an open subset that is part of a [[cover]] of $X$.  Unfortunately, of course, Dirac didn't mention the other open subsets in that [[cover]] (at least one more is needed for a decent discussion), so that the Dirac string keeps haunting physicists. 
+In this context the half-line $\{x^1 \geq 0\}$ is called a **Dirac string**. While there is the possibility to sensibly discuss the idea that this Dirac string actually models a physical entity like an idealized solenoid, it's main purpose histroically is to confuse physics students and keep them from understanding the theory of [[fiber bundle]]s. Therefore here we shall refrain from talking about Dirac strings and consider $U := \mathbb{R}^3 \backslash \{x^1 \geq 0\} \subset X$ as exactly what it is, by itself: an open subset that is part of a [[cover]] of $X$.  Unfortunately, of course, Dirac didn't metntion the other open subsets in that [[cover]] (at least one more is needed for a decent discussion), so that the Dirac string keeps haunting physicists. 
 
 ...running out of time...just quickly now...
 
@@ -293,9 +295,27 @@ In this context the half-line $\{x^1 \geq 0\}$ is called a **Dirac string**. Whi
 
 ...have to run...
 
+# References #
+
+Maxwell's equations originate in
+
+* James Clerk Maxwell, _[A Dynamical Theory of the Electromagnetic Field](http://en.wikipedia.org/wiki/A_Dynamical_Theory_of_the_Electromagnetic_Field),_ Philosophical Transactions of the Royal Society of London 155, 459-512 (1865).
+
+Dirac's quantization argument appeared in
+
+* P.A.M. Dirac _Quantized Singularities in the Electromagnetic Field_,  Proceedings of the Royal Society, A133 (1931) pp 60-72.
+
+
+
 #Discussion#
 
++-- {: .query}
+
 [[Eric]]: I remember the first time I saw you discuss EM theory in this context. It, at first, seems like a good motivation for more general concepts, but then, as now, a second wave of doubt crossed my mind. Throughout this article, there is no mention of any physical question as to the existence of magnetic charges. Do we just take their existence for granted? If magnetic charges do not exist, is this a good motivating example for more general concepts? If we were paranoid, we could then start asking if we were on a wild goose chase.
+
+> [[Urs Schreiber]]: but so far the article explicitly excludes magnetic charges! It is true that Dirac imagined a magnetic charge to have been where he then removes a point, but that you have to fight out with Dirac, not with me :-)
+
+> The real point about including magnetic charges is that taking them into account one gets the more complete formal picture of differential cocyclic description of higher gauge fields. This is crucial for the discussion of effects like the [[Green-Schwarz mechanism]], where it is explicitly a (higher) magnetic charge that is introduced in order to cancel a fermion anomaly. You are free to think that none of this is related to observable physics until proven otherwise, but it is an interesting differential cohomological effect which deserves to be discussed here in more detail, eventually.
 
 There are two other topological/geometrical aspects of EM theory worth mentioning. One is the hypothetical "perfect electrical conductor". Consider a perfectly conducting sphere. This will trace out a tube in spacetime. I might have the details slightly confused because its been a while since I've thought about this, but you can model perfect conductors via nontrivial topology, i.e. you remove the sphere and its world volume from spacetime. Let me say that again a different way and maybe one of the ways will make sense. 
 
@@ -328,3 +348,5 @@ For more details see [page 111](http://ncatlab.org/ericforgy/show/Dissertation).
 What this means is the the electromagnetic properties of matter can be interpreted geometrically and are encoded in the Hodge star.
 
 It would be nice to see the importance of the Hodge star amplified a bit.
+
+=--
