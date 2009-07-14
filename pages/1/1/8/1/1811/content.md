@@ -28,7 +28,9 @@ P'_{l+1}-x P'_l = (l+1)P_l
 (x^2-1)P_l'-l x P_l+l P_{l-1} = 0
 } $$
 
-Legendre polynomials form a system of orthogonal polynomials on the interval $[-1,1]$. The first few Legendre polynomials are $P_0(x) = 1$, $P_1(x) = x$, $P_2(x)=\frac{1}{2}(3x^2-1)$, $P_3(x)=\frac{1}{2}(5x^2-3)$, $P_4(x)=\frac{1}{8}(35x^4-30x^2+3)$.
+The Legendre polynomials form a complete system of orthogonal polynomials on the interval $[-1,1]$, that is an unnormalised basis of the [[Hilbert space]] $L^2[-1,1]$.
+
+The first few Legendre polynomials are $P_0(x) = 1$, $P_1(x) = x$, $P_2(x)=\frac{1}{2}(3x^2-1)$, $P_3(x)=\frac{1}{2}(5x^2-3)$, $P_4(x)=\frac{1}{8}(35x^4-30x^2+3)$.
 Their values at $0$ are 
 $$
 P_{2n+1}(0)=0,\,\,\,\,\,P_{2n}(0)=(-1)^n\frac{(2n-1)!!}{(2n)!} = \frac{(-1)^n (2n)!}{2^{2n}(n!)^2}
