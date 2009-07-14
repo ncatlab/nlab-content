@@ -125,3 +125,12 @@ For more on this see [[schreiber:Differential Nonabelian Cohomology|differential
 For higher $n$ there is as yet no detailed proof in the literature, but the
 low dimensional proofs have obvious generalizations.
 
+
+# Examples #
+
+* Degree 2 Deligne cohomology classifies $U(1)$-[[principal bundle]]s [[connection on a bundle|with connection]].
+
+  * In physics the [[electromagnetic field]] is modeled by a degree 2 Deligne cocycle. See there for a derivation of [[Cech cohomology|Cech]]-Deligne cohomology from physical input.
+
+* Degree 3 Deligne cohomology classifies [[bundle gerbe]]s with connection.
+
