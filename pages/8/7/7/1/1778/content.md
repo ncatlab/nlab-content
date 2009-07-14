@@ -539,7 +539,8 @@ with differential given by
 $$
   (d a)_{i_0, \cdots, i_n} = 
   d_A a_{i_0, \cdots, i_n}
-  \pm 
+  +
+  (-1)^n
   \sum_{0 \leq j \leq n} (-1)^{j}
   a_{i_0, \cdots, i_{j-1}, i_{j+1}, \cdots, i_n} 
   |_{U_{i_0, \cdots, i_n}}
@@ -548,6 +549,54 @@ $$
 where on the right we sum over all components of $a$ obtained by discarding one of the original $(n+1)$ subscripts.
 
 =--
+
+
+As the following derivation will show, this complex encodes a linearization of the simplicial nonabelian cocycle depicted above. It may be helpful to keep the following pictures in mind to match the signs to the orientations of simplices.
+
+In dimension one we have:
+
+$$
+  (0 \to 1)
+  \;\;\;
+  \mapsto
+  \;\;\;
+  (a_0 \stackrel{a_{0 1}}{\to} a_1)
+  \;\;\;
+  \leftrightarrow
+  \;\;\;
+  (a_1 = a_0 + d_A a_{01})
+$$
+
+In dimension 2 we have:
+
+$$
+  \array{
+    && 1
+    \\
+    & \nearrow &\Downarrow& \searrow
+    \\
+    0 &&\to&& 2
+  }
+  \;\;\;
+  \mapsto
+  \array{
+    && a_1
+    \\
+    & {}^{a_{0 1}}\nearrow &\Downarrow^{a_{0 1 2}}
+    & \searrow^{a_{1 2}}
+    \\
+    a_0 &&\stackrel{a_{0 2}}{\to}&& a_2
+  }
+  \;\;\;
+  \leftrightarrow
+  (a_{0 2} = a_{0 1} + a_{1 2} + d a_{0 1 2})
+  \,.
+$$
+
+Here the relation on the right is the 
+[[Dold-Kan correspondence]] relating coboundaries in the
+complex $A_\bullet$ to simplices .
+
 
 +-- {: .un_prop }
 ###### Proposition (abelian Cech cohomology)
@@ -733,9 +782,6 @@ $$
 To see that one just needs to observe that the normalized [[Moore complex]] of the 1-[[simplex]] serves as an [[interval object]] in chain complexes.
 
 
-And so on. More later.
-...
-
 =--
 
 ## Examples ##
@@ -743,7 +789,6 @@ And so on. More later.
 We now list examples for abelian Cech cohomology expressed in terms of the Cech complex described above.
 
 
-**Warning** There are the usual tedious sign conventions here. No serious attempt yet to get them straight.
 
 ### Line bundles ###
 
@@ -780,7 +825,8 @@ $$
   \begin{aligned}
     (d_{C(U,U(1)[1])} c)_{i j k}
     &=
-    g_{j k}|_{U_{i j k}} - g_{i k}|_{U_{i j k}} + g_{i j}|_{U_{i j k}} )
+    g_{j k}|_{U_{i j k}} - g_{i k}|_{U_{i j k}} 
+    + g_{i j}|_{U_{i j k}} )
   \end{aligned}
 $$
 
@@ -862,7 +908,7 @@ Cech-Deligne cohomology.
   $$
   such that for all $i, j$
   $$
-    d log g_{i j} \pm A_i - A_j = 0
+    d log g_{i j} + A_i - A_j -  = 0
   $$
   and for all $i,j ,k$
   $$
@@ -882,11 +928,11 @@ Cech-Deligne cohomology.
   $$
   such that for all $i, j$
   $$
-    B_i - B_j \pm d A_{i j} = 0
+    d A_{i j} + B_i - B_j = 0
   $$
   and for all $i,j ,k$
   $$
-    A_{i j} - A_{j k} + A_{i k} \pm d log g_{i j k} = 0
+    A_{i j} - A_{i k} + A_{j k} + d log g_{i j k} = 0
   $$
   and for all $i, j, k ,l$
   $$
