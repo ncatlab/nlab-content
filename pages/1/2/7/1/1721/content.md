@@ -10,7 +10,7 @@ such as
 
 # References #
 
-A pedagocical introduction to [[spectrum|spectra]] and generalized (Eilenberg-Steenrod) cohomology is in
+A pedagogical introduction to [[spectrum|spectra]] and generalized (Eilenberg-Steenrod) cohomology is in
 
 * [[John Baez]], [TWF 149](http://math.ucr.edu/home/baez/twf_ascii/week149) .
 
