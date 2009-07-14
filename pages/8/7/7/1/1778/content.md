@@ -851,7 +851,8 @@ $$
 
 and then evaluating Cech cohomology with coefficients
 in the Deligne complex, we obtain the formulas for
-Cech-Deligne cohomolohgy.
+Cech-Deligne cohomology.
+
 
 
 * For $n = 1$ a cocycle is a collection
@@ -870,6 +871,8 @@ Cech-Deligne cohomolohgy.
   $$
   Such cocycles classify $U(1)$-[[principal bundle]]s
   with [[connection on a bundle|connection]].
+
+  These $n=1$ Cech-Deligne cocycles appear naturally in the study of the [[electromagnetic field]].
 
 * For $n = 2$ a cocycle is a collection
   $$
