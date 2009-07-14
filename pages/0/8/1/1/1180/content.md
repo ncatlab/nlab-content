@@ -15,7 +15,7 @@ $$
          F(x) &          &                                      &          & y }
 $$
 
-Additive categories are always [[enriched category|enriched]] over [[Ab]], and an additive functor is always an [[enriched functor]] accordingly.  This need not be stated as a requirement; it follows from preserving biproducts, since the $Ab$-enrichment structure may be recovered from the biproducts (as described at [[biproduct]]).  Conversely, any $Ab$-enriched functor automatically preserves any finite biproducts that may exist, since finite biproducts in [[Ab-enriched category|Ab-enriched categories]] are [[Cauchy colimits]].
+Additive categories are always [[enriched category|enriched]] over [[Ab]], and an additive functor is always an [[enriched functor]] accordingly.  This need not be stated as a requirement; it follows from preserving biproducts, since the $Ab$-enrichment structure may be recovered from the biproducts (as described at [[biproduct]]).  Conversely, any $Ab$-enriched functor automatically preserves any finite biproducts that may exist, since finite biproducts in [[Ab-enriched category|Ab-enriched categories]] are [[Cauchy complete category|Cauchy colimits]].
 
 In practice, functors between additive categories are generally assumed to be additive.
 
