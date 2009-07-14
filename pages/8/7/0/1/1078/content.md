@@ -49,7 +49,7 @@ as $F$ varies over the [[finite set|finite subsets]] of the index set $I$.  (In 
 +--{: .query}
 [[Mike Shulman|Mike]]: Are there categories that have finitely-indexed products?  I don't see how one could construct them even in $Set$.
 
-_Toby_:  If they don\'t exist, then that\'s no big deal; we only want them if $F$ is a subset of $I$, and $F$ will have decidable equality (and therefore be finite in the strictest sense) whenever $I$ does (which it must already have to define direct sums in general).  I put in that bit about Kuratowski-finiteness just to be fair in case $I$ is not decidable and may in fact have very subsets with decidable equality.
+_Toby_:  If they don\'t exist, then that\'s no big deal; we only want them if $F$ is a subset of $I$, and $F$ will have decidable equality (and therefore be finite in the strictest sense) whenever $I$ does (which it must already have to define direct sums in general).  I put in that bit about Kuratowski-finiteness just to be fair in case $I$ is not decidable and may in fact have very few subsets with decidable equality.
 
 However, $Set$ certainly has finitely-indexed products; it has *all* (small) products, after all.  For example, consider the quotient set $I$ of $2$ given by the truth value $p$ and a constant $I$-indexed family of sets with the value $A$.  Then the product of this family is the set of functions from $I$ to $A$.  If $p$ is true, then the product is $A$, and if $p$ is false, then the product is $A^2$; in general, the product is a subset of $A^2$:
 $$ \{ a , b : A \;|\; p \;\Rightarrow\; a = b \} .$$
