@@ -387,7 +387,6 @@ $$
 
 A trivial change
 
-
 +-- {: .query}
 Can I put a [[link]] in a question?
 =--
