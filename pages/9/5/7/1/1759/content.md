@@ -15,6 +15,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-14
 
+* [[Urs Schreiber]]: created [[Karoubi K-theory]]
+
 * [[Andrew Stacey]]: Stumbled across the discussion at [[Timeline of category theory and related mathematics]] on bibliographies and realised that more people were keen for this to be sorted out than I'd thought.  A few possibilities are laid out in the corresponding discussion on the [forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=40).  Please stop by and let us know what you want from a bibliography system so that we can design it according to what everyone wants rather than just what a few of us want.
 
     On that note, seeing as my mathematical skills are not in the mainstream of the current focus of the n-lab, I'm concentrating a bit more on technical support (stuff like the forum, bibliography, diagrams, useful little scripts like how to download the entire lab for offline browsing).  There are lots of things that I (and the others who do a little hacking like this) _could_ do but only so much time in which to do it.  So if there's something you'd like done, say a bibliography, that you think I could help with then the fact that someone actually wants it done pushes it up my priority list.  However, _unless you tell me about it_ or mention it somewhere that I will _actually_ see it then I'm not going to do anything about it because I won't know about it!
