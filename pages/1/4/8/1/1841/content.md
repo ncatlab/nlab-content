@@ -43,13 +43,19 @@ Physical experiment shows that the electromagnetic field on a pseudo-Riemannian 
 
    The above data is subject to the additional constraint that it induces well-defined $U(1)$-valued holonomy -- this is **Dirac's quantization condition**, a necessary requirement for the existence of quantum mechanical particles on $X$ that are charged under the background electromagnetic field.
 
-   Concretely: for any smooth curve $\gamma : S^1 \to X$ and any [[cover]] $\{V_i \to S^1\}$ of $S^1$ refining the pullback of the cover $U$ to $S^1$, and for every triangulation $((v_{i j}, e_{i}))$ of $S^1$ subordinate to $\{V_i \to X\}$, the expression
+   Concretely: for any smooth curve $\gamma : S^1 \to X$ and any [[cover]] $\{V_i \to S^1\}$ of $S^1$ refining the pullback of the cover $U$ to $S^1$, and for every triangulation $\{v, e\}$ of $S^1$ subordinate to $\{U_i \to X\}$, i.e. such that there is an index map $\rho$ such that $\gamma(e) \subset U_{\rho(e)}$ and $\gamma(v) \subset U_{\rho(v)}$
+
+the expression
 
    $$
      hol(\gamma) :=
-     \prod_i \exp(i \int_{e_i} \gamma^* A_i)
-     \prod_{i j} \exp(i \gamma^*\lambda_{i j}(v_{i j}))
+     \prod_v \exp(i \int_{v} \gamma^* A_{\rho(v)})
+     \prod_{e} \exp(i (-1)^{\sigma_{e,v}}
+       \gamma^*\lambda_{\rho(e) \rho(v)}
+      (v)
    $$
+
+   (where $\sigma_{e,v} = 1$ if $v$ is the final vertex of $e$ and $-1$ otherwise)
 
    -- the interaction action functional of the charge particle -- has to be a well defined element in $U(1)$ (independent of all the choice made).
 
