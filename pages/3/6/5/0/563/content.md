@@ -34,3 +34,6 @@ An older terminology, which should probably be avoided at all costs, uses "homom
 
 [[!redirects pseudo functor]]
 [[!redirects pseudo-functor]]
+[[!redirects pseudofunctors]]
+[[!redirects pseudo functors]]
+[[!redirects pseudo-functors]]
