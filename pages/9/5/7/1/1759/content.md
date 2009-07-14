@@ -17,13 +17,17 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 *  [[Urs Schreiber]]:
 
+   * added a sentence about combinatorial simplicial model categories to [[model category]] and expanded the list of examples
+
+   * fixed, I think, the signs in the abelian Cech complex at [[Cech cohomology]] -- also drew the pictures that make clear what the signs have to be
+
    * after a little reflection I moved the previous content at [[electromagnetism]] to [[electromagnetic field]] and kept just a brief note at the former, for later expansion 
   
-   then I worked on [[electromagnetic field]]
+     then I worked on [[electromagnetic field]]
 
-   I renamed the section I was working on into _Mathematical model from physical input_ . This now starts with quick and concise derivation of the fact that the EM field is modeled by a Cech-Deligne cocycle based on a quick definition of Maxwell's equations and the quantization condition.
+     I renamed the section I was working on into _Mathematical model from physical input_ . This now starts with quick and concise derivation of the fact that the EM field is modeled by a Cech-Deligne cocycle based on a quick definition of Maxwell's equations and the quantization condition.
 
-    the following sections "the local picture" and "the global picture" are supposed to provide the remaining details and background. Still needs polishing.
+      the following sections "the local picture" and "the global picture" are supposed to provide the remaining details and background. Still needs polishing.
 
 *  [[Toby Bartels]]:
 
