@@ -97,7 +97,7 @@ In modern notation what Maxwell discovered in the 1860s is that locally, when ph
 
 * the electric charge density
   $$
-    \ro : \mathbb{R} \to C^\infty(\mathbb{R}^3)
+    \rho : \mathbb{R} \to C^\infty(\mathbb{R}^3)
   $$
 
 * the electric current vector field
@@ -287,7 +287,7 @@ given by $X$ minus the right half of the first coordinate axis.
 
 Traditionally physicist try to give that half-line a physical interpretation by imagining that it is the body of an idealized infinitely-thin and to one side infinitely-long solenoid. Indeed, such a solenoid would have a magnetic monopole charge on each of its ends, so if the one end is imagined to have disappeared to infinity, then the other one is the magentic charge that Dirac imagines to sit at the origin of our setup.
 
-In this context the half-line $\{x^1 \geq 0\}$ is called a **Dirac string**. While there is the possibility to sensibly discuss the idea that this Dirac string actually models a physical entity like an idealized solenoid, it's main purpose histroically is to confuse physics students and keep them from understanding the theory of [[fiber bundle]]s. Therefore here we shall refrain from talking about Dirac strings and consider $U := \mathbb{R}^3 \backslash \{x^1 \geq 0\} \subset X$ as exactly what it is, by itself: an open subset that is part of a [[cover]] of $X$.  Unfortunately, of course, Dirac didn't metntion the other open subsets in that [[cover]] (at least one more is needed for a decent discussion), so that the Dirac string keeps haunting physicists. 
+In this context the half-line $\{x^1 \geq 0\}$ is called a **Dirac string**. While there is the possibility to sensibly discuss the idea that this Dirac string actually models a physical entity like an idealized solenoid, its main purpose histroically is to confuse physics students and keep them from understanding the theory of [[fiber bundle]]s. Therefore here we shall refrain from talking about Dirac strings and consider $U := \mathbb{R}^3 \backslash \{x^1 \geq 0\} \subset X$ as exactly what it is, by itself: an open subset that is part of a [[cover]] of $X$.  Unfortunately, of course, Dirac didn't mention the other open subsets in that [[cover]] (at least one more is needed for a decent discussion), so that the Dirac string keeps haunting physicists. 
 
 ...running out of time...just quickly now...
 
@@ -299,11 +299,11 @@ In this context the half-line $\{x^1 \geq 0\}$ is called a **Dirac string**. Whi
 
 Maxwell's equations originate in
 
-* James Clerk Maxwell, _[A Dynamical Theory of the Electromagnetic Field](http://en.wikipedia.org/wiki/A_Dynamical_Theory_of_the_Electromagnetic_Field),_ Philosophical Transactions of the Royal Society of London 155, 459-512 (1865).
+* James Clerk Maxwell, _[A Dynamical Theory of the Electromagnetic Field](http://en.wikipedia.org/wiki/A_Dynamical_Theory_of_the_Electromagnetic_Field),_ Philosophical Transactions of the Royal Society of London 155, 459--512 (1865).
 
 Dirac's quantization argument appeared in
 
-* P.A.M. Dirac _Quantized Singularities in the Electromagnetic Field_,  Proceedings of the Royal Society, A133 (1931) pp 60-72.
+* P.A.M. Dirac _Quantized Singularities in the Electromagnetic Field_,  Proceedings of the Royal Society, A133 (1931) pp 60--72.
 
 
 
@@ -319,11 +319,7 @@ Dirac's quantization argument appeared in
 
 There are two other topological/geometrical aspects of EM theory worth mentioning. One is the hypothetical "perfect electrical conductor". Consider a perfectly conducting sphere. This will trace out a tube in spacetime. I might have the details slightly confused because its been a while since I've thought about this, but you can model perfect conductors via nontrivial topology, i.e. you remove the sphere and its world volume from spacetime. Let me say that again a different way and maybe one of the ways will make sense. 
 
-<blockquote>
-
-<i>Removing a world volume from spacetime is equivalent to introducing a perfectly conducting body.</i>
-
-</blockquote>
+>Removing a world volume from spacetime is equivalent to introducing a perfectly conducting body.
 
 There has got to be something interesting category theory can say about this. Perhaps you can relate it to "relative cohomology" or something.
 
