@@ -15,3 +15,7 @@ Note though that this duality does not hold perfectly in [[Top]]. For example, a
 ##Discussion##
 
 [blog](http://golem.ph.utexas.edu/category/2008/09/group_cocycles_and_simplices.html#c019087)
+
+
+[[!redirects Eckmann–Hilton duality]]
+[[!redirects Eckmann--Hilton duality]]
