@@ -387,9 +387,16 @@ $$
 
 A trivial change
 
+
 +-- {: .query}
 Can I put a [[link]] in a question?
 =--
+
+
+&#x1D49C;&#x212C;&#x1D94E;&#x1D49F;&#x2130;&#x2131;&#x1D4A2;&#x210B;&#x2110;&#x1D4A5;&#x1D4A6;&#x2112;&#x2133;&#x1D4A9;&#x1D4AA;&#x1D4AB;&#x1D4AC;&#x211B;&#x1D4AE;&#x1D4AF;&#x1D4B0;&#x1D4B1;&#x1D4B2;&#x1D4B3;&#x1D4B4;&#x1D4B5;
+&#x1D4B6;&#x1D4B7;&#x1D4B8;&#x1D4B9;&#x212F;&#x1D4BB;&#210A;&#x1D4BD;&#x1D4BE;&#x1D4BF;&#x1D4C0;&#x1D4C1;&#x1D4C2;&#x1D4C3;&#x2134;&#x1D4C5;&#x1D4C6;&#x1D4C7;&#x1D4C8;&#x1D4C9;&#x1D4CA;&#x1D4CB;&#x1D4CC;&#x1D4CD;&#x1D4CE;&#x1D4CF;
+$\mathcal{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$
+$\mathcal{abcdefghijklmnopqrstuvwxyz}$
 
 
 ***
