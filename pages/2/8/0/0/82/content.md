@@ -22,3 +22,5 @@
 
 
 [[!redirects Sheaf and Topos Theory]]
+[[!redirects sheaf theory]]
+[[!redirects topos theory]]
