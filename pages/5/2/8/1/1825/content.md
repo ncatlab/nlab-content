@@ -4,16 +4,13 @@ The $n$-dimensional sphere of radius $r$ is
 $$ S^n_r = \{ x: \mathbf{R}^{n+1} \;|\; \|x\| = r \} .$$
 Topologically, this is equivalent to the unit sphere for $r \gt 0$, or a [[point]] for $r = 0$.
 
-These spheres, or rather their underlying [[topological space]]s or [[simplicial set]]s, are fundamental in (ungeneralised) [[homotopy theory]].  In a sense, [[Whitehead's theorem]] says that these are all that you need; no further [[generalized (Eilenberg-Steenrod) homotopy theory|generalised homotopy theory]] (in a sense [[Eckmann-Hilton duality|dual]] to [[Eilenberg–Steenrod cohomology theory]]) is needed.
+These spheres, or rather their underlying [[topological space]]s or [[simplicial set]]s, are fundamental in (ungeneralised) [[homotopy theory]].  In a sense, [[Whitehead's theorem]] says that these are all that you need; no further [[generalized (Eilenberg-Steenrod) homotopy theory|generalised homotopy theory]] (in a sense [[Eckmann–Hilton duality|dual]] to [[Eilenberg–Steenrod cohomology theory]]) is needed.
 
 One can also talk about a sphere in an arbitrary (possibly infinite-dimensional) [[Banach space]] $V$:
 $$ S(V) = \{ x: V \;|\; \|x\| = 1 \} .$$
-But this provides nothing new to homotopy theory, as an infinite-dimensional sphere is [[contractible space|contractible]].
-+-- {: .query}
-Is there a nice formula for this?  If so, it would be good to write it down here.
-
-[[David Roberts]]: In which topology? Smoothly or continuously? From memory one sort of shuffles things up one coordinate, by some sort of rotation. That sentence (I almost wrote _this sentence_ :) ) may mean little..
-=--
+Homotopy theorists define $S^\infty$ to be the sphere in the (incomplete) normed vector space (traditionally with the $l^2$ norm) of infinite [[sequence]]s almost all of whose values are $0$, which is the [[directed colimit]] of the $S^n$:
+$$ S^{-1} \hookrightarrow S^0 \hookrightarrow S^1 \hookrightarrow S^2 \hookrightarrow \cdots S^\infty .$$
+But these provide nothing new to homotopy theory, as these infinite-dimensional spheres are [[contractible space|contractible]].  (See [Usenet discussion](http://www.math.niu.edu/~rusin/known-math/93_back/s-infty).)
 
 The $n$-sphere is the boundardy of the $(n+1)$-[[ball]].
 
