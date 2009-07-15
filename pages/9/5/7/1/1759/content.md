@@ -12,7 +12,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+
 ## 2009-07-15
+
+*  [[Toby Bartels]]:
+   *  Welcome back, Mike!
+   *  My experience is that Recently Revised, All Pages, and especially Search will degrade performance.  I need them all, but I try to use them sparingly.  Long pages (such as this one sometimes) can also degrade performance, but only temporarily.
 
 * [[Mike Shulman|Mike]]:
 
