@@ -175,3 +175,7 @@ Baues (in his book on _Algebraic Homotopy_) has suggested using the terminology 
 =--
 
 category: lexicon
+
+[[!redirects differential graded algebras]]
+
+
