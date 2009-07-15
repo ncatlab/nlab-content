@@ -79,3 +79,5 @@ which is always naturally pointed as indicated.
 
 The notion of kernel in a category with zero morphism is obtained from this in the special case that all objects are assumed to be pointed, so that we are in a [[pointed category]] with zero-morphism $0 : A \to B$ given by 
 $A \to pt \stackrel{pt_B}{\to} B$.
+
+[[!redirects pointed objects]]
