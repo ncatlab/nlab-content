@@ -15,9 +15,13 @@ For paracompact spaces, [[numerable open cover|numerable open covers]] are cofin
 
   * every [[compact space]] is paracompact;
 
-  * any [[second-countable topological space|second-countable]] [[locally compact space|locally compact]] Hausdorff space is paracompact;
+  * any [[second-countable space|second-countable]] [[locally compact space|locally compact]] Hausdorff space is paracompact;
 
-  * in particular every [[second-countable topological space|second countable]] finite-dimensional [[manifold]] is paracompact .
+* manifolds
+
+  * a finite-dimensional [[manifold]] is paracompact precisely if it is [[second-countable space|second countable]]
+
+  *  and precisely if it is [[metric space|metrizable]]
 
 * metric spaces
 
@@ -27,28 +31,26 @@ For paracompact spaces, [[numerable open cover|numerable open covers]] are cofin
 
   * pseudometric spaces are paracompact under the same conditions, if one does not require Hausdorffness;
 
+* In particular we have the following implications
+
+  * [[second-countable space]] and [[regular space]]
+    $\Rightarrow$ [[metric space|metrizable space]]
+    $\Rightarrow$ paracompact space
+
+    (the first is Urysohn's metrization theorem, the second is due to A. H. Stone)
+
+  * paracompact space and locally metric space
+    $\Rightarrow$
+    [[metric space|metrizable space]]
+
 * special cases
 
   * the [[Sorgenfrey line]] is a good example of a paracompact space that doesn\'t fit into other general classes of paracompact spaces;
 
 * counterexamples
 
-  * the [[long line]] is *not* paracompact, even though it is a [[manifold]] (unless one specifically requires paracompactness of manifolds).
-
-+-- {: .query}
-
-[[Urs Schreiber]]: there is an inconsistency here with what it says at [[locally compact space]]: there it says that every topological manifold is locally compact and that the long line is a topological manifold. Here it says that every locally compact space is paracompact, but that the long line is not.
-
-Apparently the same inconsistency is in the relevant Wikipedia entries. 
-
-Or am I missing something?
-
-_Zoran_ Sometimes people do consider nonparacompacts manifolds, but it is standard to assume that we work with paracompact ones. 
-
-[[Urs Schreiber]]: Probably my mistake was that I missed the "second countable" clause above. 
-
-So every second countable fin-dim manifold is paracompact. 
-=--
+  * the [[long line]] is *not* paracompact, even though it is a [[manifold]] (unless one specifically requires paracompactness of manifolds) but it fails to be 
+[[second-countable space|second-countable]].
 
 
 # Properties #
@@ -68,6 +70,28 @@ __Dieudonne's theorem__: Every paracompact Hausdorff space is [[normal space|nor
 A discussion is for instance around page 32 of
 
 * Brylinski, _Loop spaces, characteristic classes geoemtric quantization_
+
+# Discussion #
+
+A previous version caused the following discussion, which is probably taken care of now.
+
++-- {: .query}
+
+[[Urs Schreiber]]: there is an inconsistency here with what it says at [[locally compact space]]: there it says that every topological manifold is locally compact and that the long line is a topological manifold. Here it says that every locally compact space is paracompact, but that the long line is not.
+
+Apparently the same inconsistency is in the relevant Wikipedia entries. 
+
+Or am I missing something?
+
+_Zoran_ Sometimes people do consider nonparacompacts manifolds, but it is standard to assume that we work with paracompact ones. 
+
+[[Urs Schreiber]]: Probably my mistake was that I missed the "second countable" clause above. 
+
+So every second countable fin-dim manifold is paracompact. 
+=--
+
+
+
 
 [[!redirects Dieudonne's theorem]]
 [[!redirects Dieudonne theorem]]
