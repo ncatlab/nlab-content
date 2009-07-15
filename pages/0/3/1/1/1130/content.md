@@ -194,3 +194,5 @@ $$F_p T'(V) = T^{\leq p}(V) = \bigoplus_{k\leq p} T^k(V).$$
 =--
 
 category: lexicon
+
+[[!redirects differential graded coalgebras]]
