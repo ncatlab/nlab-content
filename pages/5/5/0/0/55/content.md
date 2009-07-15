@@ -86,3 +86,4 @@ The extent to which Lie algebroids are to [[Lie groupoid|Lie groupoids]] as Lie 
 
 See the [Wikipedia entry](http://en.wikipedia.org/wiki/Lie_algebroid).
 
+[[!redirects Lie algebroids]]
