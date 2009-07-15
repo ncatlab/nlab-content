@@ -271,3 +271,7 @@ Some further discussion and examples of Lie-$\infty$-algebroid representations i
 * Urs Schreiber, [On Lie-∞ theory](http://golem.ph.utexas.edu/category/2008/05/action_lie_infinityalgebroids.html)
 
 * Hisham Sati, Urs Schreiber, Jim Stasheff, _Twisted differential String- and Fivebrane structures_ ([pdf](http://www.math.uni-hamburg.de/home/schreiber/5twist.pdf))
+
+[[!redirects Lie infinity-algebroid representations]]
+[[!redirects Lie ∞-algebroid representation]]
+[[!redirects Lie ∞-algebroid representations]]
