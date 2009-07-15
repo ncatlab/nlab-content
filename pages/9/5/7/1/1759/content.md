@@ -17,6 +17,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]:
 
+  * added to [[twisted cohomology]] the May-Sigurdsson reference, mentioned their definition of twisted cohomology in terms of associated bundles of spectra and added a discussion on how that relates to the rest of the entry
+
   * it seems to me that linking to a page via a redirect has as a consequence that the linking page is not listed at the bottom of the linked page under _Linked from_ . That's too bad.
 
   * added the reference to Abad and Crainic at [[Lie infinity-algebroid representation]]
