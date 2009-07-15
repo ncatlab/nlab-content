@@ -19,3 +19,5 @@ modules, Cah.  Top. G\'{e}om. Diff. 17 (1976) 343-362.
 Pseudo Algebras](http://www.math.uchicago.edu/~fiore/1/fiorefolding.pdf) 
 
 * John C. Baez, [An Introduction to n-Categories](http://arxiv. org/abs/q-alg/9705009)
+
+[[!redirects double categories]]
