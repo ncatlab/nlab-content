@@ -55,6 +55,12 @@ For more general 'weak Lie 2-algebras', see:
 
 * Dmitry Roytenberg, _On weak Lie 2-algebras_,  ([arXiv](http://arxiv.org/abs/0712.3461))
 
-
+[[!redirects L-infinity-algebras]]
 [[!redirects Lie infinity-algebra]]
 [[!redirects L-infinity algebra]]
+[[!redirects Lie infinity-algebras]]
+[[!redirects L-infinity algebras]]
+[[!redirects L-∞ algebra]]
+[[!redirects L-∞ algebras]]
+[[!redirects L-∞-algebra]]
+[[!redirects L-∞-algebras]]
