@@ -134,3 +134,8 @@ low dimensional proofs have obvious generalizations.
 
 * Degree 3 Deligne cohomology classifies [[bundle gerbe]]s with connection.
 
+  * In [[electromagnetism]] Degree 3 Deligne cocycles model [[electric charge]]. In formal high energy physics the [[Kalb-Ramond field]] is modeled by a Deligne 3-cocycle.
+
+* Degree 4 Deligne cohomology classifies [[bundle 2-gerbe]]s with connection. In particular Chern-Simons bundle 2-gerbes whose degree 4 curvature characteristic class is a multiple of the Pontryagin 4-form on some $SO(n)$-[[principal bundle]]. 
+
+  * In formal high energy physics degree 4 Deligne classes model the [[supergravity C-field]].
