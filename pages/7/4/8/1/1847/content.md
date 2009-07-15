@@ -1,5 +1,4 @@
 
-
 # Definition #
 
 A [[topological space]] $X$ is **paracompact** if every open [[cover]]ing $U$ has a [[refinement]] by an open covering $V$ that is _locally finite_, i.e. such that every point has a neighbourhood that intersects only finitely many open subsets in $V$ .
@@ -42,10 +41,14 @@ Apparently the same inconsistency is in the relevant Wikipedia entries.
 
 Or am I missing something?
 
+_Zoran_ Sometimes people do consider nonparacompacts manifolds, but it is standard to assume that we work with paracompact ones. 
+
 =--
 
 
 # Properties #
+
+__Dieudonne's theorem__: Every paracompact Hausdorff space is [[normal space|normal]]. A __paracompactum__ is by definition any paracompact Hausdorff space. 
 
 ## cohomology of paracompact spaces ##
 
@@ -60,3 +63,7 @@ Or am I missing something?
 A discussion is for instance around page 32 of
 
 * Brylinski, _Loop spaces, characteristic classes geoemtric quantization_
+
+[[!redirects Dieudonne's theorem]]
+[[!redirects Dieudonne theorem]]
+[[!redirects paracompact spaces]]
