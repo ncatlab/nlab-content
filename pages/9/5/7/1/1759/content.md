@@ -16,6 +16,16 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]:
 
+  * added three basic examples to [[metric space]]
+
+  * filled more information provided by [[Todd Trimble]] into the entry [[paracompact space]]
+
+  * created [[cup product]]
+
+  * checked by private email with [[Todd Trimble]] and probably see my confusion at [[paracompact space]] now -- replied there and added explicitly the example of second countable fin-dim manifolds
+
+  * created [[magnetic current]] and [[electric current]]
+
   * I am getting the impression that the server runs much more smoothly when one avoids to call the "recently revised" page. This is a pity, because I used to go there all the time to see what's happening, but it would be helpful to figure out if maybe the cause of the performance problems we see can be  narrowed down further. Maybe calling "recently revised" causes the software to go through the entire database in an inefficient way.
 
 
