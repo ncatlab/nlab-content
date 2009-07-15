@@ -14,6 +14,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-15
 
+* [[Mike Shulman|Mike]]:
+
+  * Replied to discussions at [[replete subcategory]] and [[pseudofunctor]].
+
+  * Sorry for suddenly disappearing; after graduating (thanks for the thoughts everyone!) I had immediate obligations to three coauthors that took priority, so I lost track of the nCommunity for a bit.  (One of those papers, which people here might be interested in, should be appearing on the arXiv shortly.)  Unfortunately I'll now be traveling and out of touch for the next month, but then I'll be back.
+
 * [[Urs Schreiber]]:
 
   * added three basic examples to [[metric space]]
