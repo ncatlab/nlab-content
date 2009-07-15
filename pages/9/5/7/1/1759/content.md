@@ -15,6 +15,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-15
 
+* [[Urs Schreiber]]:
+
+  * Eric, why don't you make the material on electromagnetism in media that you added into a proper section at [[electromagnetic field]]? Then we could move what is proper discussion between us into a query box, after all, while having the genuine material visible in the netry and not hidden in the section Discussion.
+
 * [[Eric]]:
 
   * Started tinkering with a draft [[Discrete Causal Spaces]]. Help is more than welcome.
