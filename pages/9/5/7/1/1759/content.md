@@ -15,11 +15,21 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-15
 
+* [[Eric]]:
+
+  * Started tinkering with a draft [[Discrete Causal Spaces]]. Help is more than welcome.
+
+  * Made a few comments on [[electromagnetic field]] and [[electric charge]].
+
+  * Asked a question on [[connection for a differential graded algebra]] (which Urs replied to).
+
 * [[Urs Schreiber]]:
 
   * added to [[twisted cohomology]] the May-Sigurdsson reference, mentioned their definition of twisted cohomology in terms of associated bundles of spectra and added a discussion on how that relates to the rest of the entry
 
   * it seems to me that linking to a page via a redirect has as a consequence that the linking page is not listed at the bottom of the linked page under _Linked from_ . That's too bad.
+
+    * [[Eric]]: This is one of several issues that have arisen due to the new redirects feature that I would not worry about. In the future, this should work as desired. Redirects also produce unnecessary "Wanted Pages" on the "All Pages" page. See the [forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=43&page=1#Item_3).
 
   * added the reference to Abad and Crainic at [[Lie infinity-algebroid representation]]
 
