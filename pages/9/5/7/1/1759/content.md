@@ -15,6 +15,20 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-15
 
+* [[Urs Schreiber]]:
+
+  * it seems to me that linking to a page via a redirect has as a consequence that the linking page is not listed at the bottom of the linked page under _Linked from_ . That's too bad.
+
+  * added the reference to Abad and Crainic at [[Lie infinity-algebroid representation]]
+
+  * realized only now that there is an entry [[semifree dga]], so I added to that entry a remark on [[Lie infinity-algebroid]] and conversely added there a pointer to the former
+
+  * replied at [[connection for a differential graded algebra]], remarking that this seems to be essentially the structure discussed at [[Lie infinity-algebroid representation]] -- this concept seems to be reinvented many times, just recently it seems that what Abad and Crainic describe in [0901.0319](http://arxiv.org/abs/0901.0319) is the same idea 
+
+  * if indeed calling _recently revised_ should be avoided for the time being, it is all the more important that you indicate even small changes/additions here at _latest changes_
+
+  * yes, I am relieved to see [[Mike Shulman|Mike]] back, if only temporarily, I was worried that the $n$Lab had lost one of its most valuable contributors
+
 *  [[Toby Bartels]]:
    *  Welcome back, Mike!
    *  My experience is that Recently Revised, All Pages, and especially Search will degrade performance.  I need them all, but I try to use them sparingly.  Long pages (such as this one sometimes) can also degrade performance, but only temporarily.
