@@ -1,7 +1,7 @@
 A __Postnikov system__ or __Postnikov tower__ ([[M M Postnikov]], 1951) is a sequence of path connected, pointed topological spaces $X^{(n)}$, $n \geq 1$,
 such that $\pi_r(X^{(n)})=0$ for $r \gt n$,
 together with a sequence $\pi_n$ of [[module]]s of the [[fundamental group]] $\pi_1(X^{(1)})$ of $X^{(1)}$ and
-[[fibration]]s $p_n : X^{(n+1)} \to X^{(n)}$ classified up to [[homotopy type]] by a specified cohomology class $k^{n+1} \in H^{n+1}(X^{(n)}, \pi_n)$. There are analogues in other setups, e.g. [[Postnikov system in triangulated category|Postnikov systems in triangulated categories]] and in motivic homoopty theory (M. Levine, [The Postnikov tower in motivic stable homotopy theory](http://www.math.uiuc.edu/K-theory/0692)).
+[[fibration]]s $p_n : X^{(n+1)} \to X^{(n)}$ classified up to [[homotopy type]] by a specified cohomology class $k^{n+1} \in H^{n+1}(X^{(n)}, \pi_n)$. There are analogues in other setups, e.g. [[Postnikov system in triangulated category|Postnikov systems in triangulated categories]] and in motivic homotopy theory (M. Levine, [The Postnikov tower in motivic stable homotopy theory](http://www.math.uiuc.edu/K-theory/0692)).
 
 It is known that Postnikov systems classify all weak, pointed connected homotopy types. In particular, if $X$ satisfies $\pi_r(X)=0 $ for $1 \lt r \lt n$ then the first non trivial Postnikov invariant is an  element $k^{n+1}$ of [[group cohomology]] (with twisted coefficients of course). Such elements are also determined by $n$-fold crossed extensions of $\pi_n$ by $\pi_1$,
 which are exact [[crossed complex]]es of the form
