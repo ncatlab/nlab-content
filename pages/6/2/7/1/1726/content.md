@@ -2,7 +2,7 @@
 
 An ordinary [[complete Segal space]] is a model for an $(\infty,1)$-[[(infinity,1)-category|category]].
 
-One may iterate this constructoin and define an $n$-fold complete Segal space as an complete Segal space in complete $(n-1)$-fold Segal spaces, roughly.
+One may iterate this construction and define an $n$-fold complete Segal space as an complete Segal space in complete $(n-1)$-fold Segal spaces, roughly.
 
 Then $n$-fold complete Segal spaces are models for $(\infty,n)$-[[(infinity,n)-category|categories]].
 
