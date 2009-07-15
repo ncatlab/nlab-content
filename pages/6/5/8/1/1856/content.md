@@ -20,4 +20,8 @@ A connection is __flat__ iff its curvature vanishes.
 
 [[Eric]]: I like this algebraic definition. Do you know who it can be traced back to? Koszul? I've come across it via [Dimakis and Muller-Hoissen](http://arxiv.org/abs/gr-qc/9808023).
 
+[[Urs Schreiber]]: i think this is the concept that is described at [[Lie infinity-algebroid representation]]. It is the same (up to very minor technical differences) that Jonathan Block calls a superconnection in [this](http://arxiv.org/abs/math/0509284) article. 
+
+
+
 =--
