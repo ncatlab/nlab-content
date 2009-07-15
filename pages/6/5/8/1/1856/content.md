@@ -15,3 +15,9 @@ The curvature $F_\nabla$ of the connection $\nabla$ is the restriction of the co
 $$\nabla\circ\nabla|_M : M\to M\otimes_A\Omega^2 A. $$ 
 
 A connection is __flat__ iff its curvature vanishes. 
+
++--{.query}
+
+[[Eric]]: I like this algebraic definition. Do you know who it can be traced back to? Koszul? I've come across it via [Dimakis and Muller-Hoissen](http://arxiv.org/abs/gr-qc/9808023).
+
+=--
