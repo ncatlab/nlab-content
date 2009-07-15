@@ -43,6 +43,8 @@ For paracompact spaces, [[numerable open cover|numerable open covers]] are cofin
     $\Rightarrow$
     [[metric space|metrizable space]]
 
+    (this is due to Smirnov)
+
 * special cases
 
   * the [[Sorgenfrey line]] is a good example of a paracompact space that doesn\'t fit into other general classes of paracompact spaces;
