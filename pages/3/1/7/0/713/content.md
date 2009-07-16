@@ -12,3 +12,45 @@ $$\hat{F}(X) = X \otimes_S F = \int^{s: S} X(s) \cdot F(s)$$
 where $S \cdot d$ is notation for [[power|copowering]] (or tensoring) an object $d$ of $D$ by a set $S$ (in this case, a coproduct of an $S$-indexed set of copies of $D$). This formula recurs frequently throughout this wiki; see also [[nerve]], [[Day convolution]]. 
 
 This "free cocompletion" property generalizes to [[enriched category]] theory. If $V$ is complete, cocomplete, symmetric monoidal closed, and $S$ is (small) enriched in $V$, then the enriched presheaf category $V^{S^{op}}$ is a free $V$-cocompletion of $S$. The explicit meaning is analogous to the case where $V = Set$, where all ordinary category concepts are replaced by their $V$-enriched analogues; in particular, the notion of "$V$-cocontinuous functor" referes to preservation of enriched weighted colimits (not just ordinary conical colimits). 
+
+#Discussion about 'free cocompletion'#
+
+This section is a slightly new sort of experiment.
+Here [[John Baez]] would like to explain this remark to [[Mike Stay]]:
+
+"In the case where $C = Set$ and $S$ is [[small category|small]], an important general principle is that the category of presheaves on $S$ and [[natural transformation|natural transformations]] between them is the [[free cocompletion]] of $S$."
+
+The idea is that I'll write some stuff, then Mike will write some questions, and so on.  Other people are welcome to join but only if they _keep it simple_.  Please: _no showing off!_  In particular, Mike does not yet understand coends or Kan extensions, so part of my job is to explain these, not just use them.
+
+First, let me state the above result precisely.
+
+Given a small category $A$, let $\hat{A}$ be our short name for $Set^{A^{op}}$, the category of presheaves on $A$ and natural transformations between them.
+
+The [[Yoneda lemma]] gives an embedding $Y : A \to \hat{A}$.
+
+The result says: given any [[cocomplete category]] $B$, and any functor $F : A \to B$, there is a [[cocontinuous functor]] $\widehat{F} : \hat{A} \to B$ making this triangle commute up to natural isomorphism:
+
+$$
+  \array{
+     A &\stackrel{F}{\to}& B
+     \\
+     F\downarrow & \nearrow_{\widehat{F}}
+     \\
+     \widehat{A}
+  }
+  \,,
+$$
+
+Moreover, $\widehat{F}$ is unique up to natural isomorphism.
+
+Our job is to understand how to construct this $\widehat{F}$.
+
+[[Urs Schreiber]]: By the way, there is a pretty good pedagogical and intuitive explanation of this from page 7 on of
+
+* Daniel Dugger, _Sheaves and Homotopy Theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html))
+
+On page 8 this explains with lots of pictures how a presheaf is an "instruction for how to build a colimit".
+
+Then on p. 9 the universal morphism that we are looking for here is identified as the one that "takes the instructions for building a colimit and actually _builds_ it".
+
+(That text, by the way, contains various other gems. A pity that it is left unfinished.)
