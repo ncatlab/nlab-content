@@ -16,6 +16,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]:
 
+  * created [[cohomotopy]] and linked to it from [[cohomology]]
+
+  * added "Idea"-section to [[K-theory]]
+
   * expanded further the entry on [[Deligne cohomology]]: gave maps to underlying classes and characteristic forms and made chain maps explicit -- also reorganized slightly, making the perspective of the Deligne complex as the image under Dold-Kan of functors from the path $n$-groupoid the primary one.
 
 
