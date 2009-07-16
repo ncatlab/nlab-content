@@ -16,6 +16,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]:
 
+  * added links to [[gauge theory]] fields in the example section of [[differential cohomology]]
+
+  * created [[field strength]]
+
+  * created [[RR-field]]
+
   * created [[differential K-theory]]
 
   * added an "Idea" section to [[free cocompletion]], made John and Mike's central statement a standout box, gave the theorem a theorem environment and added various links. Noticed to my surprise that the entry [[decategorification]] is, as yet, missing.
