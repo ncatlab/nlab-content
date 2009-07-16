@@ -34,6 +34,8 @@ By abstract [[duality]], cohomology is dual to [[homotopy (as an operation)]].
 
 The cohomology _of_ $X$ with coefficients in $A$ is the [[homotopy]] of $A$ with co-coefficients in $X$.
 
+Therefore a more suitable term would be [[cohomotopy]].
+
 ## objects classified by cohomology classes ##
 
 For $g : X \to A$ a cocycle, one says that its [[fibration sequence|homotopy fiber]] $P \to X$ is the
