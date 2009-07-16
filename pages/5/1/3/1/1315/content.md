@@ -43,6 +43,12 @@ This definition makes sense for $X$ any [[generalized smooth space]], in particu
 Moreover, $P_1(X)$ is always itself naturally a groupoid [[internal category|internal to]] [[generalized smooth space]]s: if $X$ is a [[Chen space]] or [[diffeological space]] then $P_1(X)$ is itself internal to that category.
 =--
 
+There are various generalizations of the path groupoid to [[n-groupoid]]s and [[infinity-groupoid]]s. See
+
+* [[path n-groupoid]]
+
+* [[path infinity-groupoid]] .
+
 #Remarks#
 
 If $G$ is a Lie group, then internal (i.e. smooth) functors from the path groupoid to the one-object Lie groupoid corresponding to $G$ are in bijection to $Lie(G)$-valued differential forms on $X$. With gauge transformations regarded as morphisms between Lie-algebra values differential forms, this extends naturally to an equivalence of categories
@@ -60,3 +66,4 @@ $$
 See also 
 
 * [[Atiyah Lie groupoid]]
+
