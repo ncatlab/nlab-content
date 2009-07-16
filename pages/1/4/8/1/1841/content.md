@@ -14,11 +14,11 @@ The analogous field modeled by a degree 3 [[Deligne cohomology|Deligne cocycle]]
 
 # Mathematical model from physical input #
 
-Physical experiment shows that the electromagnetic field on a pseudo-Riemannian spacetime $X$ has the following properties.
+Physical experiment shows that the electromagnetic [[field strength]] on a pseudo-Riemannian spacetime $X$ has the following properties.
 
 1. Maxwell's equations
   
-   The electromagnetic field (in the absence of [[magnetic charge]]s) is given by a 2-form $F \in \Omega^2(X)$ and an [[electric current]] 3-form $j_{el} \in \Omega^3(X)$ satisfying **Maxwell's equations**
+   The electromagnetic [[field strength]] (in the absence of [[magnetic charge]]s) is given by a 2-form $F \in \Omega^2(X)$ and an [[electric current]] 3-form $j_{el} \in \Omega^3(X)$ satisfying **Maxwell's equations**
 
    $$
      d F = 0
