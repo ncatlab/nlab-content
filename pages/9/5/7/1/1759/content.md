@@ -16,6 +16,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]:
 
+  * expanded further the entry on [[Deligne cohomology]]: gave maps to underlying classes and characteristic forms and made chain maps explicit -- also reorganized slightly, making the perspective of the Deligne complex as the image under Dold-Kan of functors from the path $n$-groupoid the primary one.
+
+
   * in order to link to the new article by Martins and Picken I created [[path n-groupoid]]
 
     * then from that created [[Gray-groupoid]] and [[path infinity-groupoid]]
