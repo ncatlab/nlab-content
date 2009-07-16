@@ -1,9 +1,31 @@
 #Idea#
 
+The standard _Deligne complex_ (of [[abelian sheaf cohomology|abelian sheaves]]) is under the [[Dold-Kan correspondence]] the sheaf of
+[[n-groupoid]]s of smooth [[n-functor]]s from the [[path n-groupoid]] to the $n$-fold [[delooping]] $\mathbf{B}^n U(1)$:
+
+$$
+  \mathbb{Z}(n+1)_D^\infty
+  \simeq
+  \bar \mathbf{B}^n U(1)
+  \stackrel{N}{\to^\simeq}
+  [P_n(-), \mathbf{B}^n U(1)]
+  \,.
+$$
+
+
 Smooth Deligne cohomology in degree $n$, 
-denoted $\bar H^n(X,\mathbb{Z}) = H(X, \mathbb{Z}(n)^\infty,D)$,
-of a smooth [[manifold]] $X$
-is a realization of the 
+of a [[smooth space]] $X$ is [[cohomology]] with
+coefficients in $\bar \mathbf{B}^n U(1)$.
+
+
+$$
+  Deligne cohomology = H(X, \bar \mathbf{B}^n U(1)) 
+  \,.
+$$
+
+Here the notation on the right is as at the end of [[motivation for sheaves, cohomology and higher stacks]].
+
+This is a realization of the 
 [[differential cohomology|differential refinement]] (or smooth extension) $\bar H^n(X,\mathbb{Z})$ of the 
 [[integral cohomology]] $H^n(X, \mathbb{Z})$ of $X$ in terms of
 [[abelian sheaf cohomology]].
@@ -18,46 +40,237 @@ is a complex of sheaves of differential forms.
 
 #Definition#
 
++-- {: .un_defn}
+###### Definition
+
 For $k \in \mathbb{N}$
-write $\Omega^k(X)$ for the [[sheaf] of smooth differential $k$-forms on $X$
-and $C^\infty(X,U(1))$ for the sheaf of smooth $U(1)$-valued functions on 
-$X$. Let $C^\infty(X,U(1)) \stackrel{d log}{\to} \Omega^1(X)$ be the 
+write $\Omega^k(-) : U \mapsto \Omega^k(U)$ for the [[sheaf] of smooth differential $k$-forms on $X$
+and $C^\infty(-,V)$ for the sheaf of smooth $V$-valued functions on  $X$. 
+
+The degree $(n+1)$ **Deligne complex** is the complex of sheaves
+
+$$
+  \mathbb{Z}(n+1)_D^\infty
+  \;
+    :=
+  \;
+  \left(
+  \cdots \to 0 \to C^\infty(-,\mathbb{Z}) \hookrightarrow
+   C^\infty(-,\mathbb{R}) \stackrel{d }{\to}
+    \Omega^1(-) \stackrel{d}{\to} \cdots \stackrel{d}{\to}
+    \Omega^n(-)
+  \right)
+  \,.
+$$
+
+=--
+
+
+Often it is useful to consider the [[quasi-isomorphism|quasi-isomorphic]] complex
+
+$$
+  \bar \mathbf{B}^n U(1)
+  \;\;
+  :=
+  \;\;
+  \left(
+  \cdots 0 \to   C^\infty(-,U(1)) \stackrel{d log}{\to}
+    \Omega^1(-) \stackrel{d}{\to} \cdots \stackrel{d}{\to}
+    \Omega^n(-)
+  \right)
+$$
+
+Here $C^\infty(-,U(1)) \stackrel{d log}{\to} \Omega^1(-)$ 
+is the 
 morphism of sheaves induced by regarding a $U(1) \simeq \mathbb{R}/\mathbb{Z}$-valued function locally
 as a $\mathbb{R}$-valued function and applying the deRham differential $d$ to that.
 
-This yields for each $n \in \mathbb{N}$ a complex of sheaves
+The obvious morphism of complexes
 
 $$
-  \cdots \to 0 \to C^\infty(X,U(1)) \stackrel{d log}{\to}
-    \Omega^1(X) \stackrel{d}{\to} \cdots \stackrel{d}{\to}
-    \Omega^n(X)
+  \array{
+    C^\infty(-,\mathbb{Z})    
+    &\hookrightarrow&
+    C^\infty(-,\mathbb{R}) 
+      &\stackrel{d log}{\to}&
+     \Omega^1(-) 
+     &\stackrel{d}{\to}& 
+       \cdots 
+     &\stackrel{d}{\to}&
+     \Omega^n(-)
+    \\
+    \downarrow
+    &&
+    \downarrow^{(-)/\mathbb{Z}}
+    &&
+    \downarrow^{Id}
+    &&
+    &&
+    \downarrow^{Id}
+    \\
+    0 
+    &\to&
+    C^\infty(-,U(1)) 
+      &\stackrel{d log}{\to}&
+     \Omega^1(-) 
+     &\stackrel{d}{\to}& 
+       \cdots 
+     &\stackrel{d}{\to}&
+     \Omega^n(-)
+  }
 $$
 
-with $\Omega^n(X)$ in degree 0 and $C^\infty(X,U(1))$ in degree $n$.
+clearly induces isomorphism on [[homology]] groups: the homology in degree $n$ is locally constant $\mathbb{R}$-valued functions modulo locally constant $\mathbb{Z}$-valued functions in the first case and constant $U(1)$-valued functions in the second case, which is the same.
 
-This is ([[quasi-isomorphism|quasi-isomorphic]]) to the 
-**Deligned complex** of sheaves, denoted $\mathbb{Z}(n+1)^\infty_D$.
++-- {: .un_defn}
+###### Definition
 
 **Deligne cohomology** in degree $n+1$ of $X$ is the 
-[[abelian sheaf cohomology]] of this complex.
+[[cohomology]] (which is [[abelian sheaf cohomology]] in this case) with coefficients in $\bar \mathbf{B}^n U(1)$.
+
+=--
+
+$$
+  H(X, \mathbb{Z}(n+1)_D^\infty)
+  \simeq 
+  H(X, \bar \mathbf{B}^n U(1))
+  \,.
+$$
+
+Here the notation on the right is motivated from the discussion at the end of [[motivation for sheaves, cohomology and higher stacks]].
 
 
-#References#
+# Characteristic classes of Deligne cocycles #
 
-* J.-L. Brylinski, _Loop Spaces, Characteristic Classes and geometric Quantization_, Birkhaeuser
+There are two natural morphisms of abelian [[cohomology group]]s out of Deligne cohomology:
 
-* U. Bunke, _Index theory, eta forms, and Deligne cohomology_, Memoirs AMS, vol. 198, number 928, [arXiv:math./0201112](http://arxiv.org/abs/math/0201112v4)
+* the map to the underlying non-differential cocycle, the class of the underlying [[principal infinity-bundle]]:
 
-* Ulrich Bunke, Thomas Schick, _Uniqueness of smooth extensions of generalized cohomology theories_, [arXiv:0901.4423](http://arxiv.org/abs/0901.4423)
+ $$
+  cl
+  :
+  H(X,\bar \mathbf{B}^n U(1))
+  \to 
+  H(X,\mathbf{B}^n U(1))
+  \simeq
+  H(X, \mathbf{B}^{n+1} \mathbb{Z})
+  \simeq
+  H^{n+1}(X,\mathbb{Z})
+ $$
+
+* the map to the curvature characteristic class
+
+$$
+  [F]
+  :
+  H(X,\bar \mathbf{B}^n U(1))
+  \to 
+  H_{dR}^{n+1}(X)
+  \,.
+$$
+
+These are induced from the canonical morphisms of coefficient objects
+
+$$
+  \bar \mathbf{B}^n U(1) \simeq
+  \mathbb{Z}(n+1)_D^\infty
+  \to 
+  \mathbf{B}^{n+1} \mathbb{Z}
+$$
+
+given by
+
+$$
+  \array{
+    C^\infty(-,\mathbb{Z})    
+    &\hookrightarrow&
+    C^\infty(-,\mathbb{R}) 
+      &\stackrel{d }{\to}&
+     \Omega^1(-) 
+     &\stackrel{d}{\to}& 
+       \cdots 
+     &\stackrel{d}{\to}&
+     \Omega^n(-)
+    \\
+    \downarrow^{Id}
+    &&
+    \downarrow^{0}
+    &&
+    \downarrow^{0}
+    &&
+    &&
+    \downarrow^{0}
+    \\
+    C^\infty(-, \mathbb{Z})
+    &\to&
+    0 
+      &\to&
+     0
+     &\to& 
+       \cdots 
+     &\to&
+     0  }
+$$
+
+and
+
+$$
+  \bar \mathbf{B}^n U(1) \simeq
+  \mathbb{Z}(n+1)_D^\infty
+  \to 
+  (\Omega^0(-)
+   \stackrel{d}{\to}
+   \Omega^1(-)
+   \stackrel{d}{\to}
+   \cdots
+   \stackrel{d}{\to}
+   \Omega^{n+1}(-)
+  )
+$$
+
+given by
+
+$$
+  \array{
+    C^\infty(-,\mathbb{Z})    
+    &\hookrightarrow&
+    C^\infty(-,\mathbb{R}) 
+      &\stackrel{d }{\to}&
+     \Omega^1(-) 
+     &\stackrel{d}{\to}& 
+       \cdots 
+     &\stackrel{d}{\to}&
+     \Omega^n(-)
+    \\
+    \downarrow^{0}
+    &&
+    \downarrow^d
+    &&
+    \downarrow^d
+    &&
+    &&
+    \downarrow^d
+    \\
+    C^\infty(-,\mathbb{R}) 
+     &\stackrel{d}{\to}&
+      \Omega^1(-)
+     &\stackrel{d}{\to}& 
+      \Omega^2(-)
+     &\stackrel{d}{\to}& 
+       \cdots 
+     &\stackrel{d}{\to}&
+     \Omega^{n+1}(-)
+}
+$$
 
 
 #Interpretation in terms of parallel transport#
 
-There is a natural way to understand the Deligne complex of sheaves as a sheaf which assigns to each patch the Lie $n$-groupoid of smooth parallel transport $n$-functors. This perspective is helpful for understanding how Deligen cohomology relates to the bigger picture of [[differential cohomology]].
+There is a natural way to understand the Deligne complex of sheaves as a sheaf which assigns to each patch the Lie $n$-groupoid of smooth parallel transport $n$-functors. This perspective is helpful for understanding how Deligne cohomology relates to the bigger picture of [[differential cohomology]].
 
 We start by discussing this in low degree.
 
-There is a [[Lie groupoid]] called $P_1(X)$ whose smooth 
+There is [[path groupoid]] $P_1(X)$ whose smooth 
 space of objects is $X$ and whose smooth space of morphisms is
 a space of classes of smooth paths in $X$. 
 Every smooth 1-form $A \in \Omega^1(X)$ induces 
@@ -93,8 +306,7 @@ This way Deligne cohomology is realized as computing the
 $Funct^\infty(P_1(-), \mathbf{B}(1))$ of smooth $U(1)$-valued 
 parallel transport functors.
 
-The identification generalizes: for all $n$ there is a smooth 
-[[n-category|n-groupoid]] $P_n(X)$ whose $k$-morphisms are 
+The identification generalizes: for all $n$ there is a [[path n-groupoid]] $P_n(X)$ whose $k$-morphisms are 
 $k$-dimensional smooth paths in $X$. Smooth $n$-functors
 $tra_C : _n(X) \to \mathbf{B}^n U(1)$ are canonically identified
 with smooth $n$-forms $C \in \Omega^n(X)$ and 
@@ -128,6 +340,8 @@ low dimensional proofs have obvious generalizations.
 
 # Examples #
 
+As described in smoe detail at [[electromagnetic field]] in abelian higher [[gauge theory|gauge theories]] the background field naturally arises as a [[Cech cohomology|Cech]]-Deligne-cocycle, i.e. a [[Cech cohomology|Cech cocycle]] representative with values in the Deligne complex.
+
 * Degree 2 Deligne cohomology classifies $U(1)$-[[principal bundle]]s [[connection on a bundle|with connection]].
 
   * In physics the [[electromagnetic field]] is modeled by a degree 2 Deligne cocycle. See there for a derivation of [[Cech cohomology|Cech]]-Deligne cohomology from physical input.
@@ -139,3 +353,12 @@ low dimensional proofs have obvious generalizations.
 * Degree 4 Deligne cohomology classifies [[bundle 2-gerbe]]s with connection. In particular Chern-Simons bundle 2-gerbes whose degree 4 curvature characteristic class is a multiple of the Pontryagin 4-form on some $SO(n)$-[[principal bundle]]. 
 
   * In formal high energy physics degree 4 Deligne classes model the [[supergravity C-field]].
+
+
+#References#
+
+* J.-L. Brylinski, _Loop Spaces, Characteristic Classes and geometric Quantization_, Birkhaeuser
+
+* U. Bunke, _Index theory, eta forms, and Deligne cohomology_, Memoirs AMS, vol. 198, number 928, [arXiv:math./0201112](http://arxiv.org/abs/math/0201112v4)
+
+* Ulrich Bunke, Thomas Schick, _Uniqueness of smooth extensions of generalized cohomology theories_, [arXiv:0901.4423](http://arxiv.org/abs/0901.4423)
