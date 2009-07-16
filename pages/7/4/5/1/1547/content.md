@@ -71,4 +71,10 @@ forms a [[local ring]] object $R$; when interpreted in the [[internal logic]] of
 
 * A theorem of Kaplansky states "every projective module over a local ring is free". When interpreted in [[sheaf semantics]] ([[Kripke-Joyal semantics]]), the existential quantifier implicit in "free" is interpreted _locally_, so we can consider a vector bundle as a locally free module over the Dedekind reals. 
 
+# Virtual vector bundles #
+
+In one class of models for [[K-theory]] -- [[generalized (Eilenberg-Steenrod) cohomology]] theory -- cocycles are represented by $\mathbb{Z}_2$-graded vector bundles (pairs of vector bundles, essentially) modulo a certain equivalence relation. In that context it is sometimes useful to consider a certain variant of infinite-dimensional $\mathbb{Z}_2$-graded vector bundles called [[vectorial bundle]]s.
+
+
+
 Much else to be discussed...
