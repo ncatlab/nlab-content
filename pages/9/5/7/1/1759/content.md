@@ -41,6 +41,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * Eric, why don't you make the material on electromagnetism in media that you added into a proper section at [[electromagnetic field]]? Then we could move what is proper discussion between us into a query box, after all, while having the genuine material visible in the netry and not hidden in the section Discussion.
 
+    * [[Eric]]: I've thought about this some more and something still bothers me about the idea. If electromagnetic properties, i.e. $\mu$, $\epsilon$, $\sigma$ can be geometrically incorporated into the Hodge star via the metric, this implies: 1.) Maxwell's equations in inhomogeneous media are _wrong_ (although in vacuum they reduce to the familiar form) and 2.) that the Hodge star should involve _convolution_, i.e. the metric should have a _memory_. Has anyone put forward any serious theories of a "metric with memory"? Asking that questions give me a sense of deja vu (getting old sucks).
+
 * [[Eric]]:
 
   * Started tinkering with a draft [[Discrete Causal Spaces]]. Help is more than welcome.
