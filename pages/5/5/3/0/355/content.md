@@ -8,4 +8,8 @@ Specifically, we have:
 
 An $n$-groupoid is the same thing as an $(n,0)$-category in the sense of $(n,r)$[[(n,r)-category|categories]]. 
 
-Accordingy to the [[homotopy hypothesis]], every $n$-groupoid is the [[fundamental infinity-groupoid]] of some [[homotopy n-type]], and this is unique up to equivalence.
+Accordingy to the [[homotopy hypothesis]], every $n$-groupoid is the [[fundamental ∞-groupoid]] of some [[homotopy n-type]], and this is unique up to equivalence.
+
+[[Note on Formatting|?]]
+
+[[!redirects n-groupoids]]
