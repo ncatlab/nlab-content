@@ -17,6 +17,7 @@ For paracompact spaces, [[numerable open cover|numerable open covers]] are cofin
 
   * any [[second-countable space|second-countable]] [[locally compact space|locally compact]] Hausdorff space is paracompact;
 
+
 * manifolds
 
   * a finite-dimensional [[manifold]] is paracompact precisely if it is [[second-countable space|second countable]]
@@ -45,6 +46,32 @@ For paracompact spaces, [[numerable open cover|numerable open covers]] are cofin
 
     (this is due to Smirnov)
 
+* infinite dimensional manifolds
+
+  * The [[Frechet manifold]] of smooth loops of a compact finite dimensional manifold is paracompact 
+
+
+  * More generally, if $E$ is the sequential [[limit]] of separable Hilbert spaces $H_n$, such that the canonical projections
+    $$
+      p_n : E \to H_n
+    $$
+    satisfy
+    $$
+      closure(p_n^{-1}(B)) = p_n^{-1}(closure(B))
+    $$
+
+    for any open ball $B$ in $H_n$, then $E$ is paracompact, and so is any manifold modelled on $E$. Such a manifold is called an **ILH-manifold**, $E$ is an **ILH-space** . In particular, Hilbert manifolds are paracompact.
+
+    ( _Bry_ , section I.4)
+
+    +-- {: .query}
+     
+      [[Urs Schreiber]]: don't we need some extra assumption here? Otherwise why wouldn't this imply  that every space modeled on $\mathbb{R}^n$ is paracompact, while it is only the second-countable such that are?
+     
+    =--
+
+
+
 * special cases
 
   * the [[Sorgenfrey line]] is a good example of a paracompact space that doesn\'t fit into other general classes of paracompact spaces;
@@ -57,7 +84,9 @@ For paracompact spaces, [[numerable open cover|numerable open covers]] are cofin
 
 # Properties #
 
-__Dieudonne's theorem__: Every paracompact Hausdorff space is [[normal space|normal]]. A __paracompactum__ is by definition any paracompact Hausdorff space. 
+* __Dieudonne's theorem__: Every paracompact Hausdorff space is [[normal space|normal]]. A __paracompactum__ is by definition any paracompact Hausdorff space. 
+
+* every paracompact finite-dimensional [[manifold]] has a [[partition of unity]]
 
 ## cohomology of paracompact spaces ##
 
@@ -69,28 +98,11 @@ __Dieudonne's theorem__: Every paracompact Hausdorff space is [[normal space|nor
 
 *  the English Wikipedia\'s [article](http://en.wikipedia.org/wiki/Paracompact_space)
 
-A discussion is for instance around page 32 of
+A discussion with an eye towards [[abelian sheaf cohomology]] and abelian [[Cech cohomology]] is around page 32 of
 
-* Brylinski, _Loop spaces, characteristic classes geoemtric quantization_
+* **Bry** Brylinski, _Loop spaces, characteristic classes geoemtric quantization_
 
-# Discussion #
 
-A previous version caused the following discussion, which is probably taken care of now.
-
-+-- {: .query}
-
-[[Urs Schreiber]]: there is an inconsistency here with what it says at [[locally compact space]]: there it says that every topological manifold is locally compact and that the long line is a topological manifold. Here it says that every locally compact space is paracompact, but that the long line is not.
-
-Apparently the same inconsistency is in the relevant Wikipedia entries. 
-
-Or am I missing something?
-
-_Zoran_ Sometimes people do consider nonparacompacts manifolds, but it is standard to assume that we work with paracompact ones. 
-
-[[Urs Schreiber]]: Probably my mistake was that I missed the "second countable" clause above. 
-
-So every second countable fin-dim manifold is paracompact. 
-=--
 
 
 
