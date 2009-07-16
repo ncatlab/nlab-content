@@ -1,3 +1,23 @@
+
+#Idea#
+
+Passing from a [[category]] $C$ to its [[presheaf]] category $PSh(C) := [C^{op},Set]$ may be regarded as the operation of
+"freely adjoining [[colimit]]s to $C$". 
+
+The precise version of this statement is that the [[Yoneda embedding]]
+
+$$
+  Y : C \hookrightarrow PSh(C)
+$$
+
+is the **free cocompletion** of $C$.
+
+The [[universal property]] of the [[Yoneda embedding]] is expressed in terms of the [[Yoneda extension]] of any [[functor]] $F : C \to D$ to a category $D$ with colimits.
+
+
+# Technical details #
+
+
 The [[Yoneda embedding]]
 $$y_S: S \to Set^{S^{op}}$$ 
 of a [[small category]] $S$ into the category $Set^{S^{op}}$ of [[presheaf|presheaves]] on $S$ 
@@ -13,24 +33,34 @@ where $S \cdot d$ is notation for [[power|copowering]] (or tensoring) an object 
 
 This "free cocompletion" property generalizes to [[enriched category]] theory. If $V$ is complete, cocomplete, symmetric monoidal closed, and $S$ is (small) enriched in $V$, then the enriched presheaf category $V^{S^{op}}$ is a free $V$-cocompletion of $S$. The explicit meaning is analogous to the case where $V = Set$, where all ordinary category concepts are replaced by their $V$-enriched analogues; in particular, the notion of "$V$-cocontinuous functor" referes to preservation of enriched weighted colimits (not just ordinary conical colimits). 
 
-#Discussion about 'free cocompletion'#
+
+# Gentle explanation #
 
 This section is a slightly new sort of experiment.
 Here [[John Baez]] would like to explain this remark to [[Mike Stay]]:
 
-"In the case where $C = Set$ and $S$ is [[small category|small]], an important general principle is that the category of presheaves on $S$ and [[natural transformation|natural transformations]] between them is the [[free cocompletion]] of $S$."
+
++-- {: .standout}
+
+In the case where $C = Set$ and $S$ is [[small category|small]], an important general principle is that the [[category]] of $C$-valued [[presheaf|presheaves]] on $S$ and [[natural transformation|natural transformations]] between them is the [[free cocompletion]] of $S$.
+
+=--
 
 The idea is that I'll write some stuff, then Mike will write some questions, and so on.  Other people are welcome to join but only if they _keep it simple_.  Please: _no showing off!_  In particular, Mike does not yet understand coends or Kan extensions, so part of my job is to explain these, not just use them.
 
 First, let me state the above result precisely.
 
-Given a small category $A$, let $\hat{A}$ be our short name for $Set^{A^{op}}$, the category of presheaves on $A$ and natural transformations between them.
+Given a [[small category]] $A$, let $\hat{A}$ be our short name for $Set^{A^{op}}$, the category of presheaves on $A$ and natural transformations between them.
 
-The [[Yoneda lemma]] gives an embedding $Y : A \to \hat{A}$.
+The [[Yoneda lemma]] gives an embedding $Y : A \to \hat{A}$ -- the [[Yoneda embedding]].
 
 The result says: 
 
-**Theorem.** Given any small [[cocomplete category]] $B$, and any functor $F : A \to B$, there is a [[cocontinuous functor]] $\widehat{F} : \hat{A} \to B$ making this triangle commute up to natural isomorphism:
++-- {: .un_theorem}
+###### Theorem
+
+Given any [[small category|small]] [[cocomplete category]] $B$, and any functor $F : A \to B$, there is a [[cocontinuous functor]] $\widehat{F} : \hat{A} \to B$ making this triangle commute up to natural isomorphism:
+
 $$
   \array{
      A &\stackrel{F}{\to}& B
@@ -41,13 +71,17 @@ $$
   }
   
 $$
+
 Moreover, $\widehat{F}$ is unique up to natural isomorphism.
+
+=--
+
 
 Our job is to understand how to construct this $\widehat{F}$.  But before we do that:
 
 ####Why do we care?####
 
-We want to convert between two equivalent descriptions of profunctors from a category $A$ to a category $B$.  On the one hand, they are functors
+We want to convert between two equivalent descriptions of [[distributor|profunctors]] from a category $A$ to a category $B$.  On the one hand, they are [[functor]]s
 
 $$ G : A \to \widehat{B}$$
 
@@ -68,7 +102,7 @@ $\widehat{A} \to \widehat{B}$ to a functor $A \to \widehat{B}$ gets you back whe
 
 ####How should we think about this, intuitively?####
   
-When we say $\widehat{A}$ is the 'free cocompletion' of the category $A$, it means we're freely throwing in colimits (and thus wrecking the old colimits $A$ may have had).  Since colimits are generalized 'sums', we can consider a decategorified analogue:
+When we say $\widehat{A}$ is the 'free cocompletion' of the category $A$, it means we're freely throwing in [[colimit]]s (and thus wrecking the old colimits $A$ may have had).  Since colimits are generalized 'sums', we can consider a [[decategorification|decategorified]] analogue:
 
 **Decategorified Theorem.** Given any set $A$, let $\tilde{A}$ be the free commutative monoid on $A$, and let $y : A \to \tilde{A}$ be the obvious inclusion.  If $B$ is a commutative monoid, given any function $F : A \to B$, there is a monoid homomorphism $\tilde{F} : \hat{A} \to B$ making this triangle commute:
 $$
@@ -90,7 +124,7 @@ But we also need to see how the Theorem is actually proved.
 
 ####A reference####
 
-[[Urs Schreiber]]: By the way, there is a pretty good pedagogical and intuitive explanation of this from page 7 on of
+A pedagogical explanation of the universal property of the [[Yoneda embedding]] is given from page 7 on of
 
 * Daniel Dugger, _Sheaves and Homotopy Theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html))
 
