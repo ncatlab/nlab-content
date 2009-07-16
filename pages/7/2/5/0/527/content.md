@@ -56,5 +56,6 @@ One possible interpretation of what Eric wants is that one specifies a collectio
 * Tim Porter: _Enriched categories and models for spaces of evolving states_, Theoretical Computer Science, 405, (2008), pp. 88 - 100.
 * Tim Porter, _Enriched categories and models for spaces of
 dipaths. A discussion document and overview of some techniques_ ([pdf](http://drops.dagstuhl.de/opus/volltexte/2007/898/pdf/06341.PorterTimothy.Paper.898.pdf))
+* Dan Christensen, and Louis Crane, _Causal sites as quantum geometry_, ([arXiv](http://arxiv.org/abs/gr-qc/0410104))
 
 category: drafts
