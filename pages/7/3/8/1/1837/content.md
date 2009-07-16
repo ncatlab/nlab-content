@@ -35,7 +35,7 @@ But a whoe tower of higher and generalized gauge theories became visible with th
 
 * The [[supergravity C-field]] is a [[Deligne cohomology|Deligne cocycle]] with curvature 4-form.
 
-* The [[RR-field]] is a cocycle in differential [[K-theory]].
+* The [[RR-field]] is a cocycle in [[differential K-theory]].
 
 
 ## gravity as a gauge theory ##
