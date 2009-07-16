@@ -28,22 +28,49 @@ Given a small category $A$, let $\hat{A}$ be our short name for $Set^{A^{op}}$, 
 
 The [[Yoneda lemma]] gives an embedding $Y : A \to \hat{A}$.
 
-The result says: given any [[cocomplete category]] $B$, and any functor $F : A \to B$, there is a [[cocontinuous functor]] $\widehat{F} : \hat{A} \to B$ making this triangle commute up to natural isomorphism:
+The result says: 
 
+**Theorem.** Given any small [[cocomplete category]] $B$, and any functor $F : A \to B$, there is a [[cocontinuous functor]] $\widehat{F} : \hat{A} \to B$ making this triangle commute up to natural isomorphism:
 $$
   \array{
      A &\stackrel{F}{\to}& B
      \\
-     F\downarrow & \nearrow_{\widehat{F}}
+     \downarrow_F & \nearrow_{\widehat{F}}
      \\
      \widehat{A}
   }
-  \,,
+  
 $$
-
 Moreover, $\widehat{F}$ is unique up to natural isomorphism.
 
-Our job is to understand how to construct this $\widehat{F}$.
+Our job is to understand how to construct this $\widehat{F}$.  But before we do that:
+
+* **Why do we care?**  We want to convert between two equivalent descriptions of profunctors.  We can think of a profunctor from a category $A$ to a category $B$ as a functor
+
+$$ G : A \to \widehat{B}$$
+
+or as a cocontinuous functor I'll call
+
+$$ \widehat{G} : \widehat{A} \to \widehat{B} $$
+
+Getting from $G$ to $\widehat{G}$ here is a special case of the above Theorem.  Getting from $\widehat{G}$ to $G$ is vastly easier, so I'll leave that as a little exercise.
+
+* **How should we think about this, intuitively?**  When we say $\widehat{A}$ is the 'free cocompletion' of the category $A$, it means we're freely throwing in colimits (and thus wrecking the old colimits $A$ may have had).  Since colimits are generalized 'sums', we can consider a decategorified analogue:
+
+**Theorem.** Given any set $A$, let $\tilde{A}$ be the free commutative monoid on $A$.   If $B$ is a commutative monoid, given any function $F : A \to B$, there is a monoid homomorphism $\tilde{F} : \hat{A} \to B$ making this triangle commute:
+$$
+  \array{
+     A &\stackrel{F}{\to}& B
+     \\
+     \downarrow_F & \nearrow_{\tilde{F}}
+     \\
+     \tilde{A}
+  }
+  
+$$
+Moreover, $\tilde{F}$ is unique up to natural isomorphism.
+
+The proof here is easy: elements of $\tilde{A}$ are formal sums of elements of $A$.  So, we define $\tilde{F}$ of a formal sum of elements of $A$ by applying $F$ to each of those elements and then adding the results in $B$.  Check that $\tilde{F}$ is a monoid homomorphism.  Check that it makes the diagram commute.  Check that it's unique.
 
 [[Urs Schreiber]]: By the way, there is a pretty good pedagogical and intuitive explanation of this from page 7 on of
 
