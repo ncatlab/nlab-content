@@ -1,0 +1,1 @@
+A functor is **cocontinuous** if it preserves small [[colimit|colimits]].
