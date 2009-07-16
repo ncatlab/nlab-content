@@ -49,3 +49,6 @@ _[[Toby Bartels|Toby]] says_: Rather than think about the category of fields, sh
 _[[John Baez|John]] says_: Unlike the category of fields, the category of vector spaces is not troublesome at all!  But there's no contradiction here.  When Eric wrote "fields are less than perfectly natural", he was being a bit vague.  Fields are wonderfully well-behaved rings, and rings form a wonderfully well-behaved category.  But the category of fields is not so nice.  As Toby notes, this is [[dichotomy between nice objects and nice categories|completely typical]].  So, if we fix a field and take the category of vector spaces over it, that category is wonderfully nice.
 
 I have a question.  This article says the category of fields is 'accessible', and it says that an accessible category is the category of models of a [[sketch]].  What sort of sketch does the job for fields.  They're not models of a finite limits theory, so I assume we also need some colimits in our sketch.  How does this work?   Which  constructive definition(s) of field do we use?
+
+
+_[[Gonçalo Marques]]The [[sketch]] for fields is describe on page 248 of "Category theory for computing science" by Michael Barr and Charles Wells (3rd edition). They use what they call "finite discrete sketches". It does have involve a cocone. 
