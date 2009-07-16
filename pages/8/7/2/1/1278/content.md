@@ -47,7 +47,8 @@ There are variations of this definition, with some technical differences in the 
  
   * higher circle [[bundle gerbe]]s with connection;
 
-* apart from that people studied mainly differential [[K-theory]]
+* apart from that people studied mainly 
+[[differential K-theory]]
 
 #Differential cohomology following Bunke-Schick#
 
