@@ -59,6 +59,8 @@ Getting from $G$ to $\widehat{G}$ here is a special case of the above Theorem.  
 
 **Exercise.**  Given a cocontinuous functor $\widehat{A} \to \widehat{B}$, explain how to get a functor $A \to \widehat{B}$.
 
+[[Mike Stay]]: Precompose with Y.
+
 **Exercise.**  Using the Theorem, show that going from 
 a functor $A \to \widehat{B}$ to a cocontinuous functor
 $\widehat{A} \to \widehat{B}$ gets you back where you started---at least up to natural isomorphism.  Also show that going from a cocontinuous functor
