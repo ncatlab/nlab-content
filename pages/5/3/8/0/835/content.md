@@ -8,3 +8,5 @@ Fix a meaning of $\infty$-[[infinity-groupoid|groupoid]], however weak or strict
 * globular [[strict 2-groupoid]]
 * [[weak 2-groupoid]]
 * [[homotopy 2-type]]
+
+[[!redirects 2-groupoids]]
