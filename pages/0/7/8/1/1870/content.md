@@ -61,3 +61,15 @@ shows that [[concordance]] classes in $\mathbf{H}^c(X,Vectr)$ yield twisted K-th
 This entry contains research ideas. 
 
 =--
+
+# References #
+
+The basic idea underlying this description of twisted bundles as homotopies from the gerbe to the trivial gerbe but inside a category of "2-vector bundles" was (apparently first?) presented around secton 3.2 of
+
+* Urs Schreiber, _Sections of 2-vector bundles_ ([pdf](http://www.math.uni-hamburg.de/home/schreiber/atd.pdf))
+
+A more refined description  of this is in section 4.4.3 _Twisted vector bundles_ of
+
+* U. Schreiber, [[Konrad Waldorf]], _Connections on non-abelian Gerbes and their Holonomy_ ([arXiv](http://arxiv.org/abs/0808.1923))
+
+The above formulation of the relevant homotopies evolved from the joint work mentioned at [[twisted cohomology]] and in particular from interaction with [[Thomas Nikolaus]].
