@@ -15,6 +15,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-17
 
+* [[Andrew Stacey]]
+
+  * Added an example at [[Froelicher space]] to show why it is not _locally_ cartesian closed.  It's a simple example, and I think it sheds some light on what actually changes when you go from an "input only" to a "balanced" category (using neither term in any technical sense, just in case they have any).
+
 * [[Urs Schreiber]]
 
   * started list of gauge fields at [[gauge theory]], so far I have
