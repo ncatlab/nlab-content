@@ -157,7 +157,12 @@ Lo and behold --- now we have a _formula_ for $\tilde{F}$.  So, we just need to 
 
 [[Eric]]: Will this also help us understand [[An Exercise in Kantization]]?
 
-[[John Baez]]:  I don't know and I don't really care.  I certainly don't want to talk about that stuff here!  But if you need to understand left Kan extensions or coends, you should find this Theorem good practice.  And if you're the sort of guy who likes vector spaces better than commutative monoids, you may prefer to understand the Theorem as a souped-up analogue of _this_:
+[[John Baez]]:  I don't know and I don't really care.  I certainly don't want to talk about that stuff here!  But if you need to understand left Kan extensions... 
+
+
+[[Urs Schreiber]]: at least the [[Yoneda extension]] that is being discussed here is a special case of a left [[Kan extension]]
+
+[[John Baez]] ...or coends, you should find this Theorem good practice.  And if you're the sort of guy who likes vector spaces better than commutative monoids, you may prefer to understand the Theorem as a souped-up analogue of _this_:
 
 **Decategorified Theorem.** Given any set $A$, let $\tilde{A}$ be the vector space with elements of $A$ as its basis, and let $y : A \to \tilde{A}$ be the obvious inclusion.  If $B$ is a vector space, given any function $F : A \to B$, there is a linear operator $\tilde{F} : \tilde{A} \to B$ making this triangle commute:
 $$
