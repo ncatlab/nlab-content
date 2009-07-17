@@ -187,6 +187,21 @@ $$\tilde{F}(x) = \tilde{F} (\sum c_i a_i) =
 
 Lo and behold --- now we have a _formula_ for $\tilde{F}$.  So, we just need to check some stuff.  Check that $\tilde{F}$ is well-defined.  Check that it's linear.  Check that it makes the diagram commute.  Check that it's unique.  All this is follow-your-nose stuff.
 
+[[Eric]]: Maybe this is _too_ pedestrian, but if we assume $A$ is finite and $B$ is finite dimensional, we can do this with matrices. Given $a_i\in A$, we have
+
+$$y(a_i) = \sum_j y_{ij} a_j\quad\text{and}\quad\tilde{F}\circ y(a_i) = \sum_i y_{ij} \tilde{F}(a_j) = \sum_{j,k} y_{ij} \tilde{F}_{jk} b_k.$$
+
+Also,
+
+$$F(a_i) = \sum_k F_{ik} b_k.$$
+
+If the triangle commutes, we have
+
+$$F_{ik} = \sum_j y_{ij} \tilde{F}_{jk}.$$
+
+Therefore, we can determine $\tilde{F}$ as long a $y$ has a right inverse (which the obvious inclusion does).
+
+
 ##Proving the theorem##
 
 Okay, let's stop fiddling around and try to prove the bloody Theorem:
