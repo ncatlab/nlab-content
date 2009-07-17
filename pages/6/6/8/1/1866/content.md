@@ -31,7 +31,7 @@ The concept can be found as example 2.10 in
 
 In the remainder of the article various further details of the differential cohomology of the RR field are discussed.
 
-The subtle self-duality conditions on [[differential cohomology|differential cocycles]] found in these [[string theory|string theoretic]] [[supergravity]] backgrouns was what led Hopkins and Singer to their foundational work on [[differential cohomology]]:
+The subtle self-duality conditions on [[differential cohomology|differential cocycles]] found in these [[string theory|string theoretic]] [[supergravity]] backgrounds was what led Hopkins and Singer to their foundational work on [[differential cohomology]]:
 
 * Hopkins, Singer, _Quadratic functions in geometry, topology,and M-theory_ ([arXiv](http://arxiv.org/abs/math/0211216))
 
