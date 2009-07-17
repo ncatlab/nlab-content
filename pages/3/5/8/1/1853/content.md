@@ -45,11 +45,11 @@ $$
   \,.
 $$
 
-## In abelian Cech cohomology ##
+## In abelian &#268;ech cohomology ##
 
-The cup product has a simple expression in abelian [[Cech cohomology]].
+The cup product has a simple expression in abelian [[Čech cohomology]].
 
-For $\alpha \in C(U,A_1)_\bullet$ and $\beta \in C(U,A_2)_\bullet$ two Cech cocycles with respect to the same cover $\{U_i \to X\}$ of $X$, their cup product is simply the cocycle in $C(U, A_1 \otimes A_2)$ given by
+For $\alpha \in C(U,A_1)_\bullet$ and $\beta \in C(U,A_2)_\bullet$ two &#268;ech cocycles with respect to the same cover $\{U_i \to X\}$ of $X$, their cup product is simply the cocycle in $C(U, A_1 \otimes A_2)$ given by
 
 $$
   (\alpha \cdot \beta)_{i_0, \cdots , i_{p + q}}
