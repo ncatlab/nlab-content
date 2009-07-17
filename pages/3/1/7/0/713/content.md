@@ -141,6 +141,8 @@ Lo and behold --- now we have a _formula_ for $\tilde{F}$.  So, we just need to 
 
 [[John Baez]]: No!  We're taking a set $A$ and freely throwing in sums to get the commutative monoid $\tilde{A}$.  This is like taking a category $A$ and freely throwing in colimits to get the cocomplete category $\widehat{A}$.   See?  There may be other fun things to do when our set was _already_ a commutative monoid, but they're not relevant to the analogy here.
 
+[[David Corfield]]: Oh I see. Though I wonder if prettier category theory would have you talk about the underlying sets of $\tilde{A}$ and $B$, and of commutative monoid morphism.
+
 ####Back to proving the theorem###
 
 Okay, now let's try to prove the actual Theorem:
