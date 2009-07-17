@@ -50,3 +50,6 @@ Another example is the definition of the category of $L_\infty$-[[Lie infinity-a
 for the definition in enriched category theory see page 12 of 
 
 * Kelly, _Basic concepts of enriched category theory_ ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
+
+
+[[!redirects opposite categories]]
