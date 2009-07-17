@@ -176,3 +176,4 @@ The generalization of this construction to non-torsion twists requires using [[v
 
 There the twisted cocycle equation discussed above appears on the bottom of page 7.
 
+[[!redirects twisted bundles]]
