@@ -17,6 +17,15 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]
 
+  * started list of gauge fields at [[gauge theory]], so far I have
+    * [[Yang-Mills field]]
+    * [[electromagnetic field]]
+    * [[Kalb-Ramond field]]
+    * [[supergravity C-field]]
+    * [[RR field]]
+
+  * puny start with [[Yang-Mills theory]] and [[Yang-Mills field]]
+
   * created [[twisted K-theory]] presenting it as a special case of the discussion at [[twisted cohomology]] -- feeling slightly uneasy about making this public, though, maybe later I get scared and remove that content again, or move it to my private web. Or else, you tell me how obvious and well-known this is, then I can leave it there without further worries.
 
   * created [[twisted bundle]] and [[bundle gerbe module]]
