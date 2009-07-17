@@ -20,7 +20,7 @@ Let $\mathbf{B}_{\otimes} Vectr$ be the [[delooping]] of $Vectr$ with respect to
 Then we have a [[fibration sequence]]
 
 $$
-  Vectr \simeq Vectr \to {*} \to \mathbf{B}_\otimes Vectr
+  Vectr \to {*} \to \mathbf{B}_\otimes Vectr
 $$
 
 of [[(infinity,1)-category|(infinity,1)-categories]] (instead of [[infinity-groupoid]]s).
