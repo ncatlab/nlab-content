@@ -272,6 +272,8 @@ and contains examples that are of interest in the wider context of [[string theo
 
   * occurence: Freed-Witten [[quantum anomaly|anomaly]] cancellation on [[nLab:brane|D-brane]]
 
+  * with slight variation: [[twisted K-theory]]
+
 * fibration sequence: $\mathbf{B}String(n) \to \mathbf{B} Spin(n) \stackrel{\frac{1}{2}p_1}{\to} \mathbf{B}^3 U(1)$
 
   * twisting cocycle: Chern-Simons 2-gerbe / [[supergravity C-field]];
