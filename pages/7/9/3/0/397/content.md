@@ -19,6 +19,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[Finn Lawler]]
 * [[Gabriel C Drummond-Cole]]
 * [[Geoff Cruttwell]]
+* [[Gonçalo Marques]]
 * [[Greg Egan]]
 * [[jdthomas|J. D. Thomas]]
 * [[Jacques Distler]]
