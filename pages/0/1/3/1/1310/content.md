@@ -23,15 +23,15 @@ there are essentially two fundamental ways to express the notion of
 
 1. as a morphism out of $Gr$: the [[action]];
 
-1. as a fibration over $Gr$: the [[action groupoid]].
+1. as a [[fibration sequence|fibration sequence]] over $Gr$: the [[action groupoid]].
 
 While essentially equivalent, it is noteworthy that the first definition
 naturally takes place in the context of not-necessarily smooth ($\infty$-)categories, 
 while the second one usually remains within the context of smooth ($\infty$)-groupoids: 
 
 namely for $G$ a Lie group, for definiteness and for simplicity, 
-with corresponding one-object Lie groupoid
-$\mathbf{B} G$, a linear representation in terms of an action morphisms is a [[functor]]
+with corresponding one-object [[Lie groupoid]]
+$\mathbf{B} G$ -- the [[delooping]] of the [[group]] $G$ --, a linear representation in terms of an action morphisms is a [[functor]]
 
 $$
   \rho : \mathbf{B} G \to Vect
@@ -46,7 +46,7 @@ $$
   \,.
 $$
 
-Every such functor $\rho$ induces a [[fibration]] $V//G \to \mathbf{B}G$ 
+Every such functor $\rho$ induces a [[fibration sequence]] $V//G \to \mathbf{B}G$ 
 over $\mathbf{B}G$, obtained as
 the [[pullback]] of the [[generalized universal bundle]]
 $Vect_* \to Vect$ along $\rho$
@@ -66,7 +66,7 @@ Here $V//G$ is the [[action groupoid]] of the [[action]] of $\rho$ on the
 representation vector space $V := \rho(\bullet)$, where $\bullet$ is the
 single object of $\mathbf{B}G$. This vector space, regarded as a [[discrete category]]
 on its underlying set, is the fiber of this fibration, so that the action gives
-rise to the fiber sequence
+rise to the [[fibration sequence|fiber sequence]]
 
 $$
   V \hookrightarrow V//G \to \mathbf{B}G
