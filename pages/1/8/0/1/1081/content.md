@@ -1,8 +1,36 @@
+# Idea #
+
+Under the [[Dold-Kan correspondence]] [[infinity-groupoid]]s with strict abelian group structure (modeled by [[Kan complex]]es that are [[simplicial object|simplicial]] abelian groups) are identified with non-negatively graded [[chain complex]]es of abelian groups
+
+$$
+  N_\bullet : SimpAb \stackrel{\simeq}{\to} Ch_+
+  \,.
+$$
+
+The **homology groups** of a [[chain complex]] of abelian groups are the image under this identification of the [[homotopy group]]s of the corresponding [[infinity-groupoid]]s. More details on this are at [[chain homology and cohomology]].
+
+
+So at least for the case of chain complexes of abelian groups we have the slogan
+
++-- {: .standout}
+
+**homology** = [[homotopy]] under [[Dold-Kan correspondence]]
+
+=--
+
+Of course historically the development of concepts was precisely the oppposite: chain homology is an old fundamental concept in [[homological algebra]] that is simpler to deal with than [[simplicial homotopy group]]. The computational simplification for chain complexes is what makes the [[Dold-Kan correspondence]] useful after all.
+
+But conceptually it is useful to understand homology as a special kind of [[homotopy]]. This is maybe most vivid in the [[duality|dual]] picture: [[cohomology]] derives its name from that fact that [[chain homology and cohomology]] are dual concepts. But later generalizations of [[cohomology]] to [[generalized (Eilenberg-Steenrod) cohomology]] and further to [[nonabelian cohomology]] showed that the restricted notion of homology is an insufficient dual model for cohomology: what cohomology is really dual to is the more general concept of [[homotopy]].  More on this is at [[cohomotopy]] and [[Eckmann-Hilton duality]].
+
+
 #Definition#
+
+The category of abelian groups is in particular an [[abelian category]].
+We can define [[chain complex]]es and their homology in any [[abelian category]] $C$. 
 
 Let $C$ be an [[abelian category]] and let
 $$
-  V^\bullet = ( \cdots  \to V_{n+1} \stackrel{\partial_n}{\to}
+  V_\bullet = ( \cdots  \to V_{n+1} \stackrel{\partial_n}{\to}
   V_n \stackrel{\partial_{n-1}}{\to}
   V_{n-1} \to \cdots
   )
@@ -48,6 +76,16 @@ $$
   \end{aligned}
 $$
 
-#Remarks#
 
-* If $H^n(V) \simeq 0$ then one says that the complex $V$ is [[exact sequence|exact]] in degree $n$.
+* If $H_n(V) \simeq 0$ then one says that the complex $V$ is [[exact sequence|exact]] in degree $n$.
+
+# Examples #
+
+In the special case that $C$ is the category of abelian groups, or of vector spaces, this definition reduces to the more familiar simpler statement:
+
+the $n$-th homology group of the [[chain complex]] $V_\bullet$ is the quotient group
+
+$$
+  H_n(V) = ker(\partial_n) / im(\partial_{n+1})
+  \,.
+$$
