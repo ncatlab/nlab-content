@@ -2,9 +2,19 @@
 
 A list of all recently edited entries can be seen here:
 
-* [Recently Revised](http://ncatlab.org/nlab/recently_revised).
+* [Recently Revised]().
 
 But that list tends to contain lots of minor changes: it's not easy to spot the important ones.
+
++-- {: .standout}
+
+Since we are currently experiencing problems with the server  whenever the _recently revised_ page is called, for the time being you are asked NOT to try to go to that page.
+
+Chances are that you won't get the page before end of the day anyway, and meanwhile the server performance suffers for all of us.
+
+We are in the process of migrating to a new host, which will hopefully do away with this problem. Meanwhile, it is all the more important that you drop a note here when you work on the $n$Lab, so that the rest of us has a chance of becoming aware of it.
+
+=--
 
 So, if you feel people's attention should be drawn to some changes you make, please mention them *here*.  That will help [[Contributors|the rest of us]] spot them, so we can learn what you know --- and maybe make further improvements!
 
@@ -14,6 +24,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 
 ## 2009-07-17
+
+* [[Urs Schreiber]]
+
+  * created [[refinement of a cover]]
+
+  * created [[groupoid of Lie-algebra valued forms]]
 
 * [[Andrew Stacey]]
 
