@@ -50,4 +50,6 @@ Bundle gerbe modules were apparently introduced in
 
 for modelling [[twisted K-theory]] by [[twisted bundle]]s.
 
+[[!redirects bundle gerbe modules]]
 [[!redirects gerbe module]]
+[[!redirects gerbe modules]]
