@@ -1,4 +1,4 @@
-Eckmann--Hilton duality is an abstract [[duality]] arising from arrow reversal in [[Top]]. It manifests itself in a duality between [[homotopy theory|homotopy]] and [[cohomology]].
+Eckmann--Hilton duality is an abstract [[duality]] arising from arrow reversal in [[Top]]. It manifests itself in a duality between [[homotopy theory|homotopy]] and [[cohomology]] and leads to the notion of [[cohomotopy]].
 
 One can see this in the fact that [[cohomology group]]s 
 (for [[Eilenberg-Mac Lane spectrum|ordinary cohomology]])
