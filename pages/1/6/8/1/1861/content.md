@@ -1,5 +1,5 @@
 
-The notion of [[cohomology]]  -- in its generalization beyond [[generalized (Eilenberg-Steenrod) cohomology]] to [[nonabelian cohomology]] -- is related by abstract [[duality]] to [[homotopy]].
+The notion of [[cohomology]]  -- in its generalization beyond [[generalized (Eilenberg-Steenrod) cohomology]] to [[nonabelian cohomology]] -- is related by abstract [[duality]] ([[Eckmann–Hilton duality]]?) to [[homotopy]].
 
 Therefore it does make sense to speak of general [[cohomology]] as **co-homotopy**.
 
