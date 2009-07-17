@@ -25,6 +25,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-17
 
+* [[David Corfield]]
+
+  * asked question of John's explanation at [[free cocompletion]].
+
 * [[Urs Schreiber]]
 
   * created [[refinement of a cover]]
