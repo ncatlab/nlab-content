@@ -47,7 +47,21 @@ Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as we
        [[Urs Schreiber]]: don't we need some extra assumption here? Otherwise why wouldn't this imply  that every space modeled on $\mathbb{R}^n$ is paracompact, while it is only the second-countable such that are?
 
        _Toby_:  Probably Brylinski has a requirement of metrisability or something.
+
+       [[Andrew Stacey]]: Consider a locally connected space $X$ whose connected components are paracompact.  As $X$ is locally connected, the connected components, say $\{X_\lambda\}$, are open.  Thus any open cover, say $\mathcal{U}$, of $X$ has a refinement by open sets, say $\mathcal{V}$, such that each $V \in \mathcal{V}$ is contained in some $X_\lambda$.  Thus we can write $\mathcal{V} = \coprod \mathcal{V}_\lambda$.  As each $X_\lambda$ is paracompact, each $\mathcal{V}_\lambda$ has a locally finite refinement, say $\mathcal{W}_\lambda$.  Then let $\mathcal{W} := \coprod \mathcal{W}_\lambda$.  As each $\mathcal{W}_\lambda$ is a refinement of the corresponding $\mathcal{V}_\lambda$, $\mathcal{W}$ is a refinement of $\mathcal{V}$, and hence of $\mathcal{U}$.  As each point of $X$ has a neighbourhood which meets only elements of _one_ of the $\mathcal{W}_\lambda$, and as that $\mathcal{W}_\lambda$ is locally finite, $\mathcal{W}$ is locally finite.  Thus $\mathcal{U}$ has a locally finite refinement.
+
+       More generally, the coproduct of paracompact spaces is again paracompact.
+
+       Spivak, in _A Comprehensive Introduction to Differential Geometry, I_ has an appendix on non-metrisable manifolds.  He starts (in the appendix) by defining a manifold to be a Hausdorff locally Euclidean space.  Then he proves that for any manifold $M$ TFAE:
+
+       1. Each component of $M$ is $\sigma$-compact.
+       2. Each component of $M$ is second countable.
+       3. $M$ is metrisable.
+       4. $M$ is paracompact.
+
+       The bit to highlight is the words "Each component of ..." in the first two.
        =--
+
 
 
 * metric spaces
