@@ -50,3 +50,6 @@ One of the earliest articles that make the differential cohomological nature of 
 
 which uses [[Cech cohomology]]-[[Deligne cohomology|Deligne]]-cocycles.
 
+
+[[!redirects Kalb--Ramond field]]
+[[!redirects Kalb–Ramond field]]
