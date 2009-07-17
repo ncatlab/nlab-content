@@ -22,3 +22,7 @@ A useful collection of introductory notes to fiber bundles, vector bundles and f
 
 
 [[!redirects fiber bundle]]
+[[!redirects fibre bundle]]
+[[!redirects bundles]]
+[[!redirects fiber bundles]]
+[[!redirects fibre bundles]]
