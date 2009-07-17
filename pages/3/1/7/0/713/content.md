@@ -81,7 +81,7 @@ Our job is to understand how to construct this $\widehat{F}$.
 
 But before we do that:
 
-####Why do we care?####
+##Why do we care?##
 
 There are many reasons why this theorem is important.  Mike Stay needs it to convert between two equivalent descriptions of [[distributor|profunctors]] from a category $A$ to a category $B$.  On the one hand, we can think of them as [[functor|functors]]
 
@@ -111,11 +111,11 @@ $\widehat{A} \to \widehat{B}$ to a functor $A \to \widehat{B}$ gets you back whe
 
 I don't think it requires any special knowledge to do it.   I could be wrong, but I have a feeling that the answer, or at least part of it, just writes itself.  You write down what you want, and what the Theorem says you know...
 
-####How should we think about this, intuitively?####
+##How should we think about this, intuitively?##
   
 When we say $\widehat{A}$ is the 'free cocompletion' of the category $A$, it means we're freely throwing in [[colimit]]s (and thus wrecking the old colimits $A$ may have had).  Since colimits are generalized 'sums', we can consider a [[decategorification|decategorified]] analogue:
 
-**Decategorified Theorem.** Given any set $A$, let $\tilde{A}$ be the free commutative monoid on $A$, and let $y : A \to \tilde{A}$ be the obvious inclusion.  If $B$ is a commutative monoid, given any function $F : A \to B$, there is a monoid homomorphism $\tilde{F} : \hat{A} \to B$ making this triangle commute:
+**Decategorified Theorem.** Given any set $A$, let $\tilde{A}$ be the free commutative monoid on $A$, and let $y : A \to \tilde{A}$ be the obvious inclusion.  If $B$ is a commutative monoid, given any function $F : A \to B$, there is a monoid homomorphism $\tilde{F} : \tilde{A} \to B$ making this triangle commute:
 $$
   \array{
      A &\stackrel{F}{\to}& B
@@ -144,15 +144,15 @@ Lo and behold --- now we have a _formula_ for $\tilde{F}$.  So, we just need to 
 
 [[David Corfield]]: Oh I see. Though I wonder if prettier category theory would have you talk about the underlying sets of $\tilde{A}$ and $B$, and of commutative monoid morphism.
 
-[[John Baez]]: Sure, in some gold-plated treatment it would be good to carefully distinguish between commutative monoids and their underlying categories, or cocomplete categories and their underlying categories.  That would be especially nice if we wanted to see 'free cocompletion' as some sort of [[monad]].  But I'm going for a lowbrow approach here; we can gold-plate it later.
+[[John Baez]]: You're right: in some gold-plated treatment it would be good to carefully distinguish between commutative monoids and their underlying categories, or cocomplete categories and their underlying categories.  That would be especially nice if we wanted to see 'free commutative monoid' or 'free cocompletion' as a of [[monad]].  But I'm going for a lowbrow approach here; we can gold-plate it later.  (I really want to get on with proving the Theorem, since doing so will force us to learn about coends.) 
 
-####But really: why should we care?####
+##But really: why should we care?##
 
 [[Eric]]: Will this also help us understand [[An Exercise in Kantization]]?
 
-[[John Baez]]:  I don't know and I don't really care.  I certainly don't want to talk about that stuff here!  But if you need to understand left Kan extensions or coends, you should find this Theorem helpful.  And if you're the sort of guy who understands vector spaces better than commutative monoids, you may prefer to understand this Theorem as a souped-up analogue of _this_:
+[[John Baez]]:  I don't know and I don't really care.  I certainly don't want to talk about that stuff here!  But if you need to understand left Kan extensions or coends, you should find this Theorem good practice.  And if you're the sort of guy who likes vector spaces better than commutative monoids, you may prefer to understand the Theorem as a souped-up analogue of _this_:
 
-**Decategorified Theorem.** Given any set $A$, let $\tilde{A}$ be the vector space with elements of $A$ as its basis, and let $y : A \to \tilde{A}$ be the obvious inclusion.  If $B$ is a vector space, given any function $F : A \to B$, there is a linear operator $\tilde{F} : \hat{A} \to B$ making this triangle commute:
+**Decategorified Theorem.** Given any set $A$, let $\tilde{A}$ be the vector space with elements of $A$ as its basis, and let $y : A \to \tilde{A}$ be the obvious inclusion.  If $B$ is a vector space, given any function $F : A \to B$, there is a linear operator $\tilde{F} : \tilde{A} \to B$ making this triangle commute:
 $$
   \array{
      A &\stackrel{F}{\to}& B
@@ -175,7 +175,7 @@ $$\tilde{F}(x) = \tilde{F} (\sum c_i a_i) =
 
 Lo and behold --- now we have a _formula_ for $\tilde{F}$.  So, we just need to check some stuff.  Check that $\tilde{F}$ is well-defined.  Check that it's linear.  Check that it makes the diagram commute.  Check that it's unique.  All this is follow-your-nose stuff.
 
-####Back to proving the theorem###
+##Proving the theorem##
 
 Okay, let's stop fiddling around and try to prove the bloody Theorem:
 
@@ -208,11 +208,13 @@ $$\widehat{F}(Y(x)) = F(x)$$
 1. We know that $\widehat{F}$ preserves colimits.
 1. We know that every object in $\widehat{A}$ is a colimit of guys in the image of $Y$.  (Such guys are called [[representable functor|representable]].)
 
-Maybe you don't actually _know_ fact 3, but it's true.  If you don't know why, it's about time to find out!
+Maybe you don't actually _know_ fact 3, but it's true.  If you don't know why, don't worry --- you'll soon find out!
 
-These three facts are already enough to determine $\widehat{F}$ on objects.   Do you see why?
+These three facts are already enough to determine $\widehat{F}$ on objects.   
 
-So $\widehat{F}$ is unique. 
+**Exercise:** Why?
+
+So $\widehat{F}$ is well on its way to being unique. 
 
 But why does $\widehat{F}$ exist?  For this it will really be good to have a _formula_ expressing every object in $\widehat{A}$ as a colimit of guys in the image of $Y$.  As a side-effect this will prove fact 3.  But even better: thanks to fact 2, this formula will yield a formula for $\widehat{F}$.  And a formula is the best way to prove existence.
 
