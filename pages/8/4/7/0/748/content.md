@@ -19,6 +19,9 @@ $$
 
 The slice category is a special case of a [[comma category]].
 
+There is a [[forgetful functor]] $U_c: \mathbf{C}/c \to \mathbf{C}$ which maps an object $f:X \to c$ to its domain $X$ and a morphism $g: X \to X' \in \mathbf{C}$ (from $f:X \to c$ to $f': X' \to c$ such that $f' \circ g = f$) to the morphism $g: X \to X'$.
+
+
 # Examples #
 
 * If $\mathbf{C} = \mathbf{P}$ is a [[partial order|poset]] and $p \in \mathbf{P}$, then the slice category $\mathbf{P}/p$ is the "principal ideal" $\downarrow (p)$ of elements $q \in \mathbf{P}$ with $q \leq p$. 
