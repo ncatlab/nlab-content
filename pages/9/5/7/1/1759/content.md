@@ -25,6 +25,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-17
 
+* [[John Baez]]
+
+  * wrote a lot more on [[free cocompletion]].  I hope other students of category theory, not just Mike Stay and David Corfield, ask questions or do some of the exercises!
+
 * [[David Corfield]]
 
   * asked question of John's explanation at [[free cocompletion]].
