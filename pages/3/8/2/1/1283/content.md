@@ -401,3 +401,5 @@ Taken from two blog posts:
 * Urs Schreiber, [Bundle Gerbes: General Idea and Definition](http://golem.ph.utexas.edu/category/2006/10/bundle_gerbes.html)
 
 * Urs Schreiber, [Bundle Gerbes: Connections and Surface Transport](http://golem.ph.utexas.edu/category/2006/10/bundle_gerbes_connections_and.html)
+
+[[!redirects bundle gerbes]]
