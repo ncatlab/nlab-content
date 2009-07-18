@@ -153,6 +153,8 @@ Lo and behold --- now we have a _formula_ for $\tilde{F}$.  So, we just need to 
 
 [[John Baez]]: You're right: in some gold-plated treatment it would be good to carefully distinguish between commutative monoids and their underlying categories, or cocomplete categories and their underlying categories.  That would be especially nice if we wanted to see 'free commutative monoid' or 'free cocompletion' as a of [[monad]].  But I'm going for a lowbrow approach here; we can gold-plate it later.  (I really want to get on with proving the Theorem, since doing so will force us to learn about coends.) 
 
+[[David Corfield]]: So there's an adjunction between the category of categories and the category of cocomplete categories (modulo size worries?). What would it need for there to be a pseudoadjunction? I would start a page on that, but how are naming conventions going in this area?
+
 ##But really: why should we care?##
 
 [[Eric]]: Will this also help us understand [[An Exercise in Kantization]]?
