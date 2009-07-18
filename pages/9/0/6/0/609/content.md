@@ -22,3 +22,5 @@ Any simplicially enriched groupoid yields a simplicial groupoid in which the fac
 *  A simplicially enriched groupoid having exactly one object is essentially the same as a [[simplicial group]]. Notationally however it is often important to distinguish a simplicial group form the corresponding single object simplicially enriched groupoid.
 
 *  Many constructions on simplicial groups, such as that of its [[Moore complex]] carry over to simplicialy enriched groupoids without difficulty.
+
+[[!redirects simplicial groupoids]]
