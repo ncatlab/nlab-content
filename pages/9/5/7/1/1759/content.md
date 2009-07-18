@@ -24,6 +24,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-17
 
+*  [[David Corfield]]: Added a comment at [[free cocompletion]], which got me looking for 'pseudoadjunction'.
+I would trigger a new page for it, but don't know optimal naming conventions.
+
 *  [[Tim Porter|Tim]]: I have started an entry on [[dg-quiver]].  I have paused because I cannot decide whether this is the right version to put there or whether to use Peter May's discussion in the talk that is linked to from that page.
 
 
