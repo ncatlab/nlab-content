@@ -16,7 +16,7 @@ For notice that
 
 * $Set = Sh(*)$ is simply the [[topos]] of [[sheaf|sheaves]] on a one-[[point]] [[topological space|space]].  
 
-* [[geometric morphism]]s $f : Sh(Y) \to Sh(X)$ between [[category of sheaves|sheaf topoi]] are in bijection with continmuous functions of topological spaces $f : Y \to X$ (denoted by the same letter, by convenient abuse of notation).
+* [[geometric morphisms]] $f : Sh(Y) \to Sh(X)$ between [[category of sheaves|sheaf topoi]] are in bijection with continmuous functions of topological spaces $f : Y \to X$ (denoted by the same letter, by convenient abuse of notation).
 
 It follows that for $E = Sh(X)$ points of $E$ in the sense of points of topoi are in bijection with the ordinary points of $X$.
 
@@ -52,7 +52,7 @@ The action of the [[direct image]] $x^* : Set \to Sh(X)$ and the [[inverse image
     \,.
   $$
 
-By definition of [[geometric morphism]]s, taking the stalk at $x$ is [[left adjoint]] to forming the skyscraper sheaf at $x$:
+By definition of [[geometric morphisms]], taking the stalk at $x$ is [[left adjoint]] to forming the skyscraper sheaf at $x$:
 
 for all $S \in Set$ and $A \in Sh(X)$ we have
 $$
@@ -70,7 +70,7 @@ On the other hand, if $E$ is the [[classifying topos]] of a [[geometric theory]]
 
 A [[topos]] is said to have **enough points** if isomorphy can be tested [[stalk]]wise.
 
-More precisely: if it is true that every morphism $f : A \to B$ such that for every point $p$ of the topos the morphism of [[stalk]]s $p^* f : p^* A \to p^* B$ is an isomorphism implies already that $f$ itself is an isomorphism.
+More precisely: if it is true that every morphism $f : A \to B$ such that for every point $p$ of the topos the morphism of [[stalks]] $p^* f : p^* A \to p^* B$ is an isomorphism implies already that $f$ itself is an isomorphism.
 
 
 ##Examples##
@@ -81,7 +81,7 @@ More precisely: if it is true that every morphism $f : A \to B$ such that for ev
 
   This is discussed for instance on p. 36 of 
 
-  * Dan Dugger, _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html))
+  * Dan Dugger, _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
 
   in the context of the [[model structure on simplicial presheaves]].
 
@@ -90,3 +90,5 @@ More precisely: if it is true that every morphism $f : A \to B$ such that for ev
 section 7.5 of 
 
 * MacLane Moerdijk, [[Sheaves in Geometry and Logic]]
+
+[[Note on Formatting|✄]]
