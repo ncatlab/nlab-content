@@ -262,10 +262,7 @@ formula expressing every object in $\widehat{A}$ as a colimit of guys in the ima
 
 This reference might also give helpful clues:
 
-* Daniel Dugger, _Sheaves and Homotopy Theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html))
-+--{.query}
-[[Eric]]: Could someone with dvi2pdf (or something) upload a pdf version of this? It looks interesting.
-=--
+* Daniel Dugger, _Sheaves and Homotopy Theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
 
 A pedagogical explanation of the universal property of the [[Yoneda embedding]] is given starting on page 7.
 On page 8 there's an explanation with lots of pictures how a presheaf is an "instruction for how to build a colimit".
