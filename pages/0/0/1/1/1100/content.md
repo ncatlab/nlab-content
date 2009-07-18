@@ -64,5 +64,7 @@ Section 6.1 of
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
 [[!redirects (infinity,1)-topoi]]
+[[!redirects (infinity,1)-toposes]]
 [[!redirects (∞,1)-topos]]
 [[!redirects (∞,1)-topoi]]
+[[!redirects (∞,1)-toposes]]
