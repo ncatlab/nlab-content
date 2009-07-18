@@ -39,6 +39,8 @@ I would trigger a new page for it, but don't know optimal naming conventions.
 
   * David: The worry was more about the name itself. I recall John Baez in TWF wishing to avoid the term pseudomonad, and I see [[2-monad]] covers various levels of weaknesses. Oh, I see we have [[lax 2-adjunction]].
 
+    * [[Eric]]: Would it make sense to add redirects for [[pseudoadjunction]] and [[pseudo-adjunction]] to [[lax 2-adjunction]]?
+
 * [[Tim Porter|Tim]]: I have started an entry on [[dg-quiver]].  I have paused because I cannot decide whether this is the right version to put there or whether to use Peter May's discussion in the talk that is linked to from that page.
 
 ## 2009-07-17
