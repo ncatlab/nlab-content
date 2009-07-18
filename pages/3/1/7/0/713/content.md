@@ -102,21 +102,29 @@ is a bit like trying to find an 'inverse' to precomposition with $Y$.  And that'
 
 But don't worry: I'm only mentioning this to intimidate you... err, I mean: to start getting you used to Kan extensions.  They're 'best possible approximations to the perhaps impossible task of finding an inverse to precomposition with a functor'.   But never mind!
 
-[[Mike Stay]]: So the real content of the theorem is saying that there's always a "best" one; I can imagine that in other situations, you might have a bunch of inequivalent approximations, none of which is better than all the others, and would need to make an arbitrary choice.
+[[Mike Stay]]: So the real content of the Theorem is saying that there's always a "best" one; I can imagine that in other situations, you might have a bunch of inequivalent approximations, none of which is better than all the others, and would need to make an arbitrary choice.
 
-Now, try this exercise:
+[[John Baez]]:  Yeah, for starters.  However, I must admit: the Theorem actually says a lot _more_ than the existence of a certain Kan extension.  A Kan extension would merely 'do its best' to make a triangle commute up to natural isomorphism.  In this particular case it actually _succeeds!_   But never mind!  I'm just trying to sneak certain ideas into your brain, so they'll quietly take root: I don't want to actually talk about them yet.
+
+Now, try these exercises:
 
 **Exercise.**  Using the Theorem, show that going from 
 a functor $A \to \widehat{B}$ to a cocontinuous functor
-$\widehat{A} \to \widehat{B}$ gets you back where you started---at least up to natural isomorphism.  
+$\widehat{A} \to \widehat{B}$ and then precomposing with $Y$ to get a functor $A \to \widehat{B}$ gets you back where you started---at least up to natural isomorphism.  
 
-[[Mike Stay]] Well, given any functor $F:A \to \widehat{B}$, you get from the theorem a cocontinuous functor $\widehat{F}:\widehat{A} \to \widehat{B}$ such that $\widehat{F} \circ Y$ is naturally isomorphic to $F$.
+[[Mike Stay]]: Well, given any functor $F:A \to \widehat{B}$, you get from the Theorem a cocontinuous functor $\widehat{F}:\widehat{A} \to \widehat{B}$ such that $\widehat{F} \circ Y$ is naturally isomorphic to $F$.
 
-Also show that going from a cocontinuous functor $\widehat{A} \to \widehat{B}$ to a functor $A \to \widehat{B}$ gets you back where you started---at least up to natural isomorphism.
+[[John Baez]]: Right, so we're back where we started, at least up to natural isomorphism.
 
-[[Mike Stay]] Call our given functor $\widehat{F}: \widehat{A} \to \widehat{B}$.  Precompose with $Y$ to get $\widehat{F} \circ Y: A \to \widehat{B}$.  Then the theorem gives us a cocontinuous functor $G: \widehat{A} \to \widehat{B}$ such that $G \circ Y$ is the best approximation to $\widehat{F} \circ Y$.  But this is $\widehat{F}$ itself--at least up to natural isomorphism.
+**Exercise.** 
+Also show that going from a cocontinuous functor $\widehat{A} \to \widehat{B}$ to a functor $A \to \widehat{B}$ and then using the Theorem to turn that back into a cocontinuous functor $\widehat{A} \to \widehat{B}$ 
+gets you back where you started---at least up to natural isomorphism.
 
-I don't think it requires any special knowledge to do it.   I could be wrong, but I have a feeling that the answer, or at least part of it, just writes itself.  You write down what you want, and what the Theorem says you know...
+[[Mike Stay]]: Call our given functor $\widehat{F}: \widehat{A} \to \widehat{B}$.  Precompose with $Y$ to get $\widehat{F} \circ Y: A \to \widehat{B}$.  Then the theorem gives us a cocontinuous functor $G: \widehat{A} \to \widehat{B}$ such that $G \circ Y$ is the best approximation to $\widehat{F} \circ Y$.  But this is $\widehat{F}$ itself--at least up to natural isomorphism.
+
+[[John Baez]]:  I don't think that's a proof.  First, I find the hand-waving about 'best approximations' a bit distracting---that's the kind of talk we use in explaining stuff, not proving stuff.  And it's not good to call the functor we start with $\widehat{F}$, since it's just any cocontinuous functor that someone handed us, not one we got from the Theorem.   If we fix these problems, we get something like this:  
+
+Start with any cocontinuous functor $G: \widehat{A} \to \widehat{B}$.  Precompose with $Y$ to get $G \circ Y: A \to \widehat{B}$.  Then go back using the Theorem, obtaining a cocontinuous functor $\widehat{G}: \widehat{A} \to \widehat{B}$ such that $\widehat{G} \circ Y$ is naturally isomorphic to $G \circ Y$.  We need to show that we got back where we started, up to natural isomorphism.  So, we need to show that $\widehat{G}$ is natural isomorphic to $G$.  What next?
 
 ##How should we think about this, intuitively?##
   
@@ -151,20 +159,17 @@ Lo and behold --- now we have a _formula_ for $\tilde{F}$.  So, we just need to 
 
 [[David Corfield]]: Oh I see. Though I wonder if prettier category theory would have you talk about the underlying sets of $\tilde{A}$ and $B$, and of commutative monoid morphism.
 
-[[John Baez]]: You're right: in some gold-plated treatment it would be good to carefully distinguish between commutative monoids and their underlying categories, or cocomplete categories and their underlying categories.  That would be especially nice if we wanted to see 'free commutative monoid' or 'free cocompletion' as a of [[monad]].  But I'm going for a lowbrow approach here; we can gold-plate it later.  (I really want to get on with proving the Theorem, since doing so will force us to learn about coends.) 
-
-[[David Corfield]]: So there's an adjunction between the category of categories and the category of cocomplete categories (modulo size worries?). What would it need for there to be a pseudoadjunction? I would start a page on that, but how are naming conventions going in this area?
+[[John Baez]]: You're right: in some gold-plated treatment it would be good to carefully distinguish between commutative monoids and their underlying categories, or cocomplete categories and their underlying categories.  That would be especially nice if we wanted to see 'free commutative monoid' or 'free cocompletion' as some sort of [[monad]].  But let's prove the Theorem first and gold-plate it later, in the section below called **Free cocompletion as a pseudomonad**.
 
 ##But really: why should we care?##
 
-[[Eric]]: Will this also help us understand [[An Exercise in Kantization]]?
+[[Eric]]: Will this Theorem also help us understand [[An Exercise in Kantization]]?
 
-[[John Baez]]:  I don't know and I don't really care.  I certainly don't want to talk about that stuff here!  But if you need to understand left Kan extensions... 
+[[John Baez]]:  I don't know and I don't really care.  I certainly don't want to talk about that stuff here!  But if you need to understand left Kan extensions or coends, you should find this Theorem good practice. 
 
+[[Urs Schreiber]]: At least the [[Yoneda extension]] that is being discussed here is a special case of a left [[Kan extension]].
 
-[[Urs Schreiber]]: at least the [[Yoneda extension]] that is being discussed here is a special case of a left [[Kan extension]]
-
-[[John Baez]] ...or coends, you should find this Theorem good practice.  And if you're the sort of guy who likes vector spaces better than commutative monoids, you may prefer to understand the Theorem as a souped-up analogue of _this_:
+[[John Baez]]: Okay, so maybe this class will help Eric.  But if Eric is the sort of guy who likes vector spaces better than commutative monoids, he may prefer to understand the Theorem as a souped-up analogue of _this_:
 
 **Decategorified Theorem.** Given any set $A$, let $\tilde{A}$ be the vector space with elements of $A$ as its basis, and let $y : A \to \tilde{A}$ be the obvious inclusion.  If $B$ is a vector space, given any function $F : A \to B$, there is a linear operator $\tilde{F} : \tilde{A} \to B$ making this triangle commute:
 $$
@@ -203,10 +208,13 @@ $$F_{ik} = \sum_j y_{ij} \tilde{F}_{jk}.$$
 
 Therefore, we can determine $\tilde{F}$ as long a $y$ has a right inverse (which the obvious inclusion does). In hindsight, it is obvious. If $\tilde{F}\circ y = F\implies \tilde{F} = F\circ y^{-1}$.
 
+[[John Baez]]: This is a slightly bizarre argument, but it can probably be rescued.  $F$ is not a linear operator: it's just a function from a set $A$ to a vector space $B$.  So, it's slightly bizarre to write down a _matrix_ for $F$ as you do above!  Nonetheless, if you think it about it, there's a perfectly sensible way to use a matrix to describe a function from a set to a vector space with a chosen basis.  And what the theorem is doing is using this matrix to define the linear operator $\tilde{F}$ from $\tilde{A}$ to $B$.
+
+And indeed, all these ideas have nice analogues in the categorified version---the Theorem I'm struggling to get Mike to understand!  If we live long enough, we'll see that profunctors are categorified matrices.  But maybe we should just prove the Theorem and then ponder the analogies further.   So....
 
 ##Proving the theorem##
 
-Okay, let's stop fiddling around and try to prove the bloody Theorem:
+Okay, now let's stop fiddling around and try to prove the bloody Theorem:
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -264,3 +272,51 @@ On page 8 there's an explanation with lots of pictures how a presheaf is an "ins
 Then on p. 9 the universal morphism that we are looking for here is identified as the one that "takes the instructions for building a colimit and actually _builds_ it".
 
 (This text, by the way, contains various other gems. A pity that it is left unfinished.)
+
+##Free cocompletion as a pseudomonad##
+
+[[David Corfield]]: So is this 'free cocompletion' part of  an adjunction between the category of categories and the category of cocomplete categories (modulo size worries?).
+Or should we think of it as part of a [[pseudoadjunction]] between _2-categories_?  (I would start a page on that, but how are naming conventions going in this area?)
+
+[[John Baez]]:  Equations between functors tends to hold only up to natural isomorphism.  So, your first guess should not be that there's an _adjunction_ between the _categories_ $Cat$ and $CocompleteCat$, but rather, a _pseudoadjunction_ between the _2-categories_ $Cat$ and $CocompleteCat$.   
+
+If this were true, what would it mean?  It would mean that there's a forgetful 2-functor:
+
+$$ U: CocompleteCat \to Cat $$
+
+together with a 'free cocompletion' 2-functor, which right now we've been calling 'hat':
+
+$$ F: Cat \to CocompleteCat $$
+$$  F: C \mapsto \widehat{C} = Set^{C^{op}}$$
+
+And, it would mean there's an equivalence of categories
+
+$$ hom_{CocompleteCat} (F C, D) \simeq
+   hom_{Cat} (C, U D)  $$
+
+for every $C \in Cat$, $D \in CocompleteCat$.  And fiinally, it would also be saying that this equivalence is [[pseudonatural transformation|pseudonatural]] as a function of $C$ and $D$.
+
+If we have a pseudonatural equivalence of categories
+
+$$ hom_{CocompleteCat} (F C, D) \simeq
+   hom_{Cat} (C, U D)  $$
+
+instead of a natural isomorphism of sets, then we say we have a 'pseudoadjunction' instead of an adjunction.   A pseudoadjunction is the right generalization of adjunction when we go to 2-categories; if we were feeling in a modern mood we might just say 'adjunction' and expect people to know we meant 'pseudo'.
+
+Anyway, it seems like we really _do_ have such a pseudoadjunction, at least _modulo size issues_---which unfortunately is sort of like saying "modulo truth"!  The problem is that if Cat is the 2-category of [[small category|small]] categories then to define the free cocompletion functor
+
+$$ F : Cat \to CocompleteCat $$
+
+we need $CocompleteCat$ to be the 2-category of [[large category|large]] categories.  But if $CocompleteCat$ is the 2-category of [[large category|large]] categories then to define 
+
+$$ U: CocompleteCat \to Cat $$
+
+we need $Cat$ to be the 2-category of large categories!   So, instead of an honest pseudoadjunction that bounces us back and forth between two 2-categories, the size keeps ratcheting up each time we make a round trip!
+
+In particular, if we try to define a [[pseudomonad]]
+
+$$ U F : Cat \to Cat $$
+
+we're stuck: the '$Cat$' at right contains larger categories than the one at left.
+
+In [their work on species](http://www.lacim.uqam.ca/~gambino/species.pdf), Fiore, Gambino, Hyland and Winskel had to confront this issue.  In one draft of this paper they had a very artful and sophisticated device for dealing with this size problem.  In the latest draft they seem to have sidestepped it entirely: you'll see they discuss the 'free symmetric monoidal category on a category' pseudomonad, but never the 'free cocomplete category on a category' pseudomonad, even though they _do_ use the $\widehat{C}$ construction all over the place.  Somehow they've managed to avoid the need to consider this construction as a pseudomonad!
