@@ -20,4 +20,6 @@ Pseudo Algebras](http://www.math.uchicago.edu/~fiore/1/fiorefolding.pdf)
 
 * John C. Baez, [An Introduction to n-Categories](http://arxiv. org/abs/q-alg/9705009)
 
+* Catsters, Double Categories ([YouTube](http://www.youtube.com/watch?v=kiCZiSA2W3Q&feature=channel_page))
+
 [[!redirects double categories]]
