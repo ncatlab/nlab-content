@@ -97,4 +97,6 @@ The second paragraph was just pointing out an example of how a lax adjunction ar
 
 +--{.query}
 [[Eric]]: Would it make sense to add redirects so that [[pseudoadjunction]] and [[pseudo-adjunction]] point to this page?
+
+_Toby_:  Perhaps for now, but what we really need is [[2-adjunction]], with those and [[strict 2-adjunction]] redirecting to it until and unless they get their own pages, and with [[2-adjunction]] linking here and to whichever other versions get their own pages.
 =--
