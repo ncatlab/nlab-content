@@ -12,7 +12,7 @@ For a long time only partial progress was made with formalizing the idea of exte
 
 * Eugenia Cheng and Nick Gurski, _Towards an $n$-category of cobordisms_ ([tac](http://www.tac.mta.ca/tac/volumes/18/10/18-10abs.html)) 
 
-Another formalization is by Marco Grandis, using [[multi-cospan]]s, see
+Another formalization is by Marco Grandis, using [[multi-cospans]], see
 
 * [[Cospans in Algebraic Topology]]
 
@@ -29,3 +29,5 @@ More recently
 This generalizes an idea which for $n=2$ was for instance also applied by Chris Schommer-Prier, see
 
 * [Schommer Pries on Classification of 2-Dimensional Extended TFTs](http://golem.ph.utexas.edu/category/2008/06/schommerpries.html)
+
+[[!redirects extended cobordisms]]
