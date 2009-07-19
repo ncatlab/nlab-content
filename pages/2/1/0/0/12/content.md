@@ -4,7 +4,7 @@ This is a timeline of category theory and related mathematics.  For discussion a
 #Timeline#
 |Year| |Contributors     | |Event|
 |----|-|-----------------|-|-----|
-|1848| |A. Cayley| |On the theory of elimination, Cambridge and Dublin Math. J. 3, 116-120, computations with complexes, Koszul resolutions, notion of exactness; main result: the resultant is a determinant of a Koszul complex|
+|1848| |Arthur Cayley<sup><a>http://ncatlab.org/nlab/show/Timeline+of+category+theory+and+related+mathematics#1</a></sup>| |Computations with complexes, Koszul resolutions, notion of exactness; main result: the resultant is a determinant of a Koszul complex.|
 |1890| |[[David Hilbert]]| |[[resolution of modules|resolution]] and free resolution of modules|
 |1890| |[[David Hilbert]]| |[[Hilbert syzygy theorem]]|
 |1893| |[[David Hilbert]]| |[[nullstellensatz|fundamental theorem of algebraic geometry]] also called Hilbert Nullstellensatz. It was later reformulated to: the category of [[affine variety|affine varieties]] over a field $k$ is equivalent to the [[opposite category|dual]] of the category of reduced finitely generated (commutative) $k$-[[associative unital algebra|algebras]]|
@@ -323,6 +323,9 @@ and for closely related timeline of homological algebra a comprehensive 40-page 
 
 * Charles Weibel, [A history of homological algebra](http://www.math.rutgers.edu/~weibel/HA-history.dvi)
 
+#References#
+1: On the theory of elimination, Cambridge and Dublin Math. J. 3, 116-120
+
 #Proposed Guidelines#
 Every entry should include:
 * A year
@@ -330,6 +333,10 @@ Every entry should include:
 * A very brief sketch of the new concept or result that was introduced by these authors.  This should include links to pages containing definitions of the technical terms that are used.  If such pages don't exist yet, we can include a link and create the page later.
 
 For historians and people writing bibliographies, it will be very helpful if there exists a _reference_ to any paper or book in which a concept or result was introduced.  However, we can put this information in the page for that concept or result.
++-- {: .query}
+Rafael: I propose to skip the 3 guidelines since everyone wants different guidelines and right now they are trivial.
+
+=--
 
 #Discussion#
 
