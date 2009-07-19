@@ -1,6 +1,6 @@
 ##Idea##
 
-As explained in that entry, '[[quiver]]' is often used to refer to a [[directed graph]], but, as is argued at that entry, this is almost always then used to derive the free category on the that directed graph. The notion of a differential graded quiver, as studied by Lyubashenko and Manzyuk (see reference below), is an enriched analogue of directed graph, enriched over the category of differential graded modules over a commutative ring $k$. (It only uses the underlying category in fact, not the tensor structure). It is introduced _precisely_ to define the analogue of the [[path category]] of a directed graph in this enriched context *but* the structure they define is in fact an [[A-infinity category| linear A-infinity category]].
+As explained in that entry, '[[quiver]]' is often used to refer to a [[directed graph]], but, as is argued at that entry, this is almost always then used to derive the free category on the that directed graph. The notion of a differential graded quiver, as studied by Lyubashenko and Manzyuk (see reference below), is an enriched analogue of directed graph, enriched over the category of differential graded modules over a commutative ring $k$. (It only uses the underlying category in fact, not the tensor structure). It is introduced _precisely_ to define the analogue of the [[path category]] of a directed graph in this enriched context *but* the structure they define is in fact a [[A-infinity category|linear A-infinity category]].
 
 
 
