@@ -55,6 +55,8 @@ In this sense, a cartesian monad is really *locally* cartesian.
   ([arXiv](http://arxiv.org/abs/math.CT/0305049)),
   section 4.1
 
+* [blog comment](http://golem.ph.utexas.edu/category/2009/07/the_monads_hurt_my_head_but_no.html#c025402)
+
 ## Discussion ##
 
 Here is some past discussion about the term 'cartesian'.
