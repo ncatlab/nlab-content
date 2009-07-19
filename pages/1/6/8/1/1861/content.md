@@ -9,5 +9,3 @@ This is part of the statement of the [[Dold-Kan correspondence]]: the [[nerve]] 
 So on general grounds the word "cohomotopy" is actually better suited than "cohomology" for a concept of such fundamental importance. 
 
 But the use of "cohomology" is deeply rooted in tradition and will hardly be changed just because the $n$Lab says so. Even though it should.
-
-[[Note on Formatting|✄]]
