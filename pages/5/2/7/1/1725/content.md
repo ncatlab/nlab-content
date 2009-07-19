@@ -11,3 +11,8 @@ Models include
 ##References#
 
 * [[Jacob Lurie]], _$(\infty,2)$-categories and the Goodwillie calculus_ ([arXiv](http://arxiv.org/abs/0905.0462))
+
+
+[[!redirects (infinity,2)-categories]]
+[[!redirects (∞,2)-category]]
+[[!redirects (∞,2)-categories]]
