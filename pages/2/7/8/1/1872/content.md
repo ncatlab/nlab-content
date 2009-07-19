@@ -33,3 +33,7 @@ As a [[nonabelian cohomology|nonabelian]] [[Cech cohomology|Cech cocycle]] the Y
 * For $U(n) = SU(2) \times U(1)$ this is the "electroweak field";
 
 * For $U(n) = SU(3) $ this is the strong nuclear force field.
+
+
+[[!redirects Yang--Mills field]]
+[[!redirects Yang–Mills field]]
