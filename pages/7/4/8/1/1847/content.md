@@ -1,7 +1,7 @@
 
 # Definition #
 
-A [[topological space]] $X$ is **paracompact** if every open [[cover]]ing $U$ has a [[refinement of a cover|refinement]] by an open covering $V$ that is _locally finite_, i.e. such that every point has a neighbourhood that intersects only finitely many open subsets in $V$ .
+A [[topological space]] $X$ is **paracompact** if every open [[cover]]ing $U$ has a [[refinement]] by an open covering $V$ that is _locally finite_, i.e. such that every point has a neighbourhood that intersects only finitely many open subsets in $V$ .
 
 Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as well; the issues here are the same as those for [[compact space]]s.  In particular, a __paracompactum__ is a paracompact Hausdorff space.
 
@@ -17,7 +17,7 @@ Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as we
 
 * manifolds
 
-  *  finite-dimensional manifolds are locally compact, but we also have some converses:
+  *  finite-dimensional manifolds are locally compact, so we have the results above, but we also have some converses:
 
      * a finite-dimensional Hausdorff topological [[manifold]] is paracompact precisely if it is [[metric space|metrizable]]
 
@@ -60,6 +60,8 @@ Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as we
        4. $M$ is paracompact.
 
        The bit to highlight is the words "Each component of ..." in the first two.
+
+       _Toby_:  Right, and I\'ve got the 'each component' clause in the section on finite-dimensional manifolds.  But how does this work for infinite-dimensional manifolds?  (I\'m also unsure how things work for non-Hausdorff manifolds, or more generally for non-Hausdorff locally compact spaces.
        =--
 
 
