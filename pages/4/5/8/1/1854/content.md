@@ -7,7 +7,7 @@ Roiter's theorem
 says: semi-free differential graded algebras are in bijective correspondence with [[coring]]s with a [[grouplike element]]:
 
 to an $A$-coring $(C,\Delta, A)$ with a grouplike element $g$ associate its [[Amitsur complex]] with underlying graded module $T_A(\Omega^1 A)=\oplus_{n=0}^\infty (\Omega^1 A)^{\otimes_A n}$ where $\Omega^1=ker\,\epsilon$
-and differential linearly extending the formulas $da = ga - ag$ for $a\in A$ and 
+and differential linearly extending the formulas $d a = g a - a g$ for $a\in A$ and 
 $$
 d c = g\otimes c + (-1)^n c\otimes g +\sum_{i=1}^n (-1)^i c_1\otimes\ldots\otimes c_{i-1}\otimes\Delta(c_i)\otimes c_{i+1}\otimes\ldots\otimes c_n
 $$
@@ -15,7 +15,7 @@ for $c=c_1\otimes_A\ldots\otimes_A c_n\in (ker\,\epsilon)^{\otimes_A n}$;
 
 conversely, to a semi-free dga $\Omega^\bullet A$ one associates the $A$-coring $A g\oplus\Omega^1 A$ where $g$ isa new group-like indeterminate; this is by definition a direct sum of left $A$-modules with a right $A$-module structure given by
 $$
-(a g +\omega)a' := a a' g + a da'+\omega a'.
+(a g +\omega)a' := a a' g + a d a'+\omega a'.
 $$
 In other words, we want the commutator $[g,a']=d\omega'$.
 We obtain an $A$-bimodule. The coproduct on $Ag\oplus\Omega^1 A$ is $\Delta(a g)=a g\otimes g$ and $\Delta(\omega)=
