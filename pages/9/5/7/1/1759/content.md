@@ -27,6 +27,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 Remember, _please_ do not visit **Recently Revised**. This innocuous action will bring the nLab to its knees for everyone. To search for something, Google is better anyway. 
 =--
 
+## 2009-07-19
+
+* [[Eric]]
+
+  * Wonders aloud at [[An Exercise in Kantization]] about reformulating things on a [[double category]] and relating it to a [Feynman checkerboard](http://en.wikipedia.org/wiki/Feynman_checkerboard) somehow. Maybe even getting back to relating it to [[Position, Velocity, and Acceleration]].
 
 ## 2009-07-18
 
