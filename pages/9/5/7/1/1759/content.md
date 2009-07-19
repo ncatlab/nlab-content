@@ -22,11 +22,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
-## 2009-07-18
 
 +-- {: .standout}
 Remember, _please_ do not visit **Recently Revised**. This innocuous action will bring the nLab to its knees for everyone. To search for something, Google is better anyway. 
 =--
+
+
+## 2009-07-18
 
 * [[Eric]]: Installed Cygwin so that I could convert Dugger's _Sheaves and Homotopy Theory_ from dvi to pdf. I uploaded the pdf to the nLab and added links to all references to the paper.
 
@@ -35,13 +37,16 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 * [[David Corfield]]: Added a comment at [[free cocompletion]], which got me looking for "pseudoadjunction".
 I would trigger a new page for it, but don't know optimal naming conventions.
 
-* [[Eric]]: Hi David. Now that we have redirects, you can feel less concerned about naming conventions. For example, if you start a page [[pseudoadjunction]] and people come out with pitchforks saying it should be [[pseudo-adjunction]], we now have the capability to simply change the page name. Better than that, we can add [[redirects]] so that both [[pseudoadjunction]] and [[pseudo-adjunction]] point to the same page and then it doesn't matter. People can use either one when linking to your page.
+  * [[Eric]]: Hi David. Now that we have redirects, you can feel less concerned about naming conventions. For example, if you start a page [[pseudoadjunction]] and people come out with pitchforks saying it should be [[pseudo-adjunction]], we now have the capability to simply change the page name. Better than that, we can add [[redirects]] so that both [[pseudoadjunction]] and [[pseudo-adjunction]] point to the same page and then it doesn't matter. People can use either one when linking to your page.
 
-  * David: The worry was more about the name itself. I recall John Baez in TWF wishing to avoid the term pseudomonad, and I see [[2-monad]] covers various levels of weaknesses. Oh, I see we have [[lax 2-adjunction]].
+    * David: The worry was more about the name itself. I recall John Baez in TWF wishing to avoid the term pseudomonad, and I see [[2-monad]] covers various levels of weaknesses. Oh, I see we have [[lax 2-adjunction]].
 
-    * [[Eric]]: Would it make sense to add redirects for [[pseudoadjunction]] and [[pseudo-adjunction]] to [[lax 2-adjunction]]?
+      * [[Eric]]: Would it make sense to add redirects for [[pseudoadjunction]] and [[pseudo-adjunction]] to [[lax 2-adjunction]]?
+
+        *  [[Toby Bartels]]:  We really need [[2-adjunction]]; that can link to more specialised pages or have more specialised titles redirected to it, as we find appropriate.
 
 * [[Tim Porter|Tim]]: I have started an entry on [[dg-quiver]].  I have paused because I cannot decide whether this is the right version to put there or whether to use Peter May's discussion in the talk that is linked to from that page.
+
 
 ## 2009-07-17
 
