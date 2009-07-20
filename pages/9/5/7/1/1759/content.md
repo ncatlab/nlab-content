@@ -32,6 +32,10 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 
 * [[Urs Schreiber]]: 
 
+  * thinking about it, I followed Zoran's suggestion and moved the entire "Idea" part that I had t-yped into [[K-theory]] to [[topological K-theory]] -- also the query box with the discussion is now there, and [[K-theory]] is once again just a link list...
+
+  * brief reply and question at [[K-theory]]: what is the big global picture on K-theory that deserves to be put in the first sentences of the "Idea" section and really captures the full topic? Is there even any?
+
   * have a question at [[essential image]]: we should consider the weak/homotopy version of the definition of limit as the equalizer of the cokernel pair of a morphism, is there any literature/knowledge about that?
 
   * quick reply to Toby at [[locally presentable category]]: I didn't mean to leave out the "locally", but now that we are at it: what's the point of saying "locally" here in the first place?
