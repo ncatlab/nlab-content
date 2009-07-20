@@ -128,6 +128,9 @@ Start with any cocontinuous functor $G: \widehat{A} \to \widehat{B}$.  Precompos
 
 (Hint: don't be afraid to get stuck and realize that you could get out of being stuck if you knew a certain Lemma which might also be useful for other things we're talking about below.)
 
+[[Mike Stay]] Well, we need to show that $G \circ Y \cong \widehat{G} \circ Y \Rightarrow G \cong \widehat{G}$.  The way you capitalized "Lemma" makes me think it must be the Yoneda Lemma you're talking about, but I'm not sure how to get the implication above from $\mbox{Nat}(\mbox{hom}(A, -), F) \cong FA$.
+
+
 ##How should we think about this, intuitively?##
   
 When we say $\widehat{A}$ is the 'free cocompletion' of the category $A$, it means we're freely throwing in [[colimit]]s (and thus wrecking the old colimits $A$ may have had).  Since colimits are generalized 'sums', we can consider a [[decategorification|decategorified]] analogue:
