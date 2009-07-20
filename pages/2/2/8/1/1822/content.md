@@ -48,4 +48,4 @@ Gavin Wraith posted a puzzle on the $n$Caf&#233; whose solution uses the fact th
 
 * [A Puzzle From Gavin Wraith](http://golem.ph.utexas.edu/category/2009/07/a_puzzle_from_gavin_wraith.html)
 
-Perhaps this fact is Dowker's Theorem?
+Perhaps this fact is [[Dowker's Theorem]]?
