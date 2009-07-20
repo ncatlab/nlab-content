@@ -30,6 +30,16 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 
 ## 2009-07-20
 
+*  [[Toby Bartels]]:
+   *  Moved some discussion on terminology from [[cartesian monad]] to [[locally cartesian category]].
+   *  Wrote [[locally cartesian category]], [[free monoid]], and [[identity monad]], all quite stubbily, because I linked to them from [[cartesian monad]].
+   *  Asked a question on terminology at [[locally presentable category]].
+   *  Wrote a brief **Idea** section at [[cartesian monad]] and made the previous one a **Motivation [...]** section.
+
+* [[Eric]]
+
+  * Asked what was probably a very silly question on [[presheaf]] in an attempt to complete an Exercise on [[free cocompletion]], i.e. "Find a formula expressing every object in $\widehat{A}$ as a colimit of guys in the image of $Y$."
+
 * [[Urs Schreiber]]:
 
   * created [[presentable category]] for questionable reasons
@@ -47,7 +57,6 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 * [[Eric]]
 
   * Added a small status update to efforts at [[An Exercise in Kantization]]
-  * Asked what was probably a very silly question on [[presheaf]] in an attempt to complete an Exercise on [[free cocompletion]], i.e. "Find a formula expressing every object in $\widehat{A}$ as a colimit of guys in the image of $Y$."
 
 ## 2009-07-19
 
