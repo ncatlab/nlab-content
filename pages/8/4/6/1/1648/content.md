@@ -44,7 +44,16 @@ Maybe we can start by skimming the paper and collecting some unfamiliar keywords
 * [Categorifying Fundamental Physics](http://math.ucr.edu/home/baez/diary/fqxi_narrative.pdf)
 
 #Open Questions#
-_(We'll pull out any outstanding questions from the discussion below to here in order to make life a little easier for would be angels who might be willing and able to help without forcing them to read the entire discussion.)_
+>(We'll pull out any outstanding questions from the discussion below to here in order to make life a little easier for would be angels who might be willing and able to help without forcing them to read the entire discussion.)
+
+No open questions at this time.
+
+#Discussion#
+>(Topics are separated by horizontal lines, with topics presented in reverse chronological order, i.e. the first section is the most recent.)_
+
+[[Eric]]: I've been reading (not exactly studying) Goldblatt and watching some Catster videos. I still feel like I am pretty far away from understanding [[Kan extension]]. John Baez is helping Mike Stay understand them on [[free cocompletion]], which might be helpful to anyone trying to understand Alm's paper.
+
+***
 
 _Eric_: "Let $\tilde{X}$ be the groupoid which has as objects pairs $(x,s)$, where $x\in M$ and $s\in\mathbf{R}$, and as morphisms $(x,s)\to(x',s')$ paths $\gamma:x\to x'\in\mathcal{P}_1(M)$ of proper time $\tau(\gamma)=s'-s$."
 
@@ -56,8 +65,8 @@ _Toby_:  Good point.  Especially since we\'re looking only at timelike (or light
 
 _[[Eric]]:_ I keep coming to back to the idea of reformulating this on a [[double category]] and relating it to a [Feynman checkerboard](http://en.wikipedia.org/wiki/Feynman_checkerboard) somehow. Maybe even getting back to relating it to [[Position, Velocity, and Acceleration]].
 
-#Discussion#
-_(Topics are separated by horizontal lines, with topics presented in reverse chronological order, i.e. the first section is the most recent.)_
+
+***
 
 _Eric_: As I read Alm's notes, I keep getting distracted thinking things like, "Why do they do that? What if they did this instead?" For example, why not
 
