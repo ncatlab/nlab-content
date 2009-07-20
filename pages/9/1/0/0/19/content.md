@@ -8,6 +8,11 @@ Category theory was invented by Samuel Eilenberg and Saunders Mac Lane in the 19
 
 * The theory of [[category|categories]] as [[essentially algebraic theory|essentially algebraic structures]] with several objects and a relation (morphism) "algebra" on these objects. Structures in ordinary [[algebraic theory|abstract algebra]], like [[monoid]]s, have only one object. This theory also include [[functor]]s between categories and [[natural transformation]]s.
 * The theory of categories as primitive mathematical [[universe]]s or [[space]]s (nothing as fancy as a [[topos]]).
+
++--{.query}
+Rafael: Preferrably as some 1D CW-complex that i am trying to figure out. Can someone fill that in.
+=--
+
 * A unifying tool and language in [[mathematics]].
 * A top-down [[foundations|foundation of mathematics]] (that is structural and more than just type theories).
 * An abstraction of an abstraction of an abstraction of .... The first level is [[set]]s and is most concrete. This is abstracted to categories (only some categories are categories of sets, hence the abstraction). The next abstraction is to categories of categories or more generally $2$-[[2-category|categories]]. This can be iterated to $n$-[[n-category|categories]] and [[infinity-category|indefinitely]]. This could be called the theory of abstractions.
@@ -57,6 +62,7 @@ For more on this and for the many different generalized sets see
 * Sets, categories and structuralism - Costas Drossos
 
 +--{.query}
+
 Rafael: I am a bit skeptical if to interpret ETAC as a set theory.
 
 _Toby_:  See [[set theory]] for the contrast between material and structural set theories.  See also [[foundation]]s; there may be some overlap between what you intend to write here and what is or should be there.
