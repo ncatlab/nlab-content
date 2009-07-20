@@ -417,6 +417,7 @@ $\mathcal{abcdefghijklmnopqrstuvwxyz}$
 
 [[∞-groupoid]]
 
+
 ***
 
 category: meta
