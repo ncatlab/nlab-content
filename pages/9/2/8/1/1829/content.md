@@ -520,7 +520,8 @@ This way [[homological algebra]] and [[abelian sheaf cohomology]]
 are realized as special cases of models for $\infty$-stacks:
 a complex of abelian sheaves presents a stably abelian $\infty$-stack.
 
-**Proposition**
++-- {: .un_prop}
+###### Proposition
 
 Under the [[Dold-Kan correspondence]] [[abelian sheaf cohomology]]
 identifies with the [[hom-set]] of the 
@@ -548,12 +549,15 @@ $$
   H^n(X,A) \simeq Ho_{SSh(X)}(X, \mathbf{B}^n A)
   \,.
 $$
+=--
 
-**Proof**
++-- {: .proof}
+###### Proof
 
 The original proof was given in [[BrownAHT]] in terms of the [[category of fibrant objects]] structure on locally Kan simplicial sheaves. 
 
 The analogous arguments in terms of the full injective model structure were  given by Jardine. See section 6 of his [lecture notes](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf).
+=--
 
 
 [[!redirects models for infinity-stack (infinity,1)-topoi]]
