@@ -33,3 +33,7 @@ There is a [[forgetful functor]] $U_c: \mathbf{C}/c \to \mathbf{C}$ which maps a
 
 
 [[!redirects slice category]]
+[[!redirects over categories]]
+[[!redirects over-category]]
+[[!redirects over-categories]]
+[[!redirects slice categories]]
