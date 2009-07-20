@@ -8,20 +8,24 @@ A **regular monomorphism** is a [[morphism]] which occurs as the [[equalizer]] o
 
 * In [[Top]], the monics are the injective functions, while the regular monics are the embeddings (that is, injective functions whose source has the topology induced from their target).
 
-+-- {: .query}
-[Wikipedia claims that it's the extremal monics that are the embeddings](http://en.wikipedia.org/wiki/Category_of_topological_spaces#Other_properties), and I have a simple proof which seems valid.  Can we clarify this?
-=--
+  +-- {: .query}
+  [Wikipedia claims that it's the extremal monics that are the embeddings](http://en.wikipedia.org/wiki/Category_of_topological_spaces#Other_properties), and I have a simple proof which seems valid.  Can we clarify this?
+
+  _Toby_:  Wikipedia also claims (in the very next line) that every extremal mono is regular (and the converse is automatic), so they are actually in agreement with us.
+  =--
 
 * In [[Grp]], the monics are (up to isomorphism) the inclusions of subgroups, while the regular monics are the inclusions of _normal_ subgroups.
 
-+--{.query}
-Should we be able to see this in terms of the expressivity of [[regular logic]]?
+  +--{.query}
+  Should we be able to see this in terms of the expressivity of [[regular logic]]?
 
-I don't think so... regular logic is, so far as I know, about regular _epimorphisms_ and _ordinary_ monomorphisms.
-=--
+  I don't think so... regular logic is, so far as I know, about regular _epimorphisms_ and _ordinary_ monomorphisms.
+  =--
 
 * In [[Ab]], or more generally any [[abelian category]], every monomorphism is regular.
+
 
 [[!redirects regular monomorphisms]]
 [[!redirects regular subobject]]
 [[!redirects regular subobjects]]
+[[!redirects regular mono]]
