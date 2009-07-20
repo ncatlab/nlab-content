@@ -30,6 +30,9 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 
 ## 2009-07-20
 
+*  [[David Corfield]]:
+   *  Carried out some tentative dualising at [[group homotopy]].
+
 *  [[Toby Bartels]]:
    *  Moved some discussion on terminology from [[cartesian monad]] to [[locally cartesian category]].
    *  Wrote [[locally cartesian category]], [[free monoid]], and [[identity monad]], all quite stubbily, because I linked to them from [[cartesian monad]].
