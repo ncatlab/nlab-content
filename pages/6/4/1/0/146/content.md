@@ -50,7 +50,7 @@ $$
   \,.
 $$
 +--{.query}
-[[Eric]]: Is there a missing "-" from the right hand side of the above equation?
+[[Eric]]: Is there a missing "-" from the right hand side of the above expression?
 =--
 To see this notice that for every $B \in [C^{op}, Set]$
 and using the property of the Hom we have
