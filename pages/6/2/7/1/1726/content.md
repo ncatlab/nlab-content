@@ -40,5 +40,8 @@ The definition is apparently due to the currently unpublished PhD thesis of Clar
 
 * [[Jacob Lurie]], [[On the Classification of Topological Field Theories]]
 
+A more detailed discussion of $(\infty,n)$-categories in terms of $n$-fold complete Segal spaces is in section 1 of
+
+* [[Jacob Lurie]], _$(\infty,2)$-Categories and the Goodwillie Calculus I_ ([arXiv](http://arxiv.org/abs/0905.0462))
 
 [[!redirects n-fold Segal space]]
