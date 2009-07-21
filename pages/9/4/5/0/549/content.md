@@ -23,3 +23,11 @@ It is clear from the construction that $a$ is in the left class of the weak fact
 One of the important conclusions of the small object argument is that it is functorial.  But since (in its ordinary form) the process does not "converge" (in the up-to-isomorphism sense) but rather is merely stopped when it has gone far enough along, for functoriality we have to take care to terminate the construction at the _same_ ordinal $\beta$ for every input.
 
 Additionally, in an [[enriched category|enriched]] situation, ideally one would like the factorizations to be an _enriched_ functor.  The version of the small object argument given above does not produce an enriched functor, since it takes coproducts over maps in an ordinary category.  It can be modified to produce an enriched functor by replacing these coproducts by [[copower]]s, but the resulting factorizations are only rarely homotopically well-behaved (in a model category, for instance).  One important special case when they are well-behaved is when all objects of the enriching category are cofibrant, as is the case for [[simplicial set]]s and for the [[folk model structure]] on [[Cat]].
+
+# References #
+
+a good quick reference is the first two pages of
+
+* Clark Barwick, _On (enriched) left Bousfield localization of model categories_ ([arXiv](http://arxiv.org/abs/0708.2067))
+
+also the appendix of [[Higher Topos Theory|HTT]].
