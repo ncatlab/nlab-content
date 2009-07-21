@@ -75,6 +75,9 @@ Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as we
 
 
        (Incidentally, since this query box is contained within a list, it's important that all paragraphs are indented properly, otherwise strange things happen)
+
+        [[David Roberts]]: When I said locally Euclidean, I was being lazy. I meant modelled on some vector space. And yes Lang does finite and infinite dimensions at the same time. Regarding the condition Brylinski uses, he says it implies that the image of $p_n : E \to H_n$ from the ILH space $E$ to each of the Hilbert spaces $H_n$ in the sequence is dense. I don't know how this is used, I'm relying on G00gle books.
+Ah, but now that I check, Lang also says _unless specified, vector space will mean finite dimensional vector space_ ...
        =--
 
 
