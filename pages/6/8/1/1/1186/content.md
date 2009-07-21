@@ -1,6 +1,6 @@
 # Idea #
 
-A _presentable $(\infty,1)$-category_ is, as the name suggests, an [[(∞,1)-category]] that can be conveniently "presented by simpler means".
+A _presentable $(\infty,1)$-category_ is, as the name suggests, an [[(∞,1)-category]] that can be conveniently "presented by simpler means". It is the analog of the notion of [[presentable catagory]] for ordinary categories.
 
 There is a wealth of equivalent ways to make precise what this means, which are listed below. The two most important ones are maybe the following:
 
@@ -77,8 +77,9 @@ This is equivalent to all of the following equivalent statements.
 
 # The (infinity,1)-category of presentable $(\infty,1)$-categories #
 
-(...)
+See
 
+* [[symmetric monoidal (infinity,1)-category of presentable (infinity,1)-categories]]
 
 # References #
 
@@ -89,7 +90,8 @@ This is the topic of section 5 and section A.3.7 of
 The long list of equivalent statements above is theorem 5.5.1.1., which is originally due to Carlos Simpson.
 
 
-The characterization in terms of simplicial model categories is proposition A.3.7.6.
+The characterization in terms of 
+[[combinatorial simplicial model category|combinatorial simplicial model categories]] is proposition A.3.7.6.
 
 [[!redirects presentable (infinity,1)-categories]]
 [[!redirects presentable (∞,1)-category]]
