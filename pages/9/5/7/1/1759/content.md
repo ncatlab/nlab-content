@@ -28,6 +28,15 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 =--
 ## 2009-07-21
 
+* [[Urs Schreiber]]
+
+  * added reference to Richard Garner's _Understanding the small object argument_ to [[small object argument]]
+
+  * created [[transfinite composition]]
+
+  * made at [[small object argument]] the theorem a formal theorem (with theorem environment and all), added a list of references and -- in the paragraph that is now right before the theorem -- tweaked the former assumptions a bit, which I guess were taken by [[Mike Shulman]] from Hovey's book. My impression is that in the "modern" literature the ambient category is assumed to be locally presentable -- but it would be great if an expert checked my modifications (see also the further literature that I list)
+
+
 * [[Andrew Stacey]] took the hint and started incorporating the discussion into the main thread at [[paracompact space]].
 
 * [[Urs Schreiber]]
