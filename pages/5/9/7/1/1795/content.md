@@ -1,7 +1,7 @@
 #Idea#
 
-The notion of _essential image_ is the generalization of the notion of [[image]] from a [[category theory|1-categorical]] to the 
-[[2-category|2-categorical]] context [[Cat]], i.e. to the image of [[functor]]s.
+The notion of _essential image_ is an adaptation of the notion of [[image]] from a [[category theory|1-categorical]] to the 
+[[2-category|2-categorical]] context [[Cat]], i.e. to the image of [[functor]]s. 
 
 
 
@@ -10,6 +10,10 @@ The notion of _essential image_ is the generalization of the notion of [[image]]
 
 (A concrete realization of)
 the __essential image__ of a [[functor]] $F: A\to B$ between [[category|categories]] or $n$-[[n-category|categories]] is the smallest [[replete subcategory]] of the target $n$-category $B$ containing the __image__ of $F$, which is in turn the smallest [[subcategory]] which contains all the $n$-cells which are strictly the images of $n$-cells in $A$.  Note that the property of belonging to the image is [[evil]]; of two [[equivalence|equivalent]] objects, one may belong while the other does not.  Passing to the essential image precisely removes this evil.
+
+_Zoran_: I disagree that it removes. Usual image in Set splits maps into epi onto image and mono into target.
+If in Cat one splits the functor into functor into image
+then the rest can be split into equivalence from image to essential image and a functor form essential image into final category which is fully faithful and replete. Repletness is a part which is still "evil".   
 
 Note that:
 
