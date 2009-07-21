@@ -14,6 +14,12 @@ Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as we
 
   * any [[second-countable space|second-countable]] [[locally compact space|locally compact]] Hausdorff space is paracompact;
 
+* paracompactness is preserved by disjoint union ([[coproduct]]).
+
+  +--{: .proof}
+  ###### Proof
+  Consider a disjoint union $X = \coprod X_\lambda$ whose components are paracompact.  As the union is disjoint, the components, that is to say, the $X_\lambda$, are open in $X$.  Thus any open cover, say $\mathcal{U}$, of $X$ has a refinement by open sets, say $\mathcal{V}$, such that each $V \in \mathcal{V}$ is contained in some $X_\lambda$.  Thus we can write $\mathcal{V} = \coprod \mathcal{V}_\lambda$.  As each $X_\lambda$ is paracompact, each $\mathcal{V}_\lambda$ has a locally finite refinement, say $\mathcal{W}_\lambda$.  Then let $\mathcal{W} := \coprod \mathcal{W}_\lambda$.  As each $\mathcal{W}_\lambda$ is a refinement of the corresponding $\mathcal{V}_\lambda$, $\mathcal{W}$ is a refinement of $\mathcal{V}$, and hence of $\mathcal{U}$.  As each point of $X$ has a neighbourhood which meets only elements of _one_ of the $\mathcal{W}_\lambda$, and as that $\mathcal{W}_\lambda$ is locally finite, $\mathcal{W}$ is locally finite.  Thus $\mathcal{U}$ has a locally finite refinement.
+  =--
 
 * manifolds
 
@@ -21,13 +27,11 @@ Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as we
 
      * a finite-dimensional Hausdorff topological [[manifold]] is paracompact precisely if it is [[metric space|metrizable]]
 
-     * a finite-dimensional [[connected space|connected]] Hausdorff topological manifold (actually, it can have up to [[countable set|countably]] many components) is paracompact precisely if it is [[second-countable space|second countable]]
-
      * a finite-dimensional Hausdorff topological manifold is paracompact precisely if each component is second-countable
 
    * infinite-dimensional manifolds are generally not locally compact, but we still have some results:
 
-     * The [[Frechet manifold]] of smooth loops of a compact finite dimensional manifold is paracompact 
+     * The [[Frechet manifold]] of smooth loops of a compact finite dimensional manifold is paracompact.
 
 
      * More generally, if $E$ is the sequential [[limit]] of separable Hilbert spaces $H_n$, such that the canonical projections
@@ -39,7 +43,7 @@ Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as we
          closure(p_n^{-1}(B)) = p_n^{-1}(closure(B))
        $$
 
-       for any open ball $B$ in $H_n$, then $E$ is paracompact, and furthermore admits _smooth_ partitions on unity. 
+       for any open ball $B$ in $H_n$, then $E$ is paracompact, and furthermore admits _smooth_ partitions of unity. 
 
        ( _Bry_ , section I.4)
 
@@ -49,8 +53,7 @@ Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as we
 
        _Toby_:  Probably Brylinski has a requirement of metrisability or something.
 
-       [[Andrew Stacey]]: Consider a locally connected space $X$ whose connected components are paracompact.  As $X$ is locally connected, the connected components, say $\{X_\lambda\}$, are open.  Thus any open cover, say $\mathcal{U}$, of $X$ has a refinement by open sets, say $\mathcal{V}$, such that each $V \in \mathcal{V}$ is contained in some $X_\lambda$.  Thus we can write $\mathcal{V} = \coprod \mathcal{V}_\lambda$.  As each $X_\lambda$ is paracompact, each $\mathcal{V}_\lambda$ has a locally finite refinement, say $\mathcal{W}_\lambda$.  Then let $\mathcal{W} := \coprod \mathcal{W}_\lambda$.  As each $\mathcal{W}_\lambda$ is a refinement of the corresponding $\mathcal{V}_\lambda$, $\mathcal{W}$ is a refinement of $\mathcal{V}$, and hence of $\mathcal{U}$.  As each point of $X$ has a neighbourhood which meets only elements of _one_ of the $\mathcal{W}_\lambda$, and as that $\mathcal{W}_\lambda$ is locally finite, $\mathcal{W}$ is locally finite.  Thus $\mathcal{U}$ has a locally finite refinement.
-
+       [[Andrew Stacey]]: 
        More generally, the coproduct of paracompact spaces is again paracompact.
 
        Spivak, in _A Comprehensive Introduction to Differential Geometry, I_ has an appendix on non-metrisable manifolds.  He starts (in the appendix) by defining a manifold to be a Hausdorff locally Euclidean space.  Then he proves that for any manifold $M$ TFAE:
