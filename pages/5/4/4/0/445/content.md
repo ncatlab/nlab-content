@@ -162,6 +162,11 @@ exists uniquely.
 
 * So if $C$ has finite limits and colimits and every morphism is a [[strict morphism]] we get an [[weak factorization system|epi-mono factorization]] of every morphism $f : c \to d$ through its image $\simeq$ coimage.
 
-* the [[higher category theory|higher category theoretical]] version of the notion of image is the [[essential image]] of a morphism.
+* there are various generalizations of the notion of image to [[higher category theory|higher categorical]] contexts
+
+  * in [[Cat]] there is the notion of [[essential image]] of a [[functor]]
+
+  * in a [[presentable (infinity,1)-category]] or [[model category]] there is the notion of [[homotopy image]].
+
 
 [[!redirects images]]
