@@ -23,6 +23,10 @@ An $(n,n)$-category is simply an $n$-[[n-category|category]]. An $(n,n+1)$-categ
 
 For low values of $n$, many of these notions coincide.  For instance, a $0$-[[0-groupoid|groupoid]] is the same as a $0$-[[0-category|category]], namely a [[set]].  And $(-1)$-[[(-1)-groupoid|groupoid]], $(-1)$-[[(-1)-category|category]], and $0$-[[0-poset|poset]] all mean the same thing (namely, a [[truth value]]) while $(-2)$-[[(-2)-groupoid|groupoid]], $(-2)$-[[(-2)-category|category]], and $(-1)$-[[(-1)-poset|poset]] likewise all mean the same thing (namely, the [[point]]).
 
+Of particular importance is the case where $n = \infty$. See 
+
+* [[(infinity,n)-category]] .
+
 # The periodic table
 
 There is a [[periodic table]] of $(n,r)$-categories:
