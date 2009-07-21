@@ -297,7 +297,20 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
 * [[category theory]]
 
+* [[presentable category]]
+
+* [[accessible category]]
+
+* [[weak factorization system]]
+
+* [[transfinite composition]]
+
+* [[small object argument]]
+
+
 * [[enriched category theory]]
+
+  * [[monoidal category]]
 
 
 ### Model categories ###
@@ -339,5 +352,10 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
   * [[localization of a simplicial model category]]
 
+  * [[Bousfield localization]]
+
+* [[combinatorial simplicial model category]]
+
+  * [[presentable (infinity,1)-category]]
 
 category: reference
