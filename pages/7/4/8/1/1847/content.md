@@ -39,7 +39,7 @@ Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as we
          closure(p_n^{-1}(B)) = p_n^{-1}(closure(B))
        $$
 
-       for any open ball $B$ in $H_n$, then $E$ is paracompact, and so is any manifold modelled on $E$. Such a manifold is called an _[[ILH-manifold]]_, $E$ is an _[[ILH-space]]_. In particular, [[Hilbert manifold|Hilbert manifolds]] are paracompact.
+       for any open ball $B$ in $H_n$, then $E$ is paracompact, and furthermore admits _smooth_ partitions on unity. 
 
        ( _Bry_ , section I.4)
 
@@ -62,6 +62,8 @@ Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as we
        The bit to highlight is the words "Each component of ..." in the first two.
 
        _Toby_:  Right, and I\'ve got the 'each component' clause in the section on finite-dimensional manifolds.  But how does this work for infinite-dimensional manifolds?  (I\'m also unsure how things work for non-Hausdorff manifolds, or more generally for non-Hausdorff locally compact spaces.
+
+[[David Roberts]]: Lang has the result that second countable manifolds are paracompact. For him manifold seems to mean that the space is Hausdorff and locally euclidean, with no restriction on the type of vector space. Further, smooth partitions of unity exist. This is Corollary 3.4 in the 2002 edition of _Introduction to differentiable manifolds_
        =--
 
 
@@ -104,7 +106,9 @@ Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as we
 
 * every paracompact finite-dimensional [[manifold]] has a [[partition of unity]]
 
-* For paracompact spaces, [[numerable open cover|numerable open covers]] are cofinal in all open covers.
+* For paracompact spaces, [[numerable open cover|numerable open covers]] are cofinal in all open covers (in $Top$).
+
+Care should be taken as to which category one constructs partitions of unity on paracompact spaces. For example, analytic partitions of unity generally do not exist on smooth (finite dimensional) manifolds, even when smooth ones do.
 
 ## cohomology of paracompact spaces ##
 
