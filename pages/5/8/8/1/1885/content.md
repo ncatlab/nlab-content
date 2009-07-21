@@ -2,6 +2,8 @@ The **Moore space** $M(G, n)$, where $G$ is an abelian group and $n \geq 1$, is 
 
 Co-Moore spaces are the [[Eckmann-Hilton duality|Eckmann-Hilton duals]] of [[Eilenberg-MacLane space|Eilenberg-MacLane spaces]]. 
 
+Just as there is a [[Postnikov tower|Postnikov decomposition]] of a space as a tower of fibrations, so there is a Moore decomposition as a tower of cofibrations.
+
 ###References###
 
 * Example 2.40 of Hatcher <a href="http://www.math.cornell.edu/~hatcher/AT/ATch2.pdf">Algebraic Topology</a>.
