@@ -44,6 +44,7 @@ Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as we
        ( _Bry_ , section I.4)
 
        +-- {: .query}
+
        [[Urs Schreiber]]: don't we need some extra assumption here? Otherwise why wouldn't this imply  that every space modeled on $\mathbb{R}^n$ is paracompact, while it is only the second-countable such that are?
 
        _Toby_:  Probably Brylinski has a requirement of metrisability or something.
@@ -63,7 +64,14 @@ Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as we
 
        _Toby_:  Right, and I\'ve got the 'each component' clause in the section on finite-dimensional manifolds.  But how does this work for infinite-dimensional manifolds?  (I\'m also unsure how things work for non-Hausdorff manifolds, or more generally for non-Hausdorff locally compact spaces.
 
-[[David Roberts]]: Lang has the result that second countable manifolds are paracompact. For him manifold seems to mean that the space is Hausdorff and locally euclidean, with no restriction on the type of vector space. Further, smooth partitions of unity exist. This is Corollary 3.4 in the 2002 edition of _Introduction to differentiable manifolds_
+       [[David Roberts]]: Lang has the result that second countable manifolds are paracompact. For him manifold seems to mean that the space is Hausdorff and locally euclidean, with no restriction on the type of vector space. Further, smooth partitions of unity exist. This is Corollary 3.4 in the 2002 edition of _Introduction to differentiable manifolds_
+
+       [[Andrew Stacey]] Surely "locally Euclidean" implies that the model space is $\mathbb{R}^n$.  Is this the book where he deals with finite and infinite dimensional manifolds all in one go?  In that case, I would caution that if I remember right (don't have the book in front of me) he's using manifolds modelled on at most Banach spaces.  For smooth partitions of unity to exist then you need to know that there is a smooth bump function, which hinges on some properties of the norm.  Kriegl and Michor (who else?) address this in chapter III of their book.  In particular, they quote a result due to Kurzweil (1954) that $C([0,1])$ and $\ell^1$ are not $C^1$-regular.
+
+       To Toby, I guess that the issue about components for infinite dimensional manifolds is dealt with in what I did before.  The question reduces to figuring out if a specific component is paracompact.  To use "metrisable implies paracompact" you've got to be on a Frechet manifold (since Frechet is the limit of metrisability).  Brylinski's construction outlined about is sufficient to ensure that (countable family of semi-norms).  To have smooth partitions of unity, you then need smoothly regular.  If the semi-norms are smooth (away from zero) then, obviously, that's sufficient.  In Brylinski's construction then that comes from the fact that the semi-norms are defined by Hilbertian norms.  I'm not sure what the condition on the closures is for, can anyone scan through the proof and see why they are used?  For the proof of paracompactness and partitions of unity then I don't see immediately why they are needed.  I expect I'm being [[dense]] but if someone could quickly enlighten me, I'd be grateful.
+
+
+       (Incidentally, since this query box is contained within a list, it's important that all paragraphs are indented properly, otherwise strange things happen)
        =--
 
 
