@@ -12,9 +12,18 @@ Note though that this duality does not hold perfectly in [[Top]]. For example, a
 
 -- [comment](http://golem.ph.utexas.edu/category/2008/09/mathematical_miniatures.html#c019103), [comment](http://eom.springer.de/E/e120020.htm), [comment](http://golem.ph.utexas.edu/category/2009/06/cohomology_and_homotopy.html#c024807).
 
-##Discussion##
 
-[blog](http://golem.ph.utexas.edu/category/2008/09/group_cocycles_and_simplices.html#c019087)
+
+
+#References#
+
+see 
+
+* Encyclopedia of Mathematics: [Eckmann-Hilton duality](http://eom.springer.de/E/e120020.htm)
+
+for more details and for more references
+
+Some blog disucssion is [here](http://golem.ph.utexas.edu/category/2008/09/group_cocycles_and_simplices.html#c019087)
 
 
 [[!redirects Eckmann–Hilton duality]]
