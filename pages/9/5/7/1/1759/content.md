@@ -30,6 +30,14 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 
 * [[Urs Schreiber]]
 
+  * added Jeff Smith's theorem to [[combinatorial model category]] and made [[Smith's theorem]] redirect to that
+
+  * added the Barwick reference also to [[Bousfield localization]], to [[combinatorial model category]] and to [[small object argument]]
+
+  * added an "Idea" section to [[essential image]], created subsections for different definitions and created one subsection with the definition of homotopy image as found in Clark Barwick's work and as kindly pointed out by [[John Baez]] on the blog [here](http://golem.ph.utexas.edu/category/2007/08/questions_about_modules.html#c025455)
+
+  * did some editing and have a discussion with [[David Corfield]] at [[group homotopy]]
+
   * added to [[folk model structure]] a sentence that these model structures present $(\infty,1)$-categories of the collection of the given $n$-categories, as part of a reply to [[Rafael Borowiecki]]'s question to the Cat-theory mailing list that I just posted
 
   * added to [[(infinity,n)-category]] the reference to Lurie's "Goodwillie"-article and a few remarks on some pertinent definitions there
