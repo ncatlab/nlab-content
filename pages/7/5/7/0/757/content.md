@@ -69,3 +69,9 @@ Bousfield localization appears as definition 3.3.1 in
 and as proposition A.3.7.3 in
 
 * [[Jacob Lurie]], [[Higher Topos Theory]] .
+
+The relation to [[localization of an (infinity,1)-category]] is also in [[Higher Topos Theory|HTT]], for the time being see the discussion at [[models for infinity-stack (infinity,1)-toposes]] for more on that.
+
+A detailed discussion of Bousfield localization also in the context of [[enriched model category|enriched model categories]] is in
+
+* Clark Barwick, _On (enriched) left Bousfield localization of model categories_ ([arXiv](http://arxiv.org/abs/0708.2067))
