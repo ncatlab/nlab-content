@@ -28,3 +28,5 @@ Milnor has argued that the category of spaces which are homotopy equivalent to C
 
 
 [[!redirects CW-complex]]
+[[!redirects CW complexes]]
+[[!redirects CW-complexes]]
