@@ -23,4 +23,14 @@ Often the term lax functor is often used for $n$-functors $F : C \to D$ whose do
 
    * Another special case arises when $D = \mathbf{B}V$ for some monoidal category $V$.  Then lax functors $F : C \to D$ are the same as categories enriched in the monoidal category $V$.  
 
+* It makes sense to ask that a functor is lax _and_ oplax in a compatible way such that ${*} \to D$ yields [[Frobenius algebra|Frobenius]] monads.
 
+  This is of relevance in [[conformal field theory]] where Frobenius algebra objects in [[modular tensor category|modular tensor categories]] and bimodules over them play a central role.
+
+  Some old remarks on this case are in [Note on lax functors and bimodules](http://www.math.uni-hamburg.de/home/schreiber/LaxFunc.pdf).
+
+  This relation between lax-oplax functors and [[conformal field theory]] was developed in detail in
+
+  * Liang Kong, Ingo Runkel, _Cardy algebras and sewing constraints, I_ ([arXiv](http://arxiv.org/abs/0807.3356))
+
+  A general discussion of lax-oplax functors is in section 2.1 there.
