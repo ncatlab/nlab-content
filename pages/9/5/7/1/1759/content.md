@@ -32,6 +32,8 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 
 * [[Urs Schreiber]]:
 
+  * added links and references to [[tricategory]]
+
   * worked on the _Idea_ section at [[category theory]]: I reformatted a bit the existing material, included lots of hyperlinks and filled in various  further bits, such as a paragraph that lists the fundamental classes of examples and the quote from Barry Mitchell that Todd just mentioned on the blog
 
     * I was surprised to find the entry in a much more developed and pleasant state than I remembered it -- maybe I missed the announcement here, or could it be that there was a major edit to the entry that wasn't logged here at Latest Changes? Please remember to alert us here.
