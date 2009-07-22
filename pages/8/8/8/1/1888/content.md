@@ -1,5 +1,11 @@
 
 
+# Idea #
+
+In the simplest case, the notion of _tensorial strength_ is a way to talk about when an [[endofunctor]] $T : V \to V$ of a [[closed monoidal category]] is a $V$-[[enriched functor]] when $V$ is regarded as being a $V$-[[enriched category]].
+
+# Description #
+
 
 The first thing to notice about (covariant) **tensorial strengths** is that they attach to a [[functor]] from a [[monoidal category]] to itself, say $T: V \to V$. (The concept doesn't make much immediate sense if $T$ is a functor between different monoidal categories.) 
 
