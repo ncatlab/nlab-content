@@ -32,6 +32,8 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 
 * [[Urs Schreiber]]
 
+  * slightly polsihed further at [[strong monad]] and removed the tentative-alert, now that [[Todd Trimble|Todd]] also approved of the statement
+
   * filled in a bit of text and some references at [[conformal field theory]]
 
   * added the notion of Frobenius lax-and-oplax functors to [[lax functor]] and provided pointers to their use in CFT
