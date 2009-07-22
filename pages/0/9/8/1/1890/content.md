@@ -8,18 +8,16 @@ A _strong monad_ over a [[monoidal category]] $V$ is a [[monad]] in the [[bicate
 +-- {: .un_defn}
 ###### Definition
 
-For $V$ a [[monoidal category]] a **strong monad** over $V$ is a [[monad]] in the [[2-category]] $V\text{-}Act$ of left $V$-[[actions]] on [[category|categories]] on the object $V$ itself.
+For $V$ a [[monoidal category]] a **strong monad** over $V$ is a [[monad]] 
+
+* in the [[2-category]] $V\text{-}Act$ of left $V$-[[actions]] on [[category|categories]] 
+
+* on the object $V$ itself.
 
 =--
 
 Here we regard $V$ as equipped with the canonical $V$-action on itself.
 
-
-+-- {: .standout}
-
-_Tentative_ -- This reformulation of the [standard definition](http://en.wikipedia.org/wiki/Strong_monad) is tentative. See the discussion referenced below
-
-=--
 
 ## Details ##
 
@@ -47,7 +45,7 @@ The strong monad, being a [[monad]] in this [[lax functor]] [[bicategory]] is gi
 
 By the general logic of [[(n,k)-transformation|(2,1)-transformations]] the components of $T$ are themselves a certain [[functor]].
 
-Then the [usual diagrams](http://en.wikipedia.org/wiki/Strong_monad) that specify a strong monoidal functor express
+Then the [usual diagrams](http://en.wikipedia.org/wiki/Strong_monad) that specify a strong monad
 
 
 * unitalness and functoriality of the component functor of $T$;
