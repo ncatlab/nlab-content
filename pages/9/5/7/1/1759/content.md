@@ -26,6 +26,18 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 +-- {: .standout}
 Remember, _please_ do not visit **Recently Revised**. This innocuous action will bring the nLab to its knees for everyone. To search for something, Google is better anyway. 
 =--
+
+
+## 2009-07-22
+
+*  [[Toby Bartels]]:
+   *  Tried to explain what sort of evil I meant at [[essential image]].
+   *  Boldly put the default notion (in the higher-dimensional case) first at [[replete subcategory]].
+   *  Edited the definition at [[transfinite composition]] to include the possibility that $\alpha = 0$ and also to allow the concept to be interepreted constructively.
+   *  Reply to Tom (Tom who?) at [[regular monomorphism]].
+   *  More discussion at [[locally presentable category]].
+
+
 ## 2009-07-21
 
 * [[Urs Schreiber]]
@@ -39,7 +51,6 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
   * created [[transfinite composition]]
 
   * made at [[small object argument]] the theorem a formal theorem (with theorem environment and all), added a list of references and -- in the paragraph that is now right before the theorem -- tweaked the former assumptions a bit, which I guess were taken by [[Mike Shulman]] from Hovey's book. My impression is that in the "modern" literature the ambient category is assumed to be locally presentable -- but it would be great if an expert checked my modifications (see also the further literature that I list)
-
 
 * [[Andrew Stacey]] took the hint and started incorporating the discussion into the main thread at [[paracompact space]].
 
@@ -80,6 +91,7 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 * [[David Roberts]]:
 
   * fixing up some statements at [[paracompact space]]. Added comment about existence partitions of unity being dependent on the category these will be constructed in.
+
 
 ## 2009-07-20
 
@@ -127,6 +139,7 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 
   * Added a small status update to efforts at [[An Exercise in Kantization]]
 
+
 ## 2009-07-19
 
 *  [[Toby Bartels]]:
@@ -146,6 +159,7 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 * [[Eric]]
 
   * Wonders aloud at [[An Exercise in Kantization]] about reformulating things on a [[double category]] and relating it to a [Feynman checkerboard](http://en.wikipedia.org/wiki/Feynman_checkerboard) somehow. Maybe even getting back to relating it to [[Position, Velocity, and Acceleration]].
+
 
 ## 2009-07-18
 
