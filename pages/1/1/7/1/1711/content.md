@@ -1,6 +1,6 @@
 ## Idea
 
-An $(n,j)$-transformation is an operation from one $n$-[[n-category|category]] $C$ to another $D$ that takes [[object]]s of $C$ to $j$-[[j-morphism|morphism]]s of $D$ in a coherent way.
+An $(n,k)$-transformation is an operation from one $n$-[[n-category|category]] $C$ to another $D$ that takes [[object]]s of $C$ to $k$-[[k-morphism|morphism]]s of $D$ in a coherent way.
 
 This is a common generalisation of $n$-[[n-functor|functor]]s (which are $(n,0)$-transformations), [[natural transformation]]s (which are $(1,1)$-transformations), [[modification]]s (which are $(2,2)$-transformations), and others.
 
@@ -9,13 +9,28 @@ This is a common generalisation of $n$-[[n-functor|functor]]s (which are $(n,0)$
 
 Once upon a time, there were [[categories]], [[functor]]s between them, and natural transformations between them.  Then when $n$-categories came along, people called the arrows between them '$n$-functors' even though one could just as easily say 'functors'.  In the same vein, people said '$n$-transformations'.  At the same time, we saw that we needed modifications between $2$-transformations, and that there would have to be things between higher modifications, and so on.
 
-Since we don\'t really need the prefix '$n$-' above except on 'category', we could drop that, then call use '$j$-transformation' for an element of the seris (category, functor, transformation, modification, ...).  Unfortunately, many people have not dropped the '$n$-', so this would conflict.  Therefore we reluctantly say '$(n,j)$-transformation' instead.
+Since we don\'t really need the prefix '$n$-' above except on 'category', we could drop that, then use '$j$-transformation' for an element of the seris (category, functor, transformation, modification, ...).  Unfortunately, many people have not dropped the '$n$-', so this would conflict with their usage of '$n$-transformation' (to mean $(n,1)$-transformation).  Therefore we reluctantly say '$(n,j)$-transformation' instead.
+
+
+## Special cases
+
+See this [[periodic table]] of $(n,k)$-transformations for common names for low values of $n$ and $k$.  In the Lab, we tend to omit the prefixes whenever possible.
+
+<table markdown="1"><tr><th>$k$&#8595;\$n$&#8594;</th><th>$-1$</th><th>$0$</th><th>$1$</th><th>$2$</th><th>$3$</th><th>...</th></tr>
+<tr><th>$0$</th><td>[[implication]]</td><td>[[function]]</td><td>[[functor]]</td><td>$2$-[[2-functor|functor]]</td><td>$3$-[[n-functor|functor]]</td><td>...</td></tr>
+<tr><th>$1$</th><td>trivial</td><td>[[equality]] of functions</td><td>[[natural transformation]]</td><td>$2$-transformation</td><td>$3$-transformation</td><td>...</td></tr>
+<tr><th>$2$</th><td>\"</td><td>trivial</td><td>equality of natural transformations</td><td>[[modification]]</td><td>$3$-modification</td><td>...</td></tr>
+<tr><th>$3$</th><td>\"</td><td>\"</td><td>trivial</td><td>equality of modifications</td><td>perturbation</td><td>...</td></tr>
+<tr><th>$4$</th><td>\"</td><td>\"</td><td>\"</td><td>trivial</td><td>equality of perturbations</td><td>...</td></tr>
+<tr><th>$5$</th><td>\"</td><td>\"</td><td>\"</td><td>\"</td><td>trivial</td><td>...</td></tr>
+<tr><th>&#8942;</th><td>\"</td><td>\"</td><td>\"</td><td>\"</td><td>\"</td><td>&#8945;</td></tr></table>
+
+Note that the [[source]] and [[target]] of an $(n,k)$-transformation are $(n,k-1)$-transformations.  Given fixed source and target, the $(n,k)$-transformations between them form an $(n-k)$-category.
 
 
 ## Discussion ##
 
 +-- {: .query}
-
 [[Finn Lawler|Finn]]: There is a pattern here: functors
 are indexed collections of objects, natural
 transformations are i.c.s of 1-cells, modifications i.c.s
@@ -107,7 +122,6 @@ satisfying certain naturality conditions (which ensure precisely that $\eta$ ext
 $
   \eta : X \to [G^k,Y]
 $). 
-
 =--
 
 
@@ -115,3 +129,8 @@ $).
 [[!redirects j-transformation]]
 [[!redirects k-transformation]]
 [[!redirects n-transformation]]
+[[!redirects (n,j)-transformations]]
+[[!redirects (n,k)-transformations]]
+[[!redirects j-transformations]]
+[[!redirects k-transformations]]
+[[!redirects n-transformations]]
