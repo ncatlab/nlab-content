@@ -29,3 +29,6 @@ When you get tired of thinking individually about $n$-categories, functors, tran
 
 [[Tom Leinster]], _Basic bicategories_,
 [arXiv](http://arxiv.org/abs/math/9810017).
+
+
+[[!redirects modifications]]
