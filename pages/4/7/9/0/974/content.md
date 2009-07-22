@@ -50,6 +50,8 @@ _Toby_:  The only thing that I can think of offhand is to distinguish from [[alg
 [[Urs Schreiber]]: I have changed the wording in the first sentence now.
 
 _Toby_:  OK.  Is there any reason for having [[presentable category]] separate now?  (Or not to move this to [[presentable category]]?)
+
+Incidentally, how related is an equationally presented category?  It seems to me not much ....
 =--
 
 
