@@ -32,6 +32,8 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 
 * [[Urs Schreiber]]:
 
+  * created [[strong monad]]
+
   * created [[lax functor]] 
 
     * added to [[monad]] the statement that a monad in $B$ is a lax functor ${*} \to B$
