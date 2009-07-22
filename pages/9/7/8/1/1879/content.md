@@ -1,3 +1,3 @@
-see [[locally presentable category]]
+See [[locally presentable category]].
 
-category: delete
+category: redirect
