@@ -48,3 +48,5 @@ I am wondering if we will need the notion of action which works in categories wi
 Yes, I think certainly all those types of action should eventually be described somewhere, possibly on this page.  -Mike
 
 =--
+
+[[!redirects actions]]
