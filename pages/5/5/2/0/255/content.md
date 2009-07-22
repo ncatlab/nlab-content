@@ -65,9 +65,18 @@ Some monads arise from [[operad]]s, in which case algebras for the monad are the
 
 ##References#
 
+Five short videotaped lectures:
+
+* The Catsters, [Monads](http://www.youtube.com/view_play_list?p=0E91279846EC843E).
+
 Introductory slides:
 
-* John Baez, [Universal Algebra and Diagrammatic Reasoning](http://math.ucr.edu/home/baez/universal/universal_hyper.pdf)
+* John Baez, [Universal Algebra and Diagrammatic Reasoning](http://math.ucr.edu/home/baez/universal/universal_hyper.pdf).
+
+Book (recall that monads are also called 'triples'):
+
+* Michael Barr and Charles Wells, [Toposes, Triples and Theories](http://www.cwru.edu/artsci/math/wells/pub/ttt.html).
+
 
 
 [[!redirects algebra of a monad]]
