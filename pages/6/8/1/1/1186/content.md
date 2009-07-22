@@ -1,6 +1,6 @@
 # Idea #
 
-A _presentable $(\infty,1)$-category_ is, as the name suggests, an [[(∞,1)-category]] that can be conveniently "presented by simpler means". It is the analog of the notion of [[presentable catagory]] for ordinary categories.
+A _presentable $(\infty,1)$-category_ is, as the name suggests, an [[(∞,1)-category]] that can be conveniently "presented by simpler means". It is the analog of the notion of [[presentable category]] for ordinary categories.
 
 There is a wealth of equivalent ways to make precise what this means, which are listed below. The two most important ones are maybe the following:
 
