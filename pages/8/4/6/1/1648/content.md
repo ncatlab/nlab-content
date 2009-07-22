@@ -46,7 +46,7 @@ Maybe we can start by skimming the paper and collecting some unfamiliar keywords
 #Open Questions#
 >(We'll pull out any outstanding questions from the discussion below to here in order to make life a little easier for would be angels who might be willing and able to help without forcing them to read the entire discussion.)
 
-No open questions at this time.
+[[Eric]]: What is a "component of a cocone"?
 
 #Discussion#
 >(Topics are separated by horizontal lines, with topics presented in reverse chronological order, i.e. the first section is the most recent.)_
