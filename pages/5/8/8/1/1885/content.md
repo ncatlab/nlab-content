@@ -2,10 +2,13 @@ The **Moore space** $M(G, n)$, where $G$ is an abelian group and $n \geq 1$, is 
 
 Co-Moore spaces are the [[Eckmann-Hilton duality|Eckmann-Hilton duals]] of [[Eilenberg-MacLane spaces]]. 
 
+According to Baues, Moore spaces are $H \pi-duals$ to Eilenberg-MacLane spaces. This leads to an extensive duality for connected CW-complexes.
+
 Just as there is a [[Postnikov decomposition]] of a space as a tower of fibrations, so there is a [[Moore decomposition]] as a tower of cofibrations.
 
 ###References###
 
 * Example 2.40 of Hatcher <a href="http://www.math.cornell.edu/~hatcher/AT/ATch2.pdf">Algebraic Topology</a>.
 * Golasi&nacute;ski and Gon&ccedil;alves, [On Co-Moore Spaces](http://www.mscand.dk/article.php?id=146)
+* H. J. Baues, Homotopy types, in Handbook of Algebraic Topology, (edited by I.M. James), North Holland, 1995.
 
