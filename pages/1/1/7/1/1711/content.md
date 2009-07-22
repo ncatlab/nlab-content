@@ -19,6 +19,15 @@ Do you now a good modern account to these things?
 _Toby_ replies:  Yes, a natural transformation between $2$-categories *does* also include a map $Mor C \to Mor_2 D$ as you guessed; more precisely, the naturality square is filled by a $2$-morphism instead of by an equality.  In your study of *strict* $2$-categories, however, you probably don\'t notice this, because this $2$-morphism is required to be an [[identity morphism|identity]] in a *strict* natural transformation.  (See [[lax natural transformation]] for the more general concept of transformation between *weak* $2$-categories.)  Also, I\'ve added a note about what happens to the $j$-morphisms in general.
 
 Hopefully, Urs will chime in with a reference for his comments in the ##Discussion## below, or else tell us that it was original research.  I don\'t know a reference myself.
+
+[[Urs Schreiber]]: what I write in the discussion below is not original research but "well known", though as it goes with well known things, they can still be pretty little known.
+
+For the case of strict globular $n$-categories this is all in the work of Sjoerd Crans that is referenced at [[Crans-Gray tensor product]]. But that's a admittedly bit hard to read if one is just interested in understanding this for 2-categories. We should spell that case out here in full detail.
+
+For the simplicial case, by the way, this is even simpler and even more well known. I mean the internal hom for simplicial sets. And that produces the right hom-objects for most all [[geometric definition of higher category]], certainly for [[quasicategory|quasicategories]].
+
+As a references for strict 2-functors etc. you have to excuse me if the appendix of [this](http://arxiv.org/PS_cache/arxiv/pdf/0802/0802.0663v2.pdf#page=60) comes to my mind first. That at least is guaranteed to have the pictures that we are looking for in the context of the present discussion.
+
 =--
 
 
