@@ -14,7 +14,7 @@ Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as we
 
   * any [[second-countable space|second-countable]] [[locally compact space|locally compact]] Hausdorff space is paracompact;
 
-* paracompactness is preserved by disjoint union ([[coproduct]]).
+* paracompactness is preserved by [[disjoint union]] ([[coproduct]]).
 
   +--{: .proof}
   ###### Proof
@@ -48,7 +48,6 @@ Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as we
        ( _Bry_ , section I.4)
 
        +-- {: .query}
-
        [[Urs Schreiber]]: don't we need some extra assumption here? Otherwise why wouldn't this imply  that every space modeled on $\mathbb{R}^n$ is paracompact, while it is only the second-countable such that are?
 
        _Toby_:  Probably Brylinski has a requirement of metrisability or something.
@@ -73,11 +72,10 @@ Often one requires a paracompact space to be [[Hausdorff space|Hausdorff]] as we
 
        To Toby, I guess that the issue about components for infinite dimensional manifolds is dealt with in what I did before.  The question reduces to figuring out if a specific component is paracompact.  To use "metrisable implies paracompact" you've got to be on a Frechet manifold (since Frechet is the limit of metrisability).  Brylinski's construction outlined about is sufficient to ensure that (countable family of semi-norms).  To have smooth partitions of unity, you then need smoothly regular.  If the semi-norms are smooth (away from zero) then, obviously, that's sufficient.  In Brylinski's construction then that comes from the fact that the semi-norms are defined by Hilbertian norms.  I'm not sure what the condition on the closures is for, can anyone scan through the proof and see why they are used?  For the proof of paracompactness and partitions of unity then I don't see immediately why they are needed.  I expect I'm being [[dense]] but if someone could quickly enlighten me, I'd be grateful.
 
-
        (Incidentally, since this query box is contained within a list, it's important that all paragraphs are indented properly, otherwise strange things happen)
 
-        [[David Roberts]]: When I said locally Euclidean, I was being lazy. I meant modelled on some vector space. And yes Lang does finite and infinite dimensions at the same time. Regarding the condition Brylinski uses, he says it implies that the image of $p_n : E \to H_n$ from the ILH space $E$ to each of the Hilbert spaces $H_n$ in the sequence is dense. I don't know how this is used, I'm relying on G00gle books.
-Ah, but now that I check, Lang also says _unless specified, vector space will mean finite dimensional vector space_ ...
+       [[David Roberts]]: When I said locally Euclidean, I was being lazy. I meant modelled on some vector space. And yes Lang does finite and infinite dimensions at the same time. Regarding the condition Brylinski uses, he says it implies that the image of $p_n : E \to H_n$ from the ILH space $E$ to each of the Hilbert spaces $H_n$ in the sequence is dense. I don't know how this is used, I'm relying on G00gle books.
+       Ah, but now that I check, Lang also says _unless specified, vector space will mean finite dimensional vector space_ ...
        =--
 
 
