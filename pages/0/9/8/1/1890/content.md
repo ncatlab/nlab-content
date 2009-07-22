@@ -1,14 +1,14 @@
 
 #Idea#
 
-A _strong monad_ over a [[monoidal category]] $V$ is a [[monad]] in the [[bicategory]] of $V$-[[action]]s.
+A _strong monad_ over a [[monoidal category]] $V$ is a [[monad]] in the [[bicategory]] of $V$-[[actions]].
 
 # Definition #
 
 +-- {: .un_defn}
 ###### Definition
 
-For $V$ a [[monoidal category]] a **strong monad** over $V$ is a [[monad]] in the [[2-category]] $V\text{-}Act$ of left $V$-[[action]]s on [[category|categories]] on the object $V$ itself.
+For $V$ a [[monoidal category]] a **strong monad** over $V$ is a [[monad]] in the [[2-category]] $V\text{-}Act$ of left $V$-[[actions]] on [[category|categories]] on the object $V$ itself.
 
 =--
 
@@ -29,7 +29,7 @@ $$
   V\text{-}Act \simeq Lax2Funct(\mathbf{B}V, Cat)
   \,,
 $$
-where on the right we have the2-category of [[lax functor|lax 2-functor]]s from $\mathbf{B}V$ to [[Cat]], lax [[natural transformation]]s of and [[modification]]s.
+where on the right we have the2-category of [[lax functor|lax 2-functors]] from $\mathbf{B}V$ to [[Cat]], lax [[natural transformations]] of and [[modifications]].
 
 The category $V$ defines a canonical functor $\hat V : \mathbf{B}V \to Cat$.
 
@@ -37,7 +37,7 @@ The strong monad, being a [[monad]] in this [[lax functor]] [[bicategory]] is gi
 
 * a lax [[natural transformation]] $T : \hat V \to \hat V$;
 
-* [[modification]]s 
+* [[modifications]] 
 
   * unit: $\eta : Id_V \Rightarrow T$ 
 
