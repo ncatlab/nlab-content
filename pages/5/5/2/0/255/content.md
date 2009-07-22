@@ -36,6 +36,9 @@ $
 
   * $\mu$ is unital with respect to $i$ in the obvious sense.
 
+This can be encoded as saying that
+
+* A monad is a [[lax functor]] ${*} \to B$ from the [[point]] to $B$.
 
 ##Remarks##
 
@@ -62,6 +65,10 @@ Given that a monad in $B$ is nothing but a [[monoid]] in a hom-category $B(a,a)$
 In a Cat-like bicategory, left modules over a monad are usually called _algebras over the monad_.  This terminology is confusing from the point of view of monads as monoids, but is justified because in [[Cat]] itself, such algebras with domain [[terminal category|1]] are just algebras for a monad in the classical sense.  Such algebras are a powerful tool to encode general algebraic structures; this is the topic of [[universal algebra]].
 
 Some monads arise from [[operad]]s, in which case algebras for the monad are the same as algebras for the operad.  A [[Lawvere theory]] is another special sort of monad in $Cat$.
+
+# Related entries #
+
+* [[strong monad]]
 
 ##References#
 
