@@ -1,6 +1,10 @@
 [[!include contents]]
 See also the [[FAQ]].
 
+An easy introduction for elemenatry basics geared towards readers familiar the [nCafe](http://golem.ph.utexas.edu/category/) is
+
+* [[ericforgy:How to Copy and Paste Material from the n-Cafe and Include Links Back and Forth|How to Copy and Paste Material from the n-Cafe and Include Links Back and Forth]]
+
 #How to use a Wiki#
 
 Hit "edit page" to see how pages are coded. Use the [[Sandbox|Sandbox]] to warm up.
