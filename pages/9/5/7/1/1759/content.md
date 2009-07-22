@@ -32,6 +32,10 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 
 * [[Urs Schreiber]]:
 
+  * created [[lax functor]] 
+
+    * added to [[monad]] the statement that a monad in $B$ is a lax functor ${*} \to B$
+
   * replied at [[(n,k)-transformation]] -- I think that in principle this gives all the required information, but I am aware that eventually someone should describe that all explicitly in detail at that entry
 
 *  [[Toby Bartels]]:  Copied to [[(n,k)-transformation]] a question that was sent to me by email, and partially answered it.  (Urs could probably answer the rest.)
