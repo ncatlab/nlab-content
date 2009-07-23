@@ -1,7 +1,17 @@
 
 This entry is about a theorem by [[Dominic Verity]] that characterizes the [[descent]] condition for [[infinity-stack]]s that take values not in arbitrary [[infinity-groupoid]]s, but just in [[strict omega-groupoid]]s.
 
-* [[Dominic Verity]], [[VerityDescent.pdf:file]]
+The details are here:
+
+* [[Dominic Verity]], _[[VerityDescent.pdf:file]]_ (pdf)
+
+Here is an abstract that served as an abstract for a talk on this at the _Australian Category Seminar_ at Macquarie University on Wednesday 27th of May 2009.
+
+<strong>Abstract</strong>
+
+>In the literature one can find a number of different [[limit]] notions which one might refer to as a "[[descent]] construction". Generally speaking, these may all be regarded as a kind of [[weak limit|lax, pseudo]] or [[homotopy limit]] of a [[simplicial object|co-simplicial diagram]] of objects in some theory of "spatially-enriched" categories. While each of these notions certainly deserves to bear the [[descent]] name, it is not necessarily immediately clear how they may be related in any more specific mathematical sense.
+
+>Recently I was asked by [[Urs Schreiber]] if I knew how a couple of these descent notions might be related formally, and so spent a little time contemplating this problem. My hope is that this talk might achieve two things, firstly I hope to provide a little of the intuition which leads us to define and study such descent constructions. Then I would like to discuss a specific answer to Urs' question, which gives a precise relationship between [[Ross Street]]'s [descent construction](http://arxiv.org/abs/math.CT/0303175) for [[strict omega-category|strict omega-categories]] (or more precisely [[strict omega-groupoid]]s in this case) and the [[descent for simplicial presheaves|simplicial descent construction]] used to characterise the fibrant objects in [[model structure on simplicial presheaves|model categories of simplicial sheaves]].
 
 #Idea#
 
@@ -26,14 +36,14 @@ the strict $\omega$-groupoids form a [[subcategory]] of all [[infinity-groupoid]
 $$
   Ch_+
   \stackrel{\simeq}{\to} StrAb \omega Grpd
-  \hookrigharrow
+  \hookrightarrow
   Str \omega Grpd \stackrel{N}{\hookrightarrow} \infty Grpd
   \,.
 $$
 
 It is a familiar process to restrict general [[infinity-stack]]s to those that factor through the entire inclusion: this is the topic of [[homological algebra]] and restricts the general notion of [[cohomology]] to that of [[abelian sheaf cohomology]].
 
-What we are interested here is a notion in between the fully strictly abelian context and the fully general context: that of strict $\omega$-groupoid valued $\infty$-stacks inside all $\infty$-stacks.
+What we are interested in here is a notion in between the fully strictly abelian context and the fully general context: that of strict $\omega$-groupoid valued $\infty$-stacks inside all $\infty$-stacks. This may be thought of as [[nonabelian algebraic topology|nonabelian homological algebra]] that uses not [[chain complex]]es of sheaves but [[crossed complex]]es.
 
 In his work
 
