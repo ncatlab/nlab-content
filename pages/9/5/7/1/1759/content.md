@@ -1,34 +1,27 @@
 [[!include all changes]]
 
-A list of all recently edited entries can be seen here:
-
-* [Recently Revised]().
-
-But that list tends to contain lots of minor changes: it's not easy to spot the important ones.
-
-+-- {: .standout}
-
-Since we are currently experiencing problems with the server  whenever the **Recently Revised** page is called or a **Search** is performed, for the time being you are asked NOT to try either of these.
-
-Chances are that you won't get the page before end of the day anyway, and meanwhile the server performance suffers for all of us.
-
-We are in the process of migrating to a new host, which will hopefully do away with this problem. Meanwhile, it is all the more important that you drop a note here when you work on the $n$Lab, so that the rest of us has a chance of becoming aware of it.
-
-=--
-
-So, if you feel people's attention should be drawn to some changes you make, please mention them *here*.  That will help [[Contributors|the rest of us]] spot them, so we can learn what you know --- and maybe make further improvements!
+All non-trivial additions or changes to the $n$Lab should briefly be indicated here. This way [[Contributors|the rest of us]] can spot them, so we can learn what you know --- and maybe make further improvements!
 
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).
 
 ***
 
 
-+-- {: .standout}
-Remember, _please_ do not visit **Recently Revised**. This innocuous action will bring the nLab to its knees for everyone. To search for something, Google is better anyway. 
-=--
-
-
 ## 2009-07-23
+
+* [[Urs Schreiber]]:
+
+  * created [[Dominic Verity]]
+
+  * created [[Verity on descent for strict omega-groupoid valued presheaves]]
+
+  * reworked the [[How to get started]] according to my opinions and our disucssions [here](http://golem.ph.utexas.edu/category/2009/07/nlab_how_to_get_started.html#c025573)
+
+    there are now two sections, one on how to paste source code of a comment one is about to submit to the blog, the other about how to paste non-source code material
+
+    in the course of this I have removed lots of the previous discussion on these points -- the goal is to keep that particular page clean of auxiliary discussion and as brief and to the point as possiblle, because that's the point of this page
+
+    if anyone feels I removed too much, please use Rollback to grab the deleted material and then cancel the rollback and insert the missing material in a suitable section at the main [[HowTo]] entry
 
 * [[Andrew Stacey]]: I've banned 'Recently Revised' for the time being.  My method of banning has probably blocked it for all the private webs as well.  If that's really annoying then let me know and I'll try to find a more specific method of banning just the nlab one.
 
