@@ -7,3 +7,5 @@
 Sometimes, late at night, when everyone is asleep, the lab elves come by and clean up the wiki.  They add links from one page to another, fix the formatting, debug the iTeX.  You can help them by proofreading your material and fixing it (if you can) or making a note of what\'s wrong (if you can\'t).  But don\'t worry about it very much; the lab elves will come by and make everything all right.
 
 category: meta
+
+[[!redirects lab elves]]
