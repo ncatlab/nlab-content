@@ -15,3 +15,6 @@ Sometimes the requirement that a lattice have top and bottom (nullary meets and 
 A poset with only finite meets _or_ finite joins is a (meet- or join-) [[semilattice]].
 
 A lattice which has *all* joins and meets (not just finitary ones) is a [[complete lattice]].
+
+
+[[!redirects lattices]]
