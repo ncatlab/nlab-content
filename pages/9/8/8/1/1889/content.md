@@ -1,7 +1,7 @@
 
-A **lax functor** or lax [[n-functor]] is a morphism of [[n-category|n-categories]] that is allowed to have structural cells -- compositors, associators, etc -- that need not be invertible.
+A **lax functor** or **lax $n$-[[n-functor|functor]]** is a morphism of $n$-[[n-category|categories]] that is allowed to have structural cells -- compositors, associators, etc -- that need not be invertible (not even [[weak inverse|weakly]]).
 
-This is to distinguish from [[pseudofunctor]] for which all these cells are required to be equivalences.
+This is to distinguish from [[pseudofunctor]] for which all these cells are required to be [[equivalences]].
 
 This means that the definition of lax functor involves a choice of orientation of these structural cells which is not visible for pseudofunctors. The choice is such that the first example below comes out as stated. With the opposite choice one speaks of an **oplax functor**.
 
@@ -34,3 +34,6 @@ Often the term lax functor is often used for $n$-functors $F : C \to D$ whose do
   * Liang Kong, Ingo Runkel, _Cardy algebras and sewing constraints, I_ ([arXiv](http://arxiv.org/abs/0807.3356))
 
   A general discussion of lax-oplax functors is in section 2.1 there.
+
+
+[[!redirects oplax functor]]
