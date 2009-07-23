@@ -1,4 +1,3 @@
-[[!redirects (n,j)-transformation]]
 ## Idea
 
 An $(n,k)$-transformation is an operation from one $n$-[[n-category|category]] $C$ to another $D$ that takes [[object]]s of $C$ to $k$-[[k-morphism|morphism]]s of $D$ (and more generally $j$-morphisms in $C$ to $(j+k)$-morphisms in $D$) in a coherent way.
@@ -30,6 +29,8 @@ For the simplicial case, by the way, this is even simpler and even more well kno
 As a references for strict 2-functors etc. you have to excuse me if the appendix of [this](http://arxiv.org/PS_cache/arxiv/pdf/0802/0802.0663v2.pdf#page=60) comes to my mind first. That at least is guaranteed to have the pictures that we are looking for in the context of the present discussion.
 
 _Sebastian_: Thank you very much for your comments! This was really helpful!
+
+_Toby_:  You\'re welcome.  (And you *are* welcome.  You are on the [[Contributors|list of contributors]] now, from which you can make a page for yourself too; please add material or ask questions as you feel inspired to!)
 =--
 
 
@@ -160,7 +161,7 @@ $).
 =--
 
 
-[[!redirects (n,k)-transformation]]
+[[!redirects (n,j)-transformation]]
 [[!redirects j-transformation]]
 [[!redirects k-transformation]]
 [[!redirects n-transformation]]
