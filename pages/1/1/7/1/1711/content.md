@@ -160,6 +160,8 @@ $
 $). 
 
 JCMcKeown: not meaning to cause annoyance, but how about calling them "$+k$-transformations", owing to their incrementing dimensions by $k$; or if we don't like the $+$ prefix, one might call them $k$-vexilors, because they tend to generate flags of period $k$.
+
+_Toby_:  Interesting; can you explain more about how they generate flags?  (Maybe that\'s something to put in a new section here, or you could just give a reference.)
 =--
 
 
