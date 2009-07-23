@@ -1,9 +1,12 @@
 [[!include contents]]
+
+An easy introduction for elemenatry basics is
+
+* [[How to get started]] .
+
+The following provides more details.
+
 See also the [[FAQ]].
-
-An easy introduction for elemenatry basics geared towards readers familiar the [nCafe](http://golem.ph.utexas.edu/category/) is
-
-* [[How to Copy and Paste Material from the n-Cafe and Include Links Back and Forth]]
 
 #How to use a Wiki#
 
