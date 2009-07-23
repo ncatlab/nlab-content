@@ -14,6 +14,7 @@ is an equivalence. This is the _descent condition_.
 
 [[Urs Schreiber]]: to my shame, I have to admit that $\to\gt$ was my hack for the symbol for _fibration_: an arrow with a double tip. 
 
+_Toby_:  That\'s '$&#8608;$', obtained by `$&#8608;$`.
 =--
 
 
