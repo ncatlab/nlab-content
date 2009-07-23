@@ -30,7 +30,7 @@ $$
   \,.
 $$
 
-
+These form the [[(infinity,1)-category of (infinity,1)-functors]].
 
 
 #Definition in terms of simplicial sets#
