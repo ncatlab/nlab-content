@@ -16,7 +16,7 @@ The following gives you a quick idea of how to proceed.
 If you feel you want more details, there is more information on the main [[HowTo]] page.
 
 
-## Don't worry, just do it ##
+## Don't worry too much! ##
 
 First a remark on what **not to worry** about.
 
@@ -121,6 +121,9 @@ This results in a [Link to the n-Cafe](http://golem.ph.utexas.edu/category/2009/
 
 In order that the rest of the $n$Lab crew has a chance of becoming aware of your changes, drop a note about what you did at [[latest changes]].
 
+### Pat yourself on the back ###
+
+Congratulations!  By helping the $n$Lab, you have done your good deed for the day.  All glory comes from daring to begin.
 
 ***
 
