@@ -13,3 +13,12 @@ An **associative unital algebra** over a given [[field]] (or even commutative [[
 If there is no danger for confusion, one often says simply 'associative algebra', or even only '[[algebra]]'.
 
 More generally, a (merely) **associative algebra** need not have $i: k \to V$; that is, it is a [[semigroup]] instead of a monoid.
+
+Less generally, a **commutative algebra** (where associative and unital are usually assumed) is an [[abelian monoid]] in $Vect$.
+
+
+[[!redirects associative algebra]]
+[[!redirects commutative algebra]]
+[[!redirects associative unital algebras]]
+[[!redirects associative algebras]]
+[[!redirects commutative algebras]]
