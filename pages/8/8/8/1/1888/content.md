@@ -1,3 +1,8 @@
+# Idea #
+
+In the simplest case, the notion of _tensorial strength_ is a way to talk about when an [[endofunctor]] $T : V \to V$ of a [[closed monoidal category]] is a $V$-[[enriched functor]] when $V$ is regarded as being a $V$-[[enriched category]].  But in fact the concept makes sense even when $V$ is not closed.
+
+
 # Definition #
 
 Given a monoidal category $V$, a 'tensorial strength' for a functor 
@@ -46,9 +51,6 @@ $$V-Act \to Cat $$
 
 and a **tensorial strength** for a functor $F: V \to V$ is a way of lifting it to a morphism $\tilde{F}: \tilde{V} \to \tilde{V}$ in $V-Act$, where $\tilde{V}$ is $V$ equipped with its canonical left action on itself.
 
-# Idea #
-
-In the simplest case, the notion of _tensorial strength_ is a way to talk about when an [[endofunctor]] $T : V \to V$ of a [[closed monoidal category]] is a $V$-[[enriched functor]] when $V$ is regarded as being a $V$-[[enriched category]].
 
 # Description #
 
