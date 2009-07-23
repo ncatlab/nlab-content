@@ -22,6 +22,8 @@ A **regular monomorphism** is a [[morphism]] which occurs as the [[equalizer]] o
   _Toby_:  The procedure is that when everyone involved with it is happy with it, then it can be removed.  So you would say something like 'This discussion can now be removed.', and then I would remove it if I agreed.  Or if someone thinks that it should be preserved, then it could be moved to a #Discussion# section at the bottom of the page.  (Or in this case, one could even move it to [[extremal monomorphism]] if one thought that it was more relevant there.)
 
   I would remove this myself, except that now I want you to see how to remove a discussion!  (^_^)  So if you\'re happy, then this discussion can now be removed.
+
+  _Tom_: OK great.  I think the discussion can be removed entirely and I'll start the extremal monomorphism page when I get a minute.
   =--
 
 * In [[Grp]], the monics are (up to isomorphism) the inclusions of [[subgroup]]s, while the regular monics are the inclusions of _[[normal subgroup|normal]]_ subgroups.
