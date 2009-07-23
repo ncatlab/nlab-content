@@ -30,8 +30,17 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 
 ## 2009-07-23
 
+* [[Urs Schreiber]]
+
+  * renamed the new easy-basic-HowTo page to [[How to get started]]
+
+    then I reworked the formatting and edited pieces here and there
+
+    to [[Bruce Bartlett]]: I think on that particular page we don't want query boxes, as that page is supposed to provide quick unambiguous information that tries to deconfuse people instead of to confuse them -- please see my reply and check if you can work something into the paragraph right before the query box that allows to remove that query box
 
 * [[David Corfield]]: Started [[Lambda-ring]] with some Baezian exposition and an abstract of James Borger. Hmm, is there a difference between $\lambda$-ring and $\Lambda$-ring? This [paper](http://wwwmaths.anu.edu.au/~borger/papers/03/lambda.pdf) uses both.
+
+  * [[Urs Schreiber]]: thanks, David, I was hoping you would
 
 *  [[Toby Bartels]] welcomed [[Sebastian Thomas]] at [[(n,k)-transformation]].
 
