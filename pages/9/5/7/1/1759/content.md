@@ -9,6 +9,21 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-23
 
+* [[Urs Schreiber]]: 
+
+  * effectively rewrote [[infinity-stack]] -- expanding it considerably, adding the relevant pointers to all the new material that has come together since I first wrote this
+
+    * removed the discussion of costacks entirely. I'll turn that into a separate entry in its own right eventually
+
+    * John's question there had been about my notation $\to\gt$ -- that was a hack for the symbol for a _fibration_, an arrow with a double tip. In my new version this no longer appear, though it may still appear at [[hypercover]], which is linked to, and elsewhere.
+
+      [[Toby Bartels|Toby]] knows how to typeset such arrows correcty. Maybe he could add a section to [[HowTo]] with the relevant information and links to special symbol lists
+
+
+  * added a reference at [[(infinity,1)-functor]] to [[(infinity,1)-category of (infinity,1)-functors]] -- the discussion of this issue that I like most is currently at [[models for infinity-stack (infinity,1)-toposes]]. Eventually that should be discussed better at the relevant entries.
+
+
+
 *  [[Toby Bartels]]:
 
    *  Conversation with [[JCMcKeown]] at [[(n,k)-transformation]].
