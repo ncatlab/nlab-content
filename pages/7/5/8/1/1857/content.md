@@ -2,7 +2,7 @@
 
 #Idea#
 
-This is a page containing a set of _explanations_ for common format changes we might make. These are not a set of _rules_ (we don't like rules). Any contributor is free to agree with the changes and leave them or disagree and rollback (or "undo") any format change.
+This is a page containing a set of _explanations_ for common format changes we, the [[lab elves]], might make. These are not a set of _rules_ (we don't like rules). Any contributor is free to agree with the changes and leave them or disagree and rollback (or "undo") any format change.
 
 The goal is to _first and foremost_ make the process of contributing content as easy as possible while at the same time creating at least a loose sense of homogeneity among pages. For the most part, any format changes we make will be minor cosmetic ones.
 
