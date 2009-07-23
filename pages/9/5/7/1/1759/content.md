@@ -30,6 +30,10 @@ Remember, _please_ do not visit **Recently Revised**. This innocuous action will
 
 ## 2009-07-23
 
+* [[David Corfield]]
+
+  * started [[P-ring]]
+
 * [[Urs Schreiber]]
 
   * renamed the new easy-basic-HowTo page to [[How to get started]]
