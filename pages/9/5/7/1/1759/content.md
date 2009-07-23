@@ -10,8 +10,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ## 2009-07-23
 
 *  [[Toby Bartels]]:
-   *  Created [[lab elf]], just a bit of fun; credit [[Eric Forgy]] (I think) for the idea.
-   *  Added my touch to [[How to get started]]; among other things, I didn\'t like the horizontal rules around the images, but maybe they were there for a reason?
+
+  *  Created [[lab elf]], just a bit of fun; credit [[Eric Forgy]] (I think) for the idea.
+
+    [[Eric]]: Not me. I think Andrew gets credit for that. I added a link to [[lab elves]] from [[How to get started]] :)
+
+  *  Added my touch to [[How to get started]]; among other things, I didn\'t like the horizontal rules around the images, but maybe they were there for a reason?
 
 *  [[John Baez]]: 
 
