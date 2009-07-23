@@ -8,4 +8,10 @@ Here $Ab$ is the category of [[abelian group|abelian groups]], made into a monoi
 
 Don't worry: these definitions equivalent to [the one you're used to](http://en.wikipedia.org/wiki/Ring_mathematics#Definition).
 
+
+A **commutative ring** is an [[abelian monoid]] in [[Ab]].
+
+
 [[!redirects rings]]
+[[!redirects commutative ring]]
+[[!redirects commutative rings]]
