@@ -17,3 +17,5 @@ London Math. Soc. Stud. Texts, 33, Cambridge University Press, Cambridge, 1995. 
 Regular differential operators have been nontrivially generalized to noncommutative rings (and schemes) by V. Lunts and A. L. Rosenberg, as well as to the setting of braided monoidal categories. Their motivation is an analogue of a Beilinson-Bernstein localization theorem for quantum groups. The category of differential bimodules is categorically characterized in their work as the minimal [[coreflective subcategory|coreflective]] [[topologizing subcategory| topologizing]] [[monoidal category|monoidal]] subcategory of the abelian monoidal category of $R$-$R$-bimodules which is containing $R$. In the case of noncommutative rings, Lunts-Rosenberg definition of differential operators has been recovered from a different perspective in the setup of [[noncommutative algebraic geometry]] represented by monoidal categories; the emphasis is on the duality between infinitesimals and differential operators:
 
  * T. Maszczyk, Noncommutative geometry through monoidal categories, [arXiv:0611806](http://arxiv.org/abs/math/0611806)
+
+[[!redirects regular differential operators]]
