@@ -2,7 +2,7 @@
 
 An easy introduction for elemenatry basics is
 
-* [[How to get started]] .
+* [[How to get started]].
 
 The following provides more details.
 
