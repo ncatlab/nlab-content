@@ -10,12 +10,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ## 2009-07-23
 
 *  [[Toby Bartels]]:
-
-  *  Created [[lab elf]], just a bit of fun; credit [[Eric Forgy]] (I think) for the idea.
-
-    [[Eric]]: Not me. I think Andrew gets credit for that. I added a link to [[lab elves]] from [[How to get started]] :)
-
-  *  Added my touch to [[How to get started]]; among other things, I didn\'t like the horizontal rules around the images, but maybe they were there for a reason?
+   *  Created [[lab elf]], just a bit of fun; credit [[Eric Forgy]] (I think) for the idea.
+      * [[Eric]]: Not me. I think Andrew gets credit for that. I added a link to [[lab elves]] from [[How to get started]] :)
+   *  Added my touch to [[How to get started]]; among other things, I didn\'t like the horizontal rules around the images, but maybe they were there for a reason?
 
 *  [[John Baez]]: 
 
@@ -47,6 +44,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 * [[Andrew Stacey]]: I've banned 'Recently Revised' for the time being.  My method of banning has probably blocked it for all the private webs as well.  If that's really annoying then let me know and I'll try to find a more specific method of banning just the nlab one.
 
 * [[Andrew Stacey]] was pleasantly pleased to stumble across [[Tall-Wraith monoid]]s and made a few minor alterations (mainly style, and added a couple of references).  I'll shove this question over on the [forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=49) as well, but should we have a lab convention on fonts for categories, functors, objects, and the like?
+
+   *[[John Baez]]: especially given the large and opinionated group of contributors, we probably shouldn't fuss over fonts too much, but I'm in favor of the KISS philosophy: "keep it simple, sweetheart".  Namely: use capital letters for big things, small letters for little things, and Greek letters when you run out of ordinary letters, or want to show off your erudition.
 
 * [[David Corfield]]
 
