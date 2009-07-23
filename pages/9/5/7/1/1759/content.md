@@ -2,12 +2,16 @@
 
 All non-trivial additions or changes to the $n$Lab should briefly be indicated here. This way [[Contributors|the rest of us]] can spot them, so we can learn what you know --- and maybe make further improvements!
 
-These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).
+These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).  However, regardless of that, be sure to **add new comments to the top** of the list.
 
 ***
 
 
 ## 2009-07-23
+
+*  [[Toby Bartels]]:
+   *  I would like to make a plea for adding entries to the *top* of this list.  There are some comments and entries that I see only because I check every single change in the history; while obsessive behaviour may be correlated with mathematical ability, you can\'t expect people to see things unless you add them to the top.  If that means that you give yourself two entries in one day or even report one day\'s events in the next day\'s space, then so be it!  (For conversations, I suppose that it depends on whether you think that the person that you\'re having a conversation with will see your comment; but be aware that they might not.)
+   *  I wouldn\'t be very quick to get ban query boxes at [[How to get started]]; people need to be able to ask questions about how to get started!  That doesn\'t really apply to discussion by the regulars about how to explain, of course, but I would want Jim Stasheff, for example, to ask questions there if he wanted to, without people trying to clean up too quickly.
 
 * [[Urs Schreiber]]:
 
