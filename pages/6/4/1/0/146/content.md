@@ -23,11 +23,11 @@ As such, it is an example of a [[functor category]].
 
   * when $S = Set$, and especially one is interested in the [[Yoneda embedding]] of a category $C$ into its presheaf category $[C^{op}, Set]$ for purposes of studying, for instance, [[limit]]s, [[colimit]]s, [[ind-object]]s, and [[pro-object]]s of $C$;
 
-  * or when there is the structure of a [[site]] on $S$, such that it makes sense to ask if a given presheaf is actually a [[sheaf]].
+  * or when there is the structure of a [[site]] on $C$, such that it makes sense to ask if a given presheaf is actually a [[sheaf]].
 
 * One generally useful way to think of presheaves is in the sense of [[space and quantity]].
 
-* In the case where $S = Set$ and $C$ is [[small category|small]], an important general principle is that the presheaf category $[C^{op},Set]$ is the [[free cocompletion]] of $S$.  Intuitively, it is formed by taking $C$ and 'freely throwing in small colimits'.  The category $C$ is contained in $[C^{op},Set]$ via the [[Yoneda embedding]]
+* In the case where $S = Set$ and $C$ is [[small category|small]], an important general principle is that the presheaf category $[C^{op},Set]$ is the [[free cocompletion]] of $C$.  Intuitively, it is formed by taking $C$ and 'freely throwing in small colimits'.  The category $C$ is contained in $[C^{op},Set]$ via the [[Yoneda embedding]]
 $$ Y : C \to [C^{op},Set]$$
 The Yoneda embedding sends each object $c \in C$ to the presheaf
 $$ F(-) = hom(-, c) $$
@@ -65,6 +65,7 @@ $$
 $$
 +--{.query}
 [[Eric]]: Is there a missing "-" from the right hand side of the above expression?
+
 [[Mike Stay]]: No, there's an extra one on the left.  $F(-)$ is just $F.$  (Now fixed.)
 =--
 To see this notice that for every $B \in [C^{op}, Set]$
