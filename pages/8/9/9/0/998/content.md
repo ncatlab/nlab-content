@@ -16,7 +16,7 @@ The use of categories in NAG has increased in recent years. First, in the defini
 
 
 +-- {: .query}
-Lab-elves : what follows is part of the original text by Zoran Skoda based on his association with  Alex Rosenberg. I've tried to include the major developments above with precise references. I don't understand the Van Oystaeyen-Willaert vs. Rosenberg part nor the Le Bruyn (that is,me) vs. Laudal part. But, feel free to edit in any way you feel like.
+Lieven Le Bruyn to the Lab-elves : what follows is part of the original text by Zoran Skoda based on his association with  Alex Rosenberg. I've tried to include the major developments above with precise references. I don't understand the Van Oystaeyen-Willaert vs. Rosenberg part nor the Le Bruyn (that is,me) vs. Laudal part. But, feel free to edit in any way you feel like.
 =--
 
 
@@ -25,7 +25,7 @@ The subject is older than differential noncommutative geometry and it is very mu
 
 Several years later P.M. Cohn studied a prime spectrum of a ring.
 
-Localization theory was taken more seriously around 1974-1976
+Localization theory was taken more seriously around 1974--1976
 when Golan and van Oystaeyen made a serious study of rings, with geometric picture in mind. Localizations were viewed as analogues of open sets. However, the lattice of torsion theories is not distributive, something which presented major difficulties at the time. Around 1995, a major descent theorem was proved by van Oystaeyen and Willaert and independently in a work of A. Rosenberg in Stockholm (1988). It is sort of generalized sheaf condition for quasicoherent modules, with respect to covers by Gabriel localizations. 
 
 Around 1980, the Leningrad school of integrable systems (Sklyanin, Fadeev, Takhtajan) created examples of quantum groups, and soon after that were joined by Drinfeld, Novikov, and independently, Manin and Woronowicz; these in turn give good examples in affine noncommutative geometry. 
@@ -36,14 +36,12 @@ A. L. Rosenberg has developed many spectral constructions
 extending from rings to abelian categories, triangulated 
 categories and right exact categories (in his sense). He has also created a categorical version of a notion of noncommutative scheme, used implicitly earlier, but published in 1998. 
 
-<a href="http://en.wikipedia.org/wiki/Homological_mirror_symmetry">
-Homological_mirror_symmetry</a> 
-by M. Kontsevich is a source of 
+[Homological mirror symmetry](http://en.wikipedia.org/wiki/Homological_mirror_symmetry) by M. Kontsevich is a source of 
 lots of examples of spaces of derived algebraic geometry, which are represented by triangulated categories or their
 dg- or $A_\infty$-enhancements; this has been enhanced by the insight in the structure of derived categories of coherent sheaves and their deformations like Landau-Ginzburg models, by Kapranov, Orlov, Bondal, van den Bergh, Polishchuk, Bridgeland and others.
 Understanding of the role of quivers in noncommutative geometry has also being stimulated by independent and original works of Lieven le Bruyn and Arfinn Laudal. 
 
-Derived noncommutative geometry is related subject to the commutative [[derived algebraic geometry]] of C. Simpson's school. Cyclic and [[Hochschild homology]] play a major role. The most nontrivial result seem to be noncommutative version of degeneration of Hodge-to-de Rham [[spectral sequence]], conjectured by Kontsevich and in one version <a href="http://front.math.ucdavis.edu/0611.5623">proved</a> by D. Kaledin.
+Derived noncommutative geometry is related subject to the commutative [[derived algebraic geometry]] of C. Simpson's school. Cyclic and [[Hochschild homology]] play a major role. The most nontrivial result seem to be noncommutative version of degeneration of Hodge-to-de Rham [[spectral sequence]], conjectured by Kontsevich and in one version [proved](http://front.math.ucdavis.edu/0611.5623) by D. Kaledin.
 
 #See also:#
 
