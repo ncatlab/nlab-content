@@ -9,6 +9,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-24
 
+* [[Urs Schreiber]] created [[Waldhausen S-construction]] and edited [[Waldhausen category]] a bit, but needs still more work -- help is appreciated, I am not sure yet if I found the best literature
+
 * [[Eric]]: 
 
   * Added more to questions on [[measure space]]. Whenever I see a long convoluted definition, e.g. [[measurable space]], I tend to think there should be some short, concise, arrow theoretic description that incorporates all the little factoids into one pretty picture. A wild guess (that I know is wrong, but hopefully inspires someone to write down what is right): a [[measurable space]] is some kind of [[presheaf]] or maybe a [[representation]] on ????.
