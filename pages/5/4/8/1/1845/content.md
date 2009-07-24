@@ -1,9 +1,75 @@
 
+# Idea #
+
+Given a [[stable (infinity,1)-category]] $C$, its [[decategorification]] 
+
+$$
+  K(C) = \{equivalence classes\; [c]\; of objects c \in C\}
+$$
+
+naturally inherits the structure of an abelian [[group]] from the [[fibration sequence]]s in $C$:
+
+for 
+
+$$
+  a \to x \to c
+$$ 
+
+a fibration sequence (i.e. a homotopy exact sequence) the abelian group operation
+
+$$
+  + : K(C) \times K(C) \to K(C)
+$$
+
+is such that
+
+$$
+  [x] = [a] + [c]
+  \,.
+$$
+
+The group $K(C)$ is called the **K-group** of $C$. The "K" is for the german word _Klasse_ for "class". The K-group of $C$ is the group of equivalence classes of $C$. This is a group due to the existence of a notion of exact sequences in $C$.
+
+K-theory is the study of these K-groups. Sometimes the K-groups themseles are called "K-theory". One would say for instance: "$K(C)$ is the K-theory of $C$."
+
+More generally, there is a [[symmetric monoidal (infinity,1)-category|symmetric groupal infinity-groupoid]] $\mathbf{K}(C)$  -- i.e. a connective [[spectrum]] -- in between the [[decategorification]] from $C$ to $K(C)$ of which $K(C)$ is the set of [[simplicial homotopy group|connected components]]
+
+$$
+  C \mapsto \mathbf{K}(C) \to \pi_0 \mathbf{K}(C) = K(C)
+  \,.
+$$
+
+In nice cases this is the degree 0 part of a non-connective [[spectrum]] which is then the **K-theory spectrum** of $C$.
+This is also called the **Waldhausen K-theory** of $C$.
+
+
+## Special cases and models ##
+
+Much of the literature on K-theory discusses constructions that _model_ the above abstract setup in terms of [[model category|model categories]], or just their [[homotopy category|homotopy categories]], often of the [[derived category|derived catgeories]] type and then often expressed in terms of the [[abelian category]] or [[exact category]] from which the derived category is derived.
+
+Only a subset of the structure on a [[model category]] is necessary in order to conveniently extract the K-groups of the [[presentable (infinity,1)-category|presented]] [[stable (infinity,1)-category]]. For that reason the axioms of a [[Waldhausen category]] have been devised to provide just the necessary convenient prerequesites to compute the K-groups of the [[(infinity,1)-category]] [[presentable (infinity,1)-category|presented]] by the underlying [[homotopical category]].
+
+* In particular, the K-group associated to the [[stable (infinity,1)-category]] $Ch^b(A)$ of _bounded_ [[chain complex]]es in an [[abelian category]] or [[exact category]] $A$ is often called the K-group of $A$ itself and just denoted
+  $$
+    K(A) := K(Ch^b(A))
+    \,.
+  $$
+
+  Most explicit constructions of K-theory spectra start with the data of an [[exact category]], such as notably Quillen's [[Q-construction]] and Waldhausen's [[Waldhausen category|S-construction]].
+
+* In particular if the exact category $A$ is that of [[vector bundle]]s on a [[topological space]] $X$
+
+  $$
+    A = VectBund(X)
+  $$
+
+  the corresponding K-group is degree 0 [[topological K-theory]]. This was the original of the notion and the term K-theory.
+
+# Definition # 
 
 
 # Related entries #
  
-
 * [[K-theory spectrum]]
 
 * [[topological K-theory]]
@@ -12,5 +78,22 @@
 
 * [[Karoubi K-theory]]
 
-...
+
+# References #
+
+The general definition of the K-theory spectrum of a [[stable (infinity,1)-category|stable (infinity,1)-categories]] is remark 11.4 in
+
+* [[Jacob Lurie]], [[stable (infinity,1)-category|Stable Infinity-Categories]] .
+
+This is related to the [[model category]] theoretic construction in
+
+* [[Bertrand Toen]], Gabriele Vezzosi, _A remark on K-theory and $S$-categories_ ([arXiv](http://arxiv.org/PS_cache/math/pdf/0210/0210125v2.pdf)).
+
+The standard constructions of K-theory spectra from exact categories are discussed in detail in chapter 1 of
+
+* Eric M. Friedlander, Daniel R. Grayson, _Handbook of K-theory_, Springer Verlag .
+
+A useful introduction to the definition and computation of K-groups (with a little on K-spectra) is
+
+* Charles Weibel, _The K-book: An introduction to algebraic K-theory_ ([web](http://www.math.rutgers.edu/~weibel/Kbook.html))
 
