@@ -302,19 +302,9 @@ In this context the half-line $\{x^1 \geq 0\}$ is called a **Dirac string**. Whi
 
 ...have to run...
 
-#Topology of perfectly conducting bodies#
-
-**Under Construction**
-
-Consider a perfect electrical conducting (PEC) object, e.g. a sphere. The geometric extremities of this object will trace out a world volume in spacetime. 
-
-...
-
->Removing a world volume from spacetime is equivalent to introducing a perfectly conducting body.
-
 #Geometric origins of inhomogeneous media#
 
-**Under Construction**
+>This section is tentative and probably even controversial. By no means is it generally accepted to be correct, but it is worth writing down if for no other reason than to elicit disagreement in which case we'd learn something.
 
 As inhabitants of the earth, we all sit in a bath of electromagnetic radiation, both man made and natural. This radiation permeates our bodies which are made up of dielectric, magnetic, and conducting materials, i.e. body tissue. Just as geometry is encoded in the metric tensor and manifests itself via the Hodge star, so too do the electromagnetic constitutive equations. For example, in linear media we have the simple constitutive relations
 
@@ -338,7 +328,7 @@ $$\star(v dt\wedge E) = \frac{1}{\epsilon} D\quad\text{and}\quad\star B = \mu H\
 
 where $v = \frac{1}{\sqrt{\mu\epsilon}}$ (Note: $v = c$ in vacuum). For more details see [page 111](http://ncatlab.org/ericforgy/show/Dissertation).
 
-What this means is the the electromagnetic properties of matter can be interpreted geometrically and are encoded in the Hodge star.
+What this means is the the electromagnetic properties of matter can be interpreted geometrically and are encoded in the Hodge star. Conversely, it means that geometrical properties of matter can be interpreted electromagnetically.
 
 # References #
 
