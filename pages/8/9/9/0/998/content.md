@@ -45,4 +45,6 @@ Understanding of the role of quivers in noncommutative geometry has also being s
 
 Derived noncommutative geometry is related subject to the commutative [[derived algebraic geometry]] of C. Simpson's school. Cyclic and [[Hochschild homology]] play a major role. The most nontrivial result seem to be noncommutative version of degeneration of Hodge-to-de Rham [[spectral sequence]], conjectured by Kontsevich and in one version <a href="http://front.math.ucdavis.edu/0611.5623">proved</a> by D. Kaledin.
 
- 
+#See also:#
+
+* the n-geometry cafe, _the NAG canon_ ([blog](http://www.noncommutative.org/index.php/the-nag-canon.html))
