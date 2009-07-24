@@ -11,6 +11,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]
 
+  * expanded the "Idea" section at [[spectrum]] and effectively rewrote it -- added a link to [[combinatorial spectrum]] at the end, which probably should be thought of as a concrete realization of the idea of $\mathbb{Z}$-category -- accordingly I changed the title of the last section from "Conjectures" to "Combinatorial models".
+
   * added a reference to Weibel's online book to [[algebraic K-theory]]
 
 * [[Andrew Stacey]]: Tried answering John's questions over at [[Tall-Wraith monoid]].  Probably lots for the [[lab elf|lab elves]] to work on there.
