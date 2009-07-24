@@ -6,6 +6,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+## 2009-07-24
+
+* [[Eric]]: Asked some questions on [[measure space]].
 
 ## 2009-07-23
 
