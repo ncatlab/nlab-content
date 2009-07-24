@@ -1,8 +1,58 @@
 # Idea #
 
-In [[homotopy theory]], a _spectrum_ is an object containing only "stable information."  One way for a higher category theorist to understand the notion of spectrum is to start with the idea of a [[groupal n-groupoid|grouplike]] [[k-tuply monoidal n-category|stably monoidal]] $\infty$-[[infinity-groupoid|groupoid]].  To a homotopy theorist, this means a space with a multiplication which is associative, unital, commutative, and has inverses up to all coherent higher homotopies (as encoded, for instance, by an [[operad]]).
+A [[topological space|topological]] spectrum is an object in the universal [[stable (infinity,1)-category]] $Sp(Top) \simeq Sp(\infty Grpd)$ that "stabilizes" the [[(infinity,1)-category]] [[Top]] or $\simeq$ [[Infinity-Grpd]] of [[topological space]]s or [[infinity-groupoid]]s.
 
-The collection of grouplike stably monoidal $\infty$-groupoids is a sub-$(\infty,1)$-category of the $(\infty,1)$-category of spectra, called the _connective_ ones.  The passage from connective spectra to arbitrary spectra can perhaps best be explained as analogous to the passage from bounded-below [[chain complex|chain complexes]] to arbitrary chain complexes.  So while a connective spectrum, like a topological space, contains data only in dimensions $\ge 0$, an arbitrary spectrum contains data in all dimensions.  In particular, a spectrum $E$ has homotopy groups $\pi_k(E)$ for all _integers_ $k$, all of which are abelian groups.
+Recall that the central characterization of a [[stable (infinity,1)-category]] is that all objects $A$ have a [[delooping]] object $\mathbf{B}A$ that is written $\Sigma A$ in this context and called the _suspension_ of $A$. Thus a spectrum is like a [[topological space]] or [[infinity-groupoid]] that may be [[delooping|delooped]] indefinitely.
+
+In fact all ordinary [[topological space]]s and [[infinity-groupoid]]s that have the property that all their [[delooping]]s exist are special examples of spectra. They are called the 
+
+* **connective spectra**
+
+* or **infinite [[loop space]]s** 
+
+* or [[groupal n-groupoid|grouplike]] [[k-tuply monoidal n-category|stably monoidal]] $\infty$-[[infinity-groupoid|groupoid]]s
+
+* or [[symmetric monoidal (infinity,1)-category|symmetic monoidal infinity-groupoid]]s.
+
+Connective spectra form a sub [[(infinity,1)-category]] of spectra
+
+$$
+  Top \stackrel{\supset}{\leftarrow} ConnectSp(Top) \hookrightarrow Sp(Top)
+  \,.
+$$
+
+There are objects in $Sp(Top)$, though, that do not come from infinitely deloopable spaces. These are the **non-connective spectra**. For general spectra there is a notion of [[homotopy group]]s of negative degree. The connective ones are precisely those for which all negative degree [[homotopy group]]s vanish.
+
+Non-connective spectra are well familiar in as far as they are in the image of the [[nerve]] operation of the [[Dold-Kan correspondence]]: this identifies [[infinity-groupoid]]s that are not only connective spectra but even have a _strict_ symmetric monoidal [[group]] structure with non-negatively graded [[chain complex]]es of abelian groups. 
+
+$$
+ \array{
+  Ch_+ &\stackrel{Dold-Kan \; nerve}{\to}&
+  ConnectSp(\infty Grp) \subset \infty Grpd
+  \\
+  (\cdots A_2 \stackrel{\partial}{\to} A_1 \stackrel{\partial}{\to} A_0 \to 0 \to 0 \to \cdots)
+  &\stackrel{}{\mapsto}&
+  N(A_\bullet)
+ }
+$$
+
+The [[homology]] groups of the chain complex correspond precisely to the [[homotopy group]]s of the corresponding [[topological space]] or [[infinity-groupoid]].
+
+The free stabilization of the [[(infinity,1)-category]] of non-negatively graded chain complexes is simpy the [[stable (infinity,1)-category]] of arbitrary chain complexes. There is a stabilized Dold-Kan correspondence that identifies these with special objects in $Sp(Top)$. 
+
+$$
+ \array{
+  Ch &\stackrel{Dold-Kan \; nerve}{\to}&
+   Sp(\infty Grp) 
+  \\
+  (\cdots A_2 \stackrel{\partial}{\to} A_1 \stackrel{\partial}{\to} A_0 \stackrel{\partial}{\to} A_{-1} 
+  \stackrel{\partial}{\to} A_{-2} \to \cdots)
+  &\stackrel{}{\mapsto}&
+  N(A_\bullet)
+ }
+$$
+
+So it is the homologically nontrivial parts of the chain complexes in negative degree that corresponds to the non-connectiveness of a spectrum.
 
 # Definition #
 
@@ -21,8 +71,10 @@ There are many "models" for spectra, all of which present the same homotopy theo
 * [[tmf]]
 
 
-# Conjectures #
+# Combinatorial definition #
 
 There might be a type of categorical structure related to a spectrum in the same way that $\infty$-categories are related to $\infty$-groupoids.  In other words, it would contain $k$-cells for all integers $k$, not necessarily invertible.  Some people have called this conjectural object a **$Z$-category**.   "Connective" $Z$-categories could perhaps then be identified with stably monoidal $\infty$-categories.
+
+One realization of this kind of idea is the notion of [[combinatorial spectrum]].
 
 [[!redirects spectra]]
