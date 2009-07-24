@@ -6,4 +6,4 @@ An **extremal monomorphism** in a [[category]] $C$ is a [[monomorphism]] $m$ suc
 
 The dual concept is [[extremal epimorphism]], and all properties of [[extremal epimorphism]]s apply in the dual sense to extremal monomorphisms.
 
-In Top the extremal monomorphisms coincide with the [[regular monomorphism]]s, and these are exactly the subspace embeddings.
+In [[Top]] the extremal monomorphisms coincide with the [[regular monomorphism]]s, and these are exactly the subspace embeddings.
