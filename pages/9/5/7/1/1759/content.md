@@ -9,6 +9,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-24
 
+* [[Tom Ellis]] created [[extremal monomorphism]]
+
 * [[Urs Schreiber]]
 
   * edited [[algebraic K-theory]] a bit
