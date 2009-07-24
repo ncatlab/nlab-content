@@ -11,8 +11,8 @@ Dunkl operators appear in the theory of [Caloger-Moser systems](http://www.schol
 
 * Ivan Cherednik, _Introduction to double Hecke algebras_ ([arXiv](http://arxiv.org/abs/math/0404307))
 
-* P. Etingof, X. Ma, _On elliptic Dunkl operators_, (http://arxiv.org/abs/0706.2152)
+* P. Etingof, X. Ma, _On elliptic Dunkl operators_, ([arXiv](http://arxiv.org/abs/0706.2152))
 
-* C. Dunkl, E. Opdam, _Dunkl operators for complex reflection groups_, Proc. London Math. Soc. __86__(2003), 70--108.
+* C. Dunkl, E. Opdam, _Dunkl operators for complex reflection groups_, Proc. London Math. Soc. __86__ (2003), 70--108.
 
 Dunkl operators are named after [Charles Dunkl](http://people.virginia.edu/~cfd5z/).
