@@ -67,6 +67,46 @@ Only a subset of the structure on a [[model category]] is necessary in order to 
 
 # Definition # 
 
+Recall that given a [[(infinity,1)-category]] $C$, we may regard it as a [[complete Segal space]] $C_{\bullet,\bullet}$, a bisimplicial set. For instance if $C$ is originally given as a [[quasicategory]] then
+
+$$
+  C_{\bullet,\bullet} : [n],[m] \mapsto
+  Core(Func(\Delta^n,C))_{m}
+  \,,
+$$
+
+where $Core(Func(\Delta^n,C))$ denotes the maximal [[Kan complex]] inside the [[(infinity,1)-category of (infinity,1)-functors]] from $\Delta^n$ to $C$.
+
+
++-- {: .un_defn}
+###### Definition 
+
+Let $C$ be a [[stable (infinity,1)-category]]. Then its **Waldhausen K-theory $\mathbf{K}(C)$ is given by the the diagonal simplicial set
+
+$$
+  \mathbf{K}(C) = diag C_{\bullet, \bullet}
+$$
+
+where $C_{\bullet,\bullet}$ is the corresponding [[complete Segal space]].
+
+=--
+
+This is [remark 11.4](http://arxiv.org/PS_cache/math/pdf/0608/0608228v5.pdf#page=43) in [[stable (infinity,1)-category|StCat]] in view of the lemma above that and using the discussion on [p. 27](http://www-math.mit.edu/~lurie/papers/cobordism.pdf#page=27) of _CobHyp_ .
+
+This construction is also conjectured in the last section of Toen-Vezzosi's _A remark on K-theory_ .
+
+In the case that $C$ is the [[simplicial localization]] of a [[Waldhausen category]] $\bar C$ the explicit way to obtain this is the [[Waldhausen S-construction]].
+
+**Proposition**
+
+It should be true that with this definition we have an isomorphism of groups
+
+$$
+  K(C) \simeq \pi_0 \mathbf{K}(C)
+  \,.
+$$
+
+
 
 # Related entries #
  
