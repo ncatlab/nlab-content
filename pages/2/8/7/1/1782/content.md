@@ -4,3 +4,7 @@ A K-theory should be given by a sequence of [[functor]]s $K_i$ from some class o
 $$K_i(C)=\pi_i(\mathcal{K}(C)).$$  
 
 The $K$-theory space of $C$ in Quillen's version was obtained as a [[classifying space]] of the Quillen $Q$-construction applied to $C$. The $Q$-construction has been refined to more sophisticated [[delooping]] methods by Waldhausen, Karoubi and others.
+
+# References #
+
+* Charles Weibel, _The K-Book: An introduction to algebraic K-theory_ ([web](http://www.math.rutgers.edu/~weibel/Kbook.html))
