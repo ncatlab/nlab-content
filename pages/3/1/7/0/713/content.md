@@ -300,6 +300,10 @@ Get the plan?  If not, ask questions.  If so, try this:
 **Exercise.**  Look at the page on [[presheaf|presheaves]].  Find a 
 formula expressing every object in $\widehat{A}$ as a colimit of guys in the image of $Y$.  Copy that formula here.
 
+$$
+  F(-) = \int^{c \in C} F(c) \times hom_C(-,c)
+$$
+
 This reference might also give helpful clues:
 
 * Daniel Dugger, _Sheaves and Homotopy Theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
