@@ -51,6 +51,59 @@ A **homotopy quantum field theory** is  a [[symmetric monoidal functor]] from $\
 
 However let us also give here a more basic definition of a homotopy quantum field theory.
 
+##Less categorical definition of HQFTs##
+
+ A **$(n + 1)$-dimensional homotopy quantum field theory**, $\tau$, with background $B$  assigns 
+
+* to any $n$-dimensional $B$-manifold, $(X,g)$, a vector space, $\tau{(X,g)}$, 
+
+* to any $B$-isomorphism, $\phi : (X, g) \to ( Y, h)$, of $n$-dimensional $B$-manifolds, a $K$-linear isomorphism $\tau(\phi)  : \tau{(X, g)} \to \tau{( Y, h)}$,\\ 
+
+ and
+
+* to any $B$-cobordism, $(W,F) : (X_0,g_0) \to (X_1,g_1)$, a $K$-linear transformation, $\tau(W) : \tau{(X_0,g_0)} \to \tau{(X_1,g_1)}$.
+
+These assignments are to satisfy the following axioms:
+
+1. $\tau$ is functorial in $\mathbf{Man}(n,B)$, i.e., for two $B$-isomorphisms, $\psi: (X, g) \to ( Y, h)$ and $\phi : ( Y, h) \to (P,j)$, we have $\tau(\phi\psi) = \tau(\phi)\tau(\psi),$
+and if $1_{(X,g)}$ is the identity $B$-isomorphism on $(X,g)$, then $\tau(1_{(X,g)}) = 1_{\tau{(X,g)}}$
+
+ 1.  There are natural isomorphisms
+$$c_{(X,g),(Y,h)} : \tau((X,g)\amalg (Y,h)) \cong \tau(X,g)\otimes \tau(Y,h),$$
+and an isomorphism, $u : \tau(\emptyset) \cong K$, that satisfy the usual axioms for a [[symmetric monoidal functor]].
+
+1.  For $B$-cobordisms, $(W,F) : (X,g) \to (Y,h)$ and $(V,G): (Y^\prime, h^\prime) \to (P,j)$ glued along a $B$-isomorphism $\psi :(Y,h) \to (Y^\prime,h^\prime)$, we have 
+$\tau((W,F)\amalg_\psi (V,G))= \tau(V,G)\tau(\psi)\tau(W,F).$
+
+1.  For the identity $B$-cobordism, $1_{(X,g)} = (I\times X, 1_g)$, we have 
+$\tau( 1_{(X,g)}) = 1_{\tau(X,g)}.$
+
+1.  For $B$-cobordisms $(W,F) : (X,g) \to (Y,h)$ and $(V,G) : (X^\prime,g^\prime) \to (Y^\prime,h^\prime)$ and $(P,J): \emptyset \to \emptyset$, some fairly obvious diagrams are commutative.
+
+##Discussion##
+*  These axioms are slightly different from those given in the original paper of Turaev in 1999.  The really significant difference is in axiom 4, which is weaker than as originally formulated, where any $B$-cobordism structure on $I \times X$ was considered as trivial.  The effect of this change is important as it is now the case that the HQFT is determined by the $(n+1)$-type of $B$, cf. Rodrigues (2003). 
+
+* With the revised version of the axioms, it becomes possible to attempt to classify HQFTs with a given $n$ and $B$. Turaev did this in the original paper with $n = 2$ and $B$ an [[Eilenberg-MacLane space]], $K(G,1)$.  The results of Brightwell and Turner essentially gave the solution for $B$ a $K(A,2)$.
+
+
+
+### References### 
+
+*  V. Turaev, Homotopy field theory in dimension 2 and group-algebras, preprint arXiv: 
+math.QA/9910010 
+
+* V. Turaev, Homotopy field theory in dimension 3 and crossed group-categories, preprint 
+arXiv:math.GT/0005291 v1. 
+
+* M. Brightwell and P. Turner, Representations of the homotopy surface category of a simply 
+connected space, J. Knot Theory and its Ramifications, 9 (2000), 855-864. 
+
+* G. Rodrigues. Homotopy Quantum Field Theories and the Homotopy Cobordism Category 
+in Dimension 1 + 1, J. Knot Theory and its Ramifications, 12 (2003) 287-317 (previously 
+available on the arXiv: math.QA/0105018). 
+
+* T.Porter and V. Turaev, Formal Homotopy Quantum Field Theories, I: Formal Maps and Crossed $C$-algebras, Journal of Homotopy and Related Structures 3(1), 2008, 113 - 159. (ArXiv: math.QA/0512032).
+
 
 
 
