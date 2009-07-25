@@ -34,6 +34,8 @@ I\'m actually halfway through writing an article [[differential form]] where I w
 [[Eric]]: I look forward to it! By the way, that Usenet discussion was a nice blast from the past :)
 
 [[Eric]]: I put some comments about that discussion [here](http://ncatlab.org/ericforgy/show/Densitized+Pseudo+Twisted+Forms).
+
+_Toby_:  I should note that, even given what I wrote above, there is still a *slight* clash of notation between measure theory and differential topology.  To fix this, the $\mathrm{d}x$ in (eq:full) could be replaced with $|\mathrm{d}x|$.  This has to do with the whole the-absolute-value-of-an-$n$form-is-an-$n$pseudoform and integration-of-$n$pseudoforms-is-more-fundamental-than-integration-of-$n$forms issue.  I referred to this clash of notation in our Usenet conversation [here](http://groups.google.com/group/sci.physics.research/msg/e7432a7baad8eac2?dmode=source).
 =--
 
 ## Definitions
@@ -85,4 +87,6 @@ The functions which are 0 almost everywhere form a closed linear subspace $Null$
 #Discussion#
 
 [[Eric]]: Some day this should hopefully tie into the beautiful stuff on [[Leinster measure]] ([blog](http://golem.ph.utexas.edu/category/2007/03/canonical_measures_on_configur_1.html)).
+
+
 [[!redirects measure spaces]]
