@@ -44,7 +44,7 @@ I'm not entirely sure that the axiom of choice is needed to prove the last equiv
 
 * The direct [[image]] of a compact subspace under a continuous map is compact. Thus any topological space becomes a [[bornological space]] by taking the bounded sets to be compact subspaces. 
 
-* In the presence of compactness, the following three [[separation axioms]] are equivalent: $T_2, T_3, T_4$. That is, a compact Hausdorff space must be normal.
+* In the presence of compactness, the following three [[separation axioms]] are equivalent: $T_2, T_3, T_4$. That is, a compact Hausdorff space must be [[normal space|normal]].
 
 One often wishes to study compact [[Hausdorff space]]s.  For locales, one usually speaks of compact *regular* locales; these are equivalent (since every locale is $T_0$ and hence $T_3$ if regular) since regularity is easier to formulate and handle than Hausdorffness.
 
