@@ -44,6 +44,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * Added more to questions on [[measure space]]. Whenever I see a long convoluted definition, e.g. [[measurable space]], I tend to think there should be some short, concise, arrow theoretic description that incorporates all the little factoids into one pretty picture. A wild guess (that I know is wrong, but hopefully inspires someone to write down what is right): a [[measurable space]] is some kind of [[presheaf]] or maybe a [[representation]] on ????.
 
+* [[John Baez]]: the definition of measurable space is pretty darn simple and quick: it's a set with a collection of subsets that's closed under complements and countable unions.  Such a collection is usually called a $\sigma$-algebra, and all this is explained pretty early on in the page [[measurable space]].  Whoever wrote the longer discussion below was just having fun analyzing the definition into little bite-sized pieces   (I have my guess as to who this might be.) 
+
 * [[Tom Ellis]] created [[extremal monomorphism]]
 
 * [[Urs Schreiber]]
