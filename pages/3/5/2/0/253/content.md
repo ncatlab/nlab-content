@@ -6,6 +6,9 @@ A **bicategory** is a particular [[algebraic definition of higher category|algeb
 _Sebastian_: Is there a formal meaning of _weak enrichment_? If not, is there at least a method how to get the definition of a weak $n$-category if I know the definition of a (strict) $n$-category?
 
 Of course, I have recognised that there are actually different definitions of what a weak n-category should be... so to give my question a bit more precision: How do I get a definition of a weak $n$-category that is as close as possible to the definition of a strict $n$-category? The weak $n$-category should be what you call "globular", I think. (Are there different definitions of globular (weak or strict) n-categories?)
+
+[[John Baez]]: globular strict n-categories have been understood since time immemorial, or at least around 1963, and there is just one reasonable definition.   Globular weak n-categories were defined in the 1990s by Michael Batanin, and his theory relates them quite nicely to the globular strict ones.  (I think this discussion should be move over to some page on n-categories, since it's not really about bicategories.)
+
 =--
 
 # Definition #
