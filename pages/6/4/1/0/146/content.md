@@ -63,11 +63,7 @@ $$
    F \simeq colim_{(Y(V) \to F) \in C_F} (Y\circ p)
   \,.
 $$
-+--{.query}
-[[Eric]]: Is there a missing "-" from the right hand side of the above expression?
 
-[[Mike Stay]]: No, there's an extra one on the left.  $F(-)$ is just $F.$  (Now fixed.)
-=--
 To see this notice that for every $B \in [C^{op}, Set]$
 and using the property of the Hom we have
 $$
