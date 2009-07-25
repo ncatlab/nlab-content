@@ -84,7 +84,7 @@ As a matter of fact, a significant theorem is that a topology is the uniform top
 
 * For a uniform space, the following separation conditions are equivalent: $T_0$ (the topology distinguishes points), $T_1$ (points are closed), $T_2$ (Hausdorff), $T_3$ (regular Hausdorff), $T_{3\frac1{2}}$ (completely regular Hausdorff). Of course, this follows from the fact that it is completely regular.
 
-* The category $Unif$ of uniform spaces admits arbitrary small [[product]]s (which are preserved by the forgetful functors to [[Top]] and to [[Set]]). Hence it is not generally true that uniform spaces are normal (so that separated ones would be $T_4$), because for instance an uncountable power of the real line with its usual topology is not a normal space.
+* The category $Unif$ of uniform spaces admits arbitrary small [[product]]s (which are preserved by the forgetful functors to [[Top]] and to [[Set]]). Hence it is not generally true that uniform spaces are [[normal space|normal]] (so that separated ones would be $T_4$), because for instance an uncountable power of the real line with its usual topology is not a normal space.
 
 A second wave of results relates uniform spaces to pseudo[[metric space]]s (like metric spaces, but dropping the separation axiom that $d(x, y) = 0$ implies $x = y$):
 
