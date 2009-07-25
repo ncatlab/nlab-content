@@ -36,6 +36,8 @@ I\'m actually halfway through writing an article [[differential form]] where I w
 [[Eric]]: I put some comments about that discussion [here](http://ncatlab.org/ericforgy/show/Densitized+Pseudo+Twisted+Forms).
 
 _Toby_:  I should note that, even given what I wrote above, there is still a *slight* clash of notation between measure theory and differential topology.  To fix this, the $\mathrm{d}x$ in (eq:full) could be replaced with $|\mathrm{d}x|$.  This has to do with the whole the-absolute-value-of-an-$n$form-is-an-$n$pseudoform and integration-of-$n$pseudoforms-is-more-fundamental-than-integration-of-$n$forms issue.  I referred to this clash of notation in our Usenet conversation [here](http://groups.google.com/group/sci.physics.research/msg/e7432a7baad8eac2?dmode=source).
+
+[[Eric]]: It's starting to come back to me now. Yeah, the _measure_ is really a pseudo $n$-form and we settled on the notation $|dx|$ for that. We should at least give a nod to that idea I think in the above.
 =--
 
 ## Definitions
