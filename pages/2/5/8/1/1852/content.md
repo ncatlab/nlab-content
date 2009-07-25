@@ -1,4 +1,4 @@
-A normal space is a space (typically a [[topological space]]) which satsifies one of the stronger [[separation axiom]]s.
+A normal space is a space (typically a [[topological space]]) which satsifies one of the stronger [[separation axioms]].
 
 ## Defintions
 
