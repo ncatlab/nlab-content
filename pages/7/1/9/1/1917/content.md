@@ -90,19 +90,19 @@ $\tau( 1_{(X,g)}) = 1_{\tau(X,g)}.$
 ### References### 
 
 *  V. Turaev, Homotopy field theory in dimension 2 and group-algebras, preprint arXiv: 
-math.QA/9910010 
+[arXiv:math.QA/9910010](http://arxiv.org/abs/math.QA/9910010)
 
 * V. Turaev, Homotopy field theory in dimension 3 and crossed group-categories, preprint 
-arXiv:math.GT/0005291 v1. 
+[arXiv:math.GT/0005291v1](http://arxiv.org/abs/math.GT/0005291v1). 
 
 * M. Brightwell and P. Turner, Representations of the homotopy surface category of a simply 
-connected space, J. Knot Theory and its Ramifications, 9 (2000), 855-864. 
+connected space, J. Knot Theory and its Ramifications, 9 (2000), 855--864. 
 
 * G. Rodrigues. Homotopy Quantum Field Theories and the Homotopy Cobordism Category 
-in Dimension 1 + 1, J. Knot Theory and its Ramifications, 12 (2003) 287-317 (previously 
-available on the arXiv: math.QA/0105018). 
+in Dimension 1 + 1, J. Knot Theory and its Ramifications, 12 (2003) 287--317 (previously 
+available as [arXiv:math.QA/0105018](http://arxiv.org/abs/math.QA/0105018)). 
 
-* T.Porter and V. Turaev, Formal Homotopy Quantum Field Theories, I: Formal Maps and Crossed $C$-algebras, Journal of Homotopy and Related Structures 3(1), 2008, 113 - 159. (ArXiv: math.QA/0512032).
+* T.Porter and V. Turaev, Formal Homotopy Quantum Field Theories, I: Formal Maps and Crossed $C$-algebras, Journal of Homotopy and Related Structures 3(1), 2008, 113--159. ([arXiv:math.QA/0512032](http://arxiv.org/abs/math.QA/0512032)).
 
 
 
