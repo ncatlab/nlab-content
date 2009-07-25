@@ -28,3 +28,7 @@ In constrast to topological QFTs, non-topological quantum field theries in the [
 * [[Reshetikhin-Turaev model]]
 
 * [[Turaev-Viro model]]
+
+#Homotopy QFTs#
+ These somehow lie between the previous two types. There is some simple extra structure in the form of a 'characteristic map' from the manifolds and bordisms to a 'background space' $X$. 
+In many of the simplest examples, this is taken to be the [[classifying space]] of a group, but this is not the only case that can be considered.  The topic is explored more fully in [[HQFT]]. 
