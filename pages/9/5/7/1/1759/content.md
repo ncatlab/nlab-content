@@ -9,6 +9,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-25
 
+*  [[Tim]]:  I have started  an entry on [[HQFTs]].  Initially this will summarise Turaev's theory, but I hope to get a bit more daring later on. I hope someone will tell me (then) if I am talking through my hat.  (I rarely wear one.)
+
+
 *  [[Toby Bartels]]:  Comments for Eric at [[measure space]] and [[Eric Forgy:Densitized Pseudo Twisted Forms|on his web]].
 
 
