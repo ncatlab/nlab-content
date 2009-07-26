@@ -1,6 +1,3 @@
-[[!redirects loop(algebra)]]
-
-
 A _quasigroup_ is a generalization of a [[group]] without the associativity law.  (More precisely, a quasigroup has neither binary nor nullary associativity, that is no identity element either.  If you keep the identity element, then you get a _loop_.)
 
 Note that, in the absence of associativity, it\'s not enough (even for a loop) to say that every element has an [[inverse element]] (on either side); instead, you must say that division is always possible.  This is because the definition $x/y = x y^{-1}$ won\'t work right without associativity.
@@ -53,3 +50,7 @@ A __[[group]]__ is an associative loop.
 *  Any group is a loop, of course.
 *  Any [[abelian group]] is a quasigroup in two other ways: the product switches places with one of the quotients.  (The other quotient remains a quotient.)
 *  The nonzero elements of a (not necessarily associative) [[division algebra]] (such as the [[octonion]]s) form a quasigroup; this fact is basically the definition of 'division algebra'.
+
+
+[[!redirects loop(algebra)]]
+[[!redirects quasigroups]]
