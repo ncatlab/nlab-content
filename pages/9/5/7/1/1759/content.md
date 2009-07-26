@@ -7,6 +7,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 
+## 2009-07-26
+
+*  [[Todd Trimble]] wrote [[generalized multicategory]].
+
+*  [[Toby Bartels]] wrote [[separation axioms]] (and a stub at [[disjoint sets]]).
+
+
 ## 2009-07-25
 
 *  [[John Baez]] wrote comments on [[isomorphism]], [[bicategory]], [[measure space]], and under a July 24 comment of Eric\'s here.  Toby has responded to all of them except the one at <span>bicategory</span>.
