@@ -12,15 +12,26 @@ We assume the law of [[excluded middle]] throughout; see below for the construct
 
 ### Short version ###
 
-Given a set $X$, a __$\sigma$-algebra__ is a collection of subsets of $X$ that is closed under [[complement]], [[countable]] unions, and countable intersections.  A __measurable space__, by the usual modern defintion, is a set $X$ equipped with a $\sigma$-algebra $\Sigma$.  The elements of $\Sigma$ are called the __measurable subsets__ of $X$ (or more properly, the measurable sets of $(X,\Sigma)$).
+Given a [[set]] $X$, a __$\sigma$-algebra__ is a collection of subsets of $X$ that is closed under [[complement|complementation]], [[countable set|countable]] [[unions]], and countable [[intersections]].  A __measurable space__, by the usual modern defintion, is a set $X$ equipped with a $\sigma$-algebra $\Sigma$.  The elements of $\Sigma$ are called the __measurable subsets__ of $X$ (or more properly, the measurable sets of $(X,\Sigma)$).
 
-Given a [[set]] $X$, the [[power set]] $P X$ of $X$ is a [[Boolean algebra]] under the operations of [[finite set|finitary]] [[union]], [[intersection]], and [[complement|complementation]].  Actually, it is a [[complete lattice|complete]] Boolean algebra, since we can also take arbitrary unions and intersections.  A $\sigma$-algebra is an intermediate notion, since in addition to being closed under complementation, we only require that it be closed under [[countable set|countable]] unions and intersections.
+Notice that the [[power set]] $P X$ of $X$ is a [[Boolean algebra]] under the operations of [[finite set|finitary]] union, intersection, and complementation.  Actually, it is a [[complete lattice|complete]] Boolean algebra, since we can also take arbitrary unions and intersections.  A $\sigma$-algebra is an intermediate notion, since (in addition to being closed under complementation) we only require that it be closed under *countable* unions and intersections.
+
 
 ### Long version ###
 
 **Warning: some material in this section could be considered [[centipede mathematics]]**
 
 ![a pic](http://math.ucr.edu/home/baez/centipede.jpg)
+
++-- {: .query}
+Obviously it *could* be considered that, but I think that it would be historically inaccurate to do so.
+
+These were all proposed *before* $\sigma$-algebras became standard.  It is not as if Kolmogorov started with $\sigma$-algebras and we started pulling off the legs, finding that $\delta$-rings could still walk (and that rings could still walk if we only want finitely-additive measures).  On the contrary, Kolmogorov started with rings (I need to check this, it might have been algebras or $\delta$-rings, I was just looking at his book in the UCR library) and *then* people started adding features (principally as they became less afraid of calculating with $\infty$, I think).  So it\'s not so much that the centipede above is a nice healthy $\sigma$-algebra while a $\delta$-ring is crippled; it\'s more that a $\delta$-ring is a perfectly good lion while a $\sigma$-algebra is this:
+
+<img src="http://www.iai.uni-bonn.de/~idea/chimera.gif" alt="" width="208" />
+
+---Toby
+=--
 
 Given a [[set]] $X$ and a collection $\Sigma$ of [[subset]]s $S \subseteq X$, we will always use the term 'measurable' to describe an element of $\Sigma$.  There are really several kinds of collections that $\Sigma$ could be:
 
@@ -117,7 +128,7 @@ So we need an uncountable number of steps, not just two.
 
 (This is only the beginning of descriptive set theory; our $\Sigma_\alpha$ are their $\Sigma^0_\alpha$ ---except that for some reason they start with $\Sigma^0_1$ instead of $\Sigma^0_0$---, and the subject continues to higher values of the superscript.)
 
-Note that [[countable choice]] is essential here and elsewhere in measure theory, to show that a countable union of a countable union is a countable union.  But the full [[axiom of choice]] is not; in fact, much of descriptive set theory (although not the small portion above) works better with the [[axiom of determinacy]] instead.
+Note that [[countable choice]] is essential here and elsewhere in measure theory, to show that a countable union of a countable union is a countable union.  But the full [[axiom of choice]] is not; in fact, much of descriptive set theory (although this is irrelevant to the small portion above) works better with the [[axiom of determinacy]] instead.
 
 
 ## Examples
