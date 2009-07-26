@@ -9,6 +9,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-26
 
+*  [[John Baez]] 
+
+   *  asked a question about notation near the top of [[Tall-Wraith monoid]], and tried to polish the proof that a Tall-Wraith monoid in abelian groups is just a ring, and enjoyed bickering a bit more with Andrew Stacey in the big green box near the bottom.
+
+   * had some fun with [[centipede mathematics]] - see also my reply to Toby below.
+
 *  [[Todd Trimble]] wrote [[generalized multicategory]], and added a reference at [[Crans-Gray tensor product]] to Sjoerd Crans's papers. Guessed that his papers on teisi might be relevant to an inquiry Mike Shulman made there. 
 
 *  [[Toby Bartels]] wrote [[separation axioms]] (and a stub at [[disjoint sets]]).
@@ -56,6 +62,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
   * [[John Baez]]: the definition of measurable space is pretty darn simple and quick: it's a set with a collection of subsets that's closed under complements and countable unions.  Such a collection is usually called a $\sigma$-algebra, and all this is explained pretty early on in the page [[measurable space]].  Whoever wrote the longer discussion below was just having fun analyzing the definition into little bite-sized pieces   (I have my guess as to who this might be.) 
 
     *  [[Toby Bartels]]:  Guilty as charged.
+
+    * [[John Baez]]: The guilty conscience need not be accused by name.  I think we should warn the reader when we go off on an excursion like this.  Perhaps just a warning like: **The following passage might be considered [[centipede mathematics]]**, together with a small version of the following picture.  I wish I knew how to center a picture!
+
+![A pic](http://newsimg.bbc.co.uk/media/images/41069000/jpg/_41069480_centipede_pa_ok2.jpg)  
 
 * [[Tom Ellis]] created [[extremal monomorphism]]
 
