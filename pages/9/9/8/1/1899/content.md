@@ -45,14 +45,14 @@ That's a complicated way of saying that $V$ represents a covariant functor $V Al
 Precomposing this with the functor represented by $P$ yields again a covariant functor $V Alg \to Set$.
 This is again representable and we write its representing object $P \odot A$.
 
-As an aside, we note that this defines a bifunctor $VV^c \times V \to V$ which is an action of the monoidal category $VV^c$ on $V$ (here $VV^c$ is the category of co-$V$-algebra objects in $V$).
+As an aside, we note that this defines a bifunctor $V V^c \times V \to V$ which is an action of the monoidal category $V V^c$ on $V$ (where $V V^c$ is the category of co-$V$-algebra objects in $V$).
 This can be extended to an action of $VV^c$ on the categories of $V$-algebra and co-$V$-algebra objects in a reasonably arbitrary base category.
 
 +-- {: .query}
-[[John Baez]]: what's $VV^c$?  I don't see it defined here.
+[[John Baez]]: what's $V V^c$?  I don't see it defined here.
 And what's $V^c$ --- the opposite category?  I think we call that $V^{op}$ around here.
 
-[[Andrew Stacey]]: Ooops!  Sorry.  $VV^c$ is my notation for the category of co-V-objects in V.  In _Hopf_, we used this sort of incremental notation: $DV$ is V-objects in $D$, $DV^c$ is co-V-objects in $D$, $DVV^c$ is co-V-objects in V-objects in $D$, and so forth.  We found it useful notation.  It's hard to rewrite that sentence without some notation but if there's something more standard then someone should change it to that.  I'm not sure if it fits in a separate definition so I've just put an explanatory sentence in parenthesis for now.
+[[Andrew Stacey]]: Ooops!  Sorry.  $V V^c$ is my notation for the category of co-$V$-objects in $V$.  In _Hopf_, we used this sort of incremental notation: $D V$ is $V$-objects in $D$, $D V^c$ is co-$V$-objects in $D$, $D V V^c$ is co-$V$-objects in $V$-objects in $D$, and so forth.  We found it useful notation.  It's hard to rewrite that sentence without some notation but if there's something more standard then someone should change it to that.  I'm not sure if it fits in a separate definition so I've just put an explanatory sentence in parenthesis for now.
 
 =--
 
