@@ -9,6 +9,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-26
 
+* [[Mike Shulman|Mike]]: A couple of comments at [[small object argument]].
+
 *  [[Toby Bartels]]:
    *  Tricked up John\'s picture at [[centipede mathematics]], based on code found at [[Jacques Distler]].
    *  Objected to the charge of centipede mathematics at [[measurable space]], on the grounds of historical inaccuracy.
