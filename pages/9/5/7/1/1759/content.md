@@ -15,6 +15,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
    * had some fun with [[centipede mathematics]] - see also my reply to Toby below.
 
+   * deleted query by Rafael over on [[category]], which had been answered by me and untouched for a while.   He'd asked about 'categories as 1d CW complexes', but I think the item on categories as 'directed graphs with composition law' now answers that --- even for people who don't know what a CW complex is.
+
+   * reduced the number of appearances of the word 'isic' over on [[isomorphisms]]; while it's fun to make up new jargon, I don't think we should actually use 'isic' when explaining concepts when 'invertible' will do.  We don't want to convey an impression of quirkiness, and we don't want to require the reader to look through the whole page to understand new jargon when well-known jargon already exists.
+
+    * deleted discussion by Toby and Tom over at [[regular monomorphism]], since Tom said it was okay to do so, and some time has passed.
+
 *  [[Todd Trimble]] wrote [[generalized multicategory]], and added a reference at [[Crans-Gray tensor product]] to Sjoerd Crans's papers. Guessed that his papers on teisi might be relevant to an inquiry Mike Shulman made there. 
 
 *  [[Toby Bartels]] wrote [[separation axioms]] (and a stub at [[disjoint sets]]).
@@ -65,7 +71,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
     * [[John Baez]]: The guilty conscience need not be accused by name.  I think we should warn the reader when we go off on an excursion like this.  Perhaps just a warning like: **The following passage might be considered [[centipede mathematics]]**, together with a small version of the following picture.  I wish I knew how to center a picture!
 
-![A pic](http://newsimg.bbc.co.uk/media/images/41069000/jpg/_41069480_centipede_pa_ok2.jpg)  
+![A pic](http://math.ucr.edu/home/baez/centipede.jpg)  
 
 * [[Tom Ellis]] created [[extremal monomorphism]]
 
