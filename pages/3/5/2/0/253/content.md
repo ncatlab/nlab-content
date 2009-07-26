@@ -2,15 +2,6 @@
 
 A **bicategory** is a particular [[algebraic definition of higher category|algebraic]] notion of _weak [[2-category]]_ (in fact, the earliest to be formulated, and still the one in most common use).  The idea is that a bicategory is a category _weakly_ [[enriched category|enriched]] over [[Cat]]: the [[hom-objects]] of a bicategory are [[hom-category|hom-categories]], but the associativity and unity laws of [[enriched category|enriched categories]] hold only up to coherent isomorphism.
 
-+-- {: .query}
-_Sebastian_: Is there a formal meaning of _weak enrichment_? If not, is there at least a method how to get the definition of a weak $n$-category if I know the definition of a (strict) $n$-category?
-
-Of course, I have recognised that there are actually different definitions of what a weak n-category should be... so to give my question a bit more precision: How do I get a definition of a weak $n$-category that is as close as possible to the definition of a strict $n$-category? The weak $n$-category should be what you call "globular", I think. (Are there different definitions of globular (weak or strict) n-categories?)
-
-[[John Baez]]: globular strict n-categories have been understood since time immemorial, or at least around 1963, and there is just one reasonable definition.   Globular weak n-categories were defined in the 1990s by Michael Batanin, and his theory relates them quite nicely to the globular strict ones.  (I think this discussion should be move over to some page on n-categories, since it's not really about bicategories.)
-
-=--
-
 # Definition #
 
 A **bicategory** $B$ consists of
@@ -54,5 +45,28 @@ Moreover, in most cases the prefix is unnecessary, since once we know we are wor
 
 When we do have a strict 2-category, however, other strict notions can be quite technically useful, even if our ultimate interest is in the weak ones.  This is somewhat analogous to the use of strict structures to model weak ones in [[homotopy theory]]; see [here](http://arxiv.org/abs/math/0702535) and [here](http://arxiv.org/abs/math/0607646) for good introductions to this sort of thing.
 
+# Discussion #
+
+This is about the use of the term "weak enrichment" above:
+
+_Sebastian_: Is there a formal meaning of _weak enrichment_? 
+
+[[John Baez]]: Yes there is; indeed Clark Barwick is writing a huge book on this.
+
+_Sebastian_: If not, is there at least a method how to get the definition of a weak $n$-category if I know the definition of a (strict) $n$-category?
+
+[[John Baez]]: that sounds harder!  That's like pushing a rock uphill.  It's easier to go down from weak to strict.
+
+_Sebastian_: Of course, I have recognised that there are actually different definitions of what a weak n-category should be... so to give my question a bit more precision: How do I get a definition of a weak $n$-category that is as close as possible to the definition of a strict $n$-category? The weak $n$-category should be what you call "globular", I think. (Are there different definitions of globular (weak or strict) n-categories?)
+
+[[John Baez]]: globular strict n-categories have been understood since time immemorial, or at least around 1963, and there is just one reasonable definition.   Globular weak n-categories were defined in the 1990s by Michael Batanin, and his theory relates them quite nicely to the globular strict ones.   But there is also a _different_ definition of globular weak n-categories due to Penon.  It had a mistake in it which has now been fixed.
+
+From the preface to [[johnbaez:Towards Higher Categories|Towards Higher Categories]]:
+
+There is a quite different and more extensively developed operadic approach to globular [[nlab:weak omega-category|weak infinity-categories]] due to Batanin (Bat1, Str2), with a variant due to Leinster (Lein3).  Penon (Penon) gave a related, very compact definition of infinity-category; this definition was later corrected and improved by Batanin (Bat2) and Cheng and Makkai (ChMakkai).
+
+You can get the references there.
+
+I think this discussion should be moved over to some page on n-categories, since it's not really about bicategories.
 
 [[!redirects bicategories]]
