@@ -9,6 +9,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-26
 
+*  [[John Baez]]: inserted centipedes in [[quasigroup]], [[magma]], and the section on weakened definitions in [[group]].  Made a few other small changes in these.
+
 *  [[Toby Bartels]]:
    *  Rearranged the introduction to [[group]], including some stuff that John originally put at [[centipede mathematics]].
    *  Merged [[semigroups]] (now [[semigroups -- history]]) into [[semigroup]], as John describes below.
