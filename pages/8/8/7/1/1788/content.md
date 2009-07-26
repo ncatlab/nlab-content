@@ -433,6 +433,7 @@ $\mathcal{abcdefghijklmnopqrstuvwxyz}$
 
 [[∞-groupoid]]
 
+Dead or alive?
 
 ***
 
