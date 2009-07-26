@@ -45,12 +45,14 @@ That's a complicated way of saying that $V$ represents a covariant functor $V Al
 Precomposing this with the functor represented by $P$ yields again a covariant functor $V Alg \to Set$.
 This is again representable and we write its representing object $P \odot A$.
 
-As an aside, we note that this defines a bifunctor $VV^c \times V \to V$ which is an action of the monoidal category $VV^c$ on $V$.
+As an aside, we note that this defines a bifunctor $VV^c \times V \to V$ which is an action of the monoidal category $VV^c$ on $V$ (here $VV^c$ is the category of co-$V$-algebra objects in $V$).
 This can be extended to an action of $VV^c$ on the categories of $V$-algebra and co-$V$-algebra objects in a reasonably arbitrary base category.
 
 +-- {: .query}
 [[John Baez]]: what's $VV^c$?  I don't see it defined here.
 And what's $V^c$ --- the opposite category?  I think we call that $V^{op}$ around here.
+
+[[Andrew Stacey]]: Ooops!  Sorry.  $VV^c$ is my notation for the category of co-V-objects in V.  In _Hopf_, we used this sort of incremental notation: $DV$ is V-objects in $D$, $DV^c$ is co-V-objects in $D$, $DVV^c$ is co-V-objects in V-objects in $D$, and so forth.  We found it useful notation.  It's hard to rewrite that sentence without some notation but if there's something more standard then someone should change it to that.  I'm not sure if it fits in a separate definition so I've just put an explanatory sentence in parenthesis for now.
 
 =--
 
@@ -66,26 +68,26 @@ One postscript to this is that although the category of co-$V$-algebra objects i
 
 * If $V$ is the theory of [[abelian group|abelian groups]], than a $V$-algebra is an abelian group, and the corresponding sort of Tall--Wraith $V$-monoid is a [[ring]].
 
-To understand the last example, we need to think about _co-abelian group objects in the category of abelian groups_.  Abstractly, such a thing is an abelian group object [[internalization|internal to]] $AbGp^{op}$. Concretely, such a thing is an abelian group $A$ together with group homomorphisms
+  To understand the last example, we need to think about _co-abelian group objects in the category of abelian groups_.  Abstractly, such a thing is an abelian group object [[internalization|internal to]] $AbGp^{op}$. Concretely, such a thing is an abelian group $A$ together with group homomorphisms
 
-$$
-\Delta : A \to A \coprod A, $$
-$$\epsilon : A \to I $$
+  $$
+  \Delta : A \to A \coprod A, $$
+  $$\epsilon : A \to I $$
 
-where $I$ is the initial object in the category of abelian groups.  These homomorphisms must satisfy certain laws: just the abelian group axioms written out diagrammatically, with all the arrows turned around.
+  where $I$ is the initial object in the category of abelian groups.  These homomorphisms must satisfy certain laws: just the abelian group axioms written out diagrammatically, with all the arrows turned around.
 
-In fact, $I = \{0\}$.  Thus $\epsilon$ is forced to be the map that sends everything to $0$: we have no choice here.
+  In fact, $I = \{0\}$.  Thus $\epsilon$ is forced to be the map that sends everything to $0$: we have no choice here.
 
-We also have that $A \coprod A = A \oplus A$.
+  We also have that $A \coprod A = A \oplus A$.
 That means that for $a \in A$, $\Delta(a) = (a_1,a_2)$ for some $a_1, a_2 \in A$.  Now, one of the laws says that $\epsilon$ is a counit for $\Delta$. This means that $(\epsilon \oplus 1) \Delta = 1$ and similarly for $1 \oplus \epsilon$. Thus $a_1 = a_2 = a$ and $\Delta$ is the diagonal map.  So, we have no choice here either.
 
-Indeed, it is easy to show that the triple $(A, \Delta, \epsilon)$ with $\Delta$ the diagonal map and $\epsilon$ the zero map _is_ a co-abelian group object in the category of abelian groups.  Thus the category of co-abelian group objects in the category of abelian groups is isomorphic, via the obvious forgetful functor, to the category of abelian group objects.
+  Indeed, it is easy to show that the triple $(A, \Delta, \epsilon)$ with $\Delta$ the diagonal map and $\epsilon$ the zero map _is_ a co-abelian group object in the category of abelian groups.  Thus the category of co-abelian group objects in the category of abelian groups is isomorphic, via the obvious forgetful functor, to the category of abelian group objects.
 
-(Indeed, our argument here has shown more generally that if $X$ is a category with finite products, the category of comonoid objects in $X$ is equivalent to $X$.  Something about $AbGp$ is making these comonoid objects be co-abelian group objects.)
+  (Indeed, our argument here has shown more generally that if $X$ is a category with finite products, the category of comonoid objects in $X$ is equivalent to $X$.  Something about $AbGp$ is making these comonoid objects be co-abelian group objects.)
 
-It is part of the general theory that the category of co-$V$-objects in $V$ is monoidal (though not, in general, symmetric). For details on this see _The Hunting of the Hopf Ring_, referred to belelow.  This monoidal structure for abelian groups turns out to be the tensor product.
+  It is part of the general theory that the category of co-$V$-objects in $V$ is monoidal (though not, in general, symmetric). For details on this see _The Hunting of the Hopf Ring_, referred to belelow.  This monoidal structure for abelian groups turns out to be the tensor product.
 
-Thus a Tall--Wraith monoid for abelian groups is actually an ordinary monoid in the category of abelian groups: in other words, a [[ring]]!
+  Thus a Tall--Wraith monoid for abelian groups is actually an ordinary monoid in the category of abelian groups: in other words, a [[ring]]!
 
 # References #
 
@@ -128,6 +130,11 @@ For this reason, at some point I decided Jim Dolan was very wise to put everythi
 
 Even though I'll be eternally proud of that moment, I think it can be good to use a couple of different fonts in a given discussion to help 'set the types' of the entities in question --- hence the term 'typesetting'.  But this sort of distinction is only helpful _locally_: it's not so good to demand _globally_ consistent typesetting.  Your big fancy algebraic theory $\mathcal{A}$ is likely to become someone else's puny little object $a$ in $FinProdCat$, and then $FinProdCat$ will become a puny little object in $Doctrines$, and so on.
 
+[[Andrew Stacey]]: I take your point; I was aware that it would have been hard to continue further.  Whilst I have an old _Lettraset_ catalogue to draw on for blackboards, sadly it's not implemented in the STIX fonts.  But I would like to use the fonts we do have, and so Toby's point is more important that us squabbling over whether or not we should change $\mathcal{V}$ to $V$ or not.  If we're going to take this sort of thing into account then we need it clear somewhere since otherwise those of us fortunate enough to have the correct fonts don't know what doesn't display so well on other, more limited, systems!
+
+I did find it getting awkward in writing out the proof that a TW-monoid in abelian groups was a ring to talk of $A$ being an object of $V$.  I'd much rather have said $A$ is an object of $\mathcal{A}$.  So if we're allowed to use this sort of hierarchy locally, can I change it all back now?
+
+Linking this to your question above, for something like this where there is a fair amount of notation, what do you think of a "notation used in this page" section for easy reference?
 
 =--
 
