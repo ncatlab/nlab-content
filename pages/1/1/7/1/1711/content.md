@@ -162,6 +162,9 @@ $).
 JCMcKeown: not meaning to cause annoyance, but how about calling them "$+k$-transformations", owing to their incrementing dimensions by $k$; or if we don't like the $+$ prefix, one might call them $k$-vexilors, because they tend to generate flags of period $k$.
 
 _Toby_:  Interesting; can you explain more about how they generate flags?  (Maybe that\'s something to put in a new section here, or you could just give a reference.)
+
+[[JCMcKeown]]: Just from reading above ''... and more generally $j$-morphisms in $C$ to $(j+k)$-morphisms in $D$''... ahah! Now I see what you're getting at.  I've got my head fixed on _endo_-functors; where if you wanted to (I don't mean it's a *good* idea.  Who knows?) you can consider iterations of the underlying function that is the $+k$-transformation.
+
 =--
 
 
