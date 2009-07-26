@@ -9,6 +9,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-26
 
+* [[Andrew Stacey]]: continued the sparring at [[Tall-Wraith monoid]] (and answered the serious query).  I wish I'd known the fascination with centipedes earlier, we caught one today and I could have gotten a good picture of it.
+
 *  [[John Baez]]: inserted centipedes in [[quasigroup]], [[magma]], and the section on weakened definitions in [[group]].  Made a few other small changes in these.
 
 *  [[Toby Bartels]]:
