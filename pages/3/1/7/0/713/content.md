@@ -295,18 +295,29 @@ So $\widehat{F}$ is well on its way to being unique.
 
 But why does $\widehat{F}$ exist?  For this it will really be good to have a _formula_ expressing every object in $\widehat{A}$ as a colimit of guys in the image of $Y$.  As a side-effect this will prove fact 3.  But even better: thanks to fact 2, this formula will yield a formula for $\widehat{F}$.  And a formula is the best way to prove existence.
 
-Get the plan?  If not, ask questions.  If so, try this:
+[[Mike Stay]] Given categories $A, B$ and a profunctor $F: A \to B$, the fact that all objects in $B$ can be written as a sum over representables says
 
-**Exercise.**  Look at the page on [[presheaf|presheaves]].  Find a 
-formula expressing every object in $\widehat{A}$ as a colimit of guys in the image of $Y$.  Copy that formula here.
+$$\array{F:A  &\to& \hat{B}\\ a &\mapsto& \int_{b \in B} F(a)(b) \; \times \; hom(-, b)}$$
 
-[[Mike Stay]]: an object $f:A^{op} \to Set$ in $\widehat{A}$ can be written
+In a similar way, the Yoneda embedding says
 
-$$
-  f(-) = \int^{a \in A} f(a) \times hom_A(-,a).
-$$
+$$\array{Y:A &\to& \hat{A}\\ a &\mapsto& \int_{a' \in A} Y(a)(a') \times hom(-, a')\\&&= \int_{a' \in A} hom(a', a) \times hom(-, a')\\&&= hom(-, a)}$$
 
-_Toby_:  I wonder if you might do better using the other formula?  (The one that had an old comment after it that you just erased?)
+That is, the set of morphisms from $-$ to $a$ is the set of morphisms from $-$ to an intermediate object $a'$ times the morphisms from $a'$ to $a$, where $a'$ ranges over all possible objects in $A$.
+
+Doing the same for an arbitrary cocontinuous functor $G:\hat{A} \to \hat{B}$ says
+
+$$c = \int_{a \in A} c(a) \times hom(-, a)$$
+
+maps to
+
+$$G(x) = \int_{a \in A} \int_{b \in B} G(a)(b) \times hom(a, b) ) \times c(a) \times hom(-, a)$$
+
+which simplifies to
+
+$$G(x) = \int_{b \in B} \int_{a \in A} G(a)(b) \times c(a) \times hom(-, b)$$
+
+by taking $a$ as the midpoint between $-$ and $b$.  So $G$ is completely determined (up to isomorphism) by its values on the embedding of $A$.
 
 This reference might also give helpful clues:
 
