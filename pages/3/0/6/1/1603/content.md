@@ -9,7 +9,7 @@ Some consider these concept to be examples of [[centipede mathematics]] and unin
 
 >The meeting was dominated by algebraic loop theory.  It occured to me that as a way to use your intellectual resources this was very akin in significance to doing a difficult sudoku, a thought that was made very ironic when one speaker started making loops out of what were essentially sudoku squares.
 
-Nonetheless it can be instructive to ponder these concepts.
+Nonetheless it can be instructive to ponder these concepts, and there are some nontrivial examples.
 
 
 ## Definitions
