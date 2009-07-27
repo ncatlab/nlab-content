@@ -9,6 +9,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-27
 
+* [[Bruce Bartlett]]: Corrected a faulty link to the [nLab Stylish theme](http://userstyles.org/styles/17934) for FireFox at [[HowTo]]. Works now.
+
 * [[Urs Schreiber]]: 
 
   * thanks to [[Mike Shulman]] for the comments at [[small object argument]] -- we should give both statements, for the non-locally presentable category, then with that other extra assumption, as well as for the locally presentable case -- I'll work that in later (my notation was following Lurie, by the way, but I agree that it is a bit weird)
