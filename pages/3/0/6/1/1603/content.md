@@ -7,7 +7,9 @@ Note that, in the absence of associativity, it\'s not enough (even for a loop) t
 <div style="float:left;margin:0 10px 10px 0;"><img src="http://math.ucr.edu/home/baez/centipede.jpg" alt="" width="208" height="150" /> &nbsp; &nbsp;</div>
 
 +--{.query}
-_Zoran_ This picture is already at [[centipede mathematics]] and regarding that the entry quasigroup should expand by more meaningful graphs for them, and that we like lightweight wiki anyway (for backuping, downloading etc.), I would suggest to keep the picture only at a single place where it belongs -- at [[centipede mathematics]].  
+_Zoran_ This picture is already at [[centipede mathematics]] and regarding that the entry quasigroup should expand by more meaningful graphs for them, and that we like lightweight wiki anyway (for backuping, downloading etc.), I would suggest to keep the picture only at a single place where it belongs -- at [[centipede mathematics]].
+
+_Toby_:  As far as backing things up, this makes no difference; there\'s only one file on the servers.  Even when reading the wiki, your browser will only download it once as you go through pages.  However, as a matter of style, I agree that the picture does not work very well most places that John put it, including here.  (I think that John may have been in a silly mood yesterday.)
 =--
 
 Some consider these concept to be examples of [[centipede mathematics]] and uninteresting due to their lack of deep applications.  For example, one mathematician has written:
