@@ -1,4 +1,7 @@
-An **$n$-group** $G$ is the [[hom-object]] $G = Aut_{\mathbf{B}G}({*})$ of an [[n-groupoid]] $\mathbf{B}G$ with a single [[object]] ${*}$.
+An $n$-group is a [[group]] object [[internalization|internal to]] [[n-groupoid]]s.
+
+If it is [[delooping|deloopable]],
+an **$n$-group** $G$ is the [[hom-object]] $G = Aut_{\mathbf{B}G}({*})$ of an [[n-groupoid]] $\mathbf{B}G$ with a single [[object]] ${*}$.
 
 If $\mathbf{B}G$ is a [[strict omega-groupoid|strict n-groupoid]], then the corresponding $n$-group is called strict. Strict $n$-groups are equivalent to [[crossed complex]]es of groups, of length $n$.
 
