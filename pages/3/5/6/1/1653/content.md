@@ -1,9 +1,12 @@
-Measurable spaces are a necessary prelude to the general theory of measure and [[integration]].  Basically, a measurable space picks out those sets of a [[measure space]] that are 'measurable', regardless of what their actual measure is.  (Thus you get a measure space by placing a measure on a measurable space.)
+##Idea##
+
+Measurable spaces are a necessary prelude to the general theory of measure and [[integration]].  Basically, a measure is a recipe for computing the size --- e.g. length, area, volume --- of subsets of a given set $X$.  The structure of a 'measurable space' picks out those subsets of $X$ for which the size is well-defined.   These subsets are called 'measurable'.   A 'measure' on $X$ is then a recipe that assigns a number to each measurable subset saying how big it is.  
+
+In short: you get a [[measure space]] by placing a measure on a measurable space.
 
 Ideally, all subsets would be measurable, but this contradicts the [[axiom of choice]] for the basic example of [[Lebesgue measure]] on the [[real line]].  Although it is possible to use nonstandard [[foundations]] of mathematics in which all subsets of the real line are Lebesgue measurable, any general theory that includes that example and is more general than those foundations requires some notion of measurable space.
 
 In any case, measurable spaces are of some interest in their own right, even without a measure on them.
-
 
 ## Definitions ##
 
@@ -16,24 +19,7 @@ Given a [[set]] $X$, a __$\sigma$-algebra__ is a collection of subsets of $X$ th
 
 Notice that the [[power set]] $P X$ of $X$ is a [[Boolean algebra]] under the operations of [[finite set|finitary]] union, intersection, and complementation.  Actually, it is a [[complete lattice|complete]] Boolean algebra, since we can also take arbitrary unions and intersections.  A $\sigma$-algebra is an intermediate notion, since (in addition to being closed under complementation) we only require that it be closed under *countable* unions and intersections.
 
-
 ### Long version ###
-
-**Warning: some material in this section could be considered [[centipede mathematics]]** (although actually the history went the other way).
-
-+-- {: .query}
-Obviously it *could* be considered that, but I think that it would be historically inaccurate to do so.
-
-These were all proposed *before* $\sigma$-algebras became standard.  It is not as if Kolmogorov started with $\sigma$-algebras and we started pulling off the legs, finding that $\delta$-rings could still walk (and that rings could still walk if we only want finitely-additive measures).  On the contrary, Kolmogorov started with rings (I need to check this, it might have been algebras or $\delta$-rings, I was just looking at his book in the UCR library) and *then* people started adding features (principally as they became less afraid of calculating with $\infty$, I think).  So it\'s not so much that the centipede above is a nice healthy $\sigma$-algebra while a $\delta$-ring is crippled; it\'s more that a $\delta$-ring is a perfectly good lion while a $\sigma$-algebra is this:
-
-<img src="http://www.iai.uni-bonn.de/~idea/chimera.gif" alt="" width="208" />
-
----Toby
-
-[[John Baez]]: my point of adding the warning 'centipede mathematics' was simply that for someone seeking to learn about $\sigma$-algebras for the first time, the list of weaker concepts below may be distracting.  History has nothing to do with it: if I'm trying to learn the definition of 'group' and someone tells me about loops, it scarcely matters which definition came first.  More importantly, I'm not really trying to say that centipede mathematics is 'bad'.  I think it can be great, and I would never want you to restrain yourself from engaging in it!  I just think it should be noted when it occurs, for the sake of beginners, and I'm trying to do that in a humorous way.
-
-_Toby_:  Fair enough (especially in light of Eric\'s comment on [[measure space]], assuming that this is really what he meant by it).  I do think that the term is historically inaccurate (given my understanding of what 'centipede mathematics' means), so I added a note about that.  Also, I find the picture here distracting, so I moved it to [[centipede mathematics]] (or would have if it weren\'t already there).
-=--
 
 Given a [[set]] $X$ and a collection $\Sigma$ of [[subset]]s $S \subseteq X$, we will always use the term 'measurable' to describe an element of $\Sigma$.  There are really several kinds of collections that $\Sigma$ could be:
 
@@ -262,4 +248,4 @@ For Cheng\'s theory of measure spaces, see the 1985 edition of Bishop & Bridges,
 [[!redirects sigma-field]]
 [[!redirects delta-field]]
 [[!redirects sigma-ring]]
-[[!redirects delta-ring]]
+[[!redirects delta-ring]]'
