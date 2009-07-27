@@ -45,16 +45,7 @@ That's a complicated way of saying that $V$ represents a covariant functor $V Al
 Precomposing this with the functor represented by $P$ yields again a covariant functor $V Alg \to Set$.
 This is again representable and we write its representing object $P \odot A$.
 
-As an aside, we note that this defines a bifunctor $V V^c \times V \to V$ which is an action of the monoidal category $V V^c$ on $V$ (where $V V^c$ is the category of co-$V$-algebra objects in $V$).
-This can be extended to an action of $VV^c$ on the categories of $V$-algebra and co-$V$-algebra objects in a reasonably arbitrary base category.
-
-+-- {: .query}
-[[John Baez]]: what's $V V^c$?  I don't see it defined here.
-And what's $V^c$ --- the opposite category?  I think we call that $V^{op}$ around here.
-
-[[Andrew Stacey]]: Ooops!  Sorry.  $V V^c$ is my notation for the category of co-$V$-objects in $V$.  In _Hopf_, we used this sort of incremental notation: $D V$ is $V$-objects in $D$, $D V^c$ is co-$V$-objects in $D$, $D V V^c$ is co-$V$-objects in $V$-objects in $D$, and so forth.  We found it useful notation.  It's hard to rewrite that sentence without some notation but if there's something more standard then someone should change it to that.  I'm not sure if it fits in a separate definition so I've just put an explanatory sentence in parenthesis for now.
-
-=--
+As an aside, we note a consequence.  As we've seen, the category of co-$V$-algebra objects in $V$ is a monoidal category, with the tensor product $\odot$.  Now we're seeing this monoidal category [[action|acts]] on the category of $V$-algebras.   Indeed, it acts on the categories of $V$-algebra and co-$V$-algebra objects in a reasonably arbitrary base category.
 
 One postscript to this is that although the category of co-$V$-algebra objects in $V Alg$ is not a variety of algebras, for a specific Tall--Wraith $V$-monoid $P$, the category of $P$-modules _is_ a variety of algebras.
 
@@ -201,8 +192,6 @@ $$
 [[John Baez]]: I never take any principle to extremes, not even this one.  I mainly just want to make life easy on people who read my stuff or hear my talks.   I think links to "notation used on this page" would be great when used _in addition_ to on-the-spot explanations of the notation when it's introduced, and occasional reminders.  I'm afraid however that most mathematicians would use these hyperlinks as an excuse to use more notation, when 99% of them should spend time figuring out how to use less.  
 
 Anyway, I think I'm starting to repeat myself, so I'll stop.
-
-[[David Roberts]]: sorry for butting in (I've always wondered what would happen if I _edit the page anyway_). Maybe I'm lazy, but I've started to say, let $X$ be a space, then let $X$ be a topological groupoid etc. Sometimes I even use $Y$. Every map (in any category!) is called $f$ (or $g$, if absolutely necessary). Hopefully this immunises the reader to think that all such objects should be thought of in the same way. This is opposed to people who work with stacks as (justified) replacements for spaces, then use unreadable fonts to label them, when really the distinction should be erased. My two vents, I mean cents 
 =--
 
 
