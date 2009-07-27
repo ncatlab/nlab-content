@@ -9,6 +9,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-27
 
+* [[Andrew Stacey]]: spotted a sneaky paragraph at [[Tall-Wraith monoid]] and put a query for its originator ([[John Baez|John]]?).
+
 *  [[Toby Bartels]]:
    *  Finished what I wanted at [[regular space]], although there are still some proofs to fill out.
    *  Fixed an egregious error in [[normal space]] while translating the definition from closed sets to open sets.
