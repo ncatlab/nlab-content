@@ -106,9 +106,16 @@ That means that for $a \in A$, $\Delta(a) = (a_1,a_2)$ for some $a_1, a_2 \in A$
   
   But never mind... 
 
+  [[Andrew Stacey]]: Ah, now I see.  It's the difference between "abelian group" and "monoid" that you're interested in.  Okay, I'll think about that.
+
+  By the way, I'm not clear about how to interpret your hints.  Do you already know the answer to this and are trying to teach me some category theory by leading me through it, or do you not know and are hoping that, polymath-style, we'll figure it out without either of us having to expend too much energy?  Either is fine by me (I need to learn some more Cat. Th. so any help is helpful!), I just like to know which track I'm on.
+
   [[Andrew Stacey]]: PS Don't forget to indent paragraphs in this query box.
 
    [[John Baez]]: Huh, wow, it really makes a big difference.
+
+  [[Andrew Stacey]]: can't tell if you're being sarcastic here.  If so, try leaving a comment with _absolutely no_ indent and see what chaos ensues.
+
    =-- 
 
   It is part of the general theory that the category of co-$V$-objects in $V$ is monoidal (though not, in general, symmetric). For details on this see _The Hunting of the Hopf Ring_, referred to belelow.  This monoidal structure for abelian groups turns out to be the tensor product.
@@ -159,7 +166,7 @@ Even though I'll be eternally proud of that moment, I think it can be good to us
 
 [[John Baez]]: I agree with that.  I guess some group of people should argue about whether most of our readers will have various fancy fonts installed... I think we should _not_ assume this.
 
-[Andrew Stacey]]: If we're going to take this sort of thing into account then we need it clear somewhere since otherwise those of us fortunate enough to have the correct fonts don't know what doesn't display so well on other, more limited, systems!
+[[Andrew Stacey]]: If we're going to take this sort of thing into account then we need it clear somewhere since otherwise those of us fortunate enough to have the correct fonts don't know what doesn't display so well on other, more limited, systems!
 
 I did find it getting awkward in writing out the proof that a TW-monoid in abelian groups was a ring to talk of $A$ being an object of $V$.  I'd much rather have said $A$ is an object of $\mathcal{A}$.  So if we're allowed to use this sort of hierarchy locally, can I change it all back now?
 
@@ -169,6 +176,24 @@ I did find it getting awkward in writing out the proof that a TW-monoid in abeli
 
 [[John Baez]]: I don't think there's intrinsically more  notation in this subject compared to most subjects on the $n$Lab, or more need for fancy fonts.  I think that with this subject, as with almost any, it's possible to explain the material very nicely with only a little notation.  But that's a kind of pet peeve of mine: I think mathematicians tend to make their work hard to read by introducing more notation than necessary, and not reminding the reader about what it means frequently enough.  They like to build towers of thought that are beautiful in principle but not very user-friendly.
 
+[[Andrew Stacey]]: firstly, when I was linking to your question above, I meant to the 'VV^c' question much higher.  It was awkward _not_ to use some notation for this category, but it wasn't clear to me that it merited a whole definition to itself.  An explanatory sentence is reasonable the first time that it is used, and maybe after a long period with no use, but one of the advantages of hyperlinks is that I could put a "Notation used in this page" section at the bottom, stick in:
+
+* $VV^c$: the category of co-$V$-algebraic objects in $V$
+
+and put a little hyperlink whenever it is used, something like $VV^c$$([notation](#notation)) (okay, that doesn't work as I haven't created the notation section); possibly with a little semi-quaver instead of the word "notation".
+
+I completely agree with your peeve, but _no_ notation is as horrible as too much notation.  Notation should help and guide the reader through a complicated argument, never intruding but always easing the path.
+
+If you take the Dolan principle to its extreme, we should just start the document at the letter $a$ and increase as we proceed.  Then the only thing that we have to keep track of is whether or not we have referred to something before or not.  Actually, if we combine this with the slogan "Do no evil" then we should _always_ use a new symbol and note where things are isomorphic.  Thus
+
+$$
+\forall a \forall b \gt c \exists d \gt e: \forall f, |g - h| \lt i \implies |j(k) - l(m)| \lt n
+$$
+where
+$$
+c \cong 0, e \cong 0, g \cong a, h \cong f, i \cong d, k \cong a, l \cong j, m \cong h, n \cong b
+$$
+(I think!)
 =--
 
 
