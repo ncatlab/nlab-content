@@ -9,6 +9,19 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-27
 
+* [[Urs Schreiber]]: 
+
+  * thanks to [[Mike Shulman]] for the comments at [[small object argument]] -- we should give both statements, for the non-locally presentable category, then with that other extra assumption, as well as for the locally presentable case -- I'll work that in later (my notation was following Lurie, by the way, but I agree that it is a bit weird)
+
+  * edited the references section at [[structured generalized space]]
+
+  * added a section with links to higher dimensional and homotopical generalizations to [[group]]
+
+  * started creating [[symmetric monoidal functor]] but then noticed that [[monoidal functor]] didn't even exist yet and postponed this to another time
+
+  * hyperlinked some more keywords at [[HQFT]] and [[sigma-model]]. 
+
+
 * [[Andrew Stacey]]: spotted a sneaky paragraph at [[Tall-Wraith monoid]] and put a query for its originator ([[John Baez|John]]?).
 
 *  [[Toby Bartels]]:
