@@ -308,7 +308,7 @@ So $\widehat{F}$ is well on its way to being unique.
 
 But why does $\widehat{F}$ exist?  For this it will really be good to have a _formula_ expressing every object in $\widehat{A}$ as a colimit of guys in the image of $Y$.  As a side-effect this will prove fact 3.  But even better: thanks to fact 2, this formula will yield a formula for $\widehat{F}$.  And a formula is the best way to prove existence.
 
-[[Mike Stay]]: Given categories $A, B$ and a profunctor $F: A \to B$, the fact that all objects in $B$ can be written as a sum over representables says that
+[[Mike Stay]]: Given categories $A, B$ and a functor $F: A \to \hat{B}$, the fact that all objects in $\hat{B}$ can be written as a sum over representables says that
 
 $$\array{F:A  &\to& \hat{B}\\ a &\mapsto& \int_{b \in B} F(a)(b) \; \times \; hom(-, b)}$$
 
@@ -334,21 +334,27 @@ by taking $a$ as the midpoint between $-$ and $b$.  So $G$ is completely determi
 
 [[John Baez]]:  Very good!  But let me ask a few questions, starting with this.  You say
 
-"Given categories $A, B$ and a profunctor $F: A \to B$, the fact that all objects in $B$ can be written as a sum over representables says that
+"Given categories $A, B$ and a functor $F: A \to \hat{B}$, the fact that all objects in $B$ can be written as a sum over representables says that
 
 $$\array{F:A  &\to& \hat{B}\\ a &\mapsto& \int_{b \in B} F(a)(b) \; \times \; hom(-, b)} $$
 
-First of all, I've been religiously avoiding the use of the word "profunctor", since it's not really necessary for understanding this free cocompletion theorem (even though this theorem is necessary for understanding profunctors).  So, I'd like to rewrite your statement like this:
-
-"Given categories $A, B$ and a functor $F: A \to \widehat{B}$, the fact that all objects in $B$ can be written as a sum over representables says that
-
-$$\array{F:A  &\to& \widehat{B}\\ a &\mapsto& \int_{b \in B} F(a)(b) \; \times \; hom(-, b)} $$
-
-Okay?  But I still feel funny, for a more important reason: you say "all objects of $B$ can be written as a sum over representables", but this doesn't really make sense.  It's true that "all objects of $\widehat{B}$ can be written as a colimit of representables" --- is that what you meant?   But even if so, how does this fact "say that
+I feel funny about this, because you say "all objects of $B$ can be written as a sum over representables", but this doesn't really make sense.  It's true that "all objects of $\widehat{B}$ can be written as a colimit of representables" --- is that what you meant?   But even if so, how does this fact "say that
 
 $$\array{F:A  &\to& \widehat{B}\\ a &\mapsto& \int_{b \in B} F(a)(b) \; \times \; hom(-, b)?} $$
 
-And I have another question: the Theorem talks about a functor $F: A \to B$.  Why are you talking about a profunctor $F : A \to B$, or a functor $F: A \to \widehat{B}$?  I'd like us to write up a proof of the Theorem.
+And I'd like us to write up a proof of the Theorem, so try to fit what you've written into a proof.
+
+[[Mike Stay]].  Yes, I was being sloppy when I said "sum".  As for how it's a colimit, consider two functors $F:C^{op} \to Set, \; G:C \to Set.$  Then
+
+$$\int_{c \in C} F(c) \; \times \; G(c)$$
+
+is a colimit: for each $f:c \to c'$ in $C$, we get a diagram
+
+$$\array{F(c) \;\times\; G(c) & \stackrel{F(f) \;\times\; G(c)}{\leftarrow} & F(c') \;\times\; G(c) & \stackrel{F(c') \;\times\; G(f)}{\to} & F(c') \;\times\; G(c')}$$
+
+and the colimit of all these is the "integral" above.
+
+I'll try to write more on the proof in a little while.
 
 # A Reference #
 
