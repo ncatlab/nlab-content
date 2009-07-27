@@ -24,7 +24,7 @@ Here the generalizaton is in the sense described at [[space and quantity]]:
 
 * _quantities_ (meaning: function algebras) modeled on value spaces in some category $S$ are [[presheaf|co-presheaves]] $A$ on $S$: $A(U)$ is the collection of the quantities with values  in $U \in S$.
 
-In the context of structured $(\infty,1)$-toposes $S$ is called a [[geometry (for structured (infinity,1)-toposes)]].
+In the context of structured $(\infty,1)$-toposes $S$ is called a [[geometry (for structured (infinity,1)-toposes)|geometry]].
 
 Combined, this allows to give an analogous general way to think of the notion of a _space equipped with a structure sheaf_. A _structured generalized space_ is such a generalization.
 
@@ -87,7 +87,7 @@ We now describe the theory of structure sheaves encoded in topos-valued co-presh
 
 #Definition#
 
-Let $S$ be a [[geometric (for structured (infinity,1)-toposes]], i.e. essentially  an $(\infty,1)$-[[site]], i.e. some small [[(∞,1)-category]] equipped with a [[coverage]], and let $Sh(S)$ be the [[(∞,1)-topos]] of [[(∞,1)-category of (∞,1)-sheaves]] on $S$. 
+Let $S$ be a [[geometry (for structured (infinity,1)-toposes)|geometric]], i.e. essentially  an $(\infty,1)$-[[site]], i.e. some small [[(∞,1)-category]] equipped with a [[coverage]], and let $Sh(S)$ be the [[(∞,1)-topos]] of [[(∞,1)-category of (∞,1)-sheaves]] on $S$. 
 
 Notice that if $S = Op(X)$ is the nerve of the [[category of open subsets]] of some [[topological space]] $X$, then $Sh(X) := Sh(S)$ is the [[(∞,1)-category of (∞,1)-sheaves]] on $X$, as in the above motivating introduction. 
 
@@ -248,7 +248,7 @@ and details on the general case.
 
 In the version of this that is available on the arXiv ([arXiv](http://arxiv.org/abs/0810.5174))
 the point of view is more on bi-presheaves, a useful discussion to the relation
-to structured morphisms here is in section 10.1. there .
+to structured morphisms here is in section 10.1. there.
 
 
 
