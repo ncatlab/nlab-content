@@ -24,4 +24,6 @@
 
 * [[string field theory]]
 
+[[!redirects jim stasheff]]
+
 category: people
