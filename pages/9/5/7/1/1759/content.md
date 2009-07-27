@@ -7,6 +7,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 
+## 2009-07-27
+
+*  [[Toby Bartels]]:  Started [[regular space]], but I have to leave and have not finished it.
+
+
 ## 2009-07-26
 
 *  [[Toby Bartels]]:  Lots of changes (mostly additions) to [[measure space]].  Please see if the notation is comprehensible.  I have to check on a couple of things, but I left query boxes.  There are several variations, but I only included things that people can actually get tenure by studying.  No [[centipede mathematics]] just for the sake of it! (well, except for one comment, appropriately linked).
