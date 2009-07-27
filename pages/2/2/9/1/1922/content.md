@@ -31,15 +31,14 @@ Find $V$ and $G$ as above.  Now apply the regularity axiom to $x$ and the interi
 In terms of the classical language of separation axioms, this says that $x$ and $F$ are separated by *closed* neighbourhoods.
 
 Sometimes one includes in the definition that a regular space must be $T_0$:
-+-- {: .num_defn #T0}
-###### Definition
-(In addition to any of the above.)
++-- {: .un_defn}
+###### Definition (of $T_0$)
 Given any two points, if each neighbourhood of either is a neighbourhood of the other, then they are equal.
 =--
 Other authors use the weaker definition above but call a regular $T_0$ space a __$T_3$ space__, but then that term is also used for a (merely) regular space.
 
 We have
-+-- {: .num_theorem #Hausdorff}
++-- {: .un_theorem}
 ###### Theorem
 Every $T_3$ space is [[Hausdorff space|Hausdorff]].
 =--
@@ -62,7 +61,23 @@ Given open sets $A, B$, $A \subset\subset B$ iff there exists an open set $C$ su
 This definition is suitable for [[locales]].  As the definition of a Hausdroff locale is rather more complicated, one often speaks of compact regular locales where classically one would have spoken of [[compact Hausdorff space]]s.  (The theorem that compact regular $T_0$ spaces and compact Hausdorff spaces are the same works also for locales, and every locale is $T_0$, so compact regular locales and compact Hausdorff locales are the same.)
 
 
+The condition that a space $X$ be regular is related to the __regular open sets__ in $X$, that is those open sets $G$ such that $G$ is the interior of its own closure.  (In the [[Heyting algebra]] of open subsets of $X$, this means precisely that $G$ is its own [[double negation]]; this immediately generalises the concept to locales.)  Basically, we start with a neighbourhood $U$ of $x$ and reduce that to a closed neighbourhood $Cl(V)$ of $x$; then $Int(Cl(V))$ is a regular open set.
+
+This is enough to characterise regular spaces, as follows:
++-- {: .num_defn #basis}
+###### Definition
+Given a neighbourhood $U$ of $x$, there is a closed neighbourhood of $x$ that is contained in $U$.  Equivalently, $x$ has a regular open neighbourhood contained in $U$.  In other words, the closed neighbourhoods of $x$, or equivalently the regular open neighbourhoods of $x$, form a local base (a base of the [[neighbourhood filter]]) at $x$.
+=--
++-- {: .proof}
+###### Proof of equivalence
+...
+=--
+
+This suggests a slightly weaker condition, that of a __semiregular space__:
++-- {: .un_defn}
+###### Definition (of semiregular)
+The regular open sets form a basis for the topology of $X$.
+=--
+
+
 In [[constructive mathematics]], Definition \ref{constructive} is good; then everything else follows without change, except for the equivalence with \ref{classical}.  Even then, the classical separation axioms hold for a regular space; they just are not sufficient.
-
-
-## Semiregularity
