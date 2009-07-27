@@ -1,4 +1,4 @@
-A regular space is a [[topological space]] (or variation) that has, in a certain sense, enough closed subsets.  The condition of regularity is one the [[separation axioms]] satsified by every [[metric space]] (in this case, by every pseudometric space).
+A regular space is a [[topological space]] (or variation) that has, in a certain sense, enough regular open subsets.  The condition of regularity is one the [[separation axioms]] satsified by every [[metric space]] (in this case, by every pseudometric space).
 
 
 ## Definitions
@@ -50,10 +50,19 @@ Every $T_3$ space is [[Hausdorff space|Hausdorff]].
 In light of this, a less ambiguous term for a $T_3$ space is a __regular Hausdorff space__.
 
 
-... [[locales]] ...
+It is possible to describe the regularity condition fairly simply entirely in terms of the algebra of open sets.  First notice the relevance above of the condition that $Cl(A) \subset B$ (for open $A, B$); we write $A \subset\subset B$ in that case and say that $A$ is __well inside__ $B$.  We now rewrite this condition in terms of open sets and regularity in terms of this condition.
++-- {: .num_defn #locale}
+###### Definition
+Given open sets $A, B$, $A \subset\subset B$ iff there exists an open set $C$ such that $A \cap C = \empty$ but $B \cap C = X$.  Then $X$ is regular iff, given any open set $U$, $U$ is the union of all of the open sets that are well inside $U$.
+=--
++-- {: .proof}
+###### Proof of equivalence
+...
+=--
+This definition is suitable for [[locales]].  As the definition of a Hausdroff locale is rather more complicated, one often speaks of compact regular locales where classically one would have spoken of [[compact Hausdorff space]]s.  (The theorem that compact regular $T_0$ spaces and compact Hausdorff spaces are the same works also for locales, and every locale is $T_0$, so compact regular locales and compact Hausdorff locales are the same.)
 
 
 In [[constructive mathematics]], Definition \ref{constructive} is good; then everything else follows without change, except for the equivalence with \ref{classical}.  Even then, the classical separation axioms hold for a regular space; they just are not sufficient.
 
 
-## ...
+## Semiregularity
