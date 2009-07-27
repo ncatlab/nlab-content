@@ -35,3 +35,4 @@ So the theory of special $\lambda$-rings is a monadic extension of the theory of
 
 
 [[!redirects SpecialLambdaRing]]
+[[!redirects special lambda-rings]]
