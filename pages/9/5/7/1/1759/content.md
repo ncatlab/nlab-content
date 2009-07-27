@@ -9,8 +9,6 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-27
 
-*  [[Toby Bartels]]:  Fixed an egregious error in [[normal space]] while translating the definition from closed sets to open sets.
-
 *  [[Tim]]: 
 
    *   added a mention of inverse semigroup in [[semigroup]].  As these relate to partial symmetries and ordered groupoids this may merit being expanded but I cannot do it at present.
