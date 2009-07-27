@@ -54,6 +54,22 @@ For example, a group object in [[Diff]] is a [[Lie group]].  A group object in [
 
 A group object in [[Grp]] is the same thing as an abelian group (see [[Eckmann-Hilton argument]]), and a group object in [[Cat]] is the same thing as an [[internal category]] in [[Grp]], both being equivalent to the notion of [[crossed module]]. 
 
+## Groups in higher categorical and homotopical contexts ##
+
+Internalizing the notion of _group_ in [[higher category theory|higher categorical]] and [[homotopy theory|homotopical]] contexts yields various generalized notions. For instance
+
+* a [[2-group]] is a group object in [[Grpd]]
+
+* an [[n-group]] is a group object internal to [[n-groupoid]]s
+
+* a [[loop space]] is a group object in [[Top]]
+
+* generally there is a notion of [[groupoid object in an (infinity,1)-category|group object in an (infinity,1)-category]].
+
+And the notion of [[loop space object]] and [[delooping]] makes sense (at least) in any [[(infinity,1)-category]].
+
+Notice that the relation between group objects and deloopable objects becomes more subtle as one generalizes this way. For instance not every [[groupoid object in an (infinity,1)-category|group object in an (infinity,1)-category]] is [[delooping|deloopable]]. But every group object in an [[(infinity,1)-topos]] is.
+
 #Weakened versions#
 
 <div style="float:left;margin:0 10px 10px 0;"><img src="http://math.ucr.edu/home/baez/centipede.jpg" alt="" width="208" height="150" /> &nbsp; &nbsp;</div>
