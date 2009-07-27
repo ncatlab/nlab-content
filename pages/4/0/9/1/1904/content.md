@@ -9,3 +9,5 @@ Sometimes, late at night, when everyone is asleep, the lab elves come by and cle
 category: meta
 
 [[!redirects lab elves]]
+[[!redirects Lab Elf]]
+[[!redirects Lab Elves]]
