@@ -136,7 +136,7 @@ Besides such sidebars that appear in many pages, you can also use inclusion to p
 
 # How to customize the nLab #
 
-You may wish to customize the font scheme (both for math or text) on the nLab, as well as tweak things such as the small edit box for comments. Experienced users can do this themselves by tweaking the CSS. Alternatively, one can try the nLab [Stylish](https://addons.mozilla.org/en-US/firefox/addon/2108) theme for Firefox available [here](https://addons.mozilla.org/en-US/firefox/addon/2108). You might also want to try a Firefox [extension](https://addons.mozilla.org/en-US/firefox/addon/4125) which allows you to edit the text box using your favourite text editor. 
+You may wish to customize the font scheme (both for math or text) on the nLab, as well as tweak things such as the small edit box for comments. Try the [nLab Stylish theme](http://userstyles.org/styles/17934) theme if you are using Firefox. (Stylish is a plug-in for firefox enabling you to customize websites; it is available [here](https://addons.mozilla.org/en-US/firefox/addon/2108)). The nLab theme changes the fonts on the nLab to a serif-style, and makes the edit box much bigger for an overall more pleasant experience! Experienced users can also do this themselves by tweaking the CSS. You might also want to try a Firefox [extension](https://addons.mozilla.org/en-US/firefox/addon/4125) which allows you to edit the text box using your favourite text editor. 
 
 # How to use redirects #
 
