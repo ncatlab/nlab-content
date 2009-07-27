@@ -17,6 +17,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-27
 
+*  [[Toby Bartels]]:
+   *  Reorganised [[integration]] (another new, unlogged page!).
+   *  A question about [[special lambda-rings]] (a new, unlogged page!) at [[Lambda-ring]].
+   *  Discussion at [[Tall-Wraith monoid]], with and without lab elves.
+   *  A question about [[effective epimorphisms]] in an $(\infty,1)$-topos.
+   *  Added the $1$-categorial concept to [[effective epimorphism]], with related material at [[regular epimorphism]] and [[quotient object]].
+   *  Discussion with Zoran at [[quasigroup]] about the infestation of centipedes crawling around the Lab lately.
+
 * [[Lab Elf|Lab Elf (service department)]]: 'Recently Revised' now gets redirected to this page.  This redirection happens at the _server_ level (i.e. before anything gets to instiki) so shouldn't affect performance.  This also means that the 'Recently Revised' pages for labs _other than_ then n-lab work as they ought to.  If hitting those slows up the system then Other Steps Will Be Taken.
 
   Please remember that this is hopefully a temporary problem and once we migrate to warmer climes, Normal Service can be resumed.
