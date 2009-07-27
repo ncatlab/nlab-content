@@ -4,10 +4,12 @@
 
 #Related entries#
 
-* [[measurable space]]
+*  Measure theory:
+   *  [[measurable space]]
+   *  [[measure space]]
 
-* [[measure space]]
-
-* [[integration over supermanifolds]]
+*  Differential geometry:
+   *  [[differential form]]
+   *  [[integration over supermanifolds]]
 
 * [[Lie integration]]
