@@ -4,7 +4,7 @@ A normal space is a space (typically a [[topological space]]) which satsifies on
 
 A topological space $X$ is __normal__ if it satisfies:
 
-* $T_4$: for every two closed disjoint subsets $A,B\subset X$ there are open [[neighborhoods]] $U\supset A$, $V\supset B$ such that $U\cap V$ is [[inhabited set|inhabited]].
+* $T_4$: for every two closed disjoint subsets $A,B\subset X$ there are (optionally open) [[neighborhoods]] $U\supset A$, $V\supset B$ such that $U\cap V$ is [[empty set|empty]].
 
 Often one adds the requirement
 
@@ -21,6 +21,12 @@ then the result may be called an __$R_3$-space__.
 Any space that satisfies both $T_4$ and $T_1$ must be [[Hausdorff space|Hausdorff]], and every Hausdorff space satisfies $T_1$, so one may call such a space a __normal Hausdorff space__; this terminology should be clear to any reader.
 
 Any space that satisfies both $T_4$ and $R_0$ must be [[regular space|regular]] (in the weaker sense of that terms), and every regular space satisfies $R_0$, so one may call such a space a __normal regular space__; however, those who interpret 'normal' to include $T_1$ usually also interpret 'regular' to include $T_1$, so this term can be ambiguous.
+
+It can be useful to rephrase $T_4$ in terms of open sets instead of closed:
+
+*  $T_4$: if $G,H\subset X$ are open and $G \cup H = X$, then there exist open sets $U,V$ such that $U \cup G$ and $V \cup H$ are still $X$ but $U \cap V$ is empty.
+
+This definition is suitable for generalisation to [[locales]] and also for use in [[constructive mathematics]] (where it is not equivalent to the usual one).
 
 
 ## Remarks
