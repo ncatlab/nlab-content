@@ -5,7 +5,7 @@
 For $C$ a [[category]] regarded as an [[(infinity,1)-category]], a global [[model category|model structure]] on the [[functor category]] $[C^{op}, SSet]$ of
 simplicial presheaves on $C$ is a [[presentable (infinity,1)-category|presentation]] for the [[(infinity,1)-category of (infinity,1)-presheaves]] on $C$.
 
-See [[model structure on simplicial presheaves]].
+The global model structure on simplicial presheaves is a special case of the general notion of [[global model structure on functors]]. Its relevance in the general discussion of [[model structure on simplicial presheaves]] is mainly its [[Bousfield localization]] to a [[local model structure on simplicial presheaves]].
 
 
 
