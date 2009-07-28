@@ -10,6 +10,9 @@ When people talk of $\lambda$-rings they usually mean [special $\lambda$-rings](
 
 +-- {: .query}
 Is there a distinction to be drawn, then, between $\Lambda$-rings and $\lambda$-rings in this way?
+
+[[John Baez]]: not that I know of.  As far as I can tell, there is a boring old concept of 'not necessarily special $\lambda$-ring' which nobody uses much, and an interesting concept of 'special $\lambda$-ring' = '$\lambda$-ring' = '$\Lambda$-ring'.  I will endeavor to include definitions to make this all clear, in my limited spare time.  
+ 
 =--
 
 
