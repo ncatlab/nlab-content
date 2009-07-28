@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]] 
 
+  * spelled out the simplest nontrivial example at [[Reedy model structure]]
+
   * created [[global model structure on functors]] that was requested long ago as [[projective model structure]] and [[injective model structure]] which I made redirects to it
 
     updated accordingly the list of examples at [[model category]] and interlinked with [[Reedy model structure]]
