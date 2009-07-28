@@ -8,14 +8,14 @@ $$
 
 In particular, if $A = G$ is a [[group]] then its delooping 
 
-* in the context [[Top]] is the [[classifying space]] $B G$
+* in the context [[Top]] is the [[classifying space]] $\mathcal{B}G$
 
 * in the context $\infty$ [[Infinity-Grpd]] is the one-object groupoid $\mathbf{B}G$.
 
-Under the [[homotopy hypothesis]] these two objects are identified: the [[geometric realization]] of the groupoid $\mathbf{B}G$ is the classifying space $B G$:
+Under the [[homotopy hypothesis]] these two objects are identified: the [[geometric realization]] of the groupoid $\mathbf{B}G$ is the classifying space $\mathcal{B}G$:
 
 $$
-  |\mathbf{B}G| \simeq B G
+  |\mathbf{B}G| \simeq \mathcal{B}G
   \,.
 $$
 
