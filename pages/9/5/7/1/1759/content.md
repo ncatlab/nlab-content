@@ -18,6 +18,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]] 
  
+  * split off [[Reedy model structure]] from [[Reedy category]] -- added an "Idea" section and started expanding on some of the technical details
+
+    by the way: it's funny I can't _remove_ the old section "Model structures" from [[Reedy category]] which is now reproduced and expanded at [[Reedy model structure]]: I always get an "Internal server error" when I try to do that. I am familiar with the occurence of this error when one _adds_ certain things (such as double-dollar included displyed math without line breaks before and after) but I couldn't figure out which problem the _removal_ of that paragraph causes. So that section is still sitting there, duplicated now.
+
   * added clarifying remarks to the references at [[K-theory]]
 
   * in a similar vein to the below comment i added to the beginning of [[delooping]] a remark how the one-object groupoid $\mathbf{B}G$ and the classifying space $B G$ are the same object under the homotopy hypothesis
