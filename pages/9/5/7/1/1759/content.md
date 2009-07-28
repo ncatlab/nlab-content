@@ -16,6 +16,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-28
 
+* [[Urs Schreiber]] created [[Kan fibrant replacement]]
+
+
 * Zoran: created Grothendieck Festschrift, made an addition to timeline.
 
 * [[Urs Schreiber]] 
