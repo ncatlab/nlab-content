@@ -347,6 +347,7 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
       * [[Bousfield localization]]
 
+  * [[Reedy model structure]]
 
 ### Simplicial model categories
 
