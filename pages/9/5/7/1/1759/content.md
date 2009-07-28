@@ -17,6 +17,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ## 2009-07-28
 
 * [[Urs Schreiber]] 
+ 
+  * added clarifying remarks to the references at [[K-theory]]
 
   * in a similar vein to the below comment i added to the beginning of [[delooping]] a remark how the one-object groupoid $\mathbf{B}G$ and the classifying space $B G$ are the same object under the homotopy hypothesis
 
