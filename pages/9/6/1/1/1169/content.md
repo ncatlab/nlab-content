@@ -1,7 +1,10 @@
 # Idea
 
-A _Reedy category_ is a category $R$ equipped with a structure enabling the inductive construction of diagrams and natural transformations of shape $R$.  The most important consequence of a Reedy structure on $R$ is the existence of a [[model category|model structure]] on the [[functor category]] $M^R$ whenever $M$ is a model category (no extra hypotheses on $M$ are required).
+A _Reedy category_ is a category $R$ equipped with a structure enabling the inductive construction of diagrams and natural transformations of shape $R$.  
 
+The most important consequence of a Reedy structure on $R$ is the existence of a [[model category|model structure]] on the [[functor category]] $M^R$ whenever $M$ is a model category (no extra hypotheses on $M$ are required): the 
+
+* [[Reedy model structure]] .
 
 # Definition
 
@@ -22,6 +25,8 @@ A **Reedy category** is a [[category]] $R$ equipped with two [[wide subcategory|
 
 
 # Model structures
+
+See [[Reedy model structure]] for more.
 
 +-- {: .num_theorem #model}
 ###### Theorem
@@ -49,19 +54,6 @@ $$ L_r Z \sqcup_{L_r X} X_r \to M_r Z \times_{M_r Y} Y_r$$
 in the appropriate way in $M$.
 
 
-# Remarks
-
-* Any Reedy cofibration or fibration is, in particular, an objectwise one, but the converse does not generally hold.
-
-* An object $X$ is Reedy cofibrant if and only if each map $L_r X \to X_r$ is a cofibration in $M$.  In particular, this implies that each $X_r$ is cofibrant in $M$.
-
-* For some $M$, $M^R$ also admits a [[projective model structure|projective]] or [[injective model structure|injective]] model structures.  In general the Reedy structure will not be the same as either, although in particular cases sometimes it coincides with one or the other.
-
-* In addition to its existing for all $M$, another advantage of the Reedy structure is the explicit nature of its cofibrations, fibrations, and factorizations.
-
-* If $R$ admits more than one structure of Reedy category, then $M^R$ will have more than one Reedy model structure.  For instance, if $R = (\cdot\to\cdot)$ is the walking arrow, then we can regard it as either the ordinal $2$ or its opposite $2^{op}$, resulting in two different Reedy model structures on $M^2$.
-
-* For a general Reedy category $R$, the diagonal functor $M\to M^R$ need not be either a right or a left [[Quillen adjunction|Quillen functor]] (although, of course, it has left and right adjoints given by colimits and limits over $R$).  One can, however, characterize those Reedy categories for which one or the other is the case, and in this case one can construct [[homotopy limit|homotopy limits]] and colimits using the derived functors of these Quillen adjunctions.
 
 
 # Generalization
