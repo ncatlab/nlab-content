@@ -117,6 +117,10 @@ $$
 
 * [[Karoubi K-theory]]
 
+* [[twisted K-theory]]
+
+* [[differential K-theory]]
+
 
 # References #
 
