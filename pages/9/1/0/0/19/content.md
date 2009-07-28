@@ -81,6 +81,7 @@ In the preface of his 1965 book _Theory of Categories_ Barry Mitchell writes:
 * A theory of [[type theory|type theories]]. There is a bijection between categories and type theories.
 * A theory of [[deductive system]]s. There is a bijection between categories and deductive systems.
 
+Some would define category theory as the human activity of [[category theorists]].
 
 #Branches of category theory#
 
@@ -97,7 +98,7 @@ A probably incomplete list is:
 * [[categorical quantization|Categorical quantization]] (in mathematics).
 * [[applied category theory|Applied category theory]]. Especially to mathematical [[physics]], [[computer science]] and [[dynamic system]]s (categorical dynamics).
 
-Most of these include some [[higher category theory]]. Some would define category theory as the human activity of [[category theorists]].
+Most of these include some [[higher category theory]].
 
 An imperfect perspective of category theory (for the purpose of classifying articles) can be obtained from the [MSC subject classification (18-XX)](http://www.ams.org/mathscinet/msc/msc.html?t=18-XX); the current one is from 2000 and reflects ideas of the decade before that.
 
