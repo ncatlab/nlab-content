@@ -34,3 +34,6 @@ A. L. Rosenberg <a href="http://www.mpim-bonn.mpg.de/preprints/send?bid=3623">in
 The one-sided generalization inspired by ideas introduced by Keller and Vossieck in the build up of the theory of [[suspended category|suspended categories]]. 
 
 A right 'exact' category is a category with an initial object and a Grothendieck pretopology consisting of single maps which are [[strict epimorphism]]s. The distinguisheed class of strict epimorphisms is called a right 'exact' structure, or the class of _deflations_. The construction of derived functors in this generality involves a version of [[satellite|satellites]].
+
+[[!redirects Quillen exact categories]]
+[[!redirects Quillen exactness]]
