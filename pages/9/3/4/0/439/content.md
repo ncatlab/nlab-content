@@ -1,5 +1,3 @@
-[[!redirects jim stasheff]]
-
 * [Jim Stasheff's home page](http://www.math.unc.edu/Faculty/jds/)
 
 # expositions #
@@ -23,6 +21,7 @@
 * [[L-infinity algebra]]
 
 * [[string field theory]]
+
 
 [[!redirects jim stasheff]]
 
