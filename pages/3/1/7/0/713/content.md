@@ -175,6 +175,8 @@ Now for one more exercise:
 
 **Exercise.**  What is the hole in the above proof?  
 
+[[Mike Stay]]:  I don't know.  Something about naturality?
+
 ##How should we think about this, intuitively?##
   
 When we say $\widehat{A}$ is the 'free cocompletion' of the category $A$, it means we're freely throwing in [[colimit]]s (and thus wrecking the old colimits $A$ may have had).  Since colimits are generalized 'sums', we can consider a [[decategorification|decategorified]] analogue:
