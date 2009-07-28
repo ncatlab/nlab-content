@@ -193,6 +193,12 @@ Importantly, this model structure is Quillen equivalent to several alternative m
 
 Every weak categorical equivalences is a weak homotopy equivalence. Since both model structures have the same cofibrations, it follows that the classical model structure is a [[Bousfield localization]] of Joyal's model structure.
 
+# Fibrant replacement #
+
+Techniques for fibrant replacements $SSet$ are discussed at
+
+* [[Kan fibrant replacement]]
+
 # References #
 
 A standard reference for the classical model structure is
