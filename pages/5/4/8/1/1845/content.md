@@ -1,10 +1,9 @@
-
 # Idea #
 
 Given a [[stable (infinity,1)-category]] $C$, its [[decategorification]] 
 
 $$
-  K(C) = \{equivalence classes\; [c]\; of objects c \in C\}
+  K_0(C) = \{equivalence \,classes\; [c]\; of \,objects \,c \in C\}
 $$
 
 naturally inherits the structure of an abelian [[group]] from the [[fibration sequence]]s in $C$:
@@ -18,7 +17,7 @@ $$
 a fibration sequence (i.e. a homotopy exact sequence) the abelian group operation
 
 $$
-  + : K(C) \times K(C) \to K(C)
+  + : K_0(C) \times K_0(C) \to K_0(C)
 $$
 
 is such that
@@ -28,9 +27,9 @@ $$
   \,.
 $$
 
-The group $K(C)$ is called the **K-group** of $C$. The "K" is for the german word _Klasse_ for "class". The K-group of $C$ is the group of equivalence classes of $C$. This is a group due to the existence of a notion of exact sequences in $C$.
+The group $K_0(C)$ is called the **K-group** of $C$. The "K" is chosen by Grothendieck for the German word _Klasse_ for "class". The K-group of $C$ is the group of equivalence classes of $C$: it is a group due to the existence of a notion of exact sequences in $C$.
 
-K-theory is the study of these K-groups. Sometimes the K-groups themseles are called "K-theory". One would say for instance: "$K(C)$ is the K-theory of $C$."
+K-theory starts with the study of these K-groups and their higher analogues. Sometimes the K-groups themseles are called "K-theory". One would say for instance: "$K(C)$ is the K-theory of $C$."
 
 More generally, there is a [[symmetric monoidal (infinity,1)-category|symmetric groupal infinity-groupoid]] $\mathbf{K}(C)$  -- i.e. a connective [[spectrum]] -- in between the [[decategorification]] from $C$ to $K(C)$ of which $K(C)$ is the set of [[simplicial homotopy group|connected components]]
 
@@ -135,7 +134,7 @@ interprets the construction of the K-theory spectrum as a natural operation of
 [[stable (infinity,1)-category|stable (infinity,1)-categories]], as described above.
 
 
-The standard constructions of K-theory spectra from exact categories are discussed in detail in chapter 1 of
+The standard constructions of K-theory spectra from [[Quillen exact categories]] are discussed in detail in chapter 1 of
 
 * Eric M. Friedlander, Daniel R. Grayson, _Handbook of K-theory_, Springer Verlag .
 
