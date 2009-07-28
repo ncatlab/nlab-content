@@ -23,6 +23,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
    *  Interaction with [[Rafael Borowiecki]] at [[category theory]].
    *  Golf department?  *Golf* department???
 
+      * [[Urs Schreiber]]: aha, I didn't get that either -- but figured it must be me missing some English thing
+
 * [[Urs Schreiber]] created [[Kan fibrant replacement]]
 
 * Zoran: created [[Dennis trace]] (experts please expand!),[[Grothendieck Festschrift]], and quoted it as an addition to the timeline entry.
