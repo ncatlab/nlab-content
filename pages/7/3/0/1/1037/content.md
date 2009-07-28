@@ -1,5 +1,6 @@
 [[!include mathematicscontents]]
 
+
 This entry is about the book
 
 * Jacob Lurie, _Higher Topos Theory_ ([arXiv](http://arxiv.org/abs/math.CT/0608040))
@@ -363,4 +364,7 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
   * [[presentable (infinity,1)-category]]
 
+
 category: reference
+
+[[!redirects HTT]]
