@@ -1,3 +1,11 @@
++-- {: .query}
+
+[[John Baez]]: I believe 'special $\lambda$-ring' is an old-fashioned term for what almost everyone now calls a [[lambda-ring]], the 'nonspecial' ones having been found to be too general.  This, at least, is what Hazewinkel says in his article cited on our page about [[lambda-ring]]s.   So I believe this page here should be folded in with [[lambda-ring]].  
+
+At the very least, we should give both definitions of $\lambda$-ring --- special and unspecial --- over at [[lambda-ring]].  When I last checked, that page did not include a definition.   
+
+=--
+
 For any [[commutative ring]] $A$ we can consider the set $\Phi(A)$ of [[power series]] in an indeterminate $t$ with coefficients in $A$ whose constant term is $1$: 
 
   $f(t) = 1 + a_1t + a_2t^2 + \ldots$
@@ -6,7 +14,7 @@ These form an [[abelian group]] under multiplication with the constant power-ser
 
 How is $\circ$ defined? We impose the condition
 
-$(1 + at)\circ f(t) = f(at)$
+$(1 + at)\circ f(t) = f(a t)$
 
 for $a\in A$ and $f(t)\in \Phi(A)$. It is now clear from distributivity that if $g(t) = \Pi_j(1+a_j t)$ then $g(t)\circ f(t) = \Pi_j f(a_j t)$. But what happens if $g(t)$ is not a product of linear factors? Newton's theorem on [[symmetric polynomial]]s comes to the rescue. For we note that the coefficient of $t^n$ in $\Pi_j f(a_j t)$ is a symmetric function in the $a_j$ and so can be expressed as a polynomial over the integers in the first $n$ coefficients of $g(t)$ and of $f(t)$. In this way we have indicated that a universal formula for multiplication in $\Phi(A)$ exists, though we may not have written it down explicitly.
 
