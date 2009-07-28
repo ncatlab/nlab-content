@@ -83,4 +83,8 @@ Ch.IV, paragraph 22, p.95ff  -- Providence, R.I. : AMS 1996.
 One should note that a more general class of algebraic structures having a heap as its main archytepal example are so called Mal'cev algebras, and they form Mal'cev variety in the sense of universal algebra. Heaps in the sense of algebra should not be confused with heaps in the sense of theoretical computer science. There is a number of synonyms for a term heap, and it is similar in other languages. In Russian one of the expressions is "gruda"  meaning a 'heap of soil', what is a pun as it is parallel to the russian word "gruppa" meaning a 'group': forgetting the unit element is sort of creating an amorphous version. 
 There is an oidification ([[horizontal categorification]]) of a heap, sometimes called _heapoid_. 
 
-[Some people](http://www.math.ucr.edu/home/baez/torsors.html) call a heap with automorphism group $G$ a $G$-[[torsor]].
+[Some people](http://www.math.ucr.edu/home/baez/torsors.html) call a heap with automorphism group $G$ a $G$-[[torsor]] over a point.
+
++--{.query}
+[[Zoran Škoda]]: It is more correct that the category of G-torsors OVER A POINT is EQUIVALENT to the category of heaps. The realization of that category is in different terms, while heaps make a category of algebras over certain operad (or a monad if you like), the realization of G-torsors is different. 
+=--
