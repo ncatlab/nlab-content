@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-28
 
+*  [[John Baez]]: warning: I believe "[[special lambda-ring]]" is an old-fashioned name for what almost everyone now calls a [[lambda-ring]].  This is explained by Hazewinkel in his article cited on [[lambda-ring]].  So, I do not believe we should have a separate article on [[special lambda-ring]].
+ 
 * Zoran: created [[Dennis trace]] (experts please expand!)
 
 *  [[Toby Bartels]]:
