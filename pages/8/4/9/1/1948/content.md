@@ -1,0 +1,26 @@
+[[!redirects global model structures on functor categories]]
+
+# Idea #
+
+For $C$ a [[combinatorial model category]] and $D$ any [[small category]] there are two natural [[model category]] structures on the [[functor category]] $[D,C]$ called the _projective_ and the _injective_ model structure.
+
+A variant of this is the [[Reedy model structure]] on functor categories, which assumes less structure on $C$, but more on $D$. See there for furhter background.
+
+In the special case that $C = $ [[SSet]] is the standard [[model structure on simplicial sets|model category of simplicial sets]] the projective and injective model structure on the functor categories $[D,SSet]$ are described in more detail at [[global model structure on simplicial presheaves]].
+
+#Definition#
+
+For $C$ a [[combinatorial model category]] and $D$ a [[small category]] there exists the following two [[combinatorial model category]] structures on the [[functor category]] $[D,C]$:
+
+* the **projectieve** structure: weak equivalences and fibrations are the [[natural transformation]]s that are objectwise such morphisms in $C$. (The cofibrations are then defined by their [[weak factorization system|lifting property]].)
+
+* the **injective** structure: weak equivalences and cofibrations are the [[natural transformation]]s that are objectwise such morphisms in $C$. (The fibrations are then defined by their [[weak factorization system|lifting property]].)
+
+#References#
+
+For instance proposition A.2.8.2 of
+
+* [[Jacob Lurie]], [[Higher Topos Theory]]
+
+[[!redirects injective model structure]]
+[[!redirects projective model structure]]
