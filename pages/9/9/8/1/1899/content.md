@@ -66,6 +66,7 @@ One postscript to this is that although the category of co-$V$-algebra objects i
   \mu &: A \to A \coprod A, \\
   \epsilon &: A \to I \\
   \iota &: A \to A
+  \end{aligned}
   $$
 
   where $I$ is the initial object in the category of abelian groups.  These homomorphisms must satisfy certain laws: just the abelian group axioms written out diagrammatically, with all the arrows turned around.
@@ -78,7 +79,7 @@ That means that for $a \in A$, $\mu(a) = (a_1,a_2)$ for some $a_1, a_2 \in A$.  
   The diagram for $\iota$ (representing the inverse map) is a little more complicated.  As $I$ is the initial object in $AbGrp$, there is a unique morphism $I \to A$ (inclusion of the zero).  Composing this with $\epsilon$ yields a morphism $A \to A$ which maps every element to the zero in $A$.  Using $\mu$ and $\iota$ we can construct another morphism $A \to A$ as
 
   $$
-  A \xrightarrow{\mu} A \coprod A \xrightarrow{1 \coprod \iota} A \coprod A \xrightarrow{\Delta^c} A
+  A \overset{\mu}\rightarrow A \coprod A \overset{1 \coprod \iota}\rightarrow A \coprod A \overset{\Delta^c}\rightarrow A
   $$
 
   where $\Delta^c$ is the co-diagonal.  The relations for abelian groups say that this morphism must be the same as the zero morphism $A \to A$.  Using the fact that $A \coprod A \cong A \oplus A$ and that $\mu$ is the diagonal, this says that $a + \iota(a) = 0$.  Hence, by the uniqueness of inverses for abelian groups, $\iota(a) = -a$.
@@ -92,7 +93,7 @@ That means that for $a \in A$, $\mu(a) = (a_1,a_2)$ for some $a_1, a_2 \in A$.  
   The final relation is that $\iota$ is the inverse for $\mu$.  The relation that $\iota$ is the inverse for addition (let us write it as, say, $\alpha$) is that
 
   $$
-  A \xrightarrow{\Delta} A \times A \xrightarrow{1 \times \iota} A \times A \xrightarrow{\alpha} A
+  A \overset{\Delta}\rightarrow A \times A \overset{1 \times \iota}\rightarrow A \times A \overset{\alpha}\rightarrow A
   $$
 
   is the zero map $A \to I \to A$.  This is precisely the relation that $\iota$ is the inverse for $\mu$ since we have the following identifications: $\mu = \Delta$, $A \coprod A = A \times A$, and $\Delta^c = \alpha$.  Also, $\epsilon = 0$ and $\eta : I \to A$ is the initial morphism in $AbGrp$.
@@ -211,3 +212,4 @@ On the issue as to whether or not we should use $\mathcal{A}$ and so forth, I'm 
 [[!redirects Tall–Wraith monoid]]
 [[!redirects Tall--Wraith monoids]]
 [[!redirects Tall–Wraith monoids]]
+[[!redirects Tall-Wraith monoids]]
