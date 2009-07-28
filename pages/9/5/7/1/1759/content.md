@@ -16,6 +16,18 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-28
 
+* [[Urs Schreiber]] 
+
+  * created [[global model structure on functors]] that was requested long ago as [[projective model structure]] and [[injective model structure]] which I made redirects to it
+
+    updated accordingly the list of examples at [[model category]] and interlinked with [[Reedy model structure]]
+
+  * I tracked down a reference that discusses enriched Reedy model structures for enriched functor categories from enriched Reedy categories to enriched model categories -- I made corresponding additions to [[Reedy model structure]] and also created
+
+    * [[enriched Reedy category]] 
+
+  * thanks, Lab Elf. I just donated something to the _Society for the Promotion of Elfish Welfare_ for that.
+
 * [[Andrew Stacey|Lab Elf (service department)]]: The problem was that there was a reference to a theorem in the section that you wanted to remove.  By removing that section, you were trying to create a non-existent link.  By reformatting that sentence, I was able to remove the section.  Another [[Toby Bartels|Lab Elf (golf department)]] may be along later to clean up the links since I just did what was necessary to remove the section.
 
 * [[Urs Schreiber]] 
