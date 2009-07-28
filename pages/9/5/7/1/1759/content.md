@@ -16,6 +16,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-28
 
+* [[Urs Schreiber]] 
+
+  * in a similar vein to the below comment i added to the beginning of [[delooping]] a remark how the one-object groupoid $\mathbf{B}G$ and the classifying space $B G$ are the same object under the homotopy hypothesis
+
+  * from private discussion with somebody it became clear to me that the entry [[homotopy hypothesis]] failed to get across one of the main points with the required emphasis. I now added the central theorem about the Quillen equivalence between Top and SSet right at the beginning. The disucssion of all the subtleties and generalizations should come after that.
+
+
 * [[Andrew Stacey]]: Mathematical and non-mathematical stuff going on at [[Tall-Wraith monoids]].  Folded up the mathematical bit of the middle discussion (on what's so special about $AbGrp$) into the main text, but probably not in the nicest and clearest way.  Also continued the discussion on fonts and the like further down.
 
 * [[Urs Schreiber]] 
