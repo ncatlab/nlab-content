@@ -166,6 +166,8 @@ Much fun discussion between [[Eric Forgy]], [[Toby Bartels]], and [[John Baez]],
 [[!redirects n-form]]
 [[!redirects n-forms]]
 [[!redirects exterior derivative]]
+[[!redirects exterior differential]]
+[[!redirects exterior differentiation]]
 [[!redirects integration of forms]]
 [[!redirects pseudoform]]
 [[!redirects pseudoforms]]
