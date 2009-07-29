@@ -1,5 +1,7 @@
-Given a set $G$, an _$G$-graded vector space_ is a map $V$
+Given a set $G$, an __$G$-graded vector space__ is a map $V$
 assigning to each element $g \in G$ a [[vector space]] $V_g$.  Given $G$-graded vector spaces $V$ and $W$, a morphism $f : V \to W$ assigns to each element $g \in G$ a linear operator $f_g : V_g \to W_g$.
+
+We can just as easily talk about a __$G$-graded [[module]]__ or a __$G$-graded object__ in any [[abelian category]] (and even more generally than that).
 
 In other words, a $G$-graded vector space is a functor $V: G \to Vect$, where the set $G$ is treated as a [[discrete category]], and [[Vect]] is the category of vector spaces. Similarly, a morphism of $G$-graded vector spaces is a natural transformation between such functors.  In short, the category of $G$-graded vector spaces is the [[functor category]] $Vect^G$.  
 
@@ -178,4 +180,8 @@ In particular there is a natural injection $(\#V)\otimes (\#W) \to \#(V\otimes W
 A [[differential object]] in the category of gvs is a [[differential graded vector space]] or dgvs. This is just a [[chain complex]] or cochain complex.
 =--
 
+
 category: lexicon
+
+[[!redirects graded module]]
+[[!redirects graded object]]
