@@ -1,4 +1,4 @@
-Given an [[associative algebra]] $A$ let $\Omega A$ be its universal differential envelope. 
+Given an [[associative algebra]] $A$ let $\Omega A$ be its [[universal differential envelope]]. 
 
 
 ##Definition (Cuntz--Quillen 1995)## 
