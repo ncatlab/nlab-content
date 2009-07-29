@@ -58,7 +58,7 @@ in the appropriate way in $M$.
 
 * For some $M$, $M^R$ also admits a [[projective model structure|projective]] or [[injective model structure|injective]] model structures.  For instance for $M = $ [[SSet]] this is the [[global model structure on simplicial presheaves]]. 
 
-  In general the Reedy structure will not be the same as either, but will be a kind of mixture of both. If $R = R_+$ then the Reedy model structure coincides with the [[injective model structure]], if $R = R_-$ it coincides with the [[projective model structure]].
+  In general the Reedy structure will not be the same as either, but will be a kind of mixture of both. If $R = R_+$ then the Reedy model structure coincides with the [[projective model structure]], if $R = R_-$ it coincides with the [[injective model structure]].
 
   For a detailed comparison of Reedy and global projective/injective model structures see around example A.2.9.22 in [[Higher Topos Theory|HTT]].
 
@@ -85,26 +85,25 @@ In this case the [[functor category]] $[I,C]$ is the [[arrow category]] $C$.
 
 We take the degree on the objects to be as indicated. Then $R_- = R$ and $R_+$ contains only the identity morphisms.
 
-For $F : I \to C$ a functor, i.e. a morphism $F(1) \to F(0)$ in $C$, we find that lathcing and 
+For $F : I \to C$ a functor, i.e. a morphism $F(1) \to F(0)$ in $C$, we find  
 
 
-* the latching object $L_0 F = colim_{\partial (R_+/0)} F = \emptyset$;
+* the latching object $latch_0 F = colim_{(s \stackrel{+}{\to} 0)} F(s) = \emptyset$;
 
-* the latching object $L_1 F = colim_{\partial (R_+/1)} F = \emptyset$;
+* the latching object 
+  $latch_1 F = colim_{(s\stackrel{+}{\to}1)} F(s) = \emptyset$;
 
-* the matching object $M_0 F = lim_{\partial(0/ R_-)} F = {*}$
+* the matching object $match_0 F = lim_{(0 \stackrel{-}{\to} 0)} F(s) = {*}$
 
-* the matching object $M_1 F = lim_{\partial(1/R_-)} F = F(1)$
+* the matching object $match_1 F = lim_{(1 \stackrel{-}{\to}s)} F(s) = F(0)$
 
 where $\emptyset$ denotes the [[initial object]] and ${*}$ the [[terminal object]] (being the [[colimit]] and [[limit]] over the empty [[diagram]],  respectively).
 
-From this we find that
+From this we find that for a [[natural transformation]] $\eta : F \to G$
 
-* a [[natural transformation]] $\eta : F \to G$ 
- 
   $$
     \array{
-      F(1) &\stackrel{\eta_1}{\to}& G(0)
+      F(1) &\stackrel{\eta_1}{\to}& G(1)
       \\
       \downarrow && \downarrow
       \\
@@ -112,11 +111,22 @@ From this we find that
     }
   $$
 
-  is a Reedy fibration in $[I,C]$ if
+that 
 
-  * $\eta_0 : F(0) \to G(0)$ is a fibration
+* it is a Reedy cofibration in $[I,C]$ of
 
-  * the universal morphism $F(1) \to F(0) \times_{G(0)} G(1)$ 
+  * $\eta_0 : F(0) \coprod_{\emptyset} \emptyset = F(0) \to G(0)$ is a cofibration
+
+  and
+
+  * $\eta_1 : F(1) \coprod_{\emptyset} \emptyset = F(1) \to G(1)$ is a cofibration
+
+
+* it is a Reedy fibration in $[I,C]$ if
+
+  * $\eta_0 : F(0) \to G(0) \times_{*} {*} = G(0)$ is a fibration
+
+  * the universal morphism $F(1) \to G(1) \times_{G(0)} F(0)$ 
    
     $$
     \array{
@@ -137,7 +147,11 @@ From this we find that
 
   Notice that since fibrations are preserved by pullbacks and under composition with themselves, it follows that also $\eta_1 : F(1) \to F(0)$ is a fibration.
 
+* The cofibrant objects in $[I,C]$ are those arrows $F(1) \to F(0)$ in $C$ for which $F(1)$ and $F(0)$ are cofibrant;
+
 * The fibrant objects in $[I,C]$ are those arrows $F(1) \to F(0)$ in $C$ that are fibrations between fibrant objects in $C$.
+
+So in accord with the proposition above one finds that this Reedy model structure on $[I,C]$ coincides with the _injective_ [[global model structure on functors]] on $I$.
 
 
 ## Tower category ##
