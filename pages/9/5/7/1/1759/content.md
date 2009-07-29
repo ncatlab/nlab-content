@@ -17,6 +17,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]
 
+  * added a diagram and a sentence in the section "The homotopy category" at [[category of fibrant objects]] that makes the statement given there more explicit: that and  how every cocycle out of a weak equivalence can be refined by a cocycle out of an acyclic fibration (i.e. by an "$\infty$-anafunctor").
+
   * slightly expanded and polished the examples at [[Reedy model structure]] further
 
 * [[David Roberts]]: cleaning up the [links](http://en.wiktionary.org/wiki/links#English) is clearly the job of the golf department
