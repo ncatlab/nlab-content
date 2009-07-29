@@ -2030,9 +2030,33 @@ where the first functor is the obvious forgetful functor.
 +-- {: .un_remark}
 ###### Remark
 
-It is again the factorization lemma above (and using 2-out-of-3 that implies that inverting just the acyclic fibrations in $C$ is already equivalent to inverting all weak equivalences. This means that the above theorem remains valid if the weak equivalences $t : A' \to A$ are replaced by _acyclic fibrations_.
+It is again the factorization lemma above (and using 2-out-of-3 that implies that inverting just the acyclic fibrations in $C$ is already equivalent to inverting all weak equivalences. This means that the above theorem remains valid if the weak equivalences $t : A' \to A$ are replaced by _acyclic fibrations_:
 
-Using acyclic fibrations here has the advantage that these are preserved under [[pullback]]. This allows to consistently compose spans whose left leg is an acyclic fibration by [[pullback]]. See [[homotopical cohomology theory]] and [[anafunctor]].
+every cocycle 
+$\array{
+   Y &\stackrel{g}{\to}& A
+   \\
+   {}^\simeq \downarrow^{f} 
+   \\
+   X
+ }$
+
+out of a weak equivalence is refines by a cocycle out of an acyclic fibrantion, namely
+
+$$
+\array{
+   \mathbf{E}_f X &\stackrel{\simeq}{\to}& 
+      Y &\stackrel{g}{\to}& A
+   \\
+   &{}_{\in F \cap W}\searrow& {}^\simeq \downarrow^{f} 
+   \\
+   && X
+ }
+  \,.
+$$
+
+
+Using acyclic fibrations has the advantage that these are preserved under [[pullback]]. This allows to consistently compose spans whose left leg is an acyclic fibration by [[pullback]]. See also the discussion at [[anafunctor]].
 
 A discussion of this point of using weak equivalences versus acyclic fibrations in the construction of the homotopy category is also in Jardine: [Cocycle categories](http://www.math.uiuc.edu/K-theory/0782/).
 =--
@@ -2158,4 +2182,4 @@ for application to [[homotopical cohomology theory]].
 
 A review is in [section I.9](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-1.dvi) of 
 
-* Goerss, Jardine, _Simplicial homotopy theory_ .
+* P. G. Goerss and J. F. Jardine, 1999, _Simplicial Homotopy Theory_, number 174 in Progress in Mathematics, Birkhauser. ([ps](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
