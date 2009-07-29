@@ -13,6 +13,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+## 2009-07-30
+
+* [[Urs Schreiber]]: more reactions in that discussion at [[category theory]] on that one paragraph by [[Rafael Borowiecki]] -- I suggest that this needs to be rewritten _somehow_. I make one suggestion, but chances are that I am still missing [[Rafael Borowiecki]]'s true intention. 
+
 
 ## 2009-07-29
 
