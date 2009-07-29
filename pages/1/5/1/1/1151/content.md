@@ -14,7 +14,7 @@ Given an [[(∞,1)-topos]] $\mathbf{H}$, for any two [[objects]] $X$, $A$ of $\m
 
 More precisely:
 
-* the [[objects]] $ c \in \mathbf{H}(X,A)$ are the **cocycle**s on $X$ with values in $A$;
+* the [[objects]] $ c \in \mathbf{H}(X,A)$ are the **cocycles** on $X$ with values in $A$;
 
 * the [[k-morphisms]] in $\mathbf{H}(X,A)$ for $k \gt 0$ are the **coboundaries**;
 
@@ -37,7 +37,7 @@ Or, in the language of self-described 'old farts' such as [[Jim Stasheff]]:
 
 >Henceforth we will refer to * spaces * meaning perhaps some generalization or restriction, e.g. smooth spaces, and occasionally specify the nature of the generalization.   For spaces $X$,$A$,  we denote by $\mathcal{H}(X,A) = \mathrm{Maps}(X,A)$  the $(\infty,0)$-category of maps from $X$ to $A$. To emphasize the relation to cohomology,  we name these maps as cocycles and refer to $\mathcal{H}(X,A) = \mathrm{Maps}(X,A)$ as the cohomology of X with coefficients in A: the objects in $\mathrm{Maps} (X,A)$ are the $A$-valued cocycles on $X$, the morphisms are homotopies (or coboundaries) between these and the higher morphisms  are homotopies between homotopies, etc. The connected components in $\mathrm{Map}(X,A)$ are the cohomology classes, $H(X,A)=\pi_0 \mathrm{Map}(X,A)$. These are the sets of morphisms in the homotopy category $H$ of $\mathcal{H}$.
 
->For instance for $G$ an ordinary abelian group and $X$ a nice topological space, the choice $A = K(G,n)$ (an Eilenberg-Mac LanE space) yields the ordinary cohomology $H^n(X,G) = H(X,K(G,n)) = \pi_0\mathcal{H}(X,A)$.
+>For instance for $G$ an ordinary abelian group and $X$ a nice topological space, the choice $A = K(G,n)$ (an Eilenberg-Mac Lane space) yields the ordinary cohomology $H^n(X,G) = H(X,K(G,n)) = \pi_0\mathcal{H}(X,A)$.
 
 >If $A$ is pointed in that it is equipped with a morphism ${}_* \overset{\mathrm{pt}_A}\rightarrow A $, then $\mathcal{H}(X,A)$ is naturally pointed with point $X \to {}_* \overset{\mathrm{pt}_A}\rightarrow A,$ the trivial $A$-cocycle on $X$. In particular, if $A$ is the delooping,  $A = \mathbf{B}G$, of a group-like space $G$ in $\mathcal{H}$ (an $\infty$-group or $A_\infty$-space) and if $g : X \to \mathbf{B}G$ is a cocycle, then the homotopy fiber of $g$, i.e. the   homotopy pullback $P \to X$ of the point of $A$ in 
 $$
