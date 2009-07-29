@@ -81,7 +81,8 @@ In the preface of his 1965 book _Theory of Categories_ Barry Mitchell writes:
 * A theory of [[type theory|type theories]]. There is a bijection between categories and type theories.
 * A theory of [[deductive system]]s. There is a bijection between categories and deductive systems.
 
-Some would define category theory as the human activity of [[category theorists]].
+Some would define category theory as the human activity of [category theorists](http://ncatlab.org/nlab/list/people).
+
 
 #Branches of category theory#
 
