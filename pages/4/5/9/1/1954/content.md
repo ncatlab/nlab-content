@@ -1,15 +1,13 @@
-
-
 # Idea #
 
-The notion of _Ehresmann connection_ describes a [[connection on a bundle|connection on]] a $G$-[[principal bundle]] $p : P \to X$ (for $G$ some [[Lie group]]) in terms of a [[Lie allgebra]]-valued [[1-form|differential form]] $A \in \Omega^1(P,Lie(G))$ on $P$ that satisfies two conditions.
+The notion of _Ehresmann connection_ describes a [[connection on a bundle|connection on]] a $G$-[[principal bundle]] $p : P \to X$ (for $G$ some [[Lie group]]) in terms of a [[Lie algebra]]-valued $1$-[[differential form|form]] $A \in \Omega^1(P,Lie(G))$ on $P$ that satisfies two conditions.
 
 This can be understood as the special case of [[schreiber:Differential Nonabelian Cohomology|nonabelian differential G-cocycle]] in [[Cech cohomology]] using the "canonical" [[Cech cover]] 
 
 $$\cdots \to P \times_X P \simeq P \times G \stackrel{\to}{\to} P
 $$ 
 
-that comes from the total space surjection $p : P \o X$ of the [[bundle]] itself.
+that comes from the total space surjection $p : P \to X$ of the [[bundle]] itself.
 
 It is an exercise to deduce the conditions on $A$ from that. One find the following two:
 
@@ -31,4 +29,4 @@ $$
 $$
 
 
-
+[[!redirects Ehresmann-connection]]
