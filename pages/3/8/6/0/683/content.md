@@ -344,3 +344,4 @@ Perhaps some of the more classical referencs, Vogt, Bousfield-Kan etc. might be 
 =--
 
 [[!redirects homotopy limits]]
+[[!redirects homotopy colimit]]
