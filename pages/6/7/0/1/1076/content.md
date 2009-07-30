@@ -230,7 +230,7 @@ A link for discussion and a list of source material for  'd&#233;rivateurs' can 
 
 This includes copies of the first thirteen chapters of a 2000 page manuscript of Grothendieck. 
 
-George Maltsiniotis has written an introduction to the topic (in French) which is listed near the bottom of the webpage: (G. Maltsiniotis , "Introduction &#224; la th&#233;orie des d&#233;rivateurs, d'apr&#232;s Grothendieck", Preprint (2001).) 
+[[Georges Maltsiniotis]] has written an introduction to the topic (in French) which is listed near the bottom of the webpage: (G. Maltsiniotis , "Introduction &#224; la th&#233;orie des d&#233;rivateurs, d'apr&#232;s Grothendieck", Preprint (2001).) 
 
 
 Alex Heller's memoir is very readable and is readily available.
