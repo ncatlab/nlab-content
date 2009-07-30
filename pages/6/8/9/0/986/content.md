@@ -15,3 +15,6 @@ There\'s an adjunction here; I should think about which way it goes and whether 
 
 [[Mike Shulman|Mike]]: If it exists, it's either a reflection or a coreflection, since the functor $\Pros \to \Top$ is fully faithful.
 =--
+
+
+[[!redirects specialisation order]]
