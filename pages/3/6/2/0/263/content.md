@@ -4,6 +4,12 @@ A _category with [[weak equivalence]]s_ is is an ordinary [[category]] that is t
 
 The [[(∞,1)-category]] is recovered from the category with weak equivalences by [[simplicial localization]]. The corresponding [[homotopy category of an (∞,1)-category]] is often computed directly as the [[homotopy category]] of the category with weak equivalences.
 
++-- {: .query}
+Surely you don\'t mean to suggest (with '*The* $(\infty,1)$-category is recovered [...]') that the composite
+$$ (\infty,1) Cat \to Cat \to (\infty,1) Cat $$
+is equivalent to the identity, do you?
+=--
+
 Often categories with weak equivalences are equipped with further extra structure that helps with computing the [[simplicial localization]], the [[homotopy category]] and [[derived functor]]s. 
 
 * In a [[homotopical category]] the condition on the weak equivalences is slightly stronger.
