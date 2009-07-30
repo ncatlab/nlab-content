@@ -6,3 +6,6 @@ He has worked for many years now editing,  extending and completing the work of 
 
 His home page is
 [here](http://people.math.jussieu.fr/~maltsin/)
+
+
+category: biography
