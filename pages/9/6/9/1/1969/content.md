@@ -1,7 +1,7 @@
 
 # Idea #
 
-A [[model category]] $C$ models an [[(infinity,1)-category]] $\mathbf{C}$. $\infty$ The latter may be conceived as a [[simplicially enriched category]] with the same objects as $C$.
+A [[model category]] $C$ models an [[(∞,1)-category]] $\mathbf{C}$. The latter may be conceived as a [[simplicially enriched category]] with the same objects as $C$.
 
 For $X,Y \in Obj(C)$ objects of $C$ the [[SSet]]-[[hom object]] $\mathbf{C}(X,Y)$ is the _$(\infty,1)$-categorical hom space_ between $X$ and $Y$ defined by $C$.
 
@@ -9,6 +9,11 @@ There are various equivalent explicit expressions for this objects. These are de
 
 +-- {: .query}
 I don\'t like this term, (for reasons other than using the word 'categorical' ^_^).  Is there any hom-space that is *not* $(\infty,1)$-categorial?  It seems to me that if your hom-objects are spaces, then you\'re an $(\infty,1)$-category; and if you\'re an $(\infty,1)$-category, then your hom-objects could be any spaces.  So how about [[hom-space]]?  ---Toby
+
+[[Urs Schreiber]]: I see your point. On the other hand probably few readers will expect behind a title "hom-space" more than a remark about the definition of a Top-enriched category. Here the point is the construction of these from 1-categorical data.
+
+How can we say this better?
+
 =--
 
 
