@@ -1,6 +1,6 @@
 #Idea#
 
-A _category with [[weak equivalence]]s_ is is an ordinary [[category]] that is to be thought of as the truncation of an [[(∞,1)-category]] where only the information is kept which of its morphisms are _equivalences_ in the full [[(∞,1)-category]].
+A _category with [[weak equivalence]]s_ is an ordinary [[category]] with a class of morphisms called 'weak equivalences' that include isomorphisms, but also typically other morphisms.  Such a category should be thought of as the truncation of an [[(∞,1)-category]] where the only information kept is which of its morphisms are _equivalences_ in the full [[(∞,1)-category]].
 
 The [[(∞,1)-category]] is recovered from the category with weak equivalences by [[simplicial localization]]. The corresponding [[homotopy category of an (∞,1)-category]] is often computed directly as the [[homotopy category]] of the category with weak equivalences.
 
