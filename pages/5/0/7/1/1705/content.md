@@ -19,6 +19,10 @@ If the homotopical structure on $C$ extends to that of a (combinatorial) [[model
 
 ... (see section 4.1 in the reference below) ...
 
+# Remarks  #
+
+If the [[homotopical category]] in question happens to carry the structure of a [[model category]] there are other tools for computing the [[SSet]]-[[hom object]] of the simplicial localization. These are described at [[(infinity,1)-categorical hom-space]]. 
+
 #References#
 
 A comprehensive survey of the general topic involved here is
