@@ -94,6 +94,12 @@ In the preface of his 1965 book _Theory of Categories_ Barry Mitchell writes:
 
   [[David Roberts]]: I think the constrast needs to be made between small categories, which are models for homotopy types, and categories which are to be considered ambient categories, like topoi, [[exact category|Barr-exact categories]], $(\infty,1)$-categories and so on. This is probably what Rafael means, but the juxtaposition in the sentence is slightly confusing. In fact, I've put a bit in about Grothendieck's views on small categories.
 
+  [[Urs Schreiber]]: concerning homotopy types: yes, so that's what I tried to say: while a category _models_ a homotopy type, it can't really be identified with that. Many different categories model a given homotopy type. In fact, already all [[poset]]s model all homotopy types in this sense (namely in the sense that all homotopy types are obtained as [[geometric realization]]s of [[nerve]]s of them). 
+
+  On David's other comment: tt is a good point that for practical purposes we may want to distinguish on which level of self-reflection of category theory we are speaking. Do we have a single $\infty$-category that happens to be used as a model for a homotopy type, or do we happen to consider an $\infty$-category of "all" $\infty$-categories of such sorts (or do we go even further).
+
+  I'd think we need to hear back from Rafael a comment describing a bit more in words what the _intention_ of the above paragraph is. Then I would feel free to implement my suggestion for how one could phrase it.
+
   =--
 
 
