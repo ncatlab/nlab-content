@@ -1,6 +1,6 @@
 ##Motivation##
 
-Gabber and Ramero have developed a chapter in abstract algebra and [[algebraic geometry]] which should, in the style of Grothendieck's theory of [[schemes]], capture some of the ideas of [[Gerd Faltings]]. To this aim they define a notion of [[almost ring]], almost module and finally, [[almost scheme]]. The framework is akin to many ideas in [[noncommutative algebraic geometry]] and in particular uses localization theory (compare also the generalized algebraic geometry of [[Nicolai Durov]]).
+Gabber and Ramero have developed a chapter in abstract algebra and [[algebraic geometry]] which should, in the style of Grothendieck's theory of [[schemes]], capture some of the ideas of [Gerd Faltings](http://en.wikipedia.org/wiki/Gerd_Faltings). To this aim they define a notion of [[almost ring]], almost module, and finally, __almost scheme__. The framework is akin to many ideas in [[noncommutative algebraic geometry]] and in particular uses localization theory (compare also the generalized algebraic geometry of [[Nikolai Durov]]).
 
 
 ##Definition##
