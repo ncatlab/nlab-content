@@ -17,3 +17,5 @@ The functor $Proj$ of a [[graded object|graded]] [[commutative algebra]] is a [[
 * F. van Oystaeyen, L. Willaert, Grothendieck topology, coherent sheaves and Serre's theorem for schematic algebras, J. Pure and Appl. Algebra, 104 (1995), p. 109--122
 
 * F. van Oystaeyen, L. Willaert, The quantum site of a schematic algebra, Comm. Alg. 24:1(1996), p. 209--222
+
+[[!redirects schematic algebras]]
