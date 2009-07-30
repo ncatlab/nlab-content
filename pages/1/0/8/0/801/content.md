@@ -23,3 +23,6 @@ The sense of 'modeled' is related to Whithead's [[algebraic homotopy theory]]. A
 There are some useful points made in:
 
 * H. J. Baues, _Homotopy types_, in  _Handbook of Algebraic Topology_, (edited by I.M. James), North Holland, 1995.
+
+
+[[!redirects homotopy types]]
