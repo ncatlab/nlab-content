@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-30
 
+*  [[Toby Bartels]]:  Please check that I rephrased the definition correctly at [[noncommutative scheme]].  The original formulation did not make sense to me, but I think that I understood what was meant.
+
 * [[Urs Schreiber]]
 
   * replied at [[(infinity,1)-categorical hom-space]]
