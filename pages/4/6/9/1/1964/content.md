@@ -4,5 +4,8 @@
 
 This approach has been continued in the past decade, mostly by [[Georges Maltsiniotis]] and [[Denis-Charles Cisinski]].
 
+###References###
+
+G. Maltsiniotis, _La th&#233;orie de l'homotopie de Grothendieck_, Ast&#233;risque, 301, pp. 1-140, (2005).
 
 [[!redirects the homotopy theory of Grothendieck]]
