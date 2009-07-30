@@ -66,7 +66,7 @@ There is an obvious [[monoidal category|monoidal structure]] on the [[cube categ
 
 A detailed discussion is in
 
-* Sjoerd Crans, _Pasting schemes for the monoidal biclosed structure on $\omega$-Cat_ ([ftp, gzipped PostScript](ftp://ftp.math.mcgill.ca/pub/crans/thten.ps.gz))
+* [[Sjoerd Crans]], _Pasting schemes for the monoidal biclosed structure on $\omega$-Cat_ ([ftp, gzipped PostScript](ftp://ftp.math.mcgill.ca/pub/crans/thten.ps.gz))
 
 * **BrHi** R. Brown and P.J. Higgins, Tensor products and homotopies for $\omega$-groupoids and crossed complexes,  J. Pure Appl. Alg. 47 (1987) 1--33.
 
@@ -74,7 +74,7 @@ A detailed discussion is in
 
 Some helpful remarks and diagrams are in 
 
-* Sjoerd Crans, _A tensor product for $Gray$-categories_ ([tac](http://www.tac.mta.ca/tac/volumes/1999/n2/5-02abs.html))
+* [[Sjoerd Crans]], _A tensor product for $Gray$-categories_ ([tac](http://www.tac.mta.ca/tac/volumes/1999/n2/5-02abs.html))
 
 which is however mainly concerned with a slightly different topic. 
 
