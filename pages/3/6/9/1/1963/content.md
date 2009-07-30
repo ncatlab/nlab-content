@@ -10,6 +10,8 @@ $$ d(a b) = d(a) \epsilon(b) + \epsilon(a) d(b) .$$
 
 If you think about it, you should be able to figure out the definition of an __augmented graded derivation__.
 
+There are many extensions, for examples derivations with values in an $A$-bimodule $M$ forming $Der_k(A,M)\subset Hom_k(A,M)$ (see also entry [[double derivation]]), skew-derivations in ring theory (twist in the Leibniz rule is given by an endomorphism of a ring) and the dual notion of a [[coderivation]] of a coalgebra. The latter plays role in Koszul-dual definitions of $A_\infty$ and $L_\infty$-algebras. 
+
 
 ## Examples
 
@@ -20,3 +22,5 @@ If you think about it, you should be able to figure out the definition of an __a
 *  Let $A$ consist of the [[germ]]s of differentiable functions near a point $p$ in a smooth space $X$.  Then any [[tangent vector]] at $a$ on $X$ defines a derivation on $A$ augmented by evaluation at $a$; again, this serves to define tangent vectors.
 *  Let $A$ consist of the smooth [[differential form]]s on a smooth space $X$.  Then [[exterior differentiation]] is a (degree-$1$) graded derivation.
 *  In any of the above example containing the adjective 'smooth', replace it with $C^k$ and augment $A$ by the inclusion of $C^k$ into $C^{k-1}$.  Then we have an augmented derivation.
+
+[[!redirects derivations]]
