@@ -13,30 +13,16 @@ I believe we should also move most of the material at
 
 ##Idea##
 
-In many situations, we can take [[direct sum]]s of [[representation]]s of some algebraic gadget.  So, decategorifying, the set of isomorphism classes of representations becomes a [[commutative monoid]]. But nobody likes commutative monoids: we all have an urge to subtract.  So, we throw in formal negatives and get an [[abelian group]] --- the so-called [[Grothendieck group]].
+In many situations, we can take [[direct sum|direct sums]] of [[representation|representations]] of some algebraic gadget.  So, decategorifying, the set of isomorphism classes of representations becomes a [[commutative monoid]]. But nobody likes commutative monoids: we all have an urge to subtract.  So, we throw in formal negatives and get an [[abelian group]] --- the so-called [[Grothendieck group]].
 
-In many situations, we can also take [[tensor product]]s of representations.  Then our Grothendieck group becomes something better than an abelian group.  It becomes a [[ring]]: the [[representation ring]]. But, we're not done!  In many situations we can also take [[exterior power|exterior]] and [[symmetric power|symmetric]] powers of representations.  Indeed, we can often apply any [[Young diagram]] to a representation and get a new representation! Then our representation ring becomes something better than a ring.  It becomes a $\lambda$-ring!
+In many situations, we can also take [[tensor product|tensor products]] of representations.  Then our Grothendieck group becomes something better than an abelian group.  It becomes a [[ring]]: the [[representation ring]]. But, we're not done!  In many situations we can also take [[exterior power|exterior]] and [[symmetric power|symmetric]] powers of representations.  Indeed, we can often apply any [[Young diagram]] to a representation and get a new representation! Then our representation ring becomes something better than a ring.  It becomes a $\lambda$-ring!
 
-More generally, the Grothendieck group of a [[monoidal category|monoidal]] [[abelian category]] is always a ring, but if we start with a [[symmetric monoidal category|symmetric monoidal]] abelian category, we get a $\lambda$-ring. So, $\lambda$-rings are all about getting the most for your money when you decategorify a symmetric monoidal abelian category --- for example the category of representations of a group, or the category of [[vector bundle]]s on a space.
+More generally, the [[Grothendieck group]] of a [[monoidal category|monoidal]] [[abelian category]] is always a ring,
+called a [[Grothendieck ring]].   If we start with a [[braided monoidal category|braided monoidal]] abelian category, this ring is commutative.   But if we start with a [[symmetric monoidal category|symmetric monoidal]] abelian category, we get a $\lambda$-ring!   
 
-Unsurprisingly, the Grothendieck group of the free symmetric monoidal abelian category on one generator is the free $\lambda$-ring on one generator.  The free symmetric monoidal abelian category on one generator is very important in representation theory.  Object in this category are called [[Schur functor|Schur functors]], because for obvious reasons they act as functors on _any_ symmetric monoidal abelian category.  The irreducible objects in this category are called 'Young diagrams'.  Elements of the free $\lambda$-ring on one generator are usually called 'symmetric functions in countably many
-variables'.
+So, $\lambda$-rings are all about getting the most for your money when you decategorify a symmetric monoidal abelian category --- for example the category of [[representations]] of a group, or the category of [[vector bundle|vector bundles]] on a space.
 
-**Exercise.**  Consider the ring $\Lambda_n$ consisting of polynomials in $n$ variables that are invariant under all permutations of the variables: so-called **symmetric functions** in $n$ variables.   Find a basis for this ring that is in natural one-to-one correspondence with the set of $k$-box [[Young diagram|Young diagrams]] with $0 \le k \le n$.  (There are a number of correct answers to this question, all famous.) 
-
-Taking a suitable limit (or really [[colimit]]) of the rings $\Lambda_n$ as $n \to \infty$, we get $\Lambda$, the ring of **symmetric functions in countably many variables**.
-
-We may also obtain $\Lambda$ by taking the Grothendieck group of the symmetric monoidal abelian category of $\mathbb{C}$-linear [[species]].  This category is defined to be the functor category
-
-$$ [S, \FinVect_{\mathbb{C}}] $$
-
-where $S$ is the groupoid of finite sets and bijections, and
-$\FinVect_{\mathbb{C}}]$ is the category of finite-dimensional complex vector spaces and linear maps.  This becomes a symmetric monoidal category thanks to [[Day convolution]].
-
-+-- {: .query}
-[[John Baez]]: Do we need the complex numbers here or will any field do equally well?  Maybe just any field of characteristic zero?  I really want to know!  Another way to put my question: take the category of representations of the permutation group $S_n$ in finite-dimensional vector spaces over the field $k$.  Take the Grothendieck group of this.  Does this depend on $k$?  Does something weird happen when $n$ is divisible by $char k$? 
-=--
-
+Unsurprisingly, the [[Grothendieck group]] of the free symmetric monoidal abelian category on one generator is the free $\lambda$-ring on one generator.  This category is very important in representation theory.  Object in this category are called [[Schur functor|Schur functors]], because for obvious reasons they act as functors on _any_ symmetric monoidal abelian category.  The irreducible objects in this category are called 'Young diagrams'.  Elements of the free $\lambda$-ring on one generator are called [[symmetric function|symmetric functions]].
 
 ##Connection to arithmetic##
 
