@@ -12,3 +12,4 @@ Notice that the [[axiom of choice]] fails in general when one considers [[intern
 
 
 [[!redirects skeletal]]
+[[!redirects skeletal category]]
