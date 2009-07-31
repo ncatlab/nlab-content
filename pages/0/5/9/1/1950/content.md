@@ -23,7 +23,7 @@ There are several methods to actually construct the Kan fibrant replacement. One
 
 For $\Delta[k]$ the simplicial $k$-[[simplex]] let $sd \Delta[k]$ be its _barycentric subdivision_: this is the simplicial set that is the [[nerve]] of the [[poset]] of non-degenerate sub-simplicies in $\Delta[k]$.
 
-Notice that this simplicial set $sd \Delta^k$ encodes the shape of an $n$-fold [[cospan] of [[cpspan]]s.
+Notice that this simplicial set $sd \Delta^k$ encodes the shape of an $n$-fold [[cospan]] of [[cospan]]s.
 
 For instance
 
