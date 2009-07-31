@@ -1,4 +1,4 @@
-__The Grothendieck Festschrift__ is a 3-volume collection of articles written in honor of the 60th birthday (1988) of [[Alexander Grothendieck]], published by Birkh&#228;user in 1990. 
+__The Grothendieck Festschrift__ is a 3-volume collection of articles written in honor of the 60th birthday (1988) of [[Alexander Grothendieck]], published by Birkh&#228;user in series Progress in Mathematics in 1990 as volumes 86, 87, 88. More recently a paperback edition appeared in series Modern Birkh&#228;user Classics (French edition). 
 
 Vol. 1
 * Foreword 
@@ -18,7 +18,7 @@ Vol. 1
 Vol. 2 
 * Pierre Cartier and Andr&#233; Voros, Une nouvelle interpr&#233;tation de la formule des traces de Selberg (pp. 1--67)
 * C. Contou-Carr&#232;re, Jacobiennes g&#233;n&#233;ralis&#233;es globales relatives (pp. 69--109)
-* P. Deligne, Cat&#233;gories tannakiennes (pp. 111--195)
+* P. Deligne, [[Catégories Tannakiennes]] (pp. 111--195)
 * Torsten Ekedahl, On the adic formalism (pp. 197--218)
 * Gerd Faltings, $F$-isocrystals on open varieties: results and conjectures (pp. 219--248)
 * Jean-Marc Fontaine, Repr&#233;sentations $p$-adiques des corps locaux. I (pp. 249--309)
