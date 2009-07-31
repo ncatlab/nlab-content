@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]
 
+  * wrote a long "Idea" section at [[twisted cohomology]] and polished/expanded the rest, following comments by [[Jim Stasheff]]
+
   * added to the "Idea" section at [[differential form]] a paragraph that gives some categorical or otherwise abstract nonsense description of how to make precise the statement that "a differential form is something that may be integrated".
 
   * created an entry [[Models for Smooth Infinitesimal Analysis]] (so far containing just a summary and an incomplete link list) and linked to it from [[synthetic differential geometry]] and [[Ehresmann connection]]
