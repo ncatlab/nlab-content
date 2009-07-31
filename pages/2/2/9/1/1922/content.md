@@ -65,28 +65,31 @@ This is enough to characterise regular spaces, as follows:
 Given a neighbourhood $U$ of $x$, there is a closed neighbourhood of $x$ that is contained in $U$.  Equivalently, $x$ has a regular open neighbourhood contained in $U$.  In other words, the closed neighbourhoods of $x$, or equivalently the regular open neighbourhoods of $x$, form a local base (a base of the [[neighbourhood filter]]) at $x$.
 =--
 
-This suggests a slightly weaker condition, that of a __semiregular space__:
+
+In [[constructive mathematics]], Definition \ref{constructive} is good; then everything else follows without change, except for the equivalence with \ref{classical}.  Even then, the classical separation axioms hold for a regular space; they just are not sufficient.
+
+
+## Related notions
+
+Definition \ref{basis} suggests a slightly weaker condition, that of a __semiregular space__:
 +-- {: .un_defn}
 ###### Definition (of semiregular)
 The regular open sets form a basis for the topology of $X$.
 =--
 
 
-In [[constructive mathematics]], Definition \ref{constructive} is good; then everything else follows without change, except for the equivalence with \ref{classical}.  Even then, the classical separation axioms hold for a regular space; they just are not sufficient.
-
-
-## Relation to other separation axioms
-
-As we\'ve seen above, a regular $T_0$ space ($T_3$) is Hausdorff ($T_2$); we can also remove the $T_0$ condition from the latter to get $R_1$:
+As we\'ve seen above, a regular $T_0$ space ($T_3$) is [[Hausdorff space|Hausdorff]] ($T_2$); we can also remove the $T_0$ condition from the latter to get $R_1$:
 +-- {: .un_defn}
 ###### Definition (of $R_1$)
-Given points $a$ and $b$, every neighbourhood of $a$ meets every neighbourhood of $b$, then every neighbourhood of $a$ is a neighbourhood of $b$.
+Given points $a$ and $b$, if every neighbourhood of $a$ meets every neighbourhood of $b$, then every neighbourhood of $a$ is a neighbourhood of $b$.
 =--
 It is immediate that $T_2 \equiv R_1 \wedge T_0$, and the proof above that $T_3 \Rightarrow T_2$ becomes a proof that $R_2 \Rightarrow R_1$; that is, every regular space is $R_1$.  An $R_1$ space is also called _preregular_ (in _[[HAF]]_) or _reciprocal_ (in [[convergence space]] theory).
 
-A bit stronger than regularity is _complete regularity_; a bit stronger than $T_3$ is $T_{3\frac{1}{2}$.  The difference here is that we require that $a$ and $F$ be separated *by a function*, that is by a continuous real-valued function.  See (or write) [[Tychonoff space]] for more.
+
+A bit stronger than regularity is _complete regularity_; a bit stronger than $T_3$ is $T_{3\frac{1}{2}}$.  The difference here is that we require that $a$ and $F$ be separated *by a function*, that is by a continuous real-valued function.  See (or write) [[Tychonoff space]] for more.
 
 
+[[!redirects semiregular space]]
 [[!redirects R2 space]]
 [[!redirects T3 space]]
 [[!redirects regular Hausdorff space]]
