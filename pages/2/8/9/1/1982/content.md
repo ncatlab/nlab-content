@@ -1,0 +1,1 @@
+Measure theory is the field of mathematics that grew out of the [[Lebesgue measure|Lebesgue integral]] and Kolmogorov\'s axioms for [[probability]].  It studies [[measurable spaces]] and [[measure spaces]].
