@@ -17,7 +17,7 @@ $$
 
 This integral in turn encodes the $n$-functoriality of the $n$-functor: it effectively says that
 
-* if we decompose the standard $n$-cube $[0,1]^n$ into $N^n$ little subcubes $(C_k)_{k\in \mathbb{N}^n}$  for $N \in \mathb{N}$
+* if we decompose the standard $n$-cube $[0,1]^n$ into $N^n$ little subcubes $(C_k)_{k\in \mathbb{N}^n}$  for $N \in \mathbb{N}$
 
 * and apply the $n$-functor to each of these to obtain a result (a real number) to be denoted $\omega(C_k)$;
 
@@ -30,11 +30,11 @@ This integral in turn encodes the $n$-functoriality of the $n$-functor: it effec
     \,.
   $$
 
-Since one can let $N$ increase arbitrarily in this prescription, $N \to \infty$, it follows that the value of the functor on $\Sigma$ is already determined by all its values on all "infinitesimal $n$-cubes" in some sense. 
+Since one can let $N$ increase arbitrarily in this prescription -- $N \to \infty$ -- it follows that the value of the functor on $\Sigma$ is already determined by all its values on all "infinitesimal $n$-cubes" in some sense. 
 
-The notion of **differential form** is the one that makes this precise: a differential form is a rule to assigns to each "infinitesimal $n$-cube" a number.
+The notion of **differential form** is the one that makes this precise: a differential form is a rule for assigning to each "infinitesimal $n$-cube" a number.
 
-There are in turn different ways to make that last precise: 
+There are in turn different ways to make that last statement precise: 
 
 * In [[differential geometry]] an "infinitesimal $n$-cube" is modeled by an $n$-tuple of [[tangent bundle|tangent vectors]] and a differential form is a fiberwise linear map from the $n$-fold exterior power of the [[tangent bundle]] to the real numbers.
 
