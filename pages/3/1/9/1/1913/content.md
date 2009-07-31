@@ -1,6 +1,57 @@
-## Idea
+# Idea
 
 A differential form is a geometrical object on a [[manifold]] that can be integrated.
+
+## Abstract nonsense way to say what this means ##
+
+One way to exhibit this statement nicely is by the statement:
+
+_A differential $n$-form on $X$ is a smooth [[n-functor]] $P_n(X) \to \mathbf{B}^n \mathbb{R}$ from the [[path n-groupoid]] of $X$ to the $n$-fold [[delooping]] of the additive [[Lie group]] of real numbers_ .
+
+Such a functor (as described in more detail at [[connection on a bundle]]) assigns a real number to each $n$-dimensional surface in $X$ given by a smooth map $\Sigma : [0,1]^n \to X$. If the differential form that this $n$-functor defines is denoted $\omega \in \Omega^n(X)$, then this real number is denoted by the [[integration|integral]]
+
+$$
+  \int_{[0,1]^n} \Sigma^* \omega
+  \,.
+$$
+
+This integral in turn encodes the $n$-functoriality of the $n$-functor: it effectively says that
+
+* if we decompose the standard $n$-cube $[0,1]^n$ into $N^n$ little subcubes $(C_k)_{k\in \mathbb{N}^n}$  for $N \in \mathb{N}$
+
+* and apply the $n$-functor to each of these to obtain a result (a real number) to be denoted $\omega(C_k)$;
+
+* then by $n$-functoriality the result of the application of the functor to the full $\Sigma$ is the composition of all the $\omega(C_k)$ in $\mathbb{R}$. i.e. their sum
+
+  $$
+    \int_{[0,1]^n} \Sigma^* \omega
+    =
+    \sum_k \omega(C_k)
+    \,.
+  $$
+
+Since one can let $N$ increase arbitrarily in this prescription, $N \to \infty$, it follows that the value of the functor on $\Sigma$ is already determined by all its values on all "infinitesimal $n$-cubes" in some sense. 
+
+The notion of **differential form** is the one that makes this precise: a differential form is a rule to assigns to each "infinitesimal $n$-cube" a number.
+
+There are in turn different ways to make that last precise: 
+
+* In [[differential geometry]] an "infinitesimal $n$-cube" is modeled by an $n$-tuple of [[tangent bundle|tangent vectors]] and a differential form is a fiberwise linear map from the $n$-fold exterior power of the [[tangent bundle]] to the real numbers.
+
+* In [[synthetic differential geometry]] the statement is in essence the same one, but the difference is that there the notion of "infinitesimal $n$-cube" has a concrete meaning on the same footing of other $n$-cubes. If $D^n$ denotes the abstract infinitesimal $n$-cube in this context, then the mapping space $X^{D^n}$ of morphisms from $D^n$ \to X is the $n$-fold [[tangent bundle]] of of $X$ and a differential form is precisely nothing but a morphism
+
+  $$
+    \omega : X^{D^n} \times D^n \to \mathbb{R}
+  $$ 
+
+  (where $\mathbb{R}$ is now the synthetic differential version of the real numbers) subject to three constraints. (These constraints can be seen as the infinitesimal analog of the $n$-functoriality discussed above).
+
+  This is described in detail in section 4 of 
+
+  * Moerdijk-Reyes, [[Models for Smooth Infinitesimal Analysis]]
+
+
+## local coordinate expression ##
 
 In local coordinates, a differential form can be expressed in terms of the coordinate variables and their derivatives; a typical $2$-form in coordinates $(x,y,z)$ might be
 $$ x^2 y\, \mathrm{d}x \wedge \mathrm{d}y + 3 \sin x\, \mathrm{d}x \wedge \mathrm{d}z - (x + 4 y)\, \mathrm{d}x \wedge \mathrm{z} .$$
@@ -11,7 +62,7 @@ $$ \mathrm{d}\omega \wedge \eta ,$$
 for example, as a new differential form.
 
 
-## Definitions
+# Definitions
 
 Given a differentiable [[manifold]] $X$, or even a [[generalized smooth space]] $X$ for which this definition makes sense, a __differential form__ on $X$ is a [[section]] of the [[exterior algebra]] of the [[cotangent bundle]] over $X$; sometimes one refers to an __exterior differential form__ to be more precise.  One often requires differential forms to be smooth, or at least continuous, but we will state this explicitly when we want it.  A __differential $p$-form__ on $X$ is a section of the $p$th [[exterior power]] of the cotangent bundle; the [[natural number]] $p \geq 0$ is the __rank__ of the form.  A general differential form is a $p$-indexed [[sequence]] of differential $p$-forms of which all but finitely many are zero; on a finite-dimensional manifold, this latter condition is automatic.
 
