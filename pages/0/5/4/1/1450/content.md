@@ -8,7 +8,7 @@ As quoted by Anders Kock in his book (see below), Sophus Lie once said that he f
 
 In the book
 
-* Moerdijk-Reyes, _Models for Smooth Infinitesimal Analysis_ 
+* Moerdijk-Reyes, _[[Models for Smooth Infinitesimal Analysis]]_ 
 
 a realization of a [[topos]] for synthetic differential geometry is constructed in terms of [[structured generalized space|structured generalized spaces]] modeled on [[generalized smooth algebra]]s. Among other things, the book describes in detail how the familiar but ill-defined "infinitesimal reasoning" in standard differential geometry finds its precise formulation in such a topos.
 
