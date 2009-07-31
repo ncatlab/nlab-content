@@ -24,13 +24,13 @@ However, neither of these is acceptable in [[constructive mathematics]].  This i
 
 Most of set theory works without the axiom of foundation, but not the deep study of well-founded pure sets.  However, one might want to do material set theory without assuming that all sets are well-founded, then one would not assume this axiom.
 
-Alternatively, one can adopt the __axiom of anti-foundation__, which says something like:
+Alternatively, one can adopt the __axiom of anti-foundation__, which says:
 
-* Given any binary [[relation]] $\prec$ on any [[set]] $S$, there exists a unique [[transitive set]] $U$ such that $(U,\in)$ is [[isomorphism|isomorphic]] to $(S,\prec)$.
+* Given any [[extensional relation|extensional]] binary [[relation]] $\prec$ on any [[set]] $S$, there exists a unique [[transitive set]] $U$ such that $(U,\in)$ is [[isomorphism|isomorphic]] to $(S,\prec)$.
 
-(This might be wrong, so somebody should fix it.  There might also be several versions or equivalent forms.)
+Just as there are several versions of an [[extensional relation]], there are several versions of this axiom.  Note that the existence part of the statement is a set-formation axiom, while the uniqueness part is a stronger version of the [[axiom of extensionality]] (which is equivalent to the usual one for well-founded sets).
 
-Note that the converse of this is obvious.  If you include the hypothesis that $\prec$ be [[well-founded relation|well-founded]], then the statement is a theorem but the converse is the axiom of foundation.
+If you include the hypothesis that $\prec$ be [[well-founded relation|well-founded]], then the statement is a theorem (Mostowski's collapsing lemma), while the converse is the axiom of foundation.
 
 If you adopt the axiom of anti-foundation instead of foundation, then the universe of [[pure set]]s becomes the [[corecursion|corecursively]] defined ill-founded sets instead of the [[recursion|recursively]] defined well-founded sets.
 
