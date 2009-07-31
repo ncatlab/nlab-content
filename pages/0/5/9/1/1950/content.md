@@ -33,7 +33,7 @@ $$
 
 is the ordinary [[cospan]].
 
-Thes multiplic cospan simplicial sets defines a functor $Ex : SSet \to SSet$ by setting
+These multi-cospan simplicial sets define a functor $Ex : SSet \to SSet$ by setting
 
 $$
   (Ex X)_n = Hom_{SSet}(sd \Delta[k], X)
