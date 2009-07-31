@@ -16,6 +16,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-07-31
 
+* [[Urs Schreiber]]
+
+  * added expositional text to [[Kan fibrant replacement]] prodded by the blog discussion [here](http://golem.ph.utexas.edu/category/2008/12/groupoidification_from_sigmamo.html#c025677)
+
 *  [[Toby Bartels]]:
    *  Created [[measure theory]], just because it was linked, to link other things from it.
    *  Additions to [[regular space]], [[separation axiom]], and [[Hausdorff space]].
