@@ -15,7 +15,7 @@ A differential $n$-form on $X$ is a smooth $n$-[[n-functor|functor]] $P_n(X) \to
 +-- {: .query}
 Urs, do you know where the need for orientation comes in here?  I don\'t follow it in enough detail to see, although I intend to read Moerdijk--Reyes.  ---Toby
 
-[[Eric]]: I'm probably confused, but if $\sigma_n$ is a morphism in $P_n(X)$, then (unless $X$ is a [[directed space]]), the opposite $\sigma_n^{-1}$ is also in $P_n(X)$ and I think $\alpha(\sigma_n) = -\alpha(\sigma_n^{-1})$.
+[[Eric]]: I'm probably confused, but if $\sigma_n$ is a morphism in $P_n(X)$, then (unless $X$ is a [[directed space]]), the opposite $\sigma_n^{-1}$ is also in $P_n(X)$ and I think $\omega(\sigma_n) = -\omega(\sigma_n^{-1})$.
 
 =--
 
@@ -48,7 +48,7 @@ There are in turn different ways to make that last statement precise:
 
 * In [[differential geometry]] an "infinitesimal $n$-cube" is modeled by an $n$-tuple of [[tangent bundle|tangent vectors]] and a differential form is a fiberwise linear map from the $n$-fold exterior power of the [[tangent bundle]] to the real numbers, as given below.
 
-* In [[synthetic differential geometry]] the statement is in essence the same one, but the difference is that there the notion of "infinitesimal $n$-cube" has a concrete meaning on the same footing of other $n$-cubes. If $D^n$ denotes the abstract infinitesimal $n$-cube in this context, then the mapping space $X^{D^n}$ of morphisms from $D^n$ \to X is the $n$-fold [[tangent bundle]] of $X$ and a differential form is precisely nothing but a morphism
+* In [[synthetic differential geometry]] the statement is in essence the same one, but the difference is that there the notion of "infinitesimal $n$-cube" has a concrete meaning on the same footing of other $n$-cubes. If $D^n$ denotes the abstract infinitesimal $n$-cube in this context, then the mapping space $X^{D^n}$ of morphisms from $D^n\to X$ is the $n$-fold [[tangent bundle]] of $X$ and a differential form is precisely nothing but a morphism
   $$
     \omega : X^{D^n} \times D^n \to \mathbb{R}
   $$ 
