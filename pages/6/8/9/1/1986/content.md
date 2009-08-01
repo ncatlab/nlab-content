@@ -16,7 +16,31 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-01
 
+* [[Urs Schreiber]]: while [[Eric Forgy|Eric]] has the page on [[differential form]]s locked, I'll drop my reply to [[Toby Bartels|Toby]] here (to be moved over there later):
+
+  1. I like the reformatting. The beginning of the entry looks good now. 
+
+  2. The orientation of the diffential form corresponds to the inherent orientation of [[k-morphism]]s: as we identify the differential form with a smooth functor on the [[path n-groupoid]], that [[path n-groupoid]] necessarily has _oriented_ $k$-volumes as its [[k-morphism]]s, simply because these $k$-morphisms need to come with information about their (higher categorical) source and target.
+
+  3. To get pseudo-differential forms that may be integrated also over non-oriented and possibly non-orientable manifolds one needs to consider parallel transport functors not with coefficients in just $\mathbf{B}^n \mathbb{R}$ coming from the [[crossed complex]] 
+     
+     $$
+        (\mathbb{R} \to {*} \to \cdots \to {*})
+     $$
+
+     but the more refined crossed complex
+
+     $$
+        (\mathbb{R} \to {*} \to \cdots \to \mathbb{Z}_2)
+     $$
+
+     where the $\mathbb{Z}_2$-factor acts by sign reversal on $\mathbb{R}$ (one can also use $U(1)$ instead of $\mathbb{R}$, this way $[P_n(-), \mathbf{B}^n U(1)]$ becomes the [[Deligne cohomology|Deligne complex]] and knows not just about differential forms but about $U(1)$ $n-1$-gerbes with connection even).
+
+     A little bit of discussion of this unoriented case is currently at [[orientifold]]. There for the case $n=2$.
+
+
 *  [[Toby Bartels]]:
+
    *  Archived the [[2009 July changes]].  (Check there if you missed some ... which you did, I promise.)
    *  More discussion with [[Rafael Borowiecki]] at [[category theory]].
    *  Answered one of two un-logged questions by [[Jim Stasheff]] at the bottom of [[Timeline of category theory and related mathematics]].
