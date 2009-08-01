@@ -46,6 +46,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[Ronnie Brown]]
 * [[Sebastian Thomas]]
 * [[Simon Willerton]]
+* [[Sridhar Ramesh]]
 * [[Stefan Forcey]]
 * [[Thomas Nikolaus]]
 * [[Tim Porter]]
