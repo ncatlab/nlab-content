@@ -59,8 +59,6 @@ In the preface of his 1965 book _Theory of Categories_ Barry Mitchell writes:
 * The theory of [[category|categories]] as [[essentially algebraic theory|essentially algebraic structures]] with several objects and a relation (morphism) "algebra" on these objects. Structures in ordinary [[algebraic theory|abstract algebra]], like [[monoid|monoids]], have only one object. This theory also include [[functors]] between categories and [[natural transformation|natural transformations]].
 
 * The theory of categories as primitive mathematical [[universe]]s or [[space]]s (nothing as fancy as a [[topos]]). As a space, a category is a [[simplicial set]] such that the [[Segal map]]s are isomorphisms. The simplicial set is the [[nerve]] of the category.
-
-
   +-- {: .query}
 
   Rafael: Preferrably as some 1D CW-complex that i am trying to figure out. Can someone fill that in.
@@ -122,30 +120,24 @@ Now i only wish i knew more about fundamental localizers to write more.
 
   References are: first part of first chapter of first volume of "Handbook of categorical algebra" - Borceux and "One universe as a foundation for category theory" - Mac Lane 1969. "Categories and sheaves" - Kashivara-Schapira do also mention briefly universes at the beginning.
 
+  _Toby_:  The way that topologists think of a graph as a space is as a CW complex.  Each edge is modelled by a copy of the unit interval $[0,1]$ (which way doesn\'t matter up to homeomorphism), and each vertex is modelled by a single point, which is then identified with the appropriate endpoint of each edge interval that touches it.  (And if you want to be constructive, do a little completing here, but that\'s not important.)  Of course, this is all very much like taking the geometric realisation of a simplicial set, and it does not lose any information if you are talking about an undirected graph (even multipseudograph).
+
+  If you have a specific reference, with page number, for your vision of a category as a space, I would like to see it.  I mean, I\'ve read Borceux, but I don\'t remember anything like this (I\'ll check again).  Is it just a matter of visualisation?, or something more rigorous?  If the former, then I think that I understand what you mean, but I\'m not getting the latter.
   =--
-
-
-* A theory of models for homotopy types. Only the small categories are models so far. In [[Alexander Grothendieck|Grothendieck's]] approach to homotopy theory he called $Cat$ together with the class of functors that induced weak equivalences on nerves a [[fundamental localizer]]. See [[the homotopy theory of Grothendieck]].
-
-
+* A theory of models for homotopy types. In [[Alexander Grothendieck|Grothendieck's]] approach to homotopy theory he called $Cat$ together with the class of functors that induced weak equivalences on nerves a [[fundamental localizer]]. See [[the homotopy theory of Grothendieck]].
+  +-- {: .query}
+  I removed the bit about smallness here.  Small categories model small homotopy types, and large categories model large homotopy types; there\'s nothing deep here.  That said, we could reasonably split this list into two, for uses of categories that are generally small vs uses of categories that are generally large.  The fact is, however, that one can always shift one\'s perspective on what is small and large if one wants to.  ---Toby
+  =--
 * A unifying tool and language in [[mathematics]].
 * A new [[foundations|foundation of mathematics]] that focuses attention on structural issues and away from how mathematical objects are 'built up' as sets.
 * An abstraction of an abstraction of an abstraction of .... The first level is [[set]]s and is most concrete. This is abstracted to categories (only some categories are categories of sets, hence the abstraction). The next abstraction is to categories of categories or more generally $2$-[[2-category|categories]]. This can be iterated to $n$-[[n-category|categories]] and [[infinity-category|indefinitely]]. This could be called the theory of abstractions.
 * A description of partial [[symmetry|symmetries]], in the sense that [[group]]s describe symmetries.
 * A generalized theory of [[representations]]. In this view every functor is a representation of its domain in its codomain and natural transformations are the [[intertwining operator]]s between representations.
-* The theory of [[directed multigraph|directed multigraphs]] with a [[composition]] law and loops. This has given rise to the heavy use of diagrams in category theory.
+* The theory of [[directed graph|directed multipsuedographs]] with a [[composition]] law and identity loops. This has given rise to the heavy use of diagrams in category theory.
 * A theory of [[type theory|type theories]]. There is a bijection between categories and type theories.
 * A theory of [[deductive system]]s. There is a bijection between categories and deductive systems.
 * A theory of [[presheaves]] with some properties on the full subcategory $[0] \overset{\rightarrow}{\underset{\rightarrow}\leftarrow} [1] \overset{\rightarrow}{\underset{\rightarrow}{\overset{\leftarrow}{\underset{\leftarrow}\rightarrow}}} [2]$ of $\Delta$.
-
-+-- {: .query}
-
-  _Rafael_: I don't like this definition but maby others do. How do i edit multiple arrows, they are supposed to be on top of each other. And the numbers are supposed to be in square brackets that don't show! Anyone remembering the properties?
-* A theory of Cat, the 2-category of categories. This is axiomatized in Lawvere's [[ETAC]].
-
-  _Toby_:  Put math between dollar signs!  The iTeX here is rather more like real LaTeX than the texvc at Wikipedia.  (That takes care of the brackets; for the arrows, learn to love `\overset` and `\underset`.)
-
-=--
+* A theory of [[Cat]], the $2$-[[2-category|category]] of categories. This is axiomatized in Lawvere\'s [[ETAC]].
 
 Some would define category theory as the human activity of [category theorists](http://ncatlab.org/nlab/list/people).
 
