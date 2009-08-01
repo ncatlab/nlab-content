@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-01
 
+*  [[Sridhar Ramesh]] has joined, editing [[module]] and [[Mitchell-Benabou language]] so far.
+
 * [[Urs Schreiber]]: while [[Eric Forgy|Eric]] has the page on [[differential form]]s locked, I'll drop my reply to [[Toby Bartels|Toby]] here (to be moved over there later):
 
   1. I like the reformatting. The beginning of the entry looks good now. 
