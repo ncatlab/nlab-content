@@ -14,6 +14,9 @@ A differential $n$-form on $X$ is a smooth $n$-[[n-functor|functor]] $P_n(X) \to
 =--
 +-- {: .query}
 Urs, do you know where the need for orientation comes in here?  I don\'t follow it in enough detail to see, although I intend to read Moerdijk--Reyes.  ---Toby
+
+[[Eric]]: I'm probably confused, but if $\sigma_n$ is a morphism in $P_n(X)$, then (unless $X$ is a [[directed space]]), the opposite $\sigma_n^{-1}$ is also in $P_n(X)$ and I think $\alpha(\sigma_n) = -\alpha(\sigma_n^{-1})$.
+
 =--
 
 Such a functor (as described in more detail at [[connection on a bundle]]) assigns a real number to each parametrised $n$-dimensional cube of $X$, that is a subspace by a smooth map $\Sigma : [0,1]^n \to X$.  If the differential form that this $n$-functor defines is denoted $\omega \in \Omega^n(X)$, then this real number is denoted by the [[integration|integral]]
@@ -35,13 +38,17 @@ This integral in turn encodes the $n$-functoriality of the $n$-functor: it effec
 
 Since one can let $N$ increase arbitrarily in this prescription -- $N \to \infty$ -- it follows that the value of the functor on $\Sigma$ is already determined by all its values on all "infinitesimal $n$-cubes" in some sense. 
 
++--{.query}
+[[Eric]]: This is neat and goes toward answering my query about an "arrow theoretic" presentation on [[measure space]].
+=--
+
 The notion of **differential form** is the one that makes this precise: a differential form is a rule for assigning to each "infinitesimal $n$-cube" a number.
 
 There are in turn different ways to make that last statement precise: 
 
 * In [[differential geometry]] an "infinitesimal $n$-cube" is modeled by an $n$-tuple of [[tangent bundle|tangent vectors]] and a differential form is a fiberwise linear map from the $n$-fold exterior power of the [[tangent bundle]] to the real numbers, as given below.
 
-* In [[synthetic differential geometry]] the statement is in essence the same one, but the difference is that there the notion of "infinitesimal $n$-cube" has a concrete meaning on the same footing of other $n$-cubes. If $D^n$ denotes the abstract infinitesimal $n$-cube in this context, then the mapping space $X^{D^n}$ of morphisms from $D^n$ \to X is the $n$-fold [[tangent bundle]] of of $X$ and a differential form is precisely nothing but a morphism
+* In [[synthetic differential geometry]] the statement is in essence the same one, but the difference is that there the notion of "infinitesimal $n$-cube" has a concrete meaning on the same footing of other $n$-cubes. If $D^n$ denotes the abstract infinitesimal $n$-cube in this context, then the mapping space $X^{D^n}$ of morphisms from $D^n$ \to X is the $n$-fold [[tangent bundle]] of $X$ and a differential form is precisely nothing but a morphism
   $$
     \omega : X^{D^n} \times D^n \to \mathbb{R}
   $$ 
