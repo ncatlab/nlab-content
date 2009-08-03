@@ -1,4 +1,4 @@
-A __butterfly__ or __pappilon__ is a [[crossed profunctor]] between [[crossed module]]s such that the NE-SW sequence is exact i.e. a (nonabelian in general) group extension sequence. It corresponds to weak functors between the corresponding 2-groups. A butterfly  is flippable, or reversible, if both diagonals (cf. [[crossed profunctor]]) are extensions. There is also a straightforward generalization for 2-group stacks. 
+A __butterfly__ or __papillon__ is a [[crossed profunctor]] between [[crossed module]]s such that the NE-SW sequence is exact i.e. a (nonabelian in general) group extension sequence. It corresponds to weak functors between the corresponding 2-groups. A butterfly  is flippable, or reversible, if both diagonals (cf. [[crossed profunctor]]) are extensions. There is also a straightforward generalization for 2-group stacks. 
 
 * B. Noohi, _On weak maps between 2-groups_, [arXiv](http://arxiv.org/abs/math/0506313)
 
