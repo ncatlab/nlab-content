@@ -1,0 +1,6 @@
+Given a [[monad]] $\mathbf{T}=(T,\mu,\eta)$ in $Cat$, where $T:C\to C$ is an endofunctor with multiplication $\mu:TT\to T$ and unit $\eta:Id_C\to T$, a __free $\mathbf{T}$-algebra__ (or free $\mathbf{T}$-module) is a $\mathbf{T}$-algebra (module) of the form $(TM,\mu_M)$, where the action is the component of multiplication transformation $\mu_M : TTM\to TM$. The category of free $\mathbf{T}$-algebras make a subcategory of [[Eilenberg-Moore category]] $C^{\mathbf{T}}$ called the __Kleisli category__ $C_{\mathbf{T}}$ of the monad $\mathbf{T}$. If $U:C^{\mathbf{T}}\to C$ is the forgetful functor and $F: C\to C^{\mathbf{T}}$ is the free algebra functor $F: M\mapsto (TM,\mu_M)$, then the Kleisli category is simply the image of $F$.
+
+The image of $F$ is faithful, hence we can keep the same objects and redefine the morphisms. This was the original Kleisli construction: the objects of $C_{\mathbf{T}}$ are simply the objects of $C$ and the morphisms $M\to N$ in $C_{\mathbf{T}}$ are the elements of $C(M,TN)$
+with the composition rule $g\circ_{Kleisli} f = \mu_P\circ Tg\circ f$ like in Grothendieck construction (here $M\stackrel{f}\to N\stackrel{g}\to P$).
+
+In more general 2-categories the universal properties of Kleisli objects are dual to the universal properties of Eilenberg-Moore objects.
