@@ -15,28 +15,43 @@ a realization of a [[topos]] for synthetic differential geometry is constructed 
 In this vein, Anders Kock, in a long series of articles, reformulates large parts of differential geometry using synthetic reasoning. In his work he particularly makes use of the fact that as sophisticated as a synthetic [[topos]] may be when explicitly constructed, being a [[topos]] means that one can reason inside it almost literarally as in [[Set]]. Using this Kock's work gives descriptions of synthetic differential geometry which are entirely intuitive and have no topos-theoretic flavor. All he needs is the assumption that the _Kock-Lawvere axiom_ is satisfied for "numbers". Here "numbers" is really to be interpreted in the topos, but if one just accepts that they satisfy the KL axiom, one may work with infinitesimals in this context in essentially precisely the naive way, with the topos theory in the background just ensuring that everything makes good sense.
 
 
-###Books###
+
+# Remarks #
+
+* Synthetic differential geometry may be thought of as embedded in the general theory of [[derived smooth manifold]]s and, generally, that of [[structured generalized space]]s.
+
+
+# Related entries #
+
+* [[differential forms in synthetic differential geometry]]
+
+# References #
+
+## Books ##
 
 *  Online first edition of [Synthetic Differential Geometry](http://home.imf.au.dk/kock/sdg99.pdf) by [[Anders Kock]]
 
 *  A preprint of [[Anders Kock]]'s new book _Synthetic Geometry of Manifolds_ is available at his [homepage](http://home.imf.au.dk/kock/).
 
+* Moerdijk--Reyes, _[[Models for Smooth Infinitesimal Analysis]]_ 
 
-###Exposition###
+
+## Exposition ##
 
 *  [Mike Shulman](http://www.math.uchicago.edu/~shulman/exposition/sdg/pizza-seminar.pdf)
 
 *  [John Bell](http://publish.uwo.ca/~jbell/invitation%20to%20SIA.pdf)
 
 
-# Generalization #
-
-Synthetic differential geometry may be thought of as embedded in the general theory of [[derived smooth manifold]]s and, generally, that of [[structured generalized space]]s.
 
 # Discussion #
+
++-- {: .query}
 
 [[Eric]]: Mike, have you ever looked into [stochastic calculus](http://en.wikipedia.org/wiki/It%C5%8D%27s_lemma)? I was looking at your "pizza seminar" and was left with the thought that stochastic calculus might also be presented in terms of synthetic differential geometry. To do so, you need a slightly different class of elements $\delta$ such that that $\delta^2\in D$ and $d\delta = 0$. Then the 2-dimensional Taylor expansion becomes the [Ito lemma](http://en.wikipedia.org/wiki/It%C5%8D%27s_lemma):
 
 $$f(t+d,w+\delta) =  f(t,w) + \left(\frac{\partial f}{\partial t} + \frac{1}{2}\frac{\partial^2 f}{\partial w^2}\right) d + \frac{\partial f}{\partial w} \delta.$$
 
 Just curious...
+
+=--
