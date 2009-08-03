@@ -25,7 +25,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[John Baez]] expanded [[reconstruction theorem]] (it seems)
 
-  * [[Sridhar Ramesh]] expanded this a little more, in particular discussing the infinitary analogue of Lawvere's reconstruction theorem and the monadic perspective on this
+  * [[Sridhar Ramesh]] expanded this a little more, in particular discussing the infinitary analogue of Lawvere's reconstruction theorem and the monadic perspective on this, as well as cursorily noting how this is all nothing more and nothing less than the Yoneda embedding lemma cast into logical guise
 
 * [[Urs Schreiber]] created [[Chevalley-Eilenberg cochain complex]]
 
