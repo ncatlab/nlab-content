@@ -16,12 +16,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 ## 2009-08-03
-
+* [[Zoran Škoda]]: created [[crossed profunctor]] (of crossed modules) and [[butterfly]] (pappilon). First after M. Jibladze (1990) and second after B. Noohi (2005). I did not draw the diagram but wrote equations explicitly. I have the file of the book where Jibladze's paper is if somebody needs it. 
 * [[Eric]]:
 
   * Gleefully responded to John's gleeful response on [[directed graph]]. Note: I need to learn about this 'resolution' stuff.
 
-* [[Zoran Škoda]]: added [[reconstruction theorem]]. There should eventually be separate entries for each of the main classes and examples, which are listed in the main entry.
+* [[Zoran Škoda]]: created [[reconstruction theorem]]. There should eventually be separate entries for each of the main classes and examples, which are listed in the main entry.
 * [[Urs Schreiber]]: 
 
   * added something on the dual Dold-Kan correspondence relating _co_ -chain complexes and co-simplicial abelian groups to [[Dold-Kan correspondence]].
