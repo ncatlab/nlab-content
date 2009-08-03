@@ -91,6 +91,8 @@ I've never heard of Hasse diagrams for preorders that aren't posets, so let's no
 
 The Wikipedia article seems content to discuss Hasse diagrams for finite posets; probably some sort of 'local finiteness' condition will suffice.  The rationals have infinitely many guys between any two different guys, so they're not 'locally finite'.
 
+[[Eric]]: Ok. So this 'locally finite' restriction seems to put us into [[causets]], which is kind of neat. So maybe we should create a page [[Hasse diagram]]. A [[Hasse diagram]] of a [[causet]] $C$ is the smallest [[directed graph]] $G$ such that its [[quiver]] $F(G)$ is equivalent to $C$ (?)
+
 #See also#
 ***
 * [[directed n-graph|Directed n-graph]]
