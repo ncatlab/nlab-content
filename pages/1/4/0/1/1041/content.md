@@ -1,9 +1,9 @@
-#Idea#
+##Idea##
 
-An abelian category is a general context in which much of linear algebra and [[homological algebra]] makes sense.  It is one concept in a sequence of [[additive and abelian categories]].
+An abelian category is a general context in which much of linear algebra and [[homological algebra]] makes sense.  It is one concept in a sequence of [[additive and abelian categories]].  
 
 
-# Definition
+##Definition##
 
 An **abelian category** is a [[pre-abelian category]] satisfying the following equivalent conditions.
 
@@ -11,7 +11,7 @@ An **abelian category** is a [[pre-abelian category]] satisfying the following e
 
 1. Every [[monomorphism|monic]] is a [[kernel]] and every [[epimorphism|epic]] is a [[cokernel]].
 
-#Remarks#
+##Remarks##
 
 * The two conditions are equivalent as follows. Assuming (1), when $f$ is monic we obtain $f\cong \ker(\coker(f))$ so that $f$ is a kernel, and dually; thus (1) implies (2).  The converse can be found in, among other places, Chapter VIII of [[Categories Work]].
 
@@ -23,7 +23,7 @@ An **abelian category** is a [[pre-abelian category]] satisfying the following e
 
 
 
-# Examples
+## Examples##
 
 * Of course, [[Ab]] is abelian, as is the category of [[module|modules]] over any [[ring]].
 
@@ -33,6 +33,21 @@ An **abelian category** is a [[pre-abelian category]] satisfying the following e
 
 * The category of torsion-free abelian groups is pre-abelian, but not abelian: the monomorphism $2:\mathbb{Z}\to\mathbb{Z}$ is not a kernel.
 
+## Categories of $R$-modules ##
+
+There are some interesting results about the extent to which we can pretend any abelian category is a category of $R$-modules for some ring $R$.  Let us write $R Mod$ for such a category of modules.  
+
+First of all, it's easy to see that not every abelian category is equivalent to $R Mod$ for some ring $R$.  The reason is that $R Mod$ has all [[small category]] [[limits]] and [[colimits]].  The category of [[finitely generated module|finitely generated]] $R$-modules is an abelian category that lacks these properties.
+
+However, we have
+
+**Mitchell's Embedding Theorem**: Every small abelian category is equivalent to a [[full subcategory]] of the category $R Mod$ for some ring $R$.
+
+We can also characterize which abelian categories _are_ equivalent to a category of $R$-modules:
+
+**Theorem**: Let $C$ be an abelian category.  If $C$ has all [[small category]] [[coproducts]] and has a [[compact object|compact]] [[projective object| projective]] [[generator]], then $C \simeq R Mod$ for some ring $R$.  In fact, in this situation we can take $R = C(x,x)^{op}$ where $x$ is any compact projective generator.   Conversely, if $C \simeq R Mod$, then $C$ has all small coproducts and $x = R$ is a compact projective generator.
+
+**Proof**: The nontrivial part of this theorem is Prop. 2.1.7. of Victor Ginzburg's [Lectures on Noncommutative Geometry](http://arxiv.org/PS_cache/math/pdf/0506/0506603v1.pdf#page=4).  Conversely, it is easy to see that $R$ is a compact projective generator of $R Mod$.
 
 # Discussion
 
