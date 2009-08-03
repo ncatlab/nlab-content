@@ -17,9 +17,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-03
 
-* [[Urs Schreiber]]: 
+* [[John Baez]] expanded [[reconstruction theorem]] (it seems)
 
-  * created [[Chevalley-Eilenberg cochain complex]]
+* [[Urs Schreiber]] created [[Chevalley-Eilenberg cochain complex]]
 
 * [[Zoran Škoda]]: posted _[[jibladzeCoeffLargeCats.djvu:file]]_ and linked it to [[crossed profunctor]].  Urs, how the integration approach to diff. forms fits with existance of classes of smooth, $C^1$-only, $L^1$-integrable etc. differential forms and the currents ("differential form-valued distributions"), and it seems it puts n-forms on n-manifolds in special position, than say k-forms on n-manifolds. There is a subject of geometric integration theory where integrability is related to geometric properties like rectifiability (Federer); how this fits with that. And finally with differential forms on singular varieties. It seems to me that this approach has advantages and applicability in some cases, while the easy approach via dualizing vector fields to get 1-forms and then proceeding algebraically in others. One should maybe also compare to Lurie's usage of cotangent bundle in expressing an alternative approach to higher descent. 
 
