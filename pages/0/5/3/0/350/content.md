@@ -15,7 +15,9 @@ The axioms say that $j$ is ([[internalization|internally]]) a [[exact functor|le
 
 Here $\leq$ is the internal [[partial order]] on $\Omega$, and $\wedge: \Omega \times \Omega \to \Omega$ is the internal [[meet]].
 
-Given any [[subobject]] inclusion $X \hookrightarrow Y$ in $E$, consider its [[characteristic morphism]] $\chi_X: Y \to \Omega$. Then $\chi_X \circ j$ is another morphism $Y \to \Omega$, which defines another subobject $j_*(X)$ of $Y$. The elements of $j_*(X)$ are those elements of $Y$ that are 'locally' in $X$.
+Equivalently, the third axiom above can be replaced with the (internal) statement that $j$ is order-preserving; the equivalence amounts to the fact that, within the internal logic of topoi, one can demonstrate that every monad on the preorder of truth values is in fact [[strong monad|strong]] (a special case of the fact that, for an endofunctor on some monoidal closed $V$, [[tensorial strength|tensorial strengths]] are the same as $V$-enrichments, as described in the article on the former). Thus, a Lawvere-Tierney topology is the same thing as an internal closure operator on $\Omega$, which amounts to the same thing as a natural closure operator on subobjects.
+
+Specifically, given any [[subobject]] inclusion $X \hookrightarrow Y$ in $E$, consider its [[characteristic morphism]] $\chi_X: Y \to \Omega$. Then $\chi_X \circ j$ is another morphism $Y \to \Omega$, which defines another subobject $j_*(X)$ of $Y$, taken as the closure of our original subobject. The elements of $j_*(X)$ are those elements of $Y$ that are 'locally' in $X$.
 
 
 # Equivalence with Grothendieck topologies
