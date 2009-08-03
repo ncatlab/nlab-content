@@ -3,7 +3,7 @@
 
 In the context of [[synthetic differential geometry]] a [[differential form]] $\omega$ of degree $k$ on a [[manifold]] $X$ is literally a function on the space of _infinitesimal cubes_ or _infinitesimal simplices_ in $X$.
 
-We give the definition as availalable in the literature and then interpret this in a more unified way in terms of [[(infinity,1)-quantity|(infinity,1)-quantities]] $\infty$.
+We give the definition as availalable in the literature and then interpret this in a more unified way in terms of [[(infinity,1)-quantity|(∞,1)-quantities]].
 
 # Definition #
 
@@ -93,4 +93,4 @@ the object of differential forms on $X$ _is_ the cosimplicial [[generalized smoo
 
 * Moerdijk-Reyes,  [[Models for Smooth Infinitesimal Analysis]]
 
-* Castiglioni, Cortinas, _Cosimplicial versus DG-rungs: a version of the Dold-Kan correspondence_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0306/0306289v3.pdf))
+* Castiglioni, Cortinas, _Cosimplicial versus DG-rings: a version of the Dold-Kan correspondence_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0306/0306289v3.pdf))
