@@ -9,6 +9,8 @@ Please log all your non-trivial changes to the $n$Lab here!
 
 =--
 
+Here "non-trivial" means: anything that any other contributor might be interested in taking notice of. If you fix a trivial typo in the text somewhere, that is highly appreciated but unlikely to be controversial and hence need not be logged here. But already if you fix a typo in some formula, it may be of interest. Generally: the more you log your activity here, the better. Even when in doubt whether anyone else might be interested in changes you made, drop a note here on what you did.
+
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).  However, regardless of that, be sure to **add new comments to the top** of the list.
 
 ***
@@ -17,34 +19,15 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Sridhar Ramesh]] added a small note that [[Lawvere-Tierney topology|Lawvere-Tierney topologies]] are the same as (internal) closure operators on truth values (Being new here, I'm not exactly sure what the protocols are; in "Please log all your non-trivial changes", does "non-trivial" mean everything above, say, typo-correction?). I also observed, in the article on [[presheaf|presheaves]], that the representable presheaves on a category of presheaves are precisely those which turn colimits into limits (i.e., a functor of type $[C, Set]^{op} \to Set$ is representable just in case it is limit-preserving).
 
+  * [[Urs Schreiber]]: I added a remark to the text above on what "non-trivial" means. Generally, I think you can't log too much of your activity here, just too little. So if in doubt whether anyone else might be interested in your changes or not, drop a note here.
+
 * [[Eric]]: Asked a question of [[Mike Shulman|Mike]] (or anyone else interested in SDG) at [[synthetic differential geometry]].
 
 ## 2009-08-01
 
 *  [[Sridhar Ramesh]] has joined, editing [[module]] and [[Mitchell-Benabou language]] so far.
 
-* [[Urs Schreiber]]: while [[Eric Forgy|Eric]] has the page on [[differential form]]s locked, I'll drop my reply to [[Toby Bartels|Toby]] here (to be moved over there later):
-
-  1. I like the reformatting. The beginning of the entry looks good now. 
-
-  2. The orientation of the diffential form corresponds to the inherent orientation of [[k-morphism]]s: as we identify the differential form with a smooth functor on the [[path n-groupoid]], that [[path n-groupoid]] necessarily has _oriented_ $k$-volumes as its [[k-morphism]]s, simply because these $k$-morphisms need to come with information about their (higher categorical) source and target.
-
-  3. To get pseudo-differential forms that may be integrated also over non-oriented and possibly non-orientable manifolds one needs to consider parallel transport functors not with coefficients in just $\mathbf{B}^n \mathbb{R}$ coming from the [[crossed complex]] 
-     
-     $$
-        (\mathbb{R} \to {*} \to \cdots \to {*})
-     $$
-
-     but the more refined crossed complex
-
-     $$
-        (\mathbb{R} \to {*} \to \cdots \to \mathbb{Z}_2)
-     $$
-
-     where the $\mathbb{Z}_2$-factor acts by sign reversal on $\mathbb{R}$ (one can also use $U(1)$ instead of $\mathbb{R}$, this way $[P_n(-), \mathbf{B}^n U(1)]$ becomes the [[Deligne cohomology|Deligne complex]] and knows not just about differential forms but about $U(1)$ $n-1$-gerbes with connection even).
-
-     A little bit of discussion of this unoriented case is currently at [[orientifold]]. There for the case $n=2$.
-
+* [[Urs Schreiber]]: replied and reacted at  [[differential form]]
 
 *  [[Toby Bartels]]:
 
