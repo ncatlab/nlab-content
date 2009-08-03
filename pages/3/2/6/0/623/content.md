@@ -1,5 +1,7 @@
 #Idea#
 
+The operation of forming the _Moore complex_ is one part of the [[Dold-Kan correspondence]] that relates [[simplicial object|simplicial]] (abelian) [[group]]s and [[chain complex]]es.
+
 Recall that a [[simplicial group]] $G$, being in particular a [[Kan complex]], may be thought of, in the sense of the [[homotopy hypothesis]], as a combinatorial space equipped with a group structure. The
 
 * _Moore complex_ 
@@ -19,7 +21,7 @@ This is entirely analogous to how a [[crossed complex]] is obtained from a [[str
 #Definition#
 
 
-Given a [[simplicial group]] $G$, the **Moore complex** (or normalized chain complex), $(N G,\partial )$,  of $G$ is the non-Abelian chain complex defined by 
+Given a [[simplicial group]] $G$, the **Moore complex** (or normalized chain complex), $(N G,\partial )$,  of $G$ is the non-Abelian chain complex defined as the joint [[kernel]] 
 $$
 N G_n=\bigcap_{i=1}^{n}Ker\,d_i^n 
 $$
