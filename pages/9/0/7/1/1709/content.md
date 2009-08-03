@@ -366,7 +366,13 @@ We may summarize this by a
 
 # Examples #
 
+## group cohomology with coefficients in a module ##
+
 Some somewhat trivial examples of this appear in various context. For instance [[nLab:group cohomology|group cohomology]] on a group with coefficients in a nontrivial module can be regarded as an example of twisted cohomology. See there for more details.
+
+Compare this to the example below of cohomology "with local coefficients". It is the same principle in both cases.
+
+## twisted bundles ##
 
 
 To get a feeling for how the definition does, it is 
@@ -387,6 +393,30 @@ in the last section of
 and contains examples that are of interest in the wider context of [[nLab:string theory|string theory]].
 
 
+## twisted K-theory ##
+
+The example of the definition of twisted cohomology as sections of an assoociated bundle of spectra that has been the motivating example is [[nLab:twisted K-theory|twisted K-theory]]. The group $P U(H)$ of projective unitary operators on a seperable Hilbert space acts canonically on the classifying space $Fred(H)$ (the space of Fredholm operators) of the $K^0$ [[nLab:Grothendieck group|Grothendieck group]] of [[nLab:topological K-theory|topological K-theory]].
+
+Since $PU(H)$ is topologically an [[nLab:Eilenberg-MacLane space|Eilenberg-MacLane space]] $K(\mathbb{Z},2)$, a twisting cocycle in this case is a class in $H^3(X,\mathbb{Z})$. This may also be thought of as the class of a twisting [[bundle gerbe]].
+
+
+## cohomology with local coefficients ##
+
+What is called **cohomology with local coefficients** is twisted cohomology with the twist given by the class represented by the universal cover space of base space.
+
+More precisely, for some base space $X$, let $A$ be a coefficient object that is equipped with an action of the first [[nLab:fundamental group|fundamental group]] $\pi_1(X)$ of $X$. (Such an action is also called an $A$-valued [[nLab:local system|local system]] on $X$).
+
+Then there is the [[nLab:fibration sequence|fibration sequence]]
+
+$$
+  A \to A//\pi_1(X) \to \mathbf{B} \pi_1(X)
+$$ 
+
+of this action. 
+
+Notice that there is a canonical map $c : X \to \mathbf{B} \pi_1(X)$, the one that classifies the universal cover of $X$.
+
+Then **$A$-cohomology with local coefficients** on $X$ is nothing but the $c$-twisted $A$-cohomology of $X$ in the above sense.
 
 # References #
 
