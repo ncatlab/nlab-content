@@ -41,15 +41,16 @@ First of all, it's easy to see that not every abelian category is equivalent to 
 
 However, we have
 
-**Mitchell's Embedding Theorem**: Every small abelian category is equivalent to a [[full subcategory]] of the category $R Mod$ for some ring $R$.
+**Mitchell's Embedding Theorem**: Every small abelian category admits a [[full functor|full]], [[faithful functor|faithful]] and [[exact functor|exact]] functor to the category $R Mod$ for some ring $R$.
 
 **Proof**: See the [Wikipedia article](http://en.wikipedia.org/wiki/Mitchell%27s_embedding_theorem) for the idea of the proof.
 
 We can also characterize which abelian categories _are_ equivalent to a category of $R$-modules:
 
-**Theorem**: Let $C$ be an abelian category.  If $C$ has all [[small category]] [[coproducts]] and has a [[compact object|compact]] [[projective object| projective]] [[generator]], then $C \simeq R Mod$ for some ring $R$.  In fact, in this situation we can take $R = C(x,x)^{op}$ where $x$ is any compact projective generator.   Conversely, if $C \simeq R Mod$, then $C$ has all small coproducts and $x = R$ is a compact projective generator.
+**Theorem**: Let $C$ be an abelian category.  If $C$ has all [[small category|small]] [[coproducts]] and has a [[compact object|compact]] [[projective object| projective]] [[generator]], then $C \simeq R Mod$ for some ring $R$.  In fact, in this situation we can take $R = C(x,x)^{op}$ where $x$ is any compact projective generator.   Conversely, if $C \simeq R Mod$, then $C$ has all small coproducts and $x = R$ is a compact projective generator.
 
-**Proof**: The nontrivial part of this theorem is Prop. 2.1.7. of Victor Ginzburg's [Lectures on noncommutative geometry](http://arxiv.org/PS_cache/math/pdf/0506/0506603v1.pdf#page=4).  Conversely, it is easy to see that $R$ is a compact projective generator of $R Mod$.
+**Proof**: 
+The first part of this theorem can be found as Prop. 2.1.7. of Victor Ginzburg's [Lectures on noncommutative geometry](http://arxiv.org/PS_cache/math/pdf/0506/0506603v1.pdf#page=4).  Conversely, it is easy to see that $R$ is a compact projective generator of $R Mod$.  The whole theorem, minus the explicit description of $R$, can be found as Exercise F on page 103 of Peter Freyd's book [Abelian Categories](http://www.emis.de/journals/TAC/reprints/articles/3/tr3.pdf#page=132).
 
 Going further, we can try to characterize functors between categories of $R$-modules that come from tensoring with bimodules.  Here we have
 
@@ -57,9 +58,9 @@ Going further, we can try to characterize functors between categories of $R$-mod
 
 $$ B \otimes_R - : R Mod \to S Mod $$
 
-is [[exact|right exact]] and preserves [[small category|small]] [[coproducts]].  Conversely, if $F: Mod_R \to Mod_S$ is right exact and that preserves small coproducts, it is naturally isomorphic to $B \otimes_R -$ where $B$ is the $S-R$-bimodule $F R$.  
+is [[exact functor|right exact]] and preserves [[small category|small]] [[coproducts]].  Conversely, if $F: Mod_R \to Mod_S$ is right exact and that preserves small coproducts, it is naturally isomorphic to $B \otimes_R -$ where $B$ is the $S-R$-bimodule $F R$.  
 
-**Proof**: This theorem was more or less simultaneously proved by Watts and Eilenberg; a generalization is proved in A. Nyman and S. Paul Smith's paper [A generalization of Watts's Theorem: Right exact functors on module categories](http://arxiv.org/abs/0806.0832).
+**Proof**: This theorem was more or less simultaneously proved by Watts and Eilenberg; a generalization is proved in A. Nyman and S. Paul Smith's paper [A generalization of Watts's Theorem: Right exact functors on module categories](http://arxiv.org/abs/0806.0832), and references to the original papers can be found there.
 
 Going still further we should be able to obtain a nice theorem describing the image of the embedding of the weak 2-category of
 
@@ -75,7 +76,13 @@ into the strict 2-category of
 
 For more discussion see the [$n$-Cafe](http://golem.ph.utexas.edu/category/2007/08/questions_about_modules.html).
 
-# Discussion
+##References##
+
+A classic reference, now available online:
+
+* Peter Freyd, [Abelian Categories](http://www.emis.de/journals/TAC/reprints/articles/3/tr3abs.html), originally published by Harper and Row, New York, 1964.
+
+##Discussion##
 
 The following discussion is about whether a pre-abelian category in which (epi,mono) is a factorization system is necessarily abelian.
 
