@@ -17,6 +17,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-03
 
+* [[Zoran Škoda]]: created [[smooth scheme]], [[flat morphism]], [[smooth morphism of schemes]], [[EGA IV]], [[locally affine space]], [[relativization in algebraic geometry]]. Notice that this is extending a series on regularity/smoothness/differential calculus in algebraic framework which included our earlier entries [[regular differential operator]], [[quasi-free dga]], [[formally smooth morphism]] and so on.
+  
+  * John and Ramesh thank you for the nice detailed material on Lawvere reconstruction theorem, I'd suggest to create a separate lab entry [[Lawvere reconstruction theorem]] on it, moving the most of the material there (regarding the size and number of other reconstruction theorems waiting to be covered in detail the same way) with a link and short comment on the main [[reconstruction]] page. 
+
 * [[John Baez]] expanded [[reconstruction theorem]] (it seems)
 
   * [[Sridhar Ramesh]] expanded this a little more, in particular discussing the infinitary analogue of Lawvere's reconstruction theorem and the monadic perspective on this
