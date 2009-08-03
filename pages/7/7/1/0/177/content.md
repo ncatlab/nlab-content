@@ -85,6 +85,12 @@ _[[Eric Forgy|Eric]] says_: It seems what I was talking about might also be rela
 
 [[Eric]]: Oh! I see John Baez is (likely with the help of the Wizard) playing with the space time continuum again. Ok! So the example with one object and two morphisms is a good one. Thanks! Now I can ask a related question, given a [[preorder]] $C$, I'd like to find the smallest directed graph $G$ such that $F(G)\equiv C$. But this reminds me of a [Hasse diagram](http://en.wikipedia.org/wiki/Hasse_diagram). Hmm... (Edit: While John freely travels back and forth through time, I tend to relive past experience with no recollection. There is a discussion of Hasse diagrams at [[preorder]]. John suggests (if I understood correctly) _defining_ a Hasse diagram to be the smallest graph whose quiver reproduces the proset.
 
+[[John Baez]]: Sorry, I was just trying to go back in time and nip that hope of yours in the bud.  Yes: I believe for a [[poset]] $C$ to have a Hasse diagram is the same as for it to have a directed graph $G$ with $F(G)\equiv C$, and then this directed graph is its Hasse diagram!  I think the Wikipedia article more or less says this, calling $C$ the 'transitive reduction' of $G$.
+
+I've never heard of Hasse diagrams for preorders that aren't posets, so let's not worry about those.   Not all posets have Hasse diagram, either --- do they?  For example, the rational numbers with their usual ordering doesn't seem to have a Hasse diagram --- and they are, by the way, countable. 
+
+The Wikipedia article seems content to discuss Hasse diagrams for finite posets; probably some sort of 'local finiteness' condition will suffice.  The rationals have infinitely many guys between any two different guys, so they're not 'locally finite'.
+
 #See also#
 ***
 * [[directed n-graph|Directed n-graph]]
