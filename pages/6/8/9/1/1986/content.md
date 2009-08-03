@@ -16,6 +16,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 ## 2009-08-03
+
+* [[Urs Schreiber]]: 
+
+  * created [[Chevalley-Eilenberg cochain complex]]
+
 * [[Zoran Škoda]]: posted _[[jibladzeCoeffLargeCats.djvu:file]]_ and linked it to [[crossed profunctor]].  Urs, how the integration approach to diff. forms fits with existance of classes of smooth, $C^1$-only, $L^1$-integrable etc. differential forms and the currents ("differential form-valued distributions"), and it seems it puts n-forms on n-manifolds in special position, than say k-forms on n-manifolds. There is a subject of geometric integration theory where integrability is related to geometric properties like rectifiability (Federer); how this fits with that. And finally with differential forms on singular varieties. It seems to me that this approach has advantages and applicability in some cases, while the easy approach via dualizing vector fields to get 1-forms and then proceeding algebraically in others. One should maybe also compare to Lurie's usage of cotangent bundle in expressing an alternative approach to higher descent. 
 
   * [[Urs Schreiber]]: there are many aspects to this, but what I wrote lives in the entirely smooth context. The integration map is that from Reyes-Moerdijk section 4 , which integrates "synthetic" forms over "synthetic" simplices. Technique-wise this is really rather conservative, the only new twist to it is that I am saying: its helpful to arrange some objects that people consider in the synthetic context into cosimplicial objects, that reveals some nice underlying structure.
