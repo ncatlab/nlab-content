@@ -16,7 +16,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 ## 2009-08-03
-
+* [[Zoran Škoda]]: posted _[[jibladzeCoeffLargeCats.djvu:file]]_ and linked it to [[crossed profunctor]].  Urs, how the integration approach to diff. forms fits with existance of classes of smooth, $C^1$-only, $L^1$-integrable etc. differential forms and the currents ("differential form-valued distributions"), and it seems it puts n-forms on n-manifolds in special position, than say k-forms on n-manifolds. There is a subject of geometric integration theory where integrability is related to geometric properties like rectifiability (Federer); how this fits with that. And finally with differential forms on singular varieties. It seems to me that this approach has advantages and applicability in some cases, while the easy approach via dualizing vector fields to get 1-forms and then proceeding algebraically in others. One should maybe also compare to Lurie's usage of cotangent bundle in expressing an alternative approach to higher descent. 
 * [[Urs Schreiber]]: 
 
   *  created [[(infinity,1)-quantity]] -- some comments:
@@ -27,7 +27,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
      * I could move this to my private web. Let me know if you feel that would be better.
 
-* [[Zoran Škoda]]: created [[crossed profunctor]] (of crossed modules) and [[butterfly]] (pappilon). First after M. Jibladze (1990) and second after B. Noohi (2005). I did not draw the diagram but wrote equations explicitly. I have the file of the book where Jibladze's paper is if somebody needs it. 
+* [[Zoran Škoda]]: created [[crossed profunctor]] (of crossed modules) and [[butterfly]] (papillon). First after M. Jibladze (1990) and second after B. Noohi (2005). I did not draw the diagram but wrote equations explicitly.
 * [[Eric]]:
 
   * Gleefully responded to John's gleeful response on [[directed graph]]. Note: I need to learn about this 'resolution' stuff.
