@@ -63,6 +63,12 @@ $$
 $$
 is an isomorphism of sets.
 
+Here is an application of this concept to characterize which abelian categories are categories of modules of some ring:
+
+**Theorem**: Let $C$ be an abelian category.  If $C$ has all small coproducts and has a compact [[projective object| projective]] [[generator]], then $C \simeq R Mod$ for some ring $R$.  In fact, if $C$ has all small colimits and $x$ is a compact projective generator, when we can take $R = C(x,x)^{op}$.  Conversely, if $C \simeq R Mod$, then $C$ has all small coproducts and $x = R$ is a compact projective generator.
+
+**Proof**: The nontrivial part of this theorem is Prop. 2.1.7. of Victor Ginzburg's [Lectures on Noncommutative Geometry](http://arxiv.org/PS_cache/math/pdf/0506/0506603v1.pdf#page=4).  Conversely, it is easy to see that $R$ is a compact projective generator of $R Mod$.
+
 A triangulated category is __compactly generated__ if it is generated (see [[generator]]) by a _set_ of compact objects.
 
 The notion can be modified for categories [[enriched category|enriched]] over a [[closed monoidal category]] (compare to the notions of finite and/or rigid objects in various contexts).
