@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 ## 2009-08-04
+* [[Zoran Škoda]]: Created [[exact sequence of Hopf algebras]] (well, for now short exact). 
+Oh John, you gave me an opportunity for recalling some sweet memories: I clumsily used word lazy for a lack of interaction (actually a barrier of shyness/fear between experts and non-experts) at a summer school on geometry and strings in 1999 and got excommunicated there for about a week :) 
 
 * [[John Baez]]: What, I'm the first one working on the $n$Lab and it's already past noon (in Paris)?  The rest of you must be getting lazy!  :-)  I added a little bit about cosimplicial objects vs cochain complexes to [[Dold-Kan correspondence]].
 
