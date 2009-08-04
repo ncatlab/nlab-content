@@ -2,7 +2,7 @@
 
 #Definition#
 
-A ($\mathbb{Z}$-graded) **chain complex** in a [[pre-additive category]] $C$ is a sequence of objects $V_n$, $n\in\mathbb{Z}$, and morphisms $\partial_n:V_n \to V_{n-1}$ called [[differential|differentials]] or _boundary maps_:
+A ($\mathbb{Z}$-graded) **chain complex** in a [[pre-additive category]] $C$ is a sequence of objects $V_n$, $n\in\mathbb{Z}$, and morphisms $\partial_n:V_n \to V_{n-1}$ called [[differential|codifferentials]] or _boundary maps_:
 
 $$ 
 \cdots \overset{d_3}{\to} V_2 \overset{\partial_2}{\to} V_1 \overset{\partial_1}{\to} V_0 \overset{\partial_0}{\to} V_{-1} \overset{\partial_{-1}}{\to} \cdots
