@@ -18,7 +18,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-04
 
-*  [[Toby Bartels]]:  Added [[characteristic morphism]] to [[characteristic function]].
+*  [[Toby Bartels]]:
+   *  Discussion at [[directed graph]].
+   *  Added [[characteristic morphism]] to [[characteristic function]].
 
 * [[Zoran Škoda]]: Created [[exact sequence of Hopf algebras]] (well, for now short exact). 
 Oh John, you gave me an opportunity for recalling some sweet memories: I clumsily used word lazy for a lack of interaction (actually a barrier of shyness/fear between experts and non-experts) at a summer school on geometry and strings in 1999 and got excommunicated there for about a week :) 
