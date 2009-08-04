@@ -13,10 +13,12 @@ Various fields of mathematics or mathematical concepts can be manipulated in an 
 
 The nlab has a number of entries on particular algebraic structures, e.g. [[monoid]], [[group]], [[ring]], [[quasigroup]], [[associative algebra]], [[Lie algebra]], [[coalgebra]], [[dg-algebra]], [[bialgebra]], [[graded algebra]], [[Hopf algebra]], [[coring]] etc. 
 
-For many algebraic strutures a notion of action is defined; they embody "symmetry algebras" of some other algebraic objects. The possibilities for realizing a given algebra in such a way are systematically studied in a field called [[representation theory]]. 
+For many algebraic strutures a notion of [[action]] is defined; they embody "symmetry algebras" of some other algebraic objects. The possibilities for realizing a given algebra in such a way are systematically studied in a field called [[representation theory]]. 
+
 
 #Further references#
 
 * See [_Wikipedia_](http://en.wikipedia.org/wiki/Algebra)
+
 
 [[!redirects algebras]]
