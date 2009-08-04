@@ -14,3 +14,5 @@ T. Maszczyk, [NCG Seminar IMPAN](http://www.impan.gov.pl/~pmh/seminar/sem07.html
 NONCOMMUTATIVE CORRESPONDENCES AND GALOIS-TANNAKA RECONSTRUCTION 
 
 > According to Grothendieck-Galois theory, there is a close relation between splittings of commutative rings by an appropriate base change and (groupoid) actions. The reconstruction of the action from a given splitting is called the Galois reconstruction. According to Grothendieck-Deligne-Saavedra Rivano-Tannaka theory, there is another close relation between representations of a given groupoid and the groupoid itself. The reconstruction of the groupoid from its representations is called the Tannaka reconstruction. We show that both reconstructions are particular cases of our theorem about splittings of flat covers in the bicategory of monoidal categories. 
+
+Here is the link to Tomasz Maszczyk's [homepage](http://www.mimuw.edu.pl/~maszczyk).
