@@ -115,3 +115,6 @@ Thus such sheaf is a space, site is not (any 'affine' site is just a toolbox hav
 
 I did remark that probably the topos of sheaves should be considered the space rather than the site.  Certainly a topos is not always considered a "space," but sometimes it is.  Anyway I don't think the question of what is, or isn't, a "space" is really relevant.
 =--
+
+
+[[!redirects Grothendieck topologies]]
