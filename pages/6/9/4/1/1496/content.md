@@ -120,5 +120,6 @@ To be described:
 
 
 [[!redirects Ban]]
+[[!redirects Banach spaces]]
 [[!redirects normed vector space]]
 [[!redirects pseudonormed vector space]]
