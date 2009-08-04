@@ -9,7 +9,7 @@ __Reconstruction theorems for schemes__ (or varieties only) reconstruct a scheme
 
 There is a large class of __abelian reconstruction theorems__, for example the Gabriel--Popescu theorem. In _topos theory_ the __Giraud theorem__ is also a reconstruction theorem (of a site out of a topos, though a nonuniqueness of the resulting site is involved, not affecting cohomology, hence, according to Grothendieck, nonessential). 
 
-The [[Lawvere's reconstruction theorem]] reconstructs a Lawvere theory $C$ from its category of finitely generated free models. 
+The [[Lawvere reconstruction theorem]] reconstructs a Lawvere theory $C$ from its category of finitely generated free models. 
 
 Typically in the proofs of most reconstruction theorems implicitly Yoneda lemma is involved. Various embedding theorems of classes of categories (as well as theorems on realization as quotient categories) are closely related, e.g. Barr embedding theorem and Freyd--Mitchell embedding theorem. 
 
