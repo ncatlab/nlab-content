@@ -1,7 +1,7 @@
 #Idea#
 
 A _subobject classifier_ in a [[topos]] is a morphism 
-$true : * \to \Omega$ such that every [[monomorphism]] $A \hookrightarrow B$ in the topos (hence every [[subobject]]) is the [[pullback]] of this morphism along a unique morphism $B \to \Omega$.
+$true : * \to \Omega$ such that every [[monomorphism]] $A \hookrightarrow B$ in the topos (hence every [[subobject]]) is the [[pullback]] of this morphism along a unique morphism (the [[characteristic morphism]] of $A$) $B \to \Omega$.
 
 In this sense $\Omega$ is the [[classifying space|classifying object]] for subobjects.
 
