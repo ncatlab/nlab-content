@@ -4,4 +4,6 @@ A __butterfly__ or __papillon__ is a [[crossed profunctor]] between [[crossed mo
 
 * B. Noohi, E. Aldrovandi, _Butterflies I: morphisms of 2-group stacks_, [arXiv](http://arxiv.org/abs/0808.3627), to appear in Advances in Mathematics 
 
+In fact, under the correspondence crossed modules $\leftrightarrow$ categories internal to $Grp$, butterflies are precisely the saturated [[anafunctor|anafunctors]] internal to $Grp$, using the [[Grothendieck pretopology]] of surjective homomorphisms.
+
 [[!redirects pappilon]]
