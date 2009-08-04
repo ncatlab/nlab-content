@@ -1,4 +1,4 @@
-In classical mathematics, a **field** is a commutative [[ring]] in which every nonzero element has a multiplicative inverse and $0\neq 1$ (which may be combined as: an element is invertible if and only if it is nonzero).
+In classical mathematics, a **field** is a [[commutative ring]] in which every nonzero element has a multiplicative inverse and $0\neq 1$ (which may be combined as: an element is invertible if and only if it is nonzero).  (If one drops commutativity, then the result is a [[skewfield]].)
 
 Fields are not as well-behaved categorically as most other common algebraic structures ([[group]]s, [[ring]]s, [[module]]s, etc.).  In particular, the category of fields is not [[complete category|complete]] or [[cocomplete category|cocomplete]], although it is [[accessible category|accessible]].
 
@@ -51,3 +51,6 @@ _[[John Baez|John]] says_: Unlike the category of fields, the category of vector
 I have a question.  This article says the category of fields is 'accessible', and it says that an accessible category is the category of models of a [[sketch]].  What sort of sketch does the job for fields.  They're not models of a finite limits theory, so I assume we also need some colimits in our sketch.  How does this work?   Which  constructive definition(s) of field do we use?
 
 _[[Gonçalo Marques]]_:  The [[sketch]] for fields is described on page 248 of "Category theory for computing science" by Michael Barr and Charles Wells (3rd edition). They use what they call "finite discrete sketches". It does involve a cocone. 
+
+
+[[!redirects fields]]
