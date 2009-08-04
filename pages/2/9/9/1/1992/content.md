@@ -13,9 +13,10 @@ The [[Lawvere reconstruction theorem]] reconstructs a Lawvere theory $C$ from it
 
 Typically in the proofs of most reconstruction theorems implicitly Yoneda lemma is involved. Various embedding theorems of classes of categories (as well as theorems on realization as quotient categories) are closely related, e.g. Barr embedding theorem and Freyd--Mitchell embedding theorem. 
 
+
 ##References##
 
-* Andr&#233; Joyal, Ross Street, [An introduction to Tannaka duality and quantum groups](http://www.maths.mq.edu.au/~street/CT90Como.pdf), in Part II of _Category Theory, Proceedings, Como 1990_, eds. A. Carboni, M. C. Pedicchio and G. Rosolini,  Lec. Notes in Mathematics __1488__, Springer, Berlin, 1991, pp. 411&#8211;492 [doi:10.1007/BFb0084207](10.1007/BFb0084207).
+* Andr&#233; Joyal, Ross Street, [An introduction to Tannaka duality and quantum groups](http://www.maths.mq.edu.au/~street/CT90Como.pdf), in Part II of _Category Theory, Proceedings, Como 1990_, eds. A. Carboni, M. C. Pedicchio and G. Rosolini,  Lec. Notes in Mathematics __1488__, Springer, Berlin, 1991, pp. 411&#8211;492 [doi:10.1007/BFb0084207](http://dx.doi.org/10.1007/BFb0084207).
 
 * P. Deligne, [[Catégories Tannakiennes]], [[Grothendieck Festschrift]], vol. II,  Birkh&#228;user Progress in Math. 87 (1990) pp.111-195.
 
@@ -33,7 +34,7 @@ Typically in the proofs of most reconstruction theorems implicitly Yoneda lemma 
 
 * P. Gabriel, [[Des catégories abéliennes]], Bulletin de la Soci&#233;t&#233; Math&#233;matique de France, 90 (1962), p. 323-448 ([numdam](http://www.numdam.org/item?id=BSMF_1962__90__323_0))
 
-*  K. Szlach&#225;nyi, _Fiber functors, monoidal sites and Tannaka duality for bialgebroids_[arxiv:0907.1578](http://arxiv.org/abs/0907.1578)
+*  K. Szlach&#225;nyi, _Fiber functors, monoidal sites and Tannaka duality for bialgebroids_ [arxiv:0907.1578](http://arxiv.org/abs/0907.1578)
 
 *  Ph&#249;ng H&#244; Hai, _Tannaka-Krein duality for Hopf algebroids_, [arxiv:math.QA/0206113](http://arxiv.org/abs/math/0206113)
 
@@ -43,7 +44,7 @@ Typically in the proofs of most reconstruction theorems implicitly Yoneda lemma 
 
 * S. L. Woronowicz, Tannaka-Kre&#301;n duality for compact matrix pseudogroups. Twisted $SU(N)$ groups, Invent. Math. 93 (1988), no. 1, 35&#8211;76
 
-* [Michael M&#252;ger](http://www.math.ru.nl/~mueger), _Abstract duality for symmetric tensor *-categories_ (App. to Hans Halvorson: 'Algebraic Quantum Field Theory'.) In: J. Butterfield and J. Earman (eds.): "Handbook of the Philosophy of Physics", p. 865-922. North Holland, 2007; [arxiv:math-ph/0602036](http://arxiv.org/abs/math-ph/0602036); cf. The String Coffee Table, [M&#252;ger on Doplicher-Roberts](http://golem.ph.utexas.edu/string/archives/000711.html)  
+* [Michael M&#252;ger](http://www.math.ru.nl/~mueger), _Abstract duality for symmetric tensor $*$-categories_ (App. to Hans Halvorson: 'Algebraic Quantum Field Theory'.) In: J. Butterfield and J. Earman (eds.): "Handbook of the Philosophy of Physics", p. 865-922. North Holland, 2007; [arxiv:math-ph/0602036](http://arxiv.org/abs/math-ph/0602036); cf. The String Coffee Table, [M&#252;ger on Doplicher-Roberts](http://golem.ph.utexas.edu/string/archives/000711.html)  
 
 * [UC Davis site with three articles on Tannaka Krein Duality](http://front.math.ucdavis.edu/author/Amini-M*). **This link does not work!**
 
