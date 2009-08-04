@@ -33,4 +33,10 @@
   * [[representation theory|Representation Theory]]
 
   * [[algebraic approaches to differential calculus]]
+
+* discrete mathematics: 
+
+  * [[set theory]], [[category theory]]
+
+  * [[graph]], [[directed graph]], [[order]], [[poset]], [[filter]]... 
 [[!redirects Math]]
