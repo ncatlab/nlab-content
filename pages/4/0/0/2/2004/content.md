@@ -14,3 +14,7 @@ S. Lack has shown how the Eilenberg-Moore objects $C^{\mathbf{T}}$ can be obtain
 * S. Lack, Limits for lax morphisms, Applied Categorical Structures __13__:3 (2005) , pp. 189-203(15) 
 
 This encompasses for example the theory of (op)monoidal monads and corresonding monoidal Eilenberg-Moore categories.
+
+
+[[!redirects Eilenberg–Moore category]]
+[[!redirects Eilenberg--Moore category]]
