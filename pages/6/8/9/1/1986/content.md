@@ -18,7 +18,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-04
 
-* [[Zoran Škoda]]: Created [[differential topology]], [[general topology]], [[algebraic approaches to differential calculus]], [[skewfield]] (with redirect 'division ring'; I chose 1-word synonym as a main version however). Some users (outside of the contributor community) asked for more browsing access to nlab, namely to be able to descend to entries in specific subfields differently than via the long all pages list, or guessing and google search for notions; thus I gave small contribution to this by expanding [[algebra]], [[topology and geometry]] and [[mathematics]]; I do not think that we should care to ever have something like a complete tree, but having overview entries with lots of links in subfields will create more awareness of non-obvious entries. I also think that the descent from anything like top entries to concrete entries should not be unique in general and link overlap whenever logical and intelligent cross-referencing would not hurt.
+* [[Zoran Škoda]]: Created [[integrable system]], [[differential topology]], [[general topology]], [[algebraic approaches to differential calculus]], [[skewfield]] (with redirect 'division ring'; I chose 1-word synonym as a main version however). Some users (outside of the contributor community) asked for more browsing access to nlab, namely to be able to descend to entries in specific subfields differently than via the long all pages list, or guessing and google search for notions; thus I gave small contribution to this by expanding [[algebra]], [[topology and geometry]] and [[mathematics]]; I do not think that we should care to ever have something like a complete tree, but having overview entries with lots of links in subfields will create more awareness of non-obvious entries. I also think that the descent from anything like top entries to concrete entries should not be unique in general and link overlap whenever logical and intelligent cross-referencing would not hurt. I have moved much of the material from [[reconstruction theorem]] to [[Lawvere's reconstruction theorem]] and added a link to latter and few more references, mainly for Tannakian and scheme cases. 
 
 *  [[Toby Bartels]]:
    *  Discussion at [[directed graph]].
@@ -43,6 +43,8 @@ Oh John, you gave me an opportunity for recalling some sweet memories: I clumsil
   * John and Ramesh thank you for the nice detailed material on Lawvere reconstruction theorem, I'd suggest to create a separate lab entry [[Lawvere reconstruction theorem]] on it, moving the most of the material there (regarding the size and number of other reconstruction theorems waiting to be covered in detail the same way) with a link and short comment on the main [[reconstruction]] page.   
 
   * [[John Baez]]: that's fine --- go ahead and do it!  We can talk about all the reconstruction theorems on the [[reconstruction]] page, but put details on separate pages.  I'd been wanting to write a _book_ about reconstruction theorems, but this will either help me write it or help eliminate the need for doing so.
+  
+  * [[Zoran Škoda]]: Done, now we have separate [[Lawvere's reconstruction theorem]] and a sentence on its content with the link at [[reconstruction theorem]].
 
 * [[John Baez]] expanded [[reconstruction theorem]] by adding the example Lawvere theories.
 
