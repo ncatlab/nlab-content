@@ -8,14 +8,21 @@
 
   * [[Higher Topos Theory]]
 
-
 * [[topology and geometry|Topology and Geometry]]
 
+  * [[general topology]]
+  
   * [[homotopy theory|Homotopy Theory]]
 
   * [[rational homotopy theory|Rational Homotopy Theory]]
 
   * [[differential geometry|Differential Geometry]]
+
+  * [[algebraic geometry]]
+  
+  * [[noncommutative algebraic geometry]]
+
+  * [[noncommutative geometry]] (general flavour)
 
 * [[algebra|Algebra]]
 
