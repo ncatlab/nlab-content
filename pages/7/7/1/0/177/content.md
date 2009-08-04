@@ -49,6 +49,12 @@ Let $G_0 = G(X_0)$ and $G_1 = G(X_1)$.
 
 * A directed graph is **complete** if for any pair of vertices $v,v'\in G_0$, there are directed edges $e,e'\in G_1$ with $s(e) = v, t(e) = v'$ and $s(e') = v', t(e') = v$.
 
+
+#See also#
+
+* [[directed n-graph|Directed n-graph]]
+
+
 #Discussion#
 
 _[[Eric Forgy|Eric]] asks_: Given a small [[category]] $C$ whose set of objects is countable, I'm interested in finding the smallest [[directed graph]] $G$ such that its free category/quiver $F(G)$ is equivalent to $C$. Is that a standard construction? If so, what would it be called? Does that even make any sense?
@@ -93,6 +99,4 @@ The Wikipedia article seems content to discuss Hasse diagrams for finite posets;
 
 [[Eric]]: Ok. So this 'locally finite' restriction seems to put us into [[causets]], which is kind of neat. So maybe we should create a page [[Hasse diagram]]. A [[Hasse diagram]] of a [[causet]] $C$ is the smallest [[directed graph]] $G$ such that its [[quiver]] $F(G)$ is equivalent to $C$ (?)
 
-#See also#
-***
-* [[directed n-graph|Directed n-graph]]
+_Toby_:  You don\'t need 'smallest' here; adding to $G$ will either add objects to $C$ or destroy that $C$ is a preorder.  (Along those lines, note that the only prosets that are ---up to isomorphism--- quivers are posets.  That explains why one mostly only talks about Hasse diagrams for posets.)  But note that 'Hasse diagram' is a fairly informal notion; I have had occasion to draw a Hasse diagram for the (non-antisymmetric, non-locally finite) proset of integers under divisibility, by cheating just slightly (doubling up the labels on the vertices to handle the lack of antisymmetry, some fudging with ellipses to handle the one breakdown of local finiteness, which is at $0$).
