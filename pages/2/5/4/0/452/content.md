@@ -99,3 +99,5 @@ gives a well defined element ${}^a b \in \pi_1(F)$ (abusing notation by confusin
 their homotopy classes).  With this action $(\pi_1(F), \pi(E), \pi_1(i))$ is a 
 crossed module.  This will not be proved here, but is not that difficult.  (Of course,  secretly, this example is 'really' the same as the previous one since a fibration of [[simplicial group]]s is just morphism that is an [[epimorphism]] in each degree, and the [[fibration sequence|fibre]] is thus just a [[simplicial group|normal simplicial subgroup]]. What is fun is that this generalises to 'higher dimensions'.)  
 
+
+[[!redirects crossed modules]]
