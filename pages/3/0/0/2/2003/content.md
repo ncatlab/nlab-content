@@ -1,1 +1,5 @@
-Oops there is already [[monadic functor]].
+See [[monadic functor]].
+
+category: delete
+
+[[!redirects history: monadic]]
