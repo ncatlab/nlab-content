@@ -151,3 +151,5 @@ For the general definition with an eye towards the definition of [[compact objec
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
+
+[[!redirects compact object"]]
