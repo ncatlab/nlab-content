@@ -1,10 +1,10 @@
-Drinfel'd looked at quantum groups as objects of the category dual to the category of associative coassociative unital counital [[Hopf algebras]]. In (PW) a __short exact sequence of quantum groups__ is defined, as a sequences whose dual sequence of Hopf algebras is of the form
+Drinfel'd looked at [[quantum group]]s as objects of the category [[opposite category|dual]] to the category of associative coassociative unital counital [[Hopf algebras]]. In (PW) a __short exact sequence of quantum groups__ is defined, as a sequence whose dual sequence of Hopf algebras is of the form
 
 $$ B \stackrel{i}\hookrightarrow A\stackrel{p}\to A/I $$
 
 where $B\hookrightarrow A$ is an inclusion of Hopf algebras, $I$ is a Hopf ideal in $A$ such that the quotient map $p$ is the cokernel of $i$ in the category of Hopf algebras. This corresponds to the exact sequence of affine group schemes when the Hopf algebras involved are commutative. 
 
-On the other hand, this definition does not work already for formal group schemes which correspond to cocommutative Hopf algebras. Additional problem is that according to a counterexample of (SchneiderESQGr) $B$ is not necessarily a normal Hopf algebra, nor $I$ a normal Hopf ideal (contrary to blank assertion in (PW)). For these reasons, Schneider introduces a notion of __short strictly exact sequence of Hopf algebras__, as a sequence as above which satisfies the following 3 conditions  
+On the other hand, this definition does not work already for formal group schemes which correspond to cocommutative Hopf algebras. An additional problem is that according to a counterexample of (SchneiderESQGr) $B$ is not necessarily a normal Hopf algebra, nor $I$ a normal Hopf ideal (contrary to blank assertion in (PW)). For these reasons, Schneider introduces a notion of __short strictly exact sequence of Hopf algebras__, as a sequence as above which satisfies the following 3 conditions  
 
 * (a) $B$ is a normal Hopf subalgebra of $A$
 
@@ -24,7 +24,7 @@ It would be interesting to know which cohomology classifies all Hopf algebra by 
 
 It would also be interesting (though it may be known) how to characterize internally to the category of Hopf algebras what class of monomorphisms and epimorphisms correspond to the Hopf-algebraic conditions on $i$ and $p$ above.  
 
-Literature
+## Literature ##
 
 * (PW) B. Parshall J. Wang, _Quantum linear groups_, Memoirs AMS __439__
 
