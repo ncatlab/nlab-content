@@ -18,7 +18,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-05
 
-*  [[Toby Bartels]]:  Wrote [[interval]].
+*  [[Toby Bartels]]:
+   *  Wrote [[overt space]].
+   *  Numbered and added to the definitions at [[compact space]].
+   *  Wrote [[interval]].
 
 * [[Eric]]: Created [[Hasse diagram]]. It may need polishing to make it technically (and morally) correct.
 
