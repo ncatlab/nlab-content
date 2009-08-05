@@ -13,3 +13,6 @@
    *  [[integration over supermanifolds]]
 
 * [[Lie integration]]
+
+
+[[!redirects integral]]
