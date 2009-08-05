@@ -43,7 +43,7 @@ A [[pretopological space]] is a convergence space that is _infinitely filtered_:
 In particular, the intersection of all of the filters converging to $x$ also converges to $x$.  Note that every pretopological space is pseudotopological.
 
 
-Any [[topological space]] is a convergence space, and in fact a pretopological one: we define $F \to x$ if every neighbourhood of $x$ belongs to $F$.  A convergence space is __topological__ if it comes from a topology on $S$.  The [[full subcategory]] of $Conv$ consisting of the topological convergence spaces is [[equivalence of categories|equivalent]] to the category [[Top]] of topological spaces.  In this way, the definitions below all become theorems about topological spaces.
+Any [[topological space]] is a convergence space, and in fact a pretopological one: we define $F \to x$ if every neighbourhood of $x$ belongs to $F$.  A convergence space is __topological__ if it comes from a topology on $S$.  The [[full subcategory]] of $Conv$ consisting of the topological convergence spaces is [[equivalence of categories|equivalent]] to the category [[Top]] of topological spaces.  In this way, the definitions below are all suggested by theorems about topological spaces.
 
 
 ## Properties ##
@@ -52,7 +52,7 @@ The improper filter (the [[power set]] of $S$) converges to every point.  On the
 
 A convergence space $S$ is __compact__ if every proper filter clusters at some point; that is, every proper filter is contained in a convergent proper filter.  Equivalently (assuming the [[ultrafilter theorem]]), $S$ is compact iff every ultrafilter converges.  A topological space is compact in the [[compact space|usual sense]] if and only if it is compact as a convergence space.
 
-The topological convergence spaces can be characterized as the pseudotopological ones in which the convergence satisfies a certain "associativity" condition.  In this way one can think of a topological space as a "multicategory" parametrized by ultrafilters.  In particular, note that a compact Hausdorff pseudotopological space is defined by a single function $\mathcal{U}S \to S$, where $\mathcal{U}S$ is the set of ultrafilters on $S$, such that the composite $S \to \mathcal{U}S \to S$ is the identity.  That is, it is an [[algebra for an endofunctor|algebra]] for the [[pointed endofunctor]] $\mathcal{U}$.  The compact Hausdorff _topological_ spaces are precisely the algebras for $\mathcal{U}$ considered as a [[monad]].
+The topological convergence spaces can be characterized as the pseudotopological ones in which the convergence satisfies a certain "associativity" condition.  In this way one can (assuming the ultrafilter theorem) think of a topological space as a "[[generalized multicategory]]" parametrized by ultrafilters.  In particular, note that a compact Hausdorff pseudotopological space is defined by a single function $\mathcal{U}S \to S$, where $\mathcal{U}S$ is the set of ultrafilters on $S$, such that the composite $S \to \mathcal{U}S \to S$ is the identity.  That is, it is an [[algebra for an endofunctor|algebra]] for the [[pointed object|pointed]] [[endofunctor]] $\mathcal{U}$.  The compact Hausdorff _topological_ spaces (the [[compactum|compacta]]) are precisely the [[algebra for a monad|algebras]] for $\mathcal{U}$ considered as a [[monad]].
 
 
 ## Topological structure ##
@@ -64,11 +64,10 @@ Given a convergence space, a filter $F$ __star-converges__ to a point $x$ if eve
 
 Given a convergence space, a set $U$ is a __neighbourhood__ of a point $x$ if $U$ belongs to every filter that converges to $x$; it follows that $U$ belongs to every filter that star-converges to $x$.  The relation of being a neighbourhood makes any convergence space into a [[pretopological space]], although the pretopological convergence is weaker in general.  In this way, $Pre Top$ is a [[reflective subcategory]] of $Conv$ (and in fact of $Ps Top$) over $Set$.
 
+Other pretopological notions:  The __preinterior__ of a set $A$ is the set of all points $x$ such that $A$ is a neighbourhood of $x$.  The __preclosure__ of $A$ is the set of all points $x$ such that every neighbourhood $U$ of $x$ meets (has [[inhabited set|inhabited]] [[intersection]] with) $A$.  For more on these, see [[pretopological space]].
+
 
 Given a convergence space, a set $G$ is __open__ if $G$ belongs to every filter that converges to any point in $G$, or equivalently if $G$ equals its preinterior.  The class of open sets makes any convergence space into a [[topological space]], although the topological convergence is weaker in general.  In this way, $Top$ is a [[reflective subcategory]] of $Conv$ (and in fact of $Ps Top$ and $Pre Top$) over $Set$.
-
-
-Other pretopological notions:  The __preinterior__ of a set $A$ is the set of all points $x$ such that $A$ is a neighbourhood of $x$.  The __preclosure__ of $A$ is the set of all points $x$ such that every neighbourhood $U$ of $x$ meets (has [[inhabited set|inhabited]] [[intersection]] with) $A$.  For more on these, see [[pretopological space]].
 
 Other topological notions:  A set $F$ is __closed__ if $F$ meets every neighbourhood of every point that belongs to $F$, equivalently if $F$ equals its preclosure.  The __interior__ of $A$ is the union of all of the open sets contained in $A$; it is the largest open set contained in $A$.  The __closure__ of $A$ is the intersection of all of the closed sets that contain $A$; it is the smallest closed set that contains $A$.
 
