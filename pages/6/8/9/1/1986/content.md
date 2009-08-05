@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-05
 
+*  [[Toby Bartels]]:  Wrote [[interval]].
+
 * [[Eric]]: Created [[Hasse diagram]]. It may need polishing to make it technically (and morally) correct.
 
 * [[Sridhar Ramesh]]: The article on [[Kleisli category]] erroneously made the remark that the free functor associated with an Eilenberg-Moore category would necessarily be faithful (as a simple counterexample, consider the monad on Set which sends everything to 1); I've reworded the line which stated this, as well as one other
