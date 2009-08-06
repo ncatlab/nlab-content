@@ -1,3 +1,3 @@
-An algebraic [[scheme]] is __reduced__ if all stalks of the structure sheaf are local rings without nonzero nilpotent elements. Equivalently a scheme $X$ is reduced iff it can be covered by a family $\{U_\alpha\}_\alpha$ of open sets such that $\mathcal{O}_X(U)$ has no nonzero nilpotent elements. Equivalently, every open $U\subset X$ has the property that $\mathcal{O}_X(U)$  has no nonzero nilpotent elements.
+An algebraic [[scheme]] is __reduced__ if all stalks of the structure sheaf are [[local rings]] without nonzero nilpotent elements. Equivalently a scheme $X$ is reduced iff it can be covered by a family $\{U_\alpha\}_\alpha$ of open sets such that $\mathcal{O}_X(U)$ has no nonzero nilpotent elements. Equivalently, every open $U\subset X$ has the property that $\mathcal{O}_X(U)$ has no nonzero nilpotent elements.
 
 [[!redirects reduced schemes]]
