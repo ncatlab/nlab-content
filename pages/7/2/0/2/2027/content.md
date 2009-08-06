@@ -1,0 +1,3 @@
+A unital [[ring]] is an __integral domain__ (or simply domain) if it has no zero divisors (i.e. $ab = 0$ implies either $a=0$ or $b=0$). For example, the ring of integers, any [[skewfield]], the ring of global sections of the structure sheaf of any [[integral scheme]], an Ore extension of any domain.
+
+An integral domain $R$ is an __Ore domain__ if the set of all nonzero elements is an Ore set in $R$. In that case the Ore localized ring is called the _Ore quotient ring_ of $R$. 
