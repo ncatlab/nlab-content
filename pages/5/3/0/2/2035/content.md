@@ -1,0 +1,7 @@
+An element $x$ in a [[nonassociative algebra]] $A$ is __nilpotent__ if there exist a natural number $n$ such that $x^n = 0$. 
+
+An algebra is __nilpotent__ if there exists a uniform number $n$ such that any product of $n$-elements is $0$. An algebra over a field is __locally nilpotent__ if all its finitely-generated subalgebras are nilpotent. A Lie algebra is __ad-nilpotent__ if the multiplication with any of its elements is a nilpotent linear operator. A [[Lie algebra]] $A$ is __nilpotent__ iff its lower central series $A$, $[A,A]$, $[A,[A,A]]$,...,$[A,[A,[A,\ldots[A,A]\ldots]]]$... terminates with $0$ after finitely many steps. By the Engel's theorem ([wikipedia](http://en.wikipedia.org/wiki/Engel_theorem)) a finite-dimensional Lie algebra is nilpotent iff it is locally nilpotent. Thus sometimes a locally nilpotent Lie algebras are called Engel's Lie algebras. 
+
+The class of locally nilpotent [[associative algebras]] is closed under extensions (defined in the category of associative algebras).  Consequently associative algebras have the largest nilpotent ideal (namely the sum of all locally nilpotent ideals), which is called __Levitskii radical__. 
+
+The structure rings of classical algebraic varieties are finitely generated [[noetherian ring|noetherian]] commutative associative unital rings _without nilpotent elements_. One of the principal advantages of Grothendieck's theory of [[schemes]] is to allow for nilpotent elements in local rings. A scheme is [[reduced scheme|reduced]] if there are no nilpotent elements in stalks of the structure sheaf.
