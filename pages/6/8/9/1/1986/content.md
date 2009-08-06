@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-06
 
+* [[Urs Schreiber]]: added a section "Details" to the end of [[(infinity,1)-quantity]] to go with the blog discussion [here](http://golem.ph.utexas.edu/category/2009/08/question_on_synthetic_differen.html#c025770)
+
 * [[Zoran Škoda]]: started [[Bredon cohomology]] and a stub for [[Mackey functor]] with few references.
 
 * [[Urs Schreiber]]: created [[superconnection]]
