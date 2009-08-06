@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-06
 
+* [[Zoran Škoda]]: created [[Azumaya algebra]]. We should have things much more detailed and explicit here, e.g. showing the correspondence between sheaves of Azumaya algebras and abelian gerbes...Though Duskin's construction of Azumaya complex deserves a separate entry of course and the Brower group does as well. Toby why do you use nonstandard $R Mod$ instead of $R-Mod$ or ${}_R Mod$ -- the standard algebraic literature places either dash or places $R$ in subscript...and it is even more weird for right modules with $Mod R$. 
+
 *  [[Toby Bartels]]:
    *  Added a constructive bit to [[integral domain]].
    *  Split [[artinian ring]] (just a stub) off from [[noetherian ring]].
