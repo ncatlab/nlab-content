@@ -18,7 +18,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-06
 
-* [[Urs Schreiber]]: created superconnection
+* [[Zoran Škoda]]: started [[Bredon cohomology]] and a stub for [[Mackey functor]] with few references.
+
+* [[Urs Schreiber]]: created [[superconnection]]
 
 * [[Zoran Škoda]]: created [[double of algebra with involution]],[[alternative algebra]],[[nilpotent element]], [[Azumaya algebra]]. We should have things much more detailed and explicit here, e.g. showing the correspondence between sheaves of Azumaya algebras and abelian gerbes...Though Duskin's construction of Azumaya complex deserves a separate entry of course and the Brower group does as well. Toby why do you use nonstandard $R Mod$ instead of $R-Mod$ or ${}_R Mod$ -- the standard algebraic literature places either dash or places $R$ in subscript...and it is even more weird for right modules with $Mod R$. 
 
