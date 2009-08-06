@@ -90,7 +90,7 @@ the object of differential forms on $X$ _is_ the cosimplicial [[generalized smoo
 
 # References #
 
-* Anders Kock, _Synthetic geometry of manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-kopi.pdf))
+* [[Anders Kock]], _Synthetic geometry of manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-kopi.pdf))
 
 * Moerdijk-Reyes,  [[Models for Smooth Infinitesimal Analysis]]
 
