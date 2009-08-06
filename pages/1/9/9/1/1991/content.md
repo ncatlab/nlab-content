@@ -1,4 +1,3 @@
-
 +-- {: .standout}
 
 Research material. 
@@ -8,24 +7,24 @@ Research material.
 
 # Idea #
 
-We introduce a notion [[nLab:duality|dual]] to that of [[nLab:infinity-stack|∞-stack]] -- a generalized space -- which in the sense of [[nLab:space and quantity|space and quantity]] gives the corresponding notion of generalized quantity.
+We introduce a notion [[duality|dual]] to that of [[infinity-stack|∞-stack]] -- a generalized space -- which in the sense of [[space and quantity|space and quantity]] gives the corresponding notion of generalized quantity.
 
-This is such that if we have a [[nLab:smooth infinity-stack|smooth ∞-stack]] -- i.e. a [[nLab:Lie infinity-groupoid|Lie ∞-groupoid]] -- its $(\infty,1)$-quantity is the dual to the corresponding [[nLab:Lie infinity-algebroid|Lie ∞-algebroid]]: its [[nLab:Chevalley-Eilenberg algebra|Chevalley-Eilenberg algebra]].
+This is such that if we have a [[smooth infinity-stack|smooth ∞-stack]] -- i.e. a [[Lie infinity-groupoid|Lie ∞-groupoid]] -- its $(\infty,1)$-quantity is the dual to the corresponding [[Lie infinity-algebroid|Lie ∞-algebroid]]: its [[Chevalley-Eilenberg algebra|Chevalley-Eilenberg algebra]].
 
 For instance 
 
 * the $(\infty,1)$-quantity of functions on the  [[path ∞-groupoid]] $\Pi(X)$ is the deRham complex of [[differential form]]s on $X$;
 
-* the $(\infty,1)$-quantity of functions on the [[nLab:delooping|delooping]] $\mathbf{B}G$ of a [[nLab:Lie group|Lie group]] $G$ is the [[nLab:Chevalley-Eilenberg algebra|Chevalley-Eilenberg algebra]] of its [[nLab:Lie algebra|Lie algebra]].
+* the $(\infty,1)$-quantity of functions on the [[delooping|delooping]] $\mathbf{B}G$ of a [[Lie group|Lie group]] $G$ is the [[Chevalley-Eilenberg algebra|Chevalley-Eilenberg algebra]] of its [[Lie algebra|Lie algebra]].
 
 
 
-Recall from the discussion at [[nLab:models for infinity-stack (infinity,1)-toposes|models for ∞-stack (∞,1)-toposes]] that [[simplicial presheaf|simplicial presheaves]] model generalized spaces, in the form of [[∞-groupoid]]s with extra structure (smooth structure, for instance, in the case of [[smooth ∞-stack]]s).
+Recall from the discussion at [[models for infinity-stack (infinity,1)-toposes|models for ∞-stack (∞,1)-toposes]] that [[simplicial presheaf|simplicial presheaves]] model generalized spaces, in the form of [[∞-groupoid]]s with extra structure (smooth structure, for instance, in the case of [[smooth ∞-stack]]s).
 
-In the sense of [[nLab:space and quantity|space and quantity]] the [[duality|concrete dual]] notion obtained by homming into objects of the underlying [[nLab:site|site]] should be tought of as $(\infty,1)$-quantities.
+In the sense of [[space and quantity|space and quantity]] the [[duality|concrete dual]] notion obtained by homming into objects of the underlying [[site|site]] should be tought of as $(\infty,1)$-quantities.
 This way we obtain _model for $(\infty,1)$-quantities_ in terms of a category of cosimplicial copresheaves $[C,[\Delta, Set]]\,.$
 
-For $C =$ [[CartSp]] those copresehaves that respect [[nLab:product|product]]s in $C$ are [[nLab:generalized smooth algebra|generalized smooth algebra]]s. By the  dual [[nLab:Dold-Kan correspondence|Dold-Kan correspondence]] cosimplicial smooth algebras are equivalent to **differential graded smooth algebras** (in non-negative degree), namely [[nLab:differential graded algebra|differential graded algebra]]s in the context of [[nLab:generalized smooth algebra|generalized smooth algebra]]s. Therefore our $(\infty,1)$-quantities are also modeled by cochain complexes of copresheaves and in this incarnation they reproduce various entities familiar in [[nLab:homological algebra|homological algebra]] and [[nLab:Lie theory|Lie theory]]. 
+For $C =$ [[CartSp]] those copresehaves that respect [[product|product]]s in $C$ are [[generalized smooth algebra|generalized smooth algebra]]s. By the  dual [[Dold-Kan correspondence|Dold-Kan correspondence]] cosimplicial smooth algebras are equivalent to **differential graded smooth algebras** (in non-negative degree), namely [[differential graded algebra|differential graded algebra]]s in the context of [[generalized smooth algebra|generalized smooth algebra]]s. Therefore our $(\infty,1)$-quantities are also modeled by cochain complexes of copresheaves and in this incarnation they reproduce various entities familiar in [[homological algebra|homological algebra]] and [[Lie theory|Lie theory]]. 
 
 
 # Definition #
@@ -40,13 +39,13 @@ $$
   CoSCoSh(C) \subset [C,[\Delta,Set]]
 $$
 
-for the full [[nLab:subcategory|subcategory]] of [[nLab:simplicial object|cosimplicial]] [[presheaf|copresheaves]] on $C$ that respect [[nLab:product|product]]s. This are the [[simplicial object|cosimplicial objects]] in the category of [[generalized smooth algebra]]s.
+for the full [[subcategory|subcategory]] of [[simplicial object|cosimplicial]] [[presheaf|copresheaves]] on $C$ that respect [[product|product]]s. This are the [[simplicial object|cosimplicial objects]] in the category of [[generalized smooth algebra]]s.
 
-We regard $CoSCoSh(C)$ as a [[nLab:category with weak equivalences|category with weak equivalences]] by declaring a morphism to be a weak equivalence if objectwise under the dual [[nLab:Dold-Kan correspondence|Dold-Kan correspondence]] it induces a [[nLab:quasi-isomorphism|quasi-isomorphism]] of [[nLab:cochain complex|cochain complex]]es.
+We regard $CoSCoSh(C)$ as a [[category with weak equivalences|category with weak equivalences]] by declaring a morphism to be a weak equivalence if objectwise under the dual [[Dold-Kan correspondence|Dold-Kan correspondence]] it induces a [[quasi-isomorphism|quasi-isomorphism]] of [[cochain complex|cochain complex]]es.
 
 =--
 
-In more detail this means that a morphism $f : A \to B$ is a weak equivalence if for all $\mathbb{R}^n \in C$ the morphism $f(U) : A(U) \to B(U)$ of cosimplicial abelian groups (using the additive structure of [[generalized smooth algebra]]s) induces under the dual normalized [[nLab:Moore complex|Moore complex]] a morphism $N^\bullet f(U) : N^\bullet A(U) \to N^\bullet(B(U))$ that induces an isomorphism on [[nLab:chain homology and cohomology|cochain complex cohomology]].
+In more detail this means that a morphism $f : A \to B$ is a weak equivalence if for all $\mathbb{R}^n \in C$ the morphism $f(U) : A(U) \to B(U)$ of cosimplicial abelian groups (using the additive structure of [[generalized smooth algebra]]s) induces under the dual normalized [[Moore complex|Moore complex]] a morphism $N^\bullet f(U) : N^\bullet A(U) \to N^\bullet(B(U))$ that induces an isomorphism on [[chain homology and cohomology|cochain complex cohomology]].
 
 
 
@@ -185,7 +184,7 @@ we shall write
 * the degree lowering maps as $s_i^* : K^{n+1} \to K^n$.
 
 The reason is that in the present context all our cosimplicial 
-objects are to be thought of as some [[nLab:duality|concrete dual]]s
+objects are to be thought of as some [[duality|concrete dual]]s
 of simplicial objects. 
 
 The archetypical example is the following.
@@ -193,9 +192,9 @@ The archetypical example is the following.
 
 ##The $(\infty,1)$-quantity of functions on infinitesimal simplices ##
 
-Let $X$ be a [[nLab:smooth space|smooth space]]. Write $C^\infty([\Delta_{inf}^k,X])$
-for the [[nLab:generalized smooth algebra|generalized smooth algebra]] (a certain copresheaf on
-[[nLab:CartSp|CartSp]]) that plays the role of 
+Let $X$ be a [[smooth space|smooth space]]. Write $C^\infty([\Delta_{inf}^k,X])$
+for the [[generalized smooth algebra|generalized smooth algebra]] (a certain copresheaf on
+[[CartSp|CartSp]]) that plays the role of 
 the algebra of functions on the space of $k$-dimensional infinitesimal
 simplices in $X$. As $k$ varies this naturally arranges itself into
 a cosimplicial copresheaf 
@@ -250,9 +249,9 @@ context that need not concern us here).
 
 ## The Moore complex of an $(\infty,1)$-quantity ##
 
-Let $K = K^\bullet$ be a cosimplicial [[nLab:generalized smooth algebra|generalized smooth algebra]]. 
+Let $K = K^\bullet$ be a cosimplicial [[generalized smooth algebra|generalized smooth algebra]]. 
 Its **Moore complex** is the connective (meaning: $\mathbb{N}$-graded) 
-[[nLab:cochain complex|cochain complex]] (degree of coboundary maps is $+1$) $C^\bullet(K)$ which is degreewise equal to $K$ in that $C^n(K) := K^n$ and whose coboundary map is the alternating sum
+[[cochain complex|cochain complex]] (degree of coboundary maps is $+1$) $C^\bullet(K)$ which is degreewise equal to $K$ in that $C^n(K) := K^n$ and whose coboundary map is the alternating sum
 of face maps
 
 $$
@@ -260,7 +259,7 @@ $$
   \,. 
 $$
 
-Its **normalized Moore complex** $N^\bullet(K)$ is the subcomplex on the joint [[nLab:kernel|kernel]] of all but the last degeneracy maps
+Its **normalized Moore complex** $N^\bullet(K)$ is the subcomplex on the joint [[kernel|kernel]] of all but the last degeneracy maps
 
 $$
   N^n(K) = \cap_{i=0}^{n-1} ker(s_i^*)
@@ -274,13 +273,13 @@ $$
 
 
 Write $CoSh(CartSp)$ -- or just $CoSh$ in the present context -- for the category of product-preserving
-copresheaves on [[nLab:CartSp|CartSp]] and $CoSCoSh(CartSp)$ -- or just 
+copresheaves on [[CartSp|CartSp]] and $CoSCoSh(CartSp)$ -- or just 
 $CoSCoSh$ in the present context --  for the category
 of cosimplicial objects of that.
 
-Regard $CoSh$ as a [[nLab:monoidal category|monoidal category]] using its [[nLab:coproduct|coproduct]],
-which plays the role of the completed [[nLab:tensor product|tensor product]]
-of [[nLab:generalized smooth algebra|generalized smooth algebra]]s. By degreewise application
+Regard $CoSh$ as a [[monoidal category|monoidal category]] using its [[coproduct|coproduct]],
+which plays the role of the completed [[tensor product|tensor product]]
+of [[generalized smooth algebra|generalized smooth algebra]]s. By degreewise application
 this induces a monoidal structure on $CoSCoSh$
 
 $$
@@ -304,7 +303,7 @@ $$
 +-- {: .un_prop }
 ###### Proposition
 
-There is a [[nLab:natural transformation|natural transformation]]
+There is a [[natural transformation|natural transformation]]
 
 $$
   \mu_K : C^\infty(K) \otimes C^\infty(K) \to C^\infty(K \otimes K)
@@ -352,7 +351,7 @@ Then check... (haven't yet in full detail, maybe this needs a bit of tweaking, b
 
 This induces on the Moore cochain complex $C^\bullet(K)$ 
 of a cosimplicial smooth algebra $K \in CoSCoSh$ the structure of a
-[[nLab:monoid|monoid]] in $Ch^\bullet_+$, hence of a connective [[nLab:differential graded algebra|differential graded algebra]]
+[[monoid|monoid]] in $Ch^\bullet_+$, hence of a connective [[differential graded algebra|differential graded algebra]]
 with product given by
 
 $$
@@ -364,13 +363,13 @@ $$
 $$
 
 with $\cdot : K \otimes K \to K$ degreewise the product 
-$\cdot : K^n \times K^n \to K^n$ in the [[nLab:generalized smooth algebra|generalized smooth algebra]]
+$\cdot : K^n \times K^n \to K^n$ in the [[generalized smooth algebra|generalized smooth algebra]]
 $K^n$.
 
-The (normalized) [[nLab:Moore complex|Moore complex]] $C^\bullet(K)$ (or $N^\bullet(K)$) 
+The (normalized) [[Moore complex|Moore complex]] $C^\bullet(K)$ (or $N^\bullet(K)$) 
 of an $(\infty,1)$-quantity $K \in CoSCoSh$
 equipped with this monoidal structure
-we call the (normalized) **Moore [[nLab:differential graded algebra|differential graded algebra]]**
+we call the (normalized) **Moore [[differential graded algebra|differential graded algebra]]**
 -- or **Moore DGA** for short -- of $K$.
 
 
@@ -381,8 +380,8 @@ Let $X$ be a smooth manifold.
 
 The normalized Moore DGA  of the $(\infty,1)$-quantity $C^\infty([\Delta_{inf}^\bullet,X])$ 
 of functions on infinitesimal simplices in $X$ is isomorphic, as 
-a [[nLab:differential graded algebra|differential graded algebra]] to the deRham DGA
-of [[nLab:differential form|differential forms]] on $X$.
+a [[differential graded algebra|differential graded algebra]] to the deRham DGA
+of [[differential form|differential forms]] on $X$.
 
 $$
   \Omega^\bullet(X) \simeq N^\bullet(C^\infty([\Delta_{inf}^\bullet,X]))
@@ -396,7 +395,7 @@ $$
 
 Unwrapping what this means it reduces item per item to
 the characterization of differential forms as functions on
-infinitesimal simplices as given by [[Anders Kock]]. See [[nLab:differential forms in synthetic differential geometry|differential forms in synthetic differential geometry]].
+infinitesimal simplices as given by [[Anders Kock]]. See [[differential forms in synthetic differential geometry|differential forms in synthetic differential geometry]].
 
 =--
 
