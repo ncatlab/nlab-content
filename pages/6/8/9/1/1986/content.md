@@ -16,7 +16,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 ## 2009-08-06
 
-* [[Zoran Škoda]]: created [[reduced scheme]], [[integral scheme]], [[integral domain]], [[noetherian scheme]] (warning: the listed proposition is not that obvious to prove) and made some chaned to [[noetherian ring]]. 
+* [[Zoran Škoda]]: created several shorter entries [[open subscheme]], [[open immersion of schemes]], [[reduced scheme]], [[integral scheme]], [[integral domain]], [[noetherian scheme]] (warning: the listed proposition is not that obvious to prove) and made some changes to [[noetherian ring]]. 
 
 ## 2009-08-05
 
