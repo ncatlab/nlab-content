@@ -18,7 +18,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-06
 
-* [[Urs Schreiber]]: created [[germ]], added references to [[group cohomology]] and continuous/smooth case
+* [[Urs Schreiber]]: created [[germ]], added references to [[group cohomology]] on continuous/smooth case
 
 *  [[Toby Bartels]]:
    *  Moved [[double of algebra with involution]] to [[Cayley-Dickson construction]] to use the nice name, and added the reference where I first learnt about this stuff.
