@@ -14,11 +14,16 @@ Here "non-trivial" means: anything that any other contributor might be intereste
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).  However, regardless of that, be sure to **add new comments to the top** of the list.
 
 ***
+
+
 ## 2009-08-06
+
+*  [[Toby Bartels]]:  Split [[artinian ring]] (just a stub) off from [[noetherian ring]].
 
 * [[David Roberts]]: added comment to [[fundamental groupoid]] about topology thereon and relation to local connectedness. In other news, I have a (non-academic) job, so as of next week my contributions will slow down a bit.
 
 * [[Zoran Škoda]]: created several shorter entries [[open subscheme]], [[open immersion of schemes]], [[reduced scheme]], [[integral scheme]], [[integral domain]], [[noetherian scheme]] (warning: the listed proposition is not that obvious to prove) and made some changes to [[noetherian ring]]. 
+
 
 ## 2009-08-05
 
