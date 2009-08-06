@@ -72,13 +72,15 @@ This is
 
 * formally self adjoint
 
-* of the form $$ D(\nabla_s) = \left(
+* of the form 
+
+  $$ D(\nabla_s) = \left(
     \array{
        & D'(\nabla_s)
        \\
        D'(\nabla_s)
     }
-  \right)
+   \right)
   $$
   
 * **theorem** (corollary of Atiyah-singer index theory)
@@ -93,8 +95,7 @@ This is
 
 
 
-so superconnections don't give new topological data: they are geometric objects
-with the same underlyying topology as ordinary connections but refined "geometry"
+so superconnections don't give new topological data: they are geometric objects with the same underlying topology as ordinary connections but refined "geometry"
 
 
 recall that Atiyah-Singer says that
