@@ -56,4 +56,4 @@ In a [[metric space]] $S$, a filter $F$ on $S$ is __Cauchy__ if it has elements 
 
 # References
 * [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Filter_%28mathematics%29).
-* Johnstone, Peter T. (1982). _Stone Spaces_. Cambridge University Press. ISBN 0-521-23893-5.
+* Johnstone, Peter T. (1982). _[[Stone Spaces]]_. Cambridge University Press. ISBN 0-521-23893-5.
