@@ -25,4 +25,4 @@ One source for the theory of pro-objects is
 
 Another good reference is
 
-* P. T. Johnstone, _Stone Spaces_.
+* P. T. Johnstone, _[[Stone Spaces]]_.
