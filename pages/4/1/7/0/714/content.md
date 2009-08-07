@@ -30,7 +30,11 @@ which is the identity on objects, and which satisfies $\dagger \circ \dagger = \
 
 #Examples#
 
-* Let $C$ be a category with pullbacks and let $Span_1(C)$ be the 1-category of [[span]]s up to isomorphism: its morphisms are spans with one leg labeled as source, the other labeled as target. Then the functor $\dagger : Span_1(C)^{op} \to Span_1(C)$ which just exchanges this labeling is a dagger-structure on $Span_1(C)$.
+* The category Rel of sets and relations is a dagger category, taking dagger as relational converse.
+
+* More generally, let $C$ be a category with pullbacks and let $Span_1(C)$ be the 1-category of [[span]]s up to isomorphism: its morphisms are spans with one leg labeled as source, the other labeled as target. Then the functor $\dagger : Span_1(C)^{op} \to Span_1(C)$ which just exchanges this labeling is a dagger-structure on $Span_1(C)$.
+
+* $\mathcal{R}(G)$, the category of unitary representations of a finite group $G$ and intertwining maps, is a dagger category. For an intertwiner $\phi : R \rightarrow S$, let $\phi^\dagger : S \rightarrow R$ be the adjoint of $\phi$ in Hilb.
 
 #Underlying groupoid#
 
