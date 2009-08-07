@@ -162,7 +162,8 @@ $$
      C^\infty_{loc}(\Pi(X)) &\leftarrow& 
      C^\infty_{loc}(\mathbf{B}G)
      \\
-     {}^\simeq\uparrow^\int && {}^{diff}\downarrow^\simeq
+     {}^\simeq\downarrow^{diff} 
+     && {}^{diff}\downarrow^\simeq
      \\
      \Omega^\bullet(X)
      &\stackrel{A}{\leftarrow}&
