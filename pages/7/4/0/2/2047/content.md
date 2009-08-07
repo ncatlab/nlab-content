@@ -1,1 +1,1 @@
-Given a ring $R$, the __socle__ of a left $R$-module $M$ is the sum of all simple submodules of $M$. Clearly the socle is a [[semisimple object|semisimple]] $R$-module. This notion is important in [[representation theory]].
+Given a [[ring]] $R$, the __socle__ of a left $R$-[[module]] $M$ is the sum of all [[simple object|simple]] [[subobject|submodules]] of $M$. Clearly the socle is a [[semisimple module|semisimple]] $R$-module. This notion is important in [[representation theory]].
