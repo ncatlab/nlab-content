@@ -17,6 +17,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 
 ## 2009-08-07
+
+*  [[Toby Bartels]]:  I was pretty sure, Zoran, but since it wasn\'t my field, I wanted to warn you.  Also, I\'ve edited [[simple object]] and [[semisimple object]] to clarify that the zero object is semisimple but not simple.
+
 * [[Zoran Škoda]] surely Toby, this is true for any fixed object $M$ (I wrote subobject?? hmm last night I entered a wrong building instead of the one in which my flat is). Just created [[coherent sheaf]]; because of severe time constraints it is rather short for a significant entry which will be large in future.  
 
 *  [[Toby Bartels]]:  Rewrote the definition at [[property sup]] slightly; it seems to me that $\Omega$ should be an ascending chain of subobjects of a fixed object $M$, rather than an ascending chain of a fixed subobject $M$ (which I can\'t even parse).  That also fits in with a noetherian category\'s having the property, but I mention it here in case I\'m wrong.
@@ -28,6 +31,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
   * expanded [[germ]]; created (Gabriel's) [[property sup]] with redirect [[property (sup)]]. 
 
 * [[Urs Schreiber]]: expanded and rearranged [[germ]] a bit
+
 
 ## 2009-08-06
 
