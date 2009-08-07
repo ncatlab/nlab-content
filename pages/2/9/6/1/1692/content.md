@@ -134,7 +134,7 @@ hom(-, \mathbf{2}) & \searrow & & \swarrow & U\\
  & & Set, & & 
 }$$
 
-is effected by lifting the object $\mathbf{2}$ of $C$ to a $D$-algebra structure in $C$ (making $\mathbf{2}$ an [[ambimorphic object]], carrying $C$- and $D$-structures compatible with one another); equivalently, seeing $hom(-, \mathbf{2}): C^{op} \to Set$ as an algebra over the monad $U F$ for which $U: D \to Set$ is monadic. For example, classical Stone duality is the case where $C$ is the category of Stone spaces, $D$ is the category of Boolean algebras, and the Boolean operations on $\mathbf{2}$ are continuous with respect to its Stone space structure, making $\mathbf{2}$ a Boolean algebra object in the category of Stone spaces. (For much more on this, see Johnstone's classic treatise _Stone Spaces_, especially the chapter on general concrete dualities.) 
+is effected by lifting the object $\mathbf{2}$ of $C$ to a $D$-algebra structure in $C$ (making $\mathbf{2}$ an [[ambimorphic object]], carrying $C$- and $D$-structures compatible with one another); equivalently, seeing $hom(-, \mathbf{2}): C^{op} \to Set$ as an algebra over the monad $U F$ for which $U: D \to Set$ is monadic. For example, classical Stone duality is the case where $C$ is the category of Stone spaces, $D$ is the category of Boolean algebras, and the Boolean operations on $\mathbf{2}$ are continuous with respect to its Stone space structure, making $\mathbf{2}$ a Boolean algebra object in the category of Stone spaces. (For much more on this, see Johnstone's classic treatise _[[Stone Spaces]]_, especially the chapter on general concrete dualities.) 
 
 The point is that in each of these situations, a Stone duality is a restriction of the more global duality on Chu spaces, in that the diagram 
 
