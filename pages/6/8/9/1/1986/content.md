@@ -17,7 +17,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 
 ## 2009-08-07
-* [[Zoran Škoda]] expanded [[germ]]; created (Gabriel's) [[property sup]] with redirect [[property (sup)]]. 
+* [[Zoran Škoda]] created short entries [[simple object]], [[semisimple object]], [[socle]], [[nilpotent ideal]]; noticed that if I create a redirect ((apples)) for ((apple)) and used it in ((pear)), the entry ((apple)) is NOT listed in the list of "linked from" entries at the bottom of the page. Thus if I link by a redirect name, I will miss the backpointer. This happened with [[simple objects]] listed in [[semisimple object]], but [[simple object]] does not say that it is linked from [[semisimple object]]. Added more to [[artinian ring]]. Toby, I agree that $n Cat$ and $n$-$Cat$ are accepted synonyms, that hyphen looks better than minus, and that there is no <em>a priori</em> rational reason for $R$-$Mod$ as opposed to $R Mod$, however the tradition in math community and in professional typerighting (say in numerous journals of AMS) do not use $R Mod$, at least not noticably often, in favour of other versions, and if nlab has strange (even if abstractly correct) conventions in conventional part of math, it may be less attractive to students and professionals. Additional confusion may arise in confusion the name $R$ or so before $Mod$ with a modifier like $gr$, $dg$, $co$ or alike, which are more often (and with stronger arguments) in tradition written without hyphen.  
+
+  * expanded [[germ]]; created (Gabriel's) [[property sup]] with redirect [[property (sup)]]. 
 
 * [[Urs Schreiber]]: expanded and rearranged [[germ]] a bit
 
@@ -29,7 +31,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 *  [[Toby Bartels]]:
    *  Moved [[double of algebra with involution]] to [[Cayley-Dickson construction]] to use the nice name, and added the reference where I first learnt about this stuff.
-   *  The problem with '$R-Mod$' is that it contains a minus sign, not a dash at all.  I\'ve been removing minus signs from '$R-Mod$', '$k-Vect$', '$n-Cat$' etc because they seem entirely wrong, and replacing them with nothing on the grounds that nothing is needed there (except a space, which should come automatically) in a mathematical formula.  If you really want a minus sign, let me know, and I won\'t change it.  If you want a dash, you can use `$R$-$Mod$` (which won\'t work inside a displayed equation), `$R\text{-}Mod$`, or `$R&#8208;Mod$` (which is a little funky but arguably the most proper).  I will change minus signs to one of those from now on, if that is what you prefer.  (Of course, `$_R Mod$` also works.)  Compare: '$R-Mod$', '$R Mod$', '$R$-$Mod$', '$R\text{-}Mod$', '$R&#8208;Mod$', '$_R Mod$'.
+   *  The problem with '$R-Mod$' is that it contains a minus sign, not a dash at all.  I\'ve been removing minus signs from '$R-Mod$', '$k-Vect$', '$n-Cat$' etc because they seem entirely wrong, and replacing them with nothing on the grounds that nothing is needed there (except a space, which should come automatically) in a mathematical formula.  If you really want a minus sign, let me know, and I won\'t change it.  If you want a dash, you can use `$R$-$Mod$` (which won\'t work inside a displayed equation), `$R\text{-}Mod$`, or `$R&#x2010;Mod$` (which is a little funky but arguably the most proper).  I will change minus signs to one of those from now on, if that is what you prefer.  (Of course, `$_R Mod$` also works.)  Compare: '$R-Mod$', '$R Mod$', '$R$-$Mod$', '$R\text{-}Mod$', '$R&#x2010;Mod$', '$_R Mod$'.
 
 * [[Urs Schreiber]]: added a section "Details" to the end of [[(infinity,1)-quantity]] to go with the blog discussion [here](http://golem.ph.utexas.edu/category/2009/08/question_on_synthetic_differen.html#c025770)
 
@@ -60,6 +62,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 * [[Eric]]: Created [[Hasse diagram]]. It may need polishing to make it technically (and morally) correct.
 
 * [[Sridhar Ramesh]]: The article on [[Kleisli category]] erroneously made the remark that the free functor associated with an Eilenberg-Moore category would necessarily be faithful (as a simple counterexample, consider the monad on Set which sends everything to 1); I've reworded the line which stated this, as well as one other
+
+  * [[Zoran Škoda]]: thanks, I wrote this nonsense trying to quickly motivate the existence of two definitions of Kleisli category (I consider the one via morphisms $M\to TN$ more basic than as free algebras in fact) and while writing I said to myself this can't be (faithfulness) but quickly made up some ad hoc false arguments in my head to the opposite and continued writing this :) Somebody should write [[Kleisli object]] as well (following Street 1972 and Lack-Street 2002). 
 
 
 ## 2009-08-04
