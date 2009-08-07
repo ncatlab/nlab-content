@@ -28,13 +28,15 @@ $$
 $$
 which is the identity on objects, and which satisfies $\dagger \circ \dagger = \mathrm{id}_C$.
 
+
 #Examples#
 
-* The category Rel of sets and relations is a dagger category, taking dagger as relational converse.
+* The category [[Rel]] of sets and [[relations]] is a dagger category, taking dagger as relational converse.
 
-* More generally, let $C$ be a category with pullbacks and let $Span_1(C)$ be the 1-category of [[span]]s up to isomorphism: its morphisms are spans with one leg labeled as source, the other labeled as target. Then the functor $\dagger : Span_1(C)^{op} \to Span_1(C)$ which just exchanges this labeling is a dagger-structure on $Span_1(C)$.
+* More generally, let $C$ be a category with [[pullbacks]] and let $Span_1(C)$ be the 1-category of [[spans]] up to isomorphism: its morphisms are spans with one leg labeled as source, the other labeled as target. Then the functor $\dagger : Span_1(C)^{op} \to Span_1(C)$ which just exchanges this labeling is a dagger-structure on $Span_1(C)$.
 
-* $\mathcal{R}(G)$, the category of unitary representations of a finite group $G$ and intertwining maps, is a dagger category. For an intertwiner $\phi : R \rightarrow S$, let $\phi^\dagger : S \rightarrow R$ be the adjoint of $\phi$ in Hilb.
+* $\mathcal{R}(G)$, the category of unitary [[representation]]s of a (discrete) [[group]] $G$ and intertwining maps, is a dagger category. For an intertwiner $\phi : R \rightarrow S$, let $\phi^\dagger : S \rightarrow R$ be the adjoint of $\phi$ in [[Hilb]].
+
 
 #Underlying groupoid#
 
@@ -43,6 +45,7 @@ For the purpose of considering what makes two objects of a $\dagger$-category [[
 For example, in $Hilb$, there are many invertible linear operators, but only those of norm $1$ (the invertible isometries) are unitary.
 
 The unitary isomorphisms form a [[groupoid]], which may be regarded as the _[[core]]_ of the $\dagger$-category.
+
 
 #References#
 
