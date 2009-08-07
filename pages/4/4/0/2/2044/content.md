@@ -1,0 +1,1 @@
+A left ideal $I$ in a ring $R$ is nilpotent if the ideal $I^n$ consisting of all $n$-tuple products $i_1\cdots i_n$ of elements in $I$ is the zero ideal. 
