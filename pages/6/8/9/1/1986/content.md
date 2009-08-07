@@ -17,6 +17,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 
 ## 2009-08-07
+* [[Zoran Škoda]]: I will most likely be on vacation for next about 10 days, what means mainly offline, though I hope to contribute with an item here and there within that period. To live safely (=with nlab) when offline I downloaded the whole html version of the site which I backed up online at my institute's server (which is pretty well working). Here is the today's file [nlab.tar.gz](http://www.irb.hr/korisnici/zskoda/nlab.tar.gz), only about 10Mb but with 77 Mb after gunzipping back to tar and about the same after untarring. Of course I will not update this file at least till full return back. 
 
 *  [[Toby Bartels]]:
    *  Wrote [[Stone Spaces]] (about Johnstone\'s book); contents to come.
