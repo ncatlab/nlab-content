@@ -17,7 +17,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 
 ## 2009-08-07
-* [[Zoran Škoda]] created (Gabriel's) [[property sup]] with redirect [[property (sup)]].
+* [[Zoran Škoda]] expanded [[germ]]; created (Gabriel's) [[property sup]] with redirect [[property (sup)]]. 
 
 * [[Urs Schreiber]]: expanded and rearranged [[germ]] a bit
 
