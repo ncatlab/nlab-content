@@ -30,9 +30,8 @@ It is not hard to check that $(-)_l$ is left adjoint to $(-)_p$.  In fact, this 
 
 # References #
 
-P. T. Johnstone, _Sketches of an elephant: a topos theory compendium_.  Part C (volume 2).
-
-P. T. Johnstone, _[[Stone spaces]]_
+*  P. T. Johnstone, _[[Elephant|Sketches of an elephant: a topos theory compendium]]_.  Part C (volume 2).
+*  P. T. Johnstone, _[[Stone Spaces]]_
 
 
 [[!redirects locales]]
