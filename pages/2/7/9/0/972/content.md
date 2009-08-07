@@ -7,9 +7,3 @@ A **complete lattice** is a [[partial order|poset]] which has all [[join|joins]]
 * The [[unit interval]] $[0,1]$.
 
 Complete lattices are harder to come by in [[constructive mathematics]] and nearly impossible in [[predicative mathematics]].  In particular, one must use the Mac Neille reals (and be a bit careful about infinity) for the analytic examples to work constructively.
-
-+--{: .query}
-[[Mike Shulman|Mike]]: Aren't some versions of the reals complete constructively?  Like the MacNeille reals?
-
-_Toby_:  Good point.  I tend to think of the Mac Neille reals as not the *real* reals, but of course that depends on what you think is important.  I\'ve decided not to be terribly precise in the statement now.
-=--
