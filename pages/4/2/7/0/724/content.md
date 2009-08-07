@@ -15,4 +15,9 @@ As a poset is a special kind of [[category]], a join is simply a [[coproduct]] i
 
 A join of [[subset]]s or [[subobject]]s is called a [[union]].
 
+
 [[!redirects joins]]
+[[!redirects supremum]]
+[[!redirects supremums]]
+[[!redirects suprema]]
+[[!redirects sup]]
