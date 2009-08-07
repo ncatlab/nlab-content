@@ -39,3 +39,6 @@ I\'m not sure that we really want to use the terminology that way, but Ronnie al
 * O. Wyler, _Lecture notes on topoi and quasitopoi_ (for pseudotopological spaces)
 
 * P. Johnstone, _On a topological topos_
+
+
+[[!redirects nice categories of spaces]]
