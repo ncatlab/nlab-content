@@ -2,5 +2,5 @@ Let $R$ be a commutative [[ring]]. By $E(R)$ denote the [[Boolean algebra]] of i
 
 F. Borceux, G. Janelidze, Galois Theories, Cambridge studies in advanced mathematics, 72, Cambridge University Press 2001.
 
-P. T. Johnstone, Stone spaces, Cambridge studies in advanced mathematics 3, Cambrdge Univ. Press 1982.
+P. T. Johnstone, [[Stone Spaces]], Cambridge studies in advanced mathematics 3, Cambrdge Univ. Press 1982.
 
