@@ -48,7 +48,7 @@ There is also a notion of __sequentially Hausdorf space__:
 ###### Definition (of sequentially Hausdorff)
 Whenever a [[sequence]] converges to both $x$ and $y$, then $x = y$.
 =--
-Some forms of [[predicative mathematics]] find this concept more useful.  Hausdorffness implies sequential Hausdorffness, but the converse is false even for [[sequential space]]s (although it is true for [[first countable space]]s).
+Some forms of [[predicative mathematics]] find this concept more useful.  Hausdorffness implies sequential Hausdorffness, but the converse is false even for [[sequential space]]s (although it is true for [[first-countable space]]s).
 
 The reader can now easily define a _sequentially $R_1$ space_.
 
