@@ -65,3 +65,6 @@ Essentially everything that makes category theory nontrivial and interesting can
 #References#
 
 * Catsters, _Adjunctions_ ([YouTube](http://www.youtube.com/watch?v=loOJxIOmShE&feature=channel_page))
+
+
+[[!redirects adjoint pair]]
