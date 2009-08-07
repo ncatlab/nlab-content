@@ -19,3 +19,4 @@ Entirely strict $\infty$-groupoids, usually called $\omega$-groupoids or [[stric
 [[!redirects ∞-groupoids]]
 [[!redirects infinity groupoid]]
 [[!redirects infinity-groupoids]]
+[[!redirects ∞-groupoid]]
