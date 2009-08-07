@@ -20,7 +20,26 @@ $$
   \,.
 $$
 
-#Arrow-theoretic interpretation#
+## Weak colimit interpretation ##
+
+Apparently for $C$ a [[groupoid]] the 
+category algebra of $C$ is the [[weak limit|weak colimit]] over $C$ of the functor $C \to Vect\text{-}Mod$
+constant on the ground field algebra.
+
+The 2-cell in the universal co-cone corresponding
+to the morphism $f \in C$ is the $k\text{-}k[C]$-bimodule
+homomorphism $f \cdot (-) :  A \to A$ that multiplies
+by $f \in k[C]$ from the left.
+
+This description should be compared with the analogous description of the [[action groupoid]] by a weak colimit. One sees that the groupoid algebra is a linear incarnation of the action groupoid in some sense.
+
+This statement is for instance of great relevance (while very secretly hidden underneath the surface) in section 8.4 of 
+
+* Daniel S. Freed, Michael J. Hopkins, Jacob Lurie, Constantin Teleman, _Topological Quantum Field Theories from Compact Lie Groups_ ([arXiv](http://arxiv.org/abs/0905.0731))
+
+
+
+# Span composition interpretation #
 
 The category algebra of a category $C$ is a special case of a general [[arrow theory|arrow-theoretic]] construction that appears in [[quantization]] and in the theory of [[bi-brane]]s. 
 
