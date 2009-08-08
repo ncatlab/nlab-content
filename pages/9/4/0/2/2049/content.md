@@ -7,17 +7,17 @@ Although it is a work of [[mathematics]] rather than [[foundations|metamathemati
 
 ## Contents
 
-Besides the usual prefaces, bibliography, and indexes, there is a historical introduction, and each chapter concludes with notes on historical and metamathematical aspects.  Otherwise, each of 7 chapters is divided into 4 sections, which in turn contain paragraphs that deal with one idea each:
+Besides the usual prefaces, bibliography, and indexes, there is a historical introduction, and each chapter concludes with notes on historical and metamathematical aspects.  Otherwise, each of 7 chapters is divided into 4 sections, which in turn contain paragraphs that deal with essentially one idea each:
 
 1.  Preliminaries
 
     1.  Lattices
-        1.   [[partial order]]
+        1.   [[poset]]
         2.   [[join]]
         3.   [[semilattice]]
-        4.   [[lattice]]
+        4.   [[meet]], [[lattice]]
         5.   [[distributive lattice]]
-        6.   [[Boolean algebra]]
+        6.   [[complement]], [[Boolean algebra]]
         7.   examples
         8.   [[symmetric difference]]
         9.   [[Boolean ring]]
@@ -26,33 +26,33 @@ Besides the usual prefaces, bibliography, and indexes, there is a historical int
         12.  examples
         13.  [[regular element]]
     2.  Ideals and filters
-        1.  [[ideal]]
-        2.  [[prime ideal]]
+        1.  [[lower set]], [[ideal]], [[principal ideal]]
+        2.  [[filter]], [[prime ideal]], [[prime filter]]
         3.  \* [[maximal ideal theorem]]
-        4.  [[maximal ideal]]
+        4.  [[maximal ideal]], maximal ideals in distributive lattices
         5.  \* [[discrete Stone representation theorem]]
-        6.  [[prime ideal theorem]]
+        6.  prime ideals in Boolean algebras
     3.  Some categorical concepts
-        1.  [[category]]
-        2.  [[concrete category]]
-        3.  [[poset]]
-        4.  [[adjoint functor]]
-        5.  [[limit]]
-        6.  [[monad]]
-        7.  [[algebraic variety]]
+        1.  [[object]], [[morphism]], [[category]], [[functor]], [[natural transformation]]
+        2.  [[concrete category]], [[locally small category]]
+        3.  posets as categories
+        4.  [[adjoint functors]], [[reflective subcategory]], [[full functor]], [[faithful functor]]
+        5.  [[small category]], [[limit]], [[colimit]], [[monomorphism]], [[regular monomorphism]], [[complete category]], [[finitely complete category]]
+        6.  [[monad]], [[algebra for a monad]], [[monadic adjunction]]
+        7.  [[variety of algebras]]
         8.  [[algebraic category]]
-        9.  [[filtered category]]
+        9.  [[filtered category]], [[filtered colimit]], [[finitary functor]]
     4.  Free lattices
-        1.   [[directed poset]]
-        2.   [[adjoint functor theorem]] (for posets)
-        3.   [[suplattice]]
+        1.   [[directed poset]], [[directed join]]
+        2.   [[adjoint functor theorem]] for posets
+        3.   [[suplattice]], [[complete lattice]]
         4.   [[free semilattice]]
         5.   [[free suplattice]]
         6.   [[free lattice]]
-        7.   [[free complete lattice]] (a proper class)
+        7.   [[free complete lattice]]
         8.   [[free distributive lattice]]
         9.   [[free Boolean algebra]]
-        10.  [[free complete Boolean algebra]] (a proper class)
+        10.  [[free complete Boolean algebra]]
         11.  [[free Heyting algebra]]
 2.  Introduction to locales
     1.  Frames and locales
