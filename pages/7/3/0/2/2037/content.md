@@ -16,8 +16,8 @@ The standard example is the sequence of consecutive doubles starting with $\math
 ## References
 
 *  [[M M Postnikov]], _Lectures on geometry, Semester V: Lie groups and Lie algebras_, Lec. 14 (russian and english editions)
-*  [TWF Week 59](http://math.ucr.edu/home/baez/week59.html)
-
+* [[John Baez]], [The Cayley--Dickson construction](http://math.ucr.edu/home/baez/octonions/node5.html)
+* John Baez, [This Week's Finds --- Week 59](http://math.ucr.edu/home/baez/week59.html)
 
 [[!redirects double of an algebra with involution]]
 [[!redirects double of algebra with involution]]
