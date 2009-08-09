@@ -17,7 +17,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-09
 
-* [[Zoran Škoda]]: created [[Nielsen-Schreier theorem]], [[Hopfian group]]; quoted references for algebraic proofs, somebody should add a reference with explanation of the topological proof (I think Massey's book would do but I do not have it at the moment).
+* [[Zoran Škoda]]: created [[combinatorial group theory]], [[free product of groups]], [[Nielsen-Schreier theorem]], [[Hopfian group]]; quoted references for algebraic proofs of Nielsen-Schreier, somebody should add a reference with explanation of the topological proof (I think Massey's book would do but I do not have it at the moment).
 
 ## 2009-08-07
 
