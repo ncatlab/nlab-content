@@ -9,6 +9,11 @@ A **2-limit** is the type of [[limit]] that is appropriate in a (weak) [[2-categ
 1. Since 2-categories are [[enriched category|enriched]] over [[Cat]] (this is precise in the [[strict 2-category|strict]] case, and [[bicategory|weakly]] true otherwise), Cat-[[weighted limit]]s become important.  This means that both the diagrams we take limits of and the shape of "cones" that limits represent can involve 2-cells as well as 1-cells.
 
 
+# $2$-colimits
+
+Everything below applies dually to __$2$-colimits__, the higher analogues of [[colimits]].  (But somebody might want to make a separate page that gives appropriate examples of these.)
+
+
 # Strictness and terminology #
 
 In a [[strict 2-category]], one can also consider [[strict 2-limit|strict 2-limits]], which are precisely Cat-weighted limits in the sense of ordinary [[enriched category]] theory.  In a strict 2-category these "strict" limits are often technically useful in constructing the "up-to-isomorphism" 2-limits we consider here.  See [[strict 2-limit]] for details.
@@ -74,3 +79,4 @@ A 2-limit is called **finite** if its diagram shape and its weight are both "fin
 
 [[!redirects 2-categorical limit]]
 [[!redirects 2-categorial limit]]
+[[!redirects 2-colimit]]
