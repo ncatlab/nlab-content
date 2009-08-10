@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 ## 2009-08-10
 
+* [[Urs Schreiber]]: created [[Thomason model category]]
+
 * [[Eric]]: Based on a discussion at the [nCafe](http://golem.ph.utexas.edu/category/2009/08/what_do_mathematicians_need_to.html#c025838), I created [[Online Resources]].
 
 * [[Andrew Stacey]] marked his return with a small but significant observation about extensions of the category of smooth manifolds: if the inclusion of manifolds into an extension category preserves limits and colimits then the extension category _cannot_ be locally cartesian closed.  At the moment, this is contained in a remark at the end of the third example of a [[Froelicher space]] - please check my reasoning!
