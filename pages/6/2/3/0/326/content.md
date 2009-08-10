@@ -2,7 +2,7 @@ For any [[locally small category]] $C$ and any [[object]] $c \in C$, the **covar
 $$ hom(c,-) : C \to Set $$
 is the [[functor]] from $C$ to [[Set]] sending any object $x \in C$ to the [[hom-set]] $hom(c,x)$.
 
-To fully describe this functor we must also say what it does to morphisms in $C$; we hope that someone reading this will be sufficiently motivated to include this information.
+To fully describe this functor we must also say what it does to morphisms in $C$: $f: x \to y$ is sent to the morphism $f_*: hom(c,x) \to hom(c,y)$, which maps $\varphi$ to $f \circ \varphi$.
 
 There is also a **contravariant hom-functor**
 $$ hom(-,c) : C^{op} \to Set, $$
