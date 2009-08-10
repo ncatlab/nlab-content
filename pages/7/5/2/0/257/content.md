@@ -23,6 +23,16 @@ A **model structure** on a category $K$ consists of three distinguished classes 
 
 A **model category** is a complete and cocomplete category $K$ with a model structure $(C,F,W)$.
 
+# Variants #
+
+There are several notions of [[category with weak equivalences]] with similar but less structure than a full model category.
+
+* A [[category of fibrant objects]] has a notion of just weak equivalences and fibrations, none of cofibrations.
+
+* A [[Waldhausen category]] dually has a notion of weak equivalences and cofibrations.
+
+There is a slight variant of the full notion of model category by Thomason that is designed to make the [[global model structure on functors]] more naturally accessible: this is the notion of [[Thomason model category]].
+
 #Notes#
 
 * Some authors, notably Mark Hovey, require that the factorizations given by (ii) are actually _functorial_. In practice, Quillen's [[small object argument]] means that many model categories can be made to have functorial factorizations.
