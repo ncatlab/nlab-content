@@ -1,0 +1,1 @@
+The __trivial bundle__ over $B$ with fibre $F$ is simply the [[product]] $B \times F$, equipped with the projection map to $B$ to make it a [[bundle]] over $B$.
