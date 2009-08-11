@@ -1,4 +1,4 @@
-This entry is about the general properties and characterization of [[(∞,1)-categories]] of [[(∞,1)-sheaves]] (also known as [[∞-stacks]]).
+This entry is about the general properties and characterization of [[(∞,1)-categories]] of [[(∞,1)-sheaves]] -- also known as [[∞-stack]] [[(∞,1)-topos]]es.
 
 The 1-categorical analog of the discussion is this entry is at [[category of sheaves]].
 
