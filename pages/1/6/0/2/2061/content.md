@@ -1,1 +1,1 @@
-Stability of [[colimit]]s under [[pullback]] is discussed at [[commutativity of limits and colimits]].
+Stability of [[colimit]]s under [[pullback]] is discussed at [[commutativity of limits and colimits]].  There also other kinds of pullback stability; for example, the sense in which [[monomorphisms]] are stable under pullback.
