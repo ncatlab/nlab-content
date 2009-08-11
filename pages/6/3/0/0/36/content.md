@@ -55,3 +55,4 @@ A very different sort of general result has to do with the [[internal logic]] of
 
 [[!redirects Internalization]]
 [[!redirects internal to]]
+[[!redirects internalisation]]
