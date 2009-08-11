@@ -17,6 +17,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 
 ## 2009-08-11
+* [[Zoran Škoda]]: created [[normal variety]]
 
 * [[Urs Schreiber]] added [[universal colimits]] as the last remaining entry on the four [[Giraud's axioms]] that was still missing at [[(infinity,1)-topos]]. The entry currently points to the relevant discussion at [[commutativity of limits and colimits]] for the content, but is supposed to serve for providing the particular terminology used here.
 
