@@ -18,6 +18,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-11
 
+*  [[Andreas Holmstrom]] has created a user page, including a link to a blog.
+
+*  [[Toby Bartels]]:
+   *  Noticed that [[fiber bundle]] redirects to [[bundle]], but that page merely lists a fiber bundle (linking to itself!) as one of several kinds of bundle, so removed the redirect.  So if you thought that that page existed, well, it doesn\'t!
+   *  Noticed links to [[fiber]] and wrote a bit there.
+   *  More edits to [[pullback stability]].
+
 * [[Urs Schreiber]]: added to [[pullback stability]] that of right lifting property and hence that of fibrations -- restructured a bit.
 
 *  [[Toby Bartels]]:
