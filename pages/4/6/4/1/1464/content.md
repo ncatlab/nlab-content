@@ -62,3 +62,7 @@ All colimits are stable under base change in for instance
 but not in for instance
 
 * $C = $ [[Ab]].
+
+**Remark**
+
+In [[topos]] theory and [[(∞,1)-topos]] theory one says that _[[universal colimits|colimits are universal]]_ if they are preserved under pullback.
