@@ -18,6 +18,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-11
 
+*  [[Toby Bartels]]:
+   *  Added a note that there also other kinds of [[pullback stability]]; for example, the sense in which monomorphisms are stable under pullback.
+   *  Some rephrasing and refactoring at [[pretopos]] too.
+
 * [[Urs Schreiber]]: created [[pullback stability]] to satisfy links, but included so far just a pointer to [[commutativity of limits and colimits]]. Maybe we want to split that latter entry into the relevant subentries.
 
 *  [[Toby Bartels]]:
