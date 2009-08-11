@@ -18,7 +18,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-11
 
-*  [[Toby Bartels]]:  OK, now [[fiber bundle]] exists.
+*  [[Toby Bartels]]:
+   *  I also put up quite the stub at [[trivial bundle]].
+   *  OK, now [[fiber bundle]] exists.
 
 *  [[Andreas Holmstrom]] has created a user page, including a link to a blog.
 
