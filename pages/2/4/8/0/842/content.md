@@ -12,6 +12,8 @@ $$
   \,.
 $$
 
+The definition of [[colimit]] in this context is the obvious analogue.
+
 #Examples#
 
 ## Homotopy limits in Kan-enriched categories ##
@@ -20,6 +22,59 @@ Let $K$ and $C$ be categories [[enriched category|enriched]] in [[Kan complex|Ka
 
 This is [theorem 4.2.4.1, p. 214](http://www-math.mit.edu/~lurie/topoibook/highertopoi.pdf#page=214) in Lurie's book (see below).
 
+
+# Properties # 
+
+## Relation to universal fibrations ##
+
+Limits and colimits over a [[(∞,1)-functor]] between quasi-categories have a useful reformulation in terms of the  [[universal fibration of (infinity,1)-categories]].
+
+Let [[∞-Grpd]] be the [[(∞,1)-category]] of [[∞-groupoid]]s. Let the [[(∞,1)-functor]] $Z|_{Grpd} \to \infty Grpd$ be the [[universal fibration of (infinity,1)-categories|universal ∞-groupoid fibration]] whose fiber over the object denoting some $\infty$-groupoid is that very $\infty$-groupoid.
+
+Then let $X$ be any [[∞-groupoid]] and
+
+$$
+  F : X \to \infty Grpd
+$$
+
+an $\infty$-functor. Recall that the fibration $E_F \to X$ classified by $F$ is the pullback of the universal fibration $Z$ along F:
+
+$$
+  \array{
+    E_F &\to& Z|_{Grpd}
+    \\
+    \downarrow && \downarrow
+    \\
+    X &\stackrel{F}{\to}& \infty Grpd
+  }
+$$
+
++-- {: .un_prop }
+###### Proposition
+
+Let the assumptions be as above. Then:
+
+* The colimit of $F$ is equivalent to $E_F$:
+
+  $$
+    E_F \simeq colim F
+  $$
+
+* The limit of $F$ is equivalent to the $\infty$-groupoid of sections of $E_F \to X$
+
+  $$
+    \Gamma_X(E_F) \simeq lim F
+    \,.
+  $$
+
+=-- 
+
++-- {: .proof}
+###### Proof
+
+The statement for the colimit is corollary 3.3.4.6 in [[Higher Topos Theory|HTT]]. The statement for the limit is corollary 3.3.3.4.
+
+=--
 
 #References#
 
