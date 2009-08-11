@@ -16,7 +16,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 
+## 2009-08-11
+
+* [[Urs Schreiber]] added [[universal colimits]] as the last remaining entry on the four [[Giraud's axioms]] that was still missing at [[(infinity,1)-topos]]. The entry currently points to the relevant discussion at [[commutativity of limits and colimits]] for the content, but is supposed to serve for providing the particular terminology used here.
+
 ## 2009-08-10
+
+
 
 *  [[Toby Bartels]]:
    *  Contents at [[Stone Spaces]].  I hope to go through at least the first 4 chapters and relearn all of the topology there that I already know, only now in terms of locales (and hopefully constructively).  As I do so, I\'ll write it up here.
