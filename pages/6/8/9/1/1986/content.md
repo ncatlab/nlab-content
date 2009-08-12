@@ -16,7 +16,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 
-## 2009-08-11
+## 2009-08-12
+
+*  [[Toby Bartels]]:  Went through Section 1.1 of [[Stone Spaces]]; see the links from there.
 
 * [[Urs Schreiber]]: 
 
@@ -46,10 +48,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
     Concerning the comment there: my feeling is that people pretty consistently use the term "Grothendieck construction" for the reconstruction of a fibration from a pseudofunctor, whereas for the K-theoretic aspect they say "Grothendieck group".
 
-
   * added pointers to the entry [[Cartesian fibration]] at [[fibered category]] and [[Grothendieck fibration]]
 
   * added to the discussion on universal fibrations at [[stuff, structure, property]] (in the section on logic) a comment about and pointer to the [[universal fibration of (∞,1)-categories]].
+
+
+## 2009-08-11
 
 *  [[Toby Bartels]]:
    *  I also put up quite the stub at [[trivial bundle]].
