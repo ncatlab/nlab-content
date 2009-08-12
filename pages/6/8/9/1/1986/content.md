@@ -20,6 +20,16 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]: 
 
+  * created [[fibrations of simplicial sets]]
+
+  * added to [[Kan fibration]] a sentence on right/left Kan fibrations and made [[inner Kan fibration]], [[left Kan fibration]], [[right Kan fibration]] and [[weak Kan fibration]] redirect to it
+
+  * made [[lifting property]] a redirect to [[weak factorization system]]
+
+  * created [[anodyne morphism]]
+
+  * started [[cartesian morphism]] in order to host, among the standard stuff, the $(\infty,1)$-categorical version
+
   * corrected some minor points at [[limit in a quasi-category]] a bit
 
   * created [[Karoubi envelope]] in order to collect references to the $\infty$-version of it
