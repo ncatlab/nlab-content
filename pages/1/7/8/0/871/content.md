@@ -9,3 +9,6 @@ A poset that has both top and [[bottom]] is called _bounded_.
 As a poset is a special kind of [[category]], a top is simply a [[terminal object]] in that category.
 
 The top of the poset of [[subset]]s or [[subobject]]s of a given set or object $A$ is always $A$ itself.
+
+
+[[!redirects top element]]
