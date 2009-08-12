@@ -18,6 +18,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-12
 
+* [[Urs Schreiber]]: 
+
+  * created [[marked simplicial set]]
+
+  * created [[(infinity,1)-category of cartesian sections]]
+
+
 *  [[Toby Bartels]]:  Went through Section 1.1 of [[Stone Spaces]]; see the links from there.
 
 * [[Urs Schreiber]]: 
