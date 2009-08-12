@@ -200,9 +200,9 @@ One can take $B$ to be something very different from the familiar classifying gr
 
 * $\mathbf{E}_{pt} (-1)Cat \to (-1)Cat$ is $\{\top\} \to \{\top, \bottom\}$, the [[subobject classifier]] in [[Set]];
 
-* $\mathbf{E}_{pt} 0Cat \to 0Cat$ is $Set_* \to Set$, the forgetful functor from [[pointed set]]s, which is the  2-[[subobject classifier]] in [[Cat]];
+* $\mathbf{E}_{pt} 0Cat \to 0Cat$ is $Set_* \to Set$, the forgetful functor from [[pointed set]]s, which is the  2-[[subobject classifier]] in [[Cat]];. Pullback of this creates the [[category of elements]] of a [[presheaf]].
 
-* $\mathbf{E}_{pt} Cat \to Cat$ is $Cat_* \to Cat$.
+* $\mathbf{E}_{pt} Cat \to Cat$ is $Cat_* \to Cat$. Pullback of this is the [[Grothendieck construction]].
 
 It was David Roberts in the blog comment
 
