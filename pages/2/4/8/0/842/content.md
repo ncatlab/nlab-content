@@ -34,10 +34,10 @@ Let [[∞-Grpd]] be the [[(∞,1)-category]] of [[∞-groupoid]]s. Let the [[(�
 Then let $X$ be any [[∞-groupoid]] and
 
 $$
-  F : X \to \infty Grpd^{op}
+  F : X \to \infty Grpd
 $$
 
-an $\infty$-functor. Recall that the fibration $E_F \to X$ classified by $F$ is the pullback of the universal fibration $Z$ along F:
+an [[(∞,1)-functor]]. Recall that the [[Cartesian fibration|coCartesian fibration]] $E_F \to X$ classified by $F$ is the pullback of the [[universal fibration of (∞,1)-categories]] $Z$ along F:
 
 $$
   \array{
@@ -45,7 +45,7 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    X &\stackrel{F}{\to}& \infty Grpd^{op}
+    X &\stackrel{F}{\to}& \infty Grpd
   }
 $$
 
@@ -60,10 +60,10 @@ Let the assumptions be as above. Then:
     E_F \simeq colim F
   $$
 
-* The limit of $F$ is equivalent to the [[(infinity,1)-category of cartesian section|(∞,1)-groupoid of cartesian sections]] of $E_F \to X$
+* The limit of $F$ is equivalent to the [[(infinity,1)-category of cartesian section|(∞,1)-groupoid of sections]] of $E_F \to X$
 
   $$
-    \Gamma_X^{cart}(E_F) \simeq lim F
+    \Gamma_X(E_F) \simeq lim F
     \,.
   $$
 
@@ -75,6 +75,8 @@ Let the assumptions be as above. Then:
 The statement for the colimit is corollary 3.3.4.6 in [[Higher Topos Theory|HTT]]. The statement for the limit is corollary 3.3.3.4.
 
 =--
+
+If instead of [[∞-Grpd]] the target is the [[(∞,1)-category of (∞,1)-categories]] then the latter statement is true with the $(\infty,1)$-category of all sections replaced by [[(∞,1)-category of cartesian sections]].
 
 #References#
 
