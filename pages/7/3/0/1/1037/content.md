@@ -176,9 +176,21 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
 * [[model structure on simplicial sets]]
 
-* [[Cartesian fibration]]
+* [[fibrations of simplicial sets]]
 
-* [[Cartesian morphism]]
+  * [[Kan fibration]]
+ 
+  * [[inner Kan fibration]]
+
+  * [[left Kan fibration]]
+
+  * [[right Kan fibration]]
+
+  * [[Cartesian fibration]]
+
+    * [[Cartesian morphism]]
+
+  * [[anodyne morphism]]
 
 ##3 The $\infty$-Category of $\infty$-Categories
 
