@@ -58,3 +58,5 @@ Definition 2.4.2.1 in
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
+
+[[!redirects cartesian fibration]]
