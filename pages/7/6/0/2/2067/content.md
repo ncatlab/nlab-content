@@ -42,3 +42,6 @@ For the 1-categorical case see the references at [[Grothendieck fibration]].
 The $(\infty,1)$-categorical version is in section 2.4 of 
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
+
+
+[[!redirects Cartesian morphism]]
