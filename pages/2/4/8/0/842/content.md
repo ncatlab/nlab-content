@@ -25,16 +25,16 @@ This is [theorem 4.2.4.1, p. 214](http://www-math.mit.edu/~lurie/topoibook/highe
 
 # Properties # 
 
-## Relation to universal fibrations ##
+## Limits and colimits with values in $\infty Grpd$ ##
 
-Limits and colimits over a [[(∞,1)-functor]] between quasi-categories have a useful reformulation in terms of the  [[universal fibration of (infinity,1)-categories]].
+Limits and colimits over a [[(∞,1)-functor]] with values in the [[(∞,1)-category]] [[∞-Grpd]] of [[∞-groupoids]] may be reformulation in terms of the  [[universal fibration of (infinity,1)-categories]].
 
-Let [[∞-Grpd]] be the [[(∞,1)-category]] of [[∞-groupoid]]s. Let the [[(∞,1)-functor]] $Z|_{Grpd} \to \infty Grpd$ be the [[universal fibration of (infinity,1)-categories|universal ∞-groupoid fibration]] whose fiber over the object denoting some $\infty$-groupoid is that very $\infty$-groupoid.
+Let [[∞-Grpd]] be the [[(∞,1)-category]] of [[∞-groupoid]]s. Let the [[(∞,1)-functor]] $Z|_{Grpd} \to \infty Grpd^{op}$ be the [[universal fibration of (infinity,1)-categories|universal ∞-groupoid fibration]] whose fiber over the object denoting some $\infty$-groupoid is that very $\infty$-groupoid.
 
 Then let $X$ be any [[∞-groupoid]] and
 
 $$
-  F : X \to \infty Grpd
+  F : X \to \infty Grpd^{op}
 $$
 
 an $\infty$-functor. Recall that the fibration $E_F \to X$ classified by $F$ is the pullback of the universal fibration $Z$ along F:
@@ -45,7 +45,7 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    X &\stackrel{F}{\to}& \infty Grpd
+    X &\stackrel{F}{\to}& \infty Grpd^{op}
   }
 $$
 
@@ -60,7 +60,7 @@ Let the assumptions be as above. Then:
     E_F \simeq colim F
   $$
 
-* The limit of $F$ is equivalent to the $\infty$-groupoid of sections of $E_F \to X$
+* The limit of $F$ is equivalent to the $\infty$-groupoid of cartesian (...explain...) sections of $E_F \to X$
 
   $$
     \Gamma_X(E_F) \simeq lim F
