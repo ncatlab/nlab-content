@@ -60,10 +60,10 @@ Let the assumptions be as above. Then:
     E_F \simeq colim F
   $$
 
-* The limit of $F$ is equivalent to the $\infty$-groupoid of cartesian (...explain...) sections of $E_F \to X$
+* The limit of $F$ is equivalent to the [[(infinity,1)-category of cartesian section|(∞,1)-groupoid of cartesian sections]] of $E_F \to X$
 
   $$
-    \Gamma_X(E_F) \simeq lim F
+    \Gamma_X^{cart}(E_F) \simeq lim F
     \,.
   $$
 
