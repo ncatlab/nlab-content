@@ -196,11 +196,11 @@ The way this works is indicated briefly in the last section of Roberts-Schreiber
 
 ## Universal $n$-category bundles: $n$-subobject classifiers ##
 
-One can take $B$ to be something very different from the familiar classifying groupoids. Taking it to be $n$Cat yields the [[subobject classifier]]s of higher [[topos|toposes]]:
+One can take $B$ to be something very different from the familiar classifying groupoids. Taking it to be $n Cat$ yields the [[subobject classifier]]s of higher [[topos|toposes]]:
 
-* $\mathbf{E}_{pt} (-1)Cat \to (-1)Cat$ is $\{\top\} \to \{\top, \bottom\}$, the [[subobject classifier]] in [[Set]];
+* $\mathbf{E}_{pt} (-1)Cat \to (-1)Cat$ is $\{\top\} \to \{\top, \bottom\}$, the [[subobject classifier]] in [[Set]].
 
-* $\mathbf{E}_{pt} 0Cat \to 0Cat$ is $Set_* \to Set$, the forgetful functor from [[pointed set]]s, which is the  2-[[subobject classifier]] in [[Cat]];. Pullback of this creates the [[category of elements]] of a [[presheaf]].
+* $\mathbf{E}_{pt} 0Cat \to 0Cat$ is $Set_* \to Set$, the forgetful functor from [[pointed set]]s, which is the  2-[[subobject classifier]] in [[Cat]]. Pullback of this creates the [[category of elements]] of a [[presheaf]].
 
 * $\mathbf{E}_{pt} Cat \to Cat$ is $Cat_* \to Cat$. Pullback of this is the [[Grothendieck construction]].
 
