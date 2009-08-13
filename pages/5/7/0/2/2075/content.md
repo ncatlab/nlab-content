@@ -18,7 +18,7 @@ An [[(∞,1)-functor]] $f : C \to D$ is an equivalence if  the following equival
 
 * For every [[simplicial set]] $K$ the induced morphism $f_* : SSet(K,C) \to SSet(K,D)$ is a [[model structure on simplicial sets|weak categorical equivalence]].
 
-* * For every [[simplicial set]] $K$ the induced morphism $f_* : Core(SSet(K,C)) \to Core(SSet(K,D))$ on the maximal [[Kan complex]]es is a [[model structure on simplicial sets|weak categorical equivalence]].
+* For every [[simplicial set]] $K$ the induced morphism $f_* : Core(SSet(K,C)) \to Core(SSet(K,D))$ on the maximal [[Kan complex]]es is a [[model structure on simplicial sets|weak categorical equivalence]].
 
 
 =--
