@@ -15,13 +15,17 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+
 ## 2009-08-13
+
+*  [[Rafael Borowiecki]] is back at [[category theory]].
 
 * [[Urs Schreiber]]
 
   * added an "Idea" section to [[cartesian morphism]]
 
   * started adding details on the relation between $(\infty,1)$[[Cartesian fibration]]s and [[(infinity,1)-presheaves]] to [[universal fibration of (infinity,1)-categories]] -- not sure yet where this material should ultimately go: this is really the $(\infty,1)$-Grothendieck construction. Maybe it should be at [[Cartesian fibration]].
+
 
 ## 2009-08-12
 
@@ -30,7 +34,6 @@ These comments should go in _reverse_ chronological order, so that the latest ar
   * created [[marked simplicial set]]
 
   * created [[(infinity,1)-category of cartesian sections]]
-
 
 *  [[Toby Bartels]]:  Went through Section 1.1 of [[Stone Spaces]]; see the links from there.
 
