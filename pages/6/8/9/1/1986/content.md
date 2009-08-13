@@ -20,6 +20,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]
 
+  * created [[equivalence of quasi-categories]] -- at the moment just to record a useful lemma
+
+  * added various new links to the list at [[Higher Topos Theory]] -- also edited the paragraphs at the beginning a little
+
+  * removed the old and meanwhile highly incomplete link list at [[sheaf and topos theory]] and instead included links to our main link list pages on these topics -- would be nice if eventually we'd find the time to write a nice overview and exposition here on par with that at [[category theory]]
+
   * created [[model structure on marked simplicial over-sets]] -- this is used to model the $(\infty,1)$-categorical [[Grothendieck construction]], so I edited the latter accordingly
 
   * renamed [[right proper model category]] to [[proper model category]] and added the missing cases.
