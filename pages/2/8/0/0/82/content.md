@@ -1,25 +1,11 @@
-...
 
-#entries related to topos theory#
-* [[classifying topos]]
-* [[cover]]
-* [[decidable object]]
-* [[foundations]]
-* [[Grothendieck topology]]
-* [[Grothendieck topos]]
-* [[Heyting algebra]]
-* [[infinity-stack]]
-* [[infinity-topos]]
-* [[Lawvere-Tierney topology]]
-* [[nonabelian sheaf cohomology]]
-* [[nonabelian cosheaf homotopy]]
-* [[sieve]]
-* [[Set]]
-* [[topos]]
-* [[sheaf]]
-* [[site]]
-* [[stack]]
+See the linked keyword lists at the entries on
 
+* [[Categories and Sheaves]] -- category and sheaf theory for geometrical applications (no logic, no topos)
+
+* [[Sheaves in Geometry and Logic]] -- category and sheaf theory with an emphasis on logical and topos-theoretical applications
+
+* [[Elephant]] -- topos theory
 
 [[!redirects Sheaf and Topos Theory]]
 [[!redirects sheaf theory]]
