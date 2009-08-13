@@ -125,6 +125,8 @@ Now i only wish i knew more about fundamental localizers to write more.
   If you have a specific reference, with page number, for your vision of a category as a space, I would like to see it.  I mean, I\'ve read Borceux, but I don\'t remember anything like this (I\'ll check again).  Is it just a matter of visualisation?, or something more rigorous?  If the former, then I think that I understand what you mean, but I\'m not getting the latter.
 
   _Rafael_: So you made a category into a space, now any topology on it will make it into a topological space. But the point was to still have a category and not a set with a topology. Anyway, i forgot two fundamental points. The points must all be of the same type! and the paths between two points must form a set (so there are not too many ways to move from one point to another) and nothing bigger. I did see it as a visualization but i am convinced it can, at least for smal categories, be made rigorous. And technically for smal categories it is nothing wrong to pass to their nerve. While others may prefer it as a characterization. I have a vague memory of one reference: The tale of n-categories, but quickly searching there for space gave nothing. It is there that i read that the Hom's must not be larger than sets.
+
+  _Toby_:  I still don\'t know what you\'re talking about, but the construction that I mentioned comes with a topology (just do it in $Top$, or better in $Comp Met$).
   =--
 * A theory of models for homotopy types. In [[Alexander Grothendieck|Grothendieck's]] approach to homotopy theory he called $Cat$ together with the class of functors that induced weak equivalences on nerves a [[fundamental localizer]]. See [[the homotopy theory of Grothendieck]].
 * A unifying tool and language in [[mathematics]].
@@ -196,21 +198,25 @@ These are often seen as a part of category theory even if they are only related 
 
 * [[allegory|Allegories]]
 
++-- {: .query}
+I don\'t know what you mean here, Rafael.  An allegory *is* a category with extra bells and whistles.  Why do you put this here but not [[monoidal categories]] or $\infty$-[[infinity-category|categories]]?  ---Toby
+=--
+
 #Applied category theory#
 
-Just to show that category theory has applications a subset of the set of applications is:
+Here are some fields to which category theory has been applied; ultimately we should have articles on all of them.
 
-* [[categorical physics|Categorical physics]] (ex: categorical spacetime in quantum gravity, the category of elementary particles and particle interactions)
-* Categories in [[computer science]] (ex: data types, artificial intelligence)
-* [[categorical dynamics|Categorical dynamics]]
-* Neural networks
-* Psychology (ex: perception, cognition, consciousness, teaching, knowledge)
-* Chemistry (the category of chemical elements and chemical reactions)
-* Nuclear physics (the category of atomic nuclei and nuclear reactions, graphical calculus for spin)
-* Biology (ex: detecting life)
-* Linguistics
-* Philosophy
-* Music
+* [[physics]] (ex: categorical spacetime in quantum gravity, the category of elementary particles and particle interactions)
+* [[computer science]] (ex: data types, artificial intelligence)
+* [[categorical dynamics]]
+* [[neural network]]s
+* [[psychology]] (ex: perception, cognition, consciousness, teaching, knowledge)
+* [[chemistry]] (the category of chemical elements and chemical reactions)
+* [[nuclear physics]] (the category of atomic nuclei and nuclear reactions, graphical calculus for spin)
+* [[biology]] (ex: detecting life)
+* [[linguistics]]
+* [[philosophy]]
+* [[music]]
 
 #References#
 
