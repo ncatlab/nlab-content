@@ -18,6 +18,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-13
 
+* [[Urs Schreiber]]
+
+  * created [[model structure on marked simplicial over-sets]] -- this is used to model the $(\infty,1)$-categorical [[Grothendieck construction]], so I edited the latter accordingly
+
+  * renamed [[right proper model category]] to [[proper model category]] and added the missing cases.
+
+
 *  [[Rafael Borowiecki]] is back at [[category theory]].
 
 * [[Urs Schreiber]]
