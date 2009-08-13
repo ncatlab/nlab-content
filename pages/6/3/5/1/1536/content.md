@@ -47,9 +47,14 @@ $$
 
 ## Generalizations ##
 
-The analog of the Grothendieck construction one categorical dimension down is the [[category of elements]] of a [[presheaf]].-
+### $n = 0$ ###
+The analog of the Grothendieck construction one categorical dimension down is the [[category of elements]] of a [[presheaf]].
 
-The analog of the Grothendieck construction for [[(infinity,1)-category|(∞,1)-categories]] is described at [[Cartesian fibration]] and at [[universal fibration of (∞,1)-categories]].
+### $n = (\infty,1)$  ###
+
+The analog of the Grothendieck construction for [[(infinity,1)-category|(∞,1)-categories]] is described at [[Cartesian fibration]] and at [[universal fibration of (∞,1)-categories]]. 
+
+The correspondence between $(\infty,1)$-categorical [[cartesian fibration]]s $E \to C$ and [[(infinity,1)-presheaf|(∞,1)-presheaves]] $C \to (\infty,1)Cat^{op}$ is [[model category|modeled]] by the [[Quillen equivalence]] between the [[model structure on marked simplicial over-sets]] and the projective [[global model structure on simplicial presheaves]].
 
 
 ## Warning on terminology ##
