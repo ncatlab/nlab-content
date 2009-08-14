@@ -15,9 +15,15 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+
 ## 2009-08-14
 
+*  [[Rafael Borowiecki]]:
+   *  wants more details for Zoran\'s entries at [[Timeline of category theory and related mathematics]].
+   *  added some definitions to [[A-infinity-category]].
+
 * [[David Roberts]] added to the discussion at [[category theory]]. 
+
 
 ## 2009-08-13
 
