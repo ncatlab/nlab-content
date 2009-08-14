@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-14
 
+* [[David Roberts]]: More comments at [[category theory]], this time to statements in the section about the contrast with set theory due to [[Rafael Borowiecki]].
+
 *  [[Toby Bartels]]:
    *  Added some stuff on morphisms to [[partial order]], [[semilattice]], and [[lattice]].
    *  Wrote [[monotone function]], with a question on terminology, the sort that could be answered through the literature for once!
