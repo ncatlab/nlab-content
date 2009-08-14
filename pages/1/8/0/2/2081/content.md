@@ -1,4 +1,4 @@
-A [[sheaf]] $F$ of sets on a topological space $X$ is __flabby__ if for any open subset $U\subset X$, the restriction morphism $F(X)\to F(U)$ is [[surjection|onto]]. 
+A [[sheaf]] $F$ of [[set]]s on (the [[category of open subsets]] of) a [[topological space]] $X$ is __flabby__ if for any open subset $U\subset X$, the restriction morphism $F(X)\to F(U)$ is [[surjection|onto]]. 
 
 An archetypal example is the sheaf of all set-theoretic (not necessarily continuous) [[sections]] of a [[bundle]] $E\to X$; regarding that every sheaf over a topological space is the sheaf of sections of an [[etale space]], every sheaf can be embedded into a flabby sheaf $C^0(X,F)$ defined by
 
