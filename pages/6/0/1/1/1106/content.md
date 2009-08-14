@@ -10,7 +10,9 @@ For more information on "sheaves in geometry and logic" see for instance
 
 * [[topos]]
 
-or see the list of links below.
+For a similar link list with considerable overlap see
+
+* [[Categories and Sheaves]]
 
 #Content#
 
