@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-14
 
+*  [[Toby Bartels]]:  Pretty stubby biographies for [[Peter Johnstone]] and [[Paul Taylor]].
+
 * [[David Roberts]]: More comments at [[category theory]], this time to statements in the section about the contrast with set theory due to [[Rafael Borowiecki]].
 
 *  [[Toby Bartels]]:
