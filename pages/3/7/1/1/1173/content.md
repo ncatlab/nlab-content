@@ -26,7 +26,7 @@ A semilattice homomorphism $f$ from a semilattice $A$ to a semilattice $B$ is a 
 $$ f(x \vee y) = f(x) \vee f(y),\; f(\bot) = \bot .$$
 Note that such a homomorphism is necessarily a [[monotone function]], but the converse fails.
 
-Thus technically, a semilattice is a poset with [[property-like structure]].
+Thus, a semilattice is a poset with [[property-like structure]].
 
 
 [[!redirects meet-semilattice]]
