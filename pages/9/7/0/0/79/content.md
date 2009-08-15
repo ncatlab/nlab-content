@@ -18,6 +18,8 @@
 
   * [[differential geometry|Differential Geometry]]
 
+  * [[differential topology]]
+
   * [[algebraic geometry]]
   
   * [[noncommutative algebraic geometry]]
@@ -33,6 +35,8 @@
   * [[representation theory|Representation Theory]]
 
   * [[algebraic approaches to differential calculus]]
+
+  * [[homological algebra]]
 
 * discrete mathematics: 
 
