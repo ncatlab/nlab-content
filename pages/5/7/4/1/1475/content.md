@@ -48,3 +48,6 @@ Zorn\'s lemma may be used to prove all of the following:
 * etc ...
 
 Some of these are equivalent to Zorn\'s lemma, while some are weaker; conversely, some additionally require excluded middle.
+
+
+[[!redirects Zorn's Lemma]]
