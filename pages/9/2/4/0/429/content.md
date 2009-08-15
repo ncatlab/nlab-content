@@ -1,5 +1,6 @@
 [[!include contents]]
 
+
 #some nlab entries related to universal algebra#
 
 * [[algebraic theory]]
@@ -9,7 +10,8 @@
 * [[operad]]
 * [[Eilenberg-Moore category]]
 * [[generalized ring]]
-* [[$\Omega$-group]]
+* [[Omega-group]]
+
 
 #Literature#
 
