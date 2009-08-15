@@ -63,6 +63,8 @@ An ideal $I$ is __prime__ if it is proper and it satsfies a binary condition cor
 
 An ideal is __maximal__ if it is maximal among *proper* ideals.  A maximal ideal in a rig (including in a distributive lattice, but not in every lattice) is necessarily prime; a prime ideal in a Boolean algebra is necessarily maximal.
 
+That every ideal is contained in a prime ideal is a [[prime ideal theorem]]; that every ideal is contained in a maximal ideal is a [[maximal ideal theorem]].
+
 An ideal $I$ is __principal__ if there exists an element $x \in I$ such that $y$ is a multiple of $x$ (in a rig) or $y \leq q$ (in an ordered set) whenever $y \in I$; we say that $I$ is __generated__ by $x$.  Every element $x$ generates a unique principal ideal, the set of all multiples of $x$ (in a rig) or the [[downset]] of $x$ (in an an order).  In the noncommutative case, 'multiple' should be interpreted in a left/right sense to match that of 'ideal'.
 
 More generally, the ideals form a [[Moore collection]] of subsets of $R$ or $L$, so we have an ideal __generated__ by any [[subset]].
