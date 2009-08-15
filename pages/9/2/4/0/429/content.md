@@ -1,12 +1,15 @@
 [[!include contents]]
 
-#entries related to universal algebra#
+#some nlab entries related to universal algebra#
 
 * [[algebraic theory]]
 * [[bar construction]]
 * [[Lawvere theory]]
 * [[monad]]
 * [[operad]]
+* [[Eilenberg-Moore category]]
+* [[generalized ring]]
+* [[$\Omega$-group]]
 
 #Literature#
 
