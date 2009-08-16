@@ -14,7 +14,9 @@ Here "non-trivial" means: anything that any other contributor might be intereste
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).  However, regardless of that, be sure to **add new comments to the top** of the list.
 
 ***
+## 2009-08-16
 
+* [[David Roberts]]: More discussion at [[category theory]]. There are some statements that need unraveling, and I don't quite feel up to it. In particular, [[Rafael Borowiecki]] pointed out the need for a philosophical page on foundations, as he referenced a paper on structuralism, sets and categories I didn't feel fitted on [[category theory]] (or at least in the section where it was referenced). So maybe this is a plea to David Corfield, who is more qualified to talk about such things than I.
 
 ## 2009-08-15
 
