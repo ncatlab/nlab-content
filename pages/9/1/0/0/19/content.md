@@ -198,6 +198,8 @@ _Toby_:  Actually, one does *not* need any sort of meta set theory to define cat
 _Rafael_: So if one do not need sets to define categories, how do one completely eliminate the dependence on Set in the definition of a category? This is the first time i hear of the impossibility of mixing enrichment with internalization. Feel free to correct it instead of writing more arguments.
 
 [[David Roberts]]: I think you credit me with more familiarity with (category theoretical) foundations than I have (but the undeserved compliment is nonetheless flattering) - it has always been something on my to-do list :S. If I remember correctly, my intention for including the naive set theory comment was for the purposes of enrichment and internalisation in what one might call \'the usual sense\', that is relative to some existing (set theory) foundation. If one is considering completely category theoretic foundations, then the idea of getting rid of sets by either internalising or enriching is, as you say, completely redundant. However, my point stands that the sentence is entirely confusing to the newcomer.
+
+_Toby_:  The main point to understand is that both [[ZFC]] (we haven\'t written that yet, but y\'all know what I mean) and [[ETCS]] are written in the same language: first-order classical logic.  Neither requires any prior set theory, which is a good thing since they are supposed to be foundational.  (It may be convenient to express ETCS in the language of dependent type theory, or at least in a two-sorted language, but this is not necessary, as objects can be identified with their identity morphisms.  In any case, the dependent type theory that might be used falls far short of set theory; in fact, it\'s conservative over predicate calculus with equality.)  Of course, ETCS (which is intended as a replacement for ZFC) is an elementary theory of a category *of sets*, but you get an elementary theory of a category (call it ETC) by removing some axioms.  We are now only talking about one category at a time, however; so another way to go is to modify ETCS to become the elementary theory of a ($2$)-category *of categories* (call it ETCC); see Lawvere\'s 1966 _The category of categories as a foundation for mathematics_.
 =--
 
 |Set theory| |Category theory|
@@ -213,7 +215,7 @@ _Rafael_: So if one do not need sets to define categories, how do one completely
 
 Lawvere pointed out that set theory is axiomatized by a binary membership relation while category theory is axiomatized by a ternary composition relation.
 
-The process of going from sets to categories is called categorification and is a functor $Set \rightarrow Cat$, and the reverse process is called decategorification.
+The process of going from sets to categories is called [[categorification]] and is a functor $Set \rightarrow Cat$, and the reverse process is called [[decategorification]].
 
 +--{: .query}
 [[David Roberts]]: Is this true??? I would have thought that categorification would be more like (and I'm not saying this is strictly true) a process $Cat \to 2Cat$, since what is does is take an ordinary category of things (like the category of groups) and replaces it with a 2-category of things (like the 2-category of (strict, say) 2-groups). What happens to the arrows is very important, as we could categorify group homomorphisms to strict morphisms of strict 2-groups or to weak morphisms of 2-groups.
@@ -223,6 +225,10 @@ _Toby_:  Categorification is nothing as precise as the inclusion functor $Set \t
 _Rafael_: Toby is pointing out my idea i was going to write. Categorification in its completeness is more like an ∞-functor or a sequence of functors $nCat \rightarrow (n+1)Cat$ with $0Cat=Set$ and $(-1)Cat=TV$. My functor above is only a part of this. Similarly it is possible to decategorify as $nCat \rightarrow (n-1)Cat$. The problem is, what is categorified? If i categorify sets i will get categories. This is all according to the categorical ladder of n-categories.
 
 [[David Roberts]]: I maintain that Baez-Dolan categorification (not that any other sort of categorification is really different, but that is conceptually the easiest) is more about passing from $Cat$ to $Bicat$. Simply replacing hom-sets by categories (i.e. $Cat$-enrichment) is not quite enough - one needs weak enrichment in general. But alas my memory fails to provide a legitimate example for this claim just when I need one. We as categorifiers are constructing the mapping (I don\'t say functor, because it is not so systematic)  $Cat \to Bicat$ one object at a time: $Grp$, $Vect$, $Hilb$, $LieAlg$, $Tang$ and so on. 
+
+_Toby_:  But from $Bicat$ you can categorify further to $Tricat$ etc, so why stop there?  (I guess that it depends on how strictly you interpret 'Baez--Dolan' categorification; I don\'t think that Baez and Dolan intended to limit the idea, but it\'s true that this is the sort of thing that they discussed in their paper _Categorification_.)  So in the limit, categorification is about going from $\infty Cat$ to $\infty Cat$, but in a nontrivial way.
+
+Note that we do have articles [[categorification]] and [[decategorification]]; perhaps we should move this discussion to the former?
 =--
 
 For a philosophical consideration of foundations covering and comparing sets, structuralism [a la Bourbaki?] and categories, see the article
