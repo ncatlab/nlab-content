@@ -102,13 +102,18 @@ In particular the Moore--Segal paper should be seen in the light of this develop
 
 #References#
 
-Two sets of developing notes sketching a "history" of $n$-categorical and homotopical physics exist:
+A historical introduction to some aspects of $n$-categorical can be found here:
 
-* [[John Baez]] and Aaron Lauda, _A prehistory of $n$-categorical physics_ ([pdf](http://math.ucr.edu/home/baez/history.pdf)) 
+* [[John Baez]] and Aaron Lauda, _A prehistory of $n$-categorical physics_ ([pdf](http://math.ucr.edu/home/baez/history.pdf)), to appear in _Deep Beauty: Mathematical Innovation and the Search for an Underlying Intelligibility of the Quantum World_, ed. Hans Halvorson.
+
+For blog discussion of this paper see:
+
+* _A prehistory of $n$-categorical physics_, ([n-Category Cafe](http://golem.ph.utexas.edu/category/2009/05/a_prehistory_of_ncategorical_p.html))
+
+* _A prehistory of $n$-categorical physics II_, ([n-Category Cafe](http://golem.ph.utexas.edu/category/2009/07/a_prehistory_of_ncategorical_p_1.html))
+
+Jim Stasheff is also writing a historical introduction to cohomological physics:
 
 * [[Jim Stasheff]], [[A Survey of Cohomological Physics]] 
 
 
-This comes with its blog discussion:
-
-* _A prehistory of $n$-categorical physics_ ([blog](http://golem.ph.utexas.edu/category/2009/05/a_prehistory_of_ncategorical_p.html))
