@@ -20,6 +20,8 @@ A morphism of such locally modeled monoids is a natural transformation.
 
 #References#
 
-definition 1.1.6 of
+This is definition 1.1.6 of
 
-* David Spivak, _Quasi-smooth derived manifolds_ ([pdf](http://math.berkeley.edu/~dspivak/thesis2.pdf))
+* David Spivak, _Quasi-smooth derived manifolds_, PhD thesis, Berkeley (2007) ([pdf](http://www.uoregon.edu/~dspivak/files/thesis1.pdf))
+
+where it appears as part of the discussion of [[derived smooth manifold]]s.
