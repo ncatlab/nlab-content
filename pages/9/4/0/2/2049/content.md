@@ -33,12 +33,12 @@ Besides the usual prefaces, bibliography, and indexes, there is a historical int
         5.  \* discrete Stone representation theorem
         6.  (none)
     3.  Some categorical concepts
-        1.  [[category]], [[object]], [[functor]], [[natural transformation]]
+        1.  [[category]], [[functor]], [[natural transformation]]
         2.  [[concrete category]], [[locally small category]]
-        3.  (none)
-        4.  [[adjoint functors]], [[reflective subcategory]], [[full functor]], [[faithful functor]]
-        5.  [[limit]] (of a diagram), [[small category]], [[colimit]], [[regular monomorphism]], [[complete category]], [[finitely complete category]], [[comparison functor]]
-        6.  [[monadic adjunction]]
+        3.  posets as categories
+        4.  [[adjoint functors]], [[free functor]], [[reflective subcategory]], [[equivalence of categories]], [[opposite category]]
+        5.  [[limit]], [[diagram]], [[small category]], [[colimit]], [[regular monomorphism]], [[complete category]], [[finitely complete category]]
+        6.  [[monad]], [[algebra for a monad]], [[monadic adjunction]], [[comparison functor]]
         7.  [[variety of algebras]]
         8.  [[algebraic category]], [[equationally presentable category]]
         9.  [[filtered category]], [[filtered colimit]], [[finitary functor]]
