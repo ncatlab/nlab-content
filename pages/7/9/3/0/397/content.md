@@ -7,6 +7,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[Ben Webster]]
 * [[Benjamin Antieau]]
 * [[Bruce Bartlett]]
+* [[Charles Wells]]
 * [[Chris Brav]]
 * [[Chris Schommer-Pries]]
 * [[Dan Lior]]
