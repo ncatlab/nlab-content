@@ -18,6 +18,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-17
 
+*  [[Toby Bartels]]:
+   *  Cleaned up [[twisted cohomology]]; there\'s still a link to Urs\'s web that\'s broken.
+   *  Noted the compact nature of the [[Gelfand spectrum]] (also at [[maximal spectrum]]).
+   *  Mentioned $B^*$-algebras at [[operator algebra]]; but I really need to write [[C-star-algebra]].
+
 * [[Urs Schreiber]]
 
   * filled [[T-duality]] with a bit of content (motivation being to link to the Cavalcanti-Gualtieri article now linked to there)
@@ -36,8 +41,6 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
     * and replaced the bulk of the entry with a newer version as it has evolved meanwhile in interaction between Urs and Jim at Urs' private web -- the new version has a longer motivational piece and includes details on the proof that and how the fibration-sequence definition of twisted cohomology that is used here reproduces the traditional one in terms of sections of bundles of spectra as a special case
 
-   
-
 * [[Urs Schreiber]]: 
 
   * created [[transversal maps]]
@@ -50,11 +53,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[David Corfield]]: Started [[ideal completion]] and [[foundations and philosophy]].
 
-## 2009-08-16
-
 * [[Charles Wells]] Lightly edited [[category theory]], notably introducing posets as another example of a category.
 
    * Hey!  We're honored to have you here, Prof. Wells! -- [[John Baez]]
+
+
+## 2009-08-16
 
 *  [[Toby Bartels]]:  More talk on [[category theory]].  Also note the existence of the article [[foundations]]; there\'s not a lot of philosophy there, but there could be and probably should be.
 
