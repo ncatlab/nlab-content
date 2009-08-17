@@ -28,6 +28,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[David Roberts]]: More discussion at [[category theory]]. There are some statements that need unraveling, and I don't quite feel up to it. In particular, [[Rafael Borowiecki]] pointed out the need for a philosophical page on foundations, as he referenced a paper on structuralism, sets and categories I didn't feel fitted on [[category theory]] (or at least in the section where it was referenced). So maybe this is a plea to David Corfield, who is more qualified to talk about such things than I.
 
+   * [[David Corfield]] I'd be happy to help how I can. I've started a page [[foundations and philosophy]], to be expanded.
+
 
 ## 2009-08-15
 
