@@ -64,7 +64,7 @@ $$G(c, f)\alpha_c F(f, c) = G(f, c')\alpha_{c'}F(c', f): F(c', c) \to G(c, c') \
 
 This "hexagon identity" gives the "domain" version of dinaturality when $G$ is constant, and the "codomain" version when $F$ is constant. The domain version involves a commutative square of the form 
 
-$$\alpha_c F(f, c) = alpha_{c'} F(c', f): F(c', c) \to G \qquad (4)$$
+$$\alpha_c F(f, c) = \alpha_{c'} F(c', f): F(c', c) \to G \qquad (4)$$
 
 where $G$ is constant with respect to the argument $c$, and the codomain version a commutative square of the form 
 
