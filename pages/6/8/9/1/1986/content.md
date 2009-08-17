@@ -20,6 +20,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]:
 
+  * found time to expand the discussion at [[examples for geometric function objects]] -- now this contains details on the simplest but somewhat archetypical example: that of over-categories. This is really the notion of geometric $\infty$-functions that is implicit in [[John Baez]]' notion of [[groupoidification]]. I am thinking that making its structure in the context of geometric $\infty$-function theory explicit is useful for putting this together with the discussion at [[geometric infinity-function theory]] into perspective. Will try to say more about the other examples indicated tomorrow.
+
   * slightly edited and updated links at [[geometric function theory]] -- one of them now points to the new [[examples for geometric function objects]], which however is still to be written, but I have to interrupt for a moment
 
   * created entry for [[Michael Batanin]]
