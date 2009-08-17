@@ -26,6 +26,8 @@ $$
 
 of [[groupoid|groupoids]] becomes a linear map acting on vector spaces after taking [[groupoid cardinality]] -- after "degroupoidification".
 
+From another perspective, these over-groupoids are an [[example for geometric function objects]] as considered in the context of [[geometric function theory]].
+
 #Remarks#
 
 * Groupoidification is closely related to -- or maybe even synonymous to -- [[geometric function theory]].
