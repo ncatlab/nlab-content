@@ -7,5 +7,4 @@
 
 * [[Batanin ∞-category]]
 
-category: people
-
+category: biography
