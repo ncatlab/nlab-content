@@ -15,6 +15,8 @@ _[[Toby Bartels|Toby]] answers_: That goes in the last, as yet unwritten, sectio
 
 =--
 
+For a philosophical treatment of category theoretic foundations see [[foundations and philosophy]]. 
+
 # Mathematical foundations of category theory
 
 The problem with mathematical foundations of category theory is that in category theory we frequently speak of [[large category|large categories]], which it is tricky to deal with rigorously in the usual sort of [[set theory|set theories]].
