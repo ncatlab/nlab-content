@@ -1,4 +1,4 @@
-Weak $\omega$-categories are examples of [[higher category theory|higher categories]], with essentially the same meaning as $\infty$-[[infinity-category|categories]].  The distinction between the terms "$\omega$-category" and "$\infty$-category" is mostly a matter of the preference of individual authors.  One slight difference is that $\infty$-category usually seems to imply a "weak" notion, while in addition to weak $\omega$-categories there are also [[strict omega-category|strict ones]].
+Weak $\omega$-categories are examples of [[higher category theory|higher categories]], with essentially the same meaning as [[infinity-category|∞-categories]].  The distinction between the terms "$\omega$-category" and "$\infty$-category" is mostly a matter of the preference of individual authors.  One slight difference is that $\infty$-category usually seems to imply a "weak" notion, while in addition to weak $\omega$-categories there are also [[strict omega-category|strict ones]].
 
 #Examples#
 
