@@ -24,9 +24,7 @@
 
       1. [the notion of action functional](#actionfunctional)
 
-      1. [the notion of section](#section)
-
-      1. [the notion of state](#state)
+      1. [the notion of section and state](#state)
 
    1. [the quantum propagation map](#propagation)
 
@@ -143,6 +141,9 @@ In rough outline the procedure is this:
 
 =--
 
+
+
+# terminology {#terminology}
 
 
 ## the notion of space {#space}
@@ -332,9 +333,9 @@ Let $\nabla : \Pi(X) \to Vect$ encode the parallel transport in a [[vector bundl
 For each cobordism $\Sigma$ the component $\exp(S_\nabla)|_\Sigma$ of the action functional will define a total space of an associated bundle $E_\Sigma$. These are discussed in the next section.
 
 
-## the notion of section and state {#section} {#state}
+## the notion of section and state {#state}
 
-A _state_ of the quantum theory over a cobordism $\Sigma$ is supposed to be a _section_ of the bundle $E_\Sigma \to [\Sigma,X]$ over the configuration space $[\Sigma,X]$ of fields on $\Sigma$, where we allow generalized sections that may be distributional. This we define now.
+A _state_ of the quantum theory over a cobordism $\Sigma$ is supposed to be a _[[section]]_ of the bundle $E_\Sigma \to [\Sigma,X]$ over the configuration space $[\Sigma,X]$ of fields on $\Sigma$, where we allow generalized sections that may be distributional. This we define now.
 
 In order to define sections and states,
 we need to fix a [[pointed object|point]] in the coefficient object $V$, i.e. a morphism
