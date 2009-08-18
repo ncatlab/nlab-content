@@ -16,6 +16,15 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 
+## 2009-08-18
+
+*  [[Jim Stasheff]] wrote [[Larmore]]; I\'m not sure if it\'s supposed to be about the person or about a cohomology theory.
+
+*  [[Toby Bartels]]:
+   *  Started [[monadic adjunction]], doing only the definition in $Cat$.
+   *  Since [[geometric function object]] didn\'t exist and at least one link to [[examples for geometric function objects]] was misdirected, I moved the latter to the former, at least for now, and put in redirects.
+
+
 ## 2009-08-17
 
 * [[Urs Schreiber]]:
