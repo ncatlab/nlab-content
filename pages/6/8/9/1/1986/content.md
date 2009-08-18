@@ -18,6 +18,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-18
 
+* [[Urs Schreiber]]
+
+  * added to [[groupoid cardinality]] the general definition for [[infinity-groupoid]]s as well as a handful of further examples
+
+  * started working on the entry [[exercise in groupoidification - the path integral]]
+
 *  [[Toby Bartels]]:  Wrote [[variety of algebras]].
 
 * [[Urs Schreiber]]
