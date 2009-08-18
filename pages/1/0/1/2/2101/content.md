@@ -23,7 +23,7 @@ __Beck's Monadicity Theorem__ gives a necessary and sufficient condition for an 
 
 This definition may be found in Section 3.6 of _[[Stone Spaces]]_, but probably there are some better references that one could cite here, such as:
 
-* Michael Barr and Charles Wells, _Toposes, Triples and Theories_ ([online](http://www.cwru.edu/artsci/math/wells/pub/ttt.html))
+* [[Michael Barr]] and [[Charles Wells]], _Toposes, Triples and Theories_ ([online](http://www.cwru.edu/artsci/math/wells/pub/ttt.html))
 
 ## Discussion
 
