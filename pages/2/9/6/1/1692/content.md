@@ -155,3 +155,6 @@ Now that I go to write [[Boolean rig]], I\'m not so sure.  I just know that $Chu
 
 Right, I agree. The Chu construction applied to a complete Heyting algebra is merely a $*$-autonomous quantale, not a $*$-autonomous frame (which would be a complete Boolean algebra), as you noted at [[measurable space]]. ---Todd
 =--
+
+
+[[!redirects Chu space]]
