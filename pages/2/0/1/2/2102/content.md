@@ -1,4 +1,4 @@
-What was first called cohomology with local coefficients (Steenrod) (compare Reidemeister earlier) and still is also came to be called _Twisted cohomology_
+What was first called [[cohomology]] with local coefficients (Steenrod) (compare Reidemeister earlier) and still is also came to be called _[[twisted cohomology]]_
 
 ## Larmore's work ##
 
@@ -7,7 +7,7 @@ The phrase _twisted cohomology_ was  used by Larmore in
 * Larmore, _Twisted cohomology theories and the single obstruction to lifting_,  Pac JM 41 (1972) 755-769
 
 to describe
-$H'(-; E)$ cohomology with coefficients in a special kind of spectrum $E$  related to a fibration $p:E\to B.$ 
+$H'(-; E)$ cohomology with coefficients in a special kind of [[spectrum]] $E$  related to a [[fibration]] $p:E\to B.$ 
 
 The result is what May and Sigurdsson call a parameterized spectrum, the "parameters" being the points of $B$, which might also be called, in the older topological terminology, an _ex-spectrum_.
 
