@@ -7,11 +7,36 @@ One can turn [[monads]] into [[adjunctions]] and adjunctions into monads, but on
 
 We give the definitions in [[Cat]] and leave it to future readers and writers to generalise.
 
-Let $(C,D,f,g,\iota,\epsilon)$ be an adjunction in $Cat$; that is, $f: C \to D$ and $g: D \to C$ are [[adjoint functors]] with $f \dashv g$, where $\iota$ and $\epsilon$ are the unit and counit.  Let $T$ be $g \circ f$; $T$ has the structure of a monad on $C$, so consider the [[Eilenberg–Moore category]] $C^T$ of [[module for a monad|modules (algebras)]] for $T$.  Then $G \circ \epsilon$ is a [[functor]] $K: D \to C^T$.
+Let $(C,D,\ell,r,\iota,\epsilon)$ be an adjunction in $Cat$; that is, $\ell: C \to D$ and $r: D \to C$ are [[adjoint functors]] with $\ell \dashv r$, where $\iota$ and $\epsilon$ are the unit and counit.  Let $T$ be $r \circ \ell$; $T$ has the structure of a monad on $C$, so consider the [[Eilenberg–Moore category]] $C^T$ of [[module for a monad|modules (algebras)]] for $T$.  Then $r \circ \epsilon$ is a [[functor]] $k: D \to C^T$.
 
-The adjunction $f \dashv g$ is __monadic__ if this functor $K$ is an [[equivalence of categories]].
+The adjunction $\ell \dashv r$ is __monadic__ if this functor $k$ is an [[equivalence of categories]].  
 
+##  Beck's monadicity theorem
+
+__Beck's Monadicity Theorem__ gives a necessary and sufficient condition for an adjunction to be monadic.  Namely, the adjunction $(C,D,\ell,r,\iota,\epsilon)$ is monadic iff:
+
+*  $r$ reflects isomorphisms; and
+   
+* $D$ has coequalizers of $r$-split coequalizer pairs, and $r$ preserves those coequalizers.
 
 ## References
 
-This definition may be found in Section 3.6 of _[[Stone Spaces]]_, but probably there are some better references that one could site here.
+This definition may be found in Section 3.6 of _[[Stone Spaces]]_, but probably there are some better references that one could cite here, such as:
+
+* Michael Barr and Charles Wells, _Toposes, Triples and Theories_ ([online](http://www.cwru.edu/artsci/math/wells/pub/ttt.html))
+
+## Discussion
+
+[[John Baez]]:  We read above: "One can turn [[monads]] into [[adjunctions]] and adjunctions into monads, but one doesn\'t always return where one started."  This suggests that there is something like an _adjunction_ between monads and adjunctions!  What's the precise story?  
+
+I imagine something like this: there's a functor (or 2-functor) 
+
+$$ [adjunctions] \to [monads] $$
+
+and this has left and right adjoints (or 2-adjoints)
+
+$$ Kleisli : [monads] \to [adjunctions] $$
+
+$$ Eilenberg-Moore: [monads] \to [adjunctions] $$
+
+As evidence, note that the [[Kleisli category]] gives the initial object among adjunctions that give rise to a specified monad, while the [[Eilenberg-Moore category]] gives the terminal one.  See the [Wikipedia article](http://en.wikipedia.org/wiki/Monad_(category_theory)#Monads_and_adjunctions).
