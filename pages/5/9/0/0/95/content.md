@@ -8,10 +8,54 @@ The **cardinality** of a [[groupoid]] $X$ is
 $$|X| = \sum_{[x]} \frac{1}{|Aut(x)|}$$
 where the sum is over isomorphism classes of objects of $X$ and $|Aut(x)|$ is the cardinality of the [[automorphism group]] of an object $x$ in $X$. If this sum diverges, we say $|X| = \infty$. If the sum converges, we say $X$ is **tame**.
 
+This is the special case of a more general definition:
+
+The groupoid cardinality of an [[∞-groupoid]] $X$ -- equivalently the **Euler characteristic** of a [[topological space]] $X$ (that's the same, due to the [[homotopy hypothesis]]) -- is, if it converges, the alternating product of cardinalities of the ([[simplicial homotopy group|simplicial]]) [[homotopy group]]s
+
+$$
+  |X| := \sum_{[x]}\prod_{k = 1}^\infty |\pi_k(X,x)|^{(-1)^k}
+  =
+  \sum_{[x]}
+  \frac{1}{\pi_1(X,x)}
+  \pi_2(X,x)
+  \frac{1}{\pi_3(X,x)}
+  \pi_4(X,x)
+  \cdots
+  \,.
+$$
+
 #Examples#
 
-* Let $E$ be the groupoid of finite sets and bijections.
-  $$|E| = \sum_{n\in \mathbb{N}} \frac{1}{|S_n|} = \sum_{n\in \mathbb{N}} \frac{1}{n!} = e.$$
+* Let $X$ be a [[discrete category|discrete groupoid]] on a finite [[set]] $S$ with $n$ elements. Then the groupoid cardinality of $X$ is just the ordinary cardinality of the set  $S$
+
+  $$
+    |X| = n
+    \,. 
+  $$
+
+* Let $\mathbf{B}G$ be the [[delooping]] of a finite [[group]] $G$ with $k$ elements. Then
+
+  $$
+    |\mathbf{B}G| = \frac{1}{k}
+  $$
+
+* Let $A$ be an abelian group with $k$ elements. Then we can [[delooping|deloop]] arbitrarily often and obtain the [[Eilenberg-MacLane object]]s $\mathbf{B}^n A$ for all $n \in \mathbb{N}$. (Under the [[Dold-Kan correspondence]] $\mathbf{B}^n A$ is the [[chain complex]] $A[n]$ (or $A[-n]$ depending on notational convention) that is concentrated in degree $n$, where it is the group $A$). Then
+
+  $$
+    |\mathbf{B}^n A| = 
+    \left\{
+     \array{ k & if n is \; even
+          \\ \frac{1}{k} & if n is \; odd
+       }
+    \right.
+  $$
+
+* Let $E$ be the groupoid of finite sets and bijections. Its groupoid cardinality is the Euler number
+
+  $$
+    |E| = \sum_{n\in \mathbb{N}} \frac{1}{|S_n|} = \sum_{n\in \mathbb{N}} \frac{1}{n!} = e
+   \,.
+  $$
 
 #References#
 
