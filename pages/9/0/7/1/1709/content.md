@@ -565,11 +565,11 @@ tc ops should be treated as a single phrase &#8211; it may be that the ops are t
 
 * 1967  Emery Thomas  tc ops
 
-* 1967 Larmore tc ops
+* 1967 Larmore tc ops 
 
 * 1969 McClendon tc ops
 
-* 1969 Larmore tc
+* 1969 Larmore tc [[Larmore]]
 
 * 1970 Peterson tc ops
 
