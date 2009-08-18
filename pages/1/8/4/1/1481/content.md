@@ -57,9 +57,11 @@ $$
 
 from disk-shaped to all [[cobordism]]s in $X$ (possibly and usually after an extension of the codomain to some new codomain $F$). This extension $\exp(i S_\nabla)$ knows not just the parallel transport, but also the **holonomy** of the classical background field.
 
-The question to be analyzed here is how this classical action $\exp(i S_\nabla) : Bord_n(X) \to F$ transmutes systematically to an [[FQFT]] $Z_\nabla : Bord_n \to C$ on abstract bordisms (possibly with extra structure, if we pass from [[TQFT]] to richer theories like [[CFT]]).
+The question to be analyzed here is how this classical action $\exp(i S_\nabla) : Bord_n(X) \to F$ transmutes systematically to an [[FQFT]] $Z_\nabla : Bord_n \to C$ on abstract bordisms (possibly with extra structure, if we pass from [[TQFT]] to richer theories like [[CFT]]). This step should be the **[[path integral]]**: 
 
-The basic idea that we shall follow is the one that is sketched in the notes
+in some way the assignment of $Z_\nabla$ to a [[cobordism]] $\Sigma$ is expected to be obtained by "summing" in some way the value of $\exp(i S_\nabla)$ on elements in the fiber of the [[forgetful functor]] $Bord_n(X) \to Bord_n$ over $\Sigma$, i.e. over all possible ways to map $\Sigma$ into $X$ -- the sum of $\exp(S_\nabla(\phi))$ over all _paths_ or _field configurations_  $\phi : \Sigma \to X$.
+
+The basic idea that we shall follow has been sketched to some extent in the notes
 
 * [[schreiber:Nonabelian cocycles and their sigma model QFTs]]. 
 
@@ -68,7 +70,110 @@ These notes in turn have grown out of the blog entry [An Exercise in Groupoidifi
 
 # General procedure #
 
-...
+
+## the notion of space ##
+
+We need to talk about _spaces_ of sorts: 
+
+* a space $X$ that is the **target space** -- often, but not always, to be interpreted as physical spacetime -- in which the $d$-dimensional object -- for $d=0$ for instance a point particle such as an [[electron]] -- whose dynamics we want to encode propagates.
+
+  This space may be just a [[manifold]] but we want to allow it to be a kind of space a bit more general than that, for instance an [[orbifold]].
+
+  When we are describing [[gauge theory]] the target space is smooth refinement of a [[classifying space]] $\mathbf{B}G$.
+
+  When we are describing finite gauge theory such as [[Dijkgraaf-Witten theory]], the target space is just the one-object [[groupoid]] $\mathbf{B}G$ that is the [[delooping]] of the gauge group $G$. 
+
+* for each $(d+1)$-dimensional [[manifold]] $\Sigma$ a **path space** or **configuration space** $[\Sigma,X]$ of maps from $\Sigma$ into $X$.
+
+The [[category theory|general abstract nonsence]] for dealing with general spaces of this sort is that of [[space and quantity]]. As described at [[motivation for sheabes, cohomology and higher stacks]], this leads one to describe a space as an [[infinity-stack]] on some [[site]] $S$.
+
+In the simplest case, which the reader should keep in mind, the [[site]] in question is the [[point]] and an [[infinity-stack]] on it is just an [[infinity-groupoid]]. In turn in simple cases of this, which the reader should still keep in mind, this [[infinity-groupoid]] will be just a [[groupoid]] or at most a [[2-groupoid]].
+
+Whichever choice one makes, the collection of all such generalized spaces modeled on a certain [[site]] $S$ forms an [[(infinity,1)-topos]] $\mathbf{H}$. 
+
+Despite possibly its appearance, the reader should take this statement as suggesting an immense simplification instead of a huge complification: the language of [[(infinity,1)-topos]] is a user interface that makes pretty sophisticated and rich notions of generalized spaces have the same look-and-feel as just plain [[topological space]]s. It's the inner workings of the formalism that will take of things coming out right even when we talk about richer objects.
+
+In particular, it is the machinery of [[models for infinity-stack (infinity,1)-toposes]] that provides all the tools for actually performing the operations that we shall consider. The reader unfamiliar with that will suffer little loss from concentrating his or attention on the toy examples where all "spaces" involved are finite [[groupoid]]s and trust that everything goes through analogously also in the other examples.
+
+## the notion of path ##
+
+
+With an [[(infinity,1)-topos]] context $\mathbf{H}$-fixed we are in a context that allows us to study [[cohomology]]. A classical background field on a target space $X$ is in parts a cocycle on $X$ with values in some coefficient object $A \in \mathbf{H}$.
+
+But, as indicated above, it is actually, more: it is a _differential cocycle_ on $X$: something that depends not just on $X$ itself, but also on a notion of paths in $X$.
+
+To encode this we may pick a [[simplicial object|cosimplicial object]]
+
+$$
+  \Delta_H : \Delta \to \mathbf{H}
+$$
+
+in our $(\infty,1)$-category of spaces, that encodes which object in $\mathbf{H}$ models the standard $k$-[[simplex]] regarded as a space. For instance if $\mathbf{H}$ is the [[(infinity,1)-topos]] of [[Lie infinity-gropupoid]]s modeled by [[infinity-stack]]s on [[Diff]], we would take $\Delta_H^n$ to be the standard $n$-simplex $\Delta^n_H \subset \mathbb{R}^n$ regarded as a smooth [[manifold]] in the standard way.
+
+Then the space of disk-shaped $k$-dimensional paths in $X$ is $[\Delta_H^n,X]$.
+
+These spaces glue together to the [[path infinity-groupoid]]
+
+$$
+  \Pi(X) := \lim_\to [\Delta_H^\bullet, X]
+  \,.
+$$
+
+This is an [[infinity-groupoid]] whose [[k-morphism]] are generated from the original $k$-morphisms of $X$ and the $k$-dimensional path $\phi : \Delta^k_H \to X$.
+
+For instance if $X = Y//G$ is a global [[orbifold]], the 1-morphisms in $\Pi(X)$ will be generated from smooth paths $\gamma: y_1 \to y_2$ in $Y$ as well as orbifold jumps $g : y_1 \to g(y_1)$ subject to the relation
+
+$$
+  \array{
+    y_1 &\stackrel{g}{\to}& g(y_1)
+    \\
+    \downarrow^{\gamma} && \downarrow^{g(\gamma)}
+    \\
+    y_2 &\stackrel{g}{\to}& g(y_2)
+  }
+  \,.
+$$
+
+Or if $X = C(Y)$ is realized as the [[Cech nerve]] of some [[Cech cover]] $(U = \coprod_i U_i) \to Y$ then $\Pi(X)$ will be generated from paths $(\gamma,i) : (y_1,i) \to (y_2,i)$ in $U_i$ for all $i$ and transitions $(y,i) \to (y,j)$ for all $y \in U_i \cap U_j$ subject to the condition
+
+$$
+  \array{
+    (y_1,i) &\stackrel{}{\to}& (y_1,j)
+    \\
+    \downarrow^{(\gamma,i)} && \downarrow^{(\gamma,j)}
+    \\
+    (y_2,i) &\stackrel{}{\to}& (y_2,j)
+  }
+  \,.
+$$
+
+
+
+More generally, let $D$ be some [[poset]] and specify a functor
+
+$$
+  \Sigma_H : D \to \mathbf{H}
+  \,.
+$$
+
+We think of as the image of some $k \in D$ under $\Sigma_H$  as the realization in $\mathbf{H}$ of some abstract [[cobordism]] whose boundary component inclusions are the images $\Sigma^j_H \to \Sigma_H^k$ of all morphisms $j \to k$ in $D$.
+
+So $\Sigma_H$ encodes a [[multispan|multi-cospan]] of cobordisms in $H$. In principle $\Sigma_H$ will in general be supposed to range over _all_ cobordisms in some sense, but for our discussion it will be complete sufficient to concentrate on much less. Most of our discussion concerns a handful of cobordisms, usually just two of them and their composites.
+
+In any case, by slight abuse of notation, we shall write
+
+$$
+  Bord(X) := \lim_\to [\Sigma_H^\bullet, X]
+$$
+
+and speak of the $\infty$-groupoid of **bordisms in $X$**. If we assume that $\Sigma_H$ ranges at least over the disk-shaped cobordisms $\Delta^k_H$ we have a canonical inclusion
+
+$$
+  \Pi(X) \hookrightarrow Bord(X)
+  \,.
+$$
+
+
 
 # More concrete examples #
 
