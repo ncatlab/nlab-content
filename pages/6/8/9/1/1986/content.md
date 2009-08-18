@@ -18,6 +18,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-18
 
+* [[Mike Shulman]]
+
+  * commented on one discussion at [[category theory]]
+
+  * finally created [[equipment]]
+
+  * replied at [[monadic adjunction]]
+
 * [[Urs Schreiber]]
 
   * added "Idea" section to [[generalized complex geometry]]
