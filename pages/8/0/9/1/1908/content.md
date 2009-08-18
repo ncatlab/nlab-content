@@ -5,7 +5,7 @@ Decategorification is the reverse of [[vertical categorification]] and turns an 
 
 ## Definitions
 
-Given a ([[small category|small]] or [[essentially small category|essentially small]]) [[category]] $C$, the [[set]] of [[isomorphism]] classes $K(C)$ of objects of $C$ is called the **decategorification** of $C$.
+Given a ([[small category|small]] or [[essentially small category|essentially small]]) [[category]] $C$, the [[set]] of __[[isomorphism]] classes__ $K(C)$ of objects of $C$ is called the **decategorification** of $C$.
 
 This is a [[functor]]
 
