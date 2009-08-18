@@ -13,8 +13,11 @@ _[[Urs Schreiber|Urs]] says_: There is comparatively nice abstract nonsense to b
 
 For some reason this is different when rings are refined to _fields_ and modules to vector spaces. The very concept of a _field_ is somehow not as natural from a category theoretic perspective, or at least I don't see how it is. This problem becomes very manifest when one tries to categorify fields and vector spaces: it is very straightforward to categorify rings and their modules, but their refinement to categorified fields  and vector spaces is harder.
 
-    The remainder of this discussion has been moved to [[field]].
+>The remainder of this discussion has been moved to [[field]].
 
 ***
 
 _[[Eric Forgy|Eric]] says_: Could you somehow define a vector space as a "degroupoidified" groupoid? That would be pretty.
+
+
+[[!redirects vector spaces]]
