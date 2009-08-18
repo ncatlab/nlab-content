@@ -573,7 +573,7 @@ tc ops should be treated as a single phrase &#8211; it may be that the ops are t
 
 * 1969 McClendon tc ops
 
-* 1969 Larmore tc [[Larmore]]
+* 1969 Larmore tc
 
 * 1970 Peterson tc ops
 
