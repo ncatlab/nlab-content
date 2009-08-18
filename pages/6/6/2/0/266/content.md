@@ -1,3 +1,5 @@
+[[!redirects Kan extensions]]
+
 ##Idea#
 
 The _Kan extension_ of a [[functor]]
