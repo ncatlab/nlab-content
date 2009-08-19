@@ -438,7 +438,7 @@ Now we check that this definition has all the right properties.
         +
         (-1)^p 
         \sum_{i=0}^{q}
-       \sum_{(\mu_0,\cdots,\mu_{p},\nu_0,\cdots,\hat \mu_i, \cdots,\nu_{q+1})}
+       \sum_{(\mu_0,\cdots,\mu_{p},\nu_0,\cdots,\hat \nu_i, \cdots,\nu_{q+1})}
         (-1)^i
         (d_\mu^* a)_{p+q+1} \cdot (d_\nu^* b)_{p+q+1}
   $$
@@ -455,7 +455,13 @@ Now we check that this definition has all the right properties.
        (d_\mu^* a)_{p+q+1} \cdot (d_\nu^* b)_{p+q+1}
   $$
 
-...
+  One sees that the right terms appear in both expressions. So if the signs come out right...
+
+=--
+
++-- {: .standout}
+
+...Not done yet...
 
 =--
 
