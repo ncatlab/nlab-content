@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-19
 
+*  [[Toby Bartels]]:  I\'m going to mess with [[category theory]] again, if somebody doesn\'t stop me.
+
 * [[Mike Shulman]]:
 
   * Definitional question at [[monotone function]].
