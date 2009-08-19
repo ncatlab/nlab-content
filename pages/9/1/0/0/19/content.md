@@ -214,6 +214,8 @@ Don't ask me for more details about it. Unfortunately this don't define a primit
 
   [[Urs Schreiber]]: okay, I moved my first suggested paragraph and your refined suggestion for the second paragraph out of the query box and into the main text above now.
 
+  _Toby_:  I like what is written above (with one exception), but I think that it\'s too much for this list.  We should have a brief sentence and then link to other articles that explain more.  To some extent, this sort of thing is at [[internalization]] and [[internal language]], but I propose to use these paragraphs as the start of a new entry [[universe]] (which currently redirects, somewhat parochially, to [[Grothendieck universe]]).  I\'ll probably do that myself in about an hour.  (The exception is this:  The wording implies that nothing can be formulated in the trivial category, but in fact *everything* can be formulated there ---up to and including a proof of $\bot$--- and *that* is what makes it useless: it is too strong, not too weak.)
+
   =--
 
 * A theory of models for [[homotopy type]]s. In [[Alexander Grothendieck|Grothendieck's]] approach to homotopy theory he called $Cat$ together with the class of functors that induced weak equivalences on nerves a [[fundamental localizer]]. See [[the homotopy theory of Grothendieck]].
