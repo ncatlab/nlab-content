@@ -1,6 +1,6 @@
 [[!include mathematicscontents]]
 
-* [[foundations|Structural Foundations]]
+* [[foundations|Structural Foundations]] with annotated toc of 3 great books with numerous links to related nlab content:
 
   * [[Categories and Sheaves]]
 
@@ -10,13 +10,15 @@
 
 * [[topology and geometry|Topology and Geometry]]
 
+  * [[geometry]] (general list)
+
   * [[general topology]]
   
-  * [[homotopy theory|Homotopy Theory]]
+  * [[homotopy theory]]
 
-  * [[rational homotopy theory|Rational Homotopy Theory]]
+  * [[rational homotopy theory]]
 
-  * [[differential geometry|Differential Geometry]]
+  * [[differential geometry]]
 
   * [[differential topology]]
 
@@ -26,13 +28,15 @@
 
   * [[noncommutative geometry]] (general flavour)
 
-* [[algebra|Algebra]]
+* Algebra:
 
-  * [[universal algebra|Universal Algebra]]
+  * [[algebra]] (general entry on algebra and algebras)
 
-  * [[group theory|Group Theory]]
+  * [[universal algebra]]
 
-  * [[representation theory|Representation Theory]]
+  * [[group theory]]
+
+  * [[representation theory]]
 
   * [[algebraic approaches to differential calculus]]
 
