@@ -304,22 +304,49 @@ $$
 +-- {: .un_prop }
 ###### Proposition
 
-There is a [[natural transformation|natural transformation]]
+For $K \in CoSCoSh$ a cosimplicial algebra, there is a [[natural transformation|natural transformation]]
 
 $$
-  \mu_K : C^\infty(K) \otimes C^\infty(K) \to C^\infty(K \otimes K)
+  \mu_K : C^\bullet(K) \otimes C^\bullet(K) \to C^\bullet(K \otimes K)
 $$
 
-natural in $K \in CoSCoSh$ with the tensor products as above
-and with $C^\bullet : CoSCoSh \to Ch^\bullet_+$ the Moore complex
-functor which satisfies uniticity and associativity in the obvious way
-that makes it the component of a lax monoidal functor (or something close).
+natural in $K \in CoSCoSh$ -- with the tensor products as above and with $C^\bullet : CoSCoSh \to Ch^\bullet_+$ the dual [[Moore complex]] functor -- that satisfies uniticity and associativity in the obvious way that makes it the component of a lax monoidal functor (or something close).
 
 =--
 
 
 +-- {: .proof}
 ###### Proof
+
+We define the map $\mu_K$ and check that it has all the right properties.
+
+First introduce some notation to handle this combinatorial problem.
+
+When the codomain is understood, we denote an order-preserving map $\delta_\mu : [p] \to [p+q]$ by the string $\mu = (\mu_0, \mu_1, \cdots, \mu_p)$ of its values, so that $\delta_\mu : i \mapsto \mu_i$.
+
+We write $(\mu_0, \cdots,\hat \mu_i, \cdots, \mu_p)$ for the string obtained from $(\mu_0, \mu_1, \cdots, \mu_p)$ by _omitting_ the $i$th entry.
+
+At the same time, with domain and codomain understood, we still write $\delta_i : [p] \to [p+1]$ for the standard (dual) face map that leaves out the $i$th value. 
+
+Then we have, 
+
+$$
+  \delta_{\mu} \circ \delta_i
+  =
+  \delta_{(\mu_0, \cdots, \hat \mu_i, \cdots, \mu_p)}
+$$
+
+and
+
+$$
+  \delta_i \circ \delta_\mu
+  =
+  \delta_{\mu_0, \cdots, \mu_k+1, \cdots \mu_p + 1}
+$$
+
+where $\mu_k$ is the lowest of the $\mu_\cdot$ greater or equal to $i$.
+
+Now make the following definition.
 
 On homogeneous elements $a \otimes b \in C^p(K) \otimes C^q(K)
  \subset 
@@ -329,7 +356,7 @@ $b \in C^q(K) = K^q$ define the cochain map $\mu_K$ by
 
 $$
   \mu_K(a \otimes b) :=
-  \sum_{(\mu,\nu)} sign(\mu,\nu) (d_\mu^* a) \otimes (d_\nu^* b) \in
+  \sum_{(\mu,\nu)} sign(\mu,\nu) (d_\mu^* a) \cdot (d_\nu^* b) \in
   C^{p+q}(K \otimes K) = K^{p+q} \otimes K^{p+q}
 $$ 
 
@@ -344,7 +371,91 @@ similarly for $d_\nu^*$;
 
 * the expression $sign(\mu,\nu)$ is the signature of the obvious permutation.
 
-Then check... (haven't yet in full detail, maybe this needs a bit of tweaking, but should be right essentially).
+* the product operation in the summand is the one in $K$.
+
+Now we check that this definition has all the right properties.
+
+* **it is indeed a cochain map**
+
+  for that the two maps
+
+  $$
+    \array{
+      d(a \otimes b)
+      =
+      (d a)_{p+1}\otimes b_q +(-1)^p a_{p} \otimes (d b)_{q+1}
+      &\stackrel{\mu_K}{\mapsto}&
+      \sum_{(\mu_0,\cdots,\mu_{p+1},\nu_0,\cdots,\nu_{q})}
+        \pm 
+        \sum_{i=0}^{p}
+        (-1)^i
+        (d_\mu^* d_i^* a)_{p+q+1} \cdot (d_\nu^* b)_{p+q+1}
+        +
+        (-1)^p 
+      \sum_{(\mu_0,\cdots,\mu_{p},\nu_0,\cdots,\nu_{q+1})}
+        \sum_{i=0}^{q}
+        (-1)^i
+        (d_\mu^* a)_{p+q+1} \cdot (d_\nu^* d_i^* b)_{p+q+1}
+      \\
+      \uparrow^{d}
+      \\
+      a_p \otimes b_q
+    }
+  $$
+
+  and
+  
+  $$
+    \array{
+      &&
+      \sum_{i=0}^{p+q}
+      (-1)^i
+      \sum_{(\mu_0,\cdots,\mu_p,\nu_0,\cdots,\nu_q)} 
+      \pm
+       (d_i^* d_\mu^* a)_{p+q+1} \cdot (d_i^* d_\nu^* b)_{p+q+1}
+      \\
+      && \uparrow^{d}
+      \\
+      a_p \otimes b_q
+      &\stackrel{\mu_K}{\mapsto}&
+      \sum_{(\mu_0,\cdots,\mu_p,\nu_0,\cdots,\nu_q)} 
+      \pm
+       (d_\mu^* a)_{p+q} \cdot (d_\nu^* b)_{p+q}
+    }
+  $$
+
+  have to coincide. 
+
+  By the above observation on face map yoga the first result equals
+
+  $$
+    \cdots =
+        \sum_{i=0}^{p}      
+       \sum_{(\mu_0,\cdots,\hat\mu_i, \cdots,\mu_{p+1},\nu_0,\cdots,\nu_{q})}
+        \pm 
+        (-1)^i
+        (d_\mu^* a)_{p+q+1} \cdot (d_\nu^* b)_{p+q+1}
+        +
+        (-1)^p 
+        \sum_{i=0}^{q}
+       \sum_{(\mu_0,\cdots,\mu_{p},\nu_0,\cdots,\hat \mu_i, \cdots,\nu_{q+1})}
+        (-1)^i
+        (d_\mu^* a)_{p+q+1} \cdot (d_\nu^* b)_{p+q+1}
+  $$
+
+  whereas the second is
+
+  $$
+    \cdots =
+      \sum_{i=0}^{p+q}
+      \sum_{(\mu_0,\cdots,\mu_k+1,\cdots,\mu_p+1,
+        \nu_0,\cdots,\nu_l+1,\cdots, \nu_q+1)} 
+      (-1)^i
+      \pm
+       (d_\mu^* a)_{p+q+1} \cdot (d_\nu^* b)_{p+q+1}
+  $$
+
+...
 
 =--
 
