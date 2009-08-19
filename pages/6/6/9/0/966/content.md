@@ -16,6 +16,6 @@ In the first two cases, which work by replacing large limits by small ones, it s
 
 ## Version for (∞,1)-categories
 
-Jacob Lurie proved an adjoint functor theorem for (∞,1)-categories (see section 5.5 of [[Higher Topos Theory]]:
+[[Jacob Lurie]] proved an adjoint functor theorem for (∞,1)-categories (see section 5.5 of [[Higher Topos Theory]]:
 
-A functor between [[presentable (infinity,1)-category|presentable (∞,1)-categories]] has a right adjoint if and only if it preserves small colimits, and has a left adjoint if and only if it is [[accessible (infinity,1)-category|accessible]] and preserves small limits.
+A functor between [[presentable (infinity,1)-category|presentable (∞,1)-categories]] has a [[right adjoint]] if and only if it preserves small [[colimit]]s, and has a [[left adjoint]] if and only if it is [[accessible (infinity,1)-category|accessible]] and preserves small [[limit]]s.
