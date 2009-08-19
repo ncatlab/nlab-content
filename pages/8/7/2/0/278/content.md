@@ -13,7 +13,15 @@
     *  [[diffeological space]]
     *  [[smooth space]]
 
-* [[Lie theory]]
+  * [[synthetic differential geometry]]
+
+* [[Lie theory]], [[Lie group]], [[Lie groupoid]], [[Lie's third theorem]]
+
+* [[differential form]], [[tangent space]]
+
+* [[symplectic geometry]], [[geometric quantization]], [[coherent state]]
+
+* [[differentiable stack]], [[orbifold]]
 
 * [[supermanifold]]
 
