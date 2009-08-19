@@ -55,6 +55,7 @@ In [[noncommutative geometry]] both principal and associated bundles have analog
 [[!redirects transition function]]
 [[!redirects G-bundle]]
 [[!redirects bundle with structure group]]
+[[!redirects associated bundle]]
 [[!redirects fiber bundles]]
 [[!redirects fibre bundles]]
 [[!redirects standard fibers]]
@@ -70,3 +71,4 @@ In [[noncommutative geometry]] both principal and associated bundles have analog
 [[!redirects G-bundles]]
 [[!redirects bundles with structure group]]
 [[!redirects bundles with structure groups]]
+[[!redirects associated bundles]]
