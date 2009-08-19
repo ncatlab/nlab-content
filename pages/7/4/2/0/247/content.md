@@ -17,4 +17,6 @@ I often seem to have strong feelings about terminology.  But I have been known t
 
 category: people
 
+
 [[!redirects MikeShulman]]
+[[!redirects Michael Shulman]]
