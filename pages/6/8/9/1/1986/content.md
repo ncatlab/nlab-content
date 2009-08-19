@@ -15,6 +15,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+## 2009-08-19
+
+*  Omar Antol&#237;n-Camarena: added a section to [[adjoint functor theorem]] about the version for presentable (∞,1)-categories.
+
+*  Omar Antol&#237;n-Camarena: created [[solution set condition]] (has link from [[adjoint functor theorem]]).
 
 ## 2009-08-18
 
