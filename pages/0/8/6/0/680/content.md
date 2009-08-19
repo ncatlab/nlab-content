@@ -322,15 +322,45 @@ full analysis as yet of the actual form of this monad.
 
 ## Versions for monoids in abelian categories ##
 
+Both the category of simplicial abelian groups as well as the [[category of chain complexes]] carry a standard structure of a [[monoidal category]].
+
+This means that one may consider [[monoid]]s in each of these categories and study what there image is under the Dold-Kan correspondence in the other category.
+
+Notice that 
+
+* monoids in the [[category of chain complexes]] are [[differential graded ring]]s
+
+* monoids in the category of simplicial abelian groups are [[simplicial object|simplicial]] [[ring]]s.
+
+If instead we look at chain complexes and [[simplicial object]]s not in [[Ab]] but in [[Vect]] then
+
+* monoids in the [[category of chain complexes]] of vector spaces are [[differential graded algebra]]s
+
+* monoids in the category of simplicial vector spaces are simplicial algebras.
+
+Analogous statements apply to the dual Dod-Kan correspondence, where the monoids in question are accordingly cosimplicial rings and [[differential graded algebras]] with differential of positiuve degree.
+
+A crucial fact about the Dold-Kan correspondence is that
+
+* The Dold-Kan correspondence respects these monoidal structures.
+
+But it doesn't in general do so _strictly_, except in one direction.
+
 The Dold-Kan correspondence (using the normalized chain complex functor) is in one direction [[monoidal category|monoidal]] in the naive (strict, 1-categorical) way, whereas in the other direction it is monoidal only in the expect homotopical sense.
 
 +-- {: .un_lemma }
 ###### Lemma
 
-The normalized chain complex functor
+The [[Moore complex]] functor
 
 $$
-  N : sAb \to Ch_+
+  C_\bullet : sAb \to Ch_+
+$$
+
+as well as the normalized [[Moore complex]] functor
+
+$$
+  N_\bullet : sAb \to Ch_+
 $$
 
 is a [[monoidal category|symmetric lax monoidal functor]].
@@ -340,7 +370,40 @@ is a [[monoidal category|symmetric lax monoidal functor]].
 +-- {: .proof}
 ###### Proof
 
-Weibel, _An introduction to homological algebra_, 8.5.4
+The proof can be found in 
+
+* Weibel, _An introduction to homological algebra_, section 8.5.4
+
+The _[[lax monoidal transformation]]_ that exhibits the lax-monoidalness of the Moore chain complex functor is the [[shuffle map]]. Its component 
+
+$$
+  \nabla_{A,B} : (N_\bullet A) \otimes (N_\bullet B))
+$$
+
+on a pair $A,B$ of simplicial abelian groups is the morphism of [[chain complex]]es that sends homogeneous elements $a_p\otimes b_q \in A_p \otimes B_q =: C_p(A) \otimes C_q(B)$ to
+
+$$
+  \nabla_{A,B}(a \otimes B)
+  =
+  \sum_{(\mu,\nu)}  sign(\mu,\nu) (s_\nu a) \otimes s_\mu(b) 
+  \in
+  C_{p+q}(A \otimes B) = A_{p+q}\otimes B_{p+q}  
+  \,.
+$$
+
+Here the sum is over all $(p,q)$-shuffles, i.e. permutation \{\mu_1, \dots, \mu_p, \nu_1, \cdots, \nu_q\} of the set $\{0,1,\cdots,p+q-1\}$ that leave the first $p$ and the last $q$ elements in their natural order.
+
+The sign in the above sum is the corresponding sign of this permutation and the degeneracy maps $s_\mu$ and $s_\nu$ denote the maps
+
+$$
+  s_\mu := s_{\mu_p} \cdots \circ s_{\mu_1}
+$$
+
+and similarly for $s_\nu$
+
+>(Hm, is that consistent?)
+
+For more on this see also section 2.3 of [SchwedeSchipley](http://arxiv.org/abs/math.AT/0209342)
 
 =--
 
