@@ -1,5 +1,3 @@
-[[!redirects comma categories]]
-
 #Idea#
 
 The comma category of two functors $f : C \to E$ and $g : D \to E$ is like an [[arrow category]] of $E$ where all arrows have their [[source]] in the image of $f$ and their [[target]] in the image of $g$ (and the morphisms between arrows keep track of how these sources and targets are in these images).
@@ -154,3 +152,5 @@ _Toby_:  I find $(f \downarrow g)$ more self explanatory, but $(f/g)$ is cool.  
 # Further reading #
 
 [a low-tech description with several special cases identified in somewhat archaic terminology](http://toby.bartels.name/notes/#comma)
+
+[[!redirects comma categories]]
