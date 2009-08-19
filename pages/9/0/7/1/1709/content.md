@@ -484,11 +484,11 @@ classified by a [[group cohomology|group 2-cocycle]] $\omega$, $c$-twisted $\hat
 This is also the first example in the list
 in the last section of
 
-* [[schreiber: Background fields in twisted differential nonabelian cohomology]]
+* [[schreiber:Background fields in twisted differential nonabelian cohomology|Background fields in twisted differential nonabelian cohomology]]
 
 and contains examples that are of interest in the wider context of [[string theory]].
 
-See also [[schreiber:twisted differential String- and Fivebrane structure]].
+See also [Twisted Differential String- and Fivebrane-Structures](http://golem.ph.utexas.edu/category/2009/03/twisted_differential_string_an.html).
 
 
 ## twisted K-theory ##
@@ -540,7 +540,7 @@ Details on Larmore's work on twisted cohomology are at
 
 The above definition of $c$-twisted cohomology as the homotopy fiber of $\mathbf{H}(X,\hat B) \to \mathbf{H}(X,B)$ over $c \in \mathbf{H}(X,B)$ has, to the best of my ([[Urs Schreiber]]) knowledge not been stated this way in the literature before. This arose in the course of the work 
 
-* [[schreiber: Background fields in twisted differential nonabelian cohomology]].
+* [[schreiber:Background fields in twisted differential nonabelian cohomology|Background fields in twisted differential nonabelian cohomology]].
 
 See there for examples and applications.
 
