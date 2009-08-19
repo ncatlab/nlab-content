@@ -18,7 +18,7 @@
 * [[D-module]], [[local system]], [[regular differential operator]]
 * [[flag variety]], [[geometric quantization]], [[coherent state]] 
 * [[Lie group]], [[Lie groupoid]], [[Lie algebroid]], [[Courant algebroid]]
-* [[Lie theory]], [[Lie's third theorem]]
+* [[Lie theory]], [[Lie's three theorems]]
 * [[ringed space]], [[ringed site]]
 * [[synthetic differential geometry]]
 * [[generalized smooth space]]: 
