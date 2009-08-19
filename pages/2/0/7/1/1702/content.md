@@ -1,4 +1,7 @@
-for related entries see
+
+This is a sub-entry for [[gerbe]].
+
+For related entries see
 
 * [[bundle gerbe]]
 * [[gerbe (general idea)]]
