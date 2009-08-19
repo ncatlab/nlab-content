@@ -1,6 +1,5 @@
-
 _Geometric quantization_ is the approach of Kirillov ("orbit method"), Kostant and Souriau attaching a [[Hilbert space]] to a symplectic manifold with a line bundle with connection, provided the symplectic manifold
-satisfies certain quantization conditions. It can be interpreted as a procedure [[quantization]] that sends a classical system defined by the [[symplectic geometry]] $(P,\omega)$ of its [[phase space]] $P$ equipped with a Hamiltonian vector field to a [[Hilbert space]] of states on which a [[Hamiltonian operator]] acts, whose flow describes the [[quantum field theory|quantum dynamics]] of the physical system in question.
+satisfies certain quantization conditions. It can be interpreted as a procedure [[quantization]] that sends a classical system defined by the [[symplectic geometry]] $(P,\omega)$ of its [[phase space]] $P$ equipped with a Hamiltonian vector field to a [[Hilbert space]] of states on which a [[Hamiltonian operator]] acts, whose flow describes the [[quantum field theory|quantum dynamics]] of the physical system in question. Geometric quantization is closely related to Berezin quantization and the subject of [[coherent states]].
 
 The basic idea is to let the quantum Hilbert space of states be _half_ the space of [[section]]s of a [[vector bundle|line bundle]] [[connection on a bundle|with connection]] whose curvature $2$-form coincides with the symplectic form $\omega$.
 
