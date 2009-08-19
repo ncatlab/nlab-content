@@ -184,6 +184,15 @@ Don't ask me for more details about it. Unfortunately this don't define a primit
 
   What do you think? I may be ignorant, but possibly some readers interested in this page here are more ignorant than I am, so maybe if I find comments of the above kind helpful, others will, too.
 
+  [[David Roberts]]: Perhaps the following as a rewrite for your second paragraph:
+
+  **Start suggestion**
+
+  For instance if the category is equipped with the structure of a [[site]] geometrical notions, such as defining arrows locally on the domain with patching conditions (or more generally descent theory), exist inside it. If it is [[finitely complete category]], the existence of (finite) products and terminal objects means that varieties of algebras can be defined. If the category is a [[topos]], one can do finitist impredicative constructive ordinary mathematics inside it. Extra conditions on the category, such as being a _boolean_ topos or being a _superextensive_ site, bring the internal mathematics closer to that of $Set$.
+
+  **End suggestion**
+
+  With the appropriate links inserted (not that I like to over-burden the elves of the golf department, but it is locally late).
   =--
 
 * A theory of models for homotopy types. In [[Alexander Grothendieck|Grothendieck's]] approach to homotopy theory he called $Cat$ together with the class of functors that induced weak equivalences on nerves a [[fundamental localizer]]. See [[the homotopy theory of Grothendieck]].
