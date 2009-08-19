@@ -15,3 +15,5 @@ Every [[cartesian closed category|cartesian closed]] boolean [[pretopos]] is in 
 
 _Toby_:  I just mean that the term is used in other senses.  Compare the 'classical predicativism' at [PlanetMath's article](http://planetmath.org/encyclopedia/Predicativism.html) or the (somewhat related) [discussion](http://plato.stanford.edu/entries/philosophy-mathematics/#Pre) in the Stanford Encyclopedia.
 =--
+
+[[!redirects boolean topos]]
