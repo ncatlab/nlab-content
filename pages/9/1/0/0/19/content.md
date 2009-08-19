@@ -72,7 +72,7 @@ In the preface of his 1965 book _Theory of Categories_ Barry Mitchell writes:
 
   * If the category is a [[topos]], one can do finitist impredicative [[constructive mathematics|constructive]] ordinary mathematics inside it. 
 
-  * Further extra conditions on the category, such as being a [[Boolean topos]] or being a [[superextensive site]], bring the internal mathematics closer to that of [[Set]].
+  * Further extra conditions on the category, such as being a [[Boolean topos]] or being a [[extensive category|superextensive site]], bring the internal mathematics closer to that of [[Set]].
 
   +-- {: .query}
 
