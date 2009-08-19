@@ -13,3 +13,9 @@ To obtain adjoint functor theorems for categories that are not preorders, one mu
 * $D$ is [[total category|cototal]] and $C$ is locally small.
 
 In the first two cases, which work by replacing large limits by small ones, it suffices to assume that $G$ preserves small limits (that it preserves all limits will follow).  The third case works by assuming that $D$ has, while not all large limits, enough so that the theorem goes through; thus is this case $G$ must be already known to preserve [[large category|large]] limits as well.
+
+## Version for (∞,1)-categories
+
+Jacob Lurie proved an adjoint functor theorem for (∞,1)-categories (see section 5.5 of [[Higher Topos Theory]]:
+
+A functor between [[presentable (infinity,1)-category|presentable (∞,1)-categories]] has a right adjoint if and only if it preserves small colimits, and has a left adjoint if and only if it is [[accesible]] and preserves small limits.
