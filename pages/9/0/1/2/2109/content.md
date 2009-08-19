@@ -1,5 +1,3 @@
-[[!redirects equipments]]
-
 # Idea
 
 Just as ordinary [[category theory]] provides a framework in which one can do "formal mathematics," one of the (many) purposes of [[higher category theory]] is to provide a framework in which one can do "formal category theory."  In particular, many concepts in ordinary category theory can be interpreted internally in a [[2-category]], in a way which specializes to the original concept in [[Cat]].  Examples of such concepts include [[adjunctions]], [[monads]], [[Grothendieck fibrations]], [[Kan extensions]], and [[fully faithful morphisms]].
@@ -56,6 +54,9 @@ $$\array{A & \overset{H}{\to} & C \\
   B& \underset{K}{\to} & D}
 $$
 are the 2-cells $g_\bullet H \to K f_\bullet$.  Note that if the arrows form a strict 2-category, then this is a "pseudo double category" (vertically strict and horizontally weak) while if the arrows and proarrows are both weak 2-categories, this double category is weak in both directions (e.g. a "double bicategory").
++-- {: .query}
+Is this really 'e.g.' or 'i.e.'?  ---Toby
+=--
 
 Double categories constructed in this way have the special property that every vertical 1-cell $f$ has both a [[companion]] (namely $f_\bullet$) and a [[conjoint]] (namely $f^\bullet)$.  Conversely, from any double category with this property, one can construct an equipment in the obvious way.  In this way equipments can be shown to be equivalent to a certain class of double categories.  While the definition given above is perhaps simpler, for some purposes it is preferable to *define* equipments to be certain double categories, for instance when one wants to collect them into a 2-category or 3-category---basically the only way to define transformations between functors of equipments is to view them as double categories, explicitly or implicitly.
 
@@ -81,11 +82,11 @@ For any equipment $W$ one can define a notion of **$W$-enriched category**.  Thi
 So far we have not used the ordinary arrows, so many authors have studied only the notion of "category enriched in a bicategory."  (Note that any 2-category $M$ can be regarded as the proarrow 2-category of an equipment in which the only ordinary arrows are identites.)  However, we need the extra structure when we define a *functor* $f:C\to D$ between $W$-enriched categories, which consists of:
 
 * a function $f:ob(C)\to ob(D)$,
-* for each object $x$ of $C$ an arrow $f_x:e(x)\to e(fx)$ in $W$,
+* for each object $x$ of $C$ an arrow $f_x:e(x)\to e(f(x))$ in $W$,
 * for each pair of objects $x$ and $y$, a square
 $$\array{e(y) & \overset{hom_C(x,y)}{\to} & e(x)\\
   ^{f_y}\downarrow & \Downarrow & \downarrow^{f_x}\\
-  e(fy)& \underset{hom_D(fx,fy)}{\to} & e(fx)}$$
+  e(f(y))& \underset{hom_D(f(x),f(y))}{\to} & e(f(x))}$$
 * satisfying functoriality axioms.
 
 Finally, we define a *natural transformation* between such functors $f,g:C\to D$ to consist of
@@ -93,7 +94,7 @@ Finally, we define a *natural transformation* between such functors $f,g:C\to D$
 * squares
 $$\array{e(x) & \overset{U_{e(x)}}{\to} & e(x)\\
   ^{g_x}\downarrow & \Downarrow & \downarrow^{f_x}\\
-  e(gx)& \underset{hom_D(fx,fy)}{\to} & e(fx)}$$
+  e(g(x))& \underset{hom_D(f(x),f(y))}{\to} & e(f(x))}$$
 * satisfying a naturality axiom.
 
 By choosing $W$ appropriately, categories enriched in an equipment include most types of generalized category:
@@ -113,14 +114,17 @@ Other choices of $W$ give "categories which are both enriched and internal," for
 
 * R.J. Wood, "Abstract Proarrows I" and "Proarrows II" (the original definitions)
 
-* Ross Street, "Fibrations in bicategories" (Construction of $V Mod$ from $V Cat$.)
+* [[Ross Street]], "Fibrations in bicategories" (Construction of $V Mod$ from $V Cat$.)
 
-* Aurelio Carboni, Scott Johnson, Ross Street, and Dominic Verity, "Modulated bicategories" (Improved construction of $V Mod$ from $V Cat$.)
+* [[Aurelio Carboni]], Scott Johnson, Ross Street, and Dominic Verity, "Modulated bicategories" (Improved construction of $V Mod$ from $V Cat$.)
 
-* Dominic Verity, "Enriched categories, internal categories, and change of base", Ph.D. Thesis.  (The connection with double categories.)
+* [[Dominic Verity]], "Enriched categories, internal categories, and change of base", Ph.D. Thesis.  (The connection with double categories.)
 
-* Michael Shulman, "Framed bicategories and monoidal fibrations".  (The equivalence with certain double categories, there called *framed bicategories*, and a general way to construct equipments such as $Ab(S)$.)
+* [[Michael Shulman]], "Framed bicategories and monoidal fibrations".  (The equivalence with certain double categories, there called *framed bicategories*, and a general way to construct equipments such as $Ab(S)$.)
 
 * G.S.H Cruttwell and Michael Shulman, "A unified framework for generalized multicategories" (currently the only reference for virtual equipments).
 
-* Renato Betti, Aurelio Carboni, Ross Street, and Robert Walters, "Variation through enrichment."  (Locally small fibrations as $Span$-enriched categories.)
+* [[Renato Betti]], Aurelio Carboni, Ross Street, and [[Robert Walters]], "Variation through enrichment."  (Locally small fibrations as $Span$-enriched categories.)
+
+
+[[!redirects equipments]]
