@@ -13,6 +13,12 @@ for all $x, y$ in $S$.
 
 A __strictly increasing__ function is a weakly increasing function that is also [[injective function|injective]].
 
++--{: .query}
+_[[Mike Shulman]]_: Is that really the right definition?  I think of "strictly increasing" as meaning that $x\lt y$ implies $f(x)\lt f(y)$, which is equivalent to the above for linear orders but weaker for partial orders.  But I don't have much experience with strictly increasing functions between non-linear orders, so maybe that is the right definition for partial orders.
+
+However, I don't think it is the right definition for preorders; among other things, it's not invariant under equivalence of categories.  It seems to me that what you really want to say is that it is [[pseudomonic functor|pseudomonic]] as a functor (whereas my weaker definition would become the statement that it is [[conservative functor|conservative]] as a functor.)
+=--
+
 An __antitone__, __weakly decreasing__, or __monotone decreasing__ function $f$ from $S$ to $T$ is a [[function]] from the set $S$ to the set $T$ that reverses $\leq$:
 $$ x \leq y \;\Rightarrow\; f(y) \leq f(x) $$
 for all $x, y$ in $S$.
