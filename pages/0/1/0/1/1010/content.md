@@ -205,5 +205,4 @@ The reason I don't think this page is the place to talk about "small presheaves"
 category: foundational axiom
 
 [[!redirects Grothendieck universes]]
-[[!redirects universe]]
-[[!redirects universes]]
+[[!redirects Grothendieck universes]]
