@@ -57,23 +57,8 @@ In the preface of his 1965 book _Theory of Categories_ Barry Mitchell writes:
 **Category theory** is so useful because it can be seen from so many perspectives.
 
 * The theory of [[category|categories]] as [[essentially algebraic theory|essentially algebraic structures]] with several objects and a relation (morphism) "algebra" on these objects. Structures in ordinary [[algebraic theory|abstract algebra]], like [[monoid|monoids]], have only one object. This theory also include [[functors]] between categories and [[natural transformation|natural transformations]].
-
 * Categories may be regarded as 1-dimensional [[directed space]]s. One precise way to say this is that a category is a [[simplicial set]] such that the [[Segal map]]s are isomorphisms. (When distinguishing the category itself from the simplicial set that it corresponds to one says that the simplicial set is the [[nerve]] of the category.)
-
-* Much of ordinary mathematics can be thought of as taking place [[internalization|inside]] the archetypical category [[Set]] of sets. In as far as any other category may be thought of as a generalization of [[Set]], a category is a **mathematical universe** [[internalization|inside]] which mathematics may take place.
-
-  Of course, without further assumptions on the category, there is in general very little math that can be formulated inside it. For instance in the [[terminal category]] everything is trivial. But few extra properties and structures are usually necessary to provide already interesting structure.
-
-  For instance 
-
-  * if the category is equipped with the structure of a [[site]] geometrical notions, such as defining [[morphism|arrow]]s locally on the domain with patching conditions (or more generally [[descent]] theory), exist inside it. 
-
-  * If it is a [[finitely complete category]], the existence of (finite) [[product]]s and [[terminal object]]s means that [[variety of algebras|varieties of algebras]] can be defined. 
-
-  * If the category is a [[topos]], one can do finitist impredicative [[constructive mathematics|constructive]] ordinary mathematics inside it. 
-
-  * Further extra conditions on the category, such as being a [[Boolean topos]] or being a [[extensive category|superextensive site]], bring the internal mathematics closer to that of [[Set]].
-
+* Much of ordinary mathematics can be thought of as taking place [[internalization|inside]] the archetypical category [[Set]] of sets. In as far as any other category may be thought of as a generalization of $Set$, a category is a **[[universe]]** inside which mathematics may take place.
   +-- {: .query}
 
   >the following discussion originated from an earlier version of the above two items. The new form of the above items is supposed to be a result and wrap-up of the discussion below. But if it is not regarded as such by everyone, we need to continue discussing.  
@@ -216,8 +201,8 @@ Don't ask me for more details about it. Unfortunately this don't define a primit
 
   _Toby_:  I like what is written above (with one exception), but I think that it\'s too much for this list.  We should have a brief sentence and then link to other articles that explain more.  To some extent, this sort of thing is at [[internalization]] and [[internal language]], but I propose to use these paragraphs as the start of a new entry [[universe]] (which currently redirects, somewhat parochially, to [[Grothendieck universe]]).  I\'ll probably do that myself in about an hour.  (The exception is this:  The wording implies that nothing can be formulated in the trivial category, but in fact *everything* can be formulated there ---up to and including a proof of $\bot$--- and *that* is what makes it useless: it is too strong, not too weak.)
 
+  _Toby_:  OK, I\'m doing this.
   =--
-
 * A theory of models for [[homotopy type]]s. In [[Alexander Grothendieck|Grothendieck's]] approach to homotopy theory he called $Cat$ together with the class of functors that induced weak equivalences on nerves a [[fundamental localizer]]. See [[the homotopy theory of Grothendieck]].
 * A unifying tool and language in [[mathematics]].
 * An organizational tool in [[mathematics]].
