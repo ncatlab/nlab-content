@@ -348,6 +348,7 @@ You could start a philosophical section about categorical foundations and put it
 These are often seen as a part of category theory even if they are only related to categories.
 
 * [[allegory|Allegories]]
+* [[multicategory|Multicategories]]
 
 +-- {: .query}
 I don\'t know what you mean here, Rafael.  An allegory *is* a category with extra bells and whistles.  Why do you put this here but not [[monoidal categories]] or $\infty$-[[infinity-category|categories]]?  ---Toby
