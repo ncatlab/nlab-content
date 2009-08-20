@@ -16,3 +16,5 @@ The basic idea is to study not just the [[tangent bundle]] $T X$ or cotangent bu
 #References#
 
 * Marco Gualtieri, _Generalized complex geometry_ ([arXiv](http://arxiv.org/abs/math/0401221))
+
+* Urs Schreiber, [blog](http://golem.ph.utexas.edu/category/2007/08/the_g_and_the_b.html)
