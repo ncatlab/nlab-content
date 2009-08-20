@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-20
 
+* [[Urs Schreiber]]: reacted to [[David Roberts]]' latest comment at [[category theory]] by expaning the item on "categories = 1d spaces" with a discussion of one way how this statement can be thought of as being made precise
+ 
 * [[Mike Shulman]]: continued discussion at [[monotone function]].
 
 * [[David Roberts]]: comment at [[category theory]] re category as a sort of directed space.
