@@ -73,7 +73,7 @@ This cup product enjoys the following properties:
 =--
 
 
-Accordingly, the cup produt makes $H^\bullet(C^\bullet(X)) = H^\bullet(X,R)$ into a [[ring]]: the **cohomology ring** on the [[Eilenberg-MacLane spectrum|ordinary cohomology]] of $X$.
+Accordingly, the cup product makes $H^\bullet(C^\bullet(X)) = H^\bullet(X,R)$ into a [[ring]]: the **cohomology ring** on the [[Eilenberg-MacLane spectrum|ordinary cohomology]] of $X$.
 
 
 See for instance section 3.2 of 
