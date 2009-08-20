@@ -10,7 +10,7 @@
 
 * [[topology and geometry|Topology and Geometry]]
 
-  * [[geometry]] (general list)
+  * [[geometry]] (general list), [[topology]] (general list)
 
   * [[general topology]]
   
@@ -34,7 +34,7 @@
 
   * [[universal algebra]]
 
-  * [[group theory]]
+  * [[group theory]] (including generalizations)
 
   * [[representation theory]]
 
