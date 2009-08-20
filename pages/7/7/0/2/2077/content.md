@@ -21,6 +21,10 @@ However, I don't think it is the right definition for preorders; among other thi
 _Toby_:  This is the definition in _[[HAF]]_ (Section 3.17), which defines it for posets (and is a smart enough book that it wouldn\'t blindly extend a definition from a special case).  Although I don\'t have a reference, I\'m pretty sure that this also used in analysis and topology when thinking about convergence and nets, where they may be prosets.  However, I think that you have a good point about preordered sets, so I\'ve changed the wording above.  (I\'ll also try to confirm how covergence theorists define 'strictly increasing' functions between directed prosets.)
 
 It occurs to me that, in the absence of the axiom of choice, one ought to accept even anafunctors between prosets as morphisms, even though these may not be representable as strict functions at all.  I\'ll save that for another day, however.
+
+[[Mike Shulman]]: Of course, the definition you gave above isn't the same as pseudomonic unless $T$ is a partial order; in general you want to say $x\leq y$ whenever $f(x) \cong f(y)$.  The version with $=$ is still not invariant under equivalence of $T$.
+
+I don't know a whole lot about convergence and nets, but I don't remember seeing strictly increasing functions used there; I look forward to seeing what you find.  Does HAF use the poset version for any application that makes clear why this is a good definition?  Of course, monomorphisms of posets may quite naturally something to be interested in, but the question is why they should be called "strictly increasing."
 =--
 
 An __antitone__, __weakly decreasing__, or __monotone decreasing__ function $f$ from $S$ to $T$ is a [[function]] from the set $S$ to the set $T$ that reverses $\leq$:
