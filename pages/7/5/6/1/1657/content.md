@@ -199,6 +199,8 @@ _Toby_:  I should note that, even given what I wrote above, there is still a *sl
 
 
 [[!redirects measure spaces]]
+[[!redirects measure]]
+[[!redirects measures]]
 [[!redirects probability measure]]
 [[!redirects finite measure]]
 [[!redirects positive measure]]
