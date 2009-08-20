@@ -30,6 +30,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * [[David Corfield]]: re [[foundations and philosophy]], I can't do more than log its creation here (see 2009-08-17). Now to find time to write it up.
 
+  * [[Andrew Stacey]]: I'm hesitant to weigh in on this as I'm as guilty as everyone else, but merely flagging something here is not really enough.  We should all think about how to organise the material here to make it easily findable.  Of course, linking from related page to related page is good, but there should also be some hierarchical organisation.  For example, there should be a philosophy index page and [[foundations and philosophy]] should be on it.  Perhaps, appropriately enough, we should make more use of the [category](http://golem.ph.utexas.edu/instiki/show/Categories) features in Instiki.  At the moment, we have the following categories: biography, category, delete, drafts, foundational axiom, lexicon, meta, people, place, redirect, reference, spam.
+
+   This comment is getting a little long, so I've started a [forum discussion](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=53) with more details on how to implement this, so please reply there.
+    
 
 ## 2009-08-19
 
