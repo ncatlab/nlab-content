@@ -125,3 +125,4 @@ For a generalization of cardinality from sets to [[groupoids]] see [[groupoid ca
 [[!redirects cardinality]]
 [[!redirects cardinals]]
 [[!redirects cardinalities]]
+[[!redirects regular cardinal]]
