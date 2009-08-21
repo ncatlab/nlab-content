@@ -6,10 +6,10 @@ Accessible categories are the categories of models of [[sketch|sketches]].
 
 #Definition#
 
-A category is accessible if for some regular cardinal $\kappa$:
+A category is accessible if for some [[regular cardinal]] $\kappa$:
 
-* the category has $\kappa$-directed colimits,
-* there is a set of $\kappa$-compact objects that generate the category under $\kappa$-directed colimits.
+* the category has $\kappa$-[[directed colimit]]s,
+* there is a set of $\kappa$-[[compact object]]s that generate the category under $\kappa$-directed colimits.
 
 #References#
 
