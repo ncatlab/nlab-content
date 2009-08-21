@@ -1,0 +1,1 @@
+An object $X$ of a category is **small** if it is $\kappa$-compact for some [[cardinal|regular cardinal]] $\kappa$ (and therefore also for all greater regular cardinals as well). Here, $X$ is called $\kappa$-compact if the corepresentable functor $hom(X,\cdot)$ preserves $\kappa$-filtered colimits.
