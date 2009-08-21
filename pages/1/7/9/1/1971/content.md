@@ -27,6 +27,10 @@ given by adding in new terms with the new variable to make the result symmetric.
 
 Taking a suitable limit (or really [[colimit]]) of the rings $\Lambda_n$ as $n \to \infty$, we get $\Lambda_\infty$ or $\Lambda$, the ring of **symmetric functions in countably many variables**, or simply **symmetric functions** (sometimes also called **symmetric polynomials**, even though very few of them are really polynomials).
 
++-- {: .query}
+[[David Corfield]]: Why does Hazewinkel in his description of the construction of $\Lambda$ on p. 129 of [this](http://arxiv.org/abs/0804.3888) use a graded projective limit construction in terms of projections of polynomial rings?
+=--
+
 The definition depends on the ground [[field]] (or [[commutative ring]] or [[rig]]) $k$, so we may write $\Lambda(k)$ to be precise.
 
 
