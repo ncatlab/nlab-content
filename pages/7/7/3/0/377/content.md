@@ -84,3 +84,6 @@ Re: exponentials, the Stone-&#268;ech compactification of $Y^X$ will (as long as
 _Toby_:  OK, I\'ll have to check how exactly they use the category of locally compact Hausdorff spaces.  (One way is to get compactly generated spaces, of course, but I thought that there was more to it than that.)  But anyway, I\'m happy with your plan and will help you carry it out.
 
 =--
+
+
+[[!redirects nice topological spaces]]
