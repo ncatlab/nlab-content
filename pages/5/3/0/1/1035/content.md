@@ -18,3 +18,6 @@ An **additive category** is
 * Some authors use **additive category** to simply mean an Ab-enriched category, with no further assumptions.
 
 * The natural [[morphisms]] *between* additive categories are the [[additive functors]].
+
+
+[[!redirects additive categories]]
