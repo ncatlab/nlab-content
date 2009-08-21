@@ -18,9 +18,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-21:
 
-* [[Ronnie Brown]]: 
+* [[Vaughan Pratt]]: changed "category: categories" to "category: category" for Chu construction.  (Rationale: The plural form was just my misremembering the name of that category, I didn't mean to start a new category.  Chu(V,k) is a category and therefore should be findable as such, but it would take a while to write a separate page for every pair (V,k).)  (I also edited "Editing latest changes" but presumably that goes without saying. :)  -vp)
 
-Query (badly formatted) added to [[singular cohomology]]. 
+  *  _Toby_:  That still doesn\'t fit in with the other pages in that category; it would be different if we had a page [[Chu]] with links like '[[Chu]]$(V,k)$' in other pages.  *However*, I think that the fault is more in the peculiarity of the previous system (if I explained exactly why I created `category: category`, then you\'d see how silly it is), so I do *not* think that you should actually change anything (other than plural to singular, which you did).
+
+*  [[Vaughan Pratt]] has started [category: categories](/nlab/list/categories) and put [[Chu construction]] in it.  [[Toby Bartels|I]]\'m not sure what this category is supposed to be for; the entry wouldn\'t fit into [category: category](/nlab/list/category) either, since it\'s not a specific category (although maybe that is not the best criterion).
+
+* [[Ronnie Brown]]: Query (badly formatted) added to [[singular cohomology]]. 
 
 *  [[Toby Bartels]]:
    *  Wrote [[space]], with the idea that this should be very general and mostly point people to other, more specific, pages.
