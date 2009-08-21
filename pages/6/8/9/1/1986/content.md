@@ -18,7 +18,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-21:
 
+* [[John Baez]]: started a [[database of categories]].  This is very preliminary, but it could be very useful if we keep working on it.  The idea is to list lots of categories and their categorical properties.  If this list becomes long we can try to organize it somehow.
+
 * [[David Roberts]]: question at [[topological T-duality]]. No mention has been made of the Adelaide school's treatement there!
+  
+    * [[John Baez]]: so, please tell us what that school has done, or at least add some links to papers on the arXiv.
 
 *  [[Toby Bartels]]:
    *  Started [[singular cohomology]] by copying the definition from [[cup product]].
