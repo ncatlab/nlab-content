@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-21:
 
+* [[David Roberts]]: links at [[topological T-duality]] and mention of early work on the topic.
+
 * [[Omar Antolín-Camarena]]: added a definition to [[accessible category]], could use checking by someone who knows.
 
 * [[Omar Antolín-Camarena]]: created [[small object]], whose definition was missing from [[locally presentable category]].
