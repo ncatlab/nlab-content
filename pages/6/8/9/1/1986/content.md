@@ -18,9 +18,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-21:
 
-* [[Ronnie Brown]]: 
+*  [[Vaugn Pratt]] has started [category: categories](/nlab/list/categories) and put [[Chu construction]] in it.  [[Toby Bartels|I]]\'m not sure what this category is supposed to be for; the entry wouldn\'t fit into [category: category](/nlab/list/category) either, since it\'s not a specific category (although maybe that is not the best criterion).
 
-Query (badly formatted) added to [[singular cohomology]]. 
+* [[Ronnie Brown]]: Query (badly formatted) added to [[singular cohomology]]. 
 
 *  [[Toby Bartels]]:
    *  Wrote [[space]], with the idea that this should be very general and mostly point people to other, more specific, pages.
