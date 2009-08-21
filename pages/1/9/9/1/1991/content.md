@@ -14,7 +14,7 @@ In the sense of [[space and quantity]] a quantity is a [[presheaf|co-presheaf]].
 
 The notion of $\infty$-quantity is the [[vertical categorification|∞-categorification]] of this.
 
-So an $\infty$-quantities are [[duality|dual]] to [[∞-space]]s.
+So $\infty$-quantities are [[duality|dual]] to [[∞-space]]s.
 
 =--
 
@@ -24,11 +24,7 @@ So an $\infty$-quantities are [[duality|dual]] to [[∞-space]]s.
 
 1. [Definition](#definition)
 
-1. [Constructions and properties](#constructions)
-
-   1. [The Moore cochain complex of an $\infty$-quantity] (#Moorecomplex)
-
-   1. [The differential graded algebra of an $\infty$-quantity](#DGA)
+1. [The differential graded algebra of an $\infty$-quantity](#DGA)
 
 
 1. [Examples](#examples)
@@ -43,12 +39,13 @@ So an $\infty$-quantities are [[duality|dual]] to [[∞-space]]s.
 
    1. [Lie ∞-algebroid valued differential forms ](#Lievaluedddifferentialforms)
 
+1. [References](#references)
 
 #Background and motivation {#background}
 
-The [[vertical categorification|categorification]] of space is an  [[∞-space]] -- a [[higher category theory|higher categorical]] presheaf usually called an [[infinity-stack|∞-stack]]. These may be [[model structure on simplicial presheaves|modeled]] by [[simplicial presheaf|simplicial presheaves]].
+The [[vertical categorification|categorification]] of the notion of _space_ is that o _[[∞-space]]_ -- a [[higher category theory|higher categorical]] presheaf usually called an [[infinity-stack|∞-stack]]. These may be [[model structure on simplicial presheaves|modeled]] by [[simplicial presheaf|simplicial presheaves]].
 
-Here we discuss the notion [[duality|dual]] to that of of $\infty$-space/$\infty$-stack/simplicial presheaf in the sense of [[space and quantity]]: that of _$\infty$-quantity.
+Here we discuss the notion [[duality|dual]] to the notion $\infty$-space/$\infty$-stack/simplicial presheaf in the sense of [[space and quantity]]: that of _$\infty$-quantity_ .
 
 This is such that for instance in the smooth context of [[smooth infinity-stack|smooth ∞-stack]] -- i.e. a [[Lie infinity-groupoid|Lie ∞-groupoid]] -- the $\infty$-quantity $C^\infty(A)$ dual to a [[Lie infinity-groupoid|Lie ∞-groupoid]] $A$ is the cosimplicial algebra of smooth functions on neighbourhoods of identities in $A$ which turns out to be the [[Chevalley-Eilenberg algebra|Chevalley-Eilenberg algebra]] of the corresponding  [[Lie infinity-algebroid|Lie ∞-algebroid]]. 
 
@@ -188,34 +185,11 @@ be the $(\infty,1)$-quantity of _local_ functions on $X$.
 
 
 
-#Properties and constructions {#constructions}
+# The differential graded algebra of an $\infty$-quantity {#DGA}
 
+Let $C = $ [[CartSp]], so that an $\infty$-quantity modeled on $C$ is a [[generalized smooth algebra]]. 
 
-## The Moore cochain complex of an $\infty$-quantity {#Moorecomplex}
-
-Let $K = K^\bullet$ be a cosimplicial [[generalized smooth algebra|generalized smooth algebra]]. 
-Its **Moore complex** is the connective (meaning: $\mathbb{N}$-graded) 
-[[cochain complex|cochain complex]] (degree of coboundary maps is $+1$) $C^\bullet(K)$ which is degreewise equal to $K$ in that $C^n(K) := K^n$ and whose coboundary map is the alternating sum
-of face maps
-
-$$
-  d : \sum_{i=0}^n (-1)^i d_i^* : C^{n-1}(K) \to C^n(K)
-  \,. 
-$$
-
-Its **normalized Moore complex** $N^\bullet(K)$ is the subcomplex on the joint [[kernel|kernel]] of all but the last degeneracy maps
-
-$$
-  N^n(K) = \cap_{i=0}^{n-1} ker(s_i^*)
-  \,.
-$$
-
-
-
-
-## The differential graded algebra of an $\infty$-quantity {#DGA}
-
-Given a cosimplcial algebra $K$, its [[Moore complex|Moore cochain complex]] $C^\bullet(K)$ carries, by the [[monoidal Dold-Kan correspondence]], the [[cup product]] [[monoid]] structure
+As described at [[monoidal Dold-Kan correspondence]], the [[Moore complex|Moore cochain complex]] $C(K)$ of a cosimplicial algebra $K$ is a [[differential graded algebra]], whose product is the [[cup product]]
 
 $$
   \cup
@@ -223,22 +197,10 @@ $$
   C^\bullet(K)\otimes C^\bullet(K)
   \to 
   C^\bullet(K)
+  \,.
 $$
 
-defined on homogeneous elements $a \otimes b \in C^p(K) \otimes C^q(k) \subset C^\bullet(K) \otimes C^\bullet(K)$ by the usual formula
-
-$$
-  a \cup b
-  =
-  (d^*_\mu a) \cdot (d^*_\nu b)
-$$
-
-where $\mu : [p] \to [p+q]$ is the map that sends $i \in [p]$ to $i \in [p+q]$ and where $\nu : [q] \to [p+q]$ is the map that sends $i \in [p]$ to $i + p \in [p+q]$.
-
-By the usual reasoning this makes $\cup$ induce an associative and distributive product on the [[chain homology and cohomology|cochain cohomology]] of $C^\bullet(K)$. 
-
-In this sense the cup product induces a weak monoid structure on $C^\bullet(K)$.
-
+We call $C(K)$ the [[differential graded algebra]] given by the $\infty$-quantity $K$.
 
 
 
@@ -249,23 +211,13 @@ In this sense the cup product induces a weak monoid structure on $C^\bullet(K)$.
 ## Singular cohomology {#singluarcohomology}
 
 
+Let $C = $ [[CartSp]].
+
+Let $\Pi(X)$ be the [[Lie ∞-groupoid]] that is the [[path ∞-groupoid]] of $X$. The [[Moore complex|Moore cochain complex]] assoctated with the $\infty$-quantity $C^\infty(\Pi(X)) := C^\infty(X^{\Delta^\bullet_C})$ of functions on $\Pi(X)$ is manifestly the one that computes [[singular cohomology]] (with values in $\mathbb{R}$).
+
+The monoidal structure induced in $C^\infty(\Pi(X))$ under the [[monoidal Dold-Kan correspondence]] is manifestly the ordinary [[cup product]] on [[singular cohomology]].
 
 
-
-
-Given a [[smooth space]] $X$ let $C^\infty(X^{\Delta_{inf}^k})$ be the [[generalized smooth algebra]] of functions on the space of infinitesimal $k$-[[simplex|simplices]] in $X$. This naturally forms a cosimplicial smooth algebra $C^\infty(X^{\Delta_{inf}^\bullet})$. The corresponding dual normalized [[Moore complex]] is the [[cochain complex]] of [[differential forms in synthetic differential geometry]].
-
-Now let $\Pi(X)$ be the [[path infinity-groupoid]] of $X$. Then the Moore complex associated with the cosimplicial smooth algebra $C^\infty(\Pi(X)) := C^\infty(X^{\Delta^\bullet_C})$ is the one that computes **singular cohomology**.
-
-By the deRham theorem (see section 4.3 of [[Models for Smooth Infinitesimal Analysis|SmoothMod]] for the synthetic version) the functor 
-
-$$
-  \int : C^\infty(X^{\Delta^\bullet_{inf}}) 
-  \stackrel{\simeq}{\to}
-  C^\infty(\Pi(X))
-$$
-
-that integrates differential forms over simplices is an isomorphism on the cohomologies of the corresponding [[Moore complex]]es, hence by the [[Dold-Kan correspondence]] is a weak equivalence of cosimplicial smooth algebras.
 
 
 ## Lie group cohomology {##Liegroupcohomology}
@@ -276,15 +228,15 @@ Let $G$ be a [[Lie group]] and let $\mathbf{B}G$ be its [[delooping]] regarded a
 ## Differential forms {##differentialforms}
 
 
-Let $X$ be a [[smooth space|smooth space]]. Write $C^\infty([\Delta_{inf}^k,X])$
-for the [[generalized smooth algebra|generalized smooth algebra]] (a certain copresheaf on
-[[CartSp|CartSp]]) that plays the role of 
-the algebra of functions on the space of $k$-dimensional infinitesimal
-simplices in $X$. As $k$ varies this naturally arranges itself into
-a cosimplicial copresheaf 
-$C^\infty([\Delta_{inf}^\bullet,X]) := C^\infty(X^{\Delta_{inf}^k})$
-which we call the **$(\infty,1)$-quantity of functions on infinitesimal
-simplices** in $X$.
+Consider again the example of [[singular cohomology]] of a [[smooth space]] $X$ above. In the sense of [[synthetic differential geometry]] we have a natural restriction map
+
+$$
+  C^\infty(X^{\Delta^k}) \to C^\infty(X^{\Delta^k_{inf}})
+$$
+
+from functions on simplices in $X$ to functions on infinitesimal simplices. (This is an operation on [[generalized smooth algebra]]s alone, really, which _defines_ in turn what one means by infinitesimal simplices. )
+
+The cosimplicial copresheaf $C^\infty(X^{\Delta^\bullet_{inf}})$ we call the **$\infty$-quantity of functions on infinitesimal simplices** in $X$.
 
 For later reference we list in detail the interpretation of the face and degenercy maps in this cosimplicial object.
 
@@ -337,9 +289,9 @@ context that need not concern us here).
 
 Let $X$ be a smooth manifold.
 
-The normalized Moore DGA  of the $(\infty,1)$-quantity $C^\infty([\Delta_{inf}^\bullet,X])$ 
+The normalized Moore DGA  of the $\infty$-quantity $C^\infty([\Delta_{inf}^\bullet,X])$ 
 of functions on infinitesimal simplices in $X$ is isomorphic, as 
-a [[differential graded algebra|differential graded algebra]] to the deRham DGA
+a [[differential graded algebra]] to the differential algebra
 of [[differential form|differential forms]] on $X$.
 
 $$
@@ -352,9 +304,33 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Unwrapping what this means it reduces item per item to
-the characterization of differential forms as functions on
-infinitesimal simplices as given by [[Anders Kock]]. See [[differential forms in synthetic differential geometry|differential forms in synthetic differential geometry]].
+Unwrapping what this means in detail, it turns out that this is item-per-item the characterization of differential forms as functions on infinitesimal simplices as given by [[Anders Kock]] in his work on [[synthetic differential geometry]]. See [[differential forms in synthetic differential geometry|differential forms in synthetic differential geometry]].
+
+Anders Kock's crucial insight in this context has been that the description of differential forms simplifies notably when considering them in terms of functions on infinitesimal simplices. He noticed that
+
+* plain functions on infinitesimal simplices are _automatically_ alternating if they have the property that they vanish on degenaret simplices and hence are isomorphic to differential forms;
+
+* the coboundary operator on differential forms is given by the expression that defines the diferential of the Moore cochain complex on functions on simplices;
+
+* the ordinary [[cup product]] on such functions on infinitesimal simplicies is already the [[wedge product]] on the [[differential form]]s represented by them.
+
+But notice that
+
+* those functions on infinitesimal simplices that vanish on degenerate simplices are precisely those that are in the joint kernel of the degeneracy maps of the cosimplicial ring $C^\infty(X^{\Delta^\bullet_{inf}})$. Therefore these are precisely the elements of the _normalized_ Moore complex $N^\bullet(C^\infty(X^{\Delta^\bullet_{inf}}))$ of $C^\infty(X^{\Delta^\bullet_{inf}})$;
+
+* the induced monoidal structure on the Moore complex is, by the above, precisely the cup product.
+
+The relevant theorems by Anders Kock are found here:
+
+the identification of the deRham complex as functions on infinitesimal simplices that vanish on degenerate simplices is theorem 18.3 in
+
+* Anders Kock, _Synthetic differential geometry_ ([pdf](http://home.imf.au.dk/kock/sdg99.pdf))
+
+That the coboundary operator on such simplicial differential forms is precisely the differential in the Moore cochain complex is around equation (3.2.1) in 
+
+* Anders Kock, _Synthetic Geometry of Manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf)) 
+
+That the wedge product on differential forms is then just the [[cup product]] of these functions on infinitesimal simplices is in section 3.5 of that book.
 
 =--
 
@@ -427,6 +403,13 @@ $$
 $$
 
 
+# References {#references}
+
+At least for algebraic groups the statement that the [[Chevalley-Eilenberg algebra|Chevalley-Eilenberg complex]] of a [[Lie algebra]] is the [[Moore complex|normalized Moore cochain complex]] of the cosimplicial algebra of functions on neighbourhoods of the identity in $\mathbf{B}G$ is well known. One reference where this is recalled is 
+
+* Anette Huber, Guido Kings, _A $p$-adic analogue of the Borel regulator and the Block-Kato exponential map_ ([pdf](http://www.math.uni-leipzig.de/~huber/preprints/lazard.pdf))
+
+The analog of the map of cosimplicial rings that above is called $C^\infty(\mathbf{B}G) \to C^\infty_{loc}(\mathbf{B}G)$ is in Lemma 3.4.2 there. The normalized Moore cochain complex $N^\bullet(C^\infty(\mathbf{B}G)_{loc})$ of a cosimplicial ring is in definition 3.4.3 and then the isomorphism with the [[Chevalley-Eilenberg algebra]] $N^\bullet(C^\infty(\mathbf{B}G)) \simew CE(Lie(G))$ is prop. 3.4.4.
 
 
 [[!redirects (infinity,1)-quantity]]
