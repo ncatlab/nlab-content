@@ -2,7 +2,7 @@
 
 * [[differential geometry]], [[differential topology]], [[Diff]]
 * [[differential form]], [[tangent space]]
-* [[symplectic geometry]]
+* [[symplectic geometry]], [[symplectic manifold]]
 * [[fibre bundle]], [[principal bundle]]
 * [[connection]] (and links therein)
 * [[differentiable stack]], [[orbifold]], [[stratifold]], [[orientifold]]
@@ -12,8 +12,8 @@
 * [[algebraic geometry]]
 * [[scheme]], [[quasicompact]], [[noetherian scheme]], [[reduced scheme]], [[integral scheme]]
 * [[spectrum (geometry)]]
-* [[algebraic variety]], [[normal variety]], [[diffiety]]
-* [[algebraic space]], [[algebraic stack]]
+* [[algebraic variety]], [[normal variety]], [[Kähler manifold]], [[hyperplane line bundle]]
+* [[algebraic space]], [[algebraic stack]], [[diffiety]]
 * [[quasicoherent sheaf]], [[coherent sheaf]], [[relative scheme]]
 * [[pure motive]], [[Voevodsky motive]]
 * [[D-module]], [[local system]], [[regular differential operator]]
