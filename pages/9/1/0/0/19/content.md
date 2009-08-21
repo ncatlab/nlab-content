@@ -303,6 +303,12 @@ Here set theory is assumed to be a theory of the usual concept of sets, that is 
 
 No one of these is more fundamental than the other as a foundation of mathematics. Category theory is a holistic (structural) approach to mathematics that can (through such methods as Lawvere\'s [[ETCS]]) provide [[foundations]] of mathematics and (through [[algebraic set theory]]) reproduce all the different axiomatic set theories; elementary category theory does not need the concept of set to be formulated. Set theory is an analytic approach (element-wise) and can reproduce category theory by simply defining all the concepts in the usual way, as long as one include a technique to handle large categories (for instance by using [[class]]es instead of sets, or by including as an axiom that an uncountable [[inaccessible cardinal]] exists or even that [[Grothendieck universe]]s exist). 
 
+  +-- {: .query}
+_Rafael Borowiecki_: I think this is the way to see that the definition of a category do not depend on sets: See Set as a particular category and not as a collection of sets. 
+Then to define Set you need the definition of a category. In that way sets have only to be defined in the infinite past when one writes out what a category is. Just a fun idea.
+
+  =--
+
 |Set theory| |Category theory|
 |----------|-|---------------|
 |membership relation| |-|
