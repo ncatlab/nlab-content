@@ -376,6 +376,9 @@ Other standard references include:
 * [[Eugenia Cheng]], [[Aaron Lauda]], _Higher-dimensional categories: an illustrated guide book_ [free online] (http://cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf)
 * [[Peter Johnstone]], _Topos theory_
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
+  +-- {: .query}
+  Rafael: Urs, why have you removed a perfectly good link?
+  =--
 * Project description: higher categorical structures and their applications [free online] (http://www.math.uchicago.edu/~may/NCATS/ForWeb.pdf)
 
 
