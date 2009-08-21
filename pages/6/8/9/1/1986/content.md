@@ -18,6 +18,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-21:
 
+* [[Urs Schreiber]]: 
+
+  * moved the new discussion of references by [[David Roberts]] at [[topological T-duality]] to the References section, edited slightly and inserted some links
+
+  * expanded [[symmetric monoidal category]] which was very stubby (and still is): added an "Idea" section with pointers to the general context -- and started adding a list of examples
+
 * [[David Corfield]]: asked a question at [[symmetric function]].
 
 * [[David Roberts]]: links at [[topological T-duality]] and mention of early work on the topic.
