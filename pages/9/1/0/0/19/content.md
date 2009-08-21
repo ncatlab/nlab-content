@@ -211,6 +211,36 @@ Don't ask me for more details about it. Unfortunately this don't define a primit
   _Toby_:  I like what is written above (with one exception), but I think that it\'s too much for this list.  We should have a brief sentence and then link to other articles that explain more.  To some extent, this sort of thing is at [[internalization]] and [[internal language]], but I propose to use these paragraphs as the start of a new entry [[universe]] (which currently redirects, somewhat parochially, to [[Grothendieck universe]]).  I\'ll probably do that myself in about an hour.  (The exception is this:  The wording implies that nothing can be formulated in the trivial category, but in fact *everything* can be formulated there ---up to and including a proof of $\bot$--- and *that* is what makes it useless: it is too strong, not too weak.)
 
   _Toby_:  OK, I\'m doing this.
+
+  _Rafael_: Sorry for the delay but i have so much to do and i am not done with everything yet.
+
+  Toby, i like what you wrote about mathematical universes.
+
+  Urs, Directed space is better than space, thank you for the addition. I also like your compilation of the discussion and its corrected version by David.
+
+  Then, just a comment on "The theory of categories as primitive mathematical universes". You should be able to do some kind of geometry in a universe, i would say some kind of homotopy theory. But it is in fact a good idea to separate directed space and mathematical universe.
+
+  I suppose that the smalness condition on categories wasn't somehow necessary when taking the nerve since it has been removed.
+
+  Now that this is taken care of, to the discussion about the difference between CW-complexes and topological spaces.
+I have done some research and think the discussion is really about how you view sets. There is an algebraic difference (but not geometric) between a set of cells and a set of points that make up cells.
+
+  I think that Nakaharas lovely book Geometry, Topology and Physics is to blame. It is here that this and related definitions rooted in my mind. He is speaking about simplicial complexes but the same holds for the more general CW-complexes or they would not be complexes (p 67):
+
+  "Let K be a set of finite number of simplexes in $R^m$. If these simplexes are nicely fitted together, K is called a simplicial complex. ...". He calls |K| the polyhedron of the simplicial complex. I have also seen 4 other definitions (not including the below) and only this one sees a "CW-complex" as a set of simplicies. A very clear minority. The other definitions are not identical either but close. No wonder no one understands mathematics, everyone say something different!!!
+
+  On the other hand a 1D CW-complex is a graph, as John remarked. A graph is an ordered pair ({vertices},{edges between vertices}) which nicely fits with Nakaharas definition.
+
+  This should explain that i was not thinking about globular sets (see Davids answer).
+
+  I must say that i don't like wikipedias definition of a CW-complex. See instead the definition at [mathplanet](http://planetmath.org/encyclopedia/CWComplex.html) (which answers my question about which topology to impose, the weak topology) and [mathworld](http://mathworld.wolfram.com/CW-Complex.html).
+
+  So now i have to decide what a CW-complex is. If i go with the majority of definitions, what should i call a "set of nicely glued simplicies"? I can't call it a simplicial complex.
+
+  Mike Schulman, Thanks for your comment on "enriched internal categories" below.
+
+  Finally, an addition to primitive spaces just for completeness: Two separated points (when taken out) of a "set" (so there are no relations to other points) are of the same type if there exist a structure preserving mapping between the points such as a homomorphism. (i don't know precisely what this means for fractals so don't ask me about it.) It might say more about them or not.
+
   =--
 
 * A theory of models for [[homotopy type]]s. In [[Alexander Grothendieck|Grothendieck's]] approach to homotopy theory he called $Cat$ together with the class of functors that induced weak equivalences on nerves a [[fundamental localizer]]. See [[the homotopy theory of Grothendieck]].
@@ -303,6 +333,7 @@ These are often seen as a part of category theory even if they are only related 
 * [[simplicial set|Simplicial sets]]
 * [[multicategory|Multicategories]]
 * Pseudocategories (nonstrict internal categories)
+* Supercategories (i think they belong here)
 
 #Applied category theory#
 
