@@ -64,5 +64,6 @@ As discussed in the article on [[operad|operads]], the notion of Lawvere theory 
 
 1. As _finite-product theories_, Lawvere theories are at one end of a spectrum of [[theory|theories]] of differing logical strengths. For example, there are left exact theories, regular theories, geometric theories, and so on, which require for their interpretation categories of differing degrees of strength in their [[internal logic]]. See also [[classifying topos]].
 
+1. Some people use 'finite-product theory' to mean a category with finite products, not necessarily with the property that every object is isomorphic to a product of copies of a given object $x$, reserving 'Lawvere theory' to refer to finite product theories with this special property.  Some, but not all, the above discussion generalizes to this case.  There is, for example, a finite products theory for ring-module pairs.
 
 [[!redirects finite-product theory]]
