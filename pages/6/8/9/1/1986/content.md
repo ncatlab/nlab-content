@@ -20,6 +20,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]: 
 
+  * expanded [[simplicial object]] a little, added Idea, Examples and mentioned cosimplicial objects 
+
+    corrected at [[singular cohomology]] the alleged simplicial ring of functions to a cosimplicial ring
+
   * replied to [[Ronnie Brown]] at [[singular cohomology]]
 
   * thanks to [[Toby Bartels|Toby]] for [[space]] -- I have just one request for a change of wording there
