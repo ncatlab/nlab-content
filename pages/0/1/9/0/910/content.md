@@ -15,8 +15,9 @@ The following conditions on a space $X$ are equivalent:
 continuous if and only if $f$ is $k$-continuous.
 1. There is a set $S$ of compact Hausdorff spaces such that the previous condition holds for all $C \in S$.
 1. $X$ is an [[identification space]] of a [[disjoint union]] of compact Hausdorff spaces.
+1. A subset $U\subseteq X$ is open if and only if $t^{-1}(U)$ is open for any compact Hausdorff space $C$ and continuous $t:C\to X$.
 
-A space $X$ is a __$k$-space__, or is __compactly generated__, if any (hence all) of the above conditions hold.
+A space $X$ is a __$k$-space__ if any (hence all) of the above conditions hold.  Some authors also say that a $k$-space is __compactly generated__, while others reserve that term for a $k$-space which is also _weak Hausdorff_, meaning that the image of any $t:C\to X$ is closed (when $C$ is compact Hausdorff).
 
 # Cartesian closure #
 
@@ -29,7 +30,7 @@ topology, which has the subbase of sets $M(t,U)$ for a given $t: C
 \to X$ and $U$ open in $Y$ of all $k$-continuous functions $f:X \to
 Y$ such that $f(t(C))\subseteq U$.
 
-It follows that the category of compactly generated spaces and continuous maps is also cartesian closed.
+It follows that the category of $k$-spaces and continuous maps is also cartesian closed.  This remains true if we also impose the weak Hausdorff condition.
 
 # Local cartesian closure #
 
@@ -42,11 +43,22 @@ closed subsets of a space $X$ by regarding this as the space of maps
 to the [[Sierpinski space]] (the set $\{0,1\}$ of [[truth value]]s in which $\{1\}$
 is closed but not open). From this one can get an exponential law for
 spaces over $B$ if $B$ is $T_0$, so that all fibres of spaces over
-$B$ are closed in their total space.
+$B$ are closed in their total space.  Note that weak Hausdorff implies $T_0$.
+
++--{: .query}
+[[Mike Shulman]]: What precisely does "get an exponential law" mean?  Do you mean that $k Top/B$ is cartesian closed if $B$ is $T_0$?
+=--
 
 
 # References #
 
 * R. Brown, _Topology and groupoids_, Booksurge 2006, section 5.9. 
+
 * Booth, Peter I.; Heath, Philip R.; Piccinini, Renzo A.
 Fibre preserving maps and functional spaces. Algebraic topology (Proc. Conf., Univ. British Columbia, Vancouver, B.C., 1977), pp. 158--167, Lecture Notes in Math., 673, Springer, Berlin, 1978.
+
+* J. P. May, _A Concise Course in Algebraic Topology_, Chapter 5 (I think)
+
+[[!redirects compactly generated spaces]]
+[[!redirects k-space]]
+[[!redirects k-spaces]]
