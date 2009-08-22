@@ -381,11 +381,14 @@ Other standard references include:
 * [[Tom Leinster]], _Higher operads, higher categories_ [free online] (http://arxiv.org/PS_cache/math/pdf/0305/0305049v1.pdf)
 * [[Eugenia Cheng]], [[Aaron Lauda]], _Higher-dimensional categories: an illustrated guide book_ [free online] (http://cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf)
 * [[Peter Johnstone]], _Topos theory_
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_ [free online] (http://www-math.mit.edu/~lurie/papers/highertopoi.pdf)
   +-- {: .query}
   Rafael: Urs, why have you removed a perfectly good link?
 
   _Toby_:  If you mean [this edit](http://ncatlab.org/nlab/revision/diff/category+theory/73), Urs didn\'t so much *remove* a link as *change* it.  Your (Rafael\'s) link is actually avaiable at the target of Urs\'s link ... although it\'s also reasonable to have both of them here if you want to restore yours.
+
+  Rafael: The link at the target is a draft. My was to the complete book :) I do want links at both places just to be systematic. Maby i should change the link at the target to point there also.
+
   =--
 * Project description: higher categorical structures and their applications [free online] (http://www.math.uchicago.edu/~may/NCATS/ForWeb.pdf)
 
