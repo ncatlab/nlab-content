@@ -16,7 +16,7 @@ We can import new entries by looking at [category:category](http://ncatlab.org/n
 
 * [[Grp]] - [[group]]s as objects, homomorphisms as morphisms.  Since this category consists of models of a [[Lawvere theory]] it has all small [[limit|limits]] and [[colimit|colimits]].
 
-* [[Rel]] - [[sets]] as objects, [[relation|relations]] as morphisms.  This is an [[allegory]] and therefore a [[dagger category]].   The empty set is an [[initial|initial object]] and [[terminal|terminal object]] object, and disjoint union plays the role of [[biproduct]].   This category does not have [[equalizer|equalizers]] or [[coequalizer|coequalizers]].
+* [[Rel]] - [[sets]] as objects, [[relation|relations]] as morphisms.  This is an [[allegory]] and therefore a [[dagger category]].   The empty set is an [[zero object]], and disjoint union plays the role of [[biproduct]].   This category does not have [[equalizer|equalizers]] or [[coequalizer|coequalizers]].
 
 * [[Ring]] - [[ring|rings]] as objects, ring homomorphisms as morphisms.  Since this category consists of models of a [[Lawvere theory]] it has all small [[limit|limits]] and [[colimit|colimits]].
 
@@ -70,4 +70,9 @@ My idea is that this article should be a quick place to look up basic categorica
  
 By the way: people have been talking to Rafael on [Recently Revised](http://ncatlab.org/nlab/recently_revised) for many weeks now, but he doesn't seem to reply to their comments there, which is making some people annoyed.
 
+_Toby_:  I can see that a list of categories *with properties* could be useful.
+
+John, you don\'t mean Recently Revised; you mean [[latest changes]].  (Your link will break when Recently Revised itself comes back.)
+
+Rafael, I don\'t know if you\'ve been checking [[latest changes]], but I often log your edits there after I see them.  But I don\'t see why anyone would get upset that you don\'t read their commentary if they leave it on the wrong page.
 =--
