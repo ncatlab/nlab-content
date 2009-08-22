@@ -32,3 +32,5 @@ Let us denote the category of models and homomorphisms (in $Set$) of an algebrai
 * <span id="Johnstone"></span>
   Peter Johnstone; [[Stone Spaces]]
   [Johnstone]: #Johnstone
+
+_Someone should improve this article so that it gives a **definition** of 'algebraic theory' before considering special cases such as 'commutative algebraic theory'._
