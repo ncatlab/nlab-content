@@ -12,11 +12,8 @@ The **Mitchell--B&#233;nabou language** is a particuarly simply [[internal langu
 
 The Mitchell--B&#233;nabou language is a powerful way to describe various objects in a topos as if they were [[sets]] and hence is a way of making the topos into a generalized [[set theory]], to write and prove statements in a topos using first order intuitionistic predicate logic, to consider toposes as type theories and to express properties of a topos.
 
-Any appropriate language $L$ conversely generates a [[linguistic topos]] $E(L)$.
+Any intuitionistic well-termed and well-typed language $L$ conversely generates a [[linguistic topos]] $E(L)$.
 
-+-- {: .query}
-Which are the appropriate languages to generate a topos?
-=--
 
 
 [[!redirects Mitchell–Benabou language]]
