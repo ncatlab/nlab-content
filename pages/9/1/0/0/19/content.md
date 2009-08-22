@@ -233,7 +233,7 @@ I have done some research and think the discussion is really about how you view 
 
   This should explain that i was not thinking about globular sets (see Davids answer).
 
-  I must say that i don't like wikipedias definition of a CW-complex. See instead the definition at [mathplanet](http://planetmath.org/encyclopedia/CWComplex.html) (which answers my question about which topology to impose, the weak topology) and [mathworld](http://mathworld.wolfram.com/CW-Complex.html).
+  I must say that i don't like wikipedias definition of a CW-complex. See instead the definition at [planetmath](http://planetmath.org/encyclopedia/CWComplex.html) (which answers my question about which topology to impose, the weak topology) and [mathworld](http://mathworld.wolfram.com/CW-Complex.html).
 
   So now i have to decide what a CW-complex is. If i go with the majority of definitions, what should i call a "set of nicely glued simplicies"? I can't call it a simplicial complex.
 
