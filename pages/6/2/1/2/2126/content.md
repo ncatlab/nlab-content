@@ -13,7 +13,7 @@ I'd do it myself if I had the time right now, but I have to run. Sorry.
 =--
 
 
-For $R$ some [[ring]], let $Maps(\Pi(X),R)^{\bullet}$ be the [[simplicial object|simplicial]] [[ring]] of $R$-valued functions on the spaces of $n$-simplices. The corresponding [[Moore complex|Moore cochain complex]] $C^\bullet(X)$ is the cochain complex whose [[chain homology and cohomology|cochain cohomology]] is the __singular cohomology__ of the space $X$:
+For $R$ some [[ring]], let $Maps(\Pi(X),R)^{\bullet}$ be the [[cosimplicial object|cosimplicial]] [[ring]] of $R$-valued functions on the spaces of $n$-simplices. The corresponding [[Moore complex|Moore cochain complex]] $C^\bullet(X)$ is the cochain complex whose [[chain homology and cohomology|cochain cohomology]] is the __singular cohomology__ of the space $X$:
 
 +-- {: .standout}
 a homogeneous element $\omega_p \in C^p(X)$ is a function on $p$-simplices in $X$.
