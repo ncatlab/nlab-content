@@ -51,8 +51,11 @@ and every other left Quillen functor with this property factors by a unique left
 
 This is theorem 3.3.19 in _ModLoc_ .
 
-=--
++-- {: .query}
 
+_Rafael Borowiecki_: How do this relate to Bousfield localization for spectra?
+
+=--
 
 #Bousfield localization in triangulated categories#
 
