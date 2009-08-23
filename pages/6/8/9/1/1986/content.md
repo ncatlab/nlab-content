@@ -15,6 +15,15 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+## 2009-08-23
+
+* [[Mike Shulman]]:
+
+  * Wrote a bit about structured spaces at [[space]].
+  * Comments about terminology at [[compactly generated space]].
+  * Added $Mod_R$ to [[database of categories]].
+  * Continued discussions at [[symmetric function]] and [[synthetic differential geometry]].
+
 
 ## 2009-08-22:
 
