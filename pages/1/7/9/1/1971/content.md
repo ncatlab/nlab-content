@@ -45,6 +45,9 @@ $$ \Lambda_0 \to \Lambda_1 \to \Lambda_2 \to \cdots $$
 Right now I don't understand the difference between these two constructions well enough to tell which one is 'right'.
 Can someone explain the difference?  Presumably there's more stuff in the limit than the colimit.
 
+[[Mike Shulman]]: I think the difference is that the limit contains "polynomials" with infinitely many terms, and the colimit doesn't.  That's often the way of these things.
+
+Actually, on second glance, I don't understand the description of the maps in the colimit system; are you sure they actually exist?  What exactly does it mean to "add in new terms with the new variable to make the result symmetric"?
 =--
 
 The definition depends on the ground [[field]] (or [[commutative ring]] or [[rig]]) $k$, so we may write $\Lambda(k)$ to be precise.
