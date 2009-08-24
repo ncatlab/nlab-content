@@ -17,7 +17,7 @@ A\otimes_\tau C\otimes_\tau A\to A
 $$
 is a quasiisomorphism. In that case, Keller calls the triple $(C,A,\tau)$ the _Koszul--Moore triple_. Lefevre-Hasegawa's thesis (<a href="http://people.math.jussieu.fr/~keller/lefevre/TheseFinale/tel-00007761.pdf">pdf</a>) asserts that in that case $A$ determines $C$ up to a weak equivalence (defined above) and $C$ determines $A$ up to a quasi-isomorphism. Moreover,
 $$H_* C = \mathrm{Tor}^A_*(k,k)\quad \text{and}\quad H^* A = \mathrm{Ext}_C(k,k)$$
-where $k$ is the ground field. Notice that such a formulation of Koszul duality using coalgebras and coderived categories avoids various finiteness conditions present when Koszul duality is phrased as relating algebras to algebras.
+where $k$ is the [[ground field]]. Notice that such a formulation of Koszul duality using coalgebras and coderived categories avoids various finiteness conditions present when Koszul duality is phrased as relating algebras to algebras.
 
 #Remarks#
 
