@@ -1,6 +1,6 @@
 #Idea#
 
-In the [most familiar sense](http://en.wikipedia.org/wiki/Coalgebra), a coalgebra is just like an associative algebra, but with all the maps 'turned around'.   More precisely, fix a ground field $k$.    An **algebra** $A$ is a vector space equipped with a multiplication
+In the [most familiar sense](http://en.wikipedia.org/wiki/Coalgebra), a coalgebra is just like an associative algebra, but with all the maps 'turned around'.   More precisely, fix a [[ground field]] $k$.    An **algebra** $A$ is a vector space equipped with a multiplication
 
 $$m : A \otimes A \to A$$
 
