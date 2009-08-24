@@ -5,7 +5,7 @@ considers notions of higher generalized functions on higher generalized spaces (
 
 ## Motivating toy example: matrices ##
 
-The motivating toy example is that where all spaces in question are just _finite sets_ and functions are just maps from finite sets to a given ground field: for $X$ a finite set the collection of functions $C(X)$ on $X$ is canonically identified with the vector space spanned by the elements of $X$. Moreover, for two finite sets $X_1$ and $X_2$ functions on the [[product]] set $X_1 \times X_2$ are canonically identified with $|X_1| \times |X_2|$-matrices 
+The motivating toy example is that where all spaces in question are just _finite sets_ and functions are just maps from finite sets to a given [[ground field]]: for $X$ a finite set the collection of functions $C(X)$ on $X$ is canonically identified with the vector space spanned by the elements of $X$. Moreover, for two finite sets $X_1$ and $X_2$ functions on the [[product]] set $X_1 \times X_2$ are canonically identified with $|X_1| \times |X_2|$-matrices 
 $$
   C(X_1 \times X_2) \simeq Mat(n= |X_1|, m = |X_2|)
   \,.
