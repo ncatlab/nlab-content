@@ -1,6 +1,6 @@
 #Definition#
 
-The **category algebra** $k[C]$ over a ground field $k$ of a small [[category]] $C$ is the [[vector space]] whose basis is  the morphisms of $C$, where the product of two morphisms $f$ and $g$ is defined to be their composite if composable, and 0 otherwise:
+The **category algebra** $k[C]$ over a [[ground field]] $k$ of a small [[category]] $C$ is the [[vector space]] whose basis is  the morphisms of $C$, where the product of two morphisms $f$ and $g$ is defined to be their composite if composable, and 0 otherwise:
 $$
   f \cdot g := \left\lbrace
     \array{
@@ -90,7 +90,7 @@ Given this, consider the trivial vector bundle on the set of objects $C_0$. This
 $$
   I : C_0 \to Vect_k
 $$
-of the ground field $k$ to each element of $C_0$. There are two different ways to pull this vector bundle on objects back to a vector bundle on morphisms, once along the source, once along the target map. 
+of the [[ground field]] $k$ to each element of $C_0$. There are two different ways to pull this vector bundle on objects back to a vector bundle on morphisms, once along the source, once along the target map. 
 
 Then notice that the set of natural transformations between these two vector bundles
 $$
