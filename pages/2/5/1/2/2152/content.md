@@ -1,4 +1,4 @@
-In middle and high schools, analytic geometry refers to elementary methods in the geometry of $n$-dimensional [[Euclidian space]] involving *coordinate calculations*; it is usually combined with linear algebra taught in a geometric way.
+In middle and high schools, analytic geometry refers to elementary methods in the geometry of $n$-dimensional [[Euclidean space]] involving *coordinate calculations*; it is usually combined with linear algebra taught in a geometric way.
 
 In research mathematics, when one says analytic geometry, analytic refers to [[analytic function]]s in the sense of Taylor expansion and by __analytic geometry__ one usually means the study of geometry of complex (holomorphic) [[manifold]]s, their analytic subsets, [[Stein domain]]s and related notions. Similarly to an [[algebraic variety]], an [[analytic variety]] is locally given as a locus of a set of zeros of a finite family of holomorphic functions. A short survey can be found in a chapter of Dieudonne's _Panorama of pure mathematics_. 
 
