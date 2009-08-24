@@ -50,7 +50,7 @@ Can someone explain the difference?  Presumably there's more stuff in the limit 
 Actually, on second glance, I don't understand the description of the maps in the colimit system; are you sure they actually exist?  What exactly does it mean to "add in new terms with the new variable to make the result symmetric"?
 =--
 
-The definition depends on the ground [[field]] (or [[commutative ring]] or [[rig]]) $k$, so we may write $\Lambda(k)$ to be precise.
+The definition depends on the [[ground field|ground]] [[field]] (or [[commutative ring]] or [[rig]]) $k$, so we may write $\Lambda(k)$ to be precise.
 
 
 ##Properties##
