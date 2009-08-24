@@ -38,7 +38,7 @@ Note that this definition implies that every object $V$ is a direct sum of simpl
  \[
  Hom(V, X_i) \otimes Hom(X_i, V) \rightarrow k
 \]
-given by sending $f \otimes g \mapsto \langle f \circ g \rangle$ where the "$\langle \cdot \rangle$" notation refers to extracting scalars from endomorphisms of simple objects (each such endomorphism is a scalar multiple of the identity). We also have a canonical copairing
+given by sending $f \otimes g \mapsto \langle f \circ g \rangle$ where the "$\langle \cdot \rangle$" notation refers to extracting [[scalars]] from endomorphisms of simple objects (each such endomorphism is a scalar multiple of the identity). We also have a canonical copairing
  \[
  k \rightarrow Hom(X_i, V) \otimes Hom(V, X_i)
 \]
