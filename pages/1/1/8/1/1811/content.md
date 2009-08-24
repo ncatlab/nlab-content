@@ -108,7 +108,7 @@ The following orthogonality integral relation is over product of unit spheres in
 $$
 \int_{\hat{k}}\int_{\hat{p}} d\Omega_{\hat{k}}d\Omega_{\hat{p}} P_l(\hat{k}\hat{p}) P_{l'}(\hat{k}\hat{q}) P_{l''}(\hat{p}\hat{q}) = \left(\frac{4\pi}{2l+1}\right)\delta_{ll'}\delta_{ll''}, \,\,\,\,\,(*)
 $$
-where the arguments of Legendre polynomials are the scalar products of the unit vectors. 
+where the arguments of Legendre polynomials are the [[inner product]]s of the unit vectors. 
 
 _Zoran_: the last formula $(*)$ is in my own formula notes which I have written as a student many years ago and used hundreds of times, but it now looks to me suspicious; I have no time to check it right now. 
 
