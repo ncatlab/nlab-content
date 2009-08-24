@@ -10,7 +10,7 @@ $$
 $$
 is non-degenerate.
 
-Here on the right what is means is the diagram in the modular tensor category made from the identityie morphisms, the duality morphisms and the braiding morphism on the objects $U_i$ and $U_j$ that looks lik a fuigure-8 with one circle threading through the other, and this diagram is interpreted as an element in the endormorphism space of the tensor unit object, which in turn is canonically identified with the ground field.
+Here on the right what is means is the diagram in the modular tensor category made from the identityie morphisms, the duality morphisms and the braiding morphism on the objects $U_i$ and $U_j$ that looks lik a fuigure-8 with one circle threading through the other, and this diagram is interpreted as an element in the endormorphism space of the tensor unit object, which in turn is canonically identified with the [[ground field]].
 
 In the description of 2-dimensional [[conformal field theory]] in the [[FFRS-formalism]] it is manifestly this kind of modular diagram that encodes the torus partition function of the CFT. This explains the relevance of modular tensor categories in the description of [[conformal field theory]].
 
