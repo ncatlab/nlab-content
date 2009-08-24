@@ -34,6 +34,8 @@ Other terms which depend on a ground ring/field include:
 *  [[topological vector space]]
 *  [[Legendre polynomial]]
 *  [[differential form]]
+*  [[inner product space]]
+*  [[affine space]]
 
 This list is very incomplete, made mostly by searching for 'ground ring', 'base field', etc.
 
