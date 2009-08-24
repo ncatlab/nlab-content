@@ -30,7 +30,7 @@ $$
   }
 \,,
 $$
-where $pt \to Vect$ goes to the ground field $k$,
+where $pt \to Vect$ goes to the [[ground field]] $k$,
 the monoidal category of $G$-graded vector spaces can be identified with the monoid of spans of the form
 $$
   \array{
