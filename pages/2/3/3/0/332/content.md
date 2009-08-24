@@ -9,7 +9,7 @@
 * [[derived smooth manifold]], [[cobordism]], [[Deligne cohomology]]
 * [[noncommutative geometry]]
 * [[noncommutative algebraic geometry]], [[noncommutative scheme]]
-* [[algebraic geometry]]
+* [[algebraic geometry]], [[analytic geometry]]
 * [[scheme]], [[quasicompact]], [[noetherian scheme]], [[reduced scheme]], [[integral scheme]]
 * [[spectrum (geometry)]]
 * [[algebraic variety]], [[normal variety]], [[Kähler manifold]], [[hyperplane line bundle]]
