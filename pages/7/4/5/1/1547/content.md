@@ -55,7 +55,7 @@ $$(U_\alpha \cap U_\beta) \times V \overset{(\langle incl, g_{\alpha\beta} \rang
 
 ## Remarks ##
 
-* In most applications, the ground field of scalars is assumed to be $\mathbb{R}$ or $\mathbb{C}$, although sometimes other fields are allowed, as in the study of algebraic vector bundles. 
+* In most applications, the [[ground field]] of scalars is assumed to be $\mathbb{R}$ or $\mathbb{C}$, although sometimes other fields are allowed, as in the study of algebraic vector bundles. 
 
 * In most cases (as in [[K-theory]]), it is implicitly assumed that the vector space $V$ is finite-dimensional. 
 
