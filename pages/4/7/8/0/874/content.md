@@ -1,12 +1,14 @@
 The _cartesian product_ is a [[product]] in [[Set]], the category of [[sets]].
 
+
 # Definition #
 
 Given any family $(A_i)_{i:I}$ of sets, the __cartesian product__ $\prod_i A_i$ of the family is the set of all [[functions]] $f$ from the index set $I$ with $f_j$ in $A_j$ for each $j$ in $I$.
 
-As stated, the [[target]] of such a function depends on the argument, which is natural in dependent type theory; but if you don't like this, then define $\prod_i A_i$ to be the set of those functions $f$ from $I$ to the [[disjoint union]] $\biguplus_i A_i$ such that $f_j \in A_j$ (treating $A_j$ as a [[subset]] of $\biguplus_i A_i$ as usual) for each $j$ in $I$.
+As stated, the [[target]] of such a function depends on the argument, which is natural in dependent [[type theory]]; but if you don't like this, then define $\prod_i A_i$ to be the set of those functions $f$ from $I$ to the [[disjoint union]] $\biguplus_i A_i$ such that $f_j \in A_j$ (treating $A_j$ as a [[subset]] of $\biguplus_i A_i$ as usual) for each $j$ in $I$.
 
 In traditional forms of [[set theory]], one can also take the target of $f$ to be the [[union]] $\bigcup_i A_i$ or even the class of all objects (equivalently, leave it unspecified).
+
 
 # Special cases #
 
@@ -22,4 +24,6 @@ Given a set $A$, the cartesian product of the unary family $(A)$ may be identifi
 
 The cartesian product of the empty family $()$ is the [[point]], a set whose only element is the __empty tuple__ $()$; we often call this set $1$ (or $\pt$, when we\'re Urs) and write its element as $*$.
 
+
 [[!redirects cartesian products]]
+[[!redirects Cartesian product]]
