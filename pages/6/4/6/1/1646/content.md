@@ -16,7 +16,7 @@ that is (1--3) _sesquilinear_ and (4) _conjugate-symmetric_ (4); that is:
 1.  $ \langle c x, y \rangle = \bar{c} \langle x, y \rangle $ and $ \langle x, c y \rangle = c \langle x, y \rangle $;
 1.  $ \langle x, y \rangle = \overline{\langle y, x \rangle} $.
 
-Here we use the _physicist\'s convention_ that the inner product is conjugate-linear in the first variable rather than in the second, rather than the _mathematician\'s convention_, which is the reverse.  The physicist\'s convention fits in a little better with $2$-[[2-Hilbert space|Hilbert space]]s.  Note that we use the same field as values of the inner product as for scalars; the complex conjugation will be irrelevant for some choices of field.
+Here we use the _physicist\'s convention_ that the inner product is conjugate-linear in the first variable rather than in the second, rather than the _mathematician\'s convention_, which is the reverse.  The physicist\'s convention fits in a little better with $2$-[[2-Hilbert space|Hilbert space]]s.  Note that we use the same field as values of the inner product as for [[scalars]]; the complex conjugation will be irrelevant for some choices of field.
 
 The axiom list above is rather redundant.  First of all, (1) follows from (3) by setting $c = 0$; besides that, (1--3) come in pairs, only one of which is needed, since each half follows from the other using (4).  It is even possible to derive (3) from (2) by supposing that $V$ is a [[topological vector space]] and that the inner product is continuous (which, as we will see, is always true anyway for a Hilbert space).
 
