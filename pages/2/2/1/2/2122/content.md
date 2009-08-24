@@ -16,11 +16,11 @@ We can import new entries by looking at [category:category](http://ncatlab.org/n
 
 * [[Grp]]: [[group]]s as objects, homomorphisms as morphisms.  Since this category consists of models of a [[Lawvere theory]] it has all small [[limit|limits]] and [[colimit|colimits]].
 
-* $Mod_R$: (right) $R$-[[modules]] as objects, $R$-module homomorphisms as morphisms.  There is one such category for any [[ring]] $R$ (or more generally, any small [[Ab-enriched category]].  This is also the category of models of a [[Lawvere theory]] and is thus complete and cocomplete.  It is an [[abelian category]].  If $R$ is commutative, then $Mod_R$ is a [[closed symmetric monoidal category]] under the [[tensor product]] of $R$-modules.
+* $Mod_R$: (right) $R$-[[modules]] as objects, $R$-module homomorphisms as morphisms.  There is one such category for any [[ring]] $R$ (or more generally, any small [[Ab-enriched category]].  This is also the category of models of a [[Lawvere theory]] and is thus complete and cocomplete.  It is an [[abelian category]] and even [[Grothendieck category]].  If $R$ is commutative, then $Mod_R$ is a [[closed symmetric monoidal category]] under the [[tensor product]] of $R$-modules.
 
 * [[Rel]]: [[sets]] as objects, [[relation|relations]] as morphisms.  This is an [[allegory]] and therefore a [[dagger category]].   The empty set is an [[zero object]], and disjoint union plays the role of [[biproduct]].   This category does not have [[equalizer|equalizers]] or [[coequalizer|coequalizers]].
 
-* [[Ring]]: [[ring|rings]] as objects, ring homomorphisms as morphisms.  Since this category consists of models of a [[Lawvere theory]] it has all small [[limit|limits]] and [[colimit|colimits]].
+* [[Ring]]: [[ring|rings]] as objects, ring homomorphisms as morphisms.  Since this category consists of models of a [[Lawvere theory]] it has all small [[limit|limits]] and [[colimit|colimits]]. (maybe we should have unital rings $Ring_1$ separately; the difference is important sometimes). 
 
 * [[SimpSet]]: [[simplicial sets]] as objects, simplicial maps as morphisms.  This is a [[presheaf]] [[topos]].
 
@@ -83,4 +83,6 @@ _Rafael_: I am sorry to have missed the logging but i only recently by accident 
 _John_: Sorry, I meant [[latest changes]].  It's a good way to discuss what's going on with various new entries.
 
 _Andrew_: Actually, it's a very bad way to _discuss_ what's going on, but an okay way to _announce_ what's going on.  But that's another battle for another day.  What I'm really here for is to ponder the format of this page a little.  At the moment, we can't do a proper database-based page of all this stuff so we have to think of the next best thing.  Is the current format most useful?  Or would a table with loads of 'X's be more appropriate?  The categories would, of course, be linked to their pages where one could find out more.  For example, here we would merely record that, say, Rel didn't have all limits and colimits.  On the actual page there would be an example showing why not.  One would need a few "codes" for the entries along the lines of "Yes", "No", "Don't Know", "Sort of Yes", "Sort of No".  That sort of thing.  One could then search by name using the browser search.  What you wouldn't get, that you would get from a database, would be the ability to, say, only show complete categories.  But how likely is that to be a request?  I'd expect the main use to be "I don't remember if Frolicher spaces are locally cartesian closed or not.".  I would think that a table format would be more useful than this list format, but I may be in a minority here (I usually am) and I'd rather not go to the effort of putting it in that format only to find no-one else likes it.
+
+[[Zoran Škoda]]: I agree with John that the main purpose is to list many properties of well known categories, rather than listijng definitions of exotic categories. Those categories which already have their page on the nlab could be expanded on those pages rather than here. For some not only existence of limits but also a construction of limits can be useful. 
 =--
