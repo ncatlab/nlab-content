@@ -122,8 +122,7 @@ notation,
 $$ R = \{\langle b, a \rangle \in B \times A: b \in_B
 \chi_R(a)\}.$$
 Hence, there are natural bijections
-$$ \displaystyle \frac{R \subseteq B \times A}{A \to
-P(B)} \qquad \frac{R \subseteq B \times A}{B \to P(A)}$$
+$$ \displaystyle \frac{R \subseteq B \times A}{A \to P(B)} \qquad \frac{R \subseteq B \times A}{B \to P(A)}$$
 between subsets and classifying maps. The subset corresponding to
 $ \phi: A \to P(B)$ is denoted $ \left[\phi\right] \subseteq
 B \times A$ or $ \left[\phi\right] \subseteq A \times B$, and is
@@ -143,7 +142,7 @@ have $ A = \chi_A^{-1}(t)$; the elementhood relation $ \in_1
 Something similar happens in ETCS set theory:
  
 <strong>Lemma 1:</strong>
-The domain of elementhood $\in_1\to 1\times P(1) cong P(1)$ is terminal.
+The domain of elementhood $\in_1 \to 1 \times P(1) \cong P(1)$ is terminal.
  
 <strong>Proof: </strong>A map $ X \to \in_1$, that is, a map
 $ \chi: X \to P(1)$ which is in $ \in_1 \subseteq P(1)$,
@@ -210,27 +209,21 @@ $$ \cap_X: Sub(X) \times Sub(X) \to Sub(X).$$
 This corresponds to a natural transformation
 $$ \hom(X, P(1)) \times \hom(X, P(1)) \to \hom(X,
 P(1))$$
-which (by Yoneda) is given by a function $ \wedge: P(1) \times
-P(1) \to P(1)$. Working through the details, this function is obtained
+which (by Yoneda) is given by a function $ \wedge: P(1) \times P(1) \to P(1)$. Working through the details, this function is obtained
 by putting $ X = P(1) \times P(1)$ and chasing
-$$ \langle \pi_1, \pi_2\rangle \in \hom(P(1) \times
+$$ \langle \pi_1, \pi_2 \rangle \in \hom(P(1) \times
 P(1), P(1)) \times \hom(P(1) \times P(1), P(1))$$
 through the composite
-$$ \displaystyle \hom(X, P(1)) \times \hom(X, P(1))$
- 
-$ \displaystyle \stackrel{\sim}{\to} Sub(X) \times Sub(X)
+$$ \hom(X, P(1)) \times \hom(X, P(1)) \stackrel{\sim}{\to} Sub(X) \times Sub(X)
 \stackrel{\cap}{\to} Sub(X) \stackrel{\sim}{\to} \hom(X,
 P(1)).$$
 Let's analyze this bit by bit. The subset $ \left[\pi_1\right] =
 \pi_{1}^{-1}(t) \subseteq P(1) \times P(1)$ is given by
-$$ t \times id: 1 \times P(1) \to P(1) \times
-P(1),$$
+$$ t \times id: 1 \times P(1) \to P(1) \times P(1),$$
 and the subset $ \left[\pi_2\right] = \pi_{2}^{-1}(t) \subseteq
 P(1) \times P(1)$ is given by
-$$ id \times t: P(1) \times 1 \to P(1) \times
-P(1).$$
-Hence $ \left[\pi_1\right] \cap \left[\pi_2\right] \subseteq P(1)
-\times P(1)$ is given by the pullback of the functions $ t \times
+$$ id \times t: P(1) \times 1 \to P(1) \times P(1).$$
+Hence $ \left[\pi_1\right] \cap \left[\pi_2\right] \subseteq P(1) \times P(1)$ is given by the pullback of the functions $ t \times
 id$ and $ id \times t$, which is just
 $$ t \times t: 1 \times 1 \to P(1) \times P(1).$$
 The map $ \wedge: P(1) \times P(1) \to P(1)$ is thus defined to
@@ -242,11 +235,9 @@ back to the external intersection operation, let $ A \subseteq X,
 B \subseteq X$ be two subsets, with classifying maps $ \chi_A,
 \chi_B: X \to P(1)$. By the definition of $ \wedge$, we have that
 for all generalized elements $ x \in X$
-$$ \chi_A(x) \wedge \chi_B(x) = t$ if and only if
-$ \langle \chi_A(x), \chi_B(x) \rangle = \langle t, t
-\rangle$$
+$$\chi_A(x) \wedge \chi_B(x) = t if and only if \langle \chi_A(x), \chi_B(x) \rangle = \langle t, t \rangle$$
 (where the equality signs are interpreted with the help of
-equalizers). This holds true iff $ x$ is in the subset $ A
+equalizers). This holds true iff $x$ is in the subset $ A
 \subseteq X$ and is in the subset $ B \subseteq X$, i.e., if and
 only if $ x$ is in the subset $ A \cap B \subseteq X$. Thus
 $ \chi_A \wedge \chi_B$ is indeed the classifying map of $ A
@@ -264,7 +255,7 @@ identity element for $ \wedge$ is the element $ t: 1 \to
 P(1)$. In particular, $ P(1)$ carries an internal poset
 structure: given generalized elements $ u, v: A \to P(1)$, we may
 define
-$$ u \leq v$ if and only if $ u = u \wedge v$$
+$$ u \leq v if and only if u = u \wedge v$$
 and this defines a reflexive, symmetric, antisymmetric relation $
 \left[\leq\right] \subseteq P(1) \times P(1)$:
 $$ \left[\leq\right] :=_i \{\langle u, v \rangle \in
@@ -286,7 +277,7 @@ href="http://topologicalmusings.wordpress.com/2008/04/08/distributivity-topology
 algebra</a> in ordinary naive set-theoretic terms: it's a lattice
 $ P$ that has a material implication operator $ \Rightarrow$
 such that, for all $ x, y, z \in P$,
-$$ x \wedge y \leq z$ if and only if $ x \leq y
+$$ x \wedge y \leq z if and only if x \leq y
 \Rightarrow z.$$
 Now: by the universal property of $ P(1)$, a putative implication
 operation $ \Rightarrow: P(1) \times P(1) \to P(1)$ is uniquely
@@ -307,7 +298,7 @@ $$ \left[\leq\right] \subseteq P(1) \times P(1).$$
  
 <strong>Proof: </strong>We must check that for any three generalized
 elements $ u, v, w: A \to P(1)$, we have
-$$ w \leq u \Rightarrow v$ if and only if $ w
+$$ w \leq u \Rightarrow v if and only if w
 \wedge u \leq v.$$
 Passing to the external picture, let $ \left[u\right],
 \left[v\right], \left[w\right]$ be the corresponding subsets of $
@@ -323,12 +314,7 @@ $$ \displaystyle u(e) = (\left[w\right]
 is the classifying map of the subset $ \left[w\right] \cap
 \left[u\right] \subseteq \left[w\right]$.
  
-<strong>Proof:</strong> As subsets of $ \left[w\right]$, $
-(u e)^{-1}(t) = e^{-1} u^{-1}(t) = e^{-1}(\left[u\right]) =
-\left[w\right] \cap \left[u\right]$ where the last equation holds
-because both sides are the subsets defined as the pullback of two
-representative monos $ e: \left[w\right] \to A$, $ i:
-\left[u\right] \to A$. $ \Box$
+<strong>Proof:</strong> As subsets of $ \left[w\right]$, $$(u e)^{-1}(t) = e^{-1} u^{-1}(t) = e^{-1}(\left[u\right]) = \left[w\right] \cap \left[u\right]$$ where the last equation holds because both sides are the subsets defined as the pullback of two representative monos $ e: \left[w\right] \to A$, $ i: \left[u\right] \to A$. $ \Box$
  
 Continuing the proof of theorem 1, we see by lemma 2 that the
 condition $ u(e) \leq v(e)$ corresponds externally to the
@@ -430,10 +416,7 @@ we show how to internalize universal quantification.
 As we are dealing here now with <em>predicate</em> logic, let's begin
 by defining some terms as to be used in ETCS and topos theory:
 <ul>
- <li>An <em>ordinary predicate</em> of type $ A$ is a function
-$ \phi: A \to P(1)$. Alternatively, it is an ordinary element
-$ \phi': 1 \to P(1)^A \cong P(A)$. It corresponds (naturally and
-bijectively) to a subset $ \left[\phi\right]: S \subseteq
+ <li>An <em>ordinary predicate</em> of type $A$ is a function $\phi: A \to P(1)$. Alternatively, it is an ordinary element $\phi': 1 \to P(1)^A \cong P(A)$. It corresponds (naturally and bijectively) to a subset $\left[\phi\right]: S \subseteq
 A$.</li>
  <li>A <em>generalized predicate</em> of type $ A$ is a function
 $ \phi': X \to P(A) \cong P(1)^A$. It may be identified with
@@ -480,8 +463,7 @@ A$, forming e.g. $ \psi(x) \wedge \left[a=a\right]$) by composing
 with the projection $ \pi: X \times A \to X$. In terms of
 subsets, substitution along $ A$ is the natural external
 operation
-$$ (\left[\psi\right] \subseteq X) \mapsto
-(\left[\psi\right]\times A \subseteq X \times A).$$
+$$(\left[\psi\right] \subseteq X) \mapsto (\left[\psi\right]\times A \subseteq X \times A).$$
 Then, for any predicate $ \phi: X \times A \to P(1)$, we have the
 adjoint relationship
 $$ \left[\psi\right] \times A \subseteq \phi$ if and
