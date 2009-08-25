@@ -1,0 +1,15 @@
+Euler's __dilogarithm__ is a function $Li_2$ given by
+
+$$
+Li_2(x) = \sum_{n=1}^\infty \frac{x^n}{n^2}
+$$
+
+Dilogarithm is a special case of the _polylogarithm_ $Li_n$ (see [wikipedia](http://en.wikipedia.org/wiki/Polylogarithm)). Dilogarithm has remarkable relations to many areas of mathematics and mathematical physics including scissors congruence, Reidemeister's torsion, regulators in higher K-theory, Bloch group, CFT, Liouville's gravity, hyperbolic geometry and cluster transformations.  
+
+See also [[quantum dilogarithm]], the references at [mathworld](http://mathworld.wolfram.com/Dilogarithm.html)
+and P.P. Cook's [blog](http://ppcook.blogspot.com/2005/12/dilogarithms.html). 
+
+* Don Zagier, _The dilogarithm function_, in Frontiers in Number Theory, Physics, and Geometry II, pp. 3--35 (2007) [doi:10.1007/978-3-540-30308-4](http://dx.doi.org/10.1007/978-3-540-30308-4)
+
+* A. N. Kirillov, _Dilogarithm identities_ (1994) [hep-th/9408113](http://arxiv.org/abs/hep-th/9408113)
+
