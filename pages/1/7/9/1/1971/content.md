@@ -48,6 +48,8 @@ Can someone explain the difference?  Presumably there's more stuff in the limit 
 [[Mike Shulman]]: I think the difference is that the limit contains "polynomials" with infinitely many terms, and the colimit doesn't.  That's often the way of these things.
 
 Actually, on second glance, I don't understand the description of the maps in the colimit system; are you sure they actually exist?  What exactly does it mean to "add in new terms with the new variable to make the result symmetric"?
+
+[[David Corfield]]: The two constructions are explained very well in section 2.1 of the [Wikipedia article](http://en.wikipedia.org/wiki/Ring_of_symmetric_functions).
 =--
 
 The definition depends on the [[ground field|ground]] [[field]] (or [[commutative ring]] or [[rig]]) $k$, so we may write $\Lambda(k)$ to be precise.
