@@ -19,7 +19,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ## 2009-08-24
 
 *  [[Toby Bartels]]:
-   *  Wrote [[ground ring]] (with redirects [[base field]] and interpolations, also terms with [[scalar]]).  I see this as a place to talk about the issues related to this choice, although mostly it\'s a list of other articles now.
+   *  Started [[Euclidean space]], [[Cartesian space]], [[inner product space]], [[affine space]], [[constant function]].
+   *  Started [[ground ring]] (with redirects [[base field]] and interpolations, also terms with [[scalar]]).  I see this as a place to talk about the issues related to this choice, although mostly it\'s a list of other articles now.
    *  Formatting edits at each of Zoran\'s new pages listed below.
    *  Discussion at [[database of categories]].
    *  Added a link to Andrew\'s request for comments below.
