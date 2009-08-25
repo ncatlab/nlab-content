@@ -50,6 +50,8 @@ Can someone explain the difference?  Presumably there's more stuff in the limit 
 Actually, on second glance, I don't understand the description of the maps in the colimit system; are you sure they actually exist?  What exactly does it mean to "add in new terms with the new variable to make the result symmetric"?
 
 [[David Corfield]]: The two constructions are explained very well in section 2.1 of the [Wikipedia article](http://en.wikipedia.org/wiki/Ring_of_symmetric_functions).
+
+[[Mike Shulman]]: Thanks!  Here's what I get from the Wikipedia article: the projections are easy to define.  They are surjective and turn out to have sections (as ring homomorphisms).  The ring of symmetric functions can be defined either as the colimit of the sections, or as the the limit of the projections _in the category of graded rings_.  The limit in the category of all rings would contain too much stuff.
 =--
 
 The definition depends on the [[ground field|ground]] [[field]] (or [[commutative ring]] or [[rig]]) $k$, so we may write $\Lambda(k)$ to be precise.
