@@ -24,3 +24,7 @@ $Cart Sp$ can also be understood, for appropriate morphisms, as a category of mo
 Sometimes one is interested in allowing $n$ to take other values, in which case one wants a [[product]] in some category that might not be the Cartesian product on underlying sets.
 
 For example, if one is studying Cartesian spaces as inner product spaces, then one might want an $\aleph_0$-dimensional Cartesian space to be the $\aleph_0$-dimensional [[Hilbert space]] $l^2$, which is a proper subset of the cartesian product $\mathbb{R}^{\aleph_0}$.
+
+
+[[!redirects Cartesian space]]
+[[!redirects cartesian spaces]]
