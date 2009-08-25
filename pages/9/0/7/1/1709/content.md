@@ -560,11 +560,11 @@ Searching MathSciNet for _twisted cohomology_ led to the following chronology: I
 
 Most notably missing are
 
-* Reidemeister
+* Reidemeister (1938)
 
-* Steenrod
+* Steenrod (1947)
 
-* Olum
+* Olum (thesis 1947, published 1950)
 
 
 Next come several that involve twisted differentials more generally.
