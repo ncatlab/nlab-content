@@ -18,6 +18,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-25
 
+*  [[Toby Bartels]]:
+   *  More at [[affine space]].
+   *  You\'re welcome, Zoran; but to be honest, I\'m the one who invoked the problem.  (I won\'t say that I *caused* the problem, since the server did make a mistake, probably timing out.  But if I had been more careful, then I wouldn\'t have mindlessly hit reload and saved my edit again.)
+
 * [[Mike Shulman]]: 
 
   * Did some editing of [[heap]], including adding two alternate definitions of the automorphism group, considering its functoriality, and incorporating the discussion into the main text.
