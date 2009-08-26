@@ -1,21 +1,24 @@
 # Idea #
 
 In the context of [[synthetic differential geometry]] the notion of
-the _infinitesimal small_, which was historically conceived and is still
+the _infinitesimal small_, which was historically formalised and is still
 widely thought of in terms
-of the limit construtions of differential calculus, is conceived 
+of the limit constructions of differential calculus, is conceived 
 instead axiomatically in terms of special properties of certain
 _infinitesimal objects_ in a suitable [[topos]] of [[space]]s.
 
+
 # Definition #
 
-**Definition (Lawvere)**
++-- {: .un_defn}
+###### Definition (Lawvere)
 
 In a [[cartesian closed category]] $C$ an [[object]] $D$ is called
 **infinitesimal** or **tiny** or **atomic** if the [[hom-functor]]
 $(-)^D : C \to C$ for maps out of $D$ (i.e. the functor of 
-[[exponential|exponentiation]] by $D$) is a [[left adjoint]], i.e.
+[[exponential object|exponentiation]] by $D$) is a [[left adjoint]], i.e.
 if it has a [[right adjoint]].
+=--
 
 In particular, since every [[left adjoint]] functor preserves colimits,
 such an object is a [[compact object]].
@@ -27,24 +30,25 @@ We list some standard examples of infinitesimal spaces that exist in
 reasonably nice contexts, in particular in contexts that model the axioms of 
 [[synthetic differential geometry]] including the [[Kock-Lawvere axiom]].
 
+
 ## the infinitesimal interval ##
 
-There are several different objects that one think 
+There are several different objects that one may think 
 of as an infinitesimal interval. 
 
 The smallest of them is often denoted $D$ and sometimes called the 
 "disembodied tangent vector" or the "walking tangent vector". It is
 such that a morphism $D \to X$ into a [[manifold]] $X$ is the same as
-a choice of point$x \in X$ and of a [[tangent bundle|tangent vector]] 
+a choice of point $x \in X$ and of a [[tangent vector]] 
 $v \in T_x X$. Equivalently, it is such that restricting a smooth function
 $f : \mathbb{R} \to \mathbb{R}$ along the inclusion 
-$D \hookrightarrow \mathbb{R}$ produces the first order [[jet]] defined
+$D \hookrightarrow \mathbb{R}$ produces the first-order [[jet]] defined
 by $f$ at the point $0 \hookrightarrow D \to \mathbb{R}$.
 
 Accordingly, for each $k \in \mathbb{N}$ 
 there is a "slightly bigger" infinitesimal interval often denoted $D_k$, which 
 is such that restricting a smooth function $f : \mathbb{R} \to \mathbb{R}$
-along $D_k \to \mathbb{R}$ produces the order $k$-jet represented by this 
+along $D_k \to \mathbb{R}$ produces the order-$k$ jet represented by this 
 function at the given point. 
 
 Still infinitesimal but bigger than all these is the object 
@@ -58,7 +62,7 @@ produces the [[germ]] of $f$ at $0$.
 
 The classical example of a realization of an infinitesimal object
 is in terms of what is (traditionally but undescriptively)
-called the _ring of dual numbers_. For that we place ourselves
+called the _ring of [[dual number]]s_. For that we place ourselves
 in some context in which [[space]]s are characterized [[duality|dually]]
 in terms of the [[space and quantity|quantities]] on them, i.e. in terms of their
 would-be function algebras. 
@@ -72,7 +76,8 @@ by a function that vanishes on the interval.
 
 Precisely: 
 
-**Lemma**
++-- {: .un_lemma}
+###### Lemma
 
 The ([[generalized smooth algebra|generalized smooth]]) algebra of smooth 
 functions $C^\infty([-t,t])$ on $[-t,t]$ is isomorphic to the quotient of the
@@ -83,39 +88,45 @@ $$
   C^\infty([-t,t]) \simeq C^\infty(\mathbb{R})/\{f \in C^\infty(\mathbb{R})| \forall x \in [-t,t]: f(x) = 0\}
     \,.
 $$
+=--
 
-**Proof** This is a corollary of the smooth version of Titze's theorem, 
++-- {: .proof}
+###### Proof
+
+This is a corollary of the smooth version of [[Tietze's theorem]], 
 which says that for $U \subset \mathbb{R}^n$ a closed subset, every smooth
 function on $U$ extends to a smooth function on all of $\mathbb{R}^n$.
 
 See page 20 of [[Models for Smooth Infinitesimal Analysis|MSIA]].
+=--
 
 
-As we think of the length of the interval shriking to an infinitesimal 
+As we think of the length of the interval shrinking to an infinitesimal 
 value, the notion of derivative of functions is such that we want to say
 that the statement "a function vanishes on the infinitesimal interval"
 is equivalent to "a function vanishes at the origin and its first derivative there vanishes, 
-too". This in turn is usually equivalent to "a function is a square of a function that vanishes
+too". This in turn is usually equivalent (in a smooth context) to "a function is a square of a function that vanishes
 at the origin".
 
 
-Accordingly, in a context where one considers polynomial functions over the ground field
+Accordingly, in a context where one considers [[polynomial]] functions over the [[ground field]]
 $k$, the infinitesimal
 interval is given by the [[space]] -- usually called $D$ --
 that is [[duality|dual]] to the [[ring]]
 $k[\epsilon] := k[Z]/Z^2$ which is the quotient of the polynomial ring in 
 one variable $Z$ modulo the polynomial $Z^2$. This is often called the 
-**ring of dual numbers**. In terms of generators and relations this is the ring
+**ring of dual numbers** (where the term 'dual' historically refers to its being $2$-dimensional). In terms of generators and relations this is the ring
 generated by a single element $\epsilon$ subject to the relation that $\epsilon^2 = 0$.
 
-Similarly, in the smooth context of, for instance, Moerdijk-Reyes
-[[Models for Smooth Infinitesimal Analysis]], $D$ is the [[space]] [[duality|dual]]
+Similarly, in the smooth context of, for instance, Moerdijk--Reyes
+_[[Models for Smooth Infinitesimal Analysis]]_, $D$ is the [[space]] [[duality|dual]]
 to the [[generalized smooth algebra]] $C^\infty(\mathbb{R})/J^2$ obtained as the
 smooth functions on the real line modulo squares of functions that vanish at the origin.
 
-**Definition (the 1-dimensional infinitesimal space)** 
++-- {: .un_defn}
+###### Definition (the $1$-dimensional infinitesimal space)
 
-In the context of [[generalized smooth algebra]], the 1-dimensional infinitesimal
+In the context of [[generalized smooth algebra]], the $1$-dimensional infinitesimal
 space is the space $D$ whose function algebra is the quotient 
 
 $$
@@ -123,22 +134,23 @@ $$
 $$
 
 of all functions on the real line, modulo those that are a product with the function $x \mapsto x^2$.
+=--
 
 This does reproduce the above ring of dual numbers due to _Hadamard's lemma_,
 which says that for $g \in C^\infty(\mathbb{R})$ a smooth function, there exists
 a smooth function $h \in C^\infty(\mathbb{R})$ such that for all $x \in \mathbb{R}$
 we have
-$g(x) = g(0) + x g'(x) + x^2 h(x)$. So modulo $x^2$ every smooth function is in fact
+$g(x) = g(0) + x g'(x) + x^2 h(x)$. So modulo $x^2$, every smooth function is in fact
 a polynomial function. 
 
-See page 19,20 of [[Models for Smooth Infinitesimal Analysis|MSIA]].
+See pages 19&20 of _[[Models for Smooth Infinitesimal Analysis|MSIA]]_.
 
-In this dual generators-and-relations description the infinitesimal interval is well
-familiar in many mathematically not so sophisticated contexts. It prevails for instance
-the basic physics textbook treatment since Newton up to this day. Sophus Lie is famously
+In this dual generators-and-relations description, the infinitesimal interval is very
+familiar in many mathematically less sophisticated contexts. It prevails for instance
+in the basic physics textbook treatment since [[Newton]] up to this day. [[Sophus Lie]] is famously
 quoted as having said that he found many of his famous insights by such 
-"synthetic reasoning" and only lack of proper formalization prevented him
-from writing them up in this instead of the more wide-spread way of 
+"synthetic reasoning" and only a lack of proper formalization prevented him
+from writing them up in this way instead of in the more wide-spread way of 
 differential calculus.
 
 
@@ -147,13 +159,14 @@ differential calculus.
 More generally, one may abstract the above properties of concrete realizations
 of the infinitesimal interval such as to get such a notion in an arbitrary suitable
 context. A suitable context for [[synthetic differential geometry]] is any
-[[topos]] $C$ equipped with a commutative [[ring]] object $R$. 
+[[topos]] $C$ equipped with an [[internalization|internal]] [[commutative ring]] $R$. 
 
-Using the [[topos]]-internal [[logic]] we may speak of both $R$ and $D$ as 
-if they were [[set]]s, where "element"s means [[generalized element]]. This 
+Using the [[topos]]-[[internal logic]] we may speak of both $R$ and $D$ as 
+if they were [[set]]s, where "element" means [[generalized element]]. This 
 way we have:
 
-**Definition (infinitesimal interval)**
++-- {: .un_defn}
+###### Definition (infinitesimal interval)
 
 Let $C$ be a topos with commutative ring object $R$. Then the **infinitesimal interval**
 $D$ is the [[subobject]] of $R$ of all those elements whose square is 0.
@@ -178,27 +191,46 @@ $$
 
 For with $x : U \to D$ any morphism embodying a generalized element
 $x \in D$, the universal property of the [[limit]] identifies this
-uniquely wit a morphism $U \to R$, hence with a generalized element 
-of $R$, such that $U \to R \stackrel{(-)^2}{\to} R$ is the 0-element 
+uniquely with a morphism $U \to R$, hence with a generalized element 
+of $R$, such that $U \to R \stackrel{(-)^2}{\to} R$ is the $0$ element 
 of $R$ with domain of definition $U$ : $\cdots = U \to 0 \to R$.
+
 
 ## the infinitesimal $k$-cube
 
-Analogously to how the $k$-cube is the $k$-fold [[cartesian product]]
-$D^k$ of the standard interval $[-1,1]$ with itself.
+This works analogously to how the $k$-[[cube]] is the $k$-fold [[cartesian product]]
+$D^k$ of the [[unit interval]] $[-1,1]$ with itself.
+
++-- {: .un_defn}
+###### Definition
+
+The infinitesimal $k$-cube $D^k$ is the $k$-fold cartesian product of the
+infinitesimal interval $D$ with itself.
+
+This means that in terms of generalized elements we have
+
+$$
+  D^k = \{(x_1, \cdots, x_n) \in R^n | \forall j,k  : \;x_j \cdot x_k = 0 \}
+$$
+=--
 
 
 ## the infinitesimal $k$-disk
 
-**Definition** 
++-- {: .un_defn}
+###### Definition
 
 For $n\in \mathbb{N}$ the infinitesimal $k$-disk is
 
 $$
   D(n) := \{ (x_1,\cdots, c_k) \in R^k | \forall j,k : x_j \cdot x_k = 0 \}
 $$
+=--
 
-**Remark** Since in particular $x_j^2 = 0$ for all elements of the 
++-- {: .un_remark}
+###### Remark
+
+Since in particular $x_j^2 = 0$ for all elements of the 
 infinitesimal $n$-disk, we have an inclusion
 
 $$
@@ -211,43 +243,28 @@ While $D(n)$ is closed under multiplication by elements of $R$, it is
 not in general closed under addition of its elements. For instance for
 $d_1,d_2 \in D(1) = D$ we have that $d_1 + d_2$ (the operation being in $R$)
 is still in $D$ precisely if $(d_1,d_2)$ is in $D(2)$.
-
+=--
 
 
 ## the infinitesimal neighbourhood ##
 
-For $x \in X$ a point in a manifold, the infinitesimal neighbourhood $U_p$ is the intersection of all open neighbourhoods of $x$. This is such that the restriction of a function $f : X \to \mathbb{R}$ along the inclusion $U_p \to X$ is precisely the [[germ]] of te function $f$.
+For $x \in X$ a point in a manifold, the infinitesimal [[neighbourhood]] $U_p$ is the intersection of all open neighbourhoods of $x$. This is such that the restriction of a function $f : X \to \mathbb{R}$ along the inclusion $U_p \to X$ is precisely the [[germ]] of the function $f$.
 
-All of the infinitesimal spaces above are contained in the coresoponding infinitesimal neighbourhood. So this is the "largest" of the infinitesimal spaces discussed here.
-
-
-
-**Definition**
-
-The infinitesimal $k$-cube $D^k$ is the $k$-fold cartesian product of the
-infinitesiaml interval $D$ with itself.
-
-This means that in terms of generalized elements we have
-
-$$
-  D^k = \{(x_1, \cdots, x_n) \in R^n | \forall j,k  : \;x_j \cdot x_k = 0 \}
-$$
-
-
+All of the infinitesimal spaces above are contained in the corresponding infinitesimal neighbourhood. So this is the "largest" of the infinitesimal spaces discussed here.
 
 
 #References#
 
-Infinitesimal spaces ans their properties were familiar in all
+Infinitesimal spaces and their properties were familiar in all
 those areas where spaces are characterized by the algebras of functions on them.
 
 It was in a seminal lecture 
 
-* Lawvere, _Categorical Dynamics_ lectures at the University of Chicago (1967) 
+* [[William Lawvere]], _Categorical Dynamics_ lectures at the University of Chicago (1967) 
 
 reproduced in  
 
-* Anders Kock, _Topos theoretic methods in Geometry_, Aarhus Universitet (1979)
+* [[Anders Kock]], _Topos theoretic methods in Geometry_, Aarhus Universitet (1979)
 
 that the proposal was made
 to axiomatize the properties of infinitesimal objects by making use
@@ -260,7 +277,7 @@ eventually developed.
 * Lawvere, _Outline of synthetic differential geometry_,
 ([web](http://www.acsu.buffalo.edu/~wlawvere/downloadlist.html))
 
-A classical case of [[category theory|general abstract nonsense]] used to
+This is a classical case of [[general abstract nonsense]] used to
 understand a subtle situation.
 
 A summary and discussion of the axiomatically defined standard infinitesimal 
@@ -271,6 +288,6 @@ objects $D$, $D_k$, $D_k(n)$ is in section 1.2 of
 Details on the right adjoint to the exponentiation functor $(-)^X$ for
 $X$ an infinitesimal object are in appendix 4 of 
 
-* Moerdijk, Reyes, [[Models for Smooth Infinitesimal Analysis]]
+* Moerdijk, Reyes, _[[Models for Smooth Infinitesimal Analysis]]_
 
 
