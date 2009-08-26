@@ -4,6 +4,6 @@ A [[manifold]] with boundary is a _cobordism_ between its boundary components.  
 
 Dual to a cobordism is a [[bordism]].
 
-See [[extended cobordism]] for more.
+See [[extended cobordism]] and [[cobordism category]] for more.
 
 [[!redirects cobordisms]]
