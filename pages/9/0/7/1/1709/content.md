@@ -562,9 +562,9 @@ Searching MathSciNet for _twisted cohomology_ led to the following chronology: I
 
 Most notably missing are
 
-* Reidemeister (1938)
+* Reidemeister (1938) (But note that reprints appear, sans reviews. There is a short English and longer German review on Zentralblatt)
 
-* Steenrod (1947)
+* Steenrod (1942)
 
 * Olum (thesis 1947, published 1950)
 
