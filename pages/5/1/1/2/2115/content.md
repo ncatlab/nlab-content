@@ -9,3 +9,4 @@ __Commutative algebra__ is the subject studying commutative algebras. It is clos
 * D. Eisenbud, _Commutative algebra: with a view toward algebraic geometry_, Grad. Texts in Math. 150, Springer-Verlag 1995. 
 
 [[!redirects commutative algebras]]
+[[!redirects commutative unital algebra]]
