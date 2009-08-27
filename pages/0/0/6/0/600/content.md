@@ -226,7 +226,7 @@ $$
     \array{
       && B
       \\
-      & {}^{Id}\swarrow && \searrrow^{F}
+      & {}^{Id}\swarrow && \searrow^{F}
       \\
       B &&&& B
     }
@@ -275,3 +275,5 @@ That the canonical trace on $Span$ is compatible with the interpretation of span
 
 * Urs Schreiber, [(co)-traces](http://golem.ph.utexas.edu/category/2008/05/hopkinslurie_on_baezdolan.html#c021537)
 
+
+[[!redirects span traces]]
