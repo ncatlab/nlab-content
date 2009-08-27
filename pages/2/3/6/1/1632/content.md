@@ -21,3 +21,5 @@ on continuous functions $f: X \to \mathbb{C}$. One can generalize this example i
 * If $A$ is a Banach space, the [[internal hom]] $hom(A, A)$ is a unital Banach algebra.
 
 * Any $C^*$-[[C*-algebra|algebra]] is a Banach algebra.
+
+* The [[normed division algebra]]s are (possibly nonassiciative) Banach algebras that are also [[division algebra]]s.
