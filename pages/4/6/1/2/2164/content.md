@@ -5,8 +5,9 @@ the _infinitesimal small_, which was historically formalised and is still
 widely thought of in terms
 of the limit constructions of differential calculus, is conceived 
 instead axiomatically in terms of special properties of certain
-_infinitesimal objects_ in a suitable [[topos]] of [[space]]s.
-
+_infinitesimal objects_ in a suitable [[topos]] of [[space]]s. In [[algebraic geometry]]
+there is an earlier and closely related formalism of infinitesimal neighborhoods, which is the foundation of Grothendieck's approach to [[regular differential operators]], costratifications, crystalline cohomology and de Rham descent. The infinitesimal thickenings also appear in a variant of noncommutative geometry of Kapranov
+, and in the language of abelian categories of quasicoherent sheaves in the work of Lunts and Rosenberg on regular differential operators in noncommutative context, which strongly takes into account tensor product.
 
 # Definition #
 
@@ -142,6 +143,10 @@ a smooth function $h \in C^\infty(\mathbb{R})$ such that for all $x \in \mathbb{
 we have
 $g(x) = g(0) + x g'(x) + x^2 h(x)$. So modulo $x^2$, every smooth function is in fact
 a polynomial function. 
+
++--{.query}
+Zoran:  reason, if my memory is right, Leites in his around 1976 survey of supermanifolds proveds and puts important role of Hadamard's lemma in supercontext, but I do not recall details, maybe somebody shoudl check.
+=--
 
 See pages 19&20 of _[[Models for Smooth Infinitesimal Analysis|MSIA]]_.
 
