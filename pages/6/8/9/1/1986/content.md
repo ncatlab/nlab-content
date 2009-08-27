@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-26
 
+* [[Mike Shulman]]: A bunch more at [[affine space]], including an "unbiased" definition.  There's still a lot more to say.
+
 *  [[Toby Bartels]]:
    *  Started [[complex number]], [[hypercomplex number]], [[dual number]], [[perplex number]], [[normed division algebra]].
    *  Edits to [[cobordism category]], particularly addition of #Idea# and noting that the alleged direct sum is just a coproduct.
