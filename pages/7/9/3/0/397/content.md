@@ -2,6 +2,7 @@ Here is a list of people who have contributed content to the nLab.
 
 * [[Aleks Kissinger]]
 * [[Alex Hoffnung]]
+* [[Alex Nelson]]
 * [[Andreas Holmstrom]]
 * [[Andrew Ranicki]]
 * [[Andrew Stacey]]
