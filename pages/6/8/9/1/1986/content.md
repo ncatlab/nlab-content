@@ -18,6 +18,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-27
 
+* [[Mike Shulman]]: I think I'm done with [[affine space]] for now.
+
 *  [[Alex Nelson]] commented at [[crossed complex]].
 
 *  [[Toby Bartels]]:  Yes, always more at [[affine space]], such as morphisms.
