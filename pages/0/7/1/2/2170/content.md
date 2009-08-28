@@ -33,13 +33,13 @@ The [[Fox derivatives]] are examples.  It is worth noting that this lemma allows
 
 ###Example (using the [[Fox derivative]] w.r.t a generator)
 
- Let $X = \{u,v\}$, with $r \equiv uvuv^{-1}u^{-1}v^{-1} \in F = F(u,v),$ then
+ Let $X = \{u,v\}$, with $r \equiv u v u v^{-1} u^{-1} v^{-1} \in F = F(u,v),$ then
 
 
-$$ \frac{\partial r}{\partial u} = 1 + uv - uvuv^{-1}u^{-1},$$
+$$ \frac{\partial r}{\partial u} = 1 + u v - u v u v^{-1} u^{-1},$$
 
 
-$$ \frac{\partial r}{\partial v} = u - uvuv^{-1} -  uvuv^{-1}u^{-1}v^{-1}.$$
+$$ \frac{\partial r}{\partial v} = u - u v u v^{-1} -  u v u v^{-1} u^{-1} v^{-1}.$$
 This relation, $r$, is the typical [[braid group]] relation, here in $Br_3$.
 
 
