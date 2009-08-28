@@ -3,3 +3,6 @@
 * [JA](http://planetmath.org/?op=getuser&id=15246) @ [PlanetMath](http://planetmath.org/)
 * [JA](http://planetphysics.org/?op=getuser&id=513) @ [PlanetPhysics](http://planetphysics.org/)
 * [JA](http://www.proofwiki.org/wiki/User:Jon_Awbrey) @ [ProofWiki](http://www.proofwiki.org/)
+
+
+category: people
