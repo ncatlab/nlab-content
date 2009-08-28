@@ -18,6 +18,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-28
 
+* [[Jon Awbrey]]: Introducing a collection of topics I've been working on the last 3 or 4 decades or so:
+   * [[Cactus Language]]
+   * [[Differential Logic]]
+   * [[Logical Graph]]
+   * [[Minimal Negation Operator]]
+   * [[Propositional Equation Reasoning Systems]]
+   * [[Riffs & Rotes]]
+
 *  [[Toby Bartels]]:
    *  A little geometry at [[complex number]].
    *  Cross-linked [[derivation]] and [[derivation on a group]].
