@@ -4,3 +4,6 @@ Here's a few links to prime the pump:
 * [Futures Of Logical Graphs](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Futures_Of_Logical_Graphs)
 
 I'm hoping I'll be able to develop the content in several different directions here.
+
+
+[[!redirects Logical Graph]]
