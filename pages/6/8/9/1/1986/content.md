@@ -18,6 +18,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-28
 
+*  [[Andrew Stacey]] solicits input about making the [[database of categories]] a real database; see [the Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=57).
+
+*  Welcome, Jon!  It would be ideal if you actually wrote about this material instead of just linking to discussion elsewhere; hopefully, you\'re already planning to do this.  Assuming that you wrote the material linked elsewhere (or have permission from those who did write it), you could mostly copy and paste it here; we regulars would be happy to help with formatting and the like.  Some more technical notes: we have a convention of lowercase page titles, so that people can make links to your pages from the middle of sentences; and speaking of making links, you should probably link this stuff from the main [[logic]] page.  (I\'ll do some of this right now.)  ---[[Toby Bartels]]
+
 * [[Jon Awbrey]]: Almost Ready For Prime Time $\nu$'s
    * [[Cactus Language]]
    * [[Differential Logic]]
