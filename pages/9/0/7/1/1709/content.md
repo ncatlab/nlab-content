@@ -564,7 +564,7 @@ Most notably missing are
 
 * Reidemeister (1938) (But note that reprints appear, sans reviews. There is a short English and longer German review on Zentralblatt)
 
-* Steenrod (1942)
+* Steenrod (1942,1943)
 
 * Olum (thesis 1947, published 1950)
 
