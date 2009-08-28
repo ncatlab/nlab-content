@@ -33,6 +33,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[Jim Stasheff]]
 * [[Jocelyn Paine]]
 * [[John Baez]]
+* [[Jon Awbrey]]
 * [[Jonas Frey]]
 * [[Josep Elgueta]]
 * [[Konrad Waldorf]]
