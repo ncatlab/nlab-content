@@ -14,7 +14,9 @@ Here "non-trivial" means: anything that any other contributor might be intereste
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).  However, regardless of that, be sure to **add new comments to the top** of the list.
 
 ***
+## 2009-08-28
 
+* [[David Roberts]]: further tinkering at [[history of cohomology with local coefficients]] - mentioned link of Reidemeister's original approach to crossed complexes. Forgive my ignorance Zoran, but I'm not sure what to do about your comment there. Is it meant to extend cohomological history generally or provide details on related topics? 
 
 ## 2009-08-27
 
