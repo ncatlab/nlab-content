@@ -16,6 +16,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 ## 2009-08-28
 
+* [[Tim Porter]]:  I have created [[derivation on a group]] to provide some back up for [[Fox derivatives]].  This is also needed for the linearisation functor going from crossed complexes to chain complexes. 
+
 * [[David Roberts]]: further tinkering at [[history of cohomology with local coefficients]] - mentioned link of Reidemeister's original approach to crossed complexes. Forgive my ignorance Zoran, but I'm not sure what to do about your comment there. Is it meant to extend cohomological history generally or provide details on related topics? 
 
 ## 2009-08-27
