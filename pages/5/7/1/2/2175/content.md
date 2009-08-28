@@ -1,2 +1,5 @@
-* [MyWikiBiz Page](http://mywikibiz.com/Directory:Jon_Awbrey)
-* [Knol Profile](http://knol.google.com/k/jon-awbrey/jon-awbrey/3fkwvf69kridz/1)
+* [JA](http://mywikibiz.com/Directory:Jon_Awbrey) @ [MyWikiBiz](http://mywikibiz.com/)
+* [JA](http://knol.google.com/k/jon-awbrey/jon-awbrey/3fkwvf69kridz/1) @ [Google Knol](http://knol.google.com/)
+* [JA](http://planetmath.org/?op=getuser&id=15246) @ [PlanetMath](http://planetmath.org/)
+* [JA](http://planetphysics.org/?op=getuser&id=513) @ [PlanetPhysics](http://planetphysics.org/)
+* [JA](http://www.proofwiki.org/wiki/User:Jon_Awbrey) @ [ProofWiki](http://www.proofwiki.org/)
