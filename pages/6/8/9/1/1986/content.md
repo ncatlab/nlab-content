@@ -18,7 +18,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-29
 
-*  [[Tim Porter]]:  I forgot.. I created [[braid group]], as I needed them for examples.
+*  [[Tim Porter]]:  I forgot.. I created [[braid group]] yesterday, as I needed them for examples and [[Toby]] already has improved the presentation!  Thanks.
 
 
 * [[Jon Awbrey]]: more almost ready for prime time $\nu$'s
