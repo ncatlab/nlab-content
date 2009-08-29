@@ -1,5 +1,9 @@
 Here we could experiment with SVG only...
 
++-- {: .query}
+See also [[SVG Sandbox]] and [[Inclusion Sandbox]].
+=--
+
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="75ex" height="25.6ex">
 <foreignObject x="4ex" y="4ex" width="17ex" height="4.8ex">
 <body xmlns="http://www.w3.org/1999/xhtml" style="border-width: 0pt; margin: 0pt; padding: 0pt;">
