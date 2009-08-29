@@ -46,4 +46,6 @@ But everything must stop somewhere; it does not cover complex analysis.
 1.  Vector Measures
 1.  Initial Value Problems
 
+[[!redirects Handbook of analysis and its foundations]]
+
 category: reference
