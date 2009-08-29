@@ -18,6 +18,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-29
 
+*  [[Tim Porter]]:  I forgot.. I created [[braid group]], as I needed them for examples.
+
+
 * [[Jon Awbrey]]: more almost ready for prime time $\nu$'s
    * [[hypostatic abstraction]]
    * [[inquiry driven system]]
