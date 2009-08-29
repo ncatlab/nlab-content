@@ -290,7 +290,7 @@ $$
 
 
 
-## under-categories of $(\infty,1)$-quantities ##
+## under-categories of $\infty$-quantities ##
 
 By essentially simply applying [[Isbell duality]] for the case that the underlying [[site]] is [[CartSp]] to the above example one obtains the following example.
 
@@ -300,7 +300,7 @@ Tentative.
 
 =--
 
-Recall the notion of [[(∞,1)-quantity]]. Notice that by the discussion at [[models for ∞-stack (∞,1)-toposes]] every object $A \in \mathbf{H}$ may be modeled as a [[simplicial presheaf]]. Let $C^\infty(-)$ be the map that sends simplicial presheaves to cosimplicial copresheaves as described at [[(∞,1)-quantity]].
+Recall the notion of [[∞-quantity]]. Notice that by the discussion at [[models for ∞-stack (∞,1)-toposes]] every object $A \in \mathbf{H}$ may be modeled as a [[simplicial presheaf]]. Let $C^\infty(-)$ be the map that sends simplicial presheaves to cosimplicial copresheaves as described at [[∞-quantity]].
 
 Then consider the assignment
 
@@ -321,7 +321,7 @@ $$
   \,.
 $$
 
-From the discussion at [[(∞,1)-quantity]] and [[Lie-∞ algebroid representation]] we see that we can think of objects in $C(X)$ defines this way as representations of the [[Lie-∞ algebroid]] of $X$.
+From the discussion at [[∞-quantity]] and [[Lie-∞ algebroid representation]] we see that we can think of objects in $C(X)$ defines this way as representations of the [[Lie-∞ algebroid]] of $X$.
 
 Now pullback is left adjoint and push-forward is right adjoint.
 
