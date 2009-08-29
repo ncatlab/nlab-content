@@ -1,0 +1,5 @@
+This approach to relation theory grows out of (1) some of my earliest strugglings with the foundations of mathematics and the nature of functions, (2) long-continued wrestling with C.S. Peirce's "logic of relatives", (3) some ideas I had in the early 1980's about "relational arrows" and "making relations universal", (4) course work and discussions with John Gray at UIUC in the middle 1980's.  What I've been able to reconstruct so far is only a fragment of what (I think) I had in mind.
+
+Links for Starters:
+* [Relation Theory @ PlanetMath](http://planetmath.org/encyclopedia/RelationTheory.html)
+* [Peirce's 1870 Logic Of Relatives](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Peirce's_1870_Logic_Of_Relatives)
