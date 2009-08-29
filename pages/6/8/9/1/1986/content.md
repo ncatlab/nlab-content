@@ -24,7 +24,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
    * Thanks, Toby, that's the plan.  The beauty of interaction is that the same material injected into different environments tends to develop in different directions.  ---[[Jon Awbrey]]
 
-* [[Jon Awbrey]]: Almost Ready For Prime Time $\nu$'s
+* [[Jon Awbrey]]: almost ready for prime time $\nu$'s
    * [[cactus language]]
    * [[differential logic]]
    * [[inquiry driven system]]
