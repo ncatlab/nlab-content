@@ -19,6 +19,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ## 2009-08-29
 
 *  [[Toby Bartels]]:
+   *  Added a lot to [[graph]].
    *  Regarding [[SVGsandbox]], note also [[SVG Sandbox]] and [[Inclusion Sandbox]].
    *  Formatted [[minimal negation operator]], where [[Jon Awbrey]] has put material; note that there are two missing diagrams.
    *  Cross linked [[subfunctor]] and [[sieve]].
