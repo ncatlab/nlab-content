@@ -15,3 +15,7 @@ The unit object of this monoidal category is the identity functor from $C$ to it
 $$1_C \in End(C) $$
 
 A [[monoid]] in this endofunctor category is called a [[monad]] on $C$.
+
+
+[[!redirects endofunctors]]
+[[!redirects endofunctor category]]
