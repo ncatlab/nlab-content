@@ -1,7 +1,6 @@
 #Idea#
 
-The notion of cobordism category is an abstract one intended to capture important features of the [[category]] of [[cobordism]]s.
-
+The notion of cobordism category is an abstract one intended to capture important features of (many variants of) the [[category]] of [[cobordism]]s and include in the same formalism cobordisms for closed manifolds with various kinds of structure. 
 
 #Motivation#
 
