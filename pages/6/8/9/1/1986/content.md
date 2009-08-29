@@ -16,6 +16,16 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 
+## 2009-08-29
+
+* [[Jon Awbrey]]: more almost ready for prime time $\nu$'s
+   * [[hypostatic abstraction]]
+   * [[inquiry driven system]]
+   * [[Peirce's law]]
+   * [[praeclarum theorema]]
+   * [[relation theory]]
+
+
 ## 2009-08-28
 
 *  [[Andrew Stacey]] solicits input about making the [[database of categories]] a real database; see [the Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=57).
@@ -27,14 +37,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 * [[Jon Awbrey]]: almost ready for prime time $\nu$'s
    * [[cactus language]]
    * [[differential logic]]
-   * [[hypostatic abstraction]]
-   * [[inquiry driven system]]
    * [[logical graph]]
    * [[minimal negation operator]]
-   * [[Peirce's law]]
-   * [[praeclarum theorema]]
    * [[propositional equation reasoning system]]
-   * [[relation theory]]
    * [[riffs & rotes]]
 
 *  [[Toby Bartels]]:
