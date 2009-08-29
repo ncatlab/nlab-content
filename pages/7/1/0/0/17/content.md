@@ -99,16 +99,15 @@ First quantization is a mystery, but second quantization is a functor.
 To fiddle with the CSS code, go to "Edit web" on the main page of your wiki, and then click on "Stylesheat tweaks". Here you can add new CSS gismos like query boxes and standout boxes. These kind of gismos come from the mechanism of putting CSS classes into the Markdown syntax, in the  [same way](http://golem.ph.utexas.edu/~distler/blog/archives/001820.html) that Jacques created the Theorem environments in Instiki. In other words, a query box is like a theorem environment: it's a way in Markdown to create an HTML block with a specific id, which you can then style in the CSS. You can grab the CSS code for query boxes from the main nLab page. It requires a password to change the CSS, but to view it does not require one. 
 
 
-# How to search the nLab from firefox #
+# How to search the nLab from firefox # {#SearchPlugins}
 
-Here are two search plugins for firefox that will let you search the nLab from the firefox search bar.
+Here are some search plugins for firefox that will let you search the nLab from the firefox search bar.
 
-* [[nlab-search.xml:file]]
-* [[nlab-goto.xml:file]]
+* [[nlab-search.xml:file]]: searches the nLab (like the search box at the top of every page).
+* [[nlab-goto.xml:file]]: takes you directly to the page with a given exact title (if it exists; otherwise it takes you to an edit box to create such a page).
+* [[nlab-edit.xml:file]]: takes you directly to the "edit" page for a given title.
 
-The first one searches the nLab (like the search box at the top of every page), and the second takes you directly to the page with a given title (if it exists; otherwise it takes you to an edit box to create it).  It would be nice if they had different icons.
-
-To use one or both, drop it in the 'searchplugins' directory of your firefox profile.
+It would be nice if these had different icons.  To use one or more of these, drop them in the 'searchplugins' directory of your firefox profile.
 
 # How to edit nLab pages in your favorite text editor #
 
