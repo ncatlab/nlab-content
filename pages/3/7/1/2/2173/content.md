@@ -1,13 +1,6 @@
 [[!redirects Minimal Negation Operator]]
 
-#  External links
-
-* [Minimal Negation Operator @ MyWikiBiz](http://mywikibiz.com/Minimal_negation_operator)
-* [Minimal Negation Operator @ PlanetMath](http://planetmath.org/encyclopedia/MinimalNegationOperator.html)
-* [Minimal Negation Operator @ PlanetPhysics](http://planetphysics.org/encyclopedia/MinimalNegationOperator.html)
-* [Minimal Negation Operator @ ProofWiki](http://www.proofwiki.org/wiki/Definition:Minimal_Negation_Operator)
-
-The __minimal negation operator__ $\nu$ is a multigrade operator $(\nu_k)_{k \in \mathbb{N}}$ where each $\nu_k$ is a $k$-ary boolean function defined in such a way that $\nu_k (x_1, \ldots, x_k) = 1$ in just those cases where exactly one of the arguments $x_j$ is $0$.
+The __minimal negation operator__ $\nu$ is a [[multigrade operator]] $(\nu_k)_{k \in \mathbb{N}}$ where each $\nu_k$ is a $k$-ary [[boolean function]] defined in such a way that $\nu_k (x_1, \ldots, x_k) = 1$ in just those cases where exactly one of the arguments $x_j$ is $0$.
 
 In contexts where the initial letter $\nu$ is understood, the minimal negation operators can be indicated by argument lists in parentheses.  In the following text a distinctive typeface will be used for logical expressions based on minimal negation operators, for example, `(x, y, z)` = $\nu (x, y, z)$.
 
@@ -101,11 +94,15 @@ To pass from these limiting examples to the general case, observe that a singula
 
 For example, consider the case where $k = 3$.  Then the minimal negation operation $\nu(p, q, r)$ --- written more simply as `(p, q, r)` --- has the following venn diagram:
 
-![Figure 2.   (p, q, r)](MinimalNegationOperator1)
+![Venn Diagram (p,q,r)](http://mywikibiz.com/images/1/11/Venn_Diagram_%28P%2CQ%2CR%29.jpg)
+
+Figure 2.  `(p, q, r)`
 
 For a contrasting example, the boolean function expressed by the form `((p),(q),(r))` has the following venn diagram:
 
-![Figure 3.   ((p),(q),(r))](MinimalNegationOperator2)
+![Venn Diagram ((p),(q),(r))](http://mywikibiz.com/images/a/a8/Venn_Diagram_%28%28P%29%2C%28Q%29%2C%28R%29%29.jpg)
+
+Figure 3.  `((p),(q),(r))`
 
 
 ##  Glossary of basic terms
@@ -126,5 +123,12 @@ For a contrasting example, the boolean function expressed by the form `((p),(q),
 *  Singular boolean functions and singular propositions serve as functional or logical representatives of the points in $\mathbb{B}^k$.
 *  A __singular conjunction__ in $(\mathbb{B}^k \to \mathbb{B})$ is a conjunction of $k$ literals that includes just one conjunct of the pair $\{ x_j,   \nu(x_j) \}$ for each $j$ = $1$ to $k$.
 *  A singular proposition $s : \mathbb{B}^k \to \mathbb{B}$ can be expressed as a singular conjunction:
-   $$s = e_1   e_2  \cdots  e_{k-1}   e_k $$
-   where $e_j = x_j$ or $e_j = \nu(x_j)$ for $j = 1  $ to $  k$
+   $$s = e_1 \, e_2 \, \cdots \, e_{k-1} \, e_k$$
+   where $e_j = x_j$ or $e_j = \nu(x_j)$ for $j = 1$ to $k$
+
+#  External links
+
+* [Minimal Negation Operator @ MyWikiBiz](http://mywikibiz.com/Minimal_negation_operator)
+* [Minimal Negation Operator @ PlanetMath](http://planetmath.org/encyclopedia/MinimalNegationOperator.html)
+* [Minimal Negation Operator @ PlanetPhysics](http://planetphysics.org/encyclopedia/MinimalNegationOperator.html)
+* [Minimal Negation Operator @ ProofWiki](http://www.proofwiki.org/wiki/Definition:Minimal_Negation_Operator)
