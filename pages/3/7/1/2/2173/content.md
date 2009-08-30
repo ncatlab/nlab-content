@@ -77,7 +77,7 @@ Table 1.  Logical Boundaries and Their Complements
 
 This Section focuses on visual representations of minimal negation operators.  A few bits of terminology are useful in describing the pictures, but the formal details are tedious reading, and may be familiar to many readers, so the full definitions of the terms marked in bold are relegated to a Glossary at the end of the article.
 
-Two ways of visualizing the space $\mathbb{B}^k$ of $2^k$ points are the _hypercube_ picture and the _venn diagram_ picture.  The hypercube picture associates each point of $\mathbb{B}^k$ with a unique point of the $k$-dimensional hypercube.  The venn diagram picture associates each point of $\mathbb{B}^k$ with a unique "cell" of the venn diagram on $k$ "circles".
+Two ways of visualizing the space $\mathbb{B}^k$ of $2^k$ points are the _hypercube_ picture and the _venn diagram_ picture.  The hypercube picture associates each point of $\mathbb{B}^k$ with a unique point of the $k$-dimensional hypercube (the $k$-[[cube]]).  The venn diagram picture associates each point of $\mathbb{B}^k$ with a unique "cell" of the venn diagram on $k$ "circles".
 
 In addition, each point of $\mathbb{B}^k$ is the unique point in the __fiber of truth__ $[|s|]$ of a __singular proposition__ $s : \mathbb{B}^k \to \mathbb{B}$, and thus it is the unique point where a __singular conjunction__ of $k$ __literals__ is equal to 1.
 
