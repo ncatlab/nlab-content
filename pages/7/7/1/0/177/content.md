@@ -12,6 +12,9 @@ $$F : DiGraph \to Cat $$
 
 sending each directed graph to the [[free functor|free]] category on that graph.  A free category on a graph is called a [[quiver]].
 
+Compare also [[graph]].
+
+
 #Definition#
 
 An **abstract directed graph** $X$ is a [[category]] with
@@ -36,6 +39,7 @@ The category of directed graphs in $C$, [[DiGraph]], is the [[functor category]]
 * morphisms are [[natural transformation|natural transformations]] between such functors.
 
 In the basic case $C = Set$, we call this category the category of [[presheaf|presheaves]] on $X^{op}$.  So: the category of directed graphs, [[DiGraph]], is the category of presheaves on the category $X^{op}$.
+
 
 #Remarks#
 
@@ -100,3 +104,7 @@ The Wikipedia article seems content to discuss Hasse diagrams for finite posets;
 [[Eric]]: Ok. So this 'locally finite' restriction seems to put us into [[causets]], which is kind of neat. So maybe we should create a page [[Hasse diagram]]. A [[Hasse diagram]] of a [[causet]] $C$ is the smallest [[directed graph]] $G$ such that its [[quiver]] $F(G)$ is equivalent to $C$ (?)
 
 _Toby_:  You don\'t need 'smallest' here; adding to $G$ will either add objects to $C$ or destroy that $C$ is a preorder.  (Along those lines, note that the only prosets that are ---up to isomorphism--- quivers are posets.  That explains why one mostly only talks about Hasse diagrams for posets.)  But note that 'Hasse diagram' is a fairly informal notion; I have had occasion to draw a Hasse diagram for the (non-antisymmetric, non-locally finite) proset of integers under divisibility, by cheating just slightly (doubling up the labels on the vertices to handle the lack of antisymmetry, some fudging with ellipses to handle the one breakdown of local finiteness, which is at $0$).
+
+
+[[!redirects digraph]]
+[[!redirects directed graphs]]
