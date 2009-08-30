@@ -7,7 +7,7 @@
 * [Minimal Negation Operator @ PlanetPhysics](http://planetphysics.org/encyclopedia/MinimalNegationOperator.html)
 * [Minimal Negation Operator @ ProofWiki](http://www.proofwiki.org/wiki/Definition:Minimal_Negation_Operator)
 
-The __minimal negation operator__ $\nu$ is a multigrade operator $(\nu_k)_{k \in \mathbb{N}}$ where each $\nu_k$ is a $k$-ary boolean function $\nu_k : \mathbb{B}^k \to \mathbb{B}$ defined in such a way that $\nu_k (x_1, \ldots, x_k) = 1$ in just those cases where exactly one of the arguments $x_j$ is $0$.
+The __minimal negation operator__ $\nu$ is a multigrade operator $(\nu_k)_{k \in \mathbb{N}}$ where each $\nu_k$ is a $k$-ary boolean function defined in such a way that $\nu_k (x_1, \ldots, x_k) = 1$ in just those cases where exactly one of the arguments $x_j$ is $0$.
 
 In contexts where the initial letter $\nu$ is understood, the minimal negation operators can be indicated by argument lists in parentheses.  In the following text a distinctive typeface will be used for logical expressions based on minimal negation operators, for example, `(x, y, z)` = $\nu (x, y, z)$.
 
