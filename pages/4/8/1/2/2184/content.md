@@ -34,8 +34,6 @@ sorry to be a pain, inserting adjectives like that, but here at the Lab you'll l
 
 I\'ve now clarified that this is just one example of how the term might be defined, so I\'ve restored the original text in the quotation.  ---Toby
 
-I'm more of a "stepwise refinement" than a "most general definition first" sort of guy, and nobody knows the trouble I've seen when folks get to fightin' over terminology in this area.  So I started with a conception that is widely used among some of the larger schools of practicing graph theorists ... ---JA
-
 =--
 
 
