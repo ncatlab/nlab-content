@@ -4,7 +4,7 @@ A Banach space is both a [[vector space]] and a [[metric space]], in a compatibl
 
 ## Definitions
 
-Let $V$ be a [[vector space]] over the field of [[real number]]s.  (One can generalise the choice of [[field]] somewhat.)  A **pseudonorm** on $V$ is a function
+Let $V$ be a [[vector space]] over the field of [[real number]]s.  (One can generalise the choice of [[field]] somewhat.)  A **pseudonorm** (or **seminorm**) on $V$ is a function
 $$ \| - \|: V \to \mathbb{R} $$
 such that:
 
@@ -123,3 +123,4 @@ To be described:
 [[!redirects Banach spaces]]
 [[!redirects normed vector space]]
 [[!redirects pseudonormed vector space]]
+[[!redirects seminormed vector space]]
