@@ -1,0 +1,3 @@
+A __boolean-valued function__ is a function of type $f : X \to \mathbb{B}$, where $X$ is an arbitrary set and where $\mathbb{B}$ is a [[boolean domain]].
+
+In some contexts a boolean-valued function may be referred to as a _predicate_ or a _proposition_.  In other contexts these terms may be used to describe the syntactic entities that denote or express boolean-valued functions, or that have boolean-valued functions among their canonical or intended models.  When necessary to avoid confusion, terms like _predicate formula_ or _propositional expression_ may be used to distinguish signs from their objects.
