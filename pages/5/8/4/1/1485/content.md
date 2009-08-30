@@ -4,6 +4,7 @@ A manifold is a space which looks locally like a Euclidean space, most commonly 
 
 What "locally looks like" means really depends on what sort of structure we are considering Euclidean space to embody. At one extreme, we can think of $\mathbb{R}^n$ as merely a topological space. Or, $\mathbb{R}^n$ may be considered as carrying more rigid types of structure ($C^k$, smooth, PL, real analytic, affine, hyperbolic, foliated, etc., etc.). In any case, the type of geometry embodied in a particular flavor of manifold is controlled by a particular [[groupoid]] of transformations which preserves whatever geometric features one is interested in; cf. Felix Klein's _[[Erlangen program|Erlanger Programm]]_.
 
+
 ## Definitions
 
 To give a reasonably general notion of manifold, we first specify the kinds of concrete geometric groupoids which come into play.
@@ -42,7 +43,10 @@ is in $G$ whenever $(U, \phi)$ is a coordinate chart of $x \in M$, and $(V, \psi
 
   _Rafael_: Can one define a manifold object in a category C as a G-manifold with G related to C? What would the relation between G and C be to obtain G-manifolds in C as manifold objects?
 
+_Toby_:  Yes, I think that this would make perfect sense; I think that we\'d want $G$ to be an [[internal groupoid]] in $C$.  Note that defining things like 'smooth manifold' in $C$ might still be difficult, but we\'ve reduced it to internalising [[Cart Sp]] in $C$.  (There\'s also the matter that the above definition takes a notion of [[space]] for granted, so you\'d have to internalise that into $C$ too, but I\'m not sure how important that really is, when I think about how the topology on a smooth manifold can be recovered from the smooth structure.)
+
 =--
+
 
 ## Morphisms of Manifolds
 
@@ -99,6 +103,7 @@ belongs to $C$, for every pair of charts $(U, \phi): X \to M$ and $(V, \psi): Y 
 
 These definitions need to be carefully checked against known examples (e.g., the categories $Top$, $PL$, and $Smooth$, among others).
 
+
 ## Examples
 
 If the term "manifold" appears without further qualification, what is usually meant is a **smooth $n$-manifold** of some [[natural number]] **dimension** $n$: a $G$-manifold where $G$ is the pseudogroup of invertible $C^{\infty}$ maps between open sets of $\mathbb{R}^n$. Replacing $\mathbb{R}^n$ here by a half-space $\{x \in \mathbb{R}^n: x_1 \geq 0\}$, one obtains the notion of smooth **manifold with boundary**. Or, replacing $\mathbb{R}^n$ here by the $n$-cube $I^n$, one obtains the notion of (smooth) $n$-**manifold with (cubical) corners**.  Morphisms of manifolds are here called **smooth maps**, and isomorphisms are called **diffeomorphisms**.  (In manifold theory, one usually reserves the term **smooth function** for smooth maps to $\mathbb{R}$.)
@@ -108,6 +113,7 @@ A **topological $n$-manifold** is a manifold with respect to the pseudogroup of 
 One can go on to define, in a straighforward way, real analytic manifolds, complex analytic manifolds, elliptic manifolds, hyperbolic manifolds, and so on, using the general notion of pseudogroup.
 
 Any space $X$ can always be turned into a manifold modelled on itself, using any pseudogroup $G$.  Simply take the inclusions of open sets as charts.
+
 
 ## Tangent Bundle
 
@@ -137,11 +143,13 @@ $$\qquad g_{\alpha\alpha} = 1: U_{\alpha} \to GL(\mathbb{R}^n)$$
 
 These 1-cocycle data make the tangent bundle an $n$-dimensional [[vector bundle]] with structure group $GL(\mathbb{R}^n)$.
 
+
 ##Generalizations##
 
 * [[generalized smooth space]]
 * [[differentiable stack]]
 * [[derived smooth manifold]]
 * [[supermanifold]]
+
 
 [[!redirects manifolds]]
