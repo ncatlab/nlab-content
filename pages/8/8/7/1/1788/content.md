@@ -8,6 +8,22 @@ Every wiki needs a sandbox! Just test _below_ and don't worry about messing thin
 
 ***
 
+`plain code`
+
+__`bold code`__?
+
+**`bold code`**?
+
+plain : `(` $x$ `,` $y$ `,` $z$ `)`
+
+bold? : __`(`__ $x$ __`,`__ $y$ __`,`__ $z$ __`)`__
+
+bold? : **`(`** $x$ **`,`** $y$ **`,`** $z$ **`)`**
+
+I miss my $\texttt{teletypewriter}$!
+
+***
+
 Looked at the [STIX page](http://www.stixfonts.org/) ---
 
 But there didn't seem to be anything to upload.
