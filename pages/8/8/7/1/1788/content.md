@@ -1,11 +1,22 @@
 You cannot see me: I\'m invisible!
 
-
 [[!include contents]] 
 
 ***
 
 Every wiki needs a sandbox! Just test _below_ and don't worry about messing things up.
+
+***
+
+Looked at the [STIX page](http://www.stixfonts.org/) ---
+
+But there didn't seem to be anything to upload.
+
+I can read this: L(\mathbb{R}) &#8594; $L(\mathbb{R})$
+
+But not this: \mathbb{B} &#8594; $\mathbb{B}$
+
+???
 
 ***
 
@@ -16,6 +27,8 @@ Every wiki needs a sandbox! Just test _below_ and don't worry about messing thin
 [[Minimal Negation Operator]]
 
 [[Propositional Equation Reasoning Systems]]
+
+***
 
 <span id="bibtest" markdown="1">Testing bibliography with anchor.</span> 
 
