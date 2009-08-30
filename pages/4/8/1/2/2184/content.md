@@ -33,6 +33,9 @@ Often in combinatorics, one requires that $V$ and $E$ be [[finite sets]].  Somet
 sorry to be a pain, inserting adjectives like that, but here at the Lab you'll likely be confronted with graphs with a proper class (or large set, depending on the flavour of your foundations) of vertices. Or at least any set of vertices whatever.  ---Anon
 
 I\'ve now clarified that this is just one example of how the term might be defined, so I\'ve restored the original text in the quotation.  ---Toby
+
+I'm more of a "stepwise refinement" than a "most general definition first" sort of guy, and nobody knows the trouble I've seen when folks get to fightin' over terminology in this area.  So I started with a conception that is widely used among some of the larger schools of practicing graph theorists ... ---JA
+
 =--
 
 
