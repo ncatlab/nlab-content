@@ -20,7 +20,7 @@ bold? : __`(`__ $x$ __`,`__ $y$ __`,`__ $z$ __`)`__
 
 bold? : **`(`** $x$ **`,`** $y$ **`,`** $z$ **`)`**
 
-I miss my $\texttt{teletypewriter}$!
+I miss my \texttt __`teletypewriter`__!
 
 ***
 
