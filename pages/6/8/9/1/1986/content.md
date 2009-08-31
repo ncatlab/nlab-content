@@ -29,7 +29,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-31
 
-* [[Urs Schreiber]]: slightly edited the beginning of [[semifree dga]] (added the statement for the graded-commutative case)
+* [[Urs Schreiber]]: various very minor edits:
+
+  * added a first sentence at [[twisted bundle]] that links the concept with [[twisted cohomology]] (but more details could be given on that)
+
+  * slightly edited the beginning of [[semifree dga]] (added the statement for the graded-commutative case)
 
 * [[Urs Schreiber]]: there was some funny behaviour by the software ater I had restarted the server a few minutes ago, which resulted in the Lab-Elf announcement below to disappear for some mysterious reason. I have rolled back now, but that, too, involved some funny effects. It should all be restored now, but if anyone wonders where his or her comment disappeared to, it may have been eaten by the software in this process (but I don't think anything is lost, but let me know).
 
