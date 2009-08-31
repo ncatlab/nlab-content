@@ -6,9 +6,19 @@ Given a [[category]] $C$ whose objects are thought of as _test spaces_ a very ge
 
 * [[quantity]] modeled on $C$ is a [[presheaf|copresheaf]] on $C$, i.e. a functor $A : C \to Set$.
 
-* [[∞-space]] modeled on $C$ is a [[simplicial presheaf]] on $C$, i.e. a functor $X : C^{op} \to $ [[SSet]].
+There are various specializations of interest on this
 
-* [[∞-quantity]] modeled on $C$ is a cosimplicial copresheaf on $C$, i.e. a functor $X : C \to CoSSet$ .
+* [[higher category theory|higher categorical]] version
+
+  * [[∞-space]] modeled on $C$ is a [[simplicial presheaf]] on $C$, i.e. a functor $X : C^{op} \to $ [[SSet]].
+
+  * [[∞-quantity]] modeled on $C$ is a cosimplicial copresheaf on $C$, i.e. a functor $X : C \to CoSSet$ .
+
+* infinitesimal version
+
+  * [[infinitesimal space]]
+
+  * [[infinitesimal quantity]]
 
 For some discussion of why this is a useful general notion see [[motivation for sheaves, cohomology and higher stacks]].
 
