@@ -1,6 +1,8 @@
 
 # Idea #
 
+A _twisted principal-bundle_ is the object classified by a cocycle in [[twisted cohomology]] the way an ordinary [[principal bundle]] is the object classified by a cocycle in plain [[cohomology]] (generally in [[nonabelian cohomology]]).
+
 For $\hat G$ a [[group]], a $\hat G$-[[principal bundle]] is classified in degree 1 [[nonabelian cohomology]] with coefficients in the [[delooping|delooped]] [[groupoid]] $\mathbf{B} \hat G$.
 
 Given a realization of $\hat G$ as an abelian extension 
