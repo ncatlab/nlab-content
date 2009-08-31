@@ -4,6 +4,7 @@ $$
 $$
 can be referred to as the set of **generalized elements** of $c$ with domain (or "stage of definition") $I$.
 
+
 # Motivation #
 
 The primordial example is when $C$ is the category [[Set]] of sets and $I$ is a [[terminal object]] in $Set$ --- that is, a set with one element.  Then elements of any set $c$ are in one-to-one correspondence with functions $f: I \to c$.  This correspondence works as follows: given any element of $c$ there is a unique function $f: I \to c$ with this element in its image, and conversely each function $f: I \to c$ has a unique element of $c$ in its image. 
@@ -24,3 +25,8 @@ The most general case where a single object $I$ may be used to define global ele
 * Again for $C = [D^{op}, Set]$ and $I=D(-,d)$ a [[representable functor|representable]] presheaf, the generalized elements of $F$ at stage $d$ are precisely the elements of the set $F(d)$, by the [[Yoneda lemma]].
 
 * An [[element in an abelian category]] is an equivalence class of generalised elements.
+
+
+[[!redirects generalised element]]
+[[!redirects generalized elements]]
+[[!redirects generalised elements]]
