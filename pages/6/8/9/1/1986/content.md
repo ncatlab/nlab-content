@@ -19,11 +19,15 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-31
 
+*  [[Toby Bartels]]:  Comments to others:
+   *  To [[Jon Awbrey]]: I may have some solutions for you at the [[Sandbox]].
+   *  To [[Rafael Borowiecki]]:  There is good reason to hope that the Lab will remain slow only for less than a month.  Then Recently Revised will be able to return as well.  (The reason that it got turned off is that it made things *really* slow!)  There is a direct link to this page, incidentally; it\'s the link 'Recently Revised' up top!  (That\'s only a temporary redirect, of course, until the real Recently Revised comes back.)  Even when Recently Revised returns, the simple fact will be that, if you want people to know about what you\'ve done, then you\'ll probably need to log them here.  But if you don\'t care whether anybody notices, then you don\'t have to log, as far as I personally am concerned; but don\'t be surprised if it\'s harder to have discussions and collaborate that way.
+
 * [[Jon Awbrey]] added content to [[relation theory]].  Incidentally, does anyone know how to get an @ symbol in a math context?
 
 * [[John Baez]]:
 
- * Added another theorem to [[cartesian monoidal category]] and moved examples of semicartesian monoidal categories to a new page [[semicartesian monoidal category]].
+  * Added another theorem to [[cartesian monoidal category]] and moved examples of semicartesian monoidal categories to a new page [[semicartesian monoidal category]].
 
 *  [[Rafael Borowiecki]]:
 
@@ -39,7 +43,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
    * [[John Baez]]: if you don't log your changes here, we probably won't read your work, since we won't know what you've done!  That also means we're not likely to work on further developing your articles.  
 
-The first thing I do when visiting the $n$Lab is go to this page... and I'm probably not the only one!  That's why this page is important: it's where we meet and point each other to what we've just done.  The rest of us log our entries on this page for this reason... why not you?
+     The first thing I do when visiting the $n$Lab is go to this page... and I'm probably not the only one!  That's why this page is important: it's where we meet and point each other to what we've just done.  The rest of us log our entries on this page for this reason... why not you?
 
    * [[Rafael Borowiecki]]: OK, this is a good reason. But nLab is still too slow! Is nobody using [[recently revised]]? Except that it is broken now.
 
