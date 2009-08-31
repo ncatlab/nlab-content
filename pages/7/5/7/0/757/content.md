@@ -60,6 +60,13 @@ This is theorem 3.3.19 in _ModLoc_ .
 
   [[Urs Schreiber]]: could you give me a concrete reference that spells out what you are thinking of when saying "Bousfield localization of spectra"? Then I can try to look at it and see if I can answer your question. I would guess, that, yes, it must refer to the Bousfield localization of a model category o spectra.
 
+  _Rafael_: Here the Bousfield localization is with respect to a class of morphisms S. I found a case where the Bousfield localization is with respect to a spectrum of a generalized (co)homology theory instead. I think this is what i found before:
+
+  [Elliptic cohomology: geometry, applications, and higher chromatic analogues](http://books.google.se/books?id=ofnD0loTwC0C&pg=PA255&lpg=PA255&dq=%22Bousfield+Localization%22+invented&source=bl&ots=0pPUhszwlL&sig=uxZ9U5N1BY1zB7dOBAc5eYB_e20&hl=sv&ei=ztmASvP8O4Wy-AaCkKCzCg&sa=X&oi=book_result&ct=result&resnum=1#v=onepage&q=%22Bousfield%20Localization%22%20invented&f=false)
+  [On K(1)-local SU-bordism](http://arxiv.org/PS_cache/arxiv/pdf/0907/0907.4299v1.pdf)
+  [Goodwillie towers and chromatic homotopy page8](http://arxiv.org/PS_cache/math/pdf/0410/0410342v2.pdf)
+
+  Again there are different answers for what something is.
 =--
 
 #Bousfield localization in triangulated categories#
