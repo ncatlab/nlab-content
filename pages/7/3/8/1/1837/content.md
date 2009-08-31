@@ -134,3 +134,4 @@ The following tries to give an overview of some collection of gauge fields in ph
 
   * [[field strength]]: RR-forms
 
+[[!redirects gauge field]]
