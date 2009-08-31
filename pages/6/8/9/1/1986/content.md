@@ -1,6 +1,9 @@
-
 [[!include all changes]]
 
+Archive of changes made during August 2009.
+The substantive content of this page should **not** be altered.
+
+***
 
 
 ## 2009-08-31
@@ -950,13 +953,9 @@ Oh John, you gave me an opportunity for recalling some sweet memories: I clumsil
 
 ***
 
-[[2008 changes|First list]] &#8212; [[2009 July changes|Previous list]] &#8212; [[latest changes|Current list]]] 
+[[2008 changes|First list]] &#8212; [[2009 July changes|Previous list]] &#8212; [[2009 September changes|Next list]] &#8212; [[latest changes|Current list]]] 
 
 ***
 
 
 category: meta
-
-[[!redirects 2009 August changes]]
-
-[[!redirects recently revised]]
