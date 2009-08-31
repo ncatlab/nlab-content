@@ -469,3 +469,6 @@ structure with respect to the standard monoidal structure on cosimplicial abelia
 
 =--
 
+
+[[!redirects monoidal Dold?Kan correspondence]]
+[[!redirects monoidal Dold--Kan correspondence]]
