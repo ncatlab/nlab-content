@@ -8,6 +8,30 @@ Every wiki needs a sandbox! Just test _below_ and don't worry about messing thin
 
 ***
 
+Testing use of "=" and "&#215;" in titles and redirects:
+
+* [[Peirce's logic of information]]
+* [[information = comprehension × extension]]
+* [[Information = Comprehension × Extension]]
+* [[I = C × E]]
+* [[PLOI]]
+* [[ICE]]
+
+***
+
+Black Tortoise Shell Brackets?
+
+These look close to the "Chicago" and "Hollywood" fonts that I used to use on my old Mac for logical ops.
+
+* &#10647; &#8594; &#10647;
+* &#10648; &#8594; &#10648;
+
+__Ref.__ Unicode Punctuation : [Open](http://www.sql-und-xml.de/unicode-database/ps.html) & [Close](http://www.sql-und-xml.de/unicode-database/pe.html)
+
+Are these visible on most other people's browsers?
+
+***
+
 Does negative space work here?
 
 * $:= \quad :\!= \quad :\!\!= \quad :\!\!\!=$
@@ -15,6 +39,8 @@ Does negative space work here?
 * $-\lt \quad -\!\lt \quad -\!\!\lt \quad -\!\!\!\lt$
 
 * $-\lt \quad - \negsp \lt \quad - \negsp \negsp \lt \quad - \negsp \negsp \negsp \lt$
+
+That's a big nugatory, Boss ...
 
 ***
 
@@ -39,6 +65,17 @@ Quirky Quotations
 Try "$f: X \to Y$" (and '$f: X \to Y$').
 
 * Thanks!
+
+Note:
+
+* " &#8594; "
+* " &#8594; "
+
+Refs:
+* [HTML Codes](http://www.math.uh.edu/~hjm/HTML%20Tag%20List.htm)
+* [HTML Codes](http://www.elizabethcastro.com/html/extras/entities.html)
+* [Unicode Database](http://www.sql-und-xml.de/unicode-database/)
+* [Unicode Database : Math](http://www.sql-und-xml.de/unicode-database/sm.html)
 
 ***
 
