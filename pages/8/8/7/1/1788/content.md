@@ -8,6 +8,18 @@ Every wiki needs a sandbox! Just test _below_ and don't worry about messing thin
 
 ***
 
+@-titude
+
+@titude
+
+$@$
+
+$\@$
+
+${@}$
+
+***
+
 `plain code`
 
 __`bold code`__?
