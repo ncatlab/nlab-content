@@ -21,6 +21,7 @@ the objects, $X_n$, which are the images under $X$, of the objects $[n]$ of $\De
 
 * A simplicial object in a category of [[presheaf|presheaves]] is a [[simplicial presheaf]].
 
+* A cosimplicial object in the category of [[ring]]s ([[algebra]]s) is a [[cosimplicial ring]] ([[cosimplicial algebra]]).
 
 [[!redirects simplicial objects]]
 [[!redirects cosimplicial object]]
