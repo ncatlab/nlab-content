@@ -1,12 +1,34 @@
 You cannot see me: I\'m invisible!
 
-[[!include contents]] 
+[[!include contents]]
 
 ***
 
 Every wiki needs a sandbox! Just test _below_ and don't worry about messing things up.
 
 ***
+
+Quirky Quotations
+
+* "smart quoted text"
+
+* "$dumb quoted math$"
+
+* $``f : X \to Y"$
+
+* $``f : X \to Y''$
+
+* $\backprime\backprime X \prime\prime$
+
+* ${}^{\backprime\backprime} X {}^{\prime\prime}$
+
+* $\backprime\backprime f : X \to Y \prime\prime$
+
+* $\backprime\backprime f : X \to Y \,\prime\prime$
+
+***
+
+Attitudes
 
 * @
 
