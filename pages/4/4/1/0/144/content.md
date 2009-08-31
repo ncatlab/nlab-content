@@ -1,3 +1,18 @@
+# Idea #
+
+Given a [[category]] $C$ whose objects are thought of as _test spaces_ a very general useful notion of 
+
+* [[space]] modeled on the objects of $C$ is a [[presheaf]] on $C$, i.e. a [[functor]] $X : C^{op} \to $ [[Set]].
+
+* [[quantity]] modeled on $C$ is a [[presheaf|copresheaf]] on $C$, i.e. a functor $A : C \to Set$.
+
+* [[∞-space]] modeled on $C$ is a [[simplicial presheaf]] on $C$, i.e. a functor $X : C^{op} \to $ [[SSet]].
+
+* [[∞-quantity]] modeled on $C$ is a cosimplicial copresheaf on $C$, i.e. a functor $X : C \to CoSSet$ .
+
+For some discussion of why this is a useful general notion see [[motivation for sheaves, cohomology and higher stacks]].
+
+#Details#
 
 As indicated in
 
