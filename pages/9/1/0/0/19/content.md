@@ -295,18 +295,14 @@ Category theory has a main principle:
 
 _In any category it is unnatural and undesirable to speak about equality of two objects_.  See [[evil]].
 
+Therefore there are many notions of equivalence in category theory to solve this obstacle.
+
 For the theorem accepted as the fundamental theorem of category theory see the [[Yoneda lemma]].
 
 #Contrast with set theory#
 Here set theory is assumed to be a theory of the usual concept of sets, that is *material* [[set theory]].
 
 No one of these is more fundamental than the other as a foundation of mathematics. Category theory is a holistic (structural) approach to mathematics that can (through such methods as Lawvere\'s [[ETCS]]) provide [[foundations]] of mathematics and (through [[algebraic set theory]]) reproduce all the different axiomatic set theories; elementary category theory does not need the concept of set to be formulated. Set theory is an analytic approach (element-wise) and can reproduce category theory by simply defining all the concepts in the usual way, as long as one include a technique to handle large categories (for instance by using [[class]]es instead of sets, or by including as an axiom that an uncountable [[inaccessible cardinal]] exists or even that [[Grothendieck universe]]s exist). 
-
-  +-- {: .query}
-_Rafael Borowiecki_: I think this is the way to see that the definition of a category do not depend on sets: See Set as a particular category and not as a collection of sets. 
-Then to define Set you need the definition of a category. In that way sets have only to be defined in the infinite past when one writes out what a category is. Just a fun idea.
-
-  =--
 
 |Set theory| |Category theory|
 |----------|-|---------------|
@@ -328,18 +324,39 @@ For a philosophical consideration of foundations covering and comparing sets, st
 * Sets, categories and structuralism - Costas Drossos
 
 
-#Other categorical structures#
+#Generalizations and other structures#
 
-These are often seen as a part of category theory even if they are only related to categories.
+**Generalizations of categories**
 
+There are generalizations of categories in the sense that they are categories with extra structure which reduce to categories when the extra structure is trivial.
+
+* [[internal category|Internal categories]]
+* [[enriched category|Enriched categories]]
+* [[category over an operad||Categories over operads]]
+* [[multicategory|Multicategories]]
+* [[polycategory|Polycategories]]
+* [[supercategory|Supercategories]]
+* [[allegory|Allegories]]
+* [[actegory|Actegories]]
+
+**Other structures**
+
+These are a part of category theory even if they are not categories or reduce to categories as a special case.
+
+* [[strict n-category|Strict n-categories]]
+* [[weak n-category|Weak n-categories]]
+* [[multiple category|Multiple categories]]
 * [[derivation scheme|Derivation schemes]] (for deriving categories)
 * [[sesquicategory|Sesquicategories]]
 * [[computad|Computads]] (a special case of a derivation scheme when the underlying category is a free 2-category)
 * [[operad|Operads]]
 * [[simplicial set|Simplicial sets]]
-* [[multicategory|Multicategories]]
+* [[opetopic set|Opetopic sets]]
+* [[complicial set|Complicial sets]]
 * [[pseudocategory|Pseudocategories]] (nonstrict internal categories)
-* [[supercategory|Supercategories]] (i think they belong here)
+* [[Monad|Monads]]
+* [[Sketch|Sketches]]
+* [[Doctrine|Doctrines]]
 
 
 #Applied category theory#
@@ -353,7 +370,7 @@ Here are some fields to which category theory has been applied; ultimately we sh
 * [[psychology]] (ex: perception, cognition, consciousness, teaching, knowledge)
 * [[chemistry]] (the category of chemical elements and chemical reactions)
 * [[nuclear physics]] (the category of atomic nuclei and nuclear reactions, graphical calculus for spin)
-* [[biology]] (ex: detecting life)
+* [[biology]] (ex: detecting life, organismic supercategories)
 * [[linguistics]]
 * [[philosophy]]
 * [[music]]
@@ -381,15 +398,6 @@ Other standard references include:
 * [[Eugenia Cheng]], [[Aaron Lauda]], _Higher-dimensional categories: an illustrated guide book_ [free online] (http://cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf)
 * [[Peter Johnstone]], _Topos theory_
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ [free online] (http://www-math.mit.edu/~lurie/papers/highertopoi.pdf)
-  +-- {: .query}
-  Rafael: Urs, why have you removed a perfectly good link?
-
-  _Toby_:  If you mean [this edit](http://ncatlab.org/nlab/revision/diff/category+theory/73), Urs didn\'t so much *remove* a link as *change* it.  Your (Rafael\'s) link is actually avaiable at the target of Urs\'s link ... although it\'s also reasonable to have both of them here if you want to restore yours.
-
-  Rafael: The link at the target is a draft. My was to the complete book :) I do want links at both places just to be systematic. Maby i should change the link at the target to point there also.
-
-  _Toby_:  H\'m, yeah, it looks like the link at [[Higher Topos Theory]] needs to be updated; I just did that.  As I said, the link here is reasonable too, so that\'s fine.
-  =--
 * Project description: higher categorical structures and their applications [free online] (http://www.math.uchicago.edu/~may/NCATS/ForWeb.pdf)
 
 
