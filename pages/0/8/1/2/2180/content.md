@@ -65,11 +65,11 @@ For example, $L$ is said to be $c$-regular at $j$ if and only if the cardinality
 In a similar fashion, one can define the NIPs, $(\lt c)$-regular at $j$, $(\gt c)$-regular at $j$, and so on.  For ease of reference, a few of these definitions are recorded here:
 
 \[ \begin{matrix}
-L & is & c-regular & at j & if and only if & |L_{x \star j}| & = & c & for all x \in X_j.
+L & is & c-regular & at & j & \iff & |L_{x \star j}| & = & c & for all & x \in X_j.
 \\
-L & is & (\lt c)-regular & at j & if and only if & |L_{x \star j}| & \lt & c & for all x \in X_j.
+L & is & (\lt c)-regular & at & j & \iff & |L_{x \star j}| & \lt & c & for all & x \in X_j.
 \\
-L & is & (\gt c)-regular & at j & if and only if & |L_{x \star j}| & \gt & c & for all x \in X_j.
+L & is & (\gt c)-regular & at & j & \iff & |L_{x \star j}| & \gt & c & for all & x \in X_j.
 \end{matrix} \]
 
 ## Species of 2-adic relations ##
@@ -77,13 +77,13 @@ L & is & (\gt c)-regular & at j & if and only if & |L_{x \star j}| & \gt & c & f
 Returning to 2-adic relations, it is useful to describe some familiar classes of objects in terms of their local and numerical incidence properties.  Let $L \subseteq S \times T$ be an arbitrary 2-adic relation.  The following properties of $L$ can be defined:
 
 \[ \begin{matrix}
-L & is & total & at S & if and only if & L & is & (\ge 1)-regular & at S.
+L & is & total & at & S & \iff & L & is & (\ge 1)-regular & at & S.
 \\
-L & is & total & at T & if and only if & L & is & (\ge 1)-regular & at T.
+L & is & total & at & T & \iff & L & is & (\ge 1)-regular & at & T.
 \\
-L & is & tubular & at S & if and only if & L & is & (\le 1)-regular & at S.
+L & is & tubular & at & S & \iff & L & is & (\le 1)-regular & at & S.
 \\
-L & is & tubular & at T & if and only if & L & is & (\le 1)-regular & at T.
+L & is & tubular & at & T & \iff & L & is & (\le 1)-regular & at & T.
 \end{matrix} \]
 
 If $L \subseteq S \times T$ is tubular at $S$, then $L$ is called a _partial function_ or a _prefunction_ from $S$ to $T$.  This is sometimes indicated by giving $L$ an alternate name, say, "$p$", and writing $L = p : S \:\dashrightarrow\: T$.
@@ -91,23 +91,23 @@ If $L \subseteq S \times T$ is tubular at $S$, then $L$ is called a _partial fun
 Just by way of formalizing the definition:
 
 \[ \begin{matrix}
-L & = & p : S \:\dashrightarrow\: T & if and only if & L & is & tubular & at S.
+L & = & p : S \:\dashrightarrow\: T & \iff & L & is & tubular & at & S.
 \end{matrix} \]
 
 If $L$ is a prefunction $p : S\:\dashrightarrow\: T$ that happens to be total at $S$, then $L$ is called a _function_ from $S$ to $T$, indicated by writing $L = f : S \to T$.  To say that a relation $L \subseteq S \times T$ is _totally tubular_ at $S$ is to say that it is $1$-regular at $S$.  Thus, we may formalize the following definition:
 
 \[ \begin{matrix}
-L & = & f : S \to T & if and only if & L & is & 1-regular & at S.
+L & = & f : S \to T & \iff & L & is & 1-regular & at & S.
 \end{matrix} \]
 
 In the case of a function $f : S \to T$, one has the following additional definitions:
 
 \[ \begin{matrix}
-f & is & surjective & if and only if & f & is & total & at T.
+f & is & surjective & \iff & f & is & total & at & T.
 \\
-f & is & injective & if and only if & f & is & tubular & at T.
+f & is & injective & \iff & f & is & tubular & at & T.
 \\
-f & is & bijective & if and only if & f & is & 1-regular & at T.
+f & is & bijective & \iff & f & is & 1-regular & at & T.
 \end{matrix} \]
 
 ## Variations ##
