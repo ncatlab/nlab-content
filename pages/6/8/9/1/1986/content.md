@@ -12,12 +12,32 @@ Please log all your non-trivial changes to the $n$Lab here!
 
 Here "non-trivial" means: anything that any other contributor might be interested in taking notice of. If you fix a trivial typo in the text somewhere, that is highly appreciated but unlikely to be controversial and hence need not be logged here. But already if you fix a typo in some _formula_, it may be of interest. Generally: the more you log your activity here, the better. Even when in doubt whether anyone else might be interested in changes you made, drop a note here on what you did.
 
+The importance of logging changes here is that
+
++-- {: .standout}
+
+Logging changes here is the way to have a reasonable interactive collaboration on the $n$Lab that allows interactive improvements and cross-checks of entries.
+
+=--
+
+Contributions that are not logged here are likely to be missed and ignored. And that can't be the point of making a contribution. 
+
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in UTC (the date given by the server for your edits).  However, regardless of that, be sure to **add new comments to the top** of the list.
 
 ***
 
 
 ## 2009-08-31
+
+* [[Urs Schreiber]]: replied to [[Rafael Borowiecki]] at [[category theory]] 
+
+  following various suggestions I didn't quite delete the big discussion box there yet, but instead moved it to the very end of the entry, so that it doesn't interrupt the reading flow anymore where it used to be (since we reached agreement there).  
+
+* [[Urs Schreiber]]: replied to [[Rafael Borowiecki]] at [[Bousfield localization]] and asked for further details
+
+  * I second John's and Toby's comments: the reason why it is important to log changes here is because this is the only reasonable way that we alert each other of changes and thereby give us a chance to interact with each other. If nobody would log here, everybody would be bound to blindly edit the Lab on his or her own, whithout any interaction. I have added a remark to this extent now also to the blurb that appears on the top of this page.
+
+    And yes, we are all suffering from the slowness of the Lab. But the moment that Andrew Stacey decides he is ready, we will switch to a better server. He has already set up everything and is just waiting for a good moment to migrate.
 
 *  [[Toby Bartels]]:
 
