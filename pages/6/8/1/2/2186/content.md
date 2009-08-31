@@ -1,6 +1,6 @@
 #Idea#
 
-Nonstandard analysis is a richer formalization of [[analysis]] that uses a certain explicit notions of [[infinitesimal object]]s. In fact, not only infinitesimal but also infinitely large can be accomodated; moreover not only the field of real numbers, but more general algebraic structures can be extended, essentially via a construction of ultraproducts; also general sets can be extended to contain nonstandard elements (see [[internal set]]). 
+Nonstandard analysis is a richer formalization of [[analysis]] that uses a certain explicit notions of [[infinitesimal object]]s. In fact, not only infinitesimal but also infinitely large can be accomodated; moreover not only the field of [[real number]]s, but more general algebraic structures can be extended, essentially via a construction of ultraproducts; also general sets can be extended to contain nonstandard elements (see [[internal set]]). 
 
 ##Motivation##
 
@@ -12,7 +12,7 @@ At its beginning, infinitesimal calculus was developed nonrigorously, though man
 Assuming the [[axiom of choice]] (whose full strength is not necessary), there exists a free (= not containing finite subsets) [[ultrafilter]] $F$ on the set of [[natural numbers]] $\mathbb{N}=\{1,2,3,\ldots\}$, and such ultrafilters are in $1$--$1$ correspondence with finitely additive [[measure]]s on $\mathbb{N}$ (using the [[power set|algebra of all subsets]]) taking values in the two element set $\{0,1\}$.
 
 
-Fix a free ultrafilter on $\mathbb{N}$, and consider the set of all [[sequences]] of real numbers, $\mathbb{R}^{\mathbb{N}}$. We write $f\sim_F g$ if the set $\{i\in\mathbb{N}|f(i)=g(i)\}$ belongs to $F$; these are precisely the sequences which are equal almost everywhere with respect to the associated measure. The relation $\sim_F$ is an [[equivalence relation] and ${}^*\mathbb{R} := \mathbb{R}^{\mathbb{N}}/{\sim_F}$ is a __nonstandard extension__ of $\mathbb{R}$, whose elements are sometimes called **hyperreal numbers**. Given $f\in \mathbb{R}^{\mathbb{N}}$, we write $f_F$ for its equivalence class in ${}^*\mathbb{R}$. In particular, given any real number $r\in \mathbb{R}$ the image $^* r :=(i\mapsto r)_F$ of the constant sequence $(r,r,r,\ldots)$ is an element in $^*\mathbb{R}$ and this gives an [[injection]] $*:\mathbb{R}\hookrightarrow {}^*\mathbb{R}$. 
+Fix a free ultrafilter on $\mathbb{N}$, and consider the set of all [[sequences]] of real numbers, $\mathbb{R}^{\mathbb{N}}$. We write $f\sim_F g$ if the set $\{i\in\mathbb{N}|f(i)=g(i)\}$ belongs to $F$; these are precisely the sequences which are equal almost everywhere with respect to the associated measure. The relation $\sim_F$ is an [[equivalence relation] and ${}^*\mathbb{R} := \mathbb{R}^{\mathbb{N}}/{\sim_F}$ is a __nonstandard extension__ of $\mathbb{R}$, whose elements are sometimes called **hyperreal numbers**. This is a special case of the [[ultraproduct]] construction in [[model theory]]. Given $f\in \mathbb{R}^{\mathbb{N}}$, we write $f_F$ for its equivalence class in ${}^*\mathbb{R}$. In particular, given any real number $r\in \mathbb{R}$ the image $^* r :=(i\mapsto r)_F$ of the constant sequence $(r,r,r,\ldots)$ is an element in $^*\mathbb{R}$ and this gives an [[injection]] $*:\mathbb{R}\hookrightarrow {}^*\mathbb{R}$. 
 
 
 $^*\mathbb{R}$ is equipped with a linear ordering given by
