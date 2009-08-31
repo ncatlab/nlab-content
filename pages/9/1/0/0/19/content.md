@@ -241,6 +241,8 @@ I have done some research and think the discussion is really about how you view 
 
   Finally, an addition to primitive spaces just for completeness: Two separated points (when taken out) of a "set" (so there are no relations to other points) are of the same type if there exist a structure preserving mapping between the points such as a homomorphism. (i don't know precisely what this means for fractals so don't ask me about it.) It might say more about them or not.
 
+  _Rafael_: Since no one wants to reply, this discussion can be deleted?
+
   =--
 
 * A theory of models for [[homotopy type]]s. In [[Alexander Grothendieck|Grothendieck's]] approach to homotopy theory he called $Cat$ together with the class of functors that induced weak equivalences on nerves a [[fundamental localizer]]. See [[the homotopy theory of Grothendieck]].
@@ -332,7 +334,7 @@ There are generalizations of categories in the sense that they are categories wi
 
 * [[internal category|Internal categories]]
 * [[enriched category|Enriched categories]]
-* [[category over an operad||Categories over operads]]
+* [[category over an operad|Categories over operads]]
 * [[multicategory|Multicategories]]
 * [[polycategory|Polycategories]]
 * [[supercategory|Supercategories]]
