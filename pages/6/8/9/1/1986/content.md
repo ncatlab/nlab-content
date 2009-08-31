@@ -16,6 +16,21 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 
+## 2009-08-31
+
+
+*  [[Rafael Borowiecki]]:
+
+   * Rewrote and renamed the subsection Generalizations and other structures in [[category theory]].
+   * Added that there are several equivalences in category theory at [[category theory]].
+   * Gave organismic supercategories as an application of category theory in biology at [[category theory]].
+   * Discussed with Toby manifold objects at [[manifold]].
+   * Suggested an answer to my question at [[bousfield localization]].
+
+   I have been bussy writing on the timeline of category theory and reading a prehistory of n-categorical physics. But i managed to write something in nLab.
+
+   To log everything just takes more time, and i am already tired of waiting while doing the normal editing. Neither is there a direct link to this page. And is not [[recently revised]] enough? I always used it. Since i don't see the wonderful thing with this page i won't have the energy and time to log everything here.
+
 ## 2009-08-30
 
 *  [[John Baez]]:
