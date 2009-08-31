@@ -37,7 +37,7 @@ At least when the algebra in degree $0$ is of the form $C^\infty(X)$ for some sp
 
 # Terminology #
 
-Sometimes semi-free DGAs are called _quasi-free_ . 
+Sometimes semi-free DGAs are called _quasi-free_, but this is in collision with the terminology about formal smoothness of noncommutative algebras, i.e. quasi-free algebras in the sense of Cuntz and Quillen (and with extensions to homological smootheness of dg-algebras by Kontsevich). 
 
 [[!redirects semifree dgas]]
 [[!redirects semi-free dga]]
