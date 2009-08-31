@@ -19,6 +19,7 @@
 * [[minimal negation operator]]
 * [[negation]]
 * [[Peirce's law]]
+* [[Peirce's logic of information]]
 * [[praeclarum theorema]]
 * [[predicative mathematics]]
 * [[propositional equation reasoning system]]
