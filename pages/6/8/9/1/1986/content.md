@@ -40,6 +40,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 The first thing I do when visiting the $n$Lab is go to this page... and I'm probably not the only one!  That's why this page is important: it's where we meet and point each other to what we've just done.  The rest of us log our entries on this page for this reason... why not you?
 
+   * [[Rafael Borowiecki]]: OK, this is a good reason. But nLab is still too slow! Is nobody using [[recently revised]]? Except that it is broken now.
+
 ## 2009-08-30
 
 *  [[John Baez]]:
