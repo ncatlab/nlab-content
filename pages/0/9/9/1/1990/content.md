@@ -2,7 +2,7 @@
 
 In the context of [[synthetic differential geometry]] a [[differential form]] $\omega$ of degree $k$ on a [[manifold]] $X$ is literally a function on the space of _infinitesimal cubes_ or _infinitesimal simplices_ in $X$.
 
-We give the definition as availalable in the literature and then interpret this in a more unified way in terms of [[(infinity,1)-quantity|(∞,1)-quantities]].
+We give the definition as availalable in the literature and then interpret this in a more unified way in terms of [[infinity-quantity|∞-quantities]].
 
 # Definition #
 
@@ -18,15 +18,24 @@ See definition 3.1.1 in
 
 * Anders Kock, _Synthetic geometry of manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-kopi.pdf))
 
-for this simplicial definition. See the following definitions for the cubical variants and their interrelation.
+for this simplicial definition. 
+
+This is a very simple-looking statement. The reason is the [[topos]]-theoretic language at work in the background, which takes care that we may talk about [[infinitesimal object]]s as if they were just plain ordinary sets. For a very detailed account of how the above statement is implemented concretely in terms of concrete models for synthetic differential spaces see section 1 of 
+
+* Breen, Messing, _Combinatorial differential forms_ ([arXiv](http://arxiv.org/abs/math/0005087))
+
+There are also cubical variants of the above definition
+
+* Anders Kock, _Cubical version of combinatorial differential forms_ ([pdf](http://www.springerlink.com/content/87tj80l51h138177/fulltext.pdf))
+
 
 See also section 4.1 of
 
 * Moerdijk-Reyes,  [[Models for Smooth Infinitesimal Analysis]]
 
-for the cubical version.
+for a realization of the cubical version in models based on sheaves on [[generalized smooth algebra]]s.
 
-We observe here that we may characterize this object $\Omega^k(X) \subset C^\infty(X^{\Delta^k_{inf}})$ as follows:
+We may characterize the object $\Omega^k(X) \subset C^\infty(X^{\Delta^k_{inf}})$ as follows:
 
 for $k \geq 1$ there are the obvious images 
 
