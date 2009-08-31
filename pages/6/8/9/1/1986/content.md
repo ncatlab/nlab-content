@@ -1,7 +1,5 @@
 [[!include all changes]]
 
-[[!redirects recently revised]]
-
 All non-trivial additions or changes to the $n$Lab should briefly be indicated here. This way [[Contributors|the rest of us]] can spot them, so we can learn what you know --- and maybe make further improvements!
 
 +-- {: .standout}
@@ -16,7 +14,7 @@ The importance of logging changes here is that
 
 +-- {: .standout}
 
-Logging changes here is the way to have a reasonable interactive collaboration on the $n$Lab that allows interactive improvements and cross-checks of entries.
+Logging changes here is the way to allow collaboration on the $n$Lab without everybody following every individual page.
 
 =--
 
@@ -28,6 +26,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 
 ## 2009-08-31
+
+*  [[Toby Bartels]]:
+   *  Rephrased (and tightened) the second warning above to what I think is the important point.
+   *  Cross linked [[relation]] and [[relation theory]].
+   *  An introductory question at [[infinitesimal object]].
 
 * [[Urs Schreiber]]: various very minor edits:
 
@@ -92,11 +95,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
    * [[Rafael Borowiecki]]: OK, this is a good reason. But nLab is still too slow! Is nobody using [[recently revised]]? Except that it is broken now.
 
-## 2009-08-30
-
 *  [[John Baez]]:
 
    * Edited [[cartesian monoidal category]] to add some nice examples of semicartesian monoidal categories; these examples should perhaps be moved someday.
+
+
+## 2009-08-30
 
 *  [[Toby Bartels]]:
 
@@ -953,3 +957,5 @@ Oh John, you gave me an opportunity for recalling some sweet memories: I clumsil
 category: meta
 
 [[!redirects 2009 August changes]]
+
+[[!redirects recently revised]]
