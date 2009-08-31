@@ -323,3 +323,5 @@ $X$ an infinitesimal object are in appendix 4 of
 
 * Moerdijk, Reyes, _[[Models for Smooth Infinitesimal Analysis]]_
 
+[[!redirects infinitesimal space]]
+[[!redirects infinitesimal quantity]]
