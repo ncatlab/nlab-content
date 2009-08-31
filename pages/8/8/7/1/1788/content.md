@@ -8,6 +8,16 @@ Every wiki needs a sandbox! Just test _below_ and don't worry about messing thin
 
 ***
 
+Does negative space work here?
+
+* $:= \quad :\!= \quad :\!\!= \quad :\!\!\!=$
+
+* $-\lt \quad -\!\lt \quad -\!\!\lt \quad -\!\!\!\lt$
+
+* $-\lt \quad - \negsp \lt \quad - \negsp \negsp \lt \quad - \negsp \negsp \negsp \lt$
+
+***
+
 Quirky Quotations
 
 * "smart quoted text"
