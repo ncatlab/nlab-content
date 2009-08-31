@@ -27,6 +27,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-08-31
 
+* [[Urs Schreiber]]
+
+  * created [[infinitesimal singular simplicial complex]] --  it reiterates things said at [[differential forms in synthetic differential geometry]] but the motivation for creating it was to accomodate a reference that [[Zoran Skoda]] provided which gives a version of this notion in [[nonstandard analysis]]
+
+
 * [[Jon Awbrey]] added a stub and a link for future development at [[Peirce's logic of information]].
 
 * [[Urs Schreiber]]
