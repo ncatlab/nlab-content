@@ -13,7 +13,7 @@ Some examples of semicartesian monoidal categories that are not cartesian includ
 +-- {: .query}
 Which meaning of 'convex set' are you using here?
 
-[[John Baez]]: roughly speaking: a set equipped with $n$-ary 'convex linear combination' operations, one for every $n$-tuple of real numbers in [0,1] that add to 1, obeying the obvious axioms.  There is a Lawvere theory for convex sets and it's a <i>lot</i> like the algebraic theory for real [[affine space|affine spaces]] (described already on the $n$Lab) with an extra condition thrown in, namely that we only allow affine linear combinations where the coefficients lie in [0,1].
+[[John Baez]]: roughly speaking: a set equipped with $n$-ary 'convex linear combination' operations, one for every $n$-tuple of real numbers in $[0,1]$ that add to 1, obeying some obvious axioms.  There is a Lawvere theory for convex sets and it's a <i>lot</i> like the algebraic theory for real [[affine space|affine spaces]] (described already on the $n$Lab): I think you just throw in one extra condition, namely that we only allow affine linear combinations where the coefficients lie in [0,1].
 =--
 
 In a semicartesian monoidal category, any tensor product of objects $x \otimes y$ comes equipped with morphisms 
