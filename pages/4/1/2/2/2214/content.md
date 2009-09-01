@@ -52,6 +52,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 *  [[Toby Bartels]]:  Now, you know it\'s not September for another half hour, right?  (^_^)
 
+   * [[Urs Schreiber]]: oops, you are right, I forgot that I am not exactly at GMT +0. 
+
 * [[Urs Schreiber]]
 
   * moved the accumulated latest changes of last month to [[2009 August changes]] (by renaming the last "latest changes" and then creating a new one)
