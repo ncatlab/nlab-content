@@ -79,11 +79,11 @@ let me recall: given a model category $C$ we may choose a set of morphisms $S = 
 
 Then:
 
-* the Boudsfield localization of the entire category $C$ is (if it exists) a new model category structure on $C$ where the weak equivalences now are the $S$-[[local equivalence]]
+* the Bousfield localization of the entire category $C$ is (if it exists) a new model category structure on $C$ where the weak equivalences now are the $S$-[[local equivalence]]
 
 * in as far as the Bousfield localization is a model for a [[localization of an (infinity,1)-category]] every object $Z$ will be weakly equivalent to an $S$-local one $Z_E$, in that there is a morphism $Z \to Z_E$ which is a weak equivalence. Since $Z_E$ is $S$-local in the sense of the definition just recalled, this may be thought of as being the "localization" of the object $Z$.
 
-So what they call localization is there is what happens to the _objects_ as we apply Bousfield localization to the category that they live in, essentially.
+So what they call localization there is what happens to the _objects_ as we apply Bousfield localization to the category that they live in, essentially. That the objects in their model category happen to be spectra is not important for this general kind of statement. They could be anything.
 
 It may help to think of this in the example where $C$ is a category of [[simplicial presheaf|simplicial presheaves]] and the Bousfield localization is at those weak equivalences that induce the local [[model structure on simplicial presheaves]]. Then the Bousfield localization
 
@@ -91,7 +91,7 @@ $$
   SimpPSh_{glob} \to SimpPSh_{loc}
 $$
 
-is [[infinity-stackification]]. In this case the "localizaton morphism on object" $Z \to Z_E$ the morphism that make a pre-stack $Z$ weakly equivalent to ist $\infty$-stackification $Z_E$. So here localization=stackification and in terms of that the general kind of situation here may be more familiar.
+is [[infinity-stackification]]. In this case the "localization morphism on objects" $Z \to Z_E$ the morphism that make a pre-stack $Z$ weakly equivalent to ist $\infty$-stackification $Z_E$. So here localization=stackification and in terms of that the general kind of situation here may be more familiar.
  
 =--
 
