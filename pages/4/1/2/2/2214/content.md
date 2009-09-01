@@ -29,7 +29,15 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Jon Awbrey]] added content to [[hypostatic abstraction]].
 
-* [[John Baez]]: I answered Rafael's plea for a definition of 'CW complex' in that big discussion on [[category theory]], and also commented on Urs' remark about 'simplicial complexes'.
+* [[John Baez]]: 
+
+  * answered Rafael's plea for a definition of 'CW complex' in that big discussion on [[category theory]], and also commented on Urs' remark about 'simplicial complexes';
+
+  * completed the definition of [[monoidal category]] by adding the triangle equation;
+  
+  * added some remarks on right vs. left duals on [[rigid monoidal category]];
+
+  * noted that the $n$Lab crashed a couple of times while I was doing this.  Unfortunately I did not get a screenshot of the fancy error message.
 
 * [[Zoran Škoda]]: I restarted the system and now IE renders [[normal subgroup]] correctly. This is strange as it had problems only with new entries [[normal subgroup]] and [[normal closure]] (even after many reloads) and rendered correctly the other entries. Now after reboot even they appear correct. 
 
