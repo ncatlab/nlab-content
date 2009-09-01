@@ -26,6 +26,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 
 ## 2009-09-01
+* [[Zoran Škoda]]: I just created [[normal subgroup]] and it does not render right on my IE. Is this a new system glitch? The letters and formulas are one across another. Did not make last night logging that I added a paragraph or so on the Jacobi matrix and the application (Alexander polynomial) into the [[Fox derivative]]. I also created [[derived affine scheme]] in the sense of Toen et al. 
 
 * [[Andrew Stacey]]: The migrating eagle has landed.
 
