@@ -228,7 +228,7 @@ Let $G$ be a [[Lie group]] and let $\mathbf{B}G$ be its [[delooping]] regarded a
 
 For more on this see
 
-* [[Chevalley-Eilenberg algebra in synthetic differential geometry]].
+* [[Chevalley-Eilenberg algebra in synthetic differential geomet|Chevalley-Eilenberg algebra in synthetic differential geometry]].
 
 ## Differential forms {#differentialforms}
 
