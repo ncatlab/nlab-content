@@ -1,0 +1,6 @@
+A subgroup $N$ of a [[group]] $G$ is **normal** if the conjugation $n\mapsto g^{-1}ng$ by any element $g\in G$ leaves $N$ invariant, i.e. $\{g^{-1}ng\,|\,g\in G, n\in N\} = N$. A subgroup $N$ is normal iff the partition of the group into left *cosets* of the subgroup $N$, that is sets $gN = \{ h\,|\,\exist n\in N, h = gn\}$ is stable in the sense that the left coset of the product of any two elements $g_1,g_2\in G$ depends only on the classes $g_1 N$, $g_2 N$. Thus there is well defined product on the classes making the set of left cosets $N\G$ a group.
+By $gN = gNg^{-1}g = Ng$ the set of left cosets and the set of right cosets of a normal subgroup coincide; thus the induced group structure on the right coset set $G/N$ is the same and called the [[quotient object|quotient]] group. 
+
+Normal subgroup is a [[normal suobject]] of a group in the category of discrete groups. If we consider a group as a special case of an $\Omega$-group, then the normal subgroup corresponds to an ideal. 
+
+Of course, every subgroup of an abelian group is normal.  
