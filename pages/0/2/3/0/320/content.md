@@ -52,7 +52,7 @@ With a little care, ordinary (permutative/symmetric) operads may also be treated
 
 #References#
 
-* [[Tom Leinster]], _Higher Operads, Higher Categories_ ([arXiv](http://golem.ph.utexas.edu/category/2007/05/on_the_bar_construction.html#c021027))
+* [[Tom Leinster]], _Higher Operads, Higher Categories_ ([arXiv](http://arxiv.org/abs/math.CT/0305049))
 
 
 [[!redirects multicategories]]
