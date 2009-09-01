@@ -27,7 +27,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-01
 
-* [[Todd Trimble]] added a teeny bit to [[locally convex topological vector space]]. I hope to be more in nLab editor mode soon. Congratulations on a successful migration (with big thanks to [[Andrew Stacey]]). 
+* [[Rafael Borowiecki]]: To [[Andrew Stacey]]. The whole bottom part of the page [[Timeline of category theory and related mathematics]] is abruptly missing. Which is a lot, not only my question. Since i have the full version loaded in a browser i could try to reconstruct it but i would prefer if you did a rollback if you can.
 
 * [[Jon Awbrey]] added content to [[hypostatic abstraction]].
 
