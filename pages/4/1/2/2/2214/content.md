@@ -31,6 +31,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Zoran Škoda]]: I restarted the system and now IE renders [[normal subgroup]] correctly. This is strange as it had problems only with new entries [[normal subgroup]] and [[normal closure]] (even after many reloads) and rendered correctly the other entries. Now after reboot even they appear correct. 
 
+  [[Andrew Stacey]]: Okay, sounds like it was a cache bug.  During the changeover, various addresses pointed all over the shop and there are redirects going all ways from Sunday, so it's not surprising that a browser get confused.  Clearing caches is probably a good idea.  It will take a while before ncatlab.org properly points here for everyone (for example, from my work machine it was working from about midday; now at home then it still resolves to the old lab).  But if you type 'ncatlab.org' into a browser you will always end up _here_, it just might be via a slightly circuitous route.
+
 * [[Zoran Škoda]]: I just created [[normal subgroup]], [[normal closure]], but they do not render correctly on my IE. Is this a new-system glitch? The letters and formulas are one across another. Did not make last night logging that I added a paragraph or so on the Jacobi matrix and the application (Alexander polynomial) into the [[Fox derivative]]. I also created [[derived affine scheme]] in the sense of Toen et al. 
 
   [[Andrew Stacey]]: No idea!  Can you send me a screen shot?  Unfortunately, the Windows machine that I have control over can't connect to the wireless network here (Oh, the irony!) and the windows machine that I don't have control over doesn't have MathML support.
