@@ -7,6 +7,7 @@
 * [[classical logic]]
 * [[constructive mathematics]]
 * [[context]]
+* [[continuous predicate]]
 * [[differential logic]]
 * [[equality]]
 * [[evil]]
