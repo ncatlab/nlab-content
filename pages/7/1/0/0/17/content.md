@@ -10,9 +10,9 @@ See also the [[FAQ]].
 
 # Software required to use the $n$Lab #
 
-The $n$Lab displays mathematical symbols using [MathML](http://en.wikipedia.org/wiki/MathML). Most web-browsers -- notably Firefox -- know how to display this. 
+The $n$Lab displays mathematical symbols using [MathML](http://en.wikipedia.org/wiki/MathML).  Displaying MathML requires support from your web browser.  The browser with the best support for MathML is [Firefox](http://www.mozilla.com/firefox/), especially if you install the [STIX fonts](http://www.mozilla.org/projects/mathml/fonts/).  Firefox is a great browser in many other ways too, so if you aren't using it, why not give it a try?
 
-But for InternetExplorer one needs the [MathPlayer](http://www.dessci.com/en/products/mathplayer/) plugin. Download is quick and easy and free. 
+Recent versions of Opera also apparently support MathML.  For InternetExplorer, one needs to install the [MathPlayer](http://www.dessci.com/en/products/mathplayer/) plugin. Download is quick and easy and free, but installation may require Administrator privileges on your computer.  However, other browsers such as Safari and Chrome seemingly do not support MathML at present.
 
 
 #How to use a Wiki#
