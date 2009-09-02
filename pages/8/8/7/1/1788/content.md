@@ -4,6 +4,29 @@ You cannot see me: I\'m invisible!
 
 ***
 
+Black Tortoise Shell Brackets?
+
+These look close to the "Chicago" and "Hollywood" fonts that I used to use on my old Mac for logical ops.
+
+* &#10647; &#8594; &#10647;
+* &#10648; &#8594; &#10648;
+
+__Ref.__ Unicode Punctuation : [Open](http://www.sql-und-xml.de/unicode-database/ps.html) & [Close](http://www.sql-und-xml.de/unicode-database/pe.html)
+
+Are these visible on most other people's browsers?
+
+Testing whether I can cut and paste the display forms in the edit window:
+
+: &#10647; &#10648;
+
+: &#10647;&#10647; &#10648;&#10648;
+
+: &#10647; &#10648;&#10647; &#10648; = &#10647; &#10648;
+
+Cool! ![](http://wikipediareview.com/stimg9x0b4fsr2/1/folder_post_icons/icon9.gif)
+
+***
+
 Every wiki needs a sandbox! Just test _below_ and don't worry about messing things up.
 
 ***
@@ -18,19 +41,6 @@ Testing use of "=" and "&#215;" in titles and redirects:
 * [[ICE]]
 
 We tend to avoid symbols in page titles, to make red links easier on people with poor capabilities.  (But there\'s nothing wrong with symbols in redirect titles!)  ---Toby
-
-***
-
-Black Tortoise Shell Brackets?
-
-These look close to the "Chicago" and "Hollywood" fonts that I used to use on my old Mac for logical ops.
-
-* &#10647; &#8594; &#10647;
-* &#10648; &#8594; &#10648;
-
-__Ref.__ Unicode Punctuation : [Open](http://www.sql-und-xml.de/unicode-database/ps.html) & [Close](http://www.sql-und-xml.de/unicode-database/pe.html)
-
-Are these visible on most other people's browsers?
 
 ***
 
