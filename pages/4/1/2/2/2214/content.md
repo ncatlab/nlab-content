@@ -26,6 +26,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-02
 
+* [[Rafael Borowiecki]]: Replied and did some minor changes on [[extended topological quantum field theory]]. I am waiting for the experts to improve what i have written before i write more. As for the timeline i am glad that it can be fixed but how about the long titles? Ah. the nForum.
+
 * [[Urs Schreiber]]
 
   * started an entry on [[equivariant cohomology]]
