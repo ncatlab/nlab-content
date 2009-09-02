@@ -62,6 +62,8 @@ community and my exprience is that when somebody says they proved a fact by abst
 
 * [[Urs Schreiber]]: replied in the discussion at the bottom of [[category theory]] -- and have a question
 
+  * [[Todd Trimble]] chucked in two cents here. 
+
 * [[Urs Schreiber]]  WATCH OUT WITH LONG ENTRY NAMES -- see the $n$forum discussion. Some long entry names got truncated in the migration. the entry "Chevalley-eilenberg algebra in synthetic differential geometry" for instance is now called [[Chevalley-Eilenberg algebra in synthetic differential geomet]]
 
  See "all pages" to find out the truncated entry name of an entry that you know should be there but is missing. 
