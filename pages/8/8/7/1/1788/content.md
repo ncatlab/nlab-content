@@ -16,6 +16,8 @@ $$
                        (2,1) & (2,2) & (2,3) & (2,4)  }
 $$
 
+<br>
+
 $$
 \array{
 \cellopts{\colspan{3}} Doctor! \: My Eyes! \\
@@ -152,7 +154,7 @@ B & \backprime\backprime i \prime\prime  }
 }
 $$
 
-Can't get commands like \equalcols and \padding to work &#8230;
+Can't get commands like \equalcols and \padding to work &hellip;
 
 Tables with headings?
 
@@ -160,9 +162,9 @@ Version 1
 
 $$
 \array{
-L_0 = \{ (x, y, z) \in \mathbb{B} : x + y + z = 0 \}
+L_0 = \{ (x, y, z) \in \mathbb{B}^3 : x + y + z = 0 \}
 &
-L_1 = \{ (x, y, z) \in \mathbb{B} : x + y + z = 1 \}
+L_1 = \{ (x, y, z) \in \mathbb{B}^3 : x + y + z = 1 \}
 \\
 \array{
 \arrayopts{\frame{solid}\rowlines{solid none}}
@@ -188,7 +190,7 @@ $$
 \array{
 \array{
 \arrayopts{\frame{solid}\rowlines{solid solid none}}
-\cellopts{\colspan{3}} L_0 = \{ (x, y, z) \in \mathbb{B} : x + y + z = 0 \} \\
+\cellopts{\colspan{3}} L_0 = \{ (x, y, z) \in \mathbb{B}^3 : x + y + z = 0 \} \\
 x & y & z \\
 0 & 0 & 0 \\
 0 & 1 & 1 \\
@@ -197,7 +199,7 @@ x & y & z \\
 &
 \array{
 \arrayopts{\frame{solid}\rowlines{solid solid none}}
-\cellopts{\colspan{3}} L_1 = \{ (x, y, z) \in \mathbb{B} : x + y + z = 1 \} \\
+\cellopts{\colspan{3}} L_1 = \{ (x, y, z) \in \mathbb{B}^3 : x + y + z = 1 \} \\
 x & y & z \\
 0 & 0 & 1 \\
 0 & 1 & 0 \\
@@ -212,8 +214,8 @@ Black Tortoise Shell Brackets?
 
 These look close to the "Chicago" and "Hollywood" fonts that I used to use on my old Mac for logical ops.
 
-* &#10647; &#8594; &#10647;
-* &#10648; &#8594; &#10648;
+* &amp;#x2997; &rarr; &#x2997;
+* &amp;#x2998; &rarr; &#x2998;
 
 __Ref.__ Unicode Punctuation : [Open](http://www.sql-und-xml.de/unicode-database/ps.html) & [Close](http://www.sql-und-xml.de/unicode-database/pe.html)
 
@@ -231,7 +233,7 @@ Cool! ![](http://wikipediareview.com/stimg9x0b4fsr2/1/folder_post_icons/icon9.gi
 
 ***
 
-Testing use of "=" and "&#215;" in titles and redirects:
+Testing use of "=" and "&times;" in titles and redirects:
 
 * [[Peirce's logic of information]]
 * [[information = comprehension × extension]]
@@ -280,8 +282,8 @@ Try "$f: X \to Y$" (and '$f: X \to Y$').
 
 Note:
 
-* " &#8594; "
-* " &#8594; "
+* &amp;ldquo; &rarr; &ldquo;
+* &amp;rdquo; &rarr; &rdquo;
 
 Refs:
 * [HTML Codes](http://www.math.uh.edu/~hjm/HTML%20Tag%20List.htm)
@@ -307,9 +309,9 @@ Attitudes
 
 * $L_{x{}@{}j}$
 
-Try $L_{x@j}$.
+Try $L_{x&#x40;j}$.
 
-* Thanks!&#178;
+* Thanks!&sup2;
 
 ***
 
