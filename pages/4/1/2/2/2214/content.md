@@ -26,6 +26,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 
 ## 2009-09-01
+
+* [[Todd Trimble]] added a teeny bit to [[locally convex topological vector space]]. I hope to be more in nLab editor mode soon. Congratulations on a successful migration (with big thanks to [[Andrew Stacey]]). 
+
 * [[Zoran Škoda]]: query in [[category theory]]: I think that blaming the terminology *abstract nonsense* to predominantly non-likers is misleading and that the wikipedia is this time more correct than nlab. 
 
   * [[Jon Awbrey]]: I have always understood the term "abstract nonsense" as a pun on the sense of the word "sense" that means "direction" --- hence "abstract nonsense" suggests something like the "formal path-independence" of commutative diagrams.  I'm sure I mentioned this to several people back in the day, and they all said something like, "well, duh."
