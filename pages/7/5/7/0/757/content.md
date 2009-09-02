@@ -92,7 +92,8 @@ $$
 $$
 
 is [[infinity-stackification]]. In this case the "localization morphism on objects" $Z \to Z_E$ the morphism that make a pre-stack $Z$ weakly equivalent to ist $\infty$-stackification $Z_E$. So here localization=stackification and in terms of that the general kind of situation here may be more familiar.
- 
+
+_Rafael_: Ok, i have thought about it with interest. Good answer. Thx for explaining.
 =--
 
 #Bousfield localization in triangulated categories#
