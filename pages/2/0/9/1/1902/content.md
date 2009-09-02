@@ -12,6 +12,6 @@
 
 * [[complicial set]]
 
-* [[Verity on descent for strict omega-groupoid valued presheaves]]
+* [[Verity on descent for strict omega-groupoid valued presheave|Verity on descent for strict omega-groupoid valued presheaves]]
 
 category: biography
