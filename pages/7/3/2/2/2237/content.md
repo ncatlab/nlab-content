@@ -1,8 +1,8 @@
 #Idea#
 
-We first state the [[category theory|general nonsense]] definition of _equivariant cohomology_ and then derive frm it the more concrete formulations that are traditionally given in the literature.
+We first state the [[category theory|general nonsense]] definition of _equivariant cohomology_ and then derive from it the more concrete formulations that are traditionally given in the literature.
 
-Recall from the discussion at [[cohomology]] that in full generality we have a notion of cohomology of an object $X$ with coefficients in an object $A$ whenever $X$ and $A$ are objects of some $\infty$ [[(∞,1)-topos]] $\mathbf{H}$, and the cohomology set $H(X,A)$ is the set of connected components in the [[hom-object]] [[∞-groupoid]] of maps from $X$ to $A$: $H(X,A) = \pi_0 \mathbf{H}(X,A)$.
+Recall from the discussion at [[cohomology]] that in full generality we have a notion of cohomology of an object $X$ with coefficients in an object $A$ whenever $X$ and $A$ are objects of some [[(∞,1)-topos]] $\mathbf{H}$, and the cohomology set $H(X,A)$ is the set of connected components in the [[hom-object]] [[∞-groupoid]] of maps from $X$ to $A$: $H(X,A) = \pi_0 \mathbf{H}(X,A)$.
 
 Recall moreover from the discussion at [[space and quantity]] that objects of an [[(infinity,1)-category of (infinity,1)-sheaves|(∞,1)-topos of (∞,1)-sheaves]] have the interpretation of [[∞-groupoid]]s with extra structure. For instance for $(\infty,1)$-sheaves on a [[site]] of  smooth test spaces such as [[Diff]] these objects have the interpretation of [[Lie ∞-groupoid]]s.
 
