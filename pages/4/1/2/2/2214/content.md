@@ -26,6 +26,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-02
 
+* [[Mike Shulman]]
+
+  * Did some editing of [[center]] (added categorifications) and   [[normalizer]], and created [[centralizer]].
+
+  * Tried to remove some of the duplication from [[dualizable object]], [[compact closed category]], and [[rigid monoidal category]], but some is still left.  Perhaps the latter two should really be combined on one page?
+
 * [[Urs Schreiber]]
 
   * added links back and forth between the new [[extended topological quantum field theory]] and the old [[FQFT]] -- notice that there is a bit of overlap, we may want to rearrange material eventually over these two entries.
