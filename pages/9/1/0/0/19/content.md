@@ -438,7 +438,7 @@ Anyway, concerning Raphael's question: I am still thinking now that my original 
 
 Raphael, remind me: for which part ofthe entry here is this discussion relevant. I mean: what is the concrete paragraph whose phrasing we want to streamline?
 
-
+[[Mike Shulman]]: I agree that simplicial complexes and simplicial sets _give rise to_ CW complexes after geometric realization.
 
 =--
 
