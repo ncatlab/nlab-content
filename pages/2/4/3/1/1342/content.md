@@ -352,7 +352,7 @@ This is a [[model structure on simplicial sets|weak equivalence]] of [[Kan compl
 +-- {: .proof}
 ###### Proof
 
-The full proof is given at [[Verity on descent for strict omega-groupoid valued presheaves]].
+The full proof is given at [[Verity on descent for strict omega-groupoid valued presheave|Verity on descent for strict omega-groupoid valued presheaves]].
 
 =--
 
