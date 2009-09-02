@@ -26,6 +26,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 
 ## 2009-09-01
+* [[Zoran Škoda]]: query in [[category theory]]: I think that blaming the terminology *abstract nonsense* to predominantly non-likers is misleading and that the wikipedia is this time more correct than nlab. 
 
 * [[Jon Awbrey]] added stubs and links at [[sign relation]] and [[triadic relation]].
 
