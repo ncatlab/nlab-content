@@ -29,7 +29,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 * [[Urs Schreiber]] further expanded [[equivariant cohomology]] a bit: made the essential idea a standout box and added group cohomology and local systems as examples.
 
 
-* [[Rafael Borowiecki]]: Replied and did some minor changes on [[extended topological quantum field theory]]. I am waiting for the experts to improve what i have written before i write more. As for the timeline i am glad that it can be fixed but how about the long titles? Ah. the nForum.
+* [[Rafael Borowiecki]]: 
+
+  * Replied at [[Bousfield localization]].
+
+  * Replied and did some minor changes on [[extended topological quantum field theory]]. I am waiting for the experts to improve what i have written before i write more. 
+
+  * As for the timeline i am glad that it can be fixed but how about the long titles? Ah. the nForum.
 
 * [[Urs Schreiber]]
 
