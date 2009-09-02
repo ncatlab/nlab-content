@@ -28,6 +28,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]
 
+  * started an entry on [[equivariant cohomology]]
+
   * I agree with Andrew: single long pages are not so good for the reader. An entry that becomes very long should be split into an overview page with a linked table of contents and sub-pages. We did this for instance for [[gerbe]].
 
   * added to [[HomePage]] and to [[HowTo]] a note on software prerequisites for displaying MathML. At [[HowTo]] this discussion should eventually be expanded.
