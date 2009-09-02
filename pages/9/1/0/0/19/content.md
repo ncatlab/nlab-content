@@ -43,6 +43,8 @@ This abstraction power of category theory has traditionally caused different fee
 
 +--{.query}
 Zoran: I think that the wikipedia [article](http://en.wikipedia.org/wiki/Abstract_nonsense) is far more up to the point than this partagraph above. Namely the main practioners and founders of the method did use the term very early meaning clean and general arguments rather than obscure and specific to special cases. The pejorative conotation is neither original nor primary. The above paragraph makes an impression that the term abstract nonsense is primarily pejorative and orginating mainly from the uncategorical community.
+
+Todd: I think Zoran's basically right. The phrase is believed to have been coined by Norman Steenrod, who should be considered as friendly towards categorical methods. When snappily deployed, it's more likely than not an indication of the speaker's sophistication. Compare the deep truth underlying Freyd's witticism: "Perhaps the purpose of categorical algebra is to show that which is trivial is trivially trivial."
 =--
 
 
@@ -426,6 +428,9 @@ By the way, Urs, a [[simplicial complex]] is most elegantly defined as a set $S$
 
 But I see now that the Wikipedia entry on simplicial complexes says that "a simplicial complex is a topological spaces such that...". Is that a really good way to say it?
 
+[[Todd Trimble]]: No, I think it's a terrible way to say it. What was evidently meant is that a simplicial complex is a type of presentation of a certain type of space (called polyhedra or polyhedral spaces), but one trouble is that there are many ways to triangulate such a space, so that the simplicial complex is not a priori given as an underlying structure. Another: consider the categories. A map between simplicial complexes is inherently much more restrictive than a continuous map between polyhedra. 
+
+I'm also not too sympathetic to the idea that simplicial sets are "more abstract" than simplicial complexes, but as we Americans sometimes say, "whatever". 
 =--
 
 
