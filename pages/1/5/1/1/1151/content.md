@@ -103,11 +103,14 @@ Notice that the grading one usually sees on cohomology classes is in the above d
 
   * [[Cech cohomology]]
 
+  * [[twisted cohomology]]
+
+  * [[equivariant cohomology]]
+
   * [[differential cohomology]]
 
     * [[schreiber:Differential Nonabelian Cohomology|differential nonabelian cohomology]]
 
-  * [[twisted cohomology]]
 
 
 
