@@ -1,0 +1,7 @@
+The __center__ $Z(G)$ of a [[group]] $G$ is the subgroup consisting of all elements $g\in G$ such that for all other elements $h\in H$ the equality $gh=hg$ holds. The center is an abelian subgroup but not every abelian subgroup is in the center. The __centralizer__ of a subset $S$ of a group $G$ is the set of all elements $c\in G$ such that $cs=sc$ for all $s\in S$. It is the largest subgroup $C_G(S)$ of $G$ containing $S$ such that $S$ is in its center. The centralizer of a subset is clearly a subgroup of its normalizer, as fixing the set $gH=Hg$ is a weaker requirement than $gh=hg$ for all $h\in H$. 
+
+The __center of a Lie algebra__ $L$ is an abelian Lie subalgebra $Z(L)$ consisting of all elements $
+z\in L$ such that $[l,z]=0$ for all $z\in L$. There are generalizations for some other kinds of algebras. 
+
+[[!redirects centralizer]]
+
