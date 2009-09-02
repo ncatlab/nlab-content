@@ -431,6 +431,15 @@ But I see now that the Wikipedia entry on simplicial complexes says that "a simp
 [[Todd Trimble]]: No, I think it's a terrible way to say it. What was evidently meant is that a simplicial complex is a type of presentation of a certain type of space (called polyhedra or polyhedral spaces), but one trouble is that there are many ways to triangulate such a space, so that the simplicial complex is not a priori given as an underlying structure. Another: consider the categories. A map between simplicial complexes is inherently much more restrictive than a continuous map between polyhedra. 
 
 I'm also not too sympathetic to the idea that simplicial sets are "more abstract" than simplicial complexes, but as we Americans sometimes say, "whatever". 
+
+[[Urs Schreiber]]: thanks, Todd. Concerning "abstract". I think I didn't say that simplicial complexes are more abstract than simplicial sets. What i said is that a cell in a simplicial set is an "abstract simplex" which becomes a concrete geometrical simplex after geometric realization.
+
+Anyway, concerning Raphael's question: I am still thinking now that my original reply was correct: a simplicial complex (and a simplicial set) _is_ not a CW complex, but gives rise to one after [[geometric realization]]. But John replied differently above. We need to find some agreement.
+
+Raphael, remind me: for which part ofthe entry here is this discussion relevant. I mean: what is the concrete paragraph whose phrasing we want to streamline?
+
+
+
 =--
 
 
