@@ -28,6 +28,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ## 2009-09-01
 * [[Zoran Škoda]]: query in [[category theory]]: I think that blaming the terminology *abstract nonsense* to predominantly non-likers is misleading and that the wikipedia is this time more correct than nlab. 
 
+  * [[Jon Awbrey]]: I have always understood the term "abstract nonsense" as a pun on the sense of the word "sense" that means "direction" --- hence "abstract nonsense" suggests something like the "formal path-independence" of commutative diagrams.  I'm sure I mentioned this to several people back in the day, and they all said something like, "well, duh."
+
 * [[Jon Awbrey]] added stubs and links at [[sign relation]] and [[triadic relation]].
 
 * [[Urs Schreiber]]: replied in the discussion at the bottom of [[category theory]] -- and have a question
