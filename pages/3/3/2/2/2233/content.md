@@ -1,6 +1,6 @@
 
 #Idea#
-The main thing about ETQFT's is that for a differentiable manifold $M$ an ETQFT $Z$ give a scalar diffeomorphism invariant $Z(M)$, $Z$ evaluated on $M$. It can be calculated after $M$ has been simplified such as triangulated. Then $Z(M)$ can be computed from computing $Z$ on all the simplicies and output a scalar invariant $Z(M)$ in a base ring $R$.
+A concept in [[FQFT|FQFT (functorial quantum field theory)]] generalizing the concept of TQFT. The main thing about ETQFT's is that for a differentiable manifold $M$ an ETQFT $Z$ give a scalar diffeomorphism invariant $Z(M)$, $Z$ evaluated on $M$. It can be calculated after $M$ has been simplified such as triangulated. Then $Z(M)$ can be computed from computing $Z$ on all the simplicies and output a scalar invariant $Z(M)$ in a base ring $R$.
 
 #The category of extended cobordisms#
 
@@ -39,15 +39,27 @@ m=2 gives ordinary TQFT.
 The most common case is when $R$=$C$ (the complex numbers) giving unitary ETQFT.
 
 The most common cases for C is
-C=$nHilb(R)$, the category of n-dimensional hilbert spaces over a field $R$. As far as i know it is only defined up to n=2.
+C=$nHilb(R)$, the category of n-Hilbert spaces over a field $R$. As far as i know it is only defined up to n=2.
 
-C=$nVect(R)$, the category of n-dimensional vector spaces over a field $R$.
+C=$nVect(R)$, the category of n-vector spaces over a field $R$.
 
-C=$nMod(R)$, the (conjectured?) category of n-dimensional $R$-modules.
+C=$nMod(R)$, the (conjectured?) category of n-$R$-modules.
+
+#Construction of ETQFT's#
+
+* By generators and relations
+
+* By path integrals (this is Daniel Freed's approach)
+
+* By modular tensor n-categories?
 
 #Classification of ETQFT#
 
 See [[cobordism hypothesis]].
+
+#Relation of ETQFT to AQFT#
+
+See Urs Schreiber, [AQFT from n-functorial QFT](http://arxiv.org/abs/0806.1079).
 
 #Related entries#
 
@@ -55,10 +67,22 @@ More on extended QFTs is also at
 
 * [[FQFT]]
 
+#References#
+
+* Remarks on Chern-Simons theory - Daniel Freed
+
+* Quantum Groups from Path Integrals - Daniel Freed
+
+* Higher Algebraic Structures and Quantization - Daniel freed
+
+* On the Classification of Topological Field Theories - Jacob Lurie
+
 +-- {: .query}
 _Rafael_: I am very tired because it is very late.
 Please check and expand this page, i am not counting very good with my eyes half closed neither am i an expert on ETQFT.
 
 [[Urs Schreiber]]: notice that I had a bit on extended QFT over at [[FQFT]]. Maybe some of the material needs to be merged. i have now at least added links back and forth.
+
+_Rafael_: Yes, for the merge. I think of a subsection here **construction of ETQFTs** and a pointer to the relation between ETQFT to AQFT. I also think you are much better to include the construction of ETQFTs in **Nonabelian cocycles and their sigma model QFTs** than me.
 
 =--
