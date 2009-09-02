@@ -26,6 +26,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-02
 
+* [[Mike Shulman]]: A bit more on displaying MathML at [[HowTo]].
+
 * [[Urs Schreiber]] 
 
   * expanded the beginning of [[extended topological quantum field theory]], also added further links to existing entries
