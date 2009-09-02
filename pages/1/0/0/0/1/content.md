@@ -25,7 +25,7 @@ But this site started operation only a few months ago. Some structure is beginni
 
 +-- {: .standout}
 
-The $n$Lab displays mathematical symbols using [MathML](http://en.wikipedia.org/wiki/MathML). Most web-browsers -- notably Firefox -- know how to display this. For InternetExplorer one needs the [MathPlayer](http://www.dessci.com/en/products/mathplayer/) plugin. Download is quick and easy and free. For more see [[HowTo]].
+The $n$Lab displays mathematical symbols using [MathML](http://en.wikipedia.org/wiki/MathML). Some web-browsers, notably [Firefox](http://www.mozilla.com/firefox/), know how to display this automatically.  For InternetExplorer one needs the [MathPlayer](http://www.dessci.com/en/products/mathplayer/) plugin; download is quick and easy and free. For more see [[HowTo]].
 
 =--
 
