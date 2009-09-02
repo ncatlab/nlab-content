@@ -1,13 +1,4 @@
-A **compact closed category** is a [[symmetric monoidal category]] for which each object $A$ has a **dual** $A^*$.
-This is an object equipped with morphisms called the **unit** 
-
-$$i: I \to A \otimes A^* $$
-
-and **counit**
-
-$$e : A^* \otimes A \to I $$
-
-satisfying the 'triangle identities' familiar from the concept of [[adjunction]].
+A **compact closed category**, also called an **autonomous monoidal category**, is a [[symmetric monoidal category]] in which every object is [[dualizable object|dualizable]].  If we drop the symmetry requirement, we obtain a [[rigid monoidal category]].
 
 #References#
 
@@ -19,3 +10,5 @@ Also see section 2.1 in:
 
 * Peter Selinger, Dagger compact closed categories and
 completely positive maps. [pdf](http://www.mscs.dal.ca/~selinger/papers/dagger.pdf)
+
+[[!redirects autonomous monoidal category]]
