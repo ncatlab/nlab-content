@@ -24,6 +24,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+## 2009-09-03 What day is it?
+
+* [[Jon Awbrey]] has finished eye-texing [[triadic relation]] --- and will now proceed to drop his eye-balls in cold water.
 
 ## 2009-09-02
 
