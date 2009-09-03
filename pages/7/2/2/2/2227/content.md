@@ -42,7 +42,9 @@ $$
 ## Examples from semiotics ##
 
 +-- {: .query}
-Is this from [[Charles Sanders Peirce|Peirce]]\'s theory of signs?  Have later researchers (mathematicians, logicians, semioticists, ...) continued to work on this?  ---Toby
+[[Toby Bartels]]: Is this from [[Charles Sanders Peirce|Peirce]]\'s theory of signs?  Have later researchers (mathematicians, logicians, semioticists, ...) continued to work on this?  ---Toby
+
+[[Jon Awbrey]]: Yes, I'll always be hewing to Peirce's line in this --- sometimes people use the form _[semeiotic](http://knol.google.com/k/jon-awbrey/semeiotic/3fkwvf69kridz/4)_ to distinguish his angle from others, but that often leads to long and pointless discussions about the words instead of the things.  I'll be giving some current links and references in due course.
 =--
 
 The study of signs, the full array of significant forms of expression, in relation to the things that signs are significant _of_, as well as in relation to the interpretive agents that signs are significant _to_, is known as _semiotics_ or the _theory of signs_.  As just described, semiotics treats of 3-place relations among signs, their objects, and their interpreters.
