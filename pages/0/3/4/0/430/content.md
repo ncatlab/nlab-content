@@ -1,7 +1,8 @@
-In classical mathematics, a **field** is a [[commutative ring]] in which every nonzero element has a multiplicative inverse and $0\neq 1$ (which may be combined as: an element is invertible if and only if it is nonzero).  (If one drops commutativity, then the result is a [[skewfield]].)
+In classical mathematics, a **field** is a [[commutative ring]] in which every nonzero element has a multiplicative inverse and $0\neq 1$ (which may be combined as: an element is invertible if and only if it is nonzero). They are studied in *field theory* which is a branch of commutative algebra. If one drops commutativity, then the result is a [[skewfield]], though sometimes said for simplicity just field. For example, the [[free field (algebra)|free field]] of Cohn and Amitsur is in fact noncommutative.  
 
-Fields are not as well-behaved categorically as most other common algebraic structures ([[group]]s, [[ring]]s, [[module]]s, etc.).  In particular, the category of fields is not [[complete category|complete]] or [[cocomplete category|cocomplete]], although it is [[accessible category|accessible]].
+Fields are not as well-behaved categorically as most other common algebraic structures ([[group]]s, [[ring]]s, [[module]]s, etc.).  In particular, the category of fields is not [[complete category|complete]] or [[cocomplete category|cocomplete]], although it is [[accessible category|accessible]]. 
 
+Words field and field theory are also used in mathematical physics and geometry with a completely different meaning denoting a quantity over some space, thus vector fields, classical scalar fields, classical vector fields, quantum fields and so on. 
 
 ## Constructive notions of field ##
 
