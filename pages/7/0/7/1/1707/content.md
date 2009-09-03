@@ -1,3 +1,5 @@
+[[!include cohomology - contents]]
+
 #Idea#
 
 As described at [[cohomology]], a notion of [[cohomology]] exists for every [[(infinity,1)-topos]] $\mathbf{H}$: for $X$ and $A$ two objects of $\mathbf{H}$, 
