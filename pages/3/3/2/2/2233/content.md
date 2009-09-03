@@ -88,11 +88,13 @@ More on extended QFTs is also at
 
 #References#
 
-* Remarks on Chern-Simons theory - Daniel Freed
+* Daniel Freed, Remarks on Chern-Simons theory
 
-* Quantum Groups from Path Integrals - Daniel Freed
+* Daniel Freed, Quantum Groups from Path Integrals 
 
-* Higher Algebraic Structures and Quantization - Daniel freed
+* Daniel Freed, Higher Algebraic Structures and Quantization 
+
+* John Baez and James Dolan, Higher-dimensional Algebra and Topological Quantum Field Theory.  [arXiv](http://arxiv.org/abs/q-alg/9503002)
 
 * [[Jacob Lurie]],  [[On the Classification of Topological Field Theories]]  
 
