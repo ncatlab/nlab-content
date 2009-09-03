@@ -1,0 +1,44 @@
+<div class="rightHandSide toc">
+
+
+[[cohomology]]
+
+
+## Contents ##
+
+### special and general types ###
+
+* [[chain homology and cohomology|cochain cohomology]]
+
+* [[group cohomology]]
+
+* [[generalized (Eilenberg-Steenrod) cohomology]]
+
+* [[abelian sheaf cohomology]]
+
+* [[nonabelian cohomology]]
+
+### variants ###
+
+* [[equivariant cohomology]]
+
+* [[twisted cohomology]]
+
+* [[differential cohomology]]
+
+  * [[schreiber:theory of differential nonabelian cohomology|differential nonabelian cohomology]]
+
+  * [[schreiber:differential equivariant cohomology|differential equivariant cohomology]]
+
+  * [[schreiber:differential twisted cohomology|differential twisted cohomology]]
+
+
+### techniques ###
+
+* [[Cech cohomology]]
+
+
+<div markdown="1">[Edit this sidebar](/nlab/edit/contents)</div>
+
+
+</div>
