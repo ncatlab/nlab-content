@@ -42,6 +42,7 @@
 * [[praeclarum theorema]]
 * [[propositional equation reasoning system]]
 * [[relation theory]]
+* [[semiotic equivalence relation]]
 * [[sign relation]]
 * [[triadic relation]]
 
