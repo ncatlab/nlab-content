@@ -27,6 +27,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-03
 
+* [[Jon Awbrey]] added a stub-link at [[semiotic equivalence relation]] --- and I see from the clock on the [TARDIS Wall](http://nlab.mathforge.org/nlab/recently_revised) that the Synchronoplastic Infundibulum has hic$\cup\partial$.
+
+* [[Zoran Škoda]]: added some references to [[supermanifold]]. I agree with Urs that the <em>co</em>-things when the entries contain predominantly the definitions and non-specific information should be just under the things. However often the cothings are very unlike things in practice. For example, homology and cohomology in abelian categories is just the same and dual; however in geometry homology and cohomology of spaces are rather different; for example there are finiteness conditions in homology which are absent in cohomology. Naively defined &#268;ech cohomology is a cohomology theory and &#268;ech homology is not, as it fails exactness...but the coherent repair works. Or the rings. Artinian and noetherian are dual conditions, but for unital rings the unit breaks the symmetry, hence every unital artinian ring is noetherian but not by far other way around. 
+
+* [[lab elf|Lab Elf (Swiss department)]]: I _think_ I've fixed the timezone.  I guess the real test is when I submit this page.  Let's see now, it's about 12:50 UTC, so click 'Submit' and ... 12:51 is the reported time.  Yippee!
+
+* [[Andrew Stacey]]: The memory upgrade has happened.  Our IP address has changed so if you can't access the nLab then you need to ... err ...
+
 * [[Urs Schreiber]] made the following keywords all redirect to [[fibration sequence]]: [[cofibration sequence]], [[homotopy fiber]], [[homotopy cofiber]]
 
   (this is supposed to be in line with what I think is a general strategy we should stick to: that all co-things are discussed in the same entry with things, since otherwise we get huge and unreasonable duplication) 
@@ -37,7 +45,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]: expanded [[generalized (Eilenberg-Steenrod) cohomology]]
 
-  * added table of contents to [[cohomology]] and strated adding to rtelated entries
+  * added table of contents to [[cohomology]] and strated adding to related entries
 
 *  [[Toby Bartels]]:  In answer to Jon Awbrey\'s question,
    >What day is it?
