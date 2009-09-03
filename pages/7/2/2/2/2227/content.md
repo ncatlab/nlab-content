@@ -49,6 +49,57 @@ For example, consider the aspects of sign use that concern two people, say, $\ma
 
 Each of the sign relations, $L_{\mathrm{A}}$ and $L_{\mathrm{B}}$, consists of eight triples of the form $(x, y, z)$, where the object $x$ belongs to the object domain $O = \{ \mathrm{A}, \mathrm{B} \}$, where the sign $y$ belongs to the sign domain $S$, where the interpretant sign $z$ belongs to the interpretant domain $I$, and where it happens in this case that $S = I = \{ \backprime\backprime\mathrm{A}\prime\prime, \backprime\backprime\mathrm{B}\prime\prime, \backprime\backprime\mathrm{i}\prime\prime, \backprime\backprime\mathrm{u}\prime\prime \}$.  In general, it is convenient to refer to the union $S \:\cup\: I$ as the _syntactic domain_, but in this case $S = I = S \:\cup\: I$.
 
+The set-up so far can be summarized as follows:
+
+$$
+\array{
+L_{\mathrm{A}}, L_{\mathrm{B}}
+& \subseteq & O \quad\times\quad S \quad\times\quad I
+\\
+O & = & \{ \mathrm{A}, \mathrm{B} \}
+\\
+S & = & \{ \backprime\backprime\mathrm{A}\prime\prime, \backprime\backprime\mathrm{B}\prime\prime, \backprime\backprime\mathrm{i}\prime\prime, \backprime\backprime\mathrm{u}\prime\prime \}
+\\
+I & = & \{ \backprime\backprime\mathrm{A}\prime\prime, \backprime\backprime\mathrm{B}\prime\prime, \backprime\backprime\mathrm{i}\prime\prime, \backprime\backprime\mathrm{u}\prime\prime \}
+}
+$$
+
+The triples that make up the relations $L_{\mathrm{A}}$ and $L_{\mathrm{B}}$ are conveniently arranged in the form of relational data tables, as follows:
+
+$$
+\array{
+\array{
+\arrayopts{\frame{solid}\rowlines{solid solid none}}
+\cellopts{\colspan{3}} L_{\mathrm{A}} = \text{Sign Relation of Interpreter A} \\
+Object & Sign & Interpretant \\
+\mathrm{A} & \backprime\backprime\mathrm{A}\prime\prime & \backprime\backprime\mathrm{A}\prime\prime \\
+\mathrm{A} & \backprime\backprime\mathrm{A}\prime\prime & \backprime\backprime\mathrm{i}\prime\prime \\
+\mathrm{A} & \backprime\backprime\mathrm{i}\prime\prime & \backprime\backprime\mathrm{A}\prime\prime \\
+\mathrm{A} & \backprime\backprime\mathrm{i}\prime\prime & \backprime\backprime\mathrm{i}\prime\prime \\
+\mathrm{B} & \backprime\backprime\mathrm{B}\prime\prime & \backprime\backprime\mathrm{B}\prime\prime \\
+\mathrm{B} & \backprime\backprime\mathrm{B}\prime\prime & \backprime\backprime\mathrm{u}\prime\prime \\
+\mathrm{B} & \backprime\backprime\mathrm{u}\prime\prime & \backprime\backprime\mathrm{B}\prime\prime \\
+\mathrm{B} & \backprime\backprime\mathrm{u}\prime\prime & \backprime\backprime\mathrm{u}\prime\prime  }
+&
+\array{
+\arrayopts{\frame{solid}\rowlines{solid solid none}}
+\cellopts{\colspan{3}} L_{\mathrm{B}} = \text{Sign Relation of Interpreter B} \\
+Object & Sign & Interpretant \\
+\mathrm{A} & \backprime\backprime\mathrm{A}\prime\prime & \backprime\backprime\mathrm{A}\prime\prime \\
+\mathrm{A} & \backprime\backprime\mathrm{A}\prime\prime & \backprime\backprime\mathrm{u}\prime\prime \\
+\mathrm{A} & \backprime\backprime\mathrm{u}\prime\prime & \backprime\backprime\mathrm{A}\prime\prime \\
+\mathrm{A} & \backprime\backprime\mathrm{u}\prime\prime & \backprime\backprime\mathrm{u}\prime\prime \\
+\mathrm{B} & \backprime\backprime\mathrm{B}\prime\prime & \backprime\backprime\mathrm{B}\prime\prime \\
+\mathrm{B} & \backprime\backprime\mathrm{B}\prime\prime & \backprime\backprime\mathrm{i}\prime\prime \\
+\mathrm{B} & \backprime\backprime\mathrm{i}\prime\prime & \backprime\backprime\mathrm{B}\prime\prime \\
+\mathrm{B} & \backprime\backprime\mathrm{i}\prime\prime & \backprime\backprime\mathrm{i}\prime\prime  }
+}
+$$
+
+* The triples in $L_{\mathrm{A}}$ represent the way that interpreter $\mathrm{A}$ uses signs.  For example, the listing of the triple $(\mathrm{B}, \backprime\backprime \mathrm{u} \prime\prime, \backprime\backprime \mathrm{B} \prime\prime)$ in $L_{\mathrm{A}}$ represents the fact that $\mathrm{A}$ uses $\backprime\backprime \mathrm{B} \prime\prime$ to mean the same thing that $\mathrm{A}$ uses $\backprime\backprime \mathrm{u} \prime\prime$ to mean, namely, $\mathrm{B}$.
+
+* The triples in $L_{\mathrm{B}}$ represent the way that interpreter $\mathrm{B}$ uses signs. For example, the listing of the triple $(\mathrm{B}, \backprime\backprime \mathrm{i} \prime\prime, \backprime\backprime \mathrm{B} \prime\prime)$ in $L_{\mathrm{B}}$ represents the fact that $\mathrm{B}$ uses $\backprime\backprime \mathrm{B} \prime\prime$ to mean the same thing that $\mathrm{B}$ uses $\backprime\backprime \mathrm{i} \prime\prime$ to mean, namely, $\mathrm{B}$.
+
 ## External links ##
 
 * [Triadic Relation @ MyWikiBiz](http://mywikibiz.com/Triadic_relation)
