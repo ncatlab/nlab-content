@@ -52,6 +52,8 @@ Maybe we can start by skimming the paper and collecting some unfamiliar keywords
 
 [[Eric]]: It is in "Lemma 1" of [Alm's paper](http://ncatlab.org/nlab/files/Kantization09May27.pdf). I didn't quite get the bit about "constant functor", but thanks to a great Catsters video ([General Limits and Colimits](http://www.youtube.com/watch?v=g47V6qxKQNU)), I have an idea about cocones (via colimits).
 
+_Toby_:  Answered at [[cocone]].
+
 #Discussion#
 >(Topics are separated by horizontal lines, with topics presented in reverse chronological order, i.e. the first section is the most recent.)_
 
