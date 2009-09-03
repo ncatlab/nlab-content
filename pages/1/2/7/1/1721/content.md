@@ -1,12 +1,32 @@
-...[[cohomology]] $H(X,A)$ with coefficient object $A$ a [[spectrum]]...
+[[!include cohomology - contents]]
 
-such as
+What is called generalized Eilenberg-Steenrod cohomology is really the general _fully abelian_ subcase of [[cohomology]]. 
 
-* the [[Eilenberg–Mac Lane spectrum]]
-* the [[K-theory spectrum]]
+This means that generalized Eilenberg-Steenrod cohomology is the [[cohomology]] in an [[(∞,1)-category]] $\mathbf{H}$ that happens to be a [[stable (∞,1)-category]].
+
+The archetypical example of this is $\mathbf{H} = Sp(Top)$, the [[stable (∞,1)-category of spectra]] and this is the context in which generalized Eilenberg-Steenrod cohomology is usually understood. So
+
+
++-- {: .standout}
+
+Generalized Eilenberg-Steenrod cohomology is 
+[[cohomology]] $H(X,A)$ with coefficient object $A$ a [[spectrum]].
+
+=--
+
+## the Eilenberg-Steenrod axioms ##
+
+Originally Eilenberg and Steenrod had written down axioms that characterized the behaviour of ordinary integral cohomology, what is now understood to be cohomology with coefficients in the [[Eilenberg-MacLane spectrum]]. Generalized Eilenberg-Steenrod cohomology is originally defined as anything that satisfies this list of axioms except the first one. Later it was proven that all the models for these axioms arise in terms of homotopy classes of maps into a [[spectrum]]. In our revisionist perspective hre, we take this historically secondary point of view as the conceptually primary one.
+
+
+
+# Examples #
+
+
+* [[Eilenberg?Mac Lane spectrum]]
+* [[K-theory spectrum]]
 * [[tmf]]
 
-...
 
 # References #
 
@@ -18,24 +38,24 @@ A general discussion of cohomology with an emphasis on [[nonabelian cohomology]]
 
 * [[John Baez]], [[Mike Shulman]], _Lectures on n-Categories and Cohomology_ ([pdf](http://math.ucr.edu/home/baez/cohomology.pdf), [[Lectures on n-Categories and Cohomology|nLab]])
 
-In particular a remark on the relation between [[Postnikov system]]s and [[Eilenberg–MacLane spectrum|Eilenberg-MacLane cohomology]] is in the discussion beginning at the bottom of page 24.
+In particular a remark on the relation between [[Postnikov system]]s and [[Eilenberg?MacLane spectrum|Eilenberg-MacLane cohomology]] is in the discussion beginning at the bottom of page 24.
 
 
 
-[[!redirects generalized (Eilenberg–Steenrod) cohomology]]
+[[!redirects generalized (Eilenberg?Steenrod) cohomology]]
 [[!redirects generalized (Eilenberg--Steenrod) cohomology]]
 [[!redirects generalized (Eilenberg-Steenrod) cohomology theory]]
-[[!redirects generalized (Eilenberg–Steenrod) cohomology theory]]
+[[!redirects generalized (Eilenberg?Steenrod) cohomology theory]]
 [[!redirects generalized (Eilenberg--Steenrod) cohomology theory]]
 [[!redirects generalised (Eilenberg-Steenrod) cohomology]]
-[[!redirects generalised (Eilenberg–Steenrod) cohomology]]
+[[!redirects generalised (Eilenberg?Steenrod) cohomology]]
 [[!redirects generalised (Eilenberg--Steenrod) cohomology]]
 [[!redirects generalised (Eilenberg-Steenrod) cohomology theory]]
-[[!redirects generalised (Eilenberg–Steenrod) cohomology theory]]
+[[!redirects generalised (Eilenberg?Steenrod) cohomology theory]]
 [[!redirects generalised (Eilenberg--Steenrod) cohomology theory]]
 [[!redirects Eilenberg-Steenrod cohomology]]
-[[!redirects Eilenberg–Steenrod cohomology]]
+[[!redirects Eilenberg?Steenrod cohomology]]
 [[!redirects Eilenberg--Steenrod cohomology]]
 [[!redirects Eilenberg-Steenrod cohomology theory]]
-[[!redirects Eilenberg–Steenrod cohomology theory]]
+[[!redirects Eilenberg?Steenrod cohomology theory]]
 [[!redirects Eilenberg--Steenrod cohomology theory]]
