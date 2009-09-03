@@ -12,13 +12,29 @@ A definition of sign relations that is explicit enough to support the developmen
 
 : Logic will here be defined as _formal semiotic_.  A definition of a sign will be given which no more refers to human thought than does the definition of a line as the place which a particle occupies, part by part, during a lapse of time.  Namely, a sign is something, $A$, which brings something, $B$, its _interpretant_ sign determined or created by it, into the same sort of correspondence with something, $C$, its _object_, as that in which itself stands to $C$.  It is from this definition, together with a definition of "formal", that I deduce mathematically the principles of logic.  I also make a historical review of all the definitions and conceptions of logic, and show, not merely that my definition is no novelty, but that my non-psychological conception of logic has _virtually_ been quite generally held, though not generally recognized.  (Peirce, NEM 4, 20--21).
 
-In the general discussion of diverse theories of signs, the question frequently arises whether signhood is an absolute, essential, indelible, or _ontological_ property of a thing, or whether it is a relational, interpretive, and mutable role that a thing can be said to exercise only within a particular context of relationships.
+In the general discussion of diverse theories of signs, the question arises whether signhood is an absolute, essential, indelible, or _ontological_ property of a thing, or whether it is a relational, interpretive, and mutable role that a thing can be said to exercise only within a particular context of relationships.
 
 Peirce's definition of a _sign_ defines it in relation to its _object_ and its _interpretant sign_, and thus it defines signhood in relative terms, by means of a predicate with three places.  In this definition, signhood is a role in a [[triadic relation]], a role that a thing fills in a given context of relationships --- it is not an _absolute_ or _non-relative_ property of a thing-in-itself, one that it possesses independently of all relationships to other things.
 
 Some of the terms that Peirce uses in his definition of a sign may need to be elaborated for the contemporary reader.
 
+* __Correspondence.__  The form of correspondence invoked in the above definition is what Peirce elsewhere calls a "triple correspondence", that is, just another way of referring to the whole triadic sign relation itself.  A sign relation, as a triadic relation, may involve various types of binary correspondences or dyadic relations, but it does not reduce to any combination of its dyadic aspects.  In particular, the triple correspondence that we find in sign relations should not be confused with the sort of "mirror image" correspondence between realities and representations that is debated in contemporary controversies about "correspondence theories of truth".
+
+* __Determination.__  The concept of determination intended here is much more general than the concept we use in discussing strictly deterministic causal-temporal processes.  First of all, we are speaking of a _formal_ or _informational_ determination, as when we say "two points determine a line".  Causal and temporal determinations imply formal and informational determinations, but the converse does not always hold.  In addition, we are allowing here for what is called _determination in measure_, that is, an order of determinism that admits the full spectrum of more determined and less determined relationships.
+
+* __Non-psychological.__  Peirce's "non-psychological conception of logic" must be distinguished from any variety of _anti-psychologism_.  He was quite interested in matters of psychology and had much to say about them.  But logic  is a normative science while psychology is a descriptive science --- they are equipped with distinct sets of aims, methods, and rationales --- and thus the two sciences operate on different planes of study even when they have occasion to view the same data.
+
 ## Examples of sign relations ##
+
+Because the examples to follow have been artificially constructed to be as simple as possible, their detailed elaboration can run the risk of trivializing the whole theory of sign relations.  Despite their simplicity, however, these examples have subtleties of their own, and their careful treatment will serve to illustrate many important issues in the general theory of signs.
+
+Imagine a discussion between two people, $\mathrm{Ann}$ and $\mathrm{Bob}$, and attend only to that aspect of their interpretive practice that involves the use of the following nouns and pronouns:  $\backprime\backprime\mathrm{Ann}\prime\prime, \backprime\backprime\mathrm{Bob}\prime\prime, \backprime\backprime\mathrm{I}\prime\prime, \backprime\backprime\mathrm{you}\prime\prime$.
+
+In this setting the _object domain_ is the set of two people, $\{ \mathrm{Ann}, \mathrm{Bob} \}$, while the _sign system_ or _syntactic domain_ is the set of four signs, $\{ \backprime\backprime\mathrm{Ann}\prime\prime, \backprime\backprime\mathrm{Bob}\prime\prime, \backprime\backprime\mathrm{I}\prime\prime, \backprime\backprime\mathrm{you}\prime\prime \}$.
+
+In their use of this sign system, $\mathrm{Ann}$ and $\mathrm{Bob}$ are not only the passive objects of nominative and accusative references but also the active interpreters of the language they use.  The _system of interpretation_ associated with each language user can be represented in the form of a triadic relation called the _sign relation_ of that interpreter.
+
+Understood in terms of its set-theoretic extension, a sign relation $L$ is a subset of a cartesian product $O \:\times\: S \:\times\: I$, where the sets $O, S, I$ are known respectively as the _object domain_, the _sign domain_, and the _interpretant domain_ of the sign relation $L \subseteq O \:\times\: S \:\times\: I$.
 
 ## Dyadic aspects of sign relations ##
 
