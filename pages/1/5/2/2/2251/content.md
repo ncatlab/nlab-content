@@ -1,3 +1,7 @@
+[[!redirects SER]]
+[[!redirects Semiotic Equivalence Relation]]
+[[!redirects Semiotic equivalence relation]]
+
 ## Forthcoming &#8230; ##
 
 ## External links ##
