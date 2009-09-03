@@ -1,0 +1,1 @@
+A [[field]] (in the sense of [[commutative algebra]]) $F$ is __perfect__ if every algebraic extension of $F$ is separable. For example, all fields of characteristics zero are perfect. 
