@@ -4,7 +4,7 @@ Just as [[functor|functors]] go between [[category|categories]], natural transfo
 
 #Definition#
 
-Given categories $C$ and $D$ and functors $F, G:C \to D,$ a _natural transformation_ $\alpha:F \Rightarrow G$ 
+Given categories $C$ and $D$ and functors $F, G:C \to D,$ a __natural transformation__ $\alpha:F \Rightarrow G$ 
 
 $$
   \array{
@@ -19,7 +19,7 @@ $$
   }
 $$
 assigns to every object $x$ in $C$ a morphism 
-$\alpha_x:F(x) \to G(x)$ in $D$ such that for any morphism $f:x \to y$ in $C$, the following diagram commutes in $D$:
+$\alpha_x:F(x) \to G(x)$ in $D$ (called the __component__ of $\alpha$ at $x$) such that for any morphism $f:x \to y$ in $C$, the following diagram commutes in $D$:
 
 \[ 
   \array{ 
