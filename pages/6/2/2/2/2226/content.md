@@ -12,6 +12,12 @@ A definition of sign relations that is explicit enough to support the developmen
 
 : Logic will here be defined as _formal semiotic_.  A definition of a sign will be given which no more refers to human thought than does the definition of a line as the place which a particle occupies, part by part, during a lapse of time.  Namely, a sign is something, $A$, which brings something, $B$, its _interpretant_ sign determined or created by it, into the same sort of correspondence with something, $C$, its _object_, as that in which itself stands to $C$.  It is from this definition, together with a definition of "formal", that I deduce mathematically the principles of logic.  I also make a historical review of all the definitions and conceptions of logic, and show, not merely that my definition is no novelty, but that my non-psychological conception of logic has _virtually_ been quite generally held, though not generally recognized.  (Peirce, NEM 4, 20--21).
 
+In the general discussion of diverse theories of signs, the question frequently arises whether signhood is an absolute, essential, indelible, or _ontological_ property of a thing, or whether it is a relational, interpretive, and mutable role that a thing can be said to exercise only within a particular context of relationships.
+
+Peirce's definition of a _sign_ defines it in relation to its _object_ and its _interpretant sign_, and thus it defines signhood in relative terms, by means of a predicate with three places.  In this definition, signhood is a role in a [[triadic relation]], a role that a thing fills in a given context of relationships --- it is not an _absolute_ or _non-relative_ property of a thing-in-itself, one that it possesses independently of all relationships to other things.
+
+Some of the terms that Peirce uses in his definition of a sign may need to be elaborated for the contemporary reader.
+
 ## Examples of sign relations ##
 
 ## Dyadic aspects of sign relations ##
