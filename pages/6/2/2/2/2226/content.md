@@ -22,7 +22,7 @@ Some of the terms that Peirce uses in his definition of a sign may need to be el
 
 * __Determination.__  The concept of determination intended here is much more general than the concept we use in discussing strictly deterministic causal-temporal processes.  First of all, we are speaking of a _formal_ or _informational_ determination, as when we say "two points determine a line".  Causal and temporal determinations imply formal and informational determinations, but the converse does not always hold.  In addition, we are allowing here for what is called _determination in measure_, that is, an order of determinism that admits the full spectrum of more determined and less determined relationships.
 
-* __Non-psychological.__  Peirce's "non-psychological conception of logic" must be distinguished from any variety of _anti-psychologism_.  He was quite interested in matters of psychology and had much to say about them.  But logic  is a normative science while psychology is a descriptive science --- they are equipped with distinct sets of aims, methods, and rationales --- and thus the two sciences operate on different planes of study even when they have occasion to view the same data.
+* __Non-psychological.__  Peirce's "non-psychological conception of logic" must be distinguished from any variety of _anti-psychologism_.  He was quite interested in matters of psychology and had much to say about them.  But logic is a normative science while psychology is a descriptive science --- they are equipped with distinct sets of aims, methods, and rationales --- and thus the two sciences operate on different planes of study even when they have occasion to view the same data.
 
 ## Examples of sign relations ##
 
@@ -35,6 +35,24 @@ In this setting the _object domain_ is the set of two people, $\{ \mathrm{Ann}, 
 In their use of this sign system, $\mathrm{Ann}$ and $\mathrm{Bob}$ are not only the passive objects of nominative and accusative references but also the active interpreters of the language they use.  The _system of interpretation_ associated with each language user can be represented in the form of a triadic relation called the _sign relation_ of that interpreter.
 
 Understood in terms of its set-theoretic extension, a sign relation $L$ is a subset of a cartesian product $O \:\times\: S \:\times\: I$, where the sets $O, S, I$ are known respectively as the _object domain_, the _sign domain_, and the _interpretant domain_ of the sign relation $L \subseteq O \:\times\: S \:\times\: I$.
+
+Broadly speaking, the three domains of a sign relation can be any sets whatsoever, but the kinds of sign relations that are typically contemplated in computational settings are usually constrained to having $I \subseteq S$.  In these situations interpretants are just special cases of signs, and this makes it convenient to lump signs and interpretants together into a single class called the _syntactic domain_.  In the forthcoming examples, $S$ and $I$ are identical as sets, so the same elements manifest themselves in two different roles of the sign relations in question.  When it is necessary to refer to the whole set of objects and signs in the union of the domains $O, S, I$ for a given sign relation $L$, one may refer to this set as the _world_ $W$ of $L$ and write $W = W_L = O \:\cup\: S \:\cup\: I$.
+
+To facilitate an interest in the abstract structures of sign relations, and to keep the notations as brief as possible as the examples become more complicated, it serves to introduce the following general notations:
+
+: $O$ = Object Domain
+: $S$ = Sign Domain
+: $I$ = Interpretant Domain
+
+Introducing a few abbreviations for use in considering the present Example, we have the following data:
+
+: $O \:=\: \{ \mathrm{Ann}, \mathrm{Bob} \} \:=\: \{ \mathrm{A}, \mathrm{B} \}$
+
+: $S \:=\: \{ \backprime\backprime\mathrm{Ann}\prime\prime, \backprime\backprime\mathrm{Bob}\prime\prime, \backprime\backprime\mathrm{I}\prime\prime, \backprime\backprime\mathrm{you}\prime\prime \} \:=\: \{ \backprime\backprime\mathrm{A}\prime\prime, \backprime\backprime\mathrm{B}\prime\prime, \backprime\backprime\mathrm{i}\prime\prime, \backprime\backprime\mathrm{u}\prime\prime \}$
+
+: $I \:=\: \{ \backprime\backprime\mathrm{Ann}\prime\prime, \backprime\backprime\mathrm{Bob}\prime\prime, \backprime\backprime\mathrm{I}\prime\prime, \backprime\backprime\mathrm{you}\prime\prime \} \:=\: \{ \backprime\backprime\mathrm{A}\prime\prime, \backprime\backprime\mathrm{B}\prime\prime, \backprime\backprime\mathrm{i}\prime\prime, \backprime\backprime\mathrm{u}\prime\prime \}$
+
+In the present Example, $S$ = $I$ = Syntactic Domain.
 
 ## Dyadic aspects of sign relations ##
 
