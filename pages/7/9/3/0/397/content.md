@@ -8,6 +8,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[Andrew Stacey]]
 * [[Ben Webster]]
 * [[Benjamin Antieau]]
+* [[Benoit Jubin]]
 * [[Bruce Bartlett]]
 * [[Charles Wells]]
 * [[Chris Brav]]
