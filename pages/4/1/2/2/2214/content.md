@@ -25,6 +25,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 ## 2009-09-04
+
+* [[Rafael Borowiecki]]: Replied to Zoran's question.
+
 * [[Zoran Škoda]]: put a query into the [[Timeline of category theory and related mathematics|Timeline]] entry: at numdam one can find the Cartan Sem from 1948, but I can not find there the write up of sheaf theory those some related notions in non-sheaf language can be easily found. Am I blind ? [numdam 1948 Cartan Sem](http://www.numdam.org/numdam-bin/feuilleter?id=SHC_1948-1949__1_). Timeline claims 1948 WRITE-UP. So where it is ?
 
 * [[Urs Schreiber]] 
