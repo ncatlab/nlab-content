@@ -1,0 +1,8 @@
+Internal relation is an [[internalization]] of the concept of a [[relation]] from [[Set]] to more general categories with finite limits and it is often called just a relation in a category $C$. The categories of relations may themselves be generalized to a class of categories satisfying certain axiomatics: the so-called allegories ([wikipedia](http://en.wikipedia.org/wiki/Allegory_(category_theory)). The objects of an allegory may, but do not need to be internal relations in some ambient category. 
+
+Let $C$ be a category with finite products. An __internal relation__ from an object $X$ to an object $Y$ is a [[subobject]] $r: R\hookrightarrow X\times Y$. The composites
+$d_0 = p_X\circ r : R\hookrightarrow X\times Y\to X$ and $d_1 = p_Y\circ r : T\hookrightarrow X\times Y\to Y$ which are morphisms from $X$ to $X$, will be called the projections of the relation $R$. A relation from $X$ to $X$ is also said to be a __relation on $X$__.
+
+A relation on an object $X$ is said to be __reflexive__ is $R$ contains the diagonal $X\hookrightarrow X\times X$ of $X$.
+
+See also [[equivalence relation]]. 
