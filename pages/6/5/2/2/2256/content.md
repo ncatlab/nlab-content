@@ -26,6 +26,7 @@ and
 
 * [[differential forms on simplices]]
 
+* [[simplicial local system]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/differential+graded+objects+-+contents)</div>
 
