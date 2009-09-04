@@ -1,3 +1,1 @@
-See [[BrownAHT]].
-
-category: redirect
+category: delete
