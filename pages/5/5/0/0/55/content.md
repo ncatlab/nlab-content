@@ -1,11 +1,13 @@
 #Definition#
 
-A _Lie algebroid_ is the [[horizontal categorification|many object version]] of a Lie algebra. There are various equivalent definitions:
+A _Lie algebroid_ is the [[horizontal categorification|many object version]] of a [[Lie algebra]]. It is the [[infinitesimal space|infinitesimal]] approximation to a [[Lie groupoid]].
+
+There are various equivalent definitions:
 
 **Definition in terms of vector bundles with anchor map.**
 A Lie algebroid over a [[manifold]] $X$ is 
 
- * a vector bundle $E \to X$;
+ * a [[vector bundle]] $E \to X$;
 
  * equipped with a Lie brackets $[\cdot,\cdot] : \Gamma(E)\otimes \Gamma(E) \to \Gamma(E)$ on its space of sections;
 
@@ -18,6 +20,7 @@ $$
 $$
 
 **Definition in terms of Chevalley-Eilenberg algebra.**
+
 A Lie algebroid over a manifold $X$ is a vector bundle 
 $E \to X$ equipped with a degree +1 derivation $d$ on the free (over $C^\infty(X)$) graded-commutative algebra $\wedge^\bullet_{C^\infty(X)} \Gamma(E)^*$ (where the dual is over $C^\infty$), such that $d^2 = 0$.
 
@@ -33,11 +36,11 @@ $$
   (\wedge^\bullet_{C^\infty(X)} \Gamma(E)^*, d)
 $$
 
-is the _Chevalley-Eilenberg algebra_ of the Lie algebroid (in that for $X = pt$ it reduces to the ordinary Chevally-Eilenberg algebra for Lie algebras). 
+is the [[Chevalley-Eilenberg algebra]] of the Lie algebroid (in that for $X = pt$ it reduces to the ordinary Chevally-Eilenberg algebra for Lie algebras). 
 
 In the existing literature this is often addressed just as "the complex that computes Lie algebroid cohomology".
 
-It is helpful to compare this definition to the general definition of [[Lie infinity-algebroid|Lie infinity-algebroids]], the [[vertical categorification]] of Lie algebras and Lie algebroids.
+It is helpful to compare this definition to the general definition of [[Lie infinity-algebroid|Lie ∞-algebroids]], the [[vertical categorification]] of Lie algebras and Lie algebroids.
 
 
 **Definition in terms of commutative Lie-Rinehart pairs.**
@@ -56,17 +59,17 @@ A Lie algebroid over the manifold $X$ is
 
 #Examples#
 
-* A **Lie algebra** is a Lie algebroid over a point, $X = pt$.
+* A **[[Lie algebra]]** is a Lie algebroid over a point, $X = pt$.
 
-* The **tangent Lie algebroid** is 
+* The **[[tangent Lie algebroid]]** is 
 
     1. in the vector bundle definition given by $E = T X$, $\rho = \mathrm{Id}$;
 
-    2. in the CE-definition: $\mathrm{CE}(T X) = (\Omega^\bullet(X), d_{deRham})$;
+    2. in the [[Chevalley-Eilenberg algebra]]-definition: $\mathrm{CE}(T X) = (\Omega^\bullet(X), d_{deRham})$;
 
 *  **Bundles of Lie algebras** $E \to X$ with fiber $\mathfrak{g}$ are Lie algebroids with $\rho = 0$ and fiberwise bracket. In particular, for $G$ a Lie group with Lie algebra $\mathfrak{g}$ and $P \to X$ a $G$-principal bundle, the _adjoint bundle_ $ad P := P \times_G \mathfrak{g}$ (where $\mathfrak{g}$ is associated using the [[adjoint representation]] of $G$ on its Lie algebra) is a bundle of Lie algebras.
 
- * The **Atiyah Lie algebroid**: for $G$ a Lie group and $P \to X$ a $G$-principal bundle, the vector bundle $At(P):= T P/G$ naturally inherits the structure of a Lie algebroid. Moreover, it fits into a short exact sequence of Lie algebroids over $X$
+ * The **[[Atiyah Lie algebroid]]**: for $G$ a Lie group and $P \to X$ a $G$-principal bundle, the vector bundle $At(P):= T P/G$ naturally inherits the structure of a Lie algebroid. Moreover, it fits into a short exact sequence of Lie algebroids over $X$
 $$
   0 \to ad P \to At(P) \to T X \to 0
 $$
