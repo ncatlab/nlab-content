@@ -1,16 +1,6 @@
 [[!include differential graded objects - contents]]
 
 
-{:myproof: .proof style="margin-left:2em;"}
-{:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
-{:goal: style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
-+-- {: goal}
-###### Lexicon entry on
-##Differential graded Lie algebras (DGLA)
-
-
-(The previous entry in this lexicon can be found at [[differential graded coalgebra]].) 
-=--
 ##Differential graded Lie algebras
 
 A _pre-graded Lie algebra_ (pre-gla) is a [[graded vector space|pre-gvs]], $L$, together with a bilinear map of degree zero
@@ -191,16 +181,5 @@ The differential on $L\star L'$ is the unique Lie algebra derivation extending $
 
 
 
-
-
-{:myproof: .proof style="margin-left:2em;"}
-{:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
-{:goal: style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
-+-- {: goal}
-
-###### Lexicon links onwards:
-
-[[Tim Porter|Tim]]:  The lexicon will continue with a new entry on [[differential graded Hopf algebra|differential graded Hopf algebras]].  
-=--
 
 category: lexicon
