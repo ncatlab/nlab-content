@@ -8,4 +8,6 @@ A **connection** can mean
 
 * [[Grothendieck connection]]
 
+* [[Hurewicz connection]]
+
 [[!redirects connections]]
