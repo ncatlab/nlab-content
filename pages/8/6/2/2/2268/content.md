@@ -9,7 +9,7 @@ When the tangent Lie algebroid is regarded as a [[Lie ∞-algebroid]] it corresp
 
 * the [[path ∞-groupoid]] $\Pi_\infty(X)$.
 
-The space of objects of $T X$ is $X$ itself and its elements in degree 1 are the vectors on $X$, i.e. the elements in the [[tangent bundle]] of $X$. These are to be thouhght of as the [[infinitesimal space|infintiesimal]] paths in $X$.
+The space of objects of $T X$ is $X$ itself and its elements in degree 1 are the vectors on $X$, i.e. the elements in the [[tangent bundle]] of $X$. These are to be thouhght of as the [[infinitesimal space|infinitesimal]] paths in $X$.
 
 So to some extent the tangent Lie algebroid _is_ the [[tangent bundle]] $T X$ of $X$. More precisely, when using the definition of a [[Lie algebroid]] $E$ over $X$ as a diagram
 
