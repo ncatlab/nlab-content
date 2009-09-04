@@ -452,6 +452,10 @@ Now the discussion is about what a simplicial complex is (some like to think of 
 
 So i would agree with Urs that the geometric realization of a simplicial complex is a CW-complex (which makes me now wonder what a complex is, geometrically i always thought of it as the space that represents or is formed by a chain complex in homological algebra, and not like a CW-complex, never mind). This explains that my question "[Are] CW-complexes ... a generalization of simplicial complexes" was about consistency. If CW-complexes (that are the geometric realization of a simplicial complex) generalize simplicial complexes, i can't understand how. I would like to hear from John and others about this and the graphs. I am now trying to see if there is a way out with Euclidean cell complexes. This is really not new stuff but i tend to forget things i don't use for a long time such as abstract simplicial geometry.
 
+[[Mike Shulman]]: At this level of discussion, there are actually two things that one might mean by "CW complex," namely (1) a space that _can be_ built by attaching cells in such-and-such a way, or (2) a space _together with a recipe_ for constructing it by attaching cells in such-and-such a way.  People are often kind of inconsistent about which they mean, but usually it doesn't cause any trouble.  If by "CW complex" you mean (2), then it isn't just a topological space, but starts to look a little more like a simplicial complex.  (I still don't think that simplicial complexes _are_ CW complexes, though, even with that definition.)
+
+BTW, a CW complex isn't really a union of points in $R^n$, rather it is an abstract topological space constructed by gluing together cells.  Not every CW complex admits an embedding into any $R^n$.
+
 =--
 
 
