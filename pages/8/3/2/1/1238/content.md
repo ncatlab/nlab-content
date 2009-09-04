@@ -1,5 +1,5 @@
 [[!include differential graded objects - contents]]
-
+[[!redirects differential graded algebras and differential graded Lie alg]]
 
 ##Some  relationships between  differential graded algebras and differential graded Lie algebras (DGLA)
 
