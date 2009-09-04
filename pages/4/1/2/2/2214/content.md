@@ -25,6 +25,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 ## 2009-09-04
+* [[Zoran Škoda]]: additions to [[Ieke Moerdijk]]
 
 * [[Tim Porter]]: I have removed the blue boxes as suggetsed by [[Urs]] (see below).
 
