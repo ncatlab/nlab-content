@@ -26,6 +26,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 
 ## 2009-09-03
+
+* [[Todd Trimble]]: wrote article on [[tree]]. 
+
 * [[Zoran Škoda]]: created [[formal group scheme]] also far from finished. Maybe [[John Baez|John]] would like to explain connections to the Witt ring ?
 
 * [[Rafael Borowiecki]]: Wrote a hopefully not too long answer to the long discussion at [[category theory]].
