@@ -1,17 +1,7 @@
 [[!include differential graded objects - contents]]
 
+This entry is in parallel to [[dg-algebra]]. Here a detailed component-wise description of the inner workings of dg-algebras is given. See [[dg-algebra]] for the [[category theory|abstract nonsense]] definition and further links and remarks.
 
-{:myproof: .proof style="margin-left:2em;"}
-{:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
-{:goal: style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
-+-- {: goal}
-###### Lexicon entry on
-##Differential graded algebras
-
-This will, for the moment duplicate, overlap and perhaps conflict with [[dg-algebra]]. The approach adopted here  favours the 'internal' idea of a graded algebra, involving a direct sum decomposition, which can often seem more natural than the 'external' one as an indexed family of vector spaces etc. Of course, there are instances and examples where the converse is true!
-
-(The previous entry in this lexicon can be found at [[differential graded vector space]].)
-=--
 
 ###Pre-graded algebras
 
