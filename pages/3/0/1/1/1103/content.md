@@ -16,7 +16,7 @@ A morphism $f:(A,\varepsilon)\to (A',\varepsilon')$ of augmented pre-gas is a ho
 
 If $A$, $A'$ are two pre-gas, then $A\otimes A'$ is a pre-ga with
 
-$$(a\otimes a')(b\otimes b') = (-1)^{|a' | |b|}ab\otimes a' b'$$
+$$(a\otimes a')(b\otimes b') = (-1)^{|a' | |b|} a b \otimes a' b'$$
 
 for homogeneous $a,b \in A$, $a', b' \in A'$.
 
@@ -158,16 +158,7 @@ in $\bigwedge(x_1, \ldots, x_p )$. We note that although we write $\varepsilon(\
 
 Baues (in his book on _Algebraic Homotopy_) has suggested using the terminology **chain algebra** for positively graded differential algebras  and **cochain algebras** for the negatively graded ones. This seems to be a very useful convention.
 
-{:myproof: .proof style="margin-left:2em;"}
-{:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
-{:goal: style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
-+-- {: goal}
-###### Lexicon links onwards:
 
-[[Tim Porter|Tim]]:  This lexicon will continue with a new entry on [[differential graded coalgebra|differential graded coalgebras]].  (Yes, I know there is [[CoDGCA]] already but as I said before, these lexicon pages are for editing once they are 'there'.
-=--
-
-category: lexicon
 
 [[!redirects differential graded algebras]]
 
