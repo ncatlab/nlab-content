@@ -15,17 +15,17 @@ The best way to contact me is by sending me an email at <urs.schreiber@gmail.com
 
 # my position {#myposition}
 
-I have my PhD in theoretical [[physics]], have been a postdoc in [[mathematics|math]] for four years now (in Hamburg). Currently I am based at the <a href="http://www.mpim-bonn.mpg.de/">MPI in Bonn</a> and am about to start another postdoc position in [[Ieke Moerdijk]]'s [group](http://www.math.uu.nl/Research/Topology/) in Utrecht. 
+I have my PhD in theoretical [[physics]]. Have been a postdoc in [[mathematics|math]] for four years now (in Hamburg). Currently I am based at the <a href="http://www.mpim-bonn.mpg.de/">MPI in Bonn</a> and am about to start another postdoc position in [[Ieke Moerdijk]]'s [group](http://www.math.uu.nl/Research/Topology/) in Utrecht. 
 
 # my research {#myresearch}
 
 My research has to a large extent been motivated by thinking about mathematical model building in theoretical [[physics]]. Something like a personal research wiki with more information is beginning to develop at
 
-* [my personal web within the nLab](http://ncatlab.org/schreiber/show/HomePage)
+* [my personal web within the nLab](http://ncatlab.org/schreiber/show/HomePage).
 
 My **research interest** is in understanding the [[differential geometry|differential geometric]] and [[category theory|categorical]] structures underlying what should be called [[schreiber:differential nonabelian cohomology|differential nonabelian cohomology]]: the theory of [[connection on a bundle|connections]] on [[principal bundle|principal bundles]] and their generalization to [[gerbe]]s and [[principal ∞-bundle]]s. 
 
-* _ingredients_ -- Structurally this involves [[∞-stack]] [[(∞,1)-topos]]es in a [[generalized smooth space|smooth context]] such as that of [[synthetic differential geometry]], while technically it involves a theory of [[schreiber:∞-Lie theory|∞-Lie theory]] that controls [[Lie infinity-groupoid|∞-Lie groupoid]]s and their [[infinitesimal object|infinitesimal]] approximation, [[schreiber:∞-Lie algebroid|∞-Lie algebroid]]s in terms of which one may conceive notions like [[schreiber:Cartan-Ehresmann ∞-connection|Cartan-Ehresmann ∞-connection]]s on [[principal ∞-bundle]]s.
+* _ingredients_ -- Structurally this involves [[∞-stack]] [[(∞,1)-topos]]es in a [[generalized smooth space|smooth context]] such as that of [[synthetic differential geometry]]. Technically it involves a theory of [[schreiber:∞-Lie theory|∞-Lie theory]] that controls [[Lie infinity-groupoid|∞-Lie groupoid]]s and their [[infinitesimal object|infinitesimal]] approximation, [[schreiber:∞-Lie algebroid|∞-Lie algebroid]]s in terms of which one may conceive notions like [[schreiber:Cartan-Ehresmann ∞-connection|Cartan-Ehresmann ∞-connection]]s on [[principal ∞-bundle]]s.
 
 * _applications_ -- Such objects notably model [[gauge theory|higher order gauge field]]s in [[quantum field theory]] and [[string theory]] that have already been a main motivation for the development of [[differential cohomology|generalized abelian differential cohomology]] by Hopkins, Singer, Freed and others. With Hisham Sati and [[Jim Stasheff]] we are working on showing that the fundamental picture involves differential refinements of the full [[(∞,1)-topos]]-theoretic refinement of [[generalized (Eilenberg-Steenrod) cohomology|abelian cohomology]] to what is called [[nonabelian cohomology]]. 
 
