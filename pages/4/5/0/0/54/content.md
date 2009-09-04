@@ -1,20 +1,28 @@
-<div style="float:left;margin:0 20px 10px 20px;"><img width = "250" src="http://nlab.mathforge.org/schreiber/files/atfields.jpg" alt="Urs Schreiber at Fields Institute" /></div>
+<div style="float:right;margin:0 20px 10px 20px;"><img width = "250" src="http://nlab.mathforge.org/schreiber/files/atfields.jpg" alt="Urs Schreiber at Fields Institute" /></div>
 
-[[!include contents ]]
-
-I have my PhD in theoretical [[physics]], have been a postdoc in [[mathematics|math]] for four years now (in Hamburg). Currently I am based at the <a href="http://www.mpim-bonn.mpg.de/">MPI in Bonn</a> and am about to start another postdoc position in [[Ieke Moerdijk]]'s [group](http://www.math.uu.nl/Research/Topology/) in Utrecht. 
 
 The best way to contact me is by sending me an email at <urs.schreiber@gmail.com>
 
-I enjoy exchanging thoughts on topics of interest for my research and always felt it would be a pity not to use the web for that purpose. To satisfy that need I use to 
 
-* chat on the blog [The n-Category Cafe](http://golem.ph.utexas.edu/category/)
+# my position # 
 
-* work on the wiki [The nLab](http://ncatlab.org/nlab/show/HomePage)
+I have my PhD in theoretical [[physics]], have been a postdoc in [[mathematics|math]] for four years now (in Hamburg). Currently I am based at the <a href="http://www.mpim-bonn.mpg.de/">MPI in Bonn</a> and am about to start another postdoc position in [[Ieke Moerdijk]]'s [group](http://www.math.uu.nl/Research/Topology/) in Utrecht. 
+
+# my research # 
 
 My research has to a large extent been motivated by thinking about mathematical model building in theoretical [[physics]]. Something like a personal research wiki with more information is beginning to develop at
 
 * [my personal web within the nLab](http://ncatlab.org/schreiber/show/HomePage)
+
+
+# exchange of thoughts #
+
+I enjoy exchanging thoughts on topics of interest for my research and always felt it would be a pity not to use the web for that purpose. To satisfy that need I use to 
+
+* discuss on the blog [The n-Category Cafe](http://golem.ph.utexas.edu/category/)
+
+* work on the wiki [The nLab](http://ncatlab.org/nlab/show/HomePage) (this wiki here).
+
 
 
 
