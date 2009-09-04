@@ -26,6 +26,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-04
 
+* [[Urs Schreiber]] -- question to [[Rafael Borowiecki]]: below you write
+
+  > The same timeline at wikipedia has/will have soon about 1500 links. When i migrate it to nLab again, and better than the last time, i need to change the links
+
+  What do you mean by "migrate"? The nLab version of the timeline has now many entries and edits that don't seem to be reflected in the Wikipedia version. No?
+
 * [[Rafael Borowiecki]]: Replied to Zoran's question.
 
 * [[Zoran Škoda]]: put a query into the [[Timeline of category theory and related mathematics|Timeline]] entry: at numdam one can find the Cartan Sem from 1948, but I can not find there the write up of sheaf theory those some related notions in non-sheaf language can be easily found. Am I blind ? [numdam 1948 Cartan Sem](http://www.numdam.org/numdam-bin/feuilleter?id=SHC_1948-1949__1_). Timeline claims 1948 WRITE-UP. So where it is ?
