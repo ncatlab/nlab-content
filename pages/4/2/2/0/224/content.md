@@ -9,7 +9,7 @@ In other words, a $G$-graded vector space is a functor $V: G \to Vect$, where th
 
 People are usually interested in $G$-graded vector spaces when the set $G$ is equipped with extra structure.  If the set $G$ is a [[monoid]], $Vect^G$ is a [[monoidal category]].  If $G$ is a commutative monoid, $Vect^G$ is a [[symmetric monoidal category]].  If $G$ is a group, every finite-dimensional $G$-graded vector space has a [[left dual object|left dual]] and a [[right dual object|right dual]].  And if $G$ is an abelian group, these duals coincide.
 
-By far the most widely-used examples are $G = \mathbb{Z}$ and $G = \mathbb{N}$.  Indeed, the term _graded vector space_ is often used to mean a $G$-graded vector space with one of these choices of $G$.  The case $G = \mathbb{Z}/2$ is also important: a $\mathbb{Z}/2$-graded vector space is also called a [[supervector space]]. However, in this case one often uses a different braiding on $\Vect^G$, one which uses the [[ring]] structure of $\mathbb N$; see [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Super_vector_space#The_category_of_super_vector_spaces).
+By far the most widely-used examples are $G = \mathbb{Z}$ and $G = \mathbb{N}$.  Indeed, the term _graded vector space_ is often used to mean a $G$-graded vector space with one of these choices of $G$.  The case $G = \mathbb{Z}/2$ is also important: a $\mathbb{Z}/2$-graded vector space is also called a [[supervector space]]. However, in this case one often uses a different braiding on $\Vect^G$, one which uses the [[ring]] structure of $\mathbb{N}$; see [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Super_vector_space#The_category_of_super_vector_spaces).
 
 It is also interesting to consider $G$-graded objects in other categories.  A _$G$-graded object_ in the category $C$ is a functor $F :G \to C$, and the category of $G$-graded objects in $C$ is the [[functor category]] $C^G$.
 
@@ -55,25 +55,17 @@ More details on this perspective on graded vector spaces are in [[schreiber:Nona
 
 #Special case of $\mathbb{Z}$-graded vector spaces.#
 
-{:myproof: .proof style="margin-left:2em;"}
-{:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
-{:goal: style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
-+-- {: goal}
-###### Lexicon
-
-[[Tim Porter|Tim]]:
-The case  $G = \mathbb{Z}$ serves as a base for many other applications of the same basic idea. It has some of its own 'traditional' terminology and structure that links it to [[differential object|differential objects]], so that a 'differential graded vector space' is a [[chain complex]] of vector spaces. I will use 'gvs' as an abbreviation for this sort of graded vector space and 'dgvs' for the differential form. (Of course, the theory easily adapts to handle graded modules over a ring, and with some restriction, to graded groups.) Basing algebras on dgvs gives differential graded algebras ([[dg-algebra]]) and so on.
-
-I want to put here a sort of lexicon of some terms which are taken from a source on [[rational homotopy theory]]. 
-
-This will, for the moment, be more or less 'as-is' from the source (except translating it from  the original French that is!), i.e. without too much editing. This means that there may be conflicts with other entries, which will need resolving later. Some links to other entries have been given but more could be made. There WILL initially be some duplication but that will be eliminated later on.
-
-I have put this in the main area so as to encourage feedback and the identification of potential clashes of notation, terminology and conventions.  I have typed this in but do not like it in some of its terminology. (I am using a latex file from some years ago.) Once I have everything I have in my lexicon down in the nLab I hope we can make the entries  fit more closely to others.
-
-The lexicon will be spread over a number of entries with links at least at the end of each. It will be a list of specialised vocabulary with definitions but not the motivational material that the usual entries attempt to provide. 
-=--
-
 #Lexicon#
+
+The case  $G = \mathbb{Z}$ serves as a base for many other applications of the same basic idea. It has some of its own 'traditional' terminology and structure that links it to [[differential object|differential objects]], so that a 'differential graded vector space' is a [[chain complex]] of vector spaces. We will use 'gvs' as an abbreviation for this sort of graded vector space and 'dgvs' for the differential form. (Of course, the theory easily adapts to handle graded modules over a ring, and with some restriction, to graded groups.) Basing algebras on dgvs gives differential graded algebras ([[dg-algebra]]) and so on.
+
+The entry  here will be  a sort of lexicon of some terms which are taken from a source on [[rational homotopy theory]]. This will be more or less 'as-is' from the source (except translating it from  the original French that is!), i.e. without too much editing. This means that there may be conflicts with other entries, which will need resolving later. Some links to other entries have been given but more could be made. There WILL initially be some duplication but that will be eliminated later on.
+
+
+The lexicon will be spread over a number of entries with links given in the table of contents ion the right hand side at the top.
+
+
+
 
 **Note** With $\mathbb{Z}$-graded vector spaces (and sometimes with other examples as well), some authors work with a direct sum of the various vector spaces instead of using an indexed family.
 
@@ -174,13 +166,6 @@ and is of degree $|f| + |g|$.
 
 In particular there is a natural injection $(\#V)\otimes (\#W) \to \#(V\otimes W)$, and this is an isomorphism if either $V$ or $W$ is of finite type.
 
-{:myproof: .proof style="margin-left:2em;"}
-{:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
-{:goal: style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
-+-- {: goal}
-######Links to next part and other things:
-A [[differential object]] in the category of gvs is a [[differential graded vector space]] or dgvs. This is just a [[chain complex]] or cochain complex.
-=--
 
 
 category: lexicon
