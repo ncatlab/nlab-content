@@ -363,7 +363,10 @@ _Rafael_: I don't see anything there, the page is missing. In this case i have a
 Zoran: oops one character too long, try [again](http://www.numdam.org/numdam-bin/feuilleter?id=SHC_1948-1949__1_)
 
 _Rafael_: Alas, don't forget i don't know french. When i read the entry i interpret it as it was written on a blackboard. But something as important as this should be in the proceedings. I also know that some concepts such as the Schwartzian derivative are well hidden in their first appearance. I am open to remove entries, so if you know you are right remove it.
+
+Zoran: In fact I believe you are right, that Cartan seminars had sheaves in 1948; thsi is what I recall from my earlier readings, but it is not in the writeup of the seminars as it stands; I do not know what is the reference. Maybe we should look in Serre's FAC paper where he should have quoted earlier papers on sheaf theory.
 =--
+
 
 
 #Discussion#
