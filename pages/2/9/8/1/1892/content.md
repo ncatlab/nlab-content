@@ -121,6 +121,7 @@ This results in a [Link to the n-Cafe](http://golem.ph.utexas.edu/category/2009/
 
 In order that the rest of the $n$Lab crew has a chance of becoming aware of your changes, drop a note about what you did at [[latest changes]].
 
+
 ### Pat yourself on the back ###
 
 Congratulations!  By helping the $n$Lab, you have done your good deed for the day.  All glory comes from daring to begin.
