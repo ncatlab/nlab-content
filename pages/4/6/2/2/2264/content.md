@@ -1,0 +1,25 @@
+[[!redirects Mal'cev operation]]
+A __Mal'cev operation__ on a set $X$ is a ternary operation
+
+$$ t:X\times X\times X\to X,\,\,\,(x,y,z)\mapsto t(x,y,z) $$
+
+which satisfies the identities $t(x,x,z)=z$ and $t(x,z,z)=x$.
+An important motivating example is the operation $t$ of a [[heap]]. 
+
+An [[algebraic theory]] $T$ is a __Mal'cev theory__ when $T$ contains a Mal'cev operation. An algebraic theory is Mal'cev iff one of the following equivalent statements is true:
+
+(i) in the category of $T$-algebras, every reflexive relation is an equivalence relation;
+
+(ii) in the category of $T$-algebras, the composite of any two equivalence relations as an equivalence relation;
+
+(iii) in the category of $T$-algebras, the composition of equivalence relations is commutative.
+
+Statement (i) is one of the motivations to introduce the notion of [[Mal'cev category]]. 
+
+A __Mal'cev variety__ is the category of $T$-algebras for a Mal'cev theory $T$. 
+
+See the monograph [[Borceux-Bourn]].
+
+[[!redirects Mal'cev varieties]]
+[[!redirects Mal'cev operation]]
+[[!redirects Mal'cev theory]]
