@@ -25,6 +25,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 ## 2009-09-04
+* [[Andrew Stacey]]: I have implemented all the little database tweaks that were needed and done my best to reverse all the truncations.  Please see [this comment](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=52&page=2#Item_22) for details.  Please also check if a long page is how it ought to be (thinking particularly of the timeline).
+
+   The main thing to note is that although the limits are larger and are sufficient to accommodate all that was on the old lab, _there are still limits_.  In particular, page names and redirects are limited to 100 characters.  Page contents is a little bigger!
+
+   Talking of the timeline, incidentally, now that I can see Rafael's question, could I ask him to ask the question again over on the Forum with at the very least a link to where I can see what it is that needs to be converted?  Thanks.
+
 * [[Zoran Škoda]]: additions to [[Ieke Moerdijk]]
 
 * [[Tim Porter]]: I have removed the blue boxes as suggetsed by [[Urs]] (see below).
