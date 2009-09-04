@@ -29,6 +29,4 @@
 
   * [[integration over supermanifolds]]
 
-
-
-
+* [[differential logic]]
