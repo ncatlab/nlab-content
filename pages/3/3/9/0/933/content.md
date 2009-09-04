@@ -5,7 +5,7 @@ A __dg-algebra__, or __[[differential graded algebra]]__, is a [[monoid]] in the
 
 For the case of chain complexes we also speak of **chain algebras**.
 
-For the case of chain complexes we also speak of **cochain algebras**.
+For the case of cochain complexes we also speak of **cochain algebras**.
 
 Recall 
 
