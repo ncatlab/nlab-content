@@ -1,0 +1,12 @@
+A dual $g^*$ of (say a fiite-dimensional real) __Lie algebra__ has a structure of a [[Poisson manifold]] with the Poisson structure due A. Kirillov and Souriau, namely for any $a\in g^*$, 
+
+$$
+\{ f, g\}(a) := \lt [df_a, dg_a],a\gt
+$$
+
+
+The symplectic leaves of that structure are the __coadjoint orbits__.
+
+This is used especially in [[geometric quantization]].
+
+[[!redirects coadjoint orbits]]
