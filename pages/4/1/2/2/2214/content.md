@@ -28,6 +28,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Jon Awbrey]] made a first pass at formatting [[Trimble on ETCS II]], but it will need to be checked.
 
+  * [[Urs Schreiber]]: thanks! That's very useful. i was hoping somebody would find the time to do that eventually. Great that you did it.
+
 ## 2009-09-03
 
 * [[Todd Trimble]]: wrote article on [[tree]]. 
