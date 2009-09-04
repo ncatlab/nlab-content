@@ -1,3 +1,6 @@
+[[!include differential graded objects - contents]]
+
+
 {:myproof: .proof style="margin-left:2em;"}
 {:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 {:goal: style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
@@ -183,7 +186,8 @@ Math. Soc. 25 (230) (1980) ix+171.
 +-- {: goal}
 ###### Lexicon links onwards:
 
-[[Tim Porter|Tim]]:  The lexicon  continues on a new entry that goes from  [[differential graded algebras and differential graded Lie algebras-relationships|Differential graded algebras to differential graded Lie algebras and back]].  
+[[Tim Porter|Tim]]:  The lexicon  continues on a new entry that goes from  [[differential graded algebras and differential graded Lie alg|Differential graded algebras to differential graded Lie algebras and back]].  
 =--
+
 
 category: lexicon
