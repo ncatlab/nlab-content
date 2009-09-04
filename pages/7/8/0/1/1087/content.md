@@ -1,3 +1,4 @@
+[[!include differential graded objects - contents]]
 
 
 {:myproof: .proof style="margin-left:2em;"}
