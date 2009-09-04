@@ -1,5 +1,8 @@
 [[!include mathematicscontents]]
 
+[[!include differential graded objects - contents]]
+
+
 #Idea#
 
 As with many other parts of [[homotopy theory]] one can view _rational homotopy theory_ in two ways:
