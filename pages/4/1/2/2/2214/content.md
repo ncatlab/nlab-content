@@ -26,6 +26,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-04
 
+* [[Tim Porter]]: I have removed the blue boxes as suggetsed by [[Urs]] (see below).
+
+
 * [[Zoran Škoda]]: created the entry for the monograph [[Borceux-Bourn]] and extracted some material to add into [[Mal'cev category]]. Created [[Mal'cev variety]] including the definitions and redirects for [[Mal'cev operation]] and [[Mal'cev theory]]. 
 
 * [[Urs Schreiber]]
@@ -38,7 +41,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
      I find it kind of a pity that this entry exists in parallel with [[differential graded algebra]]. I understand that the motivation was that one entry gives the detailed component description while the other gives the abstract nonsense definition (monoid in chain complexes). But this is a general effect in the nLab and we should keep such things in different subsections on the same page. Maybe let me know what you think
 
-  * added floating table of contents to the "lexicon" entries on differential graded structures that [[Tim Porter]] created a while ago. See for isnatance starting at [[graded vector space]].
+  * added floating table of contents to the "lexicon" entries on differential graded structures that [[Tim Porter]] created a while ago. See for instance starting at [[graded vector space]].
 
     (these tables overlap with Tim's blue alert boxes. I am thinking we could remove these boxes now and let the table of comntents server their purpose, but before i do this I want to hear what Tim thinks about. I'll contact him)
 
