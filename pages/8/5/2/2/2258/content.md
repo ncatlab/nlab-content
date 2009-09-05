@@ -6,3 +6,6 @@
 * (with [[Ieke Moerdijk]]), [[Models for Smooth Infinitesimal Analysis]]
 
   on [[synthetic differential geometry]]
+
+
+category: biography
