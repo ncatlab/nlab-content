@@ -25,11 +25,16 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 
-## 2009-09-04
+## 2009-09-05
+
+*  [[Toby Bartels]]:  Created a stub [[higher topos theory]] (not to be confused with [[Higher Topos Theory]]).
 
 * [[Benoit Jubin]]: asked a question at [[monoidal category]] about the necessity of requiring $\lambda_1=\rho_1$.
 
   * [[Todd Trimble]] responded. 
+
+
+## 2009-09-04
 
 *  [[Tim Porter]]:  On the issue of stacks,  Deligne and Mumford explicitly (p. 97 of their famous paper) use the term 'stack' as an English translation of 'Champ' and attribute that to Giraud in _Cohomologie non-abelienne_. This latter source was published later than Deligne and Mumford's paper but is refered to by them as 'University of Columbia'. Giraud was a student of Grothendieck.
  
