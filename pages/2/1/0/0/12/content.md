@@ -345,6 +345,12 @@ Then, this theorem is by far the most specialized result in the timeline. So i s
 
 _Zoran_: I am not talking Koszul algebras of Priddy but the older Koszul resolutions in the subject of [[commutative algebra]]. Of course, Koszul pair of the symmetric vs. exterior algebra is behind the classical Koszul resolutions; but the resolutions are typically, like in Cayley's work, resolutions of modules of finite type over reduced f.g. commutative algebras. Thus take any projective variety and a coherent sheaf on it and you are in the setup of this paper. The paper starts with a notion of resolution in about this setup, then develops Koszul resolutions and calculations with determinants which express the bases of the modules which appear in the resolution. This is very general. Gel'fand, Kapranov, Zelevinsky in their book dedicate chapter 2 (and 3.4) to "Cayley method" and say this about the paper: "The method goes back to the remarkable paper by Cayley [Ca4] on elimination theory, in which the foundations were laid for what is now called homological algebra." But what happened with your too shy question/suggestion to include also Galois ? By the way what does it mean "categorical quantization" in 1978 entry ?
 Never heard.
+
+_Rafael_: I am thinking how to include what you wrote above in the Cayley entry. But not right now. Perhaps you can do it better. I am thinking more about if it is right to call it a foundation of homological algebra. In this way one could say that Gauss by Gauss elimination (i think it is the first general method) founded higher dimensional linear algebra. Hmm. I would say that more is needed for a foundation than a calculation. Cayley is doing homological algebra by a general calculation and not developing a new theory. A theory have several interacting definitions and theorems and so on. But i must think more about it.
+
+Categorical quantization means the 1995 (unfortunately empty) Valentin Lychagin entry in the timelie. The idea is that quantization is a functor from the category of integrable Poisson manifolds and symplectomorphisms to the category of separable C*-algebras and *-homomorphisms. The object function of the functor is deformation quantization and the morphism function of the functor is geometric quantization. I don't remember the reference but i think it is one of his papers [here](http://www.math.uit.no/seminar/preprints.html).
+
+Well, you did have better motivation than me to include Galois theory. If i write it, it will be one short sentence since i am writing other entries now, so i suggest you write it to show some of its categorical flavour, but not as incomplete as the Cayley entry. I mean leaving questions begging to be answered in the entry.
 =--
 
 $[2]$  in his thesis on abelian categories 1962, Bull. Soc. Math. France 
@@ -378,6 +384,8 @@ _Rafael_: Alas, don't forget i don't know french. When i read the entry i interp
 Zoran: In fact I believe you are right, that Cartan seminars had sheaves in 1948; thsi is what I recall from my earlier readings, but it is not in the writeup of the seminars as it stands; I do not know what is the reference. Maybe we should look in Serre's FAC paper where he should have quoted earlier papers on sheaf theory.
 
 Zoran: Here is the key! The 1948/9 acad year volume of Cartan seminar has 11 exposes, as on numdam. Weibel in his historical survey says that exposes 12-17 in mimeographed version had sheaf theory and that those exposes were abandoned, hence not published for real later and that Cartan again in 1950/51 a reworked version is published as exposes 14-20 (the latter are at numdam). Now timeline has 3 years as 3 contributions of Cartan 1948, 1950, 1951; at least the latter two for one academic year of the same volume of publications is not sensitive. 
+
+_Rafael_: Yes, this is something to include :) Good detective work. Here is another. Is it necessary that the variety is Noetherian in the Serre-Swan theorem? It don't say so for instance [here](http://info.fuw.edu.pl/~pmh/seminar.html)
 =--
 
 
