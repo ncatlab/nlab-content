@@ -27,6 +27,20 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-05
 
+* [[Urs Schreiber]] 
+
+  * created a stub entry for [[Samuel Eilenberg]] and put hyperlinks under the names of Eilenberg and MacLane at [[category theory]].
+
+  * expanded at [[infinity-stack]] the first paragraph of the "Definition" section and added a link to [[sheaf of n-types]].
+
+  * created [[sheaf of n-types]] which was requested in the "Timeline" entry. But I made this essentially just a commented redirect to [[∞-stack]], because it's just another word for that.
+
+  * expanded the introduction of [[AKSZ theory]] a little, added the original reference and linked Kontsevich's name there to the new entry on [[Maxim Kontsevich]] and  added a paragraph that tries to briefly put this in context with related existing nLab entries. But the entry is still missing a discussion  of its subject itself. I have some old blog material on this, but this deserves more spare time than I have at the moment.
+
+  * added links back and forth between the new [[higher topos theory]] and the old [[∞-topos]]. Probably some reorganization of the material over these two entries would eventually be reasonable.
+
+  * added plenty of hyperlinks to the entry on [[Maxim Kontsevich]] -- many of them point to existing nLab entries, many others point to nLab entries still to be created (and lots of them would be highly desireable)
+
 *  [[Toby Bartels]]:  Created a stub [[higher topos theory]] (not to be confused with [[Higher Topos Theory]]).
 
 * [[Benoit Jubin]]: asked a question at [[monoidal category]] about the necessity of requiring $\lambda_1=\rho_1$.
@@ -38,7 +52,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 *  [[Tim Porter]]:  On the issue of stacks,  Deligne and Mumford explicitly (p. 97 of their famous paper) use the term 'stack' as an English translation of 'Champ' and attribute that to Giraud in _Cohomologie non-abelienne_. This latter source was published later than Deligne and Mumford's paper but is refered to by them as 'University of Columbia'. Giraud was a student of Grothendieck.
  
-* [[Zoran Škoda]]: surely Grothendieck invented stacks in general categorical sense and had a picture in various setups; Deligne and Mumford did invent a particular kind of [[algebraic stack]] and tailored it toward a very specific application. 
+* [[Zoran ?koda]]: surely Grothendieck invented stacks in general categorical sense and had a picture in various setups; Deligne and Mumford did invent a particular kind of [[algebraic stack]] and tailored it toward a very specific application. 
 
 * [[Rafael Borowiecki]]: 
 
@@ -50,7 +64,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * Since we are on the subject history. I Credited Deligne-Mumford for inventing stacks. But i recall rumours that it was Grothendieck that invented stacks, without any references.
 
-* [[Zoran Škoda]]: added redirects and a reference to [[quasicoherent sheaf]]; expanded [[representation theory]]; created [[EGA]] (just an introduction to the entry, links and toc missing); created [[orbit]] wanted by [[coadjoint orbit]]; more importantly for the present needs, wrote [[Grothendieck connection]] (entry 2000 :)), required both by the timeline and by the current interests of the project pushed by Urs which I try to help and discuss; and it also refers to some things I was many time mentioning (and even to some ideas behind my preprint on cyclic comonads and related papers by Menini-Stefan and B&#246;hm-Stefan). Wrote [[Poisson manifold]] and [[coadjoint orbit]] (unfinished). 
+* [[Zoran ?koda]]: added redirects and a reference to [[quasicoherent sheaf]]; expanded [[representation theory]]; created [[EGA]] (just an introduction to the entry, links and toc missing); created [[orbit]] wanted by [[coadjoint orbit]]; more importantly for the present needs, wrote [[Grothendieck connection]] (entry 2000 :)), required both by the timeline and by the current interests of the project pushed by Urs which I try to help and discuss; and it also refers to some things I was many time mentioning (and even to some ideas behind my preprint on cyclic comonads and related papers by Menini-Stefan and B&#246;hm-Stefan). Wrote [[Poisson manifold]] and [[coadjoint orbit]] (unfinished). 
 No, Rafael, I was not trying to find oldest instance of category theory. But Hilbert's first entry and also things about Whitehead etc. nonabelian invariants require the earlier appearances of such ideas if they existed. Look, the main theorem of Cayley in modern language says that the resultant of polynomials is a determinant of certain Koszul complex. As far as Galois, I think it should absolutely be in timeline, definitely, not only because of the notion of the group, but in fact Galois theory itself is in a spirit and a stimulus of much of the modern category theory -- torsors, Grothendieck Galois theory, equivariant descent, Galois descent, Joyal-Tierney, Hopf-Galois to mention a few (On the other hand, the notion of an abelian group is essentially in Gauss' Disquisitiones Arithmeticae in pretty clean form, according to my friends who read it carefully; I can not judge). The Klein's Erlangen program is a related ideological item, but more disputable.  I still do not understand what do you mean by that moving again the wikipedia and overwriting $n$lab version depends on ability to do links. If you change links to wikipedia somehow automatically to the format which finds the true wikipedia pages this will be good for most of the items, but wrong for those few items where we already do have nlab entries. So it is a problem of selection.
 
 * [[Rafael Borowiecki]]: When i was writing i once by accident updated the timeline at wikipedia and undid the change. If you look at it from the history you will see that i have corrected some of what you wrote and i will with interest look at the rest. I find the dates usually on internet which mean they could be wrong. I did not include Poincares Analysis situs for progress on group theory but topology which is one of the related themes of the timeline. As for Cayleys paper i would like to hear what others think. But it looks to me you tried to find the earliest possible instance of category theory. Then Galois theory is earlier. I think of it of course as a precursor to modern Galois theory but did not include it. 
@@ -64,17 +78,17 @@ No, Rafael, I was not trying to find oldest instance of category theory. But Hil
 
 * [[Rafael Borowiecki]]: Zoran, the migration will ultimately depend on if i am able to do the linking. I could completely not care about the nLab timeline but i want it to look good. The long entries will be as short/long as they are now. I will try not to loose anything and discuss the entries i would remove. [AST](http://ncatlab.org/nlab/show/algebraic+set+theory) alteady exist as do pages for the other long entries. Regarding Cayley i have seen the paper long before and have it on my computer. Cayley calculates invariant theory in coordinates. The paper do not define any categorical concept or prove a categorical theorem. Nor do it introduce any method used later in category theory, it is just polynomial algebra. I would say it don't start homological algebra. You could put it as that it anticipated homological algebra but i don't think Cayley thought about this paper that abstractly.
 
-* [[Zoran Škoda]]: Rafael, when you opened timeline in nlab you did NOT tell us, the conditions/plan of syncing, which is fundamentally incompatible with nlab and wikipedia as each of them has limitations AND advantages. For example, we like book entries in nlab; timeline has some entries in the tabel very short, some hugely long: e.g. the wikipedia has huge entry of about alf a page on a book of Joyal and Moerdijk on algebraic sets. Why not have a separate entry in nlab for that book with all the material and in nlab entry for that book just say book  algebraic sets, yeas and that's it. Second new migration would take tens of hours of time to make links compatible with entries in nlab, some of which can not be automatic. How Cayley's paper benefited category theory ? Jee, you have tens of etries on homological algebra; including the Hilbert's which are about the SAME stuff, just much later. How do you expect a collaboration on an entry if you are going to just decide out of your taste what is important ? Even if we talk about papers which wree anticipating developments in other works by over half a century ? You are concerned about syncing and difficulties. There is a wikipedia and there is nlab. When it is easy to borrow and coopearte why not. When it is difficult and creates problem just the heck with it, let's develop aturally two versions. No sync...
+* [[Zoran ?koda]]: Rafael, when you opened timeline in nlab you did NOT tell us, the conditions/plan of syncing, which is fundamentally incompatible with nlab and wikipedia as each of them has limitations AND advantages. For example, we like book entries in nlab; timeline has some entries in the tabel very short, some hugely long: e.g. the wikipedia has huge entry of about alf a page on a book of Joyal and Moerdijk on algebraic sets. Why not have a separate entry in nlab for that book with all the material and in nlab entry for that book just say book  algebraic sets, yeas and that's it. Second new migration would take tens of hours of time to make links compatible with entries in nlab, some of which can not be automatic. How Cayley's paper benefited category theory ? Jee, you have tens of etries on homological algebra; including the Hilbert's which are about the SAME stuff, just much later. How do you expect a collaboration on an entry if you are going to just decide out of your taste what is important ? Even if we talk about papers which wree anticipating developments in other works by over half a century ? You are concerned about syncing and difficulties. There is a wikipedia and there is nlab. When it is easy to borrow and coopearte why not. When it is difficult and creates problem just the heck with it, let's develop aturally two versions. No sync...
 
 * [[Rafael Borowiecki]]: Replied at the timeline of category theory. Zoran, my original plan was to have the timelines synced to optimize both timelines and i will try to do so. I will also try to have good links. Right now the wikipedia timeline contains almost all entries and information in the nLab timeline and very much more. So at the moment it would be nLab that benefits most. I will look into your changes once again and try to keep them. It is easier to only copy the links than to find them. You have not seen the new version but, as for Cayley i just don't see how his calculation benefited category theory so i removed it, but this is a discussion for the timeline page. I also recall removing the deRham theorem since it don't really fit with the structure of the timeline. I have not included dualities. But this one i can change back since it was a very important discovery about cohomology and there are no rules to follow any structure. I will check more now. Then i wish people added so much to the timelines it would be impractical to sync them. Now that nLab is fast enough it should go much better to edit the links.
 
-* [[Zoran Škoda]]: created [[internal relation]]. I was once working on replacing tens (and spend hours on this) of wikipedia links in timeline with our own links, and even created new entries in nlab to support the new links in nlab. For example I created the entry for [[Otto Schreier]] in nlab to support the quotation for Schreier in nlab version of Timeline. I also do not understand why things like the Cayley 1843 entry are ignored (and hence will disappear in new migration); I spent hours of time looking into references which I recalled vaguely to confirm what I thought about it. I see no reason for wikipedia to overwrite our work  on changes. 80 links changed in single day is possible done by me; I recall that I did work once on making many links either more functional (including making the blind link to wikipedia link) or update them with new biography entries in nlab. I would not say that in that particular day only the links changed.
+* [[Zoran ?koda]]: created [[internal relation]]. I was once working on replacing tens (and spend hours on this) of wikipedia links in timeline with our own links, and even created new entries in nlab to support the new links in nlab. For example I created the entry for [[Otto Schreier]] in nlab to support the quotation for Schreier in nlab version of Timeline. I also do not understand why things like the Cayley 1843 entry are ignored (and hence will disappear in new migration); I spent hours of time looking into references which I recalled vaguely to confirm what I thought about it. I see no reason for wikipedia to overwrite our work  on changes. 80 links changed in single day is possible done by me; I recall that I did work once on making many links either more functional (including making the blind link to wikipedia link) or update them with new biography entries in nlab. I would not say that in that particular day only the links changed.
 
 * [[Jon Awbrey]] made a first pass at formatting [[Trimble on ETCS III]] and thinks to have earned himself a nice Labor Day vacation, so if it's messed up don't tell him till Tuesday.
 
 * [[Rafael Borowiecki]]: Urs, i have taken care of that. I first updated the wikipedia timeline to match the nLab timeline. But a discussion might be at place since i have removed some of Zoran &#352;koda's entries. I was not able to see and do one change thought, there is one revision that changes something in most of the 80 first entries or so. Maybe only links. I only took a quick look, and i am now thinking about the link problem. I found nLabs way of comparing revisions often very hard to read. I think it colors much more than need to be.
 
-* [[Zoran Škoda]]: oops, the link to Cartan Seminar at numdam was one char too long at Timeline; sorry. Regarding that the nlab has both different rules, format, link capacity, side resources etc. than wikipedia, that after so many updates are done in nlab version on our side, it woudl make no sense tooverwrite the nlab version of timeline with a new migration of wikipedia. One can update some particular items, but migrating it as a whole would mean relinking the part which is already relinked in nlab version. So, once the original bulk of timeline has once being moved the two timeline entries may live their separate lives and occasionally some individual additions or links could be manually added to borrow from nlab to wiki or other way around, by the criteria and will of nlab contributors while copying news to nlab and wikipedia contributors while copying news to wikipedia. It is too late to do bulk migration again; and wikipedia while better in some items, the nlab is better in some other additions to timeline which never made into wikipedia. Or I misunderstood something. I see no purpose into maintaining the two versions mutually equivalent; who wants to see another version can do this by clicking. The cooperation is rather to start the bulk and then to grow any way it likes. 
+* [[Zoran ?koda]]: oops, the link to Cartan Seminar at numdam was one char too long at Timeline; sorry. Regarding that the nlab has both different rules, format, link capacity, side resources etc. than wikipedia, that after so many updates are done in nlab version on our side, it woudl make no sense tooverwrite the nlab version of timeline with a new migration of wikipedia. One can update some particular items, but migrating it as a whole would mean relinking the part which is already relinked in nlab version. So, once the original bulk of timeline has once being moved the two timeline entries may live their separate lives and occasionally some individual additions or links could be manually added to borrow from nlab to wiki or other way around, by the criteria and will of nlab contributors while copying news to nlab and wikipedia contributors while copying news to wikipedia. It is too late to do bulk migration again; and wikipedia while better in some items, the nlab is better in some other additions to timeline which never made into wikipedia. Or I misunderstood something. I see no purpose into maintaining the two versions mutually equivalent; who wants to see another version can do this by clicking. The cooperation is rather to start the bulk and then to grow any way it likes. 
 
 * [[Urs Schreiber]] -- question to [[Rafael Borowiecki]]: below you write
 
@@ -84,7 +98,7 @@ No, Rafael, I was not trying to find oldest instance of category theory. But Hil
 
 * [[Rafael Borowiecki]]: Replied to Zoran's question.
 
-* [[Zoran Škoda]]: put a query into the [[Timeline of category theory and related mathematics|Timeline]] entry: at numdam one can find the Cartan Sem from 1948, but I can not find there the write up of sheaf theory those some related notions in non-sheaf language can be easily found. Am I blind ? [numdam 1948 Cartan Sem](http://www.numdam.org/numdam-bin/feuilleter?id=SHC_1948-1949__1_). Timeline claims 1948 WRITE-UP. So where it is ?
+* [[Zoran ?koda]]: put a query into the [[Timeline of category theory and related mathematics|Timeline]] entry: at numdam one can find the Cartan Sem from 1948, but I can not find there the write up of sheaf theory those some related notions in non-sheaf language can be easily found. Am I blind ? [numdam 1948 Cartan Sem](http://www.numdam.org/numdam-bin/feuilleter?id=SHC_1948-1949__1_). Timeline claims 1948 WRITE-UP. So where it is ?
 
 * [[Urs Schreiber]] 
 
@@ -100,7 +114,7 @@ No, Rafael, I was not trying to find oldest instance of category theory. But Hil
 
   * Andrew, i am glad that you are interested in my big problem. But i don't really understand your question. Is it not enough to ask the question at the timeline page and say here that i have added a problem to solve to the page? Perhaps the question at the timeline was not clear. The same timeline at wikipedia has/will have soon about 1500 links. When i migrate it to nLab again, and better than the last time, i need to change the links to link to correct pages at nLab. It is only some of the names that need to be changed to link to correct nLabs pages, which often have different names than those in wikipedia.
 
-* [[Zoran Škoda]]: created [[fibration of points]] following [[Borceux-Bourn]].
+* [[Zoran ?koda]]: created [[fibration of points]] following [[Borceux-Bourn]].
 
 * [[Andrew Stacey]]: I have implemented all the little database tweaks that were needed and done my best to reverse all the truncations.  Please see [this comment](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=52&page=2#Item_22) for details.  Please also check if a long page is how it ought to be (thinking particularly of the timeline).
 
@@ -108,11 +122,11 @@ No, Rafael, I was not trying to find oldest instance of category theory. But Hil
 
    Talking of the timeline, incidentally, now that I can see Rafael's question, could I ask him to ask the question again over on the Forum with at the very least a link to where I can see what it is that needs to be converted?  Thanks.
 
-* [[Zoran Škoda]]: additions to [[Ieke Moerdijk]]
+* [[Zoran ?koda]]: additions to [[Ieke Moerdijk]]
 
 * [[Tim Porter]]: I have removed the blue boxes as suggetsed by [[Urs]] (see below).
 
-* [[Zoran Škoda]]: created the entry for the monograph [[Borceux-Bourn]] and extracted some material to add into [[Mal'cev category]]. Created [[Mal'cev variety]] including the definitions and redirects for [[Mal'cev operation]] and [[Mal'cev theory]]. 
+* [[Zoran ?koda]]: created the entry for the monograph [[Borceux-Bourn]] and extracted some material to add into [[Mal'cev category]]. Created [[Mal'cev variety]] including the definitions and redirects for [[Mal'cev operation]] and [[Mal'cev theory]]. 
 
 * [[Urs Schreiber]]
 
@@ -137,11 +151,11 @@ No, Rafael, I was not trying to find oldest instance of category theory. But Hil
 
 * [[Todd Trimble]]: wrote article on [[tree]]. 
 
-* [[Zoran Škoda]]: created [[formal group scheme]] also far from finished. Maybe [[John Baez|John]] would like to explain connections to the Witt ring ?
+* [[Zoran ?koda]]: created [[formal group scheme]] also far from finished. Maybe [[John Baez|John]] would like to explain connections to the Witt ring ?
 
 * [[Rafael Borowiecki]]: Wrote a hopefully not too long answer to the long discussion at [[category theory]].
 
-* [[Zoran Škoda]]: created [[formal scheme]] but it is far from finished; small changes to few related items (e.g. [[Kähler differential]]). 
+* [[Zoran ?koda]]: created [[formal scheme]] but it is far from finished; small changes to few related items (e.g. [[Kähler differential]]). 
 
 *  [[Benoit Jubin]] has kindly corrected some fonts at [[monoidal category]].  Welcome, Beno&#238;t!
 
@@ -151,7 +165,7 @@ No, Rafael, I was not trying to find oldest instance of category theory. But Hil
 
 * [[Jon Awbrey]] added a stub-link at [[semiotic equivalence relation]] --- and I see by the clock on the [TARDIS Wall](http://nlab.mathforge.org/nlab/recently_revised) that the Synchronoplastic Infundibulum has hic$\cup\partial$.
 
-* [[Zoran Škoda]]: added some references to [[supermanifold]]. I agree with Urs that the <em>co</em>-things when the entries contain predominantly the definitions and non-specific information should be just under the things. However often the cothings are very unlike things in practice. For example, homology and cohomology in abelian categories is just the same and dual; however in geometry homology and cohomology of spaces are rather different; for example there are finiteness conditions in homology which are absent in cohomology. Naively defined &#268;ech cohomology is a cohomology theory and &#268;ech homology is not, as it fails exactness...but the coherent repair works. Or the rings. Artinian and noetherian are dual conditions, but for unital rings the unit breaks the symmetry, hence every unital artinian ring is noetherian but not by far other way around. 
+* [[Zoran ?koda]]: added some references to [[supermanifold]]. I agree with Urs that the <em>co</em>-things when the entries contain predominantly the definitions and non-specific information should be just under the things. However often the cothings are very unlike things in practice. For example, homology and cohomology in abelian categories is just the same and dual; however in geometry homology and cohomology of spaces are rather different; for example there are finiteness conditions in homology which are absent in cohomology. Naively defined &#268;ech cohomology is a cohomology theory and &#268;ech homology is not, as it fails exactness...but the coherent repair works. Or the rings. Artinian and noetherian are dual conditions, but for unital rings the unit breaks the symmetry, hence every unital artinian ring is noetherian but not by far other way around. 
 
 * [[lab elf|Lab Elf (Swiss department)]]: I _think_ I've fixed the timezone.  I guess the real test is when I submit this page.  Let's see now, it's about 12:50 UTC, so click 'Submit' and ... 12:51 is the reported time.  Yippee!
 
@@ -161,7 +175,7 @@ No, Rafael, I was not trying to find oldest instance of category theory. But Hil
 
   (this is supposed to be in line with what I think is a general strategy we should stick to: that all co-things are discussed in the same entry with things, since otherwise we get huge and unreasonable duplication) 
 
-* [[Zoran Škoda]]: created [[free field (algebra)]], [[perfect field]], [[algebraic group]]. 
+* [[Zoran ?koda]]: created [[free field (algebra)]], [[perfect field]], [[algebraic group]]. 
 
 * [[lab elf|Lab Elf (children's department)]]: We're getting a memory upgrade sometime soon.  This will involve a downtime of approximately 35-40 minutes (they have to shift our "slice" to another machine to accommodate the upgrade).  I don't know yet exactly when this will occur and I may not get notice in time to post it here (I've requested that it be ASAP).  For obvious reasons, if I do get notice of when it will be then I'll put an announcement on the Forum and somewhere appropriate on the Cafe (I guess the 'nLab migration' thread seems most suitable).
 
@@ -243,14 +257,14 @@ No, Rafael, I was not trying to find oldest instance of category theory. But Hil
 
   * [[Mike Shulman]]: Hmm, [deja vu](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=28).
 
-* [[Zoran Škoda]]: Thanks, Andrew a lot for all you are doing. Good night! I am loggin here another concern about terminology abstract nonsense. I am moving much in (predominantly noncommutative and algebraic) geometric
+* [[Zoran ?koda]]: Thanks, Andrew a lot for all you are doing. Good night! I am loggin here another concern about terminology abstract nonsense. I am moving much in (predominantly noncommutative and algebraic) geometric
 community and my exprience is that when somebody says they proved a fact by abstract nonsense it is NOT confined to categorical methods only but to any CLEAN and GENERAL methods "from the book" as opposed to specific unclean improvizations tailored to a very specific circumstance in question. 
 
 * [[Andrew Stacey]]: My eyes are beginning to cross when reading the MySQL manual.  I may have been misreading a couple of things to do with data storage and it may be possible to get around the timeline problem.  However, I still think that long pages could be better split up.
 
   I sincerely hope that the lab survives the night, but I'm going offline now so please be patient with it!
 
-* [[Zoran Škoda]]: of course, this is not a solution to the database problem, but I anyway think the discussion part could be separated from the main table of _Timeline_ and the _Timeline_ could have a separate part till 1960 say, then 1960 till 1989 and then third since 1990 (for example, better estimates possible). That would be easier for editing, with big file it is difficult to scroll when editing anyway. I created [[normalizer]], [[center]] (with a word on and redirect [[centralizer]]) and [[holomorph]]. Please check, it is elementary, but it was a quick writing. 
+* [[Zoran ?koda]]: of course, this is not a solution to the database problem, but I anyway think the discussion part could be separated from the main table of _Timeline_ and the _Timeline_ could have a separate part till 1960 say, then 1960 till 1989 and then third since 1990 (for example, better estimates possible). That would be easier for editing, with big file it is difficult to scroll when editing anyway. I created [[normalizer]], [[center]] (with a word on and redirect [[centralizer]]) and [[holomorph]]. Please check, it is elementary, but it was a quick writing. 
 
 * [[Andrew Stacey]] is seriously considering finding The Doctor and borrowing the Tardis to go back and have a Serious Word with the designers of sqlite3.  (Anyone who gets the reference, I have a great photograph of a bus seen here in Trondheim that proves that The Doctor's greatest enemies are sneakily planning their next invasion from Norway.  But I digress.)  The problem with the timeline is the same as that with the long page names (and with an old problem in the testing stage with stylesheets).  It's down to a fundamental difference in design between sqlite3 (the old, slow database backend) and mysql (the newer, snappier model).  Basically, while both allow you to declare certain entries to be a certain type, sqlite3 then proceeds to __ignore that type__.  Mysql (and just about every other database) enforces it.  So when Instiki says "page names should be at most 60 chars long", Mysql truncates them to 60 chars while sqlite3 merrily accepts page names as long as Lanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch and back again.  Twice.  Similarly, where MySQL has a limit on lengths of rows in its database (happens to be 65535 bytes), sqlite3 merrily goes on accepting data as long as it gets it.
 
@@ -266,11 +280,11 @@ community and my exprience is that when somebody says they proved a fact by abst
 
   [[Andrew Stacey]]: I'd hold off on the champagne for a little bit ...
 
-* [[Zoran Škoda]]: query in [[category theory]]: I think that blaming the terminology *abstract nonsense* to predominantly non-likers is misleading and that the wikipedia is this time more correct than nlab. 
+* [[Zoran ?koda]]: query in [[category theory]]: I think that blaming the terminology *abstract nonsense* to predominantly non-likers is misleading and that the wikipedia is this time more correct than nlab. 
 
   * [[Jon Awbrey]]: I have always understood the term "abstract nonsense" as a pun on the sense of the word "sense" that means "direction" --- hence "abstract nonsense" suggests something like the "formal path-independence" of commutative diagrams.  I'm sure I mentioned this to several people back in the day, and they all said something like, "well, duh."
 
-  * [[Zoran Škoda]]: I never heard of such interpretation; plus this interpretation would not survive in other languages like Russian and French where the direction and sense/nonsense do not mix like that. Russian version of *abstract nonsense* is &#1072;&#1073;&#1089;&#1090;&#1088;&#1072;&#1082;&#1090;&#1085;&#1072;&#1103; &#1095;&#1077;&#1087;&#1091;&#1093;&#1072;. 
+  * [[Zoran ?koda]]: I never heard of such interpretation; plus this interpretation would not survive in other languages like Russian and French where the direction and sense/nonsense do not mix like that. Russian version of *abstract nonsense* is &#1072;&#1073;&#1089;&#1090;&#1088;&#1072;&#1082;&#1090;&#1085;&#1072;&#1103; &#1095;&#1077;&#1087;&#1091;&#1093;&#1072;. 
 
 * [[Jon Awbrey]] added stubs and links at [[sign relation]] and [[triadic relation]].
 
@@ -298,11 +312,11 @@ community and my exprience is that when somebody says they proved a fact by abst
 
     [[Andrew Stacey]]: Yes, we hit our memory ceiling a couple of times.  I've lowered a couple of settings to try to ensure that we don't do this again but it's a bit experimental as to what the best settings are.  It's all a bit of a learning experience for me!  (Perhaps I shouldn't admit to that ...)
 
-* [[Zoran Škoda]]: I restarted the system and now IE renders [[normal subgroup]] correctly. This is strange as it had problems only with new entries [[normal subgroup]] and [[normal closure]] (even after many reloads) and rendered correctly the other entries. Now after reboot even they appear correct. 
+* [[Zoran ?koda]]: I restarted the system and now IE renders [[normal subgroup]] correctly. This is strange as it had problems only with new entries [[normal subgroup]] and [[normal closure]] (even after many reloads) and rendered correctly the other entries. Now after reboot even they appear correct. 
 
   [[Andrew Stacey]]: Okay, sounds like it was a cache bug.  During the changeover, various addresses pointed all over the shop and there are redirects going all ways from Sunday, so it's not surprising that a browser get confused.  Clearing caches is probably a good idea.  It will take a while before ncatlab.org properly points here for everyone (for example, from my work machine it was working from about midday; now at home then it still resolves to the old lab).  But if you type 'ncatlab.org' into a browser you will always end up _here_, it just might be via a slightly circuitous route.
 
-* [[Zoran Škoda]]: I just created [[normal subgroup]], [[normal closure]], but they do not render correctly on my IE. Is this a new-system glitch? The letters and formulas are one across another. Did not make last night logging that I added a paragraph or so on the Jacobi matrix and the application (Alexander polynomial) into the [[Fox derivative]]. I also created [[derived affine scheme]] in the sense of Toen et al. 
+* [[Zoran ?koda]]: I just created [[normal subgroup]], [[normal closure]], but they do not render correctly on my IE. Is this a new-system glitch? The letters and formulas are one across another. Did not make last night logging that I added a paragraph or so on the Jacobi matrix and the application (Alexander polynomial) into the [[Fox derivative]]. I also created [[derived affine scheme]] in the sense of Toen et al. 
 
   [[Andrew Stacey]]: No idea!  Can you send me a screen shot?  Unfortunately, the Windows machine that I have control over can't connect to the wireless network here (Oh, the irony!) and the windows machine that I don't have control over doesn't have MathML support.
 
