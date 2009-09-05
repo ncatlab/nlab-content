@@ -13,3 +13,6 @@ A locus of zeros of a set of polynomials is an affine [[algebraic variety]]; mim
 * [diffiety school](http://school.diffiety.org)
 
 * [diffiety institute](http://diffiety.ac.ru)
+
+
+[[!redirects diffeity]]
