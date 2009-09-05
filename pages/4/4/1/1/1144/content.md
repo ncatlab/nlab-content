@@ -1,7 +1,8 @@
+<div class="rightHandSide toc">
 [[!include mathematicscontents]]
-
+---
 [[!include differential graded objects - contents]]
-
+</div>
 
 #Idea#
 
