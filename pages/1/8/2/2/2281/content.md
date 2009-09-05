@@ -6,4 +6,6 @@
 
 * [[Eilenberg-MacLane space]]
 
+* [[history of cohomology with local coefficients]]
+
 category: people
