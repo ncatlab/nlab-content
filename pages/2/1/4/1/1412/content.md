@@ -408,3 +408,4 @@ Notice that all these objects $A$ do indeed behave, and can be treated like, gen
 
 
 [[!redirects heuristic introduction to sheaves, cohomology and higher stacks]]
+[[!redirects heuristic introduction to sheaves, cohomology and higher sta]]
