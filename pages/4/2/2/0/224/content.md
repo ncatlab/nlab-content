@@ -1,4 +1,6 @@
+<div class="rightHandSide toc">
 [[!include differential graded objects - contents]]
+</div>
 
 Given a set $G$, an __$G$-graded vector space__ is a map $V$
 assigning to each element $g \in G$ a [[vector space]] $V_g$.  Given $G$-graded vector spaces $V$ and $W$, a morphism $f : V \to W$ assigns to each element $g \in G$ a linear operator $f_g : V_g \to W_g$.
@@ -167,8 +169,6 @@ and is of degree $|f| + |g|$.
 In particular there is a natural injection $(\#V)\otimes (\#W) \to \#(V\otimes W)$, and this is an isomorphism if either $V$ or $W$ is of finite type.
 
 
-
-category: lexicon
 
 [[!redirects graded module]]
 [[!redirects graded object]]
