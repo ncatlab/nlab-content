@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include mathematicscontents]]
+</div>
+
+
 up: [[mathematics|Mathematics]]
 
 Some of the subfields of topology and geometry touched in the nlab: [[general topology]], [[homotopy theory]], [[rational homotopy theory]], [[differential geometry]] (including [[symplectic geometry]], [[synthetic differential geometry]]), [[differential topology]], [[algebraic geometry]], [[noncommutative algebraic geometry]], [[noncommutative geometry]].  
