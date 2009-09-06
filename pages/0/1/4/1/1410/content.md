@@ -7,3 +7,5 @@ This generalises the **identity-assigning function** of a [[small category]] $C$
 
 [[!redirects identity assigning morphism]]
 [[!redirects |identity assigning morphism]]
+[[!redirects identity assigning map]]
+[[!redirects identity-assigning map]]
