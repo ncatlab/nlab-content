@@ -1,0 +1,20 @@
+
+Periodic multiplicative [[generalized (Eilenberg-Steenrod) cohomology]] theories $A$ are characterized by the [[formal group]] whose ring of functions $A(\mathbb{C}P^\infty)$ is the [[cohomology ring]] of $A$ evaluated on the complex projective space $\mathbb{C}P^\infty$ and whose group product is induced from the canonical morphism $\mathbb{C}P^\infty \times \mathbb{C}P^\infty \to \mathbb{C}P^\infty$ that describes the tensor product of complex [[line bundle]]s under the identification $\mathbb{C}P^\infty \simeq \mathcal{B} U(1)$.
+
+There are precisely three types of such formal group laws:
+
+* the simple additive group structure -- this corresponds to standard integral cohomology given by the [[Eilenberg-MacLane spectrum]];
+
+* the multiplicative group that corresponds to complex [[K-theory]]
+
+* the formal group law on [[elliptic curve]].
+
+An **ellitpic cohomology** theory is a periodic multiplicateive [[generalized (Eilenberg-Steenrod) cohomology]] theory whose corresponding formal group is an elliptic curve.
+
+A theorem proven by Goerss-Hopkins-Miller and later in a different way by [[Jacob Lurie]] shows that the assignment of [[generalized (Eilenberg-Steenrod) cohomology]] theories to [[elliptic curve]]s lifts to an assignment of representing [[spectrum|spectra]] in a structure preserving way. 
+
+The [[homotopy limit]] of this assignment functor, i.e. the "gluing" of all spectra representing all elliptic cohomology theories is the [[spectrum]] that represents the cohomology theory called [[tmf]].
+
+#References#
+
+* [[Jacob Lurie]], [[A Survey of Elliptic Cohomology]]
