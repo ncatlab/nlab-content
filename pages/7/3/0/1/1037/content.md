@@ -1,4 +1,6 @@
+<div class="rightHandSide toc">
 [[!include mathematicscontents]]
+</div>
 
 
 This entry is about the book
@@ -77,7 +79,7 @@ be $\infty$-[[differentiable stack]]s if one considers
 
 ## First part, sections 1-4
 
-Based on work by Andr&#233; Joyal on the [[quasi-category]] model for [[(∞,1)-categories]], Lurie presents a comprehensive account of the theory of [[(∞,1)-categories]] including the definitions and properties of all the standard items familiar from category theory (limits, fibrations, etc.)
+Based on work by Andr&eacute; Joyal on the [[quasi-category]] model for [[(∞,1)-categories]], Lurie presents a comprehensive account of the theory of [[(∞,1)-categories]] including the definitions and properties of all the standard items familiar from category theory (limits, fibrations, etc.)
 
 ## Second part, sections 5-7 ##
 
@@ -109,7 +111,7 @@ The book discusses crucial concepts and works out plenty of detailed properties.
 
 * [section 6.2](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=459) 
 [section 6.5](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=521) 
-and : relation to the Brown-Joyal-Jardine-To&#235;n
+and : relation to the Brown-Joyal-Jardine-To&euml;n
 theory of [[infinity-stack homotopically|∞-stacks]]
 in terms of [[simplicial presheaf|simplicial presheaves]].
 
