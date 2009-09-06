@@ -27,6 +27,18 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-05
 
+* [[Urs Schreiber]]
+
+  * started [[elliptic cohomology]]
+
+    so far with quick stubs for [[line bundle]], [[cohomology ring]]
+
+  * expanded the content at [[Jacob Lurie]], fixed the links and added [[A Survey of Elliptic Cohomology]]
+
+  * merged the former material at [[∞-topos]] with that at [[higher topos theory]] and expanded and slightly rearranged the latter. 
+
+  * coded the "floating tables of contents" for the topic clusters at [[mathematics]] and [[rational homotopy theory]] according to [[Andrew Stacey]]'s suggestion on the nForum -- see [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=61&page=1#Comment_743)
+
 * [[Rafael Borowiecki]]:
 
   * Replied at [[category theory]].
