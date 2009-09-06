@@ -1,5 +1,7 @@
+<div class="rightHandSide toc">
 [[!include differential graded objects - contents]]
-[[!redirects differential graded algebras and differential graded Lie alg]]
+</div>
+
 
 ##Some  relationships between  differential graded algebras and differential graded Lie algebras (DGLA)
 
@@ -199,4 +201,4 @@ $\langle s(s^{-1}x_1.s^{-1}x_2;w\rangle  = (-1)^{|x_2| + 1}\langle x_1,x_2;\part
 
 
 
-category: lexicon
+[[!redirects differential graded algebras and differential graded Lie alg]]
