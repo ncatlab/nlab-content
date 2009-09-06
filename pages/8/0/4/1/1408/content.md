@@ -251,5 +251,5 @@ the point of view is more on bi-presheaves, a useful discussion to the relation
 to structured morphisms here is in section 10.1. there.
 
 
-
+[[!redirects structured (∞,1)-topos]]
 [[!redirects structured generalized spaces]]
