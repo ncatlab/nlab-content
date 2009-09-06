@@ -10,3 +10,5 @@ Is this term usually defined differently or used in a different context, or shou
 _Toby_:  I\'ll say no, don\'t redirect, since at least there are different definitions.  But yeah, we should figure out how they\'re equivalent.
 
 =--
+
+[[!redirects E-∞ ring]]
