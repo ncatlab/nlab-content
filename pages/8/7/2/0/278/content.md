@@ -1,4 +1,6 @@
+<div class="rightHandSide toc">
 [[!include mathematicscontents]]
+</div>
 
 
 #entries related to differential geometry#
@@ -8,10 +10,6 @@
   * [[generalized smooth algebra]]
 
   * [[generalized smooth space]]
-
-    *  [[Frölicher space]]
-    *  [[diffeological space]]
-    *  [[smooth space]]
 
   * [[synthetic differential geometry]]
 
