@@ -1,4 +1,6 @@
+<div class="rightHandSide toc">
 [[!include mathematicscontents]]
+</div>
 
 This entry provides a keyword list on concepts related to **categories and sheaves** following the book
 
