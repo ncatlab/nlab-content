@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include mathematicscontents]]
+</div>
+
+
 #Category theory and foundations#
 
 There are two big questions about category theory and the logical foundations of mathematics:
