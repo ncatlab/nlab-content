@@ -52,7 +52,7 @@ m can range between 2 and n+1.
 This suggests that one can see ETQFT's as C-valued representations of $nCob_m$.
 
 +-- {: .query}
-_Rafael_: I obviously used a linear category in the dedinition as C instead of a general C. Do anyone know how to generalize it? Neither do i know the compatibility conditions and gluing formulas, any good explicit references?
+_Rafael_: I obviously used a linear category in the definition as C instead of a general C. Do anyone know how to generalize it? Neither do i know the compatibility conditions and gluing formulas, any good explicit references?
 =--
 #Examples#
 
