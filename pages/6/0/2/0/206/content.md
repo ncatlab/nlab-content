@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include mathematicscontents]]
+</div>
+
+
 **Algebra** is the manipulation of symbols without (necessarily) regard for their meaning, especially in a way that can be formalized in [[cartesian logic]].  It is often seen as [[duality|dual]] to [[geometry]].
 
 The word 'algebra' is often also used for an algebraic structure:
