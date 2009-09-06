@@ -1,0 +1,5 @@
+
+Similar to the discussion of [[cohomology group]], a [[cohomology]] set $H(X,A)$ may have the strcuture of a [[ring]] of the coefficient object $A$ has suitable properties. 
+
+In particualr for $\mathbf{H} = $ [[Top]] , $H(X,A)$ is a ring when $A$ is an [[E-infinity ring]].
+
