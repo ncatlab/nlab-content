@@ -1,0 +1,1 @@
+A line bundle is a [[vector bundle]] of rank 1, i.e. a vector bundle whose typical fiber is a 1-dimensional [[vector space]].
