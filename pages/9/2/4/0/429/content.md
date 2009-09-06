@@ -1,4 +1,6 @@
-[[!include contents]]
+<div class="rightHandSide toc">
+[[!include mathematicscontents]]
+</div>
 
 
 #some nlab entries related to universal algebra#
