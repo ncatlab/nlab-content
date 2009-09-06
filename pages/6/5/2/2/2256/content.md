@@ -26,4 +26,8 @@ and
 
 * [[simplicial local system]]
 
+## related topics ##
+
+* [[Lie theory|(higher) Lie theory]]
+
 <div markdown="1">[Edit this sidebar](/nlab/edit/differential+graded+objects+-+contents)</div>
