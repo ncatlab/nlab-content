@@ -1,4 +1,6 @@
+<div class="rightHandSide toc">
 [[!include differential graded objects - contents]]
+</div>
 
 This entry is in parallel to [[dg-algebra]]. Here a detailed component-wise description of the inner workings of dg-algebras is given. See [[dg-algebra]] for the [[category theory|abstract nonsense]] definition and further links and remarks.
 
