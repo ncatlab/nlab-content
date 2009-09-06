@@ -29,6 +29,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Rafael Borowiecki]]:
 
+  * Replied at [[category theory]].
+
   * Wrote a little more on [[extended topological quantum field theory]] but don't know the right references. Put that request in a query box.
 
   * Debate at the timeline.
