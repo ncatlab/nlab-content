@@ -1,3 +1,7 @@
+<div class="rightHandSide toc">
+[[!include mathematicscontents]]
+</div>
+
 This entry is about the book
 
 * [[Sauders MacLane]], [[Ieke Moerdijk]], _Sheaves in Geometry and Logic_.
