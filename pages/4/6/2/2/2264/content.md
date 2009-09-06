@@ -19,6 +19,10 @@ Statement (i) is one of the motivations to introduce the notion of [[Mal'cev cat
 
 A __Mal'cev variety__ is the category of $T$-algebras for a Mal'cev theory $T$, thought of as an [[algebraic variety]]. 
 
++--{: .query}
+[[Mike Shulman]]: Surely you mean a [[variety of algebras]], rather than an algebraic variety?
+=--
+
 
 ## References
 
