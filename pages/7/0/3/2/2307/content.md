@@ -1,3 +1,9 @@
+<div class="rightHandSide toc">
+[[!include cohomology - contents]]
+</div>
+
+
+
 
 _Complex cobordism cohomology theory_, denoted $M U$, is a [[generalized (Eilenberg-Steenrod) cohomology]] theory. 
 
