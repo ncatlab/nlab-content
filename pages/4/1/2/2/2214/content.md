@@ -26,6 +26,16 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-07
 
+* [[Urs Schreiber]] 
+
+  * changed the coding of the floating table of contents [[cohomology - contents]] according to the recent discussion on the forum and added a few recent entries to it
+
+  * slightly expanded [[integral cohomology]]
+
+  * added a web reference by [[Nora Ganter]] (created stub fo that) on [[topological modular form]]s (created stub for that) kindly pointed out by [[David Roberts]] to [[A Survey of Elliptic Cohomology]] and to [[tmf]]
+
+  * it seems that yesterday I also created [[stable homotopy theory]]
+
 * [[Jon Awbrey]] added an epigraph to to [[evil]].
 
 ## 2009-09-06
