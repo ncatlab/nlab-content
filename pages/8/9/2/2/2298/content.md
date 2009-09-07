@@ -1,0 +1,16 @@
+
+[[higher geometry]]
+
+## Ingredients ##
+
+* [[Higher Topos Theory|higher topos theory]]
+
+* [[higher algebra]]
+
+## Contents ##
+
+* [[structured generalized space]]
+
+* [[derived algebraic geometry]]
+
+<div markdown="1">[Edit this sidebar](/nlab/edit/higher+geometry+-+contents)</div>
