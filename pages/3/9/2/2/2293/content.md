@@ -1,3 +1,7 @@
+<div class="rightHandSide toc">
+[[!include higher geometry - contents]]
+</div>
+
 
 Derived algebraic geometry is the [[higher category theory|higher categorical]] version of [[algebraic geometry]]: its [[vertical categorification]].
 
