@@ -1,3 +1,8 @@
+_Mirrors and copulation are abominable,_ <br>
+_for they multiply the number of mankind._ <br>
+
+&mdash; J.L. Borges, _Tl&#246;n, Uqbar, Orbis Tertius_
+
 ## Idea
 
 In [[category theory]], a concept is (half-jokingly) said to be _evil_ if it involves equations between [[object|objects]], or more generally if it distinguishes between [[isomorphism|isomorphic]] objects.  More precisely:
@@ -35,7 +40,7 @@ Defining higher categorial structures using such evil equalities tends to lead t
 
 ## Discussion
 
-There's been a lot of discussion of this on the $n$-Category Caf&#233; --- someone find it and cite it!
+There's been a lot of discussion of this on the $n$-Category Caf&eacute; --- someone find it and cite it!
 
 
 +-- {: .query}
