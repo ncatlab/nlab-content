@@ -28,6 +28,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]: 
 
+  * missed one train. Used the few minutes gained this way to quickly extract the following very brief entries from the notes mentioned below: [[multiplicative cohomology theory]], [[even cohomology theory]], [[periodic cohomology theory]], [[Bott element]] -- all these entries deserve to be greatly expanded, it particular by eyxamples, of course, but it should be a start
+
   * started turning some talk notes of a seminar into entries, but requires polishing: 
 
     the full raw material is at [[A Survey of Elliptic Cohomology - cohomology theories]]. Using this I have so far split off [[cohomology theory]], [[Lazard ring]], [[complex cobordism cohomology theory]] and [[reduced cohomology]]
