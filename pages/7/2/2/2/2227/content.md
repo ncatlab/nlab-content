@@ -41,16 +41,6 @@ x & y & z \\
 }
 $$
 
-## Examples from semiotics ##
-
-+-- {: .query}
-[[Toby Bartels]]: Is this from [[Charles Sanders Peirce|Peirce]]\'s theory of signs?  Have later researchers (mathematicians, logicians, semioticists, ...) continued to work on this?  ---Toby
-
-[[Jon Awbrey]]: Yes, I'll always be hewing to Peirce's line in this --- sometimes people use the form _[semeiotic](http://knol.google.com/k/jon-awbrey/semeiotic/3fkwvf69kridz/4)_ to distinguish his angle from others, but that often leads to long and pointless discussions about the words instead of the things.  I'll be giving some current links and references in due course.
-
-[[Jon Awbrey]]: Actually, I think that's pretty much all I'll have to say about sign relations under this heading --- leaving these examples here simply by way of having illustrations of 3-adic relations with non-identical domains --- and developing the subject of sign relations further under their own heading.  It's probably hard to tell from these impoverished examples, but there are applications to logic and computation --- eventually, ultimately --- which is kinda how I came to explore them in the first place.
-=--
-
 The study of signs, the full array of significant forms of expression, in relation to the things that signs are significant _of_, as well as in relation to the interpretive agents that signs are significant _to_, is known as _semiotics_ or the _theory of signs_.  As just described, semiotics treats of 3-place relations among signs, their objects, and their interpreters.
 
 The term _semiosis_ refers to any activity or process that involves signs.  Studies of semiosis that deal with its more abstract form are not concerned with every concrete detail of the entities that act as signs, objects, or agents of semiosis, but only with the most salient patterns of relationship among these three roles.  In particular, the formal theory of signs does not consider every property of the interpretive agent but only the more striking features of the impressions that signs make on a representative interpreter.  In its formal aspects that impact or influence may be treated as just another sign, called the _interpretant sign_, or the _interpretant_ for short.  Hence the definition of a [[sign relation]] as a 3-adic relation among objects, signs, and interpretants.
@@ -113,3 +103,15 @@ Object & Sign & Interpretant \\
 
 * [Triadic Relation @ MyWikiBiz](http://mywikibiz.com/Triadic_relation)
 * [Triadic Relation @ PlanetMath](http://planetmath.org/encyclopedia/TriadicRelation.html)
+
+## Discussion ##
+
+### Re: Examples from semiotics ###
+
++-- {: .query}
+[[Toby Bartels]]: Is this from [[Charles Sanders Peirce|Peirce]]\'s theory of signs?  Have later researchers (mathematicians, logicians, semioticists, ...) continued to work on this?  ---Toby
+
+[[Jon Awbrey]]: Yes, I'll always be hewing to Peirce's line in this --- sometimes people use the form _[semeiotic](http://knol.google.com/k/jon-awbrey/semeiotic/3fkwvf69kridz/4)_ to distinguish his angle from others, but that often leads to long and pointless discussions about the words instead of the things.  I'll be giving some current links and references in due course.
+
+[[Jon Awbrey]]: Actually, I think that's pretty much all I'll have to say about sign relations under this heading --- leaving these examples here simply by way of having illustrations of 3-adic relations with non-identical domains --- and developing the subject of sign relations further under their own heading.  It's probably hard to tell from these impoverished examples, but there are applications to logic and computation --- eventually, ultimately --- which is kinda how I came to explore them in the first place.
+=--
