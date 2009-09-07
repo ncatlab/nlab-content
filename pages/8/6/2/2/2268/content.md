@@ -47,7 +47,7 @@ $$
 
 ## relation to flat $\infty$-Lie algebroid valued differential forms ##
 
-For $\mathfral{a}$ any other [[Lie algebroid]] or [[Lie infinity-algebroid]], a morphism of [[Lie infinity-algebroid]]s 
+For $\mathfrak{a}$ any other [[Lie algebroid]] or [[Lie infinity-algebroid]], a morphism of [[Lie infinity-algebroid]]s 
 
 $$
   \omega : T X \to \mathfrak{a}
