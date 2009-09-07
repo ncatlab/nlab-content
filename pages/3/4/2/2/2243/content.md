@@ -1,4 +1,3 @@
-<div class="rightHandSide toc">
 
 
 [[cohomology]]
@@ -14,9 +13,19 @@
 
 * [[generalized (Eilenberg-Steenrod) cohomology]]
 
+  * [[integral cohomology]]
+
+  * [[K-theory]]
+
+  * [[elliptic cohomology]]
+
+  * [[tmf]]
+
 * [[abelian sheaf cohomology]]
 
 * [[nonabelian cohomology]]
+
+* [[Cech cohomology]]
 
 ### variants ###
 
@@ -33,15 +42,11 @@
   * [[schreiber:differential twisted cohomology|differential twisted cohomology]]
 
 
-### techniques ###
-
-* [[Cech cohomology]]
 
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/contents)</div>
 
+<div markdown="1">[Edit this sidebar](/nlab/edit/cohomology+-+contents)</div>
 
-</div>
 
 
 [[!redirects cohomology – contents]]
