@@ -27,7 +27,7 @@
 
   on [[higher algebra]]
 
-* [[structured generalized space|Structured spaces]] ([arXiv](http://arxiv.org/abs/0905.0459))
+* [[Structured Spaces]] ([arXiv](http://arxiv.org/abs/0905.0459))
 
 * [[On the Classification of Topological Field Theories]] ([arXiv](http://arxiv.org/abs/0905.0465))
 
