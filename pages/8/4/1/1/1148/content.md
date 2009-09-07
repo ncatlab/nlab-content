@@ -1,4 +1,6 @@
+<div class="rightHandSide toc">
 [[!include cohomology - contents]]
+</div>
 
 
 #Idea#
@@ -221,7 +223,7 @@ $$
 
 The ordinary definition of sheaf cohomology in terms of the right derived global section functor can be found recalled for instance in these notes:
 
-* Ch&#234;nevert, Kassaei, _Sheaf Cohomology_ ([pdf](http://www.math.mcgill.ca/goren/SeminarOnCohomology/Sheaf_Cohomology.pdf))
+* Ch&ecirc;nevert, Kassaei, _Sheaf Cohomology_ ([pdf](http://www.math.mcgill.ca/goren/SeminarOnCohomology/Sheaf_Cohomology.pdf))
 
 * Cibotaru, _Sheaf cohomology_ ([pdf](http://www.nd.edu/~lnicolae/sheaves_coh.pdf))
 
