@@ -26,6 +26,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-07
 
+* [[Andrew Stacey|Lab Elf (numerological department)]]: Just thought I'd congratulate Zoran on creating the 2000th page on the nLab.  According to the database, it was [[smooth morphism of schemes]].  For those who prefer other coincidences, [[skewfield]] was our 2009th.  Of course, in this more modern age we ought to really celebrate [[coherent sheaf]] instead.  Whichever we celebrated, it would be Zoran that would get the metaphorical bottle of champagne as he created the lot.
+
 * [[Urs Schreiber]] 
 
   * changed the coding of the floating table of contents [[cohomology - contents]] according to the recent discussion on the forum and added a few recent entries to it
