@@ -1,4 +1,8 @@
-[[!redirects structured generalized space]]
+<div class="rightHandSide toc">
+[[!include higher geometry - contents]]
+</div>
+
+
 
 #Idea#
 
@@ -201,6 +205,10 @@ the $(\infty,1)$-category of [[(∞,1)-presheaves]] on commutative $k$-algebras 
 
 Then...
 
+see also
+
+* [[generalized scheme]]
+
 
 ## derived smooth manifolds ##
 
@@ -236,7 +244,7 @@ possible. They describe **[[derived smooth manifolds]]** as described in [DerSmo
 
 The general theory is developed in
 
-* **StrSh** [[Jacob Lurie]], _Structured spaces_ ([arXiv](http://arxiv.org/abs/0905.0459))
+* **StrSh** [[Jacob Lurie]], [[Structured Spaces]] ([arXiv](http://arxiv.org/abs/0905.0459))
 
 The special case of "smoothly structured spaces" called [[derived smooth manifold]] is 
 discussed in 
@@ -253,3 +261,4 @@ to structured morphisms here is in section 10.1. there.
 
 [[!redirects structured (∞,1)-topos]]
 [[!redirects structured generalized spaces]]
+[[!redirects structured generalized space]]
