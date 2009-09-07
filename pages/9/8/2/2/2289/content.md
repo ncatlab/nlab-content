@@ -1,9 +1,24 @@
+<div class="rightHandSide toc">
+[[!include cohomology - contents]]
+
+***
+
+[[!include higher geometry - contents]]
+</div>
 
 +-- {: .standout}
 
 This entry is about the text
 
 * [[Jacob Lurie]], _A Survey of Elliptic Cohomology_ ([pdf](http://www-math.mit.edu/~lurie/papers/survey.pdf))
+
+It 
+
+* reviews basics of [[elliptic cohomology]]
+
+* indicates the construction of the [[tmf]] [[spectrum]]
+
+* and discusses this in the context of [[equivariant cohomology]].
 
 =--
 
@@ -64,7 +79,7 @@ This entry is about the text
 
    1. Elliptic Cohomology and Geometry
 
-
+1. [further references](#furtherreferences)
 
 #Summary {#Summary}
 
@@ -291,3 +306,7 @@ This perspective embeds the theory of [[elliptic cohomology]] and of the [[tmf]]
 
 ### 5.5 Elliptic Cohomology and Geometry
 
+
+# further references {#furtherreferences}
+
+* [[Nora Ganter]], [Topological modular forms literature list](http://www.math.uiuc.edu/~ganter/talbot/index.html)
