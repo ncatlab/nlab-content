@@ -1,0 +1,10 @@
+
+Higher geometry studies [[vertical categorification]]s of [[geometry]].
+
+# related entries #
+
+* [[higher topos theory]]
+
+  * [[infinity-space]]
+
+* [[derived algebraic geometry]]
