@@ -56,3 +56,15 @@ Actually, I\'m getting conflicting reports on this from different sources, but t
 * Harary, Frank (1969), _Graph Theory_, Addison-Wesley.
 * Harary, Frank and Palmer, E.M. (1973), _Graphical Enumeration_, Academic Press.
 * Lambek, J. and Scott, P.J. (1986), _Introduction to Higher Order Categorical Logic_, Cambridge University Press.
+
+## Discussion ## {#talk}
+
+[[Mike Shulman]]: At [[latest changes]] Jon Awbrey said
+
+> The page on graph has become too baroque to fix, but there needs to be a place to record the basic definitions of graph theory that are actually used by the larger schools of math folks who actually dare to call themselves graph theorists.
+
+I propose that we try to fix this page, instead of replacing it.  Let's discuss what exactly may be wrong with it.  Keep in mind that, as has been pointed out elsewhere, the nLab is not Wikipedia.  We are not obligated to present a view of a given subject which is in line with those of the "larger schools of math folks" who practice that subject, and frequently we don't.  Our attitude towards [[foundations]] and [[set theory]], for instance, are quite different from those of many or most mathematicians who study those fields; everything we do is colored by our especial interest in, and focus on, category theory, higher category theory, and higher algebraic structures.
+
+That being said, I do think it is important to be careful with *definitions*.  We may take a different approach than other people, but in general we shouldn't redefine their words---instead we should use different words.  (Our use of [[n-category]] to mean "weak $n$-category" is, I believe, a justified exception to this general principle.)  So if there are definitions on this page that are different from those commonly accepted in most of mathematics, there may be a good argument to fix them.
+
+I do also agree that the exposition could use some work.  In particular, I don't like definitions of the form "An X is a Y such that Z.  By default, we also require that W, otherwise we call it a not-quite X."  I much prefer definitions of the form "An X is a Y such that Z and W.  If a Y satisfies Z but not W, we call it a not-quite X."  I suppose that other people may feel differently, though.
