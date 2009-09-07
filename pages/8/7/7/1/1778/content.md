@@ -1,4 +1,6 @@
+<div class="rightHandSide toc">
 [[!include cohomology - contents]]
+</div>
 
 
 
@@ -6,7 +8,7 @@
 
 The former is the [[hypercompletion]] of the Cech model, which for instance includes ordinary [[abelian sheaf cohomology]].
 Traditionally this is what what people were interested in. From the point of view of the [[hypercompletion]]
-&#268;ech cohomology is more an algorithm for computing hypercohomology in special cases (see [[?ech methods]]) than 
+&#268;ech cohomology is more an algorithm for computing hypercohomology in special cases (see [[Čech methods]]) than 
 a cohomology theory in itself.
 
 On the other hand, in section 6.5.4 of [[Higher Topos Theory|HTT]] it is argued that Cech cohomology is the better behaved cohomology theory after all (see references below).
@@ -23,7 +25,7 @@ $$
 
 where the colimit is over all acyclic fibrations $Y \stackrel{\in W \cap }{\to} X$ in an appropriate [[model category]] $C_H$ that [[presentable (infinity,1)-category|presents]] $\mathbf{H}$. For $\mathbf{H}$ an [[infinity-stack]] [[(infinity,1)-topos]] this $C_H$ is a [[model structure on simplicial presheaves]] and the acyclic fibrations $Y \stackrel{\in W \cap F}{\to} X$ for $X$ an ordinary space are the [[hypercovers]].
 
-Now, for some coefficient objects $A$ it is sufficient to take the colimit here not over all [[hypercovers]], but just over [[Cech cover|?ech covers]]. The resulting formula
+Now, for some coefficient objects $A$ it is sufficient to take the colimit here not over all [[hypercovers]], but just over [[Cech cover|Čech covers]]. The resulting formula
 
 $$
   H(X,A)
@@ -33,7 +35,7 @@ $$
 
 is then called the formula for **&#268;ech cohomology** on $X$ with values in $A$.
 
-Here a [[Cech cover|?ech cover]] is a simplicial presheaf that arises from an ordinary covering map $U \to X$ of $X$ by another space $U$ as the corresponding [[?ech nerve]] simplicial presheaf
+Here a [[Cech cover|Čech cover]] is a simplicial presheaf that arises from an ordinary covering map $U \to X$ of $X$ by another space $U$ as the corresponding [[Čech nerve]] simplicial presheaf
 
 $$
  \begin{aligned}
@@ -53,7 +55,7 @@ See [[descent for simplicial presheaves]] for more on the manipulations involved
 
 To amplify, a general [[hypercover]] would start in degree 0 with a $U$ as above, but then in the next degree would have a cover $V \to U \times_X U$ of the fiber product, and so on, each fiber product in turn being covered by another space.
 
-If $Y$ is not simply a [[Cech cover|?ech cover]] but also not the most general [[hypercover]] in that this iterative choice of further covering stops in degree $n$, then one also speaks of **&#268;ech cover of level $n$** and of the corresponding cohomology formula as **higher &#268;ech cohomology**. See for instance the reference by Tibor Beke below.
+If $Y$ is not simply a [[Cech cover|Čech cover]] but also not the most general [[hypercover]] in that this iterative choice of further covering stops in degree $n$, then one also speaks of **&#268;ech cover of level $n$** and of the corresponding cohomology formula as **higher &#268;ech cohomology**. See for instance the reference by Tibor Beke below.
 
 
 
@@ -1049,6 +1051,6 @@ is after all better behaved than its [[hypercompletion]] where a cycle is with r
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
-[[Note on Formatting|?]]
+[[Note on Formatting|✄]]
 
-[[!redirects ?ech cohomology]]
+[[!redirects Čech cohomology]]
