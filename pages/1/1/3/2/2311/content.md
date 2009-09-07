@@ -1,0 +1,10 @@
+A [[multiplicative cohomology theory|multiplicative]] [[cohomology theory]] $E$ is called _even_ if its [[cohomology ring]] is trivial in all even degrees:
+
+$$
+  E^{2k}(X) = 0
+  \,.
+$$
+
+#related entries#
+
+* [[A Survey of Elliptic Cohomology - cohomology theories]]
