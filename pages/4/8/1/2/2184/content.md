@@ -57,6 +57,7 @@ Actually, I\'m getting conflicting reports on this from different sources, but t
 * Harary, Frank and Palmer, E.M. (1973), _Graphical Enumeration_, Academic Press.
 * Lambek, J. and Scott, P.J. (1986), _Introduction to Higher Order Categorical Logic_, Cambridge University Press.
 
+
 ## Discussion ## {#talk}
 
 [[Mike Shulman]]: At [[latest changes]] Jon Awbrey said
@@ -68,3 +69,7 @@ I propose that we try to fix this page, instead of replacing it.  Let's discuss 
 That being said, I do think it is important to be careful with *definitions*.  We may take a different approach than other people, but in general we shouldn't redefine their words---instead we should use different words.  (Our use of [[n-category]] to mean "weak $n$-category" is, I believe, a justified exception to this general principle.)  So if there are definitions on this page that are different from those commonly accepted in most of mathematics, there may be a good argument to fix them.
 
 I do also agree that the exposition could use some work.  In particular, I don't like definitions of the form "An X is a Y such that Z.  By default, we also require that W, otherwise we call it a not-quite X."  I much prefer definitions of the form "An X is a Y such that Z and W.  If a Y satisfies Z but not W, we call it a not-quite X."  I suppose that other people may feel differently, though.
+
+_Toby_:  Part of the problem with 'graph' is that, like 'ring', different schools take the default in different ways.  I find directed multipseudographs much more interesting than simple graphs, which are simply sets equipped with one (ir)reflexive symmetric relation each.  We categorially minded people have (in an example dual to this one) mostly gotten everybody else to assume that rings are unital (although Zoran does not go along with this), although the algebraic geometers have so far not gotten the world at large to assume that rings are commutative.  (I don\'t even know who got people to assume that rings are associative; that may be lost in the mists of time.)  We may yet get people to allow graphs to be, by default, directed multipseudographs.  Whether or not this ever happens, it\'s true that 'graph' among category theorists most often means that, not the more restrictive default meaning used by graph theorists.
+
+I like [[graph theory]] as a place to discuss what 'graph theorists' actually talk about; I would also like to see it more like [[topology]], but that could come with time, and with additional pages to discuss the defined terms.  (So far only very basic terms appear, and that may be all that we need for now, but there are plenty that could be added.)
