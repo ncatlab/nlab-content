@@ -40,7 +40,7 @@ The central theorem is
 
 1. partial surveys
 
-  1. [[A Survey of Eilliptic Cohomology - cohomology theories]]
+   1. [[A Survey of Eilliptic Cohomology - cohomology theories]]
 
 1. [Contents](#contents)
 
