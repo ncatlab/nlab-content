@@ -2,6 +2,7 @@
 [[!redirects 3-adic relation]]
 [[!redirects 3-place relation]]
 [[!redirects ternary relation]]
+[[!redirects triadic relations]]
 
 A __triadic relation__ (or a __ternary relation__) is an important special case of a [[relation theory|polyadic or finitary relation]], one in which the number of places in the relation is three.  One may also see the adjectives _3-adic_, _3-ary_, _3-dimensional_, or _3-place_ being used to describe these relations.
 
