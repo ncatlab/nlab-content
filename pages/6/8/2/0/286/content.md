@@ -61,4 +61,6 @@ _for they multiply the number of mankind._ <br>
 
 +--{: .query}
 [[Mike Shulman]]: I don't see what this quote has to do with anything.
+
+[[Jon Awbrey]]: I don't know who coined the term "evil" for this particular form of "multiplying entities beyond necessity", but I felt sure that he-she must be alluding to Borges' story.  At any rate, it seemed a fitting epigraph.
 =--
