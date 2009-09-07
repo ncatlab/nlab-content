@@ -1,0 +1,7 @@
+
+For a [[multiplicative cohomology theory]] $E$ with [[cohomology ring]]s the **reduced cohomology** of $E$ for [[pointed object|pointed]] [[]topological space]]s $X$ is on $X$ the [[kernel]] of the map $E(X) \to E({*})$ induced from the point inclusion ${*} \to X$.
+
+#related entries#
+
+
+* [[A Survey of Elliptic Cohomology - cohomology theories]]
