@@ -26,6 +26,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-07
 
+* [[Mike Shulman]]:
+
+  * Started a discussion -- at [[graph]] -- about what may be wrong with that page and how to fix it.  I think that a page called [[graph theory]] should be more like the pages called [[topology]] and [[category theory]].
+  * Comments at [[evil]].
+
 * [[Urs Schreiber]]: 
 
   * missed one train. Used the few minutes gained this way to quickly extract the following very brief entries from the notes mentioned below: [[multiplicative cohomology theory]], [[even cohomology theory]], [[periodic cohomology theory]], [[Bott element]] -- all these entries deserve to be greatly expanded, it particular by eyxamples, of course, but it should be a start
