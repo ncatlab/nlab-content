@@ -1,3 +1,21 @@
+#Idea#
+
+A _Grothendieck connection_ $\nabla$ is a way to encode the parallel transport of a _flat_ [[connection on a bundle|connection]] along [[infinitesimal object|infinitesimal]] paths.
+
+In the language of [[schreiber:∞-Lie theory|∞-Lie theory]] it is a morphism from the [[schreiber:infinitesimal path ∞-groupoid|infinitesimal path ∞-groupoid]] $\Pi^{inf}(X)$ of a suitable [[space]] $X$ (a [[scheme]] in [[algebraic geometry]] or, more generally, a space in [[synthetic differential geometry]]) to some [[Lie ∞-groupoid]] $A$:
+
+$$
+  \nabla : \Pi^{inf}(X) \to A
+  \,.
+$$
+
+Here $\Pi^{inf}(X)$ is effectively the [[infinitesimal singular simplicial complex]] of $X$ and $A$ is modeled typically as a [[sheaf]] of [[∞-groupoid]]s as described at [[models for ∞-stack (∞,1)-toposes]].
+
+This was originally considered by [[Alexander Grothendieck|Grothendieck]] for [[scheme]]s in the context of [[algebraic geometry]] for the case that $A$ is a 1-[[groupoid]] -- but the genralization to [[∞-groupoid]]s in [[synthetic differential geometry]] is immediate.
+
+
+#Details#
+
 In his study of [[crystalline cohomology]], [[Alexander Grothendieck|Grothendieck]] has noticed that flat [[connection on a bundle|connection]]s correspond to the [[descent]] data for [[deRham complex|deRham]] descent; he called them the costratification of the first order. 
 
 Already in EGA, Grothendieck has introduced a notion of [[regular differential operator]] and of jet-spaces, which were later by Malgrange and Spencer transferred into the study of differential equations and analytic deformation theory.
@@ -19,7 +37,10 @@ $$
 X\hookrightarrow X^{(1)}\hookrightarrow X^{(2)}\hookrightarrow \ldots \hookrightarrow X^{(\infty)}=\hat{X}
 $$
 
-where $\hat{X}$ is the completion (the corresponding [[formal scheme]]). Let $\mathcal{F}\to Sch$ be a [[Grothendieck fibration]] over the category of schemes (or the subcategory of the category of schemes containing all schemes in our consideration). For examples $\mathcal{F}$ can be the stack of [[quasicoherent sheaves]] of $\mathcal{O}$-modules. Consider now the projections $d_0,d_1:X\times_S X\to X$. Then
+where $\hat{X}$ is the completion (the corresponding [[formal scheme]]). Let $\mathcal{F}\to Sch$ be a [[Grothendieck fibration]] over the category of schemes (or the subcategory of the category of schemes containing all schemes in our consideration) classified under the [[Grothendieck construction]] by some [[pseudofunctor]] $A : Sch^{op} \to Cat$. A typical examples would be the [[stack]] of [[quasicoherent sheaves]] of $\mathcal{O}$-modules. 
+
+Consider now the projections $d_0,d_1:X\times_S X\to X$. 
+Then
 
 
 +-- {: .un_defn}
@@ -33,6 +54,7 @@ A **Grothendieck connection** on an object $\rho\in\mathcal{F}$ is a [[descent]]
 The constructions can be almost literally transferred to the [[synthetic differential geometry]] using [[infinitesimal object|infinitesimal neighborhoods]] in that setup. 
 
 More recently, some partial generalizations were found in the purely algebraic framework. One could take any [[coring]] (or even an additive [[comonad]]) with a [[grouplike element]] and define corresponding connections and descent data and generalize the correspondence found by Grothendieck (see [[semi-free dga]] and Menini-Stefan reference below).
+
 
 #Literature#
 
