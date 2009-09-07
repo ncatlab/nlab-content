@@ -26,6 +26,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-07
 
+* [[Jon Awbrey]] added a page on [[graph theory]].  The page on [[graph]] has become too baroque to fix, but there needs to be a place to record the basic definitions of graph theory that are actually used by the larger schools of math folks who actually dare to call themselves graph theorists.  This is stuff that is more in the back of my mind than the forefront of my attention, so I'll add to it over time as other work recurs to it.
+
 * [[Rafael Borowiecki]]: Replied Todd Trimbles question at [[Timeline of category theory and related mathematics]].
 
 * [[Urs Schreiber]] started keyword-list entry [[Structured Spaces]] and in that context also started [[generalized scheme]]
@@ -42,7 +44,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * it seems that yesterday I also created [[stable homotopy theory]]
 
-* [[Jon Awbrey]] added an epigraph to to [[evil]].
+* [[Jon Awbrey]] added an epigraph to [[evil]].
 
 ## 2009-09-06
 
