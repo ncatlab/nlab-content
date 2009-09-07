@@ -5,6 +5,13 @@ Higher geometry studies [[vertical categorification]]s of [[geometry]].
 
 * [[higher topos theory]]
 
-  * [[infinity-space]]
+  * [[∞-space]]
 
-* [[derived algebraic geometry]]
+    * [[∞-stack]]
+
+* [[structured generalized space]]
+
+  * [[generalized scheme]]
+
+    * [[derived algebraic geometry]]
+
