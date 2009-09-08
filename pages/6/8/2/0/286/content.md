@@ -56,6 +56,8 @@ Can you say everything that you want to say about (higher) categories while avoi
 _Toby_:  But you already told us how to phrase things above: "let $a,b,c$ be objects of $C$ and let $g : b \to c$,$f: a \to b$ be morphisms".  So now we take a case where $dom g$ and $cod f$ are not definitionally/syntactically equal, as so:
 > Let $a,b,c,d$ be objects and let $g: c \to d,\; f: a \to b$ be morphisms.
 Then we can form the composite $g \circ f$ relative to any isomophism $h: b \to c$.  (Of course, the notation $g \circ f$ suppresses $h$, so it\'s more proper to write $g \circ_h f$, or just $g \circ h \circ f$ as a normal person would.)
+
+Note that the definability of $g \circ f$ is now the set $Iso(b,c)$ rather than the truth value $b = c$.  In an $\infty$-category, it would be an $\infty$-groupoid $Iso(b,c)$.
 =--
 
 _Mirrors and copulation are abominable,_ <br>
