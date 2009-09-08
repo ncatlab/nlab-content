@@ -58,6 +58,8 @@ _Toby_:  But you already told us how to phrase things above: "let $a,b,c$ be obj
 Then we can form the composite $g \circ f$ relative to any isomophism $h: b \to c$.  (Of course, the notation $g \circ f$ suppresses $h$, so it\'s more proper to write $g \circ_h f$, or just $g \circ h \circ f$ as a normal person would.)
 
 Note that the definability of $g \circ f$ is now the set $Iso(b,c)$ rather than the truth value $b = c$.  In an $\infty$-category, it would be an $\infty$-groupoid $Iso(b,c)$.
+
+[[Mike Shulman]]: That wasn't me above, I don't think.  I would consider "let $g : b \to c$ and $f: a \to b$ be morphisms" as implicitly using dependent types if you're considering it to avoid evil.  It seems to me that in a non-dependently typed theory, the only thing "let $g : b \to c$ and $f: a \to b$ be morphisms" can mean is "let $g$ and $f$ be morphisms such that $\dom f = a$, $\cod f = b$, $\dom g = b$, and $\cod g=c$," which does involve talking about equality of objects.
 =--
 
 _Mirrors and copulation are abominable,_ <br>
@@ -71,4 +73,6 @@ _for they multiply the number of mankind._ <br>
 [[Jon Awbrey]]: I don't know who coined the term "evil" for this particular form of "multiplying entities beyond necessity", but I felt sure that he-she must be alluding to Borges' story.  At any rate, it seemed a fitting epigraph.
 
 [[David Roberts]]: I would think that the evil referred to on this page is actually lessening the number of entities, because things are made to be equal when they are only isomorphic. There are many categories which have a small skeleton but aren't small, and an evil way of thinking about such categories is to consider only the skeletal version. 
+
+[[Mike Shulman]]: Yes, I don't see how the meaning of "evil" on this page has anything to do with multiplying entities beyond necessity.
 =--
