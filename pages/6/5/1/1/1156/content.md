@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include (infinity,1)-topos - contents]]
+</div>
+
+
 An **($\infty$,1)-sheaf** is another term for an [[∞-stack]] with values in [[∞-groupoid]]s. 
 
 See [[(∞,1)-category of (∞,1)-sheaves]] for more.
