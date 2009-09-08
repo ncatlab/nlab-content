@@ -56,11 +56,11 @@ and the torus bundle case was introduced in
 
 In these papers the gerbe does not appear, but an integral 3-form, representing the Dixmier-Douady class of a gerbe does. Note that if the [[Eilenberg-MacLane spectrum|integral]] [[cohomology group]] $H^3(X,\mathbb{Z})$ of $X$ has [[torsion]] in dimension three, not all gerbes will arise in this way. The formalization with the above data originates in 
 
-* **BunkeSchick05** U. Bunke and T. Schick, _On the topology of T-duality_ ([pdf](http://www.uni-math.gwdg.de/schick/publ/totduali.pdf))
+* **BunkeSchick05** [[Ulrich Bunke]] and [[Thomas Schick]], _On the topology of T-duality_ ([pdf](http://www.uni-math.gwdg.de/schick/publ/totduali.pdf))
 
 and
 
-* **BunkeRumpfSchick08** U. Bunke, P. Rumpf and T. Schick, _The topology of $T$-duality for $T^n$-bundles_ ([arXiv](http://arxiv.org/abs/math.GT/0501487))
+* **BunkeRumpfSchick08** [[Ulrich Bunke|U. Bunke]], P. Rumpf and T. Schick, _The topology of $T$-duality for $T^n$-bundles_ ([arXiv](http://arxiv.org/abs/math.GT/0501487))
 
 There is a [[C*-algebra]]ic version of toplogical T-duality, discussed for instance at
 
