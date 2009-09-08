@@ -54,6 +54,8 @@ A __[[morphism]]__ from $G$ to $G'$ is any function $f: V \to V'$ together with,
 
 +--{: .query}
 [[Mike Shulman]]: Isn't there something backwards about defining "isomorphic" and _then_ "isomorphism" and _then_ "morphism"?  Doesn't the logic generally flow in the other direction (especially around here)?
+
+[[David Roberts]]: well at least there's a historical precedent: this is how Bourbaki would have done it via structures :)
 =--
 
 When $G$ and $G'$ are not allowed to be pseudographs, note that there may be a morphism from $G$ to $G'$ in which $f(x) = f(y)$, even when there is a (non-loop) edge from $x$ to $y$.  This is why simple graphs should be interpreted as pseudographs in which $x \sim x$ always instead of $x \sim x$ never.
