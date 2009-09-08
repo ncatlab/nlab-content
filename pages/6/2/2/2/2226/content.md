@@ -56,11 +56,11 @@ Introducing a few abbreviations for use in considering the present Example, we h
 
 In the present Example, $S$ = $I$ = Syntactic Domain.
 
-The next two Tables give the sign relations associated with the interpreters $\mathrm{A}$ and $\mathrm{B}$, respectively, putting them in the form of relational databases.  Thus, the rows of each Table list the ordered triples of the form $(o, s, i)$ that make up the corresponding sign relations, $L_{\mathrm{A}}, L_{\mathrm{B}} \subseteq O \:\times\: S \:\times\: I$.  It is often tempting to use the same names for objects and for relations involving these objects, but it is best to avoid this in a first approach, taking up the issues that this practice raises after the less problematic features of these relations have been treated.
+The next two Tables give the sign relations associated with the interpreters $\mathrm{A}$ and $\mathrm{B}$, respectively, putting them in the form of relational databases.  Thus, the rows of each Table list the ordered triples of the form $(o, s, i)$ that make up the corresponding sign relations, $L_\mathrm{A}, L_\mathrm{B} \subseteq O \:\times\: S \:\times\: I$.  It is often tempting to use the same names for objects and for relations involving these objects, but it is best to avoid this in a first approach, taking up the issues that this practice raises after the less problematic features of these relations have been treated.
 
 $$\array{
 \array{\arrayopts{\frame{solid}\rowlines{solid solid none}}
-\cellopts{\colspan{3}} L_{\mathrm{A}} = \text{Sign Relation of Interpreter A} \\
+\cellopts{\colspan{3}} L_\mathrm{A} = \text{Sign Relation of Interpreter A} \\
 Object & Sign & Interpretant \\
 \mathrm{A} & \backprime\backprime\mathrm{A}\prime\prime & \backprime\backprime\mathrm{A}\prime\prime \\
 \mathrm{A} & \backprime\backprime\mathrm{A}\prime\prime & \backprime\backprime\mathrm{i}\prime\prime \\
@@ -72,7 +72,7 @@ Object & Sign & Interpretant \\
 \mathrm{B} & \backprime\backprime\mathrm{u}\prime\prime & \backprime\backprime\mathrm{u}\prime\prime  }
 &
 \array{\arrayopts{\frame{solid}\rowlines{solid solid none}}
-\cellopts{\colspan{3}} L_{\mathrm{B}} = \text{Sign Relation of Interpreter B} \\
+\cellopts{\colspan{3}} L_\mathrm{B} = \text{Sign Relation of Interpreter B} \\
 Object & Sign & Interpretant \\
 \mathrm{A} & \backprime\backprime\mathrm{A}\prime\prime & \backprime\backprime\mathrm{A}\prime\prime \\
 \mathrm{A} & \backprime\backprime\mathrm{A}\prime\prime & \backprime\backprime\mathrm{u}\prime\prime \\
@@ -120,7 +120,67 @@ $$\array{
 \{ (o, s) \in O \:\times\: S : (o, s, i) \in L \: (\exists i \in I) \}
 }$$
 
+Looking to the denotative aspects of $L_\mathrm{A}$ and $L_\mathrm{B}$, various rows of the above Tables specify, for example, that $\mathrm{A}$ uses $\backprime\backprime\mathrm{i}\prime\prime$ to denote $\mathrm{A}$ and $\backprime\backprime\mathrm{u}\prime\prime$ to denote $\mathrm{B}$, whereas $\mathrm{B}$ uses $\backprime\backprime\mathrm{i}\prime\prime$ to denote $\mathrm{B}$ and $\backprime\backprime\mathrm{u}\prime\prime$ to denote $\mathrm{A}$.  All of these denotative references are summed up in the projections on the $O S$-plane, as shown in the following Tables:
+
+$$\array{
+\array{\arrayopts{\frame{solid}\rowlines{solid solid none}}
+\cellopts{\colspan{2}} \mathop{Den} L_\mathrm{A} = \mathop{proj}_{O S} L_\mathrm{A} \\
+Object & Sign \\
+\mathrm{A} & \backprime\backprime\mathrm{A}\prime\prime \\
+\mathrm{A} & \backprime\backprime\mathrm{i}\prime\prime \\
+\mathrm{B} & \backprime\backprime\mathrm{B}\prime\prime \\
+\mathrm{B} & \backprime\backprime\mathrm{u}\prime\prime  }
+&
+\array{\arrayopts{\frame{solid}\rowlines{solid solid none}}
+\cellopts{\colspan{2}} \mathop{Den} L_\mathrm{B} = \mathop{proj}_{O S} L_\mathrm{B} \\
+Object & Sign \\
+\mathrm{A} & \backprime\backprime\mathrm{A}\prime\prime \\
+\mathrm{A} & \backprime\backprime\mathrm{u}\prime\prime \\
+\mathrm{B} & \backprime\backprime\mathrm{B}\prime\prime \\
+\mathrm{B} & \backprime\backprime\mathrm{i}\prime\prime  }
+}$$
+
 ### Connotation ###
+
+Another aspect of meaning concerns the connection that a sign has to its interpretants within a given sign relation.  As before, this type of connection can be vacuous, singular, or plural in its collection of terminal points, and it can be formalized as the 2-adic relation that is obtained as a planar projection of the 3-adic sign relation in question.
+
+The connection that a sign makes to its interpretant is here referred to as its _connotation_.  In the full theory of sign relations, this aspect of meaning includes the links that a sign has to affects, concepts, ideas, impressions, intentions, and the whole realm of an agent's mental states and allied activities, broadly encompassing intellectual associations, emotional impressions, motivational impulses, and real conduct.  Taken at the full, in the natural setting of semiotic phenomena, this complex system of references is unlikely ever to find itself mapped in much detail, much less completely formalized, but the tangible warp of its accumulated mass is commonly alluded to as the connotative import of language.
+
+Formally speaking, however, the connotative aspect of meaning presents no additional difficulty.  The connotative aspect of a sign relation $L$ is given by its projections $\mathop{proj}_{S I} L$ and $\mathop{proj}_{I S} L$ on the plane of signs and interpretants.  Adopting the first orientation, the _connotative component_ of $L$ is defined and notated as follows:
+
+$$\array{
+\mathop{Con} (L) & \text{:=} & L_{S I} & = & \mathop{proj}_{S I} L
+& = &
+\{ (s, i) \in S \:\times\: I : (o, s, i) \in L \: (\exists o \in O) \}
+}$$
+
+All of these connotative references are summed up in the projections on the $S I$-plane, as shown in the following Tables:
+
+$$\array{
+\array{\arrayopts{\frame{solid}\rowlines{solid solid none}}
+\cellopts{\colspan{2}} \mathop{Con} L_\mathrm{A} = \mathop{proj}_{S I} L_\mathrm{A} \\
+Sign & Interpretant \\
+\backprime\backprime\mathrm{A}\prime\prime & \backprime\backprime\mathrm{A}\prime\prime \\
+\backprime\backprime\mathrm{A}\prime\prime & \backprime\backprime\mathrm{i}\prime\prime \\
+\backprime\backprime\mathrm{i}\prime\prime & \backprime\backprime\mathrm{A}\prime\prime \\
+\backprime\backprime\mathrm{i}\prime\prime & \backprime\backprime\mathrm{i}\prime\prime \\
+\backprime\backprime\mathrm{B}\prime\prime & \backprime\backprime\mathrm{B}\prime\prime \\
+\backprime\backprime\mathrm{B}\prime\prime & \backprime\backprime\mathrm{u}\prime\prime \\
+\backprime\backprime\mathrm{u}\prime\prime & \backprime\backprime\mathrm{B}\prime\prime \\
+\backprime\backprime\mathrm{u}\prime\prime & \backprime\backprime\mathrm{u}\prime\prime  }
+&
+\array{\arrayopts{\frame{solid}\rowlines{solid solid none}}
+\cellopts{\colspan{2}} \mathop{Con} L_\mathrm{B} = \mathop{proj}_{S I} L_\mathrm{B} \\
+Sign & Interpretant \\
+\backprime\backprime\mathrm{A}\prime\prime & \backprime\backprime\mathrm{A}\prime\prime \\
+\backprime\backprime\mathrm{A}\prime\prime & \backprime\backprime\mathrm{u}\prime\prime \\
+\backprime\backprime\mathrm{u}\prime\prime & \backprime\backprime\mathrm{A}\prime\prime \\
+\backprime\backprime\mathrm{u}\prime\prime & \backprime\backprime\mathrm{u}\prime\prime \\
+\backprime\backprime\mathrm{B}\prime\prime & \backprime\backprime\mathrm{B}\prime\prime \\
+\backprime\backprime\mathrm{B}\prime\prime & \backprime\backprime\mathrm{i}\prime\prime \\
+\backprime\backprime\mathrm{i}\prime\prime & \backprime\backprime\mathrm{B}\prime\prime \\
+\backprime\backprime\mathrm{i}\prime\prime & \backprime\backprime\mathrm{i}\prime\prime  }
+}$$
 
 ### Ennotation ###
 
