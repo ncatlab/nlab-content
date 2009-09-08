@@ -28,6 +28,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]] 
 
+  * slightly reorganized and then expanded the _topic cluster_ floating table of contents [[cohomology - contents]]. in that context I
+
+    * created [[orientation]], [[Spin structure]], [[Fivebrane structure]] and slightly expanded [[String structure]]
+
+    * briefly discussed/mentioned these in the examples section at [[quantum anomaly]]
+
+    * and on that occasion created an entry for [[Ulrich Bunke]] whose recent article (yesterday!) I cite above, where he makes the old Killingback argument about how a String-structure makes the worldvolume anomaly of the heterotic string vanish rigorous
+
   * corrected the mistake at [[rational topological space]] that [[David Corfield]] spotted below
 
   * added to [[CW complex]] link to [[geometric realization]] 
