@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include cohomology - contents]]
+</div>
+
+
 #Idea#
 
 For $G$ a [[group]], a $G$-principal [[bundle]] over a space $X$ is another space $P$ sitting over $X$ by a map $P \to X$ such together with an [[action]] of $G$ on the space $P$, such that each fiber $P_x$ of $P$ over any $x \in X$ is a $G$-[[torsor]], so it looks like $G$ once we identify one of the elements of $P_x$ with the identity element in $G$. 
