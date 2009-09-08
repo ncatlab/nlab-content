@@ -26,6 +26,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-08
 
+* [[Jon Awbrey]] added content to [[semiotic equivalence relation]].
+
 * [[Mike Shulman]]:
 
   * More discussion at [[evil]].
