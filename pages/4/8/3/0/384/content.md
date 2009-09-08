@@ -1,6 +1,6 @@
 #Idea#
 
-A **CW-complex** is a [[nice topological space]] which can be built up inductively, by a process of attaching disks along their boundaries. They are principal objects of interest in algebraic topology; in fact, most spaces of interest to algebraic topologists are [[homotopy equivalence|homotopy equivalent]] to CW-complexes. (And every space is [[homotopy equivalence|weakly homotopy equivalent]] to a CW-complex.) 
+A **CW-complex** is a [[nice topological space]] which can be built up inductively, by a process of attaching disks along their boundaries. They are principal objects of interest in algebraic topology; in fact, most spaces of interest to algebraic topologists are [[homotopy equivalence|homotopy equivalent]] to CW-complexes. (And every space is [[homotopy equivalence|weakly homotopy equivalent]] to a CW-complex, but need not be homotopically equivalent to one.) 
 
 #Definition 
 
@@ -27,7 +27,7 @@ Milnor has argued that the category of spaces which are homotopy equivalent to C
 
 * The [[geometric realization]] of any [[simplicial set]] is a CW-complex. 
 
-  * In particular in the context of the [[homotopy hypothesis]] the [[Quillen equivalence]]  betweem [[∞-groupoid]]s and [[nice topological space]]s maps each [[∞-groupoid]] to a CW-complex.
+  * In particular in the context of the [[homotopy hypothesis]] the [[Quillen equivalence]]  between [[∞-groupoid]]s and [[nice topological space]]s maps each [[∞-groupoid]] to a CW-complex.
 
 
 #References
