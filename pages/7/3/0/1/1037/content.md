@@ -1,6 +1,9 @@
 <div class="rightHandSide toc">
 [[!include mathematicscontents]]
+***
+[[!include (infinity,1)-topos - contents]]
 </div>
+
 
 
 This entry is about the book
@@ -273,6 +276,8 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
   * [[groupoid object in an (∞,1)-category]]
 
   * [[universal colimits]]
+
+* [[object classifier]]
 
 * [[(∞,1)-category of (∞,1)-sheaves]]
 
