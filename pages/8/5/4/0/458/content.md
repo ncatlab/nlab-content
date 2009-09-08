@@ -28,6 +28,12 @@ The elements of $O(X)$ induce a topology on the set of points of $X$ in an obvio
 
 It is not hard to check that $(-)_l$ is left adjoint to $(-)_p$.  In fact, this is an [[idempotent adjunction]], and therefore it restricts to an equivalence between the fixed subcategories on either side.  A space with $X\cong X_{lp}$ is called **[[sober space|sober]]**, while a locale with $X\cong X_{pl}$ is called **spatial**.
 
+# In the context of $(n,r)$-topos theory #
+
+Recall the defintion of [[(n,r)-category]] in general and of [[(0,1)-category]] in particular.
+
+It turns out that a [[(0,1)-topos]] is essentially the same as a locale.
+
 # References #
 
 *  P. T. Johnstone, _[[Elephant|Sketches of an elephant: a topos theory compendium]]_.  Part C (volume 2).
