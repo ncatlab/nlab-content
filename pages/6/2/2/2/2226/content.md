@@ -110,7 +110,15 @@ By way of unpacking the set-theoretic notation, here is what the first definitio
 
 ### Denotation ###
 
-One aspect of a sign's meaning is concerned with the reference that a sign has to its objects, which objects are collectively known as the _denotation_ of the sign.  Given a sign relation $L \subseteq O \:\times\: S \:\times\: I$, the projections $L_{O S} \subseteq O \:\times\: S$ and $L_{S O} \subseteq S \:\times\: O$ make up a converse pair of 2-adic relations that tell us everything there is to know about the relationship between objects and signs in $L$.
+One aspect of a sign's complete meaning is concerned with the reference that a sign has to its objects, which objects are collectively known as the _denotation_ of the sign.  Denotative references fall within the projection of the sign relation on the plane that is spanned by its object domain and its sign domain.
+
+Given a sign relation $L \subseteq O \:\times\: S \:\times\: I$, the projections $L_{O S} \subseteq O \:\times\: S$ and $L_{S O} \subseteq S \:\times\: O$ form a converse pair of 2-adic relations, either of which tells us all there is to know about the relationship between objects and signs in $L$.  Without loss of hay in either bale, the _denotative component_ of $L$ is defined and notated as follows:
+
+$$\array{
+\mathop{Den} (L) & \text{:=} & L_{O S} & = & \mathop{proj}_{O S} L
+& = &
+\{ (o, s) \in O \:\times\: S : (o, s, i) \in L \: (\exists i \in I) \}
+}$$
 
 ### Connotation ###
 
