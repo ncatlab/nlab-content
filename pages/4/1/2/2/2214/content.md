@@ -32,6 +32,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
  
   * started [[rational topological space]]
 
+     * [[David Corfield]]: Asked question there.
+
 * [[Jon Awbrey]] added content to [[semiotic equivalence relation]].
 
 * [[Mike Shulman]]:
