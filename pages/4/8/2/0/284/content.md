@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include (infinity,1)-topos - contents]]
+</div>
+
+
 #Idea#
 
 According to the general pattern on [[(n,r)-category]], an $(\infty,1)$-category is a (weak) [[∞-category]] in which all $n$-morphisms for $n \geq 2$ are [[equivalences]].
@@ -71,8 +76,8 @@ With the relation between [[simplicial object in Cat|simplical categories]] and 
 
 The following analogy (appearing in this way on [p. 44 of Ben-Zvi/Nadler07](http://arxiv.org/PS_cache/arxiv/pdf/0706/0706.0322v1.pdf#page=44)) might illustrate how model categories, $(\infty,1)$-categories and homotopy categories relate
 
-: model category &#8594; $(\infty,1)$-category &#8594; homotopy category
-: vector space with basis &#8594; vector space &#8594; dimension of vector space
+: model category &rarr; $(\infty,1)$-category &rarr; homotopy category
+: vector space with basis &rarr; vector space &rarr; dimension of vector space
 
 
 ## $Top$-, $Kan$- and simplicially enriched categories ##
@@ -164,7 +169,7 @@ is in
 
 More discussion of the other two models can be found at
 
-* [[Jacob Lurie]], _On the classification of topological field theories_ ([pdf](http://www-math.mit.edu/~lurie/papers/cobordism.pdf)).
+* [[Jacob Lurie]], [[On the Classification of Topological Field Theories]]
 
 [[!redirects (∞,1)-category]]
 [[!redirects (∞,1)-categories]]
