@@ -1,3 +1,8 @@
+
+A _string structure_ on a [[manifold]] is a higher version of a [[spin structure]]. A tring structure on a [[manifold]]  with [[spin structure]] is a lift of the structure [[group]] of its [[tangent bundle]] through the  third nontrivial step $\mathcal{B}String(n) \to \mathcal{B}String(n)$ in the [[Whitehead tower]] of $O(n)$.
+
+A lift one further step through the Whitehead tower is a [[Fivebrane structure]].
+
 ## Definition ##
 
 Let $X$ be an $n$-dimensional manifold. 
@@ -215,3 +220,8 @@ The relation between the two pictures is analyzed for instance in
 For discussion of String-structures using 3-classes on total spaces see for instance the work by Corbett Redden and Konrad Waldorf described at 
 
 * [[Oberwolfach Workshop, June 2009 -- Friday, June 12]]
+
+
+[[!redirects String structure]]
+[[!redirects String-structure]]
+[[!redirects string-structure]]
