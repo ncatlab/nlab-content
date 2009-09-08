@@ -28,6 +28,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]] 
 
+  * created stubs for [[localic topos]] and [[n-localic (∞,1)-topos]]
+
+  * added to [[Deligne-Mumford stack]] the alternative characterization as a 1-localic $G$-[[generalized scheme]] for $G$ the _etale geometry_ (defined there). Also added a brief "Idea"-section
+
+  * created [[affine scheme]]
+
   * created _topic cluster floating table of contents_ [[(infinity,1)-topos - contents]] and included it in the linked entries
 
   * created [[object classifier]] and linked to it from [[(∞,1)-topos]] and [[Higher Topos Theory]] and [[subobject classifier]]
