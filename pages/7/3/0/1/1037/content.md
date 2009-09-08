@@ -279,6 +279,8 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
 * [[object classifier]]
 
+* [[n-localic (∞,1)-topos]]
+
 * [[(∞,1)-category of (∞,1)-sheaves]]
 
   * [[local object]]
@@ -416,7 +418,7 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
 * [[combinatorial simplicial model category]]
 
-  * [[presentable (infinity,1)-category]]
+  * [[presentable (∞,1)-category]]
 
 
 category: reference
