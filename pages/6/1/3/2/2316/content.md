@@ -18,22 +18,19 @@ This is the topic of [[rational homotopy theory]].
 
 #Definition#
 
-A [[topological space]] is called _rational_ if it is
-simply connected in that the 0-th [[homotopy group|homotopy set]]
-vanishes, 
+A [[topological space]] is called _rational_ if 
 
-+-- {: .query}
-Simply connected so first homotopy group must vanish? -- David
-=--
+* it is
+simply connected in that the 1st [[homotopy group]] vanishes, $\pi_1 X = 0$ 
 
-$\pi_0 X = 0$ and the following 
+* and the following 
 equivalent conditions are satisfied
 
-1. the collection of [[homotopy group]]s form a $\mathbb{Q}$-[[vector space]],
+  1. the collection of [[homotopy group]]s form a $\mathbb{Q}$-[[vector space]],
 
-1. the [[reduced cohomology|reduced homology]] of $X$, $\tilde H_*(X,\mathbb{Z})$ is a $\mathbb{Q}$-[[vector space]],
+  1. the [[reduced cohomology|reduced homology]] of $X$, $\tilde H_*(X,\mathbb{Z})$ is a $\mathbb{Q}$-[[vector space]],
 
-1. the [[reduced cohomology|reduced homology]] of the [[loop space]] $\Omega X$ of $X$, $\tilde H_*(\Omega X,\mathbb{Z})$ is a $\mathbb{Q}$-[[vector space]].
+  1. the [[reduced cohomology|reduced homology]] of the [[loop space]] $\Omega X$ of $X$, $\tilde H_*(\Omega X,\mathbb{Z})$ is a $\mathbb{Q}$-[[vector space]].
 
 
 A morphism $\ell : X \to Y$ of simply connected [[topological space]] is
