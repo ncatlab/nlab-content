@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include cohomology - contents]]
+</div>
+
+
 #Idea#
 
 The notion of _principal $\infty$-bundle_ is a [[vertical categorification|categorification]] of [[principal bundle]] from [[groups]] and [[groupoids]] to [[∞-groupoids]], or rather from parameterized groupoids (generalized spaces called [[stacks]]) to parameterized $\infty$-groupoids (generalized spaces called [[∞-stacks]]).
@@ -326,7 +331,7 @@ And in that case the the desrption of principal
 $\infty$-bundles as homotopy pullbacks of the point continues to be valid.
 
 In low degree this is then, more or less explicitly, the description of higher principal bundles
-by Bartels, Bakovi&#263;, Wockel, etc., as referenced at [[principal 2-bundle]].
+by Bartels, Bakovi&cacute;, Wockel, etc., as referenced at [[principal 2-bundle]].
 
 #References#
 
