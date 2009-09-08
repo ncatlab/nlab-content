@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include cohomology - contents]]
+</div>
+
+
 #Idea#
 
 A _principal 2-bundle_ is a [[vertical categorification|categorification]] of a [[principal bundle]]. It is closely related to and in fact a generalization (in the case of a single group rather than a sheaf of groups) of the concept [[gerbe]] (although that concept could easily be further generalised to match). See [[gerbe (general idea)]] for more background.
@@ -77,7 +82,7 @@ A description of higher principal bundles (see also [[principal ∞-bundle]]) in
 
 The relation of such 2-categorical constructions of 2-bundles to the one of simplicially modeled $\infty$-bundles by Glenn was established in
 
-* Igor Bakovi&#263;, _Bigroupoid 2-torsors_ ([pdf](http://edoc.ub.uni-muenchen.de/9209/1/Bakovic_Igor.pdf)).
+* Igor Bakovi&cacute;, _Bigroupoid 2-torsors_ ([pdf](http://edoc.ub.uni-muenchen.de/9209/1/Bakovic_Igor.pdf)).
 
 Still more explicit descriptions of these constructions are given in 
 
