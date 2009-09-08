@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include (infinity,1)-topos - contents]]
+</div>
+
+
 #Idea#
 
 A _group object_ in an [[(∞,1)-category]] generalizes and unifies two familiar concepts:
