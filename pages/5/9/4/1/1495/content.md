@@ -2,7 +2,7 @@ In [[algebraic geometry]] one can glue [[affine scheme]]s in various topologies;
 
 The standard reference is the monograph
 
-* D. Knudson, Algebraic spaces, LNM 203, Springer 1971.
+* D. Knutson, Algebraic spaces, LNM 203, Springer 1971.
 
 
 [[!redirects algebraic spaces]]
