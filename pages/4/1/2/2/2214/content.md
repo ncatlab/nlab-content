@@ -24,7 +24,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+
 ## 2009-09-08
+
+*  [[Toby Bartels]]:  More at [[evil]]; we might actually be working out some mathematical facts here before too long!
 
 * [[Todd Trimble]] added some more to [[localic topos]]. 
 
