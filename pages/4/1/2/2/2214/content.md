@@ -26,6 +26,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-08
 
+* [[Mike Shulman]]:
+
+  * More discussion at [[evil]].
+  * Started some work on clarifying definitions at [[graph]].
+  * Spoke up in defense of the adverb at [[locally presentable category]].
+
 * [[Jon Awbrey]]:  Clarifying at [[graph theory]] and questying at [[evil]].
 
 
