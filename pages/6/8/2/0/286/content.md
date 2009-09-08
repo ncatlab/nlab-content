@@ -79,4 +79,6 @@ _for they multiply the number of mankind._ <br>
 [[Jon Awbrey]]: What was the sense of the phrase, "more generally if it distinguishes between isomorphic objects"?
 
 [[Mike Shulman]]: Not distinguishing between isomorphic objects doesn't make there *be* any fewer objects.  The objects are still all there.  It just means that one isomorphic object is as good as another (or more precisely, that any statement about an object can be transferred along an isomorphism).
+
+[[Jon Awbrey]]:  Re: "a concept is ... _evil_ ... if it distinguishes between isomorphic objects".  That seems to be a recommendation against distinguishing isomorphic objects.  That's a pretty familiar position, if that's all it's saying.  The gist of the jest is that mirrors don't really multiply entities, only their apperarances, that is, their representations, and it's only the Web of Maya that makes us treat images as objects.  Or something ...
 =--
