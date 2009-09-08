@@ -1,3 +1,6 @@
+<div class="rightHandSide toc">
+[[!include (infinity,1)-topos - contents]]
+</div>
 
 A crucial ingredient in a [[topos]] is a [[subobject classifier]]. That this has to do with [[subobject]] turns out to the a coincidence of low dimensions. As discussed at [[stuff, structure, property]], the classifying object in [[higher topos theory]] classify more general morphisms.
 
