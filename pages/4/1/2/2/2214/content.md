@@ -24,7 +24,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+
 ## 2009-09-07
+
+*  [[Toby Bartels]]:  Replies to Mike at [[evil]] and [[graph]].
 
 * [[Mike Shulman]]:
 
@@ -62,6 +65,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
   * it seems that yesterday I also created [[stable homotopy theory]]
 
 * [[Jon Awbrey]] added an epigraph to [[evil]].
+
 
 ## 2009-09-06
 
