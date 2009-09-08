@@ -1,6 +1,8 @@
+#Idea#
+
 A **CW-complex** is a [[nice topological space]] which can be built up inductively, by a process of attaching disks along their boundaries. They are principal objects of interest in algebraic topology; in fact, most spaces of interest to algebraic topologists are [[homotopy equivalence|homotopy equivalent]] to CW-complexes. (And every space is [[homotopy equivalence|weakly homotopy equivalent]] to a CW-complex.) 
 
-##Definition 
+#Definition 
 
 A CW-complex is a topological space $X$ which can be presented as the colimit (in [[Top]], or else in the category of [[compactly generated space]]s or many another [[nice category of spaces]]) of spaces $X_n$ (called $n$-skeleta of the presentation) 
 
@@ -20,7 +22,15 @@ A _finite CW-complex_ is one which admits a presentation in which there are only
 
 Milnor has argued that the category of spaces which are homotopy equivalent to CW-complexes, also called [[m-cofibrant space]]s, is a convenient category of spaces for algebraic topology.
 
-##References
+#Examples
+
+
+* The [[geometric realization]] of any [[simplicial set]] is a CW-complex. 
+
+  * In particular in the context of the [[homotopy hypothesis]] the [[Quillen equivalence]]  betweem [[∞-groupoid]]s and [[nice topological space]]s maps each [[∞-groupoid]] to a CW-complex.
+
+
+#References
 
 * J.P. May, A Concise Course in Algebraic Topology, U. Chicago Press, 1999. 
 
