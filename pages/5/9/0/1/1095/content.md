@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include (infinity,1)-topos - contents]]
+</div>
+
+
 This entry is about the general properties and characterization of [[(∞,1)-categories]] of [[(∞,1)-sheaves]] -- also known as [[∞-stack]] [[(∞,1)-topos]]es.
 
 The 1-categorical analog of the discussion is this entry is at [[category of sheaves]].
@@ -48,7 +53,7 @@ which considers locally [[Kan complex|Kan]] [[simplicial presheaf|simplicial pre
 
 This was later conceived in terms of a [[model structure on simplicial presheaves]] and on simplicial sheaves by Jocal and Jardine. To&#235; summarizes the situation and emphasizes the interpretation in terms of [[∞-stacks]] living in $(\infty,1)$-categories for instance in
 
-B. To&#235;n, _Higher and derived stacks: a global overview_   ([arXiv](http://arxiv.org/abs/math/0604504)) .
+B. To&euml;n, _Higher and derived stacks: a global overview_   ([arXiv](http://arxiv.org/abs/math/0604504)) .
 
 The full picture in terms of Grothendieck-$(\infty,1)$-topoi of $(\infty,1)$-sheaves is the topic of
 
@@ -62,6 +67,6 @@ J. Lurie, [[Higher Topos Theory]].
 
 * the characterization of $(\infty,1)$-sheaves in terms of [[descent|descent and codescent]] is in section 6.1.3 
 
-* the relation between the Brown--Joyal--Jardine model and the general story is discussed at length in section 6.5.4
+* the relation between the [[model structure on simplicial presheaves|Brown--Joyal--Jardine model]] and the general story is discussed at length in section 6.5.4
 
 [[!redirects (∞,1)-category of (∞,1)-sheaves]]
