@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include (infinity,1)-topos - contents]]
+</div>
+
+
 #Idea#
 
 The notion of $\infty$-stack is the $\infty$-[[vertical categorification|categorification]] of [[sheaf]] and [[stack]]. Where a sheaf is a [[presheaf]] with values in [[Set]] that satisfies the sheaf condition,
