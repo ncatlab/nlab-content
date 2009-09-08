@@ -184,6 +184,36 @@ Sign & Interpretant \\
 
 ### Ennotation ###
 
+The aspect of a sign's meaning that arises from the 2-adic relation of its objects to its interpretants has no standard name.  If an interpretant is considered to be a sign in its own right, then its independent reference to an object can be taken as belonging to another moment of denotation, but this neglects the mediational character of the whole transaction in which this occurs.  Denotation and connotation have to do with 2-adic relations in which the sign plays an active role, but here we have to consider a 2-adic relation between objects and interpretants that is mediated by the sign from an off-stage position, as it were.  As a relation between objects and interpretants that is mediated by a sign, this aspect of meaning may be referred to as the _ennotation_ of a sign, and the 2-adic relation that forms the _ennotative component_ of a sign relation $L$ may be notated as $\mathop{Enn} (L)$.
+
+The ennotative component of meaning for a sign relation $L$ is captured by its projection on the plane of the object and interpretant domains, defined and notated as follows:
+
+$$\array{
+\mathop{Enn} (L) & \text{:=} & L_{O I} & = & \mathop{proj}_{O I} L
+& = &
+\{ (o, i) \in O \:\times\: I : (o, s, i) \in L \: (\exists s \in S) \}
+}$$
+
+As it happens, the sign relations $L_\mathrm{A}$ and $L_\mathrm{B}$ are fully symmetric with respect to exchanging signs and interpretants, so all the data of $\mathop{proj}_{OS} L_\mathrm{A}$ is echoed unchanged in $\mathop{proj}_{OI} L_\mathrm{A}$ and all the data of $\mathop{proj}_{OS} L_\mathrm{B}$ is echoed unchanged in $\mathop{proj}_{OI} L_\mathrm{B}$, as shown in the following Tables:
+
+$$\array{
+\array{\arrayopts{\frame{solid}\rowlines{solid solid none}}
+\cellopts{\colspan{2}} \mathop{Enn} L_\mathrm{A} = \mathop{proj}_{O I} L_\mathrm{A} \\
+Object & Interpretant \\
+\mathrm{A} & \backprime\backprime\mathrm{A}\prime\prime \\
+\mathrm{A} & \backprime\backprime\mathrm{i}\prime\prime \\
+\mathrm{B} & \backprime\backprime\mathrm{B}\prime\prime \\
+\mathrm{B} & \backprime\backprime\mathrm{u}\prime\prime  }
+&
+\array{\arrayopts{\frame{solid}\rowlines{solid solid none}}
+\cellopts{\colspan{2}} \mathop{Enn} L_\mathrm{B} = \mathop{proj}_{O I} L_\mathrm{B} \\
+Object & Interpretant \\
+\mathrm{A} & \backprime\backprime\mathrm{A}\prime\prime \\
+\mathrm{A} & \backprime\backprime\mathrm{u}\prime\prime \\
+\mathrm{B} & \backprime\backprime\mathrm{B}\prime\prime \\
+\mathrm{B} & \backprime\backprime\mathrm{i}\prime\prime  }
+}$$
+
 ## Semiotic equivalence relations ##
 
 * See [[semiotic equivalence relation]].
