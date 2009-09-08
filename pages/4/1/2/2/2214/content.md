@@ -26,6 +26,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-08
 
+* [[Todd Trimble]] added some more to [[localic topos]]. 
+
 * [[Jon Awbrey]] added a bit more content to [[sign relation]] and then broke for lunch.  ($n$-tweet?)
 
 * [[Urs Schreiber]] 
