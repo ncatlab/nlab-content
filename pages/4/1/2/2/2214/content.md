@@ -28,6 +28,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]] 
 
+  * corrected the mistake at [[rational topological space]] that [[David Corfield]] spotted below
+
   * added to [[CW complex]] link to [[geometric realization]] 
  
   * started [[rational topological space]]
