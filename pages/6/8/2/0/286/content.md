@@ -53,13 +53,15 @@ Can you say everything that you want to say about (higher) categories while avoi
 
 [[Mike Shulman]]: I'm not convinced by "composing along isomorphisms," because what does it mean for an isomorphism $h$ to be "between" $\dom g$ and $\cod f$?  It means that $\dom h = \cod f$ and $\cod h = \dom g$.
 
-_Toby_:  But you already told us how to phrase things above: "let $a,b,c$ be objects of $C$ and let $g : b \to c$,$f: a \to b$ be morphisms".  So now we take a case where $dom g$ and $cod f$ are not definitionally/syntactically equal, as so:
+_Toby_:  But <del>you</del><ins>the Anonymous Coward</ins> already told us how to phrase things above: "let $a,b,c$ be objects of $C$ and let $g : b \to c$,$f: a \to b$ be morphisms".  So now we take a case where $dom g$ and $cod f$ are not definitionally/syntactically equal, as so:
 > Let $a,b,c,d$ be objects and let $g: c \to d,\; f: a \to b$ be morphisms.
 Then we can form the composite $g \circ f$ relative to any isomophism $h: b \to c$.  (Of course, the notation $g \circ f$ suppresses $h$, so it\'s more proper to write $g \circ_h f$, or just $g \circ h \circ f$ as a normal person would.)
 
 Note that the definability of $g \circ f$ is now the set $Iso(b,c)$ rather than the truth value $b = c$.  In an $\infty$-category, it would be an $\infty$-groupoid $Iso(b,c)$.
 
 [[Mike Shulman]]: That wasn't me above, I don't think.  I would consider "let $g : b \to c$ and $f: a \to b$ be morphisms" as implicitly using dependent types if you're considering it to avoid evil.  It seems to me that in a non-dependently typed theory, the only thing "let $g : b \to c$ and $f: a \to b$ be morphisms" can mean is "let $g$ and $f$ be morphisms such that $\dom f = a$, $\cod f = b$, $\dom g = b$, and $\cod g=c$," which does involve talking about equality of objects.
+
+_Toby_:  Right on both counts: that was an [[Anonymous Coward]] in the first comment, and the phrasing that the Coward suggested does implicitly use dependent types (as I alluded to in my original reply).  Makkai says 'dependent sorts' (the 'DS' in 'FOLDS') instead for some reason.  Can we avoid evil in an independently typed (possibly even untyped) language?  I think that this should be possible; we would need rules about when you can and can\'t state equalities; maybe, you can state $\forall f, dom f = x \Rightarrow ...$ and the obvious variations, but no others?
 =--
 
 _Mirrors and copulation are abominable,_ <br>
@@ -81,4 +83,6 @@ _for they multiply the number of mankind._ <br>
 [[Mike Shulman]]: Not distinguishing between isomorphic objects doesn't make there *be* any fewer objects.  The objects are still all there.  It just means that one isomorphic object is as good as another (or more precisely, that any statement about an object can be transferred along an isomorphism).
 
 [[Jon Awbrey]]:  Re: "a concept is ... _evil_ ... if it distinguishes between isomorphic objects".  That seems to be a recommendation against distinguishing isomorphic objects.  That's a pretty familiar position, if that's all it's saying.  The gist of the jest is that mirrors don't really multiply entities, only their appearances, that is, their representations, and it's only the Web of Maya that makes us treat images as objects.  Or something ...
+
+_Toby_:  Evil isn\'t about whether there are more or fewer objects; it\'s about whether you can count the objects at all!  It\'s evil to say that $C$ has at least $2$ objects; all that you can say is that $C$ has at least $1$ object and (if it\'s true) that $C$ has at least $2$ isomorphism classes of objects.  To count things (beyond the question of whether there is at least $1$), you need a notion of equality of those things.
 =--
