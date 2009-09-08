@@ -1,41 +1,37 @@
 <div class="rightHandSide toc">
 [[!include higher geometry - contents]]
 </div>
-
-
 # Idea #
 
 In the general sense of [[space and quantity]]
-an $(\infty,1)$-[[(infinity,1)-topos|topos]] is a collection of generalized
-_spaces_, namely of [[presheaf|presheaves]] 
-(precisely: of $(\infty,1)$-[[(infinity,1)-sheaf|sheaves]])
+an [[(∞,1)-topos]] is a collection of generalized
+[[space]]s, namely of [[presheaf|presheaves]] 
+(precisely: of [[(∞,1)-sheaf|(∞,1)-sheaves]])
 on some [[site]] $S$.
 
-A [[structured (infinity,1)-topos]] $T \simeq Sh_\infty(S)$ is 
-an $(\infty,1)$-[[(infinity,1)-topos|topos]] equipped
-with a generalized _quantity_: a $C$-valued co-presheaf
+A [[structured (∞,1)-topos]] $T \simeq Sh_\infty(S)$ is 
+an [[(∞,1)-topos]] equipped
+with a generalized [[quantity]] : a $C$-valued co-presheaf
 
 $$
   C(-) : G \to T
 $$
 
-on some $(\infty,1)$-[[(infinity,1)-category|category]] $G$. 
+on some [[(∞,1)-category]] $G$. 
 
 This is to be interpreted as
 
 * assigning to each object $V \in G$ -- which we think of a _co-test space_
 
-* the $(\infty,1)$-[[(infinity,1)-sheaf|sheaf]] of _structure preserving maps_ from $S$ to $V$,
+* the [[(∞,1)-sheaf]] of _structure preserving maps_ from $S$ to $V$,
 
-  * i.e. the sheaf that assigns to each test space $U \in S$ the collection
-    of _structure preserving maps_ from $U$ to $V$
+  * i.e. the sheaf that assigns to each test space $U \in S$ the collection of _structure preserving maps_ from $U$ to $V$
 
 Here the structure that is "preserved" is 
 to be thought of as _defined_ (implicitly) by the choice of $C(-)$, following the
 general idea of [[space and quantity]]. 
 
-In standard motivating example (in the context of [[petit topos]]es), that
-of [[derived smooth manifold]]s, we have
+In standard motivating example (in the context of [[petit topos]]es), that of [[derived smooth manifold]]s, we have
 
 * $S = Op(X)$ is the [[category of open subsets]] of a [[topological space]] $X$
 
@@ -58,9 +54,8 @@ topological spaces equipped with extra geometrical structure.
 +-- {: .un_defn}
 ###### Definition
 
-A **homotopical topology** on an $(\infty,1)$-[[(infinity,1)-category|category]] $C$ is
-a [[Grothendieck topology]] on $C$ that is generated from its intersection
-with a subcategory $G^{ad} \subset G$ whose morphisms -- called the 
+A **homotopical topology** on an [[(∞,1)-category]] $C$ is
+a [[Grothendieck topology]] on $C$ that is generated from its intersection with a subcategory $G^{ad} \subset G$ whose morphisms -- called the 
 **admissable morphisms** have the following properties
 
 * admissable morphisms are stable under [[pullback]];
@@ -73,7 +68,7 @@ with a subcategory $G^{ad} \subset G$ whose morphisms -- called the
 
 A **geometry (for $(\infty,1)$-toposes)** is 
 
-* An $(\infty,1)$-[[(infinity,1)-category|category]] $G$ that
+* An [[(∞,1)-category]] $G$ that
 
   * is [[essentially small category|essentially small]];
   
@@ -87,9 +82,9 @@ A **geometry (for $(\infty,1)$-toposes)** is
 +-- {: .un_defn}
 ###### Definition
 
-For $G$ a geometry, and $T \simeq Sh_\infty(S)$ an $(\infty,1)$-[[(infinity,1)-topos|topos]],
+For $G$ a geometry, and $T \simeq Sh_\infty(S)$ an [[(∞,1)-topos]],
 a **$G$-structure on the $(\infty,1)$-topos $T$** making it a 
-[[structured (infinity,1)-topos]] is a $(\infty,1)$-[[(infinity,1)-functor|functor]]
+[[structured (∞,1)-topos]] is a [[(∞,1)-functor]]
 
 $$
   C(-) : G \to T
@@ -113,6 +108,15 @@ such that
   $$
 =--
 
+# Examples #
+
+## Deligne-Mumford stacks ##
+
+There is a geometry $G = G_{et}(k)$, the _etale geometry_, such that $G$-[[generalized scheme]]s that are [[n-localic (∞,1)-topos|1-localic]] are precisely [[Deligne-Mumford stack]]s. See there for more details.
+
+## derived smooth manifolds ##
+
+There should be a geometry $G$ such that $G$-[[generalized scheme]]s are precisely [[derived smooth manifold]]s.
 
 # References #
 
