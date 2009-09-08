@@ -27,6 +27,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-08
 
+* [[Urs Schreiber]]
+
+  * quick unformatted content filled in at [[n-localic (infinity,1)-topos]], to be continued later, have to run now...
+
+  * created stub for [[(0,1)-topos]], linked to it from [[locale]] with a small comment -- Toby might enjoy that -- this mainly to remind me to extract the essentce from section 6.4.2 in [[Higher Topos Theory|HTT]] later. Will also create [[(n,1)-topos]] then
+
+  * thanks to Todd for expanding at [[localic topos]]!
+
 *  [[Toby Bartels]]:  More at [[evil]]; we might actually be working out some mathematical facts here before too long!
 
 * [[Todd Trimble]] added some more to [[localic topos]]. 
