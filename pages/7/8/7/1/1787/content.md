@@ -6,3 +6,5 @@ To make it short i am a platonist, perspectivist, realist, minimalist, idealist 
 
 
 category: people
+
+[[!redirects Ra]]
