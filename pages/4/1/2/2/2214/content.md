@@ -28,6 +28,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]] 
 
+  * created _topic cluster floating table of contents_ [[(infinity,1)-topos - contents]] and included it in the linked entries
+
+  * created [[object classifier]] and linked to it from [[(∞,1)-topos]] and [[Higher Topos Theory]] and [[subobject classifier]]
+
   * slightly reorganized and then expanded the _topic cluster_ floating table of contents [[cohomology - contents]]. in that context I
 
     * created [[orientation]], [[Spin structure]], [[Fivebrane structure]] and slightly expanded [[String structure]]
