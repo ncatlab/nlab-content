@@ -1,5 +1,9 @@
 <div class="rightHandSide toc">
 [[!include cohomology - contents]]
+
+***
+
+[[!include (infinity,1)-topos - contents]]
 </div>
 
 
