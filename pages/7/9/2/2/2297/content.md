@@ -2,4 +2,4 @@
 
 
 
-category: people
+category: biography
