@@ -12,7 +12,11 @@ $$
 
 Formal group laws of dimension $1$ proved to be important in [[algebraic topology]], especially in the study of [[cobordism]], starting with the works of Novikov, Buchstaber and Quillen; among the generalized cohomology theories the complex cobordism is characterized by the so-called universal group law; moreover the usage is recently paralleled in the theory of [[algebraic cobordism]] of Morel and Levine in [[algebraic geometry]].  
 
-Much more general are __formal group schemes__. They are simply the group objects in a category of [[formal schemes]]; however usually only the case of the formal spectra of complete $k$-algebras is considered; this category is equivalent to the category of complete cocommutative $k$-[[Hopf algebras]]. For a generalization over [[operads]] see
+Much more general are formal group schemes from
+
+* Grothendieck et al. SGA III, vol. 1, Expose VIIB (P. Gabriel) ETUDE INFINITESIMALE DES SCHEMAS EN GROUPES (part B) 474-560 
+
+__Formal group schemes__ are simply the group objects in a category of [[formal schemes]]; however usually only the case of the formal spectra of complete $k$-algebras is considered; this category is equivalent to the category of complete cocommutative $k$-[[Hopf algebras]]. For a generalization over [[operads]] see
 
 * B. Fresse, _Lie theory of formal groups over an operad_, J. Alg. __202__, 455--511, 1998. 
 
