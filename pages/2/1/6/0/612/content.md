@@ -7,7 +7,7 @@
 
 #References (partly) indexed on the $n$Lab#
 
-* [[Higher Topos Theory]] ([arXiv](http://www-math.mit.edu/~lurie/papers/survey.pdf))
+* [[Higher Topos Theory]] ([arXiv](http://arxiv.org/abs/math/0608040))
 
   on [[higher category theory]] and [[higher topos theory]]
 
@@ -41,4 +41,4 @@
 
 =--
 
-category: people
+category: biography
