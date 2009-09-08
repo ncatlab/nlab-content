@@ -1,5 +1,7 @@
-[[!redirects gerbes]]
-[[!redirects gerb]]
+<div class="rightHandSide toc">
+[[!include cohomology - contents]]
+</div>
+
 
 The material on _gerbes_ is split into several sub-entries:
 
@@ -12,3 +14,5 @@ The material on _gerbes_ is split into several sub-entries:
 * [[gerbe (general idea)]]
 
 
+[[!redirects gerbes]]
+[[!redirects gerb]]
