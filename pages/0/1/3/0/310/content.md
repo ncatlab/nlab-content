@@ -79,4 +79,9 @@ The unit of the [[adjoint functor|adjunction]], applied to a Heyting algebra $L$
 Thus $\neg\neg: L \to L_{\neg\neg}$ preserves finite joins and finite meets and implication. In the other direction, we have an inclusion $i: L_{\neg\neg} \to L$, and this preserves meets but not joins, and negations but not implications generally. 
 
 
+## Categorification
+
+An [[elementary topos]] is a [[vertical categorification]] of a Heyting algebra.  In other words, a $0$-topos (or more precisely, a $(0,1)$-topos) is essentially a Heyting algebra.  Note that a [[Grothendieck topos|Grothendieck]] $0$-topos is a [[locale]].
+
+
 [[!redirects Heyting algebras]]
