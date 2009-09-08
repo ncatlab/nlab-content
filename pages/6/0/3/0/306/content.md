@@ -63,6 +63,13 @@ In fact, using the notion of [[(-1)-category]] the subobject classifier in [[Set
 
 the 2-element set $\mathbf{2}$ may be regarded as the [[0-category]] of [[(-1)-category|(-1)-categories]] (of which there are two) and the one-element set $*$ is the [[0-category]] of [[pointed object|pointed]] [[(-1)-category|(-1)-categories]], of which there is one.
 
+In the context of [[(∞,1)-topos]] [[Higher Topos Theory|theory]] subobject classifiers are discussed in section 6.1.6 of
+
+* [[Jacob Lurie]], [[Higher Topos Theory]].
+
+As pointed out there, it is not so much a _subobject_ classifier that matters in [[higher topos theory]], but an [[object classifier]].
+
+
 #References#
 
 section I.3 and I.4 in
