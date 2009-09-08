@@ -11,3 +11,5 @@ $$
 0\to \mathcal{E}\to\mathcal{E}'\to \mathcal{E}''\to 0
 $$
 are coherent then so is the third. All this holds even if $\mathcal{O}$ is a sheaf of noncommutative [[rings]]. For commutative $\mathcal{O}$, the inner hom $Hom_{\mathcal{O}}(\mathcal{E},\mathcal{F})$ in the category of sheaves of $\mathcal{O}$-modules is coherent if $\mathcal{E},\mathcal{F}$ are coherent. 
+
+[[!redirects coherent sheaves]]
