@@ -19,7 +19,15 @@ More abstract, this is characterized by saying
 
 *  In the Lab, we tend to use 'presentable' for a locally presentable category.  But another notion of when a category is 'presentable' is given by an [[algebraic category|equationally presentable category]].
 
++-- {: .query}
+[[Mike Shulman]]: I agree that "locally" is a poor choice (and an overworked word), but I think that merely "presentable" is worse; some adjective must be used and "locally" has the weight of history behind it.  The important point requiring the adjective is that it is the _objects_ of the category which are presentable, rather than the category itself.  For instance, consider the notion of "locally _finitely_ presentable category," in which the generating set $S$ consists of finitely presentable objects, i.e. $\omega$-small ones.  If you drop the word "locally" then you would get "finitely presentable category" which means something completely different, namely an $\omega$-small object of [[Cat]].
+
+I'm guessing that when you say "presentable category" you are thinking of the set $S$ as "presenting" the category in some way, but I think this is wrong.  The notion of "presentable object" has a precise meaning in the very theory we are discussing, so we shouldn't apply it unqualified to the category as well with a different meaning.
+=--
+
 *  The generalization of the concept to the context of [[(infinity,1)-category|(infinity,1)-categories]] is [[presentable (infinity,1)-category]].
+
+* If the generating set $S$ consists of $\kappa$-small objects (usually called "$\kappa$-presentable" in this context), then the category is said to be "locally $\kappa$-presentable."  Of particular importance are [[locally finitely presentable categories]], the special case when $\kappa=\omega$.
 
 
 #References#
@@ -69,7 +77,11 @@ _Toby_:  OK.  Remember when making an existing page into a redirect now, you sho
 _Urs_: ah, thanks. What's that last step? Do we have a HowTo on that?
 
 _Toby_:  It\'s discussed very briefly at [[redirect]]; you can find much more on the Forum [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=16&page=1#Item_33).  But I probably should write something clear at [[HowTo]].
+
+[[Mike Shulman]]: Coming into this discussion late, let me speak up in favor of "locally presentable."  I agree that "locally" is a poor choice (and an overworked word), but the important point is that it is the _objects_ of the category which are presentable, rather than the category itself.  For instance, consider the notion of "locally _finitely_ presentable category," in which the generating set $S$ consists of finitely presentable objects, i.e. $\omega$-small ones.  If you drop the word "locally" then you would get "finitely presentable category" which means something completely different, namely an $\omega$-small object of [[Cat]].
 =--
 
 
 [[!redirects presentable category]]
+[[!redirects locally presentable categories]]
+[[!redirects presentable categories]]
