@@ -1,3 +1,7 @@
+<div class="rightHandSide toc">
+[[!include (infinity,1)-topos - contents]]
+</div>
+
 
 # Idea #
 
