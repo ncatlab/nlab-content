@@ -62,7 +62,11 @@ Note that the definability of $g \circ f$ is now the set $Iso(b,c)$ rather than 
 [[Mike Shulman]]: That wasn't me above, I don't think.  I would consider "let $g : b \to c$ and $f: a \to b$ be morphisms" as implicitly using dependent types if you're considering it to avoid evil.  It seems to me that in a non-dependently typed theory, the only thing "let $g : b \to c$ and $f: a \to b$ be morphisms" can mean is "let $g$ and $f$ be morphisms such that $\dom f = a$, $\cod f = b$, $\dom g = b$, and $\cod g=c$," which does involve talking about equality of objects.
 
 _Toby_:  Right on both counts: that was an [[Anonymous Coward]] in the first comment, and the phrasing that the Coward suggested does implicitly use dependent types (as I alluded to in my original reply).  Makkai says 'dependent sorts' (the 'DS' in 'FOLDS') instead for some reason.  Can we avoid evil in an independently typed (possibly even untyped) language?  I think that this should be possible; we would need rules about when you can and can\'t state equalities; maybe, you can state $\forall f, dom f = x \Rightarrow ...$ and the obvious variations, but no others?
+
+[[Mike Shulman]]: In other words, you can secretly make your independent types act like dependent ones?  (-:
 =--
+
+The following discussion is about the (un)suitability of the following epigraph:
 
 _Mirrors and copulation are abominable,_ <br>
 _for they multiply the number of mankind._ <br>
@@ -85,4 +89,6 @@ _for they multiply the number of mankind._ <br>
 [[Jon Awbrey]]:  Re: "a concept is ... _evil_ ... if it distinguishes between isomorphic objects".  That seems to be a recommendation against distinguishing isomorphic objects.  That's a pretty familiar position, if that's all it's saying.  The gist of the jest is that mirrors don't really multiply entities, only their appearances, that is, their representations, and it's only the Web of Maya that makes us treat images as objects.  Or something ...
 
 _Toby_:  Evil isn\'t about whether there are more or fewer objects; it\'s about whether you can count the objects at all!  It\'s evil to say that $C$ has at least $2$ objects; all that you can say is that $C$ has at least $1$ object and (if it\'s true) that $C$ has at least $2$ isomorphism classes of objects.  To count things (beyond the question of whether there is at least $1$), you need a notion of equality of those things.
+
+[[Mike Shulman]]: Ditto Toby.  Making there be fewer objects would be like passing to the [[skeleton]] of a category, but the very *notion* of a skeleton is evil.
 =--
