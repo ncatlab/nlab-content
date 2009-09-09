@@ -27,6 +27,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-09
 
+*  [[Toby Bartels]]:  Discussions at [[center]], [[evil]], [[graph]], [[boolean domain]], [[limits and colimits by example]], [[semicartesian monoidal category]].
+
 * [[Mike Shulman]]: 
 
   * I have a different opinion about the [[center]] of a set.
