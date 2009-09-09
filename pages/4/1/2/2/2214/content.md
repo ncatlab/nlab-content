@@ -29,7 +29,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]
 
-  * added an "Idea" section to [[localic (infinity,1)-topos]]
+  * added a quer box at [[limits and colimits by example]] in the section titled "for programmers". I am suggesting that since the material doesn't actually use a computer program to explain limits and colimits but instead explains how to write such a computer program, the material should be moved elsewhere. 
+
+  * added an "Idea" section to [[n-localic (infinity,1)-topos]]
 
   * slightly expanded the remark under "Generalizations" at [[localic topos]], trying to indicate the pattern
 
