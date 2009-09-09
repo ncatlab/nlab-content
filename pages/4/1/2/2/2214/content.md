@@ -27,6 +27,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-09
 
+*  [[Toby Bartels]]:  More commentary at [[boolean domain]] and [[graph]].
+
 * [[Todd Trimble]]: added still more to the long discussion at the bottom of [[graph]]. 
 
 *  [[Toby Bartels]]:  Created [[barycentric algebra]], mostly to explain the stuff about convex sets in the discussion at [[semicartesian monoidal category]].
