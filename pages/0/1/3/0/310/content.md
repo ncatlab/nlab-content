@@ -81,7 +81,7 @@ Thus $\neg\neg: L \to L_{\neg\neg}$ preserves finite joins and finite meets and 
 
 ## Categorification
 
-An [[elementary topos]] is a [[vertical categorification]] of a Heyting algebra.  In other words, a $0$-topos (or more precisely, a $(0,1)$-topos) is essentially a Heyting algebra.  Note that a [[Grothendieck topos|Grothendieck]] $0$-topos is a [[locale]].
+An [[elementary topos]] is a [[vertical categorification]] of a Heyting algebra.  In other words, a $0$-topos (or more precisely, a $(0,1)$-[[(0,1)-topos|topos]]) is essentially a Heyting algebra.  Note that a [[Grothendieck topos|Grothendieck]] $0$-topos is a [[locale]].
 
 
 [[!redirects Heyting algebras]]
