@@ -8,11 +8,28 @@ For examples of the other [[universal construction]]s see
 
 * [[examples of Kan extensions]]
 
-#Examples of limits#
+#Contents#
+
+* [Examples of limits](#examplesoflimits)
+
+  * [simple diagrams](#limitssimplediagrams)
+
+  * [filtered limits](#filteredlimits)
+
+  * [in term of other operations](#limitsintermsofotherops)
+
+  * [limits and colimits in Set](#limcoliminset)
+ 
+  * [limits in presheaf categories](#limitsinpresheafcat)
+
+  * [limits in under categories](#limitsinundercat)
+
+
+#Examples of limits {#examplesoflimits}
 
 In the following examples, $D$ is a [[small category]], $C$ is any category and the limit is taken over a functor $F : D^{op} \to C$.
 
-## simple diagrams ##
+## simple diagrams {#limitssimplediagrams}
 
 
 * the limit of the empty diagram $D = \emptyset$ in $C$ is, if it exists [[nLab:generalized the|the]] [[nLab:terminal object|terminal object]];
@@ -23,13 +40,13 @@ In the following examples, $D$ is a [[small category]], $C$ is any category and 
 
 * if $D$ has an [[nLab:terminal object|terminal object]] $I$ (so that $I$ is an [[nLab:initial object|initial object]] in $D^{op}$), then the limit of any $F : D^{op} \to C$ is $F(I)$.
 
-## filtered limits ##
+## filtered limits {#filteredlimits}
 
 * if $D$ is a [[nLab:poset|poset]], then the limit over $D^{op}$ is the supremum over the $F(d)$ with respect to $(F(d) \leq F(d')) \Leftrightarrow (F(d) \stackrel{F(\leq)}{\leftarrow} F(d'))$;
 
 * the generalization of this is where the term "limit" for categorical limit (probably) originates from: for $D$ a [[nLab:filtered category|filtered category]], hence $D^{op}$ a cofiltered category, one may think of $(d \stackrel{f}{\to} d') \mapsto (F(d) \stackrel{F(f)}{\leftarrow} F(d')$ as witnessing that $F(d')$ is "larger than" $F(d)$ in some sense, and $lim F$ is then the "largest" of all these objecs, the limiting object. This interpretation is perhaps more evident for filtered [[nLab:colimit|colimits]], where the codomain category $C$ is thought of as being the [[nLab:opposite category|opposite]] $C = E^{op}$. See the motivation at [[nLab:ind-object|ind-object]].
 
-## in terms of other operations ##
+## in terms of other operations {#limitsintermsofotherops}
 
 the limit of $F : D^{op} \to C$ is always a [[nLab:subobject|subobject]] of the [[nLab:product|product]] of the $F(d)$, namely the [[nLab:equalizer|equalizer]] of
 
@@ -59,7 +76,7 @@ in terms of a subset of a product set.
 In particular therefore, a category has all limits already if it has all products and equalizers.
 
 
-## limits and colimits in Set ##
+## limits and colimits in Set {#limcoliminset}
 
 In the [[category]] [[Set]] of [[set]]s, [[limit]]s and [[colimit]]s reduce to the very familiar operations of 
 
@@ -94,7 +111,8 @@ $Set(X, lim F) \simeq lim Set(X,F(-))$, where on the right the limit is taken of
   $$
   If $D$ is a [[filtered category]] then the relation $\sim$ already is an equivalence relation.
 
-### limits in presheaf categories ###
+
+### limits in presheaf categories {#limitsinpresheafcat}
 
 Here consider limits of functors $F : D^{op} to PSh(C)$
 with values in the category of [[nLab:presheaf|presheaves]] on a [[nLab:small category|small category]] $C$.
@@ -123,7 +141,102 @@ $$
 if $lim F$ exists.
 =--
 
+
+## Limits in under-categories {#limitsinundercat}
+
+Limits in [[under category|under categories]] are a special case of limits in [[comma category|comma categories]]. These are explained elsewhere. It may still be useful to spell out some details for the special case of under-categories. This is what the following does.
+
+
++-- {: .un_prop}
+###### Proposition
+
+Limits in an [[under category]] are computed as limits in the underlying category.
+
+Precisely: let $C$ be a [[category]], $t \in C$ an [[object]], and $t/C$ the corresponding [[under category]], and $p : t/C \to C$ the obvious projection.
+
+Let $F : D \to t/C$ be any [[functor]]. Then, if it exists, the [[limit]] over $p \circ F$ in $C$ is the image under $p$ of the limit over $F$:
+
+$$
+  p(\lim F)  \simeq \lim (p F)
+$$
+
+and $\lim F$ is uniquely characterized by $\lim (p F)$.
+
+
+=--
+ 
++-- {: .proof}
+###### Proof
+
+Over a morphism $\gamma : d \to d'$ in $D$ the limiting cone over $p F$  (which exists by assumption) looks like
+
+$$
+  \array{
+    && \lim p F
+    \\
+    & \swarrow && \searrow
+    \\
+    p F(d) &&\stackrel{p F(\gamma)}{\to}&& p F(d') 
+  }
+$$
+
+
+By the universal property of the limit this has a unique
+lift to a cone in the [[under category]] $t/C$ over $F$:
+
+$$
+  \array{
+    && t 
+    \\
+    & \swarrow &\downarrow & \searrow
+    \\
+    && \lim p F
+    \\
+    \downarrow & \swarrow && \searrow & \downarrow
+    \\
+    p F(d) &&\stackrel{p F(\gamma)}{\to}&& p F(d') 
+  }
+$$
+
+
+It therefore remains to show that this is indeed a limiting cone over $F$. Again, this is immediate from the universal property of the limit in $C$. For let $t \to Q$ be another cone over $F$ in $t/C$, then $Q$ is another cone over $p F$ in $C$ and we get in $C$ a universal morphism $Q \to \lim p F$
+
+$$
+  \array{
+    && t
+    \\
+    & \swarrow & \downarrow & \searrow
+    \\
+    && Q
+    \\
+    \downarrow & \swarrow &\downarrow & \searrow & \downarrow
+    \\
+    && \lim p F
+    \\
+    \downarrow & \swarrow && \searrow & \downarrow
+    \\
+    p F(d) &&\stackrel{p F(\gamma)}{\to}&& p F(d') 
+  }
+$$
+
+
+A glance at the diagram above shows that
+the composite $t \to Q \to \lim p F$ constitutes a morphism
+of cones in $C$ into the limiting cone over $p F$. Hence it must equal our morphism $t \to \lim p F$, by the universal property of $\lim p F$, and hence the above diagram does commute as indicated.
+
+This shows that the morphism $Q \to \lim p F$
+which was the unique one giving a cone morphism on $C$ does lift to a
+cone morphism in $t/C$, which is then necessarily unique, too.  This demonstrates the required universal property of $t \to \lim p F$ and 
+thus identifies it with $\lim F$.
+
+
+=--
+
+
 +--{.query}
+
+>the following discussion originated from an earler version of this entry
+
 [[Todd Trimble]]: So far, this is a really good article. However, I would not say in this last line "if either limit exists", because small limits on the right certainly exist always since $Set$ is complete; instead, "if $lim F$ exists". 
 
 [[Urs Schreiber|Urs]]: thanks, Todd, I have changed the above now accordingly. Please don't hesitate to correct and/or improve things you see as needed.
@@ -144,6 +257,13 @@ The material below "explanation for programmers" goes more in that pedagogical d
 
 
 # Catgeorical coproduct: an explanation for programmers #
+
++--{.query}
+
+[[Urs Schreiber]]: sorry to say this, but I am not so happy with the following material here at this particular entry. This entry here is supposed to explain limits and colimits. Originally I thought that the computer program described below should be _used_ here to _help explain_ limits and colimits. For instance by using its graphical output for illustration purposes. But instead the material below explains how to _write that program_ . That may be of interest, too, but here at this entry it seems a bit of a distraction. Could we move the following material to its seperate entry? 
+
+=--
+
 
 A web-based program that generates componentwise illustrations of simple [[limit]]s and [[colimit]]s in [[Set]] is developed at
 
