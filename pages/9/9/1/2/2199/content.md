@@ -2,9 +2,11 @@
 [[!redirects boolean variable]]
 [[!redirects Boolean variable]]
 
+
 A __boolean domain__ $\mathbb{B}$ is a generic 2-element set, say, $\mathbb{B} = \{ 0, 1 \}$, whose elements are intended for interpretation as logical values, commonly but not invariably, with $0 = \mathop{false}$ and $1 = \mathop{true}$.
 
 A __boolean variable__ $x$ is a variable that takes its value from a boolean domain, as $x \in \mathbb{B}$.
+
 
 ## Discussion ##
 
@@ -12,14 +14,18 @@ Jon: What I wrote above is all I really intended to say here.  The bit about "in
 
 Jon: I am bracketing the following additions by Toby, as I can't tell whether they fit the intentions I have here.  (Partly because one of my intentions is to keep this particular base of conceptual recursion as simple as possible.)
 
-* Toby: In particular, the set of [[truth values]] in [[classical logic]], $\{ \bot, \top \}$, is a Boolean domain.
+> In particular, the set of [[truth values]] in [[classical logic]], $\{ \bot, \top \}$, is a Boolean domain.
 
-* Toby: If we think of $\mathbb{B}$ as a [[pointed set]] equipped with the element that is interpreted as $true$ (so that the other element must be interpreted as $false$), then there is an [[generalized the|effectively unique]] boolean domain.
+> If we think of $\mathbb{B}$ as a [[pointed set]] equipped with the element that is interpreted as $true$ (so that the other element must be interpreted as $false$), then there is an [[generalized the|effectively unique]] boolean domain.
 
-* Toby: If this variable depends on parameters, then it is (or defines) a [[Boolean-valued function]], that is a [[function]] whose target if $\mathbb{B}$.
+> If this variable depends on parameters, then it is (or defines) a [[Boolean-valued function]], that is a [[function]] whose target if $\mathbb{B}$.
 
 Jon:  The way I'll be doing things, there is actually an important distinction between the mathematical object $\mathbb{B} = \{ 0, 1 \}$ and the set of logical values $\{ \mathop{false}, \mathop{true} \}$.  There is a step of interpretation --- or "applying the mathematics to the logical subject matter" --- that separates them.  There is of course the usual interpretation, so we often get sloppy about when exactly we cross the line of interpretation, but there are good reasons for observing it at other times.
 
 Toby: Well, maybe you should just go ahead and write what you intend to write here;  everything here is a work in progress and your text can clash with mine for a bit until we work it out.  But on the nLab, we\'re very much into a structural approach to mathematics, and we\'ll want to say when one thing can be interpreted as another, and when two things are equivalent, and if so in what ways.
 
 [[Mike Shulman]]: Agreed with Toby, perhaps even more strongly.  I think his additions should definitely be part of the page.
+
+_Toby_:  Regarding the middle bracketed item, it might work to separate this from [[Boolean field]], the latter being for a *pointed* (or equivalently *ordered*) $2$-element set, with this page for an *unstructured* $2$-element set.  That said, I don\'t see how you can disagree with the other two bracketed items; the first one is certainly true ($\{ \bot, \top \}$ is as much a $2$-element set as $\{ 0, 1 \}$) and the last one is necessary to agree with the usual meaning of the term 'variable' in logic.
+
+Also, Jon, I think that you should seriously think about Todd\'s suggestion at [[graph]] to get a personal web here.  (Like [[tobybartels:HomePage|mine]].)  Then you wouldn\'t run into people interfering with your intentions so much, but you\'d still get some of the benefits of a large group looking over the material and adding comments or minor corrections.  (The group of people that read the personal webs is smaller, but it includes me and Mike.  I *think* that you\'ve found some of my edits useful.)  Then when something there gets into a state where the rest of us can clearly see the broader picture, you can move (or copy) it here and we\'ll have a better understanding of what it\'s for.  (This is largely how [[schreiber:HomePage|our most prolific contributor]] operates.)  In the meantime, you can still link that material from here, so it won\'t get lost in a ghetto.
