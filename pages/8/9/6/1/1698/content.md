@@ -292,6 +292,7 @@ $$
 
 The same logic -- even the same diagrams -- work for [[principal 2-bundles]] and generally for [[principal ∞-bundles]].
 
+
 [[!redirects fibration sequences]]
 [[!redirects cofibration sequence]]
 [[!redirects homotopy fiber]]
