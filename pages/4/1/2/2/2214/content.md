@@ -28,6 +28,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ## 2009-09-09
 
 *  [[Toby Bartels]]:
+   *  The centre of a set at [[center]].
    *  The Hahn--Banach Theorem for separable spaces at [[locally convex space]].
    *  A note about the meanings of 'convex set' at [[semicartesian monoidal category]].
    *  Physics notation at [[Weyl algebra]].
