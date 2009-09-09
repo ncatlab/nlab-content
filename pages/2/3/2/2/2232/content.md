@@ -9,9 +9,13 @@ The __center of a Lie algebra__ $L$ is an abelian Lie subalgebra $Z(L)$, consist
 
 ## Centers of categories and higher categories
 
-The centre of a monoid can be [[horizontal categorification|horizontally categorified]] to the center of a [[category]].  Specifically, the center of a category $C$ is defined to be the [[monoidal category]] $[C,C](Id_C,Id_C)$ of [[natural transformation|endo-natural-transformations]] of the [[identity functor]] of $C$; it is straightforward to check that this reduces to the usual definition if $C$ is a monoid, considered as a one-object category.
+The centre of a monoid can be [[horizontal categorification|horizontally categorified]] to the center of a [[category]].  Specifically, the center of a category $C$ is defined to be the commutative monoid $[C,C](Id_C,Id_C)$ of [[natural transformation|endo-natural-transformations]] of the [[identity functor]] of $C$.  It is straightforward to check that this reduces to the usual definition if $C$ is a monoid, considered as a one-object category.
 
 The definition of the centre of a category has an obvious (vertical) [[decategorification]] to define the centre of a [[set]]: it is the monoid of [[endofunction]]s on the set.
+
++--{: .query}
+[[Mike Shulman]]: It seems to me that the monoid of endofunctions of a set would be the decategorification of $[C,C]$, not $[C,C](Id_C,Id_C)$.  The center of a set should be the endotransformations _of_ the identity endofunction (of which there is only one, the identity).  Moreover, since the center of a category is a commutative monoid, and the center of a bicategory is a braided monoidal category (horizontally categorifying the center of a monoidal category), the center construction acts like a knights-move on the periodic table; thus it makes sense that the center of a set should be a symmetric monoidal $(-1)$-category, i.e. "True."
+=--
 
 The center of a group or monoid can also be [[vertical categorification|vertically categorified]]: one can define the center of a [[monoidal category]].  The center of a monoidal category is a [[braided monoidal category]], which is [[symmetric monoidal category|symmetric]] if the original category was braided.
 
