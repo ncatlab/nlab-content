@@ -418,3 +418,4 @@ A comparison of Trimble's definition with that of a [[Batanin omega-category]] i
 
 
 [[!redirects Trimble's notion of weak n-category]]
+[[!redirects Trimble's notion of weak n-category]]
