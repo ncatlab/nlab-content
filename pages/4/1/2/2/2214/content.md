@@ -27,6 +27,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-09
 
+* [[Urs Schreiber]]: thanks, once more, to [[Todd Trimble|Todd]], for the discussion of monadicity et al at [[limits and colimits by example]]. We should eventually brach that kind of discussion off into an entry in its own right and expand
+
 * [[Jon Awbrey]] entered the fray of discussion at [[graph]].
 
 * [[Todd Trimble]]: Per Urs's request below, I checked the limits in under-category he wrote, and added a remark at the end. 
