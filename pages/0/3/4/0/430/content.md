@@ -2,7 +2,8 @@ In classical mathematics, a **field** is a [[commutative ring]] in which every n
 
 Fields are not as well-behaved categorically as most other common algebraic structures ([[group]]s, [[ring]]s, [[module]]s, etc.).  In particular, the category of fields is not [[complete category|complete]] or [[cocomplete category|cocomplete]], although it is [[accessible category|accessible]]. 
 
-Words field and field theory are also used in mathematical physics and geometry with a completely different meaning denoting a quantity over some space, thus vector fields, classical scalar fields, classical vector fields, quantum fields and so on. 
+The words 'field' and 'field theory' are also used in mathematical physics and geometry with a completely different meaning denoting a quantity over some space, thus [[vector field]]s, classical [[scalar field]]s, classical [[tangent vector field]]s, [[quantum field]]s and so on.  Probably these should be summarised at something like [[physical field]].
+
 
 ## Constructive notions of field ##
 
