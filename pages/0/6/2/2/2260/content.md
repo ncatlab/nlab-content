@@ -1,47 +1,52 @@
 Book entry
 
-Francis Borceux, Dominique Bourn, _Mal'cev, protomodular, homological and semi-abelian categories_, Mathematics and Its Applications __566__, Kluwer 2004
+*  Francis Borceux, Dominique Bourn, _Mal'cev, protomodular, homological and semi-abelian categories_, Mathematics and Its Applications __566__, Kluwer 2004
 
-Contents:
 
-Preface
+# Contents:
 
-1 Metatheorems
+* Preface
 
-2 [[Mal'cev categories]]
+1. Metatheorems
 
-3 Protomodular categories
+2. [[Mal'cev categories]]
 
-4 Homological categories
+3. [[protomodular category|Protomodular categories]]
 
-5 [[semi-abelian category|Semi-abelian categories]]
+4. [[homological category|Homological categories]]
 
-6 Strongly protomodular categories
+5. [[semi-abelian category|Semi-abelian categories]]
 
-7 Essentially affine categories
+6. [[strongly protomodular category|Strongly protomodular categories]]
 
-Appendix
+7. [[essentially affine category|Essentially affine categories]]
 
-A1 [[algebraic theory|Algebraic theories]]
+* Appendix
 
-A2 Internal relations
+  1. [[algebraic theory|Algebraic theories]]
 
-A3 Internal groupoids
+  2. [[internal relation|Internal relations]]
 
-A4 Variations on epimorphisms
+  3. [[internal groupoid|Internal groupoids]]
 
-A5 Regular and exact categories
+  4. Variations on [[epimorphisms]]
 
-A6 [[monad|Monads]]
+  5. [[regular category|Regular]] and [[exact categories]]
 
-A7 [[Grothendieck fibration|Fibrations]]
+  6. [[monad|Monads]]
 
-Classification table of fibrations of points
+  7. [[Grothendieck fibration|Fibrations]]
 
-Bibliography
+* Classification table of fibrations of points
 
-Index of symbols
+* Bibliography
 
-Index of definitions
+* Index of symbols
 
-+++++++++++++++++++++++++++++++++++++++++++++++
+* Index of definitions
+
+
+category: reference
+
+[[!redirects Borceux–Bourn]]
+[[!redirects Borceux--Bourn]]
