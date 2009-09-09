@@ -17,3 +17,5 @@ This should be regarded as a major extrapolation of Grothendieck's Galois theory
 # Generalizations #
 
 In the context of [[(∞,1)-topos]] [[Higher Topos Theory|theory]] there is a notion of [[n-localic (∞,1)-topos]].
+
+Notice that a [[locale]] is itself a (Grothendieck) [[(0,1)-topos]]. Hence a localic topos is a 1-[[topos]] that behaves essentially like a [[(0,1)-topos]]. In the wider context this would be called a [[n-localic (infinity,1)-topos|1-localic (1,1)-topos]].
