@@ -66,4 +66,8 @@ As discussed in the article on [[operad|operads]], the notion of Lawvere theory 
 
 1. Some people use 'finite-product theory' to mean a category with finite products, not necessarily with the property that every object is isomorphic to a product of copies of a given object $x$, reserving 'Lawvere theory' to refer to finite product theories with this special property.  Some, but not all, the above discussion generalizes to this case.  There is, for example, a finite products theory for ring-module pairs.
 
+
 [[!redirects finite-product theory]]
+[[!redirects finite product theory]]
+[[!redirects finite-products theory]]
+[[!redirects finite products theory]]
