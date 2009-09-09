@@ -48,3 +48,7 @@ E. Cheng and N. Gurski's,  _The periodic table of $n$-categories for low dimensi
 $n$Caf&#233; discussion:
 
 * [_Semistrict $\infty$-categories and $\omega$-Semi-Categories_](http://golem.ph.utexas.edu/category/2008/10/semicategories.html)
+
+
+[[!redirects Simpson conjecture]]
+[[!redirects Simpson's conjecture]]
