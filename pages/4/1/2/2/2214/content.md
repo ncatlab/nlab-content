@@ -27,6 +27,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-09
 
+* [[Mike Shulman]]: 
+
+  * I have a different opinion about the [[center]] of a set.
+  * Discussions at [[evil]], [[graph]], and [[boolean domain]].
+
 * [[Jon Awbrey]]:  Continuing discussion at [[graph]].  I won't try to note each entry here, unless that's the rule.
 
 * [[Jon Awbrey]]:  I added an Idea section to [[relation theory]] with what I can recall of how I got into that.  Incidentally, the x-tended code for the amphora symbol (@) now causes Ruby to go off the Rails, so I had to use \text{@} instead.
