@@ -17,10 +17,12 @@ An [[algebraic theory]] $T$ is a __Mal'cev theory__ when $T$ contains a Mal'cev 
 Statement (i) is one of the motivations to introduce the notion of [[Mal'cev category]]. 
 
 
-A __Mal'cev variety__ is the category of $T$-algebras for a Mal'cev theory $T$, thought of as an [[algebraic variety]]. 
+A __Mal'cev variety__ is the category of $T$-algebras for a Mal'cev theory $T$, thought of as a [[variety of algebras]]. 
 
 +--{: .query}
 [[Mike Shulman]]: Surely you mean a [[variety of algebras]], rather than an algebraic variety?
+
+_Toby_:  Yeah, I\'m always doing that!
 =--
 
 
@@ -31,7 +33,7 @@ See the monograph [[Borceux-Bourn]].
 
 ## Spelling
 
-The original is '&#1052;&#1072;&#1083;&#1100;&#1094;&#1077;&#1074;'; besides 'Mal'cev', this has also been transliterated 'Malcev' and 'Maltsev'.
+The original is '&#1052;&#1072;&#1083;&#1100;&#1094;&#1077;&#1074;'; besides 'Mal&#697;cev', this has also been transliterated 'Malcev' and 'Maltsev'.
 
 
 [[!redirects Mal'cev varieties]]
@@ -41,6 +43,10 @@ The original is '&#1052;&#1072;&#1083;&#1100;&#1094;&#1077;&#1074;'; besides 'Ma
 [[!redirects Mal'cev varieties]]
 [[!redirects Mal'cev operation]]
 [[!redirects Mal'cev theory]]
+[[!redirects Malʹcev variety]]
+[[!redirects Malʹcev varieties]]
+[[!redirects Malʹcev operation]]
+[[!redirects Malʹcev theory]]
 [[!redirects Malcev variety]]
 [[!redirects Malcev varieties]]
 [[!redirects Malcev operation]]
