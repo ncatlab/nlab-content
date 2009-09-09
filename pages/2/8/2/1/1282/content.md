@@ -263,6 +263,8 @@ The material below "explanation for programmers" goes more in that pedagogical d
 
 [[Urs Schreiber]]: sorry to say this, but I am not so happy with the following material here at this particular entry. This entry here is supposed to explain limits and colimits. Originally I thought that the computer program described below should be _used_ here to _help explain_ limits and colimits. For instance by using its graphical output for illustration purposes. But instead the material below explains how to _write that program_ . That may be of interest, too, but here at this entry it seems a bit of a distraction. Could we move the following material to its seperate entry? 
 
+_Toby_:  I would agree that the material on how to write the program would work well in a separate entry, say [[programming coproducts]].  On the other hand, you definitely want to keep the first two lines here; they do just what you want and could be expanded on here.
+
 =--
 
 
