@@ -1,8 +1,18 @@
 [[!redirects n-localic (∞,1)-topos]]
 
+# Idea #
 
-The generalizatoin of the notion of [[localic topos]]
-to the context of [[(∞,1)-topos]]es.
+Recall that a [[topos]] may be thought of as a generalized [[topological space]]. A [[localic topos]] is one that essentially behaves  like an ordinary [[topological space]] after all.
+
+In [[higher topos theory]] one realizes that an ordinary [[topos]] that is a [[localic topos]] may be thought of as a [[(1,1)-topos]] that _effectively behaves_ like a [[(0,1)-topos]]. And a (Grothendieck) [[(0,1)-topos]] is effectily a [[locale]] which is essentially a [[topological space]].
+
+This is the beginning of a pattern: a $k$-localic [[(n,1)-topos]] for $0 \leq k \leq n \leq \infty$ is a [[(n,1)-topos]] that effectively behaves like a $(k,1)$-topos.
+
+In other words, when we embed $(k,1)$-toposes in the larger context of $(n,1)$-toposes for $k \leq n$ then we can remember those $(n,1)$-toposes that came from $(k,1)$-toposes by noticing that these are $k$-localic.
+
+# Definition (raw material at the moment) #
+
+
 
 recall from somewhere that for $X$ an [[(infinity,1)-topos]]
 the symbols $\tau_{n-1} X$ denote the essential image of the truncation
