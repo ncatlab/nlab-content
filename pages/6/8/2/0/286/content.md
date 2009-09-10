@@ -66,6 +66,8 @@ _Toby_:  Right on both counts: that was an [[Anonymous Coward]] in the first com
 [[Mike Shulman]]: In other words, you can secretly make your independent types act like dependent ones?  (-:
 
 _Toby_:  Yeah, a dependent type theory can always be rephrased as an independent type theory, although you have to use equality to do this; this is equivalent to the original dependent type theory if (as is the common practice) that theory also had equality predicates, but otherwise it\'s stonger.  Similarly, a typed theory can be rephrased as an untyped theory, although you have to use typing predicates to do this, and again this is stronger.  Conversely, we know (well, some people know) how to limit the use of the typing predicates in the untyped theory to make it equivalent to the typed theory.  Now I think that there also ought to be rules to limit the use of equality in a simple type theory to make it equivalent to a dependent type theory *without* equality.
+
+[[Mike Shulman]]: Amazingly enough, as you said at latest changes, this conversation does seem to be leading in the direction of actual mathematics.  It does seem like that should be possible, but I don't have the time to think about it any more deeply now.  Aside from pointing out the obvious fact that until we get to $\omega$-categories, we do want to allow equality relations on *some* of the types in the dependent type theory.
 =--
 
 The following discussion is about the (un)suitability of the following epigraph:
