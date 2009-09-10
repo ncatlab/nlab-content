@@ -24,13 +24,17 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 
+
 ## 2009-09-10
+
+*  [[Toby Bartels]]:  Replies at [[barycentric algebra]], [[evil]], [[graph]], [[boolean domain]], [[center]].
 
 * [[Jon Awbrey]]:  Further discussion and some data at [[graph]].
 
-## 2009-09-09
-
 * [[Mike Shulman]]: Expanded a bunch at [[center]], and continued discussions at [[graph]] and [[evil]].
+
+
+## 2009-09-09
 
 *  [[Toby Bartels]]:  More commentary at [[boolean domain]] and [[graph]].
 
