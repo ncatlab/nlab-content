@@ -165,6 +165,8 @@ _Toby_:  Interesting; can you explain more about how they generate flags?  (Mayb
 
 [[JCMcKeown]]: Just from reading above ''... and more generally $j$-morphisms in $C$ to $(j+k)$-morphisms in $D$''... ahah! Now I see what you're getting at.  I've got my head fixed on _endo_-functors; where if you wanted to (I don't mean it's a *good* idea.  Who knows?) you can consider iterations of the underlying function that is the $+k$-transformation.
 
+[[Mike Shulman]]: FWIW, Sjoerd Crans has called these things **k-transfors**, and speaks of something being *transforial* as a general term including both "functorial" and "natural."
+
 =--
 
 
