@@ -108,6 +108,8 @@ Anyway, this whole discussion started only to sound a warning to the reader that
 [[Mike Shulman]]: I'm sorry if I sounded too argumentative; I didn't mean to.  What I meant was that I'm surprised people have tried to change Benabou's original terminology at all.  I believe it was Jaap van Oosten who wrote that "the only thing worse than bad terminology is continually changing terminology."  Benabou did use some terminology quite worthy of being changed, like "morphism" and "homomorphism" for "lax 2-functor" and "strong 2-functor" respectively, but switching the meanings of "lax" and "oplax" seems like engendering a lot of confusion for very little gain, when the only argument in favor of it is that oplax ones are (maybe) more common.  On top of this, the argument about 2-monads is a positive reason to prefer Benabou's choice.
 
 Anyway, in terms of productive work, I expanded the entry somewhat to include a warning to the reader about the different choices that exist and a summary of the reasons for making either choice.  Feel free to improve it.
+
+_Todd_: I think you've certainly made a good start. Thanks for writing this up. 
 =--
 
 
