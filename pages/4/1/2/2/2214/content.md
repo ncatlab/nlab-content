@@ -27,7 +27,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-10
 
-*  [[Toby Bartels]]:  More at [[graph]] and [[center]], since there is no [RSS feed](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=64).
+* [[Urs Schreiber]] slightly edited [[A Survey of Elliptic Cohomology - formal groups and cohomology]] and added plenty of links 
+
+* [[Toby Bartels]]:  More at [[graph]] and [[center]], since there is no [RSS feed](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=64).
 
 * [[Jon Awbrey]] is leaving the fray at _The World According To [[graph|Graph]]_ --- which is clearly becoming more "productive" than "creative" --- and suggests, as an interim measure, that he be allowed to store a few standard definitions at [[graph theory]].
 
