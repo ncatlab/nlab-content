@@ -72,4 +72,9 @@ Probably it was a mistake to use the letter $B$ again.  I think that the idea wa
 
 By 'groupoid theorists descended from Brandt' I really meant all those who see groupoids as generalised groups (a single set with a partial binary operation satisfying various conditions) rather than those who see them as special kinds of categories (a set of objects, a set ---or even doubly-indexed family of sets--- of isomorphisms, and so on; while it is perfectly possible to view general categories in the Brandt-like way, that seems pretty rare).
 
+[[Mike Shulman]]: I prefer to use $Cat$ for the (1- or 2-)category of small categories and $CAT$ for the (1- or 2-)category of large categories, with 1-categories in bold typeface and 2-categories in script typeface.  And I always write $C(x,y)$ for the set of morphisms from $x$ to $y$, leaving $hom(x,y)$ for the internal hom if you like.  Another nice option is to underline $C$ when writing $C(x,y)$ for the internal hom, although that doesn't appear to work here (although the itex2MML commands summary claims that `\underline` is accepted).
+
+By the way, it's not true that every closed category is [[concrete category|concrete]]: homming out of $I$ need not be faithful.  Take simplicial sets, for instance, or even $Cat$.
 =--
+
+[[!redirects internal homs]]
