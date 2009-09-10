@@ -19,3 +19,5 @@ Additionally, if [[monoidal categories]] are regarded as one-object 2-categories
 # References
 
 * Stephen Lack, _Icons_.  arxiv:0711.4657
+
+[[!redirects icons]]
