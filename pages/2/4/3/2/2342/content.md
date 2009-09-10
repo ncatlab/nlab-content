@@ -1,0 +1,11 @@
+Classically, an elliptic curve is a connected Riemann surface (a connected compact 1-dimensional complex manifold) of genus 1. The curious term "elliptic" is a remnant from the 19th century, a back-formation which refers to elliptic functions (generalizing circular functions, i.e., the classical trigonometric functions) and their natural domains as Riemann surfaces. 
+
+In more modern frameworks, an elliptic curve over a field $k$ may be defined as a complete irreducible non-singular algebraic curve of genus 1 over $k$, or even as a certain type of algebraic group scheme. Elliptic curves have many remarkable properties, and their deeper arithmetic study is one of the most profound subjects in present-day mathematics. 
+
+## History 
+
+Probably should pass through Riemann and Weierstrass, to explain "elliptic". 
+
+## Group law 
+
+To be filled in... 
