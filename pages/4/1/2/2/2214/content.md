@@ -27,6 +27,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-10
 
+* [[Mike Shulman]]: Started trying to incorporate the results of the discussion into the entry at [[lax natural transformation]].
+
 * [[Todd Trimble]]: commented at [[lax natural transformation]], and suggested a possible compromise at [[graph theory]] which I hope will be considered satisfying to all concerned. Thanks to Mike for creating [[icon]]. 
 
   * Created a stub for [[elliptic curve]], in response to Urs. 
