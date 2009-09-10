@@ -1,4 +1,9 @@
+[[!redirects logical boundary operator]]
+[[!redirects logical boundary operators]]
+[[!redirects minimal negation operators]]
 [[!redirects Minimal Negation Operator]]
+[[!redirects Minimal Negation Operators]]
+[[!redirects mno]]
 
 The __minimal negation operator__ $\nu$ is a [[multigrade operator]] $(\nu_k)_{k \in \mathbb{N}}$ where each $\nu_k$ is a $k$-ary [[boolean function]] defined in such a way that $\nu_k (x_1, \ldots, x_k) = 1$ in just those cases where exactly one of the arguments $x_j$ is $0$.
 
@@ -38,8 +43,7 @@ The following properties of the minimal negation operators $\nu_k : \mathbb{B}^k
 *  More generally, the function $\nu_k (x_1, \dots, x_k)$ for $k \gt 2$ is not identical to the boolean sum $\textstyle\sum_{j=1}^k x_j$.
 *  The inclusive disjunctions indicated for the $\nu_k$ of more than one argument may be replaced with exclusive disjunctions without affecting the meaning, since the terms disjoined are already disjoint.
 
-
-##  Truth tables
+## Truth tables ##
 
 Table 1 is a truth table for the sixteen boolean functions of type $f : \mathbb{B}^3 \to \mathbb{B}$, each of which is either a boundary of a point in $\mathbb{B}^3$ or the complement of such a boundary.
 
@@ -72,8 +76,7 @@ Table 1.  Logical Boundaries and Their Complements
 | $f_{107}$ | $f_{01101011}$ |      | 0 1 1 0 1 0 1 1 | `(( p , q ,(r)))` |
 | $f_{151}$ | $f_{10010111}$ |      | 1 0 0 1 0 1 1 1 | `(( p , q , r ))` |
 
-
-##  Charts and graphs
+## Charts and graphs ##
 
 This Section focuses on visual representations of minimal negation operators.  A few bits of terminology are useful in describing the pictures, but the formal details are tedious reading, and may be familiar to many readers, so the full definitions of the terms marked in bold are relegated to a Glossary at the end of the article.
 
@@ -104,8 +107,7 @@ For a contrasting example, the boolean function expressed by the form `((p),(q),
 
 Figure 3.  `((p),(q),(r))`
 
-
-##  Glossary of basic terms
+## Glossary of basic terms ##
 
 *  A __boolean domain__ $\mathbb{B}$ is a generic 2-element set, say, $\mathbb{B} = \{ 0, 1 \}$, whose elements are interpreted as logical values, usually but not invariably with $0$ = _false_ and $1$ = _true_.
 *  A __boolean variable__ $x$ is a variable that takes its value from a boolean domain, as $x \in \mathbb{B}$.
@@ -126,7 +128,7 @@ Figure 3.  `((p),(q),(r))`
    $$s = e_1 \, e_2 \, \cdots \, e_{k-1} \, e_k$$
    where $e_j = x_j$ or $e_j = \nu(x_j)$ for $j = 1$ to $k$
 
-#  External links
+## External links ##
 
 * [Minimal Negation Operator @ MyWikiBiz](http://mywikibiz.com/Minimal_negation_operator)
 * [Minimal Negation Operator @ PlanetMath](http://planetmath.org/encyclopedia/MinimalNegationOperator.html)
