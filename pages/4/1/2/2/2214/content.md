@@ -29,7 +29,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 *  [[Toby Bartels]]:  More at [[graph]] and [[center]], since there is no [RSS feed](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=64).
 
-* [[Jon Awbrey]] is leaving the fray at _The World According To [[Graph|graph]]_, that is clearly becoming more "productive" than "creative", and suggests, as an interim _modus vivendi_, that he be allowed to store a few standard definitions at [[graph theory]].
+* [[Jon Awbrey]] is leaving the fray at _The World According To [[graph|Graph]]_ --- which is clearly becoming more "productive" than "creative" --- and suggests, as an interim measure, that he be allowed to store a few standard definitions at [[graph theory]].
 
 * [[Mike Shulman]]: Replied at [[center]] and [[lax natural transformation]], and created [[icon]].
 
