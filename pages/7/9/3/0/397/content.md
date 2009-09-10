@@ -21,6 +21,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[Dmitri Pavlov]]
 * [[Emily Riehl]]
 * [[Eric Forgy]]
+* [[Eric Katerman]]
 * [[Finn Lawler]]
 * [[Gabriel C Drummond-Cole]]
 * [[Gavin Wraith]]
