@@ -27,6 +27,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-10
 
+* [[Todd Trimble]]: commented at [[lax natural transformation]], and suggested a possible compromise at [[graph theory]] which I hope will be considered satisfying to all concerned. 
+
 * [[Urs Schreiber]] slightly edited [[A Survey of Elliptic Cohomology - formal groups and cohomology]] and added plenty of links 
 
 * [[Toby Bartels]]:  More at [[graph]] and [[center]], since there is no [RSS feed](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=64).
