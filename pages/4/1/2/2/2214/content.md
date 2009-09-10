@@ -27,6 +27,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-10
 
+* [[Mike Shulman]]: Replied at [[center]] and [[lax natural transformation]], and created [[icon]].
+
 *  [[Toby Bartels]]:  Thanks to David below!  I have moved [[barycentric algebra]] to [[convex space]] after being more sure that this name is not already taken (but 'convex set' does conflict).  Since the concept has been invented many times and has many names, let\'s use our own, which is a nice one.  I forgot about the blog discussion before; I had a nagging feeling that this had come up once and I hadn\'t gotten around to commenting then, so I\'m glad that David remembered.
 
 *  [[Ryan Grady]] has given us [[A Survey of Elliptic Cohomology - formal groups and cohomology]]
