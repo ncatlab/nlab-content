@@ -52,6 +52,38 @@ In particular, since every [[left adjoint]] functor preserves colimits,
 such an object is a [[compact object]].
 
 
+Here is how to think of what this definition means intuitively. For that, notice how maps out of an ordinary space fail to preserve colimits:
+
+for definiteness, consider the case of a [[cover]] of a [[space]] $X$ by spaces $\{U_i \to X\}_i$ so that $X$ is the [[coequalizer]]
+
+$$
+  (\coprod_{i,j} U_i \times_X U_j)
+  \stackrel{\to}{\to}
+  (\coprod_i U_i)
+  \to X
+$$
+
+as discussed in detail at [[sieve]] and [[sheaf]]. This says effectively that every point of $X$ is element of at least one of the covering spaces $U_i$ and that one obtains $X$ by identifying the points in the covering spaces that correspond to the same one in $X$.
+
+Now let $\Sigma$ be any other space. We may assume here that the [[internal hom]] $[\Sigma,-] : T \to T$ at least preserves [[coproduct]]s, so that applying this functor to the above diagram yields
+
+$$
+  (\coprod_{i,j} [\Sigma,U_i \times_X U_j])
+  \stackrel{\to}{\to}
+  (\coprod_i [\Sigma,U_i])
+  \to [\Sigma,X]
+  \,.
+$$
+
+Now notice how this will in general fail to still be a [[coequalizer]]: if it were, for one the morphism $  (\coprod_i [\Sigma,U_i])
+  \to [\Sigma,X]$ would have to be an [[epimorphism]]. But this can't be in general, because it would mean that every map $\Sigma \to X$ factors through one of the covering spaces. The problem here is that in general the image of $\Sigma \to X$ may be _larger_ than any of the $U_i$.
+
+This is maybe most familiar in the context of [[loop space]]s (for $\Sigma$ the circle): the loop space of a cover of $X$ is not in general a cover of the loop space.
+
+But suppose that $\Sigma$ were infinitesimal. One thning that should mean is that there is no other space that is "effectively smaller" in some useful sense. For $\Sigma$ infinitesimal, we do expect that every map $\Sigma \to X$ can always be factored through at least one of the $U_i$: because $\Sigma$ is so small, the image of a map out of it can never be too large.
+
+So only if $\Sigma$ qualifies as having infinitesimal extension can the functor $[\Sigma,-]$ be expected to preserve colimits.
+
 # Examples #
 
 We list some standard examples of infinitesimal spaces that exist in 
