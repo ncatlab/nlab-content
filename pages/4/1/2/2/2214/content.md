@@ -27,6 +27,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-10
 
+* [[Urs Schreiber]] started adding to [[infinitesimal object]] a discussion for how one can understand Lawvere's abstract definition intuitively as encoding infinitesimal extension. But am in a hurry and have to leave it unpolished for the moment.
+
 *  [[Toby Bartels]]:  Replies at [[barycentric algebra]], [[evil]], [[graph]], [[boolean domain]], [[center]].
 
 * [[Jon Awbrey]]:  Further discussion and some data at [[graph]].
