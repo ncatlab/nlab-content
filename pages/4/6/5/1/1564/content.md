@@ -50,3 +50,8 @@ Back in the day, the term 'ring' meant a possibly *non*unital ring; that is a [[
 ## Analogues
 
 Inasmuch as a [[semilattice]] is a commutative idempotent monoid, a Boolean ring may be defined as a semilattice in $Ab$.  However, with Boolean rings, we do not need to hypothesise commutativity; it follows.
+
+
+[[!redirects boolean ring]]
+[[!redirects Boolean rings]]
+[[!redirects boolean rings]]
