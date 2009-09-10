@@ -44,6 +44,10 @@ A barycentric algebra is cancellative if and only if it is isomorphic (as a barc
 
 Compare this with the theorem that a [[monoid]] is cancellative if and only if it is isomorphic to a submonoid of some [[group]].
 
++--{: .query}
+[[Mike Shulman]]: What are some examples of non-cancellative barycentric algebras?
+=--
+
 
 ## References
 
