@@ -79,7 +79,7 @@ The face and degeneracy maps and the relation they satisfy are geometrically bes
 
 * the face map $Y(\delta_i) : \Delta^{n-1} \to \Delta^{n}$ injects the standard simplicial $(n-1)$-simplex as the $i$th face into the standard simplicial $n$-simplex;
 
-* the degeneracy map $Y(\sigma_i) : \Delta^{n+1} \to \Delta^{n}$ prjects the standard simplicial $(n+1)$-simplex onto the standard simplicial $n$-simplex by collapsing its vertex number $i$ onto the face opposite to it.
+* the degeneracy map $Y(\sigma_i) : \Delta^{n+1} \to \Delta^{n}$ projects the standard simplicial $(n+1)$-simplex onto the standard simplicial $n$-simplex by collapsing its vertex number $i$ onto the face opposite to it.
 
 
 
