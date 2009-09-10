@@ -31,6 +31,8 @@ _Toby_:  I didn\'t look closely enough at your centre of a category then!  What 
 [[Mike Shulman]]: I expanded it a lot; let me know if this is any better.  It's even more confusing than I realized at first.
 
 _Toby_:  I understand it, it still doesn\'t actually include the centre of a set (or more generally of an $n$-category) that I learnt about from HDA1.  Now, maybe that\'s not a very useful concept ... except that it fits in so well with the centre of a $k$-tuply monoidal $n$-category for $k \gt 0$!  How many of these $k + 1$ different centres that a $k$-tuply monoidal $n$-category has are used?
+
+[[Mike Shulman]]: Hmm, that appears to be a different notion of center than the one I was used to.  (I didn't make this one up, but I don't remember where I learned it; has anyone else seen it?)  Perhaps that one is better; it also has the advantage that it gives automatically that the center of a $k$-tuply monoidal $n$-category is $(k+1)$-tuply monoidal.
 =--
 
 
