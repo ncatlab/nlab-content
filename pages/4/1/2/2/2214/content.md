@@ -27,6 +27,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-10
 
+* [[Todd Trimble]]: Finally got around to replying to [[Mike Shulman]] over at [[lax natural transformation]], with some responses of Ross Street and Steve Lack. 
+
 * [[Urs Schreiber]] started adding to [[infinitesimal object]] a discussion for how one can understand Lawvere's abstract definition intuitively as encoding infinitesimal extension. But am in a hurry and have to leave it unpolished for the moment.
 
 *  [[Toby Bartels]]:  Replies at [[barycentric algebra]], [[evil]], [[graph]], [[boolean domain]], [[center]].
