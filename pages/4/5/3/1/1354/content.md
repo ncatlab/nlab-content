@@ -19,8 +19,10 @@ introduce a notion of dg-enhancement of a triangulated category.
 A **dg-enhancement of a triangulated category** $T$ is a ([[pretriangulated dg-category|pretriangulated]]) [[differential graded category]] $A$ together with an equivalence $H^0(A)\to T$. The triangulated
 category $T$ with that structure is called __enhanced__. According to the new results presented in
 
-* Valery Lunts, Uniqueness of enhancement for a triangulated category, talk at Workshop on triangulated categories, Swansea, Wales, Dec 10-12, 2008, (report on a joint work with D. Orlov)
+* Valery Lunts, _Uniqueness of enhancement for a triangulated category_, talk at Workshop on triangulated categories, Swansea, Wales, Dec 10-12, 2008, (report on a joint work with D. Orlov)
 
-the triangulated categories of [[quasicoherent sheaf|quasicoherent sheaves]] on quasiprojective varieties and some of their cousins (like categories of perfect complexes on quasiprojective varieties) have essentially unique dg-enhancements. 
+* V. A. Lunts, D. O. Orlov, _Uniqueness of enhancement for triangulated categories_, [arXiv:0908.4187](http://arxiv.org/abs/0908.4187).
+
+the triangulated categories of [[quasicoherent sheaf|quasicoherent sheaves]] on quasiprojective varieties and some of their cousins (like categories of perfect complexes on quasiprojective varieties) have essentially unique dg-enhancements. F. Muro has developed an obstruction theory for the existance and measuring non-uniqueness of dg-enhancements in more general setting (unpublished).
 
 [[!redirects enhanced triangulated categories]]
