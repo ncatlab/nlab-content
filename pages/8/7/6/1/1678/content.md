@@ -166,6 +166,14 @@ Also, if you reverse the definitions of lax and oplax transformations, then you 
 Note that both of these use somewhat outdated terminology.
 
 
-[[!redirects oplax transformation]]
+[[!redirects lax natural transformations]]
 [[!redirects lax transformation]]
+[[!redirects lax transformations]]
 [[!redirects oplax natural transformation]]
+[[!redirects oplax natural transformations]]
+[[!redirects oplax transformation]]
+[[!redirects oplax transformations]]
+[[!redirects pseudo natural transformation]]
+[[!redirects pseudo natural transformations]]
+[[!redirects pseudonatural transformation]]
+[[!redirects pseudonatural transformations]]
