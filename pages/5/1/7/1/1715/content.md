@@ -12,3 +12,6 @@ Of course, as the definition of $n$-category gets more complicated as $n$ increa
 
 [[!redirects infinity-functor]]
 [[!redirects ∞-functor]]
+[[!redirects omega-functor]]
+[[!redirects ∞-functor]]
+[[!redirects higher functor]]
