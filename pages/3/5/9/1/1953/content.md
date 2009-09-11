@@ -28,5 +28,7 @@ For a morphism $f:X\to Y$ of schemes, and $x$ a point of $X$, the following are 
 
 The relative dimension of $f$ at $x$ will equal the rank of the module of K&#228;hler differentials. 
 
+For EGAIV$_4$ (Publ. IH&#201;S, 32 (1967), p. 5-361) see [numdam](http://www.numdam.org/numdam-bin/fitem?id=PMIHES_1967__32__5_0).
+
 [[!redirects formal smoothness]]
 [[!redirects formally smooth]]
