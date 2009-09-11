@@ -141,6 +141,8 @@ _Toby_:  Interesting; can you explain more about how they generate flags?  (Mayb
 [[Mike Shulman]]: FWIW, Sjoerd Crans has called these things **k-transfors**, and speaks of something being *transforial* as a general term including both "functorial" and "natural."
 
 _Toby_:  I\'m inclined to say that we should go with that!
+
+[[Mike Shulman]]: I'm not sure how serious you are... but I've always thought it was a proposal that deserved to be taken more seriously than it seems to have been.  The reference is "Localizations of Transfors," _K-Theory_ 2004 (I can't find a free version online).
 =--
 
 
