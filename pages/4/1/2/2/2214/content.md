@@ -1,6 +1,12 @@
 [[!include all changes]]
 
-All non-trivial additions or changes to the $n$Lab should briefly be indicated here. This way [[Contributors|the rest of us]] can spot them, so we can learn what you know --- and maybe make further improvements!
+A list of all recently edited entries can be seen here:
+
+* [Recently Revised](http://ncatlab.org/nlab/recently_revised).
+
+But that list tends to contain lots of minor changes: it's not easy to spot the important ones.
+
+So, if you feel people's attention should be drawn to some changes you make, please mention them *here*.  This way [[Contributors|the rest of us]] can spot them, so we can learn what you know --- and maybe make further improvements!
 
 +-- {: .standout}
 
@@ -26,11 +32,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 
 ## 2009-09-11
+
+*  [[Toby Bartels]]:  Since Recently Revised works again, I\'ve restored the link to it up above, from what it had been in [June](http://ncatlab.org/nlab/revision/2009+June+changes/947).
+
 * [[Zoran ?koda]]: Urs seems to take [[derived algebraic geometry]] (see my answer/note there) as a higher algebraic stacks, and forgets deriving on the other side. Nonabelian cohomology results from right derived picture (quotients = colimits), and the missing part is to take the limits in derived sense, that is taking equalizers, intersections of subschemes etc. in derived sense as well. We should discuss that, replace the paragraph with the better one and after agreeing and explaining, erase the critical paragraph. In another paragraph the things are in place:
 
-> Where ordinary algebraic geometry uses schemes modeled on commutative rings, derived algebraic geometry uses structured (∞,1)-toposes modeled on E-∞ rings 
+  > Where ordinary algebraic geometry uses schemes modeled on commutative rings, derived algebraic geometry uses structured (∞,1)-toposes modeled on E-∞ rings 
 
-Indeed, the higher stacks are about the (∞,1)-toposes, while the derived stacks ask also for the domain to be E-∞ rings. The "brave new algebraic geometry" on the other hand typically takes the second (alg geometry glued from spectra of infinity ring spectra), but not the first (higher stacks instead of schemes). 
+  Indeed, the higher stacks are about the (∞,1)-toposes, while the derived stacks ask also for the domain to be E-∞ rings. The "brave new algebraic geometry" on the other hand typically takes the second (alg geometry glued from spectra of infinity ring spectra), but not the first (higher stacks instead of schemes). 
 
 *  [[Toby Bartels]]:
    *  Agreement is being reached at [[k-transfor]].
