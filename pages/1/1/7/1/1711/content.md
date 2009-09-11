@@ -11,7 +11,7 @@ Once upon a time, there were [[categories]], [[functor]]s between them, and natu
 
 Since we don\'t really need the prefix '$n$-' above except on 'category', we could drop that, then use '$k$-transformation' for an element of the series (category, functor, transformation, modification, ...).  Unfortunately, many people have not dropped the '$n$-', so this would conflict with their usage of '$n$-transformation' (to mean $(n,1)$-transformation).  Therefore we reluctantly say '$(n, k)$-transformation' instead.
 
-Another possibility is [[Sjoerd Crans]]\'s terminology, '$k$-transfor'.
+Another possibility is [[Sjoerd Crans]]\'s terminology, '$k$-transfor'.  "Transfor" is of course a portmanteau of "transformation" and "functor."  One speaks of something being "transforial" to generalize both "natural" and "functorial."
 
 
 ## Definitions
@@ -145,6 +145,8 @@ _Toby_:  I\'m inclined to say that we should go with that!
 [[Mike Shulman]]: I'm not sure how serious you are... but I've always thought it was a proposal that deserved to be taken more seriously than it seems to have been.  The reference is "Localizations of Transfors," _K-Theory_ 2004 (I can't find a free version online).
 
 _Toby_:  I\'m perfectly serious.  The term *should* be indexed primarily by $k$, with $n$ only if one really insists.  I didn\'t want to make up my own word, but if Crans has published one, then why not use it?  I should be able to check that reference the next time that I visit the UCR library (about once a week).
+
+[[Mike Shulman]]: No argument here (about indexing by $k$).  Also $(n,k)$-transformation sounds to me like something to do with [[(n,r)-categories]], but there of course the comma denotes something completely different.
 =--
 
 
