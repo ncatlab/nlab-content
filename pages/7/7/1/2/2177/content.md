@@ -16,6 +16,8 @@ $$\text{&#10647;}\: u \text{&#65104;} v \text{&#65104;} w \:\text{&#10648;} \qua
 
 That should bell a few rings &#8230;
 
+Clearly, negation and differentiation are not the same thing, but a seeming coincidence of that sort does get one to asking whether there might be a deeper analogy between flipping bits and taking derivatives.
+
 ## External links ##
 
 This is pretty ugly, but it's the best I have by way of a formal definition at present:
