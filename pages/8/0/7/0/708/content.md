@@ -2,8 +2,10 @@
 
 Archive of changes made during January 2009.
 The substantive content of this page should **not** be altered.
+For past versions of this page beyond its own history, start [here](http://ncatlab.org/nlab/revision/2009+June+changes/217) and work backwards.
 
 ***
+
 
 # 2009-01-31
 
@@ -20,7 +22,6 @@ The substantive content of this page should **not** be altered.
 * [[Ronnie Brown]]
 
   * created [[higher dimensional algebra]]
-
 
 # 2009-01-30
 
@@ -41,7 +42,6 @@ The substantive content of this page should **not** be altered.
   * Finally decided I need to get over my Australian training and make weak things the default, at least when writing on the nLab.  So I split up [[2-categorical limit]] into [[2-limit]] for the weak notion and [[strict 2-limit]] for the strict one.  The exposition here could probably use help, and I have a question about terminology for [[strict 2-limit]]s.
 
   * Redirected [[Gray category]] to the already-existing [[Gray-category]].  Should we have an official policy on the use or non-use of hyphens?  (-:
-
 
   * I haven't done much here recently because I've been working in my [[michaelshulman:HomePage|own web]] on a project developing [[michaelshulman:2-categorical logic|2-categorical logic]].
 
@@ -95,13 +95,12 @@ The substantive content of this page should **not** be altered.
 
   * created [[2-vector space]], [[bimodule]], [[distributor]] (and [[profunctor]] as a redirect)
 
-
 * [[Tim Porter|Tim]]:
     
   * Continued adding stuff to various entries on $cat^n$-groups and references for Loday's theorem at [[cat-n-group]].
 
-
   * Created [[2-crossed module]].
+
 # 2009-01-27
 
 * [[Urs Schreiber|Urs]]:
@@ -116,12 +115,12 @@ The substantive content of this page should **not** be altered.
 
   * started adding/searching for references on $n$-fold groupoids to [[homotopy hypothesis]], added a respective remark to [[n-fold category]]
 
-
 * [[Tim Porter|Tim]]:
     
   * Continued [[Moore complex]], created [[homotopy 3-type]], included a  list of some of the algebraic and categorical models for 3-types (with the intention of starting pages on the various types). (Request help on other models, please.)
 
 # 2009-01-26
+
 * [[Andrew Stacey|Andrew]]:
 
   * Joined the $n$-Community.  Hello.
@@ -135,7 +134,6 @@ The substantive content of this page should **not** be altered.
   * Created [[Moore complex]] which contains the definition of the homotopy groups of a simplicial group.
 
   * Added query to [[homotopy theory]]:  should a summary of the Baues approach to abstract homotopy theory be included somewhere?
-
 
 * [[Urs Schreiber|Urs]]
 
@@ -160,11 +158,11 @@ The substantive content of this page should **not** be altered.
 * [[Tim Porter|Tim]]:
     
   * Created [[pospace]] to help the entry on [[directed space]], at which I gave a link through to the new page. 
-   
     
   * Created [[directed homotopy theory]]. This is at present a stub plus an inadequate list of references that do not do justice to the area ... as yet. I have built in some links but feel there should be others.
 
   * Created [[group T - complex|group T - complex]], but more needs adding here.
+
 # 2009-01-24
 
 * [[Urs Schreiber|Urs]]
@@ -181,14 +179,12 @@ The substantive content of this page should **not** be altered.
    (I am not sure about the (best) spelling convention!)
    after I had checked with [[John Baez|John]] that this has not previously been said explicitly in the literature
 
-
 * [[Tim Porter|Tim]]:
     
   * Created [[simplicial group]]s which was needed by several entries.
   * Commented in [[simplicial set]] about a notational problem that needs attention. The notation for face and degeneracies in [[simplicial set]] is at odds with the standard one in _the literature_. \(*Now fixed*\)
   * Created [[simplicial identities]].
   * Created [[simplicial object in Cat]] referring to [[simplicial object]] as it was a 'hanging link'in [[simplicial category]].
-
 
 # 2009-01-23
 
@@ -320,7 +316,6 @@ The substantive content of this page should **not** be altered.
 
   * following discussion by [[Eric Forgy|Eric]] at [[directed space]] I propose in the discussion section a formalization of the notion "an object $X$ is _directed_" and "an object $X$ is _undirected_" for the case that $X$ is an object in a category with [[interval object]].
 
-
 * [[John Baez|John]]: 
 
    * expanded the entry on [[monoid]], giving lots of examples of monoid objects in monoidal categories.  I think lists of examples like can be very useful and fun, and I want more!  I would like a list of [[PROP|PROPs]], for example, saying that $FinSet$ is the PROP for commutative monoids, and so on.  
@@ -380,6 +375,7 @@ The substantive content of this page should **not** be altered.
  
    * I created [[2-group]].  I have only as yet discussed the strict form. I also added in some discussion of the Brown-Spencer theorem and took the definition of 2-group apart a little partially in response to [[Eric]]'s comment on [[internal category]].
    *  I fixed the definition of [[internal category]]. Somehow the condition that the composites $s\cdot i$ and $t\cdot i$ had been omitted, as far as I could see at least. 
+
 * [[Emily Riehl]]
 
   * created [[small object argument]]
@@ -389,7 +385,6 @@ The substantive content of this page should **not** be altered.
   * continued fiddling with [[interval object]]
 
   * added references to [[Trimble's notion of weak n-category]]  
-
 
 # 2009-01-16
 
@@ -459,7 +454,6 @@ The substantive content of this page should **not** be altered.
 
   * said more at the beginning of [[interval object]] -- and are having a discussion with [[Todd Trimble|Todd]] about examples and the necessity to relax the structure, and his Trimblean definition of $\infty$-category -- which we ought to have an entry about
 
-
   * in the entry [[category of fibrant objects]]
 
     * added comments on relation to [[pointed object]] and [[pointed category]]
@@ -485,11 +479,11 @@ The substantive content of this page should **not** be altered.
   * Revised [[k-tuply monoidal n-category]]. Later I need to revise [[periodic table]] and write [[k-connected n-category]].
   * Wrote [[Elephant]] and [[Categories Work]], creating `category: reference` for them.
 
-+--{.query}
+  +--{.query}
   [[Urs Schreiber|Urs]]: concerning [[Toby Bartels|Toby]]'s 
   `category: reference`: I like that.
     I was thinking about including separate entries on references, too. We have a couple of further references already  which we refer to often enough to justify a separate entry for them eventually
-=--
+  =--
 
 * [[Urs Schreiber|Urs]]
 
@@ -663,7 +657,6 @@ The substantive content of this page should **not** be altered.
 
   * [[nerve]] (but see below)
 
-
 * [[Urs Schreiber|Urs]]
 
   * gave the bare definition of [[crossed module]]
@@ -684,7 +677,6 @@ The substantive content of this page should **not** be altered.
 
   * added a few remarks at [[higher category theory]]. I am not happy with that entry. Clearly we need a more comprehensive discussion there eventually.
 
-
 * [[Mike Shulman|Mike]]: Created [[constructivism]] and imported the relevant discussion from [[apartness relation]].
 
 # 2009-01-06
@@ -698,11 +690,11 @@ The substantive content of this page should **not** be altered.
 * [[Mike Shulman|Mike]]
 
   * Created [[power]] and [[copower]].  Possibly these should be just one page? 
-+--{.query}
- I think it is good to have many separate entries for sub-concepts if they all link to each other, maybe with a brief comment. --[[Urs Schreiber|Urs]]
+    +--{.query}
+     I think it is good to have many separate entries for sub-concepts if they all link to each other, maybe with a brief comment. --[[Urs Schreiber|Urs]]
 
-I agree. &#8212;Toby
-=--
+    I agree. &#8212;Toby
+    =--
 
 # 2009-01-05
 
@@ -844,6 +836,7 @@ and connected it to the discussion of covering sieves at
 # 2009-01-01
 
 Apparently, we all took a break from the $n$Lab for the New Year!
+
 
 ***
 
