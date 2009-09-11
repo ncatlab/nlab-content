@@ -26,6 +26,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-11
 
+* [[Jon Awbrey]] began watering his trans-plants at [[cactus language]] --- bit by bit, you have to be very incre-mental with cacti --- and started a [parallel (tangential?) discussion](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=69) at the $n$-forum.
+
 * [[Zoran ?koda]]: additions to [[deformation theory]], [[derived algebraic geometry]]; created [[cotangent complex]].
 
 *  [[Toby Bartels]]:  I\'m perfectly serious at [[(n,k)-transformation]].
