@@ -2,8 +2,10 @@
 
 Archive of changes made during February 2009.
 The substantive content of this page should **not** be altered.
+For past versions of this page beyond its own history, start [here](http://ncatlab.org/nlab/revision/2009+June+changes/314) and work backwards.
 
 ***
+
 
 # 2009-02-28
 
@@ -51,7 +53,6 @@ The substantive content of this page should **not** be altered.
 
   * added references to [[sheaf]] and [[simplicial set]]
 
-
 # 2009-02-23
 
 * [[Tim Porter|Tim]]: 
@@ -63,11 +64,11 @@ The substantive content of this page should **not** be altered.
 
 * [[Mike Shulman|Mike]]: created [[n-fibration]].
 
-+--{.query}
+  +--{.query}
 
-Why do I think of the Beach Boys every time I read the word $n$-fibrations? - Eric
+  Why do I think of the Beach Boys every time I read the word $n$-fibrations? - Eric
 
-=--
+  =--
 
 * [[Ronnie Brown|Ronnie]]: over the last two days, created [[compositions in cubical sets]] which gives the basic definitions and axioms for cubical sets with compositions and  connections, (and inverses), with the example of the cubical singular complex in mind. 
 
@@ -111,7 +112,6 @@ Why do I think of the Beach Boys every time I read the word $n$-fibrations? - Er
 
   * replied at [[dg-category]]
 
-
 # 2009-02-14
 
 * [[Ronnie Brown|Ronnie]] Added entries on C. [[Ehresmann]] and on [[Grothendieck]]. The second probably should be expanded, but it has a link to a good account. 
@@ -121,7 +121,6 @@ Why do I think of the Beach Boys every time I read the word $n$-fibrations? - Er
 * [[Urs Schreiber|Urs]]
 
   * added To&#235;n-Vezzosi proposal $2Vect := Ch(Vect)-Mod$ to [[2-vector space]] and created [[dg-category]] accompanying this
-
 
 # 2009-02-13
 
@@ -153,12 +152,11 @@ Why do I think of the Beach Boys every time I read the word $n$-fibrations? - Er
 
   * Created [[comma object]] and started messing around with using SVG for diagrams instead of `\array`.  It's more work but it sure does look nicer (in the output, anyway).
 
-+-- {: .query}
-[[Urs Schreiber|Urs]]: looks good! We should have at  [[FAQ]] a brief instruction for how to proceed to produce such diagrams (which software to download, how to get nicely typeset labels, etc.) 
+    +-- {: .query}
+    [[Urs Schreiber|Urs]]: looks good! We should have at  [[FAQ]] a brief instruction for how to proceed to produce such diagrams (which software to download, how to get nicely typeset labels, etc.) 
 
-Mike: I gave it a [[FAQ|try]], but I don't have any great wisdom to impart; I just played around with the XML until it worked.  If there is software that can do this for us that would be great (until someone manages to write an xypic-to-svg converter).
-=--
-
+    Mike: I gave it a [[FAQ|try]], but I don't have any great wisdom to impart; I just played around with the XML until it worked.  If there is software that can do this for us that would be great (until someone manages to write an xypic-to-svg converter).
+    =--
 
 # 2009-02-11
 
@@ -349,6 +347,7 @@ Mike: I gave it a [[FAQ|try]], but I don't have any great wisdom to impart; I ju
 * [[Andrew Stacey|Andrew]]: After crashing the [[HomePage|nLab]] 3 times I've finally managed to upload something on [[Froelicher space|Frolicher spaces]].  Something is seriously wrong with my syntax - if no one's taken pity on me and cleaned it up I'll do so myself tomorrow.  More importantly, I have a few queries for the more experienced categorists so I'd appreciate someone taking a look at those for me.
 
 * [[Urs Schreiber|Urs]]: thanks, [[Mike Shulman|Mike]], very useful. Is anything similar known for 3-categories?
+
 
 ***
 
