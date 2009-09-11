@@ -10,7 +10,7 @@ Read as an assertion, under the interpretation where $1$ represents logical trut
 
 The relation between the function and the assertion is this, that the fiber of $1$ under the function captures precisely the models of the assertion.
 
-For added concreteness, consider the case where $k = 3$.  Letting $\neg x$ be written as $x'$, the minimal negation opus $\text{&#10647;}\: u \text{&#65104;} v \text{&#65104;} w \:\text{&#10648;}$ can be written as a product of positive and negative literals in accord with the following equation:
+For added concreteness, consider the case where $k = 3$.  Letting $\neg x$ be written as $x'$, the minimal negation opus $\text{&#10647;}\: u \text{&#65104;} v \text{&#65104;} w \:\text{&#10648;}$ can be written as a sum of products of positive and negative literals in accord with the following equation:
 
 $$\text{&#10647;}\: u \text{&#65104;} v \text{&#65104;} w \:\text{&#10648;} \quad = \quad u' v w + u v' w + u v w'$$
 
