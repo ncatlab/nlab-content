@@ -1,4 +1,4 @@
-In [[higher category theory]] a notion of $\infty$-[[infinity-category|categories]] or $n$-[[n-category|categories]] is said to be **semi-strict**, if these higher categories are, somewhat vaguely, _as strict as possible while still being equivalent to general weak higer categories_.
+In [[higher category theory]] a notion of $\infty$-[[infinity-category|categories]] or $n$-[[n-category|categories]] is said to be **semi-strict**, if these higher categories are, somewhat vaguely, _as strict as possible while still being equivalent to general weak higher categories_.
 
 For $n \leq 2$, even [[strict n-categories]] are semi-strict, but this does not hold for $n \gt 2$.
 
