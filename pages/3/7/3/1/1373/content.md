@@ -2,8 +2,10 @@
 
 Archive of changes made during April 2009.
 The substantive content of this page should **not** be altered.
+For past versions of this page beyond its own history, start [here](http://ncatlab.org/nlab/revision/2009+June+changes/632) and work backwards.
 
 ***
+
 
 # 2009-04-30 #
 
@@ -20,7 +22,6 @@ The substantive content of this page should **not** be altered.
     * [[(infinity,1)-category of (infinity,1)-functors]]
 
     * [[(infinity,1)-category of (infinity,1)-categories]]
-
 
 * [[David Corfield|David]]:
 
@@ -67,7 +68,6 @@ The substantive content of this page should **not** be altered.
   * created [[Verdier site]]
 
   * further fine-tuned the [DHI](http://arxiv.org/PS_cache/math/pdf/0205/0205027v2.pdf)-review at [[descent]]: now I dropped the discussion of homotopy limits entirely, as it's not really necessary; but I did include for a smoother presentation the assumption that we are on a [[Verdier site]], so that hypercovers "split" ([section 9](http://arxiv.org/PS_cache/math/pdf/0205/0205027v2.pdf#page=29)) which happens to be a Reedy fibrancy kind of condition after all ([page 11](http://arxiv.org/PS_cache/math/pdf/0205/0205027v2.pdf#page=11))
-
 
   * I browsed a bit through Dominic Verity's work and created entries on [[stratified simplicial set]], [[complicial set]], [[weak complicial set]], [[simplicial weak omega-category]] and [[Verity-Gray tensor product]] -- my main motivation was the claim now recounted at [[stratified simplicial set]] that the $\omega$-nerve on strict $\omega$-categories with values in $Strat$ has a strong monoidal left adjoint
 
@@ -170,7 +170,6 @@ The substantive content of this page should **not** be altered.
 
   * made the comma category explicit on which a [[simplicial local system]] is a functor
 
-
 *  [[Tim Porter|Tim]]: I have created a few entries relating to the interaction of [[local system]] with ideas from rational homotopy theory, especially algebras of differential forms on simplicial sets, based on Sullivan and further back Thom and Whitney. These included [[simplicial local system]], see Urs comment below, to which I have started replying. Perhaps I will be able to add more shortly. These entries are not yet finished and do not yet deal with the Sullivan-Thom-Whitney stuff.
 
 * [[Urs Schreiber|Urs]]: have some questions at [[simplicial local system]]
@@ -215,7 +214,6 @@ The substantive content of this page should **not** be altered.
    * I have added a request  at [[local system]]. Basically the current entry reads as if it related to a relatively recent idea. I suggest we look at the origins of the idea,  at least as old as 'Steenrod (1943)' if not before.  It is central to much of the nLab work. Probably we need to be much less restrictive in the motivation of this entry.
 
    * I have added some historical and motivational perspective in [[twisting function]] and would suggest that a similar section is needed for [[twisting cochain]].  The two threads of twisting the fibre and _deforming_ the local structure of a 'product' are at the origin of both concepts.
-
 
 # 2009-04-22 #
 
@@ -306,9 +304,9 @@ avoid going down to sheaves, resolutions of diagonal, de Rham site and regular d
 # 2009-04-19 #
 
 *  [[Toby Bartels]]:  I\'ve started a dispute at [[paraconsistent logic]].
-+--{: .query}
-[[Finn Lawler|Finn]]: No, you haven't -- I was wrong.
-=--
+   +--{: .query}
+   [[Finn Lawler|Finn]]: No, you haven't -- I was wrong.
+   =--
 
 # 2009-04-18 #
 
@@ -349,6 +347,7 @@ avoid going down to sheaves, resolutions of diagonal, de Rham site and regular d
    *  Wrote [[Cantor's theorem]], including a constructive version from Paul Taylor.
 
 # 2009-04-16 #
+
 * [[Zoran Škoda]]: created [[Tohoku]], [[quasi-pointed category]], made changes to [[sheafification]],[[additive and abelian categories]], [[torsion]], [[torsion subgroup]]
 
 * [[Mathieu Dupont|Mathieu]]:
@@ -370,7 +369,6 @@ avoid going down to sheaves, resolutions of diagonal, de Rham site and regular d
   * I created the next entry in the rational homotopy lexicon series with the ungainly title [[differential graded algebras and differential graded Lie algebras-relationships]]. 
 
   * I added another viewpoint to [[rational homotopy theory]] which is more in keeping with Quillen's 1969 paper.
-
 
 * [[Urs Schreiber|Urs]]:
 
@@ -397,6 +395,7 @@ avoid going down to sheaves, resolutions of diagonal, de Rham site and regular d
   * Added a comment in section generalizations at [[ind-object]], re comma category.
 
 # 2009-04-15 #
+
 * [[Zoran Škoda]]: created [[fibered n category]], [[Karoubian category]], [[pseudo-abelian category]] (redirect),  [[Koszul duality]], [[pure motive]], [[Voevodsky motive]], [[motives and dg-categories]] (there needs to be a separate big entry on [[mixed motive]], then [[motivic complexes]], [[standard conjectures]], [[Hodge filtration]] etc.), [[element in abelian category]]; created book-page [[Gray-adjointness-for-2-categories]]; additions and references to [[A-infinity category]], [[dg-category]], [[twisting cochain]].
 
 * [[Urs Schreiber|Urs]]: 
@@ -471,7 +470,6 @@ avoid going down to sheaves, resolutions of diagonal, de Rham site and regular d
 
   * added a remark on the $(\infty,1)$-version at [[Dold-Kan correspondence]]
 
-
   * created [[accessible (infinity,1)-category]] and [[accessible (infinity,1)-category]], but incomplete
 
   * created [[compact object in an (infinity,1)-category]], but incomplete
@@ -540,7 +538,6 @@ avoid going down to sheaves, resolutions of diagonal, de Rham site and regular d
 
   * I have adjusted an addition to [[differential graded Lie algebra]]. This used the term 'simply', but it is often not clear that one definition is 'simpler' than another.  'Simplicity' is sometimes clear, but is often in the eye of the beholder. I would love to see some discussion on this as it is an easy trap to fall into (as I know to my cost!) and there are several other similar traps out there which are just as difficult to avoid! Perhaps on the caf&#233;???
 
-
 #2009-04-05
 
 * [[Urs Schreiber|Urs]]:
@@ -556,8 +553,6 @@ avoid going down to sheaves, resolutions of diagonal, de Rham site and regular d
   * I have put another of the Lexicon series of entries up.  It is [[bar and cobar construction]]. This looks at the differential algebra behind those constructions, and sketches the bar-cobar adjunction. 
 
   *  I have tried to provide more links to and from this series of 'lexicon' entries. (soon will be finished!)
-
-
 
 * [[Urs Schreiber|Urs]]: 
 
@@ -582,7 +577,6 @@ avoid going down to sheaves, resolutions of diagonal, de Rham site and regular d
   * started an entry [[abelian sheaf cohomology]], but have just the "Idea"-section so far (aiming to provide the right $\infty$-categorical perspective)
 
   * provided, using [[Todd Trimble|Todd]]'s help, the details on the relations between the two definitions at [[closed monoidal structure on presheaves]] and created a supplementary entry [[functors and comma categories]] on properties of, well, functors on comma categories
-
 
 #2009-04-02
 
@@ -650,6 +644,7 @@ avoid going down to sheaves, resolutions of diagonal, de Rham site and regular d
   * Migrated [[2009 March changes|March changes]] 
 
   * Continued discussion with Urs at my private page [[davidroberts:comments on chapter 2]].
+
 
 ***
 
