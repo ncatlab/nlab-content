@@ -136,13 +136,15 @@ JCMcKeown: not meaning to cause annoyance, but how about calling them "$+k$-tran
 
 _Toby_:  Interesting; can you explain more about how they generate flags?  (Maybe that\'s something to put in a new section here, or you could just give a reference.)
 
-[[JCMcKeown]]: Just from reading above ''... and more generally $j$-morphisms in $C$ to $(j+k)$-morphisms in $D$''... ahah! Now I see what you're getting at.  I've got my head fixed on _endo_-functors; where if you wanted to (I don't mean it's a *good* idea.  Who knows?) you can consider iterations of the underlying function that is the $+k$-transformation.
+[[JCMcKeown]]: Just from reading above "... and more generally $j$-morphisms in $C$ to $(j+k)$-morphisms in $D$"... ahah! Now I see what you're getting at.  I've got my head fixed on _endo_-functors; where if you wanted to (I don't mean it's a *good* idea.  Who knows?) you can consider iterations of the underlying function that is the $+k$-transformation.
 
 [[Mike Shulman]]: FWIW, Sjoerd Crans has called these things **k-transfors**, and speaks of something being *transforial* as a general term including both "functorial" and "natural."
 
 _Toby_:  I\'m inclined to say that we should go with that!
 
 [[Mike Shulman]]: I'm not sure how serious you are... but I've always thought it was a proposal that deserved to be taken more seriously than it seems to have been.  The reference is "Localizations of Transfors," _K-Theory_ 2004 (I can't find a free version online).
+
+_Toby_:  I\'m perfectly serious.  The term *should* be indexed primarily by $k$, with $n$ only if one really insists.  I didn\'t want to make up my own word, but if Crans has published one, then why not use it?  I should be able to check that reference the next time that I visit the UCR library (about once a week).
 =--
 
 
