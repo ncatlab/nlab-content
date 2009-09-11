@@ -26,6 +26,11 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 
 ## 2009-09-11
+* [[Zoran ?koda]]: Urs seems to take [[derived algebraic geometry]] (see my answer/note there) as a higher algebraic stacks, and forgets deriving on the other side. Nonabelian cohomology results from right derived picture (quotients = colimits), and the missing part is to take the limits in derived sense, that is taking equalizers, intersections of subschemes etc. in derived sense as well. We should discuss that, replace the paragraph with the better one and after agreeing and explaining, erase the critical paragraph. In another paragraph the things are in place:
+
+> Where ordinary algebraic geometry uses schemes modeled on commutative rings, derived algebraic geometry uses structured (∞,1)-toposes modeled on E-∞ rings 
+
+Indeed, the higher stacks are about the (∞,1)-toposes, while the derived stacks ask also for the domain to be E-∞ rings. The "brave new algebraic geometry" on the other hand typically takes the second (alg geometry glued from spectra of infinity ring spectra), but not the first (higher stacks instead of schemes). 
 
 *  [[Toby Bartels]]:
    *  Agreement is being reached at [[k-transfor]].
