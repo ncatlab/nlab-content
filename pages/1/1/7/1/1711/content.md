@@ -155,6 +155,8 @@ _Toby_:  I\'m perfectly serious.  The term *should* be indexed primarily by $k$,
 _Toby_:  Excellent!  Since [[Finn Lawler|Finn]] and [[JCMcKeown]] have not been active lately, I\'ll move it over with that paper as a guide (or you can).
 
 I would like to *also* mention '$(n,k)$-transformation' (or maybe '$n$-$k$-transfor'?) as a possible term, however, since some people might want to specify $n$ just as some people like to say '$n$-functor'.
+
+_Toby_:  One could also say '$n$-natural $k$-transformation', which fits (what Crans claims on page 2 to be standard) '$2$-natural transformation' for a strict $(2,1)$-transformation.  But I still like '$k$-transfor' when $n$ is suppressed (which should be the default).
 =--
 
 
