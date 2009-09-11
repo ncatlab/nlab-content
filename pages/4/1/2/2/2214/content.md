@@ -33,7 +33,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-11
 
-*  [[Toby Bartels]]:  Since Recently Revised works again, I\'ve restored the link to it up above, from what it had been in [June](http://ncatlab.org/nlab/revision/2009+June+changes/947).
+*  [[Toby Bartels]]:
+   *  A bit at [[lax natural transformation]], which I really only mention since it\'s been discussed so much lately.
+   *  Since Recently Revised works again, I\'ve restored the link to it up above, from what it had been in [June](http://ncatlab.org/nlab/revision/2009+June+changes/947).
 
 * [[Zoran ?koda]]: Urs seems to take [[derived algebraic geometry]] (see my answer/note there) as a higher algebraic stacks, and forgets deriving on the other side. Nonabelian cohomology results from right derived picture (quotients = colimits), and the missing part is to take the limits in derived sense, that is taking equalizers, intersections of subschemes etc. in derived sense as well. We should discuss that, replace the paragraph with the better one and after agreeing and explaining, erase the critical paragraph. In another paragraph the things are in place:
 
