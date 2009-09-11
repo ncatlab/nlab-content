@@ -5,6 +5,7 @@ The substantive content of this page should **not** be altered.
 
 ***
 
+
 # 2009-06-30 #
 
 * [[Urs Schreiber|Urs]]
@@ -12,7 +13,6 @@ The substantive content of this page should **not** be altered.
   * created [[Eilenberg-MacLane object]] prompted by the blog discussion [here](http://golem.ph.utexas.edu/category/2009/06/cohomology_and_homotopy.html#c024902)
 
   * replied at [[homotopy]]
-
 
 *  [[Toby Bartels]]:
    *  Responded to [[Ronnie Brown]] at [[groupoid]].
@@ -63,7 +63,6 @@ The substantive content of this page should **not** be altered.
 
     then finally I added to [[homotopy group]] a last section "some abstract nonsense" that indicates how the discussion of homtopy groups could be given analogous, just dual, to the discussion the way we have it (since recently) at [[cohomology group]]
 
-   
   * expanded at [[cohomology group]] (standard abelian examples, standard nonabelian examples)
 
     * [[David Corfield]] has an interesting question there, I think he is right, will try to write something at [[homotopy group]]
@@ -186,7 +185,6 @@ The substantive content of this page should **not** be altered.
 
     * the point of view adopted there is _almost_ fully explicit in Brown-Higgins-Sivera's book _Nonabelian algebraic topology_ , only that one needs to notice in addition that the morphisms out of free resolutions of crossed complexes discusses there are the [[anafunctor]]s that compute the morphisms in the corresponding homotopy category. Has this been made fully explicit anywhere in the existing literature?
 
-
   * fiddled a bit with the entry [[higher category theory]] (added one more introductory sentence, created a hyperlinked list of definitions of higher categories) but I still feel that we should put more energy in this particular entry. It is sort of the single central entry one would expect an "$n$Lab" to be built around, but currently it doesn't even come close to living up to playing such a pivotal role. I am imagining that it should carry some paragraphs that highlight the powerful recent developments in view of [[Pursuing Stacks]], of the kind that I filled in today in the entry [[Carlos Simpson]]. Does any higher category theory expert out there feel like writing an expositional piece for the $n$Lab here?
 
   * created [[simplicial localization]] but was then too lazy to draw the hammock. But main point here is the link to an article by [[Tim Porter]] that nicely collects all the relevant definitions and references 
@@ -214,8 +212,8 @@ The substantive content of this page should **not** be altered.
 
    *  I created a brief entry on [[Jean-Luc Brylinski]], but this is really a stub with a link to Wikipedia.
 
-
 # 2009-06-24 #
+
 * [[Finn Lawler]]: Added a proof (sketch) of the 'lax Yoneda lemma' to [[lax natural transformation]].  Also replied re terminology at [[modification]] (thanks to Urs for a fantastic reply to my question there).
 
 * [[Zoran Škoda]]: created [[Hochschild-Serre spectral sequence]].
@@ -243,7 +241,6 @@ The substantive content of this page should **not** be altered.
   * am offering a reply to [[Finn Lawler]] at [[modification]]
 
 *  [[Toby Bartels]]:  Just more questions, instead of answers, for Finn and Gavin.
-
 
 # 2009-06-23 #
 
@@ -276,7 +273,6 @@ The substantive content of this page should **not** be altered.
   * worked on [[simplicial group]]:
 
     * added section about the adjunction between simplicial groups and simplicial sets, in particular mentioning the free simplicial abelian group functor (since that plays a role in the proof at [[abelian sheaf cohomology]], which now links to it)
-
 
     * moved statement and proof that every simplicial group is a Kan complex into a formal theorem-proof environment
 
@@ -373,8 +369,6 @@ The substantive content of this page should **not** be altered.
    * I finally added some stuff into [[crossed complex]] giving more information on the link with [[simplicial group]] and [[Moore complex]].  I hope to get around to creating 2-crossed complex in a day or two!
 
    * The discussion on [[simplicial homotopy group]] possibly needs more opinions! I just added a bit more of my viewpoint to Urs's thoughts box, but I do find that I am not sure what the idea / context / viewpoint (or whatever) of this entry should 'optimally' be!
-
-
 
 * [[Eric Forgy|Eric]]: In an attempt to understand Kan extension, I cooked up an example of a functor and added it to [[functor]]. Let me know if I made any mistake.
 
@@ -485,8 +479,6 @@ The substantive content of this page should **not** be altered.
 
 *  [[Tim Porter|Tim]]: I have continued at [[homotopy coherent nerve]].  This ended up with several new links to not-yet-existing pages!
 
-
-
 * [[Urs Schreiber]]:
 
   * created [[homeomorphism]] and [[local homeomorphism]] just to satisfy links
@@ -539,7 +531,6 @@ The substantive content of this page should **not** be altered.
 
   * Mike, ditto from me!
 
-
   * Made some changes to [[simplex category]] and [[join of simplicial sets]]. A more explicit mention of ordinal sum has been made and some minor corrections done.
 
 * [[Bruce Bartlett|Bruce]]:
@@ -585,7 +576,6 @@ The substantive content of this page should **not** be altered.
 
   * Put next, very drafty, chapter of my thesis on my personal web. Just click on my name and follow the white rabbit. 
   * Added another comment to [[covering space]]. This time about the (total) tangent groupoid as applied to the non-basepoint version of the universal covering space.
-
 
 # 2009-06-09 #
 
@@ -672,6 +662,7 @@ The substantive content of this page should **not** be altered.
 * [[Andrew Stacey|Andrew]] proved a theorem about [[Froelicher space|Hausdorff Frölicher spaces]] and the relationship to limits and colimits of manifolds.
 
 * [[Bruce Bartlett|Bruce]] added some stuff to Section 4 [[geometric infinity-function theory]] (with about query $QC(X)$ when $X$ is an $\omega$-groupoid internal to dg-manifolds) and ticked some things.
+
 
 ***
 
