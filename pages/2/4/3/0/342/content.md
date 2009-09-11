@@ -36,3 +36,5 @@ There is a [[periodic table]] of $(n,r)$-categories:
 <tr><th>$2$</th><td>\"</td><td>\"</td><td>\"</td><td>[[2-poset]]</td><td>[[2-category]]</td><td>...</td></tr>
 <tr><th>$3$</th><td>\"</td><td>\"</td><td>\"</td><td>\"</td><td>[[3-poset]]</td><td>...</td></tr>
 <tr><th>&#8942;</th><td>\"</td><td>\"</td><td>\"</td><td>\"</td><td>\"</td><td>&#8945;</td></tr></table>
+
+[[!redirects (n,r)-categories]]
