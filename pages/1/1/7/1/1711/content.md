@@ -151,6 +151,10 @@ _Toby_:  I\'m perfectly serious.  The term *should* be indexed primarily by $k$,
 [[Todd Trimble]]: I like $k$-transfor. 
 
 [[Mike Shulman]]: [Found it](http://home.tiscali.nl/secrans/papers/lotr.html)
+
+_Toby_:  Excellent!  Since [[Finn Lawler|Finn]] and [[JCMcKeown]] have not been active lately, I\'ll move it over with that paper as a guide (or you can).
+
+I would like to *also* mention '$(n,k)$-transformation' (or maybe '$n$-$k$-transfor'?) as a possible term, however, since some people might want to specify $n$ just as some people like to say '$n$-functor'.
 =--
 
 
@@ -163,3 +167,4 @@ _Toby_:  I\'m perfectly serious.  The term *should* be indexed primarily by $k$,
 [[!redirects j-transformations]]
 [[!redirects k-transformations]]
 [[!redirects n-transformations]]
+[[!redirects k-transfor]]
