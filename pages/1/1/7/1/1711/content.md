@@ -149,6 +149,8 @@ _Toby_:  I\'m perfectly serious.  The term *should* be indexed primarily by $k$,
 [[Mike Shulman]]: No argument here (about indexing by $k$).  Also $(n,k)$-transformation sounds to me like something to do with [[(n,r)-categories]], but there of course the comma denotes something completely different. 
 
 [[Todd Trimble]]: I like $k$-transfor. 
+
+[[Mike Shulman]]: [Found it](http://home.tiscali.nl/secrans/papers/lotr.html)
 =--
 
 
