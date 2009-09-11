@@ -2,8 +2,10 @@
 
 Archive of changes made during May 2009.
 The substantive content of this page should **not** be altered.
+For past versions of this page beyond its own history, start [here](http://ncatlab.org/nlab/revision/2009+June+changes/773) and work backwards.
 
 ***
+
 
 # 2009-05-30 #
 
@@ -55,8 +57,6 @@ The substantive content of this page should **not** be altered.
   * expanded [[path category]] and created [[Moore path category]] in the process
 
 * [[David Roberts]]: Added comment to [[plus construction]] re disambiguation (recall the [[Quillen plus construction]]).
-
-
 
 # 2009-05-27 #
 
@@ -217,7 +217,6 @@ for the journal club on geometric $\infty$-function theory.
 
   * thanks to [[Toby Bartels|Toby]] for (in particular) his editorial work! it doesn't go unnoticed, is much appreciated
 
-
 # 2009-05-18 #
 
 *  [[Todd Trimble]] has also created [[uniform space]] and [[ultrafilter theorem]].
@@ -294,7 +293,6 @@ for the journal club on geometric $\infty$-function theory.
   * added a little proposition to [[dependent product]] and a little example to [[geometric morphism]]
 
 *  [[Tim Porter|Tim]]: I have given a partial reply to [[Urs Schreiber|Urs]] question at [[homotopy coherent nerve]].
-
 
 # 2009-05-12 #
 
@@ -430,7 +428,6 @@ for the journal club on geometric $\infty$-function theory.
 
   * created [[string theory]]
 
-
 # 2009-05-05 #
 
 * [[David Corfield|David]]:
@@ -503,13 +500,13 @@ for the journal club on geometric $\infty$-function theory.
 
   * Added some links at [[Gray-adjointness-for-2-categories]] to entries on concepts in the book.  Some of these are to non-existent pages like [[lax natural transformation]].  Do pages on 'elementary' stuff like this belong here on nLab, or should we add them to Wikipedia and link there?
 
-   +--{: .query}
-   [[Mike Shulman|Mike]]: If we have a page on [[category|categories]], we can certainly have a page on lax natural transformations!
+    +--{: .query}
+    [[Mike Shulman|Mike]]: If we have a page on [[category|categories]], we can certainly have a page on lax natural transformations!
 
-   [[Jonas Frey]]: The problem about lax natural transformations is that there is no consensus about the orientation of constraints in the literature. Johnstone in the elephant and Gurski in his PhD-thesis for example use an other orientation than Leinster and Borceux in their books.
+    [[Jonas Frey]]: The problem about lax natural transformations is that there is no consensus about the orientation of constraints in the literature. Johnstone in the elephant and Gurski in his PhD-thesis for example use an other orientation than Leinster and Borceux in their books.
 
-   _Toby_:  All the more reason to write an article to explain the differences!
-   =--
+    _Toby_:  All the more reason to write an article to explain the differences!
+    =--
 
 * [[Urs Schreiber|Urs]]
 
@@ -518,6 +515,7 @@ for the journal club on geometric $\infty$-function theory.
   * considerably expanded [[(infinity,1)-category]] -- motivation was really to write [[relation between quasi-categories and simplicial categories]], but then ran out of steam
 
   * removed all existing logs here and archived them as [[2009 April changes]]
+
 
 ***
 
