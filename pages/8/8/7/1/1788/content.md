@@ -10,7 +10,7 @@ Every wiki needs a sandbox! Just test _below_ and don't worry about messing thin
 
 Black Tortoise Shell Brackets?
 
-These look close to the "Chicago" and "Hollywood" fonts that I used to use on my old Mac for logical ops.
+These look close to the "Chicago" and "Hollywood" fonts that I used to use for logical ops on my old Mac.
 
 * &#10647; &#8594; &#10647;
 * &#65104; &#8594; &#65104;
