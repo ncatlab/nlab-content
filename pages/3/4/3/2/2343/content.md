@@ -12,4 +12,4 @@ The construction of moduli spaces depends strongly on local properties like smoo
 
 * J. Lurie, _Derived algebraic geometry IV: deformation theory_, [arXiv:0709.3091](http://arxiv.org/abs/0709.3091)
 
-* S. Schwede, _Spectra in model categories and applications to the algebraic cotangent complex_, J. Pure Appl. Alg. __120__, 77--104 (1997).
+* S. Schwede, _Spectra in model categories and applications to the algebraic cotangent complex_, J. Pure Appl. Alg. __120__, 77--104 (1997) (<a href="http://dx.doi.org/10.1016/S0022-4049(96)00058-8">doi</a>)
