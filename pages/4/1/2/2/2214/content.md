@@ -26,6 +26,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-11
 
+* [[Zoran ?koda]]: additions to [[deformation theory]], [[derived algebraic geometry]]; created [[cotangent complex]].
+
 *  [[Toby Bartels]]:  I\'m perfectly serious at [[(n,k)-transformation]].
 
 
