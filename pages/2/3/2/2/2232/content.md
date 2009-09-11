@@ -37,6 +37,8 @@ _Toby_:  I understand it, but it still doesn\'t actually include the centre of a
 _Toby_:  I\'ll try to get John\'s attention.
 
 [[Mike Shulman]]: The HDA1 definition also leaves me wondering: why make only that particular choice of what level to stop at?  Is there anything interesting to say about other choices?
+
+_Toby_:  H\'m, John is 'too busy' until September 22.  ('_')
 =--
 
 
