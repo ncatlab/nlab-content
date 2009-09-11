@@ -25,6 +25,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 ## 2009-09-11
+* [[Zoran ?koda]]: stub [[derivator]] including few lines from [[triangulated category]]; maybe more discussion from there should be moved to [[derivator]] and just left a short notice at triangulated category on derivators (it seems in fact one wanted to talk about _triangulated derivators_!!), because t.cat. are a wide topic and the entry may expand in many different directions, while the motivation and the discussion may be useful at derivator. but have no time to decide and think of what is sensitive. Somebody should copy the axioms from Maltsionitis' notes for derivator.
 
 * [[Jon Awbrey]] began watering his trans-plants at [[cactus language]] --- bit by bit, you have to be very incre-mental with cacti --- and started a [parallel (tangential?) discussion](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=69) at the $n$-forum.
 
