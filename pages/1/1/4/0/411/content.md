@@ -2,8 +2,10 @@
 
 Archive of changes made during 2008.
 The substantive content of this page should **not** be altered.
+For past versions of this page beyond its own history, start [here](http://ncatlab.org/nlab/revision/2009+June+changes/20) and work backwards.
 
 ***
+
 
 * [[Toby Bartels|Toby]] (2008-12-31): I have a precise definition of [[evil]], so I put that in.
 
@@ -43,6 +45,7 @@ of the [[HomePage]]. So far I did this in [[category theory]], [[sheaf and topos
 * [[Toby Bartels]]: I just expanded [[tensor product]], enough to include the example that links to it (without circularity).
 
 * [[Urs Schreiber|Urs]]: I expanded on the entry [[action groupoid]] that [[Eric Forgy|Eric]] started.
+
 
 ***
 
