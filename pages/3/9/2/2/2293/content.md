@@ -12,6 +12,8 @@ The adjective "derived" means pretty much the same as the "$\infty$-" in [[∞-c
 There is no really systematic rule to the use of the word "derived" here. For instance [[derived stack]] has become the standard term for the general version of the notion of [[∞-stack]], but [[Higher Topos Theory]] is not called "derived topos theory".
 
 > [[Urs Schreiber]]: personally I'd think that "derived algebraic geometry" is therefore a misnomer. But who am I to stop that train? :-)
+_Zoran_: this paragraph is entirely wrong, hence your repenting it. There are two generalizations needed to come from schemes to algebraic geometry: deriving on the left and deriving on the right. The deriving on the left corresponds to take higher algebraic stacks,say in terms of fibrant objects in certain model category of simplicial presheaves. The deriving on the left means taking the fibre products of schemes in certain derived way as well (amounting to taking the left derived functors of the tensor product on the algebra level), but the model structures here take the flxibility of dg algebras in the source of the simplicial presheaf picture; this takes care of nontransersality. Thus derived stack is not only higher stack, it is also derived on the other side. 
+
  
 ## relation to higher algebra ##
 
@@ -36,8 +38,13 @@ More recent big success of derived algebraic geometry of the second kind was [[e
 
 # References #
 
-Dg-schemes were used to construct some derived moduli spaces
-for the first time in the works of Ciocan-Fontaine with Kapranov:
+A prediction of derived moduli spaces is spelled out (in a bit different language) in
+
+* M. Kontsevich, _Enumeration of rational curves via torus actions_. The moduli space of curves (Texel Island, 1994), 335--368, Progr. Math. __129__, Birkh&#228;user 1995. MR1363062 (97d:14077), [hep-th/9405035](http://arxiv.org/abs/hep-th/9405035).
+
+An early variant, the _dg-schemes), were used to construct some derived moduli spaces for the first time in the works of Kapranov and Ciocan-Fontanine:
+
+* M. Kapranov, _Injective resolutions of BG and derived moduli spaces of local systems_,  J. Pure Appl. Algebra  155  (2001),  no. 2-3, 167--179; [math/alg-geom/9710027](http://arxiv.org/abs/alg-geom/9710027), MR1801413 (2002b:18017)
 
 * I. Ciocan-Fontanine, M. Kapranov, _Derived Hilbert scheme_ [math.AG/0005155](http://arxiv.org/abs/math/0005155), _Derived Quot scheme_, [math.AG/9905174](http://arxiv.org/abs/math/9905174)
 
@@ -82,7 +89,7 @@ and a bit earlier treatise on formal (infinitesimal in the sense of [[formal sch
 
 * M. Kontsevich, Y. Soibelman, _Notes on A-infinity algebras, A-infinity categories and non-commutative geometry. I_, [math.AG/0606241](http://arxiv.org/abs/math/0606241)
 
-This formal aspect is supposedly related to the infinitesimal picture of the moduli stacks considered by Toen et al. and it generalizes more classical approaches to the deformation theory like Illusie's cotangent complex (cf. also smooth obstruction theory of Fantechi-Behrend). See also motivic aspects in
+This formal aspect is supposedly related to the infinitesimal picture of the moduli stacks considered by Toen et al. and it generalizes more classical approaches to the [[deformation theory]] like Illusie's [[cotangent complex ]] (cf. also smooth obstruction theory of Fantechi-Behrend). See also motivic aspects in
 
 * Maxim Kontsevich, Yan Soibelman, _Stability structures, motivic Donaldson-Thomas invariants and cluster transformations_, [arXiv:0811.2435](http://arxiv.org/abs/0811.2435)
 
