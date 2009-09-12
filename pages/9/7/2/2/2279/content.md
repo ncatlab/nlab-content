@@ -1,4 +1,4 @@
-Higher topos theory is the generalisation to [[higher category theory]] of [[topos theory]]. It is partly motivated by the [[Grothendieck]]'s program in [[Pursuing Stacks]].
+Higher topos theory is the generalisation to [[higher category theory]] of [[topos theory]]. It is partly motivated by [[Grothendieck]]'s program in _[[Pursuing Stacks]]_.
 
 More generally, the concept _$(n,r)$-topos_ is to [[topos]] as [[(n,r)-category]] is to [[category]].
 
@@ -17,7 +17,7 @@ Just as the archetypical example of an ordinary [[topos]] (i.e. a $(1,1)$-topos)
 
 ## $(\infty,1)$-topos theory ##
 
-Early frameworks for Grothendieck (as opposed to "elementary") $(\infty,1)$-topoi are due [[Charles Rezk]] and [[Bertrand Toen|Toën]]-Vezzosi in two versions (preprints 2002), via [[simplicially enriched category|simplically enriched categories]] and via [[Segal category|Segal categories]]:
+Early frameworks for [[Grothendieck topos|Grothendieck]] (as opposed to "elementary") $(\infty,1)$-topoi are due [[Charles Rezk]] and [[Bertrand Toen|Toën]]--Vezzosi in two versions (preprints 2002), via [[simplicially enriched category|simplically enriched categories]] and via [[Segal category|Segal categories]]:
 
 * [[Bertrand Toën]], Gabrielle Vezzosi, _Homotopical algebraic geometry. I. Topos theory_, 
 Adv. Math. 193 (2005), no. 2, 257--372, [arXiv:math.AT/0207028](http://arxiv.org/abs/math/0207028)
@@ -30,7 +30,7 @@ Adv. Math. 193 (2005), no. 2, 257--372, [arXiv:math.AT/0207028](http://arxiv.org
 
 and shown that Brown-Joyal-Jardine [[model structure on simplicial presheaves]] (for ordinary [[∞-stack]]s) and more generally the To&#235;n-Vezzosi [[model structure on simplicially enriched presheaves]] (for [[derived ∞-stack]]s) are indeed models for this theory.
 
-In this context, indeed the [[(∞,1)-category]] [[∞-Grpd]] or [[Top]] of [[∞-groupoid]]s or equivalently (see [[homotopy hypothesis]]) of (compactly generated weakly Hausdorff) [[topological space]] -- is the archetypical example of an $(\infty,1)$-topos.
+In this context, indeed the [[(∞,1)-category]] [[∞-Grpd]] or [[Top]] of [[∞-groupoid]]s or equivalently (see [[homotopy hypothesis]]) of (compactly generated weakly Hausdorff) [[topological spaces]] -- is the archetypical example of an $(\infty,1)$-topos.
 
 
 
