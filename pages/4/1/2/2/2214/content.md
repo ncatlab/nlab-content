@@ -33,6 +33,10 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-12
 
+* [[Jon Awbrey]]:
+   * Finds his time too intermittent this weekend to do more than potter about in the $n$-garden, but was pleased to discover how to write the old Pascal "set-equal-to" as "$\:\text{:=}\:$" in a math context.
+   * Replies to a query at [[relation theory]].
+
 *  [[Toby Bartels]]:
    *  Added a bit to [[tree]].
    *  Answered questions from [[Eric Forgy]] at each of the below.
