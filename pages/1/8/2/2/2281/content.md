@@ -11,3 +11,4 @@
 category: biography
 
 [[!redirects Sammy Eilenberg]]
+[[!redirects Eilenberg]]
