@@ -15,11 +15,11 @@ For that reason extended QFT is also sometimes called **local** or **localized**
 
 #The category of extended cobordisms#
 
-The definition of a j-cobordism is recursive. A (j+1)-cobordism between j-cobordisms is a closed smooth compact oriented (j+1)-manifold with boundary the disjoint union of the j-cobordism.
+The definition of a $j$-cobordism is recursive. A $(j+1)$-cobordism between $j$-cobordisms is a [[compact space|compact]] [[orientation|oriented]] $(j+1)$-dimensional [[smooth manifold]] with corners whose the boundary is the [[disjoint union]] of the target $j$-cobordism and the orientation reversal of the source $j$-cobordism.  (The base case of the recursion is the [[empty set]], thought of as a $(-1)$-dimensional manifold.)
 
-$nCob_m$ is a n-category with closed smooth compact oriented n-manifolds as objects and cobordisms of cobordisms up to m-cobordisms, up to diffeomorphism, as morphisms.
+$n Cob_m$ is an $n$-category with smooth compact oriented $n$-manifolds as objects and cobordisms of cobordisms up to $m$-cobordisms, up to diffeomorphism, as morphisms.
 
-There are various suggestions with more or less detail for a precise definition of a higher category $nBord_n$ (or also denoted $nCob_n$ or similar) of fully extended $n$-dimensional cobordisms. 
+There are various suggestions with more or less detail for a precise definition of a higher category $n Cob_n$ of fully extended $n$-dimensional cobordisms. 
 
 A very general one is described at [[(∞,n)-category of cobordisms]].
 
@@ -29,43 +29,43 @@ See
 
 
 #Definition#
-For a fixed base ring $R$,
-and C a symmetric monoidal n-category.
 
-A m-extended C-valued TQFT of dimension n is a symmetric n-tensor functor $Z:nCob_m \rightarrow$C that assign
-* closed smooth compact oriented n-manifolds $\rightarrow$ elements of $R$
-* closed smooth compact oriented (n-1)-manifolds $\rightarrow$ $R$-modules
-* bordisms of closed smooth compact oriented (n-1)-manifolds $\rightarrow$ $R$-linear maps between $R$-modules
-* closed smooth compact oriented (n-2)-manifolds $\rightarrow$ $R$-linear 1-categories
-* bordisms of closed smooth compact oriented (n-2)-manifolds $\rightarrow$ functors between $R$-linear 1-categories
+Fix a [[base ring]] $R$, and let $C$ be a [[symmetric monoidal category|symmetric monoidal]] $n$-category.
 
-* . . .
-(this is so typical, instiki don't display correctly)
+An $m$-extended $C$-valued TQFT of dimension $n$ is a symmetric $n$-tensor functor $Z: n Cob_m \rightarrow C$ that maps
+* smooth compact oriented $n$-manifolds to elements of $R$
+* smooth compact oriented $(n-1)$-manifolds to $R$-modules
+* cobordisms of smooth compact oriented $(n-1)$-manifolds to $R$-linear maps between $R$-modules
+* smooth compact oriented $(n-2)$-manifolds to $R$-linear [[additive categories]]
+* cobordisms of smooth compact oriented $(n-2)$-manifolds to functors between $R$-linear categories
+* etc ...
+* smooth compact oriented $0$-manifolds to $R$-linear $(m-2)$-categories
+* cobordisms of smooth compact oriented $0$-manifolds to $(m-2)$-functors between $R$-linear $(m-2)$-categories
 
-* closed smooth compact oriented 0-manifolds $\rightarrow$ $R$-linear (m-2)-categories
-* bordisms of closed smooth compact oriented 0-manifolds $\rightarrow$ (m-2)-functors between $R$-linear (m-2)-categories
++-- {: .query}
+I changed references to bordism here into references to [[cobordisms]], since there\'s also a notion of bordism (a back-formation) as dual to cobordism, which is not what we want.  (Also Wikipedia implies that 'bordism' is a mass noun while 'cobordism' is a count noun, and these are count nouns, for what that\'s worth.)  ---Toby
+=--
 
-with compatibility conditions and gluing formulas that must be satisfied...
+with compatibility conditions and gluing formulas that must be satisfied ...
 
-m can range between 2 and n+1.
+Here $m$ can range between $2$ and $n+1$.
 
-This suggests that one can see ETQFT's as C-valued representations of $nCob_m$.
+This suggests that one can see ETQFTs as $C$-valued representations of $n Cob_m$.
 
 +-- {: .query}
 _Rafael_: I obviously used a linear category in the definition as C instead of a general C. Do anyone know how to generalize it? Neither do i know the compatibility conditions and gluing formulas, any good explicit references?
 =--
+
 #Examples#
 
-m=2 gives ordinary TQFT.
+$m=2$ gives ordinary [[TQFT]].
 
-The most common case is when $R$=$C$ (the complex numbers) giving unitary ETQFT.
+The most common case is when $R = \mathbb{C}$ (the [[complex numbers]]), giving unitary ETQFT.
 
-The most common cases for C is
-C=$nHilb(R)$, the category of n-Hilbert spaces over a field $R$. As far as i know it is only defined up to n=2.
-
-C=$nVect(R)$, the category of n-vector spaces over a field $R$.
-
-C=$nMod(R)$, the (conjectured?) category of n-$R$-modules.
+The most common cases for $C$ are
+*  $C = n Hilb(R)$, the category of $n$-[[n-Hilbert space|Hilbert spaces]] over a topological field $R$. As far as we know this is only defined up to $n=2$.
+*  $C = n Vect(R)$, the category of $n$-[[n-vector space|vector spaces]] over a field $R$.
+*  $C = n Mod(R)$, the (conjectured?) category of $n$-[[n-module|modules]] over a commutative ring $R$.
 
 #Construction of ETQFT's#
 
@@ -110,3 +110,6 @@ Please check and expand this page, i am not counting very good with my eyes half
 _Rafael_: Yes, for the merge. I think of a subsection here **construction of ETQFTs** and a pointer to the relation between ETQFT to AQFT. I also think you are much better to include the construction of ETQFTs in **Nonabelian cocycles and their sigma model QFTs** than me.
 
 =--
+
+
+[[!redirects EQFT]]
