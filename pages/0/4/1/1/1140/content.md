@@ -151,7 +151,4 @@ D. Tanr&#233;, Homotopie rationnelle: Mod&#232;les de Chen, Quillen, Sullivan, L
 
 Much of the material there was based on  Quillen's paper:
 
-D. Quillen, Rational Homotopy Theory, Ann. of Math., (2) 90 (1969), 205-295. 
-
-
-category: lexicon
+D. Quillen, Rational Homotopy Theory, Ann. of Math., (2) 90 (1969), 205-295.
