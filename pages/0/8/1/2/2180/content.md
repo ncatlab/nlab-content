@@ -26,7 +26,11 @@ _Et sic deinceps &#8230;_
 
 The path to this point has been straight and narrow, cut and dried --- like rolling a boulder up a hill of abstraction --- the air gets rare but getting to the top is so reflexive that any bot could see the way there.  But the summit presents a wealth of new vistas, and seeing the way clear from a relational metagraph to a relational metacategory demands reflection on many more choices than we could see from our base camp at _Che Valley_.
 
-Guidance in sorting abstract sense from abstract nonsense can be had by resorting to the relational analogues of concrete categories, in short, to sets and relations.  Fortune smiles, for the world of applications is blessed with an almost embarrassing richness of these.
+Guidance in sorting abstract sense from abstract nonsense can be had by resorting to the relational analogues of concrete categories, in short, to [[Rel|sets and relations]].  Fortune smiles, for the world of applications is blessed with an almost embarrassing richness of these.
+
++-- {: .query}
+Are you dissatisfied with [[allegory|allegories]]?  ---[[Toby Bartels]]
+=--
 
 $\ldots$
 
