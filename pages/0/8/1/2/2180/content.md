@@ -28,10 +28,6 @@ The path to this point has been straight and narrow, cut and dried --- like roll
 
 Guidance in sorting abstract sense from abstract nonsense can be had by resorting to the relational analogues of concrete categories, in short, to [[Rel|sets and relations]].  Fortune smiles, for the world of applications is blessed with an almost embarrassing richness of these.
 
-+-- {: .query}
-Are you dissatisfied with [[allegory|allegories]]?  ---[[Toby Bartels]]
-=--
-
 $\ldots$
 
 This approach to relation theory grows out of (1) some of my earliest strugglings with the foundations of mathematics and the nature of functions, (2) long-continued wrestling with C.S. Peirce's "logic of relatives", (3) some ideas I had in the early 1980's about "relational arrows" and "making relations universal", (4) course work on category theory, combinators, and $\lambda$-calculus and discussions with John Gray at UIUC in the middle 1980's, (5) course work on relational programming and discussions with Fatma Mili at OU in the 1990's.  What I've been able to reconstruct so far is only a fragment of what (I think) I had in mind.  ---[[Jon Awbrey]]
@@ -153,6 +149,15 @@ A more conceptual than nominal variation depends on whether one uses terms like 
 * [Peirce's 1870 Logic Of Relatives](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Peirce's_1870_Logic_Of_Relatives)
 
 ## Discussion ##
+
+### Re: Idea ###
+
++-- {: .query}
+Are you dissatisfied with [[allegory|allegories]]?  ---[[Toby Bartels]]
+
+JA: I looked into Freyd and Scedrov when it first came out --- I still have a copy around here _somewhere_.  It seemed quite nice as far as it went but --- best I recall --- it was mostly about 2-ary relations?
+
+=--
 
 ### Re: Preliminaries ###
 
