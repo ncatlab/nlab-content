@@ -19,5 +19,10 @@ Then a graph (or is it cograph?) is a [[category of elements]] of this category.
 
 Then you could maybe talk more generally about **graph of a morhism**. Or something...
 
+_Toby_:  The above graph of a function definitely generalises to the graph of a morphism; I didn\'t say anything about it, because I didn\'t want to have to think about what categories it\'s possible to do this in.  (Probably a [[regular category]] or something like that.)
+
+I don\'t understand what you\'re saying above.  You seem to introduce the [[trivial category]] and then ask for its category of elements.  Categories don\'t have categories of elements, objects of categories do; but this category has just one object, so I\'ll use that.  But the category of elements of that one object is also trivial.  The real problem is that nothing in this category has to do with any function $f: X \to Y$; all you\'ve done is label an abstract morphism with the same name '$f$'.  Can you try to explain again what you mean?
+
+
 [[!redirects graph of a relation]]
 [[!redirects cograph]]
