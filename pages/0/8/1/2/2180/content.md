@@ -1,6 +1,3 @@
-[[!redirects graph of a relation]]
-[[!redirects graph of a function]]
-
 ## Idea ##
 
 To the best of my re\*collection, it went a bit like this:
@@ -47,7 +44,7 @@ When we speak of a function $f : X \to Y$ we are thinking of a mathematical obje
 
 Let us write $f = (obj_1 f, obj_2 f, obj_{12} f)$ to express what has been said so far.
 
-When it comes to parsing the notation "$f : X \to Y$", everyone takes the part "$X \to Y$" to specify the _type_ of the function, that is, the pair $(obj_1 f, obj_2 f)$, but "$f$" is used equivocally to denote both the triple and the subset $obj_{12} f$ that forms one part of it.  One way to resolve the ambiguity is to formalize a distinction between a function and its _graph_, letting $graph (f) := obj_{12}f$.
+When it comes to parsing the notation "$f : X \to Y$", everyone takes the part "$X \to Y$" to specify the _type_ of the function, that is, the pair $(obj_1 f, obj_2 f)$, but "$f$" is used equivocally to denote both the triple and the subset $obj_{12} f$ that forms one part of it.  One way to resolve the ambiguity is to formalize a distinction between a function and its _[[graph of a function|graph]]_, letting $graph (f) := obj_{12}f$.
 
 Another tactic treats the whole notation "$f : X \to Y$" as sufficient denotation for the triple, letting "$f$" denote $graph (f)$.
 
@@ -66,7 +63,7 @@ A $k$-place relation $L \subseteq X_1 \times \ldots \times X_k$ over the nonempt
 
 ## Remarks ##
 
-Though usage varies as usage will, there are several bits of optional language that are frequently useful in discussing relations.  The sets $X_1, \ldots, X_k$ are called the _domains_ of the relation $L \subseteq X_1 \times \ldots \times X_k$, with $X_j$ being the $j^{th}$ domain.  If all of the $X_j$ are the same set $X$, then $L \subseteq X_1 \times \ldots \times X_k$ is more simply described as a $k$-place relation over $X$.  The set $L$ is called the _graph_ of the relation $L \subseteq X_1 \times \ldots \times X_k$, on analogy with the graph of a function.  If the sequence of sets $X_1, \ldots, X_k$ is constant throughout a given discussion or is otherwise determinate in context, then the relation $L \subseteq X_1 \times \ldots \times X_k$ is determined by its graph $L$, making it acceptable to denote the relation by referring to its graph.  Other synonyms for the adjective _$k$-place_ are _$k$-adic_ and _$k$-ary_, all of which leads to the integer $k$ being called the _dimension_, the _adicity_, or the _arity_ of the relation $L$.
+Though usage varies as usage will, there are several bits of optional language that are frequently useful in discussing relations.  The sets $X_1, \ldots, X_k$ are called the _domains_ of the relation $L \subseteq X_1 \times \ldots \times X_k$, with $X_j$ being the $j^{th}$ domain.  If all of the $X_j$ are the same set $X$, then $L \subseteq X_1 \times \ldots \times X_k$ is more simply described as a $k$-place relation over $X$.  The set $L$ is called the _[[graph of a relation|graph]]_ of the relation $L \subseteq X_1 \times \ldots \times X_k$, on analogy with the graph of a function.  If the sequence of sets $X_1, \ldots, X_k$ is constant throughout a given discussion or is otherwise determinate in context, then the relation $L \subseteq X_1 \times \ldots \times X_k$ is determined by its graph $L$, making it acceptable to denote the relation by referring to its graph.  Other synonyms for the adjective _$k$-place_ are _$k$-adic_ and _$k$-ary_, all of which leads to the integer $k$ being called the _dimension_, the _adicity_, or the _arity_ of the relation $L$.
 
 ## Incidence properties ##
 
