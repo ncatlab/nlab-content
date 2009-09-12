@@ -154,3 +154,28 @@ _Toby_:  OK, I\'ve completely redone the page above; [this](http://ncatlab.org/n
 
 (One obvious possibility is that the best style of definition is a mixture of the two previous styles: doing undirected and directed graphs separately, but in each case listing the two choices ---loops or no loops, multiple edges or no multiple edges--- as I had done before.)
 =--
+
+[[Eric]]: Ugh. I see that quite some discussion went on here and I'm late to the party. This page is not beautiful nor remotely $n$-categorical in my opinion. We already had a page that I was very happy with on [[directed graphs]].
+
+Isn't there some way to state very simply:
+
+>A **graph** is a functor...
+
+Here is a humble attempt...
+
+#Definition#
+
+An **abstract graph** $X$ is a [[category]] with
+
+* one object $X_0$, called the object of _vertices_;
+
+* one object $X_1$, called the object of _edges_;
+
+* one morphism $e : X_1 \to ???$, called
+the _???_;
+
+* together with identity morphisms.
+
+A **graph** is a [[functor]] $G: X\to$ [[Set]].
+
+More generally, a **graph [[internalization|in]] a category $C$** is a [[functor]] $G : X \to C$.
