@@ -3,7 +3,7 @@
 
 ## Idea ##
 
-To the best of my re$^*$collection, it went a bit like this:
+To the best of my re\*collection, it went a bit like this:
 
 _Was sind und was sollen &#8212;_
 
@@ -21,9 +21,9 @@ What Thing (2) would correspond to a Relational Arrow as a Category corresponds 
 
 What Thing (3) would correspond to a Relational Category as a Metagraph corresponds to a Category?
 
-* What the hecque, let's call Thing 3 a _Polygraph_.
+* Let's call Thing 3 a _Relational Metagraph_.
 
-So it seems that a __polygraph__ ought to consist of _objects_ $a, b, c, \ldots$, _relational arrows_ $p, q, r, \ldots$, and a number of operations $\mathop{dom}_j$ that assign to each relational arrow $p$ an object $\mathop{dom}_j p$ for each $j$ in the arity of $p$.
+So it seems that a __relational metagraph__ ought to consist of _objects_ $a, b, c, \ldots$, _relational arrows_ $p, q, r, \ldots$, and a number of operations $\mathop{dom}_j$ that assign to each relational arrow $p$ an object $\mathop{dom}_j p$ for each $j$ in the arity of $p$.
 
 _Et sic deinceps &#8230;_
 
