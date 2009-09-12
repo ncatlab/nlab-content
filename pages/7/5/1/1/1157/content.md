@@ -175,7 +175,3 @@ This was augmented with material from
 
 H. J. Baues, _Geometry of loop spaces and the cobar construction_, Mem. Amer.
 Math. Soc. 25 (230) (1980) ix+171.
-
-
-
-category: lexicon
