@@ -1,6 +1,6 @@
 #Idea#
 
-The Atiyah Lie-groupoid of a $G$-[[principal bundle]] is the [[Lie groupoid]] whose objects are the fibers of the bundle, and whose morphisms are the $G$-equivariant morphisms between the fibers.
+The Atiyah Lie groupoid of a $G$-[[principal bundle]] is the [[Lie groupoid]] whose objects are the fibers of the bundle, and whose morphisms are the $G$-equivariant morphisms between the fibers.
 
 #Definition#
 
@@ -106,9 +106,9 @@ where
 
 Indeed, a splitting $\nabla_{flat} : T X \to at(P)$ of this sequence in the category of [[Lie algebroid]]s is precisely again a flat connection on $P$ and integrates under [[Lie integration]] to the splitting of $At'(P)$ discussed above.
 
-To get non-flat connections in the literature one often sees discussed splittings of the Atiyah Lie algebroid sequence in the category just of vector bundles. In that case one finds the curvature of the connection precisely as the obstruction to having a splitting even in Lie-algebroids.
+To get non-flat connections in the literature one often sees discussed splittings of the Atiyah Lie algebroid sequence in the category just of vector bundles. In that case one finds the curvature of the connection precisely as the obstruction to having a splitting even in Lie algebroids.
 
-One can describe non-flat connections without leaving the context of Lie algebroids by passing to higher Lie algebroids, namely [[L-infinity algebroid]]s.
+One can describe non-flat connections without leaving the context of Lie algebroids by passing to higher Lie algebroids, namely $L_\infty$-[[L-infinity-algebroid|algebroids]].
 
 #References#
 
