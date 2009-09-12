@@ -24,7 +24,9 @@ So it seems that a __relational metagraph__ ought to consist of _objects_ $a, b,
 
 _Et sic deinceps &#8230;_
 
-The path to this point has been straightforward, narrow, cut and dried --- like rolling a boulder up a hill of abstraction --- the air gets rare but getting to the top is so reflexive that any bot could see the way there.  But the summit presents a wealth of new vistas, and seeing the way clear from a relational metagraph to a relational metacategory demands reflection on many more choices than we could see from _Che Valley_.
+The path to this point has been straight and narrow, cut and dried --- like rolling a boulder up a hill of abstraction --- the air gets rare but getting to the top is so reflexive that any bot could see the way there.  But the summit presents a wealth of new vistas, and seeing the way clear from a relational metagraph to a relational metacategory demands reflection on many more choices than we could see from our base camp at _Che Valley_.
+
+Guidance in sorting abstract sense from abstract nonsense can be had by resorting to the relational analogues of concrete categories, in short, to sets and relations.  Fortune smiles, for the world of applications is blessed with an almost embarrassing richness of these.
 
 $\ldots$
 
@@ -44,7 +46,7 @@ When we speak of a function $f : X \to Y$ we are thinking of a mathematical obje
 
 Let us write $f = (obj_1 f, obj_2 f, obj_{12} f)$ to express what has been said so far.
 
-When it comes to parsing the notation "$f : X \to Y$", everyone takes the part "$X \to Y$" to specify the _type_ of the function, that is, the pair $(obj_1 f, obj_2 f)$, but "$f$" is used equivocally to denote both the triple and the subset $obj_{12} f$ that forms one part of it.  One way to resolve the ambiguity is to formalize a distinction between a function and its _[[graph of a function|graph]]_, letting $graph (f) := obj_{12}f$.
+When it comes to parsing the notation "$f : X \to Y$", everyone takes the part "$X \to Y$" to specify the _type_ of the function, that is, the pair $(obj_1 f, obj_2 f)$, but "$f$" is used equivocally to denote both the triple and the subset $obj_{12} f$ that forms one part of it.  One way to resolve the ambiguity is to formalize a distinction between a function and its _[[graph of a function|graph]]_, letting $graph (f) \:\text{:=}\: obj_{12} f$.
 
 Another tactic treats the whole notation "$f : X \to Y$" as sufficient denotation for the triple, letting "$f$" denote $graph (f)$.
 
@@ -132,7 +134,7 @@ In the case of a function $f : S \to T$, one has the following additional defini
 
 Because the concept of a relation has been developed quite literally from the beginnings of logic and mathematics, and because it has incorporated contributions from a diversity of thinkers from many different times and intellectual climes, there is a wide variety of terminology that the reader may run across in connection with the subject.
 
-One dimension of variation is reflected in the names that are given to $k$-place relations, for $k = 1, 2, 3, \ldots$, with some writers using the Greek forms, _medadic_, _monadic_, _dyadic_, _triadic_, _$k$-adic_, and other writers using the Latin forms, _nullary_, _unary_, _binary_, _ternary_, _$k$-ary_.
+One dimension of variation is reflected in the names that are given to $k$-place relations, for $k = 0, 1, 2, 3, \ldots$, with some writers using the Greek forms, _medadic_, _monadic_, _dyadic_, _triadic_, _$k$-adic_, and other writers using the Latin forms, _nullary_, _unary_, _binary_, _ternary_, _$k$-ary_.
 
 The cardinality of the relational ground, the set of relational domains, may be referred to as the _adicity_, the _arity_, or the _dimension_ of the relation.  Accordingly, one finds a relation on a finite number of domains described as a _polyadic_ relation or a _finitary_ relation, but others count infinitary relations among the polyadic.  If the number of domains is finite, say equal to $k$, then the relation may be described as a _$k$-adic_ relation, a _$k$-ary_ relation, or a _$k$-dimensional_ relation, respectively.
 
