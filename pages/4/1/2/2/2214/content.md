@@ -33,7 +33,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-12
 
-*  [[Toby Bartels]]:  Generalised [[internal relation]].
+*  [[Toby Bartels]]:
+   *  A very stubby [[classical mechanics]], grown out [[classical physics]].
+   *  Generalised [[internal relation]] somewhat.
 
 * [[Jon Awbrey]]:
    * Finds his time too intermittent this weekend to do more than potter about in the $n$-garden, but was pleased to discover how to write the old Pascal "set-equal-to" as "$\:\text{:=}\:$" in a math context.
