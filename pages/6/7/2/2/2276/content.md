@@ -1,9 +1,15 @@
-Given an action $G\times X\to X$ of a [[group]] $G$ on a set $X$, any set of the form $Gx = \{gx|g\in G\}$ for a fixed $x\in X$ is called a __$G$-orbit through point $x$__. Set $X$ is a disjoint union of its orbits. If $G$ is a topological group, $X$ a topological space and the action continuous one can distinguish closed orbits and those which are not. Even when one starts with $G,X$ [[Hausdorff space|Hausdorff]] the space of orbits is typically non-Hausdorff. This problem is one of the motivations of the [[noncommutative geometry]] of Connes' school. 
+Given an [[action]] $G\times X\to X$ of a [[group]] $G$ on a set $X$, any set of the form $G x = \{g x|g\in G\}$ for a fixed $x\in X$ is called an __orbit__ of the action, or the __$G$-orbit through the point $x$__.  The set $X$ is a [[disjoint union]] of its orbits.
 
-If the original space is paracompact Hausdorff, every orbit $Gx$ as a topological $G$-space is isomorphic to $G/H$ where $H$ is the stabilizer subgroup of $x$. 
 
-__Orbit method__ is a method in representation theory introduced by Kirillov, Kostant and Souriau and is a special case of the [[geometric quantization]]; it is based on the study of the representations constructed from studying the [[coadjoint orbits]] with Kirillov symplectic structure. The terminology geometric quantization allows for more general underlying spaces.
+## Topological case
 
-Given a [[compact space|compact]] [[Lie group]] $K$ with complexification $G$, and a unitary representation $\rho$ of $K$ on a finite-dimensional complex space $V$, the real orbits of the highest weight vector agrees with the complex orbits, i.e. the orbits of the extension of this representation to the representation of the complexification. These are the [[coherent state]] orbits; there is also an infinite-dimensional version for reductive groups and representations which allow them (so-called coherent state representations). 
+If $G$ is a [[topological group]], $X$ a [[topological space]] and the action continuous, then one can distinguish closed orbits from those which are not. Even when one starts with $G,X$ [[Hausdorff space|Hausdorff]], the space of orbits is typically non-Hausdorff. This problem is one of the motivations of the [[noncommutative geometry]] of Connes' school. 
+
+If the original space is [[paracompact space|paracompact]] Hausdorff, then every orbit $G x$ as a topological $G$-space is isomorphic to $G/H$, where $H$ is the [[stabilizer subgroup]] of $x$. 
+
+The __orbit method__ is a method in [[representation theory]] introduced by Kirillov, Kostant and Souriau; it is a special case of [[geometric quantization]].  The orbit method is based on the study of the [[representations]] constructed from the [[coadjoint orbits]] with Kirillov symplectic structure. The terminology 'geometric quantization' allows for more general underlying spaces.
+
+Given a [[compact space|compact]] [[Lie group]] $K$ with [[complexification]] $G$ and a [[unitary representation]] $\rho$ of $K$ on a finite-dimensional complex space $V$, the real orbits of the highest weight vector agrees with the complex orbits, i.e. the orbits of the extension of this representation to the representation of the complexification. These are the [[coherent state]] orbits; there is also an infinite-dimensional version for reductive groups and representations which allows them (so-called coherent state representations). 
+
 
 [[!redirects orbits]]
