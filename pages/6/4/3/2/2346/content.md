@@ -23,6 +23,24 @@ _Toby_:  The above graph of a function definitely generalises to the graph of a 
 
 I don\'t understand what you\'re saying above.  You seem to introduce the [[trivial category]] and then ask for its category of elements.  Categories don\'t have categories of elements, objects of categories do; but this category has just one object, so I\'ll use that.  But the category of elements of that one object is also trivial.  The real problem is that nothing in this category has to do with any function $f: X \to Y$; all you\'ve done is label an abstract morphism with the same name '$f$'.  Can you try to explain again what you mean?
 
+[[Eric]]: What I had in mind was to think of that one object $\bullet$ as a set (but didn't want to pin it down too much so I didn't say "set"). The morphism $f$ is a nontrivial [[endomorphism]].
 
+When we [[category of elements|explode]] that simple category, we get one object (which will be a node of the graph) for each element in $\bullet$. We also get one morphism for any two elements $a$ and $b$ for which $f:a\to b$.
+
+As usual, it is just an idea and I was hoping that if it made any sense at all we could clean it up and include it in the main text.
+
+For example, let $\bullet = \{x,y,z\}$ and $f:\bullet\to\bullet$ with
+
+$$\begin{aligned}
+f(x) &= y \\
+f(y) &= z \\
+f(z) &= x.
+\end{aligned}$$
+
+When we "explode" this simple category 
+
+$$Explode\left(\bullet\righttoleftarrow f\right)$$
+
+we get a graph with three nodes and three directed edges forming a ring.
 [[!redirects graph of a relation]]
 [[!redirects cograph]]
