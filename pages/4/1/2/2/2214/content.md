@@ -31,6 +31,13 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 
+## 2009-09-12
+
+*  [[Toby Bartels]]:
+   *  Wrote [[graph of a function]] (split off from [[relation theory]]).
+   *  Redid [[graph]].
+
+
 ## 2009-09-11
 
 * [[Andrew Stacey]] there's a [discussion](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=64) going on at the forum about designing a better system for recording these latest changes.  If you have an opinion, please contribute!  At the moment, it's going on what Toby, Mike, and I think which may not be a representable sample.
