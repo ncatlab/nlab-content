@@ -27,6 +27,10 @@ So it seems that a __relational metagraph__ ought to consist of _objects_ $a, b,
 
 _Et sic deinceps &#8230;_
 
+The path to this point has been straightforward, narrow, cut and dried --- like rolling a boulder up a hill of abstraction --- the air gets rare but getting to the top is so reflexive that any bot could see the way there.  But the summit presents a wealth of new vistas, and seeing the way clear from a relational metagraph to a relational metacategory demands reflection on many more choices than we could see from _Che Valley_.
+
+$\ldots$
+
 This approach to relation theory grows out of (1) some of my earliest strugglings with the foundations of mathematics and the nature of functions, (2) long-continued wrestling with C.S. Peirce's "logic of relatives", (3) some ideas I had in the early 1980's about "relational arrows" and "making relations universal", (4) course work on category theory, combinators, and $\lambda$-calculus and discussions with John Gray at UIUC in the middle 1980's, (5) course work on relational programming and discussions with Fatma Mili at OU in the 1990's.  What I've been able to reconstruct so far is only a fragment of what (I think) I had in mind.  ---[[Jon Awbrey]]
 
 ***
