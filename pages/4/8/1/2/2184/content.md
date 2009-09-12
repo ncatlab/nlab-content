@@ -1,65 +1,59 @@
 ##  Idea
 
-A __graph__ is a collection of _vertices_ and _edges_, each edge links a pair of vertices.  There are several variations on the idea, described below.
+A __graph__ is a collection of _vertices_ and _edges_; each edge links a pair of vertices.  There are several variations on the idea, described below.
 
-This is the sense of graph in combinatorics; the sense in high-school algebra, which interprets a [[morphism]] $f: A \to B$ as a [[subobject]] of the [[product]] $A \times B$, is not particularly related; see [[graph of a function]] if we ever write about that.
-
-We have a separate article on [[directed graphs]] (in the sense of directed pseudomultigraphs below), since these are closely related to [[categories]].
+This is the sense of graph in combinatorics; the sense in high-school algebra, which interprets a [[morphism]] $f: A \to B$ as a [[subobject]] of the [[product]] $A \times B$, is not particularly related; see [[graph of a function]] for more on this.
 
 
 ##  Definitions
 
-Let $V$ and $E$ be [[sets]]; call an element of $V$ a __vertex__ and an element of $E$ an __edge__ or __arc__.  A __graph__ is given by $V$, $E$, and a [[function]] $d$ from $E$ to $V^2$; we say that $a$ is an edge __between__ $x$ and $y$, or __from__ $x$ __to__ $y$, if $d(a) = (x,y)$.  For some people (such as many category theorists), this is the end of the definition; but graph theorists often add the following additional conditions:
+Let $V$ and $E$ be [[sets]]; call an element of $V$ a __vertex__ and an element of $E$ an __edge__.  A __graph__ is given by $V$, $E$, and a mapping $d$ that interprets edges as pairs of vertices.  Exactly what this means depends on how one defines 'mapping that interprets' and 'pair'; the possibilities are given below.  We will need the following notation:
 
-*  The function $d: E \to V^2$ is an [[injection]].  If we do not make this requirement, then we have a __multigraph__.
+*  $V^2$ is the [[cartesian product]] of $V$ with itself, the set of ordered pairs $(x,y)$ of vertices;
+*  $\Delta_V$ is the [[diagonal subset]] of $V$, the set of pairs $(x,x)$, so that its [[complement]] $V^2 \setminus \Delta_V$ is the set of pairs as above where $x \neq y$;
+*  $\left\langle{V \atop 2}\right\rangle$ is the [[quotient set]] of $V^2$ in which $(x,y)$ is identified with $(y,x)$, the set of unordered pairs $\{x,y\}$ of vertices;
+*  $\left({V \atop 2}\right)$ is the quotient set of $V^2 \setminus \Delta_V$ in which $(x,y)$ is identified with $(y,x)$, the set of unordered pairs where $x \neq y$.
 
-+--{: .query}
-[[Mike Shulman]]: Is there a term for a "non-multi" graph?  The best I can think of is "monograph"?  (-:
 
-_Toby_:  They call it a 'simple graph'.  The problem is that this term implies *all* of these conditions.  The solution is that, after you say 'simple', you can contradict it partially, as 'simple pseudograph' or 'simple directed graph'.  The other solution is to make these conditions the default, so that you can just say 'graph' or, if one of the other conditions below may be violated, say 'pseudograph' or 'directed graph'.
-=--
+We are now ready for the first batch of definitions.
 
-* For every vertex $x$, there is exactly one edge over $(x,x)$.  (These edges are normally suppressed, so it\'s not counted in the total number of edges and the like.)  If we do not make this requirement, then we have a __pseudograph__.  (In a pseudograph, such an edge is called a __loop__.)
+*  For a __simple graph__, a pair of vertices is a [[subset]] of $V$ of [[cardinality]] $2$, and we interpret edges as unordered pairs of vertices in a one-to-one way.  Thus a simple graph is given by $V$, $E$, and an [[injective function]] $d: E \hookrightarrow \left({V \atop 2}\right)$.  Among [[graph theory|graph theorists]], this is the standard meaning of 'graph' unless another is specified.
 
-+--{: .query}
-[[Mike Shulman]]: When graph theorists talk about a non-pseudo _multigraph_, do they still require that there be *exactly* loop at each vertex?  It would be nice if non-pseudo multigraphs could be identified with reflexive graphs (those merely equipped with a *specified* loop at each vertex), but perhaps this is an idle hope.
+*  For a __multigraph__, a pair of vertices is the same as above, but we interpret edges as pairs of vertices in a many-to-one way.  Thus a multigraph is given by $V$, $E$, and an arbitrary [[function]] $d: E \to \left({V \atop 2}\right)$.
 
-_Toby_:  Yes, that is correct.  What\'s more, they then pretend that this edge does not exist; I tried to clarify this above.  If you wish to *equip* a pseudomultigraph with one loop for each vertex, then I think that you\'re moving slightly beyond graph theory and towards category theory; we\'ve just given each object an identity morphism, and the next step is to define composition!  (That\'s not to say that graph theorists would not consider such things within their field of study, of course.)
-=--
+*  For a __loop graph__, a pair of vertices is any subset of the form $\{x,y\}$, where $x = y$ is allowed, and we interpret edges as pairs of vertices in a one-to-one way again.  Thus a loop-graph is given by $V$, $E$, and an injective function $d: E \hookrightarrow \left\langle{V \atop 2}\right\rangle$.
 
-*  The graph is __undirected__: the [[fibre]] over $(x,y)$ should be isomorphic (same [[cardinality]]) to the fibre over $(y,x)$.  A graph satisfying this condition is __undirected__; if we do not make this requirement, then we have a __directed graph__.  (One usually speaks of _edges_ _between_ vertices in an undirected graph but _arcs_ _from_ one vertex _to_ another in a directed one.)
+*  For a __pseudograph__, a pair of vertices is as in a loop graph, while edges are interpreted as pairs of vertices as in a multigraph.  Thus a pseudograph is given by $V$, $E$, and a function $d: E \to \left\langle{V \atop 2}\right\rangle$.
 
-+--{: .query}
-[[Mike Shulman]]: Presumably we mean that the fiber over $(x,y)$ is *equipped with* an isomorphism to the fiber over $(y,x)$; so that being undirected is structure on a graph rather than a property of it.  Also, does an undirected pseudograph equip the set of loops with an automorphism?  Or should we require $x\neq y$?
+Note:  While 'simple graph' is unambiguous, the other terms above are not.  In particular, 'multigraph' sometimes means a pseudograph, 'pseudograph' sometimes means a loop graph, and 'loop graph' sometimes means a pseudograph.  These could be made unambiguous by saying 'simple multigraph', 'simple loop graph', and 'multipseudograph', respectively, but we will try to keep our terminology short.
 
-_Toby_:  Yes, but the problem is that an isomorphism of graphs need not preserve these bijections.  That\'s why I went to cardinality, but that really isn\'t going to work once you start labelling edges and things.  (Well, you could make it work, but only by taking care when you define labels and all that.)  Probably it was too ambitious of me to define directed and undirected graphs together, and we should just define them separately, then indicate how any undirected graph may be made into a directed graph.  The problem with *that* is that, at least for complete definitions, we need to deal with the pseudomultistuff both times.
 
-[[Mike Shulman]]: Waitaminute, are you telling me that an isomorphism between undirected graphs can act _differently_ on the edges from $x$ to $y$ and the edges from $y$ to $x$?  So that, for instance, the undirected graph with two vertices and two edges connecting them has _four_ distinct automorphisms which fix the vertices?  I always thought that an undirected graph could be drawn by putting dots for vertices and lines (without arrowheads) for edges, but if this is true then that's misleading.  Also, if this is true, then the alternate definition of undirected graphs below fails, since you need to keep the edges over $(x,y)$ and $(y,x)$ separate in order to define isomorphisms.
+In all four of the above, edges are interpreted as *unordered* pairs.  If we instead interpret edges as *ordered* pairs, then we get four new concepts:
 
-_Toby_:  Erm ... yeah, I guess that *is* what I\'m telling you, and that\'s wrong.  Sorry, I don\'t know what I was thinking, you were right the first time!  I think that this is further evidence that it was a bad idea of mine to try to define directed and undirected graphs in one go; we should break them up.  (I don\'t have much time now, but I\'ll do it tomorrow ---that\'s later today for Europeans--- if nobody else wants to have a go.)
-=--
+*  A __directed graph__ consists of $V$, $E$, and an injective function $d: E \hookrightarrow V^2 \setminus \Delta_V$;
+*  a __directed multigraph__ consists of $V$, $E$, and a function $d: E \to V^2 \setminus \Delta_V$;
+*  a __directed loop graph__ consists of $V$, $E$, and an injective function $d: E \hookrightarrow V^2$;
+*  a __directed pseudograph__ consists of $V$, $E$, and a function $d: E \to V^2$.  These are commonly used in [[category theory]]; see [[digraph]] and [[quiver]].
 
-A graph that satisfies all of the above conditions may be called a __simple graph__ to be more clear, especially in a context where one of more of these defaults is *not* being assumed.  One can also mix 'simple' with 'multi&#8209;', 'pseudo&#8209;', or 'directed' to clarify that *only* the indicated relaxation is being made; but 'undirected' (instead of 'simple') is usually used to indicate that the graph is not allowed to be directed.  Many graph theorists will also assume that 'multi&#8209;' implies 'pseudo&#8209;' or vice versa, but not all will do this.  Note that the modifiers 'multi&#8209;', 'pseudo&#8209;', and 'directed' are examples of the [[red herring principle]]; a simple graph is an example of a directed pseudomultigraph, but not every directed pseudomultigraph is a simple graph.
+The same terminological ambiguities as above apply here as well, and they can be resolved in the same way, including using 'simple directed graph' for a directed graph if necessary.  One can also use 'undirected' in place of 'directed' to emphasise that the previous definitions apply instead of these.
 
-The above definition shows all of the possibilities, but it is unnecessarily complicated if one is interested in applying any of the usual restrictions; then the definition can be simplified as follows:
-*  If the graph is required to be undirected, then we may replace $V^2$ with $\left[{V \atop 2}\right]$, the set of all subsets of $V$ of the form $\{x,y\}$; we replace $E$ with a [[quotient set]] where an edge over $(x,y)$ is identified with the corresponding edge over $(y,x)$.
-*  If the graph is not allowed to be a pseudograph, then we may replace $V^2$ with $V^2 \setminus \{(x,x) \;|\; x \in V\}$; we replace $E$ by its [[subset]] that excludes all the loops.
-*  If both of the above apply, then we may replace $V^2$ with $\left({V \atop 2}\right)$, the set of all subsets of $V$ of cardinality $2$.  Now we replace $E$ with a [[subquotient]] which excludes the loops and identifies corresponding edges from $x$ to $y$ and from $y$ to $x$.
-*  If the graph is not allowed to be a multigraph, then we may take $E$ to be explicitly a [[subset]] of $V^2$ (rather than an arbitrary set equipped with an injection to $V^2$).  If the graph is also undirected, non-pseudo, or both, then we may take $E$ to be a subset of $\left[{V \atop 2}\right]$, $V^2 \setminus \{(x,x)\}$, or $\left({V \atop 2}\right)$, respectively.
+It is always possible to interpret any kind of graph as a directed pseudograph, in which there happens to be at most one edge between a given pair of vertices, or there happen to be no loops (or alternatively exactly one of every possible kind of loop), or in which there is an edge from $x$ to $y$ if and only if there is an edge from $y$ to $x$, or some mixture of these.
 
-Given any sort of graph, we can define a [[binary relation]] on $V$; say that $x$ and $y$ are __adjacent__, written $x \sim y$, if there exists an edge over $(x,y)$ (or over $\{x,y\}$, or an edge that *is* one of these).  A simple directed pseudograph is determined entirely by this relation; we may say that it *is* $V$ equipped with such a relation.  Then a simple directed graph is $V$ equipped with a [[reflexive relation]], and a simple undirected pseudograph is $V$ equipped with a [[symmetric relation]].
 
-Often in combinatorics, one requires that $V$ and $E$ be [[finite sets]].  Sometimes one also requires $V$ to be [[inhabited set|inhabited]], (but surely that\'s silly).  For example, Harary defines the concept (and related terms) in the following manner (page 9):
-> A _graph_ $G$ consists of a finite nonempty set $V = V(G)$ of $p$ _points_ together with a prescribed set $X$ of $q$ unordered pairs of distinct points of $V$.  Each pair $x = \{u, v\}$ of points in $X$ is a _line_ of $G$, and $x$ is said to _join_ $u$ and $v$.  We write $x = u v$ and say that $u$ and $v$ are _adjacent points_ (sometimes denoted $u adj v$);  point $u$ and line $x$ are _incident_ with each other, as are $v$ and $x$.  If two distinct lines $x$ and $y$ are incident with a common point, then they are _adjacent lines_.  A graph with $p$ points and $q$ lines is called a $(p, q)$ _graph_.  The $(1, 0)$ graph is _trivial_.
+## Auxiliarly definitions
+
+The term __arc__ is often used for an *ordered* edge, while __line__ is sometimes used for an *unordered* edge.  We say that an arc $e$ with $d(e) = (x,y)$ is an arc __from $x$ to $y$__, while a line $e$ such that $d(e) = \{x,y\}$ is a line __between $x$ and $y$__.  In either case, a __loop__ is an edge from a vertex to itself or between a vertex and itself; only (possibly directed) loop graphs and pseudographs can have loops.
+
+Given any sort of graph, we can define a [[binary relation]] on $V$; say that $x$ and $y$ are __adjacent__, written $x \sim y$, if there exists an edge $e$ such that $d(e) = (x,y)$ or $d(e) = \{x,y\}$.  A directed loop graph is determined entirely by this relation; we may say that it *is* $V$ equipped with a binary relation.  Then a simple directed graph is $V$ equipped with an [[irreflexive relation]] (or equivalently a [[reflexive relation]]), and an undirected loop graph is $V$ equipped with a [[symmetric relation]].
+
+A graph is __finite__ if $V$ and $E$ are both [[finite sets]].  Given a [[linear ordering]] of the vertices of a finite graph, its __adjacency matrix__ is a square [[matrix]] whose $(i,j)$th entry gives the number of edges $e$ between the $i$th and $j$th vertices or from the $i$th vertex to the $j$th vertex.  In the examples above where a graph is determined by a binary relation on $V$, then matrix multiplication gives composition of relations.
 
 
 ##  Morphisms of graphs
 
-Two graphs $G = (V,E,d)$ and $G' = (V',E',d')$ are __[[isomorphism|isomorphic]]__ if there exists a [[bijection]] $f: V \to V'$ such that the fibre (in $G$) over $(x,y)$ (or $\{x,y\}$) always has the same cardinality as the fibre over $(f(x),f(y))$ (or $\{f(x),f(y)\}$); if $G, G'$ are not allowed to be multigraphs, then we can simply say that $x \sim y$ if and only if $f(x) \sim f(y)$.
+An __[[isomorphism]]__ from $G = (V,E,d)$ to $G' = (V',E',d')$ consists of a bijection $f: V \to V'$, together with a bijection from $E$ to $E'$ (also denoted $f$) such that $f$ commutes with $d$; that is, $d(f(e)) = (f(x),f(y))$ or $d(f(e)) = \{f(x),f(y)\}$ whenever $d(e) = (x,y)$ or $d(e) = \{x,y\}$ (as appropriate).  Two graphs $G$ and $G'$ are __isomorphic__ if there exists such an isomorphism.  Then finite graphs $G$ and $G'$ are isomorphic if and only if they have the same number of vertices and, for some ordering of their vertices, they have the same adjacency matrix.
 
-An __isomorphism__ from $G$ to $G'$ is such a bijection, together with a family of bijections for each fibre above; if $G, G'$ are not allowed to be multigraphs, then the bijection $f$ is sufficient (if it satisfies the condition that $x \sim y$ if and only if $f(x) \sim f(y)$).
-
-A __[[morphism]]__ from $G$ to $G'$ is any function $f: V \to V'$ together with, for each pair $x,y$ of vertices, a function from the fibre over $(x,y)$ (or $\{x,y\}$) to the fibre over $(f(x),f(y)$ (or $\{f(x),f(y)\}$); if $G, G'$ are not allowed to be multigraphs, then the function $f$ is sufficient, as long as $x \sim y$ only if $f(x) \sim f(y)$.
+A __[[morphism]]__ from $G$ to $G'$ should consist of functions $f: V \to V'$ and $f: E \to E'$ such that $f$ commutes with $d$.  However, some authors allow $f(e)$ to be undefined if $d(e) = (x,y)$ or $d(e) = \{x,y\}$ but $f(x) = f(y)$ when using a notion of graph where loops are forbidden.  The difference amounts to whether one interprets a simple graph as a special kind of loop graph in which no loops exist (the first kind of morphism) or in which each vertex has a unique loop (the second kind of morphism).  Either way, an isomorphism (as defined above) is precisely an invertible morphism.
 
 +--{: .query}
 [[Mike Shulman]]: Isn't there something backwards about defining "isomorphic" and _then_ "isomorphism" and _then_ "morphism"?  Doesn't the logic generally flow in the other direction (especially around here)?
@@ -69,11 +63,8 @@ A __[[morphism]]__ from $G$ to $G'$ is any function $f: V \to V'$ together with,
 _Toby_:  That, and it\'s simpler to state the definition of 'isomorphic' than 'isomorphism'.  Not to mention that graph theorists, in my experience, tend to care much more about the property of being isomorphic than the structure of having an isomorphism.  As for 'morphism', there\'s even disagreement about what that should be; I think that my definition is the obvious correct one, but it disagrees with the one at, for example, [Wikipedia](http://en.wikipedia.org/wiki/graph) (although they had my definition in the past); both versions give the same notion of isomorphism, however.
 
 [[Mike Shulman]]: Well, but we aren't graph theorists here, are we?  Isn't it okay for us to rephrase their definitions in the more categorically sensible order?
-=--
 
-When $G$ and $G'$ are not allowed to be pseudographs, note that there may be a morphism $f$ from $G$ to $G'$ in which $f(x) = f(y)$, even when there is a (non-loop) edge from $x$ to $y$.  This is why simple graphs should be interpreted as pseudographs in which $x \sim x$ always instead of $x \sim x$ never.
-+-- {: .query}
-Actually, I\'m getting conflicting reports on this from different sources, but this seems to most sensible way to me.  For example, then the category of graphs has a [[terminal object]], which may be identified with the [[point]].  ---Toby
+_Toby_:  I disagree that 'morphism' before 'isomorphism' is more categorially sensible.  That\'s like defining $\leq$ before $=$; sometimes useful, sometimes not.  Since I am getting ambiguity about morphisms in what I find online, I\'d prefer to do isomorphisms first.  With luck, I\'ll find some terminology to distinguish the two kinds of morphisms, or we can make up our own.
 =--
 
 
@@ -86,6 +77,9 @@ Actually, I\'m getting conflicting reports on this from different sources, but t
 
 ## Discussion ## {#talk}
 
+This is about on old version of the page, although much of it still applies.  Obsolete discussion may also be found in the History at Version 24.
+
++-- {: .query}
 [[Mike Shulman]]: At [[latest changes]] Jon Awbrey said
 
 > The page on graph has become too baroque to fix, but there needs to be a place to record the basic definitions of graph theory that are actually used by the larger schools of math folks who actually dare to call themselves graph theorists.
@@ -153,3 +147,10 @@ _Toby_:  That discussion helps to make it clear that the terminology is inconsis
 JA: The thing that comes through, if you read the discussion of the poll results, is a prevailing tendency to use the shortest and simplest term for the species of object that is the most frequently used in practice and the most fundamental to pedagogy.  That is why, among graph theorists, "graph" has long been the default term for what others insist on calling a "finite undirected unlabeled graph sans loops or multiple edges" (FUUGSLOME).  Or something ...
 
 _Toby_:  Then I really am throughly confused about what 'gobbleygeek' you are referring to!  *Nobody* here has suggested anything like 'FUUGSLOME'.  I use 'graph' almost exactly as you use it, but unfortunately this is not consistent, so I offer 'simple graph' as a way to make it precise.  (The only difference is that you want your graphs to be finite and ---if I am to believe your quotation--- inhabited.  Since those necessarily complicate the definition, I\'m not sure why, although I see the value of focussing on finite objects in combinatorics.)  The complicated terminology that others here object to are terms like 'directed pseudomultigraph'; your glossary uses merely 'directed pseudograph' for that, but that also is not consistent.  (I admit that 'pseudomultigraph' is very rare, since most people say either 'multigraph' or 'pseudograph', but these are ambiguous; using each of those for their simpler meanings gives a nice logical form of language.  I do like 'loop-graph' from your bibliography, although that would seem to work best to mean a simple pseudograph rather than a pseudomultigraph as the bibliography states.)  So yes, it is graph theorists who use inconsistent and complicated terminology, although I understand how this came about and offer my sympathies rather than my condemnation.
+=--
+
++-- {: .standout}
+_Toby_:  OK, I\'ve completely redone the page above; [this](http://ncatlab.org/nlab/revision/graph/24) is how it looked before.  In particular, I am defining things case by case, rather than choice by choice ($8$ cases, rather than $3$ choices with $2$ options each).  Feedback please!
+
+(One obvious possibility is that the best style of definition is a mixture of the two previous styles: doing undirected and directed graphs separately, but in each case listing the two choices ---loops or no loops, multiple edges or no multiple edges--- as I had done before.)
+=--
