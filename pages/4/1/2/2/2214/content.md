@@ -28,6 +28,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ## 2009-09-12
 
 *  [[Toby Bartels]]:
+   *  Removed the last links to [category: lexicon](http://ncatlab.org/nlab/list/lexicon) (now all listed at [[differential graded objects - contents]])
    *  Arguing with Mike at [[Categories Work]].
    *  A fact added to [[line bundle]]; we should still write [[line]].
    *  A very stubby [[classical mechanics]], grown out [[classical physics]].
