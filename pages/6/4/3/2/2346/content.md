@@ -4,6 +4,7 @@ It\'s easy to identify the properties of those subsets of $X \times Y$ that are 
 
 More generally, we can say that the __graph__ of a [[binary relation]] from $X$ to $Y$ is a subset of $X \times Y$; $(a,b)$ belongs to the graph if and only if $a$ is related to $b$.  The __graph__ of a [[relation]] of arbitrary arity is similarly a subset of an arbitrary [[cartesian product]]; see [[relation theory]] for more on this.  Note that *every* subset of $X \times Y$ defines a unique relation; this is the graph of a function if and only if the relation is both [[functional relation|functional]] and [[entire relation|entire]].
 
+
 The graph of a binary relation from $X$ to $X$ is related to the notion of [[graph]] from [[graph theory]]; more precisely, such relations correspond to directed loop graphs (in the sense defined at [[graph]]) with vertex set $X$, and either can be defined as a subset of $X^2$.  In a similar way, [[spans]] from $X$ to $X$ correspond to [[digraph|directed pseudographs]] with vertex set $X$.
 
 [[Bill Lawvere]] has also considered the __cograph__ of a function, which is dually a [[quotient set]] of the [[disjoint union]] $X \uplus Y$; $a$ is identified with $b$ if $f(a) = b$ (and additional identifications may follow).  This may be even more related to the sense of [[graph]] in graph theory; although the identifications are not done there, the cograph draws a picture in wich any relation (or [[multispan]]) of any arity becomes a directed loop graph (or directed pseudograph) whose vertex set is the disjoint union of the relation\'s domains.
@@ -42,5 +43,18 @@ When we "explode" this simple category
 $$Explode\left(\bullet\righttoleftarrow f\right)$$
 
 we get a graph with three nodes and three directed edges forming a ring.
+
+I guess, to be a little more explicit, I can call that [[concrete category]] $C$, i.e.
+
+$$C = \bullet\righttoleftarrow f$$
+
+_and_ we have a functor $F:C\to Set$. Then $F(\bullet)$ is really a set and $F(f)$ is really a function.
+
+Then 
+
+$$Explode(C) = Elem(F,C).$$
+
+This [[category of elements]] seems to warrant being associated with the **graph of a function** $f$. Furthermore, this allows us to consider the **graph of an endomorphism**. But then, I could be confused.
+
 [[!redirects graph of a relation]]
 [[!redirects cograph]]
