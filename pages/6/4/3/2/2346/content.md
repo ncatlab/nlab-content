@@ -8,6 +8,15 @@ The graph of a binary relation from $X$ to $X$ is related to the notion of [[gra
 
 [[Bill Lawvere]] has also considered the __cograph__ of a function, which is dually a [[quotient set]] of the [[disjoint union]] $X \uplus Y$; $a$ is identified with $b$ if $f(a) = b$ (and additional identifications may follow).  This may be even more related to the sense of [[graph]] in graph theory; although the identifications are not done there, the cograph draws a picture in wich any relation (or [[multispan]]) of any arity becomes a directed loop graph (or directed pseudograph) whose vertex set is the disjoint union of the relation\'s domains.
 
+#Discussion#
+
+[[Eric]]: I think it might be neat to take the opportunity here to relate **graph of a function** more explicitly to other things here on the nLab. As I read this, I thought of a category with one object (monoid in Set?) and one morphism
+
+$$\bullet\righttoleftarrow f.$$
+
+Then a graph (or is it cograph?) is a [[category of elements]] of this category.
+
+Then you could maybe talk about **graph of a morhism**. Or something...
 
 [[!redirects graph of a relation]]
 [[!redirects cograph]]
