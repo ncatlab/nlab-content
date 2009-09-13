@@ -270,7 +270,7 @@ $$
   \,, 
 $$
 
-in the ordinary 1-category of $n$-groupoids or spaces, using a replacement $\hat X \stackrel{\simeq}{&#8608;} X$ of $X$ by an acyclic fibration (called "[[hypercover]]" in this context) (for instance the &#268;ech groupoid associated with an open cover of $X$). 
+in the ordinary 1-category of $n$-groupoids or spaces, using a replacement $\hat X \stackrel{\simeq}{\Rrightarrow} X$ of $X$ by an acyclic fibration (called "[[hypercover]]" in this context) (for instance the &#268;ech groupoid associated with an open cover of $X$). 
 
 One recognizes the usual statement that principal $G$-bundles all arise as pullbacks of the universal $G$-principal bundle. 
 
