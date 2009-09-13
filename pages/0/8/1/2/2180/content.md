@@ -187,32 +187,30 @@ A more conceptual than nominal variation depends on whether one uses terms like 
 
 ## Discussion ##
 
+JA = [[Jon Awbrey]], TB = [[Toby Bartels]]
+
 ### Re: Idea ###
 
-+-- {: .query}
-Are you dissatisfied with [[allegory|allegories]]?  ---[[Toby Bartels]]
+TB: Are you dissatisfied with [[allegory|allegories]]?
 
 JA: I looked into Freyd and Scedrov when it first came out --- I still have a copy around here _somewhere_.  It seemed quite nice as far as it went but --- best I recall --- it was mostly about 2-ary relations?
 
-_Toby_:  Yes, that\'s a good point.  It seems that you need something like a multiallegory, the allegorial version of a [[multicategory]].  As far as I know, nobody has studied such a thing, although it does seem like an obvious thing to try.
-=--
+TB: Yes, that\'s a good point.  It seems that you need something like a multiallegory, the allegorial version of a [[multicategory]].  As far as I know, nobody has studied such a thing, although it does seem like an obvious thing to try.
+
+JA: I didn't know about Chu spaces at the time I set out on this line of inquiry --- and I don't know much more than the name today --- but I think a lot of this could probably be absorbed into that medium.  Then again, what can't?
 
 ### Re: Preliminaries ###
 
-+-- {: .query}
-[[Toby Bartels]]:  One problem with '$L: X \times Y$' is that it conflicts with standard type-theoretic notation.  That might not be such a problem, since you\'re not doing type theory, except that '$f: X \to Y$' *agrees* with that notation.  As '$X \to Y$' is the type of transformations (functions, in this case) from $X$ to $Y$ (the [[function set|function type]]), so '$X \times Y$' is the type of ordered pairs from $X$ and $Y$ (the binary [[cartesian product|product type]]).  So if '$f: X \to Y$' indicates that $f$ is a function (of a certain type), then '$L: X \times Y$' should indicate that $L$ is an ordered pair (of a certain type).  Accordingly, it might be better to either write something like '$L: P(X \times Y)$' (with '$P$' denoting the [[power set|power type]]) or simply to use a different symbol in place of '$\times$' (although I don\'t know of any standard.
+TB: One problem with '$L: X \times Y$' is that it conflicts with standard type-theoretic notation.  That might not be such a problem, since you\'re not doing type theory, except that '$f: X \to Y$' *agrees* with that notation.  As '$X \to Y$' is the type of transformations (functions, in this case) from $X$ to $Y$ (the [[function set|function type]]), so '$X \times Y$' is the type of ordered pairs from $X$ and $Y$ (the binary [[cartesian product|product type]]).  So if '$f: X \to Y$' indicates that $f$ is a function (of a certain type), then '$L: X \times Y$' should indicate that $L$ is an ordered pair (of a certain type).  Accordingly, it might be better to either write something like '$L: P(X \times Y)$' (with '$P$' denoting the [[power set|power type]]) or simply to use a different symbol in place of '$\times$' (although I don\'t know of any standard.
 
-[[Toby Bartels]]:  All that said, however, you could still declare that '$\times$' in your notation simply doesn\'t mean the product type, but instead means the power type of the product type, and that\'s that.  (And maybe you want to think of the type of relations as a fundamental concept, rather than derived from power type and product type, which is fine by me.)  As long as you don\'t use it in any other way, then you should be fine.
+TB: All that said, however, you could still declare that '$\times$' in your notation simply doesn\'t mean the product type, but instead means the power type of the product type, and that\'s that.  (And maybe you want to think of the type of relations as a fundamental concept, rather than derived from power type and product type, which is fine by me.)  As long as you don\'t use it in any other way, then you should be fine.
 
-[[Toby Bartels]]:  PS:  Reading a little further, I see that I have to correct this, but I\'ll leave it up for now.
+TB: PS.  Reading a little further, I see that I have to correct this, but I\'ll leave it up for now.
 
-[[Jon Awbrey]]:  Sorry, that was more of a typo than a theory of typing, as I was experimenting with a variety of different symbols --- like $:$ and $:\!\!\!\subseteq$ --- and forget to change them all back.  I now think it's probably best just to use the subset symbol, so long as one understands that the domains are parts of the definition --- like source and target with arrows.  I sometimes call this the "strongly-typed" definition of relations.
+JA: Sorry, that was more of a typo than a theory of typing, as I was experimenting with a variety of different symbols --- like $:$ and $:\!\!\!\subseteq$ --- and forget to change them all back.  I now think it's probably best just to use the subset symbol, so long as one understands that the domains are parts of the definition --- like source and target with arrows.  I sometimes call this the "strongly-typed" definition of relations.
 
-[[Toby Bartels]]:  Yeah, I thought about $:\subseteq$, except that one of the bugs of iTeX is that it doesn\'t do the spacing right (as you seem to have noticed!).
-=--
+TB: Yeah, I thought about $:\subseteq$, except that one of the bugs of iTeX is that it doesn\'t do the spacing right (as you seem to have noticed!).
 
 ### Re: Definition ###
 
-+-- {: .query}
-[[Toby Bartels]]:  Ah, dang, there goes my idea about reinterpreting '$\times$'!  If that\'s the cartesian product above, then the business about being a subset is all pushed into the colon, which really does not agree with the colon in '$f: X \to Y$'.  That could still be OK, as long as you always use the colon for that, but how about using '$\subseteq$' instead?
-=--
+TB: Ah, dang, there goes my idea about reinterpreting '$\times$'!  If that\'s the cartesian product above, then the business about being a subset is all pushed into the colon, which really does not agree with the colon in '$f: X \to Y$'.  That could still be OK, as long as you always use the colon for that, but how about using '$\subseteq$' instead?
