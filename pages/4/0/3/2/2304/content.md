@@ -19,6 +19,12 @@ See [[graph]] for other kinds of graphs in the same vein; do not confuse this wi
 
 * Lambek, J. and Scott, P.J. (1986), _Introduction to Higher Order Categorical Logic_, Cambridge University Press.
 
+## External links ##
+
+* [Glossary of terms in combinatorics](http://www.math.uiuc.edu/~west/openp/gloss.html)
+
+* [Data on dialectical immaterialism](http://www.math.uiuc.edu/~west/igt/)
+
 ## Discussion ##
 
 ### Re: Note ###
