@@ -26,6 +26,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-13
 
+* [[Eric]]: After some discussion with [[Toby]], defined [[graph of a function]] as the [[category of elements]] of $F:\mathbf{2}\to Set$.
+
 * [[Jon Awbrey]] added at comment to the discussion section at [[relation theory]].
 
 *  [[Toby Bartels]]:  Added [[diagonal morphism]] and two ways to look at it in $Set$: [[diagonal subset]] and [[diagonal function]].
