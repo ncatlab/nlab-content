@@ -26,6 +26,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-13
 
+* [[Jon Awbrey]] expunged an assortment of ephemeral animadversions at [[graph]].
+
 * [[Eric]]: After some discussion with [[Toby]], defined [[graph of a function]] as the [[category of elements]] of $F:\mathbf{2}\to Set$.
 
 * [[Jon Awbrey]] added at comment to the discussion section at [[relation theory]].
