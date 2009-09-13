@@ -68,7 +68,7 @@ The regularity conditions are trivial.
 Hence we know that $K^*(X)=MP^*(X)\otimes_{MP(\bullet)} \mathbb{Z}$ is a cohomology theory.
 
 **Groups from formal group laws.**  Given a commutative topological
-$R$-algebra $A$ and a formal group law$f(x,y)$ if $f(a,b)$ converges for all $a,b\in A$
+$R$-algebra $A$ and a formal group law$f(x,y)$ if $f(a,b)$ converges for all $a,b\in A$ and the formula giving an inverse to $a$ converges for all $a\in A$,
 we get an abelian group $(A,+_f)$, where $a+_f b=f(a,b)$.
 
 **Example.**  For any $A$ the pair $(N(A),+_f)$ is an abelian group, where
