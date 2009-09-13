@@ -8,11 +8,13 @@ Some important distinctions, possibly all the same thing using different termino
 *  the difference between equality and [[equivalence]],
 *  the possibility of operations that might not preserve equality.
 
-Here is an important practical fact: every [[set]] $S$ has an __equality relation__, a binary [[relation]] according to which two elements $x$ and $y$ of $S$ are related if and only if they are equal; in this case we write $x = y$.  This is the smallest [[reflexive relation]] on $S$, and it is in fact an [[equivalence relation]]; it is the only equivalence relation on $S$ that is also a [[partial order]] (although that fact is somewhat circular).
+Here is an important practical fact: every [[set]] $S$ has an __equality relation__, a binary [[relation]] according to which two elements $x$ and $y$ of $S$ are related if and only if they are equal; in this case we write $x = y$.  This is the smallest [[reflexive relation]] on $S$, and it is in fact an [[equivalence relation]]; it is the only equivalence relation on $S$ that is also a [[partial order]] (although that fact is somewhat circular).  This relation is often called the __identity relation__ on $S$, either because 'identity' can mean 'equality' or because it is the [[identity]] for [[composition]] of relations.
 
-As a [[subset]] of $S \times S$, the equality relation is often called the __diagonal__ and written $\Delta_S$ or similarly.  As an abstract set, this subset is [[isomorphism|isomorphic]] to $S$ itself, so one also sees the diagonal as a map $S \overset{\Delta_S}\to S \times S$, mapping $x$ to $(x,x)$; note that $x = x$.  This is in [[Set]]; an analogous morphism exists in any [[cartesian monoidal category]].
+As a [[subset]] of $S \times S$, the equality relation is often called the __[[diagonal]]__ and written $\Delta_S$ or similarly.  As an abstract set, this subset is [[isomorphism|isomorphic]] to $S$ itself, so one also sees the diagonal as a map, the [[diagonal function]] $S \overset{\Delta_S}\to S \times S$, which maps $x$ to $(x,x)$; note that $x = x$.  This is in [[Set]]; analogous [[diagonal morphisms]] exist in any [[cartesian monoidal category]].
 
 
 [[!redirects equality relation]]
 [[!redirects equality predicate]]
 [[!redirects equal]]
+[[!redirects identity relation]]
+[[!redirects diagonal relation]]
