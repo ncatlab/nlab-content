@@ -1,3 +1,5 @@
+[[!redirects theory of relations]]
+
 ## Idea ##
 
 To the best of my re\*collection, it went a bit like this:
@@ -140,6 +142,41 @@ The cardinality of the relational ground, the set of relational domains, may be 
 
 A more conceptual than nominal variation depends on whether one uses terms like _predicate_, _relation_, and even _term_ to refer to the formal object proper or else to the allied syntactic items that are used to denote them.  Compounded with this variation is still another, frequently associated with philosophical differences over the status in reality accorded formal objects.  Among those who speak of numbers, functions, properties, relations, and sets as being real, that is to say, as having objective properties, there are divergences as to whether some things are more real than others, especially whether particulars or properties are equally real or else which one is derivative in relationship to the other.  Historically speaking, just about every combination of modalities has been used by one school of thought or another, but it suffices here merely to indicate how the options are generated.
 
+## Bibliography on relations and related subjects ##
+
+* Barr, Michael; and Wells, Charles (1990), _Category Theory for Computing Science_, Prentice Hall, Hemel Hempstead, UK.
+* Bourbaki, Nicolas (1994), _Elements of the History of Mathematics_, John Meldrum (trans.), Springer-Verlag, Berlin, Germany.
+* Carnap, Rudolf (1958), _Introduction to Symbolic Logic with Applications_, Dover Publications, New York, NY.
+* Chang, C.C., and Keisler, H.J. (1973), _Model Theory_, North-Holland, Amsterdam, Netherlands.
+* van Dalen, Dirk (1980), _Logic and Structure_, 2nd edition, Springer-Verlag, Berlin, Germany.
+* Devlin, Keith J. (1993), _The Joy of Sets : Fundamentals of Contemporary Set Theory_, 2nd edition, Springer-Verlag, New York, NY.
+* Halmos, Paul Richard (1960), _Naive Set Theory_, D. Van Nostrand Company, Princeton, NJ.
+* van Heijenoort, Jean (1967/1977), _From Frege to G&#246;del : A Source Book in Mathematical Logic, 1879--1931_, Harvard University Press, Cambridge, MA, 1967.  Reprinted with corrections, 1977.
+* Kelley, John L. (1955), _General Topology_, Van Nostrand Reinhold, New York, NY.
+* Kneale, William; and Kneale, Martha (1962/1975), _The Development of Logic_, Oxford University Press, Oxford, UK, 1962.  Reprinted with corrections, 1975.
+* Lawvere, Francis William; and Rosebrugh, Robert (2003), _Sets for Mathematics_, Cambridge University Press, Cambridge, UK.
+* Lawvere, Francis William; and Schanuel, Stephen H. (1997/2000), _Conceptual Mathematics : A First Introduction to Categories_, Cambridge University Press, Cambridge, UK, 1997.  Reprinted with corrections, 2000.
+* Manin, Yu. I. (1977), _A Course in Mathematical Logic_, Neal Koblitz (trans.), Springer-Verlag, New York, NY.
+* Mathematical Society of Japan (1993), _Encyclopedic Dictionary of Mathematics_, 2nd edition, 2 vols., Kiyosi It&#244; (ed.), MIT Press, Cambridge, MA.
+* Mili, A., Desharnais, J., Mili, F., with Frappier, M. (1994), _Computer Program Construction_, Oxford University Press, New York, NY. --- Introduction to Tarskian relation theory and its applications within the relational programming paradigm.
+* Mitchell, John C. (1996), _Foundations for Programming Languages_, MIT Press, Cambridge, MA.
+* Peirce, Charles Sanders (1870), "Description of a Notation for the Logic of Relatives, Resulting from an Amplification of the Conceptions of Boole's Calculus of Logic", _Memoirs of the American Academy of Arts and Sciences_ 9 (1870), 317--378.  Reprinted (CP 3.45--149), (CE 2, 359--429).
+* Peirce, Charles Sanders (1931--1935, 1958), _Collected Papers of Charles Sanders Peirce_, vols. 1--6, Charles Hartshorne and Paul Weiss (eds.), vols. 7--8, Arthur W. Burks (ed.), Harvard University Press, Cambridge, MA.  Cited as (CP volume.paragraph).
+* Peirce, Charles Sanders (1981--), _Writings of Charles S. Peirce : A Chronological Edition_, Peirce Edition Project (eds.), Indiana University Press, Bloomington and Indianapolis, IN.  Cited as (CE volume, page).
+* Poizat, Bruno (2000), _A Course in Model Theory : An Introduction to Contemporary Mathematical Logic_, Moses Klein (trans.), Springer-Verlag, New York, NY.
+* Quine, Willard Van Orman (1940/1981), _Mathematical Logic_, 1940.  Revised edition, Harvard University Press, Cambridge, MA, 1951.  New preface, 1981.
+* Royce, Josiah (1961), _The Principles of Logic_, Philosophical Library, New York, NY.
+* Runes, Dagobert D. (ed., 1962), _Dictionary of Philosophy_, Littlefield, Adams, and Company, Totowa, NJ.
+* Shoenfield, Joseph R. (1967), _Mathematical Logic_, Addison-Wesley, Reading, MA.
+* Styazhkin, N.I. (1969), _History of Mathematical Logic from Leibniz to Peano_, MIT Press, Cambridge, MA.
+* Suppes, Patrick (1957/1999), _Introduction to Logic_, 1st published 1957.  Reprinted, Dover Publications, New York, NY, 1999.
+* Suppes, Patrick (1960/1972), _Axiomatic Set Theory_, 1st published 1960.  Reprinted, Dover Publications, New York, NY, 1972.
+* Tarski, Alfred (1956/1983), _Logic, Semantics, Metamathematics : Papers from 1923 to 1938_, J.H. Woodger (trans.), Oxford University Press, 1956.  2nd edition, J. Corcoran (ed.), Hackett Publishing, Indianapolis, IN, 1983.
+* Ulam, Stanislaw Marcin; and Bednarek, A.R. (1977), "On the Theory of Relational Structures and Schemata for Parallel Computation", pp. 477--508 in A.R. Bednarek and Fran&#231;oise Ulam (eds.), _Analogies Between Analogies : The Mathematical Reports of S.M. Ulam and His Los Alamos Collaborators_, University of California Press, Berkeley, CA, 1990.
+* Ulam, Stanislaw Marcin (1990), _Analogies Between Analogies : The Mathematical Reports of S.M. Ulam and His Los Alamos Collaborators_, A.R. Bednarek and Fran&#231;oise Ulam (eds.), University of California Press, Berkeley, CA.
+* Ullman, Jeffrey D. (1980), _Principles of Database Systems_, Computer Science Press, Rockville, MD.
+* Venetus, Paulus (1472/1984), _Logica Parva : Translation of the 1472 Edition with Introduction and Notes_, Alan R. Perreiah (trans.), Philosophia Verlag, Munich, Germany.
+
 ## External links ##
 
 * [Relation Theory @ PlanetMath](http://planetmath.org/encyclopedia/RelationTheory.html)
@@ -147,7 +184,6 @@ A more conceptual than nominal variation depends on whether one uses terms like 
 * [Relation Theory @ PlanetPhysics](http://planetphysics.org/encyclopedia/RelationTheory.html)
 
 * [Peirce's 1870 Logic Of Relatives](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Peirce's_1870_Logic_Of_Relatives)
-
 
 ## Discussion ##
 
