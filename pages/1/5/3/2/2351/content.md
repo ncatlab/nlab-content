@@ -2,15 +2,15 @@
 
 A cartesian bicategory is a bicategory with properties that make it behave like a bicategory of generalized relations. The bicategory of relations of a regular category, the bicategory of spans in a finitely complete category, and the bicategory of modules (profunctors) in a finitely complete category are all examples of cartesian bicategories. 
 
-The rough idea is that a cartesian bicategory, viewed as an abstract bicategory of relations, should possess a tensor product which behaves like cartesian product on relations, and therefore like a categorical product for relations that are "functional". The structure of such a tensor is property-like (is essentially unique when it exists). Like allegories, cartesian bicategories are a convenient abstract setting in which to study the calculus of relations, but unlike allegories they embrace important examples like $Span$ and $Mod$. 
+The rough idea is that a cartesian bicategory, viewed as an abstract bicategory of relations, should possess a tensor product which behaves like cartesian product on relations, and therefore like a categorical product for relations that are "functional". The structure of such a tensor is property-like (is essentially unique when it exists). Like allegories, cartesian bicategories provide a convenient abstract setting in which to study the calculus of relations, but unlike allegories they embrace other important examples like $Span$ and $Mod$. 
 
-The original idea, due to Carboni and Walters, clearly envisioned these various examples but was initially confined to the locally posetal case; in part this was due to the lack at the time (circa 1987) of a solid theory of symmetric monoidal bicategories. In more recent years a full bicategorical treatment has been given, due principally to Carboni, Kelly, Verity, and Wood. The alternative treatment which we give below has not yet appeared in the literature as far as this author ([[Todd Trimble]]) is aware. 
+The original idea, due to Carboni and Walters, clearly envisioned these various examples but was initially confined to the locally posetal case; in part this was due to the lack at the time (circa 1987) of a solid theory of symmetric monoidal bicategories. In more recent years a full bicategorical treatment has emerged, due principally to Carboni, Kelly, Verity, and Wood. The alternative treatment we give below has not yet appeared in the literature as far as this author ([[Todd Trimble]]) is aware. 
 
 ## Technical preliminaries 
 
 Note: All compositions will be written in the traditional order, in which application proceeds from right to left. 
 
-We work with familiar notions of bicategory theory (which we often call 2-categories) but in some cases under new names. We calculate with pasting diagrams in 2-categories as if they were strict 2-categories. 
+We work with familiar notions of the theory of bicategories (which for reasons of consonance we also call 2-categories) but in some cases under new names. We calculate with pasting diagrams in 2-categories as if they were strict 2-categories. 
 
 Our notion of morphism between 2-categories has gone under various names: "homomorphism" in the sense of B&#233;nabou, also known as "pseudofunctor" or weak 2-functor, where the structural constraints are isomorphisms. Here they are simply called **2-functors**. 
 
@@ -24,7 +24,7 @@ F f \downarrow & \overset{\theta \cdot f}{\Rightarrow} & \downarrow G f\\
 F b & \underset{\theta b}{\to} & G b
 }$$ 
 
-These are called "oplax transformations" by B&#233;nabou and "lax transformations" by other authors such as Johnstone; on this page we will simply call them (2-)**transformations**. A transformation is **strong** if the structural cells $\theta \cdot f$ are isomorphisms. 
+These are called "oplax transformations" by some authors such as B&#233;nabou and "lax transformations" by other authors such as Johnstone; on this page we will simply call them (2-)**transformations**. A transformation is **strong** if the structural cells $\theta \cdot f$ are isomorphisms. 
 
 There is a well-known notion of morphism between transformation which has been called [[modification]]. We retain this usage, but note that for the purposes of higher category theory, it is probably ill-advised to invent a new term (e.g. "perturbation" between modifications) each time one reaches a new depth of morphism -- a more uniform terminology is called for. The term "transfor" (due to Sjoerd Crans) has been gaining some recent currency; modifications may then be called **2-transfors**. 
 
@@ -42,24 +42,23 @@ and invertible modifications
 
 $$\array{
 G & \overset{\eta G}{\to} & G F G & & & & F & \overset{F\eta}{\to} & F G F\\ 
-1_G \searrow & \overset{s}{\Rightarrow} & \downarrow G \varepsilon & & & & 1_F \searrow & \overset{t}{\Leftarrow} & \downarrow \varepsilon F\\ 
- & & G & & & & & & F
+1_G \downarrow & \overset{s}{\Rightarrow} & \downarrow G \varepsilon & & & & 1_F \downarrow & \overset{t}{\Leftarrow} & \downarrow \varepsilon F\\ 
+G & \underset{1_G}{\to} & G & & & & F & \underset{1_F}{\to} & F
 }$$
 
 such that the triangulator coherence conditions hold: there are pasting diagram equalities 
 
 $$\array{
-1_C & \overset{\eta}{\to} & G F & \overset{1_{G F}}{\to} & G F & & & & 1_C & \overset{\eta}{\to} & G F & \overset{1_{G F}}{\to} & G F\\ 
-\eta \searrow & \swArrow \eta\eta & G F \eta \searrow & \Downarrow (s F)^{-1} & \nearrow G \varepsilon F & & = & & \eta \searrow & = & G F \eta \searrow & \Downarrow G t & \nearrow G \varepsilon F\\ 
- & G F & \underset{G F \eta}{\to} & G F G F & & & & & & G F & \underset{G F \eta}{\to} & G F G F &
+1_B & \overset{\eta}{\to} & G F & \overset{1_{G F}}{\to} & G F\\
+\eta \downarrow & \overset{\eta \cdot \eta}{\Rightarrow} & \downarrow G F \eta & & \downarrow 1_{G F}\\ 
+G F & \underset{\eta G F}{\to} G F G F & \Rightarrow & G F\\
+1_{G F} \downarrow & \Rightarrow & & \searrow G \varepsilon & & \downarrow 1_{G F} \\
+G F & \underset{1_{G F}}{\to} & G F \underset{1_{G F}}{\to} & G F 
 }$$
 
 $\, $ 
 
 $$\array{
-F G & \overset{1_{F G}}{\to} & F G & \overset{\varepsilon}{\to} & 1_B & & & & F G & \overset{1_{F G}}{\to} & F G & \overset{\varepsilon}{\to} & 1_B\\ 
-F \eta G \searrow & \Downarrow (F s)^{-1} & \nearrow F G \varepsilon & \seArrow \varepsilon \varepsilon & \nearrow \varepsilon & & = & & F \eta G \searrow & \Downarrow t G & \nearrow \varepsilon F G & = & \nearrow \varepsilon & \\
- & F G F G & \underset{\varepsilon F G}{\to} & F G & & & & & & F G F G & \underset{\varepsilon F G}{\to} & F G & 
 }$$
 
 A **lax** adjunction is defined in the same way as a 2-adjunction, except that we relax (remove) the assumptions that $\eta$ and $\varepsilon$ are strong and that $s$, $t$ are invertible; the triangulator coherence conditions are still in effect. In that case, for objects $b$ of $B$ and $c$ of $C$, there is a local adjunction between hom-categories 
@@ -128,5 +127,5 @@ $$(Map(B) \overset{!}{\to} \mathbf{1}) \dashv (\mathbf{1} \overset{I}{\to} Map(B
 
 so that $\otimes$ is a _2-product_ on $Map(B)$ and $I$ is 2-terminal in $Map(B)$. Naturally this finite 2-product structure on $Map(B)$ is property-like: is uniquely determined up to equivalence which is unique up to unique isomorphism. 
 
-We now argue that cartesian structure on the full 2-category $B$ is also property-like.  
+A little later we will argue that cartesian structure on the full bicategory $B$ is also property-like; the main thing is to see the manner in which $\otimes$ acts on 1-cells is forced. However, it is not too difficult to argue that cartesian structure $B$ makes $B$ a symmetric monoidal bicategory  
 
