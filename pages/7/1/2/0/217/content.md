@@ -18,7 +18,7 @@ _Kreisel and Lawvere on Category Theory and the Foundations of Mathematics_
 
 * Todd Trimble, _ZFC and ETCS: Elementary Theory of the Category of Sets_ ([[Trimble on ETCS I|nLab entry]],  [original blog entry](http://topologicalmusings.wordpress.com/2008/09/01/zfc-and-etcs-elementary-theory-of-the-category-of-sets/))
 
-* Todd Trimble, _ETCS: Internalizing the logic_ ([[Trimble on ETCS II|nLab entry]], [original blog entry]((http://topologicalmusings.wordpress.com/2008/09/10/etcs-internalizing-the-logic/))
+* Todd Trimble, _ETCS: Internalizing the logic_ ([[Trimble on ETCS II|nLab entry]], [original blog entry](http://topologicalmusings.wordpress.com/2008/09/10/etcs-internalizing-the-logic/))
 
 * Todd Trimble, _ETCS: Building joins and coproducts_
 ([[Trimble on ETCS III|nLab entry]], [original blog entry](http://topologicalmusings.wordpress.com/2008/12/15/etcs-building-joins-and-coproducts/))
