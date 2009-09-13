@@ -69,7 +69,6 @@ _Toby_:  I disagree that 'morphism' before 'isomorphism' is more categorially se
 [[Mike Shulman]]: Okay, I'll accept that sometimes it makes sense to have isomorphisms before morphisms.  Certainly there are other situations in which the notion of isomorphism is more obvious, or less subject to debate, than the notion of morphism.  But I am happy that now "isomorphism" comes before "isomorphic."
 =--
 
-
 ## References ##
 
 * Harary, Frank (1969), _Graph Theory_, Addison-Wesley.
@@ -98,13 +97,9 @@ I like [[graph theory]] as a place to discuss what 'graph theorists' actually ta
 
 [[Mike Shulman]]: Why not use this page to discuss all the possible variations, along with information and links regarding who uses the terminology in which way?  I think that could be really useful.  Graph theorists and category theorists aren't the only ones; for instance, people writing about [[locally presentable categories]] often use "graph" to mean a set equipped with a binary relation, since the category of such graphs has a "universality" property among lp categories.  
 
-[[Jon Awbrey]]: I initiated this page with a particular purpose in mind, which was simply to anchor the fairly standard definitions that I'll be using throughout my other entries on site.  I stated my intentions here and on the Latest Changes page.  Then other people appropriated the page to a host of other purposes that make for a bootiful balloon indeed but a good anchor not so much.  That's okay, I like balloons, but I still need a $\bot$, if you cache my drift.
-
 [[Todd Trimble]]: Jon, would you like your own personal web at the nLab? I'm sure someone would be glad to set it up for you, and then you can define your terms just the way you like without outside interference. (By the way, I'm looking at some of your other entries. We seem to have a mutual interest in C.S. Peirce.) But I'm not sure you can expect to set up your private moorings on a public space like this. 
 
 While I don't agree with some of the aesthetic choices on this page, I think we need to recognize and record the different senses of "graph" (but I personally don't feel a need to make one sense pre-eminent and make that fit other cases). The elaborate terminology I could do without, frankly; it would be enough to list the different senses in the spirit people use them, and just be very clear on other pages which sense is meant, with plain terminology like "directed graph", "undirected graph", and so on. 
-
-[[Jon Awbrey]]:  ___"fairly standard definitions"___ (hrumphasis added).  Yes, I can always use another scratchpad for developing works in e-gress, but that's not what I'm talking about here.  Again, it's fine by me if people want this page for e-cyclopedic ambitions, which is why I retreated to a new page at [[graph theory]] for recording standardly sourced defs and theorems from books and journals of that name.
 
 [[Mike Shulman]]: "Fairly standard definitions" is not enough at the nLab.  We are not Wikipedia; we are a place for collaborative research, with a special place in our hearts for (higher) category theory.  Moreover just because you initiate a page, you can't expect to continue to "own" it; a wiki is all about building on other people's work.  But I still don't understand why you felt the need to retreat from this page at all; it still contains the same information, only now it is more explanatory and helps people to understand that terminology is used by different people in different ways.  Why is that something you want to avoid?  Why not join the rest of us and help clarify it and make it even better?
 
@@ -115,8 +110,6 @@ Todd, I assume by "elaborate terminology" you mean things like "directed pseudo 
 From a logical point of view I think I see what Toby's after, but I'm against the idea of proliferating such fancy terms. I'd prefer keeping it real simple: say something like "graph can mean any of the following things", maybe qualified by a single adjective like 'simple', 'directed', 'undirected', etc., and more sociological discussion on which subcommunity uses what. Not pseudomultiwhatever, that sounds almost like a parody of math-talk. 
 
 I'll join you in reiterating that no page here should be considered exempt from being edited by people after the first author, including for example [[graph theory]]. My own recommendation is that if some other page makes reference to one of the fairly standard notions of graph, then say just enough on which notion is meant to avoid any _likely_ confusions. (It's hard to spell this out legalistically, but I don't think confusion is very likely if for example someone writes "categories are monadic over graphs".) 
-
-[[Jon Awbrey]]: _&#164; sigh &#164;_ I see we've reached the point where the quantity of words being put in my mouth renders my actual participation here redundant, soooo &#8212; back to the $n$-labyrinth &#8230;
 
 _Toby_:  I don\'t think that anybody says 'directed pseudomultigraph' if they can avoid it; category theorists, for example, usually just say 'graph' (or maybe 'directed graph' or 'digraph') for that, since it is their default notion.  But if you say those words to ordinary graph theorists, then they will *not* know what you mean; if you say 'directed pseudograph', then a lot of people will know what you mean, but not necessarily everybody.  The *only* unambiguous phrase that I know of is 'directed pseudomultigraph', but you would use this in the same way (or rather, a dual way) as Zoran uses 'commutative unital ring', which is to say that this is the kind of graph that you\'re discussing and that you will simply say 'graph' from now on.
 
@@ -134,19 +127,7 @@ _Todd_: Ha ha! Well, I guess you can anticipate my reaction. While my own prefer
 
 [[Mike Shulman]]: I think I like the idea of mostly using more words, and then just have a single list, towards the end maybe, of all the fancy terminology.  Especially since I gather from Toby's responses to my queries above that existing graph-theorists terminology is, IMHO, extremely haphazard.
 
-[[Jon Awbrey]]: __NB.__  The word "intent" entered the discussion of [[graph theory]] at this point:
-
-> [[Mike Shulman]]: I don't think starting a new page that duplicates the intent of a previous one because one doesn't like the organization or approach of the previous one is a good idea.  Instead, let's have a discussion --- at graph, where it belongs --- about what (you think) is wrong with it and how we can fix it.
-
-[[Jon Awbrey]]: I made a new page to _preserve_ the intent of the previous one.
-
-[[Jon Awbrey]]: When it comes to "Graph Theory, As She Is Spoke", I gave a sample of that at the outset of both pages.   Please don't attribute the rest of this googledygeek to graph theorists --- they just don't talk that way.
-
-[[Jon Awbrey]]: A bit of helpful [discussion](http://www.math.uiuc.edu/~west/igt/) and a [glossary of terminology](http://www.math.uiuc.edu/~west/openp/gloss.html).
-
 _Toby_:  That discussion helps to make it clear that the terminology is inconsistent.  I\'m not sure what 'gobbleygeek' you mean that isn\'t used by graph theorists.  The author of your glossary is one of those who use 'pseudograph' to mean pseudomultigraph (I can\'t see what term they use for a simple pseudograph, which is not a concept that one wants to ignore, since they correspond to symmetric relations); otherwise, they use every term above.
-
-JA: The thing that comes through, if you read the discussion of the poll results, is a prevailing tendency to use the shortest and simplest term for the species of object that is the most frequently used in practice and the most fundamental to pedagogy.  That is why, among graph theorists, "graph" has long been the default term for what others insist on calling a "finite undirected unlabeled graph sans loops or multiple edges" (FUUGSLOME).  Or something ...
 
 _Toby_:  Then I really am throughly confused about what 'gobbleygeek' you are referring to!  *Nobody* here has suggested anything like 'FUUGSLOME'.  I use 'graph' almost exactly as you use it, but unfortunately this is not consistent, so I offer 'simple graph' as a way to make it precise.  (The only difference is that you want your graphs to be finite and ---if I am to believe your quotation--- inhabited.  Since those necessarily complicate the definition, I\'m not sure why, although I see the value of focussing on finite objects in combinatorics.)  The complicated terminology that others here object to are terms like 'directed pseudomultigraph'; your glossary uses merely 'directed pseudograph' for that, but that also is not consistent.  (I admit that 'pseudomultigraph' is very rare, since most people say either 'multigraph' or 'pseudograph', but these are ambiguous; using each of those for their simpler meanings gives a nice logical form of language.  I do like 'loop-graph' from your bibliography, although that would seem to work best to mean a simple pseudograph rather than a pseudomultigraph as the bibliography states.)  So yes, it is graph theorists who use inconsistent and complicated terminology, although I understand how this came about and offer my sympathies rather than my condemnation.
 =--
