@@ -65,6 +65,8 @@ _Toby_:  That, and it\'s simpler to state the definition of 'isomorphic' than 'i
 [[Mike Shulman]]: Well, but we aren't graph theorists here, are we?  Isn't it okay for us to rephrase their definitions in the more categorically sensible order?
 
 _Toby_:  I disagree that 'morphism' before 'isomorphism' is more categorially sensible.  That\'s like defining $\leq$ before $=$; sometimes useful, sometimes not.  Since I am getting ambiguity about morphisms in what I find online, I\'d prefer to do isomorphisms first.  With luck, I\'ll find some terminology to distinguish the two kinds of morphisms, or we can make up our own.
+
+[[Mike Shulman]]: Okay, I'll accept that sometimes it makes sense to have isomorphisms before morphisms.  Certainly there are other situations in which the notion of isomorphism is more obvious, or less subject to debate, than the notion of morphism.  But I am happy that now "isomorphism" comes before "isomorphic."
 =--
 
 
