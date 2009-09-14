@@ -26,6 +26,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 
 ## 2009-09-14
+
+* [[Jon Awbrey]] replies to a query at [[relation theory]].  Hey! that rhymes with "weak and weary".
+
 * [[Zoran ?koda]]: to support the development of entries on the basics of [[formal geometry]] created entry [[adic noetherian ring]] (I would like to warn Toby (who will likely like simpler generality) in advance that one needs to be very careful in treating adic situations without noetherianess, I do not feel competent to write without consulting literature such a more general entry). Thanks [[Urs]] for stimulating the expansion of the entries on the subject.
 
 * [[Urs Schreiber]]: 
