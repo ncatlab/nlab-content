@@ -235,9 +235,24 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
   * [[Karoubi envelope]]
 
+
 ##5 Presentable and Accessible $\infty$-Categories##
 
+## 5.1 $(\infty,1)$-categories of presheaves ##
+
 * [[(∞,1)-category of (∞,1)-presheaves]]
+
+## 5.2 adjoint $(\infty,1)$-functors ##
+
+* [[adjoint (∞,1)-functor]]
+
+  * [[graph of a functor]]
+
+  * [[cograph of a functor]]
+
+  * [[adjoint functor theorem]]
+
+## 5.3 $(\infty,1)$-categories of inductive limits ##
 
 * [[ind-object in an (∞,1)-category]]
 
@@ -251,6 +266,11 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
   * [[presentable (∞,1)-category]]
 
+## 5.4 accessible $(\infty,1)$-categories ##
+
+* [[accessible (∞,1)-category]]
+
+## 5.5 presentable $(\infty,1)$-categories ##
 
 * [[symmetric monoidal (∞,1)-category of presentable (∞,1)-categories]]
 
@@ -262,7 +282,6 @@ in terms of [[simplicial presheaf|simplicial presheaves]].
 
   * [[local equivalence]]
 
-* [[adjoint functor theorem]]
 
 ##6 $\infty$-Topoi##
 
