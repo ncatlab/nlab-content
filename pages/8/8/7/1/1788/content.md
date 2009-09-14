@@ -10,6 +10,12 @@ Every wiki needs a sandbox! Just test _below_ and don't worry about messing thin
 
 Trying some new arrows: $\twoheadrightarrow$, $\rightarrowtail$, $\looparrowright$, $\nrightarrow$, $\upharpoonright$.
 
+***
+
+Factoring a proposition $f$ through a classification or coordinate map $\kappa$ --- seems like I used-to-use $\kappa$ for something else?
+
+__Version 1__
+
 $$\array{
 X && \overset{f}{\longrightarrow} && \mathbb{B}
 \\
@@ -18,7 +24,7 @@ X && \overset{f}{\longrightarrow} && \mathbb{B}
 && \mathbb{B}^k
 }$$
 
-***
+__Version 2__
 
 Now, with \ulap{f} --- but does it make a difference here?
 
@@ -26,6 +32,60 @@ $$\array{
 X && \overset{\ulap{f}}{\longrightarrow} && \mathbb{B}
 \\
 & {}_{\kappa}\searrow && \nearrow_{f_\kappa}
+\\
+&& \mathbb{B}^k
+}$$
+
+__Version 3__
+
+$$\array{
+X
+&& \overset{\ulap{f}}{\longrightarrow}
+&& \mathbb{B}
+\\
+& \multiscripts{_{(x_1, \dots, x_k)}^{\kappa=}}{\searrow}{}
+&& \nearrow_{f_\kappa}
+\\
+&& \mathbb{B}^k
+}$$
+
+__Version 4__
+
+$$\array{
+X
+&& \overset{\ulap{f}}{\longrightarrow}
+&& \mathbb{B}
+\\
+& \llap{{}^{\kappa =}_{(x_1, \dots, x_k)}} \searrow
+&& \nearrow_{f_\kappa}
+\\
+&& \mathbb{B}^k
+}$$
+
+__Version 5__
+
+$$\array{
+X
+&& \overset{\ulap{f}}{\longrightarrow}
+&& \mathbb{B}
+\\
+\array{\scriptsize{\kappa \quad =} \\ \scriptsize{(x_1, \dots, x_k)}}
+& \searrow
+&& \nearrow_{f_\kappa}
+\\
+&& \mathbb{B}^k
+}$$
+
+__Version 6__
+
+$$\array{
+X
+&& \overset{\ulap{f}}{\longrightarrow}
+&& \mathbb{B}
+\\
+\multiscripts{_{(x_1, \dots, x_k)}^{\kappa \: =}}{}{}
+& \searrow
+&& \nearrow_{f_\kappa}
 \\
 && \mathbb{B}^k
 }$$
