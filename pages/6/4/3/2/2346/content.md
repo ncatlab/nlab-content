@@ -67,7 +67,7 @@ It is  easy to identify the properties of those subsets of $X \times Y$ that are
 
 ## graph of a binary relation ##
 
-More generally, we can say that the __graph__ of a [[binary relation]] from $X$ to $Y$ is a subset of $X \times Y$; $(a,b)$ belongs to the graph if and only if $a$ is related to $b$.  
+More generally, we can say that the __graph__ of a [[binary relation]] from $X$ to $Y$ is a subset of $X \times Y$; $(a,b)$ belongs to the graph if and only if $a$ is related to $b$.  (Note that *every* subset of $X \times Y$ defines a unique relation; such a subset is the graph of a function if and only if the relation is both [[functional relation|functional]] and [[entire relation|entire]].)
 
 Notice that with a function $f : X \to Y$ regarded as a [[profunctor]] $X \times Y \to (-1)Cat$ as described above, a relation $R \subset X \times Y$ corresponds to a general such [[profunctor]]. More precisely we have a [[pullback]] square
 
@@ -94,10 +94,12 @@ So in this sense the ordinary notion of relation as a subset does really define 
 
 The graph of a binary relation from $X$ to $X$ is related to the notion of [[graph]] from [[graph theory]]; more precisely, such relations correspond to directed loop graphs (in the sense defined at [[graph]]) with vertex set $X$, and either can be defined as a subset of $X^2$.  In a similar way, [[spans]] from $X$ to $X$ correspond to [[digraph|directed pseudographs]] with vertex set $X$.
 
+For the case of a relation from $X$ to $Y$ without $X = Y$, see under the cograph below.
+
 
 ## graph of an $n$-ary relation ## 
 
-The __graph__ of a [[relation]] of arbitrary arity is similarly a subset of an arbitrary [[cartesian product]]; see [[relation theory]] for more on this.  Note that *every* subset of $X \times Y$ defines a unique relation; this is the graph of a function if and only if the relation is both [[functional relation|functional]] and [[entire relation|entire]].
+The __graph__ of a [[relation]] of arbitrary arity is similarly a subset of an arbitrary [[cartesian product]]; see [[relation theory]] for more on this.
 
 
 
@@ -134,11 +136,11 @@ $$
   \,.
 $$
 
-The cograph f $f$ in the sense of Lawvere is the set of connected components of this category, i.e. $\pi_0(cograph(f))$.
+The cograph of $f$ in the sense of Lawvere is the set of connected components of this category, i.e. $\pi_0(cograph(f))$.
 
 ### relation to graph theory ###
 
-The notion of cograph of a function may be even more related to the sense of [[graph]] in graph theory; although the identifications are not done there, the cograph draws a picture in wich any relation (or [[multispan]]) of any arity becomes a directed loop graph (or directed pseudograph) whose vertex set is the disjoint union of the relation\'s domains.
+The notion of cograph of a function may be even more related to the sense of [[graph]] in graph theory; although the identifications are not done there, the cograph draws a picture in which any relation (or [[multispan]]) of any arity becomes a directed graph (or directed multigraph) whose vertex set is the disjoint union of the relation\'s domains.  When the vertex set is broken up into a disjoint union in this way, graph theorists study this as _multipartite graphs_; in particular, directed bipartite graphs with vertex set broken up as $X + Y$ correspond precisely to binary relations from $X$ to $Y$.
 
 # Generalization #
 
@@ -263,6 +265,9 @@ Part of the problem is that the graph of a function isn\'t really a concept that
 But now that you\'ve brought up this bit with the category of elements, I do think that there is a place for it.  I\'ll try to rewrite the page to make things clearer: that a function (or even relation) might be viewed as being given by a 'graph' in various senses, which we are describing here.  Then we can mention all of them.
 
 [[Urs Schreiber]]: have only had a chance to look at your conversation here now. I think that the notion of both graph as well as cograph of a function are usefully regarded as special cases of [[graph of a functor]] and [[cograph of a functor]]. I have created these entries and added more details there, and I have now also expanded the discussion above, incorporating your discussion here as well as indicating the way this fits into the more general picture.
+
+_Toby_:  Thanks, Urs, that\'s great!
+
 
 [[!redirects graph of a relation]]
 [[!redirects cograph]]
