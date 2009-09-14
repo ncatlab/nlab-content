@@ -25,7 +25,7 @@ where
 
 * and for $U \in S$ and $C \in R$ the object $X(U,C)$ is to be thought of as the collection of morphisms from $U$ to $C$ that decompose into a morphism from $U$ into the generalized space and another morphism from that to $C$.
 
-Here the generalizaton is in the sense described at [[space and quantity]]:
+Here the generalization is in the sense described at [[space and quantity]]:
 
 * _[[space]]s_ modeled on test spaces in some category $S$ are [[presheaf|presheaves]] $X$ on $S$: $X(U)$ is the collection of probes of $X$ by $U \in S$.
 
