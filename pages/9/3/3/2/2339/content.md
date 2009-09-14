@@ -24,6 +24,10 @@ Previous:
 
 * [[A Survey of Elliptic Cohomology - cohomology theories]]
 
+Next:
+
+* [[A Survey of Elliptic Cohomology - E-infinity rings and derived schemes]]
+
 
 ## rough notes from a talk##
 
@@ -114,4 +118,162 @@ with structure sheaf $\lim O_X/^n$, where $V(U)$ has underlying space $Y$.
 **Definition.** $\mathrm{Spf} R$ is the locally [[ringed space]] with the underlying [[topological space]]
 $\mathrm{Spec} R/I$ and [[sheaf]] $O_{\mathrm{Spf} R}(\mathrm{Spf} R)=\lim R/I^n$.
 
+
+### formal group laws from elliptic curve ###
+
+recall from the above that a given a [[formal group law]] $F(x,y) \in R[[x,y]]$ we get te structure of a [[formal group]] on the [[formal spectrum]] $Spf$ by taking the product to be given by
+
+$$
+  \array{
+    Spf R[[x,y]] \simeq
+    Spf[[x]] \times Spf R[[y]]
+    &\to& Spf R[[z]]
+    \\
+    f(x,y)&\leftarrow |& z 
+  }
+$$
+
+Isomorphic [[formal group law]]s give [isomorphism|isomorphic]] (of [[formal group]]s) if $G$ a [[formal group]] has $G \simeq Spf R[[z]]$; we must choose such an iso to get a [[formal group law]].
+
+
+
+
+
+Now we get [[formal group]]s from [[elliptic curve]]s over $R$
+
+**definition** An **elliptic curve** over a commutative [[ring]] $R$ is a [[group object]] in the [[category]] of [[scheme]]s over $R$ that is a relative 1-dimensional, , [[smooth scheme|smooth curve]], [[proper scheme|proper]] curve over $R$. 
+
+This implies that it has [[genus]] 1. (by a direct argument of the Chern class of the tangent bundle.)
+
+Given an [[elliptic curve]] over $R$, $E \to Spec R$, we get a [[formal group]] $\hat E$ by completing $D$ along its identity [[section]] $\sigma_0$
+
+$$
+  E \to Spec(R) \stackrel{\sigma_0}{\to} E
+$$
+
+(the one dual to the map that maps everything to $0 \in R$), we get a [[ringed space]] $(\hat E, \hat O_{E,0})$
+
+
+
+
+
+
+
+
+
+
+
+*example** if $R$ is a [[field]] $k$, then the [[structure sheaf]] $\hat O_{E,0} \simeq k[[z]]$
+
+then 
+
+$$
+  \hat O_{E \times E, (0,0)} \simeq
+  \hat O_{E,0}
+  \hat \otimes_k
+  \hat O_{E,0}
+  \simeq 
+  k[[x,y]]
+$$
+
+
+
+**example** **Jacobi quartics**
+
+$$
+  y^2 = 1- 2 \delta x^2 + \epsilon x^4
+$$
+
+defines 4E$ over $R = \mathbb{Z}[Y_Z,\epsilon, \delta]$.
+
+The corresponding [[formal group law]] is **Euler's formal group law**
+
+$$
+  f(x,y) = \frac{x\sqrt{1- 2 \delta y^2 + \epsilon y^4}
+   + y \sqrt{1- 2 \delta x^2 + \epsilon x^4}}
+  {1- \epsilon x^2 y^2}
+$$
+
+if $\Delta := \epsilon(\delta^2 - \epsilon)^2 \neq 0$ then this is a non-trivial elliptic curve.
+
+If $\Delta = 0$ then $f(x,y) \simeq G_m, G_a$ (additive or multiplicative formal group law corresponding to [[integral cohomology]] and [[K-theory]], respectively).
+
+## weakly periodic cohomology theories and formal groups ##
+
+**Definition** A [[cohomology theory]] $A$ is **weakly periodic** if the natural map
+
+$$
+  A^2({*}) \otimes A^0({*}) A^n({*}) \stackrel{\simeq}{\to}
+  A^{n+2}({*})
+$$
+
+is an [[isomorphism]] for all $n \in \mathbb{Z}$.
+
+To get a [[formal group]] from a [[weakly periodic cohomology theory|weakly periodic]], [[even cohomology theory|even]] [[multiplicative cohomology theory|multiplicative]] [[cohomology theory]] $A^\bullet$, we look at the induced map on $A^\bullet$ from 
+
+$$
+  {*} \to \mathbb{C}P^\infty
+$$
+
+and 
+
+$$
+  ker(i_0^* : A^0(\mathbb{C}P^\infty) \to A^0({*}))
+$$ 
+is the [[ideal]] 
+
+that we complete along to define the [[formal scheme]] $Spf A^0(\mathbb{C}P^\infty)$.
+
+Notice that the map from the point is unique only up to [[homotopy]], so accordingly there are lots of chocies here, which however all lead to the same result.
+
+The fact that $A$ is weakly periodic allow to reconstruction the cohomoloogy theory essentially from this formal scheme.
+
+To get a [[formal group law]]: if the [[Lie algebra]] $Lie(Spf A^0(\mathbb{C}P^\infty))$ of the [[formal group]] 
+
+$$
+  Lie(Spf A^0(\mathbb{C}P^\infty))
+  \simeq
+  ker(i_0^*)/ker(i:0^*)^2
+$$
+
+is a free $A^0({*})$-module, we can pick a generator $t$ and this gives an [[isomorphism]] 
+
+$$
+  Spf(A^0(\mathbb{C}P^\infty)) \simeq Spf(A^0({*})[[t]])
+$$
+
+if $A^0(\mathbb{C}P^\infty) A^0({{*})[[t]]$ then $i_0^*$ "forgets the $t$coordinate".
+
+**Definition** An **elliptic cohomology theory** over $R$ is
+
+* a commutative [[ring]] $R$
+
+* an [[elliptic curve]] $E/R$
+
+* a [[weakly periodic cohomology theory|weakly periodic]], [[multiplicative cohomology theory|multiplicative]], [[even cohomology theory|even]] [[cohomology theory]] $A^\bullet$
+
+* [[isomorphism]]s $A^0({*}) \simeq R$ and $\hat E \simeq Spf(A^0(\mathbb{C}P^\infty))$.
+
+
+So we have on one side 
+
+$$
+  \array{
+    \hat E &\stackrel{\simeq}{\to}& Spf A^0(\mathbb{C}P^\infty)
+    \\
+    \downarrow && \downarrow
+    \\
+    Spec R &\stackrel{\simeq}{\to}&
+    Spec A^0({*})
+    \\
+    \downarrow^{\sigma_0} && \downarrow    
+    \hat E &\stackrel{\simeq}{\to}& Spf A^0(\mathbb{C}P^\infty)
+  }
+$$
+
+We can check that the [[Landweber exactness criterion]] is satisfied for the [[formal group law]] of the [[Jacobi quartic]], i.e. for [[Euler's formal group law]] over $\mathbb{Z}[\Delta^{-1}, \epsilon, \delta, 1/2]$, so this provides an example of an [[elliptic cohomology]] theory.
+
+$$
+  A^n_G(X) = M P (X) \otimes_{M P({*})} \mathbb{Z}[\Delta^{-1}, \epsilon, \delta, 1/2]
+$$
 
