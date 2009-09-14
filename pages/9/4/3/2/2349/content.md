@@ -10,7 +10,7 @@ $$ \array {
 } $$
 If $C$ is $Set$ (the [[category of sets]]), then this diagonal morphism is precisely the [[diagonal function]] of $X$.
 
-The diagonal morphism is always a [[regular monomorphism]], since it is the [[equaliser]] of the two projection maps $X^2 \to X$.  Thus, it makes $X$ into a regular [[subobject]] of $X^2$, the __diagonal subobject__.  When $C$ is the $Set$, this recovers the original notion of the [[diagonal subset]] of $X^2$.
+The diagonal morphism is always a [[regular monomorphism]], since it is the [[equaliser]] of the two projection maps $X^2 \to X$.  (In fact, it is a [[split monomorphism]], since it is also a [[section]] of either projection map.)  Thus, it makes $X$ into a regular [[subobject]] of $X^2$, the __diagonal subobject__.  When $C$ is the $Set$, this recovers the original notion of the [[diagonal subset]] of $X^2$.
 
 In the category [[Top]] of [[topological spaces]], an object $X$ is a [[Hausdorff space]] if and only if its diagonal subobject is a [[closed subspace]] of $X^2$; this fact can be generalised to other notions of [[space]].
 
