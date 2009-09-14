@@ -1,6 +1,6 @@
-A _directed limit_ (or _codirected limit_) is a [[limit]] of a functor whose [[source]] is a downward-[[direction|directed set]].  The [[duality|dual]] notion is that of _directed colimit_, a [[colimit]] of a functor whose source is an upward-directed set.
+A _directed limit_ (or _codirected limit_) is a [[limit]] of a functor whose [[source]] is a downward-[[direction|directed set]].  The [[duality|dual]] notion is that of _[[directed colimit]]_, a [[colimit]] of a functor whose source is an upward-directed set.
 
-Note that the terminology varies.  Especially in algebra, a directed limit may be called a _projective limit_ or _inverse limit_; it\'s also possible to distinguish these so that an inverse limit may have an arbitrary (possibly undirected) [[partial order|poset]] as its source.  On the other hand, both terms are often used for arbitrary [[limit]]s as an alternative to the 'co-' method of distinction.  The corresponding dual terms are _inductive limit_ and _direct limit_, with no 'co-' even though these are [[colimit]]s.
+Note that the terminology varies.  Especially in algebra, a directed limit may be called a '[[projective limit]]' or '[[inverse limit]]'; it\'s also possible to distinguish these so that an inverse limit may have an arbitrary (possibly undirected) [[partial order|poset]] as its source.  On the other hand, both terms are often used for arbitrary [[limit]]s as an alternative to the 'co-' method of distinction.  (The corresponding dual terms are '[[inductive limit]]' and '[[direct limit]]', with no 'co-' even though these are [[colimit]]s.)
 
 Directed (co)limits were studied in algebra (as projective and inductive limits) before the general notion of limit in category theory.  The elementary definition still seen there follows.
 
@@ -72,3 +72,6 @@ I agree (I think this is what Zoran is saying?) that it would be better if this 
 
 _Toby_:  OK, if Mike agrees, then I\'ll do it.  I think that I\'ll put stuff at [[directed limit]] but actually discuss both concepts there.
 =--
+
+
+[[!redirects codirected limit]]
