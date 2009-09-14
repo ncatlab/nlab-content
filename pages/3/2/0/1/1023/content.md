@@ -1,3 +1,3 @@
-See [[colimit]].
+See [[inductive limit]].
 
 category: redirect
