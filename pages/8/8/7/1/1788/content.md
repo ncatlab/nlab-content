@@ -534,7 +534,7 @@ Attitudes
 
 * $L_{x{}@{}j}$
 
-Try $L_{x@j}$.
+Try $L_{x\@j}$.
 
 * Thanks!&sup2;
 
