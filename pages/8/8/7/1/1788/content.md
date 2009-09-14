@@ -90,6 +90,20 @@ X
 && \mathbb{B}^k
 }$$
 
+__Version 7__
+
+$$\array{
+X
+&& \overset{f \:=\: f_\kappa \:\circ\: \kappa}{\longrightarrow}
+&& \mathbb{B}
+\\
+\multiscripts{_{(x_1, \dots, x_k)}^{\kappa \: =}}{}{}
+& \searrow
+&& \nearrow_{f_\kappa}
+\\
+&& \mathbb{B}^k
+}$$
+
 ***
 
 This used to work in MediaWiki LaTeX for slashing operators and arrows:
