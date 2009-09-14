@@ -8,7 +8,7 @@ The _graph of a function_ $f : X \to Y$ is the subset that $f$ "carves out" of t
 
 ## graph of a function ##
 
-The traditional standard definition of a graph of a function is thi:
+The traditional standard definition of a graph of a function is this:
 
 +-- {: .un_defn}
 ###### Definition
@@ -43,8 +43,8 @@ $$
 Then $\chi_f$ is the [[characteristic function]] of $graph(f)$ in that the diagram
 
 $$
-  \arry{
-     gaph(f) &\to& {*}
+  \array{
+     graph(f) &\to& {*}
      \\
      \downarrow && \downarrow
      \\
