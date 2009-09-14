@@ -27,6 +27,12 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-14
 
+* [[Urs Schreiber]]: 
+
+  * stub for [[structure sheaf]]
+
+  * slightly edited the beginning of [[structured (infinity,1)-topos]]
+
 *  [[Toby Bartels]]:
    *  Turned [[set]] into an essay (*Was sind und was sollen die Mengen?*) on the issues involved, particularly trying to keep them (foundational style, smallness, skeletality) separate.
    *  Thanks, Urs!
