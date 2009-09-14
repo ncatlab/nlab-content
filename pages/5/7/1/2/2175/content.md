@@ -1,3 +1,5 @@
+[[!redirects JA]]
+
 * [JA](http://mywikibiz.com/Directory:Jon_Awbrey) @ [MyWikiBiz](http://mywikibiz.com/)
 * [JA](http://knol.google.com/k/jon-awbrey/jon-awbrey/3fkwvf69kridz/1) @ [Google Knol](http://knol.google.com/)
 * [JA](http://planetmath.org/?op=getuser&id=15246) @ [PlanetMath](http://planetmath.org/)
