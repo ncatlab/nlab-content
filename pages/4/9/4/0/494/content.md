@@ -135,10 +135,13 @@ $$
   \,.
 $$
 
-The functors $L$ and $R$ are adjoint precisely if the [[distributor]]s that they define are equal.
+The functors $L$ and $R$ are adjoint precisely if the [[distributor]]s that they define in the above way are equal. This in turn is the case if
+$C \star^L D \simeq (D^{op} \star^{R^{op}} C^{op})^{op}$.
 
+We say that $C \star^k D$ is the [[cograph of a functor|cograph of the functor]] $k$. See there for more on this.
 
 # Definition for $(\infty,1)$-functors #
+
 
 The above characterization of adjoint functors in terms of categories over the interval is used in section 5.2.2 of
 
@@ -146,8 +149,7 @@ The above characterization of adjoint functors in terms of categories over the i
 
 (motivated from the discussion of correspondences in section 2.3.1) 
 
-to give a definition of adjunction between [[(infinity,1)-functor]]s
-
+to give a definition of adjunction between [[(infinity,1)-functor]]s. 
 
 +-- {: .un_defn}
 ###### Definition
@@ -161,12 +163,15 @@ An **adjunction** between $C$ and $D$ is
 
   * a [[Cartesian fibration]]
 
-  * a coCartesian fibration
+  * a [[coCartesian fibration]]
 
 * such that $C \simeq K_{0}$ and $D\simeq K_{1}$.
 
 =--
 
+For more on this see 
+
+* [[adjoint (∞,1)-functor]].
 
 
 #Examples#
