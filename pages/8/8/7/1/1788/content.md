@@ -8,6 +8,8 @@ Every wiki needs a sandbox! Just test _below_ and don't worry about messing thin
 
 ***
 
+Trying some new arrows: $\twoheadrightarrow$, $\rightarrowtail$, $\looparrowright$, $\nrightarrow$, $\upharpoonright$.
+
 $$\array{
 X && \overset{f}{\longrightarrow} && \mathbb{B}
 \\
