@@ -1,10 +1,14 @@
 [[!redirects theory of relations]]
 
+_Relations have types._<br>
+_Types are functions._<br>
+_Functions are relations._
+
 ## Idea ##
 
 To the best of my re\*collection, it went a bit like this:
 
-_Was sind und was sollen &#8212;_
+_Was sind und was sollen &mdash;_
 
 * relational arrows?
 
@@ -24,7 +28,7 @@ What Thing (3) would correspond to a Relational Category as a Metagraph correspo
 
 So it seems that a __relational metagraph__ ought to consist of _objects_ $a, b, c, \ldots$, _relational arrows_ $p, q, r, \ldots$, and a number of operations $\mathop{dom}_j$ that assign to each relational arrow $p$ an object $\mathop{dom}_j p$ for each $j$ in the arity of $p$.
 
-_Et sic deinceps &#8230;_
+_Et sic deinceps &hellip;_
 
 The path to this point has been straight and narrow, cut and dried --- like rolling a boulder up a hill of abstraction --- the air gets rare but getting to the top is so reflexive that any bot could see the way there.  But the summit presents a wealth of new vistas, and seeing the way clear from a relational metagraph to a relational metacategory demands reflection on many more choices than we could see from our base camp at _Che Valley_.
 
@@ -48,13 +52,13 @@ When we speak of a function $f : X \to Y$ we are thinking of a mathematical obje
 
 Let us write $f = (obj_1 f, obj_2 f, obj_{12} f)$ to express what has been said so far.
 
-When it comes to parsing the notation "$f : X \to Y$", everyone takes the part "$X \to Y$" to specify the _type_ of the function, that is, the pair $(obj_1 f, obj_2 f)$, but "$f$" is used equivocally to denote both the triple and the subset $obj_{12} f$ that forms one part of it.  One way to resolve the ambiguity is to formalize a distinction between a function and its _[[graph of a function|graph]]_, letting $graph (f) \:\text{:=}\: obj_{12} f$.
+When it comes to parsing the notation &ldquo;$f : X \to Y$&rdquo;, everyone takes the part &ldquo;$X \to Y$&rdquo; to specify the _type_ of the function, that is, the pair $(obj_1 f, obj_2 f)$, but &ldquo;$f$&rdquo; is used equivocally to denote both the triple and the subset $obj_{12} f$ that forms one part of it.  One way to resolve the ambiguity is to formalize a distinction between a function and its _[[graph of a function|graph]]_, letting $graph (f) \:\text{:=}\: obj_{12} f$.
 
-Another tactic treats the whole notation "$f : X \to Y$" as sufficient denotation for the triple, letting "$f$" denote $graph (f)$.
+Another tactic treats the whole notation &ldquo;$f : X \to Y$&rdquo; as sufficient denotation for the triple, letting &ldquo;$f$&rdquo; denote $graph (f)$.
 
 In categorical and computational contexts, at least initially, the type is regarded as an essential attribute or an integral part of the function itself.  In other contexts it may be desirable to use a more abstract concept of function, treating a function as a mathematical object that appears in connection with many different types.
 
-Following the pattern of the functional case, let the notation "$L \subseteq X \times Y$" bring to mind a mathematical object that is specified by three pieces of data, the set $X$, the set $Y$, and a particular subset of their cartesian product $X \times Y$.  As before we have two choices, either let $L = (X, Y, graph (L))$ or let "$L$" denote $graph (L)$ and choose another name for the triple.
+Following the pattern of the functional case, let the notation &ldquo;$L \subseteq X \times Y$&rdquo; bring to mind a mathematical object that is specified by three pieces of data, the set $X$, the set $Y$, and a particular subset of their cartesian product $X \times Y$.  As before we have two choices, either let $L = (X, Y, graph (L))$ or let &ldquo;$L$&rdquo; denote $graph (L)$ and choose another name for the triple.
 
 ## Definition ##
 
@@ -116,7 +120,7 @@ Returning to 2-adic relations, it is useful to describe some familiar classes of
 *  $L$ is tubular at $S$ if and only if $L$ is $(\le 1)$-regular at $S$; such a relation is sometimes called [[functional relation|functional]].
 *  $L$ is tubular at $T$ if and only if $L$ is $(\le 1)$-regular at $T$.
 
-If $L \subseteq S \times T$ is tubular at $S$, then $L$ is called a _[[partial function]]_ or a _prefunction_ from $S$ to $T$.  This is sometimes indicated by giving $L$ an alternate name, say, "$p$", and writing $L = p : S \:\dashrightarrow\: T$.
+If $L \subseteq S \times T$ is tubular at $S$, then $L$ is called a _[[partial function]]_ or a _prefunction_ from $S$ to $T$.  This is sometimes indicated by giving $L$ an alternate name, say, &ldquo;$p$&rdquo;, and writing $L = p : S \:\dashrightarrow\: T$.
 
 Just by way of formalizing the definition:
 
