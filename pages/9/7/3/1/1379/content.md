@@ -25,3 +25,6 @@ A __class__ is a [[subset]] of a [[Grothendieck universe]] $U$, while a ([[small
 A __[[large category]]__ is a [[category]] whose class of [[morphism]]s is a proper class.  It is sufficient that the class of [[object]]s be a proper class, which is also necessary if the category is [[locally small category|locally small]].
 
 Category theorists care about proper classes because many examples of categories in practice (such as [[Set]], to begin with!) are large.
+
+
+[[!redirects class]]
