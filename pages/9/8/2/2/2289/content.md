@@ -34,11 +34,15 @@ The central theorem is
 
 1. [Summary](#Summary)
 
+   The following entry has some paragraphs that summarize central ideas.
+
    1. [gluing all elliptic cohomology theories to the tmf spectrum](#gluingallellipticcohomologytheoriestothetmfspectrum)
 
    1. [interpretation in terms of higher topos theory](#interpretationintermsofhighertopostheory)
 
 1. partial surveys
+
+   The following links point to pages that contain notes on aspects of the theory from a [seminar](http://nd.edu/~rgrady/seminar.html)
 
    1. [[A Survey of Eilliptic Cohomology - cohomology theories]]
 
@@ -46,6 +50,8 @@ The central theorem is
 
 
 1. [Contents](#contents)
+
+   The following is a copy of the table of contents of _A Survey of Elliptic Cohomology_ . Behind each entry is a list of hyperlinks to entries on relevant keywords.
 
    1. [Elliptic Cohomology](#EllipticCohomology)
 
