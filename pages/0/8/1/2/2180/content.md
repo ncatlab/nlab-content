@@ -4,6 +4,10 @@ _Relations have types._<br>
 _Types are functions._<br>
 _Functions are relations._
 
++-- {: .query}
+Types are functions?  ---TB
+=--
+
 ## Idea ##
 
 To the best of my re\*collection, it went a bit like this:
@@ -202,6 +206,8 @@ JA: I looked into Freyd and Scedrov when it first came out --- I still have a co
 TB: Yes, that\'s a good point.  It seems that you need something like a multiallegory, the allegorial version of a [[multicategory]].  As far as I know, nobody has studied such a thing, although it does seem like an obvious thing to try.
 
 JA: I didn't know about Chu spaces at the time I set out on this line of inquiry --- and I don't know much more than the name today --- but I think a lot of this could probably be absorbed into that medium.  Then again, what can't?
+
+TB: I\'ve asked the [`categories` mailing list](http://www.mta.ca/~cat-dist/) about this.
 
 ### Re: Preliminaries ###
 
