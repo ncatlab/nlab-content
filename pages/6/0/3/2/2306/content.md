@@ -6,7 +6,7 @@ The _Lazard_ [[ring]] is
 
 and at the same time
 
-* the universal coefficient ring for [[formal group laws]].
+* the universal coefficient ring for [[formal group law]]s.
 
 #Details#
 
