@@ -8,11 +8,11 @@ A __boolean-valued function__ is a function of type $f : X \to \mathbb{B}$, wher
 
 In contexts where the elements of $\mathbb{B}$ represent logical values, for example, $0 = \mathop{false}$ and $1 = \mathop{true}$, a boolean-valued function may be referred to as a _predicate_ or a _proposition_.  However, these terms may also be used to describe the syntactic entities that denote or express boolean-valued functions, or that have boolean-valued functions among their canonical or intended models.  When necessary to avoid confusion, terms like _predicate formula_ or _propositional expression_ may be used to distinguish signs from their objects.
 
-Treatments of boolean-valued functions, predicates, and propositions are frequently conducted modulo a coordinate system of type $\mathbb{B}^k$, where $k$ is a nonnegative integer.
+Treatments of boolean-valued functions, predicates, and propositions are frequently conducted relative to a $k$-dimensional boolean coordinate system, where $k$ is a nonnegative integer.  This means that the consideration of arbitrary maps of type $X \to \mathbb{B}$ can be approached only through their approximations by _coordinate compatible maps_ or _representable predicates_, that is, maps of the form $f = f_\kappa \circ \kappa$, where $\kappa(x)$ is the coordinate $k$-tuple of $x$ in a given coordinate system and $f_\kappa$ is a [[boolean function]] of arity $k$.
 
 $$\array{
 X
-&& \overset{\ulap{f}}{\longrightarrow}
+&& \overset{f \:=\: f_\kappa \:\circ\: \kappa}{\longrightarrow}
 && \mathbb{B}
 \\
 \multiscripts{_{(x_1, \dots, x_k)}^{\kappa \: =}}{}{}
