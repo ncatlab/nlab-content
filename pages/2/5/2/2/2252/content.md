@@ -1,15 +1,27 @@
+#Idea#
+
+A _formal scheme_ is a [[scheme]] that is close to being an [[affine scheme]] but differs by having further [[infinitesimal space|infinitesimal]] extension.
+
 #Motivation#
 
-Formal [[power series]] rings $k[\![x_1,\ldots,x_n]\!]$ are limits of their truncations (e.g. in one variable $k[\![x]\!]/(x^n)$); they can be viewed as completions and they get equipped with a natural filtration and [[adic topology]].
+Formal [[power series]] [[ring]]s $k[\![x_1,\ldots,x_n]\!]$ are limits of their truncations (e.g. in one variable $k[\![x]\!]/(x^n)$); they can be viewed as completions and they get equipped with a natural filtration and [[adic topology]].
 
 They do not converge as a series (and make sense) in an open set or in any of the standard topologies (e.g. Zariski and complex topology over $\mathbb{Z}$), but they are rather "localized" in an *[[infinitesimal neighborhood|infinitesimal neighborhood]]* of the origin. One would like to be able to talk about functions supported only infinitesimally (in the transverse direction) to a [[closed subscheme]]. The formal schemes of [[Grothendieck]] give a geometric locus a [[ringed space]] corresponding to the information on all infinitesimal neighborhoods. Zariski's theorem on formal functions and establishing the theory of [[formal group]]s were some of the concrete motivations.
 
 
 #Noetherian formal schemes#
 
-Given any [[ring]] $R$ and an [[ideal]] $I$ of $R$, there is a natural homomorphisms of rings $R/I^{n+1}\to R/I^n$ for all $n\geq 0$. The [[inverse limit]] $\hat{R}:=lim_n R/I^n$ is called the _completion of $R$ at the ideal $I$_ or the _$I$-adic completion_ of $R$. If $R$ is [[noetherian ring|noetherian]], the completion is noetherian as well. 
+Given any [[ring]] $R$ and an [[ideal]] $I$ of $R$, there is a natural homomorphisms of rings $R/I^{n+1}\to R/I^n$ for all $n\geq 0$. The [[inverse limit]] $\hat{R}:=lim_n R/I^n$ is called the **completion of $R$ at the ideal $I$** or the **$I$-adic completion** of $R$. If $R$ is [[noetherian ring|noetherian]], the completion is noetherian as well. 
 
-If $X$ is a [[scheme]], a [[closed subscheme]] $Y\subset X$ is given by an embedding of topological spaces with the [[comorphism]] $\mathcal{O}_X\to f_*\mathcal{O}_Y$ which is a surjection; but alternatively $\mathcal{O}_Y$ can be recovered from $X$ and the defining sheaf of ideals $\mathcal{I}\subset \mathcal{O}_X$. Then one defines the structure sheaf of the completion $\mathcal{O}_{\hat{X}}$ as $lim_n \mathcal{O}_X/\mathcal{I}^n$ restricted to $Y$ and the __completion__ $\hat{X} := (Y,\mathcal{O}_{\hat{X}})$. If $X = Spec\,R$ where $R$ is a noetherian $I$-adic ring, and $Y=Spec\,R/I$ then the completion $Spf\,R = \hat{X}$ is called the __formal spectrum__ of $R$ (viewed as a topological ring). It can be considered as an [[ind-object]] in the category of [[algebraic scheme]]s, viewed as a formal colimit
+If $X$ is a [[scheme]], a [[closed subscheme]] $Y\subset X$ is given by an embedding of topological spaces with the [[comorphism]] $\mathcal{O}_X\to f_*\mathcal{O}_Y$ which is a surjection; but alternatively $\mathcal{O}_Y$ can be recovered from $X$ and the defining sheaf of ideals $\mathcal{I}\subset \mathcal{O}_X$. Then one defines the [[structure sheaf]] of the completion $\mathcal{O}_{\hat{X}}$ as $lim_n \mathcal{O}_X/\mathcal{I}^n$ restricted to $Y$ and the __completion__ $\hat{X} := (Y,\mathcal{O}_{\hat{X}})$. If $X = Spec\,R$ where $R$ is a noetherian $I$-adic ring, and $Y=Spec\,R/I$ then the completion is called the **[[formal spectrum]]** of $R$ denoted
+
+$$
+  Spf\,R = \hat{X}
+$$ 
+
+(and often pronounced _spoof of $R$_)
+
+(viewed as a topological ring). It can be considered as an [[ind-object]] in the [[category]] of [[algebraic scheme]]s, viewed as a formal colimit
 $colim_n Spec (R/I^n)$.
 
 A (locally) noetherian formal scheme is a formal completion of a (locally) noetherian scheme along a closed subscheme. Equivalently, a locally noetherian scheme is a locally ringed space which is locally isomorphic to the formal spectrum of a complete separated adic noetherian ring.
