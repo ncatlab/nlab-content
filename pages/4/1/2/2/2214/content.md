@@ -26,6 +26,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-15
 
+* [[Mike Shulman]]: Thanks Urs.  I expanded [[2-pullback]] a bit.  Weirdly, the direct URL for [weak pullback](http://ncatlab.org/nlab/show/weak+pullback) currently takes me to the *old* disambiguation page, which doesn't seem to exist any more.  Ordinary links like [[weak pullback]] are correctly redirected to [[weak limit]] however.
+
 * [[Urs Schreiber]]
 
   * added some links to the entry on [[Peter May]]
