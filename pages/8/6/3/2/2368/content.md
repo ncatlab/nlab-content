@@ -1,3 +1,11 @@
+<div class="rightHandSide toc">
+
+[[!include stable homotopy theory - contents]]
+
+[[!include higher algebra - contents]]
+</div>
+
+
 #Idea#
 
 In [[higher algebra]] and [[stable homotopy theory]] one is interested in  [[monoid in a monoidal (∞,1)-category|monoid objects]] in the [[stable (∞,1)-category of spectra]] -- 
