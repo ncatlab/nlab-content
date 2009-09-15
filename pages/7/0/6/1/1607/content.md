@@ -1,3 +1,7 @@
+<div class="rightHandSide toc">
+[[!include higher category theory - contents]]
+</div>
+
 
 #Idea#
 
