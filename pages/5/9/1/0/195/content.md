@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include category theory - contents]]
+</div>
+
+
 The concept of _set_ appears in several different guises in [[mathematics]], and particularly in [[category theory]].
 
 
