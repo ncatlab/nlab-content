@@ -1,3 +1,6 @@
+<div class="rightHandSide toc">
+[[!include category theory - contents]]
+</div>
 
 
 [[Urs Schreiber|Urs]]: I could start entering something here, but I don't quite feel authorized. I am hoping that maybe [[Todd Trimble|Todd]] or [[Mike Shulman|Mike]] or [[Toby Bartels|Toby]] can start giving the "good" general perspective on universal constructions.
