@@ -2,24 +2,23 @@
 
 [[!include higher algebra - contents]]
 
+***
+
+[[!include stable homotopy theory - contents]]
+
 </div>
 
 
-An __$A_\infty$-ring__ is an [[algebra over an operad]] over the [[A-infinity operad]] in [[chain complex]]es of [[abelian group]]s.
+An $A_\infty$-ring is a [[monoid in an (∞,1)-category]] for the [[stable (∞,1)-category of spectra]]. Sometimes this is called an [[associative ring spectrum]].
 
-This should be the same thing as an [[associative ring spectrum]].
+This may be modeled equivalently as an ordinary [[monoid]] with respect to the [[symmetric monoidal smash product of spectra]].
 
-+-- {: .query}
+Notice the difference to an ordinary [[ring spectrum]] which which is not necessarily coherently homotopy-associative.
 
-It seems that it should be true that an associative ring spectrum is equivalently 
+$A_\infty$-rings play the role of [[ring]]s in [[higher algebra]].
 
-* an algebra over some [[A-infinity operad]] in chain complexes of abelian groups;
+The higher analog of a commutative ring is an [[E-∞ ring]].
 
-* an algebra object in the monoidal $(\infty,1)$-category of spectra. 
-
-I am still trying to find out to which degree both definitions are equivalent.
-
-See also the discussion at [[E-infinity ring]].
 
 =--
 
