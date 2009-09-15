@@ -1,3 +1,6 @@
+<div class="rightHandSide toc">
+[[!include higher algebra - contents]]
+</div>
 
 #Idea#
 
