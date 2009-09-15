@@ -1,7 +1,11 @@
 <div class="rightHandSide toc">
 [[!include mathematicscontents]]
-</div>
 
+***
+
+[[!include higher algebra - contents]]
+
+</div>
 
 
 This entry collects links to $n$Lab-entries related to **Higher Algebra**: [[algebra]] inside [[monoidal (infinity,1)-category|monoidal (infinity,1)-categories]] . 
