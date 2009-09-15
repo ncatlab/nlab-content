@@ -26,6 +26,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-15
 
+* [[Jon Awbrey]] added a [link to a Forum discussion](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=71) at [[relation theory]].
+
 * [[Mike Shulman]]: Two questions at [[graph of a functor]].  One of them spills over into [[cograph of a functor]] and [[weak pullback]].
 
 
