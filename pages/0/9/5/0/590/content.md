@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include category theory - contents]]
+</div>
+
+
 #Idea#
 
 The concept of _colimit_ is that [[duality|dual]] to a [[limit]]:
