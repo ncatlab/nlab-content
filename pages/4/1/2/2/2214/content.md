@@ -28,6 +28,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Urs Schreiber]]
 
+  * added the link to [[stable homotopy theory]] to the main [[mathematicscontents|Mathematics Contents]]
+
+  * created [[coordinate-free spectrum]] and linked to it from [[spectrum]] (whose "Definition" section I slightly reorganized)
+
+  * created [[symmetric monoidal smash product of spectra]]
+
+    added small paragraph pointing to this new entry to [[stable homotopy theory]], [[smash product of spectra]]
+
   * created an entry [[inbound citations]] and linked to it from the main table of contents. Let me know what you think of this suggestion. See also the blog entry on it [here](http://golem.ph.utexas.edu/category/2009/09/inbound_citations.html).
 
 * [[Jon Awbrey]] added a [link to a Forum discussion](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=71) at [[relation theory]].
