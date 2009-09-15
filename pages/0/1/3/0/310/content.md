@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include category theory - contents]]
+</div>
+
+
 A **Heyting algebra** is a [[lattice]] $L$ which as a poset admits an operation of [[implication]] 
 
 $$\Rightarrow: L^{op} \times L \to L$$ 
