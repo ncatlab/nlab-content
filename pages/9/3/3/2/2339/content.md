@@ -114,8 +114,8 @@ This shows up in cohomology as Chern character.
 
 **Formal groups.**  A [[formal group]] is a group in the [[category]] of [[formal scheme]]s.
 
-A [[formal scheme]] $\hat{Y}$ is defined for any [[closed subscheme|closed immersion}} of schemes $Y \hookrightarrow X$.
-Intuitively the [[formal scheme]] $\hat Y$ is the $\infty$-jet bundle in normal direction of $Y$ inside of $X$. 
+A [[formal scheme]] $\hat{Y}$ is defined for any [[closed subscheme|closed immersion]] of [[scheme]]s $Y \hookrightarrow X$.
+Intuitively the [[formal scheme]] $\hat Y$ is the $\infty$-jet bundle in the normal direction of $Y$ inside of $X$. 
 
 **Definition.**  The locally [[ringed space]] $\hat Y$ is defined as the [[topological space]] $Y$
 with structure sheaf $\lim O_X/{\mathcal I}^n$, where $\mathcal{I}$ is the defining sheaf of ideals of the closed immersion $Y\hookrightarrow X$.
