@@ -1,5 +1,8 @@
-[[!include contents]]
-
+<div class="rightHandSide toc">
+[[!include mathematicscontents]]
+---
+[[!include category theory - contents]]
+</div>
 
 #Idea#
 
@@ -14,6 +17,7 @@ The paper was a clash of ideas from abstract [[algebra]] (Mac Lane) and [[topolo
 #### Paradigm ####
 The basic idea of category theory is to shift attention from the study of [[object]]s to the study of _maps_ or _relations_ between objects: of (homo)[[morphism]]s between objects. 
 =--
+
 
 +-- {: .un_remark}
 #### Examples ####
@@ -31,6 +35,23 @@ Archetypical examples of non-[[concrete category|concrete]] categories are the [
 These latter examples already pave the way to the [[homotopy hypothesis]], to the unification between category theory and [[homotopy theory]] in [[Higher Topos Theory|(∞,1)-category theory]] and thereby to [[higher category theory]]. 
 =--
 
+
++-- {: .un_remark}
+#### Terminology ####
+
+Categories were named after the examples of [[concrete category|concrete categories]]. As [[Saunders Mac Lane]] writes
+
+>Now the discovery of ideas as general as these is chiefly the willingness to make a brash or speculative abstraction, in this case supported by the pleasure of purloining words from the philosophers: "Category" from Aristotle and Kant, "Functor" from Carnap (Logische Syntax der Sprache), and "natural transformation" from then current informal parlance.
+
+>([[Saunders Mac Lane]], [[Categories Work|Categories for the Working Mathematician]], 29&#8211;30).
+
+However, the [[category|categories]] of category theory are way more general than these [[concrete category|concrete categories]] and the way Aristotle and Kant use the term is more related to what nowadays is called "type" in [[type theory]].
+
+=--
+
+
+
+
 +-- {: .un_remark}
 #### Conceptual unification ####
 One major driving force behind the development of category theory is its ability to abstract and unify concepts. General statements about categories apply to each specific [[concrete category]] of mathematical structures. The general notion of [[universal construction]]s in categories, such as [[representable functor]]s, [[adjoint functor]]s  and [[limit]]s, turns out to prevail throughout mathematics and manifest itself in myriads of special examples.
@@ -38,17 +59,12 @@ One major driving force behind the development of category theory is its ability
 
 +-- {: .un_remark}
 #### Abstract nonsense ####
-This abstraction power of category theory has traditionally caused different feelings about it. The popular term _abstract nonsense_ for category theoretic methods was meant pejoratively but is often used by now just as descriptively as in: "This property is not specific to this context, it already follows from abstract nonsense".
 
+This abstraction power of category theory has led Norman Steenrod to coin the term _abstract nonsense_ or _general abstract nonsense_ for it. It is being used as in "This property is not specific to this context, it already follows from general abstract nonsense". Peter Freyd expressed a similar feeling by his witticism: 
 
-+--{.query}
-Zoran: I think that the wikipedia [article](http://en.wikipedia.org/wiki/Abstract_nonsense) is far more up to the point than this partagraph above. Namely the main practioners and founders of the method did use the term very early meaning clean and general arguments rather than obscure and specific to special cases. The pejorative conotation is neither original nor primary. The above paragraph makes an impression that the term abstract nonsense is primarily pejorative and orginating mainly from the uncategorical community.
+>"Perhaps the purpose of categorical algebra is to show that which is trivial is trivially trivial."
 
-Todd: I think Zoran's basically right. The phrase is believed to have been coined by Norman Steenrod, who should be considered as friendly towards categorical methods. When snappily deployed, it's more likely than not an indication of the speaker's sophistication. Compare the deep truth underlying Freyd's witticism: "Perhaps the purpose of categorical algebra is to show that which is trivial is trivially trivial."
-=--
-
-
-In the preface of his 1965 book _Theory of Categories_ Barry Mitchell writes:
+But abstract nonsense still tends to meet with some resistance. In the preface of his 1965 book _Theory of Categories_ Barry Mitchell writes:
 
 >A number of sophisticated people tend to disparage category theory as consistently as others disparage certain kinds of classical music. When obliged to speak of a category they do so in an apologetic tone, similar to the way some say, "It was a gift &#8211; I've never even played it" when a record of Chopin Nocturnes is discovered in their possession. For this reason I add to the usual prerequisite that the reader have a fair amount of mathematical sophistication, the further prerequisite that he have no other kind.
 =--
@@ -226,7 +242,7 @@ Other standard references include:
 * [[Jiri Adamek]], [[Horst Herrlich]], and [[George Strecker]], _Abstract and concrete categories: the joy of cats_. [free online](http://katmat.math.uni-bremen.de/acc/acc.pdf)
 * [[Michael Barr]] and [[Charles Wells]], _Toposes, triples and theories_. [free online](http://www.cwru.edu/artsci/math/wells/pub/ttt.html)
 * [[Robert Goldblatt]], _Topoi, the categorial analysis of logic_.
-[free online](http://historical.library.cornell.edu/cgi-bin/cul.math/docviewer?did=Gold010&seq=&view=50&frames=0&pagenum=1)
+[free online](http://historical.library.cornell.edu/cgi-bin/cul.math/docviewer?did=Gold010&amp;seq=&amp;view=50&amp;frames=0&amp;pagenum=1)
 * [[Tom Leinster]], _Higher operads, higher categories_ [free online] (http://arxiv.org/PS_cache/math/pdf/0305/0305049v1.pdf)
 * [[Eugenia Cheng]], [[Aaron Lauda]], _Higher-dimensional categories: an illustrated guide book_ [free online] (http://cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf)
 * [[Peter Johnstone]], _Topos theory_
@@ -470,6 +486,16 @@ Historically, simplicial complexes were originally spaces, or perhaps spaces equ
 
 I had a bunch more written about when things should be considered the same, but I lost it all to careless button-pushing ('_').  Suffice to say that it\'s much safer to consider categories 'the same' as certain presheaves on $\Delta$ than to consider integers 'the same' as even integers, precisely because the type mismatch will alert you to the use of an [[equivalence of categories]], which you can then track down.
 =--
+
++--{.query}
+
+>here is a discussion thaat started with a previous version of the paragraph on "abstract nonsense". This paragraph has now been changed according to this discussion. If there is still need to discuss, we need to revive this query box here.
+
+Zoran: I think that the wikipedia [article](http://en.wikipedia.org/wiki/Abstract_nonsense) is far more up to the point than this paragraph above. Namely the main practioners and founders of the method did use the term very early meaning clean and general arguments rather than obscure and specific to special cases. The pejorative conotation is neither original nor primary. The above paragraph makes an impression that the term abstract nonsense is primarily pejorative and orginating mainly from the uncategorical community.
+
+Todd: I think Zoran's basically right. The phrase is believed to have been coined by Norman Steenrod, who should be considered as friendly towards categorical methods. When snappily deployed, it's more likely than not an indication of the speaker's sophistication. Compare the deep truth underlying Freyd's witticism: "Perhaps the purpose of categorical algebra is to show that which is trivial is trivially trivial."
+=--
+
 
 
 [[!redirects abstract nonsense]]
