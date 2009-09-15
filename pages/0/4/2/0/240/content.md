@@ -32,6 +32,8 @@ This is important in [[predicative mathematics]], where the category of sets (an
 
 Do we know what these should be in any more general situations?
 
+[[Mike Shulman]]: Well, the pretopos version makes sense in any [[coherent category]], and I would bet that it's the right notion in that generality.  In a [[regular category]] one might just want to assert that $1$ is a (regular-)projective strong generator, which would probably be enough for regular logic.  And in a category with mere finite limits, being a strong generator is all one could ask for, and that'd probably be enough for finite-limit logic.
+
 
 [[!redirects well-pointed pretopos]]
 [[!redirects well-pointed category]]
