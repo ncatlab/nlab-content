@@ -26,6 +26,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-15
 
+* [[Jon Awbrey]] started a subsection on categorical precursors in [[category theory]], but that's already such a huge article that people may prefer to spin off a new page if it goes past a few links.
+
 * [[Urs Schreiber]]: 
 
   * created [[category theory - contents]] and began adding it as a "floating" table of contents to some relevant entries.
