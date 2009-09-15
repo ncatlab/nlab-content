@@ -2,7 +2,9 @@
 
 #Definition#
 
-An **associative ring spectrum**, or [[A-infinity ring]], is an [[algebra in an (infinity,1)-category|algebra object in]] the [[stable (infinity,1)-category of spectra]] with its [[smash product of spectra]] [[monoidal (infinity,1)-category|monoidal structure]].
+An **associative ring spectrum**, or [[A-infinity ring]], is an [[algebra in an (infinity,1)-category|monoid object in]] the [[stable (infinity,1)-category of spectra]] with its [[smash product of spectra]] [[monoidal (infinity,1)-category|monoidal structure]].
+
+Equivalently, this should be the same as an ordinary [[monoid]] with respect to the [[symmetric monoidal smash product of spectra]].
 
 #Remarks#
 
