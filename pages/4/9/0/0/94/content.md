@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include higher algebra - contents]]
+</div>
+
+
 #Idea#
 
 $L_\infty$-algebras are a [[vertical categorification]] of Lie algebras: in an $L_\infty$-algebra the Jacobi identity is allowed to hold only up to higher coherent homotopy. 
@@ -47,7 +52,7 @@ A quick web entry is:
 
 See also for instance section 3.1 of:
 
-Alberto S. Cattaneo, Florian Sch&#228;tz, _Equivalences of higher derived brackets_ ([arXiv](http://arxiv.org/abs/0704.1403))
+Alberto S. Cattaneo, Florian Sch&auml;tz, _Equivalences of higher derived brackets_ ([arXiv](http://arxiv.org/abs/0704.1403))
 
 The standard reference for Lie 2-algebras is:
 
