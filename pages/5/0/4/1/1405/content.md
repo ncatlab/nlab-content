@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include higher category theory - contents]]
+</div>
+
+
 While an [[algebraic definition of higher category|algebraic]] definition of [[strict ∞-categories]] is comparatively straightforward, algebraic definitions of fully weak $\omega$-categories (aka $\infty$-[[infinity-category|categories]]) are difficult to work with (although some definitions exist, such as those of [[Batanin n-category|Batanin]], [[Leinster n-category|Leinster]], and [[Penon n-category|Penon]]).
 
 Howver, just like strict $\omega$-categories have a [[simplicial set|simplicial]] [[nerve]] -- a [[complicial set]] -- induced by the [[orientals]], and just like the category of strict $\omega$-categories is equivalent to the category of complicial sets, one expects that every weak $\omega$-category naturally has a simplicial nerve and that the theory of algebraically defined weak $\omega$-categories is equivalent to the theory of the simplicial sets that arise as their nerves.  In fact, one can hope that the theory is _simpler_ in the weak case: complicial sets are simplicial sets equipped with extra [[stuff, structure, property|structure]] (a [[stratified simplicial set|stratification]] representing the chosen 'strict' composites), while in the nerve of a weak $\omega$-category this structure might be reducible to a property.
