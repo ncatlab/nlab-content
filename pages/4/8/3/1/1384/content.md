@@ -59,3 +59,7 @@ the above definition is definition 1.19 in
 * [[Jacob Lurie]], [[higher algebra|Commutative algebra]]
 
 [[!redirects commutative algebra in an (∞,1)-category]]
+[[!redirects commutative monoid in an (∞,1)-category]]
+[[!redirects commutative monoid in an (infinity,1)-category]]
+[[!redirects commutative algebra in a monoidal (∞,1)-category]]
+[[!redirects commutative monoid in a monoidal (∞,1)-category]]
