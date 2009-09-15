@@ -1,3 +1,10 @@
+<div class="rightHandSide toc">
+
+[[!include higher algebra - contents]]
+
+</div>
+
+
 An __$A_\infty$-ring__ is an [[algebra over an operad]] over the [[A-infinity operad]] in [[chain complex]]es of [[abelian group]]s.
 
 This should be the same thing as an [[associative ring spectrum]].
