@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include higher algebra - contents]]
+</div>
+
+
 An $A_\infty$-algebra is an algebra for the cofibrant resolution of the [[operad]] $Ass$ of associative algebras: it is an algebra which is associative only up to higher coherent homotopy.
 
 Concretely, an $A_\infty$-algebra is the structure of a degree 1 coderivation 
