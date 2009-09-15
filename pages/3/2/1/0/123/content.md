@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include category theory - contents]]
+</div>
+
+
 ##Idea##
 
 * A functor is what goes between [[category|categories]].
