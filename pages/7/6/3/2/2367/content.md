@@ -42,6 +42,37 @@ If you see a new citation of $n$Lab or $n$Caf&#233; material anywhere, please ad
 
   * [Metric spaces](http://golem.ph.utexas.edu/category/2008/02/metric_spaces.html)
 
+* [[Paolo Bertozzini]], [[Roberto Conti]] and [[Wicharn Lewkeeratiyutkul]], _Non-Commutative Geometry, Categories and Quantum Physics_ ([arXiv](http://arxiv.org/abs/0801.2826v1))
+
+  cites:
+
+  * [[Urs Schreiber]], [Connes on Spectral Geometry of the Standard Model, II](http://golem.ph.utexas.edu/category/2006/09/connes_on_spectral_geometry_of_1.html)
+
+* [[Paolo Bertozzini]], [[Roberto Conti]] and [[Wicharn Lewkeeratiyutkul]], _A Horizontal Categorification of Gel'fand Duality_ ([arXiv](http://arxiv.org/abs/0812.3601v1))
+
+  cites:
+
+  * [[John Baez]], [Infinitely Categorified Calculus](http://golem.ph.utexas.edu/category/2006/09/ringoids.html) _(This entry is actually called "Ringoids")_
+
+* [[Marek Zawadowski]], _Multitopes are the same as
+principal ordered face structures_ ([arXiv](http://arxiv.org/abs/0710.5323v2))
+
+  cites:
+
+  * [[Tom Leinster]], [How I learned to Love the Nerve Functor](http://golem.ph.utexas.edu/category/2008/01/mark_weber_on_nerves_of_catego.html)
+
+* [[Tobias Fritz]], _Convex Spaces I: Definitions and Examples_ ([arXiv](http://arxiv.org/abs/0903.5522v1))
+
+  cites:
+
+  * [[Tom Leinster]], [Entropy, Diversity and Cardinality (Part 1)](http://golem.ph.utexas.edu/category/2008/10/entropy_diversity_and_cardinal.html)
+
+* [[Ulrich Fahrenberg]] and [[Martin Raussen]], _Reparametrizations of Continuous Paths_ ([arXiv](http://arxiv.org/abs/0706.3560v1))
+
+  cites:
+
+  * [[John Baez]] and [[Urs Schreiber]], [n-transport theory](http://golem.ph.utexas.edu/category)
+
 
 ## citations of documents presented at entries ##
 
