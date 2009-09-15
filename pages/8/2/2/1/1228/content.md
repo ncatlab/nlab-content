@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include category theory - contents]]
+</div>
+
+
 #Idea#
 
 The _co-Yoneda lemma_ is a statement which is related by [[duality]] to the [[Yoneda lemma]]. 
