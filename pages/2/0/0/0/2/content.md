@@ -17,6 +17,7 @@
   * [[FAQ|FAQ]]
   * [[latest changes|Latest Changes]]
   * [[request for help|Request For Help]]
+  * [[inbound citations|Inbound Citations]]
   * [[Sandbox|Sandbox]]
 
 * [[About]]
