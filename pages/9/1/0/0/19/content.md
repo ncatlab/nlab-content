@@ -259,6 +259,12 @@ Precursors
 
 * Carnap, _[The Logical Syntax of Language](http://books.google.com/books?id=Yf9R6WFFLhYC&printsec=frontcover)_, _cf._ &ldquo;[Functor](http://books.google.com/books?id=Yf9R6WFFLhYC&printsec=frontcover#v=onepage&q=Functor&f=false)&rdquo;
 
++-- {: .query}
+
+[[Todd Trimble]]: Can I ask what you mean when you call these "precursors"? 
+
+=--
+
 #Discussion#
 
 Here are some discussion boxes that used to be inside the above text but have been largely resolved by now.
