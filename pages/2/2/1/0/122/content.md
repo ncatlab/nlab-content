@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include category theory - contents]]
+</div>
+
+
 #Idea#
 
 Just as [[functor|functors]] go between [[category|categories]], natural transformations go between functors.
