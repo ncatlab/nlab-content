@@ -1,7 +1,10 @@
 <div class="rightHandSide toc">
 [[!include higher geometry - contents]]
-</div>
 
+***
+
+[[!include higher algebra - contents]]
+</div>
 
 
 The notion of  _generalized scheme_ or _$G$-scheme_ is the generalization of the notion of [[scheme]] from [[algebraic geometry]] to [[geometry]] more generaly and from [[geometry]] to [[higher geometry]]. In particular it yields a generalization of [[scheme]] to the context of [[derived algebraic geometry]] but also for instance a generalization of the notion of [[manifold|smooth manifold]] to [[derived smooth manifold]].
