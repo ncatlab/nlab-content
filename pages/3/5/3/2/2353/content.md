@@ -41,12 +41,6 @@ and $f(x) = y$.
 What [[Bill Lawvere]] called the [[cograph of a function]] is the connected components
 $\pi_0(Cograph(f))$ of this category.
 
-+--{: .query}
-[[Mike Shulman]]: Same question about [[weak pullback]] as at [[graph of a functor]].
-
-[[Urs Schreiber]]: okay, and same reply as there! :-)
-
-=--
 
 ## cographs of functors between 1-categories ##
 
