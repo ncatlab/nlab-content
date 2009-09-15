@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include higher category theory - contents]]
+</div>
+
+
 # Idea #
 
 
@@ -16,7 +21,7 @@ Mathematial Society, Providence, Rhode Island, 1998, pp. 99--116.   ([pdf](http:
 
 Work towards establishing the [[homotopy hypothesis]] for Batanin $\omega$-groupoids can be found here:
 
-* Clemens Berger, _A cellular nerve for higher categories_, ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=E3E3E850D4CE24A052F37FD04705FFD5?doi=10.1.1.32.6556&rep=rep1&type=pdf)) **BAD LINK**
+* Clemens Berger, _A cellular nerve for higher categories_, ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=E3E3E850D4CE24A052F37FD04705FFD5?doi=10.1.1.32.6556&amp;rep=rep1&amp;type=pdf)) **BAD LINK**
 
 * Denis-Charles Cisinski, _Batanin higher groupoids and
 homotopy types_, ([pdf](http://arxiv.org/abs/math.AT/0604442))
