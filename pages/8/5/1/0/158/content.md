@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include higher category theory - contents]]
+</div>
+
+
 An $\infty$-groupoid -- equivalently an [[(∞,0)-category]] is an [[∞-category]] in which all morphisms are [[equivalences]].
 
 #Models#
