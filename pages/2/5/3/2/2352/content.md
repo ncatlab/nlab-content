@@ -17,7 +17,7 @@ $f : C \to D$ between [[(n,r)-category|(n,r)-categories]]
 is the 
 [[Grothendieck construction]] of the corresponding correspondence:
 the fibration classified by the correspondence, 
-i.e. the [[weak pullback]]
+i.e. the [[comma object]]
 
 $$
   \array{
@@ -36,6 +36,9 @@ as described at  [[universal fibration of (infinity,1)-categories]].
 
 +--{: .query}
 [[Mike Shulman]]: Why are we using "weak pullback" here?  The page [[weak pullback]] is basically a disambiguation page, so I think that elsewhere we should instead use precise terminology and links.  In this case what is meant is a [[comma object]], yes?
+
+[[Urs Schreiber]]: yes, I have changed this accordingly. I have also renamed the disambiguation page that used to be at [[weak pullback]] into [[2-pullback]].
+
 =--
 
 
@@ -96,7 +99,7 @@ $$
 
 (Notice that in this case $X^{op} = X$.)
 
-The [[weak pullback]] of ${*} = {1} \to \{0,1\}$ along $\chi_f$ is 
+The [[2-pullback]] of ${*} = {1} \to \{0,1\}$ along $\chi_f$ is 
 just the ordinary [[pullback]]
 
 $$
