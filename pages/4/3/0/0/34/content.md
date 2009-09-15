@@ -1,3 +1,10 @@
+<div class="rightHandSide toc">
+[[!include higher category theory - contents]]
+</div>
+
+
+
+
 _Higher category theory_ generalizes [[category theory]], the study of [[categories]], to the study of higher categories, known as $n$-[[n-category|categories]] (or, when $n \to \infty$, as $\infty$-[[∞-category|categories]] or $\omega$-[[∞-category|categories]], or, when the degree of invertibility is important, as $(n,r)$-[[(n,r)-category|categories]]).
 
 Higher category theory is supposed to be to the theory of $\infty$-[[infinity-groupoid|groupoids]] and [[homotopy theory]] as [[category theory]] is to the study of [[groupoids]] and hence of [[groups]].  The general study of [[homotopy theory]] itself may be thought of as $(\infty,1)$-[[(infinity,1)-category|category]] theory, as in Jacob Lurie\'s [[Higher Topos Theory]].
