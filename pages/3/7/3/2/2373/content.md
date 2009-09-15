@@ -40,6 +40,12 @@
 
   * [[Trimble n-category|Trimble ∞-category]]
 
+* 1-categorical models for higher category theory
+
+  * [[model category|model category theory]]
+
+  * [[enriched category theory]]
+
 * [[higher topos theory]]
  
   * [[(∞,1)-topos]]
