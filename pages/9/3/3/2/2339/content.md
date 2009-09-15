@@ -53,7 +53,7 @@ In particular, [[elliptic cohomology]] theories give [[elliptic curve]]s over $A
 
 ##Formal group laws and Landweber's criterion##
 
-[[formal group law|Formal group law]]s over $R$ are classified by [[morphism]]s from the [[Lazard ring]] to $R$.
+[[formal group law|Formal group law]]s of dimension $1$ over $R$ are classified by [[morphism]]s from the [[Lazard ring]] to $R$.
 We can define $A_f^n(X)=MP^n(X)\otimes_{MP(\bullet)}R$.
 Here $MP$ denotes [[complex cobordism cohomology theory|complex cobordism]], in particular $MP(\bullet)$ is isomorphic to [[Lazard ring|Lazard's ring]].
 
@@ -114,23 +114,25 @@ This shows up in cohomology as Chern character.
 
 **Formal groups.**  A [[formal group]] is a group in the [[category]] of [[formal scheme]]s.
 
-A [[formal scheme]] $\hat X$ is defined for $Y \hookrightarrow X$ a closed subscheme.
-Intuitively the [[formal scheme]]  $\hat X$ is like the $\infty$-jet bundle of $Y$ inside of $X$.
+A [[formal scheme]] $\hat{Y}$ is defined for any [[closed subscheme|closed immersion}} of schemes $Y \hookrightarrow X$.
+Intuitively the [[formal scheme]] $\hat Y$ is the $\infty$-jet bundle in normal direction of $Y$ inside of $X$. 
 
-**Definition.**  The locally [[ringed space]] $\hat X$ is defined as the [[topological space]] $Y$
-with structure sheaf $\lim O_X/^n$, where $V(U)$ has underlying space $Y$.
-(Where $Y$ is a closed subscheme of $X$.)
+**Definition.**  The locally [[ringed space]] $\hat Y$ is defined as the [[topological space]] $Y$
+with structure sheaf $\lim O_X/{\mathcal I}^n$, where $\mathcal{I}$ is the defining sheaf of ideals of the closed immersion $Y\hookrightarrow X$.
+(Where $Y$ is a closed subscheme of $X$.) 
 
-**Examples.**  $X=\hat X$ when $Y=X$.  $\mathrm{Spec} k[t]=X$, $Y=V(t)$, $\hat X=k[t,t^{-1}]$.
+**Examples.**  $X=\hat Y$ when $Y=X$.  $\mathrm{Spec} k[t]=X$, $Y=V(t)$, $\hat X=k[t,t^{-1}]$.
 
-**Definition. (formal spectrum)** The [[formal spectrum]] $\mathrm{Spf} R$ of a ring $R$ with specified ideal $I \subset R$ is the locally [[ringed space]] with the underlying [[topological space]]
-being $\mathrm{Spec} R/I$ and global sections of the [[structure sheaf]] given by the [[limit]] 
+In fact not every locally noetherian formal scheme can be obtained as a completion of a single noetherian scheme in another scheme; such formal schemes are called *algebraizable*.
+
+**Definition. (formal spectrum)** The [[formal spectrum]] $\mathrm{Spf} R$ of a commutative noetherian ring $R$ with a specified ideal $I \subset R$ whose powers define a local basis of a topology around $0$ which is Hausdorff, is the locally [[ringed space]] with the underlying [[topological space]] $\mathrm{Spec} R/I$ whose global sections of the [[structure sheaf]] are the [[limit]] 
 
 $$
-  O_{\mathrm{Spf} R}(\mathrm{Spf} R)=\lim R/I^n
+  O_{\mathrm{Spf} R}(\mathrm{Spf} R)=\lim_n (R/I^n)
   \,.
 $$
 
+(This is incomplete description, one needs to talk sheaves of ideals instead)
 
 ### formal group laws from elliptic curve ###
 
