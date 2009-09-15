@@ -111,7 +111,7 @@ By regarding again a set as a [[0-category]], this is a special case of the noti
 
 A function $f : X \to Y$ determins a [[functor]] $\bar f : I \to Set$ from the [[interval category]] $I = \mathbf{2} = \{a \to b\}$ to [[Set]] by setting $\bar f(a) = X$, $\bar f(b) = Y$ and $\bar f(a \to b) = f$.
 
-Then let $cograph(f)$ be the corresponding [[category of elements]], given by the [[weak pullback]]
+Then let $cograph(f)$ be the corresponding [[category of elements]], given by the [[2-pullback]]
 
 $$
   \array{
