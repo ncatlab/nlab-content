@@ -1,3 +1,10 @@
+<div class="rightHandSide toc">
+
+[[!include higher algebra - contents]]
+
+</div>
+
+
 ## The idea ## 
 
 An **operad** is a gadget used to describe algebraic structures in [[symmetric monoidal category|symmetric monoidal categories]].  An operad is like a [[Lawvere theory]] in that it can be used to describe structures having finitary operations obeying equational laws.  However, unlike Lawvere theories, operads can be applied to general symmetric monoidal categories where the tensor product might not be the cartesian product. 
