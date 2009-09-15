@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include stable homotopy theory - contents]]
+</div>
+
+
 # Idea #
 
 A [[topological space|topological]] spectrum is an object in the universal [[stable (infinity,1)-category]] $Sp(Top) \simeq Sp(\infty Grpd)$ that "stabilizes" the [[(infinity,1)-category]] [[Top]] or $\simeq$ [[Infinity-Grpd]] of [[topological space]]s or [[infinity-groupoid]]s.
