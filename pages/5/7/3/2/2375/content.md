@@ -31,6 +31,8 @@
 
 * [[(n,r)-category]]
 
+  * [[monoidal category]]
+
   * [[(-1)-category|(-1,0)-category]]: [[truth value]]
 
   * [[(0,0)-category]]: [[set]]
@@ -42,6 +44,10 @@
   * [[(0,1)-topos]]: [[Heyting algebra]], [[locale]]
 
   * [[topos|(1,1)-topos]]: [[topos]]
+
+# Principles #
+
+* [[Eckmann-Hilton argument]], [[microcosm principle]], [[stability hypothesis]]
 
 # Extensions #
 
