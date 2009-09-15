@@ -251,17 +251,13 @@ Other standard references include:
 
 Precursors
 
-* Aristotle
-
-   * [Categories](http://ebooks.adelaide.edu.au/a/aristotle/categories/)
+* Aristotle, _[Categories](http://ebooks.adelaide.edu.au/a/aristotle/categories/)_
 
 * Kant
 
-* C.S. Peirce
+* C.S. Peirce, &ldquo;[On a New List of Categories](http://www.cspeirce.com/menu/library/bycsp/newlist/nl-frame.htm)&rdquo;
 
-   * [On a New List of Categories](http://www.cspeirce.com/menu/library/bycsp/newlist/nl-frame.htm)
-
-* Carnap
+* Carnap, _[The Logical Syntax of Language](http://books.google.com/books?id=Yf9R6WFFLhYC&printsec=frontcover)_, _cf._ &ldquo;[Functor](http://books.google.com/books?id=Yf9R6WFFLhYC&printsec=frontcover#v=onepage&q=Functor&f=false)&rdquo;
 
 #Discussion#
 
