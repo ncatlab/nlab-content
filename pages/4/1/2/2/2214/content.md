@@ -25,6 +25,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 ***
 
 ## 2009-09-15
+* [[Zoran ?koda]]: changes to [[A-infinity ring]].
 
 * [[Urs Schreiber]]: 
 
