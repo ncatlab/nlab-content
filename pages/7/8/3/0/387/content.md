@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include category theory - contents]]
+</div>
+
+
 _Homotopy coherent category theory_ or [[enriched homotopy theory]] is the attempt to understand those situations that arise in [[homotopy theory]], [[homotopical algebra]], and non-Abelian [[homological algebra]], in which quite naturally occuring diagrams are not commutative, yet are commutative 'up-to-homotopy'.
 
 If the diagram is just commutative in the [[homotopy category]], that is not much use and one can do little with it.  Surprisingly often however, the homotopies involved in such a diagram's 'almost commutative' nature can be specified, but then the question arises as to whether those homotopies form some sort of diagram, so homotopies between composite homotopies become involoved. This begins to look like parts of 2-category theory, or rather '[[higher category theory|higher weak category theory]]' and the development of homotopy coherent category theory was initiated in an attempt to merge homotopy theory with categorical tools for handling higher categories.
