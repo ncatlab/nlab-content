@@ -36,6 +36,12 @@ If you see a new citation of $n$Lab or $n$Caf&#233; material anywhere, please ad
 
   * [Comparative Smootheology](http://golem.ph.utexas.edu/category/2008/01/comparative_smootheology.html)
 
+* [[Tom Leinster]] and [[Simon Willerton]], _On the asymptotic magnitude of subsets of Euclidean space_ ([arXiv](http://arxiv.org/abs/0908.1582))
+
+  cites:
+
+  * [Metric spaces](http://golem.ph.utexas.edu/category/2008/02/metric_spaces.html)
+
 
 ## citations of documents presented at entries ##
 
