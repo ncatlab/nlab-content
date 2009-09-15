@@ -94,3 +94,5 @@ is a homotopy pullback square if the induced morphism from $W$ to the strict hom
 # Fibration sequences #
 
 Of particular interest are
+
+[[!redirects homotopy pullbacks]]
