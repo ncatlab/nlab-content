@@ -1,3 +1,13 @@
+<div class="rightHandSide toc">
+
+[[!include stable homotopy theory - contents]]
+
+***
+
+[[!include higher algebra - contents]]
+</div>
+
+
 
 The [[smash product]] of [[pointed object|pointed]] [[topological space]]s generalizes to [[spectrum|spectra]].
 
