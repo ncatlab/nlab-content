@@ -4,7 +4,7 @@ One would like to have symmetry objects like [[algebraic group]]s and [[Lie alge
 
 ##Main characters##
 
-Here one should write about quantum groups (Drinfeld, Manin, Woronowicz, Jimbo, Lusztig, Faddeev-Reshetikin-Tahtajan, Majid), Hopf algebras, Hopf algebroids (quantum groupoids), quantum Lie algebras, entwining/distributive laws, quantum flag varieties, (co)module (co)algebras, quantum principal bundles, associated bundles, Drinfel'd center, equivariant cyclic homology etc.
+Here one should write about [[quantum groups]] (Drinfeld, Manin, Woronowicz, Jimbo, Lusztig, Faddeev-Reshetikin-Tahtajan, Majid), [[Hopf algebras]], Hopf algebroids (quantum groupoids), quantum Lie algebras, entwinings/[[distributive law]]s, quantum flag varieties, (co)module (co)algebras, quantum principal bundles, associated bundles, Drinfel'd center, equivariant cyclic homology etc.
 
 ##Literature##
 
