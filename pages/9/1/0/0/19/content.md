@@ -253,7 +253,7 @@ Precursors
 
 * Aristotle
 
-   * Categories
+   * [Categories](http://ebooks.adelaide.edu.au/a/aristotle/categories/)
 
 * Kant
 
