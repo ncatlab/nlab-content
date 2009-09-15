@@ -4,17 +4,6 @@ _Relations have types._<br>
 _Types are functions._<br>
 _Functions are relations._
 
-+-- {: .query}
-Types are functions?  ---TB
-
-The type of a $k$-adic relation arrow $f$ in a relation category $C$ is its sequence of domains $(dom_1 f, \ldots, dom_k f)$, in other words, the function $\mathop{type}_f : [1, k] \to \mathop{Obj}(C)$ defined by $\mathop{type}_f j = \mathop{dom}_j f$.  ---[[JA]]
-
-OK, I see!  That reminds me of my favourite loop of incompatible interpretations:  A function is a kind of relation, a relation is a subset of a cartesian product, a cartesian product is a set of ordered tuples (finite sequences as above), and an ordered tuple is a kind of function.  Through this loop, $(1,1)$ (for example) belongs to itself!  Another one, which you noticed [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=71), is that a function is is a kind of relation, a relation is a kind of subset, and a subset is a kind of function.  In fact, a subset is a kind of function in two different ways (an inclusion function and a characteristic function), neither of which matches the original function in this loop.  ---TB
-
-[[JA]]:  There is a related discussion on [Pragmatics Of Context](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=71) that continues in the Forum.
-
-=--
-
 ## Idea ##
 
 To the best of my re\*collection, it went a bit like this:
@@ -203,6 +192,18 @@ A more conceptual than nominal variation depends on whether one uses terms like 
 ## Discussion ##
 
 JA = [[Jon Awbrey]], TB = [[Toby Bartels]]
+
+### Re: Slogan ###
+
+TB: Types are functions?
+
+JA: The type of a $k$-adic relation arrow $f$ in a relation category $C$ is its sequence of domains $(dom_1 f, \ldots, dom_k f)$, in other words, the function $\mathop{type}_f : [1, k] \to \mathop{Obj}(C)$ defined by $\mathop{type}_f j = \mathop{dom}_j f$.
+
+TB: OK, I see!  That reminds me of my favourite loop of incompatible interpretations:  A function is a kind of relation, a relation is a subset of a cartesian product, a cartesian product is a set of ordered tuples (finite sequences as above), and an ordered tuple is a kind of function.  Through this loop, $(1,1)$ (for example) belongs to itself!  Another one, which you noticed [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=71), is that a function is is a kind of relation, a relation is a kind of subset, and a subset is a kind of function.  In fact, a subset is a kind of function in two different ways (an inclusion function and a characteristic function), neither of which matches the original function in this loop.
+
+JA: There is a related discussion on the [Pragmatics of Context](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=71) that continues in the Forum.
+
+JA: We shouldn't forget to observe that _to be_ and _to have_ are not the same question --- Ay! there's the twist in the M&#246;bius strip.
 
 ### Re: Idea ###
 
