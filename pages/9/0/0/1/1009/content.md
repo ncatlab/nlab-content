@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include physicscontents]]
+</div>
+
+
 What is called the _AKSZ formalism_ -- after the initials of its four authors -- Alexandrov, [[Maxim Kontsevich|Kontsevich]], Schwarz, Zaborosnky -- is a a special technique for constructing [[path integral|action functional]]s  in [[gauge theory]].
 
 More precisely, it is a method for constructing a [[BV theory|BV Laplacian]] for a [[sigma-model]] with a given symplectic [[NQ-supermanifold]] $X$ target space which describes a generalization of the [[Poisson sigma-model]]. 
@@ -30,6 +35,6 @@ Dmitry Roytenberg's useful review of the original work:
 
 A cohomological reduction of the formalism is described in 
 
-* F. Bonechi, P. Mn&#235;v, M. Zabzine, _Finite dimensional AKSZ-BV-theories_ ([arXiv](http://arxiv.org/abs/0903.0995))
+* F. Bonechi, P. Mn&euml;v, M. Zabzine, _Finite dimensional AKSZ-BV-theories_ ([arXiv](http://arxiv.org/abs/0903.0995))
 
 
