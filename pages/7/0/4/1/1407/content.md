@@ -1,3 +1,7 @@
+<div class="rightHandSide toc">
+[[!include physicscontents]]
+</div>
+
 
 #Idea#
 
@@ -32,7 +36,7 @@ These aspects have motivated the impression that the string perturbation series 
 
 * while the worldsheet 2-d QFT whose correlators are summed over surfaces are themselves much easier to handle than the full target space quantum physics they are used to encode, a fully complete and rigorous theory of 2d QFT is available only in simple special cases. 
 
-* In particular, even though there are fewer arbitrary choices involved in the string perturbation series as compared to the ordinary Feynman perturbation series, one crucial choice still present is that of this wordlsheet 2d QFT. By the above, every choice of worlsheet QFT (called a choice of "vacuum") corresponds to a choice of effective target space geometry (to be thought of as the one that the perturbation series computes the quantum perturbations about) and particle content (see [[2-spectral triple]] for more on that). One would therefore like to understand the space of all worldsheet QFTs whose effective target space geometry and particle content is close to the one experimentally observed. After many years of rather na&#239;ve approaches to handle or not to handle this, it has more recently at least come to the general attention that there is something to be better understood here.
+* In particular, even though there are fewer arbitrary choices involved in the string perturbation series as compared to the ordinary Feynman perturbation series, one crucial choice still present is that of this wordlsheet 2d QFT. By the above, every choice of worlsheet QFT (called a choice of "vacuum") corresponds to a choice of effective target space geometry (to be thought of as the one that the perturbation series computes the quantum perturbations about) and particle content (see [[2-spectral triple]] for more on that). One would therefore like to understand the space of all worldsheet QFTs whose effective target space geometry and particle content is close to the one experimentally observed. After many years of rather na&iuml;ve approaches to handle or not to handle this, it has more recently at least come to the general attention that there is something to be better understood here.
 
 * More fundamentally, already the role of the original perturbation series in quantum field theory is actually not fully understood. It's main success is the observation that truncating or resumming the perturbation series in a more or less ad hoc way, it does yield values that very well describe a plethora of real world measurements.  One imagines that there is a _non-perturbative_ definition of [[quantum field theory]] such that under certain well-defined circumstances the perturbation series does yield an approximation to it and is _a posteriori_ justified by. If so, there should be an analogous nonperturbative definition of string theory. There is a large ratio of speculations on what that might be over solid results about it.
 
@@ -54,6 +58,14 @@ The standard literature on string theory is nowhere close to what we would usual
 
 * [[generalized complex geometry]]
 
-* etc. 
+* [[quantum anomaly]] canellation [[Green-Schwarz mechanism]] 
+
+  * [[Spin structure]]
+
+  * [[String structure]]
+
+  * [[Fivebrane structure]]
+
+* etc.
 
 The question is what the formalism might be that unifies all this into one coherent theory of higher quantum field theory.
