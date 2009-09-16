@@ -10,7 +10,7 @@ The original idea, due to Carboni and Walters, clearly envisioned these various 
 
 Note: All compositions will be written in the traditional order, in which application proceeds from right to left. 
 
-We work with familiar notions of the theory of bicategories (which for reasons of consonance we also call 2-categories) but in some cases under new names. We calculate with pasting diagrams in 2-categories as if they were strict 2-categories. 
+We work with familiar notions of the theory of bicategories (which, for reasons of consonance with 2-terminology, we also call 2-categories) but in some cases under new names. We calculate with pasting diagrams in 2-categories as if they were strict 2-categories. 
 
 Our notion of morphism between 2-categories has gone under various names: "homomorphism" in the sense of B&#233;nabou, also known as "pseudofunctor" or weak 2-functor, where the structural constraints are isomorphisms. Here they are simply called **2-functors**. 
 
@@ -30,6 +30,8 @@ There is a well-known notion of morphism between transformation which has been c
 
 Given 2-categories $B$ and $C$, we have then a 2-category of 2-functors, strong transformations and modifications from $B$ to $C$; this will be denoted $Hom_s(B, C)$. We have also the 2-category of 2-functors, transformations, and modifications; this will be denoted $Hom_l(B, C)$. 
 
+#### 2-adjunctions 
+
 A **2-adjunction** $F \dashv G$ consists of 2-functors $F: B \to C$, $G: C \to B$, and an adjoint equivalence 
 
 $$C(F -, -) \simeq B(-, G -)$$ 
@@ -38,7 +40,7 @@ in the 2-category $Hom_s(B^{op} \times C, Cat)$. In more elementary terms, the d
 
 $$\eta: 1_B \to G F \qquad \varepsilon: F G \to 1_C$$ 
 
-and invertible modifications 
+and invertible modifications (called _triangulators_) 
 
 $$\array{
 G & \overset{\eta G}{\to} & G F G & & & & F & \overset{F\eta}{\to} & F G F\\ 
@@ -46,13 +48,13 @@ G & \overset{\eta G}{\to} & G F G & & & & F & \overset{F\eta}{\to} & F G F\\
 G & \underset{1_G}{\to} & G & & & & F & \underset{1_F}{\to} & F
 }$$
 
-such that the triangulator coherence conditions hold: there are pasting diagram equalities 
+such that the _triangulator coherence conditions_ hold: there are pasting diagram equalities 
 
 $$\array{
 1_B & \overset{\eta}{\to} & G F & \overset{1_{G F}}{\to} & G F\\
 \eta \downarrow & \overset{\eta \cdot \eta}{\Rightarrow} & \downarrow G F \eta & & \downarrow 1_{G F}\\ 
-G F & \underset{\eta G F}{\to} G F G F & \Rightarrow & G F\\
-1_{G F} \downarrow & \Rightarrow & & \searrow G \varepsilon & & \downarrow 1_{G F} \\
+G F & \underset{\eta G F}{\to} & G F G F & \Rightarrow & G F\\
+1_{G F} \downarrow & & \Rightarrow & & \searrow G \varepsilon & \downarrow 1_{G F} \\
 G F & \underset{1_{G F}}{\to} & G F \underset{1_{G F}}{\to} & G F 
 }$$
 
@@ -60,6 +62,8 @@ $\, $
 
 $$\array{
 }$$
+
+#### Lax adjunctions
 
 A **lax** adjunction is defined in the same way as a 2-adjunction, except that we relax (remove) the assumptions that $\eta$ and $\varepsilon$ are strong and that $s$, $t$ are invertible; the triangulator coherence conditions are still in effect. In that case, for objects $b$ of $B$ and $c$ of $C$, there is a local adjunction between hom-categories 
 
@@ -81,9 +85,11 @@ F b & \overset{F \eta b}{\to} & F G F b & \overset{F G f}{\to} & F G c\\
 F b & \underset{1_{F b}}{\to} & F b & \underset{f}{\to} & c
 }$$
 
-The triangular equations for $L \dashv R$ follow from the triangulator coherence conditions. (Warning: it is not generally true that a lax adjunction induces an adjoint pair in $Hom_l(B^{op} \times C, Cat)$.) 
+The triangular equations for $L \dashv R$ follow from the triangulator coherence conditions. (Warning: it is not generally true that a lax adjunction induces an adjoint pair in $Hom_l(B^{op} \times C, Cat)$. Cf. lemma 1 below.) 
 
-Let $B$ be a 2-category. By definition, a *map* in $B$ is a 1-cell in $B$ that possesses a right adjoint. It is useful to think of them as playing the role of "functional relations" in an ambient 2-category of relations. We let $Map(B)$ be the locally full sub-2-category whose 0-cells are those of $B$ and whose 1-cells are the maps in $B$. We observe that every 2-functor $F: B \to C$ restricts to a 2-functor $F|: Map(B) \to Map(C)$, and by the following proposition, every transformation $\theta: F \to G$ restricts to a strong transformation $\theta$ in $Hom_s(Map(B), C)$: 
+#### The 2-category $Map(B)$ 
+
+Let $B$ be a 2-category. Following Carboni and Walters, we define a *map* in $B$ to be a 1-cell in $B$ that possesses a right adjoint. It is useful to think of them as playing the role of "functional relations" in an ambient 2-category of relations. We let $Map(B)$ be the locally full sub-2-category whose 0-cells are those of $B$ and whose 1-cells are the maps in $B$. We observe that every 2-functor $F: B \to C$ restricts to a 2-functor $F|: Map(B) \to Map(C)$, and by the following proposition, every transformation $\theta: F \to G$ restricts to a strong transformation $\theta$ in $Hom_s(Map(B), C)$: 
 
 **Proposition 1:** If $f: b \to c$ is a map in $B$, then $\theta \cdot f$ is invertible. 
 
@@ -99,7 +105,7 @@ pastes to give the inverse $(\theta \cdot f)^{-1}$, where the left and right squ
 
 A transformation $\theta: F \to G: B \to C$ is **map-valued** if each 1-cell $\theta b$ is a map in $C$. By the previous proposition, a map-valued transformation $\theta$ in $Hom_l(B, C)$ restricts to a strong transformation $\theta|: F| \to G|$ in $Hom_s(Map(B), Map(C))$. 
 
-## Definition of cartesian bicategory 
+## Definition of cartesian structure and basic results 
 
 A **cartesian structure** on a bicategory $B$ consists of the following data: 
 
@@ -125,7 +131,87 @@ $\, $
 
 $$(Map(B) \overset{!}{\to} \mathbf{1}) \dashv (\mathbf{1} \overset{I}{\to} Map(B))$$ 
 
-so that $\otimes$ is a _2-product_ on $Map(B)$ and $I$ is 2-terminal in $Map(B)$. Naturally this finite 2-product structure on $Map(B)$ is property-like: is uniquely determined up to equivalence which is unique up to unique isomorphism. 
+making the restriction of $\otimes$ to $Map(B)$ a _2-product_ on $Map(B)$ with 2-terminal object $I$. Naturally this finite 2-product structure on $Map(B)$ is property-like: is uniquely determined up to equivalence which is uniquely specified up to unique isomorphism. 
 
-A little later we will argue that cartesian structure on the full bicategory $B$ is also property-like; the main thing is to see the manner in which $\otimes$ acts on 1-cells is forced. However, it is not too difficult to argue that cartesian structure $B$ makes $B$ a symmetric monoidal bicategory  
+A little later we will argue that cartesian structure on the full bicategory $B$ is also property-like; the main thing is to see that the way in which $\otimes$ acts on 1-cells is essentially uniquely determined. 
+
+#### Symmetric monoidal structure via cartesian structure 
+
+We now argue that a cartesian bicategory $B$ carries a symmetric monoidal structure whose tensor product is 
+
+$$\otimes: B \times B \to B$$ 
+
+The proof is pretty easy to sketch, once the fact is admitted that the induced 2-product structure makes $Map(B)$ a symmetric monoidal bicategory. This fact about 2-products, while never in dispute, was given a complete proof only in the past few years by the late Max Kelly, and we freely take advantage of it below. 
+
+First, given objects $a, b, c$ of $B$, we may regard them as objects of $Map(B)$, where there is an associativity constraint 
+
+$$\alpha_{a, b, c}: (a \otimes b) \otimes c \to a \otimes (b \otimes c)$$ 
+
+on $Map(B)$ which is definable by exploiting 2-universal properties of the 2-product. The associativity thus has an expression in terms of $\otimes$, $\delta$, and $\pi$ which are globally defined on $B$, hence $\alpha$ is globally defined as a transformation on $B$. By similar considerations, the symmetry and unit constraints on $Map(B)$ also extend to globally defined transformations on $B$. We argue in a moment that these constraints are strong (adjoint) equivalences. 
+
+Symmetric monoidal structure on $B$ also demands various structural modifications (such as a Yang-Baxter modification $R_{\bullet |\bullet, \bullet}$) satisfying various coherence conditions, but the components of such modifications ($R_{a|b, c}$, say) are defined by regarding their components $a, b, c$ as objects of $Map(B)$ and using the corresponding modifications there. Again, each such modification on $Map(B)$ is defined in terms of 2-adjunction data $\otimes$, $I$, $\delta$, $\pi$, $\varepsilon$, $s$, $t$, $u$ which are globally defined on $B$, so each such structure is a modification on $B$. Various coherence conditions on the modifications must be checked, but the conditions hold at every choice of objects of $B$ by regarding them as objects of $Map(B)$ and using the symmetric monoidal structure there, so the conditions hold on $B$. 
+
+Now we check that the structural transformations $\alpha$ are strong adjoint equivalences. Indeed, when regarded as being defined on $Map(B)$, the constraint $\alpha$ is an equivalence and so has a left adjoint (with invertible unit and counit) $\alpha^-$ with components 
+
+$$\alpha_{a, b, c}^{-}: a \otimes (b \otimes c) \to (a \otimes b) \otimes c$$ 
+
+and just like $\alpha$, $\alpha^-$ is definable in terms of global structure on $B$, making $\alpha^-$ a transformation on $B$. Then $\alpha$, and by similar reasoning the symmetry and unit constraints, are strong transformations on $B$ by the following lemma: 
+
+**Lemma 1:** If $\alpha$ is a right adjoint in $Hom_l(C, B)$, then the transformation $\alpha$ is strong. Consequently, if $\alpha^- \dashv \alpha$ is an adjoint equivalence, so that both $\alpha^- \dashv \alpha$ and $\alpha \dashv \alpha^-$, then $\alpha^- \dashv \alpha$ is a strong adjoint equivalence in $Hom_s(C, B)$. 
+
+**Proof:** Only the first statement requires proof. Given $r: c \to d$ in $C$, let $ev_c: Hom_l(C, B) \to B$ denote the 2-functor which evaluates at $c$ (keep in mind that the 1-cells in $Hom_l(C, B)$ are transformations which are oplax in the sense of B&#233;nabou), and let $ev_r: ev_c \to ev_d$ denote the evident transformation; this is _lax_ in the sense of B&#233;nabou. Then, by dualizing proposition 1, $ev_r(\alpha) = \alpha \cdot r$ is an isomorphism if $\alpha$ is a _right_ adjoint. Since $\alpha \cdot r$ is an isomorphism for all 1-cells $r$ in $C$, it follows that $\alpha$ is strong. $\Box$ 
+
+This completes the argument that the symmetric monoidal structure on $Map(B)$ extends to $B$. 
+
+#### Comparison with Carboni-Walters 
+
+Let us begin unpacking the terse definition of cartesian bicategory so that it becomes more recognizable. For the sake of notational convenience, we use the fact that as a monoidal bicategory, a cartesian bicategory may be strictified and replaced by a (monoidally biequivalent) $Gray$ monoid $B$. That is to say, if $\otimes_G$ denotes the tensor product of the symmetric monoidal closed category $Gray$, then there is firstly a biequivalence $B \times B \simeq B \otimes_G$, and we may transfer the data of the cartesian structure across this biequivalence to get a $Gray$ monoid multiplication 
+
+$$\otimes: B \otimes_G B \to B$$ 
+
+together with a corresponding diagonal 
+
+$$B \overset{\Delta}{\to} B \times B \simeq B \otimes_G B$$ 
+
+which we again denote by $\Delta$. In that case, given a 1-cell $r: a \to b$ in $B$, we may write structure cells $\delta \cdot r$ for the transformation $\delta: 1_B \to \otimes \Delta$ in the form 
+
+$$\array{
+a & \overset{\delta a}{\to} & a \otimes a\\
+r \downarrow & \overset{\delta \cdot r}{\Rightarrow} & \downarrow r \otimes r\\
+b & \underset{\delta b}{\to} & b \otimes b
+}$$
+
+where to be definite we make the convention that $r \otimes r := (r \otimes 1)(1 \otimes r)$. 
+
+An object $c$ of $B$, viewed as an object of a 2-category $Map(B)$ with 2-products, naturally carries a 2-comonoid (or pseudocomonoid) structure; the unit of the 2-adjunction $\Delta \dashv \otimes$ is the diagonal map 
+
+$$\delta c: c \to c \otimes c,$$
+
+i.e., the 2-comonoid comultiplication. The unit of the 2-adjunction $! \dashv I$ is the projection to the 2-terminal object
+
+$$\varepsilon c: c \to I,$$ 
+
+i.e., the 2-comonoid counit. (It is more usual to denote a (2-)terminal object by the symbol $1$, and from here on we will follow that practice, writing the projection as $\varepsilon c: c \to 1$, and forget $I$.) Finally, for a given 1-cell $r: c \to d$ in $B$, the structure cells 
+
+$$\array{
+c & \overset{\delta c}{\to} & c \otimes c & & & & c & \overset{\varepsilon c}{\to} & 1\\
+r \downarrow & \overset{\delta \cdot r}{\Rightarrow} & \downarrow r \otimes r & & & & r \downarrow & \overset{\varepsilon \cdot r}{\to} & \downarrow id_1\\
+d & \underset{\delta d}{\to} & d \otimes d & & & & d & \underset{\varepsilon d}{\to} & 1
+}$$
+
+exhibit $r: c \to d$ as a colax morphism of 2-comonoids; if $r$ is a map, then $\delta \cdot r$ and $\varepsilon \cdot r$ are isomorphisms and $r$ becomes a strong morphism of 2-comonoids. This may be appreciated more fully by considering specific examples such as $B = Rel$ (where maps are functions, which become comonoid morphisms by virtue of naturality of diagonal and projection maps), and $B = Mod$. 
+
+Carboni and Walters define a cartesian bicategory to be a symmetric monoidal bicategory in which each object carries a 2-comonoid structure (for which the comultiplication and counit are _maps_), and each 1-cell is a colax morphism between the corresponding comonoid structures. However, spelling this approach out in full detail leads to a rather largish definition; it seems more efficient to approach the definition by taking advantage of some high-level 2-categorical algebra as we have done here, and deriving the structures envisaged by Carboni and Walters as a consequence. 
+
+#### Local cartesian structure 
+
+The definition of cartesian structure _a fortiori_ involves _lax_ adjunctions (in the sense explained earlier) 
+
+$$\Delta \dashv_{lax} \otimes: B \times B \to B \qquad ! \dashv_{lax} I: \mathbf{1} \to B$$ 
+
+and by our earlier discussion of lax adjunctions, this means we have local 1-adjunctions of the form 
+
+$$(B(a, b \otimes c) \to (B \times B)(\langle a, a \rangle, \langle b, c \rangle)) \dashv (B \times B)(\langle a, a \rangle, \langle b, c \rangle)) \to B(a, b \otimes c))$$
+
+However, it is not too difficult to argue that cartesian structure $B$ makes $B$ a symmetric monoidal bicategory  
 
