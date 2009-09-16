@@ -7,20 +7,20 @@
 #Idea#
 
 +-- {: .un_remark}
-#### Origin ####
+###### Origin ####
 Category theory was introduced by [[Samuel Eilenberg]] and [[Saunders Mac Lane]] in the 1945 paper **General theory of natural equivalences**. The reason for introducing [[category|categories]] was to introduce [[functor]]s, and the reason for introducing functors was to introduce [[natural transformation]]s (more specifically natural equivalences) in order to define what _natural_ means in mathematics. 
 
 The paper was a clash of ideas from abstract [[algebra]] (Mac Lane) and [[topology]]/[[homotopy theory]] (Eilenberg). It was first rejected on the ground that it had no content but was later published. Unexpectedly category theory has flourished into almost all areas of mathematics, has found many applications outside mathematics and even attempts to build a [[foundations]] of mathematics. 
 =--
 
 +-- {: .un_remark}
-#### Paradigm ####
+###### Paradigm ####
 The basic idea of category theory is to shift attention from the study of [[object]]s to the study of _maps_ or _relations_ between objects: of (homo)[[morphism]]s between objects. 
 =--
 
 
 +-- {: .un_remark}
-#### Examples ####
+###### Examples ####
 The archetypical example of a category is the category [[Set]] of [[set]]s and functions between sets. 
 
 The classical examples of categories are [[concrete category|concrete categories]] whose [[object]]s are [[stuff, structure, property|sets with extra structure]] and whose [[morphism]]s are structure preserving functions of sets, such as [[Top]], [[Grp]], [[Vect]].  These are the examples from which the term _category_ derives: these categories literally _categorize_ mathematical structures by packing structures of the same _type_ (same category) and structure preserving mappings between them into a single whole structure, a category.
@@ -31,13 +31,13 @@ Archetypical examples of non-[[concrete category|concrete]] categories are the [
 =--
 
 +-- {: .un_remark}
-#### Category theory pointing beyond itself ####
+###### Category theory pointing beyond itself ####
 These latter examples already pave the way to the [[homotopy hypothesis]], to the unification between category theory and [[homotopy theory]] in [[Higher Topos Theory|(∞,1)-category theory]] and thereby to [[higher category theory]]. 
 =--
 
 
 +-- {: .un_remark}
-#### Terminology ####
+###### Terminology ####
 
 Categories were named after the examples of [[concrete category|concrete categories]]. As [[Saunders Mac Lane]] writes
 
@@ -45,7 +45,11 @@ Categories were named after the examples of [[concrete category|concrete categor
 
 >([[Saunders Mac Lane]], [[Categories Work|Categories for the Working Mathematician]], 29&#8211;30).
 
-However, the [[category|categories]] of category theory are way more general than these [[concrete category|concrete categories]] and the way Aristotle and Kant use the term is more related to what nowadays is called "type" in [[type theory]].
+However, the [[category|categories]] of category theory are way more general than these [[concrete category|concrete categories]], and the way Aristotle and Kant use the term is not particularly related to what Eilenberg & Mac Lane did with it.
+
++-- {: .query}
+I removed the refernce to type theory in the last paragraph, since I was probably the source for it, and it goes beyond what I meant to say or what I think is justified.  ---Toby
+=--
 
 =--
 
@@ -53,12 +57,12 @@ However, the [[category|categories]] of category theory are way more general tha
 
 
 +-- {: .un_remark}
-#### Conceptual unification ####
+###### Conceptual unification ####
 One major driving force behind the development of category theory is its ability to abstract and unify concepts. General statements about categories apply to each specific [[concrete category]] of mathematical structures. The general notion of [[universal construction]]s in categories, such as [[representable functor]]s, [[adjoint functor]]s  and [[limit]]s, turns out to prevail throughout mathematics and manifest itself in myriads of special examples.
 =--
 
 +-- {: .un_remark}
-#### Abstract nonsense ####
+###### Abstract nonsense ####
 
 This abstraction power of category theory has led Norman Steenrod to coin the term _abstract nonsense_ or _general abstract nonsense_ for it. It is being used as in "This property is not specific to this context, it already follows from general abstract nonsense". Peter Freyd expressed a similar feeling by his witticism: 
 
@@ -249,7 +253,7 @@ Other standard references include:
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ [free online] (http://www-math.mit.edu/~lurie/papers/highertopoi.pdf)
 * Project description: higher categorical structures and their applications [free online] (http://www.math.uchicago.edu/~may/NCATS/ForWeb.pdf)
 
-Precursors
+## Etymology
 
 * Aristotle, _[Categories](http://ebooks.adelaide.edu.au/a/aristotle/categories/)_
 
@@ -264,6 +268,10 @@ Precursors
 [[Todd Trimble]]: Can I ask what you mean when you call these "precursors"?
 
 [[JA]]:  Anticipations, 4-runners, 4-shadowings, philosophical underpinnings &hellip;
+
+_Toby_:  If I may presume to translate Todd\'s question for him:  Why do you think that Aristotle, Kant, Peirce, and Carnap are precursors, anticipations, forerunners, foreshadowings, or philosophical underpinnings of category theory?  The only thing that I can think of myself is that Eilenberg & Mac Lane borrowed the term 'category' from Aristotle & Kant and borrowed the term 'functor' from Carnap.  Otherwise, I do not see any connection.
+
+However, I don\'t object to this list; it might or might not work better on a separate page (although it\'s short enough that it fits here well enough).  I just changed its heading to something that seems more appropriate to me.
 
 =--
 
