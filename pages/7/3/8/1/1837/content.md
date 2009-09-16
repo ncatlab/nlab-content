@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include physicscontents]]
+</div>
+
+
 
 # Idea #
 
