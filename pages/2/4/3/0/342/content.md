@@ -4,9 +4,55 @@
 [[!include higher category theory - contents]]
 </div>
 
+#Idea#
+
+An $(n,r)$-category is a [[higher category theory|higher category]] such that, essentially:
+
+* all [[k-morphism]]s for $k \gt n$ are trivial.
+
+* all [[k-morphism]]s for $k \gt r$ are reversible.
+
+So $(n,r)$-categories are a generalisation of both $n$-[[n-category|categories]] and $n$-[[n-groupoid|groupoids]], covering all of the ground in between (and a bit beyond). As $n$ increases, there are many more possibilities, until there are infinitely many kinds of $(\infty,r)$-[[(infinity,n)-category|categories]].
+
+In particular an [[(∞,0)-category]] is an [[∞-groupoid]]. In light of the [[homotopy hypothesis]] that identifies $\infty$-groupoids with (nice) [[topological space]]s and hence [[n-groupoid]]s with [[homotopy n-type]]s, and in view of the notion of [[directed space]], the following terminology is suggestive:
+
++-- {: .standout}
+
+An $(n,r)$-category is an $r$-directed $n$-type.
+
+=--
+
+Here we read 
+
+* _$0$-directed_ as _undirected_
+
+and
+
+* _$1$-directed_ as _directed_ .
+
+Then, indeed, we have for instance that
+
+* a [[(1,0)-category]] is an undirected 1-type: a 1-[[groupoid]],
+
+* a [[(n,r)-category|(2,0)-category]] is an undirected 2-type: a [[2-groupoid]],
+
+* etc.
+
+* a [[(n,n)-category|(1,1)-category]] is **directed 1-type** : a [[category]],
+
+* an [[(n,n)-category]] is an $n$-directed $n$-type: an [[n-category]],
+
+* etc.
+
+* an [[(∞,0)-category]] is an undirected space: an [[infinity-groupoid]],
+
+* an [[(∞,1)-category]] is a [[directed space]]: a [[quasi-category]],
+
+* an [[(∞,n)-category]] is an $n$-directed space
+
+* etc.
 
 
-$(n,r)$-categories are a generalisation of both $n$-[[n-category|categories]] and $n$-[[n-groupoid|groupoids]], covering all of the ground in between (and a bit beyond). As $n$ increases, there are many more possibilities, until there are infinitely many kinds of $(\infty,r)$-[[(infinity,n)-category|categories]].
 
 # Definition
 
