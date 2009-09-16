@@ -31,3 +31,8 @@ $$
 $$
 
 Note that this definition actually makes sense in any category $E$ having finite [[product]]s.  However, if $E$ is not [[cartesian closed category|cartesian closed]], then it is better to explicitly assume a stronger version of this definition "with parameters" (which follows automatically when $E$ is cartesian closed, such as a topos).
+
+[[!redirects natural numbers objects]]
+[[!redirects natural number object]]
+[[!redirects natural number objects]]
+[[!redirects NNO]]
