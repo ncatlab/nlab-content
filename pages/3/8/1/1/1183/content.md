@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include physicscontents]]
+</div>
+
+
 #Idea#
 
 A _$\sigma$-model_ is a [[quantum field theory]]  which is induced from a _target space_ that carries some geometric structure, usually that of an [[schreiber:Differential Nonabelian Cohomology|n-bundle with connection]] representing a gauge background field.
