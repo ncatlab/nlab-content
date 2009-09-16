@@ -17,3 +17,5 @@ A [[presheaf]] $A \in PSh(S)$ with respect to some [[site]] $S$ is **separated**
 Recall that a [[sheaf]] on $S$ is a presheaf $A$ such that for all local isomorphisms $Y \to X$ the induced morphism is an *[[isomorphism]]*.  So a separated presheaf is close to being a sheaf, but not necessarily quite there. 
 
 As with sheaves, it is sufficient to check only the [[dense monomorphism]]s instead of all local isomorphisms.  This is equivalent to checking [[cover]]ing [[sieve]]s.
+
+[[!redirects monopresheaf]]
