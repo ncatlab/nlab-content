@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include physicscontents]]
+</div>
+
+
 ##Idea##
 
 Models of theoretical [[physics]] are often given in the form of equations. Informally integrability is the property of a concrete model which enables one to solve these equations in a closed form, or in quadratures (expressing in terms of ordinary integrals). 
