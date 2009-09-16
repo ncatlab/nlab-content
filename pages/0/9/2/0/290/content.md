@@ -1,3 +1,7 @@
+<div class="rightHandSide toc">
+[[!include physicscontents]]
+</div>
+
 
 #Higher categories in quantum field theory#
 
