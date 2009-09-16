@@ -26,6 +26,15 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 
 ## 2009-09-16
+
+* [[Urs Schreiber]]: 
+
+  * created stub for [[(infinity,1)-operad]]
+
+  * added one and updated and commented another reference at [[Jacob Lurie]]
+
+  * am proposing an expanded introduction and a supposedly suggestive **slogan** at [[(n,r)-category]] -- check and see what you think
+
 * [[Zoran ?koda]]: created [[Q-category]] (clearly unfinished; e.g. somebody could type the cosieve and Grothendieck topology-induced $Q^\circ$-categories and $Q$-categories of thickenings from Kontsevich-Rosenberg preprint as examples), [[wave]], [[epipresheaf]]. New remark at [[formally smooth scheme]]. Updates to [[algebra]], [[mathematicscontents]] and to the discussion at [[classical mechanics]].
 
 * [[Urs Schreiber]] created entry for [[Constantin Teleman]]
