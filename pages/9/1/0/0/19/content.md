@@ -279,7 +279,16 @@ _Todd_: Yes, I thought what Jon wrote might have been what he had in mind (but I
 
 _Todd_: It's clear enough (especially in view of examples of 'large categories' which consist of various species of structured sets) that "categories" was not an altogether inappropriate choice of word, but that's speaking at a pretty broad philosophical level. The more specific sense of category as involving morphisms and their compositional algebra is a different matter. It's not clear (to me, yet) that the germ of any such sense can be traced to any of the aforementioned authors; IMO a more convincing precursor in this wise might be Klein's Erlangen Program. 
 
-As for "functor": it's even less clear to me that there was any tight connection in Mac Lane's mind between Carnap's use and his (Mac Lane's) own appropriation. I suspect that it was meant more to conjure an association with "function" than with Carnap particularly. 
+As for "functor": it's even less clear to me that there was any tight connection in Mac Lane's mind between Carnap's use and his (Mac Lane's) own appropriation. I suspect that it was meant more to conjure an association with "function" than with Carnap particularly.
+
+[[JA]]: Brother, can you paradigm ...
+
+> __Paradigm.__  The basic idea of category theory is to shift attention from the study of [[object]]s to the study of _maps_ or _relations_ between objects: of (homo)[[morphism]]s between objects.
+
+See also:
+
+1. Aristotle's "[Paradeigma](http://mywikibiz.com/Inquiry#Analogy)", or reasoning by analogy.  Analogies and metaphors are kissing cousins to morphisms.
+1. Peirce's "[Pragmatic Maxim](http://knol.google.com/k/jon-awbrey/pragmatic-maxim/3fkwvf69kridz/6)", which has to do with clarifying concepts by translating them into their operational meanings.
 
 =--
 
