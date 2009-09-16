@@ -24,6 +24,9 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ***
 ## 2009-09-15
+
+* [[Mike Shulman]]: Motivated by recent discussions on the cafe, created [[SEAR]], which has been kicking around in my head for quite some time.
+
 * [[Zoran ?koda]]: created [[compact-open topology]].
 
 ## 2009-09-15
