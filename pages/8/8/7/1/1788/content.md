@@ -8,11 +8,46 @@ Every wiki needs a sandbox! Just test _below_ and don't worry about messing thin
 
 ***
 
-Does it help any to have a local copy?
+Does it help to upload local copies?
 
 [[Rooted_Node.jpg|Rooted Node:pic]]
 
 [[Rooted_Edge.jpg|Rooted Edge:pic]]
+
+<center>
+<img alt="Rooted Node" src="/nlab/files/Rooted_Node.jpg" width="20" height="10" />
+<img alt="Rooted Edge" src="/nlab/files/Rooted_Edge.jpg" width="20" height="51" />
+</center>
+
+***
+
+Cactus Graphs Local, Other Images Remote ---
+
+<table align="center" border="1" cellpadding="8" cellspacing="0" style="text-align:center; width:90%">
+<caption> <img class='tex' src="http://mywikibiz.com/images/math/4/b/7/4b714e121dcb7e880367b3c348294e1f.png" alt="\text{Table 1.}~~\text{Syntax and Semantics of a Calculus for Propositional Logic}" />
+</caption>
+
+<tr style="background:#f0f0ff">
+<td> <img class='tex' src="http://mywikibiz.com/images/math/c/f/8/cf8355a1bf9b6821ed2c15658060d349.png" alt="\text{Graph}\!" />
+</td><td> <img class='tex' src="http://mywikibiz.com/images/math/0/2/b/02ba04972afebb8d123c4e920909b8fb.png" alt="\text{Expression}\!" />
+</td><td> <img class='tex' src="http://mywikibiz.com/images/math/a/8/6/a8654d8844fc34a58809af813c22919a.png" alt="\text{Interpretation}\!" />
+</td><td> <img class='tex' src="http://mywikibiz.com/images/math/5/3/f/53f0ee60a3ccd002629b474070df9e53.png" alt="\text{Other Notations}\!" />
+</td></tr>
+
+<tr>
+<td height="100px"><img alt="Rooted Node" src="/nlab/files/Rooted_Node.jpg" width="20" height="10" />
+</td><td> <img class='tex' src="http://mywikibiz.com/images/math/4/c/7/4c761f170e016836ff84498202b99827.png" alt="~" />
+</td><td> <img class='tex' src="http://mywikibiz.com/images/math/a/9/8/a98f0f208c522b8d25f88110dfa5be3a.png" alt="\operatorname{true}" />
+</td><td> <img class='tex' src="http://mywikibiz.com/images/math/3/3/f/33f7ec109298779a887aff2887ff9c7c.png" alt="1\!" />
+</td></tr>
+
+<tr>
+<td height="100px"><img alt="Rooted Edge" src="/nlab/files/Rooted_Edge.jpg" width="20" height="51" />
+</td><td> <img class='tex' src="http://mywikibiz.com/images/math/3/7/f/37f1dfde729312575b502e8b80c4f1b1.png" alt="\texttt{(~)}" />
+</td><td> <img class='tex' src="http://mywikibiz.com/images/math/8/5/5/855c491bdfa6847adb8adea57c8a78f4.png" alt="\operatorname{false}" />
+</td><td> <img class='tex' src="http://mywikibiz.com/images/math/f/7/4/f7496913e3e61d6a5227c611eb355e93.png" alt="0\!" />
+</td></tr>
+</table>
 
 ***
 
@@ -24,7 +59,7 @@ Image:
 
 [Rooted Edge](http://mywikibiz.com/images/f/f1/Rooted_Edge.jpg)
 
-Image scaled to 20px using HTML <img> tags:
+Image scaled to 20px using HTML &lt;img> tags:
 
 <img src='http://mywikibiz.com/images/f/f1/Rooted_Edge.jpg' width='20'/>
 
@@ -37,7 +72,7 @@ $$\array{
 
 ***
 
-HTML version of the first 2 rows:
+HTML version of first 2 rows with all images at MWB:
 
 <table align="center" border="1" cellpadding="8" cellspacing="0" style="text-align:center; width:90%">
 <caption> <img class='tex' src="http://mywikibiz.com/images/math/4/b/7/4b714e121dcb7e880367b3c348294e1f.png" alt="\text{Table 1.}~~\text{Syntax and Semantics of a Calculus for Propositional Logic}" />
@@ -49,15 +84,16 @@ HTML version of the first 2 rows:
 </td><td> <img class='tex' src="http://mywikibiz.com/images/math/a/8/6/a8654d8844fc34a58809af813c22919a.png" alt="\text{Interpretation}\!" />
 </td><td> <img class='tex' src="http://mywikibiz.com/images/math/5/3/f/53f0ee60a3ccd002629b474070df9e53.png" alt="\text{Other Notations}\!" />
 </td></tr>
+
 <tr>
-<td height="100px"> <a href="/Image:Cactus_Node_Big_Fat.jpg" class="image" title=""><img alt="" longdesc="/Image:Cactus_Node_Big_Fat.jpg" src="http://mywikibiz.com/images/thumb/0/05/Cactus_Node_Big_Fat.jpg/20px-Cactus_Node_Big_Fat.jpg" width="20" height="10" /></a>
+<td height="100px"> <a href="http://mywikibiz.com/Image:Rooted_Node.jpg" class="image" title=""><img alt="" src="http://mywikibiz.com/images/e/e0/Rooted_Node.jpg" width="20" height="10" /></a>
 </td><td> <img class='tex' src="http://mywikibiz.com/images/math/4/c/7/4c761f170e016836ff84498202b99827.png" alt="~" />
 </td><td> <img class='tex' src="http://mywikibiz.com/images/math/a/9/8/a98f0f208c522b8d25f88110dfa5be3a.png" alt="\operatorname{true}" />
-
 </td><td> <img class='tex' src="http://mywikibiz.com/images/math/3/3/f/33f7ec109298779a887aff2887ff9c7c.png" alt="1\!" />
 </td></tr>
+
 <tr>
-<td height="100px"> <a href="/Image:Cactus_Spike_Big_Fat.jpg" class="image" title=""><img alt="" longdesc="/Image:Cactus_Spike_Big_Fat.jpg" src="http://mywikibiz.com/images/thumb/1/15/Cactus_Spike_Big_Fat.jpg/20px-Cactus_Spike_Big_Fat.jpg" width="20" height="51" /></a>
+<td height="100px"> <a href="http://mywikibiz.com/Image:Rooted_Edge.jpg" class="image" title=""><img alt="" src="http://mywikibiz.com/images/f/f1/Rooted_Edge.jpg" width="20" height="51" /></a>
 </td><td> <img class='tex' src="http://mywikibiz.com/images/math/3/7/f/37f1dfde729312575b502e8b80c4f1b1.png" alt="\texttt{(~)}" />
 </td><td> <img class='tex' src="http://mywikibiz.com/images/math/8/5/5/855c491bdfa6847adb8adea57c8a78f4.png" alt="\operatorname{false}" />
 </td><td> <img class='tex' src="http://mywikibiz.com/images/math/f/7/4/f7496913e3e61d6a5227c611eb355e93.png" alt="0\!" />
