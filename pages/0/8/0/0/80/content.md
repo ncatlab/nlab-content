@@ -12,19 +12,12 @@ Philosophical interest in [[n-category|n-categories]] may be characterised as be
 
 * [[higher category theory|Higher category theory]] refines the notion of sameness to allow more subtle variants. It advocates the avoidance of [[evil]].
 
-* There ought to be a [[vertical categorificaton|categorified]] [[internal logic|logic]], or 2-logic. There are some suggestions that existing work on modal logic is relevant. Blog discussion: [I](http://golem.ph.utexas.edu/category/2007/11/concrete_groups_and_axiomatic_1.html), [II](http://golem.ph.utexas.edu/category/2008/02/2galois_and_2logic.html), [III](http://golem.ph.utexas.edu/category/2008/03/worrying_about_2logic.html), [IV](http://golem.ph.utexas.edu/category/2008/11/the_internal_language_of_a_2to.html). Mike Shulman's project: [2-categorical logic](http://ncatlab.org/michaelshulman/show/2-categorical+logic).
+* There ought to be a [[vertical categorification|categorified]] [[internal logic|logic]], or 2-logic. There are some suggestions that existing work on modal logic is relevant. Blog discussion: [I](http://golem.ph.utexas.edu/category/2007/11/concrete_groups_and_axiomatic_1.html), [II](http://golem.ph.utexas.edu/category/2008/02/2galois_and_2logic.html), [III](http://golem.ph.utexas.edu/category/2008/03/worrying_about_2logic.html), [IV](http://golem.ph.utexas.edu/category/2008/11/the_internal_language_of_a_2to.html). Mike Shulman's project: [2-categorical logic](http://ncatlab.org/michaelshulman/show/2-categorical+logic).
 
 * [[higher category theory|Higher category theory]] may provide the right tools to take [[physics]] forward. [A Prehistory of n-Categorical Physics](http://math.ucr.edu/home/baez/history.pdf) See also [[physics]].
 
-* More speculatively, [[category theory]] may prove useful in biology. [Blog post](http://golem.ph.utexas.edu/category/2007/11/category_theory_and_biology.html)
+* More speculatively, [[category theory]] may prove useful in [[biology]].
 
-+--{.query}
-[[Urs Schreiber|Urs]]: Maybe there is an intermediate step which is less speculative? My impression is that the idea here is something like: noticing that category theory at first is a formalism of _states_ and _processes_ (directed arrows) and $n$-category theory of processes of processes, etc., can we also naturally encode in its language _structures of structures_, i.e. hierarchical structures, which do not naturally or not manifestly have an interpretation as processes, in particular in that they are lacking the directionality of processes? Whatever the definition of [[hyperstructure]] really will be in the end, I think this question is what motivates them: a hyperstructure differes from an $\infty$-category in that in degree $n$ it has cells ( _bonds_ ) which _bind_ $(n-1)$-cells, but there is no directionality imposed on this, and not necessarily a notion of composition. 
-
-Now, biological structures are often of the complex hierarchical structure that one would imagine the concept of  [[hyperstructure]] would describe to some extent, but if the notion of hyperstructure is good and natural, that should be just a very specific of a more general kind of applications which maybe should not be regarded as the archetypical application of the concept as such. In this respect it is maybe noteworthy that the idea of hyperstructure does not originate in a motivation from biologogy, but was originally conceived as a means to formalize [[extended cobordism]]s such as appear in the [[generalized tangle hypothesis]]. 
-
-[[David Corfield|David]]: It would be great to get some kind of grip on the range of formalisms out there used to model complex systems. As soon as you start to dig, you get swamped by an avalanche of ideas. E.g., look up Milner's [bigraphs](http://www.cl.cam.ac.uk/~rm135/uam-theme.html) and you're directed to a massive [bibliography](http://www.itu.dk/~mikkelbu/research/bigraphsbib/index.html). I'd like to see a very concrete piece of biology being well-modelled. Perhaps [this](http://www.lix.polytechnique.fr/~krivine/articles/KriMilTro08.pdf).
-=--
 
 ##Enquiry##
 
