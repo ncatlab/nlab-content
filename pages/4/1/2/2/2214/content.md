@@ -23,13 +23,17 @@ Contributions that are not logged here are likely to be missed and ignored. And 
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in **UTC** (the date given by the server for your edits).  However, regardless of that, be sure to **add new comments to the top** of the list, or else people might not notice them.
 
 ***
-## 2009-09-15
+
+
+## 2009-09-16
 
 * [[Mike Shulman]]: Motivated by recent discussions on the cafe, created [[SEAR]], which has been kicking around in my head for quite some time.
 
 * [[Zoran ?koda]]: created [[compact-open topology]].
 
+
 ## 2009-09-15
+
 * [[Zoran ?koda]]: changes to [[A-infinity ring]]. I had to disagree at [[classical mechanics]]; created [[force]]. Minor changes to few other entries, like [[analysis]], and to contents pages ([[geometry]], [[mathematicscontents]]).
 
 * [[Urs Schreiber]]: 
@@ -41,7 +45,6 @@ These comments should go in _reverse_ chronological order, so that the latest ar
   * further expanded [[category theory - contents]] and added it as floating table of contents to more entries
 
     (any volunteers for similar floating tables of contents such as [[topos theory - contents]], [[enriched category theory - contents]]?)
-
 
 * [[Jon Awbrey]] added a subsection on categorical precursors to the References Section of [[category theory]], but that's already such a huge article that people may prefer to spin off a new page if it goes past a few links.
 
@@ -155,6 +158,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
     This has some nice applications. For instance one has that two functors $L : C \to D$ and $R : D \to C$ are adjoint precisely if they have the same cograph, up to reversal of arrows. Notice that, because the notion of cograph immediately generalizes to functors between higher categories, this is the basis for a definition of [[adjoint (infinity,1)-functor]].
 
     I have expanded the material at [[graph of a function]] accordingly. Also I made [[cograph of a function]] redirect to that.
+
 
 ## 2009-09-13
 
