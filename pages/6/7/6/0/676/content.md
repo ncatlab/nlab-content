@@ -1,11 +1,12 @@
-
 **[[physics]]**
 
 ##Contents
 
-* [[classical physics]]
+* [[classical physics]], [[classical mechanics]], [[waves]]
 
-*  [[quantum field theory|Quantum Field Theory]]
+* [[electromagnetic field]]
+
+* [[quantum field theory|Quantum Field Theory]]
 
    *  Axiomatizations
 
