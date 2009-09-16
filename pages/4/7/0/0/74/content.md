@@ -43,6 +43,14 @@ Reprints in Theory and Applications of Categories, No. 10 (2005) pp. 1-136 ([pdf
 ##Entries involoving examples of  Enriched Categories##
 
 * [[dg-category]]
+
 * [[simplicially enriched category]]
 
+* [[enriched homotopical category]]
+
+  * [[enriched model category]]
+
+For more examples see [[enriched category]].
+
 [[!redirects Enriched Category Theory]]
+
