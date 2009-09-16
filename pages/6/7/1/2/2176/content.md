@@ -26,7 +26,35 @@ The development of differential logic is greatly facilitated by having a concept
 
 All other propositional connectives can be obtained through combinations of these two forms.  Strictly speaking, the parenthesized form is sufficient to define the concatenated form, making the latter formally dispensable, but it is convenient to maintain it as a concise way of expressing more complicated combinations of parenthesized forms.  While working with expressions solely in propositional calculus, it is easiest to use plain parentheses for logical connectives.  In contexts where ordinary parentheses are needed for other purposes an alternate typeface $\text{&#10647;} \text{&#65104;} \text{&#10648;}$ may be used for logical operators.
 
-Table&nbsp;1 collects a sample of basic propositional forms as expressed in terms of cactus language connectives.
+Table&nbsp;1 collects a sample of basic propositional forms as expressed in terms of cactus connectives.
+
+<table align="center" border="1" cellpadding="8" cellspacing="0" style="text-align:center; width:90%">
+<caption> <img class='tex' src="http://mywikibiz.com/images/math/4/b/7/4b714e121dcb7e880367b3c348294e1f.png" alt="\text{Table 1.}~~\text{Syntax and Semantics of a Calculus for Propositional Logic}" />
+</caption>
+
+<tr style="background:#f0f0ff">
+<td> <img class='tex' src="http://mywikibiz.com/images/math/c/f/8/cf8355a1bf9b6821ed2c15658060d349.png" alt="\text{Graph}\!" />
+</td><td> <img class='tex' src="http://mywikibiz.com/images/math/0/2/b/02ba04972afebb8d123c4e920909b8fb.png" alt="\text{Expression}\!" />
+</td><td> <img class='tex' src="http://mywikibiz.com/images/math/a/8/6/a8654d8844fc34a58809af813c22919a.png" alt="\text{Interpretation}\!" />
+</td><td> <img class='tex' src="http://mywikibiz.com/images/math/5/3/f/53f0ee60a3ccd002629b474070df9e53.png" alt="\text{Other Notations}\!" />
+</td></tr>
+
+<tr>
+<td height="100px"><img alt="Rooted Node" src="/nlab/files/Rooted_Node.jpg" width="20" height="10" />
+</td><td> <img class='tex' src="http://mywikibiz.com/images/math/4/c/7/4c761f170e016836ff84498202b99827.png" alt="~" />
+</td><td> <img class='tex' src="http://mywikibiz.com/images/math/a/9/8/a98f0f208c522b8d25f88110dfa5be3a.png" alt="\operatorname{true}" />
+</td><td> <img class='tex' src="http://mywikibiz.com/images/math/3/3/f/33f7ec109298779a887aff2887ff9c7c.png" alt="1\!" />
+</td></tr>
+
+<tr>
+<td height="100px"><img alt="Rooted Edge" src="/nlab/files/Rooted_Edge.jpg" width="20" height="51" />
+</td><td> <img class='tex' src="http://mywikibiz.com/images/math/3/7/f/37f1dfde729312575b502e8b80c4f1b1.png" alt="\texttt{(~)}" />
+</td><td> <img class='tex' src="http://mywikibiz.com/images/math/8/5/5/855c491bdfa6847adb8adea57c8a78f4.png" alt="\operatorname{false}" />
+</td><td> <img class='tex' src="http://mywikibiz.com/images/math/f/7/4/f7496913e3e61d6a5227c611eb355e93.png" alt="0\!" />
+</td></tr>
+</table>
+
+__NB.__ Still working on this --- can probably trim away the remote content over time. ---[[JA]]
 
 ## External links ##
 
