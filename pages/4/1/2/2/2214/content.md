@@ -35,6 +35,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
   * am proposing an expanded introduction and a supposedly suggestive **slogan** at [[(n,r)-category]] -- check and see what you think
 
+    *  That sort of thing doesn\'t give *me* any idea about what an $(n,r)$-category is ... although it does tell me what an $r$-directed $n$-type is!  It\'s important, good stuff, but I wouldn\'t put it in the lede.  ---Toby
+
 * [[Zoran ?koda]]: created [[Q-category]] (clearly unfinished; e.g. somebody could type the cosieve and Grothendieck topology-induced $Q^\circ$-categories and $Q$-categories of thickenings from Kontsevich-Rosenberg preprint as examples), [[wave]], [[epipresheaf]]. New remark at [[formally smooth scheme]]. Updates to [[algebra]], [[mathematicscontents]] and to the discussion at [[classical mechanics]].
 
 * [[Urs Schreiber]] created entry for [[Constantin Teleman]]
