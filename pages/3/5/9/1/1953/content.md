@@ -32,7 +32,9 @@ For EGAIV$_4$ (Publ. IH&#201;S, 32 (1967), p. 5-361) see [numdam](http://www.num
 
 ## formally smooth scheme ##
 
-A [[scheme]] $S$, i.e. a scheme over the ground field $k$, is a [[formally smooth scheme]] if the corresponding morphism $S \to Spec k$ is a formally smooth morphism.
+A [[scheme]] $S$, i.e. a scheme over the ground ring $k$, is a [[formally smooth scheme]] if the corresponding morphism $S \to Spec(k)$ is a formally smooth morphism.
+
+There is also an interpretation of formal smoothness via the formalism of [[Q-categories]].
 
 [[!redirects formal smoothness]]
 [[!redirects formally smooth]]
