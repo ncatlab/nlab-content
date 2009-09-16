@@ -27,6 +27,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-16
 
+* [[Jon Awbrey]]:  Expanding on a [note](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c026573) and responding to a [query](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c026593) on the blog, I proposed several sources as "Precursors" to category theory.  I have discovered a truly marvelous demonstration of this proposition that [[category theory|this margin]] is too narrow to contain, but I might try to elaborate on it elsewhere &#8230; elsewhen.
+
 *  [[Toby Bartels]]:  Talk, talk, talk: [[SEAR]], [[classical mechanics]], [[category theory]].
 
 * [[Mike Shulman]]: Motivated by recent discussions on the cafe, created [[SEAR]], which has been kicking around in my head for quite some time.
