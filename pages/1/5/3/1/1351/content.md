@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include higher category theory - contents]]
+</div>
+
+
 #Idea#
 
 Complicial sets are precisely those [[simplicial set]]s which arise as the [[oriental|omega nerve]] of a [[strict omega-category]].
