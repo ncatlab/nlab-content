@@ -1,3 +1,10 @@
+<div class="rightHandSide toc">
+[[!include mathematicscontents]]
+***
+[[!include physicscontents]]
+</div>
+
+
 This entry is about the work by David Ben-Zvi, John Francis and David Nadler on application of a [[(infinity,1)-category|(∞,1)-categorical]] realization of [[geometric function theory]] to [[FQFT|extended quantum field theory]] in the context in which Jacob Lurie proved the [[generalized tangle hypothesis|cobordism hypothesis]].
 
 So far this work is presented in the two articles
@@ -10,11 +17,11 @@ So far this work is presented in the two articles
 
 +-- {: .query}
 
-This entry is supposed to be the $n$Lab-working area for a " Journal Club -- Geometric $\infty$-function theory ". The corresponding discussion page at the $n$-Caf&#233; is [Journal Club -- Geometric ∞-Function Theory](http://golem.ph.utexas.edu/category/2009/04/journal_club_geometric_infinit.html)
+This entry is supposed to be the $n$Lab-working area for a " Journal Club -- Geometric $\infty$-function theory ". The corresponding discussion page at the $n$-Caf&eacute; is [Journal Club -- Geometric ∞-Function Theory](http://golem.ph.utexas.edu/category/2009/04/journal_club_geometric_infinit.html)
 
 The idea is to 
 
-* jointly discuss at the $n$Caf&#233; section-by-section these articles; to get an idea for what's going on;
+* jointly discuss at the $n$Caf&eacute; section-by-section these articles; to get an idea for what's going on;
 
 * add here, step by step, links to keywords appearing in these sections, and create the corresponding entries describing them.
 
@@ -221,7 +228,7 @@ One point made by the [[David Ben-Zvi|Ben-Zvi]]/Francis/Nadler work is that a go
 
     * work by [[Andre Joyal]] on [[quasi-category|quasi-categories]];
 
-    * work by Simpson, Rezk, To&#235;n, Vezzosi and others on [[higher category theory|higher categories]] and [[infinity-stack|higher stacks]];
+    * work by Simpson, Rezk, To&euml;n, Vezzosi and others on [[higher category theory|higher categories]] and [[infinity-stack|higher stacks]];
 
     * work by [[BrownAHT|Brown]], [[Andre Joyal|Joyal]], Jardine and others on [[presentable (infinity,1)-category|models]] for [[∞-stacks]] in terms of a [[model structure on simplicial presheaves]].
 
@@ -231,7 +238,7 @@ One point made by the [[David Ben-Zvi|Ben-Zvi]]/Francis/Nadler work is that a go
 
 * [[higher algebra|Higher Algebra]] -- the theory of [[monoid]]- or [[algebra]]-objects [[internalization|internal to]] ([[symmetric monoidal (infinity,1)-category|symmetric]]) [[monoidal (infinity,1)-category|monoidal]] [[(infinity,1)-category|(∞,1)-categories]]
 
-  * expanding on work by To&#235;n-Vezzosi;
+  * expanding on work by To&euml;n-Vezzosi;
 
   * which puts into its natural higher categorical context
 
