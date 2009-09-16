@@ -33,7 +33,7 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 * [[Mike Shulman]]: Motivated by recent discussions on the cafe, created [[SEAR]], which has been kicking around in my head for quite some time.
 
-   * A bit too close to SOAR.  But if you put your terms in alphabetical order you'd have ERAS, which would also be mnemonic for the fact that elementhood is a relation.  Hm&#179;, is there such a thing as mnepic?
+   * [[Jon Awbrey]]: A bit too close to SOAR.  But if you put your terms in alphabetical order you'd have ERAS, which would also be mnemonic for the fact that elementhood is a relation.  Hm&#179;, is there such a thing as mnepic?
 
 * [[Zoran ?koda]]: created [[compact-open topology]].
 
