@@ -23,9 +23,11 @@ Contributions that are not logged here are likely to be missed and ignored. And 
 These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in **UTC** (the date given by the server for your edits).  However, regardless of that, be sure to **add new comments to the top** of the list, or else people might not notice them.
 
 ***
+## 2009-09-15
+* [[Zoran ?koda]]: created [[compact-open topology]].
 
 ## 2009-09-15
-* [[Zoran ?koda]]: changes to [[A-infinity ring]]. I had to disagree at [[classical mechanics]]. 
+* [[Zoran ?koda]]: changes to [[A-infinity ring]]. I had to disagree at [[classical mechanics]]; created [[force]]. Minor changes to few other entries, like [[analysis]], and to contents pages ([[geometry]], [[mathematicscontents]]).
 
 * [[Urs Schreiber]]: 
 
