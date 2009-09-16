@@ -9,6 +9,8 @@ _Toby_:  I take your point that 'dynamics' was not the right word.  But do you d
 
 _Zoran_: you see, in classical mechanics you express all you have by attaching mass, position, velocity etc. to the parfts of mechanical systems. Not all classical physics belongs to this kind of description. The thermodynamical quantities may influence the motion of the systemm, but their description is out of the frame of classical mechanics. If you study liquids you have to take into account both the classical mechanics of the liquid continuum but also variations of its temperature, entropy and so on, which are not expressable within the variables of mechanics. Formally speaking of course, the thermodynamics has very similar formal structure as mechanics, for example Gibbs and Helmholtz free energies and enthalpy are like Lagrangean, the quantities which are extremized when certain theremodynamical quantities are kept constant. 
 To answer the terminological question, there is a classical mechanics of point particles and it is called classical mechanics of point particles, there is also cm of fields and cm of rigid bodies. 
+
+_Toby_:  So 'mechanics' for you means &#8249;not taking into account thermal physics&#8250;?  That\'s not the way that I learned it!  But I admit that I do not have a slick phrase for that (any more than you have a slick phrase for &#8249;mechanics of point particles&#8250;), so I will try to ascertain how the term is usually used and defer to that.
 =--
 
 Nondissipative systems with finitely many degrees of freedom may be described geometrically using [[symplectic manifolds]], or more generally [[Poisson manifolds]]; the later may also sometimes appear as reductions of the systems with infinitely many degrees of freedom. 
