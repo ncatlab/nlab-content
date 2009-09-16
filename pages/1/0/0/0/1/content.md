@@ -1,12 +1,21 @@
 [[!include contents]]
 
+<div class="rightHandSide toc">
+[[!include mathematicscontents]]
+***
+[[!include physicscontents]]
+***
+[[!include philosophycontents]]
+</div>
+
+
 Welcome!
 
-This is a lab for collaborative work on _[[Mathematics]]_, _[[Physics]]_ and _[[Philosophy]]_ &#8212; especially insofar as these subjects touch on $n$-categories and related '[[higher category theory|higher algebraic structures]]'.  
+This is a [wiki](http://en.wikipedia.org/wiki/Wiki)-lab for collaborative work on _[[Mathematics]]_, _[[Physics]]_ and _[[Philosophy]]_ &#8212; especially insofar as these subjects touch on [[higher category theory|higher algebraic structures]].  
 
-In other words: this place is like the library, or alchemist's laboratory, in the back room of the [$n$-Category Caf&#233;](http://golem.ph.utexas.edu/category/). You come here to work and go there to chat.
+We think of this place as  the library, or alchemist's laboratory, in the back room of the [$n$-Category Caf&eacute;](http://golem.ph.utexas.edu/category/). You come here to work and go there to chat (where _chat_ is short for _work by discussion_).
 
-We are hoping to create here a space for presentation and archival storage of collaborative work of encyclopedic, didactic, expositional,  but also original nature.  This will include, but not be limited to, the subjects being discussed every day in the $n$-Caf&#233;.
+We are hoping to create here a space for presentation and archival storage of collaborative work of encyclopedic, didactic, expositional,  but also original nature.  This will include, but not be limited to, the subjects being discussed every day in the $n$-Caf&eacute;.
 
 But this site started operation only a few months ago. Some structure is beginning to appear, but we are still in a very early stage. Your help is appreciated! 
 
@@ -14,19 +23,27 @@ But this site started operation only a few months ago. Some structure is beginni
 
 * See the [[HowTo]]-page to get started if you want to contribute.
 
-* See [[Content]] for a list of existing content. 
-
 * See [[latest changes]] to get an idea of recent activity and to log your own changes to the $n$Lab.
 
-* There is a <a href="http://www.math.ntnu.no/~stacey/Vanilla/nForum">forum</a> (imaginatively called the $n$-Forum) where discussion _about_ the $n$-Lab can take place (i.e. not discussion of what goes _into_ a page but rather how it goes _onto_ the page).  Some discussion has taken place (and is still taking place) on an <a href="http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html">entry</a> at the $n$-Caf&eacute;.  Old discussions can be found at the [[General Discussion]] page.
+* There is a <a href="http://www.math.ntnu.no/~stacey/Vanilla/nForum">forum</a> (imaginatively called the $n$-Forum) for $n$Lab-related dicussion.
+
+  * See in particular the discussion
+
+    [What is the scope of the nLab? Particularly original research?](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=59&page=1#Item_43)
+
+    where we are trying to figure out what the $n$Lab is precisely.
 
 * Distilled wisdom from the various discussions is starting to appear on the [[FAQ]].
 
 +-- {: .standout}
 
+**Software requirements**
+
 The $n$Lab displays mathematical symbols using [MathML](http://en.wikipedia.org/wiki/MathML).  Some web-browsers, notably [Firefox](http://www.mozilla.com/firefox/), know how to display this automatically, although you may need to install some fonts.  For InternetExplorer one needs the [MathPlayer](http://www.dessci.com/en/products/mathplayer/) plugin; download is quick and easy and free. For more see [[HowTo]].
 
 =--
+
+
 
 
 category: meta
