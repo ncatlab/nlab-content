@@ -13,6 +13,8 @@ There is also an enriched notion of [[limit]] called a [[weighted limit]], but i
 
 More generally, we may allow $K$ to be a [[multicategory]], a [[bicategory]], a [[double category]], or an [[fc-multicategory]].
 
+See also [[enriched category theory]].
+
 #Definition#
 
 
