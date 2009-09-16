@@ -30,5 +30,9 @@ The relative dimension of $f$ at $x$ will equal the rank of the module of K&#228
 
 For EGAIV$_4$ (Publ. IH&#201;S, 32 (1967), p. 5-361) see [numdam](http://www.numdam.org/numdam-bin/fitem?id=PMIHES_1967__32__5_0).
 
+## formally smooth scheme ##
+
+A [[scheme]] $S$, i.e. a scheme over the ground field $k$, is a [[formally smooth scheme]] if the corresponding morphism $S \to Spec k$ is a formally smooth morphism.
+
 [[!redirects formal smoothness]]
 [[!redirects formally smooth]]
