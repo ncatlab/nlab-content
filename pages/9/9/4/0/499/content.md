@@ -29,8 +29,8 @@ $$
   \,.
 $$
 
-# Remarks
+# Properties
 
-It follows from the [[Yoneda lemma]] the functor $Y$ is a [[full and faithful functor]].
+It follows from the [[Yoneda lemma]] the functor $Y$ is a [[full and faithful functor]]. It is also preserving colimits (= right continuous functor), but in general not preserving limits. 
 
 The Yoneda embedding of a [[small category]] $S$ into the category of [[presheaf|presheaves]] on $S$ gives a [[free cocompletion]] of $S$.
