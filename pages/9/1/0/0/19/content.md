@@ -273,7 +273,9 @@ _Toby_:  If I may presume to translate Todd\'s question for him:  Why do you thi
 
 However, I don\'t object to this list; it might or might not work better on a separate page (although it\'s short enough that it fits here well enough).  I just changed its heading to something that seems more appropriate to me. 
 
-_Todd_: Yes, I thought what Jon wrote might have been what he had in mind (but I didn't want to put words in his mouth, so I left the question open-ended), and then what Toby wrote would have been my follow-up question. Mind you, I am open to the suggestion that there may be philosophical antecedents or anticipations of the notion of category in these earlier developments (and I'd find that very interesting), but it's not clear to me how that would be the case in any precise sense. I think Toby's recasting this as 'Etymology' is far safer, until more evidence is brought to the table. 
+_Todd_: Yes, I thought what Jon wrote might have been what he had in mind (but I didn't want to put words in his mouth, so I left the question open-ended), and then what Toby wrote would have been my follow-up question. Mind you, I am open to the suggestion that there may be philosophical antecedents or anticipations of the notion of category in these earlier developments (and I'd find that very interesting), but it's not clear to me how that would be the case in any precise sense. I think Toby's recasting this as 'Etymology' is far safer, until more evidence is brought to the table.
+
+[[JA]]: I don't think that E & MacL were simply punning, but I doubt if it's necessary to take up more space here, as this page already bogs down my connection.  Just for one thing to think about, though, you might reflect on the question of "natural kinds", and the part that it played in the thought of Aristotle, Kant, and Peirce.
 
 =--
 
