@@ -1,4 +1,9 @@
-_Functorial quantum field theory_, one of the two approaches of axiomatizing [[quantum field theory]]. The other is [[AQFT]]. FQFT formalizes the _Schr&#246;dinger picture_ of quantum mechanics, while AQFT formalizes the _Heisenberg picture_.
+<div class="rightHandSide toc">
+[[!include physicscontents]]
+</div>
+
+
+_Functorial quantum field theory_, one of the two approaches of axiomatizing [[quantum field theory]]. The other is [[AQFT]]. FQFT formalizes the _Schr&ouml;dinger picture_ of quantum mechanics, while AQFT formalizes the _Heisenberg picture_.
 
 #Idea#
 
@@ -8,7 +13,7 @@ Much work in quantum field theory is based on arguments using the [[path integra
 
 It was in
 
-* Michael Atiyah, _Topological quantum field theory_, Publications Math&#233;matique de l'IH&#201;S, 68  (1988), p. 175-186
+* Michael Atiyah, _Topological quantum field theory_, Publications Math&eacute;matique de l'IH&Eacute;S, 68  (1988), p. 175-186
 
 that it was realized that 
 
