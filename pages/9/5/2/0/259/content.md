@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include higher category theory - contents]]
+</div>
+
+
 [[!redirects quasi-categories]]
 [[!redirects quasicategory]]
 [[!redirects quasicategories]]
