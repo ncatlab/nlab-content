@@ -1,8 +1,10 @@
 [[!redirects logical boundary operator]]
 [[!redirects logical boundary operators]]
-[[!redirects minimal negation operators]]
 [[!redirects Minimal Negation Operator]]
 [[!redirects Minimal Negation Operators]]
+[[!redirects minimal negation operators]]
+[[!redirects minimal negation]]
+[[!redirects minimal negations]]
 [[!redirects mno]]
 
 The __minimal negation operator__ $\nu$ is a [[multigrade operator]] $(\nu_k)_{k \in \mathbb{N}}$ where each $\nu_k$ is a $k$-ary [[boolean function]] defined in such a way that $\nu_k (x_1, \ldots, x_k) = 1$ in just those cases where exactly one of the arguments $x_j$ is $0$.
