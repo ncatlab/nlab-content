@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include physicscontents]]
+</div>
+
+
 In [[supergravity]] theory, certain extremal solutions have some of the [[supersymmetry|supersymmetries]] retained. These are the so-called __Bogomol'nyi--Prasad--Sommerfield saturated solutions__ which exist also in some models of soliton theory
 (English Wikipedia: [Bogomol'nyi&#8211;Prasad&#8211;Sommerfield bound](http://en.wikipedia.org/wiki/Bogomol'nyi%E2%80%93Prasad%E2%80%93Sommerfield_bound)). Namely, the fact that a certain fraction (typically one half or fourth of supersymmetry generators) of supersymmetry is retained implies the saturation of the BPS-bound, which does make sense a bit more generally. The retained generators generate a nontrivial subalgebra of the full supersymmetry algebra and carry conserved charges; the mass is exactly determined in terms of these charges.
 
