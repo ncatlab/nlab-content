@@ -27,6 +27,8 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-16
 
+*  [[Toby Bartels]]:  Talk, talk, talk: [[SEAR]], [[classical mechanics]], [[category theory]].
+
 * [[Mike Shulman]]: Motivated by recent discussions on the cafe, created [[SEAR]], which has been kicking around in my head for quite some time.
 
 * [[Zoran ?koda]]: created [[compact-open topology]].
