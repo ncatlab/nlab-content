@@ -27,6 +27,14 @@ These comments should go in _reverse_ chronological order, so that the latest ar
 
 ## 2009-09-16
 
+* [[Urs Schreiber]]: created 
+
+  * noticed that despite all the blog discussion, nobody has so far created [[field with one element]]...
+
+  * [[deRham space]]
+
+  * [[formally smooth scheme]]
+
 * [[Urs Schreiber]] expanded [[mathematicscontents]] and rearranged a bit -- notably I added [[category theory]], [[higher category theory]], [[topos theory]] and [[higher topos theory]] (the lower case version!) which clearly all deserve to be there. I added some entries to go as sub-entries under [[higher topos theory]] mainly to balance that [[topos theory]] has its natural sub-entries there, but maybe debateable. Then I moved [[homotopy theory]] and its special case [[stable homotopy theory]] from the "Geometry" bit up to the "Structural Foundations" bit, as that seems to better capture it (anything that cares about things only up to homotopy is not geometry nor even really topology, but is higher category theory in disguise). By this logic, also [[rational homotopy theory]] belongs there, so I moved it up.
 
 
