@@ -12,16 +12,17 @@
 
 A _symmetric monoidal $(\infty,1)$-category_ is 
 
-* an [[(infinity,1)-category]]
+* an [[(∞,1)-category]]
 
 * which is "$\infty$-[[k-tuply monoidal n-category|tuply monoidal]]", or "stably monoidal".
 
 This means that it is
 
-* a [[monoidal (infinity,1)-category]];
+* a [[monoidal (∞,1)-category]];
 
 * for which the [[tensor product]] is commutative up to infinite coherent homotopy.
 
+This can be understood as a special case of an [[(∞,1)-operad]] (..to be expanded on...)
 
 #Definition#
 
