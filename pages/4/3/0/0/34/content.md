@@ -24,7 +24,7 @@ For low $n$ very explicit [[algebraic definition of higher category|algebraic mo
 
 Indeed, there are many _strictified_ models for higher categories: combinatorial or algebraic models that sacrifice full generality for a better concrete control. Notably there is a useful combinatorial/algebraic model for [[strict ∞-category|strict ∞-categories]] which, while falling short, already goes a long way towards describing general higher categorical structures. In fact, by [[Simpson's conjecture]] every [[∞-category]] is equivalent to one that looks like a [[strict ∞-category]] except for possibly having weak unit laws.
 
-The challange of describing fully general [[∞-category|∞-categories]]/[[∞-category|∞-categories]] is to achieve a combinatorial or algebraic control of all the higher composition rules of higher cells. One can distinguish roughly two orthogonal approaches to dealing with the problem:
+The challenge of describing fully general [[∞-category|∞-categories]]/[[∞-category|∞-categories]] is to achieve a combinatorial or algebraic control of all the higher composition rules of higher cells. One can distinguish roughly two orthogonal approaches to dealing with the problem:
 
 in the [[algebraic definition of higher category]] an algebraic machinery is set up that allows to concretely handle the explicit _choices_ of composites of cells. Such machinery usually involves [[operad]]ic tools in one way or other. The most sophisticated definitions of this kind are the closely related [[Batanin ∞-category]] and [[Trimble n-category|Trimble ∞-category]].
 
