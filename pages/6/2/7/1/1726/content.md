@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include higher category theory - contents]]
+</div>
+
+
 ##Motivation
 
 An ordinary [[complete Segal space]] is a model for an $(\infty,1)$-[[(infinity,1)-category|category]].
