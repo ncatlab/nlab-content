@@ -6,7 +6,8 @@
 #Idea#
 
 The notion of $\infty$-stack is the $\infty$-[[vertical categorification|categorification]] of [[sheaf]] and [[stack]]. Where a sheaf is a [[presheaf]] with values in [[Set]] that satisfies the sheaf condition,
-an [[higher category theory|∞-category]]-valued ([[pseudofunctor|pseudo]])[[presheaf]] is an _$\infty$-stack_ if it "satisfies descent" in that its assignment to a space $X$ is equivalent to its [[descent]] data for any [[cover]] or [[hypercover]] $Y^\bullet &#8608; X$: if the canonical morphism
+an [[higher category theory|∞-category]]-valued ([[pseudofunctor|pseudo]])[[presheaf]] is an _$\infty$-stack_ if it "satisfies descent" in that its assignment to a space $X$ is equivalent to its [[descent]] data for any [[cover]] or [[hypercover]] $Y^\bullet \to X$: if the canonical morphism
+
 $$
   \mathbf{A}(X) \to
   Desc(Y^\bullet, \mathbf{A})
