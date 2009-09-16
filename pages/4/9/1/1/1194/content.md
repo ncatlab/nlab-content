@@ -61,3 +61,5 @@ quantifiers $\exists$ and $\forall$ become identified with
 the dependent type constructors $\Sigma$ and $\Pi$.  In
 this case, the semantics involved is the more general
 _codomain fibration_ $p:C^\to\to C$, whose fibres are the [[slice category|slice categories]] $C/A$.
+
+[[!redirects dependent type theory]]
