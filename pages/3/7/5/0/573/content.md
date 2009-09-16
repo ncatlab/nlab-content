@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include higher category theory - contents]]
+</div>
+
+
 #Idea#
 
 Combining the idea of $(\infty,1)$-[[(infinity,1)-category|category]] with that of $n$-[[n-category|category]], an $(\infty,n)$-category is supposed to be an $\infty$-[[infinity-category|category]] which behaves like its $k$-morphisms for $k \gt n$ are all [[equivalences]]. See [[(n,r)-category]].
