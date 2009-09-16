@@ -8,6 +8,8 @@ This looks nice, and I think that it probably matches pretty closely the way tha
 _Mike_: Yes, you're right, and I did think of something like that.  However, I haven't managed to find a good way to "throw in ordered pairs."  I'd like an axiom like "for any sets $A$ and $B$, there exists a set $A\times B$ such that ..." but what comes after "such that?"  With only sets, elements, and subsets as the other data, there's no way to relate the elements of $A\times B$ to the elements of $A$ and $B$.
 
 I guess one possible approach would be to make the construction of products an *operation*, rather than an existential axiom.  Then for every pair of sets $A$ and $B$ there would be a *specified* set $A\times B$, and for every pair of elements $x\in A$ and $y\in B$ there would be a *specified* element $(x,y)\in A\times B$, with an axiom asserting that every element of $A\times B$ is of the form $(x,y)$ for a unique $x$ and $y$.  I suppose we do tend to think more in terms like that, but it's less aesthetically pleasing to me because it's not really "structural" to specify a particular $A\times B$.  So now I'm undecided.
+
+_Toby_:  I don\'t see what\'s unstructural about that!  Although I think that we\'ve had this conversation before ....
 =--
 
 
@@ -45,13 +47,7 @@ Note that experts will probably always prefer to build their own car; the goal o
 
 SEAR is a theory about three types of things: **sets**, **elements**, and **relations**.  Every element, and every variable that ranges over elements, is always associated to something denoting a set (which might be a constant or a variable); we say it is an element **of** that set.  If $x$ is an element of $A$ we write $x\in A$; note that this is not an *assertion* which may be true or false, but a *typing* declaration.  In formal terms, this means that SEAR is a [[dependent type theory]].  One consequence of this is that whenever we quantify over elements we must always quantify over elements *of some set*; thus we can say "for all elements $x\in A$" but not "for all elements $x$."  Another consequence is that the assertion $x=y$ is only well-formed (a precondition to its being true _or_ false) if $x$ and $y$ are elements of the same set.
 
-In a similar manner, every relation is always associated to an ordered pair of sets, the first called its **source** and the second its **target** (thus the fundamental relations in SEAR are binary relations).  If $\varphi$ is a relation from $A$ to $B$ we write $\varphi:A\looparrowright B$.  As with elements, the assertion $\varphi=\psi$ is only well-formed if $\varphi$ and $\psi$ have the same source and the same target.
-
-+-- {: .query}
-I haven\'t changed this, since I haven\'t gone through the whole article yet, but I think that it\'s very dangerous to use 'domain' here.  A lot of people already know the 'domain' of a binary relation (and especially of a [[functional relation]] in its guise as a [[partial function]]) as a subset of $A$ (consisting of those $x$ such that $\varphi(x,y)$ for some $y$ in $B$).  It is a hallmark of category theorists to use the term in your way, and that\'s one of our crimes in the eyes of others: appropriating terms.  Anyway, I like '[[source]]' and '[[target]]' myself.  ---Toby
-
-_Mike_: Good point, thanks.  I went ahead and made the change.  (The words are actually never used anywhere else below; I always just wrote $\varphi:A\looparrowright B$.)
-=--
+In a similar manner, every relation is always associated to an ordered pair of sets, the first called its **[[source]]** and the second its **[[target]]** (thus the fundamental relations in SEAR are binary relations).  If $\varphi$ is a relation from $A$ to $B$ we write $\varphi:A\looparrowright B$.  As with elements, the assertion $\varphi=\psi$ is only well-formed if $\varphi$ and $\psi$ have the same source and the same target.
 
 Implicit in the existence of three types of things is that nothing is both a set and an element, etc., so in particular a statement such as $x=A$ is not well-formed if $x$ is an element and $A$ a set.  Furthermore, SEAR does not include an equality relation between sets: even if $A$ and $B$ are both sets we do not consider $A=B$ to be well-formed.  (Thus SEAR adheres to the philosophy of "speak no [[evil]].")
 
