@@ -1,20 +1,57 @@
 <div class="rightHandSide toc">
+[[!include mathematicscontents]]
+***
 [[!include higher category theory - contents]]
 ***
 [[!include category theory - contents]]
 </div>
 
+Higher category theory studies the generalization of [[∞-groupoid]]s  -- and hence, via the [[homotopy hypothesis]], of [[topological space]]s -- to that of [[directed space]]s and their _combinatorial or algebraic models_ . It is to the theory of [[∞-groupoid]]s as [[category theory]] is to the theory of [[groupoids]] (and hence of [[groups]]).
 
+These [[geometric definition of higher category|combinatorial]] or [[algebraic definition of higher category|algebraic]] models are known as [[n-category|n-categories]] or, when $n \to \infty$, as [[∞-category|∞-categories]] or [[∞-category|∞-categories]], or, in more detail, as [[(n,r)-category|(n,r)-categories]]: 
 
-_Higher category theory_ generalizes [[category theory]], the study of [[categories]], to the study of higher categories, known as $n$-[[n-category|categories]] (or, when $n \to \infty$, as $\infty$-[[∞-category|categories]] or $\omega$-[[∞-category|categories]], or, when the degree of invertibility is important, as $(n,r)$-[[(n,r)-category|categories]]).
+* the natural number $n$ denotes the maximal dimension of _non-trivial_ cells in the model, 
 
-Higher category theory is supposed to be to the theory of $\infty$-[[infinity-groupoid|groupoids]] and [[homotopy theory]] as [[category theory]] is to the study of [[groupoids]] and hence of [[groups]].  The general study of [[homotopy theory]] itself may be thought of as $(\infty,1)$-[[(infinity,1)-category|category]] theory, as in Jacob Lurie\'s [[Higher Topos Theory]].
+* while the natural number $r$ denotes the maximal dimension of the _directed_ cells.
+
+So an ordinary [[topological space]] or [[∞-groupoid]] is an [[(∞,0)-category]]: it has cells of arbitrary dimension and all of them are reversible.
+
+In contrast to that, a [[geometric definition of higher category|combinatorial]] or [[algebraic definition of higher category|algebraic]] model for a [[directed space]] in which the 1-dimensional paths may not all be reversible is an [[(∞,1)-category]]: it still has cells of arbitrary dimension, but only those of dimension greater that 1 are guaranteed to be reverible.
+
+Often it is convenient in practice to consider the case where the possible dimension $n$ of non-trivial cells is finite. This is familiar from how a [[topological space]] that happens to have vanishing [[homotopy group]]s in dimension above some $n$ -- a [[homotopy n-type]] -- is modeled by an [[n-groupoid]]. The fully directed version of this is an [[n-category]], which is short for [[(n,n)-category]]: non-trivial cells up to and including dimension $n$, and all of them allowed to be non-reversible.
+
+For low $n$ very explicit [[algebraic definition of higher category|algebraic models]] for $n$-categories are available but in their full generality become quickly rather untractable as $n$ increases: the series starts with [[bicategory]], [[tricategory]] and [[tetracategory]]. While bicategories have found plenty of applications, already the axioms of tricategories are rather involved and their theory mainly serves to produce the statement that there is a good [[semi-strict infinity-category|semi-strictifications]] of tricategories called [[Gray-category|Gray-categories]]. 
+
+Indeed, there are many _strictified_ models for higher categories: combinatorial or algebraic models that sacrifice full generality for a better concrete control. Notably there is a useful combinatorial/algebraic model for [[strict ∞-category|strict ∞-categories]] which, while falling short, already goes a long way towards describing general higher categorical structures. In fact, by [[Simpson's conjecture]] every [[∞-category]] is equivalent to one that looks like a [[strict ∞-category]] except for possibly having weak unit laws.
+
+The challange of describing fully general [[∞-category|∞-categories]]/[[∞-category|∞-categories]] is to achieve a combinatorial or algebraic control of all the higher composition rules of higher cells. One can distinguish roughly two orthogonal approaches to dealing with the problem:
+
+in the [[algebraic definition of higher category]] an algebraic machinery is set up that allows to concretely handle the explicit _choices_ of composites of cells. Such machinery usually involves [[operad]]ic tools in one way or other. The most sophisticated definitions of this kind are the closely related [[Batanin ∞-category]] and [[Trimble n-category|Trimble ∞-category]].
+
+On the other hand, in the [[geometric definition of higher category]] a combinatorial machinery is set up that allows to guarantee _existence_ of composites of cells. In the [[simplicial model for weak omega-categories|simplicial models for weak ∞-categories]] higher categories are characterized as [[simplicial set]]s with the extra [[stuff, structure, property|property]] that certain composites exist. The issue here is to characterize these existence laws correctly.
+
+The basic example for such "existence laws" is the _Kan-filler condition_ that characterizes simplicial sets that are [[Kan complex]]es, the models for [[(∞,0)-category|(∞,0)-categories]]. More general higher categories are obtained by relaxing the Kan condition in just the right way. For instance by simply restricting the Kan-condition to just a certain sub-set of all cells yields the definition of simplicial sets that are called [[quasi-category|quasi-categories]]. These model [[(∞,1)-category|(∞,1)-categories]].
+
+The right further relaxation of the (weak) Kan filler condition is more involved. An approach to capture this has been given by [[Dominic Verity]]'s definition of simplicial sets that are called [[complicial set]]s and [[weak complicial set]]s.
+
+One expects that every algebraic definition of higher categories admits a construction called a [[nerve]] that maps it to a [[simplicial set]] that would constitute the corresponding geometric model. 
+
+Another approach to handle the geometric definition of higher categories is a recursive one that uses $n$-fold simplicial sets. This is based on the notion of [[complete Segal space]], which is essentially a variation of the concept of [[quasi-category]]. Its advantage is that its definition may be applied recursively to yield the notion of [[n-fold complete Segal space]]s. These model [[(∞,n)-category|(∞,n)-categories]] for finite $n$.
+
+Finally, a large supply of further models exists for [[(∞,1)-category|(∞,1)-categories]] in terms of [[enriched category theory]]. [[simplicial model category|Simplicially enriched model categories]] are a highly-developed toolkit for handling [[presentable (infinity,1)-category|presentable (∞,1)-categories]]. [[pretriangulated dg-category|Pretriangulated dg-enriched categories]] and [[A-infinity category|A-∞ categories]] are a comparably highly developed toolkit for handling [[stable (∞,1)-category|stable (∞,1)-categories]].
+
+# Applications of higher category theory #
+
+## extended cobordisms ##
+
+One major application of higher category theory and to a large extent a driving force in developing it has been [[FQFT|extended functorial quantum field theory]]. This has recently led to what may become one of the central theorems of higher category theory, the proof of the [[cobordism hypothesis]]. This roughly characterizes the [[(∞,n)-category of cobordisms]] $Bord_n$ as the free [[(∞,n)-category]] with duals on a single generator.
+
+Since it is [thought](http://golem.ph.utexas.edu/category/2008/02/new_hire_at_ucr.html#c016709) that $Bord_n$ for $n = \infty$ is essentially the [[complex cobordism cohomology theory|cobordism spectrum]], this indicates a useful way in which higher category theory subsumes and refines [[stable homotopy theory]].
 
 
 #Development of higher category theory#
 
-Higher category theory is still very much in the making, even though things seem now to be converging to something. After a long time in which effort was concentrated on finding and comparing definitions of higher categories (see the literature below) more recently a school has established which proposes and uses simplicial [[geometric definition of higher category]] such as [[complete Segal space]]s and [[quasicategories]] as the starting point for higher category theory.
-
+Higher category theory is still very much in the making. 
 
 #Definitions#
 
@@ -69,15 +106,6 @@ There are two major _1-categorical_ tools for _implicitly_ handling higher categ
 The consistent combination of these two is 
 
 * [[homotopy coherent category theory]] or [[enriched homotopy theory]].
-
-
-#Applications#
-
-One crucial application of higher category theory is to [[FQFT|functorial quantum field theory]]. 
-
-The pivotal theorem here is the [[cobordism hypothesis]], a proof of which was recently announced and sketched. See
-
-[[On the Classification of Topological Field Theories]].
 
 
 #Literature#
