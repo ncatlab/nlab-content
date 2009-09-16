@@ -26,7 +26,32 @@ The development of differential logic is greatly facilitated by having a concept
 
 All other propositional connectives can be obtained through combinations of these two forms.  Strictly speaking, the parenthesized form is sufficient to define the concatenated form, making the latter formally dispensable, but it is convenient to maintain it as a concise way of expressing more complicated combinations of parenthesized forms.  While working with expressions solely in propositional calculus, it is easiest to use plain parentheses for logical connectives.  In contexts where ordinary parentheses are needed for other purposes an alternate typeface $\text{&#10647;} \text{&#65104;} \text{&#10648;}$ may be used for logical operators.
 
-Table&nbsp;1 collects a sample of basic propositional forms as expressed in terms of cactus language connectives.
+Table&nbsp;1 collects a sample of basic propositional forms as expressed in terms of cactus connectives.
+
+$$\array{
+\text{Table 1.  Syntax and Semantics of a Calculus for Propositional Logic}
+\\
+\array{
+\arrayopts{\frame{solid}\rowlines{solid none}}
+\text{Graph}
+& \text{Expression}
+& \text{Interpretation}
+& \text{Other Notations}
+\\
+
+&lt;img src=&quo;http://mywikibiz.com/images/e/e0/Rooted_Node.jpg&quo; width=&quo;20&quo;/>
+
+&
+& \mathop{true}
+& 1
+\\
+
+<img src="http://mywikibiz.com/images/f/f1/Rooted_Edge.jpg" width="20"/>
+
+& \text{&#x2997; \: &#x2998;}
+& \mathop{false}
+& 0
+}}$$
 
 ## External links ##
 
