@@ -8,17 +8,77 @@ Every wiki needs a sandbox! Just test _below_ and don't worry about messing thin
 
 ***
 
+Does it help any to have a local copy?
+
+[[Rooted_Node.jpg|Rooted Node:pic]]
+
+[[Rooted_Edge.jpg|Rooted Edge:pic]]
+
+***
+
+How do I put a scaled image inside an array?
+
+Image:
+
+![Rooted Edge](http://mywikibiz.com/images/f/f1/Rooted_Edge.jpg)
+
+[Rooted Edge](http://mywikibiz.com/images/f/f1/Rooted_Edge.jpg)
+
+Image scaled to 20px using HTML <img> tags:
+
+<img src='http://mywikibiz.com/images/f/f1/Rooted_Edge.jpg' width='20'/>
+
+Scaled image call placed in an array:
+
+$$\array{
+\arrayopts{\frame{solid}}
+&lt;img src='http://mywikibiz.com/images/f/f1/Rooted_Edge.jpg' width='20'/>
+}$$
+
+***
+
+HTML version of the first 2 rows:
+
+<table align="center" border="1" cellpadding="8" cellspacing="0" style="text-align:center; width:90%">
+<caption> <img class='tex' src="http://mywikibiz.com/images/math/4/b/7/4b714e121dcb7e880367b3c348294e1f.png" alt="\text{Table 1.}~~\text{Syntax and Semantics of a Calculus for Propositional Logic}" />
+</caption>
+
+<tr style="background:#f0f0ff">
+<td> <img class='tex' src="http://mywikibiz.com/images/math/c/f/8/cf8355a1bf9b6821ed2c15658060d349.png" alt="\text{Graph}\!" />
+</td><td> <img class='tex' src="http://mywikibiz.com/images/math/0/2/b/02ba04972afebb8d123c4e920909b8fb.png" alt="\text{Expression}\!" />
+</td><td> <img class='tex' src="http://mywikibiz.com/images/math/a/8/6/a8654d8844fc34a58809af813c22919a.png" alt="\text{Interpretation}\!" />
+</td><td> <img class='tex' src="http://mywikibiz.com/images/math/5/3/f/53f0ee60a3ccd002629b474070df9e53.png" alt="\text{Other Notations}\!" />
+</td></tr>
+<tr>
+<td height="100px"> <a href="/Image:Cactus_Node_Big_Fat.jpg" class="image" title=""><img alt="" longdesc="/Image:Cactus_Node_Big_Fat.jpg" src="http://mywikibiz.com/images/thumb/0/05/Cactus_Node_Big_Fat.jpg/20px-Cactus_Node_Big_Fat.jpg" width="20" height="10" /></a>
+</td><td> <img class='tex' src="http://mywikibiz.com/images/math/4/c/7/4c761f170e016836ff84498202b99827.png" alt="~" />
+</td><td> <img class='tex' src="http://mywikibiz.com/images/math/a/9/8/a98f0f208c522b8d25f88110dfa5be3a.png" alt="\operatorname{true}" />
+
+</td><td> <img class='tex' src="http://mywikibiz.com/images/math/3/3/f/33f7ec109298779a887aff2887ff9c7c.png" alt="1\!" />
+</td></tr>
+<tr>
+<td height="100px"> <a href="/Image:Cactus_Spike_Big_Fat.jpg" class="image" title=""><img alt="" longdesc="/Image:Cactus_Spike_Big_Fat.jpg" src="http://mywikibiz.com/images/thumb/1/15/Cactus_Spike_Big_Fat.jpg/20px-Cactus_Spike_Big_Fat.jpg" width="20" height="51" /></a>
+</td><td> <img class='tex' src="http://mywikibiz.com/images/math/3/7/f/37f1dfde729312575b502e8b80c4f1b1.png" alt="\texttt{(~)}" />
+</td><td> <img class='tex' src="http://mywikibiz.com/images/math/8/5/5/855c491bdfa6847adb8adea57c8a78f4.png" alt="\operatorname{false}" />
+</td><td> <img class='tex' src="http://mywikibiz.com/images/math/f/7/4/f7496913e3e61d6a5227c611eb355e93.png" alt="0\!" />
+</td></tr>
+</table>
+
+But it puts heavy borders around the images here !?
+
+***
+
 Ordered pair $(A, X)$ such that $A \subseteq X$
 
-* \overset{\subseteq}{,} &#8594; $\overset{\subseteq}{,}$
-* \stackrel{\subseteq}{,} &#8594; $\stackrel{\subseteq}{,}$
-* \underset{,}{\subseteq} &#8594; $\underset{,}{\subseteq}$
+* \overset{\subseteq}{,} &rarr; $\overset{\subseteq}{,}$
+* \stackrel{\subseteq}{,} &rarr; $\stackrel{\subseteq}{,}$
+* \underset{,}{\subseteq} &rarr; $\underset{,}{\subseteq}$
 
 ***
 
 Z-notation relational composition
 
-* &#10814; &#8594; &#10814;
+* &amp;#x2A3E; &rarr; &#x2A3E;
 
 ***
 
@@ -150,10 +210,10 @@ Black Tortoise Shell Brackets?
 
 These look close to the "Chicago" and "Hollywood" fonts that I used to use for logical ops on my old Mac.
 
-* &#10647; &#8594; &#10647;
-* &#65104; &#8594; &#65104;
-* , &#8594; ,
-* &#10648; &#8594; &#10648;
+* &amp;#x2997; &rarr; &#10647;
+* &amp;#xFE50; &rarr; &#65104;
+* &amp;#xFF0C; &rarr; ,
+* &amp;#x2998; &rarr; &#10648;
 
 __Ref.__ Unicode Punctuation:
 1.  [Open](http://www.sql-und-xml.de/unicode-database/ps.html)
@@ -176,8 +236,8 @@ Can I use them in math and \text frames?
 
 1.  math frame:  $&#10647; &#65104; &#10648; &#10647; &#65104; &#10648;$
 1.  \text frame:  $\text{&#10647; &#65104; &#10648; &#10647; &#65104; &#10648;}$
-1.  \text{&#10647; &#65104; &#10648; &#10647; &#65104; &#10648;} &#8594; $\text{&#10647; &#65104; &#10648; &#10647; &#65104; &#10648;}$
-1.  \text{&#10647; , &#10648; &#10647; , &#10648;} &#8594; $\text{&#10647; , &#10648; &#10647; , &#10648;}$
+1.  \text{&amp;#x2997; &amp;#xFE50; &amp;#x2998; &amp;#x2997; &amp;#xFE50; &amp;#x2998;} &rarr; $\text{&#x2997; &#xFE50; &#x2998; &#x2997; &#xFE50; &#x2998;}$
+1.  \text{&amp;#x2997; &amp;#xFF0C; &amp;#x2998; &amp;#x2997; &amp;#xFF0C; &amp;#x2998;} &rarr; $\text{&#x2997; &#xFF0C; &#x2998; &#x2997; &#xFF0C; &#x2998;}$
 
 Can I use code in math and \text frames?
 
