@@ -1,4 +1,3 @@
-
 **[[mathematics]]**
 
 ##Contents
@@ -71,4 +70,9 @@
 
     * [[operator algebras]]
 
+  * [[Fourier transform]]
+
+* discrete mathematics
+
+  * [[graph]], [[quiver]], [[poset]], [[relation]], [[filter]]...
 <div markdown="1">[Edit this sidebar](/nlab/edit/mathematicscontents)</div>
