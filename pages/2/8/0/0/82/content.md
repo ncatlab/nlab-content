@@ -1,3 +1,13 @@
+<div class="rightHandSide toc">
+[[!include mathematicscontents]]
+***
+[[!include category theory - contents]]
+***
+[[!include topos theory - contents]]
+</div>
+
+
+The theory of [[topos]]es in general and of [[Grothendieck topos]]es -- [[category of sheaves|categories of sheaves]] -- in particular.
 
 See the linked keyword lists at the entries on
 
