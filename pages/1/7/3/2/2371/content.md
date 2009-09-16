@@ -32,7 +32,9 @@
 
   * [[E-∞ ring]]
 
-* [[operad]]
+* [[(∞,1)-operad]]
+
+  * [[operad]]
 
   * [[algebra over an operad]]
 
