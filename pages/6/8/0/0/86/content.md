@@ -1,3 +1,9 @@
+<div class="rightHandSide toc">
+[[!include physicscontents]]
+</div>
+
+
+
 #Idea#
 
 BV theory is the answer to two different questions:
@@ -22,7 +28,7 @@ See [[homological resolution]].
 
 _Comment_: Kevin Costello is preparing a [book](http://www.math.northwestern.edu/~costello/renormalization) on _Renormalization of quantum field theories_, available on his webpage. He has a section entitled _The BV construction as symplectic reduction_ [](http://www.math.northwestern.edu/~costello/chap3.pdf#page=7). Could you somehow link your explanation to that in some way?
 
-_Urs says:_ I have (only) a vague hunch that Lagrangian and Hamiltonian BV are related in some way by "holography" of sorts, in a way that explains why the master equation in Lagrangian BV -- $\Delta exp(S) = 0$ -- looks like a Schr&#246;dinger equation if one re-interprets the space of histories with the space of states of a system of one dimension higher. Some very useful observations in this regard are in S.L. Lyakhovich, A.A. Sharapov,
+_Urs says:_ I have (only) a vague hunch that Lagrangian and Hamiltonian BV are related in some way by "holography" of sorts, in a way that explains why the master equation in Lagrangian BV -- $\Delta exp(S) = 0$ -- looks like a Schr&ouml;dinger equation if one re-interprets the space of histories with the space of states of a system of one dimension higher. Some very useful observations in this regard are in S.L. Lyakhovich, A.A. Sharapov,
 _Quantization of Donaldson-Uhlenbeck-Yau theory_
 [arXiv](http://arxiv.org/abs/0705.1871), which I talk about at the end of [this](http://golem.ph.utexas.edu/category/2007/08/lyakhonov_and_sharapov_on_qft.html).
 
@@ -125,7 +131,7 @@ Other introductions include
 
 *  A. Cattaneo, From Topological Field Theory to Deformation Quantization and Reduction, ICM 2006. ([pdf](http://www.math.uzh.ch/fileadmin/math/preprints/icm.pdf))
 
-*  M. B&#228;chtold, On the finite dimensional BV formalism, 2005. ([pdf](http://www.math.uzh.ch/reports/04_05.pdf))
+*  M. B&auml;chtold, On the finite dimensional BV formalism, 2005. ([pdf](http://www.math.uzh.ch/reports/04_05.pdf))
 
 
 
@@ -145,7 +151,7 @@ Modern Physics Letters A, 5 7, 487--494
 
 #Further discussion#
 
-We had a discussion of some aspects of BV-formalism over at the $n$-Category Caf&#233; at [Frobenius Algebras and the BV Formalism](http://golem.ph.utexas.edu/category/2008/11/frobenius_algebras_and_the_bv.html).
+We had a discussion of some aspects of BV-formalism over at the $n$-Category Caf&eacute; at [Frobenius Algebras and the BV Formalism](http://golem.ph.utexas.edu/category/2008/11/frobenius_algebras_and_the_bv.html).
 
 
 [[!redirects BV-theory]]
