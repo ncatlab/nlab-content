@@ -1,9 +1,10 @@
+[[!redirects basic ideas of moduli stacks of curves and Gromov-Witten theory]]
 
 
 
 +-- {: .standout}
 
-This is a sub-entry of [[Gromov-Witten theory]]. See there for further background and context.
+This is a sub-entry of [[Gromov-Witten invariants]]. See there for further background and context.
 
 This entry is supposed to provide an exposition of some basic ideas underlying Gromov-Witten theory.
 
