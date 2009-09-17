@@ -80,24 +80,24 @@ Can I use them in math and \text frames?
 <tr>
 <td height="120px"><img alt="Cactus (A) Big" src="/nlab/files/Cactus_lAr_Big.jpg" width="20" height="79" /></td>
 <td><font size="+1">$\text{&#x2997;} a \text{&#x2998;}$</font></td>
-<td><font size="+1">$\mathop{not}\: a$</font></td>
+<td><font size="+1">$\mathop{not}\; a$</font></td>
 <td><font size="+1">$\not a \quad \widebar{a} \quad \overset{\mathop{~}}{a} \quad a'$</font></td></tr>
 
 <tr>
 <td height="100px"><img alt="Cactus ABC Big" src="/nlab/files/Cactus_ABC_Big.jpg" width="50" height="38" /></td>
-<td><font size="+1">$a \: b \: c$</font></td>
+<td><font size="+1">$a \; b \; c$</font></td>
 <td><font size="+1">$a \;\mathop{and}\; b \;\mathop{and}\; c$</font></td>
-<td><font size="+1">$a \:\wedge\: b \:\wedge\: c$</font></td></tr>
+<td><font size="+1">$a \;\wedge\; b \;\wedge\; c$</font></td></tr>
 
 <tr>
 <td height="160px"><img alt="Cactus ((A)(B)(C)) Big" src="/nlab/files/Cactus_llArlBrlCrr_Big.jpg" width="65" height="118" /></td>
 <td><font size="+1">$\text{&#x2997;&#x2997;} a \text{&#x2998;&#x2997;} b \text{&#x2998;&#x2997;} c \text{&#x2998;&#x2998;}$</font></td>
 <td><font size="+1">$a \;\mathop{or}\; b \;\mathop{or}\; c$</font></td>
-<td><font size="+1">$a \:\vee\: b \:\vee\: c$</font></td></tr>
+<td><font size="+1">$a \;\vee\; b \;\vee\; c$</font></td></tr>
 
 <tr>
 <td height="120px"><img alt="Cactus (A(B)) Big" src="/nlab/files/Cactus_lAlBrr_Big.jpg" width="60" height="80" /></td>
-<td><font size="+1">$\text{&#x2997;} a \:\text{&#x2997;} b \text{&#x2998;&#x2998;}$</font></td>
+<td><font size="+1">$\text{&#x2997;} a \;\text{&#x2997;} b \text{&#x2998;&#x2998;}$</font></td>
 <td><font size="+1">$\array{a \;\mathop{implies}\; b \\ \mathop{if}\; a \;\mathop{then}\; b}$</font></td>
 <td><font size="+1">$a \Rightarrow b$</font></td></tr>
 
@@ -117,13 +117,25 @@ Can I use them in math and \text frames?
 <td height="120px"><img alt="Cactus (A,B,C) Big" src="/nlab/files/Cactus_lAcBcCr_Big.jpg" width="65" height="78" /></td>
 <td><font size="+1">$\text{&#x2997;} a \text{&#xFE50;} b \text{&#xFE50;} c \text{&#x2998;}$</font></td>
 <td><font size="+1">$\array{\mathop{just one of} \\ a, b, c \\ \mathop{is false}.}$</font></td>
-<td><font size="+1">$\array{&amp; \widebar{a} \: b \: c \\ \vee &amp; a \: \widebar{b} \: c \\ \vee &amp; a \: b \: \widebar{c}}$</font></td></tr>
+<td><font size="+1">$\array{&amp; \widebar{a} \; b \; c \\ \vee &amp; a \; \widebar{b} \; c \\ \vee &amp; a \; b \; \widebar{c}}$</font></td></tr>
 
 <tr>
 <td height="160px"><img alt="Cactus ((A),(B),(C)) Big" src="/nlab/files/Cactus_llArclBrclCrr_Big.jpg" width="65" height="118" /></td>
 <td><font size="+1">$\text{&#x2997;&#x2997;} a \text{&#x2998;&#xFE50;&#x2997;} b \text{&#x2998;&#xFE50;&#x2997;} c \text{&#x2998;&#x2998;}$</font></td>
 <td><font size="+1">$\array{\mathop{just one of} \\ a, b, c \\ \mathop{is true}. \\ \\ \mathop{partition all} \\ \mathop{into}\; a, b, c.}$</font></td>
-<td><font size="+1">$\array{&amp; a \: \widebar{b} \: \widebar{c} \\ \vee &amp; \widebar{a} \: b \: \widebar{c} \\ \vee &amp; \widebar{a} \: \widebar{b} \: c}$</font></td></tr>
+<td><font size="+1">$\array{&amp; a \; \widebar{b} \; \widebar{c} \\ \vee &amp; \widebar{a} \; b \; \widebar{c} \\ \vee &amp; \widebar{a} \; \widebar{b} \; c}$</font></td></tr>
+
+<tr>
+<td height="160px"><img alt="Cactus (A,(B,C)) Big" src="/nlab/files/Cactus_lAclBcCrr_Big.jpg" width="90" height="119" /></td>
+<td><font size="+1">$\text{&#x2997;} a \text{&#xFE50;&#x2997;} b \text{&#xFE50;} c \text{&#x2998;&#x2998;}$</font></td>
+<td><font size="+1">$\array{\mathop{oddly many of} \\ a, b, c \\ \mathop{are true}.}$</font></td>
+<td><font size="+1">$\array{\cellopts{\colspan{2}} a + b + c \\ \\ &amp; a \; b \; c \\ \vee &amp; a \; \widebar{b} \; \widebar{c} \\ \vee &amp; \widebar{a} \; b \; \widebar{c} \\ \vee &amp; \widebar{a} \; \widebar{b} \; c}$</font></td></tr>
+
+<tr>
+<td><img alt="Cactus (X,(A),(B),(C)) Big" src="/nlab/files/Cactus_lXclArclBrclCrr_Big.jpg" width="90" height="119" /></td>
+<td><font size="+1">$\text{&#x2997;} x \text{&#xFE50;&#x2997;} a \text{&#x2998;&#xFE50;&#x2997;} b \text{&#x2998;&#xFE50;&#x2997;} c \text{&#x2998;&#x2998;}$</font></td>
+<td><font size="+1">$\array{\mathop{partition}\; x \\ \mathop{into}\; a, b, c. \\ \\ \mathop{genus}\; x \;\mathop{comprises} \\ \mathop{species}\; a, b, c.}$</font></td>
+<td><font size="+1">$\array{&amp; \widebar{x} \; \widebar{a} \; \widebar{b} \; \widebar{c} \\ \vee &amp; x \; a \; \widebar{b} \; \widebar{c} \\ \vee &amp; x \; \widebar{a} \; b \; \widebar{c} \\ \vee &amp; x \; \widebar{a} \; \widebar{b} \; c}$</font></td></tr>
 
 </table>
 
