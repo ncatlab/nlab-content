@@ -8,6 +8,14 @@ Every wiki needs a sandbox! Just test _below_ and don't worry about messing thin
 
 ***
 
+__Reference.__ Unicode Punctuation ![Boing](http://wikipediareview.com/smilys0b23ax56/default/boing.gif)
+1.  [Math](http://www.sql-und-xml.de/unicode-database/sm.html)
+1.  [Open](http://www.sql-und-xml.de/unicode-database/ps.html)
+1.  [Other](http://www.sql-und-xml.de/unicode-database/po.html)
+1.  [Close](http://www.sql-und-xml.de/unicode-database/pe.html)
+
+***
+
 Trying some new arrows: $\twoheadrightarrow$, $\rightarrowtail$, $\looparrowright$, $\nrightarrow$, $\upharpoonright$.
 
 ***
@@ -20,12 +28,6 @@ These look close to the "Chicago" and "Hollywood" fonts that I used to use for l
 * &#65104; &#8594; &#65104;
 * , &#8594; ,
 * &#10648; &#8594; &#10648;
-
-__Ref.__ Unicode Punctuation:
-1.  [Math](http://www.sql-und-xml.de/unicode-database/sm.html)
-1.  [Open](http://www.sql-und-xml.de/unicode-database/ps.html)
-1.  [Other](http://www.sql-und-xml.de/unicode-database/po.html)
-1.  [Close](http://www.sql-und-xml.de/unicode-database/pe.html)
 
 Are these visible on most other people's browsers?
 
@@ -79,7 +81,7 @@ Can I use them in math and \text frames?
 <td height="120px"><img alt="Cactus (A) Big" src="/nlab/files/Cactus_lAr_Big.jpg" width="20" height="79" /></td>
 <td><font size="+1">$\text{&#x2997;} a \text{&#x2998;}$</font></td>
 <td><font size="+1">$\mathop{not}\: a$</font></td>
-<td><font size="+1">$\not a \quad \widebar{a} \quad \overset{\text{&#x007E;}}{a} \quad a'$</font></td></tr>
+<td><font size="+1">$\not a \quad \widebar{a} \quad \overset{\mathop{~}}{a} \quad a'$</font></td></tr>
 
 <tr>
 <td height="100px"><img alt="Cactus ABC Big" src="/nlab/files/Cactus_ABC_Big.jpg" width="50" height="38" /></td>
@@ -92,6 +94,18 @@ Can I use them in math and \text frames?
 <td><font size="+1">$\text{&#x2997;&#x2997;} a \text{&#x2998;&#x2997;} b \text{&#x2998;&#x2997;} c \text{&#x2998;&#x2998;}$</font></td>
 <td><font size="+1">$a \;\mathop{or}\; b \;\mathop{or}\; c$</font></td>
 <td><font size="+1">$a \:\vee\: b \:\vee\: c$</font></td></tr>
+
+<tr>
+<td height="120px"><img alt="Cactus (A(B)) Big" src="/nlab/files/Cactus_lAlBrr_Big.jpg" width="60" height="80" /></td>
+<td><font size="+1">$\text{&#x2997;} a \:\text{&#x2997;} b \text{&#x2998;&#x2998;}$</font></td>
+<td><font size="+1">$\array{a \;\mathop{implies}\; b \\ \mathop{if}\; a \;\mathop{then}\; b}$</font></td>
+<td><font size="+1">$a \Rightarrow b$</font></td></tr>
+
+<tr>
+<td height="120px"><img alt="Cactus (A,B) Big" src="/nlab/files/Cactus_lAcBr_Big.jpg" width="65" height="78" /></td>
+<td><font size="+1">$\text{&#x2997;} a \text{&#xFE50;} b \text{&#x2998;}$</font></td>
+<td><font size="+1">$\array{a \;\mathop{not equal to}\; b \\ a \;\mathop{exclusive or}\; b}$</font></td>
+<td><font size="+1">$\array{a \ne b \\ a + b}$</font></td></tr>
 
 </table>
 
@@ -107,6 +121,9 @@ Does it help to upload local copies?
 [[Cactus_llArlBrlCrr_Big.jpg|Cactus ((A)(B)(C)) Big:pic]]
 [[Cactus_lAlBrr_Big.jpg|Cactus (A(B)) Big:pic]]
 [[Cactus_lAcBr_Big.jpg|Cactus (A,B) Big:pic]]
+[[Cactus_llAcBrr_Big.jpg|Cactus ((A,B)) Big:pic]]
+[[Cactus_lAcBcCr_Big.jpg|Cactus (A,B,C) Big:pic]]
+[[Cactus_llArclBrclCrr_Big.jpg|Cactus ((A),(B),(C)) Big:pic]]
 
 ***
 
@@ -118,6 +135,9 @@ Does it help to upload local copies?
 <img alt="Cactus ((A)(B)(C)) Big" src="/nlab/files/Cactus_llArlBrlCrr_Big.jpg" width="65" height="118" />
 <img alt="Cactus (A(B)) Big" src="/nlab/files/Cactus_lAlBrr_Big.jpg" width="60" height="80" />
 <img alt="Cactus (A,B) Big" src="/nlab/files/Cactus_lAcBr_Big.jpg" width="65" height="78" />
+<img alt="Cactus ((A,B)) Big" src="/nlab/files/Cactus_llAcBrr_Big.jpg" width="65" height="118" />
+<img alt="Cactus (A,B,C) Big" src="/nlab/files/Cactus_lAcBcCr_Big.jpg" width="65" height="78" />
+<img alt="Cactus ((A),(B),(C)) Big" src="/nlab/files/Cactus_llArclBrclCrr_Big.jpg" width="65" height="118" />
 
 ***
 
