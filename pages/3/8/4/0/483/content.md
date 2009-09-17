@@ -1,7 +1,18 @@
 #Idea#
 
-A _directed space_ is a topological space in which not every path is to be thought of as traversable in both directions. 
-Directed spaces are supposed to be to general $\infty$-[[infinity-category|categories]] as ordinary [[topological space|topological spaces]] are to $\infty$-[[infinity-groupoid|groupoids]] via the [[homotopy hypothesis]].
+A _directed space_ is a [[topological space]] $X$ in which not every singular cell $\Delta^n \to X$ (for $\Delta^n$ the standard topological [[simplex]]) is supposed to be _traversable_ in all directions: instead these $k$-dimensional _paths_ may have a _direction_ .
+
+For $r \in \mathbb{N}$, an _$r$-directed space_ is a directed space in which all $k$-cells for $k \gt r$ are reversible, but not necessarily those for $0 \leq k \leq r$.
+
+A $0$-directed space is an ordinary [[topological space]]. By the [[homotopy hypothesis]] these are to be identified with [[infinity-groupoid]]s, which in turn are to be thought of as [[(infinity,0)-category|(infinity,0)-categories]].
+
+A 1-directed space is often just called a **directed space**. Accordingly, this is supposed to correspond to an [[(infinity,1)-category]].
+
+Accordingly, an $r$-directed space is supposed to correspond to an [[(infinity,n)-category|(infinity,r)-category]].
+
+From the perspective of [[homotopy theory]] one might take the standpoint of the [[homotopy hypothesis]] and _define_ a (niced) $r$-diected space to be an [[(infinity,n)-category|(infinity,r)-category]].
+
+See [[(n,r)-category]] for more on that.
 
 Note that a directed space is generalised space; not every directed space is a space in the old sense, in accordance with the [[red herring principle]].
 
