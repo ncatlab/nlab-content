@@ -8,33 +8,76 @@ Every wiki needs a sandbox! Just test _below_ and don't worry about messing thin
 
 ***
 
+Trying some new arrows: $\twoheadrightarrow$, $\rightarrowtail$, $\looparrowright$, $\nrightarrow$, $\upharpoonright$.
+
+***
+
+Black Tortoise Shell Brackets ---
+
+These look close to the "Chicago" and "Hollywood" fonts that I used to use for logical ops on my old Mac.
+
+* &#10647; &#8594; &#10647;
+* &#65104; &#8594; &#65104;
+* , &#8594; ,
+* &#10648; &#8594; &#10648;
+
+__Ref.__ Unicode Punctuation:
+1.  [Open](http://www.sql-und-xml.de/unicode-database/ps.html)
+1.  [Other](http://www.sql-und-xml.de/unicode-database/po.html)
+1.  [Close](http://www.sql-und-xml.de/unicode-database/pe.html)
+
+Are these visible on most other people's browsers?
+
+Testing whether I can cut and paste the display forms in the edit window:
+
+: &#10647; &#65104; &#10648;
+
+: &#10647;&#10647; &#65104; &#10648;&#10648;
+
+: &#10647; &#65104; &#10648;&#10647; &#65104; &#10648; = &#10647; &#65104; &#10648;
+
+Cool! ![Shades](http://wikipediareview.com/stimg9x0b4fsr2/1/folder_post_icons/icon9.gif)
+
+Can I use them in math and \text frames?
+
+1.  \text frame:  $\text{&#10647; &#65104; &#10648; &#10647; &#65104; &#10648;}$
+1.  \text{&#10647; &#65104; &#10648; &#10647; &#65104; &#10648;} &#8594; $\text{&#10647; &#65104; &#10648; &#10647; &#65104; &#10648;}$
+1.  \text{&#10647; , &#10648; &#10647; , &#10648;} &#8594; $\text{&#10647; , &#10648; &#10647; , &#10648;}$
+
+***
+
 Cactus Graphs Local, Other Images Remote ---
 
-<table align="center" border="1" cellpadding="8" cellspacing="0" style="text-align:center; width:90%">
-<caption> <img class='tex' src="http://mywikibiz.com/images/math/4/b/7/4b714e121dcb7e880367b3c348294e1f.png" alt="\text{Table 1.}~~\text{Syntax and Semantics of a Calculus for Propositional Logic}" />
-</caption>
+<table align="center" border="1" cellpadding="8" cellspacing="0" markdown="1" style="text-align:center; width:90%">
+<caption><font size="+2">$\text{Table 1.  Syntax and Semantics of a Calculus for Propositional Logic}$</font></caption>
 
 <tr style="background:#f0f0ff">
-<td> <img class='tex' src="http://mywikibiz.com/images/math/c/f/8/cf8355a1bf9b6821ed2c15658060d349.png" alt="\text{Graph}\!" />
-</td><td> <img class='tex' src="http://mywikibiz.com/images/math/0/2/b/02ba04972afebb8d123c4e920909b8fb.png" alt="\text{Expression}\!" />
-</td><td> <img class='tex' src="http://mywikibiz.com/images/math/a/8/6/a8654d8844fc34a58809af813c22919a.png" alt="\text{Interpretation}\!" />
-</td><td> <img class='tex' src="http://mywikibiz.com/images/math/5/3/f/53f0ee60a3ccd002629b474070df9e53.png" alt="\text{Other Notations}\!" />
-</td></tr>
+
+<td><img class='tex' src="http://mywikibiz.com/images/math/c/f/8/cf8355a1bf9b6821ed2c15658060d349.png" alt="\text{Graph}\!" /></td>
+
+<td><img class='tex' src="http://mywikibiz.com/images/math/0/2/b/02ba04972afebb8d123c4e920909b8fb.png" alt="\text{Expression}\!" /></td>
+
+<td><img class='tex' src="http://mywikibiz.com/images/math/a/8/6/a8654d8844fc34a58809af813c22919a.png" alt="\text{Interpretation}\!" /></td>
+
+<td><img class='tex' src="http://mywikibiz.com/images/math/5/3/f/53f0ee60a3ccd002629b474070df9e53.png" alt="\text{Other Notations}\!" /></td></tr>
 
 <tr>
-<td height="100px"><img alt="Rooted Node" src="/nlab/files/Rooted_Node.jpg" width="20" height="10" />
-</td><td> <img class='tex' src="http://mywikibiz.com/images/math/4/c/7/4c761f170e016836ff84498202b99827.png" alt="~" />
-</td><td> <img class='tex' src="http://mywikibiz.com/images/math/a/9/8/a98f0f208c522b8d25f88110dfa5be3a.png" alt="\operatorname{true}" />
-</td><td> <img class='tex' src="http://mywikibiz.com/images/math/3/3/f/33f7ec109298779a887aff2887ff9c7c.png" alt="1\!" />
-</td></tr>
+<td height="100px"><img alt="Rooted Node" src="/nlab/files/Rooted_Node.jpg" width="20" height="10" /></td>
+
+<td><img class='tex' src="http://mywikibiz.com/images/math/4/c/7/4c761f170e016836ff84498202b99827.png" alt="~" /></td>
+
+<td><img class='tex' src="http://mywikibiz.com/images/math/a/9/8/a98f0f208c522b8d25f88110dfa5be3a.png" alt="\operatorname{true}" /></td>
+
+<td><img class='tex' src="http://mywikibiz.com/images/math/3/3/f/33f7ec109298779a887aff2887ff9c7c.png" alt="1\!" /></td></tr>
 
 <tr>
-<td height="100px"><img alt="Rooted Edge" src="/nlab/files/Rooted_Edge.jpg" width="20" height="51" />
-</td><td> <img class='tex' src="http://mywikibiz.com/images/math/3/7/f/37f1dfde729312575b502e8b80c4f1b1.png" alt="\texttt{(~)}" />
-</td><td> <img class='tex' src="http://mywikibiz.com/images/math/8/5/5/855c491bdfa6847adb8adea57c8a78f4.png" alt="\operatorname{false}" />
-</td><td> <img class='tex' src="http://mywikibiz.com/images/math/f/7/4/f7496913e3e61d6a5227c611eb355e93.png" alt="0\!" />
-</td></tr>
-</table>
+<td height="100px"><img alt="Rooted Edge" src="/nlab/files/Rooted_Edge.jpg" width="20" height="51" /></td>
+
+<td><img class='tex' src="http://mywikibiz.com/images/math/3/7/f/37f1dfde729312575b502e8b80c4f1b1.png" alt="\texttt{(~)}" /></td>
+
+<td><img class='tex' src="http://mywikibiz.com/images/math/8/5/5/855c491bdfa6847adb8adea57c8a78f4.png" alt="\operatorname{false}" /></td>
+
+<td><img class='tex' src="http://mywikibiz.com/images/math/f/7/4/f7496913e3e61d6a5227c611eb355e93.png" alt="0\!" /></td></tr></table>
 
 ***
 
@@ -43,15 +86,18 @@ Does it help to upload local copies?
 [[Rooted_Node.jpg|Rooted Node:pic]]
 [[Rooted_Edge.jpg|Rooted Edge:pic]]
 [[Cactus_A_Big.jpg|Cactus A Big:pic]]
+[[Cactus_lAr_Big.jpg|Cactus (A) Big:pic]]
 [[Cactus_ABC_Big.jpg|Cactus ABC Big:pic]]
+[[Cactus_llArlBrlCrr_Big.jpg|Cactus ((A)(B)(C)) Big:pic]]
 
-<center>
+***
+
 <img alt="Rooted Node" src="/nlab/files/Rooted_Node.jpg" width="20" height="10" />
 <img alt="Rooted Edge" src="/nlab/files/Rooted_Edge.jpg" width="20" height="51" />
-<img alt="Cactus A Big" src="/nlab/files/Cactus_A_Big.jpg" width="20" />
-<img alt="Cactus ABC Big" src="/nlab/files/Cactus_ABC_Big.jpg" width="50" />
-
-</center>
+<img alt="Cactus A Big" src="/nlab/files/Cactus_A_Big.jpg" width="20" height="38" />
+<img alt="Cactus (A) Big" src="/nlab/files/Cactus_lAr_Big.jpg" width="20" height="79" />
+<img alt="Cactus ABC Big" src="/nlab/files/Cactus_ABC_Big.jpg" width="50" height="38" />
+<img alt="Cactus ((A)(B)(C)) Big" src="/nlab/files/Cactus_llArlBrlCrr_Big.jpg" width="65" height="118" />
 
 ***
 
@@ -119,10 +165,6 @@ Ordered pair $(A, X)$ such that $A \subseteq X$
 Z-notation relational composition
 
 * &amp;#x2A3E; &rarr; &#x2A3E;
-
-***
-
-Trying some new arrows: $\twoheadrightarrow$, $\rightarrowtail$, $\looparrowright$, $\nrightarrow$, $\upharpoonright$.
 
 ***
 
@@ -245,39 +287,6 @@ This used to work in MediaWiki LaTeX for slashing operators and arrows:
 $\not$ here ...
 
 ***
-
-Black Tortoise Shell Brackets?
-
-These look close to the "Chicago" and "Hollywood" fonts that I used to use for logical ops on my old Mac.
-
-* &amp;#x2997; &rarr; &#10647;
-* &amp;#xFE50; &rarr; &#65104;
-* &amp;#xFF0C; &rarr; ,
-* &amp;#x2998; &rarr; &#10648;
-
-__Ref.__ Unicode Punctuation:
-1.  [Open](http://www.sql-und-xml.de/unicode-database/ps.html)
-1.  [Other](http://www.sql-und-xml.de/unicode-database/po.html)
-1.  [Close](http://www.sql-und-xml.de/unicode-database/pe.html)
-
-Are these visible on most other people's browsers?
-
-Testing whether I can cut and paste the display forms in the edit window:
-
-: &#10647; &#65104; &#10648;
-
-: &#10647;&#10647; &#65104; &#10648;&#10648;
-
-: &#10647; &#65104; &#10648;&#10647; &#65104; &#10648; = &#10647; &#65104; &#10648;
-
-Cool! ![](http://wikipediareview.com/stimg9x0b4fsr2/1/folder_post_icons/icon9.gif)
-
-Can I use them in math and \text frames?
-
-1.  math frame:  $&#10647; &#65104; &#10648; &#10647; &#65104; &#10648;$
-1.  \text frame:  $\text{&#10647; &#65104; &#10648; &#10647; &#65104; &#10648;}$
-1.  \text{&amp;#x2997; &amp;#xFE50; &amp;#x2998; &amp;#x2997; &amp;#xFE50; &amp;#x2998;} &rarr; $\text{&#x2997; &#xFE50; &#x2998; &#x2997; &#xFE50; &#x2998;}$
-1.  \text{&amp;#x2997; &amp;#xFF0C; &amp;#x2998; &amp;#x2997; &amp;#xFF0C; &amp;#x2998;} &rarr; $\text{&#x2997; &#xFF0C; &#x2998; &#x2997; &#xFF0C; &#x2998;}$
 
 Can I use code in math and \text frames?
 
