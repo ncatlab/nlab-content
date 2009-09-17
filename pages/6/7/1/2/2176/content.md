@@ -87,9 +87,27 @@ Table&nbsp;1 collects a sample of basic propositional forms as expressed in term
 <td><font size="+1">$\array{a \;\mathop{not equal to}\; b \\ a \;\mathop{exclusive or}\; b}$</font></td>
 <td><font size="+1">$\array{a \ne b \\ a + b}$</font></td></tr>
 
+<tr>
+<td height="160px"><img alt="Cactus ((A,B)) Big" src="/nlab/files/Cactus_llAcBrr_Big.jpg" width="65" height="118" /></td>
+<td><font size="+1">$\text{&#x2997;&#x2997;} a \text{&#xFE50;} b \text{&#x2998;&#x2998;}$</font></td>
+<td><font size="+1">$\array{a \;\mathop{is equal to}\; b \\ a \;\mathop{if and only if}\; b}$</font></td>
+<td><font size="+1">$\array{a = b \\ a \Leftrightarrow b}$</font></td></tr>
+
+<tr>
+<td height="120px"><img alt="Cactus (A,B,C) Big" src="/nlab/files/Cactus_lAcBcCr_Big.jpg" width="65" height="78" /></td>
+<td><font size="+1">$\text{&#x2997;} a \text{&#xFE50;} b \text{&#xFE50;} c \text{&#x2998;}$</font></td>
+<td><font size="+1">$\array{\mathop{just one of} \\ a, b, c \\ \mathop{is false}.}$</font></td>
+<td><font size="+1">$\array{&amp; \widebar{a} \: b \: c \\ \vee &amp; a \: \widebar{b} \: c \\ \vee &amp; a \: b \: \widebar{c}}$</font></td></tr>
+
+<tr>
+<td height="160px"><img alt="Cactus ((A),(B),(C)) Big" src="/nlab/files/Cactus_llArclBrclCrr_Big.jpg" width="65" height="118" /></td>
+<td><font size="+1">$\text{&#x2997;&#x2997;} a \text{&#x2998;&#xFE50;&#x2997;} b \text{&#x2998;&#xFE50;&#x2997;} c \text{&#x2998;&#x2998;}$</font></td>
+<td><font size="+1">$\array{\mathop{just one of} \\ a, b, c \\ \mathop{is true}. \\ \\ \mathop{partition all} \\ \mathop{into}\; a, b, c.}$</font></td>
+<td><font size="+1">$\array{&amp; a \: \widebar{b} \: \widebar{c} \\ \vee &amp; \widebar{a} \: b \: \widebar{c} \\ \vee &amp; \widebar{a} \: \widebar{b} \: c}$</font></td></tr>
+
 </table>
 
-__NB.__ Still working on this &hellip; [[JA]]
+***
 
 <img alt="Rooted Node" src="/nlab/files/Rooted_Node.jpg" width="20" height="10" />
 <img alt="Rooted Edge" src="/nlab/files/Rooted_Edge.jpg" width="20" height="51" />
@@ -102,6 +120,8 @@ __NB.__ Still working on this &hellip; [[JA]]
 <img alt="Cactus ((A,B)) Big" src="/nlab/files/Cactus_llAcBrr_Big.jpg" width="65" height="118" />
 <img alt="Cactus (A,B,C) Big" src="/nlab/files/Cactus_lAcBcCr_Big.jpg" width="65" height="78" />
 <img alt="Cactus ((A),(B),(C)) Big" src="/nlab/files/Cactus_llArclBrclCrr_Big.jpg" width="65" height="118" />
+
+***
 
 ## External links ##
 
