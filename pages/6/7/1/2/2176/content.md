@@ -49,9 +49,35 @@ Table&nbsp;1 collects a sample of basic propositional forms as expressed in term
 <td height="100px"><img alt="Rooted Edge" src="/nlab/files/Rooted_Edge.jpg" width="20" height="51" /></td>
 <td><font size="+1">$\text{&#x2997;&nbsp;&#x2998;}$</font></td>
 <td><font size="+1">$\mathop{false}$</font></td>
-<td><font size="+1">$0$</font></td></tr></table>
+<td><font size="+1">$0$</font></td></tr>
 
-__NB.__ Still working on this --- can probably trim away the remote content over time. ---[[JA]]
+<tr>
+<td height="100px"><img alt="Cactus A Big" src="/nlab/files/Cactus_A_Big.jpg" width="20" height="38" /></td>
+<td><font size="+1">$a$</font></td>
+<td><font size="+1">$a$</font></td>
+<td><font size="+1">$a$</font></td></tr>
+
+<tr>
+<td height="120px"><img alt="Cactus (A) Big" src="/nlab/files/Cactus_lAr_Big.jpg" width="20" height="79" /></td>
+<td><font size="+1">$\text{&#x2997;} a \text{&#x2998;}$</font></td>
+<td><font size="+1">$\mathop{not}\: a$</font></td>
+<td><font size="+1">$\not a \quad \widebar{a} \quad \overset{\text{&#x007E;}}{a} \quad a'$</font></td></tr>
+
+<tr>
+<td height="100px"><img alt="Cactus ABC Big" src="/nlab/files/Cactus_ABC_Big.jpg" width="50" height="38" /></td>
+<td><font size="+1">$a \: b \: c$</font></td>
+<td><font size="+1">$a \;\mathop{and}\; b \;\mathop{and}\; c$</font></td>
+<td><font size="+1">$a \:\wedge\: b \:\wedge\: c$</font></td></tr>
+
+<tr>
+<td height="160px"><img alt="Cactus ((A)(B)(C)) Big" src="/nlab/files/Cactus_llArlBrlCrr_Big.jpg" width="65" height="118" /></td>
+<td><font size="+1">$\text{&#x2997;&#x2997;} a \text{&#x2998;&#x2997;} b \text{&#x2998;&#x2997;} c \text{&#x2998;&#x2998;}$</font></td>
+<td><font size="+1">$a \;\mathop{or}\; b \;\mathop{or}\; c$</font></td>
+<td><font size="+1">$a \:\vee\: b \:\vee\: c$</font></td></tr>
+
+</table>
+
+__NB.__ Still working on this &hellip; [[JA]]
 
 <img alt="Rooted Node" src="/nlab/files/Rooted_Node.jpg" width="20" height="10" />
 <img alt="Rooted Edge" src="/nlab/files/Rooted_Edge.jpg" width="20" height="51" />
