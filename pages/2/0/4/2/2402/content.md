@@ -33,7 +33,7 @@ This entry is supposed to provide an exposition of some basic ideas underlying G
 * a notion of "familiy"/"deformation" of these objects
 
 * some [[equivalence relation]] $\sim$ (possibly trivial)
-  on the set of families $S(B)$ over $B$
+  on the set of such families $S(B)$ over $B$
 
 from this we get a [[functor]] (a [[presheaf]])
 
@@ -67,11 +67,23 @@ $$
   Hom_{Ho(Top)}(B, \mathbb{C}P^\infty)
 $$
 
-so $\mathbb{C}P^\infty$ is a [[classifying space]] for complex line bundle.
+so $\mathbb{C}P^\infty$ is a [[classifying space]] for complex line bundle. Similarly for higher rank vector bundles and Grassmannians.
+
+The analogue in the algebraic category is
+$$
+\left\{ line bundles L over B with generating sections s_0,...,s_n \in \Gamma(L) \right} / isom
+\leftrightarrow
+Hom(B, \mathbb{P}^n).
+$$
+And also similarly for higher rank vector bundles and Grassmannians.
+
+
+Despite these examples, in a lot of cases the functors are not representable. We'll see some of these examples below.
+
 
 Why are [[fine moduli space]]s desireable?
 
-they allow to study a _single_ family which tells us universal things about all families.
+They allow us to study a _single_ family which tells us universal things about all families. Even if you do not care about families or deformations, moduli spaces can help, because they can tell you something about trivial families, i.e. the objects that you are studying to begin with.
 
 **example** studying the [[cohomology ring]]s of $Gr_n(\mathbb{R}^\infty)$ or $Gr_n(\mathbb{C}^\infty)$, which are the classifying space for higher rank real and complex [[vector bundle]]s gives universal relations among [[Chern class]]es, etc.
 
@@ -153,7 +165,7 @@ now send $\mathbb{A}^1_\lambda \to \mathbb{A}^1_{\lambda}$
 
 by dually sending $\lambda \mapsto 1-\lambda$  
 
-check if $j(\chi_\lambda) = j(\chi_{1-\lambda})$
+check that $j(\chi_\lambda) = j(\chi_{1-\lambda})$
 
 
 this induces in the fibers a map
@@ -168,18 +180,20 @@ this maps further to $(x,-y,\lambda)$. But this would have to be the identity fo
 
 so that gives some computational insight that something goes wrong
 
-**abstract argument** generally, fine moduli spaces do not existt if the objects to be classified have nontrivial [[automorphism]]s. This allows to build families of objects that are locally trivial but globally not and no finite moduli space will be able to represent that.
+This argument does not prove that there exists no moduli space of elliptic curves. It merely proves that the "j-line" $\mathbb{A}^1$ can not be the moduli space of elliptic curves. However, the basic argument can be adapted, if one so desires, to in fact prove that there is no moduli space of elliptic curves. Alternatively you can use the sheaf argument below (however, I think the make that argument work out completely you need to introduce some extra language, etale covers and so forth).
 
->this argument makes use of the fact that if we have a moduli space, then the preshesaf we started with must actually be a [[sheaf]] (with respect to a [[subcanonical topology]] that is implicitly assumed, probably). so we know that we should be able to compute it from gluing its localassignments. But locally our locally trivial family looks, well, trivial, so it all looks the same to our sheaf. So it will just try to glue the trivial object to itself, which is not what we actually have.
+**abstract argument** generally, fine moduli spaces do not exist if the objects to be classified have nontrivial [[automorphism]]s. This allows to build families of objects that are locally trivial but globally not and no finite moduli space will be able to represent that.
 
-**General principle** [[automorphism]]s of objects are obsztructions to the existence of an (ordinary) [[fine moduli space]] classifying these objects.
+>this argument makes use of the fact that if we have a moduli space, then the preshesaf we started with must actually be a [[sheaf]] (with respect to a [[subcanonical topology]] that is implicitly assumed, probably). so we know that we should be able to compute it from gluing its local assignments. But locally our locally trivial family looks, well, trivial, so it all looks the same to our sheaf. So it will just try to glue the trivial object to itself, which is not what we actually have.
+
+**General principle** [[automorphism]]s of objects are obstructions to the existence of an (ordinary) [[fine moduli space]] classifying these objects.
 
 
 **How to "fix" these problems**. 
 
 1. add extra structure to the objects under consideration (add marked points)
 
-1. instead of looking for representing [[topological space]]s, look for representing [[groupoid]]s / [[stack]]s.
+2. instead of looking for representing [[topological space]]s, look for representing [[groupoid]]s / [[stack]]s.
 
 3. use [[coarse moduli space]]s  $M \in Sch/\mathbb{C}$ with $\Psi_M : F \to h_M$ such that 
 
@@ -201,9 +215,9 @@ $M_{g,n}$ is a [[smooth scheme|smooth]] [[Deligne-Mumford stack]] - aka [[orbifo
 
 **Issues**:
 
-1. $M_{g,n}$ is not proper, meaning: not compact, so we don't have [[Poincare duality]] on $M_{g,n}$ and no [[integration]] theory
+1. $M_{g,n}$ is not proper, meaning: not compact, so we don't have, for example, [[Poincare duality]] on $M_{g,n}$ and no [[integration]] theory. Proper, or even better projective, schemes or stacks are just a lot easier to deal with.
 
-1. sometimes one wants to study singular curvesor families with degeneracies.
+2. sometimes one wants to study singular curves or families with degeneracies.
 
 Both "issues" can be "resolved" via [[Deligne-Mumford compactification]].
 
@@ -211,38 +225,42 @@ $$
   \bar M_{g,n}
 $$
 
-which parameterizes at-most-nodal curves, that are connected, arithmetic, of [[genus]] $g$, with $n$ smooth marked points, and the group of [[automorphism]]s is finite.
+which parameterizes at-most-nodal curves, that are connected, arithmetic [[genus]] $g$, with $n$ smooth marked points, and the group of [[automorphism]]s is finite.
 
 $\bar M_{g,n}$ is a smooth proper [[Deligne-Mumford stack]].
 
 smooth here means smoothness as for [[orbifold]]s.
 
+Deligne and Mumford were able to prove many theorems about the ordinary moduli space of curves by studying instead the compactification.
+
 
 
 #Intro Part II: basics of Gromov-Witten theory{#intropart2}
 
-**Gromov** was looking for invariants of [[symplectic manifold]]s: he used $j$-holomorphic curves in compact symplectic manifolds to get symplectic invariants
+**Gromov** was looking for invariants of [[symplectic manifold]]s: he used $J$-holomorphic curves in compact symplectic manifolds to get symplectic invariants
 
 **[[Edward Witten]]** studied [[worldsheet]]s of [[string theory|string]]s in some [[spacetime]] [[manifold]] (e.g a [[Calabi-Yau space|Calabi-Yau 3-fold]])
 
-we want to consider  now [[genus]] $g$ [[Riemann surface]]s with $n$ marked points mapping into some space $X$
+we want to consider now [[genus]] $g$ [[Riemann surface]]s with $n$ marked points mapping into some space $X$
+
+For a fixed
+
+$$
+  \beta \in H_2(X, \mathbb{Z}),
+$$
+
 
 $$
   M_{g,n}(X,\beta)
 $$
 
-is the space that parameterizes tuples consisting of homology classes
-
-$$
-  \beta \in H_2(X, \mathbb{Z})
-$$
-
-and maps
+is the space that parameterizes maps
 
 $$
   \Sigma \stackrel{f}{\to} X
 $$
 
+where $\Sigma$ is smooth, and has $n$ marked points, and 
 such that for $[\Sigma]$ the [[fundamental homology class]] of $\Sigma$ we have
 
 $$
@@ -250,11 +268,11 @@ $$
   \,.
 $$
 
-this is a smooth [[Deligne-Mumford stack]].
+this is a smooth [[Deligne-Mumford stack]]. (Again we must exclude the cases of small $(g,n)$.)
 
-similarly, write $\bar M_{g,n}(X,\beta)$ for the same setup but with $\Sigma$ from $\bar M_{g,n}$ as above in part 1 (de DM compactified moduli stack).
+similarly, write $\bar M_{g,n}(X,\beta)$ for the same setup but with $\Sigma$ from $\bar M_{g,n}$ as above in part 1 (the DM compactified moduli stack). EXCEPT here we do not require that $\Sigma$ (with its $n$ marked points) has finite automorphism group; we require instead that the MAP has finite automorphism group, which means.......(fill in)
 
-this is a _compact_ [[Deligne-Mumford stack]] - but _not_ smooth (not even in the sense of smooth stacks)
+This is a _proper_ (compact) [[Deligne-Mumford stack]] - but _not_ smooth (not even in the sense of smooth stacks!). This is very important. This is what makes the theory difficult/nontrivial/interesting.
 
 we have
 
@@ -262,7 +280,7 @@ $$
   \bar M_{g,n}(pt,0) = \bar M_{g,n}
 $$
 
-what to [[string theory|string theorists]] want to do? 
+what do [[string theory|string theorists]] want to do? 
 
 we have evaluation maps
 
@@ -280,7 +298,9 @@ $$
   \mathbb{C}
 $$
 
-**string theorists conjectured** : there exists a virtual fundamental class $[\bar M_{g,n}(x,\beta)]^{virtual}$ that makes the maps above into the [[correlation function]]s of a [[quantum field theory]] (the integral would be the [[path integral]] of the [[worldsheet]] [[sigma-model]])
+**string theorists conjectured** : there exists a virtual fundamental class $[\bar M_{g,n}(x,\beta)]^{virtual}$ that makes the maps above into the [[correlation function]]s of a [[quantum field theory]] (the integral would be the [[path integral]] of the [[worldsheet]] [[sigma-model]]) with state space $H^\ast(X)$.
+
+Why do we want to use a "virtual" fundamental class? Because \bar M_{g,n}(x,\beta) is not smooth, the actual fundamental class may not behave very well.
 
 the mathematical structure of GW-theory was elucidated Ruan and then by [[Maxim Kontsevich]] and Manin in 1994.
 
@@ -303,7 +323,7 @@ $$
   H^*(\bar M_{g,n})
 $$
 
-where $\phi_*$ is some kind of "pushforward" or "integration along the fibers"
+where the map $\phi_*$ is some kind of "pushforward" or "integration along the fibers"; this map uses the virtual fundamental class
 
 there is also a map
 
@@ -317,8 +337,7 @@ $$
   \bar M_{g,n}
 $$
 
-with $g = g_1 + g_2$ and $n = n_1 + n_2$ obtained by attaching a marked point with one on the other curve.
-
+with $g = g_1 + g_2$ and $n = n_1 + n_2$ obtained by gluing the last marked point of the first curve to the first marked point of the second curve.
 
 so consider now the combination of these two maps
 
@@ -369,8 +388,13 @@ $$
   g^{a b} = (g_{a b})^{-1}
 $$
 
-so this diagram above says that this satisfies the [[sewing law]]s that defines a [[quantum field theroy]]
+so this diagram above says that this satisfies the [[sewing law]]s that defines a [[quantum field theory]].
 
+There are various other axioms that Gromov-Witten theory must satisfy, but the sewing law above is the most important. The hard part of all of this is constructing the virtual fundamental class, and then proving that this class indeed makes the sewing law and the other axioms satisfied.
+
+The above discussion does not yet reveal much of the rich structure of Gromov-Witten invariants. But GW invariants indeed have a very rich and beautiful mathematical structure. Indeed, if we look at just the easiest part of the theory, namely g=0, we are lead to quantum cohomology and Frobenius manifolds. 
+
+There is also the mirror symmetry conjecture, which roughly posits that the GW invariants can be found via calculations that a priori seem completely unrelated.
 
 #References#
 
