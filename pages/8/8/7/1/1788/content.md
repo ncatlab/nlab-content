@@ -49,6 +49,22 @@ Can I use them in math and \text frames?
 
 ***
 
+A Good Bar Is Hard To Find ...
+
+1. $\bar{a}$ &#8592; \bar{a}
+1. $\widebar{a}$ &#8592; \widebar{a}
+1. $\overline{a}$ &#8592; \overline{a}
+1. $\overset{-}{a}$ &#8592; \overset{-}{a}
+
+Situation Normal ...
+
+1. $\bar{foo}$ &#8592; \bar{foo}
+1. $\widebar{foo}$ &#8592; \widebar{foo}
+1. $\overline{foo}$ &#8592; \overline{foo}
+1. $\overset{-}{foo}$ &#8592; \overset{-}{foo}
+
+***
+
 <table align="center" border="1" cellpadding="8" cellspacing="0" markdown="1" style="text-align:center; width:90%">
 
 <caption><font size="+2">$\text{Table 1.  Syntax and Semantics of a Calculus for Propositional Logic}$</font></caption>
@@ -81,7 +97,7 @@ Can I use them in math and \text frames?
 <td height="120px"><img alt="Cactus (A) Big" src="/nlab/files/Cactus_lAr_Big.jpg" width="20" height="79" /></td>
 <td><font size="+1">$\text{&#x2997;} a \text{&#x2998;}$</font></td>
 <td><font size="+1">$\mathop{not}\; a$</font></td>
-<td><font size="+1">$\not a \quad \widebar{a} \quad \overset{\mathop{~}}{a} \quad a'$</font></td></tr>
+<td><font size="+1">$\not a \quad \overset{-}{a} \quad \overset{~}{a} \quad a'$</font></td></tr>
 
 <tr>
 <td height="100px"><img alt="Cactus ABC Big" src="/nlab/files/Cactus_ABC_Big.jpg" width="50" height="38" /></td>
@@ -117,25 +133,25 @@ Can I use them in math and \text frames?
 <td height="120px"><img alt="Cactus (A,B,C) Big" src="/nlab/files/Cactus_lAcBcCr_Big.jpg" width="65" height="78" /></td>
 <td><font size="+1">$\text{&#x2997;} a \text{&#xFE50;} b \text{&#xFE50;} c \text{&#x2998;}$</font></td>
 <td><font size="+1">$\array{\mathop{just one of} \\ a, b, c \\ \mathop{is false}.}$</font></td>
-<td><font size="+1">$\array{&amp; \widebar{a} \; b \; c \\ \vee &amp; a \; \widebar{b} \; c \\ \vee &amp; a \; b \; \widebar{c}}$</font></td></tr>
+<td><font size="+1">$\array{&amp; \overset{-}{a} \; b \; c \\ \vee &amp; a \; \overset{-}{b} \; c \\ \vee &amp; a \; b \; \overset{-}{c}}$</font></td></tr>
 
 <tr>
 <td height="160px"><img alt="Cactus ((A),(B),(C)) Big" src="/nlab/files/Cactus_llArclBrclCrr_Big.jpg" width="65" height="118" /></td>
 <td><font size="+1">$\text{&#x2997;&#x2997;} a \text{&#x2998;&#xFE50;&#x2997;} b \text{&#x2998;&#xFE50;&#x2997;} c \text{&#x2998;&#x2998;}$</font></td>
 <td><font size="+1">$\array{\mathop{just one of} \\ a, b, c \\ \mathop{is true}. \\ \\ \mathop{partition all} \\ \mathop{into}\; a, b, c.}$</font></td>
-<td><font size="+1">$\array{&amp; a \; \widebar{b} \; \widebar{c} \\ \vee &amp; \widebar{a} \; b \; \widebar{c} \\ \vee &amp; \widebar{a} \; \widebar{b} \; c}$</font></td></tr>
+<td><font size="+1">$\array{&amp; a \; \overset{-}{b} \; \overset{-}{c} \\ \vee &amp; \overset{-}{a} \; b \; \overset{-}{c} \\ \vee &amp; \overset{-}{a} \; \overset{-}{b} \; c}$</font></td></tr>
 
 <tr>
 <td height="160px"><img alt="Cactus (A,(B,C)) Big" src="/nlab/files/Cactus_lAclBcCrr_Big.jpg" width="90" height="119" /></td>
 <td><font size="+1">$\text{&#x2997;} a \text{&#xFE50;&#x2997;} b \text{&#xFE50;} c \text{&#x2998;&#x2998;}$</font></td>
 <td><font size="+1">$\array{\mathop{oddly many of} \\ a, b, c \\ \mathop{are true}.}$</font></td>
-<td><font size="+1">$\array{\cellopts{\colspan{2}} a + b + c \\ \\ &amp; a \; b \; c \\ \vee &amp; a \; \widebar{b} \; \widebar{c} \\ \vee &amp; \widebar{a} \; b \; \widebar{c} \\ \vee &amp; \widebar{a} \; \widebar{b} \; c}$</font></td></tr>
+<td><font size="+1">$\array{\cellopts{\colspan{2}} a + b + c \\ \\ &amp; a \; b \; c \\ \vee &amp; a \; \overset{-}{b} \; \overset{-}{c} \\ \vee &amp; \overset{-}{a} \; b \; \overset{-}{c} \\ \vee &amp; \overset{-}{a} \; \overset{-}{b} \; c}$</font></td></tr>
 
 <tr>
 <td><img alt="Cactus (X,(A),(B),(C)) Big" src="/nlab/files/Cactus_lXclArclBrclCrr_Big.jpg" width="90" height="119" /></td>
 <td><font size="+1">$\text{&#x2997;} x \text{&#xFE50;&#x2997;} a \text{&#x2998;&#xFE50;&#x2997;} b \text{&#x2998;&#xFE50;&#x2997;} c \text{&#x2998;&#x2998;}$</font></td>
 <td><font size="+1">$\array{\mathop{partition}\; x \\ \mathop{into}\; a, b, c. \\ \\ \mathop{genus}\; x \;\mathop{comprises} \\ \mathop{species}\; a, b, c.}$</font></td>
-<td><font size="+1">$\array{&amp; \widebar{x} \; \widebar{a} \; \widebar{b} \; \widebar{c} \\ \vee &amp; x \; a \; \widebar{b} \; \widebar{c} \\ \vee &amp; x \; \widebar{a} \; b \; \widebar{c} \\ \vee &amp; x \; \widebar{a} \; \widebar{b} \; c}$</font></td></tr>
+<td><font size="+1">$\array{&amp; \overset{-}{x} \; \overset{-}{a} \; \overset{-}{b} \; \overset{-}{c} \\ \vee &amp; x \; a \; \overset{-}{b} \; \overset{-}{c} \\ \vee &amp; x \; \overset{-}{a} \; b \; \overset{-}{c} \\ \vee &amp; x \; \overset{-}{a} \; \overset{-}{b} \; c}$</font></td></tr>
 
 </table>
 
