@@ -10,7 +10,7 @@ The $n$Lab itself spun off the [$n$-Forum](http://www.math.ntnu.no/~stacey/Vanil
 
 ##Technology behind the $n$Lab##
 
-The site is running [[Jacques Distler]]'s [Instiki](http://golem.ph.utexas.edu/instiki/show/HomePage). To see the content correctly, you need to be running a [MathML-capable browser](http://golem.ph.utexas.edu/instiki/show/Browsers).
+The site is running [[Jacques Distler]]'s [Instiki](http://golem.ph.utexas.edu/instiki/show/HomePage). To see the content correctly, you need to be running a [MathML-capable browser](http://golem.ph.utexas.edu/instiki/show/Browsers). See [[HowTo]] for more on that.
 
 The site is served using [lighttpd](http://www.lighttpd.net/) and [Mongrel](http://mongrel.rubyforge.org/). It is hosted on a [256MB Virtual Private Server](http://www.a2hosting.com/services/vps-hosting/), running [CentOS](http://www.centos.org/), from [A2 Hosting](http://www.a2hosting.com/).
 
@@ -53,7 +53,11 @@ Most importantly the $n$Lab is
 * **not complete** and **not meant to be complete**. Neither its general structure nor each single entry are meant to be optimal in their current state. Many existing entries, possibly all of them, deserve to be and are meant to be eventually improved and expanded on. 
 Many entries are [stubs](http://en.wikipedia.org/wiki/Wikipedia:Stub)!
 
-**If you find yourself annoyed by the state any given entry is in**, for whatever reason, please feel encouraged to edit it in order to improve the situation. If you feel existing material needs to be changed, you can do so. If you feel further material needs to be added, different perspectives need to be amplified, you can add new paragraph, headed by a suitable headline. **Be bold**: The $n$Lab will be the better the more people decide to contribute to it.
+**If you find yourself annoyed by the state any given entry is in**, for whatever reason, please feel encouraged to edit it in order to improve the situation. 
+
+**Notice**: an entry being in a pityful state is usually more a sign of nobody having spared the time and energy to work on it, than of our joint incompetence to write a decent entry if we were being paid for doing it (though, naturally, that may happen, too, of course). So if you find your eyebrows raised by some entry, don't turn away to be the next one _not_ to work on it. Instead, improve it. We all do this voluntarily. We all have other duties to look after. So don't be annoyed with "us", help us.
+
+So if you feel existing material needs to be changed, you can do so. If you feel further material needs to be added, different perspectives need to be amplified, you can add new paragraph, headed by a suitable headline. **Be bold**: The $n$Lab will be the better the more people decide to contribute to it.
 
 See the [[HowTo]] page for information on how to contribute to the $n$Lab and edit and/or create its entries.
 
