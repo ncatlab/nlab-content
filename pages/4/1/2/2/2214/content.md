@@ -50,6 +50,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-17
 
+* [[Andrew Stacey]] I have replied to Zoran's points over on the n-Forum at [this discussion](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=64) since that seems a better place to have a discussion than here.
+
 * [[Urs Schreiber]]: 
 
   * am taking notes in a seminar on [[Gromov-Witten theory]] 
