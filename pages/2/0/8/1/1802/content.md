@@ -1,4 +1,4 @@
-The **Mitchell--B&#233;nabou language** is a particuarly simply [[internal language]] of a [[topos]] $E$; the language is a [[type theory]] $L(E)$ where:
+The **Mitchell--B&#233;nabou language** is a particuarly simple [[internal language]] of a [[topos]] $E$; the language is a [[type theory]] $L(E)$ where:
 
 * the (closed) **types** are the objects of $E$;
 * the **variables** of type $A$ are the [[morphisms]] $x: 1 \to A$ in $E$;
