@@ -180,7 +180,7 @@ $$
 
 (on the left we have something like the etale [[site]] of the moduli stack $M_{1,1}$ )
 
-but there is no good notion of gluing in CohomologyTheories (lack of colimits) hence no good notion of sheaves with values in cohomology theories. $CohomologyTheories$ is the [[homotopy category]] of some other category, to be identified, and passage to homotopy categories may destroy existence of useful colimits.
+but there is no good notion of gluing in CohomologyTheories (lack of colimits) hence no good notion of sheaves with values in cohomology theories. $CohomologyTheories$ is the [[homotopy category]] of some other category, to be identified, and passage to homotopy categories may destroy existence of useful colimits. The category of CohomologyTheories "is" the stable homotopy category.
 
 A simple example:
 
@@ -208,7 +208,7 @@ $$
   }
 $$
 
-The result is not even homotopy equivalent.
+The result is not even homotopy equivalent. In the homotopy category the pushout does not exist.
 
 So we want to refine $CohomologyTheories$ to the cateory of [[spectrum|spectra]] that they come from by the [[Brown representability theorem]].
 
@@ -232,11 +232,11 @@ Then define [[E-infinity ring]] spectra to be ordinary [[monoid]] objects in thi
 
    in this framework we'll have a [[stable (infinity,1)-category of spectra]], let's call that $Sp$
 
-1. show that $Sp$ is a [[symmetric monoidal (infinity,1)-category]]
+2. show that $Sp$ is a [[symmetric monoidal (infinity,1)-category]]
 
-1. show that the [[homotopy category of an (infinity,1)-category]] of $Sp$ is the [[stable homotopy category]], where the tensor product goes to the [[smash product of spectra]]
+3. show that the [[homotopy category of an (infinity,1)-category]] of $Sp$ is the [[stable homotopy category]], where the tensor product goes to the [[smash product of spectra]]
 
-1. define an [[E-infinity ring]] to be a [[commutative monoid in an (infinity,1)-category]] in $Sp$.
+4. define an [[E-infinity ring]] to be a [[commutative monoid in an (infinity,1)-category]] in $Sp$.
 
 
 
@@ -247,7 +247,6 @@ These two approaches are equivalent is a suitable sense. See [[Noncommutative Al
 [[E-infinity ring]] categoriefies commutative [[ring]]
 
 [[(infinity,1)-category]] catgeorifies [[category]]
-
 
 
 
@@ -278,7 +277,7 @@ because they provide a convenient calculus for doing [[homotopy coherent categor
 
 suppose some [[(infinity,1)-category]] $C$ and its homotopy category $C \to h C$.
 
-A commutativeup-to-homotopy diagram in $C$ is a functor $I \to h C$
+A commutative-up-to-homotopy diagram in $C$ is a functor $I \to h C$
 
 $$
   \array{
@@ -383,7 +382,7 @@ $$
 
 and analogously maps $\beta_n : X(n,n) \to \Omega X(n+1, n+1)$
 
-now $X$ is a **spectrum object** if the $\alpha_n, \beta_n$ are equivalences, for all $n$.
+now $X$ is a **spectrum object** if the $\beta_n$ are equivalences, for all $n$. (We don't require $\alpha_n$ to be equivalences.)
 
 
 
@@ -438,5 +437,5 @@ The monoid object itself is the image of $\langle 1 \rangle$ under $s$, $A = s(\
 
 **definition** an [[E-infinity ring]] spectrum is a [[commutative monoid in an (infinity,1)-category]] in the [[stable (infinity,1)-category of spectra]] $Sp$.
 
-$E_\infty$-rings themselves form an [[(infinity,1)-category]]. and this has all [[limit]]s and [[colimit]]s.
+$E_\infty$-rings themselves form an [[(infinity,1)-category]]. And this has all [[limit]]s and [[colimit]]s (see DAG III 2.1, 2.7), so we can talk about sheaves of $E_\infty$ rings!
 
