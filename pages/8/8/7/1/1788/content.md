@@ -22,6 +22,7 @@ These look close to the "Chicago" and "Hollywood" fonts that I used to use for l
 * &#10648; &#8594; &#10648;
 
 __Ref.__ Unicode Punctuation:
+1.  [Math](http://www.sql-und-xml.de/unicode-database/sm.html)
 1.  [Open](http://www.sql-und-xml.de/unicode-database/ps.html)
 1.  [Other](http://www.sql-und-xml.de/unicode-database/po.html)
 1.  [Close](http://www.sql-und-xml.de/unicode-database/pe.html)
@@ -104,6 +105,8 @@ Does it help to upload local copies?
 [[Cactus_lAr_Big.jpg|Cactus (A) Big:pic]]
 [[Cactus_ABC_Big.jpg|Cactus ABC Big:pic]]
 [[Cactus_llArlBrlCrr_Big.jpg|Cactus ((A)(B)(C)) Big:pic]]
+[[Cactus_lAlBrr_Big.jpg|Cactus (A(B)) Big:pic]]
+[[Cactus_lAcBr_Big.jpg|Cactus (A,B) Big:pic]]
 
 ***
 
@@ -113,6 +116,8 @@ Does it help to upload local copies?
 <img alt="Cactus (A) Big" src="/nlab/files/Cactus_lAr_Big.jpg" width="20" height="79" />
 <img alt="Cactus ABC Big" src="/nlab/files/Cactus_ABC_Big.jpg" width="50" height="38" />
 <img alt="Cactus ((A)(B)(C)) Big" src="/nlab/files/Cactus_llArlBrlCrr_Big.jpg" width="65" height="118" />
+<img alt="Cactus (A(B)) Big" src="/nlab/files/Cactus_lAlBrr_Big.jpg" width="60" height="80" />
+<img alt="Cactus (A,B) Big" src="/nlab/files/Cactus_lAcBr_Big.jpg" width="65" height="78" />
 
 ***
 
