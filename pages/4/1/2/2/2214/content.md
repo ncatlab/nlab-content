@@ -48,6 +48,7 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ***
 ## 2009-09-18
+* [[Zoran ?koda]]: [[Yuri Manin]], [[Arakelov geometry]]; small changes to [[moduli space]].
 
 * [[David Roberts]]: Comments at [[SEAR]]. From what I've seen, I like it.
 
