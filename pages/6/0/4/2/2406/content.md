@@ -1,5 +1,4 @@
-<a href="http://www.mat.univie.ac.at/~neum">
-Arnold Neumaier</a>
+[Arnold Neumaier](http://www.mat.univie.ac.at/~neum)
 
 
 I am interested in the foundations of mathematics
@@ -11,3 +10,6 @@ to cattle breeding to uncertainty modeling in space system design).
 
 I wrote books on topics in finite geometry, numerical analysis, and Lie algebras (different bones for each of 
 these subjects).
+
+
+category: people
