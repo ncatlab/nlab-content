@@ -35,7 +35,7 @@ We are proposing shifting the place for recording latest changes to the n-Forum.
 The system will be no more complicated than the current one:
 
 1. Make your changes in the n-lab.
-2. Click on the 'latest changes' link in the contents sidebar of the homepage (we'll include a link (<b>not</b> a redirect) from this page for those who've bookmarked this one).
+2. Click on the 'latest changes' link in the contents sidebar of the homepage (we'll include a link (**not** a redirect) from this page for those who've bookmarked this one).
 3. Click on the 'start a new discussion' in the panel (left hand side) of the page on the forum.
 4. Fill in the details of the change.  I suggest that the title of the discussion makes it clear which pages on the n-lab are referred to.
 5. If you have an account, you will be invited to log in (if you are not already logged in).  If not, there is a reCaptcha to solve to prove that you are human (or elven).  If you _do_ post "anonymously", may we ask that you put your name at the top of your comment so that we know who you are.
@@ -48,9 +48,12 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ***
 
+
 ## 2009-09-18
 
-* [[Jon Awbrey]] added some (<em>hopefully</em>) motivating remarks and lots of pretty pictures to [[differential logic]].
+*  [[Arnold Neumaier]] has joined to talk about [[SEAR]].
+
+* [[Jon Awbrey]] added some (*hopefully*) motivating remarks and lots of pretty pictures to [[differential logic]].
 
 * [[Andrew Stacey]] I've disabled the export features.  They now redirect to a section of the [[HowTo]] which explains how to use `wget` to get a local copy of the n-Lab.  If anyone wants to add instructions for other programs or OSes then, of course, feel free.
 
@@ -65,6 +68,7 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 * [[Zoran ?koda]]: [[Yuri Manin]], [[Arakelov geometry]]; small changes to [[moduli space]].
 
 * [[David Roberts]]: Comments at [[SEAR]]. From what I've seen, I like it.
+
 
 ## 2009-09-17
 
@@ -98,6 +102,7 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
   * added a paragraph at [[About]] in the part starting with "If you find yourself annoyed by the state some entry is in...". That paragraph is motivated by a recent reaction by somebody on some blog, who had indeed complained about some unfinished entry and after that needed some persuasion to help expand and improve it.
 
+
 ## 2009-09-16
 
 * [[Urs Schreiber]]: 
@@ -126,7 +131,6 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 * [[Urs Schreiber]] expanded [[mathematicscontents]] and rearranged a bit -- notably I added [[category theory]], [[higher category theory]], [[topos theory]] and [[higher topos theory]] (the lower case version!) which clearly all deserve to be there. I added some entries to go as sub-entries under [[higher topos theory]] mainly to balance that [[topos theory]] has its natural sub-entries there, but maybe debateable. Then I moved [[homotopy theory]] and its special case [[stable homotopy theory]] from the "Geometry" bit up to the "Structural Foundations" bit, as that seems to better capture it (anything that cares about things only up to homotopy is not geometry nor even really topology, but is higher category theory in disguise). By this logic, also [[rational homotopy theory]] belongs there, so I moved it up.
 
-
 * [[Urs Schreiber]]: worked on [[HomePage]]:
 
   * added the floating tables of contents for math, physics and philosophy. They are sitting there now to the left of the $n$Lab-contents. I am thinking that here on the HomePage this is a good thing. Besides the introductory text we keep there, we want to make sure that the reader's attention is directed to tables of contents. I have heard of people who were pointed to the nLab, went to the HomePage for a minute and came back with the impression that there is nothing much to be found on the lab. While no table of contents can give an accurate impression of the full scope of the lab, the ideal would be that our main three top-level contents (math, physics, philosophy) will indicate the scope of topics and lure the reader further into the labyrinth. Optimally behind each of the links of the top-level toc the user finds another floating table of contents for the given sub-topic
@@ -141,13 +145,13 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
   * [[David Corfield]]: Seeing "comparative $\infty$-categoriology" there, does anyone have thoughts on Borisov's [work](http://uk.arxiv.org/abs/0909.2534)? Perhaps we need to wait for the sequel.
 
-* [[Jon Awbrey]]:  Expanding on a [note](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c026573) and responding to a [query](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c026593) on the blog, I proposed several sources as "Precursors" to category theory.  I have discovered a truly marvelous demonstration of this proposition that [[category theory|this margin]] is too narrow to contain, but I might try to elaborate on it elsewhere &hellip; elsewhen.
+* [[Jon Awbrey]]:  Expanding on a [note](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c026573) and responding to a [query](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c026593) on the blog, I proposed several sources as "Precursors" to category theory.  I have discovered a truly marvelous demonstration of this proposition that [[category theory|this margin]] is too narrow to contain, but I might try to elaborate on it elsewhere &#8230; elsewhen.
 
 *  [[Toby Bartels]]:  Talk, talk, talk: [[SEAR]], [[classical mechanics]], [[category theory]].
 
 * [[Mike Shulman]]: Motivated by recent discussions on the cafe, created [[SEAR]], which has been kicking around in my head for quite some time.
 
-   * [[Jon Awbrey]]: A bit too close to SOAR.  But if you put your terms in alphabetical order you'd have ERAS, which would also be mnemonic for the fact that elementhood is a relation.  Hm&sup3;, is there such a thing as mnepic?
+   * [[Jon Awbrey]]: A bit too close to SOAR.  But if you put your terms in alphabetical order you'd have ERAS, which would also be mnemonic for the fact that elementhood is a relation.  Hm&#179;, is there such a thing as mnepic?
 
 * [[Zoran ?koda]]: created [[compact-open topology]].
 
@@ -306,7 +310,7 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
    *  Generalised [[internal relation]] somewhat.
 
 * [[Jon Awbrey]]:
-   * Finds his time too intermittent this weekend to do more than potter about in the $n$-garden, but was pleased to discover how to write the old Pascal "set-equal-to" as &ldquo;$\:\text{:=}\:$&rdquo; in a math context.
+   * Finds his time too intermittent this weekend to do more than potter about in the $n$-garden, but was pleased to discover how to write the old Pascal "set-equal-to" as "$\:\text{:=}\:$" in a math context.
    * Replies to a query at [[relation theory]].
 
 *  [[Toby Bartels]]:
@@ -459,7 +463,7 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 *  [[Toby Bartels]]:  More at [[evil]]; we might actually be working out some mathematical facts here before too long!
 
-   * [[Jon Awbrey]]:  I wouldn't _count_ on it &mdash; cuz, y'know, that might be _evil_.
+   * [[Jon Awbrey]]:  I wouldn't _count_ on it &#8212; cuz, y'know, that might be _evil_.
 
 * [[Todd Trimble]] added some more to [[localic topos]]. 
 
