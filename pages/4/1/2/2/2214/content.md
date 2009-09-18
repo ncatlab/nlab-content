@@ -50,6 +50,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-18
 
+* [[David Corfield]]: chipped in at [[(n,r)-category]].
+
 * [[Mike Shulman]]: 
   * Reply at [[SEAR]].
   * Some cold water at [[(n,r)-category]].
