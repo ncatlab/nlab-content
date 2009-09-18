@@ -23,14 +23,102 @@ Trying some new arrows: $\twoheadrightarrow$, $\rightarrowtail$, $\looparrowrigh
 
 ***
 
+What the hecque is going on here???
+
+&#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595;
+
+***
+
+math stuff 1
+
+$\array{
+\mathop{just one of} \\ a, b, c \\ \mathop{is false}
+}$
+
+***
+
+math stuff 2
+
+$\array{
+p \;\mathop{and}\; q
+& \quad &
+\overset{\quad\mathop{Diff}\quad}{\longrightarrow}
+& \quad &
+\mathop{d}p \;\mathop{or}\; \mathop{d}q
+}$
+
+***
+
+math stuff 1 in div font size (+2)
+
+<div markdown="1">
+<font size="+2">
+$\array{
+\mathop{just one of} \\ a, b, c \\ \mathop{is false}
+}$
+</font>
+</div>
+
+***
+
+math stuff 2 in div font size (+2)
+
+<div markdown="1">
+<font size="+2">
+$\array{
+p \;\mathop{and}\; q
+&amp; \quad &amp;
+\overset{\quad\mathop{Diff}\quad}{\longrightarrow}
+&amp; \quad &amp;
+\mathop{d}p \;\mathop{or}\; \mathop{d}q
+}$
+</font>
+</div>
+
+***
+
+math stuff 1 in table font size(+2)
+
+<table align="center" markdown="1">
+<font size="+2">
+$\array{
+\mathop{just one of} \\ a, b, c \\ \mathop{is false}
+}$
+</font>
+</table>
+
+***
+
+math stuff 2 in table font size(+2)
+
+<table align="center" markdown="1">
+<font size="+2">
+$\array{
+p \;\mathop{and}\; q
+&amp; \quad &amp;
+\overset{\quad\mathop{Diff}\quad}{\longrightarrow}
+&amp; \quad &amp;
+\mathop{d}p \;\mathop{or}\; \mathop{d}q
+}$
+</font>
+</table>
+
+***
+
+To heck with it --- I'm off to Margaritaville!!!
+
+Oh wait --- maybe it's the amps???
+
+***
+
 Black Tortoise Shell Brackets ---
 
 These look close to the "Chicago" and "Hollywood" fonts that I used to use for logical ops on my old Mac.
 
-* &#10647; &#8594; &#10647;
-* &#65104; &#8594; &#65104;
-* , &#8594; ,
-* &#10648; &#8594; &#10648;
+* &amp;#x2997; &rarr; &#10647;
+* &amp;#xFE50; &rarr; &#65104;
+* &amp;#xFF0C; &rarr; ,
+* &amp;#x2998; &rarr; &#10648;
 
 Are these visible on most other people's browsers?
 
@@ -47,24 +135,24 @@ Cool! ![Shades](http://wikipediareview.com/stimg9x0b4fsr2/1/folder_post_icons/ic
 Can I use them in math and \text frames?
 
 1.  \text frame:  $\text{&#10647; &#65104; &#10648; &#10647; &#65104; &#10648;}$
-1.  \text{&#10647; &#65104; &#10648; &#10647; &#65104; &#10648;} &#8594; $\text{&#10647; &#65104; &#10648; &#10647; &#65104; &#10648;}$
-1.  \text{&#10647; , &#10648; &#10647; , &#10648;} &#8594; $\text{&#10647; , &#10648; &#10647; , &#10648;}$
+1.  \text{&amp;#x2997; &amp;#xFE50; &amp;#x2998; &amp;#x2997; &amp;#xFE50; &amp;#x2998;} &rarr; $\text{&#x2997; &#xFE50; &#x2998; &#x2997; &#xFE50; &#x2998;}$
+1.  \text{&amp;#x2997; &amp;#xFF0C; &amp;#x2998; &amp;#x2997; &amp;#xFF0C; &amp;#x2998;} &rarr; $\text{&#x2997; &#xFF0C; &#x2998; &#x2997; &#xFF0C; &#x2998;}$
 
 ***
 
 A Good Bar Is Hard To Find ...
 
-1. $\bar{a}$ &#8592; \bar{a}
-1. $\widebar{a}$ &#8592; \widebar{a}
-1. $\overline{a}$ &#8592; \overline{a}
-1. $\overset{-}{a}$ &#8592; \overset{-}{a}
+1. $\bar{a}$ &larr; \bar{a}
+1. $\widebar{a}$ &larr; \widebar{a}
+1. $\overline{a}$ &larr; \overline{a}
+1. $\overset{-}{a}$ &larr; \overset{-}{a}
 
 Situation Normal ...
 
-1. $\bar{foo}$ &#8592; \bar{foo}
-1. $\widebar{foo}$ &#8592; \widebar{foo}
-1. $\overline{foo}$ &#8592; \overline{foo}
-1. $\overset{-}{foo}$ &#8592; \overset{-}{foo}
+1. $\bar{foo}$ &larr; \bar{foo}
+1. $\widebar{foo}$ &larr; \widebar{foo}
+1. $\overline{foo}$ &larr; \overline{foo}
+1. $\overset{-}{foo}$ &larr; \overset{-}{foo}
 
 ***
 
