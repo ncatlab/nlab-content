@@ -85,6 +85,8 @@ More concretely: take the [[interval category]].  Realize it as a directed space
 
 [[Urs Schreiber]]: right. I didn't mean to imply that there is an established teory of directed spaces that yields a directed homotopy hypothesis-theorem yet. Instead the idea was that "in view of the homotopy hypothesis" we should be entitled to think of an $(n,r)$-category as an $r$-directed $n$-type. Over at [[directed space]] I say more explicitly that one option is to _defined_ what a (nice) $r$-directed $n$-type is this way. I have very little online time today, otherwise I would now add a paragraph along these lines to the above. Maybe one of you feels like doing it. I still think that th slogan "An $(n,r)$-category is an $r$-directed $n$-type." is a very useful guiding principle, and be it for the right _definition_ of directed space. My impression is that the theory of directed spaces is at the time still tentative and not set in stonee. But if that's wrong, then I'd still keep the above slogan but put an explicit caveat that this uses the  notion "diected space" differently to that established in the literature.
 
+[[David Corfield]]: During a discussion on fundamental categories with duals of statified spaces, we had this [description](http://golem.ph.utexas.edu/category/2006/11/this_weeks_finds_in_mathematic_2.html#c006316) of a project to provide a geometric picture of directed homtopy. Speaking of categories with duals, couldn't nLab do with some more pages on them?
+
 =--
 
 
