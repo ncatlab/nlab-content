@@ -139,6 +139,40 @@ It is important to note that the last expressions are not equivalent to the 3-pl
 
 The subject as it develops from this point on is a little like doing [[differential geometry]] over GF(2), but the logical aim puts a slightly different spin on the way we look at formulas.  For example, we think of a function $f : X \to \mathbb{B}$ as a device for drawing a distinction in the space $X$, relative to which distinction we frequently have call to indicate the contents on either side.  These two subsets of $X$ are the [[fibers]] $f^{-1}(0)$ and $f^{-1}(1)$ of the function $f$.  Picking sides as we usually do, $f^{-1}(1)$ is the _indicated_ or _intended_ fiber, leaving $f^{-1}(0)$ to be the _undicated_ or _untended_ fiber.  This makes it convenient to dedicate a more streamlined notation to the fiber of $1$, defining $\text{&#x301A;} f \text{&#x301B;} \;\text{:=}\; f^{-1}(1)$.  In this light, aside from the usual charge to compute the values of compound functions from information about the values of their components, we are especially charged to invert those functions and find the fibers of given end values.
 
+## Differential Expansions of Propositions ##
+
+An efficient calculus for the realm of logic represented by boolean functions and elementary propositions makes it feasible to compute the finite differences and differentials of those functions and propositions.
+
+For example, consider a proposition of the form &ldquo;$p \;\mathop{and}\; q$&rdquo; that is graphed as two letters attached to a root node:
+
+<center>
+<img alt="Cactus Graph Existential P And Q" src="/nlab/files/Cactus_Graph_Existential_P_And_Q.jpg" width="500" />
+</center>
+
+Written as a string, this is just the concatenation $p \; q$.
+
+The proposition $p \; q$ may be taken as a boolean function $f(p, q)$ having the abstract type $f : \mathbb{B} \;\times\; \mathbb{B} \to \mathbb{B}$, where $\mathbb{B} = \{ 0, 1 \}$ is read in such a way that $0$ means $\mathop{false}$ and $1$ means $\mathop{true}$.
+
+Imagine yourself standing in a fixed cell of the corresponding venn diagram, say, the cell where the proposition $p \; q$ is true, as shown in the following Figure:
+
+<center>
+<img alt="Venn Diagram P And Q" src="/nlab/files/Venn_Diagram_P_And_Q.jpg" width="500" />
+</center>
+
+Now ask yourself:  What is the value of the proposition $p \; q$ at a distance of $\mathop{d}p$ and $\mathop{d}q$ from the cell $p \; q$ where you are standing?
+
+Don't think about it --- just compute:
+
+<center>
+<img alt="Cactus Graph (P,dP)(Q,dQ)" src="/nlab/files/Cactus_Graph_lPcdPrlQcdQr.jpg" width="500" />
+</center>
+
+The cactus formula $\text{&#x2997;} p \text{&#xFE50;} \mathop{d}p \text{&#x2998;&#x2997;} q \text{&#xFE50;} \mathop{d}q \text{&#x2998;}$ and its corresponding graph arise by substituting $p + \mathop{d}p$ for $p$ and $q + \mathop{d}q$ for $q$ in the boolean product or logical conjunction $p \; q$ and writing the result in the two dialects of cactus syntax.  This follows from the fact that the boolean sum $p + \mathop{d}p$ is equivalent to the logical operation of exclusive disjunction, which parses to a cactus graph of the following form:
+
+<center>
+<img alt="Cactus Graph (P,dP)" src="/nlab/files/Cactus_Graph_lPcdPr.jpg" width="500" />
+</center>
+
 ## External links ##
 
 * [Differential_Logic : Introduction](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Differential_Logic_:_Introduction)
@@ -162,14 +196,6 @@ Templates ---
        <img alt="mytext" src="/nlab/files/mypic.jpg" width="500" />
 
 Upload Queue ---
-
-[[Cactus_Graph_Existential_P_And_Q.jpg|Cactus Graph Existential P And Q:pic]]
-
-[[Venn_Diagram_P_And_Q.jpg|Venn Diagram P And Q:pic]]
-
-[[Cactus_Graph_lPcdPrlQcdQr.jpg|Cactus Graph (P,dP)(Q,dQ):pic]]
-
-[[Cactus_Graph_lPcdPr.jpg|Cactus_Graph_(P,dP):pic]]
 
 [[Cactus_Graph_llPcdPrlQcdQrcPQr.jpg|Cactus Graph ((P,dP)(Q,dQ),PQ):pic]]
 
