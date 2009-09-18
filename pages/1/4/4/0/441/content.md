@@ -97,6 +97,6 @@ respectively.
 
 * A [[Kan complex]] is a simplicial set in which "*all horns have fillers*": a simplicial set for which the morphism to the point is a Kan fibration.
 
-* A [[quasi-category]] is a simplicial set in which *all outer horns have fillers*.
+* A [[quasi-category]] is a simplicial set in which *all inner* horns have fillers*.
 
 [[!redirects horns]]
