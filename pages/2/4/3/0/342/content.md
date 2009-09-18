@@ -88,6 +88,8 @@ More concretely: take the [[interval category]].  Realize it as a directed space
 [[David Corfield]]: During a discussion on fundamental categories with duals of statified spaces, we had this [description](http://golem.ph.utexas.edu/category/2006/11/this_weeks_finds_in_mathematic_2.html#c006316) of a project to provide a geometric picture of directed homtopy. Speaking of categories with duals, couldn't nLab do with some more pages on them?
 
 [[Mike Shulman]]: Your definition at [[directed space]] ("a directed space is a topological space in which not every cell is traversable in all directions") doesn't say anything about a stratification, so I think it's misleading to then say that they could be defined as $(n,r)$-categories without making a point that this would change the notion.  My impression from the very little I've read about directed spaces is that they don't necessarily come with any sort of stratification.  Do we have any reason to want to define "$r$-directed $n$-type" to mean "$(n,r)$-category", other than that it would be cute if the homotopy hypothesis could be generalized?  We like $(n,r)$-categories for lots of reasons---but would calling them $r$-directed $n$-types really be useful to us or anyone else?
+
+_Toby_:  I don\'t think that it helps our understanding of $(n,r)$-categories, at least not yet, which is why I moved this section down here.  But I think that it may help us to understand directed spaces, particularly to suggest the idea that spaces might be $r$-directed.
 =--
 
 
