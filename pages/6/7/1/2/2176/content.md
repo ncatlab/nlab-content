@@ -46,31 +46,31 @@ Table&nbsp;1 collects a sample of basic propositional forms as expressed in term
 <td><font size="+1">$1$</font></td></tr>
 
 <tr>
-<td height="100px"><img alt="Rooted Edge" src="/nlab/files/Rooted_Edge.jpg" width="20" height="51" /></td>
+<td height="100px"><img alt="Rooted Edge" src="/nlab/files/Rooted_Edge.jpg" width="20" height="50" /></td>
 <td><font size="+1">$\text{&#x2997;&nbsp;&#x2998;}$</font></td>
 <td><font size="+1">$\mathop{false}$</font></td>
 <td><font size="+1">$0$</font></td></tr>
 
 <tr>
-<td height="100px"><img alt="Cactus A Big" src="/nlab/files/Cactus_A_Big.jpg" width="20" height="38" /></td>
+<td height="100px"><img alt="Cactus A Big" src="/nlab/files/Cactus_A_Big.jpg" width="20" height="40" /></td>
 <td><font size="+1">$a$</font></td>
 <td><font size="+1">$a$</font></td>
 <td><font size="+1">$a$</font></td></tr>
 
 <tr>
-<td height="120px"><img alt="Cactus (A) Big" src="/nlab/files/Cactus_lAr_Big.jpg" width="20" height="79" /></td>
+<td height="120px"><img alt="Cactus (A) Big" src="/nlab/files/Cactus_lAr_Big.jpg" width="20" height="80" /></td>
 <td><font size="+1">$\text{&#x2997;} a \text{&#x2998;}$</font></td>
 <td><font size="+1">$\mathop{not}\; a$</font></td>
 <td><font size="+1">$\not a \quad \overset{-}{a} \quad \overset{~}{a} \quad a'$</font></td></tr>
 
 <tr>
-<td height="100px"><img alt="Cactus ABC Big" src="/nlab/files/Cactus_ABC_Big.jpg" width="50" height="38" /></td>
+<td height="100px"><img alt="Cactus ABC Big" src="/nlab/files/Cactus_ABC_Big.jpg" width="50" height="40" /></td>
 <td><font size="+1">$a \; b \; c$</font></td>
 <td><font size="+1">$a \;\mathop{and}\; b \;\mathop{and}\; c$</font></td>
 <td><font size="+1">$a \;\wedge\; b \;\wedge\; c$</font></td></tr>
 
 <tr>
-<td height="160px"><img alt="Cactus ((A)(B)(C)) Big" src="/nlab/files/Cactus_llArlBrlCrr_Big.jpg" width="65" height="118" /></td>
+<td height="160px"><img alt="Cactus ((A)(B)(C)) Big" src="/nlab/files/Cactus_llArlBrlCrr_Big.jpg" width="65" height="120" /></td>
 <td><font size="+1">$\text{&#x2997;&#x2997;} a \text{&#x2998;&#x2997;} b \text{&#x2998;&#x2997;} c \text{&#x2998;&#x2998;}$</font></td>
 <td><font size="+1">$a \;\mathop{or}\; b \;\mathop{or}\; c$</font></td>
 <td><font size="+1">$a \;\vee\; b \;\vee\; c$</font></td></tr>
@@ -82,37 +82,37 @@ Table&nbsp;1 collects a sample of basic propositional forms as expressed in term
 <td><font size="+1">$a \Rightarrow b$</font></td></tr>
 
 <tr>
-<td height="120px"><img alt="Cactus (A,B) Big" src="/nlab/files/Cactus_lAcBr_Big.jpg" width="65" height="78" /></td>
+<td height="120px"><img alt="Cactus (A,B) Big" src="/nlab/files/Cactus_lAcBr_Big.jpg" width="65" height="80" /></td>
 <td><font size="+1">$\text{&#x2997;} a \text{&#xFE50;} b \text{&#x2998;}$</font></td>
 <td><font size="+1">$\array{a \;\mathop{not equal to}\; b \\ a \;\mathop{exclusive or}\; b}$</font></td>
 <td><font size="+1">$\array{a \ne b \\ a + b}$</font></td></tr>
 
 <tr>
-<td height="160px"><img alt="Cactus ((A,B)) Big" src="/nlab/files/Cactus_llAcBrr_Big.jpg" width="65" height="118" /></td>
+<td height="160px"><img alt="Cactus ((A,B)) Big" src="/nlab/files/Cactus_llAcBrr_Big.jpg" width="65" height="120" /></td>
 <td><font size="+1">$\text{&#x2997;&#x2997;} a \text{&#xFE50;} b \text{&#x2998;&#x2998;}$</font></td>
 <td><font size="+1">$\array{a \;\mathop{is equal to}\; b \\ a \;\mathop{if and only if}\; b}$</font></td>
 <td><font size="+1">$\array{a = b \\ a \Leftrightarrow b}$</font></td></tr>
 
 <tr>
-<td height="120px"><img alt="Cactus (A,B,C) Big" src="/nlab/files/Cactus_lAcBcCr_Big.jpg" width="65" height="78" /></td>
+<td height="120px"><img alt="Cactus (A,B,C) Big" src="/nlab/files/Cactus_lAcBcCr_Big.jpg" width="65" height="80" /></td>
 <td><font size="+1">$\text{&#x2997;} a \text{&#xFE50;} b \text{&#xFE50;} c \text{&#x2998;}$</font></td>
 <td><font size="+1">$\array{\mathop{just one of} \\ a, b, c \\ \mathop{is false}.}$</font></td>
 <td><font size="+1">$\array{&amp; \overset{-}{a} \; b \; c \\ \vee &amp; a \; \overset{-}{b} \; c \\ \vee &amp; a \; b \; \overset{-}{c}}$</font></td></tr>
 
 <tr>
-<td height="160px"><img alt="Cactus ((A),(B),(C)) Big" src="/nlab/files/Cactus_llArclBrclCrr_Big.jpg" width="65" height="118" /></td>
+<td height="160px"><img alt="Cactus ((A),(B),(C)) Big" src="/nlab/files/Cactus_llArclBrclCrr_Big.jpg" width="65" height="120" /></td>
 <td><font size="+1">$\text{&#x2997;&#x2997;} a \text{&#x2998;&#xFE50;&#x2997;} b \text{&#x2998;&#xFE50;&#x2997;} c \text{&#x2998;&#x2998;}$</font></td>
 <td><font size="+1">$\array{\mathop{just one of} \\ a, b, c \\ \mathop{is true}. \\ \\ \mathop{partition all} \\ \mathop{into}\; a, b, c.}$</font></td>
 <td><font size="+1">$\array{&amp; a \; \overset{-}{b} \; \overset{-}{c} \\ \vee &amp; \overset{-}{a} \; b \; \overset{-}{c} \\ \vee &amp; \overset{-}{a} \; \overset{-}{b} \; c}$</font></td></tr>
 
 <tr>
-<td height="160px"><img alt="Cactus (A,(B,C)) Big" src="/nlab/files/Cactus_lAclBcCrr_Big.jpg" width="90" height="119" /></td>
+<td height="160px"><img alt="Cactus (A,(B,C)) Big" src="/nlab/files/Cactus_lAclBcCrr_Big.jpg" width="90" height="120" /></td>
 <td><font size="+1">$\text{&#x2997;} a \text{&#xFE50;&#x2997;} b \text{&#xFE50;} c \text{&#x2998;&#x2998;}$</font></td>
 <td><font size="+1">$\array{\mathop{oddly many of} \\ a, b, c \\ \mathop{are true}.}$</font></td>
 <td><font size="+1">$\array{\cellopts{\colspan{2}} a + b + c \\ \\ &amp; a \; b \; c \\ \vee &amp; a \; \overset{-}{b} \; \overset{-}{c} \\ \vee &amp; \overset{-}{a} \; b \; \overset{-}{c} \\ \vee &amp; \overset{-}{a} \; \overset{-}{b} \; c}$</font></td></tr>
 
 <tr>
-<td><img alt="Cactus (X,(A),(B),(C)) Big" src="/nlab/files/Cactus_lXclArclBrclCrr_Big.jpg" width="90" height="119" /></td>
+<td><img alt="Cactus (X,(A),(B),(C)) Big" src="/nlab/files/Cactus_lXclArclBrclCrr_Big.jpg" width="90" height="120" /></td>
 <td><font size="+1">$\text{&#x2997;} x \text{&#xFE50;&#x2997;} a \text{&#x2998;&#xFE50;&#x2997;} b \text{&#x2998;&#xFE50;&#x2997;} c \text{&#x2998;&#x2998;}$</font></td>
 <td><font size="+1">$\array{\mathop{partition}\; x \\ \mathop{into}\; a, b, c. \\ \\ \mathop{genus}\; x \;\mathop{comprises} \\ \mathop{species}\; a, b, c.}$</font></td>
 <td><font size="+1">$\array{&amp; \overset{-}{x} \; \overset{-}{a} \; \overset{-}{b} \; \overset{-}{c} \\ \vee &amp; x \; a \; \overset{-}{b} \; \overset{-}{c} \\ \vee &amp; x \; \overset{-}{a} \; b \; \overset{-}{c} \\ \vee &amp; x \; \overset{-}{a} \; \overset{-}{b} \; c}$</font></td></tr>
