@@ -50,6 +50,10 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-18
 
+* [[Mike Shulman]]: 
+  * Reply at [[SEAR]].
+  * Some cold water at [[(n,r)-category]].
+
 * [[Jon Awbrey]] added more content to [[differential logic]].
 
 * [[Zoran ?koda]]: [[Yuri Manin]], [[Arakelov geometry]]; small changes to [[moduli space]].
