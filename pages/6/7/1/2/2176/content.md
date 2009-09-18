@@ -15,13 +15,13 @@ The development of differential logic is greatly facilitated by having a concept
 * The first kind of propositional expression is a parenthesized sequence of propositional expressions, written as $\text{&#10647;} \; e_1 \text{&#65104;} e_2 \text{&#65104;} \ldots \text{&#65104;} e_{k-1} \text{&#65104;} e_k \; \text{&#10648;}$ and read to say that exactly one of the propositions $e_1, e_2, \ldots, e_{k-1}, e_k$ is false, in other words, that their [[minimal negation]] is true.  A clause of this form maps into a PARC structure called a _lobe_, in this case, one that is _painted_ with the colors $e_1, e_2, \ldots, e_{k-1}, e_k$ as shown below.
 
 <center>
-<img src="http://mywikibiz.com/images/5/5e/Cactus_Graph_Lobe_Connective.jpg" width="500"/>
+<img alt="Cactus Graph Lobe Connective" src="/nlab/files/Cactus_Graph_Lobe_Connective.jpg" width="500" />
 </center>
 
 * The second kind of propositional expression is a concatenated sequence of propositional expressions, written as $e_1 \; e_2 \; \ldots \; e_{k-1} \; e_k$ and read to say that all of the propositions $e_1, e_2, \ldots, e_{k-1}, e_k$ are true, in other words, that their logical conjunction is true.  A clause of this form maps into a PARC structure called a _node_, in this case, one that is _painted_ with the colors $e_1, e_2, \ldots, e_{k-1}, e_k$ as shown below.
 
 <center>
-<img src="http://mywikibiz.com/images/9/98/Cactus_Graph_Node_Connective.jpg" width="500"/>
+<img alt="Cactus Graph Node Connective" src="/nlab/files/Cactus_Graph_Node_Connective.jpg" width="500" />
 </center>
 
 All other propositional connectives can be obtained through combinations of these two forms.  Strictly speaking, the parenthesized form is sufficient to define the concatenated form, making the latter formally dispensable, but it is convenient to maintain it as a concise way of expressing more complicated combinations of parenthesized forms.  While working with expressions solely in propositional calculus, it is easiest to use plain parentheses for logical connectives.  In contexts where ordinary parentheses are needed for other purposes an alternate typeface --- e.g. $\text{&#x2997;} \text{&#xFE50;} \text{
@@ -151,15 +151,17 @@ The subject as it develops from this point on is a little like doing [[different
 
 __NB.__ I'll be using this area to test the remote images and upload the local images that I'll be inserting as the article develops.  ---[[JA]]
 
-Template ---
+Templates ---
 
        [[mypic.jpg|alt text:pic]]
 
-Uploads ---
+       ![alt text](/nlab/files/mypic.jpg)
 
-[[Cactus_Graph_Lobe_Connective.jpg|Cactus Graph Lobe Connective:pic]]
+       http://ncatlab.org/nlab/files/mypic.jpg
 
-[[Cactus_Graph_Node_Connective.jpg|Cactus Graph Node Connective:pic]]
+       <img alt="mytext" src="/nlab/files/mypic.jpg" width="500" />
+
+Upload Queue ---
 
 [[Cactus_Graph_Existential_P_And_Q.jpg|Cactus Graph Existential P And Q:pic]]
 
@@ -175,3 +177,4 @@ Uploads ---
 
 [[Cactus_Graph_lldPrldQrr.jpg|Cactus Graph ((dP)(dQ)):pic]]
 
+[[Cactus_Graph_PQ_Diff_lldPrldQrr.jpg|Cactus Graph PQ Diff ((dP)(dQ)):pic]]
