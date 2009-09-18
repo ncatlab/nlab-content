@@ -15,11 +15,11 @@ _Toby_:  I don\'t see what\'s unstructural about that!  Although I think that we
 
 [[Mike Shulman]]: re Toby: It feels unstructural because the element $(x,y)$ is no longer internally featureless; it has the intrinsic property of being the pair of $x$ and $y$.  I see "structural" as meaning that, among other things, isomorphic objects are indistinguishable; but with that approach, the selected product $A\times B$ is distinguishable from any other product.  (Additionally, in some metatheories it requires choice to get from one to the other.)
 
-   I also feel that maybe viewing relations $A\looparrowright B$ as subsets of $A\times B$ is merely a habit ingrained in us by material set theory over the course of the 20th century, and thus something that structural set theory should try to wean us from.
+I also feel that maybe viewing relations $A\looparrowright B$ as subsets of $A\times B$ is merely a habit ingrained in us by material set theory over the course of the 20th century, and thus something that structural set theory should try to wean us from.
 
 _Toby_:  I don\'t see how you would distinguish $A \times B$ from any other isomorphic object if you have no way to express that it equals *the* $A \times B$ in question.  More generally, strucuturalism to me isn\'t about using existential quantifiers all the time instead of operations.  In fact, I don\'t see how this is any different from your set $|\varphi|$.  (Possibly I should write SESAP out in full to make sure it does all work the same way.)  And the metatheories that think that they require choice to get an operation out of an existential statement have formalised things wrong; they should be using meta-anafunctors between the (syntactic or model) meta-categories.
 
-   I also don\'t see what\'s material about conflating $A \looparrowright B$ with $\mathcal{P}(A \times B)$.  It\'s no different, really, from making $A \to B$ a part of $A \looparrowright B$.  Personally, I *prefer* to take sets and functions as the basic concepts; I saw $\mathbf{SEAR}$ as an attempt to make a structural theory that looks more like the na&#239;ve set theory that mathematicians use (but perhaps I misjudged the idea), and I think that making unary relations basic will be even more like that.  Really, any of these concepts (function, binary relation, unary relation) have a good claim for being a basic concept that should be axiomatised directly, rather than defined in terms of one of the others, and it\'s a fairly arbitrary choice which one we use.
+I also don\'t see what\'s material about conflating $A \looparrowright B$ with $\mathcal{P}(A \times B)$.  It\'s no different, really, from making $A \to B$ a part of $A \looparrowright B$.  Personally, I *prefer* to take sets and functions as the basic concepts; I saw $\mathbf{SEAR}$ as an attempt to make a structural theory that looks more like the na&#239;ve set theory that mathematicians use (but perhaps I misjudged the idea), and I think that making unary relations basic will be even more like that.  Really, any of these concepts (function, binary relation, unary relation) have a good claim for being a basic concept that should be axiomatised directly, rather than defined in terms of one of the others, and it\'s a fairly arbitrary choice which one we use.
 
 [[Mike Shulman]]: You're right that the given $A\times B$ couldn't be distinguished *in the theory itself* from any other product, but I think it would still clearly have a special status.  Also, it is definitely different from $|\varphi|$.   The tabulation axiom is a purely existential statement; it could be viewed as an "operation" from relations to tabulations, but nothing forces you to view it this way.  (And you can only avoid meta-choice by calling such an operation an anafunctor once you've *proven*, in the theory, that tabulations are unique up to unique isomorphism.)  By contrast, the product axiom would be irreducibly an operation; you can't (at least, I don't see how to) make it purely existential, because it is the *only* part of the theory that relates elements of different sets.  The product can only be characterized uniquely using "projection" functions, but in order to have functions you need relations, hence you need products....
 
@@ -28,6 +28,8 @@ My original idea with SEAR was merely to give a proof-of-concept that structural
 It also makes it look much more like type theory!  Which I suppose is not a bad thing.  Bounded SESAP will basically *be* the internal type theoretic language of a topos with NNO, and that's actually a really *good* thing; it will make internal logic feel more natural to anyone who is familiar with structural-set-theory foundations.
 
 I went ahead and had a go at a formalization using products down at the bottom of the page.  I have to say that "SESAP" doesn't ring as well.  (-:  But I think we could still call it SEAR even if the "relations" aren't quite a fundamental concept.  (Although if someone has a better name to suggest, I'm still listening.)  Actually, we could probably use the same name for all the different formalizations, explicitly allowing people the choice of whether to take functions or binary-relations or subsets+products as primary.  Everyone says "ZF" despite variations in the phrasing of the axioms, so the name of a theory doesn't have to be rigidly tied to a specific way of stating it.
+
+_Toby_:  I was going to call my version 'SEAPS' until I realised that the 'A' was in the wrong place ...
 =--
 
 +--{: .query}
@@ -53,6 +55,8 @@ Later it says that the ambient logic may be classical or constructive. I take th
 (The link offered gives no clear definition of what a constructive logic is.)
 
 There seems to be something wrong with the axiom of infinity. The present version is satisfied by the set {0,1} and the function that maps both elements to 1.
+
+*  _Toby_ interjects:  You\'re right, it should be an *injective* function.  I fixed that below.
 
 The concept of a ghost of an inconsistent assumption employed to motivate Collection is not really useful, since the inconsistency axiom 0=1 is also such a ghost.
 
@@ -264,7 +268,7 @@ In particular, it follows that $Set$ is a [[pretopos]] (as is any topos).
 
 ## Infinity ##
 
-**Axiom 4 (Infinity):** _There exists a set $N$, containing an element $o$, and a function $s:N\to N$ such that $s(n)\neq o$ for any $n\in N$._
+**Axiom 4 (Infinity):** _There exists a set $N$, containing an element $o$, and a function $s:N\to N$ such that $s(n)\neq o$ for any $n\in N$ and $s(n) = s(m)$ only if $n = m$ for any $n, m\in N$._
 
 It is easy to deduce any of the usual consequences of the axiom of infinity.  The set $N$ is not asserted to be minimal, but it is easy to cut it down to be so using separation.  In particular, this axiom implies that $Set$ has a [[natural numbers object]].  We can then proceed to construct the set $\mathbb{Q}$ of rational numbers and the set $\mathbb{R}$ of real numbers in any of the usual ways.
 
