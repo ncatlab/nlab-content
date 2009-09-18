@@ -47,7 +47,11 @@ The syntax on the forum is ever-so-slightly different to that here.  You can use
 To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5).  When we "go live" (which will happen soon), I'll clean out the discussions so feel free to have a play first.  Any comments and suggestions should be recorded [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=64) (you'll have to create an account to comment on this, though).
 
 ***
+
 ## 2009-09-18
+
+* [[Jon Awbrey]] added more content to [[differential logic]].
+
 * [[Zoran ?koda]]: [[Yuri Manin]], [[Arakelov geometry]]; small changes to [[moduli space]].
 
 * [[David Roberts]]: Comments at [[SEAR]]. From what I've seen, I like it.
