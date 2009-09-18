@@ -50,6 +50,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-18
 
+* [[Andrew Stacey]] I've disabled the export features.  They now redirect to a section of the [[HowTo]] which explains how to use `wget` to get a local copy of the n-Lab.  If anyone wants to add instructions for other programs or OSes then, of course, feel free.
+
 * [[David Corfield]]: chipped in at [[(n,r)-category]].
 
 * [[Mike Shulman]]: 
