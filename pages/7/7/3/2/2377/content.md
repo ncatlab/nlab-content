@@ -2,6 +2,8 @@
 This page is (I believe) original research.  Suggestions, corrections, and additions are very welcome.  In particular, if you have suggestions for a better name than SEAR, or if you've seen a similar theory somewhere else, please mention it!  -- [[Mike Shulman]]
 =--
 
+# Discussions
+
 +-- {: .query}
 This looks nice, and I think that it probably matches pretty closely the way that I usually think when reading ordinary mathematics.  I haven\'t read it very carefully yet, so take this with a grain of salt, but I think that it would be even more user-friendly to use sets, elements, and *subsets* (rather than binary relations) as the basic concepts.  Presumably you have to throw in ordered pairs too, but I think that this matches 'ordinary' language *very* closely.  ---Toby
 
@@ -11,14 +13,24 @@ I guess one possible approach would be to make the construction of products an *
 
 _Toby_:  I don\'t see what\'s unstructural about that!  Although I think that we\'ve had this conversation before ....
 
-*  [[Mike Shulman]]: re Toby: It feels unstructural because the element $(x,y)$ is no longer internally featureless; it has the intrinsic property of being the pair of $x$ and $y$.  I see "structural" as meaning that, among other things, isomorphic objects are indistinguishable; but with that approach, the selected product $A\times B$ is distinguishable from any other product.  (Additionally, in some metatheories it requires choice to get from one to the other.)
+[[Mike Shulman]]: re Toby: It feels unstructural because the element $(x,y)$ is no longer internally featureless; it has the intrinsic property of being the pair of $x$ and $y$.  I see "structural" as meaning that, among other things, isomorphic objects are indistinguishable; but with that approach, the selected product $A\times B$ is distinguishable from any other product.  (Additionally, in some metatheories it requires choice to get from one to the other.)
 
    I also feel that maybe viewing relations $A\looparrowright B$ as subsets of $A\times B$ is merely a habit ingrained in us by material set theory over the course of the 20th century, and thus something that structural set theory should try to wean us from.
 
-*  _Toby_:  I don\'t see how you would distinguish $A \times B$ from any other isomorphic object if you have no way to express that it equals *the* $A \times B$ in question.  More generally, strucuturalism to me isn\'t about using existential quantifiers all the time instead of operations.  In fact, I don\'t see how this is any different from your set $|\varphi|$.  (Possibly I should write SESAP out in full to make sure it does all work the same way.)  And the metatheories that think that they require choice to get an operation out of an existential statement have formalised things wrong; they should be using meta-anafunctors between the (syntactic or model) meta-categories.
+_Toby_:  I don\'t see how you would distinguish $A \times B$ from any other isomorphic object if you have no way to express that it equals *the* $A \times B$ in question.  More generally, strucuturalism to me isn\'t about using existential quantifiers all the time instead of operations.  In fact, I don\'t see how this is any different from your set $|\varphi|$.  (Possibly I should write SESAP out in full to make sure it does all work the same way.)  And the metatheories that think that they require choice to get an operation out of an existential statement have formalised things wrong; they should be using meta-anafunctors between the (syntactic or model) meta-categories.
 
    I also don\'t see what\'s material about conflating $A \looparrowright B$ with $\mathcal{P}(A \times B)$.  It\'s no different, really, from making $A \to B$ a part of $A \looparrowright B$.  Personally, I *prefer* to take sets and functions as the basic concepts; I saw $\mathbf{SEAR}$ as an attempt to make a structural theory that looks more like the na&#239;ve set theory that mathematicians use (but perhaps I misjudged the idea), and I think that making unary relations basic will be even more like that.  Really, any of these concepts (function, binary relation, unary relation) have a good claim for being a basic concept that should be axiomatised directly, rather than defined in terms of one of the others, and it\'s a fairly arbitrary choice which one we use.
 
+[[Mike Shulman]]: You're right that the given $A\times B$ couldn't be distinguished *in the theory itself* from any other product, but I think it would still clearly have a special status.  Also, it is definitely different from $|\varphi|$.   The tabulation axiom is a purely existential statement; it could be viewed as an "operation" from relations to tabulations, but nothing forces you to view it this way.  (And you can only avoid meta-choice by calling such an operation an anafunctor once you've *proven*, in the theory, that tabulations are unique up to unique isomorphism.)  By contrast, the product axiom would be irreducibly an operation; you can't (at least, I don't see how to) make it purely existential, because it is the *only* part of the theory that relates elements of different sets.  The product can only be characterized uniquely using "projection" functions, but in order to have functions you need relations, hence you need products....
+
+My original idea with SEAR was merely to give a proof-of-concept that structural set theory can be formalized with elements and without functions or categories.  But it does turn out looking much more like the set theory that mathematicians actually use, and making it even more so would definitely be a plus to getting structural set theory adopted more widely, which I'm all about.  Moreover, David's comment below about it being easier to learn as a first approach to foundations is also an interesting point that I hadn't really thought about, and for that purpose subsets and pairs might also be better.  And I do admit that the tabulation axiom looks a little cumbersome; breaking it down into pairing and separation does feel cleaner.
+
+It also makes it look much more like type theory!  Which I suppose is not a bad thing.  Bounded SESAP will basically *be* the internal type theoretic language of a topos with NNO, and that's actually a really *good* thing; it will make internal logic feel more natural to anyone who is familiar with structural-set-theory foundations.
+
+I went ahead and had a go at a formalization using products down at the bottom of the page.  I have to say that "SESAP" doesn't ring as well.  (-:  But I think we could still call it SEAR even if the "relations" aren't quite a fundamental concept.  (Although if someone has a better name to suggest, I'm still listening.)  Actually, we could probably use the same name for all the different formalizations, explicitly allowing people the choice of whether to take functions or binary-relations or subsets+products as primary.  Everyone says "ZF" despite variations in the phrasing of the axioms, so the name of a theory doesn't have to be rigidly tied to a specific way of stating it.
+=--
+
++--{: .query}
 [[David Roberts]]: This looks awesome - but we haven't seen any cons yet. I thought about this on the train this morning and have a few questions:
 
  * Is there a set of relations (resp. functions) between two sets?
@@ -27,7 +39,7 @@ _Toby_:  I don\'t see what\'s unstructural about that!  Although I think that we
 
 In reply to Toby's point about replacing relations by subsets as fundamental, it makes sense to me that we probe the interior of a set by how it relates to other sets, and that we find out about the elements of a set by how it relates to the one-point set. But the aim seems to be useability by everyday mathematicians. That being said, this material seems easier to learn as a first approach to foundations (for undergraduates/early postgrads) than ZF or NBG, requiring less cruft to get to proving theorems.
 
-[[Mike Shulman]]: re David: Well, $P(A\times B)$ represents the relations from $A$ to $B$, and with separation you can cut out a set $B^A$ representing the functions.  However, although Theorem \ref{topos} would be true with this interpretation, it was intended only to be about a "meta-bijection."  I've tried to clarify it.
+[[Mike Shulman]]: Well, $P(A\times B)$ represents the relations from $A$ to $B$, and with separation you can cut out a set $B^A$ representing the functions.  However, although Theorem \ref{topos} would be true with this interpretation, it was intended only to be about a "meta-bijection."  I've tried to clarify it.
 
 Universes can be defined in any structural set theory in a fairly straightforward way, modulo the usual translation from "set of sets" to "family of sets."  There is some stuff from a more ETCS-like perspective at [[universe in a topos]]; I'm sure that this can be rephrased in SEAR (if you want to take a shot, feel free!).
 =--
@@ -301,3 +313,20 @@ Conversely, from any model of SEAR one can *construct* a model of ZF, by taking 
 Every topos has an [[internal logic]], which is a [[type theory]].  However, the line between type theory and structural set theory is fine and sometimes hard to see; the main difference is that structural set theory can involve quantifiers over sets (= types), while type theory only allows ("bounded") quantifiers over elements of types.  Through this correspondence, *Intuitionistic Bounded SEAR* can be treated as a type theory and interpreted internally in any topos with a NNO.  Of course, if the topos is [[boolean topos|boolean]], then the logic can be classical.
 
 One can also write down stronger axioms on a topos such that if they are satisfied, then full Intuitionistic SEAR can be interpeted "internally" in that topos, extending the usual internal logic.
+
+
+# Making alternate primitive choices #
+
+An alternate formulation of the theory, suggested by Toby, has four primitive notions: sets, elements, subsets, and a pairing operation.  Sets and elements are as before.  A *subset* is, like an element, attached to a certain set; it is always a subset *of* some set.  Thus we have a typing declaration $S\subseteq A$.  We also have a primitive notion of when an element $x\in A$ *belongs to* a subset $S\subseteq A$; thus now we have $x\in S$ as a possible assertion of the theory (analogous to $R(x,y)$ before).  We allow a typed equality predicate for subsets.  Finally, there is an operation which assigns to every pair of sets $A$ and $B$ a set $A\times B$, and to every pair of elements $x\in A$ and $y\in B$ an element $(x,y)\in A\times B$.
+
+**Axiom 0** is the same as before.
+
+**Axiom $\frac{1}{2}$ (Pairing):** _For every pair of sets $A$ and $B$ and every element $z\in A\times B$, there exists a unique pair of elements $x\in A$ and $y\in B$ such that $z=(x,y)$._
+
+**Axiom $1\frac{1}{2}$ (Subset comprehension):** _For every property $P$ that can obtain of elements $x$ of some set $A$, there exists a unique subset $S\subseteq A$ such that $x\in S$ precisely when $P$ obtains of $x$_
+
+We now define a **relation** $A\looparrowright B$ to be a subset of $A\times B$.  With this definition, Axiom $1\frac{1}{2}$ clearly implies Axiom 1 (relational comprehension).  We define **functions** and their properties as before.  Axiom $\frac{1}{2}$ implies that there are projection functions $A\times B\to A$ and $A\times B\to B$ which make $A\times B$ into a product in $Set$.
+
+**Axiom $2\frac{1}{2}$ (Separation):** _For every set $A$ and every subset $S\subseteq A$, there exists a set $|S|$ and an injective function $i:{|S|}\to A$ such that for any $x\in A$, we have $x\in S$ if and only if there is a $z\in {|S|}$ with $i(z)=x$._
+
+Applying separation to subsets of $A\times B$ and composing $i$ with the product projections, we recover Axiom 2 (tabulations).  We can now go on with the subsequent axioms stated in the same way as before.
