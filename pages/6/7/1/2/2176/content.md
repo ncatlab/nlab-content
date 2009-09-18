@@ -137,6 +137,8 @@ a + b + c
 
 It is important to note that the last expressions are not equivalent to the 3-place parenthesis $\text{&#x2997;} a \text{&#xFE50;} b \text{&#xFE50;} c \text{&#x2998;}$.
 
+The subject as it develops from this point on is a little like doing [[differential geometry]] over GF(2), but the logical aim puts a slightly different spin on the way we look at formulas.  For example, we think of a function $f : X \to \mathbb{B}$ as a device for drawing a distinction in the space $X$, relative to which distinction we frequently have call to indicate the contents on either side.  These two subsets of $X$ are the [[fibers]] $f^{-1}(0)$ and $f^{-1}(1)$ of the function $f$.  Picking sides as we usually do, $f^{-1}(1)$ is the _indicated_ or _intended_ fiber, leaving $f^{-1}(0)$ to be the _undicated_ or _untended_ fiber.  This makes it convenient to dedicate a more streamlined notation to the fiber of $1$, defining $\text{&#x301A;} f \text{&#x301B;} \;\text{:=}\; f^{-1}(1)$.  In this light, aside from the usual charge to compute the values of compound functions from information about the values of their components, we are especially charged to invert those functions and find the fibers of given end values.
+
 ## External links ##
 
 * [Differential_Logic : Introduction](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Differential_Logic_:_Introduction)
@@ -144,3 +146,7 @@ It is important to note that the last expressions are not equivalent to the 3-pl
 * [Differential Propositional Calculus](http://planetmath.org/encyclopedia/DifferentialPropositionalCalculus.html)
 
 * [Differential Logic and Dynamic Systems](http://www.mywikibiz.com/Directory:Jon_Awbrey/Papers/Differential_Logic_and_Dynamic_Systems_2.0)
+
+## Gallery ##
+
+__NB.__ I'll be using this area to test the remote images and upload the local images that I'll be inserting as the article develops.  ---[[JA]]
