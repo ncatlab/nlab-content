@@ -1,22 +1,18 @@
 #Idea#
 
-The _Moore path category_ of a [[topological space]] $X$ is a kind of [[path category]] whose collection of objects is $X$, and whose morphisms are _parameterized_ paths in $X$, i.e. continuous images of the interval $[0,t] \subset \mathbb{R}$ of length $t$, for all $0 \leq t \lt \infty$.
+The classical  _Moore path category_ of a [[topological space]] $X$ is a variant on the usual space of paths $I \to X$, but one which yields a strict category. 
 
 #Definition#
 
-Let $X$ be a [[topological space]]. It **Moore path category** $P(X)$ has
+Let $X$ be a [[topological space]]. Its **Moore path category** $M(X)$ has
 
-* $Obj(P(X)) = X$
+* $Obj(M(X)) = X$
 
-* $Mor(P(X)) = \coprod_{t \in [0,\infty)} Top([0,t],X)$ .
+* Its set of all morphisms consists of pairs $a=(f,r)$ where $f:[0, \infty) \to X$ is continuous, $r \geq 0$ and $f$ is constant on $[r, \infty)$. The source of $a$ is $f(0)$ and the target of $a$ is $f(r)$. The number may be called the _shape_ of $a$. We may compose $a=(f,r)$ and $b=(g,s)$ to obtain $a \circ b= (h,r+s)$ where $h(t)= f(t)$ for $ t \leq r$ and $h(t) = g(t-r)$ for $t \geq r$. Identities are paths of shape $0$. 
 
-Composition is the obvious concatenation of paths obtained by pullback along the injection maps
+The advantage of this definition as pairs is partly in giving a topology on $M(X)$, but also  in iteration (see reference below). 
 
-$$
-  [0,t_1] \stackrel{1}{\hookrightarrow} [0, t_1 + t_2]
-  \stackrel{(-)+t_1}{\leftarrow}
-  [0,t_2]
-  \,.
-$$
+##Reference##
 
-The identity morphism at $x \in X$ is the unique path of length 0 at $x$, i.e the map ${*} = [0,0] \stackrel{x}{\to} X$ .
+* R. Brown, Moore hyperrectangles on a space form a strict cubical omega-category  with connections, arXiv 0909.2212
+
