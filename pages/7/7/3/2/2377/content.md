@@ -45,6 +45,20 @@ Universes can be defined in any structural set theory in a fairly straightforwar
 =--
 
 
++--{: .query}
+[[Arnold Neumaier]]: 
+I think some details should be added in the beginning (rather than late in the text) for how SEAR cooperates with logic.
+Aopparently, the logic presupposed is first order logic, although the comment on Axiom 1 is too vague since there is no clear commitment to the meaning of a property. 
+Later it says that the ambient logic may be classical or constructive. I take the latter to be intuitionistic. 
+(The link offered gives no clear definition of what a constructive logic is.)
+
+There seems to be something wrong with the axiom of infinity. The present version is satisfied by the set {0,1} and the function that maps both elements to 1.
+
+The concept of a ghost of an inconsistent assumption employed to motivate Collection is not really useful, since the inconsistency axiom 0=1 is also such a ghost.
+
+
+ 
+=--
 # Introduction #
 
 **SEAR**, short for **Sets, Elements, And Relations**, is a [[structural set theory]] with the following properties:
