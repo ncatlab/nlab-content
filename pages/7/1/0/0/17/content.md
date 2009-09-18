@@ -38,7 +38,7 @@ See also the [[FAQ]].
 
    1.  [How to search the nLab from Firefox](#SearchPlugins)
    1.  [How to edit nLab pages in your favorite text editor](#itsalltext)
-
+   1.  [How to download a local copy of the n-Lab](#export)
 
 # Software required to use the $n$Lab # {#software}
 
@@ -191,6 +191,25 @@ produces
 
 :  [Monad (category theory)#Monads and adjunctions](http://en.wikipedia.org/wiki/Monad_%28category_theory%29#Monads_and_adjunctions)
 
+# How to Download a Local Copy of the n-Lab # {#export}
+
+The inbuilt export features of the n-Lab have been switched off.  However, it is still possible to get a local version of the n-Lab.  This is a _static_ version in that you cannot edit pages, but is complete and all the links correctly point to the pages on the local version.
+
+One way to do this on a Unix-based system (Linux, MacOSX, BSD), is to use the `wget` command.  The command is:
+
+    wget --output-document=- http://ncatlab.org/nlab/list \
+     | perl -lne '/<div id="allPages"/ and $print = 1;
+                  /<div id="wantedPages"/ and exit;
+                  /href="([^"]*)"/ and $print and print "http://ncatlab.org$1";' \
+     | wget -i - -kKEpN
+
+If you are fortunate enough to be using the Z-shell then you can type it exactly as written.  Other shells may complain at the line-breaks in the perl code (they should be alright with the backslashed line-breaks).  If so, simply type it all as one line.
+
+One huge advantage of this script over the inbuilt export is that if you run it from the same place each time, it will only download _modified_ pages.  That saves a lot of bandwidth and time.
+
+The following is an explanation of how it works.  The first step is to get a list of all the pages, we do this by downloading the `All pages` page and extracting a list of the pages (via a perl script). We feed this back into wget as a list of pages to get (using the `-i` option). For each downloaded page we ensure that we have the required extras to display it correctly (`-p` option), we convert the links so that they work correctly: links to downloaded files point to downloaded files, links to non-downloaded files point to non-downloaded files (`-k` option), we use time-stamping to only get new pages (`-N`), but because we're doing a little post-processing we need to keep the original files for time-stamping to work correctly (`-K`). Files are also converted to html extension (`-E`) since no matter how they were generated, they are now boring html (well, okay, xhtml+mathml+svg) files.
+
+If anyone can post instructions for other operating systems, or other programs (such as `curl`) then please do so.
 
 # Instiki HowTo # {#instiki}
 
