@@ -216,6 +216,8 @@ Let us run through the initial example again, this time attempting to interpret 
 <img alt="Cactus Graph F = P And Q" src="/nlab/files/Cactus_Graph_F_Equals_P_And_Q.jpg" width="500" /></td></tr>
 </table>
 
+A function like this has an abstract type and a concrete type.  The abstract type is what we invoke when we write things like $f : \mathbb{B} \; \times \; \mathbb{B} \to \mathbb{B}$ or $f : \mathbb{B}^2 \to \mathbb{B}$.  The concrete type takes into account the qualitative dimensions or the "units" of the case, which can be explained as follows.
+
 ## External links ##
 
 * [Differential_Logic : Introduction](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Differential_Logic_:_Introduction)
@@ -239,3 +241,13 @@ Templates ---
        <img alt="mytext" src="/nlab/files/mypic.jpg" width="500" />
 
 Upload Queue ---
+
+[[Venn_Diagram_P_Q_dP_dQ.jpg|Venn Diagram P Q dP dQ:pic]]
+
+[[Cactus_Graph_Ef_eq_lPcdPrlQcdQr.jpg|Cactus Graph Ef = (P,dP)(Q,dQ):pic]]
+
+[[Cactus_Graph_Df_eq_llPcdPrlQcdQrcPQr.jpg|Cactus Graph Df = ((P,dP)(Q,dQ),PQ):pic]]
+
+[[Venn_Diagram_PQ_Difference_Conj_At_Conj.jpg|Venn Diagram PQ Difference Conj At Conj:pic]]
+
+[[Cactus_Graph_PQ_Difference_Conj_At_Conj.jpg|Cactus Graph PQ Difference Conj At Conj:pic]]
