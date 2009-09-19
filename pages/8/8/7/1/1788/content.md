@@ -19,6 +19,14 @@ __Reference.__ Unicode Data Bank ![Boing](http://wikipediareview.com/smilys0b23a
 
 ***
 
+Query:  I noticed that \Delta gives italic Greek $\Delta$, which is not standard, and shouldn't be the case for operators.  Is there any way, short of unicode, to get plain Greek chars in math context?
+
+* \Delta &#8594; $\Delta$
+
+* \text{&#916;} &#8594; $\text{&#916;}$
+
+***
+
 Trying some new arrows: $\twoheadrightarrow$, $\rightarrowtail$, $\looparrowright$, $\nrightarrow$, $\upharpoonright$.
 
 ***
