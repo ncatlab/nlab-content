@@ -265,3 +265,17 @@ Upload Queue ---
 [[Cactus_Graph_Lobe_Rule.jpg|Cactus Graph Lobe Rule:pic]]
 
 [[Cactus_Graph_Spike_Rule.jpg|Cactus Graph Spike Rule:pic]]
+
+[[Venn_Diagram_PQ_Difference_Conj.jpg|Venn Diagram PQ Difference Conj:pic]]
+
+[[Directed_Graph_PQ_Difference_Conj.jpg|Directed Graph PQ Difference Conj:pic]]
+
+[[Cactus_Graph_Ef_eq_lPcdPrlQcdQr.jpg|Cactus Graph Ef = (P,dP)(Q,dQ):pic]]
+
+[[Cactus_Graph_EfaPQ_eq_ldPrldQr.jpg|Cactus Graph Ef@PQ = (dP)(dQ):pic]]
+
+[[Cactus_Graph_EfaPlQr_eq_ldPrdQ.jpg|Cactus Graph Ef@P(Q) = (dP)dQ:pic]]
+
+[[Cactus_Graph_EfalPrQ_eq_dPldQr.jpg|Cactus Graph Ef@(P)Q = dP(dQ):pic]]
+
+[[Cactus_Graph_EfalPrlQr_eq_dP_dQ.jpg|Cactus Graph Ef@(P)(Q) = dP dQ:pic]]
