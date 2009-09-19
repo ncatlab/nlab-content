@@ -310,9 +310,9 @@ This is easily seen to be equivalent to asserting that all surjections are [[spl
 
 ## Constructive SEAR ##
 
-Axioms 1-5 of SEAR make perfect sense whether the ambient logic is [[classical logic|classical]] or [[constructive mathematics|constructive]].  By Diaconescu's argument, Choice implies the logic is classical.
+Axioms 1-5 of SEAR make perfect sense whether the ambient logic is [[classical logic|classical]] or [[intuitionistic logic|constructive]].  By Diaconescu's argument, Choice implies the logic is classical.
 
-To obtain a [[predicative mathematics|predicative]] theory, Axiom 3 can be replaced by an appropriate weaker axiom, such as the existence of  disjoint unions, quotient sets, and/or [[function sets]], or a structural version of the axiom of "subset collection."
+To obtain a [[predicative mathematics|predicative]] theory, Axiom 3 can be replaced by an appropriate weaker axiom, such as the existence of [[disjoint union]]s, [[quotient set]]s, and/or [[function sets]], or a structural version of the axiom of [[subset collection]].
 
 ## Bounded SEAR and ETCS ##
 
