@@ -251,3 +251,17 @@ Upload Queue ---
 [[Venn_Diagram_PQ_Difference_Conj_At_Conj.jpg|Venn Diagram PQ Difference Conj At Conj:pic]]
 
 [[Cactus_Graph_PQ_Difference_Conj_At_Conj.jpg|Cactus Graph PQ Difference Conj At Conj:pic]]
+
+[[Cactus_Graph_Df_eq_llPcdPrlQcdQrcPQr.jpg|Cactus Graph Df = ((P,dP)(Q,dQ),PQ):pic]]
+
+[[Cactus_Graph_DfaPQ_eq_lldPrldQrr.jpg|Cactus Graph Df@PQ = ((dP)(dQ)):pic]]
+
+[[Cactus_Graph_DfaPlQr_eq_ldPrdQ.jpg|Cactus Graph Df@P(Q) = (dP)dQ:pic]]
+
+[[Cactus_Graph_DfalPrQ_eq_dPldQr.jpg|Cactus Graph Df@(P)Q = dP(dQ):pic]]
+
+[[Cactus_Graph_DfalPrlQr_eq_dP_dQ.jpg|Cactus Graph Df@(P)(Q) = dP dQ:pic]]
+
+[[Cactus_Graph_Lobe_Rule.jpg|Cactus Graph Lobe Rule:pic]]
+
+[[Cactus_Graph_Spike_Rule.jpg|Cactus Graph Spike Rule:pic]]
