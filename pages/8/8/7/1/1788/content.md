@@ -23,91 +23,49 @@ Trying some new arrows: $\twoheadrightarrow$, $\rightarrowtail$, $\looparrowrigh
 
 ***
 
-What the hecque is going on here???
+Don't forget to change the &'s to &'s when stuffing some $&#8230;$ into an HTML envelope.
 
-&#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595;
-
-***
-
-math stuff 1
-
-$\array{
-\mathop{just one of} \\ a, b, c \\ \mathop{is false}
-}$
+&#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595;
 
 ***
 
-math stuff 2
+math stuff 
 
-$\array{
-p \;\mathop{and}\; q
+$$\array{
+p \; \mathop{and} \; q
 & \quad &
 \overset{\quad\mathop{Diff}\quad}{\longrightarrow}
 & \quad &
-\mathop{d}p \;\mathop{or}\; \mathop{d}q
-}$
+\mathop{d}p \; \mathop{or} \; \mathop{d}q
+}$$
 
 ***
 
-math stuff 1 in div font size (+2)
+math stuff in `<div markdown="1"><font size="+2">`
 
-<div markdown="1">
-<font size="+2">
-$\array{
-\mathop{just one of} \\ a, b, c \\ \mathop{is false}
-}$
-</font>
-</div>
-
-***
-
-math stuff 2 in div font size (+2)
-
-<div markdown="1">
-<font size="+2">
-$\array{
-p \;\mathop{and}\; q
+<div markdown="1"><font size="+2">
+$$\array{
+p \; \mathop{and} \; q
 &amp; \quad &amp;
 \overset{\quad\mathop{Diff}\quad}{\longrightarrow}
 &amp; \quad &amp;
-\mathop{d}p \;\mathop{or}\; \mathop{d}q
-}$
-</font>
-</div>
+\mathop{d}p \; \mathop{or} \; \mathop{d}q
+}$$
+</font></div>
 
 ***
 
-math stuff 1 in table font size(+2)
+math stuff in `<table align="center" markdown="1"><font size="+2">`
 
-<table align="center" markdown="1">
-<font size="+2">
+<table align="center" markdown="1"><font size="+2">
 $\array{
-\mathop{just one of} \\ a, b, c \\ \mathop{is false}
-}$
-</font>
-</table>
-
-***
-
-math stuff 2 in table font size(+2)
-
-<table align="center" markdown="1">
-<font size="+2">
-$\array{
-p \;\mathop{and}\; q
+p \; \mathop{and} \; q
 &amp; \quad &amp;
 \overset{\quad\mathop{Diff}\quad}{\longrightarrow}
 &amp; \quad &amp;
-\mathop{d}p \;\mathop{or}\; \mathop{d}q
+\mathop{d}p \; \mathop{or} \; \mathop{d}q
 }$
-</font>
-</table>
-
-***
-
-To heck with it --- I'm off to Margaritaville!!!
-
-Oh wait --- maybe it's the amps???
+</font></table>
 
 ***
 
