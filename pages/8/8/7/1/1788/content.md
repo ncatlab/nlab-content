@@ -23,6 +23,22 @@ Trying some new arrows: $\twoheadrightarrow$, $\rightarrowtail$, $\looparrowrigh
 
 ***
 
+There really shouldn't be that extra space for 1-letter operators:
+
+* \mathop{d}f &#8594; $\mathop{d}f$
+
+I'm guessing I can use \mathrm, but that wrecks the operational semantics:
+
+* \mathrm{d}f &#8594; $\mathrm{d}f$
+
+Guessed wrong again!
+
+* {\mathop{d}f} &#8594; ${\mathop{d}f}$
+
+* {\mathrm{d}f} &#8594; ${\mathrm{d}f}$
+
+***
+
 Don't forget to change the &'s to &'s when stuffing some $&#8230;$ into an HTML envelope.
 
 &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595;
