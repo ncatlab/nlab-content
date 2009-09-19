@@ -205,7 +205,16 @@ If the form of the above statement reminds you of De&nbsp;Morgan's rule, it is n
 
 ### Worm's Eye View ###
 
-Let us run through the initial example again, this time attempting to interpret the formulas that develop at each stage along the way.
+Let us run through the initial example again, this time attempting to interpret the formulas that develop at each stage along the way.  We begin with a proposition or a boolean function $f(p, q) = p q$.
+
+<table align="center" cellpadding="8" style="border:none">
+<tr>
+<td style="border:none">
+<img alt="Venn Diagram F = P And Q" src="/nlab/files/Venn_Diagram_F_Equals_P_And_Q.jpg" width="500" /></td></tr>
+<tr>
+<td style="border:none">
+<img alt="Cactus Graph F = P And Q" src="/nlab/files/Cactus_Graph_F_Equals_P_And_Q.jpg" width="500" /></td></tr>
+</table>
 
 ## External links ##
 
@@ -230,5 +239,3 @@ Templates ---
        <img alt="mytext" src="/nlab/files/mypic.jpg" width="500" />
 
 Upload Queue ---
-
-* {empty --- for now}
