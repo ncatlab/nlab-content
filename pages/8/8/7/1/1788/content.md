@@ -19,11 +19,15 @@ __Reference.__ Unicode Data Bank ![Boing](http://wikipediareview.com/smilys0b23a
 
 ***
 
-Query:  I noticed that \Delta gives italic Greek $\Delta$, which is not standard, and shouldn't be the case for operators.  Is there any way, short of unicode, to get plain Greek chars in math context?
+I noticed that \Delta gives italic Greek $\Delta$, which is not standard, and shouldn't be used in any case for operators.  Is there any way, short of unicode, to get plain Greek chars in math context?
 
 * \Delta &#8594; $\Delta$
 
+Looks like HTML codes work well enough as a stopgap, but still, it's kinda weird.
+
 * \text{&#916;} &#8594; $\text{&#916;}$
+
+* \mathop{&#916;} &#8594; $\mathop{&#916;}$
 
 ***
 
