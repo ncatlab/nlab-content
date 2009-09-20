@@ -172,3 +172,6 @@ Appl. Alg.+, 21 (1981), 233--260.
 
 
 * F. Al-Agl, R. Brown and R. Steiner, Multiple categories: the equivalence   between a globular and cubical approach, _Advances in Mathematics_, 170,   (2002), 71--118.
+
+[[!redirects cubical omega-category]]
+[[!redirects cubical ∞-category]]
