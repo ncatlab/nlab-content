@@ -51,9 +51,11 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-20
 
+*  [[Toby Bartels]]:  Reply to Mike at [[foundations]].
+
 * [[Mike Shulman]]: Rafael, your clarification at [[category]] introduced another typo!  (-:  Now fixed.
 
-* [[Urs Schreiber]]: quick reaction at $(n,r)$-category -- am still not quite back online, but trying...
+* [[Urs Schreiber]]: quick reaction at [[(n,r)-category]] -- am still not quite back online, but trying...
 
 * [[Todd Trimble]] responded to [[Rafael Borowiecki]] at [[category theory]]. 
 
