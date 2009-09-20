@@ -49,6 +49,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 ***
 ## 2009-09-20
 
+* [[Zoran ?koda]]: new stub [[K-theory and physics]].
+
 * [[Rafael Borowiecki]]: Finally took the time to answer at the discussion at [[category theory]]. Also moved some structures to structures that reduces to categories.
 
 * [[Zoran ?koda]]: new entry [[Vladimir Drinfel'd]]. Improvements to [[Q-category]], [[noncommutative algebraic geometry]].
