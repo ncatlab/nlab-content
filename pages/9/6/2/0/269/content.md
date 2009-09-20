@@ -86,6 +86,8 @@ Notice the $Id$-labels, which indicate that the edges and faces labeled by them 
 
 +--{.query}
 Is this a [[cubical object in Cat]] or a [[cubically enriched category]]?  &#8212;Toby
+
+[[Mike Shulman]]: I think the intended reference was probably to a [[cubical ∞-category]].
 =--
 
 In an ordinary cubical set all degeneracy maps act in the kind of way depicted above. One might also want to require a cubical set to contain "thin" cells between equal _adjacent_ faces. These **extra degeneracy maps** act by sending 1-cells to degenerate 2-cells of the form
