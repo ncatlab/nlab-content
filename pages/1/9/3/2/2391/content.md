@@ -10,7 +10,10 @@ $Q$-categories and $Q^\circ$-categories serve as generalizations of (a structure
 
 An __almost quotient category__, or a __$Q$-category__ is a pair of functors
 $Q: A\leftrightarrow\bar{A}: I$,
-where $Q$ is fully faithful and left adjoint to $I$.  
+where $Q$ is fully faithful and left adjoint to $I$. In other words, $A$ is equipped with an equivalence with a [[coreflective subcategory]] of $\bar{A}$. Such an adjoint situation appears often, however the word $Q$-category is used only when the pair is used in a specific meaning useful to constructions like (generalized) sheaf theory (similarly like presheaf of objects in $D$ and contravariant functor to $D$ are synonyms, but a different word refers to a different context and intuition).
+
+A $Q^\circ$-category is a pair of functors $Q: A\leftrightarrow\bar{A}: I$,
+where $Q$ is fully faithful and right adjoint to $I$. In other words, $A$ is equipped with an equivalence with a [[reflective subcategory]] of $\bar{A}$.
 
 Morphisms...
 
@@ -35,9 +38,11 @@ There is a fully faithful functor $Q_C:C\to LC$ that to any $x\in C$ assigns the
 
 #Other examples
 
+If $Q: A\leftrightarrow\bar{A}: I$ is a $Q$-category, then there is an induced $Q$-category $\hat{Q}: A^{Set^\circ}\leftrightarrow\hat{\bar{A}}$.
+
 The $Q$-category of sieves 
 
-The $Q$-category corresponding to the subcategory of sieves corresponding to Grothendieck topology...
+The $Q$-subcategory of the $Q$-category of (all) sieves corresponding to the subcategory of sieves corresponding to the Grothendieck topology...
 
 (needs explanation)
 
@@ -56,7 +61,11 @@ notes
 
 The formalism has been recently used (and shortly surveyed) in
 
-* M. Kontsevich, A. Rosenberg, _Noncommutative spaces_, preprint MPI-2004-35 ([ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2331))
+* M. Kontsevich, A. Rosenberg, _Noncommutative spaces_, preprint MPI-2004-35 ([ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2331), [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2303))
+
+and also used in the general definition of "noncommutative" stacks in
+
+* M. Kontsevich, A. Rosenberg, _Noncommutative spaces_, preprint MPI-2004-37 ([ps](http://www.mpim-bonn.mpg.de/preprints/send?bid=2333), [dvi](http://www.mpim-bonn.mpg.de/preprints/send?bid=2305))
 
 The epipresheaf condition for the Q-category of nilpotent (infinitesimal) thickenings is in the Kontsevich-Rosenberg paper interpreted as [[formally smooth morphism|formal smoothness]] what is further studied in 
 
