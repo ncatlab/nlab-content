@@ -269,33 +269,40 @@ Propositions are formed on differential variables, or any combination of ordinar
 Given the proposition $f(p, q)$ over the space $X = P \;\times\; Q$, the _(first order) enlargement_ of $f$ is the proposition $\mathop{E}f$ over the differential extension $\mathop{E}X$ that is defined by the
 following formula:
 
-<div markdown="1"><font size="+1">
-$$\array{
+<table align="center" cellpadding="8" markdown="1" style="border:none">
+
+<td style="border:none"><font size="+1">
+$
 \mathop{E}f(p, q, \mathop{d}p, \mathop{d}q)
-&amp; = &amp;
+\; = \;
 f(p + \mathop{d}p, \; q + \mathop{d}q)
-&amp; = &amp;
+\; = \;
 f( \; \text{&#x2997;} p, \mathop{d}p \text{&#x2998;}, \; \text{&#x2997;} q, \mathop{d}q \text{&#x2998;} \; )
-}$$
-</font></div>
+$
+</font></td>
+
+</table>
 
 In the example $f(p, q) = p q$, the enlargement $\mathop{E}f$ is computed as follows:
 
-<div markdown="1"><font size="+1">
-$$\array{
+<table align="center" cellpadding="8" markdown="1" style="border:none">
+
+<tr>
+<td style="border:none"><font size="+1">
+$
 \mathop{E}f(p, q, \mathop{d}p, \mathop{d}q)
-&amp; = &amp; 
+\quad = \quad
 (p + \mathop{d}p)(q + \mathop{d}q)
-&amp; = &amp;
+\quad = \quad
 \text{&#x2997;} p, \mathop{d}p \text{&#x2998;&#x2997;} q, \mathop{d}q \text{&#x2998;}
-}$$
-</font></div>
+$
+</font></td></tr>
 
-<br>
+<tr>
+<td style="border:none">
+<img alt="Cactus Graph Ef = (P,dP)(Q,dQ)" src="/nlab/files/Cactus_Graph_Ef_eq_lPcdPrlQcdQr.jpg" width="500" /></td></tr>
 
-<center>
-<img alt="Cactus Graph Ef = (P,dP)(Q,dQ)" src="/nlab/files/Cactus_Graph_Ef_eq_lPcdPrlQcdQr.jpg" width="500" />
-</center>
+</table>
 
 Given the proposition $f(p, q)$ over $X = P \;\times\; Q$, the _(first order) difference_ of $f$ is the proposition $\mathop{D}f$ over $\mathop{E}X$ that is defined by the formula $\mathop{D}f = \mathop{E}f - f$, or, written out in full:
 
@@ -310,25 +317,32 @@ f(p + \mathop{d}p, \; q + \mathop{d}q) - f(p, q)
 
 In the example $f(p, q) = p q$, the difference $\mathop{D}f$ is computed as follows:
 
-<table align="center" cellpadding="8" markdown="1" style="border:none"><font size="+1">
-<td style="border:none">
-$\mathop{D}f(p, q, \mathop{d}p, \mathop{d}q)
+<table align="center" cellpadding="8" markdown="1" style="border:none">
+
+<tr>
+<td style="border:none"><font size="+1">
+$
+\mathop{D}f(p, q, \mathop{d}p, \mathop{d}q)
 \; = \;
 (p + \mathop{d}p)(q + \mathop{d}q) - p q
 \; = \;
-\text{&#x2997;&#x2997;} p, \mathop{d}p \text{&#x2998;&#x2997;} q, \mathop{d}q \text{&#x2998;}, p q \text{&#x2998;}$</td>
-</font></table>
+\text{&#x2997;&#x2997;} p, \mathop{d}p \text{&#x2998;&#x2997;} q, \mathop{d}q \text{&#x2998;}, p q \text{&#x2998;}
+$
+</font></td></tr>
 
-<br>
+<tr>
+<td style="border:none">
+<img alt="Cactus Graph Df = ((P,dP)(Q,dQ),PQ)" src="/nlab/files/Cactus_Graph_Df_eq_llPcdPrlQcdQrcPQr.jpg" width="500" /></td></tr>
 
-<center>
-<img alt="Cactus Graph Df = ((P,dP)(Q,dQ),PQ)" src="/nlab/files/Cactus_Graph_Df_eq_llPcdPrlQcdQrcPQr.jpg" width="500" />
-</center>
+</table>
 
 We did not yet go through the trouble to interpret this (first order) _difference of conjunction_ fully, but were happy simply to evaluate it with respect to a single location in the universe of discourse, namely, at the point picked out by the singular proposition $p q$, that is, at the place where $p = 1$ and $q = 1$.  This evaluation is written in the form $\mathop{D}f|_{p q}$ or $\mathop{D}f|_{(1, 1)}$, and we arrived at the locally applicable law that is stated and illustrated as follows:
 
-<div markdown="1"><font size="+1">
-$$\array{
+<table align="center" cellpadding="8" markdown="1" style="border:none; text-align:center">
+
+<tr>
+<td style="border:none"><font size="+1">
+$\array{
 f(p, q)
 &amp; = &amp;
 p q
@@ -337,39 +351,79 @@ p \;\mathop{and}\; q
 \\
 &amp; &amp; \Downarrow
 \\
-\mathop{D}f|_{p q}
+\mathop{D}f|{p q}
 &amp; = &amp;
 \text{&#x2997;&#x2997;} \mathop{d}p \text{&#x2998;&#x2997;} \mathop{d}q \text{&#x2998;&#x2998;}
 &amp; = &amp;
 \mathop{d}p \;\mathop{or}\; \mathop{d}q
-}$$
-</font></div>
+}$
+</font></td></tr>
 
-<br>
+<tr>
+<td style="border:none">
+<img alt="Venn Diagram PQ Difference Conj At Conj" src="/nlab/files/Venn_Diagram_PQ_Difference_Conj_At_Conj.jpg" width="500" /></td></tr>
 
-<center>
-<img alt="Venn Diagram PQ Difference Conj At Conj" src="/nlab/files/Venn_Diagram_PQ_Difference_Conj_At_Conj.jpg" width="500" />
-</center>
+<tr>
+<td style="border:none">
+<img alt="Cactus Graph PQ Difference Conj At Conj" src="/nlab/files/Cactus_Graph_PQ_Difference_Conj_At_Conj.jpg" width="500" /></td></tr>
 
-<br>
-
-<center>
-<img alt="Cactus Graph PQ Difference Conj At Conj" src="/nlab/files/Cactus_Graph_PQ_Difference_Conj_At_Conj.jpg" width="500" />
-</center>
+</table>
 
 The venn diagram shows the analysis of the inclusive disjunction $\text{&#x2997;&#x2997;} \mathop{d}p \text{&#x2998;&#x2997;} \mathop{d}q \text{&#x2998;&#x2998;}$ into the following exclusive disjunction:
 
 <div markdown="1"><font size="+1">
-$$\array{
+$$
 \mathop{d}p \; \text{&#x2997;} \mathop{d}q \text{&#x2998;}
-&amp; + &amp;
+\quad + \quad
 \text{&#x2997;} \mathop{d}p \text{&#x2998;} \; \mathop{d}q
-&amp; + &amp;
+\quad + \quad
 \mathop{d}p \; \mathop{d}q
-}$$
+$$
 </font></div>
 
 The differential proposition that results may be interpreted to say "change $p$ or change $q$ or both".  And this can be recognized as just what you need to do if you happen to find yourself in the center cell and require a complete and detailed description of ways to escape it.
+
+We have just computed what is variously called the _difference map_, the _difference proposition_, or the _local proposition_ $\mathop{D}f_x$ of the proposition $f(p, q) = p q$ at the point $x$ where $p = 1$ and $q = 1$.
+
+In the universe $X = P \;\times\; Q$, the four propositions $p q, \; p \text{&#x2997;} q \text{&#x2998;}, \; \text{&#x2997;} p \text{&#x2998;} q, \; \text{&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;}$ that indicate the "cells", or the smallest regions of the venn diagram, are called ''singular propositions''.  These serve as an alternative notation for naming the points $(1, 1), \; (1, 0), \; (0, 1), \; (0, 0)$, respectively.
+
+Thus we can write $\mathop{D}f_x = \mathop{D}f|x = \mathop{D}f|(1, 1) = \mathop{D}f|p q$, so long as we know the frame of reference in force.
+
+In the example $f(p, q) = p q$, the value of the difference proposition $\mathop{D}f_x$ at each of the four points in $x \in X$ may be computed in graphical fashion as shown below:
+
+<table align="center" cellpadding="8" style="border:none">
+
+<tr>
+<td style="border:none">
+<img alt="Cactus Graph Df = ((P,dP)(Q,dQ),PQ)" src="/nlab/files/Cactus_Graph_Df_eq_llPcdPrlQcdQrcPQr.jpg" width="500" /></td></tr>
+
+<tr>
+<td style="border:none">
+<img alt="Cactus Graph Df@PQ = ((dP)(dQ))" src="/nlab/files/Cactus_Graph_DfaPQ_eq_lldPrldQrr.jpg" width="500" /></td></tr>
+
+<tr>
+<td style="border:none">
+<img alt="Cactus Graph Df@P(Q) = (dP)dQ" src="/nlab/files/Cactus_Graph_DfaPlQr_eq_ldPrdQ.jpg" width="500" /></td></tr>
+
+<tr>
+<td style="border:none">
+<img alt="Cactus Graph Df@(P)(Q) = dP dQ" src="/nlab/files/Cactus_Graph_DfalPrlQr_eq_dP_dQ.jpg" width="500" /></td></tr>
+
+</table>
+
+The easy way to visualize the values of these graphical expressions is just to notice the following equivalents:
+
+<table align="center" cellpadding="8" style="border:none">
+
+<tr>
+<td style="border:none">
+<img alt="Cactus Graph Lobe Rule" src="/nlab/files/Cactus_Graph_Lobe_Rule.jpg" width="500" /></td></tr>
+
+<tr>
+<td style="border:none">
+<img alt="Cactus Graph Spike Rule" src="/nlab/files/Cactus_Graph_Spike_Rule.jpg" width="500" /></td></tr>
+
+</table>
 
 ## External links ##
 
@@ -394,20 +448,6 @@ Templates ---
        <img alt="mytext" src="/nlab/files/mypic.jpg" width="500" />
 
 Upload Queue ---
-
-[[Cactus_Graph_Df_eq_llPcdPrlQcdQrcPQr.jpg|Cactus Graph Df = ((P,dP)(Q,dQ),PQ):pic]]
-
-[[Cactus_Graph_DfaPQ_eq_lldPrldQrr.jpg|Cactus Graph Df@PQ = ((dP)(dQ)):pic]]
-
-[[Cactus_Graph_DfaPlQr_eq_ldPrdQ.jpg|Cactus Graph Df@P(Q) = (dP)dQ:pic]]
-
-[[Cactus_Graph_DfalPrQ_eq_dPldQr.jpg|Cactus Graph Df@(P)Q = dP(dQ):pic]]
-
-[[Cactus_Graph_DfalPrlQr_eq_dP_dQ.jpg|Cactus Graph Df@(P)(Q) = dP dQ:pic]]
-
-[[Cactus_Graph_Lobe_Rule.jpg|Cactus Graph Lobe Rule:pic]]
-
-[[Cactus_Graph_Spike_Rule.jpg|Cactus Graph Spike Rule:pic]]
 
 [[Venn_Diagram_PQ_Difference_Conj.jpg|Venn Diagram PQ Difference Conj:pic]]
 
