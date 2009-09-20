@@ -20,3 +20,4 @@ The inclusion of Gray-categories into tricategories is non-canonical -- there is
 * Tom Leinster, Higher operads, higher categories
 
 [[!redirects Gray category]]
+[[!redirects Gray-categories]]
