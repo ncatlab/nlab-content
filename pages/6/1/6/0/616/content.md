@@ -18,8 +18,10 @@ Marco Grandis' work on the area is listed amongst his publications at his ([home
 
 * M. Grandis, Modelling fundamental 2-categories for directed homotopy, Homology, Homotopy Appl. 8 (1) (2006) 31&#8211;70 (electronic)
 
++--{: .query}
+[[David Roberts]]: Marco Grandis has come out with a book \'Directed Algebraic Topology\', published by CUP. Haven't checked details on it, but presumably it contains material from the above papers
 
-
+=--
 
 Foundational work was done by Eric Goubault and his collaborators.
 
