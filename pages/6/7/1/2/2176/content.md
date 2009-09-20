@@ -241,6 +241,40 @@ $$\array{
 \mathop{E}X & = & X \;\times\; \mathop{d}X
 }$$
 
+where:
+
+$$\array{
+\arrayopts{\colalign{right center center}}
+X & = & P \;\times\; Q
+\\
+\mathop{d}X & = & \mathop{d}P \;\times\; \mathop{d}Q
+\\
+\mathop{d}P & = & \{ \text{&#x2997;} \mathop{d}p \text{&#x2998;}, \; \mathop{d}p \}
+\\
+\mathop{d}Q & = & \{ \text{&#x2997;} \mathop{d}q \text{&#x2998;}, \; \mathop{d}q \}
+}$$
+
+The interpretations of these new symbols can be diverse, but the easiest option for now is just to say that $\mathop{d}p$ means &ldquo;$\mathop{change}\; p$&rdquo; and $\mathop{d}q$ means &ldquo;$\mathop{change}\; q$&rdquo;.
+
+Drawing a venn diagram for the differential extension $\mathop{E}X = X \;\times\; \mathop{d}X$ requires four logical dimensions, $P, Q, \mathop{d}P, \mathop{d}Q$, but it is possible to project a suggestion of what the differential features $\mathop{d}p$ and $\mathop{d}q$ are about on the 2-dimensional base space $X = P \;\times\; Q$ by drawing arrows that cross the boundaries of the basic circles in the venn diagram for $X$, reading an arrow as $\mathop{d}p$ if it crosses the boundary between $p$ and $\text{&#x2997;} p \text{&#x2998;}$ in either direction and reading an arrow as $\mathop{d}q$ if it crosses the boundary between $q$ and $\text{&#x2997;} q \text{&#x2998;}$ in either direction.
+
+<center>
+<img alt="Venn Diagram P Q dP dQ" src="/nlab/files/Venn_Diagram_P_Q_dP_dQ.jpg" width="500" />
+</center>
+
+Propositions are formed on differential variables, or any combination of ordinary logical variables and differential logical variables, in the same ways that propositions are formed on ordinary logical variables alone.  For example, the proposition $\text{&#x2997;} \mathop{d}p \; \text{&#x2997;} \mathop{d}q \text{&#x2998;&#x2998;}$ says the same thing as  $\mathop{d}p \Rightarrow \mathop{d}q$, in other words, that there is no change in $p$ without a change in $q$.
+
+Given the proposition $f(p, q)$ over the space $X = P \;\times\; Q$, the _(first order) enlargement_ of $f$ is the proposition $\mathop{E}f$ over the differential extension $\mathop{E}X$ that is defined by the
+following formula:
+
+$$\array{
+\mathop{E}f(p, q, \mathop{d}p, \mathop{d}q)
+& = & 
+f(p + \mathop{d}p, \; q + \mathop{d}q)
+& = &
+f( \; \text{&#x2997;} p, \mathop{d}p \text{&#x2998;}, \; \text{&#x2997;} q, \mathop{d}q \text{&#x2998;} \; )
+}$$
+
 ## External links ##
 
 * [Differential_Logic : Introduction](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Differential_Logic_:_Introduction)
@@ -264,8 +298,6 @@ Templates ---
        <img alt="mytext" src="/nlab/files/mypic.jpg" width="500" />
 
 Upload Queue ---
-
-[[Venn_Diagram_P_Q_dP_dQ.jpg|Venn Diagram P Q dP dQ:pic]]
 
 [[Cactus_Graph_Ef_eq_lPcdPrlQcdQr.jpg|Cactus Graph Ef = (P,dP)(Q,dQ):pic]]
 
