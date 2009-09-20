@@ -47,7 +47,11 @@ The syntax on the forum is ever-so-slightly different to that here.  You can use
 To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5).  When we "go live" (which will happen soon), I'll clean out the discussions so feel free to have a play first.  Any comments and suggestions should be recorded [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=64) (you'll have to create an account to comment on this, though).
 
 ***
+
+
 ## 2009-09-20
+
+*  [[Toby Bartels]]:  I don\'t think that those typos in [[(n,r)-category]] were typos, but I tried to clarify them.
 
 * [[Zoran ?koda]]: new stub [[K-theory and physics]]. Book entry [[Directed Homotopy Theory]]. Added references to [[basic ideas of moduli stacks of curves and Gromov-Witten theory|basic ideas of GW]].
 
@@ -57,12 +61,17 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
   * Amazingly discovered a typo in the definition of a category at [[category]]. Added a clarification in the same definition.
   * Corrected two presumable typos as [[(n,r)-category]].
 
-
 * [[Zoran ?koda]]: new entry [[Vladimir Drinfel'd]]. Improvements to [[Q-category]], [[noncommutative algebraic geometry]].
 
 * [[Mike Shulman]]: Incorporated the discussions at [[Crans-Gray tensor product]] into the entry, and deleted them.
 
-* [[David Roberts]]: Comment/reference at [[directed homotopy theory]] - Grandis has a book out now on this stuff. 
+* [[David Roberts]]: Comment/reference at [[directed homotopy theory]] - Grandis has a book out now on this stuff.
+
+
+## 2009-09-19
+
+*  [Arrr!](http://www.talklikeapirate.com/piratehome.html)
+
 
 ## 2009-09-18
 
