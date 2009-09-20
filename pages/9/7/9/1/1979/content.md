@@ -18,7 +18,7 @@ A quasicompact __relative noncommutative scheme__ over a category $C$ is a categ
 
 ##Properties##
 
-The word 'localization' here is in the sense of Gabriel--Zisman. Notice that if the ground category $C$ has a distinguished object (say the generator in the category of vector spaces over a field) then its direct image functor is a distinguished object in $A$. In general this is not required. The exactness properties required above guarentee that the quasicoherent sheaves can be glued from the restrictions on the covers, and moreover that the derived functors of the direct image like functors can be computed using standard resolutions. If the cover is semiseparated (a notion from Thomason--Trobaugh), that is the localization functors for the cover mutually commute, then the standard resolutions can be replaced by alternative (\v{C}ech) resolutions. 
+The word 'localization' here is in the sense of Gabriel--Zisman. Notice that if the ground category $C$ has a distinguished object (say the generator in the category of vector spaces over a field) then its direct image functor is a distinguished object in $A$. In general this is not required. The exactness properties required above guarentee that the quasicoherent sheaves can be glued from the restrictions on the covers, and moreover that the derived functors of the direct image like functors can be computed using standard resolutions. If the cover is semiseparated (a notion from Thomason--Trobaugh), that is the localization functors for the cover mutually commute, then the standard resolutions can be replaced by alternating &#268;ech resolutions. 
 
 
 ##Examples##
