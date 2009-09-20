@@ -508,6 +508,63 @@ q
 
 Any proposition worth its salt can be analyzed from many different points of view, any one of which has the potential to reveal an unsuspected aspect of the proposition's meaning.  We will encounter more and more of these alternative readings as we go.
 
+The _enlargement_ or _shift_ operator $\mathop{E}$ exhibits a wealth of interesting and useful properties in its own right, so it pays to examine a few of the more salient features that play out on the surface of our initial example, $f(p, q) = p q$.
+
+A suitably generic definition of the extended universe of discourse is afforded by the following set-up:
+
+<table align="center" cellpadding="8" markdown="1" style="border:none; width:90%">
+<td style="border:none"><font size="+1">
+$\array{
+\arrayopts{\colalign{left center center left}}
+\text{Let}
+&amp; X
+&amp; = &amp; X_1 \;\times\; \ldots \;\times\; X_k.
+\\
+\text{Let}
+&amp; \mathop{d}X
+&amp; = &amp; \mathop{d}X_1 \;\times\; \ldots \;\times\; \mathop{d}X_k.
+\\
+\text{Then}
+&amp; \mathop{E}X
+&amp; = &amp; X \;\times\; \mathop{d}X
+\\
+&amp;
+&amp; = &amp;
+X_1 \;\times\; \ldots \;\times\; X_k \;\times\; \mathop{d}X_1 \;\times\; \ldots \;\times\; \mathop{d}X_k.
+}$
+</font></td>
+</table>
+
+For a proposition of the form $f : X_1 \;\times\; \ldots \;\times\; X_k \to \mathbb{B}$, the _(first order) enlargement_ of $f$ is the proposition $\mathop{E}f : \mathop{E}X \to \mathbb{B}$ that is defined by the following equation:
+
+<table align="center" cellpadding="8" markdown="1" style="border:none; width:90%">
+<td style="border:none"><font size="+1">
+$\array{
+\arrayopts{\colalign{left}}
+\mathop{E}f(x_1, \ldots, x_k, \mathop{d}x_1, \ldots, \mathop{d}x_k)
+\\
+= \quad f(x_1 + \mathop{d}x_1, \ldots, x_k + \mathop{d}x_k)
+\\
+= \quad f( \; \text{&#x2997;} x_1, \mathop{d}x_1 \text{&#x2998;}, \ldots, \text{&#x2997;} x_k, \mathop{d}x_k \text{&#x2998;} \; )
+}$
+</font></td>
+</table>
+
+The _differential variables_ $\mathop{d}x_j$ are boolean variables of the same basic type as the ordinary variables $x_j$.  Although it is conventional to distinguish the (first order) differential variables with the operative prefix &ldquo;$\mathop{d}$&rdquo; this way of notating differential variables is entirely optional.  It is their existence in particular relations to the initial variables, not their names, that defines them as differential variables.
+
+In the example of logical conjunction, $f(p, q) = p q$, the enlargement $\mathop{E}f$ is formulated as follows:
+
+<div markdown="1"><font size="+1">
+$$
+\mathop{E}f(p, q, \mathop{d}p, \mathop{d}q)
+\quad = \quad
+(p + \mathop{d}p)(q + \mathop{d}q)
+\quad = \quad
+\text{&#x2997;} p \text{&#xFE50;} \mathop{d}p \text{&#x2998;}
+\text{&#x2997;} q \text{&#xFE50;} \mathop{d}q \text{&#x2998;}
+$$
+</font></div>
+
 ## External links ##
 
 * [Differential_Logic : Introduction](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Differential_Logic_:_Introduction)
