@@ -611,6 +611,71 @@ To understand what the _enlarged_ or _shifted_ proposition means in logical term
 
 </table>
 
+Given the data that develops in this form of analysis, the disjoined ingredients can now be folded back into a _boolean expansion_ or a _disjunctive normal form_ (DNF) that is equivalent to the enlarged proposition $\mathop{E}f$.
+
+<div markdown="1"><font size="+1">
+$$
+\mathop{E}f
+\quad = \quad
+p q \cdot \mathop{E}f_{p q}
+\quad + \quad
+p \text{&#x2997;} q \text{&#x2998;} \cdot \mathop{E}f_{p \text{&#x2997;} q \text{&#x2998;}}
+\quad + \quad
+\text{&#x2997;} p \text{&#x2998;} q \cdot \mathop{E}f_{\text{&#x2997;} p \text{&#x2998;} q}
+\quad + \quad
+\text{&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;} \cdot
+\mathop{E}f_{\text{&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;}}
+$$
+</font></div>
+
+Here is a summary of the result, illustrated by means of a digraph picture, where the "no change" element $\text{&#x2997;} \mathop{d}p \text{&#x2998;&#x2997;} \mathop{d}q \text{&#x2998;}$ is drawn as a loop at the point $p \; q$.
+
+<table align="center" cellpadding="8" markdown="1" style="border:none; text-align:center">
+
+<tr>
+<td style="border:none">
+<img alt="Directed Graph PQ Enlargement Conj" src="/nlab/files/Directed_Graph_PQ_Enlargement_Conj.jpg" width="500" /></td></tr>
+
+<tr>
+<td style="border:none"><font size="+1">
+$\array{\arrayopts{\colalign{right center}}
+f &amp; = &amp; p &amp; \cdot &amp; q
+\\
+\mathop{E}f
+&amp; = &amp;
+p
+&amp; \cdot &amp;
+q
+&amp; \cdot &amp;
+\text{&#x2997;} \mathop{d}p \text{&#x2998;&#x2997;} \mathop{d}q \text{&#x2998;}
+\\
+&amp; + &amp;
+p
+&amp; \cdot &amp;
+\text{&#x2997;} q \text{&#x2998;}
+&amp; \cdot &amp;
+\text{&#x2997;} \mathop{d}p \text{&#x2998;} \; \mathop{d}q \;
+\\
+&amp; + &amp;
+\text{&#x2997;} p \text{&#x2998;}
+&amp; \cdot &amp;
+q
+&amp; \cdot &amp;
+\; \mathop{d}p \; \text{&#x2997;} \mathop{d}q \text{&#x2998;}
+\\
+&amp; + &amp;
+\text{&#x2997;} p \text{&#x2998;}
+&amp; \cdot &amp;
+\text{&#x2997;} q \text{&#x2998;}
+&amp; \cdot &amp;
+\; \mathop{d}p \;\; \mathop{d}q \;
+}$
+</font></td></tr>
+
+</table>
+
+We may understand the enlarged proposition $\mathop{E}f$ as telling us all the different ways to reach a model of the proposition $f$ from each point of the universe $X$.
+
 ## External links ##
 
 * [Differential_Logic : Introduction](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Differential_Logic_:_Introduction)
@@ -635,4 +700,4 @@ Templates ---
 
 Upload Queue ---
 
-[[Directed_Graph_PQ_Enlargement_Conj.jpg|Directed Graph PQ Enlargement Conj:pic]]
+* $\varnothing$
