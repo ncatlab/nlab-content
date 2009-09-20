@@ -109,11 +109,11 @@ An analogous systematics exists for $(n,r)$-categories that in additions have th
 
 * a [[(0,1)-topos]] is a [[Heyting algebra]]
 
-* a $(0,1)$-[[Grothendieck topos]] is a [[locale]]
+  * in particular, a $(0,1)$-[[Grothendieck topos]] is a [[locale]]
 
 * a $(1,1)$-topos is a [[topos]]
 
-* an [[(∞,1)-topos]] is an $\infty$-topos
+* an [[(∞,1)-topos]] is what [[Higher Topos Theory]] calls an $\infty$-topos
 
 # The periodic table
 
