@@ -374,7 +374,7 @@ $$
    }
   $$
 
-where the bottom right iso uses the [[Kunneth formula]]
+where the bottom right iso uses the [[Künneth formula]]
 
 here $\Delta_a$ is a homogeneous basis of $H^\bullet(X)$
 
@@ -401,5 +401,20 @@ The above discussion does not yet reveal much of the rich structure of Gromov-Wi
 There is also the mirror symmetry conjecture, which roughly posits that the GW invariants can be found via calculations that a priori seem completely unrelated.
 
 #References#
+* M. Kontsevich, Yu. Manin, _Gromov-Witten classes, quantum cohomology, and enumerative geometry_, Comm. Math. Phys. 164 (1994), no. 3, 525--562 ([euclid](http://projecteuclid.org/euclid.cmp/1104270948)).
 
-* [[Yuri Manin]], _Frobenius manifolds, quantum cohomology and moduli spaces_, Amer. Math. Soc., Providence, RI, 1999, 
+* [[Yuri Manin]], _Frobenius manifolds, quantum cohomology and moduli spaces_, Amer. Math. Soc., Providence, RI, 1999.
+
+* W. Fulton, R. Pandharipande, _Notes on stable maps and quantum cohomology_, in: Algebraic Geometry-
+Santa uz 1995 ed. Kollar, Lazersfeld, Morrison. Proc. Symp. Pure Math. 62, 45&#8211;96 (1997)
+
+* J Robbin, D A Salamon, _A construction of the Deligne-Mumford orbifold_,  J. Eur. Math. Soc. (JEMS)  8  (2006),  no. 4, 611--699 ([arxiv](http://arxiv.org/abs/math/0407090); [pdf at JEMS](http://www.ems-ph.org/journals/show_pdf.php?issn=1435-9855&vol=8&iss=4&rank=3)); corrigendum  J. Eur. Math. Soc. (JEMS)  9  (2007),  no. 4, 901--905 ([pdf at JEMS](http://www.ems-ph.org/journals/show_pdf.php?issn=1435-9855&vol=9&iss=4&rank=11)).
+
+* J Robbin, Y Ruan, D A Salamon, _The moduli space of
+regular stable maps_,  Math. Z.  259  (2008),  no. 3, 525--574 ([doi](http://dx.doi.org/10.1007/s00209-007-0237-x)).
+
+* Martin A. Guest, _From quantum cohomology to integrable systems_, Oxford Graduate Texts in Mathematics, 15. Oxford University Press, Oxford, 2008. xxx+305 pp.
+
+* Joachim Kock, Israel Vainsencher, _An invitation to quantum cohomology. Kontsevich's formula for rational plane curves_, Progress in Mathematics, 249. Birkh&#228;user Boston, Inc., Boston, MA, 2007. xiv+159 pp. 
+
+* Sheldon Katz, _Enumerative geometry and string theory_, Student Math. Library __32__. IAS/Park City AMS & IAS 2006. xiv+206 pp.
