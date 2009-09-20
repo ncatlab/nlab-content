@@ -51,6 +51,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-20
 
+* [[Urs Schreiber]]: quick reaction at $(n,r)$-category -- am still not quite back online, but trying...
+
 * [[Todd Trimble]] responded to [[Rafael Borowiecki]] at [[category theory]]. 
 
 *  [[Toby Bartels]]:  I don\'t think that those typos in [[(n,r)-category]] were typos, but I tried to clarify them.
