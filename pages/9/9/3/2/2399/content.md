@@ -27,5 +27,7 @@ regular stable maps_,  Math. Z.  259  (2008),  no. 3, 525--574 ([doi](http://dx.
 
 * Sheldon Katz, _Enumerative geometry and string theory_, Student Math. Library __32__. IAS/Park City AMS & IAS 2006. xiv+206 pp.
 
+* Eleny-Nicoleta Ionel, Thomas H. Parker, _Relative Gromov-Witten invariants_, Ann. of Math. (2) 157 (2003), no. 1, 45--96 ([doi](http://dx.doi.org/10.4007/annals.2003.157.45)).
+
 [[!redirects Gromov-Witten theory]]
 [[!redirects Gromov-Witten invariant]]
