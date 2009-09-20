@@ -48,6 +48,7 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ***
 ## 2009-09-20
+* [[Zoran ?koda]]: new entry [[Vladimir Drinfel'd]]. Improvements to [[Q-category]], [[noncommutative algebraic geometry]].
 
 * [[Mike Shulman]]: Incorporated the discussions at [[Crans-Gray tensor product]] into the entry, and deleted them.
 
