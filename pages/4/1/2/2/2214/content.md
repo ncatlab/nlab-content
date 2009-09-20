@@ -49,7 +49,7 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 ***
 ## 2009-09-20
 
-* [[Zoran ?koda]]: new stub [[K-theory and physics]]. Book entry [[Directed Homotopy Theory]].
+* [[Zoran ?koda]]: new stub [[K-theory and physics]]. Book entry [[Directed Homotopy Theory]]. Added references to [[basic ideas of moduli stacks of curves and Gromov-Witten theory|basic ideas of GW]].
 
 * [[Rafael Borowiecki]]: Finally took the time to answer at the discussion at [[category theory]]. Also moved some structures to structures that reduces to categories.
 
