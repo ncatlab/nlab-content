@@ -51,6 +51,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-20
 
+* [[Todd Trimble]] responded to [[Rafael Borowiecki]] at [[category theory]]. 
+
 *  [[Toby Bartels]]:  I don\'t think that those typos in [[(n,r)-category]] were typos, but I tried to clarify them.
 
 * [[Zoran ?koda]]: new stub [[K-theory and physics]]. Book entry [[Directed Homotopy Theory]]. Added references to [[basic ideas of moduli stacks of curves and Gromov-Witten theory|basic ideas of GW]].
