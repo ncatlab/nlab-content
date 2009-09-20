@@ -357,6 +357,8 @@ So anyway, $Cat$ is not equivalent to simplicial sets, so there is no functor go
 
 As for extending this correspondence to embrace other properties/structures/stuff one can put on categories, I've not thought about examples of that sort of thing in detail, but anything not actually [[evil]] in the technical sense can in principle be transported across the equivalence between categories and those certain simplicial sets. 
 
+_Toby_:  (Aside: Since the left adjoint returns the original category up to [[isomorphism of categories|isomorphism]], even some evil things can be so transported.)
+
 =--
 
 +--{.query}
