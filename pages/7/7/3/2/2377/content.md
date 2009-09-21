@@ -87,17 +87,17 @@ The name subset, on the other hand, is ok, since it shares enough properties of 
 
 How would you form something that substitutes for sets 
 of relations, or subsets of subsets? What do you say 
-in place of "A is a subset of A$\cup$B? I think in SEAR,
+in place of "A is a subset of A$\cup$B"? I think in SEAR,
 expressing ordinary mathematics becomes exceedingly 
 tedious.
 
-Sentence after Theorem 4: I dont understand why this is a particular case of Theorem 4; if true, it should be a corollary. You didn't asssume that the empty set is a tabulation, so this remains to be proved.
+Sentence after Theorem \ref{tabuniq}: I dont understand why this is a particular case of Theorem \ref{tabuniq}; if true, it should be a corollary. You didn't asssume that the empty set is a tabulation, so this remains to be proved.
 
-Sentence after Theorem 5: "It follows" is wishful thinking. At best, you have two metacategories. For the standard definition of a category requires that the objects form a class or a collection, which means in the standard informal metalanguage used in the standard textbooks that 
+Sentence after Theorem \ref{category}: "It follows" is wishful thinking. At best, you have two metacategories. For the standard definition of a category requires that the objects form a class or a collection, which means in the standard informal metalanguage used in the standard textbooks that 
 there is an equality defined between objects. But as you explain before, this equality exists only on the metalevel. If you don't want that you need to define a SEAR version 
 of a category that allows to firmalize you wish.
 
-Sentence after Axiom 3: Theorem 10 is not a generalization but an analogue since relations are not sets.
+Sentence after Axiom 3: Theorem \ref{topos} is not a generalization but an analogue since relations are not sets.
 
 Third sentence after Axiom 5: "weak enough to keep the dead in their graves" - another piece of wishful thinking,
 unless you give a proof of this highly nontrivial statement.
@@ -107,7 +107,28 @@ This is a sham. There it says "A pure set is a set of pure sets". But with set u
 
 Last sentence before "Making alternate...":
 interpeted misses an r.
+
+_Toby_:  It is very astute of you to say that this is really a theory of cardinal numbers!  Lawvere has long said that his 'abstract sets' and Cantor\'s 'Kardinalzahl' are the same thing.  But in fact the word 'set' ('Menge') is *not* only used in Cantor\'s original sense of a subset of some fixed universe (originally the collection of real numbers, eventually the entire von Neumann hierarchy) today.  Whenever someone says 'A group is a set equipped with [...]', the only thing that matters for group theory is the abstract set, the Kardinalzahl.  It is very easy to rewrite standard mathematics on this foundation; while in a sense the semantics has changed, it is the claim of structural set theorists that we are getting at what was the real meaning all along.  You might as well say that Dedekind changed the semantics of algebra and analysis when he identified ideal numbers and real (possibly irrational) numbers with certain sets, and in a way he did, but he also clarified those ideas.  And it is not just us, coming along more than a hundred years after Cantor to change the language; people have been doing structural set theory for some time, and it pops up in many places.  Errett Bishop, for example, who wanted a constructive theory (not particularly a structural theory), wrote down a structural theory in his handbook of analysis all the same, even defining a subset of $X$ as a set $A$ equipped with an injection to $X$ (an unfamiliarity which the point of $\mathbf{SEAR}$ is largely to avoid).  Any application of set theory in which we do not care what our sets\' elements\' elements are is inherently structural and translates directly into structural terms.  Any time that someone says 'Relabel the element of $B$ if necessary so that $B$ will be disjoint from $A$, then consider $A \cup B$.', they really mean 'Consider the [[disjoint union]] of $A$ and $B$.' in a structural set theory.  Very rarely do applications of set theory *ever* call for the hierarchy of [[pure sets]].
+
+As for that ... I\'ll assume that you don\'t know the strength of 'sham' in English, so I won\'t feel insulted.  But if you want precision, look at the **Definition** section, not the vague **Idea**.  Equality of pure sets is also defined.  (There\'s still an error in that which I haven\'t fixed, but it\'s correct for well-founded pure sets, which are the ones that $\mathbf{ZFC}$ has.)
+
+If you want a set of sets, you should consider whether it matters whether any of these sets happen to be equal, and how (for purposes of your application) you would now.  In general, you take a [[family of sets]] (note to self: write an article there), that is an index set $I$ and, for each element $k$ of $I$, a set $S_k$.  There is a handy trick for encoding this sort of thing as a set $\mathcal{S}$ and a function $\pi: \mathcal{S} \to I$; let $S_k$ be the preimage of $\pi^*(k)$ (which is a subset of $\mathcal{S}$.  The purpose of the axiom of collection is to allow you to construct this set $\mathcal{S}$ (maybe I should write that down there for its motivation!).  If you want, say, a family of groups, then you take $\pi: \mathcal{S} \to I$ and additionally a function $M: I \times \mathcal{S} \times \mathcal{S} \to \mathcal{S}$ such that, for each $k$, $M$ restricts to a function $m_k: S_k \times S_k \to S_k$ that satisfies the group axioms.  And so on.
+
+In this situation, you can\'t ask whether $S_k = S_{k'}$, or try $S_k \cap S_{k'}$, etc.  If the structural perspective is valid, then you should only ever want to do that if the various $S_k$ are all subsets of some previously given ambient set $T$.  There are two ways to do this; either define an $I$-indexed family of injections $S_k \to T$, or skip all of the above and instead consider a binary relation on $I$ and $T$; let $S_k$ be the set of elements of $T$ that $k$ is related to.  This is a family of unary relations on $T$; you can do a set of binary relations in a similar way.  (By the way, in this case you don\'t need the axiom of collection to define $\mathcal{S}$, since you can make it a subset of $I \times T$.  This is the idea, possibly familiar to you, that replacement/collection is not needed wherever it na&#239;vely applies, but only for relatively high-powered stuff.)
+
+Other items:
+
+*  Sentence after Theorem \ref{tabuniq}:  Yes, the emepty set *was* defined as a tabulation, as were $|S|$ (for $S$ some subset) and $1$.
+
+*  Sentence after Theorem \ref{category}:  Yes, Mike is talking about a metacategory.  To make this into a category within $\mathbf{SEAR}$ (although that\'s not necessary for how it is used here), one would need to add a structural version of the axiom of universes, as remarked in the discussion with David Roberts above.  (One could probably also do it on the class level, talking about first-order formulas in the language of $\mathbf{SEAR}$, although then there would not be a notion of equality of objects ---which would be a good thing, in my opinion.
+
+*  Sentence after Axiom 3:  Theorem \ref{topos} is a generalisation of the part of Axiom 3 about subsets.  (In $\mathbf{SEAR}$, a subset is a relation whose source, $B$ in Theorem \ref{topos}, is $1$.)
+
+*  Third sentence after Axiom 5:  Assuming the consistency of $\mathbf{ZFC}$, this follows from the equiconsistency of $\mathbf{SEAR}$ and $\mathbf{ZF}$.  (Of course, that has not been done in detail, so you can doubt it if you like.)
+
+*  Feel free to correct any obvious typos that you notice!
 =--
+
 
 # Introduction #
 
@@ -128,7 +149,7 @@ A good description of the difference between material and structural set theory 
 
 Using this metaphor, SEAR can be thought of as an ETCS-car which comes preassembled with a nice slick control panel.  Or, using an alternate metaphor, ZFC is like Windows, ETCS is like UNIX, and SEAR is like OS X (or maybe Ubuntu).  With SEAR you get a nice familiar interface with which it is easy to do standard things, there is less cruft than you get with ZFC, and behind the scenes you have all the power of ETCS (and more).  (Of course, if you like Microsoft products, then this metaphor probably does not appeal to you.)
 
-Note that experts will probably always prefer to build their own car; the goal of SEAR is to make structural set theory accessible to a wider audience.  In particular, SEAR is intended to demonstrate the complete independence of [[structural set theory]] from [[category theory]].  Thus, apart from being (by default) stronger than ETCS, SEAR differs from it in the following ways:
+Note that experts will probably always prefer to build their own car/OS; the goal of SEAR is to make structural set theory accessible to a wider audience.  In particular, SEAR is intended to demonstrate the complete independence of [[structural set theory]] from [[category theory]].  Thus, apart from being (by default) stronger than ETCS, SEAR differs from it in the following ways:
 
 * It includes the notion of an *element* of a set as a primitive concept, rather than defining it as a particular sort of function.
 * It does *not* include the notion of a [[function]] as a primitive concept (instead it includes the notion of a [[binary relation]], with functions defined via their [[graph of a function|graphs]] in a familiar way).
@@ -378,7 +399,7 @@ Conversely, from any model of SEAR one can *construct* a model of ZF, by taking 
 
 Every topos has an [[internal logic]], which is a [[type theory]].  However, the line between type theory and structural set theory is fine and sometimes hard to see; the main difference is that structural set theory can involve quantifiers over sets (= types), while type theory only allows ("bounded") quantifiers over elements of types.  Through this correspondence, *Intuitionistic Bounded SEAR* can be treated as a type theory and interpreted internally in any topos with a NNO.  Of course, if the topos is [[boolean topos|boolean]], then the logic can be classical.
 
-One can also write down stronger axioms on a topos such that if they are satisfied, then full Intuitionistic SEAR can be interpeted "internally" in that topos, extending the usual internal logic.
+One can also write down stronger axioms on a topos such that if they are satisfied, then full Intuitionistic SEAR can be interpreted "internally" in that topos, extending the usual internal logic.
 
 
 # Making alternate primitive choices #
