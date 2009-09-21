@@ -962,7 +962,7 @@ The next four Tables expand the expressions of $\mathop{E}f$ and $\mathop{D}f$ i
 
 <table align="center" border="1" cellpadding="0" cellspacing="0" markdown="1" style="text-align:center">
 <caption><font size="+2">
-$\text{Table A3.}\; \mathop{E}f \;\text{Expanded Over Differential Features}\; \{ \mathop{d}p, \mathop{d}q \}$
+$\text{Table A3.}\: \mathop{E}f \:\text{Expanded Over Differential Features}\; \{ \mathop{d}p, \mathop{d}q \}$
 </font></caption>
 <td>
 $\array{
@@ -970,10 +970,22 @@ $\array{
 \collines{solid}
 \rowlines{solid solid none none none solid none solid none solid none solid none none none solid}}
 &amp; \phantom{xxxx} f \phantom{xxxxx}
-&amp; \phantom{xxxx} \array{\mathop{T}_{11} f \\ \mathop{E}f|_{\mathop{d}p \: \mathop{d}q}   } \phantom{xxxx}
-&amp; \phantom{xxxx} \array{\mathop{T}_{10} f \\ \mathop{E}f|_{\mathop{d}p \: (\mathop{d}q)} } \phantom{xxxx}
-&amp; \phantom{xxxx} \array{\mathop{T}_{01} f \\ \mathop{E}f|_{(\mathop{d}p) \: \mathop{d}q} } \phantom{xxxx}
-&amp; \phantom{xxxx} \array{\mathop{T}_{00} f \\ \mathop{E}f|_{(\mathop{d}p)(\mathop{d}q)}   } \phantom{xxxx}
+&amp;
+\phantom{xxxx}
+\array{\mathop{T}_{11} f \\ \mathop{E} f|_{\mathop{d}p \: \mathop{d}q}}
+\phantom{xxxx}
+&amp;
+\phantom{xxxx}
+\array{\mathop{T}_{10} f \\ \mathop{E} f|_{\mathop{d}p \: \text{&#x2997;} \mathop{d}q \text{&#x2998;}} }
+\phantom{xxxx}
+&amp;
+\phantom{xxxx}
+\array{\mathop{T}_{01} f \\ \mathop{E} f|_{\text{&#x2997;} \mathop{d}p \text{&#x2998;} \: \mathop{d}q} }
+\phantom{xxxx}
+&amp;
+\phantom{xxxx}
+\array{\mathop{T}_{00} f \\ \mathop{E} f|_{\text{&#x2997;} \mathop{d}p \text{&#x2998;&#x2997;} \mathop{d}q \text{&#x2997;}} }
+\phantom{xxxx}
 \\
 f_{0}
 &amp; \text{&#x2997;} \: \text{&#x2998;}
@@ -984,101 +996,101 @@ f_{0}
 \\
 f_{1}
 &amp; \text{&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;}
-&amp; 
-&amp; 
-&amp; 
-&amp; 
+&amp; p \: q
+&amp; p \: \text{&#x2997;} q \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#x2998;} \: q
+&amp; \text{&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;}
 \\
 f_{2}
-&amp; \text{&#x2997;} p\text{&#x2998;} \: q
-&amp; 
-&amp; 
-&amp; 
-&amp; 
+&amp; \text{&#x2997;} p \text{&#x2998;} \: q
+&amp; p \: \text{&#x2997;} q \text{&#x2998;}
+&amp; p \: q
+&amp; \text{&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#x2998;} \: q
 \\
 f_{4}
 &amp; p \: \text{&#x2997;} q \text{&#x2998;}
-&amp; 
-&amp; 
-&amp; 
-&amp; 
+&amp; \text{&#x2997;} p \text{&#x2998} q
+&amp; \text{&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;}
+&amp; p \: q
+&amp; p \: \text{&#x2997;} q \text{&#x2998;}
 \\
 f_{8}
 &amp; p \: q
-&amp; 
-&amp; 
-&amp; 
-&amp; 
+&amp; \text{&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#x2998;} q
+&amp; p \text{&#x2997;} q \text{&#x2998;}
+&amp; p \: q
 \\
 f_{3}
 &amp; \text{&#x2997;} p \text{&#x2998;}
 &amp; 
 &amp; 
 &amp; 
-&amp; 
+&amp; \text{&#x2997;} p \text{&#x2998;}
 \\
 f_{12}
 &amp; p
 &amp; 
 &amp; 
 &amp; 
-&amp; 
+&amp; p
 \\
 f_{6}
 &amp; \text{&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;}
 &amp; 
 &amp; 
 &amp; 
-&amp;
+&amp; \text{&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;}
 \\
 f_{9}
 &amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;&#x2998;}
 &amp; 
 &amp; 
 &amp; 
-&amp; 
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;&#x2998;}
 \\
 f_{5}
 &amp; \text{&#x2997;} q \text{&#x2998;}
 &amp; 
 &amp; 
 &amp; 
-&amp; 
+&amp; \text{&#x2997;} q \text{&#x2998;}
 \\
 f_{10}
 &amp; q
 &amp; 
 &amp; 
 &amp; 
-&amp; 
+&amp; q
 \\
 f_{7}
 &amp; \text{&#x2997;} p \: q \text{&#x2998;}
 &amp; 
 &amp; 
 &amp; 
-&amp; 
+&amp; \text{&#x2997;} p \: q \text{&#x2998;}
 \\
 f_{11}
 &amp; \text{&#x2997;} p \: \text{&#x2997;} q \text{&#x2998;&#x2998;}
 &amp; 
 &amp; 
 &amp; 
-&amp; 
+&amp; \text{&#x2997;} p \: \text{&#x2997;} q \text{&#x2998;&#x2998;}
 \\
 f_{13}
 &amp; \text{&#x2997;&#x2997;} p \text{&#x2998;} \: q \text{&#x2998;}
 &amp; 
 &amp; 
 &amp; 
-&amp; 
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;} \: q \text{&#x2998;}
 \\
 f_{14}
 &amp; \text{&#x2997;&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;&#x2998;}
 &amp; 
 &amp; 
 &amp; 
-&amp; 
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;&#x2998;}
 \\
 f_{15}
 &amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
