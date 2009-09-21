@@ -19,41 +19,223 @@ __Reference.__ Unicode Data Bank ![Boing](http://wikipediareview.com/smilys0b23a
 
 ***
 
-I noticed that \Delta gives italic Greek $\Delta$, which is not standard, and shouldn't be used in any case for operators.  Is there any way, short of unicode, to get plain Greek chars in math context?
-
-* \Delta &#8594; $\Delta$
-
-Looks like HTML codes work well enough as a stopgap, but still, it's kinda weird.
-
-* \text{&#916;} &#8594; $\text{&#916;}$
-
-* \mathop{&#916;} &#8594; $\mathop{&#916;}$
+Trying some new arrows: $\twoheadrightarrow$, $\rightarrowtail$, $\looparrowright$, $\nrightarrow$, $\upharpoonright$.
 
 ***
 
-Trying some new arrows: $\twoheadrightarrow$, $\rightarrowtail$, $\looparrowright$, $\nrightarrow$, $\upharpoonright$.
+Would be nice to have that "space betweeen rows" parameter --- e.g., \\[4pt] --- as in standard LaTeX &#8230;
+
+<table align="center" border="1" cellpadding="4" markdown="1" style="text-align:center; width:90%">
+<caption><font size="+2">$\text{Table A1.  Propositional Forms on Two Variables}$</font></caption>
+
+<tr style="background:#f0f0ff">
+<td><p>$\mathcal{L}_1$</p><p>$\text{Decimal}$</p></td>
+<td><p>$\mathcal{L}_2$</p><p>$\text{Binary}$</p></td>
+<td><p>$\mathcal{L}_3$</p><p>$\text{Vector}$</p></td>
+<td><p>$\mathcal{L}_4$</p><p>$\text{Cactus}$</p></td>
+<td><p>$\mathcal{L}_5$</p><p>$\text{English}$</p></td>
+<td><p>$\mathcal{L}_6$</p><p>$\text{Ordinary}$</p></td>
+</tr>
+
+<tr style="background:#f0f0ff">
+<td>&nbsp;</td>
+<td align="right">$p:$</td>
+<td>$1\;1\;0\;0$</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+
+<tr style="background:#f0f0ff">
+<td>&nbsp;</td>
+<td align="right">$q:$</td>
+<td>$1\;0\;1\;0$</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+
+<tr>
+<td>$\array{
+f_0 \\ f_1 \\ f_2 \\ f_3 \\
+f_4 \\ f_5 \\ f_6 \\ f_7 }$</td>
+<td>$\array{
+f_{0000} \\ f_{0001} \\ f_{0010} \\ f_{0011} \\
+f_{0100} \\ f_{0101} \\ f_{0110} \\ f_{0111} }$</td>
+<td>$\array{
+0\;0\;0\;0  \\ 0\;0\;0\;1  \\ 0\;0\;1\;0  \\ 0\;0\;1\;1  \\
+0\;1\;0\;0  \\ 0\;1\;0\;1  \\ 0\;1\;1\;0  \\ 0\;1\;1\;1  }$</td>
+<td>$\array{
+(\;) \\ (p)(q) \\ (p)\;q\; \\ (p)\;\;\; \\
+\;p\;(q) \\ \;\;\;(q) \\ (p,\;q) \\ (p\;\;q) }$</td>
+<td>$\array{
+\text{false}
+\\
+\text{neither}\; p \;\text{nor}\; q
+\\
+q \;\text{without}\; p
+\\
+\text{not}\; p
+\\
+p \;\text{without}\; q
+\\
+\text{not}\; q
+\\
+p \;\text{not equal to}\; q
+\\
+\text{not both}\; p \;\text{and}\; q
+}$</td>
+<td>$\array{
+0
+\\
+\not p \wedge \not q
+\\
+\not p \wedge q
+\\
+\not p
+\\
+p \wedge \not q
+\\
+\not q
+\\
+p \ne q
+\\
+\not p \vee \not q
+}$</td></tr>
+
+<tr>
+<td>$\array{
+f_8    \\ f_9    \\ f_{10} \\ f_{11} \\
+f_{12} \\ f_{13} \\ f_{14} \\ f_{15} }$</td>
+<td>$\array{
+f_{1000} \\ f_{1001} \\ f_{1010} \\ f_{1011} \\
+f_{1100} \\ f_{1101} \\ f_{1110} \\ f_{1111} }$</td>
+<td>$\array{
+1\;0\;0\;0 \\ 1\;0\;0\;1 \\ 1\;0\;1\;0 \\ 1\;0\;1\;1 \\
+1\;1\;0\;0 \\ 1\;1\;0\;1 \\ 1\;1\;1\;0 \\ 1\;1\;1\;1 }$</td>
+<td>$\array{
+\;\;p\;\;q\;\; \\ ((p,\;q)) \\ \;\;\;\;\;q\;\; \\ \;(p\;(q)) \\
+\;\;p\;\;\;\;\; \\ ((p)\;q)\; \\ ((p)(q)) \\ ((\;)) }$</td>
+<td>$\array{
+p \;\text{and}\; q
+\\
+p \;\text{equal to}\; q
+\\
+q
+\\
+\text{not}\; p \;\text{without}\; q
+\\
+p
+\\
+\text{not}\; q \;\text{without}\; p
+\\
+p \;\text{or}\; q
+\\
+\text{true}
+}$</td>
+<td>$\array{
+p \wedge q
+\\
+p = q
+\\
+q
+\\
+p \Rightarrow q
+\\
+p
+\\
+p \Leftarrow q
+\\
+p \vee q
+\\
+1
+}$</td></tr>
+
+</table>
+
+***
+
+How do you specify background color for a whole row?
+
+$$\array{
+\text{Table}
+\\
+\array{
+\arrayopts{
+\frame{solid}
+\collines{solid}
+\rowlines{
+solid none none none none none none none solid none}}
+\bgcolor{#f0f0ff} \mathcal{L}_1 &
+\bgcolor{#f0f0ff} \mathcal{L}_2 &
+\bgcolor{#f0f0ff} \mathcal{L}_3 &
+\bgcolor{#f0f0ff} \mathcal{L}_4 &
+\bgcolor{#f0f0ff} \mathcal{L}_5 &
+\bgcolor{#f0f0ff} \mathcal{L}_6 \\
+f_{0}  & 02 & 03 & 04 & 05 & 06
+\\
+f_{1}  & 12 & 13 & 14 & 15 & 16
+\\
+f_{2}  & 22 & 23 & 24 & 25 & 26
+\\
+f_{3}  & 32 & 33 & 34 & 35 & 36
+\\
+f_{4}  & 42 & 43 & 44 & 45 & 46
+\\
+f_{5}  & 52 & 53 & 54 & 55 & 56
+\\
+f_{6}  & 62 & 63 & 64 & 65 & 66
+\\
+f_{7}  & 72 & 73 & 74 & 75 & 76
+\\
+f_{8}  & 82 & 83 & 84 & 85 & 86
+\\
+f_{9}  & 92 & 93 & 94 & 95 & 96
+\\
+f_{10} & a2 & a3 & a4 & a5 & a6
+\\
+f_{11} & b2 & b3 & b4 & b5 & b6
+\\
+f_{12} & c2 & c3 & c4 & c5 & c6
+\\
+f_{13} & d2 & d3 & d4 & d5 & d6
+\\
+f_{14} & e2 & e3 & e4 & e5 & e6
+\\
+f_{15} & f2 & f3 & f4 & f5 & f6}
+}$$
+
+***
+
+I noticed that \Delta gives italic Greek $\Delta$, which is not standard, and shouldn't be used in any case for operators.  Is there any way, short of unicode, to get plain Greek chars in math context?
+
+* \Delta &rarr; $\Delta$
+
+Looks like HTML codes work well enough as a stopgap, but still, it's kinda weird.
+
+* \text{&amp;Delta;} &rarr; $\text{&Delta;}$
+
+* \mathop{&amp;Delta;} &rarr; $\mathop{&Delta;}$
 
 ***
 
 There really shouldn't be that extra space for 1-letter operators:
 
-* \mathop{d}f &#8594; $\mathop{d}f$
+* \mathop{d}f &rarr; $\mathop{d}f$
 
 I'm guessing I can use \mathrm, but that wrecks the operational semantics:
 
-* \mathrm{d}f &#8594; $\mathrm{d}f$
+* \mathrm{d}f &rarr; $\mathrm{d}f$
 
 Guessed wrong again!
 
-* {\mathop{d}f} &#8594; ${\mathop{d}f}$
+* {\mathop{d}f} &rarr; ${\mathop{d}f}$
 
-* {\mathrm{d}f} &#8594; ${\mathrm{d}f}$
+* {\mathrm{d}f} &rarr; ${\mathrm{d}f}$
 
 ***
 
-Don't forget to change the &'s to &'s when stuffing some $&#8230;$ into an HTML envelope.
+Don't forget to change the &amp;'s to &amp;amp;'s when stuffing some &#36;&hellip;&#36; into an HTML envelope.
 
-&#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595; &#8595;
+&darr; &darr; &darr; &darr; &darr; &darr; &darr; &darr; &darr; &darr; &darr; &darr; &darr; &darr; &darr; &darr;
 
 ***
 
