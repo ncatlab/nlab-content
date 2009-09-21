@@ -52,12 +52,17 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-20
 
+* [[Urs Schreiber]]: added the promised blurb to [[directed space]] under "homotopy theoretic perspective" that is supposed to indicate the idea of the relation to [[(n,r)-category]] without misleadingly sounding as if there were nothing left to do here. Check!
+
+  I also added links to Grandis' new book on [[Directed Algebraic Topology]] to [[directed space]] and to [[directed homotopy theory]]. Since I haven't had a chance to look at that book yet, I have a question at [[directed space]] about its content.
+
 * [[David Corfield]]: Why call the page [[Directed Homotopy Theory]] when it's about a book called 'Directed Algebraic Topology'? Don't titles of pages for specific texts coincide with titles of the texts?
 
-
-## 2009-09-20
+  * [[Urs Schreiber]]: I just wondered about the same thing -- I made [[Directed Algebraic Topology]] now redirect to that entry, but if Zoran is okay with it I would also suggest to rename this. Book entries should carry the title of the book, at least up to abbreviation.
 
 * [[Urs Schreiber]]: restructured [[moduli space]], linked to it from [[classifying space]] and, notably, added a semilong discussion of the subtleties of the common slogan that " _Objects with automorphisms don't have fine moduli spaces_ . ", summing up some arguments that were exchanged in the blog discussion [here](http://golem.ph.utexas.edu/category/2009/09/a_seminar_on_gromovwitten_theo.html).
+
+## 2009-09-20
 
 *  [[Toby Bartels]]:  Reply to Mike at [[foundations]].
 
