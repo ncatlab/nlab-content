@@ -62,10 +62,50 @@ The concept of a ghost of an inconsistent assumption employed to motivate Collec
 
 [[Mike Shulman]]: (Thanks Toby.)  Unfortunately, most mathematicians aren't that conversant with the language of logic, so my thought was not to frighten them off with too much of it.  Of course, the logic is first order logic.  Likewise, I think most mathematicians have little appreciation of constructive (=intuitionistic) logic, so the theory is presented as classical by default (but, unlike some of the more common presentations of ZF, the axioms as stated are still correct intuitionistically).
 
+[[Arnold Neumaier]]: Changing the first sentence after Axiom 1 to
+``Here "property" is interpreted formally as "first-order formula", which makes the axiom (like later the axiom of collection) in fact an axiom scheme.
+Axiom 1 basically says that relations are what we expect them to be intuitively. It should remind the reader of the axiom of separation.''
+is not more frightening but makes things perfectly precise.
+If you don't explain clearly waht a property is, you effectively have ``property'' as another type in your theory, and since no axioms are given for it, it is incomprehensible.
+
+MS, continued: 
 I really don't see what 0=1 being a consequence of an inconsistent assumption has to do with using other, less stupid, consequences of such an assumption to motivate a (believed to be) non-inconsistent axiom.  The point is, you (or someone else) *might want* axiom X.  Unfortunately, axiom X is inconsistent.  But *why* would you want axiom X?  Not to prove 0=1, certainly!  Your goal in introducing axiom X was to prove something else that is a "more direct" consequence of axiom X than 0=1 is (or, at least, a consequence of it along a different path).  So it makes sense to try to modify axiom X to make it consistent, yet maintain its direct connection to what you wanted it for.  Of course, none of that has any precise meaning, but it's *motivation*, so it doesn't need to.
 
+AN: I had meant to convey that a better motivation is needed. Why not demonstrate that it is needed to achieve some useful purpose?
 =--
 
+
++--{: .query}
+[[Arnold Neumaier]]: 
+To me this looks more like a theory of copies of cardinal numbers that like a set theory. I think you should change the name ``set'' to ``universe'' or ``collection'', or so. For your sets have <i>very</i> different properties from Cantor's sets, whose terminology surely has priority. Cantor's sets allow unions and intersections, your sets don't. You do not even have the set {0,1,2}. Thus it is impossible to rewrite standard
+mathematics on your alternative foundation without 
+changing the semantics of everything.
+
+The name subset, on the other hand, is ok, since it shares enough properties of a set to be recognizable as a close relative. On the other hand, there are no functions from a subset to another subset, which again makes it quite cumbersome using this for ordinary mathematics.
+
+How would you form something that substitutes for sets 
+of relations, or subsets of subsets? What do you say 
+in place of ``A is a subset of A$\cup$B? I think in SEAR,
+expressing ordinary mathematics becomes exceedingly 
+tedious.
+
+Sentence after Theorem 4: I dont understand why this is a particular case of Theorem 4; if true, it should be a corollary. You didn't asssume that the empty set is a tabulation, so this remains to be proved.
+
+Sentence after Theorem 5: ``It follows'' is wishful thinking. At best, you have two metacategories. For the standard definition of a category requires that the objects form a class or a collection, which means in the standard informal metalanguage used in the standard textbooks that 
+there is an equality defined between objects. But as you explain before, this equality exists only on the metalevel. If you don't want that you need to define a SEAR version 
+of a category that allows to firmalize you wish.
+
+Sentence after Axiom 3: Theorem 10 is not a generalization but an analogue since relations are not sets.
+
+Third sentence after Axiom 5: ``weak enough to keep the dead in their graves'' - another piece of wishful thinking,
+unless you give a proof of this highly nontrivial statement.
+
+SEAR and ZF, ``This process is described at pure set''.
+This is a sham. There it says ``A pure set is a set of pure sets''. But with set understood as a SEAR-set, pure sets cannot be compared for equality. But this is an intrinsic part of ZF.
+
+Last sentence before ``Making alternate...'':
+interpeted misses an r.
+=--
 
 # Introduction #
 
