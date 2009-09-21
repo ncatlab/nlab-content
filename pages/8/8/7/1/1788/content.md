@@ -51,6 +51,81 @@ Guessed wrong again!
 
 ***
 
+<table align="center" border="1" cellpadding="0" cellspacing="0" markdown="1" style="text-align:center">
+<caption><font size="+2">
+$\text{Table A3.} \quad \mathop{E}f \:\text{Expanded Over Differential Features}\: \{ \mathop{d}p, \mathop{d}q \}$
+</font></caption>
+<td>
+$\array{
+\arrayopts{
+\collines{solid}
+\rowlines{solid}}
+&amp;
+\phantom{xxxx} f \phantom{xxxx}
+&amp;
+\phantom{xxxx}
+\array{\mathop{T}_{11} f \\ \mathop{E} f|_{\mathop{d}p \: \mathop{d}q} }
+\phantom{xxxx}
+&amp;
+\phantom{xxxx}
+\array{\mathop{T}_{10} f \\ \mathop{E} f|_{\mathop{d}p \: \text{&#x2997;} \mathop{d}q \text{&#x2998;}} }
+\phantom{xxxx}
+&amp;
+\phantom{xxxx}
+\array{\mathop{T}_{01} f \\ \mathop{E} f|_{\text{&#x2997;} \mathop{d}p \text{&#x2998;} \: \mathop{d}q} }
+\phantom{xxxx}
+&amp;
+\phantom{xxxx}
+\array{\mathop{T}_{00} f \\ \mathop{E} f|_{\text{&#x2997;} \mathop{d}p \text{&#x2998;&#x2997;} \mathop{d}q \text{&#x2997;}} }
+\phantom{xxxx}
+\\
+f_{0}
+&amp; \text{&#x2997;} \: \text{&#x2998;}
+&amp; \text{&#x2997;} \: \text{&#x2998;}
+&amp; \text{&#x2997;} \: \text{&#x2998;}
+&amp; \text{&#x2997;} \: \text{&#x2998;}
+&amp; \text{&#x2997;} \: \text{&#x2998;}
+\\
+f_{1}
+&amp; \text{&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;}
+&amp; p \: q
+&amp; p \: \text{&#x2997;} q \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#x2998;} \: q
+&amp; \text{&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;}
+\\
+f_{2}
+&amp; \text{&#x2997;} p \text{&#x2998;} \: q
+&amp; p \: \text{&#x2997;} q \text{&#x2998;}
+&amp; p \: q
+&amp; \text{&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#x2998;} \: q
+\\
+f_{4}
+&amp; p \: \text{&#x2997;} q \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#x2998;} \: q
+&amp; \text{&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;}
+&amp; p \: q
+&amp; p \: \text{&#x2997;} q \text{&#x2998;}
+\\
+f_{8}
+&amp; p \: q
+&amp; \text{&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#x2998;} q
+&amp; p \text{&#x2997;} q \text{&#x2998;}
+&amp; p \: q
+\\
+f_{15}
+&amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
+}$
+</td>
+</table>
+
+***
+
 How do you specify background color for a whole row?
 
 <table align="center" border="1" cellpadding="0" cellspacing="0" markdown="1">
