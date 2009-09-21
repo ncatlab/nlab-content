@@ -63,21 +63,23 @@ The concept of a ghost of an inconsistent assumption employed to motivate Collec
 [[Mike Shulman]]: (Thanks Toby.)  Unfortunately, most mathematicians aren't that conversant with the language of logic, so my thought was not to frighten them off with too much of it.  Of course, the logic is first order logic.  Likewise, I think most mathematicians have little appreciation of constructive (=intuitionistic) logic, so the theory is presented as classical by default (but, unlike some of the more common presentations of ZF, the axioms as stated are still correct intuitionistically).
 
 [[Arnold Neumaier]]: Changing the first sentence after Axiom 1 to
-``Here "property" is interpreted formally as "first-order formula", which makes the axiom (like later the axiom of collection) in fact an axiom scheme.
-Axiom 1 basically says that relations are what we expect them to be intuitively. It should remind the reader of the axiom of separation.''
+"Here "property" is interpreted formally as "first-order formula", which makes the axiom (like later the axiom of collection) in fact an axiom scheme.
+Axiom 1 basically says that relations are what we expect them to be intuitively. It should remind the reader of the axiom of separation."
 is not more frightening but makes things perfectly precise.
-If you don't explain clearly waht a property is, you effectively have ``property'' as another type in your theory, and since no axioms are given for it, it is incomprehensible.
+If you don't explain clearly waht a property is, you effectively have "property" as another type in your theory, and since no axioms are given for it, it is incomprehensible.
 
 MS, continued: 
 I really don't see what 0=1 being a consequence of an inconsistent assumption has to do with using other, less stupid, consequences of such an assumption to motivate a (believed to be) non-inconsistent axiom.  The point is, you (or someone else) *might want* axiom X.  Unfortunately, axiom X is inconsistent.  But *why* would you want axiom X?  Not to prove 0=1, certainly!  Your goal in introducing axiom X was to prove something else that is a "more direct" consequence of axiom X than 0=1 is (or, at least, a consequence of it along a different path).  So it makes sense to try to modify axiom X to make it consistent, yet maintain its direct connection to what you wanted it for.  Of course, none of that has any precise meaning, but it's *motivation*, so it doesn't need to.
 
 AN: I had meant to convey that a better motivation is needed. Why not demonstrate that it is needed to achieve some useful purpose?
+
+_Toby_:  I think that I\'ve fixed these somewhat, in part using your phrasing above.
 =--
 
 
 +--{: .query}
 [[Arnold Neumaier]]: 
-To me this looks more like a theory of copies of cardinal numbers that like a set theory. I think you should change the name ``set'' to ``universe'' or ``collection'', or so. For your sets have <i>very</i> different properties from Cantor's sets, whose terminology surely has priority. Cantor's sets allow unions and intersections, your sets don't. You do not even have the set {0,1,2}. Thus it is impossible to rewrite standard
+To me this looks more like a theory of copies of cardinal numbers that like a set theory. I think you should change the name "set" to "universe" or "collection", or so. For your sets have *very* different properties from Cantor's sets, whose terminology surely has priority. Cantor's sets allow unions and intersections, your sets don't. You do not even have the set {0,1,2}. Thus it is impossible to rewrite standard
 mathematics on your alternative foundation without 
 changing the semantics of everything.
 
@@ -85,25 +87,25 @@ The name subset, on the other hand, is ok, since it shares enough properties of 
 
 How would you form something that substitutes for sets 
 of relations, or subsets of subsets? What do you say 
-in place of ``A is a subset of A$\cup$B? I think in SEAR,
+in place of "A is a subset of A$\cup$B? I think in SEAR,
 expressing ordinary mathematics becomes exceedingly 
 tedious.
 
 Sentence after Theorem 4: I dont understand why this is a particular case of Theorem 4; if true, it should be a corollary. You didn't asssume that the empty set is a tabulation, so this remains to be proved.
 
-Sentence after Theorem 5: ``It follows'' is wishful thinking. At best, you have two metacategories. For the standard definition of a category requires that the objects form a class or a collection, which means in the standard informal metalanguage used in the standard textbooks that 
+Sentence after Theorem 5: "It follows" is wishful thinking. At best, you have two metacategories. For the standard definition of a category requires that the objects form a class or a collection, which means in the standard informal metalanguage used in the standard textbooks that 
 there is an equality defined between objects. But as you explain before, this equality exists only on the metalevel. If you don't want that you need to define a SEAR version 
 of a category that allows to firmalize you wish.
 
 Sentence after Axiom 3: Theorem 10 is not a generalization but an analogue since relations are not sets.
 
-Third sentence after Axiom 5: ``weak enough to keep the dead in their graves'' - another piece of wishful thinking,
+Third sentence after Axiom 5: "weak enough to keep the dead in their graves" - another piece of wishful thinking,
 unless you give a proof of this highly nontrivial statement.
 
-SEAR and ZF, ``This process is described at pure set''.
-This is a sham. There it says ``A pure set is a set of pure sets''. But with set understood as a SEAR-set, pure sets cannot be compared for equality. But this is an intrinsic part of ZF.
+SEAR and ZF, "This process is described at pure set".
+This is a sham. There it says "A pure set is a set of pure sets". But with set understood as a SEAR-set, pure sets cannot be compared for equality. But this is an intrinsic part of ZF.
 
-Last sentence before ``Making alternate...'':
+Last sentence before "Making alternate...":
 interpeted misses an r.
 =--
 
@@ -156,7 +158,7 @@ Now we can state the axioms of SEAR, beginning with the most basic ones.
 
 **Axiom 1 (Relational comprehension):** _For any two sets $A$ and $B$, and any property $P$ that can obtain of an element of $A$ and an element of $B$, there exists a unique relation $\varphi:A\looparrowright B$ such that $\varphi(x,y)$ if and only if $P$ obtains of $x$ and $y$._
 
-Axiom 1 basically says that relations are what we expect them to be intuitively.  It should remind the reader of the [[axiom of separation]] (and, like separation, it is actually an axiom *schema* when "property" is interpreted formally as "first-order formula").  The two important differences are (1) the presence of two sets and two variables, rather than one, and (2) the fact that what is produced is not a *set*, but a *relation* (a different kind of thing). The to-be-introduced Axiom 2 will enable us to make relations into (sub)sets, but first we need some terminology.
+Here "property" is interpreted formally as "first-order formula", which makes the axiom (like later the axiom of collection) in fact an axiom scheme.  Axiom 1 basically says that relations are what we expect them to be intuitively.  It should remind the reader of the [[axiom of separation]].  The two important differences are (1) the presence of two sets and two variables, rather than one, and (2) the fact that what is produced is not a *set*, but a *relation* (a different kind of thing). The to-be-introduced Axiom 2 will enable us to make relations into (sub)sets, but first we need some terminology.
 
 +-- {: .num_defn #function}
 ###### Definition
@@ -321,7 +323,9 @@ Note also that Axiom 4 implies Axiom 0.
 
 ## Collection ##
 
-The final axiom of SEAR is somewhat trickier to motivate.  Suppose for the sake of argument that there existed a *universal set*, meaning a set containing all other sets.  Now in structural set theory this is meaningless, since no set can contain other sets, but there is an easy fix: we consider instead *indexed families* of sets.  There are multiple ways to make this precise, but here is a very simple one: an $A$-indexed family of sets is simply a relation $M:A\looparrowright X$.  The set indexed by each element $a\in A$ is $M_a = \{x\in X | M(a,x)\}$.  (Often one requires the $M_a$ to be disjoint in $X$, so that $M^o$ is a function $X\to A$, but this is unnecessary.)
+The final axiom of SEAR is somewhat trickier to motivate.  It corresponds to the [[axiom of replacement]] (or more precisely collection; see [Wikipedia](http://en.wikipedia.org/wiki/Axiom_schema_of_replacement) until we get around to writing our own article) in $\mathbf{ZFC}$, and the reasons that we need it are the same as the reasons that $\mathbf{ZFC}$ needs it.
+
+Suppose for the sake of argument that there existed a *universal set*, meaning a set containing all other sets.  Now in structural set theory this is meaningless, since no set can contain other sets, but there is an easy fix: we consider instead *indexed families* of sets.  There are multiple ways to make this precise, but here is a very simple one: an $A$-indexed family of sets is simply a relation $M:A\looparrowright X$.  The set indexed by each element $a\in A$ is $M_a = \{x\in X | M(a,x)\}$.  (Often one requires the $M_a$ to be disjoint in $X$, so that $M^o$ is a function $X\to A$, but this is unnecessary.)
 
 With this definition, a *universal family of sets* would be a set $U$ with a $U$-indexed family of sets $E:U\looparrowright Y$ such that for any set $A$, there exists a unique $u\in U$ and a bijection $A\cong E_u$.  The existence of such a universal set is inconsistent, but the collection axiom can be thought of as the "ghost" of what *would be implied* by Axioms 1 and 2 if a universal set *did* exist.  Let's now unravel that.
 
