@@ -183,14 +183,18 @@ this maps further to $(x,-y,\lambda)$. But this would have to be the identity fo
 
 so that gives some computational insight that something goes wrong
 
-This argument does not prove that there exists no moduli space of elliptic curves. It merely proves that the "j-line" $\mathbb{A}^1$ can not be the moduli space of elliptic curves. However, the basic argument can be adapted, if one so desires, to in fact prove that there is no moduli space of elliptic curves. Alternatively you can use the sheaf argument below (however, I think the make that argument work out completely you need to introduce some extra language, etale covers and so forth).
+This argument does not yet prove that there exists no moduli space of elliptic curves. It merely proves that the "j-line" $\mathbb{A}^1$ can not be the moduli space of elliptic curves. 
+However, the basic argument can be adapted, if one so desires, to in fact prove that there is no moduli space of elliptic curves. 
 
-**abstract argument** (oversimplified) generally, [[fine moduli space]]s tend to not exist if the objects to be classified have nontrivial [[automorphism]]s. These allow to build families of objects that are locally trivial but globally not and no 
-[[fine moduli space]] will be able to represent that.
+In fact, below we will see (in an exerciss), that the $j$-line _is_ a [[coarse moduli space]], as explained below. Since fine moduli spaces,  if they exist, are also coarse moduli spaces, and the $j$-line is a coarse but not a fine moduli space by the above argument, it follows that no fine moduli space exists,
 
->this argument makes use of the fact that if we have a moduli space, then the preshesaf we started with must actually be a [[sheaf]] (with respect to a [[subcanonical topology]] that is implicitly assumed, probably -- but notice that in the example of $Ho(Top)$ above the standard topology is not subcanonical, so the argument breaks down). so we know that we should be able to compute it from gluing its local assignments. But locally our locally trivial family looks, well, trivial, so it all looks the same to our sheaf. So it will just try to glue the trivial object to itself, which is not what we actually have.
+**Abstract argument** Yet another, more abstract way, to see that no fine moduli space can exist it to realize that since elliptic curves have nontivial automorphisms, it is possible to construct families of elliptic curves that are locally trivial families (of the form $U \times E \to U$ for a fixed elliptic curve $U$) but which are glued together from these local pieces using nontrivial automorphisms such that the resulting family $V \to X$ is not globally trivial, i.e. not globally of the form $E \to X \to X$.
 
-**General principle** [[automorphism]]s of objects are obstructions to the existence of an (ordinary) [[fine moduli space]] classifying these objects.
+With a bit of care this alone can be used to show that a fine moduli space cannot exist. This is often summarized by a slogan of the form
+
+> **Slogan** : nontrivial automorphisms of objects prevent the family-assignment of these objects to be representable by a fine moduli space.
+
+However, one has to be careful with interpreting this slogan correctly. Taken naively, the slogan alone would also seem to imply that, since [[vector space]]s have nontrivial automorphisms, no classifying space for "families of vector spaces", i.e. for [[vector bundle]]s does exist, while of course this does exist (recall also the example further above). But if one interprets the slogan carefully, it does yield a true statement. For more on that see the discusson at [[moduli space]].
 
 
 **How to "fix" these problems**. 
