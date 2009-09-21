@@ -683,12 +683,15 @@ To broaden our experience with simple examples, let us examine the sixteen funct
 Tables&nbsp;A1 and A2 show two ways of arranging the 16 boolean functions on two variables, giving equivalent expressions for each function in several different systems of notation.
 
 <table align="center" border="1" cellpadding="0" cellspacing="0" markdown="1">
-<caption><font size="+2">$\text{Table A1.  Propositional Forms on Two Variables}$</font></caption>
+<caption><font size="+2">
+$\text{Table A1.  Propositional Forms on Two Variables}$
+</font></caption>
 <td>
 $\array{
 \arrayopts{
 \collines{solid}
-\rowlines{none solid none solid none none none none none none none solid none}}
+\rowlines{none solid none solid
+none none none none none none none solid none}}
 \mathcal{L}_1 &amp; \mathcal{L}_2 &amp; \mathcal{L}_3 &amp;
 \mathcal{L}_4 &amp; \mathcal{L}_5 &amp; \mathcal{L}_6
 \\
@@ -955,7 +958,137 @@ f_{15}
 
 ## Transforms Expanded over Differential Features ##
 
-The next four Tables expand the expressions of $\mathop{E}f$ and $\mathop{D}f$ in two different ways, for each of the sixteen functions $f$ of abstract type $\mathbb{B} \:\times\: \mathbb{B} \to \mathbb{B}$.  Notice that the functions are given in a different order, partitioned into seven natural classes by a group action.
+The next four Tables expand the expressions of $\mathop{E}f$ and $\mathop{D}f$ in two different ways, for each of the sixteen functions $f$ of abstract type $\mathbb{B} \:\times\: \mathbb{B} \to \mathbb{B}$.  Notice that the functions are arranged according to their $G$-orbits under the action of the group $G = \{ \mathop{T}_{00}, \mathop{T}_{01}, \mathop{T}_{10}, \mathop{T}_{11} \} \cong V_4$.
+
+<table align="center" border="1" cellpadding="0" cellspacing="0" markdown="1" style="text-align:center">
+<caption><font size="+2">
+$\text{Table A3.}\; \mathop{E}f \;\text{Expanded Over Differential Features}\; \{ \mathop{d}p, \mathop{d}q \}$
+</font></caption>
+<td>
+$\array{
+\arrayopts{
+\collines{solid}
+\rowlines{solid solid none none none solid none solid none solid none solid none none none solid}}
+&amp; \phantom{xxxx} f \phantom{xxxxx}
+&amp; \phantom{xxxx} \array{\mathop{T}_{11} f \\ \mathop{E}f|_{\mathop{d}p \: \mathop{d}q}   } \phantom{xxxx}
+&amp; \phantom{xxxx} \array{\mathop{T}_{10} f \\ \mathop{E}f|_{\mathop{d}p \: (\mathop{d}q)} } \phantom{xxxx}
+&amp; \phantom{xxxx} \array{\mathop{T}_{01} f \\ \mathop{E}f|_{(\mathop{d}p) \: \mathop{d}q} } \phantom{xxxx}
+&amp; \phantom{xxxx} \array{\mathop{T}_{00} f \\ \mathop{E}f|_{(\mathop{d}p)(\mathop{d}q)}   } \phantom{xxxx}
+\\
+f_{0}
+&amp; \text{&#x2997;} \: \text{&#x2998;}
+&amp; \text{&#x2997;} \: \text{&#x2998;}
+&amp; \text{&#x2997;} \: \text{&#x2998;}
+&amp; \text{&#x2997;} \: \text{&#x2998;}
+&amp; \text{&#x2997;} \: \text{&#x2998;}
+\\
+f_{1}
+&amp; \text{&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;}
+&amp; 
+&amp; 
+&amp; 
+&amp; 
+\\
+f_{2}
+&amp; \text{&#x2997;} p\text{&#x2998;} \: q
+&amp; 
+&amp; 
+&amp; 
+&amp; 
+\\
+f_{4}
+&amp; p \: \text{&#x2997;} q \text{&#x2998;}
+&amp; 
+&amp; 
+&amp; 
+&amp; 
+\\
+f_{8}
+&amp; p \: q
+&amp; 
+&amp; 
+&amp; 
+&amp; 
+\\
+f_{3}
+&amp; \text{&#x2997;} p \text{&#x2998;}
+&amp; 
+&amp; 
+&amp; 
+&amp; 
+\\
+f_{12}
+&amp; p
+&amp; 
+&amp; 
+&amp; 
+&amp; 
+\\
+f_{6}
+&amp; \text{&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;}
+&amp; 
+&amp; 
+&amp; 
+&amp;
+\\
+f_{9}
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;&#x2998;}
+&amp; 
+&amp; 
+&amp; 
+&amp; 
+\\
+f_{5}
+&amp; \text{&#x2997;} q \text{&#x2998;}
+&amp; 
+&amp; 
+&amp; 
+&amp; 
+\\
+f_{10}
+&amp; q
+&amp; 
+&amp; 
+&amp; 
+&amp; 
+\\
+f_{7}
+&amp; \text{&#x2997;} p \: q \text{&#x2998;}
+&amp; 
+&amp; 
+&amp; 
+&amp; 
+\\
+f_{11}
+&amp; \text{&#x2997;} p \: \text{&#x2997;} q \text{&#x2998;&#x2998;}
+&amp; 
+&amp; 
+&amp; 
+&amp; 
+\\
+f_{13}
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;} \: q \text{&#x2998;}
+&amp; 
+&amp; 
+&amp; 
+&amp; 
+\\
+f_{14}
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;&#x2998;}
+&amp; 
+&amp; 
+&amp; 
+&amp; 
+\\
+f_{15}
+&amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
+}$
+</td>
+</table>
 
 ## External links ##
 
