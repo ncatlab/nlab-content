@@ -1,6 +1,10 @@
-> this is a sub-entry of [[geometric models for elliptic cohomology]] and [[A Survey of Elliptic Cohomology]] 
++-- {: .standout}
 
->see there for background and context.
+This is a sub-entry of [[geometric models for elliptic cohomology]] and [[A Survey of Elliptic Cohomology]] 
+
+See there for background and context.
+
+=--
 
 
 > **raw material**: this are notes taken more or less verbatim in a seminar -- needs polishing
