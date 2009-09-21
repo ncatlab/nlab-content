@@ -1,6 +1,6 @@
-Book
+This entry is about the book
 
-* M. Grandis, __Directed algebraic topology,
+* [[Marco Grandis]], __Directed algebraic topology,
 Models of non-reversible worlds__, New Mathematical Monographs __13__, Cambridge Univ. Press 2009 (x+434 pages)
 
 is the first monograph on the subject of [[directed homotopy theory]]. See CUP [ad](http://www.cambridge.org/uk/catalogue/catalogue.asp?isbn=978052176036); [pdf excerpt](http://assets.cambridge.org/97805217/60362/excerpt/9780521760362_excerpt.pdf) of the first 9 (well, 10) pages of intro; and [pdf of the index](http://assets.cambridge.org/97805217/60362/index/9780521760362_index.pdf).
@@ -28,3 +28,8 @@ Prof. Grandis has posted few lines from introduction to the book  __'Directed Al
 >Similarly, its homological theories will take values in directed algebraic structures, like preordered abelian groups or abelian monoids. Homotopy constructions like mapping cone, cone and suspension, occur here in a directed version; this gives rise to new shapes, like (lower and upper) directed cones and directed spheres, whose elegance is strengthened by the fact that such constructions are determined by universal properties.
 
 >Applications will deal with domains where privileged directions appear, such as concurrent processes, rewrite systems, traffic networks, space-time models, biological systems, etc. At the time of writing, the most developed ones are concerned with concurrency.
+
+category: reference
+
+[[!redirects Directed Algebraic Topology]]
+
