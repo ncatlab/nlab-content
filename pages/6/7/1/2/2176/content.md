@@ -676,6 +676,42 @@ q
 
 We may understand the enlarged proposition $\mathop{E}f$ as telling us all the different ways to reach a model of the proposition $f$ from each point of the universe $X$.
 
+## Propositional Forms on Two Variables ##
+
+To broaden our experience with simple examples, let us examine the sixteen functions of concrete type $P \;\times\; Q \to \mathbb{B}$ and abstract type $\mathbb{B} \;\times\; \mathbb{B} \to \mathbb{B}$.  A few Tables are set here that detail the actions of $\mathop{E}$ and $\mathop{D}$ on each of these functions, allowing us to view the results in several different ways.
+
+Tables&nbsp;A1 and A2 show two ways of arranging the 16 boolean functions on two variables, giving equivalent expressions for each function in several different systems of notation.
+
+<table align="center" border="1" cellpadding="8" markdown="1" style="text-align:center; width:90%">
+<caption><font size="+2">$\text{Table A1.  Propositional Forms on Two Variables}$</font></caption>
+
+<tr style="background:#f0f0ff">
+<td><p>$\mathcal{L}_1$</p><p>$\text{Decimal}$</p></td>
+<td><p>$\mathcal{L}_2$</p><p>$\text{Binary}$</p></td>
+<td><p>$\mathcal{L}_3$</p><p>$\text{Vector}$</p></td>
+<td><p>$\mathcal{L}_4$</p><p>$\text{Cactus}$</p></td>
+<td><p>$\mathcal{L}_5$</p><p>$\text{English}$</p></td>
+<td><p>$\mathcal{L}_6$</p><p>$\text{Ordinary}$</p></td>
+</tr>
+
+<tr style="background:#f0f0ff">
+<td>&nbsp;</td>
+<td align="right">$p:$</td>
+<td>$1\,1\,0\,0$</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+
+<tr style="background:#f0f0ff">
+<td>&nbsp;</td>
+<td align="right">$q:$</td>
+<td>$1\,0\,1\,0$</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+
+</table>
+
 ## External links ##
 
 * [Differential_Logic : Introduction](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Differential_Logic_:_Introduction)
@@ -700,4 +736,4 @@ Templates ---
 
 Upload Queue ---
 
-* $\varnothing$
+: $\varnothing$
