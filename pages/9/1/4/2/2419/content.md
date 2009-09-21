@@ -42,11 +42,13 @@ by this definition, modular forms are not relly functions on the upper half plan
 [[!redirects topological modular form]]
 [[!redirects weak modular form]]
 [[!redirects modular function]]
+[[!redirects integral modular function]]
 [[!redirects weak integral modular form]]
 
 [[!redirects integral modular forms]]
 [[!redirects topological modular forms]]
 [[!redirects weak modular forms]]
 [[!redirects modular functions]]
+[[!redirects integral modular functions]]
 [[!redirects weak integral modular forms]]
 
