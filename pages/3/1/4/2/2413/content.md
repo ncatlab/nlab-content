@@ -1,6 +1,13 @@
 
-This entry is going to contain some discussion of models of [[elliptic cohomology]] that are analogous to how [[integral cohomology]] is modeled by [[line bundle]]s and [[bundle gerbe]]s, etc. and how [[K-theory]] is modeled by [[vector bundle]]s.
+There are well-known _geometric models_ for some [[cohomology theory|cohomology theories]]. For instance
 
+* [[integral cohomology]] is modeled by [[line bundle]]s and [[bundle gerbe]]s, etc. 
+
+and 
+
+* [[K-theory]] is modeled by [[vector bundle]]s.
+
+A geometric model for [[elliptic cohomology]] is supposed to be an analogous construction for [[elliptic cohomology]] or for [[tmf]].
 
 It is an old idea that analogous to how [[differential K-theory]] is modeled by parallel transport in [[vector bundle]]s and hence by [[functor]]s $Bord_1(X) \t Vect$,   [[elliptic cohomology]] should somehow be modeled by functors $Bord_2(X) \to Vect$, where $Bord_2(X)$ is a 1-category of [[cobordism]]s equipped with maps to $X$.
 
@@ -13,3 +20,19 @@ The following is going to be an exposition of this partial result:
 * [[Axiomatic field theories and their motivation from topology]]
 
 * [[(1,1)-dimensional Euclidean field theories and K-theory]]
+
+* [[(2,1)-dimensional Euclidean field theories and tmf]]
+
+#References#
+
+The program was initiated in 
+
+* [[Stephan Stolz]], [[Peter Teichner]], _[[What is an elliptic object?]]_
+
+After the original sketch in terms of extended [[FQFT]] subsequent work concentrated on ordinary 1-categorical constructions, the goal being to make very clear, and transparent and rigoruous the constructions involved and the claim that 
+
+> the [[partition function]] of a (2|1)-dimensional -Eudlidean [[FQFT]] is an [[integral modular form]].
+
+This latest development on this is in 
+
+* [[Stephan Stolz]], [[Peter Teichner]], _Super symmetric field theories and integral modular forms_ ([pdf](http://www.nd.edu/~stolz/SusyQFT.pdf))
