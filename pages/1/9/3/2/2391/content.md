@@ -1,10 +1,10 @@
 #Idea
 
-$Q$-categories and $Q^\circ$-categories serve as generalizations of (a structure induced by) Grothendieck topologies and cotopologies. Formally they correspond to the localizations having a left or right adjoint and are motivated by similar adjoint pairs involving (co)[[sieves]].
+$Q$-categories and $Q^\circ$-categories serve as generalizations of (a structure induced by) [[Grothendieck topology|Grothendieck topologies]] and cotopologies. Formally they correspond to the [[localization]]s having a left or right [[adjoint functor|adjoint]] and are motivated by similar adjoint pairs involving (co)[[sieves]].
 
 #Motivation
 
-[[Yoneda embedding]] is cocontinuous but not continuous functor. Hence the Grothendieck topologies are used to define smaller image than the category of presheaves such that for that embedding some cones will be preserved. In one case the cones correspond to the Grothendieck topology but more general families of diagrams may be involved. The important properties of categories of diagrams for doing the sheaf theory can be expressed in terms of certain adjoint pairs of functors. As one application this generalization of sheaf theory can also rephrase categorically properties like formal smoothness and formal etaleness of functors, and as another puts the sheafification in a framework for which another special case is a construction of the Gabriel-type noncommutative localization. 
+The [[Yoneda embedding]] is cocontinuous but not continuous functor. Hence the Grothendieck topologies are used to define smaller image than the category of presheaves such that for that embedding some cones will be preserved. In one case the cones correspond to the Grothendieck topology but more general families of diagrams may be involved. The important properties of categories of diagrams for doing the sheaf theory can be expressed in terms of certain adjoint pairs of functors. As one application this generalization of sheaf theory can also rephrase categorically properties like formal smoothness and formal etaleness of functors, and as another puts the sheafification in a framework for which another special case is a construction of the Gabriel-type noncommutative localization. 
 
 #Definition
 
