@@ -815,6 +815,144 @@ f_{15}
 </td>
 </table>
 
+<br>
+
+<table align="center" border="1" cellpadding="0" cellspacing="0" markdown="1">
+<caption><font size="+2">
+$\text{Table A2.  Boolean Functions of Two Variables by Group Orbits}$
+</font></caption>
+<td>
+$\array{
+\arrayopts{
+\collines{solid}
+\rowlines{none solid none solid
+solid none none none solid none solid none solid none solid none none none solid}}
+\mathcal{L}_1 &amp; \mathcal{L}_2 &amp; \mathcal{L}_3 &amp;
+\mathcal{L}_4 &amp; \mathcal{L}_5 &amp; \mathcal{L}_6
+\\
+\text{Decimal Index} &amp; \text{Binary Index} &amp;
+\text{Truth Table} &amp; \text{Cactus Expression} &amp;
+\text{English Paraphrase} &amp; \text{Conventional Notation}
+\\
+&amp; \cellopts{\colalign{right}} p: &amp; 1\:1\:0\:0 &amp; &amp; &amp;
+\\
+&amp; \cellopts{\colalign{right}} q: &amp; 1\:0\:1\:0 &amp; &amp; &amp;
+\\
+f_{0}
+&amp; f_{0000}
+&amp; 0\:0\:0\:0
+&amp; \text{&#x2997;} \: \text{&#x2998;}
+&amp; \mathop{false}
+&amp; 0
+\\
+f_{1}
+&amp; f_{0001}
+&amp; 0\:0\:0\:1
+&amp; \text{&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;}
+&amp; \mathop{neither}\: p \:\mathop{nor}\: q
+&amp; \not p \:\wedge\: \not q
+\\
+f_{2}
+&amp; f_{0010}
+&amp; 0\:0\:1\:0
+&amp; \text{&#x2997;} p\text{&#x2998;} \: q
+&amp; q \:\mathop{without}\: p
+&amp; \not p \:\wedge\: q
+\\
+f_{4}
+&amp; f_{0100}
+&amp; 0\:1\:0\:0
+&amp; p \: \text{&#x2997;} q \text{&#x2998;}
+&amp; p \:\mathop{without}\: q
+&amp; p \:\wedge\: \not q
+\\
+f_{8}
+&amp; f_{1000}
+&amp; 1\:0\:0\:0
+&amp; p \: q
+&amp; p \:\mathop{and}\: q
+&amp; p \:\wedge\: q
+\\
+f_{3}
+&amp; f_{0011}
+&amp; 0\:0\:1\:1
+&amp; \text{&#x2997;} p \text{&#x2998;}
+&amp; \mathop{not}\: p
+&amp; \not p
+\\
+f_{12}
+&amp; f_{1100}
+&amp; 1\:1\:0\:0
+&amp; p
+&amp; p
+&amp; p
+\\
+f_{6}
+&amp; f_{0110}
+&amp; 0\:1\:1\:0
+&amp; \text{&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;}
+&amp; p \:\mathop{not equal to}\: q
+&amp; p \ne q
+\\
+f_{9}
+&amp; f_{1001}
+&amp; 1\:0\:0\:1
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} \: q \text{&#x2998;&#x2998;}
+&amp; p \:\mathop{equal to}\: q
+&amp; p = q
+\\
+f_{5}
+&amp; f_{0101}
+&amp; 0\:1\:0\:1
+&amp; \text{&#x2997;} q \text{&#x2998;}
+&amp; \mathop{not}\: q
+&amp; \not q
+\\
+f_{10}
+&amp; f_{1010}
+&amp; 1\:0\:1\:0
+&amp; q
+&amp; q
+&amp; q
+\\
+f_{7}
+&amp; f_{0111}
+&amp; 0\:1\:1\:1
+&amp; \text{&#x2997;} p \: q \text{&#x2998;}
+&amp; \mathop{not both}\: p \:\mathop{and}\: q
+&amp; \not p \:\vee\: \not q
+\\
+f_{11}
+&amp; f_{1011}
+&amp; 1\:0\:1\:1
+&amp; \text{&#x2997;} p \: \text{&#x2997;} q \text{&#x2998;&#x2998;}
+&amp; \mathop{not}\: p \:\mathop{without}\: q
+&amp; p \Rightarrow q
+\\
+f_{13}
+&amp; f_{1101}
+&amp; 1\:1\:0\:1
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;} \: q \text{&#x2998;}
+&amp; \mathop{not}\: q \:\mathop{without}\: p
+&amp; p \Leftarrow q
+\\
+f_{14}
+&amp; f_{1110}
+&amp; 1\:1\:1\:0
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;&#x2998;}
+&amp; p \:\mathop{or}\: q
+&amp; p \:\vee\: q
+\\
+f_{15}
+&amp; f_{1111}
+&amp; 1\:1\:1\:1
+&amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
+&amp; \mathop{true}
+&amp; 1
+}$
+</td>
+</table>
+
 ## External links ##
 
 * [Differential_Logic : Introduction](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Differential_Logic_:_Introduction)
