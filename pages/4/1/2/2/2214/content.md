@@ -64,6 +64,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
   * [[Urs Schreiber]]: I just wondered about the same thing -- I made [[Directed Algebraic Topology]] now redirect to that entry, but if Zoran is okay with it I would also suggest to rename this. Book entries should carry the title of the book, at least up to abbreviation.
 
+  * Sorry, I am overloaded in last few days and made an error. Funny enough, there is a historical parallel with russian EGA. Russians have published a translation of the the introduction to 1971 EGAI edition. The external pages says Elements of algebraic geometry, while the title on the very first page is Elements of algebraic topology. I have a scan of this funny "typo".
+
 * [[Urs Schreiber]]: restructured [[moduli space]], linked to it from [[classifying space]] and, notably, added a semilong discussion of the subtleties of the common slogan that " _Objects with automorphisms don't have fine moduli spaces_ . ", summing up some arguments that were exchanged in the blog discussion [here](http://golem.ph.utexas.edu/category/2009/09/a_seminar_on_gromovwitten_theo.html).
 
 ## 2009-09-20
