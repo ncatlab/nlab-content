@@ -10,19 +10,25 @@ Much of the impetus for the theory has come from work on modelling concurrent pr
 
 Marco Grandis' work on the area is listed amongst his publications at his ([homepage](http://www.dima.unige.it/~grandis/rec.public_grandis.html)). Such as 
 
-* M. Grandis, Directed homotopy theory. I, Cah. Topol. G eom. Di  er. Cat eg. 44 (4) (2003) 281&#8211;316.
+* [[Marco Grandis]], Directed homotopy theory. I, Cah. Topol. G eom. Di  er. Cat eg. 44 (4) (2003) 281&#8211;316.
 
-* M. Grandis, Directed homotopy theory. II. Homotopy constructs, Theory Appl. Categ. 10 (2002) No. 14, 369&#8211;391 (electronic).
+* [[Marco Grandis]], Directed homotopy theory. II. Homotopy constructs, Theory Appl. Categ. 10 (2002) No. 14, 369&#8211;391 (electronic).
 
-* M. Grandis, The shape of a category up to directed homotopy, Theory Appl. Categ. 15 (2005/06) No. 4, 95&#8211;146 (electronic).
+* [[Marco Grandis]], The shape of a category up to directed homotopy, Theory Appl. Categ. 15 (2005/06) No. 4, 95&#8211;146 (electronic).
 
-* M. Grandis, Modelling fundamental 2-categories for directed homotopy, Homology, Homotopy Appl. 8 (1) (2006) 31&#8211;70 (electronic)
+* [[Marco Grandis]], Modelling fundamental 2-categories for directed homotopy, Homology, Homotopy Appl. 8 (1) (2006) 31&#8211;70 (electronic)
 
 +--{: .query}
 [[David Roberts]]: Marco Grandis has come out with a book \'Directed Algebraic Topology\', published by CUP. Haven't checked details on it, but presumably it contains material from the above papers
 
 Zoran: I have not held the book in my hands yet but some info from the web is incorporated into new book entry [[Directed Homotopy Theory]].
+
+[[Urs Schreiber]]: hey, you forgot to reference the book here. I did  it for you below:
+
 =--
+
+* [[Marco Grandis]], _[[Directed Algebraic Topology]], Models of non-reversible worlds_ , Cambridge University Press
+
 
 Foundational work was done by Eric Goubault and his collaborators.
 
