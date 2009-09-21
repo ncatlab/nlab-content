@@ -682,7 +682,7 @@ To broaden our experience with simple examples, let us examine the sixteen funct
 
 Tables&nbsp;A1 and A2 show two ways of arranging the 16 boolean functions on two variables, giving equivalent expressions for each function in several different systems of notation.
 
-<table align="center" border="1" cellpadding="8" markdown="1" style="text-align:center; width:90%">
+<table align="center" border="1" cellpadding="4" markdown="1" style="text-align:center; width:90%">
 <caption><font size="+2">$\text{Table A1.  Propositional Forms on Two Variables}$</font></caption>
 
 <tr style="background:#f0f0ff">
@@ -697,7 +697,7 @@ Tables&nbsp;A1 and A2 show two ways of arranging the 16 boolean functions on two
 <tr style="background:#f0f0ff">
 <td>&nbsp;</td>
 <td align="right">$p:$</td>
-<td>$1\,1\,0\,0$</td>
+<td>$1\;1\;0\;0$</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td></tr>
@@ -705,10 +705,106 @@ Tables&nbsp;A1 and A2 show two ways of arranging the 16 boolean functions on two
 <tr style="background:#f0f0ff">
 <td>&nbsp;</td>
 <td align="right">$q:$</td>
-<td>$1\,0\,1\,0$</td>
+<td>$1\;0\;1\;0$</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td></tr>
+
+<tr>
+<td>$\array{
+f_0 \\ f_1 \\ f_2 \\ f_3 \\
+f_4 \\ f_5 \\ f_6 \\ f_7 }$</td>
+<td>$\array{
+f_{0000} \\ f_{0001} \\ f_{0010} \\ f_{0011} \\
+f_{0100} \\ f_{0101} \\ f_{0110} \\ f_{0111} }$</td>
+<td>$\array{
+0\;0\;0\;0 {}_{\,} \\ 0\;0\;0\;1 {}_{\,} \\ 0\;0\;1\;0 {}_{\,} \\ 0\;0\;1\;1 {}_{\,} \\
+0\;1\;0\;0 {}_{\,} \\ 0\;1\;0\;1 {}_{\,} \\ 0\;1\;1\;0 {}_{\,} \\ 0\;1\;1\;1 {}_{\,} }$</td>
+<td>$\array{
+(\;) \\ (p)(q) \\ (p)\;q\; \\ (p)\;\;\; \\
+\;p\;(q) \\ \;\;\;(q) \\ (p,\;q) \\ (p\;\;q) }$</td>
+<td>$\array{
+\text{false}
+\\
+\text{neither}\; p \;\text{nor}\; q
+\\
+q \;\text{without}\; p
+\\
+\text{not}\; p
+\\
+p \;\text{without}\; q
+\\
+\text{not}\; q
+\\
+p \;\text{not equal to}\; q
+\\
+\text{not both}\; p \;\text{and}\; q
+}$</td>
+<td>$\array{
+0
+\\
+\not p \wedge \not q
+\\
+\not p \wedge q
+\\
+\not p
+\\
+p \wedge \not q
+\\
+\not q
+\\
+p \ne q
+\\
+\not p \vee \not q
+}$</td></tr>
+
+<tr>
+<td>$\array{
+f_8    \\ f_9    \\ f_{10} \\ f_{11} \\
+f_{12} \\ f_{13} \\ f_{14} \\ f_{15} }$</td>
+<td>$\array{
+f_{1000} \\ f_{1001} \\ f_{1010} \\ f_{1011} \\
+f_{1100} \\ f_{1101} \\ f_{1110} \\ f_{1111} }$</td>
+<td>$\array{
+1\;0\;0\;0 \\ 1\;0\;0\;1 \\ 1\;0\;1\;0 \\ 1\;0\;1\;1 \\
+1\;1\;0\;0 \\ 1\;1\;0\;1 \\ 1\;1\;1\;0 \\ 1\;1\;1\;1 }$</td>
+<td>$\array{
+\;\;p\;\;q\;\; \\ ((p,\;q)) \\ \;\;\;\;\;q\;\; \\ \;(p\;(q)) \\
+\;\;p\;\;\;\;\; \\ ((p)\;q)\; \\ ((p)(q)) \\ ((\;)) }$</td>
+<td>$\array{
+p \;\text{and}\; q
+\\
+p \;\text{equal to}\; q
+\\
+q
+\\
+\text{not}\; p \;\text{without}\; q
+\\
+p
+\\
+\text{not}\; q \;\text{without}\; p
+\\
+p \;\text{or}\; q
+\\
+\text{true}
+}$</td>
+<td>$\array{
+p \wedge q
+\\
+p = q
+\\
+q
+\\
+p \Rightarrow q
+\\
+p
+\\
+p \Leftarrow q
+\\
+p \vee q
+\\
+1
+}$</td></tr>
 
 </table>
 
