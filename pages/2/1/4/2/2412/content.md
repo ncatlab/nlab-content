@@ -1,8 +1,11 @@
++-- {: .standout}
 
+This is a sub-entry of [[geometric models for elliptic cohomology]] and [[A Survey of Elliptic Cohomology]] 
 
-> this is a sub-entry of [[geometric models for elliptic cohomology]] and [[A Survey of Elliptic Cohomology]] 
+See there for background and context.
 
->see there for background and context.
+=--
+
 
 > **raw material**: this are notes taken more or less verbatim in a seminar -- needs polishing
 
@@ -17,6 +20,13 @@ next:
 
 
 ***
+
++-- {: .standout}
+
+All of the following assumes that the reader is well familiar with the basic ideas indicated at [[FQFT]].
+
+=--
+
 
 In the following $RB$ or $RBord$ and the like denotes a category of [[cobordism]]s that are equipped with _Riemannian structure_, i.e. with [[Riemannian metric]].
 Similarly $EB$ or $EBord$ or the like denotes a category of cobordisms with _Eudlidean structure_, by which is meant a _flat_ Riemannian metric.
