@@ -23,7 +23,173 @@ Trying some new arrows: $\twoheadrightarrow$, $\rightarrowtail$, $\looparrowrigh
 
 ***
 
-Would be nice to have that "space betweeen rows" parameter --- e.g., \\[4pt] --- as in standard LaTeX &#8230;
+I noticed that \Delta gives italic Greek $\Delta$, which is not standard, and shouldn't be used in any case for operators.  Is there any way, short of unicode, to get plain Greek chars in math context?
+
+* \Delta &#8594; $\Delta$
+
+Looks like HTML codes work well enough as a stopgap, but still, it's kinda weird.
+
+* \text{&#916;} &#8594; $\text{&#916;}$
+
+* \mathop{&#916;} &#8594; $\mathop{&#916;}$
+
+***
+
+There really shouldn't be that extra space for 1-letter operators:
+
+* \mathop{d}f &#8594; $\mathop{d}f$
+
+I'm guessing I can use \mathrm, but that wrecks the operational semantics:
+
+* \mathrm{d}f &#8594; $\mathrm{d}f$
+
+Guessed wrong again!
+
+* {\mathop{d}f} &#8594; ${\mathop{d}f}$
+
+* {\mathrm{d}f} &#8594; ${\mathrm{d}f}$
+
+***
+
+How do you specify background color for a whole row?
+
+<table align="center" border="1" cellpadding="0" cellspacing="0" markdown="1">
+<caption><font size="+2">$\text{Table A1.  Propositional Forms on Two Variables}$</font></caption>
+<td>
+$\array{
+\arrayopts{
+\frame{solid}
+\collines{solid}
+\rowlines{none solid none solid none none none none none none none solid none}}
+\mathcal{L}_1 &amp; \mathcal{L}_2 &amp; \mathcal{L}_3 &amp;
+\mathcal{L}_4 &amp; \mathcal{L}_5 &amp; \mathcal{L}_6
+\\
+\text{Decimal Index} &amp; \text{Binary Index} &amp;
+\text{Function Values} &amp; \text{Cactus Expression} &amp;
+\text{English Paraphrase} &amp; \text{Conventional Notation}
+\\
+&amp; \cellopts{\colalign{right}} p: &amp; 1\:1\:0\:0 &amp; &amp; &amp;
+\\
+&amp; \cellopts{\colalign{right}} q: &amp; 1\:0\:1\:0 &amp; &amp; &amp;
+\\
+f_{0}
+&amp; f_{0000}
+&amp; 0\:0\:0\:0
+&amp; (\:)
+&amp; \mathop{false}
+&amp; 0
+\\
+f_{1}
+&amp; f_{0001}
+&amp; 0\:0\:0\:1
+&amp; (p)(q)
+&amp; \mathop{neither}\: p \:\mathop{nor}\: q
+&amp; \not p \:\wedge\: \not q
+\\
+f_{2}
+&amp; f_{0010}
+&amp; 0\:0\:1\:0
+&amp; (p)\:q
+&amp; q \:\mathop{without}\: p
+&amp; \not p \:\wedge\: q
+\\
+f_{3}
+&amp; f_{0011}
+&amp; 0\:0\:1\:1
+&amp; (p)
+&amp; \mathop{not}\: p
+&amp; \not p
+\\
+f_{4}
+&amp; f_{0100}
+&amp; 0\:1\:0\:0
+&amp; p\:(q)
+&amp; p \:\mathop{without}\: q
+&amp; p \:\wedge\: (q)
+\\
+f_{5}
+&amp; f_{0101}
+&amp; 0\:1\:0\:1
+&amp; (q)
+&amp; \mathop{not}\: q
+&amp; \not q
+\\
+f_{6}
+&amp; f_{0110}
+&amp; 0\:1\:1\:0
+&amp; (p,\:q)
+&amp; p \:\mathop{not equal to}\: q
+&amp; p \ne q
+\\
+f_{7}
+&amp; f_{0111}
+&amp; 0\:1\:1\:1
+&amp; (p\:\:q)
+&amp; \mathop{not both}\: p \:\mathop{and}\: q
+&amp; \not p \:\vee\: \not q
+\\
+f_{8}
+&amp; f_{1000}
+&amp; 1\:0\:0\:0
+&amp; p \: q
+&amp; p \:\mathop{and}\: q
+&amp; p \:\wedge\: q
+\\
+f_{9}
+&amp; f_{1001}
+&amp; 1\:0\:0\:1
+&amp; ((p,\:q))
+&amp; p \:\mathop{equal to}\: q
+&amp; p = q
+\\
+f_{10}
+&amp; f_{1010}
+&amp; 1\:0\:1\:0
+&amp; q
+&amp; q
+&amp; q
+\\
+f_{11}
+&amp; f_{1011}
+&amp; 1\:0\:1\:1
+&amp; (p\:(q))
+&amp; \mathop{not}\: p \:\mathop{without}\: q
+&amp; p \Rightarrow q
+\\
+f_{12}
+&amp; f_{1100}
+&amp; 1\:1\:0\:0
+&amp; p
+&amp; p
+&amp; p
+\\
+f_{13}
+&amp; f_{1101}
+&amp; 1\:1\:0\:1
+&amp; ((p)\:q)
+&amp; \mathop{not}\: q \:\mathop{without}\: p
+&amp; p \Leftarrow q
+\\
+f_{14}
+&amp; f_{1110}
+&amp; 1\:1\:1\:0
+&amp; ((p)(q))
+&amp; p \:\mathop{or}\: q
+&amp; p \:\vee\: q
+\\
+f_{15}
+&amp; f_{1111}
+&amp; 1\:1\:1\:1
+&amp; ((\:))
+&amp; \mathop{true}
+&amp; 1
+}$
+</td>
+</table>
+
+***
+
+Would be nice to have that "space betweeen rows" parameter --- e.g., \\\\\[4pt\] --- as in standard LaTeX &hellip;
 
 <table align="center" border="1" cellpadding="4" markdown="1" style="text-align:center; width:90%">
 <caption><font size="+2">$\text{Table A1.  Propositional Forms on Two Variables}$</font></caption>
@@ -150,86 +316,6 @@ p \vee q
 }$</td></tr>
 
 </table>
-
-***
-
-How do you specify background color for a whole row?
-
-$$\array{
-\text{Table}
-\\
-\array{
-\arrayopts{
-\frame{solid}
-\collines{solid}
-\rowlines{
-solid none none none none none none none solid none}}
-\bgcolor{#f0f0ff} \mathcal{L}_1 &
-\bgcolor{#f0f0ff} \mathcal{L}_2 &
-\bgcolor{#f0f0ff} \mathcal{L}_3 &
-\bgcolor{#f0f0ff} \mathcal{L}_4 &
-\bgcolor{#f0f0ff} \mathcal{L}_5 &
-\bgcolor{#f0f0ff} \mathcal{L}_6 \\
-f_{0}  & 02 & 03 & 04 & 05 & 06
-\\
-f_{1}  & 12 & 13 & 14 & 15 & 16
-\\
-f_{2}  & 22 & 23 & 24 & 25 & 26
-\\
-f_{3}  & 32 & 33 & 34 & 35 & 36
-\\
-f_{4}  & 42 & 43 & 44 & 45 & 46
-\\
-f_{5}  & 52 & 53 & 54 & 55 & 56
-\\
-f_{6}  & 62 & 63 & 64 & 65 & 66
-\\
-f_{7}  & 72 & 73 & 74 & 75 & 76
-\\
-f_{8}  & 82 & 83 & 84 & 85 & 86
-\\
-f_{9}  & 92 & 93 & 94 & 95 & 96
-\\
-f_{10} & a2 & a3 & a4 & a5 & a6
-\\
-f_{11} & b2 & b3 & b4 & b5 & b6
-\\
-f_{12} & c2 & c3 & c4 & c5 & c6
-\\
-f_{13} & d2 & d3 & d4 & d5 & d6
-\\
-f_{14} & e2 & e3 & e4 & e5 & e6
-\\
-f_{15} & f2 & f3 & f4 & f5 & f6}
-}$$
-
-***
-
-I noticed that \Delta gives italic Greek $\Delta$, which is not standard, and shouldn't be used in any case for operators.  Is there any way, short of unicode, to get plain Greek chars in math context?
-
-* \Delta &rarr; $\Delta$
-
-Looks like HTML codes work well enough as a stopgap, but still, it's kinda weird.
-
-* \text{&amp;Delta;} &rarr; $\text{&Delta;}$
-
-* \mathop{&amp;Delta;} &rarr; $\mathop{&Delta;}$
-
-***
-
-There really shouldn't be that extra space for 1-letter operators:
-
-* \mathop{d}f &rarr; $\mathop{d}f$
-
-I'm guessing I can use \mathrm, but that wrecks the operational semantics:
-
-* \mathrm{d}f &rarr; $\mathrm{d}f$
-
-Guessed wrong again!
-
-* {\mathop{d}f} &rarr; ${\mathop{d}f}$
-
-* {\mathrm{d}f} &rarr; ${\mathrm{d}f}$
 
 ***
 
