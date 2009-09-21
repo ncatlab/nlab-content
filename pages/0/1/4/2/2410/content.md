@@ -34,4 +34,8 @@ Prof. Grandis has posted few lines from introduction to the book  __'Directed Al
 
 category: reference
 
++--{.query}
 
+[[Eric]]: Does anyone here know Professor Grandis well enough to invite him here? I'm a fan and would love to see him participate in the n-Community.
+
+=--
