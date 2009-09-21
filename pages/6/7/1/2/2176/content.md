@@ -824,7 +824,7 @@ f_{15}
 
 <table align="center" border="1" cellpadding="0" cellspacing="0" markdown="1">
 <caption><font size="+2">
-$\text{Table A2.} \quad \text{Boolean Functions of Two Variables by Group Orbits}$
+$\text{Table A2.} \quad \text{Propositional Forms on Two Variables by Group Orbits}$
 </font></caption>
 <td>
 $\array{
