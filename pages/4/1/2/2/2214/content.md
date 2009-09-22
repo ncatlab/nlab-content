@@ -49,6 +49,12 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 ***
 ## 2009-09-22
 
+* [[Urs Schreiber]] 
+
+  * created stubs for [[Riemannian manifold]], [[Riemannian cobordism]], [[isometry]]
+
+  * added to [[Gray tensor product]] a link to Mike's new [[generalized Gray tensor product]]
+
 * [[Mike Shulman]]: 
 
   * Replied to several comments at [[SEAR]], and rearranged the discussions to be (mostly) next to the text they are discussing.  I'm happy about the interest this idea is generating.
