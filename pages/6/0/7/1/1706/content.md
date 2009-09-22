@@ -1,3 +1,10 @@
+<div class="rightHandSide toc">
+
+[[!include functorial quantum field theory - contents]]
+
+</div>
+
+
 
 The material that should go here is, for some reason, still to some extent at [[generalized tangle hypothesis]]. You should go there to learn more. Better yet, you go there and then come back here to create a decent entry on the cobordisms hypothesis.
 
@@ -104,7 +111,7 @@ According to [[Chris Schommer-Pries]] interesting morphisms of [[TQFT]]s arise w
 
 ##Discussion##
 
-* [Caf&#233;](http://golem.ph.utexas.edu/category/2006/11/this_weeks_finds_in_mathematic_2.html#c006381)
+* [Caf&eacute;](http://golem.ph.utexas.edu/category/2006/11/this_weeks_finds_in_mathematic_2.html#c006381)
 
 
 
