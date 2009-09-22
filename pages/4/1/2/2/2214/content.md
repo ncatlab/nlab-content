@@ -48,6 +48,7 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ***
 ## 2009-09-22
+* [[Zoran ?koda]] added references to [[Heisenberg double]] (including my own). 
 
 * [[Urs Schreiber]] wrote very stubby stub for [[Brown representability theorem]], in fact just recording a recent reference there 
 
