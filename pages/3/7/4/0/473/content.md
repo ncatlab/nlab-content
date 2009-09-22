@@ -1,3 +1,10 @@
+<div class="rightHandSide toc">
+
+[[!include functorial quantum field theory - contents]]
+
+</div>
+
+
 The _generalized tangle hypothesis_ is a refinement of the [[cobordism hypothesis]].
 
 #History#
@@ -65,5 +72,5 @@ The $k$-tuply monoidal $n$-category of $G$-structured $n$-tangles in the $(n + k
 
 ##Discussion##
 
-* [Caf&#233;](http://golem.ph.utexas.edu/category/2006/11/this_weeks_finds_in_mathematic_2.html#c006381)
+* [Caf&eacute;](http://golem.ph.utexas.edu/category/2006/11/this_weeks_finds_in_mathematic_2.html#c006381)
 
