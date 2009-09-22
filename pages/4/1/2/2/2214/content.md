@@ -47,7 +47,15 @@ The syntax on the forum is ever-so-slightly different to that here.  You can use
 To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5).  When we "go live" (which will happen soon), I'll clean out the discussions so feel free to have a play first.  Any comments and suggestions should be recorded [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=64) (you'll have to create an account to comment on this, though).
 
 ***
+## 2009-09-22
 
+* [[David Roberts]]: comments at [[SEAR]]:
+
+  * suggestion for renaming - SER (and SEPS for Toby's alternative)
+
+  * comment about the category of SEAR-sets
+
+  * the kick-start of a new project, [[natural numbers in SEAR]]. This is without assuming the axiom of infinity and otherwise assuming as few of the SEAR axioms as possible. A little over a stub at present, and maybe I'm making a big deal of nothing...
 
 ## 2009-09-21
 
