@@ -1,5 +1,7 @@
 [[!redirects $n$-category]]
 [[!redirects n-categories]]
+[[!redirects weak n-category]]
+[[!redirects weak n-categories]]
 
 
 $n$-categories are the main subject of [[higher category theory]], and give its name to the $n$-[[About|Lab]].
