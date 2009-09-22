@@ -39,9 +39,12 @@ All of the following assumes that the reader is well familiar with the basic ide
 =--
 
 
-In the following $RB$ or $RBord$ and the like denotes a category of [[cobordism]]s that are equipped with _Riemannian structure_, i.e. with [[Riemannian metric]].
-Similarly $EB$ or $EBord$ or the like denotes a category of cobordisms with _Eudlidean structure_, by which is meant a _flat_ Riemannian metric.
+In the following $d-RB$ or $R Bord_d$ and the like denotes a category of $d$-dimensiomnal [[Riemannian cobordism]]s that are equipped with _Riemannian structure_, i.e. with [[Riemannian metric]].
+Similarly $d-E B$ or $E Bord_d$ or the like denotes a category of cobordisms with _Eudlidean structure_, by which is meant a _flat_ Riemannian metric.
 
+The definition of this is discussed in detail in
+
+* [[bordism categories following Stolz-Teichner]]
 
 
 **definition**
