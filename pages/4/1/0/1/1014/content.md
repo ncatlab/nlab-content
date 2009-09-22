@@ -1,4 +1,16 @@
+
++--{: .query}
+[[Arnold Neumaier]]: I added some comments originating from my 
+attempts to read this wieth the interpretation of sets as SEAR 
+sets in mind.
+=--
+
 A **pure set** is a [[set]] of pure sets.
+
++--{: .query}
+AN: This cannot be true literally when set is a SEAR set. 
+The statement should therefore be marked explicitly as informal. 
+=--
 
 This is a circular definition; if you interpret it [[recursion|recursively]], then you get **well-founded sets**; if you interpret it [[corecursion|corecursively]], then you allow for **ill-founded sets**.  (But note that the corecursive interpretation includes the well-founded sets as well, an example of the [[red herring principle]].)
 
@@ -18,17 +30,69 @@ The basic theoretical idea is that the class of well-founded sets is the [[initi
 
 In this representation, a pure set is a _rigid rooted directed tree_, possibly a _well-founded_ one.  We will define this in several stages:
 *  A __[[directed graph]]__ (technically, a _simple directed pseudograph_) consists of a set $N$ of __nodes__ and a binary [[relation]] $\to$ on the nodes; a node $i$ is called a __child__ of a node $j$ if $i \to j$.
+
++--{: .query}
+AN: Here and later, I have difficulties clearly understanding the 
+meaning of ``consists of''; the same holds later for ``equipped with''
+- do these phrases convey the same or something different?
+
+Is the above sentence to be formally understood as saying that a 
+directed graph is (a) a single object of a certain type, 
+or (b) just a way of speaking?
+
+(a) would mean that there is a metacollection G of graphs, a mapping N 
+from G to the metacollection of sets, and a mapping T from G to the 
+metacollection of relations , such that for the graph g talked about 
+in the above statement, N(g) would be the above $N$ and T(g) would be 
+the above $\to$.
+
+(b) would mean that directed graphs are not single objects but only a
+shorthand for saying something about a set and a binary relation on 
+this set, in the sense of Mike Shulman's comment 
+<a href="http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c026784">here</a>.
+
+In case of (a), I don't understand how the new type comes formally 
+into existence in the context of SEAR. 
+In case of (b), I don't understand how any family of trees could form 
+a model of ZF in the sense of first order logic.
+=--
+
+
 *  Every directed graph (simple or not) generates a [[quiver]], a category whose morphisms are called __paths__.
 *  A __tree__ (technically, a _directed rooted tree_) is a simple directed graph equipped with a __root__ node $r$ that is a [[terminal object]] of the quiver (meaning that every node has a unique path to the root).
 *  The __full subtree__ of a tree rooted at a node $i$ consists of all of the nodes with a path (necessarily unique) to $i$.
 *  A tree is __rigid__ if, whenever two full subtrees rooted to children of the same node are isomorphic (as graphs), then they are the same subtree; equivalently, any graph [[automorphism]] of the tree must be the identity function.
+
++--{: .query}
+AN: Here and later, ``must be'' should be ``is''.
+=--
+
+
 *  A tree is __well-founded__ if $\to$ is a [[well-founded relation]] (note that the [[opposite relation]] $\leftarrow$ is automatically well-founded).  Assuming the principle of [[excluded middle]], this is equivalent to saying that every branch in the tree is of finite length.
 
 These subsidiary notions are also needed:
 *  Two trees are __equivalent__ if there exists a graph isomorphism between them; for rigid trees, such an isomorphism must be unique.
+
++--{: .query}
+AN: I don't see the meaning or relevance of this definition.
+Equivalent says exactly the same as isomorphic.
+=--
+
+
 *  A tree $X$ is an __immediate subtree__ of a tree $Y$ if $X$ is isomorphic to a tree rooted at one of the children of the root in $Y$; for rigid trees, this can again happen only in one way.
 
-Then rigid trees model ill-founded pure sets; well-founded rigid trees model well-founded pure sets.  The immediate-subtree relation models the global membership relation on pure sets.  Notice that the [[axiom of extensionality]] holds: if two trees have equivalent immediate subtrees, then they are themselves equivalent.  More generally, if __[[ETCS]]__ holds for the structural sets (of nodes, etc) used in this definition, then $\mathbf{ZC}^-$ (which is __[[ZFC]]__ without the axioms of [[axiom of replacement|replacement]] and [[axiom of foundation|foundation]]) holds for rigid trees, while $\mathbf{ZC}$ ($\mathbf{ZC}^-$ together with foundation) holds for well-founded rigid trees.  (Similar results hold for [[constructive mathematics|constructive]] weakenings of ETCS and ZFC; other possible changes, such as adding replacement or [[Grothendieck universes]], also correspond.)
+Then rigid trees model ill-founded pure sets; well-founded rigid trees model well-founded pure sets.  The immediate-subtree relation models the global membership relation on pure sets.  Notice that the [[axiom of extensionality]] holds: if two trees have equivalent immediate subtrees, then they are themselves equivalent.  More generally, 
+
++--{: .query}
+AN: I don't see, how this is more general.
+It would be more important here to say that:
+
+The immediate-subtree relation models the global membership relation 
+on pure sets; being isomorphic models their equality. 
+=--
+
+
+if __[[ETCS]]__ holds for the structural sets (of nodes, etc) used in this definition, then $\mathbf{ZC}^-$ (which is __[[ZFC]]__ without the axioms of [[axiom of replacement|replacement]] and [[axiom of foundation|foundation]]) holds for rigid trees, while $\mathbf{ZC}$ ($\mathbf{ZC}^-$ together with foundation) holds for well-founded rigid trees.  (Similar results hold for [[constructive mathematics|constructive]] weakenings of ETCS and ZFC; other possible changes, such as adding replacement or [[Grothendieck universes]], also correspond.)
 
 +-- {: .query}
 This definition needs to be fixed; it gives only Scott-[[extensional relation|extensionality]] rather than strong extensionality.  I\'ll work on it.  ---Toby
@@ -36,7 +100,22 @@ This definition needs to be fixed; it gives only Scott-[[extensional relation|ex
 
 #### Examples ####
 
-You should think of the root as representing the pure set itself, the root\'s children as the elements of the pure set, the next level as those elements\' elements, and so on.  Note that the nodes in most of the pictures below have labels, but these are for illustration only; they are *not* part of the structure defining the tree.
+You should think of the root as representing the pure set itself, the root\'s children as the elements of the pure set, the next level as those elements\' elements, and so on.  
+
++--{: .query}
+AN: I dont understand this piece of moral. Why should I understand a 
+particular node of a pure set to represent this pure set? Certainly 
+equality of nodes and equality of pure sets are completely different 
+things.
+
+It would be more appropriate to say that the tree pictures the 
+hierarchy of elements of the pure set if each rooted subtree is mapped 
+to its root and the arrow is interpreted as membership.
+This is true irrespective of any moral.
+=--
+
+
+Note that the nodes in most of the pictures below have labels, but these are for illustration only; they are *not* part of the structure defining the tree.
 
 First, $\empty = \{ \}$ consists of nothing but a root:
 $$ \empty $$
@@ -65,6 +144,14 @@ $$ \array {
 } $$
 This is isomorphic to $\{\empty, \star\}$.
 
+
++--{: .query}
+AN: I don't understand the relvance of this example. A tree can be 
+represented graphically in thousands of ways, and represents either 
+the same tree or an isomorphic tree depending on the convention 
+for interpreting the graphics.
+=--
+
 We might want to write $2_Z$ as $\{\star, \star\}$:
 $$ \array { 
          &          & 2_Z \\
@@ -79,7 +166,24 @@ A non-well-founded set will give an infinite picture; here is $\bullet = \{\bull
 $$ \array { \bullet \\ \uparrow \\ \bullet \\ \uparrow \\ \bullet \\ \uparrow \\ \vdots } $$
 Looking at the immediate subtree, we verify that $\bullet \in \bullet$.
 
-Of course, even a well-founded [[infinite set]] has an infinite picture, but each individual branch is finite; here is $\omega_N$, the set of von Neumann [[natural numbers]]:
++--{: .query}
+AN: 1. Do you mean with ``infinite picture'' a finite picture with dots 
+on it? 
+
+2. Why can't one write the same picture as a dingle dot with an arrow 
+to itself?
+=--
+
+
+Of course, even a well-founded [[infinite set]] has an infinite picture, but each individual branch is finite; 
+
++--{: .query}
+AN: No. $\omega+1$ shows that branches may be infinite. 
+Only directed paths are finite.
+=--
+
+
+here is $\omega_N$, the set of von Neumann [[natural numbers]]:
 $$ \array {
         &          &          & \omega_N \\
         & \nearrow & \nearrow &          & \nwarrow & \cdots \\
@@ -92,7 +196,7 @@ $$ \array {
 } $$
 So we have $\empty \in \omega_N$, $\star \in \omega_N$, $2_N \in \omega$, etc.
 
-By definition, a tree models a _[[hereditarily finite set]]_ if every node has finitely many children; a tree models a well-founded hereditarily finite set if and only if it is finite and $\prec$ is [[decidable subset|decidable]].  The relationship between these two facts and the finite-branch formulation of well-foundedness is a form of [[Konig's lemma|Kőnig's Lemma]].
+By definition, a tree models a _[[hereditarily finite set]]_ if every node has finitely many children; a tree models a well-founded hereditarily finite set if and only if it is finite and $\prec$ is [[decidable subset|decidable]].  The relationship between these two facts and the finite-branch formulation of well-foundedness is a form of [[Konig's lemma|K\u0151nig's Lemma]].
 
 ### Reflexive-transitive closures as graphs ###
 
@@ -163,3 +267,14 @@ Peter Aczel\'s general model of a pure set is any _simple directed accessible po
 *  Peter Aczel (1988).  Non-well-founded sets.  CSLI 14; Stanford University.  [PDF](http://standish.stanford.edu/pdf/00000056.pdf).
 
 [[!redirects pure sets]]
+
+
+
+
+
+
+
+
+
+
+
