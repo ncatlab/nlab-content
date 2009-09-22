@@ -30,6 +30,8 @@ It also makes it look much more like type theory!  Which I suppose is not a bad 
 I went ahead and had a go at a formalization using products down at the bottom of the page.  I have to say that "SESAP" doesn't ring as well.  (-:  But I think we could still call it SEAR even if the "relations" aren't quite a fundamental concept.  (Although if someone has a better name to suggest, I'm still listening.)  Actually, we could probably use the same name for all the different formalizations, explicitly allowing people the choice of whether to take functions or binary-relations or subsets+products as primary.  Everyone says "ZF" despite variations in the phrasing of the axioms, so the name of a theory doesn't have to be rigidly tied to a specific way of stating it.
 
 _Toby_:  I was going to call my version 'SEAPS' until I realised that the 'A' was in the wrong place ...
+
+[[David Roberts]]: How about SER and SEPS? And then SER-C and SEPS-C.
 =--
 
 +--{: .query}
@@ -127,8 +129,14 @@ Other items:
 *  Third sentence after Axiom 5:  Assuming the consistency of $\mathbf{ZFC}$, this follows from the equiconsistency of $\mathbf{SEAR}$ and $\mathbf{ZF}$.  (Of course, that has not been done in detail, so you can doubt it if you like.)
 
 *  Feel free to correct any obvious typos that you notice!
-=--
 
+[[David Roberts]]: I was going to ask something about the claim that after axioms 0,1 and 2 we have a category of sets (which I think is very cool), but I convinced myself that this was a metacategory with a collection of arrows between a pair of objects and a composite for each pair of (composable) arrows one is given. However, from Mike's reply to my question, we can use the definition of the set of functions to then define a metacategory  with a set of arrows between any two objects (this I must admit requires more than just a sweeping statement) but still only a collection of objects. Once one has defined universes, then - as much as I understand it - things can proceed much as with any other category $U-Set$ one might define with a universe $U$. We then have the universal family that the axiom of collection is a virtual shadow of.
+
+In response to Toby's comment about forming the union of sets above: it always annoyed me that people worry whether sets just happen to have elements in common. It is very much a \'is $\sqrt{2} \in \pi$?\' type thing. 
+=--
++--{: .query}
+[[David Roberts]]: I'm going to have a go at defining [[natural numbers in SEAR]] (or SER), but I'll probably need some friends to help me down the unfamiliar path...
+=--
 
 # Introduction #
 
