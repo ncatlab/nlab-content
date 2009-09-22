@@ -456,4 +456,7 @@ Applying separation to subsets of $A\times B$ and composing $i$ with the product
 [[David Roberts]]: Can we talk about Grothendieck universes or analogous size-related mechanisms? (this is a naive question, since there may be (no need for/obvious way to do) this in a structural set theory that I am unaware of.
 
 [[Mike Shulman]]: Universes can be defined in any structural set theory in a fairly straightforward way, modulo the usual translation from "set of sets" to "family of sets."  There is some stuff from a more ETCS-like perspective at [[universe in a topos]]; I'm sure that this can be rephrased in SEAR (if you want to take a shot, feel free!).
+
+[[David Roberts]]: I'd certainly like to, subject to real-world time constrains. It seems to me that something could be done to the axiom of collection if we had a axiom of universes (for every set there is a universe acting as a universal family for it, or similar).
 =--
+
