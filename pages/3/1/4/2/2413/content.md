@@ -17,11 +17,17 @@ The fundamental result of this program so far is that there is a useful notion o
 
 The following is going to be an exposition of this partial result:
 
-* [[Axiomatic field theories and their motivation from topology]]
+* Outline of the constructions and statements
 
-* [[(1,1)-dimensional Euclidean field theories and K-theory]]
+  * [[Axiomatic field theories and their motivation from topology]]
 
-* [[(2,1)-dimensional Euclidean field theories and tmf]]
+  * [[(1,1)-dimensional Euclidean field theories and K-theory]]
+
+  * [[(2,1)-dimensional Euclidean field theories and tmf]]
+
+* Definitions
+
+  * [[bordism categories following Stolz-Teichner]]
 
 #References#
 
