@@ -51,6 +51,10 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 * [[Urs Schreiber]] 
 
+  * created [[functorial quantum field theory - contents]] and added it as a floating table of contents to relevant entries -- trusting that the related issues currently [discussed on the forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=61&page=1#Item_9) will eventually be solved by CSS means
+
+  * created [[bordism categories following Stolz-Teichner]]
+
   * created stubs for [[Riemannian manifold]], [[Riemannian cobordism]], [[isometry]]
 
   * added to [[Gray tensor product]] a link to Mike's new [[generalized Gray tensor product]]
