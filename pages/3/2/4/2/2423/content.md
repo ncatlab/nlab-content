@@ -15,6 +15,19 @@ This entry here is about the definition of [[cobordism category|cobordism catego
 
 =--
 
+> **raw material**: this are notes taken more or less verbatim in a seminar -- needs polishing
+
+
+Previous:
+
+* [[Axiomatic field theories and their motivation from topology]].
+
+* [[(1,1)-dimensional Euclidean field theories and K-theory]]
+
+* [[(2,1)-dimensional Euclidean field theories and tmf]]
+
+
+
 
 see also 
 
@@ -28,14 +41,24 @@ see also
 
 ***
 
-# Contents 
+# Contents #
 
-* [part 1 - topological bordism category](#topological)
+ {:toc}
 
-* [part 2 - Riemannian bordsm category](#Riemannian)
+* [Part 1 (topological) bordism category](#topological)
+
+* [Part 2 Riemannian bordism category](#Riemannian)
+
+  * [description for d=1](#onedim)
+
+  * [smooth version / families version](#smoothversion)
+
+  * [Riemannian field theories](#fieldtheories)
+  
 
 
-# Part 1 (topological) bordism category {#topological}
+
+# Part 1 (topological) bordism category # {#topological}
 
 **definition sketch**
 
@@ -168,7 +191,7 @@ $$
 $$
 
 
-## description for $d=1$
+## description for $d=1$ {#onedim}
 
 we decribe $R Bord_1$ (or $1-R B$) 
 
@@ -286,7 +309,21 @@ to the category $TV_\mathbb{R}$ of [[topological vector space]]s are specified b
 
 * $E : R_t \mapsto \rho_t \in V \otimes V$
 
-the $\rho_t$ form a [[semigroup]] (for instance a typical example would be $V = \Gamma(E)$ a space of sections of a vector bundle and $\rho_t = e^{-t \Delta}$ for $\Delta$ a [[Laplace operator]] on $E$).
+
+The map $\lambda : V \otimes V \to \mathbb{R}$ is necessarily a _nondegenerate_ and _symmetric_ bilinear form and thus may be used to produce and fix an isomorphism $V \simeq V^*$.
+
+This isomorphism is used to get an embedding
+
+$$
+  V \otimes V to V \otimes V^* \hookrightarrow End(V)
+  \,.
+$$
+
+The image of this embedding is the set of what in this context will be called "trace class" operators.
+
+With respect to this identification the map $\rho$ is to be understood. For varying $t$ the 
+$\rho_t$ form a [[semigroup]] (for instance a typical example would be $V = \Gamma(E)$ a space of sections of a vector bundle and $\rho_t = e^{-t \Delta}$ for $\Delta$ a [[Laplace operator]] on $E$).
+
 
 **note** for $\lambda : V \otimes V \to \mathbb{R}$ to be continuous, one cannot use the Hilbert tensor product $\otimes_H$
 
@@ -313,4 +350,140 @@ $$
   End(V)
 $$
 
-(so here the middle one is the one we are actually using)
+(so here the middle is the projective tensor product, the one that we are actually using)
+
+
+## smooth version / families version {#smoothversion}
+
+We now refine the definition of the categories $R Bord_d$ and $TV$ such that they remember smooth stucture. 
+
+>Effectively, what the following implicitly does is to refine these categories to [[stack]]s with values in categories over [[Diff]]. The [[fibered category|fibred categories]] that appear in the following, $R Bord_d^{fam} \to Diff$ and $TV^{fam} \to Diff$ are the [[Grothendieck 
+construction]] of these stacks.
+
+**definition of $TV^{fam}$**
+
+recall that $TV$ denotes the category of locally convex Hausdorff [[topological vector space]]
+
+now let $TV^{fam}$ be the [[fibred category]] over [[Diff]] whose fiber over $X \in Diff$ is the category of topological [[vector bundle]]s over $X$
+
+
+let $V, W \in TV$
+
+a linear map $F : V \to W$ is called $C^1$ at $u \in U$ in the direction $v \in V$ if 
+
+$$
+  \lim_{t \to 0} \frac{F(u+t v) - F(u)}{t}
+$$
+
+exists in $W$ and 
+
+$$
+  U \times V \to W
+$$
+
+$$
+  (u,v) \mapsto d F_u(v)
+$$
+
+is continuous.
+
+
+$$
+  \array{
+    V & W
+    \\
+    \uparrow^\subset & \nearrow
+    \\
+    U
+  }
+$$
+
+
+Iteratively one defines $C^n$ and then $C^\infty$. The morphsims of $TV$-bundles are supposed to be $C^\infty$ maps in this sense (linear in the fibers, of course)
+
+$$
+  \array{
+    V' &\stackrel{\tilde f}{\to}& V
+    \\
+    \downarrow &&\downarrow
+    \\
+    S' &\stackrel{f}& S
+  }
+$$
+
+
+
+**definition of $R Bord_d^{fam}$**
+
+
+Similarly $R Bord_d^{fam}$ has as objects submersions $Y \to S$ and $Y^c \to S$ (not necessarily surjective) with a smooth rank-2 tensor on $Y$ that fiberwise induces the structure of a [[Riemannian manifold]] (so these are $S$-families of [[Riemannian manifold]]s) such that
+
+$$
+  \array{
+    Y &\leftarrow^\subset& Y^c
+    \\
+    \downarrow^{submersion} & \swarrow_{proper subm.}
+    \\
+    S
+  }
+$$
+
+recall that a map is a [[proper map]] if inverse images of compact sets are compact.
+
+
+**remark** Notice that if we fix the topology of the fibers in $Y \to S$, then what varies as we vary the fibers is the [[Riemannian metric]] on the fibers, so here each $S$ can be thought of as a (subspace of a) moduli space of Riemannian metrics on a given topological space. Don't confuse this with the role the space always called $X$ here will play as a kind of "moduli space of field theories".
+
+
+a morphism in $R Bord_d^{fam}$  in
+
+$$
+  R Bord_d^{fam}\left(
+    \array{
+       Y_0 \\ \downarrow \\ S_0,
+       Y_1 \\ \downarrow \\ S_1
+    }
+  \right)
+$$
+
+are [[isometry]] rel boundary classes 
+of submersions $\Sigma \to S_0$ such that
+
+
+$$
+  \array{
+    \Sigma
+    &\stackrel{i_1}{\leftarrow}&f^* Y_1 &\to&  Y_1
+    \\
+    \uparrow^{i_0} &&\downarrow && \downarrow
+    \\
+    Y_0& \to&S_0 &\stackrel{f}{\to}&
+    S_1
+  }
+$$
+
+so here $\Sigma$ is an $S_0$-family of cobordisms.
+
+## Riemannian field theories {#fieldtheories}
+
+**definition** 
+
+A **$d$-dimensional Riemannian quantum field theory** is a [[symmetric monoidal functor]]
+
+$$
+  E \in Fun^\otimes_{Diff}(R Bord_d^{fam}, TV^{fam})
+$$
+
+such that
+
+$$
+  \array{
+      R Bord_d^{fam} &&\stackrel{}{\to}&&
+      TV^{fam}
+      \\
+      & \searrow && \swarrow 
+  }
+$$
+
+and such that it preserves [[pullback]]
+
+(so its a [[cartesian functor]] between these [[fibered category|fibered categories]] that is also symmetric monoidal)
