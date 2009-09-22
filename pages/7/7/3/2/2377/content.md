@@ -51,7 +51,7 @@ is equivalent to ZF.
 
 *  _Toby_:  This is all fairly well known; see (for example) [Mac Lane & Moerdijk](http://www.amazon.com/Sheaves-Geometry-Logic-Introduction-Universitext/dp/3540977104) (I think Section VI.5) for details (although this does not deal with Replacement/Collection), or Chapter 8 of Mike\'s paper Unbounded Quantifiers and Strong Axioms in Topos Theory (is that available yet, Mike?).  Of course, these start with an explicitly categorial approach, but the equivalence of that with the approach of $\mathbf{SEAR}$ is fairly straightforward.
 
-  * [[Mike Shulman]]: No, it's not available yet, sorry.  I got sidetracked with other things.  But it's back near the top of the to-do list.
+   * [[Mike Shulman]]: No, it's not available yet, sorry.  I got sidetracked with other things.  But it's back near the top of the to-do list.
 
 _Toby_ continues: But if you want precision, look at the **Definition** section, not the vague **Idea**.  Equality of pure sets is also defined.  
 (There\'s still an error in that which I haven\'t fixed, but it\'s correct for well-founded pure sets, which are the ones that $\mathbf{ZFC}$ has.)
