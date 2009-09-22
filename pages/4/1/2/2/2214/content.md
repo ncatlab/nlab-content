@@ -61,6 +61,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 *  Heated discussion at [[SEAR]].
 
+   * $\mathbf{Cat}$ fight?
+
 * [[Jon Awbrey]] is setting some tables at [[differential logic]].
 
 * [[Urs Schreiber]]: 
