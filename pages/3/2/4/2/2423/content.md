@@ -1,3 +1,10 @@
+<div class="rightHandSide toc">
+
+[[!include functorial quantum field theory - contents]]
+
+</div>
+
+
 +-- {: .standout}
 
 This is a sub-entry of [[geometric models for elliptic cohomology]] and [[A Survey of Elliptic Cohomology]] 
@@ -115,3 +122,195 @@ and
 $$
   i_1 = Id_{W_1}\,,\;\;\;\;\; i_0 = \phi
 $$
+
+**definition (morphisms in $d-RBord$)** morphisms from $Y_0$ to $Y$ in $R Bord_d$ (or $d-RB$ or whatever the notation is) are [[isometry]] classes _rel. boundary_ (see below) of [[Riemannian cobordism]]s from $Y_0$ to $Y_1$.
+
+We require the commutativity of the following diagram
+
+$$
+  \array{
+    V_1 &\stackrel{i_1}{\to}& 
+    X
+    &\stackrel{i_0}{\leftarrow}&
+     V_0
+    \\
+    \downarrow^{f_1} &&
+    \downarrow &&
+    \downarrow^{f_0}
+    \\
+    V'_1 &\stackrel{i'_1}{\to}&
+    X'
+    &\stackrel{i'_0}{\leftarrow}&
+    V'_0
+  }
+$$
+
+The [[isometry]] $(F,f_0, f_1)$ is "rel. boundary" if $f_0 = Id$ and $f_1 = Id$
+
+so an isomorphism "rel boundary" in the sense here (more "rel collars", really) is an [[isometry]] $F$ sitting in a diagram
+
+$$
+  \array{
+    V_1 &\stackrel{i_1}{\to}& 
+    X
+    &\stackrel{i_0}{\leftarrow}&
+     V_0
+    \\
+    \downarrow^{Id} &&
+    \downarrow &&
+    \downarrow^{Id}
+    \\
+    V'_1 &\stackrel{i'_1}{\to}&
+    X'
+    &\stackrel{i'_0}{\leftarrow}&
+    V'_0
+  }
+$$
+
+
+## description for $d=1$
+
+we decribe $R Bord_1$ (or $1-R B$) 
+
+it has at least the object
+
+$$
+ pt = 
+  \left(
+    \array{
+        pt^- & pt^c & pt^+
+        \\
+        -- & \bullet & --
+    }
+  \right)
+  =
+  (\mathbb{R}, \{0\}, \mathbb{R}_\pm)
+$$
+
+which is a point with collar all of $\mathbb{R}$.
+
+**Lemma** every object in $R Bord_1$ which is _connected_ and not the empty set is [[isomorphism|isomorphic]] to this $pt$
+
+now for $t \in \mathbb{R}_+$ consider the morphism
+
+$$
+  I_t \in R Bord_1(pt,pt)
+$$
+
+defined as the triple $(\mathbb{R}, i_0, i_1)$ where $i_0 : \mathbb{R} \to \mathbb{R}$ is the identity map, and where $i_1 : \mathbb{R} \to \mathbb{R}$ is translation by $t$.
+
+This means that $i_0$ takes the core of in the incoming point to $0 \in \mathbb{R}$ while $i_1$ takes the core of the outgoing point to $t \in \mathbb{R}$. Everything in $\mathbb{R}$ outside of $[0,1]$ is hence "collar" and this describes what naively one would think of as just the [[interval]] $[0,1]$ regarded as a [[Riemannian cobordism]].
+
+
+**Lemma** The composition of these cobordisms is given by
+
+$$
+  I_t \circ I_{t'} = I_{t+t'}
+$$
+
+There are also morphisms
+
+$$
+  L_+ : pt \coprod pt \to \emptyset
+$$
+
+and
+
+$$
+  R_+ : \emptyset \to pt \coprod pt 
+$$
+
+which describe morally the same cobordisms as $I_t$ does, but where both boundary components are regarded as incoming or noth as outgoing, respectively.
+
+Here $L_t$ is formall given exactly as $I_t$ only that the map $i_0 : \mathbb{R} \to \mathbb{R}$ is not the identity, but reflection at the origin. This encodes the orientation reversal at that end.
+
+This is defined for $t \gt 0$. For $t= 0$ the morphism $L_0$ is still defined, but R_0$ is not!! Exercise: check carefully with the above definition, keeping the asymmetry mentioned there in mind, to show that the obvious definition of $R_0$ does not satisfy the axioms above.
+
+So this means that we have a cobordism of length 0 going $\emptyset \to pt \coprod pt$, but all cobordisms going the other way round $pt \coprod pt \to \emptyset$ will have to have non-vanishing length.
+
+Another morphism in $R Bord_1$ is the morphism
+
+$$
+  \sigma : pt \coprod pt \to pt \coprod pt
+$$
+
+which just interchanges the two points, without having any length.
+
+**Lemma** We have the following composition laws:
+
+* $L_t \circ \sigma = L_t$
+
+* $R_t = \sigma \circ R_t$
+
+* $R_t \circ_{L_0} R_{t'} = R_{t+t'}$
+
+where in the last line we have the composition that is obvious once you draw the corresponding picture, which in full beuaty is
+
+$$
+  (Id_{pt} \otimes L_0 \otimes Id_{pt}) \circ (R_t \otimes R_{t'})
+$$
+
+where the [[tensor product]] $\otimes$ is given by disjoint union.
+
+**theorem** the [[symmetric monoidal category]] $R Bord_1$ is _generated_ as a symmetric monoidal category by 
+
+* the object $pt$
+
+* the morphisms $L_0$, $\{R_t\}_{t \gt 0}$
+
+subject to the relations
+
+$$
+  L_0 \circ \sigma = L_0
+$$
+
+$$
+  \sigma \circ R_t = R_t
+$$
+
+$$
+  \forall t,t' \gt 0 : R_t \circ_{L_0} R_{t'} = R_{t + t'} 
+$$
+
+**corollary** symmetric monoidal functors 
+
+$$
+  E \in Fun^\otimes(R Bord_1, TV)
+$$
+
+to the category $TV_\mathbb{R}$ of [[topological vector space]]s are specified by their imagges of these generators. We have
+
+* $E : pt \mapsto V$
+
+* $E : L_0 \mapsto (\lambda :  \otimes V \to \mathbb{R}$
+
+* $E : R_t \mapsto \rho_t \in V \otimes V$
+
+the $\rho_t$ form a [[semigroup]] (for instance a typical example would be $V = \Gamma(E)$ a space of sections of a vector bundle and $\rho_t = e^{-t \Delta}$ for $\Delta$ a [[Laplace operator]] on $E$).
+
+**note** for $\lambda : V \otimes V \to \mathbb{R}$ to be continuous, one cannot use the Hilbert tensor product $\otimes_H$
+
+the reason is that we have the folloing possible mpas out of the following possible tensor products
+
+$$
+  \mathbb{R}
+  \stackrel{\lambda}{\leftarrow}
+  V \otimes_{algebraic} V \stackrel{finite rank}{\hookrightarrow}
+  End(V)
+$$
+
+$$
+  \mathbb{R}
+  \stackrel{\lambda}{\leftarrow}
+  V \otimes V \stackrel{trace class}{\hookrightarrow}
+  End(V)
+$$
+
+$$
+  \mathbb{R}
+  \stackrel{\lambda}{\leftarrow}
+  V \otimes_H V \stackrel{Hilbert Schmitdt}{\hookrightarrow}
+  End(V)
+$$
+
+(so here the middle one is the one we are actually using)
