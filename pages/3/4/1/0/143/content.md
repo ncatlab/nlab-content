@@ -1,3 +1,8 @@
+#Contents#
+* tic
+{:toc}
+
+
 #Idea#
 
 A _sheaf_ is a [[presheaf]] that satisfies [[descent]].
