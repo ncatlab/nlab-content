@@ -25,10 +25,14 @@ _Toby_:  It is very astute of you to say that this is really a theory of cardina
 
 AN: I did not say that; it isn't. I said that SEAR is a theory of copies of cardinals. For there is a unique cardinal 1 in set theory. But if A,B are two SEAR sets with exactly one element, one is not able to conclude that A and B are the same SEAR set. Thus one can have many meta-distinct copies of the same cardinal around, although it is impossible to express this on the formal level.
 
+*  _Toby_:  Lawvere\'s claim is that Cantor also had a theory of *copies* of (what we now call) cardinal numbers.  He started with a set $A$ of real numbers, abstracted away everything except the order relation to get the (not necessarily well-)ordinal number $\overline{A}$, then abstracted even the order (but not the equality relation) away to get the cardinal number $\overline{\overline{A}}$.  Of course, he said that $\overline{\overline{A}}$ and $\overline{\overline{B}}$ are equal cardinal numbers if (and only if) there is a bijection between $A$ and $B$, but that is a *definition*, not an axiomatic *identity*.
+
 _Toby_ continues: Lawvere has long said that his 'abstract sets' and Cantor\'s 'Kardinalzahl' are the same thing.  But in fact the word 'set' ('Menge') is *not* only used in Cantor\'s original sense of a subset of some fixed universe (originally the collection of real numbers, eventually the entire von Neumann hierarchy) today.  Whenever someone says 'A group is a set equipped with [...]', the only thing that matters for group theory is the abstract set, the Kardinalzahl.  It is very easy to rewrite standard mathematics on this foundation; 
 
 AN: If it were very easy, it would have been done already. 
 I see many obstacles in actually doing that. 
+
+*  _Toby_:  It *has* been done already, and has been since at least the '60s.  The point of $\mathbf{SEAR}$ is to do it in a less category-inspired, hopefully more familiar, way.  Show me an obstacle in applications of set theory to ordinary mathematics, if you have one.
 
 _Toby_ continues: while in a sense the semantics has changed, it is the claim of structural set theorists that we are getting at what was the real meaning all along.  You might as well say that Dedekind changed the semantics of algebra and analysis when he identified ideal numbers and real (possibly irrational) numbers with certain sets, and in a way he did, but he also clarified those ideas.  And it is not just us, coming along more than a hundred years after Cantor to change the language; people have been doing structural set theory for some time, and it pops up in many places.  Errett Bishop, for example, who wanted a constructive theory (not particularly a structural theory), wrote down a structural theory in his handbook of analysis all the same, even defining a subset of $X$ as a set $A$ equipped with an injection to $X$ (an unfamiliarity which the point of $\mathbf{SEAR}$ is largely to avoid).  Any application of set theory in which we do not care what our sets\' elements\' elements are is inherently structural and translates directly into structural terms.  Any time that someone says 'Relabel the element of $B$ if necessary so that $B$ will be disjoint from $A$, then consider $A \cup B$.', they really mean 'Consider the [[disjoint union]] of $A$ and $B$.' in a structural set theory.  Very rarely do applications of set theory *ever* call for the hierarchy of [[pure sets]].
 
@@ -40,13 +44,13 @@ why the ZF axioms should hold; everything beyond the heditarily finite sets (whi
 is far too sketchy to support the strong claim that SEAR 
 is equivalent to ZF.
 
+*  _Toby_:  This is all fairly well known; see (for example) [Mac Lane & Moerdijk](http://www.amazon.com/Sheaves-Geometry-Logic-Introduction-Universitext/dp/3540977104) (I think Section VI.5) for details (although this does not deal with Replacement/Collection), or Chapter 8 of Mike\'s paper Unbounded Quantifiers and Strong Axioms in Topos Theory (is that available yet, Mike?).  Of course, these start with an explicitly categorial approach, but the equivalence of that with the approach of $\mathbf{SEAR}$ is fairly straightforward.
 
 _Toby_ continues: But if you want precision, look at the **Definition** section, not the vague **Idea**.  Equality of pure sets is also defined.  
 (There\'s still an error in that which I haven\'t fixed, but it\'s correct for well-founded pure sets, which are the ones that $\mathbf{ZFC}$ has.)
 
 AN: I only saw a definition of equivalence. Now I realize that this should substitute for the nonexistence equality. 
 I'll comment more on the pure set page.
-
 
 _Toby_ continues: If you want a set of sets, you should consider whether it matters whether any of these sets happen to be equal, and how (for purposes of your application) you would now.  In general, you take a [[family of sets]] (note to self: write an article there), that is an index set $I$ and, for each element $k$ of $I$, a set $S_k$.  There is a handy trick for encoding this sort of thing as a set $\mathcal{S}$ and a function $\pi: \mathcal{S} \to I$; let $S_k$ be the preimage of $\pi^*(k)$ (which is a subset of $\mathcal{S}$.  The purpose of the axiom of collection is to allow you to construct this set $\mathcal{S}$ (maybe I should write that down there for its motivation!).  If you want, say, a family of groups, then you take $\pi: \mathcal{S} \to I$ and additionally a function $M: I \times \mathcal{S} \times \mathcal{S} \to \mathcal{S}$ such that, for each $k$, $M$ restricts to a function $m_k: S_k \times S_k \to S_k$ that satisfies the group axioms.  And so on.
 
@@ -66,6 +70,9 @@ Thus one needs to assume a universal set from which all objects of discourse are
 But having that (and augmenting the universal set to contain power sets, which is a natural next step), 
 one can do all standard mathematics in this universal set, obviating the need for SEAR. 
 
+*  _Toby_:  I have taught na&#239;ve set theory in a structural way.  Not that I made a big point about that, but then I didn\'t need to!  The only thing unusual that I had to do was to introduce the concept of disjoint union, which actually made the applications in that course (which were to combinatorics) a little easier.  Of course, a course in axiomatic set theory would have to be rewritten.
+
+   For the exercise 'What is the union of $\{a,b,c\}$ and $\{a,b,d\}$?', there is no need to change that in the na&#239;ve course.  But formally, it means 'Let $U$ be a set, and let $a,b,c,d$ be elements of $U$.  Then (by previous results) we have subsets $\{a,b,c\}$ and $\{a,b,d\}$ of $U$.  Find a similar expression for the union of these subsets.'.
 
 Mike Shulman continues:
  The reason I believe in structural set theory is not out of a philosophy that this is the "real" meaning of sets; in fact I think that ZF-theorists are studying a very real and interesting world!  But when I look at most mathematics as it is done by most mathematicians, what I see is sets treated structurally---so I think we should have a foundational account of sets which treats them that way.
@@ -226,7 +233,7 @@ _AN_: I dont understand why this is a particular case of Theorem \ref{tabuniq}; 
 
 _Toby_: Yes, the empty set *was* defined as a tabulation, as were $|S|$ (for $S$ some subset) and $1$.
 
-AN: No. I read ``From now on we fix a particular set &#8709; having no elements.'' and ``From now on we fix a particular set 1 having exactly one element.''
+AN: No. I read "From now on we fix a particular set &#8709; having no elements." and "From now on we fix a particular set 1 having exactly one element."
 No tabulation is mentioned. Thus (and this is desirable even if you change these two sentences to refer to tabulations only) you need to prove somewhere that 
 any two empty sets and any two sets of cardinality one are isomorphic.
 
@@ -234,6 +241,8 @@ any two empty sets and any two sets of cardinality one are isomorphic.
 
 AN: You were too quick in giving Toby right. 
 But the corollary is ok, 
+
+_Toby_:  Ah, I see your point!  It would be better to define $\empty$ and $1$ as given by the tabulations in the proofs of the theorems (which is what I looked at to decide if there was a problem), then prove that every empty set is isomorphic to $\empty$ and every singleton set is isomoprhic to $1$.  That really is easy; the corollaries after those theorems that begin 'By Axiom 1' will do the job.  Perhaps I will write that up today.
 =--
 
 The **composite** of two relations $\varphi:A\looparrowright B$ and $\psi:B\looparrowright C$ is defined to be the relation $\psi\varphi:A\looparrowright C$ (also written $\psi\circ\varphi$) such that $\psi\varphi(x,z)$ holds of $x\in A$ and $z\in C$ iff there is a $y\in B$ with $\varphi(x,y)$ and $\psi(y,z)$.  The **identity** relation $id_A:A\looparrowright A$ is defined by $id_A(x,y) \Leftrightarrow x=y$.
@@ -403,9 +412,13 @@ AN: I think you'd put this piece of information into the main text.
 Mike Shulman continues:
 This direction is sketched below, and I think anyone should be able to fill in the details.
 
-AN: Regarding this axiom, I find there no sketch, but only the nearly empty statement ``The least obvious SEAR axiom is Collection, whose proof requires the axiom of replacement in ZF.'' In fact, giving the details of this derivation here (instead of later) would seem to me a better justification than the ghost justification below,
+AN: Regarding this axiom, I find there no sketch, but only the nearly empty statement "The least obvious SEAR axiom is Collection, whose proof requires the axiom of replacement in ZF." In fact, giving the details of this derivation here (instead of later) would seem to me a better justification than the ghost justification below,
 as it would provide intuition in its validity. 
 (Then there is no question at all about ghosts.)
+
+_Toby_:  I\'m sure that it can\'t be proved by the others, which have a model in $V_{\omega + \omega}$ (the universe of well-founded pure sets of hereditary rank less than $\omega + \omega$), the same as provides a model for $\mathbf{ZC}$ (which is $\mathbf{ZFC}$ with unbounded Separation but without Replacement/Collection).
+
+I would like to see detailed proofs, if Mike has written them up.  I have not yet completely convinced myself that Collection is properly formulated (although I\'m certain that it could be fixed if necessary by writing it in a more function-theoretic way, since I know how to do that myself).
 =--
 
 
@@ -536,4 +549,3 @@ Applying separation to subsets of $A\times B$ and composing $i$ with the product
 
 [[David Roberts]]: I'd certainly like to, subject to real-world time constrains. It seems to me that something could be done to the axiom of collection if we had a axiom of universes (for every set there is a universe acting as a universal family for it, or similar).
 =--
-
