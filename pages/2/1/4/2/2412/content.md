@@ -4,7 +4,11 @@ This is a sub-entry of [[geometric models for elliptic cohomology]] and [[A Surv
 
 See there for background and context.
 
+This entry here indicates, generally, how [[FQFT]]s may be related to [[cohomology theory|cohomology theories]].
+
 =--
+
+
 
 
 > **raw material**: this are notes taken more or less verbatim in a seminar -- needs polishing
@@ -262,7 +266,7 @@ $$
 
 Now with the super-directions included, there is a notion of push-forward of the TFTs that does shift the degree, and we get the following
 
-**Theorem (Stolz-Teichner-Kreck-Hehnhold)**
+**Theorem (Stolz-Teichner-Kreck-Hohnhold)**
 
 when $X$ is oriented
 
