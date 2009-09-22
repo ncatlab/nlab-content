@@ -18,9 +18,32 @@ Generalized Eilenberg-Steenrod cohomology is
 
 ## the Eilenberg-Steenrod axioms ##
 
-Originally Eilenberg and Steenrod had written down axioms that characterized the behaviour of ordinary integral cohomology, what is now understood to be cohomology with coefficients in the [[Eilenberg-MacLane spectrum]]. Generalized Eilenberg-Steenrod cohomology is originally defined as anything that satisfies this list of axioms except the first one. Later it was proven that all the models for these axioms arise in terms of homotopy classes of maps into a [[spectrum]]. In our revisionist perspective hre, we take this historically secondary point of view as the conceptually primary one.
+**remark** Originally Eilenberg and Steenrod had written down axioms that characterized the behaviour of ordinary integral cohomology, what is now understood to be cohomology with coefficients in the [[Eilenberg-MacLane spectrum]]. Generalized Eilenberg-Steenrod cohomology is originally defined as anything that satisfies this list of axioms except the first one. Later it was proven, by the [[Brown representability theorem]], that all the models for these axioms arise in terms of homotopy classes of maps into a [[spectrum]]. In our revisionist perspective above, we take this historically secondary point of view as the conceptually primary one.
+
+The Eilenberg-Steenrod axioms are this:
 
 
+**Definition**
+
+A [[cohomology theory]] is a collection $\{A^n\}_{n \in \mathbb{Z}}$ of [[functor]]s
+
+$$
+  A^n : Top^{op} \to Ab
+$$
+
+from the category [[Top]] of [[topological space]]s to the category [[Ab]] of abelian groups, that satisfies the following axioms, for all $n \in \mathbb{Z}$:
+
+1. if $f : X \to Y$ is a [[weak homotopy equivalence]] then $A^n(f) : A^n(Y) \to A^n(X)$ is an [[isomorphism]];
+
+   i.e. $A^n$ is a [[homotopical functor]] with respect to the standard structure of a [[homtopical category]] on [[Top]],
+
+1. ...
+
+1. ...
+
+1. ...
+
+1. ...
 
 # Examples #
 
@@ -61,3 +84,5 @@ In particular a remark on the relation between [[Postnikov system]]s and [[Eilen
 [[!redirects Eilenberg-Steenrod cohomology theory]]
 [[!redirects Eilenberg?Steenrod cohomology theory]]
 [[!redirects Eilenberg--Steenrod cohomology theory]]
+
+[[!redirects Eilenberg-Steenrod axioms]]
