@@ -51,6 +51,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-22
 
+* [[Urs Schreiber]]: many thanks to [[Jon Awbrey]] for providing help with automatic TOCs. Great that it works now, but why does it? What does that funny "tic" thing achieve? Let's discuss this on the forum -- [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=82&page=1#Item_1) -- and summarize the result at [[HowTo]] eventually 
+
 *  [[Toby Bartels]]:  Working the foundations at [[SEAR]], [[pure set]], and [[natural numbers in SEAR]].
 
 * [[Zoran ?koda]] expanded [[proper map]].
