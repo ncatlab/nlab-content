@@ -1317,10 +1317,10 @@ f_{3}
 \\
 f_{12}
 &amp; p
-&amp; \text{&#x2997;} p \text{&#x2998;}
-&amp; \text{&#x2997;} p \text{&#x2998;}
-&amp; p
-&amp; p
+&amp; \text{&#x2997;} \mathop{d}p \text{&#x2998;}
+&amp; \text{&#x2997;} \mathop{d}p \text{&#x2998;}
+&amp; \mathop{d}p
+&amp; \mathop{d}p
 \\
 f_{6}
 &amp; \text{&#x2997;} p \text{&#xFE50;} q \text{&#x2998;}
