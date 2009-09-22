@@ -66,6 +66,13 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
    * [[Jon Awbrey]] tried that at [[differential logic]] and couldn't get it to work.  Is there some extra trick to that?
 
+   * [[Jon Awbrey]]:  It looks like you have to start your headings with single #'s and use a flush left tag something like this:
+
+<pre>
+* tic
+{:toc}
+</pre>
+
 * [[Urs Schreiber]] 
 
   * created [[functorial quantum field theory - contents]] and added it as a floating table of contents to relevant entries -- trusting that the related issues currently [discussed on the forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=61&page=1#Item_9) will eventually be solved by CSS means
@@ -257,13 +264,13 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
   * [[David Corfield]]: Seeing "comparative $\infty$-categoriology" there, does anyone have thoughts on Borisov's [work](http://uk.arxiv.org/abs/0909.2534)? Perhaps we need to wait for the sequel.
 
-* [[Jon Awbrey]]:  Expanding on a [note](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c026573) and responding to a [query](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c026593) on the blog, I proposed several sources as "Precursors" to category theory.  I have discovered a truly marvelous demonstration of this proposition that [[category theory|this margin]] is too narrow to contain, but I might try to elaborate on it elsewhere &#8230; elsewhen.
+* [[Jon Awbrey]]:  Expanding on a [note](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c026573) and responding to a [query](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c026593) on the blog, I proposed several sources as "Precursors" to category theory.  I have discovered a truly marvelous demonstration of this proposition that [[category theory|this margin]] is too narrow to contain, but I might try to elaborate on it elsewhere &hellip; elsewhen.
 
 *  [[Toby Bartels]]:  Talk, talk, talk: [[SEAR]], [[classical mechanics]], [[category theory]].
 
 * [[Mike Shulman]]: Motivated by recent discussions on the cafe, created [[SEAR]], which has been kicking around in my head for quite some time.
 
-   * [[Jon Awbrey]]: A bit too close to SOAR.  But if you put your terms in alphabetical order you'd have ERAS, which would also be mnemonic for the fact that elementhood is a relation.  Hm&#179;, is there such a thing as mnepic?
+   * [[Jon Awbrey]]: A bit too close to SOAR.  But if you put your terms in alphabetical order you'd have ERAS, which would also be mnemonic for the fact that elementhood is a relation.  Hm&sup3;, is there such a thing as mnepic?
 
 * [[Zoran ?koda]]: created [[compact-open topology]].
 
@@ -422,7 +429,7 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
    *  Generalised [[internal relation]] somewhat.
 
 * [[Jon Awbrey]]:
-   * Finds his time too intermittent this weekend to do more than potter about in the $n$-garden, but was pleased to discover how to write the old Pascal "set-equal-to" as "$\:\text{:=}\:$" in a math context.
+   * Finds his time too intermittent this weekend to do more than potter about in the $n$-garden, but was pleased to discover how to write the old Pascal "set-equal-to" as &ldquo;$\:\text{:=}\:$&rdquo; in a math context.
    * Replies to a query at [[relation theory]].
 
 *  [[Toby Bartels]]:
@@ -575,7 +582,7 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 *  [[Toby Bartels]]:  More at [[evil]]; we might actually be working out some mathematical facts here before too long!
 
-   * [[Jon Awbrey]]:  I wouldn't _count_ on it &#8212; cuz, y'know, that might be _evil_.
+   * [[Jon Awbrey]]:  I wouldn't _count_ on it &mdash; cuz, y'know, that might be _evil_.
 
 * [[Todd Trimble]] added some more to [[localic topos]]. 
 
