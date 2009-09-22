@@ -1,3 +1,9 @@
+
+#Contents#
+* tic
+{:toc}
+
+
 #Idea#
 
 In its more specific meaning _descent_ is the study of generalizations of the [[sheaf]] condition on [[presheaf|presheaves]] to presheaves with values in [[higher category theory|higher categories]]. Those higher presheaves that satisfy descent are called [[infinity-stack]]s.
