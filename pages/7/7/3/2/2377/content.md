@@ -2,6 +2,11 @@
 This page is (I believe) original research.  Suggestions, corrections, and additions are very welcome.  In particular, if you have suggestions for a better name than SEAR, or if you've seen a similar theory somewhere else, please mention it!  -- [[Mike Shulman]]
 =--
 
+# Table of contents
+
+* a table of contents
+{:toc}
+
 # Discussions
 
 +--{: .query}
