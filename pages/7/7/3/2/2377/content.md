@@ -32,6 +32,8 @@ AN: I did not say that; it isn't. I said that SEAR is a theory of copies of card
 
 *  _Toby_:  Lawvere\'s claim (if I understand him) is that Cantor also had a theory of *copies* of (what we now call) cardinal numbers.  Cantor started with a set $A$ of real numbers, abstracted away everything except the order relation to get the (not necessarily well-)ordinal number $\overline{A}$, then abstracted even the order (but not the equality relation) away to get the cardinal number $\overline{\overline{A}}$.  Of course, he said that $\overline{\overline{A}}$ and $\overline{\overline{B}}$ are equal cardinal numbers if (and only if) there is a bijection between $A$ and $B$, but that is a *definition*, not an axiomatic *identity*.
 
+   I should have linked before (but forgot) to the discussion at [[set]]; the first half of that is all about this stuff.
+
 _Toby_ continues: Lawvere has long said that his 'abstract sets' and Cantor\'s 'Kardinalzahl' are the same thing.  But in fact the word 'set' ('Menge') is *not* only used in Cantor\'s original sense of a subset of some fixed universe (originally the collection of real numbers, eventually the entire von Neumann hierarchy) today.  Whenever someone says 'A group is a set equipped with [...]', the only thing that matters for group theory is the abstract set, the Kardinalzahl.  It is very easy to rewrite standard mathematics on this foundation; 
 
 AN: If it were very easy, it would have been done already. 
