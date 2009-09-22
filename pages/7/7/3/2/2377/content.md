@@ -21,11 +21,34 @@ tedious.
 SEAR and ZF, "This process is described at pure set".
 This is a sham. There it says "A pure set is a set of pure sets". But with set understood as a SEAR-set, pure sets cannot be compared for equality. But this is an intrinsic part of ZF.
 
-_Toby_:  It is very astute of you to say that this is really a theory of cardinal numbers!  Lawvere has long said that his 'abstract sets' and Cantor\'s 'Kardinalzahl' are the same thing.  But in fact the word 'set' ('Menge') is *not* only used in Cantor\'s original sense of a subset of some fixed universe (originally the collection of real numbers, eventually the entire von Neumann hierarchy) today.  Whenever someone says 'A group is a set equipped with [...]', the only thing that matters for group theory is the abstract set, the Kardinalzahl.  It is very easy to rewrite standard mathematics on this foundation; while in a sense the semantics has changed, it is the claim of structural set theorists that we are getting at what was the real meaning all along.  You might as well say that Dedekind changed the semantics of algebra and analysis when he identified ideal numbers and real (possibly irrational) numbers with certain sets, and in a way he did, but he also clarified those ideas.  And it is not just us, coming along more than a hundred years after Cantor to change the language; people have been doing structural set theory for some time, and it pops up in many places.  Errett Bishop, for example, who wanted a constructive theory (not particularly a structural theory), wrote down a structural theory in his handbook of analysis all the same, even defining a subset of $X$ as a set $A$ equipped with an injection to $X$ (an unfamiliarity which the point of $\mathbf{SEAR}$ is largely to avoid).  Any application of set theory in which we do not care what our sets\' elements\' elements are is inherently structural and translates directly into structural terms.  Any time that someone says 'Relabel the element of $B$ if necessary so that $B$ will be disjoint from $A$, then consider $A \cup B$.', they really mean 'Consider the [[disjoint union]] of $A$ and $B$.' in a structural set theory.  Very rarely do applications of set theory *ever* call for the hierarchy of [[pure sets]].
+_Toby_:  It is very astute of you to say that this is really a theory of cardinal numbers!  
 
-As for that ... I\'ll assume that you don\'t know the strength of 'sham' in English, so I won\'t feel insulted.  But if you want precision, look at the **Definition** section, not the vague **Idea**.  Equality of pure sets is also defined.  (There\'s still an error in that which I haven\'t fixed, but it\'s correct for well-founded pure sets, which are the ones that $\mathbf{ZFC}$ has.)
+AN: I did not say that; it isn't. I said that SEAR is a theory of copies of cardinals. For there is a unique cardinal 1 in set theory. But if A,B are two SEAR sets with exactly one element, one is not able to conclude that A and B are the same SEAR set. Thus one can have many meta-distinct copies of the same cardinal around, although it is impossible to express this on the formal level.
 
-If you want a set of sets, you should consider whether it matters whether any of these sets happen to be equal, and how (for purposes of your application) you would now.  In general, you take a [[family of sets]] (note to self: write an article there), that is an index set $I$ and, for each element $k$ of $I$, a set $S_k$.  There is a handy trick for encoding this sort of thing as a set $\mathcal{S}$ and a function $\pi: \mathcal{S} \to I$; let $S_k$ be the preimage of $\pi^*(k)$ (which is a subset of $\mathcal{S}$.  The purpose of the axiom of collection is to allow you to construct this set $\mathcal{S}$ (maybe I should write that down there for its motivation!).  If you want, say, a family of groups, then you take $\pi: \mathcal{S} \to I$ and additionally a function $M: I \times \mathcal{S} \times \mathcal{S} \to \mathcal{S}$ such that, for each $k$, $M$ restricts to a function $m_k: S_k \times S_k \to S_k$ that satisfies the group axioms.  And so on.
+_Toby_ continues: Lawvere has long said that his 'abstract sets' and Cantor\'s 'Kardinalzahl' are the same thing.  But in fact the word 'set' ('Menge') is *not* only used in Cantor\'s original sense of a subset of some fixed universe (originally the collection of real numbers, eventually the entire von Neumann hierarchy) today.  Whenever someone says 'A group is a set equipped with [...]', the only thing that matters for group theory is the abstract set, the Kardinalzahl.  It is very easy to rewrite standard mathematics on this foundation; 
+
+AN: If it were very easy, it would have been done already. 
+I see many obstacles in actually doing that. 
+
+_Toby_ continues: while in a sense the semantics has changed, it is the claim of structural set theorists that we are getting at what was the real meaning all along.  You might as well say that Dedekind changed the semantics of algebra and analysis when he identified ideal numbers and real (possibly irrational) numbers with certain sets, and in a way he did, but he also clarified those ideas.  And it is not just us, coming along more than a hundred years after Cantor to change the language; people have been doing structural set theory for some time, and it pops up in many places.  Errett Bishop, for example, who wanted a constructive theory (not particularly a structural theory), wrote down a structural theory in his handbook of analysis all the same, even defining a subset of $X$ as a set $A$ equipped with an injection to $X$ (an unfamiliarity which the point of $\mathbf{SEAR}$ is largely to avoid).  Any application of set theory in which we do not care what our sets\' elements\' elements are is inherently structural and translates directly into structural terms.  Any time that someone says 'Relabel the element of $B$ if necessary so that $B$ will be disjoint from $A$, then consider $A \cup B$.', they really mean 'Consider the [[disjoint union]] of $A$ and $B$.' in a structural set theory.  Very rarely do applications of set theory *ever* call for the hierarchy of [[pure sets]].
+
+As for that ... I\'ll assume that you don\'t know the strength of 'sham' in English, so I won\'t feel insulted.  
+
+AN: Sorry. I meant that the pure set page is a caricature of what was promised by the context of the link. (I hope 
+this is acceptable language.) No argument was given for 
+why the ZF axioms should hold; everything beyond the heditarily finite sets (which is the trivial part of ZF) 
+is far too sketchy to support the strong claim that SEAR 
+is equivalent to ZF.
+
+
+_Toby_ continues: But if you want precision, look at the **Definition** section, not the vague **Idea**.  Equality of pure sets is also defined.  
+(There\'s still an error in that which I haven\'t fixed, but it\'s correct for well-founded pure sets, which are the ones that $\mathbf{ZFC}$ has.)
+
+AN: I only saw a definition of equivalence. Now I realize that this should substitute for the nonexistence equality. 
+I'll comment more on the pure set page.
+
+
+_Toby_ continues: If you want a set of sets, you should consider whether it matters whether any of these sets happen to be equal, and how (for purposes of your application) you would now.  In general, you take a [[family of sets]] (note to self: write an article there), that is an index set $I$ and, for each element $k$ of $I$, a set $S_k$.  There is a handy trick for encoding this sort of thing as a set $\mathcal{S}$ and a function $\pi: \mathcal{S} \to I$; let $S_k$ be the preimage of $\pi^*(k)$ (which is a subset of $\mathcal{S}$.  The purpose of the axiom of collection is to allow you to construct this set $\mathcal{S}$ (maybe I should write that down there for its motivation!).  If you want, say, a family of groups, then you take $\pi: \mathcal{S} \to I$ and additionally a function $M: I \times \mathcal{S} \times \mathcal{S} \to \mathcal{S}$ such that, for each $k$, $M$ restricts to a function $m_k: S_k \times S_k \to S_k$ that satisfies the group axioms.  And so on.
 
 In this situation, you can\'t ask whether $S_k = S_{k'}$, or try $S_k \cap S_{k'}$, etc.  If the structural perspective is valid, then you should only ever want to do that if the various $S_k$ are all subsets of some previously given ambient set $T$.  There are two ways to do this; either define an $I$-indexed family of injections $S_k \to T$, or skip all of the above and instead consider a binary relation on $I$ and $T$; let $S_k$ be the set of elements of $T$ that $k$ is related to.  This is a family of unary relations on $T$; you can do a set of binary relations in a similar way.  (By the way, in this case you don\'t need the axiom of collection to define $\mathcal{S}$, since you can make it a subset of $I \times T$.  This is the idea, possibly familiar to you, that replacement/collection is not needed wherever it na&#239;vely applies, but only for relatively high-powered stuff.)
 
@@ -33,7 +56,26 @@ In this situation, you can\'t ask whether $S_k = S_{k'}$, or try $S_k \cap S_{k'
 
 In response to Toby's comment about forming the union of sets above: it always annoyed me that people worry whether sets just happen to have elements in common. It is very much a \'is $\sqrt{2} \in \pi$?\' type thing. 
 
-[[Mike Shulman]]: I agree with pretty much everything Toby said, except that I don't think I would go so far as to claim that structural set theory gets at *what was the real meaning all along*.  Maybe it's what Cantor meant, maybe it isn't (probably he wouldn't even have understood the question as we ask it today).  Instead, I would say that over the course of the 20th century, it *emerged* that sets in mathematics were only ever really *used* structurally.  The reason I believe in structural set theory is not out of a philosophy that this is the "real" meaning of sets; in fact I think that ZF-theorists are studying a very real and interesting world!  But when I look at most mathematics as it is done by most mathematicians, what I see is sets treated structurally---so I think we should have a foundational account of sets which treats them that way.
+[[Mike Shulman]]: I agree with pretty much everything Toby said, except that I don't think I would go so far as to claim that structural set theory gets at *what was the real meaning all along*.  Maybe it's what Cantor meant, maybe it isn't (probably he wouldn't even have understood the question as we ask it today).  Instead, I would say that over the course of the 20th century, it *emerged* that sets in mathematics were only ever really *used* structurally. 
+
+AN: only ever?? Undergraduate mathematics is always conceived of materially. It can hardly be taught from a strictly structural point of view. Even many of the most exercises for undergraduates would have to be rewritten completely, and to avoid that things would get completely confusing, utmost care is needed.
+
+SEAR cannot even define the elementary sets {a,b,c} and {a,b,d} and take their union {a,b,c,d}. These objects exist in SEAR only as subsets, but they are different objects depending on the set a,b,c,d are elements of. But it doesn't matter which set this is, and a purely 
+structural view should take that into account! 
+Thus one needs to assume a universal set from which all objects of discourse are taken that one might want to have as element in some set. (For maybe one will later introduce an element e....) The subsets of this universal set then form a proxy of the sets of standard set theory. 
+But having that (and augmenting the universal set to contain power sets, which is a natural next step), 
+one can do all standard mathematics in this universal set, obviating the need for SEAR. 
+
+
+Mike Shulman continues:
+ The reason I believe in structural set theory is not out of a philosophy that this is the "real" meaning of sets; in fact I think that ZF-theorists are studying a very real and interesting world!  But when I look at most mathematics as it is done by most mathematicians, what I see is sets treated structurally---so I think we should have a foundational account of sets which treats them that way.
+
+AN: And when I look at most mathematics as it is done by most mathematicians, what I see is sets treated materially.
+
+Clearly, this is not inherent in the mathematical writings but in the view. One needs both the material and the structural view, and foundations should provide both in an easy way. 
+
+To start with the material point of view has many advantages: It is easy to motivate, makes for easy language, and most textbooks are already written in 
+that style.
 =--
 
 +--{: .query}
@@ -184,7 +226,14 @@ _AN_: I dont understand why this is a particular case of Theorem \ref{tabuniq}; 
 
 _Toby_: Yes, the empty set *was* defined as a tabulation, as were $|S|$ (for $S$ some subset) and $1$.
 
+AN: No. I read ``From now on we fix a particular set &#8709; having no elements.'' and ``From now on we fix a particular set 1 having exactly one element.''
+No tabulation is mentioned. Thus (and this is desirable even if you change these two sentences to refer to tabulations only) you need to prove somewhere that 
+any two empty sets and any two sets of cardinality one are isomorphic.
+
 [[Mike Shulman]]: Toby is right, but actually it was extremely silly to conclude the uniqueness of $\emptyset$ and $1$ from this theorem, since those are both much more obvious.  I've also restated the version for subsets as a corollary; is this better?
+
+AN: You were too quick in giving Toby right. 
+But the corollary is ok, 
 =--
 
 The **composite** of two relations $\varphi:A\looparrowright B$ and $\psi:B\looparrowright C$ is defined to be the relation $\psi\varphi:A\looparrowright C$ (also written $\psi\circ\varphi$) such that $\psi\varphi(x,z)$ holds of $x\in A$ and $z\in C$ iff there is a $y\in B$ with $\varphi(x,y)$ and $\psi(y,z)$.  The **identity** relation $id_A:A\looparrowright A$ is defined by $id_A(x,y) \Leftrightarrow x=y$.
@@ -208,6 +257,8 @@ of a category that allows to firmalize you wish.
 _Toby_: Yes, Mike is talking about a metacategory.  To make this into a category within $\mathbf{SEAR}$ (although that\'s not necessary for how it is used here), one would need to add a structural version of the axiom of universes, as remarked in the discussion with David Roberts above.  (One could probably also do it on the class level, talking about first-order formulas in the language of $\mathbf{SEAR}$, although then there would not be a notion of equality of objects ---which would be a good thing, in my opinion.
 
 [[Mike Shulman]]: Yes, I was following the common practice whereby "category" means "possibly large category" (or, if you prefer, "metacategory"), while "small category" means one whose objects and morphisms form sets.  Hopefully it is clearer now?
+
+AN: yes.
 =--
 
 In both of these (meta-)categories, the [[isomorphisms]] are the bijections.  We have also already observed that $\emptyset$ and $1$ are an [[initial object]] and a [[terminal object]] in $Set$, respectively, and that $\emptyset$ is both initial and terminal in $Rel$.
@@ -269,6 +320,8 @@ _AN_: Theorem \ref{topos} is not a generalization but an analogue since relation
 _Toby_:  Theorem \ref{topos} is a generalisation of the part of Axiom 3 about subsets.  (In $\mathbf{SEAR}$, a subset is a relation whose source, $B$ in Theorem \ref{topos}, is $1$.)
 
 [[Mike Shulman]]: Yes, hopefully the sentence is now clearer?
+
+AN: yes.
 =--
 
 
@@ -341,7 +394,18 @@ unless you give a proof of this highly nontrivial statement.
 
 _Toby_:  Assuming the consistency of $\mathbf{ZFC}$, this follows from the equiconsistency of $\mathbf{SEAR}$ and $\mathbf{ZF}$.  (Of course, that has not been done in detail, so you can doubt it if you like.)
 
-[[Mike Shulman]]: Moreover, it doesn't really need the full equiconsistency; it only needs the easy direction that $Con(ZF)\Rightarrow Con(SEAR)$.  This direction is sketched below, and I think anyone should be able to fill in the details.
+AN: yes, I doubt that. It has not even been outlined.
+
+[[Mike Shulman]]: Moreover, it doesn't really need the full equiconsistency; it only needs the easy direction that $Con(ZF)\Rightarrow Con(SEAR)$.  
+
+AN: I think you'd put this piece of information into the main text. 
+
+Mike Shulman continues:
+This direction is sketched below, and I think anyone should be able to fill in the details.
+
+AN: Regarding this axiom, I find there no sketch, but only the nearly empty statement ``The least obvious SEAR axiom is Collection, whose proof requires the axiom of replacement in ZF.'' In fact, giving the details of this derivation here (instead of later) would seem to me a better justification than the ghost justification below,
+as it would provide intuition in its validity. 
+(Then there is no question at all about ghosts.)
 =--
 
 
@@ -356,6 +420,11 @@ I really don't see what 0=1 being a consequence of an inconsistent assumption ha
 AN: I had meant to convey that a better motivation is needed. Why not demonstrate that it is needed to achieve some useful purpose?
 
 [[Mike Shulman]]: Yes, demonstrating its uses is a good thing too!  My favorite structural application of collection is to construct sets recursively; I'll write a bit about that when I get a chance.
+
+AN: For example, I'd like to understand its role in the 
+proof that SEAR and ZF are logically equivalent. 
+For if it is not needed there, it seems (though I am not completely sure if this is a cogent conclusion) that one should be able to prove the axiom from the others.
+
 =--
 
 
@@ -389,7 +458,15 @@ ETCS can also be augmented with additional axioms to make it equivalent to full 
 
 It is fairly straightforward to construct a model of SEAR from a model of ZF.  Given a model of ZF, we define the SEAR-sets to be the ZF-sets, and the SEAR-elements of $A$ to be the ZF-elements of $A$.  If we prefer, we can take the SEAR-elements of $A$ to be pairs $(x,A)$ where $x\in_{ZF} A$, so that the elements of distinct sets will be disjoint---but this is not necessary, since in SEAR the question of whether two distinct sets have elements in common is not even well-posed.  Finally, we of course take the SEAR-relations $A\looparrowright B$ to be the ZF-subsets of $A\times B$, and we let $\varphi(x,y)$ hold in SEAR iff $(x,y)\in_{ZF} \varphi$.  It is then easy to prove the SEAR (resp. SEAR-C) axioms from the ZF (resp. ZFC) axioms.  The least obvious SEAR axiom is Collection, whose proof requires the [[axiom of replacement]] in ZF.  (In fact, the axiom of replacement of ZF is equivalent, modulo its other axioms, to an "axiom of collection" which is more akin to the SEAR axiom of collection.)
 
-Conversely, from any model of SEAR one can *construct* a model of ZF, by taking the sets in ZF to be the "internal well-founded extensional relations."  This process is described at [[pure set]].  Thus, SEAR and SEAR-C are at least equiconsistent with ZF and ZFC, respectively. In fact, SEAR-C and ZFC are equivalent, in the sense that passage back and forth in either direction yields an equivalent model.  However, passage from SEAR to ZF and back again can lose information, if there are sets in the model of SEAR which do not admit any well-founded extensional relation (this doesn't happen in the presence of choice, since then every set can be well-ordered).
+Conversely, from any model of SEAR one can *construct* a model of ZF, by taking the sets in ZF to be the "internal well-founded extensional relations."  This process is described at [[pure set]].  
+
+
++--{: .query}
+[[Arnold Neumaier]]: See the remarks on this in the initial discussion box.
+
+=--
+
+Thus, SEAR and SEAR-C are at least equiconsistent with ZF and ZFC, respectively. In fact, SEAR-C and ZFC are equivalent, in the sense that passage back and forth in either direction yields an equivalent model.  However, passage from SEAR to ZF and back again can lose information, if there are sets in the model of SEAR which do not admit any well-founded extensional relation (this doesn't happen in the presence of choice, since then every set can be well-ordered).
 
 ## Type theory and internalization
 
