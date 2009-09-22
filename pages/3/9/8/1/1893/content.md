@@ -79,6 +79,19 @@ many variables, is the free $\lambda$-ring on one generator.
 * Hazewinkel, [Witt vectors](http://arxiv.org/abs/0804.3888).
 * Donald Knutson, $\lambda$-Rings and the Representation Theory of the Symmetric Group, Lecture Notes in Mathematics, Vol. 308, Springer, Berlin, 1973.
 
+THERE IS A SCHOOL/CONFERENCE IN LEIDEN ON FROBENIUS LIFTS AND LAMBDA RINGS 5-10. October 2009 featuring 
+
+* Pierre Cartier: Lambda-rings and Witt vectors
+
+* Lars Hesselholt: The de Rham-Witt complex
+
+* Alexandru Buium: Arithmetic differential equations
+
+* James Borger: Lambda-algebraic geometry 
+
+[conference site](http://www.lorentzcenter.nl/lc/web/2009/342/info.php3?wsid=342)
+
+[participants](http://www.lorentzcenter.nl/lc/web/2009/342/participants.php3?wsid=342)
 
 [[!redirects lambda-ring]]
 [[!redirects ∞-ring]]
