@@ -48,6 +48,7 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ***
 ## 2009-09-22
+* [[Zoran ?koda]] expanded [[proper map]].
 
 * [[Urs Schreiber]] 
 
