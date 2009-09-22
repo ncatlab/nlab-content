@@ -175,3 +175,5 @@ _Toby_:  That works too.  (Well, I don\'t like 'categorical', but that\'s a sepa
 [[!redirects n-transformations]]
 [[!redirects k-transfor]]
 [[!redirects k-transfors]]
+[[!redirects transfor]]
+[[!redirects transfors]]
