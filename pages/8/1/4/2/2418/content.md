@@ -4,6 +4,8 @@ This is a sub-entry of [[geometric models for elliptic cohomology]] and [[A Surv
 
 See there for background and context.
 
+This entry here indicates how 2-dimensional [[FQFT]]s may be related to [[tmf]].
+
 =--
 
 
