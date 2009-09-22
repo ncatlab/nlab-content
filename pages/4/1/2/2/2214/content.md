@@ -48,6 +48,9 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ***
 ## 2009-09-22
+
+* [[Urs Schreiber]] added link to Iglesias' PhD thesis to [[diffeological space]] -- the link to this thesis is hidden somewhere on his website, and it was pointed out to me that the thesis contains some noteworthy material which is not in the book (yet), such as discussion of diffeological principal bundles
+
 * [[Zoran ?koda]] added references to [[Heisenberg double]] (including my own). 
 
 * [[Urs Schreiber]] wrote very stubby stub for [[Brown representability theorem]], in fact just recording a recent reference there 
