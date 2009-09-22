@@ -27,6 +27,12 @@ The concreteness condition on the sheaf is a reiteration of the fact that a diff
 _Diffeology_
 ([web](http://math.huji.ac.il/~piz/Site/The%20Book/The%20Book.html), [pdf](http://math.huji.ac.il/~piz/documents/Diffeology.pdf))
 
+The thesis
+
+* Patrick Iglesias-Zemmour, _Fibrations diff&#233;ologie et Homotopie_,  PhD thesis [pdf](http://math.huji.ac.il/~piz/documents/TheseEtatPI.pdf)
+
+contains some useful material that hasn't yet made it into the book.
+
 * John C. Baez, Alexander E. Hoffnung, _Convenient Categories of Smooth Spaces_ ([arXiv](http://arxiv.org/abs/0807.1704))
 
 [[!redirects diffeological spaces]]
