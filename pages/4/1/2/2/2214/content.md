@@ -49,6 +49,12 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 ***
 ## 2009-09-22
 
+* [[Mike Shulman]]: 
+
+  * Replied to several comments at [[SEAR]], and rearranged the discussions to be (mostly) next to the text they are discussing.  I'm happy about the interest this idea is generating.
+
+  * Wrote [[generalized Gray tensor product]] about a folklore no-go argument that I keep forgetting and having to re-produce.
+
 * [[David Roberts]]: comments at [[SEAR]]:
 
   * suggestion for renaming - SER (and SEPS for Toby's alternative)
