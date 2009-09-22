@@ -38,7 +38,7 @@ There is a fully faithful functor $Q_C:C\to LC$ that to any $x\in C$ assigns the
 
 #Other examples
 
-If $Q: A\leftrightarrow\bar{A}: I$ is a $Q$-category, then there is an induced $Q$-category $\hat{Q}: A^{Set^\circ}\leftrightarrow\hat{\bar{A}}$.
+If $Q: A\leftrightarrow\bar{A}: I$ is a $Q$-category, then there is an induced $Q$-category of presheaves of sets $\hat{Q}: A^{Set^\circ}\leftrightarrow \bar{A}^{Set^\circ}$.
 
 The $Q$-category of sieves 
 
