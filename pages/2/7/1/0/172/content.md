@@ -1,7 +1,14 @@
 <div class="rightHandSide toc">
 [[!include (infinity,1)-topos - contents]]
+***
+[[!include higher geometry - contents]]
 </div>
 
+
+#Contents#
+
+* tic
+{:toc}
 
 #Idea#
 
