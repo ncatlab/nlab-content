@@ -51,6 +51,12 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-23
 
+* [[Urs Schreiber]] 
+
+  * added instructions for automatics TOCs to [[HowTo]]
+
+  * some content fed into [[supermanifold]] -- alse created [[SDiff]], [[SVect]], [[super vector space]], [[super algebra]], [[Grassmann algebra]], [[super Lie algebra]]
+
 * [[Jon Awbrey]] is road-testing the "cylindricity" symbol $\text{&#9005;}$ (unicode &#9005;) for composing functions and relations the _right_ way, that is, in arrow order.  For example, see [[boolean-valued function]].
 
 ## 2009-09-22
