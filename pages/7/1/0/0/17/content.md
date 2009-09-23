@@ -28,6 +28,7 @@ See also the [[FAQ]].
    1.  [How to make a standout box](#standout)
    1.  [How to implement tables, footnotes, definition/proof/theorem environments, graphics, etc.](#instiki)
    1.  [How to include one page within another](#include)
+   1.  [How to insert an automatically generated table of contents](#tocs)
 
 1. Formatting
 
@@ -211,6 +212,29 @@ The following is an explanation of how it works.  The first step is to get a lis
 
 If anyone can post instructions for other operating systems, or other programs (such as `curl`) then please do so.
 
+#How to add an automatically generated table of contents# {#tocs}
+
+Insert the symbols
+
+     * tic 
+     {:toc}
+
+(including the line break!) at the position where the table of contents is to appear. Its items will be the section headlines marked by
+
+     # top leven headline
+
+
+     ## second level headline
+
+
+     etc.
+
+Instead of "tic" (which is just a joke inspired by "toc" for "Table Of Contents") here you can write anything you like: this line will not be displayed but is still required. A useful thing to type is for instance
+
+     * automatic table of contents goes here
+     {:toc}
+
+since this will indicate at everyone looking just at your source code what the command will accomplish.
 # Instiki HowTo # {#instiki}
 
 For general information and help with Instiki, see the [Instiki](http://golem.ph.utexas.edu/instiki/show/HomePage) wiki.
