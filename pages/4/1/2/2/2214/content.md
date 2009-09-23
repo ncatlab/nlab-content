@@ -50,6 +50,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 
 ## 2009-09-23
+* [[Zoran ?koda]] created a rough outline for [[Ore set]] and plan to have the entry on Ore localization separate.
+
 
 * [[Urs Schreiber]]: created [[Euclidean supermanifold]] and worked slightly more on the stub for [[Clifford algebra]]
 
