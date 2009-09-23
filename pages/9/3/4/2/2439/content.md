@@ -2,6 +2,10 @@
 [[!include supergeometry - contents]]
 </div>
 
+#Contents#
+
+* automatic table of contents goes here
+{:toc}
 
 #Definition#
 
@@ -11,9 +15,14 @@ Accordingly, **super algebra** is a [[monoid]] in the [[category]] [[SVect]] of 
 
 #Examples#
 
+## Grassmann algebra ##
+ 
 * For $V$ a [[vector space]] or [[graded vector space]] the [[Grassmann algebra]] $\wedge^\bullet V$ is a super algebra. This are the _free_ superalgebras.
 
-* ...
+## Clifford algebra ##
+
+See [[Clifford algebra]].
+
 
 [[!redirects superalgebra]]
 [[!redirects super-algebra]]
