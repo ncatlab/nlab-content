@@ -62,25 +62,43 @@ In this representation, a pure set is a _rigid rooted directed tree_, possibly a
    a model of ZF in the sense of first order logic.
 
    _Toby_:  For purposes of formalisation in $\mathbf{SEAR}$, take (b) for all that comes below.  But to get a model of $\mathbf{ZFC}$, you need a model of $\mathbf{SEARC}$ to start with.  In this model, you have a set $M$ whose elements model sets of $\mathbf{SEAR}$; out of $M$ you can (whether your metatheory is material or structural) build a set whose elements model directed graphs in the sense of (a).  (The set whose elements model sets of $\mathbf{ZFC}$ will be a subquotient.)
+
+AN: You shift the burden illegitimately to the metatheory. 
+I never before heard that in order to build a model of the natural numbers in ZF one first needs a model of ZF to start with. This would make model theory impossible, requiring an infinite regress on models.
+
+If you need a model of SEARC in a language X to be able to give a model of ZFC then you modelled ZFC in X but not in 
+SEARC. Thus you are passing the buck from SEARC to X.
+In fact, this introduces implicit material set theory 
+since you now have an X set of SEARC sets that allows to compare and intersect in X any two SEARC sets.
+
+Thus the proposed reflection of ZFC in X does not avoid comparing SEARC sets, and hence nullifies your structural efforts from the point of view of foundations. (I think the same holds for ETCS, for which this page was written.)
    =--
 *  Every directed graph generates a [[quiver]], a category whose morphisms are called __paths__.
 *  A __[[tree]]__ (technically, a _directed rooted tree_) is a simple directed graph equipped with a __root__ node $r$ that is a [[terminal object]] of the quiver (meaning that every node has a unique path to the root).
 *  The __full subtree__ of a tree rooted at a node $i$ consists of all of the nodes with a path (necessarily unique) to $i$.
-*  A tree is __rigid__ if, whenever two full subtrees rooted to children of the same node are isomorphic (as graphs), then they are the same subtree; equivalently, any graph [[automorphism]] of the tree must be the identity function.
+*  A tree is __rigid__ if, whenever two full subtrees rooted to children of the same node are isomorphic (as graphs), then they are the same subtree; equivalently, if any graph [[automorphism]] is the identity function.
    +--{: .query}
    AN: Here and later, "must be" should be "is".
 
    _Toby_:  I wrote 'must be' because I was rephrasing a definition.  But if you think that it\'s clearer with 'is', then feel free to change it.
+
+AN: I did. Equivalently means that an alternative way of defining things is given, and a definition has no must be.
+(You had the ''is'' already in the equivalent rewriting of the next definition!)
    =--
 *  A tree is __well-founded__ if $\to$ is a [[well-founded relation]] (note that the [[opposite relation]] $\leftarrow$ is automatically well-founded).  Assuming the principle of [[excluded middle]], this is equivalent to saying that every branch in the tree is of finite length.
 
 These subsidiary notions are also needed:
-*  Two trees are __equivalent__ if there exists a graph isomorphism between them; for rigid trees, such an isomorphism must be unique.
+*  Two trees are __equivalent__ if there exists a graph isomorphism between them; between rigid trees, such an isomorphism is unique.
    +--{: .query}
    AN: I don't see the meaning or relevance of this definition.
    Equivalent says exactly the same as isomorphic.
 
-   _Toby_:  The purpose for this is to point out that this notion will be used, and that it (not something weaker) is the desired notion of equivalence (anticipating that we must want one to model equality of pure sets).  Actually, that is *wrong* in the ill-founded case, depending on what you take to be the [[axiom of extensionality]] for ill-founded sets, which is what I need to fix here; we *do* want something weaker.  (Or better, replace rigidity with a stricter condition that follows from rigidity when the tree is well-founded.  That is what I\'d really like to do, but I haven\'t found a simple way to express it.  For purposes of $\mathbf{ZFC}$ including the axiom of foundation, however, this should all be correct as it is.)
+   _Toby_:  The purpose for this is to point out that this notion will be used, 
+
+AN: I still don't understand. Why not use the notion isomorphic, which says (by definition) exactly the same?
+
+_Toby_ continues :
+and that it (not something weaker) is the desired notion of equivalence (anticipating that we must want one to model equality of pure sets).  Actually, that is *wrong* in the ill-founded case, depending on what you take to be the [[axiom of extensionality]] for ill-founded sets, which is what I need to fix here; we *do* want something weaker.  (Or better, replace rigidity with a stricter condition that follows from rigidity when the tree is well-founded.  That is what I\'d really like to do, but I haven\'t found a simple way to express it.  For purposes of $\mathbf{ZFC}$ including the axiom of foundation, however, this should all be correct as it is.)
    =--
 *  A tree $X$ is an __immediate subtree__ of a tree $Y$ if $X$ is isomorphic to a tree rooted at one of the children of the root in $Y$; for rigid trees, this can again happen only in one way.
 
@@ -98,6 +116,11 @@ if __[[ETCS]]__ holds for the structural sets (of nodes, etc) used in this defin
 
 +-- {: .query}
 This definition needs to be fixed; it gives only Scott-[[extensional relation|extensionality]] rather than strong extensionality, so it works for well-founded pure sets but not for ill-founded ones.  I\'ll work on it.  ---Toby
+
+AN: Thus you'd say ''seems to hold'' in place of ''holds'' 
+since at present you know only this much.
+
+Also, a reference to why it works for the well-founded case should be provided that gives enough details to merit being called a proof.
 =--
 
 
