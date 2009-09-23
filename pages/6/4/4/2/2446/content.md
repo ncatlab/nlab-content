@@ -10,12 +10,27 @@ The _super Euclidean group_ is analogously the [[supergroup]] of translations an
 
 #Details#
 
->incomplete for the moment, to be finished off tomorrow
+> **incomplete** for the moment, to be finished off tomorrow
 
 The following description of the super Euclidean group (once it is finished, and polished) is due to [[Stephan Stolz]] and [[Peter Teichner]].
 
+The data needed to define the super Euclidean group is
 
-Construction of $Eucl(\mathbb{R}^{d|\delta})$ for 
+
+1. $V$ a $d$-dimensional inner product space
+
+1. a [[spinor representation]] $\Delta^*$ of $Spin(V)$
+
+1. a $Spin(V)$-equivariant map
+
+   $$
+      \Gamma : \Delta^* \otimes_{\mathbb{C}}
+       \Delta^* \to V \otimes_{\mathbb{R}} \mathbb{C}
+   $$
+
+where $Spin(V)$ is the [[Spin group]] (see [[Clifford algebra]] for the moment).
+
+Here is the construction of $Eucl(\mathbb{R}^{d|\delta})$ for 
 
 * $d = dim_{\mathbb{R}} V$
 
