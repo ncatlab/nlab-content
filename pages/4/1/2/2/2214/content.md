@@ -53,7 +53,11 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 * [[Andrew Stacey]] Reorganised the [[HowTo]] a little - hopefully haven't lost any information! - so that the automatic table of contents looks like the old one did (almost).
 
+  * [[Urs Schreiber]]: thanks, Andrew!!
+
 * [[Urs Schreiber]] 
+
+  * left some new entries unfinished, but have to resume finishing these later today
 
   * added instructions for automatics TOCs to [[HowTo]]
 
