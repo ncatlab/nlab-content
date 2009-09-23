@@ -1523,6 +1523,18 @@ f_{15}
 </td>
 </table>
 
+# Quick Review : Field Picture #
+
+Let us summarize, in rough but intuitive terms, the outlook on differential logic that we have reached so far.  We've been considering a class of operators on universes of discourse, each of which takes us from considering one universe of discourse, $X^\circ$, to considering a larger universe of discourse, $\operatorname{E}X^\circ$.  An operator $\operatorname{W}$ of this general type, namely, $\operatorname{W} : X^\circ \to \operatorname{E}X^\circ$, acts on each proposition $f : X \to \mathbb{B}$ of the source universe $X^\circ$ to produce a proposition $\operatorname{W}f : \operatorname{E}X \to \mathbb{B}$ of the target universe $\operatorname{E}X^\circ$.
+
+The two main operators that we've examined so far are the enlargement or shift operator $\operatorname{E} : X^\circ \to \operatorname{E}X^\circ$ and the difference operator $\operatorname{D} : X^\circ \to \operatorname{E}X^\circ$.  The operators $\operatorname{E}$ and $\operatorname{D}$ act on propositions in $X^\circ$, that is, propositions of the form $f : X \to \mathbb{B}$ that are said to be _about_ the subject matter of $X$, and they produce extended propositions of the forms $\operatorname{E}f, \operatorname{D}f : \operatorname{E}X \to \mathbb{B}$, propositions whose extended sets of variables allow them to be read as being about specified collections of changes that conceivably occur in $X$.
+
+At this point we find ourselves in need of visual representations, suitable arrays of concrete pictures to anchor our more earthy intuitions and help us keep our wits about us as we venture higher into the ever more rarefied air of abstractions.
+
+One good picture comes to us by way of the _field_ concept.  Given a space $X$, a _field_ of a specified type $Y$ over $X$ is formed by associating with each point of $X$ an object of type $Y$.  If that sounds like the same thing as a function from $X$ to the space of things of type $Y$ --- it is nothing but --- and yet it does seem helpful to vary the mental images and to take advantage of the figures of speech that spring to mind under the emblem of this field idea.
+
+In the field picture a proposition $f : X \to \mathbb{B}$ becomes a _scalar field_, that is, a field of values in $\mathbb{B}$.
+
 # External Links #
 
 * [Differential_Logic : Introduction](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Differential_Logic_:_Introduction)
