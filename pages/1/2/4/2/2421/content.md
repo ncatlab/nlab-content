@@ -20,7 +20,7 @@ A _super Lie group_ is a [[group object]] in the [[category]] of [[supermanifold
 ##Examples##
 
 
-### the super-translationn group ###
+### the super-translation group ###
 
 also called the **super-Heisenberg group**
 
@@ -62,5 +62,9 @@ where $(t_i, \theta_i) \in C^\infty(S)^{ev} \times C^\infty(S)^{odd}$ etc and wh
 
 Since the formula looks the same for all $S$, one often just writes it without mentioning $S$ as above.
 
+
+### the super Euclidean group ###
+
+The super-translaton group is the $(1|1)$-dimensional case of the [[super Euclidean group]].
 
 [[!redirects super Lie group]]
