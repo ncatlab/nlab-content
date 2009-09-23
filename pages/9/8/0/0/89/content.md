@@ -9,6 +9,14 @@ are equivalent;
 1. The ring $R$ is isomorphic to the endomorphism ring of a [[generator]] in the category of left (or right) $S$-modules;
 1. The ring $S$ is isomorphic to the endomorphism ring of a [[generator]] in the category of left (or right) $R$-modules.
 
++-- {: .query}
+[[Dmitri Pavlov]]: Tsit-Yuen Lam in his book "Lectures on modules and rings" on pages 488 and 489 states the Morita equivalence theorem using progenerators (i.e., finitely generated projective generators) instead of just generators.  Are these two versions equivalent?
+=--
+
++-- {: .query}
+[[Dmitri Pavlov]]: I would like to state the Morita equivalence theorem as a 2-equivalence between two bicategories: The bicategory of rings, bimodules and their intertwiners and the bicategory of abelian categories that are equivalent to the category of modules over some ring (i.e., abelian categories that have all small coproducts and a compact projective generator), Eilenberg-Watts functors between these categories (i.e., right exact functors that commute with direct sums) and natural transformations.  Is it possible to do this and what is the precise statement then?
+=--
+
 #Definitions#
 
 ##In algebra##
