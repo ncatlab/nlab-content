@@ -1,0 +1,40 @@
+The category $S Vect$ of [[super vector space]]s is the [[symmetric monoidal category]] which as a [[monoidal category]] is the ordinary monoidal category of $\mathbb{Z}_2$-[[graded vector space]]s for which
+
+$$
+  (V \otimes W)^{ev} := V^{ev}\otimes W^{ev} \oplus
+    V^{odd} \otimes W^{odd}
+$$
+
+and
+
+$$
+  (V \otimes W)^{odd} := V^{ev}\otimes W^{odd} \oplus
+    V^{odd} \otimes W^{ev}
+$$
+
+
+but equipped with the _unique non-trivial_ symmetric monoidal structure 
+
+$$
+  V \otimes W \stackrel{\sigma_{V,W}}{\to}
+  W \otimes V
+$$
+
+that is given on homogeneously graded elements $v,w$ of degree $|v|, |w| \in \mathbb{Z}_2$ as
+
+
+$$
+  v \otimes w \mapsto (-1)^{|v| |w|} w \otimes v
+  \,.
+$$
+
+#related concepts#
+
+* [[monoid]]s in $S Vect$ are [[super algebra]]s.
+
+* [[manifold]]s modeled on $S Vect$ are [[supermanifold]]s
+
+* etc.
+
+[[!redirects sVect]]
+[[!redirects SuperVect]]
