@@ -4,9 +4,16 @@
 
 #Idea#
 
-the [[super Lie group]] that generalizes the [[Euclidean group]] or [[Galileo group]].
+The ordinary [[Euclidean group]] of $\mathbb{R}^n$ is the group generated from the rigid translation action of $\mathbb{R}^n$ on itself and rotations about the origin.
+
+The _super Euclidean group_ is analogously the [[supergroup]] of translations and rotations of the [[supermanifold]] $\mathbb{R}^{p|q}$.
 
 #Details#
+
+>incomplete for the moment, to be finished off tomorrow
+
+The following description of the super Euclidean group (once it is finished, and polished) is due to [[Stephan Stolz]] and [[Peter Teichner]].
+
 
 Construction of $Eucl(\mathbb{R}^{d|\delta})$ for 
 
