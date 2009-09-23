@@ -26,7 +26,9 @@ Previous:
 
 * [[(2,1)-dimensional Euclidean field theories and tmf]]
 
+Next:
 
+* [[(2,1)-dimensional Euclidean field theories]]
 
 
 see also 
