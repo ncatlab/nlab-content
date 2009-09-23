@@ -51,6 +51,7 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-23
 
+* [[Jon Awbrey]] is road-testing the "cylindricity" symbol $\text{&#9005;}$ (unicode &#9005;) for composing functions and relations the _right_ way, that is, in arrow order.  For example, see [[boolean-valued function]].
 
 ## 2009-09-22
 
