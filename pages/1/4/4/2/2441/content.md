@@ -1,0 +1,3 @@
+The **Grassmann algebra** on a [[vector space]] -- or, more generally, on a $\mathbb{Z}_2$-[[graded vector space]] $V$ -- is the _free_ [[super algebra]] on $V$ regarded as a [[super vector space]].
+
+This means that...
