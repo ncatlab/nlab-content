@@ -67,6 +67,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 * [[Jon Awbrey]] is road-testing the "cylindricity" symbol $\text{&#9005;}$ (unicode &#9005;) for composing functions and relations the _right_ way, that is, in arrow order.  For example, see [[boolean-valued function]].
 
+  * I believe a semicolon $;$ is already commonly used by many people for composing things in "diagrammatic" order. -Mike
+
 ## 2009-09-22
 
 * [[Urs Schreiber]]: added automatic TOCs to [[limit]], [[adjoint functor]], [[Kan extension]], [[cohomology]], [[FQFT]], [[category theory]], [[descent]] and maybe some other entries
