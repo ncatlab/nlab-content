@@ -50,6 +50,9 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 
 ## 2009-09-23
+
+* [[Urs Schreiber]]: created [[Euclidean supermanifold]] and worked slightly more on the stub for [[Clifford algebra]]
+
 * [[Zoran ?koda]] created a rough outline for [[descent in noncommutative algebraic geometry]].
 
 * [[Dmitri Pavlov]] Asked two questions at the [[Morita equivalence]] page.
