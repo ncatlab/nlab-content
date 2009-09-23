@@ -32,12 +32,36 @@ AN: I did not say that; it isn't. I said that SEAR is a theory of copies of card
 
 *  _Toby_:  Lawvere\'s claim (if I understand him) is that Cantor also had a theory of *copies* of (what we now call) cardinal numbers.  Cantor started with a set $A$ of real numbers, abstracted away everything except the order relation to get the (not necessarily well-)ordinal number $\overline{A}$, then abstracted even the order (but not the equality relation) away to get the cardinal number $\overline{\overline{A}}$.  Of course, he said that $\overline{\overline{A}}$ and $\overline{\overline{B}}$ are equal cardinal numbers if (and only if) there is a bijection between $A$ and $B$, but that is a *definition*, not an axiomatic *identity*.
 
+AN: I'd say this is abstracting away the equality relation
+and replace it by isomorphy.
+
 _Toby_ continues: Lawvere has long said that his 'abstract sets' and Cantor\'s 'Kardinalzahl' are the same thing.  But in fact the word 'set' ('Menge') is *not* only used in Cantor\'s original sense of a subset of some fixed universe (originally the collection of real numbers, eventually the entire von Neumann hierarchy) today.  Whenever someone says 'A group is a set equipped with [...]', the only thing that matters for group theory is the abstract set, the Kardinalzahl.  It is very easy to rewrite standard mathematics on this foundation; 
 
 AN: If it were very easy, it would have been done already. 
 I see many obstacles in actually doing that. 
 
-*  _Toby_:  It *has* been done already, and has been since at least the \'60s.  The point of $\mathbf{SEAR}$ is to do it in a less category-inspired, hopefully more familiar, way.  Show me an obstacle in applications of set theory to ordinary mathematics, if you have one.
+*  _Toby_:  It *has* been done already, and has been since at least the \'60s.  
+
+Then please show me the result in the form of a treatise comparable to Bourbaki's Elements of mathematics. Its existence would mean it has been done. But there is not 
+even a textbook on calculus that is rewritten on this foundation! 
+
+_Toby_ continues: 
+The point of $\mathbf{SEAR}$ is to do it in a less category-inspired, hopefully more familiar, way.  Show me an obstacle in applications of set theory to ordinary mathematics, if you have one.
+
+The example of the exercise below shows that you need to
+interpret all sets of which unions or intersections are taken as subsets of a more universal set. Thus the SEAR notion of set is in fact that of a universe (and nothing like the standard concept of a set), while the notion 
+of a SEAR subset is more or less that of an ordinary set. 
+
+Of course, one can embed all mathematics into SEAR (with the right existence axioms) by doing everything inside a
+single universe (= a SEAR set whose cardinality is inaccessible). This is what I would do if I were forced to work in SEAR (which fortunately I am not); then I have materiasl equality of sets (= subsets of the universe).
+Then one can use standard language and standard notation
+without difficulty and doesn't have to rewrite anything, except perhaps add to the strength of SEAR a condition that allows this universe to exists and the collection of its subsets to satisfy the ZF axioms.
+
+But you'd have to rewrite _everything- if you want to
+enforce the terminology of SEAR upon mathematics (relabel
+lots of sttandard sets as subsets or tabulations, etc..
+I don't believe mathematical language will take this turn.
+
 
 _Toby_ continues: while in a sense the semantics has changed, it is the claim of structural set theorists that we are getting at what was the real meaning all along.  You might as well say that Dedekind changed the semantics of algebra and analysis when he identified ideal numbers and real (possibly irrational) numbers with certain sets, and in a way he did, but he also clarified those ideas.  And it is not just us, coming along more than a hundred years after Cantor to change the language; people have been doing structural set theory for some time, and it pops up in many places.  Errett Bishop, for example, who wanted a constructive theory (not particularly a structural theory), wrote down a structural theory in his handbook of analysis all the same, even defining a subset of $X$ as a set $A$ equipped with an injection to $X$ (an unfamiliarity which the point of $\mathbf{SEAR}$ is largely to avoid).  Any application of set theory in which we do not care what our sets\' elements\' elements are is inherently structural and translates directly into structural terms.  Any time that someone says 'Relabel the element of $B$ if necessary so that $B$ will be disjoint from $A$, then consider $A \cup B$.', they really mean 'Consider the [[disjoint union]] of $A$ and $B$.' in a structural set theory.  Very rarely do applications of set theory *ever* call for the hierarchy of [[pure sets]].
 
@@ -49,7 +73,14 @@ why the ZF axioms should hold; everything beyond the heditarily finite sets (whi
 is far too sketchy to support the strong claim that SEAR 
 is equivalent to ZF.
 
-*  _Toby_:  This is all fairly well known; see (for example) [Mac Lane & Moerdijk](http://www.amazon.com/Sheaves-Geometry-Logic-Introduction-Universitext/dp/3540977104) (I think Section VI.5) for details (although this does not deal with Replacement/Collection), or Chapter 8 of Mike\'s paper Unbounded Quantifiers and Strong Axioms in Topos Theory (is that available yet, Mike?).  Of course, these start with an explicitly categorial approach, but the equivalence of that with the approach of $\mathbf{SEAR}$ is fairly straightforward.
+*  _Toby_:  This is all fairly well known; see (for example) [Mac Lane & Moerdijk](http://www.amazon.com/Sheaves-Geometry-Logic-Introduction-Universitext/dp/3540977104) (I think Section VI.5) for details (although this does not deal with Replacement/Collection),
+
+so it is <i>not</i> a verification of the ZF axioms, which is what I had claimed is missing. 
+
+_Toby_ continues: 
+ or Chapter 8 of Mike\'s paper Unbounded Quantifiers and Strong Axioms in Topos Theory (is that available yet, Mike?).  Of course, these start with an explicitly categorial approach, but the equivalence of that with the approach of $\mathbf{SEAR}$ is fairly straightforward.
+
+AN: Then this should be mentioned in the main text rather thaan left for the reader to discover for himself or to wonder whether this is really true. Mathematics has a healthy convention that nontrivial claims are supported either by proofs or references to such proofs. Without these one is entitled to mistrust the claim.
 
    * [[Mike Shulman]]: No, it's not available yet, sorry.  I got sidetracked with other things.  But it's back near the top of the to-do list.
 
@@ -77,9 +108,17 @@ Thus one needs to assume a universal set from which all objects of discourse are
 But having that (and augmenting the universal set to contain power sets, which is a natural next step), 
 one can do all standard mathematics in this universal set, obviating the need for SEAR. 
 
-*  _Toby_:  I have taught na&#239;ve set theory in a structural way.  Not that I made a big point about that, but then I didn\'t need to!  The only thing unusual that I had to do was to introduce the concept of disjoint union, which actually made the applications in that course (which were to combinatorics) a little easier.  Of course, a course in axiomatic set theory would have to be rewritten.
+*  _Toby_:  I have taught na&#239;ve set theory in a structural way.  
+
+AN: I's like to get a copy of the lecture notes!
+
+_Toby_ continues: 
+Not that I made a big point about that, but then I didn\'t need to!  The only thing unusual that I had to do was to introduce the concept of disjoint union, which actually made the applications in that course (which were to combinatorics) a little easier.  Of course, a course in axiomatic set theory would have to be rewritten.
 
    For the exercise 'What is the union of $\{a,b,c\}$ and $\{a,b,d\}$?', there is no need to change that in the na&#239;ve course.  But formally, it means 'Let $U$ be a set, and let $a,b,c,d$ be elements of $U$.  Then (by previous results) we have subsets $\{a,b,c\}$ and $\{a,b,d\}$ of $U$.  Find a similar expression for the union of these subsets.'.
+
+AN: And you are not allowed to claim that {a,b,c} are sets!
+I am quite sure you didn't go that far in your course on naive set theory!
 
 Mike Shulman continues:
  The reason I believe in structural set theory is not out of a philosophy that this is the "real" meaning of sets; in fact I think that ZF-theorists are studying a very real and interesting world!  But when I look at most mathematics as it is done by most mathematicians, what I see is sets treated structurally---so I think we should have a foundational account of sets which treats them that way.
@@ -92,6 +131,28 @@ To start with the material point of view has many advantages: It is easy to moti
 that style.
 
 [[Mike Shulman]]: Can you cite some example of mathematics outside of ZF-theory which really treats sets materially?
+
+In analysis, the vector space of real n-dimensional 
+column vectors is probably universally treated as material.
+
+
+The material point of view is even clearly visible in books on abstract algebra that use category theory, such as 
+   Serge Lang, Algebra, second printing 1970 
+(which I happen to have at hand; sorry - my books on elementary math are all 40 years old, but all mathematics done then is still valid mathematics today!)
+
+He begins in the first paragraph of the prerequisites 
+with the assumption that a set may be contained in another set. This is actually heavily used; for example, a subgroup is for him clearly a group contained in another group, and not a group isomorphic to a such a group.
+
+[This is also the case in modern text; the first algebra lecture notes I found with Google was 
+<a href="http://www.maths.tcd.ie/~dwilkins/Courses/311/311S1_0708.pdf">by Wilkins</a> has the same terminology for subgroups.
+
+In Section I.7 on categories, he explicitly uses the formula A=B comparing two objects of a category for equality. Since Lang explicitly defines each allowed abuse of language, e.g., ``By abuse of language, we sometimes refer to the collection of objects [of a category] as the category itself'', it is clear that he doesn't consider A=B as an abuse of language, and hence adheres to a material point of view.
+
+One can probably rewrite everything in a way that avoids all material issues, but 
+(i) it hasn't be done, and 
+(ii) it would read quite different from what Lang actually writes.
+
+
 =--
 
 +--{: .query}
