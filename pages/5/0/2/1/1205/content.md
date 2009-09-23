@@ -19,8 +19,8 @@ For example if $A = S(V)$ is the symmetric (Hopf) algebra on a finite-dimensiona
 * G. Militaru, _Heisenberg double, pentagon equation, structure and classification of finite-dimensional
 Hopf algebras_, J. London Math. Soc. (2) 69 (2004) 44&#8211;64 ([doi](http://dx.doi.org/10.1112/S0024610703004897)).
 
-* A.M. Semikhatov, _A Heisenberg double addition to the logarithmic Kazhdan&#8211;Lusztig duality_, [arXiv:0902.2215](http://arxiv.org/abs/0902.2215).
+* A.M. Semikhatov, _A Heisenberg double addition to the logarithmic Kazhdan&#8211;Lusztig duality_, [arXiv:0905.2215](http://arxiv.org/abs/0905.2215).
 
-* A.M. Semikhatov, _Yetter--Drinfeld structures on Heisenberg doubles and chains_, [arXiv:09098.3105](http://arxiv.org/abs/0908.3105)
+* A.M. Semikhatov, _Yetter--Drinfeld structures on Heisenberg doubles and chains_, [arXiv:0908.3105](http://arxiv.org/abs/0908.3105)
 
 * Zoran &#352;koda, _Heisenberg double versus deformed derivatives_, [arXiv:0909.3769](http://arxiv.org/abs/0909.3769)
