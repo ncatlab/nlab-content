@@ -16,10 +16,54 @@ __Reference.__ Unicode Data Bank ![Boing](http://wikipediareview.com/smilys0b23a
 1.  [Open Punctuation](http://www.sql-und-xml.de/unicode-database/ps.html)
 1.  [Other Punctuation](http://www.sql-und-xml.de/unicode-database/po.html)
 1.  [Close Punctuation](http://www.sql-und-xml.de/unicode-database/pe.html)
+1.  [Geometric Shapes](http://www.sql-und-xml.de/unicode-database/geometric-shapes.html)
+1.  [Other Symbols](http://www.sql-und-xml.de/unicode-database/so.html)
 
 ***
 
 Trying some new arrows: $\twoheadrightarrow$, $\rightarrowtail$, $\looparrowright$, $\nrightarrow$, $\upharpoonright$.
+
+***
+
+Need an easy-on-the-eyes symbol for composition on the right ---
+
+\natural &#8594; $\natural$ &#8594; $f \natural g$
+
+\natural &#8594; $\natural$ &#8594; $f \:\natural\: g$
+
+&#9838; &#8594; $\text{&#9838;}$ &#8594; $f \text{&#9838;} g$
+
+&#9005; &#8594; $\text{&#9005;}$ &#8594; $f \text{&#9005;} g$
+
+&#8692; &#8594; $\text{&#8692;}$ &#8594; $f \text{&#8692;} g$
+
+&#9643; &#8594; $\text{&#9643;}$ &#8594; $f \text{&#9643;} g$
+
+&#9657; &#8594; $\text{&#9657;}$ &#8594; $f \text{&#9657;} g$
+
+&#9659; &#8594; $\text{&#9659;}$ &#8594; $f \text{&#9659;} g$
+
+&#9645; &#8594; $\text{&#9645;}$ &#8594; $f \text{&#9645;} g$
+
+&#9634; &#8594; $\text{&#9634;}$ &#8594; $f \text{&#9634;} g$ 
+
+&#9789; &#8594; $\text{&#9789;}$ &#8594; $f \text{&#9789;} g$
+
+&#9687; &#8594; $\text{&#9687;}$ &#8594; $f \text{&#9687;} g$
+
+&#9862; &#8594; $\text{&#9862;}$ &#8594; $f \text{&#9862;} g$
+
+&#9673; &#8594; $\text{&#9673;}$ &#8594; $f \text{&#9673;} g$
+
+&#9681; &#8594; $\text{&#9681;}$ &#8594; $f \text{&#9681;} g$
+
+&#9735; &#8594; $\text{&#9735;}$ &#8594; $f \text{&#9735;} g$
+
+&#9740; &#8594; $\text{&#9740;}$ &#8594; $f \text{&#9740;} g$
+
+&#9741; &#8594; $\text{&#9741;}$ &#8594; $f \text{&#9741;} g$
+
+&#9775; &#8594; $\text{&#9775;}$ &#8594; $f \text{&#9775;} g$
 
 ***
 
