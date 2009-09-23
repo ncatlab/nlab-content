@@ -75,6 +75,7 @@ The central theorem is
 
   * [[bordism categories following Stolz-Teichner]]
 
+  * [[(2,1)-dimensional Euclidean field theories]]
 
 1. [Contents](#contents)
 
