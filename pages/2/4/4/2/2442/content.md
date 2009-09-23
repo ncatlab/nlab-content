@@ -43,7 +43,7 @@ $$
 there is the odd vector field
 
 $$
-  D := \partial_\theta + \theta \cdots \partial_{t}
+  D := \partial_\theta + \theta \cdot \partial_{t}
 $$
 
 whose super Lie bracket with itself vanishes
@@ -53,6 +53,6 @@ $$
   \,.
 $$
 
-**Claim** This odd vector field $D$ is left invariant with respect to the [[supergroup|super Heisenberg group]] structure on $\mathbb{R}^{1|1}$.
+**Claim** This odd vector field $D$ is left invariant with respect to the [[supergroup|super translation group]] structure on $\mathbb{R}^{1|1}$.
 
-This means that $Lie(\mathbb{R^{1|1}})$ is free on one odd generator.
+This means that $Lie(\mathbb{R}^{1|1})$ is free on one odd generator.
