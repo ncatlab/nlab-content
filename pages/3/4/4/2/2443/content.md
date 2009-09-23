@@ -9,7 +9,9 @@
 
   * [[Grassmann algebra]]
 
-  * [[super Lie algebra]]
+  * [[Clifford algebra]]
+
+* [[super Lie algebra]]
 
 * [[supermanifold]]
 
@@ -18,5 +20,9 @@
   * [[super vector bundle]]
 
   * [[super Lie group]]
+
+    * [[super Lie group|super translation group]]
+ 
+    * [[super Euclidean group]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/supergeometry+-+contents)</div>
