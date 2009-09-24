@@ -201,7 +201,7 @@ AN:
 1. Do you mean with "infinite picture" a finite picture with dots 
 on it? 
 
-2. Why can't one write the same picture as a dingle dot with an arrow 
+2. Why can't one write the same picture as a single dot with an arrow 
 to itself?
 
 _Toby_:
@@ -217,6 +217,8 @@ AN: No. $\omega+1$ shows that branches may be infinite.
 Only directed paths are finite.
 
 _Toby_:  By 'branch', I think that I meant only a directed one.  Even so, can you describe the infinite branch in $\omega + 1$?; I don\'t see it.
+
+AN: The branch (immediate subtree) whose root node is $\omega$ is infinite. [You could replace everywhere in the main text the term ''immediate subtree'' by branch]
 =--
 here is $\omega_N$, the set of von Neumann [[natural numbers]]:
 $$ \array {
