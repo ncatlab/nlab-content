@@ -16,7 +16,7 @@ This is a sub-entry of [[geometric models for elliptic cohomology]] and [[A Surv
 
 See there for background and context.
 
-This entry here is about the definition of $(2|1)$-dimensional [[super-cobordism]] categories and $(2|1)$-dimensional [[FQFT]]s given by functors on these.
+This entry here is about the definition of $(2|1)$-dimensional [[super-cobordism]] categories where cobordisms are [[Euclidean supermanifold]]s, and about $the (2|1)$-dimensional [[FQFT]]s given by functors on these.
 
 =--
 
@@ -39,13 +39,21 @@ Previous:
 
 #Idea#
 
-Previously we had defined smooth categories of [[Riemannian cobordism]]s. Now we pass from [[Riemannian manifold]]s to [[Euclidean supermanifold]]s and define the correponding smooth [[cobordism category]].
+Previously we had defined smooth categories of [[Riemannian cobordism]]s. Now we pass from [[Riemannian manifold]]s to [[Euclidean supermanifold]]s and define the correponding smooth [[cobordism category]]. Then we define $(d|\delta)$-dimensional Euclidean field theories to be smooth respentations of these categories.
+
+As described at  [[(2,1)-dimensional Euclidean field theories and tmf]], the idea is that $(2|1)$-dimensional Euclidean field theories are a geometric model for [[tmf]] [[cohomology theory]]. While there is no complete proof of this so far, in the next and final session 
+
+* [[modular forms from partition functions]]
+
+it will be shows that the claim is true at least for the [[cohomology ring]] over the point: the [[partition function]] of a $(2|1)$-dimensional EFT is a modular form. Hence $(2|1)$-dimensional EFTs do yield the correct [[cohomology ring]] of [[tmf]] over the point.
+
 
 #Details#
 
 Let [[SDiff]] be the [[category]] of [[supermanifold]]s.
 
 We will define a [[stack]]/[[fibered category]] on $SDiff$ called $E Bord_{2|1}$ whose morphisms are smooth families of (2|1)-dimensional [[super-cobordism]]s, and a [[stack]]/[[fibered category]] $sTV^{fam}$ of topological super vector bundles.
+
 
 So recall
 
