@@ -23,10 +23,14 @@ $$
 
 from some category $G$ of [[geometry (for structured (infinity,1)-toposes)]]
 
-such that...
+such that it locally looks like an _affine $G$-scheme_ in  that
 
 So a generalized scheme is a [[structured (infinity,1)-topos]] such that ...
 
 # References #
 
+Generalized schemes are definition 2.3.9 of
+
 * [[Jacob Lurie]], [[Structured Spaces]]
+
+The definition of affine $G$-schemes (absolute spectra) is in section 2.2.
