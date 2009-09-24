@@ -25,7 +25,7 @@ Two charts $\phi: U \to X$ and $\psi: V \to X$ are **compatible** if
 $$\psi \circ \phi^{-1}: \phi(U \cap V) \to \psi(U \cap V)$$
 belongs to $G$. A $G$-**atlas** on $M$ is a family of compatible charts $(\phi_\alpha: U_\alpha \to X)_\alpha$ such that $(U_\alpha)_\alpha)_\alpha$ covers $M$.  The (restricted) maps $\phi_{\alpha \beta} = \phi_\beta \circ \phi_{\alpha}^{-1}$ are called **transition functions** between the charts of the atlas.
 
-Finaly, a $G$-**manifold** is a topological space equipped with a $G$-atlas.
+Finally, a $G$-**manifold** is a topological space equipped with a $G$-atlas.
 
 We can think of a $G$-manifold as a space which is _locally modeled_ on $X$ according to the geometry $G$.
 
