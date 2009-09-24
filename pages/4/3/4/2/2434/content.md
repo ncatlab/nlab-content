@@ -39,7 +39,7 @@ Previous:
 
 #Idea#
 
-Previously we had defined smooth categories of [[Riemannian cobordism]]s. Now we pass from [[Riemannian manifold]]s to [[Euclidea supermanifold]]s and define the correponding smooth [[cobordism category]].
+Previously we had defined smooth categories of [[Riemannian cobordism]]s. Now we pass from [[Riemannian manifold]]s to [[Euclidean supermanifold]]s and define the correponding smooth [[cobordism category]].
 
 #Details#
 
