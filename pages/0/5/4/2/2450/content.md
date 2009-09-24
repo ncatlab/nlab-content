@@ -21,7 +21,7 @@ Alternatively, it is a [[supermanifold]] for which the transition functions of a
 
 A **Euclidean supermanifold** of dimension $(p|q)$is a [[supermanifold]] that is quipped with an **$(X,G)$-structure** , where $X = \mathbb{R}^{p|q}$ and where $G$ is the [[super Euclidean group]] on $\mathbb{R}^{p|q}$.
 
-Here an $(X,G)$-structure is defined as follows.
+Here an $(X,G)$-structure is defined as follows, essentially being a version of the discussion of _pseudogroups_ at [[maifold]].
 
 **Definition** ([[Stephan Stolz|Stolz]], [[Peter Teichner|Teichner]]) A $(X,G)$-structure on a $(d|\delta)$-dimensional [[supermanifold]] $Y$ consists of
 
