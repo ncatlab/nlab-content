@@ -13,33 +13,8 @@ Other historical references on Koszul duality include
 * A. A. Be&#301;linson, V. A. Ginsburg, V. V. Schechtman, Koszul duality.  J. Geom. Phys.  5  (1988),  no. 3, 317--350.
 
 * A. Beilinson, V. Ginzburg, W. Soergel, Koszul duality patterns in representation theory.  J. Amer. Math. Soc.  9  (1996),  no. 2, 473--527. 
----
-<http://ncatlab.org/nlab/show/Koszul+duality>
 
-<http://mathoverflow.net/questions/329/what-is-koszul-duality>
+Koszul duality is also discussed in [[John Baez]]' [This Week's Finds in Mathematical Physics](http://math.ucr.edu/home/baez/TWF.html):
 
-<http://mathoverflow.net/questions/39577/koszul-duality-and-algebras-over-operads>
-
-Koszul duality: [Martinez-Villa and Solberg](http://arxiv.org/abs/0902.0714)
-
-[arXiv:1001.2032](http://front.math.ucdavis.edu/1001.2032) Koszul duality in algebraic topology - an historical perspective
-from arXiv Front: math.AT by Dev Sinha
-2 people liked this
-We survey the topology which led to the original bar and cobar constructions,
-for both associative algebras and coalgebras and for Lie algebras and
-commutative coalgebras. These constructions are often viewed as part of the
-larger theory of Koszul duality of operads, so this survey is meant to offer an
-historical perspective on the most prominent cases of that theory. We also
-explain recent work which shows that Hopf/linking invariants for homotopy are
-at the heart of the duality between commutative algebras and Lie coalgebras.
-
-[arXiv:0912.1670](http://front.math.ucdavis.edu/0912.1670) Derived Koszul Duality and Involutions in the Algebraic K-Theory of Spaces
-from arXiv Front: math.AT by Andrew J. Blumberg, Michael A. Mandell
-We interpret different constructions of the algebraic $K$-theory of spaces as
-an instance of derived Koszul (or bar) duality and also as an instance of
-Morita equivalence. We relate the interplay between these two descriptions to
-the homotopy involution. We define a geometric analog of the Swan theory
-$G^{\bZ}(\bZ[\pi])$ in terms of $\Sigma^{\infty}_{+} \Omega X$ and show that it
-is the algebraic $K$-theory of the $E_{\infty}$ ring spectrum $DX=S^{X_{+}}$.
-
-nLab page on [[nlab:Koszul duality]]
+* [Week 238](http://math.ucr.edu/home/baez/week238.html)
+* [Week 239](http://math.ucr.edu/home/baez/week239.html)
