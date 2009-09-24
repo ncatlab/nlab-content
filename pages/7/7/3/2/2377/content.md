@@ -644,3 +644,33 @@ The same idea applies to all the other axioms.
 
 [[Mike Shulman]]: I'm not sure that Collection can really be eliminated using universes, but maybe it can.
 =--
++--{: .query}
+[[David Roberts]]: Some sketchy thoughts - a universe will be a relation $U \looparrowright E$ satisfying axioms analogous to those at [[universe in a topos]]. There are few points that need translating into SEAR-language first so we can define smallness of a family of sets $I \looparrowright A$
+
+* Pullback - unless I am mistaken, the appropriate version is this: Given a function $I \to U$, the family $I \looparrowright E$ should be regarded as the \'pullback\' family. This family should be isomorphic to the family $I \looparrowright A$. This leads us to wonder how to define two families to be isomorphic.
+
+* Dependent product - this is tricker and I'm not going to do that right now. 
+=--
+
+Fix a family of sets $U \looparrowright E$.
+
+**Definition:** A family $a:I \looparrowright A$ is called _$U$-small_ if there is a function $f:I \to U$ such that for the composite relation $I \looparrowright E$ ...
+
+A set $A$ is called $U$-small if the relation $\mathbf{1}\looparrowright A$, which holds of $*$ and $a$ for all elements $a$ of $A$, is a $U$-small family.
+
+For ease of language, we define a composite of families to be the composite relation of the two relations defining the families.
+
+**Definition:** A family of sets $U \looparrowright E$ is called a _universe_ if the following axioms are satisfied:
+
+  * The composite of two $U$-small families is $U$-small
+  * The relation $f^o:B\looparrowright A$ opposite to an injective function $f:A \to B$ is a $U$-small family
+  * $P\mathbf{1}$ is a $U$-small set
+  * (Something about dependent products, once these are defined)
+
+There is an optional axiom, given the axiom of infinity from before:
+
+  * The [[natural numbers object]] is a $U$-small set
+
+Without this axiom we do not have that universes contain infinite sets.
+  
+Given a universe $U \looparrowright E$, we want to define a (meta-)category $U-Set$...
