@@ -72,6 +72,8 @@ In fact, this introduces implicit material set theory
 since you now have an X set of SEARC sets that allows to compare and intersect in X any two SEARC sets.
 
 Thus the proposed reflection of ZFC in X does not avoid comparing SEARC sets, and hence nullifies your structural efforts from the point of view of foundations. (I think the same holds for ETCS, for which this page was written.)
+
+[[Mike Shulman]]: Building a model of the natural numbers is not a valid comparison.  A valid comparison is building a model of ZF+CH.  You cannot (if ZF is consistent) build a model of ZF+CH **in** ZF, since then ZF would prove Con(ZF+CH) and hence Con(ZF), violating the incompleteness theorem.  Rather, one starts with a model of ZF in some metatheory (which can be *significantly weaker* than ZF, although what this metatheory is is rarely made formal), and constructs in that metatheory a model of ZF+CH.  The same is true here.
    =--
 *  Every directed graph generates a [[quiver]], a category whose morphisms are called __paths__.
 *  A __[[tree]]__ (technically, a _directed rooted tree_) is a simple directed graph equipped with a __root__ node $r$ that is a [[terminal object]] of the quiver (meaning that every node has a unique path to the root).
