@@ -83,7 +83,9 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 * [[Jon Awbrey]] is road-testing the "cylindricity" symbol $\text{&#9005;}$ (unicode &#9005;) for composing functions and relations the _right_ way, that is, in arrow order.  For example, see [[boolean-valued function]].
 
-  * I believe a semicolon $;$ is already commonly used by many people for composing things in "diagrammatic" order. -Mike
+   * I believe a semicolon $;$ is already commonly used by many people for composing things in "diagrammatic" order. -Mike
+
+   * Yes, there's a Z-notation semicolon &#10814; (unicode &#10814;) that I tried for a while, but it always looks more like a (California) stop than a connector --- besides, Kurt Vonnegut says not to use 'em.
 
 ## 2009-09-22
 
