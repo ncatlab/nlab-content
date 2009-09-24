@@ -21,7 +21,7 @@ Alternatively, it is a [[supermanifold]] for which the transition functions of a
 
 A **Euclidean supermanifold** of dimension $(p|q)$is a [[supermanifold]] that is quipped with an **$(X,G)$-structure** , where $X = \mathbb{R}^{p|q}$ and where $G$ is the [[super Euclidean group]] on $\mathbb{R}^{p|q}$.
 
-Here an $(X,G)$-structure is defined as follows, essentially being a version of the discussion of _pseudogroups_ at [[maifold]].
+Here an $(X,G)$-structure is defined as follows, essentially being a version of the discussion of _pseudogroups_ at [[manifold]].
 
 **Definition** ([[Stephan Stolz|Stolz]], [[Peter Teichner|Teichner]]) A $(X,G)$-structure on a $(d|\delta)$-dimensional [[supermanifold]] $Y$ consists of
 
@@ -109,3 +109,27 @@ $$
 
 **example** a family $Y \to S$ of $(\mathbb{R}^d, Eucl(\mathbb{R}^d))$-manifolds, for $S$ an ordinary [[manifold]] is a [[submersion]] with flat [[Riemannian metric]] on the [[fiber]]s.
 
+# ordinary Euclidean manifolds as Euclidean supermanifolds #
+
+Specifically in 2-dimensions, an ordinary Spin-Eulidean manifold is one with $(\mathbb{R}^2, \mathbb{R}^2 \rtimes Spin(2))$-structure.
+
+We want to regard this as a Euclidean supermanifold with 
+$(\mathbb{R}^{2|1}_{cs}, \mathbb{R}^{2|1}_{cs} \rtimes Spin(2))$-structure.
+
+
+In general for two structures $(X,G)$ and $(X',G')$ we can transfer structures when we have a group homomorphisms
+
+$G \to G'$ and with respect to that a
+
+$G$-equivariant map $X' \to X$.
+
+Then send every $(X,G)$-chart to the corresponding $(X',G')$-chart which as a subset of $X'$ is the inverse image of $X' \to X$.
+
+This yields a functor
+
+$$
+  (X,G)-manifolds
+  \to 
+  (X',G')-manifolds
+  \,.
+$$
