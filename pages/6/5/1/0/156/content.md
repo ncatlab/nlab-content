@@ -1,4 +1,4 @@
-A [[category]] is __skeletal__ if objects that are [[isomorphism|isomorphic]] are necessarily [[equality|equal]].  (This is an irredeemably [[evil]] notion.)  A **skeleton** of a category is any skeletal [[subcategory]] that is [[equivalence of categories|equivalent]] to the original category.
+A [[category]] is __skeletal__ if objects that are [[isomorphism|isomorphic]] are necessarily [[equality|equal]].  (This is an irredeemably [[evil]] notion.)  A **skeleton** of a category is any skeletal [[subcategory]] whose inclusion functor exhibits it as [[equivalence of categories|equivalent]] to the original category.
 
 If the [[axiom of choice]] holds, then every category has a skeleton: simply choose one object in each isomorphism class.  In fact, the statement that every (possibly [[small category|small]]) category has a skeleton is _equivalent_ to the axiom of choice if "subcategory" and "equivalence" have their naive meanings.  For given a [[surjection]] $p:A\to B$, make $A$ into a category with a unique isomorphism $a\cong a'$ iff $p(a)=p(a')$; then a skeleton of $A$ supplies a splitting of $p$.
 
@@ -10,7 +10,13 @@ _Mike_: It would be interesting to know the precise strength of the statement "e
 
 Notice that the [[axiom of choice]] fails in general when one considers [[internal category|internal categories]].  Hence not every [[internal category]] has a skeleton.
 
+According to [[Peter Johnstone]] in an email to the categories list dated 23 Sep 2009, [[Peter Freyd]] has with some ingenuity shown (unpublished?) that in addition to "every small category has a skeleton," the following two statements are also equivalent to the axiom of choice:
+
+1. A small category is equivalent to any of its skeletons.
+1. Any two skeletons of a given small category are isomorphic.
+
 
 [[!redirects skeleta]]
+[[!redirects skeletons]]
 [[!redirects skeletal]]
 [[!redirects skeletal category]]
