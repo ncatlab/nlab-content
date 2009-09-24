@@ -152,7 +152,9 @@ These 1-cocycle data make the tangent bundle an $n$-dimensional [[vector bundle]
 * [[generalized smooth space]]
 * [[differentiable stack]]
 * [[derived smooth manifold]]
+
 * [[supermanifold]]
 
+  * [[Euclidean supermanifold]] (notice that the definition of that is very much alonmg the lines of the Klein-program-style definition above).
 
 [[!redirects manifolds]]
