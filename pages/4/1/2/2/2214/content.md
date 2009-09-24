@@ -48,6 +48,7 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ***
 ##2009-09-24
+* [[Zoran ?koda]]: created [[Ore localization]].
 
 * [[Urs Schreiber]]: worked on [[geometry (for structured (infinity,1)-toposes)]]
 
