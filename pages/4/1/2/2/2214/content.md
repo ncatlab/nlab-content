@@ -49,6 +49,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 ***
 ##2009-09-24
 
+* [[Urs Schreiber]] some rough notes on genera and the elliptic genus at [[elliptic cohomology]].
+
 * [[Andrew Stacey]]: Who's the emacs guru who put the stuff on the [[HowTo]] about using Emacs?
 
 * [[Ivo]] created [[free groupoid]] and [[Urs Schreiber]] went over it and added links, and typeset math.
