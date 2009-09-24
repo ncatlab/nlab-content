@@ -154,6 +154,7 @@ One can probably rewrite everything in a way that avoids all material issues, bu
 
 [[Mike Shulman]]: I think the claim is not that existing mathematics doesn't use the *language* of material set theory (after all, for decades that was the only language there was), but rather that its *essence* does not.  Show me a result using the fact that a subgroup is a group literally contained in another group, but which would not work just as well for any injective group homomorphism.
 
+AN: Maybe, but this cannot be discussed objectively since essence is not well-defined. 
 =--
 
 +--{: .query}
@@ -192,7 +193,24 @@ Note that experts will probably always prefer to build their own car/OS; the goa
 
 ## Types ##
 
-SEAR is a theory about three types of things: **sets**, **elements**, and **relations**.  Every element, and every variable that ranges over elements, is always associated to something denoting a set (which might be a constant or a variable); we say it is an element **of** that set.  If $x$ is an element of $A$ we write $x\in A$; note that this is not an *assertion* which may be true or false, but a *typing* declaration.  In formal terms, this means that SEAR is a [[dependent type theory]].  One consequence of this is that whenever we quantify over elements we must always quantify over elements *of some set*; thus we can say "for all elements $x\in A$" but not "for all elements $x$."  Another consequence is that the assertion $x=y$ is only well-formed (a precondition to its being true _or_ false) if $x$ and $y$ are elements of the same set.
+SEAR is a theory about three types of things: **sets**, **elements**, and **relations**.  
+Every element, and every variable that ranges over elements, is always associated to something denoting a set (which might be a constant or a variable); we say it is an element **of** that set.  If $x$ is an element of $A$ we write $x\in A$; note that this is not an *assertion* which may be true or false, but a *typing* declaration.  In formal terms, this means that SEAR is a [[dependent type theory]]. 
+
++--{: .query}
+[[Arnold Neumaier]]: 
+After the discussion on the n-Cafe, I understand this better and would appreciate rewording, either:
+
+SEAR is a theory about infinitely many types of things: **sets**, **elements of $S$** for any set $S$, and **relations between $S$ and $T$** for any set $S$ and any set $T$. Every element...
+
+or:
+
+SEAR is a theory about three kinds of things: **sets**, **elements**, and **relations**.  ... In formal terms, this means that SEAR is a [[dependent type theory]] whose types are **sets**, **elements of $S$** for any set $S$, and **relations between $S$ and $T$** for any set $S$ and any set $T$. 
+
+=--
+
+
+
+ One consequence of this is that whenever we quantify over elements we must always quantify over elements *of some set*; thus we can say "for all elements $x\in A$" but not "for all elements $x$."  Another consequence is that the assertion $x=y$ is only well-formed (a precondition to its being true _or_ false) if $x$ and $y$ are elements of the same set.
 
 In a similar manner, every relation is always associated to an ordered pair of sets, the first called its **[[source]]** and the second its **[[target]]** (thus the fundamental relations in SEAR are binary relations).  If $\varphi$ is a relation from $A$ to $B$ we write $\varphi:A\looparrowright B$.  As with elements, the assertion $\varphi=\psi$ is only well-formed if $\varphi$ and $\psi$ have the same source and the same target.
 
