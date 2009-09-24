@@ -376,6 +376,8 @@ Now i remember what i didn't remember to write last time. Would it be ok to thin
 Actually, the same for simplicial sets. Would it be ok to think of these presheaves as presentations of simplicial sets? This would be so much easier and clearer.
 
 [[David Roberts]]: Recall that simplicial sets are _defined_ to be presheaves on $\Delta$, and that the value of the functor on the object $[n]$ just returns the set of $n$-simplices...
+
+[[Mike Shulman]]: Whether a [[large category]] has a nerve depends on your [[foundations]], but generally the answer is "yes, but its nerve isn't a 'simplicial set' in the usual sense."  If a large category is one with a [[proper class]] of objects, then you can argue that it has a nerve which is a "simplicial class," although it's not always clear that you can make formal sense out of that.  If a large category has a large set of objects (i.e. a set that is not an element of the [[Grothendieck universe|universe]] chosen to define "smallness," then it has a nerve which is a "large simplicial set," which probably behaves more like a simplicial set than a simplicial class does, but it isn't an object of the category $SimpSet$ since in universe-ish foundations that is defined to consist of *small* simplicial sets.  So in general, you can still apply nerve-like arguments to large categories (and you can talk about "large [[quasicategories]]", etc.) but you have to enlarge the target of the nerve functor (from small simplicial sets to large ones) as well as its source (from small categories to large ones).
 =--
 
 +--{.query}
