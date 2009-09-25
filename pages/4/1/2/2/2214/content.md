@@ -49,6 +49,10 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 ***
 ##2009-09-24
 
+* [[Mike Shulman]]:
+  * Response/suggestion at [[natural numbers in SEAR]]
+  * Created [[choice operator]] in order to ask a question (the second one on the page, not the first).
+
 * [[David Roberts]]: polishing up [[natural numbers in SEAR]]. The definition is in, now.
 
 * [[Zoran ?koda]]: created [[Ore localization]].
