@@ -39,7 +39,10 @@ This definition holds in a bounded fragment, just as above.  However, this defin
 
 +--{: .query}
 [[David Roberts]]: Does this remark (about collection/power sets) belong here or in the next section? Certainly, I haven't gotten rid of power sets and I hope I haven't included collection.
+
+[[Mike Shulman]]: I think it belongs in the next section.
 =--
+
 ## Replacing the power set axiom by something else ##
 
 As suggested by Toby, one could take as an axiom the existence of $\mathbf{2}$, together with axioms 0,1,2 and 5 of SEAR, instead of powersets (axiom 3). From Collection we get binary coproducts, so we could define $\mathbf{n}$ as $\mathbf{1}\coprod(\mathbf{1} \coprod ( \ldots\coprod \mathbf{1})\ldots)$ ($n$ times). (DR: this needs spelling out better, with tabulations, but that's the general idea).
