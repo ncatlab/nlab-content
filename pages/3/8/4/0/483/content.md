@@ -7,6 +7,10 @@ A _directed space_ is a [[topological space]] $X$ in which not every singular ce
 
 [[Urs Schreiber]]: notice that this here is the "idea" section, not a formal definition. The idea is that everyone has an idea of what "to traverse" means and that this gives a good idea  for what the direction in "directed space" is about"!
 
+[[Eric]]: Unfortunately, not <i>everyone</i> has an idea of what it means to traverse a $k$-cell or I wouldn't ask :)  These $k$-cells must themselves be directed with directed boundaries, right? I can imagine a directed 2-cell might have 2 directed 1-cells for a boundary, but even with this simple case, I am capable of confusing myself and it is not obvious what traversing the 2-cell should look like.
+
+Is the boundary of a directed $k$-cell a directed $(k-1)$-chain?
+
 =--
 
 So far there exists a well-developed theory for a notion of _directed spaces_ $X$ where 1-dimensional paths given by maps $[0,1] \to X$ from the [[interval]] into the space are equipped with a direction. See in particular the book by by [[Marco Grandis]] on [[Directed Algebraic Topology]] listed below. 
