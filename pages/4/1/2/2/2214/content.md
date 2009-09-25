@@ -51,7 +51,9 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-25
 
-*  [[Toby Bartels]]:  Sorry at [[natural numbers in SEAR]].
+* [[Urs Schreiber]] created [[exterior differential system]] and related to that [[dg-ideal]] and [[vertical tangent Lie algebroid]]
+
+* [[Toby Bartels]]:  Sorry at [[natural numbers in SEAR]].
 
 * [[Rafael Borowiecki]]: Replied at [[category theory]] and suggested changing one of the views what category theory is.
 
