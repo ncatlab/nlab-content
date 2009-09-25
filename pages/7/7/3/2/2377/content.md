@@ -42,26 +42,33 @@ I see many obstacles in actually doing that.
 
 *  _Toby_:  It *has* been done already, and has been since at least the \'60s.  
 
-Then please show me the result in the form of a treatise comparable to Bourbaki's Elements of mathematics. Its existence would mean it has been done. But there is not 
-even a textbook on calculus that is rewritten on this foundation! 
+   AN: Then please show me the result in the form of a treatise comparable to Bourbaki's Elements of mathematics. Its existence would mean it has been done. But there is not 
+   even a textbook on calculus that is rewritten on this foundation! 
 
-_Toby_ continues: 
+   *  _Toby_:  There is no need to rewrite an ordinary calculus textbook on this foundation, any more than we needed to rewrite elementary geometry after Hilbert.  The material in basic calculus is mostly from the 19th century, after Weierstrass but before Dedekind and Cantor; more advanced material requires care (and indeed, led Dedekind and Cantor to develop set theory), but high school calculus does not.  You may as well rewrite a textbook on the history of the Soviet Union for all the difference that it would make; the latter might at least *mention* set theory if it went deep enough.  The 'sets' of calculus are subsets of $\mathbf{R}$ (or $\mathbf{R}^n$); the 'functions' are partial functions from $\mathbf{R}$ to $\mathbf{R}$, which may be formalised as functional relations.  They are not exactly the same as the 'sets' and 'functions' of either $\mathbf{SEAR}$ or $\mathbf{ZF}$, but we can understand them.
+
+      All that said, calculus *has* been written down in an explicitly structural way, in Errett Bishop\'s book on constructive analysis.  However, the book that you want is probably _Sets for Mathematics_, by Lawvere & Rosebrugh.  Of course, it is not comparable to Bourbaki; nothing is.  You will find it far too brief, but it shows how to get started.
+
+   _Toby_ continues: 
 The point of $\mathbf{SEAR}$ is to do it in a less category-inspired, hopefully more familiar, way.  Show me an obstacle in applications of set theory to ordinary mathematics, if you have one.
 
-The example of the exercise below shows that you need to
+   AN: The example of the exercise below shows that you need to
 interpret all sets of which unions or intersections are taken as subsets of a more universal set. Thus the SEAR notion of set is in fact that of a universe (and nothing like the standard concept of a set), while the notion 
 of a SEAR subset is more or less that of an ordinary set. 
 
-Of course, one can embed all mathematics into SEAR (with the right existence axioms) by doing everything inside a
-single universe (= a SEAR set whose cardinality is inaccessible). This is what I would do if I were forced to work in SEAR (which fortunately I am not); then I have materiasl equality of sets (= subsets of the universe).
-Then one can use standard language and standard notation
-without difficulty and doesn't have to rewrite anything, except perhaps add to the strength of SEAR a condition that allows this universe to exists and the collection of its subsets to satisfy the ZF axioms.
+   *  _Toby_:  If by 'universe' you mean set&#178; and by 'ordinary set' you mean set&#185;, then you are right.  But you are wrong about what is the standard conception among mathematicians.  There are many of us structural mathematicians; we find each other on the Internet (and found each other before, but I am too young for that); how did that happen? are we suffering from a mass delusion? or perhaps we are not really mathematicians (we have a tendency to work on category theory, after all)?
 
-But you'd have to rewrite _everything- if you want to
-enforce the terminology of SEAR upon mathematics (relabel
-lots of sttandard sets as subsets or tabulations, etc..
-I don't believe mathematical language will take this turn.
+   Of course, one can embed all mathematics into SEAR (with the right existence axioms) by doing everything inside a
+   single universe (= a SEAR set whose cardinality is inaccessible). This is what I would do if I were forced to work in SEAR (which fortunately I am not); then I have materiasl equality of sets (= subsets of the universe).
+   Then one can use standard language and standard notation
+   without difficulty and doesn't have to rewrite anything, except perhaps add to the strength of SEAR a condition that allows this universe to exists and the collection of its subsets to satisfy the ZF axioms.
 
+   But you'd have to rewrite _everything_ if you want to
+   enforce the terminology of SEAR upon mathematics (relabel
+   lots of sttandard sets as subsets or tabulations, etc..
+   I don't believe mathematical language will take this turn.
+
+   *  _Toby_:  No, you wouldn\'t!  There is no need to strengthen $\mathbf{SEAR}$ to include an uncountable inaccessible cardinal and then talk only about subsets of a universe with that cardinality; indeed, it would be foolish to, since then more things would be true than you had wanted.  Instead, you just write normally, with the abuses of language being slightly different abuses.  See below, where I am more radical than Mike, for more on this.
 
 _Toby_ continues: while in a sense the semantics has changed, it is the claim of structural set theorists that we are getting at what was the real meaning all along.  You might as well say that Dedekind changed the semantics of algebra and analysis when he identified ideal numbers and real (possibly irrational) numbers with certain sets, and in a way he did, but he also clarified those ideas.  And it is not just us, coming along more than a hundred years after Cantor to change the language; people have been doing structural set theory for some time, and it pops up in many places.  Errett Bishop, for example, who wanted a constructive theory (not particularly a structural theory), wrote down a structural theory in his handbook of analysis all the same, even defining a subset of $X$ as a set $A$ equipped with an injection to $X$ (an unfamiliarity which the point of $\mathbf{SEAR}$ is largely to avoid).  Any application of set theory in which we do not care what our sets\' elements\' elements are is inherently structural and translates directly into structural terms.  Any time that someone says 'Relabel the element of $B$ if necessary so that $B$ will be disjoint from $A$, then consider $A \cup B$.', they really mean 'Consider the [[disjoint union]] of $A$ and $B$.' in a structural set theory.  Very rarely do applications of set theory *ever* call for the hierarchy of [[pure sets]].
 
@@ -75,14 +82,15 @@ is equivalent to ZF.
 
 *  _Toby_:  This is all fairly well known; see (for example) [Mac Lane & Moerdijk](http://www.amazon.com/Sheaves-Geometry-Logic-Introduction-Universitext/dp/3540977104) (I think Section VI.5) for details (although this does not deal with Replacement/Collection),
 
-so it is <i>not</i> a verification of the ZF axioms, which is what I had claimed is missing. 
+   AN:  so it is *not* a verification of the ZF axioms, which is what I had claimed is missing. 
 
-_Toby_ continues: 
- or Chapter 8 of Mike\'s paper Unbounded Quantifiers and Strong Axioms in Topos Theory (is that available yet, Mike?).  Of course, these start with an explicitly categorial approach, but the equivalence of that with the approach of $\mathbf{SEAR}$ is fairly straightforward.
+   _Toby_ continues: or Chapter 8 of Mike\'s paper Unbounded Quantifiers and Strong Axioms in Topos Theory (is that available yet, Mike?).  Of course, these start with an explicitly categorial approach, but the equivalence of that with the approach of $\mathbf{SEAR}$ is fairly straightforward.
 
-AN: Then this should be mentioned in the main text rather thaan left for the reader to discover for himself or to wonder whether this is really true. Mathematics has a healthy convention that nontrivial claims are supported either by proofs or references to such proofs. Without these one is entitled to mistrust the claim.
+   [[Mike Shulman]]: No, it's not available yet, sorry.  I got sidetracked with other things.  But it's back near the top of the to-do list.
 
-   * [[Mike Shulman]]: No, it's not available yet, sorry.  I got sidetracked with other things.  But it's back near the top of the to-do list.
+   AN: Then this should be mentioned in the main text rather thaan left for the reader to discover for himself or to wonder whether this is really true. Mathematics has a healthy convention that nontrivial claims are supported either by proofs or references to such proofs. Without these one is entitled to mistrust the claim.
+
+   _Toby_:  You may mistrust it if you like.  It is mentioned up top that this is all original; if there were papers to cite that we knew of, then we would cite them.  If what you really want is to be certain that mathematics can be founded on a structural theory, then you should look at the established literature on $\mathbf{ETCS}$ or the type theory of Per Martin-L&#246;f and Thierry Coquand.
 
 _Toby_ continues: But if you want precision, look at the **Definition** section, not the vague **Idea**.  Equality of pure sets is also defined.  
 (There\'s still an error in that which I haven\'t fixed, but it\'s correct for well-founded pure sets, which are the ones that $\mathbf{ZFC}$ has.)
@@ -110,15 +118,19 @@ one can do all standard mathematics in this universal set, obviating the need fo
 
 *  _Toby_:  I have taught na&#239;ve set theory in a structural way.  
 
-AN: I's like to get a copy of the lecture notes!
+   AN: I's like to get a copy of the lecture notes!
 
-_Toby_ continues: 
+   *  _Toby_:  No lecture notes, I\'m afraid, but you can look at the [homework assignments](http://www.ugcs.caltech.edu/~toby/MATH11/2006/homework/).  I\'m not sure if you\'ll like it, since it\'s not very formal; I\'ll probably still have to convince you that everything can be formalised in $\mathbf{SEAR}$ (which is fine, just ask).  The assignment for July 10 makes it particularly clear that the set theory is structural, and it shows you how to intepret in a structural framework some of the most basic questions of na&#239;ve set theory; the assignment for July 13 is also a good one for featuring the disjoint union.  But really, the point to get is that you normally *can\'t* tell whether someone thinks of set theory materially or structurally; the ideas are almost always almost exactly the same.  So if you\'re not sure how to formalise, say, July 11 in $\mathbf{SEAR}$, then perhaps we should talk about that.
+
+   _Toby_ continues: 
 Not that I made a big point about that, but then I didn\'t need to!  The only thing unusual that I had to do was to introduce the concept of disjoint union, which actually made the applications in that course (which were to combinatorics) a little easier.  Of course, a course in axiomatic set theory would have to be rewritten.
 
    For the exercise 'What is the union of $\{a,b,c\}$ and $\{a,b,d\}$?', there is no need to change that in the na&#239;ve course.  But formally, it means 'Let $U$ be a set, and let $a,b,c,d$ be elements of $U$.  Then (by previous results) we have subsets $\{a,b,c\}$ and $\{a,b,d\}$ of $U$.  Find a similar expression for the union of these subsets.'.
 
-AN: And you are not allowed to claim that {a,b,c} are sets!
-I am quite sure you didn't go that far in your course on naive set theory!
+   AN: And you are not allowed to claim that {a,b,c} are sets!
+   I am quite sure you didn't go that far in your course on naive set theory!
+
+   _Toby_:  I don\'t understand what you\'re saying that I\'m not allowed to claim here.  There is a technical distinction between $\{a,b,c\}$ as a subset of $U$ and $\{a,b,c\}$ as a $3$-element set in its own right, one which is usually glossed over.  But you can think of it as either, if you wish.  The subset comes first; in $\mathbf{SEAR}$ it is a relation $1 \looprightarrow U$; then its tabulation is a $3$-element set, which by abuse of notation we also write $\{a,b,c\}$.
 
 Mike Shulman continues:
  The reason I believe in structural set theory is not out of a philosophy that this is the "real" meaning of sets; in fact I think that ZF-theorists are studying a very real and interesting world!  But when I look at most mathematics as it is done by most mathematicians, what I see is sets treated structurally---so I think we should have a foundational account of sets which treats them that way.
@@ -132,21 +144,26 @@ that style.
 
 [[Mike Shulman]]: Can you cite some example of mathematics outside of ZF-theory which really treats sets materially?
 
-In analysis, the vector space of real n-dimensional 
+AN:  In analysis, the vector space of real n-dimensional 
 column vectors is probably universally treated as material.
 
+*  _Toby_:  How can you tell?
 
 The material point of view is even clearly visible in books on abstract algebra that use category theory, such as 
-   Serge Lang, Algebra, second printing 1970 
+
+:  Serge Lang, Algebra, second printing 1970 
+
 (which I happen to have at hand; sorry - my books on elementary math are all 40 years old, but all mathematics done then is still valid mathematics today!)
 
 He begins in the first paragraph of the prerequisites 
 with the assumption that a set may be contained in another set. This is actually heavily used; for example, a subgroup is for him clearly a group contained in another group, and not a group isomorphic to a such a group.
 
 [This is also the case in modern text; the first algebra lecture notes I found with Google was 
-<a href="http://www.maths.tcd.ie/~dwilkins/Courses/311/311S1_0708.pdf">by Wilkins</a> has the same terminology for subgroups.
+[by Wilkins](http://www.maths.tcd.ie/~dwilkins/Courses/311/311S1_0708.pdf) has the same terminology for subgroups.
 
-In Section I.7 on categories, he explicitly uses the formula A=B comparing two objects of a category for equality. Since Lang explicitly defines each allowed abuse of language, e.g., ``By abuse of language, we sometimes refer to the collection of objects [of a category] as the category itself'', it is clear that he doesn't consider A=B as an abuse of language, and hence adheres to a material point of view.
+In Section I.7 on categories, he explicitly uses the formula A=B comparing two objects of a category for equality. Since Lang explicitly defines each allowed abuse of language, e.g., "By abuse of language, we sometimes refer to the collection of objects [of a category] as the category itself", it is clear that he doesn't consider A=B as an abuse of language, and hence adheres to a material point of view.
+
+*  _Toby_:  If $A$ and $B$ are objects in the same category, then writing $A = B$ is perfectly structural.  It\'s [[evil]], but that\'s a somewhat different matter.  In category theory founded on $\mathbf{SEAR}$, comparing objects of a small category for equality is perfectly legitimate, because we have a set of objects.  It gets messier when you talk about *large* categories; since you can\'t write $A = B$ for sets in $\mathbf{SEAR}$, you can\'t do it for objects of the category of sets either.  (On the other hand, this is still not a matter of structural set theory exactly; for example $\mathbf{ETCS}$ admits a notion of equality of sets.)
 
 One can probably rewrite everything in a way that avoids all material issues, but 
 (i) it hasn't be done, and 
@@ -155,6 +172,16 @@ One can probably rewrite everything in a way that avoids all material issues, bu
 [[Mike Shulman]]: I think the claim is not that existing mathematics doesn't use the *language* of material set theory (after all, for decades that was the only language there was), but rather that its *essence* does not.  Show me a result using the fact that a subgroup is a group literally contained in another group, but which would not work just as well for any injective group homomorphism.
 
 AN: Maybe, but this cannot be discussed objectively since essence is not well-defined. 
+
+_Toby_:  I *do* claim that existing mathematics uses the language of material set theory only a little more than it uses the language of structural set theory; for the most part, it is simply indifferent between them.  In both cases, it is rife with little abuses of terminology and notation; if (like Lang) one is careful about that sort of thing, then it will be clear whether one thinks of sets materially or structurally.  But if Lang had written the prerequisite set theory structurally, then the definition of 'subgroup' could still have been written with exactly the same words (from my copy, 1993 edition)
+
+>Let $G$ be a group.  A __subgroup__ $H$ of $G$ is a subset of $G$ containing the unit element, and such that $H$ is closed under the law of composition and inverse.
+
+In the prerequisites, he might(\*) mention the abuse of language in which a subset is conflated with its underlying set (what Mike calls its 'tabulation'), which we need in order to think of $H$ as a set (and then a group) in its own right.  But that is all in the set theory; the language of algebra is *the same*.
+
+(\*)  On the other hand, there are other things that he did not mention.  For a map $f : A \to B$, he defined the preimage $f^{-1}(B')$ of a subset $B'$ of $B$, but never defined the image $f(A')$ of a subset of $A$, even though this is used in the text.  (He only mentioned $f(A)$ itself.)  If he had, then he would have had to note the ambiguity in the case that $A'$ is also an element of $A$; this doesn\'t come up structurally.  (Even for $f(A)$, it\'s hard to imagine that really intended to rely on the axiom of foundation to rule out the possibility that $A \in A$.)  He took care to define what a 'family of elements' of a given set is, but not a 'family of sets', even though he mentions the concept.  That is harder to formalise, both materially and structurally.  Basically, he seems to avoid things that are tricky to state precisely.
+
+The most common exception that I admit to my thesis is the [[disjoint union]], or rather the reluctance to see this as one of the basic operations of set theory.  It is actually easier (although not much) to construct a disjoint union materially than structurally (unless you take its existence as an axiom), but many people don\'t bother.  What I do see is a lot of broad abuse of language to get around this, such as 'Take two disjoint copies of $A$.' or 'If $A$ and $B$ are not disjoint, then relabel the elements of $B$ so that they are, and consider $A \cup B$.'.  Structurally, you would not be tempted to say such things; although if we had all grown up with structural set theory, I\'m afraid that we might have a tendency write '$A \cup B$' for the disjoint union when $A$ and $B$ bear no relation, and that would also be an abuse of notation.
 =--
 
 +--{: .query}
@@ -193,9 +220,7 @@ Note that experts will probably always prefer to build their own car/OS; the goa
 
 ## Types ##
 
-SEAR is a theory about three types of things: **sets**, **elements**, and **relations**.  
-Every element, and every variable that ranges over elements, is always associated to something denoting a set (which might be a constant or a variable); we say it is an element **of** that set.  If $x$ is an element of $A$ we write $x\in A$; note that this is not an *assertion* which may be true or false, but a *typing* declaration.  In formal terms, this means that SEAR is a [[dependent type theory]]. 
-
+SEAR is a theory about three kinds of things: **sets**, **elements**, and **relations**.  Every element, and every variable that ranges over elements, is always associated to something denoting a set (which might be a constant or a variable); we say it is an element **of** that set.  If $x$ is an element of $A$ we write $x\in A$; note that this is not an *assertion* which may be true or false, but a *typing* declaration.  In formal terms, this means that SEAR is a [[dependent type theory]], with a type of sets, a type of elements for each set term, and a type of relations for each pair of set terms. 
 +--{: .query}
 [[Arnold Neumaier]]: 
 After the discussion on the n-Cafe, I understand this better and would appreciate rewording, either:
@@ -206,11 +231,9 @@ or:
 
 SEAR is a theory about three kinds of things: **sets**, **elements**, and **relations**.  ... In formal terms, this means that SEAR is a [[dependent type theory]] whose types are **sets**, **elements of $S$** for any set $S$, and **relations between $S$ and $T$** for any set $S$ and any set $T$. 
 
+_Toby_:  Yes, you\'re right; I like the second, which I incorporated and rephrased slightly.
 =--
-
-
-
- One consequence of this is that whenever we quantify over elements we must always quantify over elements *of some set*; thus we can say "for all elements $x\in A$" but not "for all elements $x$."  Another consequence is that the assertion $x=y$ is only well-formed (a precondition to its being true _or_ false) if $x$ and $y$ are elements of the same set.
+One consequence of this is that whenever we quantify over elements we must always quantify over elements *of some set*; thus we can say "for all elements $x\in A$" but not "for all elements $x$."  Another consequence is that the assertion $x=y$ is only well-formed (a precondition to its being true _or_ false) if $x$ and $y$ are elements of the same set.
 
 In a similar manner, every relation is always associated to an ordered pair of sets, the first called its **[[source]]** and the second its **[[target]]** (thus the fundamental relations in SEAR are binary relations).  If $\varphi$ is a relation from $A$ to $B$ we write $\varphi:A\looparrowright B$.  As with elements, the assertion $\varphi=\psi$ is only well-formed if $\varphi$ and $\psi$ have the same source and the same target.
 
@@ -513,7 +536,7 @@ For if it is not needed there, it seems (though I am not completely sure if this
 
 [[Mike Shulman]]: If $Con(SEAR-Collection)\Rightarrow Con(ZF)$ but $Con(ZF)\Rightarrow Con(SEAR)$, then it would of course follow that $Con(SEAR-Collection)\Rightarrow Con(SEAR)$.  But it wouldn't necessarily be true that Collection itself, rather than merely its consistency, follows from the other axioms.
 
-Regardless, there is no hope of $Con(SEAR-Collection)\Rightarrow Con(ZF)$, since as Toby says $V_{\omega+\omega}$ (or more generally any model of Zermelo set theory) models SEAR-Collection, but is strictly weaker than $ZF$.
+Regardless, there is no hope of $Con(SEAR-Collection)\Rightarrow Con(ZF)$, since as Toby says $V_{\omega+\omega}$ (or more generally any model of Zermelo set theory) models $SEAR-Collection$, but is strictly weaker than $ZF$.
 =--
 
 
