@@ -11,7 +11,15 @@ Barring opinions whether zero should be a natural number, in SEAR we have sets $
 
 ## Two and above ##
 
-Now assume we have defined a set $\mathbf{n}$ with $n$ elements, $1,\ldots,n$. Denote by $\underline{1},\ldots,\underline{n}$ the corresponding subsets each with one element. From axiom 3 we have a power set $P\mathbf{n}$. Let $\phi_{n+1}:\mathbf{1} \looparrowright P\mathbf{n}$ be a relation such that $\phi_{n+1}(*,\underline{i})$ for $i=1,\ldots,n$ and $\phi(*,\mathbf{n})$ where are are blurring the line between subsets of $\mathbf{n}$ and elements of $P\mathbf{n}$ (DR: someone tell me either that this is ok, or how to phrase it better). Then a tabulation of $\phi_{n+1}$ will have $n+1$ elements and we fix one of these as $\mathbf{n+1}$.
+Now assume we have defined a set $\mathbf{n}$ with $n$ elements, $1,\ldots,n$. Denote by $\underline{1},\ldots,\underline{n}$ the corresponding subsets each with one element. From axiom 3 we have a power set $P\mathbf{n}$. Let $\phi_{n+1}:\mathbf{1} \looparrowright P\mathbf{n}$ be a relation such that $\phi_{n+1}(*,\underline{i})$ for $i=1,\ldots,n$ and $\phi(*,\mathbf{n})$ where are are blurring the line between subsets of $\mathbf{n}$ and elements of $P\mathbf{n}$ (DR: someone tell me either that this is ok, or how to phrase it better).
+
++--{: .query}
+[[Mike Shulman]]: I think it's fine, though AN might object.  A more formal thing to say would be that $\phi_{n+1}(*,u)$ whenever the subset $\{ i | \epsilon(i,u)\}$ of $\mathbf{n}$ has either exactly one element or is equal to all of $\mathbf{n}$.
+
+However, I don't think your definition works when $n=1$, since in that case, $\underline{1} = \mathbf{1}$!  Perhaps instead of $\phi(*,\mathbf{n})$ you want $\phi(*,\emptyset)$?
+=--
+
+Then a tabulation of $\phi_{n+1}$ will have $n+1$ elements and we fix one of these as $\mathbf{n+1}$.
 
 The construction on $\mathbf{1},\mathbf{2},\ldots$ only requires a fragment of SEAR, namely axioms 0,1,2 and 3, and even holds in the analogous fragment of bounded SEAR.
 
