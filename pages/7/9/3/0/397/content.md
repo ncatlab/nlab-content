@@ -29,6 +29,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[Geoff Cruttwell]]
 * [[Gonçalo Marques]]
 * [[Greg Egan]]
+* [[Ivo]]
 * [[jdthomas|J. D. Thomas]]
 * [[Jacques Distler]]
 * [[Jamie Vicary]]
