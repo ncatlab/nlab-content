@@ -48,6 +48,9 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ***
 ##2009-09-24
+
+* [[David Roberts]]: polishing up [[natural numbers in SEAR]]. The definition is in, now.
+
 * [[Zoran ?koda]]: created [[Ore localization]].
 
 * [[Urs Schreiber]]: worked on [[geometry (for structured (infinity,1)-toposes)]]
