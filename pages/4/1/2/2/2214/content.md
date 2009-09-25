@@ -47,13 +47,18 @@ The syntax on the forum is ever-so-slightly different to that here.  You can use
 To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5).  When we "go live" (which will happen soon), I'll clean out the discussions so feel free to have a play first.  Any comments and suggestions should be recorded [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=64) (you'll have to create an account to comment on this, though).
 
 ***
-##2009-09-25
+
+
+## 2009-09-25
+
+*  [[Toby Bartels]]:  [[SEAR]], [[pure set]], [[natural numbers in SEAR]], [[category theory]].
 
 * [[David Roberts]]: fixed up problem at [[natural numbers in SEAR]] pointed out by Mike, and included another, cleaner, definition.
 
 * [[Zoran ?koda]]: created [[universal enveloping algebra]], [[enveloping algebra]].
 
-##2009-09-24
+
+## 2009-09-24
 
 * [[Mike Shulman]]:
   * Response/suggestion at [[natural numbers in SEAR]]
@@ -87,9 +92,10 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 * [[David Roberts]]: A bit at [[Morita equivalence]], on the version for Lie groupoids, and a sketchy start to universes in [[SEAR]].
 
-## 2009-09-23
-* [[Zoran ?koda]] created a rough outline for [[Ore set]] and plan to have the entry on Ore localization separate.
 
+## 2009-09-23
+
+* [[Zoran ?koda]] created a rough outline for [[Ore set]] and plan to have the entry on Ore localization separate.
 
 * [[Urs Schreiber]]: created [[Euclidean supermanifold]] and worked slightly more on the stub for [[Clifford algebra]]
 
@@ -114,6 +120,7 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
    * I believe a semicolon $;$ is already commonly used by many people for composing things in "diagrammatic" order. -Mike
 
    * Yes, there's a Z-notation semicolon &#10814; (unicode &#10814;) that I tried for a while, but it always looks more like a (California) stop than a connector --- besides, Kurt Vonnegut says not to use 'em.
+
 
 ## 2009-09-22
 
