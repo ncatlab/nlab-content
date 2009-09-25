@@ -51,6 +51,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-25
 
+* [[Zoran ?koda]] created [[localized coinvariant]], [[universal localization]], [[noncommutative localization]], [[coinvariant]]; new links at [[Zoran ?koda]]. 
+
 * [[David Roberts]]: question for Toby at [[natural numbers in SEAR]], in \'alternative approach\'.
 
 *  [[Toby Bartels]]:  [[SEAR]], [[pure set]], [[natural numbers in SEAR]], [[category theory]], [[choice operation]].
