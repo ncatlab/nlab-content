@@ -49,6 +49,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 ***
 ##2009-09-25
 
+* [[David Roberts]]: fixed up problem at [[natural numbers in SEAR]] pointed out by Mike, and included another, cleaner, definition.
+
 * [[Zoran ?koda]]: created [[universal enveloping algebra]], [[enveloping algebra]].
 
 ##2009-09-24
