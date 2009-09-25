@@ -386,11 +386,13 @@ Is this a good replacement for the sentence at the top of the page that started 
 
 **suggestion**
 
-A theory of enlarged [[simplicial set|simplicial sets]] (in the sense of enlarging sets to classes) presented by Set-valued [[presheaf|presheaves]] on the full subcategory $[0] \overset{\rightarrow}{\underset{\rightarrow}\leftarrow} [1] \overset{\rightarrow}{\underset{\rightarrow}{\overset{\leftarrow}{\underset{\leftarrow}\rightarrow}}} [2]$ of $\Delta$ (where $\Delta$ also contains large simplicies). The enlarged simplicial sets must also satisfy the condition: X an enlarged simplicial set $\Rightarrow$ the Segal maps $X_n \to X_1 \times_{X_0} X_1 \times_{X_0} \ldots \times_{X_0} X_1$ are isomorphisms for $n \geq 0$. The correspondence constructs a category from its [[nerve]] by the categorical realization functor, and the inverse functor constructing a categorys nerve is the generalized nerve functor (generalization of the nerve functor to have enlarged simplicial sets as its codomain).
+A theory of enlarged [[simplicial set|simplicial sets]] (in the sense of enlarging sets to classes) presented by Set-valued [[presheaf|presheaves]] on the full subcategory $[0] \overset{\rightarrow}{\underset{\rightarrow}\leftarrow} [1] \overset{\rightarrow}{\underset{\rightarrow}{\overset{\leftarrow}{\underset{\leftarrow}\rightarrow}}} [2]$ of $\Delta$ (where the [[simplex category]] $\Delta$ also contains large simplicies). The enlarged simplicial sets must also satisfy the condition: X an enlarged simplicial set $\Rightarrow$ the Segal maps $X_n \to X_1 \times_{X_0} X_1 \times_{X_0} \ldots \times_{X_0} X_1$ are isomorphisms for $n \geq 0$. The correspondence constructs a category from its [[nerve]] by the categorical realization functor, and the inverse functor constructing a categorys nerve is the generalized nerve functor (generalization of the nerve functor to have enlarged simplicial sets as its codomain).
 
 **end suggestion**
 
-I recall this condition on the simplicial sets Todd gave. I did't put it this way but i was asking for it in terms of these presheaves. It feels funny starting with simplicial sets as sets, then see them as presheaves, and then see them as sets again. 
+I recall this condition on the simplicial sets Todd gave. I did't put it this way but i was asking for it in terms of these presheaves. It feels funny starting with simplicial sets as sets, then see them as presheaves, and then see them as sets again.
+
+It is fine to take limits and Kan extend simplicial sets as presheaves but one must not forget what it corresponds to for simplicial sets that are built out of simplicies. This "dictionary" is one of the things i can't find.
 
 And i still wonder how the composition of a category looks like in this presheaf language.
 
