@@ -4,10 +4,7 @@
 [[!include mathematicscontents]]
 ***
 [[!include physicscontents]]
-***
-[[!include philosophycontents]]
 </div>
-
 
 Welcome!
 
