@@ -396,6 +396,15 @@ It is fine to take limits and Kan extend simplicial sets as presheaves but one m
 
 And i still wonder how the composition of a category looks like in this presheaf language.
 
+_Todd_: Don't worry, I didn't see you as opposing me. I agree with you that someone should have used the word "small" when talking about categories as simplicial sets. 
+
+The truncated simplicial sets you're considering have been considered; the level at which you truncated (I'll say "2-skeletal" since you truncated so as to leave the parts in dimension up to 2) is certainly sufficient to encode the <i>data</i> of a category via the evident 2-skeletal nerve. [1-skeletal simplicial sets are reflexive directed graphs, and for those things the 1-skeletal nerve functor is just the forgetful functor from categories to reflexive directed graphs.] 
+
+To answer your last question: composition in the category is modeled in the nerve by the "middle" face operator 
+$$C_2 = C_1 \times_{C_0} C_1 \to C_1$$ 
+which in functorial language (thinking of a simplicial set $C$ as a presheaf) is $C(f)$, where $f$ is the monomorphism in $\Delta$ from the 2-element ordinal to the 3-element ordinal that leaves out the middle element. The same fact holds true for the 2-skeletal nerve. 
+
+Yes, it's certainly possible to view small categories as 2-skeletal simplicial sets, but the Segal conditions are not quite sufficient to characterize 2-skeletal nerves of categories. The missing condition not accounted for by the Segal conditions is associativity of composition. On the other hand, for _3-skeletal_ nerves, the Segal conditions would be enough. 
 =--
 
 +--{.query}
