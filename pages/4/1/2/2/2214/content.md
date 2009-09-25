@@ -51,13 +51,15 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-25
 
+*  [[Toby Bartels]]:  Sorry at [[natural numbers in SEAR]].
+
 * [[Rafael Borowiecki]]: Replied at [[category theory]] and suggested changing one of the views what category theory is.
 
 * [[Zoran ?koda]] created [[localized coinvariant]], [[universal localization]], [[noncommutative localization]], [[coinvariant]]; new links at [[Zoran ?koda]]. 
 
 * [[David Roberts]]: question for Toby at [[natural numbers in SEAR]], in \'alternative approach\'.
 
-*  [[Toby Bartels]]:  [[SEAR]], [[pure set]], [[natural numbers in SEAR]], [[category theory]], [[choice operation]].
+*  [[Toby Bartels]]:  [[SEAR]], [[pure set]], [[natural numbers in SEAR]], [[category theory]], [[choice operator]].
 
 * [[David Roberts]]: fixed up problem at [[natural numbers in SEAR]] pointed out by Mike, and included another, cleaner, definition.
 
