@@ -37,7 +37,9 @@ Assume we have defined $\mathbf{n}$ for $n \geq 1$. Then let $\psi_{n+1}:\mathbf
 
 This definition holds in a bounded fragment, just as above.  However, this definition requires Collection (Axiom 5), which the previous one did not, in exchange for Power sets (Axiom 3).
 
-
++--{: .query}
+[[David Roberts]]: Does this remark (about collection/power sets) belong here or in the next section? Certainly, I haven't gotten rid of power sets and I hope I haven't included collection.
+=--
 ## Replacing the power set axiom by something else ##
 
 As suggested by Toby, one could take as an axiom the existence of $\mathbf{2}$, together with axioms 0,1,2 and 5 of SEAR, instead of powersets (axiom 3). From Collection we get binary coproducts, so we could define $\mathbf{n}$ as $\mathbf{1}\coprod(\mathbf{1} \coprod ( \ldots\coprod \mathbf{1})\ldots)$ ($n$ times). (DR: this needs spelling out better, with tabulations, but that's the general idea).
