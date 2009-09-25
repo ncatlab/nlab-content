@@ -86,6 +86,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
   * [[Mike Shulman]]: I guess that would be me.
 
+  * [[Andrew Stacey]]: Great!  I have a [forum discussion](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=85) for you.  Of course, anyone else interested in using Emacs for editing nLab pages is welcome to join in.
+
 * [[Ivo]] created [[free groupoid]] and [[Urs Schreiber]] went over it and added links, and typeset math.
 
 * [[Mike Shulman]]: A different viewpoint on universes in [[SEAR]].
