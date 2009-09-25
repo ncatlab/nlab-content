@@ -51,11 +51,6 @@ Categories were named after the examples of [[concrete category|concrete categor
 >([[Saunders Mac Lane]], [[Categories Work|Categories for the Working Mathematician]], 29&#8211;30).
 
 However, the [[category|categories]] of category theory are way more general than these [[concrete category|concrete categories]], and the way Aristotle and Kant use the term is not particularly related to what Eilenberg & Mac Lane did with it.
-
-+-- {: .query}
-I removed the refernce to type theory in the last paragraph, since I was probably the source for it, and it goes beyond what I meant to say or what I think is justified.  ---Toby
-=--
-
 =--
 
 
