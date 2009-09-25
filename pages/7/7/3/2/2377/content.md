@@ -130,7 +130,7 @@ Not that I made a big point about that, but then I didn\'t need to!  The only th
    AN: And you are not allowed to claim that {a,b,c} are sets!
    I am quite sure you didn't go that far in your course on naive set theory!
 
-   _Toby_:  I don\'t understand what you\'re saying that I\'m not allowed to claim here.  There is a technical distinction between $\{a,b,c\}$ as a subset of $U$ and $\{a,b,c\}$ as a $3$-element set in its own right, one which is usually glossed over.  But you can think of it as either, if you wish.  The subset comes first; in $\mathbf{SEAR}$ it is a relation $1 \looprightarrow U$; then its tabulation is a $3$-element set, which by abuse of notation we also write $\{a,b,c\}$.
+   _Toby_:  I don\'t understand what you\'re saying that I\'m not allowed to claim here.  There is a technical distinction between $\{a,b,c\}$ as a subset of $U$ and $\{a,b,c\}$ as a $3$-element set in its own right, one which is usually glossed over.  But you can think of it as either, if you wish.  The subset comes first; in $\mathbf{SEAR}$ it is a relation $1 \looparrowright U$; then its tabulation is a $3$-element set, which by abuse of notation we also write $\{a,b,c\}$.
 
 Mike Shulman continues:
  The reason I believe in structural set theory is not out of a philosophy that this is the "real" meaning of sets; in fact I think that ZF-theorists are studying a very real and interesting world!  But when I look at most mathematics as it is done by most mathematicians, what I see is sets treated structurally---so I think we should have a foundational account of sets which treats them that way.
@@ -182,6 +182,10 @@ In the prerequisites, he might(\*) mention the abuse of language in which a subs
 (\*)  On the other hand, there are other things that he did not mention.  For a map $f : A \to B$, he defined the preimage $f^{-1}(B')$ of a subset $B'$ of $B$, but never defined the image $f(A')$ of a subset of $A$, even though this is used in the text.  (He only mentioned $f(A)$ itself.)  If he had, then he would have had to note the ambiguity in the case that $A'$ is also an element of $A$; this doesn\'t come up structurally.  (Even for $f(A)$, it\'s hard to imagine that really intended to rely on the axiom of foundation to rule out the possibility that $A \in A$.)  He took care to define what a 'family of elements' of a given set is, but not a 'family of sets', even though he mentions the concept.  That is harder to formalise, both materially and structurally.  Basically, he seems to avoid things that are tricky to state precisely.
 
 The most common exception that I admit to my thesis is the [[disjoint union]], or rather the reluctance to see this as one of the basic operations of set theory.  It is actually easier (although not much) to construct a disjoint union materially than structurally (unless you take its existence as an axiom), but many people don\'t bother.  What I do see is a lot of broad abuse of language to get around this, such as 'Take two disjoint copies of $A$.' or 'If $A$ and $B$ are not disjoint, then relabel the elements of $B$ so that they are, and consider $A \cup B$.'.  Structurally, you would not be tempted to say such things; although if we had all grown up with structural set theory, I\'m afraid that we might have a tendency write '$A \cup B$' for the disjoint union when $A$ and $B$ bear no relation, and that would also be an abuse of notation.
+
+[[Mike Shulman]]: I'm actually basically in agreement with you, Toby, but I didn't feel like getting into detail about the sorts of "abuses" (i.e. definitions of terminology/notation) that are necessary to read existing mathematics in a structural way.  But you make a good point that reading it in a material way requires different "abuses," some of which people tend to make explicit and some of which they don't.
+
+BTW, in a more leisurely pedagogical treatment of SEAR, I would be tempted to include an axiom of disjoint unions early on, and only remark later, after powersets are introduced, that they imply the existence of disjoint unions.
 =--
 
 
@@ -229,6 +233,8 @@ or:
 SEAR is a theory about three kinds of things: **sets**, **elements**, and **relations**.  ... In formal terms, this means that SEAR is a [[dependent type theory]] whose types are **sets**, **elements of $S$** for any set $S$, and **relations between $S$ and $T$** for any set $S$ and any set $T$. 
 
 _Toby_:  Yes, you\'re right; I like the second, which I incorporated and rephrased slightly.
+
+[[Mike Shulman]]: Yes, this is good.
 =--
 One consequence of this is that whenever we quantify over elements we must always quantify over elements *of some set*; thus we can say "for all elements $x\in A$" but not "for all elements $x$."  Another consequence is that the assertion $x=y$ is only well-formed (a precondition to its being true _or_ false) if $x$ and $y$ are elements of the same set.
 
