@@ -380,9 +380,9 @@ to the $n$-fold pullback is an isomorphism. Third, as to "By the way this functo
 
 Why then think of a simplicial set as a presheaf on $\Delta$? Basically, I'd say because a lot of very elegant general constructions and arguments can be made at the level of presheaf categories (e.g., the clear conceptual picture of geometric realization as a Kan or weighted colimit construction), and also an awful lot is known about the domain category $\Delta$, so that it is an advantage to think in functorial terms. Category theory has this amazing ability to compress large quantities of mathematics into tight conceptual packages, and raises one's mathematical vision to a higher level as a result; the sort of piecemeal description of simplicial sets via simplicial identities is certainly good for concrete detailed calculations, but one deprives oneself of conceptual insight if one always thinks in those terms. 
 
-_Rafael_: Please don't see me as complaining and opposing almost everything you write. I just like to get to the bottom of problems using logic. Which may involve often skipped details. Just because i write something it don't mean i am against the opposite of what i wrote. When i ask something i have usually tried to figure it out first, and in general it feels like there are many things in fairly basic category theory not written down or written out (explicitly as they should be).
+_Rafael_: Please don't see me as complaining and opposing almost everything you write. I just like to get to the bottom of problems using logic. Which may involve often skipped details. Just because i write something it don't mean i am against the opposite of what i wrote. When i ask something i have usually tried to figure it out first, and in general it feels like there are many things in fairly basic category theory not written down or written out (explicitly as they should be). Mike Shulmans explanation of nerves of large categories being one of them. It should be added to [[nerve]].
 
-Is this a good replacement for the sentence at the top of the page that started this discussion?
+Is this a good replacement for the sentence at the top of the page that started this last discussion?
 
 **suggestion**
 
