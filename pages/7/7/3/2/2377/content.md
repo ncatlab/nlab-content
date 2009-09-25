@@ -184,9 +184,6 @@ In the prerequisites, he might(\*) mention the abuse of language in which a subs
 The most common exception that I admit to my thesis is the [[disjoint union]], or rather the reluctance to see this as one of the basic operations of set theory.  It is actually easier (although not much) to construct a disjoint union materially than structurally (unless you take its existence as an axiom), but many people don\'t bother.  What I do see is a lot of broad abuse of language to get around this, such as 'Take two disjoint copies of $A$.' or 'If $A$ and $B$ are not disjoint, then relabel the elements of $B$ so that they are, and consider $A \cup B$.'.  Structurally, you would not be tempted to say such things; although if we had all grown up with structural set theory, I\'m afraid that we might have a tendency write '$A \cup B$' for the disjoint union when $A$ and $B$ bear no relation, and that would also be an abuse of notation.
 =--
 
-+--{: .query}
-[[David Roberts]]: I'm going to have a go at defining [[natural numbers in SEAR]] (or SER), but I'll probably need some friends to help me down the unfamiliar path...
-=--
 
 # Introduction #
 
@@ -472,7 +469,8 @@ It is easy to deduce any of the usual consequences of the axiom of infinity.  Th
 
 Note also that Axiom 4 implies Axiom 0.
 
-
+We can however [[natural numbers in SEAR|define sets]] with $n$ elements for each natural number $n$ directly axioms 0, 1, 2 and 3.
+ 
 ## Collection ##
 
 The final axiom of SEAR is somewhat trickier to motivate.  It corresponds to the [[axiom of replacement]] (or more precisely collection; see [Wikipedia](http://en.wikipedia.org/wiki/Axiom_schema_of_replacement) until we get around to writing our own article) in $\mathbf{ZFC}$, and the reasons that we need it are the same as the reasons that $\mathbf{ZFC}$ needs it.
