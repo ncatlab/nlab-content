@@ -12,8 +12,7 @@ Lie $\infty$-algebroids are defined dually in terms of qDGCAs.
 ###### Definition
 **(quasi-free differential graded-commutative algebras)**
 
-A [[semifree dga|quasi-free differential graded commutative algebra]]
-(**qDGCA**) is 
+A [[semifree dga|quasi-free]] $\mathbb{N}$-graded commutative [[dg-algebra]] (**qDGCA**) is 
 
 * an algebra of smooth functions $A := C^\infty(X)$ on a smooth manifold $X$;
 
@@ -85,7 +84,10 @@ So in particular
 
 ##Further examples##
 
-* [[Courant algebroid]] 
+
+* A [[Courant algebroid]] is not exactly an $L_\infty$-algebroid, but it is encoded by a Lie-3-algebra.
+
+* Standard examples of [[exterior differential system]]s are [[Chevalley-Eilenberg algebra]]s of $L_\infty$-algebroids.
 
 #Further resources#
 
