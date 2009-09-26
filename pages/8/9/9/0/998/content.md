@@ -5,14 +5,13 @@
 
 #Idea#
 
-__Noncommutative algebraic geometry__  is the study of [[space]]s in the fashion of [[algebraic geometry]], but with the difference that where the latter restricts attention to _commutative_ [[ring]]s and [[algebra]]s, noncommutative algebraic geometry allows also _noncommutative_ rings and algebras. 
+__Noncommutative algebraic geometry__  is the study of  'spaces' represented or defined in terms of algebras, or categories. Commutative [[algebraic geometry]], restricts attention to spaces whose local description is via _commutative_ [[ring]]s and [[algebra]]s, while noncommutative algebraic geometry allows for more general local (or affine) models. The categories are viewed as categories of [[quasicoherent sheaf|quasicoherent modules]] on noncommutative locally affine space, and by affine one can think of many algebraic models, e.g. $A_\infty$-algebras; the algebra and its category of modules are in the two descriptions viewed as representing the same space (Morita equivalence should not change the space). Categories are needed as the global "algebra of functions" is usually an incomplete global description while it may be  good enough locally. The categories are typically [[abelian category|abelian]], [[triangulated category|triangulated]], [[dg-category|dg-categories]] or [[A-infinity-category|A-infinity-catgories]].
 
-Therefore noncommutative algebraic geometry extends the [[algebraic geometry|algebraic geometric]] methods ([[local ring]]s, intersection theory etc.) to study noncommutative algebras, and conversely, uses noncommutative algebras in the study of commutative [[algebraic variety|algebraic varieties]] ([[Brauer group]]s, noncommutative desingularizations, [[stack]]s etc.). 
+Noncommutative algebraic geometry extends the [[algebraic geometry|algebraic geometric]] methods ([[local ring]]s, intersection theory etc.) to study noncommutative algebras, and conversely, uses noncommutative algebras in the study of commutative [[algebraic variety|algebraic varieties]] ([[Brauer group]]s, noncommutative desingularizations, [[stack]]s etc.). But some features, phenomena and methods do not have commutative analogues. 
 
 ## tools from derived algebraic geometry ##
 
-A major tool in noncommutative algebraic geometry are methods of [[derived algebraic geometry]] where an entire [[category]] is regarded as a category of [[chain complex]]es of [[quasicoherent sheaf|quasicoherent sheaves]] on a noncommutative space and is then taken to _represent_ that space. These categories are typically [[abelian category|abelian]]
-[[triangulated category|triangulated]], [[dg-category|dg-categories]] or [[A-infinity-category|A-infinity-catgories]].
+A major tool in noncommutative algebraic geometry are methods of [[derived algebraic geometry]] where an entire [[category]] is regarded as a category of [[chain complex]]es of [[quasicoherent sheaf|quasicoherent sheaves]] on a noncommutative space and is then taken to _represent_ that space. 
 
 Notice that such categories are models for [[stable (∞,1)-category|stable (∞,1)-categories]]. Moreover, every [[stable (∞,1)-category]] may automatically be regarded as a stable [[(∞,1)-topos]]. Therefore the method of thinking of a generalized space in terms of a triangulated category is in line with the way [[topos theory]] and in particular [[higher topos theory]] characterizes generalized spaces by [[topos]]es.
 
