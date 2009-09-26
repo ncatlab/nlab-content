@@ -30,4 +30,4 @@ The above definition implies that a category $C$ which represents a nc-space in 
 
   * by complexes of $k$-vector spaces: $Hom(E,F[i])= H^i(\mathbf{Hom}_{C_X}(E,F))$. $C_X$ is $k$-linear over a field $k$ and one writes $X/k$. If instead $k$ is replaced by a ring $R$ then one enriches over complexes of $R$-modules which are cofibrant. 
 
-
+[[!redirects derived noncommutative algebraic geometry]]
