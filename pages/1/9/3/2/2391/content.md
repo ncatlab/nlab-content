@@ -34,11 +34,28 @@ $$
 $$
 
 There is a fully faithful functor $Q_C:C\to LC$ that to any $x\in C$ assigns the trivial cone $id_x :x\to x$ and to any morphism the corresponding morphism of trivial cones. Its right adjoint is the morphism $I_C:LC\to C$ defined by sending the cone $\alpha: x\to d$ over a diagram $d:D\to C$ its vertex $x$ and to a cone morphism $(f,\rho,\bar{f})$, the morphism of vertices $f$. Then $I_C\circ Q_C = Id_C$. The identity transformation can be thus taken as the unit of the adjunction. The counit of the adjunction $\epsilon: Q_C\circ I_C \to Id_{LC}$ is constructed as follows: to a cone $\alpha:x\to d$ assign the morphism $(1_x, const, \alpha)$ where $const: D\to C$ is the constant diagram which is the unique diagram from $D = dom(d)$ to the final category $1=\{\star\}$. One can check that these data indeed define an adjoint pair $Q_C\dashv I_C$ of functors. 
+$Q_C: C\leftrightarrow I_C: LC$ is therefore a Q-category, and it is called the __Q-category of cones__. 
 
+If $\mathcal{L}\subset Cat$ is a family of small categories, then one considers the full subcategory $L_{\mathcal{L}}C$ of cones whose domains are in $\mathcal{L}$; the rest of the construction restricts to obtain a Q-category $Q^{\mathcal{L}}_C : C\leftrightarrow L_{\mathcal{L}}C : I_C^{\mathcal{L}}$. 
+
+The most classical case is when $\mathcal{L}$ is the (say skeletal) category $Dis$ of small discrete categories (=just identity morphisms), one obtains then the Q-category $Q^{Dis}_C: C\leftrightarrow L_{Dis}C$. 
+A __semicosite__ (or semicositus pl. semicositi) is a Q-category of the form $C\leftrightarrow \bar{C}$ where $\bar{C}$ is a full subcategory of $L_{Dis}C$ and the adjoint pair is obtained by the restriction. A semicosite is a __precosite__ (=Grothendieck precotopology) if 
+
+(i) $id_x\in Ob(\bar{C})$ whenever $x\in Ob(C)$.
+
+(ii) $\{x\stackrel{\phi_i}\to x_i\}_{i\in I}\in Ob(\bar{C})$ and $\{x_i\stackrel{\phi_{ij}}\to x_{ij}\}_{j\in J_i}\in Ob(\bar{C})$ then $\{x\stackrel{\phi_{ij}\circ\phi_i}\to x_{ij}\}\in Ob(\bar{A})$
+
+(iii) $\{x\to x_i\}_{i\in I}\in Ob(\bar{C})$ and $g\in C(x,y)$, then the family of pushouts $\{y\mapsto x_i\coprod_x y\}_{i\in I}$ exists and belongs to $Ob(\bar{C})$.
+
+An example of a cosite is a cosite of closed sets of a topological space. 
+
+#Q-categories of functors into a fixed category
+
+If $\mathbb{A} = (Q: A\leftrightarrow\bar{A}: I)$ is a $Q$-category, and $E$ a category, then there is an induced $Q$-category of $E^{\mathbb{A}}:(E^Q: E^{A}\leftrightarrow E^{\bar{A}}):E^I$; the new adjunction has unit $E^{\eta} : Id_{E^A} \to E^Q\circ E^I = E^{IQ}$ and counit $E^\epsilon : E^I\circ E^Q = E^{QI}\to Id_{E^{\bar{A}}}$. 
+
+Any subcategory $B\subset E^{\bar{A}}$ containing $Im(E^I)$ determines a Q-subcategory $E^A\leftrightarrow B$. 
 
 #Other examples
-
-If $Q: A\leftrightarrow\bar{A}: I$ is a $Q$-category, then there is an induced $Q$-category of presheaves of sets $\hat{Q}: A^{Set^\circ}\leftrightarrow \bar{A}^{Set^\circ}$.
 
 The $Q$-category of sieves 
 
