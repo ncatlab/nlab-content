@@ -1,0 +1,1 @@
+The rigid analytic geometry is an analogue of a analytic geometry over a nonarchimedean field. The definitions are done by gluing affinoid spaces (see [[affinoid algebra]]) in certain Grothendieck topology. 
