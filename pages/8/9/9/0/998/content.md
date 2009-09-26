@@ -57,7 +57,7 @@ Motivated by this A. L. Rosenberg has developed many spectral constructions exte
 
 ## derived noncommutative geometry ##
 
-Derived noncommutative geometry is related subject to the commutative [[derived algebraic geometry]] of C. Simpson's school. Cyclic and [[Hochschild homology]] play a major role. This approach *represents* spaces by categories enriched in [[chain complex|cochain complexes]] (dg-category approach) or enriched in spectra. A-infinity categories have some advantages over working with dg-categories.
+The [[derived noncommutative geometry]] is a subject related to the commutative [[derived algebraic geometry]] of C. Simpson's school. Cyclic and [[Hochschild homology]] play a major role. This approach *represents* spaces by categories enriched in [[chain complex|cochain complexes]] (dg-category approach) or enriched in spectra. A-infinity categories have some advantages over working with dg-categories.
 
 Notice that such categories are models for [[stable (∞,1)-category|stable (∞,1)-categories]]. Moreover, every [[stable (∞,1)-category]] may automatically be regarded as a stable [[(∞,1)-topos]]. Therefore the method of thinking of a generalized space in terms of a triangulated category is in line with the way [[topos theory]] and in particular [[higher topos theory]] characterizes generalized spaces by [[topos]]es.
 
