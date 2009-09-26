@@ -45,7 +45,7 @@ $$
 
 where 
 
-* $Str(\mathcal{G})$ are the **$\mathcal{G}$-[[structured (∞,1)-topos]]es**: those $\mathcal{G}$-probeable [[space]]s that have something like an _underlying topological space_ in the generalized form of an underlying **petit [[nLab:(∞,1)-topos]]** which is equipped with [[structure sheaf|structure sheaves]] of [[quantity|function quantities]] with values in objects of $\mathcal{G}$;
+* $Str(\mathcal{G})$ are the **$\mathcal{G}$-[[structured (∞,1)-topos]]es**: those $\mathcal{G}$-probeable [[space]]s that have something like an _underlying topological space_ in the generalized form of an underlying **petit [[(∞,1)-topos]]** which is equipped with [[structure sheaf|structure sheaves]] of [[quantity|function quantities]] with values in objects of $\mathcal{G}$;
   
 * $Sch(\mathcal{G})$ are the **$\mathcal{G}$-[[generalized scheme]]s**: those $\mathcal{G}$-structured spaces that are not only probeable by object of $\mathcal{G}$, but are **locally [[nLab:isomorphism|isomorphic]] to objects in $\mathcal{G}$**.
 
