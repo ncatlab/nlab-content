@@ -50,6 +50,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-26
 
+* [[Urs Schreiber]] worked on [[noncommutative algebraic geometry]]: added lots of links (many to existing entries, some to entries that ought to be created eventually), added more sections and a table of contents, then I expanded the Idea section, trying to give a better idea to laymen. Please check!
+
 * [[Jon Awbrey]] spun off the speculative archaeology of [[category theory]] to its own page at [[precursors]].
 
 * [[Zoran ?koda]] changes to [[generalized scheme]]. 
