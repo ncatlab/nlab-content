@@ -51,6 +51,10 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-25
 
+* [[Mike Shulman]]:
+  * talk at [[choice operator]], TOC at [[pure set]]
+  * added a sketch proof of the ZF collection axiom from the SEAR collection axiom to [[SEAR]]
+
 * [[Todd Trimble]]: added commentary to Rafael's suggestion at [[category theory]], at the end of the penultimate discussion box. 
 
 * [[Urs Schreiber]] created [[exterior differential system]] and related to that [[dg-ideal]] and [[vertical tangent Lie algebroid]]
