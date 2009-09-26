@@ -519,6 +519,8 @@ _Toby_:  I\'m sure that it can\'t be proved by the others, which have a model in
 I would like to see detailed proofs, if Mike has written them up.  I have not yet completely convinced myself that Collection is properly formulated (although I\'m certain that it could be fixed if necessary by writing it in a more function-theoretic way, since I know how to do that myself).
 
 [[Mike Shulman]]: I've added some more detail below regarding the proof of the SEAR Collection axiom from ZF.  When I have time I will add more about the other direction as well, for which I do have something written down (sort of), but in different terminology than is used at [[pure set]].
+
+[[Mike Shulman]]: Now I've added a sketch of the other direction, just for the axiom of collection (the others are more standard).
 =--
 
 
@@ -574,6 +576,8 @@ ETCS can also be augmented with additional axioms to make it equivalent to full 
 
 ## SEAR and ZF ##
 
+### From ZF to SEAR
+
 It is fairly straightforward to construct a model of SEAR from a model of ZF.  Given a model of ZF, we define the SEAR-sets to be the ZF-sets, and the SEAR-elements of $A$ to be the ZF-elements of $A$.  If we prefer, we can take the SEAR-elements of $A$ to be pairs $(x,A)$ where $x\in_{ZF} A$, so that the elements of distinct sets will be disjoint---but this is not necessary, since in SEAR the question of whether two distinct sets have elements in common is not even well-posed.  Finally, we of course take the SEAR-relations $A\looparrowright B$ to be the ZF-subsets of $A\times B$, and we let $\varphi(x,y)$ hold in SEAR iff $(x,y)\in_{ZF} \varphi$.  It is then easy to prove Axioms 0, 1, 2, 3, and 4 from the axioms of ZF, and likewise Axiom 6 follows easily from the axiom of choice in ZFC.  (In fact, Z and ZC, where the replacement axiom is omitted, suffice for these conclusions.)  The only axiom which requires some thought is Collection, and it is here that we use replacement.
 
 +-- {: .num_theorem #zf-coll}
@@ -593,7 +597,25 @@ Then $M_{(a,X)} = X$, since each $V_\lambda$ is a transitive set, so $P((a,X), M
 
 Note the use of the axiom of foundation in addition to the axiom of replacement.  This can be avoided if we use instead the ZF version of the [axiom of collection](http://en.wikipedia.org/wiki/Axiom_of_collection#Axiom_schema_of_collection), which is equivalent to the axiom of replacement over the other ZF axioms (including foundation), by an argument like that above.
 
-Conversely, from any model of SEAR one can *construct* a model of ZF, by taking the sets in ZF to be the "internal well-founded extensional relations."  The basic idea of this process is described at [[pure set]]; more details remain to be filled in.
+### From SEAR to ZF
+
+Conversely, from any model of SEAR one can *construct* a model of ZF.    The basic idea of this process is described at [[pure set]].  Given a model of SEAR, we define a **ZF-set** to be an equivalence class of well-founded extensional accessible graphs, as described at [[pure set]].  We define the global membership relation $\in$ on ZF-sets to be the "immediate subgraph" relation.
+
+The proofs of most of the axioms of ZF are straightforward, and may eventually be found at [[pure set]].  Here we treat the proof of the replacement/collection axiom of ZF from the Collection axiom of SEAR, since that is specific to SEAR.
+
++-- {: .num_theorem #coll-zf}
+###### Theorem
+The ZF-sets constructed from a model of SEAR satisfy the ZF [axiom of collection](http://en.wikipedia.org/wiki/Axiom_of_collection#Axiom_schema_of_collection) (which is equivalent to the axiom of replacement over the other axioms of ZF).
+=--
++--{: .proof}
+###### Proof
+We will prove the version of the ZF axiom of collection which states that for any first-order formula $P$ in the language of ZF, and any ZF-set $A$, there exists a ZF-set $D$ such that for any ZF-element $x\in_{ZF} A$, if there exists a ZF-set $y$ such that $P(x,y)$, then there exists such a $y$ which is a ZF-element of $D$.  Note that any first-order formula in the language of ZF about ZF-sets can easily be translated into a first-order formula in the language of SEAR.
+
+Fix such a $P$ and $A$; thus $A$ is a SEAR-set equipped with a binary relation $\to$ of a certain type.  Let $A'$ be the subset of $A$ consisting of the children of the root of $A$.  For a SEAR-set $X$, let $P'(a,X)$ mean that $X$ admits the structure of a ZF-set such that the ZF-statement $P(down(a),X)$ holds.  By the SEAR axiom of collection, there is a set $B$, a function $p:B\to A'$, and a $B$-indexed family of sets $M:B\looparrowright Y$ such that (1) each $M_b$ admits the structure of a ZF-set with $P(down(p(b)),M_b)$, and (2) if there is a ZF-set $X$ with $P(down(a),X)$, then $a\in im(p)$.
+
+Let $C$ be the subset of $B\times P(Y\times Y)\times Y$ consisting of pairs $(b,r,y)$ such that $y\in M_b$ and $r$ represents a binary relation on $M_b$ making it into a ZF-set such that $P(down(p(b)),M_b)$.  Now $C$ can be equipped with the relation that is the disjoint union of all the $r$s, i.e. we set $(b,r,y)\to (b',r',y')$ iff $b=b'$, $r=r'$, and $y\to_r y'$.  Let $C'=C\sqcup 1$ extend this relation with the additional point being a root, i.e. $(b,r,y)\to \star$ iff $y$ is the root of $r$.  Now $C'$ is a well-founded accessible graph, but it may not be extensional; we take $D$ to be the ZF-set represented by the extensional quotient of $C'$.  
+Then for any $x\in_{ZF}A$, we have $x\cong down(a)$ for some child $a$ of the root of $A$, i.e. $a\in A'$.  Thus, if there is a ZF-set $y$ with $P(x,y)$, then $a\in im(p)$ and so there is such a ZF-set represented by one of the $r$'s occurring in $C$.  By construction, this ZF-set is then equivalent to $down(d)$ for some child of the root of $D$, hence $down(d) \in_{ZF} D$.  Thus $D$ satisfies the requirement of the ZF axiom of collection.
+=--
 
 
 +--{: .query}
