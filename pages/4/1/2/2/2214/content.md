@@ -48,6 +48,10 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ***
 
+## 2009-09-26
+
+* [[Urs Schreiber]] added material to [[cubical set]] (on relation to homotopy theory), that  [[Ronnie Brown]] had posted to the Alg-Top mailing list
+
 
 ## 2009-09-25
 
