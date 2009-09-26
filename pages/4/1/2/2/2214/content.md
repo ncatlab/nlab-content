@@ -49,6 +49,7 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 ***
 
 ## 2009-09-26
+* [[Zoran ?koda]] created entries [[affinoid algebra]], [[rigid analytic geometry]] (just started), [[derived noncommutative geometry]], [[unique factorization domain]].
 
 * [[David Corfield]]
 
