@@ -50,6 +50,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-26
 
+* [[Jon Awbrey]] spun off the speculative archaeology of [[category theory]] to its own page at [[precursors]].
+
 * [[Zoran ?koda]] changes to [[generalized scheme]]. 
 
 * [[Urs Schreiber]] added material to [[cubical set]] (on relation to homotopy theory), that  [[Ronnie Brown]] had posted to the Alg-Top mailing list
