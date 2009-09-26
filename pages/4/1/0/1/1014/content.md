@@ -1,11 +1,13 @@
+* toc
+{:toc}
+
 +--{: .query}
 [[Arnold Neumaier]]: I added some comments originating from my 
 attempts to read this wieth the interpretation of sets as SEAR 
 sets in mind.
 =--
 
-
-## Idea
+# Idea
 
 A **pure set** is a [[set]] of pure sets.
 
@@ -23,7 +25,7 @@ At first, the only well-founded set possible is the [[empty set]] $\empty = \{ \
 For ill-founded sets, there are additional possibilities, such as a set $\bullet$ such that $\bullet = \{\bullet\}$ (a suggestive model for the [[point]]), or sets $A$ and $B$ such that $A = \{B\}$ and $B = \{\empty, A\}$.  These may be ruled out by an appropriate [[axiom of foundation]], or explicitly allowed and tamed by the dual axiom of anti-foundation.
 
 
-## Formalisation ##
+# Formalisation #
 
 In material [[set theory|set theories]] (such as ZFC and its variations), one usually assumes that everything is a pure set (although ur-elements are also sometimes used).  The late addition (von Neumann 1925, Zermelo 1930) of the [[axiom of foundation]] assures that only well-founded sets are included.
 
@@ -32,10 +34,12 @@ In a structural set theory like [[ETCS]], we can model a pure set by its members
 The basic theoretical idea is that the class of well-founded sets is the [[initial algebra]] of the covariant [[power set]] functor, while the class of ill-founded sets is the [[terminal coalgebra]] of the same functor.  Of course, neither of these algebras exists (since this would violate [[Cantor's theorem]]), but we can still describe what their elements would be like (and in fact define these algebras as [[discrete category|discrete]] [[large category|large categories]]).
 
 
-### Membership trees ###
+## Membership trees ##
 
 In this representation, a pure set is a _rigid rooted directed tree_, possibly a _well-founded_ one.  We will define this in several stages:
-*  A __[[graph|directed graph]]__ (technically, a _directed loop-graph_) consists of a set $N$ of __nodes__ and a binary [[relation]] $\to$ on the nodes; a node $i$ is called a __child__ of a node $j$ if $i \to j$.
+
+* A __[[graph|directed graph]]__ (technically, a _directed loop-graph_) consists of a set $N$ of __nodes__ and a binary [[relation]] $\to$ on the nodes; a node $i$ is called a __child__ of a node $j$ if $i \to j$.
+
    +--{: .query}
    AN: Here and later, I have difficulties clearly understanding the 
    meaning of "consists of"; the same holds later for "equipped with"
@@ -139,7 +143,7 @@ _Toby_:  I\'m not sure what you mean by 'should' here.  Do you mean that it woul
 =--
 
 
-#### Examples ####
+### Examples ###
 
 You can think of the root as representing the pure set itself, the root\'s children as the elements of the pure set, the next level as those elements\' elements, and so on.  In other words, the tree pictures the hierarchy of elements of the pure set if each rooted subtree is mapped to its root and $\to$ is interpreted as membership.
 
@@ -253,7 +257,7 @@ So we have $\empty \in \omega_N$, $\star \in \omega_N$, $2_N \in \omega$, etc.
 By definition, a tree models a _[[hereditarily finite set]]_ if every node has finitely many children; a tree models a well-founded hereditarily finite set if and only if it is finite and $\prec$ is [[decidable subset|decidable]].  The relationship between these two facts and the finite-branch formulation of well-foundedness is a form of [[Konig's lemma|Kőnig's Lemma]].
 
 
-### Reflexive-transitive closures as graphs ###
+## Reflexive-transitive closures as graphs ##
 
 The picture above may be seen as an _unwrapped_ representation; there is also a _wrapped_ picture.
 
@@ -271,7 +275,7 @@ These subsidiary notions are also needed:
 In this picture, the nodes are precisely the elements of the reflexive-[[transitive closure]] of the pure set, and the relation $\to$ on them is precisely the membership relation $\in$.
 
 
-#### Examples ####
+### Examples ###
 
 Again, the root represents the pure set itself, the root\'s children are its elements, and so on.  Now, however, there is no more branching than necessary and no repetition whatsoever among the identities of the nodes.
 
@@ -315,12 +319,12 @@ Again we have $\empty \in \omega_N$, $\star \in \omega_N$, $2_N \in \omega$, etc
 Now an extensional accessible graph models a [[hereditarily finite set]] iff the graph itself is finite and $\prec$ is decidable.
 
 
-### Relation between these ###
+## Relation between these ##
 
 Peter Aczel\'s general model of a pure set is any _simple directed accessible pointed pseudograph_.  That is, the graph need not be a tree (much less a rigid one), nor need it be extensional.  One can make such a graph extensional by identifying nodes to make the extensional quotient as explained at [[extensional relation]].  Then one can unwrap this extensional graph into a rigid tree by including one copy of each node for each of its paths to the root.  So there are two extreme ways to represent a pure set by an isomorphism class of graphs, but any accessible graph will represent a pure set one way or another.
 
 
-## References ##
+# References #
 
 *  Peter Aczel (1988).  Non-well-founded sets.  CSLI 14; Stanford University.  [PDF](http://standish.stanford.edu/pdf/00000056.pdf).
 
