@@ -9,18 +9,13 @@ __Noncommutative algebraic geometry__  is the study of  'spaces' represented or 
 
 Noncommutative algebraic geometry extends the [[algebraic geometry|algebraic geometric]] methods ([[local ring]]s, intersection theory etc.) to study noncommutative algebras, and conversely, uses noncommutative algebras in the study of commutative [[algebraic variety|algebraic varieties]] ([[Brauer group]]s, noncommutative desingularizations, [[stack]]s etc.). But some features, phenomena and methods do not have commutative analogues. 
 
-## tools from derived algebraic geometry ##
 
-A major tool in noncommutative algebraic geometry are methods of [[derived algebraic geometry]] where an entire [[category]] is regarded as a category of [[chain complex]]es of [[quasicoherent sheaf|quasicoherent sheaves]] on a noncommutative space and is then taken to _represent_ that space. 
+## relation to noncommutative geometry a la Connes ##
 
-Notice that such categories are models for [[stable (∞,1)-category|stable (∞,1)-categories]]. Moreover, every [[stable (∞,1)-category]] may automatically be regarded as a stable [[(∞,1)-topos]]. Therefore the method of thinking of a generalized space in terms of a triangulated category is in line with the way [[topos theory]] and in particular [[higher topos theory]] characterizes generalized spaces by [[topos]]es.
+Noncommutative algebraic geometry is just a subfield of [[noncommutative geometry]]. Among prominent other subfields, the most influential is the direction lead by [[Alain Connes]]. 
 
-
-## relation to noncommutative geometry ##
-
-The tools and constructions used and the questions asked in noncommutative algebraic geometry are not unrelated to but do differ significantly from those in the subject of [[noncommutative geometry]] as developed by [[Alain Connes]]. 
-
-In noncommutative algebraic geometriy the algebras in question are ordinary associative unital $k$-algebras, while in Connes' [[noncommutative geometry]] the algebras in question are crucially equipped with a [[topology]] and are [[C-star algebra]]s. On the other hand, in Connes' approach noncommutative spaces are always represented by algebras that are to be thought of as algebras of _global sections_ of function [[sheaf|sheaves]] on the space. In contrast to that the methods of [[algebraic geometry]] are designed to work more locally. 
+In Connes' noncommutative geometry the algebras in question are [[operator algebras]] viewed as algebras of continuous, smooth or measurable functions or more general continuous global sections. There it is customary and sufficient to describe a space globally by a single algebra: 
+no need for sheaves and gluing local descriptions.
 
 
 # History #
@@ -62,7 +57,12 @@ Motivated by this A. L. Rosenberg has developed many spectral constructions exte
 
 ## derived noncommutative geometry ##
 
-Derived noncommutative geometry is related subject to the commutative [[derived algebraic geometry]] of C. Simpson's school. Cyclic and [[Hochschild homology]] play a major role. The most nontrivial result seem to be a noncommutative version of the degeneration of Hodge-to-de Rham [[spectral sequence]], conjectured by Kontsevich and in one version [proved](http://front.math.ucdavis.edu/0611.5623) by D. Kaledin.
+Derived noncommutative geometry is related subject to the commutative [[derived algebraic geometry]] of C. Simpson's school. Cyclic and [[Hochschild homology]] play a major role. This approach *represents* spaces by categories enriched in [[chain complex|cochain complexes]] (dg-category approach) or enriched in spectra. A-infinity categories have some advantages over working with dg-categories.
+
+Notice that such categories are models for [[stable (∞,1)-category|stable (∞,1)-categories]]. Moreover, every [[stable (∞,1)-category]] may automatically be regarded as a stable [[(∞,1)-topos]]. Therefore the method of thinking of a generalized space in terms of a triangulated category is in line with the way [[topos theory]] and in particular [[higher topos theory]] characterizes generalized spaces by [[topos]]es.
+
+The most nontrivial result seem to be a noncommutative 
+version of the degeneration of Hodge-to-de Rham [[spectral sequence]], conjectured by Kontsevich and in one version [proved](http://front.math.ucdavis.edu/0611.5623) by D. Kaledin. 
 
 # References #
 
