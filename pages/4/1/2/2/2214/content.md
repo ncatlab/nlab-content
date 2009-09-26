@@ -54,7 +54,9 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
   * a couple of queries at [[cubical set]].
 
-  [[Urs Schreiber]] I don't know the answer to the first question. Concerning the second: the answer to questions of the form "shouldn't we do ...?" is usually: "yes, we should, why don't you go ahead and do so?"
+  [[Urs Schreiber]] I don't know the answer to the first question. Concerning the second: the answer to questions of the form "shouldn't we do ...?" is usually: "yes, we should, why don't you go ahead and do so?" 
+
+  [[Todd Trimble]] took a crack at addressing queries. 
 
 * [[Urs Schreiber]] 
 
