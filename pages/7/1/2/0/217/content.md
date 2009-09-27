@@ -12,6 +12,8 @@ An informative discussion of the pros and cons of Lawvere's aproach can be found
 _Kreisel and Lawvere on Category Theory and the Foundations of Mathematics_
 ([pdf](http://www.math.mcgill.ca/rags/seminar/Marquis_KreiselLawvere.pdf))
 
+Erik Palmgren has a [constructive variant](http://www.math.uu.se/~palmgren/cetcs.pdf) of ETCS.
+
 #Todd Trimble's exposition of ETCS#
 
 [[Todd Trimble]] has a series of expositional writings on ETCS which provide a very careful introduction and at the same time a wealth of useful details.
