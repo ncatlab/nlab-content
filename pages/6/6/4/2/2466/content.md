@@ -1,3 +1,8 @@
+[[!redirects Precursors]]
+
+* tic
+{:toc}
+
 __Note.__  I was going to go with "The Fruit Of Our Purloins", but I reckon this is more succinct.  The way that I normally start an inquiry like this is just to collect a sample of source materials that seem like they belong together.  Still traveling, so this will be sporadic at first.  ---[[JA]]
 
 <table align="center" cellpadding="6" style="border:none" width="90%"><td style="border:none">
@@ -68,9 +73,25 @@ $\ldots$
 
 $\ldots$
 
+# Hilbert and Ackermann #
+
+## Selection 1 ##
+
+<table align="center" cellpadding="6" style="border:none" width="90%"><td style="border:none">
+
+<p>We have, first, predicates of individuals, and these are classified into predicates of different categories, or types, according to the number of their argument places.  Such predicates are called <i>predicates of first level</i>.</p>
+
+<p>By a <i>predicate of second level</i>, we understand one whose argument places are occupied by names of individuals or by predicates of first level, where a predicate of first level must occur at least once as an argument.  The categories, or types, of predicates second level are differentiated according to the number and kind of their argument places.  (Hilbert and Ackermann, p. 152).</p>
+
+<p>(Hilbert and Ackermann, <i>Principles of Mathematical Logic</i>, Robert E. Luce (trans.), Chelsea Publishing Company, New York, NY, 1950.  First published, <i>Grundz&#252;ge der Theoretischen Logik</i>, 1928.  Second edition, 1938.  English translation with revisions, corrections, and added notes by Robert E. Luce, 1950.)</p>
+
+</td></table>
+
 # References #
 
 * Aristotle, _[Categories](http://ebooks.adelaide.edu.au/a/aristotle/categories/)_
+
+* Hilbert, D., and Ackermann, W. (1938/1950), _Principles of Mathematical Logic_, Robert E. Luce (trans.), Chelsea Publishing Company, New York, NY, 1950.  First published, _Grundz&#252;ge der Theoretischen Logik_, 1928.  Second edition, 1938.  English translation with revisions, corrections, and added notes by Robert E. Luce, 1950.
 
 * Kant
 
