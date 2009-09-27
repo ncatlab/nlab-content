@@ -50,6 +50,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-27
 
+* [[Mike Shulman]]: In response to the discussion at [[choice operator]], I started [[SEAR+?]] about whether and why adding a non-extensional choice operator is a conservative thing to do to a theory that lacks [[axiom of choice|AC]].  So far I can prove that it is conservative over [[COSHEP]].
+
 *  [[Jon Awbrey]]:
 
    * Added potentially enlightening quotes from Hilbert and Ackermann to [[precursors]].  Better lights might be thrown by the original German or the first edition --- all I have on hand right now is the English translation of the second edition.
