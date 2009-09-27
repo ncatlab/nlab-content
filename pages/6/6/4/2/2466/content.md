@@ -1,20 +1,20 @@
-<blockquote>
-<p>Now the discovery of ideas as general as these is chiefly the willingness to make a brash or speculative abstraction, in this case supported by the pleasure of purloining words from the philosophers:  "Category" from Aristotle and Kant, "Functor" from Carnap (<em>Logische Syntax der Sprache</em>), and "natural transformation" from then current informal parlance.</p>
-
-<p>([[Saunders Mac Lane]], _[[Categories for the Working Mathematician]]_, 29&ndash;30).</p>
-</blockquote>
-
 __Note.__  I was going to go with "The Fruit of Our Purloins", but I reckon this is more succinct.  The way I usually start an inquiry like this is just to collect a sample of source materials that seem like they belong together.  Still traveling, so this will be sporadic at first.  ---[[JA]]
+
+<table align="center" cellpadding="8" style="border:none" width="90%"><td style="border:none">
+
+<p>Now the discovery of ideas as general as these is chiefly the willingness to make a brash or speculative abstraction, in this case supported by the pleasure of purloining words from the philosophers:  "Category" from Aristotle and Kant, "Functor" from Carnap (<i>Logische Syntax der Sprache</i>), and "natural transformation" from then current informal parlance.</p>
+
+<p>(Saunders Mac Lane, <i>Categories for the Working Mathematician</i>, 29&ndash;30).</p></td></table>
 
 # Aristotle #
 
-<blockquote>
-<p>Things are equivocally named, when they have the name only in common, the definition (or statement of essence) corresponding with the name being different.  For instance, while a man and a portrait can properly both be called _animals_ (&#950;&#969;&#959;&#957;), these are equivocally named.  For they have the name only in common, the definitions (or statements of essence) corresponding with the name being different.  For if you are asked to define what the being an animal means in the case of the man and the portrait, you give in either case a definition appropriate to that case alone.</p>
+<table align="center" cellpadding="8" style="border:none" width="90%"><td style="border:none">
 
-<p>Things are univocally named, when not only they bear the same name but the name means the same in each case &#8212; has the same definition corresponding.  Thus a man and an ox are called _animals_.  The name is the same in both cases;  so also the statement of essence.  For if you are asked what is meant by their both of them being called _animals_, you give that particular name in both cases the same definition.</p>
+<p>Things are equivocally named, when they have the name only in common, the definition (or statement of essence) corresponding with the name being different.  For instance, while a man and a portrait can properly both be called <i>animals</i> (&#950;&#969;&#959;&#957;), these are equivocally named.  For they have the name only in common, the definitions (or statements of essence) corresponding with the name being different.  For if you are asked to define what the being an animal means in the case of the man and the portrait, you give in either case a definition appropriate to that case alone.</p>
 
-<p>(Aristotle, _Categories_, 1.1<sup>a</sup>1&#8211;12).</p>
-</blockquote>
+<p>Things are univocally named, when not only they bear the same name but the name means the same in each case &mdash; has the same definition corresponding.  Thus a man and an ox are called <i>animals</i>.  The name is the same in both cases;  so also the statement of essence.  For if you are asked what is meant by their both of them being called <i>animals</i>, you give that particular name in both cases the same definition.</p>
+
+<p>(Aristotle, <i>Categories</i>, 1.1<sup>a</sup>1&#8211;12).</p></td></table>
 
 # References #
 
