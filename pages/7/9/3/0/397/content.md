@@ -7,6 +7,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[Andrew Ranicki]]
 * [[Andrew Stacey]]
 * [[Arnold Neumaier]]
+* [[Bas Spitters]]
 * [[Ben Webster]]
 * [[Benjamin Antieau]]
 * [[Benoit Jubin]]
