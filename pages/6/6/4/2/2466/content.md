@@ -1,6 +1,6 @@
-__Note.__  I was going to go with "The Fruit of Our Purloins", but I reckon this is more succinct.  The way that I normally start an inquiry like this is just to collect a sample of source materials that seem like they belong together.  Still traveling, so this will be sporadic at first.  ---[[JA]]
+__Note.__  I was going to go with "The Fruit Of Our Purloins", but I reckon this is more succinct.  The way that I normally start an inquiry like this is just to collect a sample of source materials that seem like they belong together.  Still traveling, so this will be sporadic at first.  ---[[JA]]
 
-<table align="center" cellpadding="8" style="border:none" width="90%"><td style="border:none">
+<table align="center" cellpadding="6" style="border:none" width="90%"><td style="border:none">
 
 <p>Now the discovery of ideas as general as these is chiefly the willingness to make a brash or speculative abstraction, in this case supported by the pleasure of purloining words from the philosophers:  "Category" from Aristotle and Kant, "Functor" from Carnap (<i>Logische Syntax der Sprache</i>), and "natural transformation" from then current informal parlance.</p>
 
@@ -8,13 +8,15 @@ __Note.__  I was going to go with "The Fruit of Our Purloins", but I reckon this
 
 # Aristotle #
 
-<table align="center" cellpadding="8" style="border:none" width="90%"><td style="border:none">
+<table align="center" cellpadding="6" style="border:none" width="90%"><td style="border:none">
 
 <p>Things are equivocally named, when they have the name only in common, the definition (or statement of essence) corresponding with the name being different.  For instance, while a man and a portrait can properly both be called <i>animals</i> (&#950;&#969;&#959;&#957;), these are equivocally named.  For they have the name only in common, the definitions (or statements of essence) corresponding with the name being different.  For if you are asked to define what the being an animal means in the case of the man and the portrait, you give in either case a definition appropriate to that case alone.</p>
 
 <p>Things are univocally named, when not only they bear the same name but the name means the same in each case &mdash; has the same definition corresponding.  Thus a man and an ox are called <i>animals</i>.  The name is the same in both cases;  so also the statement of essence.  For if you are asked what is meant by their both of them being called <i>animals</i>, you give that particular name in both cases the same definition.</p>
 
-<p>(Aristotle, <i>Categories</i>, 1.1<sup>a</sup>1&#8211;12).</p></td></table>
+<p>(Aristotle, <i>Categories</i>, 1.1<sup>a</sup>1&#8211;12).</p>
+
+</td></table>
 
 # Kant #
 
@@ -22,13 +24,31 @@ $\ldots$
 
 # Peirce #
 
-<table align="center" cellpadding="8" style="border:none" width="90%"><td style="border:none">
+<table align="center" cellpadding="6" style="border:none" width="90%"><td style="border:none">
 
 <p>&#167;1.  This paper is based upon the theory already established, that the function of conceptions is to reduce the manifold of sensuous impressions to unity, and that the validity of a conception consists in the impossibility of reducing the content of consciousness to unity without the introduction of it.  (CP 1.545)</p>
 
 <p>&#167;2.  This theory gives rise to a conception of gradation among those conceptions which are universal.  For one such conception may unite the manifold of sense and yet another may be required to unite the conception and the manifold to which it is applied;  and so on.  (CP 1.546)</p>
 
-<p>(C.S. Peirce, "On a New List of Categories").</p></td></table>
+<p>(C.S. Peirce, "On a New List of Categories").</p>
+
+</td></table>
+
+<table align="center" cellpadding="6" style="border:none" width="90%"><td style="border:none">
+
+<p>I will now say a few words about what you have called Categories, but for which I prefer the designation Predicaments, and which you have explained as predicates of predicates.</p>
+
+<p>That wonderful operation of hypostatic abstraction by which we seem to create <i>entia rationis</i> that are, nevertheless, sometimes real, furnishes us the means of turning predicates from being signs that we think or think <i>through</i>, into being subjects thought of.  We thus think of the thought-sign itself, making it the object of another thought-sign.</p>
+
+<p>Thereupon, we can repeat the operation of hypostatic abstraction, and from these second intentions derive third intentions.  Does this series proceed endlessly?  I think not.  What then are the characters of its different members?</p>
+
+<p>My thoughts on this subject are not yet harvested.  I will only say that the subject concerns Logic, but that the divisions so obtained must not be confounded with the different Modes of Being:  Actuality, Possibility, Destiny (or Freedom from Destiny).</p>
+
+<p>On the contrary, the succession of Predicates of Predicates is different in the different Modes of Being.  Meantime, it will be proper that in our system of diagrammatization we should provide for the division, whenever needed, of each of our three Universes of modes of reality into <i>Realms</i> for the different Predicaments.</p>
+
+<p>(Peirce, CP 4.549, "Prolegomena to an Apology for Pragmaticism", <i>The Monist</i> 16, 492&ndash;546 (1906), CP 4.530&ndash;572).</p>
+
+</td></table>
 
 # References #
 
