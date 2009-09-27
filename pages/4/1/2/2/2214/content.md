@@ -48,16 +48,26 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ***
 
+
+## 2009-09-27
+
+*  [[Toby Bartels]]:
+   *  Maybe it\'s just my font choices (DejaVu all the way!), but the TOC at [[generalized scheme]] looks perfectly normal to me.
+   *  Comments at [[choice operator]] and [[SEAR]].
+   *  [[Bas Spitters]] joined to make a note at [[SEAR]] that I moved to [[ETCS]].
+
+
 ## 2009-09-26
+
 * [[Zoran ?koda]] created entries [[affinoid algebra]], [[rigid analytic geometry]] (just started), [[derived noncommutative geometry]], [[unique factorization domain]].
 
 * [[David Corfield]]
 
   * a couple of queries at [[cubical set]].
 
-  [[Urs Schreiber]] I don't know the answer to the first question. Concerning the second: the answer to questions of the form "shouldn't we do ...?" is usually: "yes, we should, why don't you go ahead and do so?" 
+    [[Urs Schreiber]] I don't know the answer to the first question. Concerning the second: the answer to questions of the form "shouldn't we do ...?" is usually: "yes, we should, why don't you go ahead and do so?" 
 
-  [[Todd Trimble]] took a crack at addressing queries. 
+    [[Todd Trimble]] took a crack at addressing queries. 
 
 * [[Urs Schreiber]] 
 
@@ -81,12 +91,12 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 * [[Urs Schreiber]] added material to [[cubical set]] (on relation to homotopy theory), that  [[Ronnie Brown]] had posted to the Alg-Top mailing list
 
-
-## 2009-09-25
-
 * [[Mike Shulman]]:
   * talk at [[choice operator]], TOC at [[pure set]]
   * added a sketch proof of the ZF collection axiom from the SEAR collection axiom to [[SEAR]]
+
+
+## 2009-09-25
 
 * [[Todd Trimble]]: added commentary to Rafael's suggestion at [[category theory]], at the end of the penultimate discussion box. 
 
