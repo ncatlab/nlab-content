@@ -7,22 +7,23 @@
   * [[waves]]
 * [[quantum field theory|Quantum Field Theory]]
 
-   *  Axiomatizations
-      *  [[AQFT|AQFT]]
-      *  [[FQFT|FQFT]]
-   *  Tools
-      *  [[BV theory|BV Theory]]
+  * Axiomatizations
+    * [[AQFT|AQFT]]
+    * [[FQFT|FQFT]]
+  * Tools
 
-         *  [[AKSZ theory]]
-      *  [[geometric infinity-function theory]]
-   *  Models
-      * [[GUT|Grand Unified Theories]]
-      * [[integrable systems]]
-   * Phenomena
+    * [[BV theory|BV Theory]]
 
-     * [[quantum anomaly]]
+      * [[AKSZ theory]]
+    * [[geometric infinity-function theory]]
+  * Models
+    * [[GUT|Grand Unified Theories]]
+    * [[integrable systems]]
+  * Phenomena
 
-       * [[Green-Schwarz mechanism]]
+    * [[quantum anomaly]]
+
+      * [[Green-Schwarz mechanism]]
 * Types of field thories
   * [[TQFT]]
   * [[conformal field theory]]
@@ -34,10 +35,10 @@
   * [[sigma-model]]
 
     * [[Dijkgraaf-Witten theory]]
-*  [[string theory|String Theory]]
+* [[string theory|String Theory]]
 
-   *  [[brane|Branes]], [[BPS-state]]
-*  [[gnarly problems in physics|Gnarly problems in physics]]
+  * [[brane|Branes]], [[BPS-state]]
+* [[gnarly problems in physics|Gnarly problems in physics]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/physicscontents)</div>
 
