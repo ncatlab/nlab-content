@@ -123,7 +123,9 @@ $\mathop{Tr}(R): (x)(y)(z)(R(x, y)$&nbsp;&amp;&nbsp;$R(y, z) \rightarrow R(x, z)
 
 * Carnap, _[The Logical Syntax of Language](http://books.google.com/books?id=Yf9R6WFFLhYC&printsec=frontcover)_, _cf._ &ldquo;[Functor](http://books.google.com/books?id=Yf9R6WFFLhYC&printsec=frontcover#v=onepage&q=Functor&f=false)&rdquo;
 
-# Discussion #
+# Discussion # 
+
+_The following discussion took place at [[category theory]], when the subject of this page had appeared as a brief section in stub form._ 
 
 [[Todd Trimble]]: Can I ask what you mean when you call these "precursors"?
 
