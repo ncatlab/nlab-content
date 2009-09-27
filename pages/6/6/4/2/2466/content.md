@@ -8,6 +8,8 @@ __Note.__  I was going to go with "The Fruit Of Our Purloins", but I reckon this
 
 # Aristotle #
 
+## Selection 1 ##
+
 <table align="center" cellpadding="6" style="border:none" width="90%"><td style="border:none">
 
 <p>Things are equivocally named, when they have the name only in common, the definition (or statement of essence) corresponding with the name being different.  For instance, while a man and a portrait can properly both be called <i>animals</i> (&#950;&#969;&#959;&#957;), these are equivocally named.  For they have the name only in common, the definitions (or statements of essence) corresponding with the name being different.  For if you are asked to define what the being an animal means in the case of the man and the portrait, you give in either case a definition appropriate to that case alone.</p>
@@ -18,11 +20,17 @@ __Note.__  I was going to go with "The Fruit Of Our Purloins", but I reckon this
 
 </td></table>
 
+## Comment ##
+
+$\ldots$
+
 # Kant #
 
 $\ldots$
 
 # Peirce #
+
+## Selection 1 ##
 
 <table align="center" cellpadding="6" style="border:none" width="90%"><td style="border:none">
 
@@ -33,6 +41,12 @@ $\ldots$
 <p>(C.S. Peirce, "On a New List of Categories").</p>
 
 </td></table>
+
+## Comment ##
+
+$\ldots$
+
+## Selection 2 ##
 
 <table align="center" cellpadding="6" style="border:none" width="90%"><td style="border:none">
 
@@ -49,6 +63,10 @@ $\ldots$
 <p>(Peirce, CP 4.549, "Prolegomena to an Apology for Pragmaticism", <i>The Monist</i> 16, 492&ndash;546 (1906), CP 4.530&ndash;572).</p>
 
 </td></table>
+
+## Comment ##
+
+$\ldots$
 
 # References #
 
@@ -78,7 +96,7 @@ _Todd_: It's clear enough (especially in view of examples of 'large categories' 
 
 As for "functor": it's even less clear to me that there was any tight connection in Mac Lane's mind between Carnap's use and his (Mac Lane's) own appropriation. I suspect that it was meant more to conjure an association with "function" than with Carnap particularly.
 
-[[JA]]: Brother, can you paradigm ...
+[[JA]]: Brother, can you paradigm &hellip;
 
 > __Paradigm.__  The basic idea of category theory is to shift attention from the study of [[object]]s to the study of _maps_ or _relations_ between objects: of (homo)[[morphism]]s between objects.
 
@@ -92,8 +110,10 @@ _Todd_: Ah, thanks for drawing attention to this! Now the argument becomes rathe
 In particular, the diagram you drew in your wiki under 'analogy' (speaking to an example from Aristotle) is a perfect concrete illustration of the mathematical notion of [[span]]; even better, you've drawn a _morphism_ of spans (from A to B). Now it happens that a category can be defined as a monoid in the bicategory of spans; if $C_0$ denotes the collection of objects and $C_1$ the collection of morphisms of a category $C$, then the span has the shape 
 
 $$\array{
-& C_1 & \\
- dom \swarrow & & \searrow cod\\
+& C_1 &
+\\
+dom \swarrow & & \searrow cod
+\\
 C_0 & & C_0
 }$$ 
 
