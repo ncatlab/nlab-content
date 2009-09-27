@@ -23,11 +23,11 @@ __Note.__  I was going to go with "The Fruit Of Our Purloins", but I reckon this
 
 <p>(Aristotle, <i>Categories</i>, 1.1<sup>a</sup>1&#8211;12).</p>
 
+<p><b>Translator's Note.</b>  &ldquo;&#918;&#969;&#959;&#957; in Greek had two meanings, that is to say, living creature, and, secondly, a figure or image in painting, embroidery, sculpture.  We have no ambiguous noun.  However, we use the word &lsquo;living&rsquo; of portraits to mean &lsquo;true to life&rsquo;.&rdquo;  (H.P. Cooke).</p>
+
 </td></table>
 
-## Comment ##
-
-$\ldots$
+In the logic of Aristotle categories are adjuncts to reasoning that are designed to resolve ambiguities and thus to prepare equivocal signs, that are otherwise recalcitrant to being ruled by logic, for the application of logical laws.  The example of &#950;&#969;&#959;&#957; illustrates the fact that we don't need categories to _make_ generalizations so much as we need them to _control_ generalizations, to reign in abstractions and analogies that are stretched too far.
 
 # Kant #
 
