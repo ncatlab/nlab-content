@@ -17,6 +17,7 @@ where $\varepsilon$ is the transfinite logical choice function."
 
 See also Hilbert (1927), "The Foundations of Mathematics", pp. 464&#8211;479 in JvH.  ---[[Jon Awbrey]]
 
+[[Mike Shulman]]: Thanks!  That looks pretty much like I was right.
 =--
 
 One use of the choice operator is to eliminate undesirable details of implementation.  For example, if $P(x)$ is "$x$ is a Dedekind-complete totally ordered field," then we can define "the real numbers" to be $\epsilon x.P(x)$.  Any of the numerous constructions of the [[real numbers]] can then be used to show that there exists an $x$ such that $P(x)$, after which point we can discard whichever explicit construction and work only with $\mathbb{R}=\epsilon x.P(x)$.  This way we can no longer assert that real numbers (elements of $\mathbb{R}$) *are* Dedekind cuts, or equivalence classes of Cauchy sequences, or anything in particular, since the axioms provide no rules about how $\epsilon x.P(x)$ must be chosen other than that it must satisfy $P$.  So $\mathbb{R}$ *might* consist of Cauchy sequences, or Dedekind cuts, or any other way to construct the reals, but we have no way of knowing, and thus we cannot make use of any such definition in a proof about $\mathbb{R}$; we are forced to use only its formal properties.
@@ -43,9 +44,11 @@ _Toby_:  Yeah, I really did mean to say 'excluded middle'; remembering that comm
 [[Mike Shulman]]: Where should I look for a proof that $\mathbf{ITT} + EM$ doesn't imply AC?
 
 _Toby_:  I\'m not sure, it\'s part of my folk knowledge now.  Probably Michael J. Beeson\'s _Foundations of Constructive Mathematics_ is the best bet.  I\'ll try to get a look in there myself next week; I can see that it\'s not exactly obvious, and perhaps my memory is wrong now that I think about it.
+
+[[Mike Shulman]]: I'm trying to prove the sort of statement I want over at [[SEAR+ε]].
 =--
 
 Like the [[axiom of choice]], the existence of a global choice operator is consistent with the other axioms of most foundations.  For example, in ZF, the [[constructible universe]] (which models $ZF + (V=L)$, the [[axiom of constructibility]]) admits a natural classical [[well-ordering]] of the entire universe, giving rise to a naturally defined global choice operator (namely, $\epsilon x.P$ = the smallest $x$ such that $P$ in the global well-ordering).
 
-
 category: foundational axiom
+
