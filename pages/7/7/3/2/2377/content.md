@@ -98,7 +98,7 @@ _Toby_ continues: But if you want precision, look at the **Definition** section,
 AN: I only saw a definition of equivalence. Now I realize that this should substitute for the nonexistence equality. 
 I'll comment more on the pure set page.
 
-_Toby_ continues: If you want a set of sets, you should consider whether it matters whether any of these sets happen to be equal, and how (for purposes of your application) you would now.  In general, you take a [[family of sets]] (note to self: write an article there), that is an index set $I$ and, for each element $k$ of $I$, a set $S_k$.  There is a handy trick for encoding this sort of thing as a set $\mathcal{S}$ and a function $\pi: \mathcal{S} \to I$; let $S_k$ be the preimage of $\pi^*(k)$ (which is a subset of $\mathcal{S}$.  The purpose of the axiom of collection is to allow you to construct this set $\mathcal{S}$ (maybe I should write that down there for its motivation!).  If you want, say, a family of groups, then you take $\pi: \mathcal{S} \to I$ and additionally a function $M: I \times \mathcal{S} \times \mathcal{S} \to \mathcal{S}$ such that, for each $k$, $M$ restricts to a function $m_k: S_k \times S_k \to S_k$ that satisfies the group axioms.  And so on.
+_Toby_ continues: If you want a set of sets, you should consider whether it matters whether any of these sets happen to be equal, and how (for purposes of your application) you would know.  In general, you take a [[family of sets]] (note to self: write an article there), that is an index set $I$ and, for each element $k$ of $I$, a set $S_k$.  There is a handy trick for encoding this sort of thing as a set $\mathcal{S}$ and a function $\pi: \mathcal{S} \to I$; let $S_k$ be the preimage of $\pi^*(k)$ (which is a subset of $\mathcal{S}$.  The purpose of the axiom of collection is to allow you to construct this set $\mathcal{S}$ (maybe I should write that down there for its motivation!).  If you want, say, a family of groups, then you take $\pi: \mathcal{S} \to I$ and additionally a function $M: I \times \mathcal{S} \times \mathcal{S} \to \mathcal{S}$ such that, for each $k$, $M$ restricts to a function $m_k: S_k \times S_k \to S_k$ that satisfies the group axioms.  And so on.
 
 In this situation, you can\'t ask whether $S_k = S_{k'}$, or try $S_k \cap S_{k'}$, etc.  If the structural perspective is valid, then you should only ever want to do that if the various $S_k$ are all subsets of some previously given ambient set $T$.  There are two ways to do this; either define an $I$-indexed family of injections $S_k \to T$, or skip all of the above and instead consider a binary relation on $I$ and $T$; let $S_k$ be the set of elements of $T$ that $k$ is related to.  This is a family of unary relations on $T$; you can do a set of binary relations in a similar way.  (By the way, in this case you don\'t need the axiom of collection to define $\mathcal{S}$, since you can make it a subset of $I \times T$.  This is the idea, possibly familiar to you, that replacement/collection is not needed wherever it na&#239;vely applies, but only for relatively high-powered stuff.)
 
@@ -186,6 +186,8 @@ The most common exception that I admit to my thesis is the [[disjoint union]], o
 [[Mike Shulman]]: I'm actually basically in agreement with you, Toby, but I didn't feel like getting into detail about the sorts of "abuses" (i.e. definitions of terminology/notation) that are necessary to read existing mathematics in a structural way.  But you make a good point that reading it in a material way requires different "abuses," some of which people tend to make explicit and some of which they don't.
 
 BTW, in a more leisurely pedagogical treatment of SEAR, I would be tempted to include an axiom of disjoint unions early on, and only remark later, after powersets are introduced, that they imply the existence of disjoint unions.
+
+_Toby_:  Also [[quotient set]]s and (in a constructive theory) [[function set]]s make good axioms; one may want these constructions even if one drops power sets.  But for people weaned on $\mathbf{ZFC}$\'s pairing and union axioms, disjoint unions are particularly important!
 =--
 
 
@@ -562,7 +564,7 @@ Axioms 1-5 of SEAR make perfect sense whether the ambient logic is [[classical l
 
 To obtain a [[predicative mathematics|predicative]] theory, Axiom 3 can be replaced by an appropriate weaker axiom, such as the existence of [[disjoint union]]s, [[quotient set]]s, and/or [[function sets]], or a structural version of the axiom of [[subset collection]].
 
-Erik Palmgren has a <a href="http://www.math.uu.se/~palmgren/cetcs.pdf">constructive variant</a> of ETCS.
+Compare [[Erik Palmgren]]\'s [constructive ETCS](http://www.math.uu.se/~palmgren/cetcs.pdf).
 
 ## Bounded SEAR and ETCS ##
 
@@ -734,14 +736,14 @@ For ease of language, we define a composite of families to be the composite rela
 
 **Definition:** A family of sets $U \looparrowright E$ is called a _universe_ if the following axioms are satisfied:
 
-  * The composite of two $U$-small families is $U$-small
-  * The relation $f^o:B\looparrowright A$ opposite to an injective function $f:A \to B$ is a $U$-small family
-  * $P\mathbf{1}$ is a $U$-small set
-  * (Something about dependent products, once these are defined)
+* The composite of two $U$-small families is $U$-small
+* The relation $f^o:B\looparrowright A$ opposite to an injective function $f:A \to B$ is a $U$-small family
+* $P\mathbf{1}$ is a $U$-small set
+* (Something about dependent products, once these are defined)
 
 There is an optional axiom, given the axiom of infinity from before:
 
-  * The [[natural numbers object]] is a $U$-small set
+* The [[natural numbers object]] is a $U$-small set
 
 Without this axiom we do not have that universes contain infinite sets.
   
