@@ -1,4 +1,4 @@
-__Note.__  I was going to go with "The Fruit of Our Purloins", but I reckon this is more succinct.  The way I usually start an inquiry like this is just to collect a sample of source materials that seem like they belong together.  Still traveling, so this will be sporadic at first.  ---[[JA]]
+__Note.__  I was going to go with "The Fruit of Our Purloins", but I reckon this is more succinct.  The way that I normally start an inquiry like this is just to collect a sample of source materials that seem like they belong together.  Still traveling, so this will be sporadic at first.  ---[[JA]]
 
 <table align="center" cellpadding="8" style="border:none" width="90%"><td style="border:none">
 
@@ -15,6 +15,20 @@ __Note.__  I was going to go with "The Fruit of Our Purloins", but I reckon this
 <p>Things are univocally named, when not only they bear the same name but the name means the same in each case &mdash; has the same definition corresponding.  Thus a man and an ox are called <i>animals</i>.  The name is the same in both cases;  so also the statement of essence.  For if you are asked what is meant by their both of them being called <i>animals</i>, you give that particular name in both cases the same definition.</p>
 
 <p>(Aristotle, <i>Categories</i>, 1.1<sup>a</sup>1&#8211;12).</p></td></table>
+
+# Kant #
+
+$\ldots$
+
+# Peirce #
+
+<table align="center" cellpadding="8" style="border:none" width="90%"><td style="border:none">
+
+<p>&#167;1.  This paper is based upon the theory already established, that the function of conceptions is to reduce the manifold of sensuous impressions to unity, and that the validity of a conception consists in the impossibility of reducing the content of consciousness to unity without the introduction of it.  (CP 1.545)</p>
+
+<p>&#167;2.  This theory gives rise to a conception of gradation among those conceptions which are universal.  For one such conception may unite the manifold of sense and yet another may be required to unite the conception and the manifold to which it is applied;  and so on.  (CP 1.546)</p>
+
+<p>(C.S. Peirce, "On a New List of Categories").</p></td></table>
 
 # References #
 
