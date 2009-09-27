@@ -47,8 +47,6 @@ $\ldots$
 
 </td></table>
 
-## Comment ##
-
 $\ldots$
 
 ## Selection 2 ##
@@ -69,9 +67,11 @@ $\ldots$
 
 </td></table>
 
-## Comment ##
+The first thing to extract from this passage is the fact that Peirce's Categories, or "Predicaments", are predicates of predicates.  Considerations like these tend to generate hierarchies of subject matters, extending through what is traditionally called the _logic of second intentions_, or what is handled very roughly by _second order logic_ in contemporary parlance, and continuing onward through higher intentions, or higher order logic and type theory.
 
-$\ldots$
+Peirce arrived at his own system of three categories after a thoroughgoing study of his predecessors, with special reference to the categories of Aristotle, Kant, and Hegel.  The names that he used for his own categories varied with context and occasion, but ranged from moderately intuitive terms like _quality_, _reaction_, and _symbolization_ to maximally abstract terms like _firstness_, _secondness_, and _thirdness_, respectively.  Taken in full generality, $k$-ness may be understood as referring to those properties that all $k$-adic relations have in common.  Peirce's distinctive claim is that a type hierarchy of three levels is generative of all that we need in logic.
+
+Part of the justification for Peirce's claim that three categories are both necessary and sufficient appears to arise from mathematical facts about the reducibility of $k$-adic relations.  With regard to necessity, triadic relations cannot be completely analyzed in terms or monadic and dyadic predicates.  With regard to sufficiency, all higher arity $k$-adic relations can be analyzed in terms of triadic and lower arity relations.
 
 # Hilbert and Ackermann #
 
