@@ -4,7 +4,7 @@ A cartesian bicategory is a bicategory with properties that make it behave like 
 
 The rough idea is that a cartesian bicategory, viewed as an abstract bicategory of relations, should possess a tensor product which behaves like cartesian product on relations, and therefore like a categorical product for relations that are "functional". The structure of such a tensor is property-like (is essentially unique when it exists). Like allegories, cartesian bicategories provide a convenient abstract setting in which to study the calculus of relations, but unlike allegories they embrace other important examples like $Span$ and $Mod$. 
 
-The original idea, due to Carboni and Walters, clearly envisioned these various examples but was initially confined to the locally posetal case; in part this was due to the lack at the time (circa 1987) of a solid theory of symmetric monoidal bicategories. In more recent years a full bicategorical treatment has emerged, due principally to Carboni, Kelly, Verity, and Wood. The alternative treatment we give below has not yet appeared in the literature as far as this author ([[Todd Trimble]]) is aware. 
+The original idea, as explained by Carboni and Walters in their paper, clearly had these various examples in mind but was initially confined to the locally posetal case; in part this was due to the lack at the time (circa 1987) of a complete definition of symmetric monoidal bicategories. In more recent years a full bicategorical treatment has emerged, due principally to Carboni, Kelly, Verity, and Wood. The alternative treatment we give below has not yet appeared in the literature as far as this author ([[Todd Trimble]]) is aware. 
 
 ## Technical preliminaries 
 
@@ -26,11 +26,11 @@ F b & \underset{\theta b}{\to} & G b
 
 These are called "oplax transformations" by some authors such as B&#233;nabou and "lax transformations" by other authors such as Johnstone; on this page we will simply call them (2-)**transformations**. A transformation is **strong** if the structural cells $\theta \cdot f$ are isomorphisms. 
 
-There is a well-known notion of morphism between transformation which has been called [[modification]]. We retain this usage, but note that for the purposes of higher category theory, it is probably ill-advised to invent a new term (e.g. "perturbation" between modifications) each time one reaches a new depth of morphism -- a more uniform terminology is called for. The term "transfor" (due to Sjoerd Crans) has been gaining some recent currency; modifications may then be called **2-transfors**. 
+There is a well-known notion of morphism between transformation which has been called [[modification]]. We retain this usage, but as an aside we counsel against inventing a new term (e.g., "perturbation" between modifications) every time a new level of morphism is reached -- a more uniform terminology is called for. The term "transfor" (due to Sjoerd Crans) has been tentatively adopted elsewhere on this site; modifications may then be called **2-transfors**. 
 
-Given 2-categories $B$ and $C$, we have then a 2-category of 2-functors, strong transformations and modifications from $B$ to $C$; this will be denoted $Hom_s(B, C)$. We have also the 2-category of 2-functors, transformations, and modifications; this will be denoted $Hom_l(B, C)$. 
+In any case, given 2-categories $B$ and $C$, there is a 2-category of 2-functors, strong transformations and modifications from $B$ to $C$; this will be denoted $Hom_s(B, C)$. We have also the 2-category of 2-functors, transformations, and modifications; this will be denoted $Hom_l(B, C)$. 
 
-#### 2-adjunctions 
+### 2-adjunctions between 2-categories
 
 A **2-adjunction** $F \dashv G$ consists of 2-functors $F: B \to C$, $G: C \to B$, and an adjoint equivalence 
 
@@ -53,9 +53,9 @@ such that the _triangulator coherence conditions_ hold: there are pasting diagra
 $$\array{
 1_B & \overset{\eta}{\to} & G F & \overset{1_{G F}}{\to} & G F\\
 \eta \downarrow & \overset{\eta \cdot \eta}{\Rightarrow} & \downarrow G F \eta & & \downarrow 1_{G F}\\ 
-G F & \underset{\eta G F}{\to} & G F G F & \Rightarrow & G F\\
-1_{G F} \downarrow & & \Rightarrow & & \searrow G \varepsilon & \downarrow 1_{G F} \\
-G F & \underset{1_{G F}}{\to} & G F \underset{1_{G F}}{\to} & G F 
+G F & \underset{\eta G F}{\to} & G F G F & \overset{G t}{\Rightarrow} & G F & & & = & 1_{1_{G F}}\\
+1_{G F} \downarrow & & \overset{s F}{\Rightarrow} & G \varepsilon F \searrow & \downarrow 1_{G F} \\
+G F & \underset{1_{G F}}{\to} & G F & \underset{1_{G F}}{\to} & G F 
 }$$
 
 $\, $ 
@@ -63,7 +63,7 @@ $\, $
 $$\array{
 }$$
 
-#### Lax adjunctions
+### Lax adjunctions between 2-categories 
 
 A **lax** adjunction is defined in the same way as a 2-adjunction, except that we relax (remove) the assumptions that $\eta$ and $\varepsilon$ are strong and that $s$, $t$ are invertible; the triangulator coherence conditions are still in effect. In that case, for objects $b$ of $B$ and $c$ of $C$, there is a local adjunction between hom-categories 
 
@@ -112,7 +112,7 @@ A **cartesian structure** on a bicategory $B$ consists of the following data:
 * 2-functors $\otimes: B \times B \to B$ and $I: \mathbf{1} \to B$, where $\mathbf{1}$ is the terminal 2-category; 
 
 * Map-valued transformations 
-$$\delta: 1_B \to \otimes \Delta, \qquad \pi: \Delta \Pi \to 1_{B \times B}, \qquad \varepsilon: 1_B \to I !$$ 
+$$\delta: 1_B \to \otimes \Delta, \qquad \pi: \Delta \otimes \to 1_{B \times B}, \qquad \varepsilon: 1_B \to I !$$ 
 where $\Delta: B \to B \times B$ is the diagonal 2-functor and $!: B \to \mathbf{1}$ is the unique 2-functor; 
 
 * Invertible modifications 
@@ -165,7 +165,7 @@ This completes the argument that the symmetric monoidal structure on $Map(B)$ ex
 
 #### Comparison with Carboni-Walters 
 
-Let us begin unpacking the terse definition of cartesian bicategory so that it becomes more recognizable. For the sake of notational convenience, we use the fact that as a monoidal bicategory, a cartesian bicategory may be strictified and replaced by a (monoidally biequivalent) $Gray$ monoid $B$. That is to say, if $\otimes_G$ denotes the tensor product of the symmetric monoidal closed category $Gray$, then there is firstly a biequivalence $B \times B \simeq B \otimes_G$, and we may transfer the data of the cartesian structure across this biequivalence to get a $Gray$ monoid multiplication 
+Let us begin unpacking the terse definition of cartesian bicategory so that it becomes more recognizable. For the sake of notational convenience, we use the fact that as a monoidal bicategory, a cartesian bicategory may be strictified and replaced by a (monoidally biequivalent) $Gray$ monoid $B$. That is to say, if $\otimes_G$ denotes the tensor product of the symmetric monoidal closed category $Gray$, then there is firstly a biequivalence $B \times B \simeq B \otimes_G B$, and we may transfer the data of the cartesian structure across this biequivalence to get a $Gray$ monoid multiplication 
 
 $$\otimes: B \otimes_G B \to B$$ 
 
@@ -191,11 +191,23 @@ i.e., the 2-comonoid comultiplication. The unit of the 2-adjunction $! \dashv I$
 
 $$\varepsilon c: c \to I,$$ 
 
-i.e., the 2-comonoid counit. (It is more usual to denote a (2-)terminal object by the symbol $1$, and from here on we will follow that practice, writing the projection as $\varepsilon c: c \to 1$, and forget $I$.) Finally, for a given 1-cell $r: c \to d$ in $B$, the structure cells 
+i.e., the 2-comonoid counit. (It is more usual to denote a (2-)terminal object by the symbol $1$, and from here on we will follow that practice, writing the projection as $\varepsilon c: c \to 1$, and forget $I$.) 
+
+Spelling this out a little further, let us turn attention to the transformation $\pi: \Delta \otimes \to 1_{B \otimes_G B}$. The components of the transformation take the form 
+
+$$\pi (a, b) = \langle \pi_1, \pi_2 \rangle: (a \otimes b, a \otimes b) \to (a, b)$$ 
+
+where, as a consequence of how the 2-product $\otimes$ on $Map(B)$ is defined, we have the following formulas for the projections $\pi_1$, $\pi_2$: 
+
+$$\pi_1 = (a \otimes b \overset{1_a \otimes \varepsilon}{\to} a \otimes 1 \cong a); \qquad \pi_2 = (a \otimes b \overset{\varepsilon \otimes 1_b}{\to} 1 \otimes b \cong b$$ 
+
+Thus, the unit and counit data $\delta$, $\pi$ are expressible in terms of the symmetric monoidal 2-category structure and the comonoid structures on the objects therein.
+
+Finally, for a given 1-cell $r: c \to d$ in $B$, the structure cells 
 
 $$\array{
 c & \overset{\delta c}{\to} & c \otimes c & & & & c & \overset{\varepsilon c}{\to} & 1\\
-r \downarrow & \overset{\delta \cdot r}{\Rightarrow} & \downarrow r \otimes r & & & & r \downarrow & \overset{\varepsilon \cdot r}{\to} & \downarrow id_1\\
+r \downarrow & \overset{\delta \cdot r}{\Rightarrow} & \downarrow r \otimes r & & & & r \downarrow & \overset{\varepsilon \cdot r}{\Rightarrow} & \downarrow id_1\\
 d & \underset{\delta d}{\to} & d \otimes d & & & & d & \underset{\varepsilon d}{\to} & 1
 }$$
 
@@ -212,6 +224,9 @@ $$\Delta \dashv_{lax} \otimes: B \times B \to B \qquad ! \dashv_{lax} I: \mathbf
 and by our earlier discussion of lax adjunctions, this means we have local 1-adjunctions of the form 
 
 $$(B(a, b \otimes c) \to (B \times B)(\langle a, a \rangle, \langle b, c \rangle)) \dashv (B \times B)(\langle a, a \rangle, \langle b, c \rangle)) \to B(a, b \otimes c))$$
+
+
+
 
 However, it is not too difficult to argue that cartesian structure $B$ makes $B$ a symmetric monoidal bicategory  
 
