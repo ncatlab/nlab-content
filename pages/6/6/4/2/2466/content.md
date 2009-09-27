@@ -1,18 +1,36 @@
-__Note.__  I was going to go with "The Fruit of Our Purloins", but I rechnen this is more succinct.  The way I usually start an inquiry like this is just to collect a sample of source materials that seem like they belong together.  Still traveling, so this will be sporadic at first.  ---[[JA]]
+<blockquote>
+<p>Now the discovery of ideas as general as these is chiefly the willingness to make a brash or speculative abstraction, in this case supported by the pleasure of purloining words from the philosophers:  "Category" from Aristotle and Kant, "Functor" from Carnap (<em>Logische Syntax der Sprache</em>), and "natural transformation" from then current informal parlance.</p>
+
+<p>([[Saunders Mac Lane]], _[[Categories for the Working Mathematician]]_, 29&ndash;30).</p>
+</blockquote>
+
+__Note.__  I was going to go with "The Fruit of Our Purloins", but I reckon this is more succinct.  The way I usually start an inquiry like this is just to collect a sample of source materials that seem like they belong together.  Still traveling, so this will be sporadic at first.  ---[[JA]]
+
+# Aristotle #
+
+<blockquote>
+<p>Things are equivocally named, when they have the name only in common, the definition (or statement of essence) corresponding with the name being different.  For instance, while a man and a portrait can properly both be called _animals_ (&#950;&#969;&#959;&#957;), these are equivocally named.  For they have the name only in common, the definitions (or statements of essence) corresponding with the name being different.  For if you are asked to define what the being an animal means in the case of the man and the portrait, you give in either case a definition appropriate to that case alone.</p>
+
+<p>Things are univocally named, when not only they bear the same name but the name means the same in each case &#8212; has the same definition corresponding.  Thus a man and an ox are called _animals_.  The name is the same in both cases;  so also the statement of essence.  For if you are asked what is meant by their both of them being called _animals_, you give that particular name in both cases the same definition.</p>
+
+<p>(Aristotle, _Categories_, 1.1<sup>a</sup>1&#8211;12).</p>
+</blockquote>
+
+# References #
 
 * Aristotle, _[Categories](http://ebooks.adelaide.edu.au/a/aristotle/categories/)_
 
 * Kant
 
-* C.S. Peirce, "[On a New List of Categories](http://www.cspeirce.com/menu/library/bycsp/newlist/nl-frame.htm)"
+* C.S. Peirce, &ldquo;[On a New List of Categories](http://www.cspeirce.com/menu/library/bycsp/newlist/nl-frame.htm)&rdquo;
 
-* Carnap, _[The Logical Syntax of Language](http://books.google.com/books?id=Yf9R6WFFLhYC&printsec=frontcover)_, _cf._ "[Functor](http://books.google.com/books?id=Yf9R6WFFLhYC&printsec=frontcover#v=onepage&q=Functor&f=false)"
+* Carnap, _[The Logical Syntax of Language](http://books.google.com/books?id=Yf9R6WFFLhYC&printsec=frontcover)_, _cf._ &ldquo;[Functor](http://books.google.com/books?id=Yf9R6WFFLhYC&printsec=frontcover#v=onepage&q=Functor&f=false)&rdquo;
 
 # Discussion #
 
 [[Todd Trimble]]: Can I ask what you mean when you call these "precursors"?
 
-[[JA]]:  Anticipations, 4-runners, 4-shadowings, philosophical underpinnings &#8230;
+[[JA]]:  Anticipations, 4-runners, 4-shadowings, philosophical underpinnings &hellip;
 
 _Toby_:  If I may presume to translate Todd\'s question for him:  Why do you think that Aristotle, Kant, Peirce, and Carnap are precursors, anticipations, forerunners, foreshadowings, or philosophical underpinnings of category theory?  The only thing that I can think of myself is that Eilenberg & Mac Lane borrowed the term 'category' from Aristotle & Kant and borrowed the term 'functor' from Carnap.  Otherwise, I do not see any connection.
 
@@ -46,5 +64,3 @@ C_0 & & C_0
 }$$ 
 
 I'll also mention that the connection between analogies and spans has come up in discussion on the blog; our good friend Jim Dolan has drawn attention to this. See Toby's comment [here](http://golem.ph.utexas.edu/category/2006/11/a_categorical_manifesto.html#c006085) and the ensuing discussion. 
-
-
