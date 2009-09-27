@@ -113,7 +113,9 @@ $\mathop{Tr}(R): (x)(y)(z)(R(x, y)$&nbsp;&amp;&nbsp;$R(y, z) \rightarrow R(x, z)
 
 # References #
 
-* Aristotle, _[Categories](http://ebooks.adelaide.edu.au/a/aristotle/categories/)_
+* Aristotle, "The Categories", Harold P. Cooke (trans.), pp. 1&ndash;109 in _Aristotle, Volume&nbsp;1_, Loeb Classical Library, William Heinemann, London, UK, 1938.
+
+* Aristotle, "Categories", E.M. Edghill (trans.), eBooks@Adelaide, University of Adelaide, South Australia, 2007.  [Online](http://ebooks.adelaide.edu.au/a/aristotle/categories/).
 
 * Hilbert, D., and Ackermann, W. (1938/1950), _Principles of Mathematical Logic_, Robert E. Luce (trans.), Chelsea Publishing Company, New York, NY, 1950.  First published, _Grundz&#252;ge der Theoretischen Logik_, 1928.  Second edition, 1938.  English translation with revisions, corrections, and added notes by Robert E. Luce, 1950.
 
