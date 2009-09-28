@@ -50,6 +50,11 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 
 ## 2009-09-28
+
+* [[Urs Schreiber]] expanded the definition at [[scheme]]:
+
+  added a word on the definition of morphisms, gave the sheaf-theoretic version and the definition from the derived scheme perspective. In that context I cited the full paragraph of Jacob Lurie where he argues that the standard definition is misleading in that it asserts an underlying topological space, and that one better thinks of a scheme as having an underlying [[locale]]/[[0-topos]]. 
+
 * [[Zoran ?koda]] changes to [[generalized scheme]]. 
 
 * [[Urs Schreiber]] 
