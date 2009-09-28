@@ -50,6 +50,7 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 
 ## 2009-09-28
+* [[Zoran ?koda]]: entry [[internal crossed module]].
 
 * [[Urs Schreiber]] created [[differential crossed module]]
 
