@@ -53,6 +53,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 * [[Urs Schreiber]] 
 
+  * created brief entries on [[representable morphism of stacks]] and [[geometric stack]], but that needs attention
+
   * added to [[affine space]] a section "Affine spaces as model spaces".
 
   * more details at [[geometry (for structured (infinity,1)-toposes)]]
