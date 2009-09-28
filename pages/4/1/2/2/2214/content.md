@@ -55,6 +55,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
   added a word on the definition of morphisms, gave the sheaf-theoretic version and the definition from the derived scheme perspective. In that context I cited the full paragraph of Jacob Lurie where he argues that the standard definition is misleading in that it asserts an underlying topological space, and that one better thinks of a scheme as having an underlying [[locale]]/[[0-topos]]. 
 
+   * Urs why not separating this into another entry like scheme over a locale. There is zillion of things which should still enter into the entry of scheme and people needing basic info on schemes do not want hi-tech things which have no advantage in usual geometry, but rather as a motivation for generalizations ? Moreover this reinterpretation is missing the point of relative point of view. One usually have schemes over $S$, and being a scheme or being affine is a property of the morphism, and it can be done relative to anything. In that case, you do not care what is underlying. For example, nc schemes of Rosenberg have any category as a base while the exactness properties required for schemes are still strictly required. 
+
 * [[Zoran ?koda]] changes to [[generalized scheme]]. 
 
 * [[Urs Schreiber]] 
