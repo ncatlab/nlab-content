@@ -32,7 +32,7 @@ There are various way to (vastly) generalize this story to a theory of _generali
 
 Already a general idea of [[Alexander Grothendieck]] was that to study a geometry more general than [[scheme]]s instead of the gluing of [[affine scheme]]s as [[ringed space]s, one glues the functors of points; hence **a [[space]] is simply a [[sheaf]] of sets on some [[site]] $Loc$ of local models with a [[Grothendieck topology]]** $\tau$ on it. 
 
-If the local models are the usual [[affine scheme]]s, then for given choice of $\tau$ Grothendieck calls the outcome a $\tau$-locally affine space, rather than a scheme. The usual schemes are obtained for $\tau=Zariski$ and $Loc=Aff$. Algebraic spaces are another example. In general various generalizations which do not have exactness properties of Zariski or etale coverings, are usually among algebraic geometers called generalized _spaces_ rather than (generalized) _schemes_; thus the terminology almost scheme is OK because though the local objects are more general the exactness properties are basically the same (similarly for derived schemes of Toen et al. noncommutative schemes of Rosenberg etc.). 
+If the local models are the usual [[affine scheme]]s, then for given choice of $\tau$ Grothendieck calls the outcome a $\tau$-locally affine space, rather than a scheme. The usual schemes are obtained for $\tau=Zariski$ and $Loc=Aff$. Algebraic spaces are another example. In general various generalizations which do not have exactness properties of Zariski or etale coverings, are usually among algebraic geometers called generalized _spaces_ rather than (generalized) _schemes_; thus the terminology almost scheme is OK because though the local objects are more general the exactness properties are basically the same (similarly for derived schemes of Toen et al. for locally affine spaces/stacks over model categories, noncommutative schemes of Rosenberg etc.). 
 
 There are many generalizations of [[schemes]], some are even called by their respective authors generalized schemes (e.g. Lurie, Durov). Deligne in [[Catégories Tannakiennes]] suggested algebraic geometry in arbitrary symmetric monoidal category. 
 Aspects of toric geometry and the foundations of the geometry over a field of one element (Smirnov-Kapranov, Dietmar, Connes...) can be founded using structure sheaves of monoids, not rings. Another example is tropical geometry. Rings are sometimes noncommutative (e.g. D-schemes of Beilinson); the underlying topological space can be replaced by a site, locale, topos or a non-distributive lattice by localizations. Usual commutative unital rings suffice for manifolds, rigid analytic spaces, schemes, formal schemes and so on. The emphasis in Lurie is to categorify the space and to take the homotopy version of a ring, restating a formalism fitting the [[derived algebraic geometry]], mainly of Simpson's school.  
@@ -49,9 +49,9 @@ This is the definition in the context of
 
 ## Idea ##
 
-The notion of [[structured (∞,1)-topos]] is in particular a [[vertical categorification|categorificatoin]] of the notion of [[ringed space]]. In fact it is more general also in that it allows a choice of model spaces: for $\mathcal{G}$ an [[(∞,1)-category]] of test spaces that is a [[geometry (for structured (∞,1)-toposes)]], a $\mathcal{G}$-[[structured (∞,1)-topos]] is a generalization of a space with a [[structure sheaf]] of functions that may take values in the objects of $\mathcal{G}$.
+The notion of [[structured (∞,1)-topos]] is in particular a [[vertical categorification|categorification]] of the notion of [[ringed space]]. In fact it is more general also in that it allows a choice of local model spaces: for $\mathcal{G}$ an [[(∞,1)-category]] of local models that is a [[geometry (for structured (∞,1)-toposes)]], a $\mathcal{G}$-[[structured (∞,1)-topos]] is a generalization of a space with a [[structure sheaf]] of functions that may take values in the objects of $\mathcal{G}$.
 
-Therefore the ordinary statement "a scheme is a locally affined ringed space" may therefore be generalized to
+Therefore the ordinary statement "a scheme is a Zariski-locally affine space" may therefore be generalized 
 
 +-- {: .standout}
 
@@ -59,7 +59,7 @@ A $\mathcal{G}$-scheme is a locally affine [[structured (∞,1)-topos]].
 
 =--
 
-## Definition ##
+## Definition in the variant of Lurie##
 
 Let $\mathcal{G}$ be a [[geometry (for structured (∞,1)-toposes)]]. Write $\mathcal{G}_0$ for the underlying
 discrete geometry. The identity functor
