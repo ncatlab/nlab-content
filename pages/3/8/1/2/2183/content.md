@@ -7,23 +7,34 @@ The above definition is adapted from one given by [[Charles Sanders Peirce]] (CP
 
 For example, a typical case of hypostatic abstraction occurs in the transformation from "honey is sweet" to "honey possesses sweetness", which transformation can be viewed in the following variety of ways:
 
-![HA Figure 1](http://mywikibiz.com/images/7/7c/HA_Fig_1.jpg)
-
-![HA Figure 2](http://mywikibiz.com/images/7/75/HA_Fig_2.jpg)
-
-![HA Figure 3](http://mywikibiz.com/images/8/8d/HA_Fig_3.jpg)
-
-![HA Figure 4](http://mywikibiz.com/images/4/41/HA_Fig_4.jpg)
+<table align="center" cellpadding="8" style="border:none">
+<tr><td style="border:none">
+<img alt="Hypostatic Abstraction Figure 1" src="/nlab/files/Hypostatic_Abstraction_Figure_1.jpg" width="500" />
+</td></tr>
+<tr><td style="border:none">
+<img alt="Hypostatic Abstraction Figure 2" src="/nlab/files/Hypostatic_Abstraction_Figure_2.jpg" width="500" />
+</td></tr>
+<tr><td style="border:none">
+<img alt="Hypostatic Abstraction Figure 3" src="/nlab/files/Hypostatic_Abstraction_Figure_3.jpg" width="500" />
+</td></tr>
+<tr><td style="border:none">
+<img alt="Hypostatic Abstraction Figure 4" src="/nlab/files/Hypostatic_Abstraction_Figure_4.jpg" width="500" />
+</td></tr>
+</table>
 
 The grammatical trace of this hypostatic transformation tells of a process that abstracts the adjective "sweet" from the predicate "is sweet", decants the higher-arity predicate "possesses", and precipitates the substantive "sweetness" in the role of its correlative subject.
 
-## References and further reading ##
+# References and further reading #
 
-* Peirce, Charles Sanders (1902), "The Simplest Mathematics", CP 4.227--323 in _Collected Papers of Charles Sanders Peirce_, vols. 1--6, Charles Hartshorne and Paul Weiss (eds.), vols. 7--8, Arthur W. Burks (ed.), Harvard University Press, Cambridge, MA, 1931--1935, 1958.  Cited as (CP&#160;volume.paragraph).
+* Peirce, Charles Sanders (1902), "The Simplest Mathematics", CP 4.227--323 in _Collected Papers of Charles Sanders Peirce_, vols. 1--6, Charles Hartshorne and Paul Weiss (eds.), vols. 7--8, Arthur W. Burks (ed.), Harvard University Press, Cambridge, MA, 1931--1935, 1958.  Cited as (CP&nbsp;volume.paragraph).
 
-* Zeman, J. Jay (1982), "Peirce on Abstraction", _The Monist_, 65 (1982), 211--229.  Reprinted, pp. 293--311 in _The Relevance of Charles Peirce_, Eugene Freeman (ed.), Monist Library of Philosophy, La&#160;Salle, IL, 1983.  [Online](http://web.clas.ufl.edu/users/jzeman/peirce_on_abstraction.htm).
+* Zeman, J. Jay (1982), "Peirce on Abstraction", _The Monist_, 65 (1982), 211--229.  Reprinted, pp. 293--311 in _The Relevance of Charles Peirce_, Eugene Freeman (ed.), Monist Library of Philosophy, La&nbsp;Salle, IL, 1983.  [Online](http://web.clas.ufl.edu/users/jzeman/peirce_on_abstraction.htm).
 
-## External links ##
+# See also #
+
+* [[continuous predicate]]
+
+# External links #
 
 * [Hypostatic Abstraction @ MyWikiBiz](http://mywikibiz.com/Hypostatic_abstraction)
 
