@@ -1,5 +1,6 @@
 The goal of this page is to prove that a non-extensional [[choice operator]] is conservative over a theory without AC.  I'll take the theory without AC to be [[SEAR]], for definiteness and since that's where [[Mike Shulman|I'm]] most comfortable.
 
+
 # Defining SEAR+$\epsilon$
 
 For the theory with a non-extensional choice operator, consider the following theory, which is a variant of the version of SEAR without fundamental equality described at [[SEAR]].  There are four basic sorts: *pre-sets*, *pre-relations*, *elements*, and *operations* (or *pre-functions*).  Each element belongs to a pre-set, and each pre-relation and operation has a source and target which are pre-sets.  For a prerelation $\phi:A\looparrowright B$ and $x\in A$, $y\in B$, we have the assertion $\phi(x,y)$, and for an operation $f:A\rightsquigarrow B$ and $x\in A$ we have an element $f(x)\in B$.  There is no predefined notion of equality of anything.   Axioms 0 and 1 of SEAR are unmodified, except that the uniqueness clause of the latter is interpreted as a *definition* of when two parallel pre-relations are called "equal".  We also impose
@@ -46,6 +47,10 @@ Note that the model of $SEAR+\epsilon$ we've just constructed also satisfies COS
 
 # Without COSHEP
 
-???
+Now [[Toby Bartels|I]] step in to say: $\mathbf{SEAR} + \epsilon \vDash COSHEP$.
+
+The reason is that every preset *does* admit an identity prerelation as in the last paragraph above; let $x \equiv_A y$ if $x \sim_R y$ for every reflexive prerelation $R: A \looparrowright A$ (or even for every equivalence prerelation).  This will work also in $\mathbf{ETCS} + \epsilon$ by quantifying over prefunctions $f: A \to \mathcal{P}1$ and using the kernel of $f$ (relative to the standard equality on truth values) as the equivalence relation.  (Of course, $\mathbf{SEAR}$ is capable of using this method too.)  It will still work in versions with intuitionistic logic, but not (as far as I can see) in $\mathbf{CETCS} + \epsilon$ (following [Palmgren](http://www.math.uu.se/~palmgren/cetcs.pdf)), where one cannot take power sets or quantify over subsets.
+
 
 [[!redirects SEAR+ε]]
+[[!redirects SEAR+ϵ]]
