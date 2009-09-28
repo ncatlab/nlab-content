@@ -48,6 +48,10 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ***
 
+
+## 2009-09-28
+
+
 ## 2009-09-27
 
 * [[Mike Shulman]]: In response to the discussion at [[choice operator]], I started [[SEAR+?]] about whether and why adding a non-extensional choice operator is a conservative thing to do to a theory that lacks [[axiom of choice|AC]].  So far I can prove that it is conservative over [[COSHEP]].
@@ -62,6 +66,7 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
    * Maybe it\'s just my font choices (DejaVu all the way!), but the TOC at [[generalized scheme]] looks perfectly normal to me.
    * Comments at [[choice operator]] and [[SEAR]].
    * [[Bas Spitters]] joined to make a note at [[SEAR]] that I moved to [[ETCS]].
+
 
 ## 2009-09-26
 
