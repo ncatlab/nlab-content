@@ -13,10 +13,11 @@
 
 
 # Idea #
+A general idea of [[Alexander Grothendieck]] was that to study a geometry more general than [[scheme]]s instead of the gluing of [[affine scheme]]s as [[ringed space]s, one glues the functors of points; hence **a [[space]] is simply a [[sheaf]] of sets on some [[site]] $Loc$ of local models with a [[Grothendieck topology]]** $\tau$ on it. 
 
-Recall that an ordinary [[scheme]] $X$ is a [[ringed space]] that is locally isomorphic to an [[affine scheme]]. 
+An algebraic [[scheme]] $X$ is a [[ringed space]] that is locally isomorphic to an [[affine scheme]]. Alternatively (see Gabriel-Demazure), it is a presheaf of sets on $Aff=CommRing^{op}$ locally representable in Zariski topology on $Aff$. The second approach [[Alexander Grothendieck]] calls functor of points approach. 
 
-Every scheme $X$ gives rise to a [[presheaf]] on the formal dual of commutative rings
+To recall the equivalence between the two points of view, every scheme $X$ gives rise to a representable [[presheaf]] on the formal dual of commutative rings
 
 $$
   X(-) : CRing \to Set
@@ -26,13 +27,11 @@ $$
   A \mapsto Hom_{CRing}(Spec A, X)
 $$
 
-and that this is a [[sheaf]] with respect to various [[Grothendieck topology|Grothendieck topologies]] on $CRing^{op}$.
+and this is a [[sheaf]] with respect to Zariski [[Grothendieck topology]] on $Aff$. Sheaves in any other fixed *subcanonical* topology $\tau$ on $Aff$ are called $\tau$-locally affine spaces. The usual schemes are obtained for $\tau=Zariski$ and $Loc=Aff$. Algebraic spaces are another example. In other fields like analytic spaces, sheaves on other categories of local models $Loc$ instead of $Aff$ are considered in classical works.
 
-There are various way to (vastly) generalize this story to a theory of _generalized schemes_ .  
+In general various generalizations which do not have exactness properties of Zariski or etale coverings, are usually among algebraic geometers called generalized _spaces_ rather than (generalized) _schemes_; thus the terminology almost scheme is OK because though the local objects are more general the exactness properties are basically the same (similarly for derived schemes of Toen et al. noncommutative schemes of Rosenberg etc.). 
 
-Already a general idea of [[Alexander Grothendieck]] was that to study a geometry more general than [[scheme]]s instead of the gluing of [[affine scheme]]s as [[ringed space]s, one glues the functors of points; hence **a [[space]] is simply a [[sheaf]] of sets on some [[site]] $Loc$ of local models with a [[Grothendieck topology]]** $\tau$ on it. 
-
-If the local models are the usual [[affine scheme]]s, then for given choice of $\tau$ Grothendieck calls the outcome a $\tau$-locally affine space, rather than a scheme. The usual schemes are obtained for $\tau=Zariski$ and $Loc=Aff$. Algebraic spaces are another example. In general various generalizations which do not have exactness properties of Zariski or etale coverings, are usually among algebraic geometers called generalized _spaces_ rather than (generalized) _schemes_; thus the terminology almost scheme is OK because though the local objects are more general the exactness properties are basically the same (similarly for derived schemes of Toen et al. for locally affine spaces/stacks over model categories, noncommutative schemes of Rosenberg etc.). 
+There are various way to generalize the scope of the functor of points approach.  
 
 There are many generalizations of [[schemes]], some are even called by their respective authors generalized schemes (e.g. Lurie, Durov). Deligne in [[Catégories Tannakiennes]] suggested algebraic geometry in arbitrary symmetric monoidal category. 
 Aspects of toric geometry and the foundations of the geometry over a field of one element (Smirnov-Kapranov, Dietmar, Connes...) can be founded using structure sheaves of monoids, not rings. Another example is tropical geometry. Rings are sometimes noncommutative (e.g. D-schemes of Beilinson); the underlying topological space can be replaced by a site, locale, topos or a non-distributive lattice by localizations. Usual commutative unital rings suffice for manifolds, rigid analytic spaces, schemes, formal schemes and so on. The emphasis in Lurie is to categorify the space and to take the homotopy version of a ring, restating a formalism fitting the [[derived algebraic geometry]], mainly of Simpson's school.  
@@ -92,7 +91,7 @@ with $\mathbf{Spec}_{\mathcal{G}_0}^{\mathcal{G}}$
 =--
 
 +-- {: .un_remark}
-###### Remark ( [[Structured Spaces|StSp]] p. 38 )
+###### Remark ( [[StructuredSpaces|StSp]] p. 38 )
 
 There is a canonical morphism
 
@@ -220,6 +219,10 @@ Let $k$ be a commutative ring. Recall the pregeometry $\mathcal{T}_{et}(k)$
 
 A **[[derived Deligne-Mumford stack]]** over $k$ is a $\mathcal{T}_{et}(k)$-scheme.
 
++--{.query}
+Zoran: there is a serious collision here with the terminology in algebraic geometry, including in HAG and DAG of Toen et al. I mean if one just changes from Zariski to etale topology, one passes roughly from algebraic schemes to algebraic spaces. One needs to go further from algebraic spaces to algebraic stacks. I do not see these distinctions here. The terminology in HAG and DAG is perfectly in accord and refines classical terminology. 
+=--
+
 =--
 
 
@@ -233,7 +236,7 @@ See
 
 ### References ###
 
-The theory of $\mathcal{G}$-schenmes is due to [[Jacob Lurie]].
+The theory of $\mathcal{G}$-schemes is due to [[Jacob Lurie]].
 
 Generalized schemes are definition 2.3.9 of
 
@@ -245,14 +248,18 @@ The definition of affine $\mathcal{G}$-schemes (absolute spectra) is in section 
 
 N. Durov replaces the commutative rings by commutative [[algebraic monad]]s (aka generalized rings) in sets and defines spectra in that context, and glues them together. This way he defines what he calls __generalized schemes__: in a nutshell generalized schemes are schemes glued from affine spectra of generalized rings. The corresponding category of quasicoherent $\mathcal{O}$-modules is not abelian in general. 
 
+#Brave new schemes#
+
+Brave new algebraic geometry is a case of homotopic algebraic geometry where the local models are ringed spectra in the sense of stable homotopy theory. So one can talk about brave new schemes and brave new stacks...
+
 # Other generalized schemes #
 
 O. Gabber considers replacing rings by *almost rings*, this results in the theory of [[almost schemes]].
 
 One should note that Grothendieck school has occasionally studied ringed sites where ring is not required to be commutative and considered quasicoherent sheaves and cohomology in that context. D-schemes of Beilinson are an example where this formalism is useful. 
 
-Rosenberg considers generalized relative schemes as categories over an arbitrary base category with a relatively affine cover satisfying some exactness conditions. The scheme as a category is in fact abstracting the category of [[quasicoherent sheaf|quasicoherent sheaves]] over some generalized scheme. Rosenberg calls the Zariski version of that formalism [[noncommutative scheme]]; some other versions of locally affine spaces can be also relativized.
+Rosenberg considers generalized relative schemes as categories over an arbitrary base category with a relatively affine cover satisfying some exactness conditions. The scheme as a category is in fact abstracting the category of quasicoherent sheaves over some generalized scheme. Rosenberg calls the Zariski version of that formalism [[noncommutative scheme]]; some other versions of locally affine spaces can be also relativized.
 
-Rigid analytic geometry is featuring locally affinoid spaces (spectra of Banach algebras in a special class called [[affinoid algebra]]s) in so-called G-topology. 
+[[rigid analytic geometry|Rigid analytic geometry]] is featuring locally affinoid spaces (affinoid spaces are spectra of Banach algebras over complete ultrametric fields which belong to a special class called [[affinoid algebra]]s; Berkovits spectra are most often used) in so-called G-topology. 
 
 [[!redirects generalized schemes]]
