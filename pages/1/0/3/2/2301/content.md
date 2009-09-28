@@ -92,7 +92,7 @@ with $\mathbf{Spec}_{\mathcal{G}_0}^{\mathcal{G}}$
 =--
 
 +-- {: .un_remark}
-###### Remark ( [[StructuredSpaces|StSp]] p. 38 )
+###### Remark ( [[Structured Spaces|StSp]] p. 38 )
 
 There is a canonical morphism
 
@@ -251,8 +251,8 @@ O. Gabber considers replacing rings by *almost rings*, this results in the theor
 
 One should note that Grothendieck school has occasionally studied ringed sites where ring is not required to be commutative and considered quasicoherent sheaves and cohomology in that context. D-schemes of Beilinson are an example where this formalism is useful. 
 
-Rosenberg considers generalized relative schemes as categories over an arbitrary base category with a relatively affine cover satisfying some exactness conditions. The scheme as a category is in fact abstracting the category of quasicoherent sheaves over some generalized scheme. Rosenberg calls the Zariski version of that formalism [[noncommutative scheme]]; some other versions of locally affine spaces can be also relativized.
+Rosenberg considers generalized relative schemes as categories over an arbitrary base category with a relatively affine cover satisfying some exactness conditions. The scheme as a category is in fact abstracting the category of [[quasicoherent sheaf|quasicoherent sheaves]] over some generalized scheme. Rosenberg calls the Zariski version of that formalism [[noncommutative scheme]]; some other versions of locally affine spaces can be also relativized.
 
-Rigid analytic geometry is featuring locally affinoid spaces (spectra of Banach algebras in a special class called affinoid algebras) in so-called G-topology. 
+Rigid analytic geometry is featuring locally affinoid spaces (spectra of Banach algebras in a special class called [[affinoid algebra]]s) in so-called G-topology. 
 
 [[!redirects generalized schemes]]
