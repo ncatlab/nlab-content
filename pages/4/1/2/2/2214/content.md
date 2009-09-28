@@ -51,6 +51,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-28
 
+* [[Zoran ?koda]] created [[general linear group]].
+
 *  [[Toby Bartels]]:  I\'m pretty sure that [[SEAR+?]] satisfies $COSHEP$.
 
 * [[Todd Trimble]]: created [[PRO]], and began (re)adding material to [[cube]], with a view toward incorporating material from the Grandis-Mauri [paper](http://www.emis.de/journals/TAC/volumes/11/8/11-08.pdf) on cubical sites. Discussion with [[David Corfield]] at [[cubical set]]. 
