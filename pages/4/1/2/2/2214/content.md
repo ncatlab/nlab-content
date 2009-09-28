@@ -51,6 +51,7 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-28
 
+* [[Mike Shulman]]: A reference at [[COSHEP]].
 
 ## 2009-09-27
 
