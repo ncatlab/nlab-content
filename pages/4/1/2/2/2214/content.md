@@ -51,6 +51,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-28
 
+* [[David Corfield]]: Carried on the discussion at [[cubical set]]. Now we need to decide whether Pratt's use of the term is sufficiently widespread to justify disambiguation.
+
 * [[Urs Schreiber]]: 
 
   * more details at [[generalized scheme]]
