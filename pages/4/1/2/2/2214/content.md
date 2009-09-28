@@ -50,6 +50,9 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 
 ## 2009-09-28
+
+* [[Urs Schreiber]]: added the example of "derived schemes with $E_\infty$-ring"-valued structure sheaves to [[generalized scheme]].
+
 * [[Zoran ?koda]] separated Lurie material, with a link from [[scheme]] to [[scheme as locally affine structured (infinity,1)-topos]].
 
   [[Urs Schreiber]]: thanks, Zoran. I have renamed the entry to say $(\infty,1)$-topos, as I think we agreed to be (more) careful than Lurie is about this.
