@@ -1,3 +1,9 @@
+#Contents#
+
+* automatic table of contents goes here
+{:toc}
+
+
 # Idea #
 
 An __affine space__ or __affine linear space__ is a [[vector space]] that has forgotten its origin.  An __affine linear map__ (a morphism of affine spaces) is a linear map (a morphism of vector spaces) that need not preserve the origin.
@@ -91,6 +97,18 @@ _Toby_:  Right.  But I find an affine module of a *rig* to be a trickier concept
 
 _Toby_:  Yes, that would be an affine $\mathbb{N}$-module.
 =--
+
+
+# Affine spaces as model spaces #
+
+
+Affine spaces typically serve as local models for more general kinds of spaces. 
+
+For instance a [[manifold]] is a [[topological space]] that is locally isomorphic to an affine space.  
+
+Similarly, in [[algebraic geometry]] a [[scheme]] is locally isomorphic to an [[affine scheme]].
+
+Therefore there are attempts to axiomatize properties of categories of affine spaces for the purpose of using these as model spaces for more complicated geometries. One such axiomatization is the notion of [[geometry (for structured (∞,1)-toposes)]]. and in particular that of [presgeometry](http://ncatlab.org/nlab/show/geometry+(for+structured+(infinity%2C1)-toposes)#pregeometry_13).
 
 
 [[!redirects affine spaces]]
