@@ -6,10 +6,39 @@
 [[!include higher algebra - contents]]
 </div>
 
->Zoran: I worked very hard on parts of this entry and the bibliography. It was a TEXT, planned and created with this in mind. Now it has very arbitrary table of contents on the right hand side. Why not having simple one single LINK to the higher geometry contents page and who subscribes to it can follow it. If something is created as a TEXT it should be respected and not made into web-noise with content free table of links or adevrtisements. I support creating tabels of links and myself have done several of them. But if some page is already created and matured as a TEXT and hours are put into this, I do not like hijacking it for mixing it with table of contents. Lets have just link to toc, who likes it can folow it, and the look and size of the page does not change. Specially for printing. If I do a contribution in a format which I like, then up to additions, enw paragraphs, minor chanes, comments, linguistics corrections and alike by improvers and intelligent colleagues, I expect it to stay with some form-preserving features as an asset to a future, as a piece of work which I will find here after 30 years in traceably similar form. If you guys plan to change to nlabXP and nlabVista and so on in future, unlike LaTeX which was having similar ouput in 1990 as it has today, then it is not my choice and it makes me unhappy.
+#Contents#
+
+* automatic table of conteents goes here
+{:toc}
+
++-- {: .query}
+
+[[Zoran Skoda]]: I worked very hard on parts of this entry and the bibliography. It was a TEXT, planned and created with this in mind. Now it has very arbitrary table of contents on the right hand side. Why not having simple one single LINK to the higher geometry contents page and who subscribes to it can follow it. If something is created as a TEXT it should be respected and not made into web-noise with content free table of links or adevrtisements. I support creating tabels of links and myself have done several of them. But if some page is already created and matured as a TEXT and hours are put into this, I do not like hijacking it for mixing it with table of contents. Lets have just link to toc, who likes it can folow it, and the look and size of the page does not change. Specially for printing. If I do a contribution in a format which I like, then up to additions, enw paragraphs, minor chanes, comments, linguistics corrections and alike by improvers and intelligent colleagues, I expect it to stay with some form-preserving features as an asset to a future, as a piece of work which I will find here after 30 years in traceably similar form. If you guys plan to change to nlabXP and nlabVista and so on in future, unlike LaTeX which was having similar ouput in 1990 as it has today, then it is not my choice and it makes me unhappy.
+
+=--
 
 
-The term __derived algebraic geometry__ is used in two closely related but logically different notions: as the part of the geometry of schemes captured cohomologically (by the derived category of coherent sheaves) what presents the kind of data very close to the interests of classical Italian school and as the derived moduli spaces, which extend or replace the usual moduli spaces. In the early works of Russian school (Kapranov, Bondal, Orlov, [[Kontsevich]]) it meant, replacing a variety by the [[derived category]] of [[coherent sheaves]] (or [[quasicoherent sheaves]] on that variety, or dg-category ($A_\infty$-category) [[enhanced triangulated category|enhancements]] thereof. There are also noncommutative deformations of such derived categories and analogues like the categories corresponding to the so-called [[Landau-Ginzburg model]]s. Therefore noncommutative derived geometry (and even noncommutative motives). Derived category does NOT remember all the structure of the original variety hence the derived geometry looses often some information (sometimes not); thus derived algebraic geometry is sometimes easier than nonderived. On the other hand there is a closely related effort to include sheaves of commutative dg-algebras as structure sheaves (dg-schemes of Kaprabov, Ciocan-Fontaine, and Kontsevich) and more generally to allow higher categorical structured spaces of algebraic type, generalizing algebraic stacks, schemes and algebraic spaces. This [[higher category theory|higher categorical]] version of [[algebraic geometry]]: its [[vertical categorification]] is also called derived algebraic geometry. Notice that in that sense, there is no loss of information in a passage from a scheme to its natural extension to a derived scheme. This second school has been, after the original ideas of Deligne, Drinfel'd and Kontsevich advanced by [[Carlos Simpson]] (who introduced also basic prerequisited like algebraic and geometric $n$-stacks), and later [[Bertrand Toen]] and coworkers. One of the main motivations for both variants of derived alegbraic geometry is to develop the satisfactory deformation theory and on its basis the theory of moduli stacks in algebraic geometry beyond the few examples which work in classical language of algebraic spaces and algebraic 1-stacks. Sometimes, but not always getting rid of limitations coming from 1-categorical truncations removes nonsmoothness, but the expectations in that directions (hidden smoothness principle) failed in generality expected at the beginning. The construction of the derived moduli spaces relies, similarly to the classical moduli theory in algebraic geometry, on the infinitesimal case -- the [[deformation theory]] (cf. [[cotangent complex]]).
+# Idea #
+
+The term __derived algebraic geometry__ is used in two closely related but logically different notions: 
+
+1. as the part of the geometry of schemes captured cohomologically (by the [[derived category]] of [[coherent seaf|coherent sheaves]]), which presents the kind of data very close to the interests of the classical Italian school and 
+
+1. as the derived [[moduli space]]s, which extend or replace the usual [[moduli space]]s. 
+
+## derived categories of sheaves on a space ##
+
+In the early works of the Russian school (Kapranov, Bondal, Orlov, [[Kontsevich]]) it meant, replacing a [[variety]] by the [[derived category]] of [[coherent sheaves]] (or [[quasicoherent sheaves]] on that variety, or [[dg-category]] (or [[A-infinity category]]) [[enhanced triangulated category|enhancements]] thereof. There are also [[noncommutative algebraic geometry|noncommutative deformations]] of such derived categories and analogues like the categories corresponding to the so-called [[Landau-Ginzburg model]]s. Therefore **noncommutative derived geometry** (and even noncommutative motives). 
+
+Notice that the [[derived category]] of coherent sheaves on a variety does _not_ remember all the structure of the original variety hence derived geometry loses often some information (sometimes not); thus derived algebraic geometry is sometimes easier than nonderived. 
+
+## derived structure sheaves ##
+
+On the other hand there is a closely related effort to include sheaves of commutative [[dg-algebra]]s as [[structure sheaf|structure sheaves]] (dg-schemes of Kapranov, Ciocan-Fontaine, and [[Kontsevich]]) and more generally to allow [[higher category theory|higher categorical]] [[structured (infinity,1)-topos|structured spaces]] of algebraic type, generalizing [[algebraic stack]]s, [[scheme]]s and [[algebraic space]]s. This is a [[higher category theory|higher categorical]] version of [[algebraic geometry]]: its [[vertical categorification]] is also called derived algebraic geometry. Notice that in that sense, there is no loss of information in a passage from a scheme to its natural extension to a derived scheme. 
+
+This second school has been, after the original ideas of Deligne, Drinfel'd and Kontsevich advanced by [[Carlos Simpson]] (who introduced also basic prerequisited like algebraic and geometric [[infinity-stack|n-stack]]s), and later [[Bertrand Toen]] and coworkers. One of the main motivations for both variants of derived alegbraic geometry is to develop a satisfactory deformation theory and on its basis the theory of [[moduli stack]]s in [[algebraic geometry]] beyond the few examples which work in classical language of algebraic spaces and algebraic 1-stacks. 
+
+Sometimes, but not always getting rid of limitations coming from 1-categorical truncations removes nonsmoothness, but the expectations in that directions (hidden smoothness principle) failed in generality expected at the beginning. The construction of the derived moduli spaces relies, similarly to the classical moduli theory in algebraic geometry, on the infinitesimal case -- the [[deformation theory]] (cf. [[cotangent complex]]).
 
 ## "derived" in the second sense versus "$\infty$-"
 
@@ -24,6 +53,30 @@ _Zoran_: this paragraph is entirely wrong, hence your repenting it. There are tw
 ## relation to higher algebra ##
 
 Where ordinary [[algebraic geometry]] uses [[algebra]] to describe [[geometry]], derived algebraic geometry uses [[higher algebra]]. Where ordinary algebraic geometry uses [[scheme]]s modeled on [[commutative ring]]s, derived algebraic geometry uses [[structured (∞,1)-topos]]es modeled on [[E-∞ ring]]s .
+
+
+#Definitions#
+
+## derived categories of sheaves ##
+
+> detials to be inserted here. Basic idea is to _identify_ [[triangulated category|triangulated]] [[dg-category|dg-categories]], [[A-infinity category|categories]] and other models for [[stable (∞,1)-category|stable (∞,1)-categories]] with generalized "derived" spaces and to describe morphism between them in terms of [[geometric morphism]]s between these categories. It might be noteworthy that a (accessible) stable $(\infty,1)$-category is much like a (Grothendieck) [[(∞,1)-topos]]. See the definition below.
+
+## derived structure sheaves ##
+
+In
+
+* [[Jacob Lurie]], [[Structured Spaces]] 
+
+a definition of [[derived algebraic scheme]] and [[derived Deligne-Mumford stack]] is given in the wider context of [[generalized scheme]]s realized as locally affine [[structured (∞,1)-topos]]es.
+
+See these links for more details.
+
++-- {: .num_remark}
+###### Remark (derived scheme are $(\infty,1)$-toposes)
+
+This definition is based on the observation that it is a deficiency of the ordinary defintion of [[scheme]] to demand that underlying a scheme is a [[topological space]] and that a better definition is obtained by demanding it to have an underlying [[locale]]. But a [[locale]] is a [[0-topos]]. This motivates then the definition of a [[generalized scheme]] as a (locally affine, [[structured (infinity,1)-topos|structured]]) [[(∞,1)-topos]]. 
+
+=--
 
 
 # Examples #
