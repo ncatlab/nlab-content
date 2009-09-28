@@ -50,6 +50,7 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 
 ## 2009-09-28
+* [[Zoran ?koda]] changes to [[generalized scheme]]. 
 
 * [[Urs Schreiber]] 
 
