@@ -50,6 +50,7 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 
 ## 2009-09-28
+* [[Zoran ?koda]] separated Lurie material, with a link from [[scheme]] to [[scheme as a locally affine structured infinity topos]].
 
 * [[Urs Schreiber]]: added the alternative definition in terms of sheaves on $Aff/X$ to [[quasicoherent sheaf]].
 
