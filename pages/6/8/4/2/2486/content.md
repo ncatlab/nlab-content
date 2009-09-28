@@ -14,7 +14,7 @@ is an isomorphism on objects.
 
 Morphisms $x^{\otimes m} \to x^{\otimes n}$ in a PRO are often thought of as operations which accept $m$ inputs and produce $n$ outputs, hence PROs are like nonpermutative operads but for the multiple outputs, which make them more general. 
 
-Let $C$ be a monoidal category. A **$T$-model** in $C$ is a strong monoidal functor $F: T \to C$; the _underlying object_ of the $T$-model is the value $F(x)$. A $T$-model is thus an object $c$ of $C$ equipped with operations 
+Let $C$ be a monoidal category. A **$T$-model** in $C$ (or a $C$-representation of $T$) is a strong monoidal functor $F: T \to C$; the _underlying object_ of the $T$-model is the value $F(x)$. A $T$-model is thus an object $c$ of $C$ equipped with operations 
 
 $$\theta_c: c^{\otimes m} \to c^{\otimes n},$$ 
 
@@ -33,10 +33,3 @@ The monoidal category of planar thickened 1d tangles (is this the right vocabula
 Just as the notion of [[PROP]] is a symmetric monoidal analogue of PRO, there is a braided monoidal analogue called a **PROB**. The cartesian monoidal analogue is known as a [[Lawvere theory]]. 
 
 More generally, given any [[doctrine]] $D$, let $I(D)$ be an initial algebra of the doctrine. A PRO-D can then be defined as an algebra $T$ such that the algebra map $I(D) \to T$ induces an isomorphism on objects. This is clearly an [[evil]] notion, and yet a useful and general one in practice. 
-
----
-&lt;http://ncatlab.org/nlab/show/PRO>
-
-Relation to PROPs and sketches
-
-nLab page on [[nlab:PRO]]
