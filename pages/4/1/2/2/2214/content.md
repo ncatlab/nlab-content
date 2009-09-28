@@ -50,6 +50,9 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 
 ## 2009-09-28
+
+* [[Mike Shulman]]: Toby is [[SEAR+?|right]].
+
 * [[Zoran ?koda]]: entry [[internal crossed module]].
 
 * [[Urs Schreiber]] created [[differential crossed module]]
