@@ -1669,6 +1669,150 @@ The next venn diagram shows once again the proposition $p q$, which we now view 
 
 Given a proposition $f : X \to \mathbb{B}$, the _tacit extension_ of $f$ to $\mathop{E}X$ is denoted $\varepsilon f : \mathop{E}X \to \mathbb{B}$ and defined by the equation $\varepsilon f = f$, so it's really just the same proposition residing in a bigger universe.  Tacit extensions formalize the intuitive idea that a function on a particular set of variables can be extended to a function on a superset of those variables in such a way that the new function obeys the same constraints on the old variables, with a "don't care" condition on the new variables.
 
+The tacit extension of the scalar field $p q : X \to \mathbb{B}$ to the differential field $\varepsilon (p q) : \mathop{E}X \to \mathbb{B}$ is shown in the following venn diagram:
+
+<table align="center" cellpadding="8" markdown="1" style="border:none; text-align:center">
+
+<tr>
+<td style="border:none">
+<img alt="Field Picture PQ Tacit Extension Conjunction" src="/nlab/files/Field_Picture_PQ_Tacit_Extension_Conjunction.jpg" width="500" />
+<br>
+<font size="+2">$\text{Tacit Extension} \: \varepsilon (p q) : \mathop{E}X \to \mathbb{B}$</font>
+</td></tr>
+
+<tr>
+<td style="border:none"><font size="+1">
+$\array{\arrayopts{\colalign{right center}}
+\varepsilon (p q)
+&amp; = &amp; p &amp; \cdot &amp; q &amp; \cdot &amp;
+\text{&#x2997;} \mathop{d}p \text{&#x2998;&#x2997;} \mathop{d}q \text{&#x2998;}
+\\
+&amp; + &amp; p &amp; \cdot &amp; q &amp; \cdot &amp;
+\text{&#x2997;} \mathop{d}p \text{&#x2998;} \; \mathop{d}q \;
+\\
+&amp; = &amp; p &amp; \cdot &amp; q &amp; \cdot &amp;
+\; \mathop{d}p \; \text{&#x2997;} \mathop{d}q \text{&#x2998;}
+\\
+&amp; = &amp; p &amp; \cdot &amp; q &amp; \cdot &amp;
+\; \mathop{d}p \;\; \mathop{d}q \;
+}$
+</font></td></tr>
+
+</table>
+
+## Enlargement and Difference Maps ##
+
+Continuing with the example $p q : X \to \mathbb{B}$, the next venn diagram shows the enlargement map $\mathop{E}(p q) : \mathop{E}X \to \mathbb{B}$ in the same style of differential field picture that we drew for the tacit extension $\varepsilon (p q) : \mathop{E}X \to \mathbb{B}$.
+
+<table align="center" cellpadding="8" markdown="1" style="border:none; text-align:center">
+
+<tr>
+<td style="border:none">
+<img alt="Field Picture PQ Enlargement Conjunction" src="/nlab/files/Field_Picture_PQ_Enlargement_Conjunction.jpg" width="500" />
+<br>
+<font size="+2">$\text{Enlargement Map} \: \mathop{E}(p q) : \mathop{E}X \to \mathbb{B}$</font>
+</td></tr>
+
+<tr>
+<td style="border:none"><font size="+1">
+$\array{\arrayopts{\colalign{right center}}
+\mathop{E}(p q)
+&amp; = &amp;
+p
+&amp; \cdot &amp;
+q
+&amp; \cdot &amp;
+\text{&#x2997;} \mathop{d}p \text{&#x2998;&#x2997;} \mathop{d}q \text{&#x2998;}
+\\
+&amp; + &amp;
+p
+&amp; \cdot &amp;
+\text{&#x2997;} q \text{&#x2998;}
+&amp; \cdot &amp;
+\text{&#x2997;} \mathop{d}p \text{&#x2998;} \; \mathop{d}q \;
+\\
+&amp; + &amp;
+\text{&#x2997;} p \text{&#x2998;}
+&amp; \cdot &amp;
+q
+&amp; \cdot &amp;
+\; \mathop{d}p \; \text{&#x2997;} \mathop{d}q \text{&#x2998;}
+\\
+&amp; + &amp;
+\text{&#x2997;} p \text{&#x2998;}
+&amp; \cdot &amp;
+\text{&#x2997;} q \text{&#x2998;}
+&amp; \cdot &amp;
+\; \mathop{d}p \;\; \mathop{d}q \;
+}$
+</font></td></tr>
+
+</table>
+
+A very important conceptual transition has just occurred here, almost tacitly, as it were.  Generally speaking, having a set of mathematical objects of compatible types, in this case the two differential fields $\varepsilon f$ and $\mathop{E}f$, both of the type $\mathop{E}X \to \mathbb{B}$, is very useful, because it allows us to consider these fields as integral mathematical objects that can be operated on and combined in the ways that we usually associate with algebras.
+
+In the example $f = p q$ one notices that the tacit extension $\varepsilon f$ and the enlargement $\mathop{E}f$ are in a certain sense dual to each other.  The tacit extension $\varepsilon f$ indicates all the arrows out of the region where $f$ is true and the enlargement $\mathop{E}f$ indicates all the arrows into the region where $f$ is true.  The only arc they have in common is the no-change loop $\text{&#x2997;} \mathop{d}p \text{&#x2998;&#x2997;} \mathop{d}q \text{&#x2998;}$ at $p q$.  If we add the two sets of arcs in mod 2 fashion then the loop of multiplicity 2 zeroes out, leaving the 6 arcs of $\mathop{D}(p q) = \varepsilon(p q) + \mathop{E}(p q)$ that are illustrated below:
+
+<table align="center" cellpadding="8" markdown="1" style="border:none; text-align:center">
+
+<tr>
+<td style="border:none">
+<img alt="Field Picture PQ Difference Conjunction" src="/nlab/files/Field_Picture_PQ_Difference_Conjunction.jpg" width="500" />
+<br>
+<font size="+2">$\text{Difference Map} \: \mathop{D}(p q) : \mathop{E}X \to \mathbb{B}$</font>
+</td></tr>
+
+<tr>
+<td style="border:none"><font size="+1">
+$\array{\arrayopts{\colalign{right center}}
+\mathop{D}(p q)
+&amp; = &amp;
+p
+&amp; \cdot &amp;
+q
+&amp; \cdot &amp;
+\text{&#x2997;&#x2997;} \mathop{d}p \text{&#x2998;&#x2997;} \mathop{d}q \text{&#x2998;&#x2998;}
+\\
+&amp; + &amp;
+p
+&amp; \cdot &amp;
+\text{&#x2997;} q \text{&#x2998;}
+&amp; \cdot &amp;
+\; \text{&#x2997;} \mathop{d}p \text{&#x2998;} \; \mathop{d}q \;\;
+\\
+&amp; + &amp;
+\text{&#x2997;} p \text{&#x2998;}
+&amp; \cdot &amp;
+q
+&amp; \cdot &amp;
+\;\; \mathop{d}p \; \text{&#x2997;} \mathop{d}q \text{&#x2998;} \;
+\\
+&amp; + &amp;
+\text{&#x2997;} p \text{&#x2998;}
+&amp; \cdot &amp;
+\text{&#x2997;} q \text{&#x2998;}
+&amp; \cdot &amp;
+\;\; \mathop{d}p \;\; \mathop{d}q \;
+}$
+</font></td></tr>
+
+</table>
+
+## Tangent and Remainder Maps ##
+
+If we follow the classical line that singles out linear functions as ideals of simplicity, then we may complete the analytic series of the proposition $f = p q : X \to \mathbb{B}$ in the following way.
+
+The next venn diagram shows the differential proposition $\mathop{d}f = \mathop{d}(p q) : \mathop{E}X \to \mathbb{B}$ that we get by extracting the cell-wise linear approximation to the difference map $\mathop{D}f = \mathop{D}(p q) : \mathop{E}X \to \mathbb{B}$.  This is the logical analogue of what would ordinarily be called "the" differential of $p q$, but since we've been attaching the adjective _differential_ to just about everything in sight, the distinction tends to be lost.  For the time being, let's resort to using the alternative name _tangent map_ for $\mathop{d}f$.
+
+<table align="center" cellpadding="8" markdown="1" style="border:none; text-align:center">
+
+<td style="border:none">
+<img alt="Field Picture PQ Differential Conjunction" src="/nlab/files/Field_Picture_PQ_Differential_Conjunction.jpg" width="500" />
+<br>
+<font size="+2">$\text{Tangent Map} \: \mathop{d}(p q) : \mathop{E}X \to \mathbb{B}$</font></td>
+
+</table>
+
 # External Links #
 
 * [Differential_Logic : Introduction](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Differential_Logic_:_Introduction)
@@ -1692,14 +1836,6 @@ Templates ---
        <img alt="mytext" src="/nlab/files/mypic.jpg" width="500" />
 
 Upload Queue ---
-
-[[Field_Picture_PQ_Tacit_Extension_Conjunction.jpg|Field Picture PQ Tacit Extension Conjunction:pic]]
-
-[[Field_Picture_PQ_Enlargement_Conjunction.jpg|Field Picture PQ Enlargement Conjunction:pic]]
-
-[[Field_Picture_PQ_Difference_Conjunction.jpg|Field Picture PQ Difference Conjunction:pic]]
-
-[[Field_Picture_PQ_Differential_Conjunction.jpg|Field Picture PQ Differential Conjunction:pic]]
 
 [[Field_Picture_PQ_Remainder_Conjunction.jpg|Field Picture PQ Remainder Conjunction:pic]]
 
