@@ -51,6 +51,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-28
 
+*  [[Toby Bartels]]:  I\'m pretty sure that [[SEAR+?]] satisfies $COSHEP$.
+
 * [[Todd Trimble]]: created [[PRO]], and began (re)adding material to [[cube]], with a view toward incorporating material from the Grandis-Mauri [paper](http://www.emis.de/journals/TAC/volumes/11/8/11-08.pdf) on cubical sites. Discussion with [[David Corfield]] at [[cubical set]]. 
 
 * [[Urs Schreiber]]: added the example of "derived schemes with $E_\infty$-ring"-valued structure sheaves to [[generalized scheme]].
@@ -87,7 +89,6 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
   * more details at [[geometry (for structured (infinity,1)-toposes)]]
 
-
 * [[David Corfield]]: Carried on the discussion at [[cubical set]]. Now we need to decide whether Pratt's use of the term is sufficiently widespread to justify disambiguation.
 
 * [[Urs Schreiber]]: 
@@ -97,6 +98,7 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
   * edited [[derived algebraic geometry]] (a bit structuring by headlines and some paragraphs here and there)
 
 * [[Mike Shulman]]: A reference at [[COSHEP]].
+
 
 ## 2009-09-27
 
