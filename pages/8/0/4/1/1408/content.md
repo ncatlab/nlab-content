@@ -265,3 +265,6 @@ to structured morphisms here is in section 10.1. there.
 [[!redirects structured (∞,1)-topos]]
 [[!redirects structured generalized spaces]]
 [[!redirects structured generalized space]]
+[[!redirects ringed (∞,1)-topos]]
+[[!redirects ringed generalized spaces]]
+[[!redirects ringed generalized space]]
