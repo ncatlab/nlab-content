@@ -130,7 +130,9 @@ A $\mathcal{G}$-[[structured (∞,1)-topos]] in the image of this functor is an 
 ### $\mathcal{G}$-schemes ###
 
 +-- {: .un_defn}
-###### Definition ($\mathcal{G}$-scheme, [[Structured Spaces|StSp]] 2.3.9)
+###### Definition (geometric scheme, [[Structured Spaces|StSp]] 2.3.9)
+
+Let $\mathcal{G}$ be a [[geometry (for structured (∞,1)-toposes)]].
 
 A $\mathcal{G}$-[[structured (∞,1)-topos]] $(\mathcal{X},\mathcal{O}_{\mathcal{X}})$ is a **$\mathcal{G}$-scheme** if 
 
@@ -150,6 +152,25 @@ such that
   of structured $(\infty,1)$-toposes for some $A_i \in Proj(\mathcal{G})$ (in the [[(∞,1)-category]] of [[pro-object]]s of $\mathcal{G}$).
 
 =--
+
++-- {: .un_defn}
+###### Definition (pregeometric scheme, [[Structured Spaces|StSp]], 3.4.6)
+
+
+For $\mathcal{T}$ a pregeometry, a $\mathcal{T}$-[[structured (infinity,1)-topos]]
+$(\mathcal{X}, \mathcal{O}_{\mathcal{X}})$ is a **$\mathcal{T}$-scheme** if 
+it is a $\mathcal{G}$-scheme for [[generalized the|the]] geometric envelope
+$\mathcal{G}$ of $\mathcal{T}$.
+
+This means that
+for $f : \mathcal{T} \to \mathcal{G}$ [[generalized the|the]]  geometric envelope and
+for $\mathcal{O}'_{\mathcal{X}}$
+[[generalized the|the]] $\mathcal{G}$-structure on $\mathcal{X}$ such that
+$\mathcal{O}_{\mathcal{X}} \simeq \magthcal{O}'_{\mathcal{X}} \circ f$, we have
+that $(\mathcal{X}, \mathcal{O}'_{\mathcal{X}})$ is a $\mathcal{G}$-scheme.
+
+=--
+
 
 ### smooth $\mathcal{G}$-schemes ###
 
@@ -172,12 +193,35 @@ With an envelope $\Tau \hookrightarrow \mathcal{G}$ fixed, a $\mathcal{G}$-schem
 
 #### ordinary schemes ####
 
-#### Deligne-Mumford stacks ####
+#### ordinary Deligne-Mumford stacks ####
 
 #### derived schemes ####
 
++-- {: .un_defn}
+###### Definition (derived scheme, [[Structured Spaces]], 4.2.8)
+
+Let $k$ be a commutative ring. Recall the pregoemtry $\mathcal{T}_{Zar}(k)$.
+
+A **derived scheme** over $k$ is a $\mathcal{T}_{Zar}(k)$-scheme.
+
+=--
+
+#### derived Deligne-Mumford stacks ####
+
++-- {: .un_defn}
+###### Definition (derived Deligne-Mumford stack, [[Structured Spaces]], 4.3.19)
+
+
+Let $k$ be a commutative ring. Recall the pregeometry $\mathcal{T}_{et}(k)$
+
+A **derived Deligne-Mumford stack** over $k$ is a $\mathcal{T}_{et}(k)$-scheme.
+
+=--
+
+
 #### derived smooth manifolds ####
 
+...A $\mathcal{T}_{diff}$-scheme...
 
 ### References ###
 
