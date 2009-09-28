@@ -53,7 +53,7 @@ such that the _triangulator coherence conditions_ hold: there are pasting diagra
 $$\array{
 1_B & \overset{\eta}{\to} & G F & \overset{1_{G F}}{\to} & G F\\
 \eta \downarrow & \overset{\eta \cdot \eta}{\Rightarrow} & \downarrow G F \eta & & \downarrow 1_{G F}\\ 
-G F & \underset{\eta G F}{\to} & G F G F & \overset{G t}{\Rightarrow} & G F & & & = & 1_{1_{G F}}\\
+G F & \underset{\eta G F}{\to} & G F G F & \overset{G t}{\Rightarrow} & G F & & & = & 1_{\eta}\\
 1_{G F} \downarrow & & \overset{s F}{\Rightarrow} & G \varepsilon F \searrow & \downarrow 1_{G F} \\
 G F & \underset{1_{G F}}{\to} & G F & \underset{1_{G F}}{\to} & G F 
 }$$
@@ -61,6 +61,11 @@ G F & \underset{1_{G F}}{\to} & G F & \underset{1_{G F}}{\to} & G F
 $\, $ 
 
 $$\array{
+F G & \overset{1_{F G}}{\to} & F G & \overset{1_{F G}}{\to} & F G\\
+1_{F G} \downarrow & F \eta G \searrow & \overset{t G}{\Rightarrow} & & \downarrow 1_{F G}\\
+F G & \overset{F s}{\Rightarrow} & F G F G & \overset{\varepsilon F G}{\to} & F G & & & = & 1_{\varepsilon}\\
+1_{F G} \downarrow & & F G \varepsilon \downarrow & \overset{\varepsilon \cdot \varepsilon}{\Rightarrow} & \downarrow \varepsilon\\
+F G & \underset{1_{F G}}{\to} & F G & \underset{\varepsilon}{\to} & 1
 }$$
 
 ### Lax adjunctions between 2-categories 
@@ -87,7 +92,7 @@ F b & \underset{1_{F b}}{\to} & F b & \underset{f}{\to} & c
 
 The triangular equations for $L \dashv R$ follow from the triangulator coherence conditions. (Warning: it is not generally true that a lax adjunction induces an adjoint pair in $Hom_l(B^{op} \times C, Cat)$. Cf. lemma 1 below.) 
 
-#### The 2-category $Map(B)$ 
+### The 2-category $Map(B)$ 
 
 Let $B$ be a 2-category. Following Carboni and Walters, we define a *map* in $B$ to be a 1-cell in $B$ that possesses a right adjoint. It is useful to think of them as playing the role of "functional relations" in an ambient 2-category of relations. We let $Map(B)$ be the locally full sub-2-category whose 0-cells are those of $B$ and whose 1-cells are the maps in $B$. We observe that every 2-functor $F: B \to C$ restricts to a 2-functor $F|: Map(B) \to Map(C)$, and by the following proposition, every transformation $\theta: F \to G$ restricts to a strong transformation $\theta$ in $Hom_s(Map(B), C)$: 
 
@@ -127,7 +132,7 @@ The crucial observation is that, by proposition 1, this data restricts to give 2
 
 $$(Map(B) \overset{\Delta}{\to} Map(B) \times Map(B)) \dashv (Map(B) \times Map(B) \overset{\otimes}{\to} Map(B))$$ 
 
-$\, $
+$$ $$
 
 $$(Map(B) \overset{!}{\to} \mathbf{1}) \dashv (\mathbf{1} \overset{I}{\to} Map(B))$$ 
 
@@ -135,7 +140,7 @@ making the restriction of $\otimes$ to $Map(B)$ a _2-product_ on $Map(B)$ with 2
 
 A little later we will argue that cartesian structure on the full bicategory $B$ is also property-like; the main thing is to see that the way in which $\otimes$ acts on 1-cells is essentially uniquely determined. 
 
-#### Symmetric monoidal structure via cartesian structure 
+### Symmetric monoidal structure via cartesian structure 
 
 We now argue that a cartesian bicategory $B$ carries a symmetric monoidal structure whose tensor product is 
 
@@ -163,7 +168,7 @@ and just like $\alpha$, $\alpha^-$ is definable in terms of global structure on 
 
 This completes the argument that the symmetric monoidal structure on $Map(B)$ extends to $B$. 
 
-#### Comparison with Carboni-Walters 
+### Comparison with Carboni-Walters 
 
 Let us begin unpacking the terse definition of cartesian bicategory so that it becomes more recognizable. For the sake of notational convenience, we use the fact that as a monoidal bicategory, a cartesian bicategory may be strictified and replaced by a (monoidally biequivalent) $Gray$ monoid $B$. That is to say, if $\otimes_G$ denotes the tensor product of the symmetric monoidal closed category $Gray$, then there is firstly a biequivalence $B \times B \simeq B \otimes_G B$, and we may transfer the data of the cartesian structure across this biequivalence to get a $Gray$ monoid multiplication 
 
@@ -215,7 +220,7 @@ exhibit $r: c \to d$ as a colax morphism of 2-comonoids; if $r$ is a map, then $
 
 Carboni and Walters define a cartesian bicategory to be a symmetric monoidal bicategory in which each object carries a 2-comonoid structure (for which the comultiplication and counit are _maps_), and each 1-cell is a colax morphism between the corresponding comonoid structures. However, spelling this approach out in full detail leads to a rather largish definition; it seems more efficient to approach the definition by taking advantage of some high-level 2-categorical algebra as we have done here, and deriving the structures envisaged by Carboni and Walters as a consequence. 
 
-#### Local cartesian structure 
+### Local cartesian products 
 
 The definition of cartesian structure _a fortiori_ involves _lax_ adjunctions (in the sense explained earlier) 
 
