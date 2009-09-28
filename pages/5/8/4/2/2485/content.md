@@ -1,4 +1,11 @@
-[[!redirects scheme as structured locally affine infinity topos]]
++-- {: .standout}
+
+This is a sub-entry of [[scheme]] and [[derived scheme]].
+
+This entry discusses a higher-categorical perspective on that standard notion.
+
+=--
+
 On p. 37 of 
 
 * [[Jacob Lurie]], [[Structured Spaces]]
@@ -30,3 +37,16 @@ $$
 $$
 
 =--
+
+[[!redirects scheme as structured locally affine infinity topos]]
+[[!redirects scheme as locally affine structured infinity topos]]
+[[!redirects scheme as a structured locally affine infinity topos]]
+[[!redirects scheme as a locally affine structured infinity topos]]
+[[!redirects scheme as structured locally affine (infinity,1)-topos]]
+[[!redirects scheme as locally affine structured (infinity,1)-topos]]
+[[!redirects scheme as a structured locally affine (infinity,1)-topos]]
+[[!redirects scheme as a locally affine structured (infinity,1)-topos]]
+[[!redirects scheme as structured locally affine (infinity,1)-topos]]
+[[!redirects scheme as locally affine structured (∞,1)-topos]]
+[[!redirects scheme as a structured locally affine (∞,1)-topos]]
+[[!redirects scheme as a locally affine structured (∞,1)-topos]]
