@@ -8,3 +8,5 @@ If you don\'t have (extensional) power sets either, then you\'ll have to use [[e
 In any case, the element of $S/{\equiv}$ that comes from the element $x$ of $S$ may be denoted $[x]_\equiv$, or simply $[x]$ if $\equiv$ is understood, or simply $x$ if there will be no confusion as to which set it is an element of.  This $[x]$ is called the __equivalence class__ of $x$ with respect to $\equiv$; the term 'class' here is an old word for 'set' and refers to the definition (eq:setdef) above, where $[x]$ is literally the set $A$.
 
 Quotient sets in [[Set]] generalise to [[quotient object]]s in other categories.  In particular, an [[exact category]] is a [[regular category]] in which every [[congruence]] on every object has an effective quotient object.
+
+[[!redirects quotient sets]]
