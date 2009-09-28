@@ -358,4 +358,10 @@ This perspective embeds the theory of [[elliptic cohomology]] and of the [[tmf]]
 
 # further references {#furtherreferences}
 
+Lots of literature on [[modular form]]s is collected at.
+
 * [[Nora Ganter]], [Topological modular forms literature list](http://www.math.uiuc.edu/~ganter/talbot/index.html)
+
+In its currently underdeveloped state, a canonmical reference for aspects of the theory of [[derived algebraic geometry]] over [[E-infinity ring]]s has become the set of slides
+
+* [[Paul Goerss]], [[Topological Algebraic Geometry - A Workshop]]
