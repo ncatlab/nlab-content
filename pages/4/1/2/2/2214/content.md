@@ -53,6 +53,12 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 * [[Urs Schreiber]] 
 
+  * stub entry for [[derived scheme]] and [[derived Deligne-Mumford stack]]
+
+  * have two questions (green query boxes) at [[algebraic stack]]
+
+  * moved the Deligne-Mumford reference from [[algebraic stack]] to [[Deligne-Mumford stack]]
+
   * created brief entries on [[representable morphism of stacks]] and [[geometric stack]], but that needs attention
 
   * added to [[affine space]] a section "Affine spaces as model spaces".
