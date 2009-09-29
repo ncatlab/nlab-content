@@ -21,9 +21,9 @@ $$
   \,.
 $$
 
-This is pretty much like saying that the factorization algebra is an extended [[FQFT]] of genus 0 [[cobordism]]s that are embedded into $X$.
+This is pretty much like saying that the factorization algebra is an extended [[FQFT]] of genus 0 [[cobordisms]] that are embedded into $X$.
 
-Indeed, such factorization algebras serve to describe [[quantum field theory|quantum field theories]] on $X$, pretty much in a way that generalizes the familiar way that 2-dimensional [[conformal field theory]] is given by [[vertex operator algebra]]s. See also the comments on the references below.
+Indeed, such factorization algebras serve to describe [[quantum field theories]] on $X$, pretty much in a way that generalizes the familiar way that 2-dimensional [[conformal field theory]] is given by [[vertex operator algebras]]. See also the comments on the references below.
 
 #Related concepts#
 
