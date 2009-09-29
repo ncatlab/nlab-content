@@ -51,7 +51,11 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-29
 
-* [[Urs Schreiber]]: added reference to the new article by Batanin, Cisinki and Weber to [[generalized Gray tensor product]] -- Mike, did you look at that?
+* [[Urs Schreiber]]: 
+
+  * added the example of automorphism 2-groups to [[2-group]]
+
+  * added reference to the new article by Batanin, Cisinki and Weber to [[generalized Gray tensor product]] -- Mike, did you look at that?
 
 *  [[Toby Bartels]]:  More at [[SEAR+?]].
 
