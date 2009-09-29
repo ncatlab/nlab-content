@@ -5,7 +5,10 @@ The goal of this page is to prove that a non-extensional [[choice operator]] is 
 
 For the theory with a non-extensional choice operator, consider the following theory, which is a variant of the version of SEAR without fundamental equality described at [[SEAR]].  There are four basic sorts: *pre-sets*, *pre-relations*, *elements*, and *operations* (or *pre-functions*).  Each element belongs to a pre-set, and each pre-relation and operation has a source and target which are pre-sets.  For a prerelation $\phi:A\looparrowright B$ and $x\in A$, $y\in B$, we have the assertion $\phi(x,y)$, and for an operation $f:A\rightsquigarrow B$ and $x\in A$ we have an element $f(x)\in B$.  There is no predefined notion of equality of anything.   Axioms 0 and 1 of SEAR are unmodified, except that the uniqueness clause of the latter is interpreted as a *definition* of when two parallel pre-relations are called "equal".  We also impose
 
-**Axiom $1+\varepsilon$ (Choice operator):** _If $\varphi:A\looparrowright B$ is a pre-relation such that for every $x\in A$ there exists a $y\in B$ with $\varphi(x,y)$, then there exists an operation $\varepsilon_\varphi :A\rightsquigarrow B$ such that $\varphi(x,\varepsilon_\varphi(x))$ for all $x\in A$._
++-- {: .un_prop}
+###### Axiom $1+\varepsilon$ (Choice operator)
+If $\varphi:A\looparrowright B$ is a pre-relation such that for every $x\in A$ there exists a $y\in B$ with $\varphi(x,y)$, then there exists an operation $\varepsilon_\varphi :A\rightsquigarrow B$ such that $\varphi(x,\varepsilon_\varphi(x))$ for all $x\in A$.
+=--
 
 A *set* is defined to be a pre-set $A$ equipped with an equivalence pre-relation $=_A$.  A *relation* between sets is a pre-relation which is *extensional*, i.e. if $\varphi(x,y)$, $x'=_A x$, and $y'=_B y$, then $\varphi(x',y')$.  Likewise, a *function* $f:A\to B$ between sets is an operation $f:A\rightsquigarrow B$ which is extensional, i.e. if $x' =_A x$ then $f(x')=_B f(x)$.  We define two functions $f,g:A\to B$ to be *equal* if $f(x)=_B g(x)$ for all $x\in A$.  Note that we have no notion of equality for arbitrary operations between pre-sets.
 
@@ -49,7 +52,7 @@ Note that the model of $SEAR+\varepsilon$ we've just constructed also satisfies 
 
 Now [[Toby Bartels|I]] step in to say: $\mathbf{SEAR} + \varepsilon \vDash COSHEP$.
 
-The reason is that every preset *does* admit an identity prerelation as in the last paragraph above; let $x \equiv_A y$ if $x \sim_R y$ for every reflexive prerelation $R: A \looparrowright A$ (or even for every equivalence prerelation).  This will work also in $\mathbf{ETCS} + \varepsilon$ by quantifying over prefunctions $f: A \to \mathcal{P}1$ and using the kernel of $f$ (relative to the standard equality on truth values) as the equivalence relation.  (Of course, $\mathbf{SEAR}$ is capable of using this method too.)  It will still work in versions with intuitionistic logic, but not (as far as I can see) in $\mathbf{CETCS} + \varepsilon$ (following [Palmgren](http://www.math.uu.se/~palmgren/cetcs.pdf)), where one cannot take power sets or quantify over subsets.
+The reason is that every preset *does* admit an identity prerelation as in the last paragraph above; let $x \equiv_A y$ if $x \sim_R y$ for every reflexive prerelation $R: A \looparrowright A$ (or even for every equivalence prerelation).  This will work also in $\mathbf{ETCS} - AC + \varepsilon$ by quantifying over prefunctions $f: A \to \mathcal{P}1$ and using the kernel of $f$ (relative to the standard equality on truth values) as the equivalence relation.  (Of course, $\mathbf{SEAR}$ is capable of using this method too.)  It will still work in versions with intuitionistic logic, but not (as far as I can see) in $\mathbf{CETCS} - COSHEP + \varepsilon$ (following [Palmgren](http://www.math.uu.se/~palmgren/cetcs.pdf)), where one cannot take power sets or quantify over subsets.
 
 [[Mike Shulman]]: Ah, you're right.  I actually thought of that briefly, but then I didn't immediately see how to prove the following.
 
@@ -66,20 +69,42 @@ Similarly, suppose $\varphi:A\looparrowright B$ is a pre-relation.  Define $R_\v
 
 Of course, as you point out, this is very impredicative.  (Palmgren's CETCS actually includes COSHEP, but if you removed it then adding $\varepsilon$ wouldn't (seemingly) imply it.)
 
+*  _Toby_:  Fixed.
+
 Does that mean that your original [suggestion](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c026817) would only acceptable be for someone who either (1) accepts COSHEP or (2) doesn't accept (quantification over) powersets?
+
+_Toby_:  That may be so; I hadn\'t thought through all of the implications, so I was hoping otherwise.  However, I\'m not sure that $\varepsilon$ has to work as in Axiom $1 + \varepsilon$; how about this?
+
++-- {.un_prop}
+###### Axiom $\varepsilon$ (Global Choice Operator)
+
+Add a symbol (actually several symbols) to the language for an operation that assigns to each set $A$:
+
+*  a set $A'$,
+*  an injective function $i_A: A \to A'$,
+*  and an element $\epsilon_A$ of $A'$;
+
+then add the axiom that, $\epsilon_A$ belongs to the image of $i_A$ if (hence iff) $A$ is inhabited.
+=--
+
+With excluded middle, this is a theorem with $A + 0^A$ for $A'$ as in the discussion at [[choice operator]].  But even this may be too strong; I really want to say that $\epsilon_A$ takes values in $A_\bot$ (the set of subsingleton subsets of $A$) with $\epsilon_A$ an inhabited subsingleton if (hence iff) $A$ is inhabited, but the existence of $A_\bot$ is itself impredicative (in the presence of function sets) since $1_\bot$ is the set of truth values.
 
 
 # Without COSHEP, predicatively
 
-Okay, second try.  Define **predicative SEAR** to consist of Axioms 0, 1B, 2, and 4 of SEAR (no power sets) together with
+Okay, second try.  Define **constructive SEAR** to use [[intuitionistic logic]] and consist of Axioms 0, 1B, 2, and 4 of SEAR (no power sets) together with
 
 * The existence of [[quotient sets]] (i.e. $Set$ is an [[exact category]])
-* The existence of [[disjoint unions]] (i.e. $Set$ is a [[pretopos]])
-* The existence of [[dependent products]] (i.e. $Set$ is a [[Π-pretopos]]).
+* The existence of [[disjoint unions]] (i.e. now $Set$ is a [[pretopos]])
+* The existence of [[dependent products]] (i.e. now $Set$ is a $\Pi$-[[Π-pretopos|pretopos]]).
 
-Now modify it as above, removing basic equality and adding a basic notion of "operation," to obtain **PSEAR+$\varepsilon$**.  The same argument as above should show that PSEAR+$\varepsilon$ is conservative over PSEAR+COSHEP.  (Just as Bounded SEAR is equivalent to ETCS, PSEAR+COSHEP is equivalent to Palmgren's CETCS.)  However, the converse argument above fails since we cannot define $\equiv_A$ by quantifying over relations (note that avoiding this requires not only throwing out powersets, but restricting axiom 1 to bounded quantification).
+Now modify it as above, removing basic equality and adding a basic notion of "operation," to obtain **CSEAR+$\varepsilon$**.  The same argument as above should show that CSEAR+$\varepsilon$ is conservative over CSEAR+COSHEP.  (Just as Bounded SEAR is equivalent to ETCS, CSEAR+COSHEP is equivalent to Palmgren's CETCS.)  However, the converse argument above fails since we cannot define $\equiv_A$ by quantifying over relations (note that avoiding this requires not only throwing out powersets, but restricting axiom 1 to bounded quantification).
 
-Now: is PSEAR+$\varepsilon$ conservative over PSEAR?
+Now: is CSEAR+$\varepsilon$ conservative over CSEAR?
+
++-- {: .query}
+I changed this from 'PSEAR' to 'CSEAR' and noted that we need intuitionistic logic (since disjoint unions give us $\mathbf{2}$ and dependent products over $\mathbf{2}$ gives us classical power sets).  By the usual terminology in set theory, removing excluded middle adds 'I', while removing excluded middle and power sets adds 'C'.  Although I don\'t know a general rule for adding 'P', I\'d be inclined to remove dependent products as well as power sets (excluded middle optional), to get something [[predicative mathematics|predicative in the classical sense]].  ---Toby
+=--
 
 
 [[!redirects SEAR+?]]
