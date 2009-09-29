@@ -51,6 +51,12 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-29
 
+* [[Jon Awbrey]]:
+
+   * Added a 'blink (= stub-link) at [[higher order proposition]].
+
+   * Added a quote to [[precursors]] in which Hilbert takes a stand from Kant.
+
 * [[Urs Schreiber]]: 
 
   * added the example of automorphism 2-groups to [[2-group]]
