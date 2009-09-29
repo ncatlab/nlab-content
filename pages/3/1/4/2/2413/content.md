@@ -9,6 +9,13 @@
 
 </div>
 
+#Contents#
+
+* tic
+{:toc}
+
+
+#Idea#
 
 There are well-known _geometric models_ for some [[cohomology theory|cohomology theories]]. For instance
 
@@ -45,6 +52,10 @@ The following is going to be an exposition of this partial result:
   * [[(2,1)-dimensional Euclidean field theories]]
 
 #References#
+
+A recent survey of the program is
+
+* [[Stephan Stolz]], [[Peter Teichner]], _Supersymmetric Euclidean field theories and generalized cohomology_ ([pdf](http://math.berkeley.edu/~teichner/Papers/Survey.pdf))
 
 The program was initiated in 
 
