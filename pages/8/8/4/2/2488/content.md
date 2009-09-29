@@ -13,3 +13,7 @@ section 6.5 of
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
+[[!redirects n-truncated object of an (∞,1)-topos]]
+[[!redirects n-truncated object in an (infinity,1)-topos]]
+[[!redirects n-truncated object of an (infinity,1)-topos]]
+
