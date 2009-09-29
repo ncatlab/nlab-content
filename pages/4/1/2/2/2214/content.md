@@ -57,6 +57,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
   * added reference to the new article by Batanin, Cisinki and Weber to [[generalized Gray tensor product]] -- Mike, did you look at that?
 
+     * Not much yet, though it looks very neat.  It looks like they are going the "non-closed monoidal structure" route?
+
 *  [[Toby Bartels]]:  More at [[SEAR+?]].
 
 
