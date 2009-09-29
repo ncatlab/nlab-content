@@ -57,7 +57,7 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
    * Added a 'blink (= stub-link) at [[higher order proposition]].
 
-   * Added a quote to [[precursors]] in which Hilbert takes a stand from Kant.
+   * Added a quote to [[precursors]] in which Hilbert borrows an idea from Kant.
 
 * [[Urs Schreiber]]: 
 
