@@ -49,6 +49,11 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 ***
 
 
+## 2009-09-29
+
+*  [[Toby Bartels]]:  More at [[SEAR+?]].
+
+
 ## 2009-09-28
 
 * [[Mike Shulman]]: Toby is [[SEAR+?|right]].
