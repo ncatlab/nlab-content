@@ -1844,6 +1844,78 @@ p &amp; \cdot &amp; \text{&#x2997;} q \text{&#x2998;}
 
 </table>
 
+To understand the extended interpretations, that is, the conjunctions of basic and differential features that are being indicated here, it may help to note the following equivalences:
+
+<table align="center" cellpadding="8" markdown="1" style="border:none; text-align:center">
+
+<td style="border:none"><font size="+1">
+$\array{
+\text{&#x2997;} \mathop{d}p \text{&#xFE50;} \mathop{d}q \text{&#x2998;}
+&amp; = &amp;
+\; \mathop{d}p \; \text{&#x2997;} \mathop{d}q \text{&#x2998;}
+&amp; + &amp;
+\text{&#x2997;} \mathop{d}p \text{&#x2998;} \; \mathop{d}q \;
+\\
+\mathop{d}p
+&amp; = &amp;
+\; \mathop{d}p \; \; \mathop{d}q \;
+&amp; + &amp;
+\; \mathop{d}p \; \text{&#x2997;} \mathop{d}q \text{&#x2998;}
+\\
+\mathop{d}q
+&amp; = &amp;
+\; \mathop{d}p \; \; \mathop{d}q \;
+&amp; + &amp;
+\text{&#x2997;} \mathop{d}p \text{&#x2998;} \; \mathop{d}q \;
+}$
+</font></td>
+
+</table>
+
+Capping the series that analyzes the proposition $p q$ in terms of succeeding orders of linear propositions, the final venn diagram in this series shows the remainder map $\mathop{r}(p q) : \mathop{E}X \to \mathbb{B}$, that happens to be linear in pairs of variables.
+
+<table align="center" cellpadding="8" markdown="1" style="border:none; text-align:center">
+
+<td style="border:none">
+<img alt="Field Picture PQ Remainder Conjunction" src="/nlab/files/Field_Picture_PQ_Remainder_Conjunction.jpg" width="500" />
+<br>
+<font size="+2">$\text{Remainder Map} \: \mathop{r}(p q) : \mathop{E}X \to \mathbb{B}$</font></td>
+
+</table>
+
+Reading the arcs off the map produces the following data:
+
+<table align="center" cellpadding="8" markdown="1" style="border:none; text-align:center">
+
+<td style="border:none"><font size="+1">
+$\array{
+\mathop{r}(p q)
+&amp; = &amp;
+p &amp; \cdot &amp; q
+&amp; \cdot &amp;
+\mathop{d}p \; \mathop{d}q
+\\
+&amp; + &amp;
+p &amp; \cdot &amp; \text{&#x2997;} q \text{&#x2998;}
+&amp; \cdot &amp;
+\mathop{d}p \; \mathop{d}q
+\\
+&amp; + &amp;
+\text{&#x2997;} p \text{&#x2998;} &amp; \cdot &amp; q
+&amp; \cdot &amp;
+\mathop{d}p \; \mathop{d}q
+\\
+&amp; + &amp;
+\text{&#x2997;} p \text{&#x2998;} &amp; \cdot &amp; \text{&#x2997;} q \text{&#x2998;}
+&amp; \cdot &amp;
+\mathop{d}p \; \mathop{d}q
+}$
+</font></td>
+
+</table>
+
+In short, $\mathop{r}(p q)$ is a constant field, having the value $\mathop{d}p \; \mathop{d}q$ at each cell.
+
 # External Links #
 
 * [Differential_Logic : Introduction](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Differential_Logic_:_Introduction)
@@ -1867,7 +1939,5 @@ Templates ---
        <img alt="mytext" src="/nlab/files/mypic.jpg" width="500" />
 
 Upload Queue ---
-
-[[Field_Picture_PQ_Remainder_Conjunction.jpg|Field Picture PQ Remainder Conjunction:pic]]
 
 [[Minimal_Negation_Operator_lPcQcRr.jpg|Minimal Negation Operator (P,Q,R):pic]]
