@@ -1,4 +1,9 @@
-#idea#
+#Contents#
+
+* automatic table of contents goes here
+{:toc}
+
+#Idea#
 
 A _factorization algebra_ is like an [[algebra over an operad]] where the [[operad]] in question is like the [[little disks operad]], but with each disk embedded into a given manifold $X$.
 
@@ -19,6 +24,14 @@ $$
 This is pretty much like saying that the factorization algebra is an extended [[FQFT]] of genus 0 [[cobordism]]s that are embedded into $X$.
 
 Indeed, such factorization algebras serve to describe [[quantum field theory|quantum field theories]] on $X$, pretty much in a way that generalizes the familiar way that 2-dimensional [[conformal field theory]] is given by [[vertex operator algebra]]s. See also the comments on the references below.
+
+#Related concepts#
+
+Factorization algebras have some similarity with 
+
+* [[blob homology]]
+
+* [[local net]]s in [[AQFT]].
 
 #References#
 
