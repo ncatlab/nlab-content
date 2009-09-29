@@ -9,9 +9,9 @@ In other words, if $P$ holds of anything at all, then it holds of the particular
 
 "Here, moreover, we come upon a very remarkable circumstance, namely, that all of these transfinite axioms are derivable from a single axiom, one that also contains the core of one of the most attacked axioms in the literature of mathematics, namely, the axiom of choice:
 
-$A(a) \rightarrow A(\varvarepsilon(A))$,
+$A(a) \rightarrow A(\varepsilon(A))$,
 
-where $\varvarepsilon$ is the transfinite logical choice function."
+where $\varepsilon$ is the transfinite logical choice function."
 
 ---Hilbert (1925), "On the Infinite", excerpted in Jean van Heijenoort, _From Frege to G&#246;del_, p. 382.
 
