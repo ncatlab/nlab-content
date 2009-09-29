@@ -10,7 +10,7 @@ Welcome!
 
 This is a [wiki](http://en.wikipedia.org/wiki/Wiki)-lab for collaborative work on _[[Mathematics]]_, _[[Physics]]_ and _[[Philosophy]]_ &#8212; especially insofar as these subjects touch on [[higher category theory|higher algebraic structures]].  
 
-We think of this place as  the library, or alchemist's laboratory, in the back room of the [$n$-Category Caf&eacute;](http://golem.ph.utexas.edu/category/). You come here to work and go there to chat (where _chat_ is short for _work by discussion_).
+We think of this place as  the library, or alchemist's laboratory, in the back room of the [$n$-Category Caf&eacute;](http://golem.ph.utexas.edu/category/). You go there to discuss things, and here to write them up.
 
 We are hoping to create here a space for presentation and archival storage of collaborative work of encyclopedic, didactic, expositional,  but also original nature.  This will include, but not be limited to, the subjects being discussed every day in the $n$-Caf&eacute;.
 
