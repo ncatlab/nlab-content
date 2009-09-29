@@ -19,8 +19,8 @@ There is good [[motivation for sheaves, cohomology and higher stacks]].
 
 Here we recall basic definitions and then concentrate on 
 [[model category|1-categorical models]] that 
-[[presentable (infinity,1)-category|present]] $(\infty,1)$-categories
-of $\infty$-stacks.
+[[presentable (infinity,1)-category|present]] [[(∞,1)-category of (∞,1)-sheaves|(∞,1)-categories of ∞-stacks]].
+
 
 What we describe is effectively the old theory of the 
 [[model structure on simplicial presheaves]] seen in the new light of
