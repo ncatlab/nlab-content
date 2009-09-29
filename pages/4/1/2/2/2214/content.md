@@ -51,6 +51,8 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 ## 2009-09-29
 
+* [[Urs Schreiber]]: created [[blob homology]]
+
 * [[Jon Awbrey]]:
 
    * Added a 'blink (= stub-link) at [[higher order proposition]].
