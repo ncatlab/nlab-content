@@ -32,11 +32,13 @@
 
 * [Geometric Group Theory](http://392c.wordpress.com)
 
-* [Geometry and the Imagination](http://lamington.wordpress.com)
+* [Geometry and the Imagination](http://lamington.wordpress.com) (Danny Calegari)
 
 * [God plays dice](http://godplaysdice.blogspot.com)
 
 * [Good Math, Bad Math](http://scienceblogs.com/goodmath)
+
+* [Gyre and Gimble](http://sixwingedseraph.wordpress.com/) (Charles Wells)
 
 * [Hydrobates](http://alanrendall.wordpress.com)
 
@@ -46,11 +48,13 @@
 
 * [Low Dimensional Topology](http://ldtopology.wordpress.com)
 
+* [Mathematics and Physics](http://borcherds.wordpress.com/) (Richard Borcherds)
+
 * [Mathematics Under the Microscope](http://micromath.wordpress.com)
 
 * [Mathlog](http://www.scienceblogs.de/mathlog)
 
-* [Motivic Stuff](http://homotopical.wordpress.com)
+* [Motivic Stuff](http://homotopical.wordpress.com) (Andreas Holstrom)
 
 * [Nathaniel Johnston's Blog](http://www.nathanieljohnston.com)
 
@@ -61,8 +65,6 @@
 * [Nuit Blanche](http://nuit-blanche.blogspot.com)
 
 * [Reasonable Deviations](http://stochastix.wordpress.com)
-
-* [Richard Borcherds' blog](http://borcherds.wordpress.com)
 
 * [Rigorous Trivialities](http://rigtriv.wordpress.com)
 
@@ -128,15 +130,14 @@ Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Scie
 
 * [Sage: Open Source Mathematical Software](http://sagemath.blogspot.com)
 
-* [The Tricki](http://www.tricki.org)
-
-* [Quomodocumque](http://quomodocumque.wordpress.com)
+* [Quomodocumque](http://quomodocumque.wordpress.com/category/math/)
 
 ##Mathematical Wikis##
 
 * [Analysis & PDE conferences](http://tosio.math.utoronto.ca/wiki/index.php/Conferences)
 * [DispersiveWiki](http://tosio.math.toronto.edu/wiki/index.php/Main_Page)
 * [Mathematics Jobs Wiki](http://notable.math.ucdavis.edu/wiki/Mathematics_Jobs_Wiki)
+* [The Tricki](http://www.tricki.org)
 
 ##Other Resources##
 
