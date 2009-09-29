@@ -9,7 +9,9 @@ __Note.__  I was going to go with "The Fruit Of Our Purloins", but I reckon this
 
 <p>Now the discovery of ideas as general as these is chiefly the willingness to make a brash or speculative abstraction, in this case supported by the pleasure of purloining words from the philosophers:  "Category" from Aristotle and Kant, "Functor" from Carnap (<i>Logische Syntax der Sprache</i>), and "natural transformation" from then current informal parlance.</p>
 
-<p>(Saunders Mac Lane, <i>Categories for the Working Mathematician</i>, 29&ndash;30).</p></td></table>
+<p>Saunders Mac Lane, <i>Categories for the Working Mathematician</i>, 29&ndash;30.</p>
+
+</td></table>
 
 # Aristotle #
 
@@ -21,7 +23,7 @@ __Note.__  I was going to go with "The Fruit Of Our Purloins", but I reckon this
 
 <p>Things are univocally named, when not only they bear the same name but the name means the same in each case &mdash; has the same definition corresponding.  Thus a man and an ox are called <i>animals</i>.  The name is the same in both cases;  so also the statement of essence.  For if you are asked what is meant by their both of them being called <i>animals</i>, you give that particular name in both cases the same definition.</p>
 
-<p>(Aristotle, <i>Categories</i>, 1.1<sup>a</sup>1&#8211;12).</p>
+<p>Aristotle, <i>Categories</i>, 1.1<sup>a</sup>1&#8211;12.</p>
 
 <p><b>Translator's Note.</b>  &ldquo;&#918;&#969;&#959;&#957; in Greek had two meanings, that is to say, living creature, and, secondly, a figure or image in painting, embroidery, sculpture.  We have no ambiguous noun.  However, we use the word &lsquo;living&rsquo; of portraits to mean &lsquo;true to life&rsquo;.&rdquo;  (H.P. Cooke).</p>
 
@@ -43,7 +45,7 @@ $\ldots$
 
 <p>&#167;2.  This theory gives rise to a conception of gradation among those conceptions which are universal.  For one such conception may unite the manifold of sense and yet another may be required to unite the conception and the manifold to which it is applied;  and so on.  (CP 1.546)</p>
 
-<p>(C.S. Peirce, "On a New List of Categories").</p>
+<p>C.S. Peirce, "On a New List of Categories".</p>
 
 </td></table>
 
@@ -63,7 +65,7 @@ $\ldots$
 
 <p>On the contrary, the succession of Predicates of Predicates is different in the different Modes of Being.  Meantime, it will be proper that in our system of diagrammatization we should provide for the division, whenever needed, of each of our three Universes of modes of reality into <i>Realms</i> for the different Predicaments.</p>
 
-<p>(Peirce, CP 4.549, "Prolegomena to an Apology for Pragmaticism", <i>The Monist</i> 16, 492&ndash;546 (1906), CP 4.530&ndash;572).</p>
+<p>Peirce, CP 4.549, "Prolegomena to an Apology for Pragmaticism", <i>The Monist</i> 16, 492&ndash;546 (1906), CP 4.530&ndash;572.</p>
 
 </td></table>
 
@@ -72,6 +74,18 @@ The first thing to extract from this passage is the fact that Peirce's Categorie
 Peirce arrived at his own system of three categories after a thoroughgoing study of his predecessors, with special reference to the categories of Aristotle, Kant, and Hegel.  The names that he used for his own categories varied with context and occasion, but ranged from moderately intuitive terms like _quality_, _reaction_, and _symbolization_ to maximally abstract terms like _firstness_, _secondness_, and _thirdness_, respectively.  Taken in full generality, $k$-ness may be understood as referring to those properties that all $k$-adic relations have in common.  Peirce's distinctive claim is that a type hierarchy of three levels is generative of all that we need in logic.
 
 Part of the justification for Peirce's claim that three categories are both necessary and sufficient appears to arise from mathematical facts about the reducibility of $k$-adic relations.  With regard to necessity, triadic relations cannot be completely analyzed in terms or monadic and dyadic predicates.  With regard to sufficiency, all higher arity $k$-adic relations can be analyzed in terms of triadic and lower arity relations.
+
+# Hilbert #
+
+<table align="center" cellpadding="6" style="border:none" width="90%"><td style="border:none">
+
+<p>Finally, let us recall our real subject and, so far as the infinite is concerned, draw the balance of all our reflections.  The final result then is:  nowhere is the infinite realized;  it is neither present in nature nor admissible as a foundation in our rational thinking &mdash; a remarkable harmony between being and thought.  We gain a conviction that runs counter to the earlier endeavors of Frege and Dedekind, the conviction that, if scientific knowledge is to be possible, certain intuitive conceptions [Vorstellungen] and insights are indispensable;  logic alone does not suffice.  The right to operate with the infinite can be secured only by means of the finite.</p>
+
+<p>The role that remains to the infinite is, rather, merely that of an idea &mdash; if, in accordance with Kant's words, we understand by an idea a concept of reason that transcends all experience and through which the concrete is completed so as to form a totality &mdash; an idea, moreover, in which we may have unhesitating confidence within the framework furnished by the theory that I have sketched and advocated here.  (p. 392).</p>
+
+<p>Hilbert (1925), "On the Infinite", pp. 369&ndash;392 in Jean van Heijenoort (1967/1977).</p>
+
+</td></table>
 
 # Hilbert and Ackermann #
 
@@ -107,7 +121,7 @@ $\mathop{Tr}(R): (x)(y)(z)(R(x, y)$&nbsp;&amp;&nbsp;$R(y, z) \rightarrow R(x, z)
 
 <p>By a <i>predicate of second level</i>, we understand one whose argument places are occupied by names of individuals or by predicates of first level, where a predicate of first level must occur at least once as an argument.  The categories, or types, of predicates second level are differentiated according to the number and kind of their argument places.  (p. 152).</p>
 
-<p>(Hilbert and Ackermann, <i>Principles of Mathematical Logic</i>, Robert E. Luce (trans.), Chelsea Publishing Company, New York, NY, 1950.  First published, <i>Grundz&#252;ge der Theoretischen Logik</i>, 1928.  Second edition, 1938.  English translation with revisions, corrections, and added notes by Robert E. Luce, 1950.)</p>
+<p>Hilbert and Ackermann, <i>Principles of Mathematical Logic</i>, Robert E. Luce (trans.), Chelsea Publishing Company, New York, NY, 1950.  First published, <i>Grundz&#252;ge der Theoretischen Logik</i>, 1928.  Second edition, 1938.  English translation with revisions, corrections, and added notes by Robert E. Luce, 1950.</p>
 
 </td></table>
 
@@ -116,6 +130,8 @@ $\mathop{Tr}(R): (x)(y)(z)(R(x, y)$&nbsp;&amp;&nbsp;$R(y, z) \rightarrow R(x, z)
 * Aristotle, "The Categories", Harold P. Cooke (trans.), pp. 1&ndash;109 in _Aristotle, Volume&nbsp;1_, Loeb Classical Library, William Heinemann, London, UK, 1938.
 
 * Aristotle, "Categories", E.M. Edghill (trans.), eBooks@Adelaide, University of Adelaide, South Australia, 2007.  [Online](http://ebooks.adelaide.edu.au/a/aristotle/categories/).
+
+* van Heijenoort, Jean (1967/1977), _From Frege to G&#246;del : A Source Book in Mathematical Logic, 1879&ndash;1931_, Harvard University Press, Cambridge, MA, 1967.  2nd printing, 1972.  3rd printing, 1977.
 
 * Hilbert, D., and Ackermann, W. (1938/1950), _Principles of Mathematical Logic_, Robert E. Luce (trans.), Chelsea Publishing Company, New York, NY, 1950.  First published, _Grundz&#252;ge der Theoretischen Logik_, 1928.  Second edition, 1938.  English translation with revisions, corrections, and added notes by Robert E. Luce, 1950.
 
@@ -156,8 +172,8 @@ As for "functor": it's even less clear to me that there was any tight connection
 
 See also:
 
-1. Aristotle's "[Paradeigma](http://mywikibiz.com/Inquiry#Analogy)", or reasoning by analogy.  Analogies and metaphors are kissing cousins to morphisms.
-1. Peirce's "[Pragmatic Maxim](http://knol.google.com/k/jon-awbrey/pragmatic-maxim/3fkwvf69kridz/6)", which has to do with clarifying concepts by translating them into their operational meanings.
+1. Aristotle's &ldquo;[Paradeigma](http://mywikibiz.com/Inquiry#Analogy)&rdquo;, or reasoning by analogy.  Analogies and metaphors are kissing cousins to morphisms.
+1. Peirce's &ldquo;[Pragmatic Maxim](http://knol.google.com/k/jon-awbrey/pragmatic-maxim/3fkwvf69kridz/6)&rdquo;, which has to do with clarifying concepts by translating them into their operational meanings.
 
 _Todd_: Ah, thanks for drawing attention to this! Now the argument becomes rather more interesting for me.
 
