@@ -10,7 +10,7 @@ By way of equipping the discussion with a modicum of concrete material, let's be
 
 ## Higher order propositions and logical operators $(n = 1)$ ##
 
-A _higher order proposition_ is a proposition about propositions.  If the original order of propositions consists of maps of the form $f : X \to \mathbb{B}$, then the next higher order of propositions consists of maps of the form $m : (X \to \mathbb{B}) \to \mathbb{B}$.  It is often useful to think of a higher order proposition as a boolean-valued _measure_ on propositions.
+A _higher order proposition_ is a proposition about propositions.  If the original order of propositions consists of maps of the form $f : X \to \mathbb{B}$, then the next higher order of propositions consists of maps of the form $m : (X \to \mathbb{B}) \to \mathbb{B}$.  It is often useful to think of a higher order proposition as a _measure_ on propositions.
 
 For example, consider the case where $X = \mathbb{B}$.  Then there are exactly four propositions $f : \mathbb{B} \to \mathbb{B}$, and exactly sixteen higher order propositions that are based on this set, all taking the form $m : (\mathbb{B} \to \mathbb{B}) \to \mathbb{B}$.
 
@@ -275,6 +275,16 @@ Table&nbsp;2 presents a sample of _interpretive categories_ for higher order pro
 </table>
 
 ## Higher order propositions and logical operators $(n = 2)$ ##
+
+By way of reviewing notation and preparing to extend it to higher order universes of discourse, let us first consider the universe of discourse $X^\circ = [x_1, x_2] = [u, v]$, based on two logical features or boolean variables $u$ and $v$.
+
+The universe of discourse $X^\circ$ consists of two parts, a set of _points_ and a set of _propositions_.
+
+The points of $X^\circ$ form the space:
+
+$$\array{
+X & = & \langle u, v \rangle & = & \{ (u, v) \} & \cong & \mathbb{B}^2
+}$$
 
 <div markdown="1"><font size="+3">$\ldots$</font></div>
 
