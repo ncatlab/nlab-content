@@ -49,6 +49,7 @@ There are various models that realize gravity also as a gauge theory.
 
 * [Chern-Simons Actions for (Super)-Gravities](http://golem.ph.utexas.edu/category/2008/03/chernsimons_actions_for_superg.html)
 
+In particular [[supergravity]] theories have interpretations as higher gauge theories as described at [[D'Auria-Fre formulation of supergravity]].
 
 # Anomalies #
 
@@ -125,6 +126,8 @@ The following tries to give an overview of some collection of gauge fields in ph
       $$
         \hat H \in \mathbf{H}(X,\bar \mathbf{B}^3 U(1))
       $$
+
+      using the [[D'Auria-Fre formulation of supergravity]] it may also be thought of as a [[schreiber:theory of differential nonabelian cohomology|nonabelian differential cocycle]] given by a [[schreiber:Cartan-Ehresmann ∞-connection|Cartan-Ehresmann ∞-connection]]
 
   * [[field strength]]: $H \in \Omega^4(X)$ the "$G$-field" -- in heterotic [[supergravity]] this is the 5-brane [[magnetic current]] for the  [[twisted cohomology|twisted]] [[Kalb-Ramond field]]
  
