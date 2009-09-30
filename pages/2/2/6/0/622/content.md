@@ -9,4 +9,5 @@ One of my roles here is as the local sysadmin.  Therefore if someone has any tec
 
 My professional homepage is <http://www.math.ntnu.no/~stacey>, which has details of my research, seminars, teaching, and other vaguely work-related matters.
 
+
 category: people
