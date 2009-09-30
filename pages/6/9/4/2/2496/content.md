@@ -10,7 +10,7 @@ By way of equipping the discussion with a modicum of concrete material, let's be
 
 ## Higher order propositions and logical operators $(n = 1)$ ##
 
-A _higher order proposition_ is a proposition about propositions.  If the original order of propositions consists of maps of the form $f : X \to \mathbb{B}$, then the next higher order of propositions consists of maps of the form $m : (X \to \mathbb{B}) \to \mathbb{B}$.  It is often useful to think of a higher order proposition as a (boolean-valued) _measure_ on propositions.
+A _higher order proposition_ is a proposition about propositions.  If the original order of propositions consists of maps of the form $f : X \to \mathbb{B}$, then the next higher order of propositions consists of maps of the form $m : (X \to \mathbb{B}) \to \mathbb{B}$.  It is often useful to think of a higher order proposition as a boolean-valued _measure_ on propositions.
 
 For example, consider the case where $X = \mathbb{B}$.  Then there are exactly four propositions $f : \mathbb{B} \to \mathbb{B}$, and exactly sixteen higher order propositions that are based on this set, all taking the form $m : (\mathbb{B} \to \mathbb{B}) \to \mathbb{B}$.
 
@@ -18,9 +18,9 @@ Table&#160;1 lists the 16 measures of the form $m : (\mathbb{B} \to \mathbb{B}) 
 
 <table align="center" cellpadding="4" cellspacing="0" markdown="1" style="background:white; color:black; text-align:center; width:90%">
 
-<caption><font size="+2">$\text{Table 1.} \; \text{Higher Order Propositions} \; (n = 1)$</font></caption>
+<caption><font size="+2">$\text{Table 1.} \:\: \text{Higher Order Propositions} \: (n = 1)$</font></caption>
 
-<tr style="background:ghostwhite">
+<tr>
 <td style="border-bottom:2px solid black" align="right">$x:$</td>
 <td style="border-bottom:2px solid black">$1 \: 0$</td>
 <td style="border-bottom:2px solid black; border-right:2px solid black">$f$</td>
@@ -42,9 +42,9 @@ Table&#160;1 lists the 16 measures of the form $m : (\mathbb{B} \to \mathbb{B}) 
 <td style="border-bottom:2px solid black">$m_{15}$</td></tr>
 
 <tr>
-<td style="background:ghostwhite">$f_{0}$</td>
-<td style="background:ghostwhite">$0 \: 0$</td>
-<td style="background:ghostwhite; border-right:2px solid black">$\text{&#x2997; &#x2998;}$</td>
+<td>$f_{0}$</td>
+<td>$0 \: 0$</td>
+<td style="border-right:2px solid black">$\text{&#x2997; &#x2998;}$</td>
 <td>$0$</td>
 <td style="background:black; color:white">$1$</td>
 <td>$0$</td>
@@ -63,9 +63,9 @@ Table&#160;1 lists the 16 measures of the form $m : (\mathbb{B} \to \mathbb{B}) 
 <td style="background:black; color:white">$1$</td></tr>
 
 <tr>
-<td style="background:ghostwhite">$f_{1}$</td>
-<td style="background:ghostwhite">$0 \: 1$</td>
-<td style="background:ghostwhite; border-right:2px solid black">$\text{&#x2997;} x \text{&#x2998;}$</td>
+<td>$f_{1}$</td>
+<td>$0 \: 1$</td>
+<td style="border-right:2px solid black">$\text{&#x2997;} x \text{&#x2998;}$</td>
 <td>$0$</td><td>$0$</td>
 <td style="background:black; color:white">$1$</td>
 <td style="background:black; color:white">$1$</td>
@@ -80,9 +80,9 @@ Table&#160;1 lists the 16 measures of the form $m : (\mathbb{B} \to \mathbb{B}) 
 <td style="background:black; color:white">$1$</td></tr>
 
 <tr>
-<td style="background:ghostwhite">$f_{2}$</td>
-<td style="background:ghostwhite">$1 \: 0$</td>
-<td style="background:ghostwhite; border-right:2px solid black">$x$</td>
+<td>$f_{2}$</td>
+<td>$1 \: 0$</td>
+<td style="border-right:2px solid black">$x$</td>
 <td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
 <td style="background:black; color:white">$1$</td>
 <td style="background:black; color:white">$1$</td>
@@ -95,9 +95,9 @@ Table&#160;1 lists the 16 measures of the form $m : (\mathbb{B} \to \mathbb{B}) 
 <td style="background:black; color:white">$1$</td></tr>
 
 <tr>
-<td style="background:ghostwhite">$f_{3}$</td>
-<td style="background:ghostwhite">$1 \: 1$</td>
-<td style="background:ghostwhite; border-right:2px solid black">$\text{&#x2997;&#x2997; &#x2998;&#x2998;}$</td>
+<td>$f_{3}$</td>
+<td>$1 \: 1$</td>
+<td style="border-right:2px solid black">$\text{&#x2997;&#x2997; &#x2998;&#x2998;}$</td>
 <td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
 <td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
 <td style="background:black; color:white">$1$</td>
@@ -112,6 +112,8 @@ Table&#160;1 lists the 16 measures of the form $m : (\mathbb{B} \to \mathbb{B}) 
 </table>
 
 The contents of Table&nbsp;1 are organized as follows.  Columns&nbsp;1 and 2 form a truth table for the four propositions of the form $f : \mathbb{B} \to \mathbb{B}$, with the row leaders in Column&nbsp;1 displaying the names of the functions $f_i$ for $i$ = 0 to 3, while the entries in Column&nbsp;2 give the values of each function for the argument values that are listed in the corresponding column head.  Column&nbsp;3 displays a more or less canonical expression for the proposition in question.  The last sixteen columns are topped by a collection of conventional names for the measures $m_j$ as $j$ ranges from 0 to 15, where the entries in the body of the Table record the values assigned to each $f_i$ by each $m_j$.
+
+Table&nbsp;2 presents a sample of _interpretive categories_ for higher order propositions of type $(\mathbb{B}^1 \to \mathbb{B}) \to \mathbb{B}$, but it's best to put off discussing this Table further until we get beyond the 1-dimensional case.  These lower dimensional cases are extremely _condensed_ or _degenerate_ in their structures, and a lot of what's going on here becomes more salient as soon as we get even two logical variables to play off each other.
 
 ## Higher order propositions and logical operators $(n = 2)$ ##
 
