@@ -1,5 +1,46 @@
 [[!include all changes]]
 
+# New version #
+
++-- {: .standout}
+The **[new version of latest changes at the Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5)** will go live at the change of the month, UTC (just about 24 hours after I write this here).
+=--
+
+Those who had [concerns about the change](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=64) seem to have stood aside (although it\'s a little hard to tell without a formal process), so the lab elves are taking it as understood that we can at least try this out.  Please use it for October; if it stinks, then we can change back for November.  (Of course, nobody can force you to do this, so we won\'t stop you from posting here anyway ... but please try the new version out.)
+
+## Instructions ##
+
+If the date at the bottom of the page after you make your edit says 'October', then these instructions are in effect.
+
+1.  Go to <http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5> (prominently linked from the standout box at the top of this page).
+2.  Optionally, create an account (if you don\'t have one) and log in; this may be helpful but is not required.
+3.  Hit 'Start new discussion' at the top left.
+4.  Choose a meaningful subject title, perhaps the name of the page you\'ve edited or something like that.
+5.  Make sure that the 'Markdown' radio button is selected (you should only have to do this once).
+6.  Write your message like you would here.  *Most* of the formatting is the same, and there is a preview.  In particular `[[wikilinks]]` work.  For math, put it between `<latex>` and `</latex>` tags.  (You can also use `$$` as both beginning and end tag if you don\'t need to see a preview of the math.)
+7.  If you didn't log in, then please sign your name right there in the body of the post.
+8.  Check the preview (or skip it), and submit!
+
+## Comments on posts ##
+
+One motivation for this change is to allow conversations to take place where they won\'t get lost.  So in addition to making a new post for your own changes, you can also comment upon other people\'s changes by replying to their posts.  (When you read their post, there should be a box at the bottom for you to put in your reply comment.)  Don\'t forget to check for replies to your own posts too!
+
+## Feeds ##
+
+The other motivation for this change is to allow RSS and ATOM feeds for latest changes.  You can email [[Andrew Stacey]] if you want help setting this up.  Of course, it is optional.
+
+## Benefits to an account ##
+
+If you post anonymously and sign your name, then it\'s not much different from how things are done here.  But if you sign up for an account on the Forum, then you get these benefits:
+*  You don\'t have to type your name every time.
+*  You can post in other categories on the Forum.  (Only latest changes is open to anonymous posts.)
+*  You can edit (even delete) your own posts and comments.
+*  When you visit the Forum, it will keep track of which posts you\'ve read.
+*  Nobody can forge your identity (not that we\'ve had that problem).
+
+
+# Old version #
+
 A list of all recently edited entries can be seen at [Recently Revised](http://ncatlab.org/nlab/recently_revised).  But that list tends to contain lots of minor changes: it's not easy to spot the important ones.  So, if you feel people's attention should be drawn to some changes you make, please mention them *here*.  This way [[Contributors|the rest of us]] can spot them, so we can learn what you know --- and maybe make further improvements!
 
 +-- {: .standout}
@@ -49,13 +90,18 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 ***
 
 
+## 2009-09-30
+
+*  [[Toby Bartels]]:  The lab elves are going to try to convince people to use the Forum for latest changes in October; see the new section about this at the top of the page.  (If the instructions there are unclear, you can edit them now; I will move the final version to a permanent post on the Forum in 23 hours, after which you won\'t be able to edit them.)
+
+
 ## 2009-09-29
 
 * [[Urs Schreiber]]: created [[blob homology]]
 
 * [[Jon Awbrey]]:
 
-   * Added a 'blink (= stub-link) at [[higher order proposition]].
+   * Added a &rsquo;blink (= stub-link) at [[higher order proposition]].
 
    * Added a quote to [[precursors]] in which Hilbert borrows an idea from Kant.
 
@@ -264,11 +310,11 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
   * some content fed into [[supermanifold]] -- alse created [[SDiff]], [[SVect]], [[super vector space]], [[super algebra]], [[Grassmann algebra]], [[super Lie algebra]]
 
-* [[Jon Awbrey]] is road-testing the "cylindricity" symbol $\text{&#9005;}$ (unicode &#9005;) for composing functions and relations the _right_ way, that is, in arrow order.  For example, see [[boolean-valued function]].
+* [[Jon Awbrey]] is road-testing the "cylindricity" symbol $\text{&#x232D;}$ (unicode &amp;#x232D;) for composing functions and relations the _right_ way, that is, in arrow order.  For example, see [[boolean-valued function]].
 
    * I believe a semicolon $;$ is already commonly used by many people for composing things in "diagrammatic" order. -Mike
 
-   * Yes, there's a Z-notation semicolon &#10814; (unicode &#10814;) that I tried for a while, but it always looks more like a (California) stop than a connector --- besides, Kurt Vonnegut says not to use 'em.
+   * Yes, there's a Z-notation semicolon &#x2A3E; (unicode &amp;#x2A3E;) that I tried for a while, but it always looks more like a (California) stop than a connector --- besides, Kurt Vonnegut says not to use 'em.
 
 
 ## 2009-09-22
@@ -502,13 +548,13 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
   * [[David Corfield]]: Seeing "comparative $\infty$-categoriology" there, does anyone have thoughts on Borisov's [work](http://uk.arxiv.org/abs/0909.2534)? Perhaps we need to wait for the sequel.
 
-* [[Jon Awbrey]]:  Expanding on a [note](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c026573) and responding to a [query](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c026593) on the blog, I proposed several sources as "Precursors" to category theory.  I have discovered a truly marvelous demonstration of this proposition that [[category theory|this margin]] is too narrow to contain, but I might try to elaborate on it elsewhere &#8230; elsewhen.
+* [[Jon Awbrey]]:  Expanding on a [note](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c026573) and responding to a [query](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c026593) on the blog, I proposed several sources as "Precursors" to category theory.  I have discovered a truly marvelous demonstration of this proposition that [[category theory|this margin]] is too narrow to contain, but I might try to elaborate on it elsewhere &hellip; elsewhen.
 
 *  [[Toby Bartels]]:  Talk, talk, talk: [[SEAR]], [[classical mechanics]], [[category theory]].
 
 * [[Mike Shulman]]: Motivated by recent discussions on the cafe, created [[SEAR]], which has been kicking around in my head for quite some time.
 
-   * [[Jon Awbrey]]: A bit too close to SOAR.  But if you put your terms in alphabetical order you'd have ERAS, which would also be mnemonic for the fact that elementhood is a relation.  Hm&#179;, is there such a thing as mnepic?
+   * [[Jon Awbrey]]: A bit too close to SOAR.  But if you put your terms in alphabetical order you'd have ERAS, which would also be mnemonic for the fact that elementhood is a relation.  Hm&sup3;, is there such a thing as mnepic?
 
 * [[Zoran ?koda]]: created [[compact-open topology]].
 
@@ -667,7 +713,7 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
    *  Generalised [[internal relation]] somewhat.
 
 * [[Jon Awbrey]]:
-   * Finds his time too intermittent this weekend to do more than potter about in the $n$-garden, but was pleased to discover how to write the old Pascal "set-equal-to" as "$\:\text{:=}\:$" in a math context.
+   * Finds his time too intermittent this weekend to do more than potter about in the $n$-garden, but was pleased to discover how to write the old Pascal "set-equal-to" as &ldquo;$\:\text{:=}\:$&rdquo; in a math context.
    * Replies to a query at [[relation theory]].
 
 *  [[Toby Bartels]]:
@@ -820,7 +866,7 @@ To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/
 
 *  [[Toby Bartels]]:  More at [[evil]]; we might actually be working out some mathematical facts here before too long!
 
-   * [[Jon Awbrey]]:  I wouldn't _count_ on it &#8212; cuz, y'know, that might be _evil_.
+   * [[Jon Awbrey]]:  I wouldn't _count_ on it &mdash; cuz, y'know, that might be _evil_.
 
 * [[Todd Trimble]] added some more to [[localic topos]]. 
 
