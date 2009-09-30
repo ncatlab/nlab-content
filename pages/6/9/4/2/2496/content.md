@@ -113,7 +113,166 @@ Table&#160;1 lists the 16 measures of the form $m : (\mathbb{B} \to \mathbb{B}) 
 
 The contents of Table&nbsp;1 are organized as follows.  Columns&nbsp;1 and 2 form a truth table for the four propositions of the form $f : \mathbb{B} \to \mathbb{B}$, with the row leaders in Column&nbsp;1 displaying the names of the functions $f_i$ for $i$ = 0 to 3, while the entries in Column&nbsp;2 give the values of each function for the argument values that are listed in the corresponding column head.  Column&nbsp;3 displays a more or less canonical expression for the proposition in question.  The last sixteen columns are topped by a collection of conventional names for the measures $m_j$ as $j$ ranges from 0 to 15, where the entries in the body of the Table record the values assigned to each $f_i$ by each $m_j$.
 
-Table&nbsp;2 presents a sample of _interpretive categories_ for higher order propositions of type $(\mathbb{B}^1 \to \mathbb{B}) \to \mathbb{B}$, but it's best to put off discussing this Table further until we get beyond the 1-dimensional case.  These lower dimensional cases are extremely _condensed_ or _degenerate_ in their structures, and a lot of what's going on here becomes more salient as soon as we get even two logical variables to play off each other.
+Table&nbsp;2 presents a sample of _interpretive categories_ for higher order propositions of type $(\mathbb{B}^1 \to \mathbb{B}) \to \mathbb{B}$, but it's best to put off discussing this Table further until we get beyond the 1-dimensional case.  These lower dimensional cases tend to be extremely _condensed_ or _degenerate_ in their structures, and the pattern of what's going on here can be set in higher relief as soon as we have even two logical variables to play off each other.
+
+<table align="center" cellpadding="4" cellspacing="0" markdown="1" style="text-align:center; width:90%">
+
+<caption><font size="+2">$\text{Table 2.} \:\: \text{Interpretive Categories for Higher Order Propositions} \: (n = 1)$</font></caption>
+
+<tr>
+<td style="border-bottom:2px solid black; border-right:2px solid black">Measure</td>
+<td style="border-bottom:2px solid black">Happening</td>
+<td style="border-bottom:2px solid black">Exactness</td>
+<td style="border-bottom:2px solid black">Existence</td>
+<td style="border-bottom:2px solid black">Linearity</td>
+<td style="border-bottom:2px solid black">Uniformity</td>
+<td style="border-bottom:2px solid black">Information</td></tr>
+
+<tr>
+<td style="border-right:2px solid black">$m_{0}$</td>
+<td>Nothing happens</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+
+<tr>
+<td style="border-right:2px solid black">$m_{1}$</td>
+<td>&nbsp;</td>
+<td>Just false</td>
+<td>Nothing exists</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+
+<tr>
+<td style="border-right:2px solid black">$m_{2}$</td>
+<td>&nbsp;</td>
+<td>Just not $x$</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+
+<tr>
+<td style="border-right:2px solid black">$m_{3}$</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Nothing is $x$</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+
+<tr>
+<td style="border-right:2px solid black">$m_{4}$</td>
+<td>&nbsp;</td>
+<td>Just $x$</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+
+<tr>
+<td style="border-right:2px solid black">$m_{5}$</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Everything is $x$</td>
+<td>$f$ is linear</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+
+<tr>
+<td style="border-right:2px solid black">$m_{6}$</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>$f$ is not uniform</td>
+<td>$f$ is informed</td></tr>
+
+<tr>
+<td style="border-right:2px solid black">$m_{7}$</td>
+<td>&nbsp;</td>
+<td>Not just true</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+
+<tr>
+<td style="border-right:2px solid black">$m_{8}$</td>
+<td>&nbsp;</td>
+<td>Just true</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+
+<tr>
+<td style="border-right:2px solid black">$m_{9}$</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>$f$ is uniform</td>
+<td>$f$ is not informed</td></tr>
+
+<tr>
+<td style="border-right:2px solid black">$m_{10}$</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Something is not $x$</td>
+<td>$f$ is not linear</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+
+<tr>
+<td style="border-right:2px solid black">$m_{11}$</td>
+<td>&nbsp;</td>
+<td>Not just $x$</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+
+<tr>
+<td style="border-right:2px solid black">$m_{12}$</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>Something is $x$</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+
+<tr>
+<td style="border-right:2px solid black">$m_{13}$</td>
+<td>&nbsp;</td>
+<td>Not just not $x$</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+
+<tr>
+<td style="border-right:2px solid black">$m_{14}$</td>
+<td>&nbsp;</td>
+<td>Not just false</td>
+<td>Something exists</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+
+<tr>
+<td style="border-right:2px solid black">$m_{15}$</td>
+<td>Anything happens</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td></tr>
+
+</table>
 
 ## Higher order propositions and logical operators $(n = 2)$ ##
 
