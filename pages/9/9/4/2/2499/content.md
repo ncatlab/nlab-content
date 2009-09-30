@@ -211,11 +211,21 @@ This is [[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebroi
 ## rheonomy ##
 
 
-One central point of the D'Auria-Fr&#233; reformulation of supergravity is that it naturally leads to or admits the formulation of the **rheonomy constraint**.
+> need to fill in content here. The main point is this:
 
-It turns out that those field configurations of [[supergravity]] -- see above -- that satisfy the classical equations of motion are those for which the curvature forms appearing above are all expressible as local linear combinations of just the vielbein and the spinor in a certain way...
+> the above discussion so far glosses over the fact that once we pass to the [[supergeometry]] conmtext also our base space $X$ will be a [[supermanifold]]. We may take it to be an ordinary manifold, regarded as a special supermanifold, but it is more natural to regard it as a $(d|d)$-dimensional [[supermanifold]], i.e. one that is locally isomorphic to $\mathbb{R}^{d|d}$.
 
-> [[Urs Schreiber]]: in light of the higher gauge theoretic formulation there must be a good way to understand the rheonomy constraint from abstract nonsense. It must be something like saying that the [[schreiber:curvature|curvature characteristic forms]] of the $\mathfrak{sugra}(10,1)$-connection are given by those of the underlying super-translation Lie algebra valued connection. But I am not entirely sure yet. 
+> then plain super-diffeomorphism invariance of any action functional on our fields $\Pi^{inf}(X) \to \mathfrak{g}$ will be [[supersymmetry]] invariance
+
+> but, as discussed above, the actual fiels of supergravity _look_ like morphism $\Pi(X) \to \mathfrak{sugra}(10,1)$ for $X$ an _ordinary_ manifold.
+
+> D'Auria-Fr&#233; noticed that there is a very good way to model/formalize: we should be looking at functions on a $(d|d)$-dimensional [[supermanifold]]  that are however "independent" in some sense of the "supercoordinates": namely in a way entirely analogous to how a [[holomorphic funtion]] on a [[complex manifold]] is "independent of half of the coordinates". 
+
+> so the full statement to be discussed here is really that classical field configurations are **holomophic $\infty$-functors** $\Pi^{inf}(X) \to \mathfrak{sugra}(10,1)$ for a suitable notion of "holomorphic".
+
+> this super-version of "holomorphicity" is what is called **rheonomy**. A field $\Pi^{inf}(X) \to \mathfrak{g}$ on the [[supermanifold]] $X$ "satisfies the rheonomy constraints" if it is "holomorphic" in this sense.
+
+> more discussion later, when I have the time. The the book by D'Auria-Fre referenced below. You need volume 2, part 3, chapter III, section 3, subsection 3 (no joke, that's the section in question) 
 
 
 
