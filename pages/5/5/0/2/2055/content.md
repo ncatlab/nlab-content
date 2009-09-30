@@ -59,7 +59,7 @@
 
 * [Mathlog](http://www.scienceblogs.de/mathlog)
 
-* [Motivic Stuff](http://homotopical.wordpress.com) (Andreas Holstrom)
+* [Motivic Stuff](http://homotopical.wordpress.com) (Andreas Holmstrom)
 
 * [Nathaniel Johnston's Blog](http://www.nathanieljohnston.com)
 
