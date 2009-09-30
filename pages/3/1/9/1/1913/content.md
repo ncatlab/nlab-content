@@ -1,9 +1,11 @@
-## Idea
+* tic
+{:toc}
 
-A differential form is a geometrical object on a [[manifold]] that can be integrated. A differential form $\omega$ is a [[section]] of the [[exterior algebra]] $\Lambda^* T^* X$ of a [[cotangent bundle]], which makes sense in many contexts (e.g. [[manifolds]], [[algebraic varieties]], [[analytic space]]s, ...). 
+# Idea #
 
+A differential form is a geometrical object on a [[manifold]] that can be integrated. A differential form $\omega$ is a [[section]] of the [[exterior algebra]] $\Lambda^* T^* X$ of a [[cotangent bundle]], which makes sense in many contexts (e.g. [[manifolds]], [[algebraic varieties]], [[analytic spaces]], ...). 
 
-## Abstract version ##
+# Abstract version #
 
 Before turning to the usual version in differential geometry, we examine the above requirement through [[general abstract nonsense]].
 
@@ -85,7 +87,7 @@ There are in turn different ways to make that last statement precise:
 
   For more on this see [[differential forms in synthetic differential geometry]].
 
-## Examples ##
+# Examples #
 
 Just to everybody that we\'re still talking about the same thing:
 
@@ -98,7 +100,7 @@ $$ \mathrm{d}\omega \wedge \eta ,$$
 for example, as a new differential form.
 
 
-## Definitions
+# Definitions #
 
 Given a differentiable [[manifold]] $X$, or even a [[generalized smooth space]] $X$ for which this definition makes sense, a __differential form__ on $X$ is a [[section]] of the [[exterior algebra]] of the [[cotangent bundle]] over $X$; sometimes one refers to an __exterior differential form__ to be more precise.  One often requires differential forms to be smooth, or at least continuous, but we will state this explicitly when we want it.  A __differential $p$-form__ on $X$ is a section of the $p$th [[exterior power]] of the cotangent bundle; the [[natural number]] $p \geq 0$ is the __rank__ of the form.  A general differential form is a $p$-indexed [[sequence]] of differential $p$-forms of which all but finitely many are zero; on a finite-dimensional manifold, this latter condition is automatic.
 
@@ -147,7 +149,7 @@ $$ \mathrm{d}x^I = \mathrm{d}x^{I_1} \wedge \cdots \wedge \mathrm{d}x^{I_p} $$
 (for $p$ the length of the list $I$) is simply an abbreviation.  For a $p$-form, there are $\left(n \atop p\right)$ terms that appear.
 
 
-## Twisted and vector-valued forms
+# Twisted and vector-valued forms #
 
 Recall that a differential form on $X$ is a section of the exterior algebra of the cotangent bundle over $X$; call this bundle $\Lambda$.  Then given any [[vector bundle]] $V$ over $X$, a __$V$-valued form__ on $X$ is a section of the vector bundle $V \otimes \Lambda$.  The wedge product of a $V$-valued form and a $V'$-valued form is a $(V \otimes V')$-valued form, but if there is a commonly used multiplication map $V \otimes V' \to W$, then we may think of their wedge product as a $W$-valued form.
 
@@ -164,7 +166,7 @@ On an $n$-dimensional manifold $X$, the space $\Omega^n(X)$ of $n$-forms is itse
 Given any real number $w$, there is a line bundle called the line bundle of $w$-[[weighted representation|weighted]] scalars; a form twisted by this line bundle is a __$w$-weighted form__.  Note that a $0$-weighted form is just an ordinary form; also, an $n$-pseudoform turns out to be equivalent to a $1$-weighted $0$-form.  (And thus a densitised form is equivalent to a $1$-weighted pseudoform.)
 
 
-## Pulling back forms
+# Pulling back forms #
 
 Given manifolds $X$ and $Y$ and a map $f: X \to Y$, any differential form $\eta$ on $Y$ defines a __pullback__ form $f^*(\eta)$ on $X$.  This is quite straightforward, once one knows how to push forward tangent vectors on $X$ to tangent vectors on $Y$; to apply $f^*(\eta)$ to a list of vectors on $X$, push them forward to $Y$ and apply $\eta$ to them there.  If $f$ and $\eta$ are smooth, continuous, etc, then so is $f^*(\eta)$.
 
@@ -173,7 +175,7 @@ Thus, the operation that maps $X$ to $\Omega^*(X)$ extends to a [[contravariant 
 Note that twisted and (more general) vector-valued forms cannot be pulled back so easily.  One needs some extra structure on $f$ to do so; see the discussion of integration of $p$-pseudoforms below for an example.
 
 
-## Integration of forms
+# Integration of forms #
 
 Let $X$ be an $n$-dimensional manifold, and let $\omega$ be an $n$-pseudoform on $X$.  Suppose that $X$ is [[paracompact space|paracompact]] and [[Hausdorff space|Hausdorff]], so that we may find a [[locally finite cover]] of $X$ with a subordinate smooth [[partition of unity]] and a smooth coordinate chart on each patch.  Then $\omega$ defines a [[measure space|measure]] on $X$ as follows:
 
@@ -239,7 +241,7 @@ _Toby_:  Ah, I see; your $M$ above need not be super, and it still works.  Then 
 =--
 
 
-## Cohomology of forms
+# Cohomology of forms #
 
 There is a [[cohomology]] theory of smooth differential forms; we have a [[chain complex]]
 $$ \cdots \stackrel{\mathrm{d}}\to C^\infty\Omega^2(X) \stackrel{\mathrm{d}}\to C^\infty\Omega^1(X) \stackrel{\mathrm{d}}\to C^\infty\Omega^0(X) \stackrel{\mathrm{d}}\to 0 ;$$
@@ -250,7 +252,7 @@ $$ \int_{\partial{R}} \omega = \int_R \mathrm{d}\omega ,$$
 where $\partial{R}$, which may be interpreted as the __boundary__ of $R$, is also called the __codifferential__ as it is dual to $\mathrm{d}$.
 
 
-## References
+# References #
 
 * Schreiber & Waldorf, _Smooth Functors vs. Differential Forms_ ([arXiv](http://arxiv.org/abs/0802.0663))
 
@@ -259,7 +261,6 @@ Much fun discussion between [[Eric Forgy]], [[Toby Bartels]], and [[John Baez]],
 *  [applications of pseudoforms](http://groups.google.com/group/sci.physics.research/msg/2774cbbc982e200e?dmode=source) to classical contexts where absolute values appear;
 *  [the general notion of form](http://groups.google.com/group/sci.physics.research/msg/47bbd29289f208f8?dmode=source) corresponding to an arbitrary representation of the [[general linear group]] (towards the end of the post);
 *  [absolute values of forms](http://groups.google.com/group/sci.physics.research/msg/424da828e75b6b90?dmode=source) and how to integrate them even when they don\'t exist (near the end of the post).
-
 
 [[!redirects differential forms]]
 [[!redirects exterior differential form]]
