@@ -2,13 +2,17 @@
 
 # Idea #
 
-If functions of type $X \to \mathbb{B}$ are propositions about things in $X$, then functions of type $(X \to \mathbb{B}) \to \mathbb{B}$ are propositions about propositions about things in $X$, the first of a series of __higher order propositions__ based on $X$.
+If functions of type $X \to \mathbb{B}$ are propositions about things in $X$, then functions of type $(X \to \mathbb{B}) \to \mathbb{B}$ are propositions about propositions about things in $X$, the first of a series of __higher order propositions__ to be based on $X$.
 
 # Higher order propositional expressions #
 
 By way of equipping the discussion with a modicum of concrete material, let's begin with a consideration of higher order propositions and logical operators that stem from the ordinary propositions on 1 and 2 variables.
 
 ## Higher order propositions and logical operators $(n = 1)$ ##
+
+A _higher order proposition_ is, very roughly speaking, a proposition about propositions.  If the original order of propositions is a class of [[indicator functions]] $f : X \to \mathbb{B}$, then the next higher order of propositions consists of maps of the type $m : (X \to \mathbb{B}) \to \mathbb{B}$.
+
+For example, consider the case where $X = \mathbb{B}$.  Then there are exactly four propositions $f : \mathbb{B} \to \mathbb{B}$, and exactly sixteen higher order propositions that are based on this set, all bearing the type $m : (\mathbb{B} \to \mathbb{B}) \to \mathbb{B}$.
 
 ## Higher order propositions and logical operators $(n = 2)$ ##
 
