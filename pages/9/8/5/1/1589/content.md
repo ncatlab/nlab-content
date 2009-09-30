@@ -8,6 +8,11 @@ This entry collects material on the June 2009 workshop on [[string theory|string
 * Date:       June 7th - June 13th, 2009
 * ID:         0924
 
+Writeups of most of the talks have appeared as 
+
+* _Strings, Field, Topology_,  Oberwolfach report No 28, 2009, [pdf](http://www.mfo.de/programme/schedule/2009/24/OWR_2009_28.pdf)
+
+
 # Talks 
 
 * **Thomas Schick**, [_Smooth cohomology theories_](#schick).
