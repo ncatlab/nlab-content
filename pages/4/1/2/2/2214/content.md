@@ -27,7 +27,7 @@ One motivation for this change is to allow conversations to take place where the
 
 ## Feeds ##
 
-The other motivation for this change is to allow RSS and ATOM feeds for latest changes.  You can email [[Andrew Stacey]] if you want help setting this up.  Of course, it is optional.
+The other motivation for this change is to allow RSS and ATOM feeds for latest changes.  The URL of an ATOM feed for the latest changes category is [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/search.php?PostBackAction=Search&Type=Comments&Page=1&Feed=ATOM&Keywords=cats:Latest+Changes;&FeedTitle=nLab+latest+changes).  You can email [[Andrew Stacey]] if you want help setting this up.  Of course, it is optional.
 
 ## Benefits to an account ##
 
