@@ -8,6 +8,8 @@ The ordinary [[Euclidean group]] of $\mathbb{R}^n$ is the group generated from t
 
 The _super Euclidean group_ is analogously the [[supergroup]] of translations and rotations of the [[supermanifold]] $\mathbb{R}^{p|q}$.
 
+Its [[super Lie algebra]] should be the [[super Poincare Lie algebra]] (up to the signature of the metric).
+
 #Details#
 
 > **incomplete** for the moment, to be finished off tomorrow
