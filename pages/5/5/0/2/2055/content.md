@@ -86,13 +86,15 @@
 
 * [The accidental mathematician](http://ilaba.wordpress.com) (Izabella Laba)
 
-* [The everything seminar](http://cornellmath.wordpress.com)
+* [The Everything Seminar](http://cornellmath.wordpress.com)
 
 * [The n-Category Caf&#233;](http://golem.ph.utexas.edu/category)
 
-* [The n-geometry cafe](http://www.noncommutative.org)
+* [The n-Geometry Caf&#233;](http://www.noncommutative.org)
 
-* [The polymath blog](http://polymathprojects.wordpress.com)
+* [The Polymath Blog](http://polymathprojects.wordpress.com)
+
+* [The Rising Sea](http://therisingsea.org/) (Daniel Murfet on algebraic geometry, derived categories and the like)
 
 * [The twofold gaze](http://twofoldgaze.wordpress.com)
 
