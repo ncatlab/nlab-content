@@ -58,6 +58,8 @@ The central theorem is
 
    1. [[A Survey of Elliptic Cohomology - E-infinity rings and derived schemes]]
 
+   1. [[A Survey of Elliptic Cohomology - elliptic curves]]
+
 
 1. towards geometric models
 
