@@ -139,6 +139,7 @@ Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Scie
 ##Mathematical Wikis##
 
 * [Analysis & PDE conferences](http://tosio.math.utoronto.ca/wiki/index.php/Conferences)
+* [Deferential Geometry](http://deferentialgeometry.org)
 * [DispersiveWiki](http://tosio.math.toronto.edu/wiki/index.php/Main_Page)
 * [Mathematics Jobs Wiki](http://notable.math.ucdavis.edu/wiki/Mathematics_Jobs_Wiki)
 * [The Tricki](http://www.tricki.org)
