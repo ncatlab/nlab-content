@@ -9,7 +9,7 @@ One way of thinking of the blob complex is as a generalization of the [[Hochschi
 
 One thinks of the Hochschild complex as associated to a 1-[[category]] and a 1-[[manifold]] (the circle).  It's a fairly small complex, analogous to cellular homology.  The blob complex for the same input data (1-category and circle) yields a [[quasi-isomorphism|quasi-isomorphic]] but much much larger [[chain complex]], analogous to [[singular homology]].  
 
-It's advantage over the Hochschild complex is that it is "local".  In higher dimensions this locality means that it is easy to (well-) define the blob complex of an [[n-category]] + n-manifold without choosing any sort of decomposition of the n-manifold.
+Its advantage over the Hochschild complex is that it is "local".  In higher dimensions this locality means that it is easy to (well-) define the blob complex of an [[n-category]] + n-manifold without choosing any sort of decomposition of the n-manifold.
 
 
 #Definition#
