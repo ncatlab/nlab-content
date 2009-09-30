@@ -104,6 +104,10 @@
 
 * [XOR's hammer](http://xorshammer.wordpress.com)
 
++--{: .query}
+[[Mike Shulman]]: I think this page would be even more useful if it included brief notes about what sort of activity tends to go on at each blog in the list.
+=--
+
 ##Statistics blogs##
 
 * [Hot Hand -- Sports Streakiness](http://thehothand.blogspot.com)
