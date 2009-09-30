@@ -2,7 +2,7 @@
 
 # Idea #
 
-If functions of type $X \to \mathbb{B}$ are propositions about things in $X$, then functions of type $(X \to \mathbb{B}) \to \mathbb{B}$ are propositions about propositions about things in $X$, the first of a series of __higher order propositions__ about things in $X$.
+If functions of type $X \to \mathbb{B}$ are propositions about things in $X$, then functions of type $(X \to \mathbb{B}) \to \mathbb{B}$ are propositions about propositions about things in $X$, the first of a series of __higher order propositions__ based on $X$.
 
 # Higher order propositional expressions #
 
@@ -10,7 +10,7 @@ By way of equipping the discussion with a modicum of concrete material, let's be
 
 ## Higher order propositions and logical operators $(n = 1)$ ##
 
-A _higher order proposition_, also known as a _measure_ on propositions, is a proposition about propositions.  If the original order of propositions is a class of [[indicator functions]] $f : X \to \mathbb{B}$, then the next higher order of propositions consists of maps of the form $m : (X \to \mathbb{B}) \to \mathbb{B}$.
+A _higher order proposition_ is a proposition about propositions.  If the original order of propositions consists of maps of the form $f : X \to \mathbb{B}$, then the next higher order of propositions consists of maps of the form $m : (X \to \mathbb{B}) \to \mathbb{B}$.  It is often useful to think of a higher order proposition as a (boolean-valued) _measure_ on propositions.
 
 For example, consider the case where $X = \mathbb{B}$.  Then there are exactly four propositions $f : \mathbb{B} \to \mathbb{B}$, and exactly sixteen higher order propositions that are based on this set, all taking the form $m : (\mathbb{B} \to \mathbb{B}) \to \mathbb{B}$.
 
