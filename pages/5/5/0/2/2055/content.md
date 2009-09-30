@@ -53,8 +53,7 @@
 
 * [Low Dimensional Topology](http://ldtopology.wordpress.com)
 
-* [Mathematics and Computation]
-(http://math.andrej.com/)
+* [Mathematics and Computation](http://math.andrej.com/) (Andrej Bauer)
 
 * [Mathematics and Physics](http://borcherds.wordpress.com/) (Richard Borcherds)
 
