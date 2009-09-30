@@ -276,11 +276,11 @@ Table&nbsp;2 presents a sample of _interpretive categories_ for higher order pro
 
 ## Higher order propositions and logical operators $(n = 2)$ ##
 
-By way of reviewing notation and preparing to extend it to higher order universes of discourse, let's first consider the universe of discourse $X^\circ = [x_1, x_2] = [u, v]$ that is based on just two logical features or boolean variables $u$ and $v$.
+By way of reviewing notation and preparing to extend it to higher order universes of discourse, let's first consider the universe of discourse $X^\circ = \left[ x_1, x_2 \right] = \left[ u, v \right]$ that is based on just two logical features or boolean variables $u$ and $v$.
 
 The universe of discourse $X^\circ$ consists of two parts, a set of _points_ and a set of _propositions_.
 
-The points of $X^\circ$ form a space described as follows:
+The points of $X^\circ$ form a space notated as follows:
 
 <div markdown="1"><font size="+1">
 $$\array{
@@ -333,6 +333,26 @@ X
 \mathbb{B}^2
 }$$
 </font></div>
+
+The propositions of $X^\circ$ form a space notated as follows:
+
+<div markdown="1"><font size="+1">
+$$\array{
+X^\uparrow
+&amp; = &amp;
+(X \to \mathbb{B})
+&amp; = &amp;
+\{ f : X \to \mathbb{B} \}
+&amp; \cong &amp;
+(\mathbb{B}^2 \to \mathbb{B})
+}$$
+</font></div>
+
+As always, it is convenient to overlook the finer marks of distinction between isomorphic structures, so long as one is aware of their presence and knows when it is critical to call on them again.
+
+The next higher order universe of discourse that is built on $X^\circ$ is $X^{\circ 2} = \left[ X^\circ \right] = \left[\left[ u, v \right]\right]$, which may be developed in the following way.  The propositions of $X^\circ$ become the points of $X^{\circ 2}$, and the mappings of the type $m : (X \to \mathbb{B}) \to \mathbb{B}$ become the propositions of $X^{\circ 2}$.  In addition, it is convenient to equip the discussion with a selected set of higher order operators on propositions, all of which have the form $w : (\mathbb{B}^2 \to \mathbb{B})^k \to \mathbb{B}$.
+
+To save a few words in the remainder of this discussion, let us use the terms _measure_ and _qualifier_ to refer to all types of higher order propositions and operators.  To describe the present setting in picturesque terms, the propositions of $\left[ u, v \right]$ may be regarded as a gallery of sixteen venn diagrams, while the measures $m : (X \to \mathbb{B}) \to \mathbb{B}$ are analogous to a body of judges or a panel of critical viewers, each of whom evaluates each of the pictures as a whole and reports the ones that find favor or not.  In this way, each judge $m_j$ partitions the gallery of pictures into two aesthetic portions, the pictures $m_j^{-1}(0)$ that $m_j$ dislikes and the pictures $m_j^{-1}(1)$ that $m_j$ likes.
 
 <div markdown="1"><font size="+3">$\ldots$</font></div>
 
