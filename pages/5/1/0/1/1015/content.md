@@ -14,14 +14,20 @@ The distinguishing feature of a material set theory (also called a *membership-b
 [[Arnold Neumaier]]: I doubt that this statement means anything. ZF has no notion of time, hence nothing exists there before anything else. In a model of ZF all sets exist simultaneously, and without a model of ZF no set exists.
 Thus the notion of pre-existence might be a property of your private model of ZF (which apparently has extra accidental structure) but it is not one of ZF.
 
-Thus I am at a loss to see what this distinguishing feature should mean.
+Thus I am at a loss to see what this distinguishing feature should mean. 
+
+[[Todd Trimble]]: It seems clear to me that the preceding paragraphs are written informally, trying to convey a _feeling_ behind what is meant (here) by "material" vs. "structural". So the objection about the formal theory ZF seems improper -- let's give Mike some credit; he knows very well there's no concept of time in the formal theory. 
+
+By "pre-existing", I think he means that _given_ a bunch of objects, you can (under pretty general conditions, made precise by ZF for instance) collect them into a set. He actually said that, I just noticed. But structural set theories work a bit differently. 
 =--
 
  Frequently in material set theory one takes everything to be a [[pure set]], including the elements of sets themselves.   Therefore, any two sets may be meaningfully compared to ask if they are [[equal]] or if one is a member of the other.  As a slight variation (still material set theory), one may also accept ur-elements (or atoms) as elements.  The main distinguishing feature of a material set theory is a global membership predicate, whereby it is meaningful to ask, given any object and a set, whether the object is an element of the set.
 
 +--{: .query}
 [[Arnold Neumaier]]: Here is a second attempt to define the distinguishing feature. is that supposed to be an equivalent form of the previous one, or a different one? 
-What if only one of the features are present?
+What if only one of the features are present? 
+
+[[Todd Trimble]]: If I may presume to speak again before Mike, I gather that he is elaborating on what the sorts of (informal) collecting-into-sets operations typical for the spirit of material set theory would entail for the basic _shape_ or form that the axiomatic theories actually take. In other words, to axiomatize those sorts of operations, one needs to posit a global membership relation/predicate -- at least that's the case for all such known theories. 
 =--
 
 
