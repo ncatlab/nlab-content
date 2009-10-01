@@ -1,4 +1,6 @@
+<div class="rightHandSide toc">
 [[!include all changes]]
+</div>
 
 Archive of changes made during 2008.
 The substantive content of this page should **not** be altered.
@@ -49,7 +51,7 @@ of the [[HomePage]]. So far I did this in [[category theory]], [[sheaf and topos
 
 ***
 
-**First list** &#8212; No previous list &#8212; [[2009 January changes|Next list]] &#8212; [[latest changes|Current list]]
+**First list** --- No previous list --- [[2009 January changes|Next list]] --- [Current list](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5)
 
 ***
 
