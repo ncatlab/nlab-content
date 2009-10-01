@@ -685,6 +685,22 @@ One remark in passing for those who might prefer an alternative definition.  If 
 
 # Measure for measure #
 
+Define two families of measures:
+
+<div markdown="1"><font size="+1">
+$$\alpha_i, \beta_i : (\mathbb{B}^2 \to \mathbb{B}) \to \mathbb{B}, i = 0 \ldots 15,$$
+</font></div>
+
+by means of the following equations:
+
+<div markdown="1"><font size="+1">
+$$\array{
+\alpha_i f &amp; = &amp; \Upsilon (f_i, f) &amp; = &amp; \Upsilon (f_i \Rightarrow f),
+\\
+\beta_i f  &amp; = &amp; \Upsilon (f, f_i) &amp; = &amp; \Upsilon (f \Rightarrow f_i).
+}$$
+</font></div>
+
 <div markdown="1"><font size="+3">$\ldots$</font></div>
 
 # Functional conception of quantification theory #
