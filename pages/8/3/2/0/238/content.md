@@ -1,4 +1,6 @@
+<div class="rightHandSide toc">
 [[!include all changes]]
+</div>
 
 Archive of changes made during June 2009.
 The substantive content of this page should **not** be altered.
@@ -666,7 +668,7 @@ The substantive content of this page should **not** be altered.
 
 ***
 
-[[2008 changes|First list]] &#8212; [[2009 May changes|Previous list]] &#8212; [[2009 July changes|Next list]] &#8212; [[latest changes|Current list]] 
+[[2008 changes|First list]] --- [[2009 May changes|Previous list]] --- [[2009 July changes|Next list]] --- [Current list](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5)
 
 ***
 
