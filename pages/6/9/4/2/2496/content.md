@@ -1,5 +1,8 @@
 [[!redirects higher order propositions]]
 
+* tic
+{:toc}
+
 # Idea #
 
 If functions of type $X \to \mathbb{B}$ are propositions about things in $X$, then functions of type $(X \to \mathbb{B}) \to \mathbb{B}$ are propositions about propositions about things in $X$, the first of a series of __higher order propositions__ based on $X$.
@@ -353,6 +356,8 @@ As always, it is convenient to overlook the finer marks of distinction between i
 The next higher order universe of discourse that is built on $X^\circ$ is $X^{\circ 2} = \left[ X^\circ \right] = \left[\left[ u, v \right]\right]$, which may be developed in the following way.  The propositions of $X^\circ$ become the points of $X^{\circ 2}$, and the mappings of the type $m : (X \to \mathbb{B}) \to \mathbb{B}$ become the propositions of $X^{\circ 2}$.  In addition, it is convenient to equip the discussion with a selected set of higher order operators on propositions, all of which have the form $w : (\mathbb{B}^2 \to \mathbb{B})^k \to \mathbb{B}$.
 
 To save a few words in the remainder of this discussion, let us use the terms _measure_ and _qualifier_ to refer to all types of higher order propositions and operators.  To describe the present setting in picturesque terms, the propositions of $\left[ u, v \right]$ may be regarded as a gallery of sixteen venn diagrams, while the measures $m : (X \to \mathbb{B}) \to \mathbb{B}$ are analogous to a body of judges or a panel of critical viewers, each of whom evaluates each of the pictures as a whole and reports the ones that find favor or not.  In this way, each judge $m_j$ partitions the gallery of pictures into two aesthetic portions, the pictures $m_j^{-1}(0)$ that $m_j$ dislikes and the pictures $m_j^{-1}(1)$ that $m_j$ likes.
+
+There are $2^{16} = 65536$ measures of the form $m : (\mathbb{B}^2 \to \mathbb{B}) \to \mathbb{B}$.  Table&nbsp;3 shows the first 24 of these measures in the same style of higher order truth table used above.  The column headed $m_j$ shows the values of the measure $m_j$ on each of the propositions $f_i : \mathbb{B}^2 \to \mathbb{B}$ for $i$ = 0 to 15, with blank entries in the Table being optional for values of zero.  Let us refer to the arrangement of measures that continues according to this plan as their _standard ordering_.  In this scheme of things, the index $j$ of the measure $m_j$ is the decimal equivalent of the bit string in the corresponding column of the Table, reading the binary digits in order from bottom to top.
 
 <div markdown="1"><font size="+3">$\ldots$</font></div>
 
