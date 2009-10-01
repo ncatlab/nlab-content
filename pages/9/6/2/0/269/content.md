@@ -179,6 +179,38 @@ Geometric realization is a functor [[adjoint functor|left adjoint]] to the funct
 $$cub: Top \to Set^{\Box^{op}}$$ 
 which takes a space $S$ to the functor $\hom_{Top}(I^{\bullet}-, S)$. 
 
+## subdivision and fibrant replacement ##
+
+Jardine constructed a cubical subdivision functor $sd$. It is an obvious subdivision of an $n$-cube, which is just a product of barycentric subdivisions of intervals. The (functorial) subdivision $sd X$ of a cubical
+set $X$ is constructed from this naive subdivision of the $n$-cube in the end.
+See [this](http://www.math.uwo.ca/~jardine/papers/preprints/cubical2.pdf). for details. There is a natural sequence of maps of cubical sets
+
+
+$$
+\cdots  \to sd^n X \to \cdots  \to sd X  \to X
+$$
+
+defined similar to its [[Kan fibrant replacement|simplicial counetrparts]]. Let its [[right adjoint]] be
+denoted as usual by $Ex X$. So $n$-cubes of $Ex X$ are cubical maps from subdivision of the $n$-cube to $X$ (similar to the definition of [[Kan fibrant replacement|simplicial
+Ex-functor]]). We get therefore maps
+
+$$
+ X  \to Ex X \to Ex^2 X  \to \cdots
+$$
+
+Let $Ex^\infty X$ be the unioun of the latter maps (similar to simplicial $Ex^\infty$).
+
+**question**: Is $Ex^\infty X$  a fibrant cubical set for any cubical set $X$?. 
+
+Recall that a cubical set is fibrant if any
+cubical horn has a filler (similar to [[simplicial set]]: any [[Kan complex|Kan fibrant]] simplicial set has [[horn]] fillers). See also [Cisinski's book](http://www-math.univ-paris13.fr/%7Ecisinski/ast.pdf) or [Jardine's lectures on cubical sets](http://www.math.uwo.ca/~jardine/papers/sPre/index.shtml) for definitions.
+
+
+The first question is probably not true in general, but if we consider cubical sets with [[connection on a cubical set|connections]] in the sense of Brown-Higgins (we
+add some degeneracy maps to cubical sets), see e.g. [Maltsiniotis paper](http://people.math.jussieu.fr/~maltsin/ps/cubique.ps) then the cubical subdivision remains the same and the $Ex^\infty X$ is
+defined similarly. The question is whether $Ex^\infty X$ with $X$ a cubical set with connections is fibrant. **Is it true?**
+
+
 
 # Background# 
 
