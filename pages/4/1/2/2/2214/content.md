@@ -1,91 +1,9 @@
+<div class="rightHandSide toc">
 [[!include all changes]]
+</div>
 
-# New version #
-
-+-- {: .standout}
-The **[new version of latest changes at the Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5)** will go live at the change of the month, UTC (just about 24 hours after I write this here).
-=--
-
-Those who had [concerns about the change](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=64) seem to have stood aside (although it\'s a little hard to tell without a formal process), so the lab elves are taking it as understood that we can at least try this out.  Please use it for October; if it stinks, then we can change back for November.  (Of course, nobody can force you to do this, so we won\'t stop you from posting here anyway ... but please try the new version out.)
-
-## Instructions ##
-
-If the date at the bottom of the page after you make your edit says 'October', then these instructions are in effect.
-
-1.  Go to <http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5> (prominently linked from the standout box at the top of this page).
-2.  Optionally, create an account (if you don\'t have one) and log in; this may be helpful but is not required.
-3.  Hit 'Start new discussion' at the top left.
-4.  Choose a meaningful subject title, perhaps the name of the page you\'ve edited or something like that.
-5.  Make sure that the 'Markdown' radio button is selected (you should only have to do this once).
-6.  Write your message like you would here.  *Most* of the formatting is the same, and there is a preview.  In particular `[[wikilinks]]` work.  For math, put it between `<latex>` and `</latex>` tags.  (You can also use `$$` as both beginning and end tag if you don\'t need to see a preview of the math.)
-7.  If you didn't log in, then please sign your name right there in the body of the post.
-8.  Check the preview (or skip it), and submit!
-
-## Comments on posts ##
-
-One motivation for this change is to allow conversations to take place where they won\'t get lost.  So in addition to making a new post for your own changes, you can also comment upon other people\'s changes by replying to their posts.  (When you read their post, there should be a box at the bottom for you to put in your reply comment.)  Don\'t forget to check for replies to your own posts too!
-
-## Feeds ##
-
-The other motivation for this change is to allow RSS and ATOM feeds for latest changes.  The URL of an ATOM feed for the latest changes category is [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/search.php?PostBackAction=Search&Type=Comments&Page=1&Feed=ATOM&Keywords=cats:Latest+Changes;&FeedTitle=nLab+latest+changes).  You can email [[Andrew Stacey]] if you want help setting this up.  Of course, it is optional.
-
-## Benefits to an account ##
-
-If you post anonymously and sign your name, then it\'s not much different from how things are done here.  But if you sign up for an account on the Forum, then you get these benefits:
-*  You don\'t have to type your name every time.
-*  You can post in other categories on the Forum.  (Only latest changes is open to anonymous posts.)
-*  You can edit (even delete) your own posts and comments.
-*  When you visit the Forum, it will keep track of which posts you\'ve read.
-*  Nobody can forge your identity (not that we\'ve had that problem).
-
-
-# Old version #
-
-A list of all recently edited entries can be seen at [Recently Revised](http://ncatlab.org/nlab/recently_revised).  But that list tends to contain lots of minor changes: it's not easy to spot the important ones.  So, if you feel people's attention should be drawn to some changes you make, please mention them *here*.  This way [[Contributors|the rest of us]] can spot them, so we can learn what you know --- and maybe make further improvements!
-
-+-- {: .standout}
-
-Please log all your non-trivial changes to the $n$Lab here!
-
-=--
-
-Here "non-trivial" means: anything that any other contributor might be interested in taking notice of. If you fix a trivial typo in the text somewhere, that is highly appreciated but unlikely to be controversial and hence need not be logged here. But already if you fix a typo in some _formula_, it may be of interest. Generally: the more you log your activity here, the better. Even when in doubt whether anyone else might be interested in changes you made, drop a note here on what you did.
-
-The importance of logging changes here is that
-
-+-- {: .standout}
-
-Logging changes here is the way to allow collaboration on the $n$Lab without everybody following every individual page.
-
-=--
-
-Contributions that are not logged here are likely to be missed and ignored. And that can't be the point of making a contribution. 
-
-These comments should go in _reverse_ chronological order, so that the latest are on top of the list. To keep the list international, use the date in **UTC** (the date given by the server for your edits).  However, regardless of that, be sure to **add new comments to the top** of the list, or else people might not notice them.
-
-***
-
-We are proposing shifting the place for recording latest changes to the n-Forum.  This will provide the following advantages:
-
-1. It will be better organised and so easier to see new items, and replies to existing items.
-2. There is an RSS feed so you can follow developments without having to check this page every 5 minutes (you know who you are).
-3. Updates can be made simultaneously so you don't have to wait for the person currently editing 'latest changes' to finish.
-4. If you create an account on the forum (this is not mandatory), it will keep track of the items that you have read and inform you of new things.
-5. It will be easier for you to find out about other possible changes to the infrastructure of the n-lab, and so have some influence on what makes this place run.
-
-The system will be no more complicated than the current one:
-
-1. Make your changes in the n-lab.
-2. Click on the 'latest changes' link in the contents sidebar of the homepage (we'll include a link (**not** a redirect) from this page for those who've bookmarked this one).
-3. Click on the 'start a new discussion' in the panel (left hand side) of the page on the forum.
-4. Fill in the details of the change.  I suggest that the title of the discussion makes it clear which pages on the n-lab are referred to.
-5. If you have an account, you will be invited to log in (if you are not already logged in).  If not, there is a reCaptcha to solve to prove that you are human (or elven).  If you _do_ post "anonymously", may we ask that you put your name at the top of your comment so that we know who you are.
-
-You can subscribe to RSS or ATOM feeds from the forum.  This will keep you up to date in your preferred 'feed reader' of what's going on.
-
-The syntax on the forum is ever-so-slightly different to that here.  You can use markdown syntax, but it's not extended markdown.  Wikilinks work just as they do here (and point to the correct pages here).  Mathematics is, currently, enabled via a Wordpress-style system where it gets converted to pictures.  Enclose your mathematics within double dollars to get it to work.  (Hopefully, this will change to a MathML system in the near future).
-
-To have a look at the system, go to [this page](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5).  When we "go live" (which will happen soon), I'll clean out the discussions so feel free to have a play first.  Any comments and suggestions should be recorded [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=64) (you'll have to create an account to comment on this, though).
+Archive of changes made during August 2009.
+The substantive content of this page should **not** be altered.
 
 ***
 
@@ -1327,12 +1245,8 @@ community and my exprience is that when somebody says they proved a fact by abst
 
 ***
 
-[[2008 changes|First list]] &#8212; [[2009 August changes|Previous list]] &#8212; No next list &#8212; **Current list**
+[[2008 changes|First list]] --- [[2009 August changes|Previous list]] --- [Next list](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5) --- [Current list](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5)
 
 ***
 
-
 category: meta
-
-
-[[!redirects 2009 September changes]]
