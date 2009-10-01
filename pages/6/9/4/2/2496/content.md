@@ -359,6 +359,70 @@ To save a few words in the remainder of this discussion, let us use the terms _m
 
 There are $2^{16} = 65536$ measures of the form $m : (\mathbb{B}^2 \to \mathbb{B}) \to \mathbb{B}$.  Table&nbsp;3 shows the first 24 of these measures in the same style of higher order truth table used above.  The column headed $m_j$ shows the values of the measure $m_j$ on each of the propositions $f_i : \mathbb{B}^2 \to \mathbb{B}$ for $i$ = 0 to 15, with blank entries in the Table being optional for values of zero.  Let us refer to the arrangement of measures that continues according to this plan as their _standard ordering_.  In this scheme of things, the index $j$ of the measure $m_j$ is the decimal equivalent of the bit string in the corresponding column of the Table, reading the binary digits in order from bottom to top.
 
+<table align="center" cellpadding="1" cellspacing="0" markdown="1" style="background:white; color:black; text-align:center; width:90%">
+
+<caption><font size="+2">$\text{Table 3.} \:\: \text{Higher Order Propositions} \: (n = 2)$</font></caption>
+
+<tr>
+<td style="border-bottom:2px solid black" align="right">$u:$<br>$v:$</td>
+<td style="border-bottom:2px solid black">1100<br>1010</td>
+<td style="border-bottom:2px solid black; border-right:2px solid black">$f$</td>
+<td style="border-bottom:2px solid black">$m_{0}$</td>
+<td style="border-bottom:2px solid black">$m_{1}$</td>
+<td style="border-bottom:2px solid black">$m_{2}$</td>
+<td style="border-bottom:2px solid black">$m_{3}$</td>
+<td style="border-bottom:2px solid black">$m_{4}$</td>
+<td style="border-bottom:2px solid black">$m_{5}$</td>
+<td style="border-bottom:2px solid black">$m_{6}$</td>
+<td style="border-bottom:2px solid black">$m_{7}$</td>
+<td style="border-bottom:2px solid black">$m_{8}$</td>
+<td style="border-bottom:2px solid black">$m_{9}$</td>
+<td style="border-bottom:2px solid black">$m_{10}$</td>
+<td style="border-bottom:2px solid black">$m_{11}$</td>
+<td style="border-bottom:2px solid black">$m_{12}$</td>
+<td style="border-bottom:2px solid black">$m_{13}$</td>
+<td style="border-bottom:2px solid black">$m_{14}$</td>
+<td style="border-bottom:2px solid black">$m_{15}$</td>
+<td style="border-bottom:2px solid black">$m_{16}$</td>
+<td style="border-bottom:2px solid black">$m_{17}$</td>
+<td style="border-bottom:2px solid black">$m_{18}$</td>
+<td style="border-bottom:2px solid black">$m_{19}$</td>
+<td style="border-bottom:2px solid black">$m_{20}$</td>
+<td style="border-bottom:2px solid black">$m_{21}$</td>
+<td style="border-bottom:2px solid black">$m_{22}$</td>
+<td style="border-bottom:2px solid black">$m_{23}$</td></tr>
+
+<tr>
+<td>$f_0$</td>
+<td>0000</td>
+<td style="border-right:2px solid black">$\text{&#x2997; &#x2998;}$</td>
+<td>0</td>
+<td style="background:black; color:white">1</td>
+<td>0</td>
+<td style="background:black; color:white">1</td>
+<td>0</td>
+<td style="background:black; color:white">1</td>
+<td>0</td>
+<td style="background:black; color:white">1</td>
+<td>0</td>
+<td style="background:black; color:white">1</td>
+<td>0</td>
+<td style="background:black; color:white">1</td>
+<td>0</td>
+<td style="background:black; color:white">1</td>
+<td>0</td>
+<td style="background:black; color:white">1</td>
+<td>0</td>
+<td style="background:black; color:white">1</td>
+<td>0</td>
+<td style="background:black; color:white">1</td>
+<td>0</td>
+<td style="background:black; color:white">1</td>
+<td>0</td>
+<td style="background:black; color:white">1</td></tr>
+
+</table>
+
 <div markdown="1"><font size="+3">$\ldots$</font></div>
 
 # Functional conception of quantification theory #
