@@ -13,7 +13,7 @@
 
 * [[super Lie algebra]]
 
-* [[supermanifold]]
+* [[supermanifold]], [[SDiff]]
 
   * [[super Lie group]]
 
@@ -28,5 +28,11 @@
   * [[complex supermanifold]]
 
   * [[Euclidean supermanifold]]
+
+## Applications ##
+
+* [[geometric model for elliptic cohomology]]
+
+* [[supergravity]]
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/supergeometry+-+contents)</div>
