@@ -1,4 +1,6 @@
+<div class="rightHandSide toc">
 [[!include all changes]]
+</div>
 
 Archive of changes made during March 2009.
 The substantive content of this page should **not** be altered.
@@ -87,7 +89,7 @@ For past versions of this page beyond its own history, start [here](http://ncatl
 
   * concerning the entry [[homological algebra]]: [[Tim Porter]] and [[Zoran Skoda]] (or anyone else): please feel free to improve/revise the exposition
 
-  * created [[triangulated category]] -- have a question about _d&#233;rivateurs_ there
+  * created [[triangulated category]] -- have a question about _d&eacute;rivateurs_ there
 
   * created [[local epimorphism]]
 
@@ -369,7 +371,7 @@ For past versions of this page beyond its own history, start [here](http://ncatl
 
 * [[Andrew Stacey|Andrew]]:
 
-  * More done on [[Froelicher space]]s.  I think that I have finally figured out the relationship between Fr&#246;licher spaces and Isbell duality so if anyone else is interested in taking a look I'd appreciate your comments.
+  * More done on [[Froelicher space]]s.  I think that I have finally figured out the relationship between Fr&ouml;licher spaces and Isbell duality so if anyone else is interested in taking a look I'd appreciate your comments.
 
     I also found the standard layout of the page a little hard to work with, in particular with regard to delimiting proofs and definitions (both of which could get quite long) so I've been experimenting with alternative ways of demarking them (on [[Froelicher space]]).  Let me know if you like or dislike what you see.
 
@@ -406,7 +408,7 @@ For past versions of this page beyond its own history, start [here](http://ncatl
 
   * made a little remark on [[Mike Shulman|Mike]]'s question at [[Crans-Gray tensor product]] and ask another question myself
 
-  * added a remark to [[Waldhausen category]] on its relation to [[category of fibrant objects]] and ask a [question](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html#c022572) about the precise statement to be made here over at the $n$Caf&#233;
+  * added a remark to [[Waldhausen category]] on its relation to [[category of fibrant objects]] and ask a [question](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html#c022572) about the precise statement to be made here over at the $n$Caf&eacute;
 
 *  [[Toby Bartels]]:  Combined [[proset]] into [[preorder]], etc, as planned there.
 
@@ -536,7 +538,7 @@ For past versions of this page beyond its own history, start [here](http://ncatl
 
 ***
 
-[[2008 changes|First list]] &#8212; [[2009 February changes|Previous list]] &#8212; [[2009 April changes|Next list]] &#8212; [[latest changes|Current list]] 
+[[2008 changes|First list]] --- [[2009 February changes|Previous list]] --- [[2009 April changes|Next list]] --- [Current list](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5)
 
 ***
 
