@@ -628,42 +628,62 @@ We now examine measures at the high end of the standard ordering.  Instrumental 
 Given an ordered pair of propositions $e, f : \lang u, v \rang \to \mathbb{B}$ as arguments, the relative umpire operator reports the value $1$ if the first implies the second, otherwise $0$.
 
 <div markdown="1"><font size="+1">
-$$\array{
+$$
 \Upsilon (e, f) = 1
-&amp; \mathop{if and only if} &amp;
+\qquad \mathop{if and only if} \qquad
 e \Rightarrow f
-}$$
+$$
 </font></div>
 
 Expressing it another way:
 
 <div markdown="1"><font size="+1">
-$$\array{
+$$
 \Upsilon (e, f) = 1
-&amp; \iff &amp;
-\text{&#x2997;} e \text{&#x2997;} f \text{&#x2998;&#x2998;} = 1
-}$$
+\qquad \iff \qquad
+\text{&#x2997;} e \text{&#x2997;} f \text{&#x2998;&#x2998;} = \mathbf{1}
+$$
 </font></div>
 
 In writing this, however, it is important to notice that the $1$'s appearing on the left and right have different meanings.  Filling in the details, we have:
 
 <div markdown="1"><font size="+1">
-$$\array{
+$$
 \Upsilon (e, f) = 1 \in \mathbb{B}
-&amp; \iff &amp;
+\qquad \iff \qquad
 \text{&#x2997;} e \text{&#x2997;} f \text{&#x2998;&#x2998;} = 1 : \lang u, v \rang \to \mathbb{B}
-}$$
+$$
 </font></div>
 
 Writing types as subscripts and using the fact that $X = \lang u, v \rang$, it is possible to express this a little more succinctly as follows:
 
 <div markdown="1"><font size="+1">
-$$\array{
+$$
 \Upsilon (e, f) = 1_\mathbb{B}
-&amp; \iff &amp;
+\qquad \iff \qquad
 \text{&#x2997;} e \text{&#x2997;} f \text{&#x2998;&#x2998;} = 1_{X \to \mathbb{B}}
-}$$
+$$
 </font></div>
+
+Finally, it is often convenient to write the first argument as a subscript, hence $\Upsilon_e (f) = \Upsilon (e, f)$.
+
+As a special application of the relative umpire operator, we next define the absolute umpire operator, also known as the _umpire measure_.  In the present setting this is a higher order proposition $\Upsilon_1 : (\mathbb{B}^2 \to \mathbb{B}) \to \mathbb{B}$ that is defined by the equation $\Upsilon_1 (f) = \Upsilon (1, f)$.  Here, the subscript 1 on the left and the argument 1 on the right both refer to the constant proposition $1 : \mathbb{B}^2 \to \mathbb{B}$.  In most contexts where $\Upsilon_1$ is actually applied the subscript 1 is safely omitted, since the number of arguments indicates which type of operator is intended.  Thus, we have the following identities and equivalents:
+
+<div markdown="1"><font size="+1">
+$$
+\Upsilon f = \Upsilon_1 (f) = 1_\mathbb{B}
+\qquad \iff \qquad
+\text{&#x2997;} 1 \text{&#x2997;} f \text{&#x2998;&#x2998;} = \mathbf{1}
+\qquad \iff \qquad
+f = 1_{\mathbb{B}^2 \to \mathbb{B}}
+$$
+</font></div>
+
+The umpire measure is defined at the level of [[boolean functions]], but can also be understood in terms of its implied judgments at the syntactic level.  Interpreted this way, $\Upsilon_1$ recognizes theorems of the propositional calculus over $\left[ u, v \right]$, giving a score of "1" to tautologies and a score of "0" to everything else, regarding all contingent statements as no better than falsehoods.
+
+One remark in passing for those who might prefer an alternative definition.  If we had originally taken $\Upsilon$ to mean the absolute measure, then the relative version could have been defined as $\Upsilon_e f = \Upsilon \text{&#x2997;} e \text{&#x2997;} f \text{&#x2998;&#x2998;}$.
+
+# Measure for measure #
 
 <div markdown="1"><font size="+3">$\ldots$</font></div>
 
