@@ -5,6 +5,8 @@
 
 # Mathematics blogs #
 
+* [Affine Mess] (http://affinemess.com) 
+
 * [A Mind for Madness](http://hilbertthm90.wordpress.com)
 
 * [A Portion of the Book](http://mzargar.wordpress.com)
