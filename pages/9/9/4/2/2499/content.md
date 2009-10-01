@@ -1,4 +1,9 @@
 
+<div class="rightHandSide toc">
+[[!include supergeometry - contents]]
+</div>
+
+
 #Contents#
 
 * automatic table of contents goes here
@@ -6,13 +11,13 @@
 
 #Idea#
 
-In 1981 D'Auria and Fr&#233; noticed, in [GeSuGra](#References), that the intricacies of various [[supergravity]] [[classical field theory|classical field theories]] have a strikingly powerful reformulation in terms of [[semifree dga|semifree differential graded-commutative algebra]]s. 
+In 1981 D'Auria and Fr&eacute; noticed, in [GeSuGra](#References), that the intricacies of various [[supergravity]] [[classical field theory|classical field theories]] have a strikingly powerful reformulation in terms of [[semifree dga|semifree differential graded-commutative algebra]]s. 
 
 Here we describe this formalism in the way it is usually presented, and at the same time discuss the following useful re-interpretation:
 
 +-- {: .standout}
 
-**Abstract nonsense reinterpretation** of the D'Auria-Fr&#233; formalism:
+**Abstract nonsense reinterpretation** of the D'Auria-Fr&eacute; formalism:
 
 The theory of [[supergravity]] (at least as a [[classical field theory]]) is a theory of [[schreiber:Cartan-Ehresmann ∞-connection|Cartan-Ehresmann ∞-connection]]s with values in the [[supergravity Lie 3-algebra]] $\mathfrak{sugra}(10,1)$.
 
@@ -20,7 +25,25 @@ This identifies field configurations of supergravity with [[connection on a bund
 
 =--
 
-The [[supergravity Lie 3-algebra]] is an [[L-infinity-algebra|∞-Lie algebra]] that is a higher central extension 
+The pivotal concept that allows to pass between this interpretation and the D'Auria-Fr&eacute;-formalism is the concept of [[schreiber:∞-Lie algebroid|∞-Lie algebroid]] with its various incarnations:
+
++-- {: .standout}
+
+**Incarnations of $\infty$-Lie algebroids**
+
+A (super) [[schreiber:∞-Lie algebroid|∞-Lie algebroid]] 
+
+* is an [[infinitesimal space|infinitesimal]] (super)[[schreiber:∞-Lie groupoid|∞-Lie groupoid]]
+
+* that may be modeled as a [[simplicial object|simplicial]] (super) [[infinitesimal space]]
+
+* whose [[schreiber:∞-quantity|∞-quantity]] of functions is a [[cosimplicial algebra|cosimplicial]] ([[super algebra|super]]) algebra
+
+* that under the [[monoidal Dold-Kan correspondence]] maps to a (super) [[semifree dga|semifree differential graded-commutative algebra]]: the [[Chevalley-Eilenberg algebra]] of the (super) [[schreiber:∞-Lie algebroid|∞-Lie algebroid]].
+
+=--
+
+Notably the [[semifree dga]] that D'Auria-Fr&#233; base the description of 11-dimensioonal [[supergravity]] on is the [[Chevalley-Eilenberg algebra]] of the [[supergravity Lie 3-algebra]], which is an [[L-infinity-algebra|∞-Lie algebra]] that is a higher central extension 
 
 $$
   0 \to b^2 \mathfrak{u}(1)
@@ -33,7 +56,7 @@ $$
 
 of a [[super Poincare Lie algebra]] $\mathfrak{siso}(10,1)$ in the way the [[String Lie 2-algebra]] $\mathfrak{string}(n)$ is a higher central extension of $\mathfrak{so}(n)$.
 
-A [[schreiber:Cartan-Ehresmann ∞-connection|Cartan-Ehresmann ∞-connection]] with values in $\mathfrak{sugra}(10,1)$ is locally given by [[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebroid valued differential forms]] consisting of
+A super [[schreiber:Cartan-Ehresmann ∞-connection|Cartan-Ehresmann ∞-connection]] with values in $\mathfrak{sugra}(10,1)$ on a [[supermanifold]] $X$ is locally given by [[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebroid valued differential forms]] consisting of
 
 * a $\mathbb{R}^{11}$-valued 1-form $e$ 
 
@@ -52,7 +75,7 @@ These are identified with the fields of 11-dimensional [[supergravity]], respect
 * the _[[supergravity C-field]]_ $C$ .
 
 
-By realizing this data as components of a Lie 3-algebra valued connection (more or less explciitly), the D'Auria-Fr&#233;-formalism achieves some conceptual simplication of 
+By realizing this data as components of a Lie 3-algebra valued connection (more or less explciitly), the D'Auria-Fr&eacute;-formalism achieves some conceptual simplication of 
 
 * the construction of supersymmetric [[supergravity]] [[action functional]]s;
 
@@ -61,15 +84,15 @@ By realizing this data as components of a Lie 3-algebra valued connection (more 
 
 ## _nomen est omen_ - the higher gauge theory reinterpretation ##
 
-Originally D'Auria and Fr&#233; referred to commutative [[semifree dga]]s as as _Cartan integrable systems_ . Later the term _free differential algebra_, abbreviated _FDA_ was used instead and became popular. Nowadays much of the literature that studies commutative [[semifree dga]]s in [[supergravity]] refers to them as "FDA"s. One speaks of the _FDA approach to supergravity_ . 
+Originally D'Auria and Fr&eacute; referred to commutative [[semifree dga]]s as as _Cartan integrable systems_ . Later the term _free differential algebra_, abbreviated _FDA_ was used instead and became popular. Nowadays much of the literature that studies commutative [[semifree dga]]s in [[supergravity]] refers to them as "FDA"s. One speaks of the _FDA approach to supergravity_ . 
 
 But strictly speaking "free differential algebra" is a misnomer: genuinely free differential algebras are pretty boring objects. Crucially it is _only_ the underlying graded commutative algebra which is required to be free as a graded commutative algebra in that it is a [[Grassmann algebra]] $\wedge^\bullet \mathfrak{g}^*$ on a [[graded vector space]] $\mathfrak{g}^*$. The differential on that is in general not free, hence the more precise term _[[semifree dga]]_ . 
 
-In fact, when $\mathfrak{g}$ is concentrated in non-positive degree (so that $\wedge^\bullet \mathfrak{g}^*$ os concentrated in non-negative degree) the differential on $\wedge^\bullet \mathfrak{g}^{*}$ encodes all the structure of an [[L-infinity algebroid|∞-Lie algebroid]] on $\mathfrak{g}$. If $\mathfrak{g}$ is concentrated in negative degree the differential encodes the structure of an [[L-infinity algebra|∞-Lie algebra]] on $\mathfrak{g}$. This interpretation of [[semifree dga]]s in [[Lie theory]] is the key to our _abstract nonsense reformulation_ of the D'Auria-Fr&#233;-formalsim.
+In fact, when $\mathfrak{g}$ is concentrated in non-positive degree (so that $\wedge^\bullet \mathfrak{g}^*$ os concentrated in non-negative degree) the differential on $\wedge^\bullet \mathfrak{g}^{*}$ encodes all the structure of an [[L-infinity algebroid|∞-Lie algebroid]] on $\mathfrak{g}$. If $\mathfrak{g}$ is concentrated in negative degree the differential encodes the structure of an [[L-infinity algebra|∞-Lie algebra]] on $\mathfrak{g}$. This interpretation of [[semifree dga]]s in [[Lie theory]] is the key to our _abstract nonsense reformulation_ of the D'Auria-Fr&eacute;-formalsim.
 
-Already D'Auria and Fr&#233; themselves, and afterwards other authors, have tried to better understand the intrinsic conceptual meaning of their [[dg-algebra]] formalism that happened to be so useful in [[supergravity]]: 
+Already D'Auria and Fr&eacute; themselves, and afterwards other authors, have tried to better understand the intrinsic conceptual meaning of their [[dg-algebra]] formalism that happened to be so useful in [[supergravity]]: 
 
-the idea arose and then became pupular in the "FDA"-literature that the D'Auria-Fr&#233;-formalism should be about a concept called **soft group manifolds**. This is motivated from the observation that by means of the [[dg-algebra]] formulation the fields in [[supergravity]] arrange themselves into systems of [[differential form]]s that satisfy equations structurally similar to the Maurer-Cartan forms of left-inavriant differential forms on a [[Lie group]] -- _except_ that where the ordinary Maurer-Cartan equation has a "0" on one side, these equations for supergravity fields have there the possibly non-vanishing [[field strength]]. These generalized Maurer-Cartan equations are suggested in the "FDA"-literature to describe generalized or "softened" group manifolds.
+the idea arose and then became pupular in the "FDA"-literature that the D'Auria-Fr&eacute;-formalism should be about a concept called **soft group manifolds**. This is motivated from the observation that by means of the [[dg-algebra]] formulation the fields in [[supergravity]] arrange themselves into systems of [[differential form]]s that satisfy equations structurally similar to the Maurer-Cartan forms of left-inavriant differential forms on a [[Lie group]] -- _except_ that where the ordinary Maurer-Cartan equation has a "0" on one side, these equations for supergravity fields have there the possibly non-vanishing [[field strength]]. These generalized Maurer-Cartan equations are suggested in the "FDA"-literature to describe generalized or "softened" group manifolds.
 
 However, even when the field strenghts do vanish does the remaing collection of differential forms not constrain the base manifold to be a group. Rather, if the field strenghs do vanish we have a natural interpretation of the remaining differential form data as being flat [[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebroid valued differential forms]], given by a morphism
 
@@ -140,13 +163,13 @@ The theory of [[schreiber:Cartan-Ehresmann ∞-connection|Cartan-Ehresmann ∞-c
 
 1. the generalization from globally defined differential form data -- which are connections on _trivial_ [[principal ∞-bundle]]s -- to [[schreiber:theory of differential nonabelian cohomology|differential cocycles]] encoding connections on arbitrary [[principal ∞-bundle]]s.
 
-The D'Auria-Fr&#233;-formalism, after our re-interpretation, is about the first of these points. So as an immediate gain of our reformlation of D'Auria-Fr&#233;-formalism in terms of [[schreiber:Cartan-Ehresmann ∞-connection|Cartan-Ehresmann ∞-connection]]s we obtain, using the second of these points, a natural proposal for a formulation of [[supergravity]] field configurations that are globally topologically nontrivial. Physicists speak of **instanton solutions**.
+The D'Auria-Fr&eacute;-formalism, after our re-interpretation, is about the first of these points. So as an immediate gain of our reformlation of D'Auria-Fr&eacute;-formalism in terms of [[schreiber:Cartan-Ehresmann ∞-connection|Cartan-Ehresmann ∞-connection]]s we obtain, using the second of these points, a natural proposal for a formulation of [[supergravity]] field configurations that are globally topologically nontrivial. Physicists speak of **instanton solutions**.
 
 In fact, 
 
 +-- {: .standout}
 
-our reformulation exhibits the D'Auria-Fr&#233;-formalism as being secretly the realization of [[supergravity]] as a higher [[gauge theory]].
+our reformulation exhibits the D'Auria-Fr&eacute;-formalism as being secretly the realization of [[supergravity]] as a higher [[gauge theory]].
 
 =--
 
@@ -156,17 +179,23 @@ In fact, it realizes supergravity as an example for a _nonabelian_ higher gauge 
 
 # Details #
 
-...
+## the supergravity Lie 3-algebra ##
 
 recall [[supergravity Lie 3-algebra]] $\mathfrak{sugra}(10,1)$
 
 ...
 
+## super Lorentzian spacetime manifolds ##
+
+The base space $X$ on which a [[supergravity]] field is a super Lie $n$-algebra valued [[schreiber:Cartan-Ehresmann infinity-connection|...]] is a [[supermanifold]].
+
+In particular, for constructing the [[action functional]] of [[supergravity]] we want $X$ to locally look like [[super Minkowski space]].
+
 
 ## field configuration and field strength ##
 
 
-A local field configuration on a [[manifold]] $X$ in the [[classical field theory]] is a morphism
+A local field configuration on a [[supermanifold]] $X$ in the [[classical field theory]] is a morphism
  
 $$
   \Pi^{inf}(X) \stackrel{(A, F_A)}{\to}
@@ -213,13 +242,9 @@ This is [[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebroi
 
 > need to fill in content here. The main point is this:
 
-> the above discussion so far glosses over the fact that once we pass to the [[supergeometry]] conmtext also our base space $X$ will be a [[supermanifold]]. We may take it to be an ordinary manifold, regarded as a special supermanifold, but it is more natural to regard it as a $(d|d)$-dimensional [[supermanifold]], i.e. one that is locally isomorphic to $\mathbb{R}^{d|d}$.
+> while the fields $\Pi^{inf}(X) \to \mathfrak{sugra}(10,11)$ are in principal general [[super differential form]]s, in the desired physical theory these satisfy a strong constraint which makes their _components_ behave like ordinary functions on the ordinary manifold $X_{red}$ underlying $X$. This stemps from the fact that fields in naturre are percieved as fields on an ordinary spacetime manifold $X_{red}$, not on a genuine supermanifold $X$. So there is a constraint to be imposed on the fields.
 
-> then plain super-diffeomorphism invariance of any action functional on our fields $\Pi^{inf}(X) \to \mathfrak{g}$ will be [[supersymmetry]] invariance
-
-> but, as discussed above, the actual fiels of supergravity _look_ like morphism $\Pi(X) \to \mathfrak{sugra}(10,1)$ for $X$ an _ordinary_ manifold.
-
-> D'Auria-Fr&#233; noticed that there is a very good way to model/formalize: we should be looking at functions on a $(d|d)$-dimensional [[supermanifold]]  that are however "independent" in some sense of the "supercoordinates": namely in a way entirely analogous to how a [[holomorphic funtion]] on a [[complex manifold]] is "independent of half of the coordinates". 
+> D'Auria-Fr&eacute; noticed that there is a very good way to model/formalize: we should be looking at functions on a $(d|d)$-dimensional [[supermanifold]]  that are however "independent" in some sense of the "supercoordinates": namely in a way entirely analogous to how a [[holomorphic funtion]] on a [[complex manifold]] is "independent of half of the coordinates". 
 
 > so the full statement to be discussed here is really that classical field configurations are **holomophic $\infty$-functors** $\Pi^{inf}(X) \to \mathfrak{sugra}(10,1)$ for a suitable notion of "holomorphic".
 
@@ -231,25 +256,28 @@ This is [[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebroi
 
 # References #
 
-The original article that introduced th D'Auria-Fr&#233;-formalism is
+The original article that introduced th D'Auria-Fr&eacute;-formalism is
 
-* **geSuGra** R. D'Auria, P. Fr&#233; [[GeometricSupergravity.pdf:file]]
+* **geSuGra** R. D'Auria, P. Fr&eacute; [[GeometricSupergravity.pdf:file]]
  
-There exists a monograph on this formalims is
+The standard textbook monograph on [[supergravity]] in general and this formalism is particular is
 
-* [[Leonardo Castellani]], [[Riccardo d' Auria]], [[Pietro Fre]], _Supergravity and superstrings: a geometric perspective_ (2 volumes) World Scientific, 1991
+* [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fre]], [[Supergravity and Superstrings - A Geometric Perspective]]
 
-The _geometric perspective_ discussed there is precisely what here we call the _D'Auria-Fr&#233;-formalism_ . At the time of this writing the book is out of print and unavailable from bookshops. But your local physics department library will have a copy.
+The _geometric perspective_ discussed there is both the emphasis of working over base [[supermanifold]]s and combined with that the the approach that here we call tthe _D'Auria-Fr&eacute;-formalism_ . 
 
-A huge list of further literature goes here
+
+At the time of this writing the book is out of print and unavailable from bookshops. But your local physics department library will have a copy.
+
+A huge list of further literature goes here:
 
 ...
 
-The interpretation of the D'Auria-Fr&#233;-formalism in the light of higher gauge theory as discussed above, together with a discussion of the [[supergravity Lie 3-algebra]] in the context of [[String Lie n-algebra]]s was given in 
+The interpretation of the D'Auria-Fr&eacute;-formalism in the light of higher gauge theory as discussed above, together with a discussion of the [[supergravity Lie 3-algebra]] in the context of [[String Lie 2-algebra|String Lie n-algebra]]s was given in 
 
 * [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _$L_\infty$-algebra connections_ ([arXiv](http://arxiv.org/abs/0801.3480))
 
-This had been preceeded by some blog discussion, for instance
+This had been preceded by some blog discussion, for instance
 
 * [[Urs Schreiber]], _Castellani on FDA in SuGra: gauge 3-group of M-theory_ ([blog](http://golem.ph.utexas.edu/string/archives/000840.html))
 
