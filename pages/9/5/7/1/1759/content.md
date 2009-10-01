@@ -1,4 +1,6 @@
+<div class="rightHandSide toc">
 [[!include all changes]]
+</div>
 
 Archive of changes made during July 2009.
 The substantive content of this page should **not** be altered.
@@ -241,7 +243,7 @@ I thank people from Indiana math dept who discussed with me in Fall 2002 when I 
 
     * created [[simplicial resolution]]
 
-* [[Andrew Stacey]] parried the latest Baezian riposte, and whinged about the lack of a <sarcasm> tag in XHTML.
+* [[Andrew Stacey]] parried the latest Baezian riposte, and whinged about the lack of a &lt;sarcasm> tag in XHTML.
 
   PS Welcome back, Bruce.
 
@@ -1300,7 +1302,7 @@ Discussion is [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php
 
 ***
 
-[[2008 changes|First list]] &#8212; [[2009 June changes|Previous list]] &#8212; [[2009 August changes|Next list]] &#8212; [[latest changes|Current list]] 
+[[2008 changes|First list]] --- [[2009 June changes|Previous list]] --- [[2009 August changes|Next list]] --- [Current list](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5)
 
 ***
 
