@@ -27,3 +27,8 @@ An interesting generalization of an orbifold is so-called weighted branched mani
 Wikipedia [article](http://en.wikipedia.org/wiki/Orbifold) is mainly tailored toward Thurston's approach. 
 
 [[!redirects orbifolds]]
++-- {: .query}
+I am confused by this page.  It starts out by boldly declaring that "An orbifold is a differentiable stack which may be presented by a proper &#233;tale Lie groupoid" but then it  goes on to talk about the "traditional" definition.  The traditional definition definitely **does not**  view orbifolds as stacks.   Neither does Moerdijk's paper referenced below --- there orbifolds form a 1-category.
+
+Personally I am not completely convinced that orbifolds are differentiable stacks.  Would it not be better to start out by saying that there is no consensus on what orbifolds "really are" and lay out three points of view: traditional, Moerdijk's "orbifolds as groupoids" (called "modern" by Adem and Ruan in their book) and orbifolds as stacks?
+=--
