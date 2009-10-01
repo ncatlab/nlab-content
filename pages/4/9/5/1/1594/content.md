@@ -1,3 +1,9 @@
+#Contents#
+
+* automatic table of contents goes here
+{:toc}
+
+
 An _orbifold_ is a [[differentiable stack]] which may be presented by a proper &#233;tale [[Lie groupoid]]. [[Morita equivalence|Morita equivalent]] Lie groupoids give rise to the same orbifold. One can consider a [[bicategory]] of proper &#233;tale Lie groupoids and the orbifolds will be the objects of certain bicategorical [[localization]] of this bicategory (a result of Moerdijk and Pronk). 
 
 An orbifold is traditionally defined as a topological space equipped with an _orbifold structure_, which is in turn an equivalence class of _orbifold atlases_. An orbifold is locally a stack quotient of a smooth [[manifold]] by a finite group. Every orbifold is globally a quotient of a smooth manifold by an action of finite-dimensional [[Lie group]] with finite stabilizers in each point (the construction uses the frame bundle). The word orbifold is invented by Thurston, while the original name was V-manifold (Satake), and was taken in a more restrictive sense, assuming that the actions of finite groups on the charts are always effective. Nowdays we call such orbifolds _effective_ and those which are global quotients by a finite group _global quotient orbifolds_.  
@@ -31,4 +37,7 @@ Wikipedia [article](http://en.wikipedia.org/wiki/Orbifold) is mainly tailored to
 I am confused by this page.  It starts out by boldly declaring that "An orbifold is a differentiable stack which may be presented by a proper &#233;tale Lie groupoid" but then it  goes on to talk about the "traditional" definition.  The traditional definition definitely **does not**  view orbifolds as stacks.   Neither does Moerdijk's paper referenced below --- there orbifolds form a 1-category.
 
 Personally I am not completely convinced that orbifolds are differentiable stacks.  Would it not be better to start out by saying that there is no consensus on what orbifolds "really are" and lay out three points of view: traditional, Moerdijk's "orbifolds as groupoids" (called "modern" by Adem and Ruan in their book) and orbifolds as stacks?
+
+[[Urs Schreiber]]: please, go ahead. It would be appreciated.
+
 =--
