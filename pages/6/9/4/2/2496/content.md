@@ -116,7 +116,7 @@ Table&#160;1 lists the 16 measures of the form $m : (\mathbb{B} \to \mathbb{B}) 
 
 The contents of Table&nbsp;1 are organized as follows.  Columns&nbsp;1 and 2 form a truth table for the four propositions of the form $f : \mathbb{B} \to \mathbb{B}$, with the row leaders in Column&nbsp;1 displaying the names of the functions $f_i$ for $i$ = 0 to 3, while the entries in Column&nbsp;2 give the values of each function for the argument values that are listed in the corresponding column head.  Column&nbsp;3 displays a more or less canonical expression for the proposition in question.  The last sixteen columns are topped by a collection of conventional names for the measures $m_j$ as $j$ ranges from 0 to 15, where the entries in the body of the Table record the values assigned to each $f_i$ by each $m_j$.
 
-Table&nbsp;2 presents a sample of _interpretive categories_ for higher order propositions of type $(\mathbb{B}^1 \to \mathbb{B}) \to \mathbb{B}$, but it's best to put off discussing this Table further until we get beyond the 1-dimensional case.  These lower dimensional cases tend to be extremely _condensed_ or _degenerate_ in their structures, and the pattern of what's going on here can be set in higher relief as soon as we have even two logical variables to play off each other.
+Table&nbsp;2 presents a sample of _interpretive categories_ for higher order propositions of type $(\mathbb{B}^1 \to \mathbb{B}) \to \mathbb{B}$, but it's best to put off discussing this Table further until we get beyond the 1-dimensional case.  These lower dimensional cases tend to be extremely _condensed_ or _degenerate_ in their structures, and the pattern of what's going on here can be set in higher relief as soon as we get even two logical variables to play off each other.
 
 <table align="center" cellpadding="4" cellspacing="0" markdown="1" style="text-align:center; width:90%">
 
@@ -289,7 +289,7 @@ The points of $X^\circ$ form a space notated as follows:
 $$\array{
 X
 &amp; = &amp;
-\langle u, v \rangle
+\lang u, v \rang
 &amp; = &amp;
 \{ (u, v) \}
 &amp; \cong &amp;
@@ -623,7 +623,47 @@ There are $2^{16} = 65536$ measures of the form $m : (\mathbb{B}^2 \to \mathbb{B
 
 # Umpire operators #
 
-We now examine measures at the high end of the standard ordering.  Instrumental to this purpose we define a couple of higher order operators, $\Upsilon_1 : (\langle u, v \rangle \to \mathbb{B}) \to \mathbb{B}$ and $\Upsilon : (\langle u, v \rangle \to \mathbb{B})^2 \to \mathbb{B}$, both symbolized by cursive upsilon characters and referred to as the absolute and relative _umpire operators_, respectively.  If either one of these operators is defined in terms of more primitive notions then the remaining operator can be defined in terms of the one first established.
+We now examine measures at the high end of the standard ordering.  Instrumental to this purpose we define a couple of higher order operators, $\Upsilon : (\lang u, v \rang \to \mathbb{B})^2 \to \mathbb{B}$ and $\Upsilon_1 : (\lang u, v \rang \to \mathbb{B}) \to \mathbb{B}$, referred to as the relative and absolute _umpire operators_, respectively.  If either of these operators is defined in terms of more primitive notions then the remaining operator can be defined in terms of the one first established.
+
+Given an ordered pair of propositions $e, f : \lang u, v \rang \to \mathbb{B}$ as arguments, the relative umpire operator reports the value $1$ if the first implies the second, otherwise $0$.
+
+<div markdown="1"><font size="+1">
+$$\array{
+\Upsilon (e, f) = 1
+&amp; \mathop{if and only if} &amp;
+e \Rightarrow f
+}$$
+</font></div>
+
+Expressing it another way:
+
+<div markdown="1"><font size="+1">
+$$\array{
+\Upsilon (e, f) = 1
+&amp; \iff &amp;
+\text{&#x2997;} e \text{&#x2997;} f \text{&#x2998;&#x2998;} = 1
+}$$
+</font></div>
+
+In writing this, however, it is important to notice that the $1$'s appearing on the left and right have different meanings.  Filling in the details, we have:
+
+<div markdown="1"><font size="+1">
+$$\array{
+\Upsilon (e, f) = 1 \in \mathbb{B}
+&amp; \iff &amp;
+\text{&#x2997;} e \text{&#x2997;} f \text{&#x2998;&#x2998;} = 1 : \lang u, v \rang \to \mathbb{B}
+}$$
+</font></div>
+
+Writing types as subscripts and using the fact that $X = \lang u, v \rang$, it is possible to express this a little more succinctly as follows:
+
+<div markdown="1"><font size="+1">
+$$\array{
+\Upsilon (e, f) = 1_\mathbb{B}
+&amp; \iff &amp;
+\text{&#x2997;} e \text{&#x2997;} f \text{&#x2998;&#x2998;} = 1_{X \to \mathbb{B}}
+}$$
+</font></div>
 
 <div markdown="1"><font size="+3">$\ldots$</font></div>
 
