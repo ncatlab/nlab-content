@@ -8,7 +8,7 @@
 +--{: .query}
 [[Mike Shulman]]: I think this page would be even more useful if it included brief notes about what sort of activity tends to go on at each blog in the list.
 
-[[Eric]]: Good idea, but maybe too much for any one person, so if you find your blog listed here, please provide a note about it.
+[[Eric]]: Good idea, but maybe too much for any one person, so if you find your blog listed here, please provide a note about it. Note: I added a blurb to the _The n-Category Caf&#233;_ for a sample.
 =--
 
 * [Affine Mess] (http://affinemess.com) 
@@ -102,6 +102,8 @@
 * [The Everything Seminar](http://cornellmath.wordpress.com)
 
 * [The n-Category Caf&#233;](http://golem.ph.utexas.edu/category)
+
+  * A group blog on math, physics and philosophy written by John Baez, Urs Schreiber, and David Roberts
 
 * [The n-Geometry Caf&#233;](http://www.noncommutative.org)
 
