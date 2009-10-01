@@ -1,7 +1,11 @@
 
 **supergeometry**
 
-## Contents ##
+## Approaches ##
+
+* [[synthetic differential supergeometry]]
+
+## Concepts ##
 
 * [[super vector space]], [[SVect]]
 
