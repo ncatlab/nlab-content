@@ -31,4 +31,4 @@ with those of
 
 * H. Nishimura, _Supersmooth topoi_, International Journal of Theoretical Physics, Volume 39, Number 5 ([journal](http://www.springerlink.com/content/v2573726852x6470/))
 
-
+* H. Nishimura, _Synthetic theory of superconnections_, International Journal of Theoretical Physics, 39 ([journal](http://www.springerlink.com/content/m35085347gw88651/))
