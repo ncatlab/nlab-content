@@ -86,4 +86,7 @@ Just curious...
 [[David Roberts]]: the product, presumably. So Eric seems to be proposing a second lot of infinitesimals $D'$ such that the product of two things in $D'$ are in $D$ and (in the first version) the product of something in $D$ and something in $D'$ vanishes, or in the second version that the product $D\times D' \to R$ is antisymmetric.
 
 [[Mike Shulman]]: Sorry, I guess I wasn't quite awake enough to guess that Eric meant "for any $d\in D$."  The usual models of SDG do contain pretty much any sort of infinitesimal you want; you can make that precise by talking about polynomial rings of nilpotents.
+
+[[Eric]]: Thanks for clarifying that David. So I think we can define a "synthetic stochastic calculus". We need a set of elements $D'$ that are like "square roots of infinitesimals" in the sense that they square to infinitesimals, i.e. for any $\delta\in D'$, we have $\delta^2\in D$. To get the synthetic stochastic calculus, we need elements in $D$ and $D'$ to anti-commute. Hmm... this makes me wonder if there is a synthetic differential graded algebra where you have differentials of different (possibly fractional) degrees.
+
 =--
