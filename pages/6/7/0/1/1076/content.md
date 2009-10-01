@@ -6,13 +6,13 @@ Therefore, all the structure and properties of a triangulated category is best u
 
 #Definition#
 
-A **triangulated category** is 
+A __triangulated category__ is 
 
 * an [[additive category]];
 
 * [[category with translation|with (additive) translation]];
 
-* equipped with a collection of [[category with translation|triangles]] called **distinguished triangles** (dts) 
+* equipped with a collection of [[category with translation|triangles]] called __distinguished triangles__ (dts) 
 
 * such that the following axioms hold
 
@@ -174,7 +174,7 @@ $$
 
 #Examples#
 
-* The [[homotopy category]] of [[chain complex]]es in an [[abelian category]] (the category of chain complexes modulo [[chain homotopy]]) is a triangulated category: the translation functor is the shift functor on [[chain complex]]es and the distinguished triangles are those coming from the [[mapping cone]] construction $X \stackrel{f}{\to}Y \to Cone(f) \to T X$.
+* The [[homotopy category]] of [[chain complexes]] in an [[abelian category]] (the category of chain complexes modulo [[chain homotopy]]) is a triangulated category: the translation functor is the shift functor on [[chain complexes]] and the distinguished triangles are those coming from the [[mapping cone]] construction $X \stackrel{f}{\to}Y \to Cone(f) \to T X$.
 
 * The [[localization]] $C/N$ of any triangulated category $C$ at a [[null system]] $N \hookrightarrow C$, i.e. the localization using the [[calculus of fractions]] given by the morphisms $f : X \to Y$ such that there exists dts $X \to Y \to Z \to T X$ with $Z$ an object of a [[null system]], is still naturally a triangulated category, with the dts being the triangles isomorphic to an image of a dt under $Q : C \to C/N$.
 
@@ -203,8 +203,6 @@ only very specifically about the concept of triangulated category itself (not wi
 The idea of 'd&#233;rivateurs' is that in addition to looking at a basic category of 'things' such as chain complexes, you should also look at all categories of diagrams of such things, and the derived / homotopy Kan extensions between the corresponding derived categories that correspond to a change of the indexing category.
 
 The basic idea behind this was explored slightly later by Alex Heller (1988). His memoir discusses the corresponding homotopy theory and links it to earlier work of Doug Anderson. 
-
-
 
 #References#
 
