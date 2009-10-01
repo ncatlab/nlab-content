@@ -13,6 +13,9 @@ __Reference.__ Unicode Data Bank ![Boing](http://wikipediareview.com/smilys0b23a
 1.  [Math Operators](http://www.sql-und-xml.de/unicode-database/mathematical-operators.html)
 1.  [Math Miscellaneous A](http://www.sql-und-xml.de/unicode-database/miscellaneous-mathematical-symbols-a.html)
 1.  [Math Miscellaneous B](http://www.sql-und-xml.de/unicode-database/miscellaneous-mathematical-symbols-b.html)
+1.  [Letterlike Symbols](http://www.sql-und-xml.de/unicode-database/letterlike-symbols.html)
+1.  [Miscellaneous Symbols](http://www.sql-und-xml.de/unicode-database/miscellaneous-symbols.html)
+1.  [General Punctuation](http://www.sql-und-xml.de/unicode-database/general-punctuation.html)
 1.  [Open Punctuation](http://www.sql-und-xml.de/unicode-database/ps.html)
 1.  [Other Punctuation](http://www.sql-und-xml.de/unicode-database/po.html)
 1.  [Close Punctuation](http://www.sql-und-xml.de/unicode-database/pe.html)
@@ -22,6 +25,21 @@ __Reference.__ Unicode Data Bank ![Boing](http://wikipediareview.com/smilys0b23a
 ***
 
 Trying some new arrows: $\twoheadrightarrow$, $\rightarrowtail$, $\looparrowright$, $\nrightarrow$, $\upharpoonright$.
+
+***
+
+Wut's th' deil with MathCal?
+
+* $\mathcal{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$
+: Firefox 3.5+ with STIX fonts shows only {B, E, F, H, I, L, M, R}
+: same with MIE and MathPlayer
+
+* $\mathcal{abcdefghijklmnopqrstuvwxyz}$
+: Firefox 3.5+ with STIX fonts shows only {e, g, o}
+: same with MIE and MathPlayer
+
+* Script Capital P
+: \text{&#8472;} &#8594; $\text{&#8472;}$
 
 ***
 
