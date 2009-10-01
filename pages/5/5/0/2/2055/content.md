@@ -25,6 +25,8 @@
 
 * [Disquisitiones Mathematicae](http://matheuscmss.wordpress.com)
 
+* [Division by Zero](http://divisbyzero.com) (Dave Richeson)
+
 * [Emb&#251;ches tissues](http://embuchestissues.wordpress.com)
 
 * [Drexel mathematics](http://www.library.drexel.edu/blogs/drexelmath)
