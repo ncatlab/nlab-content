@@ -53,6 +53,8 @@
 
 * [Learning Curves](http://learningcurves.blogspot.com)
 
+* [London Number Theory Blog](http://londonnumbertheory.wordpress.com/)
+
 * [Low Dimensional Topology](http://ldtopology.wordpress.com)
 
 * [Mathematics and Computation](http://math.andrej.com/) (Andrej Bauer)
