@@ -1,4 +1,6 @@
+<div class="rightHandSide toc">
 [[!include all changes]]
+</div>
 
 Archive of changes made during August 2009.
 The substantive content of this page should **not** be altered.
@@ -149,7 +151,7 @@ The substantive content of this page should **not** be altered.
 
 * [[Zoran ?koda]] created [[nonstandard analysis]] containing basically an (incomplete) introduction to basic terms in the [[ultrafilter]] model of the nonstandard extension of real numbers. One of the reasons to create this right now is that Urs is talking about [[infinitesimal object]] in synthetic differential geometry, and it could be a moment to (hopefully usefully) compare with the notions of nonstandard analysis. Created [[Rouqier's cocovering]] (in subject of [[triangulated category]]).  
 
-* [[Jon Awbrey]] noticed that [[graph]] was unsaturated, so he whetted it.  There are many definitions of _graph_ and many dialects of graph theory.  I added one of my first and favorite.  Read my &#8230;
+* [[Jon Awbrey]] noticed that [[graph]] was unsaturated, so he whetted it.  There are many definitions of _graph_ and many dialects of graph theory.  I added one of my first and favorite.  Read my &hellip;
 
 *  [[Tim Porter]]:  I forgot.. I created [[braid group]] yesterday, as I needed them for examples and [[Toby]] already has improved the presentation!  Thanks.
 
@@ -953,7 +955,7 @@ Oh John, you gave me an opportunity for recalling some sweet memories: I clumsil
 
 ***
 
-[[2008 changes|First list]] &#8212; [[2009 July changes|Previous list]] &#8212; [[2009 September changes|Next list]] &#8212; [[latest changes|Current list]]] 
+[[2008 changes|First list]] --- [[2009 July changes|Previous list]] --- [[2009 September changes|Next list]] --- [Current list](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5)
 
 ***
 
