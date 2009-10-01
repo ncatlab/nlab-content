@@ -13,6 +13,8 @@
 
 * [[super Lie algebra]]
 
+  * [[super Poincare Lie algebra]]
+
 * [[supermanifold]], [[SDiff]]
 
   * [[super Lie group]]
