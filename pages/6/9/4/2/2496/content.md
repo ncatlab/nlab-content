@@ -365,7 +365,7 @@ There are $2^{16} = 65536$ measures of the form $m : (\mathbb{B}^2 \to \mathbb{B
 
 <tr>
 <td style="border-bottom:2px solid black" align="right">$u:$<br>$v:$</td>
-<td style="border-bottom:2px solid black">1100<br>1010</td>
+<td style="border-bottom:2px solid black">$1100$<br>$1010$</td>
 <td style="border-bottom:2px solid black; border-right:2px solid black">$f$</td>
 <td style="border-bottom:2px solid black">$m_{0}$</td>
 <td style="border-bottom:2px solid black">$m_{1}$</td>
@@ -393,35 +393,235 @@ There are $2^{16} = 65536$ measures of the form $m : (\mathbb{B}^2 \to \mathbb{B
 <td style="border-bottom:2px solid black">$m_{23}$</td></tr>
 
 <tr>
-<td>$f_0$</td>
-<td>0000</td>
+<td>$f_{0}$</td>
+<td>$0000$</td>
 <td style="border-right:2px solid black">$\text{&#x2997; &#x2998;}$</td>
-<td>0</td>
-<td style="background:black; color:white">1</td>
-<td>0</td>
-<td style="background:black; color:white">1</td>
-<td>0</td>
-<td style="background:black; color:white">1</td>
-<td>0</td>
-<td style="background:black; color:white">1</td>
-<td>0</td>
-<td style="background:black; color:white">1</td>
-<td>0</td>
-<td style="background:black; color:white">1</td>
-<td>0</td>
-<td style="background:black; color:white">1</td>
-<td>0</td>
-<td style="background:black; color:white">1</td>
-<td>0</td>
-<td style="background:black; color:white">1</td>
-<td>0</td>
-<td style="background:black; color:white">1</td>
-<td>0</td>
-<td style="background:black; color:white">1</td>
-<td>0</td>
-<td style="background:black; color:white">1</td></tr>
+<td>$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td>$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td>$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td>$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td>$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td>$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td>$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td>$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td>$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td>$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td>$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td>$0$</td>
+<td style="background:black; color:white">$1$</td></tr>
+
+<tr>
+<td>$f_{1}$</td>
+<td>$0001$</td>
+<td style="border-right:2px solid black">$\text{&#x2997;} u \text{&#x2998;&#x2997;} v \text{&#x2998;}$</td>
+<td>$0$</td><td>$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td>$0$</td><td>$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td>$0$</td><td>$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td>$0$</td><td>$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td>$0$</td><td>$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td>$0$</td><td>$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td></tr>
+
+<tr>
+<td>$f_{2}$</td>
+<td>$0010$</td>
+<td style="border-right:2px solid black">$\text{&#x2997;} u\text{&#x2998;} \: v$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td></tr>
+
+<tr>
+<td>$f_{3}$</td>
+<td>$0011$</td>
+<td style="border-right:2px solid black">$\text{&#x2997;} u \text{&#x2998;}$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td></tr>
+
+<tr>
+<td>$f_{4}$</td>
+<td>$0100$</td>
+<td style="border-right:2px solid black">$u \: \text{&#x2997;} v \text{&#x2998;}$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td></tr>
+
+<tr>
+<td>$f_{5}$</td>
+<td>$0101$</td>
+<td style="border-right:2px solid black">$\text{&#x2997;} v \text{&#x2998;}$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td></tr>
+
+<tr>
+<td>$f_{6}$</td>
+<td>$0110$</td>
+<td style="border-right:2px solid black">$\text{&#x2997;} u \text{&#xFE50;} v \text{&#x2998;}$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td></tr>
+
+<tr>
+<td>$f_{7}$</td>
+<td>$0111$</td>
+<td style="border-right:2px solid black">$\text{&#x2997;} u \: v \text{&#x2998;}$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td></tr>
+
+<tr>
+<td>$f_{8}$</td>
+<td>$1000$</td>
+<td style="border-right:2px solid black">$u \: v$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td></tr>
+
+<tr>
+<td>$f_{9}$</td>
+<td>$1001$</td>
+<td style="border-right:2px solid black">$\text{&#x2997;&#x2997;} u \text{&#xFE50;} v \text{&#x2998;&#x2998;}$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td></tr>
+
+<tr>
+<td>$f_{10}$</td>
+<td>$1010$</td>
+<td style="border-right:2px solid black">$v$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td></tr>
+
+<tr>
+<td>$f_{11}$</td>
+<td>$1011$</td>
+<td style="border-right:2px solid black">$\text{&#x2997;} u \: \text{&#x2997;} v \text{&#x2998;&#x2998;}$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td></tr>
+
+<tr>
+<td>$f_{12}$</td>
+<td>$1100$</td>
+<td style="border-right:2px solid black">$u$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td></tr>
+
+<tr>
+<td>$f_{13}$</td>
+<td>$1101$</td>
+<td style="border-right:2px solid black">$\text{&#x2997;&#x2997;} u \text{&#x2998;} \: v \text{&#x2998;}$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td></tr>
+
+<tr>
+<td>$f_{14}$</td>
+<td>$1110$</td>
+<td style="border-right:2px solid black">$\text{&#x2997;&#x2997;} u \text{&#x2998;&#x2997;} v \text{&#x2998;&#x2998;}$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td></tr>
+
+<tr>
+<td>$f_{15}$</td>
+<td>$1111$</td>
+<td style="border-right:2px solid black">$\text{&#x2997;&#x2997; &#x2998;&#x2998;}$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td></tr>
 
 </table>
+
+# Umpire operators #
 
 <div markdown="1"><font size="+3">$\ldots$</font></div>
 
