@@ -77,13 +77,13 @@
 
 * [Secret Blogging Seminar](http://sbseminar.wordpress.com)
 
-* [The Samovar](http://thesamovar.wordpress.com)
-
 * [Sketches of Topology](http://sketchesoftopology.wordpress.com)
 
 * [Soul Conjecture](http://soul-conjecture.blogspot.com)
 
 * [The accidental mathematician](http://ilaba.wordpress.com) (Izabella Laba)
+
+* [The Endeavour](http://www.johndcook.com/blog)
 
 * [The Everything Seminar](http://cornellmath.wordpress.com)
 
@@ -94,6 +94,8 @@
 * [The Polymath Blog](http://polymathprojects.wordpress.com)
 
 * [The Rising Sea](http://therisingsea.org/) (Daniel Murfet on algebraic geometry, derived categories and the like)
+
+* [The Samovar](http://thesamovar.wordpress.com)
 
 * [The Twofold Gaze](http://twofoldgaze.wordpress.com)
 
