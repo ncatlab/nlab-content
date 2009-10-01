@@ -1,4 +1,6 @@
+<div class="rightHandSide toc">
 [[!include all changes]]
+</div>
 
 Archive of changes made during May 2009.
 The substantive content of this page should **not** be altered.
@@ -519,7 +521,7 @@ for the journal club on geometric $\infty$-function theory.
 
 ***
 
-[[2008 changes|First list]] &#8212; [[2009 April changes|Previous list]] &#8212; [[2009 June changes|Next list]] &#8212; [[latest changes|Current list]] 
+[[2008 changes|First list]] --- [[2009 April changes|Previous list]] --- [[2009 June changes|Next list]] --- [Current list](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5)
 
 ***
 
