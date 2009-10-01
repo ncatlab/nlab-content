@@ -8,11 +8,42 @@ There are two ways to go about doing a more careful **axiomatic set theory**.  T
 
 On the nlab we distinguish between two types of foundational set theory: **material set theory** and **structural set theory**.  ZFC is an example of a material set theory, while [[ETCS]] is an example of a structural one.
 
-The distinguishing feature of a material set theory (also called a *membership-based set theory*) is that the elements of a set exist  before the set does; a set merely collects a bunch of pre-existing objects as its elements.  Frequently in material set theory one takes everything to be a [[pure set]], including the elements of sets themselves.   Therefore, any two sets may be meaningfully compared to ask if they are [[equal]] or if one is a member of the other.  As a slight variation (still material set theory), one may also accept ur-elements (or atoms) as elements.  The main distinguishing feature of a material set theory is a global membership predicate, whereby it is meaningful to ask, given any object and a set, whether the object is an element of the set.
+The distinguishing feature of a material set theory (also called a *membership-based set theory*) is that the elements of a set exist  before the set does; a set merely collects a bunch of pre-existing objects as its elements. 
 
-A structural set theory, on the other hand, looks more like [[type theory]].  Here, the elements of a set have no existence or structure apart from their identity as elements of that set.  In particular, they are not themselves sets, and cannot be elements of any other set.  Thus, elements of different sets cannot be compared (by default) and no two sets can be compared for equality.  Among category theorists, it\'s popular to state the axioms of a structural set theory by specifying elementary properties of [[Set|the category of sets]]; the orthodoxy here (to the extent that there is one) is probably Bill Lawvere\'s [[ETCS]].  It is weaker than ZFC and must be supplemented to handle some esoteric parts of modern mathematics, although it suffices for most everyday uses.  Another structural set theory, which is stronger than ETCS and less closely tied to category theory, is [[SEAR]].
++--{: .query}
+[[Arnold Neumaier]]: I doubt that this statement means anything. ZF has no notion of time, hence nothing exists there before anything else. In a model of ZF all sets exist simultaneously, and without a model of ZF no set exists.
+Thus the notion of pre-existence might be a property of your private model of ZF (which apparently has extra accidental structure) but it is not one of ZF.
 
-As remarked above, both pure set theory and structural set theory are **foundational set theories**.  It is also possible to make a **definitional set theory**, in which one defines sets in terms of some more primitive concept.  Lawvere also proposed a foundation based on [[Cat|the category of categories]]; then a set may be defined as a [[discrete category]].  In [[constructive mathematics]], a foundation based on [[type theory]] is popular, with types interpreted as _[[tobybartels:preset|presets]]_ (sets without [[equality]]); then a set may be defined as a preset equipped with an [[equivalence relation]] (the term [[setoid]] is also used for such a gadget).  In [[computer science]], a foundation based on the [[lambda-calculus]]s is sometimes seen; in these terms, the concept of _[[list]]_ is more natural than set, with the difference being that sets have a coarser notion of equality.
+Thus I am at a loss to see what this distinguishing feature should mean.
+=--
+
+ Frequently in material set theory one takes everything to be a [[pure set]], including the elements of sets themselves.   Therefore, any two sets may be meaningfully compared to ask if they are [[equal]] or if one is a member of the other.  As a slight variation (still material set theory), one may also accept ur-elements (or atoms) as elements.  The main distinguishing feature of a material set theory is a global membership predicate, whereby it is meaningful to ask, given any object and a set, whether the object is an element of the set.
+
++--{: .query}
+[[Arnold Neumaier]]: Here is a second attempt to define the distinguishing feature. is that supposed to be an equivalent form of the previous one, or a different one? 
+What if only one of the features are present?
+=--
+
+
+
+A structural set theory, on the other hand, looks more like [[type theory]].  Here, the elements of a set have no existence or structure apart from their identity as elements of that set. 
+
++--{: .query}
+[[Arnold Neumaier]]: Do you mean by this that they are not pre-existent in your private model of it?
+=--
+
+In particular, they are not themselves sets, and cannot be elements of any other set.  Thus, elements of different sets cannot be compared (by default) and no two sets can be compared for equality.  Among category theorists, it\'s popular to state the axioms of a structural set theory by specifying elementary properties of [[Set|the category of sets]]; the orthodoxy here (to the extent that there is one) is probably Bill Lawvere\'s [[ETCS]].  It is weaker than ZFC and must be supplemented to handle some esoteric parts of modern mathematics, although it suffices for most everyday uses.  Another structural set theory, which is stronger than ETCS and less closely tied to category theory, is [[SEAR]].
+
+As remarked above, both pure set theory and structural set theory are **foundational set theories**.  
+
++--{: .query}
+[[Arnold Neumaier]]: ''As remarked above'' suggests that pure set theory is synonymous with material set theory.
+May I conclude that the pure set theory constructed 
+elsewhere in the n-Lab within ETCS is a material set 
+theory? Thus a structural set theory has material aspects? 
+=--
+
+It is also possible to make a **definitional set theory**, in which one defines sets in terms of some more primitive concept.  Lawvere also proposed a foundation based on [[Cat|the category of categories]]; then a set may be defined as a [[discrete category]].  In [[constructive mathematics]], a foundation based on [[type theory]] is popular, with types interpreted as _[[tobybartels:preset|presets]]_ (sets without [[equality]]); then a set may be defined as a preset equipped with an [[equivalence relation]] (the term [[setoid]] is also used for such a gadget).  In [[computer science]], a foundation based on the [[lambda-calculus]]s is sometimes seen; in these terms, the concept of _[[list]]_ is more natural than set, with the difference being that sets have a coarser notion of equality.
 
 Category theory can provide a common [[model theory]] to compare all of these notions.  Although only structural set theories like ETCS treat the elementary properties of the category $Set$ of sets as fundamental, one can ask for any set theory what properties $Set$ satisfies and compare them in those terms.  At the very least, $Set$ should be a [[pretopos]].
 
