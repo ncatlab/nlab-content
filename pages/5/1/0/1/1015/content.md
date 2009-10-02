@@ -36,7 +36,8 @@ theory: __material set theory__ and __structural set theory__.  ZFC is
 an example of a material set theory, while [[ETCS]] is an example of a
 structural one.
 
-In a material set theory (also called a *membership-based set theory*), the elements of a set exist independently of that set.
+In a material set theory (also called a *membership-based set
+theory*), the elements of a set exist independently of that set.
 
 +--{: .query}
 [[Arnold Neumaier]]: I doubt that this statement means anything. ZF
@@ -61,11 +62,29 @@ you can (under pretty general conditions, made precise by ZF for
 instance) collect them into a set. He actually said that, I just
 noticed. But structural set theories work a bit differently. 
 
-[[Mike Shulman]]: Nothing that is said here has a *precise* meaning.  We don't have *definitions* of "material set theory" or "structural set theory"---we don't even have a definition of "set theory"!  These paragraphs are meant only to give an intuitive understanding.  Evidently they fail to give you such an understanding, but that doesn't make them meaningless, since they succeed for some of us.
+[[Mike Shulman]]: Nothing that is said here has a *precise* meaning. 
+We don't have *definitions* of "material set theory" or "structural
+set theory"---we don't even have a definition of "set theory"!  These
+paragraphs are meant only to give an intuitive understanding. 
+Evidently they fail to give you such an understanding, but that
+doesn't make them meaningless, since they succeed for some of us.
 
-And no, of course I didn't mean to imply that there is a notion of "time" in ZF.  Nor do I have a "private model" of ZF (now there's a meaningless notion if I ever saw one), so I have removed your subsequent comment referring to it.
+And no, of course I didn't mean to imply that there is a notion of
+"time" in ZF.  Nor do I have a "private model" of ZF (now there's a
+meaningless notion if I ever saw one), so I have removed your
+subsequent comment referring to it.
 
-Although it occurs to me now that there actually is something kind of "time-like" in ZF, namely the ordinals that index the cumulative hierarchy.  One way to state the [[axiom of foundation]] is that all sets can be built up "in sequence" starting from the empty set.  Of course there is a circularity here since the "sequence" is transfinite and the extent of ordinals depends on the extent of sets, but the idea is there.  However, this is definitely *not* what I meant to imply, since material set theories can be ill-founded just as well as well-founded, and an ill-founded set such as $x= \{x\}$ really can't be thought of in any sense as "constructed from pre-existing elements."  So I've removed that phrase.
+Although it occurs to me now that there actually is something kind of
+"time-like" in ZF, namely the ordinals that index the cumulative
+hierarchy.  One way to state the [[axiom of foundation]] is that all
+sets can be built up "in sequence" starting from the empty set.  Of
+course there is a circularity here since the "sequence" is transfinite
+and the extent of ordinals depends on the extent of sets, but the idea
+is there.  However, this is definitely *not* what I meant to imply,
+since material set theories can be ill-founded just as well as
+well-founded, and an ill-founded set such as $x= \{x\}$ really can't
+be thought of in any sense as "constructed from pre-existing
+elements."  So I've removed that phrase.
 =--
 
 Frequently in material set theory one takes everything to be a [[pure
@@ -95,10 +114,30 @@ _Toby_:  I like the latter 'distinguishing feature', so much that I\'m
 surprised that I didn\'t write it myself!  All that stuff about time
 is just a metaphor.
 
-[[Mike Shulman]]: Sorry about using the phrase "distinguishing feature" twice; I guess I didn't proofread carefully enough.  The problem is that none of these is really completely satisfactory; I don't think a material set theory really needs *a priori* to have a *global* membership predicate in the sense of applying to all conceievable things, although most well-known material set theories do so.  I'm still mulling over whether there is a better way to define these ideas.  If anyone else has a way to phrase them better, be my guest.
+[[Mike Shulman]]: Sorry about using the phrase "distinguishing
+feature" twice; I guess I didn't proofread carefully enough.  The
+problem is that none of these is really completely satisfactory; I
+don't think a material set theory really needs *a priori* to have a
+*global* membership predicate in the sense of applying to all
+conceievable things, although most well-known material set theories do
+so.  I'm still mulling over whether there is a better way to define
+these ideas.  If anyone else has a way to phrase them better, be my
+guest.
 =--
 
-A structural set theory, on the other hand, looks more like [[type theory]].  Here, the elements of a set have no existence or structure apart from their identity as elements of that set.  In particular, they are not themselves sets, and cannot be elements of any other set. Thus, elements of different sets cannot be compared (by default) and no two sets can be compared for equality.  Among category theorists, it\'s popular to state the axioms of a structural set theory by specifying elementary properties of [[Set|the category of sets]]; the orthodoxy here (to the extent that there is one) is probably Bill Lawvere\'s [[ETCS]].  It is weaker than ZFC and must be supplemented to handle some esoteric parts of modern mathematics, although it suffices for most everyday uses.  Another structural set theory, which is stronger than ETCS and less closely tied to category theory, is [[SEAR]].
+A structural set theory, on the other hand, looks more like [[type
+theory]].  Here, the elements of a set have no existence or structure
+apart from their identity as elements of that set.  In particular,
+they are not themselves sets, and cannot be elements of any other set.
+Thus, elements of different sets cannot be compared (by default).  Among category theorists,
+it\'s popular to state the axioms of a structural set theory by
+specifying elementary properties of [[Set|the category of sets]]; the
+orthodoxy here (to the extent that there is one) is probably Bill
+Lawvere\'s [[ETCS]].  It is weaker than ZFC and must be supplemented
+to handle some esoteric parts of modern mathematics, although it
+suffices for most everyday uses.  Another structural set theory, which
+is stronger than ETCS and less closely tied to category theory, is
+[[SEAR]].
 
 As remarked above, both material set theory and structural set theory
 are **foundational set theories**.  
@@ -118,7 +157,10 @@ material and structural foundations have aspects of each other in
 them, in the sense that the basic concepts of each can be formalised
 in the other.)
 
-[[Mike Shulman]]: "As remarked above" was intended to refer to the statement "On the nlab we distinguish between two types of foundational set theory: material set theory and structural set theory," which makes no reference to pure sets.
+[[Mike Shulman]]: "As remarked above" was intended to refer to the
+statement "On the nlab we distinguish between two types of
+foundational set theory: material set theory and structural set
+theory," which makes no reference to pure sets.
 =--
 It is also possible to make a **definitional set theory**, in which
 one defines sets in terms of some more primitive concept.  Lawvere
