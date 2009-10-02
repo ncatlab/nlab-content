@@ -168,10 +168,15 @@ Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Scie
 * [Mathematics Jobs Wiki](http://notable.math.ucdavis.edu/wiki/Mathematics_Jobs_Wiki)
 * [The Tricki](http://www.tricki.org)
 
+#Blog Discussions on Math Blogging#
+
+* $n$-Caf&#233; discussions on _What do mathematicians need to know about blogging?_, [Part I](http://golem.ph.utexas.edu/category/2009/08/what_do_mathematicians_need_to.html) and [Part II](
+http://golem.ph.utexas.edu/category/2009/09/what_do_mathematicians_need_to_1.html)
+
 #Other Resources#
 
 * Luca Trevisan's [LaTeX to Wordpress converter](http://lucatrevisan.wordpress.com/latex-to-wordpress)
-* John Baez's thread [What do mathematicians need to know about blogging?](http://golem.ph.utexas.edu/category/2009/08/what_do_mathematicians_need_to.html)
+
 * The nascent [mathoverflow.net](http://mathoverflow.net/), a site for questions and answers "of interest to mathematicians", modeled on [stackoverflow](http://stackoverflow.com/).
 
 category: meta
