@@ -123,6 +123,8 @@ conceievable things, although most well-known material set theories do
 so.  I'm still mulling over whether there is a better way to define
 these ideas.  If anyone else has a way to phrase them better, be my
 guest.
+
+_Toby_:  How about 'global' extending at least to other sets?  A set theory is material if, given any two sets $A$ and $B$ in the theory, there is a proposition $A \in B$ in the theory (with the intended meaning that $A$ is a member of $B$).  I said something pretty similar [here](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c027288).
 =--
 
 A structural set theory, on the other hand, looks more like [[type
@@ -161,6 +163,8 @@ in the other.)
 statement "On the nlab we distinguish between two types of
 foundational set theory: material set theory and structural set
 theory," which makes no reference to pure sets.
+
+_Toby_:  But this sentence *did* say 'pure set theory' instead of 'material set theory' before I fixed it.
 =--
 It is also possible to make a **definitional set theory**, in which
 one defines sets in terms of some more primitive concept.  Lawvere
