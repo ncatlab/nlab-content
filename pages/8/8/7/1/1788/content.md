@@ -40,8 +40,9 @@ Wut's th' deil with MathCal?
 : Firefox 3.5+ with STIX fonts shows only {e, g, o}
 : same with MIE and MathPlayer
 
-* Script Capital P
+* "Script Capital P"?
 : \text{&#8472;} &#8594; $\text{&#8472;}$
+: looks more like a Weierstrass "p" (&#8472; &#8594; &#8472;)than a \mathcal or powerset P.
 
 ***
 
