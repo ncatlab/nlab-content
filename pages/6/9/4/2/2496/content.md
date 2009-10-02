@@ -1452,40 +1452,40 @@ Applied to a given proposition $f$, the qualifiers $\alpha_i$ and $\beta_i$ tell
 <div markdown="1"><font size="+1">
 $$\array{
 \alpha_{0} f = 1
-&amp; \mathit{iff} &amp;
+&amp; \mathop{iff} &amp;
 f_{0} \Rightarrow f
-&amp; \mathit{iff} &amp;
+&amp; \mathop{iff} &amp;
 0 \Rightarrow f,
-&amp; \mathit{hence} &amp;
+&amp; \mathop{hence} &amp;
 \alpha_{0} f = 1 &amp; \mathop{for all} \: f.
 \\
 \alpha_{15} f = 1
-&amp; \mathit{iff} &amp;
+&amp; \mathop{iff} &amp;
 f_{15} \Rightarrow f
-&amp; \mathit{iff} &amp;
+&amp; \mathop{iff} &amp;
 1 \Rightarrow f,
-&amp; \mathit{hence} &amp;
-\alpha_{15} f = 1 &amp; \mathit{iff} \: f = 1.
-\\ \\
-\beta_0 f = 1
-&amp; \mathit{iff} &amp;
+&amp; \mathop{hence} &amp;
+\alpha_{15} f = 1 &amp; \mathop{iff} \: f = 1.
+\\
+\beta_{0} f = 1
+&amp; \mathop{iff} &amp;
 f \Rightarrow f_{0}
-&amp; \mathit{iff} &amp;
+&amp; \mathop{iff} &amp;
 f \Rightarrow 0,
-&amp; \mathit{hence} &amp;
-\beta_{0} f = 1 &amp; \mathit{iff} \: f = 0.
+&amp; \mathop{hence} &amp;
+\beta_{0} f = 1 &amp; \mathop{iff} \: f = 0.
 \\
 \beta_{15} f = 1
-&amp; \mathit{iff} &amp;
+&amp; \mathop{iff} &amp;
 f \Rightarrow f_{15}
-&amp; \mathit{iff} &amp;
+&amp; \mathop{iff} &amp;
 f \Rightarrow 1,
-&amp; \mathit{hence} &amp;
-\beta_{15} f = 1 &amp; \mathop{forall} \: f.
+&amp; \mathop{hence} &amp;
+\beta_{15} f = 1 &amp; \mathop{for all} \: f.
 }$$
 </font></div>
 
-Thus, $\alpha_0 = \beta_{15}$ is a totally indiscriminate measure, one that accepts all propositions $f : \mathbb{B}^2 \to \mathbb{B}$, whereas $\alpha_{15}$ and $\beta_0$ are measures that value the constant propositions $1 : \mathbb{B}^2 \to \mathbb{B}$ and $0 : \mathbb{B}^2 \to \mathbb{B}$, respectively, above all others.
+Thus, $\alpha_{0} = \beta_{15}$ is a totally indiscriminate measure, one that accepts all propositions $f : \mathbb{B}^2 \to \mathbb{B}$, whereas $\alpha_{15}$ and $\beta_{0}$ are measures that value the constant propositions $1 : \mathbb{B}^2 \to \mathbb{B}$ and $0 : \mathbb{B}^2 \to \mathbb{B}$, respectively, above all others.
 
 <div markdown="1"><font size="+3">$\ldots$</font></div>
 
