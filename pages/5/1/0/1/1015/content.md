@@ -129,6 +129,12 @@ _Toby_:  How about 'global' extending at least to other sets?  A set theory is m
 [[Mike Shulman]]: I don't think a material set theory necessarily even needs to allow sets to be elements of other sets.  I would be more inclined to define it in terms of whether an element of one set can be equal to an element of another set.
 
 I just had a go at giving a more logic-oriented definition of "structural" at [[structural set theory]], which seemed more amenable to definition than "material."  Do you think a theory can be both structural and material?  If not, then "material" can just be defined as "not structural."
+
+_Toby_:  I don\'t like that, because I think that you *can* have, in a structural set theory, sets $A$ and $B$ that are not given by syntactically identical (or even interconvertible) terms (which is how I interpret your 'one set [...] another set'), with $x$ an element of $A$ and $y$ and element of $B$, where $x = y$ is a meaningful proposition, perhaps even true.  You just have to define what it means.  In the case of SEAR (and perhaps even more so for SEPS), I think that it would be very natural to use a conservative extension in which $x = y$ is meaningful whenever $A$ is a set, $x$ is an element of $A$, $\phi$ is a subset of $A$, and $y$ is an element of $|\phi|$.  (This would have an axiom that $x = y$ in this context is true if and only if $x = q_\phi(y)$ in the ordinary sense.)  You could argue that '$=$' here doesn\'t really literally mean equality, but how do you determine that?
+
+More generally, I think that one should be able to use subtypes without becoming material.  (And the extension of SEAR above does satisfy your definition of a structural set theory.)
+
+As for whether a set theory can be both material and structural, I would expect some particularly degenerate examples to be both, and I would also expect it possible to create a hybrid version which is neither.  I see these concepts more as orthogonal complements than as logical complements.
 =--
 
 A structural set theory, on the other hand, looks more like [[type
