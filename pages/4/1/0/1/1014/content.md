@@ -78,11 +78,12 @@ In this representation, a pure set is a _rigid rooted directed tree_, possibly a
 
    [[Mike Shulman]]: Building a model of the natural numbers is not a valid comparison.  A valid comparison is building a model of ZF+CH.  You cannot (if ZF is consistent) build a model of ZF+CH **in** ZF, since then ZF would prove Con(ZF+CH) and hence Con(ZF), violating the incompleteness theorem.  Rather, one starts with a model of ZF in some metatheory (which can be *significantly weaker* than ZF, although what this metatheory is is rarely made formal), and constructs in that metatheory a model of ZF+CH.  The same is true here.
 
-AN: You contradict yourself. If ''You cannot (if ZF is consistent) build a model of ZF+CH **in** ZF, since then ZF would prove Con(ZF+CH) and hence Con(ZF), violating the incompleteness theorem'' then by the same reasoning you can't start ''with a model of ZF in some metatheory (which can be *significantly weaker* than ZF''.
-But if you allow yourself to do the latter, you can no longer forbid the former.
+   AN: You contradict yourself. If ''You cannot (if ZF is consistent) build a model of ZF+CH **in** ZF, since then ZF would prove Con(ZF+CH) and hence Con(ZF), violating the incompleteness theorem'' then by the same reasoning you can't start ''with a model of ZF in some metatheory (which can be *significantly weaker* than ZF''.
+   But if you allow yourself to do the latter, you can no longer forbid the former.
 
+   *  _Toby_:  In $ZF$, you cannot prove the consistency of either $ZF$ or $SEAR$ (at least, not as far as anybody knows).  But you can assume the consistency of one of these as a hypothesis, and then prove the consistency of the other.  This is what they an _equiconsistency_ result in model theory.  Mike is saying, I think, that you can even formulate and prove this equiconsistency in a theory much weaker than $ZF$; I don\'t know about that.  (Certainly you can *formulate* it in, say, Peano arithmetic.  But I doubt that you can prove it there.)
 
-   _Toby_:  The natural numbers also appear below as the example $\omega$.  But there is no difficulty at all in constructing that particular example in $\mathbf{SEARC}$.
+   _Toby_ continued:  The natural numbers also appear below as the example $\omega$.  But there is no difficulty at all in constructing that particular example in $\mathbf{SEARC}$.
 
    I suppose that a model of $\mathbf{SEARC}$ *would* give a notion of equality of object-sets (depending on what you model it in), but there is still no equality of sets in the language of $\mathbf{SEARC}$; you might as well complain that there is a countable model (in which every type is represented by a countable set) and so there must be a proof in $\mathbf{SEARC}$ that every set is countable.
    =--
@@ -100,7 +101,7 @@ But if you allow yourself to do the latter, you can no longer forbid the former.
 
    _Toby_:  The 'is' in a definition is really a 'must be', just like the 'if' is really an 'if and only if'.  But no matter; your way is fine.
    =--
-*  A tree is __well-founded__ if $\to$ is a [[well-founded relation]] (note that the [[opposite relation]] $\leftarrow$ is automatically well-founded).  Assuming the principle of [[excluded middle]], this is equivalent to saying that every branch in the tree is of finite length.
+*  A tree is __well-founded__ if $\to$ is a [[well-founded relation]] (note that the [[opposite relation]] $\leftarrow$ is automatically well-founded).  Assuming the principle of [[excluded middle]], this is equivalent to saying that the tree has no infinite paths.
 
 These subsidiary notions are also needed:
 
@@ -115,7 +116,9 @@ These subsidiary notions are also needed:
 
    *  _Toby_:  You mean, why not use the term 'isomorphic'?  Because that is a term of art from category theory (or at least algebra), and I want to use a term appropriate to talking about pure sets.  One normally says that sets are 'equal', in fact, but I avoided that since it could lead to confusion and used its weaker cousin 'equivalent'.  One doesn\'t normally say that sets are 'isomorphic' (unless one means that they are equipollent, which is definitely not what we want here), so I didn\'t want to use that word.  That is, isomorphic well-founded rigid trees are interpreted as equivalent well-founded pure sets.
 
-AN: But then why are you using ''isomorphic'' in the definition of rigid? 
+      AN: But then why are you using ''isomorphic'' in the definition of rigid?
+
+      _Toby_:  Because we\'re still talking about graphs as such.
 
    _Toby_ continues :
    and that it (not something weaker) is the desired notion of equivalence (anticipating that we must want one to model equality of pure sets).  Actually, that is *wrong* in the ill-founded case, depending on what you take to be the [[axiom of extensionality]] for ill-founded sets, which is what I need to fix here; we *do* want something weaker.  (Or better, replace rigidity with a stricter condition that follows from rigidity when the tree is well-founded.  That is what I\'d really like to do, but I haven\'t found a simple way to express it.  For purposes of $\mathbf{ZFC}$ including the axiom of foundation, however, this should all be correct as it is.)
@@ -235,7 +238,7 @@ _Toby_:
 2. No, since that would not be a tree.  But in the wrapped picture below, that is what it looks like.
 =--
 
-Of course, even a well-founded [[infinite set]] has an infinite picture, but each individual branch is finite; 
+Of course, even a well-founded [[infinite set]] has an infinite picture, but there are no infinite paths; 
 +--{: .query}
 AN: No. $\omega+1$ shows that branches may be infinite. 
 Only directed paths are finite.
@@ -247,6 +250,8 @@ AN: The branch (immediate subtree) whose root node is $\omega$ is infinite. [You
 _Toby_:  Ah, no, that is not what I mean by 'branch'.  Possibly 'path' would be better, except that this term was already defined to mean *finite* path, and the whole point here is whether the path might be infinite.  I would never read 'branch' as immediate subtree, but I agree that it might not work well to mean possibly infinite path either.
 
 AN: I think you misuse the word branch for what you want to say. Conventionally, a branch of a rooted tree is exactly what you call an immediate subtree and not a (finite or infinite) path emanating from there. This corresponds to the notion as is used for trees in bilology, and it is also apparent when we say, at each non-leaf, the tree branches into several pieces (the branches).
+
+_Toby_:  I can only think of 'branch' as being a path in a tree, not an entire subtree.  (In particular, when a tree branches at a node, it branches into the various edges out of or into that node.)  But I have changed the words to talk about infinite 'paths' instead.
 =--
 here is $\omega_N$, the set of von Neumann [[natural numbers]]:
 $$ \array {
@@ -261,7 +266,7 @@ $$ \array {
 } $$
 So we have $\empty \in \omega_N$, $\star \in \omega_N$, $2_N \in \omega$, etc.
 
-By definition, a tree models a _[[hereditarily finite set]]_ if every node has finitely many children; a tree models a well-founded hereditarily finite set if and only if it is finite and $\prec$ is [[decidable subset|decidable]].  The relationship between these two facts and the finite-branch formulation of well-foundedness is a form of [[Konig's lemma|Kőnig's Lemma]].
+By definition, a tree models a _[[hereditarily finite set]]_ if every node has finitely many children; a tree models a well-founded hereditarily finite set if and only if it is finite and $\prec$ is [[decidable subset|decidable]].  The relationship between these two facts and the no-infinite-path formulation of well-foundedness is a form of [[Konig's lemma|Kőnig's Lemma]].
 
 
 ## Reflexive-transitive closures as graphs ##
