@@ -19,7 +19,7 @@ For example, consider the case where $X = \mathbb{B}$.  Then there are exactly f
 
 Table&#160;1 lists the 16 measures of the form $m : (\mathbb{B} \to \mathbb{B}) \to \mathbb{B}$.
 
-<table align="center" cellpadding="4" cellspacing="0" markdown="1" style="background:white; color:black; text-align:center; width:90%">
+<table align="center" cellpadding="4" cellspacing="0" markdown="1" style="text-align:center; width:90%">
 
 <caption><font size="+2">$\text{Table 1.} \:\: \text{Higher Order Propositions} \: (n = 1)$</font></caption>
 
@@ -48,37 +48,41 @@ Table&#160;1 lists the 16 measures of the form $m : (\mathbb{B} \to \mathbb{B}) 
 <td>$f_{0}$</td>
 <td>$0 \: 0$</td>
 <td style="border-right:2px solid black">$\text{&#x2997; &#x2998;}$</td>
-<td>$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
-<td>$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
-<td>$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
-<td>$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
-<td>$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
-<td>$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
-<td>$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
-<td>$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td></tr>
 
 <tr>
 <td>$f_{1}$</td>
 <td>$0 \: 1$</td>
 <td style="border-right:2px solid black">$\text{&#x2997;} x \text{&#x2998;}$</td>
-<td>$0$</td><td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
 <td style="background:black; color:white">$1$</td>
-<td>$0$</td><td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
 <td style="background:black; color:white">$1$</td>
-<td>$0$</td><td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
 <td style="background:black; color:white">$1$</td>
-<td>$0$</td><td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
 <td style="background:black; color:white">$1$</td></tr>
 
@@ -86,12 +90,18 @@ Table&#160;1 lists the 16 measures of the form $m : (\mathbb{B} \to \mathbb{B}) 
 <td>$f_{2}$</td>
 <td>$1 \: 0$</td>
 <td style="border-right:2px solid black">$x$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
 <td style="background:black; color:white">$1$</td>
 <td style="background:black; color:white">$1$</td>
 <td style="background:black; color:white">$1$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
 <td style="background:black; color:white">$1$</td>
 <td style="background:black; color:white">$1$</td>
@@ -101,8 +111,14 @@ Table&#160;1 lists the 16 measures of the form $m : (\mathbb{B} \to \mathbb{B}) 
 <td>$f_{3}$</td>
 <td>$1 \: 1$</td>
 <td style="border-right:2px solid black">$\text{&#x2997;&#x2997; &#x2998;&#x2998;}$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
 <td style="background:black; color:white">$1$</td>
 <td style="background:black; color:white">$1$</td>
@@ -703,7 +719,7 @@ $$\array{
 
 The values of the sixteen $\alpha_i$ on each of the sixteen boolean functions $f : \mathbb{B}^2 \to \mathbb{B}$ are shown in Table&nbsp;4.  Expressed in terms of the implication ordering on the sixteen functions, $\alpha_i f = 1$ says that $f$ is _above or identical to_ $f_i$ in the implication lattice, that is, $\ge f_i$ in the implication ordering.
 
-<table align="center" cellpadding="1" cellspacing="0" markdown="1" style="background:white; color:black; text-align:center; width:90%">
+<table align="center" cellpadding="1" cellspacing="0" markdown="1" style="text-align:center; width:90%">
 
 <caption><font size="+2">$\text{Table 4.} \:\: \text{Qualifiers of the Implication Ordering:} \: \alpha_{i} f = \Upsilon (f_{i}, f) = \Upsilon (f_{i} \Rightarrow f)$</font></caption>
 
@@ -732,20 +748,41 @@ The values of the sixteen $\alpha_i$ on each of the sixteen boolean functions $f
 <td>$f_{0}$</td>
 <td>$0000$</td>
 <td style="border-right:2px solid black">$\text{&#x2997; &#x2998;}$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td></tr>
 
 <tr>
 <td>$f_{1}$</td>
 <td>$0001$</td>
 <td style="border-right:2px solid black">$\text{&#x2997;} u \text{&#x2998;&#x2997;} v \text{&#x2998;}$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
-<td>$0$</td><td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
 <td style="background:black; color:white">$1$</td></tr>
 
@@ -753,21 +790,39 @@ The values of the sixteen $\alpha_i$ on each of the sixteen boolean functions $f
 <td>$f_{2}$</td>
 <td>$0010$</td>
 <td style="border-right:2px solid black">$\text{&#x2997;} u\text{&#x2998;} \: v$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
-<td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
-<td>$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td></tr>
 
 <tr>
 <td>$f_{3}$</td>
 <td>$0011$</td>
 <td style="border-right:2px solid black">$\text{&#x2997;} u \text{&#x2998;}$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
 <td style="background:black; color:white">$1$</td>
 <td style="background:black; color:white">$1$</td>
@@ -777,23 +832,41 @@ The values of the sixteen $\alpha_i$ on each of the sixteen boolean functions $f
 <td>$f_{4}$</td>
 <td>$0100$</td>
 <td style="border-right:2px solid black">$u \: \text{&#x2997;} v \text{&#x2998;}$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td></tr>
 
 <tr>
 <td>$f_{5}$</td>
 <td>$0101$</td>
 <td style="border-right:2px solid black">$\text{&#x2997;} v \text{&#x2998;}$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
-<td>$0$</td><td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
 <td style="background:black; color:white">$1$</td>
-<td>$0$</td><td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
 <td style="background:black; color:white">$1$</td></tr>
 
@@ -801,23 +874,35 @@ The values of the sixteen $\alpha_i$ on each of the sixteen boolean functions $f
 <td>$f_{6}$</td>
 <td>$0110$</td>
 <td style="border-right:2px solid black">$\text{&#x2997;} u \text{&#xFE50;} v \text{&#x2998;}$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
-<td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
-<td>$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
-<td>$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
-<td>$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td></tr>
 
 <tr>
 <td>$f_{7}$</td>
 <td>$0111$</td>
 <td style="border-right:2px solid black">$\text{&#x2997;} u \: v \text{&#x2998;}$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
 <td style="background:black; color:white">$1$</td>
 <td style="background:black; color:white">$1$</td>
@@ -831,23 +916,41 @@ The values of the sixteen $\alpha_i$ on each of the sixteen boolean functions $f
 <td>$f_{8}$</td>
 <td>$1000$</td>
 <td style="border-right:2px solid black">$u \: v$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td></tr>
 
 <tr>
 <td>$f_{9}$</td>
 <td>$1001$</td>
 <td style="border-right:2px solid black">$\text{&#x2997;&#x2997;} u \text{&#xFE50;} v \text{&#x2998;&#x2998;}$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
-<td>$0$</td><td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
 <td style="background:black; color:white">$1$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
-<td>$0$</td><td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
 <td style="background:black; color:white">$1$</td></tr>
 
@@ -855,27 +958,39 @@ The values of the sixteen $\alpha_i$ on each of the sixteen boolean functions $f
 <td>$f_{10}$</td>
 <td>$1010$</td>
 <td style="border-right:2px solid black">$v$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
-<td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
-<td>$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
-<td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
-<td>$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td></tr>
 
 <tr>
 <td>$f_{11}$</td>
 <td>$1011$</td>
 <td style="border-right:2px solid black">$\text{&#x2997;} u \: \text{&#x2997;} v \text{&#x2998;&#x2998;}$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
 <td style="background:black; color:white">$1$</td>
 <td style="background:black; color:white">$1$</td>
 <td style="background:black; color:white">$1$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td><td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
 <td style="background:black; color:white">$1$</td>
 <td style="background:black; color:white">$1$</td>
@@ -885,29 +1000,41 @@ The values of the sixteen $\alpha_i$ on each of the sixteen boolean functions $f
 <td>$f_{12}$</td>
 <td>$1100$</td>
 <td style="border-right:2px solid black">$u$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
-<td>$0$</td><td>$0$</td><td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td></tr>
 
 <tr>
 <td>$f_{13}$</td>
 <td>$1101$</td>
 <td style="border-right:2px solid black">$\text{&#x2997;&#x2997;} u \text{&#x2998;} \: v \text{&#x2998;}$</td>
-<td>$0$</td><td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
 <td style="background:black; color:white">$1$</td>
-<td>$0$</td><td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
 <td style="background:black; color:white">$1$</td>
-<td>$0$</td><td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
 <td style="background:black; color:white">$1$</td>
-<td>$0$</td><td>$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
 <td style="background:black; color:white">$1$</td>
 <td style="background:black; color:white">$1$</td></tr>
 
@@ -915,14 +1042,22 @@ The values of the sixteen $\alpha_i$ on each of the sixteen boolean functions $f
 <td>$f_{14}$</td>
 <td>$1110$</td>
 <td style="border-right:2px solid black">$\text{&#x2997;&#x2997;} u \text{&#x2998;&#x2997;} v \text{&#x2998;&#x2998;}$</td>
-<td>$0$</td><td style="background:black; color:white">$1$</td>
-<td>$0$</td><td style="background:black; color:white">$1$</td>
-<td>$0$</td><td style="background:black; color:white">$1$</td>
-<td>$0$</td><td style="background:black; color:white">$1$</td>
-<td>$0$</td><td style="background:black; color:white">$1$</td>
-<td>$0$</td><td style="background:black; color:white">$1$</td>
-<td>$0$</td><td style="background:black; color:white">$1$</td>
-<td>$0$</td><td style="background:black; color:white">$1$</td></tr>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td></tr>
 
 <tr>
 <td>$f_{15}$</td>
@@ -1311,6 +1446,46 @@ The values of the sixteen $\beta_i$ on each of the sixteen boolean functions $f 
 <td style="background:black; color:white">$1$</td></tr>
 
 </table>
+
+Applied to a given proposition $f$, the qualifiers $\alpha_i$ and $\beta_i$ tell whether $f$ is _above_ $f_i$ or _below_ $f_i$, respectively, in the implication ordering.  By way of example, let us trace the effects of several such measures, namely, those that occupy the limiting positions of the Tables.
+
+<div markdown="1"><font size="+1">
+$$\array{
+\alpha_{0} f = 1
+&amp; \mathit{iff} &amp;
+f_{0} \Rightarrow f
+&amp; \mathit{iff} &amp;
+0 \Rightarrow f,
+&amp; \mathit{hence} &amp;
+\alpha_{0} f = 1 &amp; \mathop{for all} \: f.
+\\
+\alpha_{15} f = 1
+&amp; \mathit{iff} &amp;
+f_{15} \Rightarrow f
+&amp; \mathit{iff} &amp;
+1 \Rightarrow f,
+&amp; \mathit{hence} &amp;
+\alpha_{15} f = 1 &amp; \mathit{iff} \: f = 1.
+\\ \\
+\beta_0 f = 1
+&amp; \mathit{iff} &amp;
+f \Rightarrow f_{0}
+&amp; \mathit{iff} &amp;
+f \Rightarrow 0,
+&amp; \mathit{hence} &amp;
+\beta_{0} f = 1 &amp; \mathit{iff} \: f = 0.
+\\
+\beta_{15} f = 1
+&amp; \mathit{iff} &amp;
+f \Rightarrow f_{15}
+&amp; \mathit{iff} &amp;
+f \Rightarrow 1,
+&amp; \mathit{hence} &amp;
+\beta_{15} f = 1 &amp; \mathop{forall} \: f.
+}$$
+</font></div>
+
+Thus, $\alpha_0 = \beta_{15}$ is a totally indiscriminate measure, one that accepts all propositions $f : \mathbb{B}^2 \to \mathbb{B}$, whereas $\alpha_{15}$ and $\beta_0$ are measures that value the constant propositions $1 : \mathbb{B}^2 \to \mathbb{B}$ and $0 : \mathbb{B}^2 \to \mathbb{B}$, respectively, above all others.
 
 <div markdown="1"><font size="+3">$\ldots$</font></div>
 
