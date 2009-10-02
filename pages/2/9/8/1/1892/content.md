@@ -37,7 +37,7 @@ Never worry about "breaking" or "ruining" anything. Each and every revision is s
 
 A good way to learn about how to format $n$Lab pages is to hit the "Edit" button on an existing page, look at the content and see how it is written, then hit "Cancel". There will be no record that you ever hit "Edit".
 
-See the page [[latest changes]] to get an impression for what other contributors are working on currently.
+See the [latest changes](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5) to get an impression for what other contributors are working on currently.
 =--
 
 
@@ -119,7 +119,7 @@ This results in a [Link to the n-Cafe](http://golem.ph.utexas.edu/category/2009/
 
 ### Log your changes ###
 
-In order that the rest of the $n$Lab crew has a chance of becoming aware of your changes, drop a note about what you did at [[latest changes]].
+In order that the rest of the $n$Lab crew has a chance of becoming aware of your changes, drop a note about what you did at [latest changes](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5).
 
 
 ### Pat yourself on the back ###
