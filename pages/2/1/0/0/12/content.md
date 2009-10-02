@@ -337,7 +337,7 @@ Zoran: he does one VERY complex calculation in which he masterly uses constructi
 =--
 
 +-- {: .query}
-_Rafael Borowiecki_: Me and _Zoran &#352;koda_ are arguing if to keep this first entry in the timeline. See [[latest changes|latest changes]] 2009-09-04 for the start of the discussion (that could be moved here). I am waiting to hear what others think about it.
+_Rafael Borowiecki_: Me and _Zoran &#352;koda_ are arguing if to keep this first entry in the timeline. See [[2009 September changes]] 2009-09-04 for the start of the discussion (that could be moved here). I am waiting to hear what others think about it.
 
 _Rafael_: After thinking a bit more about it, it comes down to the same as i wrote above. Koszul resolution of whitch algebra? Is it a particular kind of Koszul algebra for starter? Otherwise the explanation is no real main theorem of the paper. It is not closed. I suppose the exactness would be for the Koszul resolution.
 
