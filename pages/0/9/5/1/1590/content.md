@@ -22,7 +22,7 @@ There are also 2-monads that specify [[property-like structure]].  For instance,
 
 * R. Blackwell, G. M. Kelly, and A. J. Power, Two-dimensional monad theory, Jour. Pure Appl. Algebra 59 (1989), 1--41
 * F. Marmolejo, Doctrines whose structure forms a fully faithful adjoint string, Theory and Applications of Categories 3 (1997), 23--44. &lt;http://www.tac.mta.ca/tac/volumes/1997/n2/3-02abs.html>
-* S. Lack, A coherent approach to pseudomonads, Adv. Math. 152 (2000), 179--202. &lt;http://www.maths.usyd.edu.au:8000/u/stevel/papers/psm.ps.gz>
+* [[Steve Lack|S. Lack]], A coherent approach to pseudomonads, Adv. Math. 152 (2000), 179--202. &lt;http://www.maths.usyd.edu.au:8000/u/stevel/papers/psm.ps.gz>
 * G.M. Kelly and S. Lack, On property-like structures, Theory and Applications of Categories 3 (1997) 213--250.  &lt;http://www.tac.mta.ca/tac/volumes/1997/n9/3-09abs.html>
 * S. Lack, Codescent objects and coherence.  JPAA 175 (2002), 223--241.
 
