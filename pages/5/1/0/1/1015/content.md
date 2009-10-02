@@ -125,6 +125,10 @@ these ideas.  If anyone else has a way to phrase them better, be my
 guest.
 
 _Toby_:  How about 'global' extending at least to other sets?  A set theory is material if, given any two sets $A$ and $B$ in the theory, there is a proposition $A \in B$ in the theory (with the intended meaning that $A$ is a member of $B$).  I said something pretty similar [here](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c027288).
+
+[[Mike Shulman]]: I don't think a material set theory necessarily even needs to allow sets to be elements of other sets.  I would be more inclined to define it in terms of whether an element of one set can be equal to an element of another set.
+
+I just had a go at giving a more logic-oriented definition of "structural" at [[structural set theory]], which seemed more amenable to definition than "material."  Do you think a theory can be both structural and material?  If not, then "material" can just be defined as "not structural."
 =--
 
 A structural set theory, on the other hand, looks more like [[type
@@ -140,6 +144,8 @@ to handle some esoteric parts of modern mathematics, although it
 suffices for most everyday uses.  Another structural set theory, which
 is stronger than ETCS and less closely tied to category theory, is
 [[SEAR]].
+
+A tentative formal definition of what makes a set theory "structural" can be found at [[structural set theory]].
 
 As remarked above, both material set theory and structural set theory
 are **foundational set theories**.  
@@ -165,6 +171,8 @@ foundational set theory: material set theory and structural set
 theory," which makes no reference to pure sets.
 
 _Toby_:  But this sentence *did* say 'pure set theory' instead of 'material set theory' before I fixed it.
+
+[[Mike Shulman]]: Huh, sorry.  I guess I didn't notice that when I added the "as remarked above;" I certainly was thinking of material/structural.
 =--
 It is also possible to make a **definitional set theory**, in which
 one defines sets in terms of some more primitive concept.  Lawvere
@@ -195,4 +203,3 @@ theory (such as ZFC) is interpreted in the [[internal logic]] of some
 
 
 [[!redirects material set theory]]
-[[!redirects structural set theory]]
