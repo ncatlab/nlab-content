@@ -5,9 +5,9 @@
 
 #Idea#
 
-In _synthetic differential geometry_ one formulates differential geometry in a [[topos]] of [[space and quantity|generalized spaces]] which has an object $T$ (often also denoted $D$) that behaves like an [[infinitesimal object|infinitesimal interval]], so that for instance for $X$ another object regarded as a smooth space, the tangent bundle of $X$, is, again as an object of the topos, just the [[internal hom]] $T X \:\text{:=}\: [T,X]$.
+In _synthetic differential geometry_ one formulates differential geometry in a [[topos]] of [[space and quantity|generalized spaces]] which has an object $T$ (often also denoted $D$) that behaves like an [[infinitesimal object|infinitesimal interval]], so that for instance for $X$ another object regarded as a smooth space, the tangent bundle of $X$, is, again as an object of the topos, just the [[internal hom]] $T X \;\text{:=}\; [T,X]$.
 
-In [[toposes]] satisfying the [[Kock-Lawvere axiom|axioms of synthetic differential geometry]] it is possible to give precise well-defined meaning to many of the familiar computations --- wide-spread in particular in the [[physics]] literature --- that compute with supposedly "infinitesimal" quantities.
+In [[toposes]] satisfying the [[Kock-Lawvere axiom|axioms of synthetic differential geometry]] it is possible to give precise well-defined meaning to many of the familiar computations -- wide-spread in particular in the [[physics]] literature -- that compute with supposedly "infinitesimal" quantities.
 
 As quoted by Anders Kock in his book (see below), Sophus Lie once said that he found his main theorems in [[Lie theory]] using "synthetic reasoning", but had to write them up in non-synthetic style (see [[analytic versus synthetic]]) through lack of a formalized language.  Synthetic differential geometry now provides this formalized language.
 
