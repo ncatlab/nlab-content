@@ -5,9 +5,9 @@
 
 #Idea#
 
-In _synthetic differential geometry_ one formulates differential geometry in a [[topos]] of [[space and quantity|generalized spaces]] which has an object $T$ (often also denoted $D$) that behaves like an [[infinitesimal object|infinitesimal interval]], so that for instance for $X$ another object regarded as a smooth space, the tangent bundle of $X$, is, again as an object of the topos, just the [[internal hom]] $T X := [T,X]$.
+In _synthetic differential geometry_ one formulates differential geometry in a [[topos]] of [[space and quantity|generalized spaces]] which has an object $T$ (often also denoted $D$) that behaves like an [[infinitesimal object|infinitesimal interval]], so that for instance for $X$ another object regarded as a smooth space, the tangent bundle of $X$, is, again as an object of the topos, just the [[internal hom]] $T X \:\text{:=}\: [T,X]$.
 
-In [[topos]]es satisfying the [[Kock-Lawvere axiom|axioms of synthetic differential geometry]] it is possible to give precise well-defined meaning to many of the familiar computations -- wide-spread in particular in the [[physics]] literature -- that compute with supposedly "infinitesimal" quantities.
+In [[toposes]] satisfying the [[Kock-Lawvere axiom|axioms of synthetic differential geometry]] it is possible to give precise well-defined meaning to many of the familiar computations --- wide-spread in particular in the [[physics]] literature --- that compute with supposedly "infinitesimal" quantities.
 
 As quoted by Anders Kock in his book (see below), Sophus Lie once said that he found his main theorems in [[Lie theory]] using "synthetic reasoning", but had to write them up in non-synthetic style (see [[analytic versus synthetic]]) through lack of a formalized language.  Synthetic differential geometry now provides this formalized language.
 
@@ -15,31 +15,29 @@ In the book
 
 * Moerdijk--Reyes, _[[Models for Smooth Infinitesimal Analysis]]_ 
 
-a realization of a [[topos]] for synthetic differential geometry is constructed in terms of [[structured generalized space|structured generalized spaces]] modeled on [[generalized smooth algebra]]s. Among other things, the book describes in detail how the familiar but ill-defined "infinitesimal reasoning" in standard differential geometry finds its precise formulation in such a topos.
+a realization of a [[topos]] for synthetic differential geometry is constructed in terms of [[structured generalized spaces]] modeled on [[generalized smooth algebras]].  Among other things, the book describes in detail how the familiar but ill-defined "infinitesimal reasoning" in standard differential geometry finds its precise formulation in such a topos.
 
 In this vein, [[Anders Kock]], in a long series of articles, reformulates large parts of differential geometry using synthetic reasoning. In his work he particularly makes use of the fact that as sophisticated as a synthetic [[topos]] may be when explicitly constructed, being a [[topos]] means that one can reason inside it almost literally as in [[Set]]. Using this Kock's work gives descriptions of synthetic differential geometry which are entirely intuitive and have no topos-theoretic flavor. All he needs is the assumption that the _Kock-Lawvere axiom_ is satisfied for "numbers". Here "numbers" is really to be interpreted in the topos, but if one just accepts that they satisfy the KL axiom, one may work with infinitesimals in this context in essentially precisely the naive way, with the topos theory in the background just ensuring that everything makes good sense.
 
 ## Well adapted models ##
 
-A [[topos]] $T$ modelling the axioms of synthetic differential geometry is called **(well) adapted** if the ordinary [[differential geometry]] of [[manifold]]s embeds into it. 
+A [[topos]] $T$ modelling the axioms of synthetic differential geometry is called **(well) adapted** if the ordinary [[differential geometry]] of [[manifolds]] embeds into it. 
 
-A standard model for well adapted syntehtic toposes is obtained in terms of sheaves on diuals of "germ determined" $C^\infty$-rings. This is described in great detail in the textbook [[Models for Smooth Infinitesimal Analysis]]. 
+A standard model for well adapted synthetic toposes is obtained in terms of sheaves on duals of "germ determined" $C^\infty$-rings. This is described in great detail in the textbook _[[Models for Smooth Infinitesimal Analysis]]_. 
 
 The conception and discussion of these well adapted toposes goes back to E. Dubuc, who studied them in a long series of articles. He <a href="http://north.ecc.edu/alsani/ct99-00(8-12)/msg00218.html">asks</a> people to refer it this topos as the **[[Dubuc topos]]**. 
-
-
 
 # Variations #
 
 ## higher categorical versions ##
 
-* Synthetic differential geometry may be thought of as embedded in the general theory of [[derived smooth manifold]]s and, generally, that of [[generalized scheme]].
+* Synthetic differential geometry may be thought of as embedded in the general theory of [[derived smooth manifolds]] and, generally, that of [[generalized schemes]].
 
 ## supergeometry  versions ##
 
 The notion of synthetic differential geometry extends to the context of [[supergeometry - contents|supergeometry]]. See
 
-* [[synthetic differential supergeometry]] .
+* [[synthetic differential supergeometry]].
 
 
 # Related entries #
@@ -66,8 +64,6 @@ The notion of synthetic differential geometry extends to the context of [[superg
 *  [Mike Shulman](http://www.math.uchicago.edu/~shulman/exposition/sdg/pizza-seminar.pdf)
 
 *  [John Bell](http://publish.uwo.ca/~jbell/invitation%20to%20SIA.pdf)
-
-
 
 # Discussion #
 
