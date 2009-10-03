@@ -31,9 +31,9 @@ $$
 
 #Illustration#
 
-Kan fibrations are combinatorial analogs of [[Serre fibration|Serre]] [[fibration]]s  of [[topological space]]s.  In fact, under the [[Quillen equivalence]] of the standard [[model structure on topological spaces]] and the standard [[model structure on simplicial sets]], Kan fibrations map to Serre fibrations.
+Kan fibrations are combinatorial analogs of [[Serre fibration|Serre]] [[fibrations]]  of [[topological spaces]].  In fact, under the [[Quillen equivalence]] of the standard [[model structure on topological spaces]] and the standard [[model structure on simplicial sets]], Kan fibrations map to Serre fibrations.
 
-Recall the shape of the [[horn]]s in low dimension. 
+Recall the shape of the [[horns]] in low dimension. 
 
 * -**$n=1$**- The horns $\Lambda^1_0$ and $\Lambda^1_1$ of the 1-[[simplex]] are just copies of the 0-[[simplex]] $\Delta^0$ regarded as the left and right endpoint of $\Delta^1$. For $n= 1$ the above condition says that for $\pi : Y \to X$ a Kan fibration we have
   $$
@@ -190,7 +190,7 @@ and a **right Kan fibration** is one that has the lifting property for all horns
 +-- {: .un_theorem}
 ###### Theorem
 
-The morphisms $f : X \to Y$ of Kan complexes that are both Kan fibrations as well as [[model structure on simplicial sets|weak equivalences]] in that they induce isomorphisms on all [[simplicial homotopy group]]s (i.e. the **acyclic fibrations** of Kan complexes) are precisely the morphisms that have the [[weak factorization system|right lifting property]] with respect to all [[boundary of a simplex|boundary inclusions]] $\partial \Delta^n \hookrightarrow \Delta^n$:
+The morphisms $f : X \to Y$ of Kan complexes that are both Kan fibrations as well as [[model structure on simplicial sets|weak equivalences]] in that they induce isomorphisms on all [[simplicial homotopy groups]] (i.e. the __acyclic fibrations__ of Kan complexes) are precisely the morphisms that have the [[weak factorization system|right lifting property]] with respect to all [[boundary of a simplex|boundary inclusions]] $\partial \Delta^n \hookrightarrow \Delta^n$:
   $$
     \array{
       \partial \Delta[n] &\to& X
@@ -227,10 +227,10 @@ Because every class of morphisms defined by a [[weak factorization system|right 
 
 =--
 
-**Remark** From this it follows readily that [[Kan complex]]es form a Brownian [[category of fibrant objects]].
+__Remark.__ From this it follows readily that [[Kan complexes]] form a Brownian [[category of fibrant objects]].
 
 
-Let $C, D$ be ordinary [[nLab:groupoid|groupoid]]s and $N(C)$, $N(D)$ their ordinary [[nLab:nerve|nerve]]s. We'd like to show in detail that 
+Let $C, D$ be ordinary [[nLab:groupoid|groupoids]] and $N(C)$, $N(D)$ their ordinary [[nLab:nerve|nerves]]. We'd like to show in detail that 
 
 +-- {: .un_theorem}
 ###### Theorem
