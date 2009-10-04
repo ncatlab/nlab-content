@@ -44,7 +44,7 @@ As fullness is weaker than power set in a constructive framework, we may conside
 
 ## Relation to type theory ##
 
-Subset collection is justified by predicative versions of constructive [[type theory]] in the sense of Martin--L&#246;f or Thierry Coquand.  To see this, note that these theories justify [[COSHEP]]; their types define (not sets in general but) _presets_ (following Bishop) or _completely presented sets_, which (as sets) are projective.  Analogously, an element of $F_{X,Y}$ may be considered an _operation_ or _prefunction_ (following 'preset') from $X$ to $Y$.
+Subset collection is justified by predicative versions of constructive [[type theory]] in the sense of Martin--L&#246;f or Thierry Coquand.  To see this, note that these theories justify [[COSHEP]]; their types define (not sets in general but) _[[preset]]s_ (following Bishop) or _[[completely presented set]]s_, which (as sets) are projective.  Analogously, an element of $F_{X,Y}$ may be considered an _operation_ or _prefunction_ (following 'preset') from $X$ to $Y$.
 
 But note that the type of prefunctions from $X$ to $Y$, like the preset underlying $X$, is a categorical (unique) construction in type theory, while $F_{X,Y}$, like COSHEP, is not.  Thus type theory gives us constructions that are not available in set theory (even with fullness or even COSHEP), such as the predicate that states whether two functions have equal underlying prefunctions.
 
