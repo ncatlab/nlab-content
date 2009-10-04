@@ -14,11 +14,11 @@ Then a **cyclic order** on $S$ is a cyclic relation $R$ that satisfies ternary v
 *  Cyclic [[asymmetric relation|asymmetry]]:  If $R(x,y,z)$ and $R(x,z,w)$, then $y \ne w$.
 *  Cyclic [[transitive relation|transitivity]]:  If $R(x,y,z)$ and $R(x,z,w)$, then $R(x,y,w)$.
 *  Cyclic [[comparison]]:  If $R(x,y,z)$, then for any $w$, $R(x,y,w)$ or $R(x,w,z)$ or $R(w,y,z)$.
-*  Cyclic [[tight relation|tightness]]:  If $x \ne y$, $x \ne z$, and $y \ne z$, then $R(x,y,z)$ or $R(x,z,y)$.
+*  Cyclic [[connected relation|connectedness]]:  If $x \ne y$, $x \ne z$, and $y \ne z$, then $R(x,y,z)$ or $R(x,z,y)$.
 
 Actually, none of these order axioms (except for comparison) is really complete as stated; any cyclic permutation of the axiom should also be assumed.  However, these permutations all follow automatically for a cyclic relation.
 
-Note that for a [[constructive mathematics|constructive]] version, the set $S$ needs to be already equipped with a (tight) [[apartness relation]] for the tightness axiom to make sense; unlike with a linear order, we can\'t recover the apartness relation from the cyclic order.  For a similar reason, it\'s difficult to state [[antisymmetric relation|antisymmetry]] correctly for a nonstrict (like a [[total order]]) version of a cyclic order.
+Note that for a [[constructive mathematics|constructive]] version, the set $S$ needs to be already equipped with a (tight) [[apartness relation]] for the connectedness axiom to make sense; unlike with a linear order, we can\'t recover the apartness relation from the cyclic order.  For a similar reason, it\'s difficult to state [[antisymmetric relation|antisymmetry]] correctly for a nonstrict (like a [[total order]]) version of a cyclic order.
 
 +--{: .query}
 [[Mike Shulman|Mike]] and [[Toby Bartels|Toby]]:  If anyone wants to have a go at a cyclic analogue of a total order, be our guest.
