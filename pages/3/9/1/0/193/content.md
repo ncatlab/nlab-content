@@ -65,15 +65,15 @@ Essentially everything that makes category theory nontrivial and interesting can
 #String Diagrams#
 The definition of an adjunction may be nicely expressed using [[string diagram|string diagrams]]. The data $L: C \to D$, $R : D \to C$ and 2-cells $\eta: 1_C \to R \circ L$, $\epsilon: L \circ R \to 1_D$ are depicted as
 
-[[adjunction-L.png:pic]], [[adjunction-R.png:pic]], [[adjunction-unit.png:pic]], [[adjunction-co-unit.png:pic]]
+[[adjunction-L.png:pic]] &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; [[adjunction-R.png:pic]] &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; [[adjunction-unit.png:pic]] &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; [[adjunction-co-unit.png:pic]]
 
 (where 1-cells read from right to left and 2-cells from bottom to top), and the zigzag identities are expressed as "pulling zigzags straight" (hence the name):
 
-[[adjunction-up-string.png:pic]], [[adjunction-down-string.png:pic]].
+[[adjunction-up-string.png:pic]] &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; [[adjunction-down-string.png:pic]]
 
 Often, arrows on strings are used to distinguish $L$ and $R$, and most or all other labels are left implicit; so the zigzag identities, for instance, become:
 
-[[adjunction-up-string-minimal.png:pic]], [[adjunction-down-string-minimal.png:pic]].
+[[adjunction-up-string-minimal.png:pic]] &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; [[adjunction-down-string-minimal.png:pic]]
 
 #References#
 
