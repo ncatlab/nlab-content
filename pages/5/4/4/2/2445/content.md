@@ -6,10 +6,19 @@
 
 #Definition#
 
-The Clifford algebra $Cl(V)$ for $V$ a real [[inner product space]] of dimension $d$ is the quotient
+Given a field $k$, a quadratic functional $q:V\to k$ on a $k$-vector space $V$ is a functional of the form $q(x) = b(x,x)$ where $b:V\otimes V\to k$ is a bilinear form
+
+For any field $k$ of characteristics zero, and a quadratic functional $q: V\to k$ one defines the category $CLIFF(V,q)$
+whose objects are pairs $(A,\phi)$ where $A$ is an associative unital algebra and $\phi: V\to A$ a $k$-linear map such that $\phi(x)^2 = q(x) 1_A$ for all $x\in V$. Morphisms $(A,\phi)\to (A',\phi')$ are the associative $k$-algebra maps $\chi: A\to A'$ such that $\chi\circ\phi=\phi'$.
+
+The **Clifford algebra** $Cl(V,q)$ of the quadratic functional $q$ is the universal initial object in the category $CLIFF(V,q)$. There is an easy existence theorem. 
+
+#Examples#
+
+The Clifford algebra $Cl(V)$ for a real [[inner product space]] $V$ of dimension $d$ is the quotient
 
 $$
-  Cl(V) := T(V) / (v \cdot v + |v|^2 \cdots Id)
+  Cl(V) := T(V) / (v \cdot v + |v|^2 \cdot Id)
 $$
 
 of the [[tensor algebra]] $T(V)$
