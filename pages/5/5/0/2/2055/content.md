@@ -133,6 +133,8 @@
 
 * [Wiskundemeisjes](http://www.wiskundemeisjes.nl)
 
+  * A blog about mathematics for a general audience, written by Jeanine Daems and Ionica Smeets (in Dutch)
+
 * [XOR's hammer](http://xorshammer.wordpress.com)
 
 
