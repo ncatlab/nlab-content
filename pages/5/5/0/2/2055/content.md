@@ -1,9 +1,9 @@
-#Contents#
+# Contents #
 
 * automatic table of contents goes here
 {:toc}
 
-# Mathematics blogs #
+# Mathematics Blogs #
 
 +--{: .query}
 [[Mike Shulman]]: I think this page would be even more useful if it included brief notes about what sort of activity tends to go on at each blog in the list.
@@ -133,14 +133,13 @@
 
 * [Wiskundemeisjes](http://www.wiskundemeisjes.nl)
 
-  * A blog about mathematics for a general audience, written by Jeanine Daems and Ionica Smeets (in Dutch)
+   * A blog about mathematics for a general audience, written by Jeanine Daems and Ionica Smeets (in Dutch)
 
 * [XOR's hammer](http://xorshammer.wordpress.com)
 
+# Probability and Statistics Blogs #
 
-#Statistics blogs#
-
-* [Hot Hand -- Sports Streakiness](http://thehothand.blogspot.com)
+* [Hot Hand --- Sports Streakiness](http://thehothand.blogspot.com)
 
 * [Social Science Statistics Blog](http://www.iq.harvard.edu/blog/sss)
 
@@ -148,11 +147,11 @@
 
 * [Williams College Math/Stat blog](http://blogs.williams.edu/math)
 
-#Theoretical Computer Science blogs#
+# Theoretical Computer Science Blogs #
 
 Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Science).
 
-#Other Blogs that talk about Mathematics#
+# Other Blogs that Touch on Mathematics #
 
 * [Mathematics in Australia](http://austmaths.wordpress.com)
 
@@ -166,7 +165,7 @@ Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Scie
 
 * [Quomodocumque](http://quomodocumque.wordpress.com/category/math/)
 
-#Mathematical Wikis#
+# Mathematical Wikis #
 
 * [Analysis & PDE conferences](http://tosio.math.utoronto.ca/wiki/index.php/Conferences)
 * [Deferential Geometry](http://deferentialgeometry.org)
@@ -174,12 +173,16 @@ Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Scie
 * [Mathematics Jobs Wiki](http://notable.math.ucdavis.edu/wiki/Mathematics_Jobs_Wiki)
 * [The Tricki](http://www.tricki.org)
 
-#Blog Discussions on Math Blogging#
+# Probability and Statistics Wikis #
+
+* [Chance News](http://chance.dartmouth.edu/chancewiki/index.php/Main_Page)
+
+# Blog Discussions on Math Blogging #
 
 * $n$-Caf&#233; discussions on _What do mathematicians need to know about blogging?_, [Part I](http://golem.ph.utexas.edu/category/2009/08/what_do_mathematicians_need_to.html) and [Part II](
 http://golem.ph.utexas.edu/category/2009/09/what_do_mathematicians_need_to_1.html)
 
-#Other Resources#
+# Other Resources #
 
 * Luca Trevisan's [LaTeX to Wordpress converter](http://lucatrevisan.wordpress.com/latex-to-wordpress)
 
