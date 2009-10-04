@@ -9,8 +9,8 @@
 The Kock-Lawvere axiom is the crucial axiom for the theory
 of [[synthetic differential geometry]].
 
-Imposed on a [[topos]] equipped with an [[internalization|internal]] [[ring]]
-object $R$, the Kock-Lawvere axiom says essentially that morphism 
+Imposed on a [[topos]] equipped with an [[internalization|internal]] [[algebra]] 
+object $R$ over an internal [[ring]] object $k$, the Kock-Lawvere axiom says essentially that morphisms 
 $D \to R$ from the
 [[infinitesimal space|infinitesimal interval]] $D \subset R$ into $R$ are necessarily _linear_
 maps, in that they always and uniquely extend to linear maps $R \to R$.
@@ -75,12 +75,19 @@ Notice that $(R \oplus \epsilon R)$ is a Weil algebra:
 
 +--{.query}
 Zoran: Who calls this Weil algebra ? Why ? Besides, $R$ is just a ring, not a field, hence word finite-dimensional is not appropriate (finite rank is OK). 
+
+[[Urs Schreiber]]: this is what all the synthetic diff geometry literature says. Also  [[Models for Smooth Infinitesimal Analysis|Moerdijk-Reyes]].
+
+I am not sure how general this terminology is. See also the new entry [[smooth topos]].
+
+But you are right certainly about the ring/field thing. I have corrected that now above by saying that $R$ is an algebra over a ring object $k$.
+
 =--
 
 
- an $R$-algebra
+an $R$-algebra
 that is finite dimensional and whose underlying [[ring]] is a local ring, i.e.
-of the form $W = R \oplus m$, where $m$ is a maximal ideal inite dimensional over $R$.
+of the form $W = R \oplus m$, where $m$ is a maximal nilpotent ideal inite dimensional over $R$.
 
 Then the general version of the Kock-Lawvere axiom for all Weil algebras says that
 
