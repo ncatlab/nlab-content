@@ -183,4 +183,6 @@ http://golem.ph.utexas.edu/category/2009/09/what_do_mathematicians_need_to_1.htm
 
 * The nascent [mathoverflow.net](http://mathoverflow.net/), a site for questions and answers "of interest to mathematicians", modeled on [stackoverflow](http://stackoverflow.com/).
 
+* This nifty [script] fixes the eyestrain caused by poorly designed blog contrasts. 15 seconds to install, Firefox only. 
+
 category: meta
