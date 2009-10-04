@@ -1572,7 +1572,7 @@ Intuitively, the $\ell_{ij}$ operators may be thought of as qualifying propositi
 
 __Note.__  ASCII graphic for now --- will redraw as soon as possible.  ---[[JA]]
 
-<table align="center"><td><pre>
+<table align="center" style="font-weight:bold"><td><font size="-1"><pre>
 o-----------------------------------------------------------o
 |                                                           |
 |                             o                             |
@@ -1618,8 +1618,17 @@ o-----------------------------------------------------------o
 |                             o                             |
 |                                                           |
 o-----------------------------------------------------------o
-Figure 6.  Higher Order Universe of Discourse [L_ij] c [[u, v]]
-</pre></td></table>
+</pre></font></td></table>
+
+<div markdown="1"><font size="+1">
+$$\text{Figure 6.} \:\: \text{Higher Order Universe of Discourse} \: \left[ L_{ij} \right] \subseteq \left[\left[ u, v \right]\right]$$
+</font></div>
+
+Our excursion into the vastening landscape of higher order propositions has finally come round to the stage where we can bring its returns to bear on opening up new perspectives for quantificational logic.
+
+__Note.__  There is a question arising next that is still experimental in my mind.  Whether it makes much difference from a purely formal point of view is I cannot say yet, but it does seem to aid the intuition to invent a slightly different interpretation for the two-valued space that we use as the target of our basic indicator functions.  Therefore, let us declare a type of _existential-valued_ functions $f : \mathbb{B}^k \to \mathbb{E}$, where $\mathbb{E} = \{ -e, +e \} = \{ \mathop{empty}, \mathop{exist} \}$ is a couple of values that indicate whether or not anything exists in the cells of the underlying universe of discourse, venn diagram, or other domain.  As usual, let's not be too strict about the coding of these functions, reverting to binary codes whenever the interpretation is clear enough.
+
+With this interpretation in mind we note the following correspondences between classical quantifications and higher order indicator functions:
 
 <div markdown="1"><font size="+3">$\ldots$</font></div>
 
