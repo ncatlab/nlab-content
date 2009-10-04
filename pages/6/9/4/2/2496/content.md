@@ -1513,6 +1513,60 @@ Up till now quantification theory has been based on the assumption of individual
 
 The forms commonly viewed as quantified propositions may be viewed again as propositions about propositions, indeed, there is every reason to regard higher order propositions as the genus of quantification under which the more familiar species appear.
 
+Let us return to the 2-dimensional case $X^\circ = \left[ u, v \right]$.  In order to provide a bridge between propositions and quantifications it serves to define a set of qualifiers $\ell_{ij} : (\mathbb{B}^2 \to \mathbb{B}) \to \mathbb{B}$ that have the following characters:
+
+<div markdown="1"><font size="+1">
+$$\array{
+\ell_{00} f
+&amp; = &amp;
+\ell_{(u)(v)} f
+&amp; = &amp;
+\alpha_{1} f
+&amp; = &amp;
+\Upsilon_{(u)(v)} f
+&amp; = &amp;
+\Upsilon_{(u)(v) \: \Rightarrow f}
+&amp; = &amp;
+f \: \mathop{likes} \: (u)(v)
+\\
+\ell_{01} f
+&amp; = &amp;
+\ell_{(u) v} f
+&amp; = &amp;
+\alpha_2 f
+&amp; = &amp;
+\Upsilon_{(u) v} f
+&amp; = &amp;
+\Upsilon_{(u) v \: \Rightarrow f}
+&amp; = &amp;
+f \: \mathop{likes} \: (u) v
+\\
+\ell_{10} f
+&amp; = &amp;
+\ell_{u (v)} f
+&amp; = &amp;
+\alpha_4 f
+&amp; = &amp;
+\Upsilon_{u (v)} f
+&amp; = &amp;
+\Upsilon_{u (v) \: \Rightarrow f}
+&amp; = &amp;
+f \: \mathop{likes} \: u (v)
+\\
+\ell_{11} f
+&amp; = &amp;
+\ell_{u v} f
+&amp; = &amp;
+\alpha_8 f
+&amp; = &amp;
+\Upsilon_{u v} f
+&amp; = &amp;
+\Upsilon_{u v \: \Rightarrow f}
+&amp; = &amp;
+f \: \mathop{likes} \: u v
+}$$
+</font></div>
+
 <div markdown="1"><font size="+3">$\ldots$</font></div>
 
 # References and further reading #
