@@ -1,7 +1,11 @@
-A (binary) [[relation]] $\sim$ on a set $A$ is __tight__ if any two elements that are related in neither order are [[equality|equal]]:
-$$\forall (x, y: A),\; x \nsim y \;\wedge\; y \nsim x \;\Rightarrow\; x = y$$
+A (binary) [[relation]] $\sim$ on a set $A$ is __connected__ if any two elements that are related in neither order are [[equality|equal]]:
+$$ \forall (x, y: A),\; x \nsim y \;\wedge\; y \nsim x \;\Rightarrow\; x = y .$$
+This is a basic property of [[linear orders]]; an [[apartness relation]] is usually called _tight_ if it is connected.
 
-The term 'tight' here comes from the theory of [[apartness relation]]s, although this is also a property of [[linear order]]s.
+Using [[excluded middle]], it is equivalent to say that every two elements are related in some order or equal:
+$$ \forall (x, y: A),\; x \sim y \;\vee\; y \sim x \;\vee\; x = y .$$
+However, this version is too strong for the intended applications to [[constructive mathematics]].  (In particular, $\lt$ on the located Dedekind [[real numbers]] satisfies the first definition but not this one.)
+
 
 ## Discussion ##
 
@@ -19,8 +23,16 @@ _Mike_: I think it is so unimportant that it doesn't matter.  (-:  I would actua
 _Toby_:  I think that I\'ll take the last clause as a vote for 'tight'.  (The best that I can find for 'tight relation' is a usage in combinatorics that seems pretty informal; one sometimes says that there\'s a tight relation between $A$ and $B$ if $A$ provides a tight bound for $B$; here 'tight bound' is the only notion that requires definition.)  The main reason that I want a word is so that I can put it in the table at [[linear order]].
 
 _Toby_:  OK, it\'s all 'tight relation' now.
+=--
 
+And this is from when it was at [[tight relation]]:
+
++-- {: .query}
+_Toby_:  I just found another term for this; &lt;http://www.math.uchicago.edu/~mileti/teaching/math278/settheory.pdf> calls this (the strong version, although it doesn\'t matter since they use classical logic) 'connected'.
+
+In fact, now that I know what to look for, it\'s everywhere (although I did find one reference that gives a more general definition).  So I\'m moving the page once again!
 =--
 
 
 [[!redirects linear relation]]
+[[!redirects tight relation]]
