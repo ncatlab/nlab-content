@@ -7,7 +7,7 @@ Of course, nobody but a category-theorist would use the above as a *definition* 
 
 (Notice that these are dual to the axioms for an [[equivalence relation]]; like those axioms, these correspond to [[identity morphism]]s, [[inverse]]s, and [[composition]] in a groupoid.)
 
-The [[negation]] of an apartness relation is an equivalence relation. (The converse of this is equivalent to [[excluded middle]].) An apartness relation is _tight_ if this equivalence relation is [[equality]]; any apartness relation defines a tight apartness relation on the [[quotient set]]. A tight apartness relation, also called an _inequality_, is often written $\ne$ instead of $\#$, but keep in mind that $\ne$ is not the negation of $=$; rather, $=$ is the negation of $\ne$. (So inequality, when it exists, is more basic than equality.)
+The [[negation]] of an apartness relation is an equivalence relation. (The converse of this is equivalent to [[excluded middle]].) An apartness relation is _tight_ (see [[connected relation]]) if this equivalence relation is [[equality]]; any apartness relation defines a tight apartness relation on the [[quotient set]]. A tight apartness relation, also called an _inequality_, is often written $\ne$ instead of $\#$, but keep in mind that $\ne$ is not the negation of $=$; rather, $=$ is the negation of $\ne$. (So inequality, when it exists, is more basic than equality.)
 
 If $S$ and $T$ are both sets equipped with apartness relations, then a [[function]] $f: S \to T$ is _strongly extensional_ if $x \# y$ whenever $f(x) \# f(y)$; that is, $f$ reflects apartness. The strongly extensional functions are precisely the [[enriched functor]]s between $TV^\op$-enriched groupoids, so they are the correct morphisms. (Note that there is no nontrivial notion of enriched [[natural isomorphism]], at least not when the apartness in $T$ is strict.)
 
@@ -69,46 +69,28 @@ Prime ideals are even more interesting. A two-sided antiideal $A$ (so also satis
 
 # References
 
-The notion of apartness as fundamental in metric spaces may be found in [[Errett Bishop]]'s _Foundations of Constructive Analysis_ (1967) (or the 1985 edition with Douglas Bridges, _Constructive Analysis_). But as I recall, this doesn\'t introduce the concept in general; that came in Anne Troelstra\'s and Dirk van Dalen\'s _Constructivism in Mathematics_ (1988). For apartness in algebra, see _A Course in Constructive Algebra_ (also 1988), by Ray Mines, Fred Richman, and Wim Ruitenburg. The great references for all things topology in constructive mathematics is the Ph.D. thesis of Frank Waaldijk, _[Modern Intuitionist Topology](http://home.hetnet.nl/~sufra/modern%20intuitionistic%20topology.pdf)_ (1996). Please note that I ([[Toby Bartels]]) have not read the algebra book.
+The notion of apartness as fundamental in metric spaces may be found in [[Errett Bishop]]'s _Foundations of Constructive Analysis_ (1967) (or the 1985 edition with Douglas Bridges, _Constructive Analysis_). But as I recall, this doesn\'t introduce the concept in general; that came in Anne Troelstra\'s and Dirk van Dalen\'s _Constructivism in Mathematics_ (1988). For apartness in algebra, see _A Course in Constructive Algebra_ (also 1988), by Ray Mines, Fred Richman, and Wim Ruitenburg. The great reference for all things topology in constructive mathematics is the Ph.D. thesis of Frank Waaldijk, _[Modern Intuitionist Topology](http://home.hetnet.nl/~sufra/modern%20intuitionistic%20topology.pdf)_ (1996). Please note that I ([[Toby Bartels]]) have not read the algebra book.
 
 
 # Discussion
 
-
-
 _[[Urs Schreiber|Urs]] says_: What you say at the entry [[vector space]] about the relation between apartness relations and topology and the continuum sounds very interesting. It would be nice if you could move these comments here and maybe flesh them out a little. Because, while it sounds interesting, I don't yet understand what you are saying!
 
+*  _[[Toby Bartels|Toby]] replies_: I will try to write a bit about the topological ideas that come up. But keep in mind that classically it is all trivial, unless you rephrase it internal to some more general notion of category than a boolean topos, and these things are not normally so phrased.
 
-
-(_[[Toby Bartels|Toby]] replies_: I will try to write a bit about the topological ideas that come up. But keep in mind that classically it is all trivial, unless you rephrase it internal to some more general notion of category than a boolean topos, and these things are not normally so phrased.
-
-
-
-_[[Urs Schreiber|Urs]] replies to the reply:_ Okay, I'll keep it in mind. But I am still interested! :-)
-
-
-
-)
-
-
+   _[[Urs Schreiber|Urs]] replies to the reply:_ Okay, I'll keep it in mind. But I am still interested! :-)
 
 I already have problems with the above definition. When you say "coproduct" do you mean to equip $\{true, false\}$ with the monoidal structure given by logical OR? This is the only meaning I can give this word here, but a category enriched over $(\{true, false\},\otimes = OR)$ seems necessarily  to be an indiscrete groupoid over its set of objects. (Because $hom(a,a) = true$ for all objects $a$ and then $hom(a,b) = hom(a,a) OR hom(a,b) = true$, too, for all $b$.)
 
+*  _[[Toby Bartels|Toby]] replies_: To begin with, I defined it incorrectly; the trouble with these slick category-theoretic definitions is that a small error makes things completely messed up! I rephrased it quite a bit, but the key point is the new word 'opposite'. That said, your analysis of even my original definition is unsound; keep in mind that the unit of disjunction is *false*.
 
-
-(_[[Toby Bartels|Toby]] replies_: To begin with, I defined it incorrectly; the trouble with these slick category-theoretic definitions is that a small error makes things completely messed up! I rephrased it quite a bit, but the key point is the new word 'opposite'. That said, your analysis of even my original definition is unsound; keep in mind that the unit of disjunction is *false*.
-
-_Toby adds_: Also, it\'s an enriched *groupoid*, not an enriched *category*.)
-
-
+   _Toby adds_: Also, it\'s an enriched *groupoid*, not an enriched *category*.
 
 I am also not sure in which sense you refer to the law of the excluded middle. Should we maybe more generally say that the 0-category of (-1)-categories internal to a given topos $T$ is the subobject classifier, $(-1)Cat := \Omega$?
 
+*  _[[Toby Bartels|Toby]] replies_: Yes, that is correct; $(-1)\Cat = \Omega$. Even when $T := \Set$, you have $(-1)\Cat = \{\top, \bot\}$ *only* if you believe excluded middle, which constructivists do not. Thus, constructivists will talk about apartness relations in $\Set$, while a classical mathematician will have to put the discussion internal to $T$ to get nontrivial results.
+
+   _[[Urs Schreiber|Urs]] replies to the reply:_ I like this statement "$(-1)\Cat = \Omega$". Would we also want to say $(-2)Cat = \{1 \stackrel{\top}{\to} \Omega\}$?
 
 
-(_[[Toby Bartels|Toby]] replies_: Yes, that is correct; $(-1)\Cat = \Omega$. Even when $T := \Set$, you have $(-1)\Cat = \{\top, \bot\}$ *only* if you believe excluded middle, which constructivists do not. Thus, constructivists will talk about apartness relations in $\Set$, while a classical mathematician will have to put the discussion internal to $T$ to get nontrivial results.
-
-
-
-_[[Urs Schreiber|Urs]] replies to the reply:_ I like this statement "$(-1)\Cat = \Omega$". Would we also want to say $(-2)Cat = \{1 \stackrel{\top}{\to} \Omega\}$?
-
+[[!redirects apartness relations]]
