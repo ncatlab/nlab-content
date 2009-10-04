@@ -58,7 +58,7 @@ Special kinds of binary relations on $A$ additionally include:
 * [[symmetric relation|symmetric]], [[antisymmetric relation|antisymmetric]], and [[asymmetric relation|asymmetric]] relations;
 * [[transitive relation]]s and [[comparison]]s;
 * left and right [[euclidean relation]]s;
-* [[total relation|total]] and [[tight relation|tight]] relations;
+* [[total relation|total]] and [[connected relation|connected]] relations;
 * [[extensional relation|extensional]] and [[well-founded relation|well-founded]] relations.
 
 Combinations of the above properties of binary relations produce [[equivalence relation]]s, [[apartness relation]]s, and the various kinds of [[order]]s.
