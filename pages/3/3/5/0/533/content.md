@@ -21,3 +21,7 @@ A strict 1-category is just a [[category]].  [[strict 2-category|Strict 2-catego
 
 
 [[!redirects strict n-categories]]
+[[!redirects strict infinity-category]]
+[[!redirects strict infinity-categories]]
+[[!redirects strict ∞-category]]
+[[!redirects strict ∞-categories]]
