@@ -10,7 +10,8 @@ Every wiki needs a sandbox! Just test _below_ and don't worry about messing thin
 
 * _Der Mann mit $@$_
 
-__Reference.__ Unicode Data Bank ![Boing](http://wikipediareview.com/smilys0b23ax56/default/boing.gif)
+__Ref.__ [Unicode Data Bank](http://www.sql-und-xml.de/unicode-database/) ![Boing](http://wikipediareview.com/smilys0b23ax56/default/boing.gif)
+
 1.  [Math Symbols](http://www.sql-und-xml.de/unicode-database/sm.html)
 1.  [Math Operators](http://www.sql-und-xml.de/unicode-database/mathematical-operators.html)
 1.  [Math Miscellaneous A](http://www.sql-und-xml.de/unicode-database/miscellaneous-mathematical-symbols-a.html)
@@ -23,6 +24,7 @@ __Reference.__ Unicode Data Bank ![Boing](http://wikipediareview.com/smilys0b23a
 1.  [Close Punctuation](http://www.sql-und-xml.de/unicode-database/pe.html)
 1.  [Geometric Shapes](http://www.sql-und-xml.de/unicode-database/geometric-shapes.html)
 1.  [Other Symbols](http://www.sql-und-xml.de/unicode-database/so.html)
+1.  [Dingbats](http://www.sql-und-xml.de/unicode-database/dingbats.html)
 
 ***
 
