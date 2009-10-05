@@ -48,7 +48,7 @@ _Toby_:  Doubting a $\le$ version and believing that reflecting linear orders is
 
 ## Remarks #
 
-* The [[cycle category]] $\Lambda$ is the category of [[finite set|finite]] [[inhabited set|nonempty]] cyclically ordered sets and monotone functions, just as the [[simplex category]] $\Delta$ is the category of finite nonempty linearly ordered sets and monotone functions.
+* One would like the [[cycle category]] $\Lambda$ to be the category of [[finite set|finite]] [[inhabited set|nonempty]] cyclically ordered sets and monotone functions, just as the [[simplex category]] $\Delta$ is the category of finite nonempty linearly ordered sets and monotone functions.  However, this seems to fail for the $0$-cycle, which has a nontrivial loop and is therefore not [[terminal object|terminal]] (unlike the cyclically ordered [[singleton]], which is terminal).
 
 +-- {: .query}
 [[Todd Trimble|Todd]]: Guys, I may be confused here, but I'm having a problem: it seems that the empty relation on the 1-element set 1 is a cyclic order (in fact the only one on 1), and therefore (under the definition that monotone functions are those which reflect the cyclic order) that 1 is terminal. But then the category of finite (nonempty) cyclically ordered sets and monotone sets would have to be contractible. How does this square with the homotopy type of Connes' cyclic category (which I'm told is the same as that of $S^1$)? 
