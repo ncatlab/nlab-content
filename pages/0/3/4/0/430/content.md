@@ -56,3 +56,11 @@ _[[Gonçalo Marques]]_:  The [[sketch]] for fields is described on page 248 of "
 
 
 [[!redirects fields]]
+[[!redirects discrete field]]
+[[!redirects discrete fields]]
+[[!redirects residue field]]
+[[!redirects residue fields]]
+[[!redirects Heyting field]]
+[[!redirects Heyting fields]]
+[[!redirects heyting field]]
+[[!redirects heyting fields]]
