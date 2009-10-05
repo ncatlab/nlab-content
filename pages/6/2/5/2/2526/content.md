@@ -32,4 +32,8 @@ Note that a partial function from $p: X \dashrightarrow Y$ is formalised as a [[
 
 ## Small universe version
 
-Take a relation $m \: U \looparrowright E$ as the _family of small sets_.  Then a __small category__ is an element of ... such that ....  Along with the set of small categories, we consider the relations ..., which are respectively the families of _sets of objects_, _sets of morphisms_, _source maps_, _target maps_, and _composition maps_.
+Take a relation $m : U \looparrowright E$ as the _family of small sets_.  Then a __small category__ (relatively to this family) is an element of ... such that ....  Along with the set of small categories, we consider the relations ..., which are respectively the families of _sets of objects_, _sets of morphisms_, _source maps_, _target maps_, and _composition maps_.
+
++-- {: .standout}
+Hopefully it\'s obvious, but this not completed.  It would be nice to carry the development to the point that, given any family of sets, the relatively small categories in this sense form a category in the above sense.
+=--
