@@ -386,16 +386,100 @@ Projected onto the $\frac{\partial}{\partial s}$-component this equation says (r
 $$
   \frac{\partial}{\partial s} \bar\phi^a =
   d_{dR} \epsilon^a + 
-  C^a{}_{b c} \bar\phi^b \wedge \epsilon^c
-  + 
-  F_\phi^a|_{\frac{\partial}{\partial s}}
+  C^a{}_{\{b_i\} c} \bar\phi^{\{b_i\}} \wedge \epsilon^c
   \,,
 $$
 
-where $C^a{}_{b c}$ are the structure constants of $d_{\mathfrak{g}}$ in our chosen basis of $V^*$ and where the last expression on the right.
+where 
 
-This is the familiar **equation for infinitesimal gauge transformations** in the physics literature.
+* $C^a{}_{b c}$ are the structure constants of $d_{\mathfrak{g}}$ in our chosen basis of $V^*$ 
 
+* $F_{\eta}^a$ is the [[schreiber:curvature|curvature]] component of $\eta$ (the image or $\sigma t^a$ under $\eta$) along the interval.  
+
+This is the familiar **equation for infinitesimal gauge transformations** as it appears in the [references](#references). Or almost:
+
++-- {: .un_remark}
+###### Remark 
+
+In [[Supergravity and Superstrings - A Geometric Perspectrive|SugraGeomPersp]] a notion called
+"Lie derivative on soft group manifolds" is proposed
+(p. 125) and later used essentially for gauge transformations as above. It leads to a formula
+that looks like the above, but contains an extra
+curvature term.
+
+But the idea of "soft group manifold" itself
+seems to [[Urs Schreiber|me]] not to have a precise
+definition (in fact this entry is based on the 
+claim that what is called "soft group manifold" there
+is trying to capture the idea of [[schreiber:∞-Lie algebroid valued differential forms|L-∞-algebra valued connection forms]]) and 
+to that extent it remains unclear what 
+equation (I.3.135) actually encodes. 
+
+This is in particular a problem
+when $\mathfrak{g}$ is not just an ordinary [[Lie algebra]]
+but a general [[L-infinity-algebra ]] with higher degree
+generators. This latter
+problem seems to be the issue that section 2.3 of [Castellani 05](http://arxiv.org/abs/hep-th/0508213) wants to formalize and clarify. There, too, the idea "soft group 
+manifold" is appealed to, though.
+
+Notice that the above formula makes unambiguous and 
+perfect sense for all $L_\infty$-algebras $\mathfrak{k}$.
+
+**However** in most cases where the proposed formula including that additional curvature term is actually _used_ to do something, it is actually used for what below we identify as the action of _diffeomorphisms_  on 
+[[schreiber:∞-Lie algebroid valued differential forms|∞-Lie algebroid valued differential form]]s. 
+
+=--
+
+## diffeomorphism action of connection forms ##
+
+Let $v$ be a vector field on $X$ (here $X$ may be a [[supermanifold]] and $v$ may, accordingly, be an odd vector field). Then $v$ generates a [[diffeomorphism]]
+
+$$
+  \exp(v) : X \to X
+$$
+
+and this in turn acts on field configurations 
+$\Pi^{inf}(X) \to cone(\mathfrak{g})$ by precomposition
+
+$$
+  \cdots \mapsto 
+  \Pi^{inf}(X) \stackrel{\exp(v)}{\to}
+  \Pi^{inf}(X) \to cone(\mathfrak{a}) 
+  \,.
+$$
+
+Since this diffomorphism is connected to the identity, this is in fact a homotopy
+
+$$
+  \array{
+    \Pi^{inf}(X)
+     \\
+     \downarrow & \searow^{\phi}
+     \\
+   \Pi^{inf}(X \times I) &\stackrel{\eta}{\to}& cone(\mathfrak{g})
+     \\
+     \uparrow & \nearrow_{\exp(v) \phi}
+     \\
+     \Pi^{inf}(X)
+  }
+  \,.
+$$
+
+But it is not necessarily a _gauge transformation_ as above, in that the curvature characteristic form are also pulled back along the diffeomorphism and not required to be constant.
+
+Then, the differential form data
+
+$$
+  \Omega^\bullet(X) \letarrow W(\mathfrak{g}) : A
+$$
+
+transforms infinitesimally under this diffeomorphism by the [[Lie derivative]] $L_v = [d_{dR}, \iota_v]$, which we can write
+
+$$
+  L_v A = 
+$$
+
+...
 
 
 ## rheonomy ##
