@@ -127,7 +127,7 @@ Thus we construct the subset $\{C \in PX: A \subseteq C\}$ of $PX$ via the pullb
 $$\array{
 \arrayopts{\rowalign{center axis center}}
 \{ C : A \le C \} & \longrightarrow & 1 \\
-\downarrow & & \downarrow \rlap{\scriptsize{t_X}} \\
+\downarrow & & \downarrow \mathrlap{\scriptsize{t_X}} \\
 PX & \underset{\dlap{\chi_A \Rightarrow -}}{\longrightarrow} & PX
 }$$
 
@@ -370,7 +370,7 @@ Suppose given a map $h: A \to X$ which makes the square
 $$\array{
 \arrayopts{\rowalign{center axis center}}
 \A & \longrightarrow & 1 \\
-\llap{\scriptsize{h}} \downarrow & & \downarrow \rlap{\scriptsize{\chi_0}} \\
+\mathllap{\scriptsize{h}} \downarrow & & \downarrow \mathrlap{\scriptsize{\chi_0}} \\
 X & \underset{\dlap{\sigma_X}}{\longrightarrow} & PX
 }$$
 
