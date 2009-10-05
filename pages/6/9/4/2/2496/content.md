@@ -1570,7 +1570,7 @@ f \: \mathop{likes} \: u \: v
 
 Intuitively, the $\ell_{ij}$ operators may be thought of as qualifying propositions according to the elements of the universe of discourse that each proposition positively values.  Taken together, these measures provide us with the means to express many useful observations about the propositions in $X^\circ = \left[ u, v \right]$, and so they mediate a subtext $\left[ \ell_{00}, \ell_{01}, \ell_{10}, \ell_{11} \right]$ that takes place within the higher order universe of discourse $X^{\circ 2} = \left[ X^\circ \right] = \left[\left[ u, v \right]\right]$.  Figure&nbsp;6 summarizes the action of the $\ell_{ij}$ operators on the $f_{i}$ within $X^{\circ 2}$.
 
-__Note.__  ASCII graphic for now --- better image forthcoming.  ---[[JA]]
+__Note.__  ASCII graphic for now &hellip; better image forthcoming.  ---[[JA]]
 
 <table align="center" style="font-weight:bold"><td><font size="-1"><pre>
 o-----------------------------------------------------------o
@@ -1626,9 +1626,45 @@ $$\text{Figure 6.} \:\: \text{Higher Order Universe of Discourse} \: \left[ L_{i
 
 Our excursion into the vastening landscape of higher order propositions has finally come round to the stage where we can bring its returns to bear on opening up new perspectives for quantificational logic.
 
-It's hard to tell if it makes any difference from a purely formal point of view, but it serves intuition to devise a slightly different interpretation for the two-valued space that we use as the target of our basic indicator functions.  Therefore, let us declare the type of _existential-valued_ functions $f : \mathbb{B}^k \to \mathbb{E}$, where $\mathbb{E} = \{ -e, +e \} = \{ \mathop{empty}, \mathop{exist} \}$ is a pair of values that indicate whether or not anything exists in the domain cells of the underlying universe of discourse.  As usual, let's not be too fussy about the coding of these functions, reverting to binary codes whenever the intended interpretation is clear enough.
+It's hard to tell if it makes any difference from a purely formal point of view, but it serves intuition to devise a slightly different interpretation for the two-valued space that we use as the target of our basic indicator functions.  Therefore, let us declare the type of _existential-valued_ functions $f : \mathbb{B}^k \to \mathbb{E}$, where $\mathbb{E} = \{ -e, +e \} = \{ \mathop{empty}, \mathop{exist} \}$ is a pair of values that indicate whether or not anything exists in the cells of the underlying universe of discourse.  As usual, let's not be too fussy about the coding of these functions, reverting to binary codes whenever the intended interpretation is clear enough.
 
 With these qualifications in mind we note the following correspondences between classical quantifications and higher order indicator functions:
+
+<table align="center" cellpadding="10" cellspacing="0" markdown="1" width="80%">
+
+<caption><font size="+2">$\text{Table 7.} \:\: \text{Syllogistic Premisses as Higher Order Indicator Functions}$</font></caption>
+
+<tr>
+<td align="center">$\mathop{A}$</td>
+<td>$Absolute$</td>
+<td>$Universal Affirmative$</td>
+<td align="center">$All \: u \: is \: v$</td>
+<td>$Indicator of u \: \text{&#x2997;} v \text{&#x2998;} = 0$</td></tr>
+
+<tr>
+<td align="center">$\mathop{E}$</td>
+<td>$Exclusive$</td>
+<td>$Universal Negative$</td>
+<td align="center">$All \: u \: is \: \text{&#x2997;} v \text{&#x2998;}$</td>
+<td>$Indicator of \: u \: \cdot \: v = 0$</td></tr>
+
+<tr>
+<td align="center">$\mathop{I}$</td>
+<td>$Indefinite$</td>
+<td>$Particular Affirmative$</td>
+<td align="center">$Some \: u \: is \: v$</td>
+<td>$Indicator of \: u \: \cdot \: v = 1$</td></tr>
+
+<tr>
+<td align="center">$\mathop{O}$</td>
+<td>$Obtrusive$</td>
+<td>$Particular Negative$</td>
+<td align="center">$Some \: u \: is \: \text{&#x2997;} v \text{&#x2998;}$</td>
+<td>$Indicator of \: u \: \text{&#x2997;} v \text{&#x2998;} = 1$</td></tr>
+
+</table>
+
+The following Tables develop these ideas in more detail.
 
 <div markdown="1"><font size="+3">$\ldots$</font></div>
 
