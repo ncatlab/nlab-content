@@ -252,10 +252,10 @@ Now: a right adjoint such as $ (-)^A$ preserves all limits, and in particular pu
 
 $$
 \begin{matrix}
-B^A & \longrightarrow & 1^A \\
-\mathllap{\scriptsize{\sigma^A}} \downarrow & & \downarrow \mathrlap{\scriptsize{t^\alpha}} \\
-P(B)^A & \underset{\dlap{\chi_\sigma^A}}{\longrightarrow} & P(1)^A
-\end{matrix}
+  B^{\mathrlap{A}} & \longrightarrow & 1^{\mathrlap{A}} \\
+  \mathllap{\scriptsize{\sigma^A}}\downarrow & & \downarrow\mathrlap{\scriptsize{t^\alpha}} \\
+  P(B)^{\mathrlap{A}} & \underset{\chi_\sigma^A}{\longrightarrow} & P(1)^{\mathrlap{A}}
+ \end{matrix}
 $$
 
 Of course, we don't even have $B^A$ yet, but this should give us an idea:  _define_ $\sigma^A$, and in particular its domain $B^A$, by taking the pullback of the right-hand map along the bottom map.  In case there is doubt, the map on the bottom is defined Yoneda-wise, applying the isomorphism
