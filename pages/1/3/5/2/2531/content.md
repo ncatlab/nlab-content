@@ -175,12 +175,12 @@ $(-)^Y : \mathcal{T} \to \mathcal{T}$ preserves limits.
 ###### Proposition
 **(microlinear loci)**
 
-Let $\mathcal{F}$, $\mathcal{G}$
+Let $\mathcal{F}$, $\mathcal{G}, \mathcal{Z}, \mathcal{B}$
 be the [[smooth topos]]es of the same name that are discussed in detail in
 [[Models for Smooth Infinitesimal Analysis|MSIA, capter III]]. These are 
 constructed there as [[category of sheaves|categories of sheaves]] on a
 [[subcategory]] of the category $\mathbb{L} = (C^\infty Ring^{fin})$ of 
-[[generalized smooth algebra|smooth loci]] .
+smooth _loci_ .
 
 All [[representable functor|representable objects]] in these [[smooth topos]]es
 are microlinear. 
@@ -191,10 +191,30 @@ are microlinear.
 +-- {: .proof}
 ###### Proof
 
-This is the statement of 
-[[Models for Smooth Infinitesimal Analysis|MSIA, chapter V, section 7.1]]. 
+For $\mathcal{F}$ and $\mathcal{G}$ this is the statement of [[Models for Smooth Infinitesimal Analysis|MSIA, chapter V, section 7.1]]. 
+
+For $\mathcal{Z}$ and $\mathcal{B}$ the argument is similarly easy:
+
+These are categories of sheaves on the full category $\mathbb{L} = (C^\infty Ring^{fin})^{op}$.
+The line object $R$ is representable in each case, $R = \ell C^\infty(\mathbb{R})$.
+Every object in $\mathbb{L}$ is a limit (not necessarily finite) over copies of
+$R$ in $\mathbb{L}$. Accordingly, every object $\ell A$ of $\mathbb{L}$ satisfies the
+microlinearity axioms in $\mathbb{L}$ in that for each cocone 
+$\Delta \to \Delta_c : J \to \mathbb{L}$ of [[infinitesimal object]]s such that $R^{\Delta_c} \simeq \lim_{j \in J} R^{\Delta_j}$ we also have $(\ell A)^{\Delta_c} \simeq \lim_{j \in J} (\ell A)^{\Delta_j}$.
+Now, the [[Yoneda embedding]] $Y : \mathbb{L} \to PSh(C)$ preserves limits and
+exponentials. Since the [[Grothendieck topology]] in question is
+[[subcanonical coverage|subcanonical]], $Y((\ell A)^{\Delta_j})$
+is in $Sh(C)$ and hence is the exponential object $Y(\ell A)^{Y \Delta_j}$
+there. Finally, the _finite_ limit over $J$ is preserved by the reflection
+$PSh(C) \to Sh(C)$ (sheafification, which acts trivially on our representables), 
+so $Y(\ell A)^{\Delta_c} \simeq \lim_{j \in J}  Y(\ell A)^{Y(\Delta_j)}$
+and hence all $Y(\ell A)$ are microlinear in $\mathcal{Z}$ and $\mathcal{B}$.
+
 
 =--
+
+
+
 
 
 # References #
