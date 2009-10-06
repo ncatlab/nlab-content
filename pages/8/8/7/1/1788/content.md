@@ -48,73 +48,165 @@ Wut's th' deil with MathCal?
 
 ***
 
+* __Version 1__
+
+<div markdown="1"><font size="+1">
+$$\array{
+\arrayopts{\frame{solid}\colalign{right}}
+\alpha_{0} f = 1
+&amp; \mathop{iff}
+&amp; f_{0} \Rightarrow f
+&amp; \mathop{iff}
+&amp; 0 \Rightarrow f,
+&amp; \mathop{hence}
+&amp; \alpha_{0} f = 1
+&amp; \mathop{for all} \: f.
+\\
+\alpha_{15} f = 1
+&amp; \mathop{iff}
+&amp; f_{15} \Rightarrow f
+&amp; \mathop{iff}
+&amp; 1 \Rightarrow f,
+&amp; \mathop{hence}
+&amp; \alpha_{15} f = 1
+&amp; \mathop{iff} \: f = 1.
+\\
+\beta_{0} f = 1
+&amp; \mathop{iff}
+&amp; f \Rightarrow f_{0}
+&amp; \mathop{iff}
+&amp; f \Rightarrow 0,
+&amp; \mathop{hence}
+&amp; \beta_{0} f = 1
+&amp; \mathop{iff} \: f = 0.
+\\
+\beta_{15} f = 1
+&amp; \mathop{iff}
+&amp; f \Rightarrow f_{15}
+&amp; \mathop{iff}
+&amp; f \Rightarrow 1,
+&amp; \mathop{hence}
+&amp; \beta_{15} f = 1
+&amp; \mathop{for all} \: f.
+}$$
+</font></div>
+
+* __Version 2__
+
+<font size="+1">
+<table align="center" cellpadding="8" cellspacing="0" markdown="1" style="border:none; text-align:right">
+
+<tr>
+<td style="border:none">$\alpha_{0} f = 1$</td>
+<td style="border:none">$\mathop{iff}$</td>
+<td style="border:none">$f_{0} \Rightarrow f$</td>
+<td style="border:none">$\mathop{iff}$</td>
+<td style="border:none">$0 \Rightarrow f,$</td>
+<td style="border:none">$\mathop{hence}$</td>
+<td style="border:none">$\alpha_{0} f = 1$</td>
+<td style="border:none">$\mathop{for all} \: f.$</td></tr>
+
+<tr>
+<td style="border:none">$\alpha_{15} f = 1$</td>
+<td style="border:none">$\mathop{iff}$</td>
+<td style="border:none">$f_{15} \Rightarrow f$</td>
+<td style="border:none">$\mathop{iff}$</td>
+<td style="border:none">$1 \Rightarrow f,$</td>
+<td style="border:none">$\mathop{hence}$</td>
+<td style="border:none">$\alpha_{15} f = 1$</td>
+<td style="border:none">$\mathop{iff} \: f = 1.$</td></tr>
+
+<tr>
+<td style="border:none">$\beta_{0} f = 1$</td>
+<td style="border:none">$\mathop{iff}$</td>
+<td style="border:none">$f \Rightarrow f_{0}$</td>
+<td style="border:none">$\mathop{iff}$</td>
+<td style="border:none">$f \Rightarrow 0,$</td>
+<td style="border:none">$\mathop{hence}$</td>
+<td style="border:none">$\beta_{0} f = 1$</td>
+<td style="border:none">$\mathop{iff} \: f = 0.$</td></tr>
+
+<tr>
+<td style="border:none">$\beta_{15} f = 1$</td>
+<td style="border:none">$\mathop{iff}$</td>
+<td style="border:none">$f \Rightarrow f_{15}$</td>
+<td style="border:none">$\mathop{iff}$</td>
+<td style="border:none">$f \Rightarrow 1,$</td>
+<td style="border:none">$\mathop{hence}$</td>
+<td style="border:none">$\beta_{15} f = 1$</td>
+<td style="border:none">$\mathop{for all} \: f.$</td></tr>
+
+</table></font>
+
+***
+
 Need an easy-on-the-eyes symbol for composition on the right ---
 
-\natural &#8594; $\natural$ &#8594; $f \natural g$
+\natural &rarr; $\natural$ &rarr; $f \natural g$
 
-\natural &#8594; $\natural$ &#8594; $f \:\natural\: g$
+\natural &rarr; $\natural$ &rarr; $f \:\natural\: g$
 
-&#9838; &#8594; $\text{&#9838;}$ &#8594; $f \text{&#9838;} g$
+&amp;#x266E; &rarr; $\text{&#x266E;}$ &rarr; $f \text{&#x266E;} g$
 
-&#9005; &#8594; $\text{&#9005;}$ &#8594; $f \text{&#9005;} g$
+&amp;#x232D; &rarr; $\text{&#x232D;}$ &rarr; $f \text{&#x232D;} g$
 
-&#8692; &#8594; $\text{&#8692;}$ &#8594; $f \text{&#8692;} g$
+&amp;#x21F4; &rarr; $\text{&#x21F4;}$ &rarr; $f \text{&#x21F4;} g$
 
-&#9643; &#8594; $\text{&#9643;}$ &#8594; $f \text{&#9643;} g$
+&amp;#x25AB; &rarr; $\text{&#x25AB;}$ &rarr; $f \text{&#x25AB;} g$
 
-&#9657; &#8594; $\text{&#9657;}$ &#8594; $f \text{&#9657;} g$
+&amp;#x25B9; &rarr; $\text{&#x25B9;}$ &rarr; $f \text{&#x25B9;} g$
 
-&#9659; &#8594; $\text{&#9659;}$ &#8594; $f \text{&#9659;} g$
+&amp;#x25BB; &rarr; $\text{&#x25BB;}$ &rarr; $f \text{&#x25BB;} g$
 
-&#9645; &#8594; $\text{&#9645;}$ &#8594; $f \text{&#9645;} g$
+&amp;#x25AD; &rarr; $\text{&#x25AD;}$ &rarr; $f \text{&#x25AD;} g$
 
-&#9634; &#8594; $\text{&#9634;}$ &#8594; $f \text{&#9634;} g$ 
+&amp;#x25A2; &rarr; $\text{&#x25A2;}$ &rarr; $f \text{&#x25A2;} g$ 
 
-&#9789; &#8594; $\text{&#9789;}$ &#8594; $f \text{&#9789;} g$
+&amp;#x263D; &rarr; $\text{&#x263D;}$ &rarr; $f \text{&#x263D;} g$
 
-&#9687; &#8594; $\text{&#9687;}$ &#8594; $f \text{&#9687;} g$
+&amp;#x25D7; &rarr; $\text{&#x25D7;}$ &rarr; $f \text{&#x25D7;} g$
 
-&#9862; &#8594; $\text{&#9862;}$ &#8594; $f \text{&#9862;} g$
+&amp;#x2686; &rarr; $\text{&#x2686;}$ &rarr; $f \text{&#x2686;} g$
 
-&#9673; &#8594; $\text{&#9673;}$ &#8594; $f \text{&#9673;} g$
+&amp;#x25C9; &rarr; $\text{&#x25C9;}$ &rarr; $f \text{&#x25C9;} g$
 
-&#9681; &#8594; $\text{&#9681;}$ &#8594; $f \text{&#9681;} g$
+&amp;#x25D1; &rarr; $\text{&#x25D1;}$ &rarr; $f \text{&#x25D1;} g$
 
-&#9735; &#8594; $\text{&#9735;}$ &#8594; $f \text{&#9735;} g$
+&amp;#x2607; &rarr; $\text{&#x2607;}$ &rarr; $f \text{&#x2607;} g$
 
-&#9740; &#8594; $\text{&#9740;}$ &#8594; $f \text{&#9740;} g$
+&amp;#x260C; &rarr; $\text{&#x260C;}$ &rarr; $f \text{&#x260C;} g$
 
-&#9741; &#8594; $\text{&#9741;}$ &#8594; $f \text{&#9741;} g$
+&amp;#x260D; &rarr; $\text{&#x260D;}$ &rarr; $f \text{&#x260D;} g$
 
-&#9775; &#8594; $\text{&#9775;}$ &#8594; $f \text{&#9775;} g$
+&amp;#x262F; &rarr; $\text{&#x262F;}$ &rarr; $f \text{&#x262F;} g$
 
 ***
 
 I noticed that \Delta gives italic Greek $\Delta$, which is not standard, and shouldn't be used in any case for operators.  Is there any way, short of unicode, to get plain Greek chars in math context?
 
-* \Delta &#8594; $\Delta$
+* \Delta &rarr; $\Delta$
 
 Looks like HTML codes work well enough as a stopgap, but still, it's kinda weird.
 
-* \text{&#916;} &#8594; $\text{&#916;}$
+* \text{&amp;Delta;} &rarr; $\text{&Delta;}$
 
-* \mathop{&#916;} &#8594; $\mathop{&#916;}$
+* \mathop{&amp;Delta;} &rarr; $\mathop{&Delta;}$
 
 ***
 
 There really shouldn't be that extra space for 1-letter operators:
 
-* \mathop{d}f &#8594; $\mathop{d}f$
+* \mathop{d}f &rarr; $\mathop{d}f$
 
 I'm guessing I can use \mathrm, but that wrecks the operational semantics:
 
-* \mathrm{d}f &#8594; $\mathrm{d}f$
+* \mathrm{d}f &rarr; $\mathrm{d}f$
 
 Guessed wrong again!
 
-* {\mathop{d}f} &#8594; ${\mathop{d}f}$
+* {\mathop{d}f} &rarr; ${\mathop{d}f}$
 
-* {\mathrm{d}f} &#8594; ${\mathrm{d}f}$
+* {\mathrm{d}f} &rarr; ${\mathrm{d}f}$
 
 ***
 
