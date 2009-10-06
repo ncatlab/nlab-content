@@ -103,10 +103,10 @@ P(B)^{\mathrlap{A}} & \underset{\chi_\sigma^A}{\longrightarrow} & P(1)^{\mathrla
      1.  [Other Symbols](http://www.sql-und-xml.de/unicode-database/so.html)
      1.  [Dingbats](http://www.sql-und-xml.de/unicode-database/dingbats.html)
 
-   * __NB.__  On Windows + Firefox at any rate, most of the less ordinary symbols look better if you enclose them in a TeX + \text wrapper.  Cf and Contrast:
-     1. HTML : &amp;weierp; &rarr; &weierp;
-     1. Unicode : &amp;#x2118; &rarr; &#x2118;
-     1. TeX + \text : \text{&amp;#x2118;} &rarr; $\text{&#x2118;}$
+   * __NB.__  Depending on your font settings, the less ordinary symbols may look better if you enclose them in a TeX + \text wrapper.  Cf and Contrast:
+     1. direct : `&#8472;` or <code>&amp;weierp;</code> or `&#x2118;` &rarr; '&#8472;'
+     1. TeX : <code>$&amp;weierp;$</code> or `$&#x2118;$` (but not `$&#8472;$`) &rarr; '$&#x2118;$'
+     1. TeX + \text : `$\text{&#8472;}$` or <code>$\text{&amp;weierp;}$</code> or `$\text{&#x2118;}$` &rarr; '$\text{&#8472;}$'
 
 ## _n_-Lab Specifics
 
