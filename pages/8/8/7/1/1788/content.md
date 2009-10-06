@@ -48,7 +48,9 @@ Wut's th' deil with MathCal?
 
 ***
 
-* __Version 1__
+Just from a Windows + Firefox (dysad-)vantage point, it doesn't look like right alignment in arrays and tables is working here:
+
+* __Version 1.__  Itex `\array` with `\colalign{right}` 
 
 <div markdown="1"><font size="+1">
 $$\array{
@@ -91,10 +93,9 @@ $$\array{
 }$$
 </font></div>
 
-* __Version 2__
+* __Version 2.__  HTML `table` with `text-align:right`
 
-<font size="+1">
-<table align="center" cellpadding="8" cellspacing="0" markdown="1" style="border:none; text-align:right">
+<font size="+1"><table align="center" cellpadding="8" cellspacing="0" markdown="1" style="text-align:right">
 
 <tr>
 <td style="border:none">$\alpha_{0} f = 1$</td>
