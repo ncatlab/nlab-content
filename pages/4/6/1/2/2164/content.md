@@ -1,3 +1,12 @@
+<div class="rightHandSide toc">
+[[!include synthetic differential geometry - contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 # Idea #
 
 An infinitesimal quantity is a quantity which is infinitely small in size, yet not necessarily perfectly small (zero).  An infinitesimal object is an object whose [[generalised elements]] are to be thought of as infinitesimal quantities.
@@ -37,6 +46,8 @@ See
 
 
 # Definition #
+
+## atomic space ##
 
 +-- {: .un_defn}
 ###### Definition (Lawvere)
@@ -83,6 +94,36 @@ This is maybe most familiar in the context of [[loop space]]s (for $\Sigma$ the 
 But suppose that $\Sigma$ were infinitesimal. One thning that should mean is that there is no other space that is "effectively smaller" in some useful sense. For $\Sigma$ infinitesimal, we do expect that every map $\Sigma \to X$ can always be factored through at least one of the $U_i$: because $\Sigma$ is so small, the image of a map out of it can never be too large.
 
 So only if $\Sigma$ qualifies as having infinitesimal extension can the functor $[\Sigma,-]$ be expected to preserve colimits.
+
+## formal infinitesimal space ##
+
+**definition**
+**(formal infinitesimal space)**
+
+An object $\Delta$ in a [[smooth topos]] $(\mathcal{T}, R)$
+is called a **formally infinitesimal object** if it is the
+algebra-spectrum of a Weil-$R$-algebra in $\mathcal{T}$
+
+$$
+  \Delta \simeq Spec_R(W)
+  \,,
+$$
+
+where 
+
+* $W = R \oplus J$ is an [[internalization|internal]] $R$-algebra object in $\mathcal{T}$
+  with $J$ an $R$-finite dimensional nilpotent ideal
+  
+* $Spec_R(W) := R Alg_{\mathcal{T}}(W,R) \subset R^W$ is the [[subobject]]
+  of the [[internal hom]] of morphisms that respect the $R$-algebra structure
+  on $W$ and $R$.
+
+
+All the spaces that are described as collection of degree $n$ infinitesimal
+neighbours are of this form. Infinitesimal spaces not of this form
+are germ-spaces. These violate the finite-dimensionality assumption on $J$.
+
+
 
 # Examples #
 
@@ -350,10 +391,29 @@ objects $D$, $D_k$, $D_k(n)$ is in section 1.2 of
 
 * Anders Kock, _Synthetic Geometry of Manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
+## atomic spaces ##
+
 Details on the right adjoint to the exponentiation functor $(-)^X$ for
 $X$ an infinitesimal object are in appendix 4 of 
 
 * Moerdijk, Reyes, _[[Models for Smooth Infinitesimal Analysis]]_
+
+
+## formally infinitesimal spaces ##
+
+For formal infinitesimal objects and Weil algebras see 
+
+section I.16 of 
+
+* [[Anders Kock]], _Synthetic differential geometry_ ([pdf]())
+
+and chapter I, section 4 and chapter II, theorem 1.13 and onwards in
+
+* [[Ieke Moerdijk]], [[Gonzalo Reyes]], [[Models for Smooth Infinitesimal  Analysis]]
+
+
+
+
 
 [[!redirects infinitesimal space]]
 [[!redirects infinitesimal quantity]]
