@@ -37,5 +37,3 @@ $$
 # Examples #
 
 * For $A = VectrBund(-)$ the difference between concordance of [[vectorial bundles]] and isomorphism of vectorial bundles plays a crucial rule in the construction of [[K-theory]] from this model.
-
-[[Note on Formatting|?]]
