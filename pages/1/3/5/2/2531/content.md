@@ -1,0 +1,230 @@
+#Contents#
+
+* automatic table of contents goes here
+{:toc}
+
+# Idea #
+
+In traditional [[differential geometry]] a smooth [[manifold]] may be thought of as a "locally linear space": a space that is locally isomorphic to a 
+[[vector space]] $\simeq \mathbb{R}^n$.
+
+In the broader context of [[synthetic differential geometry]]  there may exist [[space]]s -- in a [[smooth topos]] $\mathcal{T}$ with line object $R$ --
+considerably more general than manifolds. While for all of them  there is a notion of [[tangent bundle]] $T X : = X^D$ (with $D$ the [[infinitesimal space|infinitesimal interval]]), not all such tangent bundles 
+necessarily have $R$-linear fibers! 
+
+A _microlinear space_  is essentially an object $X$ in a [[smooth topos]],  such that its [[tangent bundle]] does have $R$-linear fibers.
+
+In fact the definition is a bit stronger than that, but the main point in practice of microlinearity is that the linearity of the fibers of the tangent bundle allows to apply most of the familiar constructions in [[differential geometry]]  to these spaces.
+
+# Definition #
+
+
++-- {: .un_defn}
+###### Definition
+**(microlinear space)**
+
+
+Let $\mathcal{T}$ be a [[smooth topos]] with line object $R$.  An object $X \in \mathcal{T}$
+is a **microlinear space** if for each diagram $\Delta : J \to \mathcal{T}$ of [[infinitesimal space]]s in $\mathcal{T}$ and for each [[colimit|cocone]] $\Delta \to \Delta_c$ under it such that homming into $R$ produces a [[limit]] diagram , $R^\Delta_c \simeq \lim_{j \in J} R^{\Delta_j}$, 
+also homming into $X$ produces a limit diagram: $X^\Delta_c \simeq \lim_{j \in J} X^{\Delta_j}$.
+
+=--
+
+
+The main point of this definition is the following property.
+
++-- {: .un_prop}
+###### Proposition
+**(fiberwise linearity of tangent bundle)**
+
+For every microlinear space $X$, the [[tangent bundle]] $X^D \to X$ has a natural fiberwise $R$-[[module]]-structure.
+
+=--
+
++-- {: .proof}
+###### Construction and Proof
+
+We describe first the addition of tangent vectors, then tha $R$-action on them and then prove that this is a [[module]]-structure.
+
+* **Addition** With $D = \{\epsilon \in R| x^2\}$ the 
+  [[infinitesimal space|infinitesimal interval]] and 
+  $D(2) = \{(\epsilon_1, \epsilon_2) \in R \times R | \epsilon_i^2 = 0\}$
+  we have a cocone
+  
+  $$
+    \array{
+      D(2) &\leftarrow& D
+      \\
+      \uparrow && \uparrow
+      \\
+      D &\leftarrow& {*}
+    }
+  $$
+
+  such that  
+
+  $$
+    \array{
+      R^{D(2)} &\to & R^D
+      \\
+      \downarrow && \downarrow
+      \\
+      R^D &\to& R
+    }
+  $$
+
+  is a [[limit]] cone by the [[Kock-Lawvere axiom]]. Since $X$ is microlinear,
+  also the canonical map
+  
+  $$
+    r : X^{D(2)} \to X^D \times_X X^D
+  $$
+
+  is an [[isomorphism]]. With $\Id \times Id : D \to D(2)$ the diagonal
+  map we then define the fiberwise addition $X^D \times_X X^D \to X^D$ in 
+  the [[tangent bundle]] $X^D$ 
+  to be given by the map
+  
+  $$  
+    + : X^D \times_X X^D \stackrel{r^{-1}}{\to} X^{D(2)} \stackrel{X^{Id \times Id}}{\to}
+    X^D
+    \,.
+  $$
+
+  On elements, this sends two elements $v_1, v_2 \in X^D$ in the same fiber to the element $v_1 + v_2$ of $X^D$ given by the map $(v_1 + v_2) : d \mapsto r^{-1}(v_1,v_2)(d,d)$.
+
+  **Multiplication** $ \cdot : R \times X^D \to X^D$ is defined component wise by
+
+  $\cdot (\alpha, v) : d \mapsto (v (\alpha \cdot d))$.
+  
+One checks that this is indeed unital, associative and distributive. ...
+
+=--
+
+
+# Examples #
+  
+A large class of examples is implied by the following proposition.
+
++-- {: .un_prop}
+###### Proposition
+**(closedness of the collection of microlinear spaces)**
+
+In every [[smooth topos]] $(\mathcal{T},R)$ we have
+the following.
+
+1. The standard line $R$ is microlinear.
+
+1. The collection of microlinear spaces is closed under [[limit]]s in $\mathcal{T}$:
+
+   for $X = \lim_i X_i$ a [[limit]] of microlinear spaces $X_i$, also $X$ is microlinear.
+  
+1. Mapping spaces into microlinear spaces are microlinear: for $X$ any microlinear space and $\Sigma$ any space, also the [[internal hom]] $X^\Sigma$ is microlinear.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+This is obvious from the standard properties
+of [[limit]]s and the fact that the [[internal hom]]-functor
+$(-)^Y : \mathcal{T} \to \mathcal{T}$ preserves limits.
+(See [[limits and colimits by example]] if you don't find it obvious.)
+
+1. by definition
+
+1. Let $\Delta$ be the tip of a cocone $\Delta_j$ of infinitesimal spaces such 
+   that $\lim_j R^{\Delta_j} = R^\Delta$. Then 
+   
+   $$
+     \begin{aligned}
+       X^{\Delta} 
+        &= (\lim_i X_i)^\Delta 
+        \\
+        &\simeq \lim_i X_i^{\Delta}
+        \\
+        & \simeq \lim_i \lim_j X_i^{\Delta_j} 
+        \\
+        & \simeq \lim_j \lim_i X_i^{\Delta_j}
+        \\
+        & \simeq \lim_j X^{\Delta_j}
+      \end{aligned}
+   $$
+  
+1. with $\Delta$ as above we have (writing $[A,B]$ for the [[internal hom]] otherwise
+   equivalently denoted $B^A$)
+
+   $$
+     \begin{aligned}
+       [\Delta, [\Sigma, X]] & \simeq [\Delta \times \Sigma, X]  
+       \\ 
+       & \simeq [\Sigma, [\Delta, X]] 
+       \\
+       & \simeq [\Sigma, \lim_j [\Delta_j, X]]
+       \\
+       & \simeq \lim_j [\Sigma, [\Delta_j, X]]
+       \\
+       & \simeq  \lim_j [\Delta_j, [\Sigma, X]]
+     \end{aligned}
+   $$
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+**(microlinear loci)**
+
+Let $\mathcal{F}$, $\mathcal{G}$
+be the [[smooth topos]]es of the same name that are discussed in detail in
+[[Models for Smooth Infinitesimal Analysis|MSIA, capter III]]. These are 
+constructed there as [[category of sheaves|categories of sheaves]] on a
+[[subcategory]] of the category $\mathbb{L} = (C^\infty Ring^{fin})$ of 
+[[generalized smooth algebra|smooth loci]] .
+
+All [[representable functor|representable objects]] in these [[smooth topos]]es
+are microlinear. 
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+This is the statement of 
+[[Models for Smooth Infinitesimal Analysis|MSIA, chapter V, section 7.1]]. 
+
+=--
+
+
+# References #
+
+The notion of microlinear space in the above fashion is due to
+
+* F. Bergeron, (1980)
+
+and was studied further under the name _strong infinitesimal linearity_
+
+* [[Anders Kock]], R. Lavendhomme, _Strong infinitesimal linearity, with applications
+   to string difference and affine connections_, Cahiers de Top. 25 (1984)
+
+This is similar to but stronger than the earlier "condition (E)" given in
+
+* Demazure (1970)
+
+which apparently was also called "infinitesimal linearity" (without the "strong").
+
+Spaces satisfying this condition were called _infinitesimally linear spaces_, for
+instance in
+
+* [[Anders Kock]] (1981) .
+
+The later re-typing  of that book 
+
+* [[Anders Kock]], _Synthetic Differential Geometry_ (2006)  ([pdf](http://home.imf.au.dk/kock/sdg99.pdf))
+
+contains in its appendix D the definition of microlinearity as above.
+
+A comprehensive discussion of microlinearity is in chapter V, section 1 of
+
+* [[Ieke Moerdijk]], [[Gonzalo Reyes]], [[Models for Smooth Infinitesimal Analysis]]
