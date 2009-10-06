@@ -1,3 +1,11 @@
+<div class="rightHandSide toc">
+[[!include synthetic differential geometry - contents]]
+</div>
+
+#Contents#
+* tic
+{:toc}
+
 #Idea#
 
 In as far as a  [[generalized smooth space]] is a (pre)sheaf on smooth test domains, following the lore of [[space and quantity]] a generalized smooth quantity (such as a generalized smooth function or a generalized smooth section) is a co-presheaf on smooth test domains.
@@ -81,6 +89,18 @@ The category of such functors and [[natural transformation]]s between them we de
 =--
 
 
+
++-- {: .un_remark}
+###### Remark on terminology
+
+The standard name in the literature for generalized smooth algebras is
+**$C^\infty$-rings**. Even though standard, this has the disadvantages for us 
+that it collides badly with the use of $\infty-$ for 
+[[higher category theory|higher categorical]] structures. 
+
+=--
+
+
 +-- {: .un_defn}
 ###### Definition
 
@@ -125,6 +145,90 @@ the **smooth tensor product over $C$** of $A$ and $B$.
 
 =--
 
+
+## internal smooth algebras ##
+
+For any [[smooth topos]] $(\mathcal{T}, R)$, there is an [[internalization|internal]]
+notion of [[generalized smooth algebra]]:
+
+**definition**
+**(internal generalized smooth algebra)**
+
+For $(\mathcal{T}, R)$ a [[topos]] equipped with an [[internalization|internal]]  
+[[ring]] object $R$ (possibly but not necessarily a [[smooth topos]]), let
+$CartSp(\mathcal{T},R)$ be the full [[subcategory]] of $\mathcal{T}$ on 
+objects of the form $R^n$ for $n \in \mathbb{N}$. Then a
+**$(\mathcal{T},R)$-algebra** is a product-preserving functor 
+$A : CartSp(\mathcal{T}, R) \to Set$.
+
+All constructions on smooth algebras generalize to $(\mathcal{T},R)$-algebras.
+In particular for $X \in \mathcal{T}$ any object we have the function 
+$(\mathcal{T},R)$-algebra
+
+$$
+  C(X) : R^n \mapsto \mathcal{T}(X,R^n)
+  \,.
+$$
+
+
+The following remark asserts that when $\mathcal{T}$ is itself
+a sufficiently nice [[category of sheaves]] on formal duals of $(Set,\mathbb{R})$-algebras,
+then the internal notion of smooth function algebras on formal duals
+of external smooth algebras reproduces these external smooth algebras.
+**Pro
+
+Let $A$ be a finitely generated $C^\infty$-ring, $\ell A$ its incarnation as an object in 
+$\mathbb{L} = (C^\infty Ring^{fin})^{op}$ and $Y\ell A$ its incarnation in 
+$Sh(\mathbb{L}) \subset PSh(\mathbb{L})$, with $Y$ the [[Yoneda embedding]] and
+using the assumption that the [[Grothendieck topology]] used to form $Sh(\mathbb{L})$
+is [[subcanonical coverage|subcanonical]].
+
+Also that the line object $R$ is [[representable functor|represented]]
+by $\ell C^\infty(\mathbb{R})$ 
+
+Then we have for all
+$A \in C^\infty Ring^{fin}$ that
+
+$$
+  C(Y\ell A) : R^n \mapsto A({*})^n
+$$
+
+
+**Proof**
+
+This is a straightforward manipulation:
+
+$$
+  \begin{aligned}
+    Sh_{\mathbb{L}}(Y(\ell A), R^n)
+    & =
+    Sh_{\mathbb{L}}(Y(\ell A), Y(\ell C^\infty(\mathbb{R}^n)))
+    \\
+    & = PSh_{\mathbb{L}}(Y(\ell A), Y(\ell C^\infty(\mathbb{R}^n)))
+    \\
+    & \simeq \mathbb{L}(\ell A, \ell C^\infty(\mathbb{R}^n))
+    \\
+    & \simeq C^\infty Ring^{fin}(C^\infty(\mathbb{R}^n), A)
+    \\
+    & \simeq A({*})^n
+  \end{aligned}  
+$$
+
+Here
+
+1. the first step expresses the nature of the line object in the models under consideration
+
+1. the second step expresses that the embedding $Sh(\mathbb{L}) \to PSh(\mathbb{L})$
+   is a [[full and faithful functor]]
+   
+1. the third step expresses that the [[Yoneda embedding]] is a [[full and faithful functor]]
+
+1. the forth step is the definition of $\mathb{L}$ as the [[opposite category]] of
+   $C^\infty Ring^{op}$
+   
+1. the fifth step expresses that $C^\infty(R^n)$ is the free [[generalized smooth algebra]]
+   on $n$ generators ([[Models for Smooth Infinitesimal Analysis|MSIA, chaper I, prop 1.1]])
+   
 
 
 
