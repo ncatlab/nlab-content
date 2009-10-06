@@ -24,18 +24,14 @@ $$
 is an object $\eta \in A(X \times I)$ such that
 
 $$
-  \array{
-    X
-    \\
-    \downarrow & \searrow^{c}
-    \\
-    X \times I &\stackrel{\eta}{\to}& A
-    \\
-    \uparrow & \nearrow_{d}
-    \\
-    X
-  }
-  \,.
+\begin{matrix}
+X \\
+\downarrow&\searrow^{\mathrlap{c}}\\
+\mathclap{X \times I}&\stackrel{\eta}{\to}& A\\
+\uparrow& \nearrow_{\mathrlap{d}}\\
+X 
+\end{matrix}
+\,.
 $$
 
 # Examples #
