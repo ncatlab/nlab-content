@@ -7,7 +7,7 @@ In the axiomatic formulation of [[differential geometry]] given by [[synthetic d
 
 +-- {: .un_defn}
 ###### Definition
-**(integration axiom)*
+**(integration axiom)**
 
 Let $(\mathcal{T}, R)$ be a [[smooth topos]] and let the line object $R$ be equipped with the structure of a [[partial order]] $(R, \leq)$ compatible with its [[ring]] structure $(R, +, \cdot)$ in the obvious way.
 
@@ -17,7 +17,7 @@ $$
   [a,b] := \{x \in R | a \leq x \leq b\}
 $$
 
-We say that $(\mathcal{T},(R,+,\cdot,\geq))$ satisfies the **integration axiom** if for all such intervals, all functions on the interval arise uniquely as derivatives on functions on the interval that vanish at the left boundary:
+We say that $(\mathcal{T},(R,+,\cdot,\leq))$ satisfies the **integration axiom** if for all such intervals, all functions on the interval arise uniquely as derivatives on functions on the interval that vanish at the left boundary:
 
 $$
   \forall f \in R^{[a,b]} : \exists ! \int_a^{-} f \in R^{[a,b]} :
