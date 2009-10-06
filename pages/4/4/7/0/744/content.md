@@ -1,7 +1,7 @@
+# Frequently Asked Questions #
+
 * tic
 {:toc}
-
-# Frequently Asked Questions #
 
 Also including questions that should be frequently asked but aren't.  See also [[HowTo]].
 
@@ -60,8 +60,6 @@ P(B)^{\mathrlap{A}} & \underset{\chi_\sigma^A}{\longrightarrow} & P(1)^{\mathrla
         P(B)^{\mathrlap{A}} & \underset{\chi_\sigma^A}{\longrightarrow} & P(1)^{\mathrlap{A}}
         \end{matrix}
         $$
-
-   (Well, that would work as intended, whenever some lab elf updates the nlab's copy of `itex2MML`.)
 
    You can get nicer-looking output by using SVG.  The way to get math into the SVG is to use the SVG `<foreignObject>` tag with itex math `$...$` inside it.  As in the previous question, for this to work you need to put `markdown="1"` on the `<foreignObject>` tag or else on a `<g>` tag containing it.
 
