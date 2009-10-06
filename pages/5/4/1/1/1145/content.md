@@ -45,4 +45,6 @@
   * [[Fourier transform]]
 * [[discrete mathematics]]
 
+  * [[set theory]]
+
 <div markdown="1">[Edit this sidebar](/nlab/edit/mathematicscontents)</div>
