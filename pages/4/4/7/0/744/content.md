@@ -1,10 +1,13 @@
-# Frequently Asked Questions
+* tic
+{:toc}
+
+# Frequently Asked Questions #
 
 Also including questions that should be frequently asked but aren't.  See also [[HowTo]].
 
-## Instiki features and "features"
+## Instiki features and "features" ##
 
-1. *How do I put math inside HTML?*
+1. _How do I put math inside HTML?_
 
    By default, the itex syntax `$...$` is disabled inside raw HTML.  However, you can re-enable it by giving the HTML parameter `markdown="1"`.  Thus
 
@@ -16,7 +19,7 @@ Also including questions that should be frequently asked but aren't.  See also [
 
    However, for tables you can also use the [PHP Markdown Extra](http://michelf.com/projects/php-markdown/extra/#table) syntax inside which `$...$` works without a problem.
 
-1. *How do I make commutative diagrams?*
+1. _How do I make commutative diagrams?_
 
    One answer is to use the `matrix` environment of itex. For example,
 
@@ -64,17 +67,17 @@ P(B)^{\mathrlap{A}} & \underset{\chi_\sigma^A}{\longrightarrow} & P(1)^{\mathrla
 
    As for how to get the SVG itself, including the arrows, there are several options.  You can use a vector graphics program that produces SVG output (anyone have a good one to suggest?).  You'll probably have to modify it by hand, though, to put in the itex math.  You can also just copy the SVG from another page and modify it by hand; some pages currently containing SVG diagrams are [[monoidal category]], [[oriental]] and [[comma object]].
 
-1. *My reference cites the wrong theorem.*
+1. _My reference cites the wrong theorem._
 
     If you want to use references with numbered theorems and the like then there has to be a reference for _every_ numbered theorem.
     Specifically, if you want to reference a particular theorem then every previous numbered theorem has to have a label otherwise the counters are not synchronised.
     (This is an unfortunate but necessary consequence of being able to easily add new theorem-like environments via CSS.)
 
-1. *My math doesn't look like math.*
+1. _My math doesn't look like math._
 
    One of the notable ways in which itex differs from latex is that in itex's math mode, a string of letters without spaces in between is interpreted as a single identifier.  This has the advantage that you can invent new identifiers without needing to use `\operatorname` or `\DeclareMathOperator`, but it means that when you _don't_ want a string of letters interpreted that way you need to put spaces in between.  For example, `$sin(x)$` produces $sin(x)$ which is probably what you want, but `$h=gf$` produces $h=gf$, whereas you probably wanted to write `$h=g f$` to get $h=g f$. On the other hand, you can (and, for the sake of the LaTeX output, probably should) use `$\sin(x)$`, etc.
 
-1. *Lists are acting strangely.*
+1. _Lists are acting strangely._
 
    There are several bugs (or "edge cases") in the handling of lists by Maruku (the formatting filter used by Instiki).  These include:
 
@@ -83,17 +86,34 @@ P(B)^{\mathrlap{A}} & \underset{\chi_\sigma^A}{\longrightarrow} & P(1)^{\mathrla
 
 ## HTML, XML, etc.
 
-1. *How do I get accented characters?*
+1. _How do I get accented characters?_
 
-   You can use HTML/XML/SGML [character entity references](http://www.w3schools.com/tags/ref_entities.asp).  If the character you want has a mnemonic HTML name, like &amp;eacute; for &eacute;, you can use that.  Otherwise, you can use an SGML numerical code, like &amp;#x34AB; for &#x34AB;, that corresponds directly to Unicode.  To look up the numbers for SGML characters, try the [Unicode Character Names Index](http://unicode.org/charts/charindex.html).  [[Toby Bartels|Toby]] has a [complete list of HTML and XML character entity references](http://toby.bartels.name/characters/) with individual pages where you can check browser compliance (originally for when you couldn\'t take even things like &amp;harr; for granted, but even now &amp;lrm; and &amp;thinsp; may be lacking).  While you can use this technique for mathematical symbols too, it\'s best to do those in iTeX as explained above.
+   You can use HTML/XML/SGML [character entity references](http://www.w3schools.com/tags/ref_entities.asp).  If the character you want has a mnemonic HTML name, like &amp;eacute; for &eacute;, you can use that.  Otherwise, you can use an SGML numerical code, like &amp;#x34AB; for &#x34AB;, that corresponds directly to Unicode.  To look up the numbers for SGML characters, try the [Unicode Character Names Index](http://unicode.org/charts/charindex.html).  [[Toby Bartels|Toby]] has a [complete list of HTML and XML character entity references](http://toby.bartels.name/characters/) (&larr; __NB.__ This link is broken &mdash; try the Unicode Databank pages listed in the [[Sandbox]]) with individual pages where you can check browser compliance (originally for when you couldn\'t take even things like &amp;harr; for granted, but even now &amp;lrm; and &amp;thinsp; may be lacking).  While you can use this technique for mathematical symbols too, it\'s best to do those in iTeX as explained above.
+
+__Reference.__  [Unicode Data Bank](http://www.sql-und-xml.de/unicode-database/)
+
+* Frequently Occurring Characters (FOC's):
+   1.  [Math Symbols](http://www.sql-und-xml.de/unicode-database/sm.html)
+   1.  [Math Operators](http://www.sql-und-xml.de/unicode-database/mathematical-operators.html)
+   1.  [Math Miscellaneous A](http://www.sql-und-xml.de/unicode-database/miscellaneous-mathematical-symbols-a.html)
+   1.  [Math Miscellaneous B](http://www.sql-und-xml.de/unicode-database/miscellaneous-mathematical-symbols-b.html)
+   1.  [Letterlike Symbols](http://www.sql-und-xml.de/unicode-database/letterlike-symbols.html)
+   1.  [Miscellaneous Symbols](http://www.sql-und-xml.de/unicode-database/miscellaneous-symbols.html)
+   1.  [General Punctuation](http://www.sql-und-xml.de/unicode-database/general-punctuation.html)
+   1.  [Open Punctuation](http://www.sql-und-xml.de/unicode-database/ps.html)
+   1.  [Other Punctuation](http://www.sql-und-xml.de/unicode-database/po.html)
+   1.  [Close Punctuation](http://www.sql-und-xml.de/unicode-database/pe.html)
+   1.  [Geometric Shapes](http://www.sql-und-xml.de/unicode-database/geometric-shapes.html)
+   1.  [Other Symbols](http://www.sql-und-xml.de/unicode-database/so.html)
+   1.  [Dingbats](http://www.sql-und-xml.de/unicode-database/dingbats.html)
 
 ## _n_-Lab Specifics
 
-1.  *Why did my page get redirected?*
+1.  _Why did my page get redirected?_
 
     Did you read the _Naming Conventions_ section on the [[HowTo]]?
 
-1.  *Where do I ask a question?*
+1.  _Where do I ask a question?_
 
     How many times have you wanted to ask it?  If more than three times, put it here (*joke*!).
 
