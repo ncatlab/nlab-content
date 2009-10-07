@@ -10,13 +10,21 @@
 
   * [[integration axiom]]
 
-* [[microlinear space]]
+* [[infinitesimal path ∞-groupoid in a lined topos|infinitesimal path ∞-groupoid]]
+
+  * [[microlinear space]]
 
   * [[tangent bundle]]
 
   * [[infinitesimal neighbour]]
 
   * [[differential forms in synthetic differential geometry|differential forms]]
+
+* [[path ∞-groupoid in a smooth topos|smooth path ∞-groupoid]]
+
+  * [[simplex in a smooth topos]]
+
+
 
 ## Models ##
 
