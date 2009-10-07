@@ -1,3 +1,8 @@
+##Contents##
+
+* automatic table of contents goes here
+{:toc}
+
 ##  Idea
 
 A __graph__ is a collection of _vertices_ and _edges_; each edge links a pair of vertices.  There are several variations on the idea, described below.
