@@ -1,4 +1,7 @@
-[[!redirects global model structures on functor categories]]
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 
 # Idea #
 
@@ -24,3 +27,4 @@ For instance proposition A.2.8.2 of
 
 [[!redirects injective model structure]]
 [[!redirects projective model structure]]
+[[!redirects global model structures on functor categories]]
