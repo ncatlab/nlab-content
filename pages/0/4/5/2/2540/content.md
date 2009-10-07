@@ -128,7 +128,7 @@ $$
 
 Recall that an object $X$ in a [[smooth topos]] is called a [[microlinear space]] if, essentially, the [[tangent bundle]] $p_{T X} : X^D \to X$ has a fiberwise $R$-linear structure.
 
-In oparticular for $X$ microlinear, there is therefore an action
+For $X$ microlinear, there is therefore in oparticular an action
 
 $$
   X^D \times R \to X^D
@@ -154,16 +154,24 @@ $$
 +-- {: .un_def}
 ###### Definition
 
-...
+For $X \in \mathcal{T}$ a [[microlinear space]] in a [[smooth topos]] $(\mathcal{T},R)$ write
+
+$$
+  X^{\Delta^1_{inf}} := X^D \otimes_R D
+  \,.
+$$
 
 =--
+
+This means that elements of $X^{\Delta^1_{inf}}$ are equivalence classes of pairs of elements $(v, \epsilon) \in X^D \times D$ where the equivalence relation is $(t\cdot v, \epsilon) \sim (v, t \cdot \epsilon)$ for all $t \in R$.
+
 
 
 
 +-- {: .un_remark}
 ###### Remark on notation
 
-The notatin $X^{\Delta^1_{inf}}$ is primitive notation and does not denote an [[internal hom]]. It is very suggestive, though, in the context of the canonical embedding
+The notatin $X^{\Delta^1_{inf}}$ is primitive notation and does not denote an [[internal hom]]. It is usefully suggestive, though, in the context of the canonical embedding
 
 $$
   X^{\Delta^1_{inf}} \hookrightarrow X^{\Delta^1_{\mathcal{T}}}
@@ -173,13 +181,63 @@ of infinitesimal neighbours regarded as infinitesimal path into all paths.
 
 =--
 
+Let $\Delta^1_{\mathcal{T}}$ be the [[simplex in a lined topos|standard 1-simplex in the smooth topos]] $(\mathcal{T},R)$: as an object this is just $R$. 
 
-## definition for formal manifolds ##
+### properties ###
 
+Some observations:
+
+* $X^{\Delta^1_{inf}}$ still has a conical $(R,cdot)$-action
+
+* Every morphism $\omega : X^{\Delta^1_{inf}} \to R$ that takes 0-vectors to 0 is $(R,\cdot)$-linear: for all $v : {*} \to X^D$ we have for all $t \in R$ that $\omega(t (v,\epsilon)) = t \omega(v,\epsilon)$.
+
+  **Proof**
+
+  By the nature of the tensor product we may take $R$ as acting only on the $D$-factor. Then for fixed $v \in X^D$ the map in question is
+
+  $$
+    D \simeq {*}\times D \stackrel{v \times Id}{\to} 
+    X^D \times D \to R
+ $$
+
+  which by the [[Kock-Lawvere axiom]] is linear.
+
+
+* There is a canonical [[monomorphism]]
+
+  $$
+    i: 
+    X^{\Delta^1_{inf}} \hookrightarrow 
+    X^{\Delta^1_{\mathcal{T}}}
+  $$
+
+  defined as follows:
+
+  let $f : X^D\\times D \to X^R$ be 
+  the [[internal hom]] [[adjunct]] of
+
+  $$
+    \bar f : X^D \times D \times R 
+    \stackrel{Id times \cdot}{\to}
+     X^D \times D
+     \stackrel{ev}{\to}
+     X
+     \,.
+  $$
+
+  This $f$ does coequalize the two morphisms $X^D \times R \times D \stackrel{\to}{\to} X^D \times D$ and this way defines $i : X^D \otimes_R D \to X^R$.
+
+
+
+## definition for manifolds ##
+
+In particular every [[manifold]] is a [[microlinear space]]. We show that for $X$ a [[manifold]] the object $X^{\Delta^1_{inf}}$ from above coincides with the usual notion.
 
 ...
 
-See section I.17 in
+...
+
+See also section I.17 in
 
 * [[Anders Kock]], _Synthetic differential geoemtry_ ([pdf](http://home.imf.au.dk/kock/sdg99.pdf))
 
@@ -193,10 +251,8 @@ let $X = Spec(A)$. Let $J = ker(\cdot : A \otimes A \to A)$ be the ideal of func
 
 ...
 
-#Related concpt#
+#Related concepts#
 
-
-# infinitesimal path $\infty$-groupoid # 
 
 The collection of first order infinitesimal neighbours of a space $X$ arranges itself into the [[schreiber:infinitesimal path ∞-groupoid]] $\Pi^{inf}(X)$. Various concepts derive from this one:
 
