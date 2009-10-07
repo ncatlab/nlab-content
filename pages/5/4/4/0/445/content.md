@@ -1,3 +1,8 @@
+#Contents#
+
+* automatic table of contents goes here
+{:toc}
+
 # Idea #
 
 The familiar notion of the image of a map of sets may be formalized to yield a notion of image for morphisms in an arbitrary [[category]].
