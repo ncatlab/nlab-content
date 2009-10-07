@@ -1929,6 +1929,262 @@ The following Tables develop these ideas in more detail.
 
 </table>
 
+<table align="center" cellpadding="1" cellspacing="0" markdown="1" style="text-align:center; width:90%">
+
+<caption><font size="+2">$\text{Table 9.} \:\: \text{Simple Qualifiers of Propositions (Version 2)}$</font></caption>
+
+<tr>
+<td width="4%" style="border-bottom:2px solid black" align="right">
+    $u:$<br>
+    $v:$</td>
+<td width="6%" style="border-bottom:2px solid black">
+    $1100$<br>
+    $1010$</td>
+<td width="10%" style="border-bottom:2px solid black; border-right:2px solid black">
+    $f$</td>
+<td width="10%" style="border-bottom:2px solid black">
+    $\text{&#x2997;} \ell_{11} \text{&#x2998;}$<br>
+    $No \: u$<br>
+    $is \: v$</td>
+<td width="10%" style="border-bottom:2px solid black">
+    $\text{&#x2997;} \ell_{10} \text{&#x2998;}$<br>
+    $No \: u$<br>
+    $is \: \text{&#x2997;} v \text{&#x2998;}$</td>
+<td width="10%" style="border-bottom:2px solid black">
+    $\text{&#x2997;} \ell_{01} \text{&#x2998;}$<br>
+    $No \: \text{&#x2997;} u \text{&#x2998;}$<br>
+    $is \: v$</td>
+<td width="10%" style="border-bottom:2px solid black">
+    $\text{&#x2997;} \ell_{00} \text{&#x2998;}$<br>
+    $No \: \text{&#x2997;} u \text{&#x2998;}$<br>
+    $is \: \text{&#x2997;} v \text{&#x2998;}$</td>
+<td width="10%" style="border-bottom:2px solid black">
+    $\ell_{00}$<br>
+    $Some \: \text{&#x2997;} u \text{&#x2998;}$<br>
+    $is   \: \text{&#x2997;} v \text{&#x2998;}$</td>
+<td width="10%" style="border-bottom:2px solid black">
+    $\ell_{01}$<br>
+    $Some \: \text{&#x2997;} u \text{&#x2998;}$<br>
+    $is   \: v$</td>
+<td width="10%" style="border-bottom:2px solid black">
+    $\ell_{10}$<br>
+    $Some \: u$<br>
+    $is   \: \text{&#x2997;} v \text{&#x2998;}$</td>
+<td width="10%" style="border-bottom:2px solid black">
+    $\ell_{11}$<br>
+    $Some \: u$<br>
+    $is   \: v$</td></tr>
+
+<tr>
+<td>$f_{0}$</td>
+<td>$0000$</td>
+<td style="border-right:2px solid black">$\text{&#x2997; &#x2998;}$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td></tr>
+
+<tr>
+<td>$f_{1}$</td>
+<td>$0001$</td>
+<td style="border-right:2px solid black">$\text{&#x2997;} u \text{&#x2998;&#x2997;} v \text{&#x2998;}$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td></tr>
+
+<tr>
+<td>$f_{2}$</td>
+<td>$0010$</td>
+<td style="border-right:2px solid black">$\text{&#x2997;} u\text{&#x2998;} \: v$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td></tr>
+
+<tr>
+<td>$f_{4}$</td>
+<td>$0100$</td>
+<td style="border-right:2px solid black">$u \: \text{&#x2997;} v \text{&#x2998;}$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td></tr>
+
+<tr>
+<td>$f_{8}$</td>
+<td>$1000$</td>
+<td style="border-right:2px solid black">$u \: v$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td></tr>
+
+<tr>
+<td>$f_{3}$</td>
+<td>$0011$</td>
+<td style="border-right:2px solid black">$\text{&#x2997;} u \text{&#x2998;}$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td></tr>
+
+<tr>
+<td>$f_{12}$</td>
+<td>$1100$</td>
+<td style="border-right:2px solid black">$u$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td></tr>
+
+<tr>
+<td>$f_{6}$</td>
+<td>$0110$</td>
+<td style="border-right:2px solid black">$\text{&#x2997;} u \text{&#xFE50;} v \text{&#x2998;}$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td></tr>
+
+<tr>
+<td>$f_{9}$</td>
+<td>$1001$</td>
+<td style="border-right:2px solid black">$\text{&#x2997;&#x2997;} u \text{&#xFE50;} v \text{&#x2998;&#x2998;}$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td></tr>
+
+<tr>
+<td>$f_{5}$</td>
+<td>$0101$</td>
+<td style="border-right:2px solid black">$\text{&#x2997;} v \text{&#x2998;}$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td></tr>
+
+<tr>
+<td>$f_{10}$</td>
+<td>$1010$</td>
+<td style="border-right:2px solid black">$v$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td></tr>
+
+<tr>
+<td>$f_{7}$</td>
+<td>$0111$</td>
+<td style="border-right:2px solid black">$\text{&#x2997;} u \: v \text{&#x2998;}$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td></tr>
+
+<tr>
+<td>$f_{11}$</td>
+<td>$1011$</td>
+<td style="border-right:2px solid black">$\text{&#x2997;} u \: \text{&#x2997;} v \text{&#x2998;&#x2998;}$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td></tr>
+
+<tr>
+<td>$f_{13}$</td>
+<td>$1101$</td>
+<td style="border-right:2px solid black">$\text{&#x2997;&#x2997;} u \text{&#x2998;} \: v \text{&#x2998;}$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td></tr>
+
+<tr>
+<td>$f_{14}$</td>
+<td>$1110$</td>
+<td style="border-right:2px solid black">$\text{&#x2997;&#x2997;} u \text{&#x2998;&#x2997;} v \text{&#x2998;&#x2998;}$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td></tr>
+
+<tr>
+<td>$f_{15}$</td>
+<td>$1111$</td>
+<td style="border-right:2px solid black">$\text{&#x2997;&#x2997; &#x2998;&#x2998;}$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td></tr>
+
+</table>
+
 <div markdown="1"><font size="+3">$\ldots$</font></div>
 
 # References and further reading #
