@@ -10,7 +10,7 @@
 
 #Idea#
 
-A **smooth topos** or **smooth lined topos** is 
+A **smooth topos** or **smooth [[lined topos]]** is 
 the kind of [[topos]] studied in [[synthetic differential geometry]]. a [[category]] of [[generalized smooth space]]s for which  a notion of [[infinitesimal space]] exists.
 
 It is defined to be a [[category]] of objects that behave like [[space]]s, one of which -- the _line_ object $R$ -- is equipped with the structure of a commutative [[algebra]], such that for [[infinitesimal object]]s $S \subset R^n$ all morphisms $S \to R$ are _linear_  -- i.e. such that the [[Kock-Lawvere axiom]] holds.
@@ -21,24 +21,11 @@ There is a standard definition  and various straightforward variations.
 
 ## standard defnition ##
 
-+-- {: .un_defn}
-###### Definition
-A **lined topos** is
-
-* a [[topos]] $T$ 
-
-* equipped with a choice of [[internalization|internal]] [[ring]] object $(k,+,\cdot)$
-
-* and equipped with a choice $(R,+,\cdot)$ of [[internalization|internal]] commutative [[algebra]] object $(R,+,\cdot)$ over $k$.
-
-
-=--
-
 
 +-- {: .un_defn }
 ###### Definition
 
-For $(T,R)$ a lined topos there is the obvious notion of $R$-algebra objects $A$
+For $(\mathcal{T},R)$ a [[lined topos]] there is the obvious notion of $R$-algebra objects $A$
 in $T$.  
 
 For $A$ and $B$ any two $R$-algebra objects, there is the [[subobject]] $R Alg_T(A,B) \subset B^A$ of morphisms $A \to B$ that are algebra homomorphisms.
@@ -46,12 +33,12 @@ For $A$ and $B$ any two $R$-algebra objects, there is the [[subobject]] $R Alg_T
 Write
 
 $$
-  Spec(A) := R Alg_T(A,R) 
+  Spec(A) := R Alg_{\mathcal{T}}(A,R) 
 $$
 
-for the algebra spectrum of $A$ in $T$.
+for the algebra spectrum of $A$ in $\mathcal{T}$.
 
-An **$R$-Weil algebra** $W$ is an $R$-algebra of the form $W = R \oplus J$, 
+An **$R$-[[infinitesimal object|Weil algebra]]** $W$ is an $R$-algebra of the form $W = R \oplus J$, 
 where $J$ is an $R$-finite-dimensional nilpotent ideal.
 
 =--
@@ -61,12 +48,11 @@ where $J$ is an $R$-finite-dimensional nilpotent ideal.
 ###### Definition
 **(smooth topos)**
 
-A lined topos $(T,R)$ is a **smooth topos** if 
+A [[lined topos]] $(\mathcal{T},R)$ is a **smooth topos** if 
 
-* the algebra spectra $Spec(W)$ of all Weil algebras $W$
-  in $T$  are [[infinitesimal object]]s in that
-  the functor $(-)^{Spec W} : T \to T$ has a 
-  [[right adjoint]];
+* the algebra spectra $Spec(W)$ of all [[infinitesimal object|Weil algebras]] $W$
+  in $\mathcal{T}$  are [[infinitesimal object]]s in that
+  the functor $(-)^{Spec W} : \mathcal{T} \to \maathcal{T}$ has a [[right adjoint]] (the "[[amazing right adjoint]]");
 
 * it satisfies the [[Kock-Lawvere axiom]] in that for all $R$-Weil algebra objects $W$ the canonical morphism
 
@@ -74,7 +60,7 @@ A lined topos $(T,R)$ is a **smooth topos** if
     W \to R^{Spec(W)}
   $$
 
-  is an [[isomorphism]] in $T$.
+  is an [[isomorphism]] in $\mathcal{T}$.
 
 =--
 
@@ -90,9 +76,9 @@ In [[synthetic differential supergeometry]] one considers a notion of smooth top
 
 A **super smooth** topos is defined as a smooth topos with the notion of [[algebra]] replaced everywhere by [[superalgebra]].
 
-So a super smooth topos is a [[topos]] $T$ equipped with a [[superalgebra]] object $(R, +, \cdot)$ with even part $R_e$ and odd part $R_o$ etc.
+So a super smooth topos is a [[topos]] $\mathcal{T}$ equipped with a [[superalgebra]] object $(R, +, \cdot)$ with even part $R_e$ and odd part $R_o$ etc.
 
-An algebra spectrum object is now an internal object of superalgebra homomorphisms and the condition is that for every super Weil algebra $W = R \oplus m$ we have that $Spec(W) = R SAlg_T(W,R)$ is an [[infinitesimal object]] and that $W \to R^{Spec W}$ is an [[isomorphism]]. 
+An algebra spectrum object is now an internal object of superalgebra homomorphisms and the condition is that for every super Weil algebra $W = R \oplus m$ we have that $Spec(W) = R SAlg_{\mathcal{T}}(W,R)$ is an [[infinitesimal object]] and that $W \to R^{Spec W}$ is an [[isomorphism]]. 
 
 This means that essentially all the standard general theory of smooth toposes goes through literally for super smooth toposes, too. The main difference is that a super smooth topos contains more types of [[infinitesimal object]]s.
 
