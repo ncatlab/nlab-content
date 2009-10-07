@@ -44,6 +44,11 @@ Previous:
 
 * [[A Survey of Elliptic Cohomology - E-infinity rings and derived schemes]]
 
+Next:
+
+* [[A Survey of Elliptic Cohomology - equivariant cohomology]]
+
+
 
 >the following are rough unpolished notes taken more or less verbatim from some seminar talk -- needs attention, meaning: **somebody should go through this and polish**
 
