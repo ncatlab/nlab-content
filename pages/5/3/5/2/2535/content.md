@@ -20,7 +20,9 @@
 
 * [[Models for Smooth Infinitesimal Analysis]]
 
-  * [[generalized smooth algebra]]
+  * [[smooth algebra]] ($C^\infty$-ring)
+
+  * [[smooth loci]]
 
 ## Variations ##
 
