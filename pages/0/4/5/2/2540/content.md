@@ -1,8 +1,10 @@
+[[!redirects infinitesimal neighbor]]
+[[!redirects infinitesimal neighbors]]
+[[!redirects infinitesimal neighbours]]
+
 <div class="rightHandSide toc">
 [[!include synthetic differential geometry - contents]]
 </div>
-
-
 
 #Contents#
 * automatic table of contents goes here
@@ -14,47 +16,29 @@ Objects $X$ in a [[smooth topos]] $(\mathcal{T}, R)$
 modelling the axioms of [[synthetic differential geometry]]
 have a notion of elements $x,y \in X$ that are [[infinitesimal space|infinitesimally close]] in $X$.
 
-Two elements that are infinitesimally close, denoted $x \sim_1 y$, are called **infinitesimal neighbour**s.
+Two elements that are infinitesimally close, denoted $x \sim_1 y$, are called __infinitesimal neighbours__.
 
-The collection of all elements $x \sim_{(1)} y$ in a [[space]] $X$ with this property forms the space denoted $X_{(1)}$ or $X^{\Delta^1_{inf}}$:  
-often called the (first order) _infinitesimal neighbourhood of the diagonal_ in $X$,
-where the diagonal meant is the embedding $Id \times Id : X \to X \times X$ of $X$ into the cartesian [[product]] with itself.
+The collection of all elements $x \sim_{(1)} y$ in a [[space]] $X$ with this property forms the space denoted $X_{(1)}$ or $X^{\Delta^1_{inf}}$:  often called the (first order) _infinitesimal neighbourhood of the diagonal_ in $X$, where the diagonal meant is the embedding $Id \times Id : X \to X \times X$ of $X$ into the cartesian [[product]] with itself.
 
-**Warning**
-Notice that, as usual in a [[topos]], "elements" here always and crucially means
-"[[generalized element]]s". For instance 
-the notation $x \in X$ denotes a morphism $U \stackrel{x}{\to} X$
-for some [[object]] $U$. _Ordinary_ elements in the sense of morphisms from the
-[[terminal object]] ${*} \stackrel{x}{\to} X$ typically do not have infinitesimal neighbours.
-But they also do not play a single-out role.
+__Warning__
 
+Notice that, as usual in a [[topos]], "elements" here always and crucially means "[[generalized elements]]". For instance  the notation $x \in X$ denotes a morphism $U \stackrel{x}{\to} X$ for some [[object]] $U$. _Ordinary_ elements in the sense of morphisms from the [[terminal object]] ${*} \stackrel{x}{\to} X$ typically do not have infinitesimal neighbours.  But they also do not play a single-out role.
 
 # Definition #
 
-As with all concepts in [[synthetic differential geometry]], there is  an abstract definition that depends only on the axioms of a [[smooth topos]]
-$(\mathcal{T}, R)$ and then there are the concrete realizations of this abstract definition
-in concretely chosen models $(\mathcal{T}, R)$.
+As with all concepts in [[synthetic differential geometry]], there is  an abstract definition that depends only on the axioms of a [[smooth topos]] $(\mathcal{T}, R)$ and then there are the concrete realizations of this abstract definition in concretely chosen models $(\mathcal{T}, R)$.
 
-In the literature one of the most wide-spread definitions of first order neighbourhoods is actually one that is formulated in a specific model only, namely
-to the kind of model studied in [[algebraic geometry]], given by a [[category of sheaves]] on a [[site]] of formal duals of commutative rings. While the construction principle there is quite generic in that 
-it works similarly for a wide range of other models, 
-for instance when replacing [[ring]]s by [[smooth algebra]]s
-and hence [[affine scheme]]s by [[smooth loci]], it is worthwhile to make
-the [[category theory|abstract nonsense]] behind it explicit.
+In the literature one of the most wide-spread definitions of first order neighbourhoods is actually one that is formulated in a specific model only, namely to the kind of model studied in [[algebraic geometry]], given by a [[category of sheaves]] on a [[site]] of formal duals of commutative rings. While the construction principle there is quite generic in that it works similarly for a wide range of other models, for instance when replacing [[rings]] by [[smooth algebras]] and hence [[affine schemes]] by [[smooth loci]], it is worthwhile to make the [[category theory|abstract nonsense]] behind it explicit.
 
 In 
 
 * [[Anders Kock]], _Synthetic differential geoemtry_ ([pdf](http://home.imf.au.dk/kock/sdg99.pdf))
 
-this is done for elements in _formal manifolds_ . In the following
-we start with an entirely general definition and then look at the
-special case that should be the most general situation in which 
-the first order neighbourhood has the expected linear properties:
-this is the case for [[microlinear space]]s.
+this is done for elements in _formal manifolds_ . In the following we start with an entirely general definition and then look at the special case that should be the most general situation in which the first order neighbourhood has the expected linear properties:  this is the case for [[microlinear spaces]].
 
 ## general definition ##
 
-Let $(\mathcal{T},R)$ be a [[smooth topos]]. Write $D = \{x \in R | x^2 = 0 \}$ for the [[infinitesimal space|infinitesimal interval]] in $\mathcal{T}$, the [[equalizer]] 
+Let $(\mathcal{T},R)$ be a [[smooth topos]]. Write $D = \{x \in R | x^2 = 0 \}$ for the [[infinitesimal space|infinitesimal interval]] in $\mathcal{T}$, the [[equalizer]]:
 
 $$
   D = \lim \left( R \stackrel{\stackrel{(-)^2}{\to}}{\stackrel{0}{\to}}
@@ -72,7 +56,6 @@ $$
 $$
 
 for the canonical evaluation map, the [[internal hom]] [[adjunct]] to $Id : X^D \to X^D$.
-
 
 In full generality one would then like to make the following definition
 
@@ -252,7 +235,6 @@ let $X = Spec(A)$. Let $J = ker(\cdot : A \otimes A \to A)$ be the ideal of func
 ...
 
 #Related concepts#
-
 
 The collection of first order infinitesimal neighbours of a space $X$ arranges itself into the [[schreiber:infinitesimal path ∞-groupoid]] $\Pi^{inf}(X)$. Various concepts derive from this one:
 
