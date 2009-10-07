@@ -1,7 +1,12 @@
+[[!redirects infinitesimal objects]]
+[[!redirects infinitesimal quantity]]
+[[!redirects infinitesimal quantities]]
+[[!redirects infinitesimal space]]
+[[!redirects infinitesimal spaces]]
+
 <div class="rightHandSide toc">
 [[!include synthetic differential geometry - contents]]
 </div>
-
 
 #Contents#
 * automatic table of contents goes here
@@ -410,10 +415,3 @@ section I.16 of
 and chapter I, section 4 and chapter II, theorem 1.13 and onwards in
 
 * [[Ieke Moerdijk]], [[Gonzalo Reyes]], [[Models for Smooth Infinitesimal  Analysis]]
-
-
-
-
-
-[[!redirects infinitesimal space]]
-[[!redirects infinitesimal quantity]]
