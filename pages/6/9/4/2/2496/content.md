@@ -1451,37 +1451,42 @@ Applied to a given proposition $f$, the qualifiers $\alpha_i$ and $\beta_i$ tell
 
 <div markdown="1"><font size="+1">
 $$\array{
+\arrayopts{\colalign{right}}
 \alpha_{0} f = 1
-&amp; \mathop{iff} &amp;
-f_{0} \Rightarrow f
-&amp; \mathop{iff} &amp;
-0 \Rightarrow f,
-&amp; \mathop{hence} &amp;
-\alpha_{0} f = 1 &amp; \mathop{for all} \: f.
+&amp; \mathop{iff}
+&amp; f_{0} \Rightarrow f
+&amp; \mathop{iff}
+&amp; 0 \Rightarrow f,
+&amp; \mathop{hence}
+&amp; \alpha_{0} f = 1
+&amp; \mathop{for all} \: f.
 \\
 \alpha_{15} f = 1
-&amp; \mathop{iff} &amp;
-f_{15} \Rightarrow f
-&amp; \mathop{iff} &amp;
-1 \Rightarrow f,
-&amp; \mathop{hence} &amp;
-\alpha_{15} f = 1 &amp; \mathop{iff} \: f = 1.
+&amp; \mathop{iff}
+&amp; f_{15} \Rightarrow f
+&amp; \mathop{iff}
+&amp; 1 \Rightarrow f,
+&amp; \mathop{hence}
+&amp; \alpha_{15} f = 1
+&amp; \mathop{iff} \: f = 1.
 \\
 \beta_{0} f = 1
-&amp; \mathop{iff} &amp;
-f \Rightarrow f_{0}
-&amp; \mathop{iff} &amp;
-f \Rightarrow 0,
-&amp; \mathop{hence} &amp;
-\beta_{0} f = 1 &amp; \mathop{iff} \: f = 0.
+&amp; \mathop{iff}
+&amp; f \Rightarrow f_{0}
+&amp; \mathop{iff}
+&amp; f \Rightarrow 0,
+&amp; \mathop{hence}
+&amp; \beta_{0} f = 1
+&amp; \mathop{iff} \: f = 0.
 \\
 \beta_{15} f = 1
-&amp; \mathop{iff} &amp;
-f \Rightarrow f_{15}
-&amp; \mathop{iff} &amp;
-f \Rightarrow 1,
-&amp; \mathop{hence} &amp;
-\beta_{15} f = 1 &amp; \mathop{for all} \: f.
+&amp; \mathop{iff}
+&amp; f \Rightarrow f_{15}
+&amp; \mathop{iff}
+&amp; f \Rightarrow 1,
+&amp; \mathop{hence}
+&amp; \beta_{15} f = 1
+&amp; \mathop{for all} \: f.
 }$$
 </font></div>
 
@@ -1572,7 +1577,8 @@ Intuitively, the $\ell_{ij}$ operators may be thought of as qualifying propositi
 
 __Note.__  ASCII graphic for now &hellip; better image forthcoming.  ---[[JA]]
 
-<table align="center" style="font-weight:bold"><td><font size="-1"><pre>
+<table align="center" style="font-weight:bold">
+<td><font size="-1"><pre>
 o-----------------------------------------------------------o
 |                                                           |
 |                             o                             |
@@ -1618,7 +1624,8 @@ o-----------------------------------------------------------o
 |                             o                             |
 |                                                           |
 o-----------------------------------------------------------o
-</pre></font></td></table>
+</pre></font></td>
+</table>
 
 <div markdown="1"><font size="+1">
 $$\text{Figure 6.} \:\: \text{Higher Order Universe of Discourse} \: \left[ L_{ij} \right] \subseteq \left[\left[ u, v \right]\right]$$
@@ -1626,7 +1633,7 @@ $$\text{Figure 6.} \:\: \text{Higher Order Universe of Discourse} \: \left[ L_{i
 
 Our excursion into the vastening landscape of higher order propositions has finally come round to the stage where we can bring its returns to bear on opening up new perspectives for quantificational logic.
 
-It's hard to tell if it makes any difference from a purely formal point of view, but it serves intuition to devise a slightly different interpretation for the two-valued space that we use as the target of our basic indicator functions.  Therefore, let us declare the type of _existential-valued_ functions $f : \mathbb{B}^k \to \mathbb{E}$, where $\mathbb{E} = \{ -e, +e \} = \{ \mathop{empty}, \mathop{exist} \}$ is a pair of values that indicate whether or not anything exists in the cells of the underlying universe of discourse.  As usual, let's not be too fussy about the coding of these functions, reverting to binary codes whenever the intended interpretation is clear enough.
+It's hard to tell if it makes any difference from a purely formal point of view, but it serves intuition to devise a slightly different interpretation for the two-valued space that we use as the target of our basic indicator functions.  Therefore, let us declare the type of _existential-valued functions_ $f : \mathbb{B}^k \to \mathbb{E}$, where $\mathbb{E} = \{ -e, +e \} = \{ \mathop{empty}, \mathop{exist} \}$ is a pair of values that indicate whether or not anything exists in the cells of the underlying universe of discourse.  As usual, let's not be too fussy about the coding of these functions, reverting to binary codes whenever the intended interpretation is clear enough.
 
 With these qualifications in mind we note the following correspondences between classical quantifications and higher order indicator functions:
 
@@ -1665,6 +1672,67 @@ With these qualifications in mind we note the following correspondences between 
 </table>
 
 The following Tables develop these ideas in more detail.
+
+<table align="center" cellpadding="1" cellspacing="0" markdown="1" style="text-align:center; width:90%">
+
+<caption><font size="+2">$\text{Table 8.} \:\: \text{Simple Qualifiers of Propositions : Version 1}$</font></caption>
+
+<tr>
+<td style="border-bottom:2px solid black" align="right">
+    $u:$<br>
+    $v:$</td>
+<td style="border-bottom:2px solid black">
+    $1100$<br>
+    $1010$</td>
+<td style="border-bottom:2px solid black; border-right:2px solid black">
+    $f$</td>
+<td style="border-bottom:2px solid black">
+    $\text{&#x2997;} \ell_{11} \text{&#x2998;}$<br>
+    $No \: u$<br>
+    $is \: v$</td>
+<td style="border-bottom:2px solid black">
+    $\text{&#x2997;} \ell_{10} \text{&#x2998;}$<br>
+    $No \: u$<br>
+    $is \: \text{&#x2997;} v \text{&#x2998;}$</td>
+<td style="border-bottom:2px solid black">
+    $\text{&#x2997;} \ell_{01} \text{&#x2998;}$<br>
+    $No \: \text{&#x2997;} u \text{&#x2998;}$<br>
+    $is \: v$</td>
+<td style="border-bottom:2px solid black">
+    $\text{&#x2997;} \ell_{00} \text{&#x2998;}$<br>
+    $No \: \text{&#x2997;} u \text{&#x2998;}$<br>
+    $is \: \text{&#x2997;} v \text{&#x2998;}$</td>
+<td style="border-bottom:2px solid black">
+    $\ell_{00}$<br>
+    $Some \: \text{&#x2997;} u \text{&#x2998;}$<br>
+    $is   \: \text{&#x2997;} v \text{&#x2998;}$</td>
+<td style="border-bottom:2px solid black">
+    $\ell_{01}$<br>
+    $Some \: \text{&#x2997;} u \text{&#x2998;}$<br>
+    $is   \: v$</td>
+<td style="border-bottom:2px solid black">
+    $\ell_{10}$<br>
+    $Some \: u$<br>
+    $is   \: \text{&#x2997;} v \text{&#x2998;}$</td>
+<td style="border-bottom:2px solid black">
+    $\ell_{11}$<br>
+    $Some \: u$<br>
+    $is   \: v$</td></tr>
+
+<tr>
+<td>$f_{0}$</td>
+<td>$0000$</td>
+<td style="border-right:2px solid black">$\text{&#x2997; &#x2998;}$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:black; color:white">$1$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td>
+<td style="background:white; color:black">$0$</td></tr>
+
+</table>
 
 <div markdown="1"><font size="+3">$\ldots$</font></div>
 
