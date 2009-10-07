@@ -4,30 +4,15 @@ In [[David Hilbert|Hilbert]]'s original formulation, for any property $P(x)$ we 
 $$\exists x.P(x) \;\Rightarrow\; P\big(\varepsilon x.P(x)\big).$$
 In other words, if $P$ holds of anything at all, then it holds of the particular term $\varepsilon x.P(x)$.  A similar operator was used by [[Bourbaki]] and appears in [[FMathL]].
 
-+--{: .query}
-[[Mike Shulman]]: I think this was Hilbert's original version, but history is not my strong point; maybe someone can correct?
-
-"Here, moreover, we come upon a very remarkable circumstance, namely, that all of these transfinite axioms are derivable from a single axiom, one that also contains the core of one of the most attacked axioms in the literature of mathematics, namely, the axiom of choice:
-
-$A(a) \rightarrow A(\varepsilon(A))$,
-
-where $\varepsilon$ is the transfinite logical choice function."
-
----Hilbert (1925), "On the Infinite", excerpted in Jean van Heijenoort, _From Frege to G&#246;del_, p. 382.
-
-See also Hilbert (1927), "The Foundations of Mathematics", pp. 464&#8211;479 in JvH.  ---[[Jon Awbrey]]
-
-[[Mike Shulman]]: Thanks!  That looks pretty much like I was right.
-
-[[JA]]:  Incidentally, the texts I've seen so far seem to be using \varepsilon for this.
-
-[[Mike Shulman]]: Yes, they do seem to; I'm just lazy and \varepsilon is three more letters to type.  (-:
-
-=--
-
 One use of the choice operator is to eliminate undesirable details of implementation.  For example, if $P(x)$ is "$x$ is a Dedekind-complete totally ordered field," then we can define "the real numbers" to be $\varepsilon x.P(x)$.  Any of the numerous constructions of the [[real numbers]] can then be used to show that there exists an $x$ such that $P(x)$, after which point we can discard whichever explicit construction and work only with $\mathbb{R}=\varepsilon x.P(x)$.  This way we can no longer assert that real numbers (elements of $\mathbb{R}$) *are* Dedekind cuts, or equivalence classes of Cauchy sequences, or anything in particular, since the axioms provide no rules about how $\varepsilon x.P(x)$ must be chosen other than that it must satisfy $P$.  So $\mathbb{R}$ *might* consist of Cauchy sequences, or Dedekind cuts, or any other way to construct the reals, but we have no way of knowing, and thus we cannot make use of any such definition in a proof about $\mathbb{R}$; we are forced to use only its formal properties.
 
-In many cases, the assumption of a global choice operator implies the [[axiom of choice]], since for any family $(A_u)$ of inhabited sets, a choice function is given by $u\mapsto (\varepsilon x.x\in A_u)$.  In fact, in the form given above it often implies the stronger *global* axiom of choice, which applies to proper classes as well as sets.  However, in some foundations it seems to be possible to avoid this conclusion (if it is unwanted) by not requiring the choice operator to be extensional, i.e. it may not be the case that $A = B$ implies $\varepsilon x.A = \varepsilon x.B$.
+In many cases, the assumption of a global choice operator implies the [[axiom of choice]], since for any family $(A_u)$ of inhabited sets, a choice function is given by $u\mapsto (\varepsilon x.x\in A_u)$.  In fact, in the form given above it often implies the stronger *global* axiom of choice, which applies to proper classes as well as sets.
+
+> "Here, moreover, we come upon a very remarkable circumstance, namely, that all of these transfinite axioms are derivable from a single axiom, one that also contains the core of one of the most attacked axioms in the literature of mathematics, namely, the axiom of choice: $A(a) \rightarrow A(\varepsilon(A))$, where $\varepsilon$ is the transfinite logical choice function."
+
+> ---Hilbert (1925), "On the Infinite", excerpted in Jean van Heijenoort, _From Frege to G&#246;del_, p. 382.
+
+However, in some [[foundations]] it seems to be possible to avoid this conclusion (if it is unwanted) by not requiring the choice operator to be extensional, i.e. it may not be the case that $A = B$ implies $\varepsilon x.A = \varepsilon x.B$.
 
 +--{: .query}
 [[Mike Shulman]]: Is there a formal statement in some formal system along the lines of "a non-extensional choice operator does not imply AC"?
@@ -50,7 +35,7 @@ _Toby_:  Yeah, I really did mean to say 'excluded middle'; remembering that comm
 
 _Toby_:  I\'m not sure, it\'s part of my folk knowledge now.  Probably Michael J. Beeson\'s _Foundations of Constructive Mathematics_ is the best bet.  I\'ll try to get a look in there myself next week; I can see that it\'s not exactly obvious, and perhaps my memory is wrong now that I think about it.
 
-[[Mike Shulman]]: I'm trying to prove the sort of statement I want over at [[SEAR+ε]].
+[[Mike Shulman]]: I'm trying to prove the sort of statement I want over at [[SEAR+?]].
 
 _Toby_:  No, I can\'t get anything at all out of Beeson (or other references) about full AC (for types equipped with equivalence relations) in $\mathbf{ITT}$.
 =--
@@ -61,5 +46,6 @@ Like the [[axiom of choice]], the existence of a global choice operator is consi
 
 * [Hilbert's $\varepsilon$-Operator](http://planetmath.org/encyclopedia/HilbertsVarepsilonOperator.html), _PlanetMath_.
 
-category: foundational axiom
+* See also Hilbert (1927), "The Foundations of Mathematics", pp. 464&#8211;479 in JvH.
 
+category: foundational axiom
