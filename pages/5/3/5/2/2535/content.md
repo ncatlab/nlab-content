@@ -14,6 +14,8 @@
 
   * [[tangent bundle]]
 
+  * [[infinitesimal neighbour]]
+
   * [[differential forms in synthetic differential geometry|differential forms]]
 
 ## Models ##
