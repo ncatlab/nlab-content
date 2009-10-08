@@ -1,3 +1,11 @@
+<div class="rightHandSide toc">
+[[!include homotopy - contents]]
+</div>
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 Frequently one encounters an ordinary [[category]] $C$ which is known in some way or other to be the $1$-[[1-category|categorical]] truncation of a [[higher category theory|higher category]] $\hat C$. 
