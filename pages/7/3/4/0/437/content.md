@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include homotopy - contents]]
+</div>
+
+
 #Definition#
 
 In a [[category with weak equivalences]] and with [[product]]s a **path object** for an object $C$ is a factorization of the morphism $C \stackrel{Id \times Id}{\to} C \times C$ as
