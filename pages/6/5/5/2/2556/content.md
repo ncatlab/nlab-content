@@ -127,4 +127,27 @@ $$
 
 where $\cdot$ here denotes the [[monoid]]-[[action]] of $(R,\cdot)$ on $D$ (by the embedding $D \hookrightarrow R$) and on $X^D$ (by the fact that $X$ is assumed to be [[microlinear space|microlinear]]).
 
-Since we are interested in conceiving infinitesimal paths parameterized by $D$ as special finite paths ...
+In this same fashion we can then define infinitesimal analogs of the finite higher path object $X^{\Delta_R^k} = X^{R^{\times k}}$.
+
+Let $D(n)$ be the [[infinitesimal space|k-dimensional infinitesimal interval]]
+
+$$
+  D(n) = \{(x_i) \in R^k | \forall i,j : x_i x_j = 0\}
+$$
+
+then set
+
+$$
+  X^{\Delta^\bullet_{inf}}
+  :=
+  \left(
+    \cdots
+    X^{D(2)}\otimes_{R^2} D(2)
+    \stackrel{\to}{\stackrel{\to}{\to}}
+    X^D \otimes_R D
+    \stackrel{\to}{\to}
+    X
+  \right)
+$$
+
+...
