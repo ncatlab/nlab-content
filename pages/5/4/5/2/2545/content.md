@@ -107,7 +107,7 @@ Morephism are the obvious $G$-equivariant morphisms of [[vector bundle]]s.
 
 1. $X$ a trivial $G$-space,then a $G$-equivariant vector bundle is a family of complex representations;
 
-1. for $E \to X$ a [[vector bundle]]
+1. for $E \to X$ a [[vector bundle]] the $k$th tensor power of $E$ is a $\Sigma_k$-equivariant vector bundle;
 
 1. if $G$ acts smoothly on $X$ then the complexified [[tangent bundle]] $T X \otimes \mathbb{C} \to X$ is a $G$-equivariant vector bundle.
 
@@ -136,7 +136,7 @@ With the remaining [[tensor product]] $\otimes$ this yields a commutative [[ring
 
    1. in general, $K_G(X)$ is an algebra over $Rep(G)$.
 
-1. if $G$ [[free axction|acts freely]] on $X$, then $K_G(X) \simeq K(X/G)$.
+1. if $G$ [[free action|acts freely]] on $X$, then $K_G(X) \simeq K(X/G)$.
 
 
 So in particular
@@ -275,7 +275,7 @@ similarly, $\mathbb{A}^n \simeq Spec \mathbb{Z}[x_1, \cdots, x_n]$
 
 # group schemes #
 
-Given a functor $X : CRing \to Set$ define the ring of cuntions $\mathcal{O}_X$ as
+Given a functor $X : CRing \to Set$ define the ring of funtions $\mathcal{O}_X$ as
 
 $$
   \mathcal{O}_X := Hom_{Func(CRing,Set)}(X, \mathbb{A}^1)
@@ -316,7 +316,7 @@ $$
   \hat \mathbb{A}^n \times X
 $$
 
-is an [[isomorphism]]. A $Y$ that admits a system of formal coorrdinates is a **[[formal scheme]]** over $X$.
+is an [[isomorphism]]. A $Y$ that admits a system of formal coordinates is a **[[formal scheme]]** over $X$.
 
 > **warning** very restrictive definition. See [[formal scheme]]
 
