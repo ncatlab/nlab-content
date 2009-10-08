@@ -2,17 +2,17 @@
 [[!include higher category theory - contents]]
 </div>
 
+#Contents#
 
-[[!redirects quasi-categories]]
-[[!redirects quasicategory]]
-[[!redirects quasicategories]]
+* automatic table of contents goes here
+{:toc}
 
 
 #Idea#
 
 The notion of quasi-category is a [[geometric definition of higher category]] that relaxes the [[Kan complex|Kan condition]] on a simplicial set.
 
-Just as a [[Kan complex]] is a model in terms of [[simplicial set]]s of [[infinity-groupoid]]s, also called an [[(infinity,0)-category]], a [[quasi-category]] is a model in terms of [[simplicial set]]s of an [[(infinity,1)-category]].
+Just as a [[Kan complex]] is a model in terms of [[simplicial set]]s of an [[∞-groupoid]] -- also called an [[(∞,0)-category]] --  a [[quasi-category]] is a model in terms of [[simplicial set]]s of an [[(∞,1)-category]].
 
 
 #Definition#
@@ -24,15 +24,15 @@ A quasi-category is a [[simplicial set]] in which all _inner_ [[horn]]s have fil
 
 #Remarks#
 
-* Compare with the definition of a [[Kan complex]] in which _all_ horns are required to have fillers: a quasi-category is a structure slightly weaker than a Kan complex. Indeed, while we can think of a Kan complex as an $\infty$-[[infinity-groupoid]] (that is an $(\infty,0)$-category), in which _all_ morphisms are [[equivalence]]s, a quasi-category is a model for an $(\infty,1)$-[[(infinity,1)-category|category]], in which only all $n$-morphisms for $n \geq 2$ are required to be [[equivalence]]s.  
+* Compare with the definition of a [[Kan complex]] in which _all_ horns are required to have fillers: a quasi-category is a structure slightly weaker than a Kan complex. Indeed, while we can think of a Kan complex as an [[∞-groupoid]] (that is an $(\infty,0)$-category), in which _all_ morphisms are [[equivalence]]s, a quasi-category is a model for an [[(∞,1)-category]], in which only all [[k-morphism]]s for $k \geq 2$ are required to be [[equivalence]]s.  
 
 * As the quasi-category condition is a weakening of the Kan complex condition, they have also been called **weak Kan complexes** and the corresponding condition, the **weak Kan condition**.
 
-* The [[nerve]] of a category is always a quasi-category, while the nerve of a category is a Kan complex iff the category is a groupoid.  In this sense quasi-categories are a "minimal common generalization" of Kan complexes and nerves of categories.
+* The [[nerve]] of an ordinary [[category]] is always a quasi-category, while the nerve of a category is a [[Kan complex]] iff the category is a [[groupoid].  In this sense quasi-categories are a "minimal common generalization" of Kan complexes and nerves of categories.
 
 # Constructions in quasi-categories #
 
-The point of quasi-categories is that they are supposed to provide a fully [[homotopy theory|homotopy-theoretic]] refinement of the ordinary notion of [[category]]. In particular, all the familiar constructions of category theory have natural analogs in the context of quasi-categories. See for instance
+The point of quasi-categories is that they are supposed to provide a fully [[homotopy theory|homotopy-theoretic]] refinement of the ordinary notion of [[category]]. In particular, all the familiar constructions of [[category theory]] have natural analogs in the context of quasi-categories. See for instance
 
 * [[limit in quasi-categories]]
 
@@ -77,6 +77,10 @@ Their importance as a basis for [[category theory]] has been emphasized in the w
 
 Jacob Lurie developed the theory of quasi-categories in
 
-* [[Jacob Lurie]], [[Higher Topos Theory]] ([arXiv](http://arxiv.org/abs/math/0608040))
+* [[Jacob Lurie]], [[Higher Topos Theory]]
 
-in order to discuss the theory of [[(infinity,1)-topos]]es of [[infinity-stack]]s.
+in order to discuss the theory of [[(∞,1)-topos]]es of [[∞-stack]]s.
+
+[[!redirects quasi-categories]]
+[[!redirects quasicategory]]
+[[!redirects quasicategories]]
