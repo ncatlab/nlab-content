@@ -1,6 +1,10 @@
 <div class="rightHandSide toc">
 [[!include mathematicscontents]]
+***
+[[!include homotopy - contents]]
 </div>
+
+
 
 #Idea#
 
