@@ -228,7 +228,7 @@ since this will indicate to everyone looking just at your source code what the c
 
 It is also important that the section headings not contain anything that shouldn't go in the table of contents.  Whilst formatting is allowed, wiki-links are not (since then the entry in the table of contents would be double linked).
 
-## How to draw diagrams and suchlike
+## How to draw commutative diagrams and pictures
 
 The itex syntax accepted by the nlab doesn't understand the syntax of any diagram-drawing package akin to xypic or tikz.  (Many of us would love to improve matters; see the [forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=2), and chime in if you have any suggestions.)  At present there are basically three ways to make diagrams: hack it together with arrays, include an image file, or include SVG.
 
@@ -271,11 +271,11 @@ P(B)^{\mathrlap{A}} & \underset{\chi_\sigma^A}{\longrightarrow} & P(1)^{\mathrla
         \end{matrix}
         $$
 
-1. _Include an image file_: This is the quick-and-dirty method.  To create the image file, use a program like [textogif](http://www.fourmilab.ch/webtools/textogif/textogif.html) to create the image from a TeX file locally, then follow the instructions [here](http://golem.ph.utexas.edu/instiki/show/File+Uploads) for putting it on the lab.
+1. _Include an image file_: This is the quick-and-dirty method.  To create the image file, either use a program like [textogif](http://www.fourmilab.ch/webtools/textogif/textogif.html) to create the image from a TeX file locally, or use a web service like [codecogs](http://www.codecogs.com/components/equationeditor/equationeditor.php).  Then follow the instructions [here](http://golem.ph.utexas.edu/instiki/show/File+Uploads) for putting it on the lab.
 
 1. _Include SVG_: This is arguably a "better" method, since unlike an image (and like MathML) SVG can be scaled with the text, and (in theory) edited by other users without recreating the entire diagram.  There are various methods for producing SVG.  You can use a vector graphics program that produces SVG output (anyone have a good one to suggest?).  You can also just copy the SVG from another page and modify it by hand; some pages currently containing SVG diagrams are [[monoidal category]], [[oriental]] and [[comma object]].  Once you have some SVG, you can modify it by hand to put in the itex math; use the SVG `<foreignObject>` tag with a `$...$` inside it.  You need to put `markdown="1"` on the `<foreignObject>` tag, or else on a `<g>` tag containing it.
 
-   Once you have the SVG, you can include it on a page as described [here](http://golem.ph.utexas.edu/instiki/show/SVG).  Since raw SVG is a bit ugly, you may want to put the SVG on a "subpage" by itself (with a name like "pagename/imagename") which is included from the main page (see above for the syntax to include other pages).
+   Once you have the SVG, you can include it on a page as described [here](http://golem.ph.utexas.edu/instiki/show/SVG).  Since raw SVG is a bit ugly, you may want to put the SVG on a "subpage" by itself (with a name like `pagename > imagename`) which is included from the main page (see above for the syntax to include other pages).
 
 # Other Sources of Information #
 
