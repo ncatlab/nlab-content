@@ -119,6 +119,13 @@ An [[inaccessible cardinal]] is any (usually uncountable) regular strong limit c
 
 For a generalization of cardinality from sets to [[groupoids]] see [[groupoid cardinality]].
 
++-- {: .query}
+_Stephen_: What is a _good standard_ references on this topic?
+
+I have found
+* _Sets, Logic and Categories_ by Peter J Cameron (ISBN: 1-85233-056-2 )
+a very readable account of ZFC and the definitions of both Ordinal and Cardinal numbers.  However, I am not convinced this reference would be the most respected in this area. 
+=--
 
 [[!redirects cardinal numbers]]
 [[!redirects cardinal]]
