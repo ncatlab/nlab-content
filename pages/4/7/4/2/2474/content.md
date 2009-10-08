@@ -7,3 +7,4 @@ Every $C^*$-algebra can be realized (via GNS construction) as the norm closed $*
 See [[operator algebras]].
 
 [[!redirects C*-algebra]]
+[[!redirects C* algebra]]
