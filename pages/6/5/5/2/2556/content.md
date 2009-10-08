@@ -61,3 +61,70 @@ $$
 
 While the [[k-morphism]]s in the finite path $\infty$-groupoid $\Pi(X)$ are $k$-dimensional families of path-connected points in $X$ -- as seen by $R$ -- the [[k-morphism]] in $\Pi^{inf}(X)$ are $(k+1)$-tuples of [[infinitesimal neighbour]] points in $X$ -- as seen by $D$.
 
+#Infintesimal path $\infty$-groupoid induced from infinitesimal interval#
+
+Recall the discussion at [[interval object]] of how the interval ${*}\sqcup {*} \stackrel{\to}{\to} R$ in $\mathcal{T}$ alone gave rise to the [[cosimplicial object]]
+
+$$
+  \Delta_R : \Delta \to \mathcal{T}
+$$
+
+of (collared) $k$-simplices modeled on $R$, and how that induces for each object $X \in \mathcal{T}$ the [[simplicial object]]
+
+$$
+  \Pi(X) := X^{\Delta_R^\bullet}
+  \,.
+$$ 
+
+Here as an object in $\mathcal{T}$ the $k$-simplex is actually a $k$-cube $\Delta_R^k := R^k$, but equipped with face and degeneracy maps that identify the boundary of a $k$-simplex inside the $k$-cube thus realizing the interior of that boundary as the $k$-simplex proper and the exterior as its _collar_ .
+
+We want to mimic that construction with the finite interval $R$ replaced by the infinitesimal interval object $D$, to get a simplicial object $\Pi^{inf}(X)$ for every object $X$.
+
+While the infinitesimal situation is formally very similar to the finite situation, one technical diference is that the infinitesimal interval does not fit into a nontrivial [[cospan]] as the finite interval does. This is because $D$ typically has a _unique_ morphism ${*} \to D$ from the terminal object, as a consequence of the fact that all the infinitesimal elements it contains are genuinely [[generalized element]]s.
+
+The natural way to encode an infinitesimal path between two elements in an object $X$ in the [[smooth topos]] $\mathcal{T}$ is therefore not as an element of $X^D$ but of $X^D \times D$, which we may think of as the space of pairs consisting of infinitesimal paths in $X$ and infinitesimal parameter lengths of these paths.
+
+This naturally yields the [[span]]
+
+$$
+  \array{
+    && X^D \times D
+    \\
+    & {}^{d_1 := p_{T X} p_1}\swarrow && \searrow^{d := ev}
+    \\
+    X &&&& X
+  }
+  \,,
+$$
+
+where 
+
+* the left leg is the projection $X^D \times D \to X^D$ followed by the [[tangent bundle]] projection $p_{T X} = X^{(* \to D)} : X^D \to X$ 
+
+* the right leg is the evaluation map, i.e. the [[inner hom]]-[[adjunct]] of $Id : X^D \to X^D$.
+
+With this setup a pair of ([[generalized element|generalized]]) elements $x,y \in X$ may be thought of as connected by an infinitesimal path if there is an element $(v,\epsilon) \in X^D \times D$ such that 
+
+$$
+  \delta_1(v,\epsilon) = v(0) = x
+$$ 
+
+and 
+
+$$
+  \delta_0(v,\epsilon) = v(\epsilon) = y
+  \,.
+$$
+
+But not all elements $(v,\epsilon)$ define [[infinitesimal neighbour]] elements this way: specifically in the case that $X$ is a [[micorlinear space]], the [[tangent bundle]] object $X^D$ is fiberwise $R$-linear, and the for any $t \in R$ the elements $(v,t \epsilon)$ and $(t v, \epsilon)$ defne the same pair of [[infinitesimal neighbour]]s, $x = v(0)$ and $y = (t v)(epsilon) = v(t \epsilon)$.
+
+We may identify such elements $(t v, \epsilon)$ and $(v, t \epsilon)$ by passing to the [[tensor product]] $X^D \otimes_R D$, i.e. the coequalizer of
+
+$$
+  X^D \times R \times D \stackrel{\stackrel{\cdot \times Id}{\to}}{\stackrel{Id \times \cdot}{\to}}
+  X^D \times D
+$$
+
+where $\cdot$ here denotes the [[monoid]]-[[action]] of $(R,\cdot)$ on $D$ (by the embedding $D \hookrightarrow R$) and on $X^D$ (by the fact that $X$ is assumed to be [[microlinear space|microlinear]]).
+
+Since we are interested in conceiving infinitesimal paths parameterized by $D$ as special finite paths ...
