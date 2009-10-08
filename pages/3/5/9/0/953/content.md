@@ -1,4 +1,12 @@
 
+<div class="rightHandSide toc">
+[[!include homotopy - contents]]
+</div>
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 # Idea #
 
 A _Waldhausen category_ $C'$ is a [[homotopical category]] equipped with a bit of extra structure that allows to regard it as a presentation (via [[simplicial localization]]) of an [[(infinity,1)-category]] $C$ such that the extra structure allows to conveniently compute the [[K-theory]] [[Grothendieck group]] $\mathbf{K}(C)$ of $C$.
