@@ -19,7 +19,7 @@ $$
 
 #Remarks#
 
-* A cylinder functor functorially provides _cylinder objects_ used for talking about [[homotopy]].
+* A cylinder functor functorially provides _[[cylinder objects]]_ used for talking about [[homotopy]].
 
 * The notation is supposed to be suggestive of a [[product]] with an object $I$. While this is the motivating example, the interval functor need not be of that form.
 
