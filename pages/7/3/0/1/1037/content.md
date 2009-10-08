@@ -32,7 +32,7 @@ If you need to see applications see for instance
 
 * [[cohomology]]
 
-* [[structured generalized space]]
+* [[structured (∞,1)-topos]]
 
 * [[A Survey of Elliptic Cohomology]]
 
@@ -120,8 +120,8 @@ The book discusses crucial concepts and works out plenty of detailed properties.
 * [section 6.2](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=459) 
 [section 6.5](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=521) 
 and : relation to the Brown-Joyal-Jardine-To&euml;n
-theory of [[infinity-stack homotopically|∞-stacks]]
-in terms of [[simplicial presheaf|simplicial presheaves]].
+theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model structure on simplicial presheaves]].
+
 
 #Content#
 
