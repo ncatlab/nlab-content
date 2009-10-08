@@ -30,6 +30,15 @@ A quasi-category is a [[simplicial set]] in which all _inner_ [[horn]]s have fil
 
 * The [[nerve]] of an ordinary [[category]] is always a quasi-category, while the nerve of a category is a [[Kan complex]] iff the category is a [[groupoid].  In this sense quasi-categories are a "minimal common generalization" of Kan complexes and nerves of categories.
 
+## higher associahedra in quasi-categories ##
+
+While the geometric definition of [[(∞,1)-category]] in terms of quasi-categories eleganty captures all the higher categorical data automatically, it may be of interest in applications to explicitly extract the associators and higher associators encoded by this structure, that would show up any any algebraic definition of the same categorical structure. 
+
+For a discussion of this see
+
+* [[Emily Riehl]], _Associativity data in an $(\infty,1)$-category_ ([pdf](http://math.uchicago.edu/~eriehl/associativity.pdf) [blog](http://golem.ph.utexas.edu/category/2009/10/associativity_data_in_an_1cate.html))
+
+
 # Constructions in quasi-categories #
 
 The point of quasi-categories is that they are supposed to provide a fully [[homotopy theory|homotopy-theoretic]] refinement of the ordinary notion of [[category]]. In particular, all the familiar constructions of [[category theory]] have natural analogs in the context of quasi-categories. See for instance
@@ -80,6 +89,8 @@ Jacob Lurie developed the theory of quasi-categories in
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
 in order to discuss the theory of [[(∞,1)-topos]]es of [[∞-stack]]s.
+
+
 
 [[!redirects quasi-categories]]
 [[!redirects quasicategory]]
