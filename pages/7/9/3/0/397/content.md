@@ -65,6 +65,7 @@ Here is a list of people who have contributed content to the nLab.
 * [[Simon Willerton]]
 * [[Sridhar Ramesh]]
 * [[Stefan Forcey]]
+* [[Stephen Gaito]]
 * [[Thomas Nikolaus]]
 * [[Tim Porter]]
 * [[Tim Silverman]]
