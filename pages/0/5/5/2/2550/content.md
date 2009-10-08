@@ -1,3 +1,4 @@
+[[!redirects A1-homotpy theory]]
 
 #Idea#
 
