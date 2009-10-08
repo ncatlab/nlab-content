@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include homotopy - contents]]
+</div>
+
+
 #Contents#
 
 * table of contents
@@ -141,7 +146,7 @@ See for instance [section 1](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goer
 
 ## simplicial sheaves ##
 
-The point of the axioms of a category of fibrant objects is that when passing from [[infinity-groupoid]]s to [[infinity-stack]]s, i.e. to [[sheaf|sheaves]] with values in [[infinity-groupoid]]s, the obvious na&#239;ve way to lift the model structure from $\infty$-groupoids to sheaves of $\infty$-groupoids fails, as the required lifting axioms will be satisfied only locally (e.g. [[stalk]]wise).
+The point of the axioms of a category of fibrant objects is that when passing from [[infinity-groupoid]]s to [[infinity-stack]]s, i.e. to [[sheaf|sheaves]] with values in [[infinity-groupoid]]s, the obvious na&iuml;ve way to lift the model structure from $\infty$-groupoids to sheaves of $\infty$-groupoids fails, as the required lifting axioms will be satisfied only locally (e.g. [[stalk]]wise).
 
  One can get around this by employing a more sophisticated [[model category]] structure as described at [[model structure on simplicial presheaves]], but often it is useful to use a more lightweight solution and consider sheaves with values in $\infty$-groupoids just as a category of fibrant objects, thereby effectively dispensing with the troublesome lifting property (as all mention of cofibrations is dropped):
 
