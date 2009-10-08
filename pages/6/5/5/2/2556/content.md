@@ -61,7 +61,14 @@ $$
 
 While the [[k-morphism]]s in the finite path $\infty$-groupoid $\Pi(X)$ are $k$-dimensional families of path-connected points in $X$ -- as seen by $R$ -- the [[k-morphism]] in $\Pi^{inf}(X)$ are $(k+1)$-tuples of [[infinitesimal neighbour]] points in $X$ -- as seen by $D$.
 
+
 #Infintesimal path $\infty$-groupoid induced from infinitesimal interval#
+
++-- {: .query}
+
+[[Urs Schreiber]]: the following is both incomplete as well as tentative, still working on it
+
+=--
 
 Recall the discussion at [[interval object]] of how the interval ${*}\sqcup {*} \stackrel{\to}{\to} R$ in $\mathcal{T}$ alone gave rise to the [[cosimplicial object]]
 
@@ -135,9 +142,11 @@ $$
   D(n) = \{(x_i) \in R^k | \forall i,j : x_i x_j = 0\}
 $$
 
-then set
+then define the [[simplicial object]] $X^{\Delta_{inf}^{\bullet}}$ 
 
 $$
+  \Pi^{inf}(X)
+  :=
   X^{\Delta^\bullet_{inf}}
   :=
   \left(
@@ -150,4 +159,71 @@ $$
   \right)
 $$
 
-...
+as follows:
+
+* first notice that by the assumption that $X$ is [[microlinear space|microlinear]] we have the [[isomorphism]] 
+
+ $$
+    X^{D(n)} \simeq X^D \times_X X^D \times_X \cdots \times_X X^D
+  $$
+
+* in each degree we take $R^n$ as equipped with the product [[monoid]] structure $(R^n, \cdot) = (R,\cdot)^n$, i.e with componentwise product. We let this act on $D(n)$ by way of its canonical action on itself and the embedding $D(n) \hookrightarrow R^n$. And we let $R^n$ act on $X^{D(n)}$ by using the above isomorphism and then acting componentwise on the fiber product factors. 
+
+* the face and degeneracy maps are defined structurally the same way as described at [[interval object]], only that whenever there the morphism $X^{({*}\to I)} : X^I \to X$ is used we here use the evaluation map $ev' : X^D \otimes_R D \to X$ induced from the evaluation map $ev : X^D \times D \to X$.
+
+  So the inner face maps $d : X^{D(n)} \otimes_{R^n} D(n) \to X^{D(n-1)} \otimes_{R^{n-1}} D(n-1)$ act fiberwise, and there they act as
+
+  $$
+   ((v_1, v_2, \cdots, v_n)_x, \epsilon)
+   \mapsto ((v_1, \cdots, v_i + v_{i+1}, v_{i+1}, \cdots, v_n)_x, \epsilon)
+  $$
+
+  whie $d_(n)$ acts fiberwise by simply omitting the last vector $v_{n}$. Finally $d_0$ acts by shifting the fibers as
+
+  $$
+    d_0 : ((v_1, v_2, \cdots, v_n)_x, \epsilon)
+    \mapsto 
+    ((v_2, \cdots, v_n)_{x + v_1(\epsilon)}, \epsilon)
+  $$
+
+  the degeneracy maps act fiberwise by simply insers a 0-vector.
+
+This should satisfy the simplicial identities.
+
+Moreover, I am thinking that when $X$ is a manifold in that it locally looks like an $R^k$ then morphisms
+
+$$
+  \omega : X^{D(n)}\otimes_R D(n) \to R
+$$
+
+are automatically fiberwise linear and skew-symmetric.
+
+For instance for $n = 2$ to see that $\omega((v_1,v_2), \epsilon) = - \omega((v_2,v_1), \epsilon)$ use take $X$ to be $R^k$, which it is locally, use that $(R^k)^{D(2)}_0$ of maps with origin at 0 is isomorphic to linear maps  $(\vec \alpha, \vec\beta) :  R^2 \to R^k$ and apply the linear automorphism
+
+$$
+  (\alpha, \beta) \mapsto (\frac{1}{2}(\vec\alpha + \vec\beta), \frac{1}{2}(\vec \alpha- \vec \beta))
+  \,.
+$$
+
+Then exchanging $\vec \alpha$ and $\vec \beta$ now corresponds to $\epsilon_2 \mapsto - \epsilon_2$ and hence $\omega$ changes sign under that operation.
+
+> check 
+
+finally, the canonical morphism $\Pi^{inf}(X) \to \Pi(X)$ is now given degreewise by letting
+
+$$
+  X^{D(n)} \otimes_{R^n} D(n) \to X^{R^n}
+$$
+
+be givn by the [[inner hom]]-[[adjunct]] of the map
+
+$$
+  X^{D(n)} \otimes_{R^n} D(n) \times R^n 
+  \stackrel{Id \times \cdot}{\to}
+  X^{D(n)} \otimes_{R^n} D(n)  
+  \stackrel{ev}{\to}
+  X^{D(n)} \otimes_{R^n} D(n)  \to X
+  \,.
+$$
+
+The claim would be that this does give a morphism of simplicial objects.
