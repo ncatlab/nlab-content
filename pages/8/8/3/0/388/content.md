@@ -1,4 +1,9 @@
 
+<div class="rightHandSide toc">
+[[!include homotopy - contents]]
+</div>
+
+
 The word _homotopy_ is used for different but closely related notions:
 
 * [[homotopy (as a transformation)]] denotes the transformation between two continuous maps between [[topological spaces]], i.e. a [[2-morphism]] in the [[(infinity,1)-category]] [[Top]] -- or more generally any [[2-morphism]] in any [[(infinity,1)-category]], often modeled as a (left or right) homotopy in a [[model category]] or [[category of fibrant objects]];
