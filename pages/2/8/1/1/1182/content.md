@@ -4,6 +4,11 @@
 [[!include physicscontents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+#Introduction#
 
 This entry is about the work by David Ben-Zvi, John Francis and David Nadler on application of a [[(infinity,1)-category|(∞,1)-categorical]] realization of [[geometric function theory]] to [[FQFT|extended quantum field theory]] in the context in which Jacob Lurie proved the [[generalized tangle hypothesis|cobordism hypothesis]].
 
