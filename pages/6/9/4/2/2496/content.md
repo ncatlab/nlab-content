@@ -2206,57 +2206,57 @@ The following Tables develop these ideas in more detail.
 <tr>
 <td>$\text{E}$<br>$\text{Exclusive}$</td>
 <td>$\text{Universal}$<br>$\text{Negative}$</td>
-<td>$\text{All} \: u \: \text{is} \: (v)$</td>
+<td>$\text{All} \: u \: \text{is} \: \text{&#x2997;} v \text{&#x2998;}$</td>
 <td>&nbsp;</td>
 <td>$\text{No} \: u \: \text{is} \: v$</td>
-<td>$(\ell_{11})$</td></tr>
+<td>$\text{&#x2997;} \ell_{11} \text{&#x2998;}$</td></tr>
 
 <tr>
 <td>$\text{A}$<br>$\text{Absolute}$</td>
 <td>$\text{Universal}$<br>$\text{Affirmative}$</td>
 <td>$\text{All} \: u \: \text{is} \: v$</td>
 <td>&nbsp;</td>
-<td>$\text{No} \: u \: \text{is} \: (v)$</td>
-<td>$(\ell_{10})$</td></tr>
+<td>$\text{No} \: u \: \text{is} \: \text{&#x2997;} v \text{&#x2998;}$</td>
+<td>$\text{&#x2997;} \ell_{10} \text{&#x2998;}$</td></tr>
 
 <tr>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 <td>$\text{All} \: v \: \text{is} \: u$</td>
-<td>$\text{No} \: v \: \text{is} \: (u)$</td>
-<td>$\text{No} \: (u) \: \text{is} \: v$</td>
-<td>$(\ell_{01})$</td></tr>
+<td>$\text{No} \: v \: \text{is} \: \text{&#x2997;} u \text{&#x2998;}$</td>
+<td>$\text{No} \: \text{&#x2997;} u \text{&#x2998;} \: \text{is} \: v$</td>
+<td>$\text{&#x2997;} \ell_{01} \text{&#x2998;}$</td></tr>
+
+<tr>
+<td style="border-bottom:2px solid black">&nbsp;</td>
+<td style="border-bottom:2px solid black">&nbsp;</td>
+<td style="border-bottom:2px solid black">$\text{All} \: \text{&#x2997;} v \text{&#x2998;} \: \text{is} \: u$</td>
+<td style="border-bottom:2px solid black">$\text{No} \: \text{&#x2997;} v \text{&#x2998;} \: \text{is} \: \text{&#x2997;} u \text{&#x2998;}$</td>
+<td style="border-bottom:2px solid black">$\text{No} \: \text{&#x2997;} u \text{&#x2998;} \: \text{is} \: \text{&#x2997;} v \text{&#x2998;}$</td>
+<td style="border-bottom:2px solid black">$\text{&#x2997;} \ell_{00} \text{&#x2998;}$</td></tr>
 
 <tr>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
-<td>$\text{All} \: (v) \: \text{is} \: u$</td>
-<td>$\text{No} \: (v) \: \text{is} \: (u)$</td>
-<td>$\text{No} \: (u) \: \text{is} \: (v)$</td>
-<td>$(\ell_{00})$</td></tr>
-
-<tr>
+<td>$\text{Some} \: \text{&#x2997;} u \text{&#x2998;} \: \text{is} \: \text{&#x2997;} v \text{&#x2998;}$</td>
 <td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>$\text{Some} \: (u) \: \text{is} \: (v)$</td>
-<td>&nbsp;</td>
-<td>$\text{Some} \: (u) \: \text{is} \: (v)$</td>
+<td>$\text{Some} \: \text{&#x2997;} u \text{&#x2998;} \: \text{is} \: \text{&#x2997;} v \text{&#x2998;}$</td>
 <td>$\ell_{00}$</td></tr>
 
 <tr>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
-<td>$\text{Some} \: (u) \: \text{is} \: v$</td>
+<td>$\text{Some} \: \text{&#x2997;} u \text{&#x2998;} \: \text{is} \: v$</td>
 <td>&nbsp;</td>
-<td>$\text{Some} \: (u) \: \text{is} \: v$</td>
+<td>$\text{Some} \: \text{&#x2997;} u \text{&#x2998;} \: \text{is} \: v$</td>
 <td>$\ell_{01}$</td></tr>
 
 <tr>
 <td>$\text{O}$<br>$\text{Obtrusive}$</td>
 <td>$\text{Particular}$<br>$\text{Negative}$</td>
-<td>$\text{Some} \: u \: \text{is} \: (v)$</td>
+<td>$\text{Some} \: u \: \text{is} \: \text{&#x2997;} v \text{&#x2998;}$</td>
 <td>&nbsp;</td>
-<td>$\text{Some} \: u \: \text{is} \: (v)$</td>
+<td>$\text{Some} \: u \: \text{is} \: \text{&#x2997;} v \text{&#x2998;}$</td>
 <td>$\ell_{10}$</td></tr>
 
 <tr>
