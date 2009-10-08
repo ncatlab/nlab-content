@@ -351,7 +351,16 @@ $$
 $$
 
 
-> darn, omitting some material because my browser window crashed... this was about the derivation of the statement that...
+We compute $\mathcal{O}_{\hat \mathbb{A}^1} \simeq \mathcal{O}_{\hat \mathbb{G}_m}$ in two ways:
+
+1. Recall that $\hat \mathbb{A}^1$ can be defined as $\mathrm{Spf} \; \mathbb{Z} [t]$, so the global sections of the structure sheaf (which is what we have been calling $\mathcal{O}$) is
+$$\mathcal{O}_{\hat \mathbb{A}^1} = \lim_\rightarrow \mathbb{Z}[t]/ (t^n) = \mathbb{Z} [[t]] .$$ 
+
+1. We can also see this in the functor of points perspective.  Consider the functor $\mathrm{Spec} \; \mathbb{Z} [t]/ (t^n)$, then for any ring $R$ $$\hat A^1 (R) = \lim_\rightarrow \mathrm{Spec} \; \mathbb{Z} [t]/ (t^n) (R).$$
+By the universal property of colimits we have
+$$\mathrm{Nat} (\hat \mathbb{A}^1 , \mathbb{A}^1 ) \simeq \lim_\leftarrow \mathrm{Nat} (\mathrm{Spec} \; \mathbb{Z}[t]/ (t^n) , \mathbb{A}^1) \simeq \mathbb{Z} [[t]].$$
+
+
 
 $$
   \mathcal{O}_{\hat G_m} \simeq \mathbb{Z}[ [ t] ]
