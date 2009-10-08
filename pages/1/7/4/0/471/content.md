@@ -4,16 +4,26 @@
 {:toc}
 
 #Idea#
+ 
+An _interval object_ $I$ in a [[category]] $C$ is an [[object]] that behaves in $C$ roughly like the unit interval $I := [0,1]$ with its two boundary point inclusions 
 
-The structure of a category $V$ with **interval object** is supposed to be the right structure to ensure 
+$$
+  {*}\sqcup {*} \stackrel{0\sqcup 1}{\to}
+  I 
+$$
 
-1. that there is an object $I$ in $V$ such that for every object $X$ of $V$ the [[internal hom|internal hom object]] $[I,X]$ exists and behaves like a [[path object]] for $B$;
+in the category [[Top]] of [[topological space]]s.
 
-2. that there is a notion of composition on these path objects which induces on $[I,X]$ a structure of a (higher) category internal to $V$: the [[fundamental category]] or [[fundamental groupoid]] of the object $X$, or rather its [[fundamental infinity-groupoid]].
+A bare interval object may be nothing more than such a diagram. If $C$ admits sufficiently many [[limit]]s and [[colimit]]s, then from this alone a lot of structure derives. The precise definition of further structure and property imposed on an interval object varies with the intended context and applications. 
 
-For instance the choice $V =$ [[Top]] and $I = [0,1]$ 
-should be an instance of a category with interval object, and the fundamental $n$-groupoid $\Pi_n(X)$ obtained for any topological space $X$ from this data should be the fundamental $n$-groupoid as a [[Trimble n-category]].
+Notably in a large class of applications the interval object in $C$ supposed to be the right structure to ensure 
 
+1. that there is an object $I$ in $C$ such that for every object $X$ of $C$ the [[internal hom|internal hom object]] $[I,X]$ exists and behaves like a [[path object]] for $X$;
+
+2. that there is a notion of composition on these path objects which induces on $[I,X]$ a structure of a (higher) category internal to $C$: the [[fundamental category]] or [[fundamental groupoid]] of the object $X$, or rather its [[fundamental infinity-groupoid]].
+
+For instance the choice $C =$ [[Top]] and $I = [0,1]$ 
+should be an instance of a category with interval object, and the fundamental [[algebraic definition of higher category|algebraic]] [[n-groupoid] $\Pi_n(X)$ obtained for any topological space $X$ from this data should be the fundamental $n$-groupoid as a [[Trimble n-category]].
 
 We give two very similar definitions that differ only in some extra assumptions. 
 
@@ -23,14 +33,49 @@ We give two very similar definitions that differ only in some extra assumptions.
 
 #Definitions#
 
+## plain definition ##
 
-## Definition by Berger-Moerdijk ##
++-- {: .un_defn}
+###### Definition
+**(plain interval object)**
+
+A **plain interval object** in a category $C$ is just a [[cospan]] diagram with equal feet
+
+$$
+  pt \stackrel{0}{\to} I \stackrel{1}{\left} pt
+$$
+
+in $C$, with $I$ and $pt$ any two objects and $0$ and $1$ any two morphisms.
+
+
+=--
+
+## definition in categorie with finite limits ## 
+
++-- {: .un_defn}
+###### Definition
+**(cartesian interval object)**
+
+If the [[category]] $C$ has finite [[limit]]s, then a plain interval object is a **cartesian interval object** if $pt = {*}$ is the [[terminal object]].
+
+=--
+
+Examples for the use of this notion are below in the section on geometric models for path $\infty$-categories.
+
+## definition in homotopical categories ##
+
+If the ambient category $C$ is a [[homotopical category]],
+such as a [[model category]], there are natural 
+further conditions to put on an interval object
+
+
+### Berger-Moerdijk segment object ###
 
 
 In [section 4](http://arxiv.org/PS_cache/math/pdf/0502/0502155v2.pdf#page=11)
 of
 
-* Clemens Berger, Ieke Moerdijk, _The Boardman-Vogt resolution of operads in monoidal model categories_ ([arXiv](http://arxiv.org/abs/math.AT/0502155))
+* Clemens Berger, [[Ieke Moerdijk]], _The Boardman-Vogt resolution of operads in monoidal model categories_ ([arXiv](http://arxiv.org/abs/math.AT/0502155))
 
 the following definition is given:
 
@@ -73,7 +118,7 @@ $$
 is a cofibration and $\epsilon : I \to pt$ a weak equivalence.
 
 
-## another definition ##
+### intervals for Trimble $\omega$-categories ###
 
 The following definition is tentative. It arose from the discussion reproduced further below.
 
@@ -169,9 +214,6 @@ the $A_\infty$-category $\Pi_1(X)$ is just an ordinary category, namely the 1-ca
 
 
 
-
-
-
 # fundamental $\infty$-categories induced from intervals #
 
 The interest in interval objects is that various further structures of interest may be built up from them. In particular, since picking an interval object $I$ is like picking a notion of _path_, in a category with interval object there is, under mild assumptions, for each object $X$ an [[infinity-category]] $\Pi_I(X)$ -- the fundamental $\infty$-category of $X$ with respect to $I$ -- whose [[k-morphism]]s are $k$-fold $I$-paths in $X$.
@@ -263,9 +305,11 @@ However, while cubes are nice for many purposes, it is a sad fact of life that t
 
 In fact, there is also naturally the structure of a  [[cosimplicial object]] of the collection $I^\times \bullet$ of $I$-cubes. This differs from the cubical structure only in were precisely one injects the boundaries into an $I^{\times n}$
 
-**Definition**
++-- {: .un_defn}
+###### Definition
+**(cosimplicial object induced fro,m interval object)**
 
-Given $I \in C$ as above, define a [[cosimplicial object]]
+Given a cartesian interval object $I \in C$, define a [[cosimplicial object]]
 
 $$
   \Delta_I : \Delta \to C
@@ -308,34 +352,103 @@ as follows:
         \times p_i \times p_i \times p_{i+1} \times \cdots \times p_n
     $$
 
-**proposition** The maps defined this way indeed satisfy the [[simplicial identities]].
+=--
 
 
++-- {: .un_prop}
+###### Proposition
 
-**remark** Notice that in particular
+The maps defined this way indeed satisfy the [[simplicial identities]].
 
-* $(\delta_0 : {*} \to I) = (1 : {*} \to I)$
+=--
 
-* $(\delta_1 : {*} \to I) = (0 : {*} \to I)$
++-- {: .proof}
+###### Proof
 
-**remark** This construction gives "collared simplices" in much the same sense
- as in [[collared cobordism]]: first of all there is no condition that
- the morphisms $0,1  : {*} \to I$ "hit a boundary point" -- whatever that may mean
- in $C$ -- of $I$. For instance in a [[lined topos]] $I$ is canonically chosen to be
- the given line object and will hence typically "extended indefinitely" beyond
- these points. An example of this in practice is the $A^1$ homotopy theory of schemes -- there is no exact analogue of the interval (with boundary points) in an algebraic setting, but the [[affine line]] $A^1$ together with the canonical points 0 and 1 is an interval object.
+This is straightforward to check, if a little tedious due to the many case distinctions.
+
+=--
+
+
++-- {: .un_remark}
+###### Remark
+**(unwrapping the definition)**
+
+It may be helpful to unpack the above definition a bit.
+
+* The two faces of $\Delta_I^1$ are just the "boundary points" of the interval itself.
+
+  * $(\delta_0 : {*} \to I) = (1 : {*} \to I)$
+
+  * $(\delta_1 : {*} \to I) = (0 : {*} \to I)$
+
+* The face maps of $\Delta^2_I$ may be depicted as follows:
+
+  $$
+    \delta_2 : 
+    \array{
+      I &\times& I 
+      \\
+      \uparrow^{Id} && \uparrow^{0}
+      \\
+      I &\times& {*}
+    }
+    \,,
+    \;\;\;\;\;
+    \delta_1 : 
+    \array{
+      I &\times& I
+      \\
+      & \uparrow^{Id \times Id} 
+      \\
+      I
+    }
+    \,,
+    \;\;\;\;\;
+    \delta_0 : 
+    \array{
+      I &\times& I 
+      \\
+      \uparrow^{1} && \uparrow^{Id}
+      \\
+      {*} &\times& I
+    }
+  $$
+
+  Therefore $\delta_1$, being a diagonal morphism (cartesian [[product]] of an [[identity]] with itself),
+  literally identifies the **diagonal** in the "square" $I \times I$ as the 1st 1-dimensional boundary.
+
+=--
+
++-- {: .un_remark}
+###### Remark
+**(collars)**
+
+This construction gives "collared simplices" in much the same sense as in [[collared cobordism]] and in [[A1-homotopy]]: 
+
+there is no condition that the morphisms $0,1  : {*} \to I$ "hit a boundary point" -- whatever that may mean
+ in $C$ -- of $I$. For instance in a [[lined topos]] $I$ is canonically chosen to be the given line object and will hence typically "extended indefinitely" beyond these points. 
+
+An example of this in practice is the [[A1-homotopy theory]] of schemes -- there is no exact analogue of the interval (with boundary points) in an algebraic setting, but the [[affine line]] $A^1$ together with the canonical points 0 and 1 is an interval object.
  
- So $I$ need not "look" much like a 1-simplex, but the _choice of boundary points_
- $\delta_1 = 0 : {*} \to I$ and $\delta_0 = 1 : {*} \to I$  allows us to regard
- it as an interval for all practical purposes.
+So $I$ need not "look" much like a 1-simplex, but the _choice of boundary points_ $\delta_1 = 0 : {*} \to I$ and $\delta_0 = 1 : {*} \to I$  allows us to regard
+it as an interval for all practical purposes.
  
- Similarly and more generally what the above construction manifestly defines
- are _cubes_ $I^n$ built from $I$. But then the simplicial choice of 
- boundaries inside these cubes allows to think of them as just the simplices
+Similarly and more generally what the above construction manifestly defines are _cubes_ $I^n$ built from $I$. But then the simplicial choice of  boundaries inside these cubes allows to think of them as just the simplices
  "sitting inside" these cubes.
  
- All these statement become precise for specific typical choices of the ambient
- category $C$, discussed in the examples below.
+All these statement become precise for specific typical choices of the ambient category $C$, discussed in the examples below.
+
+An important aspect is that once the cosimplicial object of _collared simplices_ $\Delta_I$ is used to form [[simplicial object]]s $\Pi(X) := [\Delta^\bullet_I,X]$ (discussed below) and when these are interpreted as [[model category|models]] for [[∞-groupoid]]s, then **the collars disappear**: they are part of the model, but, roughly, don't affect the equivalence class of the object that this model models.
+
+For instance with ${*}\sqcup {*} \stackrel{o \sqcup 1}{\to}\mathbb{R}$ used as the interval in [[Top]], a _path_ in a [[topological space]] $X$ is an entire curve $\gamma : \mathbb{R} \to X$, but two such paths $\gamma_1,\gamma_2$ are composable already when $\gamma_1(1) = \gamma_2(0)$, irrsepctive of how $\gamma_1$ extends $\gt 1$ and irrsepctive of how $\gamma_2$ extends $\lt 0$.
+
+Moreover, the composite-up-to-homotopy of these two paths is an entire surface $\mathbb{R}^2 \to X$ in $X$, but what only matters for this surface qualifying as a compositor of $\gamma_1 and \gamma_2$ is that its $\delta_2$-segment $\{(x,y) \in \mathbb{R}^2 | 0 \leq x \leq 1, y = 0\}$ and its $\delta_0$segment $\{(x,y) \in \mathbb{R}^2 | 0 \leq y \leq 1, x = 0\}$ coincide with the corresponding segments in $\gamma_1$ and $\gamma_2$.
+
+More on this in the following example section.
+
+=--
+
 
 ### example: standard intervals, cubes and simplices in $Top$ and $Diff$ ###
 
@@ -418,6 +531,17 @@ Then for low $n \in \mathbb{N}$ the above construction yields this
 
 
 ***
+
+#Homtopy localization induced from an interval #
+
+Given a suitable interval obect in a [[site]] $C$, one may ask for [[∞-stack]]s on $C$ that are invariant under the notion of [[homotopy]] induced by $I$. These are obtained by [[homotopy localization]] of a full [[(∞,1)-category of (∞,1)-sheaves]] on $C$.
+
+
+## example: $\mathbb{A}^1$-homotopy theory ##
+
+See [[A1-homotpy theory]].
+
+
 
 #Discussion#
 
