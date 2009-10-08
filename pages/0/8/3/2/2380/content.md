@@ -1,12 +1,12 @@
-[[!redirects universes of discourse]]
-
 The universe was created, logically speaking, by [Augustus De Morgan](http://www-history.mcs.st-andrews.ac.uk/Biographies/De_Morgan.html) in 1846.
 
 [George Boole](http://www-history.mcs.st-andrews.ac.uk/Biographies/Boole.html) (1854) defines __universe of discourse__ in the following manner:
 
-: In every discourse, whether of the mind conversing with its own thoughts, or of the individual in his intercourse with others, there is an assumed or expressed limit within which the subjects of its operation are confined. $\ldots$ Now, whatever may be the extent of the field within which all the objects of our discourse are found, that field may properly be termed the universe of discourse.
+: In every discourse, whether of the mind conversing with its own thoughts, or of the individual in his intercourse with others, there is an assumed or expressed limit within which the subjects of its operation are confined. ... Now, whatever may be the extent of the field within which all the objects of our discourse are found, that field may properly be termed the universe of discourse.
 
 : (Boole 1854/1958, p. 42).
+
+The term '[[domain]] of discourse' is also used; in modern [[logic]], every [[predicate]] has a domain of discourse.
 
 ## References ##
 
@@ -21,3 +21,8 @@ The universe was created, logically speaking, by [Augustus De Morgan](http://www
 * [Commens Dictionary of Peirce's Terms](http://www.helsinki.fi/science/commens/dictionary.html)
    * [Logical Universe](http://www.helsinki.fi/science/commens/terms/logicaluniv.html)
    * [Universe of Discourse](http://www.helsinki.fi/science/commens/terms/universedisc.html)
+
+
+[[!redirects universes of discourse]]
+[[!redirects domain of discourse]]
+[[!redirects domains of discourse]]
