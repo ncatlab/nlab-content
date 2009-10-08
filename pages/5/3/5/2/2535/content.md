@@ -22,8 +22,6 @@
 
 * [[path ∞-groupoid in a smooth topos|smooth path ∞-groupoid]]
 
-  * [[simplex in a smooth topos]]
-
 
 
 ## Models ##
