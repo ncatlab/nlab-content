@@ -4,7 +4,17 @@
 ***
 
 [[!include (infinity,1)-topos - contents]]
+
+***
+
+[[!include homotopy - contents]]
+
+
 </div>
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
 
 #Idea#
