@@ -1,4 +1,11 @@
+<div class="rightHandSide toc">
+[[!include homotopy - contents]]
+</div>
+
+
 #Idea#
+
+Universal bundles are intermediate steps in the computation of [[homotopy fiber]]s as [[mapping cone|cone]]s are intermedite steps in the computation of [[homotopy cofiber]]s.
 
 It is familiar from topology that one can form the path fibration $P X \to X$ of a [[topological space]]. This can be understood as an example of a general construction where one computes [[homotopy pullback]]s of the [[point]] -- or, if things are not [[groupoid]]al, [[comma object]]s.
 
@@ -132,7 +139,7 @@ $$
   \,.
 $$
 
-(For instance $\hat X$ could be the &#268;ech groupoid of a [[cover]] of $X$.)
+(For instance $\hat X$ could be the &Ccaron;ech groupoid of a [[cover]] of $X$.)
 
 The universal groupoid bundle $\mathbf{E}G \to \mathbf{B}G$ may now be pulled back along this anafunctor to yield the groupoid bundle $g^* \mathbf{E}G \to X$ given by the total left vertical morphism in 
 
@@ -177,7 +184,7 @@ For $C = 2Cat$, strict 2-categories , $B := \mathbf{B}G$ a strict one-object 2-g
 
 This was shown to be _action bigroupoid_ of $G$ acting on itself in
 
-* Igor Bakovi&#269;, _Bigroupoid 2-torsors _ PhD thesis, Munich (2008) ([pdf](http://edoc.ub.uni-muenchen.de/9209/)).
+* Igor Bakovi&ccaron;, _Bigroupoid 2-torsors _ PhD thesis, Munich (2008) ([pdf](http://edoc.ub.uni-muenchen.de/9209/)).
 
 One can show that every $G$-principal 2-bundle as described in
 
@@ -185,7 +192,7 @@ One can show that every $G$-principal 2-bundle as described in
 
 * Christoph Wockel, _..._
 
-* Igor Bakovi&#269;, _Bigroupoid 2-torsors _ PhD thesis, Munich (2008) ([pdf](http://edoc.ub.uni-muenchen.de/9209/)).
+* Igor Bakovi&ccaron;, _Bigroupoid 2-torsors _ PhD thesis, Munich (2008) ([pdf](http://edoc.ub.uni-muenchen.de/9209/)).
 
 indeed is recovered as the pullback of $\mathbf{E} G \to \mathbf{B}G$ along the corresponding cocycle, along the lines described above.
 
