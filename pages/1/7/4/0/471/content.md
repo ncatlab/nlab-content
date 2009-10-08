@@ -323,7 +323,7 @@ as follows:
  the morphisms $0,1  : {*} \to I$ "hit a boundary point" -- whatever that may mean
  in $C$ -- of $I$. For instance in a [[lined topos]] $I$ is canonically chosen to be
  the given line object and will hence typically "extended indefinitely" beyond
- these points. 
+ these points. An example of this in practice is the $A^1$ homotopy theory of schemes -- there is no exact analogue of the interval (with boundary points) in an algebraic setting, but the [[affine line]] $A^1$ together with the canonical points 0 and 1 is an interval object.
  
  So $I$ need not "look" much like a 1-simplex, but the _choice of boundary points_
  $\delta_1 = 0 : {*} \to I$ and $\delta_0 = 1 : {*} \to I$  allows us to regard
