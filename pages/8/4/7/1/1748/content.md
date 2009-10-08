@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include homotopy - contents]]
+</div>
+
+
 * for disambiguation see [[homotopy]]
 
 #Contents#
