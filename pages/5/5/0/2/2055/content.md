@@ -39,6 +39,7 @@
 
 * [Emmanuel Kowalski's blog](http://blogs.ethz.ch/kowalski)
 						
+
 * [Evolution Blog](http://www.scienceblogs.com/evolutionblog)
 
 * [Frank Morgan's Blog](http://blogs.williams.edu/Morgan)
@@ -64,6 +65,8 @@
 * [London Number Theory Blog](http://londonnumbertheory.wordpress.com/)
 
 * [Low Dimensional Topology](http://ldtopology.wordpress.com)
+
+* [Math-Blog](http://math-blog.com)
 
 * [Mathematical Musings](http://matthewkahle.wordpress.com/)
 
