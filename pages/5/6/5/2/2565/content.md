@@ -1,5 +1,5 @@
-Huh, looks like someone should write something here &#8212;
+Huh, looks like someone should write something here ---
 
-Read my &#8230;
+Read my ...
 
 [[JA]]
