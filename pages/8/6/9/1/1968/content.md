@@ -8,4 +8,4 @@ His home page is
 [here](http://people.math.jussieu.fr/~maltsin/)
 
 
-category: biography
+category: people
