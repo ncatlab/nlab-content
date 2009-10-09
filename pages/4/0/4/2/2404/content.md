@@ -2,4 +2,5 @@ Yuri Ivanovich Manin (Russian: &#1070;&#1088;&#1080;&#1081; &#1048;&#1074;&#1072
 
 [wikipedia](http://en.wikipedia.org/wiki/Yuri_I._Manin)
 
-category: biography
+
+category: people
