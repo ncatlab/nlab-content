@@ -533,7 +533,15 @@ Then for low $n \in \mathbb{N}$ the above construction yields this
   and upload a nice graphics that shows the standard cube and how the
   cosimplicial object $\Delta_I$ picks a solid tetarhedron inside it.
 
+As a start, we can illustrate how there are 6 3-simplices sitting inside each 3-cube.
 
+<img src="http://ncatlab.org/nlab/files/3simplex_in_3cube.jpg" width = "550"/>
+
+Once you see how the 3-simplices sit inside the 3-cube, the facemaps can be illustrated as follows:
+
+<img src="http://ncatlab.org/nlab/files/3simplex_facemaps.jpg" width = "550"/>
+
+Note that these face maps are to be thought of as maps into 3-simplices sitting inside a 3-cube.
 
 ***
 
