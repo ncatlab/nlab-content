@@ -10,4 +10,4 @@
 * [[quantum anomaly]]
 
 
-category: biography
+category: people
