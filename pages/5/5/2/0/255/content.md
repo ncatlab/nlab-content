@@ -1,8 +1,13 @@
+#Contents#
+
+* It said "Tacit"!  So I took it. 
+{:toc}
+
 ##Definition##
 
 A _monad_ in any [[bicategory]] $B$ is a [[monoid]] in the endomorphism category on an object of $B$.
 
-##Explicit description##
+###Explicit description###
 
 This means that a monad is
 
@@ -42,12 +47,21 @@ This can be encoded as saying that
 
 ###In string diagrams###
 
-These data and axioms can be expressed graphically in string diagrams.  The data $C \stackrel{T}{\to} C$, $1_C \stackrel{\eta}{\Rightarrow} T$, $T \circ T \stackrel{\mu}{\Rightarrow} T$ appear as
+These data and axioms can be expressed graphically in string diagrams.  The data $C \stackrel{T}{\to} C$, $1_C \stackrel{\eta}{\Rightarrow} T$, $T \circ T \stackrel{\mu}{\Rightarrow} T$ appear as:
+
 [[monad-data-labeled.png:pic]]
-Thanks to the distinctive shapes, one can often omit the labels:
+
+Thanks to the distinctive shapes, one can usually omit the labels:
+
 [[monad-data-unlabeled.png:pic]]
+
 The axioms $\mu \cdot (\eta \circ T) = 1_C = \mu \cdot (T \circ \eta)$ and $\mu \cdot (T \circ mu) = \mu \cdot (\mu \circ T)$ then appear as:
+
 [[monad-axioms-unlabeled.png:pic]]
+
++-- {: .query}
+[[Peter LeFanu Lumsdaine]]: I did the diagrams with the monad called $(T,\eta,\mu)$ and have only just noticed that that disagrees with what's used in the preceding description.  Was there a particular principled reason for calling it $(A,i,\mu)$ above?  I can change the diagrams to agree if so, but if not, might it be easier on newcomers to use $(T,\eta,\mu)$ throughout?  Pretty much all the references I know use that as the generic name for a monad. ---Peter
+=--
 
 ##Remarks##
 
