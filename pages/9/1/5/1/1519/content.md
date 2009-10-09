@@ -2,4 +2,5 @@
 
 * [website](http://www.cheng.staff.shef.ac.uk/)
 
-category: biography
+
+category: people
