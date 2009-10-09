@@ -8,4 +8,5 @@
 
   * [[multispan]]
 
-category: biography
+
+category: people
