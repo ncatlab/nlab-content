@@ -13,4 +13,4 @@ Paul Taylor works on the [[foundations]] of mathematics and [[computer science]]
 *  [home page](http://www.paultaylor.eu/)
 
 
-category: biography
+category: people
