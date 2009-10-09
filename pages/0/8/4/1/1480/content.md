@@ -10,6 +10,6 @@ amongst others.
 [Home page](http://www.mpim-bonn.mpg.de/Research/People/Senior+Researchers/Baues,+H.-J./)
 
 
-category: biography
+category: people
 
 [[!redirects Baues]]
