@@ -415,6 +415,8 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
 
       * [[Quillen equivalence]]
 
+    * [[Quillen bifunctor]]
+
     * [[monoidal model category]]
 
     * [[enriched model category]]
