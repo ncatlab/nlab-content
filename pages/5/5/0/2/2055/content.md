@@ -176,6 +176,7 @@ Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Scie
 * [Deferential Geometry](http://deferentialgeometry.org)
 * [DispersiveWiki](http://tosio.math.toronto.edu/wiki/index.php/Main_Page)
 * [Mathematics Jobs Wiki](http://notable.math.ucdavis.edu/wiki/Mathematics_Jobs_Wiki)
+* [Similarity Search Wiki](http://www.sswiki.tierra-aoi.net)
 * [The Tricki](http://www.tricki.org)
 
 # Probability and Statistics Wikis #
