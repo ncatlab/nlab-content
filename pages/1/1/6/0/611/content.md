@@ -7,5 +7,4 @@
 * [[extended cobordism]]
 
 
-
-category: biography
+category: people
