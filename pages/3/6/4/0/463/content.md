@@ -9,4 +9,4 @@
 * Talk at Hamburg Center of mathematical physics, Febuary 2009, [[BenZviHamburg2009.pdf:file]]
 
 
-category: biography
+category: people
