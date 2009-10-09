@@ -8,4 +8,5 @@
 
 * [Charles Sanders Peirce](http://www-history.mcs.st-andrews.ac.uk/Biographies/Peirce_Charles.html), O'Connor and Robertson (eds.), MacTutor History of Mathematics.
 
-category: biography
+
+category: people
