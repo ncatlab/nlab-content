@@ -6,8 +6,6 @@ J. Peter May is a [[homotopy theory|homotopy theorist]] at the University of Chi
 
 * [Peter May: Wikipedia entry]([http://en.wikipedia.org/wiki/J._Peter_May).
 
-category: biography
-
 #related $n$Lab entries#
 
 * [[stable homotopy theory]]
@@ -16,5 +14,7 @@ category: biography
 
 * [[higher category theory]]
 
-[[!redirects May]]
 
+category: people
+
+[[!redirects May]]
