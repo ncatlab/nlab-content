@@ -80,8 +80,9 @@ Here is a list of people who have contributed content to the nLab.
 * [[Vaughan Pratt]]
 * [[Victor Porton]]
 * [[Vishal Lama]]
+* [[Yury Lifshits]]
 * [[Zoran Škoda]]
 
-See also [category: people](http://ncatlab.org/nlab/list/people) and [Authors](http://ncatlab.org/nlab/authors). The latter also displays a list of all pages each author has contributed to.
+See also [category: people](http://ncatlab.org/nlab/list/people) and [Authors](http://ncatlab.org/nlab/authors). The former includes both contributors and others, but only people with a page in the Lab; the latter also displays a list of all pages that each author has contributed to.
 
 category: meta
