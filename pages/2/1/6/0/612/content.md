@@ -54,4 +54,4 @@
   all the material in there should now be, in more complete and more cohenrent form, in the articles above. But some papers will cite page and verse in the PhD thesis, so it is useful to have that as a reference, too.
 
 
-category: biography
+category: people
