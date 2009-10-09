@@ -3,4 +3,5 @@ Jean-Luc Brylinski is a French mathematician now working in the USA. He has deve
 ##Reference##
  [Wikipedia article](http://en.wikipedia.org/wiki/Jean-Luc_Brylinski)
 
-category: biography
+
+category: people
