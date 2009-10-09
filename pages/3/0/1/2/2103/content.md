@@ -25,4 +25,4 @@ The above material is based on
 *  [the English Wikipedia entry on Michael Barr](http://en.wikipedia.org/wiki/Michael_Barr_%28mathematician%29)
 
 
-category: biography
+category: people
