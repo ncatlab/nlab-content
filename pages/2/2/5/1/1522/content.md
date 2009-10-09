@@ -2,4 +2,5 @@ Johan Alm is a PhD student in mathematical physics at [Stockholm University](htt
 
 Alm did his masters thesis on _Infinitesimal extensions of Hirzebruch surfaces_ at University of Uppsala.
 
-category: biography
+
+category: people
