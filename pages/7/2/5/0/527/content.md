@@ -1,16 +1,21 @@
+* tic
+{:toc}
+
 This is an experiment in collaboration. I want to write an article about discrete causal spaces. Please help. Coauthors welcome! - [[Eric Forgy|Eric]]
 
-#Goals#
+# Goals #
 
 1. Construct a generalization of [[ericforgy:Discrete differential geometry on causal graphs|Discrete differential geometry on causal graphs]] to $n$-dimensional discrete causal spaces that are _locally_ like $n$-diamonds (see the paper for a description of $n$-diamonds until a page is created).
+
 1. The continuum limit of a discrete causal space should be a [[directed space]], or more specifically, a [[smooth Lorentzian space]].
+
 1. Etc
 
-#Abstract#
+# Abstract #
 
 ...
 
-#Introduction#
+# Introduction #
 
 We need a good category-friendly definition of an $n$-diamond. Here's a first stab that is incomplete, but hopefully gets the ball rolling.
 
@@ -20,7 +25,7 @@ We need a good category-friendly definition of an $n$-diamond. Here's a first st
 
 **Example:** $\mathbb{Z}^n$ with the its obvious $r$-diamond faces, $0\le r\le n$ is an $n$-diamond complex.
 
-#References#
+# References #
 
 * Marco Grandis, _Directed homotopy theory, I. The fundamental category_ ([arXiv](http://arxiv.org/abs/math.AT/0111048))
 * Tim Porter: _Enriched categories and models for spaces of evolving states_, Theoretical Computer Science, 405, (2008), pp. 88--100.
@@ -40,8 +45,14 @@ See also:
 * [[directed homotopy theory]].
 
 ***
-#Discussion#
-_Note: Topics will be separated by lines and each topic is presented in reverse chronological order._
+
+# Discussion #
+
+_Note.  Topics will be separated by lines and each topic is presented in reverse chronological order._
+
+[[JA]]: Just starting reading this and don't know much about diamonds yet, but I have been working on logic-based approaches to discrete dynamics &#8212; that I sometimes think of as differential geometry over GF(2) &#8212; for quite a while now.  You might take a gander at my [Magnum Opiate](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Differential_Logic_and_Dynamic_Systems_2.0) and we could see if it fits in here somewhere.
+
+***
 
 [[Eric]]: Motivated by some emails from [[Tim Porter|Tim]], I think we could use pages on [[causal site]] and [[dg-quiver]]. I am particularly interested in seeing a definition of [[dg-quiver]].
 
@@ -50,6 +61,7 @@ _Note: Topics will be separated by lines and each topic is presented in reverse 
 [[Eric]]: I wonder if $n$-diamonds should be more closely related to [[n-fold categories]] rather than [[posets]]?
 
 ***
+
 (From nCafe: <a href="http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html#c021347">Authorship</a>)
 
 _[[Urs Schreiber|Urs]] says_: I think Eric wants a [[partial order|poset]] of sorts.
@@ -63,7 +75,6 @@ A [[causet|causal subset]] in a poset $X$ is what John in his latest <a href="ht
 $$x\darr X\darr y$$
 
 of all objects in the past of $x$ and in the future of $y$.
-
 
 _[[Tim Porter|Tim]]_: In a poset one can define a diamond as being an order convex subset possibly with extra properties: U is order convex if $x$, $z$ are in $U$ with $x \lt z$, and $y$ lies between $x$ and $z$ ($x\lt y \lt z$). 
 
