@@ -14,7 +14,7 @@
   on [[sheaf and topos theory]]
 
 
-category: biography
+category: people
 
 [[!redirects Sauders MacLane]]
 [[!redirects Saunders MacLane]]
