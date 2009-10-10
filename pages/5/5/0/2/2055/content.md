@@ -3,13 +3,14 @@
 * automatic table of contents goes here
 {:toc}
 
-# Mathematics Blogs #
-
 +--{: .query}
 [[Mike Shulman]]: I think this page would be even more useful if it included brief notes about what sort of activity tends to go on at each blog in the list.
 
 [[Eric]]: Good idea, but maybe too much for any one person, so if you find your blog listed here, please provide a note about it. Note: I added a blurb to the _The n-Category Caf&#233;_ for a sample.
 =--
+
+
+# Mathematics Blogs #
 
 * [Affine Mess] (http://affinemess.com) 
 
@@ -38,7 +39,6 @@
 * [Drexel mathematics](http://www.library.drexel.edu/blogs/drexelmath)
 
 * [Emmanuel Kowalski's blog](http://blogs.ethz.ch/kowalski)
-						
 
 * [Evolution Blog](http://www.scienceblogs.com/evolutionblog)
 
@@ -138,9 +138,10 @@
 
 * [Wiskundemeisjes](http://www.wiskundemeisjes.nl)
 
-   * A blog about mathematics for a general audience, written by Jeanine Daems and Ionica Smeets (in Dutch)
+  * A blog about mathematics for a general audience, written by Jeanine Daems and Ionica Smeets (in Dutch)
 
 * [XOR's hammer](http://xorshammer.wordpress.com)
+
 
 # Probability and Statistics Blogs #
 
@@ -152,9 +153,11 @@
 
 * [Williams College Math/Stat blog](http://blogs.williams.edu/math)
 
+
 # Theoretical Computer Science Blogs #
 
 Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Science).
+
 
 # Other Blogs that Touch on Mathematics #
 
@@ -170,23 +173,36 @@ Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Scie
 
 * [Quomodocumque](http://quomodocumque.wordpress.com/category/math/)
 
+
 # Mathematical Wikis #
 
 * [Analysis & PDE conferences](http://tosio.math.utoronto.ca/wiki/index.php/Conferences)
+
 * [Deferential Geometry](http://deferentialgeometry.org)
+
 * [DispersiveWiki](http://tosio.math.toronto.edu/wiki/index.php/Main_Page)
+
 * [Mathematics Jobs Wiki](http://notable.math.ucdavis.edu/wiki/Mathematics_Jobs_Wiki)
+
 * [Similarity Search Wiki](http://www.sswiki.tierra-aoi.net)
+
 * [The Tricki](http://www.tricki.org)
+
 * [Mathematics Wikia](http://math.wikia.com/wiki/Main_Page)
+
+
 # Probability and Statistics Wikis #
 
 * [Chance News](http://chance.dartmouth.edu/chancewiki/index.php/Main_Page)
+
 * [Wikitistics - Statistics Wiki](http://statistics.wikia.com/wiki/Main_Page)
+
+
 # Blog Discussions on Math Blogging #
 
 * $n$-Caf&#233; discussions on _What do mathematicians need to know about blogging?_, [Part I](http://golem.ph.utexas.edu/category/2009/08/what_do_mathematicians_need_to.html) and [Part II](
 http://golem.ph.utexas.edu/category/2009/09/what_do_mathematicians_need_to_1.html)
+
 
 # Other Resources #
 
@@ -199,6 +215,7 @@ http://golem.ph.utexas.edu/category/2009/09/what_do_mathematicians_need_to_1.htm
 * [Detexify](http://detexify.kirelabs.org/classify.html) for finding LaTeX symbols by drawing them.
 
 * [LaTeX on Blogger](http://watchmath.com/vlog/?p=438) for installing LaTeX on Blogger.
+
 
 category: meta
 
