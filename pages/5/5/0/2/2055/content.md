@@ -178,11 +178,11 @@ Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Scie
 * [Mathematics Jobs Wiki](http://notable.math.ucdavis.edu/wiki/Mathematics_Jobs_Wiki)
 * [Similarity Search Wiki](http://www.sswiki.tierra-aoi.net)
 * [The Tricki](http://www.tricki.org)
-
+* [Mathematics Wikia](http://math.wikia.com/wiki/Main_Page)
 # Probability and Statistics Wikis #
 
 * [Chance News](http://chance.dartmouth.edu/chancewiki/index.php/Main_Page)
-
+* [Wikitistics - Statistics Wiki](http://statistics.wikia.com/wiki/Main_Page)
 # Blog Discussions on Math Blogging #
 
 * $n$-Caf&#233; discussions on _What do mathematicians need to know about blogging?_, [Part I](http://golem.ph.utexas.edu/category/2009/08/what_do_mathematicians_need_to.html) and [Part II](
