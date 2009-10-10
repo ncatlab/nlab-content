@@ -82,6 +82,17 @@ A _globular set_ is a [[presheaf]] on the _globe category_ (described below), on
 
 are called the **globular identities**.
 
+ +-- {: .query}
+[[Marc Olschok|Marc]]:
+Perhaps it would be better, not to require reflexivity
+(i.e. the map $i$) in these definitions and use
+"reflexive globular set" if reflexivity is required?
+The way it is phrased now is in conflict with the 
+terminology for directed graphs, where one uses 
+"reflexive graphs" if these are meant, but allows
+graphs without distinguished loops.
+=--
+
  A morphism of globular objects is a natural transformation
   of the corresponding functors.
 For the resulting category of globular objects in $K$
