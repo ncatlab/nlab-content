@@ -27,7 +27,7 @@
 
 * [Concrete Nonsense](http://concretenonsense.wordpress.com)
 
-* [Delta Epsilons](http://deltaepsilons.wordpress.com)
+* [Delta Epsilons](http://deltaepsilons.wordpress.com) A group blog focusing on algebra, representation theory, and Olympiad-style problem-solving
 
 * [Disquisitiones Mathematicae](http://matheuscmss.wordpress.com)
 
