@@ -66,9 +66,12 @@ While the [[k-morphism]]s in the finite path $\infty$-groupoid $\Pi(X)$ are $k$-
 
 +-- {: .query}
 
-[[Urs Schreiber]]: the following is both incomplete as well as tentative, still working on it
+[[Urs Schreiber]]: the following should be checked
 
 =--
+
+
+## introduction ##
 
 Recall the discussion at [[interval object]] of how the interval ${*}\sqcup {*} \stackrel{\to}{\to} R$ in $\mathcal{T}$ alone gave rise to the [[cosimplicial object]]
 
@@ -136,67 +139,171 @@ where $\cdot$ here denotes the [[monoid]]-[[action]] of $(R,\cdot)$ on $D$ (by t
 
 In this same fashion we can then define infinitesimal analogs of the finite higher path object $X^{\Delta_R^k} = X^{R^{\times k}}$.
 
-Let $D(n)$ be the [[infinitesimal space|k-dimensional infinitesimal interval]]
+## the definition ##
 
-$$
-  D(n) = \{(x_i) \in R^k | \forall i,j : x_i x_j = 0\}
-$$
++-- {: .un_defn}
+###### Definition
+**(infinitesimal path simplicial object)**
 
-then define the [[simplicial object]] $X^{\Delta_{inf}^{\bullet}}$ 
+Let $X \in \mathcal{T}$ be a [[microlinear space]] in the
+[[smooth topos]] $(\mathcal{T},R)$ with infinitesimal
+interval object $D$. 
+
+Then define the [[simplicial object]] 
 
 $$
   \Pi^{inf}(X)
-  :=
-  X^{\Delta^\bullet_{inf}}
-  :=
-  \left(
-    \cdots
-    X^{D(2)}\otimes_{R^2} D(2)
-    \stackrel{\to}{\stackrel{\to}{\to}}
-    X^D \otimes_R D
-    \stackrel{\to}{\to}
-    X
-  \right)
-$$
+  : \Delta^{op} \to
+  \mathcal{T}
+$$ 
 
 as follows:
 
-* first notice that by the assumption that $X$ is [[microlinear space|microlinear]] we have the [[isomorphism]] 
-
- $$
-    X^{D(n)} \simeq X^D \times_X X^D \times_X \cdots \times_X X^D
-  $$
-
-* in each degree we take $R^n$ as equipped with the product [[monoid]] structure $(R^n, \cdot) = (R,\cdot)^n$, i.e with componentwise product. We let this act on $D(n)$ by way of its canonical action on itself and the embedding $D(n) \hookrightarrow R^n$. And we let $R^n$ act on $X^{D(n)}$ by using the above isomorphism and then acting componentwise on the fiber product factors. 
-
-* the face and degeneracy maps are defined structurally the same way as described at [[interval object]], only that whenever there the morphism $X^{({*}\to I)} : X^I \to X$ is used we here use the evaluation map $ev' : X^D \otimes_R D \to X$ induced from the evaluation map $ev : X^D \times D \to X$.
-
-  So the inner face maps $d : X^{D(n)} \otimes_{R^n} D(n) \to X^{D(n-1)} \otimes_{R^{n-1}} D(n-1)$ act fiberwise, and there they act as
+* in degree $n$ it assigns the object
 
   $$
-   ((v_1, v_2, \cdots, v_n)_x, \epsilon)
-   \mapsto ((v_1, \cdots, v_i + v_{i+1}, v_{i+1}, \cdots, v_n)_x, \epsilon)
+    [n] \mapsto 
+    X^{D(n)} \otimes_{R^n} D(n)
+    \hookrightarrow
+    (X^D \otimes_R D)^{\times_X^n}
   $$
 
-  whie $d_(n)$ acts fiberwise by simply omitting the last vector $v_{n}$. Finally $d_0$ acts by shifting the fibers as
+  whose [[generalized element]]s we write $(\epsilon_i v_i)_x$ with $\vec \epsilon \in D(n)$ or $(\nu_i)_x$ for short; where $x \in X$ indicates the fiber of $X^{D(n)} \to X$ that the element lives in 
 
-  $$
-    d_0 : ((v_1, v_2, \cdots, v_n)_x, \epsilon)
-    \mapsto 
-    ((v_2, \cdots, v_n)_{x + v_1(\epsilon)}, \epsilon)
-  $$
 
-  the degeneracy maps act fiberwise by simply insers a 0-vector.
+* the face maps $d_i : (X^D \times_R D)^{\times_X^{n+1}} \to (X^D \times_R D)^{\times_X^{n}}$ are
 
-This should satisfy the simplicial identities.
+  * for $0 \lt i \lt n+1$
 
-Moreover, I am thinking that when $X$ is a manifold in that it locally looks like an $R^k$ then morphisms
+    given on [[generalized element]]s by
+
+    $$
+      d_i : (\nu_i)_x
+      \mapsto
+      (\nu_0 , \cdots, \nu_{i-2},
+      \nu_{i-1} + \nu_i, \nu_{i+1}, \cdots, \nu_{m+1} )_x
+    $$
+
+  * for $i = 0$
+
+    given by
+
+    $$
+      d_0 : (\nu_i) \mapsto (v_0(\epsilon_0) + \vu_i)
+    $$
+
+    where the element on the right denotes the evaluation of the map $(\nu_i) : D(n) \to X$ in its first argument on $\epsilon_0$, regarded as an element in the fiber over $v_0(\epsilon_0)$.
+
+  * for $i = n+1$ 
+
+    given by 
+
+    $d_{n+1} : (\nu_0, \cdots, \nu_{n+1}) \mapsto (\nu_0, \cdots, \nu_n)$
+
+* the degeneracy maps $\sigma_i$ act by inserting the 0-vector in position i:
+
+  $\sigma_i : (\ni_i) \mapsto (\nu_0, \cdots, \nu_{i-1}, 0, \nu_{i+1}, \cdots, \nu_{n})$.
+
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+These face and degeneracy maps indeed satisfy the 
+[[simplicial identities]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is straightforward checking that proceeds entirely analogously as the proof of the simplicial identities for the finite path $\infty$-groupoid $\Pi(X)$ discussed at [[interval object]]. See also the following remark.
+
+=--
+
+
++-- {: .un_remark}
+###### Remark
+
+By thinking of the $v_i : D  \to X$ as infinitesimal collared curves in $X$ with source $v_i(0)$ and target $v_i(\epsilon_i)$ the above definition is an immediate analog of the definition of the path $\infty$-groupoid $\Pi(X)$ of finite paths as discussed at [[interval object]].
+
+This is made manifest by the following construction that embeds $\Pi^{inf}(X)$ into $\Pi(X)$. 
+
+=--
+
+
+## the inclusion of infinitesimal into finite paths ##
+
+Recall the finite path $\infty$-groupoid $\Pi(X)$ induced from the [[interval object]]
+
+$$
+  (0_*,1_*) : * \coprod * \to R
+$$ 
+
+as discussed there. On object this assigns
+
+$$
+  \Pi(X) : [n] \mapsto X^{R^n}
+  \,.
+$$
+
+
++-- {: .un_defn}
+###### Definition
+**(inclusion of infinitesimal into finite paths)**
+
+For $n \in \mathbb{N}$ define a morphism
+
+$$
+  X^(D(n)) \otimes_{R^n} D(n)
+  \to 
+  X^{R^n}
+$$
+
+on [[generalized element]]s by
+
+$$
+  \iota_n : 
+  (\epsilon_i v_i) \mapsto 
+  ((t_0, \cdots, t_{n-1}) 
+   \mapsto \sum_{i=0}^{n-1} v_i(t_i \epsilon_i))
+   \,.
+$$
+
+=--
+
++-- {: .un_prop}
+###### Proposition
+
+These morphism $(\iota_n)$ constitute respect the face and degeneracy maps on both sides and hence induce an inclusion of simplicial objects
+
+$$
+  \Pi^{inf}(X) \hookrightarrow \Pi(X)
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Straightforward checking on [[generalized element]]s.
+
+=--
+
+
+
+
+## skew symmetry ##
+
+Moreover, it seems to [[Urs Schreiber|me]] that when $X$ is a [[manifold]] in that it locally looks like an $R^k$ then morphisms
 
 $$
   \omega : X^{D(n)}\otimes_R D(n) \to R
 $$
 
 are automatically fiberwise linear and skew-symmetric.
+
 
 For instance for $n = 2$ to see that $\omega((v_1,v_2), \epsilon) = - \omega((v_2,v_1), \epsilon)$ use take $X$ to be $R^k$, which it is locally, use that $(R^k)^{D(2)}_0$ of maps with origin at 0 is isomorphic to linear maps  $(\vec \alpha, \vec\beta) :  R^2 \to R^k$ and apply the linear automorphism
 
@@ -207,23 +314,5 @@ $$
 
 Then exchanging $\vec \alpha$ and $\vec \beta$ now corresponds to $\epsilon_2 \mapsto - \epsilon_2$ and hence $\omega$ changes sign under that operation.
 
-> check 
+> check in more detail
 
-finally, the canonical morphism $\Pi^{inf}(X) \to \Pi(X)$ is now given degreewise by letting
-
-$$
-  X^{D(n)} \otimes_{R^n} D(n) \to X^{R^n}
-$$
-
-be givn by the [[inner hom]]-[[adjunct]] of the map
-
-$$
-  X^{D(n)} \otimes_{R^n} D(n) \times R^n 
-  \stackrel{Id \times \cdot}{\to}
-  X^{D(n)} \otimes_{R^n} D(n)  
-  \stackrel{ev}{\to}
-  X^{D(n)} \otimes_{R^n} D(n)  \to X
-  \,.
-$$
-
-The claim would be that this does give a morphism of simplicial objects.
