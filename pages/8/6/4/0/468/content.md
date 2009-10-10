@@ -1,3 +1,7 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 The _pushout-product axtiom_ is a compatibility condition between 
@@ -25,6 +29,14 @@ $$
 $$
 
 is a cofibration which is acyclic if $f$ or $f'$ is.
+
+This means that the [[tensor product]]
+
+$$
+  \otimes : C \times C \to C
+$$ 
+
+is a [[Quillen bifunctor]].
 
 #Remarks#
 
