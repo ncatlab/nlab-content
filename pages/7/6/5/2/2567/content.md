@@ -5,6 +5,10 @@
 
 #Definition#
 
++-- {: .un_defn}
+###### Definition
+**(Quillen bifunctor)**
+
 Let $C, D, E$ be [[model category|model categories]]. A
 [[functor]] $F : C \times D \to E$ is a **Quillen bifunctor** 
 if it satisfies the following two conditions:
@@ -21,6 +25,7 @@ if it satisfies the following two conditions:
 
 1. it preserves [[colimit]]s separately in each variable
 
+=--
 
 #Remarks#
 
@@ -60,7 +65,8 @@ on [[functor category|functor categories]] of functors to $C$ and $D$.
 
 
 
-**Proposition**
++-- {: .un_prop}
+###### Proposition
 
 Let $\otimes : C \times D \to E$ be a Quillen functor. Let 
 
@@ -75,13 +81,18 @@ Let $\otimes : C \times D \to E$ be a Quillen functor. Let
 Then the [[coend]] [[functor]]
 
 $$
-  \int^{S} : [S,C]\times [S^{op},D] \to E
+  \int^{S} (- \otimes -) : [S,C]\times [S^{op},D] \to E
 $$
 
 is again a &#180;Quillen bifunctor.
 
-**Proof**
+=--
+
++-- {: .proof}
+###### Proof
 
 This is proposition A.2.9.26 together with remark A.2.9.27 in 
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
+
+=--
