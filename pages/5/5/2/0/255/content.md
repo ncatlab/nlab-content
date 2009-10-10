@@ -3,13 +3,15 @@
 * It said "Tacit"!  So I took it. 
 {:toc}
 
+
 ##Idea##
 
-A _monad_ abstracts the concept of an [[algebraic theory]] (such as "group" or "ring"), giving a general notion of a [[structure]] on an object of a category.
+A _monad_ abstracts the concept of an [[algebraic theory]] (such as "group" or "ring"), giving a general notion of [[extra structure]] on an object of a category.
 
-Classically, if $\mathbf{T}$ is an algebraic theory (e.g.\ the theory of groups), a $\mathbf{T}$-structure on a set tells us how to interpret various _terms_ (e.g. $(a\cdot c)$) formed from elements of the set, subject to certain _axioms_ (e.g. $(a\cdot (b\cdot c))=((a\cdot b)\cdot c)$).  A monad collects this up into a functor $T$.  For a set $X$, $T X$ is the set of all terms of the theory formed from elements of $X$, with terms identified if axioms force them to be equal.  For groups, $T X$ is thus the (underlying set of the) [[free group]] of formal words $a\cdot b \ldots \cdot s$ from $X$; the fact that $T$ gives [[free]] structures turns out to be [[monadic adjunction|typical]].
+Classically, if $\mathbf{T}$ is an algebraic theory (e.g. the theory of groups), a $\mathbf{T}$-structure on a set tells us how to interpret various _terms_ (e.g. $(a\cdot c)$) formed from elements of the set, subject to certain _axioms_ (e.g. $(a\cdot (b\cdot c))=((a\cdot b)\cdot c)$).  A monad collects this up into a functor $T$.  For a set $X$, $T X$ is the set of all terms of the theory formed from elements of $X$, with terms identified if axioms force them to be equal.  For groups, $T X$ is thus the (underlying set of the) [[free group]] of formal words $a \cdot b \cdot \cdots \cdot s$ from $X$; the fact that $T$ gives [[free object|free]] structures turns out to be [[monadic adjunction|typical]].
 
 To capture the theory fully, we need to include a little more data: a natural map $\eta_X : X \to T X$ recording how each $a \in X$ gives a trivial term $a$, and a map $\mu_X:T T X \to T X$ recording how further terms built from terms are already present as terms in $T X$.  The axioms satisfied by these maps turn out to have a striking formal relation to the axioms for a [[monoid]].
+
 
 ##Definition##
 
@@ -25,6 +27,7 @@ A _monad_ on a category $C$ consists of
 
 This generalises evidently from categories to the objects of any [[bicategory]].  If $\mathcal{B}$ is a bicategory, a monad on an object $C$ of $\mathcal{B}$ consists of a 1-cell $T: C \to C$ together with 2-cells $\eta, \mu$ satisfying axioms as before.
 
+
 ###In string diagrams###
 
 These data and axioms can be expressed graphically in string diagrams.  The data $C \stackrel{T}{\to} C$, $1_C \stackrel{\eta}{\Rightarrow} T$, $T \circ T \stackrel{\mu}{\Rightarrow} T$ appear as:
@@ -39,11 +42,13 @@ The axioms $\mu \cdot (\eta \circ T) = 1_C = \mu \cdot (T \circ \eta)$ and $\mu 
 
 [[monad-axioms-unlabeled.png:pic]]
 
+
 ### As monoids ###
 
 The name "monad" and the terms "unit", "multiplication" and "associativity" come from a clear analogy with [[monoids]].  Indeed, one can define a monad on an object $C$ of a [[bicategory]] $\mathcal{B}$ as just a monoid in its endomorphism category $\mathcal{B}(C,C)$.
 
 Alternatively, monads can be taken as more fundamental, and a monoid in a [[monoidal category]] $C$ can be defined as a monad _in_ $C$, viewing $C$ as a one-object bicategory.
+
 
 ### As lax functors ###
 
@@ -62,6 +67,7 @@ Among higher-category theorists, it's tempting to suggest that this is the most 
 
 [[Mike Shulman]]: I don't think it needs any cutting down.  If anything, one could add more description of all the other things that a monad is.
 =--
+
 
 ##Remarks##
 
@@ -87,9 +93,11 @@ In a $Cat$-like bicategory, left modules over a monad are usually called _algebr
 
 Some monads arise from [[operad]]s, in which case algebras for the monad are the same as algebras for the operad.  A [[Lawvere theory]] is another special sort of monad in $Cat$.
 
-# Related entries #
+
+## Related entries #
 
 * [[strong monad]]
+
 
 ##References##
 
@@ -104,7 +112,6 @@ Introductory slides:
 Book (recall that monads are also called 'triples'):
 
 * Michael Barr and Charles Wells, [Toposes, Triples and Theories](http://www.cwru.edu/artsci/math/wells/pub/ttt.html).
-
 
 
 [[!redirects algebra of a monad]]
