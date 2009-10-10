@@ -3,47 +3,27 @@
 * It said "Tacit"!  So I took it. 
 {:toc}
 
+##Idea##
+
+A _monad_ abstracts the concept of an [[algebraic theory]] (such as "group" or "ring"), giving a general notion of a [[structure]] on an object of a category.
+
+Classically, if $\mathbf{T}$ is an algebraic theory (e.g.\ the theory of groups), a $\mathbf{T}$-structure on a set tells us how to interpret various _terms_ (e.g. $(a\cdot c)$) formed from elements of the set, subject to certain _axioms_ (e.g. $(a\cdot (b\cdot c))=((a\cdot b)\cdot c)$).  A monad collects this up into a functor $T$.  For a set $X$, $T X$ is the set of all terms of the theory formed from elements of $X$, with terms identified if axioms force them to be equal.  For groups, $T X$ is thus the (underlying set of the) [[free group]] of formal words $a\cdot b \ldots \cdot s$ from $X$; the fact that $T$ gives [[free]] structures turns out to be [[monadic adjunction|typical]].
+
+To capture the theory fully, we need to include a little more data: a natural map $\eta_X : X \to T X$ recording how each $a \in X$ gives a trivial term $a$, and a map $\mu_X:T T X \to T X$ recording how further terms built from terms are already present as terms in $T X$.  The axioms satisfied by these maps turn out to have a striking formal relation to the axioms for a [[monoid]].
+
 ##Definition##
 
-A _monad_ in any [[bicategory]] $B$ is a [[monoid]] in the endomorphism category on an object of $B$.
+A _monad_ on a category $C$ consists of
 
-###Explicit description###
+* an [[endofunctor]] $T : C \to C$, and
 
-This means that a monad is
+* a pair of [[natural transformations]] $\eta: 1_C \to T$ (the _unit_ of $T$) and $\mu: T^2 \to T$ (the _multiplication_), such that
 
-* an object $a$ of $B$;
+* $\eta$ is a unit for $\mu$, i.e. $\mu \cdot (\eta \circ T) = 1_C = \mu \cdot (T \circ \eta)$, and
 
-* an [[endomorphism]] $a \stackrel{A}{\to} a$ on $a$;
+* $\mu$ is associative, i.e. $\mu \cdot (T \circ \mu) = \mu \cdot (\mu \circ T)$.
 
-* a 2-morphism 
-$$
-  \array{
-    &&
-    a
-    \\
-    & 
-    {}^A\nearrow &\Downarrow^\mu& \searrow^A
-    \\
-    a
-    &&\stackrel{A}{\to}&&
-    a
-  }
-$$
-
-* and a 2-morphism
-$
-  i : Id_a \Rightarrow A
-$
-
-* such that
-
-  * $\mu$ is associative in the obvious sense;
-
-  * $\mu$ is unital with respect to $i$ in the obvious sense.
-
-This can be encoded as saying that
-
-* A monad is a [[lax functor]] ${*} \to B$ from the [[point]] to $B$.
+This generalises evidently from categories to the objects of any [[bicategory]].  If $\mathcal{B}$ is a bicategory, a monad on an object $C$ of $\mathcal{B}$ consists of a 1-cell $T: C \to C$ together with 2-cells $\eta, \mu$ satisfying axioms as before.
 
 ###In string diagrams###
 
@@ -55,21 +35,36 @@ Thanks to the distinctive shapes, one can usually omit the labels:
 
 [[monad-data-unlabeled.png:pic]]
 
-The axioms $\mu \cdot (\eta \circ T) = 1_C = \mu \cdot (T \circ \eta)$ and $\mu \cdot (T \circ mu) = \mu \cdot (\mu \circ T)$ then appear as:
+The axioms $\mu \cdot (\eta \circ T) = 1_C = \mu \cdot (T \circ \eta)$ and $\mu \cdot (T \circ \mu) = \mu \cdot (\mu \circ T)$ then appear as:
 
 [[monad-axioms-unlabeled.png:pic]]
+
+### As monoids ###
+
+The name "monad" and the terms "unit", "multiplication" and "associativity" come from a clear analogy with [[monoids]].  Indeed, one can define a monad on an object $C$ of a [[bicategory]] $\mathcal{B}$ as just a monoid in its endomorphism category $\mathcal{B}(C,C)$.
+
+Alternatively, monads can be taken as more fundamental, and a monoid in a [[monoidal category]] $C$ can be defined as a monad _in_ $C$, viewing $C$ as a one-object bicategory.
+
+### As lax functors ###
+
+Yet another definition, slick and mysterious:
+
+A monad in $\mathcal{B}$ is a [[lax functor]] from the terminal bicategory $1$ to $\mathcal{B}$.
+
+Among higher-category theorists, it's tempting to suggest that this is the most fundamental definition, and the most basic reason for the ubiquity and importance of monads.  Regardless of this, however, the earlier more elementary definitions are both practically and pedagogically essential.
 
 +-- {: .query}
 [[Peter LeFanu Lumsdaine]]: I did the diagrams with the monad called $(T,\eta,\mu)$ and have only just noticed that that disagrees with what's used in the preceding description.  Was there a particular principled reason for calling it $(A,i,\mu)$ above?  I can change the diagrams to agree if so, but if not, might it be easier on newcomers to use $(T,\eta,\mu)$ throughout?  Pretty much all the references I know use that as the generic name for a monad. ---Peter
 
 [[Mike Shulman]]: I like $T$ as the name for a monad.  (I also think that as a matter of exposition, this page should start out with monads in $Cat$ and introduce the more general version later, but I don't have time to implement that right now.)
+
+[[Peter LeFanu Lumsdaine]]: I'd been thinking the same; so I've re-organised things as you suggest, and added an "idea" section.  I think that probably goes into too much detail now, especially since "generalised algebraic theory" is only one of many ideas of what a monad is, but someone else can probably cut it down more dispassionately than I can :-)
+ 
 =--
 
 ##Remarks##
 
-* Originally monads were conceived and defined for $B =$ [[Cat]]. In parts of the literature "monad" still exclusively means monad in $Cat$. Similarly for algebras over monads.
-Monads in $Cat$ are sometimes, mostly in older literature, also called **triple**s (alluding to the triple of data $(A,\mu,i)$). 
-
+* Monads in $Cat$ are sometimes, mostly in older literature, also called **triple**s (alluding to the triple of data $(A,\mu,i)$).  In even older literature, they are also referred to as **standard constructions**, from Beck's discovery of them as a unifying description of the constructions of various homology theories.
 
 * We can picture a monad in $B$ as an image of the [[oriental|third oriental]] in $B$. See the remarks at [[monoidal category]].
 
