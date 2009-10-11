@@ -112,14 +112,7 @@
 
 * [The n-Category Caf&#233;](http://golem.ph.utexas.edu/category)
 
-  * A group blog on math, physics and philosophy written by
-    * [John Baez](http://math.ucr.edu/home/baez/)
-    * [David Corfield](http://dcorfield.pwp.blueyonder.co.uk/)
-    * [Alex Hoffnung](http://math.ucr.edu/~alex/)
-    * [Tom Leinster](http://www.maths.gla.ac.uk/~tl/)
-    * [Mike Shulman](http://www.math.uchicago.edu/~shulman)
-    * [Urs Schreiber](http://www.math.uni-hamburg.de/home/schreiber/)
-    * [Simon Willerton](http://www.simonwillerton.staff.shef.ac.uk/) 
+  * A group blog on math, physics and philosophy written by (currently) seven people and affiliated with this wiki
 
 * [The n-Geometry Caf&#233;](http://www.noncommutative.org)
 
@@ -192,6 +185,8 @@ Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Scie
 * [Mathematics Jobs Wiki](http://notable.math.ucdavis.edu/wiki/Mathematics_Jobs_Wiki)
 
 * [Similarity Search Wiki](http://www.sswiki.tierra-aoi.net)
+
+* [The nLab](http://ncatlab.org/), or $n$-Category Lab, which you are reading right now!
 
 * [The Tricki](http://www.tricki.org)
 
