@@ -70,6 +70,8 @@ _[[Urs Schreiber|Urs]] asks_: Can you say what the problem is?
 
 _[[Toby Bartels|Toby]] answers_: I\'d say that it proved to be overkill; ETCS is simpler and no less conceptual. In ETCC (or whatever you call it), you can neatly define a group (for example) as a category with certain properties rather than as a set with certain structure. But then you still have to define a topological space (for example) as a set with certain structure (where a set is defined to be a discrete category, of course). I think that Lawvere himself still wants an ETCC, but everybody else seems to have decided to stick with ETCS.
 
+_Roger Witte_ asks:_ Surely in ETCC, you define complete Heyting algebras as particular kinds of category and then work with Frames and Locales (ie follow Paul Taylor's leaf and apply Stone Duality).  You can then get to Top by examining relationships between Frm and Set?
+
 =--
 
 ... but his other proposal, a first-order axiomatisation of [[Set|the category of sets]], works well. These and related approaches to foundations may be called _structural_ or _categorial_ (or _categorical_, which is more common but clashes with another sense of 'categorical' in logic).
