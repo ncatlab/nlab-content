@@ -8,6 +8,29 @@ A **structural set theory** is a [[set theory]] in which the elements of a set h
 The name ''nonstructural'' for ''a set theory in which the elements of a set have no structure apart from their identity as elements of that set'' seems more to the point.
 
 [[Mike Shulman]]: The intended meaning is that structural set theory provides a clean framework for structural mathematics, which is about structures that are built from sets.  This use of the word "structuralism" is quite common, as I'm sure you know.
+
+AN: Yes, I know. But the latter is not captured by your formal definition below.
+
+Your use of ''material'' and ''structural'' is an inappropriate, intuitively misleading use of language, 
+
+There is nothing material about the assertion that <a href="http://ncatlab.org/nlab/show/set+theory">currently</a> characterizes your term ''material set theory'', namely that the same element can be in two distinct sets.
+
+There is also nothing structural in a set theory that eliminates all structure from sets. What you call ''structural set theory'' deserves to be called a ''theory of structureless sets'', which means essentially the opposite of the name you chose. What you call ''structurally presented'' is much more naturally called ''structureless''. For it is a condition for the absence of structure, rather than one for a structural presentation.
+
+A concept of structural presentation would need to be applicable not just to the notion of set, but to mathematical notions in general, since this is where structure is used.
+
+Do you need to redefine the concept of structural presentation for every kind of notion, or is there a universal formal notion of structural presentation?
+What is a formal definition of a structural presentation of a group, or of the natural numbers?
+
+Your defence above does not support your choice of naming. 
+Instead, it backfires.
+
+The set theory of Bourbaki fails your axiom for being structurally presented.
+But it provides a widely accepted, exceptionally clean framework for structural mathematics, by any reasonable standard.
+
+Mathematics as practiced is both structural and material, no matter into which formal framework it is forced.
+
+To introduce an artificial split, and to introduce it with notions whose formal meaning flies in the face of the informal reading of the words is no service to mathematics.
 =--
 
 When viewed as a [[foundations|foundation]] for mathematics, the idea of structural set theory is that sets (together with other attendant concepts such as [[element]]s, [[functions]], and [[relations]]) are the "raw material" from which mathematical structures are built.  The elements of a set thus have no "structure" until it is given to them by means of functions and relations.
