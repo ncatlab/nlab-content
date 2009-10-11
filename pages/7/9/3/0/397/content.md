@@ -9,7 +9,7 @@ Here is a list of people who have contributed content to the nLab (or, failing t
 * [[AndrejBauer|Andrej Bauer]]
 * [[Andrew Ranicki]]
 * [[Andrew Stacey]]
-* [[Angela]] (maybe Angela Beesley?)
+* [[Angela|Angela Beesley]]
 * [[Arnold Neumaier]]
 * [[Bas Spitters]]
 * [[Ben Webster]]
