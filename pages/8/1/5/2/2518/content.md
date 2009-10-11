@@ -127,3 +127,6 @@ Suppose that $is(a,B)$ and choose $\varphi\equiv is(x,B)$.  By $(\star)$ it foll
 =--
 
 Note that the assumption about equality is quite reasonable if we want to interpret "$is$" as asserting that a given element *is* a given set (rather than merely being related to one in some way).
+
+
+[[!redirects structural set theories]]
