@@ -112,7 +112,14 @@
 
 * [The n-Category Caf&#233;](http://golem.ph.utexas.edu/category)
 
-  * A group blog on math, physics and philosophy written by John Baez, Urs Schreiber, and David Corfield
+  * A group blog on math, physics and philosophy written by
+    * [John Baez](http://math.ucr.edu/home/baez/)
+    * [David Corfield](http://dcorfield.pwp.blueyonder.co.uk/)
+    * [Alex Hoffnung](http://math.ucr.edu/~alex/)
+    * [Tom Leinster](http://www.maths.gla.ac.uk/~tl/)
+    * [Mike Shulman](http://www.math.uchicago.edu/~shulman)
+    * [Urs Schreiber](http://www.math.uni-hamburg.de/home/schreiber/)
+    * [Simon Willerton](http://www.simonwillerton.staff.shef.ac.uk/) 
 
 * [The n-Geometry Caf&#233;](http://www.noncommutative.org)
 
