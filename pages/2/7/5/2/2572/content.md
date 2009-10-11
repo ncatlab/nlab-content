@@ -1,9 +1,9 @@
-The Stone--Weierstrass theorem says given a [[compact Hausdorff space]] $X$, one can uniformly approximate continuous functions $f: X \to \mathbb{R}$ by elements of any subalgebra that has enough elements to distinguish points. It is a far-reaching generalization of a classical theorem of Weierstrass, that continuous functions on a closed [[interval]] are uniformly approximable by [[polynomial]] functions. 
+The Stone--Weierstrass theorem says given a [[compact Hausdorff space]] $X$, one can uniformly approximate continuous functions $f: X \to \mathbb{R}$ by elements of any subalgebra that has enough elements to distinguish points. It is a far-reaching generalization of a classical theorem of Weierstrass, that real-valued continuous functions on a closed [[interval]] are uniformly approximable by [[polynomial]] functions. 
 
 
 ## Precise statement 
 
-Let $X$ be a compact Hausdorff topological space; for a [[constructive mathematics|constructive]] version take $X$ to be a compact regular locale (see [[compactum]]). Recall that the algebra $C(X)$ of real-valued continuous functions $f: X \to \mathbb{C}$ is a commutative [[Banach algebra]] with unit, under pointwise-defined addition, multiplication, and conjugation, and where the norm is the sup-norm 
+Let $X$ be a compact Hausdorff topological space; for a [[constructive mathematics|constructive]] version take $X$ to be a compact regular locale (see [[compactum]]). Recall that the algebra $C(X)$ of real-valued continuous functions $f: X \to \mathbb{R}$ is a commutative (real) [[Banach algebra]] with unit, under pointwise-defined addition and multiplication, and where the norm is the sup-norm 
 
 $$\|f\| := sup_{x \in X} |f(x)|$$ 
 
@@ -37,7 +37,7 @@ Finally, suppose the Banach subalgebra $A$ separates points. Given $g \in C(X)$ 
   =--
   +-- {: .proof}
   ###### Proof
-  For each $y \in X$, $y \neq x$ we can choose $s \in A$ such that $s(x) \neq s(y)$, since $A$ separates points. Thus, given any $x, y$, there exists $s \in A$ and scalars $a$ and $b$ such that 
+  For each $y \in X$, $y \neq x$ we can choose $s \in A$ such that $s(x) \neq s(y)$, since $A$ separates points. Thus, given any $x, y$, there exist $s \in A$ and scalars $a$ and $b$ such that 
   $$a + b \cdot s(x) = g(x), \qquad a + b \cdot s(y) = g(y)$$ 
   Denote $a \cdot 1 + b s$ by $f_{x, y}$ (to indicate dependence on $x$ and $y$). For each $y$, choose a neighborhood $V_y$ so that $g(z) \leq f_{x, y}(z) + \varepsilon$ for all $z \in V_y$. Finitely many such neighborhoods $V_{y_1}, \ldots, V_{y_n}$ cover $X$; let $f_x$ be the join of $f_{x, y_1}, \ldots, f_{x, y_n}$. Then $g(y) \leq f_x(y) + \varepsilon$ for all $y \in X$. 
   =--
@@ -56,7 +56,7 @@ There is a complex-valued version of Stone--Weierstrass. Let $C(X, \mathbb{C})$ 
 A $C^*$-subalgebra $A \subseteq C(X, \mathbb{C})$ is dense if and only if it separates points. 
 =--
 
-There is also a [[locally compact space|locally compact]] version. Let $X$ be a locally compact Hausdorff space and let $C_0(X)$ be the space of functions $f$ which "vanish at infinity": for every $\varepsilon \gt 0$ there exists a compact set $K \subseteq X$ such that $|f(x)| \lt \varepsilon$ for all $x$ outside $K$. ($C_0(X)$ is no longer a Banach space, but it is a Fr&#233;chet space.) Under pointwise multiplication, $C_0(X)$ is a commutative algebra _without_ unit. As before, we have a notion of subalgebra $A \subseteq C_0(X)$. 
+There is also a [[locally compact space|locally compact]] version. Let $X$ be a locally compact Hausdorff space and let $C_0(X)$ be the space of (say real-valued) functions $f$ which "vanish at infinity": for every $\varepsilon \gt 0$ there exists a compact set $K \subseteq X$ such that $|f(x)| \lt \varepsilon$ for all $x$ outside $K$. ($C_0(X)$ is no longer a Banach space, but it is a Fr&#233;chet space.) Under pointwise multiplication, $C_0(X)$ is a commutative algebra _without_ unit. As before, we have a notion of subalgebra $A \subseteq C_0(X)$. 
 
 +-- {: .un_thm}
 ###### Theorem
