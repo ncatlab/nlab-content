@@ -10,10 +10,12 @@ Every wiki needs a sandbox! Just test _below_ and don't worry about messing thin
 
 # Contents
 
-* Now is the winter of our disc content made glorious $sum_e^r$ by this son of york
+* a table of contents that contains itself
 {: toc}
 
 ## Content
+
+***
 
 * _Der Mann mit $@$_
 
@@ -32,6 +34,24 @@ __Ref.__ [Unicode Data Bank](http://www.sql-und-xml.de/unicode-database/) ![Boin
 1.  [Geometric Shapes](http://www.sql-und-xml.de/unicode-database/geometric-shapes.html)
 1.  [Other Symbols](http://www.sql-und-xml.de/unicode-database/so.html)
 1.  [Dingbats](http://www.sql-und-xml.de/unicode-database/dingbats.html)
+
+***
+
+* `\text{:=}` &#8594; $\text{:=}$
+
+* `\coloneqq` &#8594; $\coloneqq$
+
+* `\mathrel{\mathop:}=` &#8594; $\mathrel{\mathop:}=$
+
+* `\mathrel{\mathop{:}}=` &#8594; $\mathrel{\mathop{:}}=$
+
+* `\mathrel{\mathop{:}}{=}` &#8594; $\mathrel{\mathop{:}}{=}$
+
+* `\mathrel{\mathop-}\lt` &#8594; $\mathrel{\mathop-}\lt$
+
+* `\mathrel{\mathop{-}}\lt` &#8594; $\mathrel{\mathop{-}}\lt$
+
+* `\mathrel{\mathop{-}}{\lt}` &#8594; $\mathrel{\mathop{-}}{\lt}$
 
 ***
 
