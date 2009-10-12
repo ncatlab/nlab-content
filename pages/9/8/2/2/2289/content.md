@@ -62,6 +62,8 @@ The central theorem is
 
    1. [[A Survey of Elliptic Cohomology - equivariant cohomology]]
 
+   1. [[A Survey of Elliptic Cohomology - derived group schemes and (pre-)orientations]]
+
 
 1. towards geometric models
 
