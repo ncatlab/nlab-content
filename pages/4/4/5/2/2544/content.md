@@ -2,7 +2,7 @@
 [[!include synthetic differential geometry - contents]]
 </div>
 
-
+> needs to ber merged and harmonized with [[infinitesimal singular simplicial complex]]
 
 In every [[smooth topos]] $(\mathcal{T}, R)$ the notion of [[infinitesimal neighbour]] induces for every [[microlinear space]] $X \in \mathcal{T}$ the [[simplicial object]]
 
