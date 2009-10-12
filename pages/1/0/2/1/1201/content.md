@@ -38,4 +38,13 @@ If you include the hypothesis that $\prec$ be [[well-founded relation|well-found
 If you adopt the axiom of anti-foundation (with the strongest notion of extensive relation) instead of foundation, then the universe of [[pure set]]s becomes the [[corecursion|corecursively]] defined ill-founded sets instead of the [[recursion|recursively]] defined well-founded sets.
 
 
+# Structural meaning #
+
+Since the axiom of foundation is about pure sets, there seems little point to it in a [[structural set theory]].  However, it has a consequence: that every set $S$ is the underlying set of elements of a well-founded model for a pure set (in any of the ways described at [[pure set]]).  This already follows from the [[well-ordering theorem]], since in that case $S$ is the underlying set of a model for a von Neumann [[ordinal number]].
+
+
+[[!redirects axiom of anti-foundation]]
+[[!redirects anti-foundation]]
+
+
 category: foundational axiom
