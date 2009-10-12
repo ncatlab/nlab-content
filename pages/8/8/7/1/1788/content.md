@@ -37,21 +37,29 @@ __Ref.__ [Unicode Data Bank](http://www.sql-und-xml.de/unicode-database/) ![Boin
 
 ***
 
-* `\text{:=}` &#8594; $\text{:=}$
+<table align="center" markdown="1" width="60%">
 
-* `\coloneqq` &#8594; $\coloneqq$
+<tr>
+<td>`\text{:=}`</td>
+<td align="center">&rarr;</td>
+<td>$\text{:=}$</td></tr>
 
-* `\mathrel{\mathop:}=` &#8594; $\mathrel{\mathop:}=$
+<tr>
+<td>`\coloneqq`</td>
+<td align="center">&rarr;</td>
+<td>$\coloneqq$</td></tr>
 
-* `\mathrel{\mathop{:}}=` &#8594; $\mathrel{\mathop{:}}=$
+<tr>
+<td>`\mathrel{\mathop:}=`</td>
+<td align="center">&rarr;</td>
+<td>$\mathrel{\mathop:}=$</td></tr>
 
-* `\mathrel{\mathop{:}}{=}` &#8594; $\mathrel{\mathop{:}}{=}$
+<tr>
+<td>`\mathrel{\mathop-}\lt`</td>
+<td align="center">&rarr;</td>
+<td>$\mathrel{\mathop-}\lt$</td></tr>
 
-* `\mathrel{\mathop-}\lt` &#8594; $\mathrel{\mathop-}\lt$
-
-* `\mathrel{\mathop{-}}\lt` &#8594; $\mathrel{\mathop{-}}\lt$
-
-* `\mathrel{\mathop{-}}{\lt}` &#8594; $\mathrel{\mathop{-}}{\lt}$
+</table>
 
 ***
 
@@ -70,8 +78,8 @@ Wut's th' deil with MathCal?
 : same with MIE and MathPlayer
 
 * "Script Capital P"?
-: \text{&#8472;} &#8594; $\text{&#8472;}$
-: looks more like a Weierstrass "p" (&#8472; &#8594; &#8472;) than a \mathcal or powerset P.
+: \text{&amp;#x2118;} &rarr; $\text{&#x2118;}$
+: looks more like a Weierstrass "p" (&amp;weierp; &rarr; &weierp;) than a \mathcal or powerset P.
 
 ***
 
