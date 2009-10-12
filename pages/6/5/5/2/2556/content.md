@@ -294,25 +294,3 @@ Straightforward checking on [[generalized element]]s.
 
 
 
-## skew symmetry ##
-
-Moreover, it seems to [[Urs Schreiber|me]] that when $X$ is a [[manifold]] in that it locally looks like an $R^k$ then morphisms
-
-$$
-  \omega : X^{D(n)}\otimes_R D(n) \to R
-$$
-
-are automatically fiberwise linear and skew-symmetric.
-
-
-For instance for $n = 2$ to see that $\omega((v_1,v_2), \epsilon) = - \omega((v_2,v_1), \epsilon)$ use take $X$ to be $R^k$, which it is locally, use that $(R^k)^{D(2)}_0$ of maps with origin at 0 is isomorphic to linear maps  $(\vec \alpha, \vec\beta) :  R^2 \to R^k$ and apply the linear automorphism
-
-$$
-  (\alpha, \beta) \mapsto (\frac{1}{2}(\vec\alpha + \vec\beta), \frac{1}{2}(\vec \alpha- \vec \beta))
-  \,.
-$$
-
-Then exchanging $\vec \alpha$ and $\vec \beta$ now corresponds to $\epsilon_2 \mapsto - \epsilon_2$ and hence $\omega$ changes sign under that operation.
-
-> check in more detail
-
