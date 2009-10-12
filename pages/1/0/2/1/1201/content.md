@@ -40,7 +40,7 @@ If you adopt the axiom of anti-foundation (with the strongest notion of extensiv
 
 # Structural meaning #
 
-Since the axiom of foundation is about pure sets, there seems little point to it in a [[structural set theory]].  However, it has a consequence: that every set $S$ is the underlying set of elements of a well-founded model for a pure set (in any of the ways described at [[pure set]]).  This already follows from the [[well-ordering theorem]], since in that case $S$ is the underlying set of a model for a von Neumann [[ordinal number]].
+Since the axiom of foundation is about pure sets, there seems little point to it in a [[structural set theory]].  However, it does have a structural consequence: every set $S$ is the underlying set of elements of a well-founded model for a pure set (in any of the ways described at [[pure set]]).  If one assumes the [[axiom of choice]], however, then this statement follows from the [[well-ordering theorem]], since in that case $S$ is the underlying set of a model for a von Neumann [[ordinal number]].  But the axiom of foundation has no stronger structural consequence, since this statement already suffices to ensure that a model of structural set theory can be reconstructed from the material set theory consisting of its well-founded models for pure sets.
 
 
 [[!redirects axiom of anti-foundation]]
