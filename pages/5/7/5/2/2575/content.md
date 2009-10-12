@@ -1,3 +1,9 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+##Background and history##
+
 The words "Chern-Simons theory" can mean various things to various people, but in our nLab context it generally refers to the three-dimensional topological quantum field theory introduced by Witten in his seminal paper from 1989, ["Quantum field theory and the Jones polynomial"](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.cmp/1104178138), the paper which went a large way to him obtaining the Fields medal. 
 
 In this paper, Witten showed that the new polynomial invariant of knots invented by Vaughan Jones in the context of Von Neumann algebras can be given a beautiful heuristic geometric interpretation: the Jones polynomial V(q) a knot K in a 3-manifold M can be viewed as the path integral over all $SU(2)$-connections on $M$ of the exponential of the Chern-Simons action $S[A]$:
@@ -79,8 +85,3 @@ This year marked the 20th anniversary of Witten's seminal paper _Quantum field t
 
 
 
-
----
-&lt;http://mathoverflow.net/questions/3498/what-is-chern-simons-theory>
-
-nLab page on [[nlab:Chern-Simons theory]]
