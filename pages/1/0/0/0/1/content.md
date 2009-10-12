@@ -10,7 +10,9 @@ Welcome!
 
 This is a [wiki](http://en.wikipedia.org/wiki/Wiki)-lab for collaborative work on _[[Mathematics]]_, _[[Physics]]_ and _[[Philosophy]]_ &#8212; especially insofar as these subjects touch on [[higher category theory|higher algebraic structures]].  
 
-We think of this place as  the library, or alchemist's laboratory, in the back room of the [$n$-Category Caf&eacute;](http://golem.ph.utexas.edu/category/). You go there to discuss things, and here to write them up.
+We think of this wiki as our **lab book** that we happen to keep lying around openly.
+
+We also think of this place as the library, or alchemist's laboratory, in the back room of the [$n$-Category Caf&eacute;](http://golem.ph.utexas.edu/category/). You go there to discuss things, and here to write them up.
 
 We are hoping to create here a space for presentation and archival storage of collaborative work of encyclopedic, didactic, expositional,  but also original nature.  This will include, but not be limited to, the subjects being discussed every day in the $n$-Caf&eacute;.
 
@@ -24,7 +26,9 @@ But this site started operation only a few months ago. Some structure is beginni
 
 * There is a [forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum) (imaginatively called the $n$-Forum) for $n$Lab-related dicussion.
 
-  * See in particular the discussion
+  * at [latest changes](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5) we log our latest acivity on the $n$Lab
+
+  * We also keep having constituive dscussion there. See for instance
 
     [What is the scope of the nLab? Particularly original research?](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=59)
 
@@ -38,8 +42,9 @@ But this site started operation only a few months ago. Some structure is beginni
 
 The $n$Lab displays mathematical symbols using [MathML](http://en.wikipedia.org/wiki/MathML).  Some web-browsers, notably [Firefox](http://www.mozilla.com/firefox/), know how to display this automatically, although you may need to install some fonts.  For InternetExplorer one needs the [MathPlayer](http://www.dessci.com/en/products/mathplayer/) plugin; download is quick and easy and free. For more see [[HowTo]].
 
-=--
+Notice that **you don't need to know any MathML**. Only your browser does. You write formulas into the $n$Lab in plain LaTeX.
 
+=--
 
 
 
