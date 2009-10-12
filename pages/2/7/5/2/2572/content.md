@@ -17,7 +17,7 @@ A subalgebra inclusion $A \subseteq C(X)$ is dense if and only if it separates p
 
 ## Outline of proof
 
-* The first step is the classical Weierstrass approximation, that polynomial functions $p(x): [a, b] \to \mathbb{R}$ are dense in $C([a, b])$; without loss of generality, take $a = -\frac1{4}$ and $b = \frac1{4}$. We use the method of constructing polynomials which [[approximation of the identity|approximate the identity]] of the convolution product (the [[Dirac distribution]]). Explicitly, consider the normalizations $K_n = s_n/\|s_n\|_1$ where $s_n(x) = (1 - x^2)^n$ over $[-1, 1]$ and is compactly supported on $[-1, 1]$, so that $K_n$ approximates the Dirac distribution concentrated at 0. Given $f: [-\frac1{4}, \frac1{4}] \to \mathbb{R}$, extend to a function compactly supported on $[-\frac1{2}, \frac1{2}]$. The convolution product 
+* The first step is the classical Weierstrass approximation, that polynomial functions $p(x): [a, b] \to \mathbb{R}$ are dense in $C([a, b])$; without loss of generality, take $a = -\frac1{4}$ and $b = \frac1{4}$. We use the method of constructing polynomials which [[approximation of the identity|approximate the identity]] of the convolution product (the [[distribution|Dirac distribution]]). Explicitly, consider the normalizations $K_n = s_n/\|s_n\|_1$ where $s_n(x) = (1 - x^2)^n$ over $[-1, 1]$ and is compactly supported on $[-1, 1]$, so that $K_n$ approximates the Dirac distribution concentrated at 0. Given $f: [-\frac1{4}, \frac1{4}] \to \mathbb{R}$, extend to a function compactly supported on $[-\frac1{2}, \frac1{2}]$. The convolution product 
 $$(K_n * f)(x) = \int_{-1}^1 K_n(x-y) f(y) d y$$ 
 is polynomial (since by differentiating under the integral enough times, we eventually kill the convolving polynomial factor $K_n$), and one may verify that $(K_n * f)$ converges to $f$ in sup norm (i.e., uniformly) as $n \to \infty$, and in particular when restricted over the interval $[-\frac1{4}, \frac1{4}]$. 
 
@@ -29,7 +29,7 @@ Now suppose given a Banach subalgebra $A \subseteq C(X)$.
 $$f \vee g = \frac1{2}(|f - g| + (f + g))$$ 
 and $f \wedge g = -((-f) \vee (-g))$, and we showed in the last step that $A$ is closed under the operation $f \mapsto |f|$. 
 
-Finally, suppose the Banach subalgebra $A$ separates points. Given $g \in C(X)$ and $\varepsilon \gt 0$, the last step is to show there exists $f \in A$ such that $\|f - g\| \lt \varepsilon$. 
+Finally, suppose the Banach subalgebra $A$ separates points. Given $g \in C(X)$ and $\varepsilon \gt 0$, the last step is to show there exists $f \in A$ such that $\|f - g\| \leq \varepsilon$. 
 
 * +-- {: .un_lemma}
   ###### Lemma
@@ -49,14 +49,14 @@ for all $y \in X$, as was to be shown.
 
 ## Variations 
 
-There is a complex-valued version of Stone--Weierstrass. Let $C(X, \mathbb{C})$ denote the commutative $C^*$-[[C-star algebra|algebra]] of complex-valued functions $f: X \to \mathbb{C}$, where the star operation is pointwise-defined conjugation.  
+There is a complex-valued version of Stone--Weierstrass. Let $C(X, \mathbb{C})$ denote the commutative $C^*$-[[C-star algebra|algebra]] of complex-valued functions $f: X \to \mathbb{C}$, where the star operation is pointwise-defined conjugation. A $C^*$-**subalgebra** is a subalgebra $A \subseteq C(X, \mathbb{C})$ which is closed under the star operation. 
 
 +-- {: .un_thm}
 ###### Theorem
 A $C^*$-subalgebra $A \subseteq C(X, \mathbb{C})$ is dense if and only if it separates points. 
 =--
 
-There is also a [[locally compact space|locally compact]] version. Let $X$ be a locally compact Hausdorff space and let $C_0(X)$ be the space of (say real-valued) functions $f$ which "vanish at infinity": for every $\varepsilon \gt 0$ there exists a compact set $K \subseteq X$ such that $|f(x)| \lt \varepsilon$ for all $x$ outside $K$. ($C_0(X)$ is no longer a Banach space, but it is a Fr&#233;chet space.) Under pointwise multiplication, $C_0(X)$ is a commutative algebra _without_ unit. As before, we have a notion of subalgebra $A \subseteq C_0(X)$. 
+There is also a [[locally compact space|locally compact]] version. Let $X$ be a locally compact Hausdorff space and let $C_0(X)$ be the space of (say real-valued) functions $f$ which "vanish at infinity": for every $\varepsilon \gt 0$ there exists a compact set $K \subseteq X$ such that $|f(x)| \lt \varepsilon$ for all $x$ outside $K$. ($C_0(X)$ is no longer a Banach space, but it is [[locally convex topological vector space|locally convex]] and complete in its [[uniform space|uniformity]], and a Fr&#233;chet space if $X$ is second countable.) Under pointwise multiplication, $C_0(X)$ is a commutative algebra _without_ unit. As before, we have a notion of subalgebra $A \subseteq C_0(X)$. 
 
 +-- {: .un_thm}
 ###### Theorem
