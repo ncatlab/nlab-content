@@ -11,7 +11,8 @@ We give the definition as availalable in the literature and then interpret this 
 
 # Definition #
 
-> missing here are details on what axioms the space we are working on has to satisfy for the following to make sense. The right answer should be: [[microlinear space]]
+> missing here are details on what axioms the space we are working on has to satisfy for the following to make sense. See the case distinction at [[infinitesimal singular simplicial complex]].
+
 
 ## differential forms ##
 
