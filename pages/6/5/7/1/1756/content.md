@@ -1,3 +1,7 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 Quillen adjunctions are the right notion of morphism between [[model category|model categories]]. They induce morphisms between the [[(infinity,1)-category|(infinity,1)-categories]] [[presentable (infinity,1)-category|presented]] by the model categories.
@@ -34,7 +38,8 @@ It follows from the definition that
 
 #Remarks#
 
-Quillen adjunctions that are analogous to an [[equivalence of categories]] are called [[Quillen equivalence]]s.
+* Quillen adjunctions that are analogous to an [[equivalence of categories]] are called [[Quillen equivalence]]s.
 
+* In an [[enriched model category]] one speaks of [[enriched Quillen adjunction]].
 
 
