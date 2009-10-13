@@ -362,6 +362,10 @@ theory of [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model struc
       * [[bundle gerbe]]
 
       * [[principal 2-bundle]]
+
+* [[homotopy group (of an ∞-stack)]]
+
+  * [[n-truncated object of an (∞,1)-topos]]
      
 ##7 Higher Topos Theory in Topology
 
