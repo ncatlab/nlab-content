@@ -31,13 +31,16 @@ $\array{\text{The Way It Looks In} \\ \text{System 2} \\ \text{Browser 2} \\ \te
 <td>`A \mathrel{:=} B`</td>
 <td>$A \mathrel{:=} B$</td>
 <td>acceptable</td>
-<td>Crappy vertical alignment<br>using U+003A.</td></tr>
+<td>Crappy vertical alignment
+<br>using U+003A.</td></tr>
 
 <tr>
 <td>`A \mathrel{&#8758;=} B`</td>
 <td>$A \mathrel{&#8758;=} B$</td>
 <td>like a planarium</td>
-<td>Correct vertical alignment<br>(but too loose horizontal spacing?) using U+2236.</td></tr>
+<td>Correct vertical alignment
+<br>(but too loose horizontal spacing?)
+<br>using U+2236.</td></tr>
 
 <tr>
 <td>`A \mathrel{-\lt} B`</td>
@@ -49,7 +52,7 @@ $\array{\text{The Way It Looks In} \\ \text{System 2} \\ \text{Browser 2} \\ \te
 
 # Selected Pages from the Unicode Data Bank #
 
-__Ref.__ [Unicode Data Bank](http://www.sql-und-xml.de/unicode-database/)
+__Ref.__ [Unicode Data Bank](http://www.sql-und-xml.de/unicode-database/) --- [Online Integer-Hex-Character Conversion Tool](http://www.sql-und-xml.de/unicode-database/online-tools/)
 
 1.  [Math Symbols](http://www.sql-und-xml.de/unicode-database/sm.html)
 1.  [Math Operators](http://www.sql-und-xml.de/unicode-database/mathematical-operators.html)
@@ -71,8 +74,10 @@ __Ref.__ [Unicode Data Bank](http://www.sql-und-xml.de/unicode-database/)
 : Firefox 3.5+ with STIX fonts shows only {B, E, F, H, I, L, M, R}
 : same with IE and MathPlayer
 
-You don't have the STIX fonts installed correctly -- they are not being used by your browser(s).
-
 * $\mathcal{abcdefghijklmnopqrstuvwxyz}$
 : Firefox 3.5+ with STIX fonts shows only {e, g, o}
 : same with IE and MathPlayer
+
+You don't have the STIX fonts installed correctly --- they are not being used by your browser(s).
+
+I installed what looks like a big list of STIX and also CODE2000 in my fonts folder, and these show up in Character Map.  It looks like I get only the chars in the Unicode 0000 to FFFF range, which things like \mathcal{A} = $\mathcal{A}$ = 01D49C evidently are not.  Does anyone know which STIX file exactly the Mathcal is supposed to be in?  ---[[JA]]
