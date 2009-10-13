@@ -104,7 +104,7 @@ A **segment** object $I$ in a [[monoidal model category]] $V$ is
   from the [[coproduct]] of $pt$ with itself that 
   sends each component identically to $pt$.
 
-* together with an associtive morphsim 
+* together with an associative morphsim 
 
   $$
     \vee : I \otimes I \to I
