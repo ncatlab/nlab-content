@@ -82,3 +82,5 @@ __Ref.__ [Unicode Data Bank](http://www.sql-und-xml.de/unicode-database/) --- [O
 You don't have the STIX fonts installed correctly --- they are not being used by your browser(s).
 
 I installed what looks like a big list of STIX and also CODE2000 in my fonts folder, and these show up in Character Map.  It looks like I get only the chars in the Unicode 0000 to FFFF range, which things like \mathcal{A} = $\mathcal{A}$ = 01D49C evidently are not.  Does anyone know which STIX file exactly the Mathcal is supposed to be in?  ---[[JA]]
+
+Try getting rid of the Code2000 Fonts. Also see [here](http://golem.ph.utexas.edu/wiki/instiki/show/Browsers)
