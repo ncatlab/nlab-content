@@ -69,6 +69,7 @@
 * [Math-Blog](http://math-blog.com)
 
 * [Mathematical Musings](http://matthewkahle.wordpress.com/)
+(Interactions of probability, statistical physics, topology, and combinatorics. Matthew Kahle)
 
 * [Mathematics and Computation](http://math.andrej.com/) (Andrej Bauer)
 
