@@ -28,10 +28,16 @@ $\text{System 2}$<br>$\text{Browser 2}$<br>$\text{Font Class 2}$</td>
 <td>$\ldots$</td></tr>
 
 <tr>
-<td>`\mathrel{\mathop:}=`</td>
-<td>$\mathrel{\mathop:}=$</td>
-<td>\mathop:&nbsp;&nbsp;&#61;</td>
-<td>$\ldots$</td></tr>
+<td>`A \mathrel{:=} B`</td>
+<td>$A \mathrel{:=} B$</td>
+<td></td>
+<td>Crappy vertical alignment using U+003A.</td></tr>
+
+<tr>
+<td>`A \mathrel{&#8758;=} B`</td>
+<td>$A \mathrel{&#8758;=} B$</td>
+<td></td>
+<td>Correct vertical alignment (but too loose horizontal spacing?) using U+2236.</td></tr>
 
 <tr>
 <td>`\mathrel{\mathop-}\lt`</td>
@@ -64,6 +70,8 @@ __Ref.__ [Unicode Data Bank](http://www.sql-und-xml.de/unicode-database/)
 * $\mathcal{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$
 : Firefox 3.5+ with STIX fonts shows only {B, E, F, H, I, L, M, R}
 : same with IE and MathPlayer
+
+You don't have the STIX fonts installed correctly -- they are not being used by your browser(s).
 
 * $\mathcal{abcdefghijklmnopqrstuvwxyz}$
 : Firefox 3.5+ with STIX fonts shows only {e, g, o}
