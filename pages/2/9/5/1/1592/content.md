@@ -7,3 +7,5 @@ where $Top_*^{wc}$ is the full subcategory of $Top_*$ with objects the well-conn
 +-- {: .query}
 [[David Roberts]]: We should move the construction of the universal covering space from [[covering space]] to here, but I have limited time.
 =--
+
+[[!redirects universal cover]]
