@@ -35,9 +35,28 @@ Street and Roberts conjectured that the nerves of strict $\omega$-categories cou
 1. every [[complicial horn]] has a unique thin filler, and 
 1. for such a thin filler, if all faces but the one missing face in the complicial horn are thin, then so is the last one.
 
-Such stratified simplicial sets are called [[complicial sets]].  This conjecture was later proven by Verity.
+Such stratified simplicial sets are called [[complicial sets]].  This conjecture was later proved by Verity.
 
 A [[weak complicial set]] is a stratified simplicial set satisfying the above conditions except that thin fillers need not be unique. Street conjectured that these represent the nerves of _weak_ $\omega$-categories, where now the thin simplices are supposed to be the _equivalences_ rather than the identities.  But since every complicial set is weak complicial, one should also require that the collection of thin simplices is "maximal" in some sense; Street gave one proposed characterization.  Weak complicial sets have been studied extensively by Verity.
+
+
+#References#
+
+Verity's work can be found in 
+
+*   D. R. Verity, 2005, Complicial Sets , URL http://arxiv.org/abs/math.CT/0410412. 
+
+*   D. Verity, 2006, Weak complicial sets I: basic homotopy theory , available from : 
+arXiv.org:math/0604414. 
+
+*    D. R. Verity, 2006, Weak complicial sets. III. Enriched and internal quasi-category theory , 
+(in preparation). 
+
+*    D. R. Verity, 2007, Weak complicial sets. II. Nerves of complicial Gray-categories , in Cate
+gories in algebra, geometry and mathematical physics , volume 431 of Contemp. Math., 441 &#8211; 
+467, Amer. Math. Soc., Providence, RI. 
+
+
 
 [[!redirects thin elements]]
 [[!redirects thin]]
