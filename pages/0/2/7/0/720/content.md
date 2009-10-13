@@ -44,17 +44,13 @@ A [[weak complicial set]] is a stratified simplicial set satisfying the above co
 
 Verity's work can be found in 
 
-*   D. R. Verity, 2005, Complicial Sets , URL http://arxiv.org/abs/math.CT/0410412. 
+*   D. R. Verity, 2005, Complicial Sets , available from : [arXiv:math.CT/0410412](http://arxiv.org/abs/math.CT/0410412). 
 
-*   D. Verity, 2006, Weak complicial sets I: basic homotopy theory , available from : 
-arXiv.org:math/0604414. 
+*   D. Verity, 2006, Weak complicial sets I: basic homotopy theory , available from : [arXiv:math/0604414](http://arxiv.org/abs/math/0604414). 
 
-*    D. R. Verity, 2006, Weak complicial sets. III. Enriched and internal quasi-category theory , 
-(in preparation). 
+*    D. R. Verity, 2006, Weak complicial sets. III. Enriched and internal quasi-category theory , (in preparation). 
 
-*    D. R. Verity, 2007, Weak complicial sets. II. Nerves of complicial Gray-categories , in Cate
-gories in algebra, geometry and mathematical physics , volume 431 of Contemp. Math., 441 &#8211; 
-467, Amer. Math. Soc., Providence, RI. 
+*    D. R. Verity, 2007, Weak complicial sets. II. Nerves of complicial Gray-categories , in Categories in algebra, geometry and mathematical physics , volume 431 of Contemp. Math., 441--467, Amer. Math. Soc., Providence, RI. 
 
 
 
