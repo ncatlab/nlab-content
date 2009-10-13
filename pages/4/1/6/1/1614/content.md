@@ -1,6 +1,6 @@
 A **topological quantum field theory** is a [[quantum field theory]] which is a [[FQFT|functorial quantum field theory]] is a functor on the [[(infinity,n)-category of cobordisms]] $Bord_n$ that do not carry any further structure.
 
-For more on the general idea and its development, see [[FQFT]]. For the central structural result in [[TQFT]], the [[generalized tangle hypothesis]] see
+For more on the general idea and its development, see [[FQFT]] and [[extended topological quantum field theory]]. For the central structural result in [[TQFT]], the [[cobordism hypothesis]] see
 
 * [[Jacob Lurie]], [[On the Classification of Topological Field Theories]]
 
