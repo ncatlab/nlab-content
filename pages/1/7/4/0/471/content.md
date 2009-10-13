@@ -265,13 +265,17 @@ $$
 
 (... to be continued ...)
 
-** Remarks **
++-- {: .un_remark }
+###### Remarks
 
 * The condition that all ${}_{pt}[I, I^{\vee n}]_{pt}$ are contractible is the _coherence condition_ on all composition operations. 
 
 * The above is _not_ demanding that the interval object $I$ itself is is weakly equivalent to the point. If it is, then $\Pi_1(X)$ is indeed a [[fundamental groupoid]]. If it is not, then $\Pi_1(X)$ may just be a [[fundamental category]].
 
 * If $X_0$ has a notion of [[path object]] one may consider imposing the condition that $[I,X]$ is a path object of $X$ for all $X$. Similarly, if $V_0$ has a [[cylinder functor]], one may consider imposing the condition that it is given by $-\otimes I$.
+
+=--
+
 
 ## fundamental geometric $\infty$-categories ##
 
