@@ -6,43 +6,43 @@
 
 <tr>
 <td align="center" style="border-bottom:2px solid black">$\text{Input Symbol String}$</td>
+
 <td align="center" style="border-bottom:2px solid black">$\text{Local Rendering}$</td>
+
 <td align="center" style="border-bottom:2px solid black">
-$\text{ASCII Facsimile:}$<br>$\text{The Way It Looks In}$<br>
-$\text{Windows}$<br>$\text{Firefox 3.5.4}$<br>$\text{STIX}$</td>
+$\array{\text{The Way It Looks In} \\ \text{Windows} \\ \text{Firefox 3.5.4} \\ \text{STIX}}$</td>
+
 <td align="center" style="border-bottom:2px solid black">
-$\text{ASCII Facsimile:}$<br>$\text{The Way It Looks In}$<br>
-$\text{System 2}$<br>$\text{Browser 2}$<br>$\text{Font Class 2}$</td>
-</tr>
+$\array{\text{The Way It Looks In} \\ \text{System 2} \\ \text{Browser 2} \\ \text{Fontset 2}}$</td></tr>
 
 <tr>
-<td>`x \:\text{:=}\: y`</td>
-<td>$x \:\text{:=}\: y$</td>
-<td>x := y</td>
+<td>`A \:\text{:=}\: B`</td>
+<td>$A \:\text{:=}\: B$</td>
+<td>acceptable</td>
 <td>$\ldots$</td></tr>
 
 <tr>
-<td>`x \coloneqq y`</td>
-<td>$x \coloneqq y$</td>
-<td>x := y</td>
+<td>`A \coloneqq B`</td>
+<td>$A \coloneqq B$</td>
+<td>acceptable</td>
 <td>$\ldots$</td></tr>
 
 <tr>
 <td>`A \mathrel{:=} B`</td>
 <td>$A \mathrel{:=} B$</td>
-<td></td>
-<td>Crappy vertical alignment using U+003A.</td></tr>
+<td>acceptable</td>
+<td>Crappy vertical alignment<br>using U+003A.</td></tr>
 
 <tr>
 <td>`A \mathrel{&#8758;=} B`</td>
 <td>$A \mathrel{&#8758;=} B$</td>
-<td></td>
-<td>Correct vertical alignment (but too loose horizontal spacing?) using U+2236.</td></tr>
+<td>like a planarium</td>
+<td>Correct vertical alignment<br>(but too loose horizontal spacing?) using U+2236.</td></tr>
 
 <tr>
-<td>`\mathrel{\mathop-}\lt`</td>
-<td>$\mathrel{\mathop-}\lt$</td>
-<td>\mathop-&nbsp;&nbsp;&#60;</td>
+<td>`A \mathrel{-\lt} B`</td>
+<td>$A \mathrel{-\lt} B$</td>
+<td>`A -\lt B`</td>
 <td>$\ldots$</td></tr>
 
 </table>
