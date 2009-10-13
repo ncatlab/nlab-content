@@ -37,7 +37,8 @@ $\array{\text{The Way It Looks In} \\ \text{System 2} \\ \text{Browser 2} \\ \te
 <tr>
 <td>`A \mathrel{&#8758;=} B`</td>
 <td>$A \mathrel{&#8758;=} B$</td>
-<td>like a planarium</td>
+<td>kinda cute &mdash;
+<br>looks like a planarian</td>
 <td>Correct vertical alignment
 <br>(but too loose horizontal spacing?)
 <br>using U+2236.</td></tr>
