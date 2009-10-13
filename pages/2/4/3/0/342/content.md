@@ -93,6 +93,7 @@ _Toby_:  I don\'t think that it helps our understanding of $(n,r)$-categories, a
 
 [[Urs Schreiber]]: I agree with Mike that the statements may currently be too misleading, and with Toby about what they should still achieve for us. Will try to improve on the state of the two entries a bit tomorrow -- unless someone beats me to it.
 
+[[David Roberts]]: Going back to Mike's original comment, having read a little about fundamental categories (fingers automatically started typing 'groupoid' there :), the concept of equivalence of categories has to be expanded so as to capture 'directed homotopy equivalence'. In particular, there is the notions of [[past retract]] and [[future retract]] - these should be considered as equivalences, but are not equivalences of categories in the usual sense. From memory they are more like (co)relexive subcategories.
 =--
 
 
