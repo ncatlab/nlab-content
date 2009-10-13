@@ -27,6 +27,5 @@ A refinement of the notion of lined topos is that of [[smooth topos]], where the
 
 # Constructions in lined toposes #
 
-The line object in a lined topos canonically gives rise a notion of $n$-[[simplex in a lined topos]].
+The line object in a lined topos canonically has the structure of a [[interval object|cartesian interval object]] and hence gives rise to a notion of [[schreiber:path ∞-groupoid|path ∞-groupoid]] of each object.
 
-This in turn yields canonically a notion of [[path infinity-groupoid in a lined topos]].
