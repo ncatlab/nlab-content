@@ -148,9 +148,9 @@ $$
 
 for some fixed $\delta \in D$.
 
-## in manifolds ##
+## in formal manifolds ##
 
->use that each manifold is locally isomorphic to an $R^n$ and that the neighbourhood relation only needs an infinitesimal neighbourhood. Proceed locally as above and then patch.
+>use that each manifold is locally isomorphic to an $R^n$ and that the neighbourhood relation only needs an infinitesimal neighbourhood. Proceed locally as above and then patch. See references below.
 
 # inclusion into the finite singular simplicial complex #
 
@@ -237,25 +237,37 @@ A [[deRham space]] is the colimit over a $\Pi^{inf}(X)$.
 
 # References #
 
-In the language of [[synthetic differential geometry]] the infinitesimal singular complex is described in
+In the language of [[synthetic differential geometry]] the infinitesimal singular complex for "formal manifolds" (manifolds with an infinitesimal thickening to all orderes) is described in
 
 section I.18 of 
 
 * [[Anders Kock]], _Synthetic Differential Geometry_ ([pdf](http://home.imf.au.dk/kock/sdg99.pdf))
 
-(for "formal manifold") and in
-
-[section 2.8](http://home.imf.au.dk/kock/SGM-final.pdf#page=89) of
+and in [section 2.8](http://home.imf.au.dk/kock/SGM-final.pdf#page=89) of
 
 * Anders Kock, _Synthetic geometry of manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
 (for smooth [[manifold]]s).
 
-The details of what $X^{\Delta^k_{inf}}$ is like in terms of the generic concrete model of spaces dual to function algebras are in section 1 of
+The details of what $X^{\Delta^k_{inf}}$ is like concretely on representables in the [[smooth topos]] $PSh(CRing^{op})$ of [[algebraic geometry]], i.e. on [[affine scheme]]s is worked out in detail in 
 
 * Breen, Messing, _Combinatorial differential forms_ ([pdf](http://arxiv.org/abs/math/0005087))
 
+The formulas given there should more or less directly carry over to [[smooth topos]]es with [[smooth locus|smooth loci]] by replacing ordinary rings with [[smooth algebra]]s.
+
+> to be discussed
+
 As the title suggests, the infinitesimal singular simplicial complex is tightly related to [[differential forms in synthetic differential geometry]]: the deRham complex is the normalized [[Moore complex|Moore cochain complex]] of the [[cosimplicial algebra]] $C^\infty(X^{\Delta^\bullet_{inf}})$ of functions on the spaces of infinitesimal simplices.
+
+There is also
+
+* Dubuc, [[Anders Kock|Kock]], _On 1-form classifiers_ , Communications in Algebra 12
+(1984)
+
+* Dubuc, $C^\infty$-schemes, Amer. J. of Math. 103 (1981)
+
+* Kumpera, Spencer, _Lie Equations_ , Annals of Math. Studies 73 (1973)
+
 
 ## In nonstandard analysis ##
 
