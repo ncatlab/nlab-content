@@ -14,7 +14,7 @@ In other words, when we embed $(k,1)$-toposes in the larger context of $(n,1)$-t
 
 
 
-recall from somewhere that for $X$ an [[(infinity,1)-topos]]
+recall from [[n-truncated object of an (infinity,1)-category]] that for $X$ an [[(infinity,1)-topos]]
 the symbols $\tau_{n-1} X$ denote the essential image of the truncation
 functor $\tau_{n-1} : X \to X$. Recall from the warning remark
 6.4.5.10 and the discussion above it that this should really be thought of
