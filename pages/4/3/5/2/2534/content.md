@@ -37,6 +37,10 @@ $X$ equipped with a function $\nu: X \to \mathbb{N}$ which is bounded above by $
 *  A __[[union]]__ of multisets is given by the [[supremum]] operation on cardinal numbers.
 *  A __sum__ of multisets (written $A \oplus A'$) is given by addition of cardinal numbers; this has no analogue for ordinary sets.
 
+## Morphisms
+
+What is a function between multisets?  I would be inclined to say that for multisubsets of an ambient universe $U$ considered as objects of $Set/U$, a function from $B\to U$ to $B'\to U$ would be an arbitrary function $B\to B'$ (not necessarily commuting with the projections to $U$).  But this doesn't work if a multisubset of $U$ is an *isomorphism class* in $Set/U$ rather than merely an object of it.  -- [[Mike Shulman]]
+
 ## Examples
 
 * ...
