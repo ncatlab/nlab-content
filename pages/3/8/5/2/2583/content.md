@@ -1,9 +1,9 @@
 
-> under construction
+> **under construction**
 
 #Idea#
 
-Just as the topological [[string group]] is the element above the [[Spin group]] in the [[Whitehead tower]] of $O(n)$ inside the [[(infinity,1)-topos]] [[Top]]
+Just as the ([[delooping]] of the) topological [[string group]] is the element above the  (delooping of the) [[Spin group]] in the [[Whitehead tower]] of $\mathcal{B} O(n)$ inside the [[(infinity,1)-topos]] [[Top]]
 
 $$
  (
@@ -19,9 +19,12 @@ $$
 $$
 +--{: .query}
 [[David Roberts]]: This is the Whitehead tower of $BO(n)$, not that of $O(n)$. The string group sits in the tower for the latter.
+
+[[Urs Schreiber]]: sure, that's what's meant. Fixed the phrasing above now.
+
 =--
 
-so the **string 2-group** is the [[Whitehead tower]] element above $Spin(n)$, but now regarded in an [[(infinity,1)-topos]] $\mathbf{H}$ of smooth [[infinity-groupoid]]s:
+so the (delooping of the) **string 2-group** is the [[Whitehead tower]] element above the delooping of $Spin(n)$, but now regarded in an [[(infinity,1)-topos]] $\mathbf{H}$ of smooth [[infinity-groupoid]]s:
 
 
 
@@ -44,6 +47,9 @@ $$
 
 +--{: .query}
 [[David Roberts]]: And by this I presume it is meant the tower of the delooping of $O(n)$ in $\mathbf{H}$.
+
+[[Urs Schreiber]]: Sure. I added paranthetical remarks accordingly.
+
 =--
 
 It is in $\mathbf{H}$ the [[homotopy fiber]] of the morphism
