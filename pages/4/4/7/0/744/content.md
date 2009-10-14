@@ -42,6 +42,17 @@ There are several bugs (or "edge cases") in the handling of lists by Maruku (the
 * [single-element unordered lists](http://rubyforge.org/tracker/index.php?func=detail&aid=22109&group_id=2795&atid=10735)
 * [indentation by more than one space](http://rubyforge.org/tracker/index.php?func=detail&aid=8862&group_id=2795&atid=10735)
 
+### My LaTeX produces gobbledygook in iTeX and vice versa.
+
+iTeX is not LaTeX.  iTeX is a pure converter whereas LaTeX is a mixture of a converter and renderer (technically, latex is the rules for converting the input into pure TeX which is then rendered by tex, but since the conversion is also handled by tex, it can cheat and use information about the rendered output to reinterpret the input).  Therefore getting the two to do exactly the same is **never** going to happen.
+
+On the other hand, the aim is to keep iTeX as close as possible to standard LaTeX whilst keeping in mind that iTeX produces MathML.  Their similarity can make the differences all the more jarring.  Here is a list of the differences that we know about together with suggested work-arounds.
+
+* Numbers are one thing.  The syntax `$10^10$` produces $10^10$ in iTeX but $10^{1}0$ in LaTeX.  The **safe** syntax is to always use braces: `$10^{10}$` is consistent.
+* Numbers include punctuation.  Periods and commas _within_ numbers are numbers.  This is so that `$1,000,000.00$` (or `$1.000.000,00$` if you are European) renders correctly as $1,000,000.00$ and not ${1}.{000},{000}.{00}$.  This does not produce a difference between iTeX and LaTeX on its own, but when combined with the previous difference means that `$t^3,2$` renders as $t^3,2$ instead of $t^{3},2$.  Either use braces or spaces.
+* Operator names.  Since iTeX does not have macro support, extending the list of operator names would be difficult except for the fact that neighbouring strings of letters get combined into an operator name.  Thus `$cos$` produces $cos$.  However, in LaTeX this produces $c o s$.  Where the operator name is a standard LaTeX one, such as `\cos`, the backslash can be added so `$\cos$` renders correctly in both cases.  Where the operator name is not a standard LaTeX one, say `Poly`, you need to use `\operatorname`.  Thus `$\operatorname{Poly}$` renders correctly as $\operatorname{Poly}$ in both situations.
+* Whitespace in embedded text.  In LaTeX `$x \text{ and } y$` renders as $x\;\text{and}\;y$ but in iTeX it renders as $x\text{ and }y$.  This is because MathML says that fore and aft whitespace on `mtext` elements should be swallowed.  The **safe** syntax is `$x\;\text{and}\;y$`.
+
 ## HTML, XML, etc.
 
 ### How do I get accented characters?
