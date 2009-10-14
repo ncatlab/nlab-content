@@ -91,4 +91,8 @@ One may consider the universal 3-connected cover of any general [[compact space|
 
 Of these the case $G = $ [[E8]] is the other one relevant in [[string theory]]: see [[Green-Schwarz mechanism]].
 
+#Origin of the term#
+
+Following some inquiries by [[Jim Stasheff]] and confirmed in private email by [[Haynes Miller]] it seems that the first one to propose the term _$String$ group_ for the group known to topologists as $\Omega (\mathcal{B}O\langle 8\rangle)$ was [[Haynes Miller]].
+
 [[!redirects String group]]
