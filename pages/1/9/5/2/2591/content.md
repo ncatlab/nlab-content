@@ -6,13 +6,11 @@ The _special orthogonal group_ $SO(n)$ is the [[connected component]] of the neu
 It is the first step in the [[Whitehead tower]] of $O(n)$
 
 $$
-  \cdots \to Fivebrane(n)
-  \to String(n) \to Spin(n)
-  \to SO(n)
-  \to O(n)
+  \cdots \to Fivebrane(n) \to String(n) \to Spin(n) \to SO(n) \to \mathrm{O}(n)
+  \,.
 $$
 
-[[Fivebrane group]] $\to$ [[String group]] $\to$ Spin group $\to$ [[special orthogonal group]] to [[orthogonal group]].
+[[Fivebrane group]] to [[string group]] to [[spin group]] to **special orthogonal group** to [[orthogonal group]].
 
 #Orientation of manifolds#
 
