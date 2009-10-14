@@ -10,7 +10,7 @@ The **string group** $String(n)$  is defined to be, as a [[topological group]], 
 Notice that $Spin(n)$ itself is the [[Whitehead tower|simply connected cover]] of the [[special orthogonal group]] $SO(n)$, which in turn is the connected component (of the identity)  of the [[orthogonal group]] $O(n)$. Hence $String(n)$ is one element in the [[Whitehead tower]] of $\mathrm{O}(n)$:
 
 $$
-  \cdots to Fivebrane(n) \to String(n) \to Spin(n) \to SO(n) \to \mathrm{O}(n)
+  \cdots \to Fivebrane(n) \to String(n) \to Spin(n) \to SO(n) \to \mathrm{O}(n)
   \,.
 $$
 
@@ -68,7 +68,7 @@ $$
 $$
 
 
-## defining by co-killing of $\pi_3$ ##
+## definition by co-killing of $\pi_3$ ##
 
 More in detail this means the following.
 
@@ -163,7 +163,7 @@ Of these the case $G = $ [[E8]] is the other one relevant in [[string theory]]: 
 
 Originally the String-group was just known by its generic name: with $\mathcal{B} O \langle 8 \rangle$ being the topologist's notation for the [[connected cover|7-connected]] of the [[delooping]] $\mathcal{B}O$ of the group $O$.
 
-When it was realized that lifts of the structure maps $X \to \mathcal{B}O$ of the [[tangent bundle]] of a [[manifold]] $X$ through the projection $\mathcal{B}O\langle 8 \rangle \to \mathcal{B}O$ -- now called a [[String structure]] -- play the same role in [[string theory]] as a [[Spin structure]] does in ordinary [[quantum mechanics]], the term _String group_ for $\Omega (\Mathcal{B}O\langle 8 \rangle)$ was suggested.
+When it was realized that lifts of the structure maps $X \to \mathcal{B}O$ of the [[tangent bundle]] of a [[manifold]] $X$ through the projection $\mathcal{B}O\langle 8 \rangle \to \mathcal{B}O$ -- now called a [[String structure]] -- play the same role in [[string theory]] as a [[Spin structure]] does in ordinary [[quantum mechanics]], the term _String group_ for $\Omega (\mathcal{B}O\langle 8 \rangle)$ was suggested.
 
 Following some inquiries by [[Jim Stasheff]] and confirmed in private email by [[Haynes Miller]] it seems that the first one to propose the term _$String$ group_ for the group known to topologists as $\Omega (\mathcal{B}O\langle 8\rangle)$ was [[Haynes Miller]].
 
