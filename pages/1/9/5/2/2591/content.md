@@ -10,8 +10,8 @@ $$
   \,.
 $$
 
-[[Fivebrane group]] to [[string group]] to [[spin group]] to **special orthogonal group** to [[orthogonal group]].
+[[fivebrane group]] to [[string group]] to [[spin group]] to **special orthogonal group** to [[orthogonal group]].
 
 #Orientation of manifolds#
 
-A lift of the classifying map $X \to \mathcal{B}O(n)$ of the $O(n)$-[[principal bundle]] to which the [[tangent bundle]] $T X$ is [[associated bundle|associted]] is the same as a choice of [[orientation]] of $X$.
+For $X$ an $n$-dimensional [[manifold]] a lift of [[generalized the|the]] classifying map $X \to \mathcal{B}O(n)$ of the $O(n)$-[[principal bundle]] to which the [[tangent bundle]] $T X$ is [[associated bundle|associated]] is the same as a choice of [[orientation]] of $X$.
