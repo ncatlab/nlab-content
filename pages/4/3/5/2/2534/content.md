@@ -20,6 +20,13 @@ A multisubset of $U$ is locally finite if every [[fibre]] is finite; it is finit
 The operations on cardinal numbers induce operations on multisets (or on multisubsets of any given set $U$).
 
 *  An __[[intersection]]__ of multisets is given by the [[infimum]] operation on cardinal numbers.
+
++--{.query}
+
+[[Eric]]: Given $X = \{1,1,2\}$ and $Y = \{1,1,3\}$, is $X\cap Y = \{1,1\}$ or is $X\cap Y = \{1\}$?
+
+=--
+
 *  A __[[union]]__ of multisets is given by the [[supremum]] operation on cardinal numbers.
 *  A __sum__ of multisets (written $A \oplus A'$) is given by addition of cardinal numbers; this has no analogue for ordinary sets.
 
