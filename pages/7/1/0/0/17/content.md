@@ -21,7 +21,7 @@ The $n$Lab displays mathematical symbols using [MathML](http://en.wikipedia.org/
 
 Recent versions of Opera also apparently support MathML.  For InternetExplorer, one needs to install the [MathPlayer](http://www.dessci.com/en/products/mathplayer/) plugin. Download is quick and easy and free, but installation may require Administrator privileges on your computer.  Other browsers such as Safari and Chrome seemingly do not support MathML at present.
 
-## How to search the nLab from firefox ##
+## How to search the nLab & nForum from firefox ##
 
 (Firefox - and clones - specific)
 
@@ -30,6 +30,8 @@ Here are some search plugins for firefox that will let you search the nLab from 
 * [[nlab-search.xml:file]]: searches the nLab (like the search box at the top of every page).
 * [[nlab-goto.xml:file]]: takes you directly to the page with a given exact title (if it exists; otherwise it takes you to an edit box to create such a page).
 * [[nlab-edit.xml:file]]: takes you directly to the "edit" page for a given title.
+* [[nforum-topic-search.xml:file]]: searches the nForum Topics.
+* [[nforum-comment-search.xml:file]]: searches the nForum Comments.
 
 It would be nice if these had different icons.  To use one or more of these, drop them in the 'searchplugins' directory of your firefox profile.
 
