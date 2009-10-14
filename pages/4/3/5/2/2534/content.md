@@ -41,12 +41,26 @@ $X$ equipped with a function $\nu: X \to \mathbb{N}$ which is bounded above by $
 
 What is a function between multisets?  I would be inclined to say that for multisubsets of an ambient universe $U$ considered as objects of $Set/U$, a function from $B\to U$ to $B'\to U$ would be an arbitrary function $B\to B'$ (not necessarily commuting with the projections to $U$).  But this doesn't work if a multisubset of $U$ is an *isomorphism class* in $Set/U$ rather than merely an object of it.  -- [[Mike Shulman]]
 
+[[Eric]]: This definition is taken from Syropoulos:
+
+**Definition**. Category $\mathbf{MSet}$ is a category of all possible multisets.
+
+1. The objects of the category consist of pairs $(A, P)$, where $A$ is a set and $P:A\to Set$ a presheaf on $A$.
+1. If $(A,P)$ and $(B,Q)$ are two objects of the category, an arrow between these objects is a pair $(f,\lambda)$, where $f:A\to B$ is a function and $\lambda:P\to Q\circ f$ is a natural transformation, i.e., a family of functions.
+1. Arrows compose as follows: suppose that $(A,P)\stackrel{(f,\lambda)}{\to}(B,Q)$ and $(B,Q) \stackrel{(g,\mu)}{\to}(C,R)$ are arrows of the category, then $(f,\lambda)\circ (g,\mu) = (g\circ f, \mu\times\lambda)$, where $g\circ f$ is the usual function composition and $\mu\times\lambda:P\to R\circ (g\circ f)$.
+4. Given an object $(A,P)$, the identity arrow is $(id_A, id_P)$.
+
+The last part of the definition is a kind of wreath product (see [4]). However, it is not clear at the moment how this definition fits into the general theory of
+wreath products.
+
 ## Examples
 
-* ...
+...
 
 ## References
 
 * [Mathematics of Multisets](http://obelix.ee.duth.gr/~apostolo/Articles/MathMSet.pdf), Apostolos Syropoulos
+
+* [Categorical Models of Multisets](http://obelix.ee.duth.gr/~apostolo/Articles/mset.pdf), Apostolos Syropoulos
 
 [[!redirects multisubset]]
