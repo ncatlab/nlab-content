@@ -177,3 +177,87 @@ $$
 $$
 It is a fact that the map $\pi_0 B \to \pi_2 A$ is a derivation over $\pi_0 A$ and hence has a classifying map which yields a map
 $$\beta : \omega \to \pi_2 A .$$
+
+#The Multiplicative Derived Group Scheme#
+
+The naive guess for $G_m$ is $GL_1$, where $GL_1 (A) = A^x = (\pi_0 A)^x$.  It is true that $GL_1$ is a [[derived scheme]] over $\mathrm{Spec} \mathbf{S}$, however it is not flat, nor is $GL_1 (A)$ an Abelian group as $A$ is an $E_\infty$-ring and not an honestly commutative ring.
+
+If $A$ is rational, that is there is a map $H \mathbb{Q} \to A$, then $GL_1 (A)$ can be given an Abelian group structure.  Hence, $GL_1$ is a perfectly good [[group scheme]] defined on the category of rational $E_\infty$-rings, however this category is too small; there are too few rational $E_\infty$-rings.
+
+Recall that for a ring $R$, $R^x = \mathrm{Hom}_R (R [ t, t^{-1} ] , R)$.  Further, recall that for a group $M$ we can form the group algebra $R[M]$ which is really a [[Hopf algebra]].  Then $\mathrm{Spec} R[M]$ is a [[group scheme]] over $\mathrm{Spec} A$.  Further, $R[m]$ is characterized by
+$$
+\mathrm{Ring} ( R[M] , B) = \mathrm{Ring} (R, B) \times \mathrm{Mon} (M,B)
+$$
+where $\mathrm{Mon}$ is the category of monoids and the ring $B$ is thought of as a monoid wrt to multiplication. Motivated by these observations we make the following definitions.
+
+**Definition** Let $A$ be an $E_\infty$-ring and $M$ a topological Abelian monoid, then we can define $A[M]$ which is characterized by
+$$
+\mathrm{Alg}_A (A[M], B) \simeq \mathrm{Alg}_A (A,B) \times \mathrm{TopMon} (M, B^\times ).
+$$
+Recall that because of the higher categorical nature of things, the hom-sets above are spaces and the symbol $\simeq$ indicates weak equivalence of spaces.
+
+**Definition** Let $A$ be an $E_\infty$-ring.  We define the multiplicative group corresponding to $A$ as
+$$
+G_m = \mathrm{Spec} A[ \mathbb{Z}].
+$$
+$G_m$ is a derived commutative group scheme over $\mathrm{Spec} A$.
+
+Note that $\pi_* ( A[ \mathbb{Z}]) = (\pi_* A) [ \mathbb{Z}]$. Also, the map $\pi_0 G_m \to \pi_0 \mathrm{Spec}  A$ is smooth of relative dimension 1.
+
+##Preorientations of $G_m$##
+
+**Proposition** For any $E_\infty$-ring $A$, we have a bijection (of sets) between preorientations of $G_m$ and maps $\mathbf{S} [ \mathbb{C} P^\infty ] \to A$.
+
+The proof follows from the fact that $\mathbf{S}$ is initial in the category of $E_\infty$-rings and the mapping property of $A [ \mathbb{Z}]$.
+
+**Corollary** $\mathrm{Spec} \mathbf{S} [ \mathbb{C} P^\infty ]$ is the moduli space of preorientations of $G_m$.  That is, if $G_m$ is defined over $\mathrm{Spec} A$, then a preorientation of $G_m$ is the same as a map $\mathrm{Spec} A \to \mathrm{Spec} \mathbf{S} [ \mathbb{C} P^\infty ]$.
+
+##Orientations of $G_m$##
+
+We consider the map $\beta : \omega \to \pi_2 A$ where
+$$
+\omega = i^* \Omega^1_{\pi_0 G / \pi_0 \mathrm{Spec} A}
+$$
+and $i$ is the identity section.  Note that $\pi_0 G_m = (\pi_0 A ) [t, t^{-1}]$, hence it follows that $\omega$ is canonically trivial, so an orientation is just an element $\beta_\sigma \in \pi_2 A$ such that $\beta_\sigma$ is invertible in $\pi_* A$. 
+
+Let $\beta$ denote the (universal) orientation of $\mathbf{S} [ \mathbb{C} P^\infty]$.  Then we have the following.
+
+**Theorem** $\mathrm{Spec} \mathbf{S} [ \mathbb{C} P^\infty] [ \beta^{-1}]$ is the moduli space of orientations of $G_m$.
+
+It is a theorem of Snaith, that this moduli space has the homotopy type of $KU$ the spectrum of complex K-theory.  Note that by considering the homtopy fixed points of a certain action there is a way to recover $KO$ as well.
+
+##Connection to complex orientation##
+
+Let $A$ be an $E_\infty$-ring, so in particular $A$ defines a cohomology theory.  An orientation of $G_m$ over $\mathrm{Spec} A$ is a map $KU \to A$.  A complex orientation of $A$ is a map $MU \to A$.  Recalling that $KU$ is complex oriented, we see that an orientation of $G_m$ gives a complex orientation by precomposing with the map $MU \to KU$.
+
+#The Additive Derived Group Scheme#
+
+The naive definition of $G_a$ is $\mathbf{A}^1$, where $\mathbf{A}^1 (A)$ is the additive group of $A$.  It is true that $\mathbf{A}^1$ is a [[derived scheme]] over $\mathrm{Spec} \mathbf{S}$, however it is not flat as for an $E_\infty$-ring $A$
+$$
+\pi_k \mathbf{A}^1_A = \oplus_{n \ge 0} A^{-k} (B \Sigma_n )
+$$
+where as if it were flat we would have
+$$
+\pi_k \mathbf{A}^1_A = \pi_k A [x] .
+$$
+Also, $\mathbf{A}^1$ is not commutative.  $\mathbf{A}^1 (A)$ is an infinite loop space, but not an Abelian monoid.  Again $\mathbf{A}^1$ is a derived group scheme when restricted to rational $E_\infty$-rings.
+
+We no restrict to the category of integral $E_\infty$-rings, i.e. those equipped with a map $H \mathbb{Z} \to A$. Note that in this category $H \mathbb{Z}$ is initial.
+
+**Definition** For $A$ an integral $E_\infty$-ring define
+$$
+G^A_a = \mathrm{Spec} ( A \otimes_\mathbb{Z} \mathbb{Z} [x] ).
+$$
+
+It can be shown that $G^A_a$ is flat and has the correct amount of commutativity.
+
+>Why can't we just use $\mathrm{Spec} A [ \mathbb{N}]$?
+
+**Proposition** For all integral $E_\infty$-rings, preorientations of $G_a^A$ are in bijective correspondence with maps $H \mathbb{Z} [ \mathbb{C} P^\infty] \to A$.  Consequently, $\mathrm{Spec} H \mathbb{Z} [ \mathbb{C} P^\infty]$ is the moduli space of preorientations of $G_a$.
+
+Now, $\pi_* H \mathbb{Z} [ \mathbb{C} P^\infty] = H_* (\mathbb{C} P^\infty , \mathbb{Z} )$.  The right side is a free divided power series on a generator $\beta$ where $\beta \in \pi_2 H \mathbb{Z} [ \mathbb{C} P^\infty]$.
+
+**Proposition** $\mathrm{Spec} H \mathbb{Z} [ \mathbb{C} P^\infty ] [ \beta^{-1}]$ is the moduli space of orientations of $G_a$.
+
+**Proposition** $\mathrm{Spec} H \mathbb{Z} [ \mathbb{C} P^\infty ] [ \beta^{-1}] = KU \otimes \mathbb{Q}$.  Hence the Chern character yields an isomorphism with rational periodic cohomology.
+
