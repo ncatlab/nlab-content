@@ -13,7 +13,7 @@ It is often useful to take a [[pullback]] along a morphism of fields, usually ca
 Although [[Grothendieck]] in the late 1950s envisioned many generalizations of [[scheme]] theory, his coauthor Dieudonn&#233; wrote later in EGA that algebraic geometry is the study of algebraic and [[formal schemes]], which is clearly a too dogmatic definition. Grothendieck's school studied in addition locally affine spaces in various [[Grothendieck topology|Grothendieck topologies]] on $\mathrm{Aff}$ (including [[algebraic space]]s), [[algebraic stack]]s ([[Deligne-Mumford stack]]s and [[Artin stack]]s), [[ind-object|ind-schemes]] and so on; in SGA the study of ringed spaces is replaced by more general [[ringed site]]s and [[ringed topos|ringed topoi]]. Modern generalizations include derived schemes, almost schemes (with the theory of almost rings of Gabber developing after some ideas of [Faltings](http://de.wikipedia.org/wiki/Gerd_Faltings)), generalized schemes of [[Nikolai Durov]], so-called schemes over the 'field of one element' $F_1$ of various authors, dg-schemes, slightly noncommutative $D$-schemes etc. Many ideas of scheme theory and the spectral theory of rings have influenced parallel developments in the analytic setup (Stein manifolds ([see the English Wikipedia](http://en.wikipedia.org/wiki/Stein_manifold)), rigid [[analytic geometry|analytic spaces]], etc.) and in the noncommutative setup give rise to [[noncommutative algebraic geometry]]. Deligne has also suggested how to do algebraic geometry in an arbitrary symmetric monoidal category. 
 
 
-#Algebraic spaces as sheaves#
+#Perspective of structured $(\infty,1)$-toposes #
 
 Grothendieck took the viewpoint that the schmees, algebraic spaces etc. are sheaves on $Aff$ in some subcanonical Grothendieck topology (functor of points point of view). 
 
@@ -34,7 +34,14 @@ From this perspective,
 * ordinary algebraic geometry is the study of [[structured (∞,1)-topos]]es for the [[geometry (for structured (∞,1)-toposes)|Zariski or etale geometry]] $\mathcal{G}_{Zar}$, $\mathcal{G}_{et}$ on [[CRing]]${}^{op}$
 
 
++--{.query}
 Zoran: We are still not sure if this is true (you keep saying this) but I am not sure that this is correct. 
+
+[[Urs Schreiber]]: this is prop 4.2.9 in [[Structured Spaces]], currently recalled on the page [[derived scheme]].
+
+=--
+
+
 
 * [[derived algebraic geometry]] is the study of [[structured (∞,1)-topos]]es for the [[geometry (for structured (∞,1)-toposes)|Zariski or etale pre-geometry]] $\mathcal{T}_{Zar}$, $\mathcal{T}_{et}$ on [[CRing]]${}^{op}$.
 
