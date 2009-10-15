@@ -4,6 +4,10 @@
 </div>
 
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 A __model category__ (sometimes called a _Quillen model category_ or a _closed model category_) is a [[category with weak equivalences]] that is equipped with extra structure which  facilitates the computation and handling of its [[simplicial localization]] that yields the [[(∞,1)-category]] _modeled_ by the model category.
