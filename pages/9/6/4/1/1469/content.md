@@ -42,6 +42,8 @@ Despite of this, an axiomatic formulation of algebraic geometry along the lines 
 
 +--{.query}
 Zoran: so what is SGA IV about ?
+
+[[Urs Schreiber]]: please write a paragraph on what it is about. 
 =--
 
  leading to an unfortunate and unnecessary gap between for instance the fields of algebraic geometry and [[differential geometry]].
