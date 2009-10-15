@@ -96,4 +96,13 @@ _Toby_:  At least $Set^{\mathbf{2}}$ is *different* from $Set$.  And how do you 
 * [Categorical Models of Multisets](http://obelix.ee.duth.gr/~apostolo/Articles/mset.pdf), Apostolos Syropoulos
 
 
++--{.query}
+[[Eric]]: What is the difference (aside from negatives) between multisets and abelian groups freely generate by some set $U$? It seems like a multiset $\langle X,\mu\rangle$ ($X$ s a set and $\mu:X\to\mathbb{N}$) can be thought of as a _vector_ with $\mu$ providing the coefficients. 
+
+For example, we could express the multiset $\mathcal{X} = \{1,1,1,2,3,3,3,3,3\}$ as
+
+$$\mathcal{X} = 3\{1\} + 1\{2\} + 4\{3\}.$$
+=--
+
+
 [[!redirects multisubset]]
