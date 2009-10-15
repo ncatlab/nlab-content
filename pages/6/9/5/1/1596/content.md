@@ -7,6 +7,17 @@ A subcategory $D$ of $C$ is __replete__ if for any $x$ in $D$ and any isomorphis
 
 Equivalently, if $f \in D$ and $f \cong g$ in $Arr(C)$, then $g \in D$.
 
+## Repletion and replete images
+
+Note that the inclusion functor of any replete subcategory must be [[pseudomonic functor|pseudomonic]].  Conversely, any subcategory whose inclusion functor is pseudomonic has a **repletion**.  The repletion $repl(D)$ of $D\subset C$ defined to consist of those objects of $C$ admitting an isomorphism to some object of $D$, with the morphisms $x\to y$ in $repl(D)$ being those morphisms $f\colon x\to y$ in $C$ such that $g f h^{-1}$ is in $D$ for some isomorphisms $g\colon x\to x'$ and $h\colon y\to y'$ with $x', y'\in D$.  Note that $D\subset C$ must be pseudomonic for this condition to be independent of the choice of $g$ and $h$.
+
+Repleteness and repletions are most often applied to [[full subcategories]], in which case the repletion is simply the full subcategory of $C$ determined by those objects which are isomorphic to some object of $D$.
+
+The **replete image** of a functor which is full on isomorphisms is the repletion of its image (which is pseudomonic).  The **replete full image** of a functor is the repletion of its [[full image]], i.e. the full subcategory of its target determined by those objects isomorphic to some object in its image.  See also [[essential image]].
+
+
+## Higher-categorical versions
+
 More generally, for $n\geq 0$, a subcategory $D$ of an $n$-[[n-category|category]] $C$ is replete if all [[equivalence]]s in $C$ whose either source or target is in $D$ are themselves in $D$. In particular, all $k$-cells equivalent in $C$ to some $k$-cell in $D$ are themselves in $D$ (because they are sources of some equivalence in $D$).  Then replete subcategories of $1$-[[1-category|categories]] are those which are replete in this sense.
 
 Here we are using the weakest notion of equivalence; one could also talk about $k$-replete $n$-subcategories if every $k$-equivalences in $C$ belongs to $D$ if either its source or target does.  Then using the usual definition of 'category' as a model for $1$-categories, replete subcategories are already those which are $0$-replete (indeed, $0$-equivalence is isomorphism in this model); but using a model of $1$-categories in which [[hom-sets]] are [[setoid]]s (as is common, for example, in [[type theory|type-theoretic]] [[foundations]]), we must insist on $1$-repleteness.
@@ -29,3 +40,5 @@ _Toby_:  Not every concept of $n$-category even has a concept of equivalence of 
 
 Zoran, you might also want to address these issues at [[equivalence]].
 =--
+
+[[!redirects replete image]]
