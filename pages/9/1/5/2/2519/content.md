@@ -68,44 +68,71 @@ A [[lined topos]] $(\mathcal{T},R)$ is a **smooth topos** if
 
 
 
-## variants ##
-
-There are various immediate variants of this concepts.
-
-### super smooth topos ###
-
-In [[synthetic differential supergeometry]] one considers a notion of smooth topos that axiomatizes not just ordinary [[differential geometry]] but [[supergeometry]].
-
-A **super smooth** topos is defined as a smooth topos with the notion of [[algebra]] replaced everywhere by [[superalgebra]].
-
-So a super smooth topos is a [[topos]] $\mathcal{T}$ equipped with a [[superalgebra]] object $(R, +, \cdot)$ with even part $R_e$ and odd part $R_o$ etc.
-
-An algebra spectrum object is now an internal object of superalgebra homomorphisms and the condition is that for every super Weil algebra $W = R \oplus m$ we have that $Spec(W) = R SAlg_{\mathcal{T}}(W,R)$ is an [[infinitesimal object]] and that $W \to R^{Spec W}$ is an [[isomorphism]]. 
-
-This means that essentially all the standard general theory of smooth toposes goes through literally for super smooth toposes, too. The main difference is that a super smooth topos contains more types of [[infinitesimal object]]s.
-
-There is for instance still the standard _even_ infinitesimal interval
-
-$$
-  D := D^{1|0} := \{\epsilon \in R_e | \epsilon^2 = 0\}
-$$
-
-but there is now also the _odd_ infinitesimal interval
-
-$$
-  D^{0|1} := \{\theta \in R_o \}
-  \,.
-$$
-
-Notice that in the graded commutative algebra $A$ every odd element $\theta$ automatically squares to 0.
-
-> [[Urs Schreiber]]: I'd think that the cominatorial/simplicial definition of [[differential forms in synthetic differential geometry]] applied verbatim in a super smooth topos automatically yields the right/expected notion of differential forms in supergeometry. 
 
 # Examples #
 
-For a list of examples see also [[Models for Smooth Infinitesimal Analysis]].
+## well-adapted models ##
 
-## Dubuc topos ##
+A smooth topos $(\mathcal{T},R)$ is called a **well adapated model** if there is a [[full and faithful functor]] 
 
-## Stein topos ##
+$$ 
+  Diff \hookrightarrow \mathcal{T}
+$$
 
+from the [[category]] [[Diff]] of smooth [[manifold]]s into it, that takes the real line $\mathbb{R}$ to the [[lined topos|line object]] $R$.
+
+In these _well adapted models_ ordinary [[differential geometry]] is therefore faithfully embedded. 
+
+For a list of examples of well adopted models see
+
+* [[Models for Smooth Infinitesimal Analysis]].
+
+Notice that by far not all models are of this form, as the following examples show. On the contrary, the axioms of [[synthetic differential geometry]] may be regarded as providing a unified framework in particular for [[differential geometry]] of [[manifold]]s and [[algebraic geometry]] of [[algebraic space]]s, [[scheme]]s and other objects.
+
+## models for supergeometry ##
+
+It is straightforward to slightly enhance the axioms of smooth toposes such as to incorporate the step from [[differential geometry]] to [[supergeometry]], one just requires that algebra structure on the [[lined topos|line object]] $R$ is further refined to thatr of a [[superalgebra]]. The result is called a [[super smooth topos]]. See there for a list of models of these.
+
+## models for algebraic geometry ##
+
+A simple model of a [[smooth topos]] that may be regarded as a context inside which much of [[algebraic geometry]] takes place is the following:
+
+Let $k$ be a [[field]] and let $ (k-Alg^{finp})^{op}$ be the [[opposite category]] of the [[category]] of finitely presented $k$-[[algebra]]s. Then the [[presheaf]] category $\mathcal{T} = PSh((k-Alg^{finp})^{op})$ equipped with the [[lined topos|line object]] $R = k[T]$ (the algebra of polynomials over $k$ in one variable $T$) 
+
+$$
+  (
+    \mathcal{T} = PSh((k-Alg^{finp})^{op}), 
+    R = k[T]
+  )
+$$
+
+is a smooth topos. This is described in section 9.3 of
+
+* [[Anders Kock]], _Synthetic geometry of manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
+
+Notice that despite the name of that book, this model is _not_ a well adapted model in that ordinary smooth [[manifold]]s do not embed full and faithfully into this topos. 
+
+Instead, interpreting the internal notion of manifold described in that book -- called _formal manifolds_ in the model $\mathcal{T} = PSh((k-Alg^{finp})^{op})$ produces something like [[formal scheme]]s over $k$. 
+
+Indeed, much of [[algebraic geometry]] over $k$ may be thought of as being concerned with this model for a smooth topos. A main difference is that in [[algebraic geometry]] attention is usually focused on particularly well behaved objects inside $\mathcal{T} = PSh((k-Alg^{finp})^{op})$: those that satisfy a [[sheaf]] condition with respect to a [[Grothendieck topology]] on $(k-Alg^{finp})^{op}$ and among those moreover those that are _locally isomorphic_ to a [[representable functor|representable]]: these are the [[scheme]]s or [[algebraic space]]s over $k$.
+
+Probably the [[category of sheaves]] [[localization]] of $PSh((k-Alg^{finp})^{op})$ with respect to one of the standard topologies (Zariski or etale) is still a [[smooth topos]], so that this conmdition can be enforced by passing to a more restrictive model.
+
+But since [[scheme]]s alone will never form a [[topos]], and smooth topos axiomatization of [[algebraic geometry]] will always contain more general -- also more "pathological" -- objects than [[scheme]]s. It's an example of an old dictum by [[Grothendieck]] that it is useful to have a nicely behaved category that contains pathological objects than a badly-bahved category of only nice objects: the [[topos]]-[[category theory|general nonsense]] allows useful general constructions in $\mathcal{T}$ which may in each individual case be checked for whether they land in the sub-category of [[schemes]] or [[algebraic space]]s or not.
+
+A similar comment of course applies to the "well-adapted models" mentioned above: into these ordinary [[manifold]]s only embed, they contain "smooth space"s much more general than manifolds (such as [[diffeological space]]s) but also possibly "pathological" ones, from some perspective or other.
+
+## warning on preservation of (co)limits ##
+
+Most of the examples above provided [[topos]]es into which a [[category]] $NiceSpaces$ of nicely behaved [[space]]s, such as [[manifold]]s or [[scheme]]s embeds [[full and faithful functor|full and faithfully]].
+
+$$
+  NiceSpaces \hookrightarrow \mathcal{T}
+  \,.
+$$
+
+But the inclusion functor will in general not preserve all [[limit]]s and [[colimit]]s that exist in $NiceSpaces$.
+
+For instance for the well-adopted models the full and faithful inclusion of [[Diff]] typically respects only [[pullback]]s of [[manifold]]s along [[transversal map]]. This is because this is the case for the inclusion $Diff \hookrightarrow \mathbb{L}$ of [[Diff]] into the category of [[smooth locus|smooth loci]] and the [[Grothendieck topology]] for these models is typically [[subcanonical coverage|subcanonical]]. See the discussion at [[smooth locus]] for more on this.
+
+This means that universal constructions in a smooth topos may yield different results than in a smaller category of more nicely behaved spaces. However, it is noteworthy that in the above example of manifolds, one may argue that the ordinary [[pullback]] of manifolds along non-[[transversal map]]s is the _wrong_ pullback in any case: it doesn't behave well with the [[cohomology]] of manifolds. One motivation for [[higher geometry]], in the case of manifolds specifically the motivation for considering [[derived smooth manifold]]s, is to pass from objects in a [[topos]] instead more generally to objects in an [[(∞,1)-topos]] of [[derived stack|stack]] [[∞-stack]]s. 
