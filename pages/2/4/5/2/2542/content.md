@@ -17,9 +17,10 @@ A **lined topos** $(\mathcal{T}, R)$ is
  
   (usually with the [[internalization|internal]] [[ring]] object $(k,+,\cdot)$ assumed to be commutative)
 
-* and equipped with a choice $(R,+,\cdot)$ of [[internalization|internal]] commutative [[algebra]] object $(R,+,\cdot)$ over $k$.
+* and equipped with a choice $(R,+,\cdot)$ of [[internalization|internal]] commutative [[algebra]] object $(R,+,\cdot)$ over $k$ -- the **line object**.
 
 =--
+
 
 # Variations #
 
