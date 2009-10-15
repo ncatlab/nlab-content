@@ -15,7 +15,7 @@ A **lined topos** $(\mathcal{T}, R)$ is
 
 * a [[ringed topos]] $(\mathcal{T}, k)$
  
-  (usualy with the [[internalization|internal]] [[ring]] object $(k,+,\cdot)$ being assumed to be commutative)
+  (usually with the [[internalization|internal]] [[ring]] object $(k,+,\cdot)$ assumed to be commutative)
 
 * and equipped with a choice $(R,+,\cdot)$ of [[internalization|internal]] commutative [[algebra]] object $(R,+,\cdot)$ over $k$.
 
