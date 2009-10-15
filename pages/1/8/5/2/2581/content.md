@@ -93,21 +93,9 @@ $\array{\text{The Way It Looks In} \\ \text{System 2} \\ \text{Browser 2} \\ \te
 <td>not rendering ???</td>
 <td>$\ldots$</td></tr>
 
-<tr>
-<td>`A \;\text{&amp;#x2212;&amp;#x003C;}\; B`</td>
-<td>$A \;\text{&#x2212;&#x003C;}\; B$</td>
-<td>not rendering ???</td>
-<td>$\ldots$</td></tr>
-
-<tr>
-<td>`A \mathrel{&amp;#x2212;&amp;#x003C;} B`</td>
-<td>$A \mathrel{&#x2212;&#x003C;} B$</td>
-<td>not rendering ???</td>
-<td>$\ldots$</td></tr>
-
 </table>
 
-In my e-POV, the last formulas in the above table are not converting to TeX at all.  I did type that stuff really late last night, but still can't see what's wrong.
+The way I see it from here, the last formulas in the above table are not converting to TeX at all.  I did type that stuff really late last night, but I still can't see what's wrong.
 
 Is the HTML context inhibiting something?
 
@@ -121,17 +109,9 @@ A \:\text{&#8722;&#60;}\: B
 `A \mathrel{&amp;#8722;&amp;#60;} B`
 &
 A \mathrel{&#8722;&#60;} B
-\\
-`A \:\text{&amp;#x2212;&amp;#x003C;}\: B`
-&
-A \:\text{&#x2212;&#x003C;}\: B
-\\
-`A \mathrel{&amp;#x2212;&amp;#x003C;} B`
-&
-A \mathrel{&#x2212;&#x003C;} B
 }$
 
-Quotation not working.  Talk about non-reflective!
+Now the code quotation doesn't work.  Talk about non-reflective!
 
 Try ---
 
@@ -153,7 +133,7 @@ A \:\text{&#x2212;&#x003C;}\: B
 A \mathrel{&#x2212;&#x003C;} B
 }$
 
-Screw this &hellip;
+???
 
 ## Fullwidth Forms ##
 
