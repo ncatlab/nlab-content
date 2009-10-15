@@ -37,3 +37,5 @@ Do we know what these should be in any more general situations?
 
 [[!redirects well-pointed pretopos]]
 [[!redirects well-pointed category]]
+[[!redirects well-pointed toposes]]
+[[!redirects well-pointed topoi]]
