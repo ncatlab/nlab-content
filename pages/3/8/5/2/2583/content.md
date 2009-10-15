@@ -10,7 +10,7 @@ The _string 2-group_ is a _smooth_ [[2-group]] incarnation of the [[topological 
 
 ## motivation from quantum physics ##
 
-Since, by definition, the topological [[string group]] has vanishing third [[homotopy group]], it cannot be a (finite dimensional) [[Lie group]] (because these all have $\pi_3 = \mathbb{Z}$). However, for various applications it is necessary to have a smooth model of the [[string group]]. The string 2-group provides this.
+Since, by definition, the topological [[string group]] has vanishing third [[homotopy group]], it cannot be a (finite dimensional) [[Lie group]] (because these all have nontrivial $\pi_3$). However, for various applications it is necessary to have a smooth model of the [[string group]]. The string 2-group provides this.
 
 This is best understood by comparison with the situation one step down in the [[Whitehead tower]] of $O(n)$: using the [[spin group]] instead of the string group. A priori the [[spin group]] is defined as the [[topological group]] that is the [[universal cover]] of the [[special orthogonal group]]. This alone is sufficient to talk about [[spin structure]] of an [[orientation|oriented]] $n$-dimensional [[manifold]] $X$: this is a lift of the classifying map $X \to \mathcal{B} SO(n)$ -- a morphism of [[topological space]]s -- of the [[tangent bundle]] $T X $ of $X$ through the projection $\mathcal{B} Spin(n) \to \mathcal{B} SO(n)$.
 
