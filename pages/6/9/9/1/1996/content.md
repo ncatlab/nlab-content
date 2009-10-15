@@ -19,4 +19,3 @@ The [[chain homology and cohomology|cohomology]] of the Chevalley-Eilenberg comp
 [[!redirects Chevalley?Eilenberg complex]]
 [[!redirects Chevalley--Eilenberg cochain complex]]
 [[!redirects Chevalley--Eilenberg complex]]
-[[!redirects Lie algebra cohomology]]
