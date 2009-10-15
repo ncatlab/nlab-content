@@ -54,3 +54,5 @@ Since [[gauge theory]] is not just about [[principal bundle]]s, but about princi
 #further references#
 
 * blog entry: [Dual formulation of String theory and Fivebrane structures](http://golem.ph.utexas.edu/category/2008/04/dual_formulation_of_string_the.html)
+
+[[!redirects fivebrane structure]]
