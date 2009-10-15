@@ -37,6 +37,7 @@ Here is a list of people who have contributed content to the nLab (or, failing t
 * [[Gonçalo Marques]]
 * [[Gordon Royle]]
 * [[Greg Egan]]
+* [[Hugh Thomas]]
 * [[Ivo]]
 * [[jdthomas|J. D. Thomas]]
 * [[Jacques Distler]]
