@@ -1,3 +1,8 @@
+#Content#
+
+* automatic table of contents goes here
+{:toc}
+
 # Idea #
 
 This entry list details on concrete constructions for examples of [[geometric function theory|geometric function theories]], or closely related structures.
