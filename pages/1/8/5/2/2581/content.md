@@ -17,6 +17,7 @@ __Ref.__ [Unicode Data Bank](http://www.sql-und-xml.de/unicode-database/) --- [O
 1.  [Open Punctuation](http://www.sql-und-xml.de/unicode-database/ps.html)
 1.  [Other Punctuation](http://www.sql-und-xml.de/unicode-database/po.html)
 1.  [Close Punctuation](http://www.sql-und-xml.de/unicode-database/pe.html)
+1.  [Dash Punctuation](http://www.sql-und-xml.de/unicode-database/pd.html)
 1.  [Geometric Shapes](http://www.sql-und-xml.de/unicode-database/geometric-shapes.html)
 1.  [Other Symbols](http://www.sql-und-xml.de/unicode-database/so.html)
 1.  [Dingbats](http://www.sql-und-xml.de/unicode-database/dingbats.html)
@@ -154,6 +155,71 @@ A \mathrel{&#x2212;&#x003C;} B
 
 Screw this &hellip;
 
+## Fullwidth Forms ##
+
+* &amp;#65293; &rarr; &#65293;
+
+* \text{&amp;#65293;} &rarr; $\text{&#65293;}$
+
+* &amp;#65308; &rarr; &#65308;
+
+* \text{&amp;#65308;} &rarr; $\text{&#65308;}$
+
+* &amp;#65293;&amp;#65308; &rarr; &#65293;&#65308;
+
+* \text{&amp;#65293;&amp;#65308;} &rarr; $\text{&#65293;&#65308;}$
+
+## Dash It All ##
+
+__Minus Sign__
+
+* &amp;#8722;&amp;#60; &rarr; &#8722;&#60;
+
+* \text{&amp;#8722;&amp;#60;} &rarr; $\text{&#8722;&#60;}$
+
+__Figure Dash__
+
+* &amp;#8210;&amp;#60; &rarr; &#8210;&#60;
+
+* \text{&amp;#8210;&amp;#60;} &rarr; $\text{&#8210;&#60;}$
+
+__En Dash__
+
+* &amp;#8211;&amp;#60; &rarr; &#8211;&#60;
+
+* \text{&amp;#8211;&amp;#60;} &rarr; $\text{&#8211;&#60;}$
+
+__Em Dash__
+
+* &amp;#8212;&amp;#60; &rarr; &#8212;&#60;
+
+* \text{&amp;#8212;&amp;#60;} &rarr; $\text{&#8212;&#60;}$
+
+__Horizontal Bar__
+
+* &amp;#8213;&amp;#60; &rarr; &#8213;&#60;
+
+* \text{&amp;#8213;&amp;#60;} &rarr; $\text{&#8213;&#60;}$
+
+## Negative Space ##
+
+This wasn't working the last few times I tried it &hellip; let's see &hellip;
+
+* Using `\!` &rarr; $A \,-\!\lt B$
+
+* Using `\!\!` &rarr; $A \,-\!\!\lt B$
+
+* Using `\!\!\!` &rarr; $A \,-\!\!\!\lt B$
+
+* Using `\negspace` &rarr; $A \,-\negspace\lt B$
+
+* Using `\negspace\negspace` &rarr; $A \,-\negspace\negspace\lt B$
+
+* Using `\negspace\negspace\negspace` &rarr; $A \,-\negspace\negspace\negspace\lt B$
+
+In Windows + Firefox 3.5.4, I'm still not seeing any difference.
+
+In Windows + IE 8, this actually started to work, except for the bad vertical alignment between "-" and that other thing, but then something crashed the MathPlayer.  Will try again.
 
 ## Residual Problems with Mathcal ##
 
