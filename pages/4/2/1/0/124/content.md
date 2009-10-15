@@ -2,8 +2,11 @@
 [[!include category theory - contents]]
 </div>
 
+# Contents #
+* autamatic table of contents goes here
+{:toc}
 
-## Idea
+# Idea #
 
 A topos is a [[category]] that resembles the category of sets and functions enough that we can use it as a 'universe' to do ordinary mathematics in.  Ordinary mathematical reasoning (with some restrictions) suffices to prove results [[internalisation|internal]] to any topos.
 
@@ -14,7 +17,7 @@ For a longer introduction, try:
 * John Baez, [Topos Theory in a Nutshell](http://math.ucr.edu/home/baez/topos.html).
 
 
-## Definition
+# Definition #
 
 A quick formal definition is that an **(elementary) topos** is a category which
 
@@ -37,7 +40,7 @@ In a way, however, these concise definitions can be misleading, because a topos 
 The last two imply that it has an [[internal logic]] that resembles ordinary mathematical reasoning, and the presence of exponentials and power objects means that this logic is [[higher order logic|higher order]].
 
 
-## Reasoning in a topos
+# Reasoning in a topos #
 
 Any result in ordinary mathematics whose proof is [[finite mathematics|finitist]] and [[constructive mathematics|constructive]] automatically holds in any topos.  If you remove the restriction that the proof be finitist, then the result holds in any topos with a [[natural numbers object]]; if you remove the restrictions that the proof be constructive, then the result holds in any [[boolean topos]].  On the other hand, if you add the restriction that the proof be predicative in the weaker sense used by constructivists, then the result may fail in some toposes but holds in any $\Pi$-[[Pi-pretopos|pretopos]]; if you add the restriction that the proof by predicative in a stronger sense, then the result holds in any [[Heyting pretopos]].
 
@@ -45,18 +48,38 @@ Therefore, one can prove results in toposes and similar categories by reasoning,
 
 For more on this idea, see [[internal logic]].
 
+# Special classes #
+
+For various applications one uses toposes that have [[stuff, structure, property|extra structure or properties]].
+
+* In [[synthetic differential geometry]] one studies [[smooth topos]]es as context for axiomatic [[differential geometry]].
+
+
+# Higher toposes # 
+
+The analogs of topos theory in [[higher category theory]] is [[higher topos theory]]. 
+
+A well developed case is that of [[(∞,1)-topos]]es.
+
+#References#
+
+
+* [[Saunders MacLane]], [[Ieke Moerdijk]], [[Sheaves in Geometry and Logic]]
+
+* [[Peter Johnstone]], [[Elephant|Sketches of an Elephant: A Topos Theory Compendium]]
+
 
 [[!redirects topoi]]
 [[!redirects toposes]]
 [[!redirects Lawvere-Tierney topos]]
 [[!redirects Lawvere--Tierney topos]]
-[[!redirects Lawvere–Tierney topos]]
+[[!redirects Lawvere?Tierney topos]]
 [[!redirects elementary topos]]
 [[!redirects Lawvere-Tierney topoi]]
 [[!redirects Lawvere--Tierney topoi]]
-[[!redirects Lawvere–Tierney topoi]]
+[[!redirects Lawvere?Tierney topoi]]
 [[!redirects elementary topoi]]
 [[!redirects Lawvere-Tierney toposes]]
 [[!redirects Lawvere--Tierney toposes]]
-[[!redirects Lawvere–Tierney toposes]]
+[[!redirects Lawvere?Tierney toposes]]
 [[!redirects elementary toposes]]
