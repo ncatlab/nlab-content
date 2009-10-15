@@ -237,7 +237,7 @@ A [[deRham space]] is the colimit over a $\Pi^{inf}(X)$.
 
 # References #
 
-In the language of [[synthetic differential geometry]] the infinitesimal singular complex for "formal manifolds" (manifolds with an infinitesimal thickening to all orderes) is described in
+In the language of [[synthetic differential geometry]] the infinitesimal singular complex for "formal manifolds" (internally defined manifolds with an infinitesimal thickening to all orderes) is described in
 
 section I.18 of 
 
@@ -247,9 +247,7 @@ and in [section 2.8](http://home.imf.au.dk/kock/SGM-final.pdf#page=89) of
 
 * Anders Kock, _Synthetic geometry of manifolds_ ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
-(for smooth [[manifold]]s).
-
-The details of what $X^{\Delta^k_{inf}}$ is like concretely on representables in the [[smooth topos]] $PSh(CRing^{op})$ of [[algebraic geometry]], i.e. on [[affine scheme]]s is worked out in detail in 
+The details of what $X^{\Delta^k_{inf}}$ is like concretely on representables in the [[smooth topos]] $PSh(k-Alg^{op})$ of [[algebraic geometry]], i.e. on [[affine scheme]]s is worked out in detail in 
 
 * Breen, Messing, _Combinatorial differential forms_ ([pdf](http://arxiv.org/abs/math/0005087))
 
