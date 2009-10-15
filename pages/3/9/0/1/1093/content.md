@@ -1,5 +1,9 @@
 This entry is about the properties and the characterization of the category $Sh(S)$ of [[sheaf|sheaves]] on a [[site]] $S$. Among other things it does give a definition and a characterization of the notion of [[sheaf]] itself, but for more on the traditional information on [[sheaf|sheaves]] see there. This entry here is to be compared with the entry [[(infinity,1)-category of (infinity,1)-sheaves]] of which it is the 1-categorical shadow.
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Definition#
 
 Consider a [[site]] $S$, i.e. a [[category]] $S$ equipped with a [[Grothendieck topology]].  Think of this topology equivalently as encoded in a system of [[local isomorphism]]s (see there) on the [[presheaf]] category $PSh(S) := [S^{op}, Set]$.
@@ -23,8 +27,14 @@ $$
 * also the converse is true: for every [[exact functor|left exaxt]] functor $L : PSh(S) \to PSh(S)$ (preserving finite limits) which is [[adjoint functor|left adjoint]] to the inclusion of its image, there is a Grothendieck topology on $S$ such that the image of $L$ is the category of sheaves on $S$ with respect to that topology 
 
 
+#Relation to topos theory#
+
+Categories of sheaves are examples of [[category|categories]] that are [[topos]]es: they are the [[Grothendieck topos]]es.
+
 
 #References#
+
+For some standard references see the list of references at [[sheaf]] and [[topos]].
 
 The characterization of $Sh(S)$ as the homotopy category of $PSh(S)$ with respect to local isomorphisms is emphasized at the beginning of the text
 
@@ -42,6 +52,8 @@ It's a bit odd that the full final statement does not seem to be stated there ex
 
 * using this corollary 7.2.2 says that $Sh(S) \simeq Ho_{PSh(S)}$ with the [[homotopy category]] $Ho_{PSh(S)}$ formed using [[local isomorphism]]s as weak equivalences.
 
+
+
 The entirely analogous story in the wider context of [[(infinity,1)-category|(infinity,1)-categories]] is the central statement of
 
 * [[Jacob Lurie]], [[Higher Topos Theory]] .
@@ -50,13 +62,3 @@ For more on this see [[(infinity,1)-category of (infinity,1)-sheaves]].
 
 ***
 
-#Discussion#
-
-On a previous version of this entry we had the following discussion.
-
-+--{: .query}
-[[Mike Shulman|Mike]]: You need $L$ to be [[exact functor|left exact]] .  (And actually, to be completely precise, it is not that $L : PSh(S) \to PSh(S)$ itself has a ff right adjoint, but that $L$ is left adjoint to _the_ (necessarily ff) inclusion of its full image.)  Under that hypothesis the proof can be found in many books on topos theory.  You might want to go via a [[Lawvere-Tierney topology]] on $Psh(S)$.
-
-[[Urs Schreiber|Urs]]: thanks, have corrected that now. 
-
-=--
