@@ -17,9 +17,9 @@ Every wiki needs a sandbox! Just test _below_ and don't worry about messing thin
 
 ***
 
-* _Der Mann mit $@$_
+* _Der Mann mit $@$_ ![Boing](http://wikipediareview.com/smilys0b23ax56/default/boing.gif)
 
-__Ref.__ [Unicode Data Bank](http://www.sql-und-xml.de/unicode-database/) ![Boing](http://wikipediareview.com/smilys0b23ax56/default/boing.gif)
+__Ref.__ [Unicode Data Bank](http://www.sql-und-xml.de/unicode-database/) --- [Online Integer:Hex:Character Conversion Tool](http://www.sql-und-xml.de/unicode-database/online-tools/)
 
 1.  [Math Symbols](http://www.sql-und-xml.de/unicode-database/sm.html)
 1.  [Math Operators](http://www.sql-und-xml.de/unicode-database/mathematical-operators.html)
@@ -31,6 +31,7 @@ __Ref.__ [Unicode Data Bank](http://www.sql-und-xml.de/unicode-database/) ![Boin
 1.  [Open Punctuation](http://www.sql-und-xml.de/unicode-database/ps.html)
 1.  [Other Punctuation](http://www.sql-und-xml.de/unicode-database/po.html)
 1.  [Close Punctuation](http://www.sql-und-xml.de/unicode-database/pe.html)
+1.  [Dash Punctuation](http://www.sql-und-xml.de/unicode-database/pd.html)
 1.  [Geometric Shapes](http://www.sql-und-xml.de/unicode-database/geometric-shapes.html)
 1.  [Other Symbols](http://www.sql-und-xml.de/unicode-database/so.html)
 1.  [Dingbats](http://www.sql-und-xml.de/unicode-database/dingbats.html)
@@ -39,41 +40,69 @@ __Ref.__ [Unicode Data Bank](http://www.sql-und-xml.de/unicode-database/) ![Boin
 
 <table align="center" cellpadding="4" cellspacing="0" markdown="1" width="100%">
 
-<caption><font size="+2">$\text{Symbol Renderings in Various Environments}$</font></caption>
+<caption><font size="+2">$\text{Symbol String Renderings in Various Environments}$</font></caption>
 
 <tr>
 <td align="center" style="border-bottom:2px solid black">$\text{Input Symbol String}$</td>
+
 <td align="center" style="border-bottom:2px solid black">$\text{Local Rendering}$</td>
+
 <td align="center" style="border-bottom:2px solid black">
-$\text{ASCII Facsimile:}$<br>$\text{The Way It Looks In}$<br>
-$\text{Windows}$<br>$\text{Firefox 3.5.4}$<br>$\text{STIX}$</td>
+$\array{\text{The Way It Looks In} \\ \text{Windows} \\ \text{Firefox 3.5.4} \\ \text{STIX}}$</td>
+
 <td align="center" style="border-bottom:2px solid black">
-$\text{ASCII Facsimile:}$<br>$\text{The Way It Looks In}$<br>
-$\text{System 2}$<br>$\text{Browser 2}$<br>$\text{Font Class 2}$</td>
-</tr>
+$\array{\text{The Way It Looks In} \\ \text{System 2} \\ \text{Browser 2} \\ \text{Fontset 2}}$</td></tr>
 
 <tr>
-<td>`x \:\text{:=}\: y`</td>
-<td>$x \:\text{:=}\: y$</td>
-<td>x := y</td>
+<td>`A \;\text{:=}\; B`</td>
+<td>$A \;\text{:=}\; B$</td>
+<td>acceptable</td>
 <td>$\ldots$</td></tr>
 
 <tr>
-<td>`x \coloneqq y`</td>
-<td>$x \coloneqq y$</td>
-<td>x := y</td>
+<td>`A \coloneqq B`</td>
+<td>$A \coloneqq B$</td>
+<td>acceptable</td>
 <td>$\ldots$</td></tr>
 
 <tr>
-<td>`\mathrel{\mathop:}=`</td>
-<td>$\mathrel{\mathop:}=$</td>
-<td>\mathop:&nbsp;&nbsp;&#61;</td>
+<td>`A \mathrel{:=} B`</td>
+<td>$A \mathrel{:=} B$</td>
+<td>acceptable</td>
+<td>Crappy vertical alignment
+<br>using U+003A.</td></tr>
+
+<tr>
+<td>`A \mathrel{&#8758;=} B`</td>
+<td>$A \mathrel{&#8758;=} B$</td>
+<td>kinda cute &mdash;
+<br>looks like a planarian</td>
+<td>Correct vertical alignment
+<br>(too loose horiz. spacing?)
+<br>using U+2236.</td></tr>
+
+<tr>
+<td>`A \;\text{-\lt}\; B`</td>
+<td>$A \;\text{-\lt}\; B$</td>
+<td>`A -\lt B`</td>
 <td>$\ldots$</td></tr>
 
 <tr>
-<td>`\mathrel{\mathop-}\lt`</td>
-<td>$\mathrel{\mathop-}\lt$</td>
-<td>\mathop-&nbsp;&nbsp;&#60;</td>
+<td>`A \mathrel{-\lt} B`</td>
+<td>$A \mathrel{-\lt} B$</td>
+<td>`A -\lt B`</td>
+<td>$\ldots$</td></tr>
+
+<tr>
+<td>`A \;\text{&amp;#8722;&amp;#60;}\; B`</td>
+<td>$A \;\text{&#8722;&#60;}\; B$</td>
+<td>not rendering ???</td>
+<td>$\ldots$</td></tr>
+
+<tr>
+<td>`A \mathrel{&amp;#8722;&amp;#60;} B`</td>
+<td>$A \mathrel{&#8722;&#60;} B$</td>
+<td>not rendering ???</td>
 <td>$\ldots$</td></tr>
 
 </table>
@@ -100,7 +129,7 @@ Wut's th' deil with MathCal?
 
 ***
 
-Just from a Windows + Firefox (dysad-)vantage point, it doesn't look like right alignment in arrays and tables is working here:
+Just from a Windows + Firefox vantage point, it doesn't look like right alignment in arrays and tables is working here:
 
 * __Version 1.__  Itex `\array` with `\colalign{right}` 
 
