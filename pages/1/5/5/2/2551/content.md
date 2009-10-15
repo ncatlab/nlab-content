@@ -18,6 +18,9 @@ $$
 
 +--{: .query}
 [[David Roberts]]: From what I understand of the work on $A^1$ homotopy, the localisation is of morphisms of the form $X \times I \to X$.
+
+[[Urs Schreiber]]: but should that make a difference?
+
 =--
 
 
