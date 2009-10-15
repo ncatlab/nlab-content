@@ -133,6 +133,8 @@ For example, we could express the multiset $\mathcal{X} = \{1,1,1,2,3,3,3,3,3\}$
 $$\mathcal{X} = 3\{1\} + 1\{2\} + 4\{3\}.$$
 
 _Toby_:  The only difference is notation; see the note at the end of [[inner product of multisets]].
+
+[[Mike Shulman]]: At least, if all your multisets are locally finite.
 =--
 
 
