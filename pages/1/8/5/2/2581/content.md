@@ -1,4 +1,29 @@
-# Symbol String Renderings #
+* tic
+{:toc}
+
+# Rosetta Stone #
+
+## Tablets from the Unicode Data Bank ##
+
+__Ref.__ [Unicode Data Bank](http://www.sql-und-xml.de/unicode-database/) --- [Online Integer:Hex:Character Conversion Tool](http://www.sql-und-xml.de/unicode-database/online-tools/)
+
+1.  [Math Symbols](http://www.sql-und-xml.de/unicode-database/sm.html)
+1.  [Math Operators](http://www.sql-und-xml.de/unicode-database/mathematical-operators.html)
+1.  [Math Miscellaneous A](http://www.sql-und-xml.de/unicode-database/miscellaneous-mathematical-symbols-a.html)
+1.  [Math Miscellaneous B](http://www.sql-und-xml.de/unicode-database/miscellaneous-mathematical-symbols-b.html)
+1.  [Letterlike Symbols](http://www.sql-und-xml.de/unicode-database/letterlike-symbols.html)
+1.  [Miscellaneous Symbols](http://www.sql-und-xml.de/unicode-database/miscellaneous-symbols.html)
+1.  [General Punctuation](http://www.sql-und-xml.de/unicode-database/general-punctuation.html)
+1.  [Open Punctuation](http://www.sql-und-xml.de/unicode-database/ps.html)
+1.  [Other Punctuation](http://www.sql-und-xml.de/unicode-database/po.html)
+1.  [Close Punctuation](http://www.sql-und-xml.de/unicode-database/pe.html)
+1.  [Geometric Shapes](http://www.sql-und-xml.de/unicode-database/geometric-shapes.html)
+1.  [Other Symbols](http://www.sql-und-xml.de/unicode-database/so.html)
+1.  [Dingbats](http://www.sql-und-xml.de/unicode-database/dingbats.html)
+
+# $\partial$Construction Zone #
+
+## Symbol String Renderings ##
 
 <table align="center" cellpadding="4" cellspacing="0" markdown="1" width="100%">
 
@@ -81,43 +106,56 @@ $\array{\text{The Way It Looks In} \\ \text{System 2} \\ \text{Browser 2} \\ \te
 
 </table>
 
-***
+In my e-POV, the last formulas in the above table are not converting to TeX at all.  I did type that stuff really late last night, but still can't see what's wrong.
 
-$\array{
-A \;\text{-\lt}\; B
+Is the HTML context inhibiting something?
+
+Try them in a TeX array ---
+
+$\array{\arrayopts{\colalign{left left}}
+`A \:\text{&amp;#8722;&amp;#60;}\: B`
 &
-A \mathrel{-\lt} B
+A \:\text{&#8722;&#60;}\: B
 \\
-A \;\text{&#8722;&#60;}\; B
+`A \mathrel{&amp;#8722;&amp;#60;} B`
 &
 A \mathrel{&#8722;&#60;} B
 \\
-A \;\text{&#x2212;&#x003C;}\; B
+`A \:\text{&amp;#x2212;&amp;#x003C;}\: B`
+&
+A \:\text{&#x2212;&#x003C;}\: B
+\\
+`A \mathrel{&amp;#x2212;&amp;#x003C;} B`
 &
 A \mathrel{&#x2212;&#x003C;} B
 }$
 
-***
+Quotation not working.  Talk about non-reflective!
 
-# Selected Pages from the Unicode Data Bank #
+Try ---
 
-__Ref.__ [Unicode Data Bank](http://www.sql-und-xml.de/unicode-database/) --- [Online Integer-Hex-Character Conversion Tool](http://www.sql-und-xml.de/unicode-database/online-tools/)
+$\array{\arrayopts{\colalign{left left}}
+\text{A \:\text{&amp;#8722;&amp;#60;}\: B}
+&
+A \:\text{&#8722;&#60;}\: B
+\\
+\text{A \mathrel{&amp;#8722;&amp;#60;} B}
+&
+A \mathrel{&#8722;&#60;} B
+\\
+\text{A \:\text{&amp;#x2212;&amp;#x003C;}\: B)
+&
+A \:\text{&#x2212;&#x003C;}\: B
+\\
+\text{A \mathrel{&amp;#x2212;&amp;#x003C;} B}
+&
+A \mathrel{&#x2212;&#x003C;} B
+}$
 
-1.  [Math Symbols](http://www.sql-und-xml.de/unicode-database/sm.html)
-1.  [Math Operators](http://www.sql-und-xml.de/unicode-database/mathematical-operators.html)
-1.  [Math Miscellaneous A](http://www.sql-und-xml.de/unicode-database/miscellaneous-mathematical-symbols-a.html)
-1.  [Math Miscellaneous B](http://www.sql-und-xml.de/unicode-database/miscellaneous-mathematical-symbols-b.html)
-1.  [Letterlike Symbols](http://www.sql-und-xml.de/unicode-database/letterlike-symbols.html)
-1.  [Miscellaneous Symbols](http://www.sql-und-xml.de/unicode-database/miscellaneous-symbols.html)
-1.  [General Punctuation](http://www.sql-und-xml.de/unicode-database/general-punctuation.html)
-1.  [Open Punctuation](http://www.sql-und-xml.de/unicode-database/ps.html)
-1.  [Other Punctuation](http://www.sql-und-xml.de/unicode-database/po.html)
-1.  [Close Punctuation](http://www.sql-und-xml.de/unicode-database/pe.html)
-1.  [Geometric Shapes](http://www.sql-und-xml.de/unicode-database/geometric-shapes.html)
-1.  [Other Symbols](http://www.sql-und-xml.de/unicode-database/so.html)
-1.  [Dingbats](http://www.sql-und-xml.de/unicode-database/dingbats.html)
+Screw this &hellip;
 
-# Residual Problems with Mathcal #
+
+## Residual Problems with Mathcal ##
 
 * $\mathcal{ABCDEFGHIJKLMNOPQRSTUVWXYZ}$
 : Firefox 3.5+ with STIX fonts shows only {B, E, F, H, I, L, M, R}
