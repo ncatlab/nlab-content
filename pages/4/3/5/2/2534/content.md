@@ -70,6 +70,19 @@ I don't find it wrong that the category of multisets would be equivalent to $Set
 
 _Toby_:  At least $Set^{\mathbf{2}}$ is *different* from $Set$.  And how do you decide whether being 'the same' is a structural property of a *multi*set?  We\'re trying to take an idea that originally applied only to collections of elements from a fixed universe and move it to a more abstract settings; there are (at least) two ways to do that, and Syropoulos has chosen the more interesting one.  (Anyway, if somebody asked me to come up with a structural notion of abstract multiset, the first thing that I would think of ---and did think of, before this discussion started--- is an object of $Set^{\mathbf{2}}$.)  Asking which notion is correct is not really a fair question.
 
+[[Eric]]: The paper [Mathematics of Multisets](http://obelix.ee.duth.gr/~apostolo/Articles/MathMSet.pdf) is worth having a look. I might have pasted a suboptimal piece. He talks about two types of multisets (and more actually): 1.) real multisets and 2. multisets. Here is another quote:
+
+>Real multisets and multisets are associated with a (ordinary) set and an equivalence relation or a function, respectively. Here are the formal definitions:
+
+>**Definition 1**. A real multiset $\mathcal{X}$ is a pair $(X,\rho)$, where $X$ is a set and $\rho$ an equivalence relation on $X$. The set $X$ is called the field of the real multiset. Elements of $X$ in the same equivalence class will be said to be of the same sort; elements in different equivalence classes will be said to be of different sorts.
+
+>Given two real multisets $\mathcal{X} = (X,\rho)$ and $\mathcal{Y} = (Y,\sigma)$, a morphism of real multisets is a function $f:X\to Y$ which respects sorts; that is, if $x,x'\in X$ and $x \rho x'$, then $f(x)\sigma f(x')$.
+
+>**Definition 2**. Let $D$ be a set. A multiset over $D$ is just a pair $\langle D, f\rangle$, where $D$ is a set and $f:D\to\mathbb{N}$ is a function.
+
+>The previous definition is the characteristic function definition method for multisets.
+
+>**Remark 1**. Any ordinary set $A$ is actually a multiset $\langle A,\chi_A\rangle$, where $\chi_A$ is its characteristic function.
 
 ## Examples
 
