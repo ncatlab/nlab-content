@@ -1,4 +1,4 @@
-A **ring** is (equivalently)
+A **unital ring** is (equivalently)
 
 * a [[monoid]] [[internalization|internal to]] [[Ab]].  
 * a [[monoid]] [[enriched category|enriched over]] [[Ab]].
@@ -8,9 +8,10 @@ Here $Ab$ is the category of [[abelian group|abelian groups]], made into a monoi
 
 Don't worry: these definitions equivalent to [the one you're used to](http://en.wikipedia.org/wiki/Ring_mathematics#Definition).
 
+In usual ring theory people often talk about nonunital rings as well: multiplicative [[semigroup]]s with [[abelian group]] structure where the multiplication is distributive toward addition. Once written diagrammatically, these notions can be defined in any [[symmetric monoidal category]].
+If the semigroup is abelian than the ring is said to be **commutative**. 
 
-A **commutative ring** is an [[abelian monoid]] in [[Ab]].
-
+A commutative unital ring is an [[abelian monoid]] in [[Ab]].
 
 [[!redirects rings]]
 [[!redirects unital ring]]
