@@ -9,7 +9,13 @@ The notion of _essential image_ is an adaptation of the notion of [[image]] from
 
 
 (A concrete realization of)
-the __essential image__ of a [[functor]] $F: A\to B$ between [[category|categories]] or $n$-[[n-category|categories]] is the smallest [[replete subcategory]] of the target $n$-category $B$ containing the __image__ of $F$, which is in turn the smallest [[subcategory]] which contains all the $n$-cells which are strictly the images of $n$-cells in $A$.  Note that the property of belonging to the image is [[evil]]; of two [[equivalence|equivalent]] objects, one may belong while the other does not.  Passing to the essential image precisely removes this evil.
+the __essential image__ of a [[functor]] $F: A\to B$ between [[category|categories]] or $n$-[[n-category|categories]] is the smallest [[replete subcategory]] of the target $n$-category $B$ containing the __image__ of $F$, which is in turn the smallest [[subcategory]] which contains all the $n$-cells which are strictly the images of $n$-cells in $A$.
+
++--{: .query}
+[[Mike Shulman]]: I don't think this is well-defined.  If the inclusion of the image is not [[pseudomonic functor|pseudomonic]], then it doesn't necessarily have a repletion.  I don't remember how I've heard "essential image" used in the past, but I think at least sometimes it means the essential *full* image, i.e. the repletion of the [[full image]].  If it doesn't mean that, then I don't know what it can mean for functors whose image is not pseudomonic.
+=--
+
+Note that the property of belonging to the image is [[evil]]; of two [[equivalence|equivalent]] objects, one may belong while the other does not.  Passing to the essential image precisely removes this evil.
 
 +-- {: .query}
 _Zoran_: I disagree that it removes. Usual image in Set splits maps into epi onto image and mono into target.
