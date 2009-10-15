@@ -20,13 +20,13 @@ Concretely, such a thing assigns a vector space to each vertex of the graph $G$,
 
 #Link to representation theory of algebras#
 
-For $Q$ a quiver, write $kQ$ for the path algebra of $Q$
-over a ground field $k$.  Now $kQ$ is an algebra with $k$-basis given by finite composable sequences of arrows in $Q$, including a "lazy path" of
+For $Q$ a quiver, write $k Q$ for the path algebra of $Q$
+over a ground field $k$.  Now $k Q$ is an algebra with $k$-basis given by finite composable sequences of arrows in $Q$, including a "lazy path" of
 length zero at each vertex.  
 
-A module over $kQ$ is the same thing as a representation of $Q$, so the theory of representations of quivers can be viewed within the broader context of representation theory of (associative) algebras.  
+A module over $k Q$ is the same thing as a representation of $Q$, so the theory of representations of quivers can be viewed within the broader context of representation theory of (associative) algebras.  
 
-If $Q$ is acyclic, then $kQ$ is finite-dimensional as a vector space, so in studying representations of $Q$, we are really studying representations of a finite dimensional algebra, for which many interesting tools exist 
+If $Q$ is acyclic, then $k Q$ is finite-dimensional as a vector space, so in studying representations of $Q$, we are really studying representations of a finite dimensional algebra, for which many interesting tools exist 
 (Auslander-Reiten theory, tilting, etc.).
 
 #Remarks#
