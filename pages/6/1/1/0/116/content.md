@@ -50,7 +50,7 @@ A **[[group object]]** [[internalization|internal to]] a [[category]] $C$ with f
 
 Equivalently, it is a functor $C^{op}\to Grp$ whose underlying functor $C^{op} \to Set$ is [[representable functor|representable]].
 
-For example, a group object in [[Diff]] is a [[Lie group]].  A group object in [[Top]] is a [[topological group]].  And a group object in $CAlg^{op}$, where $CAlg$ is the category of commutative algebras, is a (commutative) [[Hopf algebra]].
+For example, a group object in [[Diff]] is a [[Lie group]].  A group object in [[Top]] is a [[topological group]].  A group object in [[S-Sch]] is a S-group scheme.  And a group object in $CAlg^{op}$, where $CAlg$ is the category of commutative algebras, is a (commutative) [[Hopf algebra]].
 
 A group object in [[Grp]] is the same thing as an abelian group (see [[Eckmann-Hilton argument]]), and a group object in [[Cat]] is the same thing as an [[internal category]] in [[Grp]], both being equivalent to the notion of [[crossed module]]. 
 
