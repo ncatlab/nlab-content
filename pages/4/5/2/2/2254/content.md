@@ -10,7 +10,7 @@ $$
 F_i(x,y) = x_i+y_i+\,\,higher\,\,order\,\,terms
 $$
 
-Formal group laws of dimension $1$ proved to be important in [[algebraic topology]], especially in the study of [[cobordism]], starting with the works of Novikov, Buchstaber and Quillen; among the generalized cohomology theories the complex cobordism is characterized by the so-called universal group law; moreover the usage is recently paralleled in the theory of [[algebraic cobordism]] of Morel and Levine in [[algebraic geometry]].  
+Formal group laws of dimension $1$ proved to be important in [[algebraic topology]], especially in the study of [[cobordism]], starting with the works of Novikov, Buchstaber and Quillen; among the generalized cohomology theories the complex cobordism is characterized by the so-called universal group law; moreover the usage is recently paralleled in the theory of [[algebraic cobordism]] of Morel and Levine in [[algebraic geometry]].  Formal groups are also useful in local class field theory; they can be used to explicitly construct the local Artin map according to Lubin and Tate.
 
 Much more general are formal group schemes from
 
