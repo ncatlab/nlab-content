@@ -1,6 +1,11 @@
+* ten of clubs
+{:toc}
+
 #Definition#
 
-A **monoid** is a set $M$ equipped with a binary operation $\mu: M \times M \to M$ and special element $1 \in M$ such that $1$ and $x \cdot y = \mu(x,y)$ satisfy the usual axioms of an associative product with unit, namely the **associative law**:
+##Classical##
+
+Classically, a **monoid** is a set $M$ equipped with a binary operation $\mu: M \times M \to M$ and special element $1 \in M$ such that $1$ and $x \cdot y = \mu(x,y)$ satisfy the usual axioms of an associative product with unit, namely the **associative law**:
 
 $$ (x \cdot y) \cdot z = x \cdot (y \cdot z)$$
 
@@ -8,22 +13,9 @@ and the **left and right unit laws**:
 
 $$ 1 \cdot x = x = x \cdot 1 .$$
 
-Equivalently, and more efficiently, we may say that a monoid is the [[hom-set]] of a [[category]] with a single [[object]], equipped with the structure of its unit element and composition. 
+##In a monoidal category##
 
-More tersely, one may say that a monoid *is* a category with a single object, or more precisely (to get the proper morphisms and $2$-morphisms) a [[pointed object|pointed]] category with a single object. 
-But taking this too literally may create conflicts in notation.  To avoid this, for a given monoid $M$, we write $\mathbf{B}M$ for the corresponding category with single object $\bullet$ and with $M$ as its [[hom-set]]: the [[delooping]] of $M$, so that $M = Hom_{\mathbf{B}M}(\bullet, \bullet)$. This realizes every monoid as a monoid of [[endomorphism|endomorphisms]].
-
-For more on this see also [[group]].
-
-
-#Examples#
-
-* A monoid in which every element has an inverse is a [[group]]. For that reason monoids are often addressed as _semi-group_s. (But this term is often extended to monoids without identities, that is to sets equipped with any associative operation.)
-
-#Generalizations#
-
-We can [[internalization|internalize]] the concept of 
-monoid so that it makes sense in any [[monoidal category]] $(C,\otimes,I)$.  Namely, a **monoid in $C$** is an object $M$ equipped with a multiplication $\mu: M \otimes M \to M$ and a unit $\eta: I \to M$ satisfying the **associative law**:
+More generally, we can define a monoid (sometimes called **monoid object**) in any [[monoidal category]] $(C,\otimes,I)$.  Namely, a **monoid in $C$** is an object $M$ equipped with a multiplication $\mu: M \otimes M \to M$ and a unit $\eta: I \to M$ satisfying the **associative law**:
 
 ![A pic](http://upload.wikimedia.org/wikipedia/commons/b/b1/Monoid_mult.png)
 
@@ -33,11 +25,36 @@ and the **left and right unit laws**:
 
 Here $\alpha$ is the [[associator]] in $C$, while $\lambda$ and $\rho$ are the left and right [[unitor|unitors]].
 
-Equivalently, and more tersely, a monoid is the [[hom-object]] of a $C$-[[enriched category]] with a single object, equipped with its composition and identity-assigning morphisms.
+Classical monoids are of course just monoids in $(\mathbf{Set},\times,1)$.
 
-Here are some examples:
+## In string diagrams##
 
-* A monoid object in [[Set]] (with cartesian product as tensor product) is a [[monoid]] in the usual sense.
+The data of a monoid may be written in [[string diagrams]] as:
+
+[[monoid-data-labeled.png:pic]]
+
+Thanks to the distinctive shapes, one can usually omit the labels:
+
+[[monoid-data-unlabeled.png:pic]]
+
+The axioms $\mu \cdot (\eta \otimes M) = 1_M = \mu \cdot (M \otimes \eta)$ and $\mu \cdot (M \otimes \mu) = \mu \cdot (\mu \otimes M)$ then appear as:
+
+[[monoid-axioms-unlabeled.png:pic]]
+
+## As a one-object category ##
+
+Equivalently, and more efficiently, we may say that a (classical) monoid is the [[hom-set]] of a [[category]] with a single [[object]], equipped with the structure of its unit element and composition. 
+
+More tersely, one may say that a monoid *is* a category with a single object, or more precisely (to get the proper morphisms and $2$-morphisms) a [[pointed object|pointed]] category with a single object. 
+But taking this too literally may create conflicts in notation.  To avoid this, for a given monoid $M$, we write $\mathbf{B}M$ for the corresponding category with single object $\bullet$ and with $M$ as its [[hom-set]]: the [[delooping]] of $M$, so that $M = Hom_{\mathbf{B}M}(\bullet, \bullet)$. This realizes every monoid as a monoid of [[endomorphism|endomorphisms]].
+
+Similarly, a monoid in $(C,\otimes,I)$ may be defined as the [[hom-object]] of a $C$-[[enriched category]] with a single object, equipped with its composition and identity-assigning morphisms; and so on, as in the classical (i.e. $\mathbf{Set}$-enriched) case.
+
+For more on this see also [[group]].
+
+#Examples#
+
+* A monoid in which every element has an inverse is a [[group]]. For that reason monoids are often known (especially outside category theory) as _semi-group_s. (But this term is often extended to monoids without identities, that is to sets equipped with any associative operation.)
 * A monoid object in [[Ab]] (with the usual tensor product of $\mathbb{Z}$-modules as the tensor product) is a [[ring]].
  A monoid object in the category of vector spaces over a field $k$ (with the usual tensor product of vector spaces) is an [[algebra]] over $k$.
 * For a commutative ring $R$, a monoid object in the category of $R$-modules (with its usual tensor product) is an $R$-algebra.
@@ -114,3 +131,4 @@ $$
 In summary, it is important to make people understand that groups can be identified with one-object groupoids. But next it is important to make clear that not everything that can be identified should be, for instance concerning the crucial difference between the category in which $G$ lives and the 2-category in which $\mathbf{B}G$ lives.
 
 [[!redirects monoids]]
+[[!redirects monoid object]]
