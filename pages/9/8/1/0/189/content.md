@@ -1,7 +1,15 @@
 
-A _quiver_ is a free category on a [[directed graph]]. Given a directed graph $G$ with collection of vertices $G_0$ and collection of edges $G_1$, there is the free category $F(G)$ on the graph whose collection of objects coincides with the collection of vertices, and whose collection of morphisms consists of finite [[sequence]]s of edges in $G$ that fit together head-to-tail. The composition operation in this free category is the concatenation of sequences of edges.
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
+# Definition #
 
+The notion _quiver_ is usually taken to be nothing but that of (finite) [[directed graph]]. However, saying _quiver_ instead of _graph_ indicates focus on a certain set of operation intended on that graph. Notably there is the notion of a [[quiver representation]].
+
+Now, one sees that a _representation_ of a graph $G$ in the sense of quiver representation is nothing but a [[functor]] $\rho : Q := F(G) \to Vect$ from the _free category_ $F(G)$ on the [[directed graph]] $Q$:
+
+Given a directed graph $G$ with collection of vertices $G_0$ and collection of edges $G_1$, there is the free category $F(G)$ on the graph whose collection of objects coincides with the collection of vertices, and whose collection of morphisms consists of finite [[sequence]]s of edges in $G$ that fit together head-to-tail. The composition operation in this free category is the concatenation of sequences of edges.
 
 
 Here we taking advantage of the [[adjoint functor|adjunction]] between [[Cat]] (the category of small categories) and [[DiGraph]] (the category of directed graphs).  Namely, any category has an underlying directed graph:
@@ -12,7 +20,9 @@ and the left adjoint of this functor gives the free category on a directed graph
 
 $$F : DiGraph \to Cat $$
 
-A [[representation]] of a quiver $Q = F(G)$ is a functor
+**Terminology** Since this is the central operation on quivers that justifies there distinction from the plain concept of directed graph, we may adopt here the point of view that _quiver_ is synonymous with _free category_ .
+
+So a [[representation]] of a quiver $Q = F(G)$ is a functor
 
 $$R : Q \to Vect $$
 
