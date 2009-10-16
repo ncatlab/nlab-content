@@ -4,7 +4,9 @@
 
 ## Idea
 
-In functional analysis, a distribution (or generalized function) is a functional on a space of functions which typically is not representable by a function itself. They are often used to give a notion of derivative of a function which has no derivative in the classical sense, and to give an abstract framework in which one can describe fundamental solutions to partial differential equations. 
+In functional analysis, a distribution (or generalized function) is a functional on a space of functions which typically is not representable by a function itself. They are often used to give a notion of derivative of a function which has no derivative in the classical sense of Lebesgue integration theory, and to give an abstract framework in which one can describe fundamental solutions to partial differential equations. 
+
+Generalized functions were introduced by Sobolev in 1935, and independently (under the name _distributions_) by Laurent Schwartz in the 1940's, who unaware of Sobolev's work developed an extensive theory for them. 
 
 ## Definitions 
 
@@ -79,7 +81,7 @@ However, since there is an obvious inclusion $C_c^\infty(U) \to \mathcal{D}(U)$ 
 If the extension exists, we have
 
 $$
-F^\dagger(\iota phi)(\psi) = \iota(F(\phi))(\psi) = \langle F(\phi), \psi \rangle
+F^\dagger(\iota \phi)(\psi) = \iota(F(\phi))(\psi) = \langle F(\phi), \psi \rangle
 $$
 
 Now suppose that $F$ has an adjoint, say $F^+$, with respect to the inner product.  Note that this is not automatic since $C_c^\infty(U)$ is not a Hilbert space.  Moreover, even if $F$ extends to the Hilbert completion the Hilbertian adjoint may not work since it may not define a continuous linear map on the subspace $C_c^\infty(U)$.  But if $F^+$ does exist then we have
@@ -157,8 +159,17 @@ $$S = \sum_{\alpha \in A} \partial^\alpha g_\alpha$$
 
 ## Applications 
 
-(Anyone want to give some?) 
+Distributions rigorously address a need long-felt by physicists to mathematically represent objects such as point particles of mass $m$ at position $a$ (where one would use the distribution $m\delta(x-a)$). They thus appear in accounts of quantum theory which attempt to achieve mathematical rigor. An example of this tendency can be seen in axiomatic formulations of quantum field theory such as the [[Wightman axioms]]. 
 
+A brief survey of applications of distribution theory to perturbative quantum field theory may be found [here](http://www1.jinr.ru/Archive/Pepan/v-31-7a/I_ktp_04_t.pdf). 
+
+However, distributions fail to address some uses to which physicists would like to put them (as in [[path integral]]s), since there is no good way to multiply distributions in a way that extends multiplication of functions. The researcher most prominently associated with a program to repair this and other defects is J.F. Colombeau; see this brief Wikipedia [article](http://en.wikipedia.org/wiki/Colombeau_algebra) and for example these [slides](http://fibonacci.dm.unipi.it/cluster-pages/ultramath/slides/vernaeve-slides.pdf).  
+
+Within mathematics, distributions are quite commonplace; for example, de Rham appropriated them for his theory of [[current]]s. Distribution theory has also long been used in the theory of partial differential equations. Here is a sample theorem: 
+
+* **Theorem (Ehrenpreis, Malgrange):** Let $D$ be a linear differential operator on $\mathbb{R}^n$ with constant coefficients. Given a compactly supported smooth function $f$ on $\mathbb{R}^n$, there exists a smooth solution $u$ to the equation $D u = f$. 
+
+A proof is given in these [notes](http://www-math.mit.edu/~helgason/hormander.pdf) by Helgason. The basic idea is to prove there exists a **fundamental solution** of $D$, i.e., a distribution $T$ such that $D T = \delta_0$. Then $u = f * T$ is smooth. The existence of a fundamental solution involves a theorem of Paley-Wiener type. 
 
 ## In synthetic differential geometry 
 
