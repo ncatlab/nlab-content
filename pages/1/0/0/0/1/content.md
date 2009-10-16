@@ -10,7 +10,7 @@ Welcome!
 
 This is a [wiki](http://en.wikipedia.org/wiki/Wiki)-lab for collaborative work on _[[Mathematics]]_, _[[Physics]]_ and _[[Philosophy]]_ &#8212; especially insofar as these subjects touch on [[higher category theory|higher algebraic structures]].  
 
-We think of this wiki as our **lab book** that we happen to keep lying around openly.  We originally designed this place as the library, or alchemist's laboratory, in the back room of the [$n$-Category Caf&eacute;](http://golem.ph.utexas.edu/category/). You go there to discuss things, and here to write them up.
+We think of this wiki as our **lab book** that we happen to keep lying around openly.  
 
 +-- {: .standout}
 
