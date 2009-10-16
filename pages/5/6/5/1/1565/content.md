@@ -26,5 +26,6 @@ Some rigs which are neither rings nor distributive lattices include:
 
 Any rig can be completed to a ring by adding negatives, in the same way that the natural numbers are completed to the integers.  When applied to the set of isomorphism classes of objects in a rig category, the result is part of [[algebraic K-theory]].
 
+Matrices of rigs can be used to formulate versions of [[matrix mechanics]].
 
 [[!redirects semiring]]
