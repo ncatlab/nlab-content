@@ -1,11 +1,33 @@
+<div class="rightHandSide toc">
+[[!include cohomology - contents]]
+
+***
+
+[[!include (infinity,1)-topos - contents]]
+</div>
+
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
 # Idea #
 
-The cup product on [[cohomology]] is an operation on cocycles with coefficients in $A$ induced from a pairing morphism
+Recall from the discussion at [[cohomology]] that every notion of cohomology (e.g. [[group cohomology]], [[abelian sheaf cohomology]], etc) is given by Hom-spaces in an [[(∞,1)-topos]] $\mathbf{H}$. Cohomology on an object $X \in \mathbf{H}$ with coefficients in an object $A \in \mathbf{H}$ is
+
+$$
+  H(X,A) := \pi_0 \mathbf{H}(X,A)
+  \,.
+$$
+
+The _cup product_ is an operation on cocycles with coefficients $A_1$ and $A_2$ that is induced from a pairing morphism
 
 $$
   A_1 \times A_2 \to A_3
 $$
+
+in $\mathbf{H}$. In applications this is often this is a pairing operation with $A_1 = A_2$, i.e. $A \times A \to A'$
 
 If $g_1 : X \to A_1$ and $g_2 : X \to A_2$ are two cocycles in $\mathbf{H}(X,A_1)$ and $\mathbf{H}(X,A_2)$, respectively, then their cup product with respect to this pairing is the cocycle
 
@@ -108,7 +130,8 @@ $$
 
 The cup product has a simple expression in abelian [[?ech cohomology]].
 
-For $\alpha \in C(U,A_1)_\bullet$ and $\beta \in C(U,A_2)_\bullet$ two &#268;ech cocycles with respect to the same cover $\{U_i \to X\}$ of $X$, their cup product is simply the cocycle in $C(U, A_1 \otimes A_2)$ given by
+For $\alpha \in C(U,A_1)_\bullet$ and $\beta \in C(U,A_2)_\bullet$ two &#268;ech cocycles with respect to the same cover $\{U_i \to X\}$ of $X$, their cup product is 
+simply the cocycle in $C(U, A_1 \otimes A_2)$ given by
 
 $$
   (\alpha \cdot \beta)_{i_0, \cdots , i_{p + q}}
@@ -116,3 +139,10 @@ $$
   \alpha_{i_0, \cdots, i_p} \otimes \beta_{i_p, \cdots i_{p+q}}
   \,.
 $$
+
+#References#
+
+Recall from the discussion at [[models for ∞-stack (∞,1)-toposes]] that all [[hypercompletion|hypercomplete]] [[∞-stack]] [[(∞,1)-topos]]es are modeled by the [[model structure on simplicial presheaves]]. Accordingly understanding the cup product on simplicial presheaves goes a long way to wards the most general description. For a bit of discussion of this see around page 19 of
+
+* Jardine _Lectures on simplicial presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
+
