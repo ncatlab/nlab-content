@@ -6,7 +6,7 @@ The main reference is
 
 ##### Friday, September 25 --- John Baez, Introduction to the cobordism hypothesis
 
-[[John Baez]] kicked off the seminar with an introduction to the [[cobordism hypothesis]], how it began its life, and what it means in dimension $n=1$. Already here an issue of "framing" comes into play concerning the third [[Reidemeister move]]. 
+[[John Baez]] kicked off the seminar with an introduction to the [[cobordism hypothesis]], how it began its life, and what it means in dimension $n=1$. Already here an issue of "framing" comes into play concerning the first [[Reidemeister move]]. 
 
 * [Notes](http://math.ucr.edu/~alex/cobordism_lecture1.pdf) by Alex Hoffnung. 
 * [Blog entry](http://golem.ph.utexas.edu/category/2009/10/seminar_on_cobordism_and_topol.html)
