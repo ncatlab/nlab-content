@@ -12,56 +12,41 @@ A (unital, non-commutative) **ring** is (equivalently)
 * a [[enriched category|category enriched over]] [[Ab]] with one object.
 * a [[ringoid]] with one object.
 
-Here $Ab$ is the category of [[abelian group|abelian groups]], made into a monoidal category using the tensor product of abelian groups.  A *commutative* (unital) ring is an [[abelian monoid]] object in [[Ab]].
+Here $Ab$ is the category of [[abelian group|abelian groups]], made into a monoidal category using the tensor product of abelian groups.  A **commutative** (unital) ring is an [[abelian monoid]] object in [[Ab]].
 
-
-+--{: .query}
-[[Mike Shulman]]: I think this is a bit confusing.  I've never heard anyone talk about "a monoid enriched over" something.  A ring is a one-object *category* enriched over Ab, or a monoid in the monoidal category Ab.
-
-Zoran: I agree wit Mike. Toby ?
-
-_Toby_:  What could a monoid enriched over $C$ be other than a $1$-object (or pointed connected) category enriched over $C$?
-=--
-
-
-In usual ring theory people often talk about nonunital rings as well: multiplicative [[semigroup]]s with additive [[abelian group]] structure where the multiplication is distributive toward addition.  As in the unital case, if the semigroup is abelian then the ring is said to be **commutative**.  
+In usual ring theory people often talk about **nonunital** rings as well: multiplicative [[semigroup]]s with additive [[abelian group]] structure where the multiplication is distributive toward addition; these are semigroup objects in $Ab$.  As in the unital case, if the semigroup is abelian then the ring is said to be **commutative nonunital**.  Note the adjective 'nonunital' is an example of the [[red herring principle]].
 
 #Generalizations#
 
-## in arbitrary cartesian categories ##
+It is possible to [[internalization|internalise]] the notion of ring in at least two different ways.  Either one can replace the [[Set|category of sets]] in the classical definition with another category $C$, or one can replace $Ab$ in the fancy definition with another category $M$.
 
-One can define a semigroup object in any [[monoidal category]] simply by leaving off the unit condition of a monoid object; then a semigroup object in $Ab$ is a nonunital ring.  In order to talk about commutative semigroups, of course the monoidal category needs to be symmetric. One can not internalize $Ab$ to an internal abelian group objects in a monoidal category if it is only symmetric. But one can do this in cartesian case (e.g. object such that the correspoding [[representable presheaf]] lifts to a presheaf into abelian groups). 
-Thus one has a notion of a (unital or not) ring object in any cartesian category. 
+## Internalising the sets ##
 
-## rings over a ring ##
+If $C$ is a [[cartesian monoidal category]], then any [[Lawever theory]] may be internalised in $C$.  The theory of rings is an example, so we can speak of _ring objects_ in $C$.  Then a ring object in $Set$ is simply a ring.  (This works whether your rings are unital or nonunital, commutative or noncommutative, etc.)  However, not every notion of internal ring takes this form.
 
-There is another generalization of rings: generalizing $k$-algebras to $A$-rings. Instead of a commutative unital ring $k$ (for algebras) take any (nonunital noncomutative) ring $A$. An $A$-ring $R$ is simply a monoid in the (nonsymmetric) monoidal category of $A$-bimodules. Every $A$-ring is a ring in the usual sense, in the sense that there is an obvious forgetful functor to the usual rings. In fact the unit map $A\to R$ is a morphism of rings, and the category of $A$-rings is precisely the [[coslice category]] $A/Ring$. Unfortunately, by the tradition, apart from being called $A$-rings, the objects (in Ring) *under* $A$ are usually called *rings over* $A$. Unlike for the $k$-algebras, the multiplication $R\times R\to R$ is not $A$-linear in the second factor, but only $\mathbb{Z}$-linear. 
+The theory of rings is a combination of a monoid (or semigroup, if nonunital) and an abelian group structure. Thus, ring objects are algebras over a composed [[operad]] (or [[monad]]) of a monoid operad and an abelian group operad, using a standard [[distributive law]] for that situation in the sense of operads (or monads), which corresponds to the usual distributive law in the classical definition of a ring.
 
+A particular example of this is a ring in a [[topos]].  Picking a ring object $R$ in a [[topos]] $\mathcal{T}$ promotes it into a [[ringed topos]].
+
+## Internalising the abelian groups ##
+
+If $M$ is a [[monoidal category]], then we can speak of [[monoid objects]] in $M$.  However, we usually want $M$ to be somewhat like $Ab$ to think of monoid objects in $M$ as internal rings.  For example, if $M$ is the category of abelian [[group objects]] in a cartesian monoidal category $C$, then we recreate the notion of ring object in $C$ from above.  Or, if $M$ is any [[Ab-enriched category]], then it behaves enough like $Ab$ that we may consider its monoid objects as internal rings.  There are yet other examples, however: a [[ring spectrum]] is a monoid object in [[spectra]], even though these are not $Ab$-enriched.
+
+Other examples are [[simplicial ring]]s (as monoids in [[simplicial abelian group]]s) and [[dg-ring]]s, as well as the $A$-rings below.
+
+## Rings over a ring ##
+
+If $K$ is a commutative ring (or especially a [[field]]), then an [[associative algebra]] over $K$ is a monoid object in $K$-[[Mod]]; this is a special case of the previous section.
+
+If $A$ is a noncommutative ring, then a __ring over $A$__, or simply an __$A$-ring__, is a monoid object $R$ in $A$-[[Bimod]] (that is, in $_K Mod _K$).  Every $A$-ring is a ring in the usual sense, in the sense that there is an obvious [[forgetful functor]] to the usual rings. In fact the unit map $A \to R$ is a morphism of rings, and the category of $A$-rings is precisely the [[coslice category]] $A/Ring$. Thus one might also call $A$-rings rings *under* $A$; see the Caf&#233;\'s [quick algebra quiz](http://golem.ph.utexas.edu/category/2008/12/a_quick_algebra_quiz.html).
 
 A dual notion to an $A$-ring is an $A$-[[coring]]. 
-
-
-See the discussion 'quick algebra quiz' at [cafe](http://golem.ph.utexas.edu/category/2008/12/a_quick_algebra_quiz.html).
-
-##Remark##
-
-So sometimes for a notion of a ring in a monoidal category one does not ask for an additive group structure (internal to a symmetric monoidal category) if it is already present on the objects in that category: examples are simplicial rings (as monoids in simplicial abelian groups) and dg-rings, and $A$-rings. In other context e.g. a ring in a topos, and simplicial rings viewed as rings in simplicial sets, one needs explicitly to combine a semigroup and an internal abelian group structure. The rings will be algebras over a composed operad (or monad) of a semigroup operad and an abelian group operad, using a standard [[distributive law]] for that situation in the sense of operads (or monads).
-
-
-## In an arbitrary topos ##
-
-The ordinary definition of _ring_ makes sense [[internalization|internal to]] an arbitary [[topos]]. This means that one either takes a set theoretical definition and interprets in the sense of the language of the topos, or takes the definition in terms of diagrams for the abelian group, multiplicative semigroup and the distributivity, where the cartesian product is the monoidal structure used. Picking a ring object $R$ in a [[topos]] $\mathcal{T}$ promotes it into a [[ringed topos]].
-
-An ordinary ring is a ring object in the [[topos]] [[Set]].
 
 ## Higher rings ##
 
 By replacing in the sentence "a ring is a [[monoid]] in [[Ab]]" the [[abelian category]] [[Ab]] with a [[higher category theory|higher category]] of _symmetric monoidal_ higher groupoids, one obtains higher notion of rings.
 
 Of particular interest is the maximal case of symmetric monoidal [[∞-groupoid]]s and, even more generally, that of [[spectrum|spectra]]. A [[monoid in an (∞,1)-category]] in the [[stable (∞,1)-category of spectra]] is an [[A-infinity-ring]] or [[associative ring spectrum]]. The commutative case is a [[commutative monoid in an (∞,1)-category]]: an [[E-infinity ring]] or [[commutative ring spectrum]].
-
-
-
 
 
 [[!redirects rings]]
