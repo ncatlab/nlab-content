@@ -12,9 +12,9 @@ $$\left(\frac{\partial^2 (f\circ \phi^{-1})}{\partial x^i\partial x^j}|_{0}\righ
 
 is a nondegenerate (i.e. maximal rank) matrix.  
 
-**Morse lemma** states that for any regular critical point $p$ of $f$ there is a chart $\phi: U\to \mathb{R}^n$ around $p$ such that the function in this coordinates is quadratic:
+**Morse lemma** states that for any regular critical point $p$ of $f$ there is a chart $\phi: U\to \mathbb{R}^n$ around $p$ such that the function in these coordinates is quadratic:
 
 $$(f\circ\phi^{-1})(x^1,\ldots,x^n) = f(p) +\sum_{i=1}^k x_i^2 - \sum_{j=k+1}^n x_j^2$$
 
-and number $k$ is determined by the Hessian matrix. While the Morse lemma is proved by Morse, the modern proof is by the Moser deformation method.  The Morse lemma can be generalized to functions on a Hilbert manifold, in which case there is an operator $A$ such that in suitable local coordinates, $f$ can be written as &lt;$Ax,x$>.
+and number $k$ is determined by the Hessian matrix. While the Morse lemma is proved by Morse, the modern proof is by the Moser's deformation method.  The Morse lemma can be generalized to smooth functions on a Hilbert manifold, in which case there is a linear operator $A$ such that in suitable local coordinates, quadratic functional $f\circ\phi^{-1}$ can be written as &lt;$A x,x$>.
 
