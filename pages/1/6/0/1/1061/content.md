@@ -5,3 +5,6 @@ It is used the first way for instance in section 8 of Kashiwara--Schapira: [[Cat
 #Remarks#
 
 * Pre-additive categories are part of a sequence of [[additive and abelian categories]].
+
+
+[[!redirects preadditive category]]
