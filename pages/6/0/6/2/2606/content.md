@@ -40,7 +40,7 @@ Proof Hint & : & Untyped Term
 
 What follows may be a slightly different way of looking at the _propositions as types analogy_ than people are used to, so if it's necessary to adjust the title after a while, that's okay, but this name will do for the time being.
 
-In formal work with the calculi of categories, combinators, and related systems, there is some advantage to performing applications and compositions on the right.  In more casual work one naturally reverts to applications and compositions on the left, creating a call for ways to maintain cross-cultural dialogue between the two conventions.
+In formal work with the calculi of categories, combinators, and related systems, there are certain advantages to performing applications and compositions on the right.  In more casual work one naturally reverts to applications and compositions on the left, creating a call for ways to maintain cross-cultural dialogue between the two conventions.
 
 Since we are dealing with non-associative calculi (where "non" = n.o.n. = not of necessity), it is necessary to use parentheses for every application and composition or else to establish determinate conventions for leaving the intended associations tacit.
 
@@ -52,6 +52,8 @@ Assuming that application and composition follow the same convention, we have th
 * RARA = right application, right association.
 
 There are several ways to mark the convention that governs a given context of discussion, either by using different operation symbols for the different styles of application and composition or else by naming the convention in force by means of indices equivalent to the above descriptors.
+
+Until further notice in the development that follows, operator applications are performed on the right and all associations are explicitly marked.
 
 # Identity, or the Identifier #
 
@@ -406,3 +408,170 @@ o-------------------------------------------------o
 </pre></td></table>
 
 QED.
+
+## Step 4 ##
+
+Repeat the development in Step&nbsp;1, but this time articulating the type information as we go.
+
+<table align="center" style="font-weight:bold"><td><pre>
+o---------------------------------------------------------------------o
+|                                                                     |
+|           x       y A                                               |
+|           o A     o===>                                             |
+|            \     /  B                                               |
+|             \   /                                                   |
+|              \ /      z B                                           |
+|              (o)B     o===>                                         |
+|                \     /  C                                           |
+|                 \   /                                               |
+|                  \ /                                                |
+|                  (o)C                                               |
+|                                                                     |
+o=====================================================================o
+|                                                                     |
+|                        B  z       K  B=>C                           |
+|                       ===>o       o===========>                     |
+|                        C   \     /   A=>(B=>C)                      |
+|                             \   /                                   |
+|       x       y A     x      \ / A                                  |
+|       o A     o===>   o A    (o)=====>                              |
+|        \     /  B      \     /   B=>C                               |
+|         \   /           \   /                                       |
+|          \ /             \ / B                                      |
+|          (o)B            (o)===>                                    |
+|            \             /   C                                      |
+|             \           /                                           |
+|              \         /                                            |
+|               \       /                                             |
+|                \     /                                              |
+|                 \   /                                               |
+|                  \ /                                                |
+|                  (o)C                                               |
+|                                                                     |
+o=====================================================================o
+|                                                                     |
+|             B  z       K  B=>C                                      |
+|            ===>o       o===========>                                |
+|             C   \     /   A=>(B=>C)                                 |
+|                  \   /                                              |
+|              A    \ /            S  A=>(B=>C)                       |
+|             =====>(o)            o===============>                  |
+|              B=>C   \           /  (A=>B)=>(A=>C)                   |
+|                      \         /                                    |
+|                       \       /                                     |
+|                        \     /                                      |
+|                         \   /                                       |
+|                A  y      \ / A=>B                                   |
+|               ===>o      (o)=====>                                  |
+|                B   \     /   A=>C                                   |
+|                     \   /                                           |
+|               x      \ / A                                          |
+|               o A    (o)===>                                        |
+|                \     /   C                                          |
+|                 \   /                                               |
+|                  \ /                                                |
+|                  (o)C                                               |
+|                                                                     |
+o=====================================================================o
+|                                                                     |
+|                                        A=>(B=>C)                    |
+|                                      ===============>               |
+|          A=>(B=>C)     S           K  (A=>B)=>(A=>C)                |
+|        ===============>o           o==============================> |
+|         (A=>B)=>(A=>C)  \         /   (B=>C)                        |
+|                          \       /   ===============>               |
+|                           \     /     (A=>(B=>C))=>((A=>B)=>(A=>C)) |
+|                            \   /                                    |
+|  z B     K B=>C      z B    \ /  B=>C                               |
+|  o===>C  o=========> o===>  (o)==============================>      |
+|   \C    /  A=>(B=>C)  \C    /   (A=>(B=>C))=>((A=>B)=>(A=>C))       |
+|    \   /               \   /                                        |
+|     \ / A               \ / A=>(B=>C)                               |
+|     (o)======>          (o)=============>                           |
+|       \ B=>C            /  (A=>B)=>(A=>C)                           |
+|        \               /                                            |
+|         \             /                                             |
+|          \           /                                              |
+|           \         /                                               |
+|            \       /                                                |
+|             \     /                                                 |
+|              \   /                                                  |
+|     A  y      \ / A=>B                                              |
+|    ===>o      (o)======>                                            |
+|     B   \     /   A=>C                                              |
+|          \   /                                                      |
+|    x      \ / A                                                     |
+|    o A    (o)===>                                                   |
+|     \     /   C                                                     |
+|      \   /                                                          |
+|       \ /                                                           |
+|       (o)C                                                          |
+|                                                                     |
+o=====================================================================o
+|                                                                     |
+|  A=>(B=>C)    S           K (A=>(B=>C))=>((A=>B)=>(A=>C))           |
+| =============>o           o=======================================> |
+| (A=>B)=>(A=>C) \         /  (B=>C)=>((A=>(B=>C))=>((A=>B)=>(A=>C))) |
+|                 \       /                                           |
+|                  \     /              B=>C                          |
+|                   \   /             =========================>      |
+|    B=>C            \ /            S  (A=>(B=>C))=>((A=>B)=>(A=>C))  |
+| ==================>(o)            o===============================> |
+|    A=>(B=>C)         \           /   (B=>C)=>(A=>(B=>C))            |
+|  ===============>     \         /   =========================>      |
+|   (A=>B)=>(A=>C)       \       /     (B=>C)=>((A=>B)=>(A=>C))       |
+|                         \     /                                     |
+|                          \   /                                      |
+|    B=>C      K            \ / (B=>C)=>(A=>(B=>C))                   |
+|   ==========>o            (o)=========================>             |
+|    A=>(B=>C)  \           /   (B=>C)=>((A=>B)=>(A=>C))              |
+|                \         /                                          |
+|                 \       /                                           |
+|                  \     /                                            |
+|                   \   /                                             |
+|          B  z      \ /  B=>C                                        |
+|         ===>o      (o)===============>                              |
+|          C   \     /   (A=>B)=>(A=>C)                               |
+|               \   /                                                 |
+|      A  y      \ / A=>B                                             |
+|     ===>o      (o)=====>                                            |
+|      B   \     /   A=>C                                             |
+|           \   /                                                     |
+|     x      \ / A                                                    |
+|     o A    (o)===>                                                  |
+|      \     /   C                                                    |
+|       \   /                                                         |
+|        \ /                                                          |
+|        (o)C                                                         |
+|                                                                     |
+o---------------------------------------------------------------------o
+                                                                       
+</pre></td></table>
+
+The foregoing development has taken us from the typed parse tree for the definiens $((xy)z)$ to the typed parse tree for the explicated definiendum $(x(y(z(\mathop{K}((\mathop{S}\mathop{K})\mathop{S}))\;)))$, which gives us both the construction of the composition combinator $\mathop{P}$ in terms of primitive combinators:
+
+$$\array{\mathop{P} & = & (\mathop{K}((\mathop{S}\mathop{K})\mathop{S}))}$$
+
+and also the proof tree for the type proposition of $\mathop{P}$, as follows:
+
+<table align="center" style="font-weight:bold"><td><pre>
+          S   K       
+          o   o       
+           \ /  S     
+           (o)  o     
+          K  \ /      
+          o  (o)      
+           \ /        
+     P  =  (o)        
+                      
+</pre></td></table>
+
+<br>
+
+$$\array{
+\mathop{P}
+& = &
+(\mathop{K}((\mathop{S}\mathop{K})\mathop{S}))
+& : &
+(B \Rightarrow C) \Rightarrow ((A \Rightarrow B) \Rightarrow (A \Rightarrow C))
+}$$
