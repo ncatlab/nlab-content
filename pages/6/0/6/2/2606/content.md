@@ -1,9 +1,11 @@
 [[!redirects PAT]]
 [[!redirects PAT analogy]]
 [[!redirects propositions as types analogy]]
+[[!redirects Propositions As Types Analogy]]
 [[!redirects CHI]]
 [[!redirects Curry--Howard]]
 [[!redirects Curry--Howard isomorphism]]
+[[!redirects Curry--Howard Isomorphism]]
 
 * tic
 {:toc}
@@ -283,6 +285,7 @@ x(y(z(\mathop{K}((\mathop{S}\mathop{K})\mathop{S}))))
 Assign types in the following specification:
 
 <div markdown="1"><font size="+1">
+
 $$\array{
 ((x \overset{ }{\underset{A}{\text{&#8659;}}} \;
   y \overset{A}{\underset{B}{\text{&#8659;}}}
@@ -300,6 +303,7 @@ $$\array{
  ) \overset{A}{\underset{C}{\text{&#8659;}}}
  ) \overset{ }{\underset{C}{\text{&#8659;}}}
 }$$
+
 </font></div>
 
 Here, a notation of the form $x \underset{A}{\text{&#8659;}}$ means that $x$ is of the type $A$, while a notation of the form $x \overset{A}{\underset{B}{\text{&#8659;}}}$ means that $x$ is of the type $A \Rightarrow B$.
@@ -307,11 +311,13 @@ Here, a notation of the form $x \underset{A}{\text{&#8659;}}$ means that $x$ is 
 Note that the explication of $\mathop{P}$ as a term $\mathop{K}((\mathop{S}\mathop{K})\mathop{S})$ of type $(B \Rightarrow C) \Rightarrow ((A \Rightarrow B) \Rightarrow (A \Rightarrow C))$ serves as a clue to the proof of $\mathop{P}$'s type proposition as a theorem of the intuitionistic propositional calculus, that is, using only the following two combinator axioms:
 
 <div markdown="1"><font size="+1">
+
 $$\array{
 \mathop{K} : A \Rightarrow (B \Rightarrow A)
 \\ \\
 \mathop{S} : (A \Rightarrow (B \Rightarrow C)) \Rightarrow ((A \Rightarrow B) \Rightarrow (A \Rightarrow C))
 }$$
+
 </font></div>
 
 ## Step 3 (Optional) ##
@@ -575,3 +581,365 @@ $$\array{
 & : &
 (B \Rightarrow C) \Rightarrow ((A \Rightarrow B) \Rightarrow (A \Rightarrow C))
 }$$
+
+## Step 5 ##
+
+Rewrite the final proof tree in existential graph format:
+
+<table align="center" style="font-weight:bold"><td><pre>
+o-----------------------------------------------------------o
+|                                                           |
+|                                       B  C  A  B  A  C    |
+|                                       o--o  o--o  o--o    |
+|                                       |     |     |       |
+|            B  C  A  B  A  C        A  |     |     |       |
+|            o--o  o--o  o--o        o--o     o-----o       |
+|            |     |     |           |        |             |
+|         A  |     |     |     B  C  |        |             |
+|         o--o     o-----o     o--o  o--------o             |
+|         |        |           |     |                      |
+|         |        |           |     |                      |
+|         o--------o           o-----o                      |
+|         |                    |                            |
+|         | S                  | SK                         |
+|         o-------------------[1]                           |
+|         |                                                 |
+|         | K                                               |
+|         @                                                 |
+|                                                           |
+o-----------------------------------------------------------o
+|                                                           |
+|                        B  C        A  B  A  C             |
+|                        o--o        o--o  o--o             |
+|                        |           |     |                |
+|               B  C  A  |     B  C  |     |                |
+|               o--o  o--o     o--o  o-----o                |
+|               |     |        |     |                      |
+|               |     |        |     |                      |
+|               o-----o        o-----o                      |
+|               |              |                            |
+|               | K            | K((SK)S) = P               |
+|               o-------------[o]                           |
+|               |                                           |
+|           SK  | (SK)S                                     |
+|        [1]----o                                           |
+|         |                                                 |
+|         | S                                               |
+|         @                                                 |
+|                                                           |
+o-----------------------------------------------------------o
+                                                             
+</pre></td></table>
+
+Note on the graphic conventions used in the above style of diagram:
+
+* Square bracketed nodes mark subtrees to be pruned from one tree and grafted into another at the indicated site, amounting in effect to _Facts_ being recycled as _Cases_.
+
+* Square brackets are also used to mark the intended result.
+
+# Self-Documentation in Developmental Data Structures #
+
+__Observation__
+
+* Notice the "self-documenting" property of proof developments in the existential graph format, that is, the property of a developing structure that remembers its own history.
+
+For example, the development of the Identity combinator:
+
+<div markdown="1"><font size="+1">
+
+$$\array{
+x
+&amp; = &amp;
+(x\mathop{K})(x\mathop{K})
+&amp; = &amp;
+x(\mathop{K}(\mathop{K}\mathop{S}))
+}$$
+
+</font></div>
+
+<br>
+
+<table align="center" style="font-weight:bold"><td><pre>
+o-----------------------------------------------------------o
+|                                                           |
+|         A                                                 |
+|         @                                                 |
+|                                                           |
+|        "1"                                                |
+|                                                           |
+o===========================================================o
+|                                                           |
+|                                        B     A            |
+|                                        o-----o            |
+|                                        |                  |
+|               B     A                  |     A            |
+|               o-----o     ............[o]----o            |
+|               |           .            |                  |
+|         A     |           .      A     |                  |
+|         o----[o]...........      o-----o                  |
+|         |                        |                        |
+|         |                        |                        |
+|         @                        @                        |
+|                                                           |
+|        "2"                      "3"                       |
+|                                                           |
+o===========================================================o
+|                                                           |
+|               B     A          B     A                    |
+|               o-----o          o-----o                    |
+|               |                |                          |
+|               |     A    A     |          A     A         |
+|               o-----o    o-----o         [1]----o         |
+|               |          |                |               |
+|         A     |          |                |               |
+|         o-----o         [2]---------------o               |
+|         |                |                                |
+|         |                |                                |
+|        [3]---------------o                                |
+|         |                                                 |
+|         |                                                 |
+|         @                                                 |
+|                                                           |
+o-----------------------------------------------------------o
+                                                             
+</pre></td></table>
+
+Redo the entire development of the Composer in existential graph format:
+
+__Composer : Step 5 (Extended)__
+
+<table align="center" style="font-weight:bold"><td><pre>
+o---------------------------------------------------------------------o
+| Hypotheses:  x : A,  y : A=>B,  z : B=>C                            |
+o---------------------------------------------------------------------o
+|                                                                     |
+| (xy)z                                                               |
+|                                                                     |
+|                        A   B xy            B   C (xy)z              |
+|                       [1]-[2]             [2]-[3]                   |
+|                        |                   |                        |
+|    A x                 | y                 | z                      |
+|   [1]                  @                   @                        |
+|                                                                     |
+o=====================================================================o
+|                                                                     |
+| (xy)(x(zK))                                                         |
+|                                                                     |
+|                B   C (xy)(x(zK))                                    |
+|               [2]--o                                                |
+|                |                                                    |
+|    B  C    A   | x(zK)                                              |
+|    o---o  [1]--o                                                    |
+|    |       |                                                        |
+|    | z     | zK                                                     |
+|    o------[4]                                                       |
+|    |                                                                |
+|    | K                                                              |
+|    @                                                                |
+|                                                                     |
+o=====================================================================o
+|                                                                     |
+| x(y((zK)S))                                                         |
+|                                                                     |
+|        B   C   A   B   A   C x(y((zK)S))                            |
+|        o---o   o---o  [1]--o                                        |
+|        |       |       |                                            |
+|    A   |       | y     | y((zK)S)                                   |
+|    o---o       o-------o                                            |
+|    |           |                                                    |
+|    | zK        | (zK)S                                              |
+|   [4]----------o                                                    |
+|    |                                                                |
+|    | S                                                              |
+|    @                                                                |
+|                                                                     |
+o=====================================================================o
+|                                                                     |
+| x(y((zK)(z(SK))))                                                   |
+|                                                                     |
+|                                  B  C  A  B  A  C x(y((zK)(z(SK)))) |
+|                                  o--o  o--o [1]-o                   |
+|                                  |     |     |                      |
+|       B  C  A  B  A  C        A  |     | y   | y((zK)(z(SK)))       |
+|       o--o  o--o  o--o        o--o     o-----o                      |
+|       |     |     |           |        |                            |
+|    A  |     |     |     B  C  | zK     | (zK)(z(SK))                |
+|    o--o     o-----o     o--o [4]-------o                            |
+|    |        |           |     |                                     |
+|    |        |           | z   | z(SK)                               |
+|    o--------o           o-----o                                     |
+|    |                    |                                           |
+|    | S                  | SK                                        |
+|    o-------------------[5]                                          |
+|    |                                                                |
+|    | K                                                              |
+|    @                                                                |
+|                                                                     |
+o=====================================================================o
+|                                                                     |
+| x(y(z(K((SK)S))))                                                   |
+|                                                                     |
+|             B  C  A  B  A  C           B  C        A  B  A  C       |
+|             o--o  o--o  o--o           o--o        o--o  o--o       |
+|             |     |     |              |           |     |          |
+|          A  |     |     |     B  C  A  |     B  C  |     |          |
+|          o--o     o-----o     o--o  o--o     o--o  o-----o          |
+|          |        |           |     |        |     |                |
+|    B  C  |        |           |     |        |     |                |
+|    o--o  o--------o           o-----o        o-----o                |
+|    |     |                    |              |                      |
+|    |     |                    | K            | K((SK)S) = P         |
+|    o-----o                    o-------------[o]                     |
+|    |                          |                                     |
+|    | SK                       | (SK)S                               |
+|   [5]-------------------------o                                     |
+|    |                                                                |
+|    | S                                                              |
+|    @                                                                |
+|                                                                     |
+o---------------------------------------------------------------------o
+                                                                       
+</pre></td></table>
+
+That's the sketch as best I can reconstruct it from my notes.
+
+# Transposition, or the Transposer #
+
+__Definition__
+
+<div markdown="1"><font size="+1">
+
+$$\array{x(y(z\mathop{T})) &amp; = &amp; y(xz)}$$
+
+</font></div>
+
+This equation provides a contextual definition for the operator $\mathop{T}$, in effect, a formal syntactic specification that tells how the operator is required to act on other symbols.
+
+## Step 1 ##
+
+__Construction__
+
+Find a _pure interpretant_ for $\mathop{T}$, that is, an equivalent term doing the job of $\mathop{T}$ which is constructed purely in terms of the primitive combinators $\mathop{K}$ and $\mathop{S}$.
+
+Doing this yields an operational algorithm for $\mathop{T}$, understood as a sequence of manipulations on formal identifiers, or on symbols taken as objects in their own rights.
+
+<div markdown="1"><font size="+1">
+
+$$\array{x(y(z\mathop{T})) &amp; = &amp; y(xz)}$$
+
+</font></div>
+
+Observe that $y(xz)$ matches $(xy)(xz)$ on the right, and that we can express $y$ as $x(y\mathop{K})$, consequently:
+
+<div markdown="1"><font size="+1">
+
+$$\array{
+y(xz)
+&amp; = &amp;
+(x(y\mathop{K}))(xz)
+\\
+&amp; = &amp;
+x((y\mathop{K})(z\mathop{S}))
+}$$
+
+</font></div>
+
+thus completing the abstraction (or disentanglement) of $x$ from the expression.
+
+Working on the remainder of the expression, the next item of business is to abstract $y$.
+
+Notice that:
+
+<div markdown="1"><font size="+1">
+
+$$\array{
+(y\mathop{K})(z\mathop{S})
+&amp; = &amp;
+(y\mathop{K})(y((z\mathop{S})\mathop{K}))
+\\
+&amp; = &amp;
+y(\mathop{K}(((z\mathop{S})\mathop{K})\mathop{S}))
+}$$
+
+</font></div>
+
+thus completing the abstraction of $y$.
+
+Next, work on $\mathop{K}(((z\mathop{S})\mathop{K})\mathop{S})$ to extract $z$, starting from the center $(z\mathop{S})\mathop{K}$ of the labyrinth and working outward:
+
+<div markdown="1"><font size="+1">
+
+$$\array{
+(z\mathop{S})\mathop{K}
+&amp; = &amp;
+(z\mathop{S})(z(\mathop{K}\mathop{K}))
+\\
+&amp; = &amp;
+z(\mathop{S}((\mathop{K}\mathop{K})\mathop{S}))
+}$$
+
+</font></div>
+
+For the sake of brevity in the rest of this development, rename the operator on the right so that $(\mathop{S}((\mathop{K}\mathop{K})\mathop{S})) = \mathop{F}$.
+
+Continue with $\mathop{K}((z\mathop{F})\mathop{S})$, to extract $z$, as follows:
+
+<div markdown="1"><font size="+1">
+
+$$\array{
+(z\mathop{F})\mathop{S}
+&amp; = &amp;
+(z\mathop{F})(z(\mathop{S}\mathop{K}))
+\\
+&amp; = &amp;
+z(\mathop{F}((\mathop{S}\mathop{K})\mathop{S}))
+}$$
+
+</font></div>
+
+Rename the operator on the right, letting $(\mathop{F}((\mathop{S}\mathop{K})\mathop{S})) = \mathop{G}$.
+
+Continue with $\mathop{K}(z\mathop{G})$, to extract $z$, as follows:
+
+<div markdown="1"><font size="+1">
+
+$$\array{
+\mathop{K}(z\mathop{G})
+&amp; = &amp;
+(z(\mathop{K}\mathop{K}))(z\mathop{G})
+\\
+&amp; = &amp;
+z((\mathop{K}\mathop{K})(\mathop{G}\mathop{S}))
+}$$
+
+</font></div>
+
+Filling in the abbreviations:
+
+<div markdown="1"><font size="+1">
+
+$$\array{
+y(xz)
+&amp; = &amp;
+x(y(z((\mathop{K}\mathop{K})(\mathop{G}\mathop{S}))\;))
+\\
+&amp; = &amp;
+x(y(z((\mathop{K}\mathop{K})((\mathop{F}((\mathop{S}\mathop{K})\mathop{S}))\mathop{S}))\;))
+\\
+&amp; = &amp;
+x(y(z((\mathop{K}\mathop{K})(((\mathop{S}((\mathop{K}\mathop{K})\mathop{S}))((\mathop{S}\mathop{K})\mathop{S}))\mathop{S}))\;))
+}$$
+
+</font></div>
+
+Thus we have:
+
+<div markdown="1"><font size="+1">
+
+$$\array{
+\mathop{T}
+&amp; = &amp;
+(\mathop{K}\mathop{K})(((\mathop{S}((\mathop{K}\mathop{K})\mathop{S}))((\mathop{S}\mathop{K})\mathop{S}))\mathop{S})
+}$$
+
+</font></div>
