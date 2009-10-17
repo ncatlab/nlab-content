@@ -2,7 +2,7 @@ Classical _[[affine algebraic variety|affine algebraic varieties]]_ appear as se
 
 The __Hilbert basis theorem__ asserts that this ideal $I$ is finitely generated; and consequently $R$ is a [[noetherian ring]]. For a proof see standard textbooks on commutative algebra or algebraic geometry (e.g. Atiyah, MacDonald); there is also a proof on [wikipedia](http://en.wikipedia.org/wiki/Hilbert's_basis_theorem).
 
-More generally, a finitely generated algebra over a commutative noetherian ring $R$ is noetherian.  For the case of $R$ a field, this is the case in the previous paragraphs.
+More generally, a finitely generated commutative algebra over a commutative [[noetherian ring]] $R$ is noetherian.  For the case of $R$ a field, this is the case in the previous paragraphs.
 
 [[!redirects Hilbert basis theorem]]
 [[!redirects Hilbert's basis theorem]]
