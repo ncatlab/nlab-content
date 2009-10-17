@@ -1,3 +1,4 @@
+[[!redirects UC Riverside Seminar on Cobordism and Topological Field Theories]]
 In the last quarter of 2009, there has been a seminar at UC Riverside on Cobordism and Topological Field Theories run by [[Julie Bergner]]. The seminar webpage is [here](http://www.math.ucr.edu/~jbergner/cobordism.htm). The goal was to work through recent notes of Lurie giving an outline of his proof of the Cobordism Hypothesis, relating cobordism classes of manifolds and topological field theories.  This work brings together several areas of recent mathematical interest: topological field theories, cobordisms of manifolds, and homotopical approaches to higher categories.  The basic definitions and examples of all of the above will be covered and then we'll work towards understanding Lurie's proof. 
 
 The main reference is
