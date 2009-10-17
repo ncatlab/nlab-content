@@ -60,6 +60,94 @@ $$\array{
 
 Here, a notation of the form $x \underset{A}{\Downarrow}$ means that $x$ is of the type $A$, while a notation of the form $x \overset{A}{\underset{B}{\Downarrow}}$ means that $x$ is of the type $A \Rightarrow B$.
 
+$$
+{
+((x       \underset{A}{\Downarrow} y
+   \underoverset{B}{A}{\Downarrow} )
+          \underset{B}{\Downarrow} z
+   \underoverset{C}{B}{\Downarrow} )
+          \underset{C}{\Downarrow} =
+(x        \underset{A}{\Downarrow}
+(y \underoverset{B}{A}{\Downarrow}
+(z \underoverset{C}{B}{\Downarrow}
+ P \underoverset{(A \Rightarrow B)
+     \Rightarrow (A \Rightarrow C)
+                }{B \Rightarrow C}{\Downarrow} )
+   \underoverset{ A \Rightarrow C}{
+                  A \Rightarrow B}{\Downarrow} )
+   \underoverset{C}{A}{\Downarrow} )
+          \underset{C}{\Downarrow}
+}
+$$
+or
+$$
+\begin{gathered}
+{
+((x       \underset{A}{\Downarrow} y
+   \underoverset{B}{A}{\Downarrow} )
+          \underset{B}{\Downarrow} z
+   \underoverset{C}{B}{\Downarrow} )
+          \underset{C}{\Downarrow} } \\
+  = \\
+{
+(x        \underset{A}{\Downarrow}
+(y \underoverset{B}{A}{\Downarrow}
+(z \underoverset{C}{B}{\Downarrow}
+ P \underoverset{(A \Rightarrow B)
+     \Rightarrow (A \Rightarrow C)
+                }{B \Rightarrow C}{\Downarrow} )
+   \underoverset{ A \Rightarrow C}{
+                  A \Rightarrow B}{\Downarrow} )
+   \underoverset{C}{A}{\Downarrow} )
+          \underset{C}{\Downarrow}
+}
+\end{gathered}
+$$
+or
+$$
+{
+\bigl((x       \underset{A}{\Downarrow} y
+        \underoverset{B}{A}{\Downarrow} )
+               \underset{B}{\Downarrow} z
+        \underoverset{C}{B}{\Downarrow} \bigr)
+               \underset{C}{\Downarrow} =
+\Bigl(x        \underset{A}{\Downarrow}
+\bigl(y \underoverset{B}{A}{\Downarrow}
+     (z \underoverset{C}{B}{\Downarrow}
+      P \underoverset{(A \Rightarrow B)
+          \Rightarrow (A \Rightarrow C)
+                     }{B \Rightarrow C}{\Downarrow} )
+        \underoverset{ A \Rightarrow C}{
+                  A \Rightarrow B}{\Downarrow} \bigr)
+        \underoverset{C}{A}{\Downarrow} \Bigr)
+               \underset{C}{\Downarrow}
+}
+$$
+or
+$$
+\begin{gathered}
+{
+\bigl((x       \underset{A}{\Downarrow} y
+        \underoverset{B}{A}{\Downarrow} )
+               \underset{B}{\Downarrow} z
+        \underoverset{C}{B}{\Downarrow} \bigr)
+               \underset{C}{\Downarrow} }\\
+  =  \\
+{
+\Bigl(x        \underset{A}{\Downarrow}
+\bigl(y \underoverset{B}{A}{\Downarrow}
+     (z \underoverset{C}{B}{\Downarrow}
+      P \underoverset{(A \Rightarrow B)
+          \Rightarrow (A \Rightarrow C)
+                     }{B \Rightarrow C}{\Downarrow} )
+        \underoverset{ A \Rightarrow C}{
+                  A \Rightarrow B}{\Downarrow} \bigr)
+        \underoverset{C}{A}{\Downarrow} \Bigr)
+               \underset{C}{\Downarrow}
+}
+\end{gathered}
+$$
+
 ***
 
 <table align="center" cellpadding="4" cellspacing="0" markdown="1" width="100%">
