@@ -69,7 +69,9 @@
 
   * [[schreiber:differential twisted cohomology|differential twisted cohomology]]
 
+### operations ###
 
+* [[cup product]]
 
 
 
