@@ -24,3 +24,7 @@ and section 2.3 of
 In section 3.1.2 of latter are also given
 references (to Neeman and Lurie) for an important result of Neeman's about Karoubi closure and compact generators.
 
+The Karoubi envelope for the additive case is covered at 
+
+* Dror Bar-Natan, Scott Morrison, _The Karoubi envelope and Lee's degeneration of Khovanov homology_ ([arXiv](http://arxiv.org/abs/math/0606542))
+
