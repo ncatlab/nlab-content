@@ -1,6 +1,6 @@
 # Idea #
 
-The _Karoubi envelope_ of a [[category]] is the universal way to ensure that every [[idempotent]] is a [[split idempotent]].
+The _Karoubi envelope_ of a [[category]] is the universal way to ensure that every [[idempotent]] is a [[split idempotent]].  It is the [[Set]]-enriched version of [[Cauchy completion]].
 
 ...
 
