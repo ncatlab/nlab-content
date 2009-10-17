@@ -2,6 +2,9 @@
 [[!include cohomology - contents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
 # Idea #
 
@@ -31,11 +34,15 @@ $$
 (where $P \times_G A \to X$ is the associated bundle of spectra)
  is the _twisted $A$-cohomology of $X$_ with the twist specified by the class of $P$.
 
-## Remark
++-- {: .un_remark}
+###### Remark
 
-_Since the associated bundle $P \times_G A$ is in general no longer itself a spectrum, twisted cohomology is not an example of [[generalized (Eilenberg-Steenrod) cohomology|generalized Eilenberg?Steenrod cohomology]]. 
+Since the associated bundle $P \times_G A$ is in general no longer itself a spectrum, twisted cohomology is not an example of [[generalized (Eilenberg-Steenrod) cohomology|generalized Eilenberg?Steenrod cohomology]]. 
 
- To stay within the spectrum point of view, May&#8211;Sigurdsson suggested that twisted cohomology should instead be formalized in terms of _parameterized homotopy theory_, where one thinks of $P \times_G A$ as a parameterized family of spectra. This is discussed below.
+To stay within the spectrum point of view, May&#8211;Sigurdsson suggested that twisted cohomology should instead be formalized in terms of _parameterized homotopy theory_, where one thinks of $P \times_G A$ as a parameterized family of spectra. This is discussed below.
+
+=--
+
 
 In our context for $H(X;A)$, a coefficient object for [[cohomology|cohomology]] is a (possibly generalized) space $A$: the $A$-cohomology $H(X;A)$ of a [[topological space|topological space]] $X$ with coefficients in $A$ is the set of homotopy classes of maps $X \to A$:
 
@@ -53,12 +60,15 @@ $$
   \,.
 $$
 
-## Remark
++-- {: .un_remark}
+###### Remark
 
- _To distinguish the general notion of [[cohomology|cohomology]] in an arbitrary [[(infinity,1)-topos|(∞,1)-topos]] from the specific one in [[Top]] one sometimes says [[nonabelian cohomology]] for the former. But notice that apart from allowing "nonabelian spaces" like $P \times_G A$ as coefficients, it also allows objects more general than topological spaces, namely generally [[∞-stack|infinity-stacks]].
+To distinguish the general notion of [[cohomology|cohomology]] in an arbitrary [[(infinity,1)-topos|(∞,1)-topos]] from the specific one woth coefficients in [[spectra|spectrum]] one sometimes says [[nonabelian cohomology]] for the former. But notice that apart from allowing "nonabelian spaces" like $P \times_G A$ as coefficients, it also allows objects more general than (infinite-loop) topological spaces, namely generally [[∞-stack]]s.
 
-The upshot of this is that the general [[(infinity,1)-topos|(∞,1)-topos]]-context suggests that the notion of twisted cohomology should be one that makes use only of natural [[(infinity,1)-category|(∞,1)-categorical]] constructions. Or, more simply, in any
-context in which the usual operations of homotopy theory make sense.
+=--
+
+The upshot of this is that the general [[(∞,1)-topos]]-context suggests that the notion of twisted cohomology should be one that makes use only of natural [[(infinity,1)-category|(∞,1)-categorical]] constructions. Or, more simply, in any
+context in which the usual operations of [[homotopy theory]] make sense.
 
 To see what these might be, one may notice that the [[action]] of a group $G$ on an object $A$ is entirely encoded in the corresponding [[action groupoid]] [[fibration sequence]]
 
