@@ -280,23 +280,129 @@ x(y(z(\mathop{K}((\mathop{S}\mathop{K})\mathop{S}))))
 
 Assign types in the following specification:
 
+<div markdown="1"><font size="+1">
 $$\array{
-\arrayopts{\colalign{left}}
-((x \overset{ }{\underset{A}{\Downarrow}} \;
-  y \overset{A}{\underset{B}{\Downarrow}}
-  ) \overset{ }{\underset{B}{\Downarrow}} \;
-  z \overset{B}{\underset{C}{\Downarrow}}
-  ) \overset{ }{\underset{C}{\Downarrow}}
+((x \overset{ }{\underset{A}{\text{&#8659;}}} \;
+  y \overset{A}{\underset{B}{\text{&#8659;}}}
+  ) \overset{ }{\underset{B}{\text{&#8659;}}} \;
+  z \overset{B}{\underset{C}{\text{&#8659;}}}
+  ) \overset{ }{\underset{C}{\text{&#8659;}}}
 \\ \\
 =
 \\ \\
-(x \overset{ }{\underset{A}{\Downarrow}} \;
-(y \overset{A}{\underset{B}{\Downarrow}} \;
-(z \overset{B}{\underset{C}{\Downarrow}} \;
- P \overset{B \Rightarrow C}{\underset{(A \Rightarrow B) \Rightarrow (A \Rightarrow C)}{\Downarrow}}
- ) \overset{A \Rightarrow B}{\underset{A \Rightarrow C}{\Downarrow}}
- ) \overset{A}{\underset{C}{\Downarrow}}
- ) \overset{ }{\underset{C}{\Downarrow}}
+(x \overset{ }{\underset{A}{\text{&#8659;}}} \;
+(y \overset{A}{\underset{B}{\text{&#8659;}}} \;
+(z \overset{B}{\underset{C}{\text{&#8659;}}} \;
+ P \overset{B \Rightarrow C}{\underset{(A \Rightarrow B) \Rightarrow (A \Rightarrow C)}{\text{&#8659;}}}
+ ) \overset{A \Rightarrow B}{\underset{A \Rightarrow C}{\text{&#8659;}}}
+ ) \overset{A}{\underset{C}{\text{&#8659;}}}
+ ) \overset{ }{\underset{C}{\text{&#8659;}}}
 }$$
+</font></div>
 
-Here, a notation of the form $x \underset{A}{\Downarrow}$ means that $x$ is of the type $A$, while a notation of the form $x \overset{A}{\underset{B}{\Downarrow}}$ means that $x$ is of the type $A \Rightarrow B$.
+Here, a notation of the form $x \underset{A}{\text{&#8659;}}$ means that $x$ is of the type $A$, while a notation of the form $x \overset{A}{\underset{B}{\text{&#8659;}}}$ means that $x$ is of the type $A \Rightarrow B$.
+
+Note that the explication of $\mathop{P}$ as a term $\mathop{K}((\mathop{S}\mathop{K})\mathop{S})$ of type $(B \Rightarrow C) \Rightarrow ((A \Rightarrow B) \Rightarrow (A \Rightarrow C))$ serves as a clue to the proof of $\mathop{P}$'s type proposition as a theorem of the intuitionistic propositional calculus, that is, using only the following two combinator axioms:
+
+<div markdown="1"><font size="+1">
+$$\array{
+\mathop{K} : A \Rightarrow (B \Rightarrow A)
+\\ \\
+\mathop{S} : (A \Rightarrow (B \Rightarrow C)) \Rightarrow ((A \Rightarrow B) \Rightarrow (A \Rightarrow C))
+}$$
+</font></div>
+
+## Step 3 (Optional) ##
+
+Check that the propositional type of the composer $\mathop{P}$ is a theorem of classical propositional calculus, which is logically necessary to its being a theorem of intuitionistic propositional calculus, but easier to check.
+
+<table align="center" style="font-weight:bold"><td><pre>
+o-------------------------------------------------o
+|                                                 |
+|                                                 |
+|                   A   B     A   C               |
+|                   o---o     o---o               |
+|                   |         |                   |
+|         B   C     |         |                   |
+|         o---o     o---------o                   |
+|         |         |                             |
+|         |         |                             |
+|         o---------o                             |
+|         |                                       |
+|         |                                       |
+|         @                                       |
+|                                                 |
+o=================================================o
+|                                                 |
+|     B   C   A   B                               |
+|     o---o   o---o                               |
+|      \     /                                    |
+|       \   /                                     |
+|        \ /                                      |
+|       A o---o C                                 |
+|         |                                       |
+|         |                                       |
+|         @                                       |
+|                                                 |
+o=================================================o
+|                                                 |
+|     B   C       B                               |
+|     o---o   o---o                               |
+|      \     /                                    |
+|       \   /                                     |
+|        \ /                                      |
+|       A o---o C                                 |
+|         |                                       |
+|         |                                       |
+|         @                                       |
+|                                                 |
+o=================================================o
+|                                                 |
+|       B o---o C                                 |
+|         |                                       |
+|         |                                       |
+|      AB o---o C                                 |
+|         |                                       |
+|         |                                       |
+|         @                                       |
+|                                                 |
+o=================================================o
+|                                                 |
+|         o---o C                                 |
+|         |                                       |
+|         |                                       |
+|      AB o---o C                                 |
+|         |                                       |
+|         |                                       |
+|         @                                       |
+|                                                 |
+o=================================================o
+|                                                 |
+|     ABC o---o C                                 |
+|         |                                       |
+|         |                                       |
+|         @                                       |
+|                                                 |
+o=================================================o
+|                                                 |
+|     ABC o---o                                   |
+|         |                                       |
+|         |                                       |
+|         @                                       |
+|                                                 |
+o=================================================o
+|                                                 |
+|         o---o                                   |
+|         |                                       |
+|         |                                       |
+|         @                                       |
+|                                                 |
+o=================================================o
+|                                                 |
+|         @                                       |
+|                                                 |
+o-------------------------------------------------o
+                                                   
+</pre></td></table>
+
+QED.
