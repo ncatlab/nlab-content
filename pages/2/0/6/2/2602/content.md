@@ -16,5 +16,5 @@ is a nondegenerate (i.e. maximal rank) matrix.
 
 $$(f\circ\phi^{-1})(x^1,\ldots,x^n) = f(p) +\sum_{i=1}^k x_i^2 - \sum_{j=k+1}^n x_j^2$$
 
-and number $k$ is determined by the Hessian matrix. While the Morse lemma is proved by Morse, the modern proof is by the Moser deformation method. 
+and number $k$ is determined by the Hessian matrix. While the Morse lemma is proved by Morse, the modern proof is by the Moser deformation method.  The Morse lemma can be generalized to functions on a Hilbert manifold, in which case there is an operator $A$ such that in suitable local coordinates, $f$ can be written as &lt;$Ax,x$>.
 
