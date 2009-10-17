@@ -32,7 +32,6 @@
 
       * [[n-fold complete Segal space]]
 
-
 * [[geometric definition of higher category]]
 
   * [[Kan complex]]
@@ -58,6 +57,20 @@
   * [[Batanin ∞-category]]
 
   * [[Trimble n-category|Trimble ∞-category]]
+
+* [[stable homotopy theory]]
+
+  * [[symmetric monoidal category]]
+
+  * [[symmetric monoidal (∞,1)-category]]
+
+  * [[stable (∞,1)-category]]
+  
+    * [[dg-category]]
+
+    * [[A-∞ category]]
+
+    * [[triangulated category]]
 
 * 1-categorical models for higher category theory
 
