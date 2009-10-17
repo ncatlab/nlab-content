@@ -230,8 +230,5 @@ and by our earlier discussion of lax adjunctions, this means we have local 1-adj
 
 $$(B(a, b \otimes c) \to (B \times B)(\langle a, a \rangle, \langle b, c \rangle)) \dashv (B \times B)(\langle a, a \rangle, \langle b, c \rangle)) \to B(a, b \otimes c))$$
 
-
-
-
-However, it is not too difficult to argue that cartesian structure $B$ makes $B$ a symmetric monoidal bicategory  
+[Been sitting on this for weeks doing nothing; will return to it soon.]  
 
