@@ -22,11 +22,15 @@ It is possible to [[internalization|internalise]] the notion of ring in at least
 
 ## Internalising the sets ##
 
-If $C$ is a [[cartesian monoidal category]], then any [[Lawever theory]] may be internalised in $C$.  The theory of rings is an example, so we can speak of _ring objects_ in $C$.  Then a ring object in $Set$ is simply a ring.  (This works whether your rings are unital or nonunital, commutative or noncommutative, etc.)  However, not every notion of internal ring takes this form.
+If $C$ is a [[cartesian monoidal category]], then any [[Lawvere theory]] may be internalised in $C$.  The theory of rings is an example, so we can speak of _ring objects_ in $C$.  Then a ring object in $Set$ is simply a ring.  (This works whether your rings are unital or nonunital, commutative or noncommutative, etc.)  However, not every notion of internal ring takes this form.
 
 The theory of rings is a combination of a monoid (or semigroup, if nonunital) and an abelian group structure. Thus, ring objects are algebras over a composed [[operad]] (or [[monad]]) of a monoid operad and an abelian group operad, using a standard [[distributive law]] for that situation in the sense of operads (or monads), which corresponds to the usual distributive law in the classical definition of a ring.
 
-A particular example of this is a ring in a [[topos]].  Picking a ring object $R$ in a [[topos]] $\mathcal{T}$ promotes it into a [[ringed topos]].
+A particular example of this is a ring in a [[topos]]. In a topos one usually alternatively defines a ring object by the standard set-theoretic definition of a ring, and interpret the formulas in the sense of topos-theoretic semantics. 
+
+Picking a ring object $R$ in a [[topos]] $\mathcal{T}$ promotes it into a [[ringed topos]].
+
+In cartesian categories one can also define the structure of an (abelian) group object as the lifting of the correspoding [[representable presheaf]] to a presheaf into (abelian) groups. This kind of lifting of some algebraic structure in sets to algebraic structure in a cartesian category makes sense when some category of algebras creates the limits needed to define them in sets. 
 
 ## Internalising the abelian groups ##
 
@@ -38,7 +42,11 @@ Other examples are [[simplicial ring]]s (as monoids in [[simplicial abelian grou
 
 If $K$ is a commutative ring (or especially a [[field]]), then an [[associative algebra]] over $K$ is a monoid object in $K$-[[Mod]]; this is a special case of the previous section.
 
-If $A$ is a noncommutative ring, then a __ring over $A$__, or simply an __$A$-ring__, is a monoid object $R$ in $A$-[[Bimod]] (that is, in $_K Mod _K$).  Every $A$-ring is a ring in the usual sense, in the sense that there is an obvious [[forgetful functor]] to the usual rings. In fact the unit map $A \to R$ is a morphism of rings, and the category of $A$-rings is precisely the [[coslice category]] $A/Ring$. Thus one might also call $A$-rings rings *under* $A$; see the Caf&#233;\'s [quick algebra quiz](http://golem.ph.utexas.edu/category/2008/12/a_quick_algebra_quiz.html).
+If $A$ is a noncommutative ring, then a __ring over $A$__, or simply an __$A$-ring__, is a monoid object $R$ in $A$-[[Bimod]] (that is, in $_K Mod _K$).  Every $A$-ring is a ring in the usual sense, in the sense that there is an obvious [[forgetful functor]] to the usual rings. In fact the unit map $A \to R$ is a morphism of rings, and the category of $A$-rings is precisely the [[coslice category]] or under-category $A/Ring$. Thus by general rules, one might be lead to unconventionally call $A$-rings "rings *under* $A$". Unfortunately, standard name for $A$-rings is "rings *over* $A$", like conventionally calling $k$-algebras the "algebras *over* $k$". 
+
+Unlike for the $k$-algebras, the multiplication $R\times R\to R$ which is the morphism of $A$-bimodules, is not (left) $A$-linear in the *second* factor, but only $\mathbb{Z}$-linear. In other words, the axiom for $k$-algebras $k(rs) = (kr)s = r(ks)$ is not true, for $k\in A$, $r,s\in R$.  
+
+Both for a discussion for under-over and also for this difference between $k$-algebras and $A$-rings see the Caf&#233;\'s [quick algebra quiz](http://golem.ph.utexas.edu/category/2008/12/a_quick_algebra_quiz.html).
 
 A dual notion to an $A$-ring is an $A$-[[coring]]. 
 
