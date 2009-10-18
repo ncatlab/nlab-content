@@ -4,7 +4,7 @@ We do not expect that a [[predicate]] (statements with free variables) is either
 
 Famously, [[intuitionistic logic]] is not two-valued, although it may be two-valued in a weaker sense.  Let a logic be __intuitionistically two-valued__ if every proposition is false if and only if it is not true.  On the other hand, we can call a logic __paraconsistently two-valued__ if every proposition is true if and only if it is not false.  (Take this paragraph with a grain of salt.)
 
-Applying [[topos theory]] to logic, we call a [[topos]] __two-valued__ if every [[global element]] of its [[subobject classifier]] is false if and only if it is not true.  Note that we have phrased the definition in the intuitionistic fashion; that way, the theorem that a [[well-pointed topos]] is two-valued survives even in [[constructive mathematics]].
+Applying [[topos theory]] to logic, we call a [[topos]] __two-valued__ if every [[global element]] of its [[subobject classifier]] is false if and only if it is not true.  Note that we have phrased the definition in the intuitionistic fashion; that way, the theorem that a [[well-pointed topos]] is two-valued survives even in [[constructive mathematics]].  The reader should beware, however, that a topos's being two-valued is unrelated to its being [[Boolean topos|Boolean]], and for purposes of doing mathematics in the topos it is the latter property which determines whether the relevant logic satisfies [[excluded middle]].
 
 
 [[!redirects two-valued context]]
