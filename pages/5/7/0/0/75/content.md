@@ -82,6 +82,8 @@ _Roger Witte_ says
 Thanks, Toby.  I agree with your last sentence but my point is that this approach is equally clean and easy in both systems.  The clean thing about ETCC is the uniformity of meta theory and model theory as category theory.  The clean thing about ETCS is that we have just been studying sets for 150 years, so we have a good intuition for them.
 
 I was responding to your point 'ETCC is less clean because you have to define some things (eg topological spaces) as sets with a structure'.  But you can define and study the structure without referring to the sets and then 'bolt on' the sets (almost like an afterthought).
+
+[[Mike Shulman]]: In particular cases, yes.  I thought the point Toby was trying to make is that only some kinds of structure lend themselves to this naturally.  Groups obviously do.  Perhaps topological spaces were a poorly chosen example of something that doesn't, since as you point out they can naturally be defined via frames.  But consider, for instance, a [[metric space]].  Or a [[graph]].  Or a [[uniform space]].  Or a [[semigroup]].  All of these structures can be easily defined in terms of sets, but I don't see a natural way to define them in terms of categories without going through discrete categories = sets.
 =--
 
 ... but his other proposal, a first-order axiomatisation of [[Set|the category of sets]], works well. These and related approaches to foundations may be called _structural_ or _categorial_ (or _categorical_, which is more common but clashes with another sense of 'categorical' in logic).
