@@ -4,7 +4,7 @@ The basic idea is that the Cauchy completion of a category is the closure of a c
 
 $$C \hookrightarrow \bar{C} \hookrightarrow Set^{C^{op}}$$ 
 
-(see the entry at [[presheaf]] for "free cocompletion"), and consists of those presheaves $F$ dubbed "tiny" by Lawvere, meaning those presheaves which are connected and projective: the functor 
+(see the entry at [[presheaf]] for "free cocompletion"), and consists of those presheaves $F$ dubbed [[tiny object|tiny]] by Lawvere, meaning those presheaves which are connected and projective: the functor 
 
 $$hom_{Set^{C^{op}}}(F, -): Set^{C^{op}} \to Set$$ 
 
@@ -30,6 +30,9 @@ _David_: So is Cauchy completion, $C \hookrightarrow \bar{C} \hookrightarrow Set
 [[Mike Shulman]]: I think that's not unreasonable, but a more precise analogy would be to
 $$\mathbb{Q} \hookrightarrow \mathbb{R} \hookrightarrow [0,\infty]^{\mathbb{Q}^{op}}$$
 where $[0,\infty]^{\mathbb{Q}^{op}}$ is of course the $[0,\infty]$-enriched functor category.  In this case, it's the metric space whose points are [[short map]]s $f\colon \mathbb{Q}\to [0,\infty]$ and where $d(f,g) = sup_{x\in\mathbb{Q}} |f(x)-g(x)|$.  The Yoneda embedding $\mathbb{Q}\hookrightarrow [0,\infty]^{\mathbb{Q}^{op}}$ of course sends a point $y$ to $d(-,y)$.
+
+David: Thanks, Mike. So in an ideal world I'd work out how the reals are [[tiny object|tiny objects]]. I've put in a definition Todd gave at the Caf&#233;. We want $hom_{[0,\infty]^{\mathbb{Q}^{op}}}(r, -)$ to preserve colimits? $max(d(r, f), d(r, g)) = d(r, max(f, g))$. Hmm, better to work such things out offline.
+
 
 [[!redirects Cauchy complete categories]]
 [[!redirects Cauchy completion]]
