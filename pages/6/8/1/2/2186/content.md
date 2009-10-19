@@ -1,3 +1,7 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 Nonstandard analysis is a richer formalization of [[analysis]] that uses a certain explicit notions of [[infinitesimal object]]s. In fact, not only infinitesimal but also infinitely large can be accomodated; moreover not only the field of [[real number]]s, but more general algebraic structures can be extended, essentially via a construction of [[ultraproducts]]; also general sets can be extended to contain nonstandard elements (see [[internal set]]). 
@@ -59,3 +63,7 @@ In this model of nonstandard analysis a version of the transfer principle (in te
 * Jerome Keisler, _Elementary calculus: an infinitesimal approach_, [online](http://www.math.wisc.edu/~keisler/calc.html) undergraduate textbook.
 
 * Wikipedia: [nonstandard analysis](http://en.wikipedia.org/wiki/Non-standard_analy), [ultraproduct](http://en.wikipedia.org/wiki/Ultraproduc), [hyperreal numbers](http://en.wikipedia.org/wiki/Hyperreal_numbers), [Abraham Robinson](http://en.wikipedia.org/wiki/Abraham_Robinson)
+
+There is a realizatiion of aspects of nonstandard analysis in some models of [[synthetic differential geometry]]. See chapter 6 of
+
+* [Ieke Moerdijk]], [[Gonzalo Reyes]], [[Models for Smooth Infinitesimal Analysis]]
