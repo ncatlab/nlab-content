@@ -80,7 +80,7 @@ Now suppose that $C$ is a [[distributive category]].  Then we have these isomorp
 
 Here $Y + Z$ is a [[coproduct]] of $Y$ and $Z$, while $0$ is an [[initial object]].  Thus in a distributive category, the exponentiable objects are closed under coproducts.
 
-Note that any cartesian closed category with finite coproducts must be distributive, so all of the isomorphisms above hold in any closed [[2-rig]] (such as [[Set]], of course).
+Note that any cartesian closed category with finite coproducts must be distributive, so all of the isomorphisms above hold in any closed [[2-ring]] (such as [[Set]], of course).
 
 [[!redirects exponential objects]]
 [[!redirects exponentiable object]]
