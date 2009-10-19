@@ -1,0 +1,1 @@
+Let $E$ be a small, cocomplete category. An object $e$ of $E$ is **tiny** if the hom-functor $E(e, -) : E \to Set$ preserves small colimits. 
