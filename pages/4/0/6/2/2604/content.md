@@ -7,4 +7,5 @@ Examples include
 * [[Jones polynomial]]
 * [[HOMFLY polynomial]]
 * [[Alexander polynomial]]
-* [[Reshetikhin-Turaev invariant]]s for any object in a [[ribbon category]].
+* [[Reshetikhin-Turaev invariant]]s for any object in a [[ribbon category]]
+* [[Khovanov homology]]
