@@ -1,3 +1,9 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
 The **Poincar&#233; group** is the group of affine transformations on $\mathbb{R}^4$ which preserve the Minkowski "metric", i.e., the group of maps $f: \mathbb{R}^4 \to \mathbb{R}^4$ of the form $f(\vec{x}) = M \vec{x} + \vec{b}$ such that 
 
 $$Q(f(\vec{x}) - f(\vec{y})) = Q(\vec{x} - \vec{y})$$ 
@@ -143,3 +149,16 @@ $$\langle \psi|\phi \rangle = \langle g \cdot \psi|g \cdot \phi \rangle$$
 for every $g$ in the Poincare group. Thus the representation of the Poincar&#233; group on Hilbert space is required to be _unitary_. Due to the noncompactness of the Poincar&#233; group, unitary representations on finite-dimensional Hilbert spaces are scarce; one must really pass to unitary representations on infinite-dimensional Hilbert spaces to get anything interesting. 
 
 In particular, an **elementary particle** in quantum physics is sometimes defined to be an [[unitary irreps of the Poincare group|irreducible unitary representation]] of the Poincar&#233; group. 
+
+
+#Related entries#
+
+
+* [[Euclidean group]]
+
+  * [[super Euclidean group]]
+
+* [[Poincare Lie algebra]]
+
+  * [[super Poincare Lie algebra]]
+
