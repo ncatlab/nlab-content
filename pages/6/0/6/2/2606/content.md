@@ -2256,9 +2256,7 @@ o---------------------------------------------------------------------o
 
 # Commentary #
 
-## Comment 1 ##
-
-I think it's best to begin with a few simple observations, as I frequently find it necessary to return to the basics again and again, even if I take a different path each time.
+I think it's best to begin with a few simple observations, as I frequently find it necessary to return to the basics again and again, even if I then depart by a different path each time.
 
 <table align="center" cellpadding="4" markdown="1" style="border:none; width:90%">
 
@@ -2282,11 +2280,11 @@ The inference in view, that operates on two pieces of information to produce ano
 
 $$\array{
 \arrayopts{\colalign{left}\rowlines{none solid}}
-\phantom{mm} x : X
+\phantom{m} x : X
 \\
-\phantom{mm} f : X \to Y \phantom{mm}
+\phantom{m} f : X \to Y \phantom{m}
 \\
-\phantom{mm} f(x) : Y
+\phantom{m} f(x) : Y
 }$$
 
 </font></div>
@@ -2297,9 +2295,7 @@ In the same context the notations &ldquo;$X$&rdquo;, &ldquo;$X \to Y$&rdquo;, an
 
 If a moment's spell of double vision leads us to see the functional arrow &ldquo;$\to$&rdquo; as the logical arrow &ldquo;$\Rightarrow$&rdquo;, then we may observe that the right side of this inference scheme follows the pattern of logical deduction that is usually called _modus ponens_.  And so we forge a tentative link between the pattern of information conversion implicated in functional application and the pattern of information conversion involved in the logical rule of _modus ponens_.
 
-## Comment 2 ##
-
-Notice that I am carrying out combinator applications "on the right", so the formulas might read backwards from what many people are used to.
+$\ldots$
 
 # References and Further Reading #
 
@@ -2310,3 +2306,9 @@ Here are three references on combinatory logic and lambda calculus, given in ord
 1.  Hindley, J.R. and Seldin, J.P. (1986), _Introduction to Combinators and $\lambda$-Calculus_, London Mathematical Society Student Texts No.&nbsp;1, Cambridge University Press, Cambridge, UK.
 
 1.  Lambek, J. and Scott, P.J. (1986), _Introduction To Higher Order Categorical Logic_, Cambridge University Press, Cambridge, UK.
+
+# Links #
+
+* [Propositions As Types](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Propositions_As_Types)
+
+* [Relation Composition](http://mywikibiz.com/Relation_composition)
