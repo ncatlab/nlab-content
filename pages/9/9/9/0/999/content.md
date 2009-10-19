@@ -1,6 +1,15 @@
+<div class="rightHandSide toc">
+[[!include compact object - contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 # Idea
 
-An [[object]] of a [[category]] is often called *compact* if it is "finite" in some precise sense.
+An [[object]] of a [[category]] is often called *compact* if it is "finite" or "small" in some precise sense.
 
 
 # Definition #
@@ -35,12 +44,13 @@ In $C = $ [[Grp]] an object is compact precisely if it is finitely presented as 
 ## In a topos ##
 
 For $C$ a [[topos]], $X$ is compact if it is 
-$K$-[[finite object|finite]];
+$K$-[[finite object|finite]]. 
 
 
 ## In Top ##
 
 Let $X$ be a [[topological space]] and let $C = Op(X)$ be the [[category of open subsets]] of $X$. The an open subset $U \in C$ is a compact object in $C$ precisely if it is a [[compact space|compact topological space]].
+
 
 
 See the discussion below for variations of this theme.
