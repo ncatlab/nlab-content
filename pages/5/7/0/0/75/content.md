@@ -30,18 +30,18 @@ For a philosophical treatment of category theoretic foundations see [[foundation
 
 The problem with mathematical foundations of category theory is that in category theory we frequently speak of [[large category|large categories]], which it is tricky to deal with rigorously in the usual sort of [[set theory|set theories]].
 
-One common view seems to be to found category theory on a theory of sets and classes; see [the English Wikipedia\'s definition](https://secure.wikimedia.org/wikipedia/en/wiki/Category_%28mathematics%29#Definition), for example. But the standard reference, Saunders Mac Lane\'s _Categories for the Working Mathematician_, assumes the existence of a universe (an inaccessible cardinal) instead. Both of these approaches rely on a distinction between *small* and *large* categories. There is a category of all [[small category|small categories]], but this category is not itself small; there is no category of all categories.
+One common view seems to be to found category theory on a theory of sets and classes; see [the English Wikipedia\'s definition](), for example. But the standard reference, Saunders Mac Lane\'s _Categories for the Working Mathematician_, assumes the existence of a universe (an inaccessible cardinal) instead. Both of these approaches rely on a distinction between *small* and *large* categories. There is a category of all [[small category|small categories]], but this category is not itself small; there is no category of all categories.
 
 Alexander Grothendieck needed more; he used what we now call [[Grothendieck universe]]s. He assumed that every set is contained within a universe; that is, for every cardinal number $\kappa$, there is a cardinal inaccessible from $\kappa$. (This is still a rather moderate axiom, compared to some of the large-cardinal axioms studied by set theorists.) Now one has a relative notion of small and large; the category of all $U$-small categories (where $U$ is some universe) is $U$-large but must be $U'$-small for some other universe $U'$, and there exists a category (which is both $U$-large and $U'$-large) of all $U'$-small categories.
 
 If one does not accept the [[axiom of choice]], then there are additional complications in general category theory. In particular, one must distinguish between a universal *property* (for example, having all [[product]]s) and having a universal *structure* realising that property (in the example, a functor taking each pair $(x,y)$ of objects to a specific product cone $x \leftarrow x \times y \rightarrow y$). This difficulty was overcome by Michael Makkai using [[anafunctor]]s, but these have not been widely adopted, even by constructivists.
 
-For a summary of the mathematical foundations of category theory, see Mike Shulman, _Set theory for category theory_, [arXiv:0810.1279](http://arxiv.org/abs/0810.1279).
+For a summary of the mathematical foundations of category theory, see Mike Shulman, _Set theory for category theory_, [arXiv:0810.1279]().
 
 +--{.query}
 
 _[[Urs Schreiber|Urs]] asks_: More recently it seems that the concept of _accessible categories_ has found some 
-supporters as a tool for conveniently dealing with size issues generally in (higher) category theory. Jacob Lurie discusses this from [p. 341](http://www-math.mit.edu/~lurie/papers/highertopoi.pdf#page=342) on in his [Higher Topos Theory](http://arxiv.org/abs/math.CT/0608040), where he says
+supporters as a tool for conveniently dealing with size issues generally in (higher) category theory. Jacob Lurie discusses this from [p. 341]() on in his [Higher Topos Theory](), where he says
 
 <blockquote>
 
@@ -62,7 +62,7 @@ _[[Toby Bartels|Toby]] answers_: I understand all these large cardinals much bet
 
 One way to think of category theory is as a framework in which the idea is formalized that every kind of [[equality]] is really secretly a choice of [[isomorphism]] or [[equivalence]]. In some sense the notion of identity is potentially [[evil]], in a technical sense.
 
- [[Michael Makkai]] works on a language, [[FOLDS]] ('first-order logic with dependent sorts'), which is designed to make it impossible to formulate any [[evil]] statements.  To learn more, see his paper _[First Order Logic with Dependent Sorts, with Applications to Category Theory](http://www.math.mcgill.ca/makkai/)_.
+ [[Michael Makkai]] works on a language, [[FOLDS]] ('first-order logic with dependent sorts'), which is designed to make it impossible to formulate any [[evil]] statements.  To learn more, see his paper _[First Order Logic with Dependent Sorts, with Applications to Category Theory](.
 
 # Categorial foundations of mathematics
 
@@ -77,6 +77,11 @@ _[[Toby Bartels|Toby]] answers_: I\'d say that it proved to be overkill; ETCS is
 _Roger Witte_ asks:_ Surely in ETCC, you define complete Heyting algebras as particular kinds of category and then work with Frames and Locales (ie follow Paul Taylor's leaf and apply Stone Duality).  You should be able to get to Top by examining relationships between Loc and Set.  I thought Top might be the the comma category of forgetful functor from loc to set op and the contravariant powerset functor.  Thus a Topological space would consist of a triple S, L, f where S is a set, L is a locale and f is a function from the objects of the locale to the powerset of S.  A continuous function from S, L, f to S', L', f' is a pair g, h where g is a function from the powerset of S' to the powerset of S and g is a frame homomorphism from L' to L and _(I don't know how to draw the commutation square)_.  However I think this has too many spaces since lattice structures other than the inclusion lattice can be used to define open sets. 
 
 _Toby_:  It\'s straightforward to define a topological space as a set equipped with a subframe of its power set.  So you can define it as a set $S$, a frame $F$, and a frame monomorphism $f\colon F \to P(S)$, or equivalently as a set $S$, a locale $L$, and an epimorphism $f\colon L \to Disc(S)$ of locales, where $Disc(S)$ is the [[discrete space]] on $S$ as a locale.  (Your 'However, [...]' sentence is because you didn\'t specify epimorphism/monomorphism.)  This is a good perspective, but I don\'t think that it\'s any cleaner in ETCC than in ETCS.
+
+_Roger Witte_ says
+Thanks, Toby.  I agree with your last sentence but my point is that this approach is equally clean and easy in both systems.  The clean thing about ETCC is the uniformity of meta theory and model theory as category theory.  The clean thing about ETCS is that we have just been studying sets for 150 years, so we have a good intuition for them.
+
+I was responding to your point 'ETCC is less clean because you have to define some things (eg topological spaces) as sets with a structure'.  But you can define and study the structure without referring to the sets and then 'bolt on' the sets (almost like an afterthought).
 =--
 
 ... but his other proposal, a first-order axiomatisation of [[Set|the category of sets]], works well. These and related approaches to foundations may be called _structural_ or _categorial_ (or _categorical_, which is more common but clashes with another sense of 'categorical' in logic).
@@ -133,7 +138,7 @@ It may seem on first sight that foundational questions in mathematics are remote
 
 #Blog discussion#
 
-* [Foundations](http://golem.ph.utexas.edu/category/2006/10/foundations.html)
+* [Foundations]()
 
 
 [[!redirects Foundations]]
