@@ -1,4 +1,3 @@
-[[!redirects quasigauge space]]
 
 A gauge space is a [[topological space]] (necessary completely regular) whose topology is given by a family of [[metric space|pseudometrics]].  More generally, a quasigauge space is a space (not necessarily completely regular) whose topology is given by a family of quasipseudometrics.
 
@@ -85,3 +84,7 @@ Many of these full subcategories of $Gau$ and $QGau$ are [[reflective subcategor
 ## References
 
 *  Eric Schechter; 1997; [[HAF|Handbook of Analysis and its Foundations]]; Academic Press, 1st ed (1996).
+
+
+[[!redirects quasigauge space]]
+[[!redirects gauge spaces]]
