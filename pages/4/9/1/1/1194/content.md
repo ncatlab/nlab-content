@@ -42,7 +42,7 @@ The [[internal logic]] of various sorts of categories are most naturally regarde
 
 The _second_ approach to reconciling type theory with logic
 is to blur the distinction between types and propositions;
-this is called the "propositions as types" paradigm.
+this is called the "[[propositions as types]]" paradigm.
 Instead of requiring that a proposition $\phi$ be
 interpreted as merely true or false (that is, a [[truth
 value]] or equivalently a [[subsingleton]]), we allow it to
