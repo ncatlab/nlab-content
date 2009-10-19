@@ -1,6 +1,9 @@
 <div class="rightHandSide toc">
 [[!include synthetic differential geometry - contents]]
+***
+[[!include compact object - contents]]
 </div>
+
 
 #Contents#
 * automatic table of contents goes here
