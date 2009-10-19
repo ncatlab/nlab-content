@@ -4,7 +4,7 @@
 {:toc}
 
 
-The **Poincar&#233; group** is the group of affine transformations on $\mathbb{R}^4$ which preserve the Minkowski "metric", i.e., the group of maps $f: \mathbb{R}^4 \to \mathbb{R}^4$ of the form $f(\vec{x}) = M \vec{x} + \vec{b}$ such that 
+The **Poincar&#233; group** is the group of affine transformations on $\mathbb{R}^4$ which preserve the [[pseudo-Riemannian metric|Minkowski "metric"]], i.e., the group of maps $f: \mathbb{R}^4 \to \mathbb{R}^4$ of the form $f(\vec{x}) = M \vec{x} + \vec{b}$ such that 
 
 $$Q(f(\vec{x}) - f(\vec{y})) = Q(\vec{x} - \vec{y})$$ 
 
