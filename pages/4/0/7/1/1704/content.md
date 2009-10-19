@@ -263,7 +263,7 @@ We call the object $V//G$ with this structure of a
  
 ## Morphisms of $G$-principal $\infty$-bundles ##
 
-The morphisms of $G$-principal $\infty$-bundles are to be such that they respect the G$-action, so that the [[∞-groupoid]] $G Bund(X)$ of $G$-principal $\infty$-bundles on $X$ is naturally equivalent to the cocycle $\infty$-groupoid $Hom_C(X, \mathbf{B} G)$
+The morphisms of $G$-principal $\infty$-bundles are to be such that they respect the $G$-action, so that the [[∞-groupoid]] $G Bund(X)$ of $G$-principal $\infty$-bundles on $X$ is naturally equivalent to the cocycle $\infty$-groupoid $Hom_C(X, \mathbf{B} G)$
 
 $$
   G Bund(X) \simeq Hom_C(X, \mathbf{B} G)
@@ -504,7 +504,6 @@ In article not the total space of the bundle $P \to X$ is axiomatized, but the $
 
 See the remarks at [[principal 2-bundle]].
 
-[[Note on Formatting|?]]
 
 [[!redirects principal infinity-bundles]]
 [[!redirects principal ∞-bundle]]
