@@ -5,3 +5,10 @@ That is, a homeomorphism $f : X \to Y$ is a continuous map of topological spaces
 Note that a continous bijection is not necessarily a homeomorphism; that is, $Top$ is not a [[balanced category]].
 
 The term 'homeomorphism' is also applied to isomorphisms in categories that generalise $Top$, such as the category of [[convergence space]]s and the category of [[locale]]s.
+
+
+[[!redirects homeomorphisms]]
+[[!redirects homœomorphism]]
+[[!redirects homœomorphisms]]
+[[!redirects homoeomorphism]]
+[[!redirects homoeomorphisms]]
