@@ -2,3 +2,5 @@ A __monoid object__ in a [[category]] $C$ is a [[monoid]] [[internalization|inte
 
 Compare [[group object]].
 
+
+[[!redirects monoid objects]]
