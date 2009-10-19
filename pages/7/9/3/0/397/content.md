@@ -43,6 +43,7 @@ Here is a list of people who have contributed content to the nLab (or, failing t
 * [[Jacques Distler]]
 * [[Jamie Vicary]]
 * [[James Dolan]]
+* [[Jason Dusek]]
 * [[JCMcKeown]]
 * [[Jeanine|Jeanine Daems]]
 * [[Jim Stasheff]]
