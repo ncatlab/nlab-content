@@ -6,6 +6,12 @@
 [[!include category theory - contents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+#Idea#
+
 Higher category theory studies the generalization of [[∞-groupoid]]s  -- and hence, via the [[homotopy hypothesis]], of [[topological space]]s -- to that of [[directed space]]s and their _combinatorial or algebraic models_ . It is to the theory of [[∞-groupoid]]s as [[category theory]] is to the theory of [[groupoids]] (and hence of [[groups]]).
 
 These [[geometric definition of higher category|combinatorial]] or [[algebraic definition of higher category|algebraic]] models are known as [[n-category|n-categories]] or, when $n \to \infty$, as [[∞-category|∞-categories]] or [[∞-category|∞-categories]], or, in more detail, as [[(n,r)-category|(n,r)-categories]]: 
