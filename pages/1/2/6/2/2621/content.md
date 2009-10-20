@@ -1,4 +1,12 @@
-Suppose we're working with a quantum system that's nearly a [quantum harmonic oscillator](http://ncatlab.org/nlab/show/quantum+harmonic+oscillator), but not quite; that is, the quadratic potential $V_0 = \frac{1}{2}kx^2 - \frac{1}{2}$ is only a good local approximation to the real potential $V_0 + \lambda V$.  Then we can write the total as $H = H_0 + \lambda V,$ where $V$ is a function of position and momentum, or equivalently of $z$ and $\frac{d}{dz},$ and $\lambda$ is small.
+#Idea#
+
+_Perturbation theory_ is a method to make sense of and handle the [[path integral]] involved in the [[quantization]] of [[classical field theory]] to [[quantum field theory]].
+
+It is based on the observation that the [[quantization]] of free [[classical field theory|classical field theories]], whose [[action functional]] contains only the kinetic term, is well understood, and that therefore the quantization of a functional consisting of a kinetic term and polynomial interaction terms may be expanded like a [[Taylor series]] in the interaction terms thus yielding what looks like a series of [[correlator]]s in a free field theory. If the **coupling constant** -- the parameter in fron of the interaction terms -- is small enough, one says one is in the _weakly coupled regime_ of the theory and expects this perturbation series to approximate the desired answer. Usually, even for that to work the [[action functional]] first has to be subjected to [[renormalization]].
+
+#More details#
+
+Suppose we're working with a quantum system that's nearly a [[quantum harmonic oscillator]], but not quite; that is, the quadratic potential $V_0 = \frac{1}{2}k x^2 - \frac{1}{2}$ is only a good local approximation to the real potential $V_0 + \lambda V$.  Then we can write the total as $H = H_0 + \lambda V,$ where $V$ is a function of position and momentum, or equivalently of $z$ and $\frac{d}{dz},$ and $\lambda$ is small.
 
 Now we solve Schr&#246;dinger's equation perturbatively.  We know that
 \[\psi(t) = e^{-itH} \psi(0),\]
@@ -21,3 +29,5 @@ Here's an example Feynman diagram for this simple system, representing the fourt
 The lines represent evolving under the free Hamiltonian $H_0$, while the dots are interactions with the potential $V$.
 
 As an example, let's consider $V = (z + \frac{d}{dz})$ and choose $\lambda = \frac{1}{\sqrt{2}}$ so that $\lambda V = p.$  When $V$ acts on a state $\psi = z^n,$ we get $V \psi = z^{n+1} + nz^{n-1}.$  So at each interaction, the system either gains a photon or changes phase and loses a photon.
+
+[[!redirects Feynman perturbation series]]
