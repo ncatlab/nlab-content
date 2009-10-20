@@ -1,4 +1,18 @@
+<div class="rightHandSide toc">
+[[!include cohomology - contents]]
+
+***
+
+[[!include (infinity,1)-topos - contents]]
+</div>
+
+
+
 The following is (supposed to be) a pedagogical motivation of the concepts [[sheaf]], [[stack]], [[infinity-stack]] and [[Higher Topos Theory|higher topos theory]]. It assumes only that the reader has a working knowledge of [[topological space]]s and aims to provide from that an intuitive but useful idea of the relevance of the circle of ideas of [[Categories and Sheaves|categories and sheaves]], [[cohomology]], [[sheaf cohomology]] and a bit of [[Higher Topos Theory|higher topos theory]].
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
 # Motivation: maps between topological spaces #
 
@@ -64,7 +78,7 @@ This is a general strategy that one can adopt: suppose I dream up a space but do
 * Let's now call the space which I dreamed up $X$, the generic symbol for spaces. For every space $U$ that you come up with, I do some secret computation and then present you with the result: I hand you a [[set]], let's call it $X(U)$, and tell you  that this is the set of ways that $U$ can be mapped into $X$:
 
   : $X(U) = \{ $ways to map $U$ into some hypothetical $X \}$
-  : &#8195;&#8195;=: {probes of $X$ by $U$}.
+  : &emsp;&emsp;=: {probes of $X$ by $U$}.
 
 * will you be able, in general, to guess my space $X$ from this information $U \mapsto X(U)$? No. So, to be fair, I should provide a bit more information: what you need to know to actually get a feeling for what my space $X$ is like is an idea about how different ways of probing my space relate to each other.
  
