@@ -30,4 +30,6 @@ _Toby_:  The walking commutative triangle is an even simpler counterexample.  Ra
 
 [[Eric]]: Thanks! That is interesting. This reminds me of the [[ericforgy:differential envelope|universal differential envelope]] on a complete directed graph. Any discrete calculus is a quotient of the universal discrete calculus obtained by removing some edges.
 
+_Toby_:  Sure, there are lots of [[adjunctions]] that work this way.  (I forget the precise adjective that I should put before 'adjunction' here.)
+
 =--
