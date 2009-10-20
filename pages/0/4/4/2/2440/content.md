@@ -9,7 +9,7 @@
 
 #Definition#
 
-A *super Lie algebra** over a field $k$ is a [[Lie algebra]] [[internalization|internal]] to the [[symmetric monoidal category|symmetric monoidal]] $k$-linear [[category]] [[SVect]] of [[super vector space]]s.
+A **super Lie algebra** over a field $k$ is a [[Lie algebra]] [[internalization|internal]] to the [[symmetric monoidal category|symmetric monoidal]] $k$-linear [[category]] [[SVect]] of [[super vector space]]s.
 
 #Examples#
 
