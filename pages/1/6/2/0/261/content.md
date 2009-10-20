@@ -1,3 +1,7 @@
+#Content#
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 A _simplicial set_ is like a combinatorial space built up out of gluing abstract [[simplex|simplices]] to each other. Equivalently, it is an object equipped with a rule for how to consistently map the objects of the [[simplex category]] into it.
