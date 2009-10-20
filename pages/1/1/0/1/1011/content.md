@@ -19,3 +19,11 @@ One is often interested in whether an arbitrary category $D$ has [[limit]]s and 
 **This section may not be correct and needs review.**
 
 For any finite category $C$, there is a [[directed graph]] $G$ such that its [[quiver]] $Q(G)$ is equivalent to $C$.
+
++--{: .query}
+[[Mike Shulman]]: No, this is false.  The "walking commutative square"
+$$\array{ & \to & \\
+  \downarrow && \downarrow\\
+  & \to & }$$
+is a finite category which is not free on any directed graph.
+=--
