@@ -14,7 +14,9 @@ Let $A : \Delta^{op} \times \Delta^{op} \to Ab$ be a [[bisimplicial object|bisim
 
 * $Tot (C A)$ for the [[total complex]] of the [[double complex]] obtained by applying the [[Moore complex]] functor on both arguments of $A$.
 
-**Theorem**
++-- {: .un_theorem }
+###### Theorem
+**(Dold-Puppe generalization of Eilenberg-Zilber)**
 
 There is a [[quasi-isomorphism]] (even a chain-homotopy equivalence)
 
@@ -23,13 +25,16 @@ $$
   \,.
 $$
 
+=--
+
+
 
 #References#
 
-for instance theorem 8.1.5 in 
+A weak version of the statement is in theorem 8.1.5 in 
 
 * Weibel, _An introduction to homological algebra_
 
-or [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) of 
+The stronger version as stated above is in [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) of 
 
 * Goerss-Jardine, _Simplicial homotopy theory_ ([dvi](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
