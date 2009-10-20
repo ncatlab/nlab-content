@@ -8,7 +8,7 @@ The [[Dold-Kan correspondence]] relates [[simplicial group]]s to [[chain complex
 
 #Statement#
 
-Let $A : \Delta^{op} \to \Delta^{op} \to Ab$ be a bisimplicial abelian group. Write 
+Let $A : \Delta^{op} \times \Delta^{op} \to Ab$ be a [[bisimplicial object|bisimplicial abelian group]]. Write 
 
 * $C diag A$ for the [[Moore complex]] of its diagonal simplicial group $diag A : \Delta^{op} \to \Delta^{op} \times \Delta^{op} \stackrel{A}{\to} Ab$;
 
@@ -33,7 +33,3 @@ for instance theorem 8.1.5 in
 or [chapter 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-4.dvi) of 
 
 * Goerss-Jardine, _Simplicial homotopy theory_ ([dvi](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
----
-See Jardine-Goerss chapter IV. The theorem says roughly that the two ways of extracting a chain complex from a bisimplicial abelian group are naturally chain homotopy equivalent. (Total complex vs the chain complex associated to the diagonal simplicial ab gp).
-
-nLab page on [[nlab:Eilenberg-Zilber theorem]]
