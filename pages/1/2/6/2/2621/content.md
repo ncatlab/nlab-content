@@ -1,6 +1,8 @@
 #Idea#
 
-_Perturbation theory_ is a method to make sense of and handle the [[path integral]] involved in the [[quantization]] of [[classical field theory]] to [[quantum field theory]].
+_Perturbation theory_ is a general method of finding (or even defining) the solution of equations of mathematical physics by expanding them with respect to a small parameter in the vicinity of known, defined or well understood solution (for which the small parameter is $0$). It is used in the study of PDEs involving operators depending on small parameter, in classical and celestical mechanics, in quantum mehcanics, and in the statistical and quantum field theory. 
+
+One of the varieties of perturbation theory provides a method to make sense of and handle the [[path integral]] involved in the [[quantization]] of [[classical field theory]] to [[quantum field theory]].
 
 It is based on the observation that the [[quantization]] of free [[classical field theory|classical field theories]], whose [[action functional]] contains only the kinetic term, is well understood, and that therefore the quantization of a functional consisting of a kinetic term and polynomial interaction terms may be expanded like a [[Taylor series]] in the interaction terms thus yielding what looks like a series of [[correlator]]s in a free field theory. If the **coupling constant** -- the parameter in fron of the interaction terms -- is small enough, one says one is in the _weakly coupled regime_ of the theory and expects this perturbation series to approximate the desired answer. Usually, even for that to work the [[action functional]] first has to be subjected to [[renormalization]].
 
