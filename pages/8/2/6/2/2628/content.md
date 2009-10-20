@@ -128,9 +128,7 @@ In the language uses there, the statement we establish is the following:
 
 Let $(\mathcal{T} = Sh(C),R)$ be a [[Models for Smooth Infinitesimal Analysis|well adapted]] [[smooth topos]]. Regard the simplicial manifold $X_\bullet$ accordingly as an object $X$ in the corresponding [[schreiber:smooth (∞,1)-topos|smooth (∞,1)-topos]] $\mathbf{H}$. Let $\Pi^{inf}(X)$ be its [[schreiber:infinitesimal path ∞-groupoid|infinitesimal path ∞-groupoid]]. Then
 
-* $\Pi^{inf}(X)$ is an [[schreiber:∞-Lie algebroid|∞-Lie algebroid]]
-
-* its [[schreiber:Chevalley-Eilenberg algebra|Chevalley-Eilenberg algebra]] is [[quasi-isomorphism|quasi-isomorphic]] to the simplicial deRham complex
+* the [[schreiber:Chevalley-Eilenberg algebra|Chevalley-Eilenberg algebra]] of $\Pi^{inf}(X)$ is [[quasi-isomorphism|quasi-isomorphic]] to the simplicial deRham complex
 
   $$
     CE( \Pi^{inf}(X)) \simeq \mathcal{A}(X_\bullet)
@@ -139,14 +137,14 @@ Let $(\mathcal{T} = Sh(C),R)$ be a [[Models for Smooth Infinitesimal Analysis|we
 
 =--
 
-The following discussion breaks this down and then desccribes the proof.
+The following discussion breaks this down and then describes the proof.
 
 As a preparation, recall from the discussion at [[differential forms in synthetic differential geometry]] that if we pass from [[Diff]] to a [[smooth topos]] $(\mathcal{T},R)$ that models the axioms of [[synthetic differential geometry]], then for sufficiently well-behaved objects $X \in \mathcal{T}$ there is the [[infinitesimal singular simplicial complex]] $X^{\Delta^\bullet_{inf}} : \Delta^{op} \to \mathcal{T}$, the [[simplicial object]] that in degree $k$ is the [[space]] of [[infinitesimal object|infinitesimal]] $k$-[[simplex|simplices]] in $X$.
 
 As discussed there, this is such that under the [[Dold-Kan correspondence]] the [[cosimplicial algebra]] $Hom( X^{\Delta^\bullet_{inf}}, R )$ maps to the [[deRham complex]] (and under the [[monoidal Dold-Kan correspondence]] to the full [[deRham dg-algebra]]):
 
 $$
-  DoldKan : 
+  C_{Moore} : 
   C^\infty( X^{\Delta^\bullet_{inf}})
   \mapsto
   \Omega^\bullet(X)
@@ -170,6 +168,7 @@ where
 
 * the integral sign denotes the [[coend]].
 
+By the lemma _expression in terms of simplicial realization_ at [[schreiber:infinitesimal path ∞-groupoid]] this is the same as $\Pi^{inf}(X)$.
 
 The above proposition now reads in pedestrian terms:
 
@@ -223,7 +222,6 @@ But this (even their chain-homotopy equivalence) is the content of the generaliz
 
 =--
 
-> check
 
 #References#
 
