@@ -19,4 +19,6 @@ The creation operator $z$ adds a photon to the mix; there's only one way to do t
 
 Schr&#246;dinger's equation says $i \frac{d}{dt} \psi = H_0 \psi,$ so 
 \[\psi(t) = \sum_{n=0}^{\infty} e^{-itn} a_n z^n.\]
-This way of representing the state of a QHO is known as the "Fock basis".
+This way of representing the state of a QHO is known as the _Fock basis_.
+
+[Baez](John+Baez)'s [Fall '03](http://math.ucr.edu/home/baez/qg-fall2003/) Quantum gravity seminar relates wavefunctions expressed in the Fock basis to [[structure types]].
