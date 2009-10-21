@@ -31,7 +31,7 @@ This is in particular the case when $C$ is equipped with the structure of a comb
 Given a [[category with weak equivalences]] (such as a [[model category]]), its __homotopy category__ $Ho(C)$ is -- if it exists -- the [[category]] which is universal with the property that there is a [[functor]]
 
 $$
- p :  C \to Ho(C)
+ Q :  C \to Ho(C)
 $$
 
 that sends every weak equivalence in $C$ to an [[isomorphism]] in $Ho(C)$. 
