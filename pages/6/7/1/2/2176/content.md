@@ -1924,11 +1924,15 @@ We are still working well within the logical analogue of the classical finite di
 
 Before we continue with this itinerary, however, I would like to highlight another sort of differential aspect that concerns the _boundary operator_ or the _marked connective_ that serves as one of the two basic connectives in the [[cactus language]] for zeroth order logic.
 
-For example, consider the proposition $f$ of concrete type $f : P \times Q \times R \to \mathbb{B}$ and abstract type $f : \mathbb{B}^3 \to \mathbb{B}$ that is written $\texttt{&#x2997;} p, q, r \texttt{&#x2998;}$ in cactus syntax.  Taken as an assertion under the _existential interpretation_, the proposition $\texttt{&#x2997;} p, q, r \texttt{&#x2998;}$ says that just one of $p, q, r$ is false.  It is instructive to consider this assertion in relation to the logical conjunction $p q r$ of the same propositions.  A venn diagram of $\texttt{&#x2997;} p, q, r \texttt{&#x2998;}$ looks like this:
+For example, consider the proposition $f$ of concrete type $f : P \:\times\: Q \:\times\: R \to \mathbb{B}$ and abstract type $f : \mathbb{B}^3 \to \mathbb{B}$ that is written $\text{&#x2997;} p, q, r \text{&#x2998;}$ in cactus syntax.  Taken as an assertion under the _existential interpretation_, the proposition $\text{&#x2997;} p, q, r \text{&#x2998;}$ says that just one of $p, q, r$ is false.  It is instructive to consider this assertion in relation to the logical conjunction $p q r$ of the same propositions.  A venn diagram of $\text{&#x2997;} p, q, r \text{&#x2998;}$ looks like this:
 
 <center>
 <img alt="Minimal Negation Operator (P,Q,R)" src="/nlab/files/Minimal_Negation_Operator_lPcQcRr.jpg" width="500" />
 </center>
+
+In relation to the center cell indicated by the conjunction $p q r$, the region indicated by $\text{&#x2997;} p, q, r \text{&#x2998;}$ is comprised of the adjacent or bordering cells.  Thus they are the cells that are just across the boundary of the center cell, reached as if by way of Leibniz's _minimal changes_ from the point of origin, in this case, $p q r$.
+
+More generally speaking, in a $k$-dimensional universe of discourse that is based on the _alphabet_ of features $\mathcal{X} = \{ x_1, \ldots, x_k \}$, the same form of boundary relationship is manifested for any cell of origin that one chooses to indicate.  One way to indicate a cell is by forming a logical conjunction of positive and negative basis features, that is, by constructing an expression of the form $e_1 \cdot \ldots \cdot e_k$, where $e_j = x_j \:\text{or}\: e_j = \text{&#x2997;} x_j \text{&#x2998;}$, for $j = 1 \:\text{to}\: k$.  The proposition $\text{&#x2997;} e_1, \ldots, e_k \text{&#x2998;}$ indicates the disjunctive region consisting of the cells that are just next door to $e_1 \cdot \ldots \cdot e_k$.
 
 # External Links #
 
