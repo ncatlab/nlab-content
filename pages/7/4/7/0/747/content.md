@@ -73,11 +73,15 @@ By Lurie's result these are in each case in turn equivalent to the [[homotopy ca
 Various old results appear in a new light this way. For instance using the old result of [[BrownAHT]] on the way ordinary [[abelian sheaf cohomology]] is embedded in the [[homotopy theory]] of simplicial sheaves, one sees that the old right derived functor definition of [[abelian sheaf cohomology]] really computes the [[∞-stackification]] of a sheaf of [[chain complex]]es regarded under the [[Dold?Kan correspondence]] as a simplicial sheaf.
 
 
-# Map #
+# the different model structures and their interrelation #
 
 It is the very point of [[model category]] structures on a given [[homotopical category]] that there may be several of them: each [[presentable (infinity,1)-category|presenting]] the same [[(∞,1)-category]] but also each suited for different computational purposes.
 
-So it is good that there are many model structures on simplicial (pre)sheaves, as there are. The following diagram is a map for part of the territory:
+So it is good that there are many model structures on simplicial (pre)sheaves, as there are. 
+
+## injective/projective - local/global - presheaves/sheaves ##
+
+The following diagram is a map for part of the territory:
 
 $$
   \array{
@@ -212,6 +216,81 @@ On the right this lists the model structures on simplicial (pre)sheaves, here di
 On the left we have the Joyal--Tierney and Luo--Bubenik--Tim [[model structures on presheaves of simplicial groupoids]].
 
 (...have to check here the relation $Sh(X,SGrpd)\leftrightarrow PSh(X, SGrpd)$)
+
+## dependence on the underlying site ##
+
+
++-- {: .un_prop }
+###### Proposition
+
+Let $C,D$ be [[site]]s and let $f : C \to D$ be a [[functor]] that induces a 
+morphism of [[site]]s in that $f_* : PSh(D) \to PSh(C)$ preserves [[sheaf|sheaves]]
+and its [[left adjoint]] $f^* : PSh(C) \to PSh(D)$ (given by left [[Kan extension]])
+is left [[exact functor]] in that it preserves finite [[limit]]s.
+
+Then the induced [[adjunction]]
+$$
+  f_* : SPSh(D)_{inj}^{loc} \stackrel{\leftarrow}{\to} SPSh(C)_{inj}^{loc} : f^*
+$$
+is a [[Quillen adjunction]] for the local injective model structure on presheaves
+on both sides.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is "little fact 5)" on page 10, 11 of
+
+* Jardine, _Fields Lectures: Simplicial presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
+
+=--
+
+
+### examples ###
+
+Here is an example relating 
+simplicial presheaves on the [[site]]s [[Diff]]
+and [[CartSp]]. 
+
+Let $C = $ [[CartSp]], $D = $ [[Diff]] and let $f : CartSp \hookrightarrow Diff$ be
+the canonical inclusion of a [[subcategory]]. The functor
+
+$$
+  f_* : PSh(Diff) \to PSh(CartSp)
+$$
+
+that simply restricts a sheaf on the category of all [[manifold]]s to those
+on just cartesian spaces clearly respects the [[sheaf]] condition.
+
+Its [[left adjoint]] is given by the left [[Kan extension]] formula
+
+$$
+  f^* A : (X \in Diff) \mapsto \lim_{\to}_{(X \to \mathbb{R}^n)} A(\mathbb{R}^n)
+  \,.
+$$
+
+Since [[CartSp]] has [[terminal object]] also the [[comma category]] $(X/f)$ has a [[terminal object]] and is hence a [[filtered category]]. Therefore this is a [[filtered category|filtered colimit]] and therefore commutes with finite [[limit]]s. Since [[limit]]s of [[sheaf|sheaves]] are computed objectwise (see [[limits and colimits by example]]) it follows that $f^*$ preserves finite [[limit]]s.
+
+So $f$ does induce a morphism of [[site]]s and thus satisfies the assumptions of the above theorem, which tells us that
+
+$$
+  f_* : SPSh(Diff)_{inj}^{loc} \stackrel{\leftarrow}{\to} SPSh(CartSp)_{inj}^{loc} : f^*
+$$
+
+is a [[Quillen adjunction]]. 
+
+But we know more: as discussed in 
+
+* Daniel Dugger, _Sheaves and Homotopy Theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
+
+the [[Grothendieck topos]] $Sh(Diff)$ has [[point of a topos|enough topos points]], one for each $n \in \mathbb{N}$, which are given by taking [[colimit]]s over the evaluation of simplicial presheaves on the [[poset]] of open $n$-disks centered at the origin of $\mathbb{R}^n$
+
+> should be phrased in a better way eventually...
+
+Since the open $n$-disk is [[diffeomorphism|diffomorphic]] to $\mathbb{R}^n$, we may think of these [[stalk]]s actually as colimits over diagrams in [[CartSp]]. It follows that the functor $f_* : SPSh(Diff)_{inj}^{loc} \to SPSh(CartSp)_{inj}^{loc}$ preserves all weak equivalences.
+
+
 
 #References#
 
