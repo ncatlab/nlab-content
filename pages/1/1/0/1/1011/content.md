@@ -34,4 +34,6 @@ _Toby_:  Sure, there are lots of [[adjunctions]] that work this way.  (I forget 
 
 [[Mike Shulman]]: If the "walking commutative triangle" means what I think it does, then it actually is a quiver.  The hypotenuse is freely generated as the composite of the other two sides.
 
+[[Eric]]: Wait a second. Does the "walking commutative square" consist of 4 objects? If so, then the diagonal should be a morphism because it is the composite of two sides so the diagram is not complete as drawn. It should include the diagonal. I'm sure I'm confused. What am I missing?
+
 =--
