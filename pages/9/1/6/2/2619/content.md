@@ -16,6 +16,8 @@ Tiny objects are also sometimes called **small-[[projective object]]s**.
 
 _Todd_: Hm, I'm not familiar with that term. Who calls it that? (The link to [[projective object]] only mentions preservation of epimorphisms or perhaps regular epimorphisms = coequalizer maps.) 
 
+[[Mike Shulman]]: Kelly, _Basic Concepts of Enriched Category Theory_, &#167;5.5.
+
 =--
 
 If homming out of a tiny object even has a [[right adjoint]] and hence preserves _all_ colimits, it is called an [[infinitesimal object|atomic object]]. The right adjoint is sometimes called an [[amazing right adjoint]], particularly in the context of [[synthetic differential geometry]]. If $E$ is a sheaf topos, then tiny objects and infinitesimal objects coincide. 
