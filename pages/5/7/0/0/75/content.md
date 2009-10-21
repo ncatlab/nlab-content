@@ -101,6 +101,12 @@ Mike, [A new look at pointfree metrization theorems](http://www.emis.de/journals
 
 Toby
 Yes - we already know how to do maths in ETCS but we need to learn how to do it in ETCC.
+
+[[Mike Shulman]]: Roger, I think you're missing the point.  Set theory provides a unifying framework in which to define *all* of these things.  You may be able to come up with *ad hoc* ways of recovering some of them from ETCC, but in ETCS you can define them all in the *same* way, rather than needing to come up with new tricks to deal with each type of structure.
+
+Moreover, something which I think a lot of people don't think about is that just because you can define, in some limited framework, a notion of "X" which can be proven equivalent to the usual way that people think about X's, doesn't mean that your limited framework is completely sufficient for all the mathematical study of X's.  In particular, what about the very theorem that your notion of X is equivalent to the usual notion of X?  Foundations should suggest new ways of thinking, yes, but they should also accomodate the ways in which people already think, and should not throw out good existing mathematics.
+
+I do, however, like the idea of defining, say, "the category of semigroups" via constructions in $Cat$ out of the category $Set$.  That's the sort of thing I've always envisioned that [[michaelshulman:2-categorical logic|elementary 2-topos theory]] would give us.  But that has a very different feel, to me, from ETCC, because it recognizes that ordinary mathematical structures *themselves* are built out of sets, even if we build them by way of building the categories *of* such structures out of the category *of* sets.
 =--
 
 ... but his other proposal, a first-order axiomatisation of [[Set|the category of sets]], works well. These and related approaches to foundations may be called _structural_ or _categorial_ (or _categorical_, which is more common but clashes with another sense of 'categorical' in logic).
