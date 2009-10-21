@@ -32,4 +32,6 @@ _Toby_:  The walking commutative triangle is an even simpler counterexample.  Ra
 
 _Toby_:  Sure, there are lots of [[adjunctions]] that work this way.  (I forget the precise adjective that I should put before 'adjunction' here.)
 
+[[Mike Shulman]]: If the "walking commutative triangle" means what I think it does, then it actually is a quiver.  The hypotenuse is freely generated as the composite of the other two sides.
+
 =--
