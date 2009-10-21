@@ -6,7 +6,7 @@
 
 A _simplicial set_ is like a combinatorial space built up out of gluing abstract [[simplex|simplices]] to each other. Equivalently, it is an object equipped with a rule for how to consistently map the objects of the [[simplex category]] into it.
 
-More concretely, a simplicial set $S$ is a collection of [[sets]] $S_n$ for $n \in \mathbb{N}$, so that elements in $S_n$ are to be thought of as one $n$-[[simplex|simplices]], equipped with a rule that says:
+More concretely, a simplicial set $S$ is a collection of [[sets]] $S_n$ for $n \in \mathbb{N}$, so that elements in $S_n$ are to be thought of as $n$-[[simplex|simplices]], equipped with a rule that says:
 
 * which $(n-1)$-simplices in $S_{n-1}$ are faces of which elements of $S_n$;
 * which $(n+1)$-simplices are [[thin element|thin]] in that they are really just $n$-simplices regarded as degenerate $(n+1)$-simplices.
