@@ -18,6 +18,8 @@ _Todd_: Hm, I'm not familiar with that term. Who calls it that? (The link to [[p
 
 [[Mike Shulman]]: Kelly, _Basic Concepts of Enriched Category Theory_, &#167;5.5.
 
+Owen Biesel: Being an epimorphism can be described by a pushout diagram (take the pushout of the morphism with itself - that morphism's epic iff the two pushout legs are equal iff they are identities).  Is that why tiny objects are called "small-projective" (they preserve "small" colimits instead of just a certain finite one?)?
+
 =--
 
 If homming out of a tiny object even has a [[right adjoint]] and hence preserves _all_ colimits, it is called an [[infinitesimal object|atomic object]]. The right adjoint is sometimes called an [[amazing right adjoint]], particularly in the context of [[synthetic differential geometry]]. If $E$ is a sheaf topos, then tiny objects and infinitesimal objects coincide. 
