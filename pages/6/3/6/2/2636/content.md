@@ -26,4 +26,4 @@ Zoran: there is no a priori way in general to tell which ones are momentum coord
 
  In [[Lagrangean mechanics]], momentum is derived, as the partial derivative of the [[Lagrangean]] with respect to [[position]] $q$, or as the coefficient on $\mathrm{d}q$ in the [[action functional|action form]].
 
-In [[quantum mechanics]], the [[canonical quantization]] process formally replaces momentum by $-i \hbar \frac{\partial}{\partial x},$ where $x$ is position.  (Equivalently, in [[momentum space]], canonical quantization replaces $x$ by $i \hbar \frac{\partial}{\partial p}.)$  In this situation, position and momentum [[fail to commute|canonical+commutation+relation]].
+In [[quantum mechanics]], the [[canonical quantization]] process formally replaces momentum by $-i \hbar \frac{\partial}{\partial x},$ where $x$ is position.  (Equivalently, in [[momentum space]], canonical quantization replaces $x$ by $i \hbar \frac{\partial}{\partial p}.)$  In this situation, position and momentum [fail to commute](canonical+commutation+relation).
