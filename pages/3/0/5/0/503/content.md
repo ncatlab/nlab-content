@@ -33,6 +33,7 @@ where $[0,\infty]^{\mathbb{Q}^{op}}$ is of course the $[0,\infty]$-enriched func
 
 David: Thanks, Mike. So in an ideal world I'd work out how the reals are [[tiny object|tiny objects]]. I've put in a definition Todd gave at the Caf&#233;. We want $hom_{[0,\infty]^{\mathbb{Q}^{op}}}(r, -)$ to preserve colimits? $max(d(r, f), d(r, g)) = d(r, max(f, g))$. Hmm, better to work such things out offline.
 
+I'd be grateful if someone could explain here the result (of Barr?) that on Set the terminal F-coalgebra is the Cauchy completion of the initial F-algebra. If this is true for other categories, perhaps this includes the unit real interval as the Cauchy completion of dyadic rationals in the interval.
 
 [[!redirects Cauchy complete categories]]
 [[!redirects Cauchy completion]]
