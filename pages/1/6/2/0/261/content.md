@@ -4,7 +4,7 @@
 
 #Idea#
 
-A _simplicial set_ is like a combinatorial space built up out of gluing abstract [[simplex|simplices]] to each other. Equivalently, it is an object equipped with a rule for how to consistently map the objects of the [[simplex category]] into it.
+Simplicial sets generalize the idea of [[simplicial complex]]es: a _simplicial set_ is like a combinatorial space built up out of gluing abstract [[simplex|simplices]] to each other. Equivalently, it is an object equipped with a rule for how to consistently map the objects of the [[simplex category]] into it.
 
 More concretely, a simplicial set $S$ is a collection of [[sets]] $S_n$ for $n \in \mathbb{N}$, so that elements in $S_n$ are to be thought of as $n$-[[simplex|simplices]], equipped with a rule that says:
 
@@ -121,20 +121,13 @@ $$
 
 Notice the $Id$-labels, which indicate that the edges and faces labeled by them are "[[thin element|thin]]" in much the same way as an [[identity morphism]] is thin (notice however that a simplicial set by itself is not equipped with a notion of composition of simplices. If it were, we'd call it a [[simplicial category]]).
 
-
-## simplicial complexes ##
-
-Simplicial sets generalize the idea of [[simplicial complex]]: a simplicial set can be thought of as something consisting of a set of $n$-simplices for all $n \in \mathbb{N}$ together with face and degeneracy functions. More precisely, if $X$ is a simplicial set, we write $X_n$ to denote the set of $n$-simplices. The **face** maps (also called **boundary** maps) are functions $d_i : X_n \rightarrow X_{n-1}$ for each $0\leq i \leq n$, which associate to each $n$-simplex one of its $n+1$ faces, themselves $(n-1)$-simplices. The **degeneracy** maps are functions $s_i : X_n \rightarrow X_{n+1}$ for each $0\leq i \leq n$, which allow one to regard an $n$-simplex as a degenerate $(n+1)$-simplex. 
-
-
-
 #Examples#
 
 * Let $[n]$ denote the object of $\Delta$ corresponding to the totally ordered set $\{ 0, 1, 2,\ldots, n\}$. Then the represented presheaf $\Delta(-, [n])$, which we typically write as $\Delta[n]$ is an example of a simplicial set. By the Yoneda lemma, the $n$-simplices of a simplicial set $X$ are in natural bijective correspondence to maps $\Delta[n] \rightarrow X$ of simplicial sets.
 
 * If $C$ is a small category, the **nerve** of $C$ is a simplicial set which we denote $NC$. If we intepret the poset $[n]$ defined above as a category, we define the $n$-simplices of $NC$ to be the set of functors $[n] \rightarrow C$. Equivalently, the $0$-simplices of $NC$ are the objects of $C$, the $1$-simplices are the morphisms, and the $n$-simplices are strings of $n$ composable arrows in $C$. Face maps are given by composition (or omission, in the case of $d_0$ and $d_n$) and degeneracy maps are given by inserting identity arrows.
 
-* Recall from [[simplex category]] or [[geometric realization]] the standard functor $\Delta \to Top$ which sends $[n] \in \Delta$ to the standard topological $n$-simplex.  This functor induces for every [[topological space]] $X$ the simplicial set
+* Recall from [[simplex category]] or [[geometric realization]] the standard functor $\Delta \to Top$ which sends $[n] \in \Delta$ to the standard topological $n$-simplex $\Delta^n$.  This functor induces for every [[topological space]] $X$ the simplicial set
 $$
   S X : [n] \mapsto Hom_{Top}(\Delta^n, X)
 $$
