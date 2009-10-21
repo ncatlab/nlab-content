@@ -249,19 +249,41 @@ This is "little fact 5)" on page 10, 11 of
 
 ### examples ###
 
-Here is an example relating 
-simplicial presheaves on the [[site]]s [[Diff]]
-and [[CartSp]]. 
+
++-- {: .un_prop }
+###### Proposition
+
 
 Let $C = $ [[CartSp]], $D = $ [[Diff]] and let $f : CartSp \hookrightarrow Diff$ be
-the canonical inclusion of a [[subcategory]]. The functor
+the canonical inclusion of a [[subcategory]]. 
+
+Then there is a [[Quillen equivalence]]
+
+$$
+  f_* : SPSh(Diff)_{inj}^{loc} \stackrel{\leftarrow}{\to}
+      SPSh(CartSp)_{inj}^{loc} : f^*
+  \,.
+$$
+
+=--
+
++-- {: .query}
+
+[[Urs Schreiber]]: check this proof
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+The functor
 
 $$
   f_* : PSh(Diff) \to PSh(CartSp)
 $$
 
-that simply restricts a sheaf on the category of all [[manifold]]s to those
-on just cartesian spaces clearly respects the [[sheaf]] condition.
+that simply restricts a sheaf on the category of all [[manifold]]s to those on just cartesian spaces clearly respects the [[sheaf]] condition.
 
 Its [[left adjoint]] is given by the left [[Kan extension]] formula
 
@@ -284,13 +306,79 @@ But we know more: as discussed in
 
 * Daniel Dugger, _Sheaves and Homotopy Theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
 
-the [[Grothendieck topos]] $Sh(Diff)$ has [[point of a topos|enough topos points]], one for each $n \in \mathbb{N}$, which are given by taking [[colimit]]s over the evaluation of simplicial presheaves on the [[poset]] of open $n$-disks centered at the origin of $\mathbb{R}^n$
+the [[Grothendieck topos]] $Sh(Diff)$ has [[point of a topos|enough topos points]], 
 
-> should be phrased in a better way eventually...
+$$
+  (p_n)_* : Set \stackrel{\leftarrow}{\to} Sh(Diff) : (p_n)^*
+$$
+
+one for each $n \in \mathbb{N}$, which are given by taking [[colimit]]s over the evaluation of simplicial presheaves on the [[poset]] of open $n$-disks $D(r) = \{x \in \mathbb{R}^n | |x| \lt r\}$ centered at the origin of $\mathbb{R}^n$
+
+$$
+  (p_n)^* A  = \lim_\to_{r \in \mathbb{R}} A(D(r))
+  \,.
+$$
 
 Since the open $n$-disk is [[diffeomorphism|diffomorphic]] to $\mathbb{R}^n$, we may think of these [[stalk]]s actually as colimits over diagrams in [[CartSp]]. It follows that the functor $f_* : SPSh(Diff)_{inj}^{loc} \to SPSh(CartSp)_{inj}^{loc}$ preserves all weak equivalences.
 
+By the same logic, for $A \in SPSh(Diff)$ and $B \in SPSh(CartSp)$ we find that if a morphism
 
+$$
+  f^* A \to B
+$$
+
+is a weak equivalence precisely if it is one on all the above disk-[[stalk]]s, which is the same condition that its [[adjunct]]
+
+$$
+  A \to f_* B
+$$
+
+is a weak equivalence, simply because testing on the [[point of a topos|topos points]] $p_n$ takes place entirly in [[CartSp]].
+
+=--
+
++-- {: .un_remark}
+###### Remark
+
+This fact is noteworthy for the following reason: 
+
+By the result of
+
+* Daniel Dugger, Sharon Hollander, Daniel C. Isaksen, _Hypercovers and simplicial presheaves_ ([web](http://www.math.uiuc.edu/K-theory/0563/)) 
+
+which is described at [[descent for simplicial presheaves]],
+the fibrant objects in $SPSh(C)^{loc}$ are those that satisfy [[descent]] along all [[hypercover]]s of [[representable functor|representables]]. But [[descent]] on the contractible $\mathbb{R}^n$s is a drastically simpler condition than on an arbitrary [[manifold]] $X$.
+
+For instance, let $G$ be a [[Lie group]] and write $\mathbf{B}G$  for its corresponding degreewise representable simplicial presheaf $(\mathbf{B}G)_n = G^{\times n}$. 
+
+Then regarded as an object of $SPSh(Diff)^{loc}$ $\mathbf{B}G$ of course does not satisfy descent. Instead, its fibrant replacement is (the recified version of) $G Bund$, the [[stack]] of $G$-[[principal bundle]]s.
+
+But regarded as an object in $SPSh(CartSp)$ $\mathbf{B}G$ does satisfy descent, because every $G$-[[principal bundle]] on $\mathbb{R}^n$ is [[isomorphism|isomorphic]] to the trivial one, and the [[automorphism group]] of the trivial $G$-bundle is just $C(\mathbb{R}^n,G)$.
+
+So there are considerably more fibrant objects in $SPSh(CartSp)^{loc}$ than there are in $SPSh(Diff)$. Accordingly, there must be less cofibrant objects in $SPSh(CartSp)^{loc}$ to compensate this.
+
+Indeed, notice that every [[representable functor|representable]] in any of the model structures on $SPSh(C)$ is cofibrant. So an arbitrary [[manifold]] $X$ is cofibrant in $SPSh(Diff)^{loc}$ and therefore there we have
+
+$$
+  Ho_{SPSh(Diff)^{loc}}(X, \mathbf{B}G )
+  \simeq
+  \pi_0 SPSh(X, G Bund)
+  \simeq
+  G Bund(X)_\sim
+$$ 
+
+as expected. In $SPSh(CartSp)$, however, $X$ is in general not representable, hence in general not cofibrant. But by propXYZ we have that the [[Cech nerve]] $C(U)$ of any good cover $U = \coprod_i U_i$ of $X$ is cofibrant. Hence here we find the above result by a different intermediate step
+
+$$
+  Ho_{SPSh(Cart)^{loc}}(X, \mathbf{B}G )
+  \simeq
+  \pi_0 SPSh(C(U), \mathbf{B}G)
+  \simeq
+  G Bund(X)_\sim
+  \,.
+$$
+
+=--
 
 #References#
 
