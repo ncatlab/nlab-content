@@ -46,4 +46,6 @@ _Toby_:  Sure, there are lots of [[adjunctions]] that work this way.  (I forget 
 
 So another good counterexample to think of is a [[delooping]] category $\mathbf{B}A$ of a [[monoid]] $A$ or $\mathbf{B}G$ of a [[group]] $G$: in as far as the product operation in $A$ and $G$ actually does something instead of just saying that $a \cdot b$ is $a b$, the corresponding category is not a free category.
 
+[[Eric]]: I'm still confused. What is it about these counterexamples that make them counterexamples? For example, if $G$ is finite, then there is a finite number of elements $g_1,g_2,\dots$ that generate all of $G$. We can construct a graph with one node and directed edge for each generator. Wouldn't the resulting quiver be equivalent to $\mathbf{B}G$?
+
 =--
