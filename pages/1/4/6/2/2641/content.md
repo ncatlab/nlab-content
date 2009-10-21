@@ -1,4 +1,4 @@
-"Unitary irrep" is a shorthand for **unitary irreducible representation** of a topological group $G$, i.e., a continuous homomorphism 
+"Unitary [[irrep]]" is a shorthand for **unitary [[irreducible representation]]** of a topological group $G$, i.e., a continuous homomorphism 
 
 $$U: G \to U(H)$$ 
 
