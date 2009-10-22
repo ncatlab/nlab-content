@@ -52,7 +52,16 @@ $$\langle (f, g); h \rangle \in coeq \qquad iff \qquad h f = h g$$
 
 [to be continued...]
 
+##Related Articles
+
+Regular categories were introduced by Barr in
+_Exact categories_, by M. Barr, Lecture Notes in Mathematics, Springer-Verlag 1971
+and by Grillet in the same volume of Lecture Notes in Mathematics.
+
+Some of the history is provided in 
+_Topos Theory_, by P. Johnstone, 1977.
+
 An application of the regularity condition is found in the paper
-*Tensor envelopes of regular categories, by F. Knop.   [arXiv:math/0610552v2](http://arxiv.org/abs/math/0610552)
+_Tensor envelopes of regular categories_, by F. Knop.   [arXiv:math/0610552v2](http://arxiv.org/abs/math/0610552)
 
 Knop's condition for regularity is slightly different from that presented here; he works with categories that when augmented by an absolutely initial object are regular in the terminology here.  In the paper, Knop generalizes a construction of Deligne by showing how to construct a symmetric pseudo-abelian [[tensor category]] out of a regular category through the calculus of relations.
