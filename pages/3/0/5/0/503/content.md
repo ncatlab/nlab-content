@@ -125,7 +125,7 @@ $$\frac{S \to q(c)}{S \to Set^{C^{op}}}$$
 
 and this proves $q(c) \cong Set^{C^{op}}(p, C(-, c))$. 
 
-With these identifications of $q(c)$ and $p(c), the unit of the adjunction $p \dashv q$ takes the form 
+With these identifications of $q(c)$ and $p(c)$, the unit of the adjunction $p \dashv q$ takes the form 
 
 $$\eta: 1 \to \int^{c} Set^{C^{op}}(p, C(-, c)) \times Set^{C^{op}}(C(-, c), p)$$ 
 
@@ -157,7 +157,7 @@ Indeed, the claim is that modules $p: C^{op} \to Set$ in the Cauchy completion a
 
 Notice that in a finitely complete category (such as $Set$ or a presheaf category), idempotents $e: c \to c$ split automatically: just take the equalizer of the pair 
 
-$$c \stackrel{\overset{e}{\to}}{\underset{1}{\to} c$$ 
+$$c \stackrel{\overset{e}{\to}}{\underset{1}{\to}} c$$ 
 
 For that matter, in any finitely cocomplete category, taking the coequalizer of the above pair would also split the idempotent. Indeed, we can say that idempotents split in a category iff all equalizers of such pairs exist, iff all coequalizers of such pairs exist. 
 
