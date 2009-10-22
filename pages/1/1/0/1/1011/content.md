@@ -98,4 +98,4 @@ Then
 
 $$F:BL\to RT$$
 
-is some kind of horizontal composition.
+is some kind of horizontal composition. Anyway, whether it is computads or directed graphs or specifying which edges commute or which edge don't commute, I'm pretty excited. I'm much more comfortable thinking about directed graphs, so the more I can use them to help understand other concepts, the better for me. If finite categories can be reduced to some smaller atomic graph, that would be kind of neat.
