@@ -67,14 +67,13 @@ One way to think of category theory is as a framework in which the idea is forma
 # Categorial foundations of mathematics
 
 Bill Lawvere proposed to found mathematics on a first-order axiomatisation of [[Cat|the category of categories]]. This has not been very successful, ...
-
 +--{.query}
 
 _[[Urs Schreiber|Urs]] asks_: Can you say what the problem is?
 
 _[[Toby Bartels|Toby]] answers_: I\'d say that it proved to be overkill; ETCS is simpler and no less conceptual. In ETCC (or whatever you call it), you can neatly define a group (for example) as a category with certain properties rather than as a set with certain structure. But then you still have to define a topological space (for example) as a set with certain structure (where a set is defined to be a discrete category, of course). I think that Lawvere himself still wants an ETCC, but everybody else seems to have decided to stick with ETCS.
 
-_Roger Witte_ asks:_ Surely in ETCC, you define complete Heyting algebras as particular kinds of category and then work with Frames and Locales (ie follow Paul Taylor's leaf and apply Stone Duality).  You should be able to get to Top by examining relationships between Loc and Set.  I thought Top might be the the comma category of forgetful functor from loc to set op and the contravariant powerset functor.  Thus a Topological space would consist of a triple S, L, f where S is a set, L is a locale and f is a function from the objects of the locale to the powerset of S.  A continuous function from S, L, f to S', L', f' is a pair g, h where g is a function from the powerset of S' to the powerset of S and g is a frame homomorphism from L' to L and _(I don't know how to draw the commutation square)_.  However I think this has too many spaces since lattice structures other than the inclusion lattice can be used to define open sets. 
+_Roger Witte_ asks: Surely in ETCC, you define complete Heyting algebras as particular kinds of category and then work with Frames and Locales (ie follow Paul Taylor's leaf and apply Stone Duality).  You should be able to get to Top by examining relationships between Loc and Set.  I thought Top might be the the comma category of forgetful functor from loc to set op and the contravariant powerset functor.  Thus a Topological space would consist of a triple S, L, f where S is a set, L is a locale and f is a function from the objects of the locale to the powerset of S.  A continuous function from S, L, f to S', L', f' is a pair g, h where g is a function from the powerset of S' to the powerset of S and g is a frame homomorphism from L' to L and _(I don't know how to draw the commutation square)_.  However I think this has too many spaces since lattice structures other than the inclusion lattice can be used to define open sets. 
 
 _Toby_:  It\'s straightforward to define a topological space as a set equipped with a subframe of its power set.  So you can define it as a set $S$, a frame $F$, and a frame monomorphism $f\colon F \to P(S)$, or equivalently as a set $S$, a locale $L$, and an epimorphism $f\colon L \to Disc(S)$ of locales, where $Disc(S)$ is the [[discrete space]] on $S$ as a locale.  (Your 'However, [...]' sentence is because you didn\'t specify epimorphism/monomorphism.)  This is a good perspective, but I don\'t think that it\'s any cleaner in ETCC than in ETCS.
 
@@ -114,8 +113,9 @@ No I don't think we do define everything the same way in Set.  I think it feels 
 If we want to discover whether using the category of categories we have to find the ad hoc solutions for everything, then assemble them into a logical order and abstract out the commonalities and then see whether we have a beautiful natural and coherent whole - a completely new perspective is inevitably messy initially.
 
 Sometimes our experience with sets helps us find the new way of thinking, sometimes it hinders.  But until we have undertaken the whole effort of providing a good story for how to found mathematics on categories of categories, we won't know whether we have thrown the baby out with the bathwater or whether we have put a new baby in the bath!
-=--
 
+_Toby_:  Yeah, I think Mike\'s last comment is unfair ... although it depends on which point he thinks Roger is missing.  ETCC is impractical for existing mathematics; it\'s pretty much immediate how to interpret almost all of 20th-century mathematics within ETCS, which is not exactly the case for ETCC.  Of course, we can do it ---ETCC includes ETCS, after all---, but then it is, as I said, 'overkill'.  But then again, some mathematics is easier to express in ETCC than in ETCS.  If Lawvere\'s vision is that *this* is the more fundamental and important mathematics, then Roger has a point, that it is not fair to judge their relative practicality by 20th-century standards.
+=--
 ... but his other proposal, a first-order axiomatisation of [[Set|the category of sets]], works well. These and related approaches to foundations may be called _structural_ or _categorial_ (or _categorical_, which is more common but clashes with another sense of 'categorical' in logic).
 
 +--{.query}
