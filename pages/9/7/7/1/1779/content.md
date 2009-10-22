@@ -1,3 +1,10 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+#Definition#
+
 Quite generally, in a [[category]] $C$ with [[pullback]]s (possibly [[homotopy pullback]]s), given a [[morphism]] $U \to X$ in $C$ its corresponding **&#268;ech nerve** $C(U)$ is the [[simplicial object]] in $C$ that in degree $k$ is given by the $k$-fold [[fiber product]] of $U$ over $X$ with itself :
 
 $$
