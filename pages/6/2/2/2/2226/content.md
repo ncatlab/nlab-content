@@ -1,14 +1,17 @@
 [[!redirects sign relations]]
 
+* tic
+{:toc}
+
 A __sign relation__ is a special type of [[triadic relation]] that arises in the use of signs to connote meanings and denote objects.  If this sounds reminiscent of what we do in applying logic and reasoning to the world, actual and ideal, it is no accident.  Indeed, the polymathematician [[Charles Sanders Peirce]] famously defined _logic_ as "formal semiotic", that is, the formal theory of signs.
 
-## History ##
+# History #
 
 It is possible to trace the idea of a triadic sign relation back to hints in Plato and what we know of the Stoics, but one of the most detailed early formulations is found in this passage by Aristotle:
 
 : Words spoken are symbols or signs $(\sigma\upsilon\mu\beta{o}\lambda\alpha)$ of affections or impressions $(\pi\alpha\theta\eta\mu\alpha\tau\alpha)$ of the soul $(\psi\upsilon\chi\eta)$;  written words are the signs of words spoken.  As writing, so also is speech not the same for all races of men.  But the mental affections themselves, of which these words are primarily signs $(\sigma\eta\mu\epsilon\iota\alpha)$, are the same for the whole of mankind, as are also the objects $(\pi\rho\alpha\gamma\mu\alpha\tau\alpha)$ of which those affections are representations or likenesses, images, copies $({o}\mu{o}\iota\omega\mu\alpha\tau\alpha)$.  (Aristotle, _De Interpretatione_, $1.16^{a}4$).
 
-## Definition ##
+# Definition #
 
 A definition of sign relations that is explicit enough to support the development of a formal theory was given by C.S. Peirce in the process of defining logic, and so it is informative to view it in that context.
 
@@ -26,7 +29,7 @@ Some of the terms that Peirce uses in his definition of a sign may need to be el
 
 * __Non-psychological.__  Peirce's "non-psychological conception of logic" must be distinguished from any variety of _anti-psychologism_.  He was quite interested in matters of psychology and had much to say about them.  But logic is a normative science while psychology is a descriptive science --- they are equipped with distinct sets of aims, methods, and rationales --- and thus the two sciences operate on different planes of study even when they have occasion to view the same data.
 
-## Examples of sign relations ##
+# Examples of sign relations #
 
 Because the examples to follow have been artificially constructed to be as simple as possible, their detailed elaboration can run the risk of trivializing the whole theory of sign relations.  Despite their simplicity, however, these examples have subtleties of their own, and their careful treatment will serve to illustrate many important issues in the general theory of signs.
 
@@ -88,7 +91,7 @@ These Tables codify a rudimentary level of interpretive practice for the agents 
 
 Already in this elementary context, there are several different meanings that might attach to the project of a _formal semiotics_, or a formal theory of meaning for signs.  In the process of discussing these alternatives, it is useful to introduce a few terms that are occasionally used in the philosophy of language to point out the needed distinctions.
 
-## Dyadic aspects of sign relations ##
+# Dyadic aspects of sign relations #
 
 For an arbitrary 3-adic relation $L \subseteq X \:\times\: Y \:\times\: Z = X_1 \:\times\: X_2 \:\times\: X_3$, there are six 2-adic (or 2-ary) relations that are obtained by projecting $L$ on one of the planes of the $X Y Z$-space $X \:\times\: Y \:\times\: Z$.  Various notations for these projections are defined by the following sequence of equations:
 
@@ -108,7 +111,7 @@ L_{Z Y} & = & proj_{Z Y} L & = & L_{32} & = & proj_{32} L & = &
 
 By way of unpacking the set-theoretic notation, here is what the first definition says in ordinary language.  The 2-adic relation that results from the projection of $L$ on the $X Y$-plane $X \:\times\: Y$ is written as $L_{X Y}$, $proj_{X Y} L$, $L_{12}$, or $proj_{12} L$, and it is defined as the set of ordered pairs $(x, y)$ in $X \:\times\: Y$ such that $(x, y, z)$ is in $L$ for some $z$ in $Z$.
 
-### Denotation ###
+## Denotation ##
 
 One aspect of a sign's complete meaning is concerned with the reference that a sign has to its objects, which objects are collectively known as the _denotation_ of the sign.  Denotative references fall within the projection of the sign relation on the plane that is spanned by its object domain and its sign domain.
 
@@ -140,7 +143,7 @@ Object & Sign \\
 \mathrm{B} & \backprime\backprime\mathrm{i}\prime\prime  }
 }$$
 
-### Connotation ###
+## Connotation ##
 
 Another aspect of meaning concerns the connection that a sign has to its interpretants within a given sign relation.  As before, this type of connection can be vacuous, singular, or plural in its collection of terminal points, and it can be formalized as the 2-adic relation that is obtained as a planar projection of the 3-adic sign relation in question.
 
@@ -182,7 +185,7 @@ Sign & Interpretant \\
 \backprime\backprime\mathrm{i}\prime\prime & \backprime\backprime\mathrm{i}\prime\prime  }
 }$$
 
-### Ennotation ###
+## Ennotation ##
 
 The aspect of a sign's meaning that arises from the 2-adic relation of its objects to its interpretants has no standard name.  If an interpretant is considered to be a sign in its own right, then its independent reference to an object can be taken as belonging to another moment of denotation, but this neglects the mediational character of the whole transaction in which this occurs.  Denotation and connotation have to do with 2-adic relations in which the sign plays an active role, but here we have to consider a 2-adic relation between objects and interpretants that is mediated by the sign from an off-stage position, as it were.  As a relation between objects and interpretants that is mediated by a sign, this aspect of meaning may be referred to as the _ennotation_ of a sign, and the 2-adic relation that forms the _ennotative component_ of a sign relation $L$ may be notated as $\mathop{Enn} (L)$.
 
@@ -214,17 +217,17 @@ Object & Interpretant \\
 \mathrm{B} & \backprime\backprime\mathrm{i}\prime\prime  }
 }$$
 
-## Semiotic equivalence relations ##
+# Semiotic equivalence relations #
 
 * See [[semiotic equivalence relation]].
 
-## References and further reading ##
+# References and further reading #
 
 * Aristotle, "On Interpretation", Harold P. Cooke (trans.), in _Aristotle_ (vol. 1), Harvard University Press, Cambridge, MA, 1938.
 
 * Peirce, C.S., _The New Elements of Mathematics by Charles S. Peirce_, 4 volumes in 5, Carolyn Eisele (ed.), Mouton Publishers, The Hague, Netherlands, 1976.  Humanities Press, Atlantic Highlands, NJ, 1976.  Cited as (NEM volume, page).
 
-## External links ##
+# External links #
 
 * [Sign Relation @ MyWikiBiz](http://mywikibiz.com/Sign_relation)
 
