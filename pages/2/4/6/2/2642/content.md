@@ -1,7 +1,7 @@
 
 #Idea#
 
-An _irreducible representation_ --  often abbreviated _irrep_ -- is a [[representation]] that has no smaller non-trivial representations "sitting iside it".
+An _irreducible representation_ --  often abbreviated _irrep_ -- is a [[representation]] that has no smaller non-trivial representations "sitting inside it".
 
 #Definition#
 
