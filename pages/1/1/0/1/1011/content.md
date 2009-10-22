@@ -105,3 +105,7 @@ is some kind of horizontal composition. Anyway, whether it is computads or direc
 By the way, I think the "fundamental category" of a computad is just going to be the reflection of its free 2-category into 1-categories (forcing all 2-cells to become identities).  It's certainly true that any finite category can be presented in this way by a finite computad, although not every category presented by a finite computad is finite (for instance, the monoid of natural numbers regarded as a 1-object category is presented by the computad with one object, one endo-1-cell, and no 2-cells).
 
 [[Eric]]: Hi Mike. Here is the page on [[directed n-graph]]s. A directed 2-edge simply has a source 1-edge and a target 1-edge. These do not have to be parallel. If there is some problem with that, we should change the page. Any inaccuracies there are my fault :)
+
+[[Todd Trimble]]: The notion of directed 2-graph as given there does seem weird to me. The problem is that if we think of a 2-cell as some kind of "shape" with boundary, then according to standard practice we should have something like "boundary of the boundary is zero". In the computad setting, there are globularity conditions that say "source of the source = source of the target, and target of the source = target of the target" which give the boundary of boundary conditions. 
+
+Ultimately we would want some sort of geometric realization of these critters, and it's hard to see how that would go precisely with the current [[directed n-graph]]. 
