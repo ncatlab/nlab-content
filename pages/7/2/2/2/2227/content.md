@@ -4,11 +4,14 @@
 [[!redirects ternary relation]]
 [[!redirects triadic relations]]
 
+* tic
+{:toc}
+
 A __triadic relation__ (or a __ternary relation__) is an important special case of a [[relation theory|polyadic or finitary relation]], one in which the number of places in the relation is three.  One may also see the adjectives _3-adic_, _3-ary_, _3-dimensional_, or _3-place_ being used to describe these relations.
 
 Mathematics is positively rife with examples of 3-adic relations, and the concept of a [[sign relation]], a special case of a 3-adic relation, is fundamental to the field of semiotics, or the theory of signs.  Therefore it will be useful to consider a few concrete examples from each of these two realms.
 
-## Examples from mathematics ##
+# Examples from mathematics #
 
 Let $\mathbb{B} = \{ 0, 1 \}$ and let "+" be taken in the sense of GF(2).
 
@@ -41,6 +44,8 @@ x & y & z \\
 1 & 1 & 1  }
 }
 $$
+
+# Examples from semiotics #
 
 The study of signs, the full array of significant forms of expression, in relation to the things that signs are significant _of_, as well as in relation to the interpretive agents that signs are significant _to_, is known as _semiotics_ or the _theory of signs_.  As just described, semiotics treats of 3-place relations among signs, their objects, and their interpreters.
 
@@ -94,25 +99,21 @@ Object & Sign & Interpretant \\
 
 * The triples in $L_{\mathrm{B}}$ represent the way that interpreter $\mathrm{B}$ uses signs. For example, the listing of the triple $(\mathrm{B}, \backprime\backprime \mathrm{i} \prime\prime, \backprime\backprime \mathrm{B} \prime\prime)$ in $L_{\mathrm{B}}$ represents the fact that $\mathrm{B}$ uses $\backprime\backprime \mathrm{B} \prime\prime$ to mean the same thing that $\mathrm{B}$ uses $\backprime\backprime \mathrm{i} \prime\prime$ to mean, namely, $\mathrm{B}$.
 
-## Further developments ##
+# Further developments #
 
 * [[sign relation]]
 * [[referent equivalence relation]]
 * [[semiotic equivalence relation]]
 
-## External links ##
+# External links #
 
 * [Triadic Relation @ MyWikiBiz](http://mywikibiz.com/Triadic_relation)
 * [Triadic Relation @ PlanetMath](http://planetmath.org/encyclopedia/TriadicRelation.html)
 
-## Discussion ##
+# Discussion #
 
-### Re: Examples from semiotics ###
-
-+-- {: .query}
 [[Toby Bartels]]: Is this from [[Charles Sanders Peirce|Peirce]]\'s theory of signs?  Have later researchers (mathematicians, logicians, semioticists, ...) continued to work on this?  ---Toby
 
 [[Jon Awbrey]]: Yes, I'll always be hewing to Peirce's line in this --- sometimes people use the form _[semeiotic](http://knol.google.com/k/jon-awbrey/semeiotic/3fkwvf69kridz/4)_ to distinguish his angle from others, but that often leads to long and pointless discussions about the words instead of the things.  I'll be giving some current links and references in due course.
 
 [[Jon Awbrey]]: Actually, I think that's pretty much all I'll have to say about sign relations under this heading --- leaving these examples here simply by way of having illustrations of 3-adic relations with non-identical domains --- and developing the subject of sign relations further under their own heading.  It's probably hard to tell from these impoverished examples, but there are applications to logic and computation --- eventually, ultimately --- which is kinda how I came to explore them in the first place.
-=--
