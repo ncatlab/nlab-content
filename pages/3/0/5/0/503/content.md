@@ -5,21 +5,21 @@
 
 #Idea and definition#
 
-The concept of Cauchy completeness, ordinarily thought of as applying to [[metric space]]s, was vastly generalized by [[Bill Lawvere]] in his influential paper "Metric spaces, generalized logic, and closed categories". It is now seen by [[category|theory|category theorist]s as a concept of [[enriched category theory]], with close ties to the concept of [[Morita equivalence]] in the theory of [[module]]s. 
+The concept of Cauchy completeness, ordinarily thought of as applying to [[metric space]]s, was vastly generalized by [[Bill Lawvere]] in his influential paper "Metric spaces, generalized logic, and closed categories". It is now seen by [[category theory|category theorists]] as a concept of [[enriched category theory]], with close ties to the concept of [[Morita equivalence]] in the theory of [[module]]s. 
 
-The basic idea is that the Cauchy completion of a [[category]] is the closure of a category under what are called "absolute limits", i.e., [[limit]]s that are preserved by any [[functor]] whatsoever. Equivalently, the Cauchy completion is the closure with respect to absolute [[colimit]]s. If $C$ is [[small category|small]], the Cauchy completion $\bar{C}$ of $C$ lies between $C$ and its "[[free cocompletion]]", aka [[presheaf]] category
+The basic idea is that the Cauchy completion of a [[category]] is the closure of a category under what are called "[[absolute limit]]s", i.e., those [[limit]]s that are preserved by any [[functor]] whatsoever. Equivalently, the Cauchy completion is the closure with respect to [[absolute colimit]]s. If $C$ is [[small category|small]], the Cauchy completion $\bar{C}$ of $C$ lies between $C$ and its "[[free cocompletion]]", aka [[presheaf]] category
 
 $$C \hookrightarrow \bar{C} \hookrightarrow Set^{C^{op}}$$ 
 
-(see the entry at [[presheaf]] for "free cocompletion"), and consists of those presheaves $F$ dubbed [[tiny object|tiny]] by Lawvere, meaning those presheaves which are [[connected object|connected]] and [[projective object|projective]]: the functor 
+and consists of those presheaves $F$ dubbed [[tiny object|tiny]] by Lawvere, meaning those presheaves which are [[connected object|connected]] and [[projective object|projective]]: the functor 
 
 $$hom_{Set^{C^{op}}}(F, -): Set^{C^{op}} \to Set$$ 
 
-preserves small coproducts and coequalizers. All of these concepts generalize straightforwardly to the context of general $V$-[[enriched category theory|enriched categories]], where $V$ is a [[complete category|complete]], [[cocomplete category|cocomplete]], [[symmetric monoidal category|symmetric]] [[monoidal closed category]]. 
+preserves small [[coproducts]] and [[coequalizers]]. All of these concepts generalize straightforwardly to the context of general $V$-[[enriched category theory|enriched categories]], where $V$ is a [[complete category|complete]], [[cocomplete category|cocomplete]], [[symmetric monoidal category|symmetric]] [[monoidal closed category]]. 
 
-Lawvere defines a **point** of the Cauchy completion of a small $V$-category $C$ to be a $V$-enriched [[bimodule]] $p: \mathbf{1} \to C$ (in other words, a $V$-functor $\mathbf{1} \to V^{C^{op}}$) for which there is a bimodule $q: C \to \mathbf{1}$ right adjoint to $p$ (in the [[bicategory]] of enriched bimodules (see [[profunctor]])), where $\mathbf{1}$ is the unit $V$-category. Thus points of the Cauchy completion are certain $V$-enriched presheaves $p: C^{op} \to V$, and together form a $V$-category called the **Cauchy completion** whose [[hom-object|hom]]s are the presheaf homs. It is denoted $\bar{C}$. 
+Lawvere defines a **point** of the Cauchy completion of a small $V$-category $C$ to be a $V$-enriched [[bimodule]] $p: \mathbf{1} \to C$ (in other words, a $V$-functor $\mathbf{1} \to V^{C^{op}}$) for which there is a bimodule $q: C \to \mathbf{1}$ right adjoint to $p$ (in the [[bicategory]] of enriched bimodules, see [[profunctor]]), where $\mathbf{1}$ is the unit $V$-category. Thus points of the Cauchy completion are certain $V$-enriched presheaves $p: C^{op} \to V$, and together form a $V$-category called the **Cauchy completion** whose [[hom-object|hom]]s are the presheaf homs. It is denoted $\bar{C}$. 
 
-As we will explain in more detail below, representables belong to the Cauchy completion, and so the Yoneda embedding of $C$ factors through a full embedding 
+As we will explain in more detail below, [[representable functor|representable presheaves]] belong to the Cauchy completion, and so the [[Yoneda embedding]] of $C$ factors through a full embedding 
 
 $$i: C \to \bar{C}$$ 
 
@@ -29,7 +29,7 @@ and we say the $V$-category $C$ is **Cauchy-complete** if this emebedding is an 
 
 #### Example of metric spaces 
 
-We consider first the classical case of [[metric space]]s, but as redefined by Lawvere to mean a category enriched in the [[poset]] $V = ([0, \infty], \geq)$, with [[tensor product]] given by addition. So, to say $X$ is a Lawvere metric space means that with the set $X$ there is a distance function 
+We consider first the classical case of [[metric space]]s, but as redefined by Lawvere to mean a category enriched in the [[poset]] $V = ([0, \infty], \geq)$, with [[tensor product]] given by addition. So, to say $X$ is a [[Lawvere metric space]] means that with the set $X$ there is a distance function 
 
 $$d_X = hom_X: X \times X \to [0, \infty]$$ 
 
@@ -41,13 +41,13 @@ for all $x, y, z$ in $X$. (The associativity and identity axioms are here superf
 
 $$d_X(x, y) \geq d_Y(f(x), f(y))$$ 
 
-for all $x, y$ in $X$ (again, preservation of composition and of identities is superfluous here), so that $V$-functors are contractive maps between vector spaces (Lipschitz maps with constant 1). Finally, a $V$-enriched transformation $f \to g: X \to Y$ in this case boils down to an instance of a property: that 
+for all $x, y$ in $X$ (again, preservation of composition and of identities is superfluous here), so that $V$-functors are [[short maps]] between vector spaces (Lipschitz maps with constant at most $1$). Finally, a $V$-enriched transformation $f \to g: X \to Y$ in this case boils down to an instance of a property: that 
 
 $$0 \geq d_Y(f(x), g(x))$$ 
 
 for all $x$ in $X$. If $f, g$ are valued in $[0, \infty]$, this just means $f(x) \geq g(x)$ for all $x$. 
 
-A point of the Cauchy completion is an $X$-module $p: \mathbf{1} \to X$, i.e., an enriched functor or contractive map 
+A point of the Cauchy completion is an $X$-module $p: \mathbf{1} \to X$, i.e., an enriched functor or short map 
 
 $$p: X^{op} \to [0, \infty]$$ 
 
@@ -55,7 +55,7 @@ for which there is an $X$-module $q: X \to \mathbf{1}$ on the other side, an enr
 
 $$q: X \to [0, \infty]$$ 
 
-that is right adjoint to $p$ in the sense of modules. This means there is a unit of the adjunction in the bicategory of modules: 
+that is [[right adjoint]] to $p$ in the sense of modules. This means there is a unit of the adjunction in the bicategory of modules: 
 
 $$(Id: \mathbf{1} \to \mathbf{1}) \to (\mathbf{1} \overset{p}{\to} X \overset{q}{\to} \mathbf{1})$$ 
 
@@ -63,7 +63,7 @@ and a counit:
 
 $$(X \overset{q}{\to} \mathbf{1} \overset{p}{\to} X) \to (Id: X \to X)$$ 
 
-Recall now that $Id_X: X \to X$ in the bicategory of modules is the unit bimodule $y_X: X \to V^{X^{op}}$ given by the enriched [[Yoneda embedding]], or in different words, $hom_X = d_X: X^{op} \times X \to [0, \infty]$. Recall also that module composition is defined by a coend formula for a tensor product. If one now tracks through the definitions, keeping in mind that we are in the very simple case of enrichment in a poset, the unit of the [[adjunction]] $p \dashv q$ boils down to having the property 
+Recall now that $Id_X: X \to X$ in the bicategory of modules is the unit bimodule $y_X: X \to V^{X^{op}}$ given by the enriched [[Yoneda embedding]], or in different words, $hom_X = d_X: X^{op} \times X \to [0, \infty]$. Recall also that module composition is defined by a [[coend]] formula for a tensor product. If one now tracks through the definitions, keeping in mind that we are in the very simple case of enrichment in a poset, the unit of the [[adjunction]] $p \dashv q$ boils down to having the property 
 
 $$0 \geq \int^{x \in X} q(x) + p(x) = \inf_{x \in X} q(x) + p(x)$$ 
 
@@ -75,11 +75,11 @@ To better appreciate what these conditions mean, we point out that $p(x)$ should
 
 $$d_{\bar{X}}(p, x) \lt \varepsilon, \, d_{\bar{X}}(x, p) \lt \varepsilon$$ 
 
-and the counit condition imposes a necessary triangle inequality constraint on the distance functions $p$ and $q$, in order that we get an actual metric space $\bar{X}$. If $p, p'$ are two points of the Cauchy completion thus defined, then their distance is defined by the usual formula for enriched presheaves: 
+and the counit condition imposes a necessary triangle inequality constraint on the distance functions $p$ and $q$, in order that we get an actual Lawvere metric space $\bar{X}$. If $p, p'$ are two points of the Cauchy completion thus defined, then their distance is defined by the usual formula for enriched presheaves: 
 
 $$d(p, p') = \int_{x \in X} \hom_{[0, \infty]}(p(x), p'(x)) = \sup_{x \in X} \max\{0, p'(x) - p(x)\}$$ 
 
-It should be noted that even under the classical definitions where we impose symmetry ($d(x, y) = d(y, x)$) and separation ($d(x, y) = 0$ implies $x = y$), this provides an elegant alternative definition of Cauchy completion. In essence, all it is doing is taking the metric closure $\bar{X}$ of the embedding of $X$ into the already complete space of contractive maps:  
+It should be noted that even under the classical definition (where we impose symmetry $d(x, y) = d(y, x)$, separation $d(x, y) \gt 0$ for $x \neq y$, and finiteness $d(x,y) \lt \infty$), this provides an elegant alternative definition of Cauchy completion. In essence, all it is doing is taking the metric closure $\bar{X}$ of the embedding of $X$ into the already complete space of short maps:  
 
 $$y_X: X \to [0, \infty]^{X^{op}}: x \mapsto d_X(-, x)$$ 
 
@@ -87,11 +87,17 @@ The presheaf-hom definition of the distance formula for $\bar{X}$, being manifes
 
 $$\sigma d(r, s) = d(r, s) + d(s, r) = \max\{0, s-r\} + \max\{0, r-s\} = |r - s|$$ 
 
-then we would retrieve the classical formula 
+or equivalently
+
+$$\sigma d(r, s) = d(r, s) + d(s, r) = \max(\max\{0, s-r\}, \max\{0, r-s\}) = |r - s|$$ 
+
+then we do retrieve the classical formula 
 
 $$d(p, p') = \int_{x \in X} \sigma d(p(x), p'(x)) = \sup_{x \in X} |p(x) - p'(x)|$$ 
 
-#### Example of ordinary (Set-enriched) categories
+In other words, the completion $\bar{X}$ of a symmetric metric space $X$ as a general (Lawvere) metric space is not necessarily the same as its completion $\sigma\bar{X}$ as a symmetric metric space, but $\sigma\bar{X}$ is the symmetrisation of $\bar{X}$.
+
+#### Example of ordinary ($Set$-enriched) categories
 
 The analysis of Cauchy complete Lawvere metric spaces contains some of the seeds of what happens in other enriched category contexts; the case of ordinary small categories, where the enrichment is no longer in a mere poset but in $Set$, reflects still more of the phenomena generally associated with Cauchy completions. 
 
@@ -147,13 +153,13 @@ that
 
 $$(p \overset{i}{\to} C(-, c) \overset{\pi}{\to} p) = 1_p$$ 
 
-and so a point $p$ in the Cauchy completion $\bar{C}$ must be a retract of a representable $C(-, c)$. Spelling this out a little more: the composite 
+and so a point $p$ in the Cauchy completion $\bar{C}$ must be a [[retract]] of a [[representable functor|representable]] $C(-, c)$. Spelling this out a little more: the composite 
 
 $$C(-, c) \overset{\pi}{\to} p \overset{i}{\to} C(-, c)$$ 
 
-is an idempotent represented by a morphism $e: c \to c$ in $C$ (by the Yoneda lemma), and this factorization through $p$ splits the idempotent $C(-, e)$ in $Set^{C^{op}}$. 
+is an [[idempotent]] represented by a morphism $e: c \to c$ in $C$ (by the Yoneda lemma), and this factorization through $p$ [[split idempotent|splits]] the idempotent $C(-, e)$ in $Set^{C^{op}}$. 
 
-Indeed, the claim is that modules $p: C^{op} \to Set$ in the Cauchy completion are precisely those presheaves on $C$ which arise as retracts of representables in $Set^{C^{op}}$, or in other words may be identified with objects of the idempotent-splitting completion of $C$ (aka the _Karoubi envelope_ of $C$). Therefore, in the $Set$-enriched case, the Cauchy completion _is_ the idempotent-splitting completion. In particular, representables themselves are points of the Cauchy completion. 
+Indeed, the claim is that modules $p: C^{op} \to Set$ in the Cauchy completion are precisely those presheaves on $C$ which arise as retracts of representables in $Set^{C^{op}}$, or in other words may be identified with objects of the idempotent-splitting completion of $C$ (aka the _[[Karoubi envelope]]_ of $C$). Therefore, in the $Set$-enriched case, the Cauchy completion _is_ the idempotent-splitting completion. In particular, representables themselves are points of the Cauchy completion. 
 
 Notice that in a finitely complete category (such as $Set$ or a presheaf category), idempotents $e: c \to c$ split automatically: just take the equalizer of the pair 
 
