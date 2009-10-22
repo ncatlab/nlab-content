@@ -1,6 +1,6 @@
 ##Idea##
 
-A directed $n$-graph is a higher dimensional generalization of a [[directed graph]] with $r$-dimensional _edges_ spanning $(r-1)$-dimensional _vertices_.
+A directed $n$-graph, or $n$-digraph, is a higher dimensional generalization of a [[directed graph]] with $r$-dimensional _edges_ spanning $(r-1)$-dimensional _vertices_.
 
 A directed $n$-graph is like an [[n-category]] with units and composition forgotten. Indeed, an $n$-category is a directed $n$-graph with extra structure.  To formalize this idea, we say there is a [[forgetful functor]] 
 
@@ -52,3 +52,6 @@ Let $G_r = G(X_r)$, $s_r = G(s_r)$, $t_r = G(t_r)$.
 ##See also##
 ***
 * $\omega$-[[omega-graph|graph]]
+
+
+[[!redirects n-digraph]]
