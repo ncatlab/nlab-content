@@ -8,11 +8,15 @@
 [[!redirects semiotic equivalence relations]]
 [[!redirects semiotic partition]]
 [[!redirects semiotic partitions]]
-[[!redirects SEC]][[!redirects SEP]][[!redirects SEQ]][[!redirects SER]]
+[[!redirects SEC]][[!redirects SEP]]
+[[!redirects SEQ]][[!redirects SER]]
+
+* tic
+{:toc}
 
 A __semiotic equivalence relation__ (SER) is a special type of [[equivalence relation]] that arises in the analysis of [[sign relations]].  As a general rule, any equivalence relation is closely associated with a family of [[equivalence classes]] that [[partition]] the underlying set of elements, frequently called the _domain_ or _space_ of the relation.  In the case of a SER, the equivalence classes are called __semiotic equivalence classes__ (SECs) and the partition is called a __semiotic partition__ (SEP).
 
-## Examples ##
+# Examples #
 
 Tables&#160;1 and 2 list the triples of two finite relations, $L_\mathrm{A}$ and $L_\mathrm{B}$, that are introduced in the pages on [[sign relations]] and [[triadic relations]] as examples of those two concepts.
 
@@ -98,7 +102,7 @@ $$\array{
 \backprime\backprime\mathrm{u}\prime\prime & \backprime\backprime\mathrm{B}\prime\prime }
 }$$
 
-## Notation ##
+# Notation #
 
 A few items of notation are useful in discussing equivalence relations in general and semiotic equivalence relations in particular.
 
@@ -190,6 +194,6 @@ Thus it induces the semiotic partition:
 
 $$\{ \{ \backprime\backprime\mathrm{A}\prime\prime, \backprime\backprime\mathrm{u}\prime\prime \}, \{ \backprime\backprime\mathrm{B}\prime\prime, \backprime\backprime\mathrm{i}\prime\prime \} \}$$
 
-## External links ##
+# Links #
 
 * [Semiotic Equivalence Relation @ PlanetMath](http://planetmath.org/encyclopedia/SemioticEquivalenceRelation.html)
