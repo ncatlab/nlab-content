@@ -26,7 +26,7 @@ Relevant topics in a full account will include
 
 * [[spectral theorem|Spectral theorem]]
 
-* [[rigged Hilbert space|Rigged Hilbert spaces]] and [[direct intergal|direct integrals]]
+* [[rigged Hilbert space|Rigged Hilbert spaces]] and [[direct integral|direct integrals]]
 
 * [[induced representation]]s
 
