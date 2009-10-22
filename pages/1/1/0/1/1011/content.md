@@ -103,3 +103,5 @@ is some kind of horizontal composition. Anyway, whether it is computads or direc
 [[Mike Shulman]]: I'm not sure what you mean by a 2-graph, but if you mean the obvious thing, then you can't have an edge $L\to T$ in one since $L$ and $T$ aren't parallel.
 
 By the way, I think the "fundamental category" of a computad is just going to be the reflection of its free 2-category into 1-categories (forcing all 2-cells to become identities).  It's certainly true that any finite category can be presented in this way by a finite computad, although not every category presented by a finite computad is finite (for instance, the monoid of natural numbers regarded as a 1-object category is presented by the computad with one object, one endo-1-cell, and no 2-cells).
+
+[[Eric]]: Hi Mike. Here is the page on [[directed n-graph]]s. A directed 2-edge simply has a source 1-edge and a target 1-edge. These do not have to be parallel. If there is some problem with that, we should change the page. Any inaccuracies there are my fault :)
