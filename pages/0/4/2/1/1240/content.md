@@ -113,6 +113,46 @@ We get a representation $r$ of $G$ on the vector space $\Gamma(E)$ of sections o
 
 $(r(g_1)f)(x) = g_1\cdot f(g_1^{-1}\cdot x)$
 
+##Unitarity##
+
++-- {: .standout}
+Beware! The chain of reasoning in this subsection is not complete, and I'm not confident that it's entirely correct. I'm posting it half-finished in the hope that many hands will make lighter (and more accurate) work.
+=--
+
+In physics, one is often concerned with unitary representations, so we should make sure that a unitary representation of $H$ will induce a unitary representation of $G$.
+
+Let's say $V$ has an inner product, $\lang \cdot, \cdot \rang$, and $s$ is a unitary representation. We can define an inner product on $E_x$ by $\lang \lang p, q \rang \rang \equiv \lang \phi_g^{-1}(p), \phi_g^{-1}(q) \rang$. This definition is independent of our choice of $g$: if we chose $g h$ instead, we'd have
+
+$$\lang \lang p, q \rang \rang = \lang \phi_{g h}^{-1}(p), \phi_{g h}^{-1}(q) \rang = \lang s(h^{-1}) \circ \phi_g^{-1}(p), s(h^{-1}) \circ \phi_g^{-1}(q) \rang = \lang \phi_g^{-1}(p), \phi_g^{-1}(q) \rang.$$
+
+To be really thorough, we should verify that $\lang \lang \cdot, \cdot \rang \rang$ is in fact an inner product, but this should follow directly from our definition of the vector space operations on $E_x$.
+
+Now we need to show that the action of any $g_1 \in G$ on the fiber $E_{(g H)}$ is unitary:
+
+$$\lang \lang g_1 \cdot p, g_1 \cdot q \rang \rang = \lang \lang \phi_{g_1 g} \circ \phi_g^{-1}(p), \phi_{g_1 g} \circ \phi_g^{-1}(q) \rang \rang = \lang \phi_{g_1 g}^{-1} \circ \phi_{g_1 g} \circ \phi_g^{-1}(p), \phi_{g_1 g}^{-1} \circ \phi_{g_1 g} \circ \phi_g^{-1}(q) \rang = \lang \phi_g^{-1}(p), \phi_g^{-1}(q) \rang = \lang \lang p, q \rang \rang.$$
+
+Finally, we need to define an inner product on $\Gamma(E)$, and show that the representation $r$ is unitary. If we had a $G$-invariant measure $\mu$ on $G/H$, we could define the inner product of two sections of $f$ and $f'$ of $E$ to be
+
+$$\int \lang \lang f(x), f'(x) \rang \rang \; d\mu(x).$$
+
+We would then have
+
+$$\int \lang \lang (r(g_1)f)(x), (r(g_1)f')(x) \rang \rang \; d\mu(x) = \int \lang \lang g_1 \cdot f(g_1^{-1} \cdot x), g_1 \cdot f'(g_1^{-1} \cdot x) \rang \rang \; d\mu(x) = \int \lang \lang f(g_1^{-1} \cdot x), f'(g_1^{-1} \cdot x) \rang \rang \; d\mu(x)$$
+
+(because $g_1$ acts unitarily on each fiber)
+
+$$= \int \lang \lang f(x), f'(x) \rang \rang \; d\mu(g_1 \cdot x)$$
+
+(because $G$ acts transitively on $G/H$)
+
+$$= \int \lang \lang f(x), f'(x) \rang \rang \; d\mu(x)$$
+
+(because $\mu$ is $G$-invariant). This shows that $r$ is unitary.
+
++-- {: .query}
+But where do we get a $G$-invariant measure on $G/H$?
+=--
+
 #Adjoint of induced bundle construction#
 
 
