@@ -1,0 +1,3 @@
+# Idea #
+
+An **$n$-quiver** is a free [[n-category]]...
