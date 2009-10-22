@@ -109,3 +109,27 @@ By the way, I think the "fundamental category" of a computad is just going to be
 [[Todd Trimble]]: The notion of directed 2-graph as given there does seem weird to me. The problem is that if we think of a 2-cell as some kind of "shape" with boundary, then according to standard practice we should have something like "boundary of the boundary is zero". In the computad setting, there are globularity conditions that say "source of the source = source of the target, and target of the source = target of the target" which give the boundary of boundary conditions. 
 
 Ultimately we would want some sort of geometric realization of these critters, and it's hard to see how that would go precisely with the current [[directed n-graph]]. 
+
+[[Eric]]: One of the motivations (for me anyway) for that definition was precisely to get away from the globularity conditions. I come from the perspective of computational physics where the graph is intended to represent a model of spacetime. These types of directed $n$-graphs are precisely what appear in [[ericforgy:Discrete differential geometry on causal graphs|our paper]]. I kind of think of them as being "pre-geometric". They become geometric once you form the $n$-quiver OR construct a differential graded algebra from them as Urs and I outlined in that paper.
+
+In our paper, we start with just a directed 1-graph and build up the higher degree elements by introducing a coboundary. I agree, it is not "geometry" until you have a nilpotent coboundary, but these directed $n$-graphs form the basis for building geometries.
+
+You might sense I have aspirations for this stuff. Talking about "pre-geometry" in the hopes it might pertain to "primordial". Something along the lines, "In the beginning, there was a graph..."
+
+[[Eric]]: It was starting to get late last night and I crashed, but kept thinking about this. Mike said:
+
+>it's not true that you can make a 2-category out of a category by putting a 2-cell between any two unequal parallel arrows.  For one, there would be no identity 2-cells (since an arrow *is* equal to itself), 
+
+Sorry I wasn't clear. There are always identity 2-morphisms when you pass to the free category. The absence of a cell in the graph maps to an identity morphism in the quiver. That is why all 1-paths commute by default, i.e. 
+
+$$\text{identity 2-morphism} \leftrightarrow \text{1-paths commute}.$$
+
+Each 1-edge gets mapped to a morphism PLUS an identity 2-morphism (and identity 3-morphism, etc). An edge is a trivial path that commutes with itself, which means each edge comes with an identity 2-morphism when passing to the guiver. This is completely analogous to how an $n$-category can be thought of as an $\infty$-category where all morphism greater than $n$ are identity morphisms.
+
+I should have made that more clear.
+
+>and for two, you can't compose inequalities; if $f\neq g$ and $g\neq h$ it can still be that $f=h$.
+
+This is fine. We want to think of $FG:f\to g$, $GH:g\to h$, $FH:f\to h$ as $2$-transports. If $FG$ is not an identity, it means $f\neq g$. If $GH$ is not an identity, it means $g\neq h$. HOWEVER, if $FH$ is an identity, then $f = h$. The neat thing about this, which is a feature, not a bug, is that when composing two non-identity 2-morphisms gives an identity 2-morphism, it means that the 3-morphism is an identity 3-morphism.
+
+In other words, the fact that you can't compose inequalities is fine. In the case that $f\neq g$ and $g\neq h$, but $f = h$, this implies that the 2-paths commute and the corresponding 3-cell is an identity (meaning the 3-curvature vanishes). In fact, that is the default behavior. If you wanted the 2-paths to not commute, you'd have to insert a directed 3-edge giving non-zero 3-curvature.
