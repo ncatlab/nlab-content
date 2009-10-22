@@ -5,6 +5,10 @@ See the remarks at [[rational homotopy theory]] and
 [[Lie theory]] for background on the Lie-theoretic interpretation
 differential graded (co)algebra.
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 Recall that an $L_\infty$-[[Lie infinity-algebroid|algebroid]] is both a
@@ -248,6 +252,10 @@ to the derived category of [[D-modules]] on $X$, or the like.
 
 
 #References#
+
+This definition appears in
+
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], [[schreiber:differential twisted String and Fivebrane structures|Differential twisted String and Fivebrane structures]]
 
 The definition of the dg-category of dg-algebra modules and its
 equivalence in special cases to derived categories of coherent complexes of sheaves is
