@@ -15,17 +15,15 @@ $$C \hookrightarrow \bar{C} \hookrightarrow Set^{C^{op}}$$
 
 $$hom_{Set^{C^{op}}}(F, -): Set^{C^{op}} \to Set$$ 
 
-preserves small coproducts and coequalizers.
+preserves small coproducts and coequalizers. All of these concepts generalize straightforwardly to the context of general $V$-[[enriched category theory|enriched categories]], where $V$ is a [[complete category|complete]], [[cocomplete category|cocomplete]], [[symmetric monoidal category|symmetric]] [[monoidal closed category]]. 
 
-+--{: .query}
-[[Mike Shulman]]: I raised this at latest changes, but it's contentful so it should probably be here.  I don't think the word "projective" is appropriate here, because preserving coequalizers is different from preserving (even regular) epimorphisms.  The object $\mathbb{Z}$ is [[projective object|projective]] in $Ab$ in the usual sense that $hom(\mathbb{Z},-)$ preserves epis (all of which are regular, since $Ab$ is [[abelian category|abelian]]), but $hom(\mathbb{Z},-)$ is also equivalent to the "underlying-set" functor $Ab\to Set$ which does *not* preserve all coequalizers.
-=--
+Lawvere defines a **point** of the Cauchy completion of a small $V$-category $C$ to be a $V$-enriched [[bimodule]] $p: \mathbf{1} \to C$ (in other words, a $V$-functor $\mathbf{1} \to V^{C^{op}}$) for which there is a bimodule $q: C \to \mathbf{1}$ right adjoint to $p$ (in the [[bicategory]] of enriched bimodules (see [[profunctor]])), where $\mathbf{1}$ is the unit $V$-category. Thus points of the Cauchy completion are certain $V$-enriched presheaves $p: C^{op} \to V$, and together form a $V$-category called the **Cauchy completion** whose [[hom-object|hom]]s are the presheaf homs. It is denoted $\bar{C}$. 
 
-All of these concepts generalize straightforwardly to the context of general $V$-[[enriched category theory|enriched categories]], where $V$ is a [[complete category|complete]], [[cocomplete category|cocomplete]], [[symmetric monoidal category|symmetric]] [[monoidal closed category]].  We simply replace $Set$ by $V$ to obtain the free $V$-cocompletion $C\hookrightarrow V^{C^{op}}$, and let $\bar{C}$ consist of the tiny objects in $V^{C^{op}}$.  This can equivalently be described as the free (co)completion of $C$ under absolute [[weighted limits]].  It is important to note that the notion of Cauchy completion depends greatly on $V$.
+As we will explain in more detail below, representables belong to the Cauchy completion, and so the Yoneda embedding of $C$ factors through a full embedding 
 
-An alternate viewpoint is to consider a presheaf $F\in V^{C^{op}}$ as a $V$-enriched [[bimodule]] (or [[profunctor]]) $p: \mathbf{1} \to C$, where $\mathbf{1}$ is the unit $V$-category.  One can then show that $F$ is tiny if and only if $p$ has a right adjoint $q: C \to \mathbf{1}$ in the [[bicategory]] of enriched bimodules.  For this reason, Lawvere defines a **point** of the Cauchy completion of a small $V$-category $C$ to be such a bimodule.  In this way we recover the points of the Cauchy completion as certain $V$-enriched presheaves $p: C^{op} \to V$ (the tiny ones), and together they form a $V$-category whose [[hom-object|hom]]s are the presheaf homs.
+$$i: C \to \bar{C}$$ 
 
-We work through a few examples in the following section.
+and we say the $V$-category $C$ is **Cauchy-complete** if this emebedding is an equivalence. We work through a few examples in the following section. 
 
 ## Examples 
 
@@ -47,7 +45,7 @@ for all $x, y$ in $X$ (again, preservation of composition and of identities is s
 
 $$0 \geq d_Y(f(x), g(x))$$ 
 
-for all $x$ in $X$ (and hence $d_Y(f(x),g(x))=0$).  If $f, g$ are valued in $[0, \infty]$, this just means $f(x) \geq g(x)$ for all $x$. 
+for all $x$ in $X$. If $f, g$ are valued in $[0, \infty]$, this just means $f(x) \geq g(x)$ for all $x$. 
 
 A point of the Cauchy completion is an $X$-module $p: \mathbf{1} \to X$, i.e., an enriched functor or contractive map 
 
@@ -95,21 +93,83 @@ $$d(p, p') = \int_{x \in X} \sigma d(p(x), p'(x)) = \sup_{x \in X} |p(x) - p'(x)
 
 #### Example of ordinary (Set-enriched) categories
 
-To be filled in... 
+The analysis of Cauchy complete Lawvere metric spaces contains some of the seeds of what happens in other enriched category contexts; the case of ordinary small categories, where the enrichment is no longer in a mere poset but in $Set$, reflects still more of the phenomena generally associated with Cauchy completions. 
+
+Let $C$ be a small category and let the module $p: \mathbf{1} \to C$ be a point of $\bar{C}$, with module $q: C \to \mathbf{1}$ as its right adjoint in the bicategory of modules. As functors, 
+
+$$p: C^{op} \to Set, \, q: C \to Set$$ 
+
+and the structure of the adjunction is given by unit and counit maps:  
+
+$$\eta: 1 \to \int^{c \in Ob(C)} q(c) \times p(c), \qquad \varepsilon_{c, d}: p(c) \times q(d) \to C(c, d)$$ 
+
+As we said in the case of metric spaces, $p(c)$ and $q(c)$ measure "distances" = homs: 
+
+$$p(c) \cong Set^{C^{op}}(C(-, c), p), \qquad q(c) \cong Set^{C^{op}}(p, C(-, c))$$ 
+
+The first isomorphism is an instance of the Yoneda lemma, and the second can be seen as follows. The set $q(c)$ is the bimodule composite 
+
+$$(\mathbf{1} \overset{c}{\to} C \overset{q}{\to} \mathbf{1})$$ 
+
+where $c$ is shorthand for the module $C(-, c): C^{op} \to Set$; this is just an instance of the Yoneda lemma: 
+
+$$q \circ_C C(-, c) \overset{def}{=} \int^{d \in C} q(d) \times C(d, c) \overset{Yoneda}{\cong} q(c).$$ 
+
+Now using the adjunction $p \dashv q$, there are, for any set $S$, natural bijections 
+
+$$\frac{\frac{S \to q(c)}{S \to q \circ_C C(-, c)}}{\frac{p \circ_{\mathbf{1}} S \to C(-, c)}{p(-) \times S \to C(-, c)}}$$
+
+and maps in the bottom line are in bijection with maps $S \to Set^{C^{op}}(p, C(-, c))$. Therefore we have a natural bijection 
+
+$$\frac{S \to q(c)}{S \to Set^{C^{op}}}$$ 
+
+and this proves $q(c) \cong Set^{C^{op}}(p, C(-, c))$. 
+
+With these identifications of $q(c)$ and $p(c), the unit of the adjunction $p \dashv q$ takes the form 
+
+$$\eta: 1 \to \int^{c} Set^{C^{op}}(p, C(-, c)) \times Set^{C^{op}}(C(-, c), p)$$ 
+
+The coend above is a quotient of 
+
+$$\sum_c Set^{C^{op}}(p, C(-, c)) \times Set^{C^{op}}(C(-, c), p)$$ 
+
+and hence the unit element $\eta$ is represented by a pair of transformations 
+
+$$i: p \to C(-, c), \qquad \pi: C(-, c) \to p$$ 
+
+for some $c$. 
+
+Given that, it is now not hard -- in fact it is fairly tautological -- to verify that on the basis of the triangular equation of the adjunction which says 
+
+$$(p \overset{p \circ \eta}{\to} p \circ q \circ p \overset{\varepsilon}{\to} p) = 1_p,$$ 
+
+that 
+
+$$(p \overset{i}{\to} C(-, c) \overset{\pi}{\to} p) = 1_p$$ 
+
+and so a point $p$ in the Cauchy completion $\bar{C}$ must be a retract of a representable $C(-, c)$. Spelling this out a little more: the composite 
+
+$$C(-, c) \overset{\pi}{\to} p \overset{i}{\to} C(-, c)$$ 
+
+is an idempotent represented by a morphism $e: c \to c$ in $C$ (by the Yoneda lemma), and this factorization through $p$ splits the idempotent $C(-, e)$ in $Set^{C^{op}}$. 
+
+Indeed, the claim is that modules $p: C^{op} \to Set$ in the Cauchy completion are precisely those presheaves on $C$ which arise as retracts of representables in $Set^{C^{op}}$, or in other words may be identified with objects of the idempotent-splitting completion of $C$ (aka the _Karoubi envelope_ of $C$). Therefore, in the $Set$-enriched case, the Cauchy completion _is_ the idempotent-splitting completion. In particular, representables themselves are points of the Cauchy completion. 
+
+Notice that in a finitely complete category (such as $Set$ or a presheaf category), idempotents $e: c \to c$ split automatically: just take the equalizer of the pair 
+
+$$c \stackrel{\overset{e}{\to}}{\underset{1}{\to} c$$ 
+
+For that matter, in any finitely cocomplete category, taking the coequalizer of the above pair would also split the idempotent. Indeed, we can say that idempotents split in a category iff all equalizers of such pairs exist, iff all coequalizers of such pairs exist. 
+
+Notice that if $C$ and $D$ are categories, then any functor $F: C \to D$ preserves retracts and therefore splittings of idempotents. Thus, the equalizers above are the sort of limits which are preserved by _any_ functor $F$ whatsoever. They are called **absolute limits** for that reason. For the same reason, the coequalizers above are **absolute colimits**: they are precisely the colimits preserved by any functor whatsoever. 
+
+Pursuing this a bit further: if $F: C^{op} \to Set$ is any functor, then (because idempotents split in $Set$) there is a unique extension $\bar{F}: \bar{C}^{op} \to Set$ of $F$. Therefore we have an equivalence 
+
+$$Set^{C^{op}} \simeq Set^{\bar{C}^{op}}$$ 
+
+and we say that $C$ and $\bar{C}$ are **Morita equivalent**. 
 
 ## Discussion 
-
-_Todd_: I envision starting with the example $V = [0, \infty]$ before treating other bases $V$ such as $Set$ and $Ab$.
-
-_Toby_: Although the term comes from $[0,\infty]$, readers might find it easier to understand in $\Set$, where we usually study limits first. That said, you should write whichever you want, and people will add to it.
-
-_Todd_: Um, I _think_ I understand how the wiki works, Toby, so I while I appreciate your giving me permission to write however I please, I wasn't actually asking for any. I was just stating some intent. That said, some things are easier for the $Set$ case, and some are easier for the case $[0, \infty]$. I'll get back to this in a bit. Thanks. 
-
-_Toby_: Sorry, I interpreted it more broadly as a suggestion for future development rather than individual intent. (That is, 'I envision that we should start with ...' rather than 'I envision that I shall start with ...'.) So I added my own suggestion; but then it sounded like I might be telling you what to do, so I disclaimed that. In other words, of course you don\'t need my permission, but I didn\'t want to leave you with the impression that I was trying to stop you either.
-
-_Todd_: Okay, that makes sense. It would have been clearer had I said "I plan to...": in a sense I was both thinking to myself and also letting people know what I was thinking. Anyway, thanks for clarifying, and I promise to try to add some more intellectual content to this so far scintillating conversation we're having. ;-) 
-
-_Toby_:  I just read this again after a couple of months, and I think that I was just completely stupid.  Of course one should start with $[0, \infty]$!
 
 _David_: Concerning the result that on Set the terminal F-coalgebra is the Cauchy completion of the initial F-algebra, for certain F, I wonder if we have to factor completions through the metric space completion, as Barr does in <a href="ftp://ftp.math.mcgill.ca/pub/barr/pdffiles/trmclg.pdf">Terminal coalgebras for endofunctors on sets</a>. Perhaps Adamek's work on <a href="http://citeseer.ist.psu.edu/cache/papers/cs/21985/http:zSzzSzwww.iti.cs.tu-bs.dezSzTI-INFOzSzadamekzSzPaper2000-4.pdf/final-coalgebras-are-ideal.pdf">Final Algebras are Ideal Completions of Initial Algebras</a> is more natural.
 
