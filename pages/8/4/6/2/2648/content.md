@@ -1,0 +1,3 @@
+I'm a master's student interested in mathematical physics. Or is it physical mathematics? Here are some things I've been wondering about lately...
+* The [general boundary formulation](http://arxiv.org/abs/hep-th/0509122) of quantum field theory.
+* Whether or not it would be pedagogically useful to introduce topology as a special case of [[pretopological space|pretopology]].
