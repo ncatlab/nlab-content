@@ -51,7 +51,7 @@
 
   * [[nonstandard analysis]], [[functional analysis]], [[operator algebras]]
 
-* discrete mathematics: 
+* [[discrete mathematics]]: 
 
   * [[set theory]], [[category theory]]
 
