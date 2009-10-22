@@ -3,7 +3,7 @@
 </div>
 
 
-* [[foundations|Structural Foundations]] with annotated toc of 3 great books with numerous links to related nlab. content:
+* [[foundations|Structural Foundations]] with annotated toc of 3 great books with numerous links to related nlab content:
 
   * [[Categories and Sheaves]]
 
@@ -56,5 +56,10 @@
   * [[set theory]], [[category theory]]
 
   * [[graph]], [[directed graph]], [[order]], [[poset]], [[filter]]... 
-[[!redirects Math]]
+
+
 [[!redirects Mathematics]]
+[[!redirects math]]
+[[!redirects Math]]
+[[!redirects maths]]
+[[!redirects Maths]]
