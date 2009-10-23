@@ -3,6 +3,10 @@
 </div>
 
 
+#Contents#
+* automatic table of contents goes heree
+{:toc}
+
 #Idea#
 
 The notion of [[cohomology]] finds its natural general formulation in terms of [[hom-space]]s in an [[(infinity,1)-topos]], as described at [[cohomology]]. Much of the cohomologies which have been traditionally considered, such as [[abelian sheaf cohomology|sheaf cohomology]] turn out to be just a special case of the general situation, for objects which are sufficiently abelian in the sense of [[stable (infinity,1)-category|stable (infinity,1)-categories]].
@@ -84,3 +88,36 @@ For examples and discussion of this see
 * [[principal 2-bundle]]
 
 * [[principal infinity-bundle]] .
+
+#References#
+
+
+A readable survey is
+
+* [[Bertrand Toen]], _Non-abelian cohomology_ ([ps](http://www.msri.org/publications/ln/msri/2002/introstacks/toen/1/meta/aux/toen.ps))
+
+A useful motivation is
+
+* [[Nicolas Addington]], _Fiber bundles and nonabelian cohomology_ ([pdf](http://www.math.wisc.edu/~adding/notes/gstc2007.pdf))
+
+One of the earliest and most influential works is
+
+* J. Giraud, _Cohomologie non ab&#233;lienne_ , Springer  (1971)
+
+See also [[gerbe|nonabelian gerbe]].
+
+* [[Larry Breen]], _Bitorseurs et cohomologie non-Ab&#233;lienne_ , The Grothendieck Festschrift: a collection of articles written in honour of the 60th birthday of Alexander Grothendieck, Vol. I, edited P.Cartier, et al., Birkh&auml;user, Boston, Basel, Berlin, 401-476, 1990.
+
+* [[Ieke Moerdijk]], _Lie Groupoids, Gerbes, and Non-Abelian Cohomology _ ([journal](http://www.springerlink.com/content/ul554x3077444545/))
+
+
+Carlos Simpson has studied nonabelian versions of [[Hodge theory]].
+
+* [[Carlos Simpson]], _The Hodge filtration on nonabelian cohomology_ ([arXiv](http://arxiv.org/abs/alg-geom/9604005))
+
+* [[Carlos Simpson]], _Secondary Kodaira-Spencer classes and nonabelian Dolbeault cohomology_ ([arXiv](http://arxiv.org/abs/alg-geom/9712020))
+
+* [[Carlos Simpson]], _Algebraic aspects of higher nonabelian Hodge theory_ ([arXiv](http://arxiv.org/abs/math/9902067))
+
+* [[Carlos Simpson]], [[Tony Pantev]], [[udmil Katzarkov]], _Nonabelian mixed Hodge structures_ ([arXiv](http://arxiv.org/abs/math/0006213))
+
