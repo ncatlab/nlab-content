@@ -169,3 +169,5 @@ Thirdly, I don't think you have any hope of getting only finite categories this 
 Toby, what I would call the "$j$-core" is what you get by *discarding* $k$-morphisms for $k\ge j$ that are not equivalences.  Is that what you meant?
 
 [[Eric]]: Sure. Sorry about that. Until a better name is found, I think I'll just call it a free [[n-poset]]. I'm trying to develop some ideas at [[Hasse n-graph]]. Toby and I were discussing this a bit <a href="http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=237">here</a>.
+
+By the way, I'm not hoping to get _only_ finite categories this way. My only hope is that I can find a way to obtain _any_ finite category this way (or some way similar). 
