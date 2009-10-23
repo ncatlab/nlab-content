@@ -6,7 +6,7 @@
 
 One way to make sense of the [[path integral]] used for [[quantization]] of [[classical field theory]] to [[quantum field theory]] is to _define_ it as a resummation of the the [[Feynmann perturbation series]] of [[Feynman diagram]]s. 
 
-But for a generic [[action functional]] this prescription produces in each term of this series an ill-defined diverging term. _Renormalization_ is a process of _adjusting_ the [[action functional]] such that the [[classical field theory]] remains the same, but while at the same time adding interactions whose effect is to counteract these divergences to yield a series that is termwise finite. The terms for these extra interactions in the [[action functional]] are therefore called **conterterms**.
+But for a generic [[action functional]] this prescription produces in each term of this series an ill-defined diverging term. _Renormalization_ is a process of _adjusting_ the [[action functional]] such that the [[classical field theory]] remains the same, but while at the same time adding interactions whose effect is to counteract these divergences to yield a series that is termwise finite. The terms for these extra interactions in the [[action functional]] are therefore called **counterterms**.
 
 A well-developed method for renormalization, described in more detail below, expresses each of the terms in the perturbation series as a [[Laurent series]] in a certain parameter which is divergent at the parameter value of interest. In this description the process of renormalization corresponds to discarding the poles of this series.
 
