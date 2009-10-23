@@ -183,5 +183,7 @@ Does this all tie in with the [[ideal completion]] as <a href="http://golem.ph.u
 
 How many kinds of completion are there for an enriched category? I see some may coincide in certain cases. 
 
+If two categories can be Morita equivalent, should this be reflected in the page [[Morita equivalence]]?
+
 [[!redirects Cauchy complete categories]]
 [[!redirects Cauchy completion]]
