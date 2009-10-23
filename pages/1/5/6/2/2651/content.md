@@ -1,3 +1,5 @@
+**Warning: This page is tentative.**
+
 ## Idea ##
 
 Given a finite [[n-poset]] $C$, its _Hasse n-graph_ encodes the minimal amount of information necessary to reproduce the ordering relation.
