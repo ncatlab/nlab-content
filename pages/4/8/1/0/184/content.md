@@ -53,5 +53,9 @@ Let $G_r = G(X_r)$, $s_r = G(s_r)$, $t_r = G(t_r)$.
 ***
 * $\omega$-[[omega-graph|graph]]
 
++--{: .query}
+[[Mike Shulman]]: I had not seen this page before it was linked from [[finite category]], but I don't really like "$n$-graph" as a name for these.  When I see "$n$-graph" I automatically think "$n$-globular set", and I expect the same will be true for many category theorists; I've seen the phrase used that way in print as well.
+=--
+
 
 [[!redirects n-digraph]]
