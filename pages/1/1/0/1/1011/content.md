@@ -159,3 +159,11 @@ A **finite category** is the 1-[[truncation]] of a free [[n-poset|2-poset]] for 
 ###### Proof
 ???
 =--
+
+[[Mike Shulman]]: Eric, I'm very confused.  Can you maybe use something other than "n-quiver" for whatever it is you're trying to describe?  In general we try to make a "1-foo" be the same as a "foo".
+
+Also, as I said at [[directed n-graph]], I really don't like that term; saying "$n$-graph" automatically makes me think "$n$-globular set".  Moreover, for purposes of freely generating $n$-categories I think the extra generality of not requiring the globularity conditions is superfluous; the free functor from $n$-nonglobular sets to $n$-categories factors through $n$-globular sets, so you might as well start with an $n$-globular set.
+
+Thirdly, I don't think you have any hope of getting only finite categories this way; you're always going to get some finitely *presented* categories that are not finite (like the monoid $\mathbb{N}$ as a one-object category).
+
+Toby, what I would call the "$j$-core" is what you get by *discarding* $k$-morphisms for $k\ge j$ that are not equivalences.  Is that what you meant?
