@@ -115,6 +115,11 @@ If we want to discover whether using the category of categories we have to find 
 Sometimes our experience with sets helps us find the new way of thinking, sometimes it hinders.  But until we have undertaken the whole effort of providing a good story for how to found mathematics on categories of categories, we won't know whether we have thrown the baby out with the bathwater or whether we have put a new baby in the bath!
 
 _Toby_:  Yeah, I think Mike\'s last comment is unfair ... although it depends on which point he thinks Roger is missing.  ETCC is impractical for existing mathematics; it\'s pretty much immediate how to interpret almost all of 20th-century mathematics within ETCS, which is not exactly the case for ETCC.  Of course, we can do it ---ETCC includes ETCS, after all---, but then it is, as I said, 'overkill'.  But then again, some mathematics is easier to express in ETCC than in ETCS.  If Lawvere\'s vision is that *this* is the more fundamental and important mathematics, then Roger has a point, that it is not fair to judge their relative practicality by 20th-century standards.
+
+_Roger Witte_ Says 
+The universal in which we study maths as 'structured sets' is by having forgetful functors to Set that forget structure.  The 150+ years of experience makes it seem natural and obvious which functor to choose.  The yoneda lemma (talking about functors representable in set) is also relevant.
+
+To make ETCC a practical foundation we need to replace these ideas.  We need a generalised theory describing representability and adjunction in cat (similar to yoneda) and we need to find for each kind of structured set, a natural forgetful functor to cat that remembers the structure and forgets the underlying set. This is alraedy intuitive and natural for algebra (although there are exceptions, like field).  This is equally natural for topology (via frames) albeit not yet as intuitive.  If we could address the representatable functor issue, the search for the correct forgetful functors would become much less ad hoc(= more systematic).
 =--
 ... but his other proposal, a first-order axiomatisation of [[Set|the category of sets]], works well. These and related approaches to foundations may be called _structural_ or _categorial_ (or _categorical_, which is more common but clashes with another sense of 'categorical' in logic).
 
