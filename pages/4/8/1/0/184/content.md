@@ -56,7 +56,7 @@ Let $G_r = G(X_r)$, $s_r = G(s_r)$, $t_r = G(t_r)$.
 +--{: .query}
 [[Mike Shulman]]: I had not seen this page before it was linked from [[finite category]], but I don't really like "$n$-graph" as a name for these.  When I see "$n$-graph" I automatically think "$n$-globular set", and I expect the same will be true for many category theorists; I've seen the phrase used that way in print as well.
 
-[[Eric]]: I really like the generality of this definition. Globular sets seem too limited to me, but that is probably due to a less than perfect understanding. You can see some discussion and references on [Revision 8](http://ncatlab.org/nlab/revision/directed+n-graph/8) of this page. If we really decide to limit $n$-graph to globular sets we can certainly change the name.
+[[Eric]]: I really like the generality of this definition. Globular sets seem too limited to me, e.g. I like to have square 2-cells, but that is probably due to a less than perfect understanding. You can see some discussion and references on [Revision 8](http://ncatlab.org/nlab/revision/directed+n-graph/8) of this page. If we really decide to limit $n$-graph to globular sets we can certainly change the name.
 
 =--
 
