@@ -84,15 +84,15 @@ Upload Queue ---
 
 __GIF__
 
-[[Venn_Diagram_4_Dimensions_Version_1.gif|Venn Diagram 4 Dimensions Version 1:pic]]
+![Venn Diagram 4 Dimensions Version 1](/nlab/files/Venn_Diagram_4_Dimensions_Version_1.gif)
 
 __JPG__
 
-[[Venn_Diagram_4_Dimensions_Version_1.jpg|Venn Diagram 4 Dimensions Version 1:pic]]
+![Venn Diagram 4 Dimensions Version 1](/nlab/files/Venn_Diagram_4_Dimensions_Version_1.jpg)
 
 __PNG__
 
-[[Venn_Diagram_4_Dimensions_Version_1.png|Venn Diagram 4 Dimensions Version 1:pic]]
+![Venn Diagram 4 Dimensions Version 1](/nlab/files/Venn_Diagram_4_Dimensions_Version_1.png)
 
 __SVG__
 
