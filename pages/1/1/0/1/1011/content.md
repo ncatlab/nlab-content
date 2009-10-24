@@ -146,7 +146,7 @@ Now, if you want nonzero curvature to be given by some sort of $2$-morphism, you
 
 Currently, I'm proposing that any finite category is obtained from the 2-quiver of some finite directed 2-graph by turning all 2-morphisms into identities (is there a term for a subcategory obtained by turning all $k$-morphisms for $k$ greater than some number to identities?).
 
-_Toby_:  If you start with an $\infty$-category $C$ and turn all $k$-morphisms for $k \geq j$ into equivalences, then you get an $(\infty,j-1)$-category that I would call the __$j$-core__ of $C$.  (I just made up '$j$-core', but the $1$-core is the ordinary [[core]], which is an $(\infty,0)$-category, that is an $\infty$-groupoid).  And if you then turn all of the $k$-equivalences for $k \geq j$ into equivalences, then you get a $(j-1)$-category which is (I am not making this up) the __$(j-1)$-[[truncation]]__ of the $j$-core of $C$.  Probably people would be happy to call this the $(j-1)$-truncation of $C$ itself, but now I am making up terms again, as far as I know.  So in summary, if you turn all $k$-morphisms for $k \gt j$ (note my subtle level shift here) into identities, then you get the $j$-truncation of $C$.
+_Toby_:  If you start with an $\infty$-category $C$ and turn all $k$-morphisms for $k \geq j$ into equivalences, then you get an $(\infty,j-1)$-category that I would call the <del markdown="1">__$j$-core__</del> of $C$.  (I just made up '$j$-core', but the $1$-core is the ordinary [[core]], which is an $(\infty,0)$-category, that is an $\infty$-groupoid).  And if you then turn all of the $k$-equivalences for $k \geq j$ into equivalences, then you get a $(j-1)$-category which is (I am not making this up) the __$(j-1)$-[[truncation]]__ of the $j$-core of $C$.  Probably people would be happy to call this the $(j-1)$-truncation of $C$ itself, but now I am making up terms again, as far as I know.  So in summary, if you turn all $k$-morphisms for $k \gt j$ (note my subtle level shift here) into identities, then you get the $j$-truncation of $C$.
 
 [[Eric]]: Here is an attempt at something semi-formal:
 
@@ -167,6 +167,8 @@ Also, as I said at [[directed n-graph]], I really don't like that term; saying "
 Thirdly, I don't think you have any hope of getting only finite categories this way; you're always going to get some finitely *presented* categories that are not finite (like the monoid $\mathbb{N}$ as a one-object category).
 
 Toby, what I would call the "$j$-core" is what you get by *discarding* $k$-morphisms for $k\ge j$ that are not equivalences.  Is that what you meant?
+
+*  _Toby_:  No, I was just messed up.  It was Eric who wanted to make all $2$-morphisms into equivalences (and indeed identities), so the core is not correct.
 
 [[Eric]]: Sure. Sorry about that. Until a better name is found, I think I'll just call it a free [[n-poset]]. I'm trying to develop some ideas at [[Hasse n-graph]]. Toby and I were discussing this a bit <a href="http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=237">here</a>.
 
