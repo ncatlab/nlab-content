@@ -17,7 +17,7 @@ Compare also [[graph]].
 
 #Definition#
 
-An **abstract directed graph** $X$ is a [[category]] with
+The **walking directed graph** $X$ is the [[category]] with
 
 * one object $X_0$, called the object of _vertices_;
 
