@@ -37,7 +37,7 @@ __Ref.__ [Unicode Data Bank](http://www.sql-und-xml.de/unicode-database/) --- [O
 
 ***
 
-![Venn Diagram 4 Dimensions Bare Cacti 8 Inch](/nlab/files/Venn_Diagram_4_Dimensions_Bare_Cacti_8_Inch.jpg)
+![Venn Diagram 4 Dimensions UV Cacti 8 Inch](/nlab/files/Venn_Diagram_4_Dimensions_UV_Cacti_8_Inch.jpg)
 
 ***
 
