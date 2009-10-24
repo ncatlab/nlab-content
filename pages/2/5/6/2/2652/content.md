@@ -1,4 +1,4 @@
-Process of acting on a category to give it certain properties:
+There are several processes of acting on a [[category]] $C$ to give it certain properties in such a way that $C$ embeds as a [[subcategory]] of the new category, called a _completion_ of $C$:
 
 * [[ideal completion]] of a category
 * [[profinite completion of a group|profinite completion]] of a discrete group
