@@ -82,21 +82,21 @@ Templates ---
 
 Upload Queue ---
 
-GIF
+__GIF__
 
-[[Higher_Order_Venn_Diagram.gif|Higher Order Venn Diagram:pic]]
+[[Venn_Diagram_4_Dimensions_Version_1.gif|Venn Diagram 4 Dimensions Version 1:pic]]
 
-JPG
+__JPG__
 
-[[Higher_Order_Venn_Diagram.jpg|Higher Order Venn Diagram:pic]]
+[[Venn_Diagram_4_Dimensions_Version_1.jpg|Venn Diagram 4 Dimensions Version 1:pic]]
 
-PNG
+__PNG__
 
-[[Higher_Order_Venn_Diagram.png|Higher Order Venn Diagram:pic]]
+[[Venn_Diagram_4_Dimensions_Version_1.png|Venn Diagram 4 Dimensions Version 1:pic]]
 
-SVG ???
+__SVG__
 
-[[Higher_Order_Venn_Diagram.svg|Higher Order Venn Diagram:pic]]
+[[Venn_Diagram_4_Dimensions_Version_1.svg|Venn Diagram 4 Dimensions Version 1:pic]]
 
 $\varnothing$
 
