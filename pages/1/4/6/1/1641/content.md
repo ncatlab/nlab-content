@@ -108,4 +108,6 @@ The Wikipedia entry on [Category of topological spaces](http://en.wikipedia.org/
 * Ji&#345;&#237; Ad&#225;mek, Horst Herrlich, & George E. Strecker; 1990; Abstract and Concrete Categories; originally published John Wiley & Sons ISBN 0-471-60922-6; [free on-line edition](http://katmat.math.uni-bremen.de/acc) (4.2MB PDF).
 
 
+[[!redirects topological concrete categories]]
 [[!redirects topological category]]
+[[!redirects topological categories]]
