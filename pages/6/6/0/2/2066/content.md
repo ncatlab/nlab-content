@@ -4,7 +4,7 @@ The _Karoubi envelope_ of a [[category]] is the universal way to ensure that eve
 
 #Definition# 
 
-Let $C$ be a category. We give an elementary construction of the Karoubi envelope $\bar{C}$ which formally splits idempotents in $C$. 
+Let $C$ be a [[category]]. We give an elementary construction of the __Karoubi envelope__ $\bar{C}$ which formally splits [[idempotents]] in $C$. 
 
 The objects of $\bar{C}$ are pairs $(c, e: c \to c)$ where $e$ is an idempotent on an object $c$ of $C$. Morphisms $(c, e) \to (d, f)$ are morphisms $\phi: c \to d$ in $C$ such that $f \circ \phi = \phi = \phi \circ e$. NB: the identity on $(c, e)$ in $\bar{C}$ is the morphism $e: c \to c$. 
 
@@ -12,7 +12,7 @@ There is a functor
 
 $$E: C \to \bar{C}$$ 
 
-which maps an object $c$ to $(c, 1_c)$. This functor is full and faithful: it embeds $C$ in $\bar{C}$. If $e: c \to c$ is an idempotent in $C$, then in $\bar{C}$ there are maps 
+which maps an object $c$ to $(c, 1_c)$. This functor is [[fully faithful functor|full and faithful]]: it fully embeds $C$ in $\bar{C}$. If $e: c \to c$ is an idempotent in $C$, then in $\bar{C}$ there are maps 
 
 $$p: (c, 1_c) \to (c, e), \, j: (c, e) \to (c, 1_c),$$ 
 
