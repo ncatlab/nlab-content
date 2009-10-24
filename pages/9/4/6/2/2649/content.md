@@ -15,6 +15,8 @@ is always a [[bijection]].
 
 +--{: .query}
 [[Mike Shulman]]: It's not obvious to me that preserving binary coproducts is enough to ensure preservation of infinitary coproducts.  Unless you meant "preserves all finite coproducts"?
+
+_Toby_:  I just copied what was at [[connected space]].  It\'s true that homming out of a connected space preserves all coproducts, but it\'s not clear to me whether that is a theorem at this level either.  Maybe we need to distinguish finitarily connected objects of finitarily extensive categories from infinitarily connected objects of infinitarily extensive categories?
 =--
 
 By this definition, the [[initial object]] of $C$ is *not* connected (except for degenerate cases of $C$).  This matches the notion that the [[empty space]] should not be considered connected, discussed at [[connected space]].
