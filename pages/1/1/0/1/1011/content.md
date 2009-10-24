@@ -173,3 +173,7 @@ Toby, what I would call the "$j$-core" is what you get by *discarding* $k$-morph
 [[Eric]]: Sure. Sorry about that. Until a better name is found, I think I'll just call it a free [[n-poset]]. I'm trying to develop some ideas at [[Hasse n-graph]]. Toby and I were discussing this a bit <a href="http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=237">here</a>.
 
 By the way, I'm not hoping to get _only_ finite categories this way. My only hope is that I can find a way to obtain _any_ finite category this way (or some way similar). 
+
+[[Mike Shulman]]: As I said at [[directed n-graph]], it sounds like maybe you really want a [[computad]].  It is true that any (finite) category can be obtained as the 1-truncation of the free 2-category on some (finite) 2-computad; in fact this is more or less the definition of a "finitely presented category."
+
+I still don't understand your response to me above (beginning with "Sorry I wasn't clear").
