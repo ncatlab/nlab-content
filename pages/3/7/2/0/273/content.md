@@ -100,7 +100,15 @@ A useful motivation is
 
 * [[Nicolas Addington]], _Fiber bundles and nonabelian cohomology_ ([pdf](http://www.math.wisc.edu/~adding/notes/gstc2007.pdf))
 
-One of the earliest and most influential works is
+Early references include
+
+* P. Dedecker, _Cohomologie de dimension 2 &#224; coefficients non ab&#233;liens_, C. R. Acad. Sci. Paris, 247 (1958), 1160&#8211;1163;
+
+* P. Dedecker, A. Frei, _Les relations d'&#233;quivalence des morphismes de la suite exacte de cohomologie non ab&#234;lienne_, C. R. Acad. Sci. Paris, 262(1966), 1298-1301
+
+* P. Dedecker, _Three dimensional non-abelian cohomology for groups_, Category theory, homology theory and their applications, II (Battelle Institute Conf.) 1969
+
+The standard classical monograph focusing on low-dimensional cases is
 
 * J. Giraud, _Cohomologie non ab&#233;lienne_ , Springer  (1971)
 
@@ -121,3 +129,4 @@ Carlos Simpson has studied nonabelian versions of [[Hodge theory]].
 
 * [[Carlos Simpson]], [[Tony Pantev]], [[udmil Katzarkov]], _Nonabelian mixed Hodge structures_ ([arXiv](http://arxiv.org/abs/math/0006213))
 
+Some links and references can be found at Alsani's descent and category theory [page](http://north.ecc.edu/alsani/descent.html).
