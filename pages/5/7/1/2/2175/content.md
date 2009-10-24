@@ -82,13 +82,21 @@ Templates ---
 
 Upload Queue ---
 
-<center>
-[[Higher_Order_Venn_Diagram.gif|Higher Order Venn Diagram:pic]]
-</center>
+GIF
 
-<center>
-<img alt="Higher Order Venn Diagram" src="/nlab/files/Higher_Order_Venn_Diagram.gif" width="900" />
-</center>
+[[Higher_Order_Venn_Diagram.gif|Higher Order Venn Diagram:pic]]
+
+JPG
+
+[[Higher_Order_Venn_Diagram.jpg|Higher Order Venn Diagram:pic]]
+
+PNG
+
+[[Higher_Order_Venn_Diagram.png|Higher Order Venn Diagram:pic]]
+
+SVG ???
+
+[[Higher_Order_Venn_Diagram.svg|Higher Order Venn Diagram:pic]]
 
 $\varnothing$
 
