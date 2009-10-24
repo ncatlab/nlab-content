@@ -60,6 +60,8 @@ Let $G_r = G(X_r)$, $s_r = G(s_r)$, $t_r = G(t_r)$.
 
 [[Mike Shulman]]: But you don't have square 2-cells here either!  A square 2-cell would have to have the composite of two 1-cells as its source and target, but here your 2-cells only have a single 1-cell as their source and target.  It sounds like maybe what you really want is an $n$-[[computad]].
 
+[[Eric]]: Thanks Mike! Todd mentioned computads in the discussion at [[finite category]], but I didn't realize we had a nice page: [[computad]]. Maybe we can think about how to clean things up. Based on the opening paragraph at computad, they do seem to be what I was after. I need to do some homework now. Thanks again.
+
 =--
 
 
