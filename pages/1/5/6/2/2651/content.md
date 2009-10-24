@@ -15,5 +15,5 @@ As with [[Hasse diagram]], I *think* that declaring it to be smallest in unneces
 
 _Toby_:  It would not be a Hasse diagram, but also its quiver would not be a poset, so that\'s taken care of.
 
-However, right now you\'ve got it that a Hasse $1$-quiver is the free *poset* on a $1$-digraph instead of the free *category*, so now it is no longer taken care of.  (The free category on $\{x,y,z|x \to y, x \to z, y \to z\}$ has a noncommuting triangle, but the free poset on it is just the only poset $\{x \leq y \leq z\}$.)  One cool thing about the definition at [[Hasse diagram]], in my mind, was that you *didn\'t* have to specify 'smallest'; it was unique if it existed.  Can we get that in higher dimensions?
+However, the basic idea was wrong anyway, as shown by your counterxample [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=237&page=1#Item_8).
 =--
