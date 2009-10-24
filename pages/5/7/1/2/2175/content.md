@@ -84,15 +84,15 @@ Upload Queue ---
 
 __GIF__
 
-[[Venn_Diagram_4_Dimensions_Bare_Cacti_8_Inch.gif|Venn Diagram 4 Dimensions Bare Cacti 8 Inch:pic]]
+[[Venn_Diagram_4_Dimensions_UV_Cacti_8_Inch.gif|Venn Diagram 4 Dimensions UV Cacti 8 Inch:pic]]
 
 __JPG__
 
-[[Venn_Diagram_4_Dimensions_Bare_Cacti_8_Inch.jpg|Venn Diagram 4 Dimensions Bare Cacti 8 Inch:pic]]
+[[Venn_Diagram_4_Dimensions_UV_Cacti_8_Inch.jpg|Venn Diagram 4 Dimensions UV Cacti 8 Inch:pic]]
 
 __PNG__
 
-[[Venn_Diagram_4_Dimensions_Bare_Cacti_8_Inch.png|Venn Diagram 4 Dimensions Bare Cacti 8 Inch:pic]]
+[[Venn_Diagram_4_Dimensions_UV_Cacti_8_Inch.png|Venn Diagram 4 Dimensions UV Cacti 8 Inch:pic]]
 
 __SVG__
 
