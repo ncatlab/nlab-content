@@ -1,0 +1,16 @@
+<div style="float:right;margin:0 20px 10px 20px;"><img width = "150" src="http://www.math.univ-paris13.fr/~breen/breen.jpg" alt="Lawrence Breen" /></div>
+
+
+* [website](http://www.math.univ-paris13.fr/~breen/)
+
+#related $n$Lab entries#
+
+* [[nonabelian cohomology]]
+
+* [[gerbe]]
+
+* [[differential forms in synthetic differential geometry]]
+
+category: people
+
+[[!redirects Larry Breen]]
