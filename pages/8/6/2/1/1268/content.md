@@ -14,7 +14,7 @@ Insofar as an $O$-module on a [[ringed site]] $(X, O)$ can be interpreted as a g
 
 In fact when $X$ is a complex analytic manifold, any $D_X$-module which is coherent as $O_X$-module is isomorphic to the sheaf of sections of some holomorphic vector bundle with flat connection. Furthermore, the subcategory of nonsingular $D_X$-modules coherent as $D_X$-modules is equivalent to the category of [[local systems]].
 
-If $X$ is a variety over a field of positive characteristic $p$, the terms "$O_X$-coherent $D_X$-module" and "vector bundle with flat connection" are not interchangeable, since $D_X$  no longer is the enveloping algebra of $O_X$ and $\text{Der}_X(O_X,O_X)$. A theorem by Katz states that for smooth $X$ the category of $O_X$-coherent $D_X$-modules is equivalent to the category with objects sequences $(E_0, E_1,\ldots)$ of locally free $O_X$-modules together with $O_X$-isomorphisms $\sigma_i: E_i\rightarrow F^* E_{i+1}$, where $F$ is the Frobenius endomorphism of $X$.
+If $X$ is a variety over a field of positive characteristic $p$, the terms "$O_X$-coherent coherent $D_X$-module" and "vector bundle with flat connection" are not interchangeable, since $D_X$  no longer is the enveloping algebra of $O_X$ and $\text{Der}_X(O_X,O_X)$. A theorem by Katz states that for smooth $X$ the category of $O_X$-coherent $D_X$-modules is equivalent to the category with objects sequences $(E_0, E_1,\ldots)$ of locally free $O_X$-modules together with $O_X$-isomorphisms $\sigma_i: E_i\rightarrow F^* E_{i+1}$, where $F$ is the Frobenius endomorphism of $X$.
 
 +-- {: .query}
 
