@@ -11,6 +11,8 @@ If functions of type $X \to \mathbb{B}$ are propositions about things in $X$, th
 
 By way of equipping the discussion with a modicum of concrete material, let's begin with a consideration of higher order propositions and logical operators that stem from the ordinary propositions on 1 and 2 variables.
 
+__Note on notation.__  The discussion that follows uses [[minimal negation operations]], expressed as parenthetical tuples of the form $\text{&#10647;} e_1 \text{&#65104;} \ldots \text{&#65104;} e_k \text{&#10648;}$, and logical conjunctions, expressed as concatenated tuples of the form $e_1 \:\ldots\: e_k$, as the basic connectors of a calculus for [[boolean-valued functions]] or "propositions".
+
 ## Higher order propositions and logical operators $(n = 1)$ ##
 
 A _higher order proposition_ is a proposition about propositions.  If the original order of propositions consists of maps of the form $f : X \to \mathbb{B}$, then the next higher order of propositions consists of maps of the form $m : (X \to \mathbb{B}) \to \mathbb{B}$.  It is often useful to think of a higher order proposition as a _measure_ on propositions.
@@ -2236,6 +2238,8 @@ The following Tables develop these ideas in more detail.
 <br>
 
 ***
+
+<br>
 
 # Discussion #
 
