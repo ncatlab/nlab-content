@@ -14,7 +14,7 @@ In particular, given a [[proset]] $C$, its Hasse diagram $H(C)$ is obtained by "
 
 More formally, there is a [[forgetful functor]]
 
-$$U: Ord \to Hasse,$$
+$$H: Ord \to Hasse,$$
 
 where $Ord$ is the category of [[preordered sets]] and $Hasse$ is the category of Hasse diagrams, that forgets composite morphisms.
 
