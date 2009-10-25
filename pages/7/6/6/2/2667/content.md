@@ -14,7 +14,7 @@ The first thing that should be understood from the beginning is that a general S
 
 $$hom(V, W) \to hom(F(V), F(W))$$ 
 
-is not assumed to respect linear structure. In fact, linear Schur functors are rather uninteresting: because every finite-dimensional space is a finite [[biproduct]] of the 1-dimensional space $\mathbb{C}$, and because [[linear functor]]s preserve finite biproducts, it turns out that every linear Schur functor $F$ is [[representable functor|representable]] as $hom(X, -)$ where $X = F(\mathbb{C})$. The category of linear Schur functors is equivalent to $Vect_{fd}$. 
+is not assumed to respect linear structure. In fact, linear Schur functors are rather uninteresting: because every finite-dimensional space is a finite [[biproduct]] of the $1$-dimensional space $\mathbb{C}$, and because [[linear functor]]s preserve finite biproducts, it turns out that every linear Schur functor $F$ is [[representable functor|representable]] as $hom(X, -)$ where $X = F(\mathbb{C})$. The category of linear Schur functors is equivalent to $Vect_{fd}$. 
 
 Rather more representative examples of Schur functors include: 
 
@@ -24,7 +24,7 @@ Rather more representative examples of Schur functors include:
 
 * For each $k \geq 0$, the $k^{th}$ [[alternating power]] $V \mapsto Alt^k(V)$ is a Schur functor. 
 
-Even though Schur functors do not respect linear structure, the category $Schur$ of Schur functors is nevertheless a [[linear category]], so we can talk about [[irreducible object]]s and decompositions into [[direct sum|direct sums]] and so on. It turns out that every Schur functor $F$ can be expressed as a direct sum of irreducible $Schur$-objects $S_\lambda$ indexed by [[Young diagram]]s $\lambda$, and these $S_\lambda$ are usually what people think of when they say "Schur functors". 
+Even though Schur functors do not respect linear structure, the category $Schur$ of Schur functors is nevertheless a [[linear category]], so we can talk about [[irreducible object]]s, decompositions into [[direct sum|direct sums]], and so on. It turns out that every Schur functor $F$ can be expressed as a direct sum of irreducible $Schur$-objects $S_\lambda$ indexed by [[Young diagram]]s $\lambda$, and these $S_\lambda$ are usually what people think of when they say "Schur functors". 
 
 +--{.query} 
 I took this statement about decompositions from the blog discussion, but what's the precise statement? I have a hard time believing that it's a finite decomposition in general. I'm hoping the situation is analogous to analytic functors in the case of species, but I'm not at all sure what the precise statement should be. 
@@ -44,7 +44,7 @@ Recall that the [[group algebra]] $\mathbb{Q}[S_n]$ decomposes as a direct sum
 
 $$\sum_{\lambda} V_{\lambda}$$ 
 
-where $\lambda$ ranges over isomorphism classes of [[partition]]s of a set of size $n$, also known as Young diagrams, and $V_\lambda$ represents the isomorphism class of irreducible $S_n$-representations attached to $\lambda$.  
+where $\lambda$ ranges over isomorphism classes of [[partition]]s of a set of size $n$, also known as [[Young diagram]]s, and $V_\lambda$ represents the isomorphism class of irreducible $S_n$-representations attached to $\lambda$.  
 
 This group algebra lives as a [[monoid]] in the symmetric monoidal category of finite-dimensional rational spaces $Vect_{fd}$. If $Sk$ is the skeleton of $Vect_{fd}$ consisting of the finite coproducts $\mathbb{Q}^n$, then there is an evident linear functor 
 
@@ -86,7 +86,7 @@ which can be viewed either as invariants (equalizer of $e$ and the identity) or 
 
 ## (Tentative) High-level description of Schur functors 
 
-As we have just seen, Schur functors such as the $S_\lambda$ makes sense in pretty wide contexts, and the formula for the $S_\lambda$ is in some sense "polymorphic". The question arises as to the right way to give sense to such polymorphism, or in other words the compatibility between these Schur functors across the various structured categories where they are defined. Here is a very general expression of that compatibility proposed by [[John Baez]]. 
+As we have just seen, Schur functors such as the $S_\lambda$ makes sense in pretty wide contexts, and the formula for the $S_\lambda$ is in some sense "polymorphic". The question arises as to the right way to give sense to such [[polymorphism]], or in other words the compatibility between these Schur functors across the various structured categories where they are defined. Here is a very general expression of that compatibility proposed by [[John Baez]]. 
 
 The general idea is that Schur functors such as the $S_\lambda$ defined above on individual categories commute with suitable change-of-base functors between these categories. This commutation expresses a kind of naturality, for which we would like a clean and high-level description. 
 
