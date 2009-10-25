@@ -50,5 +50,8 @@ regular stable maps_,  Math. Z.  259  (2008),  no. 3, 525--574 ([doi](http://dx.
 
 * Eleny-Nicoleta Ionel, Thomas H. Parker, _Relative Gromov-Witten invariants_, Ann. of Math. (2) 157 (2003), no. 1, 45--96 ([doi](http://dx.doi.org/10.4007/annals.2003.157.45)).
 
+* [[Edward Frenkel]], [[Constantin Teleman]], 
+  [[AJ Tolland]], _Gromov-Witten Gauge Theory I_ ([arXiv](http://arxiv.org/abs/0904.4834))
+
 [[!redirects Gromov-Witten theory]]
 [[!redirects Gromov-Witten invariant]]
