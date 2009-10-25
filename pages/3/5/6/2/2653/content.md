@@ -12,7 +12,7 @@ A pair $(x,y)$ of vertices in a [[directed graph]] satisfies the __covering rela
 
 ## Common generalisation ##
 
-Given any binary relation $\sim$ on a set $S$, a pair $(x,y)$ of elements of $S$ satisfies the __covering relation__ if $x \sim y$ but there is no $z$ such that $x \sim z$ and $z \sim y$.  Then the covering relation on a poset is the covering relation of $\lt$, and the covering relation in a directed graph is the covering relation of the adjacency relation of the graph.
+Given any binary relation $\sim$ on a set $S$, a pair $(x,y)$ of elements of $S$ satisfies the __covering relation__ if the only sequence $x = z_0, \ldots, z_n = y$ such that $x_i \sim x_{i+1}$ satisfies $n = 1$ (so $x \sim y$).  Then the covering relation on a poset is the covering relation of $\leq$, and the covering relation in a directed graph is the covering relation of the adjacency relation of the graph.
 
 ## References ##
 
