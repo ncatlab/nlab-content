@@ -11,7 +11,7 @@ If functions of type $X \to \mathbb{B}$ are propositions about things in $X$, th
 
 By way of equipping the discussion with a modicum of concrete material, let's begin with a consideration of higher order propositions and logical operators that stem from the ordinary propositions on 1 and 2 variables.
 
-__Note on notation.__  The discussion that follows uses [[minimal negation operations]], expressed as parenthetical tuples of the form $\text{&#10647;} e_1 \text{&#65104;} \ldots \text{&#65104;} e_k \text{&#10648;}$, and logical conjunctions, expressed as concatenated tuples of the form $e_1 \:\ldots\: e_k$, as the basic connectors of a calculus for [[boolean-valued functions]] or "propositions".
+__Note on notation.__  The discussion that follows uses [[minimal negation operations]], expressed as parenthetical tuples of the form $\text{&#10647;} e_1 \text{&#65104;} \ldots \text{&#65104;} e_k \text{&#10648;}$, and logical conjunctions, expressed as concatenated tuples of the form $e_1 \:\ldots\: e_k$, as the basic connectors of a calculus for [[boolean-valued functions]] or "propositions".  These expressions parse into a family of data structures whose underlying graphs have traditionally been called _cacti_ by graph theorists.  Hence the name _[[cactus language]]_ for this variant of propositional calculus.
 
 ## Higher order propositions and logical operators $(n = 1)$ ##
 
