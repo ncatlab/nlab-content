@@ -163,7 +163,7 @@ for every $g$ in the Poincar&#233; group. Thus the representation of the Poincar
 In particular, an **elementary particle** in quantum physics is sometimes defined to be an [[unitary irreps of the Poincare group|irreducible unitary representation]] of the Poincar&#233; group on $L^2(\mathbb{R}^4)$. 
 
 
-#Related entries#
+##Related entries#
 
 
 * [[Euclidean group]]
