@@ -1514,7 +1514,7 @@ $$\array{
 
 Up till now quantification theory has been based on the assumption of individual variables ranging over universal collections of perfectly determinate elements.  Merely to write down quantified formulas like $\forall_{x \in X} f(x)$ and $\exists_{x \in X} f(x)$ involves a subscription to such notions, as shown by the membership relations invoked in their indices.  Reflected on pragmatic and constructive principles, these ideas begin to appear as problematic hypotheses whose warrants are not beyond question, projects of exhaustive determination that overreach the powers of finite information and control to manage.  Therefore, it is worth considering how we might shift the medium of quantification theory closer to familiar ground, toward the predicates themselves that represent our continuing acquaintance with phenomena.
 
-## Quantified propositions ##
+## Extending the existential interpretation to quantificational logic ##
 
 The forms commonly viewed as quantified propositions may be viewed again as propositions about propositions, indeed, there is every reason to regard higher order propositions as the genus of quantification under which the more familiar species appear.
 
@@ -1582,6 +1582,8 @@ Intuitively, the $\ell_{ij}$ operators may be thought of as qualifying propositi
 <font size="+2">$\text{Figure 6.} \:\: \text{Higher Order Universe of Discourse} \: \left[ \ell_{00}, \ell_{01}, \ell_{10}, \ell_{11} \right] \subseteq \left[\left[ u, v \right]\right]$</font>
 
 </div>
+
+## Application of higher order propositions to quantification theory ##
 
 Our excursion into the vastening landscape of higher order propositions has finally come round to the stage where we can bring its returns to bear on opening up new perspectives for quantificational logic.
 
@@ -2221,12 +2223,32 @@ The following Tables develop these ideas in more detail.
 
 </table></font>
 
-<div markdown="1"><font size="+3">$\ldots$</font></div>
-
 # References and further reading #
 
 * Quine, W.V. (1969/1981), "On the Limits of Decision", _Akten des XIV. Internationalen Kongresses f&#252;r Philosophie_, vol. 3 (1969).  Reprinted, pp. 156&ndash;163 in Quine (ed., 1981), _Theories and Things_, Harvard University Press, Cambridge, MA.
 
-# External links #
+# Links #
+
+* [Functional Logic : Inquiry and Analogy](http://www.mywikibiz.com/Directory:Jon_Awbrey/Papers/Functional_Logic_:_Inquiry_and_Analogy)
 
 * [Functional Logic : Quantification Theory](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Functional_Logic_:_Quantification_Theory)
+
+<br>
+
+***
+
+# Discussion #
+
+_This is a Section for discussion._
+
+# Exploration #
+
+_This is a Section for pursuing questions that I haven't thought out to the end yet._
+
+## Higher order propositions, group actions and characters ##
+
+* Character is revealed by action.  ---Aristotle
+
+## Duals ##
+
+## Double duals ##
