@@ -1575,11 +1575,11 @@ f \: \mathop{likes} \: u \: v
 
 Intuitively, the $\ell_{ij}$ operators may be thought of as qualifying propositions according to the elements of the universe of discourse that each proposition positively values.  Taken together, these measures provide us with the means to express many useful observations about the propositions in $X^\circ = \left[ u, v \right]$, and so they mediate a subtext $\left[ \ell_{00}, \ell_{01}, \ell_{10}, \ell_{11} \right]$ that takes place within the higher order universe of discourse $X^{\circ 2} = \left[ X^\circ \right] = \left[\left[ u, v \right]\right]$.  Figure&nbsp;6 summarizes the action of the $\ell_{ij}$ operators on the $f_{i}$ within $X^{\circ 2}$.
 
-<div align="center" markdown="1" style="font-weight:bold; text-align:center">
+<div align="center" markdown="1" style="text-align:center">
 
 ![Venn Diagram 4 Dimensions UV Cacti 8 Inch](/nlab/files/Venn_Diagram_4_Dimensions_UV_Cacti_8_Inch.jpg)
 
-<font size="+1">$\text{Figure 6.} \:\: \text{Higher Order Universe of Discourse} \: \left[ \ell_{00}, \ell_{01}, \ell_{10}, \ell_{11} \right] \subseteq \left[\left[ u, v \right]\right]$</font>
+<font size="+2">$\text{Figure 6.} \:\: \text{Higher Order Universe of Discourse} \: \left[ \ell_{00}, \ell_{01}, \ell_{10}, \ell_{11} \right] \subseteq \left[\left[ u, v \right]\right]$</font>
 
 </div>
 
