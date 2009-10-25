@@ -8,7 +8,7 @@ A pair $(x,y)$ in a [[poset]] satsfies the __covering relation__ if $x \lt y$ bu
 
 ## In a directed graph ##
 
-A pair $(x,y)$ of vertices in a [[directed graph]] satisfies the __covering relation__ if there is an edge $x \to y$ but there is no vertex $z$ with edges $x\to z$ and $z\to y$.
+A pair $(x,y)$ of vertices in a [[directed graph]] satisfies the __covering relation__ if there is an edge $x \to y$ but there is no other path from $x$ to $y$.
 
 ## Common generalisation ##
 
