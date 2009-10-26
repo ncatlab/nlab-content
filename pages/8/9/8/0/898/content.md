@@ -26,7 +26,7 @@ More generally, if $\kappa$ is a [[cardinal number]], then a **$\kappa$-filtered
 
 # Filtered colimits
 
-A colimit whose domain is a filtered category is called a **filtered colimit**.  A category whose opposite is filtered is called **cofiltered**, and a limit over a cofiltered category is called a **cofiltered limit** or a **filtered inverse limit**.
+A colimit of a functor $F:D\to C$ where $D$ is a filtered category is called a **filtered colimit**.  A category whose opposite is filtered is called **cofiltered**, and a limit over a cofiltered category is called a **cofiltered limit** or a **filtered inverse limit**.
 
 One of the reasons filtered colimits are important is that in [[Set]], filtered colimits commute with finite limits (and in fact, filtered colimits can be characterized as precisely those colimits that commute with all finite limits in $Set$).  Filtered colimits are also important in the theory of [[locally presentable category|locally presentable]] and [[accessible category|accessible]] categories.  See also [[pro-object]] and [[ind-object]].
 
