@@ -8,6 +8,8 @@
 Classically, a **Schur functor** is a just a [[functor]] $Vect_{fd} \to Vect_{fd}$ on the category of finite-dimensional complex [[vector space|vector spaces]]. 
 +--{.query} 
 Literally any functor? Something seems peculiar to me about that. See the next query box. 
+
+Reply:  [Apparently no](http://golem.ph.utexas.edu/category/2007/04/schur_functors.html#c028416), not all.  Only those that are 'algebraic' or 'holomorphic' in some sense, as the next query box guessed.
 =--
 In more modern treatments, a Schur functor is a functor defined (in a [[polymorphism|polymorphic]] way) on [[module|modules]] over more general [[commutative ring]] $R$ (possibly with some conditions on $R$), so that "Schur functor" really connotes a family of functors 
 
