@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include model category theory - contents]]
+</div>
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -36,11 +41,11 @@ $\partial G_k \hookrightarrow G_k$ of the boundary of the $k$-[[globe]] into the
 
 * for $n = \omega$: 
 
-   * Yves Lafont, Francois M&#233;tayer, Krzysztof Worytkiewicz, _A folk model structure on omega-cat_ ([arXiv](http://arxiv.org/abs/0712.0617))
+   * Yves Lafont, Francois M&eacute;tayer, Krzysztof Worytkiewicz, _A folk model structure on omega-cat_ ([arXiv](http://arxiv.org/abs/0712.0617))
 
 * for $n = \omega$ and all morphisms invertible, there is the [[model structure on strict omega-groupoids]]: 
 
-   * R. Brown and M. Golasinski, _A model structure for the homotopy theory of crossed complexes_, Cah. Top. G&#233;om. Diff. Cat. 30 (1989) 61-82 ([pdf](http://www.bangor.ac.uk/~mas010/pdffiles/RB-golskyrev.pdf))
+   * R. Brown and M. Golasinski, _A model structure for the homotopy theory of crossed complexes_, Cah. Top. G&eacute;om. Diff. Cat. 30 (1989) 61-82 ([pdf](http://www.bangor.ac.uk/~mas010/pdffiles/RB-golskyrev.pdf))
 
 #Internalization#
 
@@ -56,12 +61,12 @@ But there are also full model structures for such situations. Notice that under 
 
 In 
 
-* F. M&#233;tayer, _Cofibrant complexes are free_ ([arXiv](http://arxiv.org/abs/math.CT/0701746))
+* F. M&eacute;tayer, _Cofibrant complexes are free_ ([arXiv](http://arxiv.org/abs/math.CT/0701746))
 
 
 it is shown that _cofibrant_ $\omega$-categories with respect to the folk model structure are precisely the "free" ones, where "free" here means "generated from a polygraph" as described in 
 
-* F. M&#233;tayer, _Resolutions by polygraphs_ ([tac](http://www.tac.mta.ca/tac/volumes/11/7/11-07.pdf))
+* F. M&eacute;tayer, _Resolutions by polygraphs_ ([tac](http://www.tac.mta.ca/tac/volumes/11/7/11-07.pdf))
 
 (Polygraphs are equivalent to [[computad|computads]].)
 
