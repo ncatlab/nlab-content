@@ -9,4 +9,9 @@
 
 * [[Hamiltonian mechanics]]
 
+
 category: people
+
+[[!redirects Владимир Арнольд]]
+[[!redirects Vladimir Arnol'd]]
+[[!redirects Vladimir Arnol'd]]
