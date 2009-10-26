@@ -124,5 +124,13 @@ In fact, the *only* kind of graph above that can be defined as a functor from $X
 
 It would be worth discussing what sort of graphs can be internalised in what sort of categories.  Those graphs that allow loops are easier; I think that I can do them!  For the graphs without loops, I haven\'t even decided what\'s the best way to phrase the definition in [[constructive mathematics]].  (Luckily it doesn\'t matter for finite graphs.)
 
+_Roger Witte_ says
+
+A looped directed graph is a set with a set with a binary relation.
+A looped graph is a set with symmetric binary relation.
+A directed graph is a set with an irreflexive binary relation.
+A graph is a set with a symmetric irreflexive binary relation.
+
+In each case this yields the correct definition of morphism and isomorphism
 
 [[!redirects undirected graph]]
