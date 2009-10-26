@@ -3,6 +3,21 @@
 {:toc}
 
 
+# Idea #
+
+Hamiltonian mechanics is a formulation of [[mechanics]] in which the basic datum in a mechanical system is a function $H$, the [[Hamiltonian]] of the system, which gives the total energy in the system in terms of the [[position|positions]] and [[momentum|momenta]] of the objects in the system.
+
+More abstractly, the Hamiltonian is a function on [[phase space]], a [[manifold]] whose coordinates are [[generalized position|generalised]] positions $q^i$ and momenta $p_i$.  (Compare this to [[Lagrangean mechanics]], in which the [[Lagrangean]] is a function on [[state space]], whose coordinates are generalised positions and [[velocity|velocities]].)  So to do Hamiltonian mechanics properly, you must 'mind your $p$s and $q$s' (blame [[John Baez]] for this pun).
+
+To begin with, we often take phase space to be the [[cotangent bundle]] of [[configuration space]].  (Compare that state space is the [[tangent bundle]] of configuration space.)  This comes equipped with a natural $2$-[[differential form|form]]
+$$ \omega = \sum_i \mathrm{d}p_i \wedge \mathrm{d}q^i ,$$
+or simply $\omega = \mathrm{d}p_i \wedge \mathrm{d}q^i$ using the Einstein summation convention.  This $2$-form is closed, in fact exact, since it is the [[exterior derivative|differential]] of the [[action functional|action form]] $\bar{\mathrm{d}}S = p_i \wedge \mathrm{d}q^i$, and therefore it is a [[symplectic form]].
+
+However, it is also possible to take phase space to be *any* [[symplectic manifold]], or even any [[Poisson manifold]].  In any case, phase space itself gives only the [[kinematics]] (in a momentum-based rather than velocity-based sense); you need the Hamiltonian $H$ to get the [[dynamics]].
+
+Hamiltonian mechanics was developed originally for [[classical mechanics]], but it is also the best known formulation of [[quantum mechanics]]; many students of [[physics]] (and even more so, students of [[chemistry]]) learn it only when they study the latter.  This sometimes leads to confusion about the essential differences between classical and quantum physics.
+
+
 # Definition in terms of symplectic geometry #
 
 Hamiltonian mechanics is best formalized in terms of [[symplectic geometry]] as described for instance in the monograoph
