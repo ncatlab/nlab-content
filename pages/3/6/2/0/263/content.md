@@ -1,3 +1,12 @@
+<div class="rightHandSide toc">
+[[!include model category theory - contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 A _category with [[weak equivalence]]s_ is an ordinary [[category]] with a class of morphisms called 'weak equivalences' that include isomorphisms, but also typically other morphisms.  Such a category should be thought of as the truncation of an [[(∞,1)-category]] where the only information kept is which of its morphisms are _equivalences_ in the full [[(∞,1)-category]].
