@@ -1,4 +1,8 @@
 
+#Contents#
+* automatic table of contents
+{:toc}
+
 #Definition#
 
 A __dg-algebra__, or __[[differential graded algebra]]__, is a [[monoid]] in the [[symmetric monoidal category]] of (possibly unbounded) [[chain complex]]es or [[]cochain complex]es with its standard structure of a [[monoidal category]]. 
