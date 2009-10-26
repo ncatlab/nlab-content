@@ -14,7 +14,7 @@ We think of this wiki as our **lab book** that we happen to keep lying around op
 
 +-- {: .standout}
 
-The **purpose of the $n$Lab** is not to make polished expositions of material, that's a happy by-product. The purpose is to provide a public place where people can make notes about stuff.
+The **purpose of the $n$Lab** is not to make polished expositions of material; that is a happy by-product. The purpose is to provide a public place where people can make notes about stuff.
 
 We all make notes as we read papers, read books, doodle on pads of paper. The $n$Lab is somewhere to put all those notes, and incidentally make them available to others. Others might then read them and add or polish them. But even if they don't, it's still then easier to link to other notes that you've made.
 
