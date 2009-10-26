@@ -1,3 +1,7 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 The operation of forming the _Moore complex_ is one part of the [[Dold-Kan correspondence]] that relates [[simplicial object|simplicial]] (abelian) [[group]]s and [[chain complex]]es.
