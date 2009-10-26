@@ -2241,15 +2241,17 @@ The following Tables develop these ideas in more detail.
 
 <br>
 
-# Discussion #
+__Exploration__
 
-_This is a Section for discussion._
+_This is a space for thinking about questions I haven't thought out to the end yet._
 
-# Exploration #
+__Duals and double duals__
 
-_This is a Section for pursuing questions I haven't thought out to the end yet._
+$X^{*} \stackrel{\not\natural}{\cong} X$
 
-## Higher order propositions, group actions and characters ##
+$X^{**} \stackrel{\natural}{\cong} X$
+
+__Higher order propositions, group actions and characters__
 
 * Character is revealed by action.  ---Aristotle
 
@@ -2401,7 +2403,3 @@ f_{15}
 }$
 
 </td></table>
-
-## Duals ##
-
-## Double duals ##
