@@ -13,4 +13,4 @@ An account of the general formalism is in
 
 A discussion of practical computations in this formalism is in
 
-* Kirill Krasnov, _Plebanski Formulation of General Relativity: A Practical Introduction_ ([pdf](http://arxiv.org/abs/0904.0423))
+* Kirill Krasnov, _Plebanski Formulation of General Relativity: A Practical Introduction_ ([arXiv](http://arxiv.org/abs/0904.0423))
