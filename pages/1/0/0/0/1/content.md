@@ -16,13 +16,13 @@ We think of this wiki as our **lab book** that we happen to keep lying around op
 
 The **purpose of the $n$Lab** is not to make polished expositions of material; that is a happy by-product. The purpose is to provide a public place where people can make notes about stuff.
 
-We all make notes as we read papers, read books, doodle on pads of paper. The $n$Lab is somewhere to put all those notes, and incidentally make them available to others. Others might then read them and add or polish them. But even if they don't, it's still then easier to link to other notes that you've made.
+We all make notes as we read papers, read books and doodle on pads of paper. The $n$Lab is somewhere to put all those notes, and, incidentally, to make them available to others. Others might read them and add or polish them. But even if they don't, it is still easier to link from them to other notes that you've made.
 
 =--
 
-But this site started operation only a few months ago. Some structure is beginning to appear, but we are still in a very early stage. Your help is appreciated! 
+This site started operation only a few months ago. Some structure is beginning to appear, but we are still in a very early stage. Your help is appreciated! 
 
-* See [[About]] for some ideas what the $n$Lab is trying to be, and what not.
+* See [[About]] for some ideas about what the $n$Lab is trying to be, and about what it is not.
 
 * See the [[HowTo]]-page to get started if you want to contribute.
 
@@ -32,11 +32,11 @@ But this site started operation only a few months ago. Some structure is beginni
 
   * at [latest changes](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5) we log our latest acivity on the $n$Lab
 
-  * We also keep having constitutive dscussion there. See for instance
+  * We also keep having constitutive dscussions there. See for instance
 
     [What is the scope of the nLab? Particularly original research?](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=59)
 
-    where we are trying to figure out what the $n$Lab is precisely.
+    where we are trying to figure out what precisely the $n$Lab is.
 
 * Distilled wisdom from the various discussions is starting to appear on the [[FAQ]].
 
