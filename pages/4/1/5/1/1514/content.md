@@ -2,7 +2,10 @@
 * automatic table of contents goes here
 {:toc}
 
-#Definition#
+#Path integral in quantum mechanics#
+
+A simple form of the path integral is realized in [[quantum mechanics]], where it was originally dreamed up by [[Richard Feynman]] and then made precise using the [[Fyenman-Kac formula]].
+
 The [[Schrödinger equation]] says that the rate at which the phase of an energy eigenvector rotates is proportional to its energy:
 \[ i \hbar \frac{d}{dt} \psi = H \psi. \]
 Therefore, the probability that the system evolves to the final state $\psi_F$ after evolving for time $t$ from the initial state $\psi_I$ is
@@ -27,7 +30,14 @@ where $S(q)$ is the [[action]] functional.
 Is there an easy way to see how the Hamiltonian transforms into the Lagrangian in the exponent?
 =--
 
-#Discussion#
+## References ##
+
+For simple systems like particles propagating on a [[Riemannian manifold]] and charged under a [[gauge field]] given by a [[connection on a bundle]] the path integral can be made pretty much rigorous
+
+* [[Christian Baer]], [[Frank Pfaeffle]], _Path integrals on manifolds by finite dimensional approximation_ ([arXiv](http://arxiv.org/abs/math/0703272))
+
+#The path integral in the bigger picture#
+
 Ours is the age whose central fundamental theoretical physics question is: 
 
 >_What is [[quantum field theory]]_? 
