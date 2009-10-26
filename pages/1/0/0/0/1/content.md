@@ -22,21 +22,21 @@ We all make notes as we read papers, read books and doodle on pads of paper. The
 
 This site started operation only a few months ago. Some structure is beginning to appear, but we are still in a very early stage. Your help is appreciated! 
 
-* See [[About]] for some ideas about what the $n$Lab is trying to be, and about what it is not.
+* See [[About]] for some ideas of what the $n$Lab is trying to be, and of what it is not.
 
 * See the [[HowTo]]-page to get started if you want to contribute.
 
 * See [latest changes](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5) to get an idea of recent activity and to log your own changes to the $n$Lab.
 
-* There is a [forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum) (imaginatively called the $n$-Forum) for $n$Lab-related dicussion.
+* There is a [forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum) (imaginatively called the $n$-Forum) for $n$Lab-related discussion.
 
-  * at [latest changes](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5) we log our latest acivity on the $n$Lab
+  * at [latest changes](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5) we log our latest activity on the $n$Lab
 
-  * We also keep having constitutive dscussions there. See for instance
+  * We also keep having constitutive discussions there. See for instance
 
     [What is the scope of the nLab? Particularly original research?](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=59)
 
-    where we are trying to figure out what precisely the $n$Lab is.
+    which is where the above description of the $n$lab as a lab book came from.
 
 * Distilled wisdom from the various discussions is starting to appear on the [[FAQ]].
 
