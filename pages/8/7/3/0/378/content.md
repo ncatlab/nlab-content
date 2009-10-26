@@ -1,3 +1,12 @@
+<div class="rightHandSide toc">
+[[!include model category theory - contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 [[simplicial set|Simplicial sets]] are the archetypical combinatorial "[[model category|model]]" for the [[(infinity,1)-category]] of (compactly generated weakly Hausdorff) [[topological space]]s and equivalently that of [[infinity-groupoid]]s, as well as a standard model for the [[(infinity,1)-category of (infinity,1)-categories]] itself.
@@ -174,7 +183,7 @@ We check successively what this means for increasing $n$:
 
 #Joyal's Model Structure#
 
-There is a second model structure on simplicial sets, which is different (not Quillen equivalent) to the classical one, due to Andr&#233; Joyal, with the following distinguished classes of morphisms:
+There is a second model structure on simplicial sets, which is different (not Quillen equivalent) to the classical one, due to Andr&eacute; Joyal, with the following distinguished classes of morphisms:
 
 * The cofibrations $C$ are monomorphisms, equivalently, levelwise injections.
 
@@ -203,7 +212,7 @@ Techniques for fibrant replacements $SSet$ are discussed at
 
 A standard reference for the classical model structure is
 
-* **GoerJar**  Goerss, Jardine, _Simplicial homotopy theory_ (Birkh&#228;user) ([ps](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html)).
+* **GoerJar**  Goerss, Jardine, _Simplicial homotopy theory_ (Birkh&auml;user) ([ps](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html)).
 
 A reference with lots of details on Joyal's model structure is
 
