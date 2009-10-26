@@ -11,7 +11,7 @@ If functions of type $X \to \mathbb{B}$ are propositions about things in $X$, th
 
 By way of equipping the discussion with a modicum of concrete material, let's begin with a consideration of higher order propositions and logical operators that stem from the ordinary propositions on 1 and 2 variables.
 
-__Note on notation.__  The discussion that follows uses [[minimal negation operations]], expressed as parenthetical tuples of the form $\text{&#10647;} e_1 \text{&#65104;} \ldots \text{&#65104;} e_k \text{&#10648;}$, and logical conjunctions, expressed as concatenated tuples of the form $e_1 \:\ldots\: e_k$, as the basic connectors of a calculus for [[boolean-valued functions]] or "propositions".  These expressions parse into a family of data structures whose underlying graphs have traditionally been called _cacti_ by graph theorists.  Hence the name _[[cactus language]]_ for this variant of propositional calculus.
+__Note on notation.__  The discussion that follows uses [[minimal negation operations]], expressed as bracketed tuples of the form $\text{&#10647;} e_1 \text{&#65104;} \ldots \text{&#65104;} e_k \text{&#10648;}$, and logical conjunctions, expressed as concatenated tuples of the form $e_1 \:\ldots\: e_k$, as the sole expression-forming operations of a calculus for [[boolean-valued functions]] or "propositions".  The expressions of this calculus parse into data structures whose underlying graphs are called _cacti_ by graph theorists.  Hence the name _[[cactus language]]_ for this dialect of propositional calculus.
 
 ## Higher order propositions and logical operators $(n = 1)$ ##
 
@@ -2247,11 +2247,160 @@ _This is a Section for discussion._
 
 # Exploration #
 
-_This is a Section for pursuing questions that I haven't thought out to the end yet._
+_This is a Section for pursuing questions I haven't thought out to the end yet._
 
 ## Higher order propositions, group actions and characters ##
 
 * Character is revealed by action.  ---Aristotle
+
+<table align="center" border="1" cellpadding="0" cellspacing="0" markdown="1" style="text-align:center">
+
+<caption><font size="+2">$\text{Table A3.} \quad \mathop{E}f \:\text{Expanded over Differential Features}\: \{ \mathop{d}p, \mathop{d}q \}$</font></caption>
+
+<td>
+$\array{
+\arrayopts{
+\collines{solid}
+\rowlines{solid solid none none none solid none solid none solid none solid none none none solid}}
+&amp;
+\phantom{xxxx} f \phantom{xxxx}
+&amp;
+\phantom{xxxx}
+\array{\mathop{T}_{11}f \\ \mathop{E}f|_{\mathop{d}p \: \mathop{d}q} }
+\phantom{xxxx}
+&amp;
+\phantom{xxxx}
+\array{\mathop{T}_{10}f \\ \mathop{E}f|_{\mathop{d}p \: \text{&#x2997;} \mathop{d}q \text{&#x2998;}} }
+\phantom{xxxx}
+&amp;
+\phantom{xxxx}
+\array{\mathop{T}_{01}f \\ \mathop{E}f|_{\text{&#x2997;} \mathop{d}p \text{&#x2998;} \: \mathop{d}q} }
+\phantom{xxxx}
+&amp;
+\phantom{xxxx}
+\array{\mathop{T}_{00}f \\ \mathop{E}f|_{\text{&#x2997;} \mathop{d}p \text{&#x2998;&#x2997;} \mathop{d}q \text{&#x2998;}} }
+\phantom{xxxx}
+\\
+f_{0}
+&amp; \text{&#x2997;} \: \text{&#x2998;}
+&amp; \text{&#x2997;} \: \text{&#x2998;}
+&amp; \text{&#x2997;} \: \text{&#x2998;}
+&amp; \text{&#x2997;} \: \text{&#x2998;}
+&amp; \text{&#x2997;} \: \text{&#x2998;}
+\\
+f_{1}
+&amp; \text{&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;}
+&amp; p \: q
+&amp; p \: \text{&#x2997;} q \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#x2998;} \: q
+&amp; \text{&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;}
+\\
+f_{2}
+&amp; \text{&#x2997;} p \text{&#x2998;} \: q
+&amp; p \: \text{&#x2997;} q \text{&#x2998;}
+&amp; p \: q
+&amp; \text{&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#x2998;} \: q
+\\
+f_{4}
+&amp; p \: \text{&#x2997;} q \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#x2998;} \: q
+&amp; \text{&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;}
+&amp; p \: q
+&amp; p \: \text{&#x2997;} q \text{&#x2998;}
+\\
+f_{8}
+&amp; p \: q
+&amp; \text{&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#x2998;} q
+&amp; p \text{&#x2997;} q \text{&#x2998;}
+&amp; p \: q
+\\
+f_{3}
+&amp; \text{&#x2997;} p \text{&#x2998;}
+&amp; p
+&amp; p
+&amp; \text{&#x2997;} p \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#x2998;}
+\\
+f_{12}
+&amp; p
+&amp; \text{&#x2997;} p \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#x2998;}
+&amp; p
+&amp; p
+\\
+f_{6}
+&amp; \text{&#x2997;} p \text{&#xFE50;} q \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#xFE50;} q \text{&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;} p \text{&#xFE50;} q \text{&#x2998;}
+\\
+f_{9}
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;} p \text{&#xFE50;} q \text{&#x2998;}
+&amp; \text{&#x2997;} p \text{&#xFE50;} q \text{&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#xFE50;} q \text{&#x2998;&#x2998;}
+\\
+f_{5}
+&amp; \text{&#x2997;} q \text{&#x2998;}
+&amp; q
+&amp; \text{&#x2997;} q \text{&#x2998;}
+&amp; q
+&amp; \text{&#x2997;} q \text{&#x2998;}
+\\
+f_{10}
+&amp; q
+&amp; \text{&#x2997;} q \text{&#x2998;}
+&amp; q
+&amp; \text{&#x2997;} q \text{&#x2998;}
+&amp; q
+\\
+f_{7}
+&amp; \text{&#x2997;} p \: q \text{&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;} \: q \text{&#x2998;}
+&amp; \text{&#x2997;} p \: \text{&#x2997;} q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;} p \: q \text{&#x2998;}
+\\
+f_{11}
+&amp; \text{&#x2997;} p \: \text{&#x2997;} q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;} \: q \text{&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;} p \: q \text{&#x2998;}
+&amp; \text{&#x2997;} p \: \text{&#x2997;} q \text{&#x2998;&#x2998;}
+\\
+f_{13}
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;} \: q \text{&#x2998;}
+&amp; \text{&#x2997;} p \: \text{&#x2997;} q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;} p \: q \text{&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;} \: q \text{&#x2998;}
+\\
+f_{14}
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;} p \: q \text{&#x2998;}
+&amp; \text{&#x2997;} p \: \text{&#x2997;} q \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;} \: q \text{&#x2998;}
+&amp; \text{&#x2997;&#x2997;} p \text{&#x2998;&#x2997;} q \text{&#x2998;&#x2998;}
+\\
+f_{15}
+&amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
+&amp; \text{&#x2997;&#x2997;} \: \text{&#x2998;&#x2998;}
+\\
+\cellopts{\colspan{2}} \text{Fixed Point Total}
+&amp;  4
+&amp;  4
+&amp;  4
+&amp; 16
+}$
+
+</td></table>
 
 ## Duals ##
 
