@@ -1,4 +1,33 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
+#Definition#
+The [[Schrödinger equation]] says that the rate at which the phase of an energy eigenvector rotates is proportional to its energy:
+\[ i \hbar \frac{d}{dt} \psi = H \psi. \]
+Therefore, the probability that the system evolves to the final state $\psi_F$ after evolving for time $t$ from the initial state $\psi_I$ is
+\[ \langle \psi_F|e^{-iHt}|\psi_I\rangle.\]
+Chop this up into time steps $\Delta t = t/N$ and use the fact that 
+\[\int_{-\infty}^{\infty}|q\rangle\langle q| = 1\]
+to get
+\[ \langle \psi_F| e^{-iH\Delta t} \left(\int_{-\infty}^{\infty} |q_{N-1} \rangle \langle q_{N-1}| dq_{N-1}\right) e^{-iH\Delta t} \left(\int_{-\infty}^{\infty} |q_{N-2} \rangle \langle q_{N-2}| dq_{N-2}\right) e^{-iH\Delta t} \cdots e^{-iH\Delta t} \left(\int_{-\infty}^{\infty} |q_1 \rangle \langle q_1| dq_1\right) e^{-iH\Delta t} |\psi_I\rangle \]
+\[ = \int_{q_1} \cdots \int_{q_{N-2}} \int_{q_{N-1}} \langle \psi_F| e^{-iH\Delta t} |q_{N-1} \rangle \langle q_{N-1}| e^{-iH\Delta t} |q_{N-2} \rangle \langle q_{N-2}|  e^{-iH\Delta t} \cdots e^{-iH\Delta t} |q_1 \rangle \langle q_1| e^{-iH\Delta t} |\psi_I\rangle dq_{N-1} dq_{N-2} \cdots dq_1 \]
+Assume we have the free Hamiltonian $H=p^2/2m.$  Looking at an individual term $\langle q_{n+1}| e^{-iH\Delta t} |q_{n} \rangle,$ we can insert a factor of 1 and solve to get
+\[ \array{\langle q_{n+1}| e^{-iH\Delta t} \left(\int_{-\infty}^{\infty} \frac{dp}{2\pi}|p\rangle \langle p|\right)|q_{n} \rangle &=& \int_{-\infty}^{\infty} \frac{dp}{2\pi} e^{-ip^2\Delta t/2m} \langle q_{n+1}|p\rangle \langle p|q_{n} \rangle \\ &=& \int_{-\infty}^{\infty} \frac{dp}{2\pi} e^{-ip^2\Delta t/2m} e^{ip(q_{n+1}-q_n)} \\ &=& \left(\frac{-i 2\pi m}{\Delta t}\right)^{\frac{1}{2}} e^{i \Delta t (m/2)[(q_{n+1}-q_n)/\Delta t]^2}.} \]
+Defining
+\[\int Dq = \lim_{N \to \infty} \left(\frac{-i 2\pi m}{\Delta t}\right)^{\frac{N}{2}} \prod_{n=0}^{N-1} \int dq_n,\]
+and letting $\Delta t \to 0, N \to \infty,$ we get
+\[ \langle \psi_F|e^{-iHt}|\psi_I\rangle = \int Dq e^{i \int_0^t dt \frac{1}{2}m \dot{q}^2}. \]
+
+For arbitrary Hamiltonians $H = \frac{p^2}{2m} + V(x),$ we get
+\[ \array{\langle \psi_F|e^{-iHt}|\psi_I\rangle &=& \int Dq e^{i \int_0^t dt \frac{1}{2}m \dot{q}^2 - V(x)} \\ &=& \int Dq e^{i\int_0^t\mathcal{L}(\dot{q},q) dt} \\ &=& \int Dq e^{iS(q)}, } \]
+where $S(q)$ is the [[action]] functional.
+
++--{.query}
+Is there an easy way to see how the Hamiltonian transforms into the Lagrangian in the exponent?
+=--
+
+#Discussion#
 Ours is the age whose central fundamental theoretical physics question is: 
 
 >_What is [[quantum field theory]]_? 
