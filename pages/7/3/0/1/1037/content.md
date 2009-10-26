@@ -4,6 +4,8 @@
 [[!include higher category theory - contents]]
 ***
 [[!include (infinity,1)-topos - contents]]
+***
+[[!include model category theory - contents]]
 </div>
 
 
