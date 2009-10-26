@@ -125,9 +125,6 @@ This concept has been extended to [[bicategory of fractions|bicategories of frac
 One account of localization with a [[calculus of fractions]] is section 7 of
 
 * Kashiwara-Schapira, [[Categories and Sheaves]]
-* Homotopy Theory, [Research Paper Help](http://www.superiorpapers.com/)
-* Morphisms, [Wolfram MathWorld](mathworld.wolfram.com/HomotopyTheory.html)
-
 
 ***
 
