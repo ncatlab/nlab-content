@@ -16,19 +16,52 @@
 
 # Definition #
 
-The __minimal negation operator__ $\nu$ is a [[multigrade operator]] $(\nu_k)_{k \in \mathbb{N}}$ where each $\nu_k$ is a $k$-ary [[boolean function]] defined in such a way that $\nu_k (x_1, \ldots, x_k) = 1$ in just those cases where exactly one of the arguments $x_j$ is $0$.
+The __minimal negation operator__ $\nu$ is a [[multigrade operator]] $(\nu_k)_{k \in \mathbb{N}}$ where each $\nu_k$ is a $k$-ary [[boolean function]] $\nu_k : \mathbb{B}^k \to \mathbb{B}$ defined in such a way that $\nu_k (x_1, \ldots, x_k) = 1$ in just those cases where exactly one of the $x_j$ is $0$.
 
-In contexts where the initial letter $\nu$ is understood, the minimal negation operators can be indicated by argument lists in parentheses.  In the following text a distinctive typeface will be used for logical expressions based on minimal negation operators, for example, `(x, y, z)` = $\nu (x, y, z)$.
+In contexts where the initial letter $\nu$ is understood, the minimal negation operators may be indicated by argument lists in parentheses.  In the following text a distinctive typeface is used for logical expressions based on minimal negation operators, for example, $\text{&#10647;} x \text{&#65104;} y \text{&#65104;} z \text{&#10648;} = \nu (x, y, z)$.
 
 The first four members of this family of operators are shown below, with paraphrases in a couple of other notations, where tildes and primes, respectively, indicate logical negation.
 
-*  `()` $= \nu_0 = 0 = false$
+<font size="+1">
+<table align="center" cellpadding="4" markdown="1" style="border:none; text-align:center; width:90%">
 
-*  `(x)` $= \nu_1 (x) = \tilde{x} = x'$
+<tr>
+<td style="border:none">$\text{&#x2997;} \text{&#x2998;}$</td>
+<td style="border:none">$=$</td>
+<td style="border:none">$\nu_0$</td>
+<td style="border:none">$=$</td>
+<td style="border:none">$0$</td>
+<td style="border:none">$=$</td>
+<td style="border:none">$\mathop{false}$</td></tr>
 
-*  `(x, y)` $= \nu_2 (x, y) = \tilde{x} y \:\vee\: x \tilde{y} = x' y \:\vee\: x y'$
+<tr>
+<td style="border:none">$\text{&#x2997;} x \text{&#x2998;}$</td>
+<td style="border:none">$=$</td>
+<td style="border:none">$\nu_1 (x)$</td>
+<td style="border:none">$=$</td>
+<td style="border:none">$\tilde{x}$</td>
+<td style="border:none">$=$</td>
+<td style="border:none">$x'$</td></tr>
 
-*  `(x, y, z)` $= \nu_3 (x, y, z) = \tilde{x} y z \:\vee\: x \tilde{y} z \:\vee\: x y \tilde{z} = x' y z \:\vee\: x y' z \:\vee\: x y z'$
+<tr>
+<td style="border:none">$\text{&#x2997;} x \text{&#xFE50;} y \text{&#x2998;}$</td>
+<td style="border:none">$=$</td>
+<td style="border:none">$\nu_2 (x, y)$</td>
+<td style="border:none">$=$</td>
+<td style="border:none">$\tilde{x} y \; \vee \; x \tilde{y}$</td>
+<td style="border:none">$=$</td>
+<td style="border:none">$x' y \; \vee \; x y'$</td></tr>
+
+<tr>
+<td style="border:none">$\text{&#x2997;} x \text{&#xFE50;} y \text{&#xFE50;} z \text{&#x2998;}$</td>
+<td style="border:none">$=$</td>
+<td style="border:none">$\nu_3 (x, y, z)$</td>
+<td style="border:none">$=$</td>
+<td style="border:none">$\tilde{x} y z \; \vee \; x \tilde{y} z \; \vee \; x y \tilde{z}$</td>
+<td style="border:none">$=$</td>
+<td style="border:none">$x' y z \; \vee \; x y' z \; \vee \; x y z'$</td></tr>
+
+</table></font>
 
 To express the general case of $\nu_k$ in terms of familiar operations, it helps to introduce an intermediary concept:
 
@@ -43,9 +76,9 @@ Then $\nu_k : \mathbb{B}^k \to \mathbb{B}$ is defined by the following equation:
 \[ \nu_k (x_1, \ldots, x_k)  =  \neg_1 (x_1, \ldots, x_k) \:\vee\: \cdots \:\vee\: \neg_j (x_1, \ldots, x_k) \:\vee\: \cdots \:\vee\: \neg_k (x_1, \ldots, x_k) . \]
 =--
 
-If we think of the point $x = (x_1, \ldots, x_k) \in \mathbb{B}^k$ as indicated by the boolean product $x_1 \cdot \cdots \cdot x_k$ or the logical conjunction $x_1 \:\wedge\: \cdots \:\wedge\: x_k$, then the minimal negation `(`$ x_1, \ldots, x_k $`)` indicates the set of points in $\mathbb{B}^k$ that differ from $x$ in exactly one coordinate.  This makes `(`$ x_1, \ldots, x_k $`)` a discrete functional analogue of a _point omitted neighborhood_ in analysis, more exactly, a _point omitted distance one neighborhood_.  In this light, the minimal negation operator can be recognized as a differential construction, an observation that opens a very wide field.  It also serves to explain a variety of other names for the same concept, for example, _logical boundary operator_, _limen operator_, _least action operator_, or _hedge operator_, to name but a few.  The rationale for these names is visible in the venn diagrams of the corresponding operations on sets.
+If we think of the point $x = (x_1, \ldots, x_k) \in \mathbb{B}^k$ as indicated by the boolean product $x_1 \cdot \ldots \cdot x_k$ or the logical conjunction $x_1 \; \wedge \; \ldots \; \wedge \; x_k$, then the minimal negation $\text{&#x2997;} x_1 \text{&#xFE50;} \ldots \text{&#xFE50;} x_k \text{&#x2998;}$ indicates the set of points in $\mathbb{B}^k$ that differ from $x$ in exactly one coordinate.  This makes $\text{&#x2997;} x_1 \text{&#xFE50;} \ldots \text{&#xFE50;} x_k \text{&#x2998;}$ a discrete functional analogue of a _point omitted neighborhood_ in analysis, more exactly, a _point omitted distance one neighborhood_.  In this light, the minimal negation operator can be recognized as a particular type of differential construction, an observation that opens a very wide field.  It also serves to explain a variety of other names for the same concept, for example, _logical boundary operator_ and _least action operator_.  The rationale for these names is visible in the venn diagrams of the corresponding operations on sets.
 
-The remainder of this discussion proceeds on the _algebraic boolean convention_ that the plus sign $(+)$ and the summation symbol $(\textstyle\sum)$ both refer to addition modulo 2.  Unless otherwise noted, the boolean domain $\mathbb{B} = \{ 0, 1 \}$ is interpreted so that $0 = false$ and $1 = true$.  This has the following consequences:
+The remainder of this discussion proceeds on the _algebraic boolean convention_ that the plus sign $(+)$ and the summation symbol $(\textstyle\sum)$ both refer to addition modulo 2.  Unless otherwise noted, the boolean domain $\mathbb{B} = \{ 0, 1 \}$ is interpreted so that $0 = \mathop{false}$ and $1 = \mathop{true}$.  This has the following consequences:
 
 *  The operation $x + y$ is a function equivalent to the exclusive disjunction of $x$ and $y$, while its fiber of $1$ is the relation of inequality between $x$ and $y$.
 
@@ -53,9 +86,9 @@ The remainder of this discussion proceeds on the _algebraic boolean convention_ 
 
 The following properties of the minimal negation operators $\nu_k : \mathbb{B}^k \to \mathbb{B}$ may be noted:
 
-*  The function `(x, y)` is the same as that associated with the operation $x + y$ and the relation $x \ne y$.
+*  The function $\text{&#x2997;} x \text{&#xFE50;} y \text{&#x2998;}$ is the same as that associated with the operation $x + y$ and the relation $x \ne y$.
 
-*  In contrast, `(x, y, z)` is not identical to $x + y + z$.
+*  In contrast, $\text{&#x2997;} x \text{&#xFE50;} y \text{&#xFE50;} z \text{&#x2998;}$ is not identical to $x + y + z$.
 
 *  More generally, the function $\nu_k (x_1, \dots, x_k)$ for $k \gt 2$ is not identical to the boolean sum $\textstyle\sum_{j=1}^k x_j$.
 
@@ -159,7 +192,7 @@ Figure 3.  `((p),(q),(r))`
    $$s = e_1 \, e_2 \, \cdots \, e_{k-1} \, e_k$$
    where $e_j = x_j$ or $e_j = \nu(x_j)$ for $j = 1$ to $k$
 
-# Links #
+# External links #
 
 * [Minimal Negation Operator @ MyWikiBiz](http://mywikibiz.com/Minimal_negation_operator)
 
