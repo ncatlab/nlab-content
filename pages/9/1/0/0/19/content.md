@@ -208,6 +208,7 @@ These are a part of category theory even if they are not categories or reduce to
 * [[pseudocategory|Pseudocategories]] (nonstrict internal categories)
 * [[sesquicategory|Sesquicategories]]
 * [[monad|Monads]]
+* [dissertation help](http://www.bestdissertation.com)
 * [[sketch|Sketches]] (models of sketches give categories or more generally internal categories)
 * [[doctrine|Doctrines]]
 
