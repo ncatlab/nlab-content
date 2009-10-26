@@ -3,3 +3,6 @@
 #related $n$Lab entries#
 
 * [[path integral]]
+
+
+category: people
