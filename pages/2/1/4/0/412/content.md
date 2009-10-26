@@ -1,3 +1,12 @@
+<div class="rightHandSide toc">
+[[!include model category theory - contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Many Model Structures#
 
 Philosophically, [[model category|model structures]] allow one to localize a category at a particular collection of weak equivalences, which one would like to formally invert.  For [[topological space]]s, there are two natural candidates for the collection $W$ of weak equivalences: the [[weak homotopy equivalence]]s and the [[homotopy equivalence]]s.  Both of these have accompanying model structures.  Interestingly, these two model structures can also be combined to form what's known as the _mixed_ model structure.
@@ -34,7 +43,7 @@ For the original "Quillen" or "q-" model structure:
 
 For the "Hurewicz," "Str&#248;m," or "h-" model structure:
 
-* Arne Str&#248;m, _The homotopy category is a homotopy category_, Archiv der Mathematik 23 (1972)
+* Arne Str&oslash;m, _The homotopy category is a homotopy category_, Archiv der Mathematik 23 (1972)
 
 For the "mixed" or "m-" model structure:
 
