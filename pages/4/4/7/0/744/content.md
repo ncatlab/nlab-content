@@ -106,6 +106,6 @@ If about something mathematical then try to convince [[John Baez|John]], [[Urs S
 
 ### How can I get a personal section of the nLab?
 
-Some users have personal areas of the _n_-Lab where they can have password protected pages and do work without fitting it into the rest of _n_-Lab.  If you would like to have such an area, email [[Urs Schreiber|Urs]].
+Some users have personal areas of the _n_-Lab where they can have password protected pages and do work without fitting it into the rest of _n_-Lab.  If you would like to have such an area, ask the [[nlabmeta:steering committee|steering committee]].
 
 category:meta
