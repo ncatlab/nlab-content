@@ -1,4 +1,13 @@
 
+<div class="rightHandSide toc">
+[[!include model category theory - contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 The Bousfield--Kan map(s) are comparison morphisms in a [[simplicial model category]] between two different "puffed up" versions of (co)limits over (co-)simplicial objects: one close to a [[homotopy limit|homotopy (co)limit]] and the other a version of nerve/geometric realization.
