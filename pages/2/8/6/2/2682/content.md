@@ -2,6 +2,8 @@
 
 > [[Urs Schreiber]]: here is a rough account of my understanding of what the landscape is, to be corrected:
 
+> at least one thing missing here is the subtlety explained out by [[Jacques Distler]] in blog dicussion [here](http://golem.ph.utexas.edu/category/2009/10/structural_foundations_of_quan.html#c028474)
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
