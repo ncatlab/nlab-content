@@ -1,14 +1,6 @@
 <div class="rightHandSide toc">
 [[!include cohomology - contents]]
 
-***
-
-[[!include higher category theory - contents]]
-
-
-***
-
-[[!include higher geometry - contents]]
 
 ***
 
