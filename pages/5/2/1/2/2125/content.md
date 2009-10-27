@@ -24,7 +24,7 @@ If instead we look at chain complexes and [[simplicial object]]s not in [[Ab]] b
 
 Analogous statements apply to the dual Dod-Kan correspondence, where the monoids in question are accordingly cosimplicial rings and [[differential graded algebras]] with differential of positiuve degree.
 
-A crucial fact about the Dold-Kan correspondence is that
+A crucial fact about the [[Dold-Kan correspondence]] is that
 
 * The Dold-Kan correspondence respects these monoidal structures.
 
@@ -95,12 +95,17 @@ While the nerve functor $\Xi : Ch_+ \to sAb$ fails to be monoidal in such a dire
 This is the content of the following statements.
 
 
-In **characteristic zero** there is also a Dold--Kan correspondence between simplicial algebras and [[dg-algebra]]s in nonnegative degrees, as well as between cosimplicial algebras and dg-algebras in nonpositive degrees, which is rather a [[Quillen equivalence]] (thus the two adjoint functors constructed in that case are inverses up to a [[quasi-isomorphism]] of dg-algebras):
+In **characteristic zero** there is also a Dold--Kan correspondence between simplicial algebras and $\mathbb{N}$-graded chain [[dg-algebra]]s 
+
+* Stefan Schwede, Brooke Shipley, Equivalences of monoidal model categories, Algebr. Geom. Topol. 3 (2003), 287--334 ([arXiv](http://arxiv.org/abs/math.AT/0209342))
+
+as well as between [[cosimplicial algebra]]s and $\mathbb{N}$-graded cochain [[dg-algebra]]s 
 
 * J.L. Castiglioni, G. Corti&#241;as, 
 Cosimplicial versus DG-rings: a version of the Dold-Kan correspondence, J. Pure Appl. Algebra  191  (2004),  no. 1-2, 119--142, [arXiv:math.KT/0306289](http://arxiv.org/abs/math/0306289).
 
-* Stefan Schwede, Brooke Shipley, Equivalences of monoidal model categories, Algebr. Geom. Topol. 3 (2003), 287--334 ([arXiv](http://arxiv.org/abs/math.AT/0209342))
+This establishes not quite a [[Quillen equivalence]], but shows that the [[Dold-Kan correspondence]] induces an [[equivalence]] of [[homotopy category|homotopy categories]] for the [[model structure on cosimplicial rings]] and the [[model structure on dg-algebras|model structure on dg-rings]].
+
 
 Further work along such lines is
 
