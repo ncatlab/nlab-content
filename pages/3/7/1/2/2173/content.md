@@ -16,7 +16,7 @@
 
 # Definition #
 
-The __minimal negation operator__ $\nu$ is a [[multigrade operator]] $(\nu_k)_{k \in \mathbb{N}}$, that is, an indexed family of operators $\{ \nu_k : k = 0, 1, 2, \ldots \}$, where each $\nu_k$ is a $k$-ary [[boolean function]] $\nu_k : \mathbb{B}^k \to \mathbb{B}$ defined in such a way that $\nu_k (x_1, \ldots, x_k) = 1$ if and only if exactly one of its arguments $x_j$ is equal to $0$.
+The __minimal negation operator__ $\nu$ is a [[multigrade operator]] $(\nu_k)_{k \in \mathbb{N}}$ that can be described as follows.  For each $k$ in the index set of non-negative integers $\mathbb{N}$, the operator $\nu$ contains a unique [[boolean function]] $\nu_k : \mathbb{B}^k \to \mathbb{B}$ defined in such a way that $\nu_k (x_1, \ldots, x_k) = 1$ in just those cases where exactly one of the $x_j$ is equal to $0$.
 
 In contexts where the initial letter $\nu$ is understood, the minimal negation operators may be indicated by argument lists in parentheses.  In the following text a distinctive typeface is used for logical expressions based on minimal negation operators, for example, $\text{&#10647;} x \text{&#65104;} y \text{&#65104;} z \text{&#10648;} = \nu (x, y, z)$.
 
@@ -69,11 +69,11 @@ To express the general case of $\nu_k$ in terms of familiar operations, it helps
 ###### Definition
 Let the function $\neg_j : \mathbb{B}^k \to \mathbb{B}$ be defined for each integer $j$ in the interval $[1, k]$ by the following equation:
 
-\[ \neg_j (x_1, \ldots, x_j, \ldots, x_k)  =  x_1 \:\wedge\: \cdots \:\wedge\: x_{j-1} \:\wedge\: \neg x_j \:\wedge\: x_{j+1} \:\wedge\: \cdots \:\wedge\: x_k . \]
+$$\neg_j (x_1, \ldots, x_j, \ldots, x_k) \; = \; x_1 \:\wedge\: \cdots \:\wedge\: x_{j-1} \:\wedge\: \neg x_j \:\wedge\: x_{j+1} \:\wedge\: \cdots \:\wedge\: x_k$$
 
 Then $\nu_k : \mathbb{B}^k \to \mathbb{B}$ is defined by the following equation:
 
-\[ \nu_k (x_1, \ldots, x_k)  =  \neg_1 (x_1, \ldots, x_k) \:\vee\: \cdots \:\vee\: \neg_j (x_1, \ldots, x_k) \:\vee\: \cdots \:\vee\: \neg_k (x_1, \ldots, x_k) . \]
+$$\nu_k (x_1, \ldots, x_k) \; = \; \neg_1 (x_1, \ldots, x_k) \:\vee\: \cdots \:\vee\: \neg_j (x_1, \ldots, x_k) \:\vee\: \cdots \:\vee\: \neg_k (x_1, \ldots, x_k)$$
 =--
 
 If we think of the point $x = (x_1, \ldots, x_k) \in \mathbb{B}^k$ as indicated by the boolean product $x_1 \cdot \ldots \cdot x_k$ or the logical conjunction $x_1 \; \wedge \; \ldots \; \wedge \; x_k$, then the minimal negation $\text{&#x2997;} x_1 \text{&#xFE50;} \ldots \text{&#xFE50;} x_k \text{&#x2998;}$ indicates the set of points in $\mathbb{B}^k$ that differ from $x$ in exactly one coordinate.  This makes $\text{&#x2997;} x_1 \text{&#xFE50;} \ldots \text{&#xFE50;} x_k \text{&#x2998;}$ a discrete functional analogue of a _point omitted neighborhood_ in analysis, more exactly, a _point omitted distance one neighborhood_.  In this light, the minimal negation operator can be recognized as a particular type of differential construction, an observation that opens a very wide field.  It also serves to explain a variety of other names for the same concept, for example, _logical boundary operator_ and _least action operator_.  The rationale for these names is visible in the venn diagrams of the corresponding operations on sets.
@@ -285,6 +285,12 @@ $\text{Figure 3.} \:\: \text{&#x2997;&#x2997;} p \text{&#x2998;&#xFE50;&#x2997;}
    $$s = e_1 \, e_2 \, \cdots \, e_{k-1} \, e_k$$
 
    where $e_j = x_j$ or $e_j = \nu(x_j)$ for $j = 1$ to $k$.
+
+# See also #
+
+* [[cactus language]]
+
+* [[differential logic]]
 
 # External links #
 
