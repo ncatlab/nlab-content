@@ -1,3 +1,10 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+#Idea#
+
 The [[higher category theory|higher categorical]] version of the [[fundamental groupoid]] of a space.
 
 The fundamental $\infty$-groupoid of a topological space $X$ is supposed to be the [[infinity-groupoid]] whose $k$-morphisms are $k$-dimensional paths in $X$. Concrete realizations depend on the model of [[infinity-category]] or [[omega-category]] chosen:
