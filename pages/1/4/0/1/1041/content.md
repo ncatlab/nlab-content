@@ -1,9 +1,13 @@
-##Idea##
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+#Idea#
 
 An abelian category is a general context in which much of linear algebra and [[homological algebra]] makes sense.  It is one concept in a sequence of [[additive and abelian categories]].  
 
 
-##Definition##
+#Definition#
 
 An **abelian category** is a [[pre-abelian category]] satisfying the following equivalent conditions.
 
@@ -12,7 +16,7 @@ An **abelian category** is a [[pre-abelian category]] satisfying the following e
 1. Every [[monomorphism|monic]] is a [[kernel]] and every [[epimorphism|epic]] is a [[cokernel]].
 
 
-##Remarks##
+#Remarks#
 
 * The two conditions are equivalent as follows. Assuming (1), when $f$ is monic we obtain $f\cong \ker(\coker(f))$ so that $f$ is a kernel, and dually; thus (1) implies (2).  The converse can be found in, among other places, Chapter VIII of [[Categories Work]].
 
@@ -23,7 +27,7 @@ An **abelian category** is a [[pre-abelian category]] satisfying the following e
 * The last point is of relevance in particular for [[infinity-category|higher categorical]] generalizations of additive categories. See for instance [remark 2.14, p. 5](http://www-math.mit.edu/~lurie/papers/DAG-I.pdf#page=5) of Jacob Lurie's [[Stable Infinity-Categories]].
 
 
-## Examples##
+# Examples#
 
 * Of course, [[Ab]] is abelian, as is the category of [[module|modules]] over any [[ring]].
 
@@ -33,7 +37,7 @@ An **abelian category** is a [[pre-abelian category]] satisfying the following e
 
 * The category of torsion-free abelian groups is pre-abelian, but not abelian: the monomorphism $2:\mathbb{Z}\to\mathbb{Z}$ is not a kernel.
 
-## Categories of $R$-modules ##
+# Categories of $R$-modules #
 
 There are some interesting results about the extent to which we can pretend any abelian category is a category of left $R$-modules for some ring $R$.  Let us write $R Mod$ for such a category of modules.  
 
@@ -78,13 +82,13 @@ into the strict 2-category of
 
 For more discussion see the [$n$-Cafe](http://golem.ph.utexas.edu/category/2007/08/questions_about_modules.html).
 
-##References##
+#References#
 
 A classic reference, now available online:
 
 * Peter Freyd, [Abelian Categories](http://www.emis.de/journals/TAC/reprints/articles/3/tr3abs.html), originally published by Harper and Row, New York, 1964.
 
-##Discussion##
+#Discussion#
 
 The following discussion is about whether a pre-abelian category in which (epi,mono) is a factorization system is necessarily abelian.
 
