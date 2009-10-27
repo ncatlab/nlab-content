@@ -1,3 +1,7 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Definition#
 
 An **epimorphism** in a [[category]] $C$ is a [[morphism]] 
@@ -33,7 +37,15 @@ The epimorphisms in [[Set]] are the [[surjection|surjective]] functions; thus ep
 # Variations #
 
 There are a sequence of variations on the concept of epimorphism, from strongest to weakest:
->[[split epimorphism]], [[regular epimorphism]], [[strict epimorphism]], [[strong epimorphism]], [[extremal epimorphism]], epimorphism.
+
+
+[[split epimorphism]] $\Rightarrow$
+[[regular epimorphism]] $\Rightarrow$ 
+[[strict epimorphism]]$\Rightarrow$
+[[strong epimorphism]]$\Rightarrow$ 
+[[extremal epimorphism]]$\Rightarrow$
+epimorphism.
+
 In [[Set|the category of sets]], every epimorphism is regular (and even split if you believe the [[axiom of choice]]), so it can be hard to know, when generalising concepts from $\Set$ to other categories, what kind of epimorphism to use.
 
 In general, the two serious distinctions come
