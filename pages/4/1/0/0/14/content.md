@@ -1,5 +1,9 @@
 [[!include contents]]
 
+#Contents#
+* automatic table of contents
+{:toc}
+
 #History#
 
 The [[HomePage|nLab]] is a _collaborative [wiki](http://en.wikipedia.org/wiki/Wiki)_ which has grown out of the desire ([I](http://golem.ph.utexas.edu/category/2007/09/towards_a_higherdimensional_wi.html), [II](http://golem.ph.utexas.edu/category/2008/11/beyond_the_blog.html)) of an on-line community communicating via the weblog [The $n$-Category Caf&#233;](http://golem.ph.utexas.edu/category/) of people interested in discussion of expository and research nature about [[mathematics]], [[physics]] and [[philosophy]] in the light of [[category theory]] and [[higher category theory]] (the "$n$" in "$n$Lab") to have a place for development (the "Lab" in "$n$Lab") and indexed archivation of the ideas and concepts that were, are and will be subject of or that developed out of the discussion at the weblog.
