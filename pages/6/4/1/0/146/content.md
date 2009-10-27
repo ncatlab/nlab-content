@@ -3,6 +3,10 @@
 </div>
 
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Definition#
 
 A **presheaf** on a category $C$ is nothing but a [[functor]]
