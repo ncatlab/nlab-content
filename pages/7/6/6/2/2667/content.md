@@ -5,17 +5,22 @@
 
 #Idea and definition#
 
-Classically, a **Schur functor** is a just a [[functor]] $Vect_{fd} \to Vect_{fd}$ on the category of finite-dimensional complex [[vector space|vector spaces]]. 
-+--{.query} 
-Literally any functor? Something seems peculiar to me about that. See the next query box. 
+Classically, a **Schur functor** is a specific sort of [[functor]] 
 
-Reply:  [Apparently no](http://golem.ph.utexas.edu/category/2007/04/schur_functors.html#c028416), not all.  Only those that are 'algebraic' or 'holomorphic' in some sense, as the next query box guessed.
-=--
+$$F: FinVect_{\mathbb{C}} \to FinVect_{\mathbb{C}}$$ 
+
+on the category of finite-dimensional complex [[vector space|vector spaces]].  Namely, it is a functor of this sort that is algebraic on homsets: the homsets are vector spaces, so one can demand that for any pair of objects $V, W \in FinVect_{\mathbb{C}}$ the functor
+
+$$ F: hom(V,W) \to hom(F V , F W) $$
+
+is a polynomial function from the vector space 
+$hom(V,W)$ to the vector space $hom(F V , F W)$
+
 In more modern treatments, a Schur functor is a functor defined (in a [[polymorphism|polymorphic]] way) on [[module|modules]] over more general [[commutative ring]] $R$ (possibly with some conditions on $R$), so that "Schur functor" really connotes a family of functors 
 
 $$F_R: Mod_R \to Mod_R$$ 
 
-It turns out that much of the theory of Schur functors can be generalized even further, beyond module categories, and in this article we tentatively explore the scope of such generality. 
+It turns out that much of the theory of Schur functors can be generalized even further, beyond module categories.  In this article, Todd Trimble and John Baez plan to explore the scope of such generality and --- we hope --- write a paper about what we find.
 
 # Examples #
 
@@ -36,9 +41,11 @@ Rather more representative examples of Schur functors include:
 Even though Schur functors do not respect linear structure, the category $Schur$ of Schur functors is nevertheless a [[linear category]], so we can talk about [[irreducible object]]s, decompositions into [[direct sum|direct sums]], and so on. It turns out that every Schur functor $F$ can be expressed as a direct sum of irreducible $Schur$-objects $S_\lambda$ indexed by [[Young diagram]]s $\lambda$, and these $S_\lambda$ are usually what people think of when they say "Schur functors". 
 
 +--{.query} 
-I took this statement about decompositions from the blog discussion, but what's the precise statement? I have a hard time believing that it's a finite decomposition in general. I'm hoping the situation is analogous to analytic functors in the case of species, but I'm not at all sure what the precise statement should be. 
+[[Todd Trimble]]: I took this statement about decompositions from the blog discussion, but what's the precise statement? I have a hard time believing that it's a finite decomposition in general. I'm hoping the situation is analogous to analytic functors in the case of species, but I'm not at all sure what the precise statement should be. 
 
-Even if it is something analogous to analytic functors, I am reminded that analytic functors on $Set$ aren't just any old functors; they are characterized by certain properties such as weak preservation of pullbacks. Is there something similar that needs to be said for the very general sense of 'Schur functor' given above? 
+Even if it is something analogous to analytic functors, I am reminded that analytic functors on $Set$ aren't just any old functors; they are characterized by certain properties such as weak preservation of pullbacks. Is there something similar that needs to be said for the very general sense of 'Schur functor' given above?
+
+[[John Baez]]: I think we don't need anything more than what we're assuming above.  But let's prove that.
 =--
 
 # Schur functors associated with Young diagrams #
@@ -46,7 +53,14 @@ Even if it is something analogous to analytic functors, I am reminded that analy
 Functors such as the $k^{th}$ alternating power, $k^{th}$ symmetric power, etc. make sense in much wider contexts than just $Vect_{\mathbb{C}}$. Indeed, let $C$ be any [[symmetric monoidal category|symmetric monoidal]] [[abelian category]] whose hom-objects are $\mathbb{Q}$-vector spaces. 
 
 +--{.query}
+[[Todd Trimble]]: 
 I wimped out and chose rational vector spaces as the base of enrichment. For one thing, the blog commentary seems to suggest that there are delicate issues in nonzero characteristic. Even in cases where there is no integer torsion, it seems to me that integer divisibility makes certain things come out a lot more cleanly, and (if I am not mistaken) means that certain finite cocompleteness conditions can be relaxed in favor of Cauchy completeness (in the enriched category sense of Lawvere). More on this later. 
+
+[[John Baez]]: You're right that there are special tricky endofunctors 
+$$ F: FinVect_{\mathbb{C}} \to FinVect_{k} $$
+that can be defined only when $k$ has characteristic $p$.
+So, using categories enriched over $Vect_k$ with $k$ having characteristic zero is probably a wise idea, at least for starters.  But I'm really hoping that we can drop that in the more sophisticated approach where we work with all symmetric monoidal abelian categories simultaneously and demand pseudonaturality.  I'm hoping this will 'wash out' the tricky functors that only work in characteristic $p$, leaving us with just the Schur functors we know and love.  
+
 =-- 
 
 Recall that the [[group algebra]] $\mathbb{Q}[S_n]$ decomposes as a direct sum 
@@ -91,6 +105,9 @@ With the possible exception of the left Kan extension alluded to above, all thes
 It would actually feel more natural to me to speak of the object of coinvariants rather than the object of invariants, but in the present context it should come to the same thing as either is the splitting of the idempotent operator $\frac1{n!}\sum g$. That is to say: there is a natural splitting of the idempotent natural transformation 
 $$e_X = \frac1{n!} \sum_{g \in S_n} g: V_\lambda \otimes X^{\otimes n} \to V_\lambda \otimes X^{\otimes n}$$ 
 which can be viewed either as invariants (equalizer of $e$ and the identity) or coinvariants (coequalizer of $e$ and the identity). 
+
+[[John Baez]]: we need to use coinvariants when we get to  the more sophisticated approach where our constructions are supposed to preserved by <i>right exact</i> functors.  Also, coinvariants work even in characteristic $p$, while invariants involve dividing by $n!$.  So, coinvariants rule.
+
 =-- 
 
 # Schur functors as actions of the plethystic monoidal category
