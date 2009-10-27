@@ -1,7 +1,11 @@
 [[!redirects monoidal categories]]
 [[!redirects strict monoidal category]]
 
-##The Idea##
+#Contents'
+* automatic table of contents goes here
+{:toc}
+
+#The Idea#
 
 A 'monoidal category' is a [[category]] equipped with some notion of 'tensor product'.  A good example is the category [[Vect]], where we can take the tensor product, not only of vector spaces, but also of linear maps: given linear maps $f : V \to W$ and $f' : V' \to W'$, we get a linear map
 
@@ -15,7 +19,7 @@ $$\otimes : M \times M \to M$$
 
 This functor, which we can think of as a kind of 'multiplication', makes $M$ into a [[vertical categorification|vertically categorified]] version of a [[monoid]].  This explains the term 'monoidal category'.
 
-##Definition##  
+#Definition#
 
 A **monoidal category** is a [[category]] $M$ equipped with a [[functor]]
 $$ \otimes : M \times M \to M $$
@@ -75,7 +79,7 @@ There is a [[strict 2-category]] MonCat with:
 
 One version of Mac Lane's Coherence Theorem states that in MonCat, every monoidal category is [[equivalence of categories|equivalent]] to a strict one.
 
-##Related notions##
+#Related notions#
 
 * [[braided monoidal category]]
 
@@ -95,7 +99,7 @@ One version of Mac Lane's Coherence Theorem states that in MonCat, every monoida
 
 * [[monoidal (infinity,1)-category]] -- see also the discussion below
 
-##References##
+#References#
 
 The definition of monoidal category can be found on [John Armstrong's blog](http://unapologetic.wordpress.com/2007/06/28/monoidal-categories/) and [Wikipedia](http://en.wikipedia.org/wiki/Monoidal_category).
 
@@ -115,7 +119,7 @@ For a more detailed tour of monoidal categories, also using string diagrams, try
 
 Selinger discusses autonomous, balanced, braided, compact closed, pivotal, ribbon, rigid, sovereign, spherical, tortile, and traced monoidal categories.
 
-##Where the Definition Comes From##
+#Where the Definition Comes From#
 
 The definition of monoidal category looks rather complicated at first sight, so it is natural to wonder if there is some magic wand we can wave that makes it appear automatically.  For example, one might wonder if we can define monoidal categories using [[internalization]].  
 
