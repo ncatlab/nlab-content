@@ -1,3 +1,12 @@
+<div class="rightHandSide toc">
+[[!include model category theory - contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 # Idea  #
 
 A [[model category]] $C$ is _cofibrantly generated_ if there is a [[set]]
