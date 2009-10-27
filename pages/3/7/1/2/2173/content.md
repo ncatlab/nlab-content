@@ -16,7 +16,7 @@
 
 # Definition #
 
-The __minimal negation operator__ $\nu$ is a [[multigrade operator]] $(\nu_k)_{k \in \mathbb{N}}$ where each $\nu_k$ is a $k$-ary [[boolean function]] $\nu_k : \mathbb{B}^k \to \mathbb{B}$ defined in such a way that $\nu_k (x_1, \ldots, x_k) = 1$ in just those cases where exactly one of the $x_j$ is $0$.
+The __minimal negation operator__ $\nu$ is a [[multigrade operator]] $(\nu_k)_{k \in \mathbb{N}}$, that is, an indexed family of operators $\{ \nu_k : k = 0, 1, 2, \ldots \}$, where each $\nu_k$ is a $k$-ary [[boolean function]] $\nu_k : \mathbb{B}^k \to \mathbb{B}$ defined in such a way that $\nu_k (x_1, \ldots, x_k) = 1$ if and only if exactly one of its arguments $x_j$ is equal to $0$.
 
 In contexts where the initial letter $\nu$ is understood, the minimal negation operators may be indicated by argument lists in parentheses.  In the following text a distinctive typeface is used for logical expressions based on minimal negation operators, for example, $\text{&#10647;} x \text{&#65104;} y \text{&#65104;} z \text{&#10648;} = \nu (x, y, z)$.
 
@@ -214,9 +214,9 @@ f_{151}
 
 This Section focuses on visual representations of minimal negation operators.  A few bits of terminology are useful in describing the pictures, but the formal details are tedious reading, and may be familiar to many readers, so the full definitions of the terms marked in bold are relegated to a Glossary at the end of the article.
 
-Two ways of visualizing the space $\mathbb{B}^k$ of $2^k$ points are the _hypercube_ picture and the _venn diagram_ picture.  The hypercube picture associates each point of $\mathbb{B}^k$ with a unique point of the $k$-dimensional hypercube (the $k$-[[cube]]).  The venn diagram picture associates each point of $\mathbb{B}^k$ with a unique "cell" of the venn diagram on $k$ "circles".
+Two ways of visualizing the space $\mathbb{B}^k$ of $2^k$ points are the _hypercube_ picture and the _venn diagram_ picture.  The hypercube picture associates each point of $\mathbb{B}^k$ with a unique point of the $k$-dimensional hypercube.  The venn diagram picture associates each point of $\mathbb{B}^k$ with a unique "cell" of the venn diagram on $k$ "circles".
 
-In addition, each point of $\mathbb{B}^k$ is the unique point in the __fiber of truth__ $[|s|]$ of a __singular proposition__ $s : \mathbb{B}^k \to \mathbb{B}$, and thus it is the unique point where a __singular conjunction__ of $k$ __literals__ is equal to 1.
+In addition, each point of $\mathbb{B}^k$ is the unique point in the __fiber of truth__ $\text{&#x301A;} s \text{&#x301B;}$ of a __singular proposition__ $s : \mathbb{B}^k \to \mathbb{B}$, and thus it is the unique point where a __singular conjunction__ of $k$ __literals__ is equal to 1.
 
 For example, consider two cases at opposite vertices of the $k$-cube:
 
@@ -232,51 +232,59 @@ To pass from these limiting examples to the general case, observe that a singula
 
 For example, consider the case where $k = 3$.  Then the minimal negation operation $\nu(p, q, r)$, written more simply as $\text{&#x2997;} p \text{&#xFE50;} q \text{&#xFE50;} r \text{&#x2998;}$, has the following venn diagram:
 
-![Venn Diagram (p,q,r)](http://mywikibiz.com/images/1/11/Venn_Diagram_%28P%2CQ%2CR%29.jpg)
+<div align="center" markdown="1">
 
-Figure 2.  $\text{&#x2997;} p \text{&#xFE50;} q \text{&#xFE50;} r \text{&#x2998;}$
+![Venn Diagram (p,q,r)](/nlab/files/Venn_Diagram_lPcQcRr.jpg)
+
+$\text{Figure 2.} \:\: \text{&#x2997;} p \text{&#xFE50;} q \text{&#xFE50;} r \text{&#x2998;}$
+
+</div>
 
 For a contrasting example, the boolean function expressed by the form $\text{&#x2997;&#x2997;} p \text{&#x2998;&#xFE50;&#x2997;} q \text{&#x2998;&#xFE50;&#x2997;} r \text{&#x2998;&#x2998;}$ has the following venn diagram:
 
-![Venn Diagram ((p),(q),(r))](http://mywikibiz.com/images/a/a8/Venn_Diagram_%28%28P%29%2C%28Q%29%2C%28R%29%29.jpg)
+<div align="center" markdown="1">
 
-Figure 3.  $\text{&#x2997;&#x2997;} p \text{&#x2998;&#xFE50;&#x2997;} q \text{&#x2998;&#xFE50;&#x2997;} r \text{&#x2998;&#x2998;}$
+![Venn Diagram ((p),(q),(r))](/nlab/files/Venn_Diagram_llPrclQrclRrr.jpg)
+
+$\text{Figure 3.} \:\: \text{&#x2997;&#x2997;} p \text{&#x2998;&#xFE50;&#x2997;} q \text{&#x2998;&#xFE50;&#x2997;} r \text{&#x2998;&#x2998;}$
+
+</div>
 
 # Glossary of basic terms #
 
-*  A __boolean domain__ $\mathbb{B}$ is a generic 2-element set, say, $\mathbb{B} = \{ 0, 1 \}$, whose elements are interpreted as logical values, usually but not invariably with $0$ = _false_ and $1$ = _true_.
+* A __boolean domain__ $\mathbb{B}$ is a generic 2-element set, say, $\mathbb{B} = \{ 0, 1 \}$, whose elements are interpreted as logical values, usually but not invariably with $0$ = _false_ and $1$ = _true_.
 
-*  A __boolean variable__ $x$ is a variable that takes its value from a boolean domain, as $x \in \mathbb{B}$.
+* A __boolean variable__ $x$ is a variable that takes its value from a boolean domain, as $x \in \mathbb{B}$.
 
-*  In situations where boolean values are interpreted as logical values, a boolean-valued function $f : X \to \mathbb{B}$ or a boolean function $g : \mathbb{B}^k \to \mathbb{B}$ is frequently called a __proposition__.
+* In situations where boolean values are interpreted as logical values, a boolean-valued function $f : X \to \mathbb{B}$ or a boolean function $g : \mathbb{B}^k \to \mathbb{B}$ is frequently called a __proposition__.
 
-*  Given a sequence of $k$ boolean variables, $x_1, \ldots, x_k$, each variable $x_j$ may be treated either as a basis element of the space $\mathbb{B}^k$ or as a coordinate projection $x_j : \mathbb{B}^k \to \mathbb{B}$.
+* Given a sequence of $k$ boolean variables, $x_1, \ldots, x_k$, each variable $x_j$ may be treated either as a basis element of the space $\mathbb{B}^k$ or as a coordinate projection $x_j : \mathbb{B}^k \to \mathbb{B}$.
 
-*  This means that the $k$ objects $x_j$ for $j$ = $1$ to $k$ are just so many boolean functions $x_j : \mathbb{B}^k \to \mathbb{B}$, subject to logical interpretation as a set of _basic propositions_ that generate the complete set of $2^{2^k}$ propositions over $\mathbb{B}^k$.
+* This means that the $k$ objects $x_j$ for $j$ = $1$ to $k$ are just so many boolean functions $x_j : \mathbb{B}^k \to \mathbb{B}$, subject to logical interpretation as a set of _basic propositions_ that generate the complete set of $2^{2^k}$ propositions over $\mathbb{B}^k$.
 
-*  A __literal__ is one of the $2k$ propositions $x_1, \ldots, x_k, \text{&#x2997;} x_1 \text{&#x2998;}, \ldots, \text{&#x2997;} x_k \text{&#x2998;}$, in other words, either a _posited_ basic proposition $x_j$ or a _negated_ basic proposition $\text{&#x2997;} x_j \text{&#x2998;}$, for some $j$ = $1$ to $k$.
+* A __literal__ is one of the $2k$ propositions $x_1, \ldots, x_k, \text{&#x2997;} x_1 \text{&#x2998;}, \ldots, \text{&#x2997;} x_k \text{&#x2998;}$, in other words, either a _posited_ basic proposition $x_j$ or a _negated_ basic proposition $\text{&#x2997;} x_j \text{&#x2998;}$, for some $j$ = $1$ to $k$.
 
-*  In mathematics generally, the __fiber__ of a point $y$ under a function $f : X \to Y$ is defined as the inverse image $f^{-1}(y)$.
+* In mathematics generally, the __fiber__ of a point $y$ under a function $f : X \to Y$ is defined as the inverse image $f^{-1}(y)$.
 
-*  In the case of a boolean-valued function $f : X \to \mathbb{B}$, there are just two fibers:
-   *  The fiber of $0$ under $f$, defined as $f^{-1}(0)$, is the set of points where $f$ is 0.
-   *  The fiber of $1$ under $f$, defined as $f^{-1}(1)$, is the set of points where $f$ is 1.
+* In the case of a boolean-valued function $f : X \to \mathbb{B}$, there are just two fibers:
+   * The fiber of $0$ under $f$, defined as $f^{-1}(0)$, is the set of points where $f$ is 0.
+   * The fiber of $1$ under $f$, defined as $f^{-1}(1)$, is the set of points where $f$ is 1.
 
-*  When $1$ is interpreted as the logical value _true_, then $f^{-1}(1)$ is called the __fiber of truth__ in the proposition $f$.  Frequent mention of this fiber makes it useful to have a shorter way of referring to it.  This leads to the definition of the notation $[|f|] = f^{-1}(1)$ for the fiber of truth in the proposition $f$.
+* When $1$ is interpreted as the logical value _true_, then $f^{-1}(1)$ is called the __fiber of truth__ in the proposition $f$.  Frequent mention of this fiber makes it useful to have a shorter way of referring to it.  This leads to the definition of the notation $\text{&#x301A;} f \text{&#x301B;} = f^{-1}(1)$ for the fiber of truth in the proposition $f$.
 
-*  A __singular boolean function__ $s : \mathbb{B}^k \to \mathbb{B}$ is a boolean function whose fiber of $1$ is a single point of $\mathbb{B}^k$.
+* A __singular boolean function__ $s : \mathbb{B}^k \to \mathbb{B}$ is a boolean function whose fiber of $1$ is a single point of $\mathbb{B}^k$.
 
-*  In the interpretation where $1$ equals _true_, a singular boolean function is called a __singular proposition__.
+* In the interpretation where $1$ equals _true_, a singular boolean function is called a __singular proposition__.
 
-*  Singular boolean functions and singular propositions serve as functional or logical representatives of the points in $\mathbb{B}^k$.
+* Singular boolean functions and singular propositions serve as functional or logical representatives of the points in $\mathbb{B}^k$.
 
-*  A __singular conjunction__ in $(\mathbb{B}^k \to \mathbb{B})$ is a conjunction of $k$ literals that includes just one conjunct of the pair $\{ x_j,   \nu(x_j) \}$ for each $j$ = $1$ to $k$.
+* A __singular conjunction__ in $(\mathbb{B}^k \to \mathbb{B})$ is a conjunction of $k$ literals that includes just one conjunct of the pair $\{ x_j,   \nu(x_j) \}$ for each $j$ = $1$ to $k$.
 
-*  A singular proposition $s : \mathbb{B}^k \to \mathbb{B}$ can be expressed as a singular conjunction:
+* A singular proposition $s : \mathbb{B}^k \to \mathbb{B}$ can be expressed as a singular conjunction:
 
    $$s = e_1 \, e_2 \, \cdots \, e_{k-1} \, e_k$$
 
-   where $e_j = x_j$ or $e_j = \nu(x_j)$ for $j = 1$ to $k$
+   where $e_j = x_j$ or $e_j = \nu(x_j)$ for $j = 1$ to $k$.
 
 # External links #
 
