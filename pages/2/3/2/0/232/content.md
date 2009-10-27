@@ -1,3 +1,7 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 The idea of an enriched category is that we take the definition of [[locally small category]] and replace the [[hom-set|hom-sets]] by objects in some [[monoidal category]] $K$.  So, a __category enriched over $K$__ (also called a __category enriched in $K$__, or simply a __$K$-category__), say $C$, has a collection $ob(C)$ of objects and for each pair $x,y \in ob(C)$, a '[[hom-object]]' 
