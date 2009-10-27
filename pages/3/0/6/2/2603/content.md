@@ -36,7 +36,9 @@ When $\mathcal{X}$ and $\mathcal{Y}$ are simply sets, the angle between them is 
 
 $$cos\theta_{{\mathcal{X}},{\mathcal{Y}}} = \frac{|X\cap Y|}{\sqrt{|X||Y|}}.$$
 
-With this notion of addition, the collection of multisets in $U$ becomes the $\mathbb{N}$-[[module]] (that is [[abelian group]]) $\mathbb{N}^U$; this inner product makes it an [[inner product space]] analogous to the Banach space $\mathbb{R}^n$.
+With this notion of addition, the collection of multisets in $U$ becomes the $\mathbb{N}$-[[module]] (that is [[abelian group]]) $\mathbb{N}^U$; this inner product makes it an [[inner product space]] analogous to the Banach space $\mathbb{R}^n$. 
+
+[[Todd Trimble|Todd]]: I assume you mean abelian monoid, not abelian group. 
 
 ## Machine Learning ##
 
