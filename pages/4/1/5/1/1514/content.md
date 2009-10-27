@@ -36,6 +36,11 @@ For simple systems like particles propagating on a [[Riemannian manifold]] and c
 
 * [[Christian Baer]], [[Frank Pfaeffle]], _Path integrals on manifolds by finite dimensional approximation_ ([arXiv](http://arxiv.org/abs/math/0703272))
 
++--{.query}
+Zoran: usually the QUADRATIC Hamiltonians are the ones for which the integral is well understood in several approaches; and of course many cases corresponding to the exactly solvable models. 
+=--
+
+
 #The path integral in the bigger picture#
 
 Ours is the age whose central fundamental theoretical physics question is: 
