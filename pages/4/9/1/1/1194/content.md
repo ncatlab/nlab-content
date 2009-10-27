@@ -62,5 +62,12 @@ the dependent type constructors $\Sigma$ and $\Pi$.  In
 this case, the semantics involved is the more general
 _codomain fibration_ $p:C^\to\to C$, whose fibres are the [[slice category|slice categories]] $C/A$.
 
+# Type theory versus set theory
+
+Blog discussions about the difference between type theory and set theory:
+
+* [one](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c026984)
+* [two](http://golem.ph.utexas.edu/category/2009/10/syntax_semantics_and_structura.html#c028459)
+
 [[!redirects dependent type theory]]
 [[!redirects type theories]]
