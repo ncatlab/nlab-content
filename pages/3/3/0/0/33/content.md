@@ -1,3 +1,7 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Definition#
 
 Vertical categorification refers roughly to a process in which ordinary [[category theory|categories]] are replaced by [[higher category theory|higher categories]].
