@@ -21,13 +21,15 @@
 
 ## refinements ##
 
+* [[combinatorial model category]]
+
+* [[cofibrantly generated model category]]
+
 * [[monoidal model category]]
 
 * [[enriched model category]]
 
 * [[simplicial model category]]
-
-* [[combinatorial model category]]
 
 ## model structures ##
 
@@ -37,14 +39,15 @@
 
 * [[model structure on simplicial presheaves|on simplicial presheaves]]
 
-* [[model structure on chain complexes|on chain complexes]]
-
 * [[global model structures on functor categories|on functor categories (global)]]
 
   * [[Reedy model structure]]
 
-* [[folk model structure|on ∞-categories/∞-groupoids]]
+* [[model structure on chain complexes|on chain complexes]]
 
+* [[model structure on dg-algebras|on dg-algebras]] and on [[model structure on cosimplicial rings|on cosimplicial rings]] (related by [[monoidal Dold-Kan correspondence]])
+
+* [[folk model structure|on ∞-categories/∞-groupoids]]
 
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/model+category+theory+-+contents)</div>
