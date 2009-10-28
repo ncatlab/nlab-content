@@ -6,7 +6,7 @@
 
 The notion of adjunction between two [[(∞,1)-functor]]s generalizes the notion of [[adjoint functor]]s from [[category theory]] to [[(infinity,1)-category|(∞,1)-category theory]].
 
-There are many equivalent definitions of the ordinary notion of [[adjoint functor]]. Some of them have more ovvious generalizations to [[higher category theory]] than others. A useful one is the characterization of adjoint functors  in terms of their [[cograph of a functor|cograph]]s. Recall from the discussion at [[cograph of a functor]] that two functors $L : C \to D$ and $R : D \to C$ are [[adjoint functor]]s precisely if the cograph of $L$ coincides with the cograph of $R$ up to the obvious reversal of arrows
+There are many equivalent definitions of the ordinary notion of [[adjoint functor]]. Some of them have more obvious generalizations to [[higher category theory]] than others. A useful one is the characterization of adjoint functors  in terms of their [[cograph of a functor|cograph]]s. Recall from the discussion at [[cograph of a functor]] that two functors $L : C \to D$ and $R : D \to C$ are [[adjoint functor]]s precisely if the cograph of $L$ coincides with the cograph of $R$ up to the obvious reversal of arrows
 
 $$
   (L \vdash R) \Leftrightarrow
@@ -25,7 +25,7 @@ Let $C$ and $D$ be [[(infinity,1)-category|(∞,1)-categories]]. An **adjunction
 
 * together with equivalences $C \stackrel{\simeq}{\to} K_{\{0\}}$ and $D \stackrel{\simeq}{\to} K_{\{1\}}$.
 
-Two [[(∞,1)-functor]]s $L : C \to D$ and $R : D \to C$ are called **adjoint** -- with $L$ _left adjoint_ ro $R$ and $R$ _right adjoint_ to $L$ if
+Two [[(∞,1)-functor]]s $L : C \to D$ and $R : D \to C$ are called **adjoint** -- with $L$ _left adjoint_ to $R$ and $R$ _right adjoint_ to $L$ if
 
 * there exists an adjunction $K \to I$ in the above sense
 
