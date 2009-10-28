@@ -26,6 +26,8 @@ the objects, $X_n$, which are the images under $X$, of the objects $[n]$ of $\De
 
 * A simplicial object in a category of [[presheaf|presheaves]] is a [[simplicial presheaf]].
 
+* A simplicial object in [[Diff]] is a [[simplicial manifold]].
+
 * A cosimplicial object in the category of [[ring]]s ([[algebra]]s) is a [[cosimplicial ring]] ([[cosimplicial algebra]]).
 
 * A simplicial object in the category [[Grp]] of [[group]]s is a [[simplicial group]]. See also [[Dold-Kan correspondence]].
