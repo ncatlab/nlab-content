@@ -1,5 +1,7 @@
 A category of _pure motives_ is informally a certain linearization or [[additive and abelian categories|abelianization]] of a category of (say smooth projective) algebraic varieties over a field.
 
+See also [[motive]]
+
 +--{.query}
 THE FOLLOWING IS NOT A DEFINITION, just a rough description of steps which require lots of further details to become a definition. 
 =--
