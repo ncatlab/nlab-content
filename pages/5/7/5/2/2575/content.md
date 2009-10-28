@@ -16,7 +16,7 @@ S = \frac{k}{4\pi} \int_M Tr (A \wedge dA + \frac{2}{3} A \wedge A \wedge A)
 \]
 and 
 \[
-q = e^{\frac{2 \pi i}{N+2}}.
+q = e^{\frac{2 \pi i}{k+2}}.
 \]
 +-- {: .query}
 Bruce: Woops, I know I've got some things wrong here; I don't have a copy of Atiyah's little red book available. Please correct my silly errors here.
