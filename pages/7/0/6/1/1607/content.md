@@ -29,4 +29,6 @@ see also
 
 * [[bicategory]]
 
-* [[tricategory]]  
+* [[tricategory]]
+
+[[!redirects tetracategories]]
