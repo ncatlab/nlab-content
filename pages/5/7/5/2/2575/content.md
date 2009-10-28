@@ -107,28 +107,7 @@ This year marked the 20th anniversary of Witten's seminal paper _Quantum field t
 * (More here...)
 
 ## Geometric quantization and Chern-Simons theory?
-+-- {: goal}
-[[Bruce Bartlett]]: This connection between geometric quantization and the Chern-Simons path integral which I've laid out below is something I've been mulling about for some time. If anyone is interested in working on this, please contact me.
-=--
-On page 22 of  [Quantum field theory and the Jones polynomial](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.cmp/1104178138), Witten remarks:
-
-> However, there is a much better way to quantize the Chern-Simons theory with static charges... A useful point of view is the following. A representation $R_i$ of a group $G$ should be seen as a quantum object. This representation should be obtained by quantizing a classical theory. The Borel-Weil-Bott theorem gives a canonical way to exhibit for every irreducible representation $R$ of a compact group $G$ a problem in classical physics, with $G$ symmetry, such that the quantization of this classical problem gives back $R$ as the quantum Hilbert space. One introduces the [[flag manifold]] $G/T$, with $T$ being a maximal torus for $G$, and for each representation $R$ one introduces a symplectic structure $\omega_R$ on $G/T$, such that the quantization of the classical phase space $G/T$, with the symplectic structure $\omega_R$, gives back the representation $R$. Many aspects of representation theory find natural explanations by thus regarding representations of groups as quantum objects that are obtained by quantization of classical phase spaces. 
-
-Then he makes the following fascinating comment:
-
-> Finally, let us note that the Borel-Weil-Bott theorem should not be used simply as a tool in quantization. It should be built into the three-dimensional description. One should use the theorem to replace the Wilson lines that appear above with a functional integral over maps of the circle $S^1$ into $G/T$ (or actually an integral over sections of a $G/T$ bundle, twisted by the restriction to $S^1$ of the $G$-bundle $E$). This gives a much more unified formalism.
-
-It would be great to work this out explicitly (any takers?). The point that Witten is making is that in a path integral, one is supposed to integrate over classical quantities in order to arrive at a quantum quantity. But the "trace of the holonomy" term in the path integral above is _already_ a quantum quantity! In fact, this trace should be viewed _itself_ as a path integral in its own right - an integral over loops in the flag manifold.  This brings us into the realm of "equivariant index theory" such as in Chapter 6-8 of ["Heat kernels and Dirac operators"](http://books.google.co.za/books?id=_e2FjvLbO94C&dq=berline+getzler+heat+kernels&printsec=frontcover&source=bl&ots=noleO0BvDl&sig=26LzgZqUnGwxsdklAXbccmws7l0&hl=en&ei=a4HoStOcMeShjAf-sZS4CA&sa=X&oi=book_result&ct=result&resnum=1&ved=0CAwQ6AEwAA#v=onepage&q=&f=false) by Berline, Getzler and Vergne. So now the Chern-Simons path integral for a knot consists of two integrals: one over all connections, and the other over all loops in the flag manifold. Set in its naked geometric context like this, there are bound to be new insights. For instance, _perhaps we can change the order of integration_. 
-
-Similar sentiments can be found on page 10 of Atiyah's original math paper on TQFT, ["Topological quantum field theories"](http://www.springerlink.com/index/365574223623W045.pdf):
-
-> The question now arises as to the origin of the vector space $V$, the Hilbert space of the quantum theory (Bruce: in our case, this refers to the representation vector space in which we take the trace). A standard way to get the quantum Hilbert space is first to give a classical symplectic manifold (or phase space) and then to quantize this. In particular an interesting class of examples arise  from _compact Lie groups_ $G$ and their homogenous symplectic manifolds; these are coadjoint orbits, generically copies of the flag manifold. If we take "integral" orbits for which the symplectic structure comes from a line bundle, then quantizing leads to the irreducible representations $V$ of $G$. This is the physical interpretation of the Borel-Weil theorem which is usually formulated in algebraic-geometric language. _The Lagrangian of these theories is the classical action (holonomy of the line bundle)._ (italics addded).
-
-In other words, once express the Chern-Simons path integral for a knot into its bare-bones geometric components, _even the trace itself_ is the path integral of a holonomy of a line bundle! The whole thing is one big holonomy. This ties in with of Urs Schreiber and Konrad Waldorf (see for instance [this paper](http://arxiv.org/abs/0802.0663) ) . 
-
-+-- {: .query}
-Bruce: Urs, I'm talking about how when you explained to me how the "trace" appearing in the path integral should be interpreted in terms of holonomy, and that 1 dimension higher, we need to take the trace over a surface, like in your paper with Konrad. 
-=--
+In [Quantum field theory and the Jones polynomial](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.cmp/1104178138), Witten makes the tantalizing observation that the "trace" occuring in the "trace of the holonomy around the knot" term in the path integral should _itself_ be seen as a path integral. In this way one hopes to obtain a much more unified formalism. See [[Bruce Bartlett:Geometric quantization and the path integral in Chern-Simons theory]].   
 
 ##Chern-Simons theory and knot homology
 
