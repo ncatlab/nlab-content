@@ -68,6 +68,10 @@ So, using categories enriched over $Vect_k$ with $k$ having characteristic zero 
 
 [[John Baez]]: By the way, I believe one upshot from the blog discussion so far is that the Schur functors we know and love _do_ work in characteristic $p$... but only if we define them using coinvariants, not invariants!
 
+[[Ben Webster]]: I don't understand pseudo-naturality all that well, but it seems like working with all symmetric monoidal categories simultaneously should just mean taking $\mathbb{Z}$-representations of $S_n$, which certainly will not wash away all the characteristic p problems, but will just hand them all to you simultaneously.  For example, over $\mathbb{Z}$, the functor $X\mapsto X^{\otimes 2}$ doesn't decompose into symmetric and anti-symmetric parts. How does this fit with your picture?
+
+There is a version of the original Schur functors over $\mathbb{Z}$, given by tensor product with [[Specht modules]], but this isn't very canonical.  You could just as easily take [[dual Specht modules]]. 
+
 =-- 
 
 Recall that the [[group algebra]] $\mathbb{Q}[S_n]$ decomposes as a direct sum of matrix algebras 
