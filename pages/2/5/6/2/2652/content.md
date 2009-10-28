@@ -43,7 +43,9 @@ David: It's not clear to me when in the 'List of completions' we have examples o
 
 Cauchy completion of a metric space is, of course, an instance of Cauchy completion of enriched categories.  I believe that Cauchy completion of a uniform space is actually also an instance of a general categorical notion of Cauchy completion, but in the more general setting of an [[equipment]] (namely, the equipment of sets and filters).  See "Categorical interpretation" at [[uniform space]] for a too-brief summary of this point of view.
 
-[[David Corfield]]: so is there are clear-cut distinction of level in all these cases, where we can separate completions of (enriched) categories (equipment) from completions of sets (with properties and structures)? 
+[[David Corfield]]: so is there are clear-cut distinction of level in all these cases, where we can separate completions of (enriched) categories (equipment) from completions of sets (with properties and structures)?
+
+[[Mike Shulman]]: I think the reason that completion of metric spaces and uniform spaces feels more like the completion of sets (than categories) is that they are basically (enriched) (0,1)-categories.  If the question is where to separate this list from the one below, I would put completions of anything enriched in a preorder up here, and completions of things enriched non-posetally below.
 =--
 
 # Free completion and lax-idempotence
