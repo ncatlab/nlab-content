@@ -78,3 +78,5 @@ This has the possibility of leading to computations, by applying [[van Kampen th
 
 
 [[!redirects n-type]]
+[[!redirects homotopy n-types]]
+[[!redirects n-types]]
