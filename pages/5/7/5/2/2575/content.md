@@ -8,7 +8,7 @@
 
 The words "Chern-Simons theory" can mean various things to various people, but here it generally refers to the three-dimensional [[TQFT|topological quantum field theory]] introduced by [[Edward Witten]] in his seminal paper from 1989, ["Quantum field theory and the Jones polynomial"](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.cmp/1104178138), the paper which went a large way to him obtaining the Fields medal. 
 
-In this paper, Witten showed that the new [[knot invariant|polynomial invariant]] of [knot]]s invented by Vaughan Jones in the context of [[von Neumann algebra]]s can be given a beautiful heuristic geometric interpretation: the [[Jones polynomial]] V(q) a knot $K$ in a 3-manifold $M$ can be viewed as the [[path integral]] over all $SU(2)$-connections on $M$ of the exponential of the [[Chern-Simons|Chern-Simons form]] [[action functional]] $S[A]$:
+In this paper, Witten showed that the new [[knot invariant|polynomial invariant]] of [[knot]]s invented by Vaughan Jones in the context of [[von Neumann algebra]]s can be given a beautiful heuristic geometric interpretation: the [[Jones polynomial]] V(q) a knot $K$ in a 3-manifold $M$ can be viewed as the [[path integral]] over all $SU(2)$-connections on $M$ of the exponential of the [[Chern-Simons|Chern-Simons form]] [[action functional]] $S[A]$:
 \[
  V_K(q) = \int_{all\,connections\,A\,on\,M} Tr Hol_A (K) exp iS[A]
 \]
@@ -20,8 +20,7 @@ is the [[Chern-Simons action|Chern-Simons form]],
 \[
  Tr Hol_A (K) 
 \]
-is the trace of the holonomy of the connection around the knot $K$ in the fundamental representation of $SU(2)$, and 
-and 
+is the trace of the holonomy of the connection around the knot $K$ in the fundamental representation of $SU(2)$, and  
 \[
 q = e^{\frac{2 \pi i}{k+2}}.
 \]
@@ -83,7 +82,7 @@ Trying to interest your [[number theory]] friends with Chern-Simons theory? How 
 
 In a recent [talk](http://www.math.columbia.edu/~woit/wordpress/?p=2357), Witten outlined a new approach to Chern-Simons theory which perhaps gives an alternative nonperturbative definition of the [[path integral]]. Quoting from [Not Even Wrong](http://www.math.columbia.edu/~woit/wordpress/?p=2357):
 
-> The main new idea that Witten was using was that the contributions of different critical points p (including complex ones), could be calculated by choosing   appropriate contours $\mathcal C_p$ using [Morse theory]] for the Chern-Simons functional. This sort of Morse theory involving holomorphic Morse functions gets used in mathematics in [[Picard-Lefshetz theory]]. The contour is given by the downward flow from the critical point, and the flow equation turns out to be a variant of the self-duality equation that Witten had previously encountered in his work with Kapustin on [[geometric Langlands]]. One tricky aspect of all this is that the contours one needs to integrate over are sums of the $\mathcal C_p$ with integral coefficients and these coefficients jump at "Stokes curves" as one varies the parameter in one's integral (in this case, $x=k/n$, $k$ and $n$ are large). In his talk, Witten showed the answer that he gets for the case of the figure-eight knot.
+> The main new idea that Witten was using was that the contributions of different critical points p (including complex ones), could be calculated by choosing   appropriate contours $\mathcal{C}_p$ using [[Morse theory]] for the Chern-Simons functional. This sort of Morse theory involving holomorphic Morse functions gets used in mathematics in [[Picard-Lefshetz theory]]. The contour is given by the downward flow from the critical point, and the flow equation turns out to be a variant of the self-duality equation that Witten had previously encountered in his work with Kapustin on [[geometric Langlands]]. One tricky aspect of all this is that the contours one needs to integrate over are sums of the $\mathcal{C}_p$ with integral coefficients and these coefficients jump at "Stokes curves" as one varies the parameter in one's integral (in this case, $x=k/n$, $k$ and $n$ are large). In his talk, Witten showed the answer that he gets for the case of the figure-eight knot.
 
 For slides of Witten's talk, click [here](http://www.princeton.edu/~tklose/adscft/EdwardWittenPCTS.pdf) and for video, click [here](http://echo360.princeton.edu:8080/ess/echo/presentation/2730cd4e-39b0-4d97-a825-165e7d4b819f). Pilfering material from the slides, the basic idea is as follows. Consider a general oscillatory integral in $n$ dimensions:
  \[
