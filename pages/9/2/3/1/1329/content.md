@@ -20,6 +20,5 @@ Notice that in [section 6.5.4](http://www-math.mit.edu/~lurie/papers/highertopoi
 
 * The $(\infty,1)$-category defined by the [[model structure on simplicial presheaves]] is the hypercompletion of the [[localization]] of simplicial presheaves at ordinary covers. For more details see [[descent for simplicial presheaves]].
 
-[[Note on Formatting|?]]
 
 [[!redirects hypercompletions]]
