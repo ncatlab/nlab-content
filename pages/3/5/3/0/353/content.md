@@ -4,7 +4,7 @@
 </div>
 
 
-$n$-categories are the main subject of [[higher category theory]], and give their name to the $n$-[[About|Lab]].
+$n$-categories are the main subject of [[higher category theory]], and give the $n$-[[About|Lab]] its name.
 
 #Contents#
 * automatic toc goes here
@@ -57,19 +57,19 @@ Many of these definitions are actually "truncations" of definitions of (weak) [[
 Someone should add some more references!
 =--
 
-* Classical explicit definitions of "fully weak" $n$-category exist for $n\le 4$.  Weak 0-categories are [[sets]], weak 1-categories are simply [[categories]] (due to [[Sammy Eilenberg|Eilenberg]] and [[Saunders Mac Lane|Mac Lane]]), weak 2-categories are [[bicategories]] (due to [[Jean Benabou|Benabou]]), weak 3-categories are [[tricategories]] (due to [[Gordon]]-[[John Power|Power]]-[[Ross Street|Street]]), and weak 4-categories are [[tetracategories]] (due to [[Todd Trimble]]).  Going on in this way is generally admitted to be infeasible beyond $n=4$.
+* Classical explicit definitions of "fully weak" $n$-category exist for $n\le 4$.  Weak 0-categories are [[sets]], weak 1-categories are simply [[categories]] (due to [[Sammy Eilenberg|Eilenberg]] and [[Saunders Mac Lane|Mac Lane]]), weak 2-categories are [[bicategories]] (due to [[Jean Benabou|Benabou]]), weak 3-categories are [[tricategories]] (due to [[Gordon]]--[[John Power|Power]]--[[Ross Street|Street]]), and weak 4-categories are [[tetracategories]] (due to [[Todd Trimble]]).  Going on in this way is generally admitted to be infeasible beyond $n=4$.
 
 * [[Ross Street|Street's]] definition: an $n$-category is a [[simplicial set]] satisfying certain horn-filling conditions.  See [[weak complicial set]] and [[simplicial model for weak ∞-categories]].  This is a truncation of a definition of $\omega$-category.  It can be specialized to yield a notion of $(\infty,n)$-category.  The resulting notion of $(\infty,1)$-category is a [[quasicategory]], and the resulting notion of $\infty$-groupoid is a [[Kan complex]].
 
-* [[John Baez|Baez]]-[[James Dolan|Dolan]] definition: an $n$-category is an [[opetopic set]] having enough $n$-universal fillers.  Alternate definitions of opetopes (aka multitopes) have been given by [[Claudio Hermida|Hermida]]-[[Michael Makkai|Makkai]]-[[John Power|Power]] and [[Tom Leinster|Leinster]]; a comparison is due to [[Eugenia Cheng]], see [these](http://arxiv.org/abs/math.CT/0304277) [three](http://arxiv.org/abs/math.CT/0304279) [papers](http://arxiv.org/abs/math.CT/0304284).  Makkai's version can do $\omega$.
+* [[John Baez|Baez]]--[[James Dolan|Dolan]] definition: an $n$-category is an [[opetopic set]] having enough $n$-universal fillers.  Alternate definitions of opetopes (aka multitopes) have been given by [[Claudio Hermida|Hermida]]--[[Michael Makkai|Makkai]]--[[John Power|Power]] and [[Tom Leinster|Leinster]]; a comparison is due to [[Eugenia Cheng]], see [these](http://arxiv.org/abs/math.CT/0304277) [three](http://arxiv.org/abs/math.CT/0304279) [papers](http://arxiv.org/abs/math.CT/0304284).  Makkai's version can do $\omega$.
 
-* [[Jacques Penon|Penon]]'s definition: (someone describe this please!)  Penon's original definition turned out to be too strict (see [Cheng-Makkai](http://arxiv.org/abs/0907.3961)) because it used [[reflexive globular sets]], but a modification of it using [[globular sets]] is still a contender.
+* [[Jacques Penon|Penon]]'s definition: (someone describe this please!)  Penon's original definition turned out to be too strict (see [Cheng--Makkai](http://arxiv.org/abs/0907.3961)) because it used [[reflexive globular set|reflexive globular sets]], but a modification of it using [[globular sets]] is still a contender.
 
-* [[Michael Batanin|Batanin]]-[[Tom Leinster|Leinster]] definition: an $n$-category is an $n$-[[globular set]] with an action of a suitable [[globular operad]].  This is a truncation of a definition of $\omega$-category; see [[Batanin ∞-category]].
+* [[Michael Batanin|Batanin]]--[[Tom Leinster|Leinster]] definition: an $n$-category is an $n$-[[globular set]] with an action of a suitable [[globular operad]].  This is a truncation of a definition of $\omega$-category; see [[Batanin ∞-category]].
 
-* [[Todd Trimble|Trimble]]-style definition: An $n$-category is a category weakly enriched over $(n-1)$-categories, where the weakness is parametrized by an [[operad]].  This definition is inductive and thus cannot do $\omega$ in an obvious way, but it has been accomplished using terminal coalgebras; see [[Trimble n-category]].  Alternately, by starting with enrichment in [[spaces]] or [[simplicial sets]], one can obtain directly a notion of [[(∞,n)-category]].  The resulting notion of [[(∞,1)-category]] is an [[A? category]].
+* [[Todd Trimble|Trimble]]-style definition: An $n$-category is a category weakly enriched over $(n-1)$-categories, where the weakness is parametrized by an [[operad]].  This definition is inductive and thus cannot do $\omega$ in an obvious way, but it has been accomplished using terminal coalgebras; see [[Trimble n-category]].  Alternately, by starting with enrichment in [[spaces]] or [[simplicial sets]], one can obtain directly a notion of [[(∞,n)-category]].  The resulting notion of [[(∞,1)-category]] is an $A_\infty$-[[A∞-category|category]].
 
-* [[Tamsamani]]-[[Simpson]] definition: An $n$-category is a simplicial object in $(n-1)$-categories satisfying object-discreteness and [[Segal conditions]].  This definition is inductive and thus cannot do $\omega$ in an obvious way.  It does have a natural extension to $(\infty,n)$-categories, and the resulting notion of [[(∞,1)-category]] reduces to a [[Segal category]].
+* [[Tamsamani]]--[[Simpson]] definition: An $n$-category is a simplicial object in $(n-1)$-categories satisfying object-discreteness and [[Segal conditions]].  This definition is inductive and thus cannot do $\omega$ in an obvious way.  It does have a natural extension to $(\infty,n)$-categories, and the resulting notion of [[(∞,1)-category]] reduces to a [[Segal category]].
 
 * [[Andre Joyal|Joyal]]'s definition: An $n$-category is an $n$-[[cellular set]] satisfying horn-filling conditions.  This definition can do $\omega$ by using $\omega$-cellular sets instead of $n$-cellular sets, and it can do $(\infty,1)$ by requiring different horn-filling conditions on $n$-cellular sets.  The notion of [[(∞,1)-category]] one obtains in this way is a [[quasicategory]], and the resulting notion of $\infty$-groupoid is a [[Kan complex]].  Perhaps this definition doesn't quite work in general, however.
 
@@ -77,7 +77,7 @@ Someone should add some more references!
   [[Mike Shulman]]: The information that it may not quite work was given to me third-hand, with no details.  I have my own suspicions about what the reasons might be, but not time to write them down right now.
   =--
 
-* [[Clark Barwick|Barwick]]'s definition (popularized by [[Jacob Lurie|Lurie]] in solving the Baez-Dolan [[cobordism hypothesis]]): an $(\infty,n)$-category is an $n$-fold [[simplicial space]] satisfying completeness and [[Segal conditions]].  See [[n-fold complete Segal space]].  An $n$-category is again defined as an $(\infty,n)$-category in which all $k$-cells are essentially unique for $k\gt n$.  It is not clear whether this definition can do $\omega$.  An $(\infty,1)$-category with this definition is also the same as a [[complete Segal space]].
+* [[Clark Barwick|Barwick]]'s definition (popularized by [[Jacob Lurie|Lurie]] in solving the Baez--Dolan [[cobordism hypothesis]]): an $(\infty,n)$-category is an $n$-fold [[simplicial space]] satisfying completeness and [[Segal conditions]].  See [[n-fold complete Segal space]].  An $n$-category is again defined as an $(\infty,n)$-category in which all $k$-cells are essentially unique for $k\gt n$.  It is not clear whether this definition can do $\omega$.  An $(\infty,1)$-category with this definition is also the same as a [[complete Segal space]].
 
 * [[Charles Rezk|Rezk]]'s definition: An $(\infty,n)$-category is a *simplicial* $n$-cellular set satisfying [[fibrancy]], completeness, and [[Segal conditions]].  An $n$-category can then be defined as an $(\infty,n)$-category in which all $k$-cells are essentially unique for $k\gt n$.  This definition can potentially do $\omega$, although it seems not to have been written down yet.  An $(\infty,1)$-category with this definition is the same as a [[complete Segal space]].
 
@@ -86,9 +86,9 @@ Someone should add some more references!
 
 * All definitions produce the correct well-known notion of [[1-category]], up to minor inessential details.
 
-* Since all the common definitions of [[(∞,1)-category]] are known to be equivalent (give references!), the definitions of Street, Trimble, Tamsamani-Simpson, Joyal, Barwick, and Rezk can be said to agree for $(\infty,1)$-categories.
+* Since all the common definitions of [[(∞,1)-category]] are known to be equivalent (give references!), the definitions of Street, Trimble, Tamsamani--Simpson, Joyal, Barwick, and Rezk can be said to agree for $(\infty,1)$-categories.
 
-* Julie Bergner has [shown](http://arxiv.org/abs/0710.2254) that all the notions of $\infty$-groupoid obtained from the common notions of $(\infty,1)$-category are equivalent, so the definitions of Street, Trimble, Tamsamani-Simpson, Joyal, Barwick, and Rezk can also be said to agree for $(\infty,0)$-categories.
+* Julie Bergner has [shown](http://arxiv.org/abs/0710.2254) that all the notions of $\infty$-groupoid obtained from the common notions of $(\infty,1)$-category are equivalent, so the definitions of Street, Trimble, Tamsamani--Simpson, Joyal, Barwick, and Rezk can also be said to agree for $(\infty,0)$-categories.
 
 * It is known that the notions of $(n,0)$-category obtained from categories, bicategories, and tricategories model all [[homotopy n-types]] for $n\le 3$.  Thus, in these cases, the classical definitions can be said to agree with those listed in the previous example.
 
@@ -98,7 +98,7 @@ Someone should add some more references!
 
 * Eugenia Cheng has [shown](http://arxiv.org/abs/math/0304285) that the opetopic definition is correct for $n=2$ (that is, it agrees with bicategories).
 
-* Eugenia Cheng has more recently also [shown](http://arxiv.org/abs/0809.2070) that from any sequence of operads used for iterated enrichment in a Trimble-style definition, one can construct a Batanin-Leinster-style globular operad whose algebras are the $n$-categories obtained in the Trimblean inductive manner.  Not all globular operads can be obtained in this way, however, since those that arise have strict interchange.
+* Eugenia Cheng has more recently also [shown](http://arxiv.org/abs/0809.2070) that from any sequence of operads used for iterated enrichment in a Trimble-style definition, one can construct a Batanin--Leinster-style globular operad whose algebras are the $n$-categories obtained in the Trimblean inductive manner.  Not all globular operads can be obtained in this way, however, since those that arise have strict interchange.
 
 +--{: .query}
 Please add any other comparisons you are aware of!
