@@ -104,6 +104,8 @@ With the possible exception of the left Kan extension alluded to above, all thes
 
 (Jamie: Doesn't Cauchy completeness for abelian categories in fact correspond to _biproducts_ and split idempotents?)
 
+Todd: Coproducts _are_ biproducts in the $Ab$-enriched case! That is, I was assuming as given that $C$ was enriched in something like $Ab$ or $Vect$. 
+
 It would actually feel more natural to me to speak of the object of coinvariants rather than the object of invariants, but in the present context it should come to the same thing as either is the splitting of the idempotent operator $\frac1{n!}\sum g$. That is to say: there is a natural splitting of the idempotent natural transformation 
 $$e_X = \frac1{n!} \sum_{g \in S_n} g: V_\lambda \otimes X^{\otimes n} \to V_\lambda \otimes X^{\otimes n}$$ 
 which can be viewed either as invariants (equalizer of $e$ and the identity) or coinvariants (coequalizer of $e$ and the identity). 
