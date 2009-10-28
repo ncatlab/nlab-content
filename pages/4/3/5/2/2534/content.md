@@ -35,6 +35,8 @@ In the following, let $\mathcal{X} = \langle X,\mu_X\rangle$ and $\mathcal{Y} = 
 
 +--{.query}
 The following definition of set difference is tentative because it requires us to allow $\mu = 0$, which is under consideration.
+
+_Toby_ says:  If it were up to me, I wouldn\'t bother with these underlying $X$s and $Y$s at all, but just fix the ambient set $U$ and allow $\mu$ to take the value $0$ as a matter of course.  But if you want to avoid that, then you define the carrier of $\mathcal{X} \setminus \mathcal{Y}$ to consist of those elements $a$ of $X$ (or equivalently of $X \cup Y$, but they will all be elements of $X$) such that $\mu_X(a) \gt \mu_Y(a)$ (with $\mu_Y(a) \coloneqq 0$ for $a \notin Y$).
 =--
 
 *  The _[[set difference]]_ of multisets is the multiset given by
@@ -71,6 +73,10 @@ The following definition of set difference is tentative because it requires us t
 * [Mathematics of Multisets](http://obelix.ee.duth.gr/~apostolo/Articles/MathMSet.pdf), Apostolos Syropoulos
 
 * [Categorical Models of Multisets](http://obelix.ee.duth.gr/~apostolo/Articles/mset.pdf), Apostolos Syropoulos
+
++-- {: .query}
+Is there a reason that you moved these references up here?  We need them especially for the stuff about morphisms below.  ---Toby
+=--
 
 
 ## Discussion
