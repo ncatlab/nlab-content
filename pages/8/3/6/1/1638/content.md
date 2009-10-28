@@ -72,6 +72,13 @@ If we restrict the notion slightly, however, we can obtain presheaf categories. 
 
 +--{: .query}
 [[Mike Shulman]]: Do the non-strict versions of computads get around this problem?
+
+Daniel Sch&#228;ppi: Batanin has a paper on this:
+[Computads and slices of operads](http://arxiv.org/abs/math.CA/0209035)
+
+If you take any finitary monad $A$ on the category of globular sets, you can use the truncation functor to get monads $A_n$ on the category of $n$-globular sets, and then you can inductively define the notion of an $A$-computad. If you take $A=T$ the free strict $\omega$-category monad, then this notion agrees with Streets definition of an ordinary computad. Batanin gives a condition which ensures that the category of $n$-computads of $A$ is a presheaf category, in terms of slices of the monad $A$.
+
+The $k$-slice of $A$ is defined as follows: the full subcategory of $A_n-\mathbf{Alg}$ consisting of those algebras whose underlying globular set is $(n-1)$-terminal is monadic over the category of sets, and the $k$-slice of $A$ is given by this monad. In the above paper, Theorem 5.2 Batanin shows that the category of $n$-computads of a Batanin-operad $A$ is a presheaf category if the $k$-slices of $A$ are strongly regular theories for $0\leq k \leq n-1$. This applies in particular to the case where $A$ is the operad for Batanin weak $\omega$-categories.
 =--
 
 # Computads as cofibrant resolutions #
