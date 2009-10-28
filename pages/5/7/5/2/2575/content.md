@@ -1,3 +1,5 @@
+
+{:goal: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -6,26 +8,24 @@
 
 The words "Chern-Simons theory" can mean various things to various people, but here it generally refers to the three-dimensional [[TQFT|topological quantum field theory]] introduced by [[Edward Witten]] in his seminal paper from 1989, ["Quantum field theory and the Jones polynomial"](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.cmp/1104178138), the paper which went a large way to him obtaining the Fields medal. 
 
-In this paper, Witten showed that the new [[knot invariant|polynomial invariant]] of [knot]]s invented by Vaughan Jones in the context of [[von Neumann algebra]]s can be given a beautiful heuristic geometric interpretation: the [[Jones polynomial]] V(q) a knot $K$ in a 3-manifold $M$ can be viewed as the [[path integral]] over all $SU(2)$-connections on $M$ of the exponential of the Chern-Simons [[action functional]] $S[A]$:
+In this paper, Witten showed that the new [[knot invariant|polynomial invariant]] of [knot]]s invented by Vaughan Jones in the context of [[von Neumann algebra]]s can be given a beautiful heuristic geometric interpretation: the [[Jones polynomial]] V(q) a knot $K$ in a 3-manifold $M$ can be viewed as the [[path integral]] over all $SU(2)$-connections on $M$ of the exponential of the [[Chern-Simons|Chern-Simons form]] [[action functional]] $S[A]$:
 \[
- V(t) = \int_{all\,connections\,A\,on\,M} exp iS[A]
+ V_K(q) = \int_{all\,connections\,A\,on\,M} Tr Hol_A (K) exp iS[A]
 \]
 where
 \[
-S = \frac{k}{4\pi} \int_M Tr (A \wedge dA + \frac{2}{3} A \wedge A \wedge A)
+S[A] = \frac{k}{4\pi} \int_M Tr (A \wedge dA + \frac{2}{3} A \wedge A \wedge A)
 \]
+is the [[Chern-Simons action|Chern-Simons form]], 
+\[
+ Tr Hol_A (K) 
+\]
+is the trace of the holonomy of the connection around the knot $K$ in the fundamental representation of $SU(2)$, and 
 and 
 \[
 q = e^{\frac{2 \pi i}{k+2}}.
 \]
-+-- {: .query}
-Bruce: Woops, I know I've got some things wrong here; I don't have a copy of Atiyah's little red book available. Please correct my silly errors here.
-
-[[Urs Schreiber]]: you need to include the holonomy over the not itself in V(t)
-
-=--
-
-Said heuristically: the [[Jones polynomial]] of the knot $K$ can be understood as the "average value" over all connections of the _holonomy_ around the knot $K$.
+Said heuristically: the [[Jones polynomial]] of the knot $K$ can be understood as the "average value" over all connections of the _trace of the holonomy of the connection_ around the knot $K$. Note that this idea can be generalized by varying the gauge group $G$ from $SU(2)$ to some other Lie group; the representation in which the trace is evaluated can also be altered. Each of these modifications gives rise to a knot invariant.  
 
 # Viewpoint from extended topological quantum field theory#
 
@@ -77,9 +77,21 @@ Trying to interest your [[number theory]] friends with Chern-Simons theory? How 
 
 In a recent [talk](http://www.math.columbia.edu/~woit/wordpress/?p=2357), Witten outlined a new approach to Chern-Simons theory which perhaps gives an alternative nonperturbative definition of the [[path integral]]. Quoting from [Not Even Wrong](http://www.math.columbia.edu/~woit/wordpress/?p=2357):
 
-> The main new idea that Witten was using was that the contributions of different critical points p (including complex ones), could be calculated by choosing   appropriate contours $\mathcal C_p$ using [Morse theory]] for the Chern-Simons functional. This sort of Morse theory involving holomorphic Morse functions gets used in mathematics in [[Picard-Lefshetz theory]]. The [[contour]] is given by the downward flow from the critical point, and the flow equation turns out to be a variant of the self-duality equation that Witten had previously encountered in his work with Kapustin on [[geometric Langlands]]. One tricky aspect of all this is that the contours one needs to integrate over are sums of the $\mathcal C_p$ with integral coefficients and these coefficients jump at "Stokes curves" as one varies the parameter in one's integral (in this case, $x=k/n$, $k$ and $n$ are large). In his talk, Witten showed the answer that he gets for the case of the figure-eight knot.
+> The main new idea that Witten was using was that the contributions of different critical points p (including complex ones), could be calculated by choosing   appropriate contours $\mathcal C_p$ using [Morse theory]] for the Chern-Simons functional. This sort of Morse theory involving holomorphic Morse functions gets used in mathematics in [[Picard-Lefshetz theory]]. The contour is given by the downward flow from the critical point, and the flow equation turns out to be a variant of the self-duality equation that Witten had previously encountered in his work with Kapustin on [[geometric Langlands]]. One tricky aspect of all this is that the contours one needs to integrate over are sums of the $\mathcal C_p$ with integral coefficients and these coefficients jump at "Stokes curves" as one varies the parameter in one's integral (in this case, $x=k/n$, $k$ and $n$ are large). In his talk, Witten showed the answer that he gets for the case of the figure-eight knot.
 
-This sounds like an important new approach. Watch this space!
+For slides of Witten's talk, click [here](http://www.princeton.edu/~tklose/adscft/EdwardWittenPCTS.pdf) and for video, click [here](http://echo360.princeton.edu:8080/ess/echo/presentation/2730cd4e-39b0-4d97-a825-165e7d4b819f). Pilfering material from the slides, the basic idea is as follows. Consider a general oscillatory integral in $n$ dimensions:
+ \[
+ I(\lambda) = \int_{\mathbb{R}^n} d^n exp(i\lambda f(x_1, \ldots, x_n)).
+\]
+We want to make sense of the integral when the function $f$ is allowed to take on imaginary values (naively, the integral diverges). To do this, we use Morse theory: we choose as our Morse function the real part of the exponent, that is $h = \Re(i \lambda f)$. For every critical point $p$ of $h$, the descending manifold $C_p$ is an $n$-cycle in the relative homology group $H_n (X, X_{&lt; &lt; 0})$. (Basically this means that it's a new "contour" for the integral). Moreover Morse theory tells us that the cycles we obtain in this way form a basis for the homology, so we can express our original cycle $C$ (the $\mathbb{R}^n$ appearing in the integral over $\mathbb{R}^n$) as a linear combination of these Morse theory cycles:
+ \[
+ C = \sum_p n_p C_p
+\]
+In this way we can make sense of the integral $I$ by {\em defining} it as the integral over these new cycles ("contours"): 
+\[
+ I(\lambda)  = \sum_{\text{crit. points} p} n_p I_p(\lambda)
+\]
+This new definition actually converges, and makes sense. Apparantly the same technique can be used to interpret the Chern-Simons path integral in the case of complex $k$. Witten argues that this viewpoint is useful if we try to interpret Chern-Simons theory as a theory of three-dimensional gravity, 
 
 ## Chern-Simons theory: 20 years on
 
@@ -88,5 +100,9 @@ This year marked the 20th anniversary of Witten's seminal paper _Quantum field t
 * [Chern-Simons Gauge Theory: 20 years after](http://www.hausdorff-center.uni-bonn.de/event/2009/gauge_theory/) was a workshop at the Max Planck Institute in Bonn from 3-7 August 2009.
 * (More here...)
 
-
+## Geometric quantization and Chern-Simons theory
++-- {: goal}
+###### Disclaimer
+[[Bruce Bartlett]]: This connection between geometric quantization and the Chern-Simons path integral is something I've been mulling about for some time. If anyone is interested in working on this, please contact me.
+=--
 
