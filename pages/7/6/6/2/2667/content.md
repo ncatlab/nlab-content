@@ -70,7 +70,7 @@ So, using categories enriched over $Vect_k$ with $k$ having characteristic zero 
 
 [[Ben Webster]]: I don't understand pseudo-naturality all that well, but it seems like working with all symmetric monoidal categories simultaneously should just mean taking $\mathbb{Z}$-representations of $S_n$, which certainly will not wash away all the characteristic p problems, but will just hand them all to you simultaneously.  For example, over $\mathbb{Z}$, the functor $X\mapsto X^{\otimes 2}$ doesn't decompose into symmetric and anti-symmetric parts. How does this fit with your picture?
 
-There is a version of the original Schur functors over $\mathbb{Z}$, given by tensor product with [[Specht modules]], but this isn't very canonical.  You could just as easily take [[dual Specht modules]]. 
+There is a version of the original Schur functors over $\mathbb{Z}$, given by tensor product with [[Specht modules]], but this isn't very canonical.  You could just as easily take [[dual Specht module|dual Specht modules]]. 
 
 =-- 
 
