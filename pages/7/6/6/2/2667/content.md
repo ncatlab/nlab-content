@@ -104,7 +104,7 @@ With the possible exception of the left Kan extension alluded to above, all thes
 
 (Jamie: Doesn't Cauchy completeness for abelian categories in fact correspond to _biproducts_ and split idempotents?)
 
-Todd: Coproducts _are_ biproducts in the $Ab$-enriched case! That is, I was assuming as given that $C$ was enriched in something like $Ab$ or $Vect$. 
+(Todd: Coproducts _are_ biproducts in the $Ab$-enriched case! That is, I was assuming as given that $C$ was enriched in something like $Ab$ or $Vect$.)  
 
 It would actually feel more natural to me to speak of the object of coinvariants rather than the object of invariants, but in the present context it should come to the same thing as either is the splitting of the idempotent operator $\frac1{n!}\sum g$. That is to say: there is a natural splitting of the idempotent natural transformation 
 $$e_X = \frac1{n!} \sum_{g \in S_n} g: V_\lambda \otimes X^{\otimes n} \to V_\lambda \otimes X^{\otimes n}$$ 
@@ -142,7 +142,7 @@ The above discussion shows that Schur functors $S_\lambda$ "live on" (are defina
 
 * "Linear" might mean here either enriched in $Ab$ (abelian groups) or enriched in $Vect$ (vector spaces over $\mathbb{Q}$) -- there are various possibilities. 
 
-* The exactness condition might mean (on the strong end of the spectrum) being abelian, or (on the weak end) being Cauchy complete in the enriched sense, i.e., additive and closed under splitting of idempotents, or (somewhere in the middle) being finitely cocomplete, i.e., additive and admitting coequalizers. 
+* The exactness condition might mean (on the strong end of the spectrum) being abelian, or (on the weak end) being Cauchy complete in the enriched sense, i.e., additive and closed under splitting of idempotents, or (somewhere in the middle) being finitely cocomplete, i.e., additive and admitting coequalizers. We require that the tensor product of the symmetric monoidal structure preserve, in each of its separate arguments, any colimits assumed to exist. 
 
 Since the discussion is for now tentative, we'll hedge our bets and go with the vague term "linear" and tacitly understand there's also some exactness condition which will go unmentioned. 
 
