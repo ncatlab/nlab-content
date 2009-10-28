@@ -41,10 +41,14 @@ A more detailed disucssion of this is at
 
 * [[differential graded algebra]].
 
+
+# model category structure #
+
+There is a standard [[model category]] structure on $dgAlg$.See [[model structure on dg-algebras]].
+
 # relation to cosimplicial alghebras #
 
-
-The [[monoidal Dold-Kan correspondence]] effectively identifies non-negatively graded chain algebras with simplicial algebras, and non-negatively graded cochain algebras with [[cosimplicial algebra]]s.
+The [[monoidal Dold-Kan correspondence]] effectively identifies non-negatively graded [[chain complex]] algebras with simplicial algebras, and non-negatively graded [[cochain complex]] algebras with [[cosimplicial algebra]]s.
 
 Since cosimplicial algebras have a fundamental interpretation dual to [[∞-space]], as described at [[∞-quantity]], this can be understood as explaining the great role differential graded algebras are playing in various context, suchh as notably in 
 
