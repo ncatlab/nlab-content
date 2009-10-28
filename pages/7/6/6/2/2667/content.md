@@ -110,7 +110,9 @@ which can be viewed either as invariants (equalizer of $e$ and the identity) or 
 
 [[Todd Trimble]]: That's fine to switch to coinvariants; I completely agree that's the correct conceptual way to go in general. As far as Young diagrams vs. Young tableaux, point taken, but see also my response to Jamie (which I've incorporated above). 
 
-Of course, I've already noted that "right exact" could be overkill in certain contexts. When the object of coinvariants arises by splitting an idempotent (as in the case of enrichment over rational vector spaces), we don't need full right exactness to preserve the construction, although we might want to retain additivity: preservation of direct sums. I hope we can be a bit flexible about hypotheses until we're further along in this. 
+Of course, I've already noted that "right exact" could be overkill in certain contexts. When the object of coinvariants arises by splitting an idempotent (as in the case of enrichment over rational vector spaces), we don't need full right exactness to preserve the construction, although we might want to retain additivity: preservation of direct sums. I hope we can be a bit flexible about hypotheses until we're further along in this.
+
+[[Rod McGuire]] Isn't a switch from Young diagrams to Young tableaux essentially the same as changing from groups to groupoids?  
 
 =-- 
 
