@@ -51,7 +51,7 @@ The [[internal logic]] of various sorts of categories are most naturally regarde
 
 The _second_ approach to reconciling type theory with logic
 is to blur the distinction between types and propositions;
-this is called the "propositions as types" paradigm.
+this is called the "[[propositions as types]]" paradigm.
 Instead of requiring that a proposition $\phi$ be
 interpreted as merely true or false (that is, a [[truth
 value]] or equivalently a [[subsingleton]]), we allow it to
@@ -106,6 +106,10 @@ One can then prove, under certain hypotheses, various things about the relations
 * Corollary to the completeness and incompleteness theorems: if a theory doesn't prove a contradiction, then it has more than one model.
 
 The "certain hypotheses" is where we get into the difference between *first-order* and *higher-order*.  We say that a type theory is *higher-order* if it involves type constructors such as function-types $B^A$ (intended to represent the "type of all functions $A\to B$") or power-types $P A$ (intended to represent the "type of all subtypes of $A$).  Otherwise it is *first-order*.  (We have to deal with $Prop$ specially in first-order logic.  If we actually have a type $Prop$, then the theory should be higher-order, since $Prop \cong P 1$; thus in first-order logic we take $Prop$ to be a "kind" on the same level as $Type$, which doesn't participate in type operations.)  We say "second-order" if we never iterate the power-type operation.
+
++-- {: .query}
+I don\'t buy your argument that $Prop$ must be treated specially; perhaps I don\'t understand what you\'re saying, but I\'ll pretend that I do.  First, I don\'t see the relevance of your premise, that $Prop$ makes things higher-order because it is a power type.  You might as well say that $1$ makes things higher-order because $1 \cong P 0$.  What really makes things higher order is the ability to form *arbitrary* power types or function types, not the existence of one or two special cases.  And second, I don\'t agree with the conclusion, that $Prop$ can\'t participate in type operations.  It\'s true that many type theories *do* treat $Prop$ specially and forbid its participation in type operations, but allowing it to participate in first-order type operations like $\times$ and $+$ is not going to make things higher order.  Conversely, $Prop \cong 1 + 1$ in some type theories, in which case you can hardly stop it from participating in type operations!  ---Toby
+=--
 
 The Soundness Theorem is true for all theories,  but *the Completeness Theorem is true only for first-order theories*.  The Incompleteness Theorem as stated above is true for higher-order theories, but the corollary fails since the completeness theorem does.  In particular, a higher-order theory can sometimes be *categorical* in the logician's sense: having exactly one model (at least, up to isomorphism).  The second-order version of Peano Arithmetic has this property.  (At this level, there is little fundamental difference between first-order and higher-order theories; they each have advantages and disadvantages.  However, when we move up to the metalevel and talk about the term calculus itself, we always get a first-order theory.  This is why some people believe that first-order logic is the only truly "foundational" logic.)
 
