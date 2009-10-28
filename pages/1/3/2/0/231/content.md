@@ -1,7 +1,5 @@
-[[!redirects monoidal categories]]
-[[!redirects strict monoidal category]]
 
-#Contents'
+#Contents#
 * automatic table of contents goes here
 {:toc}
 
@@ -231,3 +229,7 @@ where the 2-category on the right is defined as $MonCat$ above, but with the ass
 In closing, it should be remarked that the fact that everything here is _lax_ instead of _pseudo_ is related to a curious property of the orientals: the $n$th oriental for $n \ge 1$ _fails_ to be weakly equivalent to the point. As a result, the objects of $Desc(pt, C)$ are not quite $\omega$-[[anafunctor]]s from the point to $C$, since they do not map out of a proper hypercover of $C$. In the strict notion of descent as used in most of the literature, the orientals would hence provide something _more general_ than ordinary descent, which in its generality is lacking some properties usually required of descent.
 
 We can remedy this by replacing in the definition of the descent $\infty$-category $Desc(Y,C)$ the orientals by another cosimplicial $\infty$-category, one which _is_ equivalent to the point in each degree. Doing so and then going through the above discussion will make _all_ the structure maps appeaing have inverses. But this will also apply to the monoidal product itself, then, which is usually not desired.  
+
+
+[[!redirects monoidal categories]]
+[[!redirects strict monoidal category]]
