@@ -5,7 +5,7 @@
 
 #Idea#
 
-The _simplicial deRham complex_ of a [[simplicial object|simplicial]] [[manifold]] $X_\bullet$ is the analog of the [[deRham complex]] of [[differential form]]s of an ordinary [[manifold]]: it is the complex whose elements in degree $k$ may be thought of as $k$-[[differential form|form]]s on $X_\bullet$.
+The _simplicial deRham complex_ of a [[simplicial manifold]] $X_\bullet$ is the analog of the [[deRham complex]] of [[differential form]]s of an ordinary [[manifold]]: it is the complex whose elements in degree $k$ may be thought of as $k$-[[differential form|form]]s on $X_\bullet$.
 
 One useful conceptual way to think of this is to notice that a a [[simplicial object|simplicial]] [[manifold]] may be thought of as a degreewise [[representable functor|representable]] [[simplicial presheaf]] on [[Diff]]
 and then to realize that by way of the standard [[model structure on simplicial presheaves]] such a simplicial presheaf presents an [[∞-stack]] on [[Diff]] which we may think of as a [[Lie ∞-groupoid]]. From that perspective we expect that 
@@ -238,6 +238,12 @@ Canonical references on simplicial deRham cohomology are by [[Johan Louis Dupont
 When restricted to low degree this is closely related to or synonymous to considerations of deRham cohomology in the context of [[differentiable stack]]s.
 
 > (need to dig out references)
+
+
+A [[deRham theorem]] for simplicial manifolds was proven in the classical
+
+* R. Bott, H. Shulman, [[Jim Stasheff]], _On the de Rham theory of certain classifying spaces_ , Advances in Math.  20  (1976), no. 1, 43--56.
+
 
 
 In principle closely related is the discussion of a deRham theorem for [[∞-stack]]s as discussed in
