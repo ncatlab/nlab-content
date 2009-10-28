@@ -32,12 +32,6 @@ From the perspective of structural [[set theory]], it is [[evil]] to care about 
 However, one still may need sets of cardinals, that is sets that serve as the target of a cardinality function satisfying (1--3) on any (small) collection of sets.  One can construct this as a [[quotient set]] of that collection.
 
 +--{: .query}
-_Mike_: I don't understand that last paragraph.
-
-_Toby_:  The reason why material set theorists go to all this trouble to define cardinal numbers as sets rather than proper classes is so that they can make them elements of sets.  This isn\'t just for fun; if you have a small collection of sets, then you want to form the set of their cardinalities.  Fortunately, this is easy to do up to isomorphism, which is all that we need.
-
-I think that my wording was a bit confusing, so perhaps it\'s clearer now.
-
 _Roger Witte_
 First of all sorry if I am posting in the wrong place
 
@@ -141,11 +135,11 @@ a very readable account of ZFC and the definitions of both Ordinal and Cardinal 
 
 _Toby_:  It looks like you\'re asking about cardinal numbers in general rather than groupoid cardinality.
 
-Any serious reference on set theory should cover cardinal numbers.  The long-established respected tome is Thomas Jech\'s _[Set Theory](; there are also some references listed at [MathWorld]() and [the English Wikipedia]().
+Any serious reference on set theory should cover cardinal numbers.  The long-established respected tome is Thomas Jech\'s _[Set Theory](http://books.google.com/books?id=pLxq0myANiEC)_; there are also some references listed at [MathWorld](http://mathworld.wolfram.com/CardinalNumber.html) and [the English Wikipedia](http://en.wikipedia.org/wiki/Cardinal_number).
 
 Any *standard* approach will start from a material set theory, such as ZFC; we tend to prefer structural set theory here.  (See [[set theory]].)  Since cardinality is isomorphism invariant (which is kind of the whole point), it\'s easy to interpret the standard material structurally, but the basic definitions will be different.  If you\'re looking for a standard reference on cardinality from a structural foundation, I can\'t help you; there may not be any.
 
-By the way, if you want to be sure that people see your questions in a timely manner, then it\'s best if you make a note of it [here](); I just did that (which you can find by looking for your name).  You did *ask* the question in the right place, but now it\'s possible that more people will come to *read* it!
+By the way, if you want to be sure that people see your questions in a timely manner, then it\'s best if you make a note of it [here](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5); I just did that (which you can find by looking for your name).  You did *ask* the question in the right place, but now it\'s possible that more people will come to *read* it!
 =--
 
 
