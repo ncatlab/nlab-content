@@ -413,32 +413,7 @@ Something related to a **fibrant replacement** functor ("$\infty$-stackification
 
 ## cofibrant objects ##
 
-In the injective [[local model structure on simplicial presheaves]] all objects are cofibrant. For the projective local structure we can make at least the following statement
-
-
-+-- {: .un_prop }
-###### Proposition
-
-In the _projective_ [[local model structure on simplicial presheaves|local model structure]] all objects that are degreewise [[coproduct]]s of [[representable functor|representable]]s and that satisfy the _split property_ are cofibrant.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-See the proof of lemma 2.7 in section 9 of
-
-* [[Daniel Dugger]], _Universal homotopy theories_  ([pdf](http://hopf.math.purdue.edu/Dugger/dduniv.pdf))
-
-
-=--
-
-+-- {: .query}
-
-[[Urs Schreiber]]: don't we even have the following stronger statement, without the splitness condition?
-
-=--
-
+In the injective [[local model structure on simplicial presheaves]] all objects are cofibrant. For the projective local structure we have the following useful statement.
 
 
 +-- {: .un_prop }
@@ -451,6 +426,12 @@ In the _projective_ [[local model structure on simplicial presheaves|local model
 +-- {: .proof}
 ###### Proof
 
+Here is an elegant argument that [[Denis-Charles Cisinski]] pointed out [here](http://mathoverflow.net/questions/3083/simplicial-derham-complex-and-model-category-structure):
+
+  Consider a simplicial sheaf $X$, considered as a functor from $\Delta^{op}$ to sheaves. If $X$ is termwise a coproduct of representables, then $X$ is termwise cofibrant. Hence its [[homotopy colimit]] (computed &#224; la [[Bousfield-Kan map|Bousfield-Kan]]) is cofibrant. But what this is $X$ itself, so that $X$ is cofibrant.
+
+
+A more laborious proof by [[Urs Schreiber]] is the following (which is maybe still of some value -- or maybe not):
 
 Notice that cofibrant objects in $SPSh(C)_{proj}^{loc}$ are those objects such that maps out of them lift through all objectwise acyclic Kan fibrations.
 In particular all [[representable functor|representable]]s are cofibrant in $SPSh(C)^{loc}_{proj}$.
@@ -566,7 +547,15 @@ The way these lifts are constructed they do satisfy the naturality condition tha
 =--
 
 
++-- {: .un_remark }
+###### Remark
 
+
+A similar statement but with an extra splitness condition assumed/imposed is in the proof of lemma 2.7 in section 9 of
+
+  * [[Daniel Dugger]], _Universal homotopy theories_  ([pdf](http://hopf.math.purdue.edu/Dugger/dduniv.pdf))
+
+=--
 
 
 
@@ -595,12 +584,6 @@ Any good cover $U \stackrel{\simeq}{\to} X$ is a cofibrant replacement for $X$.
 
 =--
 
-+-- {: .proof}
-###### Proof
-
-One checks that a Cech nerve satisfies the _split property_ .
-
-=--
 
 
 #References#
@@ -652,3 +635,9 @@ Last not least, it is noteworthy that the idea of localizing simplicial sheaves 
 using instead of a full [[model category]] structure the more lightweight one of a Brown [[category of fibrant objects]].
 
 [[Note on Formatting|?]]
+
++-- {: .query}
+
+[[Urs Schreiber]]: my thanks to [[Denis-Charles Cisinski]] for helpful comments on some of the above topics [here](http://mathoverflow.net/questions/3083/simplicial-derham-complex-and-model-category-structure)
+
+=--
