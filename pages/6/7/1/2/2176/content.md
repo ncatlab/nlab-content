@@ -1941,21 +1941,3 @@ More generally speaking, in a $k$-dimensional universe of discourse that is base
 * [Differential Propositional Calculus](http://planetmath.org/encyclopedia/DifferentialPropositionalCalculus.html)
 
 * [Differential Logic and Dynamic Systems](http://www.mywikibiz.com/Directory:Jon_Awbrey/Papers/Differential_Logic_and_Dynamic_Systems_2.0)
-
-# Gallery #
-
-__NB.__ I'll be using this area to test the remote images and upload the local images that I'll be inserting as the article develops.  ---[[JA]]
-
-Templates ---
-
-       [[mypic.jpg|alt text:pic]]
-
-       ![alt text](/nlab/files/mypic.jpg)
-
-       http://ncatlab.org/nlab/files/mypic.jpg
-
-       <img alt="mytext" src="/nlab/files/mypic.jpg" width="500" />
-
-Upload Queue ---
-
-$\varnothing$
