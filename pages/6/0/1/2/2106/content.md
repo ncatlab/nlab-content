@@ -47,7 +47,7 @@ Here is a telegraphic version of the story:
 and Souriau in late 1960s. Elimination of nodes procedure has been made rigorous by Marsden and Weinstein and, independently, by Meyer, as [[symplectic
 reduction]] (symplectic quotient construction).
 
-In the early 1980s Mumford observed that symplectic quotients are closely related to [[Geometric Invariant Theory]] quotients and that many [[moduli space]]s
+In the early 1980s Mumford observed that symplectic quotients are closely related to [[geometric invariant theory]] quotients and that many [[moduli space]]s
 important in [[algebraic geometry]] and in mathematical physics can be realized as [[symplectic quotient]]s.  Atiyah and Bott used this point of view in "The moment map and equivariant cohomology" to construct
 [[cohomology]] classes of [[moduli space]]s of flat [[connection on a bundle|connection]]s on [[Riemann
 surface]]s.  In "Two dimensional gauge theories revisited" [[Edward Witten|Witten]] conjectured a method for computing the [[intersection pairing]]s of cohomology classes of symplectic quotients.  The work of Atiyah and
