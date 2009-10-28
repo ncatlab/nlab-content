@@ -16,7 +16,9 @@
 
 # Definition #
 
-The __minimal negation operator__ $\nu$ is a [[multigrade operator]] $(\nu_k)_{k \in \mathbb{N}}$ that can be described as follows.  For each $k$ in the index set of non-negative integers $\mathbb{N}$, the operator $\nu$ contains a unique [[boolean function]] $\nu_k : \mathbb{B}^k \to \mathbb{B}$ defined in such a way that $\nu_k (x_1, \ldots, x_k) = 1$ in just those cases where exactly one of the $x_j$ is equal to $0$.
+The __minimal negation operator__ $\nu$ is a [[multigrade operator]] $(\nu_k)_{k \in \mathbb{N}}$ whose component operators are [[boolean functions]] $\nu_k : \mathbb{B}^k \to \mathbb{B}$ defined as follows:
+
+$$\nu_k (x_1, \ldots, x_k) = 1 \quad \iff \quad x_j = 0 \; \text{for exactly one} \; j \in [1, k].$$
 
 In contexts where the initial letter $\nu$ is understood, the minimal negation operators may be indicated by argument lists in parentheses.  In the following text a distinctive typeface is used for logical expressions based on minimal negation operators, for example, $\text{&#10647;} x \text{&#65104;} y \text{&#65104;} z \text{&#10648;} = \nu (x, y, z)$.
 
