@@ -36,6 +36,5 @@ She has also shown that opetopic [[bicategories]] are "the same" as the ordinary
 
 * Eugenia Cheng, Opetopic bicategories: comparison with the classical theory.  ([arXiv](http://arxiv.org/abs/math/0304285))
 
-
-
-
+[[!redirects opetopic set]]
+[[!redirects opetopic n-category]]
