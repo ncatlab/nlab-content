@@ -4,7 +4,7 @@
 
 * [[∞-category]]/[[∞-category]]
 
-  * [[(n,r)-category]]
+  * [[n-category]]/[[(n,r)-category]]
 
     * [[(-1)-category]]
 
