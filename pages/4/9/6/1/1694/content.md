@@ -34,7 +34,7 @@ Don't worry, this is a feature, not a bug, designed to avoid silly things like i
 
 In the event that `[[categories]]` does exist already, then it probably should not if `[[category]]` aready exists. 
 
-If you run into this situation, you can help by transferring material from `[[existing pages]]` to `[[existing page]]` and change the name of `[[existing pages]]` to `[[existing pages -- history]]`. Now the redirects will work *and* we maintain the history of any revisions that were made to `[[existing pages]]`.
+If you run into this situation, you can help by transferring material from `[[existing pages]]` to `[[existing page]]` and change the name of `[[existing pages]]` to `[[existing pages > history]]`. Now the redirects will work *and* we maintain the history of any revisions that were made to `[[existing pages]]`.
 
 #Example: Links with non-ASCII symbols
 
