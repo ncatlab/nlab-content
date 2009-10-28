@@ -44,6 +44,9 @@
 
   on the [[generalized (Eilenberg-Steenrod) cohomology]] theory [[tmf]], the gluing of all [[elliptic cohomology]] theories
 
+* _$\mathbb{E}[k]$-Algebras_ ([pdf](http://www-math.mit.edu/~lurie/papers/DAG-VI.pdf))
+
+  on little cubes [[(∞,1)-operad]]s
 
 >**Warning** These documents keep being updated and expanded. On the personal webpage as well as, with the due time delay, on the arXiv. Likely many references to page and definition/theorem numbers on the $n$Lab to these articles are already outdated
 
