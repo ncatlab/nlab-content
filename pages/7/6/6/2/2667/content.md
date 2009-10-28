@@ -45,7 +45,10 @@ Even though Schur functors do not respect linear structure, the category $Schur$
 
 Even if it is something analogous to analytic functors, I am reminded that analytic functors on $Set$ aren't just any old functors; they are characterized by certain properties such as weak preservation of pullbacks. Is there something similar that needs to be said for the very general sense of 'Schur functor' given above?
 
-[[John Baez]]: I think we don't need anything more than what we're assuming above.  But let's prove that.
+[[John Baez]]: I think we don't need anything more than what we're assuming above.  But let's prove that. 
+
+[[Todd Trimble]]: Scratch the query as stated above then: I see you've edited in an algebraicity hypothesis. We share a hope that the sophisticated machinery of strong natural transformations and modifications will automatically enforce such a thing. That would be nice. 
+
 =--
 
 # Schur functors associated with Young diagrams #
@@ -61,13 +64,19 @@ $$ F: FinVect_{k} \to FinVect_{k} $$
 that can be defined only when $k$ has characteristic $p$.
 So, using categories enriched over $Vect_k$ with $k$ having characteristic zero is probably a wise idea, at least for starters.  But I'm really hoping that we can drop that in the more sophisticated approach where we work with all symmetric monoidal abelian categories simultaneously and demand pseudonaturality.  I'm hoping this will 'wash out' the tricky functors that only work in characteristic $p$, leaving us with just the Schur functors we know and love.  
 
+[[Todd Trimble]]: Could be! 
+
 =-- 
 
-Recall that the [[group algebra]] $\mathbb{Q}[S_n]$ decomposes as a direct sum 
+Recall that the [[group algebra]] $\mathbb{Q}[S_n]$ decomposes as a direct sum of matrix algebras 
 
-$$\bigoplus_{\lambda} V_{\lambda}$$ 
+$$\bigoplus_{\lambda} hom(V_\lambda, V_\lambda)$$ 
 
-where $\lambda$ ranges over $n$-box [[Young tableaux]], and $V_\lambda$ represents the irreducible subrepresentation attached to $\lambda$.  
+where $\lambda$ is indexed over Young diagrams and $V_\lambda$ is the corresponding irreducible representation, or, just at the level of $S_n$-representations, 
+
+$$\bigoplus_{\lambda'} V_{\lambda'}$$ 
+
+where this time $\lambda'$ ranges over $n$-box [[Young tableaux]], and $V_\lambda'$ represents the irreducible subrepresentation attached to $\lambda$.  
 
 This group algebra lives as a [[monoid]] in the symmetric monoidal category of finite-dimensional rational spaces $FinVect_{\mathbb{Q}}$. If $Sk$ is the skeleton of $Vect_{fd}$ consisting of the finite coproducts $\mathbb{Q}^n$, then there is an evident linear functor 
 
@@ -98,6 +107,10 @@ $$e_X = \frac1{n!} \sum_{g \in S_n} g: V_\lambda \otimes X^{\otimes n} \to V_\la
 which can be viewed either as invariants (equalizer of $e$ and the identity) or coinvariants (coequalizer of $e$ and the identity). 
 
 [[John Baez]]: we need to use coinvariants when we get to  the more sophisticated approach where our constructions are supposed to preserved by <i>right exact</i> functors.  Also, coinvariants work even in characteristic $p$, while invariants involve dividing by $n!$.  So, coinvariants rule, and I've switched to working with them above.  Also, following Jamie Vicary's correction, I've switched to using Young tableaux instead of Young diagrams: for each Young diagram there are many isomorphic Schur functors, one for each Young tableau of that shape. 
+
+[[Todd Trimble]]: That's fine to switch to coinvariants; I completely agree that's the correct conceptual way to go in general. As far as Young diagrams vs. Young tableaux, point taken, but see also my response to Jamie (which I've incorporated above). 
+
+Of course, I've already noted that "right exact" could be overkill in certain contexts. When the object of coinvariants arises by splitting an idempotent (as in the case of enrichment over rational vector spaces), we don't need full right exactness to preserve the construction, although we might want to retain additivity: preservation of direct sums. I hope we can be a bit flexible about hypotheses until we're further along in this. 
 
 =-- 
 
