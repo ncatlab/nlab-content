@@ -32,6 +32,7 @@ Here is a list of people who have contributed content to the nLab (or, failing t
 * [[Emily Riehl]]
 * [[Eric Forgy]]
 * [[Eric Katerman]]
+* [[Evan Jenkins]]
 * [[Finn Lawler]]
 * [[Gabriel C Drummond-Cole]]
 * [[Gavin Wraith]]
