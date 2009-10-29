@@ -17,7 +17,7 @@ More abstract, this is characterized by saying
 
 # Remarks #
 
-*  In the Lab, we tend to use 'presentable' for a locally presentable category.  But another notion of when a category is 'presentable' is given by an [[algebraic category|equationally presentable category]].
+*  In the Lab, we tend to use 'presentable' for a locally presentable category.  But another notion of when a category is 'presentable' is given by an [[algebraic category|equationally presentable category]].  Yet another is the standard notion of a [[presentable object]] interpreted in [[Cat]].
 
 +-- {: .query}
 [[Mike Shulman]]: I agree that "locally" is a poor choice (and an overworked word), but I think that merely "presentable" is worse; some adjective must be used and "locally" has the weight of history behind it.  The important point requiring the adjective is that it is the _objects_ of the category which are presentable, rather than the category itself.  For instance, consider the notion of "locally _finitely_ presentable category," in which the generating set $S$ consists of finitely presentable objects, i.e. $\omega$-small ones.  If you drop the word "locally" then you would get "finitely presentable category" which means something completely different, namely an $\omega$-small object of [[Cat]].
