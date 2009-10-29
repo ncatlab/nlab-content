@@ -61,9 +61,9 @@ Very stubby article; much work remains.
 
 ### Local homotopy properties of loop spaces ###
 
-Let the space $X$ be locally 0-connected and semi-locally 1-connected (i.e. it admits a [[universal covering space]]). The loop space $\Omega X$ for any basepoint is locally path connected, as is the free loop space $X^{S^1}$. If $X$ is locally 1-connected and admits a basis of open sets $U$ such that $\pi_2(U) \to \pi_2(X)$ is the zero map, then $\Omega X$ is locally 0-connected and semi-locally 1-connected, and so admits a universal covering space. 
+Let the space $X$ be [[locally connected space|locally 0-connected]] and [[semi-locally simply connected space|semi-locally 1-connected]] (i.e. it admits a [[universal covering space]]). The loop space $\Omega X$ for any basepoint is locally path connected, as is the free loop space $X^{S^1}$. If $X$ is locally 1-connected and admits a basis of open sets $U$ such that $\pi_2(U) \to \pi_2(X)$ is the zero map, then $\Omega X$ is locally 0-connected and semi-locally 1-connected, and so admits a universal covering space. 
 
-In general, if $X$ is locally $n$-connected, $\Omega X$ is locally $(n-1)$-connected. This process can obviously be iterated up to $n$ times, so that $\Omega^n X$ is locally 0-connected. This can be weakened to locally $(n-1)$-connected and semi-locally $n$-connected: this is just like the $n=1$ case but replacing $\pi_1$ with $\pi_n$ (as was done in the previous paragraph with $\pi_2$). We will actually define a space to be semi-locally $n$-connected to include the condition that it is locally $(n-1)$-connected
+In general, if $X$ is locally $n$-[[n-connected space|connected]], $\Omega X$ is locally $(n-1)$-connected. This process can obviously be iterated up to $n$ times, so that $\Omega^n X$ is locally 0-connected. This can be weakened to locally $(n-1)$-connected and semi-locally $n$-connected: this is just like the $n=1$ case but replacing $\pi_1$ with $\pi_n$ (as was done in the previous paragraph with $\pi_2$). We will actually define a space to be semi-locally $n$-connected to include the condition that it is locally $(n-1)$-connected
 
 +--{: .standout}
 [[David Roberts]]: The following claim is conjectural, but for $n=2$ it is in my thesis. $n=1$ has been known for ages - I don't know where it was first, but it is in Ronnie Brown's topology textbook.
