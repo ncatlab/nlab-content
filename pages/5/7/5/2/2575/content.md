@@ -40,6 +40,9 @@ A circle $S^1$ $\mapsto$ the [[category]] of [[positive-energy representation]]s
 
 +-- {: .query}
 The R-T construction sticks on the circle the [[modular tensor category]] of representations of a [[quantum group]] at a root of unity, modulo "unphysical representations."  Are these supposed to be the same?  Is this just the Kazhdan-Lusztig equivalence?
+
+[[Urs Schreiber]]: the [[Reshetikhin-Turaev construction]] works with any [[modular tensor category]], I'd say. Using one coming from reps of loops group is expected to produce the Chern-Simonss QFT as a cobordism rep. But I think a full proof of that, i.e. a formalization of the CS path integral that would after turning the crank yield the RT construction, is not available to date. There is just lots of "circumstancial evidence".
+
 =--
 
 The 2-category assigned to the point is the most interesting piece of data since in principle all the other invariants can be derived from it using the gluing law. In the paper _Topological quantum field theories from Compact Lie Groups_, it is proposed that
