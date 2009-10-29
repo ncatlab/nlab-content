@@ -8,3 +8,10 @@ A construction of a 3d [[TQFT]] from a [[modular tensor category]].
 
 * [[Kevin Walker]], _On Witten's 3-Manifold Invariants
 _, ([old version](http://canyon23.net/math/1991TQFTNotes.pdf) [draft of new version](http://canyon23.net/math/tc.pdf))
+
+
+[[!redirects Reshetikhin?Turaev construction]]
+[[!redirects Reshetikhin--Turaev construction]]
+[[!redirects ????????∞-∞????? construction]]
+[[!redirects ???????????????? construction]]
+[[!redirects ????????∞--∞????? construction]]
