@@ -8,7 +8,7 @@
 
 # Idea #
 
-A [[topological space|topological]] spectrum is an object in the universal [[stable (∞,1)-category]] $Sp(Top) \simeq Sp(\infty Grpd)$ that "stabilizes" the [[(∞,1)-category]] [[Top]] or $\simeq$ [[∞-Grpd]] of [[topological spaces]] or [[∞-groupoids]].
+A [[topological space|topological]] spectrum is an object in the universal [[stable (∞,1)-category]] $Sp(Top) \simeq Sp(\infty Grpd)$ that "stabilizes" the [[(∞,1)-category]] [[Top]] or $\simeq$ [[∞-Grpd]] of [[topological spaces]] or [[∞-groupoids]]: the [[stable (∞,1)-category of spectra]].
 
 Recall that the central characterization of a [[stable (∞,1)-category]] is that all objects $A$ have a [[delooping]] object $\mathbf{B}A$ that is written $\Sigma A$ in this context and called the _suspension_ of $A$. Thus a spectrum is like a [[topological space]] or [[∞-groupoid]] that may be [[delooping|delooped]] indefinitely.
 
