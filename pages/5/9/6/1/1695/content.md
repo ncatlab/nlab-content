@@ -47,3 +47,5 @@ An H-space $X$ admits a delooping if and only if the monoid $\pi_0(X)$ induced f
 =--
 
 Very stubby article; much work remains. 
+
+[[!redirects loop spaces]]
