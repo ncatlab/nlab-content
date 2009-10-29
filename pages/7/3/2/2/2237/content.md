@@ -7,13 +7,18 @@
 * automatic table of contents goes here
 {:toc}
 
+
 #Idea#
+
+Equivariant cohomology is [[cohomology]] of objects on which a [[group]] acts that takes the group action into account. There are differing ways of making this precise.
+
+#Borel equivariant cohomology#
 
 We first state the [[category theory|general nonsense]] definition of _equivariant cohomology_ and then derive from it the more concrete formulations that are traditionally given in the literature.
 
 +-- {: .standout}
 
-Essentially, equivariant cohomology is the [[cohomology]] of [[groupoid]]s.
+Essentially, Borel equivariant cohomology is the [[cohomology]] of [[groupoid]]s.
 
 =--
 
@@ -49,13 +54,13 @@ i.e. a lift of $c$ through the projection $\mathbf{H}(X,A) \to \mathbf{H}(X_0,A)
 
 =--
 
-# Examples #
+## Examples ##
 
-## group cohomology ##
+### group cohomology ###
 
 By comparing the definition of equivariant cohomology with that of [[group cohomology]] one sees that group cohomology can be equivalently thought of as being **equivariant cohomology of the point**.
 
-## equivariant bundles ##
+### equivariant bundles ###
 
 For $G$ some [[group]] let $G Bund$ be the [[stack]] of $G$-[[principal bundle]]s. Let $K$ be some finite group (just for the sake of simplicity of the example) and let $K \to Aut(X_0)$ be an action of $K$ on a space $X_0$. Let $X = X_0 // K$ be the corresponding [[action groupoid]].
 
@@ -67,7 +72,7 @@ Then a cocycle in the $K$-equivariant cohomology $H(X_0//K, G Bund)$ is
 
 * such that for all $k_1, k_2 \in K$ we have $\lambda_{k_2}\circ \lambda_{k_1} = \lambda_{k_2\cdot k_1}$.
 
-## local systems -- flat connections ##
+### local systems -- flat connections ###
 
 For $X_0$ a [[space]] and $X := P_n(X_0)$ a version of its [[path n-groupoid]] we have a canonical inclusion $X_0 \hookrigtharrow P_n(X_0)$ of $X_0$ as the collection of constant paths in $X_0$.
 
@@ -83,6 +88,13 @@ Comparing with the above definition of eqivariant cohomology, we see that flat c
 
 This is therefore an example of equivariance which is not with respect to a global [[group]] action, but genuinely a [[groupoid]]al one.
 
-#Remarks#
+## Remarks ##
 
 When pairing equivariant cohomology with other variants of cohomology such as [[twisted cohomology]] or [[differential cohomology]] one has to exercise a bit of care as to what it really is that one wants to consider. A discussion of this is (beginning to appear) at [[schreiber:differential equivariant cohomology]].
+
+#Bredon equivariant cohomology#
+
+
+See
+
+* [[Bredon cohomology]]
