@@ -100,6 +100,8 @@ A suitable type assignment provides a propositional typing for $\mathop{I} : A \
 
 ## Step 3 (Optional) ##
 
+__NB.__  The exercises suggested at Step&#160;3 constitute an optional excursion for readers who are studying the relation between classical and intuitionistic calculi.
+
 Check that $A \Rightarrow A$ is a theorem of classical propositional calculus.
 
     A   A                    
@@ -109,6 +111,8 @@ Check that $A \Rightarrow A$ is a theorem of classical propositional calculus.
 {: style="background-color:#f8f8ff; font-weight:bold; text-align:center"}
 
 Check.
+
+__Note on notation.__  For the time being, the Knol entry on [Logical Graphs : Formal Development](http://knol.google.com/k/jon-awbrey/logical-graphs-2/3fkwvf69kridz/8) may serve as a primer on the graphical syntax for propositional calculus that is being used here.
 
 ## Step 4 ##
 
