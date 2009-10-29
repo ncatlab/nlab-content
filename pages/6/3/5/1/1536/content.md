@@ -1,3 +1,7 @@
+#Contents#
+* automatic table of contents
+{:toc}
+
 # Idea #
 
 In any context it is of interest to ask which kind of [[morphism]]s $p : C \to D$ arise as [[pullback]]s along a classifying morphism $S_p : D \to U$ to some universal object $U$ of some universal morphism $p_{univ} : \hat U \to U$.
