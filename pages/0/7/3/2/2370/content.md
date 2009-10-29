@@ -15,7 +15,7 @@ a real inner product [[vector space]] $U$ isomorphic to $\mathbb{R}^\infty$.
 #Definition#
 
 Let $U$ be a real inner product [[vector space]] isomorphic to the [[direct sum]]
-$\mathbb{R}^\infty$ of countably many copies of the real [[line]] $\mathbb{R}$.
+$\mathbb{R}^\infty$ of countably many copies of the [[real line]] $\mathbb{R}$.
 
 For $V \subset U$ a finite-dimensional subspace, write $S^V$ for its
 [[one-point compactification]] (an $n$-dimensional [[sphere]] if $V$ is $n$-dimensional)
@@ -26,7 +26,8 @@ continuous maps.
 For $V \subset W$ an inclusion of finite dimensional subspaces $V,W \subset U$
 write $W-V$ for the orthogonal complement of $V$ in $W$.
 
-**Definition**
++-- {: .un_defn}
+###### Definition
 
 A **coordinate-free spectrum** $E$ modeled on the "universe" $U$ is
 
@@ -40,7 +41,7 @@ a [[homeomorphism]] of pointed [[topological space]]s
     \tilde \sigma_{V,W} : E_V \stackrel{\simeq}{\to} \Omega^{W-V} E_W
     \,.
   $$
-
+=--
 
   
 # References #
