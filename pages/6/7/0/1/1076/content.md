@@ -1,3 +1,7 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 A _triangulated category_ is a [[category]] that behaves like the [[homotopy category of an (infinity,1)-category|homotopy category]] of a [[stable (infinity,1)-category]]. Indeed, most examples of triangulated categories that arise in practice appear this way. 
