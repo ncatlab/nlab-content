@@ -1,4 +1,4 @@
-A [[category]] $D$ is **cocomplete** if it has all small [[colimit|colimits]]: that is, if every [[diagram]] 
+A [[category]] $C$ is **cocomplete** if it has all small [[colimit|colimits]]: that is, if every [[diagram]] 
 
 $$ F: D \to C$$
 
