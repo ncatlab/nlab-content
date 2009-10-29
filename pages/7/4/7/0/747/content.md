@@ -415,6 +415,12 @@ Something related to a **fibrant replacement** functor ("$\infty$-stackification
 
 In the injective [[local model structure on simplicial presheaves]] all objects are cofibrant. For the projective local structure we have the following useful statement.
 
++-- {: .query}
+
+[[Urs Schreiber]]: **warning** , the following statement is in the literature only with an extra "splitness" condition assumed (see below). Below are two arguments for why the general statement should hold, but I am a bit worried for the moment. So handle this with care. I'll try to update this soon with something more stable.
+
+=--
+
 
 +-- {: .un_prop }
 ###### Proposition
@@ -426,9 +432,16 @@ In the _projective_ [[local model structure on simplicial presheaves|local model
 +-- {: .proof}
 ###### Proof
 
-Here is an elegant argument that [[Denis-Charles Cisinski]] pointed out [here](http://mathoverflow.net/questions/3083/simplicial-derham-complex-and-model-category-structure):
+Here is an argument that [[Denis-Charles Cisinski]] mentions [here](http://mathoverflow.net/questions/3083/simplicial-derham-complex-and-model-category-structure):
 
   Consider a simplicial sheaf $X$, considered as a functor from $\Delta^{op}$ to sheaves. If $X$ is termwise a coproduct of representables, then $X$ is termwise cofibrant. Hence its [[homotopy colimit]] (computed &#224; la [[Bousfield-Kan map|Bousfield-Kan]]) is cofibrant. But what this is $X$ itself, so that $X$ is cofibrant.
+
++-- {: .query}
+
+[[Urs Schreiber]]: but for the argument to work we need that the BK-style hocolim is not just weakly equivalent to $\int^n \Delta^n \cdot X_n = X$, but has an acyclic cofibration to it. How do we know we have that?
+
+=--
+
 
 
 A more laborious proof by [[Urs Schreiber]] is the following (which is maybe still of some value -- or maybe not):
