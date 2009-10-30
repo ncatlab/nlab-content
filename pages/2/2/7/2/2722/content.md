@@ -1,5 +1,3 @@
-A _vector field_ on a [[manifold]] $X$ is
+A __vector field__ is a [[section]] of a [[vector bundle]].
 
-* a [[section]] of the [[tangent bundle]] $T X \to X$
-
-* many other equivalent things...
+Of the term 'vector field' is used specifically for a [[tangent vector field]], which is a [[section]] of a [[tangent bundle]] (and many other equivalent things).
