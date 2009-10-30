@@ -9,3 +9,5 @@ In fact, when $m=n=1$ the weight spaces of $V^{\otimes d}$ are irreducible repre
 
 Also, does this picture have a categorification?  One natural candidate to use in the $m=n=1$ case is the [categorifications of the cell modules](http://front.math.ucdavis.edu/0702.5811) due to Stroppel and Mazorchuk.  Also possibly of interest is their [categorification of Wedderburn basis](http://front.math.ucdavis.edu/0708.3949) of $S_n$
 =--
+
+* See also MathOverflow: [Does the super Temperley-Lieb algebra have a Z-form?](http://mathoverflow.net/questions/3299/does-the-super-temperley-lieb-algebra-have-a-z-form/3442#3442)
