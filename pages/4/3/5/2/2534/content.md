@@ -169,3 +169,5 @@ _Toby_:  Right; which they are for Eric, who specified $\mu\colon X \to \mathbb{
 
 
 [[!redirects multisubset]]
+[[!redirects multisubsets]]
+[[!redirects multisets]]
