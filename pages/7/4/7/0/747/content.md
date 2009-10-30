@@ -432,16 +432,9 @@ In the _projective_ [[local model structure on simplicial presheaves|local model
 +-- {: .proof}
 ###### Proof
 
-Here is an argument that [[Denis-Charles Cisinski]] mentions [here](http://mathoverflow.net/questions/3083/simplicial-derham-complex-and-model-category-structure):
+Here is an argument that [[Denis-Charles Cisinski]] proposes:
 
-  Consider a simplicial sheaf $X$, considered as a functor from $\Delta^{op}$ to sheaves. If $X$ is termwise a coproduct of representables, then $X$ is termwise cofibrant. Hence its [[homotopy colimit]] (computed &#224; la [[Bousfield-Kan map|Bousfield-Kan]]) is cofibrant. But what this is $X$ itself, so that $X$ is cofibrant.
-
-+-- {: .query}
-
-[[Urs Schreiber]]: but for the argument to work we need that the BK-style hocolim is not just weakly equivalent to $\int^n \Delta^n \cdot X_n = X$, but has an acyclic cofibration to it. How do we know we have that?
-
-=--
-
+> (...to be filled in...)
 
 
 A more laborious proof by [[Urs Schreiber]] is the following (which is maybe still of some value -- or maybe not):
