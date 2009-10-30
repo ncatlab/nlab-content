@@ -1,3 +1,7 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 # The idea #
 
 Recall that a [[category]] consists of a collection of arrows each having a single object as source or input, and a single object as target or output, together with laws for composition and identity obeying associativity and identity axioms. A multicategory is like a category, except that one allows multiple inputs and a single output.
