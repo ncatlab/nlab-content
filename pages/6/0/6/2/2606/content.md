@@ -1,12 +1,12 @@
-[[!redirects propositions as types;DR]]
-[[!redirects PAT;DR]]
-[[!redirects PAT analogy;DR]]
-[[!redirects propositions as types analogy;DR]]
-[[!redirects Propositions As Types Analogy;DR]]
-[[!redirects CHI;DR]]
-[[!redirects Curry--Howard;DR]]
-[[!redirects Curry--Howard isomorphism;DR]]
-[[!redirects Curry--Howard Isomorphism;DR]]
+[[!redirects propositions as types done right]]
+[[!redirects PAT]]
+[[!redirects PAT analogy]]
+[[!redirects propositions as types analogy]]
+[[!redirects Propositions As Types Analogy]]
+[[!redirects CHI]]
+[[!redirects Curry--Howard]]
+[[!redirects Curry--Howard isomorphism]]
+[[!redirects Curry--Howard Isomorphism]]
 
 * tic
 {:toc}
