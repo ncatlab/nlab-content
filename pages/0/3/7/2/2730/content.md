@@ -13,12 +13,18 @@ One paper, in particular, we would like to look at is
 
 Here are some initial questions we hope to better understand:
 
-* What exactly is $M-Set$?
-* How is it isomorphic to $Set^M$?
-* How does one calculate finite products in $M-Set/Set^M$?
+* What exactly is $M$-$Set$?
+* How is it isomorphic to $Set^M$? (Is the '$M$' here the same as the '$M$' in $M$-$Set$? If not, how are the two senses of $M$ related?) 
+* How does one calculate finite products in $M$-$Set$/$Set^M$?
 
 As [[Todd Trimble]] said
 
 >We can go on from there to discuss general limits and colimits in $M-Set$, cartesian closure, the subobject classifier, and so on. This could be fun and a very good learning experience, and there are people right here who know this material rather well.
 
-So let's do it!
+So let's do it! 
+
+[[Todd Trimble]]: Okay! 
+
+Off the bat, I'm not seeing a clear connection between $M$-sets and multisets. It sounds like you were hoping that (locally finite) multisets were in some way connected with $\mathbb{N}$-sets, so let's talk a little about the latter. As stated in the abstract, an $\mathbb{N}$-set is a set equipped with an action by the monoid $\mathbb{N}$ (natural numbers $0, 1, 2, \ldots$ with the monoid multiplication taken to be ordinary addition). 
+
+A first thing to do is get a very clear picture of what $\mathbb{N}$-sets are like; there are other suggestive words that can be used to describe them. Any ideas? 
