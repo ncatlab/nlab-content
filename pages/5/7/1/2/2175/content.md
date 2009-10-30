@@ -25,7 +25,7 @@
 
 ## Computation ##
 
-* [[propositions as types]]
+* [[propositions as types in combinatory algebra]]
 
 ## Inquiry ##
 
