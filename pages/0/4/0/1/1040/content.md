@@ -36,7 +36,11 @@ $$i: IdemMonad_C \hookrightarrow Monad_C$$
 
 has a [[right adjoint]] given by the associated idempotent monad construction. 
  
++--{: .query}
+[[Mike Shulman]]: How about some examples of monads and their associated idempotent monads?
 
+Do 2-monads have associated lax-, colax-, or pseudo-idempotent 2-monads?
+=--
  
 
 # References#
