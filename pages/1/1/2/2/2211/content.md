@@ -1,3 +1,20 @@
+<div class="rightHandSide toc">
+[[!include synthetic differential geometry - contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
++-- {: .standout}
+
+[[Urs Schreiber]]. This is something I thought about in the context of my discussion at [[schreiber:Chevalley-Eilenberg algebra]]. 
+
+=--
+
+#Idea#
+
 We give a description of the [[Chevalley?Eilenberg algebra]] of the [[Lie algebra]] of a [[Lie group]] as the [[∞-quantity]] of functions $C^\infty(\mathbf{B}G_e^{(1)})$ on the [[simplicial object|simplicial space]] of infinitesimal neighbourhoods of the identity in the sense of [[synthetic differential geometry]] in the simplicial smooth space $\mathbf{B}G$ that is the [[Lie ∞-groupoid]] incarnation of the [[delooping]] of the [[Lie group]].
 
 The derivation is analogous to and usefully compared with how the deRham algebra of differential forms on a [[manifold]] $X$ is the [[∞-quantity]] of functions on the [[infinitesimal singular simplicial complex]] $X^{\Delta^\bullet_{diff}} \hookrightarrow \Pi(X)$ of $X$, as described at [[differential forms in synthetic differential geometry]].
