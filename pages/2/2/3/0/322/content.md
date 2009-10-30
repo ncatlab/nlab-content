@@ -5,13 +5,17 @@
 </div>
 
 
-## The idea ## 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+# The idea #
 
 An **operad** is a gadget used to describe algebraic structures in [[symmetric monoidal category|symmetric monoidal categories]].  An operad is like a [[Lawvere theory]] in that it can be used to describe structures having finitary operations obeying equational laws.  However, unlike Lawvere theories, operads can be applied to general symmetric monoidal categories where the tensor product might not be the cartesian product. 
 
 Actually the notion of operad (and allied notions such as [[PROP]], [[club]], [[multicategory]] and so on) come in many flavors. Originally used in algebraic topology to provide a systematic formalism for describing the internal operations which exist on iterated loop spaces, the basic idea is quite flexible and adaptable to many categorical situations, and the importance of operads continues to grow. 
 
-## The rough definition ## 
+# The rough definition # 
 
 The original definition is due to J.P. May and was given in his book _The Geometry of Iterated Loop Spaces_. Since the detailed definition is available from many sources, we will just sketch May's definition; in the section following this, we give a more detailed higher-level description which generalizes in a number of directions. 
 
@@ -79,9 +83,11 @@ $$\hom(v^{\otimes k}, v) \otimes \hom(v^{\otimes n_1 + \ldots + n_k}, v^{\otimes
 
 A closely related way of defining an $F$-algebra is via the monad attached to an operad, which we will describe below. 
 
-## A detailed conceptual treatment ## 
+# A detailed conceptual treatment # 
 
-We describe here a compact one-sentence definition of operad first worked out by G.M. Kelly, after a few preliminaries which are important in their own right. The treatment is essentially an exercise in enriched category theory and the formalism of Day convolution. We will work this out fully in the case of ordinary category theory first, that is for categories enriched in $V = Set$; the case for categories enriched in a complete, cocomplete, symmetric monoidal closed $V$ is completely parallel. 
+We describe here a compact one-sentence definition of operad first worked out by G.M. Kelly, after a few preliminaries which are important in their own right. The treatment is essentially an exercise in [[enriched category theory]] and the formalism of [[Day convolution]]. We will work this out fully in the case of ordinary [[category theory]] first, that is for categories [[enriched category|enriched in]] $V = Set$; the case for categories enriched in a complete, cocomplete, [[symmetric monoidal category|symmetric monoidal]] [[closed monoidal category|closed]] $V$ is completely parallel. 
+
+## Preparation ##
 
 1. Let $\mathbb{P}$ be the groupoid of finite cardinals and bijections thereon. Since $\mathbb{P}$ is the [[underlying groupoid]] of the category $Fin$ of finite cardinals and functions between them, the tensor product given by the coproduct on $Fin$ restricts to a symmetric monoidal product on $\mathbb{P}$. Under this symmetric monoidal structure, $\mathbb{P}$ may be characterized as the free symmetric strict monoidal category on one generator. 
 
@@ -139,11 +145,16 @@ where we sum over all ways of breaking up a finite set $S$ into $k$ blocks, some
 
 $$(F \circ G)[n] = \sum_k F[k] \otimes_{S_k} (\sum_{[n] = T_1 + \ldots + T_k} G[|T_1|] \times \ldots \times G[|T_k|]),$$ 
 
-and it is clear from our discussion above that substitution is a monoidal product. We are at last ready for the one-sentence definition: 
+and it is clear from our discussion above that substitution is a monoidal product. 
 
-A ($Set$-based) **operad** is a monoid in the monoidal category $(Set^{\mathbb{P}^{op}}, \circ)$. 
+## Definition as monoid ##
 
-**Remarks** 
+We are at last ready for the one-sentence **definition**: 
+
+
+A ($Set$-based) **operad** is a [[monoid]] in the [[monoidal category]] $(Set^{\mathbb{P}^{op}}, \circ)$. 
+
+## Remarks ##
 
 * We can get different flavors of operad by considering different notions of monoidal category. For instance, for the theory of monoidal categories, the discrete category $\mathbb{N}$ plays the role of the free (strict) monoidal category on one generator, and $Set^{\mathbb{N}^{op}}$ the free monoidally cocomplete category on one generator. Similarly, for braided monoidal categories, we have the braid category $\mathbb{B}$, and $Set^{\mathbb{B}^{op}}$ is the free braided monoidally cocomplete category on one generator. Again, for cartesian categories, we have $Fin^{op}$ (the opposite of finite sets and functions) as the free cartesian category on one generator, and $Set^{Fin}$ is the free cartesian monoidally cocomplete category on one generator. In each of these cases we get a corresponding notion of operad by following the above treatment _mutatis mutandis_: nonpermutative operads, braided operads, cartesian operads (better known as [[Lawvere theory|Lawvere theories]]). 
 
@@ -155,7 +166,7 @@ that takes a set $S$ to the $S$-fold coproduct $S \cdot I$, where $I$ is the mon
 
 * In still other directions, there are for example notions of _cyclic operad_ and _modular operad_. Anyone want to take these up? 
 
-### The monad attached to an operad ### 
+# The monad attached to an operad #
 
 ...
 
