@@ -1,6 +1,11 @@
-$MSet$ is the [[category]] of [[multisets]].
+$MultiSet$ is the [[category]] of [[multisets]].
 
-Don\'t confuse this with $M$-[[M Set|Set]], the category of $M$-sets.
+
+## References
+
+* [Mathematics of Multisets](http://obelix.ee.duth.gr/~apostolo/Articles/MathMSet.pdf), Apostolos Syropoulos
+
+* [Categorical Models of Multisets](http://obelix.ee.duth.gr/~apostolo/Articles/mset.pdf), Apostolos Syropoulos
 
 
 category: category
