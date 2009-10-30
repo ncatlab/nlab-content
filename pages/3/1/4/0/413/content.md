@@ -1,4 +1,15 @@
-In supergeometry the idea is to define everything in sight in terms of the algebras of local coordinate functions. (One really proceeds precisely as physicists do and always did, only difference being that before doing so one spends a minute to wonder about what doing so really means.) This means that the deRham complex of differential forms on a [[supermanifold]] is defined in the obvious way:
+<div class="rightHandSide toc">
+[[!include supergeometry - contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+#Idea#
+
+In [[supergeometry]] the idea is to define everything in sight in terms of the algebras of local coordinate functions. (One really proceeds precisely as physicists do and always did, only difference being that before doing so one spends a minute to wonder about what doing so really means.) This means that the deRham complex of differential forms on a [[supermanifold]] is defined in the obvious way:
 
 let $C^\infty(U)$ be the algebra of functions on patch $U$ of your supermanifold. Then the corresponding deRham complex over $U$ is the [[Lie infinity-algebroid|qDGCA]] which as a free graded-commutative algebra is generated over $C^\infty(X)$ by $C^\infty(U)[1]$. This means that for each element $f \in C^\infty(U)$ we add a new element denoted $d f \in C^\infty(U)[1]$ which we take to be "shifted in degree by 1" with respect to $f$. If we are just in the usual $\mathbb{Z}_2$-graded context of supermanifolds, this just means that $d f$ is of odd or even grade if $f$ is of even or odd grade, respective.
 
@@ -24,3 +35,4 @@ For $\mathbf{X}$ a supermanifold, the [[Lie infinity-algebroid|qDGCA]] $\Omega^\
 
 
 [[!redirects differential forms on supermanifolds]]
+[[!redirects super differential form]]
