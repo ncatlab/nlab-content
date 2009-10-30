@@ -25,7 +25,7 @@
 
 ## Computation ##
 
-* [[propositions as types done right]]
+* [[propositions as types]]
 
 ## Inquiry ##
 
@@ -81,22 +81,6 @@ Templates ---
     <img alt="mytext" src="/nlab/files/mypic.jpg" width="500" />
 
 Upload Queue ---
-
-__GIF__
-
-[[Venn_Diagram_4_Dimensions_UV_Cacti_8_Inch.gif|Venn Diagram 4 Dimensions UV Cacti 8 Inch:pic]]
-
-__JPG__
-
-[[Venn_Diagram_4_Dimensions_UV_Cacti_8_Inch.jpg|Venn Diagram 4 Dimensions UV Cacti 8 Inch:pic]]
-
-__PNG__
-
-[[Venn_Diagram_4_Dimensions_UV_Cacti_8_Inch.png|Venn Diagram 4 Dimensions UV Cacti 8 Inch:pic]]
-
-__SVG__
-
-[[Venn_Diagram_4_Dimensions_Version_1.svg|Venn Diagram 4 Dimensions Version 1:pic]]
 
 $\varnothing$
 
