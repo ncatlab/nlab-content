@@ -1,13 +1,13 @@
 #Idea#
 
-In the [[(infinity,1)-topos]] [[Top]] the construction of a [[loop space]] of a given [[topological space]] is familiar.
+In the [[(∞,1)-topos]] [[Top]] the construction of a [[loop space]] of a given [[topological space]] is familiar.
 
-This construction may be generalized to any other [[(infinity,1)-topos]] and in fact to any other [[(infinity,1)-category]] with [[homotopy pullback]]s.
+This construction may be generalized to any other [[(∞,1)-topos]] and in fact to any other [[(∞,1)-category]] with [[homotopy pullbacks]].
 
 
 # Definition #
 
-Loop space objects are defined in any [[(infinity,1)-category]] $\mathbf{C}$ with [[homotopy pullback]]s: for $X$ any [[pointed object]] of $\mathbf{C}$ with point ${*} \to X$, its [[loop space object]] is [[generalized the|the]] [[homotopy pullback]] $\Omega X$ of this point along itself:
+Loop space objects are defined in any [[(∞,1)-category]] $\mathbf{C}$ with [[homotopy pullback]]s: for $X$ any [[pointed object]] of $\mathbf{C}$ with point ${*} \to X$, its [[loop space object]] is [[generalized the|the]] [[homotopy pullback]] $\Omega X$ of this point along itself:
 
 $$
   \array{
@@ -28,11 +28,11 @@ See also
 
 * [[delooping]].
 
-* [[stable (infinity,1)-category]]
+* [[stable (∞,1)-category]]
 
 #Explicit constructions#
 
-Usually the [[(infinity,1)-category]] in question is [[presentable (infinity,1)-category|presented]] by concrete 1-categorical data, such as that of a [[model category]]. In that case the above [[homotopy pullback]] has various realizations as an ordinary [[pullback]].
+Usually the [[(∞,1)-category]] in question is [[presentable (infinity,1)-category|presented]] by concrete 1-categorical data, such as that of a [[model category]]. In that case the above [[homotopy pullback]] has various realizations as an ordinary [[pullback]].
 
 Notably it may be expressed using [[path object]]s which may come from [[interval object]]s. Even if the context is not (or not manifestly) that of a [[homotopical category]], an [[interval object]] may still exist and may be used as indicated in the following to construct loop space objects.
 
