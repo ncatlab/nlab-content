@@ -20,7 +20,12 @@ Just as a [[Kan complex]] is a model in terms of [[simplicial set]]s of an [[∞
 
 A quasi-category is a [[simplicial set]] in which all _inner_ [[horn]]s have fillers. This means that the lifting condition given at [[Kan complex]] is imposed only for horns $\Lambda^i[n]$ with $0 \lt i \lt n$.
 
++-- {: .query}
+_Stephen Gaito_: If we want to weaken this even further to provide a simplicial model of, for example, a [[((∞,2)-category]], how would we do this?
 
+Would we apply the lifting condition on all but three of the indicies... and if so which three?  (The first, last and ????)
+
+=--
 
 #Remarks#
 
