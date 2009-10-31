@@ -9,7 +9,7 @@ A **Courant algebroid** is a Lie-algebriac structure encoding a [[n-symplectic m
 
 By the [[red herring principle]] what is usually called a Courant algebroid is neither an [[algebroid]] nor in fact in general a [[Lie algebroid]], but is a generalization of a [[Lie bialgebroid]]: every [[Lie bialgebroid]] induces a Courant algebroid.
 
-But, every Courant algebroid induces a [[L-infinity-algebra|Lie 3-algebra]] which is the [[string Lie 2-algebra]] if the base space is a point.
+Also, every Courant algebroid induces a [[L-infinity-algebra|Lie 3-algebra]] which is the [[string Lie 2-algebra]] if the base space is a point.
 
 The concept of Courant algebroids was originally introduced by Irene Dorfman and Ted Courant to study [[geometric quantization]] in the presence of constraints. Later it was studied by Liu, [[Alan Weinstein]] and Xu in the study of [[double Lie algebroid]]s.
 
@@ -18,10 +18,6 @@ In these parts of the literature Courant algebroids are considered in the form o
 * in one there is a skew-symmetric bracket which fails to satisfy a Jacobi identity by a coherent term -- this is the Courant bracket definition proper;
 
 * in the other there is a bracket which satisfies a Jacobi identity but is skew-symmetric only up to a correction term -- this is the Dorfman version.
-
-Another re-interpretation of Courant's original definition as an $L_\infty$-structure was recognized in _RoytenbergWeinstein98_ (see references below). Equation (9) and theorem 4.3 there gives the [[L-infinity-algebra|Lie 3-algebra]] corresponding to a Courant Lie algebroid (the way the tangent Lie algebroid gives the Lie algebra of vector fields). In this perspective the Courant Lie algebroid with base space a point is the [[string Lie 2-algebra]].
-
-This was further developed in the thesis _Roytenberg99_.
 
 So there are several different ways to present the structure encoded in a Courant algebroid. The picture that seems to be emerging is that the _true_ meaning of the notoin of Courant algebroids is given by the notion of [[n-symplectic manifold|2-symplectic manifold]]s.
 
@@ -39,7 +35,7 @@ A useful place to start reading about Courant algebroids its
 
 * [[Dmitry Roytenberg]], _On the structure of graded symplectic supermanifolds and Courant algebroids_ ([arXiv](http://arxiv.org/abs/math/0203110))
 
-This start from the perspective of [[n-symplectic manifold]]s and derives the fact that 2 2-symplectic manifold encodes and is encoded by a Courant algebroid.
+This proceeds from the perspective of [[n-symplectic manifold]]s and derives the fact that 2 2-symplectic manifold encodes and is encoded by a Courant algebroid.
 
 Another useful summary of the theory of Courant algebroids is in [section 3](http://arxiv.org/PS_cache/math/pdf/0401/0401221v1.pdf#page=19) of
 
@@ -50,9 +46,14 @@ The identification of the [[L-infinity-algebra|Lie 3-algebra]] incarnation of th
 
 * [[Dmitry Roytenberg]] and [[Alan Weinstein]], _Courant algebroids and strongly homotopy Lie algebras_ ([arXiv](http://arxiv.org/abs/math/9802118))
 
+Equation (9) and theorem 4.3 there gives the [[L-infinity-algebra|Lie 3-algebra]] corresponding to a Courant algebroid (the way the [[tangent Lie algebroid]] gives the [[Lie algebra]] of vector fields). In this perspective the Courant algebroid with base space a point is the [[string Lie 2-algebra]].
+
+This is reviewed and further developed in
+
 * [[Dmitry Roytenberg]], _Courant algebroids, derived brackets and even symplectic supermanifolds_ ([arXiv](http://arxiv.org/abs/math.DG/9910078))
 
-The relation between the two different definition of Courant algebroids, one with skew, the other with non-skew brackets inspired on the level of [[L-infinity algebra|Lie 2-algebra]]s the treatment
+
+The relation between the two different Lie-alebroid-like  definition of Courant algebroids, one with skew, the other with non-skew brackets inspired on the level of [[L-infinity algebra|Lie 2-algebra]]s the treatment
 
 * [[Dmitry Roytenberg]], _On weak Lie 2-algebras_ ([arXiv](http://arxiv.org/abs/0712.3461))
 
