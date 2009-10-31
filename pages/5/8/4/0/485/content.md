@@ -36,3 +36,4 @@ An **exact category** (in the sense of Barr) is a [[regular category]] in which 
 [[!redirects exact completion]]
 [[!redirects ex/lex completion]]
 [[!redirects effective regular category]]
+[[!redirects ex/reg completion]]
