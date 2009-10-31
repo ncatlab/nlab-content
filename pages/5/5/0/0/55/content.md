@@ -1,3 +1,7 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Definition#
 
 A _Lie algebroid_ is the [[horizontal categorification|many object version]] of a [[Lie algebra]]. It is the [[infinitesimal space|infinitesimal]] approximation to a [[Lie groupoid]].
@@ -86,6 +90,8 @@ known as the **Atiyah sequence**. For some $n$-Caf&#233; blog discussion of this
    1. In the vector bundle perspective $E = ker(\pi_*)$ is the kernel bundle of the map $\pi_* : T Y \to T X$.
 
    2. In the dual picture we have $CE(T_{vert}Y) = \Omega^\bullet_{vert}(Y)$, the [[Lie infinity-algebroid|qDGCA]] of **vertical differential forms**. This is the quotient of $\Omega^\bullet(Y)$ by the ideal of those forms which vanish when restricted in all arguments to $ker(\pi_*)$.  
+
+* Each [[Poisson manifold]] $(X,\pi)$ defines and is defined by a [[Poisson Lie algebroid]] $T^* X \stackrel{\pi}{\to} t X$. This is the degree-1 example of a more general structure described at [[n-symplectic manifold]].
 
 #Remarks#
 
