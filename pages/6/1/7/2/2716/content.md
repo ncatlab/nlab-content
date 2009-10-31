@@ -40,11 +40,9 @@ Regarded as a [[Lie algebroid]], it should by [[Lie integration]] integrate to a
 
 ## $n=2$: Courant algebroid ## 
 
-A $2$-symplectic manifold is a [[Courant algebroid]].
+A $2$-symplectic manifold encodes and is encoded by the structure of a [[Courant algebroid]].
 
-Consider first a 2-symplectic point. This is a [[semifree dga]] generated on some graded vector space $V$ and equipped with a _symmetric_ non-degenerate bilinear form on $V_1$. (An odd-graded skew form is a symmetric form!).
-
-This is essentially the [[String Lie 2-algebra]].
+Recall from the discussion there that one incarnation of this [[Courant algebroid]] is as a [[L-infinity algebra|Lie 3-algebra]]. If the base manifold is a point, then this is the [[String Lie 2-algebra]].
 
 # relation to multisymplectic geometry #
 
