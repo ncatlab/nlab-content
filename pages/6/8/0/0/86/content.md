@@ -6,21 +6,24 @@
 
 #Idea#
 
-BV theory is the answer to two different questions:
+BV theory is the answer to the second of two different questions:
 
- * **Hamiltonian BV**: taking quotients of [[Poisson manifold]]s by group actions;
+ * **Hamiltonian BFV**: taking quotients of constraint surfaces in [[Poisson manifold]]s by group actions and more generally by the foliation determined by first class constraints;
 
  * **Lagrangian BV**: integrating forms over [[NQ-supermanifolds]].
 
-##Hamiltonian BV## 
+##Hamiltonian BFV## 
 
-In this context the BV-complex is a [[homological resolution]] of the problem of taking quotients of symplectic manifolds by group actions. 
+The F is for Fradkin.
+In this context, the BFV-complex is a [[homological resolution]] of the problem of taking quotients of symplectic manifolds by group actions. 
 
 +-- {: .query}
 
 _Question_: Can you explain more about this? What do you mean by a "homological resolution of the problem"? Is there a nice example? I went over the [blog entry](http://golem.ph.utexas.edu/category/2008/07/poisson_reduction.html) but it seemed to talk about symplectic/Poisson reduction in its own right and didn't yet make the link with the BV formalism. (Bruce)
 
 =--
+
+Thanks, Bruce.  My initial edit here is just to set the record straight - BV $\neq$ BFV. Will expand further and try to answer your query. (Jim)
 
 See [[homological resolution]].
 
@@ -34,7 +37,7 @@ _Quantization of Donaldson-Uhlenbeck-Yau theory_
 
 =--
 
-
+I would hope they were related by a homological version of the usual Hamiltonian - Lagrangian correspondence.
 
 
 ### Poisson/symplectic reduction ###
@@ -52,6 +55,7 @@ _Quantization of Donaldson-Uhlenbeck-Yau theory_
 
 * Jim Stasheff, _The (secret?) homological algebra of the Batalin-Vilkovisky approach_ ([arXiv](http://arxiv.org/abs/hep-th/9712157))
 
+The latter is NOT in a Poisson context, any more than Lagrangians are only for symplectic manifolds.
 
 ##Lagrangian BV## 
 
@@ -59,6 +63,10 @@ _Quantization of Donaldson-Uhlenbeck-Yau theory_
 
 * Lagrangian BV-formalism is a means to describe 
 [[integration over supermanifolds]] for [[NQ-supermanifolds]] given by $L_\infty$-[[Lie infinity-algebroid|algebroid]]s.
+
+Maybe nowadays?, but not originally.  It was meant for
+Lagrangians with symmetries.
+
 (Recall that in the physics literture the function algebra of these [[NQ-supermanifolds]] is addressed as the [[BRST complex]].)
 
 
