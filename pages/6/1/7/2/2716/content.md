@@ -50,7 +50,7 @@ This is essentially the [[String Lie 2-algebra]].
 
 There is also the closely related notion  of [[multisymplectic geometry]]. See 
 
-  * [[John Baez]], [[Chris Rogers]], _Categorified Symplectic Geometry and the String Lie 2-Algebra_, ([arXiv](http://arxiv.org/abs/0901.4721))
+* [[John Baez]], [[Chris Rogers]], _Categorified Symplectic Geometry and the String Lie 2-Algebra_, ([arXiv](http://arxiv.org/abs/0901.4721))
 
 for some relations of this to the above situation for $n = 2$. Essentially multisymplectic geometry studies the higher $n$-ary brackets induced from the binary graded symplectic form discussed here. The relation between these two pictures is the same as that between as studied in the context of [[hemistrict Lie 2-algebra]]s.
 
