@@ -34,7 +34,7 @@ A $0$-symplectic manifold is an ordinary [[symplectic manifold]].
 
 ## $n=1$: Poisson manifold ## 
 
-A $1$-symplectic manifold is an ordinary [[Poisson manifold]].
+A $1$-symplectic manifold is, as a 1-[[Lie algebroid]], necessarily a [[Poisson Lie algebroid]]. As such it is equivalently encoded in an ordinary [[Poisson manifold]].
 
 Regarded as a [[Lie algebroid]], it should by [[Lie integration]] integrate to a [[Lie groupoid]] with extra structure. These are the [[symplectic groupoid]]s.
 
@@ -61,7 +61,12 @@ An article with more details on this by [[Chris Rogers]] is apparently in prepar
 
 The notion originates somewhere in the school of [[Alan Weinstein]]'s school of [[higher category theory|higher categorial]] [[symplectic geometry]]. The first published appearance of the notion at least for $0 \leq n \leq 3$ is
 
-* [[Dmitry Roytenberg]], _Couran algebroids, derived brackets and even symplectic supermanifolds_ PhD thesis ([arXiv](http://arxiv.org/abs/math/9910078))
+* [[Dmitry Roytenberg]], _Courant algebroids, derived brackets and even symplectic supermanifolds_ PhD thesis ([arXiv](http://arxiv.org/abs/math/9910078))
+
+A good writeup of this material is in
+
+* [[Dmitry Roytenberg]], _On the structure of graded symplectic supermanifolds and Courant algebroids_ ([arXiv](http://arxiv.org/abs/math/0203110))
+
 
 The idea for all $n$ was then sketched, together with many other ideas about [[L-infinity algebroid]]s in the article with the nice title
 
