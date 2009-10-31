@@ -5,7 +5,7 @@
 
 #Idea#
 
-A [[Poisson manifold]] may be thought of as a [[Lie algebroid]] with extra structure: called an [[n-symplectic manifold]] for $n = 1$.
+A [[Poisson manifold]] may be thought of as a [[Poisson Lie algebroid]], a [[Lie algebroid]] with extra structure: called an [[n-symplectic manifold]] for $n = 1$.
 
 By [[Lie integration]] this Lie algebroid should integrate to a [[Lie groupoid]] with extra structure. Symplectic groupoids are supposed to be these objects that integrate [[n-symplectic manifold]] aka [[Poisson manifold]]s in this sense.
 
