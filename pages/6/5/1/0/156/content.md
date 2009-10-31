@@ -14,10 +14,7 @@ Notice that the [[axiom of choice]] fails in general when one considers [[intern
 
 Define a *coskeleton* of a category $C$ to be a skeletal category $S$ with a surjective equivalence $C\to S$.  In [[Categories, Allegories]] it is shown that the following are equivalent.
 
-1. Any two ana-equivalent categories are non-ana equivalent.
-   +-- {: .query}
-   By 'non-ana' here, do we mean weakly or strongly [[equivalence of categories|equivalent]]?  ---Toby
-   =--
+1. Any two ana-equivalent categories are strongly non-ana [[equivalence of categories|equivalent]].
 1. Every small category has a skeleton.
 1. Every small category has a coskeleton.
 1. Any two skeletons of a given small category are isomorphic.
