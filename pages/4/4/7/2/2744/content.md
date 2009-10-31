@@ -10,9 +10,9 @@ It encodes aspects of [[n-symplectic manifold]]s. For the moment, see there for 
 
 In as far as [[symplectic geometry]] encodes [[Hamiltonian mechanics]], multisymplectic geometry may be regarded as resulving the symplectic geometry of the [[Hamiltonian mechanics]] of [[classical field theory]]: the kinematics of an $n$-dimensional field theory may be encoded in an degree $1+n$ higher symplectic form. Roughly the idea is that undeer a suitable fiber integration this becomes an ordinary symplectic form on the ordinary phase space of the theory.
 
-This is similar to, and in fact a special case of, how for instance a [[line bundle]] on a [[loop space]] with a 2-form [[Chern class]] may arise by [[trasgression]] from a [[bundle gerbe]] down on the original space, with a 3-form class.
+This is similar to, and in fact a special case of, how for instance a [[line bundle]] on a [[loop space]] with a 2-form [[Chern class]] may arise by [[transgression]] from a [[bundle gerbe]] down on the original space, with a 3-form class.
 
-By effectively undoing this implicit transgression in the ordinary [[Hamiltonian mechanic]]s of [[classical field theory]], multisymplectic geomtry provides a general framework for a geometric, covariant formulation of [[classical field theory]], where _covariant formulation_ means that spacelike and timelike directions on a given space-time be treated on equal footing. 
+By effectively undoing this implicit transgression in the ordinary [[Hamiltonian mechanics]] of [[classical field theory]], multisymplectic geomtry provides a general framework for a geometric, covariant formulation of [[classical field theory]], where _covariant formulation_ means that spacelike and timelike directions on a given space-time be treated on equal footing. 
 
 # Survey of developments in the field#
 
@@ -42,56 +42,56 @@ References mentioned above are
 
 * [1] J. Kijowski, W. Szczyrba, _A Canonical Structure For Classical Field Theories_ . Commun. Math. Phys. 46 (1976) 183.
 
-* [2] M. J. Gotay, J. Isenberg, J. E. Marsden: _Momentum maps and classical relativistic fields. I: Covariant field theory_ [arXiv:physics/9801019v2].
+* [2] M. J. Gotay, J. Isenberg, J. E. Marsden: _Momentum maps and classical relativistic fields. I: Covariant field theory_ [arXiv:physics/9801019v2](http://arxiv.org/abs/physics/9801019v2).
 
 * [3] M. J. Gotay, _A multisymplectic framework for classical field theory and the calculus of variations. I: Covariant Hamiltonian formalism_ 
-In M. Francaviglia (ed.), _Mechanics, analysis and geometry: 200 years after Lagrange_ Amsterdam etc.: North-Holland (1991), 203-235.
+In M. Francaviglia (ed.), _Mechanics, analysis and geometry: 200 years after Lagrange_ Amsterdam etc.: North-Holland (1991), 203--235.
 
-* [4] M. de Leon, D. Martin de Diego, A. Santamaria-Merino, _Symmetries in Classical Field Theory_ [arXiv:math-ph/0404013].
+* [4] M. de Leon, D. Martin de Diego, A. Santamaria-Merino, _Symmetries in Classical Field Theory_ [arXiv:math-ph/0404013](http://arxiv.org/abs/math-ph/0404013).
 
-* [5] M. J. Gotay, J. E. Marsden: _Stress-energy-momentum tensors and the Belinfante-Rosenfeld formula_ Contemp. Math. vol. 132, AMS, Providence, 1992, 367-392.
+* [5] M. J. Gotay, J. E. Marsden: _Stress-energy-momentum tensors and the Belinfante--Rosenfeld formula_ Contemp. Math. vol. 132, AMS, Providence, 1992, 367--392.
 
-* [6] M. Forger, H. R&#246;mer, _Currents and the energy-momentum tensor in classical field theory: a fresh look at an old problem_ Ann. Phys. (N.Y.) 309 (2004) 306-389. [arXiv:hep-th/0307199].
+* [6] M. Forger, H. R&#246;mer, _Currents and the energy-momentum tensor in classical field theory: a fresh look at an old problem_ Ann. Phys. (N.Y.) 309 (2004) 306--389. [arXiv:hep-th/0307199](http://arxiv.org/abs/hep-th/0307199).
 
 * [7] A. Lew, J. E. Marsden, M. Ortiz, M. West, _An overview of variational integrators_
 In L. P. Franca (ed.), Finite Element Methods: 70's and Beyond. Barcelona (2003).
 
-* [8] C. Paufler, H. R&#246;mer, _The Geometry of Hamiltonian n-vector fields in Multisymplectic Field Theory_ J. Geom. Phys. 44, No.1(2002), 52-69. [arXiv: math-ph/0102008].
+* [8] C. Paufler, H. R&#246;mer, _The Geometry of Hamiltonian $n$-vector fields in Multisymplectic Field Theory_ J. Geom. Phys. 44, No.1(2002), 52--69. [arXiv:math-ph/0102008](http://arxiv.org/abs/math-ph/0102008).
 
-* [9]Y. Kosmann-Schwarzbach: Derived brackets. Lett. Math. Phys. 69 (2004) 61-87 [arXiv:math.DG/0312524].
+* [9] Y. Kosmann-Schwarzbach: Derived brackets. Lett. Math. Phys. 69 (2004) 61--87 [arXiv:math.DG/0312524](http://arxiv.org/abs/math.DG/0312524).
 
-[10] M. Forger, C. Paufler, H. R&#246;mer: _The Poisson Bracket for Poisson Forms in Multisymplectic Field Theory_ Rev. Math. Phys. 15 (2003) 705 [arXiv:math-ph/0202043].
+* [10] M. Forger, C. Paufler, H. R&#246;mer: _The Poisson Bracket for Poisson Forms in Multisymplectic Field Theory_ Rev. Math. Phys. 15 (2003) 705 [arXiv:math-ph/0202043](http://arxiv.org/abs/math-ph/0202043).
 
-* [10] M. Forger, C. Paufler, H. R&#246;mer, _Hamiltonian Multivector Fields and Poisson Forms in Multisymplectic Field Theory_ [arXiv:math-ph/0407057].
+* [10] M. Forger, C. Paufler, H. R&#246;mer, _Hamiltonian Multivector Fields and Poisson Forms in Multisymplectic Field Theory_ [arXiv:math-ph/0407057](http://arxiv.org/abs/math-ph/0407057).
 
-* [11] M. J. Gotay, _A multisymplectic framework for classical field theory and the calculus of variations. II: Space + time decomposition_ Differ. Geom. Appl. 1(4) (1991), 375-390.
+* [11] M. J. Gotay, _A multisymplectic framework for classical field theory and the calculus of variations. II: Space + time decomposition_ Differ. Geom. Appl. 1(4) (1991), 375--390.
 
 * [12] M. O. Salles, _Campos Hamiltonianos e Colchete de Poisson na Teoria Geom&#233;trica dos Campos_ , PhD thesis, IME-USP, June 2004.
 
-* M. Forger, S. V. Romero, _Covariant Poisson Brackets in Geometric Field Theory_ Commun. Math. Phys. 256 (2005), 375-410. [arXiv:math-ph/0408008].
+* M. Forger, S. V. Romero, _Covariant Poisson Brackets in Geometric Field Theory_ Commun. Math. Phys. 256 (2005), 375--410. [arXiv:math-ph/0408008](http://arxiv.org/abs/math-ph/0408008).
 
 * [13] M. J. Gotay, J. M. Nester, _Generalized constraint algorithm and special presymplectic manifolds_
-In G. E. Kaiser, J. E. Marsden, Geometric methods in mathematical physics, Proc. NSF-CBMS Conf., Lowell/Mass. 1979, Berlin: Springer-Verlag, Lect. Notes Math. 775 (1980) 78-80.
+In G. E. Kaiser, J. E. Marsden, Geometric methods in mathematical physics, Proc. NSF-CBMS Conf., Lowell/Mass. 1979, Berlin: Springer-Verlag, Lect. Notes Math. 775 (1980) 78--80.
 
 * [14] P. A. M. Dirac, _Lectures on Quantum Mechanic_ Belfer Graduate School of Science, Yeshiva University, N.Y., 1964.
 
-[15] M. Henneaux, C. Teitelboim, _Quantization of Gauge systems_ Princeton University Press, 1992.
+* [15] M. Henneaux, C. Teitelboim, _Quantization of Gauge systems_ Princeton University Press, 1992.
 
-* [16] M. J. Gotay, J. Isenberg, J. E. Marsden, R. Montgomery, _Momentum Maps and Classical Relativistic Fields II: Canonical Analysis of Field Theories_ (2004) [arXiv:math-ph/0411032].
+* [16] M. J. Gotay, J. Isenberg, J. E. Marsden, R. Montgomery, _Momentum Maps and Classical Relativistic Fields II: Canonical Analysis of Field Theories_ (2004) [arXiv:math-ph/0411032](http://arxiv.org/abs/math-ph/0411032).
 
-* [17] N. P. Landsman, _Against the Wheeler-DeWitt equation_ Class. Quan. Grav. 12 (1995) L119-L124. [arXiv:gr-qc/9510033].
+* [17] N. P. Landsman, _Against the Wheeler-DeWitt equation_ Class. Quan. Grav. 12 (1995) L119-L124. [arXiv:gr-qc/9510033](http://arxiv.org/abs/gr-qc/9510033).
 
-* [18] J. E. Marsden, A. Weinstein _Reduction of symplectic manifolds with symmetry_ Rept. Math. Phys. 5 (1974) 121-130.
+* [18] J. E. Marsden, A. Weinstein _Reduction of symplectic manifolds with symmetry_ Rept. Math. Phys. 5 (1974) 121--130.
 
-* [19] F. Munteanu, A. M. Rey, M. Salgado, _The G&#252;nther's formalism in classical field theory: momentum map and reduction_ J. Math. Phys. 45, No. 5 (2004) 1730-1750.
+* [19] F. Munteanu, A. M. Rey, M. Salgado, _The G&#252;nther's formalism in classical field theory: momentum map and reduction_ J. Math. Phys. 45, No. 5 (2004) 1730--1750.
 
 * [20] D. Bashkirov, G. Sardanashvily, _Covariant Hamiltonian Field Theory. Path Integral Quantization_
-[arXiv:hep-th/0402057].
+[arXiv:hep-th/0402057](http://arxiv.org/abs/hep-th/0402057).
 
-* [21]D. J. Saunders, _The Geometry of Jet Bundles_ Lond. Math. Soc. Lect. Notes Ser. 142, Cambr. Univ. Pr., Cambridge, 1989.
+* [21] D. J. Saunders, _The Geometry of Jet Bundles_ Lond. Math. Soc. Lect. Notes Ser. 142, Cambr. Univ. Pr., Cambridge, 1989.
 
 A [[higher category theory|higher categorial]] interpretation of 2-plectic geometry is given in
 
-* [[John Baez]], [[Chris Rogers]], _Categorified Symplectic Geometry and the String Lie 2-Algebra_ ([arXiv](http://arxiv.org/abs/0901.4721))
+* [[John Baez]], [[Chris Rogers]], _Categorified Symplectic Geometry and the String Lie 2-Algebra_. [arXiv:0901.4721](http://arxiv.org/abs/0901.4721).
 
 This builds a bridge to the notion of [[n-symplectic manifold]]s.
