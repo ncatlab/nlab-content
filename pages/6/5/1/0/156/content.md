@@ -10,11 +10,20 @@ _Mike_: It would be interesting to know the precise strength of the statement "e
 
 Notice that the [[axiom of choice]] fails in general when one considers [[internal category|internal categories]].  Hence not every [[internal category]] has a skeleton.
 
-According to [[Peter Johnstone]] in an email to the categories list dated 23 Sep 2009, [[Peter Freyd]] has with some ingenuity shown (unpublished?) that in addition to "every small category has a skeleton," the following two statements are also equivalent to the axiom of choice:
+## Equivalents of choice
 
-1. A small category is equivalent to any of its skeletons.
+Define a *coskeleton* of a category $C$ to be a skeletal category $S$ with a surjective equivalence $C\to S$.  In [[Categories, Allegories]] it is shown that the following are equivalent.
+
+1. Any two ana-equivalent categories are non-ana equivalent.
+1. Every small category has a skeleton.
+1. Every small category has a coskeleton.
 1. Any two skeletons of a given small category are isomorphic.
+1. Any two coskeletons of a given small category are isomorphic.
 
+For convenience we add:
+
+1. Given a non-empty family $\{S_i\}_I$ of equinumerous sets there exists $0 \in I$  and a family of isomorphisms of the permutation groups $\{Aut(S_0) \to Aut(S_i)\}_I$.
+1. Given a family $\{S_i\}_I$ of non-empty equinumerous sets, there exists a family $(x_i)_I$ such that $x_i \in S_i$ for all $i in I$.
 
 [[!redirects skeleta]]
 [[!redirects skeletons]]
