@@ -13,3 +13,5 @@ The circularity of this definition is unavoidable in foundational [[set theories
 
 
 [[!redirects member]]
+[[!redirects elements]]
+[[!redirects members]]
