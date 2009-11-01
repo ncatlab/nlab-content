@@ -1,3 +1,1 @@
-34534535
-
-category: spam
+&lt; [[triadic relation"]]
