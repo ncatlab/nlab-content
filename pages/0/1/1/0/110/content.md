@@ -6,4 +6,7 @@ The most familiar example is the category [[Set]], where the objects are sets an
 
 More generally, a morphism is what goes between objects in any [[n-category]].
 
+
 [[!redirects morphisms]]
+[[!redirects Morphism]]
+[[!redirects Morphisms]]
