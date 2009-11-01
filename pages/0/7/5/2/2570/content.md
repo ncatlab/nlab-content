@@ -41,8 +41,99 @@ where $\delta_{m, n}$ is the [[Kronecker delta]].
 
 ## Application to non-bases
 
-If we apply the Gram--Schmidt process to a well-ordered independent set whose closed linear span $S$ is *not* all of $H$, we still get an orthonormal basis of the subspace $S$.  If we apply the Gram--Schmidt process to a dependent set, then we will eventually run into a vector $v$ whose norm is zero, so we will not be able to take $N(v)$.  In that case, however, we can simply remove $v$ from the set and continue; then we will still get an orthonormal basis of the closed linear span.  (This conclusion is not generally valid in [[constructive mathematics]], since it relies on [[excluded middle]] applied to the statement that $\|v\| \neq 0$.  However, it does work to [[discrete fields]], such as the algebraic closure of the rationals, as seen in elementary undergraduate linear algebra.)
+If we apply the Gram--Schmidt process to a well-ordered independent set whose closed linear span $S$ is *not* all of $H$, we still get an orthonormal basis of the subspace $S$.  If we apply the Gram--Schmidt process to a dependent set, then we will eventually run into a vector $v$ whose norm is zero, so we will not be able to take $N(v)$.  In that case, however, we can simply remove $v$ from the set and continue; then we will still get an orthonormal basis of the closed linear span.  (This conclusion is not generally valid in [[constructive mathematics]], since it relies on [[excluded middle]] applied to the statement that $\|v\| \neq 0$.  However, it does work to [[discrete fields]], such as the algebraic closure of the rationals, as seen in elementary undergraduate linear algebra.) 
 
+## Categorified Gram-Schmidt process 
+
+Many aspects of the Gram-Schmidt process can be categorified so as to apply to 2-Hilbert spaces. We will illustrate the basic idea with an example that was suggested to us by James Dolan. 
+
+Consider the category of complex representations of the symmetric group $S_n$. (As a running example, we consider $S_4$; up to isomorphism, there are five irreducible representations 
+
+$$V_{(4)}, \, V_{(3 1)}, \, V_{(2 2)}, \, V_{(2 1 1)}, \, V_{(1 1 1 1)}$$ 
+
+classified by five Young diagrams.) The irreducible representations of $S_n$ form a 2-orthonormal basis in the sense that any two of them $V_i, V_j$ satisfy the relation 
+
+$$hom(V_i, V_j) \cong \delta_{i j} \cdot \mathbb{C}$$ 
+
+(where $n \cdot \mathbb{C}$ indicates a coproduct of $n$ copies of $\mathbb{C}$). In fact, the irreducible representations are uniquely determined up to isomorphism by these relations. 
+
+There is however another way of associating representations to partitions or Young diagrams. Namely, consider the subgroup of permutations which take each row of a Young diagram or Young tableau to itself; this forms a parabolic subgroup of $S_n$, conjugate to one of type $P_{(n_1 \ldots n_k)} = S_{n_1} \times \ldots \times S_{n_k}$ where $n_1 + \ldots + n_k = n$. The group $S_n$ acts transitively on the orbit space of cosets 
+
+$$S_n/P_{(n_1 \ldots n_k)}$$ 
+
+and these actions give permutation representations of $S_n$. Equivalently, these are representations which are induced from the trivial representation along inclusions of parabolic subgroups. We claim that these representations form a $\mathbb{Z}$-basis of the representation ring, and we calculate their characters using a categorified Gram-Schmidt process. 
+
+Given two such parabolic subgroups $P$, $Q$ in $G = S_n$, the 2-inner product 
+
+$$hom_G(\mathbb{C}[G/P], \mathbb{C}[G/Q])$$ 
+
+may be identified with the free vector space on the set of double cosets $P\backslash G/Q$. One may count the number of double cosets by hand in a simple case like $G = S_4$; the numbers form a matrix as follows (where the order of top-down and left-right follows the order of the 5 partitions listed above): 
+
+$$\array \left( 
+{1 & 1 & 1 & 1 & 1 \\
+1 & 2 & 2 & 3 & 4 \\
+1 & 2 & 3 & 4 & 6 \\
+1 & 3 & 4 & 7 & 12 \\
+1 & 4 & 6 & 12 & 24
+}\right)
+$$
+
+To reiterate: this matrix is the decategorification (a matrix of dimensions) of a matrix of 2-inner products where the $(i j)$-entry is of the form 
+
+$$hom_G(V_i, V_j) \cong V_i^* \otimes_G V_j$$ 
+
+where the $V_i$ are induced from inclusions of parabolic subgroups. The $V_i$ are $\mathbb{N}$-linear combinations of irreducible representations $U_i$ which form a 2-orthonormal basis, and we may perform a series of 
+elementary row operations which convert this matrix into upper triangular form, and which will turn out to be the decategorified form of the matrix with entries 
+
+$$hom_G(U_i, V_j) \cong U_i^* \otimes_G V_j$$ 
+
+where $U_i$ is the irreducible corresponding to the $i^{th}$ Young diagram (in the order they were listed above). The triangular form is 
+
+$$\array \left( 
+{1 & 1 & 1 & 1 & 1 \\
+0 & 1 & 1 & 2 & 3 \\
+0 & 0 & 1 & 1 & 2 \\
+0 & 0 & 0 & 1 & 3 \\
+0 & 0 & 0 & 0 & 1} \right)
+$$
+
+and we read off from the columns the following decompositions into irreducible components: 
+
+$$V_1 \cong U_1$$ 
+
+$$V_2 \cong U_1 + U_2$$ 
+
+$$V_3 \cong U_1 + U_2 + U_3$$ 
+
+$$V_4 \cong U_1 + 2\cdot U_2 + U_3 + U_4$$ 
+
+$$V_5 \cong U_1 + 3\cdot U_2 + 2\cdot U_3 + 3\cdot U_4 + U_5$$ 
+
+The last representation $V_5$ is the regular representation, and as a by-product we read off the dimensions of the $U_i$ from their coefficients in the expression for $V_5$. The row operations themselves can be assembled as the lower triangular matrix 
+
+$$\array \left( 
+{1 & 0 & 0 & 0 & 0 \\
+-1 & 1 & 0 & 0 & 0 \\
+0 & -1 & 1 & 0 & 0 \\
+1 & -1 & -1 & 1 & 0 \\
+2 & -1 & -2 & 0 & 1 }
+\right)$$ 
+
+and we read off the irreducible representations as "virtual" (i.e., $\mathbb{Z}$-linear) combinations of the parabolically induced representations $V_i$: 
+
+$$U_1 \cong V_1$$ 
+
+$$U_2 \cong -V_1 + V_2$$ 
+
+$$U_3 \cong -V_2 + V_3$$ 
+
+$$U_4 \cong V_1 - V_2 - V_3 + V_4$$ 
+
+$$U_5 \cong 2\cdot V_1 - V_2 - 2\cdot V_3 + V_5$$ 
+
+which can be considered the result of the categorified Gram-Schmidt process. 
+
+It follows from these representations that the $V_i$ form a $\mathbb{Z}$-linear basis of the representation ring $Rep(S_4)$. Analogous statements hold for all symmetric group $S_n$. 
 
 [[!redirects Gram–Schmidt process]]
 [[!redirects Gram--Schmidt process]]
