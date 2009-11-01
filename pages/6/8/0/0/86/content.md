@@ -21,9 +21,9 @@ In this context, the BFV-complex is a [[homological resolution]] of the problem 
 
 _Question_: Can you explain more about this? What do you mean by a "homological resolution of the problem"? Is there a nice example? I went over the [blog entry](http://golem.ph.utexas.edu/category/2008/07/poisson_reduction.html) but it seemed to talk about symplectic/Poisson reduction in its own right and didn't yet make the link with the BV formalism. (Bruce)
 
-=--
+(Jim)  Thanks, Bruce.  My initial edit here is just to set the record straight - BV $\neq$ BFV. Will expand further and try to answer your query.
 
-Thanks, Bruce.  My initial edit here is just to set the record straight - BV $\neq$ BFV. Will expand further and try to answer your query. (Jim)
+=--
 
 See [[homological resolution]].
 
@@ -35,9 +35,9 @@ _Urs says:_ I have (only) a vague hunch that Lagrangian and Hamiltonian BV are r
 _Quantization of Donaldson-Uhlenbeck-Yau theory_
 [arXiv](http://arxiv.org/abs/0705.1871), which I talk about at the end of [this](http://golem.ph.utexas.edu/category/2007/08/lyakhonov_and_sharapov_on_qft.html).
 
-=--
+(Jim)  I would hope they were related by a homological version of the usual Hamiltonian - Lagrangian correspondence.
 
-I would hope they were related by a homological version of the usual Hamiltonian - Lagrangian correspondence.
+=--
 
 
 ### Poisson/symplectic reduction ###
@@ -63,11 +63,11 @@ The latter is NOT in a Poisson context, any more than Lagrangians are only for s
 
 * Lagrangian BV-formalism is a means to describe 
 [[integration over supermanifolds]] for [[NQ-supermanifolds]] given by $L_\infty$-[[Lie infinity-algebroid|algebroid]]s.
-
-Maybe nowadays?, but not originally.  It was meant for
-Lagrangians with symmetries.
-
-(Recall that in the physics literture the function algebra of these [[NQ-supermanifolds]] is addressed as the [[BRST complex]].)
+  +-- {: .query}
+  Maybe nowadays?, but not originally.  It was meant for
+  Lagrangians with symmetries.
+  =--
+  (Recall that in the physics literture the function algebra of these [[NQ-supermanifolds]] is addressed as the [[BRST complex]].)
 
 
 
