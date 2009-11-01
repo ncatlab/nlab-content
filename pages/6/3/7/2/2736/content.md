@@ -39,7 +39,7 @@ arbitrary (but small) [[products]]
 
 #### Equalizers
 
-The [[equalizer]] of two functions of sets is the subset of elements on which both functions coincide, i.e.
+The [[equalizer]] of two [[parallel morphisms|parallel functions]] $f,g:X\to Y$ is the subset of $X$ on which both functions coincide, i.e.
 
 $$
   Eq(f,g)
@@ -55,7 +55,7 @@ Why?
 
 #### Pullbacks
 
-The [[pullback]] of two functions of sets is the set of pairs (x, y) such that f(x)=g(y).
+The [[pullback]] of two functions of sets is the set of pairs $(x,y)$ such that $f(x)=g(y)$.
 
 Why?
 
