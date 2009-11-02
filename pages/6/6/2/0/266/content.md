@@ -162,6 +162,10 @@ This version of the definition clearly makes sense in any [[2-category]].
 While this property is implied by the above global definition, it does not itself imply the global definition. For emphasis this definition here is sometimes called a **weak Kan extension** instead. See also the comment in the following section.
 =--
 
++--{: .query}
+[[Mike Shulman]]: Wait, what?  It looks to me like this version of the definition is exactly equivalent to what is called the "global" definition above, though both are weaker than the ones below that use pointwise colimits.  Am I missing something?
+=--
+
 
 ### Local: pointwise in terms of weighted (co)limits ##
 
