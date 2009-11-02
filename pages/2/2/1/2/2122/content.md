@@ -18,7 +18,9 @@ We can import new entries by looking at [category:category](http://ncatlab.org/n
 
 * $Mod_R$: (right) $R$-[[modules]] as objects, $R$-module homomorphisms as morphisms.  There is one such category for any [[ring]] $R$ (or more generally, any small [[Ab-enriched category]].  This is also the category of models of a [[Lawvere theory]] and is thus complete and cocomplete.  It is an [[abelian category]] and even [[Grothendieck category]].  If $R$ is commutative, then $Mod_R$ is a [[closed symmetric monoidal category]] under the [[tensor product]] of $R$-modules.
 
-* [[M-Set]]: Category of multisets...
+* [[M-Set]]: Category of $M$-sets, a [[topos]].
+
+* [[MultiSet]]: Category of [[multisets]].
 
 * [[Rel]]: [[sets]] as objects, [[relation|relations]] as morphisms.  This is an [[allegory]] and therefore a [[dagger category]].   The empty set is an [[zero object]], and disjoint union plays the role of [[biproduct]].   This category does not have [[equalizer|equalizers]] or [[coequalizer|coequalizers]].
 
@@ -35,6 +37,8 @@ This has the following properties:
   * It is [[well-pointed topos|well-pointed]].
 
   At least assuming [[classical logic]], these properties suffice to characterize $Set$ uniquely up to equivalence among all categories.  Note, however, that the definitions of "locally small" and "(co)complete" presuppose a notion of _small_ and therefore a knowledge of what a _set_ is.
+
+  See also [[Understanding Set]].
 
 * [[Top]]: [[topological space]]s as objects, continuous functions as morphisms.   This has all small limits and colimits, but is not cartesian closed --- a problem that may be addressed by introducing a [[convenient category of topological spaces]].
 
