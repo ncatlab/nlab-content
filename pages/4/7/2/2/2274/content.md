@@ -1,3 +1,7 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 A _Grothendieck connection_ $\nabla$ is a way to encode the parallel transport of a _flat_ [[connection on a bundle|connection]] along [[infinitesimal object|infinitesimal]] paths.
