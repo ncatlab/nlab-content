@@ -16,19 +16,31 @@ See [[Understanding Constructions in Categories]]
 
 #### Terminal Object
 
-Any [[singleton]] (a one-element set) is a [[terminal object]] in $Set$.  To be definite, let $\bullet$ be a singleton, and let $*$ be the element of $\bullet$.
++-- {: .standout}
+Any [[singleton]] (a one-element set) is a [[terminal object]] in $Set$.
+=--
 
-To prove this, let $C$ be any set (any object).  Then there is a function $!_C\colon C \to \bullet$, defined by
-$$ !_C(z) = * $$
+To prove this, let $C$ be any set, let $\bullet$ be a singleton, and let $*$ be the element of $\bullet$.
+
+Then there is a unique function $!\colon C \to \bullet$, defined by
+$$ !(z) = * $$
 for any element $z$ of $C$.
 
-Now let $v\colon C \to \bullet$ be any function (any morphism).  Notice that, for any element $z$ of $C$, $v(z) = *$ since every element of $\bullet$ is equal to $*$.  Then
-$$ v(z) = * = !_C(z) $$
-for any element $z$ of $C$, so $v = !_C$.
+Now let $\bullet'$ be another singleton with element $*'$ and $f:\bullet'\to\bullet$ be the obvious bijection $f(*') = *$, and $!'\colon C \to \bullet'$ be any function. Then
+$$ f\circ !'(z) = * = !(z)$$
+for any element $z$ of $C$, so $! = f\circ !'$.
 
-Therefore, $\bullet$ is a terminal object in $Set$.
++--{.query}
+[[Eric]]: How is this this universal cone over the empty diagram?
+=--
+
+Therefore, any singleton is a terminal object in $Set$.
 
 #### Binary Products
+
++--{: .standout}
+The [[cartesian product]] is the [[product]] in $Set$.
+=--
 
 Given two sets $A$ and $B$, recall that the [[cartesian product]] $A \times B$ of $A$ and $B$ is the set of [[ordered pairs]] $\langle{x,y}\rangle$ for $x$ in $A$ and $y$ in $B$.  There is a [[product]] of $A$ and $B$ in $Set$ that consists of
 *  $A \times B$,
