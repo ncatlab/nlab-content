@@ -22,19 +22,28 @@ Any [[singleton]] (a one-element set) is a [[terminal object]] in $Set$.
 
 To prove this, let $C$ be any set, let $\bullet$ be a singleton, and let $*$ be the element of $\bullet$.
 
-Then there is a unique function $!\colon C \to \bullet$, defined by
-$$ !(z) = * $$
+Then there is a unique function ${!}\colon C \to \bullet$, defined by
+$$ {!}(z) = * $$
 for any element $z$ of $C$.
 
-Now let $\bullet'$ be another singleton with element $*'$ and $f:\bullet'\to\bullet$ be the obvious bijection $f(*') = *$, and $!'\colon C \to \bullet'$ be any function. Then
-$$ f\circ !'(z) = * = !(z)$$
-for any element $z$ of $C$, so $! = f\circ !'$.
+Therefore, any singleton is a terminal object in $Set$.
+
+Now let $\bullet'$ be another singleton with element $*'$ and $f:\bullet'\to\bullet$ be the obvious bijection $f(*') = *$, and ${!}'\colon C \to \bullet'$ be any function. Then
+$$ f\circ {!}'(z) = * = {!}(z)$$
+for any element $z$ of $C$, so ${!} = f\circ {!}'$.
 
 +--{.query}
 [[Eric]]: How is this this universal cone over the empty diagram?
-=--
 
-Therefore, any singleton is a terminal object in $Set$.
+_Toby_:  It seems to me that this is really a question about terminal objects in general than about terminal objects in $Set$.  A cone over the empty diagram is simply an object, and a morphism of cones over the empty diagram is simply a morphism.  A universal cone over a diagram $J$ is a cone $T$ over $J$ such that, given any cone $C$, there is a unique cone morphism from $C$ to $T$.  So a univeral cone over the empty diagram is an object $T$ such that, given any object $C$, there is a unique morphism from $C$ to $T$.  In other words, a universal cone over the empty diagram is a terminal object.
+
+I don\'t see the point of the last paragraph before this query box.  Already at the end of the previous paragraph, we\'ve proved that $\bullet$ is a terminal object, since there is a unique function (morphism) to $\bullet$ from any set (object) $C$.  It almost looks like you wrote that paragraph by modifying the paragraph that *I* had written in that place, but that paragraph did something different: it proved that ${!}$ was unique.  Apparently, you thought that this was obvious, since you simply added the word 'unique' to the previous paragraph.
+
+Alternatively, if you *want* to keep a paragraph that proves unicity, then you can remove 'unique' and rewrite my original unicity proof in terminology more like yours, as follows:
+> Now let ${!}'\colon C \to \bullet$ be any function. Then
+> $$ {!}'(z) = * = {!}(z)$$
+> for any element $z$ of $C$, so ${!}' = {!}$.
+=--
 
 #### Binary Products
 
