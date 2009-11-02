@@ -1,6 +1,11 @@
 
 This entry describes special methods for the construction of  fibrant replacements in the standard [[model structure on simplicial sets]].
 
+
+#Contents#
+* automatic table of contents
+{:toc}
+
 # Idea #
 
 In as far as we may think of [[simplicial set]]s having some suitable properties as a [[simplicial model for weak ∞-categories]] (for instance for [[quasi-category|quasi-categories]]) and of a simplicial set that has the property of being a [[Kan complex]] as an [[∞-groupoid]], _Kan fibrant replacement_ of simplicial sets is the operation of _$\infty$-groupoidification_ in that it sends an $\infty$-category to the $\infty$-groupoid obtained by freely inverting all its non-invertible [[k-morphism]]s.
