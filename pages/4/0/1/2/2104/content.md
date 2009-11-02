@@ -19,3 +19,5 @@ In view of this, quantization is often understood as a [[retraction|right invers
 * [[path integral]]
 
 * [[exercise in groupoidification - the path integral]]
+
+A process supposed to be reverse to quantization is taking the [[classical limit]].
