@@ -51,3 +51,6 @@ L (\langle \id_X , \id_X \rangle) \circ \epsilon_{X \times X} =\\
 
 }
 $$ 
+
+
+category: meta
