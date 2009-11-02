@@ -77,3 +77,10 @@ What we call $n$-symplectic manifold here is called $\Sigma_n$-manifold there.
 > _Toby_:  What if you changed the numbering by $1$?  Must your $n$ match the $n$ in $\Sigma_n$?
 
 > Urs: I thought of that, but then I found it weird to have a numbering system that claims that ordinary Poisson geometry is a "2-" and hence supposed a categorified thing. In $\Sigma_n$-terminology the $n$ is indeed the degree of the Lie n-algebroid. That seems worthwhile to keep.
+
+
+**Warning** This article here uses the term "$n$-symplectic" in a related but not identical sense to the one used here:
+
+* M. de Leon, D. Martin de Diego, M. Salgado, S. Vilari&#241;o, _K-symplectic formalism on Lie algebroids_ ([arXiv](http://lanl.arxiv.org/abs/0905.4585))
+
+> [[Urs Schreiber]]: I need to have a closer look at that one. Might be closer to the stuff described at [[multisymplectic geometry]], which of course is closely related to the stuff here, only that here the higher categorical/graded structure is more emphasized.
