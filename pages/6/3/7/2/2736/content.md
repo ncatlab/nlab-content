@@ -1,4 +1,3 @@
-[[!redirects Understanding Constructions on Set]]
 
 See [[Understanding Constructions in Categories]]
 
@@ -142,3 +141,7 @@ arbitrary (but small) [[coproducts]]
 
 
 [[!redirects Understanding Set]]
+[[!redirects Understanding Constructions on Set]]
+[[!redirects understanding constructions in Set]]
+[[!redirects understanding Set]]
+[[!redirects understanding constructions on Set]]
