@@ -112,9 +112,9 @@ $$V_2 \cong U_1 + U_2$$
 
 $$V_3 \cong U_1 + U_2 + U_3$$ 
 
-$$V_4 \cong U_1 + 2\cdot U_2 + U_3 + U_4$$ 
+$$V_4 \cong U_1 + 2 U_2 + U_3 + U_4$$ 
 
-$$V_5 \cong U_1 + 3\cdot U_2 + 2\cdot U_3 + 3\cdot U_4 + U_5$$ 
+$$V_5 \cong U_1 + 3 U_2 + 2 U_3 + 3 U_4 + U_5$$ 
 
 The last representation $V_5$ is the regular representation of $S_4$ (because the parabolic subgroup is trivial). Since we know from general theory that the multiplicity of the irreducible $U_i$ in the regular representation is its dimension, we get as a by-product the dimensions of the $U_i$ from the expression for $V_5$: 
 
@@ -142,7 +142,7 @@ $$U_3 \cong -V_2 + V_3$$
 
 $$U_4 \cong V_1 - V_2 - V_3 + V_4$$ 
 
-$$U_5 \cong 2\cdot V_1 - V_2 - 2\cdot V_3 + V_5$$ 
+$$U_5 \cong 2 V_1 - V_2 - 2 V_3 + V_5$$ 
 
 which can be considered the result of the categorified Gram--Schmidt process. 
 
