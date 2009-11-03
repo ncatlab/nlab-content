@@ -1,0 +1,1 @@
+In [[Set]], the [[initial algebra]] for the functor $F: X \to 1 + X$ is $\langle 0, s \rangle : 1 + \mathbb{N} \to \mathbb{N}$. The principle of induction states that there is no proper subalgebra of $\mathbb{N}$. This follows from the general property of initial objects that monomorphisms to them are isonomorphisms.
