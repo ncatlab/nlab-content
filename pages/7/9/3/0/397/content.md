@@ -102,6 +102,7 @@ Here is a list of people who have contributed content to the nLab (or, failing t
 * [[Vaughan Pratt]]
 * [[Victor Porton]]
 * [[Vishal Lama]]
+* [[ViV]]
 * [[Yury Lifshits]]
 * [[Zoran Škoda]]
 
