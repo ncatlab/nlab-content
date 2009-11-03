@@ -86,3 +86,4 @@ Most of the preceding makes sense in any [[category]] with enough [[product]]s; 
 
 [[!redirects relations]]
 [[!redirects binary relation]]
+[[!redirects binary relations]]
