@@ -1,15 +1,17 @@
 [[!redirects co-H-object]]
 [[!redirects cogroup]]
 
-#cogroup object#
+#Cogroup objects#
 * automatic table of contents goes here
 {:toc}
 
+
 ## Idea ##
 
-Sort of dual to [[group objects]] are **cogroup objects**.  The defining property of a cogroup object is that morphisms **out** of it form a group.  Specifically, if $C$ is a category then $G$ is a cogroup object in $C$ if $\operatorname{Hom}(G,X)$ is a group for any object $X$ in $C$ (and the group structure must be natural in $X$).
+**Cogroup objects** are sort of dual to [[group objects]].  The defining property of a cogroup object is that morphisms *out* of it form a [[group]].  Specifically, if $C$ is a category, then $G$ is a cogroup object in $C$ if $\operatorname{Hom}(G,X)$ is a group for any object $X$ in $C$ (and the group structure must be natural in $X$).
 
-There are many examples of cogroups objects.  Perhaps the most well-known are the spheres in the homotopy category of based topological spaces, $\operatorname{hTop}$.  Then the fact that $S^n$ is a cogroup object in $\operatorname{hTop}$ is precisely the statement that $\pi_n(X)$ is a group, naturally in $X$, for all topological spaces $X$.
+There are many examples of cogroup objects.  Perhaps the most well-known are the [[sphere]]s in the homotopy category of based topological spaces, $\operatorname{hTop}_*$.  Then the fact that $S^n$ is a cogroup object in $\operatorname{hTop}$ is precisely the statement that the [[homotopy group]] $\pi_n(X)$ is a group, naturally in $X$, for all topological spaces $X$.  (Note that this fails for $n = 0$.)
+
 
 ## Definition ##
 
@@ -17,39 +19,42 @@ The basic definition is as follows.
 
 +-- {: .num_defn}
 ###### Definition
-Let $C$ be a category.  To give an object $G$ of $C$ a **cogroup structure** of $C$ is to give the functor $\operatorname{Hom}(G,-)$ a lift from $\operatorname{Set}$ to $\operatorname{Grp}$.
+Let $C$ be a category.  To give an object $G$ of $C$ a **cogroup structure** in $C$ is to give the functor $\operatorname{Hom}(G,-)$ a [[lift]] from $\operatorname{Set}$ to $\operatorname{Grp}$.
 
 A **cogroup object** in $C$ is an object $G$ together with a choice of cogroup structure.
 
-A **morphism of cogroup objects** is a morphism in $C$ between the underlying objects of $C$ such that the natural transformation $\operatorname{Hom}(G_2,-) \to \operatorname{Hom}(G_1,-)$ lifts to a natural transformation of functors into $\operatorname{Grp}$.
+A **morphism of cogroup objects** $G_1 \to G_2$ is a morphism in $C$ between the underlying objects of the $G_i$ such that the [[natural transformation]] $\operatorname{Hom}(G_2,-) \to \operatorname{Hom}(G_1,-)$ lifts to a natural transformation of functors into $\operatorname{Grp}$.
 =--
 
-Thus cogroup objects and their morphisms can be thought of as the category of representable covariant functors to $\operatorname{Grp}$.
+Thus cogroup objects and their morphisms can be thought of as the category of [[representable functors]] from $C$ to $\operatorname{Grp}$.
 
-Providing $C$ has enough coproducts of $G$, $0,1,2,3$ to be precise, the concept of a cogroup structure on $G$ can be internalised.
+Providing $C$ has enough coproducts of $G$ (the $0,1,2,3$th copowers to be precise), the concept of a cogroup structure on $G$ can be internalised.
 
 +-- {: .num_theorem}
 ###### Theorem
 To give an object $G$ of $C$ a cogroup structure is equivalent to choosing morphisms $\mu \colon G \to G \amalg G$, $\eta \colon G \to 0_C$, and $\iota \colon G \to G$ satisfying the diagrams for associativity, unit, and inverse but _the other way around_.
 =--
 
-Here, the phrase "the other way around" means: take the normal diagrams for a group that express the properties of associativity, unit, and inverses, invert all the arrows, and replace products by coproducts.
+Here, the phrase "the other way around" means: take the normal diagrams for a [[group object]] that express the properties of associativity, unit, and inverses, invert all the arrows, and replace products by coproducts.
+
 
 ## Relationship To Group Objects ##
 
-A cogroup object in a category, say $C$, is nothing more than a group object in the opposite category: $C^{op}$.  However, the morphisms go the other way around.  That is to say, with the obvious notation:
+A cogroup object in a category, say $C$, is nothing more than a group object in the [[opposite category]]: $C^{op}$.  However, the morphisms go the other way around.  That is to say, with the obvious notation:
 
 $$
 C\operatorname{Grp}^c = (C^{op}\operatorname{Grp})^{op}
 $$
 
+
 ## Relationship to Other Objects ##
 
-Of course, there is nothing special about groups here.  The same definition works for any variety of algebras in the sense of universal algebra.
+Of course, there is nothing special about groups here.  The same definition works for any [[variety of algebras]] in the sense of universal algebra.
+
 
 ## Examples ##
 
-1. As mentioned in the introduction, spheres are cogroup objects in the homotopy category of base topological spaces, $\operatorname{hTop}_*$.  More generally, any suspension is a cogroup object with the "pinch" map as the comultiplication.  This is dual to, and equivalent to, the statement that (based) loop spaces are group objects in $\operatorname{hTop}_*$ since there is an adjunction, internal to $\operatorname{hTop}_*$:
+1. As mentioned in the introduction, spheres are cogroup objects in the homotopy category of based topological spaces, $\operatorname{hTop}_*$.  More generally, any [[suspension]] is a cogroup object with the "pinch" map as the comultiplication.  (Since the $0$-sphere is not a suspension in $\operatorname{hTop}_*$, but only in $\operatorname{hTop}$, it need not be a cogroup and in fact is not.)  This is dual to, and equivalent to, the statement that (based) loop spaces are group objects in $\operatorname{hTop}_*$ since there is an [[adjunction]], internal to $\operatorname{hTop}_*$:
 
    $$
    \operatorname{Hom}(\Sigma X,Y) \cong \operatorname{Hom}(X,\Omega Y)
@@ -59,12 +64,12 @@ Of course, there is nothing special about groups here.  The same definition work
 
 2. There are examples of spaces that are cogroups in $\operatorname{hTop}$ that are **not** suspensions.  Note that cogroups in $hTop$ are the same as [[co-H-spaces]] which are additionally (co-)associative and have (co-)inverses.
 
-2. Cogroup objects in the category of groups are free groups, and to give a free group the structure of a cogroup object is the same a choosing a generating set.  This is an old result of D.M. Kan's.
+3. Cogroup objects in the [[Grp|category of groups]] are [[free groups]], and to give a free group the structure of a cogroup object is the same a choosing a generating set.  This is an old result of D.M. Kan's.
 
-3. On the other hand, every abelian group is again an abelian cogroup since $\operatorname{Ab}$ is self-enriched.  Indeed, in an abelian category every object is simultaneously an abelian group object and an abelian cogroup object.  In $\operatorname{Ab}$ the abelian cogroup object structure is unique, with comultiplication given by the diagonal.
+4. On the other hand, every abelian group is again an abelian cogroup since $\operatorname{Ab}$ is self-enriched.  Indeed, in an [[abelian category]] every object is simultaneously an abelian group object and an abelian cogroup object.  In $\operatorname{Ab}$, the abelian cogroup object structure is unique, with comultiplication given by the [[diagonal morphism]].
 
-4. In $\operatorname{Set}$, the only cogroup object (abelian or otherwise) is the empty set.  This is because the counit map must be a morphism from $X$ to the terminal object _of the opposite category_.  In the case of $\operatorname{Set}$, this is the empty set.
+5. In [[Set]], the only cogroup object (abelian or otherwise) is the [[empty set]].  This is because the counit map must be a morphism from $X$ to the terminal object _of the opposite category_.  In the case of $\operatorname{Set}$, this is the empty set.
 
-5. This extends further: any category with a faithful functor to $\operatorname{Set}$ which preserves the initial object will have no non-trivial cogroup objects.  In particular, the category of topological spaces has only the empty space as a cogroup object.
+6. This extends further: any category with a [[faithful functor]] to $\operatorname{Set}$ which preserves an [[initial object]] will have no non-trivial cogroup objects.  In particular, the category [[Top]] of *unbased* topological spaces has only the [[empty space]] as a cogroup object.
 
-6. The case of cogroups, and some other co-things, in certain other varieties of algebras has been extensively studied by Bergman and Hausknecht in _Co-groups and co-rings in categories of associative rings_, (MR1387111)
+7. The case of cogroups, and some other co-things, in certain other varieties of algebras has been extensively studied by Bergman and Hausknecht in _Co-groups and co-rings in categories of associative rings_, (MR1387111)
