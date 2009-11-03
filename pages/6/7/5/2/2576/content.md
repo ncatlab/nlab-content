@@ -36,6 +36,14 @@ Previous:
 
 * [[A Survey of Elliptic Cohomology - equivariant cohomology]]
 
+Next:
+ 
+
+* [[A Survey of Elliptic Cohomology - derived group schemes and (pre-)orientations]]
+
+* [[A Survey of Elliptic Cohomology - A-equivariant cohomology]]
+
+* [[A Survey of Elliptic Cohomology - the derived moduli stack of derived elliptic curves]]
 
 
 >the following are rough unpolished notes taken more or less verbatim from some seminar talk -- needs attention, meaning: **somebody should go through this and polish**
