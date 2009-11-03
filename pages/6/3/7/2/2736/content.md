@@ -1,3 +1,4 @@
+**Warning: This page is under construction. Feedback welcome.**
 
 See [[Understanding Constructions in Categories]]
 
@@ -12,95 +13,85 @@ See [[Understanding Constructions in Categories]]
 
 ## Limits
 
-[[limits]]
+Recall that a [[limit]], or universal cone, over a [[diagram]] $F:J\to Set$ is a [[cone]] $T$ over $J$ such that, given any cone $T'$, there is a unique cone morphism from $T'$ to $T$.
 
 #### Terminal Object
+
+A [[terminal object]] is a universal cone over the empty diagram. In this section, we demonstrate how this leads us to the statement:
 
 +-- {: .standout}
 Any [[singleton]] (a one-element set) is a [[terminal object]] in $Set$.
 =--
 
-To prove this, let $C$ be any set, let $\bullet$ be a singleton, and let $*$ be the element of $\bullet$.
+To demonstrate, first note that a cone over an empty diagram is just an [[object]] and a corresponding cone morphism is just a [[morphism]]. Therefore, we are looking for a "universal set" $\bullet$ such that for an other set $C$, there is a unique function 
 
-Then there is a unique function ${!}\colon C \to \bullet$, defined by
-$$ {!}(z) = * $$
-for any element $z$ of $C$.
+$$f:C\to\bullet.$$
 
-Therefore, any singleton is a terminal object in $Set$.
+Singletons fill the bill because for any element $c\in C$ we have the unique function defined by
 
-Now let $\bullet'$ be another singleton with element $*'$ and $f:\bullet'\to\bullet$ be the obvious bijection $f(*') = *$, and ${!}'\colon C \to \bullet'$ be any function. Then
-$$ f\circ {!}'(z) = * = {!}(z)$$
-for any element $z$ of $C$, so ${!} = f\circ {!}'$.
+$$f(c) = *.$$
 
-+--{.query}
-[[Eric]]: How is this this universal cone over the empty diagram?
+Therefore any singleton is a terminal object in $Set$.
 
-_Toby_:  It seems to me that this is really a question about terminal objects in general than about terminal objects in $Set$.  A cone over the empty diagram is simply an object, and a morphism of cones over the empty diagram is simply a morphism.  A universal cone over a diagram $J$ is a cone $T$ over $J$ such that, given any cone $C$, there is a unique cone morphism from $C$ to $T$.  So a univeral cone over the empty diagram is an object $T$ such that, given any object $C$, there is a unique morphism from $C$ to $T$.  In other words, a universal cone over the empty diagram is a terminal object.
+#### Product
 
-I don\'t see the point of the last paragraph before this query box.  Already at the end of the previous paragraph, we\'ve proved that $\bullet$ is a terminal object, since there is a unique function (morphism) to $\bullet$ from any set (object) $C$.  It almost looks like you wrote that paragraph by modifying the paragraph that *I* had written in that place, but that paragraph did something different: it proved that ${!}$ was unique.  Apparently, you thought that this was obvious, since you simply added the word 'unique' to the previous paragraph.
-
-Alternatively, if you *want* to keep a paragraph that proves unicity, then you can remove 'unique' and rewrite my original unicity proof in terminology more like yours, as follows:
-> Now let ${!}'\colon C \to \bullet$ be any function. Then
-> $$ {!}'(z) = * = {!}(z)$$
-> for any element $z$ of $C$, so ${!}' = {!}$.
-=--
-
-#### Binary Products
+A [[product]] is a universal cone over a discrete diagram. In this section, we demonstrate how this leads us to the statement:
 
 +--{: .standout}
-The [[cartesian product]] is the [[product]] in $Set$.
+Any [[cartesian product]] is a [[product]] in $Set$.
 =--
 
-Given two sets $A$ and $B$, recall that the [[cartesian product]] $A \times B$ of $A$ and $B$ is the set of [[ordered pairs]] $\langle{x,y}\rangle$ for $x$ in $A$ and $y$ in $B$.  There is a [[product]] of $A$ and $B$ in $Set$ that consists of
-*  $A \times B$,
-*  the left projection $\pi_{A,B}\colon A \times B \to A$ given by $\pi_{A,B} (\langle{x,y}\rangle) = x$, and
-*  the right projection $\rho_{A,B}\colon A \times B \to B$ given by $\rho_{A,B} (\langle{x,y}\rangle) = y$.
+To demonstrate, first note that a discrete diagram $F:J\to Set$ produces a family of sets $(A_i)$ with no functions between them. A cone over the discrete diagram consists of a set $T$ and a single morphism 
 
-To prove this, let $C$ be any set, and let $f\colon C \to A$ and $g\colon C \to B$ be functions.  Then there is a function $\langle{f,g}\rangle\colon C \to A \times B$ (the [[pairing]] of $f$ and $g$), defined by
-$$ \langle{f,g}\rangle(z) = \langle{f(z),g(z)}\rangle $$
-for any element $z$ of $C$.  Notice that $\pi_{A,B} \circ \langle{f,g}\rangle = f$, because
-$$ \pi_{A,B}(\langle{f,g}\rangle(z)) = \pi_{A,B}(\langle{f(z),g(z)}) = f(z) $$
-for any element $z$ of $C$, and $\rho_{A,B} \circ \langle{f,g}\rangle = g$, because
-$$ \rho_{A,B}(\langle{f,g}\rangle(z)) = \rho_{A,B}(\langle{f(z),g(z)}\rangle) = g(z) $$
-for any element $z$ of $C$.
+$$\f_i:T\to A_i$$
 
-Now let $v\colon C \to A \times B$ be any function such that $\pi_{A,B} \circ v = f$ and $\rho_{A,B} \circ v = g$.  Notice that, for any element $z$ of $G$, $v(z) = \langle{x,y}\rangle$ for some $x$ in $A$ and $y$ in $B$, since every element of $A \times B$ takes this form.  Then
-$$ x = \pi_{A,B}(\langle{x,y}\rangle) = \pi_{A,B}(v(z)) = f(z) $$
-and
-$$ y = \rho_{A,B}(\langle{x,y}\rangle) = \rho_{A,B}(v(z)) = g(z) ,$$
-so
-$$ v(z) = \langle{x,y}\rangle = \langle{f(z),g(z)}\rangle = \langle{f,g}\rangle(z) $$
-for every element $z$ of $C$, so $v = \langle{f,g}\rangle$.
+for each set $A_i$. Therefore, we are looking for a universal cone $\prod_i A_i$ such that for any other cone $T$, there is a unique function
 
-Therefore, $A \times B$, when equipped with the projections $\pi_{A,B}\colon A \times B \to A$ and $\rho_{A,B}\colon A \times B \to B$, is a product of $A$ and $B$ in $Set$.
+$$f:T\to\prod_i A_i.$$
 
-#### Arbitrary Small Products
+Cartesian product fills the bill because for any $t\in T$, we have the unique function defined by
 
-Given a [[family]] of sets $\langle{A_i}\rangle_i$, recall that the [[cartesian product]] $\prod_i A_i$ of $\langle{A_i}\rangle_i$ is the set of [[tuples]] $\langle{x_i}\rangle_i$ with, for each index $i$, $x_i$ in $A_i$.  There is a [[product]] of $\langle{A_i}\rangle_i$ in $Set$ that consists of
-*  $\prod_i A_i$ and,
-*  for each index $j$, the $j$th projection $\pi_j\colon \prod_i A_i \to A_j$ given by $\pi_j (\langle{x_i}\rangle_i) = x_i$.
+$$f(t) = \prod_i f_i(t).$$
 
-To prove this, let $C$ be any set, and, for each index $i$, let $f_i\colon C \to A_i$ be a function.  Then ...
+This function is unique because with any other function
 
-+-- {: .query}
-I\'ll let you finish this one, Eric.  You can use the binary product as a guide.  Or you can first rewrite the binary product in a way that you like better, then use that as a guide here.  ---Toby
+$$g:T\to\prod_i A_i$$
+
+with $\pi_i\circ g = f_i$, then for any element $t\in T$
+
+$$g(t) = \prod_i f_i(t) = \left(\prod_i f_i\right)(t) = f(t).$$
+
+Therefore $f = g$.
+
+#### Equalizer
+
+An [[equalizer]] is the universal cone over a parallel diagram. In this section, we demonstrate how this leads us to the statement:
+
++--{: .standout}
+The [[equalizer]] of two functions is the subset on which both functions coincide.
 =--
 
-#### Equalizers
+To demonstrate, first note that a parallel diagram $F:J\to Set$ produces two sets $X,Y$ with two [[parallel morphism|parallel functions]] $f,g:X\to Y$. A cone over the parallel diagram consists of a set $T$ and two functions 
 
-The [[equalizer]] of two [[parallel morphisms|parallel functions]] $f,g:X\to Y$ is the subset of $X$ on which both functions coincide, i.e.
+$$f_X:T\to X\quad\text{and}\quad f_Y:T\to Y.$$
 
-$$
-  Eq(f,g)
-  = 
-  \left\{
-     s \in c | 
-     f(s) = g(s)
-  \right\}
-  \,.
-$$
+This is the first example we encounter where the diagram contains morphisms so recall that with a cone we also want the the diagrams to commute, i.e. we want
 
-Why?
+$$f \circ f_X = f_Y\quad\text{and}\quad g\circ f_X = f_Y.$$
+
+Therefore, we are looking for a universal cone $Eq(f,g)$ such that for any other cone $T$, there is a unique function
+
+$$f:T\to Eq(f,g).$$
+
+Let's first define the set
+$$Eq(f,g) = \left\{x\in X|f(x)=g(x)\right\}$$
+with 
+$$f_X(x) = x\quad\text{and}\quad f_Y(x) = f(x)$$
+and verify that it is indeed a cone. The only thing we need to check is that
+$$g\circ f_X = f_Y$$
+which amounts to showing that $f(x) = g(x)$ for all $x\in Eq(f,g)$, but that is the definition of $Eq(f,g)$, so we do have a cone.
+
+**Under Construction**
 
 #### Pullbacks
 
@@ -159,6 +150,28 @@ arbitrary (but small) [[coproducts]]
 #### Power Objects
 
 [[power objects]]
+
+## Discussion ##
+
++--{.query}
+[[Eric]]: How is this (note: terminal object) the universal cone over the empty diagram?
+
+_Toby_:  It seems to me that this is really a question about terminal objects in general than about terminal objects in $Set$.  A cone over the empty diagram is simply an object, and a morphism of cones over the empty diagram is simply a morphism.  A universal cone over a diagram $J$ is a cone $T$ over $J$ such that, given any cone $C$, there is a unique cone morphism from $C$ to $T$.  So a univeral cone over the empty diagram is an object $T$ such that, given any object $C$, there is a unique morphism from $C$ to $T$.  In other words, a universal cone over the empty diagram is a terminal object.
+
+I don\'t see the point of the last paragraph before this query box.  Already at the end of the previous paragraph, we\'ve proved that $\bullet$ is a terminal object, since there is a unique function (morphism) to $\bullet$ from any set (object) $C$.  It almost looks like you wrote that paragraph by modifying the paragraph that *I* had written in that place, but that paragraph did something different: it proved that ${!}$ was unique.  Apparently, you thought that this was obvious, since you simply added the word 'unique' to the previous paragraph.
+
+Alternatively, if you *want* to keep a paragraph that proves unicity, then you can remove 'unique' and rewrite my original unicity proof in terminology more like yours, as follows:
+> Now let ${!}'\colon C \to \bullet$ be any function. Then
+> $$ {!}'(z) = * = {!}(z)$$
+> for any element $z$ of $C$, so ${!}' = {!}$.
+
+[[Eric]]: Thanks Toby. I think what I'm looking for is a way to understand that a singleton set is the universal cone over the empty diagram. All these items should be seen as special cases of [[limit]]. Unfortunately, I don't understand limit well enough to explain it. In fact, that is one of the reasons to create this page, i.e. so that I can understand limits :)
+
+The preceding paragraph was my attempt to make it look like a limit, but I obviously failed :)
+
+Ideally, this section would show how terminal object is a special case of limit somehow.
+
+=--
 
 
 [[!redirects Understanding Set]]
