@@ -57,7 +57,7 @@ Of course, there is nothing special about groups here.  The same definition work
 
    The higher spheres are actually _abelian_ cogroup objects, as demonstrated by the fact that $\pi_n(X)$ is abelian for $n \ge 2$.
 
-2. There are examples of spaces that are cogroups in $\operatorname{hTop}$ that are **not** suspensions.  These are called [[co-H-spaces]].
+2. There are examples of spaces that are cogroups in $\operatorname{hTop}$ that are **not** suspensions.  Note that cogroups in $hTop$ are the same as [[co-H-spaces]] which are additionally (co-)associative and have (co-)inverses.
 
 2. Cogroup objects in the category of groups are free groups, and to give a free group the structure of a cogroup object is the same a choosing a generating set.  This is an old result of D.M. Kan's.
 
