@@ -15,13 +15,9 @@
 
 This is a sub-entry of
 
-* [[A Survey of Elliptic Cohomology]]
+* [[A Survey of Elliptic Cohomology]].
 
-and
-
-* [[Gromov-Witten invariants]]
-
-see there for background and context.
+See there for background and context.
 
 This entry considers [[equivariant cohomology]] from the perspective of algebraic geometry.
 
@@ -38,6 +34,12 @@ Previous:
 
 * [[A Survey of Elliptic Cohomology - elliptic curves]]
 
+
+Next: 
+
+* [[A Survey of Elliptic Cohomology - derived group schemes and (pre-)orientations]]
+
+* [[A Survey of Elliptic Cohomology - A-equivariant cohomology]]
 
 
 >the following are rough unpolished notes taken more or less verbatim from some seminar talk -- needs attention, meaning: **somebody should go through this and polish**
