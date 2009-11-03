@@ -17,6 +17,7 @@ A _Lie--Rinehart-pair_ $(A,\mathfrak{g})$ is a pair consisting of an associative
 * $A$ acts as linear transformations of $\mathfrak{g}$ in a way obeying the Leibniz law: that is, we have an associative algebra homomorphism from $A$ to the algebra of linear transformations of $\mathfrak{g}$ such that
 $$  [v, a w] = v(a) w + a [v,w]. $$ 
 
+
 #Examples#
 
 In the case that $A = C^\infty(X)$ is the algebra of smooth functions on a smooth [[manifold]] $X$, Lie--Rinehart pairs $(C^\infty(X), \mathfrak{g})$ are naturally identified with [[Lie algebroid]]s over $X$: given the [[Lie algebroid]] in its incarnation as a [[vector bundle]] morphism
@@ -55,15 +56,16 @@ In particular
 
 * the Lie--Rinehart pair corresponding to a [[Poisson Lie algebroid]] on a [[Poisson manifold]] $X$ is $(C^\infty(X), MultVect(X))$, where the [[Lie algebra]] is the the space of multi vector fields on $X$ equipped with the bracket ... (exercise for the reader) ...
 
+
 # Generalizations #
 
-A little bit is known in the literature to generalizations of the notion of Lie-Rinehart algebras that to [[Lie infinity-algebroid]]s as the latter are to [[Lie algebroid]].
+A little bit is known in the literature to generalizations of the notion of Lie--Rinehart algebras that are to [[Lie ∞-algebroids]] as the latter are to [[Lie algebroids]].
 
 In 
 
-* [[Dmitry Roytenberg]], _Courant-Dorfman algebras and their cohomology_ ([arXiv](http://arxiv.org/abs/0902.4862))
+* [[Dmitry Roytenberg]], _Courant--Dorfman algebras and their cohomology_ ([arXiv](http://arxiv.org/abs/0902.4862))
 
-the analogous algebraic structure for [[Courant algebroid]]s is discussed. These "2-Lie-Rinehart algebras" are ccalled [[Courant-Dorfman algebra]]s there.
+the analogous algebraic structure for [[Courant algebroid]]s is discussed. These "2-Lie--Rinehart algebras" are ccalled [[Courant?Dorfman algebra]]s there.
 
 
 #References#
@@ -86,7 +88,7 @@ A connection with [[BV-theory]] is made in
 
 
 [[!redirects Lie-Rinehart algebra]]
-[[!redirects Lie–Rinehart pair]]
-[[!redirects Lie–Rinehart algebra]]
+[[!redirects Lie?Rinehart pair]]
+[[!redirects Lie?Rinehart algebra]]
 [[!redirects Lie--Rinehart pair]]
 [[!redirects Lie--Rinehart algebra]]
