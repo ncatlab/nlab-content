@@ -66,6 +66,7 @@ The central theorem is
 
    1. [[A Survey of Elliptic Cohomology - A-equivariant cohomology]]
 
+   1. [[A Survey of Elliptic Cohomology - the derived moduli stack of derived elliptic curves]]
 
 1. towards geometric models
 
@@ -85,58 +86,12 @@ The central theorem is
 
   * [[(2,1)-dimensional Euclidean field theories]]
 
-1. [Contents](#contents)
+#Contents#
 
-   The following is a copy of the table of contents of _A Survey of Elliptic Cohomology_ . Behind each entry is a list of hyperlinks to entries on relevant keywords.
+Here is the table of contents of the Survey reproduced. Behind the links are linked keyword lists for relevant terms.
 
-   1. [Elliptic Cohomology](#EllipticCohomology)
-
-      1. [Cohomology Theories](#CohomologyTheories)
-
-      1. [Formal Groups from Cohomology Theories](#FormalgroupsFromCohomologyTheories)
-
-      1. [Elliptic Cohomology](#EllipticCohomology)
-
-   1. [Derived Algebraic geometry](#DerivedAlgebraicCohomology)
-
-      1. [E-infinity rings]()
-
-      1. [Derived Schemes]()
-
-   1. [Derived Group Schemes and Orientations]()
-
-       1. [Orientations of the Multiplicative Group]()
-
-       1. [Orientations of the Additive Group]()
-
-       1. [The Geometry of Preorientations]()
-
-       1. [Equuivariant A-Cohomology for Abelian Groups]()
-
-       1. [The Nonabelian Case]()
-
-   1. Oriented Elliptic Curves
-
-      1. Construction of the Moduli Stack
-
-      1. The Proof of Theorem 4.4: The Local Case
-
-      1. Elliptic Cohomology near $\infty$
-
-   1. Applications
-
-      1. 2-Equivariant Elliptic Cohomology
-
-      1. Loop Group Representations
-
-      1. String Orientation
-
-      1. Higher Equivariance
-
-
-   1. Elliptic Cohomology and Geometry
-
-1. [further references](#furtherreferences)
+* automatic table of contents goes here
+{:toc}
 
 #Summary {#Summary}
 
