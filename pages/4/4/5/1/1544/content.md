@@ -3,6 +3,10 @@ A connection on a [[bundle]] can be introduced in several very different but equ
 
 The following article mostly deals with parallel transport.
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 
 #Idea#
 
@@ -112,6 +116,13 @@ This is described in great detail in the reference by Schreiber--Waldorf below.
 #Definition# 
 
 ...
+
+
+# Special cases #
+
+## connections on the tangent bundle ##
+
+Connections on [[tangent bundle]]s play an important role for instance on  [[Riemannian manifold]]s and [[pseudo-Riemannian metric|pseudo-Riemannian manifold]]s. From the end of the 19th century and the beginning of the 20th centure originates a language to talk about these in terms of [[Christoffel symbol]]s. 
 
 
 # Generalizations#
