@@ -70,6 +70,8 @@ There is a very general theory of [[higher geometry]] for [[nLab:generalized sch
 
 The central theorem about [[elliptic cohomology]] of [[Jacob Lurie]], refining the Goerss-Hopkins-Miller theorem says that
 
++-- {: .standout}
+
 +-- {: .un_theorem }
 ###### Theorem
 **(J. Lurie)**
@@ -83,6 +85,9 @@ $$
 is equivalent to the space of [[derived elliptic curve]]s over $R$.
 
 =--
+
+=--
+
 
 # References #
 
@@ -114,14 +119,28 @@ The statement that we are after really lives in the context of [[higher geometry
 
 The general story of [[higher geometry]] is this:
 
-We fix some [[(∞,1)-category]] of test spaces $\mathcal{G}$ together with at least the information how these cover each other. Such $\mathcal{G}$ is called a [[nLab:geometry (for structured (infinity,1)-toposes)]].
+We fix some [[(∞,1)-category]] of test spaces $\mathcal{G}$ equipped with the structure of a [[site]] (and a bit more). Such $\mathcal{G}$ is called a [[geometry (for structured (infinity,1)-toposes)]].
 
 Using this, we have a general and a specific notion of spaces modeled on $\mathcal{G}$:
 
-* A **general space modeled on $\mathcal{G}$** is one that is _probeable_ by objects of $\mathcal{G}$ in that it is an [[∞-stack]] $X : U \mapsto X(U) \in \infty Grpd$ on $\mathcal{G}$.
-(See [[motivation for sheaves, cohomology and higher stacks]] for the general philosophy here).
+* A **general space modeled on $\mathcal{G}$** is one 
 
-* A **geometric space modeled on $\mathcal{G}$** -- a $\mathcal{G}$-[[generalized scheme]] -- is a space not only probeable by one that is a [[structured (∞,1)-topos]] that is locally _equivalent_ to objects of $\mathcal{G}$:
+  * that is _probeable_ by objects of $\mathcal{G}$ in that it is an object in the [[(∞,1)-category of (∞,1)-presheaves]]
+
+    $$
+      X \in PSh(\mathcal{G}) = (\infty,1)Func(\mathcal{G}^{op}, \infty Grpd)
+    $$
+
+  * and consistently so, in that satisfies the [[∞-stack]]-condition that makes it sit in an [[(∞,1)-category of (∞,1)-sheaves]] on $\mathcal{G}$
+
+    $$
+      Sh(\mathcal{G}) \stackrel{\leftarrow}{\to}
+      PSh(\mathcal{G})
+    $$
+
+   (See [[motivation for sheaves, cohomology and higher stacks]] for the general philosophy here).
+
+* A **geometric space modeled on $\mathcal{G}$** -- a $\mathcal{G}$-[[generalized scheme]] -- is a space not only probeable by objects of $\mathcal{G}$, but one that is a [[structured (∞,1)-topos]] that is locally _equivalent_ to objects of $\mathcal{G}$:
 
   * there is a canonical way to regard every object $U \in \mathcal{G}$ as a [[structured (∞,1)-topos]] $(Sh(U), \mathcal{O}_U)$ where
 
