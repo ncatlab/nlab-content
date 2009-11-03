@@ -10,7 +10,7 @@ What is called a _Christoffel symbol_ is part of a notation and language from th
 The _Christoffel symbols_ are the components of a [[connection on a bundle|connection 1-form]] on a coordinate patch $\mathbb{R}^n \simeq U \subset X$ of the underlying [[manifold]] $X$, in terms of the basis of the tangent bundle $T U$ induded by these coordinates.
 
 As every concrete component expression, Christoffel symbols may be useful in certain computations. Unfortunately, almost every textbook on [[gravity]] in theoretical physics follows the long-outdated tradition of describing (or not describing) the entire notion of [[connection on a bundle|connection]]s on [[tangent bundle]]s without introducing these conceptually but just describing the Yoga of how to handle the Christoffel symbol component.
-This way their main efect to science nowadays is to make it harder for students of theoretical physics to understand what is really going on in the universe. It's all so simple. Speaking always in terms of Christoffel symbols and never in terms of the abstract notion of [[connection on a bundle|connection]] makes it all so hard.
+This way their main effect to science nowadays is to make it harder for students of theoretical physics to understand what is really going on in the universe. It's all so simple. Speaking always in terms of Christoffel symbols and never in terms of the abstract notion of [[connection on a bundle|connection]] makes it all so hard.
 
 
 ##Details##
