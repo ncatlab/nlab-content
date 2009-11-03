@@ -1,16 +1,32 @@
-+--{.query}
-[[Eric]]: **Help!** I started to write this and realized that I didn't understand it well enough.
+**WARNING: Tentative**
 
-The idea is that a cone morphism $\phi:c\to c'$ "pulls back" a component $T'_j:c'\to F(j)$ to a component $T_j:c\to F(j)$ via
-
-$$T_j = T'_j\circ \phi.$$
-
-_Toby_:  Does my addition below help?
-
-[[Eric]]: What is a $C$-morphism?
-=--
+## Definition 
 
 Let $F:J\to C$ be a [[diagram]] in a category $C$.
 
-Let $T:\Delta c\to F$ and $T':\Delta c'\to F$ denote [[cones]] over $F$. A **cone morpmism** is a $C$-morphism $\phi\colon c \to c'$ such that ...
+For any objects $c,c'\in C$, let $T:\Delta c\to F$ and $T':\Delta c'\to F$ denote [[cones]] over $F$. A **cone morpmism** is a $C$-morphism $\phi\colon c \to c'$ such that all component diagrams
 
+$$\array{
+c &{}&\stackrel{\phi}{\longrightarrow} &{}& c' \\
+{}& \mathllap{\scriptsize{T_j}}\searrow &{}& \swarrow\mathrlap{\scriptsize{T'_j}} &{}  \\
+{}&{}&F(j)&{}&{}
+}
+$$
+
+commute.
+
++--{.query}
+[[Eric]]: What is the "component free" way to say that?
+=--
+
+**The following material is very tentative**
+
+Note that given any cone $T':\Delta c'\to F$ and any morphism $\phi:c\to c'$ we can obtain a new cone $T:\Delta c\to F$ whose components are given by
+
+$$T_j = \phi^* T'_j =  T'_j\circ \phi,$$
+
+which can be thought of as "pulling back" the cone $T'$ along $\phi$.
+
+[[!redirects cone morphisms]]
+[[!redirects cone function]]
+[[!redirects cone functions]]
