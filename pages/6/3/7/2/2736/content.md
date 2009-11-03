@@ -13,7 +13,7 @@ See [[Understanding Constructions in Categories]]
 
 ## Limits
 
-Recall that a [[limit]], or universal cone, over a [[diagram]] $F:J\to Set$ is a [[cone]] $T$ over $J$ such that, given any cone $T'$, there is a unique cone morphism from $T'$ to $T$.
+Recall that a [[limit]], or universal cone, over a [[diagram]] $F:J\to Set$ is a [[cone]] $T$ over $J$ such that, given any cone $T'$, there is a unique [[cone morphism]] from $T'$ to $T$.
 
 #### Terminal Object
 
@@ -65,7 +65,9 @@ Therefore $f = g$.
 
 #### Equalizer
 
-An [[equalizer]] is the universal cone over a parallel diagram. In this section, we demonstrate how this leads us to the statement:
+An [[equalizer]] is the universal cone over a parallel diagram
+$$\bullet\rightrightarrows\bullet.$$
+In this section, we demonstrate how this leads us to the statement:
 
 +--{: .standout}
 The [[equalizer]] of two functions is the subset on which both functions coincide.
@@ -73,29 +75,74 @@ The [[equalizer]] of two functions is the subset on which both functions coincid
 
 To demonstrate, first note that a parallel diagram $F:J\to Set$ produces two sets $X,Y$ with two [[parallel morphism|parallel functions]] $f,g:X\to Y$. A cone over the parallel diagram consists of a set $T$ and two functions 
 
-$$f_X:T\to X\quad\text{and}\quad f_Y:T\to Y.$$
+$$T_X:T\to X\quad\text{and}\quad T_Y:T\to Y.$$
 
 This is the first example we encounter where the diagram contains morphisms so recall that with a cone we also want the the diagrams to commute, i.e. we want
 
-$$f \circ f_X = f_Y\quad\text{and}\quad g\circ f_X = f_Y.$$
+$$f\circ T_X = T_Y\quad\text{and}\quad g\circ T_X = T_Y.$$
 
-Therefore, we are looking for a universal cone $Eq(f,g)$ such that for any other cone $T$, there is a unique function
+Therefore, we are looking for a universal cone $Eq$ such that for any other cone $T$, there is a unique function
 
-$$f:T\to Eq(f,g).$$
+$$f:T\to Eq.$$
+
+**Is it a cone?**
 
 Let's first define the set
-$$Eq(f,g) = \left\{x\in X|f(x)=g(x)\right\}$$
-with 
-$$f_X(x) = x\quad\text{and}\quad f_Y(x) = f(x)$$
+$$Eq = \left\{x\in X|f(x)=g(x)\right\}$$
+with two functions $Eq_X:Eq\to X$ and $Eq_Y:Eq\to Y$ defined by
+$$Eq_X(x) = x\quad\text{and}\quad Eq_Y(x) = f(x)$$
 and verify that it is indeed a cone. The only thing we need to check is that
-$$g\circ f_X = f_Y$$
-which amounts to showing that $f(x) = g(x)$ for all $x\in Eq(f,g)$, but that is the definition of $Eq(f,g)$, so we do have a cone.
+$$g\circ Eq_X = Eq_Y$$
+which amounts to showing that $f(x) = g(x)$ for all $x\in Eq$, but that is the definition of $Eq$, so we do have a cone.
 
-**Under Construction**
+**What is a cone function?**
+
+Let $T$ be any set and $\phi:T\to Eq$ a function such that
+
+$$T_X = Eq_X\circ \phi\quad\text{and}\quad T_Y = Eq_Y\circ \phi.$$
+
+It follows that
+$$f\circ T_X = f\circ Eq_X\circ \phi = Eq_Y\circ \phi = T_Y$$
+and
+$$g\circ T_X = g\circ Eq_X\circ \phi = Eq_Y\circ \phi = T_Y.$$
+showing that $T$ is also a cone and $\phi$ is a cone function.
+
+**Is the cone function unique?**
+
+Let $\phi,\psi: T\to Eq$ be two cone functions. For any element $t\in T$, we have
+
+$$T_X(t) = Eq_X\circ\phi(t) = Eq_X\circ\psi(t)\implies \phi(t)=\psi(t)$$
+
+so that $\phi = \psi$ and the cone function is unique.
+
+Since every cone function $\phi:T\to Eq$ is unique, it follows that $Eq$ is a universal cone and $Eq$ together with $Eq_X:Eq\to X$ and $Eq_Y:Eq\to Y$ is an equalizer.
 
 #### Pullbacks
 
+A [[pullback]] is a universal cone over a [[cospan]]
+$$
+  \array{
+     && \bullet &&&& \bullet
+      \\
+      & 
+      && \searrow
+       &
+       & \swarrow
+      && 
+     \\
+     
+     &&&&
+     \bullet
+     &&&&
+  }.
+$$
+In this section, we demonstrate how this leads us to the statement:
+
++--{.standout}
 The [[pullback]] of two functions of sets is the set of pairs $(x,y)$ such that $f(x)=g(y)$.
+=--
+
+**Under Construction**
 
 Why?
 
