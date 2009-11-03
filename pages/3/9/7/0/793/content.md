@@ -19,7 +19,8 @@ admits a certain operation that, roughly, inverts the Riemannian circumference o
 
 It was noticed originally in the study of [[conformal field theory|conformal field theories]] in the context of [[string theory]]: the conformal field theory [[sigma-model]]s with target space $X$ turn out to be equivalent as [[quantum field theory|quantum field theories]] for T-dual backgrounds $(X,g,G)$ and $(X',g',G')$ (at least to the approximate degree to which these are realized as full CFTs in the first place).
 
-Further generalisations let $X$ be a nontrivial torus bundle, but the T-dual is then generically a bundle of [[non-commutative tori]]. (cite Mathai,Rosenberg and Hannabus)
+Further generalisations let $X$ be a nontrivial torus bundle, but the T-dual is then generically a bundle of [[noncommutative torus|non-commutative tori]]. (cite Mathai, Rosenberg and Hannabus)
+
 
 ## topological T-duality ##
 
