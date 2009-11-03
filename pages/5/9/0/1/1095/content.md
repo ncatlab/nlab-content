@@ -7,6 +7,10 @@ This entry is about the general properties and characterization of [[(∞,1)-cat
 
 The 1-categorical analog of the discussion is this entry is at [[category of sheaves]].
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 For any [[(∞,1)-category]] $C$ every [[(∞,1)-functor]] $\bar {(-)} : C \to D$ which admits a [[(infinity,1)-fully faithful functor|fully faithful]] [[adjoint (infinity,1)-functor|right adjoint]] -- equivalently every [[(∞,1)-functor]] $L : C \to C$ which is 
