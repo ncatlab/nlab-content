@@ -25,7 +25,9 @@ weight representation theory of $G$. The diagonal of the
 $N$-th tensor power of $H$ has coherent states $\psi_N$ 
 (labelled by the same classical phase space as the original coherent states, and corresponding to the $N$-fold highest weight) with inner product 
 
-$phi_N^*psi_N = (phi^*psi)^N$
+$$
+\phi_N^* \psi_N = (\phi^* \psi)^N
+$$
 
 and for $N\to \infty$, one gets a good classical limit.
 For the Heisenberg group, $\phi^*\psi$ is a $1/\hbar$-th power, 
