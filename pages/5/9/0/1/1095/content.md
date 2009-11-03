@@ -71,6 +71,6 @@ J. Lurie, [[Higher Topos Theory]].
 
 * the characterization of $(\infty,1)$-sheaves in terms of [[descent|descent and codescent]] is in section 6.1.3 
 
-* the relation between the [[model structure on simplicial presheaves|Brown--Joyal--Jardine model]] and the general story is discussed at length in section 6.5.4
+* the relation between the [[model structure on simplicial presheaves|Brown?Joyal?Jardine model]] and the general story is discussed at length in section 6.5.4
 
 [[!redirects (∞,1)-category of (∞,1)-sheaves]]
