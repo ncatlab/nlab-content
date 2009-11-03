@@ -15,11 +15,11 @@ Most prescriptions for taking classical limits are formulated in algebraic setti
 
 #Relations to coherent states#
 
-One method for producing [[classical mechanics]] from a quantum theory is by looking at [[coherent state]]s of the quantum theory: states that have a localized probaility distribution in classical phase space whose center follows the classical equations of motion. 
+One method for producing [[classical mechanics]] from a quantum theory is by looking at [[coherent state]]s of the quantum theory: states that have a localized probaility distribution in classical [[phase space]] whose center follows the classical equations of motion. 
 
 Roughly, coherent states form a nice orbit of unit vectors 
 of a Hilbert space $H$ under a dynamical symmetry group 
-$G$ with a triangular decomposition, such that the linear combinations of coherent states are dense in H, and the inner product $\phi^*\psi$ of coherent states phi and psi 
+$G$ with a triangular decomposition, such that the linear combinations of coherent states are dense in $H$, and the inner product $\phi^*\psi$ of coherent states $\phi$ and $\psi$ 
 can be calculated explicitly in terms of the highest 
 weight representation theory of $G$. The diagonal of the 
 $N$-th tensor power of $H$ has coherent states $\psi_N$ 
@@ -33,19 +33,18 @@ and for $N\to \infty$, one gets a good classical limit.
 For the Heisenberg group, $\phi^*\psi$ is a $1/\hbar$-th power, 
 and the $N$-th power corresponds to replacing $\hbar$ by $\hbar/N$. Thus one gets the standard classical limit.
 
+
 #References#
 
 Basic literature on relations between [[coherent state]]s and the classical limit, based on irreducible unitary representations of Lie groups includes the book
 
-* 
-A. M. Perelomov, 
+* A. M. Perelomov, 
 Generalized Coherent States and Their Applications, 
 Spring-Verlag, Berlin, 1986.
 
 and the paper
 
-* 
-L. Yaffe, _Large $N$ limits as classical mechanics_, 
+* L. Yaffe, _Large $N$ limits as classical mechanics_, 
 Rev. Mod. Phys. 54, 407--435 (1982)
 
 Both references assume that the Lie group is finite-dimensional and semisimple. This excludes the Heisenberg group, in terms of which the standard (Glauber) coherent states are usually defined. However, the Heisenberg group has a triangular decomposition, and this suffices to apply
@@ -53,24 +52,19 @@ Perelomov's theory in spirit.
 
 The online book
 
-* 
-[[Arnold Neumaier]], [[Dennis Westra]], _Classical and Quantum Mechanics via Lie algebras_ ([arXiv](http://lanl.arxiv.org/abs/0810.1019))
+* [[Arnold Neumaier]], [[Dennis Westra]], _Classical and Quantum Mechanics via Lie algebras_ ([arXiv](http://lanl.arxiv.org/abs/0810.1019))
 
 contains a general discussion of the relations between classical mechanics and quantum mechanics, and discusses
 in Chapter 16 the concept of a triangular decomposition of Lie algebras and a summary of the associated representation theory (though in its present version not the general relation to coherent states).
 
 For other relevant approaches to a rigorous classical limit, see the online sources
 
-*
-http://www.projecteuclid.org/Dienst/Repository/1.0/Disseminate/euclid.cmp/1103859040/body/pdf
+* &lt;http://www.projecteuclid.org/Dienst/Repository/1.0/Disseminate/euclid.cmp/1103859040/body/pdf>
 
-*
-http://www.univie.ac.at/nuhag-php/bibtex/open_files/si80_SIMON!!!.pdf
+* &lt;http://www.univie.ac.at/nuhag-php/bibtex/open_files/si80_SIMON!!!.pdf>
 
-*
-http://arxiv.org/abs/quant-ph/9504016
+* &lt;http://arxiv.org/abs/quant-ph/9504016>
 
-*
-http://arxiv.org/pdf/math-ph/9807027
+* &lt;http://arxiv.org/pdf/math-ph/9807027>
 
 
