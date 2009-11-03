@@ -61,6 +61,7 @@
 
 * [[Charles Sanders Peirce]]
 * [[precursors]]
+* [[syntax, semantics, pragmatics]]
 
 ## Utilities ##
 
