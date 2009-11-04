@@ -11,4 +11,6 @@ Here $1$ is a [[terminal category]] (exactly one object and exactly one morphism
 [[Eric]]: Is there a standard notation for constant functor? I had originally written $d!:C\to D$ which is kind of fitting given the composite, i.e. $d! = [d]\circ !$. If there is no established standard, I may change it. Opinions?
 
 _Toby_:  I don\'t think that there is.  Sometimes people write it $K_d$, $const_d$, or even just $d$.
+
+[[Mike Shulman]]: $\Delta d$ is fairly common too, I think.
 =--
