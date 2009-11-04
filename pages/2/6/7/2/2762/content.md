@@ -119,7 +119,7 @@ and isn't available yet. On the other hand, the general theory of [[E-∞ ring]]
 * [[Jacob Lurie]], [[higher algebra|Commutative geometry]].
 
 
-## notions of space  ##
+## Notions of Space  ##
 
 The statement that we are after really lives in the context of [[higher geometry]] (often called "derived geometry"). Here is an outline of the central aspects. 
 
@@ -282,7 +282,7 @@ $$
 =--
 
 
-We think of $\mathcal{X}$ as the [[(∞,1)-topos]] of [[∞-stack]]s on a category of open subsets of a would-be space $X$, only that this would be space $X$ might not have an independent existence as a space apart from $\mathcal{X}$.
+We think of $\mathcal{X}$ as the [[(∞,1)-topos]] of [[∞-stack]]s on a category of open subsets of a would-be space $X$, only that this would be space $X$ might not have an independent existence as a space apart from $\mathcal{X}$. The available entity closest to it is the [[terminal object]] ${*}_{\mathcal{X}} \in \mathcal{X}$. 
 
 To say that $\mathcal{X}$ is _modeled on $\mathcal{G}$_ means that among all the [[∞-stack]]s on the would-be space a [[structure sheaf]] of functions with values in objects of $\mathcal{G}$ is singled out: for each object $V \in \mathcal{G}$ there is a [[structure sheaf]] $\mathcal{O}(-,V) \in \mathcal{X}$, naturally in $V$.
 
@@ -307,7 +307,7 @@ An [[(∞,1)-functor]] $\mathcal{O} : \mathcal{G} \to \mathcal{X}$  is a **$\mat
 
 * it preserves finite [[limit]]s 
 
-* and sends covering coproducts $(\coprod_i U_i) \to U$ to [[effective epimorphism]].
+* and sends covering coproducts $(\coprod_i U_i) \to U$ to [[effective epimorphism]]s.
 
 A pair $(\mathcal{X}, \mathcal{O})$ of an [[(∞,1)-topos]] $\mathcal{X}$ equipped with $\mathcal{G}$-valued [[structure sheaf]] $\mathcal{O} : \mathcal{G} \to \mathcal{X}$ we call a [[structured (∞,1)-topos]].
 
@@ -338,8 +338,9 @@ then the obvious [[(∞,1)-functor]] $f^* : \mathcal{L}Top(\mathcal{G}) \to \mat
 $$
   f^*
   :
-  Str(\mathcal{G}) 
-   \stackrel{\leftarrow}{\to} Str(\mathcal{G}')
+  \mathcal{L}Top(\mathcal{G}') 
+   \stackrel{\leftarrow}{\to} 
+  \mathcal{L}Top(\mathcal{G}) 
   :
   Spec_{\mathcal{G}}^{\mathcal{G}'}
 $$
@@ -377,14 +378,14 @@ $$
   \hookrightarrow 
   \mathcal{L}Top(\mathcal{G}_{disc})
   \stackrel{Spec_{\mathcal{G}}^{\mathcal{G}_{disc}}}{\to}
-  Str(\mathcal{G})
+  \mathcal{L}Top(\mathcal{G})
 $$
 
 we call the **absolute spectrum functor**
 
 =--
 
-This abstract nonsense is reassuring, but we want a more concrete definition of what such $Spec^{\mathcal{G}} U$ is like:
+This [[category theory|abstract nonsense]] is reassuring, but we want a more concrete definition of what such $Spec^{\mathcal{G}} U$ is like:
 
 +-- {: .un_def}
 ###### Definition
@@ -465,6 +466,8 @@ A [[structured (∞,1)-topos]] $(\mathcal{X}, \mathcal{O})$ is a **$\mathcal{G}$
 
 =--
 
+> **warning** these statement pertain to pregeometries, not geometries. for the moment this here is glossing over the difference between the two. See [[geometry (for structured (∞,1)-toposes)]] for the details.
+
 **examples**
 
 * ordinary smooth [[manifold]]s are [[n-localic (infinity,1)-topos|0-localic]] [[Diff]]-[[generalized scheme]]s ([Structured Spaces|StSp, ex. 4.5.2]])
@@ -477,9 +480,6 @@ A [[structured (∞,1)-topos]] $(\mathcal{X}, \mathcal{O})$ is a **$\mathcal{G}$
 * This last statement is then the basis for calling a general $(CRing^{fin})_{et}^{op}$-[[generalized scheme]] a **derived Deligne-Mumford stack
 
 * Finally, to make contact with the application to the derived moduli stack of derived elliptic curves, it seems that in [[Spectral Schemes]] a derived Deligne-Mumford stack (with derived in the sense of having replaced ordinary commutative rings by [[E-∞ ring]]s) is gonna be a 1-localic  $(E_\infty Ring^{fin})^{op}$-[[generalized scheme]].
-
-
-> **warning** these statement pertain to pregeometries, not geometries. for the moment this here is glossing over the difference between the two. See [[geometry (for structured (∞,1)-toposes)]] for the details.
 
 
 
