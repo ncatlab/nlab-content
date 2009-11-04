@@ -7,7 +7,7 @@ Traditionally, the composite is written $g \circ f$, following the notation intr
 $$ x \stackrel{f}\to y \stackrel{g}\to z $$
 the notation $f g$ reads better. One way to make this anti-Leibniz convention clearer is to write $f ; g$ (which is based on the interpretation of programming commands as morphisms in theoretical computer science).
 
-So the notations $g f$ and $f g$ are ambiguous, while $g \circ f$ and $f ; g$ are less so.
+So the notations $g f$ and $f g$ are ambiguous, while $g \circ f$ and $f ; g$ are less so.  See also [[diagrammatic order]].
 
 
 [[!redirects composite]]
