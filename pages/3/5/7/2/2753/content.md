@@ -14,7 +14,7 @@ A _Lie--Rinehart-pair_ $(A,\mathfrak{g})$ is a pair consisting of an associative
 
 * $\mathfrak{g}$ acts as derivations of $A$: that is, we have a Lie algebra homomorphism $\mathfrak{g} \to Der(A)$. 
 
-* $A$ acts as linear transformations of $\mathfrak{g}$ in a way obeying the Leibniz law: that is, we have an associative algebra homomorphism from $A$ to the algebra of linear transformations of $\mathfrak{g}$ such that
+* $A$ acts as linear transformations of $\mathfrak{g}$ in a way obeying the Leibniz law: that is, we have an associative algebra homomorphism from $A \to End(\mathfrak{g})$, where $End(\mathfrak{g})$ is the algebra of all linear transformations of $\mathfrak{g}$, such that
 $$  [v, a w] = v(a) w + a [v,w]. $$ 
 
 
