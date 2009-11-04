@@ -31,3 +31,7 @@ What is $I$ here? Is it something that any category with weak equivalences must 
 _Urs_: I hope the remark above now clarifies this. If so, this discussion part here should be removed.
 
 _Toby_: The notation still doesn\'t make literal sense, since $C^I$ (primitive or not) isn\'t a product. But I believe that you just mixed up product and pairing, so I fixed that. In other words, I interpret it that $d_0$ and $d_1$ are each morphisms from $C^I$ to $C$.
+
+[[!redirects path objects]]
+[[!redirects cocylinder object]]
+[[!redirects cocylinder objects]]
