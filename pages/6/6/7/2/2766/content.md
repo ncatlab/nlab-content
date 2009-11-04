@@ -2,9 +2,18 @@
 
 ## Definition 
 
-Let $F:J\to C$ be a [[diagram]] in a category $C$.
+Let $F:J\to C$ be a [[diagram]] in a category $C$. Also, for any objects $c,c'\in C$, let $T:\Delta(c)\to F$ and $T':\Delta(c')\to F$ denote [[cones]] over $F$. 
 
-For any objects $c,c'\in C$, let $T:\Delta c\to F$ and $T':\Delta c'\to F$ denote [[cones]] over $F$. A **cone morphism** is a $C$-morphism $\phi\colon c \to c'$ such that all component diagrams
+A **cone morphism** is a [[natural transformation]] $\Delta(\phi)\colon \Delta(c)\to\Delta(c')$ such that the diagram
+$$\array{
+\Delta(c) &{}&\stackrel{\Delta(\phi)}{\longrightarrow} &{}& \Delta(c') \\
+{}& \mathllap{\scriptsize{T}}\searrow &{}& \swarrow\mathrlap{\scriptsize{T'}} &{}  \\
+{}&{}&F&{}&{}
+}
+$$
+commutes.
+
+A **cone morphism** is a $C$-morphism $\phi\colon c \to c'$ such that all component diagrams
 
 $$\array{
 c &{}&\stackrel{\phi}{\longrightarrow} &{}& c' \\
