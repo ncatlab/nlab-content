@@ -19,3 +19,5 @@ In the other direction, for any (discrete) group $G$ one can construct its [[cla
 Moreover, every continuous map between $K(G,1)$s is induced by a group homomorphism, every map between 1-types is induced by a [[functor]] between groupoids, and every homotopy is induced by a conjugation (aka a [[natural transformation]] between groupoids).  In fact, one can show that the $(\infty,1)$-[[(infinity,1)-category|category]] of homotopy 1-types is equivalent to the 2-category [[Grpd]] of [[groupoid]]s, via the above-described correspondence..
 
 There are further aspects to this relationship; for instance, the [[van Kampen theorem]] for the fundamental groupoid shows how the algebra of groupoids models the gluing of spaces.  The general result for non-connected spaces is possible because groupoids model homotopy 1-types, having structure in dimensions 0 and 1.  For the search for algebraic structures that play an analogous role to groupoids for $n$-types with $n\gt 1$, see the pages [[homotopy hypothesis]], [[fundamental infinity-groupoid]], [[cat-n-group]], [[classifying space]], [[crossed complex]], and probably others.
+
+[[!redirects homotopy 1-types]]
