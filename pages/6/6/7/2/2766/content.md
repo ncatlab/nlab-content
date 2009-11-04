@@ -13,7 +13,7 @@ $$\array{
 $$
 commutes.
 
-A **cone morphism** is a $C$-morphism $\phi\colon c \to c'$ such that all component diagrams
+Note, in particular, this means that all component diagrams
 
 $$\array{
 c &{}&\stackrel{\phi}{\longrightarrow} &{}& c' \\
@@ -21,17 +21,7 @@ c &{}&\stackrel{\phi}{\longrightarrow} &{}& c' \\
 {}&{}&F(j)&{}&{}
 }
 $$
-
 commute.
-
-**Under Construction**
-
-$$\array{
-\Delta(c) &{}&\stackrel{\Delta(\phi)}{\longrightarrow} &{}& \Delta(c') \\
-{}& \mathllap{\scriptsize{T}}\searrow &{}& \swarrow\mathrlap{\scriptsize{T'}} &{}  \\
-{}&{}&F&{}&{}
-}
-$$
 
 +--{.query}
 [[Eric]]: What is the "component free" way to say that?
