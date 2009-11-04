@@ -2,13 +2,18 @@
 
 
 <div class="rightHandSide toc">
-[[!include cohomology - contents]]
 
+
+[[!include higher geometry - contents]]
 
 ***
 
 [[!include higher algebra - contents]]
 
+
+***
+
+[[!include cohomology - contents]]
 
 </div>
 
@@ -152,7 +157,7 @@ We fix some [[(∞,1)-category]] $\mathcal{G}$ whose objects we think of as _mod
 =--
 
 
-These [[(∞,1)-category|(∞,1)-categories]] $\mathcal{G}$ are naturally equipped with the structure of a [[site]] (and a bit more, which we don't need here). Following [[Jacob Lurie]] we call such a $\mathcal{G}$ a **[[geometry (for structured (infinity,1)-toposes)|geometry]]** . 
+These [[(∞,1)-category|(∞,1)-categories]] $\mathcal{G}$ are naturally equipped with the structure of a [[site]] (and a bit more, which we won't make explicit for the present purpose). Following [[Jacob Lurie]] we call such a $\mathcal{G}$ a **[[geometry (for structured (infinity,1)-toposes)|geometry]]** . 
 
 We want to be talking about generalized spaces _modeled on_ the objects of $\mathcal{G}$. There is a hierarchy of notions of what that may mean:
 
@@ -168,7 +173,7 @@ $$
     &\hookrightarrow&
     \mathcal{L}Top(\mathcal{G})^{op} 
     &\hookrightarrow&      
-    Sh_\infty(Pro(\mathcal{G}))
+    Sh_{(\infty,1)}(Pro(\mathcal{G}))
     \\
     \\
     model spaces
@@ -229,14 +234,16 @@ Such objects are called [[∞-stack]]s on $\mathcal{G}$. The [[(∞,1)-category]
 
 A supposedly pedagogical discussion of the general philosophy of [[∞-stacks]] as probebable spaces is at [[motivation for sheaves, cohomology and higher stacks]].
 
+The [[∞-stack]]s on $\mathcal{G}$ that are used in the following are those that satisfy [[descent]] on [[Cech cover]]s. But we will see [[(∞,1)-topos]]es of [[∞-stack]]s that may satisfy different descent conditions, in particular with respect to [[hypercover]]s. Every [[∞-stack]] [[(∞,1)-topos]] has a [[hypercompletion]] to one of this form.
+
 For concretely working with [[hypercomplete (∞,1)-topos]]es it is often useful to use [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model structure on simplicial presheaves]].
 
 +-- {: .standout}
 
 $$
   \array{
-    Sh_{(\infty,1)}(C) 
-   &\stackrel{\stackrel{lex}{\leftarrow}}  
+    Sh^{hc}_{(\infty,1)}(C) 
+   &\stackrel{\stackrel{\;\;\;\;\;lex\;\;\;\;\;\;}{\leftarrow}}  
   {\hookrightarrow}&
      PSh_{(\infty,1)}(C)
     && \text{abstract nonsense def of (∞,1)-topos}
@@ -246,7 +253,7 @@ $$
     && \text{Lurie's theorem}
     \\
     ([C^{op}, SSet]_{loc})^\circ
-    &\stackrel{\stackrel{Bousfield loc.}{\leftarrow}}{\to}&
+    &\stackrel{\stackrel{Bousfield\;loc.}{\leftarrow}}{\to}&
     ([C^{op}, SSet]_{glob})^\circ
     &&
     \text{model category of simplicial presheaves}
@@ -268,13 +275,26 @@ Spaces probeable by $\mathcal{G}$ in the above sense can be very general. They n
 
 **(Counter-)Example** For $\mathcal{G} = $ [[Diff]], for every $n \in \mathbb{N}$ we have the [[∞-stack]] $\Omega_{cl}^n(-)$ (which happens to be an ordinary [[sheaf]]) that assigns to each manifold $U$ the set of closed [[differential form|n-form]]s on $U$. This is important as a generalized space: it is something like the rational version of the [[Eilenberg-MacLane space]] $K(\mathbb{Z}, n)$. But at the same time this is a "wild" space that has exotic properties: for instance for $n=3$ this space has just a single point, just a single curve in it, just a single surface in it, but has many nontrivial probes by 3-dimensional manifolds.
 
-In contrast to that, a _structured space_ is supposeed to be a probable space/[[∞-stack]] on $\mathcal{G}$ which does have an _underlying concrete generalized space_
+In the classical theory for instance of [[ringed space]]s or [[diffeological space]]s a _concrete underlying space_ is taken to be a [[topological space]]. But this in turn is a bit _too_ restrictive for general purposes: a topological space is the same as a [[localic topos]]: a [[category of sheaves]] on a [[category of open subsets]] of a [[topological space]]. The obvious generalization of this to [[higher geometry]] is: an [[n-localic (∞,1)-topos]] $\mathcal{X}$.
 
-In the classical theory for instance of [[diffeological space]]s one requires that this means that there is at least an underlying [[topological space]]. But this in turn is a bit _too_ restrictive for general purposes. We observe that a topological space is the same as a [[localic topos]]: a [[category of sheaves]] on a [[category of open subsets]] of a [[topological space]]. The obvious generalization of this to [[higher geometry]] is: an [[n-localic (∞,1)-topos]] $\mathcal{X}$.
+This makes us want to say and make precise the statement that
+
++-- {: .standout}
+
+An **concrete [[∞-stack]]** $X$ is one which has an _underlying_ [[(∞,1)-topos]] $\mathcal{X}$:
+
+the collection of $U$-probes of $X$ is a subobject of the collection of [[(∞,1)-topos]] morphisms from $U$ to $mathcal{X}$:
+
+$$
+  X(U) \subset \mathcal{L}Top(\mathcal{G})^{op}(Sh_{\infty}(U),\mathcal{X})
+$$
+
+=--
+
 
 We think of $\mathcal{X}$ as the [[(∞,1)-topos]] of [[∞-stack]]s on a category of open subsets of a would-be space $X$, only that this would be space $X$ might not have an independent existence as a space apart from $\mathcal{X}$.
 
-To say that $\mathcal{X}$ is _modeled on $\mathcal{G}$_ means that among all the [[∞-stack]]s on the would-be space is singled out one that is the [[structure sheaf]] of functions with values in objects of $\mathcal{G}$: for each object $V \in \mathcal{G}$ there is a [[structure sheaf]] $\mathcal{O}(-,V) \in \mathcal{X}$, naturally in $V$.
+To say that $\mathcal{X}$ is _modeled on $\mathcal{G}$_ means that among all the [[∞-stack]]s on the would-be space a [[structure sheaf]] of functions with values in objects of $\mathcal{G}$ is singled out: for each object $V \in \mathcal{G}$ there is a [[structure sheaf]] $\mathcal{O}(-,V) \in \mathcal{X}$, naturally in $V$.
 
 This yields an [[(∞,1)-functor]]
 
@@ -291,7 +311,7 @@ More precisely:
 
 +-- {: .un_def}
 ###### Definition
-**($\mathcal{G}$-structure, [[StructuredSpaces|StSp, def. 1.2.8]])**
+**($\mathcal{G}$-structure, [[Structured Spaces|StSp, def. 1.2.8]])**
 
 An [[(∞,1)-functor]] $\mathcal{O} : \mathcal{G} \to \mathcal{X}$  is a **$\mathcal{G}$-valued structure sheaf** on the [[(∞,1)-topos]] if
 
@@ -303,13 +323,24 @@ A pair $(\mathcal{X}, \mathcal{O})$ of an [[(∞,1)-topos]] $\mathcal{X}$ equipp
 
 =--
 
+In summary:
+
++-- {: .standout}
+
+A **concrete space $X$ modeled on $\mathcal{G}$** is 
+
+* an [[(∞,1)-topos]] $\mathcal{X}$ ("of $\infty$-stacks on $X$")
+
+* equipped with a $\mathcal{G}$-valued structure sheaf $\mathcal{O}$ in the form of a finite limits and cover preserving functor $\mathcal{O} : \mathcal{G} \to \mathcal{X}$.
+
+=--
 
 The fundamental **example** for [[structured (∞,1)-topos]]es
 are provided by the objects of $\mathcal{G}$ themselves, which are canonically equipped with a $\mathcal{G}$-structure as follows.
 
 +-- {: .un_theorem}
 ###### Theorem
-**[[StructuredSpaces|StSp, thm. 2.1.1]])**
+**[[Structured Spaces|StSp, thm. 2.1.1]])**
 
 Let $f : \mathcal{G} \to \mathcal{G}'$ be a morphism of [[geometry (for structured (infinity,1)-toposes)|geometries], 
 then the obvious [[(∞,1)-functor]] $f^* : \mathcal{L}Top(\mathcal{G}) \to \mathcal{L}Top(\mathcal{G}')$ admits a [[left adjoint]]
@@ -327,7 +358,7 @@ called the **relative spectrum functor**.
 
 =--
 
-For $\mathcal{G}$ any [[geometry (for structured (infinity,1)-toposes)|geometry]], write $\mathcal{G}_{disc}$ for geometry obtained from this by forgetting its [[coverage|Grothendieck topology]] and instead using the discrete topology where only equivalences cover.
+For $\mathcal{G}$ any [[geometry (for structured (infinity,1)-toposes)|geometry]], write $\mathcal{G}_{disc}$ for the [[geometry (for structured (infinity,1)-toposes)|geometry]] obtained from this by forgetting its [[coverage|Grothendieck topology]] and instead using the discrete topology where only equivalences cover.
 
 Notice 
 that we may identify $\mathcal{G}_{disc}$-structures on 
@@ -345,7 +376,7 @@ $$
 
 +-- {: .un_def}
 ###### Definition
-**[[StructuredSpaces|StSp, def. 2.1.2]])**
+**[[Structured Spaces|StSp, def. 2.1.2]])**
 
 The comosite [[(∞,1)-functor]]
 
@@ -363,7 +394,46 @@ we call the **absolute spectrum functor**
 
 =--
 
+There is a more concrete expression for what $Spec^{\mathcal{G}} U$ is like:
+
++-- {: .un_def}
+###### Definition
+**[[Structured Spaces|StSp, def. 2.2.9]])**
+
+For every $U \in \mathcal{G}$ there is naturally induced a [[coverage|topology]] on the [[over category]] $Pro(\mathcal{G})/U$. Let
+
+$$
+  Spec U := Sh_{(\infty,1)}(Pro(\mathcal{G})/U)
+  \,,
+$$
+
+naturally to be thought of as the [[(∞,1)-topos]] of [[∞-stack]]s on $U$.
+
+This is canonically equipped with a [[(∞,1)-functor]]
+
+$$
+  \mathcal{O}_{Spec X}
+  : 
+  \mathcal{G} \to Spec X
+  \,.
+$$
+
+=--
+
+And this is indeed the concrete underlying space produced by the absolute spectrum functor
+
++-- {: .un_theorem}
+###### Theorem
+**[[Structured Spaces|StSp, prop. 2.2.11, thm. 2.2.12]])**
+
+For every $U \in \mathcal{G}$ the pair $(Spec U, \mathcal{O}_{Spec U})$ is indeed a [[structured (∞,1)-topos]] and is indeed equivalent to the $Spec^{\mathcal{G}} U$ defined more abstractly above.
+
+=--
+
+
 **Example** For $\mathcal{G} = (C Ring^{fin})^{op}$ with the standard [[coverage|topology]] we have that 0-localic $\mathcal{G}$-structured spaces are _[[locally ringed space]]s_ , while $\mathcal{G}_{disc}$-structured 0-localic spaces are just arbitrary [[ringed space]]s. Applying the above machinery to this situaton gives a spectrum functor that takes a [[ring]] $R$ first to the [[ringed space]] $({*,R})$ and this then to the [[locally ringed space]] $(Spec R, R)$. 
+
+
 
 #### spaces locally like model spaces: generalized schemes ####
 
