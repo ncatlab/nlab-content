@@ -1,3 +1,10 @@
+
+#effective epimorphism#
+* automatic table of contents goes here
+{:toc}
+
+## Definition ##
+
 An **effective epimorphism** (in a given category) is any morphism that has a [[kernel pair]] and is the [[quotient object]] of its kernel pair.  (Sometimes we say that this morphism is an [[effective quotient]].)  The [[duality|dual]] concept is that of [[effective monomorphism]].
 
 An effective epimorphism is necessarily a [[regular epimorphism]].  Conversely, any regular epimorphism that has a kernel pair is an effective epimorphism.
@@ -5,7 +12,7 @@ An effective epimorphism is necessarily a [[regular epimorphism]].  Conversely, 
 In [[Set|the category of sets]], every [[epimorphism]] is effective. Thus, it can be hard to know, when generalising concepts from $\Set$ to other categories, what kind of epimorphism to use.  In particular, one may define a [[projective object]] (and hence the [[axiom of choice]]) using effective epimorphisms.
 
 
-## $(\infty,1)$-concept ##
+## definition for $(\infty,1)$-categories ##
 
 Notice that we may equivalently reinterpret the condition that
 
