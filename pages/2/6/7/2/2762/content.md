@@ -22,11 +22,17 @@ This is a sub-entry of
 
 see there for background and context.
 
-This entry sketches some basic ideas about the [[higher geometry]] version of the [[moduli stack]] of [[elliptic curve]]s: the derived moduli stack of [[derived elliptic curve]]s.
-
 =--
 
-Previous:
+
+
+>**Abstract** We sketch some basic ideas ([[Jacob Lurie]]'s ideas, that is) about [[higher geometry]] and the higher-geomety version of the [[moduli stack]] of [[elliptic curve]]s: the derived moduli stack of [[derived elliptic curve]]s. We survey aspects of the theory of [[generalized scheme]]s and then sketch how the derived moduli stack of derived elliptic curves is an example of a generalized scheme modeled on the formal dual of [[E-∞ ring]]s.
+
+
+For fully appreciating the details of  the main theorem here the material discussed in the previous sessions (and a little bit more) is necessary, but our exposition of [[generalized scheme]]s is meant to be relatively self-contained (albeit necessarily superficial).
+
+This are the entries on the previous sessions:
+
 
 * [[A Survey of Elliptic Cohomology - cohomology theories]]
 
@@ -43,18 +49,18 @@ Previous:
 
 * [[A Survey of Elliptic Cohomology - A-equivariant cohomology]]
 
-
+***
 
 > **under construction**
 
 
 
-#Contents#
+# the derived moduli stack of derived elliptic curves #
 * automatic table of contents goes here
 {:toc}
 
 
-#Idea#
+## Motivation and Statement ##
 
 In  the context of [[elliptic cohomology]] one assigns to every [[elliptic curve]] $\phi$ over a [[ring]] $R$ a [[cohomology theory]] [[Brown representability theorem|represented]] by an [[E-∞ ring]] [[spectrum]] $E_\phi$.
 
@@ -66,30 +72,35 @@ $$
 
 looks like an [[E-∞ ring]] valued [[structure sheaf]] on $\mathcal{M}_{1,1}$.
 
-There is a very general theory of [[higher geometry]] for [[nLab:generalized scheme|generalized spaces]] with generalized [[nLab:structure sheaf|structure sheaves]]. Using this one may regard the pair $(\mathcal{M}_{1,1}, \mathcal{O}^{Der})$ as a [[structured (infinity,1)-topos|structured space]] that is a "derived" [[Deligne-Mumford stack]].
+There is a very general theory of [[higher geometry]] for [[nLab:generalized scheme|generalized spaces]] with generalized [[nLab:structure sheaf|structure sheaves]]. Using this one may regard the pair 
+
+$$
+  (\mathcal{M}_{1,1}, \mathcal{O}^{Der})
+$$ 
+
+as a [[structured (infinity,1)-topos|structured space]] that is a "derived" [[Deligne-Mumford stack]].
 
 The central theorem about [[elliptic cohomology]] of [[Jacob Lurie]], refining the Goerss-Hopkins-Miller theorem says that
 
 +-- {: .standout}
 
-+-- {: .un_theorem }
-###### Theorem
-**(J. Lurie)**
+**the central theorem, first version**
 
-$(\mathcal{M}, \mathcal{O}^{Der})$ is the _derived moduli stack_ of [[derived elliptic curve]]s in that for any [[E-∞ ring]] $R$ the space of morphisms
+The [[moduli stack]] $\mathcal{M}_{1,1}$ of [[elliptic curve]]s equipped with the [[E-∞ ring]]-valued [[structure sheaf]] $\mathcal{O}^{Der}$ may be regarded as the _derived moduli stack_ of [[derived elliptic curve]]s in that for any [[E-∞ ring]] $R$ the space of derived stack morphisms
 
 $$
-  Spec R \to (\mathcal{M}_{1,1}, \mathcal{O}^{Der})
+  (Spec R, R) \to (\mathcal{M}_{1,1}, \mathcal{O}^{Der})
 $$
 
 is equivalent to the space of [[derived elliptic curve]]s over $R$.
 
-=--
 
 =--
 
+After we have looked at some concepts in [[higher geometry]] a bit more closely below, we will restate this in slightly nicer fashion.
 
-# References #
+
+## References ##
 
 A sketch of what this theorem means and how it is proven is part of the content of 
 
@@ -101,44 +112,155 @@ The general theory for the context of [[higher geometry]] invoked here has later
 
 * [[Jacob Lurie]], [[Structured Spaces]]
 
-but the special case of the general theory that is needed here, where the coefficient objects of structure sheaves are [[E-∞ ring]]s has been announced as
+but the special case of the general theory that is needed here, where the coefficient objects of structure sheaves are [[E-∞ ring]]s has only been announced as
 
 * [[Jacob Lurie]], [[Spectral Schemes]]
 
-but isn't available yet. 
-
-The general theory of [[E-∞ ring]]s themselves, in the [[(∞,1)-category]] theory context needed here, is developed in
+and isn't available yet. On the other hand, the general theory of [[E-∞ ring]]s themselves, in the [[(∞,1)-category]] theory context needed here, is developed in
 
 * [[Jacob Lurie]], [[higher algebra|Commutative geometry]].
 
-# theoretical background on higher geometry #
 
-The statement that we are after really lives in the context of [[higher geometry]]. For details we have to refer you there, but here is an outline of the central aspects. 
+## higher geometry ##
 
-## the most useful most general nonsense  ##
+The statement that we are after really lives in the context of [[higher geometry]] (often called "derived geometry"). Here is an outline of the central aspects. 
+
+### notions of space  ###
 
 The general story of [[higher geometry]] is this:
 
-We fix some [[(∞,1)-category]] of test spaces $\mathcal{G}$ equipped with the structure of a [[site]] (and a bit more). Such $\mathcal{G}$ is called a [[geometry (for structured (infinity,1)-toposes)]].
+We fix some [[(∞,1)-category]] $\mathcal{G}$ whose objects we think of as _model spaces_ : the simplest objects exhibiting the geometric structures that we mean to consider.
 
-Using this, we have a general and a specific notion of spaces modeled on $\mathcal{G}$:
++-- {: .standout}
 
-* A **general space modeled on $\mathcal{G}$** is one 
+**Examples for categories of model spaces**
 
-  * that is _probeable_ by objects of $\mathcal{G}$ in that it is an object in the [[(∞,1)-category of (∞,1)-presheaves]]
+* with smooth structure
 
-    $$
-      X \in PSh(\mathcal{G}) = (\infty,1)Func(\mathcal{G}^{op}, \infty Grpd)
-    $$
+  * $\mathcal{G} = $ [[Diff]], the category of smooth [[manifold]]s;
 
-  * and consistently so, in that satisfies the [[∞-stack]]-condition that makes it sit in an [[(∞,1)-category of (∞,1)-sheaves]] on $\mathcal{G}$
+  * $\mathcal{G} = \mathcal{L}$, the category of [[smooth locus|smooth loci]];
 
-    $$
-      Sh(\mathcal{G}) \stackrel{\leftarrow}{\to}
-      PSh(\mathcal{G})
-    $$
+* without smooth structure
 
-   (See [[motivation for sheaves, cohomology and higher stacks]] for the general philosophy here).
+  * $\mathcal{G} = (C Ring^{fin})^{op}$, the formal dual of [[CRing]]: the category of (finitely generated) algebraic [[affine scheme]]s;
+
+  * $\mathcal{G} = (E_\infty Ring^{fin})^{op}$, the formal dual of [[E-∞ ring]]s: the category of (finitely generated) algebraic derived [[affine scheme]]s.
+
+=--
+
+
+These [[(∞,1)-category|(∞,1)-categories]] $\mathcal{G}$ are naturally equipped with the structure of a [[site]] (and a bit more, which we don't need here). Following [[Jacob Lurie]] we call such a $\mathcal{G}$ a **[[geometry (for structured (infinity,1)-toposes)|geometry]]** . 
+
+We want to be talking about generalized spaces _modelled on_ the objects of $\mathcal{G}$. There is a hierarchy of notions of what that may mean:
+
++-- {: .standout}
+
+**Hierarchy of generalized spaces modeled on $\mathcal{G}$**
+
+$$
+  \array{
+    \mathcal{G} 
+    &\stackrel{Spec^{\mathcal{G}}}{\hookrightarrow}&   
+    Sch(\mathcal{G}) 
+    &\hookrightarrow&
+    Str(\mathcal{G}) 
+    &\hookrightarrow&      
+    Sh_\infty(Pro(\mathcal{G}))
+    \\
+    \\
+    model spaces
+    &&
+    spaces locally like model spaces
+    &&
+    spaces coprobeable by model spaces
+    &&
+    spaces probeable by model spaces
+    \\
+    \\
+    affine\;\mathcal{G}-schemes
+    &&
+    \mathcal{G}-schemes
+    &&
+    \mathcal{G}-structured\;(\infty,1)-toposes
+    &&
+    \infty-stacks\;on\;\mathcal{G}
+    \\
+    \stackrel{specific, nice}{\leftarrow} & 
+    &&&&
+    &
+    \stackrel{general, possibly wild}{\to}
+  }
+$$
+
+=--
+
+We explain what this means from right to left.
+
+
+#### spaces probeable by model spaces: $\infty$-stacks ####
+
+An object $X$ _probeable_ by objects of $\mathcal{G}$ comes with an assignment
+
+$$
+  X : (U \in \mathcal{G}) \mapsto (X(U) \in \infty Grpd)
+$$
+
+of an $\infty$-groupoid of possible ways to probe $X$ by $U$, for each possible $U$, naturally in $U$. So this defines an object in [[(∞,1)-category of (∞,1)-presheaves]] on $\mathcal{G}$
+
+$$
+   X \in PSh(\mathcal{G}) 
+   = 
+   (\infty,1)Func(\mathcal{G}^{op}, \infty Grpd)
+$$
+
+But for $X$ to be _consistently_ probeable it must be true that probes by $U$ can be reconstructed from overlapping probes of pieces of $U$. Technically this means that the [[(∞,1)-presheaf]] $X$ is actually an object in an [[(∞,1)-category of (∞,1)-sheaves]] on $\mathcal{G}$
+
+$$
+  X \in 
+  Sh(\mathcal{G}) \stackrel{}{\hookrightarrow}
+  PSh(\mathcal{G})
+  \,.
+$$
+
+Such objects are called [[∞-stack]]s on $\mathcal{G}$. The [[(∞,1)-category]] $Sh(\mathcal{G})$ is called an [[∞-stack]] [[(∞,1)-topos]].
+
+A supposedly pedagogical discussion of the general philosophy of [[∞-stacks]] as probebable spaces is at [[motivation for sheaves, cohomology and higher stacks]].
+
+For concretely working with [[hypercomplete (∞,1)-topos]]es it is often useful to use [[models for ∞-stack (∞,1)-toposes]] in terms of the [[model structure on simplicial presheaves]].
+
++-- {: .standout}
+
+$$
+  \array{
+    \mathbf{H} := & Sh_{(\infty,1)}(C) &\stackrel{\leftarrow}  
+  {\hookrightarrow}&
+     PSh_{(\infty,1)}(C)
+    && \text{abstract nonsense def of (∞,1)-topos}
+    \\
+    & \uparrow^{\simeq} &&
+    \uparrow^{\simeq}
+    && \text{Lurie's theorem}
+    \\
+    & ([C^{op}, SSet]_{loc})^\circ
+    &\stackrel{\leftarrow}{\to}&
+    ([C^{op}, SSet]_{glob})^\circ
+    &&
+    \text{model category of simplicial presheaves}
+  }
+$$
+
+=--
+
+
+
+#### spaces co-probeable by model spaces: structured $(\infty,1)$-toposes ####
+
+[[structured (∞,1)-topos]]
+
+#### spaces locally like model spaces: generalized schemes ####
+
+
 
 * A **geometric space modeled on $\mathcal{G}$** -- a $\mathcal{G}$-[[generalized scheme]] -- is a space not only probeable by objects of $\mathcal{G}$, but one that is a [[structured (∞,1)-topos]] that is locally _equivalent_ to objects of $\mathcal{G}$:
 
@@ -158,19 +280,27 @@ Using this, we have a general and a specific notion of spaces modeled on $\mathc
       \,.
     $$
 
-**fact** (roughly) 
++-- {: .un_proposition}
+###### Proposition
 
-the inclusion of geometric spaces into all $\infty$-presheaves does land in the $\infty$-shaves, hence in the general spaces, and as such is a [[full and faithful functor]] 
+The inclusion of $\mathcal{G}$-[[generalized scheme]] into $PSh_\infty(Pro(\mathcal{G}))$ 
 
-**proof**
+* does factor through $Sh(Pro(\mathcal{G})) \hookrightarrow PSh(Pro(\mathcal{G}))$;
 
-the second statement is theorem 2.4.1, the first one is lemma 2.4.13 in 
+* and as such is a [[full and faithful (infinity,1)-functor]] $Sch(\mathcal{G})$.
 
-* [[Jacob Lurie]], [[Structured Spaces]]
+=--
+
++-- {: .proof}
+###### Proof
+
+The second statement is theorem 2.4.1 in [[Structured Spaces]], the first one is lemma 2.4.13
+
+=--
 
 
 
-## sheaves on $(\infty,1)$-toposes ##
+### sheaves on $(\infty,1)$-toposes ###
 
 
 In this approach we entirely switch from thinking about a space to thinking about an [[(∞,1)-topos]] thought of as the collection of [[∞-stack]]s on that space.
@@ -184,7 +314,7 @@ by the [[nLab:Yoneda lemma for (∞,1)-categories]] every object in the [[(∞,1
 
 In particular, every object of $\mathcal{X}$ gives a sheaf on $\mathcal{X}$ this way.
 
-## spaces with $E_\infty$-ring valued structure sheaves ##
+### spaces with $E_\infty$-ring valued structure sheaves ###
 
 For the applications to [[elliptic cohomology]] and [[derived elliptic curve]]s our [[geometry (for structured (∞,1)-toposes)|geometry]] $\mathcal{G}$ is the opposite [[(∞,1)-category]] of [[E-∞ ring]]s.
 
@@ -195,11 +325,11 @@ This case hasn't been fully spelled out yet, it is supposed to be the content of
 But heuristically it is clear that everything works "as for ordinary rings, but up to homotopy". So we proceed with fingers crossed.
 
 
-# the derived moduli space of elliptic curves #
+## the derived moduli space of elliptic curves ##
 
 With the above machinery for [[higher geometry]] in hand, we now set out to describe the particular application that we are interested in: the study of the derived [[moduli stack]] of [[derived elliptic curve]]s.
 
-## derived elliptic curves ##
+### derived elliptic curves ###
 
 
 * [[derived elliptic curve]]
@@ -208,17 +338,25 @@ $$
   A \mapsto E(A)
 $$
 
-## the derived moduli stack ##
+### the derived moduli stack ###
 
-Here is in words what this is all about:
+Lurie's discussion of the derived moduli stack $(\mathcal{M}_{1,1}, \mathcal{O}^{Der})$  is more than a re-interpretation of the Goerss-Miller-Hopkins theorem. It is in particular a re-derivation of this result, from the following perspective
 
 +-- {: .standout}
 
-We do have a generalized space of derived ellictpic curves $E$. 
+**the central statement, conceptually**
 
-**Question**: is this a geometric space?
+**Input** We have the $(E_\infty Ring)^{op}$-probeable space
 
-**Answer** Yes. It is represented by a derived scheme.
+$$
+  (E : R \mapsto \{derived\;elliptic\;curves\;over\;R\})
+  \in Sh(E_\infty Ring^{op})
+  \,.
+$$
+
+**Question**: Does this happen to even be a $E_\infty Ring^{op}$-[[generalized scheme]]?
+
+**Answer** Yes. It is actually a [[derived Deligne-Mumford stack]].
 
 =--
 
@@ -243,7 +381,7 @@ $$
 
 
 
-## the classification of derived elliptic curves ##
+### the classification of derived elliptic curves ###
 
 
 The big theorem is that the derived space $(\mathcal{X}, \mathcal{O}^{Der})$ classifies derived elliptic curves over $E_\infty$-rings
