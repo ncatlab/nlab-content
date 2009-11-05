@@ -8,6 +8,11 @@ Decategorification is the reverse of [[vertical categorification]] and turns an 
 
 +--{: .query}
 [[Ben Webster]]: Perhaps something could be said about an extended TQFT $F$?  My understanding was that the decategorification of $F(X)$ was given by $F(X\times S^1)$; is this right?   
+
+[[Urs Schreiber]]: that process certainly makes an $n$-dimensional QFT becomes an $(n-1)$-dimensional one. It is pretty much exactly the mechanism of fiber integration.
+
+So this certainly does have a _flavor_ of decategorification. But the latter also has a precise sense in terms of taking equivalence classes in a category. So at face value fiber integration is something different. But perhaps there is some change of perspective that allows to regard it as decategorification in the systematic sense.
+
 =--
 
 ## Definitions
