@@ -246,5 +246,6 @@ Again, this reduces to the traditional definition when $\alpha_C$ and $\alpha_D$
 
 _Toby_:  This is exactly what I was talking about at [[ericforgy:Natural Transformation]].  I would call it a __lax commutative square of functors__.
 
+[[Eric]]: Ok, but this seems to be "rotated $45^\circ$" relative to what you said there. Here $\alpha:F\Rightarrow G$ is a map between functors (not composites functors) with distinct domains and codomains having component functors $\alpha_C$, $\alpha_D$ and component morphisms $\alpha_x$, $\alpha_y$. I'm trying to emphasize the map $\alpha:F\Rightarrow G$. Now, I'm trying to think about how I might reinterpret functors in this way so that we can iterate the process to higher degrees.
 
 [[!redirects natural transformations]]
