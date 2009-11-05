@@ -95,5 +95,10 @@ Then this is a square in the 2-category of categories. Such squares appear in tu
 
 _Toby_:  That arrow certainly *looks* to me like a $2$-arrow from $\alpha_D\circ F$ to $\alpha_C\circ G$.  Unless it has no particular meaning and is just labelling the entire square as $\alpha\colon F \Rightarrow G$.  In any case, there is the question of what, if anything, goes between $\alpha_D\circ F$ and $\alpha_C\circ G$.  If nothing, then I would call such a thing a __square__ of functors.  If something more interesting, see my answer at [[ericforgy:Natural Transformation]] (which I saw first).
 
- 
+_Todd_: Here's one way of considering how the standard notion of natural transformation is the "right" one. Just as in topology we would like to consider the "space of all continuous maps $X \to Y$" from one space to another as a topological space, and the right notion of topology so we get an appropriate universal property, we want the same thing here. So the term analogous to "space" is "category", the term analogous to "continuous map" is "functor", and the term analogous to "space of all continuous maps from one space to another" or "function space" is "category of all functors from one category to another" or "functor category". And there should be a universal property which gives the right such category. 
+
+In the end, if $D^C$ denotes the functor category, the universal property provides an equivalence between functors $X \to D^C$ and functors $X \times C \to D$. Pursuing this, let's figure out what morphisms in $D^C$ should look like. In an ordinary category $Y$, a morphism in $Y$ corresponds to a functor $\mathbf{2} \to Y$, where $\mathbf{2}$ is a category with two objects $0, 1$ and exactly one nonidentity arrow $0 \to 1$. So morphisms in $D^C$ should correspond to functors $\mathbf{2} \to D^C$. And the universal property says these are equivalent to functors $\mathbf{2} \times C \to D$. Now: if you carefully work through what functors of that form give you, you get precisely the notion of natural transformation. This is an exercise well worth working out. 
+
+This is how you know the notion of natural transformation is morally the "right" one. 
+
 [[!redirects natural transformations]]
