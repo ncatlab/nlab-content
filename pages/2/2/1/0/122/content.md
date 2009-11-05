@@ -250,5 +250,7 @@ _Toby_:  This is exactly what I was talking about at [[ericforgy:Natural Transfo
 
 _Urs_: no, the $\alpha$ the way you defined it _is_ a transformation between the composite functors: it is precisely a natural transformation from $\alpha_D \circ F$ to $G \circ \alpha_C$
 
+_Toby_:  You are right that it is rotated *conceptually*, but what I wrote there was also supposed to be rotated conceptually.  The thing itself is indifferent to being from $F$ to $G$, but once you declare (conceptually) that it is to be something from $F$ to $G$, then what you have is a morphism in an arrow $2$-category, as I wrote there.
+
 
 [[!redirects natural transformations]]
