@@ -102,3 +102,5 @@ _Toby_: Should we create a page [[terminological disputes]] (for archiving only,
 #References#
 
 Carboni, Aurelio and Lack, Stephen and Walters, R. F. C., _Introduction to extensive and distributive categories_, JPAA 84 no. 2 
+
+[[!redirects lextensive category]]
