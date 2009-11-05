@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include categorification - contents]]
+</div>
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -24,7 +29,7 @@ If you call that 'oidification', then you can call this simply 'categorification
 
 #Further discussion#
 
-A bit of $n$-Caf&#233; discussion on this subject can be found here: 
+A bit of $n$-Caf&eacute; discussion on this subject can be found here: 
 
 * [[John Baez]], [_What is categorification?_](http://golem.ph.utexas.edu/category/2008/10/what_is_categorification.html)
 
