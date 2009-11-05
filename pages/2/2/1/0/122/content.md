@@ -87,4 +87,10 @@ If this is not a natural transformation, is there another name for it?
 
 When $A = C$ and $B = D$, this should coincide with the usual definition. If so, why don't we define natural transformation in this more general way? It seems more "natural" to me.
 
+[[Urs Schreiber]]: I suppose your 2-arrow in the middle labeled $\alpha$ is supposed to be a natural transformation (in the standard sense)? 
+
+Then this is a square in the 2-category of categories. Such squares appear in turn as the _components_ of [[lax natural transformation]]s of 2-functors into [[Cat]].
+
+
+ 
 [[!redirects natural transformations]]
