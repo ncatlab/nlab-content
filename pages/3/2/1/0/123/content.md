@@ -189,4 +189,7 @@ Urs: that diagram seems to be meaningful only if $A = B$, right? In that case, t
 
 Urs: now you are looking for the notion [[cograph of a functor]] (you should make us write out more details at that entry!)
 
+[[Eric]]: **Gulp!** Ok. But is there a term for the (small) category $C = A\cup B$ where $C_0 = A_0\cup B_0$ and $C_1 = A_1\cup B_1$?
+
+
 [[!redirects functors]]
