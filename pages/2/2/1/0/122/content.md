@@ -244,4 +244,7 @@ $$
 
 Again, this reduces to the traditional definition when $\alpha_C$ and $\alpha_D$ are identity functors. What do you think? If this doesn't already have a name (it probably does), what would be a good name for it?
 
+_Toby_:  This is exactly what I was talking about at [[ericforgy:Natural Transformation]].  I would call it a __lax commutative square of functors__.
+
+
 [[!redirects natural transformations]]
