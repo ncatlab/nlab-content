@@ -1,6 +1,6 @@
 **categorification**
 
-##Contents
+##Contents##
 
 * [[vertical categorification]]
 
@@ -8,7 +8,13 @@
 
 * [[decategorification]]
 
-* examples
 
-  * [[Khovanov homology]]
+## Examples of categorification ##
 
+* [[Khovanov homology]]
+
+## Examples of decategorification ##
+
+* [[Grothendieck group]]
+
+<div markdown="1">[Edit this sidebar](/nlab/edit/categorification+-+contents)</div>
