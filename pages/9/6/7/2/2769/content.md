@@ -22,10 +22,10 @@ with the order preserved from the original diagram.  The $f g$ notation occurs i
 
 +-- {: .query}
 Is $f; g$ really more common than $f g$, as Charles Wells wrote here a moment ago?  I\'ve seen $f g$ more often (even for this order) and $f; g$ mostly in CS-oriented literature, but my experience is probably not as broad.  ---Toby
-=--
 
-+-- {: .query}
 The change you made is probably good.  Much of my work in category theory was done in connection with computer science, so my perception may be skewed.  --Charles
+
+OK, thanks!  ---Toby
 =--
 
 Although diagrammatic order has advantages and partisans, especially among category theorists and computer scientists, the "classical" order of composition is firmly entrenched in much of mathematics.  Many people who agree that diagrammatic order is "better" on its own merits nevertheless believe that trying to change the established "classical" order of composition creates more confusion than it removes.
