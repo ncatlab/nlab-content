@@ -66,7 +66,7 @@ An analogous approach works for strict cubical $\omega$-categories with connecti
 [[Eric]]: For some reason, I always thought a natural transformation was a more general map between functors $\alpha:F\Rightarrow G$, where
 $$F:A\to B\quad\text{and}\quad G:C\to D.$$
 
-Then $\alpha(F):C\to D$ is a functor and we'd probably also want 2-component functors $\alpha_C:A\to C$ and $\alpha_D:B\to D$ such that the following diagram commutes
+Then $\alpha(F):C\to D$ is a functor and we'd probably also want **2-component** functors $\alpha_C:A\to C$ and $\alpha_D:B\to D$ such that the following diagram commutes
 $$ 
   \array{ 
     A 
@@ -91,6 +91,6 @@ When $A = C$ and $B = D$, this should coincide with the usual definition. If so,
 
 Then this is a square in the 2-category of categories. Such squares appear in turn as the _components_ of [[lax natural transformation]]s of 2-functors into [[Cat]].
 
-
+[[Eric]]: Thanks. I was hesitant to put that 2-arrow in there. I'm still learning this stuff and am on shaky ground. But no. That 2-arrow is not supposed to be a natural transformation in the traditional sense because it is not a map between functors with the same domain and codomain. It is tempting to say we might want $\alpha_D\circ F\Rightarrow\alpha_C\circ G$ to be a natural transformation in the traditional sense though.
  
 [[!redirects natural transformations]]
