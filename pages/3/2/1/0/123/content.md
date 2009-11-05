@@ -158,4 +158,29 @@ $$F^*(1_V) = 1_{F^*(V)}$$
 
 as required. Hence, $F^*$ is a functor.
 
+##Discussion##
+
+[[Eric]]: Motivated by some discussion over at [[natural transformation]], I was wondering if the following alternative definition of functor holds water:
+
+>##Definition##
+>Given categories $A$, $B$, a **functor** is a map $F:A\to B$ that assigns maps $\alpha_x:x\to F(x)$ and $\alpha_y:y\to F(y)$ for any morphism $f:x\to y$ in $A$ such that the following diagram commutes:
+$$ 
+  \array{ 
+    x
+    & 
+    \stackrel{f}{\to} 
+    & 
+    y 
+    \\ 
+    \mathllap{\scriptsize{\alpha_x}}\downarrow 
+    && 
+    \downarrow\mathrlap{\scriptsize{\alpha_y}} 
+    \\ F(x) 
+    & 
+    \stackrel{F(f)}{\to} & F(y) 
+  }
+$$
+
+If so, it has a certain beauty that appeals to me. Thanks!
+
 [[!redirects functors]]
