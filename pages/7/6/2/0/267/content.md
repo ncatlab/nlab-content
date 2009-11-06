@@ -60,3 +60,6 @@ References:
 * R. Brown and J.-L. Loday, Van Kampen theorems for diagrams of spaces,  Topology 26 (1987) 311-334.
 
 * [This Week's Finds in Mathematical Physics (Week 242)](http://golem.ph.utexas.edu/category/2006/12/this_weeks_finds_in_mathematic_4.html#c006655) (Discussion at the n-Cafe)
+
+
+[[!redirects geometric shapes for higher categories]]
