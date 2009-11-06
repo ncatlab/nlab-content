@@ -195,5 +195,6 @@ _Toby_:  You could just call that the _union_ of the two categories.  But it\'s 
 
 Alternatively, you could take it as understood that the sets $A_0$ and $B_0$ are disjoint, (and similarly for $A_1$ and $B_1$).  Then you get the _disjiont union_ of the two categories, and that is an important concept; it is the [[coproduct]] in [[Cat]].  And that is one of the ingredients of the [[cograph of a functor]], so probably it\'s what you want.
 
+[[Eric]]: It seems like maybe I am trying to work backwards, i.e. define a functor via a cograph.
 
 [[!redirects functors]]
