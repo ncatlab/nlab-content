@@ -289,5 +289,7 @@ Interesting! That means a morphism in a arrow 2-category is the same thing as a 
 
 Urs: it seems to me what you are getting is is the relation between 2-categories and [[double category|double categories]]: a double category is a gadget whose 2-cells are squares not bigons. Every 2-category yields a double category by precisely the kind of operation that you are describing: take the squares of the double category to be things built from four 1-morphisms and one 2-morphism in the 2-category. Indeed, as a 2-morphism in the 2-category it is something that goes between the composites of the 1-morphisms, but the resulting square itself in the double category is indeed a 2-morphism to be regarded as going from the top horizontal to the bottom horizontal 1-morphism.
 
+_Toby_:  Don\'t you have to talk about a [[double bicategory]] to get something nontrivial to fill the squares?  I may have this wrong, but that\'s how I remember it.
+
 
 [[!redirects natural transformations]]
