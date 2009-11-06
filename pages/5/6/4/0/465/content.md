@@ -57,3 +57,4 @@ I'm not *necessarily* saying we shouldn't use the term "regular epimorphism" in 
 
 [[!redirects regular epi]]
 [[!redirects regular epimorphisms]]
+[[!redirects regular epis]]
