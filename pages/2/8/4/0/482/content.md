@@ -1,4 +1,4 @@
-The **kernel pair** of a morphism $f:X\to Y$ in a category $C$ is a pair of morphisms $R\,\rightrightarrows \, X$ which are a [[pullback]] of $f$ against itself, i.e. a [[limit]] of the diagram
+The **kernel pair** of a morphism $f:X\to Y$ in a category $C$ is a pair of morphisms $R\,\rightrightarrows \, X$ which form a [[limit]] of the diagram
 
 $$\array{
 X &            &   &            & X \\
@@ -6,7 +6,7 @@ X &            &   &            & X \\
   &            & Y \\
 }$$
 
-also called the [[fiber product]] $X \times_Y X$ of $X$ with itself over $Y$.
+We can think of this as the [[fiber product]] $X \times_Y X$ of $X$ with itself over $Y$, or as the [[pullback]] of $f$ along itself.
 
 The kernel pair is always an [[congruence]] on $X$; informally, $R$ is the subobject of $X \times X$ consisting of pairs of elements which have the same value under $f$ (sometimes called the 'kernel' of a function in $\Set$).
 
