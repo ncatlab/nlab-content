@@ -53,7 +53,7 @@ In even more detail, a strict $2$-category $K$ consists of
 
 *  a collection $Ob K$ or $Ob_K$ of _objects_ or _$0$-cells_,
 *  for each object $a$ and object $b$, a collection $K(a,b)$ or $Hom_K(a,b)$ of _morphisms_ or _$1$-cells_ $a \to b$, and
-*  for each object $a$, object $b$, morphism $f\colon a \to b$, and morphism $g\colon a \to b$, a collection $K(f,g)$ or $2 Hom_K(f,g)$ of _$2$-morphisms_ or _$2$-cells_ $f \to g$ or $f \Rightarrow g$,
+*  for each object $a$, object $b$, morphism $f\colon a \to b$, and morphism $g\colon a \to b$, a collection $K(f,g)$ or $2 Hom_K(f,g)$ of _$2$-morphisms_ or _$2$-cells_ $f \Rightarrow g$ or $f \Rightarrow g\colon a \to b$,
 
 equipped with
 
@@ -61,16 +61,24 @@ equipped with
 *  for each $a,b,c$, $f\colon a \to b$, and $g\colon b \to c$, a _composite_ $f ; g\colon a \to c$ or $g \circ f\colon a \to c$,
 *  for each $f\colon a \to b$, an _identity_ $1_f\colon f \Rightarrow f$ or $\Id_f\colon f \to f$,
 *  for each $f,g,h\colon a \to b$, $\eta\colon f \Rightarrow g$, and $\theta\colon g \Rightarrow h$, a _vertical composite_ $\theta \bullet \eta\colon f \Rightarrow h$,
-*  for each $a,b,c$, $f\colon a \to b$, $g,h\colon b \to c$, and $\eta\colon g \Rightarrow h$, a _left whiskering_ $\eta \circ f\colon g \circ f \Rightarrow h \circ f$, and
-*  for each $a,b,c$, $f,g\colon a \to b$, $h\colon b \to c$, and $\eta\colon f \Rightarrow g$, a _right whiskering_ $h \circ \eta \colon h \circ f \Rightarrow h \circ g$,
+*  for each $a,b,c$, $f\colon a \to b$, $g,h\colon b \to c$, and $\eta\colon g \Rightarrow h$, a _left whiskering_ $\eta \triangleleft f\colon g \circ f \Rightarrow h \circ f$, and
+*  for each $a,b,c$, $f,g\colon a \to b$, $h\colon b \to c$, and $\eta\colon f \Rightarrow g$, a _right whiskering_ $h \triangleright \eta \colon h \circ f \Rightarrow h \circ g$,
 
 such that
 
 *  for each $f\colon a \to b$, the composites $f \circ \id_a$ and $\id_b \circ f$ each equal $f$,
 *  for each $a \overset{f}\to b \overset{g}\to c \overset{h}\to d$, the composites $h \circ (g \circ f)$ and $(h \circ g) \circ f$ are equal,
 *  for each $\eta\colon f \Rightarrow g\colon a \to b$, the vertical composites $\eta \bullet \Id_f$ and $\Id_g \bullet \eta$ both equal $\eta$,
-*  for each $f \overset{\eta}\to g \overset{\theta}\to h \overset{\iota}\to i$ (with $f,g,h,i\colon a \to b$), the vertical composites $\iota \bullet (\theta \bullet \eta)$ and $(\iota \bullet \theta) \circ \eta$ are equal,
-*  (more in a moment, it\'s been half an hour) ...
+*  for each $f \overset{\eta}\Rightarrow g \overset{\theta}\Rightarrow h \overset{\iota}\Rightarrow i\colon a \to b$, the vertical composites $\iota \bullet (\theta \bullet \eta)$ and $(\iota \bullet \theta) \circ \eta$ are equal,
+*  for each $a \overset{f}\to b \overset{g}\to c$, the whiskerings $\id_g \triangleleft f$ and $g \triangleright \id_f$ both equal $\id_{g \circ f }$,
+*  for each $f\colon a \to b$ and $g \overset{\eta}\Rightarrow h \overset{\theta}\Rightarrow i\colon b \to c$, the vertical composite $(\theta \triangleleft f) \bullet (\eta \triangleleft f)$ equals the whiskering $(\theta \bullet \eta) \triangleleft f$,
+*  for each $f \overset{\eta}\Rightarrow g \overset{\theta}\Rightarrow h\colon a \to b$ and $i\colon b \to c$, the vertical composite $(i \triangleright \theta) \bullet (i \triangleright \eta)$ equals the whiskering $i \triangleright (\theta \bullet \eta)$,
+*  for each $a \overset{f}\to b \overset{g}\to c$ and $\eta\colon h \Rightarrow i\colon c \to d$, the left whiskerings $\eta \triangleleft (g \circ f)$ and $(\eta \triangleleft g) \triangleleft f$ are equal,
+*  for each $f\colon a \to b$, $\eta\colon g \Rightarrow h\colon b \to c$, and $i\colon c \to d$, the whiskerings $i \triangleright (\eta \triangleleft f)$ and $(i \triangleright \eta) \triangleleft f$ are equal,
+*  for each $\eta\colon f \Rightarrow g\colon a \to b$ and $b \overset{h}\to c \overset{i}\to d$, the right whiskerings $i \triangleright (h \triangleright \eta)$ and $(i \circ h) \triangleright \eta$ are equal, and
+*  for each $\eta\colon f \Rightarrow g\colon a \to b$ and $\theta\colon h \Rightarrow i\colon b \to c$, the vertical composites $(i \triangleright \eta) \circ (\theta \triangleleft f)$ and $(\theta \triangleleft g) \circ (h \triangleright \eta)$ are equal.
+
+The construction in the last axiom is the _horizontal composite_ $\theta \circ \eta\colon h \circ f \to i \circ g$.  It is possible (and probably more common) to take the horizontal composite as basic and the whiskerings as derived operations.  This results in fewer, but more complicated, axioms.
 
 
 ##Remarks
