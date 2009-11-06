@@ -59,9 +59,9 @@ In particular, the *transpose* of a double category, which switches the vertical
 
 * Any topological space has a "homotopy double groupoid" whose objects are points, whose morphisms of both types are paths (so it is edge-symmetric), and whose 2-cells are homotopies.
 
-* There is a double category $MonCat$ whose objects are [[monoidal categories]], whose horizontal arrows are [[lax monoidal functors]], whose vertical arrows are [[colax monoidal functors]], and whose 2-cells are generalized [[monoidal transformations]].  An analogous double category can be constructed involving the algebras for any [[2-monad]].
+* There is a double category $MonCat$ whose objects are [[monoidal categories]], whose horizontal arrows are [[lax monoidal functor]]s, whose vertical arrows are [[colax monoidal functor]]s, and whose 2-cells are generalized [[monoidal natural transformation]]s.  An analogous double category can be constructed involving the algebras for any [[2-monad]].
 
-* There is a double category $Model$ whose objects are [[model categories]], whose horizontal arrows are right [[Quillen functors]], whose vertical arrows are left Quillen functors, and whose 2-cells are arbitrary natural transformations.  Passage to [[derived functors]] is a functor on this double category.
+* There is a double category $Model$ whose objects are [[model categories]], whose horizontal arrows are right [[Quillen functor]]s, whose vertical arrows are left Quillen functors, and whose 2-cells are arbitrary natural transformations.  Passage to [[derived functors]] is a functor on this double category.
 
 
 ## Weakenings ##
