@@ -75,3 +75,6 @@ more elementary notion of [[derived functor on a derived category]] in [[homolog
 #Examples#
 
 * The (total) derived functor of the [[limit]] functor is the [[homotopy limit]].  The functors $lim^{(i)}$ often called the derived functors of Lim are then given by the (co)homology of that 'total' form.  
+
+
+[[!redirects derived functors]]
