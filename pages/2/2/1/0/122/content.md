@@ -291,5 +291,9 @@ Urs: it seems to me what you are getting is is the relation between 2-categories
 
 _Toby_:  Don\'t you have to talk about a [[double bicategory]] to get something nontrivial to fill the squares?  I may have this wrong, but that\'s how I remember it.
 
+[[Mike Shulman]]: No, a double bicategory is just a double category in which both composition operations are only associative and unital up to isomorphism.  Sometimes I feel like "double categories" should really have been called "double 2-categories," since they have nontrivial 2-cells.  So it is true that what Eric is interested in are just the 2-cells in the double category $Sq(Cat)$ of "squares" or "quintets" in $Cat$.  As such, they have two different composition operations given by pasting.
+
+Another way to describe it is that these are the morphisms in the 2-category $2Cat_{oplax}(\mathbf{2},Cat)$, where for 2-categories $A$ and $B$, $2Cat_{oplax}(A,B)$ denotes the 2-category whose objects are 2-functors $A\to B$ and whose morphisms are [[oplax natural transformations]], and $\mathbf{2}$ denotes the [[walking arrow]].  Thus an object of $2Cat_{oplax}(\mathbf{2},Cat)$ is a 2-functor $\mathbf{2}\to Cat$, i.e. a functor, and a morphism is an oplax natural transformation, which is precisely what you've described.  Composition of morphisms in $2Cat_{oplax}(\mathbf{2},Cat)$ is one of the above compositions in the double category $Sq(Cat)$.
+
 
 [[!redirects natural transformations]]
