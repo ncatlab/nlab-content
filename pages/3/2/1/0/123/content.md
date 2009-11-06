@@ -197,4 +197,32 @@ Alternatively, you could take it as understood that the sets $A_0$ and $B_0$ are
 
 [[Eric]]: It seems like maybe I am trying to work backwards, i.e. define a functor via a cograph.
 
+[[Eric]]: Ok! I think I got it. Does this hold water?
+
+***
+
+##Definition##
+Given categories $A$, $B$ and inclusion maps $i_A:A\to A\sqcup B$, $i_B:B\to A\sqcup B$, a **functor** is a map $F:A\to B$ that assigns morphisms $\alpha_x:i_A(x)\to i_B\circ F(x)$ and $\alpha_y:i_A(y)\to i_B\circ F(y)$ for any morphism $f:x\to y$ in $A$ such that the following diagram commutes:
+$$ 
+  \array{ 
+    i_A(x)
+    & 
+    \stackrel{i_A(f)}{\to} 
+    & 
+    i_A(y) 
+    \\ 
+    \mathllap{\scriptsize{\alpha_x}}\downarrow 
+    && 
+    \downarrow\mathrlap{\scriptsize{\alpha_y}} 
+    \\ i_B\circ F(x)
+    & 
+    \stackrel{i_B\circ F(f)}{\to} & i_B\circ F(y) 
+  }
+$$
+It follows that $i_A$ and $i_B$ are functors.
+
+Note that a map $F:A\to B$ is a functor if the map $\alpha:i_A\Rightarrow i_B\circ F$ is a natural transformation.
+
+***
+
 [[!redirects functors]]
