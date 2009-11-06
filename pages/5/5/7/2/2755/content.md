@@ -15,15 +15,15 @@ Most prescriptions for taking classical limits are formulated in algebraic setti
 
 #Relations to coherent states#
 
-One method for producing [[classical mechanics]] from a quantum theory is by looking at [[coherent state]]s of the quantum theory: states that have a localized probaility distribution in classical [[phase space]] whose center follows the classical equations of motion. 
+One method for producing [[classical mechanics]] from a quantum theory is by looking at [[coherent state]]s of the quantum theory. The standard (Glauber) coherent states 
+have a localized probability distribution in classical [[phase space]] whose center follows the classical equations of motion when the Hamiltonian is quadratic in positions and momenta. 
 
-Roughly, coherent states form a nice orbit of unit vectors 
-of a Hilbert space $H$ under a dynamical symmetry group 
-$G$ with a triangular decomposition, such that the linear combinations of coherent states are dense in $H$, and the inner product $\phi^*\psi$ of coherent states $\phi$ and $\psi$ 
-can be calculated explicitly in terms of the highest 
-weight representation theory of $G$. The diagonal of the 
-$N$-th tensor power of $H$ has coherent states $\psi_N$ 
-(labelled by the same classical phase space as the original coherent states, and corresponding to the $N$-fold highest weight) with inner product 
+(For nonquadratic Hamiltonians, this only holds approximately over short times. For example, 
+for the 2-body problem with a $1/r^2$ interaction, 
+Glauber coherent states are not preserved by the dynamics.
+In this particular case, there are, however, alternative SO(2,4)-based coherent states that are preserved by the dynamics, smeared over Kepler-like orbits. The reason is that the Kepler 2-body problem - and its quantum version, the hydrogen atom - are superintegrable systems with the large dynamical symmetry group SO(2,4).)
+
+In general, roughly, coherent states form a nice orbit of unit vectors of a Hilbert space $H$ under a dynamical symmetry group $G$ with a triangular decomposition, such that the linear combinations of coherent states are dense in $H$, and the inner product $\phi^*\psi$ of coherent states $\phi$ and $\psi$ can be calculated explicitly in terms of the highest weight representation theory of $G$. The diagonal of the $N$-th tensor power of $H$ has coherent states $\psi_N$ (labelled by the same classical phase space as the original coherent states, and corresponding to the $N$-fold highest weight) with inner product 
 
 $$
 \phi_N^* \psi_N = (\phi^* \psi)^N
@@ -40,7 +40,7 @@ Basic literature on relations between [[coherent state]]s and the classical limi
 
 * A. M. Perelomov, 
 Generalized Coherent States and Their Applications, 
-Spring-Verlag, Berlin, 1986.
+Springer Verlag, Berlin, 1986.
 
 and the paper
 
