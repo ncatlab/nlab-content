@@ -5,7 +5,24 @@ A **coproduct** of two [[object|objects]] $a,b$ in a [[category]] $C$ is an obje
 This map $p$ is called the __[[copairing]]__ of $f$ and $g$ and is often denoted $[f,g]$ or $\{f,g\}$ or (when possible) given vertically:
 $$\left\{{f \atop g}\right\}$$
 
-# Remarks #
+#Examples#
+
+*  In [[Set]], the coproduct of a family of sets $(C_i)_{i\in I}$ is the [[disjoint union]] $\coprod_{i\in I} C_i$ of sets.
+*  In [[Cat]], the coproduct of a family of categories $(C_i)_{i\in I}$ is the category with
+$$Obj(\coprod_{i\in I} C_i) = \coprod_{i\in I} Obj(C_i)$$
+   and
+$$
+  Hom_{\coprod_{i\in I} C_i}(x,y) = 
+  \left\{
+    \begin{aligned}
+      Hom_{C_i(x,y)} & if x,y \in C_i
+      \\
+      \emptyset & otherwise
+    \end{aligned}
+  \right.
+$$ 
+
+#Remarks#
 
 * When they exist, coproducts are unique up to unique canonical isomorphism, so we often say "[[generalized the|the]] coproduct."
 * One can define in a similar way a coproduct of any family of objects.  A coproduct of the [[empty set|empty]] family is an [[initial object]].
