@@ -1,5 +1,26 @@
 >This page is an informal/speculative discussion of an alternative (yet hopefully equivalent) definition of [[functor]]. It first appeared as a discussion at [[functor]] itself, but was subsequently moved here.
 
+##Definition##
+Given categories $A$, $B$ and inclusion maps $i_A:A\to A\sqcup B$, $i_B:B\to A\sqcup B$, a **functor** is a map $F:A\to B$ that assigns morphisms $\alpha_x:i_A(x)\to i_B\circ F(x)$ and $\alpha_y:i_A(y)\to i_B\circ F(y)$ for any morphism $f:x\to y$ in $A$ such that the following diagram commutes:
+$$ 
+  \array{ 
+    i_A(x)
+    & 
+    \stackrel{i_A(f)}{\to} 
+    & 
+    i_A(y) 
+    \\ 
+    \mathllap{\scriptsize{\alpha_x}}\downarrow 
+    && 
+    \downarrow\mathrlap{\scriptsize{\alpha_y}} 
+    \\ i_B\circ F(x)
+    & 
+    \stackrel{i_B\circ F(f)}{\to} & i_B\circ F(y) 
+  }
+$$
+
+***
+
 ##Discussion##
 
 [[Eric]]: Motivated by some discussion over at [[natural transformation]], I was wondering if the following alternative definition of functor holds water:
