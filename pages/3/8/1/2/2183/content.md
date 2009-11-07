@@ -1,5 +1,8 @@
 [[!redirects hypostasis]]
+[[!redirects hypostases]]
 [[!redirects hypostatic object]]
+[[!redirects reification]]
+[[!redirects subjectal abstraction]]
 
 __Hypostatic abstraction__ is a formal operation that takes an element of information, as expressed in a proposition _$X$ is $Y$_, and conceives its information to consist in the relation between that subject and another subject, as expressed in the proposition _$X$ has $Y$-ness_.  The existence of the abstract subject $Y$-ness consists solely in the truth of those propositions that contain the concrete predicate $Y$.  Hypostatic abstraction is known under many names, for example, _hypostasis_, _objectification_, _reification_, and _subjectal abstraction_.  The object of discussion or thought thus introduced is termed a __hypostatic object__.
 
@@ -34,7 +37,7 @@ The grammatical trace of this hypostatic transformation tells of a process that 
 
 * [[continuous predicate]]
 
-# External links #
+# Links #
 
 * [Hypostatic Abstraction @ MyWikiBiz](http://mywikibiz.com/Hypostatic_abstraction)
 
