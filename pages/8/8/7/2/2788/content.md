@@ -21,6 +21,8 @@ $$
 
 ***
 
+[[Todd Trimble|Todd]]: If $A \sqcup B$ means the disjoint union of $A$ and $B$, then there are no morphisms of the form $i_A(x) \to i_B(F(x))$. 
+
 ##Discussion##
 
 [[Eric]]: Motivated by some discussion over at [[natural transformation]], I was wondering if the following alternative definition of functor holds water:
