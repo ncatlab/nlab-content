@@ -65,10 +65,37 @@ If $C$ is regular, a quick definition of $C_{ex/reg}$ is as the full subcategory
 
 A more explicit description can be obtained by first passing from $C$ to its [[allegory]] of internal relations, then [[split idempotent|splitting]] the idempotents which are equivalence relations in $C$, and finally reconstructing a regular category from the resulting allegory.  Yet more explicitly, this means that the objects of $C$ are congruences in $C$, and the morphisms are relations which are [[entire relation|entire]] and [[functional relation|functional]] relative to the given congruences.
 
-Another way of phrasing this is that $C_{ex/reg}$ is the category of internal [[0-categories]] in $C$ and [[anafunctors]] between them.
+
+## The higher categorical approach
+
+A somewhat more unified approach to all these completions can be obtained as follows.  Observe that in the classical situation (that is, in the presence of choice), *sets* can be identified with all of the following:
+
+* 0-trivial [[groupoids]], i.e. groupoids in which any two parallel morphisms are equal, i.e. [[equivalence relations]].
+* 0-trivial [[2-groupoids]], i.e. 2-groupoids in which any two parallel 2-morphisms are equal and any two parallel 1-morphisms are isomorphic.
+* and so on...
+* 0-trivial [[n-groupoids]] for any $0\le n \le \infty$.
+
+In the absence of choice, this is still true as long as the morphisms between 0-trivial n-groupoids are $n$-[[anafunctors]].  If instead we consider only actual functors, however, in the absence of choice what we obtain are various completions of $Set$.  Specifically:
+
+* $Set_{reg/lex}$ can be identified with the category whose objects are 0-trivial groupoids, and whose morphisms are natural isomorphism classes of functors.
+* $Set_{ex/lex}$ can be identified with the category whose objects are 0-trivial 2-groupoids, and whose morphisms are pseudonatural equivalence classes of 2-functors.  In the notion of 2-groupoid here we also demand that each 1-cell be equipped with a *specified* inverse [[equivalence]].
+
+This idea can be generalized to provide alternate constructions of the completions for an arbitrary $C$ with finite limits.  The notions of [[internal category|internal]] $n$-category and internal $n$-functor in such a $C$ make perfect sense for any $n$.  The same is true of the notion of $n$-groupoid, as long as we interpret this to mean the *structure* of "inverse-assigning" morphisms in $C$.  The statement "any two parallel $n$-cells are equal" also makes sense in any lex category, since it demands that a certain speciied morphism is monic.  Finally, we can also interpret "any two parallel $k$-cells are equivalent" algebraically by specifying a particular equivalence between any such pair.  (Note that for $k=(n-1)$, since parallel $n$-cells are equal there is a unique way to do this.)  We thereby obtain a notion of internal 0-trivial $n$-groupoid in any lex category, and we write $0 triv n Gpd(C)$ for the category of such things and internal $n$-natural equivalence classes of functors.  We then have:
+
+* It is fairly clear from the above explicit description that $C_{reg/lex}$ is the full subcategory of $0 triv 1 Gpd(C)$ determined by the [[kernel pairs]] (which are [[congruences]], i.e. internal 0-trivial 1-groupoids).  If, like $Set$, $C$ is already exact, so that every congruence is a kernel pair, then $C_{reg/lex}\simeq 0 triv 1 Gpd(C)$.
+
+* $C_{ex/lex}$ is always equivalent to $0 triv 2 Gpd(C)$.  To see this, note that a pseudo-equivalence relation (together with chosen maps $i$, $c$, and $v$) can be regarded as the 1-skeleton of an internal [[bicategory]] in $C$ with specified inverse equivalences for every 1-cell.  There is then a unique way to add 2-cells to make it a 0-trivial bigroupoid.
+
+It is not clear how 0-trivial $n$-groupoids fit into this picture for $n\gt 2$, although it seems likely that the objects of *iterated* reg/lex and ex/lex completions can be identified with some type of internal [[n-fold category]].
+
+Now if $C$ is already regular, then we can define a notion of internal [[anafunctor]] between internal $n$-categories.  It is then easily seen that
+
+* $C_{ex/reg}$ is equivalent to the category of 0-trivial 1-groupoids, and natural isomorphism classes of internal anafunctors between them.
+
+Again, it is not entirely clear how the 0-trivial $n$-groupoids and anafunctors behave for $n\gt 1$, although it seems fairly likely (to [[Mike Shulman|me]]) that in this case the process will stabilize at $n=1$, i.e. 0-trivial $n$-groupoids with equivalence classes of ana-$n$-functors will give $C_{ex/reg}$ for all $n\ge 1$.
 
 
-# Properties of these completions
+# Properties of regular and exact completions
 
 Many categorical properties of interest are preserved by one or more of the regular and exact completions.  That is, if $C$ has these properties, then so does the completion, and the inclusion functor preserves them.  Note that frequently, for a completion to have some structure, it suffices for $C$ to have a "weak" version of that structure.
 
@@ -80,7 +107,9 @@ Many categorical properties of interest are preserved by one or more of the regu
 
 * The categories $C_{reg/lex}$ and $C_{ex/lex}$ always have [[projective object|enough (regular) projectives]].  In fact, the objects of $C$ are precisely the projective objects of these categories.  Moreover, an exact category $D$ is of the form $C_{ex/lex}$ for some $C$ (with weak finite limits) if and only if it has enough projectives, in which case of course $C$ can be taken to be the subcategory of projectives (Carboni--Vitale 1998).  Note that if $D$ has enough projectives, then its subcategory of projectives always has weak finite limits.  Similarly, a regular category $D$ is of the form $C_{reg/lex}$ for some $C$ (with weak finite limits) if and only if it has enough projectives and every object can be embedded in a projective one.
 
-* If $C$ is a regular category satisfying the [[axiom of choice]] in the "regular" sense (every regular epi splits), then it is *equivalent* to $C_{reg/lex}$, and hence the latter also satisfies the axiom of choice.  Similarly, if $C$ is exact and satisfies choice, then it is equivalent to $C_{ex/lex}$.  Conversely, if the inclusion $C\to C_{reg/lex}$ or $C\to C_{ex/lex}$ is an equivalence, then since the objects of $C$ are projective in these completions, $C$ must satisfy the axiom of choice.
+* If $C$ is a regular category satisfying the "regular" [[axiom of choice]] (i.e. every regular epi splits), then it is *equivalent* to $C_{reg/lex}$, and hence the latter also satisfies the axiom of choice.  Similarly, if $C$ is exact and satisfies choice, then it is equivalent to $C_{ex/lex}$.  Conversely, if the inclusion $C\to C_{reg/lex}$ or $C\to C_{ex/lex}$ is an equivalence, then since the objects of $C$ are projective in these completions, $C$ must satisfy the axiom of choice.
+
+  In fact, if we assume merely that $C_{ex/lex} \to (C_{ex/lex})_{ex/lex}$ is a equivalence, then since the objects of $C_{ex/lex}$ are projective in $(C_{ex/lex})_{ex/lex}$, they must also all be projective in $C_{ex/lex}$, and therefore $C\to C_{ex/lex}$ is also an equivalence.  It follows by induction that if the sequence of iterations of $(-)_{ex/lex}$ stabilizes at any finite stage, it must in fact stabilize at the very beginning and $C$ must satisfy the axiom of choice.  A similar argument applies to the reg/lex completion.  (The ex/reg completion, of course, always stabilizes after one application.)
 
 * [[cartesian closed category|Cartesian closure]] is preserved by the ex/lex completion (Carboni--Rosolini 2000).  In fact, $C_{ex/lex}$ is cartesian closed if and only if $C$ has *weak simple products*, meaning [[weak dependent products]] along [[product]] projections.
 
@@ -102,6 +131,17 @@ On the other hand, some properties are *not* preserved by the completions.
 
 * Similarly, if $C$ is [[well-powered category|well-powered]], it does not follow that $C_{reg/lex}$ or $C_{ex/lex}$ are.  In particular, for $X\in C$, the subobject preorders $Sub_{C_{reg/lex}}(X)$ and $Sub_{C_{ex/lex}}(X)$ are equivalent to the preorder reflection of the slice category $C/X$, and it is easy to construct examples in which this is not small.
 
+* If $C$ is a [[coherent category]], it does not follow that $C_{ex/lex}$ or $C_{reg/lex}$ is.  However, if $C$ is additionally [[extensive category|lextensive]], we have seen above that so are these completions, and hence in particular also coherent (any extensive regular category is coherent).  One can also write down the "free coherent completion" and the "free pretopos completion" of a lex category, and the "pretopos completion" of a coherent category; see [[familial regularity and exactness]] for some clues on how to proceed.
+
+* If $C$ is a [[Heyting category]], it does not follow that $C_{ex/lex}$ or $C_{reg/lex}$ is.  However, if $C$ is additionally lextensive and locally cartesian closed, we have seen above that so are these completions, and hence Heyting (any lextensive locally cartesian closed regular category is Heyting).
+
+* Unsurprisingly, if $C$ is a [[Boolean category]], it does not follow that $C_{ex/lex}$ or $C_{reg/lex}$ is, even if $C$ is lextensive and LCC so that its completions are Heyting.
+
+  In fact, a stronger statement is true: if $C$ is lextensive and regular, then $C_{reg/lex}$ and $C_{ex/lex}$ are Boolean if and only if $C$ *satisfies the axiom of choice* (in which case they are of course equivalent to $C$).  More precisely, if $X\in C$ is such that every subobject of $X$ in $C_{reg/lex}$ is complemented, then $X$ is projective in $C$.  (The same argument applies to $C_{ex/lex}$.)  For suppose that $p\colon Y\to X$ is a regular epi in $C$.  Recall that $Sub_{C_{reg/lex}}(X)$ is the preorder reflection of $C/X$.  Thus $p$, considered as an object of $C/X$, defines a monomorphism in $C_{reg/lex}$.  By assumption, this monic is complemented; let its complement be represented by $q\colon Z\to X$.  Since complements are disjoint, and meets in $Sub_{C_{reg/lex}}(X)$ are given by pullbacks in $C/X$, the pullback of $p$ and $q$ admits a morphism to the initial object $0$, and hence is itself initial since $C$ is extensive.  Now $p$ is regular epi, hence so is its pullback $0\to Z$.  But in a lextensive regular category, disjointness of the coproduct $1+1$ implies that $0\to 1$ is the equalizer of of the coprojections $1\rightrightarrows 1+1$, and therefore any epimorphism with domain $0$ is an isomorphism; thus $Z$ is also initial.  Now since joins in $Sub_{C_{reg/lex}}(X)$ are given by coproducts in $C/X$, the induced map $Y+Z \to X$ must become an isomorphism in $Sub_{C_{reg/lex}}(X)$, which means that it must admit a section; but since $Z$ is initial this means that $p$ itself has a section.
+
+* If $C$ is [[well-pointed topos|well-pointed]], it does not follow that $C_{ex/lex}$ or $C_{reg/lex}$ are (in the stronger sense appropriate for non-toposes).  It is of course always true that $1$ is projective in the completions, and if it is a [[generator]] in $C$ then it will also be so in the completions.  And if $C$ is lextensive, so that its completions are coherent, then $1$ is indecomposable in them as soon as it is so in $C$.  However, it does not follow that $1$ is a *strong* generator in the completions even if it is so in $C$, since the completions have (in general) many more monomorphisms than $C$ does.
+
+  Of course, if $C$ is a well-pointed topos such that $C_{ex/lex}$ is also a topos, then the latter is also well-pointed, since any generator in a topos is a strong generator.
 
 # Examples
 
