@@ -1,3 +1,5 @@
+>This page is an informal/speculative discussion of an alternative (yet hopefully equivalent) definition of [[functor]]. It first appeared as a discussion at [[functor]] itself, but was subsequently moved here.
+
 ##Discussion##
 
 [[Eric]]: Motivated by some discussion over at [[natural transformation]], I was wondering if the following alternative definition of functor holds water:
@@ -86,3 +88,5 @@ in some consistent way.
 For example, with categories $A$ and $B$ we have a [[functor category]] $[A,B]$ which is related to (if not equal to) a 2-category. How about sets $A$ and $B$ thought of as 0-categories? We could form a "morphism category" $[A,B]$ that is related (if not equal to) a 1-category. Then I can imagine a "truth category" $[True,True]$ that is related (if not equal) to a 0-category. Etc etc. This is all pretty elementary stuff I'm sure.
 
 In a nutshell, I'm not saying there is anything wrong the definitions there, but I'm trying to understand them in a different way if possible.
+
+[[!redirects functor (discussion)]]
