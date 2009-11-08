@@ -9,3 +9,5 @@ Cf. [wikipedia](http://en.wikipedia.org/wiki/Noetherian_ring), [[noetherian obje
 
 
 [[!redirects noetherian rings]]
+[[!redirects Noetherian ring]]
+[[!redirects Noetherian rings]]
