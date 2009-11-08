@@ -31,6 +31,8 @@ I think the picture expresses what I'm trying to do, but maybe I'm converting th
 
 [[Eric]]: The idea is that by requiring every such square to commute, you automatically get $F(g\circ f) = F(g)\circ F(f)$ and $F(Id_x) = Id_{F(x)}$. Or so I think...
 
+[[Eric]]: Not to mention, this _looks_ more like a natural transformation, so a pattern is more apparent.
+
 ##Discussion##
 
 [[Eric]]: Motivated by some discussion over at [[natural transformation]], I was wondering if the following alternative definition of functor holds water:
