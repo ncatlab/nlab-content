@@ -39,7 +39,10 @@ between the [[fiber]]s of $p$ over $y_1$ and $y_2$.
 [[David Roberts]]: There would surely be an anafunctor version of this, that would require no choices whatsoever. It is unlikely that I would be able to find time to write this up, so my plea goes out to those in the know...
 
 I imagine that there would then be an $(\infty,1)$-version using whatever passes as anafunctors in that setting (dratted memory, failing at the first gate)
+
+[[Mike Shulman]]: Yes, there would surely be such a version.  (-:  The simplest way would be to take the specifications $|f^*|$ for the anafunctor $f^*$ to be the cartesian morphisms over $f$, with domain and codomain giving the functions $\sigma$ and $\tau$.  Unique factorization would give you the values of morphisms.
 =--
+
 This way a functor $p : X \to Y$ with enough Cartesian morphisms -- called a [[Cartesian fibration]] or [[Grothendieck fibration]] -- determines and is determined by a fiber-assigning functor $Y \to Cat^{op}$.
 
 This has its analog in [[higher category theory|higher categories]].
