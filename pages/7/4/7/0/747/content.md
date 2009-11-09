@@ -516,7 +516,7 @@ using instead of a full [[model category]] structure the more lightweight one of
 
 #Discussion#
 
-> [[Urs Schreiber]] had asked whether the above statement about cofibrant objects in the projective model structure can't be strengthened as indicated in the _wrong Proposition_ below. [[Mike Shulman]] kindly spotted the mistake in the proposed _wrong Proof_, also shown below.
+> In a previous version of this entry [[Urs Schreiber]] had asked whether the above statement about cofibrant objects in the projective model structure can't be strengthened as indicated in the _wrong Proposition_ below. [[Mike Shulman]] kindly spotted the mistake in the proposed _wrong Proof_, also shown below.
 
 
 +-- {: .un_prop }
