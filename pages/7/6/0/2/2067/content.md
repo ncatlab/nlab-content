@@ -12,7 +12,7 @@ $$
   }
 $$
 
-there is an _essentially unique_ lift of $f$
+there is a _universal_ lift of $f$
 
 $$
   \array{
@@ -25,7 +25,9 @@ $$
   \,.
 $$
 
-Those morphisms $\hat f$ in $X$ which are essentially uniquely determined by their source $\hat y_1$ and their image $f = p(\hat f)$ in $Y$ are called _cartesian morphisms_ . If there are enough of them in $Y$ may by used to define [[functor]]s
+There may also be other lifts of $f$, but the universal one is essentially unique, as usual for anything having a universal property.  Specifically, $\hat f$ in $X$ is essentially uniquely determined by its source $\hat y_1$ and its image $f = p(\hat f)$ in $Y$, and is called a _cartesian morphism_ .
+
+If there are enough cartesian morphisms in $Y$, they may be used to define [[functor]]s
 
 $$
   f^* : X_{y_2} \to X_{y_1}
@@ -95,3 +97,4 @@ The $(\infty,1)$-categorical version is in section 2.4 of
 
 
 [[!redirects Cartesian morphism]]
+[[!redirects cartesian morphisms]]
