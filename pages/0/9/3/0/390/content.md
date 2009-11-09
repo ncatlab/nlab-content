@@ -8,16 +8,21 @@
 An **orthogonal factorization system** can be defined as a [[weak factorization system]] in which solutions to lifting problems are unique.  It can also be defined more directly as a pair $(E,M)$ of classes of maps in a category $C$ such that
 
 * Every morphism in $C$ factors as an $E$-morphism followed by an $M$-morphism, and
-* Every morphism in $E$ is left [[orthogonality|orthogonal]] to every morphism in $M$.
+* $E$ is precisely the class of morphisms that are left [[orthogonality|orthogonal]] to every morphism in $M$.
+* $M$ is precisely the class of morphisms that are right [[orthogonality|orthogonal]] to every morphism in $E$.
 
-In particular, if $(E,M)$ is an OFS then classes $E$ and $M$ determine each other.
 OFS's are traditionally called just **factorization systems**.  Our use of the adjective "orthogonal" is to avoid the [[red herring principle]] when comparing with [[weak factorization system]]s.
 
-An orthogonal factorization system is called **proper** if $E$ consists only of epimorphisms and $M$ consists only of monomorphisms.
+An orthogonal factorization system is called **proper** if every morphism in $E$ is an [[epimorphism]] and every morphism in $M$ is a [[monomorphism]].
 
-+-- {: .query}
-This seemed ambiguous to me, so I clarified with 'only'.  Please check that my interpretation is correct!  ---Toby
-=--
+
+## Prefactorization systems
+
+For any class $E$ of morphisms in $C$, we write $E^\perp$ for the class of all morphisms that are right orthogonal to every morphism in $E$.  Dually, given $M$ we write ${}^\perp M$ for the class of all morphisms that are  left orthogonal to every morphism in $M$.  The second condition in the definition of an OFS then says that $E= {}^\perp M$ and $M= E^\perp$.
+
+In general, $(-)^\perp$ and ${}^\perp(-)$ form a [[Galois connection]] on the [[poset]] of classes of morphisms in $C$.  A pair $(E,M)$ such that $E= {}^\perp M$ and $M= E^\perp$ is sometimes called a **prefactorization system**.  Note that by generalities about Galois connections, for any class $A$ of maps we have prefactorization systems $({}^\perp(A^\perp),A^\perp)$ and $({}^\perp A, ({}^\perp A)^\perp)$.  We call these *generated* and *cogenerated* by $A$, respectively.
+
+If $C$ is a [[locally presentable category]], then for any *set* of maps $A$, the prefactorization system $({}^\perp(A^\perp),A^\perp)$ is actually a factorization system.  The argument is by a transfinite construction similar to the [[small object argument]].
 
 
 ## Examples #
