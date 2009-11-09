@@ -1,5 +1,17 @@
 Recall that the [[graph of a functor]] $f : C \to D$ between [[n-category|n-categories]] is the fibration 
-classified by the [[profunctor]] correspondence $\chi_f : C^{op}\times D \to (n-1)Cat$.
+classified by the [[profunctor]] correspondence $\chi_f : C^{op}\times D \to (n-1)Cat$. 
+
++--{.query} 
+
+[[Todd Trimble|Todd]]: I'd start with something more basic: recall that the graph of a function $f: A \to B$ is the [[subset]] determined by the [[monomorphism]] $\langle 1, f \rangle: A \to A \times B$. This makes sense in any category with products. Under one definition, the notion of cograph of a function $f: A \to B$ is the categorically dual notion: it is the [[quotient object|quotient]] determined by the epimorphism $(f, 1): A \sqcup B \to B$. 
+
+A more vivid presentation of cograph is given by the pictures we draw of functions $f: A \to B$: as graphs (in the graph-theoretic sense!) whose vertices are elements in $A \sqcup B$, with an edge drawn from $a$ to $f(a)$ for each $a$ in $A$. This can also be conceived as a [[poset]] $P_f$ with underlying set $A \sqcup B$, in which $a \leq f(a)$ and all other instances of $\leq$ are the reflexive ones. The connected components function $(P_f)_0 \to \pi_0(P_f)$ is then the cograph in the sense given above. 
+
+In this article we give a definition of cograph which generalizes this poset picture of cograph of a function, and which applies to any functor between $n$-categories, following the work of Jacob Lurie...
+
+(Anyway, that's the basic idea; it could be made even more reader-friendly I'm sure.) 
+
+=--
 
 But $f$ also determines a morphism $\bar f : I \to n Cat$. The **cograph** of $f$ is the fibration classified by $\bar f$.
 
