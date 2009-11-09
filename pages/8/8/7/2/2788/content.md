@@ -1,4 +1,4 @@
-# Eric\'s experimental alternative definition of [[functor]]
+# Experimental Alternative Definition of Functor
 
 +-- {: .standout}
 This page is an informal/speculative discussion of an alternative (yet hopefully equivalent) definition of [[functor]]. It first appeared as a discussion at [[functor]] itself, but was subsequently moved here.
@@ -7,6 +7,25 @@ This page is an informal/speculative discussion of an alternative (yet hopefully
 * tic
 {: toc}
 
+##Definition##
+Given small categories $A$ and $B$ define their **disjoint union** $A\sqcup B$ to be the category with
+$$Obj(A\sqcup B) = Obj(A)\sqcup Obj(B)$$
+and
+$$Hom_{A\sqcup B}(x,y) = 
+  \left\{
+    \begin{aligned}
+      Hom_A(x,y) & if x,y \in A \\
+      Hom_B(x,y) & if x,y \in B \\
+      \emptyset & otherwise
+    \end{aligned}
+  \right.
+$$
+There are two **inclusion maps**
+$$i_A:A\to A\sqcup B\quad\text{and}\quad i_B:B\to A\sqcup B$$
+defined for any morphism $f:a\to b$ in $A$ and morphism $g:c\to d$ in $B$ by
+$$i_A(a) = a\sqcup\emptyset,\quad i_A(b) = b\sqcup\emptyset,\quad\text{and}\quad i_A(f) = f\sqcup\emptyset$$
+and
+$$i_B(c) = \emptyset\sqcup\c,\quad i_B(d) = \emptyset\sqcup d,\quad\text{and}\quad i_B(g) = \emptyset\sqcup g.$$
 
 ##Definition##
 Given categories $A$, $B$ and inclusion maps $i_A:A\to A\sqcup B$, $i_B:B\to A\sqcup B$, a **functor** is a map $F:A\to B$ that assigns morphisms $\alpha_x:i_A(x)\to i_B\circ F(x)$ and $\alpha_y:i_A(y)\to i_B\circ F(y)$ for any morphism $f:x\to y$ in $A$ such that the following diagram commutes:
