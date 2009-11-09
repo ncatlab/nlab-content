@@ -8,9 +8,15 @@ An **orthogonal factorization system** can be defined as a [[weak factorization 
 In particular, if $(E,M)$ is an OFS then classes $E$ and $M$ determine each other.
 OFS's are traditionally called just **factorization systems**.  Our use of the adjective "orthogonal" is to avoid the [[red herring principle]] when comparing with [[weak factorization system]]s.
 
+An orthogonal factorization system is called **proper** if $E$ consists of epimorphisms and $M$ of monomorphisms.
+
+# Examples #
+
 Several classical examples of OFS $(E,M)$:
 
 * in any [[topos]], $E$ = class of all epis, $M$ = class of all monos
+
+* more generally, in any [[regular category]], $E$ = class of all [[regular epimorphisms]], $M$ = class of all monos
 
 * (Street) in [[Cat]], $E$ = 0-final functors, $M$ = [[discrete fibration]]s 
 
