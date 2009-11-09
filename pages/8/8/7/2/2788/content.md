@@ -67,6 +67,8 @@ I guess, my plan of attack now is to see how we can define functor via cograph. 
 
 [[Eric]]: By the way, here is something I wrote on my personal web [[ericforgy:Natural Transformation]]:
 
+[[Urs Schreiber]]: at [[cograph]] it is indicated how that concept encodes the notion of [[profunctor]] which is a bit more general than that of [[functor]]. 
+
 ***
 
 ##Definition##
