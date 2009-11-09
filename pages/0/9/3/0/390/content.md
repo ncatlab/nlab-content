@@ -1,4 +1,9 @@
-#Definition#
+# Orthogonal factorisation systems
+* tic
+{: toc}
+
+
+##Definition#
 
 An **orthogonal factorization system** can be defined as a [[weak factorization system]] in which solutions to lifting problems are unique.  It can also be defined more directly as a pair $(E,M)$ of classes of maps in a category $C$ such that
 
@@ -8,9 +13,14 @@ An **orthogonal factorization system** can be defined as a [[weak factorization 
 In particular, if $(E,M)$ is an OFS then classes $E$ and $M$ determine each other.
 OFS's are traditionally called just **factorization systems**.  Our use of the adjective "orthogonal" is to avoid the [[red herring principle]] when comparing with [[weak factorization system]]s.
 
-An orthogonal factorization system is called **proper** if $E$ consists of epimorphisms and $M$ of monomorphisms.
+An orthogonal factorization system is called **proper** if $E$ consists only of epimorphisms and $M$ consists only of monomorphisms.
 
-# Examples #
++-- {: .query}
+This seemed ambiguous to me, so I clarified with 'only'.  Please check that my interpretation is correct!  ---Toby
+=--
+
+
+## Examples #
 
 Several classical examples of OFS $(E,M)$:
 
