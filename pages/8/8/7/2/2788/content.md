@@ -1,4 +1,12 @@
->This page is an informal/speculative discussion of an alternative (yet hopefully equivalent) definition of [[functor]]. It first appeared as a discussion at [[functor]] itself, but was subsequently moved here.
+# Eric\'s experimental alternative definition of [[functor]]
+
++-- {: .standout}
+This page is an informal/speculative discussion of an alternative (yet hopefully equivalent) definition of [[functor]]. It first appeared as a discussion at [[functor]] itself, but was subsequently moved here.
+=--
+
+* tic
+{: toc}
+
 
 ##Definition##
 Given categories $A$, $B$ and inclusion maps $i_A:A\to A\sqcup B$, $i_B:B\to A\sqcup B$, a **functor** is a map $F:A\to B$ that assigns morphisms $\alpha_x:i_A(x)\to i_B\circ F(x)$ and $\alpha_y:i_A(y)\to i_B\circ F(y)$ for any morphism $f:x\to y$ in $A$ such that the following diagram commutes:
@@ -50,6 +58,12 @@ You could ask that all the $\alpha_x$ be isomorphisms. Then commutativity plus t
 But the trouble with all this is that I have no idea what $C$ is supposed to be! It can't be $A \sqcup B$. Would it be something constructed in terms of $A$ and $B$ (and if so, what)? If it's just _any_ old category into which $A$ and $B$ embed and for which such isos $\alpha_x$ exist (and compatible with the $F(f)$ via commutative diagrams), then I have problems with that too. 
 
 [[Eric]]; Hi Todd. I think I'm confused because with the standard definition of functor $F:A\to B$ no one ever complains about writing $F(x)\in B$, so in a way, isn't $F$ an _arrow_ from $x\in A$ to $F(x)\in B$? We also write $F(f)\in B$, which makes me think $F$ is a bunch of 1-arrows and 2-arrows. I mean, doesn't the picture make sense? Why is it so hard to convert the picture to a mathematical statement?
+
+: _Toby_:  Eric, here you seem to be conflating these two arrows: $\to$ and $\mapsto$.  At the level of functions between sets, if $A$ and $B$ are sets and $f$ is a function from $A$ to $B$, then I write $f\colon A \to B$ or $A \overset{f}\to B$.  Then if $x$ is an element of $A$ and $y$ is an (the) element of $B$ such that $y = f(x)$, then I write $f\colon x \mapsto y$ or $x \overset{f}\mapsto y$.  Or without bothering with $y$, I write $f\colon x \mapsto f(x)$ or $x \overset{f}\mapsto f(x)$.  (Actually, this is best when '$x$' is a variable and '$f(x)$' is a formula in terms of that variable; for example, if $f$ is the squaring function, then I write $f\colon x \mapsto x^2$ or $x \overset{f}\mapsto x^2$, and this serves to *define* $f$.)
+
+: Actually, you can find a lot of literature where the same symbol '$\rightarrow$' is used for both $\to$ and $\mapsto$, but they are still different concepts.
+
+: Of course, what the [[cograph]] gets you is that it turns $\mapsto$ into a special case of $\to$.  But they are still different; $f\colon A \to B$ is an arrow in the category of sets or (in the categorified case) in the $2$-category of categories, while $x \overset{f}\mapsto y$ is (only in the categorified case) an arrow in the cograph of $f$.
 
 [[Urs Schreiber]]: concerning the nature of $C$: as I suggested before, it does make sense to take this to be the [[cograph of a functor]]. And indeed, in some situations it is useful to _define_ the notion of functor in terms of the notion of cograph. In [[Higher Topos Theory]] the notion of [[adjoint (infinity,1)-functor]] is defined entirely in terms of cographs of functors.
 
@@ -134,7 +148,7 @@ $$
 
 [[Eric]]: Motivated by some discussion over at [[natural transformation]], I was wondering if the following alternative definition of functor holds water:
 
->##Definition##
+>###Definition##
 >Given categories $A$, $B$, a **functor** is a map $F:A\to B$ that assigns maps $\alpha_x:x\to F(x)$ and $\alpha_y:y\to F(y)$ for any morphism $f:x\to y$ in $A$ such that the following diagram commutes:
 $$ 
   \array{ 
