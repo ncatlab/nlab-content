@@ -51,6 +51,9 @@ But the trouble with all this is that I have no idea what $C$ is supposed to be!
 
 [[Eric]]; Hi Todd. I think I'm confused because with the standard definition of functor $F:A\to B$ no one ever complains about writing $F(x)\in B$, so in a way, isn't $F$ an _arrow_ from $x\in A$ to $F(x)\in B$? We also write $F(f)\in B$, which makes me think $F$ is a bunch of 1-arrows and 2-arrows. I mean, doesn't the picture make sense? Why is it so hard to convert the picture to a mathematical statement?
 
+[[Urs Schreiber]]: concerning the nature of $C$: as I suggested before, it does make sense to take this to be the [[cograph of a functor]]. And indeed, in some situations it is useful to _define_ the notion of functor in terms of the notion of cograph. In [[Higher Topos Theory]] the notion of [[adjoint (infinity,1)-functor]] is defined entirely in terms of cographs of functors.
+
+
 ##Discussion##
 
 [[Eric]]: Motivated by some discussion over at [[natural transformation]], I was wondering if the following alternative definition of functor holds water:
