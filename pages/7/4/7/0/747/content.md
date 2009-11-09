@@ -459,28 +459,78 @@ Any good cover $U \stackrel{\simeq}{\to} X$ is a cofibrant replacement for $X$.
 
 
 
-+-- {: .standout}
 
 
-[[Urs Schreiber]]: don't we even have the following stronger statement?
+#References#
 
-=--
+A nicely helpful introduction and survey is provided in the notes
+
+* Dan Dugger, _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [dvi](http://math.uoregon.edu/~ddugger/cech.dvi), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
+
+This in particular gives a detailed account on the relation and difference between the "Cech model structure" (section 3) which localizes (only) at Cech [[covers]], and the Jardine model structure (section 4), which localizes at all [[stalk]]wise weak equivalences ([[hypercovers]]). The latter is what in [[Higher Topos Theory|HTT]] is called the _hypercompletion_ .
+
+The standard lecture notes are
+
+* **Jardine07** J. Jardine, _Field Lectures: Simplicial presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
+
+based on
+
+* **Jardine01** J. Jardine, _Stacks and the homotopy theory of simplicial sheaves_, Homology, homotopy and applications, vol. 3 (2), 2001, pp.361--384
+
+and ...
+
+See also
+
+* Benjamin Blander, _Local projective model structures on simplicial presheaves_,  K-Theory, Volume 24, Number 3, November 2001 , pp. 283--301(19) ([journal](http://www.ingentaconnect.com/content/klu/kthe/2001/00000024/00000003/00384649?crawler=true))
+
+A detailed study of [[descent]] for simplicial presheaves is given in
+
+* **DHI04** [[Daniel Dugger]], [[Sharon Hollander]], [[Daniel Isaksen]], _Hypercovers and simplicial presheaves_ ([web](http://www.math.uiuc.edu/K-theory/0563/)) 
+
+* **DI02** [[Daniel Dugger]], [[Daniel Isaksen]], _Weak equivalences of simplicial presheaves_ ([arXiv](http://arxiv.org/abs/math/0205025))
+
+A survey of many of the model structures together with a treatment of the left local projective one is in
+
+* [[Benjamin Blander]], _Local projective model structure on simplicial presheaves_ ([pdf](http://www.math.uiuc.edu/K-theory/0462/combination2.pdf))
+
+See also
+
+* [[Daniel Isaksen]], _Flasque model structure for simplicial presheaves_  ([web](http://www.math.uiuc.edu/K-theory/0679/), [pdf](http://www.math.uiuc.edu/K-theory/0679/flasque.pdf))
+
+The characterization of the model category of simplicial presheaves as the canonical [[presentable (infinity,1)-category|presentation]] of the (hypercompletion of) the [[(∞,1)-category of (∞,1)-sheaves]] on a site is in
+
+* [proposition 6.5.2.1](http://www-math.mit.edu/~lurie/papers/highertopoi.pdf#page=528) of 
+
+  * [[Jacob Lurie]], [[Higher Topos Theory]]
+
+Last not least, it is noteworthy that the idea of localizing simplicial sheaves at stalkwise weak equivalences is already described and applied in 
+
+* [[Kenneth Brown]], [[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf cohomology]],
+
+using instead of a full [[model category]] structure the more lightweight one of a Brown [[category of fibrant objects]].
+
+[[Note on Formatting|?]]
+
+
+
+
+#Discussion#
+
+> [[Urs Schreiber]] had asked whether the above statement about cofibrant objects in the projective model structure can't be strengthened as indicated in the _wrong Proposition_ below. [[Mike Shulman]] kindly spotted the mistake in the proposed _wrong Proof_, also shown below.
+
 
 +-- {: .un_prop }
-###### supposed Proposition
+###### wrong Proposition
 
 Every simplicial presheaf $X $ that is degreewise a representable is cofibrant in $SPSh(C)_proj$ and hence also in $SPSh(C)_{proj}^{loc}$.
 
-It follows that every presheaf that is degreewise a coproduct of representables is cofibrant.
-
 =--
 
-> [[Urs Schreiber]]: this here is what looks like a proof to me. But check.
 
 +-- {: .proof}
-###### Proof
+###### wrong Proof
 
-Recall that cofibrant objects in the local modelstructure $SPSh(C)_{proj}^{loc}$ are the same as those in the global model structure $SPSh(C)_{proj}$, which are those objects such that maps out of them lift through all objectwise acyclic Kan fibrations.
+Recall that cofibrant objects in the local model structure $SPSh(C)_{proj}^{loc}$ are the same as those in the global model structure $SPSh(C)_{proj}$, which are those objects such that maps out of them lift through all objectwise acyclic Kan fibrations.
 In particular all [[representable functor|representable]]s are cofibrant in $SPSh(C)^{loc}_{proj}$.
 
 Now let $X = (X_\bullet)$ be degreewise representable. 
@@ -608,6 +658,9 @@ $$
   \,.
 $$
 for which you would have to assume that $A(X_1)\to B(X_1) \times_{B(X_0)} A(X_0)$ is an acyclic fibration, which is precisely the degree-1 part of the condition for $A(X_\bullet)\to B(X_\bullet)$ to be a *Reedy* acyclic fibration.
+
+[[Urs Schreiber]]: thanks, Mike, I see what you mean.
+
 =--
 
 
@@ -663,56 +716,4 @@ where the outer square commutes and we are guaranteed a choice of lift $a_k$. By
 
 
 
-
-
-
-#References#
-
-A nicely helpful introduction and survey is provided in the notes
-
-* Dan Dugger, _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [dvi](http://math.uoregon.edu/~ddugger/cech.dvi), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
-
-This in particular gives a detailed account on the relation and difference between the "Cech model structure" (section 3) which localizes (only) at Cech [[covers]], and the Jardine model structure (section 4), which localizes at all [[stalk]]wise weak equivalences ([[hypercovers]]). The latter is what in [[Higher Topos Theory|HTT]] is called the _hypercompletion_ .
-
-The standard lecture notes are
-
-* **Jardine07** J. Jardine, _Field Lectures: Simplicial presheaves_ ([pdf](http://www.math.uwo.ca/~jardine/papers/Fields-01.pdf))
-
-based on
-
-* **Jardine01** J. Jardine, _Stacks and the homotopy theory of simplicial sheaves_, Homology, homotopy and applications, vol. 3 (2), 2001, pp.361--384
-
-and ...
-
-See also
-
-* Benjamin Blander, _Local projective model structures on simplicial presheaves_,  K-Theory, Volume 24, Number 3, November 2001 , pp. 283--301(19) ([journal](http://www.ingentaconnect.com/content/klu/kthe/2001/00000024/00000003/00384649?crawler=true))
-
-A detailed study of [[descent]] for simplicial presheaves is given in
-
-* **DHI04** [[Daniel Dugger]], [[Sharon Hollander]], [[Daniel Isaksen]], _Hypercovers and simplicial presheaves_ ([web](http://www.math.uiuc.edu/K-theory/0563/)) 
-
-* **DI02** [[Daniel Dugger]], [[Daniel Isaksen]], _Weak equivalences of simplicial presheaves_ ([arXiv](http://arxiv.org/abs/math/0205025))
-
-A survey of many of the model structures together with a treatment of the left local projective one is in
-
-* [[Benjamin Blander]], _Local projective model structure on simplicial presheaves_ ([pdf](http://www.math.uiuc.edu/K-theory/0462/combination2.pdf))
-
-See also
-
-* [[Daniel Isaksen]], _Flasque model structure for simplicial presheaves_  ([web](http://www.math.uiuc.edu/K-theory/0679/), [pdf](http://www.math.uiuc.edu/K-theory/0679/flasque.pdf))
-
-The characterization of the model category of simplicial presheaves as the canonical [[presentable (infinity,1)-category|presentation]] of the (hypercompletion of) the [[(∞,1)-category of (∞,1)-sheaves]] on a site is in
-
-* [proposition 6.5.2.1](http://www-math.mit.edu/~lurie/papers/highertopoi.pdf#page=528) of 
-
-  * [[Jacob Lurie]], [[Higher Topos Theory]]
-
-Last not least, it is noteworthy that the idea of localizing simplicial sheaves at stalkwise weak equivalences is already described and applied in 
-
-* [[Kenneth Brown]], [[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf cohomology]],
-
-using instead of a full [[model category]] structure the more lightweight one of a Brown [[category of fibrant objects]].
-
-[[Note on Formatting|?]]
 
