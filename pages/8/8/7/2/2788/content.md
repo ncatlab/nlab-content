@@ -45,7 +45,7 @@ Your picture suggests that you have in mind some category $C$ into which $A$ and
 
 Okay, so far these conditions don't ensure functoriality: that $F(g \circ f) = F(g) \circ F(f)$ and $F(1_x) = 1_{F(x)}$. You're going to have to add more conditions to make that inference. For example, suppose $C$ has just one morphism from each object $i_A(a)$ to each object of $i_B(b)$. Then commutativity of those squares is automatic, for any directed graph morphism $F: A \to B$. Insofar as not all graph morphisms are functorial, you can't infer functoriality. 
 
-You could ask that all the $\alpha_x$ be isomorphisms. Then commutativity plus that condition would give functoriality, and your concept amounts to that of ordinary functor $F$ together with an ordinary natural transformation $i_A \to i_B \circ F$. 
+You could ask that all the $\alpha_x$ be isomorphisms. Then commutativity plus that condition would give functoriality, and your concept amounts to that of ordinary functor $F$ together with an ordinary natural isomorphism $i_A \overset{\sim}{\to} i_B \circ F$. 
 
 But the trouble with all this is that I have no idea what $C$ is supposed to be! It can't be $A \sqcup B$. Would it be something constructed in terms of $A$ and $B$ (and if so, what)? If it's just _any_ old category into which $A$ and $B$ embed and for which such isos $\alpha_x$ exist (and compatible with the $F(f)$ via commutative diagrams), then I have problems with that too. 
 
