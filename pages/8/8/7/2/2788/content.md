@@ -59,7 +59,9 @@ But the trouble with all this is that I have no idea what $C$ is supposed to be!
 
 When I tried to grok "cograph" on my personal web [[ericforgy:Natural Transformation]], I stripped out the line including the functor and with Toby's help, realized what I (think I) was talking about was the disjoint union of categories.
 
-I guess, my plan of attack now is to see how we can define functor via cograph. For some reason, that makes sense to me.
+I guess, my plan of attack now is to see how we can define functor via cograph. For some reason, that makes sense to me. 
+
+[[Todd Trimble|Todd]]: Yes, that's true, the cograph is fine. I thought that Eric had wanted a $C$ which would uniformly work, independently of which functor $F$ was being considered. Instead, we construct the cograph $C$ in terms of $F$, and everything is for the best in this best of all possible worlds. And we get the picture Eric was aiming for. 
 
 ##Discussion##
 
