@@ -67,6 +67,5 @@ See also
 
 * [[Atiyah Lie groupoid]]
 
-[[Note on Formatting|?]]
 
 [[!redirects path groupoids]]
