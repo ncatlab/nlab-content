@@ -53,21 +53,35 @@ There is a slight variant of the full notion of model category by Thomason that 
 
 #Examples#
 
-Historically, the most important examples have been the following.
+The archetypical model structures is 
 
 * [[model structure on topological spaces]]
-* [[model structure on chain complexes]]
+
+and its subcategory of nice topological spaces is [[Quillen equivalence|Quillen equivalent]] to the standard
+
 * [[model structure on simplicial sets]]
 
-  * the standard structure that models [[infinity-groupoid]]s  in terms of [[Kan complex]]es and is [[Quillen equivalence|Quillen equivalent]] to (nice) topological spaces, 
+that models [[∞-groupoid]]s  in terms of [[Kan complex]]es. 
 
-  * and the Joyal structure which models $(\infty,1)$-[[(infinity,1)-category|categories]] in terms of [[quasi-category|quasi-categories]].
+More generally, the Joyal [[model structure on simplicial sets]] models [[(∞,1)-category|(∞,1)-categories]] in terms of [[quasi-category|quasi-categories]].
 
-The parameterized version of the model structure on simplicial sets is
+The [[operad]] version is given by the 
+
+* [[model structure on dendroidal sets]]
+
+and generalizes from the notion [[(∞,1)-category]] to that of [[(∞,1)-operad]].
+
+Related by the [[Dold-Kan correspondence]] to the [[model structure on simplicial sets]] are structures like
+
+* [[model structure on chain complexes]]
+* [[model structure on dg-algebras]].
+
+
+The _parameterized_ version of the model structure on simplicial sets is a
 
 * [[model structure on simplicial presheaves]]
 
-which serves as a [[models for infinity-stack (infinity,1)-toposes|model for infinity-stack (infinity,1)-toposes]].
+which serves as a [[models for infinity-stack (infinity,1)-toposes|model for ∞-stack (∞,1)-toposes]] (for [[hypercomplete (∞,1)-topos]]es, more precisely).
 
 These are based on more generally available 
 
