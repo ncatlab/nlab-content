@@ -423,7 +423,7 @@ In the _projective_ [[local model structure on simplicial presheaves|local model
 
 This is in the proof of lemma 2.7 in section 9 of
 
-  * [[Daniel Dugger]], _Universal homotopy theories_  ([pdf](http://hopf.math.purdue.edu/Dugger/dduniv.pdf))
+  * [[Daniel Dugger]], _[[DuggerUniv.pdf:file]]_  
 
 =--
 
@@ -457,8 +457,51 @@ Any good cover $U \stackrel{\simeq}{\to} X$ is a cofibrant replacement for $X$.
 
 
 
+## cofibrant replacement ##
 
+In 
 
+* [[Daniel Dugger]], _[[DuggerUniv.pdf:file]]_  
+
+a useful cofibrant replacement functor for the projective local model structure is discussed.
+
++-- {: .un_def }
+###### Definition
+
+For $A  \in PSh(C) \hookrightarrow SPSh(C)$ an ordinary presheaf (simplicially discrete simplicial presheaf) let $\tilde Q A$ be the simplicial presheaf which in degree $k$ is
+
+$$
+  (\tilde Q A)_k := \coprod_{U_k \to U_{k-1} \to \cdots \to U_0 \to A} U_k
+  \,,
+$$ 
+
+where the $U_k$ range over the representables, i.e. the objects in $C \hookrightarrow SPSh(C)$. The face and degeneracy maps are the obvious ones coming from composing maps and inserting identity maps in the labels over which the coproduct ranges.
+
+For $A \in SPSh(C)$ an arbitrary simplicial presheaf let $Q A$ be the diagonal of  the bisimplicial presheaf obtained by applying $\tilde Q$ degreewise
+
+$$
+  Q A =
+  \left(
+    \cdots
+    \coprod_{U_1 \to U_0 \to A_1}
+     U_1
+    \stackrel{\to}{\to}\coprod_{U_0 \to A_0} U_0
+  \right)
+  \,.
+$$
+
+=--
+
++-- {: .un_prop }
+###### Proposition
+
+For all $A \in SPSh(C)$ the object $Q A$ is cofibrant and is weakly equivalent to $A$ in $SPSh(C)_{proj}^{loc}$. 
+
+=--
+
+This is in prop 2.8 of
+
+* [[Daniel Dugger]], _[[DuggerUniv.pdf:file]]_  
 
 
 #References#
