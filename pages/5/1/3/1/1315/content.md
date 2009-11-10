@@ -8,7 +8,7 @@ Let $X$ be a smooth [[manifold]].
 
 +--{: .un_defn}
 ###### Definition
-For $\gamma_1, \gamma_2  : [0,1] \to X$ two smooth maps, a **thin-homotopy** $\gamma_1 \Rightarrow \gamma_2$ is a smooth homotopy, i.e. a smooth map
+For $\gamma_1, \gamma_2  : [0,1] \to X$ two smooth maps, a **[[thin homotopy]]** $\gamma_1 \Rightarrow \gamma_2$ is a smooth [[homotopy (as an operation)|homotopy]], i.e. a smooth map
 $$
   \Sigma : [0,1]^2 \to X
 $$
