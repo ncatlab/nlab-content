@@ -14,7 +14,7 @@ In particular, if $A = G$ is a [[group]] then its delooping
 
 * in the context [[Top]] is the [[classifying space]] $\mathcal{B}G$
 
-* in the context $\infty$ [[Infinity-Grpd]] is the one-object groupoid $\mathbf{B}G$.
+* in the context [[∞-Grpd]] is the one-object groupoid $\mathbf{B}G$.
 
 Under the [[homotopy hypothesis]] these two objects are identified: the [[geometric realization]] of the groupoid $\mathbf{B}G$ is the classifying space $\mathcal{B}G$:
 
@@ -26,7 +26,7 @@ $$
 
 #Definition#
 
-Loop space objects are defined in any [[(∞,1)-category]] $\mathbf{C}$ with [[homotopy pullback]]s: for $X$ any [[pointed object]] of $\mathbf{C}$ with point ${*} \to X$, its [[loop space object]] is [[generalized the|the]] [[homotopy pullback]] $\Omega X$ of this point along itself:
+Loop space objects are defined in any [[(∞,1)-category]] $\mathbf{C}$ with [[homotopy pullbacks]]: for $X$ any [[pointed object]] of $\mathbf{C}$ with point ${*} \to X$, its [[loop space object]] is [[generalized the|the]] [[homotopy pullback]] $\Omega X$ of this point along itself:
 
 $$
   \array{
@@ -92,7 +92,7 @@ _effective_ [[groupoid object in an (infinity,1)-category]] precisely if it aris
 
 One of the characterizing properties of an [[(infinity,1)-topos]] is that _every_ groupoid object in it is effective.
 
-This is the analog of [[Jim Stasheff|Stasheff]]'s classical result about [[H-space]]s.
+This is the analog of [[Jim Stasheff|Stasheff]]'s classical result about [[H-spaces]].
 
 See the remark at the very end of section 6.1.2 in [[Higher Topos Theory|HTT]].
 
@@ -102,13 +102,13 @@ See the remark at the very end of section 6.1.2 in [[Higher Topos Theory|HTT]].
 #Examples#
 
 
-## topological loop spaces ##
+## Topological loop spaces ##
 
 For $C = $ [[Top]] the [[(infinity,1)-category]]
-of [[topological space]]s, a space is deloopable if it is an [[H-space]] and hence homotopy equivalent to a [[loop space]].
+of [[topological spaces]], a space is deloopable if it is an [[H-space]] and hence homotopy equivalent to a [[loop space]].
 
 
-## delooping of a group to a groupoid ##
+## Delooping of a group to a groupoid ##
 
 Let $G$ be a [[group]] regarded as a [[discrete category|discrete groupoid]] in the [[(∞,1)-topos]] [[∞Grpd]] of [[∞-groupoids]].
 
