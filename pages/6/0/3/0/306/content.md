@@ -82,3 +82,5 @@ As pointed out there, it is not so much a _subobject_ classifier that matters in
 section I.3 and I.4 in
 
 * MacLane-Moerdijk, [[Sheaves in Geometry and Logic]]
+
+[[!redirects subobject classifiers]]
