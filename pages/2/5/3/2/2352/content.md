@@ -1,3 +1,8 @@
+#Contents#
+
+* automatic table of contents goes here
+{:toc}
+
 #Idea# 
 
 In as far as the notion of [[functor]] generalizes that of [[function]]
