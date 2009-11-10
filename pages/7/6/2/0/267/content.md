@@ -5,7 +5,7 @@
 
 Handling higher structures such as [[higher category theory|higher categories]] usually involves conceiving them as  conglomerates of _cells_ of certain _shape_.
 
-The most familiar of these possible shapes are
+Examples for possible shapes used to model higher categories are
 
 * [[globe|globes]];
 
@@ -14,6 +14,8 @@ The most familiar of these possible shapes are
 * [[cube|cubes]]. 
 
 * [[trees]].
+
+* [[opetope]]s.
 
 There are corresponding categories whose 
 
