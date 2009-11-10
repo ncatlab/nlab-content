@@ -18,7 +18,7 @@ $$ \array {
 } $$
 commute for every object $x$ of $C$.
 
-The [[Eilenberg–Moore category]] of $T$ is the category of these algebras.
+The [[Eilenberg–Moore category]] of $F$ is the category of these algebras.
 
 
 [[!redirects algebra of an endofunctor]]
