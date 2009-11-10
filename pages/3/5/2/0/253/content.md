@@ -2,12 +2,16 @@
 [[!include higher category theory - contents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-#Idea#
+
+## Idea ##
 
 A **bicategory** is a particular [[algebraic definition of higher category|algebraic]] notion of _weak [[2-category]]_ (in fact, the earliest to be formulated, and still the one in most common use).  The idea is that a bicategory is a category _weakly_ [[enriched category|enriched]] over [[Cat]]: the [[hom-objects]] of a bicategory are [[hom-category|hom-categories]], but the associativity and unity laws of [[enriched category|enriched categories]] hold only up to coherent isomorphism.
 
-# Definition #
+## Definition ##
 
 A **bicategory** $B$ consists of
 
@@ -20,7 +24,7 @@ A **bicategory** $B$ consists of
 If there is exactly one 0-cell, say $*$, then the definition is exactly the same as a monoidal structure on the category $B(*,*)$.  This is one of the motivating examples behind the [[delooping hypothesis]] and the general notion of [[k-tuply monoidal n-category]].
 
 
-# Examples #
+## Examples ##
 
 * Any [[strict 2-category]] is a bicategory in which the unitors and associator are identities.  This includes [[Cat]], [[MonCat]], the algebras for any strict [[2-monad]], and so on, at least as classically conceived.
 
@@ -33,7 +37,7 @@ If there is exactly one 0-cell, say $*$, then the definition is exactly the same
 * The [[fundamental 2-groupoid]] of a space is a bicategory which is not necessarily strict (although it can be made strict fairly easily when the space is Hausdorff by quotienting by [[thin homotopy]], see [[path groupoid]] and [[fundamental infinity-groupoid]]). When the space is a CW-complex, there are easier and more computationally amenable equivalent strict 2-categories, such as that arising from the fundamental [[crossed complex]].
 
 
-# Coherence theorems #
+## Coherence theorems ##
 
 One way to state the [[coherence theorem]] for bicategories is that every bicategory is [[equivalence of categories|equivalent]] to a strict $2$-category. This "strictification" is not obtained naively by forcing composition to be associative, but (at least in one construction) by freely adding new composites which are strictly associative.  Another way to state the coherence theorem is that every formal diagram of the constraints (associators and unitors) commutes.
 
@@ -42,7 +46,7 @@ Note that $n=2$ is the greatest value of $n$ for which every weak $n$-category i
 The proof of the coherence theorem is basically the same as the proof of the coherence theorem for [[monoidal categories]].  An abstract approach can be found in [[John Power|Power]]'s paper "A general coherence result."
 
 
-# Terminology #
+## Terminology ##
 
 Classically, "2-category" meant [[strict 2-category]], with "bicategory" used for the weak notion.  This led to the more general use of the prefix "2-" for strict (that is, strictly [[Cat]]-enriched) notions and "bi-" for weak ones.  For example, classically a "2-adjunction" means a Cat-enriched adjunction, consisting of two strict 2-functors $F,G$ and a strictly Cat-natural isomorphism of categories $D(F X, Y)\cong C(X, G Y)$, while a "biadjunction" means the weak version, consisting of two weak 2-functors and a pseudo natural equivalence $D(F X, Y)\simeq C(X, G Y)$.  Similarly for "2-equivalence" and "biequivalence," and "2-limit" and "bilimit."
 
