@@ -14,7 +14,7 @@ $$
 
 of the [[Lie algebra]] $\mathfrak{so}(n)$ by the [[L-infinity-algebra|Lie 2-algebra]] $b \mathfrak{u}(1)$.
 
-This central extension is controled by the canonical (up to normalition) [[Lie algebra cohomology|Lie algebra 3-cocycle]] $\mu$ on $\mathfrak{so}(n)$.
+This central extension is controled by the canonical (up to normalization) [[Lie algebra cohomology|Lie algebra 3-cocycle]] $\mu$ on $\mathfrak{so}(n)$.
 
 When $\mu$ is normalized such that it represents the image in [[deRham cohomology]] of the generator of the [[integral cohomology]] $H^3(X,Spin(n))$ then the corresponding String Lie 2-algebra is the Lie 2-algebra of the [[String Lie 2-group]].
 
