@@ -24,7 +24,9 @@ Two models for $(\infty,1)$-operads exist to date, one by Cisinski-[[Ieke Moerdi
 
 ##in terms of dendroidal sets##
 
-Here [[simplicial set]]s are generalized to [[dendroidal set]]s. The theory of $(\infty,1)$-operads is then formulated in terms of dendroidal sets in close analogy to how the theory of [[(∞,1)-category|(∞,1)-categories]] iss formulated in terms of [[simplicial set]]s.
+Here [[simplicial set]]s are generalized to [[dendroidal set]]s. The theory of $(\infty,1)$-operads is then formulated in terms of dendroidal sets in close analogy to how the theory of [[(∞,1)-category|(∞,1)-categories]] is formulated in terms of [[simplicial set]]s.
+
+There is a [[model  structure on dendroidal sets]] whose fibrant objest are the **quasi-operad**s in direct analogy to the notion of [[quasi-category]]. 
 
 Here are two blog entries on talks on this stuff:
 
