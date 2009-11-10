@@ -15,7 +15,7 @@ Examples for possible shapes used to model higher categories are
 
 * [[trees]].
 
-* [[opetope]]s.
+* [[opetopes]].
 
 There are corresponding categories whose 
 
