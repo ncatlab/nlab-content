@@ -1,3 +1,6 @@
+See also [[weak enrichment]].
+
+
 # Discussion #
 
 [[Urs Schreiber|Urs]]: can anyone point me to -- or write an entry containing -- a discussion of systematical "homotopical enrichment" where we enrich over a [[homotopical category]] systematically weakening everything up to coherent homotopy. If/when we have this we should also link it to [[(infinity,n)-category]], as that is built by iteratively doing homotopical enrichement starting with [[Top]].
