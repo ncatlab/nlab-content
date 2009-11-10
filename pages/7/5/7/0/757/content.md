@@ -7,14 +7,14 @@
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea ##
 
-To the extent that a [[model category]] is a [[presentable (infinity,1)-category|presentation]] of an [[(infinity,1)-category]], the [[localization]] of a model category is a presentation for the [[localization of an (infinity,1)-category]].
+To the extent that a [[model category]] is a [[presentable (infinity,1)-category|presentation]] of an [[(∞,1)-category]], the [[localization]] of a model category is a presentation for the [[localization of an (∞,1)-category]].
 
 See also [[localization of a simplicial model category]].
 
 
-#Definition in model categories#
+## Definition in model categories ##
 
 Let $C$ be a category equipped with a [[model category]] structure and let $S$ be a class of morphisms in $C$. 
 
@@ -61,6 +61,32 @@ and every other left Quillen functor with this property factors by a unique left
 This is theorem 3.3.19 in _ModLoc_ .
 =--
 
+
+## Bousfield localization in triangulated categories ##
+
+In the setup of [[triangulated category|triangulated categories]], the Bousfield localization is defined as follows. A *triangulated subcategory* $A$ of a triangulated category $B$ is a nonempty subcategory closed under suspension of objects and such that for all objects $X,Y$ in $A$ if $X\to Y\to Z\to X[1]$ is a distinguished triangle in $B$, then $Z$ is in $A$.  In that case one can define the [[Verdier quotient]] category $B/A$ which is a triangulated category equipped with a canonical functor $Q^*:B\to B/A$ which is also triangulated (additive and preserving distinguished triangles) and universal among all triangulated functors $B\to D$ which send objects of $A$ to objects isomorphic to $0$. A triangulated subcategory $A$ is *thick* if with any object in $A$ it contains all its direct summands in $B$.
+
+In that case, the Verdier quotient $B/A$  has the property that the only objects whose images in $B/A$ are isomorphic to zero are the objects from $A$. Given a thick subcategory $A\subset B$, we say that the **Bousfield localization** exists if the Verdier quotient functor $Q^*$ has a right adjoint functor $Q_*$ which is then (automatically) triangulated and fully faithful. 
+
+## References ##
+
+Bousfield localization appears as definition 3.3.1 in
+
+* **ModLoc** Hirschhorn, _Model categories and their localization_ 
+
+and as proposition A.3.7.3 in
+
+* [[Jacob Lurie]], [[Higher Topos Theory]] .
+
+The relation to [[localization of an (infinity,1)-category]] is also in [[Higher Topos Theory|HTT]], for the time being see the discussion at [[models for ∞-stack (∞,1)-toposes]] for more on that.
+
+A detailed discussion of Bousfield localization also in the context of [[enriched model category|enriched model categories]] is in
+
+* Clark Barwick, _On (enriched) left Bousfield localization of model categories_ ([arXiv](http://arxiv.org/abs/0708.2067))
+
+
+## Discussion ##
+
 +-- {: .query}
 
   _Rafael Borowiecki_: How do this relate to Bousfield localization for spectra?
@@ -104,28 +130,6 @@ is [[infinity-stackification]]. In this case the "localization morphism on objec
 
 _Rafael_: Ok, i have thought about it with interest. Good answer. Thx for explaining.
 =--
-
-#Bousfield localization in triangulated categories#
-
-In the setup of [[triangulated category|triangulated categories]], the Bousfield localization is defined as follows. A *triangulated subcategory* $A$ of a triangulated category $B$ is a nonempty subcategory closed under suspension of objects and such that for all objects $X,Y$ in $A$ if $X\to Y\to Z\to X[1]$ is a distinguished triangle in $B$, then $Z$ is in $A$.  In that case one can define the [[Verdier quotient]] category $B/A$ which is a triangulated category equipped with a canonical functor $Q^*:B\to B/A$ which is also triangulated (additive and preserving distinguished triangles) and universal among all triangulated functors $B\to D$ which send objects of $A$ to objects isomorphic to $0$. A triangulated subcategory $A$ is *thick* if with any object in $A$ it contains all its direct summands in $B$.
-
-In that case, the Verdier quotient $B/A$  has the property that the only objects whose images in $B/A$ are isomorphic to zero are the objects from $A$. Given a thick subcategory $A\subset B$, we say that the **Bousfield localization** exists if the Verdier quotient functor $Q^*$ has a right adjoint functor $Q_*$ which is then (automatically) triangulated and fully faithful. 
-
-#References#
-
-Bousfield localization appears as definition 3.3.1 in
-
-* **ModLoc** Hirschhorn, _Model categories and their localization_ 
-
-and as proposition A.3.7.3 in
-
-* [[Jacob Lurie]], [[Higher Topos Theory]] .
-
-The relation to [[localization of an (infinity,1)-category]] is also in [[Higher Topos Theory|HTT]], for the time being see the discussion at [[models for infinity-stack (infinity,1)-toposes]] for more on that.
-
-A detailed discussion of Bousfield localization also in the context of [[enriched model category|enriched model categories]] is in
-
-* Clark Barwick, _On (enriched) left Bousfield localization of model categories_ ([arXiv](http://arxiv.org/abs/0708.2067))
 
 
 [[!redirects bousfield localization]]
