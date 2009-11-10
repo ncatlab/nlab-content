@@ -23,3 +23,6 @@ The description in terms of [[groupoid object in an (∞,1)-category]] is due to
 see last remark of section 6.1.3 .
 
 Wikipedia\'s definition (at time of this writing, and phrased in the language of [[homotopy theory]]) is rather a [[magma]]-with-[[identity element|identity]] object in the $(\infty,1)$-category [[Top]].
+
+
+[[!redirects H-spaces]]
