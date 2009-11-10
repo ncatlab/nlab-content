@@ -71,7 +71,7 @@ Someone should add some more references!
 
 * [[Tamsamani]]--[[Simpson]] definition: An $n$-category is a simplicial object in $(n-1)$-categories satisfying object-discreteness and [[Segal conditions]].  This definition is inductive (it is a different way of formalizing "iterated weak enrichment") and thus cannot do $\omega$ in an obvious way.  It does have a natural extension to $(\infty,n)$-categories, and the resulting notion of [[(∞,1)-category]] reduces to a [[Segal category]].
 
-* [[Ieke Moerdijk|Moerdijk]] and [[Ittay Weiss|Weiss]]'s definition uses yet another way of formalizing "iterated weak enrichment," using [[dendroidal sets]] and [[quasi-operads]].
+* [[Ieke Moerdijk|Moerdijk]] and [[Ittay Weiss|Weiss]]'s definition uses yet another way of formalizing "iterated weak enrichment," using [[dendroidal sets]] and [[quasi-operad]]s.
 
 * [[Andre Joyal|Joyal]]'s definition: An $n$-category is an $n$-[[cellular set]] satisfying horn-filling conditions.  This definition can do $\omega$ by using $\omega$-cellular sets instead of $n$-cellular sets, and it can do $(\infty,1)$ by requiring different horn-filling conditions on $n$-cellular sets.  The notion of [[(∞,1)-category]] one obtains in this way is a [[quasicategory]], and the resulting notion of $\infty$-groupoid is a [[Kan complex]].  Perhaps this definition doesn't quite work in general, however.
 
