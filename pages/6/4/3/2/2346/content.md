@@ -1,3 +1,8 @@
+#Contents#
+
+* automatic table of contents goes here
+{:toc}
+
 #Idea#
 
 The _graph of a function_ $f : X \to Y$ is the subset that $f$ "carves out" of the [[cartesian product]] $X \times Y$.
@@ -6,7 +11,7 @@ The _graph of a function_ $f : X \to Y$ is the subset that $f$ "carves out" of t
 
 # Definition #
 
-## graph of a function ##
+## Graph of a function ##
 
 The traditional standard definition of a graph of a function is this:
 
@@ -65,7 +70,7 @@ It is  easy to identify the properties of those subsets of $X \times Y$ that are
 
 =--
 
-## graph of a binary relation ##
+## Graph of a binary relation ##
 
 More generally, we can say that the __graph__ of a [[binary relation]] from $X$ to $Y$ is a subset of $X \times Y$; $(a,b)$ belongs to the graph if and only if $a$ is related to $b$.  (Note that *every* subset of $X \times Y$ defines a unique relation; such a subset is the graph of a function if and only if the relation is both [[functional relation|functional]] and [[entire relation|entire]].)
 
@@ -90,20 +95,20 @@ where
 So in this sense the ordinary notion of relation as a subset does really define the _graph of the relation_, while the relation itself is more naturally understood as the corresponding 0-[[profunctor]]/[[characteristic function]] $\chi_f$.
 
 
-### relation to graph theory ###
+### Relation to graph theory ###
 
 The graph of a binary relation from $X$ to $X$ is related to the notion of [[graph]] from [[graph theory]]; more precisely, such relations correspond to directed loop graphs (in the sense defined at [[graph]]) with vertex set $X$, and either can be defined as a subset of $X^2$.  In a similar way, [[spans]] from $X$ to $X$ correspond to [[digraph|directed pseudographs]] with vertex set $X$.
 
 For the case of a relation from $X$ to $Y$ without $X = Y$, see under the cograph below.
 
 
-## graph of an $n$-ary relation ## 
+## Graph of an $n$-ary relation ## 
 
 The __graph__ of a [[relation]] of arbitrary arity is similarly a subset of an arbitrary [[cartesian product]]; see [[relation theory]] for more on this.
 
 
 
-## cograph of a function ##
+## Cograph of a function ##
 
 [[Bill Lawvere]] has also considered the __cograph__ of a function, which is dually a [[quotient set]] of the [[disjoint union]] $X \uplus Y$; $a$ is identified with $b$ if $f(a) = b$ (and additional identifications may follow).  
 
@@ -138,7 +143,7 @@ $$
 
 The cograph of $f$ in the sense of Lawvere is the set of connected components of this category, i.e. $\pi_0(cograph(f))$.
 
-### relation to graph theory ###
+### Relation to graph theory ###
 
 The notion of cograph of a function may be even more related to the sense of [[graph]] in graph theory; although the identifications are not done there, the cograph draws a picture in which any relation (or [[multispan]]) of any arity becomes a directed graph (or directed multigraph) whose vertex set is the disjoint union of the relation\'s domains.  When the vertex set is broken up into a disjoint union in this way, graph theorists study this as _multipartite graphs_; in particular, directed bipartite graphs with vertex set broken up as $X + Y$ correspond precisely to binary relations from $X$ to $Y$.
 
