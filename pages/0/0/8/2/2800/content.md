@@ -10,11 +10,11 @@ The [[simplex category]] may be regarded as the category of all linear directed 
 
 ## Definition ##
 
-The objects of $\Omega$ are non-empty non-planar [[tree]]s with specified root. 
+The objects of $\Omega$ are non-empty non-planar [[trees]] with specified root. 
 
 Each such tree may naturally be regarded as specifying an (colored) [[operad]] with one color per edge of the tree. A morphism of trees in $\Omega$ is a morphism of the corresponding operads. 
 
-As such, $\Omega$ is by construction a full subcategory of that of [[operad]]s.,
+As such, $\Omega$ is by construction a full subcategory of that of [[operads]].,
 
 ## Dendroidal sets ##
 
