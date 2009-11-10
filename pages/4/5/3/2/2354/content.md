@@ -2,7 +2,7 @@ An ordinary [[pullback]] is a [[limit]] over a [[diagram]] of the form $A \to C 
 
 # Definition
 
-Explicitly, a 2-pullback is a square
+Explicitly, a 2-pullback in a [[2-category]] is a square
 $$\array{P & \overset{p}{\to} &A \\
   ^q\downarrow & \cong & \downarrow^f\\
   B& \underset{g}{\to} &C }$$
@@ -14,7 +14,7 @@ which commutes up to isomorphism, there exists a morphism $u:Z\to P$ and isomorp
 
 # Variations
 
-If all the coherence isomorphisms are required to be identities and $u$ in (1) is required to be unique, then we obtain the notion of a **strict 2-pullback**, which is an example of a [[strict 2-limit]].  Obviously not every 2-pullback is a strict 2-pullback, but also not every strict 2-pullback is a 2-pullback, although the latter is true if either $f$ or $g$ is an [[isofibration]] (and in particular if either is a [[Grothendieck fibration]]).
+If we are in a [[strict 2-category]] and all the coherence isomorphisms are required to be identities and $u$ in (1) is required to be unique, then we obtain the notion of a **strict 2-pullback**, which is an example of a [[strict 2-limit]].  Obviously not every 2-pullback is a strict 2-pullback, but also not every strict 2-pullback is a 2-pullback, although the latter is true if either $f$ or $g$ is an [[isofibration]] (and in particular if either is a [[Grothendieck fibration]]).  A strict 2-pullback is, in particular, an ordinary pullback in the underlying 1-category of our strict 2-category, but it has a stronger universal property than this, referring to 2-cells as well.
 
 If the coherence isomorphisms in the squares are retained, but in (1) the isomorphisms $p u \cong r$ and $q u \cong s$ are required to be identities and $u$ is required to be unique, we obtain the notion of a **strict iso-comma object** (so named because if the isomorphisms in the squares are then replaced by mere morphisms, we obtain the notion of strict [[comma object]]).  Every strict iso-comma object is a 2-pullback, and many 2-pullbacks (such as those in [[Cat]]) are in fact strict iso-comma objects.
 
