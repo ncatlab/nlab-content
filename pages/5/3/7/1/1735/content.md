@@ -1,4 +1,23 @@
-Opetopes are the shapes of cells in the approach to $n$-categories introduced here:
+<div class="rightHandSide toc">
+[[!include higher category theory - contents]]
+</div>
+
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea ##
+
+Opetopes are one of the [[geometric shapes for higher structures|geometric shapes]] of cells in the approach to the [[higher category theory]] of [[n-category|n-categories]] and [[∞-categories]].
+
+
+
+
+## References ##
+
+Opetopes were introduced here:
 
 * [[John Baez]] and [[James Dolan]], Higher-dimensional algebra
 III: $n$-categories and the algebra of opetopes,
