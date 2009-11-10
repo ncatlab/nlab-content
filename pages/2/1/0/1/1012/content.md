@@ -1,3 +1,10 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Defintion ##
+
 An **inverse** of a [[morphism]] $f : X \to Y$ in a [[category]] (or an element of a [[monoid]]) is another morphism $f^{-1} : Y \to X$ which is both a left-inverse (a [[retraction]]) as well as a right-inverse (a [[section]]) of $f$, in that 
 $$
   f \circ f^{-1} : Y \to X \to Y 
@@ -9,7 +16,7 @@ $$
 equals the [[identity morphism]] on $X$.
 
 
-#Remarks#
+## Remarks ##
 
 * A morphism which has an inverse is called an [[isomorphism]].
 
@@ -26,7 +33,7 @@ equals the [[identity morphism]] on $X$.
   * When this is applied to a  homotopy category such as $HTop$ it implies the construction of and formulae for certain homotopies. 
 
 
-# Inverses in non-associative contexts
+## Inverses in non-associative contexts ##
 
 These can be a little more complicated; see [[quasigroup]] for some discussion of the one-object version.
 
