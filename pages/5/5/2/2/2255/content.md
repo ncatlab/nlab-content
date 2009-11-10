@@ -57,3 +57,5 @@ Very nice! Is there a similar story worth telling for possibly infinite trees, c
 
 _Toby_:  Well-founded trees (and pure sets) may be defined recursively; ill-founded trees (and pure sets) may be defined corecursively; there is stuff about this at [[pure set]].  (Note that even a well-founded tree may be infinite, as long as some vertex has infinitely many branches out of it.)
 =--
+
+[[!redirects trees]]
