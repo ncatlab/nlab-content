@@ -38,3 +38,6 @@ She has also shown that opetopic [[bicategories]] are "the same" as the ordinary
 
 [[!redirects opetopic set]]
 [[!redirects opetopic n-category]]
+[[!redirects opetopes]]
+[[!redirects opetopic sets]]
+[[!redirects opetopic n-categories]]
