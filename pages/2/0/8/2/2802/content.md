@@ -1,3 +1,6 @@
+See also [[homotopical enrichment]].
+
+
 ## Discussion
 
 This was originally at [[bicategory]]:
