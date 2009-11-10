@@ -47,7 +47,7 @@ If you call that 'oidification', then you can call this simply 'categorification
 * Familiar vertical categorifications/homotopifications of algebraic structures include
 
   * vector spaces &#8594; [[2-vector spaces]]
-  * algebras &#8594; $A_\infy$-[[A-∞-algebra|algebras]]
+  * algebras &#8594; $A_\infty$-[[A-∞-algebra|algebras]]
   * Lie algebras &#8594; $L_\infty$-[[L-∞ algebra|algebras]]
 
 
