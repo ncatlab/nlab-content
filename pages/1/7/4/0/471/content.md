@@ -74,7 +74,7 @@ such as a [[model category]], there are natural
 further conditions to put on an interval object
 
 
-### Berger-Moerdijk segment object ###
+### Berger--Moerdijk segment object ###
 
 
 In [section 4](http://arxiv.org/PS_cache/math/pdf/0502/0502155v2.pdf#page=11)
