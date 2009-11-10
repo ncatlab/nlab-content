@@ -10,6 +10,17 @@
 Dendroidal sets are to [[operad]]s and [[(∞,1)-operad]]s as [[simplicial set]]s are to [[category|categories]] and [[(∞,1)-category|(∞,1)-categories]].
 
 
+## Definition ##
+
+A **dendroidal set** is a [[presheaf]] on the [[tree category]] $\Omega$. 
+
+The category of dendroidal sets is the [[functor category]]
+
+$$
+  dSet = [\Omega^{op}, Set]
+  \,.
+$$
+
 ## Model category structure ##
 
 Thie Cisinski-Moerdijk [[model structure on dendroidal sets]] is a model for [[(∞,1)-operad]]s.
