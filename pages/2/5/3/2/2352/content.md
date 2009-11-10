@@ -42,7 +42,7 @@ as described at  [[universal fibration of (∞,1)-categories]].
 
 # Definition #
 
-For $0 \leq n \leq \infty$ let $(n-1) Cat$ and $n Cat$ be a realization of the 
+For $n \leq \infty$ let $(n-1) Cat$ and $n Cat$ be a realization of the 
 notions of $n$-category of $(n-1)$-categories and of the $(n+1)$-category of $n$-categories,
 respectively,
 such that standard constructions of [[category theory]] work,
@@ -51,6 +51,8 @@ See [[higher category theory]].
 
 +--{.query}
 [[Eric]]: Is it really necessary to restrict $n$ to $0\leq n\leq\infty$? In principle, couldn't you have a graph of a (-1)-functor and/or (-2)-functor?
+
+_Toby_:  Sure.  There\'s not much to them, but why not?
 =--
 
 Then with $C,D \in n Cat$ let $f : C \to D$ be a ($n$-)[[functor]].
