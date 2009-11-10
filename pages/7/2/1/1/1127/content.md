@@ -24,7 +24,8 @@ This means that a **Grothendieck category** is an [[abelian category|abelian]] [
   * for $I$ a [[direction|directed set]] and $0 \to A_i \to B_i \to C_i \to 0$ an [[exact sequence]] for each $i \in I$, then $0 \to colim_i A_i \to colim_i B_i \to colim_j B_j \to 0$ is also an [[exact sequence]].
 
 Dually a *co-Grothendieck category* is an AB5$^*$ category 
-with a [[cogenerator]].
+with a [[cogenerator]]. The category of abelian groups is not a co-Grothendieck category. Any abelian category which is simultaneously Grothendieck and co-Grothendieck has just a single object (see Freyd's book, p.116). 
+
 #Properties#
 
 A Grothendieck category $C$ satisfies the following properties.
@@ -53,4 +54,8 @@ Grothendieck categories are mentioned at the end of section 8.3 in
 
 * Kashiwara--Schapira, [[Categories and Sheaves]]
 
-The relation to complexes is in section 14.1
+The relation to complexes is in section 14.1.
+
+See also the book 
+
+* Peter Freyd, Abelian categories, Harper 1966. 
