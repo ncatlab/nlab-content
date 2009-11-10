@@ -5,7 +5,7 @@
 
 #Idea#
 
-A **Courant algebroid** is a Lie-algebriac structure encoding a [[n-symplectic manifold|2-symplectic manifold]].
+A **Courant algebroid** is a Lie-algebraic structure encoding a [[n-symplectic manifold|2-symplectic manifold]].
 
 Various different incarnations of this data are considered in the literature. Following Roytenberg's analysis (see below) we may identify a Courant algebroid as a [[Lie infinity-algebroid|Lie 2-algebroid]] that generalizes the notion of [[Poisson Lie algebroid]] to one degree higher:
 
@@ -16,7 +16,7 @@ $$
   \,.
 $$
 
-In the literature, this Lie 2-algebroid perspective on Courant algebroids is not usually considered. Instead, by the [[red herring principle]] what is usually called a Courant algebroid is neither an [[algebroid]] nor in fact in general a [[Lie algebroid]], but is tought of as a generalization of a [[Lie bialgebroid]]: every [[Lie bialgebroid]] induces a Courant algebroid.
+In the literature, this Lie 2-algebroid perspective on Courant algebroids is not usually considered. Instead, by the [[red herring principle]] what is usually called a Courant algebroid is neither an [[algebroid]] nor in fact in general a [[Lie algebroid]], but is thought of as a generalization of a [[Lie bialgebroid]]: every [[Lie bialgebroid]] induces a Courant algebroid.
 
 The concept of Courant algebroids was originally introduced by Irene Dorfman and Ted Courant to study [[geometric quantization]] in the presence of constraints. Later it was studied by Liu, [[Alan Weinstein]] and Xu in the study of [[double Lie algebroid]]s.
 
