@@ -5,13 +5,13 @@
 
 #Idea#
 
-Universal bundles are intermediate steps in the computation of [[homotopy fiber]]s as [[mapping cone|cone]]s are intermedite steps in the computation of [[homotopy cofiber]]s.
+Universal bundles are intermediate steps in the computation of [[homotopy fibers]] as [[mapping cone|cones]] are intermedite steps in the computation of [[homotopy cofibers]].
 
-It is familiar from topology that one can form the path fibration $P X \to X$ of a [[topological space]]. This can be understood as an example of a general construction where one computes [[homotopy pullback]]s of the [[point]] -- or, if things are not [[groupoid]]al, [[comma object]]s.
+It is familiar from topology that one can form the path fibration $P X \to X$ of a [[topological space]]. This can be understood as an example of a general construction where one computes [[homotopy pullbacks]] of the [[point]] -- or, if things are not [[groupoid]]al, [[comma objects]].
 
 Since universal bundles are examples of this construction, we here speak of _generalized universal bundles_. Another appropriate term might be _generalized path fibrations_.
 
-One generalizaton of "generalized universal bundles" is that the objects in question need not be groupoidal, i.e. they behave like [[directed space]]s. In this case the [[homotopy pullback]]s familiar from topology are replaced by [[comma object]] constructions. This is useful in various applications. For instance the constructions [[category of elements]] and [[Grothendieck construction]] can be understood as such directed homotopy pullbacks of the point.
+One generalizaton of "generalized universal bundles" is that the objects in question need not be groupoidal, i.e. they behave like [[directed spaces]]. In this case the [[homotopy pullbacks]] familiar from topology are replaced by [[comma object]] constructions. This is useful in various applications. For instance the constructions [[category of elements]] and [[Grothendieck construction]] can be understood as such directed homotopy pullbacks of the point.
 
 See also
 
@@ -108,7 +108,7 @@ $$
   \Omega_{pt}B \stackrel{i}{\to} \mathbf{E}_{pt} B \stackrel{p}{\to} B
 $$
 
-is exact in that $i$ is the kernel of $p$ in the sense of kernels of morphisms of [[pointed object]]s (see there).
+is exact in that $i$ is the kernel of $p$ in the sense of kernels of morphisms of [[pointed objects]] (see there).
 
 #Examples#
 
@@ -203,11 +203,11 @@ The way this works is indicated briefly in the last section of Roberts-Schreiber
 
 ## Universal $n$-category bundles: $n$-subobject classifiers ##
 
-One can take $B$ to be something very different from the familiar classifying groupoids. Taking it to be $n Cat$ yields the [[subobject classifier]]s of higher [[topos|toposes]]:
+One can take $B$ to be something very different from the familiar classifying groupoids. Taking it to be $n Cat$ yields the [[subobject classifiers]] of higher [[topos|toposes]]:
 
 * $\mathbf{E}_{pt} (-1)Cat \to (-1)Cat$ is $\{\top\} \to \{\top, \bottom\}$, the [[subobject classifier]] in [[Set]].
 
-* $\mathbf{E}_{pt} 0Cat \to 0Cat$ is $Set_* \to Set$, the forgetful functor from [[pointed set]]s, which is the  2-[[subobject classifier]] in [[Cat]]. Pullback of this creates the [[category of elements]] of a [[presheaf]].
+* $\mathbf{E}_{pt} 0Cat \to 0Cat$ is $Set_* \to Set$, the forgetful functor from [[pointed sets]], which is the  2-[[subobject classifier]] in [[Cat]]. Pullback of this creates the [[category of elements]] of a [[presheaf]].
 
 * $\mathbf{E}_{pt} Cat \to Cat$ is $Cat_* \to Cat$. Pullback of this is the [[Grothendieck construction]].
 
@@ -221,7 +221,7 @@ These cases for $n= 0$ and $n=1$ have been considered in the context of universa
 
 * Kathryn Hess, _[[HessLackBundCat.pdf:file]]_ .
 
-The discussion there becomes more manifestly one of bundles if one regards all morphisms $C \to Set$ appearing there as being the right legs of [[anafunctor]]s. 
+The discussion there becomes more manifestly one of bundles if one regards all morphisms $C \to Set$ appearing there as being the right legs of [[anafunctors]]. 
 
 There is a well-understood version of this for $n = (\infty,1)$, i.e. for [[(infinity,1)-category|(∞,1)-categories]]. This is described at [[universal fibration of (∞,1)-categories]].
 
