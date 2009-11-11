@@ -10,7 +10,11 @@ When regarded as a [[topological operad]], the topology on the space of all such
 
 Therefore the [[algebra over an operad|algebras over]] the $E_k$ operad are "$k$-fold monoidal" objects For instance [[k-tuply monoidal (n,r)-category|k-tuply monoidal (n,r)-categories]].
 
-The limiting $E_\infty$ operad is the resolution of the ordinary commutative monoid operad $Comm$. Its algebras are [[commutative algebra in an (infinity,1)-category|homotopy commutative monoid objects]] such as [[E-∞ ring]]s.
+The limiting $E_\infty$ operad is the resolution of the ordinary commutative monoid operad $Comm$. Its algebras are [[commutative algebra in an (infinity,1)-category|homotopy commutative monoid objects]] such as [[E-∞-ring]]s.
+
++-- {: .query}
+Do you really think that '[[E-∞ ring]]s' looks better than $E_\infty$-[[E-infinity-ring|rings]]'?  If so, OK, but I\'m surprised!
+=--
 
 ## References ##
 
@@ -22,3 +26,7 @@ A discussion of $E_k$ in the context of [[(∞,1)-operad]]s is in
 [[!redirects E-k-operad]]
 [[!redirects little k-cubes operad]]
 [[!redirects little cubes operad]]
+[[!redirects E-infinity operad]]
+[[!redirects E-∞ operad]]
+[[!redirects E-infinity-operad]]
+[[!redirects E-∞-operad]]
