@@ -2,35 +2,49 @@
 
 #Contents
 
-* [[∞-category]]/[[∞-category]]
+* [[(n,r)-category]]
 
-  * [[n-category]]/[[(n,r)-category]]
+  * [[∞-category]]/[[∞-category]]
 
-    * [[(-1)-category]]
+  * [[(∞,n)-category]]
 
-    * [[0-category]]
+    * [[n-fold complete Segal space]]
 
-    * [[category|1-category]]  
+  * [[(∞,1)-category]]
 
-    * [[2-category]]
+    * [[quasi-category]]
 
-    * [[(∞,1)-category]]
+    * [[simplicially enriched category]]
 
-      * [[quasi-category]]
+    * [[complete Segal space]]
 
-      * [[simplicially enriched category]]
+    * [[model category]]
 
-      * [[complete Segal space]]
+  * [[(∞,0)-category]]/[[∞-groupoid]]
 
-      * [[model category]]
+    * [[Kan complex]]
 
-    * [[(∞,0)-category]]/[[∞-groupoid]]
+  * [[n-category]] = (n,n)-category
 
-      * [[Kan complex]]
+  * [[n-poset]] = (n-1,n)-category
 
-    * [[(∞,n)-category]]
+  * [[n-groupoid]] = (n,0)-category
 
-      * [[n-fold complete Segal space]]
+  * [[2-category]]
+
+  * [[(2,1)-category]]
+
+  * [[2-groupoid]]
+
+  * [[2-poset]]
+
+  * [[1-category]]
+
+  * [[0-category]]
+
+  * [[(-1)-category]]
+
+  * [[(-2)-category]]
 
 * [[categorification]]/[[decategorification]]
 
