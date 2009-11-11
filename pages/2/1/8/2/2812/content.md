@@ -112,7 +112,7 @@ In both these cases the complex of binary operations in these operads has a 0-cy
 +-- {: .proof}
 ###### Proof
 
-The statement for the Eilenbegr-Zilber operad goes back to _HinSch87_ . A good review is in _May03_ . The statement for the Barrat-Eccles operad is in _BerFre01_ .
+The statement for the Eilenberg-Zilber operad goes back to _HinSch87_ . A good review is in _May03_ . The statement for the Barrat-Eccles operad is in _BerFre01_ .
 
 =--
 
