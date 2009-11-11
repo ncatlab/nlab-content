@@ -20,3 +20,6 @@ For many purposes, one wants instead [[weak homotopy equivalence]]s.  Often when
 Any homotopy equivalence is also a [[weak homotopy equivalence]].  Conversely, any weak homotopy equivalence between [[m-cofibrant space]]s (spaces that are homotopy equivalent to [[CW complex]]es) is a homotopy equivalence. This is the [[Whitehead theorem]].
 
 The homotopy equivalences are the [[weak equivalence]]s in the Str&oslash;m [[model structure on topological spaces]].  The [[homotopy category]] resulting from inverting all homotopy equivalences in [[Top]] is the same as that resulting from identifying homotopic maps.
+
+
+[[!redirects homotopy equivalences]]
