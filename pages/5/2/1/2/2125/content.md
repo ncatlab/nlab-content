@@ -111,13 +111,13 @@ Further work along such lines is
 
 * Birgit Richter, _Symmetry properties of the Dold-Kan correspondence_ ([pdf](http://www.math.uni-hamburg.de/home/richter/doldkan.pdf))
 
-This shows that the Dold-Kan map from Chain complexes to simplicial abelian groups is, while not a [[monoidal category|monoidal functor]], an $E_\infty$-[[E-infinity-monoidal functor|monoidal functor]].
+This shows that the Dold-Kan map from Chain complexes to simplicial abelian groups is, while not a [[monoidal category|monoidal functor]], an [[E-k-operad|E-infinity monoidal functor]].
 
-This implies that generalized [[Eilenberg-MacLane spectrum|Eilenberg-MacLane spectra]] on [[differential graded algebra|differential graded commutative algebras]] are $E_\infty$-[[E-infinity-monoid|monoids]] in the category of $H \mathbb{Z}$-[[module]] [[spectrum|spectra]].
+This implies that generalized [[Eilenberg-MacLane spectrum|Eilenberg-MacLane spectra]] on [[differential graded algebra|differential graded commutative algebras]] are [[E-k-perad|E-infinity monoids]] in the category of $H \mathbb{Z}$-[[module]] [[spectrum|spectra]].
 
 * Birgit Richter, _Homotopy algebras and the inverse of the normalization functor_ ([pdf](http://www.math.uni-hamburg.de/home/richter/invjpaa.pdf))
 
-This article shows that the inverse $\Xi$ from chain complexes to simplicial abelian groups sends algebras over arbitrary differential graded $E_\infty$-[[E-infinity-operad|operads]] to $E_\infty$-[[E-infinity-algebra|algebras]] in simplicial modules, and is part of a [[Quillen adjunction]] for these.
+This article shows that the inverse $\Xi$ from chain complexes to simplicial abelian groups sends algebras over arbitrary differential graded [[E-k-perad|E-infinity-operad]] to [[E-k-operad|E-infinity-algebra]] in simplicial modules, and is part of a [[Quillen adjunction]] for these.
 
 
 # Lax monoidalness of the Moore cochain complex functor #
@@ -481,13 +481,10 @@ structure with respect to the standard monoidal structure on cosimplicial abelia
 =--
 
 
-### Homotopy-commutativity of the cup product ###
+### $E_\infty$-cup product on cochains on simplicial sets ###
 
-The dg-algebra obtained with this cup product operation is not, in general, (graded) commutative. But (at for Moore complexes $N^\bullet(A)$ of cosimplicial algebras $A$ of functions on a simplicial set) it is homotopy commutative in that it is an [[algebra over an operad]] for an [[E-k-operad|E-infinity operad]]
+At least for those [[cosimplicial algebra]]s $A$ that are algebras of [[cochains on simplicial sets]] $S^\bullet \in SSet$, i.e. $A = C(S^\bullet, R)$ it is known that the Moore complex [[dg-algebra]] $N^\bullet(A)$ equipped with the [[cup product]] is an [[E-k-operad|E-∞]]-[[algebra over an operad|algebra]]. See [[cochains on simplicial sets]] for details on this.
 
-* [[Clemens Berger]], [[Benoit Fresse]] _Combinatorial operad actions on cochains_ ([arXiv](http://arxiv1.library.cornell.edu/abs/math/0109158v2))
-
-This should say that $N^\bullet(A)$ is an [[commutative algebra in an (infinity,1)-category|homotopy commutative monoid object]] in the [[symmetric monoidal (infinity,1)-category]] of cochain complexes.
 
 
 [[!redirects monoidal Dold?Kan correspondence]]
