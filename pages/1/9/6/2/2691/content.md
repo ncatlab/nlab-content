@@ -48,6 +48,8 @@ See the references below.
 =--
 
 
+### Commutative vs. non-commutative dg-algebras ###
+
 +-- {: .query}
 
 [[Urs Schreiber]]: what is known about the invariant characterization of (graded) _commutative_ dg-algebras within all dg-algebras: what are the elements in the weak-equivalence class of a commutative dg-algebra when regarded in the model category of all dg-algebras?
@@ -55,7 +57,33 @@ Conversely, when is a non-commutative dg-algebra weakly equivalent to a commutat
 
 Do we have a Quillen functor inclusion of commutative into all dg-algebras, whose adjoint is a localization? Or something similar?
 
+One aspect of an answer is the following theorem
+
 =--
+
+
++-- {: .un_theorem }
+###### Theorem
+
+Let the ground [[ring]] $k$ be a [[field]] of characteritsic 0. Then every [[dg-algebra]] $A$ which has the structure of an [[algebra over an operad|algebra over]] the [[E-k-operad|E-∞ operad]] has a [[dg-algebra]] morphism $A \to A_c$ to a commutative dg-algebra $A_c$  which is
+
+* a morphism of [[E-k-operad|E-∞ algebras]] (where $A_c$ has the obvious [[E-k-operad|E-∞ algebras]] structure)
+
+* a weak weak equivalence in the model structure on dg-algebras (i.e. a [[quasi-isomorphism]] of the underlying cochain complexes).
+
+=--
+
+So this says that the weak equivalence classes of the commutative dg-algebras in the model category of all dg-algebras already exhaust the most general non-commutative but  homotopy-commutative dg-algebras.
+
++-- {: .proof}
+###### Proof
+
+This is in II.1.5 of 
+
+* [[Igor Kriz]] and [[Peter May]], _Operads, algebras, modules and motives_ , Ast&eacute;risque No 233 (1995)
+
+=--
+
 
 
 ## References ##
