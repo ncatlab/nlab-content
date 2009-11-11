@@ -24,6 +24,7 @@ is equivalent to the identity, do you?
 
 [[Urs Schreiber]]: Thanks. You mention homotopy categories. But I understood the question differently: supppose we start with an $(\infty,1)$-category in its incarnations as a simplicially enriched category. Then form the ordinary category obtained by retaining of all simplicial hom-sets only the set of 0-cells, now the set of morphisms. Mark those morphisms as weak equivalences that were equivalences in the original $(\infty,1)$-category. Then pass to the simplicial localization of the resulting category with weak equivalences. How does that relate to the original $(\infty,1)$-category?
 
+[[Mike Shulman]]: Also an interesting question!  However, I believe the answer is "it's not the same."  Consider simplicially enriched groupoids, meaning simplicially enriched categories in which each category $C_n$ defined by $C_n(x,y) = C(x,y)_n$ is a groupoid.  The fundamental $\infty$-groupoid of *any* space can be realized as such a simplicially enriched groupoid.  However, when we discard the higher cells in a simplicially enriched groupoid, we obtain simply an ordinary groupoid, whose simplicial localization is just itself.  So in this case, the composite operation in question is the 1-truncation.
 =--
 
 Often categories with weak equivalences are equipped with further extra structure that helps with computing the [[simplicial localization]], the [[homotopy category]] and [[derived functor]]s. 
