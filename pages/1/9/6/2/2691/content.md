@@ -7,7 +7,7 @@
 * automatic table of contents goes here
 {:toc}
 
-#Defintion#
+#Definition#
 
 Write $dgRing$ for the [[category]] of [[monoid]]s in the category of [[cochain complex]]es of abelian groups.
 
