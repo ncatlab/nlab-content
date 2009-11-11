@@ -481,5 +481,14 @@ structure with respect to the standard monoidal structure on cosimplicial abelia
 =--
 
 
+### Homotopy-commutativity of the cup product ###
+
+The dg-algebra obtained with this cup product operation is not, in general, (graded) commutative. But (at for Moore complexes $N^\bullet(A)$ of cosimplicial algebras $A$ of functions on a simplicial set) it is homotopy commutative in that it is an [[algebra over an operad]] for an [[E-k-operad|E-infinity operad]]
+
+* [[Clemens Berger]], [[Benoit Fresse]] _Combinatorial operad actions on cochains_ ([arXiv](http://arxiv1.library.cornell.edu/abs/math/0109158v2))
+
+This should say that $N^\bullet(A)$ is an [[commutative algebra in an (infinity,1)-category|homotopy commutative monoid object]] in the [[symmetric monoidal (infinity,1)-category]] of cochain complexes.
+
+
 [[!redirects monoidal Dold?Kan correspondence]]
 [[!redirects monoidal Dold--Kan correspondence]]
