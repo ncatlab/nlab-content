@@ -16,18 +16,16 @@ The model structure on dg-algebras is such a model.
 
 ## Definition ##
 
-Write $dgRing$ for the [[category]] of [[monoid]]s in the category of [[cochain complex]]es of abelian groups.
-
-A [[dg-algebra]] is a dg-ring that is degreewise a $k$-[[vector spac]e] over some field $k$.
+Write $dgAlg$ for the [[category]] of [[dg-algebra]]s over a [[field]] of characteristic 0.
 
 +-- {: .un_defn}
 ###### Definition
 
-The  **projective** [[model category]] structure on $dgRing$ is given by setting:
+The  **projective** [[model category]] structure on $dgAlg$ is given by setting:
 
 * weak equivalences are the [[quasi-isomorphism]]s
 
-* fibrations are the degreewise surjections.
+* fibrations are the degreewise [[epimorphism|surjections]].
 
 =--
 
@@ -50,14 +48,34 @@ See the references below.
 
 ### Commutative vs. non-commutative dg-algebras ###
 
-+-- {: .query}
++-- {: .un_prop }
+###### Observation
 
-[[Urs Schreiber]]: what is known about the invariant characterization of (graded) _commutative_ dg-algebras within all dg-algebras: what are the elements in the weak-equivalence class of a commutative dg-algebra when regarded in the model category of all dg-algebras?
-Conversely, when is a non-commutative dg-algebra weakly equivalent to a commutative one?
 
-Do we have a Quillen functor inclusion of commutative into all dg-algebras, whose adjoint is a localization? Or something similar?
+The [[stuff, structure, property|forgetful functor]]
 
-One aspect of an answer is the following theorem
+$$
+  F :  CdgAlg \to dgAlg
+$$
+
+from (graded-)commutative [[dg-algebra]]s to dg-algebras is the [[right adjoint]] part of a [[Quillen adjunction]]
+
+$$
+  Ab
+  :
+  dgAlg 
+   \stackrel{\leftarrow}{\to}
+  CdgAlg
+  :
+  F
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The forgetful functor clearly preserves fibrations and cofibrations. It has a [[left adjoint]], the free abelianization functor $Ab$, which sends a [[dg-algebra]] $A$ to its quotient $A/[A,A]$.
 
 =--
 
