@@ -41,6 +41,15 @@ See the references below.
 =--
 
 
++-- {: .query}
+
+[[Urs Schreiber]]: what is known about the invariant characterization of (graded) _commutative_ dg-algebras within all dg-algebras: what are the elements in the weak-equivalence class of a commutative dg-algebra when regarded in the model category of all dg-algebras?
+
+Conversely, when is a non-commutative dg-algebra weakly equivalent to a commutative one?
+
+=--
+
+
 #References#
 
 
