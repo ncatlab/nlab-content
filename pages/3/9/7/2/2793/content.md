@@ -2,22 +2,13 @@
 
 <div class="rightHandSide toc">
 
-
-[[!include higher geometry - contents]]
-
-***
-
 [[!include higher algebra - contents]]
-
-
-***
-
-[[!include cohomology - contents]]
 
 </div>
 
 
->**Abstract** 
+>**Abstract** This entry attempts to give an outline of a proof of Lurie's main theorem.
+
 
 +-- {: .standout}
 
@@ -178,7 +169,7 @@ $$ \pi_n B \otimes_{\pi_0 B} \omega \to \pi_{n+2} B $$
 is an isomorphism.  This map can be identified with $\times \beta$, so the preorientation is an orientation iff there is a unique factorization through $O(U) = A [ \beta^{-1} ]$.
 
 
-##Reduction##
+###Reduction###
 
 **Claim.** To prove the theorem it is enough to show
 
@@ -189,7 +180,7 @@ is an isomorphism.  This map can be identified with $\times \beta$, so the preor
 _Proof._  Suppose (1) and (2) hold.  Let $f: \mathrm{Spec} R \to M_{1,1}$ be etale for $R$ discrete.  We must show that $O (\mathrm{Spec} R)$ is an elliptic cohomology theory associated to $f$. Condition (1) ensures $\pi_0 A \simeq R$, (2) guarantees evenness and from above we have weakly periodic.  We must show that $\mathrm{Spf} A^{0} (\mathbb{C}P^\infty ) \simeq \hat E_f$ which follows from having an orientation.
 
 
-##Reducing to a Local Calculation##
+###Reducing to a Local Calculation###
 We wish to show that $\pi_n O = 0$ for $n$ odd.  From above, it suffices to show that
 
 $$ f_k : \pi_{n+2k} O' \otimes \omega^{-k} \to \pi_n O $$
@@ -200,5 +191,95 @@ $\mathrm{im} (f_k ) = 0$ iff $p^{i} \mathrm{im} (f_k )=0$. We can find an etale 
 That $M:= p^{i} \mathrm{im} (f_k ) =0$ is equivalent to $M \otimes_R R/m$ for all $m \in R$.  It is not difficult to show that all residue fields $R/m$ are finite in this case. 
 
 Now it is enough to show condition (2) formally locally as $\hat R_m /m \simeq R_m / m$.
+
+
+##Key Ingredients##
+In the previous section we had a moduli stack preoriented elliptic curves $(M,O')$.  The structure sheaf of $O'$ took values in _connected_ $E_\infty$-rings.  We had a refinement $(M, O)$ which was a moduli stack for oriented elliptic curves.  From the orientation condition we deduced that the structure sheaf took values in _weakly periodic_ $E_\infty$-rings.
+
+Further, we showed how to reduce the main theorem to a (formal) local computation.  That is, we only need to consider $\hat R_m$, the completion of a ring localized at a maximal ideal.
+
+We delay the completion of the proof until later, but now we introduce the key technical tool: $p$-divisible groups.
+
+###$p$-divisible Groups###
+Let $R$ be a complete, local ring (e.g. the $p$-adic integers $\mathbb{Z}_p$) and $E_0$ an [[elliptic curve]] over $R_0 := R/M = \mathbf{F}_q$.  What do we need in order to lift $E_0$ to an elliptic curve over $R$?
+
+Let $p$ be a prime (say the characteristic of $\mathbf{F}_q$) and $E$ an [[elliptic curve]] over $R$.  Using the _multiplication by_ $p$ map $p^n \colon E \to E$ we can define a sheaf of Abelian groups
+$$ E[p^\infty] := \mathrm{colim} \; E[p^n],$$
+where $E[p^n]$ is the kernel of the map $p^n$.  That is, $E[p^n]$ corresponds to the $p$-torsion points of $E$.
+
+**Definition.** A $p$-divisible group $\mathfrak{I}$ over $R$ is a sheaf of Abelian groups on the flat site of schemes over $R$ such that
+
+1. $p^n : \mathfrak{I} \to \mathfrak{I}$ is surjective;
+
+1. $\mathfrak{I} = \mathrm{colim} \; \mathfrak{I} [p^n]$ where $\mathfrak{I} = \mathrm{ker} \; (p^n \colon \mathfrak{I} \to \mathfrak{I})$.
+
+1. $\mathfrak{I}[p^n]$ is a finite, flat, commutative $R$-group scheme.  Note that finite means that $\mathfrak{I}$ is affine and whose global sections is a finite $R$-module.
+
+For instance, the constant sheaf $\underline{\mathbb{Z}_p}$ is a $p$-divisible group.
+
+###Serre-Tate Theory###
+
+Now let $R$, in addition to above, be Noetherian with residue field $\mathbf{F}_q$ for $q=p^n$.
+
+**Theorem (Serre-Tate).**
+Let $\overline{E}$ be an elliptic curve over $\mathbf{F}_q$, then there is an equivalence of categories between elliptic curves over $R$ that restrict to $\overline{E}$ and the category of $p$-divisible groups $\mathfrak{I}$ over $R$ such that the restriction of $\mathfrak{I}$ to $\mathbf{F}_q$ is $\overline{E} [p^\infty ]$.
+
+The theorem is somewhat surprising as, _a priori_, the latter category sees only torsion phenomena of the elliptic curves.
+
+###Derived Serre-Tate Theory###
+
+**Definition.** Let $A$ be an $E_\infty$-ring.  A functor $\mathfrak{I}$ from commutative $A$-algebras to topological Abelian groups is a $p$-divisible group if
+
+1. $B \mapsto \mathfrak{I} (B)$ is a sheaf;
+
+1. $p^n : \mathfrak{I} \to \mathfrak{I}$ is surjective;
+
+1. $(\mathrm{ho})\mathrm{colim} \; \mathfrak{I} [p^n] \simeq \mathfrak{I}$, where as above $\mathfrak{I} [p^n] := (\mathrm{ho}) \mathrm{ker} \; p^n$;
+
+1. $\mathfrak{I}[p^n]$ is a derived commutative group scheme over $A$ which is finite and flat.
+
+If $\mathfrak{I}$ is a $p$-divisible group over $\mathbf{F}_q$, then $\mathfrak{I} [p]$ is a finite $\mathbf{F}_q$-module of dimension $r$ called the _rank_ of $\mathfrak{I}$.
+
+**Proposition.** If $\mathfrak{I} = E [p^\infty]$, for $E$ an elliptic curve, then $\mathfrak{I}$ has rank 2.
+
+One can verify the proposition over $\mathbb{C}$ pretty easily; it is more subtle over a finite field.  We have a derived version of the Serre-Tate theorem.
+
+
+**Theorem (Serre-Tate).** Let $A$ be an $E_\infty$-ring such that $\pi_0 A$ is a complete, local, Noetherian ring and $\pi_i A$ are finitely generated $\pi_0 A$-modules.  Let $E_0$ be a (derived) elliptic curve over $\pi_0 A / M$, then there is an equivalence of $\infty$-categories: elliptic curves over $A$ that restrict to $E_0$ and $p$-divisible groups over $A$ that restrict to $E_0 [p^\infty]$.
+
+###Proof of the Classical Theorem###
+We give a proof of the classical result, however the proof is quite formal and should carry over to the derived setting.
+
+Let $R$ be a ring as in the theorem such that $N \cdot R =0$ for some $N \in \mathbb{N}$ and let $I \subset R$ be a nilpotent ideal, so $I^{r+1} =0$, and set $R_0 = R/I$.  Let $\mathfrak{I} \colon R-\mathrm{alg} \to \mathrm{Ab}$ and
+$$ \mathfrak{I}_I (A) := \mathrm{ker} \; ( \mathfrak{I} (A) \to \mathfrak{I} (A / I \cdot A ) .$$
+Further, define
+$$ \overline{\mathfrak{I}} (A) := \mathrm{ker} \; (\mathfrak{I}(A) \to \mathfrak{I} (A / \mathrm{nil}R \cdot A)) \subset \mathfrak{I}_I (A) .$$
+
+**Lemma.** If $\mathfrak{I}$ is a formal group over $R$, then $\mathfrak{I}_I$ is annihilated by $N^r$.
+
+
+**Proposition.** Let $\mathfrak{I}$, $\mathfrak{H}$ be elliptic curves or $p$-divisible groups over $R$ and let $N=p^n$.  Denote by $\mathfrak{I}_0$ and $\mathfrak{H}_0$ the restriction of $\mathfrak{I}$ and $\mathfrak{H}$ to $R_0$-algebras.  Then
+
+1. $\mathrm{Hom}_{R-grp} (\mathfrak{I}, \mathfrak{H})$ and $\mathrm{Hom}_{R_0-grp} (\mathfrak{I}_0 , \mathfrak{H}_0 )$ have no $N$-torsion;
+
+1. $\mathrm{Hom} (\mathfrak{I} , \mathfrak{H}) \to \mathrm{Hom} (\mathfrak{I}_0 , \mathfrak{H}_0 )$ is injective;
+
+1. For $f_0 \colon \mathfrak{I}_0 \to \mathfrak{H}_0$ there is a unique homomorphism $N^r f \colon \mathfrak{I} \to \mathfrak{H}$ which lifts $N^r \cdot f_0$;
+
+1. $f_0 \colon \mathfrak{I}_0 \to \mathfrak{H}_0$ lifts to $f \colon \mathfrak{I} \to \mathfrak{H}$ if and only if $N^r f$ annihilates $\mathfrak{I}[N^r] \subset \mathfrak{I}$.
+
+Note that if $E$ is an elliptic curve over $R$ then the $E_0$ above is given by
+$$E_0 = E \times_{\mathrm{Spec} \; R} \mathrm{Spec} \; R/I .$$
+
+Using the previous results one can prove the following alternate version of the Serre-Tate theorem.
+
+**Theorem (alternative Serre-Tate).**
+Let $R$ be a ring with $p$ nilpotent and $I \subset R$ a nilpotent ideal.  Let $R_0 = R/I$.  We have a categorical equivalence: elliptic curves over $R$ and the category of triples $\{ (E, E_0 [p^\infty] , \epsilon )\}$; where $E$ is an elliptic curve over $R_0$, $E_0 [p^\infty]$ is a $p$-divisble group over $R$, and $\epsilon \colon E_0 [p^\infty] \to E[p^\infty]_0$ is a natural isomorphism.
+
+###Adding in Completions###
+We really want to consider elliptic curves over $R$ completed by an ideal $m$, this is the $\hat{R}_m$ from far above.  We can reduce this problem to that of elliptic curves over $R$ and a system of $p$-divisible groups over $R/m^n$ by combining the Serre-Tate theorem and the following theorem of Grothendieck.
+
+**Theorem (Formal GAGA).** Let $X, Y$ be exceedingly nice schemes over $R$ and $\hat X$, $\hat Y$ be their formal completions, then there is a bijection
+$$\mathrm{Hom}_{R} (X,Y) \leftrightarrow \mathrm{Hom}_{\hat R} (\hat X, \hat Y).$$
 
 
