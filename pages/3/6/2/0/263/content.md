@@ -7,7 +7,7 @@
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+##Idea##
 
 A _category with [[weak equivalence]]s_ is an ordinary [[category]] with a class of morphisms called 'weak equivalences' that include the isomorphisms, but also typically other morphisms.  Such a category can be thought of as a presentation of an [[(∞,1)-category]] that gives only the 1-morphisms and the information about which of these 1morphisms should become _equivalences_ in the full [[(∞,1)-category]].
 
@@ -21,6 +21,9 @@ $$ (\infty,1) Cat \to Cat \to (\infty,1) Cat $$
 is equivalent to the identity, do you?
 
 [[Mike Shulman]]: I've tried to clarify the statements being made.
+
+[[Urs Schreiber]]: Thanks. You mention homotopy categories. But I understood the question differently: supppose we start with an $(\infty,1)$-category in its incarnations as a simplicially enriched category. Then form the ordinary category obtained by retaining of all simplicial hom-sets only the set of 0-cells, now the set of morphisms. Mark those morphisms as weak equivalences that were equivalences in the original $(\infty,1)$-category. Then pass to the simplicial localization of the resulting category with weak equivalences. How does that relate to the original $(\infty,1)$-category?
+
 =--
 
 Often categories with weak equivalences are equipped with further extra structure that helps with computing the [[simplicial localization]], the [[homotopy category]] and [[derived functor]]s. 
@@ -34,7 +37,7 @@ Often categories with weak equivalences are equipped with further extra structur
 * In a [[model category]] there are both of these additional auxiliary classes of morphisms with special interrelation between them.
 
 
-#Definition#
+## Definition ##
 
 A **category with weak equivalences** is a [[category]] $C$ equipped with a [[subcategory]] (in the na&#239;ve sense) $W \subset C$
 
@@ -42,7 +45,7 @@ A **category with weak equivalences** is a [[category]] $C$ equipped with a [[su
 
 * which satisfies "two-out-of-three": for $f, g$ any two composable morphisms of $C$, if two of $\{f, g, g \circ f\}$ are in $W$, then so is the third.
 
-#Purpose#
+## Purpose ##
 
 The idea is that $C$ is a presentation of a [[higher category theory|higher category]] with higher morphisms, and that the weak equivalences are those morphisms which would become true [[equivalence]]s in this higher category.
 
@@ -50,7 +53,7 @@ This higher category may be reconstructed by Dwyer-Kan localization as an $(\inf
 
 Alternatively, we may further project to the 1-category in which all weak equivalences become true [[isomorphism]]s: this is the [[homotopy category]] of $C$ with respect to $W$.
 
-#Remarks#
+## Remarks ##
 
 * If we denote by $Core(C)$ the maximal subgroupoid of $C$, then we have a chain of inclusions
 $ 
