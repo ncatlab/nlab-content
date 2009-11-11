@@ -19,6 +19,6 @@ A discussion of $E_k$ in the context of [[(infinity,1)-operad]]s is in
 * [[Jacob Lurie]], _$\mathbb{E}_k$-algebra_ ([pdf](http://www-math.mit.edu/~lurie/papers/DAG-VI.pdf))
 
 
-[[!redirects E-k operad]]
+[[!redirects E-k-operad]]
 [[!redirects little k-cubes operad]]
 [[!redirects little cubes operad]]
