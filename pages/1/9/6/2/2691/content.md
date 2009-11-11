@@ -27,7 +27,9 @@ The  **projective** [[model category]] structure on $dgRing$ is given by setting
 +-- {: .un_prop }
 ###### Proposition
 
-This indeed defines a [[model category]] and in fact a [[cofibrantly generated model category]].
+This indeed defines a [[model category]]. 
+
+At least when restricted to (graded) commutative dg-algebras this is a [[cofibrantly generated model category]].
 
 =--
 
@@ -51,7 +53,7 @@ A standard textbook reference is section V.3 of
 
 * [[Sergei Gelfand]], [[Yuri Manin]], _Methods of homological algebra_, Springer
 
-For commutative dg-rings see also
+An original reference seems to be
 
 * A. Bousfield, V. Gugenheim, _On PL deRham theory and rational homotopy type_ Memoirs of the AMS 179 (1976)
 
