@@ -1,15 +1,19 @@
 
-# Idea #
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-The general procedure in [[K-theory]] is to assign a **K-theory spectrum** $\mathbf{K}(C)$ to a [[stable (infinity,1)-category]] $C$. 
+## Idea ##
+
+The general procedure in [[K-theory]] is to assign a **K-theory spectrum** $\mathbf{K}(C)$ to a [[stable (∞,1)-category]] $C$. 
 
 In practice these stable $(\infty,1)$-categories are usually [[presentable (infinity,1)-category|presented]] by [[homotopical category|homotopical categories]] called [[Waldhausen category|Waldhausen categories]].
 
-The _Waldhausen S-construction_ on a Waldhausen category $C'$ produces a simplicial set equivalent to the K-theory spectrum of the [[simplicial localization]] $C$ of $C'$: it is a concrete algorithm for computing K-theory spectra.
+The _Waldhausen S-construction_ on a Waldhausen category $C'$ produces a [[simplicial set]] equivalent to the K-theory spectrum (see below) of the [[simplicial localization]] $C$ of $C'$: it is a concrete algorithm for computing K-theory spectra.
 
-# Definition #
+## Definition ##
 
-Recall from the definition at [[K-theory]] that the K-theory spectrum $K(C)$ of the [[(infinity,1)-category]] $C$ is the diagonal simplicial set on the bisimplicial set $Core(Func(\Delta^n,C))$ of sequences of morphisms in $C$ and equivalences between these.
+Recall from the definition at [[K-theory]] that the K-theory spectrum $K(C)$ of the [[(∞,1)-category]] $C$ is the diagonal simplicial set on the bisimplicial set $Core(Func(\Delta^n,C))$ of sequences of morphisms in $C$ and equivalences between these.
 
 The Waldhausen S-construction mimics precisely this: for $C'$ a [[Waldhausen category]] for every integer $n$ define a simplicial set $S_n C'$ to be the [[nerve]] of the category whose
 
@@ -31,13 +35,9 @@ this is the **S-construction** of the  **Waldhausen [[K-theory]] spectrum** of $
 (... roughly at least, need to polish this, see link below meanwhile...)
 
 
-# References #
+## References ##
 
 
 The Waldhausen S-construction is recalled for instance in section 1 of 
 
 * Paul D. Mitchener, _Symmetric Waldhausen K-theory spectra of topological categories_ ([pdf](http://bib.mathematics.dk/unzip.php?filename=DMF-2001-05-001-v1.pdf.gz))
----
-&lt;http://ncatlab.org/nlab/show/Waldhausen+S-construction>
-
-nLab page on [[nlab:Waldhausen S-construction]]
