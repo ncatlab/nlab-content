@@ -32,6 +32,8 @@
 
       * [[n-fold complete Segal space]]
 
+* [[categorification]]/[[decategorification]]
+
 * [[geometric definition of higher category]]
 
   * [[Kan complex]]
