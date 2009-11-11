@@ -52,7 +52,7 @@ $V Mod$ and that of categories and colimit-preserving functors and natural trans
 
 An explicit statement of this can be found for instance as prop. 4.2.4
 
-* Gian Luca Cattani, PhD thesis from BRICS, University of Aarhus ([pdf](http://www.daimi.au.dk/~luca/thesis.htmlPhD))
+* Gian Luca Cattani, PhD thesis from BRICS, University of Aarhus ([pdf](http://www.daimi.au.dk/~luca/thesis.html))
 
 This formulation plays a big role also in the context of [[(∞,1)-categories]]. A [[presentable (∞,1)-category]] is one equivalent to a [[localization]] of some [[(∞,1)-category of (∞,1)-presheaves]] (i.e. some [[reflective (∞,1)-subcategory]] of the latter). The collection of all [[presentable (∞,1)-categories]] and colimit-preserving [[(∞,1)-functors]] betweem them forms the [[symmetric monoidal (∞,1)-category of presentable (∞,1)-categories]], whose [[tensor product]] is the "bilinear" tensor product coming from interpreting colimit-preserving functors as "linear" (reading: colimit $\sim$ sum).
 
