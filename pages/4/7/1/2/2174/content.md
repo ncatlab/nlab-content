@@ -1,5 +1,7 @@
-See [PERS](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Propositional_Equation_Reasoning_Systems) @ [MyWikiBiz](http://mywikibiz.com/)
-
-
+[[!redirects propositional equation reasoning systems]]
 [[!redirects Propositional Equation Reasoning Systems]]
-[[!redirects Proposition Equation Reasoning Systems]]
+[[!redirects Propositional Equation Reasoning System]]
+
+# Link #
+
+* [Propositional Equation Reasoning Systems](http://mywikibiz.com/Directory:Jon_Awbrey/Papers/Propositional_Equation_Reasoning_Systems)
