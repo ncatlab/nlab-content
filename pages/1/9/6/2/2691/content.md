@@ -114,4 +114,6 @@ This is also the structure used in
 where aspects of its relation to the [[model structure on cosimplicial rings]] is discussed. (See [[monoidal Dold-Kan correspondence]] for
 more on this).
 
+
 [[!redirects model structure on dg-rings]]
+[[!redirects model structure on dg-algebra]]
