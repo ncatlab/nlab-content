@@ -53,6 +53,10 @@ There is something [[evil]] about the notion of fibration, namely the requiremen
 
 While almost any fibration between "concrete" categories that arises in practice does satisfy this evil property, it is sometimes useful to have a non-evil version, for instance when working internally in a [[bicategory]] where equality of objects doesn't even really make sense.  The correct modification, first given by Street, is simply to require that for any $f:a\to b$ and $e\in E_b$ there exists a cartesian $\phi:e'\to e$ and an _isomorphism_ $h:p(e') \cong a$ such that $f\circ h = p(\phi)$; the definition of "cartesian" is unchanged.
 
++--{: .query}
+[[David Roberts]]: Couldn't we also say that it is evil to say that the target of the cartesian arrow $\phi$ is equal to the given object $e$? I'm thinking from the point of view of [[Dold fibration|Dold fibrations]], where the initial point of a lifted path can only be specified up to homotopy. The resulting functor between fundamental groupoids is then not a fibration in the above 'evil' sense as it would be if we were dealing with a [[Serre fibration]]
+=--
+
 ## Internal version ##
 
 In a [[strict 2-category]] $K$, a morphism $p:E\to B$ is called a fibration if for every object $X$, $K(X,E)\to K(X,B)$ is a fibration of categories, and for every morphism $f:Y\to X$, the square
