@@ -26,7 +26,7 @@
 
   * [[n-category]] = (n,n)-category
 
-  * [[n-poset]] = (n-1,n)-category
+  * [[n-poset]] = (n&#8722;1,n)-category
 
   * [[n-groupoid]] = (n,0)-category
 
