@@ -16,12 +16,12 @@ The model structure on dg-algebras is such a model.
 
 ## Definition ##
 
-Write $dgAlg$ for the [[category]] of [[dg-algebra]]s over a [[field]] $k$ of characteristic 0. Write $C dgAlg \subset cgAlg$ for the [[subcategory]] of (graded-)commutative dg-algebras.
+Write $dgAlg$ for the [[category]] of [[dg-algebra]]s over a [[field]] $k$ of characteristic 0. Write $C dgAlg \subset dgAlg$ for the [[subcategory]] of (graded-)commutative dg-algebras.
 
 +-- {: .un_defn}
 ###### Definition
 
-The  **projective** [[model category]] structure on $C dgAlf$ and on $dgAlg$ is given by setting:
+The  **projective** [[model category]] structure on $C dgAlg$ and on $dgAlg$ is given by setting:
 
 * weak equivalences are the [[quasi-isomorphism]]s
 
@@ -57,6 +57,8 @@ The nature of the cofibrations is discussed below.
 
 
 ## Cofibrations: Sullivan algebras ##
+
+In this section we describe the cofibrations in the model structure on $C dgAlg_\mathbb{N}$ of **non-negatively graded** dg-algebras. Notice that it is these that are in the image of the dual [[monoidal Dold-Kan correspondence]].
 
 Before we characterize the cofibrations, first some notation.
 
@@ -96,7 +98,7 @@ $$
   (\alpha \lt \beta) \Rightarrow (deg v_\alpha  \leq deg v_\beta)
 $$
 
-holds. For a Sullivan algebra $(k,0) \to (\wedge^\bullet V, d)$ relative to the tensor unit we call the [[semifree dga]] $(\wedge^\bullet V,d)$ simply a **Sullivan algebra**.  And a **minimal Sullivan algebra** if $(k,0) \to (\wedge^\bullet V, d)$ is a monimal relative Sullivan algebra.
+holds. For a Sullivan algebra $(k,0) \to (\wedge^\bullet V, d)$ relative to the tensor unit we call the [[semifree dga]] $(\wedge^\bullet V,d)$ simply a **Sullivan algebra**.  And a **minimal Sullivan algebra** if $(k,0) \to (\wedge^\bullet V, d)$ is a minimal relative Sullivan algebra.
 
 =--
 
@@ -129,8 +131,7 @@ for all $\omega \in V$ and all $v_i \in V^*$.
 ###### Proposition
 **(cofibrations are relative Sullivan algebras)**
 
-The cofibration in $C dgAlg$ are precisely the [[retract]]s of relative 
-Sullivan algebras $(A,d) \to (A\otimes_k \wedge^\bullet V, d')$.
+The cofibration in $C dgAlg_{\mathbb{N}}$ are precisely the [[retract]]s of relative  Sullivan algebras $(A,d) \to (A\otimes_k \wedge^\bullet V, d')$.
 
 Accordingly, the cofibrant objects in $C dgAlg$ are precisely the Sullivan algebras $(\wedge^\bullet V, d)$
 
@@ -296,3 +297,4 @@ more on this).
 
 [[!redirects model structure on dg-rings]]
 [[!redirects model structure on dg-algebra]]
+[[!redirects Sullival algebra]]
