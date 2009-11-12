@@ -249,7 +249,7 @@ and in [section 2.8](http://home.imf.au.dk/kock/SGM-final.pdf#page=89) of
 
 The details of what $X^{\Delta^k_{inf}}$ is like concretely on representables in the [[smooth topos]] $PSh(k-Alg^{op})$ of [[algebraic geometry]], i.e. on [[affine scheme]]s is worked out in detail in 
 
-* Breen, Messing, _Combinatorial differential forms_ ([pdf](http://arxiv.org/abs/math/0005087))
+* [[Larry Breen]], [[William Messing]], _Combinatorial differential forms_ ([pdf](http://arxiv.org/abs/math/0005087))
 
 The formulas given there should more or less directly carry over to [[smooth topos]]es with [[smooth locus|smooth loci]] by replacing ordinary rings with [[smooth algebra]]s.
 
