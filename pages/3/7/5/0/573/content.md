@@ -9,7 +9,7 @@ Combining the idea of $(\infty,1)$-[[(infinity,1)-category|category]] with that 
 
 #Idea in terms of complete Segal spaces#
 
-One definition buidling on that of [[(∞,1)-category]] in terms of [[complete Segal spaces]] was given in 2005 by Clark Barwick and recently put to use and popularized by Jacob Lurie in [[On the Classification of Topological Field Theories]] and in more detail in
+One definition building on that of [[(∞,1)-category]] in terms of [[complete Segal spaces]] was given in 2005 by Clark Barwick and recently put to use and popularized by Jacob Lurie in [[On the Classification of Topological Field Theories]] and in more detail in
 
 * [[Jacob Lurie]], _$(\infty,2)$-Categories and the Goodwillie Calculus I_ ([arXiv](http://arxiv.org/abs/0905.0462))
 
@@ -18,6 +18,15 @@ Due to this definition an $(\infty,n)$-category is an [[n-fold complete Segal sp
 For each $n \in \mathbb{N}$, there is an $(\infty,1)$-category $(\infty,n)Cat$ of all $(\infty,n)$-categories. This is such that $(\infty,1)Cat$ is indeed equivalent to the [[(∞,1)-category of (∞,1)-categories]].
 
 See def. 1.3.6 in the above reference.
+
+
+Another definition also building on that of [[(∞,1)-category]] in terms of [[complete Segal spaces]] was given in early 2009 by Charles Rezk in
+
+* [[Charles Rezk]], _A cartesian presentation of weak n-categories_ ([arXiv](http://arxiv.org/abs/0901.3602))
+
+In the above paper, they are called $(\infty,n)$-$\Theta$-spaces.
+
+This definition makes use the shape categories $\Theta_n$ originally introduced by Andr&#233; Joyal; $(\infty,n)$-categories are defined to be the fibrant objects in an appropriate [[Bousfield localization]] of the [[injective model structure]] on [[simplicial presheaves]] on $\Theta_n$.  
 
 
 #Special cases#
