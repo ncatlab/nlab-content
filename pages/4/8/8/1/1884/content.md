@@ -1,4 +1,8 @@
-# Idea #
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea ##
 
 
 What is called _topological_ [[K-theory]] is a collection of  [[generalized (Eilenberg-Steenrod) cohomology]] theories whose cocycles in degree 0 on a space $X$ can be represented by pairs of [[vector bundle]]s, real or complex ones, on $X$ modulo a certain equivalence relation.
@@ -18,7 +22,7 @@ $$
   \,.
 $$
 
-## Motivational example: "nonabelian K-cohomology" ##
+### Motivational example: "nonabelian K-cohomology" ###
 
 To see how this works, first consider the task of generalizing the "[[nonabelian cohomology]]" or [[cohomotopy]] theory given by the coefficient object $\mathbb{N}$, the additive semi-group of  $\mathbb{N}$ of [[natural number]]s.
 
@@ -48,7 +52,7 @@ $$
 It is equivalent to the [[nonabelian cohomology]] with coefficients the [[delooping]] $\mathbf{B} U$ of the stable unitary group $U := colim_n U(n)$.
 
 
-## K-theory as a groupoidification of $\mathbf{Vect}$ ##
+### K-theory as a groupoidification of $\mathbf{Vect}$ ###
 
 The integers $\mathbb{Z}$ are obtained from the natural numbers $\mathbb{N}$ by including "formal inverses" to all elements under the additive operation. Another way to think of this is that the [[delooping|delooped]] [[groupoid]] $\mathbf{B} \mathbb{Z}$ is obtained from $\mathbf{B} \mathbb{N}$ by groupoidification (under the [[nerve]] operation this is fibrant replacement in the [[model structure on simplicial sets]]).
 
@@ -69,7 +73,12 @@ As one of several variations, it is useful to regard a pair of [[vector bundle]]
 One version of $\mathbb{Z}_2$-graded vector bundles, which lead to a description of [[twisted cohomology|twisted]] $K$-theory are [[vectorial bundle]]s.
 
 
-# References #
+## Spectrum ##
+
+Being a [[generalized (Eilenberg-Steenrod) cohomology]] theory, toplogical K-theory is represented by a [[spectrum]]: the [[K-theory spectrum]].
+
+
+## References ##
 
 An introductory reference is
 
@@ -78,11 +87,8 @@ An introductory reference is
 More advanced material is in ...
 
 
-# Spectrum #
 
-Being a [[generalized (Eilenberg-Steenrod) cohomology]] theory, toplogical K-theory is represented by a [[spectrum]]: the [[K-theory spectrum]].
-
-# Discussion #
+## Discussion ##
 
 The above idea section was originally at [[K-theory]] where it triggered the following discussion
 
