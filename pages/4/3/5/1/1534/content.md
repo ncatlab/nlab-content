@@ -5,7 +5,7 @@
 
 #Idea#
 
-A _factorization algebra_ is like an [[algebra over an operad]] where the [[operad]] in question is like the [[little disks operad]], but with each disk embedded into a given manifold $X$.
+A _factorization algebra_ is like an [[algebra over an operad]] where the [[operad]] in question is like the [[E-k operad]], but with each disk embedded into a given [[manifold]] $X$.
 
 This way a factorization algebra is an assignment of a [[object]] (in the standard case a vector space) $V_D$ to each ball $D \subset X$ embedded in $X$, and for each collection of non-intersecting embedded balls $D_1 , \cdots, D_n \subset D \subset X$ sitting inside a bigger embedded ball $D$ in $X$ a morphism
 
@@ -43,7 +43,11 @@ A definition appears in section 4.1 _Topological Chiral Homology_ of
 
 There it is demonstrated how factorization algebras can be used to construct extended [[FQFT]]s.
 
-Concrete constructions of formal algebras for familiar [[quantum field theory|quantum field theories]] are described in the work of Kevin Costello. This can be found mentioned in the talk notes of the [[Northwestern TFT Conference 2009]], see in particular
+Concrete constructions of formal algebras for familiar [[quantum field theory|quantum field theories]] are described in 
+
+* [[Kevin Costello]] (with [[Owen Gwilliam]]), _Factorizaton algebras in perturbative quantum field theory_ in [[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology|Strings, Field, Topology]], Oberwolfach report No 28, 2009 ([pdf](http://www.mfo.de/programme/schedule/2009/24/OWR_2009_28.pdf#page=1558))
+
+This can also be found mentioned in the talk notes of the [[Northwestern TFT Conference 2009]], see in particular
 
 * notes by  [[Christoph Wockel]], [[costello.pdf:file]]
 
