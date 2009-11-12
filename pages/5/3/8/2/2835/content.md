@@ -1,4 +1,4 @@
-This page is primarily to explore the notion of [[fibration]] of [[bigroupoid]]s (meaing weak [[2-groupoid]]s? ---Toby). There is (well, will be) original research here, so beware.
+This page is primarily to explore the notion of [[fibration]] of weak [[2-groupoid]]s. There is (well, will be) original research here, so beware.
 
 Preliminary content soon...
 
