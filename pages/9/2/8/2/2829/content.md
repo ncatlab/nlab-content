@@ -9,4 +9,7 @@
 
 * [[model structure on dg-algebras]]
 
+
 category: people
+
+[[!redirects Kirsten Schemmerhorn]]
