@@ -2,12 +2,15 @@
 [[!include higher category theory - contents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-#Idea#
+## Idea ##
 
 Combining the idea of $(\infty,1)$-[[(infinity,1)-category|category]] with that of $n$-[[n-category|category]], an $(\infty,n)$-category is supposed to be an $\infty$-[[infinity-category|category]] which behaves like its $k$-morphisms for $k \gt n$ are all [[equivalences]]. See [[(n,r)-category]].
 
-#Idea in terms of complete Segal spaces#
+## Idea in terms of complete Segal spaces ##
 
 One definition building on that of [[(∞,1)-category]] in terms of [[complete Segal spaces]] was given in 2005 by Clark Barwick and recently put to use and popularized by Jacob Lurie in [[On the Classification of Topological Field Theories]] and in more detail in
 
@@ -29,7 +32,7 @@ In the above paper, they are called $(\infty,n)$-$\Theta$-spaces.
 This definition makes use the shape categories $\Theta_n$ originally introduced by Andr&#233; Joyal; $(\infty,n)$-categories are defined to be the fibrant objects in an appropriate [[Bousfield localization]] of the [[injective model structure]] on [[simplicial presheaves]] on $\Theta_n$.  
 
 
-#Special cases#
+## Special cases ##
 
 See also 
 * [[∞-groupoid]] = $(\infty,0)$-category
@@ -39,7 +42,7 @@ See also
 * [[∞-category]] = $(\infty,\infty)$-category
 
 
-#Examples#
+## Examples ##
 
 The motivating example for $(\infty,n)$-categories is the [[(∞,n)-category of cobordisms]] which plays a central role in the formalization of the [[cobordism hypothesis]]. 
 
