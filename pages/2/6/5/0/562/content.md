@@ -59,6 +59,8 @@ While almost any fibration between "concrete" categories that arises in practice
 [[Mike Shulman]]: Two answers: (1) I don't think that part of the definition is evil.  It's just like saying, in the definition of a [[product]] of two objects $A$ and $B$, that the target of the two projections $A\times B\to A$ and $A\times B \to B$ are *equal* to $A$ and $B$.  Defining the source and target of an arrow is just a typing assertion.
 
 (2) I think any weakening along those lines would actually be equivalent to the version above, and moreover a Dold fibration really does induce an actual fibration (even an evil one) between fundamental groupoids.  The categorical version of a Dold fibration would say that for any $f\colon a\to b$ in $B$ and $e\in E_b$, there exists a cartesian $\phi\colon e' \to \hat{e}$ with $p(\phi)=f$ and an isomorphism $\hat{e}\cong e$ in the fiber $E_b$.  But in that case you can just compose $\phi$ with the isomorphism $\hat{e}\cong e$ to get a cartesian arrow $\hat{\phi}\colon e'\to e$ with $p(\phi)=f$ still.  The reason this doesn't work in topology is that paths come with parametrizations, and requiring the lower triangle (in the square drawn at [[Dold fibration]]) to commute strictly prevents the reparametrization necessary to compose with a vertical homotopy.
+
+[[David Roberts]]: Duh, of course. The interesting bit of course comes when thinking about fundamental bigroupoids, where the parameterisations on the paths are preserved. I'd like to talk to you about some ideas on this line, but obviously on a more appropriate page, such as [[fibration of bigroupoids]].
 =--
 
 ## Internal version ##
