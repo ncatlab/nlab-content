@@ -1,10 +1,14 @@
 [[!redirects augmented simplex category]]
 
-#Idea#
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+##Idea##
 
 The **simplex category** $\Delta$ encodes one of the main [[geometric shapes for higher structures]]. Its objects are the standard cellular $n$-[[simplex|simplices]]. It is also called the [[simplicial category]], but that term is ambiguous.
 
-#Definition#
+##Definition##
 
 * The __simplex category__ $\Delta$ is the [[full subcategory]] of [[Cat]] consisting of the [[finite set|finite]] [[inhabited set|inhabited]] linear [[quiver]]s.
 $$
@@ -15,7 +19,7 @@ $$
 
 * Equivalently: $\Delta$ is the category of finite inhabited [[total order|totally ordered set]]s and order-preserving functions between them.
 
-## Detailed description ##
+### Detailed description ###
 
 In more details, $\Delta$ looks as follows.
 
@@ -67,9 +71,9 @@ $$
 $$
 
 
-#Remarks#
+##Remarks##
 
-## simplicial sets ##
+### simplicial sets ###
 
 [[presheaf|Presheaves]] on $\Delta$ are [[simplicial set|simplicial sets]]. 
 
@@ -83,7 +87,7 @@ The face and degeneracy maps and the relation they satisfy are geometrically bes
 
 
 
-## augmented simplex category ##
+### augmented simplex category ###
 
 * Often, it is highly convenient to extend the category $\Delta$ to contain also the empty totally ordered set $[-1] := \emptyset$. This is called the _augmented_ simplex category $\Delta_a$, and presheaves on it are **augmented simplicial sets**. The category $\Delta_a$ may be characterized as the initial strict monoidal category equipped with a monoid; the monoidal product is **ordinal sum**, and the monoidal unit is the empty ordinal. This style of definition also opens up the possibility of using string diagrams to visualize the structure of $\Delta_a$ and of the [[cube category]] $\Box$. 
 
@@ -125,7 +129,7 @@ Under [[Day convolution]] this monoidal structure induces the [[join of simplici
 =--
 
 
-### realization and nerve ###
+#### realization and nerve ####
 
 There are important standard functors from $\Delta$ to other categories which _realize_ $[n]$ as a concrete model of the standard $n$-[[simplex]].
 
@@ -148,13 +152,13 @@ $$
   \,.
 $$
 
-#References#
+##References##
 
 see the references at [[simplicial set]].
 
 ***
 
-#Discussion#
+##Discussion##
 
 An earlier version of this entry started the following discussion:
 
