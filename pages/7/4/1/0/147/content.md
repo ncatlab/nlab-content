@@ -1,4 +1,8 @@
-#Idea#
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea ##
 
 The structure of a _site_ on a [[category]] $C$ is a structure that regards each [[object]] $c$ of $C$ as a [[space and quantity|space]] and determines which [[morphisms]] $\pi : d \to c$ from collections $d := \{\sqcup_i d_i\}$ of [[objects]] of $C$ to $c$ behave as [[cover|covers]] of spaces.
 
@@ -6,7 +10,7 @@ One says a site is a [[category]] equipped with a [[topology]], called a [[Groth
 
 Such presheaves are [[sheaf|sheaves]]. Or, in [[higher category theory|higher categorical contexts]], [[stacks]], and further [[∞-stacks]].
 
-#Definition#
+## Definition ##
 
 +-- {: .un_defn}
 ###### Definition
@@ -26,7 +30,7 @@ A _site_ is a category $C$ equipped with a [[Grothendieck topology]] $J$.
 
 
 
-# Definition: morphisms of sites #
+## Definition: morphisms of sites ##
 
 Motivated from the archetypical example of [[category of open subsets|categories of open subsets]], one says that 
 
@@ -64,7 +68,7 @@ Then a **morphism of sites** $f : X \to Y$ is
 A morphism of sites $f : X \to Y$ as above induces a morphism of [[category of sheaves|categories of sheaves]] $Sh(X) \to Sh(Y)$ and this morphism is a [[geometric morphism]] of [[topos|topoi]].
 
 
-## Sub-sites ##
+### Sub-sites ###
 
 Moreover, for $X$ a presite and $U \in S_X$ an object in the corresponding category, the [[comma category]] $(Y_{S_X} / U)$ is naturally regarded as the presite defined by $U$, which by convenient abuse of notation one would just write $U$ itself, so that $S_U = S_X \downarrow U$. 
 
@@ -90,7 +94,7 @@ is a [[local epimorphism]].
 There are natural operations for [[restriction and extension of sheaves]] from a sub-site $U$ to $X$ and back.
 
 
-## Direct and inverse image ##
+### Direct and inverse image ###
 
 So for $f : X \to Y$ a morphisms of sites, coming from a functor $f^t : S_Y \to S_X$, the [[direct image]] functor is the functor may be denoted
 $$
@@ -105,7 +109,7 @@ $$
 
 
 
-#References#
+## References ##
 
 Morphisms between sites are discussed for instance
 
@@ -117,7 +121,7 @@ in section 17.2 of
 
 as well as in section VII. 10 of
 
-* MacLane-Moerdijk, [[Sheaves in Geometry and Logic]] 
+* [[Saunders MacLane]] [[Ieke Moerdijk]], [[Sheaves in Geometry and Logic]] 
 
 (in terms of covering [[sieves]]), where also the relation to [[geometric morphisms]] is discussed.
 
