@@ -2,6 +2,9 @@
 [[!include higher category theory - contents]]
 </div>
 
+#Contents#
+* automatic toc goes here
+{:toc}
 
 ## Idea ##
 
