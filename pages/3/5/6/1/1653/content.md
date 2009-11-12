@@ -1,3 +1,8 @@
+# Measurable spaces #
+* tic
+{: toc}
+
+
 ##Idea##
 
 Measurable spaces are a necessary prelude to the general theory of measure and [[integration]].  Basically, a measure is a recipe for computing the size --- e.g. length, area, volume --- of subsets of a given set $X$.  The structure of a 'measurable space' picks out those subsets of $X$ for which the size is well-defined.   These subsets are called 'measurable'.   A 'measure' on $X$ is then a recipe that assigns a number to each measurable subset saying how big it is.  
@@ -7,6 +12,7 @@ In short: you get a [[measure space]] by placing a measure on a measurable space
 Ideally, all subsets would be measurable, but this contradicts the [[axiom of choice]] for the basic example of [[Lebesgue measure]] on the [[real line]].  Although it is possible to use nonstandard [[foundations]] of mathematics in which all subsets of the real line are Lebesgue measurable, any general theory that includes that example and is more general than those foundations requires some notion of measurable space.
 
 In any case, measurable spaces are of some interest in their own right, even without a measure on them.
+
 
 ## Definitions ##
 
@@ -18,6 +24,7 @@ We assume the law of [[excluded middle]] throughout; see below for the construct
 Given a [[set]] $X$, a __$\sigma$-algebra__ is a collection of subsets of $X$ that is closed under [[complement|complementation]], [[countable set|countable]] [[unions]], and countable [[intersections]].  A __measurable space__, by the usual modern defintion, is a set $X$ equipped with a $\sigma$-algebra $\Sigma$.  The elements of $\Sigma$ are called the __measurable subsets__ of $X$ (or more properly, the measurable sets of $(X,\Sigma)$).
 
 Notice that the [[power set]] $P X$ of $X$ is a [[Boolean algebra]] under the operations of [[finite set|finitary]] union, intersection, and complementation.  Actually, it is a [[complete lattice|complete]] Boolean algebra, since we can also take arbitrary unions and intersections.  A $\sigma$-algebra is an intermediate notion, since (in addition to being closed under complementation) we only require that it be closed under *countable* unions and intersections.
+
 
 ### Long version ###
 
@@ -59,6 +66,7 @@ Given a [[set]] $X$ and a collection $\Sigma$ of [[subset]]s $S \subseteq X$, we
 
    The symbol '$\sigma$' here is from German 'Summe', meaning union; it may be used in many contexts to refer to countable unions.
 
+
 *  An __algebra__ or __field__ on $X$ is a ring $\Sigma$ to which $X$ itself belongs.  That is:
    1.  The [[empty set]] $\empty$ is measurable.
    1.  If $S$ and $T$ are measurable, then so is their union $S \cup T$.
@@ -89,19 +97,27 @@ Given a [[set]] $X$ and a collection $\Sigma$ of [[subset]]s $S \subseteq X$, we
    And again we could again just as easily use intersection as union, even in the infinite case.  That is, a $\delta$-algebra is automatically a $\sigma$-algebra, because $\bigcup_i S_i = \neg\bigcap_i \neg{S_i}$.
 
 
-Any and all of the above notions have been used by various authors in the definition of measurable space.  Of course, the finitary notions (ring and algebra) aren\'t strong enough to describe the interesting features of Lebesgue measure; they are used to study very different examples.  On the other hand, $\delta$-rings and $\sigma$-rings may be more convenient than $\sigma$-algebras for some purposes; in particular, the collection of measurable sets with finite measure (in a given [[measure space]]) is a $\delta$-ring, and the collection of measurable sets with $\sigma$-finite measure is a $\sigma$-ring.
+Any and all of the above notions have been used by various authors in the definition of measurable space; for example, Kolmogorov used algebras (at least at first), and Halmos used $\sigma$-rings.  Of course, the finitary notions (ring and algebra) aren\'t strong enough to describe the interesting features of Lebesgue measure; they are usually used to study very different examples (finitely additive measures).  On the other hand, ($\delta$&#8209; or $\sigma$&#8209;) rings may be more convenient than ($\sigma$)-algebras for some purposes; for example, vector-valued measures on $\delta$-rings make good sense even when the absolute measure of the whole space is infinite.
+
+Note that the collection of measurable sets with finite measure (in a given [[measure space]]) is a ($\delta$)-ring, while the collection of measurable sets with $\sigma$-finite measure is a $\sigma$-ring.
 
 
-### Measurable functions
+### Measurable sets and functions
 
-Given measurable spaces $X$ and $Y$, a __measurable function__ from $X$ to $Y$ is a [[function]] $f: X \to Y$ such that the [[preimage]] $f^*(T)$ is measurable in $X$ whenever $T$ is measurable in $Y$.
+A __measurable set__, as before, is simply any set that belongs to $\Sigma$.  If $\Sigma$ is one of the weaker notions (not necessarily a $\sigma$-algebra), then we also want some subsidiary notions: $S$ is __relatively measurable__ if $S \cap T$ is measurable whenever $T$ is, and $S$ is __$\sigma$-measurable__ if it is a countable union of measurable sets.  Notice that every relatively measurable set is measurable iff $S$ is at least an algebra; in any case, the relatively measurable sets form a ($\sigma$)-algebra if $\Sigma$ is at least a ($\delta$)-ring.  Similary, every $\sigma$-measurable set is measurable iff $S$ is at least a $\sigma$-ring; in any case, the $\sigma$-measurable sets form a $\sigma$-ring if $\Sigma$ is at least a $\delta$-ring.
 
-Measurable spaces and measurable functions form a [[category]] $Measble$, which is [[topological concrete category|topological]] over [[Set]].
+> The terms 'relatively measurable' and '$\sigma$-measurable' are [[Toby Bartels|my own]]; I cannot find them in Halmos.  Since Halmos uses $\sigma$-rings, he has no need to speak of $\sigma$-measurable sets; but that\'s the case where the best terminology is obvious.  He does use relatively measurable sets, but he doesn\'t seem to give them a name.
+
+Given measurable spaces $X$ and $Y$, a __measurable function__ from $X$ to $Y$ is a [[function]] $f: X \to Y$ such that the [[preimage]] $f^*(T)$ is measurable in $X$ whenever $T$ is measurable in $Y$.  Measurable spaces and measurable functions form a [[category]] $Measble$, which is [[topological concrete category|topological]] over [[Set]].
+
+In classical measure theory, it is usually assumed that $Y$ is the [[real line]] (or a variation such as the extended real line or the complex plane) equipped with the [[Borel set]]s (see the examples below).  Then $f$ is measurable if and only if $f^{-1}(I)$ is measurable whenever $I \subseteq Y$ is an interval.
+
+In measure theory based on ($\delta$&#8209; or $\sigma$&#8209;) rings instead of on ($\sigma$)-algebras, it is necessary to allow [[partial function]]s whose domain is a relatively measurable set.  Classically (when $Y$ is the real line), one achieves (for purposes of [[integration]]) essentially the same result by requiring only that $f^{-1}(I)$ be measurable whenever $I \subseteq Y$ is an interval that does not contain $0$; in other words, one effectively assumes that $f$ is zero wherever it would otherwise be undefined.
 
 
 ### Generating $\sigma$-algebras
 
-As a $\sigma$-algebra is a collection of subsets, we might hope to develop a theory of bases and subbases of $\sigma$-algebras, such as is done for [[topological space|topologies]] and [[uniform space|uniformities]].  However, things do not work out as nicely.
+As a $\sigma$-algebra is a collection of subsets, we might hope to develop a theory of bases and subbases of $\sigma$-algebras, such as is done for [[topological space|topologies]] and [[uniform space|uniformities]].  However, things do not work out as nicely.  (It *is* quite easy to generate rings or algebras, but generating $\delta$-rings and $\sigma$-rings is just as tricky as generating $\sigma$-algebras.)
 
 We do get something by [[general abstract nonsense]], of course.  It\'s easy to see that the [[intersection]] of any collection of $\sigma$-algebras is itself a $\sigma$-algebra; that is, we have a [[Moore closure]].  So given any collection $B$ of sets whatsoever, the intersection of all $\sigma$-algebras containing $B$ is a $\sigma$-algebra, the $\sigma$-algebra __generated__ by $B$.  (We can similarly define the $\delta$-ring generated by $B$ and similar concepts for all of the other notions defined above.)
 
@@ -124,17 +140,19 @@ Note that [[countable choice]] is essential here and elsewhere in measure theory
 
 ## Examples
 
-Of course, the [[power set]] of $X$ is closed under all operations, so it is a $\sigma$-algebra.
+*  Of course, the [[power set]] of $X$ is closed under all operations, so it is a $\sigma$-algebra.
 
-If $X$ is a [[topological space]], the $\sigma$-algebra generated by the open sets (or equivalently, by the closed sets) in $X$ is the __Borel $\sigma$-algebra__; its elements are called the __[[Borel set]]s__ of $X$. In particular, the Borel sets of [[real number]]s are the Borel sets in the [[real line]] with its usual topology.  (Note that even the $\delta$-ring generated by a topology is in fact a $\sigma$-algebra.)
 
-The hierarchy described above in generating a $\sigma$-algebra is called the __Borel hierarchy__.  In particular, starting with $\Sigma_0$ as the open sets or __$G$ sets__, then $\Pi_0$ consists of the closed sets or __$F$ sets__, $\Sigma_1$ the __$F_\sigma$ sets__, $\Pi_1$ the __$G_\delta$ sets__, $\Sigma_2$ the __$G_{\delta\sigma}$ sets__, etc.  (To remember these symbols, you need to know two languages: French and German.  The '$F$' comes from French 'ferm&#233;' for 'closed', while '$G$' is simply the next letter; the '$\sigma$' and '$\delta$' are from German 'Summe' and 'Durchschnitt' as remarked earlier.)
+*  If $X$ is a [[topological space]], the $\sigma$-algebra generated by the open sets (or equivalently, by the closed sets) in $X$ is the __Borel $\sigma$-algebra__; its elements are called the __[[Borel set]]s__ of $X$. In particular, the Borel sets of [[real number]]s are the Borel sets in the [[real line]] with its usual topology.  (Note that even the $\delta$-ring generated by a topology is in fact a $\sigma$-algebra.)
 
-If $X$ is any measurable space, then a _measurable function_ from $X$ to $\mathbb{R}$ is generally taken to refer to Borel sets in $\mathbb{R}$; then $f$ is measurable if and only if $f^{-1}(U)$ is measurable whenever $U \subseteq \mathbb{R}$ is open. The convention is similar if $\mathbb{R}$ is replaced by the space of extended reals $[-\infty, \infty]$, or by the space of complex numbers $\mathbb{C}$.
+   When measure theory is based on $\delta$-rings or $\sigma$-rings instead of on $\sigma$-algebras, a somewhat different notion of Borel set is sometimes used, which agrees with the above on the real line and its usual variations.  Specifically, define the __Borel $\delta$-ring__ and the __Borel $\sigma$-ring__ to be the $\delta$-ring or $\sigma$-ring generated by the [[compact space|compact]] subsets of $X$.  When $X$ is a [[compact Hausdorff space]] (such as the extended real line), then these both agree with the Borel $\sigma$-algebra above; when $X$ is [[locally compact space|locally compact]], $\sigma$-compact (a countable union of compact subsets), and [[Hausdorff space|Hausdorff]] (such as the real line or the complex plane), then the Borel $\sigma$-ring still agrees with the Borel $\sigma$-algebra.  If $X$ is not locally compact Hausdorff, then the relation is much more complicated, but the classical applications of Borel sets are to locally compact Hausdorff spaces anyway.
 
-If a measurable space $(X,\Sigma)$ is equipped with a measure $\mu$, making it into a [[measure space]], then the sets of measure zero form a $\sigma$-[[sigma-ideal|ideal]] of $\Sigma$ (that is an [[ideal]] that is also a sub-$\sigma$-ring).  Let a __null set__ be *any* set (measurable or not) contained in a set of measure zero; then the null sets form a $\sigma$-ideal in the [[power set]] of $X$.  Call a set __$\mu$-measurable__ if it is the union of a measurable set and a null set; then the $\mu$-measurable sets form a $\sigma$-algebra called the __completion__ of $\Sigma$ under $\mu$.  (Even if $\Sigma$ is only a $\delta$-ring, still the null sets will form a $\sigma$-ring; in any case, we get as completion the same kind of structure as we began with.)
+   When $X$ is a topological space, the hierarchy described above in generating a $\sigma$-algebra is called the __[[Borel hierarchy]]__.  In particular, starting with $\Sigma_0$ as the open sets or __$G$ sets__, then $\Pi_0$ consists of the closed sets or __$F$ sets__, $\Sigma_1$ the __$F_\sigma$ sets__, $\Pi_1$ the __$G_\delta$ sets__, $\Sigma_2$ the __$G_{\delta\sigma}$ sets__, etc.  (To remember these symbols, you need to know two languages: French and German.  The '$F$' comes from French 'ferm&#233;' for 'closed', while '$G$' is simply the next letter; the '$\sigma$' and '$\delta$' are from German 'Summe' and 'Durchschnitt' as remarked earlier.)
 
-In particular, the __Lebesgue-measurable__ sets in the real line are the elements of the completion of the Borel $\sigma$-algebra under [[Lebesgue measure]].
+
+*  If a measurable space $(X,\Sigma)$ is equipped with a measure $\mu$, making it into a [[measure space]], then the sets of measure zero form a $\sigma$-[[sigma-ideal|ideal]] of $\Sigma$ (that is an [[ideal]] that is also a sub-$\sigma$-ring).  Let a __null set__ be *any* set (measurable or not) contained in a set of measure zero; then the null sets form a $\sigma$-ideal in the [[power set]] of $X$.  Call a set __$\mu$-measurable__ if it is the union of a measurable set and a null set; then the $\mu$-measurable sets form a $\sigma$-algebra called the __completion__ of $\Sigma$ under $\mu$.  (Even if $\Sigma$ is only a $\delta$-ring, still the null sets will form a $\sigma$-ring; in any case, we get as completion the same kind of structure as we began with.)
+
+*  In particular, the __Lebesgue-measurable__ sets in the real line are the elements of the completion of the Borel $\sigma$-algebra under [[Lebesgue measure]].
 
 
 ## In alternative foundations
