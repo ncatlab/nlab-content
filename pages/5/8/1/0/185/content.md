@@ -13,7 +13,7 @@
 
 #Idea#
 
-A **smooth algebra** or **$C^\infty-ring$** is an [[algebra]] $A$ over the reals for which not only the product operation $\cdot : \mathbb{R} \times \mathbb{R} \to \mathbb{R}$ lifts to the algebra product $A \times A \to A$, but for which _every smooth map_ $f : \mathbb{R}^n \to \mathbb{R}^m$ ([[morphism]] in [[Diff]]) lifts to a smooth map $A(f) : A^n \to A^m$ in a compatible way. 
+A **smooth algebra** or **$C^\infty$-ring** is an [[algebra]] $A$ over the reals for which not only the product operation $\cdot : \mathbb{R} \times \mathbb{R} \to \mathbb{R}$ lifts to the algebra product $A \times A \to A$, but for which _every smooth map_ $f : \mathbb{R}^n \to \mathbb{R}^m$ ([[morphism]] in [[Diff]]) lifts to a smooth map $A(f) : A^n \to A^m$ in a compatible way. 
 
 In short this means that $A$ is a [[product]]-preserving [[presheaf|co-presheaf]] on [[CartSp]].
 
@@ -77,7 +77,7 @@ $$
 
 #Definitions#
 
- {: .un_defn}
++-- {: .un_defn}
 ###### Definition
 
 [[CartSp]] is the full subcategory of [[Diff]]
@@ -108,9 +108,13 @@ The category of such functors and [[natural transformation]]s between them we de
 
 The standard name in the literature for generalized smooth algebras is
 **$C^\infty$-rings**. Even though standard, this has the disadvantages for us 
-that it collides badly with the use of $\infty-$ for 
+that it collides badly with the use of $\infty$- for 
 [[higher category theory|higher categorical]] structures. 
 
+=--
+
++-- {: .query}
+I don\'t see why this is a problem; it\'s not like our '$\infty$' ever gets into a superscript.  I find '$C^\infty$-ring' much more descriptive than 'generalized smooth algebra', in fact.  ---Toby
 =--
 
 
@@ -164,15 +168,16 @@ the **smooth tensor product over $C$** of $A$ and $B$.
 For any [[smooth topos]] $(\mathcal{T}, R)$, there is an [[internalization|internal]]
 notion of [[generalized smooth algebra]]:
 
-**definition**
-**(internal generalized smooth algebra)**
++-- {: .un_defn}
+###### Definition (internal generalized smooth algebra)
 
-For $(\mathcal{T}, R)$ a [[topos]] equipped with an [[internalization|internal]]  
+For $(\mathcal{T}, R)$ a [[topos]] equipped with an [[internalization|internal]]
 [[ring]] object $R$ (possibly but not necessarily a [[smooth topos]]), let
 $CartSp(\mathcal{T},R)$ be the full [[subcategory]] of $\mathcal{T}$ on 
 objects of the form $R^n$ for $n \in \mathbb{N}$. Then a
 **$(\mathcal{T},R)$-algebra** is a product-preserving functor 
 $A : CartSp(\mathcal{T}, R) \to Set$.
+=--
 
 All constructions on smooth algebras generalize to $(\mathcal{T},R)$-algebras.
 In particular for $X \in \mathcal{T}$ any object we have the function 
@@ -188,7 +193,9 @@ The following remark asserts that when $\mathcal{T}$ is itself
 a sufficiently nice [[category of sheaves]] on formal duals of $(Set,\mathbb{R})$-algebras,
 then the internal notion of smooth function algebras on formal duals
 of external smooth algebras reproduces these external smooth algebras.
-**Pro
+
++-- {: .un_prop}
+###### Proposition
 
 Let $A$ be a finitely generated $C^\infty$-ring, $\ell A$ its incarnation as an object in 
 $\mathbb{L} = (C^\infty Ring^{fin})^{op}$ and $Y\ell A$ its incarnation in 
@@ -196,7 +203,7 @@ $Sh(\mathbb{L}) \subset PSh(\mathbb{L})$, with $Y$ the [[Yoneda embedding]] and
 using the assumption that the [[Grothendieck topology]] used to form $Sh(\mathbb{L})$
 is [[subcanonical coverage|subcanonical]].
 
-Also that the line object $R$ is [[representable functor|represented]]
+Also suppose that the line object $R$ is [[representable functor|represented]]
 by $\ell C^\infty(\mathbb{R})$ 
 
 Then we have for all
@@ -205,9 +212,10 @@ $A \in C^\infty Ring^{fin}$ that
 $$
   C(Y\ell A) : R^n \mapsto A({*})^n
 $$
+=--
 
-
-**Proof**
++-- {: .proof}
+###### Proof
 
 This is a straightforward manipulation:
 
@@ -242,7 +250,7 @@ Here
 1. the fifth step expresses that $C^\infty(R^n)$ is the free [[generalized smooth algebra]]
    on $n$ generators ([[Models for Smooth Infinitesimal Analysis|MSIA, chaper I, prop 1.1]])
    
-
+=--
 
 
 
@@ -396,10 +404,12 @@ $$
   \,.
 $$
 
-Turning this inclusion into an equivalence is usually called a _completion_ of the algebraic tensor product. Therefore we see that the **smooth tensor product is automatically the completed tensor product** .
-
 =--
 
+Turning this inclusion into an equivalence is usually called a _completion_ of the algebraic tensor product. Therefore we see:
++-- {: .standout}
+The smooth tensor product is automatically the completed tensor product.
+=--
 
 
 In summary this yields the following characterization of smooth function algebras on manifolds.
