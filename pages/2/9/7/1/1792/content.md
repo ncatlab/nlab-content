@@ -1,6 +1,6 @@
 ## Idea ##
 
-The suspension $S X$ of a [[topological space]] $X$ is a space of one higher dimension, which is (for [[inhabited set|inhabited]] $X$) a [[quotient object|quotient space]] of $X \times [0,1]$.  The difference between $S X$ and $X \times [0,1]$ is that the copy of $X$ at each endpoint ($0$ or $1$) is replaced by a single point.
+The suspension $S X$ of a [[topological space]] $X$ is a space of one higher dimension, which is (for [[inhabited set|inhabited]] $X$) a [[quotient object|quotient space]] of $X \times [0,1]$.  The difference between $S X$ and $X \times [0,1]$ is that the copy of $X$ at each endpoint ($0$ or $1$) is replaced by a single point.  The generalisation to arbitrary $(\infty,1)$-[[(infinity,1)-category|categories]] is the [[suspension object]].
 
 This picture 
 
