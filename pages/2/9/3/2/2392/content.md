@@ -16,7 +16,7 @@
 
 The notion of _$(\infty,1)$-operad_ is to that of [[(∞,1)-category]] as [[operad]] is to [[category]].
 
-So, roughly, an $(\infty,1)$-operad is an algebraic structure that has for each given type of input and one type of outpout an [[∞-groupoid]] of operations that take these inputs to that output.
+So, roughly, an $(\infty,1)$-operad is an algebraic structure that has for each given type of input and one type of output an [[∞-groupoid]] of operations that take these inputs to that output.
 
 #Definition#
 
