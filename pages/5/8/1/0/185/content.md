@@ -29,7 +29,14 @@ $$
    = Hom_{Diff}(X,\mathbb{R}^n)
 $$
 
-of the [[set]] of smooth $\mathbb{R}^n$-valued functions on $X$ is clearly covariant and hence yields a co-presheaf on [[CartSp]] $\subset$ [[Diff]]. Since the [[hom-functor]] sends [[limit]]s to [[limit]]s in its second argument this is clearly [[product]] preserving. 
+of the [[set]] of smooth $\mathbb{R}^n$-valued functions on $X$ is clearly covariant and hence yields a co-presheaf on [[CartSp]] $\subset$ [[Diff]]: a [[functor]]
+
+$$
+  C^\infty(X,-) : CartSp \to Set
+  \,.
+$$
+
+Since the [[hom-functor]] sends [[limit]]s to [[limit]]s in its second argument this is clearly [[product]] preserving. 
 
 $$
   C^\infty(X, \mathbb{R}^n \times \mathbb{R}^m)
