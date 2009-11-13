@@ -88,7 +88,7 @@ $$
 
 is the **mapping cone** of $f$:
 
-this is the result of taking that _other_ remaming end of the cyclinder and gluing that to $Y$, using the identification given by $f$.
+this is the result of taking that _other_ remaining end of the cyclinder and gluing that to $Y$, using the identification given by $f$.
 
 The geometric intuition behind this is best seen in the archetypical example of the [[model category]] [[Top]]. See the examples below.
 
