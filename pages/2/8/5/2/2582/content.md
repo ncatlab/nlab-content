@@ -19,7 +19,9 @@ For $n=0$ we require that $X\langle 0 \rangle \hookrightarrow X$ is the inclusio
 In traditional models this construction is highly non-[[functor]]ial, except for nice spaces in low dimensions as remarked above. 
 
 
-# Construction by co-killing of homotopy groups #
+# Constructions #
+
+## Construction by co-killing of homotopy groups ##
 
 The whitehead tower may be constructed by iteratively [[co-killing homotopy groups]]:
 
@@ -63,7 +65,8 @@ And so on.
 
 Notice that after the second step for $X\langle n \rangle$ with $n \geq 1$ the [[Hurewicz theorem]] ensures that the first non-vanishing [[homotopy group]] $\pi_{n+1}(X\langle n \rangle)$ is [[isomorphism|isomorphic]] to the [[homology group]] $H_{n+1}(X \langle n\rangle, \mathbb{Z})$. This in turn, if it has no nontrivial [[torsion subgroup]], is isomorphic to the [[cohomology group]] $H^{n-1}(X\langle n\rangle, \mathbb{Z})$.
 
-### Whitehead's construction ###
+
+## Whitehead's construction ##
 
 In
 
@@ -87,7 +90,13 @@ One way of obtaining a Postnikov section as above is to choose representatives $
 
 Understandably, this process is unbelievably non-canonical, and so we are generally reduced to existence theorems using this method -- unless there is a functorial way to construct Postnikov sections. Strictly speaking we can only say _an_ $n$-connected cover (except in special cases, like when $n=1$ and $X$ is a [[well-connected space]]).
 
-## In other $(\infty,1)$-topoi ##
+## Functorial constructions ##
+
+The $n$th stage of the Whitehead tower of $X$ is the [[homotopy fiber]] of the map from $X$ to the $n$th (or so) stage of its [[Postnikov tower]], so one can use a functorial construction of the Postnikov tower plus a functorial construction of the homotopy fiber (such as the usual one using the [[path object|path space]] of the target).
+
+The $n$th stage of the Whitehead tower of $X$ is also the cofibrant replacement for $X$ in the right [[Bousfield localization]] of [[Top]] with respect to the object $S^n$ (or so). Since [[Top]] is right proper and cellular this localization exists by the result of chapter 5 of Hirschhorn's book on [[localization]]s of [[model category|model categories]]. 
+
+# In other $(\infty,1)$-toposes #
 
 Given an $(\infty,1)$-topos $C$ we can talk about [[n-truncated object of an (infinity,1)-topos|n-truncated objects]] in $C$. The above construction then has an analogue in $C$ (may need something like properness so as to get the pullback of a fibration to be a fibration -- I'm making this section up as I go along -DMR). The path fibration is replaced by the trivial cofibration-fibration factorisation of the inclusion of the basepoint $* \to X$ (probably want this to be functorial for my liking -DMR).
 
@@ -141,7 +150,31 @@ There are other interpretations of $X^{(n)}$:
 
 The last can be thought of as a families version of the usual fundamental $(n-1)$-groupoid: take vertical paths, vertical homotopies between paths etc.
 
-#Literature#
+# Examples #
+
+## Whitehead tower of the orthogonal group ##
+
+The Whitehead tower of the [[orthogonal group]] $O(n)$ starts out as
+
+$$
+   \cdots \to Fivebrane(n) \to String(n) \to Spin(n) \to SO(n) \to O(n)
+$$
+
+where the terms are
+
+...
+$\to$
+[[fivebrane group]]
+$\to$
+[[string group]]
+$\to$
+[[spin group]]
+$\to$
+[[special orthogonal group]]
+$\to$
+[[orthogonal group]]
+
+# References #
 
 For instance:
 
