@@ -39,7 +39,9 @@ For $\mathfrak{a}$ a [[Lie infinity-algebroid]] with [[Chevalley-Eilenberg algeb
 
 * $P$ is a wedge product of generators in the shifted copy of $C^\infty(\mathfrak{a})$ in $W(\mathfrak{a})$;
 
-* the element $d_{W(\mathfrak{a})} P$ is again such a wedge product of shifted copies.
+* it is closed in $W(\mathfrak{g})$ in that $d_{W(\mathfrak{g})} P = 0$
+
+> [[Urs Schreiber]]: there is a longer story to be told here, will come back to that...
 
 [[!redirects algebra of invariant polynomials]]
 [[!redirects dg-algebra of invariant polynomials]]
