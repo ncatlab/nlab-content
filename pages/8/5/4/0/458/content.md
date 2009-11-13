@@ -41,13 +41,13 @@ It is not hard to check that $(-)_l$ is left adjoint to $(-)_p$.  In fact, this 
 
 ## In the context of $(n,r)$-topos theory ##
 
-Recall the defintion of [[(n,r)-category]] in general and of [[(0,1)-category]] in particular.
+Recall the definition of [[(n,r)-category]] in general and of [[(0,1)-category]] in particular.
 
 It turns out that a [[(0,1)-topos]] is essentially the same as a [[Heyting algebra]], and a [[Grothendieck topos|Grothendieck]] $(0,1)$-topos is a locale.
 
 ## Related concepts ##
 
-A [[ionad]] is supposed to be to a [[topological space]] as a [[Grothendieck topos]].to a [[locale]].
+A [[ionad]] is supposed to be to a [[topological space]] as a [[Grothendieck topos]] is to a [[locale]].
 
 ## References ##
 
