@@ -19,7 +19,7 @@ An **$L_\infty$-algebra** is
 
 * an $\mathbb{N}$-graded vector space $\mathfrak{g}$;
 
-* equipped with a differential $D : \vee^\bullet \mathfrak{g} \to \vee^\bullet \mathfrak{g}$ of degree -1 on the [[free graded co-commutative coalgebra]] over $\mathfrak{g}$.
+* equipped with a differential $D : \vee^\bullet \mathfrak{g} \to \vee^\bullet \mathfrak{g}$ of degree $-1$ on the [[free graded co-commutative coalgebra]] over $\mathfrak{g}$.
 
 ### Remarks ###
 
