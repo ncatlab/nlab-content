@@ -6,7 +6,7 @@
 #Idea#
 
 
-For every [[Lie algebra]] or [[L-infinity algebra|∞-Lie algebra|]] or [[Lie ∞-algebroid|∞-Lie algebroid]] $mathfrak{a}$ there is its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{a})$ and its [[Weil algebra]] $W(\mathfrak{a})$ and a [[dg-algebra]] morphism
+For every [[Lie algebra]] or [[L-infinity algebra|∞-Lie algebra]] or [[Lie ∞-algebroid|∞-Lie algebroid]] $\mathfrak{a}$ there is its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{a})$ and its [[Weil algebra]] $W(\mathfrak{a})$ and a [[dg-algebra]] morphism
 
 $$
   CE(\mathfrak{a}) \leftarrow W(\mathfrak{a})
