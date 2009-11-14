@@ -1,5 +1,7 @@
 An ordinary [[pullback]] is a [[limit]] over a [[diagram]] of the form $A \to C \leftarrow B$.  Accordingly, a __2-pullback__ is a [[2-limit]] over such a diagram.
 
+Zoran: I disagree with a second part of the sentence. If it were a 2-limit of THAT diagram strictly speaking we would have from it an arrow to $C$ (which can be skipped in 1-categorical situation as it is superfluous) and several 2-cells in the story. So there is some confusion between sisters like comma objects, 2-pullbacks and alike. 
+
 # Definition
 
 Explicitly, a 2-pullback in a [[2-category]] is a square
