@@ -244,8 +244,7 @@ Incidentally, the reason why we do not use the term 'measurable pair' is that $A
 
 Given two Cheng measurable spaces $X$ and $Y$, an __almost function__ from $X$ to $Y$ is a [[partial function]] from $X$ to $Y$ such that, for some complemented pair $(A,B)$, the domain of $f$ contains $A \cup B$.  A __measurable function__ from $X$ to $Y$ is a partial function from $X$ to $Y$ such that, given any complemented pair $(C,D)$ in $Y$, the pair $(f^*(C),f^*(D))$ of [[preimage]]s is a complemented pair.  (By trying $(C,D) = (X,\empty)$, we see that a measurable function is an almost function, but the converse need not hold.)
 
-Cheng measurable spaces and measurable functions between them form a [[topological concrete category]].
-
+Cheng measurable spaces and measurable functions between them form a [[topological concrete category]]. 
 
 ### In dream universes
 
