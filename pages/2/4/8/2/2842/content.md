@@ -1,0 +1,5 @@
+A continuous map $i:A\hookrightarrow X$ is a **Hurewicz cofibration** if it satisfies the **homotopy extension property**: for any topological space $Y$, continuous maps $f:A\to Y$, $\tilde{f}:X\to Y$ such that $\tilde{f}\circ\tilde{i}=f$ and a homotopy $F:A\times I\to Y$ such that $F(-,0)=f$ there is a homotopy $\tilde{F}:X\times I\to Y$ such that $\tilde{F}\circ(i\times id_I)=F$ and $\tilde{F}(-,0)=\tilde{f}$. There is also a version for pointed spaces. 
+
+[[Hurewicz fibration]]s, Hurewicz cofibrations and homotopy equivalences make one of the standard Quillen [[model category]] structures on the category $Top$ of all topological spaces. 
+
+Every Hurewicz cofibration $i$ is an injective map and if the image $i(A)$ is closed then it is a homeomorphism on its image. In the category of weakly Hausdorff compactly generated spaces $i(A)$ is always closed, but in the category of all topological spaces there are pathological counterexamples. If $A\subset X$ is closed  and the inclusion is a cofibration then the pair $(X,A)$ is an [[NDR-pair]].
