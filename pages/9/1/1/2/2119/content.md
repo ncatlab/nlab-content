@@ -14,6 +14,6 @@ of the map $\pi_!:\mathcal{P}(E)\to Cocyl(\pi)$ given by $\pi_!(u)=(u(0),\pi\cir
 
 A map $\pi:E\to B$ is a __[[Hurewicz fibration]]__ if there exist at least one Hurewicz connection for $\pi_!$. Of course there are many equivalent characterizations. 
 
-If $\pi:E\to B$ is a [[covering space]] where $B$ is Hausdorff, then $\pi_!$ is a homeomorphism; thus in that case the Hurewicz connection is unique. 
+If $\pi:E\to B$ is a [[covering space]] where $B$ is [[Hausdorff space|Hausdorff]], then $\pi_!$ is a [[homeomorphism]]; thus in that case the Hurewicz connection is unique. 
 
 If $\pi$ is a smooth principal bundle equipped with a distribution of horizontal spaces forming an [[Ehresmann connection]], than one can define a corresponding smooth Hurewicz connection. 
