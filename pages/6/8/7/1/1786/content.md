@@ -7,6 +7,8 @@ A better name for an $H$-space would be $H$-[[unitoid]], but it is rarely used. 
 Does 'unitoid' generically mean a magma with identity?  I can\'t verify this, but it would be convenient to have such a term.  ---Toby
 
 Good question. Postnikov in his 1980-s course of homotopy theory, talks about internal unitoids in a fixed category before modifying the notion to H-version; however he does complaint that in the universal algebra the term is not standardized. -- Zoran
+
+Thanks, that\'s something to start with at least.  ---Toby
 =--
 
 The main example of an $H$-group is the [[loop space]] $\Omega X$ of a space $X$. There are dual notions of $H$-counitoid (or $H'$-space), $H$-comonoid (or $H'$-monoid) and $H$-[[cogroup]] (or $H'$-group) having co-operations with the usual identities up to homotopy. The main example of an $H$-cogroup in $Top_*$ is the [[suspension]] $S X= S^1\wedge X$ of a pointed topological space $X$. 
@@ -55,7 +57,7 @@ The description in terms of [[groupoid object in an (∞,1)-category]] is due to
 
 see last remark of section 6.1.3 .
 
-Wikipedia\'s definition (at time of this writing, and phrased in the language of [[homotopy theory]]) is rather a [[magma]]-with-[[identity element|identity]] object in the $(\infty,1)$-category [[Top]].
+Wikipedia\'s definition (at time of this writing, and phrased in the language of [[homotopy theory]]) is rather a [[unitoid]] object in the $(\infty,1)$-category [[Top]].
 
 
 [[!redirects H-spaces]]
