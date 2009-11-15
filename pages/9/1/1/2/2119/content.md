@@ -16,4 +16,4 @@ A map $\pi:E\to B$ is a __[[Hurewicz fibration]]__ if there exist at least one H
 
 If $\pi:E\to B$ is a [[covering space]] where $B$ is [[Hausdorff space|Hausdorff]], then $\pi_!$ is a [[homeomorphism]]; thus in that case the Hurewicz connection is unique. 
 
-If $\pi$ is a smooth principal bundle equipped with a distribution of horizontal spaces forming an [[Ehresmann connection]], than one can define a corresponding smooth Hurewicz connection. 
+If $\pi$ is a smooth principal bundle equipped with a distribution of horizontal spaces forming an [[Ehresmann connection]], than one can define a corresponding "smooth" Hurewicz connection in the sense that the Ehresmann connection provides a continuous choice of smooth path lifting, with prescribed initial point, of a smooth path in the base. This can be expressed in terms as a continuous section of $\pi_!^{smooth}:\mathcal{P}^{smooth}(E)\to Cocyl^{smooth}(\pi)$ where the subspaces of smooth paths are used. 
