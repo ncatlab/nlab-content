@@ -1,12 +1,12 @@
 #Idea#
 
-In a category $C$ with [[biproduct]]s, morphisms between finite biproducts are naturally encoded in terms of arrays of morphisms between the [[direct sum|direct summands]] of the objects. The natural operations on  morphisms (addition, composition) correspond to the usual matrix calculus operations on these arrays. 
+In a category $C$ with [[biproducts]], morphisms between finite biproducts are naturally encoded in terms of arrays of morphisms between the [[direct sum|direct summands]] of the objects. The natural operations on  morphisms (addition, composition) correspond to the usual matrix calculus operations on these arrays. 
 
 For the special case that $C =$ [[Vect]] this reproduces the standard matrix calculus of linear algebra.
 
 #Rules#
 
-Let $f : X \to Y$ be a [[morphism]] in a [[category]] with [[biproduct]]s where the objects $X$ and $Y$ are given as [[direct sum]]s
+Let $f : X \to Y$ be a [[morphism]] in a [[category]] with [[biproducts]] where the objects $X$ and $Y$ are given as [[direct sums]]
 $$
   X = \oplus_{j = 1}^m X_j
   \,,
@@ -62,7 +62,7 @@ $$
   \,,
 $$
 
-where in each case the sum of morphisms is taken using the canonical [[enriched category|enrichment]] of $C$ in abelian [[monoid]]s (as described at [[biproduct]]).
+where in each case the sum of morphisms is taken using the canonical [[enriched category|enrichment]] of $C$ in abelian [[monoids]] (as described at [[biproduct]]).
 
 ##Summation convention##
 
