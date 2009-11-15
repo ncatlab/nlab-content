@@ -39,7 +39,7 @@ Some other papers in the 1950s include
   * _A condition that a space is an $H$-space_, Math. J. Okayama Univ. __6__, 1957, 109--129;
   * _A condition that a space is group-like_, Math. J. Okayama Univ. __7__, 1957, 123--149.
 
-* F. I. Karepelevi&#269;, A. L. Oni&#353;&#269;ik, _Algebra of homologies of space of paths_, Dokl. Akad. Nauk. SSSR, (N.S.), 106 (1956), 967--969. MR0081478
+* F. I. Karpelevi&#269;, A. L. Oni&#353;&#269;ik, _Algebra of homologies of space of paths_, Dokl. Akad. Nauk. SSSR, (N.S.), 106 (1956), 967--969. MR0081478
 
 The theory of $H$-spaces was widely established in the 1950s and studied by Serre, Postnikov, Spanier, Whitehead, Dold, Eckmann and Hilton and many others. 
 
