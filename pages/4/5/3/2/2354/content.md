@@ -10,6 +10,10 @@ An ordinary [[pullback]] is a [[limit]] over a [[diagram]] of the form $A \to C 
 Zoran: I disagree with a second part of the sentence. If it were a 2-limit of THAT diagram strictly speaking we would have from it an arrow to $C$ (which can be skipped in 1-categorical situation as it is superfluous) and several 2-cells in the story. So there is some confusion between sisters like comma objects, 2-pullbacks and alike. 
 
 _Toby_:  It seems to me that (without loss of generality) you can take the arrow to $C$ to be (following the picture below) the composite $P \overset{p}\to A \overset{f}\to C$ (or the composite $P \overset{q}\to B \overset{g}\to C$ if you prefer).  But identifying comma objects with lax pullbacks may be trickier.
+
+[[Mike Shulman]]: I agree with Toby.  The default sense of "2-limit" on the nLab is up to isomorphism everywhere, i.e. what other people call a "bilimit".  In this sense, it is true that a 2-pullback is a 2-limit of a simple cospan; the distinction between iso-comma objects and pseudopullbacks disappears in the world of bilimits, where the limit is only characterized up to equivalence.
+
+Comma objects, however, are never the same as lax pullbacks, except of course in a (2,1)-category.
 =--
 
 
