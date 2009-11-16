@@ -1,4 +1,4 @@
-Peirce's law is a [[proposition]] that involves only [[conditionals]] that is valid in [[classical logic]] but not [[intuitionistic logic]]:
+Peirce's law is a [[proposition]] that involves only [[conditionals]] and is valid in [[classical logic]] but not [[intuitionistic logic]]:
 
 $$ ((p \Rightarrow q) \Rightarrow p) \Rightarrow p $$
 
