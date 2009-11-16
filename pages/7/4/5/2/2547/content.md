@@ -14,6 +14,24 @@ Every smash product algebra of the form $A\sharp H$ is naturally equipped with a
 **Proposition** _Let $H$ be a Hopf algebra, $E$ a right $H$-comodule algebra, and $\gamma:H\to E$ a map of right $H$-comodule algebra. Clearly $H$ acts on $E^{co H}$ by $h\triangleright a = \sum \gamma(h_{(1)}) a\gamma(Sh_{(2)})$ for $a\in E^{co H}$ and $h\in H$, where the product on the right-hand side is in $E$. Conclusion: 
 $E\cong E^{co H}\sharp H$ where the smash product is with respect to that action._
 
-There is also a more general cocycled crossed product. In that case a similar convolution invertible map $\gamma$ is constructed, which is however just an $H$-comodule map, but it fails to be a homomorphism of algebras; the cocycle is needed to measure the failure. 
+There is also a more general cocycled crossed product. In that case a similar convolution invertible map $\gamma$ is constructed, which is however just an $H$-comodule map, but it fails to be a homomorphism of algebras; the cocycle is needed to express the failure. More explicitly, let $U$ be an algebra, $H$ a Hopf algebra, $\triangleright : H\otimes U\to U$ a [[measuring]], i.e. a $k$-linear map satisfying $h\triangleright(uv)=\sum (h_{(1)}\triangleright u)(h_{(2)}\triangleright v)$ for all $h\in H$, $u,v\in U$, and which we assume unital, i.e. $h\triangleright 1 = \epsilon(h)1$ for all $h\in H$. We do NOT assume that $\triangleright$ is an action. Let further an *invertible*  $k$-linear map $\sigma \in Hom_k(H\otimes H,U)$ is given. We say that $\sigma$ is a **2-cocycle** (relative to the measuring $\triangleright$ if the following two cocycle identities hold
+
+$$
+h\triangleright (k\triangleright u) = \sum \sigma(h_{(1)},k_{(1)})( (h_{(2)}k_{(2)})\triangleright u ) \sigma^{-1}(h_{(3)},k_{(3)})
+$$
+
+$$
+[h_{(1)}\triangleright\sigma(k_{(1)},m_{(1)})]\sigma(h_{(2)}k_{(2)},m_{(2)})=\sigma(h_{(1)},k_{(1)})\sigma(h_{(2)}k_{(2)},m).
+$$
+These identities clearly generalize the classical factor systems in group theory (linearly extended to the case of group algebras, for the finite groups at least). Therefore it is a sample of a nonabelian cocycle in Hopf algebra theory, however its role in general theory is less well understood than the group case. 
+
+Define the **cocycled crossed product** on $U\otimes H$ by
+$$
+(u \sharp h)(v\sharp k) = \sum u (h_{(1)}\triangleright v)
+\sigma(h_{(2)}k_{(1)})\sharp h_{(3)} k_{(2)}
+$$
+for all $h,k\in H$, $u,v\in U$. The cocycled crossed product is an associative algebra iff $\sigma$ is a cocycle. If so we call $U\sharp_\sigma H$ **cocycled crossed product algebra**. Map $1\otimes\Delta_H:U\sharp_\sigma H\to (U\sharp_\sigma H)\otimes H$ is a right $H$-coaction, making $U\sharp_\sigma H$ into a right $H$-comodule algebra, which is a special kind of a [[Hopf-Galois extension]] of $U$. A class of $H$-extensions called [[cleft extensions]] are always isomorphic (as $H$-extensions) to the cocycled crossed product algebras. 
+
+If $\sigma(h,k)=\epsilon(h)\epsilon(k)1_U$ then we say that $\sigma$ is a trivial cocycle and then the compatibility conditions above reduce to demanding that the measuring $\triangleright$ is an action. The cocycled crossed product then reduces to the usual smash product algebra.  
 
 [[!redirects smash product algebra]]
