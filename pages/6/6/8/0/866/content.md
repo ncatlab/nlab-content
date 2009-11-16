@@ -1,7 +1,5 @@
 A _relation_ is the extension of a [[predicate]].  That is, if you have a statement whose [[truth value]] may depend on some variables, then you get a relation that consists of those instantiations of the variables that make the statement true.  Equivalently, you can think of a relation as a [[function]] whose [[target]] is the set of truth values.
 
-For the theory of relations as combinatorial objects, see [[relation theory]].
-
 
 ## Definitions ##
 
@@ -87,3 +85,5 @@ Most of the preceding makes sense in any [[category]] with enough [[product]]s; 
 [[!redirects relations]]
 [[!redirects binary relation]]
 [[!redirects binary relations]]
+[[!redirects relation theory]]
+[[!redirects theory of relations]]
