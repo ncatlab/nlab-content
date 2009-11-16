@@ -1,3 +1,7 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ## Idea
 
 An $(n,k)$-transformation is an operation from one $n$-[[n-category|category]] $C$ to another $D$ that takes [[object]]s of $C$ to $k$-[[k-morphism|morphism]]s of $D$ (and more generally $j$-morphisms in $C$ to $(j+k)$-morphisms in $D$) in a coherent way.
