@@ -5,7 +5,7 @@ A Boolean algebra is an algebraic structure which models classical [[proposition
 
 There are many known ways of defining a Boolean algebra. Here are just a few: 
 
-* A Boolean algebra is a [[complement]]ed [[distributive lattice]]. 
+* A Boolean algebra is a [[complement|complemented]] [[distributive lattice]]. 
 
 * A Boolean algebra is a [[Heyting algebra]] $H$ satisfying the law of excluded middle, which means either 
 $$\neg \neg = id: H \to H$$ 
