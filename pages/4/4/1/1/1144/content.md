@@ -39,7 +39,7 @@ Moreover, via the [[homotopy hypothesis]] the study of [[topological space]]s is
 #Related entries#
 
 
-The following entries provide lexicalic information about basic concepts in differential graded algebra:
+The following entries provide definitions of basic concepts in differential graded algebra:
 
 * [[differential graded vector space]]
 
