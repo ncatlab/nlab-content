@@ -46,11 +46,13 @@ For the coalgebra part, notice first that $\epsilon(h)1\otimes 1 = \tau\circ\Del
 
 $$ (S h_{(1)}\otimes S h_{(2)})(h_{(4)}\otimes h_{(3)}) = ((S h_{(1)})_{(2)}\otimes (S h_{(1)})_{(1)})(h_{(4)}\otimes h_{(3)})$$
 
-$$ (S h_{(1)}\otimes S h_{(2)})(h_{(4)}\otimes h_{(3)}) (S h_{(5)}\otimes S h_{(6)}) = ((S h_{(1)})_{(2)}\otimes (S h_{(1)})_{(1)})(h_{(4)}\otimes h_{(3)})(S h_{(5)}\otimes S h_{(6)})$$
+$$ (S h_{(1)}\otimes S h_{(2)})(h_{(4)}\otimes h_{(3)}) (S h_{(5)}\otimes S h_{(6)}) = ((S h_{(1)})_{(2)}\otimes (S h_{(1)})_{(1)})(h_{(3)}\otimes h_{(2)})(S h_{(4)}\otimes S h_{(5)})$$
 
-$$ ((S h_{(1)}\otimes S h_{(2)})\epsilon(h_{(3)}) = ((S h_{(1)})_{(2)}\otimes (S h_{(1)})_{(1)})(\epsilon(h_{(3)})1\otimes\epsilon(h_{(2)}))$$
+$$ ((S h_{(1)}\otimes S h_{(2)})\epsilon(h_{(3)}) = ((S h_{(1)})_{(2)}\otimes (S h_{(1)})_{(1)})(1\otimes\epsilon(h_{(2)}))$$
 
-$$ (S h_{(1)}\otimes S h_{(2)})=(\tau\circ\Delta)(S h_{(1)}\epsilon(h_{(2)}))=(S h)_{(2)}\otimes (S h)_{(1)}).$$
+$$ ((S h_{(1)}\otimes S h_{(2)})\epsilon(h_{(3)}) = (\tau\circ\Delta)(S h_{(1)})(1\otimes\epsilon(h_{(2)})1) = (\tau\circ\Delta)(S h_{(1)}\epsilon(h_{(2)}))$$
+
+$$ (S h_{(1)}\otimes S h_{(2)})=(\tau\circ\Delta)(S h) = (S h)_{(2)}\otimes (S h)_{(1)}.$$
 =--
 
 
