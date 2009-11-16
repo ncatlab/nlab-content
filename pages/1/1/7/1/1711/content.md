@@ -4,18 +4,28 @@
 
 ## Idea
 
-An $(n,k)$-transformation is an operation from one $n$-[[n-category|category]] $C$ to another $D$ that takes [[object]]s of $C$ to $k$-[[k-morphism|morphism]]s of $D$ (and more generally $j$-morphisms in $C$ to $(j+k)$-morphisms in $D$) in a coherent way.
+A **$k$-transfor** is an operation from one $n$-[[n-category|category]] $C$ to another $D$ (for some value of $n$) that takes [[object]]s of $C$ to $k$-[[k-morphism|morphism]]s of $D$ (and more generally $j$-morphisms in $C$ to $(j+k)$-morphisms in $D$) in a coherent way.  Equivalently, a $k$-transfor is a $k$-cell in an [[internal-hom]] $n$-category.  Transfors are a common generalisation of:
 
-This is a common generalisation of $n$-[[n-functor|functor]]s (which are $(n,0)$-transformations), [[natural transformation]]s (which are $(1,1)$-transformations), [[modification]]s (which are $(2,2)$-transformations), and others.
+* $n$-[[n-functor|functor]]s, which are 0-transfors
+* $n$-[[natural transformation]]s, which are 1-transfors
+* [[modifications]], which are 2-transfors,
+* [[perturbations]], which are 3-transfors,
+* and so on.
+
+The word "transfor" was coined by Sjoerd Crans in [this paper](http://home.tiscali.nl/secrans/papers/lotr.html); it is a portmanteu of "functor" and "transformation."  A collection of components which forms a transfor is said to be *transforial*, as a generalization of "functorial" and "natural."
 
 
-## Terminological note
+## Terminology
 
-Once upon a time, there were [[categories]], [[functor]]s between them, and natural transformations between them.  Then when $n$-categories came along, people called the arrows between them '$n$-functors' even though one could just as easily say 'functors'.  In the same vein, people said '$n$-transformations'.  At the same time, we saw that we needed modifications between $2$-transformations, and that there would have to be things between higher modifications, and so on.
+Once upon a time, there were [[categories]], [[functor]]s between them, and natural transformations between them.  Then when $n$-categories came along, people called the arrows between them '$n$-functors' even though one could just as easily say 'functors'.  In the same vein, people said '$n$-transformations' for natural transformations (that is, 2-transfors) between $n$-categories.  At the same time, we saw that we needed modifications between $n$-transformations, and that there would have to be things between higher modifications, and so on.  However, due to the prior use of "$n$-transformation" for a 2-transfor between $n$-categories, the natural choice "$k$-transformation" is unavailable to mean a $k$-transfor.
 
-Since we don\'t really need the prefix '$n$-' above except on 'category', we could drop that, then use '$k$-transformation' for an element of the series (category, functor, transformation, modification, ...).  Unfortunately, many people have not dropped the '$n$-', so this would conflict with their usage of '$n$-transformation' (to mean $(n,1)$-transformation).  Therefore we reluctantly say '$(n, k)$-transformation' instead.
+Here are some other possible terms for a $k$-transfor between $n$-categories, which additionally notate the value of $n$ (although this is, strictly speaking, unnecessary).
 
-Another possibility is [[Sjoerd Crans]]\'s terminology, '$k$-transfor'.  "Transfor" is of course a portmanteau of "transformation" and "functor."  One speaks of something being "transforial" to generalize both "natural" and "functorial."
+* $(n,k)$-transformation
+* $n$-$k$-trasnfor
+* $n$-dimensional $k$-transfor
+* $n$-categorical $k$-transfor
+* $n$-natural $k$-transformation
 
 
 ## Definitions
@@ -25,7 +35,7 @@ We haven\'t gotten around to saying anything precise yet, but you can see someth
 
 ## Special cases
 
-See this [[periodic table]] of $(n,k)$-transformations for common names for low values of $n$ and $k$.  In the Lab, we tend to omit the prefixes whenever possible.
+See this [[periodic table]] of $k$-transfors between $n$-categories for common names for low values of $n$ and $k$.  On the $n$-Lab, we tend to omit the prefix $n$- whenever possible (as ironic as that may be).
 
 <table markdown="1"><tr><th>$k$&#8595;\$n$&#8594;</th><th>$-1$</th><th>$0$</th><th>$1$</th><th>$2$</th><th>$3$</th><th>...</th></tr>
 <tr><th>$0$</th><td>[[implication]]</td><td>[[function]]</td><td>[[functor]]</td><td>$2$-[[2-functor|functor]]</td><td>$3$-[[n-functor|functor]]</td><td>...</td></tr>
@@ -36,7 +46,7 @@ See this [[periodic table]] of $(n,k)$-transformations for common names for low 
 <tr><th>$5$</th><td>\"</td><td>\"</td><td>\"</td><td>\"</td><td>trivial</td><td>...</td></tr>
 <tr><th>&#8942;</th><td>\"</td><td>\"</td><td>\"</td><td>\"</td><td>\"</td><td>&#8945;</td></tr></table>
 
-Note that the [[source]] and [[target]] of an $(n,k)$-transformation are $(n,k-1)$-transformations.  Given fixed source and target, the $(n,k)$-transformations between them form an $(n-k)$-category.
+Note that the [[source]] and [[target]] of a $k$-transfor (between $n$-categories) are $(k-1)$-transfors (between the same $n$-categories).  Given two fixed source and target $(k-1)$-transfors, the $k$-transfors between them (and the $(k+1)$-transfors between those, and so on) form an $(n-k)$-category.
 
 
 ## Discussion ##
@@ -173,11 +183,11 @@ _Toby_:  That works too.  (Well, I don\'t like 'categorical', but that\'s a sepa
 [[!redirects k-transformation]]
 [[!redirects n-transformation]]
 [[!redirects (n,j)-transformations]]
+[[!redirects (n,k)-transformation]]
 [[!redirects (n,k)-transformations]]
 [[!redirects j-transformations]]
 [[!redirects k-transformations]]
 [[!redirects n-transformations]]
 [[!redirects k-transfor]]
 [[!redirects k-transfors]]
-[[!redirects transfor]]
 [[!redirects transfors]]
