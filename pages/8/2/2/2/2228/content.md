@@ -1,17 +1,4 @@
+The material previously on this page referred to [MyWikiBiz](http://mywikibiz.com/Inquiry).
+
 [[!redirects enquiry]]
-
-## Forthcoming &#8230; ##
-
-## Introduction ##
-
-* [Inquiry](http://mywikibiz.com/Inquiry)
-
-## Further reading ##
-
-* Awbrey, S.M., and Awbrey, J.L. (May 2001), "Conceptual Barriers to Creating Integrative Universities", _Organization : The Interdisciplinary Journal of Organization, Theory, and Society_ 8(2), Sage Publications, London, UK, pp. 269&#8211;284.  [Abstract](http://org.sagepub.com/cgi/content/abstract/8/2/269).
-
-* Awbrey, S.M., and Awbrey, J.L. (September 1999), "Organizations of Learning or Learning Organizations : The Challenge of Creating Integrative Universities for the Next Century", _Second International Conference of the Journal 'Organization', Re-Organizing Knowledge, Trans-Forming Institutions : Knowing, Knowledge, and the University in the 21st Century_, University of Massachusetts, Amherst, MA.  [Online](http://www.cspeirce.com/menu/library/aboutcsp/awbrey/integrat.htm).
-
-* Awbrey, J.L., and Awbrey, S.M. (Autumn 1995), "Interpretation as Action : The Risk of Inquiry", _Inquiry : Critical Thinking Across the Disciplines_ 15(1), pp. 40&#8211;52.  [Online](http://www.chss.montclair.edu/inquiry/fall95/awbrey.html).
-
-* Awbrey, S.M., and Awbrey, J.L. (May 1991), "An Architecture for Inquiry : Building Computer Platforms for Discovery", _Proceedings of the Eighth International Conference on Technology and Education_, Toronto, Canada, pp. 874&#8211;875.  [Online](http://www.abccommunity.org/tmp-a.html).
+[[!redirects inquiry driven system]]
