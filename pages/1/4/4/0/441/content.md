@@ -1,8 +1,12 @@
-#Idea#
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+##Idea##
 
 The _horn_ $\Lambda_k[n] = \Lambda^n_k \hookrightarrow \Delta^n$ is the [[simplicial set]] obtained from the [[boundary of a simplex|boundary of the n-simplex]] $\partial \Delta^n$ of the standard simplicial $n$-[[simplex]] $\Delta^n$ by discarding the $k$th face.
 
-#Definition#
+##Definition##
 
 Let 
 
@@ -16,7 +20,7 @@ Then, for each $i$, $0 \leq i \leq n$, we can form, within $\Delta[n] $, a subsi
 
 The horn $\Lambda^k[n]$ is an **outer horn** if $k = 0$ or $k = n$.
 
-#Examples#
+##Examples##
 
 The inner horn of the 2-simplex 
 
@@ -91,7 +95,7 @@ $$
 
 respectively. 
 
-#Relation to other concepts#
+##Relation to other concepts##
 
 * A [[Kan fibration]] is a morphism of simplicial sets which has the right [[lifting property]] with respect to all horn inclusions $\Lambda^k[n] \hookrightarrow \Delta^n$.
 
