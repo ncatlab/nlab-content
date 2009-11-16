@@ -1,8 +1,13 @@
-#Definition#
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+##Definition##
 
 For a given fixed [[ETCS|category of sets]] $S$, a __Grothendieck [[topos]]__ over $S$ is a [[category of sheaves]] over a [[site]] which is [[small category|small]] relative to $S$, that is a site [[internal category|internal]] to $S$. 
 
-## Remarks ##
+### Remarks ###
 
 * The [[site]] is not considered part of the structure; different sites may give rise to [[equivalence of categories|equivalent]] category of sheaves.
 
@@ -17,7 +22,7 @@ For a given fixed [[ETCS|category of sets]] $S$, a __Grothendieck [[topos]]__ ov
 
   * Sometimes it is useful to distinguish between [[petit topos]] and [[gros topos]].
 
-#Giraud\'s axioms#
+##Giraud\'s axioms##
 
 Giraud characterized Grothendieck toposes as categories satisfying certain exactness and small [[complete category|completeness]] properties (where "small" is again relative to the given category of sets $S$). The exactness properties are elementary (not depending on $S$), and are satisfied in any elementary [[topos]], or even a [[pretopos]].
 
@@ -40,7 +45,7 @@ This characterisation may be suitable even when the base category $S$ is only a 
 The notion of Grothendieck topos and its characterization from Giraud-type properties can be generalized from the context of categories to that of [[(∞,1)-categories]], where it yields the notion of [[(∞,1)-topos]].
 
 
-#References#
+##References##
 
 Grothendieck topoi appear around section IIIm,4 of
 
