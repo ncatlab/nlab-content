@@ -4,7 +4,7 @@
 
 ## Idea
 
-A **$k$-transfor** is an operation from one $n$-[[n-category|category]] $C$ to another $D$ (for some value of $n$) that takes [[object]]s of $C$ to $k$-[[k-morphism|morphism]]s of $D$ (and more generally $j$-morphisms in $C$ to $(j+k)$-morphisms in $D$) in a coherent way.  Equivalently, a $k$-transfor is a $k$-cell in an [[internal-hom]] $n$-category.  Transfors are a common generalisation of:
+A **$k$-transfor** is an operation from one $n$-[[n-category|category]] $C$ to another $D$ (for some value of $n$) that takes [[object|objects]] of $C$ to $k$-[[k-morphism|morphisms]] of $D$ (and more generally $j$-morphisms in $C$ to $(j+k)$-morphisms in $D$) in a coherent way.  Equivalently, a $k$-transfor is a $k$-cell in an [[internal-hom]] $n$-category.  Transfors are a common generalisation of:
 
 * $n$-[[n-functor|functor]]s, which are 0-transfors
 * $n$-[[natural transformation]]s, which are 1-transfors
@@ -17,12 +17,12 @@ The word "transfor" was coined by Sjoerd Crans in [this paper](http://home.tisca
 
 ## Terminology
 
-Once upon a time, there were [[categories]], [[functor]]s between them, and natural transformations between them.  Then when $n$-categories came along, people called the arrows between them '$n$-functors' even though one could just as easily say 'functors'.  In the same vein, people said '$n$-transformations' for natural transformations (that is, 2-transfors) between $n$-categories.  At the same time, we saw that we needed modifications between $n$-transformations, and that there would have to be things between higher modifications, and so on.  However, due to the prior use of "$n$-transformation" for a 2-transfor between $n$-categories, the natural choice "$k$-transformation" is unavailable to mean a $k$-transfor.
+Once upon a time, there were [[categories]], [[functor|functors]] between them, and natural transformations between them.  Then when $n$-categories came along, people called the arrows between them '$n$-functors' even though one could just as easily say 'functors'.  In the same vein, people said '$n$-transformations' for natural transformations (that is, 2-transfors) between $n$-categories.  At the same time, we saw that we needed modifications between $n$-transformations, and that there would have to be things between higher modifications, and so on.  However, due to the prior use of "$n$-transformation" for a 2-transfor between $n$-categories, the natural choice "$k$-transformation" is unavailable to mean a $k$-transfor.
 
 Here are some other possible terms for a $k$-transfor between $n$-categories, which additionally notate the value of $n$ (although this is, strictly speaking, unnecessary).
 
 * $(n,k)$-transformation
-* $n$-$k$-trasnfor
+* $n$-$k$-transfor
 * $n$-dimensional $k$-transfor
 * $n$-categorical $k$-transfor
 * $n$-natural $k$-transformation
