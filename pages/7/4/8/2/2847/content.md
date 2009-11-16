@@ -4,7 +4,8 @@ A **large cardinal** is a [[cardinal number]] that is larger than can be proven 
 
 ## See also
 
-* [[inaccessible cardinal]] -- the smallest sort of large cardinal, equivalent to the existence of [[Grothendieck universes]].
+* [[axiom of infinity]] -- a large cardinal axiom relative to finitist theories, but not relative to ZF
+* [[inaccessible cardinal]] -- the smallest sort of large cardinal in ZF, equivalent to the existence of a [[Grothendieck universe]].
 * [[measurable cardinal]] -- the boundary between "small" large cardinals and "large" large cardinals
 * [[elementary embedding]] -- a tool used in the study of large large cardinals
 * [[Vopenka's principle]] -- a large cardinal axiom with important implications for the behavior of [[locally presentable categories]] and [[accessible categories]].
