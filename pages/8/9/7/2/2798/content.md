@@ -7,6 +7,47 @@
 
 The [[Denis-Charles Cisinski|Cisinski]]-[[Ieke Moerdijk|Moerdijk]] [[model category]] structure on the [[category]] of [[dendroidal set]]s models [[(∞,1)-operad]]s in generalization of the way the [[Andre Joyal|Joyal]] [[model structure on simplicial sets]] models [[(∞,1)-category|(∞,1)-categories]].
 
+## Overview ##
+
+
+we have the following diagram of [[model category|model categories]]:
+
+$$
+  \array{
+    SSet\text{-}Operad 
+     &\stackrel{\simeq}{\to}& 
+    dSet
+     &\stackrel{\simeq}{\to}& 
+    dSpaces
+    &&&&& models\;for\;(\infty,1)-operads
+    \\
+    \uparrow && \uparrow && \uparrow
+    \\
+    SSet\text{-}Cat 
+     &\stackrel{\simeq}{\to}& 
+    sSet
+     &\stackrel{\simeq}{\to}& 
+    sSpaces   
+    &&&&&
+    models;for\;(\infty,1)-categories
+  }
+  \,,
+$$
+
+where the entries are
+
+* the category $SSet Cat$ of [[simplicially enriched category|simplicially enriched categories]] equipped with the [[Julie Bergner|Bergner]]-model structure;
+
+* the category [[SSet]] of [[simplicial set]]s equipped with the [[model structure on simplicial sets|Joyal model structure]] for [[quasi-category|quasi-categories]];
+
+* the category $dSet$ of [[dendroidal set]]s
+
+and where 
+
+* the horizontal morphisms are [[Quillen equivalence]]s
+
+* the vertical morphisms are [[homotopy full functor|homotopy full]] embeddings.
+
 ## Definition ##
 
 
