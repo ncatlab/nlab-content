@@ -18,3 +18,7 @@ If we restrict to a [[finite set|finite]] underlying set, then the categories $\
 
 
 [[!redirects specialisation topology]]
+[[!redirects Alexandrov topology]]
+[[!redirects Alexandroff topology]]
+[[!redirects Alexandrov space]]
+[[!redirects Alexandroff space]]
