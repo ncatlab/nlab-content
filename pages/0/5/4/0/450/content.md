@@ -1,4 +1,13 @@
-#Definition of strict case#
+<div class="rightHandSide toc">
+[[!include higher category theory - contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents
+{:toc}
+
+## Definition of strict case ##
 
 A **$0$-fold category** is a [[set]].  An **$n$-fold category** for $n \gt 0$ is an [[internal category]] in $(n-1)$-fold categories.
 
@@ -9,7 +18,7 @@ Analogously, a **$0$-fold groupoid** is again a set, and an **$n$-fold groupoid*
 More generally, an **$(n,r)$-fold groupoid** is an $r$-fold category in $(n-r)$-fold groupoids; compare $(n,r)$-[[(n,r)-category|category]].
 
 
-#Remarks#
+## Remarks ##
 
 * Notice that an $n$-fold category is a _strict_ version of an [[n-category]] in that all $n$ composition operations are strictly unital and associative and strictly commute with each other. Still, $n$-fold groupoids model all [[homotopy n-type]]s. See [[homotopy hypothesis]].
 
@@ -20,10 +29,10 @@ More generally, an **$(n,r)$-fold groupoid** is an $r$-fold category in $(n-r)$-
 * There are some moves towards a weak notion of $n$-fold category, particularly the case of [[double bicategory]].
 
 
-#References#
+## References ##
 
 * Thomas M. Fiore, Simona Paoli, _A Thomason Model Structure on the Category of Small $n$-fold Categories_ ([arXiv](http://arxiv.org/abs/0808.4108))
 
-* R. Brown and P.J. Higgins, The equivalence of $\infty$-groupoids and crossed  complexes,  Cah. Top. G\'eom. Diff.  22 (1981) 371--386.
+* [[Ronnie Brown]] and P.J. Higgins, The equivalence of $\infty$-groupoids and crossed  complexes,  Cah. Top. G\'eom. Diff.  22 (1981) 371--386.
 
 [[!redirects n-fold categories]]
