@@ -2,12 +2,12 @@
 * tic
 {: toc}
 
-The **Levi-Civita connection** is the unique symmetric [[connection]] on the [[tangent bundle]] of a [[pseudo-Riemannian manifold]] that is compatible with the pseudo-metric.  The [[curvature tensor]] and [[geodesic]]s on a pseudo-Riemannian manifold are taken with respect to this connection.  The existence and uniqueness of the Levi-Civita connection is the so-called **fundamental theorem of Riemannian geometry.**
+The **Levi-Civita connection** is the unique symmetric [[connection on a bundle|connection]] on the [[tangent bundle]] of a [[Riemannian manifold]] or [[pseudo-Riemannian manifold]] that is compatible with the [[Riemannian metric|metric]] or [[pseudo-Riemannian metric|pseudo-metric]].  The [[curvature tensor]] and [[geodesic]]s on a pseudo-Riemannian manifold are taken with respect to this connection.  The existence and uniqueness of the Levi-Civita connection is the so-called **fundamental theorem of [[Riemannian geometry]].**
 
  
 ##Definition of Compatibility##
 
-The pseudo-metric $g$ is **compatible** with the connection $\nabla$ if and only if $\nabla_X g = 0$ for all $X$, which is equivalent to the preservation of inner products of tangent vectors under parallel translation.  Since 
+The pseudo-metric $g$ is **compatible** with the connection $\nabla$ (here thought of in its incarnation as a [[covariant derivative]]) if and only if $\nabla_X g = 0$ for all $X$, which is equivalent to the preservation of the metric inner product of tangent vectors under [[parallel transport|parallel translation]].  Since 
 \[ X(g(X_1,X_2))  = (\nabla_X g)(X_1,X_2) + g(\nabla_X X_1, X_2) + g(X_1, \nabla_X X_2) ,\]
 by the fact that covariant differentiation commutes with contractions and satisfies the derviative identity, compatibility is equivalent to 
 \begin{equation}  X (g (X_1,X_2)) = g(\nabla_X X_1, X_2) + g(X_1, \nabla_X X_2),\end{equation}
@@ -49,3 +49,7 @@ We have already shown the uniqueness assertion, since that is local.  Connection
 We have proved the existence of $\nabla$ when $M$ is an open submanifold of $\mathbb{R}^n$ (though not necessarily with the canonical metric $\sum_{i=1}^n d x_i \otimes d x_i$).  In general, cover $M$ by open subsets $U_i$ diffeomorphic to an open set in $\mathbb{R}^n$.  We get connections $\nabla_i$ on $U_i$ compatible with $g|_{U_i}$.  
 
 We claim that $\nabla_i|_{U_i \cap U_j} = \nabla_j|_{U_i \cap U_j}$.  This is an easy corollary of uniquness.  So we can patch the connections together to get the one  Levi-Civita connection on $M$.
+
+## Christoffel symbols ##
+
+In parts of the literature the Levi-Citita connection is treated in terms of [[Christoffel symbol]]s. See there for more details.
