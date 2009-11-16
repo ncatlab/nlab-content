@@ -9,16 +9,13 @@
 
 * The concept of a strict 2-category is the simplest generalization of a [[category]] to a [[higher category theory|higher category]]. It is the one-step [[vertical categorification|categorification]] of the concept of a category.
 
++--{.query}
+[[Eric]]: In terms of [[geometric shapes for higher structures]], this definition is a special case where the shapes are globes. Should we make that explicit?
+=--
 
 ##Definition
 
 A _strict 2-category_, often called simply a _2-category_, is a [[enriched category|category enriched over]] [[Cat]], where $Cat$ is treated as the [[1-category]] of [[strict categories]]. 
-
-+--{.query}
-[[Eric]]: Could someone spell this out in a little more detail?
-
-[[Finn Lawler|Finn]]: See **Details** below for a first attempt.
-=--
 
 Similarly, a [[strict 2-groupoid]] is a groupoid enriched over groupoids. This is also called a [[geometric shapes for higher structures|globular]] strict 2-groupoid, to emphasise the underlying geometry. The category of strict 2-groupoids is eqivalent to the category  of [[crossed module]]s over groupoids. It is also equivalent to the category of (strict) double groupoids with connections. 
 
