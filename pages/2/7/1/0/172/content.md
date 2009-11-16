@@ -71,7 +71,7 @@ The notion of $\infty$-stacks can be set up in various notions of $\infty$-categ
 
 * [[Bertrand Toen]], _Higher and derived stacks: a global overview_ ([arXiv](http://arxiv.org/abs/math.AG/0604504)).
 
-In terms of explicit [[descent]] conditions $n$-stacks and $\infty$-stacks have been discussed in
+This concerns $\infty$-stacks with values in [[∞-groupoid]]s, i.e. $(\infty,0)$-categories. More generally [[descent]] conditions for $n$-stacks and $(\infty,n)$-stacks with values in [[(infinity,n)-category|(∞,n)-categories]] have been discussed in
 
 * [[Andre Hirschowitz]], [[Carlos Simpson]], _Descente pour les $n$-champs_ ([arXiv](http://arxiv.org/abs/math/9807049))
 
