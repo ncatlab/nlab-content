@@ -1,0 +1,1 @@
+Like a [[Riemannian manifold]] is a smooth [[manifold]] equipped with a [[Riemannian metric]], a pseudo-Riemannian manifold is a maniold equipped with a [[pseudo-Riemannian metric]].
