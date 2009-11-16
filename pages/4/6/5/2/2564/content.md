@@ -1,3 +1,1 @@
-# External link #
-
-* [Semiotic Information](http://www.mywikibiz.com/Directory:Jon_Awbrey/Papers/Semiotic_Information)
+The material previously on this page referred to [MyWikiBiz](http://www.mywikibiz.com/Directory:Jon_Awbrey/Papers/Semiotic_Information).
