@@ -17,6 +17,21 @@ So $(n,r)$-categories are a generalisation of both $n$-[[n-category|categories]]
 
 +--{.query}
 [[Eric]]: What is the category of all (small) $(n,r)$-categories? An $(n+1,r+1)$-category?
+
+[[Urs Schreiber]]: yes, that should be right. Roughly the argument is that a $(k+1)$-morphism of $(n,r)Cat$ is a [[(n,k)-transformation]]:
+
+* a 1-morphism in $(n,r)Cat$ is an $n$-functor $C \stackrel{F}{\to} D$ , hence an "$(n,0)$-transformation"
+
+* a 2-morphism is a transformation between $n$-functors, hence a "(n,1)-transformation".
+
+* and so on
+
+* finally an $(n+1)$-morphism is an $(n,n)$-transformation.
+  
+So $(n,r)Cat$ is an $(n+1)$-category. 
+
+The invertibiliy of the $(n,k)$-transformations is that of their components which are $(\ell \geq k)$-morphisms in the target $n$-category $D$. So if all $(\ell \gt r)$-morphisms in $D$ are invertible, then so are all $(n,\ell \gt r)$-transformations between $C$ and $D$ hence all $(\ell \gt r+1)$-morphisms in $(n,r)Cat$. So $(n,r)Cat$ is an $(n+1,r+1)$-category.
+
 =--
 
 # Definition
