@@ -1,22 +1,5 @@
+The material previously on this page referred to [the Online Encylcopedia of Integer Sequences](http://www.research.att.com/~njas/sequences/?q=Awbrey)
+
 [[!redirects Riffs & Rotes]]
 [[!redirects riffs & rotes]]
 [[!redirects rote]]
-
-* _et in [oeis land](http://www.research.att.com/~njas/sequences/?blank=1) [ego](http://www.research.att.com/~njas/sequences/?q=Awbrey) ..._
-
-**Riff** = rooted index-functional forest
-
-**Rote** = rooted odd tree (with only) exponent symmetries
-
-Here's a few links to pump the prime:
-
-1. [&#8470; A061396](http://www.research.att.com/~njas/sequences/A061396)
-1. [&#8470; A062504](http://www.research.att.com/~njas/sequences/A062504)
-1. [&#8470; A062537](http://www.research.att.com/~njas/sequences/A062537)
-1. [&#8470; A062860](http://www.research.att.com/~njas/sequences/A062860)
-1. [&#8470; A106177](http://www.research.att.com/~njas/sequences/A106177)
-1. [&#8470; A106178](http://www.research.att.com/~njas/sequences/A106178)
-1. [&#8470; A109300](http://www.research.att.com/~njas/sequences/A109300)
-1. [&#8470; A109301](http://www.research.att.com/~njas/sequences/A109301)
-
-Will develop some exposition as time goes by ...
