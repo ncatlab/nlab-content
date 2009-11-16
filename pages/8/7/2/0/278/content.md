@@ -26,5 +26,3 @@
   * [[NQ-supermanifold]]
 
   * [[integration over supermanifolds]]
-
-* [[differential logic]]
