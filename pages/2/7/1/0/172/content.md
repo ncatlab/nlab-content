@@ -81,7 +81,6 @@ All this has been embedded into a coherent global theory in
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
-[[Note on Formatting|?]]
 
 [[!redirects infinity-stacks]]
 [[!redirects ∞-stack]]
