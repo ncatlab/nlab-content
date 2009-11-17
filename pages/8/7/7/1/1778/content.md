@@ -1057,6 +1057,5 @@ is after all better behaved than its [[hypercompletion]] where a cycle is with r
 
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
-[[Note on Formatting|✄]]
 
 [[!redirects Čech cohomology]]
