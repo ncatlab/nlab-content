@@ -134,7 +134,11 @@ The relation to [[localization of an (infinity,1)-category]] is also in [[Higher
 
 A detailed discussion of Bousfield localization also in the context of [[enriched model category|enriched model categories]] is in
 
-* Clark Barwick, _On (enriched) left Bousfield localization of model categories_ ([arXiv](http://arxiv.org/abs/0708.2067))
+* [[Clark Barwick]], _On (enriched) left Bousfield localization of model categories_ ([arXiv](http://arxiv.org/abs/0708.2067))
+
+Apparently an expanded version of this is
+
+* [[Clark Barwick]], _On left and right model categories and left and right Bousfield localization_ ([pdf](http://www.math.harvard.edu/~clarkbar/complete.pdf))
 
 
 ## Discussion ##
