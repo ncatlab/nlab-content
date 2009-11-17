@@ -9,6 +9,9 @@
 
 Dendroidal sets are to [[operad]]s and [[(∞,1)-operad]]s as [[simplicial set]]s are to [[category|categories]] and [[(∞,1)-category|(∞,1)-categories]].
 
+A dendroidal set is something that consists of [[tree category|trees]] on the way a [[simplicial set]] consists of [[simplex|simplices]]. But we may Poincar&#233;dually think of the trees as being the [[string diagram]]s of something like [[opetopes]]. (?)
+
+
 
 ## Definition ##
 
@@ -82,12 +85,16 @@ $$
   \,.
 $$
 
+We think of each bullet as a unary operation -- an ordinary [[morphism]] -- $\stackrel{n}{\to}\bullet \stackrel{n+1}{\to}$ from the [[object]] $n$ to the object $(n+1)$. 
+
+
 Notice that this is hence Poincar&#233;-dual to how one tends to visualize $[n]$ itself
 
 $$
   [n] = (0 \to 1 \to 2 \to \cdots \to n)  
-  \,.
 $$
+
+and how one tends to visualize morphisms $n \to (n+1)$.
 
 
 ## Faces of trees and dendroidal sets ##
