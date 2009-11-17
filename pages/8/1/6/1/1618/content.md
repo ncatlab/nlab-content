@@ -9,7 +9,10 @@ $$
 That is, it\'s a [[global element]] of the topos.
 
 +--{.query}
-Zoran: now one can redefine easily each functor by taking isomorphic representatives. So, in this definition one clearly does not count isomorphic geometric morphisms, or instead of adjoint functors takes classes of isomorphisms of them. Right ?
+Zoran: now one can redefine easily each functor by taking isomorphic representatives. So, in this definition one clearly does not count isomorphic geometric morphisms, or instead of adjoint functors takes classes of isomorphisms of them. Right ? 
+
+Todd: How much does it matter? It matters if for example you want to say that points of $Sh(X)$, $X$ a sober space, are in bijection with points of $X$. Otherwise one can just refer back to equivalence of categories, unless you see a problem with that. 
+
 =--
 
 ## points of sheaf topoi ##
@@ -79,7 +82,13 @@ More precisely: if it is true that every morphism $f : A \to B$ such that for ev
 
 ##Examples##
 
-* For $X$ any [[topological space]], the  [[category of sheaves|topos of sheaves]] on (the [[category of open subsets]] of) $X$ has enough points: a morphism of sheaves is a mono-/epi-/isomorphism precisely if it is so on every [[stalk]].
+* For $X$ any [[topological space]], the  [[category of sheaves|topos of sheaves]] on (the [[category of open subsets]] of) $X$ has enough points: a morphism of sheaves is a mono-/epi-/isomorphism precisely if it is so on every [[stalk]]. 
+
++--{.query}
+
+_Todd_: I don't have much time to think about this now, but I doubt this is true. A "point" of $Sh(X)$ corresponds to a closed irreducible set of $X$, and there may be very few of these. The claim is true though if $X$ is sober. 
+
+=-- 
 
 * Let $Diff$ be a [[small category]] version of the category of smooth manifolds (for instance take it to be the category of manifolds embedded in $\mathbb{R}^\infty$). Then the sheaf topos $Sh(Diff)$ has precisely one point $p_n$ per natural number $n \in \mathbb{N}$ , corresponding to the $n$-ball: the [[stalk]] of a sheaf on $Diff$ at that point is the colimit over the result of evaluating the sheaf on all $n$-dimensional smooth balls.
 
