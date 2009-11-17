@@ -2,7 +2,11 @@ The notion of _nerve_ is part of a notion of pairs of [[adjoint functors]]. For 
 
 * [[nerve and realization]].
 
-# Idea #
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea ##
 
 As soon as any [[locally small category]] $C$ comes equipped with a [[simplicial object|cosimplicial object]]
 
@@ -29,7 +33,7 @@ This [[simplicial set]] is called the _nerve_ of $A$ (with respect to the chosen
 
 There various obvious generalizations of this procedure, some of which described below.
 
-#Definition#
+## Definition ##
 
 > (notice that for the moment the following gives just one particular case of the more general notion of nerve)
 
@@ -60,9 +64,9 @@ $$
 which is equivalent to the requirement that the corresponding nerve functor is [[full and faithful functor|fully faithful]] (in other words, if $i$ is inclusion then $S$ is a left adequate subcategory of $C$ in terminology of \[Isbell 1960\]). 
 The nerve functor may be viewed as a [[singular functor]] of the functor $i$.
 
-#Examples#
+## Examples ##
 
-## ordinary nerve of a category ##
+### ordinary nerve of a category ###
 
 Recall that the [[nLab:simplex category|simplex category]] $\Delta$ is equivalent to the full subcategory 
 $$
@@ -180,11 +184,7 @@ In particular in light of their generalization to nerves of higher categories, d
 
 
 
-
-### examples ###
-
-
-* **bar construction** Let $A$ be a [[monoid]] (for instance a [[group]]) and write $\mathbf{B} A$ for the corresponding one-object [[category]] with $Mor(\mathbf{B} A) = A$. Then the nerve $N(\mathbf{B} A)$ of $\mathbf{B}A$ is the simplicial set which is the usual [[bar construction]] of $A$
+**example: bar construction ** Let $A$ be a [[monoid]] (for instance a [[group]]) and write $\mathbf{B} A$ for the corresponding one-object [[category]] with $Mor(\mathbf{B} A) = A$. Then the nerve $N(\mathbf{B} A)$ of $\mathbf{B}A$ is the simplicial set which is the usual [[bar construction]] of $A$
   $$
     N(\mathbf{B}A)
     =
@@ -197,7 +197,7 @@ In particular in light of their generalization to nerves of higher categories, d
   In particular, when $A = G$ is a discrete group, then the [[geometric realization]] $|N(\mathbf{B} G)|$ of the nerve of $\mathbf{B}G$ is the [[classifying space|classifying]] [[topological space]] $ \cdots \simeq B G$ for $G$-[[principal bundles]].
 
 
-### properties of the nerve of a category ###
+#### Properties of the nerve of a category ####
 
 +-- {: .un_prop}
 ###### Proposition
@@ -299,14 +299,18 @@ $$
 
 It is in this sense that a simplicial set that is a [[Kan complex]] but which does not necessarily have the above pullback property that makes it a nerve of an ordinary groupoid models an [[∞-groupoid]].
 
-## nerve of an $\omega$-category ##
+### Nerve of a 2-category ###
 
-* This previous example is the restriction to [[1-category|1-categories]] of the nerve ("$\omega$-nerve") on [[strict omega-category|strict omega-categories]] which is induced by the [[orientals]] $i := O : \Delta \to \omega Cat$. This nerve is not fully faithful.
+For a [[2-category]], regarded as a [[Cat]]-[[internal category]] one can apply the nerve operation for categories in stages, to ontain the [[double nerve]].
+
+### Nerve of an $\omega$-category ###
+
+* This nerve of a 1-category is the restriction to [[1-category|1-categories]] of the nerve ("$\omega$-nerve") on [[strict omega-category|strict omega-categories]] which is induced by the [[orientals]] $i := O : \Delta \to \omega Cat$. This nerve is not fully faithful.
 
 * When $C$ is the strict 1-category of [[2-category|2-categories]] or of [[bicategory|bicategories]] and homomorphisms of bicategories, and $S=\Delta$ the corresponding nerve is called the _Duskin nerve_.
 
 
-## nerve of chain complexes ##
+### Nerve of chain complexes ###
 
 Let $Ch_+$ be the [[category of chain complexes]]
 of abelian groups. 
@@ -326,18 +330,18 @@ The nerve induced by this cosimplicial object was first considered in
 The nerve/[[geometric realization|realization]] adjunction induced from this is the [[Dold?Kan correspondence]]. See there for more details.
 
 
-#Remarks# 
+## Remarks ## 
 
-##Geometric realization##
+###Geometric realization###
 Often the operation of taking the nerve of a (higher) category is followed by forming the [[geometric realization]] of the corresponding cellular set.
 
-##Nerves and higher categories##
+###Nerves and higher categories###
 For many purposes it is convenient to conceive categories and especially [[∞-categories]] entirely in terms of their nerves: those simplicial sets that arise as certain nerves are usually characterized by certain properties. So one can turn this around and _define_ an [[∞-category]] as a simplicial set with certain properties. This is the strategy of a [[geometric definition of higher category]]. Examples for this are [[complicial set|complicial sets]], [[Kan complex|Kan complexes]], [[quasi-category|quasi-categories]], [[simplicial T-complex|simplicial T-complexes]],...
 
-##Internal nerve##
+###Internal nerve###
 A variant of the nerve construction can also be applied _internally_ within a category, to any internal category, see the discussion at [[internal category]].
 
-##Literature##
+##References##
 
 * [Dwyer Kan 1984]
 W. G. Dwyer, D. M. Kan, Singular functors and realization functors, Nederl. Akad. Wetensch. Indag. Math. 46 (1984), no. 2, 147--153. [pdf](http://www.nd.edu/~wgd/Dvi/SingularAndRealization.pdf)
