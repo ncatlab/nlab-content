@@ -207,6 +207,10 @@ For a _motivation_ of these definitions from the point of view of cohomology as 
 
 Essentially by applying these general constructions in the presence of a smooth [[fundamental ∞-groupoid]] functor $\Pi : H \to H$ one obtains _differential_ cohomology. More on that is at [[schreiber:Differential Nonabelian Cohomology]].
 
+A discussion of cohomology in the general sense discussed above, using tools of [[model category]] theory for [[simplicial object]]s, is
+
+* [[Brian Conrad]], _Cohomological descent_ ([pdf](http://math.stanford.edu/~conrad/papers/hypercover.pdf))
+
 #Related blog entries#
 
 * David Corfield, [Cohomology and Homotopy](http://golem.ph.utexas.edu/category/2009/06/cohomology_and_homotopy.html)
