@@ -11,7 +11,7 @@ The _double nerve_ of a [[2-category]] $C$ is a [[bisimplicial set]] obtained by
 
 See for instance page 227 of
 
-* M. Bullejos, E. Faro, V. Blanco, _A full and faithful nerve for 2-categories_ ([pdf](http://www.springerlink.com/content/u7t444324q581444/fulltext.pdf))
+* M. Bullejos, E. Faro, V. Blanco, _A full and faithful nerve for 2-categories_ ([arXiv](http://arxiv.org/abs/math.CT/0406615))
 
 or page 39 of 
 
