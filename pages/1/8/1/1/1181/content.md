@@ -1,10 +1,15 @@
-#Idea#
+# Natural numbers object
+* tic
+{: toc}
 
-Recall that a [[topos]] is a [[category]] that behaves likes the category [[Set]] of [[set]]s.  A _natural numbers object_ in a topos is an [[object]] that behaves in that topos like the set $\mathbb{N}$ of [[natural number]]s does in [[Set]]; thus it provides a formulation of the "axiom of infinity" in structural [[set theory]] (such as [[ETCS]]).  The definition is due to <a href="http://en.wikipedia.org/wiki/William_Lawvere">William Lawvere</a>.
+##Idea#
 
-#Definition#
+Recall that a [[topos]] is a [[category]] that behaves likes the category [[Set]] of [[set]]s.  A _natural numbers object_ in a topos is an [[object]] that behaves in that topos like the set $\mathbb{N}$ of [[natural number]]s does in [[Set]]; thus it provides a formulation of the "axiom of infinity" in structural [[set theory]] (such as [[ETCS]]).  The definition is due to [[William Lawvere]].
 
-A **natural numbers object** in a [[topos]] $E$ is 
+
+##Definition#
+
+A **natural numbers object** in a [[topos]] (or any [[cartesian closed category]]) $E$ is 
 
 * an [[object]] $\mathbb{N}$ in $E$ 
 
@@ -30,21 +35,26 @@ $$
   }
 $$
 
-Note that this definition actually makes sense in any category $E$ having finite [[product]]s.  However, if $E$ is not [[cartesian closed category|cartesian closed]], then it is better to explicitly assume a stronger version of this definition "with parameters" (which follows automatically when $E$ is cartesian closed, such as a topos). 
+Note that this definition actually makes sense in any category $E$ having finite [[product]]s.  However, if $E$ is not [[cartesian closed category|cartesian closed]], then it is better to explicitly assume a stronger version of this definition "with parameters" (which follows automatically when $E$ is cartesian closed, such as when $E$ is a topos). 
 
-#Finite colimit characterization# 
+All this may be summed up by saying that a natural numbers object is an [[initial algebra]] for the functor $X \mapsto X + 1$.
 
-In a topos, the natural numbers object $\mathbb{N}$ is uniquely characterized by the following colimit conditions due to Freyd: a triple $(\mathbb{N}, 0: 1 \to \mathbb{N}, s: \mathbb{N} \to \mathbb{N})$ is a natural numbers object if and only if 
 
-1. The morphism $(0, s): 1 + \mathbb{N} \to \mathbb{N}$ is an isomorphism; 
+##Finite colimit characterization# 
+
+In a topos, the natural numbers object $\mathbb{N}$ is uniquely characterized by the following [[colimit]] conditions due to [[Peter Freyd]]: a triple $(\mathbb{N}, 0: 1 \to \mathbb{N}, s: \mathbb{N} \to \mathbb{N})$ is a natural numbers object if and only if 
+
+1. The morphism $(0, s): 1 + \mathbb{N} \to \mathbb{N}$ is an [[isomorphism]]; 
 
 1. The diagram 
 $$\mathbb{N} \stackrel{\overset{s}{\to}}{\underset{1}{\to}} \mathbb{N} \to 1$$ 
-is a coequalizer. 
+is a [[coequalizer]]. 
 
 The necessity of the first condition holds in any category with binary coproducts and a terminal object, and the necessity of the second holds in any category whatsoever. 
 
-**Proof of necessity:** For a category $C$ with binary coproducts and 1, the natural numbers object can be equivalently described as an [[initial algebra]] structure $(0, s): 1 + \mathbb{N} \to \mathbb{N}$ for the endofunctor $F(c) = 1 + c$ defined on $C$. Then condition 1 is a special case of [[initial algebra|Lambek's theorem]], that the algebra structure map of an initial algebra is an isomorphism. 
++-- {: .proof}
+###### Proof of necessity
+For a category $C$ with binary coproducts and 1, the natural numbers object can be equivalently described as an [[initial algebra]] structure $(0, s): 1 + \mathbb{N} \to \mathbb{N}$ for the endofunctor $F(c) = 1 + c$ defined on $C$. Then condition 1 is a special case of [[initial algebra|Lambek's theorem]], that the algebra structure map of an initial algebra is an isomorphism. 
 
 As for condition 2, given $f: \mathbb{N} \to X$ such that $f = f \circ s$, the claim is that $f$ factors as 
 
@@ -58,11 +68,13 @@ $$\array{
  & & X & \underset{1_X}{\to} & X
 }$$ 
 
-this diagram commutes, so that $f = f(0) \circ !$ by the uniqueness clause in the universal property for $\mathbb{N}$. $\Box$ 
+this diagram commutes, so that $f = f(0) \circ !$ by the uniqueness clause in the universal property for $\mathbb{N}$.
+=--
 
-**Proof of sufficiency:** To be filled in. For a topos in which there is an isomorphism $\alpha: F(X) \to X$, it should be possible to construct a natural numbers object as the intersection of all $F$-subalgebras of $(X, \alpha)$. On the other hand, there are no nontrivial subalgebras of any such algebra satisfying condition 2. 
- 
-
++-- {: .proof}
+###### Proof of sufficiency
+To be filled in. For a topos in which there is an isomorphism $\alpha: F(X) \to X$, it should be possible to construct a natural numbers object as the intersection of all $F$-subalgebras of $(X, \alpha)$. On the other hand, there are no nontrivial subalgebras of any such algebra satisfying condition 2. 
+=--
 
 
 [[!redirects natural numbers objects]]
