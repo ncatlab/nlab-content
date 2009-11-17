@@ -81,7 +81,37 @@ and every other left Quillen functor with this property factors by a unique left
 ###### Proof
 
 This is theorem 3.3.19 in _ModLoc_ .
+
 =--
+
+
+## Existence of Bousfield localizations ##
+
+There are various results stating that under suitable conditions the left Bozusfield localization does exist.
+
++-- {: .un_theorem }
+###### Theorem
+**(Jeff Smith)**
+
+If (with respect to a given [[Grothendieck universe]]) $C$ is a [[combinatorial model category]] and $S \subset Mor(C)$ is a small [[set]] of [[homotopy]]-classes of morphisms, then the left Bousfield localization $L_S C$ does exist.
+
+Moreover, it satisfies the following conditions:
+
+* it is a left [[proper model category]]
+
+* it is a [[combinatorial model category]]
+
+* the fibrant objectss are the fibrant $S$-[[local object]]s of $C$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is theorem 2.11 in [Bar07](http://arxiv.org/abs/0708.2067))
+
+=--
+
 
 
 ## Bousfield localization in triangulated categories ##
