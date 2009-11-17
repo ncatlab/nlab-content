@@ -6,7 +6,7 @@
 
 ## Idea ##
 
-For $n \in \mathbb{N}$ the category $\Theta_n$ -- **Joyal's disk category** -- may be thought of as the full subcategory of the category $Str n Cat$ of [[strict ∞-category|strict n-categories]] on $n$-categories that are n-[[computad]]s (?? or something like that), i.e. that are pasting diagrams of $n$-globes.
+For $n \in \mathbb{N}$ the category $\Theta_n$ -- **Joyal's disk category** -- may be thought of as the full subcategory of the category $Str n Cat$ of [[strict ∞-category|strict n-categories]] on $n$-categories that are something like free $n$-categories on pasting diagrams of $n$-[[globe]]s.
 
 In low degree we have
 
