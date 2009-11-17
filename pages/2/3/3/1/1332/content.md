@@ -1,4 +1,4 @@
-#Conten#
+#Contents#
 * automatic table of contents goes here
 {:toc}
 
