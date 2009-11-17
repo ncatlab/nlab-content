@@ -35,7 +35,7 @@ For $C$ a [[combinatorial model category]] and $D$ a [[small category]] the proj
 +-- {: .proof}
 ###### Proof
 
-This is for instance [[Higher Topos Theory|HTT], prop A.2.8.2]]
+This is for instance [[Higher Topos Theory|HTT]], prop A.2.8.2
 
 =--
 
