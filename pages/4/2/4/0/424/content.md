@@ -1,6 +1,6 @@
 #Definition#
 
-A _deformation retract for the enrichment_ of a category  $C$ [[enriched category|enriched over]] a [[closed monoidal homotopical category]] $V$ is a [[deformation retract]] for the [[two-variable adjunction]] 
+A _deformation retract for the enrichment_ of a category  $C$ [[enriched category|enriched over]] a [[closed monoidal homotopical category]] $V$ is a [[deformation retract of a homotopical category]] for the [[two-variable adjunction]] 
 
 ([[power]], [[copower]], [[closed category|internal hom]]) : $V \times C \to C$
 
