@@ -11,7 +11,7 @@ Good question. Postnikov in his 1980-s course of homotopy theory, talks about in
 Thanks, that\'s something to start with at least.  ---Toby
 =--
 
-The main example of an $H$-group is the [[loop space]] $\Omega X$ of a space $X$. There are dual notions of $H$-counitoid (or $H'$-space, or co-$H$-space), $H$-comonoid (or $H'$-monoid) and $H$-[[cogroup]] (or $H'$-group) having co-operations with the usual identities up to homotopy. The main example of an $H$-cogroup in $Top_*$ is the [[suspension]] $S X= S^1\wedge X$ of a pointed topological space $X$. 
+The main example of an $H$-group is the [[loop space]] $\Omega X$ of a space $X$. There are dual notions of $H$-counitoid (or $H'$-space, or [[co-H-space]]), $H$-comonoid (or $H'$-monoid) and $H$-[[cogroup]] (or $H'$-group) having co-operations with the usual identities up to homotopy. The main example of an $H$-cogroup in $Top_*$ is the [[suspension]] $S X= S^1\wedge X$ of a pointed topological space $X$. 
 
 If $K$ is an $H$-group then for any topological space $X$, the set of homotopy classes $[X,K]$ has a natural group structure in the strict sense; analogously if $K'$ is an $H$-cogroup then $[K',X]$ has a group structure. If there is more than one $H$-group structure on a space, then the induced group structures on the set of homotopy classes coincide. 
 
