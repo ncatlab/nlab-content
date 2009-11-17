@@ -106,7 +106,7 @@ A dendroidal set $X$ is an **inner Kan complex** or **quasi-operad** if the cano
 ###### Definition
 **(trivial fibration)**
 
-A morphism $A \to B$ of dendroidal sets is an **acyclic fibration** if it has the [[right lifiting property]] with respect to all monomorphisms (equivalently: with respect to all normal monomorphisms).
+A morphism $A \to B$ of dendroidal sets is an **acyclic fibration** if it has the [[right lifting property]] with respect to all monomorphisms (equivalently: with respect to all normal monomorphisms).
 
 =--
 
