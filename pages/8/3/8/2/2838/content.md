@@ -14,7 +14,7 @@ Garner developed the notion of _ionad_ to stand 'in the same relationship to a t
 The category $Set^X$ plays an role in the theory of ionads analogous to that of the poset $\{0\lt 1\}^X$. 
 
 +--{: .query}
-[[David Roberts]]: The idea strikes me that we are passing from the subobject classifier $2 = \{0 \lt 1\}$ in $Set$ (assuming classical Booleaness) to the categorified subobject classifier $Set$ in $Cat$.
+[[David Roberts]]: The idea strikes me that we are passing from the [[subobject classifier]] $2 = \{0 \lt 1\}$ in $Set$ (assuming classical Booleaness) to the categorified subobject classifier $Set$ in $Cat$.
 =--
 
 ## References ##
