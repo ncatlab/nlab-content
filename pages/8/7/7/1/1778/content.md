@@ -2,6 +2,12 @@
 [[!include cohomology - contents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+## Idea ##
 
 
 &#268;ech cohomology is the [[cohomology]] theory of the [[(infinity,1)-topos]] of [[infinity-stack]] that are [[localization of an (infinity,1)-category|localized]] not with respect to all [[hypercovers]] but only with respect to all [[Cech covers]].
@@ -59,7 +65,7 @@ If $Y$ is not simply a [[Cech cover|Čech cover]] but also not the most general 
 
 
 
-# General ("nonabelian") Cech cohomology #
+## General ("nonabelian") Cech cohomology ##
 
 We start with describing the general " _nonabelian_ " &#268;ech cohomology (compare the terminology and remarks at [[cohomology]] and [[nonabelian cohomology]]), i.e. the plain unwrapping of the above definition, before assuming that our coefficient object is [[abelian sheaf cohomology|abelian]] and before applying the [[Moore complex]] functor that sends the following simplicial computation to the maybe more familiar one in [[chain complexes]].
 
@@ -337,7 +343,7 @@ We now plug in some concrete coefficient object
 $n$-types for low $n$ and reproduce some concrete formulas
 from this.
 
-## Nonabelian 1-cocycles: principal bundles ##
+### Nonabelian 1-cocycles: principal bundles ###
 
 For $G$ a [[group]] let 
 $\mathbf{B} G$ by abuse of notation denote 
@@ -419,7 +425,7 @@ $$
 =--
 
 
-## Nonabelian 2-cocycles: gerbes and principal 2-bundles ##
+### Nonabelian 2-cocycles: gerbes and principal 2-bundles ###
 
 
 In one degree higher the general [[homotopy n-type|homotopy 2-type]] coefficient object is modeled using a strict [[2-group]] $H$ coming from a [[crossed module]]
@@ -502,7 +508,7 @@ this is the nonabelian cohomology classifying
 [[gerbes]].
 
 
-# Abelian Cech cohomology #
+## Abelian Cech cohomology ##
 
 In much of the literature _Cech cohomology_ denotes exclusively the abelian case, which we now describe.
 
@@ -791,7 +797,7 @@ To see that one just needs to observe that the normalized [[Moore complex]] of t
 
 =--
 
-## Relation of abelian Cech cohomology to abelian sheaf cohomology ##
+### Relation of abelian Cech cohomology to abelian sheaf cohomology ###
 
 For $A$ a complex of sheaves, there is a canonical morphism
 
@@ -868,13 +874,13 @@ One considers the spectral sequence associated with the Cech double complex. Det
 
 
 
-## Examples ##
+### Examples ###
 
 We now list examples for abelian Cech cohomology expressed in terms of the Cech complex described above.
 
 
 
-### Line bundles ###
+#### Line bundles ####
 
 Let $G = U(1)$ be the circle group, an abelian
 group. The [[nerve]] $N(\mathbf{B}G)$ 
@@ -936,7 +942,7 @@ Here and from now on we shall notationally suppress the restriction maps $(-)|_{
 as they are unambiguously obviuous in every case.
 
 
-### Line bundle gerbes ###
+#### Line bundle gerbes ####
 
 Similarly by shifting $U(1)$ ever higher in chain degree,
 one finds Cech cocycles for [[bundle gerbes]], bundle 2-gerbes, etc.
@@ -970,7 +976,7 @@ $$
 
 
 
-### Cech-Deligne cohomology ###
+#### Cech-Deligne cohomology ####
 
 When refining the complexes of sheaves $U(1)[n]$
 to the [[Deligne cohomology|Deligne complex]]
@@ -1029,7 +1035,7 @@ Cech-Deligne cohomology.
 
 
 
-#References#
+##References##
 
 A discussion of Cech cohomology in the wider context of [[cohomology]] particularly realized in terms of the [[model structure on simplicial presheaves]] and with an emphasis on the shades of notions between [[Cech cover]] and [[hypercover]] is
 
