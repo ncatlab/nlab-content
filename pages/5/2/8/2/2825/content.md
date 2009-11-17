@@ -7,4 +7,6 @@
 
 * [[(∞,n)-category]]
 
+* [[Theta space]]
+
 category: people
