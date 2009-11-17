@@ -29,8 +29,15 @@ An $n$-symplectic manifold is a [[Lie ∞-algebroid]] $\mathcal{a}$ equipped wit
 
 ## $n=0$: symplectic manifold ## 
 
+In [[NQ-supermanifold]] language:
+
+the 2-form being of degree 0 means that only vector fields allong degree 0 coordinates may be sent to non-vanishing values. Hence for the form to be non-degenerate, there may not be any higher degree coordinates, hence the NQ-supermanifold must be an ordinary manifold. On that the 2-form is then a closed non-degenerate 2-form, hence a symplectic form.
+
++-- {: .standout}
+
 A $0$-symplectic manifold is an ordinary [[symplectic manifold]].
 
+=--
 
 ## $n=1$: Poisson manifold ## 
 
@@ -65,7 +72,6 @@ A good writeup of this material is in
 
 * [[Dmitry Roytenberg]], _On the structure of graded symplectic supermanifolds and Courant algebroids_ ([arXiv](http://arxiv.org/abs/math/0203110))
 
-
 The idea for all $n$ was then sketched, together with many other ideas about [[L-infinity algebroid]]s in the article with the nice title
 
 * [[Pavol Severa]], _Some title containing the words "homotopy" and "symplectic", e.g. this one_ ([arXiv](http://arxiv.org/abs/math/0105080))
@@ -83,4 +89,6 @@ What we call $n$-symplectic manifold here is called $\Sigma_n$-manifold there.
 
 * M. de Leon, D. Martin de Diego, M. Salgado, S. Vilari&#241;o, _K-symplectic formalism on Lie algebroids_ ([arXiv](http://lanl.arxiv.org/abs/0905.4585))
 
-> [[Urs Schreiber]]: I need to have a closer look at that one. Might be closer to the stuff described at [[multisymplectic geometry]], which of course is closely related to the stuff here, only that here the higher categorical/graded structure is more emphasized.
+A discussion of aspects of how [[multisymplectic geometry]] related to $n$-symplectic manifolds is in 
+
+* [[Chris Rogers]], _Courant algebroids from categorified symplectic geometry_ ([pdf](http://math.ucr.edu/~chris/2plectic-algebroid_DRAFT.pdf))
