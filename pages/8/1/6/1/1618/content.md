@@ -8,6 +8,10 @@ $$
 
 That is, it\'s a [[global element]] of the topos.
 
++--{.query}
+Zoran: now one can redefine easily each functor by taking isomorphic representatives. So, in this definition one clearly does not count isomorphic geometric morphisms, or instead of adjoint functors takes classes of isomorphisms of them. Right ?
+=--
+
 ## points of sheaf topoi ##
 
 For the special case that $E = Sh(X)$ is the [[category of sheaves]] on a [[category of open subsets]] $Op(X)$ of a [[topological space]] $X$ this notion of point of a topos comes from the ordinary notion of points of $X$.
@@ -16,7 +20,7 @@ For notice that
 
 * $Set = Sh(*)$ is simply the [[topos]] of [[sheaf|sheaves]] on a one-[[point]] [[topological space|space]].  
 
-* [[geometric morphisms]] $f : Sh(Y) \to Sh(X)$ between [[category of sheaves|sheaf topoi]] are in bijection with continmuous functions of topological spaces $f : Y \to X$ (denoted by the same letter, by convenient abuse of notation).
+* [[geometric morphisms]] $f : Sh(Y) \to Sh(X)$ between [[category of sheaves|sheaf topoi]] are in a bijection with continuous functions of topological spaces $f : Y \to X$ (denoted by the same letter, by convenient abuse of notation).
 
 It follows that for $E = Sh(X)$ points of $E$ in the sense of points of topoi are in bijection with the ordinary points of $X$.
 
@@ -92,3 +96,5 @@ section 7.5 of
 * MacLane Moerdijk, [[Sheaves in Geometry and Logic]]
 
 [[Note on Formatting|✄]]
+
+[[!redirects point of topos]]
