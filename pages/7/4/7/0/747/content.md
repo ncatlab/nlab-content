@@ -48,7 +48,7 @@ More precisely
 
 * the [[global model structure on simplicial presheaves]] on a category is a [[presentable (infinity,1)-category|presentation]] of the [[(∞,1)-category of (∞,1)-presheaves]];
 
-* the [[Cech model structure on simplicial presheaves]] on a [[site]] is a [[presentable (infinity,1)-category|presentation]] of the [[(∞,1)-category of (∞,1)-sheaves]];
+* the [[?ech model structure on simplicial presheaves]] on a [[site]] is a [[presentable (infinity,1)-category|presentation]] of the [[(∞,1)-category of (∞,1)-sheaves]];
 
 * the [[local model structure on simplicial presheaves]] on a [[site]] is a [[presentable (infinity,1)-category|presentation]] of the _hypercompletion_ of the [[(∞,1)-category of (∞,1)-sheaves]] (see the discussion at [[hypercover]]).
 
@@ -319,7 +319,7 @@ $$
   \,.
 $$
 
-Since the open $n$-disk is [[diffeomorphism|diffomorphic]] to $\mathbb{R}^n$, we may think of these [[stalk]]s actually as colimits over diagrams in [[CartSp]]. It follows that the functor $f_* : SPSh(Diff)_{inj}^{loc} \to SPSh(CartSp)_{inj}^{loc}$ preserves all weak equivalences.
+Since the open $n$-disk is [[diffeomorphism|diffeomorphic]] to $\mathbb{R}^n$, we may think of these [[stalk]]s actually as colimits over diagrams in [[CartSp]]. It follows that the functor $f_* : SPSh(Diff)_{inj}^{loc} \to SPSh(CartSp)_{inj}^{loc}$ preserves all weak equivalences.
 
 By the same logic, for $A \in SPSh(Diff)$ and $B \in SPSh(CartSp)$ we find that if a morphism
 
@@ -367,7 +367,7 @@ $$
   G Bund(X)_\sim
 $$ 
 
-as expected. In $SPSh(CartSp)^{loc}_{proj}$, however, $X$ is in general not representable, hence in general not cofibrant. But by the proposition below, that all objects which are degreewise coproducts of representables are cofibrant in all the model structures, we have that the [[Cech nerve]] $C(U)$ of any _good cover_ $U = \coprod_i U_i$ of $X$ (one for which each pathc and all intersections and higher intersections are contractible) is cofibrant. Hence here we find the above result by a different intermediate step
+as expected. In $SPSh(CartSp)^{loc}_{proj}$, however, $X$ is in general not representable, hence in general not cofibrant. But by the proposition below, that all objects which are degreewise coproducts of representables are cofibrant in all the model structures, we have that the [[?ech nerve]] $C(U)$ of any _good cover_ $U = \coprod_i U_i$ of $X$ (one for which each pathc and all intersections and higher intersections are contractible) is cofibrant. Hence here we find the above result by a different intermediate step
 
 $$
   Ho_{SPSh(Cart)^{loc}}(X, \mathbf{B}G )
@@ -399,7 +399,7 @@ Since the fibrancy condition in the global projective model structure is simple 
 
 Onm the other hand the cofibrancy condition on objects is entirly _trivial_ in the global and local injective model structure: since a cofibration there is just an objectwise cofibration, and since every [[simplicial set]] is cofibrant, every object is injective cofibrant.
 
-But the cofibrant objects in the projective structure are not too nasty either: every object that is degreewise a coproduct of representables is cofibrant. In particular the [[Cech nerve]]s of any _good cover_ (see below for more details) is a projectively cofibrant object.
+But the cofibrant objects in the projective structure are not too nasty either: every object that is degreewise a coproduct of representables is cofibrant. In particular the [[?ech nerve]]s of any _good cover_ (see below for more details) is a projectively cofibrant object.
 
 A **cofibrant replacement** functor in the local projective structure  is discussed in 
 
@@ -427,7 +427,7 @@ This is in the proof of lemma 2.7 in section 9 of
 
 =--
 
-This splitness condition is in particular satisfied by all [[Cech nerve]]s of covers by coproducts of representables.
+This splitness condition is in particular satisfied by all [[?ech nerve]]s of covers by coproducts of representables.
 
 
 
@@ -435,7 +435,7 @@ This splitness condition is in particular satisfied by all [[Cech nerve]]s of co
 ###### Definition
 **(good cover)**
 
-A [[Cech nerve]] $U$  with a weak equivalence $U \stackrel{\simeq}{\to} X$ in $SPSh(C)^{loc}$ is a **good cover** if it is degreewise a coproduct of [[representable functor|representable]]s.
+A [[?ech nerve]] $U$  with a weak equivalence $U \stackrel{\simeq}{\to} X$ in $SPSh(C)^{loc}$ is a **good cover** if it is degreewise a coproduct of [[representable functor|representable]]s.
 
 =--
 
@@ -510,7 +510,7 @@ A nicely helpful introduction and survey is provided in the notes
 
 * Dan Dugger, _Sheaves and homotopy theory_ ([web](http://www.uoregon.edu/~ddugger/cech.html), [dvi](http://math.uoregon.edu/~ddugger/cech.dvi), [pdf](http://ncatlab.org/nlab/files/cech.pdf))
 
-This in particular gives a detailed account on the relation and difference between the "Cech model structure" (section 3) which localizes (only) at Cech [[covers]], and the Jardine model structure (section 4), which localizes at all [[stalk]]wise weak equivalences ([[hypercovers]]). The latter is what in [[Higher Topos Theory|HTT]] is called the _hypercompletion_ .
+This in particular gives a detailed account on the relation and difference between the "&#268;ech model structure" (section 3) which localizes (only) at Cech [[covers]], and the Jardine model structure (section 4), which localizes at all [[stalk]]wise weak equivalences ([[hypercovers]]). The latter is what in [[Higher Topos Theory|HTT]] is called the _hypercompletion_ .
 
 The standard lecture notes are
 
