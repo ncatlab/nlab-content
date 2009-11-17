@@ -63,3 +63,4 @@ This is Lemma 2.7 in [chaper 4](http://www.maths.abdn.ac.uk/~bensondj/papers/g/g
 =--
 
 [[!redirects bisimplicial group]]
+[[!redirects bisimplicial set]]
