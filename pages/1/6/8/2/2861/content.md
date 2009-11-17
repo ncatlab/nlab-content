@@ -40,6 +40,14 @@ For low values of $n,k$ this reproduces the following cases:
 see [[Theta category]]
 
 
+## Properties ##
+
+### Homotopy hypothesis ###
+
+The definition of weak $(n,r)$-categories modeled by $\Theta$-spaces does satisfy the [[homotopy hypothesis]]: there is an evident notion og groupoid objects in $\Theta_n Sp_k$ and the full subcategory on these models [[homotopy n-type]]s.
+
+See [Rez09, 11.25](http://arxiv.org/PS_cache/arxiv/pdf/0901/0901.3602v2.pdf#page=35).
+
 ## References ##
 
 The theory of $\Theta$-spaces has been proposed in
