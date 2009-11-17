@@ -5,22 +5,32 @@
 
 ##Definition##
 
-For a given fixed [[ETCS|category of sets]] $S$, a __Grothendieck [[topos]]__ over $S$ is a [[category of sheaves]] over a [[site]] which is [[small category|small]] relative to $S$, that is a site [[internal category|internal]] to $S$. 
+Classically, we have:
 
-### Remarks ###
++-- {: .un_defn}
+A __Grothendieck topos__ is a [[category of sheaves]] ([[Set]]-valued [[presheaves]] satisfying the sheaf condition) over a [[small category|small]] [[site]].
+=--
 
-* The [[site]] is not considered part of the structure; different sites may give rise to [[equivalence of categories|equivalent]] category of sheaves.
+Since smallness can be relative, we also have:
 
-* By the general theory of [[geometric morphisms]], every Grothendieck topos sits inside a category of [[presheaf|presheaves]] by a [[geometric embedding]] $Sh(S) \hookrightarrow PSh(S)$. 
++-- {: .un_defn}
+For a given fixed [[ETCS|category of sets]] $S$, a __Grothendieck topos__ over $S$ is a [[category of sheaves]] ($S$-valued [[presheaves]] satisfying the sheaf condition) over a [[site]] which is [[small category|small]] relative to $S$, that is a site [[internal category|internal]] to $S$.
+=--
 
-  * This may be taken as an alternative definition of [[sheaf]]: since [[Lawvere-Tierney topology|Lawvere-Tierney topologies]] are bijectively given by [[geometric embeddings]],  instead of explicitly defining a sheaf as a presheaf satisfying [[descent]], one may define categories of sheaves as geometric embeddings into presheaf categories. 
+Note that a Grothendieck topos is a [[topos]] because (or if) $S$ is.
 
-  * For details on the relation between the two perspectives see [[geometric embedding]].
+The [[site]] is not considered part of the structure; different sites may give rise to [[equivalence of categories|equivalent]] category of sheaves.
 
-  * This perspective is useful for defining the [[vertical categorification]] of sheaves: [[stacks]] and [[∞-stacks]]: the higher categories of these may be defined as geometric embeddings into higher categories of presheaves. This has been worked out in detail for [[(∞,1)-categories]]. See [[(∞,1)-category of (∞,1)-sheaves]].
+By the general theory of [[geometric morphisms]], every Grothendieck topos sits inside a category of [[presheaf|presheaves]] by a [[geometric embedding]] $Sh(S) \hookrightarrow PSh(S)$. 
 
+* This may be taken as an alternative definition of [[sheaf]]: since [[Lawvere-Tierney topology|Lawvere-Tierney topologies]] are bijectively given by [[geometric embeddings]],  instead of explicitly defining a sheaf as a presheaf satisfying [[descent]], one may define categories of sheaves as geometric embeddings into presheaf categories. 
 
-  * Sometimes it is useful to distinguish between [[petit topos]] and [[gros topos]].
+* For details on the relation between the two perspectives see [[geometric embedding]].
+
+* This perspective is useful for defining the [[vertical categorification]] of sheaves: [[stacks]] and [[∞-stacks]]: the higher categories of these may be defined as geometric embeddings into higher categories of presheaves. This has been worked out in detail for [[(∞,1)-categories]]. See [[(∞,1)-category of (∞,1)-sheaves]].
+
+* Sometimes it is useful to distinguish between [[petit topos]] and [[gros topos]].
+
 
 ##Giraud\'s axioms##
 
@@ -39,6 +49,7 @@ These conditions are equivalent to
 (See [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Topos#Giraud.27s_axioms).)
 
 This characterisation may be suitable even when the base category $S$ is only a [[pretopos]], although in that case a Grothendieck 'topos' need not actually be a topos. More generally, a Grothendieck topos will inherit properites from $S$, not only having a [[subobject classifier]], but also (for example) having a [[natural numbers object]]. Thus the concept makes sense even with weak [[foundations]] of mathematics, although it may not have all of the usual properties.
+
 
 ## Generalizations ##
 
