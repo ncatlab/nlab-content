@@ -2,6 +2,7 @@
 * automatic table of contents goes here
 {:toc}
 
+
 ## Idea
 
 A **$k$-transfor** is an operation from one $n$-[[n-category|category]] $C$ to another $D$ (for some value of $n$) that takes [[object|objects]] of $C$ to $k$-[[k-morphism|morphisms]] of $D$ (and more generally $j$-morphisms in $C$ to $(j+k)$-morphisms in $D$) in a coherent way.  Equivalently, a $k$-transfor is a $k$-cell in an [[internal-hom]] $n$-category.  Transfors are a common generalisation of:
@@ -9,7 +10,7 @@ A **$k$-transfor** is an operation from one $n$-[[n-category|category]] $C$ to a
 * $n$-[[n-functor|functor]]s, which are 0-transfors
 * $n$-[[natural transformation]]s, which are 1-transfors
 * [[modifications]], which are 2-transfors,
-* [[perturbations]], which are 3-transfors,
+* [[perturbation]]s, which are 3-transfors,
 * and so on.
 
 The word "transfor" was coined by Sjoerd Crans in [this paper](http://home.tiscali.nl/secrans/papers/lotr.html); it is a portmanteu of "functor" and "transformation."  A collection of components which forms a transfor is said to be *transforial*, as a generalization of "functorial" and "natural."
@@ -30,7 +31,7 @@ Here are some other possible terms for a $k$-transfor between $n$-categories, wh
 
 ## Definitions
 
-We haven\'t gotten around to saying anything precise yet, but you can see something in the discussion below.
+We haven\'t gotten around to saying anything precise yet, but you can see something in the discussion below, or in Crans\'s paper.
 
 
 ## Special cases
