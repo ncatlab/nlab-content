@@ -256,7 +256,7 @@ Now consider the free chain complex on $\Delta^n$...
 There are various generalizations of the standard
 Dold-Kan correspondence.
 
-## dual Dold--Kan correspondence ##
+## Dual Dold--Kan correspondence ##
 
 There is a version relating [[cochain complex]]es in non-negative degree to cosimplicial abelian groups.  Indeed,
 replacing the abelian category $A$ by its [[opposite category]] $A^{op}$ in the Dold--Puppe theorem above, we instantly see:
@@ -325,7 +325,7 @@ Dominique Bourn's formulation is very pretty. The Moore complex functor is [[mon
 full analysis as yet of the actual form of this monad.
 
 
-## monoidal version ##
+## Monoidal version ##
 
 Both the category of simplicial abelian groups as well as the [[category of chain complexes]] carry a standard structure of a [[monoidal category]].
 
@@ -375,7 +375,7 @@ See page 9,10 of
 
 * K. Brown, [[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf Cohomology]]
 
-## $(\infinity,1)$-version ##
+## $(\infinity,1)$-Version ##
 
 There is a version of the Dold-Kan correspondence in the context of [[(infinity,1)-category|(infinity,1)-categories]]:
 
@@ -392,6 +392,11 @@ This is [theorem 12.8, p. 50](http://math.mit.edu/~lurie/topoibook/DAGI.pdf) of
 
 * [[Jacob Lurie]], [[Stable Infinity-Categories]] 
 
+## Dendroidal version ##
+
+There is a version of the Dold-Kan correspondence with [[simplicial set]]s generalized to [[dendroidal set]]s. This is described in
+
+* [[Javier Gutiérrez]], [[Andor Lukacs]], [[Ittay Weiss]], _Dold-Kan correspondence for dendroidal abelian groups_ ([arXiv](http://arxiv.org/abs/0909.3995))
 
 ## Related nerve constructions ## 
 
