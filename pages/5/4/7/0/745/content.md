@@ -5,11 +5,11 @@ The comma category of two functors $f : C \to E$ and $g : D \to E$ is like an [[
 
 # Definition #
 
-If $f:C\to E$ and $g:D\to E$ are [[functor]]s, their **comma category** is the category $(f/g)$ whose
+If $f:C\to E$ and $g:D\to E$ are [[functors]], their **comma category** is the category $(f/g)$ whose
 
-* [[object]]s are triples $(c,d,\alpha)$ where $c\in C$, $d\in D$, and $\alpha:f(c)\to g(d)$ is a morphism in $E$, and whose
+* [[objects]] are triples $(c,d,\alpha)$ where $c\in C$, $d\in D$, and $\alpha:f(c)\to g(d)$ is a morphism in $E$, and whose
 
-* [[morphism]]s from $(c_1,d_1,\alpha_1)$ to $(c_2,d_2,\alpha_2)$ are pairs $(\beta,\gamma)$, where $\beta:c_1\to c_2$ and $\gamma:d_1\to d_2$ are morphisms in $C$ and $D$, respectively, such that $\alpha_2 . f(\beta) = g(\gamma) . \alpha_1$.
+* [[morphisms]] from $(c_1,d_1,\alpha_1)$ to $(c_2,d_2,\alpha_2)$ are pairs $(\beta,\gamma)$, where $\beta:c_1\to c_2$ and $\gamma:d_1\to d_2$ are morphisms in $C$ and $D$, respectively, such that $\alpha_2 . f(\beta) = g(\gamma) . \alpha_1$.
 
 $$
   \array{
@@ -131,7 +131,7 @@ _Mike_: I'd rather avoid using $\to$ in the name of an object; talking about pro
 
 _Toby_: I can handle that, but after thinking about it more, I\'ve realised that the arrow doesn\'t really work.  If $f, g: A \to B$, then $f \to g$ ought to be the set of transformations between them.  (Or $f \Rightarrow g$, but you can\'t keep that decoration up.) 
 
-[[Mike Shulman|Mike]]: Let me summarize this discussion so far, and try to get some other people into it.  So far the only argument I have heard in favor of the notation $(f,g)$ is that it generalizes a notation for hom-sets.  In my experience that notation for hom-sets is rare-to-nonexistent, nor do I like it as a notation for hom-sets: for one thing it doesn't indicate the category in question, and for another it looks like an ordered pair.  The notation $(f,g)$ for a comma category also looks like an ordered pair, which it isn't.  I also don't think that a comma category is very much like a hom-set; it happens to be a hom-set when the domains of $f$ and $g$ are the point, but in general it seems to me that a more natural notion of hom-set between functors is a set of natural transformations.  It's really the _fibers_ of the comma category, considered as a fibration from $C$ to $D$, that are hom-sets.  Finally, I don't think the notation $(f,g)$  scales well to [[double comma object]]s; we could write $(f,g,h)$ but it is now even less like a hom-set.
+[[Mike Shulman|Mike]]: Let me summarize this discussion so far, and try to get some other people into it.  So far the only argument I have heard in favor of the notation $(f,g)$ is that it generalizes a notation for hom-sets.  In my experience that notation for hom-sets is rare-to-nonexistent, nor do I like it as a notation for hom-sets: for one thing it doesn't indicate the category in question, and for another it looks like an ordered pair.  The notation $(f,g)$ for a comma category also looks like an ordered pair, which it isn't.  I also don't think that a comma category is very much like a hom-set; it happens to be a hom-set when the domains of $f$ and $g$ are the point, but in general it seems to me that a more natural notion of hom-set between functors is a set of natural transformations.  It's really the _fibers_ of the comma category, considered as a fibration from $C$ to $D$, that are hom-sets.  Finally, I don't think the notation $(f,g)$  scales well to [[double comma objects]]; we could write $(f,g,h)$ but it is now even less like a hom-set.
 
 [[Urs Schreiber|Urs]]: to be frank, I used it without thinking much about it. Which of the other two is your favorite? By the way, Kashiwara-Schapira use $M[C\stackrel{f}{\to} E \stackrel{g}{\leftarrow} D]$. Maybe $comma[C\stackrel{f}{\to} E \stackrel{g}{\leftarrow} D]$? Lengthy, but at least unambiguous. Or maybe ${}_f {E^I}_g$? 
 
