@@ -1,5 +1,9 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-# Idea #
+
+## Idea ##
 
 A [[model category]] $C$ models an [[(∞,1)-category]] $\mathbf{C}$. The latter may be conceived as a [[simplicially enriched category]] with the same objects as $C$.
 
@@ -19,7 +23,7 @@ _Toby_:  Well, I also thought of 'hom-$\infty$-groupoid' and 'hom-simplicial set
 =--
 
 
-# Details #
+## Details ##
 
 Let $C$ be a [[model category]]. Recall the [[simplicial localization|hammock localization]] procedure on $C$:
 
@@ -83,7 +87,7 @@ $$
 =--
 
 
-# References #
+## References ##
 
 A useful quick review is page 14, 15 of
 
