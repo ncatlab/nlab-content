@@ -6,4 +6,4 @@
 
 * [[model structure on homotopical presheaves]]
 
-categories: people
+category: people
