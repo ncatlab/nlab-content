@@ -60,3 +60,7 @@ The definition of the categories $\Theta_n$ goes back to [[Andre Joyal]] who als
 [[!redirects Theta-Space]]
 [[!redirects ? Space]]
 [[!redirects ∞-Space]]
+[[!redirects Theta spaces]]
+[[!redirects Theta-Spaces]]
+[[!redirects ? Spaces]]
+[[!redirects ∞-Spaces]]
