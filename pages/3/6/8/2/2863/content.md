@@ -7,4 +7,4 @@
 
 * [[n-category]]
 
-categories: people
+category: people
