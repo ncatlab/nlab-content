@@ -13,7 +13,7 @@
 * [[Eilenberg-Moore category]]
 * [[generalized ring]]
 * [[Omega-group]]
-* [[universal algebra in a monoidal category]]
+* [[PRO]], [[universal algebra in a monoidal category]]
 
 #Literature#
 
