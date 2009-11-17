@@ -4,8 +4,11 @@
 [[!include higher category theory - contents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
 
-#Idea#
+## Idea ##
 
 An $(n,r)$-category is a [[higher category theory|higher category]] such that, essentially:
 
@@ -34,7 +37,7 @@ The invertibiliy of the $(n,k)$-transformations is that of their components whic
 
 =--
 
-# Definition
+## Definition ##
 
 Given a notion of $\infty$-[[infinity-category|category]] (as weak or strict as you like), then an **$(n,r)$-category** can be defined to be an $\infty$-category such that
 
@@ -52,7 +55,7 @@ To say that parallel $(-1)$-morphisms must be equivalent is meaningful; it requi
 If any two parallel $j$-morphisms are equivalent, then any $j$-morphism between equivalent $(j-1)$-morphisms is an equivalence (being parallel to an identity for $j \gt 0$ and automatically for $j \lt 1$). Accordingly, any $(n,r)$-category for $r \gt n + 1$ is also an $(n,n+1)$-category. Thus, we assume that $r \leq n + 1$. However, when $n = -2$, this contradicts the assumption that $r \geq 0$, so we allow $r = 0$ in that case just to talk about $n = -2$.
 
 
-# Homotopy-theoretic relation
+## Homotopy-theoretic relation ##
 
 From the point of view of [[homotopy theory]], the notion of $(n,r)$-categories may be understood as a combination of the notion of [[homotopy n-type]] and that of [[directed space]].
 
@@ -115,7 +118,7 @@ _Toby_:  I don\'t think that it helps our understanding of $(n,r)$-categories, a
 =--
 
 
-# Special cases
+## Special cases ##
 
 An [[(n,n)-category]] is simply an $n$-[[n-category|category]]. An $(n,n+1)$-category is an $(n+1)$-[[n-poset|poset]]. Note that an $\infty$-category and an $\infty$-poset are the same thing. An $(n,0)$-category is an $n$-[[n-groupoid|groupoid]].  Even though they have no special name, $(n,1)$-[[(n,1)-category|categories]] are widely studied.
 
@@ -125,7 +128,7 @@ Of particular importance is the case where $n = \infty$. See
 
 * [[(∞,n)-category]] .
 
-## topos cases ##
+### Topos cases ###
 
 An analogous systematics exists for $(n,r)$-categories that in additions have the property of being a [[topos]] or [[higher topos theory|higher topos]].
 
@@ -137,7 +140,8 @@ An analogous systematics exists for $(n,r)$-categories that in additions have th
 
 * an [[(∞,1)-topos]] is what [[Higher Topos Theory]] calls an $\infty$-topos
 
-# The periodic table
+
+## The periodic table ##
 
 There is a [[periodic table]] of $(n,r)$-categories:
 <table markdown="1"><tr><th>$r$&#8595;\$n$&#8594;</th><th>$-2$</th><th>$-1$</th><th>$0$</th><th>$1$</th><th>$2$</th><th>...</th></tr>
@@ -147,4 +151,13 @@ There is a [[periodic table]] of $(n,r)$-categories:
 <tr><th>$3$</th><td>\"</td><td>\"</td><td>\"</td><td>\"</td><td>[[3-poset]]</td><td>...</td></tr>
 <tr><th>&#8942;</th><td>\"</td><td>\"</td><td>\"</td><td>\"</td><td>\"</td><td>&#8945;</td></tr></table>
 
+## Models for weak (n,r)-categories ##
+
+There are various [[model category]] models for collections of $(n,r)$-categories.
+
+* The standard [[model structure on simplicial sets]] models [[∞-groupoid|(∞,0)-categories]].
+
+* The Joyal-[[model structure on simplicial sets]] models [[(∞,1)-category|(∞,1)-categories]].
+
+* The [[Charles Rezk]]-model structure for [[Theta space]]s models general $(n,r)$-categories.
 [[!redirects (n,r)-categories]]
