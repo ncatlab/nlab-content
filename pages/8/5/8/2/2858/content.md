@@ -5,4 +5,4 @@
 
 * [[model structure on simplicial presheaves]]
 
-categories: people
+category: people
