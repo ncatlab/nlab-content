@@ -1,4 +1,8 @@
-#Idea#
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+##Idea##
 
 Problems of set theory arise by unjustified recursion of the naive notion of "collection of things."  If "Col"s are one notion of collections (such as "set" or "class"), then the notion "Col of all Cols" is in general problematic, since it is subject to the construction of Russel-style paradoxes. 
 
@@ -31,7 +35,7 @@ Of course the definition below is only correct in material set theory, but there
 =--
 
 
-#Definition#
+##Definition##
 
 A **Grothendieck universe** $U$ is a [[pure set]] $U$ such that:
 1. for all $u \in U$ and $t \in u$, $t \in U$ (so $U$ is _transitive_);
@@ -41,7 +45,7 @@ A **Grothendieck universe** $U$ is a [[pure set]] $U$ such that:
 
 Some authors leave out (3), which allows $\empty$ itself to be a Grothendieck universe.  Other authors use the set $\mathbb{N}$ of [[natural numbers]] in place of $\empty$ in (3), which prevents the countable set $V_\omega$ of [[hereditarily finite sets]] from being a Grothendieck universe.
 
-#Consequences#
+##Consequences##
 
 From the definition above, one can prove additional closure properties of a universe $U$, including the usual codings in pure set theory of [[function sets]] and [[cartesian products]] and [[disjoint unions]] of sets, using these lemmata:
 
@@ -73,7 +77,7 @@ Then using their usual encodings in set theory:
 * the set of functions $u \to v$ is a subset of $P(u \times v)$.
 
 
-# Terminology: small/large #
+## Terminology: small/large ##
 
 Given a universe $U$, an element of $U$ is called a **$U$-small set**, while a subset of $U$ is called **$U$-moderate**.  Every $U$-small set is $U$-moderate by requirement (1) of the definition.  If the universe $U$ is understood, we may simply say **small** and **moderate**.
 
@@ -84,7 +88,7 @@ The term _$U$-large_ is ambiguous; it sometimes means 'not small' but sometimes 
 As defined above, these concepts are [[evil]], since two sets may be [[isomorphism|isomorphic]] yet have different properties with respect to $U$.  However, a set which is isomorphic to a $U$-small or $U$-moderate set is called **essentially** $U$-small or $U$-moderate; these concepts are non-evil.
 
 
-# Axiom of universes #
+## Axiom of universes ##
 
 If $U$ is a Grothendieck universe, then it is easy to show that $U$ is itself a model of [[ZFC]] (minus the axiom of infinity unless you modify (3) to rule out countable universes).  Therefore, one cannot prove in ZFC the existence of a Grothendieck universe containing $\mathbb{N}$, and so we need extra set-theoretic axioms to ensure that uncountable universes exist.  Grothendieck's original proposal was to add the following **axiom of universes** to the usual axioms of set theory:
 
@@ -95,19 +99,19 @@ This way whenever any operation leads one outside of a given Grothendieck univer
 Later, Mac Lane pointed out that often, it suffices to assume the existence of *one* uncountable universe.  In particular, any discussion of 'small' and 'large' that can be stated in terms of sets and proper classes can also be stated in terms of a single universe $U$ (with 'large' meaning $U$-moderate but not $U$-small).
 
 
-# Large cardinals #
+## Large cardinals ##
 
 If $U$ is a Grothendieck universe, then one can prove in ZFC that it must be of the form $V_\kappa$ where $\kappa$ is a (strongly) [[inaccessible cardinal]].  Here $V_\kappa$ is the $\kappa$-th set in the [[von Neumann hierarchy]] of pure sets.  Conversely, every such $V_\kappa$ is a Grothendieck universe.  Thus, the existence of Grothendieck universes is equivalent to the existence of inaccessible cardinals, and so the axiom of universes is equivalent to the "large cardinal axiom" that "there exist arbitrarily large inaccessible cardinals."
 
 It is worth noting, for those with foundational worries, that the axiom of universes is much, much weaker than many large cardinal axioms which are routinely used, and believed to be consistent, by modern set theorists.  Of course, one cannot _prove_ the consistency of any large cardinal axiom (if it really is consistent) except by invoking a stronger one.
 
 
-#Structural version#
+##Structural version##
 
 An equivalent concept (at least for the purposes of category theory) can also be defined in structural set theories (like [[ETCS]]).  See [[universe in a topos]].
 
 
-# Examples #
+## Examples ##
 
 The set $V_\omega$ of [[hereditarily finite sets]] (finite sets of finite sets of ...) is a Grothendieck universe, unless you phrase axiom (3) in the definition to specifically rule it out.  In this way, the axiom of infinity can be seen as a simple universe axiom (stating that at least one universe exists), and Mac Lane\'s axiom that an uncountable universe exists is merely one step further.
 
@@ -118,7 +122,7 @@ Similarly, if you use the axiom of universes at most $n$ times, then the set of 
 The set of all sets that can be constructed using the axioms of ZFC together with the axiom of universes is, if it exists, again a universe which contains all the $U_\alpha$ constructed above.  Of course, it cannot be shown to exist using only ZFC and the axiom of universes; the axiom of universes is not the final word on large cardinal axioms by any means.
 
 
-#Applications#
+##Applications##
 
 Let $U Set$ be the [[category]] of $U$-small sets, a [[full subcategory]] of [[Set]].  It is common, especially when $U$ is understood, to redefine $Set$ to mean $U Set$; here we keep the distinction for clarity.  But when $Set$ means $U Set$, sometimes $SET$ is used to mean the category of _all_ sets.
 
@@ -128,7 +132,7 @@ A category whose set of morphisms is $U$-moderate may be called a $U$-[[large ca
 
 
 
-##Presheaf categories##
+###Presheaf categories###
 
 Let $C$ be a $U$-small category.  Then the category of $U$-[[presheaf|presheaves]] on $C$ (the [[functor category]] $[C^{op}, U Set]$) is also $U$-moderate and locally $U$-small but not $U$-small unless $C$ is empty.  ($U Set$ itself is the special case of this where $C$ is the [[point]].)
 
@@ -136,13 +140,13 @@ Now let $C$ be a $U$-moderate category (and not small).  Then the category of $U
 
 These arguments go as follows:
 
-### $U PSh(C)$ is $U$-moderate ###
+#### $U PSh(C)$ is $U$-moderate ####
 
 
 An upper bound for the size of $[C^{op}, U Set]$, hence of the set $Obj([C^{op},U Set])$ is the size of $\{ F : Obj(C)\times Mor(C) \to U \}$ where both $Obj(C)$ and $Mor(C)$ are in $U Set$. 
 So we are looking at the cardinal number $|U|^{|u| \times |v|}$ where $u = Obj(C)$ and $v = Mor(C)$.  Use the fact that any Grothendieck universe must be infinite (since it has $\emptyset$, $P(\emptyset)$, etc) and the result follows from cardinal arithmetic that $\kappa^\lambda = \kappa$ when $\lambda \lt \kappa$ and $\kappa$ is infinite.
 
-### $U PSh(C)$ is locally $U$-small ###
+#### $U PSh(C)$ is locally $U$-small ####
 
 An upper bound for the size of the set of morphisms between two functors $F,G : C^{op} \to U Set$ is the disjoint union indexed by the objects $c$ of $C$ over the $U$-sets $G(c)^{F(c)}$. Now $G(c)^{F(c)} \in U$ since it is a function set and $\cup_{c \in Obj(C)} G(c)^{F(c)}$ by the assumption that unions stay in $U$. 
 
@@ -197,7 +201,7 @@ The reason I don't think this page is the place to talk about "small presheaves"
 --Zoran--: OK, but let us then move BOTH our discussion (with possible usage of some of the links above) as well as the treatment of U-presheaves in above sense (discussed by Urs and you before) into a new entry small presheaves. But you'd be better (far more competent) person to do it with improvements than me (no hurry of course). 
 =--
 
-# Alternative approaches #
+## Alternative approaches ##
 
 * A different, potentially much more elegant and natural proposal for solving the problem to be solved by Grothendieck universes is that described at [[michaelshulman:category of all sets|category of all sets]].  Don't get your hopes up too high, though; even if it works, it isn't quite the category theory you're used to.
 
