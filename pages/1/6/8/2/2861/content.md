@@ -13,7 +13,7 @@
 
 ## Idea ##
 
-[[Charles Rezk]] has proposd a notion of weak [[(n,r)-category|(n+k,n)-category]], which he calls **$(n+k,n)$-Theta-spaces** . The $(n+k,n)$-Theta-spaces are precisely the fibrant objects of a certain [[model category]] structure on the category of [[simplicial presheaf|presheaves of simplicial sets]] on [[Andre Joyal]]'s category $\Theta_n$. This notion is a generalization of that of [[complete Segal space]]s (which are precisely the $(infty,1)$-$\Theta$-spaces). 
+[[Charles Rezk]] has proposd a notion of weak [[(n,r)-category|(n+k,n)-category]], which he calls **$(n+k,n)$-Theta-spaces** . The $(n+k,n)$-$\Theta$-spaces are precisely the fibrant objects of a certain [[model category]] structure on the category of [[simplicial presheaf|presheaves of simplicial sets]] on [[Andre Joyal|Joyal]]'s [[disk category]] $\Theta_n$. This notion is a generalization of that of [[complete Segal space]]s (which are precisely the $(infty,1)$-$\Theta$-spaces). 
 
 ## Overview ##
 
@@ -35,10 +35,7 @@ For low values of $n,k$ this reproduces the following cases:
 
 ## Definition ##
 
-### The categories $\Theta_n$ ###
-
-see [[Theta category]]
-
+...
 
 ## Properties ##
 
