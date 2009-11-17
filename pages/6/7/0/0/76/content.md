@@ -96,30 +96,35 @@ long list goes here, but for the moment there is just:
 
 * K. H. Kamps and T. Porter, _Abstract Homotopy and Simple Homotopy Theory_ ([GoogleBooks](http://books.google.de/books?id=7JYKxInRMdAC&dq=Porter+Kamps&printsec=frontcover&source=bl&ots=uuyl_tIjs4&sig=Lt8I92xQBZ4DNKVXD0x76WkcxCE&hl=de&sa=X&oi=book_result&resnum=3&ct=result#PPP1,M1))
 
-#entries related to homotopy theory#
+#some entries related to homotopy theory#
 
 * [[algebraic homotopy]]
 * [[category of fibrant objects]]
 * [[category with weak equivalences]]
 * [[closed monoidal deformation retract]]
 * [[closed monoidal homotopical category]]
-* [[cylinder functor]]
+* [[cylinder functor]], [[cocylinder]]
 * [[derived functor]]
-* [[deformation retract]]
+* [[deformation retract]], [[neighborhood retract]]
+* [[Dold fibration]]
 * [[equivalence]]
 * [[folk model structure]]
+* [[fundamental groupoid]]
 * [[homological resolution]]
 * [[homotopical category]]
 * [[homotopical cohomology theory]]
-* [[homotopy]]
+* [[homotopy]], [[homotopy group]]
 * [[homotopy category]]
+* [[homotopy limit]], [[homotopy colimit]]
 * [[homotopy coherent category theory]]
+* [[Hurewicz fibration]], [[Hurewicz connection]], [[Hurewicz cofibration]]
 * [[interval object]]
 * [[model category]]
 * [[model structure on crossed complexes]]
-* [[model structure on simplicial sets]]
-* [[path object]]
+* [[model structure on simplicial sets]], [[model structure on dendroidal sets]]
+* [[path object]], [[path groupoid]], [[path n-groupoid]]
 * [[rational homotopy theory]]
+* [[topology]]
 * [[weak equivalence]]
 
 +--{.query}
