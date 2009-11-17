@@ -112,6 +112,37 @@ This is theorem 2.11 in [Bar07](http://arxiv.org/abs/0708.2067))
 
 =--
 
+This statement is generalized to the context of [[enriched model category]] theory by the following result:
+
++-- {: .un_theorem }
+###### Theorem
+**(Clark Barwick)**
+
+
+Let 
+
+* $V$ be a [[tractable model category|tractable]] [[symmetric monoidal category|symmetric]] [[monoidal model category]];
+
+* $C$ a [[tractable model category|tractable]] [[proper model category|left proper]] $V$-[[enriched model category]]
+
+* $S \subset Mor(C)$ a small set
+
+(all with respect to a fixed [[Grothendieck universe]]).
+
+Then the left enriched Bousfield localization $L_{S/V} C$ does exist and is [[proper model category|left proper]] and [[tractable model category|tractable]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is theorem 4.46 in [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf))
+
+=--
+
+## Applications ##
+
+* Left Bousfield localization produces the _local_ [[model structure on homotopical presheaves]]. For instance the [[local model structure on simplicial presheaves]].
 
 
 ## Bousfield localization in triangulated categories ##
