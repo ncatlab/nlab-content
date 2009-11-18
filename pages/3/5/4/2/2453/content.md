@@ -42,4 +42,4 @@ The left Ore localization $j : R\to S^{-1}R$ induced a flat localization functor
 
 * K. R. Goodearl, Robert B. Warfield, _An introduction to noncommutative Noetherian rings_, London Math. Soc. Student Texts __16__ (1st ed,), 1989, xviii+303 pp.; or __61__ (2nd ed.), 2004, xxiv+344 pp.
 
-* Z. &#352;koda, _Noncommutative localization in noncommutative geometry_,  London Math. Society Lecture Note Series 330 ([pdf](http://www.maths.ed.ac.uk/~aar/books/nlat.pdf)), ed.  A. Ranicki; pp. 220--313, <a href="http:arxiv.org/abs/math.QA/0403276">math.QA/0403276</a>.
+* Z. &#352;koda, _Noncommutative localization in noncommutative geometry_,  London Math. Society Lecture Note Series 330 ([pdf](http://www.maths.ed.ac.uk/~aar/books/nlat.pdf)), ed.  A. Ranicki; pp. 220--313, [math.QA/0403276](http://arxiv.org/abs/math.QA/0403276).
