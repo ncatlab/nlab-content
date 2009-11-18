@@ -8,7 +8,11 @@
 * automatic table of contents goes here
 {:toc}
 
-#Definition#
+## Idea ##
+
+A _combinatorial model catgeory_ is a particularly convenient [[model category]] structure.
+
+## Definition ##
 
 +-- {: .un_defn}
 ###### Definition
@@ -63,14 +67,27 @@ Then $C$ is a combinatorial model category with
 This theorem is used to establish various familiar model structures. For instance the [[folk model structure]] on [[strict omega-category|strict omega-categories]].
 
 
-# Remarks #
+## Simplicial combinatorial model categories ##
 
 Of interest are the combinatorial model categories that are at the same time [[simplicial model categories]]. These are precisely those that present [[presentable (∞,1)-categories]].
 
 See [[combinatorial simplicial model category]].
 
 
-#References#
+## Combinatorial model categories from cofibrantly generated ones ##
+
+
+Not every [[cofibrantly generated model category]] is also a combinatorial model category. 
+
+For instance the standard [[model structure on topological spaces]] is cofibrantly generated, but not combinatorial. But it is [[Quillen equivalence|Quillen equivalent]] to a combinatorial model structure, namely to the standard [[model structure on simplicial sets]].
+
+One might therefore ask which cofibrantly generated model categories are Quillen equivalent to combinatorial ones. See 
+
+* J. Rosicky, _Are all cofibrantly generated model categories combinatorial?_ ([ps](http://www.math.muni.cz/~rosicky/papers/cof1.ps))
+
+
+
+## References ##
 
 Definition A.2.6.1 in 
 
