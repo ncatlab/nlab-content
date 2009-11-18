@@ -1,3 +1,3 @@
 In [[Set]], the [[initial algebra]] for the functor $F: X \to 1 + X$ is $\langle 0, s \rangle : 1 + \mathbb{N} \to \mathbb{N}$, where $\mathbb{N}$ is the set of [[natural numbers]], $0$ is the smallest natural number, and $s$ is the [[successor]] operation. The principle of induction states that there is no proper [[subobject|subalgebra]] of $\mathbb{N}$; that is, the only subalgebra is $\mathbb{N}$ itself. This follows from the general property of initial objects that [[monomorphisms]] to them are [[isomorphisms]].
 
-More generally, the corresponding property of any initial algebra may be called __induction__.
+More generally, the corresponding property of any initial algebra may be called __induction__. We then have induction over lists, trees, terms, and so on.
