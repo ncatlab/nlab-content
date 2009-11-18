@@ -2,13 +2,13 @@
 * automatic table of contents
 {:toc}
 
-# Idea #
+## Idea ##
 
 The plain [[Dold-Kan correspondence]] establishes an equivalence between (co)simplicial groups and (co)chain complexes.
 
 Both these categories carry natural [[monoidal category]] structures. It turns out that the Dold-Kan correspondence does respect this monoidal structure, either strictly or in their suitable [[higher category theory|higher categorical]] sense.
 
-# General discussion #
+## General discussion ##
 
 Notice that 
 
@@ -28,7 +28,19 @@ A crucial fact about the [[Dold-Kan correspondence]] is that
 
 * The Dold-Kan correspondence respects these monoidal structures.
 
-But it doesn't in general do so _strictly_, except in one direction.
+But it doesn't in general do so _strictly_, except possibly in one direction. Rather, it does so in th context of [[higher category theory]].
+
+
+There are two different versions of the monoidal Dold-Kan corespondence, which are almost but apparently not entirely formal duals of each other (at least not in the detailed onstructions):
+
+* the **simplicial version** that relates [[monoid]]s in abelian [[simplicial group]]s (simplicial rings)  to monoids in [[chain complex]]es (chain [[dg-algebra]]s),
+
+* the **cosimplicial version** that relates monoids in cosimplicial groups ([[cosimplicial algebra|cosimplicial ring]]) to monoidal in co-chain complexes (cochain [[dg-algebra]]s).
+
+
+
+### Simplicial rings and chain dg-algebras ###
+
 
 The Dold-Kan correspondence (using the normalized chain complex functor) is in one direction [[monoidal category|monoidal]] in the naive (strict, 1-categorical) way, whereas in the other direction it is monoidal only in the expect homotopical sense.
 
@@ -94,17 +106,9 @@ For more on this see also section 2.3 of [SchwedeSchipley](http://arxiv.org/abs/
 While the nerve functor $\Xi : Ch_+ \to sAb$ fails to be monoidal in such a direct way, it turns out to be monoidal in a suitable [[higher category theory|higher categorical]], i.e. [[homotopy theory|homotopical]] way.
 This is the content of the following statements.
 
-
 In **characteristic zero** there is also a Dold--Kan correspondence between simplicial algebras and $\mathbb{N}$-graded chain [[dg-algebra]]s 
 
 * Stefan Schwede, Brooke Shipley, Equivalences of monoidal model categories, Algebr. Geom. Topol. 3 (2003), 287--334 ([arXiv](http://arxiv.org/abs/math.AT/0209342))
-
-as well as between [[cosimplicial algebra]]s and $\mathbb{N}$-graded cochain [[dg-algebra]]s 
-
-* J.L. Castiglioni, G. Corti&#241;as, 
-Cosimplicial versus DG-rings: a version of the Dold-Kan correspondence, J. Pure Appl. Algebra  191  (2004),  no. 1-2, 119--142, [arXiv:math.KT/0306289](http://arxiv.org/abs/math/0306289).
-
-This establishes not quite a [[Quillen equivalence]], but shows that the [[Dold-Kan correspondence]] induces an [[equivalence]] of [[homotopy category|homotopy categories]] for the [[model structure on cosimplicial rings]] and the [[model structure on dg-algebras|model structure on dg-rings]].
 
 
 Further work along such lines is
@@ -120,7 +124,24 @@ This implies that generalized [[Eilenberg-MacLane spectrum|Eilenberg-MacLane spe
 This article shows that the inverse $\Xi$ from chain complexes to simplicial abelian groups sends algebras over arbitrary differential graded [[E-k operad|E-infinity-operad]] to [[E-k-operad|E-infinity-algebra]] in simplicial modules, and is part of a [[Quillen adjunction]] for these.
 
 
-# Lax monoidalness of the Moore cochain complex functor #
+### Cosimplicial rings and cochain dg-algebras ###
+
+The monoidal Dold-Kan correspondence relating cosimplicial algebras to cochain dg-algebras is considered less prominently explicitly in the literature, but does appear implicitly in much classical work. For instance the classical statement that the [[cochains on simplicial sets]] form a [[dg-algebra]] that is commutative up to coherent higher homotopy, i.e. that is an [[E-k-operad|E-infinity algebra]], is really the statement that the Moore cochain complex functor on cosimplicial algebras of functions on [[simplicial set]]s is an $\infty$-monoidal functor in a suitable sense.
+
+One article that does make a cosimplicial/cochain monoidal Dold-Kan correspondence explicit is
+
+
+* J.L. Castiglioni, G. Corti&#241;as, 
+Cosimplicial versus DG-rings: a version of the Dold-Kan correspondence, J. Pure Appl. Algebra  191  (2004),  no. 1-2, 119--142, [arXiv:math.KT/0306289](http://arxiv.org/abs/math/0306289).
+
+This establishes not quite a [[Quillen equivalence]], but shows that the [[Dold-Kan correspondence]] induces an [[equivalence]] of [[homotopy category|homotopy categories]] for the [[model structure on cosimplicial rings]] and the [[model structure on dg-algebras|model structure on dg-rings]].
+
+However, this article explicitly constructs the (derived) [[adjoint functor]] to the Moore cochain complex functor. 
+
+Explicit discussion of the Moore co-chain complex functor as inducing an $\infty$-monoidal functor seems not to be in the literature explicitly at time of this writing (?), even though various of its aspects are implicit, partly classical, statements. The following tries to make some aspects explicit.
+
+
+#### Lax monoidalness of the Moore co-chain complex functor ####
 
 
 
@@ -489,7 +510,7 @@ structure with respect to the standard monoidal structure on cosimplicial abelia
 =--
 
 
-### $E_\infty$-cup product on cochains on simplicial sets ###
+#### $E_\infty$-cup product on cochains on simplicial sets ####
 
 At least for those [[cosimplicial algebra]]s $A$ that are algebras of [[cochains on simplicial sets]] $S^\bullet \in SSet$, i.e. $A = C(S^\bullet, R)$ it is known that the Moore complex [[dg-algebra]] $N^\bullet(A)$ equipped with the [[cup product]] is an [[E-k-operad|E-∞]]-[[algebra over an operad|algebra]]. See [[cochains on simplicial sets]] for details on this.
 
