@@ -18,8 +18,20 @@ A [[model category]] $C$ is **combinatorial** if
 
 * it is a [[presentable category]]
 
-* it has a set of [[cofibrantly generated model category|generating cofibrations]] and of trivial generating cofibrations.
+* it has a [[set]] (not a proper [class]]) $I$ of generating cofibrations and and a set of trivial generating cofibrations, meaning that
+
+  $$ 
+    cof = llp(rlp(I))
+  $$
+  
+  $$
+    fib = llp(rlp(J))
+    \,.
+  $$
+
 =--
+
+Here $fib, cof \subset Mor(C)$ is the collection of fibrations and cofibration, respectively, and $llp(S), rlp(S)$ is the collection of morphisms satisfying the left or right, respectively, [[lifting property]] with respect to a collection of morphisms $S$. See also [[cofibrantly generated model category]].
 
 The central theorem about combinatorial model categories is **Jeff Smith's theorem** which establishes the existence of model category structures from a comparatively small amount of input data.
 
