@@ -7,6 +7,20 @@
 
 In intrinsic terms, a [[topos]] is _localic_ if it is generated under [[colimit]]s by the [[subobject]]s of its [[terminal object]]. In equivalent but extrinsic terms, a [[Grothendieck topos]] is localic if it is equivalent to the [[category of sheaves]] on a [[locale]] with respect to the [[coverage|topology]] of jointly epimorphic families. The locale may indeed be taken as the [[poset]] of [[subobject]]s of 1. 
 
+## Properties ##
+
+Let $Topos$ be the non-full sub-[[2-category]] of [[Cat]] whose 
+
+* objects are localic toposes;
+
+* morphisms are [[functor]]s that are [[geometric morphism]]s, i.e. functors that preserve finite [[limit]]s and have a [[right adjoint]];
+
+* 2-morphisms are [[natural transformation]]s between these functors.
+
+Then this 2-category is equivalent to the category of [[locale]]s.
+
+> Is that right this way?
+
 ##Examples##
 
 Every [[Grothendieck topos]] that is a [[category of sheaves]] on (the [[category of open subsets]] of) a [[topological space]] is localic. 
