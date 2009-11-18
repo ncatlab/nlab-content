@@ -47,6 +47,8 @@ Let $C$ be
 
 * or, more generally, such that it has all [[colimit]]s and each domain of morphisms in $I$ is a [[small object]].
 
+* or, yet more generally, such that it has all colimits and each domain of morphisms in $I$ is small relative to transfinite composites of pushouts of maps in $I$.
+
 Then 
 
 every morphism $f$ has a [[weak factorization system|factorization]] of the form
