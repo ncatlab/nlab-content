@@ -20,6 +20,8 @@ A quasicompact __relative noncommutative scheme__ over a category $C$ is a categ
 
 The word 'localization' here is in the sense of Gabriel--Zisman. Notice that if the ground category $C$ has a distinguished object (say the generator in the category of vector spaces over a field) then its direct image functor is a distinguished object in $A$. In general this is not required. The exactness properties required above guarentee that the quasicoherent sheaves can be glued from the restrictions on the covers, and moreover that the derived functors of the direct image like functors can be computed using standard resolutions. If the cover is semiseparated (a notion from Thomason--Trobaugh), that is the localization functors for the cover mutually commute, then the standard resolutions can be replaced by alternating &#268;ech resolutions. 
 
+See also [[zoranskoda:gluing categories from localizations]]. 
+
 
 ##Examples##
 
@@ -33,7 +35,7 @@ Noncommutative projective spaces, noncommutative grassmanians, universal noncomm
 
 ##Literature##
 
-* [[Tomasz Maszczyk]], _Noncommutative geometry through monoidal categories I_, [arXiv:0707.1542] (http://front.math.ucdavis.edu/0707.1542)
+* [[Tomasz Maszczyk]], _Noncommutative geometry through monoidal categories I_, [math.QA/0611806] (http://arxiv.org/abs/math.QA/0611806)
 
 * A. Rosenberg, _Noncommutative schemes_, Compos. Math. __112__ (1998) 93--125.
 
