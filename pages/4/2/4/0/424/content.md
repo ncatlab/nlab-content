@@ -9,3 +9,6 @@ satisfying a bunch of extra conditions.
 #References#
 
 This is [definition 16.1, p. 46] in Shulman: [Homotopy limits and colimits and enriched homotopy theory](http://arxiv.org/abs/math.AT/0610194v1)
+
+
+[[!redirects deformation retract for the enrichement]]
