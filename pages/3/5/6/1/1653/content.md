@@ -21,7 +21,7 @@ We assume the law of [[excluded middle]] throughout; see below for the construct
 
 ### Short version ###
 
-Given a [[set]] $X$, a __$\sigma$-algebra__ is a collection of subsets of $X$ that is closed under [[complement|complementation]], [[countable set|countable]] [[unions]], and countable [[intersections]].  A __measurable space__, by the usual modern defintion, is a set $X$ equipped with a $\sigma$-algebra $\Sigma$.  The elements of $\Sigma$ are called the __measurable subsets__ of $X$ (or more properly, the measurable sets of $(X,\Sigma)$).
+Given a [[set]] $X$, a __$\sigma$-algebra__ is a collection of subsets of $X$ that is closed under [[complement|complementation]], [[countable set|countable]] [[unions]], and countable [[intersections]].  A __measurable space__, by the usual modern definition, is a set $X$ equipped with a $\sigma$-algebra $\Sigma$.  The elements of $\Sigma$ are called the __measurable subsets__ of $X$ (or more properly, the measurable sets of $(X,\Sigma)$).
 
 Notice that the [[power set]] $P X$ of $X$ is a [[Boolean algebra]] under the operations of [[finite set|finitary]] union, intersection, and complementation.  Actually, it is a [[complete lattice|complete]] Boolean algebra, since we can also take arbitrary unions and intersections.  A $\sigma$-algebra is an intermediate notion, since (in addition to being closed under complementation) we only require that it be closed under *countable* unions and intersections.
 
@@ -252,6 +252,9 @@ While measure theory only gets more complicated in constructive mathematics, it 
 
 ... more coming ...
 
+##The category of localizable measurable spaces##
+
+The **Gel'fand-Neumark theorem** states that the category of localizable measurable spaces is contravariantly [[equivalence|equivalent]] to the category of commutative [[von Neumann algebra|von Neumann algebras]].
 
 ## References
 
