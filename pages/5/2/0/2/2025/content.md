@@ -2,7 +2,7 @@
 
 A compactum, or compact Hausdorff space, is a space in which every limit that should exist does exist and does so uniquely.
 
-One can define this literally for [[topological spaces]], or in terms of [[convergence spaces|convergence]], or for [[locales]]; although these are all different contexts, the resulting notion of compactum is (at least assuming the [[axiom of choice]]) always the same.  Interestingly, there is even an algebraic definition, not one that uses only finitary operations, but one which uses a [[monad]].
+One can define this literally for [[topological spaces]], or in terms of [[convergence spaces|convergence]], or for [[locales]]; although these are all different contexts, the resulting notion of compactum is (at least assuming the [[axiom of choice]]) always the same.  Interestingly, there is even an algebraic definition, not one that uses only finitary operations, but one which uses a [[monad]]. 
 
 
 ## Definitions
@@ -22,6 +22,7 @@ It is then a theorem that this $\lim$ generates a [[convergence space|convergenc
 Every compact Hausdorff space is [[regular space|regular]] and [[sober space|sober]] and so defines a compact regular locale.  Again, the [[axiom of choice]] gives us a converse: every compact regular locale is spatial and so comes from a compactum.
 >Probably this is also equivalent to the ultrafilter principle, but I need to check.
 
+Every compact Hausdorff topological space is not only regular but also [[normal space]].
 
 ## In weak foundations
 
