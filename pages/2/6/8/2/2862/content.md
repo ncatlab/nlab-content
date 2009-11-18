@@ -4,8 +4,8 @@ In modern [[algebra]], dealing with co-operations $A\to A^{\otimes n}$ instead o
 
 We may call this area the theory of __gebras__ as in the article
 
-* MR1225256 (94h:16074) Jean-Pierre Serre
-G&#232;bres. (French) [Gebras] Enseign. Math. (2) __39__ (1993), no. 1-2, 33--85.
+* MR1225256 (94h:16074) Jean-Pierre Serre,
+_G&#232;bres_ (in French; Engl. Gebras) Enseign. Math. (2) __39__ (1993), no. 1-2, 33--85.
 
 The entries about or closely related to gebras and cooperations in nlab so far include [[bialgebra]], [[Hopf algebra]], [[comonoid]], [[bimonoid]], [[coalgebra]], [[comonad]], [[coring]], [[cocategory]], [[coaction]], [[coinvariant]], [[comodule algebra]], [[module algebra]], [[Hopf module]], [[crossed product algebra]], [[Hopf-Galois extension]], [[measuring]], [[cleft extension]], [[quantum group]], [[matrix Hopf algebra]], [[Hopf envelope]], [[distributive law]], [[convolution algebra]], [[Heisenberg double]]...
 
