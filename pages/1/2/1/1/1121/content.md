@@ -1,4 +1,4 @@
-A **wide subcategory** of a category $C$ is a subcategory containing all the objects of $C$. Equivalently, it is a subcategory through which the canonical functor $disc(Obj(C)) \to C$ from the [[discrete category]] on the collection of objects factors, or whose inclusion functor is [[bo functor|bijective on objects]].
+A **wide subcategory** of a category $C$ is a subcategory containing all the objects of $C$. Equivalently, it is a subcategory through which the canonical functor $disc(Obj(C)) \to C$ (from the [[discrete category]] on the collection of [[objects]]) factors, or whose inclusion functor is [[bo functor|bijective on objects]].
 
 A wide subcategory is also called a **lluf subcategory** ("lluf" being "[[full subcategory|full]]" spelled backwards).
 
