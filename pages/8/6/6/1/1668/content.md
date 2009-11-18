@@ -15,5 +15,12 @@ The notion of commutative algebraic theory was formulated in terms of [[monad]]s
 ### References ###
 
 +-- {: .query}
-Can we have some please!  This is something I want to use soon so it'd be nice to know where the details were originally worked out. ---Andrew
+Can we have some please!  This is something I want to use soon so it'd be nice to know where the details were originally worked out. ---Andrew 
+
 =--
+
+* Anders Kock, Monads on symmetric monoidal closed categories, Arch. Math. 21 (1970), 1-10. 
+
+* Anders Kock, Strong functors and monoidal monads, Arhus Universitet, Various Publications Series No. 11 (1970). 
+
+See also [here](http://home.imf.au.dk/kock/SFMM.pdf). 
