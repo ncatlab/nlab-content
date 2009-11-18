@@ -20,17 +20,6 @@ is called an **algebra** or **model** of $T$ in $C$.  The category of algebras o
 * [[symmetric monoidal natural transformation|symmetric monoidal natural transformations]] as morphisms.
 
 
----
-[arXiv:1207.2773] On the category of props
-fra arXiv Front: math.AT av Philip Hackney, Marcy Robertson
-The category of (colored) props is an enhancement of the category of colored
-operads, and thus of the category of small categories. The titular category has
-nice formal properties: it is bicomplete and is a symmetric monoidal category,
-with monoidal product closely related to the Boardman-Vogt tensor product of
-operads. Tools developed in this article, which is the first part of a larger
-work, include a generalized version of multilinearity of functors, a free prop
-construction defined on certain "generalized graphs", and the relationship
-between the category of props and the categories of permutative categories and
-of operads.
+## References
 
-nLab page on [[nlab:PROP]]
+*  [[Steve Lack]], _[Composing PROPs](http://www.tac.mta.ca/tac/volumes/13/9/13-09abs.html)_, [[TAC]] 13 (2004), No. 9, 147--163.
