@@ -69,7 +69,7 @@ Prime ideals are even more interesting. A two-sided antiideal $A$ (so also satis
 
 # References
 
-The notion of apartness as fundamental in metric spaces may be found in [[Errett Bishop]]'s _Foundations of Constructive Analysis_ (1967) (or the 1985 edition with Douglas Bridges, _Constructive Analysis_). But as I recall, this doesn\'t introduce the concept in general; that came in Anne Troelstra\'s and Dirk van Dalen\'s _Constructivism in Mathematics_ (1988). For apartness in algebra, see _A Course in Constructive Algebra_ (also 1988), by Ray Mines, Fred Richman, and Wim Ruitenburg. The great reference for all things topology in constructive mathematics is the Ph.D. thesis of Frank Waaldijk, _[Modern Intuitionist Topology](http://home.hetnet.nl/~sufra/modern%20intuitionistic%20topology.pdf)_ (1996). Please note that I ([[Toby Bartels]]) have not read the algebra book.
+The notion of apartness as fundamental in metric spaces may be found in [[Errett Bishop]]'s _Foundations of Constructive Analysis_ (1967) (or the 1985 edition with Douglas Bridges, _Constructive Analysis_). But as I recall, this doesn\'t introduce the concept in general; that came in Anne Troelstra\'s and Dirk van Dalen\'s _Constructivism in Mathematics_ (1988). For apartness in algebra, see _A Course in Constructive Algebra_ (also 1988), by Ray Mines, Fred Richman, and Wim Ruitenburg. The great reference for all things topology in constructive mathematics is the Ph.D. thesis of Frank Waaldijk, _[Modern Intuitionist Topology](http://home.kpn.nl/sufra/modern%20intuitionistic%20topology.pdf)_ (1996). Please note that I ([[Toby Bartels]]) have not read the algebra book.
 
 
 # Discussion
