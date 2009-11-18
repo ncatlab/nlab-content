@@ -8,11 +8,14 @@ by dualization the same is true for comonads. Monads internal to the 2-category 
 A __distributive law__ from a monad  $\mathbf{T} = (T, \mu^T, \eta^T)$ in $A$ to an endofunctor
 $P$ is a 2-cell $l : T P \Rightarrow P T$ such that
 $l \circ (\eta^T)_P = P(\eta^T)$ and
-$l \circ (\mu^T)_P = P(\mu^T) \circ l_T \circ T(l)$.
-Such distributive laws are in bijection with lifts of $P$ 
-to a unique endofunctor $P^{\mathbf T}$ in the [[Eilenberg-Moore category]] $A^{\mathbf T}$,
-in the sense that $U^{\mathbf T} P^{\mathbf T} = P U^{\mathbf T}$.
-Indeed, the endofunctor $P^{\mathbf T}$
+$l \circ (\mu^T)_P = P(\mu^T) \circ l_T \circ T(l)$. The latter identitity is the commutativity of the pentagon
+$$\array{
+TTP&\stackrel{T l}\to&TPT\stackrel{l T}\to&PTT\\
+\downarrow \mu^T P&&&\downarrow P\mu^T\\
+TP &\stackrel{l}\to && PT
+}$$
+Distributive laws from the monad $\mathbb{T}$ to the endofunctor $P$ are in a canonical bijection with lifts of $P$ to a unique endofunctor $P^{\mathbf T}$ in the [[Eilenberg-Moore category]] $A^{\mathbf T}$,
+in the sense that $U^{\mathbf T} P^{\mathbf T} = P U^{\mathbf T}$. Indeed, the endofunctor $P^{\mathbf T}$
 is given by $(M,\nu) \mapsto (P M,P(\nu)\circ l_M)$.
 
 A __distributive law__ from a monad  $\mathbf{T} = (T, \mu^T, \eta^T)$ to a monad
