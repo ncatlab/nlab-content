@@ -140,8 +140,100 @@ However, this article explicitly constructs the (derived) [[adjoint functor]] to
 
 Explicit discussion of the Moore co-chain complex functor as inducing an $\infty$-monoidal functor seems not to be in the literature explicitly at time of this writing (?), even though various of its aspects are implicit, partly classical, statements. The following tries to make some aspects explicit.
 
+#### Alexander-Whitney and shuffle morphisms ####
+
+A central ingredient in the monoidal Dold-Kan correspondence are the Alexander-Whiney and the shuffle morphisms.
+
+See chapter VI, paragraph 12 of
+
+* A. Dold, _Lectures on algebraic topology_, Grundlehren Math. Wiss. vol 200, Springer-Verlag, New-York-Berlin, 1972
+
+or chapter VIII, paragraph 8 of
+
+* [[Saunders MacLane]], _Homology_ , Grundlehren Math. Wiss. vol 114, Springer-Verlag, Berlin-G&#246;ttingen-Heidelberg, 1963 .
+
+For $A, B$ cosimplicial abelian groups, $C A$ and $C B$ their [[Moore complex|Moore cochain complex]]es, 
+
+the **Alexander-Whitney morphism** is the morphism
+
+$$  
+  N A \otimes N B \to N(A \otimes B)
+$$
+
+that is given on homogeneous elements $x, y$ of degree $p,q$, respectively, by
+
+$$
+  x \otimes y \mapsto  
+  \delta^n \circ \cdots \circ \delta^{p+1}(x)
+  \;\;\otimes
+  \;\;
+  \delta^0 \circ \cdots \circ \delta^0
+  (y)
+  \,.
+$$
+
+Notice that for $A = B$ a cosimplicial algebra, further composing this with the product yields the [[cup product]] induced on dg-algebras of cosimplicial algebras. This is spelled out in detail below.
+
+The **shuffle morphism** goes the other way
+
+$$
+  C(A \otimes B) \to C A \otimes C B
+$$
+
+and is given on homogeneous elements as above by
+
+$$
+  x  \otimes y 
+  \mapsto
+  \sum_{(\mu,\nu)}  
+  \epsilon(\mu,\nu)
+  \sigma^{\nu_1 - 1}
+  \circ \cdots
+  \circ
+  \sigma^{\nu_q - 1}
+  (x)
+  \;\; \otimes
+  \;\;
+  \sigma^{\mu_1 - 1} \circ \cdots \circ
+  \sigma^{\mu_p - 1}(y)
+$$
+
+where the sum is over all $(p,q)$ [[shuffle]]s $(\mu,\nu)$ and $\epsilon(\mu,\nu)$ is the sign of the shuffle.
+
+Both the Alexander-Whiney morphism as well as the shuffle morphism respect the passage to the normalized [[Moore complex]] $N A$ of $C A$ and hence induce also morphisms
+
+$$
+  AW : N A \otimes N B \to N(A \otimes B)
+$$
+
+and 
+
+$$
+  S : N(A \otimes B) \to N A \otimes N B
+  \,.
+$$
+
+
+In this form they satisfy
+
+$$
+  S \circ AW  = Id
+  \,.
+$$ 
+
+See for instance theorem 2.1.a in 
+
+* [[Samuel Eilenberg]], [[Saunders MacLane]], _On the groups $H(\Pi, n)$ II. Methods of computation_ , Ann. Math. (2) 60 (1954), 49 - 139
+
+A quick summary of all this is in section 7 of
+
+* Jos&#233; Burgos Gil, _The regulators of Beilinson and Borel_ ([pdf](http://atlas.mat.ub.es/personals/burgos/files/brbr.pdf))
+
+
 
 #### Lax monoidalness of the Moore co-chain complex functor ####
+
+
 
 
 
@@ -155,7 +247,7 @@ $$
   C : CoS(Ab) \to Ch_+^\bullet(Ab)
 $$
 
-from cosimplicial abelian groups to cochain complexes is a  [[lax monoidal functor]] with respect to the standard monoidal structures on $CoS(Ab)$ and $Ch_+^\bullet(An)$.
+from cosimplicial abelian groups to cochain complexes is a  [[lax monoidal functor]] with respect to the standard monoidal structures on $CoS(Ab)$ and $Ch_+^\bullet(Ab)$.
 
 This should be old and standard, but somehow explicit statements in the literature to this extent are hard to find.(?) Some central aspects are recalled in [section 7](http://atlas.mat.ub.es/personals/burgos/files/brbr.pdf#page=63) of
 
@@ -166,7 +258,7 @@ This should be old and standard, but somehow explicit statements in the literatu
 =--
 
 
-This implies in particular that for every [[monoid]] $K$ in $CoS(An)$ -- a  cosimplicial ring --  the Moore cochain complex $C(K)$ is naturally equipped with the structure of a [[monoid]] in $Ch_+^\bullet(Ab)$ -- a [[differential graded algebra]] -- by letting the product $\smile : C(K)\otimes C(K) \to C(K)$ be given by the composite
+Every [[monoid]] $K$ in $CoS(An)$ -- a  cosimplicial ring --  the Moore cochain complex $C(K)$ is naturally equipped with the structure of a [[monoid]] in $Ch_+^\bullet(Ab)$ -- a [[differential graded algebra]] -- by letting the product $\smile : C(K)\otimes C(K) \to C(K)$ be given by the composite
 
 $$
   \smile : C(K)\otimes C(K) \stackrel{\mu_{K,K}}{\to} C(K \otimes K) \stackrel{C(-\cdot -)}{\to} C(K)
