@@ -19,8 +19,12 @@ Can we have some please!  This is something I want to use soon so it'd be nice t
 
 =--
 
-* Anders Kock, Monads on symmetric monoidal closed categories, Arch. Math. 21 (1970), 1-10. 
+* Anders Kock, _Monads on symmetric monoidal closed categories_, Arch. Math. 21 (1970), 1-10. 
 
-* Anders Kock, Strong functors and monoidal monads, Arhus Universitet, Various Publications Series No. 11 (1970). 
+* Anders Kock, _Strong functors and monoidal monads_, Arhus Universitet, Various Publications Series No. 11 (1970). 
 
 See also [here](http://home.imf.au.dk/kock/SFMM.pdf). 
+
+Recently [[Nikolai Durov]] rediscovered that notion for the purposes of geometry (under the name __commutative algebraic monad__), constructed their spectra (generalizing the [[spectrum (geometry)|spectrum]] of Grothendieck) and theory of generalized schemes on this basis. There is a generalized version of Eckmann-Hilton arrgument concerning commutative finitary monads. Much detail including many examples and further constructions are in his thesis
+
+* Nikolai Durov, _New approach to Arakelov geometry_, [arXiv:0704.2030](http://arXiv.org/math/abs/0704.2030)
