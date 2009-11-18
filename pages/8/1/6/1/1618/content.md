@@ -1,4 +1,9 @@
-#Definition#
+# The points of a topos #
+* tic
+{: toc}
+
+
+## Definition ##
 
 A **point $x$ of a [[topos]] $E$** is a [[geometric morphism]]
 $$
@@ -16,7 +21,8 @@ Todd: How much does it matter? It matters if for example you want to say that po
 [[Mike Shulman]]: I would argue that "a point" of a topos really should mean "a geometric morphism from $Set$," *not* "an isomorphism class of geometric morphisms from $Set$," for the same reason that "a group" means, well, "a group" and not "an isomorphism class of groups."  Following from that, I would say that it's not really correct to say that points of $Sh(X)$ (for $X$ sober) are in bijection with $X$, but rather that the category of points of $Sh(X)$ is equivalent to the category of points of $X$.  Note that that's actually a stronger statement than saying that their sets of isomorphism classes of objects are in bijection.
 =--
 
-## points of sheaf topoi ##
+
+### In sheaf topoi ###
 
 For the special case that $E = Sh(X)$ is the [[category of sheaves]] on a [[category of open subsets]] $Op(X)$ of a [[topological space]] $X$ this notion of point of a topos comes from the ordinary notion of points of $X$.
 
@@ -70,18 +76,19 @@ $$
 $$
 
 
-## points of classifying topoi ##
+### In classifying topoi ###
 
 On the other hand, if $E$ is the [[classifying topos]] of a [[geometric theory]] $T$, then a point of $E$ is the same as a model of $T$ in [[Set]].
 
-#enough points#
+
+## Having enough points ##
 
 A [[topos]] is said to have **enough points** if isomorphy can be tested [[stalk]]wise.
 
 More precisely: if it is true that every morphism $f : A \to B$ such that for every point $p$ of the topos the morphism of [[stalks]] $p^* f : p^* A \to p^* B$ is an isomorphism implies already that $f$ itself is an isomorphism.
 
 
-##Examples##
+### Examples ###
 
 * For $X$ any [[topological space]], the  [[category of sheaves|topos of sheaves]] on (the [[category of open subsets]] of) $X$ has enough points: a morphism of sheaves is a mono-/epi-/isomorphism precisely if it is so on every [[stalk]]. 
 
@@ -93,12 +100,12 @@ More precisely: if it is true that every morphism $f : A \to B$ such that for ev
 
   in the context of the [[model structure on simplicial presheaves]].
 
-#References#
+
+## References ##
 
 section 7.5 of 
 
 * MacLane Moerdijk, [[Sheaves in Geometry and Logic]]
 
-[[Note on Formatting|✄]]
 
 [[!redirects point of topos]]
