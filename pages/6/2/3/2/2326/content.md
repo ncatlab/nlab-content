@@ -9,17 +9,16 @@ In intrinsic terms, a [[topos]] is _localic_ if it is generated under [[colimit]
 
 ## Properties ##
 
-Let $Topos$ be the non-full sub-[[2-category]] of [[Cat]] whose 
+Let $LocTopos$ be the [[2-category]] whose 
 
 * objects are localic toposes;
 
-* morphisms are [[functor]]s that are [[geometric morphism]]s, i.e. functors that preserve finite [[limit]]s and have a [[right adjoint]];
+* morphisms are [[geometric morphism]]s, i.e. [[adjunctions]] in which the left adjoint preserves [[finite limits]], considered as pointing in the direction of their right adjoint; and
 
-* 2-morphisms are [[natural transformation]]s between these functors.
+* 2-morphisms are [[mate]]-pairs of [[natural transformation]]s.
 
-Then this 2-category is equivalent to the category of [[locale]]s.
+Then the 2-category $LocTopos$ is [[equivalence of categories|equivalent]] to the 2-category $Loc$ of [[locales]] (see C1.4.5 in the [[Elephant]]).  The 2-category $Loc$ is actually a [[(1,2)-category]]; its 2-cells are the pointwise ordering of [[frame]] homomorphisms.  Thus this equivalence implies that $LocTopos$ is also a (1,2)-category, and moreover that it is [[locally small category|locally essentially small]], in the sense that its hom-categories are essentially small.  (The 2-category $Topos$ of all toposes is not locally essentially small.)  Assuming sufficient separation axioms, the hom-posets of $Loc$, and hence $LocTopos$, become discrete.
 
-> Is that right this way?
 
 ##Examples##
 
