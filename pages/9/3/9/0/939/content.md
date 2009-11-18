@@ -31,6 +31,8 @@ Brzezi&#324;ski and Majid combined the 4 diagrams into one picture which they ca
 H. Appelgate, M. Barr, J. Beck, F. W. Lawvere, F. E. J. Linton, E, Manes, M. Tierney, F. Ulmer, Seminar on triples and categorical homology theory, ETH 1966/67, edited by B. Eckmann, LNM 80, Springer 1969.
 (includes article Jon Beck, Distributive laws, pages 119--140).
 
+Michael Barr, Charles Wells, _Toposes, triples and theories_, Springer-Verlag 1985; [web remake at TAC](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html) 
+
 G. B&#246;hm, Internal bialgebroids, entwining structures
 and corings, AMS Contemp. Math. 376 (2005) 207--226; [arXiv:math.QA/0311244](http://front.math.ucdavis.edu/math.QA/0311244)
 
