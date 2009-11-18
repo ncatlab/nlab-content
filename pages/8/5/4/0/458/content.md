@@ -51,13 +51,21 @@ A [[ionad]] is supposed to be to a [[topological space]] as a [[Grothendieck top
 
 ## References ##
 
-*  P. T. Johnstone, _[[Elephant|Sketches of an elephant: a topos theory compendium]]_.  Part C (volume 2).
+An introduction to and survey of the use of locales instead of topological spaces is
 
-The book
+* [[Peter Johnstone]], _The point of pointless topology_ ,  Bull. Amer. Math. Soc. (N.S.) Volume 8, Number 1 (1983), 41-53. ([web](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183550014))
+
+This is, in its own words, to be read as the trailer for the book
 
 *  P. T. Johnstone, _[[Stone Spaces]]_
 
-develops, among other things, much of standard [[topology]] entirely with the notion of locale used in place of that of [[topological space]]s. See [[Stone Spaces]] for details.
+that develops, among other things, much of standard [[topology]] entirely with the notion of locale used in place of that of [[topological space]]s. See [[Stone Spaces]] for details.
+
+See also part C (volume 2) of
+
+*  P. T. Johnstone, _[[Elephant|Sketches of an elephant: a topos theory compendium]]_.  .
+
+
 
 
 [[!redirects locales]]
