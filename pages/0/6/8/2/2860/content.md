@@ -68,6 +68,10 @@ There is what is called the [[center]] of a monoidal category, which is a braide
 
 Or maybe I can't.  Now I write it, it seems a lot more tenuous than when I thought it.  It'd be useful to get that clear.
 
+[[Todd Trimble|Todd]]: Not sure I can add anything else useful right now. I don't think there's a general switcheroo functor. In some sense a monoidal functor $Fin^{op} \to M$ to a monoidal category $M$ ought to simulate a cocommutative comonoid in $M$, but I'm not sure how useful an observation this is for you. 
+
+Is there a specific setting you have in mind where what you want to do is unproblematic? 
+
 =--
 
 
@@ -135,5 +139,9 @@ _Todd_: Yes. More generally, there is a 2-functor
 $$Cart \to Mon$$ 
 
 from the 2-category of categories with products, product-preserving functors, and natural transformations to the 2-category of monoidal categories, strong monoidal functors, and monoidal transformations. As all 2-functors do, this preserves equivalences (and the notions of equivalence in these 2-categories are the right ones). 
+
+###References###
+
+S. Lack, Composing PROPS, [Theory Appl. Categ.](http://www.tac.mta.ca/tac/volumes/13/9/13-09abs.html) 13 (2004), No. 9, 147--163. 
 
 [^minute]: I keep wanting to write "repetition, hesitation, or deviation".
