@@ -122,6 +122,8 @@ This article shows that the inverse $\Xi$ from chain complexes to simplicial abe
 
 # Lax monoidalness of the Moore cochain complex functor #
 
+
+
 +-- {: .standout}
 
 [[Urs Schreiber]]:
@@ -133,6 +135,12 @@ $$
 $$
 
 from cosimplicial abelian groups to cochain complexes is a  [[lax monoidal functor]] with respect to the standard monoidal structures on $CoS(Ab)$ and $Ch_+^\bullet(An)$.
+
+This should be old and standard, but somehow explicit statements in the literature to this extent are hard to find.(?) Some central aspects are recalled in [section 7](http://atlas.mat.ub.es/personals/burgos/files/brbr.pdf#page=63) of
+
+* Jos&#233; Burgos Gil, _The regulators of Beilinson and Borel_ ([pdf](http://atlas.mat.ub.es/personals/burgos/files/brbr.pdf))
+
+
 
 =--
 
