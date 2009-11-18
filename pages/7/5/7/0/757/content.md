@@ -17,7 +17,7 @@ More specifically this means that
 
 * with an object $X \in C$ called an $S$-[[local object]] if for all $f \in S$ the [[(∞,1)-categorical hom-space]] $\mathbf{R}Hom_C(f,X) \in Mor(SSet)$ is a weak equivalence
 
-the left Bousfield localization of $C$ at $S$ is the model category of $S$-local objects in $C$.
+the left Bousfield localization of $C$ at $S$ is the model category of $S$-[[local object]]s in $C$.
 
 More generally this may be considered for any [[enriched model category]] $C$ or even [[enriched homotopical category]] with [[SSet]] replaced by the corresoponding enriched [[monoidal model category]]: one speaks of _enriched Bousfield localization_ ([Bar08](http://arxiv.org/abs/0708.2067)).
 
@@ -51,12 +51,13 @@ The **left Bousfield localization** of $C$ with respect to $S$ is, if it exists,
 Analogously the **right Bousfield localization** is defined as above, with the role of fibrations and cofibrations exchanged throughout.
 
 
+## Properties ##
+
 +-- {: .un_prop }
 ###### Proposition
+**(Bousfield localization is indeed a localization)**
 
-If the left Bousfield localization exists, i.e. of $L_S C$ is indeed a [[model category]] with the above definitions of cofibrations and weak equivalences, then it is indeed a [[localization of a model category]] in that
-
-there is a _left Quillen functor_
+If the left Bousfield localization exists, i.e. of $L_S C$ is indeed a [[model category]] with the above definitions of cofibrations and weak equivalences, then it is indeed a [[localization of a model category]] in that there is a _left Quillen functor_
 
 $$
   j : C \to L_S C
@@ -74,15 +75,49 @@ takes the images of $S \subset Mor(C)$ in $Ho(C)$ to [[isomorphism]]s
 
 and every other left Quillen functor with this property factors by a unique left Quillen functor through $j$.
 
+Moreover, the identity functor $Id_C$ on the underlying category is a [[Quillen adjunction]]
+
+$$
+  Id_C : L_S C \stackrel{\leftarrow }{\to} C : Id_C
+$$
+
+(and its itself a localization functor).
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-This is theorem 3.3.19 in _ModLoc_ .
+The first part is theorem 3.3.19 in _ModLoc_ . The second part is prop 3.3.4, which follows directly from the following proposition.
 
 =--
+
+The following further statements about fibrantions, cofibrations and weak equivalences in a Bousfield localization hold.
+
++-- {: .un_prop }
+###### Proposition
+
+Let $L_S C$ is a left Bousfield localization of $C$ then
+
+* every weak equivalence of $C$ is also a weak equivalence of $L_S C$;
+
+* every acyclic cofibration of $C$ is also an acyclic cofibration of $L_S C$
+
+* the acyclic fibrations of $L_S C$ are precisely the acyclic fibrations of $C$;
+
+* every fibration of $L_S C$ is also a fibration of $C$;.
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is prop 3.3.3 in _ModLoc_ .
+
+=--
+
+
 
 
 ## Existence of Bousfield localizations ##
