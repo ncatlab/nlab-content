@@ -93,6 +93,10 @@ A useful quick review is page 14, 15 of
 
 * Clark Barwick, _On (enriched) left Bousfield localization of model categories_ ([arXiv](http://arxiv.org/abs/0708.2067))
 
+The definition in terms of simplicial and fibrant/cofibrant resolutions is described in detail in sections 16, 17 of
+
+* Hirschhorn, _Model categories and their localization_ .
+
 
 [[!redirects (∞,1)-categorical hom-space]]
 [[!redirects (infinity,1)-categorical hom space]]
