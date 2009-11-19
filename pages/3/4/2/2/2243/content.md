@@ -27,6 +27,8 @@
 
   * [[etale cohomology]]
 
+  * [[motivic cohomology]]
+
 * [[nonabelian cohomology]]
 
   * [[principal bundle]]
