@@ -17,7 +17,7 @@ This has been abstracted and extended to [[homotopy]] and also in the direction 
 The term '[[Cech nerve|nerve of a covering]]' has been used from the  late 
 1920s for a  construction that starts with a space and an open cover of it and builds a [[simplicial complex]]. 
 Historically these data were organizes as a  [[simplicial complex]], rather than a [[simplicial set]]. The idea had been parallely worked out by &#268;ech and P.S. Aleksandrov
-so one often talks about Aleksandrov--&#268;ech (co)homology. There was an alternative approach described by Vietoris (1927), which led to what is known as [[Vietoris homology]]  There are separate entries in nlab for [[Čech homology]]
+so one often talks about Aleksandrov--&#268;ech (co)homology. There was an alternative approach described by Vietoris (1927), which led to what is known as [[Vietoris homology]]  There are separate entries in nlab for [[Cech homology|Čech homology]]
 and [[Čech cohomology]]. The first is not exact, and so is  not really
 a homology theory in the sense of Steenrod--Eilenberg axioms. It is also not the (Alexander--Spanier) dual of &#268;ech cohomology.  The two problems  can be avoided at the same time using coherent homotopy theory. The resulting homology is one which is exact.  It also is one that satisfies the wedge axiom, and then it is the unique such theory, nowadays sometimes called [[strong homology]] and in special cases it reduces to what was called [[Steenrod-Sitnikov homology]] (but which was originally constructed in a different way).
 
@@ -174,4 +174,4 @@ Ho(\mathbf{A})$ instead of in $Ho(pro \mathbf{A})$.  This problem has been in pa
 * see also [[abelian sheaf cohomology]]
 
 
-[[!redirects Cech methods]] 
+[[!redirects Čech methods]]
