@@ -40,7 +40,9 @@ A [[model category]] with all [[colimit]]s is **cofibrantly generated** if there
 
 * $cof(I)$ is precisely the collection cofibrations of $C$;
 
-* $coj(J)$ is precisely the collection of acyclic cofibrations in $C$.
+* $coj(J)$ is precisely the collection of acyclic cofibrations in $C$; and
+
+* $I$ and $J$ permit the [[small object argument]].
 
 In this case we have necessarily that
 
