@@ -180,6 +180,8 @@ I would normally say 'equipped with' (or just 'with'), and I think that you, Zor
 _Toby_:  It\'s fine and fun to have a hierarchy of $n$-types (although $1$-types should be types, of course), but this is just terminology to handle the equalities/isomorphisms/equivalences automatically, so it doesn\'t really disagree with me.  Each convention is an abuse of language with respect to the other (and each is used, often thoughtlessly, in practice) that disappears when one is more explicit.
 =--
 
+
 [[!redirects representable functors]]
 [[!redirects representable]]
 [[!redirects representable presheaf]]
+[[!redirects representing object]]
