@@ -88,7 +88,13 @@ Even if that worked, I wouldn\'t understand the full subcategory of CAU comonoid
 
 This is tied up with [[Tall-Wraith monoids]].  If you start with a set and take the free ring on that set, then that's again a biring (co-ring object in rings).  Now start with abelian groups instead.  If you take the free ring on an abelian group, then that's not a biring, but still has a certain amount of co-structure because a ring is a monoid in $(Ab, \otimes, \mathbb{Z})$.  To make it a biring, I need to start with a coalgebra - that's enough to supply the missing pieces of the co-structure.
 
+*  _Toby_:  OK, this makes sense.  In general, you start with a comonoid in your monoidal category; a comonoid in $(Ab,\otimes)$ is a coalgebra, while a comonoid in $(Set,\times)$ is simply a set (by an argument that applies whenever the monoidal category is cartesian).
+
 Furthermore, if I wish to interpret the resulting biring as representing a functor from abelian groups to rings, then I can only do so on the subcategory of coalgebras - but I need to take abelian group homs not coalgebra homs.
+
+*  _Toby_:  H\'m, this is odd.  I still don\'t know exactly what the 'subcategory' of coalgebras is, since being a coalgebra is not a property of an abelian group.  Since the forgetful functor from coalgebras to abelian groups is faithful, you can make it a literal [[subcategory]] up to equivalence, then consider the corresponding full subcategory; or (equivalently) just take the category whose objects are coalgebras and whose morphisms are homomorphisms of the underlying abelian groups.  (In general, this concept is the [[full image]] of a functor; here we are taking the full image of the forgetful functor from coalgebras to abelian groups.)
+
+   But I don\'t understand why you need to use this instead of simply the category of coalgebras.  After all, if you have a functor from the full image, then you certainly have a functor from the category of coalgebras by composing with the inclusion functor of coalgebras into the full image.  On the other hand, it seems very strange that you can define this functor on arbitrary abelian group homomorphisms.  Applying this to abelian group isomorphisms, you are basically saying that, if you start with two different coalgebra structures on a given abelian group, the resulting birings will be isomorphic.  Is that true?
 
 This all generalises quite nicely: replace abelian groups by a [[commutative algebraic theory]] and replace rings (rather, replace monoids) by a [[PRO]].  Then the PRO-objects in the commutative algebraic theory will again be an algebraic theory and the free functor from the commutative theory to the other one has lots of nice properties.
 
