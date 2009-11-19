@@ -14,7 +14,7 @@ the __essential image__ of a [[functor]] $F: A\to B$ between [[category|categori
 +--{: .query}
 [[Mike Shulman]]: I don't think this is well-defined.  If the inclusion of the image is not [[pseudomonic functor|pseudomonic]], then it doesn't necessarily have a repletion.  I don't remember how I've heard "essential image" used in the past, but I think at least sometimes it means the essential *full* image, i.e. the repletion of the [[full image]].  If it doesn't mean that, then I don't know what it can mean for functors whose image is not pseudomonic.
 
-_Toby_:  I know the 'weak coimage' and the 'full image' as described in the last section of [this work](http://math.ucr.edu/home/baez/qg-spring2004/polynomials.pdf) for week 1 of [John's 2004 spring seminar](http://math.ucr.edu/home/baez/qg-spring2004/).
+_Toby_:  I know the '[[weak coimage]]' and the '[[full image]]' as described in the last section of [this work](http://math.ucr.edu/home/baez/qg-spring2004/polynomials.pdf) for week 1 of [John's 2004 spring seminar](http://math.ucr.edu/home/baez/qg-spring2004/).
 
 [[Mike Shulman]]: Yes, but I don't think either of those is helpful.  The full image is, well, full, so its repletion would be the essential full image.  And the weak coimage need not be pseudomonic in general.
 =--
