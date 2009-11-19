@@ -5,7 +5,7 @@ $$
 \sum a (h_{(1)}\triangleright a')\otimes h_{(2)}h'.
 $$
 
-The idea is that if the bialgebra $H$ is in fact a Hopf algebra embedded as $1\otimes H\subset A\sharp H$ whatever the product in the latter is (but satisfies $(a\otimes 1)(1\otimes h) = a\otimes h$, and if the action is inner, i.e. $h\triangleright a = \sum h_{(1)} a S(h_{(2)})$ within $A\sharp H$ then $\sum (h_{(1)}\triangleright a) h_{(2)} = \sum h_{(1)} a S(h_{(2)}) h_{(3)} = \sum h_{(1)} a \epsilon(h_{(2)})= h a$, hence the formula for the product above is a tautology: $a h a' h' = a(h_{(1)}\triangleright a') h_{(2)} h'$.  
+The idea is that if the bialgebra $H$ is in fact a Hopf algebra embedded as $1\otimes H\subset A\sharp H$ whatever the product in the latter is (but satisfies $(a\otimes 1)(1\otimes h) = a\otimes h$, and if the action is inner within $A\sharp H$, i.e. $h\triangleright a = \sum h_{(1)} a S(h_{(2)})$, then $\sum (h_{(1)}\triangleright a) h_{(2)} = \sum h_{(1)} a S(h_{(2)}) h_{(3)} = \sum h_{(1)} a \epsilon(h_{(2)})= h a$, hence the formula for the product above is a tautology: $a h a' h' = a(h_{(1)}\triangleright a') h_{(2)} h'$.  
 
 Similarly, given a right Hopf action of $H$ on $A$, one defines the crossed product algebra $H\sharp A$ whose underlying space is $H\otimes A$. The left and right versions are isomorphic if $H$ has an invertible antipode; this extends the correspondence between the left and right actions obtained by composing with the antipode map. 
 
@@ -14,14 +14,14 @@ Every smash product algebra of the form $A\sharp H$ is naturally equipped with a
 **Proposition** _Let $H$ be a Hopf algebra, $E$ a right $H$-comodule algebra, and $\gamma:H\to E$ a map of right $H$-comodule algebra. Clearly $H$ acts on $E^{co H}$ by $h\triangleright a = \sum \gamma(h_{(1)}) a\gamma(Sh_{(2)})$ for $a\in E^{co H}$ and $h\in H$, where the product on the right-hand side is in $E$. Conclusion: 
 $E\cong E^{co H}\sharp H$ where the smash product is with respect to that action._
 
-There is also a more general cocycled crossed product. In that case a similar convolution invertible map $\gamma$ is constructed, which is however just an $H$-comodule map, but it fails to be a homomorphism of algebras; the cocycle is needed to express the failure. More explicitly, let $U$ be an algebra, $H$ a Hopf algebra, $\triangleright : H\otimes U\to U$ a [[measuring]], i.e. a $k$-linear map satisfying $h\triangleright(uv)=\sum (h_{(1)}\triangleright u)(h_{(2)}\triangleright v)$ for all $h\in H$, $u,v\in U$, and which we assume unital, i.e. $h\triangleright 1 = \epsilon(h)1$ for all $h\in H$. We do NOT assume that $\triangleright$ is an action. Let further an *invertible*  $k$-linear map $\sigma \in Hom_k(H\otimes H,U)$ is given. We say that $\sigma$ is a **2-cocycle** (relative to the measuring $\triangleright$ if the following two cocycle identities hold
+There is also a more general cocycled crossed product. In that case a similar convolution invertible map $\gamma$ is constructed, which is however just an $H$-comodule map, but it fails to be a homomorphism of algebras; the cocycle is needed to express the failure. More explicitly, let $U$ be an algebra, $H$ a Hopf algebra, $\triangleright : H\otimes U\to U$ a [[measuring]], i.e. a $k$-linear map satisfying $h\triangleright(u v)=\sum (h_{(1)}\triangleright u)(h_{(2)}\triangleright v)$ for all $h\in H$, $u,v\in U$, and which we assume unital, i.e. $h\triangleright 1 = \epsilon(h)1$ for all $h\in H$. We do NOT assume that $\triangleright$ is an action. Let further an *invertible*  $k$-linear map $\sigma \in Hom_k(H\otimes H,U)$ is given. We say that $\sigma$ is a **2-cocycle** (relative to the measuring $\triangleright$) if the following two cocycle identities hold
 
 $$
 h\triangleright (k\triangleright u) = \sum \sigma(h_{(1)},k_{(1)})( (h_{(2)}k_{(2)})\triangleright u ) \sigma^{-1}(h_{(3)},k_{(3)})
 $$
 
 $$
-[h_{(1)}\triangleright\sigma(k_{(1)},m_{(1)})]\sigma(h_{(2)}k_{(2)},m_{(2)})=\sigma(h_{(1)},k_{(1)})\sigma(h_{(2)}k_{(2)},m).
+\sum [h_{(1)}\triangleright\sigma(k_{(1)},m_{(1)})]\sigma(h_{(2)}k_{(2)},m_{(2)})=\sum \sigma(h_{(1)},k_{(1)})\sigma(h_{(2)}k_{(2)},m).
 $$
 These identities clearly generalize the classical factor systems in group theory (linearly extended to the case of group algebras, for the finite groups at least). Therefore it is a sample of a nonabelian cocycle in Hopf algebra theory, however its role in general theory is less well understood than the group case. 
 
@@ -38,7 +38,7 @@ If $\sigma(h,k)=\epsilon(h)\epsilon(k)1_U$ then we say that $\sigma$ is a trivia
 
 $$h\triangleright' u = \sum f^{-1}(h_{(1)})(h_{(2)}\triangleright u) f(h_{(3)}),$$
 
-$$\tau(h,k) = \sum u^{-1}(h_{(1)})[h_{(2)}\triangleright u^{-1}(k_{(1)})]\sigma(h_{(3)},k_{(2)})u(h_{(4)}k_{(3)}).$$
+$$\tau(h,k) = \sum f^{-1}(h_{(1)})[h_{(2)}\triangleright f^{-1}(k_{(1)})]\sigma(h_{(3)},k_{(2)})f(h_{(4)}k_{(3)}).$$
 
 The isomorphism $i$ is then given by
 $$i(u\sharp_\sigma h) = \sum u f(h_{(1)})\sharp_\tau h_{(2)}$$
