@@ -23,15 +23,17 @@
 
 ## refinements ##
 
-* [[combinatorial model category]]
-
-* [[cofibrantly generated model category]]
-
 * [[monoidal model category]]
 
 * [[enriched model category]]
 
 * [[simplicial model category]]
+
+* [[cofibrantly generated model category]]
+
+  * [[combinatorial model category]]
+
+  * [[cellular model category]]
 
 ## model structures ##
 
