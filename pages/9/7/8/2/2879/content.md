@@ -1,0 +1,7 @@
+Given an internal [[groupoid]] in the category $Aff_k$ of affine algebraic $k$-[[schemes]], where $k$ is a field, the $k$-algebras of global sections over the scheme of objects and scheme of morphisms have an additional structure of a commutative Hopf algebroid. In fact this is an antiequivalence of categories. Commutative Hopf algebroids are useful also in a version in brave new algebra (work of Rognes). 
+
+There are several generalization to the noncommutative case. A difficult part is to work over the noncommutative base (i.e. object of objects is noncommutative). The definition of a bialgebroid is not that difficult and there is even a very old definition due Takeuchi. To add an antipode is nontrivial. A definition of Lu from mid 1990s is rather nonselfdual unlike the case of Hopf algebras. So a better solution is to abandon the idea of an antipode and have some replacement for it. There are two approaches, one via monoidal bicategories due Day and Street, and another due Gabi B&#246;hm, using pairs  of a left and right bialgebroid. Gabi has later shown that the two definitions are in fact equivalent.
+ 
+* B. Day, R. Street, _Monoidal bicategories and Hopf algebroids_, Advances in Mathematics, 129, 1 (1997) 99--157 
+
+* G. B&#246;hm, _An alternative notion of Hopf algebroid_; in "Hopf algebras in noncommutative geometry and physics",  31--53, Lecture Notes in Pure and Appl. Math., 239, Dekker, New York, 2005; <a href="http://arxiv.org/abs/math.QA/0301169"> math.QA/0301169 </a>
