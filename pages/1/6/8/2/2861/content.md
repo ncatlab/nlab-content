@@ -51,6 +51,7 @@ There is a [[cartesian closed category|cartesian closed]] [[category with weak e
 
   Thanks for joining, in, Charles. Toby is, by the way, our esteemed expert for -- if not the inventor of -- [[negative thinking]]. :-) - [[Urs Schreiber|USc]]
 
+  _Toby_:  All right, so we allow $k = -2$, since $n$ might be $0$; but for an $(n-2,n)$-$\Theta$-space is the same as an $(n-1,n)$-$\Theta$-space for $n \gt 0$.  OK, I\'m happy with that; now to understand the definition!  (^_^)
   =--
 
 as the [[category of fibrant objects]] in a [[model category]] $\Theta_n Sp_k$. The underlying [[category]] of this is the category $SPSh(\Theta_n)$ on a certain category $\Theta_n$, equipped with a model structure obtained as a left [[Bousfield localization]] of the global injective [[model structure on simplicial presheaves]].
