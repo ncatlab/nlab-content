@@ -4,7 +4,7 @@ Maszczyk created an original viewpoint and approach to noncommutative geometry b
 
 Most of Maszczyk's main program is still unpublished (even on arXiv). Among his articles on the arXiv cf.
 
-* _Noncommutative geometry through monoidal categories I_, [arXiv:0707.1542](http://arxiv.org/abs/0707.1542)
+* _Noncommutative geometry through monoidal categories I_, [math.QA/0611806] (http://arxiv.org/abs/math.QA/0611806)
 
 
 For an anouncement of some unpublished interesting results see the following abstract
