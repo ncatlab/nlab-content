@@ -44,6 +44,10 @@ There is a [[cartesian closed category|cartesian closed]] [[category with weak e
   _Toby_:  Wait, I don\'t buy Charles\'s argument after all.  Yes, a $(-1,1)$-category is a category enriched over the point, but that doesn\'t make it necessarily the terminal category; it makes it a truth value.  If it has an object, then it\'s trivial, but it might be empty instead.  The difference between a $(-1,1)$-category and a $(-1,0)$-category is that every $0$-morphism in the latter must be invertible, which is no difference at all; that\'s why we have this repetition.  (And thereafter it propagates indefinitely.)
 
   Similarly, with David\'s argument, what if $C$ has no $n$-arrows at all?
+
+  [[David Roberts]]: Yes - that should then be \'Assuming $C$ has an object, then it has a single $(n-1)$-arrow\'. Assuming I got the indexing right, I must stress. I think I grasp $(n,n+1)$-categories, but I'm not solid on these new beasties.
+
+  Toby, I guess you are right.  I don't know what I was thinking.  -- Charles R.
   =--
 
 as the [[category of fibrant objects]] in a [[model category]] $\Theta_n Sp_k$. The underlying [[category]] of this is the category $SPSh(\Theta_n)$ on a certain category $\Theta_n$, equipped with a model structure obtained as a left [[Bousfield localization]] of the global injective [[model structure on simplicial presheaves]].
