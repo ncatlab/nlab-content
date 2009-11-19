@@ -80,7 +80,7 @@ $\pi_1(\mathbb{E})$.  (Here you need to know that the category of [[profinite
 group]]s in the topological sense, is equivalent to the category of [[pro-object]]s in the category of
 finite groups (as explained in [[profinite group]]).  (If you remove
 'finite' the result does not hold, but you can recover it in part by
-working with "pro-discrete localic groups" instead of topological groups,
+working with "pro-discrete [[localic groups]]" instead of topological groups,
 i.e. take limits of finite groups within the category of '[[locale|localic]]' rather than 
 '[[topological group|topological]]' groups, remembering that 'locales' are almost 'spaces without
 points'.
