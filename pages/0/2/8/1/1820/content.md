@@ -18,11 +18,17 @@ A _combinatorial model catgeory_ is a particularly convenient [[model category]]
 ###### Definition
 (Jeff Smith)
 
-A [[model category]] $C$ is **combinatorial** if
+A [[model category]] $C$ is **combinatorial** if it is
 
-* it is a [[presentable category]]
+* [[presentable category|presentable]]
 
-* it has a [[set]] (not a proper [[class]]) $I$ of generating cofibrations and and a set of trivial generating cofibrations, meaning that
+and
+
+* [[cofibrantly generated model category|cofibrantly generated]].
+
+=--
+
+Recall from the discussion at [[cofibrantly generated model category]] that this means that $C$ has a [[set]] (not a proper [[class]]) $I$ of generating cofibrations and and a set of trivial generating cofibrations in that
 
   $$ 
     cof = llp(rlp(I))
@@ -33,38 +39,103 @@ A [[model category]] $C$ is **combinatorial** if
     \,.
   $$
 
-=--
 
-Here $fib, cof \subset Mor(C)$ is the collection of fibrations and cofibration, respectively, and $llp(S), rlp(S)$ is the collection of morphisms satisfying the left or right, respectively, [[lifting property]] with respect to a collection of morphisms $S$. See also [[cofibrantly generated model category]].
+Here $fib, cof \subset Mor(C)$ is the collection of fibrations and cofibration, respectively, and $llp(S), rlp(S)$ is the collection of morphisms satisfying the left or right, respectively, [[lifting property]] with respect to a collection of morphisms $S$. 
+
+## Jeff Smith's theorem ##
 
 The central theorem about combinatorial model categories is **Jeff Smith's theorem** which establishes the existence of model category structures from a comparatively small amount of input data.
 
 +-- {: .num_theorem }
-###### Theorem (Smith)
+###### Theorem (Jeff Smith)
 
 Let $C$ be a [[locally presentable category]], $W$ an accessibly embedded [[accessible category|accessible]] [[subcategory]] of the [[arrow category]] $Arr(C)$, and $I \subset Mor(C)$ a [[set]] (not a proper class) of morphisms of $C$ such that
 
 * $W$ satisfies [[category with weak equivalences|2-out-of-3]];
 
-* the set $rlp(I)$ of morphism with [[weak factorization system|right lifting property]] with respect to $I$ is contained in $W$
+* $inj(I) \subset W$
 
-  $$
-    rlp(I) \subset W
-  $$
-
-* the set $llp(rlp(I))$ of all morphism with [[weak factorization system|left lifting property]] with respect to $rlp(I)$ is closed under pushout and transfinite composition (see [[cofibrantly generated model category]]).
+* $cof(I) \cap W$ is closed under [[pushout]] and [[transfinite composition]].
 
 Then $C$ is a combinatorial model category with
 
 * weak equivalences $W$;
 
-* cofibrations $cof(I) = llp(rlp(I))$
-
-* fibrations $fib = rlp(W \cap cof(I))$
+* cofibrations $cof(I)$.
 
 =--
 
-This theorem is used to establish various familiar model structures. For instance the [[folk model structure]] on [[strict omega-category|strict omega-categories]].
+Here $inj(I) = rlp(I)$ and $cof(I) = llp(rlp(I))$.
+
+This statement was announced by Jeff Smith in 1998 at a conference in Barcelona and appeared in print as theorem 1.7 in
+
+* [[Tibor Beke]], _Sheafifiable homotopy model categories_ ([arXiv](http://arxiv1.library.cornell.edu/abs/math/0102087))
+
+The above statement follows prop 2.2 in 
+
+* [[Clark Barwick]], _On left and right model categories and left and right Bousfield localization_ ([pdf](http://www.math.harvard.edu/~clarkbar/complete.pdf))
+
+The **proof** proceeds via two lemmas
+
++-- {: .un_lemma }
+###### Lemma (Smith)
+
+If a sub-class $J \subset cof(I) \cap W$ is such that every commutative square
+
+$$
+  \array{
+    K &\to& X
+    \\
+    \downarrow^{\mathrlap{i \in I}} && 
+    \downarrow^{\mathrlap{w \in W}}
+    \\
+    L &\to& Y
+  }
+$$
+
+may be factored as
+
+$$
+  \array{
+    K &\to& X' &\to& X
+    \\
+    \downarrow^{\mathrlap{i \in I}} && 
+    \downarrow^{\mathrlap{j \in J}} && 
+    \downarrow^{\mathrlap{w \in W}}
+    \\
+    L &\to& L' &\to& Y
+  }
+$$
+
+then 
+
+$$
+  cof(j) = cof(I) \cap W
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+=--
+
+
++-- {: .un_lemma }
+###### Lemma (Smith)
+
+Under the assumptions of Jeff Smith's theorem, a small set $J$ satisfying the condition of the above lemma can be found.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+...
+
+=--
 
 
 ## Simplicial combinatorial model categories ##
@@ -105,3 +176,6 @@ Smith's theorem is recalled as theorem xyz in [[Higher Topos Theory|HTT]], as pr
 [[!redirects Smith's theorem]]
 [[!redirects Smith theorem]]
 [[!redirects Smith's theorem]]
+[[!redirects Jeff Smith's theorem]]
+[[!redirects Jeff Smith theorem]]
+[[!redirects Jeff Smith's theorem]]
