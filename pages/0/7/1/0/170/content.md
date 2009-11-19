@@ -1,4 +1,4 @@
-A 2-dimensional [[conformal field theory|CFT]] can be regarded as a higher dimensional generalization of a [[spectral triple]]. Formalizations of this idea are being discussed by Yan Soibelman, generalizing work by Roggenkamp and Wendland.
+A 2-dimensional [[conformal field theory|CFT]] can be regarded as a higher dimensional generalization of a [[spectral triple]]. Formalizations of this idea are being discussed by [[Yan Soibelman]], generalizing work by Roggenkamp and Wendland.
 
 #References#
 
