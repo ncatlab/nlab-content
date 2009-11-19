@@ -1,1 +1,1 @@
-The material previously on this page may be found at [Wikipedia](http://en.wikipedia.org/wiki/Continuous_predicate).
+The material previously on this page may be found at [MyWikiBiz](http://mywikibiz.com/Continuous_predicate).
