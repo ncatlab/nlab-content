@@ -11,7 +11,7 @@
 ## Idea ##
 
 
-For $V$ a sufficiently nice([[monoidal model category|monoidal]]) [[model category]] and $C$ a [[small category]] equipped with a [[Grothendieck topology]] $\tau$, there are left [[Bousfield localization]]s of the [[global model structure on functors]] $[C^{op}, V]$ whose fibrant objects satisfy [[descent]] with respect to [[?ech cover]]s or even [[hypercover]]s with respect to $\tau$. 
+For $V$ a sufficiently nice ([[monoidal model category|monoidal]]) [[model category]] and $C$ a [[small category]] equipped with a [[Grothendieck topology]] $\tau$, there are left [[Bousfield localization]]s of the [[global model structure on functors]] $[C^{op}, V]$ whose fibrant objects satisfy [[descent]] with respect to [[?ech cover]]s or even [[hypercover]]s with respect to $\tau$. 
 
 These model structures are expected to model $V$-valued [[∞-stack]]s on $C$. This is well understood for the case $V = $ [[SSet]] equipped with the standard [[model structure on simplicial sets]] modelling [[∞-groupoid]]s. In this case the resulting [[local model structure on simplicial presheaves]] is known to be one of the  [[models for ∞-stack (∞,1)-toposes]].
 
