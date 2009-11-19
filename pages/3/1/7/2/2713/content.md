@@ -5,7 +5,7 @@
 
 #Idea#
 
-Here is an **unorthodox way** to state the idea of spectral triple in terms of [[FQFT]], which is in part just the reformulation of the [[quantum mechanics]] motivation that [[Alain Connes]] derived his definition from in the modern light of [[FQFT]], but which more concretely follows work by [[Maxim Kontsevich|Kontsevich]]-Soibelman and Soibelman (linked to at [[2-spectral triple]]) which [[Urs Schreiber|methinks]] is the _right_ one. 
+Here is an **unorthodox way** to state the idea of spectral triple in terms of [[FQFT]], which is in part just the reformulation of the [[quantum mechanics]] motivation that [[Alain Connes]] derived his definition from in the modern light of [[FQFT]], but which more concretely follows work by [[Maxim Kontsevich|Kontsevich]]-[[Yan Soibelman|Soibelman]] and [[Yan Soibelman|Soibelman]] (linked to at [[2-spectral triple]]) which [[Urs Schreiber|methinks]] is the _right_ one. 
 
 > (but maybe eventually we should have a traditional idea section and move this here to a subsection on further interpretations)
 
