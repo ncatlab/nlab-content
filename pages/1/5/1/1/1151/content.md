@@ -11,16 +11,55 @@
 {:toc}
 
 
-There are various different-looking definitions of the general notion of _cohomology_ in different contexts, some familiar, some more exotic. It turns out that all of them are subsumed in the following general definition.
+## Idea ## 
+
+There are various different-looking definitions of the general notion of _cohomology_ in different contexts, some familiar, some more exotic. 
+
+The claim is all these notions of cohomology are special cases of -- and in many instances special concrete _models_ for -- the following general idea:
+
+Cohomology is something associated to a given [[(∞,1)-topos]] $\mathbf{H}$. For $X, A$ two objects of $\mathbf{H}$, the **cohomology of $X$ with coefficients in $A$** is the set of connected components of the [[∞-groupoid]] of morphisms from $X$ to $A$ in $\mathbf{H}$:
+
+$$
+  H(X,A) := \pi_0 \mathbf{H}(X,A)
+  \,.
+$$
+
+This is well familiar for the special case that $\mathbf{H} = $ [[Top]] is the [[(∞,1)-topos]] of [[topological space]]s. In this context for instance for $A := K(\mathbb{Z}, n)$ an [[Eilenberg-MacLane space]], we have that for $X$ any topological space that
+
+$$
+  \pi_0 \mathbf{H}(X,K(\mathbb{Z},n)) = H^n(X,\mathbb{Z})
+$$
+
+coincides with the "ordinary" [[integral cohomology]] of $X$.
+
+This definition in [[Top]] alone already goes a long way. By the [[Brown representability theorem]] all cohomology theories that are called [[generalized (Eilenberg-Steenrod) cohomology]] theories are of this form, for $A$ a topological space that is part of a [[spectrum]]. This includes everything that is traditionally just called "a [[cohomology theory]]", such as [[K-theory]], [[elliptic cohomology]], [[tmf]], [[complex cobordism cohomology theory|complex cobordism]], etc.
+
+Another big complex of notions of cohomology that on first sight maybe does not seem to fit into this pattern is [[abelian sheaf cohomology]]. Usually this is introduced and defined in the language of [[derived functor]]s. However, derived functors are nothing but a tool, or presentation, for encoding [[(∞,1)-categorical hom-space]]s such as $\mathbf{H}(X,A)$ in cases where $\mathbf{H}$ is [[presentable (∞,1)-category|presented]] by a [[homotopical category]] or [[model category]].
+
+Indeed, it turns out that an old result from the 1960s, **Verdier's hypercovering theorem** effectively shows that what was introduced as [[abelian sheaf cohomology]] is really nothing but an instance of the above general setup. A particularly clear-sighted understanding of this fact was presented in 
+
+* Ken Brown, [[BrownAHT|Abstract homotopy theory and generalized sheaf cohomology]].
+
+Therein Brown considers a slightly simplified version of the [[model structure on simplicial presheaves]] -- which today is known to be one of the standard [[models for ∞-stack (∞,1)-toposes]] $\mathbf{H}$ -- rederives Verdier's hypercovering theorem and shows that ordinary [[abelian sheaf cohomology]] is indeed nothing but $\pi_0 \mathbf{H}(X,A)$ in such an [[(∞,1)-topos]], for the special case that the [[simplicial presheaf]] $A$ happens to be objectwise in the image of the [[Dold-Kan correspondence]], i.e. for the special case that $A$ is a _maximally abelian_ [[∞-stack]].
+
+One can then understand various "cohomology theories" as nothing but tools for _computing_ $\pi_0 \mathbf{H}(X,A)$ using the known presentations of [[(∞,1)-categorical hom-space]]s: for instance [[?ech cohomology]] computes this spaces by finding cofibrant models for $X$, called [[?ech nerve]]s. Dual to that, most texts on [[abelian sheaf cohomology]] find fibrant models for $A$: called injective resolutions.
+
+In other words, abelian sheaf cohomology is of the exact same nature as the familiar cohomology of [[topological space]]s (and hence of [[spectrum|spectra]]) if only we switch from the archetypical [[(∞,1)-topos]] [[Top]] to a more general [[(∞,1)-category of (∞,1)-sheaves|∞-stack (∞,1)-topos]]. And abelian sheaf cohomology in turn subsumes many special cases, such as [[Deligne cohomology]] or [[etale cohomology]].
+
+But this also shows that abelian sheaf cohomology itself is just a very special case of cohomology in an $\infty$-stack $(\infty,1)$-topos: the highly abelian case. For coefficient objects $A \in \mathbf{H}$ that are not maximally abelian (not degreewise in the image of the [[Dold-Kan correspondence]]) the cohomology of an $\infty$-stack topos is a [[nonabelian cohomology]], one that classifies [[principal bundle]]s, nonabelian [[gerbe]]s, [[principal 2-bundle]]s and indeed [[principal ∞-bundle]]s.
+
+And this in turn includes various other notions as special cases. For instance [[group cohomology]] is nothing but the cohomology in $\mathbf{H} = $ [[∞Grpd]] on objects $X = \mathbf{B}G$ that are [[delooping]]s of [[group]]s. And what is called _nonabelian group cohomology_ is nothing but the general case of this where there is no restriction on the coefficient object $A$. Here we can once again replace $\infty Grpd$ -- which is the $(\infty,1)$-topos of $\infty$-stacks on the point -- by a more general $\infty$-stack $\infty$-topos. For instance if we take the underlying [[site]] to be [[Diff]], the category of smooth [[manifold]]s, then the objects of $\mathbf{H} = Sh_{(\infty,1)}(Diff)$ are [[Lie ∞-groupoid]]s. Their cohomology is generalized group cohomology that knows about smooth structure: _smooth group cohomology_ . In this context for instance one can give cohomological interpretations of smoth realizations of the [[string 2-group]] or the [[fivebrane 6-group]].
+
+There are some slight variations on the theme that cohomology is all about connected components of hom-spaces in [[(∞,1)-topos]]es: by looking at [[pullback]]s of such hom-spaces instead, one finds all variants of [[twisted cohomology]]. From there, one finds abelian [[differential cohomology]]. And then [[schreiber:Differential Nonabelian Cohomology|nonabelian differential cohomology]].
 
 A non-technical account of some concepts in cohomology from this perspective is at 
 
 * [[motivation for sheaves, cohomology and higher stacks]].
 
 
-#Definition#
+## Definition ##
 
-## General (or "nonabelian" or "unstable") cohomology ##
+### General (or "nonabelian" or "unstable") cohomology ###
 
 Given an [[(∞,1)-topos]] $\mathbf{H}$, for any two [[objects]] $X$, $A$ of $\mathbf{H}$ the **cohomology** of $X$ with coefficients in $A$ is nothing but the [[hom-space]] $\mathbf{H}(X,A)$ (an [[∞-groupoid]]).
 
@@ -42,7 +81,7 @@ $$
 
 This is itself a group -- the [[cohomology group]] -- if $A$ happens to carry a group structure (being a [[2-group]] or [[cat-n-group]] or the like).
 
-## What this mean in more detail ##
+### What this mean in more detail ###
 
 Or, in the language of self-described 'old farts' such as [[Jim Stasheff]]:
 
@@ -68,7 +107,7 @@ Jim, I\'ve formatted this as if it were a quotation, since it looks like you pas
 =--
 
 
-## relation to homotopy ##
+### relation to homotopy ###
 
 By abstract [[duality]], cohomology is dual to [[homotopy (as an operation)]].
 
@@ -87,20 +126,13 @@ Such an object usually has the interpretation of a [[principal ∞-bundle]]. Spe
 
 * Notice that this definition is in a way the very point of the notion of [[(∞,1)-topos]]: an [[(∞,1)-topos]] is supposed to be an [[(∞,1)-category]] which behaves structurally exactly like the [[(∞,1)-category]] [[Top]] of [[topological spaces]]. Since cohomology of topological spaces is nothing but homotopy classes of maps between topological spaces, the analogous statement should be true in a general [[(∞,1)-topos]]. This is what the above definition asserts.
 
-## Abelian (stable) cohomology ##
+## Remarks ##
 
-Analogous to the above, but with $H$ now
-a [[stable (∞,1)-category]]. 
-
-See also [[chain homology and cohomology]].
-
-#Remarks#
-
-## Grading ##
+### Grading ###
 
 Notice that the grading one usually sees on cohomology classes is in the above definition entirely encoded in the [[higher category theory|categorical degree]] of the coefficient object. The cohomology $H(X,A)$ is the usual degree $0$ cohomology with coefficients in $A$. Cohomology of other degree can be obtained by looping or delooping the coefficients $A$. For example, if $A$ is a 0-type which is $n$-times de-loopable to an $n$-[[homotopy n-type|type]] $B^n A$, then degree $n$ cohomology with coefficients in $A$ is cohomology with coefficients in $\mathbf{B}^n A$: $H^n(X,A) := H(X, \mathbf{B}^n A)$. Similarly, looping can be used to define negative cohomology.
 
-#Examples#
+## Examples ##
 
 * classes of special cases of cohomologies with their own entries include
 
@@ -110,9 +142,31 @@ Notice that the grading one usually sees on cohomology classes is in the above d
 
   * [[generalized (Eilenberg-Steenrod) cohomology]]
 
+    * [[integral cohomology]]
+
+    * [[K-theory]]
+  
+    * [[elliptic cohomology]]
+  
+    * [[tmf]]
+
+    * [[complex cobordism cohomology theory|complex cobordism]]
+
   * [[abelian sheaf cohomology]]
 
+    * [[Deligne cohomology]]
+
+    * [[etale cohomology]]
+
   * [[nonabelian cohomology]]
+
+    * [[principal bundle]]
+
+    * [[gerbe]]/[[principal 2-bundle]]
+
+    * [[principal ∞-bundle]]
+ 
+    * [[orientation]], [[spin structure]], [[string structure]], [[fivebrane structure]]
 
   * [[?ech cohomology]]
 
@@ -159,7 +213,7 @@ Zoran: I am not happy with this assertion. First of all the notion of the derive
 
 * Differential cohomology theories are effectively the cohomology theories of [[fundamental ∞-groupoids]]. 
 
-#History and reference#
+## History and references ##
 
 This general perspective on cohomology was established 35 years ago in
 
@@ -211,12 +265,12 @@ A discussion of cohomology in the general sense discussed above, using tools of 
 
 * [[Brian Conrad]], _Cohomological descent_ ([pdf](http://math.stanford.edu/~conrad/papers/hypercover.pdf))
 
-#Related blog entries#
+## Related blog entries ##
 
 * David Corfield, [Cohomology and Homotopy](http://golem.ph.utexas.edu/category/2009/06/cohomology_and_homotopy.html)
 
 
-# Discussion #
+## Discussion ##
 
 +-- {: .query}
 Is it really true/known that *all* forms of cohomology is subsumed in this definition? I would be really happy if this was true, but I am not convinced yet. Some questions:
