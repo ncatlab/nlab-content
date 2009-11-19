@@ -122,7 +122,7 @@ This map $Hom_{Top}(X,Y) \to GeomMor(Sh(X),Sh(Y))$ is an bijection of sets.
 
 That the induced pair $(f^*, f_*)$ forms a geometric morphism is (or should eventually be) discussed at [[inverse image]].
 
-We now show that the map is a bijection, i.e. that every geometric morphism of of sheaf topoi arises this way from a continuous function. We follow page 348 of
+We now show that the map is a bijection, i.e. that every geometric morphism of sheaf toposes arises this way from a continuous function. We follow page 348 of
 
 * MacLane-Moerdijk, [[Sheaves in Geometry and Logic]].
 
