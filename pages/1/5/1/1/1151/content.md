@@ -44,7 +44,7 @@ Therein Brown considers a slightly simplified version of the [[model structure o
 
 One can then understand various "cohomology theories" as nothing but tools for _computing_ $\pi_0 \mathbf{H}(X,A)$ using the known presentations of [[(∞,1)-categorical hom-space]]s: for instance [[?ech cohomology]] computes this spaces by finding cofibrant models for $X$, called [[?ech nerve]]s. Dual to that, most texts on [[abelian sheaf cohomology]] find fibrant models for $A$: called injective resolutions.
 
-In other words, abelian sheaf cohomology is of the exact same nature as the familiar cohomology of [[topological space]]s (and hence of [[spectrum|spectra]]) if only we switch from the archetypical [[(∞,1)-topos]] [[Top]] to a more general [[(∞,1)-category of (∞,1)-sheaves|∞-stack (∞,1)-topos]]. And abelian sheaf cohomology in turn subsumes many special cases, such as [[Deligne cohomology]] or [[etale cohomology]].
+In other words, abelian sheaf cohomology is of the exact same nature as the familiar cohomology of [[topological space]]s (and hence of [[spectrum|spectra]]) if only we switch from the archetypical [[(∞,1)-topos]] [[Top]] to a more general [[(∞,1)-category of (∞,1)-sheaves|∞-stack (∞,1)-topos]]. And abelian sheaf cohomology in turn subsumes many special cases, such as [[Deligne cohomology]], [[etale cohomology]] or [[motivic cohomology]].
 
 But this also shows that abelian sheaf cohomology itself is just a very special case of cohomology in an $\infty$-stack $(\infty,1)$-topos: the highly abelian case. For coefficient objects $A \in \mathbf{H}$ that are not maximally abelian (not degreewise in the image of the [[Dold-Kan correspondence]]) the cohomology of an $\infty$-stack topos is a [[nonabelian cohomology]], one that classifies [[principal bundle]]s, nonabelian [[gerbe]]s, [[principal 2-bundle]]s and indeed [[principal ∞-bundle]]s.
 
@@ -157,6 +157,8 @@ Notice that the grading one usually sees on cohomology classes is in the above d
     * [[Deligne cohomology]]
 
     * [[etale cohomology]]
+
+    * [[motivic cohomology]]
 
   * [[nonabelian cohomology]]
 
