@@ -39,7 +39,8 @@ If the category is required to be a [[locally presentable category]] then no fur
 
 
 +-- {: .un_theorem }
-###### Theorem (small object argument)
+###### Theorem 
+**(small object argument)**
 
 Let  $I \subset Mor(C)$ be a [[set]] of [[morphism]]s in a [[category]] $C$.
 
@@ -71,9 +72,19 @@ where
   
 =--
 
-The small object argument plays a role in the theory of [[cofibrantly generated model category|cofibrantly generated model categories]]. 
++-- {: .un_remark }
+###### Remark
+
+One sometimes says (e.g. _ModLoc_ ) that a collection $I$ of morphisms **admits a small object argument** if all domains are small relative to transfinite composites of pushouts of elements of $I$.
+
+=--
+
++-- {: .un_remark }
+###### Remark
 
 Examples of categories where the argument applies that are _not_ [[presentable category|presentable]] include the category [[Top]] of [[topological space]]s.
+
+=--
 
 
 ##The Construction##
@@ -94,9 +105,15 @@ Additionally, in an [[enriched category|enriched]] situation, ideally one would 
 
 ## References ##
 
-A standard textbook reference is for instance theorem 2.1.14 in 
+Standard textbook references are for instance 
+
+theorem 2.1.14 in 
 
 * Hovey, _Model categories_
+
+or section 10.5 in
+
+* **ModLoc** Hirschhorn, _Model categories and their localization_
 
 A reference with an eye towards [[combinatorial model category|combinatorial model categories]] and [[Smith's theorem]] is
 
