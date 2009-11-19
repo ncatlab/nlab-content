@@ -25,6 +25,8 @@
 
   * [[Deligne cohomology]]
 
+  * [[etale cohomology]]
+
 * [[nonabelian cohomology]]
 
   * [[principal bundle]]
