@@ -1,4 +1,9 @@
-#Idea#
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea ##
 
 From a modern perspective, homological algebra is the study of algebraic objects, (such as groups, rings or Lie algebras, or sheaves of such objects), by 'resolving them', replacing them by  more [[stable infinity-category|stable objects]] whose [[homotopy category of an (infinity,1)-category|homotopy category]] is the [[derived category]] of an [[abelian category]]. 
 
@@ -11,7 +16,7 @@ Homological algebra thus studies, in particular, the [[homology]] of [[chain com
 One of the most refined 1-categorical approximations to the right context in which such [[chain complex]]es live is axiomatized by the structure of a [[triangulated category]]. Perhaps the better context however is the corresponding [[stable infinity-category]], of which the triangulated category in question is just the [[homotopy category of an (infinity,1)-category|homotopy category]] possibly enriched by derived Kan extensions as in the theory of [[derivateur|dérivateurs]].
 
 
-#Entries on concepts in homological algebra#
+## Entries on concepts in homological algebra ##
 
 * [[additive and abelian categories]]
 
@@ -22,16 +27,16 @@ One of the most refined 1-categorical approximations to the right context in whi
 * [[triangulated category]]
  
 
-#References#
+## References ##
 
-* Weibel, _Homological algebra_
+* [[Charles Weibel]], _Homological algebra_
 
-* J. Lurie, [[Stable Infinity-Categories]]
+* [[Jacob Lurie]], [[Stable Infinity-Categories]]
 
 
 ***
 
-#Discusssion#
+## Discusssion ##
 
 A previous version of this entry had triggered the following discussion:
 
