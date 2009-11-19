@@ -39,8 +39,7 @@ If the category is required to be a [[locally presentable category]] then no fur
 
 
 +-- {: .un_theorem }
-###### Theorem 
-**(small object argument)**
+###### Theorem (small object argument)
 
 Let  $I \subset Mor(C)$ be a [[set]] of [[morphism]]s in a [[category]] $C$.
 
