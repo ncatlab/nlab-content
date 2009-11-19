@@ -1,8 +1,13 @@
-#Idea
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea ##
 
 The construction of &#268;ech homology used coverings of the space by families of open sets. The way the open sets overlap gives 'combinatorial' information on the space. 
 
-This has been abstracted and extended to homotopy and also in the direction of algebraic geometry. This article aims to introduce some of the main ways this idea has interacted with some of the many themes in the nLab.
+This has been abstracted and extended to [[homotopy]] and also in the direction of algebraic geometry. This article aims to introduce some of the main ways this idea has interacted with some of the many themes in the nLab.
 
  
 ##History (&#268;ech 1930s)##
@@ -15,6 +20,8 @@ Historically these data were organizes as a  [[simplicial complex]], rather than
 so one often talks about Aleksandrov--&#268;ech (co)homology. There was an alternative approach described by Vietoris (1927), which led to what is known as [[Vietoris homology]]  There are separate entries in nlab for [[Čech homology]]
 and [[Čech cohomology]]. The first is not exact, and so is  not really
 a homology theory in the sense of Steenrod--Eilenberg axioms. It is also not the (Alexander--Spanier) dual of &#268;ech cohomology.  The two problems  can be avoided at the same time using coherent homotopy theory. The resulting homology is one which is exact.  It also is one that satisfies the wedge axiom, and then it is the unique such theory, nowadays sometimes called [[strong homology]] and in special cases it reduces to what was called [[Steenrod-Sitnikov homology]] (but which was originally constructed in a different way).
+
+
 
 ##Definitions##
 
@@ -39,7 +46,8 @@ $\mathbf{A}$, i.e.,  a
 [[pro-object]]  in $\mathbf{A}$, but the $C(X,\alpha)$ by themselves do _not_ define a pro-object in the category of simplicial sets. 
 
 
-###&#268;ech homology and cohomology###
+### &#268;ech homology and cohomology ###
+
 Aleksandrov and &#268;ech in the 1930s, applied 
 homology and cohomology in this situation to extend simplicially-based
 homology to a much wider class of spaces.  Lefshetz, without the language of
@@ -48,14 +56,14 @@ systems of polyhedra and maps between them and his student Christie looked at th
 
 * see [[Čech cohomology]] for more on this.
 
-###Shape theory as a [[Čech homotopy]] theory###
-Borsuk (1968)
- developed Shape Theory, which although initially very
-geometric in flavour turned out also to be described in terms of Christie's
+### Shape theory as a &#268;ech homotopy theory ###
+
+Borsuk (1968) developed [[shape theory]], which although initially very geometric in flavour turned out also to be described in terms of Christie's
 theory of the "&#268;ech extensions" of homotopy theory, (see [[shape theory]] for references and more on this area.
 
 
-###&#268;ech-like methods in algebraic geometry###
+### &#268;ech-like methods in algebraic geometry ###
+
 The use of modified &#268;ech methods in algebraic geometry was well
 established when Grothendieck and his collaborators in Paris started adapting
 it to work with a [[Grothendieck topology]].  Verdier in SGA4,
