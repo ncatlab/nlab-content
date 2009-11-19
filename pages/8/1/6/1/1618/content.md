@@ -14,7 +14,7 @@ $$
 That is, it\'s a [[global element]] of the topos.
 
 +--{.query}
-Zoran: folowing Mike I moved the discussion of 1-categorical nature of the presheaf of categories of geometric morphisms into [[zoranskoda:discussion from point of a topos|my part of the nlab]].
+[[Zoran Škoda]]: following Mike I moved the still going on discussion of 1-categorical nature of the presheaf of categories of geometric morphisms into [[zoranskoda:discussion from point of a topos|my part of the nlab]].
 =--
 
 
