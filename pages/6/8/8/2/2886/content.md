@@ -1,24 +1,34 @@
-Measure coalgebras are an enrichment of the category of commutative rings (or commutative $\mathbb{Z}$-algebras) in the cartesian closed [[category of cocommutative coalgebras]]. 
+# Measure coalgebras
+* tic
+{: toc}
 
-The starting point is the observation that the category of cocommutative coalgebras $Coalg$ acts on the category of commutative algebras $Alg$: there is a functor 
+
+## Idea
+
+Measure coalgebras are an [[enriched category|enrichment]] of the category of [[commutative rings]] (or commutative $\mathbb{Z}$-algebras) in the [[cartesian closed category]] of [[cocommutative coalgebra|cocommutative coalgebras]]. 
+
+The starting point is the observation that the category of cocommutative coalgebras $Coalg$ acts on the category of [[commutative algebras]] $Alg$: there is a functor 
 
 $$\{-, -\}: Coalg \times Alg \to Alg$$ 
 
-where, given a coalgebra $C$ and an algebra $A$, $\{C, A\}$ is the abelian-group hom of additive homomorphisms $f: C \to A$, made into an algebra whose multiplication $f \cdot g$ is given by 
+where, given a coalgebra $C$ and an algebra $A$, $\{C, A\}$ is the [[abelian group|abelian-group]] [[hom-object|hom]] of additive homomorphisms $f: C \to A$, made into an algebra whose multiplication $f \cdot g$ is given by 
 
 $$C \overset{d}{\to} C \otimes C \overset{f \otimes g}{\to} A \otimes A \overset{m}{\to} A$$ 
 
-where $d$ is the coalgebra comultiplication and $m$ is the algebra multiplication. "Action" here means that there is a natural isomorphism 
+where $d$ is the coalgebra comultiplication and $m$ is the algebra multiplication. That this is an "action" here means that there is a natural isomorphism 
 
 $$\{C \otimes D, A\} \cong \{C, \{D, A\}\}$$ 
 
 of algebras; here $Alg$ is sometimes described as an [[actegory]] over $Coalg$. 
 
-Given two algebras $A$, $B$, the **measure coalgebra** $\mu(A, B)$ is by definition the representing object of the functor 
+
+## Definition
+
+Given two algebras $A, B$, the **measure coalgebra** $\mu(A, B)$ is by definition the [[representing object]] of the functor 
 
 $$Alg(A, \{-, B\}): Coalg^{op} \to Set$$ 
 
-so that there is an isomorphism, natural for coalgebras $C$, of the form
+so that there is an isomorphism, [[natural isomorphism|natural]] for coalgebras $C$, of the form
 
 $$Coalg(C, \mu(A, B)) \cong Alg(A, \{C, B\})$$ 
 
@@ -30,7 +40,7 @@ where the composition law in $Coalg$
 
 $$\mu(A_0, A_1) \times \mu(A_1, A_2) \to \mu(A_0, A_2)$$ 
 
-(noting that the cartesian product in $Coalg$ is the tensor product of the underlying additive groups) is derived by universality from a composition of maps: 
+(noting that the [[product]] in $Coalg$ is the [[tensor product]] of the underlying additive groups) is derived by universality from a composition of maps: 
 
 $$\array{ 
 Coalg(C, \mu(A_0, A_1) \times \mu(A_1, A_2)) & \cong & Coalg(C, \mu(A_0, A_1)) \times Coalg(C, \mu(A_1, A_2)) & (Coalg(C, -) preserves products)\\
