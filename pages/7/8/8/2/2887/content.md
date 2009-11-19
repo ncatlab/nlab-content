@@ -17,3 +17,6 @@ At the moment I am mostly interested in algebraic stacks. A brief list of intere
 * non-noetherian objects
 
 * **Commutative algebra** (from a geometric viewpoint): divided powers, seminormality, weak normality, ideal closures such as tight closure, absolute flat (and perfect) rings
+
+
+category: people
