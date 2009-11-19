@@ -25,7 +25,7 @@ From a fundamental category theoretic perspective, there are two fundamental kin
 
 #Definition#
 
-A _duality_ or _dual equivalence_ is an [[equivalence of categories|equivalence]] between a category $C$ and the abstract dual (i.e. [[opposite category|opposite]]) of a category $D$.
+A _duality_ or _[[dual equivalence]]_ is an [[equivalence of categories|equivalence]] between a category $C$ and the abstract dual (i.e. [[opposite category|opposite]]) of a category $D$.
 
 #Remarks#
 
