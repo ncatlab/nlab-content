@@ -7,6 +7,8 @@
 
 * [[(∞,n)-category]]
 
-* [[Theta space]]
+* [[higher topos theory]]
+
+* [[Theta space]]/[[(n,r)-category]]
 
 category: people
