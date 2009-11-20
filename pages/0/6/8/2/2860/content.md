@@ -100,6 +100,8 @@ Furthermore, if I wish to interpret the resulting biring as representing a funct
 
    Phew!  "Oh what a tangeled web we weave, when first we practise to understand category theory."
 
+   _Toby_:  OK, so when you wrote 'I need to take abelian group homs not coalgebra homs', you weren\'t still specifying the source of the functor but were instead specifying how that biring *represents* the functor.  Now it makes sense!
+
 This all generalises quite nicely: replace abelian groups by a [[commutative algebraic theory]] and replace rings (rather, replace monoids) by a [[PRO]].  Then the PRO-objects in the commutative algebraic theory will again be an algebraic theory and the free functor from the commutative theory to the other one has lots of nice properties.
 
 But this _felt_ like it was a specialisation of an even more general story.  My mistake was to try to guess the general story first rather than tell you the special case.
