@@ -5,9 +5,9 @@
 
 ## Idea
 
-Measure coalgebras are an [[enriched category|enrichment]] of the category of [[commutative rings]] (or commutative $\mathbb{Z}$-algebras) in the [[cartesian closed category]] of [[cocommutative coalgebra|cocommutative coalgebras]]. 
+Measure coalgebras are an [[enriched category|enrichment]] of the category of [[commutative rings]] (or commutative $\mathbb{Z}$-algebras) in the [[cartesian closed category]] $k$ [[Cocomm Coalg]] of [[cocommutative coalgebra|cocommutative]] [[coalgebras]] (which we will write simply as $Coalg$), given a [[ground field]] $k$. 
 
-The starting point is the observation that the category of cocommutative coalgebras $Coalg$ acts on the category of [[commutative algebras]] $Alg$: there is a functor 
+The starting point is the observation that the category $Coalg$ acts on the category [[CommAlg|Alg]] of [[commutative algebras]]: there is a functor 
 
 $$\{-, -\}: Coalg^{op} \times Alg \to Alg$$ 
 
@@ -21,6 +21,7 @@ $$\{C \otimes D, A\} \cong \{C, \{D, A\}\}$$
 
 of algebras; here $Alg$ is sometimes described as an [[actegory]] over $Coalg$. 
 
+
 ## Definition
 
 Given two algebras $A, B$, the **measure coalgebra** $\mu(A, B)$ is by definition the [[representing object]] of the functor 
@@ -31,13 +32,13 @@ so that there is an isomorphism, [[natural isomorphism|natural]] for coalgebras 
 
 $$Coalg(C, \mu(A, B)) \cong Alg(A, \{C, B\})$$ 
 
-Assume the existence of equalizers in $Coalg$, and of a right adjoint 
+Assume the existence of [[equalizers]] in $Coalg$, and of a [[right adjoint]]
 
-$$Cof: k-Mod \to Coalg$$ 
+$$Cof: Vect \to Coalg$$ 
 
-to the forgetful functor $U: Coalg \to k-Mod$ (cofree cocommutative coalgebra construction). We let 
+to the forgetful functor $U: Coalg \to Vect$ (the [[cofree object|cofree]] cocommutative coalgebra construction). We let 
 
-$$\pi: U \circ Cof \to 1_{k-Mod}$$ 
+$$\pi: U \circ Cof \to 1_{Vect}$$ 
 
 denote the counit of the adjunction $U \dashv Cof$. 
 
@@ -45,7 +46,7 @@ We construct $\mu(A, B)$ explicitly as the equalizer in $Coalg$ of a pair of map
 
 $$Cof(B^A) \overset{\to}{\to} Cof(B^{A \otimes A}) \times Cof(B^k)$$ 
 
-where we denote the internal hom in $k$-$Mod$ by exponentiation (and we recall here that the cartesian product in $Coalg$ is given by tensor product at the level of $k$-$Mod$). The first of these maps is 
+where we denote the internal hom in $Vect$ by exponentiation (and we recall here that the cartesian product in $Coalg$ is given by tensor product at the level of $Vect$). The first of these maps is 
 
 $$\langle Cof(B^{m_A}), Cof(B^{u_A}) \rangle: Cof(B^A) \to Cof(B^{A \otimes A}) \times Cof(B^k)$$ 
 
@@ -66,6 +67,7 @@ The map $\Psi: Cof(B^A) \to Cof(B^k)$ is the unique coalgebra map such that $U \
 $$U Cof(B^A) \overset{\varepsilon}{\to} k \overset{u_B}{\to} B \cong B^k$$ 
 
 through $\pi: U Cof(B^A) \to B^A$. Here $\varepsilon$ denotes the counit (same as the unique map to the terminal object as seen in $Coalg$). 
+
 
 ## Enrichment of algebras in coalgebras 
 
