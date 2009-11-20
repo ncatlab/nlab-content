@@ -10,13 +10,13 @@
 
 ## Idea ##
 
-Motivic cohomology was for a long time a hypothetical [[cohomology]] theory on [[scheme]]s whose hypothetical existence [[Alexander Grothendieck]] proposed in the 1960s should be the underlying reason for what are called the [[standard conjectures on algebraic cycles]].
+Motivic cohomology was for a long time a hypothetical [[cohomology]] theory of [[scheme]]s whose hypothetical existence [[Alexander Grothendieck]] proposed in the 1960s should be the underlying reason for what are called the [[standard conjectures on algebraic cycles]].
 
-In the mid 1990s [[Vladimir Voevodsky]] proposed a concrete definition of motivic cohomology of a [[scheme]] $X$ as the [[abelian sheaf cohomology]] of [[sheaf|sheaves]] on the Zariski or [[etale cohomology|etale]] [[site]] of $X$ (an analog of the [[category of open subsets]] of a [[topological space]]) with coefficients in a complex of sheaves $A$ called the **motivic complex**.
+In the mid 1990s [[Vladimir Voevodsky]] proposed a concrete definition of motivic cohomology of a smooth [[scheme]] $X$ over a field as the hypercohomology of certain complex of sheaves on the Zariski or [[etale cohomology|etale]] [[site]] of $X$ (an analog of the [[category of open subsets]] of a [[topological space]]). This complex is called the **motivic complex**; existence of such complexes was predicted as part of so-called Beilinson dream. 
 
-He also gave a concrete definition of the hypothetized [[category of motives]], whose objects are [[scheme]]s but whose morphisms are certain [[correspondence]]s, and showed that motivic cohomology is realized as derived hom-complexes in this category of motives.
+Voevodsky gave a concrete definition of the derived category of the hypothetical [[category of motives|category of mixed motives]]. Category of motives has both more objects, but also more morphisms than the category of schemes and it comes with a functor from an appropriate category of schemes.  Morphisms are certain [[correspondence]]s, and Voevodsky has shown that the motivic complexes are realized as derived hom-complexes in his derived category of mixed motives.
 
-Voevodsky's proposal could be shown to have all of the properties that Grothendieck had demanded on the hypothetical cohomology theory, except that to date it hasn't been shown yet that the cohomology groups vanish in negative degree, as they should.
+Voevodsky's proposal has been shown to have most properties that Grothendieck and Beilinson had demanded on the hypothetical cohomology theory, except that to date it hasn't been shown yet that the cohomology groups vanish in negative degree, as they should.
 
 ## Voevodsky's definition ##
 
@@ -26,7 +26,7 @@ The **motivic complex** -- a [[chain complex]] of [[sheaf|sheaves]] with values 
 * Carlo Mazza, Vladimir Voevodsky and Charles Weibel, _Lectures in motivic cohomology_ ([web](http://math.rutgers.edu/~weibel/motiviclectures.html) [pdf](http://www.math.rutgers.edu/~weibel/MVWnotes/prova-hyperlink.pdf))
 
 
-The definition of motivic cohomology on a [[scheme]] $X$ as the [[abelian sheaf cohomology]] with respect to the Zariski site structure on $X$ and with coefficients in the motivic complex is [definition 3,4, page 22](http://www.math.rutgers.edu/~weibel/MVWnotes/prova-hyperlink.pdf#page=34).
+**Definition.** Motivic cohomology of a [[smooth scheme]] $X$ is the [[abelian sheaf cohomology]], more specifically hypercohomology, of the motivic complex of sheaves with transfers on the Zariski site. See [definition 3,4, page 22](http://www.math.rutgers.edu/~weibel/MVWnotes/prova-hyperlink.pdf#page=34).
 
 The analogous definition with the Zariski [[site]] structure of $X$ replaced by the [[etale cohomology|etale site]] $Et(X)$ is in [lecture 10](http://www.math.rutgers.edu/~weibel/MVWnotes/prova-hyperlink.pdf#page=87).
 
