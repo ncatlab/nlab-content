@@ -85,7 +85,7 @@ There are various results stating that under suitable conditions the left Bozusf
 ###### Theorem
 **(Jeff Smith)**
 
-If (with respect to a given [[Grothendieck universe]]) $C$ is a [[combinatorial model category]] and $S \subset Mor(C)$ is a small [[set]] of [[homotopy]]-classes of morphisms, then the left Bousfield localization $L_S C$ does exist.
+If $C$ is a [[proper model category|left proper]] [[combinatorial model category]] and $S \subset Mor(C)$ is a small [[set]] of [[homotopy]]-classes of morphisms, then the left Bousfield localization $L_S C$ does exist.
 
 Moreover, it satisfies the following conditions:
 
@@ -98,7 +98,55 @@ Moreover, it satisfies the following conditions:
 +-- {: .proof}
 ###### Proof
 
-This is theorem 2.11 in [Bar07](http://arxiv.org/abs/0708.2067))
+This appears as theorem 2.11 in [Bar07](http://arxiv.org/abs/0708.2067) and as theorem 4.7 in [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf). 
+
+The proof makes use of [Jeff Smith's recognition theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#jeff_smiths_theorem_5) for [[combinatorial model category|combinatorial model categories]]:
+
+using that, it is sufficient to exhibit a [[set]] $I$ of cofibrations of $L_S C$ such that $inj(I) \subset W_{L_S C}$ and such that $cof(I) \cap W_{L_S C}$ is closed under [[pushout]] and [[transfinite composition]].
+
+For that purpose, choose $I := I_C$ with $I_C$ any set of generating cofibrations of $C$, that exists by assumption on $C$. 
+
+Then $inj(I) = inj(I_C) = fib_C \cap W_C \subset W_C \subset W_{L_S C}$.
+
+It remains to demonstrate closure of $cof(I) \cap W_{L_S C} = cof_C \cap W_{L_S C}$ under pushout and transfinite composition.
+
+For that, notice that $S$-local weak equivalences in $C$ are preserved under [[homotopy limit|homotopy pushouts]]: for $K \stackrel{}{\to}L$ an $S$-local morphism -- a morphism in $W_{L_S C}$ -- and for
+
+$$
+  \array{
+    K &\stackrel{\simeq_S}{\to}& L
+    \\
+    \downarrow && \downarrow
+    \\
+    K' &\to& L'
+  }
+$$
+
+a [[homotopy limit|homotopy pushout]] diagram, we have (by the universal property of homotopy limits) for every object $Z$ -- in particular for every every $S$-[[local object]] $Z$ -- a [[homotopy limit|homotopy pullback]]
+
+$$
+  \array{
+    \mathbf{R}Hom(L',Z) &\to&
+    \mathbf{R}Hom(K',Z)
+    \\
+    \downarrow && \downarrow
+    \\
+    \mathbf{R}Hom(L,Z) &\stckrel{\simeq}{\to}&
+    \mathbf{R}Hom(K,Z)
+  }
+  \,,
+$$
+
+of $\infty$-groupoids. where the bottom morphism is a weak equivalence by assumption of $S$-locality of $Z$ and $(K \to L)$. But then also the top horizontal morphism is a weak equivalence for all $S$-local $Z$ and therefore $K' \to L'$ is in $W_{L_S C}$.
+
+Then notice that 
+
+* the [[proper model category|left properness]] of $C$ implies that all ordinary pushouts of $(K \to L) \in cof_C \cap W_{L_S C}$ are homotopy pushouts 
+
+* and, generally, that all $\kappa$-[[filtered category|filtered colimit]]s are homotopy colimits for sufficienly large $\kappa$.
+
+With the above observation this implies that, indeed, $cof(I) \cap W_{L_S C}$ is closed under pushouts and transfinite composition.
+
 
 =--
 
