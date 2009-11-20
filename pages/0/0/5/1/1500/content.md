@@ -1,10 +1,13 @@
 
+#Contents#
+* automatic tabke of contents goes here
+{:toc}
 
-#Definition#
+## Definition ## 
 
-A **fusion category** is a [[rigid monoidal category|rigid]]  [[semisimple category|semisimple]] linear ([[Vect]]-[[enriched category|enriched]]) [[monoidal category]], with only finitely many isomorphism classes of simple objects, such that the endomorphisms of the unit object form just the [[ground field]] $k$.
+A **fusion category** is a [[rigid monoidal category|rigid]]  [[semisimple category|semisimple]] linear ([[Vect]]-[[enriched category|enriched]]) [[monoidal category]], with only finitely many [[decategorification|isomorphism classes]] of simple objects, such that the [[endomorphism]]s of the unit object form just the [[ground field]] $k$.
 
-#Remarks#
+## Remarks ##
 
 The name "fusion category" comes from the central examples of structures whose canonical [[tensor product]] is called a "fusion product", notably [[representation]]s of [[loop group]]s and of [[Hopf algebra]]s and of [[vertex operator algebra]]s. 
 
@@ -19,7 +22,8 @@ Every fusion category admits a [[pivotal structure]].
 Providing a certain condition is satisfied, a pivotal structure on a fusion category can be shown to correspond to a 'twisted' monoidal natural transformation of the identity functor on the category, where the twisting is given by the [[pivotal symbols]].
 
 
-###### Suggestions for new things to write.
+## Suggestions for new things to write. ##
+
 Three things that it'd be awesome if they were sorted out on this page:
 
 1. Kuperberg's theorem saying that abelian semisimple implies linear over some field. [Finite, connected, semisimple, rigid tensor categories are linear](http://arxiv.org/abs/math/0209256)
@@ -30,7 +34,7 @@ Three things that it'd be awesome if they were sorted out on this page:
 
 Together 1 and 2 let you go between the two different obvious notions of semisimple which seem a bit muddled here when I clicked through the links.
 
-#References
+## References ##
 
 * Math Overflow, [Why are fusion categories interesting?](http://mathoverflow.net/questions/6180/why-are-fusion-categories-interesting).
 * P. Etingof, D. Nikshych and V. Ostrik, [On fusion categories](http://arxiv.org/abs/math/0203060).
