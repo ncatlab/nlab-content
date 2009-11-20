@@ -79,3 +79,4 @@ Recall that the mod 2 Steenrod Hopf algebra is the dual of the commutative Hopf 
  $\Sigma_i\xi_i\otimes v^{2^i}$
 
 
+[[!redirects coalgebras]]
