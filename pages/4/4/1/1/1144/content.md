@@ -101,14 +101,14 @@ A standard textbook is
 * Y. F&#233;lix, S. Halperin and J.C. Thomas, _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000. 
 
 
-Early original articles include
+Early original articles include:
 
-* D. Quillen, _Rational Homotopy Theory_, Ann. of Math., (2) 90 (1969), 205-295.
+* D. Quillen, _Rational homotopy theory_, Ann. of Math., (2) 90 (1969), 205-295.  ([pdf](http://www.jstor.org/stable/1970725))
 
 * D. Sullivan, _Infinitesimal computations in topology_ ([pdf](http://archive.numdam.org/ARCHIVE/PMIHES/PMIHES_1977__47_/PMIHES_1977__47__269_0/PMIHES_1977__47__269_0.pdf))
 
 
-The relation to Lie theory was made fully explicit in
+The relation to Lie theory was made fully explicit in:
 
 * E. Getzler, _Lie theory for nilpotent $L_\infty$-algebras_ ([arXiv](http://arxiv.org/abs/math.AT/0404003))
 
