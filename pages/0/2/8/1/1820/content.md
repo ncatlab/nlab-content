@@ -43,9 +43,13 @@ Here $fib, cof \subset Mor(C)$ is the collection of fibrations and cofibration, 
 
 Jeff Smith's theorem, below, gives an equivalent characterization that is usually easier to handle.
 
-## Jeff Smith's theorem ##
+## Characterization theorems ##
 
-The central theorem about combinatorial model categories is **Jeff Smith's theorem** which establishes the existence of model category structures from a comparatively small amount of input data.
+There are two powerful theorems that characterize combinatorial model categories in terms of data that is often easier to handle:
+
+### Smith's theorem ###
+
+A central theorem about combinatorial model categories is **Jeff Smith's theorem** which establishes the existence of model category structures from a comparatively small amount of input data.
 
 +-- {: .num_theorem }
 ###### Theorem (Jeff Smith)
@@ -130,6 +134,8 @@ $$
 +-- {: .proof}
 ###### Proof
 
+(...)
+
 =--
 
 
@@ -143,11 +149,36 @@ Under the assumptions of Jeff Smith's theorem, a small set $J$ satisfying the co
 +-- {: .proof}
 ###### Proof
 
-...
+(...)
 
 =--
 
-## Tractable combinatorial model categories ##
+### Dugger's theorem ###
+
++-- {: .num_theorem }
+###### Theorem (Jeff Smith)
+
+Every combinatorial model category $C$ is [[Quillen equivalence|Quillen equivalent]] to a left [[Bousfield localization]] $L_S SPSh(K)_{proj}$ of the global projective [[model structure on simplicial presheaves]] $SPSh(K)_{proj}$ on a [[small category]] $K$
+
+$$
+  L_S SPSh(K)_{proj} \stackrel{\simeq_{Quillen}}{\to}
+  C
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Recalled as theorem 4.32 in [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf).
+
+=--
+
+
+
+### Tractable combinatorial model categories ###
 
 A combinatorial model category is a [[tractable model category]] precisely if the set $I$ of generating cofibrations can be chosen such that all elements have a cofibrant object as domain.
 
