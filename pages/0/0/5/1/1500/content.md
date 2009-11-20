@@ -3,9 +3,11 @@
 * automatic tabke of contents goes here
 {:toc}
 
+
 ## Definition ## 
 
-A **fusion category** is a [[rigid monoidal category|rigid]]  [[semisimple category|semisimple]] linear ([[Vect]]-[[enriched category|enriched]]) [[monoidal category]], with only finitely many [[decategorification|isomorphism classes]] of simple objects, such that the [[endomorphism]]s of the unit object form just the [[ground field]] $k$.
+A **fusion category** is a [[rigid monoidal category|rigid]] [[semisimple category|semisimple]] [[linear category|linear]] ([[Vect]]-[[enriched category|enriched]]) [[monoidal category]], with only finitely many [[decategorification|isomorphism classes]] of simple objects, such that the [[endomorphism]]s of the unit object form just the [[ground field]] $k$.
+
 
 ## Remarks ##
 
@@ -22,17 +24,18 @@ Every fusion category admits a [[pivotal structure]].
 Providing a certain condition is satisfied, a pivotal structure on a fusion category can be shown to correspond to a 'twisted' monoidal natural transformation of the identity functor on the category, where the twisting is given by the [[pivotal symbols]].
 
 
-## Suggestions for new things to write. ##
+## Suggestions ##
 
-Three things that it'd be awesome if they were sorted out on this page:
+Here are three things such that it'd be awesome if they were sorted out on this page:
 
-1. Kuperberg's theorem saying that abelian semisimple implies linear over some field. [Finite, connected, semisimple, rigid tensor categories are linear](http://arxiv.org/abs/math/0209256)
+1. Kuperberg's theorem saying that [[abelian category|abelian]] semisimple implies [[linear category|linear]] over some field. [Finite, connected, semisimple, rigid tensor categories are linear](http://arxiv.org/abs/math/0209256)
 
-1. Some correct version of the claim that abelian semisimple is the same as idempotent complete and nondegenerate. [Math Overflow question](http://mathoverflow.net/questions/245/are-abelian-nondegenerate-tensor-categories-semisimple)
+2. Some correct version of the claim that abelian semisimple is the same as [[idempotent complete category|idempotent complete]] and nondegenerate. [Math Overflow question](http://mathoverflow.net/questions/245/are-abelian-nondegenerate-tensor-categories-semisimple)
 
-1. Good notation distinguishing simple versus absolutely simple (is End(V) = k or just V has no nontrivial proper subobjects).
+3. Good notation distinguishing [[simple object|simple]] versus [[absolutely simple object|absolutely simple]] (is $End(V) = k$ or just $V$ has no nontrivial proper subobjects).
 
 Together 1 and 2 let you go between the two different obvious notions of semisimple which seem a bit muddled here when I clicked through the links.
+
 
 ## References ##
 
