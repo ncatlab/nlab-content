@@ -9,7 +9,7 @@ The category of motives is something like an _abelianization_ and [[derived sche
 
 a _motive_ is a complex of sheaves on a category whose objects are [[scheme]]s, but whose morphism are certain [[correspondence]]s between [[scheme]]s (much like a [[groupoidification]] of the category of schemes).
 
-## Definition ##
+## Voevodsky's definition ##
 
 
 Associated to a [[Noetherian scheme]] $S$ there is a [[category]] $Cor_S$ of [[correspondence]]s of [[scheme]]s, whose
@@ -57,3 +57,5 @@ There is also
 *  Mihnyong Kim, [Classical Motives: Motivic $L$-functions](http://www.ucl.ac.uk/~ucahmki/ihes3.pdf)
 
 * Bruno Kahn, [pdf slides](http://www.aimath.org/WWN/motivesdessins/PaloAlto1.pdf) on pure motives
+
+[[!redirects category of motives]]
