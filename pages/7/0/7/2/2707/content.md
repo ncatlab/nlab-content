@@ -47,7 +47,7 @@ See [prop. 14.16, p. 114](http://www.math.rutgers.edu/~weibel/MVWnotes/prova-hyp
 [[Madham Nori]] has an approach to the theory of motives based on a peculiar kind of Tannakian reconstruction, the so called _Nori Tannakian theorem_. 
 
 
-## related entries ##
+## Related entries##
 
 * [[pure motive]]
 
@@ -55,10 +55,17 @@ See [prop. 14.16, p. 114](http://www.math.rutgers.edu/~weibel/MVWnotes/prova-hyp
 
 * [[Voevodsky motive]]
 
+##Extensions##
+
+Correspondences are interesting in the noncommutative geometry of operator algebra flavour. For example, KK-groups are in fact themselves sort of correspondences; Connes and Skandalis had an early reference very much paralleling some ideas from algebraic world. More recently, motives in operator algebraic setup are approached by Connes, Marcolli and others. 
+
+In derived [[noncommutative algebraic geometry]] based on $A-\infty$ categories, Kontsevich proposed a theory of noncommutative motives. 
+
+In [[birational geometry]], Bruno Kahn defined the appropriate version. In [[rigid analytic geometry]], $A^1$-homotopy theory is replaced by $B^1$-homotopy theory and the appropriate analogue of the Voevodsky's category of mixed motives has been constructed, the construction follows the same basic pattern. 
 
 ## References ##
 
-Some pretty useful comments on motives ar at this MathOverflow thead:
+Some pretty useful comments on motives are at this MathOverflow thead:
 
 * [What's the "Yoga of Motives?"](http://mathoverflow.net/questions/2146/whats-the-yoga-of-motives/2230#2230)
 
