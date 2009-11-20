@@ -37,7 +37,7 @@ More abstractly, this is equivalently characterized by saying
 
 The _locally_ in _locally presentable category_ refers to the fact that it is the _objects_ that are presentable, not the category as such:
 
-the term _finitely presentable category_ means something completely different: a [[presentable object]] in [[Cat]].
+(For instance, consider the notion of "locally finitely presentable category," in which the generating set $S$ consists of [[finitely presentable object]]s, i.e. $\omega$-small ones. If you drop the word "locally" then you would get "[[finitely presentable category]]" which means something completely different, namely a finitely presentable ($\omega$-small) object of [[Cat]].)
 
 Another notion of "presentable category" is [[algebraic category|equationally presentable category]].
 
