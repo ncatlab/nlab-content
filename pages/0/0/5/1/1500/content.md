@@ -32,6 +32,7 @@ Together 1 and 2 let you go between the two different obvious notions of semisim
 
 #References
 
+* Math Overflow, [Why are fusion categories interesting?](http://mathoverflow.net/questions/6180/why-are-fusion-categories-interesting).
 * P. Etingof, D. Nikshych and V. Ostrik, [On fusion categories](http://arxiv.org/abs/math/0203060).
 * P. Etingof and D. Calaque, [Lectures on tensor categories](http://arxiv.org/abs/math/0401246).
 * M. M&#252;ger, [Tensor categories: A selective guided tour](http://arxiv.org/abs/0804.3587).
