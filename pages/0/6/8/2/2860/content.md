@@ -96,6 +96,10 @@ Furthermore, if I wish to interpret the resulting biring as representing a funct
 
    But I don\'t understand why you need to use this instead of simply the category of coalgebras.  After all, if you have a functor from the full image, then you certainly have a functor from the category of coalgebras by composing with the inclusion functor of coalgebras into the full image.  On the other hand, it seems very strange that you can define this functor on arbitrary abelian group homomorphisms.  Applying this to abelian group isomorphisms, you are basically saying that, if you start with two different coalgebra structures on a given abelian group, the resulting birings will be isomorphic.  Is that true?
 
+  Andrew --- Okay, I still wasn't being completely clear.  I _do_ mean the category of coalgebras.  But the _functor_ is constructed by taking the composition of the functor from coalgebras to abelian groups and _then_ taking the hom-functor _in abelian groups_ with a biring.  So if $C$ is a coalgebra and $B$ is a biring then I want to consider $Hom_{Ab}(C,B)$.  That's again a ring and it's functorial for _coalgebra_ morphisms.
+
+   Phew!  "Oh what a tangeled web we weave, when first we practise to understand category theory."
+
 This all generalises quite nicely: replace abelian groups by a [[commutative algebraic theory]] and replace rings (rather, replace monoids) by a [[PRO]].  Then the PRO-objects in the commutative algebraic theory will again be an algebraic theory and the free functor from the commutative theory to the other one has lots of nice properties.
 
 But this _felt_ like it was a specialisation of an even more general story.  My mistake was to try to guess the general story first rather than tell you the special case.
