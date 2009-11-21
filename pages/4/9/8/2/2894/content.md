@@ -6,7 +6,10 @@ This page describes some nice properties of the [[category]] $R Cocomm Coalg$ of
 Michael Barr, [Coalgebras over a commutative ring](ftp://ftp.math.mcgill.ca/pub/barr/coalgebra.pdf), J. Alg. 32 (1974), 600--610. 
 
 
-[[!redirects category of cocommutative coalgebras]]
 [[!redirects Cocomm Coalg]]
+[[!redirects CommCoalg]]
+[[!redirects Comm Coalg]]
+[[!redirects category of cocommutative coalgebras]]
+[[!redirects category of commutative coalgebras]]
 
 category: category
