@@ -74,7 +74,7 @@ A **localization** of $C$ by $W$ (or "at $W$") is
 
   * for any category $A$ and any [[functor]] $F : C \to A$ such that $F(w)$ is an [[isomorphism]] for all $w \in W$, there exists a functor $F_W : W^{-1}C \o A$ and a [[natural transformation|natural isomorphism]] $F \simeq F_W \circ Q$;
 
-  * the [[functor]] of [[functor category|functor categories]] $(-)\circ Q : Funct(W^{-1}C, A) \to Funct(C,A)$ is [[full and faithful]].
+  * the [[functor]] of [[functor category|functor categories]] $(-)\circ Q : Funct(W^{-1}C, A) \to Funct(C,A)$ is [[fully faithful functor|full and faithful]].
 
 #Remarks#
 
