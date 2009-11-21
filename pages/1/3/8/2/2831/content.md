@@ -19,3 +19,7 @@ Consider the following table.  The basic thesis of this page is that, if you are
 In the first several rows, we trust that people know about the order-theoretic concept before we teach them about category theory, so we can and do use these rows pedagogically.  But after that, we cannot trust that people know about the order-theoretic concepts, so we teach the category-theoretic concepts without them ---but *the order-theoretic concepts are still simpler*, so maybe we should teach (or learn) about them first.
 
 This is an example of [[negative thinking]], but perhaps not more negative than normal.  It is common to go down as far as $0$-categories, but not so common to move to $(0,1)$-categories before pushing on to $1$-categories.
+
++--{.query}
+[[Sridhar Ramesh]]: In every instance but one, the right column is the instance of the left column in the context of preorders (with perhaps some negligible mismatch in the direction of imposing further conditions; e.g., Heyting algebras requiring coproducts as well). However, the one glaring exception is that locales are not, themselves, Grothendieck topoi that happen to be preorders. Of course, there is a relation between the two, such that understanding the one could help understand the other, but in the context of the rest of the table, it seems misleading to suggest that this is the same kind of connection as in all the other instances.
+=--
