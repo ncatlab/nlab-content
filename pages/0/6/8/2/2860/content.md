@@ -108,6 +108,20 @@ But this _felt_ like it was a specialisation of an even more general story.  My 
 
 (Not that I regard this particularly as a _mistake_!  It was enough to learn about [[PRO|PROs]] and it's all part of learning how to ask good questions.)
 
+_Todd_: Okay, so to pick up the thread again, here is a preliminary observation. Suppose we have an operad $P$ (giving rise to a prop $Pr(P)$) and a symmetric monoidal closed category $K$ (such as the category of abelian groups, or the category of algebras of a commutative monad on $Set$), then a $P$-algebra is essentially the same as a symmetric monoidal functor $A: Pr(P) \to K$, and we can define a $P$-coalgebra to be a symmetric monoidal functor $C: Pr(P)^{op} \to K$. Let $A_1$ and $C_1$ denote the underlying $K$-objects (= values of $A$ and $C$ at tensor-generating object 1 of $Pr(P)$), and let $K(-, -)$ denote internal hom in $K$. Then we can define a $P$-algebra structure with underlying object $K(C_1, A_1)$ whose operations 
+
+$$\widehat{\theta}: K(C_1, A_1)^{\otimes n} \to K(C_1, A_1)$$ 
+
+are obtained as composites 
+
+$$K(C_1, A_1)^{\otimes n} \to K(C_{1}^{\otimes n}, A_{1}^{\otimes n}) \overset{K(C(\theta), A(\theta))}{\to} K(C_1, A_1)$$ 
+
+where the first map is a canonical map available in any symmetric monoidal closed category. If we denote this $P$-algebra by $K(C, A)$, then this gives us an [[actegory]] action 
+
+$$K(-, -): Coalg_P^{op} \times Alg_P \to Alg_P$$ 
+
+and in this framework one could go on to consider $P$-bialgebras, etc. I think this is what you were getting at or had observed yourself; Barr touches upon this sort of thing in the paper I mentioned over at [[CommCoalg]] or whatever we're calling it now. I don't know how well it generalizes to general props or pros. 
+
 =--
 
 
