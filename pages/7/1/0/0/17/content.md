@@ -55,6 +55,9 @@ If your favorite editor is [Emacs](http://www.gnu.org/software/emacs/) with [Auc
 
 This will tell Emacs to automatically edit nLab pages (and nCafe comments as well, for good measure) in LaTeX mode, with long lines wrapped using soft returns, and ordinary double-quotes rather than LaTeX ones.
 
+## How to print a page from the nLab ##
+
+If you just print it directly, the logo will become a huge blob that takes up the entire first page.  I know, we can and should fix this, but we haven\'t.  So for now, use the 'Print' link at the bottom of the page.  As a shortcut in most browsers on most operating systems, hit Alt-Shift-P while the focus is in the page to go to the printable page.
 
 ## How to customize the nLab ##
 
@@ -109,7 +112,7 @@ To create your user page, simply click the question mark that appears next to yo
 
 ## Naming conventions ##
 
-These are not set in stone, but we\'re following them for now. Most days, [[Toby Bartels]] goes around and corrects any violations (while reading the new material). But changing page titles results in unnecessary kruft (in [category: redirect](http://www.ncatlab.org/nlab/list/redirect)), so you should try to follow these if possible (or dispute them if not!).
+These are not set in stone, but we\'re following them for now. Changing page titles results in unnecessary work for the [[lab elves]], so you should try to follow these if possible (or dispute them if not).  It is most important to follow these in links to pages that don\'t yet exist, so that the pages will be created at the correct title (and only once).
 
 * Page titles should contain only ASCII characters.
   * Examples: `[[omega-category]]` instead of `[[$\omega$-category]]` or `[[∞-category]]`.
