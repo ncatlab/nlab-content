@@ -1,6 +1,6 @@
 > Lately I\'ve been thinking that, just as higher category theory is easier to learn if one already knows [[category theory]], so category theory itself is easier to learn if one already knows [[order theory]].  If I\'d said [[set theory]] (in a na&#239;ve sense) instead of order theory just now, then there would be nothing controversial about this; but many (not all) features of category theory that don\'t apply to groupoids or sets do already apply to posets, and it\'s pedagogically unsound to skip over those.  ---[[Toby Bartels]]
 
-Consider the following table.  The basic thesis of this page is that, if you are having trouble understanding an item in the left column, then first you should understand the item in the right column.  (Each item on the right is the [[decategorification]] of the item on the left.)
+Consider the following table.  The basic thesis of this page is that, if you are having trouble understanding an item in the left column, then first you should understand the item in the right column.  (Each item on the right is a [[decategorification]] of the item on the left.)
 
 | Category theory | Order theory |
 | - | - |
@@ -11,7 +11,7 @@ Consider the following table.  The basic thesis of this page is that, if you are
 | [[colimit]] | [[join]] |
 | [[functor]] | [[monotone function]] |
 | [[dual adjunction]] | [[Galois connection]] |
-| [[cartesian closed category]] | [[Heyting algebra]] |
+| [[cartesian closed category|cartesian closed]] [[pretopos]] | [[Heyting algebra]] |
 | [[Grothendieck topos]] | [[locale]] |
 | [[monad]] | [[Moore closure]] |
 | ... | ... |
@@ -22,4 +22,6 @@ This is an example of [[negative thinking]], but perhaps not more negative than 
 
 +--{.query}
 [[Sridhar Ramesh]]: In every instance but one, the right column is the instance of the left column in the context of preorders (with perhaps some negligible mismatch in the direction of imposing further conditions; e.g., Heyting algebras requiring coproducts as well). However, the one glaring exception is that locales are not, themselves, Grothendieck topoi that happen to be preorders. Of course, there is a relation between the two, such that understanding the one could help understand the other, but in the context of the rest of the table, it seems misleading to suggest that this is the same kind of connection as in all the other instances.
+
+_Toby_:  That\'s a good point.  I decided that I should make the item to the left of Heyting algebras a pretopos too, which means that now we have another exception, since a Heyting algebra is not a pretopos.  In both cases, the exception has to do with coproducts, I think.  I also changed 'the decategorification' to 'a decategorification' to clarify that even decategorifying can be done in more than one way.
 =--
