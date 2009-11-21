@@ -4,7 +4,7 @@
 
 ##Idea#
 
-Recall that a [[topos]] is a [[category]] that behaves likes the category [[Set]] of [[set]]s.  A _natural numbers object_ in a topos is an [[object]] that behaves in that topos like the set $\mathbb{N}$ of [[natural number]]s does in [[Set]]; thus it provides a formulation of the "axiom of infinity" in structural [[set theory]] (such as [[ETCS]]).  The definition is due to [[William Lawvere]].
+Recall that a [[topos]] is a [[category]] that behaves likes the category [[Set]] of [[set]]s.  A _natural numbers object_ (NNO) in a topos is an [[object]] that behaves in that topos like the set $\mathbb{N}$ of [[natural number]]s does in [[Set]]; thus it provides a formulation of the "axiom of infinity" in structural [[set theory]] (such as [[ETCS]]).  The definition is due to [[William Lawvere]].
 
 
 ##Definition#
@@ -35,10 +35,11 @@ $$
   }
 $$
 
-Note that this definition actually makes sense in any category $E$ having finite [[product]]s.  However, if $E$ is not [[cartesian closed category|cartesian closed]], then it is better to explicitly assume a stronger version of this definition "with parameters" (which follows automatically when $E$ is cartesian closed, such as when $E$ is a topos). 
+All this may be summed up by saying that a natural numbers object is an [[initial algebra]] for the functor $X \mapsto 1 + X$.
 
-All this may be summed up by saying that a natural numbers object is an [[initial algebra]] for the functor $X \mapsto X + 1$.
+Note that this definition actually makes sense in any category $E$ having finite [[product]]s.  However, if $E$ is not [[cartesian closed category|cartesian closed]], then it is better to explicitly assume a stronger version of this definition "with parameters" (which follows automatically when $E$ is cartesian closed, such as when $E$ is a topos). What this amounts to is demanding that $(\mathbb{N}, z, s)$ not only be a natural numbers object (in the above, unparametrized sense) in $E$, but that also, for each object $A$, this is preserved by the free coalgebra functor into the [[Kleisli category]] of the [[comonad]] $X \mapsto A \times X$ (which may be thought of as the category of maps parametrized by $A$). (Put another way, the finite product structure of $E$ gives rise to a canonical [[self-indexing]], and we are demanding the existence of an (unparametrized) NNO within this indexed category, rather than just within the base $E$).
 
+The functions which are constructable out of the structure of a category with finite products and such a "parametrized NNO" are precisely the [[primitive recursive]] ones. Specifically, the unique structure-preserving functor from the free such category $F$ into [[Set]] yields a bijection between $Hom_F(1, \mathbb{N})$ and the actual natural numbers, as well as surjections from $Hom_F(\mathbb{N}^m, \mathbb{N})$ onto the primitive recursive functions of arity $m$ for each finite $m$. (Once one adds cartesian closure, this identification no longer holds, in that non-primitive recursive functions (such as the [[Ackermann function]]) become definable as well)
 
 ##Finite colimit characterization# 
 
