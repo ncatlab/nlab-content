@@ -17,6 +17,9 @@ The category $Set^X$ plays an role in the theory of ionads analogous to that of 
 [[David Roberts]]: The idea strikes me that we are passing from the [[subobject classifier]] $2 = \{0 \lt 1\}$ in $Set$ (assuming classical Booleaness) to the categorified subobject classifier $Set$ in $Cat$.
 =--
 
+The word 'ionad' is Irish for a location, place, or site; it often translates 'Centre' in titles.  It is pronounced /&#712;&#618;n&#601;d/ (roughly 'INN-ad', not 'i-NAD' or 'yonad'), or more precisely [&#712;&#616;&#798;n&#810;&#736;&#601;d&#810;&#736;] (at least in Munster), following [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Irish_phonology).
+
+
 ## References ##
 
 Ionads have been introduced and studied in 
