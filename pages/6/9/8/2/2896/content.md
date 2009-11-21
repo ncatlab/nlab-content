@@ -1,5 +1,9 @@
 This page will probably have to be renamed something like "[[fiber bundles]] are [[fibrations]]" once I remember how the trick works in detail. 
 
++--{.query}
+[[Zoran Škoda]]: But there is much older and more general theorem of Hurewitz: if one has a map $p:E\to B$ and a numerable covering of $B$ such that the restrictions $p^{-1}(U)\to U$ for every $U$ in the covering is a Hurewicz fibration then $p$ is also a Hurewicz fibration. But the proof is pretty complicated. For example George Whitehead's _Elements of homotopy theory_ is omitting it (page 33) and Postnikov is proving it (using the equivalent "soft" homotopy lifting property). 
+=--
+
 Let $\pi: E \to B$ be a [[principal bundle|principal]] $G$-[[fiber bundle]] which has a [[numerable cover]] (this condition obtains if for example $B$ is [[paracompact space|paracompact]]). Suppose given a commutative diagram in [[Top]]: 
 
 $$\array{
