@@ -153,3 +153,5 @@ A blog discussion which led to the creation of this entry is [here](http://golem
 
 [[!redirects Coyoneda lemma]]
 [[!redirects coYoneda lemma]]
+[[!redirects co-yoneda lemma]]
+[[!redirects coyoneda lemma]]
