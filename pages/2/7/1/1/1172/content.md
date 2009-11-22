@@ -1,3 +1,8 @@
+# Cauchy spaces
+* tic
+{: toc}
+
+
 ## Idea ##
 
 A Cauchy space is a generalisation of a [[metric space]] with a bare minimum of structure for the concepts of Cauchy sequence, Cauchy-continuous map, and Cauchy completion to make sense.  Topologically (that is, up to continuous maps), any Cauchy space is a [[convergence space]], but not much more than that.
