@@ -43,6 +43,10 @@ An __ionad__ is a set $X$ together with a [[left exact functor|finite limit-pres
 
 +-- {: .query}
 It seems to me that a full categorification would allow $X$ to be a [[groupoid]].  ---Toby
+
+[[Mike Shulman]]: Actually, if you want to allow groupoids, I don't think there's any reason not to allow arbitrary categories.  Richard and I had a discussion about this question, and at one point I think he was on the side you present, but we've both since come around to this version.  Notice that any ionad *induces* a category structure on its set of points, since each point is in particular a geometric morphism from $Set$ to $\Omega(X)$.  I think this induced "category of points" should be regarded as a categorification of the [[specialization order]] *induced* on the points of a topological space.  In particular, it comes for free as part of the structure; you don't have to specify it in advance.
+
+You *can* specify either of them in advance; you can start with $X$ being a category in the definition of ionad, or you can define a generalized sort of topological space as a poset equipped with a lex comonad on its poset of downsets.  In either case it amounts to specifying an ordinary ionad/space, together with a distinguished category/poset mapping bijectively-on-objects to its induced category/poset of points.  In both cases, any continuous map necessarily preserves the induced category/order, but if you start with a distinguished category/order of points, your continuous maps have to preserve that too.  These notions might be interesting, but the comparison makes me fairly sure that ionads starting with a *set* are already the natural "fully categorified" categorification of topological space.
 =--
 
 Although Garner does not require an ionad to be bounded, the nicest results hold for them, and all of his applications involve only bounded ionads.  In fact, Garner writes, 'Indeed, the existence of unbounded ionads is a problem that seems to be independent of the axioms of [[Zermelo-Fraenkel set theory]].' (Section 3.8).
