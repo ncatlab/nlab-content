@@ -1,3 +1,8 @@
+# Pretopological spaces
+* tic
+{: toc}
+
+
 ## Idea
 
 A _pretopological space_ is a slight generalisation of a [[topological space]] where the concept of _neighbourhood_ is taken as primary.
@@ -102,7 +107,7 @@ $$ A \subseteq \bar{A} \subseteq \overline{\bar{A}} \subseteq \cdots \subseteq C
 In many cases this iteration stabilizes after finitely many terms.  The plus power $S^n$ seems to stabilise after $n$ iterations.  And in a topological space, of course, it only takes one step.
 
 
-In general, however, there can be transfinitely many terms in these sequences.  For example, let $\Omega$ be any [[ordinal number]] (thought of as the [[well-order]]ed set of all smaller ordinal numbers) with the following pretopology:
+In general, however, there can be transfinitely many terms in these sequences.  For example, let $\Omega$ be any [[ordinal number]] (thought of as the [[well-ordered set]] of all smaller ordinal numbers) with the following pretopology:
 
 * $0 \stackrel{\circ}\in U$ iff $U = \Omega$.
 * $\alpha \stackrel{\circ}\in U$, where $\alpha \lt \Omega$ is a nonzero ordinal, iff $[\beta,\Omega) \subseteq U$ for some $\beta \lt \alpha$.
@@ -113,3 +118,6 @@ Let $A=[1,\Omega)$.  Then $\stackrel{\circ}A = [2,\Omega)$, $(\stackrel{\circ}A)
 Note that an interior is open, and a closure is closed.  Indeed, the open sets in $S$ form a topological structure on $S$, giving the usual meanings of interior, closure, and closed set.  This topological structure does *not* (in general) give the original pretopology on $S$; instead, this makes $Top$ a [[reflective subcategory]] of $Pre Top$.
 
 In the definition of pretopology, the neighbourhoods of each point may be given completely independently of any other point.  So the notion of topological space may also be seen as requiring some coherence between the neighbourhoods of nearby points.
+
+
+[[!redirects pretopology]]
