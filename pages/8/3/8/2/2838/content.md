@@ -47,6 +47,8 @@ It seems to me that a full categorification would allow $X$ to be a [[groupoid]]
 [[Mike Shulman]]: Actually, if you want to allow groupoids, I don't think there's any reason not to allow arbitrary categories.  Richard and I had a discussion about this question, and at one point I think he was on the side you present, but we've both since come around to this version.  Notice that any ionad *induces* a category structure on its set of points, since each point is in particular a geometric morphism from $Set$ to $\Omega(X)$.  I think this induced "category of points" should be regarded as a categorification of the [[specialization order]] *induced* on the points of a topological space.  In particular, it comes for free as part of the structure; you don't have to specify it in advance.
 
 You *can* specify either of them in advance; you can start with $X$ being a category in the definition of ionad, or you can define a generalized sort of topological space as a poset equipped with a lex comonad on its poset of downsets.  In either case it amounts to specifying an ordinary ionad/space, together with a distinguished category/poset mapping bijectively-on-objects to its induced category/poset of points.  In both cases, any continuous map necessarily preserves the induced category/order, but if you start with a distinguished category/order of points, your continuous maps have to preserve that too.  These notions might be interesting, but the comparison makes me fairly sure that ionads starting with a *set* are already the natural "fully categorified" categorification of topological space.
+
+_Toby_:  I didn\'t want to allow just any category, to be analogous to not allowing just any p(r)oset as points of a topological space.  But I\'ll think about what happens when the points are allowed to form a groupoid.
 =--
 
 Although Garner does not require an ionad to be bounded, the nicest results hold for them, and all of his applications involve only bounded ionads.  In fact, Garner writes, 'Indeed, the existence of unbounded ionads is a problem that seems to be independent of the axioms of [[Zermelo-Fraenkel set theory]].' (Section 3.8).
@@ -96,17 +98,17 @@ Just as $\Omega(X)$ is a [[frame]] whenever $X$ is a topological space, so $\Ome
 A continous map between topological spaces may be given by a function $f\colon X \to Y$ and a commuting square
 
 $$ \array {
-   \Omega(Y)    & \to & \Omega(X) \\
-   \downarrow   &     & \downarrow \\
-   \mathbb{2}^Y & f^* & \mathbb{2}^X
+   \Omega(Y)    & \to              & \Omega(X) \\
+   \downarrow   &                  & \downarrow \\
+   \mathbb{2}^Y & \overset{f^*}\to & \mathbb{2}^X
 } $$
 
 Similarly, a continuous map between ionads may be given by a function $f\colon X \to Y$ and a commuting square
 
 $$ \array {
-   \Omega(Y)    & \to & \Omega(X) \\
-   \downarrow   &     & \downarrow \\
-   Set^Y        & f^* & Set^X
+   \Omega(Y)    & \to              & \Omega(X) \\
+   \downarrow   &                  & \downarrow \\
+   Set^Y        & \overset{f^*}\to & Set^X
 } $$
 
 Without loss of generality, we may require this square to commute on the nose; this is related to the triviality of $2$-morphisms in the category of ionads.
@@ -115,8 +117,6 @@ Note that the map $\Omega(Y) \to \Omega(X)$ must be the preimage half of a [[geo
 
 
 ## Bases of ionad structures
-
-Recall that, given a set $X$, a basis for a topology on $X$ is given by a collection $B$ of subsets of $X$ that is [[filter|cofiltered]], in the sense that
 
 ...
 
