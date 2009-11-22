@@ -1,3 +1,8 @@
+# Compacta
+* tic
+{: toc}
+
+
 ## Idea
 
 A compactum, or compact Hausdorff space, is a space in which every limit that should exist does exist and does so uniquely.
@@ -43,9 +48,18 @@ The monad $\beta$ is commutative, so every $\beta S$ is itself a compactum.  The
 [[!redirects compact Hausdorff topological space]]
 [[!redirects compact regular locale]]
 [[!redirects compacta]]
+[[!redirects compact Hausdorff spaces]]
+[[!redirects compact Hausdorff topological spaces]]
+[[!redirects compact regular locales]]
 [[!redirects Stone-∞ech compactification]]
 [[!redirects Stone-Cech compactification]]
 [[!redirects Stone?ech compactification]]
 [[!redirects StoneCech compactification]]
 [[!redirects Stone--∞ech compactification]]
 [[!redirects Stone--Cech compactification]]
+[[!redirects Stone-∞ech compactifications]]
+[[!redirects Stone-Cech compactifications]]
+[[!redirects Stone?ech compactifications]]
+[[!redirects StoneCech compactifications]]
+[[!redirects Stone--∞ech compactifications]]
+[[!redirects Stone--Cech compactifications]]
