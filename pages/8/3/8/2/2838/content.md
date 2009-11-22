@@ -19,6 +19,12 @@ _Toby_:  I expect that you know this, David, but for the record: it\'s still the
 
 The word 'ionad' is Irish for a location, place, or site; 'Ionad' often translates 'Centre' in titles of institutions.  It is pronounced /&#712;&#618;n&#601;d/ (roughly 'INN-ad', not 'i-NAD' or 'yonad'), or more precisely [&#712;&#616;&#798;n&#810;&#736;&#601;d&#810;&#736;] (at least in Munster), following [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Irish_phonology).
 
++--{: .query}
+[[Finn Lawler]]: I would pronounce this more like 'UNN-ad' (I don't know enough about IPA to make that more precise).  The Irish dialect I was exposed to (there being no Dublin or Leinster dialect) is the standard one taught in schools, which is an amalgam of all three, but principally that of Connacht, I think.
+
+The nominative plural is 'ionaid', which I would pronounce something like 'UNN-idge'.  Here the 'd' is palatized.
+=--
+
 
 ## Definition
 
