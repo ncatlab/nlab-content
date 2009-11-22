@@ -34,6 +34,7 @@ See also [[topology]].
 
   * [[Froelicher space]], [[diffeological space]], [[smooth space]]
 * [[space and quantity]]
+* [[Euclidean geometry]]
 
 There are many entries on [[sheaf]], [[stack]], [[site]], [[locale]] and [[topos]] theory including
 
