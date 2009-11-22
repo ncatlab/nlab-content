@@ -7,7 +7,7 @@ Although it is a work of [[mathematics]] rather than [[foundations|metamathemati
 
 ## Contents
 
-Besides the usual prefaces, bibliography, and indexes, there is a historical introduction, and each chapter concludes with notes on historical and metamathematical aspects.  Otherwise, each of 7 chapters is divided into 4 sections, which in turn contain paragraphs that deal with essentially one idea each.  For the moment, we list (with minimal processing) the definitions from the index in each section.  (There will also be some summaries of theorems.)
+Besides the usual prefaces, bibliography, and indexes, there is a historical introduction, and each chapter concludes with notes on historical and metamathematical aspects.  Otherwise, each of 7 chapters is divided into 4 sections, which in turn contain paragraphs that deal with essentially one idea each.  For the moment, we list (with minimal processing) the definitions from the index in each section.  There will also be some summaries of theorems; as in the book itself, an asterisk here indicates dependence on some form of choice beyond excluded middle (more precisely, a proof that cannot be internalised in an arbitrary [[boolean topos]]).
 
 1.  Preliminaries
 
