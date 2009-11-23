@@ -1,8 +1,13 @@
-#Idea#
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea ##
 
 A _reflective_ $(\infty,1)$-subcategory is the obvious generalization of a [[reflective subcategory]] to $(\infty,1)$-[[(infinity,1)-category|categories]].
 
-#Definition#
+## Definition ##
 
 A [[full and faithful functor|full and faithful]] [[(∞,1)-functor]]
 
