@@ -35,11 +35,15 @@
 
   * [[cellular model category]]
 
+* [[proper model category]]
+
 ## model structures ##
 
 * [[model structure on topological spaces|on topological spaces]]
 
 * [[model structure on simplicial sets|on simplicial sets]]
+
+* [[model structure on an overcategory]]
 
 * [[global model structures on functor categories|on functor categories (global)]]
 
@@ -53,7 +57,9 @@
 
 * [[model structure on dg-algebras|on dg-algebras]] and on [[model structure on cosimplicial rings|on cosimplicial rings]] (related by [[monoidal Dold-Kan correspondence]])
 
-* [[folk model structure|on ∞-categories/∞-groupoids]]
+* [[Theta space|on (n,r)-categories]]
+
+  * [[folk model structure|on strict ∞-categories/strict ∞-groupoids]]
 
 
 <div markdown="1">[Edit this sidebar](/nlab/edit/model+category+theory+-+contents)</div>
