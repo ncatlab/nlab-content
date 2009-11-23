@@ -14,3 +14,5 @@ In [[constructive mathematics]], we want to phrase the definition as: a subobjec
 
 
 [[!redirects simple objects]]
+
+[[!redirects simple modules]]
