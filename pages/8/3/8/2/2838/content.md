@@ -17,12 +17,14 @@ As a [[Grothendieck topos]] is a [[categorification|categorified]] [[locale]], s
 _Toby_:  I expect that you know this, David, but for the record: it\'s still the subobject classifier constructively, but that may not be $2$.  I have written this as '$\mathbb{2}$' to try to keep it simple but unbiased.
 =--
 
-The word 'ionad' is Irish for a location, place, or site; 'Ionad' often translates 'Centre' in titles of institutions.  It is pronounced /&#712;&#618;n&#601;d/ (roughly 'INN-ad', not 'i-NAD' or 'yonad'), or more precisely [&#712;&#616;&#798;n&#810;&#736;&#601;d&#810;&#736;] (at least in Munster), following [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Irish_phonology).
+The word 'ionad' is Irish for a location, place, or site; 'Ionad' often translates 'Centre' in titles of institutions.  It is pronounced /&#712;&#618;n&#601;d/ (roughly 'INN-ad' or 'UNN-ad', not 'i-NAD' or 'yonad'; '&#1067;&#1053;-&#1072;&#1076;' in a North Slavic language), or more precisely [&#712;&#616;&#798;n&#810;&#736;&#601;d&#810;&#736;] (at least in Munster), following [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Irish_phonology).  The plural (which you can use if you like to use 'topoi' too) is 'ionaid' (/&#712;&#618;n&#601;&#607;/, 'INN-adge' or 'UNN-adge', '&#1067;&#1053;-&#1072;&#1076;&#1100;', [&#712;&#616;&#798;n&#810;&#736;&#601;d&#690;]).  We could go on to decline it out of the nominative case, but now it\'s getting silly.
 
 +--{: .query}
 [[Finn Lawler]]: I would pronounce this more like 'UNN-ad' (I don't know enough about IPA to make that more precise).  The Irish dialect I was exposed to (there being no Dublin or Leinster dialect) is the standard one taught in schools, which is an amalgam of all three, but principally that of Connacht, I think.
 
 The nominative plural is 'ionaid', which I would pronounce something like 'UNN-idge'.  Here the 'd' is palatized.
+
+_Toby_:  I\'m just using my knowledge of phonology to follow the information on Wikipedia\'s articles, so take it with a grain of salt.  However, I can imagine someone hearing [&#712;&#616;&#798;n&#810;&#736;&#601;d&#810;&#736;] as 'UNN-ad', so I happily add it to the text.  I don\'t suppose you can get a good recording?  (Also, thanks for the plural, which I should have looked up for myself.)
 =--
 
 
