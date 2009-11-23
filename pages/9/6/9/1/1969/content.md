@@ -24,10 +24,11 @@ How can we say this better?
 
 _Toby_:  Well, I also thought of 'hom-$\infty$-groupoid' and 'hom-simplicial set' (at which point the hyphen in 'hom-object' looks worse and worse), but these struck me as too specific, although they match what you\'re saying here.
 
-[[Urs Schreiber]]: Choices like "hom-simplicial set" or similar still isn't good enough for what this entry is about, though: for instance in a simplicially enriched model category all hom-objects are of course "hom-simplicial sets", but the right "$(\infty,1)$-categori(c)al hom space"" between two objects is the hom-simplicial set between a fibrant-cofibrant replacement of these two objects.
+[[Urs Schreiber]]: Choices like "hom-simplicial set" or similar still isn't good enough for what this entry is about, though: for instance in a simplicially enriched model category all hom-objects are of course "hom-simplicial sets", but the right "$(\infty,1)$-categori(c)al hom space" between two objects is the hom-simplicial set between a fibrant-cofibrant replacement of these two objects.
 
 Other people would say "derived hom space". I reworded the above introduction and mention that term now.  
 
+_Toby_:  I could go for [[derived hom-space]] (with or without hyphen, although we\'ve been using hyphens here for some reason).  That clarifies that it\'s not the na&#239;ve hom-space but doesn\'t imply that it\'s the $\infty$-categorification of a $1$-categorial hom-space.
 =--
 
 
