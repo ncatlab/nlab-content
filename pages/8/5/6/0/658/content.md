@@ -1,3 +1,10 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition ##
+
 Let $V$ be a symmetric [[closed monoidal category]] and $C$, $D$, [[enriched category|enriched categories]] over $V$. Then a **distributor** or **profunctor** or **[[bimodule|(bi)module]]** from $C$ to $D$ is a $V$-functor from $C \otimes D^{op}$ to $V$, we write
 
 $$
@@ -24,10 +31,10 @@ This yields a [[bicategory]] $V\Mod$ with
 
 At least for $V = Set$ a morphism in $Set Mod$ is often called a **profunctor** and the bicategory $Set Mod$ is then often denoted $Prof$.
 
-#Alternative definitions#
+## Alternative definitions ##
 
 
-## In terms of colimit-preserving functors on presheaf categories ##
+### In terms of colimit-preserving functors on presheaf categories ###
 
 A basic fact (e.g. Kashiwara, Schapira, [[Categories and Sheaves]], corollary 2.7.4, page 63) is that for $A$ a [[cocomplete category]], [[cocontinuous functor|colimit-preserving functors]] from [[presheaf|presheaves]] on some category $C$ to $A$ are canonically equivalent to functors from $C$ to $A$: we have an equivalence of [[functor category|functor categories]]
 
@@ -59,7 +66,7 @@ This formulation plays a big role also in the context of [[(∞,1)-categories]].
 This $(\infty,1)$-category $Pr^L$ therefore is an $(\infty,1)$-analog of $Set\text{-}Mod$. In [[geometric ∞-function theory]] one finds (see section 4 there) that morphisms in $Pr^L$ encode the "correspondence operations" such as Fourier-Mukai and its generalizations. See in that context also the examples below.
 
 
-#Examples#
+## Examples ##
 
 * Recall that a one-object [[Vect]]-[[enriched category]] is just an [[algebra]], while a general [[Vect]]-[[enriched category]] is an [[algebroid]]. The full sub-bicategory of $Vect\Mod$ on one-object $Vect$-enriched categories is the familiar category of [[algebras]], [[bimodules]] and bimodule homomorphisms.
 
@@ -78,7 +85,7 @@ $$
 $$
 
 
-#Remarks#
+## Remarks ##
 
 * Every ordinary $V$-functor $f : C \to D$ yields a distributor $\hat F : C &#8696; D$ which is 
 the [[adjunct]] of the postcomposition 
@@ -107,13 +114,13 @@ $$
 * The bifunctor $V\Cat \to V\Mod$ exhibits $V\Mod$ as a [[framed bicategory]].
 
 
-#Related entries#
+## Related entries ##
 
 * [[module]]
 
 * [[2-vector space]]
 
-#References#
+## References ##
 
 _(what is a good  comprehensive reference?)_
 
@@ -135,7 +142,7 @@ Jean B&#233;nabou in June 2000 at TU Darmstadt, and prepared by Thomas Streicher
 
 ***
 
-#Discussion#
+## Discussion ##
 
 On a previous version of this entry with opposite convention on where to put the ${}^{op}$ [[Todd Trimble|Todd]] has remarked
 
