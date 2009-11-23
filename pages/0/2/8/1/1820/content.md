@@ -156,7 +156,7 @@ Under the assumptions of Jeff Smith's theorem, a small set $J$ satisfying the co
 ### Dugger's theorem ###
 
 +-- {: .num_theorem }
-###### Theorem (Jeff Smith)
+###### Theorem (Dan Dugger)
 
 Every combinatorial model category $C$ is [[Quillen equivalence|Quillen equivalent]] to a left [[Bousfield localization]] $L_S SPSh(K)_{proj}$ of the global projective [[model structure on simplicial presheaves]] $SPSh(K)_{proj}$ on a [[small category]] $K$
 
