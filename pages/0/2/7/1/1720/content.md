@@ -84,15 +84,165 @@ All [[model category|model categories]] that model aspects of [[infinity-stack]]
 ###### Lemma
 
 
-In a left proper model category, ordinary [[pushout]]s along cofibrations out of cofibrant objects are [[homotopy pushout]]s.
+In a left proper model category, ordinary [[pushout]]s along cofibrations are [[homotopy pushout]]s.
 
-Dually, in a right proper model category, ordinary [[pullback]]s along fibrations into fibrant objects are [[homotopy pullback]]s.
+Dually, in a right proper model category, ordinary [[pullback]]s along fibrations are [[homotopy pullback]]s.
 
 
 =--
 
 +-- {: .proof}
 ###### Proof
+
+This is stated for instance in [[Higher Topos Theory|HTT, prop A.2.4.4]] or in prop. 1.19 in
+[Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf). We follow the proof given in this latter reference.
+
+We demonstrate the first statement, the second is its direct formal dual.
+
+So consider a [[pushout]] diagram
+
+$$
+  \array{
+    K &\to& Y
+    \\
+    \downarrow^{\mathrlap{\in cof}} && \downarrow
+    \\
+    L &\to& X
+  }
+$$
+
+in a left proper model category, where the morphism $K \to L$ is a cofibration, as indicated. We need to exhibit a weak equivalence $X' \stackrel{}{\to} X$ from an object $X'$ that is manifestly a [[homotopy pushout]] of $L \leftarrow K \to Y$.
+
+The standard procedure to produce this $X'$ is to pass to a weakly equivalent diagram with the property that all objects are cofibrant and one of the morphisms is a cofibration. The ordinary pushout of that diagram is well known to be the [[homotopy pushout]], as described there.
+
+So pick a cofibrant replacement $\emptyset \hookrightarrow K' \stackrel{\simeq}{\to}$ of $K$ and factor $K' \to K \to Y$ as a cofibration followed by a weak equivalence
+$K' \hookrightarrow Y' \stackrel{\simeq}{\to} Y$ and similarly factor $K' \to K \to L$ as $K' \hookrightarrow L' \stackrel{\simeq}{\to} L$
+
+This yields a weak equivalence of  diagrams
+
+$$
+  \array{
+    Y &\stackrel{\simeq}{\leftarrow}& Y'
+    \\
+    \uparrow && \uparrow^{\mathrlap{\in cof}}
+    \\
+    K &\stackrel{\simeq}{\leftarrow}& K'
+    \\
+    \downarrow^{\mathrlap{\in cof}}
+     && \downarrow^{\mathrlap{\in cof}}
+    \\
+    L &\stackrel{\simeq}{\leftarrow}& L'    
+  }
+  \,,
+$$
+
+where now the diagram on the right is cofibrant as a diagram, so that its ordinary pushout
+
+$$
+  X' := L' \coprod_{K'} Y'
+$$
+
+is a homotopy colimit of the original diagram. To obtain the weak equivalence from there to $X$, first form the further pushouts
+
+$$
+  \array{
+    K &&&\to&&& Y
+    \\
+    & \nwarrow^{\mathrlap{\in W}} 
+     &&&& \nearrow_{\mathrlap{\simeq}} & 
+    \\
+    && K' &\to& Y' &&  
+    \\
+    \downarrow^{\mathrlap{\in cof}} 
+    && \downarrow^{\mathrlap{\in cof}} 
+     && \downarrow^{\mathrlap{\in cof}} && \downarrow
+    \\
+    && L' &\to& X' && 
+    \\
+    & {}^{\mathllap{\in W}}
+    \swarrow &&&& \searrow^{\mathrlap{\simeq}} & 
+    \\
+    L'':= K \coprod_{K'} L 
+    &&&\to&&& 
+    L'' \coprod_{K} Y
+    \\
+    \downarrow^{\mathrlap{\in W}} &&&&&&  \downarrow
+    \\
+    L &&&\to&&& X
+  }
+  \,,
+$$
+
+where the total outer diagram is the original pushout diagram. Here the cofibrations are as indicated by the above factorization and by their stability under pushouts, and the weak equivalences are as indicated by the above factorization and by the left properness of the model category. The weak equivalence $L'' \stackrel{\simeq}{\to} L$ is by the [[category with weak equivalences|2-out-of-3 property]].
+
+This establishes in particular a weak equivalence
+
+$$
+  X' \stackrel{\simeq}{\to} L'' \coprod_K Y
+  \,.
+$$
+
+It remains to get a weak equivalence further to $X$.
+For that, take the two outer squares from the above
+
+$$
+  \array{
+    K &\to& Y
+    \\
+    \downarrow^{\mathrlap{\in cof}} && \downarrow
+    \\
+    L'' &\to& L'' \coprod_{K'} Y
+    \\
+    \downarrow^{\mathrlap{\in W}} && \downarrow
+    \\
+    L &\to& X
+  }
+  \,.
+$$
+
+Notice that the top square is a pushout by construction, and the total one by assumption.  Therefore by the general theorem about pastings of [[pushout]]s, also the lower square is a pushout.
+
+Then factor $K \to Y$ as a cofibration followed by a weak equivalence $K \hookrightarrow Z \stackrel{\simeq}{\to} Y$
+and push that factorization through the double diagram, to obtain
+
+$$
+  \array{
+    K &\stackrel{\in cof}{\to}& Z &\stackrel{\in W}{\to}& Y
+    \\
+    \downarrow^{\mathrlap{\in \cof}} 
+    && \downarrow^{\mathrlap{\in cof}} && \downarrow
+    \\
+    L'' &\stackrel{\in cof}{\to}& 
+    L'' \coprod_{K} Z
+    &\stackrel{\in W}{\to}&
+    L'' \coprod_{K'} Y
+    \\
+    \downarrow^{\mathrlap{\in W}} && 
+    \downarrow^{\mathrlap{\in W}}
+    && \downarrow
+    \\
+    L & \to& L \coprod_K Z &\stackrel{\in W}{\to}& X
+  }
+  \,.
+$$
+
+Again by the behaviour of pushouts under pasting, every single square and composite rectangle in this diagram is a pushout. Using this, the cofibration and weak equivalence properties from before push through the diagram as indicated. This finally yields the desired weak equivalence
+
+$$
+  L'' \coprod_{K'} Y \stackrel{\simeq}{\to}
+  X
+$$
+
+by [[category with weak equivalences|2-out-of-3]].
+
+=--
+
+
+
+If we had allowed ourselved to assume in addition that $K$ itself is already cofibrant, then the above statement has a much simpler proof, which we list just for fun, too.
+
++-- {: .proof}
+###### Proof of the above assuming that the domain of the cofibration is cofibrant 
 
 
 Let $A \hookrightarrow B$ be a cofibration with $A$ cofibrant and let $A \to C$ be any other morphism. Factor this morphism as
@@ -140,22 +290,7 @@ The proof for the second statement is the precise formal dual.
 =--
 
 
-Better yet:
 
-+-- {: .un_lemma }
-###### Lemma
-
-In a left proper model category every pushout along a cofibration is a homotopy pushout.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-This is for instance [[Higher Topos Theory|HTT, prop A.2.4.4]] or prop. 1.19 in
-[Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf).
-
-=--
 
 
 ## References ##
