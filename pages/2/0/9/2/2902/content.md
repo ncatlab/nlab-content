@@ -55,7 +55,7 @@ This lemma was given by Euclid as [Proposition 9](http://aleph0.clarku.edu/~djoy
 
 [[!include pentagon decagon hexagon identity/golden ratio]]
 
-By the golden triangle lemma for isosceles triangles with angles of 36&deg;, triangle $N O P$ gives us $r=t\Phi$.  From the same rule for triangle $N M P$ glued to its mirror image in the line $N M$ we have $2b=t/\Phi$.
+By the golden triangle lemma for isosceles triangles with angles of 36&deg;, triangle $N O P$ gives us $r=t\Phi$.  From the same lemma, applied to triangle $N M P$ glued to its mirror image in the line $N M$, we have $2b=t/\Phi$.
 
 From the right triangle $N M P$ we have $s^2=t^2-b^2$, hence $(2s)^2=4t^2-4b^2$.
 
@@ -65,11 +65,13 @@ square where the two red rectangles overlap, and that has area $4b^2$.
 Now if we subtract a single $t^2$, the light blue rectangle, then we're left with a square of side length $r$,
 thanks to the fact that $\Phi=1+1/\Phi$.  So $(2s)^2-t^2=r^2$, which is the pentagon-decagon-hexagon identity.
 
-The middle section of this proof is essentially a diagrammatic proof of the identity:
+The middle section of this proof is, essentially, a geometric proof of the identity:
 
 $$\Phi^2+\frac{1}{\Phi^2}=3$$
 
-which can also be verified algebraically from the defining equation for $\Phi$.
+which can also be verified algebraically from the defining equation for $\Phi$.  We can see this identity a bit more clearly if we remove the leftmost rectangle from the construction, slide the rightmost one down to eliminate the overlap, and take out the overall factor of $t$ from all the sides.  We then have:
+
+[[!include pentagon decagon hexagon identity/golden ratio identity]]
 
 ##Proof from a construction on the icosahedron##
 
