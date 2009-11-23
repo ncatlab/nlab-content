@@ -42,7 +42,7 @@ Important fibrant objects are in particular [[infinity-groupoid]]s (for instance
 
 ## In Lie groupoid theory ##
 
-A **Morita morphism** of [[Lie groupoid]]s is, even though it is not typically made explicit in the literature, precisely a (local) acyclic fibration with respect to the [[folk model structure]] on groupoids, which in turn is the same as an [[anafunctor]] of Lie groupoids. 
+A **Morita morphism** of [[Lie groupoids]] is, even though it is not typically made explicit in the literature, precisely a (local) acyclic fibration with respect to the [[folk model structure]] on groupoids, which in turn is the same as an [[anafunctor]] of Lie groupoids. 
 A Morita equivalence of Lie groupoids then is a span as above, equivalently an invertible anafunctor.
 +--{: .query}
 [[David Roberts]]: More precisely, a Morita morphism is a span of Lie groupoids such that the \'source leg\' has an anafunctor pseudoinverse. Anafunctors are only examples of Morita morphisms, in the sense that open covers $\coprod U_i \to M$ are examples of surjective submersions.
@@ -52,6 +52,8 @@ I'm also not sure that this should be called the folk model structure, as I don'
 _Toby_:  For me, an anafunctor involves a surjective submersion rather than an open cover, which is how that got in there.  The important thing is to have equivalent hom-categories.
 
 [[David Roberts]]: I'm not what I was thinking at the time, but you are pretty much right: the definition of anafunctors depends on a choice of a subcanonical singleton [[Grothendieck pretopology]], so it was remiss of me to demand the use of open covers :) As for the definition of Morita morphism, I now can't remember if that referred to the span which is an arrow in the localised 2-category or the arrow in the unlocalised 2-category that is sent to an equivalence under localisation. At least for me, the terminology Morita morphism evokes the generalisation from a Morita equivalence (a span of weak equivalences) to a more general morphism in that setting.
+
+_Toby_:  I think that a Morita morphism should be a span, although now I\'m not sure that this is what the text says, is it?  I should check a reference and then change it.
 =--
 Lie groupoids up to Morita equivalence are equivalent to [[differentiable stack]]s. This relation between Lie groupoids and their stacks of torsors is analogous to the relation between algebras and their categories of modules, which is probably the reason for the choice of terminology.
 
