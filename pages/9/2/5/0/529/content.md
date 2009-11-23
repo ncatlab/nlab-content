@@ -6,3 +6,4 @@ Sometimes instead of working over a [[ground field]] $k$, one allows $k$ to be a
 
 
 [[!redirects group ring]]
+[[!redirects group algebras]]
