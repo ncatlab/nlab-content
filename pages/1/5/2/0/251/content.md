@@ -90,3 +90,5 @@ Pseudo Algebras](http://www.math.uchicago.edu/~fiore/1/fiorefolding.pdf)
 [[!redirects double categories]]
 [[!redirects double groupoid]]
 [[!redirects double groupoids]]
+[[!redirects vertical 2-category]]
+[[!redirects horizontal 2-category]]
