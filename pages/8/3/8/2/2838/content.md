@@ -140,3 +140,6 @@ Ionads have been introduced and studied in
 *  [[Richard Garner]], _Ionads: a generalisation of the notion of topological space_, ([web](http://www.dpmms.cam.ac.uk/~rhgg2/Ionads/Ionads.html), [pdf](http://www.dpmms.cam.ac.uk/~rhgg2/Ionads/Ionads.pdf))
 
 Some basic aspects of the theory are developed there, and applications to [[topology]], [[logic]] and [[geometry]] are discussed. 
+
+
+[[!redirects ionaid]]
