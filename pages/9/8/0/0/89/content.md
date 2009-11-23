@@ -49,6 +49,7 @@ A Morita equivalence of Lie groupoids then is a span as above, equivalently an i
 
 I'm also not sure that this should be called the folk model structure, as I don't think it exists for groupoids internal to $Diff$. Details of the model structure are in a paper by Everaert, Kieboom and van der Linden, but seem to be tailored towards groupoids internal to categories of algebraic things (e.g semiabelian categories). I think the best one can do is a category of fibrant objects, but that is not something I've looked at much.
 
+_Toby_:  For me, an anafunctor involves a surjective submersion rather than an open cover, which is how that got in there.  The important thing is to have equivalent hom-categories.
 =--
 Lie groupoids up to Morita equivalence are equivalent to [[differentiable stack]]s. This relation between Lie groupoids and their stacks of torsors is analogous to the relation between algebras and their categories of modules, which is probably the reason for the choice of terminology.
 
