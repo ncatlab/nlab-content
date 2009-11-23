@@ -186,6 +186,8 @@ Apart from the obvious question of finding the literature behind all of this (an
 
 _Todd_: My previous answer (which has been deleted) was based on a too-hasty reading of the question. I'll try to set aside some time to find a better answer. 
 
+_Todd_: The time set aside turned out to be time last night when I had trouble falling asleep. I believe the answer is no. If for example $T_1$ is the pro for comonoids and $T_2$ is the initial pro (so equivalent to the natural numbers as discrete monoidal category), then the "Lawverifications" of those pros ought to be equivalent, both being equivalent to the initial Lawvere theory $FinSet^{op}$. At the semantic level, this boils down to the easy observation that in a cartesian monoidal category, there is a unique comonoid structure on every object. 
+
 ###References###
 
 S. Lack, Composing PROPS, [Theory Appl. Categ.](http://www.tac.mta.ca/tac/volumes/13/9/13-09abs.html) 13 (2004), No. 9, 147--163. 
