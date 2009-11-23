@@ -29,6 +29,9 @@ _Toby_:  Well, I also thought of 'hom-$\infty$-groupoid' and 'hom-simplicial set
 Other people would say "derived hom space". I reworded the above introduction and mention that term now.  
 
 _Toby_:  I could go for [[derived hom-space]] (with or without hyphen, although we\'ve been using hyphens here for some reason).  That clarifies that it\'s not the na&#239;ve hom-space but doesn\'t imply that it\'s the $\infty$-categorification of a $1$-categorial hom-space.
+
+_Urs_: At least "derived hom-space" has the advantage that it follows wide-spread practice. However, to me this wide-spread practice looks like a bad practice: the term "derived" is used widely but inconsistently and unsystematically. And it carries with it the historical baggage of its origin as a procedure whose conceptual meaning wasn't understood. "Derived" essentially just indicates: "there is some procedure that gives us this construction from given data", never mind if we know what the procedure actually means. Today we know what it actually means: it is all about constructing $(\infty,1)$-categories. I feel on the $n$Lab we should play Bourbaki and implement good terminology from the point of view of higher category theory.
+
 =--
 
 
