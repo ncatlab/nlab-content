@@ -1,30 +1,40 @@
+# Koszul duality
+* tic
+{: toc}
+
+
 __Koszul duality__ is a duality and phenomenon generalizing the duality between the symmetric and exterior algebra of a vector space to so-called quadratic [[differential graded algebra]]s (which can be obtained as a free dga module an ideal of relations which live in degree 2). For a pair of Koszul dual algebras, there is a correspondence between certain parts of their derived categories (precise formulation involves some finiteness conditions). In a setup in which one of the algebras is replaced by a cocomplete dg coalgebra, there is a formulation free of finiteness conditions, but involving [[twisting cochain]] (see that entry).
 
-#Informal discussion
+
+##Informal discussion
 
 First, it's important to understand there are a lot of algebras whose derived categories are equivalent in surprising ways.  [[Morita equivalences]] are kind of boring, especially for finite dimensional algebras; essentially the only thing you can do is change the dimensions of objects.
 
-The way you see this is that if A-mod and B-mod are equivalent, then the image of A as a module over itself is a projective generator of B-mod, and for a finite-dimensional algebra, essentially the only thing you can do is take several copies of the indecomposible projectives of B.
+The way you see this is that if $A Mod$ and $B Mod$ are equivalent, then the image of $A$ as a module over itself is a [[projective object|projective]] [[generator]] of $B Mod$, and for a finite-dimensional algebra, essentially the only thing you can do is take several copies of the [[indecomposable object|indecomposible]] projectives of $B$.
 
-On the other hand, if you take the derived category of [[differential graded module|dg-modules]] over A (the dg part of this is not a huge deal; it's just that they're very close to, but a bit better behaved than actual derived/[[triangulated categories]] which I consider something of a historical mistake, which should be replaced with dg/A-infinity versions), this is equivalent to the category of dg-modules over the [[endomorphism algebra]] (this is in the dg sense, so it's a dg-algebra whose cohomology is the Ext algebra) of *any* generating object.  There are a *lot* more generating objects than projective generators, so there are a lot of derived equivalences.
+On the other hand, if you take the derived category of [[differential graded module|dg-modules]] over $A$ (the dg part of this is not a huge deal; it's just that they're very close to, but a bit better behaved than, actual derived/[[triangulated categories]], which I consider something of a historical mistake and should be replaced with dg/$A_\infty$ versions), this is equivalent to the category of dg-modules over the [[endomorphism algebra]] (this is in the dg sense, so it's a dg-algebra whose cohomology is the $Ext$ algebra) of *any* generating object.  There are a *lot* more generating objects than projective generators, so there are a lot of derived equivalences.
 
-In particular, you can take your favorite finite dimensional algebra A, and the most obvious not-very-projective generating object: the sum of all the [[simple modules]].  Call this L.
-As I mentioned, there's an equivalence $A-dg-mod = \mathrm{Ext}(L,L)-dg-mod$, just given by taking $\mathrm{Ext}(L,-)$.   
+In particular, you can take your favorite finite dimensional algebra $A$, and the most obvious not-very-projective generating object: the sum of all the [[simple modules]].  Call this $L$.  As I mentioned, there's an equivalence $A dg Mod = \mathrm{Ext}(L,L) dg Mod$, just given by taking $\mathrm{Ext}(L,-)$.   
 
-Now, in general, $\mathrm{Ext}(L,L)$ is an absolutely horrible object (for example, for [[group algebras]] over [[finite fields]] some time, it can be quite complicated), but sometimes it turns out to be nice.  For example, if you start with A being the [[exterior algebra]], you'll get a [[polynomial ring]] on the dual vector space.  Another (closely related) example is that the cohomology of a [[reductive group]] (over C) is Koszul dual to the cohomology of its classifying space.
+Now, in general, $\mathrm{Ext}(L,L)$ is an absolutely horrible object (for example, for [[group algebras]] over [[finite field]]s sometimes, it can be quite complicated), but sometimes it turns out to be nice.  For example, if you start with $A$ being the [[exterior algebra]], you'll get a [[polynomial ring]] on the dual vector space.  Another (closely related) example is that the cohomology of a [[reductive group]] (over $\mathbb{C}$) is Koszul dual to the cohomology of its classifying space.
 
-One thing that could help you make sure that $\mathrm{Ext}(L,L)$ is nice is if your algebra is graded.  Then $\mathrm{Ext}(L,L)$ inherits an "internal" grading in addition to its homological one.  If these coincide, then $A$ is called _Koszul_. 
+One thing that could help you make sure that $\mathrm{Ext}(L,L)$ is nice is if your algebra is [[graded algebra|graded]].  Then $\mathrm{Ext}(L,L)$ inherits an "internal" grading in addition to its homological one.  If these coincide, then $A$ is called _Koszul_. 
 
-In this case, $B=\mathrm{Ext}(L,L)$ is forced to be formal (if it had any interesting A-infinity operations, they would break the grading), so you're dealing with a derived equivalence between actual algebras, though you have to be a bit careful about the dg-issues.  You've found that the derived category of usual modules over A is equivalent to dg-modules over B (with its unique grading) and vice versa.  You can fix this by taking graded modules on both sides.
+In this case, $B=\mathrm{Ext}(L,L)$ is forced to be formal (if it had any interesting $A_\infty$ operations, they would break the grading), so you're dealing with a derived equivalence between actual algebras, though you have to be a bit careful about the dg-issues.  You've found that the derived category of usual modules over $A$ is equivalent to dg-modules over $B$ (with its unique grading) and vice versa.  You can fix this by taking graded modules on both sides.
 
-#Examples
 
-* The most famous example of Koszul dual algebras is the exterior algebra $\wedge^{\bullet}V[-1]$ and the polynomial algebra $\mathram{Sym}^\bullet V^*[-2]$.
-* A regular block of [[category O]] for any [[semi-simple Lie algebra]] is a self-Koszul dual.
-:* More generally, a singular block of [[parabolic category O]] is dual to a different singular block of parabolic category O where the combinatorial data determining the central character and finiteness conditions switch.
+##Examples
+
+* The most famous example of Koszul dual algebras are the [[exterior algebra]] $Alt^{\bullet}V[-1]$ and the [[polynomial algebra]] $Sym^\bullet V^*[-2]$.
+
+* A regular block of [[category O]] for any [[semisimple Lie algebra]] is a self-Koszul dual.
+
+  * More generally, a singular block of [[parabolic category O]] is dual to a different singular block of parabolic category O where the combinatorial data determining the central character and finiteness conditions switch.
+
 * Braden, Licata, Proudfoot and Webster gave a combinatorial construction of a large family of Koszul dual algebras in [Gale duality and Koszul duality](http://front.math.ucdavis.edu/0806.3256).
 
-#Generalization to operads
+
+##Generalization to operads
 
 There is a further generalization to quadratic operads, predicted in 
 
@@ -32,9 +42,10 @@ There is a further generalization to quadratic operads, predicted in
 
 and developed in
 
-* V. Ginzburg, M. Kapranov, Koszul duality for operads,  Duke Math. J.  76  (1994),  no. 1, 203--272 (<a href="http://front.math.ucdavis.edu/0709.1228">arXiv</a>)
+* V. Ginzburg, M. Kapranov, Koszul duality for operads,  Duke Math. J.  76  (1994),  no. 1, 203--272 ([arXiv](http://front.math.ucdavis.edu/0709.1228))
 
-#Other references
+
+##Other references
 
 Other historical references on Koszul duality include
 
