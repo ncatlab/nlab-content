@@ -140,6 +140,24 @@ The proof for the second statement is the precise formal dual.
 =--
 
 
+Better yet:
+
++-- {: .un_lemma }
+###### Lemma
+
+In a left proper model category every pushout along a cofibration is a homotopy pushout.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is for instance [[Higher Topos Theory|HTT, prop A.2.4.4]] or prop. 1.19 in
+[Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf).
+
+=--
+
+
 ## References ##
 
 
