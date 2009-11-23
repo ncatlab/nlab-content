@@ -10,6 +10,7 @@
 <polyline fill='none' stroke-width='2px' stroke='rgb(0%,100%,0%)' stroke-dasharray='4,4' points='413.483,42.0944 413.483,428.286 ' />
 <polyline fill='none' stroke-width='2px' stroke='rgb(0%,100%,0%)' stroke-dasharray='4,4' points='101.047,235.19 487.239,235.19 ' />
 <polyline fill='none' stroke-width='2px' stroke='rgb(0%,0%,0%)' stroke-dasharray='4,4' points='347.514,148.835 413.483,42.0944 ' />
+<polyline fill='none' stroke-width='2px' stroke='rgb(0%,0%,0%)' stroke-dasharray='4,4' points='294.143,354.53 400.884,181.82 ' />
 <ellipse fill='rgb(0%,0%,100%)' stroke='none' cx='175' cy='42' rx='4.7736' ry='4.7736' />
 <ellipse fill='rgb(0%,0%,100%)' stroke='none' cx='413' cy='42' rx='4.7736' ry='4.7736' />
 <ellipse fill='rgb(0%,0%,100%)' stroke='none' cx='294' cy='116' rx='4.7736' ry='4.7736' />
@@ -73,7 +74,7 @@
 <g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 174.803306, 437.286413)'>
 <text x='0' y='14' font-family='Times' font-size='18px' fill='rgb(0%,0%,0%)'>&#x2013;B</text>
 </g>
-<g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 332.513632, 157.835236)'>
+<g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 339.013632, 121.835236)'>
 <text x='0' y='14' font-family='Times' font-size='18px' fill='rgb(0%,0%,0%)'>C</text>
 </g>
 <g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 289.143207, 88.850498)'>
@@ -85,12 +86,43 @@
 <g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 499.239221, 226.190399)'>
 <text x='0' y='14' font-family='Times' font-size='18px' fill='rgb(0%,0%,0%)'>R</text>
 </g>
+<g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 289.143207, 368.030299)'>
+<text x='0' y='14' font-family='Times' font-size='18px' fill='rgb(0%,0%,0%)'>S</text>
+</g>
 <g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 300.643207, 241.940399)'>
 <text x='0' y='14' font-family='Times' font-size='18px' fill='rgb(0%,0%,0%)'>O</text>
+</g>
+<g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 400.884058, 190.819973)'>
+<text x='0' y='14' font-family='Times' font-size='18px' fill='rgb(0%,0%,0%)'>T</text>
+</g>
+<g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)'>
+<path stroke='rgb(100%,0%,0%)' stroke-width='0.5px' fill='none' d='M462.636,219.942 A28.6416,28.6416 0 0 0 458.358,235' />
+</g>
+<g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 435.820170, 213.145758)'>
+<text x='0' y='14' font-family='Times' font-size='18px' fill='rgb(100%,0%,0%)'>&#x03b1;</text>
+</g>
+<g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)'>
+<path stroke='rgb(100%,0%,0%)' stroke-width='0.5px' fill='none' d='M199.364,57.0578 A28.6416,28.6416 0 0 0 203.642,42' />
+</g>
+<g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 215.222357, 46.139024)'>
+<text x='0' y='14' font-family='Times' font-size='18px' fill='rgb(100%,0%,0%)'>&#x03b1;</text>
+</g>
+<g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)'>
+<path stroke='rgb(100%,0%,0%)' stroke-width='0.5px' fill='none' d='M309.058,330.636 A28.6416,28.6416 0 0 0 294,326.358' />
+</g>
+<g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 301.687847, 299.611248)'>
+<text x='0' y='14' font-family='Times' font-size='18px' fill='rgb(100%,0%,0%)'>&#x03b1;</text>
+</g>
+<g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)'>
+<path stroke='rgb(100%,0%,0%)' stroke-width='0.5px' fill='none' d='M294,144.642 A28.6416,28.6416 0 0 0 318.364,131.058' />
+</g>
+<g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 296.888925, 148.544124)'>
+<text x='0' y='14' font-family='Times' font-size='18px' fill='rgb(100%,0%,0%)'>90&#x2013;&#x03b1;</text>
 </g>
 <g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)'>
 <ellipse fill='rgb(0%,0%,0%)' stroke='none' cx='348' cy='149' rx='4.13303' ry='4.13303' />
 <ellipse fill='rgb(0%,0%,0%)' stroke='none' cx='294' cy='235' rx='4.13303' ry='4.13303' />
+<ellipse fill='rgb(0%,0%,0%)' stroke='none' cx='401' cy='182' rx='4.13303' ry='4.13303' />
 </g>
 </g>
 </svg>
