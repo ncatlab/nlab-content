@@ -42,17 +42,19 @@ is an isomorphism.
 
 ### Local objects ###
 
-**Definition [def. 5.5.4.1](http://www-math.mit.edu/~lurie/papers/highertopoi.pdf#page=383) in [[Higher Topos Theory|HTT]]**
++-- {: .un_defn}
+###### Definition [5.5.4.1](http://www-math.mit.edu/~lurie/papers/highertopoi.pdf#page=383) in [[Higher Topos Theory|HTT]]
 
 Let $C$ be an [[(∞,1)-category]] and $S$ a collection of morphisms in $C$. Then an [[object]] $c \in C$ is **$S$-local** if the [[hom-functor]]
 $$
   C(-,c) : C^{op} \to \infty Top
 $$
 evaluated on $s \in S$ induces isomorphism in the [[homotopy category]] of [[Top]].
+=--
 
 ### Local morphisms ###
 
-Conversely, a **morphism** $f : x \to y$ is **$S$-local if for every $S$-local object $c$ the induced morphism
+Conversely, a **morphism** $f : x \to y$ is **$S$-local** if for every $S$-local object $c$ the induced morphism
 
 $$
   C(f,c) : C(y,c) \to C(x,c)
@@ -74,8 +76,7 @@ $$
 $$
 
 +-- {: .un_def }
-###### Definition
-**(local object, local weak equivalence)**
+###### Definition (local object, local weak equivalence)
 
 An object $c \in C$ is a **$S$-local object** if for all $s : a \to b$ in $C$ the induced morphismm
 
@@ -116,8 +117,7 @@ $$
 In [[proper model category|left proper model categories]] there is an equivalent stronger characterization of $S$-locality of cofibrations $i : A \hookrightarrow B$.
 
 +-- {: .un_prop }
-###### Proposition
-**(characterization of $S$-local cofibrations)**
+###### Proposition (characterization of $S$-local cofibrations)
 
 Let $C$ be a [[proper model category|left proper]] [[simplicial model category]] and $S \subset Mor(C)$ a collection of morphisms. 
 
@@ -224,7 +224,7 @@ $$
   }
 $$
 
-and hence, by the general properties of [enriched homs between cofibrant/fibrant objects](http://ncatlab.org/nlab/show/(infinity,1)-categorical+hom-space#enriched_homs_between_cofibrantfibrant_objects_6) a weak equivalence. $j^* : (i^*)^{-1}(t) \stackrel{\simeq}{\to} q^{-1}(t)$, so that indeed $(i^*)^{-1}(t)$ is contractible.
+and hence, by the general properties of [enriched homs between cofibrant/fibrant objects](http://ncatlab.org/nlab/show/%28infinity,1%29-categorical+hom-space#enriched_homs_between_cofibrantfibrant_objects_6) a weak equivalence. $j^* : (i^*)^{-1}(t) \stackrel{\simeq}{\to} q^{-1}(t)$, so that indeed $(i^*)^{-1}(t)$ is contractible.
 
 
 This proves the first part of the statement. For the converse statement, assume now that...
@@ -252,6 +252,7 @@ A useful reference with direct ties to the [[(∞,1)-category]] story in the bac
 ## Saturated class of morphisms ##
 
 Every morphism in $S$ is $S$-local.
+
 The collection $S$ of morphisms is called **saturated** if the collection of $S$-local morphisms coincides with $S$.
 
 
@@ -260,6 +261,7 @@ The collection $S$ of morphisms is called **saturated** if the collection of $S$
 ##Remarks##
 
 
-* a [[reflective subcategory]] as well as a [[reflective (∞,1)-subcategory]] can be realized as the full (($\infty,1$)-)subcategory on $S$-local objects, where $S$ is the collection of morphisms sent by the corresponding [[localization of an (∞,1)-category]] to equivalences. For details on this see the discussion at [[geometric embedding]].
+* a [[reflective subcategory]] as well as a [[reflective (∞,1)-subcategory]] can be realized as the full ($(\infty,1)$-)subcategory on $S$-local objects, where $S$ is the collection of morphisms sent by the corresponding [[localization of an (∞,1)-category]] to equivalences. For details on this see the discussion at [[geometric embedding]].
+
 
 [[!redirects local objects]]
