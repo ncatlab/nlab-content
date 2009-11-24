@@ -19,7 +19,7 @@ See also the [[FAQ]].
 
 The $n$Lab displays mathematical symbols using [MathML](http://en.wikipedia.org/wiki/MathML).  Displaying MathML requires support from your web browser.  The browser with the best support for MathML is [Firefox](http://www.mozilla.com/firefox/), especially if you install the [STIX fonts](http://www.mozilla.org/projects/mathml/fonts/).  Firefox is a great browser in many other ways too, so if you aren't using it, why not give it a try?
 
-Recent versions of Opera also apparently support MathML.  For InternetExplorer, one needs to install the [MathPlayer](http://www.dessci.com/en/products/mathplayer/) plugin. Download is quick and easy and free, but installation may require Administrator privileges on your computer.  Other browsers such as Safari and Chrome seemingly do not support MathML at present.
+Recent versions of Opera also apparently support MathML, but as a blog post on [Jacques Distler's Musings](http://golem.ph.utexas.edu/~distler/blog/archives/001588.html) points out, this may not work properly.  For InternetExplorer, one needs to install the [MathPlayer](http://www.dessci.com/en/products/mathplayer/) plugin. Download is quick and easy and free, but installation may require Administrator privileges on your computer.  Other browsers such as Safari and Chrome seemingly do not support MathML at present.
 
 ## How to search the nLab & nForum from firefox ##
 
@@ -63,7 +63,12 @@ If you just print it directly, the logo will become a huge blob that takes up th
 
 (Firefox - and clones - specific)
 
-You may wish to customize the font scheme (both for math or text) on the nLab, as well as tweak things such as the small edit box for comments. Try the [nLab Stylish theme](http://userstyles.org/styles/17934) theme if you are using Firefox. (Stylish is a plug-in for firefox enabling you to customize websites; it is available [here](https://addons.mozilla.org/en-US/firefox/addon/2108)). The nLab theme changes the fonts on the nLab to a serif-style, and makes the edit box much bigger for an overall more pleasant experience! Experienced users can also do this themselves by tweaking the CSS. You might also want to try a Firefox [extension](https://addons.mozilla.org/en-US/firefox/addon/4125) which allows you to edit the text box using your favourite text editor. 
+You may wish to customize the font scheme (both for math or text) on the nLab, as well as tweak things such as the small edit box for comments. Try using the Stylish add-on if you are using Firefox; Stylish is a plug-in for firefox enabling you to customize websites; it is available [here](https://addons.mozilla.org/en-US/firefox/addon/2108).
+
+Currently, the following stylish themes are available:
+
+* [nLab Stylish theme](http://userstyles.org/styles/17934) by [[Bruce Bartlett]].  This nLab theme changes the fonts on the nLab to a serif-style, and makes the edit box much bigger for an overall more pleasant experience!
+* [nLab -- nCafe style](http://userstyles.org/styles/22800) by [[Daniel Schäppi]].  This is based on Bruce Bartlett's theme but changes the overall colour scheme somewhat to something a little more like the n-Cafe.
 
 ## How to Download a Local Copy of the n-Lab ##
 
@@ -176,9 +181,9 @@ which produces
 First quantization is a mystery, but second quantization is a functor. 
 =--
 
-## How to fiddle with the CSS (i.e. create query boxes, etc.) on your personal ncatlab space ##
+## How to fiddle with the CSS (i.e. create query boxes, etc.) on your personal ncatlab web ##
 
-To fiddle with the CSS code, go to "Edit web" on the main page of your wiki, and then click on "Stylesheat tweaks". Here you can add new CSS gismos like query boxes and standout boxes. These kind of gismos come from the mechanism of putting CSS classes into the Markdown syntax, in the  [same way](http://golem.ph.utexas.edu/~distler/blog/archives/001820.html) that Jacques created the Theorem environments in Instiki. In other words, a query box is like a theorem environment: it's a way in Markdown to create an HTML block with a specific id, which you can then style in the CSS. You can grab the CSS code for query boxes from the main nLab page. It requires a password to change the CSS, but to view it does not require one. 
+As changes even to personal webs require the system password, to make such changes you need to ask a [[lab elf]] to do this for you.  The best method of doing this is to post a request at the [n-forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum).  It does not, however, require a password to **see** the stylesheet tweaks on these webs so if you see a feature that you would like on one of the other webs, go to the "Edit Web" link at the bottom of their "HomePage" and you will be able to see how they have done what they did.
 
 
 ## How to include one page within another ##
