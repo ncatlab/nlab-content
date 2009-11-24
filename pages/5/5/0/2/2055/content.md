@@ -28,6 +28,8 @@
 
 * [Gil Kalai's Blog](http://gilkalai.wordpress.com)
 
+* [Climbing Mount Bourbaki](http://amathew.wordpress.com) (Akhil Mathew)
+
 * [Concrete Nonsense](http://concretenonsense.wordpress.com)
 
 * [Delta Epsilons](http://deltaepsilons.wordpress.com) A group blog focusing on algebra, representation theory, and Olympiad-style problem-solving
