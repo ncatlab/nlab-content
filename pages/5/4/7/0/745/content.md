@@ -113,7 +113,7 @@ which is universal in the [[2-category]] [[Cat]]; that is, it is an example of a
 
 * [[functors and comma categories]]
 
-## Discussion about terminology ##
+## Discussion about notation ##
 
 The terminology "comma category" is a holdover from the original notation $(f,g)$ for such a category, which generalises $(x,y)$ or $C(x,y)$ for a [[hom-set]].
 
