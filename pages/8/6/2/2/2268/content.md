@@ -51,6 +51,8 @@ $$
   \,.
 $$
 
+So regarded as an [[NQ-supermanifold]] the tangent Lie algebroid is the [[shifted tangent bundle]] $\Pi T X$ equipped with its canonical odd vector field.
+
 # relation to flat $\infty$-Lie algebroid valued differential forms #
 
 For $\mathfrak{a}$ any other [[Lie algebroid]] or [[Lie infinity-algebroid]], a morphism of [[Lie infinity-algebroid]]s 
