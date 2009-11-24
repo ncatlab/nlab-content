@@ -113,6 +113,8 @@ Other choices of $W$ give "categories which are both enriched and internal," for
 
 ## References ##
 
+
+
 * R.J. Wood, "Abstract Proarrows I" and "Proarrows II" (the original definitions)
 
 * [[Ross Street]], "Fibrations in bicategories" (Construction of $V Mod$ from $V Cat$.)
@@ -126,6 +128,11 @@ Other choices of $W$ give "categories which are both enriched and internal," for
 * G.S.H Cruttwell and Michael Shulman, "A unified framework for generalized multicategories" (currently the only reference for virtual equipments).
 
 * [[Renato Betti]], Aurelio Carboni, Ross Street, and [[Robert Walters]], "Variation through enrichment."  (Locally small fibrations as $Span$-enriched categories.)
+
+
+A blog post surveying ideas in equipments is
+
+* [[Mike Shulman]], _Equipments_ ([blog](http://golem.ph.utexas.edu/category/2009/11/equipments.html#c029531))
 
 
 [[!redirects equipments]]
