@@ -1,9 +1,13 @@
-#Idea#
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea ##
 
 The comma category of two functors $f : C \to E$ and $g : D \to E$ is like an [[arrow category]] of $E$ where all arrows have their [[source]] in the image of $f$ and their [[target]] in the image of $g$ (and the morphisms between arrows keep track of how these sources and targets are in these images).
 
 
-# Definition #
+## Definition ##
 
 If $f:C\to E$ and $g:D\to E$ are [[functors]], their **comma category** is the category $(f/g)$ whose
 
@@ -87,7 +91,7 @@ $$
 In terms of the imagery of loop spaces objects, the comma category is the category of [[interval object|directed paths]] in $E$ which start in the image of $f$ and end in the image of $g$.
 
 
-# Examples #
+## Examples ##
 
 * If $f$ and $g$ are both the identity functor of a category $C$, then $(f/g)$ is the category $C ^{\mathbf{2}} $ of arrows  in $C$.
 
@@ -96,7 +100,7 @@ In terms of the imagery of loop spaces objects, the comma category is the catego
 * Likewise if $g$ is the identity and $f$ is the inclusion of $c$, then $(f/g)$ is the [[under category|coslice category]] $c/C$.
 
 
-# 2-categorical properties #
+## 2-categorical properties ##
 
 The comma category $(f/g)$ comes with a canonical 2-cell in the square
 
@@ -105,11 +109,11 @@ The comma category $(f/g)$ comes with a canonical 2-cell in the square
 =--
 which is universal in the [[2-category]] [[Cat]]; that is, it is an example of a [[2-limit]] (in fact, it is a [[strict 2-limit]]).  Squares with the same universal property in an arbitrary 2-category are called _comma squares_ and their top left vertex is called a [[comma object]].
 
-# Further properties #
+## Further properties ##
 
 * [[functors and comma categories]]
 
-# Discussion about terminology #
+## Discussion about terminology ##
 
 The terminology "comma category" is a holdover from the original notation $(f,g)$ for such a category, which generalises $(x,y)$ or $C(x,y)$ for a [[hom-set]].
 
@@ -149,7 +153,7 @@ _Toby_:  I find $(f \downarrow g)$ more self explanatory, but $(f/g)$ is cool.  
 
 =--
 
-# Further reading #
+## Further reading ##
 
 [a low-tech description with several special cases identified in somewhat archaic terminology](http://toby.bartels.name/notes/#comma)
 
