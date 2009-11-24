@@ -5,6 +5,8 @@
 
   * [[finite object]]
 
+  * [[small object]]
+
 * [[tiny object]]
 
 * [[infinitesimal object|atomic object]]
