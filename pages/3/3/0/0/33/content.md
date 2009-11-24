@@ -84,9 +84,9 @@ If the structures being defined are [[algebra over an operad|algebras over]] an 
 
 For instance this way 
 
-* the notion of ordinary associative [[algebra]] is sent to that of [[A-∞-algebra]] 
+* the notion of ordinary associative [[algebra]] is sent to that of $A_\infty$-[[A-∞-algebra|algebra]] 
 
-* the notion of ordinary [[Lie algebra]] to [[L-∞ algebra]].
+* the notion of ordinary [[Lie algebra]] to $L_\infty$-[[L-∞-algebra|algebra]].
 
 
 ### Contrast to horizontal categorificationn ###
