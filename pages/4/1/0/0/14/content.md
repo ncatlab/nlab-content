@@ -6,7 +6,7 @@
 
 #History#
 
-The [[HomePage|nLab]] is a _collaborative [wiki](http://en.wikipedia.org/wiki/Wiki)_ which has grown out of the desire ([I](http://golem.ph.utexas.edu/category/2007/09/towards_a_higherdimensional_wi.html), [II](http://golem.ph.utexas.edu/category/2008/11/beyond_the_blog.html)) of an on-line community communicating via the weblog [The $n$-Category Caf&#233;](http://golem.ph.utexas.edu/category/) of people interested in discussion of expository and research nature about [[mathematics]], [[physics]] and [[philosophy]] in the light of [[category theory]] and [[higher category theory]] (the "$n$" in "$n$Lab") to have a place for development (the "Lab" in "$n$Lab") and indexed archivation of the ideas and concepts that were, are and will be subject of or that developed out of the discussion at the weblog.
+The [[HomePage|nLab]] is a _collaborative [wiki](http://en.wikipedia.org/wiki/Wiki)_.  It grew out of the desire ([I](http://golem.ph.utexas.edu/category/2007/09/towards_a_higherdimensional_wi.html), [II](http://golem.ph.utexas.edu/category/2008/11/beyond_the_blog.html)) to have a place for development (the "Lab" in "$n$Lab") and indexed archives of the ideas and concepts surrounding the discussions at the [The $n$-Category Caf&#233;](http://golem.ph.utexas.edu/category/).  These discussions primarily are about [[mathematics]], [[physics]] and [[philosophy]] from the perspective of [[category theory]] and [[higher category theory]] (the "$n$" in "$n$Lab").
 
 The $n$Lab was [created](http://golem.ph.utexas.edu/category/2008/11/nlab.html) in November 2008 using software provided and set up by [[Jacques Distler]].  The name "$n$Lab" was dreamt up by Lisa Raphals ([[John Baez]]'s wife).
 
@@ -16,13 +16,43 @@ The $n$Lab itself spun off the [$n$-Forum](http://www.math.ntnu.no/~stacey/Vanil
 
 The site is running [[Jacques Distler]]'s [Instiki](http://golem.ph.utexas.edu/instiki/show/HomePage). To see the content correctly, you need to be running a [MathML-capable browser](http://golem.ph.utexas.edu/instiki/show/Browsers). See [[HowTo]] for more on that.
 
-The site is served using [lighttpd](http://www.lighttpd.net/) and [Mongrel](http://mongrel.rubyforge.org/). It is hosted on a [256MB Virtual Private Server](http://www.a2hosting.com/services/vps-hosting/), running [CentOS](http://www.centos.org/), from [A2 Hosting](http://www.a2hosting.com/).
+The site is served using [apache](http://www.apache.org/) and [Phusion Passenger](http://www.modrails.com/). It is hosted on a [1Gb Virtual Private Server](http://railsplayground.com/plans-products/vps/), running [Ubuntu Linux](http://www.ubuntu.com/), from [Rails Playground](http://railsplayground.com/).
 
-#What the $n$Lab is and what it is not#
+#What the _n_Lab is and what it is not#
 
-By design, the $n$Lab is a collaborative project which can and will have to grow incrementally. 
+The most apt analogy for the _n_Lab is of a **group lab book**.  A lab book for a research scientist is a place where they writing down anything that they consider relevant for their work; a group lab book is one that several researchers with common interests use.  The material recorded in a lab book can include:
 
-The precise nature and purpose of the $n$Lab will to a large extent have to show itself and will depend on the intentions of those who decide to contribute to it. Currently it seems that common motivations for contributing to the $n$Lab are 
+* Notes from seminars
+* Notes from papers and books
+* Summaries of known work
+* Observations and results from experiments
+* Ideas for future work
+
+Apart from not having actual physical experiments, this matches the content of the _n_Lab fairly well.  The key difference between the _n_Lab and an "ordinary" lab book is that it is public.  By making it public we hope to achieve two things:
+
+1. To enable others to benefit from our work while it is still begin done.
+2. To benefit from the work of others while we are doing it.
+
+There is much more to a research project than that which appears in the final paper and we believe that since our results and our final proofs will be public, then both we and those who might read such a paper can benefit from beginning the interaction much earlier in its development.
+
+Thus by making our lab book public, we hope that casual passers-by will stop, read, and scribble something on it that will help us do our research.
+
+There are three things to say about this that are worth making very clear.
+
+1. Our reasons for having the _n_Lab are ultimately selfish.  We have set it up and run it to make it easier to our research.
+2. But to make it _work_ properly in public, we need to make it attractive to others so that they will stop by, read our jottings, and scribble something of their own.
+3. We aim to achieve a system whereby those who put most in are also those who get most out.
+
+#Who Are We?#
+
+The _n_Lab is not a community project set up for the education and improvement of Humanity.  It originally grew out of the [The $n$-Category Caf&#233;](http://golem.ph.utexas.edu/category/) and the loose-knit community surrounding that blog.  It is not possible to give a precise description of who is in that community, and the community involved in the _n_Lab has itself evolved from that starting point.  Moreover, even if it were possible to describe that community we would not wish to.  We are not a closed group, we are always keen for others to join us.  The two simple rules are:
+
+1. To join, you need to be willing to interact with the group and material already present.  Specifically: is there something already on the _n_Lab that you are interested in and is there someone already working in the _n_Lab that you would like to talk to about it?
+2. We will ask you to leave if what you are doing has little connection with what the rest of the group is doing and if it is interfering with others trying to do their work.
+
+#In Practice?#
+
+The way that this is being worked out in practice is as follows.  Currently it seems that common motivations for contributing to the $n$Lab are 
 
  * to **assemble information** on [[mathematics]], [[physics]] and [[philosophy]] in a modern unified way, from the perspective of [[higher category theory]];
 
@@ -30,12 +60,11 @@ The precise nature and purpose of the $n$Lab will to a large extent have to show
 
  * to jointly **develop ideas** and research on applying higher categorical concepts and tools to issues in [[mathematics]], [[physics]] and [[philosophy]].
 
+To some extent this involves
 
-To some extent this proves to involve 
+* collecting in principle "well known" definitions and facts in an encyclopaedic fashion, to the extent that these are not readily available, or not in the desired form, for instance on [Wikipedia](http://en.wikipedia.org/wiki/Main_Page). Depending on the enthusiasm of those who decide to contribute, this _could_ eventually develop into something like a modern version of a [Bourbaki](http://en.wikipedia.org/wiki/Bourbaki)-like project. The potential for this is conceivably there, but of course this is an ambitious idea. Time will show if the $n$Lab can live up to this goal.
 
-* collecting in principle "well known" definitions and facts in an encyclopedic fashion, to the extent that these are not readily available, or not in the desired form, for instance on [Wikipedia](http://en.wikipedia.org/wiki/Main_Page). Depending on the enthusiasm of those who decide to contribute, this _could_ eventually develop into something like a modern version of a [Bourbaki](http://en.wikipedia.org/wiki/Bourbaki)-like project. The potential for this is conceivably there, but of course this is an ambitious idea. Time will show if the $n$Lab can live up to this goal.
-
-But on top of this encyclopedic function, and hopefully in parallel to that, the $n$Lab is 
+But on top of this encyclopaedic function, and hopefully in parallel to that, the $n$Lab is 
 
 * intended as providing a _laboratory_ for collaborative development of ideas -- for research. Within the community out of which the $n$Lab grew exists the feeling that there is considerable potential for the fruitful application and development of categorical and higher categorical concepts and tools to various areas in [[mathematics]], [[physics]] and [[philosophy]]. Several contributors to the $n$Lab are actively involved in research along these lines.
 The $n$Lab is meant as a place to collect, develop and present such research.
@@ -59,7 +88,7 @@ Many entries are [stubs](http://en.wikipedia.org/wiki/Wikipedia:Stub)!
 
 **If you find yourself annoyed by the state any given entry is in**, for whatever reason, please feel encouraged to edit it in order to improve the situation. 
 
-**Notice**: an entry being in a pityful state is usually more a sign of nobody having spared the time and energy to work on it, than of our joint incompetence to write a decent entry if we were being paid for doing it (though, naturally, that may happen, too, of course). So if you find your eyebrows raised by some entry, don't turn away to be the next one _not_ to work on it. Instead, improve it. We all do this voluntarily. We all have other duties to look after. So don't be annoyed with "us", help us.
+**Notice**: an entry being in a pitiful state is usually more a sign of nobody having spared the time and energy to work on it, than of our joint incompetence to write a decent entry if we were being paid for doing it. So if you find your eyebrows raised by some entry, don't turn away to be the next one _not_ to work on it. Instead, improve it. We all do this voluntarily. We all have other duties to look after. So don't be annoyed with "us", help us.
 
 So if you feel existing material needs to be changed, you can do so. If you feel further material needs to be added, different perspectives need to be amplified, you can add new paragraph, headed by a suitable headline. **Be bold**: The $n$Lab will be the better the more people decide to contribute to it.
 
