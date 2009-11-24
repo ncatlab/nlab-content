@@ -10,14 +10,7 @@
 ## Idea  ##
 
 A [[model category]] $C$ is _cofibrantly generated_ if there is a [[set]]
-(meaning: small set, not a proper class) of cofibrations and one of
-trivial cofibrations, such that all other (trivial) cofibrations are
-_generated_ from these.
-
-Ths property of being cofibrantly generated is particularly tractable
-and useful in the case that the model category is a 
-[[presentable category]]. In this case one speaks of a
-[[combinatorial model category]].
+(meaning: small set, not a proper class) of cofibrations and one of trivial cofibrations, such that all other (trivial) cofibrations are _generated_ from these.
 
 ## Definition ##
 
@@ -25,8 +18,18 @@ We need the following general terminology
 
 +-- {: .un_defn}
 ###### Definition
+**(cells and injectives)**
 
-Let $C$ be a category with all [[colimit]]s and let $I \subset Mor(C)$ a class of morphisms. We write
+Let $C$ be a category with all [[colimit]]s and let $S \subset Mor(C)$ a class of morphisms. We write
+
+* $rlp(S)$ for the collection of morphisms with the _right_ 
+  [[weak factorization system|lifting property]] 
+  with respect to $S$;
+  
+* $llp(S)$ for the collection of morphisms with the _left_ 
+  [[weak factorization system|lifting property]] with respect to $S$.
+
+Moreover, we also write, now for $I \subset Mor(C)$: 
 
 * $cell(I)$ for the class of morphisms obtained by [[transfinite composition]] of [[pushout]]s of elements in $I$;
 
@@ -36,64 +39,81 @@ Let $C$ be a category with all [[colimit]]s and let $I \subset Mor(C)$ a class o
 
 =--
 
++-- {: .un_defn}
+###### Definition
+**(cofibrantly generated model category)**
+
+
 A [[model category]] with all [[colimit]]s is **cofibrantly generated** if there is a small [[set]] $I$ and a small set $J$ such that
 
 * $cof(I)$ is precisely the collection cofibrations of $C$;
 
-* $coj(J)$ is precisely the collection of acyclic cofibrations in $C$; and
+* $cof(J)$ is precisely the collection of acyclic cofibrations in $C$; and
 
 * $I$ and $J$ permit the [[small object argument]].
 
-In this case we have necessarily that
-
-* $inj(J)$ is precisely the collection of fibrations on $C$;
-
-* $inj(I)$ is pecisely the collection of acyclic cofibrations of $C$.
-
-### Special case: presentable/combinatorial model category ###
-
-In the special case that the [[model category]] $C$ is a [[presentable category]] the condition for it to be cofibrantly generated has a more elegant description. In that case it is called a [[combinatorial model category]]. See there for more on this.
-
-For $S \subset Mor(C)$ any collection of morphisms, write
-
-* $rlp(S)$ for the collection of morphisms with the _right_ 
-  [[weak factorization system|lifting property]] 
-  with respect to $S$;
-  
-* $llp(S)$ for the collection of morphisms with the _left_ 
-  [[weak factorization system|lifting property]] with respect to $S$;
-  
-+-- {: .un_defn}
-###### Definition
-
-A [[model category]] $C$ that is a [[presentable category]] is  **cofibrantly generated** if there is a small [[set]] $cof_0 \subset cof \subset Mor(C)$ of cofibrations such that the collection $cof$ of all cofibrations is
-
-$$
-  cof = llp(rlp(cof_0))
-  \,.
-$$
 =--
 
-Notice that necessarily
+Since $I$ and $J$ are assumed to admit the [[small object argument]] the collection of cofibrations and acyclic cofibrations has the following simpler characterization:
 
-$$
-  cof_0 \subset llp(rlp(cof_0))
-  \,.
-$$
-
-There is another way to characterize $llp(rlp(cof_0))$.
-
-+-- {: .un_prop}
++-- {: .un_proposition}
 ###### Proposition
 
-If $C$ is [[presentable category|presentable]], and $S \subset Mor(C)$ is any set of morphisms, then $llp(rlp(S))$ is  the smallest collection containing $S$ that is closed under  [[pushout]], [[retract]]s and [[transfinite composition]].
+In a cofibrantly generated model category we have
+
+* $cof(I) = llp(rlp(I))$
+
+* $cof(J) = llp(rlp(J))$.
+
 =--
+
+And therefore the fibrations are precisely $rlp(J)$ and the acyclic fibrations precisely $rlp(I)$.
 
 +-- {: .proof}
 ###### Proof
 
-Use the [[small object argument]].
+The argument is the same for $I$ and $J$. So take $I$. 
+
+By definition we have $I \subset llp(rlp(I))$ and it is checked that collections of morphisms given by a left lifting property are stable under pushouts, transfinite composition and pushouts. So $cof(I) \subset llp(rlp(I))$.
+
+For the converse inclusion we use the [[small object argument]]: let $f : X \to Z$ be in $llp(rlp(I))$. The small object argument produces a factorization
+$f : X \stackrel{f' \in cof(I)}{\to} Y \stackrel{f''\in rlp(I)}{\to} Z$. 
+
+It follows that $f$ has the left [[lifting property]] with respect to $f''$ which yields a morphism $\sigma$ in
+
+$$
+  \array{
+    X &\stackrel{f'}{\to}& Y
+    \\
+    \downarrow^{\mathrlap{f}} 
+    &{}^\sigma\nearrow& \downarrow^{\mathrlap{f''}}
+    \\
+    X &\stackrel{=}{\to}& X
+  }
+$$
+
+which exhibits $f$ as a retract of $f'$
+
+$$
+  \array{
+     X &\stackrel{=}{\to}& X &\stackrel{=}{\to}& X
+     \\
+     \downarrow^{\mathrlap{f}} && 
+     \downarrow^{\mathrlap{f''}} && 
+     \downarrow^{\mathrlap{f}}
+     \\
+     Z &\stackrel{\sigma}{\to}& Y
+     &\stackrel{f''}{\to}&
+     Z
+  }
+  \,.
+$$
+
+Therefore $f \in cof(I)$.
+
 =--
+
+
 
 ## Properties ##
 
@@ -227,6 +247,15 @@ that exhibits $f$ as a weak equivalence.
 =--
 
 
+## Examples ##
+
+...
+
+## Related concepts ##
+
+* A cofibrantly generated model category that is also a [[locally presentable category]] is called a [[combinatorial model category]].
+
+* A cofibrantly generated model category for which the doamins of the morphisms in $I$ and $J$ are [[compact object]]s or [[small object]]s is a [[cellular model category]].
 
 ## References ##
 
