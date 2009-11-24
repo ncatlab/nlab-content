@@ -30,7 +30,7 @@ We say that $(\mathcal{T},(R,+,\cdot,\leq))$ satisfies the **integration axiom**
 
 $$
   \forall f \in R^{[a,b]} : \exists ! \int_a^{-} f \in R^{[a,b]} :
-  (\int_a^{-} f)(0) = 0 \wedge (\int_a^{-} f)' = f
+  (\int_a^{-} f)(a) = 0 \wedge (\int_a^{-} f)' = f
   \,.
 $$
 
