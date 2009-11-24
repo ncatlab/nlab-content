@@ -76,7 +76,7 @@ A good writeup of this material is in
 
 The idea for all $n$ was then sketched, together with many other ideas about [[L-infinity algebroid]]s in the article with the nice title
 
-* [[Pavol Severa]], _Some title containing the words "homotopy" and "symplectic", e.g. this one_ ([arXiv](http://arxiv.org/abs/math/0105080))
+* [[Pavol ?evera]], _Some title containing the words "homotopy" and "symplectic", e.g. this one_ ([arXiv](http://arxiv.org/abs/math/0105080))
 
 What we call $n$-symplectic manifold here is called $\Sigma_n$-manifold there.
 
