@@ -59,7 +59,9 @@ There is also the closely related notion  of [[multisymplectic geometry]]. See
 
 for some relations of this to the above situation for $n = 2$. Essentially multisymplectic geometry studies the higher $n$-ary brackets induced from the binary graded symplectic form discussed here. The relation between these two pictures is the same as that between as studied in the context of [[hemistrict Lie 2-algebra]]s.
 
-An article with more details on this by [[Chris Rogers]] is apparently in preparation.
+An article with more details on this:
+
+* [[Chris Rogers]], _Courant algebroids from categorified symplectic geometry_ ([pdf](http://math.ucr.edu/~chris/2plectic-algebroid_DRAFT.pdf)).
 
 
 #References#
