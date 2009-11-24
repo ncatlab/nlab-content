@@ -1,4 +1,13 @@
-A __dual number__ is an expression of the form $a + \epsilon b$, where $a$ and $b$ are [[real numbers]] and $\epsilon^2 = 0$ (but $\epsilon \ne 0$).  The set of dual numbers (in fact a [[topological vector space]] and [[commutative algebra]] over the real numbers) may be denoted $\mathbf{D}$ or $\mathbb{D}$.
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+## Idea ##
+
+The term __dual number__ is used to denote an expression of the form $a + \epsilon b$, where $a$ and $b$ are [[real numbers]] and $\epsilon^2 = 0$ (but $\epsilon \ne 0$).  The set of dual numbers is a [[topological vector space]] and a [[commutative algebra]] over the real numbers
+
+## Interpretations ##
 
 This can be thought of as:
 
@@ -8,7 +17,9 @@ This can be thought of as:
    $$ \left(\array { a & b \\ 0 & a } \right);$$
 *  the [[polynomial]] ring $\mathbb{R}[\mathrm{x}]$ modulo $\mathrm{x}^2$;
 *  the parabolic $2$-dimensional algebra of [[hypercomplex number]]s;
-*  the basic [[infinitesimal object]] in [[synthetic differential geometry]].
+*  the algebra of functions on the [[infinitesimal object|infinitesimal interval]] in [[synthetic differential geometry]].
+* if $\epsilon$ is regarded as being of degree 1 and $\mathbb{R} \oplus \epsilon \mathbb{R}$ is regarded accordingly as a [[superalgebra]] then this is the algebra of functions on the [[odd line]] $\mathbb{R}^{0|1}$.
+
 
 
 We think of $\mathbb{R}$ as a [[subset]] of $\mathbb{D}$ by identifying $a$ with $a + 0 \epsilon$.  $\mathbb{D}$ is equipped with an [[involution]] that maps $\epsilon$ to $\bar{\epsilon} = -\epsilon$:
