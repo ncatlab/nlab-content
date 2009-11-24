@@ -8,3 +8,5 @@
 * [[Lie infinity-algebroid]]
 
 category: people
+
+[[!redirects Pavol Ševera]]
