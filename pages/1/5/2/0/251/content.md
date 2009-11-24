@@ -75,18 +75,16 @@ Finally, a **[[double bicategory]]** is one way to define a double category whic
 
 ## References ##
 
-* [[Ronnie Brown]] and C.B. Spencer, [Double groupoids and crossed
-modules, Cah.  Top. G\'{e}om. Diff. 17 (1976)
-343--362](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1976__17_4_343_0)
+* [[Ronnie Brown]] and C.B. Spencer, [Double groupoids and crossed modules](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1976__17_4_343_0), Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques 17 (1976) 343--362
 
 * Jeffrey C. Morton, [Double Bicategories and Double Cospans](http://arxiv.org/abs/math/0611930)
 
-* Tom Fiore, [Double Categories and
-Pseudo Algebras](http://www.math.uchicago.edu/~fiore/1/fiorefolding.pdf) 
+* Tom Fiore, [Double Categories and Pseudo Algebras](http://www.math.uchicago.edu/~fiore/1/fiorefolding.pdf) 
 
 * [[John Baez]], [An Introduction to n-Categories](http://arxiv.org/abs/q-alg/9705009)
 
 * [[The Catsters]], Double Categories ([YouTube](http://www.youtube.com/watch?v=kiCZiSA2W3Q&feature=channel_page))
+
 
 [[!redirects double categories]]
 [[!redirects double groupoid]]
