@@ -34,9 +34,9 @@ Equipped with this structure $\Pi T X$ is naturally an [[NQ-supermanifold]].
 
 ### As the tangent Lie algebroid ###
 
-The [[dg-algebra]] $(\Omega^\bullet(X), d_{dR})$ may also be regarded as the [[Chevalley-Eilenberg algebra]] of the [[tangent Lie algebroid]] of $X$, which identifies the shifted tangen bundle in its refinement to an [[NQ-supermanifold]] with the [[tangent Lie algebroid]] of $X$.
+The [[dg-algebra]] $(\Omega^\bullet(X), d_{dR})$ may also be regarded as the [[Chevalley-Eilenberg algebra]] of the [[tangent Lie algebroid]] of $X$, which identifies the shifted tangent bundle in its refinement to an [[NQ-supermanifold]] with the [[tangent Lie algebroid]] of $X$.
 
-From this perspective, the fact that the vectors are regarded as being in degree one in $\Pi T X$ corresponds to the fact that these are the tangents to the [[k-morphism|1-morphism]]s of the [[fundamental groupoid]] of $X$. (Which is denoted $\Pi(X)$ but with the "$\Pi$" of completely different meaning than the $\Pi$ as used here, which just indicates degree shift).
+From this perspective, the fact that the vectors are regarded as being in degree one in $\Pi T X$ corresponds to the fact that these are the tangents to the [[k-morphism|1-morphism]]s of the [[fundamental groupoid]] of $X$. (Which is denoted $\Pi(X)$ but with the "$\Pi$" of completely different meaning than the "$\Pi$" as used here, which just indicates degree shift).
 
 
 ### As an internal hom object ###
