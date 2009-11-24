@@ -64,22 +64,31 @@ induces an isomorphism in the [[homotopy category]] of [[Top]].
 
 Let $C$ be a [[model category]] (usefully but not necessarily a [[simplicial model category]]). And let $S \subset Mor(C)$ be a collection of [[morphism]]s in $C$.
 
-Write $\mathbf{R}Hom_C(-,-)$ for the connected components of the [[(infinity,1)-categorical hom-space|derived hom space functor]].
+Write $\mathbf{R}Hom_C(-,-) : SSet \to SSet$ for the [[(infinity,1)-categorical hom-space|derived hom space functor]].
 
-* An object $c \in C$ is a **$S$-local object** if for all $s : a \to b$
-in $C$ the induced morphismm
+For instance if $C$ is a [[simplicial model category]] then this may be realized in terms of a cofibrant replacement functor $Q : C \to C$ and a fibrant replacement functor $P$ as
+
+$$
+  \mathbf{R}Hom_C(X,Y) = C(Q X, P Y)
+  \,.
+$$
+
++-- {: .un_def }
+###### Definition
+**(local object, local weak equivalence)**
+
+An object $c \in C$ is a **$S$-local object** if for all $s : a \to b$ in $C$ the induced morphismm
 
   $$
-    \mathbf{R}Hom_C(s,c) : \infty Grpd \to \infty Grpd
+    \mathbf{R}Hom_C(s,c) : SSet \to SSet
   $$
 
-  is an equivalence.
+  is a weak equivalence (in the standard [[model structure on simplicial sets]]);
   
-* A morphism $f : x \to y$ in $C$ is an **$S$-local morphism** or **$S$-equivalence** if for every $S$-local object $c$
-  the induced morphism
+A morphism $f : x \to y$ in $C$ is an **$S$-local morphism** or **$S$-equivalence** if for every $S$-local object $c$ the induced morphism
 
   $$
-    \mathbf{R}Hom_C(f,c) : \infty Grpd \to \infty Grpd
+    \mathbf{R}Hom_C(f,c) : SSet \to SSet
   $$
 
   is a weak equivalence.
@@ -98,6 +107,8 @@ $$
   }
   \,.
 $$ 
+
+=--
 
 
 ### Properties ###
