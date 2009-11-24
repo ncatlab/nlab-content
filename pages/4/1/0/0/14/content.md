@@ -8,7 +8,7 @@
 
 The [[HomePage|nLab]] is a _collaborative [wiki](http://en.wikipedia.org/wiki/Wiki)_.  It grew out of the desire ([I](http://golem.ph.utexas.edu/category/2007/09/towards_a_higherdimensional_wi.html), [II](http://golem.ph.utexas.edu/category/2008/11/beyond_the_blog.html)) to have a place for development (the "Lab" in "$n$Lab") and indexed archives of the ideas and concepts surrounding the discussions at the [The $n$-Category Caf&#233;](http://golem.ph.utexas.edu/category/).  These discussions primarily are about [[mathematics]], [[physics]] and [[philosophy]] from the perspective of [[category theory]] and [[higher category theory]] (the "$n$" in "$n$Lab").
 
-The $n$Lab was [created](http://golem.ph.utexas.edu/category/2008/11/nlab.html) in November 2008 using software provided and set up by [[Jacques Distler]].  The name "$n$Lab" was dreamt up by Lisa Raphals ([[John Baez]]'s wife).
+The $n$Lab was [created](http://golem.ph.utexas.edu/category/2008/11/nlab.html) in November 2008 using software provided and set up by [[Jacques Distler]].  The name "$n$Lab" (short for "$n$-Category Lab", but perhaps less restrictive) was dreamt up by Lisa Raphals ([[John Baez]]'s wife).
 
 The $n$Lab itself spun off the [$n$-Forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/) for discussion about the $n$Lab that doesn\'t fit well here.
 
@@ -18,9 +18,9 @@ The site is running [[Jacques Distler]]'s [Instiki](http://golem.ph.utexas.edu/i
 
 The site is served using [apache](http://www.apache.org/) and [Phusion Passenger](http://www.modrails.com/). It is hosted on a [1Gb Virtual Private Server](http://railsplayground.com/plans-products/vps/), running [Ubuntu Linux](http://www.ubuntu.com/), from [Rails Playground](http://railsplayground.com/).
 
-#What the _n_Lab is and what it is not#
+#What the $n$Lab is#
 
-The most apt analogy for the _n_Lab is of a **group lab book**.  A lab book for a research scientist is a place where they write down anything that they consider relevant for their work; a group lab book is one that several researchers with common interests use.  The material recorded in a lab book can include:
+The most apt analogy for the $n$Lab is of a **group lab book**.  A lab book for a research scientist is a place where they write down anything that they consider relevant for their work; a group lab book is one that several researchers with common interests use.  The material recorded in a lab book can include:
 
 * Notes from seminars
 * Notes from papers and books
@@ -28,7 +28,7 @@ The most apt analogy for the _n_Lab is of a **group lab book**.  A lab book for 
 * Observations and results from experiments
 * Ideas for future work
 
-Apart from not having actual physical experiments, this matches the content of the _n_Lab fairly well.  The key difference between the _n_Lab and an "ordinary" lab book is that it is public.  By making it public we hope to achieve two things:
+Apart from not having actual physical experiments, this matches the content of the $n$Lab fairly well.  The key difference between the $n$Lab and an "ordinary" lab book is that it is public.  By making it public we hope to achieve two things:
 
 1. To enable others to benefit from our work while it is still being done.
 2. To benefit from the work of others while we are doing it.
@@ -39,15 +39,15 @@ Thus by making our lab book public, we hope that casual passers-by will stop, re
 
 There are three things to say about this that are worth making very clear.
 
-1. Our reasons for having the _n_Lab are ultimately selfish.  We have set it up and run it to make it easier to our research.
+1. Our reasons for having the $n$Lab are ultimately selfish.  We have set it up and run it to make it easier to our research.
 2. But to make it _work_ properly in public, we need to make it attractive to others so that they will stop by, read our jottings, and scribble something of their own.
 3. We aim to achieve a system whereby those who put most in are also those who get most out.
 
 #Who Are We?#
 
-The _n_Lab is not a community project set up for the education and improvement of Humanity.  It originally grew out of the [The $n$-Category Caf&#233;](http://golem.ph.utexas.edu/category/) and the loose-knit community surrounding that blog.  It is not possible to give a precise description of who is in that community, and the community involved in the _n_Lab has itself evolved from that starting point.  Moreover, even if it were possible to describe that community we would not wish to.  We are not a closed group, we are always keen for others to join us.  The two simple rules are:
+The $n$Lab is not a community project set up for the education and improvement of Humanity.  It originally grew out of the [The $n$-Category Caf&#233;](http://golem.ph.utexas.edu/category/) and the loose-knit community surrounding that blog.  It is not possible to give a precise description of who is in that community, and the community involved in the $n$Lab has itself evolved from that starting point.  Moreover, even if it were possible to describe that community we would not wish to.  We are not a closed group, we are always keen for others to join us.  The two simple rules are:
 
-1. To join, you need to be willing to interact with the group and material already present.  Specifically: is there something already on the _n_Lab that you are interested in and is there someone already working in the _n_Lab that you would like to talk to about it?
+1. To join, you need to be willing to interact with the group and material already present.  Specifically: is there something already on the $n$Lab that you are interested in and is there someone already working in the $n$Lab that you would like to talk to about it?
 2. We will ask you to leave if what you are doing has little connection with what the rest of the group is doing and if it is interfering with others trying to do their work.
 
 #In Practice?#
