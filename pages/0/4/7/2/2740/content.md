@@ -3,7 +3,7 @@
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea ##
 
 A Poisson Lie algebroid on a [[manifold]] $X$ is a [[Lie algebroid]]
 on $X$ naturally defined from and defining the structure of a
@@ -13,7 +13,7 @@ This is the degree-1 example of a tower of related concepts, described
 at [[n-symplectic manifold]].
 
 
-#Definition#
+## Definition ##
 
 Let $\pi \in \Gamma(T X) \wedge \Gamma(T X)$ be a Poisson structure on
 $X$, regarded as a bivector.
@@ -56,12 +56,17 @@ $$
   \,.
 $$
 
-#Integration#
+## Related concepts ##
 
-Under [[Lie integration]] a Poisson Lie algebroid is supposed to
-yield a [[symplectic groupoid]].
+* Under [[Lie integration]] a Poisson Lie algebroid is supposed to yield a [[symplectic groupoid]].
 
-#References#
+* There is a formulation of [[Legendre transformation]] in terms of Lie algebroid.
+
+## References ##
+
+One of the earliest reference seems to be
+
+* [[Ted Courant]], _Tangent Lie algebroid_ ([pdf](http://www.iop.org/EJ/article/0305-4470/27/13/026/ja941326.pdf))
 
 A review is for instance in appendix A of
 
