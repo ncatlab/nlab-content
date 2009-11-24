@@ -2,11 +2,15 @@
 * automatic table of contents goes here
 {:toc}
 
-#Definition#
+## Definition ##
+
 
 A _Lie algebroid_ is the [[horizontal categorification|many object version]] of a [[Lie algebra]]. It is the [[infinitesimal space|infinitesimal]] approximation to a [[Lie groupoid]].
 
 There are various equivalent definitions:
+
+### In terms of vector bundles with anchor ###
+
 
 +-- {: .un_defn}
 ###### Definition in terms of vector bundles with anchor map
@@ -25,6 +29,29 @@ $$
   \,.
 $$
 =--
+
+### The CE-algebra of a vector bundle with anchor ###
+
+Given this data of a vector bundle $E \to X$ with anchor map $\rho$ as above, one obtains the structure of a [[dg-algebra]] on the [[exterior algebra]] $\wedge^\bullet_{C^\infty(X)} \Gamma(E)^*$ of smooth sections of the dual bundle by generalizing the familiar formula for the [[deRham complex|deRham differential]]: 
+
+for $\omega \in \wedge^n \Gamma(E)^*$ for all $v_i \in \Gamma(E)$ the differential is given by
+
+$$
+  (d \omega)(v_1, \cdots,v_n)
+  =
+  const
+  \sum_{\sigma} \pm \rho(\sigma_1)(\omega(v_{\sigma_2}, \cdots, v_{\sigma_n}))
+  \pm
+  const
+  \sum_{\sigma} \omega([v_{\sigma_1}, v_{\sigma_2}], v_{\sigma_3}, \cdots, v_{\sigma_n})
+  \,,
+$$
+
+where the sums are over all permutations $\sigma$ of $\{1, \cdots, n\}$.
+
+Conversely, one finds that every [[semi-free dga]] finitely generated in degree 1 over $C^\infty(X)$ arises this way, so that one may turn this around:
+
+### Semi-free dg-algebras ###
 
 +-- {: .un_defn}
 ###### Definition in terms of Chevalley--Eilenberg algebra
@@ -51,6 +78,7 @@ In the existing literature this is often addressed just as "the complex that com
 
 It is helpful to compare this definition to the general definition of [[Lie infinity-algebroid|Lie ∞-algebroids]], the [[vertical categorification]] of Lie algebras and Lie algebroids.
 
+### Lie-Rinehart algebras ###
 
 +-- {: .un_defn}
 ###### Definition in terms of commutative Lie--Rinehart pairs
@@ -69,7 +97,7 @@ A Lie algebroid over the manifold $X$ is
 This is the special case of a [[Lie-Rinehart pair]] $(A,\mathfrak{g})$ where the associative algebra $A$ is of the form $C^\infty(X)$.
 
 
-#Examples#
+## Examples ##
 
 * A **[[Lie algebra]]** is a Lie algebroid over a point, $X = pt$.
 
@@ -95,12 +123,15 @@ known as the **Atiyah sequence**. For some $n$-Caf&#233; blog discussion of this
 
 * Each [[Poisson manifold]] $(X,\pi)$ defines and is defined by a [[Poisson Lie algebroid]] $T^* X \stackrel{\pi}{\to} t X$. This is the degree-1 example of a more general structure described at [[n-symplectic manifold]].
 
-#Remarks#
+## Remarks ##
 
 The extent to which Lie algebroids are to [[Lie groupoid|Lie groupoids]] as Lie algebras are to Lie groups is the content of general [[Lie theory]], in which [[Lie's three theorems|Lie's theorems]] have been generalized to Lie algebroids.
 
-#Literature#
+## Literature  ##
 
-See the [Wikipedia entry](http://en.wikipedia.org/wiki/Lie_algebroid).
+One of the earliest reference seems to be
+
+* [[Ted Courant]], _Tangent Lie algebroid_ ([pdf](http://www.iop.org/EJ/article/0305-4470/27/13/026/ja941326.pdf))
+
 
 [[!redirects Lie algebroids]]
