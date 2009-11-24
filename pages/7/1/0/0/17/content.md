@@ -183,7 +183,9 @@ First quantization is a mystery, but second quantization is a functor.
 
 ## How to fiddle with the CSS (i.e. create query boxes, etc.) on your personal ncatlab web ##
 
-As changes even to personal webs require the system password, to make such changes you need to ask a [[lab elf]] to do this for you.  The best method of doing this is to post a request at the [n-forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum).  It does not, however, require a password to **see** the stylesheet tweaks on these webs so if you see a feature that you would like on one of the other webs, go to the "Edit Web" link at the bottom of their "HomePage" and you will be able to see how they have done what they did.
+As changes even to personal webs require the system password, to make such changes you need to ask a [[lab elf]] with sufficient priveleges to do this for you.  The best method of doing this is to post a request at the [n-forum](http://www.math.ntnu.no/~stacey/Vanilla/nForum).
+
+However, you do not need any password to **see** the stylesheet tweaks on the various webs, so if you see a feature that you would like on one of the other webs (including the main one), then go to the "Edit Web" link at the bottom of that web\'s [[HomePage]] to view the 'Stylesheet tweaks >>'.
 
 
 ## How to include one page within another ##
