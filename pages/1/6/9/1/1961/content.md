@@ -127,6 +127,10 @@ $$
 
 which respect the bundle maps. 
 
+# As a supermanifold #
+
+The tangent bundle of a manifold $X$ may be interpreted as a [[supermanifold]] in which $X$ has degree $0$ and the tangent vectors have degree $1$.  See [[shifted tangent bundle]].
+
 # Definition for other generalized smooth spaces #
 
 There are useful categories of [[generalized smooth space]]s which are neither categories of manifolds nor [[smooth topos]]es modeling [[synthetic differential geometry]]. But most of them admit useful notions of tangent bundles, too, sometimes more than one.
