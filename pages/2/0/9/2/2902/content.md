@@ -75,44 +75,43 @@ which can also be verified algebraically from the defining equation for $\Phi$. 
 
 ##Proof from a construction on the icosahedron##
 
+Suppose we take **three congruent rectangles**, and assemble them symmetrically so that their _long_ edges are all mutually orthogonal, and their _short_ edges are all mutually orthogonal.  Like this:
+
+[[!include pentagon decagon hexagon identity/skinny duads]]
+
+We then join up the corners to make an icosahedron, as in the diagram above.  Eight faces of this icosahedron (the ones centred on the diagonals of the eight "octants" into which the space here is divided) will _always_ be congruent and equilateral; that's guaranteed by the construction, whatever the precise ratio of the side lengths of the rectangles.  The other twelve faces will be isosceles triangles, all congruent to each other.
+
+Now, it's clear that by making the rectangles long and skinny, we can make the isosceles triangles as long and skinny as we like.  But what about making them short and squat?  How far can we go in that direction?
+
+[[!include pentagon decagon hexagon identity/square duads]]
+
+If we make the three rectangles into squares, as above, the isosceles triangles have two 45&deg; angles.  So between this extreme, and the long-and-skinny extreme, it's clear that we can choose _some_ intermediate degree of skinniness for the rectangles that will turn the 12 isosceles triangles into equilateral triangles.
+
+So, a _regular_ icosahedron _must_ exist, and it will have six edges that form three mutually orthogonal pairs.
 
 [[!include pentagon decagon hexagon identity/duads]]
 
-Suppose we construct a regular icosahedron based on three orthogonal "duads".  These are rectangles in the golden ratio, with vertices of the icosahedron at their corners.
+Having reached that conclusion, we now use the construction below, where we assume our icosahedron is regular and we project everything into the plane of one of our rectangles.
 
 [[!include pentagon decagon hexagon identity/icosahedron]]
 
-In the diagram above, everything is projected into the plane of one duad, which has the vertices $A$, $B$, $-A$ and $-B$ as its corners.  Where two vertices are projected to the same point in the diagram, there is a circle drawn around the point.
+Where two vertices are projected to the same point in the diagram, a circle is drawn around the point.
 
-By construction, all vertices will be equidistant from the centre of symmetry.  To establish that we really do have a _regular_ icosahedron here, we need to prove that all the edge lengths are equal.  The 6 edges that lie along the short side of some duad are all of length 1, by construction.  The 24 other edges can be shown to be of the same length by essentially just one calculation; in each case, the difference in the coordinates of the relevant vertices are $\frac{\Phi}{2}$, $\frac{1}{2}$ and $\frac{\Phi-1}{2}$.  So four times the sum of the squares of these coordinate differences will be:
+We can't _yet_ justify the specific value, $\Phi$, that we've written here as the length of the rectangles ... but we don't need to!
+Without any calculations that depend on $\Phi$, we can see that $Q R$ is parallel to $A B$, and that both are orthogonal to $O P$.  That's enough to show that the triangle $A B C$ is congruent to the triangle $S P T$.
 
-$$(\Phi-1)^2+\Phi^2+1=\frac{1}{\Phi^2}+\Phi^2+1=4$$
+Now, the five vertices of the icosahedron that project onto the line segment $A P R$ will form a regular pentagon, the edges of which are also edges of the icosahedron.  The five vertices that project onto the line segment $(-A) S Q$ will form another pentagon.  These two pentagons will be congruent, and the radius of the circle in which they're inscribed will be $A C$.  And since the triangle $A B C$ is congruent to the triangle $S P T$, the _distance_ between the pentagons, $S T$, equals their radius, $A C$.
 
-where we've used the fact that $\Phi-1=\frac{1}{\Phi}$, which follows directly from the defining equation for $\Phi$, and then the identity:
-
-$$\frac{1}{\Phi^2}+\Phi^2=3$$
-
-So the edge lengths will all equal 1.  We also need to prove that $A P R$ is actually a straight line, as we've drawn it!  This amounts to proving that the ratio of vertical to horizontal displacement from $R$ of the points $A$ and $P$ are the same:
-
-$$\frac{\frac{\Phi}{2}}{\frac{\Phi}{2}+\frac{1}{2}}=\frac{\frac{1}{2}}{\frac{\Phi}{2}}$$
-
-or equivalently:
-
-$$\Phi^2=\Phi+1$$
-
-which follows directly from the defining equation for $\Phi$.
-
-The right triangle $O R P$ is similar to the right triangle $C A B$.  So $\frac{C A}{C B}=\frac{O R}{O P}=\Phi$, with the last equality true by construction.  It follows from the golden triangle lemma that $C B$ is the edge length of a decagon inscribed in a circle of radius $C A$.
-
-But the five vertices that project onto the line $A P R$ form a regular pentagon inscribed in a circle of radius $C A$, and the edge length of that pentagon is $A B$.  So the right triangle $C A B$ constitutes a proof of the pentagon-decagon-hexagon identity.
-
-We can also easily see from this diagram that the right triangle $T S P$ is congruent to the right triangle $C A B$, which proves that the distance between two pentagons of vertices -- those that project onto $A P R$, and those that project onto $(-A) S Q$ -- equals $C A$, the radius of the circles in which those pentagons are inscribed.
-
-This allows us to see that another right triangle that's  naturally constructed on the icosahedron also exhibits the pentagon-decagon-hexagon identity.  If we draw a line perpendicular to the planes of the two pentagons, from a vertex in one plane to the point below it on the other plane, the length of that perpendicular will be the common radius of the pentagons, $C A$.  But that line will form a right triangle whose hypotenuse is an icosahedral edge (congruent to the edges of the pentagons), and whose third side is one edge of a decagon inscribed in the same circle as the lower pentagon.  The decagon edge arises because the two pentagons are rotated relative to each other by an angle of 36&deg;, the angle between vertices in a decagon.
-
-So, the two blue triangles in the diagram below are congruent, and both exhibit the pentagon-decagon-hexagon identity.
+These two pentagons are shown in the diagram below.
 
 [[!include pentagon decagon hexagon identity/icosahedron triangles]]
+
+If we draw a line perpendicular to the planes of the two pentagons, from a vertex in one plane to the point below it on the other plane, the length of that perpendicular will be the common radius of the pentagons, $A C$.  But that line will form a right triangle whose hypotenuse is an icosahedral edge (congruent to the edges of the pentagons), and whose third (shortest) side is one edge of a decagon inscribed in the same circle as the lower pentagon.  The decagon edge arises because the two pentagons are rotated relative to each other by an angle of 36&deg;, the angle between vertices in a decagon.
+
+So, the two blue triangles in the diagram are congruent (both being right triangles with a pentagon edge as their hypotenuse and the radius as one of their sides), and both exhibit the pentagon-decagon-hexagon identity.
+
+Finally, we can appeal to Euclid's golden triangle lemma -- which gives us the ratio between the radius and the decagon edge length as $\Phi$ -- and work backwards to show that this is also the ratio of length to width for our three orthogonal rectangles.  This follows simply from the fact that the right triangle $O R P$ is similar to the right triangle $C A B$.
+
 
 #References#
 
@@ -121,7 +120,6 @@ So, the two blue triangles in the diagram below are congruent, and both exhibit 
 * [n-Caf&eacute; discussion of TWF 283](http://golem.ph.utexas.edu/category/2009/11/this_weeks_finds_in_mathematic_44.html)
 
 * John Baez, [Some thoughts on the Number 6](http://math.ucr.edu/home/baez/six.html)
-
 
 [[!redirects pentagon-decagon-hexagon identity]]
 [[!redirects pentagon–decagon–hexagon identity]]
