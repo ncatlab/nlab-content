@@ -77,6 +77,11 @@ The following auxiliary definitions are useful for analyzing Bousfield localizat
 
 ## Existence of Bousfield localizations ##
 
+By the corollary to [Dugger's theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#duggers_theorem_9) on presentations for [[combinatorial model category|combinatorial model categories]] we have that every combinatorial model category is [[Quillen equivalence|Quillen equivalent]] to a [[proper model category|left proper]] [[simplicial model category|simplicial]] combinatorial model category. 
+
+Therefore there is little loss in assuming this extra structure, which the following statement of the theorem does.
+
+
 +-- {: .un_theorem }
 ###### Theorem
 
@@ -461,7 +466,7 @@ For notice that
 
 1. in terms of the [[simplicial model category]] 
    $[K,SSet]_{inj}$ the prescription for 
-   [[localization of an (∞,1)-category|localization as an (∞,1)-category]] and passing to the subcategory of fibrant-cofibrant objects of the Bousfield localization $L_S [K,SSet]_{inj}$ is literally the same.
+   [[localization of an (∞,1)-category|localization as an (∞,1)-category]] and passing to the subcategory of fibrant-cofibrant objects of the Bousfield localization $L_S [K,SSet]_{inj}$ is literally the same: in both cases one passes to the full subcategory on the $S$-[[local object]]s.
 
 Moreover, by [Dugger's theorem on combinatorial model categories](http://ncatlab.org/nlab/show/combinatorial+model+category#duggers_theorem_13) every [[combinatorial simplicial model category]] arises this way.
 
