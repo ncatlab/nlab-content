@@ -12,7 +12,7 @@ This means that the edges of a pentagon, decagon and hexagon of identical radii 
 
 #Euclid's proof#
 
-Euclid gave a proof of this identity in his <i>Elements</i>, as [Proposition 10](http://aleph0.clarku.edu/~djoyce/java/elements/bookXIII/propXIII10.html) of Book XIII.  The essence of this proof can be understood if we take for granted the numerical values of the various angles in his construction, which are easily established.
+Euclid gave a proof of this identity in his _Elements_, as [Proposition 10](http://aleph0.clarku.edu/~djoyce/java/elements/bookXIII/propXIII10.html) of Book XIII.  The essence of this proof can be understood if we take for granted the numerical values of the various angles in his construction, which are easily established.
 
 [[!include pentagon decagon hexagon identity/Euclid]]
 
@@ -35,7 +35,7 @@ We present two other proofs of the identity.  Both of these rely on a lemma conc
 
 [[!include pentagon decagon hexagon identity/golden triangle]]
 
-The lemma states that in any isosceles triangle with angles of 72&deg;, 36&deg; and 72&deg;, the ratio of the long sides of the triangle to its base is $\Phi$, the golden ratio, which is defined as the unique positive solution of the equation:
+The lemma states that in any isosceles triangle with angles of 72&#176;, 36&#176; and 72&#176;, the ratio of the long sides of the triangle to its base is $\Phi$, the golden ratio, which is defined as the unique positive solution of the equation:
 
 $$1+\frac{1}{\Phi}=\Phi$$
 
@@ -55,11 +55,11 @@ This lemma was given by Euclid as [Proposition 9](http://aleph0.clarku.edu/~djoy
 
 [[!include pentagon decagon hexagon identity/golden ratio]]
 
-By the golden triangle lemma for isosceles triangles with angles of 36&deg;, triangle $N O P$ gives us $r=t\Phi$.  From the same lemma, applied to triangle $N M P$ glued to its mirror image in the line $N M$, we have $2b=t/\Phi$.
+By the golden triangle lemma for isosceles triangles with angles of 36&#176;, triangle $N O P$ gives us $r=t\Phi$.  From the same lemma, applied to triangle $N M P$ glued to its mirror image in the line $N M$, we have $2b=t/\Phi$.
 
 From the right triangle $N M P$ we have $s^2=t^2-b^2$, hence $(2s)^2=4t^2-4b^2$.
 
-The whole large multi-coloured rectangle has an area of $(2s)^2$, because the green square, the light blue rectangle, and each of the two red rectangles <i>all</i> have areas of $t^2$, but then we need to subtract the light red
+The whole large multi-coloured rectangle has an area of $(2s)^2$, because the green square, the light blue rectangle, and each of the two red rectangles _all_ have areas of $t^2$, but then we need to subtract the light red
 square where the two red rectangles overlap, and that has area $4b^2$.
 
 Now if we subtract a single $t^2$, the light blue rectangle, then we're left with a square of side length $r$,
@@ -85,7 +85,9 @@ Now, it's clear that by making the rectangles long and skinny, we can make the i
 
 [[!include pentagon decagon hexagon identity/square duads]]
 
-If we make the three rectangles into squares, as above, the isosceles triangles have two 45&deg; angles.  So between this extreme, and the long-and-skinny extreme, it's clear that we can choose _some_ intermediate degree of skinniness for the rectangles that will turn the 12 isosceles triangles into equilateral triangles.
+If we make the three rectangles into squares, as above, the isosceles triangles have two 45&#176; angles.  So between this extreme, and the long-and-skinny extreme, it's clear that we can choose _some_ intermediate degree of skinniness for the rectangles that will turn the 12 isosceles triangles into equilateral triangles.
+
+(This argument implicity uses the [[intermediate value theorem]] and would not have been used by Euclid, although Archimedes might have attempted it.)
 
 So, a _regular_ icosahedron _must_ exist, and it will have six edges that form three mutually orthogonal pairs.
 
@@ -106,7 +108,7 @@ These two pentagons are shown in the diagram below.
 
 [[!include pentagon decagon hexagon identity/icosahedron triangles]]
 
-If we draw a line perpendicular to the planes of the two pentagons, from a vertex in one plane to the point below it on the other plane, the length of that perpendicular will be the common radius of the pentagons, $A C$.  But that line will form a right triangle whose hypotenuse is an icosahedral edge (congruent to the edges of the pentagons), and whose third (shortest) side is one edge of a decagon inscribed in the same circle as the lower pentagon.  The decagon edge arises because the two pentagons are rotated relative to each other by an angle of 36&deg;, the angle between vertices in a decagon.
+If we draw a line perpendicular to the planes of the two pentagons, from a vertex in one plane to the point below it on the other plane, the length of that perpendicular will be the common radius of the pentagons, $A C$.  But that line will form a right triangle whose hypotenuse is an icosahedral edge (congruent to the edges of the pentagons), and whose third (shortest) side is one edge of a decagon inscribed in the same circle as the lower pentagon.  The decagon edge arises because the two pentagons are rotated relative to each other by an angle of 36&#176;, the angle between vertices in a decagon.
 
 So, the two blue triangles in the diagram are congruent (both being right triangles with a pentagon edge as their hypotenuse and the radius as one of their sides), and both exhibit the pentagon-decagon-hexagon identity.
 
@@ -117,7 +119,7 @@ Finally, we can appeal to Euclid's golden triangle lemma -- which gives us the r
 
 * John Baez, [This Week's Finds in Mathematical Physics, Week 283](http://math.ucr.edu/home/baez/week283.html)
 
-* [n-Caf&eacute; discussion of TWF 283](http://golem.ph.utexas.edu/category/2009/11/this_weeks_finds_in_mathematic_44.html)
+* [n-Caf&#233; discussion of TWF 283](http://golem.ph.utexas.edu/category/2009/11/this_weeks_finds_in_mathematic_44.html)
 
 * John Baez, [Some thoughts on the Number 6](http://math.ucr.edu/home/baez/six.html)
 
