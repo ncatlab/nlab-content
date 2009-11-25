@@ -49,8 +49,7 @@ be a [[class]] of morphisms in $C$.
 An $S$-[[local object]] $X$ is one such that the [[(infinity,1)-categorical hom-space|derived hom-space functor]] $\mathbf{R}Hom(-,X)$ sends morphisms in $S$ to weak equivalences. An $S$-local morphism $f$ is one such that $\mathbf{R}Hom(f,-)$ sends local objects to weak equivalences.
 
 +-- {: .un_def }
-###### Definition
-**(Bousfield localization)**
+###### Definition (Bousfield localization)
 
 The **left Bousfield localization** of $C$ with respect to $S$ is, if it exists, a [[model category]] structure $L_S C$ on $C$ such that
 
@@ -70,8 +69,7 @@ The following auxiliary definitions are useful for analyzing Bousfield localizat
 
 
 +-- {: .un_def }
-###### Definition
-**($S$-localization of an object)**
+###### Definition ($S$-localization of an object)
 
 (...)
 
@@ -216,8 +214,7 @@ Conversely, if it is $S$-local and fibrant in $C$; it has the extension property
 This statement is generalized to the context of [[enriched model category]] theory by the following result:
 
 +-- {: .un_theorem }
-###### Theorem
-**(existence of enriched Bousfield localization)**
+###### Theorem (existence of enriched Bousfield localization)
 
 Let 
 
@@ -245,8 +242,7 @@ This is theorem 4.46 in [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf
 ## Properties of Bousfield localization ##
 
 +-- {: .un_prop }
-###### Proposition
-**(Bousfield localization is indeed a localization)**
+###### Proposition (Bousfield localization is indeed a localization)
 
 If the left Bousfield localization exists, i.e. of $L_S C$ is indeed a [[model category]] with the above definitions of cofibrations and weak equivalences, then it is indeed a [[localization of a model category]] in that there is a _left Quillen functor_
 
@@ -284,8 +280,7 @@ The first part is theorem 3.3.19 in _ModLoc_ . The second part is prop 3.3.4, wh
 =--
 
 +-- {: .un_lemmaa }
-###### Lemma
-**(localization at cofibrations is sufficient)**
+###### Lemma (localization at cofibrations is sufficient)
 
 Every combinatorial localization $B = L_{R} A$ of $A$ is already of the form $L_{S}A $ for $S$ a set of just cofibrations.
 
@@ -336,8 +331,7 @@ This is prop 3.3.3 in _ModLoc_ .
 When $C$ is a left [[proper model category]] then Bousfield localization at $S$ indeed produces a model for the subcategory of $S$-[[local object]]s in $C$:
 
 +-- {: .un_prop }
-###### Proposition
-**(Bousfield localization as model for $S$-local obects)**
+###### Proposition (Bousfield localization as model for $S$-local obects)
 
 Let $C$ be a left [[proper model category]] and $S$ a set of morphisms. Then the Bousfield localization $L_S C$, which exists by the above theorem, then
 
