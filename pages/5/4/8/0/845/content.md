@@ -1,6 +1,6 @@
 #Idea#
 
-The _join_ of two categories $C$ and $C'$ is obtained from the disjoint union of $C$ with $C'$ by throwing in a unique morphism from every object of $C$ to every object of $C'$.
+The _join_ of two categories $C$ and $C'$ is obtained from the [[disjoint union]] of $C$ with $C'$ by throwing in a unique morphism from every object of $C$ to every object of $C'$.
 
 #Definition#
 
