@@ -87,7 +87,7 @@ Now, it's clear that by making the rectangles long and skinny, we can make the i
 
 If we make the three rectangles into squares, as above, the isosceles triangles have two 45&#176; angles.  So between this extreme, and the long-and-skinny extreme, it's clear that we can choose _some_ intermediate degree of skinniness for the rectangles that will turn the 12 isosceles triangles into equilateral triangles.
 
-(This argument implicity uses the [[intermediate value theorem]] and would not have been used by Euclid, although Archimedes might have attempted it.)
+(This argument implicity uses the [[intermediate value theorem]] and would not have been used by Euclid, although Archimedes might have attempted it.  An alternative that avoids using the intermediate value theorem is given at the end of the proof.)
 
 So, a _regular_ icosahedron _must_ exist, and it will have six edges that form three mutually orthogonal pairs.
 
@@ -114,6 +114,21 @@ So, the two blue triangles in the diagram are congruent (both being right triang
 
 Finally, we can appeal to Euclid's golden triangle lemma -- which gives us the ratio between the radius and the decagon edge length as $\Phi$ -- and work backwards to show that this is also the ratio of length to width for our three orthogonal rectangles.  This follows simply from the fact that the right triangle $O R P$ is similar to the right triangle $C A B$.
 
+Suppose we wish to avoid using the intermediate value theorem.  If we project the generic version of our icosahedron onto the plane of one of its rectangles, we get this:
+
+[[!include pentagon decagon hexagon identity/irregular icosahedron]]
+
+In order to make $A P R$ into a straight line -- which amounts to making the pentagon of vertices that project onto $A P R$ into a planar figure -- we need to satisfy:
+
+$$\frac{x+1}{x}=x$$
+
+This is just the defining equation for the golden ratio, $\Phi$.  If our icosahedron is regular, the pentagonal pyramid that sits on the pentagon will be made up of equilateral triangles, and its base will be planar.  So we can only get a regular icosahedron if we set $x=\Phi$.
+
+Of course if we're sceptical about the very _existence_ of a regular icosahedron, we need to do a bit more work and confirm that this choice of $x$ actually makes the variable edge length in our generic icosahedron equal to the other edge length that's fixed by the short side of the rectangles (and which we've set at 1).  The squared length is:
+
+$$\frac{\Phi^2+(\Phi-1)^2+1}{4}=\frac{\Phi^2+\frac{1}{\Phi^2}+1}{4}=\frac{3+1}{4}=1$$
+
+Here the first step comes directly from the defining equation for $\Phi$, and the second uses the identity we proved earlier, $\Phi^2+\frac{1}{\Phi^2}=3$.
 
 #References#
 
