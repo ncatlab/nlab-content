@@ -1,4 +1,8 @@
-#The setup and the definition
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## The setup and the definition ##
 
 Given a [[continuous map]] $\pi : E\to B$ of [[topological spaces]], one constructs the __[[cocylinder]]__ $Cocyl(\pi)$ as the [[pullback]] 
 
@@ -12,7 +16,7 @@ $$
   }
 $$  
 
-where $\mathcal{P}(B)$ is the [[path space]], the space of continuous [[path]]s 
+where $\mathcal{P}(B)$ is the [[path object|path space]] in [[Top]], the space of continuous [[interval object|path]]s 
 $u:[0,1]\to B$ in $B$, and where $\mathcal{P}(B)\to B$ is the map sending a path $u$ to its value $u(0)$. 
 The cocylinder can be realized as a subspace of $E\times \mathcal{P}(B)$ consisting of pairs $(e,u)$ where $e\in E$ and $u:[0,1]\to \mathcal{P}(B)$ are such that $\pi(e)=u(0)$.
 
@@ -20,7 +24,7 @@ The cocylinder can be realized as a subspace of $E\times \mathcal{P}(B)$ consist
 $$s:Cocyl(\pi)\to \mathcal{P}(E)$$ 
 of the map $\pi_!:\mathcal{P}(E)\to Cocyl(\pi)$ given by $\pi_!(u)=(u(0),\pi\circ u)$. 
 
-#Characterizing fibrations
+## Characterizing fibrations ##
 
 **Theorem.** A map $\pi:E\to B$ is a __[[Hurewicz fibration]]__ iff there exist at least one Hurewicz connection for $\pi_!$. 
 
@@ -36,7 +40,7 @@ Conversely, let a Hurewicz connection $s$ consists, and fill the right-hand squa
 
 Of course there are many other equivalent characterizations of fibrations. 
 
-#Spoecial cases and properties
+## Special cases and properties ##
 
 If $\pi:E\to B$ is a [[covering space]] where $B$ is [[Hausdorff space|Hausdorff]], then $\pi_!$ is a [[homeomorphism]]; thus in that case the Hurewicz connection is unique. 
 
