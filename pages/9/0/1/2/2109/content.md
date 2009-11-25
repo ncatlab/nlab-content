@@ -16,14 +16,15 @@ There are several not-quite-equivalent ways to describe this extra structure.  O
 
 ## Definition ##
 
-An **equipment** (or *proarrow equipment*) consists of:
+Let $K$ be a [[2-category]].  The following structure is said to **equip $K$ with proarrows:**
 
-* a 2-category $K$,
 * a 2-category $M$, whose arrows are called *proarrows*, and
 * a functor $(-)_\bullet: K\to M$ which is the identity on objects and locally fully faithful, such that
 * for each arrow $f:A\to B$ in $K$, the proarrow $f_\bullet:A\to B$ has a right adjoint $f^\bullet$ in $M$.
 
-As usual on the nLab, here by [[2-category]] we mean a weak 2-category (aka [[bicategory]]) and by [[functor]] we mean a weak 2-functor (aka [[pseudofunctor]]).  However, in many or most examples, $K$ is in fact a [[strict 2-category]].  We say that $M$ and $(-)_\bullet$ "equip $K$ with proarrows."
+As usual on the nLab, here by [[2-category]] we mean a weak 2-category (aka [[bicategory]]) and by [[functor]] we mean a weak 2-functor (aka [[pseudofunctor]]).  However, in many or most examples, $K$ is in fact a [[strict 2-category]].
+
+We refer to the entire structure $(K,M,(-)_\bullet)$ as a **proarrow equipment** or just an **equipment**.  Since there are variations on the notion that are appropriate when $K$ is replaced by an $n$-category, we may also call this version a **2-category equipment** for disambiguation.
 
 For example, if $V$ is a [[cosmos]], we define an equipment where $K= V Cat$ is the 2-category of $V$-enriched categories, $M=V Mod$ is the bicategory of $V$-enriched profunctors, and $f_\bullet$ and $f^\bullet$ are the two ways of regarding a $V$-functor $f:A\to B$ as a profunctor, namely $B(-,f-)$ and $B(f-,-)$.  Composition of $V$-profunctors is by [[tensor product]], i.e. [[coends]]; note that we require $V$ to be [[cocomplete category|cocomplete]] with colimist preserved by $\ten$ on both sides in order to form such associative tensor products.  We call this equipment simply $V Cat$.
 
@@ -136,3 +137,7 @@ A blog post surveying ideas in equipments is
 
 
 [[!redirects equipments]]
+[[!redirects proarrow equipment]]
+[[!redirects 2-category equipment]]
+[[!redirects proarrow]]
+[[!redirects proarrows]]
