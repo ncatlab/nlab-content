@@ -1,11 +1,11 @@
-# The Legenedre transformation
+# The Legendre transformation
 * tic
 {: toc}
 
 
 ##Big picture
 
-The Legendre transformation is an operation on [[convex function]]s from real [[normed vector space]]s to the [[real line]]; it is one of the cornerstones of [[convex analysis]]. The space of arguments changes accordingly.
+The Legendre transformation is an operation on [[convex function]]s from a real [[normed vector space]] to the [[real line]]; it is one of the cornerstones of [[convex analysis]]. The space of arguments changes accordingly.
 
 The main application is in the differentiable setup in [[classical physics]] and [[symplectic geometry]]. In [[classical mechanics]], the [[Hamiltonian]] function $H$ is a Legendre transform of the [[Lagrangean]] $L$ and vice versa; in many dimensions, hybrid versions are possible. When the physics of the system is given by the variational principle, then the Legendre transform of an extremal quantity is a conserved quantity. In [[thermodynamics]], we can have some quantities set to be fixed (some candidates: entropy $S$, temperature $T$, pressure $P$, volume $V$, magnetization $M$); this dictates the choice of variables and quantity which is extremized as well as which one takes the role of conserved energy. Some of the standard choices are enthalpy $H$, Helmholtz free energy $F$, Gibbs free energy $G$, internal energy $U$, etc. 
 
