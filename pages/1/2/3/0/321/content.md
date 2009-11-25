@@ -1,4 +1,8 @@
-# Definition #
+#Content#
+* automatic table of contents goes here
+{:toc}
+
+## Definition ##
 
 In any [[category]] $C$, a __span__, __roof__, or __correspondence__, from an [[object]] $x$ to an object $y$ is a [[diagram]]
 $$
@@ -87,7 +91,7 @@ This is a weak 2-category has a nontrivial [[associator]]: composition of spans 
 
 (Note that we must choose a specific pullback when defining the composite of a pair of morphisms in $Span(C)$, if we want to obtain a [[bicategory]] as traditionally defined; this requires the [[axiom of choice]]. Otherwise we obtain a bicategory with 'composites of morphisms defined only up to canonical iso-2-morphism'; such a structure can be modeled by an [[anabicategory]] or an [[opetopic bicategory]].)
 
-#Some facts about spans#
+## Some facts about spans ##
 
 Let $C$ be a category with pullbacks and let $Span_1(C) := (Span(C))_{\sim 1}$ be the 1-category of objects of $C$ and isomorphism class of spans between them as morphisms.
 
@@ -100,11 +104,11 @@ Next assume that $C$ is a [[cartesian monoidal category]]. Then clearly $Span_1(
 * $Span_1(C)$ is a [[dagger compact category]].
 
 
-#Generalizations#
+## Generalizations ##
 
  See [[multispan]].
 
-#References#
+## References ##
 
 The above list of facts about spans is described in
 
