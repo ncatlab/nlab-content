@@ -26,11 +26,11 @@ If an accessible category in addition has all (small) [[colimit]]s (or, equivale
 
 ## References ##
 
-The name _accessible_ categories is due to
+The term _accessible category_ is due to
 
 * Makkai, Par&eacute; 1989 . 
 
-An exposition of the theory of accessible categories is in 
+The standard textbook on the theory of accessible categories is
 
 * Ad&aacute;mek and Rosicky,  _Locally Presentable and Accessible Categories_. Cambridge University Press, Cambridge,
 1994. 
