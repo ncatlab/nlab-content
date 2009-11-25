@@ -44,8 +44,33 @@ Another notion of "presentable category" is [[algebraic category|equationally pr
 
 ## Examples and applications ##
 
-* A [[combinatorial model category]] is a [[model category]] that is in particular a locally presentable category.
+### Locally finitely presentable categories ###
 
+A locally presentable category is _finitely_ presentable if it is locally $\kappa$-representable for $\kappa = \Aleph_0$.
+
+* [[Set]] is locally finitely presentable: every [[set]] is the directed colimit of all its finite [[subset]]s, and there is a countable set of finite sets.
+
+* Analogously categories such as [[Grp]] are locally finitely presentable.
+
+* a [[poset]], regarded as a category, is locally finitely presentable if it is a complete [[lattice]] which is algebraic (each element is a directed [[join]] of finite elements).
+
+**Counterexamples**
+
+* the category [[FinSet]] of _finite_ sets is not locally finitely presentable, as it does not have all countable colimits.
+
+* [[Top]] is not locally finitely presentable.
+
+### Locally presentable categories
+
+* the category [[SSet]] of [[simplicial set]]s;
+
+* for $C$ a [[small category]], the [[functor category]] $Funct(C,SSet)$. 
+
+### Combinatorial model categories ###
+
+A [[combinatorial model category]] is a [[model category]] that is in particular a locally presentable category.
+
+The left [[Bousfield localization]] of a left [[proper model category|proper]] [[combinatorial model category]] is again combinatorial and hence again locally presentable. 
 
 
 ## References ##
@@ -53,6 +78,10 @@ Another notion of "presentable category" is [[algebraic category|equationally pr
 The definition is due to
 
 * P. Gabriel and F. Ulmer (1971)
+
+The standard textbook is
+
+* Jiri Adamek, Jiri Rosicky, _Locally presentable and accessible categories_
 
 See also section A.1.1 of 
 
