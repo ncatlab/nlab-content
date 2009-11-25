@@ -84,6 +84,8 @@ If $C$ is a
 
 * [[proper model category|left proper]] 
 
+* [[simplicial model category|simplicial]]
+
 * [[combinatorial model category]] 
 
 * and $S \subset Mor(C)$ is a small [[set]] of morphisms, 
@@ -94,7 +96,9 @@ Moreover, it satisfies the following conditions:
 
 * the fibrant objects of $L_S C$ are precisely the $S$-[[local object]]s of $C$ that are fibrant in $C$;
 
-* $LS C$ is a left [[proper model category]]
+* $L_S C$ is itself a left [[proper model category]]
+
+* $L_S C$ is itself a [[simplicial model category]].
 
 
 =--
@@ -106,7 +110,9 @@ A proof of this making use of [Jeff Smith's recognition theorem](http://ncatlab.
 as [[Higher Topos Theory|HTT, prop. A.3.7.3]] and 
 as theorem 2.11 in [Bar07](http://arxiv.org/abs/0708.2067) and as theorem 4.7 in [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf). 
 
-**existence of the combinatorial model category structure**
+We follow [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf) for the proof that the assumptions of Smith's recognition theorem are satisfied and follow [[Higher Topos Theory|HTT, prop. A.3.7.3]] for the characterization of the fibrant objects:
+
+**1) existence of the combinatorial model category structure**
 
 Using [Smith's recognition theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#smiths_theorem_6), for establishing the [[combinatorial model category]] structure, it is sufficient to 
 
@@ -156,20 +162,75 @@ $$
 
 of $\infty$-groupoids. where the bottom morphism is a weak equivalence by assumption of $S$-locality of $Z$ and $(K \to L)$. But then also the top horizontal morphism is a weak equivalence for all $S$-local $Z$ and therefore $K' \to L'$ is in $W_{L_S C}$.
 
-Similarly for transfinite composition colimits.
+Similarly for [[transfinite composition]] colimits.
 
 Therefore, indeed, $cof(I) \cap W_{L_S C}$ is closed under pushouts and transfinite composition.
 
 
-**fibrants in $L_S C$ are the $S$-local fibrants in $C$**
+**2) fibrants in $L_S C$ are the $S$-local fibrants in $C$**
 
-To see that the fibrant objects in $L_S C$ are precisely the $S$-local fibrant objects of $C$, use the fact (details are [here](http://ncatlab.org/nlab/show/local+object#properties_12)) that a cofibration $i : A \hookrightarrow B$ is an $S$-local weak equivalence precisely if for every fibrant $S$-local object $X$ the [[derived hom space]] functor $\mathbf{R}Hom(X,A) \to \mathbf{R}Hom(X,B)$ is an acyclic Kan fibration.
+To see that the fibrant objects in $L_S C$ are precisely the $S$-local fibrant objects of $C$, use the _characterization of $S$-local cofibrations_  as precisely those cofibrations $i : A \hookrightarrow B$ such that for every _fibrant_ and $S$-local object $X$ the [[derived hom space]] functor $\mathbf{R}Hom(X,A) \to \mathbf{R}Hom(X,B)$ is an acyclic [[Kan fibration]] (this is described in detail [here](http://ncatlab.org/nlab/show/local+object#properties_12)).
 
-Since the $S$-local weak equivalence contain all original weak equivalences, we may assume without restriction that $S$ contains all generating acyclic cofibrations $J$. 
+To apply this fact, we modify, if necessary, the set $S$ in a convenient way without changing the class $W_S$ of $S$-[[local object|local weak equivalence]]s that it defines. 
 
-Moreover, for every morphism $f : A \to B$ in $S$ the morphism $A \cdot \Delta^n \coprod_{A \cdot \partial \Delta^n} B \cdot \partial \Delta^n \to B \cdot \Delta^n$ is an $S$-local weak equivalence, and hence may be assumed without restriction to be contained in $S$.
+By the lemma " _localization at cofibrations is sufficient_ " discussed  below, it follows that we may assume that $S$ contains only cofibrations while still generating the same class $W_S$ of $S$-local weak equivalences. So assume now that $S$ contains only cofibrations.
 
-To see this, notice that homming out of the corresponding pushout diagram into an $S$-[[local object]] $X$ produces the [[pullback]] diagram
+We may moreover add to $S$ any set of $S$-[[local object|local weak equivalence]]s without changing the collection of $S$-[[local object]]s and hence without changing the collection of $S$-local weak equivalences themselves. In this manner, assume now that $S$ has been enlarged such as to contain the following sets of cofibrations:
+
+* $S$ contains all generating acyclic cofibrations of $C$, i.e. $J \subset S$;
+
+
+* $S$ contains for every original morphism $f : A \to B$ in $S$ and for every $n \in \mathbb{N}$ also the canonical morphism $\tilde f : (Q_f := A \cdot \Delta^n \coprod_{A \cdot \partial \Delta^n} B \cdot \partial \Delta^n) \to B \cdot \Delta^n$, where $A \cdot \Delta^n$ etc. denotes the [[copower|tensoring]] of $C$ over [[SSet]].
+
+We discuss why these morphisms of the latter type are indeed $S$-local cofibrations: 
+
+to see that $\tilde f$ is indeed a cofibration notice that for every commuting diagram
+
+$$
+  \array{
+    Q &\to& X
+    \\
+    \downarrow && \downarrow^{\in \mathrlap{fib_C \cap W_C}}
+    \\
+    B \cdot \Delta^n
+    &\to&
+    Y
+  }
+$$
+
+we get, as components of the top morphism two commuting diagrams
+
+$$
+  \array{
+    A  &\to& X^{\Delta^n}
+    \\
+    \downarrow^{\mathrlap{\in cof_C}} 
+    && \downarrow^{\in \mathrlap{fib_C \cap W_C}}
+    \\
+    B 
+    &\to&
+    Y^{\Delta^n}
+  }
+  \;\;\;\;
+  \;\;\;\;
+  \;\;\;\;
+  \array{
+    \partial \Delta^n &\to& [B,X]
+    \\
+    \downarrow^{\mathrlap{\in cof_{Sset}}} 
+    && \downarrow^{\in \mathrlap{fib_{SSet} \cap W_{SSet}}}
+    \\
+    \Delta^n
+    &\to&
+    [B,Y]
+  }
+$$
+
+where we made use of the [[power]]ing and [[copower]]ing of the [[simplicially enriched category]] $C$ and of the [[Quillen bifunctor]] property of the [[copower]]ing which ensures that the fibrations and cofibrations are still as indicated. Therefore we have lifts in both these  diagrams and any pair of them combines as components of a lift of the first diagram. So $\tilde f$ is indeed a cofibration.
+
+Being a cofibration, by the characterization of $S$-local cofibrations, we can check $S$-locality by homming into fibrant $S$-local objects and checking if that produces an acyclic Kan fibration.
+
+So let $X$ be a fibrant and $S$-local object of $C$. Homming the defining [[pushout]] diagram for $Q_f$ into $X$ produces the [[pullback]] diagram
 
 $$
   \array{
@@ -181,7 +242,7 @@ $$
     \uparrow
     \\
     [\Delta^n,[A,X]]
-    &&\stackrel{\in W}{\leftarrow}
+    &\stackrel{\in W}{\leftarrow}&
     [A \cdot \Delta^n \coprod_{A \cdot \partial \Delta^n} B \cdot \partial \Delta^n, X]
     \\
     &{}_{\in W}\nwarrow&& \nwarrow
@@ -190,20 +251,40 @@ $$
   }
 $$ 
 
-in [[SSet]], where the top and bottommost morphisms are weak equivalences by the fact that $[B,X] \to [A,X]$ is an acyclic Kan fibration by the above and the fact that [[SSet]] is an [[SSet]]-[[enriched model category]], similarly for the fibration on the left, which implies by right [[proper model category|properness]] that the bottom horizontal morphism is a weak equivalence, which finally implies by [[category with weak equivalences|2-out-of-3]] that the morphism in question is a weak equivalence.
+in [[SSet]]. Here the top and the lowest morphisms are weak equivalences by the fact that $[B,X] \to [A,X]$ is an acyclic Kan fibration by the characterization of $S$-[[local object|local cofibrations]] and the fact that [[SSet]] is an [[SSet]]-[[enriched model category]]. Similarly for the fibration on the left, which implies by right [[proper model category|properness]] of [[SSet]] that the bottom horizontal morphism is a weak equivalence, which finally implies by [[category with weak equivalences|2-out-of-3]] that the morphism in question is a weak equivalence.
 
-So assume that $S$ contains these two kinds of morphisms.
+This shows that we can assume $S$ to consist of only cofibrations and to contain the generating acyclic cofibrations and the morphism called $\tilde f$.
 
-Then it follows that an object $X$ that has the extension property with respect to $S$ has it in particular with respect to $J$ and hence is fibrant. And it in particular has it with respect to 
-$A \cdot \Delta^n \coprod_{A \cdot \partial \Delta^n} B \cdot \partial \Delta^n$, which means that $[B,X] \to [A,X]$ is an acyclic Kan fibration. So such an $X$ is $S$-local by the above. Conversely, if $X$ is fibrant and $S$-local, then for all $A \to B$ in $S$ the map $[B,X] \to [A,X]$ is in particular a surjection, so $X$ has the extension property.
+We say that given a set of morphisms $S$ and an object $X$ that $X$ has the _extension property_ with respect to $S$ if every diagram
 
-Next notice that we may assume that $S$ contains only cofibrations, the one of the lemma "localization at cofibrations is sufficient" below.
+$$
+  \array{
+    A &\to& X
+    \\
+    \downarrow^{\mathrlap{\in S}} && \downarrow
+    \\
+    B &\to& {*}
+  }
+$$
+
+has a lift.
+
+We claim now that the the objects of $C$ that have the extension property with respect to our set $S$ are precisely the fibrant and $S$-[[local object]]s.
+
+In one direction, if $X$ that has the extension property with respect to $S$ it has it in particular with respect to $J \subset S$ and hence is fibrant. And it in particular has it with respect to 
+$\tilde f : A \cdot \Delta^n \coprod_{A \cdot \partial \Delta^n} B \cdot \partial \Delta^n$, which means that $[B,X] \to [A,X]$ is an acyclic [[Kan fibration]]. 
+
+Conversely, if $X$ is fibrant and $S$-local, then for all $A \to B$ in $S$ the map $[B,X] \to [A,X]$ in $SSet$ is an acyclic [[Kan fibration]] hence in particular its underlying map of sets $Hom_C(B,X) \to Hom_C(A,X)$ is a surjection, so $X$ has the extension property.
 
 A fibrant object of $L_S W$ has the extension property with respect to $cof_C \cap W_S$, hence in particular with respect to $S$ hence is $S$-local and fibrant in $C$.
 
-Conversely, if it is $S$-local and fibrant in $C$; it has the extension property with respect to $cof_C \cap W_S$, as we have just seen.  
+Now every fibrant object $X$ in $L_S W$ has the extension property with respect to $cof_C \cap W_S$ hence in particular with respect to $S \subset cof_c \cap W_S$, so is $S$-local and fibrant in $C$.
 
+Conversely, if it is $S$-local and fibrant in $C$; then, as mentioned before, for all $f \in cof_C \cap W_S$ the map $[f,X]$ is an acyclic Kan fibration in [[SSet]] so that in particular $Hom_C(f,X)$ is a surjection, which means that $X$ has the extension property with respect to all $f$ and is hence fibrant in $L_S C$.
 
+**3) accessibility of the $S$-local weak equivalences**
+
+(...)
 
 =--
 
@@ -306,7 +387,7 @@ The following further statements about fibrantions, cofibrations and weak equiva
 +-- {: .un_prop }
 ###### Proposition
 
-Let $L_S C$ is a left Bousfield localization of $C$ then
+Let $L_S C$ be a left Bousfield localization of $C$ then
 
 * every weak equivalence of $C$ is also a weak equivalence of $L_S C$;
 
