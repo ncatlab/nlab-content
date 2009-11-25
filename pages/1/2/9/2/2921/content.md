@@ -6,8 +6,7 @@
 ## Definition ##
 
 +-- {: .un_defn}
-###### Definition
-**(triangulated subcategory)**
+###### Definition (triangulated subcategory)
 
 
 A **triangulated subcategory** $A$ of a [[triangulated category]] $B$ is a nonempty [[subcategory]] closed under suspension of objects and such that for all objects $X,Y$ in $A$ if $X\to Y\to Z\to X[1]$ is a distinguished triangle in $B$, then $Z$ is in $A$.  
@@ -17,8 +16,7 @@ A triangulated subcategory $A$ is called **thick** if with any object in $A$ it 
 =--
 
 +-- {: .un_defn}
-###### Definition
-**(Verdier quotient)**
+###### Definition (Verdier quotient)
 
 
 For $A \subset B$ a triangulated subcategory, the [[Verdier quotient]] category $B/A$ which is a triangulated category equipped with a canonical functor $Q^*:B\to B/A$ that is also triangulated (additive and preserving distinguished triangles) and universal among all triangulated functors $B\to D$ which send objects of $A$ to objects isomorphic to $0$. 
@@ -29,8 +27,7 @@ For $A \subset B$ a triangulated subcategory, the [[Verdier quotient]] category 
 The Verdier quotient $B/A$  has the property that the only objects whose images in $B/A$ are isomorphic to the [[zero object]] are the objects from $A$. 
 
 +-- {: .un_defn}
-###### Definition
-**(Bousfield localization)**
+###### Definition (Bousfield localization)
 
 
 Given a thick subcategory $A\subset B$, we say that the **Bousfield localization** exists if the Verdier quotient functor $Q^*$ has a right [[adjoint functor]] $Q_*$ which is then (automatically) triangulated and fully faithful. 
