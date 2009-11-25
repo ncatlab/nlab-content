@@ -4,9 +4,8 @@
 
 A _cellular model category_ is a particularly convenient form of a [[model category]].
 
-It is similar to a [[combinatorial model category]].
+It is similar to a [[combinatorial model category]]. (For the moment, see there for more details.)
 
-> (How exactly?)
 
 ## Definition ##
 
