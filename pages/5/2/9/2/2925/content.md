@@ -1,0 +1,3 @@
+The intermediate value theorem (IVT) is a fundamental principle of analysis which allows one to find a desired value by interpolation.  Roughly speaking, it says that if Papa Bear\'s porridge is too hot and Mama Bear\'s porridge is too cold, then there must be some temperature of porridge (perhaps Baby Bear\'s) which is [just right](http://secure.wikimedia.org/wikipedia/en/wiki/The_Story_of_the_Three_Bears).
+
+As normally stated, the IVT is not valid in [[constructive mathematics]], although there are constructively valid versions.
