@@ -6,6 +6,7 @@
 
 * [[descent for simplicial presheaves]]
 
+* [[combinatorial model category]]
 
 [[!redirects Dan Dugger]]
 
