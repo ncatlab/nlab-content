@@ -1,8 +1,12 @@
-# Idea
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea ##
 
 If $K$ is a [[2-category]], an [[equipment]] on $K$ gives it the structure of "proarrows" which are intended to generalize the arrows of $K$ in the same way that [[profunctors]] generalize the [[functors]] in [[Cat]].  Since profunctors are a [[categorification]] of [[relations]], it is natural to think of decategorifying equipments to give a structure on a 1-category that equips it with "relations".  We call this structure a *1-category equipment*.
 
-# Definition
+## Definition ##
 
 Recall that a *2-category equipment* (the usual meaning of "equipment") on a 2-category $K$ can be defined as a certain sort of [[double category]], with $\mathcal{V}(\underline{K}) = K$.  If any two squares of such a double category with the same boundary are equal, we say that it is is a **(1,2)-category equipment**.  Note that if we write an equipment as a special sort of functor $(-)_\bullet\colon K\to M$, this is equivalent to saying that $M$ (and hence also $K$) is [[locally posetal 2-category|locally posetal]], i.e. a (1,2)-category.
 
@@ -15,7 +19,7 @@ For any quantale $V$, the sub-equipment of $V$-$Prof$ consisting of the *symmetr
 In general, we can think of a 1-category equipment as generalizing some of the properties of $\underline{Rel}$.  For instance, internal relations in any [[regular category]] also form a 1-category equipment.
 
 
-# See also
+## See also ##
 
 Other attempted axiomatizations of the same idea "something that acts like the category of relations in a regular category" include:
 
@@ -24,7 +28,7 @@ Other attempted axiomatizations of the same idea "something that acts like the c
 * [[bicategory of relations]]
 
 
-# Cartesian 1-category equipments
+## Cartesian 1-category equipments ##
 
 The following is a very rough sketch, with lots remaining to be made precise.
 
