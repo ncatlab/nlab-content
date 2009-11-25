@@ -15,14 +15,14 @@ Accessible categories are the categories of models of [[sketch|sketches]].
 
 ## Definition ##
 
-A category is accessible if for some [[regular cardinal]] $\kappa$:
+A [[locally small category]] is accessible if for some [[regular cardinal]] $\kappa$:
 
 * the category has $\kappa$-[[directed colimit]]s,
 * there is a set of $\kappa$-[[compact object]]s that generate the category under $\kappa$-directed colimits.
 
 ## Relation to other concepts ##
 
-If an accessible category is in addition [[locally small]] and has all (small) [[colimit]]s, then it is a [[locally presentable category]].
+If an accessible category in addition has all (small) [[colimit]]s (or, equivalently, [[limits]]), then it is a [[locally presentable category]].
 
 ## References ##
 
