@@ -1,8 +1,12 @@
-# Idea #
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea ##
 
 The _Karoubi envelope_ of a [[category]] is the universal way to ensure that every [[idempotent]] is a [[split idempotent]].  It is the [[Set]]-enriched version of [[Cauchy completion]].
 
-#Definition# 
+## Definition ## 
 
 Let $C$ be a [[category]]. We give an elementary construction of the __Karoubi envelope__ $\bar{C}$ which formally splits [[idempotents]] in $C$. 
 
@@ -34,9 +38,9 @@ Then $\bar{F}$ is the unique extension of $F$ which preserves chosen splittings.
 
 If $D$ is a category in which every idempotent splits, then we can choose a splitting for each idempotent using the [[axiom of choice]] (AC); the extension $\bar{F}$ depends on how we do this but is unique up to unique [[natural isomorphism]].  Alternatively, we can define $\bar{F}$ as an [[anafunctor]]; then no AC is needed, and we still have $\bar{F}$ unique up to unique natural isomorphism.  (It is key here that a splitting of an idempotent is unique up to a coherent isomorphism.)
 
-#References#
 
 
+## References ##
 
 Karoubi envelopes for [[(infinity,1)-category|(∞,1)-categories]] are discussed in section 4.4.5 of
 
