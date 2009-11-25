@@ -2,7 +2,7 @@
 
 * [[ericforgy:HomePage|Personal nLab Area]]
 * [[ericforgy:Eric Forgy|Short bio]]
-
+* [Essays](http://www.rushessay.com/)
 [[An Exercise in Groupoidification]]
 
 category: people
