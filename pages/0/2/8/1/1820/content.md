@@ -417,9 +417,11 @@ For instance:
 
 **(Counter)example**:[[Top]] with the standard [[model structure on topological spaces]] is cofibrantly generated, but not combinatorial. But it is [[Quillen equivalence|Quillen equivalent]] to a combinatorial model structure, namely to the standard [[model structure on simplicial sets]] (see [[homotopy hypothesis]]).
 
-One might therefore ask which cofibrantly generated model categories are Quillen equivalent to combinatorial ones. For a discussion of this see
+One might therefore ask which cofibrantly generated model categories are Quillen equivalent to combinatorial ones.  It turns out that if one assumes the large-cardinal hypothesis [[Vop?nka's principle]], then *every* cofibrantly generated model category is Quillen equivalent to a combinatorial one.  In fact, if we slightly generalize the notion of "cofibrantly generated," this statement is equivalent to Vop&#283;nka's principle.  For a discussion of this see
 
-* J. Rosicky, _Are all cofibrantly generated model categories combinatorial?_ ([ps](http://www.math.muni.cz/~rosicky/papers/cof1.ps))
+* J. Rosicky, _Are all cofibrantly generated model categories combinatorial? ([ps](http://www.math.muni.cz/~rosicky/papers/cof1.ps))
+
+Although Vop&#283;nka's principle cannot be proven from [[ZFC]], and in fact is fairly strong as [[large cardinal]] hypotheses go, this means that looking for cofibrantly generated model categories that are not Quillen equivalent to combinatorial ones is probably a waste of time.  Certainly, all known cofibrantly generated model categories *are* Quillen equivalent to simplicial ones, usually in a fairly natural way.
 
 ### Simplicial combinatorial model categories ###
 
