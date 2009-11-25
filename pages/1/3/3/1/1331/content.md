@@ -21,7 +21,7 @@ is a **reflective $(\infty,1)$-subcategory** (of $C$) if it has an $(\infty,1)$-
 
 * The left adjoint $f : C \to D$ is also called [[localization of an (∞,1)-category]].
 
-#Relation to inversion of morphisms#
+##Relation to inversion of morphisms
 
 There is a close relation between reflective $(\infty,1)$-subcategories and $(\infty,1)$-categories obtained by "inverting" morphisms in other $(\infty,1)$-categories.
 
