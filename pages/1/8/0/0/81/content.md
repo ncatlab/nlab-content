@@ -71,11 +71,9 @@ Also on the closely related area of the theory of open topological strings and s
 
 * Daniel S. Freed, _Higher Algebraic Structures and Quantization_ ([arXiv](http://arxiv.org/abs/hep-th/9212115))
 
-* Danny Kodicek, [Mathematics and Physics for Programmers (Game Development Series) (Paperback)](http://www.amazon.com/Mathematics-Physics-Programmers-Game-Development/dp/1584503300)
-
 But for one the most important points there is to date no good comprehensive survey: lots of well-known structures in physics are _secretly_ higher categorical structures. See [[BV theory]].
 
-* For more references for [homework help](http://www.superiorpapers.com/homework.php) on physics see [[quantum field theory]].
+* For more references see [[quantum field theory]].
 
 
 The above text is in parts a translation of 
