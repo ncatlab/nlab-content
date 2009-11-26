@@ -133,6 +133,7 @@ One account of localization with a [[calculus of fractions]] is section 7 of
 
 * Kashiwara-Schapira, [[Categories and Sheaves]]
 
+
 ***
 
 # Discussion #
