@@ -120,9 +120,9 @@ So, the two blue triangles in the diagram are congruent (both being right triang
 
 According to the historian Ian Mueller, Eva Sachs, in her book _Die F&#252;nf Platonischen K&#246;rper_, suggested an accurately drawn figure could let someone guess that the distance between the two pentagons equals the radius of either one.  Mueller also writes that Dijksterhuis (in 1929) and Neuenschwander (in 1975) claimed it's "intuitively evident" that the two right triangles above are congruent.   These clues led Greg Egan to the present proof.
 
-Next, we can appeal to Euclid's golden triangle lemma -- which gives us the ratio between the radius and the decagon edge length as $\Phi$ -- and work backwards to show that this is also the ratio of length to width for our three orthogonal rectangles.  This follows simply from the fact that the right triangle $O R P$ is similar to the right triangle $C A B$.
+If we want, we can now appeal to Euclid's golden triangle lemma -- which gives us the ratio between the radius and the decagon edge length as $\Phi$ -- and work backwards to show that this is also the ratio of length to width for our three orthogonal rectangles.  This follows simply from the fact that the right triangle $O R P$ is similar to the right triangle $C A B$.
 
-Suppose we wish to avoid using the intermediate value theorem.  If we project the generic version of our icosahedron onto the plane of one of its rectangles, we get this:
+Finally, suppose we wish to avoid using the intermediate value theorem.  If we project the generic version of our icosahedron onto the plane of one of its rectangles, we get this:
 
 [[!include pentagon decagon hexagon identity/irregular icosahedron]]
 
