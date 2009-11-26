@@ -1,4 +1,4 @@
-An **initial object** in a [[category]] $C$ is an [[object]] 0 such that for any object $x$ of $C$, there is a unique [[morphism]] $!:0\to C$.  The initial object, if it exists, is unique up to unique isomorphism.  If it is also [[terminal object|terminal]], it is called a [[zero object]].
+An **initial object** in a [[category]] $C$ is an [[object]] 0 such that for any object $x$ of $C$, there is a unique [[morphism]] $!:0\to C$.  The initial object, if it exists, is unique up to unique isomorphism. An initial object is sometimes called a universal initial object or simply a universal object. If it is also [[terminal object|terminal]], it is called a [[zero object]].
 
 Initial objects are the [[duality|dual]] concept to [[terminal object]]s: an initial object in $C$ is the same as a terminal object in $C^{op}$.
 
