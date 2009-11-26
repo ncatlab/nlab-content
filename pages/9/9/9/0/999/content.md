@@ -3,16 +3,16 @@
 </div>
 
 
-#Contents#
+#Contents 
 * automatic table of contents goes here
 {:toc}
 
-# Idea
+## Idea
 
 An [[object]] of a [[category]] is often called *compact* if it is "finite" or "small" in some precise sense.
 
 
-# Definition #
+## Definition 
 
 Let $C$ be a [[locally small category]] that admits [[filtered category|filtered]] [[colimit]]s. Then an [[object]] $X \in C$ is **compact** (or sometimes called **[[locally finitely presentable category|finitely presented]]**) if the [[representable functor|corepresentable functor]]
 
@@ -31,23 +31,30 @@ $$
 
 is an [[isomorphism]].
 
-#Examples#
+### Small objects 
 
-##In Set##
+There is a slight variant of this definition.
+
+If $\kappa$ is a [[cardinal number|regular cardinal]] then a particular kind of filtered colimits are $\kappa$-[[directed colimit]]s. Objects $X$ such that $C(X,-)$ commutes with such $\kappa$-[[directed colimit]]s are also called **$\kappa$-compact objects**. An object which is $\kappa$-compact for some regular $\kappa$ is called a [[small object]].
+
+
+## Examples 
+
+### In $Set$
 
 In $C = $ [[Set]] an object is compact precisely if it is a (Kuratowski) [[finite set]].
 
-## In Grp ##
+### In $Grp$ 
 
 In $C = $ [[Grp]] an object is compact precisely if it is finitely presented as a group.
 
-## In a topos ##
+### In a topos 
 
 For $C$ a [[topos]], $X$ is compact if it is 
 $K$-[[finite object|finite]]. 
 
 
-## In Top ##
+### In $Top$
 
 Let $X$ be a [[topological space]] and let $C = Op(X)$ be the [[category of open subsets]] of $X$. The an open subset $U \in C$ is a compact object in $C$ precisely if it is a [[compact space|compact topological space]].
 
@@ -55,23 +62,23 @@ Let $X$ be a [[topological space]] and let $C = Op(X)$ be the [[category of open
 
 See the discussion below for variations of this theme.
 
-#Generalizations#
+## Generalizations 
 
 This definition has an obvious generalization to [[compact object in an (infinity,1)-category]].
 
 
-# Subtleties and different meanings #
+## Subtleties and different meanings 
 
 One has to be careful about the following variations on this theme
 
 
-## Compactness in additive categories ##
+### Compactness in additive categories 
 
 When $C$ is an [[additive category]] (often a [[triangulated category]]), an object $x$ in $C$ is called **compact** if for every set $S$ of objects of $C$ such that the coproduct $\coprod_{s\in S} s$ exists, the canonical map
 $$
 \coprod_{s\in S} C(x,s)\to C(x,\coprod_{s\in S}s)
 $$
-is an isomorphism of sets.
+is an [[isomorphism]] of [[set]]s (a [[bijection]]).
 
 Here is an application of this concept to characterize which abelian categories are categories of modules of some ring:
 
@@ -98,16 +105,16 @@ The notion can be modified for categories [[enriched category|enriched]] over a 
 
 Compact objects in the derived categories of quasicoherent sheaves over a scheme are called perfect complexes. Any compact object in the category of modules over a perfect ring is finitely generated as a module.  Lurie uses $\kappa$-compact objects in the setup of $(\infty,1)$-categories.
 
-## Compactness in non-additive categories ##
+### Compactness in non-additive categories
 
 In non-additive contexts, the above definition is not right.  For instance, with this definition a [[topological space]] would be compact iff it is [[connected space|connected]]. In general one should expect to preserve _filtered colimits_ (see below for discussion). For $C$ any category and $X \in C$, the condition that $C(X,-) : C \to C$ preserves [[filtered category|filtered]] [[colimit]]s imposes  some kind of finiteness condition on $X$. For instance 
 
 
 
 
-## Compact objects in Top ##
+#### Compact objects in Top 
 
-Recall the above example of [[compact space|compact topological spaces]]. Notice that the statement which one might expect, that a topological space $X$ is [[compact space|compact]] if it is a compact object in $Top$ is not quite right in general.
+Recall the above example of [[compact space|compact topological spaces]]. Notice that the statement which one might expect, that a topological space $X$ is [[compact space|compact]] if it is a compact object in [[Top]] is not quite right in general.
 
 A counterexample is given for instance on page 49 of Hovey's Model Categories, which itself was corrected by Don Stanley (see the errata of that book).
 See also the blog discussion 
@@ -158,9 +165,9 @@ Hovey wants this result in view of a small object argument on the way to proving
 
 
 
-#References#
+## References
 
-for the pages quoted see
+For the pages quoted in the context of the discussion of compact objects in [[Top]] see
 
 * Mark Hovey, _Model categories_.
 
