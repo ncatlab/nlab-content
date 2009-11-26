@@ -115,9 +115,12 @@ A proof of this making use of [Jeff Smith's recognition theorem](http://ncatlab.
 as [[Higher Topos Theory|HTT, prop. A.3.7.3]] and 
 as theorem 2.11 in [Bar07](http://arxiv.org/abs/0708.2067) and as theorem 4.7 in [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf). 
 
-We follow [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf) for the proof that the assumptions of Smith's recognition theorem are satisfied and follow [[Higher Topos Theory|HTT, prop. A.3.7.3]] for the characterization of the fibrant objects:
+We follow [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf) for the proof that the assumptions of Smith's recognition theorem are satisfied and follow [[Higher Topos Theory|HTT, prop. A.3.7.3]] for the characterization of the fibrant objects. The details are spelled out in the following subsections.
 
-**1) existence of the combinatorial model category structure**
+=--
+
+
+### Recognition of the combinatorial model structure ###
 
 Using [Smith's recognition theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#smiths_theorem_6), for establishing the [[combinatorial model category]] structure, it is sufficient to 
 
@@ -172,7 +175,7 @@ Similarly for [[transfinite composition]] colimits.
 Therefore, indeed, $cof(I) \cap W_{L_S C}$ is closed under pushouts and transfinite composition.
 
 
-**2) fibrants in $L_S C$ are the $S$-local fibrants in $C$**
+### Fibrants in $L_S C$ are the $S$-local fibrants in $C$ ###
 
 To see that the fibrant objects in $L_S C$ are precisely the $S$-local fibrant objects of $C$, use the _characterization of $S$-local cofibrations_  as precisely those cofibrations $i : A \hookrightarrow B$ such that for every _fibrant_ and $S$-local object $X$ the [[derived hom space]] functor $\mathbf{R}Hom(X,A) \to \mathbf{R}Hom(X,B)$ is an acyclic [[Kan fibration]] (this is described in detail [here](http://ncatlab.org/nlab/show/local+object#properties_12)).
 
@@ -287,13 +290,34 @@ Now every fibrant object $X$ in $L_S W$ has the extension property with respect 
 
 Conversely, if it is $S$-local and fibrant in $C$; then, as mentioned before, for all $f \in cof_C \cap W_S$ the map $[f,X]$ is an acyclic Kan fibration in [[SSet]] so that in particular $Hom_C(f,X)$ is a surjection, which means that $X$ has the extension property with respect to all $f$ and is hence fibrant in $L_S C$.
 
-**3) accessibility of the $S$-local weak equivalences**
 
-(...)
+### Fibrant replacement in $L_S W$: localization of objects ###
 
-=--
+Since by assumption $S$ is a small set, we may apply the [[small object argument]] also to $S$. If we apply it to factor all morphisms $X \to {*}$ to the [[terminal object]] we obtain a functorial factorization componentwise of the form
 
-> In _ModLoc_ this is stated for left proper [[cellular model category|cellular model categories]]. Need to say something about the relation...
+$$
+  X \stackrel{\eta_X \in cell(S)\subset W_S}{\to} 
+  T X \stackrel{inj(S)}{\to} {*}
+  \,.
+$$
+
+We had remarked already in the previous argument that objects with the extension property relative to $S$, i.e. objects whose morphism to the terminal object is in $inj(S)$, are fibrant as well as $S$-[[local object|local]] in $C$.
+
+Therefore $T$ is in particular a **fibrant approximation functor** in $L_S W$ and $\eta_S$ is the weak equivalence
+
+$$
+  \eta_S : X \stackrel{\simeq_{W_S}}{\to} T X
+$$
+
+in $L_S C$ relating an object to its fibrant approximation.
+
+
+
+
+### Accessibility of the $S$-local weak equivalences ###
+
+Now...
+
 
 
 
@@ -443,7 +467,7 @@ Also prop. A.3.7.3 in [[Higher Topos Theory|HTT]].
 =--
 
 
-## Relation to presentable $(\infty,1)$-categories ##
+## Relation to locally presentable $(\infty,1)$-categories ##
 
 As described at [[presentable (∞,1)-category]], an [[(∞,1)-category]] $\mathbf{C}$ is presentable precisely if, as an [[simplicially enriched category]], it arises as the full subcategory of fibrant-cofibrant objects of a [[combinatorial simplicial model category]].
 
@@ -483,6 +507,10 @@ that exhibits $\mathbf{C}$ as a [[reflective (∞,1)-subcategory]] of $\mathbf{D
 
 So we find the diagram
 
++-- {: .standout}
+
+**Localization of $(\infty,1)$-presheaf categories**
+
 $$
   \array{
       Sh_{(\infty,1)}(K) 
@@ -495,18 +523,24 @@ $$
      \uparrow^{\simeq}
      &&
      \uparrow^{\simeq}
+     &&& Lurie's theorem
      \\
-     ([K,SSet]_{inj}^{loc})^\circ
+     ([K^{op},SSet]_{inj}^{loc})^\circ
      &\stackrel{\stackrel{Bousfield\;loc.}{\leftarrow}}
      {\to}&
-     ([K,SSet]_{inj})^\circ
+     ([K^{op},SSet]_{inj})^\circ
      &&&
      concrete\;realization
   }
   \,.
 $$
 
-(Here $(-)^\circ$ denotes passing to the full subcategory of fibrant-cofibrant objects.)
+=--
+
+
+Here $(-)^\circ$ denotes passing to the full [[simplicially enriched category|simplicially enriched]] [[subcategory]] on the fibrant-cofibrant objects, regarding that as an [[(∞,1)-category]]. (If one wants to regard that as a [[quasi-category]], then $(-)^\circ$ also involves taking the [[homotopy coherent nerve]] of this simplicially enriched category.)
+
+
 
 ## Examples and Applications ##
 
