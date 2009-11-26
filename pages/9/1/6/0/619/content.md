@@ -2,6 +2,7 @@
 * automatic table of contents goes here
 {:toc}
 
+
 ## Definition
 
 A [[full subcategory]] $C \subset D$ is **reflective** if its inclusion functor has a [[adjoint functor|left adjoint]]
@@ -33,6 +34,9 @@ $$
 
 In the case that the functor $T$ is [[exact functor|left exact]] this reflection is called a [[localization]].
 
+If the reflector $T$ is [[faithful functor|faithful]], the reflection is called a [[completion]].
+
+
 ## Characterizations
 
 Given any adjoint pair $Q^*\dashv Q_*$ of functors  $Q^*:A\leftrightarrow B:Q_*$, the following are equivalent (Gabriel--Zisman):
@@ -46,7 +50,7 @@ Given any adjoint pair $Q^*\dashv Q_*$ of functors  $Q^*:A\leftrightarrow B:Q_*$
 * Let $S$ be the set of morphisms $s$ in $A$ such that $Q^*(s)$ is invertible in $B$; and $P_S:A\to A[S^{-1}]$ canonical [[localization]] functor; then the unique functor $H : A[S^{-1}]\to B$ such that $Q^* = H\circ P_S$ (given by the universal property of localization) is an equivalence of categories.
 
 +--{.query}
-Zoran: Gabriel-Zisman neglect the set theoretical issues on the EXISTENCE of localizations. Is the last conditions really equivalent or we need to make some set-theoretical assumptions ?
+Zoran: Gabriel--Zisman neglect the set theoretical issues on the EXISTENCE of localizations. Is the last conditions really equivalent or we need to make some set-theoretical assumptions ?
 =--
 
 
@@ -77,8 +81,7 @@ This can always be made to work by brute force, but sometimes there is something
 
 ##Generalizations
 
-
-
 * [[reflective (infinity,1)-subcategory]]
+
 
 [[!redirects reflector]]
