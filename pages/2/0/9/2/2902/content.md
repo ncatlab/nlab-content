@@ -14,7 +14,7 @@ Euclid states this identity as [Proposition 10](http://aleph0.clarku.edu/~djoyce
 
 This has led various historians to suggest that the pentagon-decagon-hexagon identity was first discovered in the course of research on the icosahedron.  However, it seems that until now there has been no _proof_ of the pentagon-decagon-hexagon identity based on properties of the icosahedron.  We present such a proof here.
 
-Here, we also present two other proofs: a modernized version of Euclid's original proof, and a somewhat simpler proof which (like Euclid's) uses only 2-dimensional geometry.
+We also present two other proofs: a modernized version of Euclid's original proof, and a somewhat simpler proof which (like Euclid's) uses only 2-dimensional geometry.
 
 #Euclid's proof#
 
