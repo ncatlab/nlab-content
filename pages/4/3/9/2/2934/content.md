@@ -1,0 +1,1 @@
+Independent writer and contributor to magazines. Loves to shop and travel.
