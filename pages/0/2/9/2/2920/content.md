@@ -67,8 +67,7 @@ is an [[isomorphism]] (of sets, i.e. a [[bijection]]). So we can "test isomorphi
 This phenomenon we use now the other way round:
 
 +-- {: .un_def }
-###### Definition
-**($S$-local objects and $S$-local weak equivalences)
+###### Definition ($S$-local objects and $S$-local weak equivalences)
 
 Say that
 
@@ -101,8 +100,7 @@ That this second condition, when it applies, is indeed compatible with the first
 =--
 
 +-- {: .un_def }
-###### Definition
-**(left Bousfield localization)**
+###### Definition (left Bousfield localization)
 
 The left Bousfield localization $L_S C$ of $C$ at $S$ is, if it exsists, the new model category structure on $C$ with
 
