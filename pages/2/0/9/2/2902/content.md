@@ -10,9 +10,15 @@ $$P^2=D^2+H^2$$
 
 This means that the edges of a pentagon, decagon and hexagon of identical radii can fit together to form a right triangle.
 
+Euclid states this identity as [Proposition 10](http://aleph0.clarku.edu/~djoyce/java/elements/bookXIII/propXIII10.html) of Book XIII of the _Elements_.  This is the last book of the _Elements_, the one which deals with properties of the Platonic solids.  He uses Proposition 10 as part of his construction of the regular icosahedron in [Proposition 13](http://aleph0.clarku.edu/~djoyce/java/elements/bookXIII/propXIII13.html).  
+
+This has led various historians to suggest that the pentagon-decagon-hexagon identity was first discovered in the course of research on the icosahedron.  However, it seems that until now there has been no _proof_ of the pentagon-decagon-hexagon identity based on properties of the icosahedron.  We present such a proof here.
+
+We also present two other proofs: a modernized version of Euclid's original proof, and a somewhat simpler proof which (like Euclid's) uses only 2-dimensional geometry.
+
 #Euclid's proof#
 
-Euclid gave a proof of this identity in his _Elements_, as [Proposition 10](http://aleph0.clarku.edu/~djoyce/java/elements/bookXIII/propXIII10.html) of Book XIII.  The essence of this proof can be understood if we take for granted the numerical values of the various angles in his construction, which are easily established.
+The essence of [Euclid's proof](http://aleph0.clarku.edu/~djoyce/java/elements/bookXIII/propXIII10.html) proof can be understood if we take for granted the numerical values of the various angles in his construction, which are easily established.
 
 [[!include pentagon decagon hexagon identity/Euclid]]
 
@@ -27,9 +33,9 @@ ${B F}^2+{A K}^2={A B}\cdot(A N + B N)={A B}^2$.
 
 $B F$ is our radius (or equivalently, the length of one side of a hexagon inscribed in the same circle), $A K$ is a decagon side, and $A B$ is a pentagon side.  So we have established the pentagon-decagon-hexagon identity.
 
-#Other proofs#
+#Another 2d proof#
 
-We present two other proofs of the identity.  Both of these rely on a lemma concerning the ratio of sides in a "golden triangle".
+Euclid's proof is quick but somewhat mysterious.  Here is another perhaps simpler proof that uses only 2-dimensional constructions. It relies on a lemma concerning the ratio of sides in a "golden triangle".  
 
 ##Golden triangle lemma##
 
@@ -51,7 +57,7 @@ By the definition of the golden ratio, $\frac{r}{t}=\Phi$.
 
 This lemma was given by Euclid as [Proposition 9](http://aleph0.clarku.edu/~djoyce/java/elements/bookXIII/propXIII9.html) of Book XIII.
 
-##Proof from an identity for the golden ratio##
+##Proof using the golden triangle lemma##
 
 [[!include pentagon decagon hexagon identity/golden ratio]]
 
@@ -73,7 +79,7 @@ which can also be verified algebraically from the defining equation for $\Phi$. 
 
 [[!include pentagon decagon hexagon identity/golden ratio identity]]
 
-##Proof from a construction on the icosahedron##
+#Proof using the icosahedron#
 
 Suppose we take **three congruent rectangles**, and assemble them symmetrically so that their _long_ edges are all mutually orthogonal, and their _short_ edges are all mutually orthogonal.  Like this:
 
@@ -112,7 +118,9 @@ If we draw a line perpendicular to the planes of the two pentagons, from a verte
 
 So, the two blue triangles in the diagram are congruent (both being right triangles with a pentagon edge as their hypotenuse and the radius as one of their sides), and both exhibit the pentagon-decagon-hexagon identity.
 
-Finally, we can appeal to Euclid's golden triangle lemma -- which gives us the ratio between the radius and the decagon edge length as $\Phi$ -- and work backwards to show that this is also the ratio of length to width for our three orthogonal rectangles.  This follows simply from the fact that the right triangle $O R P$ is similar to the right triangle $C A B$.
+According to the historian Ian Mueller, Eva Sachs, in her book _Die F&#252;nf Platonischen K&#246;rper_, suggested an accurately drawn figure could let someone guess that the distance between the two pentagons equals the radius of either one.  Mueller also writes that Dijksterhuis (in 1929) and Neuenschwander (in 1975) claimed it's "intuitively evident" that the two right triangles above are congruent.   These clues led Greg Egan to the present proof.
+
+Next, we can appeal to Euclid's golden triangle lemma -- which gives us the ratio between the radius and the decagon edge length as $\Phi$ -- and work backwards to show that this is also the ratio of length to width for our three orthogonal rectangles.  This follows simply from the fact that the right triangle $O R P$ is similar to the right triangle $C A B$.
 
 Suppose we wish to avoid using the intermediate value theorem.  If we project the generic version of our icosahedron onto the plane of one of its rectangles, we get this:
 
@@ -137,6 +145,8 @@ Here the first step comes directly from the defining equation for $\Phi$, and th
 * [n-Caf&#233; discussion of TWF 283](http://golem.ph.utexas.edu/category/2009/11/this_weeks_finds_in_mathematic_44.html)
 
 * John Baez, [Some thoughts on the Number 6](http://math.ucr.edu/home/baez/six.html)
+
+* Ian Mueller, _Philosophy of Mathematics and Deductive Structure in Euclid's Elements_, MIT Press, Cambridge Massachusetts, 1981, pp. 257-258 and references therein.
 
 [[!redirects pentagon-decagon-hexagon identity]]
 [[!redirects pentagon–decagon–hexagon identity]]
