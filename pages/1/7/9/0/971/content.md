@@ -3,17 +3,17 @@
 </div>
 
 
-#Contents#
+# Contents
 * automatic table of contents
 {:toc}
 
-## Idea ##
+## Idea 
 
 An accessible [[category]] is a possibly [[large category]] which is however essentially determined by a [[small category]] in that it behaves like the category of [[ind-object]]s of a small category.
 
 Accessible categories are the categories of models of [[sketch|sketches]].
 
-## Definition ##
+## Definition 
 
 A [[locally small category]] is accessible if for some [[regular cardinal]] $\kappa$:
 
@@ -24,7 +24,7 @@ A [[locally small category]] is accessible if for some [[regular cardinal]] $\ka
 
 If an accessible category in addition has all (small) [[colimit]]s (or, equivalently, [[limits]]), then it is a [[locally presentable category]].
 
-## Properties ##
+## Properties {#Properties}
 
 +-- {: .un_prop}
 ###### Proposition (preservation of accessibility under inverse images)
@@ -55,7 +55,7 @@ This appears as [[Higher Topos Theory|HTT, corollary A.2.6.6]].
 =--
 
 
-## References ##
+## References 
 
 The term _accessible category_ is due to
 
