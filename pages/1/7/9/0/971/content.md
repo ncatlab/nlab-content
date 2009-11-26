@@ -24,6 +24,39 @@ A [[locally small category]] is accessible if for some [[regular cardinal]] $\ka
 
 If an accessible category in addition has all (small) [[colimit]]s (or, equivalently, [[limits]]), then it is a [[locally presentable category]].
 
+## Properties ##
+
++-- {: .un_prop}
+###### Proposition
+**(preservation of accessibility under inverse images)**
+
+Let $F : C \to D$ be a [[functor]] between [[presentable category|presentable categories]] which preserves $\kappa$-[[filtered category|filtered]] [[colimit]], and let $D_0 \subset D$ be an accessible subcategory. Then the inverse image $f^{-1}(D_0) \subset C$ is a $\kappa$-accessible subcategory.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This appears as [[Higher Topos Theory|HTT, corollary A.2.6.5]].
+=--
+
+
+
++-- {: .un_prop}
+###### Proposition
+**(accessibility of fibrations and weak equivalences in a combinatorial model category)**
+
+Let $C$ be a [[combinatorial model category]], $Arr(C)$ its [[arrow category]], $W \subset Arr(C)$ the [[full subcategory]] on the weak equivalences and $F \subset Arr(C)$ the full subcategory on the fibrations. Then $F$, $W$ and $F \cap W$ are accessible subcategories of $Arr(C)$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This appears as [[Higher Topos Theory|HTT, corollary A.2.6.6]].
+=--
+
+
 ## References ##
 
 The term _accessible category_ is due to
