@@ -3,13 +3,13 @@
 </div>
 
 
-#Contents#
+#Contents
 * automatic table of contents goes here
 {:toc}
 
-## Idea ##
+## Idea 
 
-Bousfield localization is a procedure that to a [[model category]] structure assigns a new one with more weak equivalences.
+Bousfield localization is a procedure that to a [[model category]] structure $C$ assigns a new one with more weak equivalences.
 
 A _left Bousfield localization_ $C_{loc}$ of a model category $C$ is another model category structure on the same underlying category with the same cofibrations, but more weak equivalences. Similarly for _right Bousfield localization_ and fibrations.
 
@@ -20,9 +20,9 @@ $$
   \,.
 $$
 
-But a very special one: 
+But a very special one. Notice that (right) Bousfield localization by increasing the collection of weak equivalences reduces the collection of fibrant (cofibrant) objects, and hence picks a smaller subcategory of fibrant-and-cofibrant objects. Indeed, Bousfield localization is a model category version of  [[reflective subcategory|reflective subcategories]]:
 
-at least when $C$ is a [[combinatorial simplicial model category]] this is a [[localization of a simplicial model category]] and, moreover, under [[presentable (infinity,1)-category|passage to the sub-category of fibrant-cofibrant objects]] this Quillen adjunction becomes the inclusion of a [[reflective (∞,1)-subcategory]
+at least when $C$ is a [[combinatorial simplicial model category]] this is a [[localization of a simplicial model category]] and under [[presentable (infinity,1)-category|passage to the sub-category of fibrant-cofibrant objects]] this Quillen adjunction becomes the inclusion of a [[reflective (∞,1)-subcategory]
 
 $$
   {C_{loc}}^\circ \stackrel{\stackrel{lex}{\leftarrow}}{\hookrightarrow}
@@ -36,7 +36,7 @@ Such a localization is determined by the collection $S$ of _local weak equivalen
 
 
 
-## Definition ##
+## Definition 
 
 Let $C$ be a category equipped with a [[model category]] structure and let 
 
@@ -48,36 +48,41 @@ be a [[class]] of morphisms in $C$.
 
 An $S$-[[local object]] $X$ is one such that the [[(infinity,1)-categorical hom-space|derived hom-space functor]] $\mathbf{R}Hom(-,X)$ sends morphisms in $S$ to weak equivalences. An $S$-local morphism $f$ is one such that $\mathbf{R}Hom(f,-)$ sends local objects to weak equivalences.
 
+Write $W_S \subset Mor(C)$ for the collection of $S$-local morphisms. Notice that this contains all the weak equivalences of $C$
+
+$$
+  W_C \subset W_S
+  \,.
+$$
+
 +-- {: .un_def }
 ###### Definition (Bousfield localization)
 
 The **left Bousfield localization** of $C$ with respect to $S$ is, if it exists, a [[model category]] structure $L_S C$ on $C$ such that
 
-* the class of weak equivalences of $L_S C$ equals the class of $S$-[[local equivalence]]s of $C$;
+* the class of cofibrations of $L_S C$ equals that of $C$
 
-* the class of cofibrations of $L_S C$ equals that of $C$;
+  $$
+    cof_{L_S C} = cof_C
+  $$
 
-* the fibrations of $L_S C$ are precisely the morphisms with the right lifting property with respect to the $S$-[[local equivalence|local cofibration]]s of $C$.
+* the class of weak equivalences of $L_S C$ equals the class of $S$-[[local equivalence]]s of $C$
 
-Analogously the **right Bousfield localization** is defined as above, with the role of fibrations and cofibrations exchanged throughout.
+  $$
+    W_{L_S C} = W_S \subset W_C
+  $$
 
-=--
-
-Below it is discussed that this model category structure is, when it exists, indeed a [[localization of a model category]].
-
-The following auxiliary definitions are useful for analyzing Bousfield localizations
-
-
-+-- {: .un_def }
-###### Definition ($S$-localization of an object)
-
-(...)
+The **right Bousfield localization** is defined analogously, with the role of fibrations and cofibrations exchanged.
 
 =--
 
-## Existence of Bousfield localizations ##
 
-By the corollary to [Dugger's theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#duggers_theorem_9) on presentations for [[combinatorial model category|combinatorial model categories]] we have that every combinatorial model category is [[Quillen equivalence|Quillen equivalent]] to a [[proper model category|left proper]] [[simplicial model category|simplicial]] combinatorial model category. 
+
+## Existence for combinatorial model categories
+
+We discuss the existence of Bousfield localization in the context of [[combinatorial model category|combinatorial model categories]]. A similar existence result is available in the slightly more general context of [[cellular model category|cellular model categories]], but for the combinatorial case a somewhat better theory is available. 
+
+By the corollary to [Dugger's theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#DuggerTheorem) on presentations for [[combinatorial model category|combinatorial model categories]] we have that every combinatorial model category is [[Quillen equivalence|Quillen equivalent]] to a [[proper model category|left proper]] [[simplicial model category|simplicial]] combinatorial model category. 
 
 Therefore there is little loss in assuming this extra structure, which the following statement of the theorem does.
 
@@ -111,7 +116,7 @@ Moreover, it satisfies the following conditions:
 +-- {: .proof}
 ###### Proof
 
-A proof of this making use of [Jeff Smith's recognition theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#jeff_smiths_theorem_5) for [[combinatorial model category|combinatorial model categories]] appears 
+A proof of this making use of [Jeff Smith's recognition theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#DuggerTheorem) for [[combinatorial model category|combinatorial model categories]] appears 
 as [[Higher Topos Theory|HTT, prop. A.3.7.3]] and 
 as theorem 2.11 in [Bar07](http://arxiv.org/abs/0708.2067) and as theorem 4.7 in [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf). 
 
@@ -120,9 +125,9 @@ We follow [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf) for the proo
 =--
 
 
-### Recognition of the combinatorial model structure ###
+### Recognition of the combinatorial model structure 
 
-Using [Smith's recognition theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#smiths_theorem_6), for establishing the [[combinatorial model category]] structure, it is sufficient to 
+Using [Smith's recognition theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#DuggerTheorem), for establishing the [[combinatorial model category]] structure, it is sufficient to 
 
 * exhibit a [[set]] $I$ of cofibrations of $L_S C$ such that $inj(I) \subset W_{L_S C}$ and such that $cof(I) \cap W_{L_S C}$ is closed under [[pushout]] and [[transfinite composition]].
 
@@ -175,7 +180,7 @@ Similarly for [[transfinite composition]] colimits.
 Therefore, indeed, $cof(I) \cap W_{L_S C}$ is closed under pushouts and transfinite composition.
 
 
-### Fibrants in $L_S C$ are the $S$-local fibrants in $C$ ###
+### Fibrants in $L_S C$ are the $S$-local fibrants in $C$ 
 
 To see that the fibrant objects in $L_S C$ are precisely the $S$-local fibrant objects of $C$, use the _characterization of $S$-local cofibrations_  as precisely those cofibrations $i : A \hookrightarrow B$ such that for every _fibrant_ and $S$-local object $X$ the [[derived hom space]] functor $\mathbf{R}Hom(X,A) \to \mathbf{R}Hom(X,B)$ is an acyclic [[Kan fibration]] (this is described in detail [here](http://ncatlab.org/nlab/show/local+object#properties_12)).
 
@@ -291,7 +296,7 @@ Now every fibrant object $X$ in $L_S W$ has the extension property with respect 
 Conversely, if it is $S$-local and fibrant in $C$; then, as mentioned before, for all $f \in cof_C \cap W_S$ the map $[f,X]$ is an acyclic Kan fibration in [[SSet]] so that in particular $Hom_C(f,X)$ is a surjection, which means that $X$ has the extension property with respect to all $f$ and is hence fibrant in $L_S C$.
 
 
-### Fibrant replacement in $L_S W$: localization of objects ###
+### Fibrant replacement in $L_S W$: localization of objects 
 
 Since by assumption $S$ is a small set, we may apply the [[small object argument]] also to $S$. If we apply it to factor all morphisms $X \to {*}$ to the [[terminal object]] we obtain a functorial factorization componentwise of the form
 
@@ -314,14 +319,35 @@ in $L_S C$ relating an object to its fibrant approximation.
 
 
 
-### Accessibility of the $S$-local weak equivalences ###
+### Accessibility of the $S$-local weak equivalences
 
-Now...
+For the [Smith recognition theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#SmithTheorem) to apply we still have to check that the $S$-[[local object|local weak equivalences]] $W_S$ span an [[accessible category|accessible full subcategory]] $Arr_S(C) \subset Arr(S)$ of the [[arrow category]] of $C$.
+
+By the general [properties of accessible categories](http://ncatlab.org/nlab/show/accessible+category#Properties) for that it is sufficient to exhibit $Arr_S(C)$ as the inverse image of a functor $T : Arr_S(C) \hookrightarrow Arr(C)$ of the accessible category $Arr_W(C)$ spanned by ordinary weak equivalences in $C$.
+
+That functor we take to be the $S$-local fibrant replacement functor from above
+
+$$
+  T : (X \to Y) \mapsto (T X \stackrel{T f}{\to} T Y)
+  \,.
+$$
+
+Generally, an $S$-local weak equivalence between $S$-[[local object]]s is already an ordinary weak equivalence: by $S$-locality the [[derived hom space]] functor
+$\mathbf{R}Hom(f,-)$ takes values in weak equivalences on the full subcategory of $S$-[[local object]]s, hence takes values in [[isomorphism]]s when sent forward to the full subcategory on $S$-local objects of the [[homtopy category]] $Ho_C$. By the [[Yoneda lemma]] this implies that $T f$ is an isomorphism in $Ho_C$, hence a weak equivalence in $C$.
+
+But this means that the inverse image under $T$ of the weak equivalences in $C$ are all $S$-local weak equivalences
+
+$$
+  f^{-1}(T) = Arr_S(C)
+  \,.
+$$
+
+Therefore this is an [[accessible category]].
 
 
+## Existence for tractable ennriched model categories
 
-
-This statement is generalized to the context of [[enriched model category]] theory by the following result:
+The above statement is generalized to the context of [[enriched model category]] theory by the following result:
 
 +-- {: .un_theorem }
 ###### Theorem (existence of enriched Bousfield localization)
@@ -349,7 +375,7 @@ This is theorem 4.46 in [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf
 
 
 
-## Properties of Bousfield localization ##
+## Properties of Bousfield localization
 
 +-- {: .un_prop }
 ###### Proposition (Bousfield localization is indeed a localization)
@@ -467,7 +493,7 @@ Also prop. A.3.7.3 in [[Higher Topos Theory|HTT]].
 =--
 
 
-## Relation to locally presentable $(\infty,1)$-categories ##
+## Relation to locally presentable $(\infty,1)$-categories {#LocPresInf}
 
 As described at [[presentable (∞,1)-category]], an [[(∞,1)-category]] $\mathbf{C}$ is presentable precisely if, as an [[simplicially enriched category]], it arises as the full subcategory of fibrant-cofibrant objects of a [[combinatorial simplicial model category]].
 
@@ -542,11 +568,11 @@ Here $(-)^\circ$ denotes passing to the full [[simplicially enriched category|si
 
 
 
-## Examples and Applications ##
+## Examples and Applications 
 
-### Categories to which the general existence theorem applies ###
+### Categories to which the general existence theorem applies 
 
-The following [[model category|model categories]] $C$ are left [[proper model category|proper]] [[cellular model category|cellular]]/[[combinatorial model category|combinatorial]], so that the aobe theorem applies and for every [[set]] $S \subset Mor(C)$ the Bousfield localizaton $L_S C$ does exist.
+The following [[model category|model categories]] $C$ are left [[proper model category|proper]] [[cellular model category|cellular]]/[[combinatorial model category|combinatorial]], so that the above theorem applies and for every [[set]] $S \subset Mor(C)$ the Bousfield localizaton $L_S C$ does exist.
 
 * [[Top]] with its standard [[model structure on topological spaces]];
 
@@ -565,33 +591,39 @@ If $C$ is a left [[proper model category|proper]] ([[simplicial model category|s
  
 
 
-### Local model structure on presheaves ###
+### Local model structure on presheaves 
 
 Left Bousfield localization produces the _local_ [[model structure on homotopical presheaves]]. For instance the [[local model structure on simplicial presheaves]].
 
 
-## References ##
+## References 
 
 Bousfield localization appears as definition 3.3.1 in
 
 * **ModLoc** Hirschhorn, _Model categories and their localization_ 
 
-and as proposition A.3.7.3 in
+for left proper [[cellular model category|cellular model categories]].
+
+In  proposition A.3.7.3 of
 
 * [[Jacob Lurie]], [[Higher Topos Theory]] .
 
+it is discussed in the context of [[combinatorial model category|combinatorial model categories]] and of [[combinatorial simplicial model category|combinatorial simplicial model categories]] in particular.
+
 The relation to [[localization of an (infinity,1)-category]] is also in [[Higher Topos Theory|HTT]], for the time being see the discussion at [[models for ∞-stack (∞,1)-toposes]] for more on that.
 
-A detailed discussion of Bousfield localization also in the context of [[enriched model category|enriched model categories]] is in
+A detailed discussion of Bousfield localization in the general context of [[enriched model category]] theory is in
 
 * [[Clark Barwick]], _On (enriched) left Bousfield localization of model categories_ ([arXiv](http://arxiv.org/abs/0708.2067))
 
-Apparently an expanded version of this is
+  * Expanded version: _On left and right model categories and left and right Bousfield localization_ ([pdf](http://www.math.harvard.edu/~clarkbar/complete.pdf))
 
-* [[Clark Barwick]], _On left and right model categories and left and right Bousfield localization_ ([pdf](http://www.math.harvard.edu/~clarkbar/complete.pdf))
+in terms of [[enriched model category|enriched]] [[tractable model category|tractable model categories]].
 
 
-## Discussion ##
+
+
+## Discussion 
 
 +-- {: .query}
 
