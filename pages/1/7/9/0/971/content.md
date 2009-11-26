@@ -27,8 +27,7 @@ If an accessible category in addition has all (small) [[colimit]]s (or, equivale
 ## Properties ##
 
 +-- {: .un_prop}
-###### Proposition
-**(preservation of accessibility under inverse images)**
+###### Proposition (preservation of accessibility under inverse images)
 
 Let $F : C \to D$ be a [[functor]] between [[presentable category|presentable categories]] which preserves $\kappa$-[[filtered category|filtered]] [[colimit]], and let $D_0 \subset D$ be an accessible subcategory. Then the inverse image $f^{-1}(D_0) \subset C$ is a $\kappa$-accessible subcategory.
 
@@ -43,8 +42,7 @@ This appears as [[Higher Topos Theory|HTT, corollary A.2.6.5]].
 
 
 +-- {: .un_prop}
-###### Proposition
-**(accessibility of fibrations and weak equivalences in a combinatorial model category)**
+###### Proposition (accessibility of fibrations and weak equivalences in a combinatorial model category)
 
 Let $C$ be a [[combinatorial model category]], $Arr(C)$ its [[arrow category]], $W \subset Arr(C)$ the [[full subcategory]] on the weak equivalences and $F \subset Arr(C)$ the full subcategory on the fibrations. Then $F$, $W$ and $F \cap W$ are accessible subcategories of $Arr(C)$
 
@@ -61,11 +59,11 @@ This appears as [[Higher Topos Theory|HTT, corollary A.2.6.6]].
 
 The term _accessible category_ is due to
 
-* Makkai, Par&eacute; 1989 . 
+* Makkai, Par&eacute; 1989. 
 
 The standard textbook on the theory of accessible categories is
 
-* Ad&aacute;mek and Rosicky,  _Locally Presentable and Accessible Categories_. Cambridge University Press, Cambridge,
+* Ad&aacute;mek and Rosicky, _Locally Presentable and Accessible Categories_. Cambridge University Press, Cambridge,
 1994. 
 
 A discussion of [[accessible (infinity,1)-category|accessible (infinity,1)-categories]] is in [section 5.4, p. 341](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=341)
