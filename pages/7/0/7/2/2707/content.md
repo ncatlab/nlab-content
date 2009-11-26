@@ -1,4 +1,3 @@
-
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -8,7 +7,9 @@
 
 The similarity of the behaviour of various [[cohomologies]] of [[algebraic variety|varieties]] over a field suggest that there is a universal one among them with values in an intermediate [[abelian category]], called the category of _motives_. Thus we should have a variety $X$, which maps to its motive $M(X)$, and good cohomologies would factor through that projection. Of course, not every motive is the image of a single variety. There is supposedly also a version with further filtrations (need to be more specific), the [[mixed motive]]s. 
 
-So far there are realizations of [[pure motive]]s, and only a derived version of mixed motives. Constructions depend much on whether we work in prime [[characteristic]]s or in characteristic zero. Part of the formalism involves more general schemes than varieties. 
+So far there are realizations of [[pure motive]]s, and not of the mixed motives. However there are several equivalent definitions of a triangulated tensor category which has all conjectured structural properties of the derived category of mixed motives (except t-structure which would manifestly make it a derived category); hence it is denoted $D(\mathcal{M M})$.
+
+Constructions of motives depend much on whether we work in prime [[characteristic]]s or in characteristic zero. Part of the formalism involves more general schemes than varieties. 
 
 Another crucial idea leading to motives is that the various cohomologies lead to the same pieces of information; therefore there is a symmetry related to this, which is of Galois nature. For example, over the [[complex numbers]] one can compare the [[Betti cohomology]] and [[de Rham cohomology]] "realizations". Thus one has a motivic [[Galois group]], and as usually with representations one has a [[tensor category]] structure which is also [[rigid monoidal category|rigid]]. Thus one has in fact an [[monoidal abelian category|abelian tensor category]] of motives. The Tannakian reconstruction plays a major role; for pure motives we have neutral [[Tannakian category|Tannakian categories]], and for mixed motives we have mixed Tannakian categories. Functions on the [[torsor]] of the isomorphism between "realizations" correspond to the matrices of [[period]]s in [[Hodge theory]]. 
 
@@ -44,7 +45,7 @@ See [prop. 14.16, p. 114](http://www.math.rutgers.edu/~weibel/MVWnotes/prova-hyp
 
 ##Nori motives##
 
-[[Madham Nori]] has an approach to the theory of motives based on a peculiar kind of Tannakian reconstruction, the so called _Nori Tannakian theorem_. 
+[[Madham Nori]] has an approach to the theory of motives based on a peculiar kind of Tannakian reconstruction, the so called _Nori's Tannakian theorem_. 
 
 
 ## Related entries##
