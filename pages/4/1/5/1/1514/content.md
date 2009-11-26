@@ -6,7 +6,7 @@
 
 A simple form of the path integral is realized in [[quantum mechanics]], where it was originally dreamed up by [[Richard Feynman]] and then made precise using the [[Feynman-Kac formula]].
 
-The [[Schrödinger equation]] says that the rate at which the phase of an energy eigenvector rotates is proportional to its energy:
+The [[Schrodinger equation|Schrödinger equation]] says that the rate at which the phase of an energy eigenvector rotates is proportional to its energy:
 \[ i \hbar \frac{d}{dt} \psi = H \psi. \]
 Therefore, the probability that the system evolves to the final state $\psi_F$ after evolving for time $t$ from the initial state $\psi_I$ is
 \[ \langle \psi_F|e^{-iHt}|\psi_I\rangle.\]
