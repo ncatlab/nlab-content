@@ -33,9 +33,7 @@ $$
 
 In the case that the functor $T$ is [[exact functor|left exact]] this reflection is called a [[localization]].
 
-## Properties
-
-A reflective subcategory is always closed under [[limit|limits]], and inherits [[colimit|colimits]] from the larger category by application of the reflector.
+## Characterizations
 
 Given any adjoint pair $Q^*\dashv Q_*$ of functors  $Q^*:A\leftrightarrow B:Q_*$, the following are equivalent (Gabriel--Zisman):
 
@@ -46,6 +44,15 @@ Given any adjoint pair $Q^*\dashv Q_*$ of functors  $Q^*:A\leftrightarrow B:Q_*$
 * The [[monad]] $(Q^* Q_*,Q^*\varepsilon Q_*,\eta)$ associated to the adjunction is [[idempotent monad|idempotent]].
 
 * Let $S$ be the set of morphisms $s$ in $A$ such that $Q^*(s)$ is invertible in $B$; and $P_S:A\to A[S^{-1}]$ canonical [[localization]] functor; then the unique functor $H : A[S^{-1}]\to B$ such that $Q^* = H\circ P_S$ (given by the universal property of localization) is an equivalence of categories.
+
++--{.query}
+Zoran: Gabriel-Zisman neglect the set theoretical issues on the EXISTENCE of localizations. Is the last conditions really equivalent or we need to make some set-theoretical assumptions ?
+=--
+
+
+## Properties
+
+A reflective subcategory is always closed under [[limit|limits]], and inherits [[colimit|colimits]] from the larger category by application of the reflector.
 
 When the unit of the reflector is a [[monomorphism]], a reflective category is often thought of as a full subcategory of *complete* objects in some sense; the reflector takes each object in the ambient category to its completion.  Such reflective subcategories are sometimes called _mono-reflective_.  One similarly has _epi-reflective_ (when the unit is an [[epimorphism]]) and _bi-reflective_ (when the unit is a [[bimorphism]]).
 
