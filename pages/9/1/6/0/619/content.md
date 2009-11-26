@@ -1,4 +1,39 @@
-A [[full subcategory]] is **reflective** if its inclusion functor has a [[adjoint functor|left adjoint]].  The left adjoint is sometimes called the __reflector__.
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition
+
+A [[full subcategory]] $C \subset D$ is **reflective** if its inclusion functor has a [[adjoint functor|left adjoint]]
+
+$$
+  C \stackrel{\stackrel{T}{\leftarrow}}{\hookrightarrow}
+  D
+  \,.
+$$
+
+The left adjoint is sometimes called the __reflector__.
+
+The components of the unit 
+
+$$
+  \array{
+    & \nearrow &\Downarrow^{\eta}& \searrow^{Id}
+    \\
+    D &\stackrel{T}{\to}& C &\hookrightarrow & D
+  }
+$$
+
+of this [[adjunction]] "reflect" each object $d \in D$ into its image $T d$ in the reflective subcategory
+
+$$
+  \eta_d : d \to T  d
+  \,.
+$$
+
+In the case that the functor $T$ is [[exact functor|left exact]] this reflection is called a [[localization]].
+
+## Properties
 
 A reflective subcategory is always closed under [[limit|limits]], and inherits [[colimit|colimits]] from the larger category by application of the reflector.
 
@@ -17,7 +52,7 @@ When the unit of the reflector is a [[monomorphism]], a reflective category is o
 In the last case, note that if the unit is an *iso*morphism, then the inclusion functor is an [[equivalence of categories]], so nontrivial bireflective subcategories can occur only in non-[[balanced categories]].  Also note that 'bireflective' does *not* mean reflective and [[coreflective subcategory|coreflective]].  One sees this term often in discussions of [[concrete categories]] (such as [[topological categories]]) where really something stronger holds: that the reflector lies over the [[identity functor]] on [[Set]].  In this case, one can say that we have a subcategory that is __reflective over $Set$__.
 
 
-## Examples #
+## Examples 
 
 * Complete [[metric space]]s are mono-reflective in metric spaces; the reflector is called _completion_.
 
@@ -33,7 +68,9 @@ Whenever $C$ is a full subcategory of $D$, we can say that objects of $C$ are ob
 This can always be made to work by brute force, but sometimes there is something insightful about it.  For example, a metric space is a complete metric space equipped with a dense subset.  Or, a possibly nonunital ring is a unital ring equipped with a unital homomorphism to the ring of integers.
 
 
-##Generalizations#
+##Generalizations
+
+
 
 * [[reflective (infinity,1)-subcategory]]
 
