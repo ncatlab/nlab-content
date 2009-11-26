@@ -4,11 +4,11 @@
 </div>
 
 
-#Contents#
+# Contents 
 * automatic table of contents goes here
 {:toc}
 
-## Idea ##
+## Idea 
 
 A _combinatorial model catgeory_ is a particularly tractable [[model category]] structure. (Notice however that there is also the, closely related, technical notion of a [[tractable model category]]).
 
@@ -37,7 +37,7 @@ The relevance of combinatorial model categories is given more abstractly by the 
 =--
 
 
-## Definition ##
+## Definition 
 
 +-- {: .un_defn}
 ###### Definition (Jeff Smith)
@@ -68,7 +68,7 @@ Here $fib, cof \subset Mor(C)$ is the collection of fibrations and cofibration, 
 Jeff Smith's theorem, below, gives an equivalent characterization that is usually easier to handle.
 
 
-## Characterization theorems ##
+## Characterization theorems 
 
 There are two powerful theorems that characterize combinatorial model categories in terms of data that is often easier to handle: 
 
@@ -77,7 +77,7 @@ There are two powerful theorems that characterize combinatorial model categories
 * [[Dan Dugger]]'s theorem shows that [[combinatorial simplicial model category|combinatorial simplicial model categories]] are, up to [[Quillen equivalence]], precisely those model categories that have a _presentation_ in that they are [[Bousfield localization of model categories|Bousfield localization]]s of global [[model structure on simplicial presheaves|global model structures on simplicial presheaves]]. This was used by [[Jacob Lurie]] to show that simplicial combinatorial model categories are precisely the models for [[presentable (∞,1)-category|locally presentable (∞,1)-categories]].
 
 
-### Smith's theorem ###
+### Smith's theorem {#SmithTheorem}
 
 A central theorem about combinatorial model categories is **[[Jeff Smith]]'s theorem** which establishes the existence of combinatorial model category structures from a small amount of input data.
 
@@ -241,7 +241,7 @@ To see the converse, that every combinatorial model structure arises this way, i
 
 =--
 
-### Dugger's theorem ###
+### Dugger's theorem {#DuggerTheorem} 
 
 +-- {: .num_theorem }
 ###### Theorem (Dan Dugger)
@@ -279,7 +279,7 @@ Every combintorial model category is [[Quillen equivalence|Quillen equivalent]] 
 
 
 
-### Tractable combinatorial model categories ###
+### Tractable combinatorial model categories 
 
 A combinatorial model category is a [[tractable model category]] precisely if the set $I$ of generating cofibrations can be chosen such that all elements have a cofibrant object as domain.
 
@@ -288,9 +288,9 @@ A [[proper model category|left proper]] combinatorial model category precisely i
 This are corollaries 2.7 and 2..8 in [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf).
 
 
-## Properties ##
+## Properties 
 
-### Homotopy colimits ###
+### Homotopy colimits 
 
 +-- {: .un_proposition }
 ###### Proposition
@@ -381,13 +381,13 @@ Thereby $\lim_\to H \to \lim_\to G$ is in $rlp(I) \subset W$.
 
 =--
 
-### Bousfield localization ###
+### Bousfield localization 
 
 Combinatorial model categories, lile [[cellular model category|cellular model categories]] have a good theory of [[Bousfield localization of model categories|Bousfield localizations]], at least if in addition they are left [[proper model category|proper]]. See [[Bousfield localization of model categories]] for more on this.
 
-## Examples ##
+## Examples 
 
-### Basic examples ###
+### Basic examples 
 
 Basic examples are
 
@@ -398,7 +398,7 @@ Basic examples are
 * the categories of $(n,r)$-[[Theta space]]s.
 
 
-### Derived examples ###
+### Derived examples 
 
 Further classes of examples are obtained from such basic examples by localizing presheaf categories with values in these:
 
@@ -407,7 +407,7 @@ Further classes of examples are obtained from such basic examples by localizing 
 * If $V$ is a left or right [[proper model category]] then so is $Funct(C,V)_{inj}$ and $Funct(C,V)_{proj}$ and hence the standard results of the theory of [[Bousfield localization of model categories]] applies, which ensures that all Bousfield localizations $L_S Funt(C,V)$ are again combinatorial model categories. Such local [[model structure on homotopical presheaves|local model structures on homotopical presheaves]] includes notably the local [[model structure on simplicial presheaves]].
 
 
-### From cofibrantly generated model categories ###
+### From cofibrantly generated model categories 
 
 Not every [[cofibrantly generated model category]] is also a combinatorial model category. 
 
@@ -424,14 +424,14 @@ One might therefore ask which cofibrantly generated model categories are Quillen
 
 Although Vop&#283;nka's principle cannot be proven from [[ZFC]], and in fact is fairly strong as [[large cardinal]] hypotheses go, this means that looking for cofibrantly generated model categories that are not Quillen equivalent to combinatorial ones is probably a waste of time.  Certainly, all known cofibrantly generated model categories *are* Quillen equivalent to simplicial ones, usually in a fairly natural way.
 
-### Simplicial combinatorial model categories ###
+### Simplicial combinatorial model categories 
 
 Those combinatorial model categories that are at the same time [[simplicial model categories]] are precisely those that present [[presentable (∞,1)-categories]].
 See [[combinatorial simplicial model category]].
 
 
 
-## References ##
+## References 
 
 Much of the theory of combinatorial model categories goes back to [[Jeff Smith]]. Apparently Smith will eventually present a book on this subject. To date, however, his ideas and results appear reproduced in articles of other authors.
 
