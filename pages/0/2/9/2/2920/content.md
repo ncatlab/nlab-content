@@ -11,16 +11,65 @@
 
 Bousfield localization is a procedure that to a [[model category]] structure $C$ assigns a new one with more weak equivalences.
 
-A _left Bousfield localization_ $C_{loc}$ of a model category $C$ is another model category structure on the same underlying category with the same cofibrations, but more weak equivalences. Similarly for _right Bousfield localization_ and fibrations.
-
-It follows that the identity functor between a model category and its left (right) Bousfield localization preserves weak equivalences and cofibrations (fibrations) and hence yields a [[Quillen adjunction]]
+A _left Bousfield localization_ $C_{loc}$ of a model category $C$ is another model category structure on the same underlying category with the same cofibrations, 
 
 $$
-  C_{loc} \stackrel{\leftarrow}{\to} C
+  cof_{C_{loc}} = cof_c
+$$
+
+but more weak equivalences
+
+$$
+  W_{C_{loc}} \supset W_C
   \,.
 $$
 
-But a very special one: left (right) Bousfield localization, by increasing the collection of weak equivalences, reduces the collection of fibrant (cofibrant) objects, and hence picks a smaller subcategory of fibrant-and-cofibrant objects. Indeed, 
+
++-- {: .un_lemma }
+###### Observation 
+
+It follows that 
+
+* $C_{loc}$ has as fibrations a subset of fibrations of $C$
+
+  $$
+    fib_{C_{loc}} = rlp(cof_{C_{loc}} \cap W_{C_{loc}})
+    \subset rlp(cof_{C_{loc}} \cap W_C) = fib_{C}
+    \,.
+  $$
+
+* $C_{loc}$ has the same acyclic fibrations as $C$
+
+  $$
+    fib_{C_{loc}} \cap W_{C_{loc}}
+    =
+    rlp(cof_{C_{loc}}) = rlp(cof_C) = fib_C \cap W_C
+    \,.
+  $$
+
+* on the underlying categories
+
+  * the identity functor $Id : C \to C_{loc}$ preserves cofibrations and weak equivalences
+
+  * the identity functor $Id : C_{loc} \to C$ preserves fibrations and acyclic fibrations
+
+  so that this pair of functors is a [[Quillen adjunction]]
+
+  $$
+    C_{loc} \stackrel{\leftarrow}{\to} C
+    \,.
+  $$
+
+=--
+
+And a very special one: the category $C^\circ$ _modeled_ by a model category $C$ is its [[full subcategory]] on fibrant-cofibrant objects. Under left Bousfield localization the fibrant-cofibrant objects of $C_{loc}$ are a subcollection of those of $C$, so that we have the full subcategory
+
+$$
+  (C_{loc})^\circ \subset C^\circ
+  \,.
+$$
+
+Moreover, as we shall see, every object in $C$ is weakly equivalent in $C_{loc}$ to one in $C_{loc}$: it _reflects into $C_{loc}$_ .
 
 +-- {: .standout}
 
@@ -42,7 +91,7 @@ Such a localization is determined by the collection $S$ of _[[local object|local
 
 ## Definition {#Definition}
 
->There is some flexibility in what exactly one takes to be an ingredient of the _definition_ of Bousfield localization, and what as a consequence of a given definition. We choose a definition that allows to naturally deduce some of the main properties and that seamlessly leads over to the existence theorem for Bousfield localization of combinatorial model categories further below.
+More in detail, the weak equivalences that are added under Bousfield localization are "$S$-local weak equivalences" for some set $S \subset Mor(C)$. We will see below why this is necessarily the case. For the moment, we take the following to be a refined definition of left Bousfield localization.
 
 Let 
 
