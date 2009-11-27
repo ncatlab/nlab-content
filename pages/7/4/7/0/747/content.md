@@ -292,7 +292,7 @@ $$
   \,.
 $$
 
-Since [[CartSp]] has [[terminal object]] also the [[comma category]] $(X/f)$ has a [[terminal object]] and is hence a [[filtered category]]. Therefore this is a [[filtered category|filtered colimit]] and therefore commutes with finite [[limit]]s. Since [[limit]]s of [[sheaf|sheaves]] are computed objectwise (see [[limits and colimits by example]]) it follows that $f^*$ preserves finite [[limit]]s.
+Since [[CartSp]] has [[terminal object]] also the [[comma category]] $(X/f)$ has a [[terminal object]] and is hence a [[filtered category]]. Therefore this is a [[filtered colimit]] and therefore commutes with finite [[limit]]s. Since [[limit]]s of [[sheaf|sheaves]] are computed objectwise (see [[limits and colimits by example]]) it follows that $f^*$ preserves finite [[limit]]s.
 
 So $f$ does induce a morphism of [[site]]s and thus satisfies the assumptions of the above theorem, which tells us that
 
