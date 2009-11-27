@@ -2,7 +2,11 @@
 [[!include cohomology - contents]]
 </div>
 
-#Idea#
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 As described at [[cohomology]], a notion of [[cohomology]] exists for every [[(infinity,1)-topos]] $\mathbf{H}$: for $X$ and $A$ two objects of $\mathbf{H}$, 
 
@@ -76,7 +80,7 @@ The various notions of **group cohomology** are special cases of this:
 
   This is an example of general [[twisted cohomology]].
 
-#Examples#
+## Examples
 
 We spell out in detail how the above reproduces the ordinary definition of group cohomology.
 
@@ -183,12 +187,12 @@ of strict $\infty$-groupoids into all $\infty$-groupoids modeled as [[Kan comple
 
 The upshot of all this is just that the following illustrative pictures may be interpreted either in $Strct \infty Grpod$ or in $SSet$:
 
-## degree 1 group cohomology ##
+### degree 1 group cohomology 
 
 A degree one group cocycl $c$, $[c] \in H^1_{Grp}(G,K)$
 is just a [[functor]] $c : \mathbf{B}G \to \mathbf{B}K$. This is a group homomorphism $G \to K$.
 
-## degree 2 group cohomology ##
+### degree 2 group cohomology 
 
 A degree-2 group cocycl $c$, $[c] \in H^2_{Grp}(G,K)$
 is on 2-cells a map
@@ -301,11 +305,11 @@ $$
 This expresses the commutativity of the above tetrahedra. And it is indeed the ordinary formula for a cocycle in degree-2 [[group cohomology]].
 
 
-## degree 3 group cohomology ##
+### degree 3 group cohomology 
 
 similarly...
 
-# References #
+## References 
 
 Aspects of this general point of view on group cohomology is described for instance in chaper 12 of
 
@@ -324,7 +328,7 @@ For a conceptual discussion of nonabelian group cohomology see
 * [[John Baez]], [[Mike Shulman]], _[[Lectures on n-Categories and Cohomology]]_ ([arXiv](http://arxiv.org/abs/math/0608420))
 
 
-## structured group cohomology ##
+### structured group cohomology ###
 
 Group cohomology depends delicately on the [[internalization]] context. A survey of central results in topological and smooth group cohomology is
 
