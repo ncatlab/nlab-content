@@ -10,7 +10,7 @@ $$P^2=D^2+H^2$$
 
 This means that the edges of a pentagon, decagon and hexagon of identical radii can fit together to form a right triangle.
 
-Euclid states this identity as [Proposition 10](http://aleph0.clarku.edu/~djoyce/java/elements/bookXIII/propXIII10.html) of Book XIII of the _Elements_.  This is the last book of the _Elements_, the one which deals with properties of the Platonic solids.  He uses Proposition 10 as part of his construction of the regular icosahedron in [Proposition 13](http://aleph0.clarku.edu/~djoyce/java/elements/bookXIII/propXIII13.html).  
+Euclid states this beautiful but mysterious identity as [Proposition 10](http://aleph0.clarku.edu/~djoyce/java/elements/bookXIII/propXIII10.html) of Book XIII of the _Elements_.  This is the last book of the _Elements_, the one which deals with properties of the Platonic solids.  He uses Proposition 10 as part of his construction of the regular icosahedron in [Proposition 13](http://aleph0.clarku.edu/~djoyce/java/elements/bookXIII/propXIII13.html).  
 
 This has led various historians to suggest that the pentagon-decagon-hexagon identity was first discovered in the course of research on the icosahedron.  However, it seems that until now there has been no _proof_ of the pentagon-decagon-hexagon identity based on properties of the icosahedron.  We present such a proof here.
 
@@ -144,7 +144,7 @@ Here the first step comes directly from the defining equation for $\Phi$, and th
 
 * [n-Caf&#233; discussion of TWF 283](http://golem.ph.utexas.edu/category/2009/11/this_weeks_finds_in_mathematic_44.html)
 
-* John Baez, [Some thoughts on the Number 6](http://math.ucr.edu/home/baez/six.html)
+* John Baez, [Some Thoughts on the Number 6](http://math.ucr.edu/home/baez/six.html)
 
 * Ian Mueller, _Philosophy of Mathematics and Deductive Structure in Euclid's Elements_, MIT Press, Cambridge Massachusetts, 1981, pp. 257--258 and references therein.
 
