@@ -36,7 +36,7 @@ An example of a Kapranov--Voevodsky $2$-vector space is $Rep(G)$, the category o
 
 These were explicitly described in:
 
-* John C. Baez and Alissa S. Crans, _Higher-Dimensional Algebra VI: Lie 2-Algebras_ ([tac](http://www.tac.mta.ca/tac/volumes/12/15/12-15abs.html)).
+* John C. Baez and Alissa S. Crans, _Higher-Dimensional Algebra VI: Lie 2-Algebras_ ([pdf](http://math.ucr.edu/home/baez/hda6.pdf)).
 
 A **Baez--Crans $2$-vector space** is defined as a [[internal category|category internal]] to [[Vect]]. They categorify the idea of a vector as a 'direction in space', and crop up when considering the _infinitesimal directions_ of a structure, such as in higher [[Lie theory]]. In fact, (following for instance from an extension of the [[Dold-Kan correspondence|Dold-Kan theorem]] by Brown and Higgins), [[strict omega-category|strict omega-categories]] internal to $\Vect$ are equivalent to chain complexes in non-negative degree and can be regarded as strict $Disc(k)$-$\infty$-modules. This allows to conceive much of [[homological algebra]] and many of the structures appearing in higher [[Lie theory]] -- for instance the definition of $L_\infty$-[[L-infinity-algebra|algebras]], as being about $\infty$-vector spaces. Regarding a chain complex as an $\infty$-vector space is useful conceptually for understanding the meaning of some constructions on chain complexes, while of course chain complexes themselves are well suited for direct computation with the $\infty$-vector spaces which they are equivalent to. (See also the remark about different notions of 2-vector spaces further below.)
 
@@ -141,7 +141,7 @@ For instance $Disc(k)$-module categories are crucial for higher [[Lie theory]] b
 
 * John Baez, _Higher-Dimensional Algebra II: 2-Hilbert Spaces_ ([arXiv](http://arxiv.org/abs/q-alg/9609018)) .
 
-In applications one often assumes these 2-Hilbert spaces to be [[semisimple algebra|semisimple]] in which case such a 2-Hilbert space is essentially a Kapranov--Voevodsky $2$-vector space.
+In applications one often assumes these 2-Hilbert spaces to be [[semisimple algebra|semisimple]] in which case such a 2-Hilbert space is a Kapranov--Voevodsky $2$-vector space equipped with extra structure.
 
 A review of these ideas of 2-Hilbert spaces as well as applications of 2-Hilbert spaces to finite group representation theory are in
 
