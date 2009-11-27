@@ -1,1 +1,10 @@
-A [[ring]] $R$ is **simple** if it has no nontrivial two-sided [[ideal]]s. In other words, it is a [[simple object]] in the category of $R$-$R$-bimodules.   
+A [[ring]] $R$ is **simple** if it is it is a [[simple object]] in the category of $R$-$R$-[[bimodules]].
+
+This can be stated in more elementary terms in any of the following equivalent ways:
+
+*  $R$ is nontrivial and has no nontrivial two-sided [[ideal]]s.
+*  $R$ has exactly two two-sided ideals (which must be $R$ itself and its [[zero ideal]]).
+
+In [[constructive mathematics|constructive]] algebra, this is too strong; we must say:
+
+*  For each two-sided ideal $I$, $I$ is the zero ideal if and only if $I$ is proper (not equal to $R$).
