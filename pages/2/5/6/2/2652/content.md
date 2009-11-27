@@ -73,7 +73,7 @@ These completions add a property-like structure, are often lax-idempotent or col
 
 * [[free cocompletion]]: the [[presheaf category]] of a [[small category]] is its free cocompletion under all small colimits.
 * [[free completion]]: the dual (the opposite of the free cocompletion of the opposite).
-* Ind-completion: the "free cocompletion under filtered colimits," consisting of all [[ind-object|ind-objects]].
+* Ind-completion: the "free cocompletion under [[filtered colimits]]," consisting of all [[ind-object|ind-objects]].
 * Pro-completion: the dual (free completion under cofiltered limits, the opposite of the Ind-completion of the opposite), consisting of all [[pro-objects]].
 * [[ideal completion]]: the free cocompletion under filtered colimits of monomorphisms.
 
