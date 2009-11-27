@@ -71,7 +71,7 @@ One important consequence of this construction is that when $W$ admits a calculu
 Another important fact is that if
 
 * $W$ admits a calculus of right fractions,
-* $C$ admits all small [[filtered category|filtered]] [[colimit]]s, and
+* $C$ admits all small [[filtered colimits]], and
 * for all $X \in C$ the category $W/X$, whose objects are morphisms $X'\to X$ in $W$ and whose morphisms are commutative triangles, is [[cofinally small category|cofinally small]],
 
 then $C[W^{-1}]$ is [[locally small category|locally small]].  In this case a left [[derived functor]] of any functor $F:C\to A$, where $A$ admits small filtered colimits, can be constructed as the colimit
