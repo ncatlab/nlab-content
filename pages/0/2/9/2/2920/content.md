@@ -11,6 +11,10 @@
 
 Bousfield localization is a procedure that to a [[model category]] structure $C$ assigns a new one with more weak equivalences.
 
++-- {: .un_def }
+###### first definition 
+
+
 A _left Bousfield localization_ $C_{loc}$ of a model category $C$ is another model category structure on the same underlying category with the same cofibrations, 
 
 $$
@@ -24,11 +28,14 @@ $$
   \,.
 $$
 
+=--
+
+While that's a very simple definition, it turns out that something interesting happens to the fibrations when we keep the cofibrations fixed and increase the weak equivalences.
 
 +-- {: .un_lemma }
 ###### Observation 
 
-It follows that 
+It follows directly that 
 
 * $C_{loc}$ has as fibrations a subset of fibrations of $C$
 
@@ -91,7 +98,7 @@ Such a localization is determined by the collection $S$ of _[[local object|local
 
 ## Localization at $S$-local weak equivalences {#Definition}
 
-More in detail, the weak equivalences that are added under Bousfield localization are "$S$-local weak equivalences" for some set $S \subset Mor(C)$. We will see below why this is necessarily the case if $C$ is a [[cofibrantly generated model category]]. For the moment, we take the following to be a refined definition of left Bousfield localization.
+More in detail, the weak equivalences that are added under Bousfield localization are "$S$-local weak equivalences" for some set $S \subset Mor(C)$. We will see [below](#LocHasToBeSLoc) why this is necessarily the case if $C$ is a [[cofibrantly generated model category]]. For the moment, we take the following to be a refined definition of left Bousfield localization.
 
 Let 
 
@@ -124,7 +131,8 @@ So we can "test isomorphism by homming them into objects".
 This phenomenon we use now the other way round, to characterize new weak equivalences:
 
 +-- {: .un_def }
-###### Definition ($S$-local objects and $S$-local weak equivalences)
+###### Definition 
+**($S$-local objects and $S$-local weak equivalences)**
 
 Say that
 
@@ -139,28 +147,71 @@ Say that
 * conversely, say that a cofibration $f : A \hookrightarrow B$ is an $S$-local weak equivalence if for all $S$-local fibrant objects $X$ the morphism $C(f,X) : C(B,X) \to 
 C(A,X)$ is a trivial [[Kan fibration]].
 
-If we have a fibant replacement functors $P : C \to C$ we can say more generally
+=--
+
+This is a slightly simplified version of a more general definition using [[derived hom space]]s, where we do not have to assume that the domains and codomains of elements are $S$ and not that the local objects are fibrant.
+
+
++-- {: .un_def }
+###### Definition 
+**($S$-local objects and $S$-local weak equivalences)**
+
+Assume that we have fibrant and cofibrant replacement functors $P,Q : C \to C$. Then say
 
 * an object $X$ is an $S$-[[local object]] if for all $s : A \hookrightarrow B$ in $S$ the morphism
 
   $$
-    C(s,P X) : C(B,P X) \to C(A,P X)
+    C(Q s,P X) : C(Q B,P X) \to C(Q A,P X)
   $$
 
   is a [[model structure on simplicial sets|weak equivalence of simplicial sets]];
 
-* conversely, say that a cofibration $f : A \hookrightarrow B$ is an $S$-local weak equivalence if for all $S$-local objects $X$ the morphism $C(f,P X) : C(B,P X) \to 
-C(A,P X)$ is a weak equivalence.
+* conversely, say that a cofibration $f : A \hookrightarrow B$ is an $S$-local weak equivalence if for all $S$-local objects $X$ the morphism $C(Q f,P X) : C(Q B,P X) \to 
+C(Q A,P X)$ is a weak equivalence.
 
-That this second condition, when it applies, is indeed compatible with the first one is hsown [here](http://ncatlab.org/nlab/show/local+object#PropInModCat).
+That this second condition is indeed compatible with the first one is hsown [here](http://ncatlab.org/nlab/show/local+object#PropInModCat).
 
 =--
+
+We write $W_S$ for the collection of $S$-local weak equivalences.
+
++-- {: .un_remark }
+###### Remark 
+
+For every weak equivalence $f : A \stackrel{\simeq}{\to} B$ between cofibrant objects and every fibrant object $X$ it follows generally from the fact that $C$ is an [[SSet]]-[[enriched category]] that 
+
+$$
+  C(f,X) : C(B,X) \to C(A,X)
+$$
+
+is a weak equivalence of simplicial sets. 
+This is described in detail at 
+[enriched homs from cofibrants to fibrants](http://ncatlab.org/nlab/show/(infinity%2C1)-categorical+hom-space#EnrichedHomsCofToFib).
+
+=--
+
+Here this implies in particular
+
++-- {: .un_lemma }
+###### Observation 
+
+
+Every ordinary weak equivalence is also $S$-local weak equivalence.
+
+$$
+  W \subset W_S
+  \,.
+$$
+
+=--
+
+Therefore for any set $S$, we can consider the left Bousfield localization at the $S$-local weak equivalences $W_S$:
 
 +-- {: .un_def }
 ###### Definition 
 **(left Bousfield localization)**
 
-The left Bousfield localization $L_S C$ of $C$ at $S$ is, if it exists, the new model category structure on $C$ with
+The left Bousfield localization $L_S C$ of $C$ **at $S$** is, if it exists, the new model category structure on $C$ with
 
 * cofibrations are the same as before, $cof_{L_S C } = cof_C$;
 
@@ -356,7 +407,9 @@ isomorphism in $Ho_S(C)$. Since that is a [[full subcategory]], it follows that 
 
 =--
 
-#### Every Bousfield localization is of this form
+
+
+#### Every Bousfield localization is of this form {#LocHasToBeSLoc}
 
 We have considered two definitions of left Bousfield localization: in the first we just requires that cofibrantions are kept and weak equivalences increased. In the second we more specifically took the weak equivalences to be $S$-local weak equivalences.
 
