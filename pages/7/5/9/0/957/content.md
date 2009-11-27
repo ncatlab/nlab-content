@@ -1,9 +1,18 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
 A **direction** on a set $S$ is a [[preorder]] on $S$ in which any (finite) set of elements has a common upper bound.  A **directed set** is a set equipped with a direction.
 
 Directedness is an asymmetric condition.  Sometimes a direction as defined here is called **upward-directed**; a preorder whose [[opposite category|opposite]] is upward-directed is called **downward-directed**.  Another term for downward-directed is **codirected**.
 
 
-# Definitions
+## Definitions
+
+### Finitely directed set 
 
 To be explicit, a **finitely upward-directed set** (which is the default notion) is equipped with a [[preorder]] $\leq$ such that:
 * there exists an element (so the set is [[inhabited set|inhabited]]); and
@@ -11,10 +20,12 @@ To be explicit, a **finitely upward-directed set** (which is the default notion)
 
 It follows that, given any finite set $x_1, \dots, x_n$ of elements, there exists an element $z$ such that $x_i \leq z$ for all $i$. (For [[constructive mathematics|constructive]] purposes, one should interpret 'finite set' above as a [[finite set|finitely indexed set]], as shown.)
 
+### $\kappa$-directed set
+
 More generally, if $\kappa$ is a [[cardinal number]], then a **$\kappa$-directed set** is equipped with a preorder $\leq$ such that, given any index set $A$ with $|A| \lt \kappa$ and function $i \mapsto x_i$ from $A$, there exists an element $z$ such that $x_i \leq z$ for all $i$. Then a finitely directed set is the same as an $\aleph_0$-directed set.  An **infinitely directed set** allows any index set $A$ whatsoever, but this reduces to the statement that the proset has a [[top]] element.
 
 
-# Remarks
+## Remarks
 
 Directions on the real line are quite interesting; there\'s a textbook that does ordinary calculus rigorously from scratch using directions (probably _LIMITS: A New Approach to Real Analysis_), and there\'s a paper generalising interval arithmetic to arithmetic on directions.
 
