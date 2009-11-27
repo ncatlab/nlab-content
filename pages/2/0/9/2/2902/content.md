@@ -149,7 +149,8 @@ Here the first step comes directly from the defining equation for $\Phi$, and th
 * Ian Mueller, _Philosophy of Mathematics and Deductive Structure in Euclid's Elements_, MIT Press, Cambridge Massachusetts, 1981, pp. 257--258 and references therein.
 
 * Eva Sachs, _Die F&#252;nf Platonischen K&#246;rper, zur Geschichte der Mathematik und der Elementenlehre Platons und der Pythagoreer_, Berlin, Weidmann, 1917, pp. 102--104. 
-See page 102-103 [here](http://math.ucr.edu/home/baez/icosahedron_sachs_1.jpg) and page 104 [here](http://math.ucr.edu/home/baez/icosahedron_sachs_2.jpg).
+See page 102--103 [here](http://math.ucr.edu/home/baez/icosahedron_sachs_1.jpg) and page 104 [here](http://math.ucr.edu/home/baez/icosahedron_sachs_2.jpg).
+
 
 [[!redirects pentagon-decagon-hexagon identity]]
 [[!redirects pentagon–decagon–hexagon identity]]
