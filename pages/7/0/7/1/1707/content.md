@@ -36,7 +36,7 @@ The various notions of **group cohomology** are special cases of this:
     H_{Grp}^n(G,K) := H(\mathbf{B}G, \mathbf{B}^n K)
     = Ho_{\infty Grpd}(\mathbf{B}G , \mathbf{B}^n K)
   $$
-  for the **degree $n$-group cohomology of $G$ with values in $K$.
+  for the **degree-$n$ group cohomology of $G$ with values in $K$.
 
 * **Nonabelian group cohomology** is obtained from this by allowing the coefficient object to be of the form 
 
@@ -187,14 +187,14 @@ of strict $\infty$-groupoids into all $\infty$-groupoids modeled as [[Kan comple
 
 The upshot of all this is just that the following illustrative pictures may be interpreted either in $Strct \infty Grpod$ or in $SSet$:
 
-### degree 1 group cohomology 
+### degree-$1$ group cohomology 
 
-A degree one group cocycl $c$, $[c] \in H^1_{Grp}(G,K)$
+A degree-one group cocycle $c$, $[c] \in H^1_{Grp}(G,K)$
 is just a [[functor]] $c : \mathbf{B}G \to \mathbf{B}K$. This is a group homomorphism $G \to K$.
 
-### degree 2 group cohomology 
+### degree-$2$ group cohomology 
 
-A degree-2 group cocycl $c$, $[c] \in H^2_{Grp}(G,K)$
+A degree-2 group cocycle $c$, $[c] \in H^2_{Grp}(G,K)$
 is on 2-cells a map
 
 
@@ -305,7 +305,7 @@ $$
 This expresses the commutativity of the above tetrahedra. And it is indeed the ordinary formula for a cocycle in degree-2 [[group cohomology]].
 
 
-### degree 3 group cohomology 
+### degree-$3$ group cohomology 
 
 similarly...
 
@@ -315,7 +315,7 @@ Aspects of this general point of view on group cohomology is described for insta
 
 * R. Brown, P. Higgins, R. Sivera, _Nonabelian algebraic topology_ ([pdf](http://www.bangor.ac.uk/%7Emas010/pdffiles/rbrsbookb-e040609.pdf), [web](http://www.bangor.ac.uk/~mas010/nonab-a-t.html))
 
-Much of what is called "nonabelian cohomology" in the existing literature concerns the case of nonabelian group cohomology with coefficients in the [[automorphism 2group]] $AUT(H)$ of some possibly nonabelian group $H$.
+Much of what is called "nonabelian cohomology" in the existing literature concerns the case of nonabelian group cohomology with coefficients in the [[automorphism 2-group]] $AUT(H)$ of some possibly nonabelian group $H$.
 
 This is the topic of [[Schreier theory]].
 
