@@ -1,6 +1,6 @@
 # Idea #
 
-An **ind-object** of a category $C$ is a "formal [[filtered category|filtered]] colimit" of objects of $C$.  The category of ind-objects of $C$ is written $ind$-$C$.
+An **ind-object** of a category $C$ is a "formal [[filtered colimit]]" of objects of $C$.  The category of ind-objects of $C$ is written $ind$-$C$.
 
 Here, "ind" is short for "inductive system", as in the inductive systems used to define [[directed colimit]]s, as contrasted with "pro" in the [[pro-object|dual notion]] for "projective system".
 
@@ -14,7 +14,7 @@ Would it make sense to take this opportunity on nLab to give this a new modern n
 _Toby_:  Not to disparage 'ind-object', but I think that the term that Eric\'s looking for is 'formal filtered colimit'.
 =--
 
-Recalling the nature of [[filtered category|filtered]] colimits, this means that in particular chains of inclusions 
+Recalling the nature of [[filtered colimits]], this means that in particular chains of inclusions 
 
 $$
   c_1 \hookrightarrow c_2 \hookrightarrow c_3 \hookrightarrow c_4 \hookrightarrow \cdots
@@ -83,7 +83,7 @@ $$
 +-- {: .un_defn}
 ###### Definition
 
-Let $ind\text{-}C \subset PSh(C)$ be the [[full subcategory]] of the [[presheaf]] [[category]] $PSh(C) = [C^{op},Set]$ on those [[functor]]s which are [[filtered category|filtered]] colimits of [[representable functor|representables]], i.e. those for which 
+Let $ind\text{-}C \subset PSh(C)$ be the [[full subcategory]] of the [[presheaf]] [[category]] $PSh(C) = [C^{op},Set]$ on those [[functor]]s which are [[filtered colimits]] of [[representable functor|representables]], i.e. those for which 
 $$
   X \simeq colim_{d \in D} Y(\alpha(d))
 $$
@@ -147,9 +147,9 @@ $$
 
 * The inclusion $C \hookrightarrow ind\text{-}C$ is [[exact functor|right exact]].
 
-* a functor $F : C^{op} \to Set$ is in $ind\text{-}C$ (i.e. is a [[filtered category|filtered]] colimit of [[representable functor|representables]]) precisely if the [[comma category]] $(Y,const_F)$ (with $Y$ the [[Yoneda embedding]]) is [[filtered category|filtered]] and [[cofinally small category|cofinally small]].
+* a functor $F : C^{op} \to Set$ is in $ind\text{-}C$ (i.e. is a [[filtered colimit]] of [[representable functor|representables]]) precisely if the [[comma category]] $(Y,const_F)$ (with $Y$ the [[Yoneda embedding]]) is [[filtered category|filtered]] and [[cofinally small category|cofinally small]].
 
-* $ind\text{-}C$ admits small [[filtered category|filtered]] [[colimit]]s and the inclusion $ind\text{-}C\hookrightarrow PSh(C)$ commutes with these colimits.
+* $ind\text{-}C$ admits small [[filtered colimits]] and the inclusion $ind\text{-}C\hookrightarrow PSh(C)$ commutes with these colimits.
 
 * If $C$ admits finite [[colimit]]s, then $ind\text{-}C$ is the [[full subcategory]] of the [[presheaf]] category $PSh(C)$ consisting of those functors $F : C^{op} \to Set$ such that $F$ is [[exact functor|left exact]] and the [[comma category]] $(Y,F)$ (with $Y$ the [[Yoneda embedding]]) is [[cofinally small category|cofinally small]].
 
