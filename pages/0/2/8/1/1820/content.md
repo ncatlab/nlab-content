@@ -297,9 +297,9 @@ This are corollaries 2.7 and 2..8 in [Bar](http://www.math.harvard.edu/~clarkbar
 
 In a combinatorial model category, for every sufficiently large regular [[cardinal number|cardinal]] $\kappa$ the following holds:
 
-* $\kappa$-[[filtered category|filtered]] [[colimit]]s preserve weak equivalences;
+* $\kappa$-[[filtered colimits]] preserve weak equivalences;
 
-* hence $\kappa$-[[filtered category|filtered]] [[colimit]]s are already [[homotopy colimit]]s.
+* hence $\kappa$-[[filtered colimits]] are already [[homotopy colimit]]s.
 
 
 =--
