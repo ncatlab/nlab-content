@@ -89,9 +89,9 @@ hence of a [[localization of an (∞,1)-category]].
 Such a localization is determined by the collection $S$ of _[[local object|local weak equivalences]]_ in $C$, and alternatively by the collection of $S$-[[local object]]s in $C$. Indeed, ${C_{loc}}^\circ$ is the full $(\infty,1)$-subcategory on the cofibrant and fibrant and $S$-local objects of $C$.
 
 
-## Definition {#Definition}
+## Localization at $S$-local weak equivalences {#Definition}
 
-More in detail, the weak equivalences that are added under Bousfield localization are "$S$-local weak equivalences" for some set $S \subset Mor(C)$. We will see below why this is necessarily the case. For the moment, we take the following to be a refined definition of left Bousfield localization.
+More in detail, the weak equivalences that are added under Bousfield localization are "$S$-local weak equivalences" for some set $S \subset Mor(C)$. We will see below why this is necessarily the case if $C$ is a [[cofibrantly generated model category]]. For the moment, we take the following to be a refined definition of left Bousfield localization.
 
 Let 
 
@@ -105,15 +105,23 @@ Let
 
 * $S \subset cof_C \subset Mor(C)$ be a subclass of cofibrations with cofibrant domain.
 
-We want to characterize objects in $C$ that "see elements of $S$ as weak equivalences". Notice that in an ordinary catgegory $C$, by the [[Yoneda lemma]] a morphism $f : A \to B$ is an [[isomorphism]] precisely if for all objects $X$ the morphism
+We want to characterize objects in $C$ that "see elements of $S$ as weak equivalences". Notice that 
+
++-- {: .un_lemma }
+###### Observation 
+
+In an ordinary catgegory $C$, by the [[Yoneda lemma]] a morphism $f : A \to B$ is an [[isomorphism]] precisely if for all objects $X$ the morphism
 
 $$
   Hom_C(f,X) : Hom_C(B,X) \to Hom_C(A,X)
 $$
 
-is an [[isomorphism]] (of sets, i.e. a [[bijection]]). So we can "test isomorphism by homming them into objects".
+is an [[isomorphism]] (of sets, i.e. a [[bijection]]). 
 
-This phenomenon we use now the other way round:
+=--
+
+So we can "test isomorphism by homming them into objects".
+This phenomenon we use now the other way round, to characterize new weak equivalences:
 
 +-- {: .un_def }
 ###### Definition ($S$-local objects and $S$-local weak equivalences)
@@ -149,9 +157,10 @@ That this second condition, when it applies, is indeed compatible with the first
 =--
 
 +-- {: .un_def }
-###### Definition (left Bousfield localization)
+###### Definition 
+**(left Bousfield localization)**
 
-The left Bousfield localization $L_S C$ of $C$ at $S$ is, if it exsists, the new model category structure on $C$ with
+The left Bousfield localization $L_S C$ of $C$ at $S$ is, if it exists, the new model category structure on $C$ with
 
 * cofibrations are the same as before, $cof_{L_S C } = cof_C$;
 
@@ -159,11 +168,11 @@ The left Bousfield localization $L_S C$ of $C$ at $S$ is, if it exsists, the new
 
 =--
 
-## Properties {#Properties}
+### Properties {#Properties}
 
 Assume that the left Bousfield localization $L_S C$ of a given model category at a class $S$ of cofibrations with cofibrant domain exists. Then it has the following properties.
 
-### Fibrants in $L_S C$ are the $S$-local fibrants in $C$ 
+#### Fibrants in $L_S C$ are the $S$-local fibrants in $C$ 
 
 +-- {: .un_prop }
 ###### Proposition
@@ -304,7 +313,7 @@ Conversely, if it is $S$-local and fibrant in $C$; then, as mentioned before, fo
 =--
 
 
-### Fibrant replacement in $L_S W$ -- localization of objects 
+#### Fibrant replacement in $L_S W$ -- localization of objects 
 
 If $S$ is a small set, we may apply the [[small object argument]] to $S$. If we apply it to factor all morphisms $X \to {*}$ to the [[terminal object]] we obtain a functorial factorization componentwise of the form
 
@@ -325,7 +334,7 @@ $$
 in $L_S C$ relating an object to its fibrant approximation.
 
 
-### $S$-local equivalences between $S$-local objects are weak equivalences
+#### $S$-local weak equivalences between $S$-local objects are weak equivalences
 
 
 +-- {: .un_prop }
@@ -345,11 +354,73 @@ in there that $Hom_{Ho_S(C)}(f,X)$ is an [[isomorphism]].
 By the [[Yoneda lemma]] this implies that $f$ is an 
 isomorphism in $Ho_S(C)$. Since that is a [[full subcategory]], it follows that $f$ is also an isomorphism in $Ho(C)$. But that means precisely that it is a weak equivalence in $C$.
 
+=--
+
+#### Every Bousfield localization is of this form
+
+We have considered two definitions of left Bousfield localization: in the first we just requires that cofibrantions are kept and weak equivalences increased. In the second we more specifically took the weak equivalences to be $S$-local weak equivalences.
+
+We now show that every localiztion in the first sense is indeed of the second kind, if we demand that both the original and the localized category are left proper, cofibrantly generated simplicial model categories.
+
++-- {: .un_prop }
+###### Proposition
+
+In the context of left proper, cofibrantly generated simplicial model categories, 
+
+for $C_{loc}$ a left Bousfield localization of $C$ (i.e. a structure with the same cofibrations as and more weak equivalences) there is a set $S \subset Mor(C)$ such that
+
+$$
+  C_{loc} = L_S C
+  \,.
+$$ 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We show that choosing $S = J_{C_{loc}}$ to be the set of generating acyclic cofibrations does the trick.
+
+First, the cofibrations of $C_{loc}$ and $L_S C$ coincide.
+Moreover, the acyclic cofibrations of $L_S C$ contain all the acyclic cofibrations of $C_{loc}$ because
+
+$$
+  cof_{L_S C} \cap W_{L_S C} = llp(rlp(J_{L_S C}))
+  \subset llp(rlp(S)) = llp(rlp(J_{C_{loc}}))
+  \,.
+$$
+
+It remains to show that, conversely, every acyclic cofibration $f : X \to Y$ in $L_S C$ is an acyclic cofibration in $C_{loc}$.
+
+Choose a cofibrant replacement for $X$ and $Y$
+
+$$
+  \array{
+    X' &\stackrel{\in cof_C}{\to}& Y'
+    \\
+    \downarrow^{\mathrlap{\in W_C}} 
+     && \downarrow^{\mathrlap{\in W_C}}
+    \\
+    X &\stackrel{f}{\to}& Y
+  }
+$$
+
+Then by 2-out-of-3 and since $W_{L_S C} \supset W_C$ the morphism $f' : X' \to Y'$ is still an acyclic cofibration on $L_S C$. Again by 2-out-of-3 and since $W_{C_{loc}} \supset W_C$, it is sufficient to show that $f'$ is an acyclic cofibration in $C_{loc}$.
+
+To show that it is an acyclic cofibration in $C_{loc}$ it suffices to show that for every fibrant object $Z \in C_{loc}$ the morphism
+
+$$
+  C(Y',Z) \to C(X',Z)
+$$
+
+is a trivial fibration. Either by assumption or by the [characterization of S-local cofibrations](http://ncatlab.org/nlab/show/local+object#PropInModCat) this is the case if $Z$ is $S$-local and fibrant in $C$. The first statement is one of the direct consequences of the definition of $C_{loc}$ and the second follows because $S = J_{C_{loc}}$. 
+
 
 =--
 
 
-### Further properties
+
+#### Further properties
 
 +-- {: .un_prop }
 ###### Proposition (Bousfield localization is indeed a localization)
