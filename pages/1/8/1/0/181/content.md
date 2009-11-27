@@ -55,7 +55,7 @@ These are explored briefly in the lexicon style entry [[differential graded coal
 
 These, in most cases, form a complete cocomplete Cartesian Closed Category, $Coalg$ over which the category, $Alg$, of commutative associative algebras is enriched, tensored and cotensored. The exegesis is much the same whether we consider coalgebras over a field $k$, or graded $k$-coalgebras, or differential graded coalgebras, etc. In each case we need a notion of finiteness: finite $k$-dimension of the underlying $k$-vector space, finite dimension in each grade, etc. We denote by $Alg_f$ the category of (commutative associative) algebras that are finite. 
 
-The basic fact is that a coalgebra is the filtered colimit of its finite dimensional subcoalgebras. It follows from this that we can identify $Coalg$ with the category of finite-limit-preserving $Set$-valued functors on $Alg_f$.
+The basic fact is that a coalgebra is the [[filtered colimit]] of its finite dimensional subcoalgebras. It follows from this that we can identify $Coalg$ with the category of finite-limit-preserving $Set$-valued functors on $Alg_f$.
 This is because every such functor is a filtered colimit of representable functors, and for any finite algebra $A$ its $k$-vector-space dual $A^*$ is a finite coalgebra.
 
 The product of coalgebras $C$ and $D$ is given by $C\otimes_k D$. The exponential $C\Rightarrow D$ is given by the functor taking $A\in Alg_f$ to $Hom_{Coalg}(A^*\otimes_k C,D)$. Note that $C\Rightarrow C$ has the structure of a cocommutative coassociative Hopf algebra.
