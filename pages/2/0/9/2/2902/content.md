@@ -35,7 +35,7 @@ $B F$ is our radius (or equivalently, the length of one side of a hexagon inscri
 
 #Another 2d proof#
 
-Euclid's proof is quick but somewhat mysterious.  Here is another perhaps simpler proof that uses only 2-dimensional constructions. It relies on a lemma concerning the ratio of sides in a "golden triangle".  
+Euclid's proof is quick but somewhat mysterious.  Here is another, perhaps simpler, proof that uses only 2-dimensional constructions. It relies on a lemma concerning the ratio of sides in a "golden triangle".  
 
 ##Golden triangle lemma##
 
@@ -70,6 +70,8 @@ square where the two red rectangles overlap, and that has area $4b^2$.
 
 Now if we subtract a single $t^2$, the light blue rectangle, then we're left with a square of side length $r$,
 thanks to the fact that $\Phi=1+1/\Phi$.  So $(2s)^2-t^2=r^2$, which is the pentagon-decagon-hexagon identity.
+
+###Alternative construction displaying right triangles###
 
 While the construction above is straightforward, it's also possible to present an equivalent result that explicitly gives us right triangles with the pentagon edge as their hypotenuse and the hexagon and decagon edges as their other sides.
 
@@ -109,34 +111,35 @@ Now, it's clear that by making the rectangles long and skinny, we can make the i
 
 If we make the three rectangles into squares, as above, the isosceles triangles have two 45&#176; angles.  So between this extreme, and the long-and-skinny extreme, it's clear that we can choose _some_ intermediate degree of skinniness for the rectangles that will turn the 12 isosceles triangles into equilateral triangles.
 
-(This argument implicity uses the [[intermediate value theorem]] and would not have been used by Euclid, although Archimedes might have attempted it.  An alternative that avoids using the intermediate value theorem is given at the end of the proof.)
-
-So, a _regular_ icosahedron _must_ exist, and it will have six edges that form three mutually orthogonal pairs.
+So, a _regular_ icosahedron must exist, and it will have six edges that form three mutually orthogonal pairs.
 
 [[!include pentagon decagon hexagon identity/duads]]
 
-Having reached that conclusion, we now use the construction below, where we assume our icosahedron is regular and we project everything into the plane of one of our rectangles.
+(The argument we've just given implicity uses the [[intermediate value theorem]] and would not have been used by Euclid, although Archimedes might have attempted it.  An alternative that avoids using the intermediate value theorem is given at the end of the proof.)
+
+We will set the short side of the rectangles to $1$, and for now we will call the corresponding value for the long side that produces a regular icosahedron $x$.
+
+In the figure below we project everything into the plane of one of the rectangles.  Where two vertices are projected to the same point in the diagram, a circle is drawn around the point.
 
 [[!include pentagon decagon hexagon identity/icosahedron]]
 
-Where two vertices are projected to the same point in the diagram, a circle is drawn around the point.
+The five vertices of the icosahedron that project onto the line segment $A P R$ will form a regular pentagon, the edges of which are also edges of the icosahedron.  $A P R$ is a straight line because the pentagon is a planar figure, as it must be if it forms the base of a pentagonal pyramid with five congruent equilateral triangles as its other faces.  The point $C$ is produced by dropping a perpendicular line from the apex, $B$, of this pentagonal pyramid, to its base.
 
-We can't _yet_ justify the specific value, $\Phi$, that we've written here as the length of the rectangles ... but we don't need to!
-Without any calculations that depend on $\Phi$, we can see that $Q R$ is parallel to $A B$, and that both are orthogonal to $O P$.  That's enough to show that the triangle $A B C$ is congruent to the triangle $S P T$.
+By construction, $Q R$ is parallel to $A B$, and both are orthogonal to $O P$.  Combined with the fact that $A P R$ is a straight line, that's enough to show that the triangle $A B C$ is congruent to the triangle $S P T$.
 
-Now, the five vertices of the icosahedron that project onto the line segment $A P R$ will form a regular pentagon, the edges of which are also edges of the icosahedron.  The five vertices that project onto the line segment $(-A) S Q$ will form another pentagon.  These two pentagons will be congruent, and the radius of the circle in which they're inscribed will be $A C$.  And since the triangle $A B C$ is congruent to the triangle $S P T$, the _distance_ between the pentagons, $S T$, equals their radius, $A C$.
+The five vertices that project onto the line segment $(-A) S Q$ will form another pentagon.  The two pentagons will be congruent, and the radius of the circles in which they're inscribed will be $A C$.  And since the triangle $A B C$ is congruent to the triangle $S P T$, the _distance_ between the pentagons, $S T$, equals their radius, $A C$.
 
 These two pentagons are shown in the diagram below.
 
 [[!include pentagon decagon hexagon identity/icosahedron triangles]]
 
-If we draw a line perpendicular to the planes of the two pentagons, from a vertex in one plane to the point below it on the other plane, the length of that perpendicular will be the common radius of the pentagons, $A C$.  But that line will form a right triangle whose hypotenuse is an icosahedral edge (congruent to the edges of the pentagons), and whose third (shortest) side is one edge of a decagon inscribed in the same circle as the lower pentagon.  The decagon edge arises because the two pentagons are rotated relative to each other by an angle of 36&#176;, the angle between vertices in a decagon.
+If we draw a line perpendicular to the planes of the two pentagons, from a vertex in one plane, $A$, to the point directly below it on the other plane, $V$, the length of that perpendicular, $A V$, will be equal to the common radius of the pentagons, $A C$.  Now, $A V$ is one side of a right triangle whose hypotenuse is an icosahedral edge, $A Q$ (congruent to the edges of the pentagons), and whose third side, $Q V$, is one edge of a decagon inscribed in the same circle as the lower pentagon.  The decagon edge arises because the two pentagons are rotated relative to each other by an angle of 36&#176;, the angle between vertices in a decagon.
 
-So, the two blue triangles in the diagram are congruent (both being right triangles with a pentagon edge as their hypotenuse and the radius as one of their sides), and both exhibit the pentagon-decagon-hexagon identity.
+So, the triangles $A B C$ and $A Q V$ are congruent (both being right triangles with a pentagon edge as their hypotenuse and the radius as one of their sides), and both exhibit the pentagon-decagon-hexagon identity.
 
 According to the historian Ian Mueller, Eva Sachs, in her book _Die F&#252;nf Platonischen K&#246;rper_, suggested an accurately drawn figure could let someone guess that the distance between the two pentagons equals the radius of either one.  Mueller also writes that Dijksterhuis (in 1929) and Neuenschwander (in 1975) claimed it's "intuitively evident" that the two right triangles above are congruent.   These clues led Greg Egan to the present proof.
 
-If we want, we can now appeal to Euclid's golden triangle lemma -- which gives us the ratio between the radius and the decagon edge length as $\Phi$ -- and work backwards to show that this is also the ratio of length to width for our three orthogonal rectangles.  This follows simply from the fact that the right triangle $O R P$ is similar to the right triangle $C A B$.
+If we want, we can now appeal to Euclid's golden triangle lemma -- which gives us the ratio between the radius and the decagon edge length as $\Phi$ -- and work backwards to show that this is also the ratio of length to width for our three orthogonal rectangles; that is, $x=\Phi$ is the value needed to produce a regular icosahedron.  This follows simply from the fact that the right triangle $O R P$ is similar to the right triangle $C A B$.
 
 Finally, suppose we wish to avoid using the intermediate value theorem.  If we project the generic version of our icosahedron onto the plane of one of its rectangles, we get this:
 
@@ -146,9 +149,9 @@ In order to make $A P R$ into a straight line -- which amounts to making the pen
 
 $$\frac{x+1}{x}=x$$
 
-This is just the defining equation for the golden ratio, $\Phi$.  If our icosahedron is regular, the pentagonal pyramid that sits on the pentagon will be made up of equilateral triangles, and its base will be planar.  So we can only get a regular icosahedron if we set $x=\Phi$.
+This is just the defining equation for the golden ratio, $\Phi$.  If our icosahedron is regular, the pentagonal pyramid that sits on the pentagon will be made up of equilateral triangles, and its base will be planar.  So again we see that we can only get a regular icosahedron if we set $x=\Phi$.
 
-Of course if we're sceptical about the very _existence_ of a regular icosahedron, we need to do a bit more work and confirm that this choice of $x$ actually makes the variable edge length in our generic icosahedron equal to the other edge length that's fixed by the short side of the rectangles (which we've set at $1$ for the sake of simplicity).
+Of course if we're sceptical about the very _existence_ of a regular icosahedron, we need to do a bit more work and confirm that this choice of $x$ actually makes the variable edge length in our generic icosahedron equal to the other edge length that's fixed by the short side of the rectangles (which we've set to $1$ for the sake of simplicity).
 
 [[!include pentagon decagon hexagon identity/pythagorean icosahedron]]
 
