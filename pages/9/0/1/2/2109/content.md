@@ -12,7 +12,7 @@ Furthermore, some concepts of category theory are difficult to interpret at all 
 
 What is missing is that the 2-category $V Cat$ doesn't natively supply any information about the $V$-valued hom-functors in a 2-category.  (In $Cat$ these hom-functors can be recovered by looking at [[comma categories]], which can be interpreted internally as [[comma objects]]---in some sense this is what all the above internalizations are secretly doing.)  Thus, all of these problems can be remedied by equipping a 2-category with extra structure which describes these hom-functors, or more generally describes a notion of [[profunctor]].
 
-There are several not-quite-equivalent ways to describe this extra structure.  One due to Street and Walters, called a [[Yoneda structure]], involves assigning to each object $A$ a "presheaf object" $P A$ and a "Yoneda arrow" $A\to P A$; a profunctor $A\to B$ is then identified with an arrow $B \to P A$.  The notion of *equipment*, due to Wood, instead postulates an additional bicategory of "proarrows" and specifies their relationship to the ordinary arrows.  One can then define fully faithful morphisms, pointwise Kan extensions, weighted limits, etc. relative to this structure, in a way which specializes to the correct notions in $V Cat$.
+There are several not-quite-equivalent ways to describe this extra structure.  One due to Street and Walters, called a [[Yoneda structure]], involves assigning to each object $A$ a "presheaf object" $P A$ and a "Yoneda arrow" $A\to P A$; a profunctor $A\to B$ is then identified with an arrow $B \to P A$.  The notion of *proarrow equipment*, due to Wood, instead postulates an additional bicategory of "proarrows" and specifies their relationship to the ordinary arrows.  One can then define fully faithful morphisms, pointwise Kan extensions, weighted limits, etc. relative to this structure, in a way which specializes to the correct notions in $V Cat$.
 
 ## Definition ##
 
@@ -24,20 +24,20 @@ Let $K$ be a [[2-category]].  The following structure is said to **equip $K$ wit
 
 As usual on the nLab, here by [[2-category]] we mean a weak 2-category (aka [[bicategory]]) and by [[functor]] we mean a weak 2-functor (aka [[pseudofunctor]]).  However, in many or most examples, $K$ is in fact a [[strict 2-category]].
 
-We refer to the entire structure $(K,M,(-)_\bullet)$ as a **proarrow equipment** or just an **equipment**.  Since there are variations on the notion that are appropriate when $K$ is replaced by an $n$-category, we may also call this version a **2-category equipment** for disambiguation.
+We refer to the entire structure $(K,M,(-)_\bullet)$ as a **proarrow equipment**, commonly abbreviated to just **equipment**.  Since there are variations on the notion that are appropriate when $K$ is replaced by an $n$-category, we may also call this version a **2-category equipment** for disambiguation.
 
-For example, if $V$ is a [[cosmos]], we define an equipment where $K= V Cat$ is the 2-category of $V$-enriched categories, $M=V Mod$ is the bicategory of $V$-enriched profunctors, and $f_\bullet$ and $f^\bullet$ are the two ways of regarding a $V$-functor $f:A\to B$ as a profunctor, namely $B(-,f-)$ and $B(f-,-)$.  Composition of $V$-profunctors is by [[tensor product]], i.e. [[coends]]; note that we require $V$ to be [[cocomplete category|cocomplete]] with colimist preserved by $\ten$ on both sides in order to form such associative tensor products.  We call this equipment simply $V Cat$.
+For example, if $V$ is a (Benabou) [[cosmos]], the 2-category $K= V Cat$ of $V$-enriched categories is equipped with proarrows by 2-category $M=V Mod$ of $V$-enriched profunctors, where $f_\bullet$ and $f^\bullet$ are the two ways of regarding a $V$-functor $f:A\to B$ as a profunctor, namely $B(-,f-)$ and $B(f-,-)$.  Composition of $V$-profunctors is by [[tensor product]], i.e. [[coends]]; note that we require $V$ to be [[cocomplete category|cocomplete]] with colimist preserved by $\ten$ on both sides in order to form such associative tensor products.  We call this equipment simply $V Cat$.
 
 With this example in mind, we sometimes use $B(1,f)$ and $B(f,1)$ (or $hom_B(1,f)$ and $hom_B(f,1)$) as alternate notations for $f_\bullet$ and $f^\bullet$.  For an arbitrary proarrow $H:B\to D$ and ordinary arrows $f:A\to B$ and $g:C\to D$, we write $H(g,f)$ or $g^* H f^*$ for the composite $g^\bullet H f_\bullet$, a proarrow from $A$ to $C$.  In $V Cat$, $H(g,f)$ is the result of precomposing the profunctor $H:D^{op}\otimes B \to V$ with $g^{op}\otimes f$.  We also write $U_A$, $A(1,1)$ or $hom_A$ for the identity proarrow $A\to A$.
 
-The other most common sort of generalized category, namely [[internal categories]] in some category $S$, also form an equipment called $Cat(S)$.  In this case, we require $S$ to have finite limits and coequalizers preserved by pullback in order for the bicategory of internal profunctors to have associative compositions. See "virtual equipments," below, for a context which avoids these restrictions on $V$ and $S$.
+The other most common sort of generalized category, namely [[internal categories]] in some category $S$, also form a proarrow equipment called $Cat(S)$.  In this case, we require $S$ to have finite limits and coequalizers preserved by pullback in order for the bicategory of internal profunctors to have associative compositions. See "virtual equipments," below, for a context which avoids these restrictions on $V$ and $S$.
 
 
-## Category theory in an equipment ##
+## Category theory in a proarrow equipment ##
 
-We give here a few examples of how to do category theory internal to an equipment.
+We give here a few examples of how to do category theory internal to a proarrow equipment.
 
-An arrow $f:A\to B$ in an equipment is said to be **fully faithful** if the canonical morphism $U_A\to B(f,f)$ is an isomorphism.  In $V Cat$ this recaptures the correct notion of $V$-fully-faithful $V$-functor.
+An arrow $f:A\to B$ in a 2-category equipped with proarrows is said to be **fully faithful** if the canonical morphism $U_A\to B(f,f)$ is an isomorphism of proarrows $A\to A$.  In $V Cat$ this recaptures the correct notion of $V$-fully-faithful $V$-functor.
 
 If $f:A\to C$ is an arrow and $J:K\to A$ is a proarrow, then a **$J$-weighted colimit** of $f$ is an arrow $l:K\to C$ such that $l^\bullet$ is a right lifting of $f^\bullet$ along $J$ in the 2-category of proarrows.  (A right lifting is the dual concept of a right extension, the internalization of right Kan extension to a 2-category.)  In $V Cat$, if $K=I$ is the unit $V$-category (one object with endomorphisms the unit of $V$), then $J$ is a $V$-functor $A^{op}\to V$ and $J$-weighted colimits in this sense coincide with the usual notion of weighted colimits in enriched category theory.
 
@@ -48,7 +48,7 @@ If $j:A\to K$ is an arrow, then $j^\bullet$-weighted colimits are called **point
 
 As noted above, in the case of ordinary categories, the profunctors can in fact be recovered from the 2-category $Cat$.  Specifically, profunctors $A\to B$ can be identified with two-sided discrete fibrations from $B$ to $A$ (that is, spans $B \leftarrow C \to A$ such that $C \to B$ is a [[Grothendieck fibration|(Grothendieck) fibration]], $C\to A$ is an opfibration, the two structures are compatible, and each fiber of $C\to B\times A$ is discrete).  The same is true for internal categories, but not for enriched categories.
 
-However, for a cosmos $V$, the $V$-profunctors $A\to B$ can _also_ be recovered from the 2-category $V Cat$ in a different, and in fact dual, way: they are the two-sided _codiscrete cofibrations_ from $B$ to $A$, i.e. two-sided discrete fibrations in $(V Cat)^{op}$.  This was first noticed by Street and subsequently expanded on by other authors; one can write down axioms on a 2-category guaranteeing that its codiscrete cofibrations can be used to construct an equipment.
+However, for a cosmos $V$, the $V$-profunctors $A\to B$ can _also_ be recovered from the 2-category $V Cat$ in a different, and in fact dual, way: they are the two-sided _codiscrete cofibrations_ from $B$ to $A$, i.e. two-sided discrete fibrations in $(V Cat)^{op}$.  This was first noticed by Street and subsequently expanded on by other authors; one can write down axioms on a 2-category guaranteeing that its codiscrete cofibrations can be used to construct a proarrow equipment.
 
 
 ## Equipments and double categories ##
@@ -60,7 +60,7 @@ $$\array{A & \overset{H}{\to} & C \\
 $$
 are the 2-cells $g_\bullet H \to K f_\bullet$.  Note that if the arrows form a strict 2-category, then this is a [[pseudo double category]] (vertically strict and horizontally weak) while if the arrows and proarrows are both weak 2-categories, this double category is weak in both directions (like a [[double bicategory]]).
 
-Double categories constructed in this way have the special property that every vertical 1-cell $f$ has both a [[companion]] (namely $f_\bullet$) and a [[conjoint]] (namely $f^\bullet)$.  Conversely, from any double category with this property, one can construct an equipment in the obvious way.  In this way equipments can be shown to be equivalent to a certain class of double categories.  While the definition given above is perhaps simpler, for some purposes it is preferable to *define* equipments to be certain double categories, for instance when one wants to collect them into a 2-category or 3-category---basically the only way to define transformations between functors of equipments is to view them as double categories, explicitly or implicitly.
+Double categories constructed in this way have the special property that every vertical 1-cell $f$ has both a [[companion]] (namely $f_\bullet$) and a [[conjoint]] (namely $f^\bullet)$.  Conversely, from any double category with this property, one can construct an equipment in the obvious way.  In this way proarrow equipments can be shown to be equivalent to a certain class of double categories.  While the definition given above is perhaps simpler, for some purposes it is preferable to *define* equipments to be certain double categories, for instance when one wants to collect them into a 2-category or 3-category---basically the only way to define transformations between functors of equipments is to view them as double categories, explicitly or implicitly.
 
 
 ## Virtual equipments ##
@@ -136,8 +136,9 @@ A blog post surveying ideas in equipments is
 * [[Mike Shulman]], _Equipments_ ([blog](http://golem.ph.utexas.edu/category/2009/11/equipments.html))
 
 
+[[!redirects equipment]]
 [[!redirects equipments]]
-[[!redirects proarrow equipment]]
+[[!redirects proarrow equipments]]
 [[!redirects 2-category equipment]]
 [[!redirects proarrow]]
 [[!redirects proarrows]]
