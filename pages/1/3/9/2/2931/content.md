@@ -4,7 +4,7 @@
 
 ## Idea ##
 
-If $K$ is a [[2-category]], an [[equipment]] on $K$ gives it the structure of "proarrows" which are intended to generalize the arrows of $K$ in the same way that [[profunctors]] generalize the [[functors]] in [[Cat]].  Since profunctors are a [[categorification]] of [[relations]], it is natural to think of decategorifying equipments to give a structure on a 1-category that equips it with "relations".  We call this structure a *1-category equipment*.
+If $K$ is a [[2-category]], a [[proarrow equipment]] on $K$ gives it the structure of "proarrows" which are intended to generalize the arrows of $K$ in the same way that [[profunctors]] generalize the [[functors]] in [[Cat]].  Since profunctors are a [[categorification]] of [[relations]], it is natural to think of decategorifying equipments to give a structure on a 1-category that equips it with "relations".  We call this structure a *1-category equipment*.
 
 ## Definition ##
 
@@ -30,27 +30,34 @@ Other attempted axiomatizations of the same idea "something that acts like the c
 
 ## Cartesian 1-category equipments ##
 
-The following is a very rough sketch, with lots remaining to be made precise.
+It is proven in
+
+* Carboni, Kelly, Wood, "A 2-categorical approach to change of base and geometric morphisms, I" ([PDF](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1991__32_1/CTGDC_1991__32_1_47_0/CTGDC_1991__32_1_47_0.pdf))
+
+that a (1,2)-category is a [[cartesian bicategory]] precisely when it is a [[cartesian object]] in a suitable 2-category of equipments (where we make a bicategory $M$ into an equipment by taking the proarrows to be those of $M$ and the arrows to be the "maps" in $M$, i.e. the morphisms having right adjoints).  Here is a rough sketch of the argument, using the double-category description of equipments.
 
 +-- {: .un_theorem}
 ###### Theorem
-Let $\underline{K}$ be a 1-category equipment, and assume the following.
-
-1. $\underline{K}$ is a [[cartesian object]] in the 2-category of 1-category equipments (that is, it is a **cartesian equipment**).
-
-1. Every proarrow $\phi\colon x\nrightarrow y$ in $\underline{K}$ can be written as $f_\bullet g^\bullet$ for some (vertical) arrows $f$ and $g$.  (That is, "tabulations" in a certain sense exist.)
-
-Then $\mathcal{H}(\underline{K})$ is a [[bicategory of relations]].
+Let $\underline{K}$ be a 1-category equipment, which is a [[cartesian object]] in the 2-category of 1-category equipments (that is, it is a **cartesian equipment**).  Then $\mathcal{H}(\underline{K})$ is a cartesian bicategory.
 =--
 +-- {: .proof}
-###### Sketch of Proof
+###### Proof
 That $\underline{K}$ is a cartesian object means, in particular, that it is a [[pseudomonoid]] in the 2-category of equipments.  By lifting the coherence data from arrows to representable proarrows, it follows that $\mathcal{H}(\underline{K})$ is a monoidal 2-category.  Being a cartesian object also gives a cartesian product on objects and proarrows, with diagonals $\Delta\colon X\to X\times X$, and lifting these arrows to representable proarrows $\Delta_\bullet$ and $\Delta^\bullet$ gives each object a commutative monoid and comonoid structure.  Now for any proarrow $\phi\colon X\to Y$, the square
 $$\array{X & \overset{\phi}{\to} & Y\\
   ^\Delta \downarrow & \Downarrow & \downarrow^\Delta\\
   X\times X& \underset{\phi\times \phi}{\to} & Y\times Y}$$
-in $\underline{K}$ induces 2-cells, i.e. inequalities, $\Delta_\bullet \phi \le (\phi\times\phi)\Delta_\bullet$ and $\phi \Delta^\bullet  \le \Delta^\bullet(\phi\times\phi)$.  The details to check here depend on the precise definition of "bicategory of relations," which depends on the definition of "cartesian bicategory" of which there seem to be several versions, but we skip ahead to verifying the more interesting conditions.
+in $\underline{K}$ induces 2-cells, i.e. inequalities, $\Delta_\bullet \phi \le (\phi\times\phi)\Delta_\bullet$ and $\phi \Delta^\bullet  \le \Delta^\bullet(\phi\times\phi)$.
+=--
 
-We now verify the axiom $\Delta^\bullet \Delta_\bullet = 1$.  Since $\Delta^\bullet \Delta_\bullet$ is the restriction of $1_{X\times X}$ along $\Delta$ on both sides, it suffices to show that
+A [[bicategory of relations]] is a (1,2)-category which is a cartesian bicategory, and which also satisfies some additional conditions.  We can also construct this structure starting from an equipment.
+
++-- {: .un_theorem}
+###### Theorem
+Let $\underline{K}$ be a 1-category equipment satisfying the hypotheses of the previous theorem, and suppose in addition that every proarrow $\phi\colon x\nrightarrow y$ in $\underline{K}$ can be written as $f_\bullet g^\bullet$ for some (vertical) arrows $f$ and $g$.  (That is, "tabulations" in a certain sense exist.)  Then $\mathcal{H}(\underline{K})$ is a [[bicategory of relations]].
+=--
++-- {: .proof}
+###### Sketch of Proof
+We first verify the axiom $\Delta^\bullet \Delta_\bullet = 1$.  Since $\Delta^\bullet \Delta_\bullet$ is the restriction of $1_{X\times X}$ along $\Delta$ on both sides, it suffices to show that
 $$\array{X & \overset{1_X}{\to} & X\\
   ^\Delta\downarrow &\Downarrow& \downarrow^\Delta\\
   X\times X& \underset{1_{X\times X}}{\to} & X\times X}$$
@@ -68,7 +75,7 @@ $$\array{A & \overset{\phi}{\to} & B \\
   X& \underset{1_X}{\to} & X}$$
 which factors the given square through the putative cartesian one.  The factorization is unique since all 2-cells are unique.
 
-Finally, we verify the Frobenius axiom $\Delta^\bullet \Delta_\bullet = (1\times \Delta_\bullet)(\Delta^\bullet \times 1)$.  Since $\Delta$ is associative, we have a square
+We now verify the Frobenius axiom $\Delta^\bullet \Delta_\bullet = (1\times \Delta_\bullet)(\Delta^\bullet \times 1)$.  Since $\Delta$ is associative, we have a square
 $$\array{X & \overset{1_X}{\to} & X\\
   ^\Delta\downarrow && \downarrow^\Delta\\
   X\times X & \Downarrow & X\times X\\
