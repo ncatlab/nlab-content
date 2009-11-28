@@ -30,3 +30,4 @@ If $F$ is strong monoidal then this is an ordinary [[2-functor]]. If it is stric
 [[!redirects strict monoidal functor]]
 [[!redirects strong monoidal functor]]
 [[!redirects weak monoidal functor]]
+[! redirects lax comonoidal functor]
