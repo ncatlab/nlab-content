@@ -59,7 +59,7 @@ $$
   N_\bullet : sAb \to Ch_+
 $$
 
-is a [[monoidal functor|symmetric lax monoidal]] as well as [[comonoidal functor|lax comonoidal]]. And in a compatible way: it is actually a _Frobenius monoidal functor_ .
+is a [[monoidal functor|symmetric lax monoidal]] as well as [[lax comonoidal functor|lax comonoidal]]. And in a compatible way: it is actually a _Frobenius monoidal functor_ .
 
 
 =--
