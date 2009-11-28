@@ -2,13 +2,13 @@
 * automatic table of contents
 {:toc}
 
-## Idea ##
+## Idea
 
 The plain [[Dold-Kan correspondence]] establishes an equivalence between (co)simplicial groups and (co)chain complexes.
 
 Both these categories carry natural [[monoidal category]] structures. It turns out that the Dold-Kan correspondence does respect this monoidal structure, either strictly or in their suitable [[higher category theory|higher categorical]] sense.
 
-## General discussion ##
+## General discussion 
 
 Notice that 
 
@@ -31,7 +31,7 @@ A crucial fact about the [[Dold-Kan correspondence]] is that
 But it doesn't in general do so _strictly_, except possibly in one direction. Rather, it does so in th context of [[higher category theory]].
 
 
-There are two different versions of the monoidal Dold-Kan corespondence, which are almost but apparently not entirely formal duals of each other (at least not in the detailed onstructions):
+There are two different versions of the monoidal Dold-Kan corespondence, which are almost but apparently not entirely formal duals of each other (at least not in the detailed constructions):
 
 * the **simplicial version** that relates [[monoid]]s in abelian [[simplicial group]]s (simplicial rings)  to monoids in [[chain complex]]es (chain [[dg-algebra]]s),
 
@@ -39,7 +39,7 @@ There are two different versions of the monoidal Dold-Kan corespondence, which a
 
 
 
-### Simplicial rings and chain dg-algebras ###
+### Simplicial rings and chain dg-algebras 
 
 
 The Dold-Kan correspondence (using the normalized chain complex functor) is in one direction [[monoidal category|monoidal]] in the naive (strict, 1-categorical) way, whereas in the other direction it is monoidal only in the expect homotopical sense.
@@ -124,7 +124,7 @@ This implies that generalized [[Eilenberg-MacLane spectrum|Eilenberg-MacLane spe
 This article shows that the inverse $\Xi$ from chain complexes to simplicial abelian groups sends algebras over arbitrary differential graded [[E-k operad|E-infinity-operad]] to [[E-k-operad|E-infinity-algebra]] in simplicial modules, and is part of a [[Quillen adjunction]] for these.
 
 
-### Cosimplicial rings and cochain dg-algebras ###
+### Cosimplicial rings and cochain dg-algebras
 
 The monoidal Dold-Kan correspondence relating cosimplicial algebras to cochain dg-algebras is considered less prominently explicitly in the literature, but does appear implicitly in much classical work. For instance the classical statement that the [[cochains on simplicial sets]] form a [[dg-algebra]] that is commutative up to coherent higher homotopy, i.e. that is an [[E-k-operad|E-infinity algebra]], is really the statement that the Moore cochain complex functor on cosimplicial algebras of functions on [[simplicial set]]s is an $\infty$-monoidal functor in a suitable sense.
 
@@ -140,7 +140,7 @@ However, this article explicitly constructs the (derived) [[adjoint functor]] to
 
 Explicit discussion of the Moore co-chain complex functor as inducing an $\infty$-monoidal functor seems not to be in the literature explicitly at time of this writing (?), even though various of its aspects are implicit, partly classical, statements. The following tries to make some aspects explicit.
 
-#### Alexander-Whitney and shuffle morphisms ####
+#### Alexander-Whitney and shuffle morphisms {#AlexWhitneyShuffle}
 
 A central ingredient in the monoidal Dold-Kan correspondence are the Alexander-Whiney and the shuffle morphisms.
 
@@ -231,7 +231,7 @@ A quick summary of all this is in section 7 of
 
 
 
-#### Lax monoidalness of the Moore co-chain complex functor ####
+#### Lax monoidalness of the Moore co-chain complex functor 
 
 
 
