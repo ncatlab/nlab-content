@@ -39,7 +39,7 @@ There are two different versions of the monoidal Dold-Kan corespondence, which a
 
 
 
-### Simplicial rings and chain dg-algebras 
+## Simplicial rings and chain dg-algebras 
 
 
 The Dold-Kan correspondence (using the normalized chain complex functor) is in one direction [[monoidal category|monoidal]] in the naive (strict, 1-categorical) way, whereas in the other direction it is monoidal only in the expect homotopical sense.
@@ -59,21 +59,23 @@ $$
   N_\bullet : sAb \to Ch_+
 $$
 
-is a [[monoidal category|symmetric lax monoidal functor]].
+is a [[monoidal functor|symmetric lax monoidal]] as well as [[comonoidal functor|lax comonoidal]]. And in a compatible way: it is actually a _Frobenius monoidal functor_ .
+
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-The proof can be found in 
+The proof of symmetric lax monoidalness can be found for instance in 
 
 * Weibel, _An introduction to homological algebra_, section 8.5.4
 
-The _[[lax monoidal transformation]]_ that exhibits the lax-monoidalness of the Moore chain complex functor is the [[shuffle map]]. Its component 
+The lax monoidal transformation that exhibits the lax-monoidalness of the Moore chain complex functor is the [[shuffle map]]. Its component 
 
 $$
   \nabla_{A,B} : (N_\bullet A) \otimes (N_\bullet B))
+  \to N_\bullet (A \otimes B)
 $$
 
 on a pair $A,B$ of simplicial abelian groups is the morphism of [[chain complex]]es that sends homogeneous elements $a_p\otimes b_q \in A_p \otimes B_q =: C_p(A) \otimes C_q(B)$ to
@@ -87,7 +89,7 @@ $$
   \,.
 $$
 
-Here the sum is over all $(p,q)$-shuffles, i.e. permutation \{\mu_1, \dots, \mu_p, \nu_1, \cdots, \nu_q\} of the set $\{0,1,\cdots,p+q-1\}$ that leave the first $p$ and the last $q$ elements in their natural order.
+Here the sum is over all $(p,q)$-shuffles, i.e. permutation $\{\mu_1, \dots, \mu_p, \nu_1, \cdots, \nu_q\}$ of the set $\{0,1,\cdots,p+q-1\}$ that leave the first $p$ and the last $q$ elements in their natural order.
 
 The sign in the above sum is the corresponding sign of this permutation and the degeneracy maps $s_\mu$ and $s_\nu$ denote the maps
 
@@ -100,6 +102,10 @@ and similarly for $s_\nu$
 >(Hm, is that consistent?)
 
 For more on this see also section 2.3 of [SchwedeSchipley](http://arxiv.org/abs/math.AT/0209342)
+
+The comonoidalness and Frobenius monoidalness of the normalized Moore functor is discussed in
+
+* Marcelo Aguiar and Swapneel Mahajan, _Coxeter Groups and Hopf Algebras_ Fields Institute Monographs, vol. 23
 
 =--
 
@@ -124,7 +130,7 @@ This implies that generalized [[Eilenberg-MacLane spectrum|Eilenberg-MacLane spe
 This article shows that the inverse $\Xi$ from chain complexes to simplicial abelian groups sends algebras over arbitrary differential graded [[E-k operad|E-infinity-operad]] to [[E-k-operad|E-infinity-algebra]] in simplicial modules, and is part of a [[Quillen adjunction]] for these.
 
 
-### Cosimplicial rings and cochain dg-algebras
+## Cosimplicial rings and cochain dg-algebras
 
 The monoidal Dold-Kan correspondence relating cosimplicial algebras to cochain dg-algebras is considered less prominently explicitly in the literature, but does appear implicitly in much classical work. For instance the classical statement that the [[cochains on simplicial sets]] form a [[dg-algebra]] that is commutative up to coherent higher homotopy, i.e. that is an [[E-k-operad|E-infinity algebra]], is really the statement that the Moore cochain complex functor on cosimplicial algebras of functions on [[simplicial set]]s is an $\infty$-monoidal functor in a suitable sense.
 
@@ -140,7 +146,7 @@ However, this article explicitly constructs the (derived) [[adjoint functor]] to
 
 Explicit discussion of the Moore co-chain complex functor as inducing an $\infty$-monoidal functor seems not to be in the literature explicitly at time of this writing (?), even though various of its aspects are implicit, partly classical, statements. The following tries to make some aspects explicit.
 
-#### Alexander-Whitney and shuffle morphisms {#AlexWhitneyShuffle}
+### Alexander-Whitney and shuffle morphisms {#AlexWhitneyShuffle}
 
 A central ingredient in the monoidal Dold-Kan correspondence are the Alexander-Whiney and the shuffle morphisms.
 
@@ -231,7 +237,7 @@ A quick summary of all this is in section 7 of
 
 
 
-#### Lax monoidalness of the Moore co-chain complex functor 
+### Lax monoidalness of the Moore co-chain complex functor 
 
 
 
@@ -602,11 +608,19 @@ structure with respect to the standard monoidal structure on cosimplicial abelia
 =--
 
 
-#### $E_\infty$-cup product on cochains on simplicial sets ####
+### $E_\infty$-cup product on cochains on simplicial sets 
 
 At least for those [[cosimplicial algebra]]s $A$ that are algebras of [[cochains on simplicial sets]] $S^\bullet \in SSet$, i.e. $A = C(S^\bullet, R)$ it is known that the Moore complex [[dg-algebra]] $N^\bullet(A)$ equipped with the [[cup product]] is an [[E-k-operad|E-∞]]-[[algebra over an operad|algebra]]. See [[cochains on simplicial sets]] for details on this.
 
+## References ##
 
+On top of the references already listed, here are some more.
+
+The Alexander-Whiteny/Eilenberg-Zilber equivalences for the normalized chains functor are a special case of the strong [[deformation retract]] of chain complexes that was constructed 
+
+* [[Samuel Eilenberg]], [[Saunders MacLane]], _On the groups $H(\pi, n)$. II_  Annals of Mathematics (1954 ) 
+
+For any commutative ring $R$, they defined chain equivalences between the tensor product of the normalized chains on two simplicial R-modules and the normalized chains on their levelwise tensor product.
 
 [[!redirects monoidal Dold?Kan correspondence]]
 [[!redirects monoidal Dold--Kan correspondence]]
