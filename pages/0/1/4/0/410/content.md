@@ -14,3 +14,4 @@ In general, if $U: C \to D$ is thought of as a forgetful functor and $F: D \to C
 
 
 [[!redirects free object]]
+[[!redirects free objects]]
