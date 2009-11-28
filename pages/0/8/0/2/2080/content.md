@@ -35,3 +35,4 @@ Although [[Heyting algebras]] were first developed as a way to discuss [[intuiti
 [[!redirects conditional]]
 [[!redirects conditionals]]
 [[!redirects conditional statement]]
+[[!redirects conditional statements]]
