@@ -1,25 +1,108 @@
-An __algebraic category__, according to one well-established definition, is a [[category]] $A$ equipped with a [[monadic adjunction]] from [[Set]].
+# Algebraic categories
+* tic
+{: toc}
 
 
-## Details
+## Idea
 
-In more detail, let $A$ be a [[locally small category]], let $F\colon Set \to A$ and $U\colon A \to Set$ be [[functors]], and let $\epsilon\colon F \circ U \to id_A$ be a [[natural transformation]].  Then $F, U, \epsilon$ give $A$ the structure of an __algebraic category__ if the following conditions hold:
+An algebraic category is a [[concrete category]] which behaves very much like the categories familiar from [[algebra]], such as [[Grp]], [[Ring]], and [[Vect]], but characterised in category-theoretic terms.  But many other categories are also algebraic, most famously [[compact Hausdorff space|CompHausTop]]; one can describe these in purely algebraic terms, but only using infinitary (perhaps even largely many) operations.
 
-*  $F \vdash U$ are [[adjoint functors]] with counit $\epsilon$.  More explicitly: for each $h\colon F(x) \to y$ in $A$, there is a unique $g\colon x \to U(y)$ in $Set$ such that $\epsilon(y) \circ F(g) = h$.
-*  $U \circ \epsilon$ is an [[equivalence of categories]] from $C$ to the [[Eilenberg–Moore category]] $Set^{U \circ F}$ of the [[monad]] $U \circ F$.  More explicitly:
-   *  for every object $y$ of $C$, $\epsilon(y)$ is a [[surjection]] (which makes $U \circ \epsilon\colon C \to Set^{U \circ F}$ [[fully faithful functor|fully faithful]]);
-   *  for every [[algebra of a monad|algebra]] $z$ of $U \circ F$, there is an object $x$ of $C$ such that $U(\epsilon(x))$ is isomorphic (as an algebra) to $z$.
+There are several definitions of 'algebraic' in the literature.  Here, we will follow AHS (see references) in using a generous interpretation, but other authors follow Johnstone in using 'algebraic' to mean monadic (a stricter requirement), while some authors add finiteness conditions that remove examples such as $Comp Haus Top$.  However, all of these notions are related, and we will discuss them here.
 
-> I was trying to write this all very explicitly in terms of $C, F, U, \epsilon$, but the last item still has a lot of details wrapped up in it.  I might have to break out the unit $\iota$.
+The definitions in AHS also include an [[evil]] requirement of unique strict lifts of isomorphisms, which serves to fix algebraic categories up to [[isomorphism of categories|isomorphism]] (instead of mere [[equivalence of categories|equivalence]]), which we omit.
+
+
+## Definitions
+
+Let $A$ be a [[concrete category]]; that is, $A$ is equipped with a [[forgetful functor]] $U\colon A \to Set$ to the [[Set|category of sets]].  For some authors, such a category is called 'concrete' only if $U$ is [[representable functor|representable]], but that follows in all the cases considered below; in particular, if $A$ has free objects (that is, if $U$ has a [[left adjoint]] $F$), then $U$ is representable by $F(1)$, where $1$ is a [[singleton]].
+
++-- {: .un_defn}
+###### Definition (based on AHS 23.38)
+
+The concrete category $A$ is __algebraic__ if the following conditions hold:
+
+*  $A$ has [[free objects]].
+*  The category $A$ has all binary [[coequalizers]].
+*  The forgetful functor $U$ preserves and reflects [[extremal epimorphisms]].
+=--
+
++-- {: .un_defn}
+###### Definition (based on AHS ...)
+
+The concrete category $A$ is __monadic__ if the following conditions hold:
+
+*  $A$ has [[free objects]].
+*  The [[adjunction]] $F \vdash U$ is [[monadic adjunction|monadic]].
+=--
+
++-- {: .un_defn}
+###### Definition (based on AHS 24.11)
+
+An algebraic (or monadic) category is __bounded__ if the following condition holds:
+
+*  For some [[cardinal number]] $\kappa$ and every $\kappa$-[[directed colimit]] in $A$, the universal [[cocone]] is jointly [[surjection|surjective]] in $Set$.
+=--
+
++-- {: .un_defn}
+###### Definition (based on AHS 24.4)
+
+An algebraic (or monadic) category is __finitary__ if the following condition holds:
+
+*  For every finitely [[directed colimit]] in $A$, the universal [[cocone]] is jointly [[surjection|surjective]] in $Set$.
+=--
+
+Note that this a weakening of the condition that the forgetful functor $U$ preserve directed colimits; every universal cocone in $Set$ is jointly surjective, but not conversely.
+
+
+## Properties
+
+Every monadic category is algebraic; an algebraic category is monadic if and only if the forgetful functor $U$ preserves [[congruences]].  (AHS 23.41)
+
+A category is algebraic if and only if it is a [[reflective subcategory]] of a monadic category with [[regular epimorphism|regular epic]] reflector; given an algebraic category, this monadic category is the [[Eilenberg–Moore category]] of the monad $U \circ F$.  (AHS 24.3)
+
+Every monadic category is the category of algebras for some [[variety of algebras]], although we must allow potentially a [[proper class]] of infinitary axioms; that is, every monadic category is [[equationally presentable category|equationally presentable]].  Similarly, every algebraic category is the category of algebras for some [[quasivariety of algebras]]; that is, we allow [[conditional statements]] of equations among the axioms.  (AHS 24.11)
+
+As special cases of the last item:
+
+*  A concrete category is bounded monadic if and only if it is equationally presentable (presented by a variety) by a small set of equations.
+*  A concrete category is bounded algebraic if and only if it is presented by a quasivariety with a small set of axioms.
+*  A concrete category is finitary monadic if and only if it is the category of algebras for some finitary variety; that is, we have only a small set of finitary operations.
+*  A concrete category is finitary algebraic if and only if it is the category of algebras for some finitary quasivariety.
 
 
 ## Examples
 
-The typical categories studied in [[algebra]], such as [[Grp]], [[Ring]], etc, are all algebraic categories.  Specifically, $U$ is the [[forgetful functor]] from algebras to sets, and $F$ maps each set to the [[free object|free]] algebra on that set.  Their composite $U \circ F$ may be thought of as mapping a set $A$ to the set of words with alphabet taken from $A$ and the connections between letters taken from the appropriate algebraic operations, with two words identified if they can be proved equal by the appropriate algebraic axioms.
+The typical categories studied in [[algebra]], such as [[Grp]], [[Ring]], [[Vect]], etc, are all finitary monadic categories.  The [[monad]] $U \circ F$ may be thought of as mapping a set $x$ to the set of words with alphabet taken from $x$ and the connections between letters taken from the appropriate algebraic operations, with two words identified if they can be proved equal by the appropriate algebraic axioms.
 
-There are more examples than the ones from algebra; the best known of these is the category of [[compact Hausdorff spaces]], where $U$ takes the set of points and $F$ takes the space of [[ultrafilters]] with the topology coming from [[Stone–?ech compactification]].  (This result relies on the [[ultrafilter principle]], regardless of whether one interprets 'space' here as referring to [[topological spaces]] or [[locales]].)
+The category of cancellative [[monoids]] is finitary algebraic but not monadic.  The category of [[fields]] is not even algebraic.
+
+Assuming the [[ultrafilter principle]], the category of [[compact Hausdorff spaces]] is monadic, but not bounded algebraic.  The monad in question takes a set $x$ to the set of [[ultrafilters]] on $x$.  (Without the ultrafilter principle, this monad still exists, but it may be quite small, possibly even the [[identity monad]]; passing to [[locales]] does not help.)
+
+Similarly, the category of [[Stone space]]s is algebraic, but not monadic or bounded algebraic.
 
 
 ## References
 
-*  [[Peter Johnstone]], _[[Stone Spaces]]_, Section 3.8
+Our definitions are taken from
+
+*  **AHS**: [[Jiri Adamek|Jiří Adámek]], [[Horst Herrlich]], [[George Strecker]]; _Abstract and Concrete Categories: [[The Joy of Cats]]_, Sections 23&24; [web](http://katmat.math.uni-bremen.de/acc).
+
+Actually, AHS discusses the more general concept of algebraic (etc) *functors*, generalising from $U\colon A \to Set$ to arbitrary functors (not necessarily faithful, not necessarily to $Set$).  We actually take our definitions from AHS\'s characterisation theorems in the case of faithful functors to $Set$.  We probably should discuss the more general concept, perhaps at [[algebraic functor]]; we already have [[monadic functor]].
+
+*  [[Peter Johnstone]]; _[[Stone Spaces]]_, Section 3.8
+
+For Johnstone, a concrete category is 'algebraic' if and only if it is monadic.  However, Johnstone also discusses [[equationally presentable category|equationally presentable categories]].
+
+
+[[!redirects algebraic categories]]
+[[!redirects bounded algebraic category]]
+[[!redirects bounded algebraic categories]]
+[[!redirects finitary algebraic category]]
+[[!redirects finitary algebraic categories]]
+
+[[!redirects monadic category]]
+[[!redirects monadic categories]]
+[[!redirects bounded monadic category]]
+[[!redirects bounded monadic categories]]
+[[!redirects finitary monadic category]]
+[[!redirects finitary monadic categories]]
