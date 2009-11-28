@@ -50,5 +50,14 @@
 <g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 174.099149, 296.832479)'>
 <text x='0' y='14' font-family='Times' font-size='16px' fill='rgb(0%,0%,100%)'>36&#xb0;</text>
 </g>
+<g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 138.966567, 143.804032)'>
+<text x='-4' y='20' font-family='Times' font-size='16px' fill='rgb(0%,0%,0%)'>A</text>
+</g>
+<g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 234.599454, 19.720081)'>
+<text x='45' y='-3' font-family='Times' font-size='16px' fill='rgb(0%,0%,0%)'>B</text>
+</g>
+<g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 271.938904, 110.286199)'>
+<text x='0' y='12' font-family='Times' font-size='16px' fill='rgb(0%,0%,0%)'>C</text>
+</g>
 </g>
 </svg>
