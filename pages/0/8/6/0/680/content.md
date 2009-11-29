@@ -279,22 +279,22 @@ $$
 is [[lax monoidal functor|lax monoidal]] with respect to the Eilenberg--Zilber map
 
 $$
-    EZ :  N(A \otimes A) \to N(A) \otimes N(B) 
+    EZ :  N(A \otimes B) \to N(A) \otimes N(B) 
 $$
 
-and [[oplax monoidal|oplax monoidal functor]] with respect to the Alexander--Whitney map 
+and [[oplax monoidal functor|oplax monoidal]] with respect to the Alexander--Whitney map 
 
 $$ 
 AW :  N(A) \otimes N(B) \to N(A \otimes B)
 $$
 
-Moreover, the Alexander--Whitney map is left inverse to the Eilenberg--Zilber map:
+The Alexander--Whitney map is left inverse to the Eilenberg--Zilber map:
 
 $$  
- AW \circ EZ = 1 : N(A \otimes B) \to N(A \otimes B) 
+ AW \circ EZ = 1 
 $$
 
-However, Alexander--Whitney map is not right inverse to the Eilenberg--Zilber map:
+However, the Alexander--Whitney map is not right inverse to the Eilenberg--Zilber map:
 
 $$  
  EZ \circ AW \ne 1 
@@ -302,7 +302,8 @@ $$
 
 Instead there is a chain homotopy 
 
-$$ EZ \circ AW \simeq 1  
+$$ 
+EZ \circ AW \simeq 1  
 $$
 
 Similarly, the adjoint to the normalized Moore complex functor
@@ -311,17 +312,37 @@ $$
   \Xi : Ch_+(Ab) \to [\Delta^{op},Ab]
 $$
 
-is lax monoidal with respect to the Alexander--Whitney map and oplax lax monoidal with respect to the Eilenberg--Zilber map.
+is lax monoidal with respect to the Alexander--Whitney map and oplax monoidal with respect to the Eilenberg--Zilber map.
 
 =--
 
-As a consequence, both $N$ and $\Xi$ send [[monoid|monoids]] to monoids and [[comonoid|comonoids]] to comonoids.   For more details, see:
++-- {: .proof}
+###### Proof
+Apparently this is proved in Mac Lane's _Homology_.
+
+=--
+
+
+
+As a consequence, both $N$ and $\Xi$ send [[monoid|monoids]] to monoids and [[comonoid|comonoids]] to comonoids. For more details, see:
 
 * [[monoidal Dold–Kan correspondence]]
 
+These ([remarks by Kathryn Hess](http://golem.ph.utexas.edu/category/2009/11/doldkan_question.html#c0296680)) are also very useful, and should be integrated into the story here.  She uses "lax comonoidal functor" to mean what above is called an "[[oplax monoidal functor]]".
 
-Moreover, the normalized Moore complex functor is both  and [[oplax monoidal|oplax monoidal functor]] with respect to the levelwise tensor product of simplicial
+"The normalized chains functor from simplicial sets to chain complexes (with any coefficients) is both lax monoidal and lax comonoidal.  The Eilenberg-Zilber equivalence, from the tensor product of the chains on X and on Y to the chains on the cartesian product of X and Y, provides the natural transformation that shows that the chain functor is lax monoidal. The Alexander-Whitney equivalence goes in the opposite direction and shows that the chain functor is lax comonoidal.
 
+
+Since the chain functor is lax comonoidal, the normalized chains on any simplicial set is a dg coalgebra, where the comultiplication is given by the composite of the chain functor applied to the diagonal map, followed be the Alexadnder-Whitney transformation.  It turns out that the Eilenberg-Zilber equivalence is actually itself a morphism of coalgebras with respect to this comultiplication.  On the other hand, the Alexander-Whitney map is a morphism of coalgebras up to strong homotopy.
+
+
+The A-W/E-Z equivalences for the normalized chains functor are a special case of the strong deformation retract of chain complexes that was constructed by Eilenberg and MacLane in their 1954 Annals paper "On the groups H(pi, n). II".  For any commutative ring R, they defined chain equivalences between the tensor product of the normalized chains on two simplicial R-modules and the normalized chains on their levelwise tensor product.
+
+
+Steve Lack and I observed recently that the normalized chains functor is actually even Frobenius monoidal.  We then discovered that Aguiar and Mahajan already had a proof of this fact in their recent monograph&#8230; :-)
+
+
+As to the Hopf algebra/bialgebra question, I admit I've often been guilty of referring to loop space homology as a "graded Hopf algebra", without any mention of antipode.  I was happy to learn a few years ago that connected graded bialgebras admit a unique antipode, as Mike has already pointed out.  On the chain level, if the simplicial group you're considering is reduced (i.e., has a unique 0-simplex), then its normalized chain complex is a connected dg bialgebra and therefore a dg Hopf algebra."
 
 
 ## Dual Dold--Kan correspondence ##
