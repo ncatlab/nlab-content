@@ -16,7 +16,7 @@ The [[homotopy category]] of a stable $\infty$-category is a [[triangulated cate
 
 The relation between triangulated categories and stable $\infty$-categories has apparently been clear to some experts, but a comprehensive discussion appeared only more recently in the first part of Jacob Lurie's PhD thesis
 
-* Jacob Lurie, _Stable $\infty$-Categories_ ([pdf](http://math.mit.edu/~lurie/topoibook/DAGI.pdf))
+* Jacob Lurie, _Stable $\infty$-Categories_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-I.pdf))
 
 building on the general theory of [[(infinity,1)-category|(infinity,1)-categories]] as developed in his book
 
