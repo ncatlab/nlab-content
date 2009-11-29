@@ -83,7 +83,7 @@ _[[Tim Porter|Tim]]_: I would like to pose a question on the Homotopy Hypothesis
 
 _[[Mike Shulman|Mike]]_: My perspective is that we are looking for good notions of _$\infty$-category_ such that the _induced_ notion of $\infty$-groupoid satisfies the homotopy hypothesis.  If all you want is to do homotopy theory, then homotopy theorists have gotten along quite well for decades with topological spaces, Kan complexes, and the like (although one might certainly hope, as you suggest, to get information about homotopy operations out as well).  But as category theorists, we want a notion of $\infty$-category with not all cells necessarily invertible, which behaves well _categorically_ rather than homotopically, but whose induced notion of $\infty$-groupoid still satisfies the homotopy hypothesis as a "check" or "anchor."  It's hard to exhibit Kan complexes as the $(\infty,0)$-case of a notion of $\infty$-category; there are [[quasi-category|quasicategories]] for $(\infty,1)$-categories but beyond that it gets tricky (there is Street's original definition, but it's quite difficult to work with).
 
-[[Urs Schreiber|Urs]]: Lurie is now talking in (electronic) print about $(\infty,n)$-categories, [here](http://www-math.mit.edu/~lurie/papers/cobordism.pdf).
+[[Urs Schreiber|Urs]]: Lurie is now talking in (electronic) print about $(\infty,n)$-categories, [here](http://www.math.harvard.edu/~lurie/papers/cobordism.pdf).
 
 _[[Mike Shulman|Mike]]_: When I glanced at that, it looked as though he was actually using [[Segal category|Segal categories]] for his $(\infty,n)$-categories rather than some generalization of quasicategories.
 
@@ -117,7 +117,7 @@ Similar remarks apply to all proposed concepts of $n$-category and $(\infty,n)$-
 
 _[[Urs Schreiber|Urs]]_: I looked at Ronnie Brown's review article above, but didn't find Loday's '81 article yet. Maybe somebody can help me: what is the map from spaces to $cat^n$-groups which comes from the equivalence in Loday's theorem? I am asking because the natural guess would be that we send a space to its $n$-fold  fundamental groupoid $\Pi_{n-fold}(X)$ in what should be an obvious way. But that cubical $n$-groupoid $\Pi_{n-fold}(X)$ will have thin fillers ("connections") etc and hence be equivalent to a strict $n$-groupoid, which is known _not_ to model all homotopy types. How is this resolved?
 
-_[[John Baez]]_: See Section 5 of [Simona Paoli's paper](http://www.maths.mq.edu.au/~simonap/paoli_IMA.pdf#). 
+_[[John Baez]]_: See Section 5 of [Simona Paoli's paper](http://www.maths.mq.edu.au/~simonap/paoli_IMA.pdf). 
 
 _[[Ronnie Brown|Ronnie]]_: This is a good question. The argument of Loday (1982) for getting a _cubical resolution_
 of spaces was developed in 
