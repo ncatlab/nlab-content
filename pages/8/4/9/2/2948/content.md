@@ -1,0 +1,7 @@
+If $C$ and $D$ are monoidal categories, an **oplax monoidal functor** $F : C \to D$ is defined to be a [[lax monoidal functor]] $F: C^{op} \to D^{op}$.  So, among other things, tensor products are preseved up to morphisms of the following sort in $D$:
+
+$$\phi_{c,c'} : F(c \otimes c') \to F(c) \otimes F(c')$$
+
+which must satisfy a certain coherence law.
+
+An oplax monoidal functor sends comonoids in $C$ to comonoids in $D$, just as a lax monoidal functor sends monoids in $C$ to monoids in $D$.  For this reason an oplax monoidal functor is sometimes called a **lax comonoidal functor**.
