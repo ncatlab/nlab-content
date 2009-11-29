@@ -50,7 +50,7 @@ More recently Mike Hopkins and Jacob Lurie have claimed
 (see [Hopkins-Lurie on Baez-Dolan](http://golem.ph.utexas.edu/category/2008/05/hopkinslurie_on_baezdolan.html))
 to have formalized and proven this hypothesis in the context of [[(n,r)-category|(infinity,n)-categories]] modeled on [[complete Segal space]]s. See:
 
-* [[Jacob Lurie]], _On the classification of topological field theories_ ([pdf](http://www-math.mit.edu/~lurie/papers/cobordism.pdf))
+* [[Jacob Lurie]], _On the classification of topological field theories_ ([pdf](http://www.math.harvard.edu/~lurie/papers/cobordism.pdf))
 
 where an [[(infinity,n)-category of cobordisms]] is defined and shown to lead to a formalization and proof of the _cobordism hypothesis_.  Lurie explains his work here:
 
