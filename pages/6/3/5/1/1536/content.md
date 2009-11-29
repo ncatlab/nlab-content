@@ -75,4 +75,4 @@ The term 'Grothendieck Construction' is applied in the literature to at least tw
 * [The Homotopy Theory of n-Fold Categories](http://www.math.uchicago.edu/~fiore/1/ThomasonNFoldBeamerSlides.pdf)
 * [Inference System Integration via Logic Morphisms](http://www.kestrel.edu/home/projects/logicware/slides-9806/sld001.htm)
 * [Category Theory for Computing Science](http://www.cwru.edu/artsci/math/wells/pub/ctcs.html)
-* [On the Classification of Topological Field Theories (Draft)](http://www-math.mit.edu/~lurie/papers/cobordism.pdf) Lurie
+* [On the Classification of Topological Field Theories (Draft)](http://www.math.harvard.edu/~lurie/papers/cobordism.pdf) [[Jacob Lurie]]
