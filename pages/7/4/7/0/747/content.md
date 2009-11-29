@@ -542,7 +542,7 @@ See also
 
 The characterization of the model category of simplicial presheaves as the canonical [[presentable (infinity,1)-category|presentation]] of the (hypercompletion of) the [[(∞,1)-category of (∞,1)-sheaves]] on a site is in
 
-* [proposition 6.5.2.1](http://www-math.mit.edu/~lurie/papers/highertopoi.pdf#page=528) of 
+* [proposition 6.5.2.1](http://www.math.harvard.edu/~lurie/papers/highertopoi.pdf#page=528) of 
 
   * [[Jacob Lurie]], [[Higher Topos Theory]]
 
@@ -551,9 +551,6 @@ Last not least, it is noteworthy that the idea of localizing simplicial sheaves 
 * [[Kenneth Brown]], [[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf cohomology]],
 
 using instead of a full [[model category]] structure the more lightweight one of a Brown [[category of fibrant objects]].
-
-[[Note on Formatting|?]]
-
 
 
 
