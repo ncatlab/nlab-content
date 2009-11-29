@@ -616,11 +616,15 @@ At least for those [[cosimplicial algebra]]s $A$ that are algebras of [[cochains
 
 On top of the references already listed, here are some more.
 
-The Alexander-Whiteny/Eilenberg-Zilber equivalences for the normalized chains functor are a special case of the strong [[deformation retract]] of chain complexes that was constructed 
+The Alexander-Whitney/Eilenberg-Zilber equivalences for the normalized chains functor are a special case of the strong [[deformation retract]] of chain complexes that was constructed 
 
 * [[Samuel Eilenberg]], [[Saunders MacLane]], _On the groups $H(\pi, n)$. II_  Annals of Mathematics (1954 ) 
 
 For any commutative ring $R$, they defined chain equivalences between the tensor product of the normalized chains on two simplicial R-modules and the normalized chains on their levelwise tensor product.
+
+See also the appendix in
+
+* Pavol &#352;evera, Thomas Willwacher, _Equivalence of formalities of the little discs operad_, [arXiv:0905.1789](http://arxiv.org/abs/0905.1789)
 
 [[!redirects monoidal Dold?Kan correspondence]]
 [[!redirects monoidal Dold--Kan correspondence]]
