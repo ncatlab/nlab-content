@@ -61,9 +61,9 @@ This lemma was given by Euclid as [Proposition 9](http://aleph0.clarku.edu/~djoy
 
 [[!include pentagon decagon hexagon identity/golden ratio]]
 
-By the golden triangle lemma for isosceles triangles with angles of 36&#176;, triangle $N O P$ gives us $r=t\Phi$.  From the same lemma, applied to triangle $N M P$ glued to its mirror image in the line $N M$, we have $2b=t/\Phi$.
+By the golden triangle lemma for isosceles triangles with angles of 36&#176;, triangle $N O P$ gives us $r=t\Phi$.  From the same lemma, applied to triangle $P N Q$, we have $2b=t/\Phi$.
 
-Multiplying the defining equation of the golden ratio, $\Phi=1+1/\Phi$, by $t$, we have $r=t+2b$.
+Because triangle $N Q O$ and $N Q P$ are both isosceles, $O Q = N Q = N P = t$, the decagon edge.  And we can read off the equation $r=t+2b$ just by summing the distances along $O P$.
 
 From the right triangle $N M P$ we have $s^2=t^2-b^2$, hence $(2s)^2=4t^2-4b^2$.
 
