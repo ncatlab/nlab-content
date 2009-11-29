@@ -6,22 +6,22 @@
 #Idea#
 
 The _Dold--Kan correspondence_ asserts that the [[nerve and realization]] [[adjunction]] between abelian 
-[[simplicial group]]s and [[chain complex]]es encodes
-[[infinity-groupoid]]s with abelian group structure equivalently in terms of [[chain complex]]es of abelian groups. 
+[[simplicial groups]] and [[chain complexes]] encodes
+$\infty$-[[infinity-groupoid|groupoids]] with abelian group structure equivalently in terms of [[chain complexes]] of abelian groups. 
 
 Analogous statement hold for the category of abelian groups replaces by any other [[abelian category]].
 
 This allows one
 
-* on the one hand to understand the true conceptual home of many constructions with [[chain complex]]es in [[homological algebra]];
+* on the one hand to understand the true conceptual home of many constructions with [[chain complexes]] in [[homological algebra]];
 
 * on the other to efficiently compute with certain higher categorical structures.
 
-Compare this to the role played by [[rational homotopy theory]] as a tool for handling certain [[topological space]]s.
+Compare this to the role played by [[rational homotopy theory]] as a tool for handling certain [[topological spaces]].
 
 The classical Dold--Kan correspondence states the equivalence of
 
-: [[simplicial group|simplicial abelian groups]] $\;\simeq\;$ non-negatively graded [[chain complex]]es of abelian groups.
+: [[simplicial group|simplicial abelian groups]] $\;\simeq\;$ non-negatively graded [[chain complexes]] of abelian groups.
 
 Since every [[simplicial group]] is a [[Kan complex]], one can equivalently read this more suggestively as 
 
@@ -47,7 +47,7 @@ $$
 
 between 
 
-* the category $[\Delta^{op},A]$ of [[simplicial object]]s in $A$;
+* the category $[\Delta^{op},A]$ of [[simplicial objects]] in $A$;
 
 * the [[category of chain complexes]] in $A$ that are 0 in negative degree,
 
@@ -61,7 +61,7 @@ where
 
   with [[differential]] $\partial_n : N G_n \to N G_{n-1}$ given by $d_0^n$.
 
-These functors respect the standard weak equivalences with respect to the standard [[model structure on simplicial sets]] [[model structure on chain complexes|and on chain complexes]] in that they induce isomorphisms between [[simplicial homotopy group]]s and [[homology]] groups.
+These functors respect the standard weak equivalences with respect to the standard [[model structure on simplicial sets]] [[model structure on chain complexes|and on chain complexes]] in that they induce isomorphisms between [[simplicial homotopy groups]] and [[homology group]]s.
 
 =--
 
@@ -263,12 +263,12 @@ The same is true if we replace abelian groups by $R$-modules for any commutative
 
 This means that one may ask whether the normalized Moore complex functor
 $$
-  N : [\Delta^{op},R-Mod] \to Ch_+(R-Mod) 
+  N : [\Delta^{op},R-Mod] \to Ch_+(R Mod) 
 $$
 and its adjoint
 $$
   \Xi:  
-       Ch_+(R-Mod) \to [\Delta^{op},R-Mod] 
+       Ch_+(R Mod) \to [\Delta^{op},R Mod] 
 $$
 respect these monoidal structures.  A partial answer is:
 
@@ -277,16 +277,16 @@ respect these monoidal structures.  A partial answer is:
 
 If $R$ is any commutative ring, the functor
 $$
-  N : [\Delta^{op},R-Mod] \to Ch_+(R-Mod) 
+  N : [\Delta^{op},R Mod] \to Ch_+(R Mod) 
 $$
 
-is [[lax monoidal functor|lax monoidal]] with respect to the [[Eilenberg Zilber map|Eilenberg-Zilber map]]
+is [[lax monoidal functor|lax monoidal]] with respect to the [[Eilenberg-Zilber map|Eilenberg?Zilber map]]
 
 $$
     EZ :  N(A \otimes B) \to N(A) \otimes N(B) 
 $$
 
-and [[oplax monoidal functor|oplax monoidal]] with respect to the [[Alexander Whitney map|Alexander-Whitney map]] 
+and [[oplax monoidal functor|oplax monoidal]] with respect to the [[Alexander-Whitney map|Alexander?Whitney map]] 
 
 $$ 
 AW :  N(A) \otimes N(B) \to N(A \otimes B)
@@ -338,7 +338,7 @@ As a consequence, both $N$ and $\Xi$ send [[monoid|monoids]] to monoids and [[co
 
 For more details, see:
 
-* [[monoidal Dold–Kan correspondence]]
+* [[monoidal Dold?Kan correspondence]]
 
 These [remarks by Kathryn Hess](http://golem.ph.utexas.edu/category/2009/11/doldkan_question.html#c029668) are also very useful, and should be integrated into the story here.  She uses "lax comonoidal functor" to mean what above is called an "[[oplax monoidal functor]]".
 
@@ -355,7 +355,7 @@ These [remarks by Kathryn Hess](http://golem.ph.utexas.edu/category/2009/11/dold
 
 ## Dual Dold--Kan correspondence ##
 
-There is a version relating [[cochain complex]]es in non-negative degree to cosimplicial abelian groups.  Indeed,
+There is a version relating [[cochain complexes]] in non-negative degree to cosimplicial abelian groups.  Indeed,
 replacing the abelian category $A$ by its [[opposite category]] $A^{op}$ in the Dold--Puppe theorem above, we instantly see:
 
 +-- {: .num_theorem }
@@ -409,7 +409,7 @@ In a series of articles by Brown and Higgins, based on old work by Whitehead, th
 
 : strict $\infty$-groupoids $\;\simeq\;$ crossed complexes.
 
-Here on the left we have [[strict omega-groupoid]]s and on the right [[crossed complex]]es, a non-abelian generalization of chain complexes of groups.
+Here on the left we have [[strict ∞-groupoids]] and on the right [[crossed complexes]], a non-abelian generalization of chain complexes of groups.
 
 : crossed complexes $\supset$ chain complexes$_+$ internal of abelian groups
 
@@ -435,13 +435,13 @@ In rational homotopy theory, Quillen proved and used an analogous statement for 
 ## Parameterized version ##
 
 The statement of the Dold--Kan correspondence generalizes to
-[[sheaf|sheaves]] with values in the respective categories and this way from [[Infinity-Grpd]] to more general [[(infinity,1)-topos|(infinity,1)-topoi]]:
+[[sheaf|sheaves]] with values in the respective categories and this way from [[? Grpd]] to more general $(\infty,1)$-[[(infinity,1)-topos|topoi]]:
 
 For $X$ be a [[site]], let $Sh(X, sAb)$ be the category of 
 _simplicial abelian sheaves_ -- i.e. [[simplicial presheaf|simplicial sheaves]] which take values
 in simplicial abelian groups -- and let $Sh(X, Ch_+(Ab))$
 be the category of [[sheaf|sheaves]] on $S$ with values in
-non-negatively graded [[chain complex]]es of abelian groups.
+non-negatively graded [[chain complexes]] of abelian groups.
 The normalized chain complex extends objectwise to a functor
 $$
   Sh(X,sAb) \stackrel{\simeq}{\to} Sh(X, Ch_+(Ab))
@@ -452,7 +452,7 @@ both these categories are naturally
 the weak equivalences in $Sh(X, sAb)$ are the stalkwise
 [[model structure on simplicial sets|weak equivalences of simplicial sets]]
 and the weak equivalences in $Sh(X, Ch_+(Ab))$ are the
-[[quasi-isomorphism]]s. The normalized chain complex functor
+[[quasi-isomorphisms]]. The normalized chain complex functor
 preserves these weak equivalences.
 This sheaf version of the Dold--Kan correspondence 
 allows to understand [[abelian sheaf cohomology]]
@@ -464,9 +464,9 @@ See page 9,10 of
 
 ## $(\infinity,1)$-Version ##
 
-There is a version of the Dold--Kan correspondence in the context of [[(infinity,1)-category|(infinity,1)-categories]]:
+There is a version of the Dold--Kan correspondence in the context of $(\infty,1)$-[[(infinity,1)-category|categories]]:
 
-let $C$ be a [[stable (infinity,1)-category]]. Then the $(\infty,1)$-categories of [[complex]]es in $C$ is equivalent to the $(\infty,1)$-category of [[simplicial object]]s in $C$
+let $C$ be a [[stable (∞,1)-category]]. Then the $(\infty,1)$-categories of [[complexes]] in $C$ is equivalent to the $(\infty,1)$-category of [[simplicial objects]] in $C$
 
 $$
   Fun(N(\mathbb{Z}_{\geq 0}), C)
@@ -477,11 +477,11 @@ $$
 
 This is [theorem 12.8, p. 50](http://math.mit.edu/~lurie/topoibook/DAGI.pdf) of 
 
-* [[Jacob Lurie]], [[Stable Infinity-Categories]] 
+* [[Jacob Lurie]], [[Stable ∞-Categories]] 
 
 ## Dendroidal version ##
 
-There is a version of the Dold--Kan correspondence with [[simplicial set]]s generalized to [[dendroidal set]]s. This is described in
+There is a version of the Dold--Kan correspondence with [[simplicial sets]] generalized to [[dendroidal sets]]. This is described in
 
 * [[Javier Gutiérrez]], [[Andor Lukacs]], [[Ittay Weiss]], _Dold-Kan correspondence for dendroidal abelian groups_ ([arXiv](http://arxiv.org/abs/0909.3995))
 
@@ -513,13 +513,13 @@ Historical references for the Dold--Kan correspondence are
 * A. Dold, _Homology of symmetric products and other functors of complexes_ 
 ([jstor](http://www.jstor.org/stable/1970043))
 
-which considers the correspondence for categories of [[module]]s, and
+which considers the correspondence for categories of [[modules]], and
 
 * A. Dold, D. Puppe, _Homologie nicht-additiver Funktoren. Anwendugen_ ([numdam](http://www.numdam.org/item?id=aif_1961__11__201_0))
 
 that generalizes the result to arbitrary [[abelian category|abelian categories]].
 
-The expression of the correspondence in terms of [[nerve]]s is due to
+The expression of the correspondence in terms of [[nerves]] is due to
 
 * [[Daniel Kan]], _Functors involving c.s.s complexes_, Transactions of the American Mathematical Society, Vol. 87, No. 2 (Mar., 1958), pp. 330--346 ([jstor](http://www.jstor.org/stable/1993103)).
 
@@ -531,9 +531,9 @@ A standard modern textbook reference for the ordinary Dold--Kan correspondence i
 The monoidal structure on the Dold--Kan correspondence functors is discussed in
 
 
-The relation between [[strict omega-groupoid]]s and [[crossed complex]]es is in
+The relation between [[strict ∞-groupoids]] and [[crossed complexes]] is in
 
-* R. Brown, P. Higgins, _The equivalence of $\infty$-groupoids and crossed complexes_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 22 no. 4 (1981), p. 371-386  ([pdf](http://archive.numdam.org/article/CTGDC_1981__22_4_371_0.pdf))
+* R. Brown, P. Higgins, _The equivalence of $\infty$-groupoids and crossed complexes_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 22 no. 4 (1981), p. 371--386  ([pdf](http://archive.numdam.org/article/CTGDC_1981__22_4_371_0.pdf))
 
 The discussion of Dold--Kan in the general context of [[semi-abelian category|semi-abelian categories]] is in
 
@@ -544,12 +544,12 @@ Categories in algebra, geometry and mathematical physics , volume 431 of Contemp
 
 
 [[!redirects Dold--Kan correspondence]]
-[[!redirects Dold–Kan correspondence]]
+[[!redirects Dold?Kan correspondence]]
 [[!redirects Dold-Kan theorem]]
 [[!redirects Dold--Kan theorem]]
-[[!redirects Dold–Kan theorem]]
+[[!redirects Dold?Kan theorem]]
 [[!redirects dual Dold--Kan correspondence]]
-[[!redirects dual Dold–Kan correspondence]]
+[[!redirects dual Dold?Kan correspondence]]
 [[!redirects dual Dold-Kan theorem]]
 [[!redirects dual Dold--Kan theorem]]
-[[!redirects dual Dold–Kan theorem]]
+[[!redirects dual Dold?Kan theorem]]
