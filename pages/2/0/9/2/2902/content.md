@@ -63,13 +63,14 @@ This lemma was given by Euclid as [Proposition 9](http://aleph0.clarku.edu/~djoy
 
 By the golden triangle lemma for isosceles triangles with angles of 36&#176;, triangle $N O P$ gives us $r=t\Phi$.  From the same lemma, applied to triangle $N M P$ glued to its mirror image in the line $N M$, we have $2b=t/\Phi$.
 
+Multiplying the defining equation of the golden ratio, $\Phi=1+1/\Phi$, by $t$, we have $r=t+2b$.
+
 From the right triangle $N M P$ we have $s^2=t^2-b^2$, hence $(2s)^2=4t^2-4b^2$.
 
 The whole large multi-coloured rectangle has an area of $(2s)^2$, because the green square, the light blue rectangle, and each of the two red rectangles _all_ have areas of $t^2$, but then we need to subtract the light red
 square where the two red rectangles overlap, and that has area $4b^2$.
 
-Now if we subtract a single $t^2$, the light blue rectangle, then we're left with a square of side length $r$,
-thanks to the fact that $\Phi=1+1/\Phi$.  So $(2s)^2-t^2=r^2$, which is the pentagon-decagon-hexagon identity.
+Now if we subtract a single $t^2$, the light blue rectangle, we're left with a square of side length $r$.  So $(2s)^2-t^2=r^2$, which is the pentagon-decagon-hexagon identity.
 
 ###Alternative construction displaying right triangles###
 
