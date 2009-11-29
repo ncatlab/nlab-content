@@ -328,21 +328,17 @@ As a consequence, both $N$ and $\Xi$ send [[monoid|monoids]] to monoids and [[co
 
 * [[monoidal Dold–Kan correspondence]]
 
-These ([remarks by Kathryn Hess](http://golem.ph.utexas.edu/category/2009/11/doldkan_question.html#c0296680)) are also very useful, and should be integrated into the story here.  She uses "lax comonoidal functor" to mean what above is called an "[[oplax monoidal functor]]".
+These [remarks by Kathryn Hess](http://golem.ph.utexas.edu/category/2009/11/doldkan_question.html#c029668) are also very useful, and should be integrated into the story here.  She uses "lax comonoidal functor" to mean what above is called an "[[oplax monoidal functor]]".
 
-"The normalized chains functor from simplicial sets to chain complexes (with any coefficients) is both lax monoidal and lax comonoidal.  The Eilenberg-Zilber equivalence, from the tensor product of the chains on X and on Y to the chains on the cartesian product of X and Y, provides the natural transformation that shows that the chain functor is lax monoidal. The Alexander-Whitney equivalence goes in the opposite direction and shows that the chain functor is lax comonoidal.
+>The normalized chains functor from simplicial sets to chain complexes (with any coefficients) is both lax monoidal and lax comonoidal.  The Eilenberg-Zilber equivalence, from the tensor product of the chains on X and on Y to the chains on the cartesian product of X and Y, provides the natural transformation that shows that the chain functor is lax monoidal. The Alexander-Whitney equivalence goes in the opposite direction and shows that the chain functor is lax comonoidal.
 
+>Since the chain functor is lax comonoidal, the normalized chains on any simplicial set is a dg coalgebra, where the comultiplication is given by the composite of the chain functor applied to the diagonal map, followed be the Alexadnder-Whitney transformation.  It turns out that the Eilenberg-Zilber equivalence is actually itself a morphism of coalgebras with respect to this comultiplication.  On the other hand, the Alexander-Whitney map is a morphism of coalgebras up to strong homotopy.
 
-Since the chain functor is lax comonoidal, the normalized chains on any simplicial set is a dg coalgebra, where the comultiplication is given by the composite of the chain functor applied to the diagonal map, followed be the Alexadnder-Whitney transformation.  It turns out that the Eilenberg-Zilber equivalence is actually itself a morphism of coalgebras with respect to this comultiplication.  On the other hand, the Alexander-Whitney map is a morphism of coalgebras up to strong homotopy.
+>The A-W/E-Z equivalences for the normalized chains functor are a special case of the strong deformation retract of chain complexes that was constructed by Eilenberg and MacLane in their 1954 Annals paper "On the groups H(pi, n). II".  For any commutative ring R, they defined chain equivalences between the tensor product of the normalized chains on two simplicial R-modules and the normalized chains on their levelwise tensor product.
 
+>Steve Lack and I observed recently that the normalized chains functor is actually even Frobenius monoidal.  We then discovered that Aguiar and Mahajan already had a proof of this fact in their recent monograph&#8230; :-)
 
-The A-W/E-Z equivalences for the normalized chains functor are a special case of the strong deformation retract of chain complexes that was constructed by Eilenberg and MacLane in their 1954 Annals paper "On the groups H(pi, n). II".  For any commutative ring R, they defined chain equivalences between the tensor product of the normalized chains on two simplicial R-modules and the normalized chains on their levelwise tensor product.
-
-
-Steve Lack and I observed recently that the normalized chains functor is actually even Frobenius monoidal.  We then discovered that Aguiar and Mahajan already had a proof of this fact in their recent monograph&#8230; :-)
-
-
-As to the Hopf algebra/bialgebra question, I admit I've often been guilty of referring to loop space homology as a "graded Hopf algebra", without any mention of antipode.  I was happy to learn a few years ago that connected graded bialgebras admit a unique antipode, as Mike has already pointed out.  On the chain level, if the simplicial group you're considering is reduced (i.e., has a unique 0-simplex), then its normalized chain complex is a connected dg bialgebra and therefore a dg Hopf algebra."
+>As to the Hopf algebra/bialgebra question, I admit I've often been guilty of referring to loop space homology as a "graded Hopf algebra", without any mention of antipode.  I was happy to learn a few years ago that connected graded bialgebras admit a unique antipode, as Mike has already pointed out.  On the chain level, if the simplicial group you're considering is reduced (i.e., has a unique 0-simplex), then its normalized chain complex is a connected dg bialgebra and therefore a dg Hopf algebra.
 
 
 ## Dual Dold--Kan correspondence ##
