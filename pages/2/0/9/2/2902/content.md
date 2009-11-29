@@ -61,7 +61,7 @@ This lemma was given by Euclid as [Proposition 9](http://aleph0.clarku.edu/~djoy
 
 [[!include pentagon decagon hexagon identity/golden ratio]]
 
-By the golden triangle lemma for isosceles triangles with angles of 36&#176;, triangle $N O P$ gives us $r=t\Phi$.  From the same lemma, applied to triangle $P N Q$, we have $2b=t/\Phi$.
+By the golden triangle lemma for isosceles triangles with angles of 36&#176;, triangle $N O P$ gives us $r=t\Phi$.  From the same lemma, applied to triangle $P N Q$, we have $2b=t/\Phi$.  So the product of $r$ and $2b$ is $t^2$.
 
 Because triangle $N Q O$ and $N Q P$ are both isosceles, $O Q = N Q = N P = t$, the decagon edge.  And we can read off the equation $r=t+2b$ just by summing the distances along $O P$.
 
@@ -81,6 +81,8 @@ While the construction above is straightforward, it's also possible to present a
 The diagram above is similar to one used in a common proof of Pythagoras's Theorem, but here we use it to establish the value of the square of the hypotenuse of a right triangle with sides $r$ and $t$, i.e. the hexagon edge and the decagon edge.
 
 The large tilted square has a hypotenuse as its side.  Its area is $4b^2$, from the central pink square, plus $4t^2$, from the four multi-coloured $t\times t$ squares arranged around the central square, minus four times the area of the dark green triangle that needs to be excluded (the contributions from the yellow triangles inside and outside the region cancel out).  But each dark green triangle has both base and height of $2b$, and hence an area of $2b^2$, so the total area is $4t^2+4b^2-4\times 2b^2=4t^2-4b^2=(2s)^2$, the square of a pentagon edge.
+
+At first glance it might seem as if we've only used $r=t+2b$ to derive the result here, whereas in the previous construction we needed the fact that the product of $r$ and $2b$ was $t^2$.  But we _have_ used it:  the yellow triangles that share an edge with the dark green triangles, and those that do not, are only congruent because of it.  The latter have one of their sides by construction being $r-t=2b$, whereas the former's matching side arises as a proportion of the larger $r\times t$ triangle as $\frac{t}{r}\cdot t=2b$.
 
 ##An identity in the golden ratio##
 
