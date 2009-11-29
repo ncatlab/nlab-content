@@ -20,7 +20,7 @@ The following is a summary of these results.
 
 The main point is that the fibrant objects are essentially those simplicial presheaves, which satisfy [[descent]] with respect not just to [[covers]], but to [[hypercovers]].
 
-Localizations of [[(∞,1)-presheaves]] at [[hypercovers]] are called [[hypercompletions]] in [section 6.5.3](http://www-math.mit.edu/~lurie/papers/highertopoi.pdf#page=534) of [[Higher Topos Theory]]. Notice that in [section 6.5.4](http://www-math.mit.edu/~lurie/papers/highertopoi.pdf#page=539) of [[Higher Topos Theory]] it is argued that it may be more natural _not_ to localize at [[hypercovers]], but just at [[covers]] after all.
+Localizations of [[(∞,1)-presheaves]] at [[hypercovers]] are called [[hypercompletions]] in [section 6.5.3](http://www.math.harvard.edu/~lurie/papers/highertopoi.pdf#page=534) of [[Higher Topos Theory]]. Notice that in [section 6.5.4](http://www.math.harvard.edu/~lurie/papers/highertopoi.pdf#page=539) of [[Higher Topos Theory]] it is argued that it may be more natural _not_ to localize at [[hypercovers]], but just at [[covers]] after all.
 
 #Details#
 
@@ -30,7 +30,7 @@ Let $[S^{op}, SSet]$ be the [[SimpSet|SSet]]-[[enriched category]] of [[simplici
 
 Recall from [[model structure on simplicial presheaves]] that there is the _global_ and the _local_ injective simplicial model structure on $[S^{op}, SSet]$, and that the local model structure is a (Bousfield-)localization of the global model structure.
 
-According to [section 6.5.2](http://www-math.mit.edu/~lurie/papers/highertopoi.pdf#page=528)  of [[Higher Topos Theory|HTT]] we have:
+According to [section 6.5.2](http://www.math.harvard.edu/~lurie/papers/highertopoi.pdf#page=528)  of [[Higher Topos Theory|HTT]] we have:
 
 * the full simplicial subcategory on fibrant-cofibrant objects of $[S^{op}, SSet]$ with respect to the _global_ injective model structure is (the [[SimpSet|SSet]]-[[enriched category]] realization of) the $(\infty,1)$-category  $PSh_{(\infty,1)}(S)$ of [[(∞,1)-presheaves]] on $S$.
 
