@@ -276,7 +276,7 @@ $$
   N : [\Delta^{op},Ab] \to Ch_+(Ab) 
 $$
 
-is [[lax monoidal|lax monoidal functor]] with respect to the Eilenberg--Zilber map
+is [[lax monoidal functor|lax monoidal]] with respect to the Eilenberg--Zilber map
 
 $$
     EZ :  N(A \otimes A) \to N(A) \otimes N(B) 
@@ -317,7 +317,7 @@ is lax monoidal with respect to the Alexander--Whitney map and oplax lax monoida
 
 As a consequence, both $N$ and $\Xi$ send [[monoid|monoids]] to monoids and [[comonoid|comonoids]] to comonoids.   For more details, see:
 
-* [[monoidal Dold-Kan correspondence]]
+* [[monoidal Dold–Kan correspondence]]
 
 
 Moreover, the normalized Moore complex functor is both  and [[oplax monoidal|oplax monoidal functor]] with respect to the levelwise tensor product of simplicial
@@ -435,7 +435,7 @@ See page 9,10 of
 
 ## $(\infinity,1)$-Version ##
 
-There is a version of the Dold-Kan correspondence in the context of [[(infinity,1)-category|(infinity,1)-categories]]:
+There is a version of the Dold--Kan correspondence in the context of [[(infinity,1)-category|(infinity,1)-categories]]:
 
 let $C$ be a [[stable (infinity,1)-category]]. Then the $(\infty,1)$-categories of [[complex]]es in $C$ is equivalent to the $(\infty,1)$-category of [[simplicial object]]s in $C$
 
@@ -452,7 +452,7 @@ This is [theorem 12.8, p. 50](http://math.mit.edu/~lurie/topoibook/DAGI.pdf) of
 
 ## Dendroidal version ##
 
-There is a version of the Dold-Kan correspondence with [[simplicial set]]s generalized to [[dendroidal set]]s. This is described in
+There is a version of the Dold--Kan correspondence with [[simplicial set]]s generalized to [[dendroidal set]]s. This is described in
 
 * [[Javier Gutiérrez]], [[Andor Lukacs]], [[Ittay Weiss]], _Dold-Kan correspondence for dendroidal abelian groups_ ([arXiv](http://arxiv.org/abs/0909.3995))
 
@@ -479,7 +479,7 @@ An obvious analogue gives cubical or globular nerves.
 
 #References#
 
-Historical references for the Dold-Kan correspondence are
+Historical references for the Dold--Kan correspondence are
 
 * A. Dold, _Homology of symmetric products and other functors of complexes_ 
 ([jstor](http://www.jstor.org/stable/1970043))
@@ -495,11 +495,11 @@ The expression of the correspondence in terms of [[nerve]]s is due to
 * [[Daniel Kan]], _Functors involving c.s.s complexes_, Transactions of the American Mathematical Society, Vol. 87, No. 2 (Mar., 1958), pp. 330--346 ([jstor](http://www.jstor.org/stable/1993103)).
 
 
-A standard modern textbook reference for the ordinary Dold-Kan correspondence is [chapter III.2](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-3.dvi) of 
+A standard modern textbook reference for the ordinary Dold--Kan correspondence is [chapter III.2](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-3.dvi) of 
 
 * Goerss, Jardine, _Simplicial Homotopy Theory_ ([web](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
 
-The monoidal structure on the Dold-Kan correspondence functors is discussed in
+The monoidal structure on the Dold--Kan correspondence functors is discussed in
 
 
 The relation between [[strict omega-groupoid]]s and [[crossed complex]]es is in
