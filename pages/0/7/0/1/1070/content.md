@@ -81,7 +81,7 @@ A good survey of the more general topic of derived categories is
 
 See in particular the list of references given there.
 
-For a discussion in the context of [[(∞,1)-category|(∞,1)-categories]] and in particular [[stable (∞,1)-category|stable (∞,1)-categories]] see [section 13, p. 53](http://www-math.mit.edu/~lurie/topoibook/DAGI.pdf#page=53)
+For a discussion in the context of [[(∞,1)-category|(∞,1)-categories]] and in particular [[stable (∞,1)-category|stable (∞,1)-categories]] see [section 13, p. 53](http://www.math.harvard.edu/~lurie/papers/DAG-I.pdf#page=53)
 
 of
 
