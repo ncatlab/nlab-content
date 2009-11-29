@@ -101,7 +101,7 @@ where $C_{\bullet,\bullet}$ is the corresponding [[complete Segal space]].
 
 =--
 
-This is [remark 11.4](http://arxiv.org/PS_cache/math/pdf/0608/0608228v5.pdf#page=43) in [[stable (infinity,1)-category|StCat]] in view of the lemma above that and using the discussion on [p. 27](http://www-math.mit.edu/~lurie/papers/cobordism.pdf#page=27) of _CobHyp_ .
+This is [remark 11.4](http://arxiv.org/PS_cache/math/pdf/0608/0608228v5.pdf#page=43) in [[stable (infinity,1)-category|StCat]] in view of the lemma above that and using the discussion on [p. 27](http://www.math.harvard.edu/~lurie/papers/cobordism.pdf#page=27) of _CobHyp_ .
 
 This construction is also conjectured in the last section of Toen-Vezzosi's _A remark on K-theory_ .
 
