@@ -4,13 +4,13 @@
 * automatic table of contents goes here
 {:toc}
 
-## Idea ##
+## Idea
 
 The collectoin $[S^\bullet,R]$ of $R$-valued functions on a [[simplicial set]] $S^\bullet$ is a commutative [[cosimplicial algebra]]. Under the [[monoidal Dold-Kan correspondence]] it maps to its [[Moore complex|Moore cochain complex]] $C^\bullet([S^\bullet,R])$ which is a [[dg-algebra]] under the [[cup product]]: this is the **cochain complex of the simplicial set**.
 
 Notably, this cochain complex is an [[E-k operad|E-∞]]-[[algebra over an operad|algebra]]. In [[chain homology and cohomology|cohomology]] it becomes a graded-commutative algebra.
 
-## Definition ##
+## Definition
 
 Let $R$ be commutative [[ring]]. 
 
@@ -61,7 +61,7 @@ $$
 for the [[Moore complex|Moore cochain complex]] obtained from the [[simplicial group|cosimplicial group]] $[S_\bullet,R]$. This is the **cochain complex** of the simplicial set $S$. Using the [[cup product]], this is even a [[dg-algebra]]. 
 
 
-## Properties ##
+## Properties
 
 
 +-- {: .un_prop}
@@ -87,7 +87,7 @@ For instance Prop 3.8 in _May03_ .
 
 ...
 
-### homotopy-commutativity
+### homotopy-commutativity {#homotopycommutativity}
 
 
 The [[dg-algebra]] of cochains $C^\bullet(S,R)$ is not, in general, (graded) commutative. But it is homotopy commutative in that it is an [[algebra over an operad]] for an [[E-k-operad|E-∞ operad]]
@@ -119,13 +119,13 @@ The statement for the Eilenberg-Zilber operad goes back to _HinSch87_ . A good r
 
 
 
-## Examples ##
+## Examples
 
 * For $X$ a [[topological space]] and $\Delta_{Top} : \Delta \to Top$ the canonical topological simplices, the simplicial set $X^{\Delta^\bullet_{Top}}$ is the [[singular simplicial complex]] of $X$. It cochain dg-algebra is the one that computes the [[singular cohomology]] of $X$. 
 
 
 
-## References ##
+## References
 
 An explicit description of the cochains that express the homotopy-symmetry of the cup product is discussoin from page 30 on of the old
 
