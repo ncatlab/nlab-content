@@ -2,11 +2,13 @@
 * automatic table of contents
 {:toc}
 
+
 ## Idea
 
 The plain [[Dold-Kan correspondence]] establishes an equivalence between (co)simplicial groups and (co)chain complexes.
 
 Both these categories carry natural [[monoidal category]] structures. It turns out that the Dold-Kan correspondence does respect this monoidal structure, either strictly or in their suitable [[higher category theory|higher categorical]] sense.
+
 
 ## General discussion 
 
@@ -123,7 +125,7 @@ Further work along such lines is
 
 This shows that the Dold-Kan map from Chain complexes to simplicial abelian groups is, while not a [[monoidal category|monoidal functor]], an [[E-k-operad|E-infinity monoidal functor]].
 
-This implies that generalized [[Eilenberg-MacLane spectrum|Eilenberg-MacLane spectra]] on [[differential graded algebra|differential graded commutative algebras]] are [[E-k operad|E-infinity monoids]] in the category of $H \mathbb{Z}$-[[module]] [[spectrum|spectra]].
+This implies that generalized [[Eilenberg?Mac Lane spectra]] on [[differential graded algebra|differential graded commutative algebras]] are [[E-k operad|E-infinity monoids]] in the category of $H \mathbb{Z}$-[[module]] [[spectrum|spectra]].
 
 * Birgit Richter, _Homotopy algebras and the inverse of the normalization functor_ ([pdf](http://www.math.uni-hamburg.de/home/richter/invjpaa.pdf))
 
@@ -146,9 +148,9 @@ However, this article explicitly constructs the (derived) [[adjoint functor]] to
 
 Explicit discussion of the Moore co-chain complex functor as inducing an $\infty$-monoidal functor seems not to be in the literature explicitly at time of this writing (?), even though various of its aspects are implicit, partly classical, statements. The following tries to make some aspects explicit.
 
-### Alexander-Whitney and shuffle morphisms {#AlexWhitneyShuffle}
+### Alexander--Whitney and shuffle morphisms {#AlexWhitneyShuffle}
 
-A central ingredient in the monoidal Dold-Kan correspondence are the Alexander-Whiney and the shuffle morphisms.
+A central ingredient in the monoidal Dold-Kan correspondence are the Alexander--Whitney and the shuffle morphisms.
 
 See chapter VI, paragraph 12 of
 
@@ -160,7 +162,7 @@ or chapter VIII, paragraph 8 of
 
 For $A, B$ cosimplicial abelian groups, $C A$ and $C B$ their [[Moore complex|Moore cochain complex]]es, 
 
-the **Alexander-Whitney morphism** is the morphism
+the **Alexander--Whitney morphism** is the morphism
 
 $$  
   N A \otimes N B \to N(A \otimes B)
@@ -206,7 +208,7 @@ $$
 
 where the sum is over all $(p,q)$ [[shuffle]]s $(\mu,\nu)$ and $\epsilon(\mu,\nu)$ is the sign of the shuffle.
 
-Both the Alexander-Whiney morphism as well as the shuffle morphism respect the passage to the normalized [[Moore complex]] $N A$ of $C A$ and hence induce also morphisms
+Both the Alexander--Whitney morphism as well as the shuffle morphism respect the passage to the normalized [[Moore complex]] $N A$ of $C A$ and hence induce also morphisms
 
 $$
   AW : N A \otimes N B \to N(A \otimes B)
@@ -612,11 +614,12 @@ structure with respect to the standard monoidal structure on cosimplicial abelia
 
 At least for those [[cosimplicial algebra]]s $A$ that are algebras of [[cochains on simplicial sets]] $S^\bullet \in SSet$, i.e. $A = C(S^\bullet, R)$ it is known that the Moore complex [[dg-algebra]] $N^\bullet(A)$ equipped with the [[cup product]] is an [[E-k-operad|E-∞]]-[[algebra over an operad|algebra]]. See [[cochains on simplicial sets]] for details on this.
 
+
 ## References ##
 
 On top of the references already listed, here are some more.
 
-The Alexander-Whitney/Eilenberg-Zilber equivalences for the normalized chains functor are a special case of the strong [[deformation retract]] of chain complexes that was constructed 
+The Alexander--Whitney/Eilenberg--Zilber equivalences for the normalized chains functor are a special case of the strong [[deformation retract]] of chain complexes that was constructed 
 
 * [[Samuel Eilenberg]], [[Saunders MacLane]], _On the groups $H(\pi, n)$. II_  Annals of Mathematics (1954 ) 
 
@@ -626,5 +629,7 @@ See also the appendix in
 
 * Pavol &#352;evera, Thomas Willwacher, _Equivalence of formalities of the little discs operad_, [arXiv:0905.1789](http://arxiv.org/abs/0905.1789)
 
+
 [[!redirects monoidal Dold?Kan correspondence]]
 [[!redirects monoidal Dold--Kan correspondence]]
+[[!redirects monoidal Dold-kan correspondence]]
