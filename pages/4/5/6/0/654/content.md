@@ -66,7 +66,7 @@ Notice that, by the very definition of [[Morita equivalence]], two algebras (alg
 
 $Vect$-enriched categories as models for 2-vector spaces appear in 
 
-* Jacob Lurie, _On the classification of topological field theories_ ([pdf](http://www-math.mit.edu/~lurie/papers/cobordism.pdf)) (see example 1.2.4)
+* Jacob Lurie, _On the classification of topological field theories_ ([pdf](http://www.math.harvard.edu/~lurie/papers/cobordism.pdf)) (see example 1.2.4)
 
 * B. To&#235;n, G. Vezzosi, _A note on Chern character, loop spaces and derived algebraic geometry_, ([arXiv](http://arxiv.org/abs/0804.1274), p. 6)
 
