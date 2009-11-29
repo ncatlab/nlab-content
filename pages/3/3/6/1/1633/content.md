@@ -1,6 +1,14 @@
+# Localy compact spaces
+* tic
+{: toc}
+
+
+## Definition
+
 A locally compact space is a space such that every point has a [[compact space|compact]] neighborhood. It may be considered as an example of a [[nice topological space]]. 
 
 Note: as observed in the discussion at [[compact space]], many authors choose to include the [[Hausdorff space|Hausdorff]] condition as a matter of course, calling locally compact not-necessarily-Hausdorff spaces 'locally quasi-compact'. We will not follow that convention here, but the reader should be warned that without the Hausdorff hypothesis, there are several inequivalent notions of local compactness in the literature; see [the English Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Locally_compact_space) for a survey and counterexamples. 
+
 
 ## Examples ## 
 
@@ -16,9 +24,10 @@ Note: as observed in the discussion at [[compact space]], many authors choose to
 
 1. The only Hausdorff [[topological vector space]]s that are locally compact are finite-dimensional Euclidean spaces. More generally, a TVS is locally compact if and only if its Hausdorff quotient has finite dimension. 
 
-## Basic categorical results ## 
 
-Perhaps the most important consequence of local compactness for categorical topology is that locally compact spaces are [[exponential object|exponentiable]], i.e., if $Y$ is locally compact, then $Y \times -: Top \to Top$ has a [[adjunction|right adjoint]] $(-)^Y: Top \to Top$. In fact, this is almost an abstract definition of local compactness: for $T_0$ spaces, local compactness is equivalent to being exponentiable. This situation generalises to [[locale]]s: a result of Hyland is that locale is locally compact if and only if it is exponentiable. 
+## Basic category-theoretic results ## 
+
+Perhaps the most important consequence of local compactness for categorical topology is that locally compact spaces are [[exponential object|exponentiable]], i.e., if $Y$ is locally compact, then $Y \times -: Top \to Top$ has a [[adjunction|right adjoint]] $(-)^Y: Top \to Top$. In fact, this is almost an abstract definition of local compactness: for $T_0$ spaces, local compactness is equivalent to being exponentiable. This situation generalises to [[locales]]: a result of Hyland is that locale is locally compact if and only if it is exponentiable.  (See [[exponential law for spaces]] for more details.)
 
 As noted above, locally compact spaces form a finitely complete [[full subcategory]] of $Top$. It is not true that arbitrary products of locally compact spaces are locally compact. However, some important examples of locally compact spaces are constructed as restricted direct products, as follows. 
 
@@ -30,6 +39,10 @@ These hypotheses are of course pretty severe; the main examples of such restrict
 
 Locally compact spaces are closed under [[coproduct]]s in $Top$. They do not admit many types of [[colimit]]s generally; in some sense this is a _raison d\'&#234;tre_ for [[compactly generated space]]s: they are precisely the colimits in $Top$ of diagrams of locally compact spaces. 
 
-# Further properties #
 
-Locally compact spaces are [[paracompact space|paracompact]] whenever they are also Hausdorff and [[second countable space|second countable]].
+## Further properties #
+
+Locally compact Hausdorff spaces are [[paracompact space|paracompact]] whenever they are also [[second countable space|second countable]].
+
+
+[[!redirects locally compact Hausdorff space]]
