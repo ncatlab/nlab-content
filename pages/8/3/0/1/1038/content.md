@@ -1,6 +1,6 @@
 This entry is about the text 
 
-* Jacob Lurie, _Stable $\infty$-Categories_ ([pdf](http://www-math.mit.edu/~lurie/topoibook/DAGI.pdf))
+* Jacob Lurie, _Stable $\infty$-Categories_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-I.pdf))
 
 For a definition of stable $\infty$-categories see [[stable infinity-category]].
 
