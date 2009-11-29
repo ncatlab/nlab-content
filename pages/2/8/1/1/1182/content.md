@@ -1167,7 +1167,7 @@ For the [[monoidal (infinity,1)-category|monoidal]] aspects
 
 For the general TQFT background and in particular see
 
-* [[Jacob Lurie]], _On the classification of TFT_ ([pdf](http://www-math.mit.edu/~lurie/papers/cobordism.pdf))
+* [[Jacob Lurie]], _On the classification of TFT_ ([pdf](http://www.math.harvard.edu/~lurie/papers/cobordism.pdf))
 
 In particular see also the beginning of section 4.1 there for more on $E_n$-monoidal $(\infty,1)$-categories.
 
