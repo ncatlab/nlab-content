@@ -20,7 +20,7 @@ Do you really think that '[[E-∞ ring]]s' looks better than $E_\infty$-[[E-infi
 
 A discussion of $E_k$ in the context of [[(∞,1)-operad]]s is in
 
-* [[Jacob Lurie]], _$\mathbb{E}_k$-algebras_ ([pdf](http://www-math.mit.edu/~lurie/papers/DAG-VI.pdf))
+* [[Jacob Lurie]], _$\mathbb{E}_k$-algebras_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-VI.pdf))
 
 
 [[!redirects E-k-operad]]
