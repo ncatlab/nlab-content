@@ -2,12 +2,12 @@
 
 
 
-* [website](http://www-math.mit.edu/~lurie/)
+* [website](http://www.math.harvard.edu/~lurie/)
 
 
 #References (partly) indexed on the $n$Lab#
 
-* [[Higher Topos Theory]] ([arXiv](http://arxiv.org/abs/math.CT/0608040), [published version](http://www-math.mit.edu/~lurie/papers/highertopoi.pdf))
+* [[Higher Topos Theory]] ([arXiv](http://arxiv.org/abs/math.CT/0608040), [published version](http://www.math.harvard.edu/~lurie/papers/highertopoi.pdf))
 
   on [[higher category theory]] and [[higher topos theory]]
 
@@ -27,7 +27,7 @@
 
   on [[higher algebra]]
 
-  **alert**: the new version is now [here](http://www-math.mit.edu/~lurie/papers/DAG-III.pdf)
+  **alert**: the new version is now [here](http://www.math.harvard.edu/~lurie/papers/DAG-III.pdf)
 
   the new version differs from the previous one by embedding the theory of [[symmetric monoidal (∞,1)-category|symmetric monoidal (∞,1)-categories]] into a theory of [[(∞,1)-operad]]s.
 
@@ -40,17 +40,17 @@
 
   on [[FQFT|functorial]] [[extended topological quantum field theory|extended]] [[TQFT|topological]] [[quantum field theory]]
 
-* [[A Survey of Elliptic Cohomology]] ([pdf](http://www-math.mit.edu/~lurie/papers/survey.pdf))
+* [[A Survey of Elliptic Cohomology]] ([pdf](http://www.math.harvard.edu/~lurie/papers/survey.pdf))
 
   on the [[generalized (Eilenberg-Steenrod) cohomology]] theory [[tmf]], the gluing of all [[elliptic cohomology]] theories
 
-* _$\mathbb{E}[k]$-Algebras_ ([pdf](http://www-math.mit.edu/~lurie/papers/DAG-VI.pdf))
+* _$\mathbb{E}[k]$-Algebras_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-VI.pdf))
 
   on little cubes [[(∞,1)-operad]]s
 
 >**Warning** These documents keep being updated and expanded. On the personal webpage as well as, with the due time delay, on the arXiv. Likely many references to page and definition/theorem numbers on the $n$Lab to these articles are already outdated
 
-* PhD thesis, _derived algebraic geometry_ ([pdf](http://www-math.mit.edu/~lurie/papers/DAG.pdf))
+* PhD thesis, _derived algebraic geometry_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG.pdf))
 
   on [[derived algebraic geometry]]
 
