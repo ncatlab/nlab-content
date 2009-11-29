@@ -110,7 +110,7 @@ See also for instance lemma 3.4.9 in
 
 =--
 
-**Remark**. So this says that every &#268;ech cover is a [[hypercover]]. But not conversely. [[localization|Localization]] of [[simplicial presheaf|simplicial presheaves]] at &#268;ech covers yieds [[Čech coohomology]]. 
+**Remark**. So this says that every &#268;ech cover is a [[hypercover]]. But not conversely. [[localization|Localization]] of [[simplicial presheaf|simplicial presheaves]] at &#268;ech covers yieds [[Čech cohomology]]. 
 
 
 [[!redirects Čech cover]]
