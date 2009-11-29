@@ -1,3 +1,10 @@
+#Contents#
+* automatic table of contents
+{:toc}
+
+
+## Idea
+
 A PRO, an abbreviation for "product category", is similar to a [[PROP]] but more general, being merely a monoidal category but not necessarily symmetric monoidal. They may be used to describe theories for finitary algebraic and coalgebraic structures which make sense in any monoidal category, for example monoids and comonoids. 
 
 ## Definitions 
