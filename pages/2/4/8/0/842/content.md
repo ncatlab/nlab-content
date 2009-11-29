@@ -20,7 +20,7 @@ The definition of [[colimit]] in this context is the obvious analogue.
 
 Let $K$ and $C$ be categories [[enriched category|enriched]] in [[Kan complex|Kan complexes]] and $F : K \to C$ a morphism of Kan-enriched categories (i.e. an [[SimpSet]]-functor). Then the [[homotopy limit]] of $F$ (computed for instance as described at [[weighted limit]]) coincides with the quasi-categorical limit of $F$ under the embedding of simplicial categories into quasi-categories.
 
-This is [theorem 4.2.4.1, p. 214](http://www-math.mit.edu/~lurie/topoibook/highertopoi.pdf#page=214) in Lurie's book (see below).
+This is [theorem 4.2.4.1, p. 214](http://www.math.harvard.edu/~lurie/papers/highertopoi.pdf#page=214) in Lurie's book (see below).
 
 
 # Properties # 
