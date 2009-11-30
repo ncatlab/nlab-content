@@ -168,6 +168,15 @@ This is prop. 2.6 in [CisMoe](http://arxiv.org/abs/0902.1954).
 
 =--
 
+The [[cofibrantly generated model category|generating cofibrations]] $I$ are the boundary inclusion of [[tree]]s
+
+$$
+  I = \{\partial \Omega[T] \hookrightarrow \Omega[T]\}
+  \,.
+$$
+
+A set of generating cofibrations is guaranteed to exist, but no good explicit characterization is known to date.
+
 +-- {: .un_corollary }
 ###### Corollary
 
