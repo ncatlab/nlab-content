@@ -103,7 +103,23 @@ and how one tends to visualize morphisms $n \to (n+1)$.
 
 ## Faces of trees and dendroidal sets ##
 
-The morphisms in the [[simplex category]] $\Delta$ coming from injective maps have the following analog for trees:
+The _face maps_ on trees, regarded as dendroidal sets, are morphisms that generalize the face maps in the [[simplex category]] $\Delta$. Defining them in $\Omega$ requires a few case distinctions:
+
+there are
+
+1. inner face maps -- obtained by contracting an inner edge
+
+1. outer face maps -- obtained by 
+
+   1. removing an outer input vertex
+
+   1. removing a unary vertex whose output is the root
+
+   1. a corolla face -- any one of the inclusions of the tree with no vertex into a tree with precisely one vertex
+
+
+
+### Inner faces
 
 For $T \in \Omega$ and $e$ an _inner edge_ (in the obvious sense), write $T/e$ for the tree obtained by contracting/discarding this inner edge. There is then a canonical inclusion
 
@@ -181,6 +197,8 @@ $
 $
 
 
+### Outer face maps
+
 In contrast to that, _outer_ edges are always removed together: 
 
 if $v$ is a vertex of $T$ such that all but one edge incident on it are outer, then denote by $T/v$ the tree obtained by discarding $v$ and all the outer edges indicent on it. There is then again a canonical inclusion
@@ -190,7 +208,7 @@ $$
   \,.
 $$
 
-This is called an **inner face map**-
+This is called an **oute face map**-
 
 In the above example for $T$ we have
 
@@ -207,6 +225,26 @@ $$
     }
   \right)
 $$
+
+### Corolla faces
+
+If the tree has precisely one vertex it is called a **corolla**. There are $n+1$ injections of the tree with no vertex $|$ into the corolla with $n$ inputs. All these are outer face maps.
+
+$$
+  | \hookrightarrow
+  \array{
+    \searrow && \swarrow
+    \\
+    & {*}
+    \\
+    & \downarrow
+  }
+  \,.
+$$
+
+
+### Properties
+
 
 +-- {: .un_lemma }
 ###### Lemma
@@ -316,9 +354,17 @@ into a [[simplicial model category]] and a [[monoidal model category]], respecti
 
 ## References ##
 
-* [[Ieke Moerdijk]] [[Ittay Weiss]], _Dendroidal sets_ ([web](http://cat.inist.fr/?aModele=afficheN&cpsidt=20087314))
+The PhD thesis that gave the original definition:
 
 * [[Ittay Weiss]], _Dendroidal sets_ PhD thesis ([web](http://igitur-archive.library.uu.nl/dissertations/2007-0918-200833/UUindex.html))
+
+The publication derived from that:
+
+* [[Ieke Moerdijk]] [[Ittay Weiss]], _Dendroidal sets_ ([web](http://cat.inist.fr/?aModele=afficheN&cpsidt=20087314))
+
+A discussion of inner Kan complexes (see also [[model structure on dendroidal sets]]):
+
+* [[Ieke Moerdijk]] [[Ittay Weiss]], _On inner Kan complexes in the category of dendroidal sets_ ([web](http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6W9F-4VM2KC8-1&_user=457046&_rdoc=1&_fmt=&_orig=search&_sort=d&_docanchor=&view=c&_searchStrId=1115574112&_rerunOrigin=google&_acct=C000021878&_version=1&_urlVersion=0&_userid=457046&md5=5eb2307e02ed1aa9e6fe2c7809346546))
 
 Here two blog entries with some summaries and pointers to the literature
 
