@@ -30,6 +30,8 @@ Further remarks should be made which connect this to the theory of [[continuous 
 Zoran, in what sense is the map $\theta f$ below continuous?  I mean, what is the topology on $B^X$?  You don\'t introduce the compact--open topology until later, but that\'s the topology that I would guess is relevant.  ---Toby
 =--
 
+Denote by $Map(X,Y)=X^Y$ the space of continuous maps $X\to Y$ in [[compact-open topology]].
+
 +-- {: .un_theorem}
 ###### Theorem (Exponential law)
 Let
