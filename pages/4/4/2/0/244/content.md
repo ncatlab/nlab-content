@@ -1,4 +1,9 @@
-# Idea #
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+
+## Idea 
 
 A _symmetric monoidal category_ is a category with a product operation -- a [[monoidal category]] -- for which the product is _as commutative as possible_.
 
@@ -9,7 +14,7 @@ For higher monoidal categories there are accordingly ever more shades of the not
 In general, the term _symmetric monoidal_ is used for the maximally commutative case. See for instance [[symmetric monoidal (∞,1)-category]]. Notably, a symmetric monoidal [[∞-groupoid]] is, under the [[homotopy hypothesis]], the same as a [[spectrum|connective spectrum]].
 
 
-#Details#
+## Details
 
 A _symmetric monoidal category_ is a [[braided monoidal category]] for which the braiding 
 $$ B_{x,y} : x \otimes y \to y \otimes x $$
@@ -24,7 +29,7 @@ There is a [[strict 2-category]] SymmMonCat with:
 * [[symmetric monoidal natural transformation]]s as 2-morphisms.
 
 
-# Examples #
+## Examples 
 
 * Every [[cartesian monoidal category]] is necessarily symmetric monoidal, due to the essential uniqueness of the categorical [[product]]. This includes cases such as [[Set]], [[Cat]].
 
@@ -33,7 +38,16 @@ There is a [[strict 2-category]] SymmMonCat with:
 * The category of $\mathbb{Z}_2$-[[graded vector space]]s, on the other hand, has two different symmetric monoidal extensions of the standard [[tensor product]] monoidal structure. One is the trivial one from above, the other is the one that induces a a sign when two odd-graded vectors $v$ and $w$ are passed past each other : $v \otimes w \mapsto - w \otimes v$. This non-trivial symmetric monoidal structure on $Vect[\mathbb[Z}_2]$ defines the symmetric monoidal category of [[super vector space]]s.
 
 
-#References#
+## Alternative characterizations
+
+A symmetric monoidal category is equivalently a category that is equipped with the structure of an [[algebra over an operad|algebra over]] the [[little cubes operad|little k-cubes operad]] for $k \geq 3$
+
+Details are in examples 1.2.3 and 1.2.4 of
+
+* [[Jacob Lurie]], [[E-k-Algebras]]
+
+
+## References
 
 For definitions of all these concepts, see:
 
