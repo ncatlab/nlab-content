@@ -27,7 +27,13 @@ Note: as observed in the discussion at [[compact space]], many authors choose to
 
 ## Basic category-theoretic results ## 
 
-Perhaps the most important consequence of local compactness for categorical topology is that locally compact spaces are [[exponential object|exponentiable]], i.e., if $Y$ is locally compact, then $Y \times -: Top \to Top$ has a [[adjunction|right adjoint]] $(-)^Y: Top \to Top$. In fact, this is almost an abstract definition of local compactness: for $T_0$ spaces, local compactness is equivalent to being exponentiable. This situation generalises to [[locales]]: a result of Hyland is that locale is locally compact if and only if it is exponentiable.  (See [[exponential law for spaces]] for more details.)
+Perhaps the most important consequence of local compactness for categorical topology is that locally compact spaces are [[exponential object|exponentiable]], i.e., if $Y$ is locally compact, then $Y \times -: Top \to Top$ has a [[adjunction|right adjoint]] $(-)^Y: Top \to Top$. In fact, this is almost an abstract definition of local compactness: for $T_0$ spaces, local compactness is equivalent to being exponentiable. This situation generalises to [[locales]]: a result of Hyland is that locale is locally compact if and only if it is exponentiable.  (See [[exponential law for spaces]] for more details.) 
+
++--{.query}
+
+[[Todd Trimble]]: I think this claim for locally compact spaces as defined above is false; locally compact spaces are exponentiable if instead they are defined to be spaces which have a neighborhood base of compact neighborhoods. I don't quite see how the additional hypothesis of $T_0$ would change that. 
+
+=--
 
 As noted above, locally compact spaces form a finitely complete [[full subcategory]] of $Top$. It is not true that arbitrary products of locally compact spaces are locally compact. However, some important examples of locally compact spaces are constructed as restricted direct products, as follows. 
 
