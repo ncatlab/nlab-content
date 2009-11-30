@@ -283,13 +283,13 @@ $$
 is [[lax monoidal functor|lax monoidal]] with respect to the [[Eilenberg-Zilber map|Eilenberg?Zilber map]]
 
 $$
-    EZ :  N(A \otimes B) \to N(A) \otimes N(B) 
+    EZ : N(A) \otimes N(B) \to  N(A \otimes B)  
 $$
 
 and [[oplax monoidal functor|oplax monoidal]] with respect to the [[Alexander-Whitney map|Alexander?Whitney map]] 
 
 $$ 
-AW :  N(A) \otimes N(B) \to N(A \otimes B)
+AW :  N(A \otimes B) \to N(A) \otimes N(B)  
 $$
 
 The Alexander--Whitney map is left inverse to the Eilenberg--Zilber map:
