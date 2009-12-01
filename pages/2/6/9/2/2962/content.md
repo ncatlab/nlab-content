@@ -49,3 +49,14 @@ Then
 (iii) If the 2-cocycle is obtained from a Lie algebra extension $0\to \mathfrak{k}\overset{i_0}\to \mathfrak{g}_0\overset{p_0}\to\mathfrak{b}\to 0$ and an arbitrary $F$-linear section $\sigma_0$ of $p_0$, then the map $can_\sigma:\mathfrak{g}_0\to\mathfrak{g}$ given by $g\mapsto (p(g),-\sigma(p(g))+g)$ is well-defined and a Lie algebra isomorphism such that $can_\sigma\circ i_0=i$, $p_0=p\circ can_\sigma$, hence the two extensions are isomorphic. 
 
 In addition to the problem of extensions, nonabelian 2-cocycles appear in a more general problem of liftings of Lie algebras. 
+
+#References
+
+The notation above is from personal notes of Z. &#352;koda (1997). A systematic theory has been many times partly rediscovered from soon after the Eilenberg-MacLane work on group extension till nowdays. Here is a recent online account emphasising parallels with differential geometry:
+
+*  Dmitri Alekseevsky, Peter W. Michor, Wolfgang Ruppert, Extensions of Lie algebras
+[math.DG/0005042](http://arxiv.org/abs/math/0005042)
+
+More conceptual picture is in a work of Danny Stevenson which extends also to it scategorification, extensions of Lie 2-algebras. See
+
+* Danny Stevenson, Lie 2-algebras and the geometry of gerbes, Unni Namboodiri Lectures 2006 [slides](http://math.ucr.edu/home/baez/namboodiri/stevenson_maclane.pdf)
