@@ -1,12 +1,12 @@
 #Idea
 
-While abelian Lie algebra cohomology is obtained from the study of Chevalley-Eilenberg complex, some nonabelian generalizations are known in low dimensions. The coefficients are not now in a Lie algebra module (which is viewed here as an abelian Lie algebra with action of another Lie algebra), but an arbitrary Lie algebra with something what is action of another Lie algebra up to an inner automorphism. 
+While abelian [[Lie algebra cohomology]] is obtained from the study of [[Chevalley-Eilenberg complex]], some nonabelian generalizations are known in low dimensions. The coefficients are not now in a Lie algebra module (which is viewed here as an abelian Lie algebra with action of another Lie algebra), but an arbitrary Lie algebra with something what is action of another Lie algebra up to an inner automorphism. 
 
 For example the problem of extensions of Lie algebras by nonabelian Lie algebras leads to 1,2,3 nonabelian cocycles; 2-cocycles are analogues of factor systems.
 
 #Nonabelian 2-cocycles
 
-Let $F$ be a field. **Lie algebra factor system** (or a **nonabelian 2-cocycle**) on a $F$-Lie algebra $\mathfrak{b}$ with coefficients in $F$-Lie algebra $k$ is a pair $(\chi,\psi)$ where $\chi: \mathfrak{b}\wedge \mathfrak{b}\to\mathfrak{k}$ and $\psi:\mathfrak{b}\to Der(\mathfrak{k})$ are $F$-linear maps satisfying
+Let $F$ be a field. **Lie algebra factor system** (or a **nonabelian 2-cocycle**) on a $F$-Lie algebra $\mathfrak{b}$ with coefficients in $F$-Lie algebra $\mathfrak{k}$ is a pair $(\chi,\psi)$ where $\chi: \mathfrak{b}\wedge \mathfrak{b}\to\mathfrak{k}$ and $\psi:\mathfrak{b}\to Der(\mathfrak{k})$ are $F$-linear maps satisfying
 
 $$
 \chi([b_1,b_2]\wedge b_3)-\chi(b_1\wedge [b_2,b_3])+\chi(b_2\wedge[b_1,b_3])=\psi(b_3)(\chi(b_1\wedge b_2))-\psi(b_1)(\chi(b_2\wedge b_3))+\psi(b_2)(\chi(b_1\wedge b_3))
@@ -44,7 +44,7 @@ Then
 
 (i) $[,]$ is a antisymmetric and satisfies the Jacobi identity, i.e. $\mathfrak{g}:=(\mathfrak{b}\oplus\mathfrak{k},[,])$ is an $F$-Lie algebra. 
 
-(ii) $b\mapsto (b,0)$ defines an embedding $i:\mathfrak{b}\to\mathfrak{g}$ of Lie algebras and $p:(b,k)\mapsto k$ is a surjective homomorphism of Lie algebra whose kernel is the Lie ideal $i(\mathfrak{b})=\mathfrak{b}\oplus 0\subset\mathfrak{g}$. This way $0\to\mathfrak{k}\overset{i}\to\mathfrak{g}\overset{p}\to\mathfrak{b}\to 0$ is an extension of the base Lie algebra $\mathfrak{b}$ by the kernel Lie algebra $\mathfrak{k}$. 
+(ii) $k\mapsto (0,k)$ defines an embedding $i:\mathfrak{k}\to\mathfrak{g}$ of Lie algebras and $(b,k)\mapsto b$ is a surjective homomorphism of Lie algebra $p:\mathfrak{g}\to\mathfrak{b}$ whose kernel is the Lie ideal $i(\mathfrak{k})=0\oplus\mathfrak{k}\subset\mathfrak{g}$. This way $0\to\mathfrak{k}\overset{i}\to\mathfrak{g}\overset{p}\to\mathfrak{b}\to 0$ is an extension of the base Lie algebra $\mathfrak{b}$ by the kernel Lie algebra $\mathfrak{k}$. 
 
 (iii) If the 2-cocycle is obtained from a Lie algebra extension $0\to \mathfrak{k}\overset{i_0}\to \mathfrak{g}_0\overset{p_0}\to\mathfrak{b}\to 0$ and an arbitrary $F$-linear section $\sigma_0$ of $p_0$, then the map $can_\sigma:\mathfrak{g}_0\to\mathfrak{g}$ given by $g\mapsto (p(g),-\sigma(p(g))+g)$ is well-defined and a Lie algebra isomorphism such that $can_\sigma\circ i_0=i$, $p_0=p\circ can_\sigma$, hence the two extensions are isomorphic. 
 
@@ -57,6 +57,6 @@ The notation above is from personal notes of Z. &#352;koda (1997). A systematic 
 *  Dmitri Alekseevsky, Peter W. Michor, Wolfgang Ruppert, Extensions of Lie algebras
 [math.DG/0005042](http://arxiv.org/abs/math/0005042)
 
-More conceptual picture is in a work of Danny Stevenson which extends also to it scategorification, extensions of Lie 2-algebras. See
+More conceptual picture is in a work of Danny Stevenson which extends also to its categorification, extensions of Lie 2-algebras. See
 
 * Danny Stevenson, Lie 2-algebras and the geometry of gerbes, Unni Namboodiri Lectures 2006 [slides](http://math.ucr.edu/home/baez/namboodiri/stevenson_maclane.pdf)
