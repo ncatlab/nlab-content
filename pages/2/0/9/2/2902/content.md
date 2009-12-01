@@ -178,9 +178,15 @@ But we've established that both these ratios are $\Phi$ for a _regular_ pentagon
 
 That's probably intuitively obvious, but we can make it a bit more explicit.  In the diagram above, the blue pentagon shares one edge with the regular, black pentagon, and has also been constrained to have the same width.  We need to show that specifying the height ratio is then enough to determine the shape of the blue pentagon completely, making it coincide with the black pentagon.
 
-If the height of the blue pentagon, $G H + J K$, is $\Phi$ times the height of an adjacent vertex, $G H$, that fixes the ratio $\frac{G H}{J K}=\frac{1}{\Phi-1}=\Phi$.
+If the height of the blue pentagon, $G H + J K$, is $\Phi$ times the height of an adjacent vertex, $G H$, that fixes the ratio $\frac{G H}{J K}=\frac{G H}{G H (\Phi-1)}=\Phi$.  So $G H = \Phi\cdot J K$.
 
-The four blue edges are all congruent, so ${F H}^2={K H}^2$ and ${F G}^2+{G H}^2={J H}^2+{J K}^2$, or ${F G}^2+\Phi^2{J K}^2={J H}^2+{J K}^2$.  The horizontal distances $F G$ and $J H$ are fixed, so this is clearly enough to determine $J K$, and then $G H$.  In other words, there is only one pentagon meeting all these constraints, which we know are obeyed by the regular pentagon as well as those in our construction, so those pentagons must be regular, too.
+The four blue edges are all congruent, so:
+
+$${F H}^2={K H}^2$$
+$${F G}^2+{G H}^2={J H}^2+{J K}^2$$
+$${F G}^2+\Phi^2{J K}^2={J H}^2+{J K}^2$$
+
+The horizontal distances $F G$ and $J H$ are fixed, so the last equation is clearly enough to determine $J K$, and then $G H$.  In other words, there is only one pentagon meeting all these constraints, which we know are obeyed by the regular pentagon as well as those in our construction, so those pentagons must be regular, too.
 
 This means that, given our choice of $x=\Phi$, the two kinds of congruent edges in our generic icosahedron end up being the same size, and the icosahedron itself is regular.
 
