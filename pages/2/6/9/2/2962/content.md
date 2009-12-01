@@ -1,6 +1,6 @@
 #Idea
 
-While abelian [[Lie algebra cohomology]] is obtained from the study of [[Chevalley-Eilenberg complex]], some nonabelian generalizations are known in low dimensions. The coefficients are not now in a Lie algebra module (which is viewed here as an abelian Lie algebra with action of another Lie algebra), but an arbitrary Lie algebra with something what is action of another Lie algebra up to an inner automorphism. 
+While abelian [[Lie algebra cohomology]] is obtained from the study of [[Chevalley-Eilenberg complex]], some nonabelian generalizations are known in low dimensions. The coefficients are not now in a Lie algebra module (which is viewed here as an abelian Lie algebra with action of another Lie algebra), but an arbitrary Lie algebra with something that is action of another Lie algebra up to an inner automorphism. 
 
 For example the problem of extensions of Lie algebras by nonabelian Lie algebras leads to 1,2,3 nonabelian cocycles; 2-cocycles are analogues of factor systems.
 
