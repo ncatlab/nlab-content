@@ -1,4 +1,4 @@
-In a concrete category, an **injective hull** of an object $A$ is an extension $A \stackrel{m}{\longrightarrow} B$ of $A$ such that $B$ is [[injective object|injective]] and $m$ is [[essential embedding|essential]].
+In a [[concrete category]], an **injective hull** of an object $A$ is an extension $A \stackrel{m}{\longrightarrow} B$ of $A$ such that $B$ is [[injective object|injective]] and $m$ is [[essential embedding|essential]].
 
 Examples 
 
@@ -11,5 +11,5 @@ In general, there is no way of making the assignment of the injective hull to an
 
 ##References##
 
-* p. 156 of Ad&#225;mek, Herrlich, Strecker, 2004 [The Joy of Cats](http://katmat.math.uni-bremen.de/acc/acc.pdf)
+* p. 156 of [[Jiri Adamek|Jiří Adámek]], [[Horst Herrlich]], [[George Strecker]], 2004 [[The Joy of Cats]]
 * Ad&#225;mek, Herrlich, Rosick&#253;, Tholen, 2002 [Injective hulls are not natural](http://www.iti.cs.tu-bs.de/~adamek/injective.hulls.AHRT.ps)
