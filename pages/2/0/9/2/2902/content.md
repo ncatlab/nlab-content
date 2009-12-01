@@ -146,7 +146,11 @@ According to the historian Ian Mueller, Eva Sachs, in her book _Die F&#252;nf Pl
 
 If we want, we can now appeal to Euclid's golden triangle lemma -- which gives us the ratio between the radius and the decagon edge length as $\Phi$ -- and work backwards to show that this is also the ratio of length to width for our three orthogonal rectangles; that is, $x=\Phi$ is the value needed to produce a regular icosahedron.  This follows simply from the fact that the right triangle $O R P$ is similar to the right triangle $C A B$.
 
-Finally, suppose we wish to avoid using the intermediate value theorem.  If we project the generic version of our icosahedron onto the plane of one of its rectangles, we get this:
+##Avoiding the intermediate value theorem##
+
+Finally, suppose we wish to avoid using the intermediate value theorem.  To do this, we need to specify the length-to-width ratio, $x$, of the rectangles in our construction, and show that our choice yields a regular icosahedron.
+
+If we project the generic version of our icosahedron onto the plane of one of its rectangles, we get this:
 
 [[!include pentagon decagon hexagon identity/irregular icosahedron]]
 
@@ -154,7 +158,7 @@ In order to make $A P R$ into a straight line -- which amounts to making the pen
 
 $$\frac{x+1}{x}=x$$
 
-This is just the defining equation for the golden ratio, $\Phi$.
+This is just the defining equation for the golden ratio, $\Phi$.  So we need to set $x=\Phi$ to have any hope of our icosahedron being regular, since in a regular icosahedron the pentagon will be the base of a pentagonal pyramid with equilateral sides, which is clearly a planar figure.
 
 Next, we note that the golden triangle lemma can be used to establish that in the figure below, the larger of the two golden triangles here associated with a regular pentagon is $\Phi$ times larger than the smaller one (because the long edge of the smaller triangle is congruent to the small edge of the larger triangle).  This means the _height_ of a regular pentagon, measured from one edge, is $\Phi$ times the height of an adjacent vertex.
 
@@ -164,7 +168,7 @@ The same lemma also shows that the _width_ of a regular pentagon, measured paral
 
 [[!include pentagon decagon hexagon identity/pentagon width]]
 
-Now, by choosing $x=\Phi$, as well as making the pentagon that projects onto $A P R$ into a planar figure, we've actually made _every_ set of five vertices that are neighbours to any given vertex in the icosahedron lie in a plane.  For example, the two pentagons that project onto $A B R S Q$ must also be planar.  But since they're _planar_, their projection here will retain the ratio between the perpendicular distance from $A B$ to the vertex that projects to $S$, which is $\frac{x+1}{2}$,  and the perpendicular distance to the vertices that project to $R$ and $Q$, which is $\frac{x}{2}$.  Our choice of $x=\Phi$ makes that ratio equal to $\frac{\Phi+1}{\Phi}=\Phi$.
+Now, by choosing $x=\Phi$, as well as making the pentagon that projects onto $A P R$ into a planar figure, we've actually made _every_ set of five vertices that are neighbours to any given vertex in the icosahedron lie in a plane.  For example, the two pentagons that project onto $A B R S Q$ must also be planar.  But since they're planar, their projection here will preserve the ratio between the perpendicular distance from $A B$ to the vertex that projects to $S$ and the perpendicular distance from $A B$ to the vertices that project to $R$ and $Q$.  The projections of these distances are $\frac{x+1}{2}$ and $\frac{x}{2}$ respectively, and our choice of $x=\Phi$ makes their ratio equal to $\frac{\Phi+1}{\Phi}=\Phi$.
 
 Furthermore, the lengths of the line segments projecting to $Q R$ and $A B$ will be the same in the actual pentagons as they are in the projection, and in the projection their ratio is $\frac{Q R}{A B}=x=\Phi$.
 
@@ -176,7 +180,8 @@ That's probably intuitively obvious, but we can make it a bit more explicit.  In
 
 The edges $F H$ and $K H$ are congruent by construction, so $(F H)^2=(F G)^2+(G H)^2=(J H)^2+(J K)^2=(K H)^2$.  But if the ratio $\frac{G H}{J K}$ is specified (and given the ratio of heights, this ratio, too, turns out to be $\Phi$), we have $(F G)^2+\Phi^2(J K)^2=(J H)^2+(J K)^2$.  The horizontal distances $F G$ and $J H$ are fixed, so this is enough to determine $J K$ and all the vertex heights, forcing the blue pentagon to be congruent to the black one.
 
-This means the two sets of congruent edges in our generic icosahedron are now the same size, and the icosahedron itself is regular.
+This means that, given our choice of $x=\Phi$, the two kinds of congruent edges in our generic icosahedron end up being the same size, and the icosahedron itself is regular.
+
 
 #References#
 
