@@ -1,4 +1,4 @@
-In a [[concrete category]], an **injective hull** of an object $A$ is an extension $A \stackrel{m}{\longrightarrow} B$ of $A$ such that $B$ is [[injective object|injective]] and $m$ is [[essential embedding|essential]].
+In a [[concrete category]], an **injective hull** of an object $A$ is an extension $A \stackrel{m}{\longrightarrow} B$ of $A$ such that $B$ is [[injective object|injective]] and $m$ is [[essential embedding|essential]]. It is the dual concept to [[projective cover]].
 
 Examples 
 
