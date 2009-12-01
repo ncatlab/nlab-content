@@ -108,6 +108,8 @@ Suppose we take **three congruent rectangles**, and assemble them symmetrically 
 
 We then join up the corners to make an icosahedron, as in the diagram above.  Eight faces of this icosahedron (the ones centred on the diagonals of the eight "octants" into which the space here is divided) will _always_ be congruent and equilateral; that's guaranteed by the construction, whatever the precise ratio of the side lengths of the rectangles.  The other twelve faces will be isosceles triangles, all congruent to each other.
 
+In terms of edges, there are two congruent sets:  the six edges that correspond to short sides of our rectangles will all be congruent, and the twenty-four edges that are sides of the eight equilateral faces will all be congruent.
+
 Now, it's clear that by making the rectangles long and skinny, we can make the isosceles triangles as long and skinny as we like.  But what about making them short and squat?  How far can we go in that direction?
 
 [[!include pentagon decagon hexagon identity/square duads]]
@@ -152,13 +154,15 @@ In order to make $A P R$ into a straight line -- which amounts to making the pen
 
 $$\frac{x+1}{x}=x$$
 
-This is just the defining equation for the golden ratio, $\Phi$.  If our icosahedron is regular, the pentagonal pyramid that sits on the pentagon will be made up of equilateral triangles, and its base will be planar.  So again we see that we can only get a regular icosahedron if we set $x=\Phi$.
+This is just the defining equation for the golden ratio, $\Phi$.
 
-Of course if we're sceptical about the very _existence_ of a regular icosahedron, we need to do a bit more work and confirm that this choice of $x$ actually makes the variable edge length in our generic icosahedron equal to the other edge length that's fixed by the short side of the rectangles (which we've set to $1$ for the sake of simplicity).
+Next, we note that the golden triangle lemma can be used to establish that in the figure below, the larger of the two golden triangles here associated with a regular pentagon is $\Phi$ times taller than the smaller one.
 
-[[!include pentagon decagon hexagon identity/pythagorean icosahedron]]
+[[!include pentagon decagon hexagon identity/pentagon heights]]
 
-If we take an edge that projects onto $A Q$ in the diagram above as our example of the variable edge length, we can easily see that the square of $A Q$ itself is $\frac{3}{4}$:  the light green square has area $\frac{1}{4}$, and each red triangle has area $\frac{1}{2} \times \frac{\Phi}{2} \times \frac{1}{2 \Phi} = \frac{1}{8}$.  By construction, both vertices that project onto $Q$ are a distance of $\frac{1}{2}$ from the plane, so the total length of either edge that projects to $A Q$ is $1$.  All the variable edges are congruent, so all $30$ edges are now shown to have a length of $1$.
+Now, by choosing $x=\Phi$, as well as making the pentagon that projects onto $A P R$ into a planar figure, we've actually made _every_ set of five vertices that are neighbours to any given vertex in the icosahedron lie in a plane.  For example, the two pentagons that project onto $A B R S Q$ must also be planar.  But since they're _planar_, their projection here will retain the ratio between the perpendicular distance from $A B$ to the vertex that projects to $S$, which is $\frac{x+1}{2}$,  and the perpendicular distance to the vertices that project to $R$ and $Q$, which is $\frac{x}{2}$.  Our choice of $x=\Phi$ makes that ratio, in the projection, $\frac{\Phi+1}{\Phi}=\Phi$.
+
+But we've just established that the ratio is $\Phi$ for a _regular_ pentagon, and the pentagons projecting to $A B R S Q$ are already so symmetrical (with at least four congruent edges, and mirror symmetry in the perpendicular bisector of the fifth edge) that if they share that ratio, they too must be regular.  This means the two sets of congruent edges are the same size, and the icosahedron itself is regular.
 
 #References#
 
