@@ -1,4 +1,4 @@
-In a concrete category, an **injective hull** of an object $A$ is an extension $A \stackrel{m}{\longrightarrow} B$ of $A$ such that $B$ is [[injective]] and $m$ is [[essential embedding|essential]].
+In a concrete category, an **injective hull** of an object $A$ is an extension $A \stackrel{m}{\longrightarrow} B$ of $A$ such that $B$ is [[injective object|injective]] and $m$ is [[essential embedding|essential]].
 
 Examples 
 
@@ -7,6 +7,9 @@ Examples
 * In [[Ab]] every object has an injective hull. The embedding $\mathbb{Z} \hookrightarrow \mathbb{Q}$ is an example.
 * In the category of fields and algebraic field extensions, every object has an injective hull, its [[algebraic closure]].
 
+In general, there is no way of making the assignment of the injective hull to an object into a functor such that there is a natural transformation between the identity functor and that functor.
+
 ##References##
 
-* p. 156 of [The Joy of Cats](http://katmat.math.uni-bremen.de/acc/acc.pdf)
+* p. 156 of Ad&#225;mek, Herrlich, Strecker, 2004 [The Joy of Cats](http://katmat.math.uni-bremen.de/acc/acc.pdf)
+* Ad&#225;mek, Herrlich, Rosick&#253;, Tholen, 2002 [Injective hulls are not natural](http://www.iti.cs.tu-bs.de/~adamek/injective.hulls.AHRT.ps)
