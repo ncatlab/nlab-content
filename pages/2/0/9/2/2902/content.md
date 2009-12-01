@@ -156,13 +156,19 @@ $$\frac{x+1}{x}=x$$
 
 This is just the defining equation for the golden ratio, $\Phi$.
 
-Next, we note that the golden triangle lemma can be used to establish that in the figure below, the larger of the two golden triangles here associated with a regular pentagon is $\Phi$ times taller than the smaller one.
+Next, we note that the golden triangle lemma can be used to establish that in the figure below, the larger of the two golden triangles here associated with a regular pentagon is $\Phi$ times larger than the smaller one (because the long edge of the smaller triangle is congruent to the small edge of the larger triangle).  This means the _height_ of a regular pentagon, measured from one edge, is $\Phi$ times the height of an adjacent vertex.
 
 [[!include pentagon decagon hexagon identity/pentagon heights]]
 
-Now, by choosing $x=\Phi$, as well as making the pentagon that projects onto $A P R$ into a planar figure, we've actually made _every_ set of five vertices that are neighbours to any given vertex in the icosahedron lie in a plane.  For example, the two pentagons that project onto $A B R S Q$ must also be planar.  But since they're _planar_, their projection here will retain the ratio between the perpendicular distance from $A B$ to the vertex that projects to $S$, which is $\frac{x+1}{2}$,  and the perpendicular distance to the vertices that project to $R$ and $Q$, which is $\frac{x}{2}$.  Our choice of $x=\Phi$ makes that ratio, in the projection, $\frac{\Phi+1}{\Phi}=\Phi$.
+The same lemma also shows that the _width_ of a regular pentagon, measured parallel to one edge, is $\Phi$ times its edge length.
 
-But we've just established that the ratio is $\Phi$ for a _regular_ pentagon, and the pentagons projecting to $A B R S Q$ are already so symmetrical (with at least four congruent edges, and mirror symmetry in the perpendicular bisector of the fifth edge) that if they share that ratio, they too must be regular.  This means the two sets of congruent edges are the same size, and the icosahedron itself is regular.
+[[!include pentagon decagon hexagon identity/pentagon width]]
+
+Now, by choosing $x=\Phi$, as well as making the pentagon that projects onto $A P R$ into a planar figure, we've actually made _every_ set of five vertices that are neighbours to any given vertex in the icosahedron lie in a plane.  For example, the two pentagons that project onto $A B R S Q$ must also be planar.  But since they're _planar_, their projection here will retain the ratio between the perpendicular distance from $A B$ to the vertex that projects to $S$, which is $\frac{x+1}{2}$,  and the perpendicular distance to the vertices that project to $R$ and $Q$, which is $\frac{x}{2}$.  Our choice of $x=\Phi$ makes that ratio equal to $\frac{\Phi+1}{\Phi}=\Phi$.
+
+Furthermore, the lengths of the line segments projecting to $Q R$ and $A B$ will be the same in the actual pentagons as they are in the projection, and in the projection their ratio is $\frac{Q R}{A B}=x=\Phi$.
+
+But we've established that both these ratios are $\Phi$ for a _regular_ pentagon, and the pentagons projecting to $A B R S Q$ are already so symmetrical (with at least four congruent edges, and mirror symmetry in the perpendicular bisector of the fifth edge) that if they share both ratios, they too must be regular.  This means the two sets of congruent edges are the same size, and the icosahedron itself is regular.
 
 #References#
 
