@@ -92,7 +92,7 @@ Considers the groupoid given by the action of $G(\mathbb{Z}[t])\times G(\mathbb{
 The groupoidification of the $\mathbb{F}_q$ points was shown by Satake to be the representation ring
 of ${^L G}$, the Langlands dual group.  Thus, $D_{mix}(G(\mathbb{Z}[t])\backslash G(\mathbb{Z}(t)/ G(\mathbb{Z}[t])$ also contains a categorification of the representation ring of ${^L G}$.  
 
-In fact, Mirkovi\'c and Vilonen showed that the subcategory of $D_{mix}(G(\mathbb{Z}[t])\backslash G(\mathbb{Z}(t))/ G(\mathbb{Z}[t])$ consisting of perverse sheaves is equivalent to the category of representations of ${^L G}\times_{\mathrm{Spec}\mathbb{Z}} \mathrm{Spec}\overline{\mathbb{Q}_\ell}$ as an algebraic group.  In fact, if one replaces $\mathbb{Q}_\ell$ by any other ring both in the coefficient of the sheaves, and the base of the algebraic group, the result still holds.
+In fact, Mirkovi&#263; and Vilonen showed that the subcategory of $D_{mix}(G(\mathbb{Z}[t])\backslash G(\mathbb{Z}(t))/ G(\mathbb{Z}[t])$ consisting of perverse sheaves is equivalent to the category of representations of ${^L G}\times_{\mathrm{Spec}\mathbb{Z}} \mathrm{Spec}\overline{\mathbb{Q}_\ell}$ as an algebraic group.  In fact, if one replaces $\mathbb{Q}_\ell$ by any other ring both in the coefficient of the sheaves, and the base of the algebraic group, the result still holds.
 
 ##The Hall algebra and Lusztig's categorification
 
