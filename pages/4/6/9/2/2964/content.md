@@ -19,6 +19,8 @@ Then we can make two constructions from this scheme:
 
 +--{: .query}
 [[David Roberts]]: One could write $Y//X$ for this nerve, as you are considering it as the weak or homotopy quotient. This would help when trying to draw diagrams of simpilicial schemes.
+
+[[Ben Webster]]: Sorry, that is way too confusing for me.  Double-slashes are for [[GIT quotients]] in my world. Also, for whatever reason they look awful on this site.  Even adding negative spaces doesn't make them look less unpleasant.
 =--
 
 ##Linearization, and the function sheaf correspondence
@@ -39,7 +41,7 @@ Furthermore, there is an induced span of groupoids on this set of $\mathbb{F}_q$
 The content of the [[Grothendieck trace formula]] connects these two constructions. 
 
 +--{: .un_theorem}
-The functor  $g_!f^*:D_{mix}(N(X_1\rightrightarrows Y_1))\to D_{mix}()$ induces a map $(gf)_\dagger:K^0(D_{mix}(N(X_1\rightrightarrows Y_1)))\to K^0(D_{mix}(N(X_2 \rightrightarrows Y_2)))$ such that the diagram
+The functor  $g_!f^*:D_{mix}(N(X_1\rightrightarrows Y_1))\to D_{mix}(N(X_1\rightrightarrows Y_1))$ induces a map $(gf)_\dagger:K^0(D_{mix}(N(X_1\rightrightarrows Y_1)))\to K^0(D_{mix}(N(X_2 \rightrightarrows Y_2)))$ such that the diagram
 $$
   \array{
       K^0(D_{mix}()N(X_1\rightrightarrows Y_1))&\overset{(gf)_\dagger}\to& K^0(D_{mix}(N(X_2 \rightrightarrows Y_2)))   \\
