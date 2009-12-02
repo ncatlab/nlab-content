@@ -84,5 +84,6 @@ There is also
 
 * Bruno Kahn, [pdf slides](http://www.aimath.org/WWN/motivesdessins/PaloAlto1.pdf) on pure motives
 
+* Florence Lecomte, Nathalie Wach, _R&#233;alisations des complexes motiviques de Voevodsky_ ([arXiv](http://de.arxiv.org/abs/0911.5611))
 
 [[!redirects category of motives]]
