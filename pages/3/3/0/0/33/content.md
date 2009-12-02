@@ -115,6 +115,10 @@ A bit of $n$-Caf&eacute; discussion on this subject can be found here:
 
 * [[John Baez]], [_What is categorification?_](http://golem.ph.utexas.edu/category/2008/10/what_is_categorification.html)
 
+A general notion of categorification for structures defined by [[cartesian monads]], which specializes to produce weak [[n-categories]] in the sense of Leinster, can be found here:
+
+* Bourn and Penon, "Cat&#233;gorification de structures d&#233;finies par monade cart&#233;sienne", [link](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_2005__46_1_2_0).
+
 
 [[!redirects categorification]]
 [[!redirects ∞-categorification]]
