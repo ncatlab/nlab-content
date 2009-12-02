@@ -132,7 +132,7 @@ The five vertices of the icosahedron that project onto the line segment $A P R$ 
 
 By construction, $Q R$ is parallel to $A B$, and both are orthogonal to $O P$.  Combined with the fact that $A P R$ is a straight line, that's enough to show that the triangle $A B C$ is congruent to the triangle $S P T$.
 
-The five vertices that project onto the line segment $(-A) S Q$ will form another pentagon.  The two pentagons will be congruent, and the radius of the circles in which they're inscribed will be $A C$.  And since the triangle $A B C$ is congruent to the triangle $S P T$, the _distance_ between the pentagons, $S T$, equals their radius, $A C$.
+The five vertices that project onto the line segment $Z S Q$ will form another pentagon.  The two pentagons will be congruent, and the radius of the circles in which they're inscribed will be $A C$.  And since the triangle $A B C$ is congruent to the triangle $S P T$, the _distance_ between the pentagons, $S T$, equals their radius, $A C$.
 
 These two pentagons are shown in the diagram below.
 
@@ -176,11 +176,15 @@ The same lemma also shows that the _width_ of a regular pentagon, measured paral
 
 [[!include pentagon decagon hexagon identity/pentagon width]]
 
-Now, by choosing $x=\Phi$, as well as making the pentagon that projects onto $A P R$ into a planar figure, we've actually made _every_ set of five vertices that are neighbours to any given vertex in the icosahedron lie in a plane.  For example, the two pentagons that project onto $A B R S Q$ must also be planar.  But since they're planar, their projection here will preserve the ratio between the perpendicular distance from $A B$ to the vertex that projects to $S$ and the perpendicular distance from $A B$ to the vertices that project to $R$ and $Q$.  The projections of these distances are $\frac{x+1}{2}$ and $\frac{x}{2}$ respectively, and our choice of $x=\Phi$ makes their ratio equal to $\frac{\Phi+1}{\Phi}=\Phi$.
+Now, by choosing $x=\Phi$, as well as making the pentagon that projects onto $A P R$ into a planar figure, we've actually made _every_ set of five vertices that are neighbours to any given vertex in the icosahedron lie in a plane.
 
-Furthermore, the lengths of the line segments projecting to $Q R$ and $A B$ will be the same in the actual pentagons as they are in the projection, and in the projection their ratio is $\frac{Q R}{A B}=x=\Phi$.
+[[!include pentagon decagon hexagon identity/icosahedron pentagon]]
 
-But we've established that both these ratios are $\Phi$ for a _regular_ pentagon, and the pentagons projecting to $A B R S Q$ are already so symmetrical (with at least four congruent edges, and mirror symmetry in the perpendicular bisector of the fifth edge) that if they share both ratios, they too must be regular.
+For example, the two such pentagons that project onto $B P S Z R$ must also be planar.  But since they're planar, their projection here will preserve the ratio between the perpendicular distance from $P S$ to the vertex that projects to $R$ and the perpendicular distance from $P S$ to the vertices that project to $Z$ and $B$.  The projections of these distances are just $\frac{x}{2}$ and $\frac{1}{2}$ respectively, so our choice of $x=\Phi$ makes their ratio equal to $\Phi$.
+
+Furthermore, the lengths of the line segments projecting to $B Z$ and $P S$ will be the same in the actual pentagons as they are in the projection, and in the projection their ratio is $\frac{B Z}{P S}=x=\Phi$.
+
+But we've established that both these ratios are $\Phi$ for a _regular_ pentagon, and the pentagons projecting to $B P S Z R$ are already so symmetrical (with at least four congruent edges, and mirror symmetry in the perpendicular bisector of the fifth edge) that if they share both ratios, they too must be regular.
 
 [[!include pentagon decagon hexagon identity/regular pentagon]]
 
