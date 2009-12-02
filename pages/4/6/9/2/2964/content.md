@@ -23,6 +23,8 @@ Then we can make two constructions from this scheme:
 [[Ben Webster]]: Sorry, that is way too confusing for me.  Double-slashes are for [[GIT quotients]] in my world. Also, for whatever reason they look awful on this site.  Even adding negative spaces doesn't make them look less unpleasant.
 
 [[David Roberts]]: Sure. There should be a double slash command in LaTeX - it\'s probably in some obscure package not usable here.
+
+[[Ben Webster]]: In normal LaTeX, two negative spaces (\!) is about right, but here they don't seem to work.  I don't consider negative spaces obscure.
 =--
 
 ##Linearization, and the function sheaf correspondence
@@ -46,7 +48,7 @@ The content of the [[Grothendieck trace formula]] connects these two constructio
 The functor  $g_!f^*:D_{mix}(N(X_1\rightrightarrows Y_1))\to D_{mix}(N(X_1\rightrightarrows Y_1))$ induces a map $(gf)_\dagger:K^0(D_{mix}(N(X_1\rightrightarrows Y_1)))\to K^0(D_{mix}(N(X_2 \rightrightarrows Y_2)))$ such that the diagram
 $$
   \array{
-      K^0(D_{mix}()N(X_1\rightrightarrows Y_1))&\overset{(gf)_\dagger}\to& K^0(D_{mix}(N(X_2 \rightrightarrows Y_2)))   \\
+      K^0(D_{mix}(N(X_1\rightrightarrows Y_1))&\overset{(gf)_\dagger}\to& K^0(D_{mix}(N(X_2 \rightrightarrows Y_2)))   \\
      \downarrow^{\alpha_{q,\ell}} && \downarrow^{\alpha_{q,\ell}} 
      \\
     \mathbb{Q}_\ell[(N(X_1\rightrightarrows Y_1)\mathbb{F}_q)] &\overset{(gf)^\dagger}\to& \mathbb{Q}_\ell[N(X_2 \rightrightarrows Y_2)(\mathbb{F}_q)]
