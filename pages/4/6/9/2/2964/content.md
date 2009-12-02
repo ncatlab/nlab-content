@@ -21,6 +21,8 @@ Then we can make two constructions from this scheme:
 [[David Roberts]]: One could write $Y//X$ for this nerve, as you are considering it as the weak or homotopy quotient. This would help when trying to draw diagrams of simpilicial schemes.
 
 [[Ben Webster]]: Sorry, that is way too confusing for me.  Double-slashes are for [[GIT quotients]] in my world. Also, for whatever reason they look awful on this site.  Even adding negative spaces doesn't make them look less unpleasant.
+
+[[David Roberts]]: Sure. There should be a double slash command in LaTeX - it\'s probably in some obscure package not usable here.
 =--
 
 ##Linearization, and the function sheaf correspondence
