@@ -32,6 +32,8 @@ Then we can make two constructions from this scheme:
 [[Urs Schreiber]]: possibly the command for double shash is \sslash. It produces "$\sslash$". But I don't have the required font installed, so I can't be sure.
 
 [[Ben Webster]]: Well, it works on one of my computers, so it's the right command...
+
+[[David Roberts]]:Well I'm glad we've cleared up that burning question :)
 =--
 
 ##Linearization, and the function sheaf correspondence
@@ -74,7 +76,7 @@ The [[decategorification]] of the mixed derived category and [[degroupoidificati
 We note that in many examples of geometric [[categorification]], the fact that the decategorification is correct is checked by   understanding the degroupoidification  and using this theorem, though it is typically not stated this explicitly.
 
 #Examples
-Since all groupoids appearing below are action groupoids, I'll denote them $X/G$ in place of $G\times X\Rightarrow X$.
+Since all groupoids appearing below are action groupoids, I'll denote them $X/G$ in place of $G\times X\rightrightarrows X$.
 
 ##The Hecke algebra
 
