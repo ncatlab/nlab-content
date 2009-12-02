@@ -48,3 +48,6 @@ For the "Hurewicz," "Str&#248;m," or "h-" model structure:
 For the "mixed" or "m-" model structure:
 
 * Michael Cole, _Mixing model structures_, Topology Appl. 153 no. 7 (2006)
+
+
+[[!redirects model category of topological spaces]]
