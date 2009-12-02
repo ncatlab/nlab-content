@@ -69,10 +69,10 @@
 <text x='0' y='14' font-family='Times' font-size='18px' fill='rgb(0%,0%,0%)'>B</text>
 </g>
 <g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 388.483107, 437.286413)'>
-<text x='12' y='14' font-family='Times' font-size='18px' fill='rgb(0%,0%,0%)'>&#x2013;A</text>
+<text x='26' y='14' font-family='Times' font-size='18px' fill='rgb(0%,0%,0%)'>Z</text>
 </g>
 <g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 174.803306, 437.286413)'>
-<text x='0' y='14' font-family='Times' font-size='18px' fill='rgb(0%,0%,0%)'>&#x2013;B</text>
+<text x='-14' y='14' font-family='Times' font-size='18px' fill='rgb(0%,0%,0%)'>Y</text>
 </g>
 <g transform='matrix(1.000000, 0.000000, 0.000000, 1.000000, 339.013632, 121.835236)'>
 <text x='0' y='14' font-family='Times' font-size='18px' fill='rgb(0%,0%,0%)'>C</text>
