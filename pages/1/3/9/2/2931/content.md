@@ -4,19 +4,26 @@
 
 ## Idea ##
 
-If $K$ is a [[2-category]], a [[proarrow equipment]] on $K$ gives it the structure of "proarrows" which are intended to generalize the arrows of $K$ in the same way that [[profunctors]] generalize the [[functors]] in [[Cat]].  Since profunctors are a [[categorification]] of [[relations]], it is natural to think of decategorifying equipments to give a structure on a 1-category that equips it with "relations".  We call this structure a *1-category equipment*.
+A [[2-category equipped with proarrows]] is a 2-category together with a 2-category of "proarrows" which are intended to generalize the arrows of $K$ in the same way that [[profunctors]] generalize the [[functors]] in [[Cat]].  Since profunctors are a [[categorification]] of [[relations]], it is natural to think of decategorifying equipments to give a structure on a 1-category that equips it with "relations".  We call this structure a *1-category equipped with relations*.
 
 ## Definition ##
 
-Recall that a *2-category equipment* (the usual meaning of "equipment") on a 2-category $K$ can be defined as a certain sort of [[double category]], with $\mathcal{V}(\underline{K}) = K$.  If any two squares of such a double category with the same boundary are equal, we say that it is is a **(1,2)-category equipment**.  Note that if we write an equipment as a special sort of functor $(-)_\bullet\colon K\to M$, this is equivalent to saying that $M$ (and hence also $K$) is [[locally posetal 2-category|locally posetal]], i.e. a (1,2)-category.
+### (1,2)-categories equipped with proarrows
 
-If $V$ is any [[quantale]], then $V$-$Prof$ is a (1,2)-category equipment.  In particular, taking $V=\mathbb{2}$, we have a (1,2)-category equipment whose objects are [[preorders]].
+Recall that a *2-category equipped with proarrows* (aka "proarrow equipment" or "equipment") can be defined as a certain sort of [[double category]], with $\mathcal{V}(\underline{K}) = K$.  If, in such a double category, any two squares with the same boundary are equal, we say that it is is a **(1,2)-category equipped with proarrows**, or a **(1,2)-category proarrow equipment**.  This is equivalent to requiring that the 2-category of proarrows (and hence also the underlying 2-category of arrows) is [[locally posetal 2-category|locally posetal]], i.e. a (1,2)-category.
 
-A **1-category equipment** is a (1,2)-category equipment, regarded as a double category $\underline{K}$, together with an [[involution]] $\underline{K}^{h-op} \cong \underline{K}$ which is (isomorphic to) the identity on objects and (vertical) arrows.  Here $\underline{K}^{h-op}$ denotes the horizontal opposite of a double category obtained by reversing the horizontal (pro-)arrows but not the vertical ones.  In particular, this implies an involution $K \cong K^{co}$ which is the identity on objects and arrows, which for a (1,2)-category means that $K$ is actually (equivalent to) a 1-category.  Note though that $M$ is still a (1,2)-category, not necessarily a 1-category.
+For example, if $V$ is any [[quantale]], then $V Cat$ is naturally a (1,2)-category equipped with proarrows.  In particular, taking $V=\mathbb{2}$, we have a (1,2)-category proarrow equipment whose objects are [[preorders]].
 
-For any quantale $V$, the sub-equipment of $V$-$Prof$ consisting of the *symmetric* $V$-categories (those where $A(x,y) = A(y,x)$) is a 1-category equipment.  In particular, for $V=\mathbb{2}$, we have the 1-category equipment $\underline{Rel}$ of sets, functions, and binary relations.
 
-In general, we can think of a 1-category equipment as generalizing some of the properties of $\underline{Rel}$.  For instance, internal relations in any [[regular category]] also form a 1-category equipment.
+### 1-categories equipped with relations
+
+A **1-category equipped with relations** is a (1,2)-category equipped with proarrows, regarded as a double category $\underline{K}$, together with an [[involution]] $\underline{K}^{h-op} \cong \underline{K}$ which is (isomorphic to) the identity on objects and (vertical) arrows.  Here $\underline{K}^{h-op}$ denotes the horizontal opposite of a double category obtained by reversing the horizontal (pro-)arrows but not the vertical ones.  We also call this structure a **relation equipment** or a **1-category proarrow equipment**.
+
+In particular, the definition implies that we have an involution $K \cong K^{co}$ which is the identity on objects and arrows, which for a (1,2)-category means that $K$ is actually (equivalent to) a 1-category.  Note though that the 2-category of proarrows (which we now call "relations") is still a (1,2)-category, not necessarily a 1-category.
+
+For example, for any quantale $V$, the sub-2-category of $V Cat$ consisting of the *symmetric* $V$-categories (those where $A(x,y) = A(y,x)$) is a 1-category equipped with relations.  In particular, for $V=\mathbb{2}$, we have the relation equipment $\underline{Rel}$ of sets, functions, and binary relations.
+
+In general, we can think of a relation equipment as generalizing some of the properties of $\underline{Rel}$.  For instance, internal relations in any [[regular category]] also form a relation equipment.
 
 
 ## See also ##
@@ -28,17 +35,17 @@ Other attempted axiomatizations of the same idea "something that acts like the c
 * [[bicategory of relations]]
 
 
-## Cartesian 1-category equipments ##
+## Cartesian 1-categories equipped with relations ##
 
 It is proven in
 
 * Carboni, Kelly, Wood, "A 2-categorical approach to change of base and geometric morphisms, I" ([PDF](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1991__32_1/CTGDC_1991__32_1_47_0/CTGDC_1991__32_1_47_0.pdf))
 
-that a (1,2)-category is a [[cartesian bicategory]] precisely when it is a [[cartesian object]] in a suitable 2-category of equipments (where we make a bicategory $M$ into an equipment by taking the proarrows to be those of $M$ and the arrows to be the "maps" in $M$, i.e. the morphisms having right adjoints).  Here is a rough sketch of the argument, using the double-category description of equipments.
+that a (1,2)-category is a [[cartesian bicategory]] precisely when it is a [[cartesian object]] in a suitable 2-category of proarrow equipments (where we make a bicategory $M$ into an equipment by taking the proarrows to be those of $M$ and the arrows to be the "maps" in $M$, i.e. the morphisms having right adjoints).  Here is a rough sketch of the argument, using the double-category description of equipments.
 
 +-- {: .un_theorem}
 ###### Theorem
-Let $\underline{K}$ be a 1-category equipment, which is a [[cartesian object]] in the 2-category of 1-category equipments (that is, it is a **cartesian equipment**).  Then $\mathcal{H}(\underline{K})$ is a cartesian bicategory.
+Let $\underline{K}$ be a 1-category equipped with relations, which is a [[cartesian object]] in the 2-category of relation equipments (that is, it is a **cartesian relation equipment**).  Then $\mathcal{H}(\underline{K})$ is a cartesian bicategory.
 =--
 +-- {: .proof}
 ###### Proof
@@ -49,11 +56,11 @@ $$\array{X & \overset{\phi}{\to} & Y\\
 in $\underline{K}$ induces 2-cells, i.e. inequalities, $\Delta_\bullet \phi \le (\phi\times\phi)\Delta_\bullet$ and $\phi \Delta^\bullet  \le \Delta^\bullet(\phi\times\phi)$.
 =--
 
-A [[bicategory of relations]] is a (1,2)-category which is a cartesian bicategory, and which also satisfies some additional conditions.  We can also construct this structure starting from an equipment.
+A [[bicategory of relations]] is a (1,2)-category which is a cartesian bicategory, and which also satisfies some additional conditions.  We can also construct this structure starting from a relation equipment.
 
 +-- {: .un_theorem}
 ###### Theorem
-Let $\underline{K}$ be a 1-category equipment satisfying the hypotheses of the previous theorem, and suppose in addition that every proarrow $\phi\colon x\nrightarrow y$ in $\underline{K}$ can be written as $f_\bullet g^\bullet$ for some (vertical) arrows $f$ and $g$.  (That is, "tabulations" in a certain sense exist.)  Then $\mathcal{H}(\underline{K})$ is a [[bicategory of relations]].
+Let $\underline{K}$ be a relation equipment satisfying the hypotheses of the previous theorem, and suppose in addition that every proarrow $\phi\colon x\nrightarrow y$ in $\underline{K}$ can be written as $f_\bullet g^\bullet$ for some (vertical) arrows $f$ and $g$.  (That is, "tabulations" in a certain sense exist.)  Then $\mathcal{H}(\underline{K})$ is a [[bicategory of relations]].
 =--
 +-- {: .proof}
 ###### Sketch of Proof
@@ -102,7 +109,7 @@ $$\array{C & = & C & = & C\\
 
 +-- {: .un_corollary}
 ###### Corollary
-If $\underline{K}$ is a 1-category equipment satisfying the hypotheses of the theorem, then $\mathcal{H}(\underline{K})$ is an [[allegory]].
+If $\underline{K}$ is a relation equipment satisfying the hypotheses of the theorem, then $\mathcal{H}(\underline{K})$ is an [[allegory]].
 =--
 +-- {: .proof}
 ###### Proof
@@ -111,4 +118,10 @@ It is shown [here](http://rfcwalters.blogspot.com/2009/10/categorical-algebras-o
 
 
 [[!redirects (1,2)-category equipment]]
+[[!redirects (1,2)-category equipped with proarrows]]
+[[!redirects 1-category equipped with proarrows]]
+[[!redirects relation equipment]]
+[[!redirects relation equipments]]
+[[!redirects 1-category relation equipment]]
+[[!redirects 1-category equipment]]
 [[!redirects 1-category equipments]]
