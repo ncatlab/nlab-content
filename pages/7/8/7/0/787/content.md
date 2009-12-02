@@ -3,7 +3,7 @@
 {:toc}
 
 
-#Idea#
+## Idea
 
 A **Courant algebroid** is a Lie-algebraic structure encoding a [[n-symplectic manifold|2-symplectic manifold]].
 
@@ -37,14 +37,56 @@ Moreover, the way [[Lie algebroid]]s may be expressed in terms of [[Lie-Rinehart
 
 ***
 
+## Standard Courant algebroid and $U(1)$-gerbes
 
-#References#
+The [[standard Courant algebroid]] of a [[manifold]] $X$ is the one which 
 
-A useful place to start reading about Courant algebroids its
+* as a [[vector bundle]] with extra structure is $E = T X\oplus T^* X$, the fiberwise direct sum of the [[tangent bundle]] and the cotangent bundle; with 
+
+  * bilinear form 
+
+    $$
+      \langle X + \xi , Y +\eta \rangle = \eta(X) + \xi(Y)
+    $$
+
+  for $X,Y \in \Gamma(T X)$ and $\xi, \eta \in \Gamma(T^* X)$
+
+  * brackets
+
+    $$
+      [X + \xi, Y + \eta] = [X,Y] + \mathcal{L}_X \eta 
+      - \mathcal{L}_Y \xi + \frac{1}{2} d (\eta(X) - \xi(Y))
+    $$
+
+    where $\mathcal{L}_X \eta = \{d,\iota_X\} \eta$ denotes the [[Lie derivative]] of the 1-form $\eta$ by the vector field $X$.
+
+* as an [[NQ-supermanifold]] is $\Pi T^* \Pi T X$, the shifted cotangent bundle of the [[shifted tangent bundle]],
+
+  where the differential (homological vector field) is on each local coordinate patch $\mathbb{R}^n \simeq U \subset X$ with coordinates $\{x^i\}$ in degree 0, $\{d x^i\}$ and $\{\theta_i\}$ in degree 1 and $\{p_i\}$ in degree 2 given by
+
+  $$
+    \begin{aligned}
+      d_C &= d_{dR} + p_i \frac{\partial}{\partial \theta_i}
+      \\
+      &= dx^i \frac{\partial}{\partial x^i }
+       + p_i \frac{\partial}{\partial \theta_i}
+    \end{aligned}
+    \,.
+  $$
+
+Such a standard Courant algebroid may be understood as the higher analog of the  [[Atiyah Lie algebroid]] of a line bundle (...explain...).
+
+
+## References
+
+A useful place to start reading about Courant algebroids with an emphasis on its Lie-2-algebroid nature (in [[NQ-supermanifold]]-language) is
 
 * [[Dmitry Roytenberg]], _On the structure of graded symplectic supermanifolds and Courant algebroids_ ([arXiv](http://arxiv.org/abs/math/0203110))
 
 This proceeds from the perspective of [[n-symplectic manifold]]s and derives the fact that a 2-symplectic manifold encodes and is encoded by a Courant algebroid.
+The last section is about the [[standard Courant algebroid]].
+
+
 
 Another useful summary of the theory of Courant algebroids is in [section 3](http://arxiv.org/PS_cache/math/pdf/0401/0401221v1.pdf#page=19) of
 
@@ -61,6 +103,9 @@ This is reviewed and further developed in
 
 * [[Dmitry Roytenberg]], _Courant algebroids, derived brackets and even symplectic supermanifolds_ ([arXiv](http://arxiv.org/abs/math.DG/9910078))
 
+A discussion of Courant algebroids with an eye towards the relation of the [[standard Courant algebroid]] to [[bundle gerbe]]s is 
+
+* [[Paul Bressler]], [[Alexander Chervov]], _Courant algebroids_ ([arXiv](http://arxiv.org/abs/hep-th/0212195))
 
 The relation between the two different Lie-alebroid-like  definition of Courant algebroids, one with skew, the other with non-skew brackets inspired on the level of [[L-infinity algebra|Lie 2-algebra]]s the treatment
 
