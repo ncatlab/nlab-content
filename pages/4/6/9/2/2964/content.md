@@ -6,8 +6,9 @@
  {:toc}
 
 #General case
+On this page, we explain a connection between decategorification and degroupoidification, which appears when one considers [[groupoid]] [[internalization|internal to]] [[scheme]]s.  One can construct a category of sheaves attached to such a groupoid, and a sequence of finite groups, given by points over a finite field.  This connection has been exploited quite widely within arithmetic geometry, but has not really been stated in the conntext of categorification.
 ##Basic data
-Let $X\rightrightarrows Y$ be a [[groupoid scheme]] (i.e. a [[groupoid]] [[internalization|internal to]] [[scheme]]s: $Y$ is the scheme of [[object]]s and $X$ the scheme of [[morphism]]s) where both schemes are of finite type.
+Let $X\rightrightarrows Y$ be a groupoid internal to schemes ($Y$ is the scheme of [[object]]s and $X$ the scheme of [[morphism]]s) where both schemes are of finite type.
 
 Then we can make two constructions from this scheme:
 
@@ -30,6 +31,7 @@ Then we can make two constructions from this scheme:
 
 [[Urs Schreiber]]: possibly the command for double shash is \sslash. It produces "$\sslash$". But I don't have the required font installed, so I can't be sure.
 
+[[Ben Webster]]: Well, it works on one of my computers, so it's the right command...
 =--
 
 ##Linearization, and the function sheaf correspondence
