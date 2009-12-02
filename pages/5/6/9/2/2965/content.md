@@ -1,0 +1,55 @@
+* automatically generated table of contents
+{:toc}
+
+## Idea
+
+A **small presheaf** on a category $C$ is a [[presheaf]] which is determined by a small amount of data.  If $C$ is itself [[small category|small]], then every presheaf on $C$ is small, but this is no longer true when $C$ is large.  In many cases, when $C$ is large, it is the small presheaves which seem to be more important and useful.
+
+## Definition
+
+Let $C$ be a [[category]] which is [[locally small category|locally small]], but possibly [[large category|large]].  A presheaf $F\colon C^{op}\to Set$ is **small** if it is the left [[Kan extension]] of some functor whose domain is a [[small category]], or equivalently if it is a small [[colimit]] of [[representable functors]].
+
+Of course, if $C$ is itself small, then every presheaf is small.
+
+## Categories of small presheaves
+
+We write $P C$ for the category of small presheaves on $C$.  Observe that although the category of *all* presheaves on $C$ cannot be defined without the assumption of a [[Grothendieck universe|universe]], the category $P C$ can be so defined, using small diagrams in $C$ as proxies for small colimits of representable presheaves.  Moreover $P C$ is locally small, and there is a [[Yoneda embedding]] $C\hookrightarrow P C$.
+
+Of course, if $C$ is small, then $P C$ is the usual category of all presheaves on $C$.
+
+Since small colimits of small colimits are small colimits, $P C$ is [[cocomplete category|cocomplete]].  In fact, it is easily seen to be the [[free cocompletion]] of $C$, even when $C$ is not small.  It is not, in general, complete, but we can characterize when it is (cf. Day-Lack).
+
++-- {: .un_theorem}
+###### Theorem
+$P C$ is complete if and only if for every small diagram in $C$, the category of cones over that diagram has a small weakly terminal set, i.e. there is a small set of cones such that every cone factors through one in that set.
+=--
+
++-- {: .un_cor}
+###### Corollary
+If $C$ is either complete or small, then $P C$ is complete.
+=--
+
+We also have:
+
++-- {: .un_theorem}
+###### Theorem
+If $C$ and $D$ are complete, then a functor $F\colon C\to D$ preserves small limits if and only if the functor $P F\colon P C \to P D$ (induced by left Kan extension) also preserves small limits.
+=--
+
+These results can all be generalized to [[enriched categories]], and also relativized to limits in some class $\Phi$ (which, for some purposes, we might want to assume to be "saturated").  See the paper by Day and Lack.
+
+
+## References
+
+* Day and Lack, "Limits of small functors", JPAA, &lt;http://www.maths.usyd.edu.au/u/stevel/papers/small.pdf> 
+
+* Some work of Chorny and Dwyer:
+  &lt;http://wwwmaths.anu.edu.au/~chorny/personal/research/>
+  and also earlier minipreprint version
+  &lt;http://www.math.uwo.ca/~bchorny2/research/smalldiag.ps>
+  the results of Chorny-Dwyer is cited by Rosicky in Accessible categories and homotopy theory
+  &lt;http://www.math.yorku.ca/~tholen/HB07Rosicky.pdf>
+
+[[!redirects small presheaves]]
+[[!redirects small functor]]
+[[!redirects small functors]]
