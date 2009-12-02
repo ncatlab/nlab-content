@@ -16,6 +16,9 @@ If $k\subset U=E^G$, $E$ is a [[field]], $G$ a finite group and $H = (k[G])^*$ i
 
 In [[algebraic geometry]], given an affine algebraic $k$-group [[scheme]] $G$, the algebra $E$ of regular functions over the total scheme $X$ of an affine $G$-[[torsor]] $X\to Y$, whose base $Y$ also happens to be affine, is a commutative $H$-Hopf--Galois extension of the algebra of regular functions $U$ on the base $Y\cong X/G$, where $H$ is the $k$-Hopf algebra of global regular functions on $G$. In algebraic topology, a generalization to [[spectrum|spectra]] (with the [[smash product]] of spectra in the role of tensor product) was studied by Rognes and others. In [[noncommutative geometry]], Hopf--Galois extensions are studied as noncommutative affine torsors, with interesting theorems involving [[descent]] theorems for [[Hopf module|Hopf modules]] generalizing [[Schneider's theorem]]. Given a right $H$-Hopf-Galois extension $U\hookrightarrow E$ and a left $H$-comodule $V$ the cotensor product $k$-module $E\Box^H V$ is interpreted as a space of sections of the associated [[fiber bundle]] with structure group $Spec H$ (in noncommutative sense) and fiber $V$. 
 
+##Literature##
+
+* Susan Montgomery, Hopf Galois theory: a survey, Geometry and topology monographs 16 (2009) 367&#8211;400 [link](http://www.msp.warwick.ac.uk/gtm/2009/16/p012.xhtml); [doi](http://dx.doi.org/10.2140/gtm.2009.16.367).
 
 [[!redirects Hopf-Galois extensions]]
 [[!redirects Hopf–Galois extension]]
