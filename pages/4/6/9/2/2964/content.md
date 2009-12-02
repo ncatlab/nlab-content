@@ -25,6 +25,8 @@ Then we can make two constructions from this scheme:
 [[David Roberts]]: Sure. There should be a double slash command in LaTeX - it\'s probably in some obscure package not usable here.
 
 [[Ben Webster]]: In normal LaTeX, two negative spaces (\!) is about right, but here they don't seem to work.  I don't consider negative spaces obscure.
+
+[[David Roberts]]:I mean a single command, like that for double vertical lines (\backslash |)
 =--
 
 ##Linearization, and the function sheaf correspondence
