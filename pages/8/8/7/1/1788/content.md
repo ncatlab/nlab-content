@@ -24,6 +24,7 @@ The sandbox had gotten a little full, making it hard to use as a sandbox.  So [[
 $\check{S}evera$
 S&#711;evera
 
+$\sslash$
 
 category: meta
 
