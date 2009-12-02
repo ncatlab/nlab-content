@@ -12,10 +12,14 @@ Let $X\rightrightarrows Y$ be a [[groupoid scheme]] ($Y$ is objects and $X$ is m
 Then we can make two constructions from this scheme:
 
 * The $\mathbb{F}_p$-points $X(\mathbb{F}_p)
-\rightrightarrows Y(\mathbb{F}_p)$ form a groupoid (with no additional structure).
+\rightrightarrows Y(\mathbb{F}_p)$ form a finite groupoid (with no additional structure).
 * There is a simplicial scheme $N(X\rightrightarrows Y)$ given by the [[nerve]] of $X\rightrightarrows Y$ (this sends $\Delta^n$ to $X\times_Y X\times_Y\cdots  \times_Y X$, with the obvious face and degeneracy maps).
 
   * One special case is when this is an action groupoid.  The resulting simplicial scheme should be thought of as the Borel space for the action on $Y$.
+
++--{: .query}
+[[David Roberts]]: One could write $Y//X$ for this nerve, as you are considering it as the weak or homotopy quotient. This would help when trying to draw diagrams of simpilicial schemes.
+=--
 
 ##Linearization, and the function sheaf correspondence
 
