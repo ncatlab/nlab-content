@@ -134,72 +134,18 @@ A category whose set of morphisms is $U$-moderate may be called a $U$-[[large ca
 
 ###Presheaf categories###
 
-Let $C$ be a $U$-small category.  Then the category of $U$-[[presheaf|presheaves]] on $C$ (the [[functor category]] $[C^{op}, U Set]$) is also $U$-moderate and locally $U$-small but not $U$-small unless $C$ is empty.  ($U Set$ itself is the special case of this where $C$ is the [[point]].)
+Let $C$ be a $U$-small category.  Then the category of $U$-[[presheaf|presheaves]] on $C$ (the [[functor category]] $[C^{op}, U Set]$) is also $U$-moderate and locally $U$-small but not $U$-small unless $C$ is empty.  ($U Set$ itself is the special case of this where $C$ is the [[point]].)  These arguments go as follows:
+
+* $U PSh(C)$ is $U$-moderate: An upper bound for the size of $[C^{op}, U Set]$, hence of the set $Obj([C^{op},U Set])$ is the size of $\{ F : Obj(C)\times Mor(C) \to U \}$ where both $Obj(C)$ and $Mor(C)$ are in $U Set$.  So we are looking at the cardinal number $|U|^{|u| \times |v|}$ where $u = Obj(C)$ and $v = Mor(C)$.  Use the fact that any Grothendieck universe must be infinite (since it has $\emptyset$, $P(\emptyset)$, etc) and the result follows from cardinal arithmetic that $\kappa^\lambda = \kappa$ when $\lambda \lt \kappa$ and $\kappa$ is infinite.
+
+* $U PSh(C)$ is locally $U$-small: An upper bound for the size of the set of morphisms between two functors $F,G : C^{op} \to U Set$ is the disjoint union indexed by the objects $c$ of $C$ over the $U$-sets $G(c)^{F(c)}$. Now $G(c)^{F(c)} \in U$ since it is a function set and $\cup_{c \in Obj(C)} G(c)^{F(c)}$ by the assumption that unions stay in $U$. 
 
 Now let $C$ be a $U$-moderate category (and not small).  Then the category of $U$-presheaves on $C$ is not even locally $U$-small, nor is it even $U$-moderate (it is 'too large').  However, it is locally $U$-moderate.  Also, it is quite possible, if $C$ is a $U$-[[large site|moderate site]], that the category of $U$-[[sheaf|sheaves]] on $C$ is $U$-moderate and locally $U$-small.
 
-These arguments go as follows:
-
-#### $U PSh(C)$ is $U$-moderate ####
-
-
-An upper bound for the size of $[C^{op}, U Set]$, hence of the set $Obj([C^{op},U Set])$ is the size of $\{ F : Obj(C)\times Mor(C) \to U \}$ where both $Obj(C)$ and $Mor(C)$ are in $U Set$. 
-So we are looking at the cardinal number $|U|^{|u| \times |v|}$ where $u = Obj(C)$ and $v = Mor(C)$.  Use the fact that any Grothendieck universe must be infinite (since it has $\emptyset$, $P(\emptyset)$, etc) and the result follows from cardinal arithmetic that $\kappa^\lambda = \kappa$ when $\lambda \lt \kappa$ and $\kappa$ is infinite.
-
-#### $U PSh(C)$ is locally $U$-small ####
-
-An upper bound for the size of the set of morphisms between two functors $F,G : C^{op} \to U Set$ is the disjoint union indexed by the objects $c$ of $C$ over the $U$-sets $G(c)^{F(c)}$. Now $G(c)^{F(c)} \in U$ since it is a function set and $\cup_{c \in Obj(C)} G(c)^{F(c)}$ by the assumption that unions stay in $U$. 
-
-
-
-
-+-- {: .query}
-
-[[Zoran Skoda]] But starting with a $U$-small category one can look at the category of $U$-small presheaves instead of all presheaves.
-This has been useful in hmotopy theory, there is for example
-a paper by Chorny and Dwyer using it. Look also at the paper by Day and Lack on limits of small functors.
-&lt;http://www.maths.usyd.edu.au/u/stevel/papers/small.pdf> 
- I once listened a talk by Chorny in Barcelona where he was convincing that in practice we should use small Yoneda lemma rather than the usual Yoneda, he had arguments that a number of things are more natural, but I have not being taking notes and he never wrote those things in a paper as far as I know (I do not see them in his other papers in which he uses small presheaves but without some of that discussion).
-See anyway
-&lt;http://wwwmaths.anu.edu.au/~chorny/personal/research/>
-and also earlier minipreprint version
-&lt;http://www.math.uwo.ca/~bchorny2/research/smalldiag.ps>
-the results of Chorny-Dwyer is cited  (I did not look yet how much used yet) by Rosicky in Accessible categories and homotopy theory
-&lt;http://www.math.yorku.ca/~tholen/HB07Rosicky.pdf>
-
-[[Urs Schreiber|Urs]]: above we are talking about "$U$-presheaves", i.e. the functor categories $[C^{op}, U Set]$. Isn't that the same as "$U$-small presheaves"?
-
-[[Mike Shulman|Mike]]: I agree with Urs.
-
-[[Zoran Skoda]]: No it is not the same in general. For example you argue above that the category of $U$-presheaves on $U$-small category is not even $U$-large, while this is not true for category of $U$-small presheaves.  Not every $U$-presheaf in your sense is a $U$-small colimit of representables. 
-
-[[Mike Shulman|Mike]]: I'm still confused.  Zoran, can you say exactly what you mean by a "$U$-small presheaf?"  I can think of a number of _a priori_ different notions.
-
-1. A presheaf with values in $U$-small sets.
-
-1. A presheaf which itself, as a functor, is a $U$-small set.
-
-1. A presheaf with values in $U$-small sets which is the left Kan extension of its restriction to some $U$-small category.  This is the sense used in the the Day/Lack paper, and maybe in the other references you cited?
-
-The second implies the first by closure under subsets, while the first implies the second by the indexed-union axiom; so they are equivalent although not _a priori_ so.  The third obviously implies the first, but not conversely, _unless_ the domain is already a $U$-small category, which is the only case considered above.
-
-The third is definitely an important notion, when you want to consider presheaves with large domain, but I don't think this is the right page on which to discuss it.
-
-[[Zoran Škoda]] Of course I mean the third notion, this is standard notion of smallness of presheaves. Representable presheaf even on category of all sets is considered small.
-And to use the Grothendieck universes you look at colimits of U-small diagrams of representables, and allow them. Of course the links above I put in order to refer to what I mean. Actually the lack of those is my only complaint about your paper set theory for category theory which I found useful and beautiful. 
-
-Finally look at this: the category of presheaves on a large category (I am not talking about universes) is not even defined in general, one needs to look at equivalence classes of functors sometimes, as the functors themselves are not small. I am not a practioner in these questions but the data for a functor which is a colimit of a small diagram of representables can be made into a set. 
-
-When you say that this is not the place to talk about U-small presheaves, why it would be a place for what you call above U-presheaves ? The first seem to be more useful and standard in addressing the question of size of functors and functor categories. 
-
-[[Mike Shulman|Mike]]: I'm glad you liked my paper, thanks!  And thanks for the suggestion, too; it might be worth including a brief note about small functors.
-
-There are unfortunately a number of different uses of the word "small" in category theory.  This page is about Grothendieck universes, and on this page, "$U$-small" means "element of $U$."  On this page, we _are_ talking about universes, and part of the point is that the category of presheaves on a large category _is_ defined if "large" things are still sets (just not elements of $U$).  Of course, if one wants this category to have certain good properties, one may want to consider instead a subcategory of small things.
-
-The reason I don't think this page is the place to talk about "small presheaves" in the small-colimit-of-representables sense is that, no matter how useful they may be in addressing the question of size of functors and functor categories, this page is not about addressing the question of size of functors and functor categories; it is about Grothendieck universes.  Any discussion of functor categories should be aimed at clarifying the role played by Grothendieck universes.  A brief mention of "small presheaves" in your sense might not be amiss, with a link to a page called [[small presheaf]] or [[small functor]], but I think it would be too confusing to talk for very long about a different meaning of the word "small" on this page.
-
---Zoran--: OK, but let us then move BOTH our discussion (with possible usage of some of the links above) as well as the treatment of U-presheaves in above sense (discussed by Urs and you before) into a new entry small presheaves. But you'd be better (far more competent) person to do it with improvements than me (no hurry of course). 
++--{: .standout}
+*Note:* Here we are considering presheaves on $C$ with values in $U$-small sets.  In many cases, a more appropriate notion of "$U$-small presheaf" is that discussed at [[small presheaf]], namely a presheaf that is a $U$-small colimit of representables.
 =--
+
 
 ## Alternative approaches ##
 
