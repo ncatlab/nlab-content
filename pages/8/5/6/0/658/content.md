@@ -111,7 +111,7 @@ $$
   }
 $$
 
-* The bifunctor $V\Cat \to V\Mod$ exhibits $V\Mod$ as a [[framed bicategory]].
+* The bifunctor $V\Cat \to V\Mod$ exhibits $V\Mod$ as a [[framed bicategory]], and makes $V\Cat$ into a [[2-category equipped with proarrows]].
 
 
 ## Related entries ##
@@ -138,6 +138,8 @@ There is a discussion of distributors in the recently republished:
 
 Excellent  notes from a course on _distributors_ given by 
 Jean B&#233;nabou in June 2000 at TU Darmstadt, and prepared by Thomas Streicher, are available from his website  &lt;http://www.mathematik.tu-darmstadt.de/~streicher>.
+
+* A nice example of profunctors between Lawvere [[metric spaces]] can be found in [this comment](http://golem.ph.utexas.edu/category/2009/11/equipments.html#c029633).
 
 
 ***
