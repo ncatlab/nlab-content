@@ -26,7 +26,8 @@ Other attempted axiomatizations of the same idea "something that acts like the c
 
 * [[allegories]]
 
-* [[1-category equipments]]
+* [[1-category equipped with relations]]
+
 
 
 ## References
