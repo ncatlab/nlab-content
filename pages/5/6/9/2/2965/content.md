@@ -19,7 +19,7 @@ We write $P C$ for the category of small presheaves on $C$.  Observe that althou
 
 Of course, if $C$ is small, then $P C$ is the usual category of all presheaves on $C$.
 
-Since small colimits of small colimits are small colimits, $P C$ is [[cocomplete category|cocomplete]].  In fact, it is easily seen to be the [[free cocompletion]] of $C$, even when $C$ is not small.  It is not, in general, complete, but we can characterize when it is (cf. Day-Lack).
+Since small colimits of small colimits are small colimits, $P C$ is [[cocomplete category|cocomplete]].  In fact, it is easily seen to be the [[free cocompletion]] of $C$, even when $C$ is not small.  It is not, in general, complete, but we can characterize when it is (cf. Day--Lack).
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -49,7 +49,7 @@ These results can all be generalized to [[enriched categories]], and also relati
   &lt;http://wwwmaths.anu.edu.au/~chorny/personal/research/>
   and also earlier minipreprint version
   &lt;http://www.math.uwo.ca/~bchorny2/research/smalldiag.ps>
-  the results of Chorny-Dwyer is cited by Rosicky in Accessible categories and homotopy theory
+  the results of Chorny--Dwyer is cited by Rosicky in Accessible categories and homotopy theory
   &lt;http://www.math.yorku.ca/~tholen/HB07Rosicky.pdf>
 
 [[!redirects small presheaves]]
