@@ -44,7 +44,7 @@ A symmetric monoidal category is equivalently a category that is equipped with t
 
 Details are in examples 1.2.3 and 1.2.4 of
 
-* [[Jacob Lurie]], [[E-k-Algebras]]
+* [[Jacob Lurie]], $\mathbb{E}[k]$-[[Ek-Algebras|Algebras]]
 
 
 ## References
