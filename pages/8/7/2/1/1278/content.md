@@ -13,15 +13,15 @@ Differential cohomology is a refinement of ordinary [[cohomology]] such that a d
 
 The details of a formulation of differential cohomology depend on how the generalized [[cohomology]] theory itself is formulated.
 
-The best known version of differential cohomology is a differential refinement of generalized cohomology in the sense of  the generalized Eilenberg-Steenrod axioms. This is a [[stable (infinity,1)-category|stable]] version of generalized cohomology.
+The best known version of differential cohomology is a differential refinement of generalized cohomology in the sense of  the generalized Eilenberg--Steenrod axioms. This is a [[stable (infinity,1)-category|stable]] version of generalized cohomology.
 
 A differential refinement of non-stable, i.e. [[nonabelian cohomology]] is developed [[schreiber:Differential Nonabelian Cohomology|here]].
 
 ## Differential stable cohomology 
 
-A standard definition of differential cohomology is in terms of a homtopy fiber product of a generalized Eilenberg-Steenrod cohomology theory with the complex of differential forms over real cohomology:
+A standard definition of differential cohomology is in terms of a homtopy fiber product of a generalized Eilenberg--Steenrod cohomology theory with the complex of differential forms over real cohomology:
 
-Let $\Gamma^\bullet$ be a generalized cohomology theory in the sense of the generalized Eilenberg-Steenrod axioms, and let 
+Let $\Gamma^\bullet$ be a generalized cohomology theory in the sense of the generalized Eilenberg--Steenrod axioms, and let 
 $\Gamma^\bullet \to H^\bullet(-,\mathbb{R}) \otimes \Gamma^\bullet(*)$ be a morphism to real singular cohomology with coefficients in the ring of $\Gamma$-cohomology of the point. Then the differential refinement of $\Gamma^\bullet$, the **differential $\Gamma$-cohomology** is the [[homotopy pullback]] $\bar \Gamma^\bullet$ in
 
 $$
@@ -54,8 +54,7 @@ There are variations of this definition, with some technical differences in the 
  
   * higher circle [[bundle gerbe]]s with connection;
 
-* apart from that people studied mainly 
-[[differential K-theory]].
+* apart from that people studied mainly [[differential K-theory]].
 
 In [[physics]] differential cocycles model [[gauge theory|gauge fields]]. 
 
@@ -78,7 +77,7 @@ For $c \in \bar \Gamma^\bullet(X)$ a differentia cocycle representing a gauge, o
 * its image $cl(c)$ in non-differential cohomology is the "topological twist" of the [[gauge theory|gauge field]]. In special cases this can be identified with [[magnetic charge]].
 
 
-## Differential cohomology following Bunke-Schick
+## Differential cohomology following Bunke--Schick
 
 The following theory of differential cohomology
 (also called **smooth cohomology**) is developed and used
@@ -109,7 +108,7 @@ with a differential form representative of its image in real cohomology.
 
 * $I$ projects a differential cohomology to its underlying ordinary cohomology class;
 
-* $R$ send the differential cohomology class to its __curvature_ differential form data
+* $R$ send the differential cohomology class to its _curvature_ differential form data
 
 we want an exact sequence
 
@@ -133,7 +132,8 @@ $$
  }
 $$
 
-**definition**
++-- {: .un_defn}
+###### Definition
 
 Given cohomology theory $E^\bullet$, a smooth refinement
 $\hat E^\bullet$ is a functor $\hat E : Diff \to Grps$
@@ -156,8 +156,8 @@ where
 
 $V = E^\bullet(pt)\otimes \mathbb{R}$
 
-is the graded non-torsion cohomology of $E$ on the point. So now all the
-gradings above denote total grading.
+is the graded non-torsion cohomology of $E$ on the point (so now all the
+gradings above denote total grading)
 
 and such that there is a transformation
 
@@ -167,12 +167,14 @@ $$
   \hat E^*(M)
 $$
 
-that gives the above kind of exact sequence
+that gives the above kind of exact sequence.
+=--
 
 
-**definition**
++-- {: .un_defn}
+###### Definition
 
-if $E^*$ is multiplicative, we say $\hat E^*$ is multiplicative with 
+If $E^*$ is multiplicative, we say $\hat E^*$ is multiplicative with 
 product $\vee$
 if $\hat E$ takes values in graded rings and the transformations are
 compatible with multiplicative structure, where
@@ -180,8 +182,11 @@ compatible with multiplicative structure, where
 $$
   a(\omega) \vee x = a(\omega \wedge R(x))
 $$
+=--
 
-**definition**
+
++-- {: .un_defn}
+###### Definition
 
 $\hat E$ has $S^1$-integration if there is a natural (in $M$) transformation
 
@@ -190,8 +195,6 @@ $$
 $$
 
 compatible with $\int$ of forms  and for $E$ it is given by the suspension isomorphism
-
-and
 
 $$
   \int \circ p^* = 0
@@ -202,14 +205,21 @@ for $p : M \times S^1 \to M$ and
 $$
   \int \circ (  id \times (z \mapsto \bar z) )^* = - \int
 $$
+=--
 
 
-**remark** ordinary cohomology theories are supposed to be homotopy
++-- {: .un_remark}
+###### Remark
+
+Ordinary cohomology theories are supposed to be homotopy
 invariant, but differential forms are not, so in general the differential
-cohomology is not
+cohomology is not.
+=--
 
 
-**Lemma** Given $\hat E$ a smooth cohomology theory. 
++-- {: .un_lemma}
+###### Lemma
+Given $\hat E$ a smooth cohomology theory. 
 The **homotopy formula**:
 
 given $h : M \times [0,1] \stackrel{smooth}{\to} N$
@@ -220,31 +230,39 @@ $$
   =
   a( \int_{M \times [0,1]/M}  h^*(R(x)))
 $$
+=--
 
-**corollary** $ker(R)$ (i.e. flat cohomology) is a homotopy invariant
-functor
++-- {: .un_cor}
+###### Corollary
+$ker(R)$ (i.e. flat cohomology) is a homotopy invariant
+functor.
+=--
 
-**def** $\hat H{flat} := ker(R)$
++-- {: .un_defn}
+###### Definition
+$\hat H{flat} := ker(R)$
+=--
 
-**proof of lemma**
++-- {: .proof}
+###### Proof of lemma
 
-suffices to show 
+It suffices to show 
 
 $$
   \iota_1^*(x) - \iota_0^*(x) = a(\int_{M\times [0,1]/M} R(x))
 $$
 
-for all $x \in \hat E(M \times [0,1])$
+for all $x \in \hat E(M \times [0,1])$.
 
-observe if $x = p^* y$ the left hand side vanishes, $\int R(p^* y) = 0$
+Observe if $x = p^* y$ the left hand side vanishes, $\int R(p^* y) = 0$.
 
-for general $x$ $\exists y \in \jhat E(M)$; $x - p^*(y) = a (\omega)$
-$\omega \in \Omega(M \times [0,1])$
+For general $x$ $\exists y \in \jhat E(M)$; $x - p^*(y) = a (\omega)$
+$\omega \in \Omega(M \times [0,1])$.
 
 Stokes' theorem gives $i^*_1 \omega - i^*_0 \omega = \int_{[0,1]} d \omega$
-$= \int R(a(\omega)) = \int R(x-p^* \omega) = \int R(x)$
+$= \int R(a(\omega)) = \int R(x-p^* \omega) = \int R(x)$.
 
-on the other hand
+On the other hand
 
 $$
   i^*_1(x) - i^*_0(x) = i^*_1(a(\omega))
@@ -252,48 +270,64 @@ $$
     = a(\int R(x))
 $$
 
-a calculation: $\hat H^1_{flat}(pt) = \hat H^1(pt) = \mathbb{R}/\mathbb{Z} = \hat K^1(pt)$
+A calculation: $\hat H^1_{flat}(pt) = \hat H^1(pt) = \mathbb{R}/\mathbb{Z} = \hat K^1(pt)$.
+=--
 
-**Theorem (Hopkins-Singer)**
+
++-- {: .un_theorem}
+###### Theorem (Hopkins--Singer)
 
 For each generalized cohomology theory $E^*$ 
-a differential version  $\hat E^*$ as in the above definition does exist
+a differential version  $\hat E^*$ as in the above definition does exist.
 
-Moreover $\hat E_{flat}^* = E \mathbb{R}/\mathbb{Z}^{\bullet -1}$
+Moreover $\hat E_{flat}^* = E \mathbb{R}/\mathbb{Z}^{\bullet -1}$.
+=--
 
-**remark** it's not evident hot to obtain more structure like multiplication
++-- {: .un_remark}
+###### Remark
+It's not evident how to obtain more structure like multiplication.
+=--
 
-**theorem** using geometric models, multiplicative smooth extensions
++-- {: .un_theorem}
+###### Theorem
+Using geometric models, multiplicative smooth extensions
 with $S^1$-integration are constructed for
 
-* K-theory (Bunke-Schick)
+* K-theory (Bunke--Schick)
 
 * MU-bordisms (unitary bordisms)  
-  (Bunke-Schr&ouml;der-Schick-Wiethaupts; and from there Landweber exact cohomology theories)
-  
+  (Bunke--Schr&#246;der--Schick--Wiethaupts; and from there Landweber exact cohomology theories)
+=--
 
-**uniqueness theorem (Bunke-Schick)** 
-(Simons-Sullivan proved this for ordinary integral cohomology)
 
-assume $E^*$ is _rationally even_, meaning that
++-- {: .un_theorem}
+###### Uniqueness theorem (Bunke--Schick)
+
+(Simons--Sullivan proved this for ordinary integral cohomology.)
+
+Assume $E^*$ is _rationally even_, meaning that
 
 $$
   E^k(pt)\otimes \mathbb{Q} = 0 \;\; for odd k 
 $$
 
-plus one further technical assumption
+plus one further technical assumption.
 
-then any two smooth extensions $\hat E^*$, $\tilde E^*$ are naturally
-isomorphic
+Then any two smooth extensions $\hat E^*$, $\tilde E^*$ are naturally
+isomorphic.
 
-such that if required to be compatible with integration the ismorphism is unique
+If required to be compatible with integration the ismorphism is unique.
 
-if $\hat E, \tilde E$ are multiplicative, then this isomorphism is,
+If $\hat E, \tilde E$ are multiplicative, then this isomorphism is,
 as well.
+=--
 
-**example** if we don't require compatibility with $S^1$-integration, then there
-are "exotic" abelian group structures on $\hat K^1$
++-- {: .un_example}
+###### Example
 
+If we don't require compatibility with $S^1$-integration, then there
+are "exotic" abelian group structures on $\hat K^1$.
+=--
 
 
 ## References
