@@ -28,3 +28,4 @@ For example, if one is studying Cartesian spaces as inner product spaces, then o
 
 [[!redirects Cartesian space]]
 [[!redirects cartesian spaces]]
+[[!redirects Cartesian spaces]]
