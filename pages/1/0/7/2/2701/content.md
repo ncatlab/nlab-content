@@ -29,7 +29,7 @@ When applied to the ordered set of [[rational number]]s, the construction descri
 ##References##
 * [MacNeille completions and canonical extensions](http://www.math.nmsu.edu/mgehrke/gehharven.pdf)
 * [Encyclopedia of Mathematics](http://eom.springer.de/c/c024070.htm)
-* Section 21H of [The Joy of Cats](http://katmat.math.uni-bremen.de/acc/acc.pdf)
+* Section 21H of [[The Joy of Cats]] ([web](http://katmat.math.uni-bremen.de/acc/acc.pdf))
 
 
 [[!redirects Mac Neille completion]]
