@@ -9,11 +9,11 @@ Generalized complex geometry is effectively the study of the [[Lie infinity-alge
 
 One finds (as described at [[standard Courant algebroid]]) that
 
-* choices of sub-[[Lie algebroid]]s of $\mathfrak{c}(X)$ encode **[[Dirac Structure]]s** and -- after [[complexification]] -- **generalized [[complex structure]]s**;
+* choices of sub-[[Lie algebroid]]s of $\mathfrak{c}(X)$ encode **[[Dirac structure]]s** and -- after [[complexification]] -- **generalized [[complex structure]]s**;
 
 * choices of [[section]]s of the canonical morphism $\mathfrak{c}(X) \to T X$ to the [[tangent Lie algebroid]]s encode **generalized Riemannian metrics**: pairs consisting of a (possibly [[pseudo-Riemannian metric|pseudo]]-)[[Riemannian metric]] and a [[differential form|2-form]].
 
-  In applications in [[string theory]] , this encodes the field of [[gravity]] and the [[Kalb-Ramond field]], respectively. (There are also proposals for how the [[dilaton]] field appears in this context.)
+  In applications in [[string theory]], this encodes the field of [[gravity]] and the [[Kalb–Ramond field]], respectively. (There are also proposals for how the [[dilaton]] field appears in this context.)
 
 In components these are structures found on the [[vector bundle]]
 
@@ -24,21 +24,13 @@ $$
 
 the [[direct sum]] of the [[tangent bundle]] with the cotangent bundle of $X$. 
 
-Generalized complex geometry thus generalizes and unifies both
+Generalized complex geometry thus generalizes and unifies
 
-* [[complex geometry]]
-
-and
-
-* [[symplectic geometry]].
-
-and
-
+* [[complex geometry]],
+* [[symplectic geometry]], and
 * [[Riemannian geometry]].
 
-
 It was in particular motivated by the observation that this provides a natural formalism for describing [[T-duality]].
-
 
 
 
