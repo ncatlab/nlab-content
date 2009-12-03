@@ -13,25 +13,26 @@ However, these definitions obscure the essential symmetry of the definition.  We
 * *horizontal arrows*: the objects of $D_1$
 * *squares* or *2-cells*: the morphisms of $D_0$.
 
-We may picture a 2-cell in a double category as a square
+We may picture a 2-cell in a double category as a square:
 
 $$
   \array{
-    (x_0 \in Obj(D_0)) 
-    &\stackrel{(f \in Mor(D_0))}{\to} &
-    (x_1 \in Obj(D_0)) 
+    x_0 
+    &\stackrel{f}{\to} &
+    x_1  
     \\
-    \downarrow^{\mathllap{(\xi_0 \in Obj(D_1))}}
-    &\Downarrow^{\mathrlap{(\phi \in Mor(D_1))}}&
-    \downarrow^{\mathrlap{(\xi_1 \in Obj(D_1))}}
+    \downarrow^{\mathllap{\alpha_0}\;}
+    &\Downarrow^{\mathrlap{\phi}}&
+    \downarrow^{\mathrlap{\alpha_1}}
     \\
-    (y_0 \in Obj(D_0)) 
-    &\underset{(f_g \in Mor(D_0))}{\to} &
-    (y_1 \in Obj(D_0)) 
+    y_0  
+    &\underset{g}{\to} &
+    y_1 
   }
-  \,.
+  
 $$
 
+Here $x_i,y_i$ are objects, $f$ and $g$ are horizontal arrows, $\alpha_i$ are vertical arrows and $\phi$ is the 2-cell itself.  This makes it clear why $\phi$ is called a 'square'.
 
 The vertical and horizontal arrows both form categories (the "edge categories"), and the squares have two category structures which respect the edge category structures.  
 
@@ -68,22 +69,28 @@ In particular, the *transpose* of a double category, which switches the vertical
 
 An internal category in the 1-category $Cat$ is a *strict* double category, all of whose composition operations are strictly associative and unital.  However, since a double category is a 2-dimensional structure, it makes sense to allow these compositions to be weak as well.
 
-A **pseudo double category** is a weakly internal category in the 2-category $Cat$.  Here "weakly internal category" in a 2-category is interpreted as being associative and unital up to coherent isomorphism, just as a [[bicategory]] is a "weakly enriched category."  This makes the composition in one direction weak, but the composition in the other direction remains strict (it is the composition in the objects of $Cat$ that make up the pseudo double category).  Many naturally occurring examples, such as $Prof$, are pseudo double categories.
+A **pseudo double category** is a weakly internal category in the 2-category $Cat$.  Here "weakly internal category" in a 2-category is interpreted as being associative and unital up to coherent isomorphism, just as a [[bicategory]] is a "weakly enriched category."  This makes the composition in one direction weak, but the composition in the other direction remains strict (it is the composition in the objects of $Cat$ that make up the pseudo double category).  Many naturally occurring examples, such as $Prof$, are pseudo double categories.  
 
-Finally, a **[[double bicategory]]** is one way to define a double category which is "weak in both directions."
+Luckily, every pseudo double category is equivalent to a double category of the usual sort, where composition of arrows in both directions is strictly associative.  This is Theorem 7.5 of Grandis and Par&#233;'s paper [Limits in double categories](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1999__40_3/CTGDC_1999__40_3_162_0/CTGDC_1999__40_3_162_0.pdf).
+
+Finally, a **[[double bicategory]]** is one way to define a double category which is "weak in both directions."  Double bicategories were defined in Dominic Verity's thesis, which unfortunately is unpublished and not available in electronic form.  However, the definition can be found in Jeffrey Morton's paper [Double bicategories and double cospans](http://arxiv.org/abs/math/0611930).
 
 
 ## References ##
 
-* [[Ronnie Brown]] and C.B. Spencer, [Double groupoids and crossed modules](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1976__17_4_343_0), Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques 17 (1976) 343--362
+* [[The Catsters]], Double Categories ([YouTube](http://www.youtube.com/watch?v=kiCZiSA2W3Q&feature=channel_page)).
 
-* Jeffrey C. Morton, [Double Bicategories and Double Cospans](http://arxiv.org/abs/math/0611930)
+* Tom Fiore, [Double categories and pseudo algebras](http://www.math.uchicago.edu/~fiore/1/fiorefolding.pdf). 
 
-* Tom Fiore, [Double Categories and Pseudo Algebras](http://www.math.uchicago.edu/~fiore/1/fiorefolding.pdf) 
+* Marco Grandis and Robert Par&#233;, [Limits in double categories](http://www.numdam.org/numdam-bin/feuilleter?id=CTGDC_1999__40_3), _Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques_ **40** (1999), 162--220.
 
-* [[John Baez]], [An Introduction to n-Categories](http://arxiv.org/abs/q-alg/9705009)
+* Marco Grandis and Robert Par&#233;,
+[Adjoints for double categories](http://www.numdam.org/numdam-bin/feuilleter?id=CTGDC_2004__45_3"),
+_Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques_ **45** (2004), 193--240.
 
-* [[The Catsters]], Double Categories ([YouTube](http://www.youtube.com/watch?v=kiCZiSA2W3Q&feature=channel_page))
+* Jeffrey C. Morton, [Double bicategories and double cospans](http://arxiv.org/abs/math/0611930).
+
+* [[Ronnie Brown]] and C.B. Spencer, [Double groupoids and crossed modules](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1976__17_4_343_0), _Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques_ **17** (1976), 343--362.
 
 
 [[!redirects double categories]]
