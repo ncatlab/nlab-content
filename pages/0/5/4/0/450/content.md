@@ -9,7 +9,7 @@
 
 ## Definition of strict case ##
 
-A **$0$-fold category** is a [[set]].  An **$n$-fold category** for $n \gt 0$ is an [[internal category]] in $(n-1)$-fold categories.
+A **$0$-fold category** is a [[set]].  An **$n$-fold category** for $n \gt 0$ is an [[internal category]] in $(n-1)$-fold categories.  An $n$-fold category is also known as an **$n$-tuple category**.
 
 In particular, a $1$-fold category is preciesely a [[category]], and a $2$-fold category is precisely a [[double category]] (introduced by [[Charles Ehresmann]] in 1963).
 
