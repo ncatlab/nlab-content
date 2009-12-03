@@ -104,9 +104,9 @@ One expects that
 
 ### Parameterized $\infty$-groupoids
 
-For _parameterized [[∞-groupoid]]s_ , i.e. for [[∞-stack]]s there is available a theorem that identified $k$-tuply monoidal pointed objects -- realized as algebras over a [[little cubes operad]] -- with $k$-connected objects in
+For _parameterized [[∞-groupoid]]s_, i.e. for [[∞-stack]]s, there is available a theorem that identified $k$-tuply monoidal pointed objects -- realized as algebras over a [[little cubes operad]] -- with $k$-connected objects in
 
-* [[Jacob Lurie]], [[E-k-Algebras]] [main result](http://ncatlab.org/nlab/show/Ek-Algebras#MainResult)
+* [[Jacob Lurie]], $\mathbb{E}[k]$-[[Ek-Algebras|Algebras]] [main result](http://ncatlab.org/nlab/show/Ek-Algebras#MainResult)
 
 
 
