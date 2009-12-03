@@ -23,7 +23,7 @@ This model structure is [[Quillen equivalence|Quillen equivalent]] to the classi
 
 #Model Structure 2#
 
-A second model structure has $W$ the class of homotopy equivalences and $F$ the class of **[[Hurewicz fibration]]s**, which are defined to be maps that have the right lifting property with respect to _all_ inclusions $i_0 : A \hookrightarrow A \times I$ for any topological space $A$. The cofibrations are determined by these classes and are called the **[[Hurewicz cofibration]]s**.
+A second model structure has $W$ the class of homotopy equivalences and $F$ the class of **[[Hurewicz fibration]]s**, which are defined to be maps that have the right lifting property with respect to _all_ inclusions $i_0 : A \hookrightarrow A \times I$ for any topological space $A$. The cofibrations are determined by these classes and are called the **closed [[Hurewicz cofibration]]s**.
 
 #Mixed Model Structure#
 
@@ -47,7 +47,7 @@ For the "Hurewicz," "Str&#248;m," or "h-" model structure:
 
 For the "mixed" or "m-" model structure:
 
-* Michael Cole, _Mixing model structures_, Topology Appl. 153 no. 7 (2006)
+* Michael Cole, _Mixing model structures_, Topology Appl. 153 no. 7 (2006) [doi](http://dx.doi.org/10.1016/j.topol.2005.02.004).
 
 
 [[!redirects model category of topological spaces]]
