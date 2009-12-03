@@ -35,4 +35,7 @@ More generally, an **$(n,r)$-fold groupoid** is an $r$-fold category in $(n-r)$-
 
 * [[Ronnie Brown]] and P.J. Higgins, The equivalence of $\infty$-groupoids and crossed  complexes,  Cah. Top. G\'eom. Diff.  22 (1981) 371--386.
 
+
 [[!redirects n-fold categories]]
+[[!redirects n-tuple category]]
+[[!redirects n-tuple categories]]
