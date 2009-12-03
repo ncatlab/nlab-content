@@ -71,34 +71,7 @@ _Toby_:  Yeah, a dependent type theory can always be rephrased as an independent
 
 _Toby_:  I also don\'t have the time to think about it carefully; I feel pretty secure about my intuition, but that is all.  But I would see the equality relation between parallel $n$-morphisms in an $n$-category as something extralogical, just as much as the type of $n$-morphisms between parallel $(n-1)$-morphisms.
 
-_Harry_: Couldn't we just say: Let f and g are (left? right?)-composable iff h[dom g]) is isomorphic to h[cod f]) where h is the homotopy category functor (assuming quasicategories, but there should be a good enough way to define this in more generality, no?).  This way, g o f is only specified up to homotopy (that is, we know that it's in the homotopy class of h[g] o h[f].  I think there might be a few technicalities to work out with 1-Categories, but applying the homotopy functor immediately collapses it to that case.  
-=--
+_Harry_: Couldn't we just say: Let $f$ and $g$ be (left? right?)-composable iff $h[dom g]$ is isomorphic to $h[cod f]$ where $h$ is the homotopy category functor (assuming quasicategories, but there should be a good enough way to define this in more generality, no?).  This way, $g \circ f$ is only specified up to homotopy (that is, we know that it's in the homotopy class of $h[g] \circ h[f]$.  I think there might be a few technicalities to work out with 1-Categories, but applying the homotopy functor immediately collapses it to that case.  
 
-The following discussion is about the (un)suitability of the following epigraph:
-
-_Mirrors and copulation are abominable,_ <br>
-_for they multiply the number of mankind._ <br>
-
-&mdash; J.L. Borges, _Tl&#246;n, Uqbar, Orbis Tertius_
-
-+--{: .query}
-[[Mike Shulman]]: I don't see what this quote has to do with anything.
-
-[[Jon Awbrey]]: I don't know who coined the term "evil" for this particular form of "multiplying entities beyond necessity", but I felt sure that he-she must be alluding to Borges' story.  At any rate, it seemed a fitting epigraph.
-
-[[David Roberts]]: I would think that the evil referred to on this page is actually lessening the number of entities, because things are made to be equal when they are only isomorphic. There are many categories which have a small skeleton but aren't small, and an evil way of thinking about such categories is to consider only the skeletal version. 
-
-[[Mike Shulman]]: Yes, I don't see how the meaning of "evil" on this page has anything to do with multiplying entities beyond necessity.
-
-[[Jon Awbrey]]: What was the sense of the phrase, "more generally if it distinguishes between isomorphic objects"?
-
-[[Mike Shulman]]: Not distinguishing between isomorphic objects doesn't make there *be* any fewer objects.  The objects are still all there.  It just means that one isomorphic object is as good as another (or more precisely, that any statement about an object can be transferred along an isomorphism).
-
-[[Jon Awbrey]]:  Re: "a concept is ... _evil_ ... if it distinguishes between isomorphic objects".  That seems to be a recommendation against distinguishing isomorphic objects.  That's a pretty familiar position, if that's all it's saying.  The gist of the jest is that mirrors don't really multiply entities, only their appearances, that is, their representations, and it's only the Web of Maya that makes us treat images as objects.  Or something ...
-
-_Toby_:  Evil isn\'t about whether there are more or fewer objects; it\'s about whether you can count the objects at all!  It\'s evil to say that $C$ has at least $2$ objects; all that you can say is that $C$ has at least $1$ object and (if it\'s true) that $C$ has at least $2$ isomorphism classes of objects.  To count things (beyond the question of whether there is at least $1$), you need a notion of equality of those things.
-
-[[Mike Shulman]]: Ditto Toby.  Making there be fewer objects would be like passing to the [[skeleton]] of a category, but the very *notion* of a skeleton is evil.
-
-_Toby_:  By the way, I kind of like the quotation.  It\'s kind of inappropriate, yes, but in an interesting way.
+_Toby_:  That seems to bring us back to the idea of composing along an isomorphism between $dom g$ and $cod f$, now generalised to quasicategories.
 =--
