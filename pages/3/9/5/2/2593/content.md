@@ -10,7 +10,7 @@
 
 The abelian cohomology of a [[Lie algebra]] $\mathfrak{g}$ is the [[chain homology and cohomology|cochain cohomology]] of its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$. See also [[nonabelian Lie algebra cohomology]]. 
 
-The degree $n$ Lie algebra cohomology computes the [[homotopy (as an operation)|homotopy]] classes of [[L-∞ algebra]] morphisms
+The degree $n$ Lie algebra cohomology computes the [[homotopy (as an operation)|homotopy]] classes of $L_\infty$-[[L-∞-algebra|algebra]] morphisms
 
 $$
   \mathfrak{g} \to b^{n-1} \mathfrak{u}(1)
@@ -26,7 +26,7 @@ $$
   \to \mathfrak{g}
 $$
 
-of the [[Lie algebra]] by an [[L-∞ algebra]].
+of the [[Lie algebra]] by an $L_\infty$-[[L-∞-algebra|algebra]].
 
 ## ordinary Lie algebras ##
 
@@ -46,4 +46,4 @@ of the [[Lie algebra]] by an [[L-∞ algebra]].
 
 ## super Lie algebras ##
 
-* J. A. de Azc&#225;rraga and P. K. Townsend, _Superspace geometry and classification of supersymmetric extended objects_ , Phys. Rev. Lett. 62, 2579 - 2582 (1989)
+* J. A. de Azc&#225;rraga and P. K. Townsend, _Superspace geometry and classification of supersymmetric extended objects_, Phys. Rev. Lett. 62, 2579--2582 (1989)
