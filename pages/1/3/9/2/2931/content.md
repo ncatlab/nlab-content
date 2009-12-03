@@ -2,9 +2,11 @@
 * automatic table of contents goes here
 {:toc}
 
+
 ## Idea ##
 
-A [[2-category equipped with proarrows]] is a 2-category together with a 2-category of "proarrows" which are intended to generalize the arrows of $K$ in the same way that [[profunctors]] generalize the [[functors]] in [[Cat]].  Since profunctors are a [[categorification]] of [[relations]], it is natural to think of decategorifying equipments to give a structure on a 1-category that equips it with "relations".  We call this structure a *1-category equipped with relations*.
+A [[2-category equipped with proarrows]] is a 2-category together with a 2-category of "proarrows" which are intended to generalize the arrows of $K$ in the same way that [[profunctors]] generalize the [[functors]] in [[Cat]].  Since profunctors are a [[categorification]] of [[relations]], it is natural to think of decategorifying such equipments to give a structure on a 1-category that equips it with "relations".  We call this structure a *1-category equipped with relations*.
+
 
 ## Definition ##
 
@@ -17,9 +19,9 @@ For example, if $V$ is any [[quantale]], then $V Cat$ is naturally a (1,2)-categ
 
 ### 1-categories equipped with relations
 
-A **1-category equipped with relations** is a (1,2)-category equipped with proarrows, regarded as a double category $\underline{K}$, together with an [[involution]] $\underline{K}^{h-op} \cong \underline{K}$ which is (isomorphic to) the identity on objects and (vertical) arrows.  Here $\underline{K}^{h-op}$ denotes the horizontal opposite of a double category obtained by reversing the horizontal (pro-)arrows but not the vertical ones.  We also call this structure a **relation equipment** or a **1-category proarrow equipment**.
+A **1-category equipped with relations** is a (1,2)-category equipped with proarrows, regarded as a double category $\underline{K}$, together with an [[involution]] $\underline{K}^{h op} \cong \underline{K}$ which is (isomorphic to) the identity on objects and (vertical) arrows.  Here $\underline{K}^{h op}$ denotes the horizontal opposite of a double category obtained by reversing the horizontal (pro-)arrows but not the vertical ones.  We also call this structure a **relation equipment** or a **1-category proarrow equipment**.
 
-In particular, the definition implies that we have an involution $K \cong K^{co}$ which is the identity on objects and arrows, which for a (1,2)-category means that $K$ is actually (equivalent to) a 1-category.  Note though that the 2-category of proarrows (which we now call "relations") is still a (1,2)-category, not necessarily a 1-category.
+In particular, the definition implies that we have an involution $K \cong K^{co}$ which is the identity on objects and arrows, which for a (1,2)-category means that $K$ is actually (equivalent to) a 1-category.  Note though that the 2-category of proarrows (which we now call "relations") is still (like [[Rel]]) a (1,2)-category, not necessarily a 1-category.
 
 For example, for any quantale $V$, the sub-2-category of $V Cat$ consisting of the *symmetric* $V$-categories (those where $A(x,y) = A(y,x)$) is a 1-category equipped with relations.  In particular, for $V=\mathbb{2}$, we have the relation equipment $\underline{Rel}$ of sets, functions, and binary relations.
 
@@ -125,3 +127,5 @@ It is shown [here](http://rfcwalters.blogspot.com/2009/10/categorical-algebras-o
 [[!redirects 1-category relation equipment]]
 [[!redirects 1-category equipment]]
 [[!redirects 1-category equipments]]
+[[!redirects 1-category proarrow equipment]]
+[[!redirects (1,2)-category proarrow equipment]]
