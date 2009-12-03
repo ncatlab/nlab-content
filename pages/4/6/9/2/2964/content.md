@@ -21,7 +21,7 @@ Then we can make two constructions from this scheme:
 +--{: .query}
 [[David Roberts]]: One could write $Y//X$ for this nerve, as you are considering it as the weak or homotopy quotient. This would help when trying to draw diagrams of simpilicial schemes.
 
-[[Ben Webster]]: Sorry, that is way too confusing for me.  Double-slashes are for [[GIT quotients]] in my world. Also, for whatever reason they look awful on this site.  Even adding negative spaces doesn't make them look less unpleasant.
+[[Ben Webster]]: Sorry, that is way too confusing for me.  Double-slashes are for [[GIT quotient|GIT quotients]] in my world. Also, for whatever reason they look awful on this site.  Even adding negative spaces doesn't make them look less unpleasant.
 
 [[David Roberts]]: Sure. There should be a double slash command in LaTeX - it\'s probably in some obscure package not usable here.
 
@@ -38,7 +38,7 @@ Then we can make two constructions from this scheme:
 
 ##Linearization, and the function sheaf correspondence
 
-The latter construction can be "linearized" in an analogous way to [[geometric function theory]], except using the [[constructible derived category|derived category of sheaves with finite rank constructible cohomology]] with coefficients in the [[p-adic number|p-adics]] $\mathbb{Q}_\ell$ for some prime $\ell$ of $N(X\rightrightarrows Y)$.  Let $D(N(X\rightrightarrows Y))$ denote this category.  In fact, we will require the graded version of this category, provided by [[mixed sheaves]].  We denote this graded category $D_{mix}(N(X\rightrightarrows Y))$  
+The latter construction can be "linearized" in an analogous way to [[geometric function theory]], except using the [[constructible derived category|derived category of sheaves with finite rank constructible cohomology]] with coefficients in the [[p-adic number|p-adics]] $\mathbb{Q}_\ell$ for some prime $\ell$ of $N(X\rightrightarrows Y)$.  Let $D(N(X\rightrightarrows Y))$ denote this category.  In fact, we will require the graded version of this category, provided by [[mixed sheaf|mixed sheaves]].  We denote this graded category $D_{mix}(N(X\rightrightarrows Y))$  
 
 
 There is a map $\alpha_{q,\ell}$ from $K^0(D_{mix}(N(X\rightrightarrows Y))$ to the set $\mathbb{Q}_\ell[N(X \rightrightarrows Y)(\mathbb{F}_q)]$ of $\mathbb{Q}_\ell$ valued functions on any $\mathbb{F}_q$ point of $N(X\rightrightarrows Y)$ where $\ell$ and $q$ where $\ell$ is a prime and $\ell\nmid q$, given by the supertrace of automorphism of the stalk of the sheaf at that point induced by the action of the Frobenius $q^n$ on $X\times_{\mathrm{Spec}\mathbb{Z}}  \mathrm{Spec}\overline{\mathbb{F}_q}$.
