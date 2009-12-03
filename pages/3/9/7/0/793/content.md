@@ -29,12 +29,24 @@ It turns out to be possible and useful to discuss just the _topological_ aspects
 This sub-phenomenon is discussed in more detail at [[topological T-duality]].
 
 
-## geometric T-duality
+## geometric T-duality in generalized complex geometry {#TdualityIngcg}
 
 Another approach to the study of T-duality takes a somewhat complementary point of view and ignores the  [[Eilenberg-MacLane spectrum|integral cohomology]] class in $H^3(X,\mathbb{Z})$ of the [[gerbe]] but does consider the [[Riemannian metric]].
 
 In this context T-duality is described as an isomorphism of [[standard Courant algebroid]]s. This picture emerged in the study of [[generalized complex geometry]].
 
-* Cavalcanti, Gualtieri, _Generalized complex geometry and T-duality_ ([pdf](http://www.math.uu.nl/people/cavalcan/homepage/Research_files/t-duality.pdf))
+### References
+
+T-duality is identified as an [[isomorphism]] of [[standard Courant algebroid]]s in section 4 of
+
+* Cavalcanti, [[Marco Gualtieri|Gualtieri]], _Generalized complex geometry and T-duality_ ([pdf](http://www.math.uu.nl/people/cavalcan/homepage/Research_files/t-duality.pdf))
+
+A discussion of the [[sigma-model]] description of T-duality in this context is in
 
 * Jonas Persson, _T-duality and Generalized Complex Geometry_ ([arXiv](http://arxiv.org/abs/hep-th/0612034))
+
+Further references are
+
+* Willie Carl Merrell, _Application of superspace techniques to effective actions, complex geometry and T-duality in String theory_ ([pdf](http://www.lib.umd.edu/drum/bitstream/1903/6865/1/umi-umd-4355.pdf))
+
+* Peggy Kao, _T-duality and Poisson-Lie T-duality in generalized geometry_ ([pdf](http://tpsrv.anu.edu.au/Members/bouwknegt/Kao.pdf))
