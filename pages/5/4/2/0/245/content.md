@@ -83,7 +83,7 @@ A braided monoidal category is equivalently a category that is equipped with the
 
 Details are in example 1.2.4 of
 
-* [[Jacob Lurie]], [[E-k-Algebras]]
+* [[Jacob Lurie]], $\mathbb{E}[k]$-[[Ek-Algebras|Algebras]]
 
 
 [[!redirects braided monoidal categories]]
