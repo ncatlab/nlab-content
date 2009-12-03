@@ -37,7 +37,7 @@ On topological spaces, this model structure has weak homotopy equivalences for w
 
 For the original "Quillen" or "q-" model structure:
 
-* Quillen, _Homotopical algebra_
+* D. G. Quillen, _Homotopical algebra_, Lecture Notes in Mathematics __43__, Springer-Verlag 1967, iv+156 pp.
 
 * Any book on model categories, such as Hovey's _Model categories_ or Hirschhorn's _Model categories and their localizations_.
 
