@@ -8,7 +8,7 @@
 
 The words "Chern-Simons theory" can mean various things to various people, but here it generally refers to the three-dimensional [[TQFT|topological quantum field theory]] introduced by [[Edward Witten]] in his seminal paper from 1989, ["Quantum field theory and the Jones polynomial"](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.cmp/1104178138), the paper which went a large way to him obtaining the Fields medal. 
 
-In this paper, Witten showed that the new [[knot invariant|polynomial invariant]] of [[knot]]s invented by Vaughan Jones in the context of [[von Neumann algebra]]s can be given a beautiful heuristic geometric interpretation: the [[Jones polynomial]] V(q) a knot $K$ in a 3-manifold $M$ can be viewed as the [[path integral]] over all $SU(2)$-connections on $M$ of the exponential of the [[Chern-Simons|Chern-Simons form]] [[action functional]] $S[A]$:
+In this paper, Witten showed that the new [[knot invariant|polynomial invariant]] of [[knot]]s invented by Vaughan Jones in the context of [[von Neumann algebra]]s can be given a beautiful heuristic geometric interpretation: the [[Jones polynomial]] V(q) a knot $K$ in a 3-manifold $M$ can be viewed as the [[path integral]] over all $SU(2)$-connections on $M$ of the exponential of the [[Chern-Simons form|Chern-Simons]] [[action functional]] $S[A]$:
 \[
  V_K(q) = \int_{all\,connections\,A\,on\,M} Tr Hol_A (K) exp iS[A]
 \]
@@ -16,7 +16,7 @@ where
 \[
 S[A] = \frac{k}{4\pi} \int_M Tr (A \wedge dA + \frac{2}{3} A \wedge A \wedge A)
 \]
-is the integral of the  [[Chern-Simons action|Chern-Simons form]], 
+is the integral of the  [[Chern-Simons form|Chern-Simons action]], 
 \[
  Tr Hol_A (K) 
 \]
@@ -30,7 +30,7 @@ Said heuristically: the [[Jones polynomial]] of the knot $K$ can be understood a
 
 The beautiful thing about Chern-Simons theory is that Witten was able use the _locality_ property of the [[path integral]] to give a _nonperturbative_ way to actually compute it. In this way Chern-Simons theory has become the 'poster-child' of [[extended topological quantum field theory]] since it exemplifies the main idea: take advantage of the higher gluing laws in order to compute geometric quantities. 
 
-One of the major mathematical projects around Chern-Simons theory has therefore been to try and understand it rigorously as a 3-2-1-0 [[extended topological quantum field theory]]. For the abelian case the major paper in this regard is [Topological quantum field theories from Compact Lie Groups](http://arxiv.org/abs/0905.0731) by [[Dan Freed|Freed]], Hopkins, [[Jacob Lurie|Lurie]] and Teleman. No-one has yet made rigorous sense of the nonabelian theory as an extended [[TQFT]]. However, the invariants that the theory assigns to closed [[manifold]]s of dimension 0,1,2 and 3 are heuristically expected to be:
+One of the major mathematical projects around Chern-Simons theory has therefore been to try and understand it rigorously as a 3-2-1-0 [[extended topological quantum field theory]]. For the abelian case the major paper in this regard is [Topological quantum field theories from Compact Lie Groups](http://arxiv.org/abs/0905.0731) by [[Dan Freed|Freed]], [[Mike Hopkins|Hopkins]], [[Jacob Lurie|Lurie]] and Teleman. No-one has yet made rigorous sense of the nonabelian theory as an extended [[TQFT]]. However, the invariants that the theory assigns to closed [[manifold]]s of dimension 0,1,2 and 3 are heuristically expected to be:
 
 A closed 3-manifold $M$ $\mapsto$ the path integral given above (a number).
 
@@ -91,7 +91,7 @@ For slides of Witten's talk, click [here](http://www.princeton.edu/~tklose/adscf
  \[
  I(\lambda) = \int_{\mathbb{R}^n} d^n exp(i\lambda f(x_1, \ldots, x_n)).
 \]
-We want to make sense of the integral when the function $f$ is allowed to take on imaginary values (naively, the integral diverges). To do this, we use Morse theory: we choose as our Morse function the real part of the exponent, that is $h = \Re(i \lambda f)$. For every critical point $p$ of $h$, the descending manifold $C_p$ is an $n$-cycle in the relative homology group $H_n (X, X_{&lt; &lt; 0})$. (Basically this means that it's a new "contour" for the integral). Moreover Morse theory tells us that the cycles we obtain in this way form a basis for the homology, so we can express our original cycle $C$ (the $\mathbb{R}^n$ appearing in the integral over $\mathbb{R}^n$) as a linear combination of these Morse theory cycles:
+We want to make sense of the integral when the function $f$ is allowed to take on imaginary values (naively, the integral diverges). To do this, we use Morse theory: we choose as our Morse function the real part of the exponent, that is $h = \Re(i \lambda f)$. For every critical point $p$ of $h$, the descending manifold $C_p$ is an $n$-cycle in the relative homology group $H_n (X, X_{\ll0})$. (Basically this means that it's a new "contour" for the integral). Moreover Morse theory tells us that the cycles we obtain in this way form a basis for the homology, so we can express our original cycle $C$ (the $\mathbb{R}^n$ appearing in the integral over $\mathbb{R}^n$) as a linear combination of these Morse theory cycles:
  \[
  C = \sum_p n_p C_p
 \]
@@ -105,11 +105,11 @@ This new definition actually converges, and makes sense. Apparantly the same tec
 
 This year marked the 20th anniversary of Witten's seminal paper _Quantum field theory and the Jones polynomial_ and there were a number of conferences marking this event. If anyone has notes for these conferences please say so, I ([[Bruce Bartlett|Bruce]]) would be very grateful!
 
-* [Chern-Simons Gauge Theory: 20 years after](http://www.hausdorff-center.uni-bonn.de/event/2009/gauge_theory/) was a workshop at the Max Planck Institute in Bonn from 3-7 August 2009.
+* [Chern-Simons Gauge Theory: 20 years after](http://www.hausdorff-center.uni-bonn.de/event/2009/gauge_theory/) was a workshop at the Max Planck Institute in Bonn from 3--7 August 2009.
 * (More here...)
 
 ## Geometric quantization and Chern-Simons theory?
-In [Quantum field theory and the Jones polynomial](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.cmp/1104178138), Witten makes the tantalizing observation that the "trace" occuring in the "trace of the holonomy around the knot" term in the path integral should _itself_ be seen as a path integral. In this way one hopes to obtain a much more unified formalism. See [[Bruce Bartlett:Geometric quantization and the path integral in Chern-Simons theory]].   
+In [Quantum field theory and the Jones polynomial](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.cmp/1104178138), Witten makes the tantalizing observation that the "trace" occuring in the "trace of the holonomy around the knot" term in the path integral should _itself_ be seen as a path integral. In this way one hopes to obtain a much more unified formalism. See [[Bruce Bartlett:Geometric quantization and the path integral in Chern-Simons theory]] (password required).   
 
 ##Chern-Simons theory and knot homology
 
