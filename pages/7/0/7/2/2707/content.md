@@ -68,6 +68,10 @@ In [[birational geometry]], Bruno Kahn defined the appropriate version. In [[rig
 
 ## References ##
 
+A modern introduction to Voevodsky's theory is
+
+* A. Beilinson, V. Vologodsky, _A DG guide to Voevodsky's motives_, [math.AG/0604004](http://de.arxiv.org/abs/math/0604004)
+
 Some pretty useful comments on motives are at this MathOverflow thead:
 
 * [What's the "Yoga of Motives?"](http://mathoverflow.net/questions/2146/whats-the-yoga-of-motives/2230#2230)
@@ -84,6 +88,8 @@ There is also
 
 * Bruno Kahn, [pdf slides](http://www.aimath.org/WWN/motivesdessins/PaloAlto1.pdf) on pure motives
 
-* Florence Lecomte, Nathalie Wach, _R&#233;alisations des complexes motiviques de Voevodsky_ ([arXiv](http://de.arxiv.org/abs/0911.5611))
+* Florence Lecomte, Nathalie Wach, _R&#233;alisations des complexes motiviques de Voevodsky_ ([arxiv:0911.5611](http://de.arxiv.org/abs/0911.5611))
+
+* Marc Levine, _Smooth motives_, [arxiv:0807.2265](http://arxiv.org/abs/0807.2265)
 
 [[!redirects category of motives]]
