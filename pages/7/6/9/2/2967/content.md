@@ -8,7 +8,7 @@
 
 ## Idea
 
-A _standard Courant Lie algebroid_ of a [[manifold]] $X$ is a type of [[Courant algebroid]] constructed from the [[tangent bundle]] and cotangent bundle of a manifold. This is the principle algebraic structure studied in [[generalized complex geometry]].
+A _standard Courant Lie algebroid_ of a [[manifold]] $X$ is a type of [[Courant algebroid]] constructed from the [[tangent bundle]] and [[cotangent bundle]] of $X$. This is the principle algebraic structure studied in [[generalized complex geometry]].
 
 ## Definition
 
@@ -16,7 +16,7 @@ Recall from the discussion at [[Courant algebroid]] that there are the following
 
 * as a [[vector bundle]] equipped with a bracket and a bilinear form on its space of sections, satisfying various identities;
 
-* as a [[L-infinity algebroid|Lie 2-algebroid]] equivalently encoded in its [[Chevalley-Eilenberg algebra]], equivalently the function algebra on a certain type of [[NQ-supermanifold]].
+* as a [[L-infinity algebroid|Lie 2-algebroid]] equivalently encoded in its [[Chevalley?Eilenberg algebra]], equivalently the function algebra on a certain type of [[NQ-supermanifold]].
 
 ### As a vector bundle with extra structure 
 
@@ -57,7 +57,7 @@ given by
     \begin{aligned}
       d_C &= d_{dR} + p_i \frac{\partial}{\partial \theta_i}
       \\
-      &= dx^i \frac{\partial}{\partial x^i }
+      &= d x^i \frac{\partial}{\partial x^i }
        + p_i \frac{\partial}{\partial \theta_i}
     \end{aligned}
     \,.
@@ -66,7 +66,7 @@ given by
 
 ### As a Lie 2-algebroid
 
-We may read the above [[dg-algebra]] as the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{c}(X))$ of the [[Lie ∞-algebroid|Lie 2-algebroid]] $\mathfrak{c}(X)$, the specification of which entirely specifies the Lie 2-algebroid itself. 
+We may read the above [[dg-algebra]] as the [[Chevalley?Eilenberg algebra]] $CE(\mathfrak{c}(X))$ of the [[Lie ∞-algebroid|Lie 2-algebroid]] $\mathfrak{c}(X)$, the specification of which entirely specifies the Lie 2-algebroid itself. 
 
 More on this in the discussion below.
 
@@ -100,16 +100,16 @@ of this morphism of [[Lie ∞-algebroid]]s is often called a _connection_ on $\m
 +-- {: .un_prop}
 ###### Proposition
 
-On base manifolds of the form $X = \mathbb{R}^n$ sections of $\mathfrak{c}(X) \to T X$ in the 1-[[category]] of [[Lie ∞-algebroid]]s are in natural bijection with rank 2 tensor fields on $X$, i.e. with sections $q \in \Gamma(T X \oplus T X)$.
+On base manifolds of the form $X = \mathbb{R}^n$ sections of $\mathfrak{c}(X) \to T X$ in the 1-[[category]] of [[Lie ∞-algebroid]]s are in natural bijection with rank-2 tensor fields on $X$, i.e. with sections $q \in \Gamma(T X \oplus T X)$.
 
 =--
 
-The proof is straightforward and easy, but spelling it out in detail also serves to establish concepts and notation for the treatment of the Courant algebroid in terms of its [[Chevalley-Eilenberg algebra]].
+The proof is straightforward and easy, but spelling it out in detail also serves to establish concepts and notation for the treatment of the Courant algebroid in terms of its [[Chevalley?Eilenberg algebra]].
 
 +-- {: .proof}
 ###### Proof
 
-The [[Chevalley-Eilenberg algebra]] of the Lie 2-algebroid $\mathfrak{c}(\mathbb{R}^n)$ is the [[semifree dga]] whose underlying algebra is the [[Grassmann algebra]]
+The [[Chevalley?Eilenberg algebra]] of the Lie 2-algebroid $\mathfrak{c}(\mathbb{R}^n)$ is the [[semifree dga]] whose underlying algebra is the [[Grassmann algebra]]
 
 $$
   CE(\mathfrak{c}(X))
@@ -149,7 +149,7 @@ $$
 
 where $\{x^i\}_{i=1}^n$ are the canonical coordinate functions on $\mathbb{R}^n$.
 
-The [[Chevalley-Eilenberg algebra]] of the [[tangent Lie algebroid]] $T X$ is the [[deRham complex]] 
+The [[Chevalley?Eilenberg algebra]] of the [[tangent Lie algebroid]] $T X$ is the [[deRham complex]] 
 
 $$
   CE(T X ) = (\Omega^\bullet(X), d_{dR})
@@ -179,10 +179,10 @@ $$
 
 Being a section, it has to be the identity on $C^\infty(X)$ and send $\xi^i \maptsto d_{dR} x^i$.
 
-The image og the generators $\theta_i$, being of degree 1, must be a linear combination over $C^\infty(X)$ of the degree-1 elements in $\Omega^\bullet(X)$, i.e. must be 1-forms on $X$. This defines the rank 2 tensor $q$ in question by
+The image og the generators $\theta_i$, being of degree 1, must be a linear combination over $C^\infty(X)$ of the degree-1 elements in $\Omega^\bullet(X)$, i.e. must be 1-forms on $X$. This defines the rank-2 tensor $q$ in question by
 
 $$
-  \that_i \mapsto q_{i j} \d x^i
+  \hat{t}_i \mapsto q_{i j} \d x^i
   \,.
 $$
 
@@ -208,7 +208,7 @@ This uniquely fixes the image under $\sigma^*$ of the generators $p_i$ and the d
 
 =--
 
-The rank 2-tensor $q$ appearing in the above may be uniquely writtes as sum of a symmetric and a skew-symmetric rank 2-tensor $g \Gamma(Sym^2(T X))$ and $b \in \Gamma(\wedge^2 T X)$
+The rank-2 tensor $q$ appearing in the above may be uniquely writtes as sum of a symmetric and a skew-symmetric rank-2 tensor $g \Gamma(Sym^2(T X))$ and $b \in \Gamma(\wedge^2 T X)$
 
 $$
   q = g + b
@@ -248,7 +248,7 @@ In the 1-[[category]] of [[Lie ∞-algebroid]s, [[automorphism]]s of the standar
 
 * fix the canonical 3-cocycle $\mu = \xi^i p_i$
 
-come from (...say this more precisely...) rank 2-tensors $q = g + b$ such that the skew symmetric part $b$ is a closed 2-form, $d_{dR} b = 0$.
+come from (...say this more precisely...) rank-2 tensors $q = g + b$ such that the skew symmetric part $b$ is a closed 2-form, $d_{dR} b = 0$.
 
 =--
 
