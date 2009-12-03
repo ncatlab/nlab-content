@@ -26,11 +26,7 @@ If $X$ and $Y$ are Hausdorff, then the topology on $Y^X$ coincides with the [[co
 Further remarks should be made which connect this to the theory of [[continuous lattice]]s (essentially, a space is exponentiable if its topology is a continuous lattice). 
 
 
-+-- {: .query}
-Zoran, in what sense is the map $\theta f$ below continuous?  I mean, what is the topology on $B^X$?  You don\'t introduce the compact--open topology until later, but that\'s the topology that I would guess is relevant.  ---Toby
-=--
-
-Denote by $Map(X,Y)=X^Y$ the space of continuous maps $X\to Y$ in [[compact-open topology]].
+Denote by $Map(X,Y)=X^Y$ the space of continuous maps $X\to Y$ in the [[compact-open topology]].
 
 +-- {: .un_theorem}
 ###### Theorem (Exponential law)
@@ -62,7 +58,7 @@ There is also a version for based (= [[pointed space|pointed]]) topological spac
 
  $$\theta_*:Map_*(X\wedge Y,B)\to Map_*(Y,B^X)$$
 
-where the mapping space $Map_*$ for based spaces is the subspace of the usual mapping space, in compact--open topology, which consists of the mappings preserving the base point. 
+where the mapping space $Map_*$ for based spaces is the subspace of the usual mapping space, in the compact-open topology, which consists of the mappings preserving the base point. 
 
 It appears that $\theta_*$ is again one-to-one and continuous, and it is bijective if $X$ is locally compact Hausdorff. If $Y$ is also Hausdorff then $\theta_*$ is a homeomorphism. 
 
