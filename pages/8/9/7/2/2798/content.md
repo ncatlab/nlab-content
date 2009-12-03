@@ -5,7 +5,7 @@
 
 ## Idea ##
 
-The [[Denis-Charles Cisinski|Cisinski]]-[[Ieke Moerdijk|Moerdijk]] [[model category]] structure on the [[category]] $dSet$ of [[dendroidal set]]s models [[(∞,1)-operad]]s in generalization of the way the [[Andre Joyal|Joyal]] [[model structure on simplicial sets]] models [[(∞,1)-category|(∞,1)-categories]].
+The [[Denis-Charles Cisinski|Cisinski]]--[[Ieke Moerdijk|Moerdijk]] [[model category]] structure on the [[category]] $dSet$ of [[dendroidal set]]s models [[(∞,1)-operad]]s in generalization of the way the [[Andre Joyal|Joyal]] [[model structure on simplicial sets]] models [[(∞,1)-category|(∞,1)-categories]].
 
 ## Overview ##
 
@@ -19,7 +19,7 @@ $$
     dSet
      &\stackrel{\simeq}{\to}& 
     dSpaces
-    &&&&& models\;for\;(\infty,1)-operads
+    &&&&& models\;for\;(\infty,1)\text{-}operads
     \\
     \uparrow && \uparrow && \uparrow
     \\
@@ -29,14 +29,14 @@ $$
      &\stackrel{\simeq}{\to}& 
     sSpaces   
     &&&&&
-    models;for\;(\infty,1)-categories
+    models;for\;(\infty,1)\text{-}categories
   }
   \,,
 $$
 
 where the entries are
 
-* the category $SSet Cat$ of [[simplicially enriched category|simplicially enriched categories]] equipped with the [[Julie Bergner|Bergner]]-model structure;
+* the category $SSet Cat$ of [[simplicially enriched category|simplicially enriched categories]] equipped with the [[Julie Bergner|Bergner]] model structure;
 
 * the category [[SSet]] of [[simplicial set]]s equipped with the [[model structure on simplicial sets|Joyal model structure]] for [[quasi-category|quasi-categories]];
 
@@ -55,11 +55,10 @@ and where
 
 Recall frrom the entry on [[dendroidal set]]s the definition of inner and outer faces, boundaries and inner and outer horns.
 
-The following definition are the obvious generalizations of the corresponding notions for the [[model structure on simplicial sets]], in particular for the [[Andre Joyal|Joyal]]-model structure.
+The following definition are the obvious generalizations of the corresponding notions for the [[model structure on simplicial sets]], in particular for the [[Andre Joyal|Joyal]] model structure.
 
 +-- {: .un_defn}
-###### Definition
-**(inner anodyne extension)**
+###### Definition (inner anodyne extension)
 
 The class of morphisms in $dSet$ generated from the inner horn inclusions $\Lambda^e \Omega[T] \to \Omega[T]$ under
 
@@ -74,8 +73,7 @@ is called the **inner anodyne extensions**.
 =--
 
 +-- {: .un_defn}
-###### Definition
-**(inner Kan fibration)**
+###### Definition (inner Kan fibration)
 
 A [[morphism]] $A \to B$ in $dSet$ is an **inner Kan fibration** if it has the [[right lifting property]] with respect to all inner horn inclusions.
 
@@ -95,16 +93,14 @@ or equivalently with respect to the class of inner anodyne extensions.
 
 
 +-- {: .un_defn}
-###### Definition
-**(inner Kan complex / quasi-operad)**
+###### Definition (inner Kan complex / quasi-operad)
 
 A dendroidal set $X$ is an **inner Kan complex** or **quasi-operad** if the canonical morphism $X\to {*}$ to the [[terminal object]] is an inner Kan fibration.
 
 =--
 
 +-- {: .un_defn}
-###### Definition
-**(trivial fibration)**
+###### Definition (trivial fibration)
 
 A morphism $A \to B$ of dendroidal sets is an **acyclic fibration** if it has the [[right lifting property]] with respect to all monomorphisms (equivalently: with respect to all normal monomorphisms).
 
@@ -122,8 +118,7 @@ A _trivial fibration of quasi-operads_ is a morphism of [[dendroidal set]]s such
 An **inner anodyne extension** of [[dendroidal set]]s is a morphism such that... 
 
 +-- {: .un_def }
-###### Definition
-**(model structure on dendroidal sets)**
+###### Definition (model structure on dendroidal sets)
 
 On the category of [[dendroidal set]]s let
 
