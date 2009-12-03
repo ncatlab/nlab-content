@@ -47,7 +47,7 @@ One of the tools of topology, [[homotopy theory]], has long since crossed the bo
 * [[nonabelian algebraic topology]], [[nonabelian cocycle]], [[nonabelian cohomology]]
 * [[principal infinity-bundle]], [[BrownAHT]], [[category of fibrant objects]]
 * [[fibration]], [[Hurewicz fibration]], [[Hurewicz connection]], [[homotopy lifting property]], [[Dold fibration]]
-*  [[homotopy extension property]]. [[Hurewicz cofibration]], [[deformation retract]], [[model structure on topological spaces]], [[Strøm's theorem]]
+* [[homotopy extension property]], [[Hurewicz cofibration]], [[deformation retract]], [[model structure on topological spaces]], [[Strøm's theorem]]
 * [[cocylinder]], [[cylinder object]], [[path object]], [[mapping cone]], [[path groupoid]], [[path n-groupoid]], [[fundamental groupoid]]
 * [[classifying space]], [[Eilenberg-MacLane space]],[[Moore space]], [[Moore path category]]
 * [[topological K-theory]], [[gerbe]], [[twisted K-theory]], [[Karoubi K-theory]], [[differential K-theory]], [[K-theory spectrum]]
