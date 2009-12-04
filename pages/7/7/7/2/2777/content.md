@@ -71,8 +71,14 @@ Theorem 1.3.16.
 
 =--
 
+### Related literature
 
- 
+Lurie's proof of the equivalence of $n$-connected objects with grouplike $E[k]$-objects is entirely at the level of [[(∞,1)-category|(∞,1)-categories]]. One would hope that in addition there is a model for this equivalence at the level of [[model category|model categories]].
+
+There is a model category structure on the category $Top_*$ of pointed topological spaces, such that the cofibrant objects are $n$-connected [[CW-complex]]es, described in
+
+* J. Aldana, J. Paricio, M. Rodriguez, _A closed model category for $(n-1)$-connected spaces_ ([pdf](http://www.ams.org/proc/1996-124-11/S0002-9939-96-03606-4/S0002-9939-96-03606-4.pdf))
+
 
 ## Stabilization hypothesis {#StabilizationHypothesis}
 
