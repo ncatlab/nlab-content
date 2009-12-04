@@ -13,7 +13,7 @@ On this page, we explain a connection between [[decategorification]] and [[degro
 
 ##Basic data
 
-Let $X\rightrightarrows Y$ be a groupoid internal to schemes ($Y$ is the scheme of [[object]]s and $X$ the scheme of [[morphism]]s) where both schemes are of finite type.
+Let $X\rightrightarrows Y$ be a groupoid internal to the category of schemes ($Y$ is the scheme of [[object]]s and $X$ the scheme of [[morphism]]s) where both schemes are of finite type.
 
 Then we can make two constructions from this scheme:
 
