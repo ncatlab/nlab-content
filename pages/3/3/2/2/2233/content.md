@@ -10,7 +10,7 @@ _Extended quantum field theory_ (or _many-tiered quantum field theory_) is the [
 
 whereas 
 
-* [[category theory|1-categorical]] [[TQFT]] may be regarded as a rule that allows to compute topological invariants $Z(\Sigma)$ assigned to $n$-dimensional [[manifold]]s by cutting these manifolds into a sequence $\{\Sigma_i\}$ of $n$-dimensional composable [[cobordism]]s with $(n-1)$-dimensional boundaries $\partial \Sigma_i$, e.g.  $\Sigma = \Sigma_2 \coprod_{\partial \Sigma_1 = \partial \Sigma_2} \Sigma_1$, then assigning quantities $Z(\Sigma_i)$ to each of these and then composing these quantities in some way, e.g. as $Z(\Sigma) = Z(\Sigma_2)\circ Z(\Sigma_1)$;
+* [[category theory|1-categorical]] [[TQFT]] may be regarded as a rule that allows one to compute topological invariants $Z(\Sigma)$ assigned to $n$-dimensional [[manifold]]s by cutting these manifolds into a sequence $\{\Sigma_i\}$ of $n$-dimensional composable [[cobordism]]s with $(n-1)$-dimensional boundaries $\partial \Sigma_i$, e.g.  $\Sigma = \Sigma_2 \coprod_{\partial \Sigma_1 = \partial \Sigma_2} \Sigma_1$, then assigning quantities $Z(\Sigma_i)$ to each of these and then composing these quantities in some way, e.g. as $Z(\Sigma) = Z(\Sigma_2)\circ Z(\Sigma_1)$;
 
 we have that
 
