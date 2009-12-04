@@ -17,7 +17,7 @@ continuous if and only if $f$ is $k$-continuous.
 1. $X$ is an [[identification space]] of a [[disjoint union]] of compact Hausdorff spaces.
 1. A subset $U\subseteq X$ is open if and only if $t^{-1}(U)$ is open for any compact Hausdorff space $C$ and continuous $t:C\to X$.
 
-A space $X$ is a __$k$-space__ if any (hence all) of the above conditions hold.  Some authors also say that a $k$-space is __compactly generated__, while others reserve that term for a $k$-space which is also _weak Hausdorff_, meaning that the image of any $t:C\to X$ is closed (when $C$ is compact Hausdorff).
+A space $X$ is a __$k$-space__ if any (hence all) of the above conditions hold.  Some authors also say that a $k$-space is __compactly generated__, while others reserve that term for a $k$-space which is also _[[weak Hausdorff space|weak Hausdorff]]_, meaning that the image of any $t:C\to X$ is closed (when $C$ is compact Hausdorff).
 
 # Cartesian closure #
 
@@ -49,12 +49,14 @@ laws and their applications. One reason for the success and
 difficulties is that it is easy to give a topology on the space of
 closed subsets of a space $X$ by regarding this as the space of maps
 to the [[Sierpinski space]] (the set $\{0,1\}$ of [[truth value]]s in which $\{1\}$
-is closed but not open). From this one can get an exponential law for
-spaces over $B$ if $B$ is $T_0$, so that all fibres of spaces over
+is closed but not open). From this one can get an [[exponential law for
+spaces]] over $B$ if $B$ is $T_0$, so that all fibres of spaces over
 $B$ are closed in their total space.  Note that weak Hausdorff implies $T_0$.
 
 +--{: .query}
 [[Mike Shulman]]: What precisely does "get an exponential law" mean?  Do you mean that $k Top/B$ is cartesian closed if $B$ is $T_0$?
+
+_Toby_:  Hopefully that is explained in the new article.
 =--
 
 
