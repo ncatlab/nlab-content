@@ -9,8 +9,7 @@
 
 Dendroidal sets are to [[operad]]s and [[(∞,1)-operad]]s as [[simplicial set]]s are to [[category|categories]] and [[(∞,1)-category|(∞,1)-categories]].
 
-A dendroidal set is something that consists of [[tree category|trees]] on the way a [[simplicial set]] consists of [[simplex|simplices]]. But we may Poincar&#233;dually think of the trees as being the [[string diagram]]s of something like [[opetopes]]. (?)
-
+A dendroidal set is something that consists of [[tree category|trees]] in the way a [[simplicial set]] consists of [[simplex|simplices]]. 
 
 
 ## Definition ##
@@ -107,13 +106,13 @@ The _face maps_ on trees, regarded as dendroidal sets, are morphisms that genera
 
 there are
 
-1. inner face maps -- obtained by contracting an inner edge
+1. inner face maps -- obtained by contracting an inner edge 
 
 1. outer face maps -- obtained by 
 
    1. removing an outer input vertex
 
-   1. removing a unary vertex whose output is the root
+   1. removing a vertex whose output is the root and which has precisely one inner incoming edge (which becomes the new root)
 
    1. a corolla face -- any one of the inclusions of the tree with no vertex into a tree with precisely one vertex
 
@@ -249,7 +248,7 @@ $$
 +-- {: .un_lemma }
 ###### Lemma (face maps are the monomorphisms)
 
-The inner and outer face morphisms $\partial_e$ and $\partial v$ are precisely the [[monomorphism]]s in the [[tree category]] $\Omega$. 
+The inner and outer face morphisms $\partial_e$ and $\partial_v$ are precisely the [[monomorphism]]s in the [[tree category]] $\Omega$. 
 
 =--
 
@@ -264,7 +263,7 @@ Lemma 3.1 in [MoeWei07](http://cat.inist.fr/?aModele=afficheN&cpsidt=20087314).
 The **boundary of a tree** is the union of all its face dendroidal sets
 
 $$
-  \partial \Omega[T] = \cup_{e \in Edges(T)} \Omega[\partial_e T] \vup_{v \in Vertices(T)} \Omega[\partial_v T] 
+  \partial \Omega[T] = \cup_{e \in Edges(T)} \Omega[\partial_e T] \cup_{v \in Vertices(T)} \Omega[\partial_v T] 
   \,.
 $$
 
@@ -273,13 +272,13 @@ Compare to [[boundary of a simplex]].
 Analogously then to the notion of [[horn]] of a [[simplex]], for $d$ an edge of $T$ the union
 
 $$
-  \Lambda^e \Omega[T] = \cup_{e \neq d \in Edges(T)} \Omega[\partial_e T] \vup_{v \in Vertices(T)} \Omega[\partial_v T] 
+  \Lambda^e \Omega[T] = \cup_{e \neq d \in Edges(T)} \Omega[\partial_e T] \cup_{v \in Vertices(T)} \Omega[\partial_v T] 
 $$
 
 of dendroidal sets is the **inner horn** of $T$ at $e$, and for $w$ an outer face the union
 
 $$
-  \Lambda^w \Omega[T] = \cup_{e \neq d \in Edges(T)} \Omega[\partial_e T] \vup_{v \neq w \in Vertices(T)} \Omega[\partial_v T] 
+  \Lambda^w \Omega[T] = \cup_{e \neq d \in Edges(T)} \Omega[\partial_e T] \cup_{v \neq w \in Vertices(T)} \Omega[\partial_v T] 
 $$
 
 is the **outer horn** at $w$.
@@ -298,14 +297,38 @@ $$
 $$
 
 +-- {: .un_defn}
-###### Definition/Proposition (normal monomorphisms)
+###### Definition
 
-The class of morphisms in $dSet$ generated from the boundary inclusions under [[pushout]] and [[transfinite composition]] is called the class of **normal monomorphisms**.
+A [[monomorphism]] $X \to Y$ of dendroidal sets is called **normal** if for any tree $T$, any non-degenerate dendrex $y \in Y(T)$ which does not belong to the image of $X(T)$ has a trivial stabilizer $Aut(T)_y \subset Aut(T)$. 
+
+A dendroidal set $X$ is normal if $\emptyset \hookrightarrow X$ is a normal monomorphism. 
+
 =--
 
-+-- {: .query}
-Surely this has nothing to do with [[normal monomorphism]], which as far as I know only makes sense in a context with [[zero morphisms]].  But then what part of this is the proposition?  Is it that these are monomorphisms at all?  ---Toby
+For instance for any tree $T$, the dendroidal set $\Omega[T]$ is normal.
+
++-- {: .un_remark}
+###### Remark 
+
+This has nothing to do with the notion of [[normal monomorphism]] in a context with [[zero morphisms]].  
+
 =--
+
+
++-- {: .un_prop}
+###### Proposition
+
+The class of morphisms in $dSet$ generated from the boundary inclusions under [[pushout]] and [[transfinite composition]] is preecisely the class of **normal monomorphisms**.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is prop 1.4 in [CisMoer09](http://arxiv.org/abs/0902.1954).
+
+=--
+
 
 
 ## Structure on $dSet$ ##
