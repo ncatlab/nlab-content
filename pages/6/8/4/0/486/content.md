@@ -34,3 +34,4 @@ An **infinitary pretopos** is an [[coherent category|infinitary coherent categor
 [[!redirects W-pretopos]]
 [[!redirects Pi-W-pretopos]]
 [[!redirects ∞-W-pretopos]]
+[[!redirects infinitary pretopos]]
