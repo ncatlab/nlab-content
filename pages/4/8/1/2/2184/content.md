@@ -139,5 +139,8 @@ _Long time lurker, first time writer_: I don't think of a graph as a set with bi
 
 All this makes me wonder if an approach along the following lines is possible: Define directed graphs in the broadest sense, as functors from the two-object, two-nontrivial-morphism category to the category of sets. As combinatorial objects, the obvious functor from the category of digraphs to the category of graphs is in fact a functor. Is there some analogous operation on the functor category of digraphs? (Apologies if some of the above doesn't make much sense, I'm writing this on way too little sleep.)
 
+_Toby_:  I don\'t know the difference between 'a set with a (certain kind of) binary relation' and 'a set with an adjacency structure', at least not if an adjacency structure is a certain kind of binary relation.  (Although it might be a good idea to say something like that in the Idea section.)  Which defintion of morphism is obviously correct to you?
+
+
 [[!redirects undirected graph]]
 [[!redirects graph theory]]
