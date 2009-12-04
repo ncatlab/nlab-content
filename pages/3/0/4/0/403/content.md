@@ -202,3 +202,8 @@ _[[Toby Bartels|Toby]]_: Usually in the theory of Lie groupoids, they require $s
 
 [[!redirects internal groupoid]]
 [[!redirects internal categories]]
+[[!redirects internal groupoids]]
+[[!redirects category internal]]
+[[!redirects groupoid internal]]
+[[!redirects categories internal]]
+[[!redirects groupoids internal]]
