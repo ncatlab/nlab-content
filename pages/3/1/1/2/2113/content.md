@@ -11,6 +11,9 @@ More generally, the __generalized flag variety__ is the complex projective varie
 
 * A. Borel, _Linear algebraic groups_, Springer
 
+See also: [[building]]
+
+
 [[!redirects flag varieties]]
 [[!redirects flag manifold]]
 [[!redirects flag manifolds]]
