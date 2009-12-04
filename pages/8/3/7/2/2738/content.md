@@ -301,7 +301,7 @@ $$
 
 A [[monomorphism]] $X \to Y$ of dendroidal sets is called **normal** if for any tree $T$, any non-degenerate dendrex $y \in Y(T)$ which does not belong to the image of $X(T)$ has a trivial stabilizer $Aut(T)_y \subset Aut(T)$. 
 
-A dendroidal set $X$ is normal if $\emptyset \hookrightarrow X$ is a normal monomorphism. 
+A dendroidal set $X$ is **normal** if $\emptyset \hookrightarrow X$ is a normal monomorphism. 
 
 =--
 
@@ -318,7 +318,7 @@ This has nothing to do with the notion of [[normal monomorphism]] in a context w
 +-- {: .un_prop}
 ###### Proposition
 
-The class of morphisms in $dSet$ generated from the boundary inclusions under [[pushout]] and [[transfinite composition]] is preecisely the class of **normal monomorphisms**.
+The class of morphisms in $dSet$ generated from the boundary inclusions under [[pushout]] and [[transfinite composition]] is precisely the class of **normal monomorphisms**.
 
 =--
 
