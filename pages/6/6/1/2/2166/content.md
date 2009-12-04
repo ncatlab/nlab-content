@@ -18,7 +18,7 @@ A __hypercomplex number system__ is an finite-dimensional [[nonassociative algeb
 
 *  In dimension $8$, try the [[octonion]]s and the [[biquaternion]]s.
 
-*  In dimension $16$, try the [[sedenions]]s and the [[bioctonions]]s.
+*  In dimension $16$, try the [[sedenion]]s and the [[bioctonion]]s.
 
 Of course, these are not the only possibilities by any means.  One can always form the [[direct product]] of two hypercomplex number systems to get a hypercomplex number systems with the sum of the dimensions.  Another way to double the dimension is to form the [[tensor product]] with any of the hypercomplex number systems of dimension $2$; in particular, [[complexification]] (the tensor product with the complex numbers) is often denoted by the prefix 'bi&#8209;'.  The [[Cayley–Dickson construction]] will double the dimension of any hypercomplex number system equipped with a (possibly) trivial involution.  Another way to generate associative hypercomplex number systems is through [[Clifford algebra]]s.
 
