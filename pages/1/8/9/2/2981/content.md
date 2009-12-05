@@ -26,3 +26,5 @@ One modern re-proof can be found in
 [[!redirects Strom's model structure]]
 [[!redirects Strøm model structure]]
 [[!redirects Strom model structure]]
+[[!redirects Hurewicz model structure]]
+[[!redirects h-model structure]]
