@@ -21,9 +21,13 @@ The cofibrations have a nice description as well as "[[retract]]s of relative ce
 
 This model structure is [[Quillen equivalence|Quillen equivalent]] to the classical [[model structure on simplicial sets]] via the total singular complex and geometric realization functors (see [[homotopy hypothesis]] for details on this).
 
+This model structure is sometimes called the "Quillen" model structure or $q$-model structure.
+
 #Model Structure 2#
 
 A second model structure has $W$ the class of homotopy equivalences and $F$ the class of **[[Hurewicz fibration]]s**, which are defined to be maps that have the right lifting property with respect to _all_ inclusions $i_0 : A \hookrightarrow A \times I$ for any topological space $A$. The cofibrations are determined by these classes and are called the **closed [[Hurewicz cofibration]]s**.
+
+This model structure is sometimes called the "Hurewicz" model structure, since it uses Hurewicz fibrations and cofibrations, or also the $h$-model structure, where $h$ can stand for either "Hurewicz" or "homotopy equivalence."  However, it is also sometimes called the [[Strøm model structure]], since it was first proven to exist by Arne Str&#248;m.
 
 #Mixed Model Structure#
 
