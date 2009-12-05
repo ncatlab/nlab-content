@@ -8,7 +8,11 @@ The main article is
 
 but it depends on earlier results of several authors and mostly his own earlier papers
 
-* Arne Str&#248;m, _Note on cofibrations_,  Math. Scand.  19  1966 11--14 [file](http://www.mscand.dk/article.php?id=1782) MR0211403 (35 #2284); _Note on cofibrations II_,  Math. Scand.  22  1968 130--142 (1969) [file](http://www.mscand.dk/article.php?id=1867) MR0243525 (39 #4846) 
+* Arne Str&#248;m, _Note on cofibrations_,  Math. Scand.  19  1966 11--14 [file](http://www.mscand.dk/article.php?id=1782) MR0211403 (35 #2284); _Note on cofibrations II_,  Math. Scand.  22  1968 130--142 (1969) [file](http://www.mscand.dk/article.php?id=1867) MR0243525 (39 #4846)
+
+One modern re-proof can be found in
+
+* May and Sigurdsson, _Parametrized homotopy theory_
 
 
 [[!redirects Strom's model category]]
