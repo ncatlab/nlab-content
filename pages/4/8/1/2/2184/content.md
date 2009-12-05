@@ -141,6 +141,9 @@ All this makes me wonder if an approach along the following lines is possible: D
 
 _Toby_:  I don\'t know the difference between 'a set with a (certain kind of) binary relation' and 'a set with an adjacency structure', at least not if an adjacency structure is a certain kind of binary relation.  (Although it might be a good idea to say something like that in the Idea section.)  Which defintion of morphism is obviously correct to you?
 
+_Long time lurker_: I'm talking about the definition of graph homomorphism that graph theorists use, which I think agrees with the one given here at least for simple undirected graphs. And as for "binary relation" vs. "adjacency structure," I don't think there's any real mathematical difference, but it can pay off to think of a (directed loop) graph as a function $V \rightarrow 2^V$ rather than a subset of $V \times V$.
+
+Obviously there are some issues with this; for one thing, I don't see an obvious way to abstract this in a category that doesn't have a subobject classifier. But philosophically, I'd like to propose that the key property of graphs is that their edges don't carry any information except for incidence -- so, e.g., when we take a category and forget about how arrows compose, we get a digraph. And this suggests that we should have some way of defining a graph without any reference to edges. 
 
 [[!redirects undirected graph]]
 [[!redirects graph theory]]
