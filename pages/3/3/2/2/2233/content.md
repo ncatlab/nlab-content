@@ -26,7 +26,7 @@ $n Cob_d$ is an $n$-category with smooth compact oriented $(d-n)$-manifolds as o
 
 There are various suggestions with more or less detail for a precise definition of a higher category $n Cob_n$ of fully extended $n$-dimensional cobordisms. 
 
-A very general one is described at [[(∞,n)-category of cobordisms]].
+A very general (and very natural) one consists in taking a further step in categorification: one takes $n$-cobordisms as $n$-morphisms and smooth homotopy classes of diffeomorphisms beween them as $(n+1)$-morphisms. Next one iterates this; see details at [[(∞,n)-category of cobordisms]].
 
 See 
 
@@ -47,30 +47,17 @@ An $n$-extended $C$-valued TQFT of dimension $d$ is a symmetric $n$-tensor funct
 * smooth compact oriented $(d-n)$-manifolds to $R$-linear $(n-1)$-categories
 * cobordisms of smooth compact oriented $(d-n)$-manifolds to $(n-1)$-functors between $R$-linear $(n-1)$-categories
 
-+-- {: .query}
-I changed references to bordism here into references to [[cobordisms]], since there\'s also a notion of bordism (a back-formation) as dual to cobordism, which is not what we want.  (Also Wikipedia implies that 'bordism' is a mass noun while 'cobordism' is a count noun, and these are count nouns, for what that\'s worth.)  ---Toby
-=--
+with compatibility conditions and gluing formulas that must be satisfied... For instance, since the functor $Z$ is required to be monoidal, it sends monoidal units to monoidal units. Therefore, $d$-dimensional vacuum is mapped to the unit element of $R$, $(d-1)$-dimensional vacuum to the $R$-module $R$, $(d-2)$-dimensional vacuum to the category of $R$-modules, etc.
 
-with compatibility conditions and gluing formulas that must be satisfied ...
+Here $n$ can range between $0$ and $d$. This generalizes to an arbitrary symmetric monoidal category $C$ as codomain category.
 
-Here $n$ can range between $0$ and $d$.
 
-This suggests that one can see ETQFTs as $C$-valued representations of $n Cob_d$.
 
-+-- {: .query}
-_Rafael_: I obviously used a linear category in the definition as C instead of a general C. Do anyone know how to generalize it? Neither do i know the compatibility conditions and gluing formulas, any good explicit references?
-=--
-
-+-- {: .query}
-Domenico Fiorenza has [a question about this definition](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=468) on the Forum.
-
-_Domenico_: I edited the definition above accordingly with the suggestion in the Forum.
-=--
 
 
 #Examples#
 
-$m=2$ gives ordinary [[TQFT]].
+$n=1$ gives ordinary [[TQFT]].
 
 The most common case is when $R = \mathbb{C}$ (the [[complex numbers]]), giving unitary ETQFT.
 
@@ -89,7 +76,8 @@ The most common cases for $C$ are
 
 #Classification of ETQFT's#
 
-See [[cobordism hypothesis]].
+Assume $Z: n Cob_d \rightarrow n Vect(R)$ is an extended TQFT. Since $Z$ maps the $(d-1)$-dimensional vacuum to $R$ as an $R$-vector space, by functoriality $Z$ is forced to map a $d$-dimensional closed manifold to an element of $R$. 
+Iterating this argument, one is naturally led to conjecture that, under the correct categorical hypothesis, the behaviour of $Z$ is enterely determined by its behaviour on $(d-n)$-dimensional manifolds. See details at [[cobordism hypothesis]].
 
 #Relation of ETQFT to AQFT#
 
@@ -112,6 +100,14 @@ More on extended QFTs is also at
 * John Baez and James Dolan, Higher-dimensional Algebra and Topological Quantum Field Theory.  [arXiv](http://arxiv.org/abs/q-alg/9503002)
 
 * [[Jacob Lurie]],  [[On the Classification of Topological Field Theories]]  
+
+
++-- {: .query}
+I changed references to bordism here into references to [[cobordisms]], since there\'s also a notion of bordism (a back-formation) as dual to cobordism, which is not what we want.  (Also Wikipedia implies that 'bordism' is a mass noun while 'cobordism' is a count noun, and these are count nouns, for what that\'s worth.)  ---Toby
+=--
++-- {: .query}
+_Rafael_: I obviously used a linear category in the definition as C instead of a general C. Do anyone know how to generalize it? Neither do i know the compatibility conditions and gluing formulas, any good explicit references?
+=--
 
 +-- {: .query}
 _Rafael_: I am very tired because it is very late.
