@@ -67,6 +67,7 @@ is open in $Y$.
 =--
 To remove it from dependence on points, we can also write the definition like this:
 +-- {: .num_defn #pointless}
+###### Definition
 Given any space $Y$ and any open $U$ in $X \times Y$, there exists an open $\forall_X U$ in $Y$ that satisfies the [[universal property]] of universal [[quantification]]:
 $$ V \subseteq \forall_X U \;\Leftrightarrow\; X \times V \subseteq U $$
 for every open $V$ in $Y$.
@@ -78,11 +79,11 @@ A [[de Morgan duality|dual]] condition is satisfied by an [[overt space]].
 
 * Assuming the axiom of choice, the category of compact spaces admits all small [[limits]]. In any case, the category of compact locales admits all small limits. See also [[Tychonoff theorem]].
 
-* The direct [[image]] of a compact subspace under a continuous map is compact. Thus any topological space becomes a [[bornological space]] by taking the bounded sets to be compact subspaces.
+* The direct [[image]] of a compact subspace under a [[continuous map]] is compact. Thus any topological space becomes a [[bornological space]] by taking the bounded sets to be compact subspaces.
 
 * A compact [[Hausdorff space]] must be [[normal space|normal]].  That is, the [[separation axioms]] $T_2$ through $T_4$ (when interpreted as an increasing sequence) are equivalent in the presence of compactness.
 
-One often wishes to study [[compact Hausdorff spaces]].  For locales, one usually speaks of compact [[regular space|regular]] locales; these are equivalent (since every locale is $T_0$ and hence $T_3$ if regular, while every Hausdorff space is $T_3$ as above) since regularity is easier to formulate and handle than Hausdorffness.
+One often wishes to study [[compact Hausdorff spaces]].  For locales, one usually speaks of compact [[regular space|regular]] locales; these are equivalent (since every locale is $T_0$ and hence $T_3$ if regular, while every Hausdorff space is $T_3$ if compact) since regularity is easier to formulate and handle than Hausdorffness.
 
 
 ## Terminology
@@ -91,7 +92,7 @@ Some authors use "compact" to mean "compact Hausdorff" (a much [[nice topologica
 
 But it is far from clear to me ([[Todd Trimble]]) that "quasicompact" is very well-established outside such circles (despite some arguments in favor of it), and using simply "compact" for the nicer concept therefore carries some risk of creating misunderstanding among mathematicians at large. My own habit at any rate is to say "compact Hausdorff" for the nicer concept, and I will continue using this on the nLab until consensus is reached (if that happens).
 
-Another term in usage is 'compactum' to mean a compact Hausdorff space (even when 'compact' is not used to imply Hausdorffness).
+Another term in usage is 'compactum' to mean a [[compact Hausdorff space]] (even when 'compact' is not used to imply Hausdorffness).
 
 
 [[!redirects compact topological space]]
