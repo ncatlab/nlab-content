@@ -72,6 +72,9 @@ _Toby_:  That, and it\'s simpler to state the definition of 'isomorphic' than 'i
 _Toby_:  I disagree that 'morphism' before 'isomorphism' is more categorially sensible.  That\'s like defining $\leq$ before $=$; sometimes useful, sometimes not.  Since I am getting ambiguity about morphisms in what I find online, I\'d prefer to do isomorphisms first.  With luck, I\'ll find some terminology to distinguish the two kinds of morphisms, or we can make up our own.
 
 [[Mike Shulman]]: Okay, I'll accept that sometimes it makes sense to have isomorphisms before morphisms.  Certainly there are other situations in which the notion of isomorphism is more obvious, or less subject to debate, than the notion of morphism.  But I am happy that now "isomorphism" comes before "isomorphic."
+
+[[RonnieBrown]]: I hope it is helpful to add the reference below, which also contains quite a few references to categorical treatments of graphs. 
+
 =--
 
 ## References ##
@@ -79,7 +82,8 @@ _Toby_:  I disagree that 'morphism' before 'isomorphism' is more categorially se
 * Harary, Frank (1969), _Graph Theory_, Addison-Wesley.
 * Harary, Frank and Palmer, E.M. (1973), _Graphical Enumeration_, Academic Press.
 * Lambek, J. and Scott, P.J. (1986), _Introduction to Higher Order Categorical Logic_, Cambridge University Press.
-
+* Brown, R.,  Morris, I.,   Shrimpton, J.  and Wensley, C.D.  _Graphs of Morphisms of Graphs_,  Electronic Journal of Combinatorics,  A1 of Volume 15(1), 2008. 1-28.
+* Lawvere, F.W., _Qualitative distinctions between some toposes of generalized graphs_,  In Categories in computer science and logic (Boulder, CO,   1987), volume~92 of  _Contemp. Math._, 261--299. Amer. Math. Soc.,  Providence, RI (1989).
 
 ## Discussion ## {#talk}
 
