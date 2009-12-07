@@ -61,7 +61,7 @@
 ## Miscellaneous ##
 
 * [[Charles Sanders Peirce]]
-* [precursors](http://ncatlab.org/nlab/revision/precursors+%3E+history/15)
+* [[precursors]]
 * [[syntax, semantics, pragmatics]]
 
 ## Utilities ##
