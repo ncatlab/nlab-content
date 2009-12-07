@@ -100,15 +100,14 @@ But abstract nonsense still tends to meet with some resistance. In the preface o
 
 * A theory of [[deductive system]]s. By assimilating a category\'s objects to statements or formulas and morphisms to deductions (or proofs), a category can be presented equationally as a certain kind of deductive system (with an equivalence relation on deductions).
 
-* A theory of enlarged simplicial sets (in the sense of enlarging sets to classes) presented by Set-valued presheaves on the full subcategory $[0] \overset{\rightarrow}{\underset{\rightarrow}\leftarrow} [1] \overset{\rightarrow}{\underset{\rightarrow}{\overset{\leftarrow}{\underset{\leftarrow}\rightarrow}}} [2]$ of $\Delta$ (where the simplex category
-$\Delta$ also contains large simplicies). The enlarged simplicial sets must also satisfy the Segal condition:
-X an enlarged simplicial set &#8658; the Segal maps $X_n \to X_1 \times_{X_0} X_1 \times_{X_0} \ldots \times_{X_0} X_1$ are isomorphisms for $n \geq 0$, and that the "middle" face operator $X_2 = X_1 \times_{X_0} X_1 \to X_1$ (that models the composition in the category) is associative. This very last condition can be skipped if the presheaves are on the full subcategory $[0] \overset{\rightarrow}{\underset{\rightarrow}\leftarrow} [1] \overset{\rightarrow}{\underset{\rightarrow}{\overset{\leftarrow}{\underset{\leftarrow}\rightarrow}}} [2] . . . [3]$ of $\Delta$ instead. The correspondence is an equivalence of categories that constructs a category from its nerve by the categorical realization functor, and the inverse functor constructing a categorys nerve is the generalized nerve functor (generalization of the nerve functor to have categories as its domain and enlarged simplicial sets as its codomain).
+* A theory of (possibly large) [[simplicial sets]] presented by [[presheaves]] on the full subcategory $[0] \overset{\rightarrow}{\underset{\rightarrow}\leftarrow} [1] \overset{\rightarrow}{\underset{\rightarrow}{\overset{\leftarrow}{\underset{\leftarrow}\rightarrow}}} [2]$ of the [[simplex category]] $\Delta$. These simplicial sets must also satisfy the [[Segal condition]]: for $X$ such a simplicial set, the [[Segal map]]s $X_n \to X_1 \times_{X_0} X_1 \times_{X_0} \ldots \times_{X_0} X_1$ are isomorphisms for $n \geq 0$, and the "middle" face operator $X_2 = X_1 \times_{X_0} X_1 \to X_1$ (that models the [[composition]] in the category) is associative. This very last condition can be skipped if the presheaves are on the full subcategory $[0] \overset{\rightarrow}{\underset{\rightarrow}\leftarrow} [1] \overset{\rightarrow}{\underset{\rightarrow}{\overset{\leftarrow}{\underset{\leftarrow}\rightarrow}}} [2] \cdots [3]$ of $\Delta$ instead. The correspondence is an [[equivalence of categories]] that constructs a category from its [[nerve]] by the categorical realization functor, and the inverse functor that constructs a category\'s nerve is the generalized [[nerve functor]] (a generalization of the nerve functor to have categories as its domain and possibly large simplicial sets as its codomain).
 
-  The category corresponding to an enlarged simplicial set
-is constructed as: objects are 0-simplexes, morphisms are 1-simplexes (or formal composites of 1-simplexes),
-and n-simplexes for n&#8805;2 force various equalities between morphisms by interpreting 2-simplexes as commutative triangles, 3-simplexes as commutative tetrahedra, and so on. Composition in the category is modeled in the enlarged simplicial set by the "middle" face operator which in functorial language is X(f), where f is the monomorphism in $\Delta$ from the 2-element ordinal to the 3-element ordinal that leaves out the middle element. This equivalence transport in principle anything not [[evil]] between $Cat$ and the enlarged simplicial sets satisfying the two conditions.
+  The category corresponding to such a simplicial set
+is constructed as: objects are $0$-simplexes, morphisms are formal composites of $1$-simplexes,
+and $n$-simplexes for $n \geq 2$ force various equalities between morphisms by interpreting $2$-simplexes as commutative triangles, $3$-simplexes as commutative tetrahedra, and so on. Composition in the category is modeled in the simplicial set by the "middle" face operator which in functorial language is $X(f)$, where $f$ is the monomorphism in $\Delta$ from the $2$-element ordinal to the $3$-element ordinal that leaves out the middle element. This equivalence transports in principle anything non-[[evil]] between [[Cat]] and the possibly large simplicial sets satisfying the two conditions above.
 
 * A theory of [[Cat]], the $2$-[[2-category|category]] of categories. This is axiomatized in Lawvere\'s [[ETAC]].
+
 
 ###In the wide sense###
 
@@ -298,6 +297,7 @@ As for if CW-complexes (that are the geometric realization of a simplicial compl
 
 This might help to enlight how a 1D CW-complex is a graph.
 
+_Toby_:  I would regard even the usual definition of a category (as a set or class of objects etc) as requiring more detail than a category itself has, and thus also merely a 'presentation' (as you put it) of categories within the language of (material or structural) [[set theory]].  (The usual definition really defines a [[strict category]], which has a natural notion of [[isomorphism of categories|isomorphism]] stricter than the correct notion of [[equivalence of categories|equivalence]].  Within the category, we can see this as a notion of [[equality]] of objects stricter than the correct notion of [[isomorphism]].  Strict categories are [[evil]], but they appear to be the only way to define categories within set theory.)
 =--
 
 
