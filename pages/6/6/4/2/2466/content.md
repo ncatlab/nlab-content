@@ -1,1 +1,1 @@
-&lt; [[category theory]]
+The material previously on this page may be found at [MyWikiBiz](http://mywikibiz.com/Directory:Jon_Awbrey/Notes/Precursors).
