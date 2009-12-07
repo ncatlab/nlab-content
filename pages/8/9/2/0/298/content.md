@@ -26,7 +26,7 @@ The original article with the interpretation of vertex operator algebras as holo
 
 A standard textbook summarizing these results is
 
-* Huang, _Two-dimensional conformal field theory and vertex operator algebras_
+* Huang, _Two-dimensional conformal geometry and vertex operator algebras_
 
 As mentioned in the [acknowledgements](http://books.google.com/books?id=SUUdknTpYjEC&pg=PR11&lpg=PR11&dq=%22vertex+operator+algebras%22+%22trimble%22&source=bl&ots=v3GHx_ra2M&sig=TW5MzAtDi4n_gJjvUHb6eELoAXQ&hl=en&ei=9jdnSoXqKJiCtge6xqDuDw&sa=X&oi=book_result&ct=result&resnum=4) there, [[Todd Trimble]] and [[Jim Stasheff]] had a hand in making the operadic picture manifest itself here.
 
