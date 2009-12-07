@@ -96,7 +96,13 @@ Some people also speak of [[horizontal categorification]] as categorification. T
 Some people just say 'oidification' for horizontal categorification, in which case it is consistent to speak of vertical categorificaton as just _categorification_ .
 
 
+### Contrast to laxification ###
 
+If you like [[negative thinking]], then instead of saying that categorification 'replaces [[sets]] by [[categories]]' (to quote Wikipedia), you can say that we replace [[truth values]] by sets, especially the truth values of [[equality|equations]]. That is, we acknowledge that there may be many different ways in which something may be true, in particular many different ways in which two things may be the same. And then it is meaningful to ask whether two ways in which these things are the same are the same way (and if so, whether two ways that *they* are the same are the same way, etc).
+
+In particular, while two [[elements]] of a set simply may (or may not) be equal, two [[objects]] of a [[groupoid]] may be [[isomorphic]] in many different ways. And while two [[parallel morphisms|parallel isomorphisms]] in a groupoid may be equal, two parallel [[equivalences]] in a $2$-groupoid may be isomorphic in many different ways. Or while one element $x$ of a [[poset]] may precede an element $y$, there may be many different [[morphisms]] from one object $x$ of a category to an object $y$.
+
+As you can see from these examples, one can distinguish categorification proper from the possibility of adding noninvertible arrows (which we may call [[laxification]]). Often one categorifies and then laxifies, but often one only categorifies.
 
 
 
