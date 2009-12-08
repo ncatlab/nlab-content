@@ -2,7 +2,7 @@
 
 A convex space (also called _barycentric algebra_ and other terms, invented independently many times) is a set equipped with a notion of taking weighted averages, or convex-linear combinations, of its elements.  Do not confuse this with an (abstract) convex *set*, which a special kind of convex space, also defined below.
 
-Convex spaces may be important in the foundations of [[probability]].  The [[category]] of convex spaces is [[semicartesian monoidal category|semicartesian monoidal]] but not [[cartesian monoidal category|cartesian monoidal]].
+Convex spaces may be important in the foundations of [[probability theory]].  The [[category]] of convex spaces is [[semicartesian monoidal category|semicartesian monoidal]] but not [[cartesian monoidal category|cartesian monoidal]].
 
 
 ## Definition
@@ -52,18 +52,36 @@ Compare this with the theorem that a [[monoid]] is cancellative if and only if i
 [[Mike Shulman]]: What are some examples of non-cancellative convex spaces?
 
 _Toby_:  The last example in the list above: $\{0,1\}$ with $c_p(a,b) = a \vee b$ whenever $0 \lt p \lt 1$; this generalises to any nontrivial semilattice.  I don\'t know any better examples.
+
+[[John Baez]]: Could someone provide a proof or reference to the above theorem?
 =--
 
 
 ## References
 
-References tend to define $c_p$ only for $0 \lt p \lt 1$, but it seems obvious that it\'s best to include the edge cases as well.  Classically, it makes no difference, but the definition above is probably better in [[constructive mathematics]].
+Convex spaces have been rediscovered many times under many different names.  References tend to define $c_p$ only for $0 \lt p \lt 1$, but it seems obvious that it\'s best to include the edge cases as well.  Classically, it makes no difference, but the definition above is probably better in [[constructive mathematics]].
 
-*  _[[HAF]]_, Section 12.7 (short and to the point).
+*  _[[Handbook of Analysis and its Foundations]]_, Section 12.7 (short and to the point).
 
 *  Romanowska, Smith, Or&#322;owska; Abstract barycentric algebras; [pdf](http://staff.science.uva.nl/~gfontain/tacl09-abstracts/tacl2009_submission_48.pdf).  This generalises from $[0,1]$ to an arbitrary $L \Pi$-algebra ($L$ for '&#321;ukasiewicz', $\Pi$ for 'product', so think of $[0,1]$ as a space of fuzzy truth values).
 
-*  Many references (not just the featured article, check the comments too) at a blog post [Convex Spaces](http://golem.ph.utexas.edu/category/2009/04/convex_spaces.html).
+* Tobias Fritz, Convex spaces I: definition and examples. 
+[[arXiv](http://arxiv.org/abs/0903.5522)]
+
+* Bart Jacobs, Duality for convexity. [[arXiv](http://arxiv.org/abs/0911.3834)]
+
+* Joe Flood, Semiconvex geometry, _J. Austral. Math. Soc. Ser. A_ **30** (1980/81), 496-&#8211;510. 
+
+* T. Swirszcz, Monadic functors and categories of convex sets, Preprint No. **70**, _Proc. Inst. Math. Pol. Acad. Sci._, Warsaw.
+
+* T. Swirszcz, Monadic functors and convexity, _Bull. Acad. Polon. Sci. Ser. Sci. Math. Astronom. Phys._ **22** (1974), 39--42. 
+
+* Stanley P. Gudder, Convexity and mixtures, _SIAM Review_ **19** (1977), 221--240.
+
+* Stanley P. Gudder, A general theory of convexity, 
+_Milan Journal of Mathematics_, **49** (1979), 89--96.
+
+Many other references, and a discussion of how convex spaces have been repeatedly rediscovered, can be found at the $n$-Category Caf&#233; post [Convex Spaces](http://golem.ph.utexas.edu/category/2009/04/convex_spaces.html).
 
 
 [[!redirects barycentric algebra]]
