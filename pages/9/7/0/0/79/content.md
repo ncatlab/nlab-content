@@ -17,6 +17,8 @@
 
   * [[general topology]]
   
+  * [[algebraic topology]]
+
   * [[homotopy theory]]
 
   * [[rational homotopy theory]]
