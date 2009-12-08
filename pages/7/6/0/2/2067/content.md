@@ -115,7 +115,7 @@ $$
   X_f \to X_{x_2} \times_{S_{p(x_2)}} S/p(f)
 $$
 
-into the [[pullback]] of the obvious projection $X_{x_2} \to S/p(x_2)$ along the projection $S/p(f) \to S/p(x_2)$ a [[k-surjective functor|surjective equivalence]].
+into the [[pullback]] of the obvious projection $X_{x_2} \to S/p(x_2)$ along the projection $S/p(f) \to S/p(x_2)$ is a [[k-surjective functor|surjective equivalence]].
 
 This definition in terms of pullbacks is the one that straightforwardly generalizes to [[higher category theory]].
 
