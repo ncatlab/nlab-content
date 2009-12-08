@@ -1,3 +1,7 @@
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ## Idea
 
 A convex space (also called _barycentric algebra_ and other terms, invented independently many times) is a set equipped with a notion of taking weighted averages, or convex-linear combinations, of its elements.  Do not confuse this with an (abstract) convex *set*, which a special kind of convex space, also defined below.
