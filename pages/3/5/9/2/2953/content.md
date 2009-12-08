@@ -9,7 +9,7 @@ In general, there is no way of making the assignment of the injective hull to an
 * In [[Pos]] every object has an injective hull, its [[MacNeille completion]].
 * In [[Ab]] every object has an injective hull. The embedding $\mathbb{Z} \hookrightarrow \mathbb{Q}$ is an example.
 * In the category of fields and algebraic field extensions, every object has an injective hull, its [[algebraic closure]].
-
+* In the category of metric spaces and [[short map]]s, the injective hull is a standard construction also known as the tight span ([http://en.wikipedia.org/wiki/Tight_span]).
 
 ##References##
 
