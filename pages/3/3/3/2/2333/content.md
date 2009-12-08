@@ -4,14 +4,15 @@
 
 ## Idea
 
-A convex space (also called _barycentric algebra_ and other terms, invented independently many times) is a set equipped with a notion of taking weighted averages, or convex-linear combinations, of its elements.  Do not confuse this with an (abstract) convex *set*, which a special kind of convex space, also defined below.
+A **convex space** (also called **barycentric algebra** and other terms, invented independently many times) is a set equipped with a notion of taking weighted averages, or convex-linear combinations, of its elements.  Do not confuse this with an (abstract) convex *set*, which a special kind of convex space, also defined below.
 
 Convex spaces may be important in the foundations of [[probability theory]].  The [[category]] of convex spaces is [[semicartesian monoidal category|semicartesian monoidal]] but not [[cartesian monoidal category|cartesian monoidal]].
 
+The [[monad]] assigning to any set the free convex space on that set is a [[finitary monad|finitary]] [[commutative monad]].  We can thus follow Durov in thinking of it as a [[generalized ring]].  This allows us to think of convex spaces as 'modules' of a generalized ring, very much as [[vector spaces]] are modules of a field.  This is also true of the relatives of convex spaces: [[affine space|affine spaces]] and [[conical space|conical spaces]].  For example, an **affine space** may be defined just as a convex space is defined below, but dropping the condition $0 \leq p \leq 1$.
 
 ## Definition
 
-A __convex space__ is a [[set]] $X$ equipped with,
+A __convex space__ is a [[set]] $X$ equipped with:
 
 *  for each [[real number]] $p$ such that $0 \leq p \leq 1$, an operation $c_p: X \times X \to X$,
 
