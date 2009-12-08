@@ -99,8 +99,8 @@ in $C = [S^{op},Set]$ with respect to the given [[Grothendieck topology]] on $S$
 
 ## References ##
 
-The above definition is due to Gabriel-Zisman in the book 
+The above definition is due to Gabriel and Zisman in the book 
 
-* Gabriel-Zisman, _Calculus of fractions and homotopy theory_
+*P. Gabriel and M. Zisman, _Calculus of Fractions and Homotopy Theory_, Springer, New York, 1967. _Ergebnisse der Mathematik und ihrer Grenzgebiete_, Band 35. 
 
 although their left-right conventions are reversed from ours.
