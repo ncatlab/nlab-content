@@ -3,9 +3,13 @@
 </div>
 
 
+#Content#
+* automatic table of contents goes here
+{:toc}
+
 [[Todd Trimble]]'s definition of weak $n$-[[n-category|category]] is an example of a notion of [[weak omega-category]] which is based on using an [[operad]] induced by all the possible compositions of an [[interval object]] with itself for describing weak composition of 1-morphisms. The higher cells and their composition are then obtained iteratively.
 
-#Basic idea#
+## Basic idea
 
 An [[morphism|arrow]] looks like an  [[interval object|interval]]. So, the [[category theory|theory of categories]] and even [[higher category theory|n-categories]] should have a lot to do with the [[interval object|interval]] &#8212; especially when it comes to applications to [[topology]]!
 
@@ -18,7 +22,7 @@ The space of maps out of an $A_\infty$-cocategory into something should form an 
 But the really cool part is how this construction goes hand in hand with his definition of $n$-categories, in an inductive kind of way.
 
 
-## History ##
+## History 
 
 In 1999, [[Todd Trimble]] introduced a definition of weak $n$-category in a lecture at Cambridge University. This definition was introduced in order to give an algebraic notion of fundamental $n$-groupoid, and has since been taken up in a number of directions by [[Tom Leinster]] and [[Eugenia Cheng]], who compare it with globular approaches (e.g., Batanin's) and give a weak $\omega$-category extension. 
 
@@ -26,16 +30,16 @@ Trimble never published this material himself (in effect leaving it to others pr
 
 ## The original idea
 
-The original idea was to use an $A_\infty$-[[A-infinity-cocategory|cocategory]] structure on the topological interval $I$, in the form of an topological operad $T$ which is used to control all ways of weakly composing arrows. Then one proceeds to define weak $n$-categories by induction, defining at each stage a fundamental $n$-groupoid functor 
+The original idea was to use an $A_\infty$-[[A-infinity-cocategory|cocategory]] structure on the topological [[interval object|interval]] $I$, in the form of an [[Top|topological]] [[operad]] $T$ which is used to control all ways of weakly composing arrows. Then one proceeds to define [[n-category|weak n-categories]] by induction, defining at each stage a [[fundamental groupoid|fundamental]] [[n-groupoid]] [[functor]] 
 
-$$\Pi_n: Top \to nCat$$ 
+$$\Pi_n: Top \to n Cat$$ 
 
-and then defining an $(n+1)$-category as a category "weakly enriched" in $nCat$, meaning roughly speaking a structure of $\Pi_n(T)$-algebra in the category of $nCat$-graphs. 
+and then defining an $(n+1)$-category as a category "weakly [[enriched category|enriched]]" in $nCat$, meaning roughly speaking a structure of $\Pi_n(T)$-[[algebra over an operad|algebra]] in the category of $n Cat$-[[graph]]s. 
 
 
-It will be helpful to review the fundamental (1-)groupoid of a space first, doing it in such a way that we will see how to inductively define the fundamental $n$-groupoid. 
+It will be helpful to review the [[fundamental groupoid|fundamental (1-)groupoid]] of a space first, doing it in such a way that we will see how to inductively define the fundamental $n$-groupoid. 
 
-Let $X$ be a space, and let $X_0$ denote its underlying set, viewed as a discrete category. If $V$ is a category, then a _$V$-graph_ over $X_0$ is just a functor 
+Let $X$ be a [[topological space]], and let $X_0$ denote its underlying set, viewed as a [[discrete category]]. If $V$ is a category, then a _$V$-graph_ over $X_0$ is just a functor 
 
 $$X_0 \times X_0 \to V$$ 
 
@@ -49,13 +53,13 @@ A basic example of $V$-graph for our purposes is the "graph of paths" for a spac
 X^\sim : X_0 \times X_0 \to Top
 \]
 
-by letting $X^\sim(x, y)$ be the space of paths from $x$ to $y$. Two paths from $x$ to $y$ are homotopic if they lie in the same connected component of $X^\sim(x, y)$, so by applying the connected components functor, 
+by letting $X^\sim(x, y)$ be the [[topological space|space]] of paths from $x$ to $y$. Two paths from $x$ to $y$ are homotopic if they lie in the same connected component of $X^\sim(x, y)$, so by applying the connected components functor, 
 
 $$X_0 \times X_0 \stackrel{X^\sim}{\to} Top \stackrel{\Pi_0}{\to} Set$$ 
 
-we get the graph of homotopy classes of paths. What we want is to put a category structure on this $Set$-graph, so as to obtain the fundamental groupoid $\Pi_1(X)$. 
+we get the graph of [[homotopy (as a transformation)|homotopy classes]] of paths. What we want is to put a category structure on this $Set$-graph, so as to obtain the [[fundamental groupoid]] $\Pi_1(X)$. 
 
-The $Top$-graph (eq:Trimble1) can also be thought of as a topological span from the discrete space $X_0$ to itself, and this is obviously closely related to the span 
+The $Top$-graph (eq:Trimble1) can also be thought of as a topological [[span]] from the discrete space $X_0$ to itself, and this is obviously closely related to the span 
 
 \[\label{Trimble2}
 X^1 \stackrel{X^{i_0}}{\leftarrow} X^I \stackrel{X^{i_1}}{\to} X^1
@@ -77,9 +81,9 @@ As a functor in $X$, the span (eq:Trimble2) is obtained by homming out of the _i
 
 $$1 \stackrel{i_0}{\to} I \stackrel{i_1}{\leftarrow} 1$$
 
-and the fundamental groupoid structure on the span (eq:Trimble1) ultimately comes about by homming out of an H-cogroupoid structure on the interval cospan, just as the fundamental group of a based space is obtained by homming out of the pointed circle, seen as an H-cogroup. 
+and the fundamental groupoid structure on the span (eq:Trimble1) ultimately comes about by homming out of an H-cogroupoid structure on the interval cospan, just as the [[fundamental group]] of a based space is obtained by homming out of the pointed circle, seen as an H-[[cogroup]]. 
 
-Let us describe the H-cocategory structure on the interval cospan. A cospan from a point to itself is a bipointed space, and the composite of two such cospans $X$, $Y$ is obtained by identifying the second point of $X$ with the first point of $Y$, resulting in a new bipointed space we denote by $X \vee Y$. In particular, 
+Let us describe the H-[[cocategory]] structure on the interval [[cospan]]. A cospan from a point to itself is a bi[[pointed object|pointed]] space, and the composite of two such cospans $X$, $Y$ is obtained by identifying the second point of $X$ with the first point of $Y$, resulting in a new bipointed space we denote by $X \vee Y$. In particular, 
 
 $$I \vee I = [0, 1] \vee [0, 1] \cong [0, 2]$$ 
 
@@ -87,23 +91,11 @@ and the co-composition for the H-cocategory structure on $I$, which is a cospan 
 
 $$[0, 1] \to [0, 2]$$ 
 
-This co-operation $I \to I \vee I$ is not strictly coassociative, but is coassociative up to homotopy. As a matter of fact, it follows straight away from the _convexity_ of the $n$-fold cospan composite $I^{\vee n} \cong [0, n]$ that the space of cospan maps $\hom(I, I^{\vee n})$ is _contractible_: the convexity actually gives a way of defining coherent homotopies (the pentagon, etc.) all the way up the "$A_{\infty}$-ladder". In other words, the cospan $I$ carries an $A_{\infty}$-cocategory structure. 
+This co-operation $I \to I \vee I$ is not strictly coassociative, but is coassociative up to [[homotopy (as a transformation)|homotopy]]. As a matter of fact, it follows straight away from the _[[convex space|convexity]]_ of the $n$-fold cospan composite $I^{\vee n} \cong [0, n]$ that the space of cospan maps $\hom(I, I^{\vee n})$ is _contractible_: the convexity actually gives a way of defining coherent homotopies (the pentagon, etc.) all the way up the "$A_{\infty}$-ladder". In other words, the cospan $I$ carries an $A_{\infty}$-cocategory structure. 
 
 But we don't actually need the $A_{\infty}$-jargon: all we will need are two basic facts: 
 
 * There is a 'tautological' topological operad $T$ where the component $T_n$ is the space $\hom(I, I^{\vee n})$ of cospan maps; 
-
-  +--{.query} 
-  [[John Baez|John]] has just substituted "topological" for my ([[Todd Trimble|Todd]]'s) original "tautological", which I don't mind at all -- "topological" is correct and arguably more informative -- but maybe this is a good place to explain that "tautological" was not a typo, but rather an expansion of a technical usage: 
-
-  One of the first examples of an operad that people are taught is the one where the n-th component consists of _all_ n-ary operations $X^n \to X$. (Here $X^n$ denotes an n-fold tensor power in a monoidal category.) Because it's the simplest or most obvious example of an operad, and because it's canonically there no matter what $X$ is, it's often in the literature called a "tautological operad". What is less often noted is that by the same logic, $hom(X, X^n)$ is an equally tautological operad, except that it consists of all "co-operations" instead of operations. Then, I am applying this observation to the example of the monoidal category of topological cospans from a point to itself, where $X$ is the interval. 
-
-  _Toby_:  Considering that the original was 'tautological topological', which is more informative, I\'ve changed it back.  But perhaps this explanation has a place in the main text?
-
-  _Todd_: Sounds like a good idea. If you can figure out a smooth way to do that, I'd be grateful. 
-
-  _Toby_:  Actually, I just realised that most of it is already in the next paragraph below.  I\'ll just add a sentence noting that this explains the name.
-  =--
 
 * Each component $T_n$ is contractible. 
 
@@ -157,7 +149,7 @@ Hence, in the case $V = Top$, (eq:Trimble5) takes the more explicit form
 T_n \times \sum_{y_1, \ldots, y_{n-1}} X^\sim(x, y_1) \times X^\sim(y_1, y_2) \times \ldots \times X^\sim(y_{n-1}, z) \to X^{\sim}(x, z)
 \]
 
-Now apply the functor $\Pi_0: Top \to Set$ (which preserves products and incidentally sums as well) to (eq:Trimble6). This makes the $Set$-graph $\Pi_0 X^\sim$ an algebra over the operad $\Pi_0 T$. But a $Set$-graph equipped with a $\Pi_0 T$-algebra structure is just a category, since $\Pi_0 T_n$ consists of just a point, i.e., is the operad whose algebras are monoids, and a category is a monoid in a category of graphs. 
+Now apply the functor $\Pi_0: Top \to Set$ (which preserves products and incidentally sums as well) to (eq:Trimble6). This makes the $Set$-graph $\Pi_0 X^\sim$ an algebra over the operad $\Pi_0 T$. But a $Set$-graph equipped with a $\Pi_0 T$-algebra structure is just a category, since $\Pi_0 T_n$ consists of just a point, i.e., is the [[associative operad]]  whose algebras are monoids, and a category is a monoid in a category of graphs. 
 
 This category is precisely the fundamental groupoid $\Pi_1(X)$. It is pretty clear from this description that $\Pi_1(X)$ is functorial in $X$. Indeed, if $f: X \to Y$ is a continuous map, we can pull back the $Top$-graph $Y^\sim$ over $Y_0$ to a $Top$-graph over $X_0$, 
 
@@ -203,63 +195,6 @@ where $\delta: [0, 1] \to [0, 2]$ is a co-composition. The pentagonator is simil
 
 To be continued...
 
-+--{.query}
-[[Urs Schreiber|Urs]]: Thanks, Todd, this is great. If I may, let me try, also to check if I am following, to see how much of this we can do while abstracting away from Top and the concrete interval object in there.
-
-It seems that we need:
-
-* a closed monoidal homotopical category $V$ (not your $V$ above, but I'll call it $V$ nevertheless);
-
-* an object $I \in V$ fitting in an internal co-graph $pt \stackrel{\sigma, \tau}{\to} I$ such that
-
-  * all the end-to-end pushouts $I^{\vee n}$ exist in $V$;
- 
-  * all the $V$-internal hom-objects $[I, I^{\vee n}]$ are weakly equivalent to the point (the terminal object) $[I, I^{\vee n}] \stackrel{\sim}{\to} pt$;
-
-  * equipped with the structure of a co-operad internal to $V$ on $\{[I,I^{\vee n}]\}$, $n \in \mathbb{N}$.
-
-Then
-
-  * for $C$ any $V$-enriched homotopical category (I want to use now that $C$ is powered over $V$) we get &#8211; now let me see... &#8211; a functor
-$$\Pi_{\omega}: C \to Trimble-\omega-Cat.$$
-
-Hm, let me just let it stand this way for you to either erase all of this or maybe comment on it for the moment...
-
-[[Todd Trimble|Todd]]: Yes, that's more or less right. But there is a god-given nonpermutative operad (not co-operad) structure on the graded $V$-object $\{[I, I^{\vee n}]\}$, and that's what I'm using here. If you know how the "endomorphism operad" works (as in the entry [[operad]]), then the operad here works the same way, mutatis mutandis. 
-
-As for the last part: in the original definition, I didn't know how to pass to the full-fledged $\omega$-categorical definition; I just had $n$-categories, one for each $n$. But Tom and Eugenia figured out how to make "Trimble-like" $\omega$-categories work by using coalgebraic methods. I haven't thought about whether that allows a $\Pi_\omega$... But aside from these technicalities: yes, you seem to understand what this is all about. 
-
-There were some comments to this effect after I gave that lecture; someone asked what you really need to do this definition very generally. Martin Hyland cried, "Not much!"
-
-_[[Urs Schreiber]]:_ Okay, thanks. I tried now to formalize this at [[interval object]].
-
-=--
-
-+--{.query}
-_[[Toby Bartels|Toby]]_ says:
-
-This is interesting. I never looked at this definition before, and I need to give it some thought. Has it been extedned to $\infty$-categories?
-
-Also, what is the proper name for these things? 'Trimble\'s notion of weak $n$-category' is a mouthful, but 'Trimble $n$-category' would work. Or 'flabby $n$-category', if that is unambiguous. (One might move this page, too, ... but only if it\'s clear where to move it!)
-
-_[[Urs Schreiber|Urs]]:_ I am not enthusiastic about "flabby". "Trimble $\omega$-category" sounds good to me, though. $Trimble\omega Cat$.
-
-_[[Todd Trimble|Todd]]_: The extension to $\infty$-categories was accomplished not too long ago by Tom Leinster and Eugenia Cheng, using coalgebra theory: 
-
-[Terminal coalgebras](http://www-lmpa.univ-littoral.fr/CT08/slides/Cheng.pdf)
-
-It's actually quite ingenious: as motivation, they start with Simpson's (Alex? Carlos?) observation that for the endofunctor $(-)-Cat: SymMonCat \to SymMonCat$ mapping $V \mapsto V-Cat$, the terminal coalgebra is (strict) $\omega$-Cat. Then they explain how this idea can be extended to produce Trimble-like weak $\omega$-categories (starting around page 57 of 124). 
-
-As far as terminology goes: "flabby" was meant to accomplish several purposes: first to distinguish itself from "weak" (since at the time I wasn't convinced that these structures were truly weak enough, owing to the fact that we use strict maps of algebras along the way); second to recall the word "flab" as used by Frank Adams in his Infinite Loop Spaces book: there is rather a lot of topological flab in my original definition; third out of modesty. But I don't like it much now either (I think it partially violates my 'cutesy' rule). 
-
-For now I'm okay with "Trimble $\omega$-Cat" or the like, but I'd very much welcome something new and snappy that conveys something of the spirit of this idea. 
-
-_Toby_: I\'m thinking of moving this to [[Trimble n-category]], which seems like a better name for linking to the concept.  But I\'ll hold off if you want, especially if you want to wait for suggestions.
-
-_Todd_: That's fine with me, so assuming Urs doesn't mind, I'd say go ahead. That's more or less what somewhat would probably try looking for if they wanted to look this stuff up.
-
-_Toby_: OK, I did that.
-=--
 
 ## Iterative operadic enrichment
 
@@ -334,7 +269,7 @@ and so the terminal $E$-coalgebra is the category $Trimble(\omega)Cat$ as descri
 
 $$\Pi_\omega: Top \to Trimble(\omega)Cat$$ 
 
-# Category theory for Trimble $n$-categories #
+## Category theory for Trimble $n$-categories 
 
 
 +-- {: .query}
@@ -385,7 +320,7 @@ What is the relation to
 
 Probably we want to define the cosimplicial Trimble $\infty$-category that sends $[n]$ to the fundamental Trimble $\infty$-path category of the topological $n$-simplex and induce a notion of nerve of that. But the naive version of that will give just $\infty$-groupoidal nerve. What is generally needed is probably a notion of [[directed space|directed]] Trimble path $n$-category.
 
-What can be said about [[(n,r)-category]]-cases of Trimble $n$-categories. How to we say "Trimble $n$-groupoid"?
+What can be said about [[(n,r)-category]]-cases of Trimble $n$-categories. How do we say "Trimble $n$-groupoid"?
 
 
 What about monoidal structures? Is there a good guess for what it would mean to have a
@@ -396,7 +331,7 @@ What about monoidal structures? Is there a good guess for what it would mean to 
 
 =--
 
-#References#
+## References
 
 The first appearance in print of the definition was in 
 
@@ -404,7 +339,7 @@ The first appearance in print of the definition was in
 
 Later the definition was applied tentatively for the construction of weak $n$-cateories of cobordisms in
 
-* Eugenia Cheng and Nick Gurski, _Towards an $n$-category of cobordisms_, Theory and Applications of Categories,  Vol. 18, 2007, No. 10, pp 274-302. ([tac](http://www.tac.mta.ca/tac/volumes/18/10/18-10abs.html))
+* [[Eugenia Cheng]] and [[Nick Gurski]], _Towards an $n$-category of cobordisms_, Theory and Applications of Categories,  Vol. 18, 2007, No. 10, pp 274-302. ([tac](http://www.tac.mta.ca/tac/volumes/18/10/18-10abs.html))
 
 This article first reviews the original definition
 
@@ -416,7 +351,82 @@ and then generalizes it
 
 A comparison of Trimble's definition with that of a [[Batanin omega-category]] is in
 
-* Eugenia Cheng, _Comparing operadic theories of $n$-category_ ([arXiv](http://arxiv.org/abs/0809.2070))
+* [[Eugenia Cheng]], _Comparing operadic theories of $n$-category_ ([arXiv](http://arxiv.org/abs/0809.2070))
+
+
+## Discussion
+
+Previous versions of this entry led to the following discussions:
+
++--{.query} 
+  [[John Baez|John]] has just substituted "topological" for my ([[Todd Trimble|Todd]]'s) original "tautological", which I don't mind at all -- "topological" is correct and arguably more informative -- but maybe this is a good place to explain that "tautological" was not a typo, but rather an expansion of a technical usage: 
+
+  One of the first examples of an operad that people are taught is the one where the n-th component consists of _all_ n-ary operations $X^n \to X$. (Here $X^n$ denotes an n-fold tensor power in a monoidal category.) Because it's the simplest or most obvious example of an operad, and because it's canonically there no matter what $X$ is, it's often in the literature called a "tautological operad". What is less often noted is that by the same logic, $hom(X, X^n)$ is an equally tautological operad, except that it consists of all "co-operations" instead of operations. Then, I am applying this observation to the example of the monoidal category of topological cospans from a point to itself, where $X$ is the interval. 
+
+  _Toby_:  Considering that the original was 'tautological topological', which is more informative, I\'ve changed it back.  But perhaps this explanation has a place in the main text?
+
+  _Todd_: Sounds like a good idea. If you can figure out a smooth way to do that, I'd be grateful. 
+
+  _Toby_:  Actually, I just realised that most of it is already in the next paragraph below.  I\'ll just add a sentence noting that this explains the name.
+=--
+
++--{.query}
+[[Urs Schreiber|Urs]]: Thanks, Todd, this is great. If I may, let me try, also to check if I am following, to see how much of this we can do while abstracting away from Top and the concrete interval object in there.
+
+It seems that we need:
+
+* a closed monoidal homotopical category $V$ (not your $V$ above, but I'll call it $V$ nevertheless);
+
+* an object $I \in V$ fitting in an internal co-graph $pt \stackrel{\sigma, \tau}{\to} I$ such that
+
+  * all the end-to-end pushouts $I^{\vee n}$ exist in $V$;
+ 
+  * all the $V$-internal hom-objects $[I, I^{\vee n}]$ are weakly equivalent to the point (the terminal object) $[I, I^{\vee n}] \stackrel{\sim}{\to} pt$;
+
+  * equipped with the structure of a co-operad internal to $V$ on $\{[I,I^{\vee n}]\}$, $n \in \mathbb{N}$.
+
+Then
+
+  * for $C$ any $V$-enriched homotopical category (I want to use now that $C$ is powered over $V$) we get &#8211; now let me see... &#8211; a functor
+$$\Pi_{\omega}: C \to Trimble-\omega-Cat.$$
+
+Hm, let me just let it stand this way for you to either erase all of this or maybe comment on it for the moment...
+
+[[Todd Trimble|Todd]]: Yes, that's more or less right. But there is a god-given nonpermutative operad (not co-operad) structure on the graded $V$-object $\{[I, I^{\vee n}]\}$, and that's what I'm using here. If you know how the "endomorphism operad" works (as in the entry [[operad]]), then the operad here works the same way, mutatis mutandis. 
+
+As for the last part: in the original definition, I didn't know how to pass to the full-fledged $\omega$-categorical definition; I just had $n$-categories, one for each $n$. But Tom and Eugenia figured out how to make "Trimble-like" $\omega$-categories work by using coalgebraic methods. I haven't thought about whether that allows a $\Pi_\omega$... But aside from these technicalities: yes, you seem to understand what this is all about. 
+
+There were some comments to this effect after I gave that lecture; someone asked what you really need to do this definition very generally. Martin Hyland cried, "Not much!"
+
+_[[Urs Schreiber]]:_ Okay, thanks. I tried now to formalize this at [[interval object]].
+
+=--
+
++--{.query}
+_[[Toby Bartels|Toby]]_ says:
+
+This is interesting. I never looked at this definition before, and I need to give it some thought. Has it been extedned to $\infty$-categories?
+
+Also, what is the proper name for these things? 'Trimble\'s notion of weak $n$-category' is a mouthful, but 'Trimble $n$-category' would work. Or 'flabby $n$-category', if that is unambiguous. (One might move this page, too, ... but only if it\'s clear where to move it!)
+
+_[[Urs Schreiber|Urs]]:_ I am not enthusiastic about "flabby". "Trimble $\omega$-category" sounds good to me, though. $Trimble\omega Cat$.
+
+_[[Todd Trimble|Todd]]_: The extension to $\infty$-categories was accomplished not too long ago by Tom Leinster and Eugenia Cheng, using coalgebra theory: 
+
+[Terminal coalgebras](http://www-lmpa.univ-littoral.fr/CT08/slides/Cheng.pdf)
+
+It's actually quite ingenious: as motivation, they start with Simpson's (Alex? Carlos?) observation that for the endofunctor $(-)-Cat: SymMonCat \to SymMonCat$ mapping $V \mapsto V-Cat$, the terminal coalgebra is (strict) $\omega$-Cat. Then they explain how this idea can be extended to produce Trimble-like weak $\omega$-categories (starting around page 57 of 124). 
+
+As far as terminology goes: "flabby" was meant to accomplish several purposes: first to distinguish itself from "weak" (since at the time I wasn't convinced that these structures were truly weak enough, owing to the fact that we use strict maps of algebras along the way); second to recall the word "flab" as used by Frank Adams in his Infinite Loop Spaces book: there is rather a lot of topological flab in my original definition; third out of modesty. But I don't like it much now either (I think it partially violates my 'cutesy' rule). 
+
+For now I'm okay with "Trimble $\omega$-Cat" or the like, but I'd very much welcome something new and snappy that conveys something of the spirit of this idea. 
+
+_Toby_: I\'m thinking of moving this to [[Trimble n-category]], which seems like a better name for linking to the concept.  But I\'ll hold off if you want, especially if you want to wait for suggestions.
+
+_Todd_: That's fine with me, so assuming Urs doesn't mind, I'd say go ahead. That's more or less what somewhat would probably try looking for if they wanted to look this stuff up.
+
+_Toby_: OK, I did that.
+=--
 
 
 [[!redirects Trimble's notion of weak n-category]]
