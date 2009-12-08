@@ -113,7 +113,10 @@ Every geometric embedding $C' \hookrightarrow C$ of [[topos|topoi]] is of the fo
 
 =--
 
++--{.query}
 (...let me check that I said this precisely correctly...)
+=--
+
 
 This  perspective on localization is very useful for understanding the important case of localization of [[model category|model categories]]. 
 
@@ -133,13 +136,11 @@ with a [[left adjoint]].
 
 The classical reference to localization for categories is the book by Gabriel and Zisman:
 
-*P. Gabriel and M. Zisman, _Calculus of Fractions and Homotopy Theory_, Springer, New York, 1967. _Ergebnisse der Mathematik und ihrer Grenzgebiete_, Band 35. 
+* P. Gabriel and M. Zisman, _Calculus of Fractions and Homotopy Theory_, Springer, New York, 1967. _Ergebnisse der Mathematik und ihrer Grenzgebiete_, Band 35. 
  
 A more modern account of localization with a [[calculus of fractions]] is section 7 of
 
 * Kashiwara-Schapira, [[Categories and Sheaves]].
-
-***
 
 # Discussion #
 
