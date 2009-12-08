@@ -12,60 +12,15 @@ For example, the ring $\mathbb{R}[x]$ consists of [[polynomial]] functions on th
 
 If on the other hand we put in an inverse to every element of $\mathbb{R}[x]$ that is _not_ in the ideal $I$, we obtain the ring of rational functions defined _somewhere_ on the real line _at least_ at the point $a$: namely, those without a factor of $(x-a)$ in the denominator.  This is called **localizing _at_ $a$**, or localizing at the ideal $I$.
 
-A ring is a very special case of a [[category]] (a one-object [[Ab-enriched category]]).  This article mainly treats the more general case of localizing an arbitrary category. The localization of a category $C$ at a class of [[morphisms]] $W$ is the universal solution to making the morphisms in $W$ into [[isomorphisms]]; it is written $C[W^{-1}]$ or $W^{-1}C$.  It also could be called the [[homotopy category]] of $C$ with respect to $W$.
+Notice that what is literally 'localized' when localizing the ring is not the ring itself, but its [[spectrum]]: the spectrum becomes smaller.  The spectrum of $\mathbb{R}[x]$ is the whole real line.  When we localize away from $a$, the resulting ring has spectrum $\mathbb{R} - \{a\}$.  When we localize at $a$, the resulting ring has spectrum $\{a\}$.
 
+A ring is a very special case of a [[category]], namely a one-object [[Ab-enriched category]].  This article mainly treats the more general case of localizing an arbitrary category.  The localization of a category $C$ at a class of [[morphisms]] $W$ is the universal solution to making the morphisms in $W$ into [[isomorphisms]]; it is written $C[W^{-1}]$ or $W^{-1}C$.  It also could be called the [[homotopy category]] of $C$ with respect to $W$.
 
-## Terminology ##
-
-* The terminology "localization" originates from the localization of [[rings]], which is a special case when [[rings]] are regarded as [[Ab]]-[[enriched category|enriched categories]] with a single objects.
-Notice that what is literally _localized_ when localizing the ring is really its [[spectrum]]: it becomes smaller.
-
-* In 2-categorical language, $C[W^{-1}]$ is the [[coinverter]] of the canonical natural transformation $s\to t$, where $s,t:W\to C$ are the "source" and "target" functors and $W$ is considered as a full subcategory of the [[arrow category]] $C ^{\mathbf{2}}$.
-
-## Relation to geometric embeddings ##
-
-If $C$ is a [[topos]] then a class of localizations of $C$ are related to [[geometric morphism|geometric embeddings]] $C[W^{-1}] \to C$.
-
-+--{.query}
-Zoran: not every localization has an adjoint. 
-=--
-
-In particular, [[sheafification]] given by the geometric embedding $Sh(S) \hookrightarrow PSh(S)$ is the localization of a presheaf topos $PSh(S)$ at [[local isomorphisms]]. 
-
-More generally:
-
-+-- {: .un_prop}
-###### Proposition
-
-Every geometric embedding $C' \hookrightarrow C$ of [[topos|topoi]] is of the form $Sh_j C \hookrightarrow C$ for some [[Lawvere-Tierney topology]] $j$ on $C$. The objects of $Sh_j C$ are the [[local objects]] with respect to the [[dense monomorphisms]] of $C$ determined by the [[Lawvere-Tierney topology]]. The class $W$ of morphism inverted this way is the saturation of the [[dense monomorphisms]] of $C$.
-
-=--
-
-(...let me check that I said this precisely correctly...)
-
-This  perspective on localization is very useful for understanding the important case of localization of [[model category|model categories]], described at
+Localization as described here has more sophisticated variants which apply to [[model category|model categories]]:
 
 * [[Bousfield localization]]
 
 * [[localization of a simplicial model category]].
-
-All these constructions are to be thought of as _modelling_ or [[presentable (infinity,1)-category|presenting]] the passage not just from categories to [[reflective subcategory|reflective subcategories]] but from [[(∞,1)-categories]] to [[reflective (∞,1)-subcategories]], i.e. the 
-[[localization of an (∞,1)-category]]:
-
-with the right $\infty$-version of left exact, left adjoint etc. understood, a [[localization of an (∞,1)-category]] $C$ is nothing but a fully faithful [[(∞,1)-functor]]
-
-$$
-  L \hookrightarrow C
-$$
-
-with a [[left adjoint]].
-
-
-**Warning** There is the notion of [[Bousfield localization]] of a model category to another model category, and there is also the term "localization of a model category" referring to passing to the [[homotopy category]].
-
-
-
-
 
 #Definition#
 
@@ -73,33 +28,35 @@ Let $C$ be a [[category]] and $W \subset Mor(C)$ a collection of [[morphisms]].
 
 A **localization** of $C$ by $W$ (or "at $W$") is
 
-* a (generally [[large category|large]], see below) [[category]] $W^{-1}C$;
+* a (generally [[large category|large]], see below) [[category]] $C[W^{-1}]$;
 
-* and a functor $Q : C \to W^{-1}C$;
+* and a functor $Q : C \to C[W^{-1}]$;
 
 * such that
 
   * for all $w \in W$, $Q(w)$ is an [[isomorphism]];
 
-  * for any category $A$ and any [[functor]] $F : C \to A$ such that $F(w)$ is an [[isomorphism]] for all $w \in W$, there exists a functor $F_W : W^{-1}C \o A$ and a [[natural transformation|natural isomorphism]] $F \simeq F_W \circ Q$;
+  * for any category $A$ and any [[functor]] $F : C \to A$ such that $F(w)$ is an [[isomorphism]] for all $w \in W$, there exists a functor $F_W : C[W^{-1}] \to A$ and a [[natural transformation|natural isomorphism]] $F \simeq F_W \circ Q$;
 
-  * the [[functor]] of [[functor category|functor categories]] $(-)\circ Q : Funct(W^{-1}C, A) \to Funct(C,A)$ is [[fully faithful functor|full and faithful]].
+  * the map between [[functor category|functor categories]]
+$$(-)\circ Q : Funct(C[W^{-1}], A) \to Funct(C,A)$$ 
+is [[fully faithful functor|full and faithful]].
 
-#Remarks#
+Note:
 
-* if $W^{-1}C$ exists, it is unique up to [[equivalence]].
+* if $C[W^{-1}]$ exists, it is unique up to [[equivalence]].
+
+* In 2-categorical language, $C[W^{-1}]$ is the [[coinverter]] of the canonical natural transformation $s\to t$, where $s,t:W\to C$ are the "source" and "target" functors and $W$ is considered as a full subcategory of the [[arrow category]] $C ^{\mathbf{2}}$.
 
 * **size issues**: If $C$ is [[large category|large]], then the existence of $C[W^{-1}]$ may depend on [[foundations]], and it will not necessarily be [[locally small category|locally small]] even if $C$ is.  The tools of [[homotopy theory]], and in particular [[model category|model categories]], can be used to address this question.
 
-### Construction ###
+# Construction #
 
-There is a general construction of $W^{-1}C$, if it exists, which is however hard to use. 
-
-When the system $W$ has special properties, such as if $W$ admits a [[calculus of fractions]] or a [[factorization system]], then there are more direct formulas for the [[hom-sets]] of $W^{-1}C$.
+There is a general construction of $C[W^{-1}]$, if it exists, which is however hard to use.   When the system $W$ has special properties, most notably when $W$ admits a [[calculus of fractions]] or a [[factorization system]], then there are more direct formulas for the [[hom-sets]] of $C[W^{-1}]$.
 
 ## General construction ##
 
-If $C$ is a category and $W$ is a set of arrows, we construct the localization of $C$. Let $W^{op}$ be the class in $C^{op}$ corresponding to $W$ (it isn't necessarily a category).
+If $C$ is a category and $W$ is a set of arrows, we construct the localization of $C$. Let $W^{op}$ be the set in $C^{op}$ corresponding to $W$ (it isn't necessarily a category).
 
 Let $G$ be the following [[directed graph]]: 
 
@@ -127,21 +84,60 @@ $$(y;\overline{f},f;y)\sim (y;id_y;y)$$
 [[David Roberts]]: This could probably be described as the [[fundamental category]] of 2-dimensional [[simplicial complex]] with the directed space structure coming from the 1-skeleton, which will be the path category above. In that case, we could/should probably leave out the paths of zero length. 
 =--
 
-## For the case of multiplicative systems/factorization system ##
+## Construction when there is a calculus of fractions ##
 
-If the class $W$ admits a [[calculus of fractions]], then there is a simpler description of $C[W^{-1}]$ in terms of [[span|spans]] instead of zig-zags.
+If the class $W$ admits a [[calculus of fractions]], then there is a simpler description of $C[W^{-1}]$ in terms of [[span|spans]] instead of zig-zags.  The idea is that any morphism $f: x \to z$ in $C[W^{-1}]$ is built from a morphism $f_2 : y \to z$ in $C$ and a morphism $f_1 : y \to x$ in $W$:
 
-This concept has been extended to [[bicategory of fractions|bicategories of fractions]] by Dorette Pronk, where a class of 1-arrows is sent to [[equivalence|equivalences]].
+$$  x \stackrel{f_1}{\longleftarrow} y \stackrel{f_2}{\longrightarrow} z $$
+
+For more on this, see the entry [[calculus of fractions]].
+
+Dorette Pronk has extended this idea to construct a [[bicategory of fractions|bicategories of fractions]]  where a class of 1-arrows is sent to [[equivalence|equivalences]].
+
+# Relation to geometric embeddings #
+
+If $C$ is a [[topos]] then a class of localizations of $C$ are related to [[geometric morphism|geometric embeddings]] $C[W^{-1}] \to C$.
+
++--{.query}
+Zoran: not every localization has an adjoint. 
+=--
+
+In particular, [[sheafification]] given by the geometric embedding $Sh(S) \hookrightarrow PSh(S)$ is the localization of a presheaf topos $PSh(S)$ at [[local isomorphisms]]. 
+
+More generally:
+
++-- {: .un_prop}
+###### Proposition
+
+Every geometric embedding $C' \hookrightarrow C$ of [[topos|topoi]] is of the form $Sh_j C \hookrightarrow C$ for some [[Lawvere-Tierney topology]] $j$ on $C$. The objects of $Sh_j C$ are the [[local objects]] with respect to the [[dense monomorphisms]] of $C$ determined by the [[Lawvere-Tierney topology]]. The class $W$ of morphism inverted this way is the saturation of the [[dense monomorphisms]] of $C$.
+
+=--
+
+(...let me check that I said this precisely correctly...)
+
+This  perspective on localization is very useful for understanding the important case of localization of [[model category|model categories]]. 
+
+These constructions are to be thought of as _modelling_ or [[presentable (infinity,1)-category|presenting]] the passage not just from categories to [[reflective subcategory|reflective subcategories]] but from [[(∞,1)-categories]] to [[reflective (∞,1)-subcategories]], i.e. the 
+[[localization of an (∞,1)-category]]:
+
+with the right $\infty$-version of left exact, left adjoint etc. understood, a [[localization of an (∞,1)-category]] $C$ is nothing but a fully faithful [[(∞,1)-functor]]
+
+$$
+  L \hookrightarrow C
+$$
+
+with a [[left adjoint]].
 
 
 #References#
 
-( classical references go here ...)
+The classical reference to localization for categories is the book by Gabriel and Zisman:
+
+*P. Gabriel and M. Zisman, _Calculus of Fractions and Homotopy Theory_, Springer, New York, 1967. _Ergebnisse der Mathematik und ihrer Grenzgebiete_, Band 35. 
  
-One account of localization with a [[calculus of fractions]] is section 7 of
+A more modern account of localization with a [[calculus of fractions]] is section 7 of
 
-* Kashiwara-Schapira, [[Categories and Sheaves]]
-
+* Kashiwara-Schapira, [[Categories and Sheaves]].
 
 ***
 
