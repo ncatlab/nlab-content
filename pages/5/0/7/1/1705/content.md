@@ -3,7 +3,7 @@
 
 # Idea #
 
-A [[homotopical category]] is a [[category]] $C$ equipped with the information that some of its [[morphisms]], specifically, a subcategory $W \supset Core(C)$, are to be regarded as "weakly invertible".  One way to make this notion precise is through the concept of __simplicial localizaton__:
+A [[homotopical category]] is a [[category]] $C$ equipped with the information that some of its [[morphisms]], specifically, a subcategory $W \supset Core(C)$, are to be regarded as "weakly invertible".  One way to make this notion precise is through the concept of __simplicial localization__:
 
 The _simplicial localization_ $L C$ of a category $C$ is an [[(infinity,1)-category]] realized concretely as a [[simplicially enriched category]] which is such that the original category injects into it,  $C \hookrightarrow L C$, such that every morphism in $C$ that is labeled as a weak equivalence becomes an action equivalence in the sense of morphisms in [[(infinity,1)-categories]] in $L C$. And $L C$ is in some sense universal with this property.
 
