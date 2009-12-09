@@ -13,3 +13,8 @@ These polynomials also form a commutative ring, denoted $R[z]$; the addition and
 The ring $R[z]$ may also be described more abstractly as the free $R$-[[commutative algebra|algebra]] on one generator.
 
 Similarly, the set of polynomials in any give [[set]] of variables with coefficients in $R$ is the free commutative $R$-algebra on that set of generators.
+
+The [[field of fractions]] of $R[z]$ is the [[field]] $R(z)$ of [[rational functions]].
+
+
+[[!redirects polynomial ring]]
