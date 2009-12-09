@@ -5,7 +5,7 @@
 
 The **fundamental groupoid** of a space $X$ is a [[groupoid]] whose objects are the points of $X$ and whose morphisms are paths in $X$, identified up to endpoint-preserving [[homotopy]].
 
-In parts of the literature the fundamental groupoid, and more generally the [[fundamental ∞-groupoid]], is called the **Poincar&#233;-groupoid**.
+In parts of the literature the fundamental groupoid, and more generally the [[fundamental ∞-groupoid]], is called the **Poincar&#233; groupoid**.
 
 #Definition#
 
@@ -20,7 +20,7 @@ $$
   \pi_1(X,x) = Aut_{\Pi_1(X)}(x)
   \,.
 $$
-So the fundamental groupoid is an improvement on the idea of the fundamental group, which gets rid of the choice of basepoint. The set of connected components of $\Pi_1(X)$ is precisely the set $\pi_0(X)$ of path-components of $X$.  (This is not to be confused with the set of connected components of $X$, sometimes denoted by the same symbol.  Of course they are the same when $X$ is locally path-connected.)
+So the fundamental groupoid is an improvement on the idea of the fundamental group, which gets rid of the choice of basepoint. The set of connected components of $\Pi_1(X)$ is precisely the set $\Pi_0(X)$ of path-components of $X$.  (This is not to be confused with the set of connected components of $X$, sometimes denoted by the same symbol.  Of course they are the same when $X$ is locally path-connected.)
 
 ## Topologizing the fundamental groupoid
 
@@ -35,7 +35,7 @@ This construction is closely linked with the construction of a [[universal cover
 Regarding topology on the fundamental groupoid for a general space; it inherits a topology from the path space $X^I$, but there is also a topology (unless I've missed some subtlety) as given in 4.17 mentioned above, but the extant literature on the topological fundamental group uses the first one.
 =--
 
-When $X$ is not semi-locally simply connected, the arrows of the fundamental groupoid inherits a non-discrete topology from the path space, which is an obstruction to the above-mentioned source fibre\'s being a covering space. However the composition is no longer continuous. When $X$ is not locally path-connected, $\pi_0(X)$ also inherits a non-discrete topology (the [[quotient topology]] of $X$ by the relation of path connections).
+When $X$ is not semi-locally simply connected, the arrows of the fundamental groupoid inherits a non-discrete topology from the path space, which is an obstruction to the above-mentioned source fibre\'s being a covering space. However the composition is no longer continuous. When $X$ is not locally path-connected, $\Pi_0(X)$ also inherits a non-discrete topology (the [[quotient topology]] of $X$ by the relation of path connections).
 
 In circumstances like these more sophisticated methods are appropriate, such as [[shape theory]].  This is also related to the [[fundamental group of a topos]], which is in general a [[progroup]] or a [[localic group]] rather than an ordinary group.
 
@@ -57,5 +57,8 @@ For the latter, see
 
 In both cases, the structures are strict and the functors satisfy a van Kampen type theorem, i.e. preserve certain colimits, so that one can do some calculation, in many cases of a nonabelian type. 
 
+
 [[!redirects Poincare groupoid]]
 [[!redirects Poincaré groupoid]]
+[[!redirects Poincare-groupoid]]
+[[!redirects Poincaré-groupoid]]
