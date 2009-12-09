@@ -18,24 +18,27 @@ For a similar link list with considerable overlap see
 
 * [[Categories and Sheaves]]
 
-#Content#
+
+# Content #
+* automatic table of contents goes here
+{:toc}
 
 
-## Categorical Preliminaries ##
+## Categorical Preliminaries
 
 
 
-##I Categories of Functors ##
+##I Categories of Functors
 
 * [[presheaf]]
 
-##II Sheaves of Sets ##
+##II Sheaves of Sets
 
 * [[category of open subsets]]
 
 * [[sheaf]]
 
-##III Grothendieck Topologies and Sheaves ##
+##III Grothendieck Topologies and Sheaves
 
 * [[presheaf]]
 
@@ -59,7 +62,7 @@ For a similar link list with considerable overlap see
 
 * [[Grothendieck topos]]
 
-##IV First Properties of Elementary Topoi ##
+##IV First Properties of Elementary Topoi
 
 * [[subobject classifier]]
 
@@ -89,14 +92,14 @@ For a similar link list with considerable overlap see
 
 
 
-##V Basic Constructions of Topoi ##
+##V Basic Constructions of Topoi
 
 * [[Lawvere-Tierney topology]]
 
 * [[Lawvere-Tierney topology|sheafification in a Lawvere-Tierney topos]]
 
 
-##VI Topoi and Logic ##
+##VI Topoi and Logic
 
 * [[logic]]
 
@@ -117,7 +120,7 @@ For a similar link list with considerable overlap see
 * [[Heyting algebra]]
 
 
-##VII Geometric Morphisms##
+##VII Geometric Morphisms
 
 * [[geometric morphism]]
 
@@ -127,22 +130,22 @@ For a similar link list with considerable overlap see
 
     * [[stalk]]
 
-##VIII Classifying Topoi##
+##VIII Classifying Topoi
 
 * [[classifying topos]]
 
 
-##IX Localic Topoi##
+##IX Localic Topoi
 
 * [[locale]]
 
 * [[localic topos]]
 
-##Geometric Logic and Classifying Topoi##
+##Geometric Logic and Classifying Topoi
 
 * [[classifying topos]]
 
-##Appendix: Sites for Topoi##
+##Appendix: Sites for Topoi
 
 
 
