@@ -89,20 +89,26 @@ For instance this way
 * the notion of ordinary [[Lie algebra]] to $L_\infty$-[[L-∞-algebra|algebra]].
 
 
-### Contrast to horizontal categorificationn ###
+## Contrast to horizontal categorificationn ##
 
 Some people also speak of [[horizontal categorification]] as categorification. This is to be distinguished from vertical categorification.
 
 Some people just say 'oidification' for horizontal categorification, in which case it is consistent to speak of vertical categorificaton as just _categorification_ .
 
 
-### Contrast to laxification ###
+## Homotopification versus laxification ##
 
-If you like [[negative thinking]], then instead of saying that categorification 'replaces [[sets]] by [[categories]]' (to quote Wikipedia), you can say that we replace [[truth values]] by sets, especially the truth values of [[equality|equations]]. That is, we acknowledge that there may be many different ways in which something may be true, in particular many different ways in which two things may be the same. And then it is meaningful to ask whether two ways in which these things are the same are the same way (and if so, whether two ways that *they* are the same are the same way, etc).
+(Vertical) categorification can often be usefully decomposed into two operations.
 
-In particular, while two [[elements]] of a set simply may (or may not) be equal, two [[objects]] of a [[groupoid]] may be [[isomorphic]] in many different ways. And while two [[parallel morphisms|parallel isomorphisms]] in a groupoid may be equal, two parallel [[equivalences]] in a $2$-groupoid may be isomorphic in many different ways. Or while one element $x$ of a [[poset]] may precede an element $y$, there may be many different [[morphisms]] from one object $x$ of a category to an object $y$.
+* In **groupoidal categorification**, which may also be called **homotopification** or **groupoidification** (although the latter term also has a [[groupoidification|different meaning]], we allow objects to come with automorphisms, those automorphisms to come with automorphisms, and so on.  In the limit, this involves replacing sets by [[∞-groupoids]] or [[homotopy types]] (hence the name "homotopification").
 
-As you can see from these examples, one can distinguish the "allowing of higher morphisms" from the possibility of adding noninvertible arrows.  We may call the latter [[laxification]].  Often "categorification" includes both operations, but fairly often it only includes the first; we may call that 'groupoidification' or 'categorification proper' (or a better word if somebody thinks of one, since [[groupoidification]] already means something more specific and there\'s nothing 'improper' about doing both at once).
+* In **directed categorification**, which may also be called **directification** or **laxification**, we allow morphisms that were previously required to be invertible to instead be noninvertible (i.e. "directed").
+
+If you like [[negative thinking]], then instead of saying that categorification 'replaces [[sets]] by [[categories]]' (to quote Wikipedia), you can say that we replace [[truth values]] by sets, especially the truth values of [[equality|equations]].  That is, we acknowledge that there may be many different ways in which something may be true, and in particular many different ways in which two things may be the same.  And then it is meaningful to ask whether two ways in which these things are the same are the same way (and if so, whether two ways that *they* are the same are the same way, etc).
+
+However, when we apply "replace truth values by sets" to the truth values of the equality relation of a set, we end up with a groupoid, since the equality of a set is symmetric.  Thus, while two [[elements]] of a set simply may (or may not) be equal, two [[objects]] of a [[groupoid]] may be [[isomorphic]] in many different ways. And while two [[parallel morphisms|parallel isomorphisms]] in a groupoid may be equal, two parallel [[equivalences]] in a $2$-groupoid may be isomorphic in many different ways.  Thus, this gives us groupoidal categorification, or homotopification. 
+
+To get from groupoids to categories, we need to also allow things which were previously invertible to be noninvertible, i.e. perform "directification."  We could also do this first starting from a set, obtaining a poset (in which the symmetric relation "is equal to" has been replaced by the non-symmetric one "is less than or equal to").  Then when we homotopify a poset, we get a category: while one element $x$ of a [[poset]] may precede an element $y$, there may be many different [[morphisms]] from one object $x$ of a category to an object $y$.
 
 
 
