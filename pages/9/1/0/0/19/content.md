@@ -100,11 +100,11 @@ But abstract nonsense still tends to meet with some resistance. In the preface o
 
 * A theory of [[deductive system]]s. By assimilating a category\'s objects to statements or formulas and morphisms to deductions (or proofs), a category can be presented equationally as a certain kind of deductive system (with an equivalence relation on deductions).
 
-* A theory of enlarged [[simplicial sets]] (in the sense of enlarging sets to classes) presented by Set-valued [[presheaves]] on the full subcategory $[0] \overset{\rightarrow}{\underset{\rightarrow}\leftarrow} [1] \overset{\rightarrow}{\underset{\rightarrow}{\overset{\leftarrow}{\underset{\leftarrow}\rightarrow}}} [2]$ of the [[simplex category]] $\Delta$ (where the simplex category $\Delta$ also contains large simplicies). The enlarged simplicial sets must also satisfy the [[Segal condition]]: $X$ an enlarged simplicial set &#8658; the [[Segal map]]s $X_n \to X_1 \times_{X_0} X_1 \times_{X_0} \ldots \times_{X_0} X_1$ are isomorphisms for $n \geq 0$, and that the "middle" face operator $X_2 = X_1 \times_{X_0} X_1 \to X_1$ (that models the [[composition]] in the category) is associative. This very last condition can be skipped if the presheaves are on the full subcategory $[0] \overset{\rightarrow}{\underset{\rightarrow}\leftarrow} [1] \overset{\rightarrow}{\underset{\rightarrow}{\overset{\leftarrow}{\underset{\leftarrow}\rightarrow}}} [2] \cdots [3]$ of $\Delta$ instead. The correspondence is an [[equivalence of categories]] that constructs a category from its [[nerve]] by the categorical realization functor, and the inverse functor constructing a categorys nerve is the generalized [[nerve functor]] (a generalization of the nerve functor to have categories as its domain and enlarged simplicial sets as its codomain).
+* A theory of (possibly large) [[simplicial sets]] presented by [[class]]-valued [[presheaves]] on the full subcategory $[0] \overset{\rightarrow}{\underset{\rightarrow}\leftarrow} [1] \overset{\rightarrow}{\underset{\rightarrow}{\overset{\leftarrow}{\underset{\leftarrow}\rightarrow}}} [2]$ of the [[simplex category]] $\Delta$. These simplicial sets must also satisfy the [[Segal condition]]: for $X$ such a simplicial set, the [[Segal map]]s $X_n \to X_1 \times_{X_0} X_1 \times_{X_0} \ldots \times_{X_0} X_1$ are isomorphisms for $n \geq 0$, and the "middle" face operator $X_2 = X_1 \times_{X_0} X_1 \to X_1$ (that models the [[composition]] in the category) is associative. This very last condition can be skipped if the presheaves are on the full subcategory $[0] \overset{\rightarrow}{\underset{\rightarrow}\leftarrow} [1] \overset{\rightarrow}{\underset{\rightarrow}{\overset{\leftarrow}{\underset{\leftarrow}\rightarrow}}} [2] \cdots [3]$ of $\Delta$ instead. The correspondence is an [[equivalence of categories]] that constructs a category from its [[nerve]] by the categorical realization functor, and the inverse functor that constructs a category\'s nerve is the generalized [[nerve functor]] (a generalization of the nerve functor to have categories as its domain and possibly large simplicial sets as its codomain).
 
-  The category corresponding to an enlarged simplicial set
+  The category corresponding to such a simplicial set
 is constructed as: objects are $0$-simplexes, morphisms are formal composites of $1$-simplexes,
-and $n$-simplexes for $n \geq 2$ force various equalities between morphisms by interpreting $2$-simplexes as commutative triangles, $3$-simplexes as commutative tetrahedra, and so on. Composition in the category is modeled in the enlarged simplicial set by the "middle" face operator which in functorial language is $X(f)$, where $f$ is the monomorphism in $\Delta$ from the $2$-element ordinal to the $3$-element ordinal that leaves out the middle element. This equivalence transports in principle anything non-[[evil]] between [[Cat]] and the enlarged simplicial sets satisfying the two conditions above.
+and $n$-simplexes for $n \geq 2$ force various equalities between morphisms by interpreting $2$-simplexes as commutative triangles, $3$-simplexes as commutative tetrahedra, and so on. Composition in the category is modeled in the simplicial set by the "middle" face operator which in functorial language is $X(f)$, where $f$ is the monomorphism in $\Delta$ from the $2$-element ordinal to the $3$-element ordinal that leaves out the middle element. This equivalence transports in principle anything non-[[evil]] between [[Cat]] and the possibly large simplicial sets satisfying the two conditions above.
 
 * A theory of [[Cat]], the $2$-[[2-category|category]] of categories. This is axiomatized in Lawvere\'s [[ETAC]].
 
@@ -142,17 +142,23 @@ Most of these include some [[higher category theory]].
 An imperfect perspective of category theory (for the purpose of classifying articles) can be obtained from the [MSC subject classification (18-XX)](http://www.ams.org/mathscinet/msc/msc.html?t=18-XX); the current one is from 2000 and reflects ideas of the decade before that.
 
 
-#Main principle of category theory#
-Category theory has a main principle:
+#Evil#
+
+Category theory has an important principle:
 
 _In any category it is unnatural and undesirable to speak about equality of two objects_.  See [[evil]].
+
+To develop category theory within set theory (or even within first-order logic with equality) necessarily allows one to discuss evil by defining categories as [[strict categories]]; some alternative [[foundations of mathematics]] make this impossible, but otherwise it requires discipline to state definitions and theorem without evil.
 
 Therefore there are many notions of equivalence in category theory (both [[equivalence]] in categories) and ([[equivalence of categories]]) to solve this obstacle.
 
 For the theorem accepted as the fundamental theorem of category theory see the [[Yoneda lemma]].
 
 
-#Category theory vs. set theory#
+# Contrast to theories of other objects
+
+##Category theory vs. set theory
+
 Here set theory is assumed to be a theory of the usual concept of sets, that is *material* [[set theory]].
 
 No one of these is more fundamental than the other as a foundation of mathematics. Category theory is a holistic (structural) approach to mathematics that can (through such methods as Lawvere\'s [[ETCS]]) provide [[foundations]] of mathematics and (through [[algebraic set theory]]) reproduce all the different axiomatic set theories; elementary category theory does not need the concept of set to be formulated. Set theory is an analytic approach (element-wise) and can reproduce category theory by simply defining all the concepts in the usual way, as long as one include a technique to handle large categories (for instance by using [[class]]es instead of sets, or by including as an axiom that an uncountable [[inaccessible cardinal]] exists or even that [[Grothendieck universe]]s exist). 
@@ -176,9 +182,12 @@ For a philosophical consideration of foundations covering and comparing sets, st
 
 * Sets, categories and structuralism - Costas Drossos
 
-#Category theory vs. order theory#
+##Category theory vs. order theory
 
-See [[category theory vs order theory]]
+A category may be thought of as a [[categorification]] of a [[poset]] rather than of a [[set]]; much (but by no means all) of category theory also appears in [[order theory]].
+
+See [[category theory vs order theory]] for more discussion.
+
 
 #Generalizations and other structures#
 
@@ -304,6 +313,14 @@ _Toby_:  I would regard even the usual definition of a category (as a set or cla
 
 _Rafael_: I was wondering when this would crop up. So what is a correct definition of a (non-strict) category? As a model of the sketch Scat?
 
+_Toby_:  Within set theory, I don\'t know any other definition of category.  Within some kinds of [[type theory]], one may draw a distinction between a [[preset]] and a set and define a category to have a preset of objects.  [[FOLDS]] handles un-evil $\infty$-category theory natively, but I\'m not very familiar with it.  Or one can try to axiomatise category theory directly in first-order logic *without* equality.
+
+Incidentally:
+*  The usual term is 'large' rather than 'enlarged': large group, large field, large simplicial set, etc.  In context, one often drops 'large', or says 'possibly large' to be pedantic (when small is also allowed).
+*  The objects of $\Delta$ is all finite; there is no way to allow them to be large.  It is the *values* of the presheaves that may be large, not the abstract simplices, but the set (class) of concrete simplices.
+*  The possessive of 'category' is 'category\'s', not 'categorys'.
+
+Did you paste over my edits something that you\'d been working on offline?
 =--
 
 
