@@ -6,6 +6,14 @@ Given a geometric theory $T$ over a topos $S$ we can form the $S$-topos $S[T] \t
 
 $$T-mod(E) \simeq Top_S(E,S[T])$$
 
-If $T'$ is another geometric theory over $S$, then we may say that a map of theories $T \to T'$ is a morphism of $S$-toposes $h: S[T'] \to S[T]$; equivalently it is a $T$-model in $S[T']$. Composition with $h$ induces a functor, _forget along_ $h$ from $T'$-models to $T$-models in any $S$-topos. If we pass to the gros categories of models then these forgetful functors have left adjoints.
+If $T'$ is another geometric theory over $S$, then we may say that a map of theories $T \to T'$ is a morphism of $S$-toposes $h: S[T'] \to S[T]$; equivalently it is a $T$-model in $S[T']$. Composition with $h$ induces a functor, _forget along_ $h$, from $T'$-models to $T$-models in any $S$-topos. If we pass to the _gros categories of models_ then these forgetful functors have left adjoints.
 For if $a: E \to S[T]$ is a $T$-model in $E$, pulling $a$ back along $h$ yields a $T'$-model, not in $E$ but in the pullback.
+
+Define the gros category $T-mod$ of $T$-models to have as objects pairs $(E,A)$ where $E$ is an $S$-topos and $A$ is
+a $T$-model in $E$. A map $(f,g): (E,A) \to (F,B)$ is given
+by a morphism $f: F \to E$ of $S$-toposes and a homomorphism $g: f^*(A) \to B$ of $T$-models in $F$. The
+composition of maps should be evident. A map $h: T \to T'$
+of geometric theories over $S$ induces a forgetful functor
+$T'-Mod \to T-Mod$ which leaves unchanged the $S$-topos of residence, which has a left adjoint $T-Mod \to T'-Mod$ which may change the topos. This is a consequence of general facts about finite 2-limits of the 2-category of 
+bounded $S$-toposes.
 
