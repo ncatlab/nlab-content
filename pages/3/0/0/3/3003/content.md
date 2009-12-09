@@ -1,6 +1,6 @@
 # Idea #
 
-A **conical space** is a set equipped with a notion of taking real-linear combinations with nonnegative coefficients of its elements.  We may tersely define it as a [[module]] of the [[rig]] $\mathbb{R}_{\ge 0}$: that is, the rig of nonnegative real numbers, with ordinary addition and multiplication as the rig operations.
+A **conical space** is a set equipped with a notion of taking [[real number|real]]-linear combinations with nonnegative coefficients of its elements.  We may tersely define it as a [[module]] of the [[rig]] $\mathbb{R}_{\ge 0}$: that is, the rig of nonnegative real numbers, with ordinary addition and multiplication as the rig operations.
 
 # Relation to vector spaces #
 
