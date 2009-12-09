@@ -47,3 +47,9 @@ See [proposition 1.2.9.2, p. 44](http://arxiv.org/PS_cache/math/pdf/0608/0608040
 
 
 [[!redirects over-category in quasi-categories]]
+[[!redirects over quasicategory]]
+[[!redirects over-quasi-category]]
+[[!redirects over-quasicategory]]
+[[!redirects overquasicategory]]
+[[!redirects slice quasi-category]]
+[[!redirects slice quasicategory]]
