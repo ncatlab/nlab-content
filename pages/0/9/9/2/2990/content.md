@@ -17,11 +17,11 @@ X\times I &\stackrel{(\sigma_0)_* (f)}\to & Cyl(f)
 
 where $I = [0,1]$ (the [[unit interval]]) and $\sigma_0:X\to X\times I$ is given by $x\mapsto (x,0)$. By tradition, homotopy theorists sometimes use the inverted (upside-down) mapping cylinder where $\sigma_0$ is replaced by $\sigma_1:x\mapsto (x,1)$. Of course the two mapping cylinders are [[homeomorphism|homeomorphic]] so it is matter of convention which one to use, of course, compatibly with other constructions depending on the orientation of $I$. 
 
-Set-theoretically, the mapping cylinder is usually represented by the quotient space $(X\times I \coprod Y)/{\sim}$ where $\sim$ is the smallest [[equivalence relation]] identifying $(x,0)\sim f(x)$ for all $x\in X$. 
+Set-theoretically, the mapping cylinder is usually represented as the [[quotient space]] $(X\times I \coprod Y)/{\sim}$ where $\sim$ is the smallest [[equivalence relation]] identifying $(x,0)\sim f(x)$ for all $x\in X$. 
 
 ### Properties
 
-As any other pushout, the mapping cylinder has a universal property: for any space $Z$ and mapping $g_1:X\times I\to Z$, $g_2:Y\to Z$ such that $g_1(x,0)=g_2(f(x))$ for all $x\in X$, there is a unique $k:Cyl(f)\to Z$, such that the composition $X\times I\to Cyl(f)\stackrel{k}\to Z$ equals $g_1$ and the composition $Y\to Cyl(f)\stackrel{k}\to Z$ equals $g_2$.
+As any other pushout, the mapping cylinder has a [[universal property]]: for any space $Z$ and mapping $g_1:X\times I\to Z$, $g_2:Y\to Z$ such that $g_1(x,0)=g_2(f(x))$ for all $x\in X$, there is a unique $k:Cyl(f)\to Z$, such that the composition $X\times I\to Cyl(f)\stackrel{k}\to Z$ equals $g_1$ and the composition $Y\to Cyl(f)\stackrel{k}\to Z$ equals $g_2$.
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -29,7 +29,9 @@ Let $f:X\to Y$ be any continuous map.
 The canonical map $j:=f_*(\sigma_0):Y\to Cyl(f)$ is a homotopy equivalence. In fact its homotopy inverse can be chosen a deformation retraction. 
 =--
 
-Proof. We exhibit $j$ as a homotopy equivalence by constructing its homotopy inverse $\tilde{f}$ given by $\tilde{f}:[x,t]\mapsto f(x)$, where $[x,t]$ is a class of  $(x,t)\in X\times I$ and $\tilde{f}([y])=[y]$ for $y\in Y$.
++-- {: .proof}
+###### Proof
+We exhibit $j$ as a homotopy equivalence by constructing its homotopy inverse $\tilde{f}$ given by $\tilde{f}:[x,t]\mapsto f(x)$, where $[x,t]$ is a class of  $(x,t)\in X\times I$ and $\tilde{f}([y])=[y]$ for $y\in Y$.
 Clearly this map is well-defined and 
 $\tilde{f}\circ j = \id_Y$. On the other hand, 
 $(j\circ\tilde{f})[x,t] = [f(x)]$. Homotopy
@@ -39,6 +41,7 @@ H([x,t],\tau) = [x,t(1-\tau)], \,\,\,H([y],\tau)=[y].
 $$
 It is easy to see that $H(-,0) = \id_{Cyl(f)}$,
 $H(-,1)=[-,0]=[f(-)]$ hence $j\circ\tilde{f}\sim id_{Cyl(f)}$.
+=--
 
 +-- {: .un_theorem}
 ###### Theorem
