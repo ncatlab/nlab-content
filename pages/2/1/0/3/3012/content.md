@@ -8,6 +8,10 @@ Every [[operad]] defines and is defined by a [[category]] - its _category of ope
 
 * [[object]]s are sequences consisting of colors of the operad and one new color;
 
++--{: .query}
+[[Mike Shulman]]: What do you mean by "one new color"?  I don't see that in the definition.
+=--
+
 * [[morphism]]s are tuples consisting of maps of sets between these sequences of colors, and a $k$-ary operation of the operad for each collection of $k$ source colors that are mapped to the same target color.
 
 This is a universal construction: the category of operators is the free [[semicartesian monoidal category]] on the free semicartesian operad on the given operad.
