@@ -97,3 +97,6 @@ There are lots of references on fibrations; feel free to add your favorites!
 * The Wikipedia entry on [Fibred category](http://en.wikipedia.org/wiki/Fibred_category) is okay, and contains a number of other references.
 
 [[!redirects Grothendieck fibrations]]
+[[!redirects Grothendieck opfibration]]
+[[!redirects Grothendieck cofibration]]
+[[!redirects opfibration]]
