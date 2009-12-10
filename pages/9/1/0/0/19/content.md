@@ -100,7 +100,7 @@ But abstract nonsense still tends to meet with some resistance. In the preface o
 
 * A theory of [[deductive system]]s. By assimilating a category\'s objects to statements or formulas and morphisms to deductions (or proofs), a category can be presented equationally as a certain kind of deductive system (with an equivalence relation on deductions).
 
-* A theory of possibly large [[simplicial sets]] presented by [[class]]-valued [[presheaves]] on the full subcategory $[0] \overset{\rightarrow}{\underset{\rightarrow}\leftarrow} [1] \overset{\rightarrow}{\underset{\rightarrow}{\overset{\leftarrow}{\underset{\leftarrow}\rightarrow}}} [2]$ of the [[simplex category]] $\Delta$. These possibly large simplicial sets must also satisfy the [[Segal condition]]: $X$ a possibly large simplicial set &#8658; the [[Segal map]]s $X_n \to X_1 \times_{X_0} X_1 \times_{X_0} \ldots \times_{X_0} X_1$ are isomorphisms for $n \geq 0$, and; the "middle" face operator $X_2 = X_1 \times_{X_0} X_1 \to X_1$ (that models the [[composition]] in the category) is associative. This very last condition can be skipped if the presheaves are on the full subcategory $[0] \overset{\rightarrow}{\underset{\rightarrow}\leftarrow} [1] \overset{\rightarrow}{\underset{\rightarrow}{\overset{\leftarrow}{\underset{\leftarrow}\rightarrow}}} [2] \cdots [3]$ of $\Delta$ instead. The correspondence is an [[equivalence of categories]] that constructs a category from its [[nerve]] by the categorical realization functor, and the inverse functor that constructs a category\'s nerve is the generalized [[nerve functor]] (a generalization of the nerve functor to have categories as its domain and possibly large simplicial sets as its codomain).
+* A theory of possibly large [[simplicial sets]] presented by [[class]]-valued [[presheaves]] on the full subcategory $[0] \overset{\rightarrow}{\underset{\rightarrow}\leftarrow} [1] \overset{\rightarrow}{\underset{\rightarrow}{\overset{\leftarrow}{\underset{\leftarrow}\rightarrow}}} [2]$ of the [[simplex category]] $\Delta$. These possibly large simplicial sets must also satisfy the [[Segal condition]]: $X$ a possibly large simplicial set &#8658; the [[Segal map]]s $X_n \to X_1 \times_{X_0} X_1 \times_{X_0} \ldots \times_{X_0} X_1$ are isomorphisms for $n \geq 0$, and that the "middle" face operator $X_2 = X_1 \times_{X_0} X_1 \to X_1$ (that models the [[composition]] in the category) is associative. This very last condition can be skipped if the presheaves are on the full subcategory $[0] \overset{\rightarrow}{\underset{\rightarrow}\leftarrow} [1] \overset{\rightarrow}{\underset{\rightarrow}{\overset{\leftarrow}{\underset{\leftarrow}\rightarrow}}} [2] \cdots [3]$ of $\Delta$ instead. The correspondence is an [[equivalence of categories]] that constructs a category from its [[nerve]] by the categorical realization functor, and the inverse functor that constructs a category\'s nerve is the generalized [[nerve functor]] (a generalization of the nerve functor to have categories as its domain and possibly large simplicial sets as its codomain).
 
   The category corresponding to a possibly large simplicial set
 is constructed as: objects are $0$-simplexes, morphisms are formal composites of $1$-simplexes,
@@ -143,6 +143,10 @@ An imperfect perspective of category theory (for the purpose of classifying arti
 
 
 #Main principle of category theory and evil#
+
++-- {: .query}
+I disagree that this is the *main* principle of category theory.  This is an important principle, but how is it the main one?   ---Toby
+=--
 
 Category theory has a main principle:
 
@@ -331,6 +335,12 @@ I think it is otherwise impossible to build large categories.
 
 * I like my formulation of the Segal condition better. I hope the implication arrow shows up, i am forced to edit in an incompatible IE.
 The other condition should also have a name, such as (central) boundary operator associativity condition. Boundary operator is a more familiar name for face operator. Faces are as i see them 2D, while boundaries can have any dimension.
+
+_Toby_:  I don\'t know why you want to keep harping on the matter of size in the first place.  Anything can be made large; that is nothing special about categories.  If you want to present categories through simplicial sets, then small categories can be given by small simplicial sets while large categories must be given by large simplicial sets; that is all.  Since people usually think of simplicial sets as small and categories as possibly large, it\'s worth mentioning, but surely it is simpler to state up front that the simplicial sets in question may be large.
+
+As for what these large simplicial sets are, why do you think that you need simplices with largely many vertices to build large categories?  And what do you think these simplices are in a large category anyway?  I\'m quite certain that you are wrong here; even a large category has a set (or class, whatever) of objects ($0$-simplices with $1$ vertex), a set of morphisms ($1$-simplices with $2$ vertices), a set of commutative triangles ($2$-simplices with $3$ vertices), etc; it needs no set of $\alpha$-simplices for any infinite $\alpha$, much less any large $\alpha$ (although to some extent these can be made sense of, even for small categories; compare [[transfinite composition]]).  The finite objects of $\Delta$ are sufficient; indeed, as the text states, we need only simplices with up to $4$ vertices (or only up to $3$ if we use enough conditions).
+
+(I also don\'t know why you want that implication arrow, which should be legible to anybody with the fonts needed to read this wiki, but which I think looks ugly in a running sentence.  But that\'s not a big deal; keep it if you like it.)
 =--
 
 
