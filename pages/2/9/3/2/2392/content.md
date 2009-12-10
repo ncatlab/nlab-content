@@ -18,11 +18,11 @@ The notion of _$(\infty,1)$-operad_ is to that of [[(∞,1)-category]] as [[oper
 
 So, roughly, an $(\infty,1)$-operad is an algebraic structure that has for each given type of input and one type of output an [[∞-groupoid]] of operations that take these inputs to that output.
 
-## Definition
+## Definitions
 
 Two models for $(\infty,1)$-operads exist to date, one by Cisinski-[[Ieke Moerdijk|Moerdijk]], the other by [[Jacob Lurie|Lurie]].
 
-## In terms of dendroidal sets
+### In terms of dendroidal sets
 
 Here [[simplicial set]]s are generalized to [[dendroidal set]]s. The theory of $(\infty,1)$-operads is then formulated in terms of dendroidal sets in close analogy to how the theory of [[(∞,1)-category|(∞,1)-categories]] is formulated in terms of [[simplicial set]]s.
 
@@ -34,7 +34,7 @@ Here are two blog entries on talks on this stuff:
 
 * [Moerdijk on Infinity Operads](http://golem.ph.utexas.edu/category/2009/02/moerdijk_on_infinityoperads.html)
 
-## In terms of $(\infty,1)$-categories of operators
+### In terms of $(\infty,1)$-categories of operators
 
 Every [[operad]] $A$ encodes and is encoded by its [[category of operators]] $C_A$. In the approach to $(\infty,1)$-operators described below, the notion of category of operators is generalized to an [[(∞,1)-category]] of operators.
 
