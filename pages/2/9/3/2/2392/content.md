@@ -110,6 +110,151 @@ This is prop 1.8 4 in
 
 =--
 
+## Relation between the two definitions {#relation}
+
++-- {: .standout}
+
+At the time of this writing there is no discussion in "the literature" of the relation between the definition of $(\infty,1)$-operads in terms of dendroidal sets (Cisinski,  Moerdijk, Weiss) and $(\infty,1)$-categories of operators (Lurie). The following are some tentative observations. - [[Urs Schreiber|Urs]]
+
+=--
+
+
+There is an obvious way to regard as [[tree]] as an $(\infty,1)$-category of operators:
+
++-- {: .un_defn}
+###### Definition
+**(dendroidal $(\infty,1)$-category of operators)**
+
+Let 
+
+$$
+  \omega : \Omega \hookrightarrow Op \stackrel{C_{(-)}}{\to}
+  Cat/FinSet_* \stackrel{N}{\to}
+  \mathcal{P}Op_{(\infty,1)}
+$$
+
+be the dendroidal object given by the following composition:
+
+* $\Omega \hookrightarrow Op$ is the functor from the [[tree category]] $\Omega$ to the category of symmetric colored [[operad]]s (over [[Set]]) that sends a tree to the operad freely generated from it;
+
+* $Op \stackrel{C_{(-)}}{\to} Cat/FinSet_*$ sends an [[operad]] to its [[category of operators]];
+
+* $Cat/FinSet_* 
+  \stackrel{N}{\to} \mathcal{P}Op_{(\infty,1)}$ takes 
+  the [[nerve]] of this category, regarded as 
+  a  [[marked simplicial set]] over $N(FinSet_*)$,
+  whose marked edges are the inert morphisms in 
+  the category of operations.
+
+=--
+
+Following the general pattern of [[nerve and realization]], we get:
+
++-- {: .un_defn}
+###### Definition
+**(dendroidal nerve of Lurie-$\infty$-operad)**
+
+The functor
+
+$$
+  N_d := 
+   Hom_{\mathcal{P}Op_{(\infty,1)}}(\omega(-), -):
+   \mathcal{P}Op_{(\infty,1)} \to dSet
+$$
+
+that sends a [[marked simplicial set]] $A \to N(FinSet_*)$ to the [[dendroidal set]] which sends a [[tree]] $T$ to the set of morphisms of $\omega(T)$ into $A$
+
+$$
+  N_d(A) : T \mapsto Hom_{\mathcal{P}Op_{(\infty,1)}}(\omega(T), A)
+$$
+
+is the **dendroidal nerve** of $A$.
+
+
+=--
+
+
+
++-- {: .standout}
+
+One expects that $N_d$ induces a [[Quillen adjunction]] and indeed a [[Quillen equivalence]] between the above model category structure on $\mathcal{P}Op_{(\infty,1)}$ and the [[model structure on dendroidal sets]]. The following is as far as I think I can prove aspects of this. -[[Urs Schreiber|Urs]].
+
+=--
+
+
+
++-- {: .un_prop}
+###### Proposition
+
+The dendroidal nerve functor has the following properties:
+
+* it sends fibrant objects to fibrant objects 
+  
+  i.e. it sends $(\infty,1)$-categories of 
+  operations to $(\infty,1)$-operads 
+  in their incarnation as "quasi-operads";
+
+* it sends objects $\pi : A \to N(FinSet_*)$ that come 
+  from grouplike [[symmetric monoidal (infinity,1)-category|symmetric monoidal]] [[∞-groupoid]]s to fully Kan dendroidal sets (that have the extension property with respect to all horns)
+
+* it sends objects $\pi : A \to N(FinSet_*)$ that come 
+  from 
+  [[symmetric monoidal (infinity,1)-category|symmetric monoidal (∞,1)-categories]] to dendroidal sets that have the extension property with respect to at least one outer horn $\Lambda_{v} T$ for $v \in T$ an $n$-corolla, for all $n \in \mathbb{N}$.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+**respect for fibrant objects**. If $A \to N(FinSet_*)$ is fibrant, then in particual $A$ is a [[weak Kan complex]] hence has the extension property with respect to all inner [[horn]] inclusions of [[simplex|simplices]]. We need to show that this implies that $N_d(A)$ has the extension property with respect to all inner horn inclusions of [[tree]]s.
+
+By an (at the moment unpublished) result by [[Ieke Moerdijk|Moerdijk]], right [[lifting property]] with respect to inner horn inclusions of trees is equivalend to right lifting property with respect to inclusions of [[spine]]s of trees: the union over all the corollas in a tree.
+
+For this the extension property means that if we find a collection $\{C_{k_i} \to N_d(A)\} = Sp(T)$ of corollas in $N_d(A)$ that match at some inputs and output, then these can be composed to an image $T \to N_d(A)$ of the corresponding tree $T$ in $N_d(A)$. 
+
+An image of $T$ in $N_d(A)$ is an image of $\omega(T)$ in $A$. In the [[category of operators]] $\omega(A)$ every tree may be represented as the composite of a sequence of morphisms each of which consists of precisely one of the corollas $C_{k_i}$ in parallel to a identity morphisms. This way gluing the tree from the corollas is a matter of composing a sequence of edges in $A$. But this is guaranteed to be possible if $A$ is a [[weak Kan complex]].
+
+**symmetric monoidal product and outer horn lifting**
+
+As described at [[cartesian morphism]], an edge $f : \Delta^1 \to A$ in $A$ is coCartesian if for all diagrams
+
+$$
+  \array{
+    \Delta^{0,1}
+    \\
+    \downarrow & \searrow^f
+    \\
+    \Lambda^n_0 &\to & A
+    \\
+    \downarrow && \downarrow
+    \\
+    \Delta^n &\to& N(FinSet_*)
+  }
+$$
+
+of 0-horn lifting problems where the first edge of the horn is $f$ itself, there exists a lift
+
+$$
+  \array{
+    \Delta^{0,1}
+    \\
+    \downarrow & \searrow^f
+    \\
+    \Lambda^n_0 &\to & A
+    \\
+    \downarrow &\nearrow & \downarrow
+    \\
+    \Delta^n &\to& N(FinSet_*)
+  }
+  \,.
+$$
+
+For $f$ the parallel application of an $n$-corolla with a collection of identity morphisms this implies that any outer horn $\Lambda_v T \to N_d(A)$ for which the vertex $v : C_n \to N_d(A)$ maps to $f$, the dendroidal set $N_d(A)$ has the extension property with respect to the inclusion $\Lambda_d T \hookrightarrow T$.
+
+
+=--
+
 
 
 [[!redirects (∞,1)-operad]]
