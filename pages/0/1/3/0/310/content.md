@@ -14,13 +14,13 @@ $$\Rightarrow: L^{op} \times L \to L$$
 
 satisfying the condition (really a [[universal property]])
 
-$$(x \wedge a) \leq b \qquad if and only if \qquad x \leq (a \rightarrow b)$$ 
+$$(x \wedge a) \leq b \qquad if\;and\;only\;if \qquad x \leq (a \Rightarrow b)$$ 
 
 Alternatively, a Heyting algebra could be described as a [[partial order|poset]] which is [[finitely complete category|finitely complete]], finitely cocomplete, and cartesian closed; the implication $a\Rightarrow b$ plays the role of an [[exponential object]] $b^a$. Insofar as all these properties of a poset are described by universal properties, the Heyting algebra operations are _[[categorical operation|categorical]]_ in the sense of logic; that is, a poset can carry at most one structure of Heyting algebra. 
 
 In logic, Heyting algebras are precisely algebraic models for [[intuitionistic logic|intuitionistic]] [[propositional calculus]], just as [[Boolean algebra|Boolean algebras]] model [[classical logic|classical]] propositional calculus. As one might guess from this description, the "law of the excluded middle" does not generally hold in a Heyting algebra; see the discussion below. 
 
-The definition of Heyting algebra may be recast into purely equational form, and so we can speak of an [[internalization|internal]] Heyting algebra in any category with products. For example, it turns out that the [[subobject classifier]] of a [[topos]] carries an internal Heyting algebra with respect to that topos. (It is not generally an internal Boolean algebra, and this explains to a large degree why one often hears that the internal logic of a topos is intuitionistic.) 
+The definition of Heyting algebra may be recast into purely equational form, and so we can speak of an [[internalization|internal]] Heyting algebra in any category with products. For example, it turns out that the [[subobject classifier]] of a [[topos]] carries an internal Heyting algebra with respect to that topos. (It is not generally an internal Boolean algebra, and this explains to a large degree why one often hears that the [[internal logic]] of a topos is intuitionistic.) 
 
 We require Heyting algebra homomorphisms to preserve $\rightarrow$.
 
@@ -93,5 +93,9 @@ Thus $\neg\neg: L \to L_{\neg\neg}$ preserves finite joins and finite meets and 
 
 An [[elementary topos]] is a [[vertical categorification]] of a Heyting algebra.  In other words, a $0$-topos (or more precisely, a $(0,1)$-[[(0,1)-topos|topos]]) is essentially a Heyting algebra.  Note that a [[Grothendieck topos|Grothendieck]] $0$-topos is a [[locale]].
 
+
+## Examples
+
+Some examples are spelled out at [[internal logic]].
 
 [[!redirects Heyting algebras]]
