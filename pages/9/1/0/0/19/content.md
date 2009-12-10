@@ -78,7 +78,7 @@ But abstract nonsense still tends to meet with some resistance. In the preface o
 
 **Category theory** is so useful because it can be seen from so many perspectives.
 
-###In the narrow sense###
+##In the narrow sense##
 
 * The theory of [[category|categories]] as [[essentially algebraic theory|essentially algebraic structures]] with several objects and a relation (morphism) "algebra" on these objects. Structures in ordinary [[algebraic theory|abstract algebra]], like [[monoid|monoids]], have only one object. This theory also include [[functors]] between categories and [[natural transformation|natural transformations]].
 
@@ -100,16 +100,16 @@ But abstract nonsense still tends to meet with some resistance. In the preface o
 
 * A theory of [[deductive system]]s. By assimilating a category\'s objects to statements or formulas and morphisms to deductions (or proofs), a category can be presented equationally as a certain kind of deductive system (with an equivalence relation on deductions).
 
-* A theory of (possibly large) [[simplicial sets]] presented by [[class]]-valued [[presheaves]] on the full subcategory $[0] \overset{\rightarrow}{\underset{\rightarrow}\leftarrow} [1] \overset{\rightarrow}{\underset{\rightarrow}{\overset{\leftarrow}{\underset{\leftarrow}\rightarrow}}} [2]$ of the [[simplex category]] $\Delta$. These simplicial sets must also satisfy the [[Segal condition]]: for $X$ such a simplicial set, the [[Segal map]]s $X_n \to X_1 \times_{X_0} X_1 \times_{X_0} \ldots \times_{X_0} X_1$ are isomorphisms for $n \geq 0$, and the "middle" face operator $X_2 = X_1 \times_{X_0} X_1 \to X_1$ (that models the [[composition]] in the category) is associative. This very last condition can be skipped if the presheaves are on the full subcategory $[0] \overset{\rightarrow}{\underset{\rightarrow}\leftarrow} [1] \overset{\rightarrow}{\underset{\rightarrow}{\overset{\leftarrow}{\underset{\leftarrow}\rightarrow}}} [2] \cdots [3]$ of $\Delta$ instead. The correspondence is an [[equivalence of categories]] that constructs a category from its [[nerve]] by the categorical realization functor, and the inverse functor that constructs a category\'s nerve is the generalized [[nerve functor]] (a generalization of the nerve functor to have categories as its domain and possibly large simplicial sets as its codomain).
+* A theory of possibly large [[simplicial sets]] presented by [[class]]-valued [[presheaves]] on the full subcategory $[0] \overset{\rightarrow}{\underset{\rightarrow}\leftarrow} [1] \overset{\rightarrow}{\underset{\rightarrow}{\overset{\leftarrow}{\underset{\leftarrow}\rightarrow}}} [2]$ of the [[simplex category]] $\Delta$. These possibly large simplicial sets must also satisfy the [[Segal condition]]: $X$ a possibly large simplicial set &#8658; the [[Segal map]]s $X_n \to X_1 \times_{X_0} X_1 \times_{X_0} \ldots \times_{X_0} X_1$ are isomorphisms for $n \geq 0$, and; the "middle" face operator $X_2 = X_1 \times_{X_0} X_1 \to X_1$ (that models the [[composition]] in the category) is associative. This very last condition can be skipped if the presheaves are on the full subcategory $[0] \overset{\rightarrow}{\underset{\rightarrow}\leftarrow} [1] \overset{\rightarrow}{\underset{\rightarrow}{\overset{\leftarrow}{\underset{\leftarrow}\rightarrow}}} [2] \cdots [3]$ of $\Delta$ instead. The correspondence is an [[equivalence of categories]] that constructs a category from its [[nerve]] by the categorical realization functor, and the inverse functor that constructs a category\'s nerve is the generalized [[nerve functor]] (a generalization of the nerve functor to have categories as its domain and possibly large simplicial sets as its codomain).
 
-  The category corresponding to such a simplicial set
+  The category corresponding to a possibly large simplicial set
 is constructed as: objects are $0$-simplexes, morphisms are formal composites of $1$-simplexes,
-and $n$-simplexes for $n \geq 2$ force various equalities between morphisms by interpreting $2$-simplexes as commutative triangles, $3$-simplexes as commutative tetrahedra, and so on. Composition in the category is modeled in the simplicial set by the "middle" face operator which in functorial language is $X(f)$, where $f$ is the monomorphism in $\Delta$ from the $2$-element ordinal to the $3$-element ordinal that leaves out the middle element. This equivalence transports in principle anything non-[[evil]] between [[Cat]] and the possibly large simplicial sets satisfying the two conditions above.
+and $n$-simplexes for $n \geq 2$ force various equalities between morphisms by interpreting $2$-simplexes as commutative triangles, $3$-simplexes as commutative tetrahedra, and so on. Composition in the category is modeled in the possibly large simplicial set by the "middle" face operator which in functorial language is $X(f)$, where $f$ is the monomorphism in $\Delta$ from the $2$-element ordinal to the $3$-element ordinal that leaves out the middle element. This equivalence transports in principle anything non-[[evil]] between [[Cat]] and the possibly large simplicial sets satisfying the two conditions above.
 
 * A theory of [[Cat]], the $2$-[[2-category|category]] of categories. This is axiomatized in Lawvere\'s [[ETAC]].
 
 
-###In the wide sense###
+##In the wide sense##
 
 * A new [[foundations|foundation of mathematics]] that focuses attention on structural issues and away from how mathematical objects are 'built up' as sets. One limited way is to see [[topos|toposes]] as a foundation of mathematics. By simply replacing the category Set by a topos, since they are modeled after Set. For a broader foundation more sophisticated structures are needed such as higher dimensional categories. 
 
@@ -142,13 +142,13 @@ Most of these include some [[higher category theory]].
 An imperfect perspective of category theory (for the purpose of classifying articles) can be obtained from the [MSC subject classification (18-XX)](http://www.ams.org/mathscinet/msc/msc.html?t=18-XX); the current one is from 2000 and reflects ideas of the decade before that.
 
 
-#Evil#
+#Main principle of category theory and evil#
 
-Category theory has an important principle:
+Category theory has a main principle:
 
-_In any category it is unnatural and undesirable to speak about equality of two objects_.  See [[evil]].
+_In any category it is unnatural and undesirable to speak about equality of two objects_.
 
-To develop category theory within set theory (or even within first-order logic with equality) necessarily allows one to discuss evil by defining categories as [[strict categories]]; some alternative [[foundations of mathematics]] make this impossible, but otherwise it requires discipline to state definitions and theorem without evil.
+To develop category theory within set theory (or even within first-order logic with equality) necessarily allows one to discuss [[evil]] by defining categories as [[strict categories]]; some alternative [[foundations of mathematics]] make this impossible, but otherwise it requires discipline to state definitions and theorem without evil.
 
 Therefore there are many notions of equivalence in category theory (both [[equivalence]] in categories) and ([[equivalence of categories]]) to solve this obstacle.
 
@@ -321,6 +321,16 @@ Incidentally:
 *  The possessive of 'category' is 'category\'s', not 'categorys'.
 
 Did you paste over my edits something that you\'d been working on offline?
+
+_Rafael_: I don't really understand your question, but no, i compared the texts and changed back what i thought was better before and did't paste the old edit over the new, as a comparison must show. To compare in nLab is also almost a pain, it colors changes wrong (or in a stupid way for a human).
+
+* In textbooks i can't remember them using the large terminology. Probably because they did't treat large structures, at best infinite structures, and then meaning size of any infinite cardinality and not of the size of a proper class :)
+
+*  What i was hinting about was that the $\Delta$ here (not the standard $\Delta$) contains simplicies with any cardinality of vertices.
+I think it is otherwise impossible to build large categories.
+
+* I like my formulation of the Segal condition better. I hope the implication arrow shows up, i am forced to edit in an incompatible IE.
+The other condition should also have a name, such as (central) boundary operator associativity condition. Boundary operator is a more familiar name for face operator. Faces are as i see them 2D, while boundaries can have any dimension.
 =--
 
 
