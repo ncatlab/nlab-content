@@ -34,7 +34,9 @@ Here are two blog entries on talks on this stuff:
 
 * [Moerdijk on Infinity Operads](http://golem.ph.utexas.edu/category/2009/02/moerdijk_on_infinityoperads.html)
 
-##in terms of $(\infty,1)$-categories fibred over Segal's category##
+## In terms of $(\infty,1)$-categories of operators
+
+Every [[operad]] $A$ encodes and is encoded by its [[category of operators]] $C_A$. In the approach to $(\infty,1)$-operators described below, the notion of category of operators is generalized to an [[(∞,1)-category]] of operators.
 
 In this approach an $(\infty,1)$-operad $C^\otimes$ is regarded as an [[(∞,1)-category]] $C$ -- the unary part of the $(\infty,1)$-operad to be described-- with extra structure that determines [[(∞,1)-functor]]s $C^{\times n} \to C$.
 
