@@ -3,9 +3,13 @@
 In as far as a [[Chevalley-Eilenberg algebra]] of an $L_\infty$-[[Lie infinity-algebroid|algebroid]] is the algebra of functions on an [[NQ-supermanifold]] $\mathbf{X}$, the **Weil algebra** is the algebra of functions on the shifted tangent bundle $T[1] \mathbf{X}$.
 
 #Definition#
+
 +-- {: .query}
-Warning: the X in the Idea section is not the X in this definition. I suggest calling it M and saying that M is the manifold with algebra of functions the degree zero part of $CE(\mathfrak{g})$.
+Warning: the X in the Idea section is not the X in this definition. I suggest calling it M and saying that M is the manifold with algebra of functions the degree zero part of $CE(\mathfrak{g})$.  ---Maarten
+
+What if anything is the relationship between the $\mathbf{X}$ above and the $X$ (or $M$) here?  (Sorry, I don\'t know anything about this stuff.)  ---Toby
 =--
+
 For $CE(\mathfrak{g}) = \wedge^\bullet_{C^\infty(X)} \mathfrak{g}^*$ the Chevalley-Eilenberg algebra of a $L_\infty$-[[Lie infinity-algebroid|algebroid]] $g$ over $X$, the corresponding Weil algebra is
 
 $$
