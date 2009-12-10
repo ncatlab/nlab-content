@@ -241,13 +241,13 @@ $$
 We find the value of the [[internal hom]] by its defining [[adjunction]]. For $hom(true,false)$ we have
 
 $$
-  Hom_L(true, hom(true,false)) \simeq Hom_L{true \times true, false} = Hom_L(true, false) = \emptyset
+  Hom_L(true, hom(true,false)) \simeq Hom_L(true \times true, false) = Hom_L(true, false) = \emptyset
 $$
 
 and
 
 $$
-  Hom_L(false, hom(true,false)) \simeq Hom_L{false \times true, false} = Hom_L(false, false) = {*}
+  Hom_L(false, hom(true,false)) \simeq Hom_L(false \times true, false) = Hom_L(false, false) = {*}
 $$
 
 from which we deduce that
@@ -336,15 +336,13 @@ $$
     \,.
   $$
 
-So in particular we find that in the internal logic of $PSh(X)$ we do not have that 
+In particular we find that in the internal logic of $PSh(X)$ the law of the [[excluded middle]] fails in general, as in general we do not have that 
 
 $$
   (\not U) \vee U = true
 $$
 
-because $\not U \vee U = (U^c)^\circ \cup U = X \backslash {boundary of U}$
-
-is the total space $X$ without the boundary of $U$. 
+because $\not U \vee U = (U^c)^\circ \cup U = X \backslash ({boundary\;of\;U})$ is the total space $X$ without the boundary of $U$, and not $true = X$, all of the total space.
 
 So the internal logic of a [[Grothendieck topos|presheaf topos]] is [[intuitionistic logic]].
 
