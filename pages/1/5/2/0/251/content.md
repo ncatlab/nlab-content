@@ -11,7 +11,7 @@ However, these definitions obscure the essential symmetry of the concepts.  We t
 * *objects*: the objects  of $D_0$
 * *vertical arrows*: the morphisms of $D_0$
 * *horizontal arrows*: the objects of $D_1$
-* *squares* or *2-cells*: the morphisms of $D_0$.
+* *squares* or *2-cells*: the morphisms of $D_1$.
 
 We may picture a 2-cell in a double category as a square:
 
