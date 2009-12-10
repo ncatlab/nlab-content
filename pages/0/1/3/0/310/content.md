@@ -22,7 +22,7 @@ In logic, Heyting algebras are precisely algebraic models for [[intuitionistic l
 
 The definition of Heyting algebra may be recast into purely equational form, and so we can speak of an [[internalization|internal]] Heyting algebra in any category with products. For example, it turns out that the [[subobject classifier]] of a [[topos]] carries an internal Heyting algebra with respect to that topos. (It is not generally an internal Boolean algebra, and this explains to a large degree why one often hears that the [[internal logic]] of a topos is intuitionistic.) 
 
-We require Heyting algebra homomorphisms to preserve $\rightarrow$.
+We require Heyting algebra homomorphisms to preserve $\Rightarrow$.
 
 
 ## Relation to topologies 
