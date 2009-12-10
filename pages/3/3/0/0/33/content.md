@@ -106,6 +106,8 @@ Some people just say 'oidification' for horizontal categorification, in which ca
 
 +-- {: .query}
 This all looks good, with one complaint: I don\'t think anyone would consider laxification (passage from sets to posets, groupoids to categories, categories to $2$-posets, etc) to be 'categorification'.  That is, the term 'directed categorification' works best for the *combination* of groupoidal categorification followed by laxification.  Do you agree, Mike?  ---Toby
+
+[[Mike Shulman]]: I actually think those are definitely a type of categorification.  I can think of several places where people have explicitly categorified from categories to (1,2)-categories, either with some particular application in mind, or as a waypoint on the way to 2-categories.  I can see that the term "directed categorification" might most easily be interpreted to refer to the combination, but I do think "pure directification" is also a form of categorification.
 =--
 
 If you like [[negative thinking]], then instead of saying that categorification 'replaces [[sets]] by [[categories]]' (to quote Wikipedia), you can say that we replace [[truth values]] by sets, especially the truth values of [[equality|equations]].  That is, we acknowledge that there may be many different ways in which something may be true, and in particular many different ways in which two things may be the same.  And then it is meaningful to ask whether two ways in which these things are the same are the same way (and if so, whether two ways that *they* are the same are the same way, etc).
@@ -114,6 +116,7 @@ However, when we apply "replace truth values by sets" to the truth values of the
 
 To get from groupoids to categories, we need to also allow things which were previously invertible to be noninvertible, i.e. perform "directification."  We could also do this first starting from a set, obtaining a poset (in which the symmetric relation "is equal to" has been replaced by the non-symmetric one "is less than or equal to").  Then when we homotopify a poset, we get a category: while one element $x$ of a [[poset]] may precede an element $y$, there may be many different [[morphisms]] from one object $x$ of a category to an object $y$.
 
+This can also be understood naturally in the language of [[(n,r)-categories]].  Recall that an $(n,r)$-category can be defined as an [[∞-category]] in which all cells above dimension $r$ are invertible, and all cells above dimension $n$ are trivial.  Thus, groupoidal categorification can be understood as increasing $n$ but keeping $r$ constant, while directification can be understood as increasing $r$ but keeping $n$ constant.
 
 
 ## References##
