@@ -2,6 +2,11 @@
 [[!include category theory - contents]]
 </div>
 
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition
 
 A **Heyting algebra** is a [[lattice]] $L$ which as a poset admits an operation of [[implication]] 
 
@@ -20,7 +25,7 @@ The definition of Heyting algebra may be recast into purely equational form, and
 We require Heyting algebra homomorphisms to preserve $\rightarrow$.
 
 
-## Relation to topologies ##
+## Relation to topologies 
 
 One of the chief sources of Heyting algebras is given by [[topology|topologies]]. As a poset, the topology of a topological space $X$ is a lattice (it has arbitrary joins and meets, and therefore finite joins and meets), and the implication operator is given by 
 
@@ -41,7 +46,7 @@ A [[locale]] is the same thing as a frame, but again the morphisms are different
 Topologies that are Boolean algebras are the exception rather than the rule; basic examples include topologies of [[Stone duality|Stone spaces]]. Another example is the topology of a [[discrete space]] $X$.
 
 
-### Relation to Boolean algebras ###
+## Relation to Boolean algebras ##
 
 In any Heyting algebra $L$, we may define a negation operator 
 
