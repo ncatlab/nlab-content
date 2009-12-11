@@ -57,16 +57,16 @@ There is plenty of room to fuss about the grading conventions.
 A Lie $\infty$-algebroid $g$ is a complex of $A_0$-modules, so corresponds to a bunch of vector bundles  $E_i\to X_0$ over the underlying manifold $X_0$, where $g_i=\Gamma(E_i)$, and the differential of the complex gives fibrations 
 
 $$
-\dots E_{-n}\to E_{-n+1}\to \dots \to E_0\to X_0
+\dots \to E_{-n}\to E_{-n+1}\to \dots \to E_0\to X_0
 $$
 
-So one can think of a Lie $\infty$-algebroid as a rather intricate classical geometric structure: vector bundles with extra structure. These form a category. But taking the Chevalley--Ehresmann algebra gives a functor
+So one can think of a Lie $\infty$-algebroid as a rather intricate classical geometric structure: vector bundles with extra stuff. These form a category. But taking the Chevalley--Ehresmann algebra gives a functor
 
 $$
   Lie \infty Algebroids \stackrel{CE(-)}{\to} sDGCAs
 $$
 
-from the category of $L_\infty$-algebroids to the category of semi free Differential Graded Commutative algebras (sDGCAs).
+from the category of Lie $\infty$-algebroids to the category of semi free Differential Graded Commutative algebras (sDGCAs).
 
 Each SDGCA is the algebras of functions on a supermanifold, more precisely an [[NQ-supermanifold]]. So the CE functor gives a remarkable connection between classical geometry and super geometry.
 
