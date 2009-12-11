@@ -378,7 +378,11 @@ into a [[simplicial model category]] and a [[monoidal model category]], respecti
 
 ## References ##
 
-The PhD thesis that gave the original definition:
+A good survey of the theory as developed currently is
+
+* [[Ieke Moerdijk]], _Lectures on dendroidal sets_ , notes typed by Javier Guiti&#233;rrez on lectures given at the Barcelona workshop on _Homotopy theory and higher categories_ (2008) (to appear in print soon)
+
+The PhD thesis that gave the original definition of dendroidal sets is:
 
 * [[Ittay Weiss]], _Dendroidal sets_ PhD thesis ([web](http://igitur-archive.library.uu.nl/dissertations/2007-0918-200833/UUindex.html))
 
