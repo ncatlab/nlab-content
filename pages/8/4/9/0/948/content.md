@@ -1,6 +1,12 @@
+# Constructive mathematics
+* tic
+{: toc}
+
+
 Broadly speaking, __constructive mathematics__ is mathematics done without the principle of [[excluded middle]] (or other principles, such as the full [[axiom of choice]], that imply it).  Sometimes one adds further restrictions or alternatively adds axioms that contradict excluded middle but are otherwise consistent.
 
 __Constructivism__ is the philosophy that such mathematics is useful, or (more strongly) that non-constructive mathematics is wrong.
+
 
 ## Origins and schools ##
 
@@ -12,7 +18,7 @@ Thus, constructivists (including many still active today) reject proofs that mak
 
 There are, however, differences among constructivists as well.
 
-* Some, like Errett Bishop, simply remove choice and excluded middle from classical mathematics with nothing to replace them.  However, this makes it difficult to define a satisfactory notion of continuous function, even $R \to R$; see (Waaldijk 2003).
+* Some, like Errett Bishop, simply remove choice and excluded middle from [[classical mathematics]] with nothing to replace them.  However, this makes it difficult to define a satisfactory notion of continuous function, even $R \to R$; see (Waaldijk 2003).
 
 * Others add "non-classical" axioms which contradict choice or excluded middle, but which are consistent in their absence, such as "all total functions $R \to R$ are continuous" (the "intuitionistic" school of L. E. J. Brouwer) or "all partial functions $N \to N$ are computable" (the "Russian" school of Markov, also called "constructive recursive analysis").
 
@@ -31,19 +37,20 @@ Many constructivists (like many classical mathematicians) believe in an absolute
 
 With the invention of [[topos|topos theory]] in the second half of the 20th century, a new sort of constructivism arose.  It was observed (by Lawvere and others) that any topos with a [[natural numbers object]] has an [[internal logic]] which is powerful enough to interpret most of mathematics, but that this logic in general fails to satisfy choice and excluded middle.  This meant that even for a mathematican who likes to use choice and excluded middle (and _a fortiori_ for one who believes them to be "true"), there is a reason to care about what can be proven without them, because only if a proof is constructive can it be interpreted in an arbitrary topos with NNO.
 
-Even starting from a "completely classical" world of mathematics, many interesting toposes arise naturally (such as the category of [[sheaf|sheaves]] on any [[topological space]], or more generally any [[site]]) whose internal logic is not classical.  Then by internal (constructive) reasoning in such a topos, one can prove various useful facts, which can then be reinterpreted as external statements about the behavior of the topos itself.  (Some examples would be nice.)
+Even starting from a "completely classical" world of mathematics, many interesting toposes arise naturally (such as the category of [[sheaf|sheaves]] on any [[topological space]], or more generally any [[site]]) whose internal logic is not [[classical logic]].  Then by internal (constructive) reasoning in such a topos, one can prove various useful facts, which can then be reinterpreted as external statements about the behavior of the topos itself.  (Some examples would be nice.)
 
 By now it is known that many of the non-classical axioms used by the early constructivists have natural models in particular toposes.  For instance, in the topos of sheaves on the real numbers $R$, it is true that "all functions $R \to R$ are continuous."  And in the [[effective topos]], it is true that "all functions $N\to N$ are computable."
 
 However, there are no non-classical (or classical) axioms beyond "pure constructivism" that are true in _all_ toposes with NNO.  In particular, there is a [[free topos]] with NNO such that a statement is true in the free topos precisely when it is provable in pure (Richman-school) constructive mathematics.  This means that for an argument to apply in all toposes, even mild assumptions such as countable or dependent choice are unacceptable.  However, topos theory has also provided ideas that solve many of the problems with pure constructivism.  For example, a well-behaved notion of "continuous function" can be recovered by using [[locale|locales]] instead of topological spaces.
 
+
 ## Some features of constructive mathematics ##
 
 ### Rephrasing of classical ideas ###
 
-Sometimes, all that is necessary to make a piece of mathematics constructive is careful use of language.  It is common in classical mathematics to define things with an unnecessary amount of negation.  This doesn't work so well constructively, since a statement can be not false without being true, but we can sometimes do perfectly well by just removing unnecessary [[double negation]]s.
+Sometimes, all that is necessary to make a piece of mathematics constructive is careful use of language.  It is common in [[classical mathematics]] to define things with an unnecessary amount of negation.  This doesn't work so well constructively, since a statement can be not false without being true, but we can sometimes do perfectly well by just removing unnecessary [[double negation]]s.
 
-For example, classically one often speaks about "nonempty" sets, meaning a set which "does _not_ have _no_ elements."  Constructively it is much better to say that a set "<i>does</i> have at least one element"; constructivists often call such a set _[[inhabited set|inhabited]]_ or _occupied_ to remind themselves that it is a "positive" notion to replace the negative one of "nonempty". Others continue to use the word "non-empty" but understand it as a term of art that really means "inhabited".
+For example, classically one often speaks about "nonempty" sets, meaning a set which "does _not_ have _no_ elements."  Constructively it is much better to say that a set "*does* have at least one element"; constructivists often call such a set _[[inhabited set|inhabited]]_ or _occupied_ to remind themselves that it is a "positive" notion to replace the negative one of "nonempty". Others continue to use the word "non-empty" but understand it as a term of art that really means "inhabited".
 
 ### Bifurcation of notions ###
 
@@ -65,11 +72,11 @@ On the other hand, differences in axiomatization or definition that make no diff
 
 ### Truth versus assertability ###
 
-Already in classical mathematics, there is a difference in saying that something is true and saying that something is provable. If you adopt ZFC because you believe it correct, then (assuming that you\'re aware of certain theorems) you believe that ZFC is consistent even though you also know that you cannot prove it so. In that case, you also believe that the continuum hypothesis is either true or false; you may or may not have an opinion on which it is, but in any case again you know that you cannot prove it either way.
+Already in [[classical mathematics]], there is a difference between saying that something is true and saying that something is provable. If you adopt ZFC because you believe it correct, then (assuming that you\'re aware of certain theorems) you believe that ZFC is consistent even though you also know that you cannot prove it so. In that case, you also believe that the continuum hypothesis is either true or false; you may or may not have an opinion on which it is, but in any case again you know that you cannot prove it either way.
 
 A constructive mathematician can be even subtler. If you belong to the Bishop school, then you accept no classically false axioms, and anything that you can prove is valid also in classical mathematics. Even so, you can believe that the principle of excluded middle is false (even though, of course, you know that you cannot prove it false). So you can really confuse the classical mathematicians by saying, on the one hand, that they can safely accept all of your proofs as valid, and then saying, on the other hand, that you know excluded middle to be false. The resolution, of course, is that you never claimed to be able to *prove* it false.
 
-This way of talking has even been formalised in (Bishop, 1967) with a convention adopted by many (but not all) of his followers. In this convention, the word 'not', used normally in a vernacular sentence whose mathematical content would otherwise be the proposition $p$, changes to the content to $\neg p$, or $p \to \bot$, as usual. This follows all of the rules of intuitionistic logic; in particular, any statement that is 'not' true is false (just as in classical logic). However, the word '<i>not</i>', in italics as shown here, changes the content to $p \to x$, where $x$ is some statement that is known (although not proved!), according to Bishop, to be false. Now a statement that is '<i>not</i>' true may be false, but this may be unknown, and it is even possible that it is '<i>not</i>' false (so $\neg p \to x$, possibly for a different $x$) either!
+This way of talking has even been formalised in (Bishop, 1967) with a convention adopted by many (but not all) of his followers. In this convention, the word 'not', used normally in a vernacular sentence whose mathematical content would otherwise be the proposition $p$, changes to the content to $\neg p$, or $p \to \bot$, as usual. This follows all of the rules of [[intuitionistic logic]]; in particular, any statement that is 'not' true is false (just as in [[classical logic]]). However, the word '<i>not</i>', in italics as shown here, changes the content to $p \to x$, where $x$ is some statement that is known (although not proved!), according to Bishop, to be false. Now a statement that is '<i>not</i>' true may be false, but this may be unknown, and it is even possible that it is '<i>not</i>' false (so $\neg p \to x$, possibly for a different $x$) either!
 
 Bishop gives in his introduction several statements, suitable for use as $x$ above, including:
 * excluded middle itself, which Bishop call the 'principle of omniscience';
@@ -83,7 +90,7 @@ This practice can be understood through a careful distinction between object lan
 
 Even without this convention, which is peculiar to the Bishop school, it is important when reading constructive mathematics to remember the difference between what can be refuted (proved false) and what merely cannot be proved true. Although Brouwer\'s and Markov\'s schools will sometimes make claims that are (classically) outright false (such as that every function $[0,1] \to R$ is pointwise-continuous), it is more common (and can happen in any school) that a constructive mathematician makes a claim that merely *sounds* false, when what they really mean is only that they don\'t accept what you say as true. Often modal phrases like 'not necessarily' will be used where Bishop would use '<i>not</i>', as a clue that we\'re shifting to a metalanguage, or at least merely remaining agnostic rather than outright disagreeing.
 
-The distinction between object language and metalanguage exists even in classical logic, but it seems that most classical mathematicians are not used to remembering it, although it is not entirely clear why this should be so.  One possibly relevant observation is that even if P is a statement which is neither provable nor disprovable (like the continuum hypothesis), in classical mathematics it is still provable that "P is either true or false."  Moreover, classical model theory often restricts itself to two-valued models in which the only truth values are "true" and "false," although classical logic still holds in [[Boolean algebra|Boolean-valued]] models, and in such a case the truth value of P may be neither "true" nor "false," although the truth value of "P or not P" is still "true."  Certainly when talking about classical truths which fail constructively, such as excluded middle, it is important to remember that "fails to be provable" is different from "is provably false."
+The distinction between object language and metalanguage exists even in [[classical logic]], but it seems that most classical mathematicians are not used to remembering it, although it is not entirely clear why this should be so.  One possibly relevant observation is that even if P is a statement which is neither provable nor disprovable (like the continuum hypothesis), in classical mathematics it is still provable that "P is either true or false."  Moreover, classical [[model theory]] often restricts itself to two-valued models in which the only truth values are "true" and "false," although classical logic still holds in [[Boolean algebra|Boolean-valued]] models, and in such a case the truth value of P may be neither "true" nor "false," although the truth value of "P or not P" is still "true."  Certainly when talking about classical truths which fail constructively, such as excluded middle, it is important to remember that "fails to be provable" is different from "is provably false."
 
 
 ## Related entries ##
