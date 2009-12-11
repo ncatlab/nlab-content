@@ -24,6 +24,15 @@ $$
   \,.
 $$
 
++--{: .query}
+[[Tim Porter]] This looks to be more or less the same as what is referred to as the total homotopy order of a space, introduced by Quinn in notes on TQFTs :
+
+F. Quinn, 1995, Lectures on axiomatic topological quantum field theory , in D. Freed and 
+K. Uhlenbeck, eds., Geometry and Quantum Field Theory , volume 1 of IAS/Park City Mathematics Series , AMS/IAS.
+
+This may explain why the link between Yetter's invariant and groupoid cardinality that [[Urs]] noted on the Caf&#233;, comes about in my work with Joao.
+=--
+
 #Examples#
 
 * Let $X$ be a [[discrete category|discrete groupoid]] on a finite [[set]] $S$ with $n$ elements. Then the groupoid cardinality of $X$ is just the ordinary cardinality of the set  $S$
