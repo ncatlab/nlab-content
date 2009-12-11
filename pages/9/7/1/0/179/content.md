@@ -4,20 +4,18 @@
 
 #Idea#
 
-**$L_\infty$-algebroid**s or **Lie $\infty$-algebroid**s or are to [[Lie ∞-groupoids]] as Lie algebras are to Lie groups. Hence $L_\infty$-algebroids are a [[horizontal categorification]] and [[vertical categorification]] of Lie algebras: they encompass $L_\infty$-[[L-∞-algebras|algebras]] as well as [[Lie algebroids]].
+**$L_\infty$-algebroids** or **Lie $\infty$-algebroids** are to [[Lie ∞-groupoids]] as [[Lie algebras]] are to [[Lie groups]]. Hence $L_\infty$-algebroids are a [[horizontal categorification]] and [[vertical categorification]] of Lie algebras: they encompass $L_\infty$-[[L-∞-algebras|algebras]] as well as [[Lie algebroids]].
 
-A Lie $\infty$-algebroid is a complex $g$ of modules over a ring $A_0$, satisfying some (complicated) conditions. It turns out that it is easier to formulate these conditions in terms of the [[Chevalley-Eilenberg algebra]] $CE(g)$ of $g$. This is a certain type of graded super commutative algebra constructed from $g$.
+A Lie $\infty$-algebroid is a [[complex]] $g$ of [[modules]] over a [[ring]] $A_0$, satisfying some (complicated) conditions. It turns out that it is easier to formulate these conditions in terms of the [[Chevalley?Eilenberg algebra]] $CE(g)$ of $g$. This is a certain type of graded super commutative algebra constructed from $g$.
 
 
 #Definition in terms of differential algebra#
 
 
 +-- {: .un_defn}
-###### Definition
-**(Lie $\infty$ Algebroid)**
-=--
+###### Definition (Lie $\infty$ Algebroid)
 
-A Lie $\infty$ Algebroid $g$ over a manifold $X_0$ is the following data:
+A Lie $\infty$-algebroid $g$ over a manifold $X_0$ is the following data:
 
 * A commutative algebra $A_0$, thought of as the ring of functions on a manifold $X_0$.
 
@@ -27,6 +25,7 @@ $$
 $$
 
 * A degree 1 derivation Q on the Chevalley-Eilenberg algebra $CE(g)=\wedge^\bullet_{A} g^* = S^\bullet g^*[1]$ of $g$, such that $Q^2=0$.
+=--
 
 The Chevalley-Eilenberg algebra $CE(g)$ of a Lie $\infty$-algebroid is a commutative [[semifree dga]], and any such (of non negative degree) is of the form $CE(g)$ for some Lie $\infty$ algebroid.
 
@@ -41,15 +40,19 @@ $$
   \,.
 $$
 
-**Example:** Take $g = \Gamma(T X)$ to be the $C^\infty(X)$-module of vector fields on $X$, then 
++-- {: .un_example}
+###### Example
+Take $g = \Gamma(T X)$ to be the $C^\infty(X)$-module of vector fields on $X$, then 
 $\wedge^\bullet_{C^\infty(X)} g^* = \wedge^\bullet_{C^\infty(X)} \Omega^1(X) = \Omega^\bullet(X)$. 
+=--
+
++-- {: .un_remark}
+###### Remark
+There is plenty of room to fuss about the grading conventions. 
+=--
 
 
-**Remark:** There is plenty of room to fuss about the grading conventions. 
-
-
-
-#The Chevalley-Ehresmann functor on Lie $\infty$-algebroids#
+#The Chevalley--Ehresmann functor on Lie $\infty$-algebroids#
 
 A Lie $\infty$-algebroid $g$ is a complex of $A_0$-modules, so corresponds to a bunch of vector bundles  $E_i\to X_0$ over the underlying manifold $X_0$, where $g_i=\Gamma(E_i)$, and the differential of the complex gives fibrations 
 
@@ -57,7 +60,7 @@ $$
 \dots E_{-n}\to E_{-n+1}\to \dots \to E_0\to X_0
 $$
 
-So one can think of a Lie $\infty$-algebroid as a rather intricate classical geometric structure: vector bundles with extra structure. These form a category. But taking the Chevalley-Ehresmann algebra gives a functor
+So one can think of a Lie $\infty$-algebroid as a rather intricate classical geometric structure: vector bundles with extra structure. These form a category. But taking the Chevalley--Ehresmann algebra gives a functor
 
 $$
   Lie \infty Algebroids \stackrel{CE(-)}{\to} sDGCAs
@@ -65,15 +68,14 @@ $$
 
 from the category of $L_\infty$-algebroids to the category of semi free Differential Graded Commutative algebras (sDGCAs).
 
-Each SDGCA is the algebras of functions on a supermanifold, more precisely an [[NQ-supermanifold]]. So the CE-functor gives a remarkable connection between classical geometry and super geometry.
+Each SDGCA is the algebras of functions on a supermanifold, more precisely an [[NQ-supermanifold]]. So the CE functor gives a remarkable connection between classical geometry and super geometry.
 
 
 #Remarks#
 
 * The definition of a Lie $\infty$-structure in terms of a dual differential graded-commutative algebra is the higher graded version of the definition of Lie algebras in terms of [Lie coalgebras](http://en.wikipedia.org/wiki/Lie_coalgebra).
 
-* In the physics literature $CE(g)$ is called a 
-[[Chevalley-Eilenberg algebra|BRST complex]].
+* In the physics literature $CE(g)$ is called a [[Chevalley-Eilenberg algebra|BRST complex]].
 
 
 #Special Cases#
@@ -82,7 +84,7 @@ Each SDGCA is the algebras of functions on a supermanifold, more precisely an [[
 
 * an Lie $\infty$-algebroid $g$ with generators for $CE(g)$ concentrated in the first $n$ degrees is a **Lie $n$-algebroid**;
 
-* an Lie $\infty$-algebroid the differential of whose CE-algebra is "co-binary", i.e. $d : \mathfrak{g}^* \to g^* \oplus g^* \wedge g^*$, is **strict**.
+* an Lie $\infty$-algebroid the differential of whose CE algebra is "co-binary", i.e. $d : \mathfrak{g}^* \to g^* \oplus g^* \wedge g^*$, is **strict**.
 
 So in particular
 
@@ -90,19 +92,18 @@ So in particular
 
 * a Lie 1-algebroid over the point is a **Lie algebra**;
 
-* a Lie $n$-algebroid over a point is a 
-**[[L-infinity-algebra|Lie n-algebra]]**.
+* a Lie $n$-algebroid over a point is a **[[Lie n-algebra]]**.
 
 ##Further examples##
 
 
-* A [[Courant algebroid]] is not exactly an $L_\infty$-algebroid, but it is encoded by a Lie-3-algebra.
+* A [[Courant algebroid]] is not exactly an $L_\infty$-algebroid, but it is encoded by a Lie $3$-algebra.
 
 +-- {: .query}
 When I read the literature a Courant algebraoid seems to be a Lie 2-algebroid with as extra structure a symplectic form of ghostnumber 2. So it is just a special case of a Lie $\infty$-algebroid, no?
 =--
 
-* Standard examples of [[exterior differential system]]s are [[Chevalley-Eilenberg algebra]]s of $L_\infty$-algebroids.
+* Standard examples of [[exterior differential system]]s are [[Chevalley?Eilenberg algebras]] of $L_\infty$-algebroids.
 
 #Further resources#
 
@@ -112,7 +113,7 @@ There should be an [[internalization]] of this into the context of [[generalized
 
 The term "Lie $\infty$-algebroid" or "$L_\infty$-algebroid" as such is not as yet established in the literature, as most authors working with these objects think of them entirely in terms of [[NQ-supermanifolds]] and either ignore the relation to [[Lie theory]] or take it more or less for granted. 
 
-Possibly the first explicit appearance of the idea of $\infty$-Lie-algebroids recognized in their full [[Lie theory|Lie theoretic]] meaning is
+Possibly the first explicit appearance of the idea of $\infty$-Lie algebroids recognized in their full [[Lie theory|Lie theoretic]] meaning is
 
 * Pavol &#352;evera, _Some title containing the words "homotopy" and "symplectic", e.g. this one_ ([arXiv](http://arxiv.org/abs/math.SG/0105080))
 
