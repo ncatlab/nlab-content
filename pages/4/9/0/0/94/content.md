@@ -215,6 +215,7 @@ For more general 'weak Lie 2-algebras', see:
 
 * Dmitry Roytenberg, _On weak Lie 2-algebras_,  ([arXiv](http://arxiv.org/abs/0712.3461))
 
+
 [[!redirects L-infinity-algebras]]
 [[!redirects Lie infinity-algebra]]
 [[!redirects L-infinity algebra]]
@@ -224,3 +225,10 @@ For more general 'weak Lie 2-algebras', see:
 [[!redirects L-∞ algebras]]
 [[!redirects L-∞-algebra]]
 [[!redirects L-∞-algebras]]
+
+[[!redirects Lie n-algebra]]
+[[!redirects L-n-algebra]]
+[[!redirects L-n algebra]]
+[[!redirects Lie n-algebras]]
+[[!redirects L-n-algebras]]
+[[!redirects L-n algebras]]
