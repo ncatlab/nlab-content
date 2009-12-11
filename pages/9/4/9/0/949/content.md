@@ -1,4 +1,9 @@
-# Idea #
+# Predicative mathematics
+* tic
+{: toc}
+
+
+## Idea
 
 __Predicative mathematics__ is a way of doing [[mathematics]] without allowing impredicative definitions.
 
@@ -6,15 +11,16 @@ Informally, a definition is _impredicative_ if it refers to a totality which inc
 
 There are (at least) two broad schools of the [[foundations]] of predicative mathematics that don\'t talk much to each other: one school that uses lower-order forms of [[higher-order logic]] (or the [[set theory]] that this justifies) and [[classical logic]], and a [[constructive mathematics|constructive]] school that uses first-order [[type theory]] (or the set theory that this justifies) and [[intuitionistic logic]].  The common ground is that both schools reject [[power set]]s; other axioms may vary.  Here we tend to think of what predicative mathematics allows [[Set|the category of sets]] to be.
 
-# Impredicative axioms #
+
+## Impredicative axioms
 
 Not all of these axioms are rejected by all predicativists, but they at least come under some suspicion.
 
-## Infinity ##
+### Infinity
 
 The [[axiom of infinity]] is not usually considered impredicative, but we list it anyway, as it is needed for the others to have force.  Mathematics that does not require this axiom, [[finite mathematics]], can be interpreted in a predicative framework even if it uses the axioms below.
 
-## Power set ##
+### Power set
 
 The axiom that any set has a [[power set]] is perhaps the fundamental feature missing from predicative mathematics.  In particular, the sequence
 $$ \mathbf{N}, \mathcal{P}\mathbf{N}, \mathcal{P}\mathcal{P}\mathbf{N}, \ldots $$
@@ -22,7 +28,7 @@ may be accepted in part, but not forever.
 
 The failure of the power set axiom means that the category of sets is not an elementary [[topos]].  (Note that $Set$ is still a [[Grothendieck topos]], defined as a category of sheaves or in terms of Giraud\'s characterisation, since the theorem that such a category is an elementary topos requires the power set axiom.)
 
-## Unbounded separation ##
+### Unbounded separation
 
 The constructive school generally accepts the [[axiom of replacement]] but not unbounded forms of the [[axiom of separation]].  (This choice is not available to the classical school, since replacement and [[excluded middle]] together imply unbounded separation.)
 
@@ -32,7 +38,7 @@ To be precise, however, this $P$ should be written as a [[predicate]] in the lan
 
 (We need more on this, particularly with regards to the classical school and replacement.)
 
-## Function sets ##
+### Function sets
 
 One sometimes speaks of forbidding [[function set]]s instead of power sets.  That is, it is the sequence
 $$ \mathbf{N}, \mathbf{N}^{\mathbf{N}}, \mathbf{N}^{\mathbf{N}^{\mathbf{N}}}, \ldots $$
@@ -46,13 +52,14 @@ The constructive school, however, often accepts function sets.  In this school, 
 
 Brouwer, on the other hand, did not accept the sequence above, although his followers differ on when (if ever) it stops.
 
-## Ill-founded structures ##
+### Ill-founded structures
 
 Most foundations of mathematics are predicative in one sense: no set may belong to itself.  This (or rather, a certain strengthening of this) is the [[axiom of foundation]].  An alternative is the axiom of antifoundation, which explicitly allows for and tames such sets as $\bullet$, where $\bullet = \{\bullet\}$.  Indeed, this equation is a perfectly good way to *define* $\bullet$ using antifoundation, yet this is about as impredicative as a definition can get.
 
 Once one accepts the [[axiom of infinity]], there\'s not much objection to accepting more general [[W-type]]s; these are sets that are defined recursively much like a [[natural numbers object]].  Categorially, we may see these as [[initial algebra]]s of certain functors on $Set$.  The [[terminal coalgebra|final coalgebra]]s of these functors also exist in impredicative theories, but not predicatively.
 
-# The category of sets #
+
+## The category of sets
 
 So what is the category of sets in predicative mathematics?
 
@@ -62,7 +69,8 @@ Since we\'re not doing finite mathematics, we may also include a [[natural numbe
 
 If you accept function sets, then $Set$ is [[locally cartesian closed category|locally cartesian closed]].  In this case, $\mathbf{N}$ is enough to get all $W$-types, so we have a $\Pi$-$W$-pretopos.  If you accept excluded middle, then $Set$ is a [[Boolean category|Boolean]] pretopos or a Boolean $W$-pretopos.  But a Boolean $\Pi$-pretopos is necessarily a topos, which would make the theory impredicative.
 
-# The real numbers #
+
+## The real numbers
 
 An important question in predicative mathematics is the status of the set $\mathbf{R}$ of [[real number]]s.  This set is often constructed as a subset $R_D$ of $\mathcal{P}\mathbf{N}$ or as a [[subquotient]] $R_C$ of $\mathbf{N}^{\mathbf{N}}$, neither of which can be formed in an arbitrary Heyting $W$-pretopos.  The latter can be formed in a $\Pi$-$W$-pretopos, but it is not necessarily correct.
 
@@ -72,7 +80,8 @@ It is also possible to assert the existence of $\mathbf{R}$ by fiat, much like $
 
 There is also the question of what exactly it means to say that $\mathbf{R}$ exists; is it a set or a [[proper class]]?  Without function sets, the distinction between these is not clear-cut; higher order logic suggest a hierarchy of more and more proper (less and less [[small category|small]]) classes rather than a single unified notion of set.  If you allow $\mathbf{N}$ only as a proper class, then you are basically still doing [[finite mathematics]]; if you allow $\mathbf{R}$ only as a proper class, then you are doing predicative mathematics.
 
-# Formalising mathematics #
+
+## Formalising mathematics
 
 How much of mathematics can be done predicatively?
 
@@ -80,7 +89,8 @@ A surprisingly large amount of mathematics can be formalised, using various codi
 
 Constructive mathematics generally requires great care with anything other than basic discrete mathematics after the middle of the 19th century, but requiring it to be predicative does not usually add much difficulty, as long as function sets are allowed.  This even extends to [[category theory]], which is not usually contemplated in the classical approach.  (However, the internal logic of a $\Pi$-$W$-pretopos is certainly not conservative over $\mathbf{PA}$; it also proves consistency.)
 
-# References #
+
+## References
 
 *  Sol Feferman; [Relationships between Constructive, Predicative and Classical Systems of Analysis](http://hlombardi.free.fr/FefermanRelationships.pdf) (PDF).
 *  Nik Weaver; [papers on conceptualism](http://www.math.wustl.edu/~nweaver/conceptualism.html).
@@ -88,7 +98,8 @@ Constructive mathematics generally requires great care with anything other than 
    *  [Predicativity in constructive set theory](http://plato.stanford.edu/entries/set-theory-constructive/#PreConSetThe).
    *  [Predicativism](http://plato.stanford.edu/entries/philosophy-mathematics/index.html#Pre)
 
-# Discussion #
+
+## Discussion
 
 _[[Mike Shulman|Mike]]_: Is there a formal definition of "impredicative" other than "whatever predicativists don't like?" In particular, I don't understand why exponentials are any less problematic than power sets.  If I have the set $B^A$, can't I then use it to define a new function $A\to B$ in terms of this set that contains the function being defined?
 
