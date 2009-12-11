@@ -4,7 +4,7 @@
 
 ## Idea 
 
-Every [[operad]] defines and is defined by a [[category]] - its _category of operators_ , whose
+Every [[operad]] defines and is defined by a [[category]] -- its _category of operators_ -- whose
 
 * [[object]]s are sequences consisting of colors of the operad; 
 
@@ -79,10 +79,10 @@ The notion originates in
 
 * [[Peter May]], R. Thomason, _The uniqueness of infinite loop space machines_ , Topology  17(3) 
 
-A discussion of the [[category theory|general abstract nonsense]] behing the notion is at
+A discussion of the [[category theory|general abstract nonsense]] behind the notion is at
 
-* [[Mike Shulman]], _Generalized operads in classical algebraic topology_ ([blog](http://golem.ph.utexas.edu
-/category/2009/10/generalized_operads_in_classic.html))
+* [[Mike Shulman]], _Generalized operads in classical algebraic topology_ 
+([blog](http://golem.ph.utexas.edu/category/2009/10/generalized_operads_in_classic.html))
 
 This summarizes aspects of
 
