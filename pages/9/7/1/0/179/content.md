@@ -42,8 +42,7 @@ $$
 
 +-- {: .un_example}
 ###### Example
-Take $g = \Gamma(T X)$ to be the $C^\infty(X)$-module of vector fields on $X$, then 
-$\wedge^\bullet_{C^\infty(X)} g^* = \wedge^\bullet_{C^\infty(X)} \Omega^1(X) = \Omega^\bullet(X)$. 
+Take $g = \Gamma(T X)$ to be the $C^\infty(X)$-module of [[tangent vector fields]] on $X$, then $\wedge^\bullet_{C^\infty(X)} g^* = \wedge^\bullet_{C^\infty(X)} \Omega^1(X) = \Omega^\bullet(X)$. 
 =--
 
 +-- {: .un_remark}
@@ -54,13 +53,13 @@ There is plenty of room to fuss about the grading conventions.
 
 #The Chevalley--Ehresmann functor on Lie $\infty$-algebroids#
 
-A Lie $\infty$-algebroid $g$ is a complex of $A_0$-modules, so corresponds to a bunch of vector bundles  $E_i\to X_0$ over the underlying manifold $X_0$, where $g_i=\Gamma(E_i)$, and the differential of the complex gives fibrations 
+A Lie $\infty$-algebroid $g$ is a complex of $A_0$-modules, so corresponds to a bunch of [[vector bundles]] $E_i\to X_0$ over the underlying manifold $X_0$, where $g_i=\Gamma(E_i)$, and the differential of the complex gives fibrations 
 
 $$
 \dots \to E_{-n}\to E_{-n+1}\to \dots \to E_0\to X_0
 $$
 
-So one can think of a Lie $\infty$-algebroid as a rather intricate classical geometric structure: vector bundles with extra stuff. These form a category. But taking the Chevalley--Ehresmann algebra gives a functor
+So one can think of a Lie $\infty$-algebroid as a rather intricate classical geometric structure: vector bundles with [[extra stuff]]. These form a category. But taking the Chevalley--Ehresmann algebra gives a functor
 
 $$
   Lie \infty Algebroids \stackrel{CE(-)}{\to} sDGCAs
