@@ -18,7 +18,7 @@ When $n \gt 2$, an $(n,i)$-[[horn]] in $S$ has the same edges as any of its fill
 The above notion generalizes to [[dendroidal set]]s: the spine of a [[tree]] $T$ is the union over its corollas
 
 $$
-  Sp(T) = \cup_{C_{k} \to T} C_k
+  Sp(T) = \bigcup_{C_{k} \to T} C_k
   \,.
 $$
 
