@@ -1,6 +1,14 @@
+# Equivalence
+* tic
+{: toc}
+
+
+## Idea
+
 In general two objects are considered _equivalent_ if they may be replaced by one another in all contexts under consideration, in particular whenever one is not doing anything [[evil]].
 
 The general theory of equivalence is discussed at [[equivalence relation]], but the real question is the correct definition of equivalence in various situations.
+
 
 ## In higher category theory #
 
@@ -25,4 +33,6 @@ In the category of topological spaces, notions weaker than isomorphism become ve
 
 These can be understood to some extent using higher categories.  For example, topological spaces should be weakly homotopy-equivalent if and only if they have equivalent [[fundamental infinity-groupoid|fundamental infinity-groupoids]].  Similarly, Quillen equivalent model categories give rise to equivalent [[(infinity,1)-category|(infinity,1)-categories]].
 
+
 [[!redirects equivalences]]
+[[!redirects equivalent]]
