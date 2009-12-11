@@ -1,4 +1,9 @@
-#Idea#
+# Inverse images
+* tic
+{: toc}
+
+
+## Idea
 
 Given a morphism $f : X \to Y$ of [[site]]s, the _inverse image_ operation is a functor
 
@@ -10,12 +15,13 @@ that may be interpreted as encoding the idea of _pulling back along $f$_ the "bu
 
 In the case that $X$ and $Y$ are (the [[site]]s corresponding to) [[topological space]]s this interpretation becomes literally true: the inverse image of a sheaf on topological spaces is the pullback operation on the corresponding [[etale space]]s.
 
-#Definition#
+
+## Definition
 
 Given a [[site|morphisms of sites]] $f : X \to Y$ coming from a [[functor]] $f^t : S_Y \to S_X$ of the underlying [[category|categories]].
 
 
-## on presheaves ##
+### on presheaves
 
 The [[direct image]] operation $f_* : PSh(X) \to PSh(Y)$ on [[presheaf|presheaves]] 
 is just precomposition with $f^t$
@@ -48,8 +54,7 @@ $$
 of a [[presheaf]] $F$ along $f^t$. 
 
 
-
-## on sheaves ##
+### on sheaves
 
 The inverse image operation on the [[category of sheaves]] $Sh(Y) \subset PSh(Y)$ inside the category of presheaves involves [[Kan extension]] followed by [[sheafification]].
 
@@ -174,12 +179,12 @@ The proof of left-exactness requires more technology and work.
 =--
 
 
-## on sheaves on topological spaces ##
+### on sheaves on topological spaces
 
 In the case where the [[site]]s $X$ and $Y$ in question are given by [[category of open subsets|categories of open subsets]] of [[topological space]]s denoted, by a abuse of symbols, also by $X$ and $Y$, one can identify sheaves with their corresponding [[etale space]]s over $X$ and $Y$. In that case the inverse image is simply obtained by the pullback along the continuous map $f : X \to Y$ of the corresponding [[etale space]]s.
 
 
-#Remarks#
+## Remarks
 
 * See also [[restriction and extension of sheaves]].
 
@@ -196,7 +201,7 @@ called the **inverse image functor**.
 * The other adjoint to the [[direct image]], the [[adjoint functor|right adjoint]], is (if it exists) the [[restriction and extension of sheaves|extension]] of sheaves.
 
 
-#Examples#
+## Examples
 
 The standard example is that where $X$ and $Y$ are [[topological space]]s and $S_X = Op(X)$, $S_Y = Op(Y)$ are their [[category of open subsets|categories of open subsets.]]
 
@@ -231,8 +236,7 @@ $$
 This approximates the possibly non-open subset $f^{-1}(V)$ by all open subsets $U$  _containing_ it.
 
 
-
-#References#
+## References
 
 for the general description in terms of Kan extension and sheafification see section 17.5 of
 
@@ -241,3 +245,6 @@ for the general description in terms of Kan extension and sheafification see sec
 For the description in terms of pullback of etale spaces see secton VII.1 of
 
 * MacLane-Moerdijk, [[Sheaves in Geometry and Logic]]
+
+
+[[!redirects inverse images]]
