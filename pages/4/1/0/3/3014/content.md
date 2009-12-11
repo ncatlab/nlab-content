@@ -1,11 +1,12 @@
-Classical mathematics is [[mathematics]] as it is normally practised, and particulary using commonly accepted [[foundations]].
+**Classical mathematics** refers to [[mathematics]] as it is "normally" practised (or, sometimes, as it used to be practiced), and particulary using commonly accepted [[foundations]].
 
 This is a vague term, but some of the things that it might mean are:
 *  use of [[classical logic]] and the [[axiom of choice]], in contrast to [[constructive mathematics]];
 *  free use of [[power sets]] and [[infinite sets]], in contrast to [[predicative mathematics]] and [[finite mathematics]];
-*  working in [[Set]], in contrast to working [[internalization]] to some other [[topos]] or more general [[category]];
-*  allowing [[evil]] and otherwise ignoring the lessons of [[higher category theory]].
+*  working in [[Set]], in contrast to working [[internalization|internally]] to some other [[topos]] or more general [[category]];
+*  allowing [[evil]] or otherwise violating the normative perspectives of [[higher category theory]];
+*  use of non-[[structural set theory|structural]] aspects of [[material set theory]].
 
-Despite the name, classical mathematics is only about 100 years old; anything much before that can usually interpreted just as well nonclassically as classically.
+Despite the name, classical mathematics is only about 100 years old; anything much before that can usually interpreted just as well nonclassically as classically.  In fact, it was developments in mathematics around the beginning of the 20th century which sparked the famous "foundational crisis," leading to the development of intuitionistic, constructive, and predicative mathematics in contrast to "classical" mathematics.
 
 Note that the term 'classical' also has meanings within many specific fields of mathematics that may have nothing in particular to do with 'classical mathematics' as a whole.
