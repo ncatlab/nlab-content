@@ -1,23 +1,31 @@
+# $n$-Lie algebras
+* tic
+{: toc}
+
+
+## Idea
+
 An **$n$-Lie algebra** is defined to be an algebraic structure which
 
-* looks formally like the special case of an [[L-infinity-algebra]] for which only the $n$-ary bracket $D_n$ is non-vanishing (see there);
+* looks formally like the special case of an $L_\infty$-[[L-infinity-algebra|algebra]] for which only the $n$-ary bracket $D_n$ is non-vanishing (see there);
 
-* _but_ without necessarily the grading underlying an $L_\infty$-algebra, and in particular without the requirement that $D_n$ be of homogeneous degree -1 in any grading.
+* _but_ without necessarily the grading underlying an $L_\infty$-algebra, and in particular without the requirement that $D_n$ be of homogeneous degree $-1$ in any grading.
 
 Therefore, any "$n$-Lie algebras" that appear in the literature are **not** examples of $L_\infty$-algebras.
 
-So $n$-Lie algebras in this sense in general don't integrate to [[Lie infinity-groupoid]]s via the usual [[Lie theory]]. An important application of $n$-Lie algebras is as formalizations and generalizations of Nambu-brackets. 
+So $n$-Lie algebras in this sense in general don't integrate to [[Lie infinity-groupoid]]s via the usual [[Lie theory]]. An important application of $n$-Lie algebras is as formalizations and generalizations of Nambu brackets. 
 
 
-##References##
+## References
 
 A discussion of $n$-Lie algebras (without the $L_\infty$-grading) is in
 
-* v. T. Filippov, _$n$-Lie algebras_, Sib. Math. Zh. No 6 126-140 (195)
+* v. T. Filippov, _$n$-Lie algebras_, Sib. Math. Zh. No 6 126--140 (195)
 
-* A. S. Dzhumadil'daev, _Wronskians as $n$-Lie multiplications_ ([arXiv](http://arxiv.org/PS_cache/math/pdf/0202/0202043v1.pdf))
+* A. S. Dzhumadil'daev, _Wronskians as $n$-Lie multiplications_ ([arXiv](http://arxiv.org/abs/math/0202043))
 
-## Re-inventions of $n$-Lie algebras ##
+
+## Re-inventions
 
 The notion of $n$-Lie algebras, for $n=3$, was re-invented by string physicists in 
 
