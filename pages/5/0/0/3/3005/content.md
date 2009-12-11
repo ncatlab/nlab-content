@@ -1,10 +1,10 @@
 __Beck's monadicity theorem__ states that a [[functor]] $U : D \rightarrow C$ is [[monadic]] if and only if
 
 1. $U$ has a [[left adjoint]]
-2. $U$ reflects isomorphisms
-3. $U$ creates [[coequalizers]] of $U$-split pairs
+2. $U$ reflects [[isomorphisms]]
+3. $U$ [[created limit|creates]] [[coequalizers]] of $U$-split pairs
 
-A parallel pair $f,g : a \rightarrow b$ in $D$ is a **$U$-split pair** if there is a diagram in $C$: 
+A [[parallel pair]] $f,g : a \rightarrow b$ in $D$ is **$U$-split** if there is a diagram in $C$: 
 
 $$U a \;\underoverset{U f}{U g}{\rightrightarrows}\; b \;\overset{h}{\rightarrow}\; c$$
 
@@ -18,5 +18,9 @@ The __crude monadicity theorem__ states that a functor $U : D \rightarrow C$ is 
 
 where a parallel pair $f,g : a \rightarrow b$ is __reflexive__ if $f$ and $g$ have a common [[section]].  This sufficient, but not necessary, condition is sometimes easier to verify in practice.
 
+
 [[!redirects Beck's monadicity theorem]]
+[[!redirects Beck's monadicity theorem]]
+[[!redirects Beck monadicity theorem]]
 [[!redirects tripleability theorem]]
+[[!redirects crude monadicity theorem]]
