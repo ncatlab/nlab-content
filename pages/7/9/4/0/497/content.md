@@ -1,8 +1,15 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+
 In [[logic]], the principle of **excluded middle** states that every [[truth value]] is either true or false. (This is sometimes called the 'axiom' or 'law' of excluded middle, either to emphasise that it is or is not optional; 'principle' is a relatively neutral term.) One of the many meanings of [[classical logic]] is to emphasise that this principle holds in the logic; in contrast, it fails in [[intuitionistic logic]].
 
-The principle of excluded middle (hereafter, PEM), as a statement about truth values themselves, is accepted by nearly all mathematicians; those who doubt or deny it are a distinct minority, the [[constructive mathematics|constructivists]]. However, when one [[internalization|internalises]] mathematics in categories other than [[Set|the category of sets]], there is no doubt that excluded middle often fails internally. (Those categories in which excluded middle holds are called [[Boolean category|Boolean]]; in general, the adjective 'Boolean' is often used to indicate the applicability of PEM.)
+The principle of excluded middle (hereafter, PEM), as a statement about truth values themselves, is accepted by nearly all mathematicians; those who doubt or deny it are a distinct minority, the [[constructive mathematics|constructivists]]. However, when one [[internalization|internalises]] mathematics in categories other than [[Set|the category of sets]], there is no doubt that excluded middle often fails internally. See the examples listed at [[internal logic]]. (Those categories in which excluded middle holds are called [[Boolean category|Boolean]]; in general, the adjective 'Boolean' is often used to indicate the applicability of PEM.)
 
-## PEM versus AC ##
+## PEM versus AC 
 
 Excluded middle can be seen as a very weak form of the [[axiom of choice]] (a slightly more controversial principle, doubted or denied by a slightly larger minority, and true internally in even fewer categories).  In fact, the following are equivalent.
 
