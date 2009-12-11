@@ -342,7 +342,7 @@ $$
   (\not U) \vee U = true
 $$
 
-because $\not U \vee U = (U^c)^\circ \cup U = X \backslash ({boundary\;of\;U})$ is the total space $X$ without the boundary of $U$, and not $true = X$, all of the total space.
+because $\not U \vee U = (U^c)^\circ \cup U = X \backslash \partial U$ is the total space $X$ without the boundary (frontier) of $U$, and not $true = X$, all of the total space.
 
 So the internal logic of a [[Grothendieck topos|presheaf topos]] is [[intuitionistic logic]].
 
