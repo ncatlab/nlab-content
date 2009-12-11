@@ -8,7 +8,7 @@ In as far as a [[Chevalley-Eilenberg algebra]] of an $L_\infty$-[[Lie infinity-a
 
 Over a contractible base space the Weil algebra may also be understood as the [[mapping cone]] of the identity on the [[Chevalley-Eilenberg algebra]].
 
-One can also understans this as generalizing the notion of [[superdifferential form]] from ordinary [[supermanifold]]s to [[NQ-supermanifolds]].
+One can also understand this as generalizing the notion of [[superdifferential form]] from ordinary [[supermanifold]]s to [[NQ-supermanifolds]].
 
 
 ## Definition
@@ -138,4 +138,6 @@ $CE(\mathfrak{g})$ is the graded supercommutative ring of functions on the NQ-su
 
 [[Urs Schreiber]]: I renamed now the $X$ in the definition into an $X_0$ and said explicitly that this is the underlying manifold.
 
+That looks much better, thanks. Should we delete the discussion, or how does that work?
+---Maarten
 =--
