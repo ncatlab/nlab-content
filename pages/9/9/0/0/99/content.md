@@ -121,6 +121,11 @@ $$
 
 ## References
 
+The use of the Weil algebra in the calculation of the equivariant deRham cohomology of manifolds acted on by a compact group goes at least back to two papers by H. Cartan from 1950. These papers are reprinted, explained and put in a modern context in the book
+
+* Victor Guillemin, Shlomo Sternberg, _Supersymmetry and Equivariant de Rham Theory_, Springer, 1999.
+
+
 For the role played by the Weil algebra in the general context of higher [[Lie theory]] see
 
 * Hisham Sati, Urs Schreiber, Jim Stasheff, _$L_{\infty}$ algebra connections and applications to String- and Chern-Simons $n$-transport_ ([arXiv](http://arxiv.org/abs/0801.3480))
