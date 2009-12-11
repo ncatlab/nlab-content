@@ -3,11 +3,11 @@
 * automatic table of contents goes here
 {:toc}
 
-## Idea ##
+## Idea
 
 The [[Denis-Charles Cisinski|Cisinski]]--[[Ieke Moerdijk|Moerdijk]] [[model category]] structure on the [[category]] $dSet$ of [[dendroidal set]]s models [[(∞,1)-operad]]s in generalization of the way the [[Andre Joyal|Joyal]] [[model structure on simplicial sets]] models [[(∞,1)-category|(∞,1)-categories]].
 
-## Overview ##
+## Overview
 
 
 We have the following diagram of [[model category|model categories]]:
@@ -48,7 +48,7 @@ and where
 
 * the vertical morphisms are [[homotopy full functor|homotopy full]] embeddings.
 
-## Definition ##
+## Definition
 
 
 ### Special morphisms ###
@@ -109,7 +109,7 @@ A morphism $A \to B$ of dendroidal sets is an **acyclic fibration** if it has th
 
 
 
-### The model structure ###
+### The model structure
 
 A **quasi-operad** is a [[dendroidal set]] such that...
 
@@ -138,7 +138,7 @@ On the category of [[dendroidal set]]s let
 
 =--
 
-## Properties ##
+## Properties {#Properties}
 
 
 +-- {: .un_theorem }
@@ -192,8 +192,55 @@ This is cor. 6.17 in [CisMoe](http://arxiv.org/abs/0902.1954).
 
 =--
 
++-- {: .un_proposition }
+###### Proposition
 
 
-## References ##
+A morphism $j : X \to Y$ between cofibrant objects in $dSet$ is a weak equivalence precisely if for all fibrant objects $X$ the morphism 
+
+$$
+  \tau dSet(Y,A) \to \tau dSet(X,A)
+$$
+
+is an [[equivalence of categories]], where $\tau : SSet \to Cat$ is the [[left adjoint]] to the [[nerve]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is in section 8.4 of the lecture notes cited below.
+
+=--
+
+
++-- {: .un_proposition }
+###### Proposition
+**(compatibility with the Joyal model structure)**
+
+Let $|$ be the tree with a single leaf and no vertex. Then the [[overcategory]] $dSet/\Omega[|]$ is canonically isomorphic to [[SSet]].
+
+The model structure on [[SSet]] induced this way as the [[model structure on an overcategory]] from the model structure on $dSet$ coincides with the Joyal [[model structure on simplicial sets]] (the one whose fibrant objects are [[weak Kan complex]]es).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is for instance proposition 8.4.3 in the lecture notes cited below.
+=--
+
+## References
+
+
+A useful discussion of of the model structure on dendroidal sets is section 8 of
+
+* [[Ieke Moerdijk]], _Lectures on dendroidal sets_ , notes typed by Javier Guiti&#233;rrez on lectures given at the Barcelona workshop on _Homotopy theory and higher categories_ (2008) (to appear in print soon)
+
+The model structure was originally given in 
 
 * [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], _Dendroidal sets as models for homotopy operads_ ([arXiv](http://arxiv.org/abs/0902.1954))
+
+A detailed discussion of the finbrant objects in the model structure is in
+
+* [[Ieke Moerdijk]] [[Ittay Weiss]], _On inner Kan complexes in the category of dendroidal sets_ ([web](http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6W9F-4VM2KC8-1&_user=457046&_rdoc=1&_fmt=&_orig=search&_sort=d&_docanchor=&view=c&_searchStrId=1115574112&_rerunOrigin=google&_acct=C000021878&_version=1&_urlVersion=0&_userid=457046&md5=5eb2307e02ed1aa9e6fe2c7809346546))
