@@ -298,10 +298,16 @@ $$
   dSet(f,N_d(A))
   :
   dSet(Y,N_d(A)) \to 
-  (X,N_d(A))
+  dSet(X,N_d(A))
 $$
 
-being a weak equivalence. By the above $N_d(A)$ is fibrant. By section 8.4 of the lecture notes on dendroidal sets cited at [[model structure on dendroidal sets]] a morphism between cofibrant dendroidal sets is a weak equivalence precisely if homming it into any fibrant dendroidal set produces a weak equivalence. Since $f$ is a weak equivalence between cofibrant objects by assumption, it follows that indeed $dSet(f,N_d(A))$ is a weak equivalence for all fibrant $A$. Hence $C_f$ is a weak equivalence.
+being a weak equivalence. By the above $N_d(A)$ is fibrant. By section 8.4 of the lecture notes on dendroidal sets cited at [[model structure on dendroidal sets]] a morphism between cofibrant dendroidal sets is a weak equivalence precisely if homming it into any fibrant dendroidal set produces an equivalence of homotopy categories. 
+
+Since $f$ is a weak equivalence between cofibrant objects by assumption, it follows that indeed $dSet(f,N_d(A))$ is a weak equivalence for all fibrant $A$. 
+
+> (AHM, or does it? there is a prob here, but I need to run now...) 
+
+Hence $C_f$ is a weak equivalence.
 
 =--
 
