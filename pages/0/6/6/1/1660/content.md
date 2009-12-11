@@ -25,3 +25,6 @@ Note that you can make this definition work without previously assuming the exis
 ## Remarks
 
 Probably a lot to say about the relation between the various definitions of infinite set (the one above, the negations of the definitions of finite set, and others that might be studied).  In the meantime, try [the English Wikipedia](http://secure.wikimedia.org/wikipedia/en/wiki/Dedekind-infinite_set).
+
+
+[[!redirects infinite sets]]
