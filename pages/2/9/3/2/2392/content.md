@@ -20,7 +20,7 @@ So, roughly, an $(\infty,1)$-operad is an algebraic structure that has for each 
 
 ## Definitions
 
-Two models for $(\infty,1)$-operads exist to date, one by [[Denis-Charles Cisinski|Cisinski]]-[[Ieke Moerdijk|Moerdijk]]-[[Ittay Weiss|Weiss]], the other by [[Jacob Lurie|Lurie]].
+Two models for $(\infty,1)$-operads exist to date, one by [[Denis-Charles Cisinski|Cisinski]]--[[Ieke Moerdijk|Moerdijk]]--[[Ittay Weiss|Weiss]], the other by [[Jacob Lurie|Lurie]].
 
 The first one models $(\infty,1)$-operads as [[dendroidal set]]s in close analogy to (in fact as a generalization of how) [[simplicial set]]s model [[(∞,1)-category|(∞,1)-categories]].
 
@@ -118,7 +118,7 @@ This is prop 1.8 4 in
 
 +-- {: .standout}
 
-At the time of this writing there is no discussion in "the literature" of the relation between the definition of $(\infty,1)$-operads in terms of dendroidal sets (Cisinski,  Moerdijk, Weiss) and $(\infty,1)$-categories of operators (Lurie). The following are some tentative observations. - [[Urs Schreiber|Urs]]
+At the time of this writing there is no discussion in "the literature" of the relation between the definition of $(\infty,1)$-operads in terms of dendroidal sets (Cisinski, Moerdijk, Weiss) and $(\infty,1)$-categories of operators (Lurie). The following are some tentative observations. - [[Urs Schreiber|Urs]]
 
 =--
 
