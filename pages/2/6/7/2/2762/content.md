@@ -58,7 +58,7 @@ This are the entries on the previous sessions:
 {:toc}
 
 
-## Motivation and Statement ##
+## Motivation and Statement
 
 In  the context of [[elliptic cohomology]] one assigns to every [[elliptic curve]] $\phi$ over a [[ring]] $R$ a [[cohomology theory]] [[Brown representability theorem|represented]] by an [[E-∞ ring]] [[spectrum]] $E_\phi$.
 
@@ -98,7 +98,7 @@ is equivalent to the space of [[derived elliptic curve]]s over $R$.
 After we have looked at some concepts in [[higher geometry]] a bit more closely below, we will restate this in slightly nicer fashion.
 
 
-## References ##
+## References 
 
 A sketch of what this theorem means and how it is proven is part of the content of 
 
@@ -119,7 +119,7 @@ and isn't available yet. On the other hand, the general theory of [[E-∞ ring]]
 * [[Jacob Lurie]], [[higher algebra|Commutative geometry]].
 
 
-## Notions of Space  ##
+## Notions of Space {#NotionsOfSpace}
 
 The statement that we are after really lives in the context of [[higher geometry]] (often called "derived geometry"). Here is an outline of the central aspects. 
 
@@ -195,7 +195,7 @@ $$
 We explain what this means from right to left.
 
 
-### spaces probeable by model spaces: $\infty$-stacks ###
+### spaces probeable by model spaces: $\infty$-stacks
 
 An object $X$ _probeable_ by objects of $\mathcal{G}$ should come with an assignment
 
@@ -259,7 +259,7 @@ This discussion here is glossing over all set-theoretic size issues. See [[Struc
 
 =--
 
-### concrete spaces co-probeable by model spaces: structured $(\infty,1)$-toposes ###
+### concrete spaces co-probeable by model spaces: structured $(\infty,1)$-toposes 
 
 Spaces probeable by $\mathcal{G}$ in the above sense can be very general. They need not even have a _concrete underlying space_ , even for general definitions of what _that_ might mean.
 
@@ -426,7 +426,7 @@ For every $U \in \mathcal{G}$ the pair $(Spec U, \mathcal{O}_{Spec U})$ is indee
 
 
 
-### spaces locally like model spaces: generalized schemes ###
+### Spaces locally like model spaces: generalized schemes 
 
 We have seen that $\mathcal{G}$-[[structured (∞,1)-topos]]es are those general spaces modeled on $\mathcal{G}$ that are well-behaved in that at least they do have an "underlying topological structure" in the form of an underlying [[(∞,1)-topos]]. But such concrete spaces may still be very different from the model objects in $\mathcal{G}$.
 
@@ -487,11 +487,11 @@ A [[structured (∞,1)-topos]] $(\mathcal{X}, \mathcal{O})$ is a **$\mathcal{G}$
 
 
 
-## the derived moduli space of elliptic curves ##
+## The derived moduli space of elliptic curves 
 
 With the above machinery for [[higher geometry]] in hand, we now set out to describe the particular application that we are interested in: the study of the derived [[moduli stack]] of [[derived elliptic curve]]s.
 
-### derived elliptic curves ###
+### Derived elliptic curves 
 
 
 * [[derived elliptic curve]]
@@ -500,7 +500,7 @@ $$
   A \mapsto E(A)
 $$
 
-### the derived moduli stack ###
+### The derived moduli stack 
 
 Lurie's discussion of the derived moduli stack $(\mathcal{M}_{1,1}, \mathcal{O}^{Der})$  is more than a re-interpretation of the Goerss-Miller-Hopkins theorem. It is in particular a re-derivation of this result, from the following perspective
 
