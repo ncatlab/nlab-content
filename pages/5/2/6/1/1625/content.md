@@ -351,7 +351,7 @@ to the circle $B$ assigns $Q$
 
 detailed notes with further links and backgeound information are here:
 
-* [[schreiber: Background fields in twisted differential nonabelian cohomology]]
+* [[schreiber:Background fields in twisted differential nonabelian cohomology]]
 
 The point of this is to define a notion of twisted differential nonabelian cohomology for every fibration sequence of smooth $\infty$-groupoids and then establish from that the following list of examples.
 
