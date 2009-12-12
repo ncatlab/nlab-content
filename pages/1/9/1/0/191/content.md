@@ -1,3 +1,2 @@
-See [[2-morphism]].
-
-category: delete
+&lt; [[2-morphisms]]
+[[!redirects 2-morphisms -- history]]
