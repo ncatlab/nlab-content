@@ -1,2 +1,2 @@
-&lt; [[BV theory]]
+&lt; [[BV-theory]]
 [[!redirects BV-theory -- history]]
