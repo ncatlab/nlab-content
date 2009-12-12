@@ -1,3 +1,2 @@
-See [[Hans-Joachim Baues]].
-
-category: redirect
+&lt; [[Baues]]
+[[!redirects Baues -- history]]
