@@ -1,3 +1,2 @@
-See [[A-infinity-category]].
-
-category: redirect
+&lt; [[A-infinity category]]
+[[!redirects A-infinity category -- history]]
