@@ -19,7 +19,7 @@ A Lie $\infty$-algebroid $g$ over a manifold $X_0$ is the following data:
 
 * A commutative algebra $A_0$, thought of as the ring of functions on a manifold $X_0$.
 
-* a non-positively graded complex $g$ of (finitely generated projective) $A$-modules
+* a non-positively graded complex $g$ of (finitely generated projective) $A_0$-modules
 $$
 \dots \to g_{-n}\to g_{-n+1} \to \dots \to g_0.
 $$
@@ -35,7 +35,7 @@ Notice that the first few terms of $\wedge^\bullet g^*$ in degree 0, 1 and 2, re
 $$
   \wedge^\bullet g^*
   =
-  A \oplus g_0^*[1] \oplus  (g_0^*[1]\wedge g_0^*[1])
+  A_0 \oplus g_0^*[1] \oplus  (g_0^*[1]\wedge g_0^*[1])
   \oplus g_{-1}^*[1] \oplus \cdots
   \,.
 $$
