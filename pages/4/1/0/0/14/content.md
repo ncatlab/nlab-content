@@ -47,7 +47,7 @@ There are three things to say about this that are worth making very clear.
 
 The $n$Lab is not a community project set up for the education and improvement of Humanity.  It originally grew out of the [The $n$-Category Caf&#233;](http://golem.ph.utexas.edu/category/) and the loose-knit community surrounding that blog.  It is not possible to give a precise description of who is in that community, and the community involved in the $n$Lab has itself evolved from that starting point.  Moreover, even if it were possible to describe that community we would not wish to.  We are not a closed group, we are always keen for others to join us.  The two simple rules are:
 
-1. To join, you need to be willing to interact with the group and material already present.  Specifically: is there something already on the $n$Lab that you are interested in and is there someone already working in the $n$Lab that you would like to talk to about it?
+1. To join, you need to be willing to interact with the group and material already present. And with the [[nPOV|n-point of view]].  Specifically: is there something already on the $n$Lab that you are interested in and is there someone already working in the $n$Lab that you would like to talk to about it?
 2. We will ask you to leave if what you are doing has little connection with what the rest of the group is doing and if it is interfering with others trying to do their work.
 
 #In Practice?#
