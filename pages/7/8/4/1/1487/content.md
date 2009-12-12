@@ -1,5 +1,3 @@
-See [[(infinity,0)-category]].
-
-category: redirect
-
+&lt; [[(∞,0)-category]]
 [[!redirects (∞,0)-category/history]]
+[[!redirects (∞,0)-category -- history]]
