@@ -13,3 +13,5 @@ An **algebra over an [[operad]]** is the single [[hom-object]] of a [[category o
 
 
 [[!redirects algebra over operad]]
+[[!redirects algebra for an operad]]
+[[!redirects algebra of an operad]]
