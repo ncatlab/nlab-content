@@ -1,3 +1,2 @@
-See [[classifying topos]].
-
-category: redirect
+&lt; [[Another page]]
+[[!redirects Another page -- history]]
