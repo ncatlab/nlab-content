@@ -1,3 +1,2 @@
-See [[homotopy 2-type]].
-
-category: redirect
+&lt; [[2-type]]
+[[!redirects 2-type -- history]]
