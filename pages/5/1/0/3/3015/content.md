@@ -12,7 +12,13 @@ A structured set is, of course, a [[set]] equipped with extra [[structure]].  It
 
 ### Abstract
 
-Very abstractly, we may define a __structured set__ as an [[object]] of any [[concrete category]], that is an object of any category $C$ equipped with a [[faithful functor]] $U\: C \to Set$ to the [[category of sets]].  Given two structured sets $X$ and $Y$ (in the same category $C$), a [[function]] $f\colon U(X) \to U(Y)$ between their underlying sets __preserves__ the structure if it lies in the image of $U$, that is if there exists a (necessarily unique since $U$ is faithful) [[morphism]] $\tilde{f}\colon X \to Y$ in $C$ such that $U(\tilde{f}) = f$.
+Very abstractly, we may define a __structured set__ as an [[object]] of any [[concrete category]], that is an object of any category $C$ equipped with a [[faithful functor]] $U\: C \to Set$ to the [[category of sets]].
+
++--{: .query}
+[[Mike Shulman]]: You realize, of course, that that is not the definition given at [[concrete category]].  I myself would prefer that "a faithful functor to Set" be the definition of "concrete category," with the extra representability condition described by an additional adjective such as, oh, I don't know, "representable" or "admitting a free object on 1."  But whatever we use, it would be better to be consistent.
+=--
+
+Given two structured sets $X$ and $Y$ (in the same category $C$), a [[function]] $f\colon U(X) \to U(Y)$ between their underlying sets __preserves__ the structure if it lies in the image of $U$, that is if there exists a (necessarily unique since $U$ is faithful) [[morphism]] $\tilde{f}\colon X \to Y$ in $C$ such that $U(\tilde{f}) = f$.
 
 
 ### Concrete
