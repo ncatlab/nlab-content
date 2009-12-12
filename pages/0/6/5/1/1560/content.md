@@ -1,3 +1,2 @@
-See [[(infinity,n)-category]].
-
-category: delete
+&lt; [[(infinity,r)-category]]
+[[!redirects (infinity,r)-category -- history]]
