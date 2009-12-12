@@ -1,3 +1,2 @@
-See [[AnonymousCoward]].
-
-category: delete
+&lt; [[Anonymous Hero]]
+[[!redirects Anonymous Hero -- history]]
