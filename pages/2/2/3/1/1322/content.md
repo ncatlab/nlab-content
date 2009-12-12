@@ -1,3 +1,2 @@
-See [[A-infinity-operad]].
-
-category: redirect
+&lt; [[A-infinity operad]]
+[[!redirects A-infinity operad -- history]]
