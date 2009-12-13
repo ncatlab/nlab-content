@@ -1,3 +1,2 @@
-See [[L-infinity-algebra]].
-
-category: delete
+&lt; [[Lie infinity-algebra]]
+[[!redirects Lie infinity-algebra -- history]]
