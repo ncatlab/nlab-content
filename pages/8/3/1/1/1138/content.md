@@ -248,3 +248,4 @@ For the description in terms of pullback of etale spaces see secton VII.1 of
 
 
 [[!redirects inverse images]]
+[[!redirects inverse image functor]]
