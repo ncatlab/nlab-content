@@ -161,7 +161,7 @@ In this talk, Alex Kahle described results from his thesis work (his supervisor 
 
 #### [[Chris Schommer-Pries]], _Topological defects, $D$-branes, and the classifications of TFTs in low dimensions_. {#schommer-pries}
 
-Chris explained his classification result mentioned at [[(infinity,n)-category of cobordisms]] from his thesis of extended (he suggested calling them _local_) 2d TQFT's via the explicit generators and relations he obtained on $2Cob$. He also showed how the [[higher category theory|higher-categorical viewpoint]] unites the following two ideas: the 'open-closed' theories and the 'field theories with defects' from Ingo Runkel and Christoph Schweigert's talk. He showed how both these concepts are particular examples of a single notion, namely that of a collection of natural transformations between a restriction of [[FTQFt]] $n$-functors (called "unnatural" or "supernatural" transformations to indicate that it is a transformation not of the entire functor, but just of its restriction to the 2-category of 2-manifolds with only inverttible 2-morphisms). 
+Chris explained his classification result mentioned at [[(infinity,n)-category of cobordisms]] from his thesis of extended (he suggested calling them _local_) 2d TQFT's via the explicit generators and relations he obtained on $2Cob$. He also showed how the [[higher category theory|higher-categorical viewpoint]] unites the following two ideas: the 'open-closed' theories and the 'field theories with defects' from Ingo Runkel and Christoph Schweigert's talk. He showed how both these concepts are particular examples of a single notion, namely that of a collection of natural transformations between a restriction of [[FTQFT]] $n$-functors (called "unnatural" or "supernatural" transformations to indicate that it is a transformation not of the entire functor, but just of its restriction to the 2-category of 2-manifolds with only inverttible 2-morphisms). 
 
 This is precisely the kind of viewpoint that Urs Schreiber and Jens Fjelstad [suggested](http://golem.ph.utexas.edu/category/2007/08/dbranes_from_tin_cans_part_x.html) at the [n-category cafe](http://golem.ph.utexas.edu/category/) under the slogal [D-branes from tin-cans](http://golem.ph.utexas.edu/category/2006/10/dbranes_from_tin_cans_arrow_th.html) (a D-[[brane]] is a boundary condition ordefect, a "tin-can diagram" is the naturality diagram for a higher natural transformation).
 
@@ -184,7 +184,7 @@ involving a certain normal bundle and the 'Bott element in K-theory', which look
 
 * [[oberwolfach_june2009_freed.pdf|Notes by Bruce Bartlett:file]]
 
-* [Notes by Gabriel Drummond-Cole](http://www.math.sunysb.edu/~blafard/tex/sum09/ow_june_08.pdf)
+* [Notes by Gabriel Drummond-Cole](http://www.math.sunysb.edu/~blafard/tex/sum09/ow_june_8.pdf)
 
 * [[Oberwolfach Workshop, June 2009 -- Monday, June 8|Notes by Urs Schreiber]])
 
@@ -230,7 +230,7 @@ What can I ([[Bruce Bartlett|Bruce]]) say about Urs's talk? Many mere mortals mi
 
 * [Notes by Gabriel Drummond-Cole](http://www.math.sunysb.edu/~blafard/tex/sum09/ow_june_11.pdf)
 
-* Urs's personal nLab write-up on [[schreiber:Background fields in twisted differential nonabelian cohomol|Background fields in twisted differential nonabelian cohomology]]
+* Urs's personal nLab write-up on [[schreiber:Background fields in twisted differential nonabelian cohomology|Background fields in twisted differential nonabelian cohomology]]
 
 
 #### Andr&#233; Henriques, _Invertible conformal nets_. {#henriques}
@@ -321,7 +321,7 @@ Mike Hopkins gave a nice story of the history and origins of the [[Kervaire inva
 
 * [Notes by Gabriel Drummond-Cole](http://www.math.sunysb.edu/~blafard/tex/sum09/ow_june_12.pdf)
 
-* Andrew Ranicki's [http://www.maths.ed.ac.uk/~aar/exotic.htm](webpage) on exotic spheres 
+* Andrew Ranicki's [webpage](http://www.maths.ed.ac.uk/~aar/exotic.htm) on exotic spheres 
 
 * Douglas Ravenel's [webpage](http://www.math.rochester.edu/u/faculty/doug/).
 
