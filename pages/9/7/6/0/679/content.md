@@ -1,3 +1,2 @@
-See [[SimpSet]].
-
-category: redirect
+&lt; [[SSet]]
+[[!redirects SSet -- history]]
