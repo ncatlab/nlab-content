@@ -1,3 +1,2 @@
-See [[sheaf and topos theory]].
-
-category: redirect
+&lt; [[Sheaf and Topos Theory]]
+[[!redirects Sheaf and Topos Theory -- history]]
