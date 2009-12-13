@@ -1,5 +1,3 @@
-See [[strict omega-groupoid]].
-
-category: redirect
-
+&lt; [[strict ∞-groupoid]]
 [[!redirects strict ∞-groupoid/history]]
+[[!redirects strict ∞-groupoid -- history]]
