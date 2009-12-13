@@ -1,3 +1,2 @@
-See [[algebraic space]].
-
-category: redirect
+&lt; [[algebraic spaces]]
+[[!redirects algebraic spaces -- history]]
