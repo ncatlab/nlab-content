@@ -9,7 +9,7 @@ An **algebraic stack** denotes either a [[Deligne-Mumford stack]] or a more gene
 
 #Definition#
 
-An algebraic stack $X$ is required to have an atlas $A\to X$ from an algebraic space (or in a stronger version a [[scheme]]) $A$; the morphisms of the cover are required to be
+An algebraic stack $X$ is required to have an atlas $A\to X$ from an [[algebraic space]] (or in a stronger version a [[scheme]]) $A$; the morphisms of the cover are required to be
 
 * surjective representable and &#233;tale (for a [[Deligne-Mumford stack]]);
 
@@ -54,3 +54,6 @@ A noncommutative generalization for [[Q-category|Q-categories]] instead of [[Gro
 For the topological variant, see [[topological stack]]s and references therein; and for differentiable stacks 
 
 * Kai Behrend, Ping Xu, [Differentiable Stacks and Gerbes](http://front.math.ucdavis.edu/0605.5694)
+
+
+[[!redirects algebraic stacks]]
