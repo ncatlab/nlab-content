@@ -1,4 +1,1 @@
-[[!redirects nitwitta]]
-
-
-category: meta
+&lt; [[nincompoops]]
