@@ -1,3 +1,2 @@
-See [[philosophy]].
-
-category: redirect
+&lt; [[Philosophy]]
+[[!redirects Philosophy -- history]]
