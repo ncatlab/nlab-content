@@ -1,10 +1,16 @@
-# Idea #
+# Weak homotopy equivalences
+* tic
+{: toc}
+
+
+## Idea
 
 There are (at least) two notions of equivalence in [[homotopy theory]].  _Weak homotopy equivalence_ is 'observational', i.e., $f: X \to Y$ is a w.h.e. if when we look at it through the observations that we can make of it using [[homotopy group]]s or even the [[fundamental infinity-groupoid]], it looks to be an equivalence.   In contrast, [[homotopy equivalence]] is more 'constructive'; $f$ is a h.e. if there exists an inverse for it (up to homotopy, of course).  Note that both of these notions are weaker than mere [[isomorphism]] of topological spaces (homeomorphism) and so can be considered examples of [[weak equivalence]]s.
 
 There are actually two related concepts here: whether two spaces are weakly homotopy equivalent and whether a map between spaces is a weak homotopy equivalence.  The former is usually defined in terms of the latter.
 
-# Definition for topological spaces #
+
+## Definition for topological spaces
 
 A **weak homotopy equivalence** between [[topological space]]s is a continuous map which induces [[isomorphism]]s on all [[homotopy group]]s.  More precisely, $f:X\to Y$ is a weak homotopy equivalence if
 1. $f$ induces an isomorphism $f_*:\Pi_0(X)\to \Pi_0(Y)$ of sets of [[path component]]s, and
@@ -18,7 +24,8 @@ The existence of a weak homotopy equivalence from $X$ to $Y$ is a reflexive and 
 
 Since the the existence of a weak homotopy equivalence is reflexive and transitive but not [[symmetric relation|symmetric]], we can state this explicitly as follows: there exists a [[zigzag]] of weak homotopy equivalences $X \leftarrow \to\leftarrow \dots \to Y$.  This is equivalent to saying that $X$ and $Y$ become [[isomorphism|isomorphic]] in the [[homotopy category]] of topological spaces with the weak homotopy equivalences inverted.
 
-# Properties #
+
+## Properties
 
 Any [[homotopy equivalence]] is a weak homotopy equivalence.  It requires a little bit of thought to prove this, because $f$ and its homotopy inverse $g$ need not preserve any chosen basepoint.  But for any $x\in X$ and any $n\ge 1$, we have a diagram
 $$\array{\pi_n(X,x) & & \to & & \pi_n(X,g(f(x)))\\
@@ -30,7 +37,8 @@ Conversely, any weak homotopy equivalence between [[m-cofibrant space]]s (spaces
 
 Weak homotopy equivalences are the [[weak equivalence]]s in the classical "Quillen" [[model structure on topological spaces]], and also in the "mixed" model structure.
 
-# Other types of weak homotopy equivalence #
+
+## Other types of weak homotopy equivalence
 
 A map of [[simplicial set]]s is called a weak homotopy equivalence if its [[geometric realization]] is a weak homotopy equivalence of topological spaces, as above.  (Since the geometric realization of any simpicial set is a CW complex, in this case its geometric realization is actually a homotopy equivalence.)  These are the weak equivalences in the classical [[model structure on simplicial sets]].
 
@@ -53,7 +61,6 @@ I like to think of 'weak homotopy equivalence' as being 'observational', i.e. $f
 
 With the constructive logical side of the nLab becoming important is there some point in looking at this 'constructive' homotopy theory as a counter balance to the model category approach which can tend to be very demanding on the set theory it calls on?   
 
-
 On a niggly point, the homotopy group of a space is only defined if the space is non-empty so one of the statements in this entry is pedantically a bit dodgy! 
 
 _Toby_:  I would say that it has a homotopy group at every point, and this is true even if it is empty.  You can only pretend that it has a homotopy group, period, if it\'s inhabited and path-connected.
@@ -65,5 +72,7 @@ Anyway, how do you like the introduction now?  You could add a more extensive Hi
 With all these entries I suspect that in a few months time we will feel they need some tender loving care, a bit of Bonsai pruning!! For the moment lets get on to more interesting things.  
 
 Do you think some light treatment of simple homotopy theory might be useful,say at a historical level?
-
 =--
+
+
+[[!redirects weak homotopy equivalences]]
