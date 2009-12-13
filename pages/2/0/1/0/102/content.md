@@ -1,3 +1,2 @@
-See [[homological resolution]].
-
-category: delete
+&lt; [[weak quotient]]
+[[!redirects weak quotient -- history]]
