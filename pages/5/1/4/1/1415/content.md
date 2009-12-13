@@ -15,7 +15,7 @@ Testing tikzpicture to svg capability.
 
 ###### Timestamp: 2009-05-08 ######
 
-(removed; see [revision 10](http://ncatlab.org/nlab/revision/SVG+Sandbox/10))
+(removed; see [revision 10](http://ncatlab.org/nlab/revision/Sandbox+>+SVG/10))
 
 Not bad!  Thanks to Jacques, the sphere is fine now.  This picture is probably a little too big to leave in the sandbox so I'll remove it soon - just want to show off a little first!  For the original, see [Comparative Smootheology at Ottawa](http://www.math.ntnu.no/~stacey/Seminars/ottawa.html).
 
@@ -60,14 +60,14 @@ Doing a quick LaTeX -> Inkscape -> SVG -> nLab test [[Bruce Bartlett]]:
 
 ###### Timestamp: 2009-05-08 ######
 
-(removed; see [revision 10](http://ncatlab.org/nlab/revision/SVG+Sandbox/10))
+(removed; see [revision 10](http://ncatlab.org/nlab/revision/Sandbox+>+SVG/10))
 
 As you can see, the trouble with this method is that Inkscape is exporting the text as spline primitives... which takes up way too much space. I guess that just returns to the old problem: you can't mix MathML and SVG. Now I remember (I _knew_ there was some kind of nasty problem with this MathML, SVG and Instiki thing... and now 
 I remember).  [[Bruce Bartlett]]
 
 Ok, I'm giving it another go. Now I'm trying Andrew's method --- you do a diagram:
 
-(removed; see [revision 10](http://ncatlab.org/nlab/revision/SVG+Sandbox/10)) 
+(removed; see [revision 10](http://ncatlab.org/nlab/revision/Sandbox+>+SVG/10)) 
 
 
 _Mike_: Here is a little diagram produced from the following TikZ code:
@@ -84,7 +84,7 @@ _Mike_: Here is a little diagram produced from the following TikZ code:
 
 run through htlatex, and with the `<tspan>`s then manually replaced by the appropriate foreignObject tags:
 
-(removed; see [revision 10](http://ncatlab.org/nlab/revision/SVG+Sandbox/10)) 
+(removed; see [revision 10](http://ncatlab.org/nlab/revision/Sandbox+>+SVG/10)) 
 
 _Bruce_ : Hey, this is great Mike! For anyone reading this thread, who wants to contribute, don't forget about the [nForum](http://www.math.ntnu.no/~stacey/Vanilla/nForum/comments.php?DiscussionID=20&page=1#Comment_95) page where we are discussing this stuff. 
 
@@ -94,11 +94,11 @@ _Toby_:  Here\'s the diagram again, but *without* the SVG code in the edit box, 
 
 (This is included from the new [[Inclusion Sandbox]].)
 
-_Bruce_: The files I received from Olivier Binda, which includes a nice comprehensive test suite of how his patch to htlatex (which changes ordinary text in SVG into foreignobject tags) performs, are available here: [[LD@Svg@Tests_files.zip]]
+_Bruce_: The files I received from Olivier Binda, which includes a nice comprehensive test suite of how his patch to htlatex (which changes ordinary text in SVG into foreignobject tags) performs, are available here: [[LD_Svg_Tests_files.zip|LD@Svg@Tests_files:file]]
 
 These three diagrams are testing re-use of SVG code.  The arrowheads are reused from diagram to diagram.  The first picture defines the arrowhead once and then reuses it for each of the arrows.  The second picture does not define the arrowhead so must get it from the first picture.  The third picture also does not define the arrowhead but refers to the arrowhead from the picture in the [[Inclusion Sandbox]].  As can be seen, it works.  One thing to test would be to have different arrowheads here and in the [[Inclusion Sandbox]] but with the same name and see which one gets used (my guess would be the definition closest above where it is used).
 
-(removed; see [revision 12](http://ncatlab.org/nlab/revision/SVG+Sandbox/12)) 
+(removed; see [revision 12](http://ncatlab.org/nlab/revision/Sandbox+>+SVG/12)) 
 
 Given that inclusions and references seem to work fine, it seems a reasonable idea to have a list of "standard" arrowheads.  Here's one such, loosely based on the types of arrowhead that the xy package considers as standard.
 
@@ -263,4 +263,7 @@ $$
 \mathfrak{B}
 $$
 
+
 category: meta
+
+[[!redirects SVG Sandbox]]
