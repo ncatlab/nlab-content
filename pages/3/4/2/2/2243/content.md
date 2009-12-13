@@ -45,7 +45,7 @@
 
     * [[Fivebrane structure]]
 
-* [[Cech cohomology]]
+* [[?ech cohomology]]
 
 ### variants ###
 
