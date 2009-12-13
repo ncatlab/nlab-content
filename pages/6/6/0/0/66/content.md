@@ -1,3 +1,2 @@
-See [[homotopy theory]].
-
-category: redirect
+&lt; [[Homotopy Theory]]
+[[!redirects Homotopy Theory -- history]]
