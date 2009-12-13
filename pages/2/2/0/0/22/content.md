@@ -1,3 +1,2 @@
-See [[Lie theory]].
-
-category: redirect
+&lt; [[Lie Theory]]
+[[!redirects Lie Theory -- history]]
