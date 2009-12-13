@@ -13,6 +13,7 @@
 * [[Community]]
 
   * [[HomePage|Home]]
+  * [[Contributors]]
   * [[HowTo|HowTo]]
   * [[FAQ|FAQ]]
   * [Latest Changes](http://www.math.ntnu.no/~stacey/Vanilla/nForum/?CategoryID=5)
