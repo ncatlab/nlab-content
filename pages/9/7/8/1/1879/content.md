@@ -1,3 +1,2 @@
-See [[locally presentable category]].
-
-category: redirect
+&lt; [[presentable category]]
+[[!redirects presentable category -- history]]
