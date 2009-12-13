@@ -1,5 +1,3 @@
-See [[category of elements]].
-
-category: redirect
-
+&lt; [[Exploding a Category]]
 [[!redirects Exploding a Category/history]]
+[[!redirects Exploding a Category -- history]]
