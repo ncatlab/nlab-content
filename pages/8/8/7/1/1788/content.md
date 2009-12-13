@@ -30,6 +30,7 @@ $\sslash$
 category: meta
 
 [[!redirects Symbol Sandbox]]
+[[!redirects sandbox905234]]
 [[!redirects testing]]
 [[!redirects tester]]
 [[!redirects test]]
@@ -39,3 +40,8 @@ category: meta
 [[!redirects foobar]]
 [[!redirects bink]]
 [[!redirects bar]]
+[[!redirects nitwit]]
+[[!redirects nitwits]]
+[[!redirects nitwitta]]
+[[!redirects nincompoops]]
+[[!redirects שנה טובה]]
