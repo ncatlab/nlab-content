@@ -1,3 +1,2 @@
-See [[co-Yoneda lemma]].
-
-category: redirect
+&lt; [[Coyoneda lemma]]
+[[!redirects Coyoneda lemma -- history]]
