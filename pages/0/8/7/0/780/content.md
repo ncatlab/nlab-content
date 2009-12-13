@@ -1,3 +1,2 @@
-See [[Alexander Grothendieck]].
-
-category: redirect
+&lt; [[Grothendieck]]
+[[!redirects Grothendieck -- history]]
