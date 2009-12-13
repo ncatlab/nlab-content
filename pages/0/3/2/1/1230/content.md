@@ -1,3 +1,2 @@
-See [[n-fibration]].
-
-category: redirect
+&lt; [[fibered n category]]
+[[!redirects fibered n category -- history]]
