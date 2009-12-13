@@ -1,3 +1,2 @@
-See [[inductive limit]].
-
-category: redirect
+&lt; [[inductive limit]]
+[[!redirects inductive limit -- history]]
