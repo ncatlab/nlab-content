@@ -1,3 +1,2 @@
-See [[Mike Shulman]].
-
-category: delete
+&lt; [[MikeShulman]]
+[[!redirects MikeShulman -- history]]
