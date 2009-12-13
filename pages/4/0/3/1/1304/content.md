@@ -1,3 +1,2 @@
-See [[subcanonical coverage]].
-
-category: redirect
+&lt; [[subcanonical pretopology]]
+[[!redirects subcanonical pretopology -- history]]
