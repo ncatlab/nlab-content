@@ -1,3 +1,2 @@
-See [[Pursuing Stacks]].
-
-category: redirect
+&lt; [[Pursuing stacks]]
+[[!redirects Pursuing stacks -- history]]
