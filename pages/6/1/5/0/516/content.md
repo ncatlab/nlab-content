@@ -1,3 +1,2 @@
-See [[Peter May]].
-
-category: delete
+&lt; [[May]]
+[[!redirects May -- history]]
