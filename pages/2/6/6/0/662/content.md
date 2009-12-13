@@ -1,3 +1,2 @@
-See [[Gray-category]].
-
-category: redirect
+&lt; [[Gray category]]
+[[!redirects Gray category -- history]]
