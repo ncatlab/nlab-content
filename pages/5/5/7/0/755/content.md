@@ -8,7 +8,7 @@ The manuscript starts with a letter to [[Daniel Quillen]], and then proceeds as 
 
 The themes and ideas, especially those pertaining to the homotopy theory of diagrams, were further developed in [[Les Derivateurs]]. 
 
-To some extent the crux of the explicit link with [[stacks]] is described earlier in three letters from Grothendieck to Breen in 1975. (A commented version of these, other correspondence and the manuscipt (in LaTeX) is being prepared for publication shortly. Much of the material is being colleced by the [Grothendeick circle](http://www.grothendieckcircle.org/))
+To some extent the crux of the explicit link with [[stacks]] is described earlier in three letters from Grothendieck to Breen in 1975. (A commented version of these, other correspondence and the manuscipt (in LaTeX) is being prepared for publication shortly. Much of the material is being collected by the [Grothendeick circle](http://www.grothendieckcircle.org/))
 
 
 category: reference
