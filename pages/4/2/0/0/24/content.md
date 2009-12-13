@@ -1,3 +1,2 @@
-See [[Lie groupoid]].
-
-category: redirect
+&lt; [[Lie groupoids]]
+[[!redirects Lie groupoids -- history]]
