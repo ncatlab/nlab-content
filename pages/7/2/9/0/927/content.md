@@ -1,3 +1,2 @@
-See [[Postnikov system]].
-
-category: delete
+&lt; [[Postnikov tower]]
+[[!redirects Postnikov tower -- history]]
