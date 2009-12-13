@@ -1,5 +1,3 @@
-See [[Frechet-Uryson space]].
-
-category: redirect
-
+&lt; [[Frechet-Uryson space]]
 [[!redirects Frechet-Uryson space  -- history]]
+[[!redirects Frechet-Uryson space -- history]]
