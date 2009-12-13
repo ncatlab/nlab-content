@@ -1,3 +1,2 @@
-see [[Courant algebroid]].
-
-category: redirect
+&lt; [[Courant Lie algebroid]]
+[[!redirects Courant Lie algebroid -- history]]
