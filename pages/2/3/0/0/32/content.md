@@ -1,3 +1,2 @@
-See [[Lie algebra]].
-
-category: redirect
+&lt; [[Lie algebras]]
+[[!redirects Lie algebras -- history]]
