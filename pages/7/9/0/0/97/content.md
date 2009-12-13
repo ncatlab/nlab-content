@@ -1,3 +1,2 @@
-See [[Chevalley-Eilenberg algebra]].
-
-category: redirect
+&lt; [[Chevalley–Eilenberg algebra]]
+[[!redirects Chevalley–Eilenberg algebra -- history]]
