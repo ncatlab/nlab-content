@@ -1,3 +1,2 @@
-See [[Tim Porter]].
-
-category: redirect
+&lt; [[Timothy Porter]]
+[[!redirects Timothy Porter -- history]]
