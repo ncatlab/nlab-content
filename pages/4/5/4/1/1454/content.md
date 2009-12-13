@@ -1,3 +1,2 @@
-See [[algebra for an endofunctor]].
-
-category: delete
+&lt; [[algebra of an endofunctor]]
+[[!redirects algebra of an endofunctor -- history]]
