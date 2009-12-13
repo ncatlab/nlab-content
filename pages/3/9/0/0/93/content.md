@@ -1,3 +1,2 @@
-See [[homological resolution]].
-
-category: redirect
+&lt; [[Homological resolution]]
+[[!redirects Homological resolution -- history]]
