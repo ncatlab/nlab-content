@@ -1,3 +1,2 @@
-See [[horizontal categorification]].
-
-category: delete
+&lt; [[Oidification]]
+[[!redirects Oidification -- history]]
