@@ -1,3 +1,1 @@
-See [[Toby Bartels]].
-
-category: redirect
+&lt; [[Toby Bartels]]
