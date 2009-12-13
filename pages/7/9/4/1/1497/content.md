@@ -1,3 +1,2 @@
-See [[pivotal symbols]].
-
-category: redirect
+&lt; [[Pivotal symbols]]
+[[!redirects Pivotal symbols -- history]]
