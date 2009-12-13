@@ -1,3 +1,2 @@
-See [[homotopy coherent nerve]].
-
-category: redirect
+&lt; [[simplicial nerve of simplicial categories]]
+[[!redirects simplicial nerve of simplicial categories -- history]]
