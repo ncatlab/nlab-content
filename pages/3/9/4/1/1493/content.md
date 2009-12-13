@@ -1,5 +1,3 @@
-See [[omega-category]].
-
-category: redirect
-
+&lt; [[∞-category]]
 [[!redirects ∞-category/history]]
+[[!redirects ∞-category -- history]]
