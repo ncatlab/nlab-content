@@ -1,3 +1,2 @@
-See [[homotopical cohomology theory]].
-
-category: redirect
+&lt; [[Homotopical cohomology theory]]
+[[!redirects Homotopical cohomology theory -- history]]
