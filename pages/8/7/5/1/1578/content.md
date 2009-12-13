@@ -1,2 +1,1 @@
-category: delete
-[[!redirects baz]]
+&lt; [[Sandbox]]
