@@ -24,3 +24,7 @@ More generally, the right adjoint part of any [[geometric morphism]] is called i
 * The [[adjoint functor|left adjoint]] to the direct image is the [[inverse image]] functor.
 
 * The [[adjoint functor|right adjoint]] to the direct image functor, if it exists, is the [[restriction and extension of sheaves|extension]] operation on (pre)sheaves.
+
+
+[[!redirects direct images]]
+[[!redirects direct image functor]]
