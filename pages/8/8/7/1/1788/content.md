@@ -26,6 +26,16 @@ S&#711;evera
 
 $\sslash$
 
+
 category: meta
 
 [[!redirects Symbol Sandbox]]
+[[!redirects testing]]
+[[!redirects tester]]
+[[!redirects test]]
+[[!redirects tested]]
+[[!redirects foo]]
+[[!redirects baz]]
+[[!redirects foobar]]
+[[!redirects bink]]
+[[!redirects bar]]
