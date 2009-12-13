@@ -1,3 +1,2 @@
-See [[Eric Forgy]].
-
-category: redirect
+&lt; [[Eric]]
+[[!redirects Eric -- history]]
