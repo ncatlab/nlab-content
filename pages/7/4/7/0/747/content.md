@@ -11,7 +11,7 @@
 {:toc}
 
 
-#Idea#
+## Idea
 
 [[model category|Model structures]] on [[simplicial presheaf|simplicial presheaves]] [[models for ∞-stack (∞,1)-toposes]] (precisely for the [[hypercompletion|hypercomplete]] [[∞-stack]] [[(∞,1)-topos]]es).
 
@@ -77,13 +77,13 @@ By Lurie's result these are in each case in turn equivalent to the [[homotopy ca
 Various old results appear in a new light this way. For instance using the old result of [[BrownAHT]] on the way ordinary [[abelian sheaf cohomology]] is embedded in the [[homotopy theory]] of simplicial sheaves, one sees that the old right derived functor definition of [[abelian sheaf cohomology]] really computes the [[∞-stackification]] of a sheaf of [[chain complex]]es regarded under the [[Dold?Kan correspondence]] as a simplicial sheaf.
 
 
-# the different model structures and their interrelation #
+## The different model structures and their interrelation 
 
 It is the very point of [[model category]] structures on a given [[homotopical category]] that there may be several of them: each [[presentable (infinity,1)-category|presenting]] the same [[(∞,1)-category]] but also each suited for different computational purposes.
 
 So it is good that there are many model structures on simplicial (pre)sheaves, as there are. 
 
-## injective/projective - local/global - presheaves/sheaves ##
+### Injective/projective - local/global - presheaves/sheaves 
 
 The following diagram is a map for part of the territory:
 
@@ -221,7 +221,9 @@ On the left we have the Joyal--Tierney and Luo--Bubenik--Tim [[model structures 
 
 (...have to check here the relation $Sh(X,SGrpd)\leftrightarrow PSh(X, SGrpd)$)
 
-## dependence on the underlying site ##
+
+
+### Dependence on the underlying site
 
 
 +-- {: .un_prop }
@@ -251,7 +253,7 @@ This is "little fact 5)" on page 10, 11 of
 =--
 
 
-### examples ###
+#### Examples 
 
 
 +-- {: .un_prop }
@@ -382,10 +384,10 @@ $$
 
 
 
-# Fibrant and cofibrant objects #
+## Fibrant and cofibrant objects 
 
 
-## fibrant objects ##
+### Fibrant objects
 
 The fibrant objects in the [[local model structure on simplicial presheaves]] are those that 
 
@@ -397,7 +399,7 @@ This descent condition is the analog in this model of the [[sheaf]]-condition an
 
 Since the fibrancy condition in the global projective model structure is simple -- it just requires that the [[simplicial presheaf]] is in fact a presheaf of [[Kan complex]]es -- the local projective model structure has slightly more immediate characterization of fibrant objects than the local injective model structures. (In fact, for suitable choices of [[site]]s it may become very simple, as the above discussion of site dependence of the model structure shows).
 
-Onm the other hand the cofibrancy condition on objects is entirly _trivial_ in the global and local injective model structure: since a cofibration there is just an objectwise cofibration, and since every [[simplicial set]] is cofibrant, every object is injective cofibrant.
+On the other hand the cofibrancy condition on objects is entirly _trivial_ in the global and local injective model structure: since a cofibration there is just an objectwise cofibration, and since every [[simplicial set]] is cofibrant, every object is injective cofibrant.
 
 But the cofibrant objects in the projective structure are not too nasty either: every object that is degreewise a coproduct of representables is cofibrant. In particular the [[?ech nerve]]s of any _good cover_ (see below for more details) is a projectively cofibrant object.
 
@@ -411,7 +413,7 @@ Something related to a **fibrant replacement** functor ("$\infty$-stackification
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
 
-## cofibrant objects ##
+### Cofibrant objects
 
 In the injective [[local model structure on simplicial presheaves]] all objects are cofibrant. For the projective local structure we have the following useful statement.
 
@@ -457,7 +459,7 @@ Any good cover $U \stackrel{\simeq}{\to} X$ is a cofibrant replacement for $X$.
 
 
 
-## cofibrant replacement ##
+### Cofibrant replacement
 
 In 
 
@@ -504,7 +506,13 @@ This is in prop 2.8 of
 * [[Daniel Dugger]], _[[DuggerUniv.pdf:file]]_  
 
 
-#References#
+## Homotopy (co)limits
+
+Properties of [[homotopy limit]]s and [[homotopy colimit]]s of simplicial presheaves are discussed at
+
+* [Homotopy (co)limits of simplicial (pre)sheaves](http://ncatlab.org/nlab/show/homotopy+limit#SimpSheaves)
+
+## References
 
 A nicely helpful introduction and survey is provided in the notes
 
@@ -551,209 +559,6 @@ Last not least, it is noteworthy that the idea of localizing simplicial sheaves 
 * [[Kenneth Brown]], [[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf cohomology]],
 
 using instead of a full [[model category]] structure the more lightweight one of a Brown [[category of fibrant objects]].
-
-
-
-#Discussion#
-
-> In a previous version of this entry [[Urs Schreiber]] had asked whether the above statement about cofibrant objects in the projective model structure can't be strengthened as indicated in the _wrong Proposition_ below. [[Mike Shulman]] kindly spotted the mistake in the proposed _wrong Proof_, also shown below.
-
-
-+-- {: .un_prop }
-###### wrong Proposition
-
-Every simplicial presheaf $X $ that is degreewise a representable is cofibrant in $SPSh(C)_proj$ and hence also in $SPSh(C)_{proj}^{loc}$.
-
-=--
-
-
-+-- {: .proof}
-###### wrong Proof
-
-Recall that cofibrant objects in the local model structure $SPSh(C)_{proj}^{loc}$ are the same as those in the global model structure $SPSh(C)_{proj}$, which are those objects such that maps out of them lift through all objectwise acyclic Kan fibrations.
-In particular all [[representable functor|representable]]s are cofibrant in $SPSh(C)^{loc}_{proj}$.
-
-Now let $X = (X_\bullet)$ be degreewise representable. 
-We want to show that for $A \to B$ an objectwise acyclic Kan fibration the morphism of sets
-
-$$
-  Hom_{SPSh}(X, A) \to Hom_{SPSh}(X,B) 
-$$
-
-has a section. To make use of the fact that $X$ is degreewise representable, we rewrite the hom-sets as
-
-$$
-  \begin{aligned}
-    Hom_{SPSh}(X,A)
-    &=
-    SPSh(X,A)_0
-    \\
-    &\simeq
-    SPSh(\int^k \Delta^k \cdot X_k, A)_0
-    \\
-    &\simeq \int_k SPSh(\Delta^k\cdot X_k, A)_0
-    \\
-    &\simeq \int_k SSet(\Delta^k, SPSh(X_k, A))_0
-    \\ 
-    & \simeq
-    \int_k SSet(\Delta^k, A(X_k))_0
-  \end{aligned}
-  \,.
-$$
-
-Here we used the [[co-Yoneda lemma]] to write $X$ (objectwise) as a [[coend]] over its cells and then used the [[Yoneda lemma]] in the last step, where the assumption that $X_k$ is representable enters.
-
-+--{: .query}
-[[Mike Shulman]]: Of course, a map $\Delta^k \to A(X_k)$ is of course just a $k$-simplex of $A(X_k)$, i.e. an element of $A(X_k)_k$.  That means that this end can also be described by saying: since $X\colon \Delta^{op}\to C$ and $A\colon \Delta^{op}\times C^{op} \to Set$, we have $A(X_\bullet)\colon \Delta^{op}\times \Delta\to Set$ and we are just looking at the end of this bifunctor.  Furthermore, the Yoneda lemma implies that for any category $D$ and bifunctor $H\colon D^{op}\times D\to Set$, we have $\int_d H \cong [D^{op}\times D, Set](Hom_D,H)$ where $Hom_D\colon D^{op}\times D \to Set$ is the hom-functor of $D$.  In our case $D=\Delta$ and $Hom_{\Delta}$ is the canonical cosimplicial simplicial set $k\mapsto \Delta^k$.  Since the argument below only uses the cosimplicial simplicial sets $A(X_\bullet)$ and $B(X_\bullet)$, I think basically what you are trying to prove is that if $U$ and $V$ are cosimplicial simplicial sets and $U\to V$ is an objectwise acyclic fibration of simplicial sets, then any map $Hom_{\Delta}\to V$ lifts to $U$.  In other words, the claim is that $Hom_{\Delta}$ is cofibrant in the projective model structure on cosimplicial simplicial sets.  I don't think this is true.  It is true, though, that $Hom_{\Delta}$ is cofibrant in the *Reedy* model structure on cosimplicial simplicial sets, and I think your argument actually implicitly assumes that $U\to V$ is a *Reedy* acyclic fibration of cosimplicial simplicial sets (I've pointed out where below).
-=--
-
-
-An  element in this [[end]] is equivalently a family of morphism 
-
-$$
-  \{a_k : \Delta^k \to  A(X_k)\}
-$$ 
-
-that satisfy the required naturality conditions. Similary,  an element of $SPSh(X,B)_0$ is given by a family of morphism $\{ b_k : \Delta^k \to B(X_k) \}$.
-
-Given such $\{b_k\}$ we now produce a lift in the form of a natural family $\{a_k\}$ by induction over $k$, using the fact that since $A \to B$ is a global fibation, all the morphism $A(X_k) \to B(X_k)$ are acyclic [[Kan fibration]]s (acyclic fibrations in the standard [[model structure on simplicial sets]]).
-
-To start, for $k=0$ we are guaranteed to have choices $b_0 \mapsto a_0$ of lifts
-
-$$
-  \array{
-    && A(X_0)
-    \\
-    & {}^{a_0}\nearrow & \downarrow
-    \\
-    \Delta^0 &\stackrel{b_0}{\to} & B(X_0)
-  }
-$$
-
-because $A(X_0) \to B(X_0)$ is surjective on 0-cells. Next, in the first induction step we consider the diagram
-
-$$
-  \array{
-    \partial \Delta^1 = 
-    & \Delta^0 \coprod \Delta^0
-    &\stackrel{
-       (\delta_1 a_0  , \delta_0 a_0)
-      }{\to}& 
-    A(X_1)
-    \\
-    &\downarrow & {}^{a_1}\nearrow & \downarrow
-    \\
-    &\Delta^1 &\stackrel{b_1}{\to} & B(X_1)
-  }
-  \,.
-$$
-
-(Here $\delta_i : A(X_0) \to A(X_1)$ denote the face maps of the cosimplicial simplicial set $A(X_\bullet)$.)
-
-The outer diagram obviously commutes, using the [[simplicial identities]].
-So again, by the very fact that $A \to B$ is a global acyclic fibration, we are guaranteed the choice of lift $a_1$.
-
-Moreover, the commutativity of the upper triangle in this diagram is seen to be the naturality condition for $k=1$ that the collection $\{a_k\}$ we are constructing has to satisfy in order to constitute an element of $SPSh(X,A)_0$: the upper triangle says that
-
-$$
-  \array{
-     \Delta^1 &\stackrel{a_1}{\to}& A(X_1)
-     \\
-     \uparrow^{\mathrlap{\delta_i}} && 
-     \uparrow^{\mathrlap{\delta_i}}
-     \\
-     \Delta^0 &\stackrel{a_0}{\to}& A(X_0)
-  }
-$$ 
-
-commutes for $i = 0, 1$. Similarly clearly
-
-$$
-  \array{
-     \Delta^1 &\stackrel{a_1}{\to}& A(X_1)
-     \\
-     \downarrow && 
-     \downarrow 
-     \\
-     \Delta^0 &\stackrel{a_0}{\to}& A(X_0)
-  }
-$$ 
-
-commutes.
-
-+--{: .query}
-[[Mike Shulman]]: This is where I object; I don't see any reason for that square to commute.  I think in order to get that square to commute, you would have to lift in the diagram
-$$
-  \array{
-    \partial \Delta^1
-    &\stackrel{
-       (\delta_1 a_0  , \delta_0 a_0)
-      }{\to}& 
-    A(X_1)
-    \\
-    \downarrow & {}^{a_1}\nearrow & \downarrow
-    \\
-    \Delta^1 &\underset{(b_1,a_0\sigma^0)}{\to} & B(X_1) \times_{B(X_0)} A(X_0)
-  }
-  \,.
-$$
-for which you would have to assume that $A(X_1)\to B(X_1) \times_{B(X_0)} A(X_0)$ is an acyclic fibration, which is precisely the degree-1 part of the condition for $A(X_\bullet)\to B(X_\bullet)$ to be a *Reedy* acyclic fibration.
-
-[[Urs Schreiber]]: thanks, Mike, I see what you mean.
-
-=--
-
-
- The commutativity of all these diagrams
-
-$$
-  \array{
-      \vdots && \vdots
-     \\
-     \Delta^2 &\stackrel{a_2}{\to}& A(X_2)
-     \\
-     \uparrow \downarrow \uparrow \downarrow \uparrow
-     && 
-     \uparrow \downarrow \uparrow \downarrow \uparrow
-     \\
-     \Delta^1 &\stackrel{a_1}{\to}& A(X_1)
-     \\
-     \uparrow \downarrow \uparrow
-     && 
-     \uparrow \downarrow \uparrow
-     \\
-     \Delta^0 &\stackrel{a_0}{\to}& A(X_0)
-  }
-$$ 
-
-is the naturality condition on the family $\{a_k\}$ to consitute an element in $SPSh(X,A)_0$.
-
-So we poceed this way. In the $k$th induction step we have a diagram
-
-$$
-  \array{
-    \partial \Delta^k
-    &\stackrel{(\delta_i^* a_{k-1})}{\to}& 
-    A(X_k)
-    \\
-    \downarrow & {}^{a_k}\nearrow & \downarrow
-    \\
-    \Delta^k &\stackrel{b_k}{\to}& 
-    B(X_k)
-  }
-$$
-
-where the outer square commutes and we are guaranteed a choice of lift $a_k$. By the same kind of reasoning as before, we find that the $a_k$ found this way do have the required naturality property.
-
-
-
-=--
-
-
-
-
-
-
 
 
 
