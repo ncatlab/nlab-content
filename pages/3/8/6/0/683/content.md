@@ -236,9 +236,9 @@ $$
 
 This is famously the formula introduced and used by Bousfield and Kan (but there originally missing the necessary condition that $F$ be objectwise cofibrant). See [[Bousfield-Kan map]].
 
-##### Homotopy pushout
+##### Homotopy pushouts
 
-Let in the above general formula $D = \{a \leftarrow c to b\}$ be the walking [[span]]. Ordinary [[colimit]]s parameterized by such $D$ are [[pushout]]s. Homotopy colimits over such $D$ are **homotopy pushout**.
+Let in the above general formula $D = \{a \leftarrow c to b\}$ be the walking [[span]]. Ordinary [[colimit]]s parameterized by such $D$ are [[pushout]]s. Homotopy colimits over such $D$ are **homotopy pushouts**.
 
 In this simple case, we have the following simple observation:
 
