@@ -148,6 +148,15 @@ An imperfect perspective of category theory (for the purpose of classifying arti
 I disagree that this is the *main* principle of category theory.  This is an important principle, but how is it the main one?   ---Toby
 
 [[Todd Trimble]]: I also disagree, and moreover, to a first-time reader it probably won't make a lot of sense (to explain carefully what it means is a little bit subtle). 
+
+_Rafael_: First, it was not me who named it the main principle. Google for it and you will find who did. Besides, if you don't like the name you must find a better one. And worse, what is the main principle of category theory then?Second, it deserves it's name; the main theorem of category theory should classify categories up to categorical equivalence, this is the first step in this direction. It starts by telling how to distinguish categories in the first place, before a classification. It is a principle only because it is not stated technically enough to be a theorem. A second step in this direction are the fundamental theorems in category theory that state that seemingly unrelated categories are in fact equivalent (sometimes up to a dual). Possibly a new section? Ok, i am talking about equality in Cat that is really a 2-category instead of equality inside categories, but the principle is the same except that equivalence becomes appropriate isomorphism and categories become objects. 
+
+As to sense, there are other statements in nLab that don't make sense or are not stated as in other places on internet, and i am not a first-time reader. If you want to further explain the principle for first-time readers i don't mind at all. I just want to say that it is not so difficult.
+
+Further, i think that removing "evil" from the headline would be much better, since it is a follow up from the main principle.
+
+Finally, i don't understand all the dissagreement. All on this page should be fundamental and established firmly and written down a long time ago in many places. Sorry for sounding like a complainer but lately the responses on this page are nagging and complaining. This should be differentiated from correcting real errors on the page.
+
 =--
 
 Category theory has a main principle:
@@ -343,6 +352,11 @@ _Toby_:  I don\'t know why you want to keep harping on the matter of size in the
 As for what these large simplicial sets are, why do you think that you need simplices with largely many vertices to build large categories?  And what do you think these simplices are in a large category anyway?  I\'m quite certain that you are wrong here; even a large category has a set (or class, whatever) of objects ($0$-simplices with $1$ vertex), a set of morphisms ($1$-simplices with $2$ vertices), a set of commutative triangles ($2$-simplices with $3$ vertices), etc; it needs no set of $\alpha$-simplices for any infinite $\alpha$, much less any large $\alpha$ (although to some extent these can be made sense of, even for small categories; compare [[transfinite composition]]).  The finite objects of $\Delta$ are sufficient; indeed, as the text states, we need only simplices with up to $4$ vertices (or only up to $3$ if we use enough conditions).
 
 (I also don\'t know why you want that implication arrow, which should be legible to anybody with the fonts needed to read this wiki, but which I think looks ugly in a running sentence.  But that\'s not a big deal; keep it if you like it.)
+
+_Rafael_: It was not me who started the notice on size. However i think it is very important to distinguish and keep track of size. Especially since simplicial sets are small by definition (even using the other functorial definition) and would only account for small categories. It might be all the same to you Toby but this is very rarely so for other people. But it is a very valuable insight. I would also be much more careful with saying that ANYTHING can be made large. Then, i wish everything would be so easy, try to find a book or at least a chapter about large simplicial sets.
+
+As for large simplicies i interpreted the diagrams wrongly and you are right. As you said "we need only simplices with up to 4 vertices", as this is the truncation on simplicies as interpreted from the diagram. This idea croped up when i was reading a related page in nLab, probably also with diagrams.
+
 =--
 
 
