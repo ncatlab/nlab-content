@@ -1,10 +1,15 @@
-#Idea
+
+#Contents#
+* automatic table of contents
+{:toc}
+
+## Idea
 
 While abelian [[Lie algebra cohomology]] is obtained from the study of [[Chevalley-Eilenberg complex]], some nonabelian generalizations are known in low dimensions. The coefficients are not now in a Lie algebra module (which is viewed here as an abelian Lie algebra with action of another Lie algebra), but an arbitrary Lie algebra with something that is action of another Lie algebra up to an inner automorphism. 
 
 For example the problem of extensions of Lie algebras by nonabelian Lie algebras leads to 1,2,3 nonabelian cocycles; 2-cocycles are analogues of factor systems.
 
-#Nonabelian 2-cocycles
+## Nonabelian 2-cocycles
 
 Let $F$ be a field. **Lie algebra factor system** (or a **nonabelian 2-cocycle**) on a $F$-Lie algebra $\mathfrak{b}$ with coefficients in $F$-Lie algebra $\mathfrak{k}$ is a pair $(\chi,\psi)$ where $\chi: \mathfrak{b}\wedge \mathfrak{b}\to\mathfrak{k}$ and $\psi:\mathfrak{b}\to Der(\mathfrak{k})$ are $F$-linear maps satisfying
 
@@ -20,7 +25,7 @@ $$
 
 where $a,b\in B$ and $ad_{\mathfrak{k}}:\mathfrak{k}\to Int(\mathfrak{k})$ is the canonical map into inner automorphisms $k\mapsto [k,]$. 
 
-#Schreier's theory for Lie algebras
+## Schreier's theory for Lie algebras
 
 [[Otto Schreier]] (1926) and Eilenberg-Mac Lane (late 1940-s) developed a theory of nonabelian extensions of abstract groups leading to the low dimensional nonabelian group cohomology. For Lie algebras, the theory can be developed in the same manner. One tries to classify extensions of Lie algebras
 
@@ -50,7 +55,7 @@ Then
 
 In addition to the problem of extensions, nonabelian 2-cocycles appear in a more general problem of liftings of Lie algebras. 
 
-#References
+## References
 
 The notation above is from personal notes of Z. &#352;koda (1997). A systematic theory has been many times partly rediscovered from soon after the Eilenberg-MacLane work on group extension till nowdays. Here is a recent online account emphasising parallels with differential geometry:
 
