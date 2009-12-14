@@ -1,9 +1,11 @@
 Recall that an [[isometry]] between two [[Riemannian manifolds]] $(M,g), (N,h)$ is a diffeomorphism $\phi: M \to N$ such that $\phi^* h = g$.  In other words, $\phi$ respects the Riemannian structure as well as the differentiable structure.  
 
 It follows that if $d,d'$ are the metrics on $M,N$ induced by the Riemannian metrics $g,h$, then $d'(\phi(x),\phi(y)) = d(x,y)$ for $x,y \in M$---that is, $\phi$ is distance-preserving.
-Interestingly, a version of  the converse is true, according to the Myers-Steenrod theorem:
+Interestingly, a version of  the converse is true, according to the Myers--Steenrod theorem:
 
-_If $\phi: M \to N$ is distance-preserving and surjective, then it is an isometry (in particular, it is smooth)._
++-- {: .standout}
+If $\phi: M \to N$ is distance-preserving and surjective, then it is an isometry (in particular, it is smooth).
+=--
 
 For notational simplicity, assume $N=M$.
 
@@ -12,7 +14,7 @@ $\phi$ is evidently a homeomorphism.  Now pick $p \in M$ and a neighborhood $D_r
 The geodesic $\gamma$ can be assumed to be parametrized by unit length. We have for all $t$, 
 \[ d(p,q) = d(\gamma(t),p) + d(\gamma(t), q).\]
 Thus 
-\[ d(\phi(p),\phi(q)) = d(\phi(\gamma(t)),\phi(p)) + d(\phi(\gamma(t)), \phi(q)) \ \ (*).\]
+\[ \label{streq} d(\phi(p),\phi(q)) = d(\phi(\gamma(t)),\phi(p)) + d(\phi(\gamma(t)), \phi(q)) .\]
 In other words, we have strict equality in the triangle inequality.  
 
 ##Geodesic preservation##
@@ -22,7 +24,7 @@ In a Riemannian manifold $M$, if $q,r$ lie in a small neighborhood of $p$ and
 then $r$ lies on a geodesic betwen $p,q$.  
 Indeed, draw a geodesic $\alpha$ from $q$ to $r$ and a geodesic $\beta$ from $r$ to $p$ that travel at unit speed and minimze the distances; we can do this locally even without the assumption of completeness.  The catenation $\alpha \beta$ minimizes the length from $q$ to $p$, so it is an unbroken geodesic.  Thus $r$ lies on the geodesic.
 
-So, returning to the discussion above, we see that by (*) $\phi$ \emph{sends geodesics to geodesics.}
+So, returning to the discussion above, we see that by (eq:streq) $\phi$ *sends geodesics to geodesics*.
 
 ##Exponential coordinates##
 
@@ -41,8 +43,8 @@ We will postpone this for now.
 This is what we will use to show that $\tilde{\phi}: T_p(M) \to T_q(M)$ is an isometry, where each tangent space is given the norm from the Riemannian metric.  Pick $A,B \in T_p(M)$ and consider the    geodesics $\gamma_{A},\gamma_{B}$ at $p$ and $\gamma_{A'}, \gamma_{B'}$ where $A'=\tilde{\phi}(A), B' = \tilde{\phi}(B)$.
 Then $d(\gamma_{A}(t), \gamma_{B}(t)) = d( \gamma_{A'}(t), \gamma_{B'}(t))$.
 So 
-\[ 1=  \lim_{t \to 0} \frac{d(\exp_p(tA),\exp_p(tB)) }{t|A-B|} 
-=  \lim_{t \to 0} \frac{d(\exp_q(tA'),\exp_q(tB')) }{t|A-B|}  = \frac{|A'-B'|}{|A-B|}.\]
+\[ 1=  \lim_{t \to 0} \frac{d(\exp_p(t A),\exp_p(t B)) }{t|A-B|} 
+=  \lim_{t \to 0} \frac{d(\exp_q(t A'),\exp_q(t B')) }{t|A-B|}  = \frac{|A'-B'|}{|A-B|}.\]
 
 
 
@@ -79,3 +81,7 @@ while
 \[ l(\exp_p(c)) = \int | (\exp_p)_{*c(t)} c'(t) |_{\exp_p(c(t))} \]
 where in the second equation we are referring to the norms induced by the metric on the various tangent spaces of $M$.
 The difference between these two is $o(l(c))$, because $\exp_p$ has derivative the identity at $0 \in T_p(M)$, and the metric on $T_{\exp_p(c(t))}(M)$ is very close (say by a factor of $1 \pm \epsilon$) to that of $T_p(M)$ if we work in local coordinates and agree to identify the tangent spaces.
+
+
+[[!redirects Myers–Steenrod theorem]]
+[[!redirects Myers--Steenrod theorem]]
