@@ -45,7 +45,7 @@ This is a convenient way to settle size questions once and for all for finite $n
 
 For more, see the discussion at [sci.logic](http://groups.google.com/group/sci.logic/browse_thread/thread/6891c85c2d9b2caf).
 
-# Definitions
+# Definitions {#defn}
 
 Here is a list of (some of) the proposed definitions of (weak) $n$-category, with references, and also a list of (some of) the comparisons that have been done.
 
