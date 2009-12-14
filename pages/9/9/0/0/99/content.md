@@ -23,7 +23,7 @@ $$
     \wedge^\bullet_{C^\infty(X_0)}
     (
       \mathfrak{g}^* \oplus \Gamma(T^* X_0) 
-      \otimes \mathfrak{g}^*[1]
+      \oplus \mathfrak{g}^*[1]
     )
     , d_{\mathrm{W}(\mathfrak{g})}
   \right)
