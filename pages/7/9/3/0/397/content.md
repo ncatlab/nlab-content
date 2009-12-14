@@ -5,6 +5,7 @@ Here is a list of people who have contributed content to the nLab (or, failing t
 * [[Aleks Kissinger]]
 * [[Alex Hoffnung]]
 * [[Alex Nelson]]
+* [[Alexandru Chirvasitu]]
 * [[AlonAmit|Alon Amit]]
 * [[Andreas Holmstrom]]
 * [[AndrejBauer|Andrej Bauer]]
