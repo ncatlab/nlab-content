@@ -1,9 +1,16 @@
+# $Ab$-enriched categories
+* tic
+{: toc}
+
+
+## Definition
+
 An __Ab-enriched category__ is a category [[enriched category|enriched over]] the category [[Ab]] of abelian groups with its usual [[tensor product]].
 
 Sometimes Ab-enriched categories are called [[pre-additive category|pre-additive categories]], although sometimes that term also implies the existence of a [[zero object]].  They are also sometimes called [[ringoids]], since the concept is a [[horizontal categorification]] (or 'oidification') of the concept of a [[ring]].
 
 
-#Remarks#
+## Remarks
 
 *  Explicitly, the definition means that
 an Ab-enriched category is a category $C$ such that
@@ -24,17 +31,17 @@ $C$.
 * In general [[abelian category|abelian categories]] are the most important examples of Ab-enriched categories.  See [[additive and abelian categories]].
 
 
-# Finite products are Cauchy #
+## Finite products are absolute
 
-One of the remarkable facts about Ab-enriched categories is that finite products (and coproducts) are [[Cauchy colimit]]s.  This implies that finite products coincide with finite coproducts, and are preserved by _any_ Ab-enriched functor.  
+One of the remarkable facts about $Ab$-enriched categories is that finite products (and coproducts) are [[absolute limit|absolute limits]].  This implies that finite products coincide with finite coproducts, and are preserved by _any_ Ab-enriched functor.  
 
 
-## Zero objects ##
+### Zero objects
 
 In an Ab-enriched category $C$, any [[initial object]] is also a [[terminal object]], hence a [[zero object]], and dually.  An object $a\in C$ is a zero object just when its identity $1_a$ is equal to the zero morphism $0:a\to a$ (that is, the identity element of the abelian group $\hom_C(a,a)$).  Expressed in this way, it is easy to see that any Ab-enriched functor preserves zero objects.
 
 
-## Biproducts ##
+### Biproducts
 
 For $c_1, c_2 \in C$ two objects in an Ab-enriched category $C$,  [[generalized the|the]] [[product]] $c_1 \times c_2$ coincides  with [[generalized the|the]] [[coproduct]] $c_1 \sqcup c_2$ when either exists.  More precisely, when both exist, the canonical morphism
 $$
@@ -62,8 +69,7 @@ $$
 It can be characterized diagrammatically as an object $c_1\oplus c_2$ equipped with morphisms $q_i:c_i\to c_1\oplus c_2$ and $p_i:c_1\oplus c_2 \to c_i$ such that $p_i q_j = \delta_{i j}$ and $q_1 p_1 + q_2 p_2 = 1_{c_1\oplus c_2}$.  Expressed in this form, it is clear that any Ab-enriched functor preserves biproducts.
 
 
-
-#Examples#
+## Examples
 
 * The category [[Ab]] is [[closed monoidal category|closed monoidal]] and hence canonically enriched over itself.
 
@@ -72,6 +78,9 @@ It can be characterized diagrammatically as an object $c_1\oplus c_2$ equipped w
 * For any small Ab-enriched category $R$, the enriched [[presheaf category]] $[R^{op},Ab]$ is, of course, Ab-enriched.  If $R$ is a ring, as above, then $[R^{op},Ab]$ is the category of $R$-modules.
 
 
-#Blog resources#
+## Blog resources
 
 * John Baez, [Ringoids](http://golem.ph.utexas.edu/category/2006/09/ringoids.html)
+
+
+[[!redirects Ab-enriched categories]]
