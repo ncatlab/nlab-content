@@ -19,11 +19,11 @@ A classical example of an _end_ is the $V$-object of [[natural transformations]]
 
 #In ordinary category theory#
 
-In ordinary [[category theory]], given a [[functor]] $F: C^{op} \times C \to X$, an __end__ of $F$ in $X$ is an object $e$ of $X$ equipped with a [[universal construction|universal]] [[dinatural transformation]] from $e$ to $F$. This means that given any dinatural transformation from an object $x$ of $X$ to $F$, there exists a unique map $x \to e$ which respects the dinatural transformations. 
+In ordinary [[category theory]], given a [[functor]] $F: C^{op} \times C \to X$, an __end__ of $F$ in $X$ is an object $e$ of $X$ equipped with a [[universal construction|universal]] [[extranatural transformation]] from $e$ to $F$. This means that given any extranatural transformation from an object $x$ of $X$ to $F$, there exists a unique map $x \to e$ which respects the extranatural transformations. 
 
-In more detail: the end of $F$ is traditionally denoted $\int_{c: C} F(c, c)$, and the components of the universal dinatural transformation, 
+In more detail: the end of $F$ is traditionally denoted $\int_{c: C} F(c, c)$, and the components of the universal extranatural transformation, 
 $$\pi_c: \int_{c: C} F(c, c) \to F(c, c)$$ 
-are called the _projection maps_ of the end. Then, given any dinatural transformation with components 
+are called the _projection maps_ of the end. Then, given any extranatural transformation with components 
 $$\theta_c: x \to F(c, c),$$ 
 there exists a unique map $f: x \to e$ such that 
 $$\theta_c = \pi_c f$$ 
@@ -65,7 +65,7 @@ in $V$. Similarly for the contravariant action.
 
 
 
-A $V$- **dinatural transformation**
+A $V$- **extranatural transformation**
 $$\theta: v \stackrel{\bullet}{\to} F$$ 
 from $v$ to $F$ consists of a family of arrows in $V$, 
 $$\theta_c: v \to F(c, c),$$ 
@@ -73,9 +73,9 @@ indexed over objects $c$ of $C$, such that for every pair of objects $(c, d)$ in
 $$v \otimes C(c, d) \stackrel{\theta_c \otimes 1}{\to} F(c, c) \otimes C(c, d) \stackrel{\lambda_{c, c, d}}{\to} F(c, d) \qquad (1)$$ 
 $$v \otimes C(c, d) \stackrel{\theta_d \otimes 1}{\to} F(d, d) \otimes C(c, d) \stackrel{\rho_{c, d, d}}{\to} F(c, d) \qquad (2)$$
 
-A $V$-enriched **end** of $F$ is an object $\int_{c: C} F(c, c)$ of $V$ equipped with a $V$-dinatural transformation 
+A $V$-enriched **end** of $F$ is an object $\int_{c: C} F(c, c)$ of $V$ equipped with a $V$-extranatural transformation 
 $$\pi: \int_{c: C} F(c, c) \stackrel{\bullet}{\to} F$$ 
-such any $V$-dinatural transformation $\theta$ from $v$ to $F$ is obtained by pulling back the components of $\pi$ along $f: v \to \int_{c: C} F(c, c)$, for some unique map $f$. That is,
+such any $V$-extranatural transformation $\theta$ from $v$ to $F$ is obtained by pulling back the components of $\pi$ along $f: v \to \int_{c: C} F(c, c)$, for some unique map $f$. That is,
 $$\theta_c = \pi_c f$$ 
 for all objects $c$ of $C$. 
 
