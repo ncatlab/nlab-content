@@ -1,0 +1,1 @@
+A __Banach manifold__ is a [[manifold]] modelled on [[Banach spaces]].  By default, take the maps to be [[smooth map|smooth]].
