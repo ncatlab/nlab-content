@@ -24,6 +24,8 @@ in $F$ such that its image in $A$ is a [[pullback]] square, if $\chi$ and $\chi'
 
 +--{: .query}
 [[Mike Shulman]]: Is that really correct?  I would have thought it would be "if $\chi$ and $\chi'$ are cartesian and $k_1$ is opcartesian, then $k_0$ is also opcartesian.
+
+Zoran: I have to think, I got rusty in these issues.
 =--
 
 An equivalent way to state the condition is that for any pullback square
@@ -45,6 +47,20 @@ Denote by $Desc(a)$ the category of descent data for the fibration $P$ along the
 
 Finally, the __Benabou--Roubaud theorem__ asserts that this induces an [[equivalence of categories]] between $Desc(a)$ and $F^a$.  In addition, this equivalence satisfies some naturality properties, including that it commutes appropriately with the canonical functors to the fibers $F(A_0)$ and $F(A_1)$. Combining this theorem with Beck's [[monadicity theorem]], it becomes a practical tool for establishing a descent property in bifibrations, with variants in some other setups (to be covered later).
 
+There are several characterizations of a Beck-Chevalley property for bifibrations:
+
+**Proposition.** (Du&#353;ko Pavlovi&#263;, in Category theory Como 1990, LNM 1488, Springer 1991) Let $p: F\to B$ be a bifibration, $Q = (f,g,s,t)$ a square in $B$ such that $f\circ g = s\circ t$, and $\Theta = (\phi, \gamma, \sigma, \theta)$ a square in $F$ such that $\phi\circ\gamma=\sigma\circ\theta$, with $p(phi)=f$, $p(\gamma)=g$, $p(\sigma)=s$ and $p(\theta)=t$. The following conditions are equivalent:
+
+a) if $\theta$ and $\phi$ are cartesian and if $\sigma$ is cocartesian *then* $\gamma$ must be cocartesian;
+
+b) if $\sigma$ and $\gamma$ are cocartesian and if $\theta$ is cartesian *then* $\phi$ must be cartesian;
+
+c) if $\theta$ is cartesian and if $\sigma$ is cocartesian *then* $\phi$ is cartesian iff $\gamma$ is cocartesian.
+
+If some inverse image functors $f^*$ and $t^*$ and some direct image functors $g_!$ and $s_!$ are chosen,
+then every square $\Theta$ over $Q$ satisfies conditions (a-c) iff there is a canonical natural isomorphism
+
+d) $f^*\circ s_! \cong g_! \circ t^*$.
 
 [[!redirects Benabou–Roubaud theorem]]
 [[!redirects Benabou--Roubaud theorem]]
