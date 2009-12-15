@@ -1,3 +1,9 @@
+<div class="rightHandSide toc">
+[[!include cohomology - contents]]
+</div>
+
+
+
 
 #Contents#
 * automatic table of contents
@@ -54,6 +60,10 @@ Then
 (iii) If the 2-cocycle is obtained from a Lie algebra extension $0\to \mathfrak{k}\overset{i_0}\to \mathfrak{g}_0\overset{p_0}\to\mathfrak{b}\to 0$ and an arbitrary $F$-linear section $\sigma_0$ of $p_0$, then the map $can_\sigma:\mathfrak{g}_0\to\mathfrak{g}$ given by $g\mapsto (p(g),-\sigma(p(g))+g)$ is well-defined and a Lie algebra isomorphism such that $can_\sigma\circ i_0=i$, $p_0=p\circ can_\sigma$, hence the two extensions are isomorphic. 
 
 In addition to the problem of extensions, nonabelian 2-cocycles appear in a more general problem of liftings of Lie algebras. 
+
+## Abstract definition
+
+...
 
 ## References
 
