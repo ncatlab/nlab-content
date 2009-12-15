@@ -35,7 +35,11 @@ About the weak case you were referring to above: in my proposed definition, ther
 
 So my understanding is that for bilimits, the factorisation of any other "diagram" happens up to isomorphism (i.e. $pu\cong p',qu\cong q'$ in our case). On the other hand, the fact that our 2-arrow $\alpha$ is not an isomorphism in the case of a comma object as opposed to the case of an iso-comma object is another matter, specific to the limit we're looking at. 
 
-I sure hope I'm not screwing this up completely, but even if I am, I'll be happy to have someone straighten these things up for me :) ---[[Alexandru Chirvasitu]]
+Having said that, I believe I see now where the original definitions were coming from: the universailty of the bilimit should simply say that there has to be an equivalence of categories between the category $(D,(f/g))$ of 1-arrows from $D$ to $(f/g)$ and some other category that the limit itself determines (here, we can look at the comma object as the weighted bilimit). Mike's 2-universality part of the definition (the part following after "There is also an additional "2-dimensional universality"") is, I believe, the full faithfulness part of that equivalence of categories. And in fact, he mentioned that the 2-universality in question implies what I was talking about (uniqueness of $u$ up to unique isomorphism). 
+
+So I think I've made my peace with the original definition; I guess it was a rather silly question :). 
+
+Thanks for the help. What's customary? Do we delete the discussion∞---[[Alexandru Chirvasitu]]
 
 
 =--
