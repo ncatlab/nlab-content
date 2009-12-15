@@ -1,17 +1,22 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 (For now we will put emphasis on the general case i.e. nonabelian group extensions, later we plan a separate entry on abelian group extensions.) 
 
-#Definition
+## Definition
 
-We say that a sequence of groups
+We say that a sequence of [[group]]s
 
 $$ 1\to K
 \overset{i}\to G\overset{p}\to B\to 1$$
 
-is **exact** if $i$ is [[monomorphism]], $p$ an [[epimorphism]] and $Ker(p)=Im(i)$. If $K$ and $B$ are given groups, then any exact sequence of the form above is called an extension of $B$ by $K$ (some say conversely of $K$ by $B$). Letters are here chosen to suggest that $B$ is a base to which $G$ projects and $K$ is the *kernel* of $i$ and for $G$ itself we often say that it is a group extension of $B$ by $K$. 
+is **exact** if $i$ is [[monomorphism]], $p$ an [[epimorphism]] and $Ker(p)=Im(i)$. If $K$ and $B$ are given groups, then any exact sequence of the form above is called an **extension** of $B$ by $K$ (some say conversely of $K$ by $B$). Letters are here chosen to suggest that $B$ is a base to which $G$ projects and $K$ is the *[[kernel]]* of $i$ and for $G$ itself we often say that it is a group extension of $B$ by $K$. 
 
 If $K$ is abelian then we write $0$ instead of $1$ at the left start of the sequence, and if $B$ is exact we do the same at the right-hand end of the sequence. 
 
-We say that two group extensions $1\to K\stackrel{i}\to G\stackrel{p}\to B\to 1$ and $1\to K\stackrel{i'}\to G'\stackrel{p'}\to B\to 1$ are equivalent if there is an isomorphisms $\gamma:G\to G'$ such that 
+We say that two group extensions $1\to K\stackrel{i}\to G\stackrel{p}\to B\to 1$ and $1\to K\stackrel{i'}\to G'\stackrel{p'}\to B\to 1$ are equivalent if there is an [[isomorphism]] $\gamma:G\to G'$ such that 
 $\gamma\circ i = i'$ and $p=p'\circ \gamma$. In other words, there is a
 commutative diagram
 
@@ -21,9 +26,9 @@ $$\array{
 1\to &K&\stackrel{i'}\to &G'&\stackrel{p'}\to& B&\to 1
 }$$
 
-#Scheier's theory traditional way
+## Scheier's theory, traditional way
 
-[[Otto Schreier]] (1926) and Eilenberg-Mac Lane (late 1940-s) developed a theory of classification of nonabelian extensions of abstract groups leading to the low dimensional nonabelian group cohomology. This is sometimes called **Schreier's theory** of nonabelian group extensions.
+[[Otto Schreier]] (1926) and [[Samuel Eilenberg|Eilenberg]]-[[Saunders MacLane|Mac Lane]] (late 1940-s) developed a theory of classification of nonabelian extensions of abstract groups leading to the low dimensional [[nonabelian group cohomology]]. This is sometimes called **Schreier's theory** of nonabelian group extensions.
 
 The traditional Schreier-Mac Lane way to obtain nonabelian group 2-cocycle
 from a group extension as above starts with choosing a set-theoretic section of $p:G\to B$. 
@@ -274,16 +279,22 @@ $$(e,\psi(b)k)(b,e) = (b, \chi(e,b)\psi(b)^{-1}(\chi(e,e)^{-1}\psi(b)(k)))
 
 by (eq:psiac).
 
-#Schreier's theory of extensions modern way
+## Schreier's theory of extensions, modern way
 
-...
+One may regard the above from the [[nPOV]] as a special case of the way cocycles in the general notion of [[cohomology]] classify their [[homotopy fiber]]s. More on this is at
 
-#Literature
+* [[group cohomology]]
 
-* S. Eilenberg, S. MacLane, Cohomology theory in abstract groups. II. Group extensions with a non-Abelian kernel.  Ann. of Math. (2)  48,  (1947). 326--341 [jstor](http://www.jstor.org/pss/1969174)
+* [[nonabelian group cohomology]].
 
-* S. MacLane, Cohomology theory in abstract groups. III. Operator 
+
+## Literature
+
+* [[Samuel Eilenberg]], [[Saunders MacLane]], Cohomology theory in abstract groups. II. Group extensions with a non-Abelian kernel.  Ann. of Math. (2)  48,  (1947). 326--341 [jstor](http://www.jstor.org/pss/1969174)
+
+* [[Saunders MacLane]], Cohomology theory in abstract groups. III. Operator 
 homomorphisms of kernels.  Ann. of Math. (2)  50,  (1949). 736--761. 
 
 
 [[!redirects Schreier's theory]]
+[[!redirects Schreier theory]]
