@@ -2,11 +2,13 @@
 * automatic table of contents goes here
 {:toc}
 
+
 ## Idea 
 
-A **homotopy pullback** is a special kind of [[homotopy limit]]: the appropriate notion of [[pullback]] in the context of [[homotopy theory]]. Homotopy pullback model the [[limit in quasi-categories|quasi-category pullbacks]] in the [[(infinity,1)-category]] that is [[presentable (infinity,1)-category|presented]] by a given [[homotopical category]].  It is a special case of the notion of [[homotopy limit]].  Since pullbacks are also called fiber products, homotopy pullbacks are also called **homotopy fiber products**.
+A **homotopy pullback** is a special kind of [[homotopy limit]]: the appropriate notion of [[pullback]] in the context of [[homotopy theory]]. Homotopy pullbacks model the [[limit in quasi-categories|quasi-category pullbacks]] in the [[(infinity,1)-category]] that is [[presentable (infinity,1)-category|presented]] by a given [[homotopical category]].  Since pullbacks are also called fiber products, homotopy pullbacks are also called **homotopy fiber products**.
 
 For more details see [[homotopy limit]].
+
 
 ## Definition 
 
@@ -95,6 +97,7 @@ $$
   }
 $$
 is a homotopy pullback square if the induced morphism from $W$ to the strict homotopy pullback is a [[weak equivalence]].
+
 
 ## Fibration sequences 
 
