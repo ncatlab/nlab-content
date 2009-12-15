@@ -85,3 +85,5 @@ corresponding to the [[crossed module]] $(H \stackrel{Ad}{\to} Aut(H))$, where $
 # Referenes #
 
 *  John Baez and Aaron Lauda, _HDA V: 2-Groups_ ([arXiv](http://arxiv.org/abs/math.QA/0307200)).
+
+[[!redirects automorphism 2-group]]
