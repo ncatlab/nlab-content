@@ -44,7 +44,7 @@
 * [[continuous predicate]]
 * [[differential logic]]
 * [[differential propositional calculus]]
-* [[higher order proposition]]
+* [higher order proposition](http://ncatlab.org/nlab/revision/higher-order+logic/47)
 * [[hypostatic abstraction]]
 * [[logical graph]]
 * [[minimal negation operator]]
