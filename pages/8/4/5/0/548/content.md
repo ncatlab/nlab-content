@@ -4,6 +4,7 @@
 * automatic table of contents goes here
 {:toc} 
 
+
 #Idea#
 
 A $2$-group is a [[vertical categorification]] of the idea of [[group]]. 
@@ -65,11 +66,12 @@ A theorem in HDA5 shows that every weak $2$-group may be made coherent.  For pur
 
 We can also write this out in detail ... later.
 
+
 # Examples #
 
-Since strict 2-groupss are equivalent to [[crossed module]]s, see also the examples listed there.
+Since strict 2-groups are equivalent to [[crossed module]]s, see also the examples listed there.
 
-## automorphism 2-group ##
+## Automorphism 2-groups ##
 
 For $C$ any [[2-category]] and $c \in C$ any object of it, the category $Aut_C(c) \subset Hom_C(c,c)$ of auto-equivalences of $c$ and invertible 2-morphisms between these is naturally a 2-group, whose group product comes from the horizontal composition in $C$.
 
@@ -79,11 +81,12 @@ $$
   AUT(H) := Aut_{Grp_2}(H)
 $$
 
-corresponding to the [[crossed module]] $(H \stackrel{Ad}{\to} Aut(H))$, where $Aut(H)$ is the ordinary [[automorphism]] group of $H$.
+corresponding to the [[crossed module]] $(H \stackrel{Ad}{\to} Aut(H))$, where $Aut(H)$ is the ordinary [[automorphism group]] of $H$.
 
 
-# Referenes #
+# References #
 
 *  John Baez and Aaron Lauda, _HDA V: 2-Groups_ ([arXiv](http://arxiv.org/abs/math.QA/0307200)).
+
 
 [[!redirects automorphism 2-group]]
