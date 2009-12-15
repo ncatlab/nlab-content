@@ -295,6 +295,13 @@ One may regard the above from the [[nPOV]] as a special case of the way cocycles
 * [[Saunders MacLane]], Cohomology theory in abstract groups. III. Operator 
 homomorphisms of kernels.  Ann. of Math. (2)  50,  (1949). 736--761. 
 
+* Lawrence Breen, Th&#233;orie de Schreier sup&#233;rieure, Ann. Sci. &#201;cole Norm. Sup. (4) 25 (1992), no. 5, 465--514 [numdam](http://www.numdam.org/item?id=ASENS_1992_4_25_5_465_0). 
+
+* M. Bullejos, A. Cegarra,  A 3-dimensional non-abelian cohomology of groups with applications to homotopy classification of continuous maps Canad. J. Math., vol. 43, (2), 1991, p. 1-32.
+
+* Antonio M. Cegarra, Antonio R. Garz&#243;n, A long exact sequence in non-abelian cohomology, Proc. Int. Conf. Como 1990., Lec. Notes in Math. 1488, Springer 1991.
+
+See also references of Dedecker listed [[zoranskoda:Paul Dedecker|here]]. 
 
 [[!redirects Schreier's theory]]
 [[!redirects Schreier theory]]
