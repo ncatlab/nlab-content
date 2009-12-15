@@ -3,6 +3,7 @@
 * automatic table of contents
 {:toc}
 
+
 ## Idea
 
 The string Lie 2-algebra is the [[infinitesimal object|infinitesimal approximation]] to the [[string 2-group]].
@@ -20,7 +21,7 @@ This central extension is controled by the canonical (up to normalization) [[Lie
 
 When $\mu$ is normalized such that it represents the image in [[deRham cohomology]] of the generator of the [[integral cohomology]] $H^3(X,Spin(n))$ then the corresponding String Lie 2-algebra is the Lie 2-algebra of the [[String Lie 2-group]].
 
-More generally, for $\mathfrak{g}$ an [[L-infinity-algebra|∞-Lie algebra]] and $\mu \in CE(\mathfrak{g})$ an $\infty$-Lie algebra cocycle (a closed element in the [[Chevalley-Eilenberg algebra]] of $\mathfrak{g}$) of degree $k$, there is a corresponding shifted central extension
+More generally, for $\mathfrak{g}$ an [[L-infinity-algebra|∞-Lie algebra]] and $\mu \in CE(\mathfrak{g})$ an $\infty$-Lie algebra cocycle (a closed element in the [[Chevalley?Eilenberg algebra]] of $\mathfrak{g}$) of degree $k$, there is a corresponding shifted central extension
 
 $$
   0 \to \mathbf{b}^{k-2} \mathfrak{u}(1) \to \mathfrak{g}_\mu  \to \mathfrak{g} \to 0
@@ -29,11 +30,12 @@ $$
 
 For instance the [[supergravity Lie 3-algebra]] is such an extension of the [[super Poincare Lie algebra]] by a [[super Lie algebra]] 4-cocycle.
 
+
 ## Definition
 
-As with any [[L-∞ algebra]], we may define the String Lie 2-algebra $\mathfrak{string}(n)$ equivalently in terms of its [[Chevalley-Eilenberg algebra]].
+As with any [[L-∞ algebra]], we may define the String Lie 2-algebra $\mathfrak{string}(n)$ equivalently in terms of its [[Chevalley?Eilenberg algebra]].
 
-Write $\mathfrak{g} := \mathfrak{so}(n)$ in the following. The [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ of $\mathfrak{g}$ has a degree 3 element
+Write $\mathfrak{g} := \mathfrak{so}(n)$ in the following. The [[Chevalley?Eilenberg algebra]] $CE(\mathfrak{g})$ of $\mathfrak{g}$ has a degree 3 element
 
 $$
   \mu = \langle -, [-,-]\rangle 
@@ -49,7 +51,7 @@ $$
 
 Hence this is the canonical (up to normalization) 3-cocycle in the [[Lie algebra cohomology]] of $\mathfrak{g}$.
 
-The Chevalley-Eilenberg algebra of $\mathfrak{string}(n)$ iss
+The Chevalley--Eilenberg algebra of $\mathfrak{string}(n)$ is
 
 $$
   CE(\mathfrak{string}(n)) = (\wedge^\bullet \mathfrak{g}^* \oplus \langle b\rangle, d_{\mathfrak{string}})
@@ -57,6 +59,7 @@ $$
 $$
 
 where 
+
 * $b$ is a single new generator in degree 2;
 
 * the differental $d_{\mathfrak{string}}$ coincides with $d_{\mathfrak{g}}$ on $\mathfrak{g}^*$:
@@ -73,6 +76,7 @@ where
   $$
 
 That the differential defined this way is indeed of degree +1 and squares to 0 is precisely the fact that $\mu$ is a degree 3-cocycle of $\mathfrak{g}$.
+
 
 ## References
 
@@ -93,5 +97,6 @@ it was reconsidered in a wider $\infty$-Lie theoretic context in
 * Sati, Schreiber, Stasheff, _$L_\infty$-algebra connections_
 
 where also the relation to the [[supergravity Lie 3-algebra]] and other structures is discussed.
+
 
 [[!redirects string Lie 2-algebra]]
