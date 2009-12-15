@@ -41,7 +41,7 @@ So I think I've made my peace with the original definition; I guess it was a rat
 
 Thanks for the help. What's customary? Do we delete the discussion∞---[[Alexandru Chirvasitu]]
 
-
+_Toby_:  Yeah, when everybody\'s happy with it, one person deletes it.  I won\'t delete it, since I just answered your question about deleting.  But you can delete it.
 =--
 
 
