@@ -28,6 +28,8 @@ They\'re equivalent in the strong case, that is when all of the $2$-cells involv
 
 And that is good, since the stronger condition (the one that you gave, but using arbitrary morphisms instead of isomorphism) is not met by the motivating example of [[comma categories]].  (At least I don\'t think it is; I\'ll post this while I look for a specific counterexample).  ---[[Toby Bartels]]
 
+
+
 =--
 
 
