@@ -2,15 +2,15 @@
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
 
 A _fibration sequence_ is a "long right-[[exact sequence]]" (or left-exact, I keep mixing that up) in an [[(∞,1)-category]].
 
-Traditionally fibration sequences have been considered in the context of [[homotopical category|homotopical categories]] such as [[model category|model categories]] and [[category of fibrant objects|Brown category of fibrant objects]] which [[presentable (infinity,1)-category|present]] the [[(∞,1)-category]] in question. In particular, classically this was considered for [[Top]] itself.
+Traditionally fibration sequences have been considered in the context of [[homotopical category|homotopical categories]] such as [[model category|model categories]] and [[category of fibrant objects|Brown category of fibrant objects]] which [[presentable (infinity,1)-category|present]] the [[(∞,1)-category]] in question. In particular, classically this was considered for [[Top]] itself. In these cases they are obtained in terms of [[homotopy pullback]]s.
 
 
 
-#Definition#
+## Definition
 
 Let $C$ be an [[(∞,1)-category]] with small [[limits]] and consider [[pointed objects]] of $C$, i.e. morphisms ${*} \to A$ from the [[terminal object]] ${*}$ ([[generalized the|the]] [[point]]) to some object $A$. All unlabeled morphisms from the point in the following are these chosen ones and all other morphisms are taken with respect to these points.
 
@@ -226,7 +226,7 @@ $$
   \,.
 $$
 
-#Examples#
+## Examples
 
 Fibration sequences are familiar from the context of [[principal bundles]].
 
@@ -300,6 +300,7 @@ The same logic -- even the same diagrams -- work for [[principal 2-bundles]] and
 [[!redirects fibration sequences]]
 [[!redirects cofibration sequence]]
 [[!redirects homotopy fiber]]
+[[!redirects homotopy kernel]]
 [[!redirects homotopy cofiber]]
 [[!redirects cofibration sequences]]
 [[!redirects homotopy fibers]]
