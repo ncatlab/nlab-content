@@ -192,7 +192,7 @@ The upshot of all this is just that the following illustrative pictures may be i
 A degree-one group cocycle $c$, $[c] \in H^1_{Grp}(G,K)$
 is just a [[functor]] $c : \mathbf{B}G \to \mathbf{B}K$. This is a group homomorphism $G \to K$.
 
-### degree-$2$ group cohomology 
+### Degree-$2$ group cohomology 
 
 A degree-2 group cocycle $c$, $[c] \in H^2_{Grp}(G,K)$
 is on 2-cells a map
@@ -305,9 +305,29 @@ $$
 This expresses the commutativity of the above tetrahedra. And it is indeed the ordinary formula for a cocycle in degree-2 [[group cohomology]].
 
 
-### degree-$3$ group cohomology 
+### Degree-$3$ group cohomology 
 
 similarly...
+
+## Generalizations
+
+### Structured group cohomology ###
+
+Group cohomology depends delicately on the [[internalization]] context. A survey of central results in topological and smooth group cohomology is
+
+* [[Jim Stasheff]], _Continuous cohomology of groups and classifying spaces_ ,  Bull. Amer. Math. Soc. Volume 84, Number 4 (1978), 513-530 ([web](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183540920))
+
+An early reference on the equivalence of local Lie group cohomology and [[Lie algebra cohomology]] is
+
+* S. &#346;wierczkowski, Cohomology of group germs and Lie algebras Pacific J. Math 39(2) 1971.
+
+This is also discussed in
+
+* Jean-Luc Brylinski, _Differentiable Cohomology of Gauge Groups_ ([arXiv](http://arxiv.org/abs/math/0011069))
+
+### Nonabelian group cohomology
+
+If the coefficient group $K$ is nonabelian, its higher [[delooping]]s $\mathbf{B}^n K$ to not exist. But [[n-groupoid]]s approximating this non-existant delooping do exists. Cohomology of $\mathbf{B}G$ with coefficients in these is called [[nonabelian group cohomology]] or [[Schreier theory]]. See there for more details.
 
 ## References 
 
@@ -328,16 +348,3 @@ For a conceptual discussion of nonabelian group cohomology see
 * [[John Baez]], [[Mike Shulman]], _[[Lectures on n-Categories and Cohomology]]_ ([arXiv](http://arxiv.org/abs/math/0608420))
 
 
-### structured group cohomology ###
-
-Group cohomology depends delicately on the [[internalization]] context. A survey of central results in topological and smooth group cohomology is
-
-* [[Jim Stasheff]], _Continuous cohomology of groups and classifying spaces_ ,  Bull. Amer. Math. Soc. Volume 84, Number 4 (1978), 513-530 ([web](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183540920))
-
-An early reference on the equivalence of local Lie group cohomology and [[Lie algebra cohomology]] is
-
-* S. &#346;wierczkowski, Cohomology of group germs and Lie algebras Pacific J. Math 39(2) 1971.
-
-This is also discussed in
-
-* Jean-Luc Brylinski, _Differentiable Cohomology of Gauge Groups_ ([arXiv](http://arxiv.org/abs/math/0011069))
