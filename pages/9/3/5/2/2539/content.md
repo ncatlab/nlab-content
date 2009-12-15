@@ -2,26 +2,29 @@
 * automatic table of contents goes here
 {:toc}
 
-#Summary#
+## Summary
 
 The Tietze extension theorem says that continuous functions extend from closed subsets of a [[normal space]] $X$ to the whole space $X$. There is another less well-known variant: smooth functions on _closed_ subdomains of a smooth manifold may always be extended.
 
-# Statement #
+
+## Statement 
 
 
-## in the category of smooth manifolds ##
+### In the category of smooth manifolds {#Manifolds}
 
-**Theorem**
++-- {: .un_theorem}
+###### Theorem
 
-For every closed subset $X \subset \mathbb{R}^n$ every smooth function $X \to \mathbb{R}$
-has an extension to a smooth function $\mathbb{R}^n \to \mathbb{R}$
+For every closed subset $X \subset \mathbb{R}^n$ every smooth function $X \to \mathbb{R}$ has an extension to a smooth function $\mathbb{R}^n \to \mathbb{R}$
+
+=--
 
 One way to prove this is to use the fact that there is a [[full and faithful functor]]
 [[Diff]] $\to \mathbb{L}$ into the category of smooth loci, discussed in the next
 section. After using that fact the proof becomes trivial.
 
 
-## in the category of smooth loci ##
+### In the category of smooth loci {#SmoothLoci}
 
 Let $\mathbb{L} = (C^\infty Ring^{fin})^{op}$ be the category of [[smooth loci]],
 the [[opposite category]] of finitely generated [[generalized smooth algebra]]s.
@@ -34,11 +37,23 @@ the corresponding [[monomorphism]] $\ell A \to \ell B$ in $\mathbb{L}$
 exhibits $\ell A$ as a 
 closed smooth sublocus of $\ell B$.
 
-**Proposition** If $\ell A \hookrightarrow \ell B$  is a closed
+
++-- {: .un_prop}
+###### Proposition
+
+If $\ell A \hookrightarrow \ell B$  is a closed
 sublocus of $\ell B$ then every morphism $\ell A \to A$
 extends to a morphism $\ell B \to R$
 
-**Proof**
+
+
+=--
+
+
+
++-- {: .proof}
+###### Proof
+
 
 Since we have $R = \ell C^\infty(\mathbb{R})$ and $C^\infty(\mathbb{R})$
 is the free [[generalized smooth algebra]] on a single generator,
@@ -46,10 +61,15 @@ a morphism $\ell A \to R$ is precisely an element of $C^\infty(\mathbb{R}^n)/J$.
 This is represented by an element in $C^\infty(\mathbb{R}^n)$ which in particular
 defines an element in $C^\infty(\mathbb{R}^n)/I$.
 
-So in $\mathbb{L}$ the extension theorem holds trivially. 
+=--
 
-#References#
+
+So in the category $\mathbb{L}$ of [[smooth locus|smooth loci]] the extension theorem holds trivially. 
+
+
+
+## References
 
 chapter I and II of
 
-* [[Ieke Moerdijk]], [[Gonzalo Reyes]], [[Models for Smooth Infinitesimal Analysis]]
+* [[Ieke Moerdijk]] and [[Gonzalo Reyes]], [[Models for Smooth Infinitesimal Analysis]]
