@@ -1,4 +1,8 @@
-#Definition#
+#Contents#
+* automatic toc goes here
+{:toc}
+
+## Definition
 
 The **category algebra** $k[C]$ over a [[ground field]] $k$ of a small [[category]] $C$ is the [[vector space]] whose basis is  the morphisms of $C$, where the product of two morphisms $f$ and $g$ is defined to be their composite if composable, and 0 otherwise:
 $$
@@ -12,7 +16,7 @@ $$
  \,.
 $$ 
 
-#Remarks#
+## Remarks
 
 If the category $C$ is a [[groupoid]] with a single object, which may be canonically identified with a group $G$, then the category algebra coincides with the familiar [[group algebra]] of $G$: 
 $$
@@ -39,7 +43,7 @@ This statement is for instance of great relevance (while very secretly hidden un
 
 
 
-# Span composition interpretation #
+## Span composition interpretation 
 
 The category algebra of a category $C$ is a special case of a general [[arrow theory|arrow-theoretic]] construction that appears in [[quantization]] and in the theory of [[bi-brane]]s. 
 
@@ -202,7 +206,7 @@ $$
 $$
 This is indeed the product in the category algebra.
 
-##References on this arrow-theoretic picture##
+### References on this arrow-theoretic picture
 
 The claim is that this way of looking at category algebras realizes them as a puny special case of a bigger story which involves [[bi-brane]]s as morphisms between $n$-bundles/$(n-1)$-gerbes which live on spaces connected by correspondence spaces. This is related to a bunch of things,  such as T-duality, Fourier-Mukai transformations and other issues of quantization. A description of this perspective is in
 
