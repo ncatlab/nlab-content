@@ -63,6 +63,8 @@ In addition to the problem of extensions, nonabelian 2-cocycles appear in a more
 
 ## Abstract definition
 
+The above definition of nonabelian Lie algebra cocycles is the image of the story of [[nonabelian group cohomology]] under Lie differentiation.
+
 ...
 
 ## References
