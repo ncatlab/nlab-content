@@ -8,7 +8,7 @@
 * automatic table of contents goes here
 {:toc}
 
-#Idea#
+## Idea
  
 An _interval object_ $I$ in a [[category]] $C$ is an [[object]] that behaves in $C$ roughly like the unit interval $I := [0,1]$ with its two boundary point inclusions 
 
@@ -36,9 +36,9 @@ We give two very similar definitions that differ only in some extra assumptions.
 
 * The second is motivated from constructions appearing in the definitions of [[Trimble n-category]] and of [[generalized universal bundle]]. It includes the possibility that the interval is _not_ weakly equivalent to the point, in which case it may be used nontrivially to test for [[undirected object]]s and probe [[directed object]]s.
 
-#Definitions#
+## Definitions
 
-## plain definition ##
+### Plain definition 
 
 +-- {: .un_defn}
 ###### Definition
@@ -55,7 +55,7 @@ in $C$, with $I$ and $pt$ any two objects and $0$ and $1$ any two morphisms.
 
 =--
 
-## definition in categories with finite limits ## 
+### In categories with finite limits
 
 +-- {: .un_defn}
 ###### Definition
@@ -67,14 +67,14 @@ If the [[category]] $C$ has finite [[limit]]s, then a plain interval object is a
 
 Examples for the use of this notion are below in the section on geometric models for path $\infty$-categories.
 
-## definition in homotopical categories ##
+### In homotopical categories
 
 If the ambient category $C$ is a [[homotopical category]],
 such as a [[model category]], there are natural 
 further conditions to put on an interval object
 
 
-### Berger--Moerdijk segment object ###
+#### Berger--Moerdijk segment object 
 
 
 In [section 4](http://arxiv.org/PS_cache/math/pdf/0502/0502155v2.pdf#page=11)
@@ -123,7 +123,7 @@ $$
 is a cofibration and $\epsilon : I \to pt$ a weak equivalence.
 
 
-### intervals for Trimble $\omega$-categories ###
+#### Intervals for Trimble $\omega$-categories
 
 The following definition is tentative. It arose from the discussion reproduced further below.
 
@@ -197,7 +197,7 @@ of $n \in \mathbb{N}$ copies of the [[co-span]] $I$ with itself by pushout over 
  $$
 
 
-#Examples#
+## Examples
 
 * The [[cube category]] is generated from a single interval object.
 
@@ -219,7 +219,7 @@ the $A_\infty$-category $\Pi_1(X)$ is just an ordinary category, namely the 1-ca
 
 
 
-# fundamental $\infty$-categories induced from intervals #
+## Fundamental $\infty$-categories induced from intervals 
 
 The interest in interval objects is that various further structures of interest may be built up from them. In particular, since picking an interval object $I$ is like picking a notion of _path_, in a category with interval object there is, under mild assumptions, for each object $X$ an [[infinity-category]] $\Pi_I(X)$ -- the fundamental $\infty$-category of $X$ with respect to $I$ -- whose [[k-morphism]]s are $k$-fold $I$-paths in $X$.
 
@@ -233,7 +233,7 @@ or
 
 We describe an algebraic version in terms of [[Trimble n-category|Trimble omega-categories]] and then a geometric version in terms of [[cubical object]]s and [[simplicial object]]s.
 
-## fundamental algebraic $\infty$-categories ##
+### Fundamental algebraic $\infty$-categories 
 
 The collection of objects 
 $\{ {}_{pt}[I, I^{\vee n}]_{pt}\}_{n \in \mathbb{N}}$ in a category with interval object naturally comes equipped with the structure of an [[operad]]: this is the tautological co-endomorphism [[operad]] on the object $I$ in the symmetric closed monoidal category of [[bi-pointed object]]s from $pt$ to $pt$. 
@@ -277,7 +277,7 @@ $$
 =--
 
 
-## fundamental geometric $\infty$-categories ##
+### Fundamental geometric $\infty$-categories {#FundGeomInftCat}
 
 Let $C$ be a category 
 
@@ -459,7 +459,7 @@ More on this in the following example section.
 =--
 
 
-### example: standard intervals, cubes and simplices in $Top$ and $Diff$ ###
+#### Example: standard intervals, cubes and simplices in $Top$ and $Diff$ 
 
 Let $X = $ [[Top]] or $C = $ [[Diff]] be the category of [[topological space]]s
 or of [[manifold]]s.
@@ -549,18 +549,18 @@ Note that these face maps are to be thought of as maps into 3-simplices sitting 
 
 ***
 
-#Homtopy localization induced from an interval #
+## Homtopy localization induced from an interval 
 
 Given a suitable interval obect in a [[site]] $C$, one may ask for [[∞-stack]]s on $C$ that are invariant under the notion of [[homotopy]] induced by $I$. These are obtained by [[homotopy localization]] of a full [[(∞,1)-category of (∞,1)-sheaves]] on $C$.
 
 
-## example: $\mathbb{A}^1$-homotopy theory ##
+### Example: $\mathbb{A}^1$-homotopy theory ##
 
 See [[A1-homotopy theory]].
 
 
 
-#Discussion#
+## Discussion
 
 +-- {: .query}
 
