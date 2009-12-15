@@ -1,9 +1,17 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
 ## Idea
 
 A _Hilbert space_ is a (possibly) infinite-dimensional generalisation of the traditional spaces of Euclidean geometry in which the notions of distance and angle still make good sense.  This is done through an algebraic operation, the _inner product_, that generalises the dot product.
 
 Hilbert spaces were made famous to the world at large through their applications to [[physics]], where they organise the pure states of quantum systems.
 
+See also
+
+* [[an elementary treatment of Hilbert spaces]].
 
 ## Definitions
 
