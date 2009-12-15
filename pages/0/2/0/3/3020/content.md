@@ -118,7 +118,7 @@ $$M \to \Gamma \otimes^{d_1}_{A} M$$
 where the right hand side is an $A$-module via the map $d_0$.
 
 ##Cohomology of Sheaves##
-Recall that sheaf cohomology is obtained by deriving the global sections functor.  If $X$ is a [[noetherian]] scheme/stack then we restrict to deriving
+Recall that sheaf cohomology is obtained by deriving the global sections functor.  If $X$ is a [[noetherian scheme|noetherian]] scheme/stack then we restrict to deriving
 $$ \Gamma (-) : \mathrm{QCSh}/X \to \mathrm{Ab} .$$
 Suppose further that $X = \mathrm{Spec} \; A$, so $\Gamma$ lands in $A$-modules, however from above we know $\mathrm{QCSh}/\mathrm{Spec} \; A \simeq A$-mod, hence $\Gamma$ is exact and all higher cohomology groups vanish.
 
@@ -141,7 +141,7 @@ $$A \to \Gamma \otimes_A B \to R $$
 is faithfully flat, then $f^*$ is an equivalence of stacks.
 
 ###The Weierstrass Stack###
-Given $C/S$ an [[elliptic curve]], [[Riemann-Roch]] gives us (locally on $S$) sections $x \in \Gamma (C, \mathbf{O} (2e)) , \; y \in \Gamma (C, \mathbf{O} (3e))$ such that $x^3-y^2 \in \Gamma (C, \mathbf{O}(5e))$ and $C \simeq C_{\underline{a}} \subset \mathbb{P}^2$ is given by
+Given $C/S$ an [[elliptic curve]], [[Riemann-Roch theorem|Riemann–Roch]] gives us (locally on $S$) sections $x \in \Gamma (C, \mathbf{O} (2e)) , \; y \in \Gamma (C, \mathbf{O} (3e))$ such that $x^3-y^2 \in \Gamma (C, \mathbf{O}(5e))$ and $C \simeq C_{\underline{a}} \subset \mathbb{P}^2$ is given by
 $$ y^2 + a_1 xy + a_3 y = x^3 +a_2 x^2 +a_4 X + a_6 $$
 for $a_i \in \mathbf{O}_S$ and $e = [0: 1:0]$.  Such a curve is said to be in Weierstrass form or simply a Weierstrass curve.
 
