@@ -1,3 +1,10 @@
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Definition
+
 A __complex number__ is an expression of the form $a + \mathrm{i} b$, where $a$ and $b$ are [[real numbers]] and $\mathrm{i}^2 = - 1$.  The set of complex numbers (in fact a [[field]] and [[topological vector space]]) is denoted $\mathbf{C}$ or $\mathbb{C}$.
 
 This can be thought of as:
