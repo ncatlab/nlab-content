@@ -1,4 +1,8 @@
-A **Riemann surface** is a connected one-dimensional complex manifold.  In other words, it's a Hausdorff space $M$ which is locally homeomorphic to $\mathbb{C}$ via charts (i.e., homeomorphisms) $\phi_i:U_i \to V_i$ for $U_i \subset M, V_i \subset \mathbb{C}$ open and such that $\phi_j \circ \phi_i^{-1}: V_i \cap V_j \to V_i \cap V_j$ is holomorphic.
+There are several distinct meaning of what is a Riemann surface, and it can be considered in several generalities.
+
+One common and oldest meaning is that a **Riemann surface** is a connected one-dimensional complex manifold.  In other words, it's a Hausdorff second countable space $M$ which is locally homeomorphic to $\mathbb{C}$ via charts (i.e., homeomorphisms) $\phi_i:U_i \to V_i$ for $U_i \subset M, V_i \subset \mathbb{C}$ open and such that $\phi_j \circ \phi_i^{-1}: V_i \cap V_j \to V_i \cap V_j$ is holomorphic.
+
+There are generalizations e.g. over local fields in rigid analytic geometry. 
 
 ##Examples##
 
