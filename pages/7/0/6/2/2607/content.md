@@ -5,6 +5,10 @@ the temperature $T$. As $T \to 0$, the rig $\mathbb{R}^T$ reduces to $\mathbb{R}
 
 The dynamics of particles becomes the statics of strings after Wick rotation.
 
++-- {: .query}
+I suppose matrix mechanics over a distributive lattice could be thought as a kind of <a href="http://en.wikipedia.org/wiki/Minimax">minimax</a> (or maximin) calculation - David. 
+=--
+
 
 * [Quantization and Cohomology: Week 12](http://golem.ph.utexas.edu/category/2007/01/quantization_and_cohomology_we_11.html)
 *  [Quantization and Cohomology: Week 13](http://golem.ph.utexas.edu/category/2007/02/quantization_and_cohomology_we_12.html#c007500)
