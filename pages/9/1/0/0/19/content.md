@@ -163,6 +163,9 @@ I don\'t understand why you say that evil 'is a follow up from the main principl
 
 But I agree with you, Rafael, that we should try to explain it better if it is confusing to a first-time reader, rather than to not say it at all.  What do people think of the version below now?
 
+_Rafael_: Kapranov and Voevodsky sounds very familiar. In an explanation of category theory i would after some definitions and stuff first explain that categories are the same in category theory if they are categorically equivalent, and then add that all other equalities are evil (all other i know are), and not the other way around. This is what i ment and it is sound logic to me. You first deal with what you want to have and then with all that you don't want to have. Equivalence of categories is useful while evil is an obstruction that say you can't have use other equalities of categories. Also evil only appears in category theory, so not focusing on evil makes it a lot easier to compare category theory with other theories studying other objects that don't define evil for them.
+
+I did't thought of equivalence of functors at all while writing before. Since it is just as important i suggest the header: Equality in category theory. It summarizes categories, functors and evil.
 =--
 
 According to Kapranov and Voevodsky, category theory has a main principle:
@@ -366,6 +369,8 @@ _Rafael_: It was not me who started the notice on size. However i think it is ve
 As for large simplicies i interpreted the diagrams wrongly and you are right. As you said "we need only simplices with up to 4 vertices", as this is the truncation on simplicies as interpreted from the diagram. This idea croped up when i was reading a related page in nLab, probably also with diagrams.
 
 _Toby_:  Anything defined in terms of small sets can be made large by defining it in terms of classes instead.  Depending on what foundational axioms you accept, the definition might not be sensible, but it will be if you adopt [[Grothendieck universes]], as most category theorists do when needed.  Size issues are important, but their importance should not be exaggerated; indeed, it is hard to understand them if you don\'t know when they\'re relevant and when (as here) they are constantly stressed but irrelevant.  It is not true, after all, that (as you write) 'simplicial sets are small by definition' any more than categories are small by definition; it all depends on what size you specify in the definition.  Even if you don\'t specify anything but rely on a conventional meaning of terms like 'set' or 'class', it depends on your conventions for those.  (I would follow Mac Lane in _[[Categories Work]]_ and say that a 'set' need not be small, so that a 'simplicial set' need not be small either, if you define it using the word 'set'.  But I don\'t mind clarifying for others that these simplicial sets might have to be large.)
+
+_Rafael_: It is not a good thing to change the meaning of set or class. Then other mathematicians that do not know what a Grothendieck universe is would encounter missunderstanding and paradoxes. This means a vast majority of mathematicians.
 
 =--
 
