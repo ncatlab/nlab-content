@@ -51,7 +51,7 @@ $$
   \array{
     \Lambda B &\to& [I,B]
     \\
-    \downarrow && \downarrow^{d_0 \times d_1}
+    \downarrow && \downarrow^{\mathrlap{d_0 \times d_1}}
     \\
     B &\stackrel{Id \times Id}{\to}& B \times B
   }
