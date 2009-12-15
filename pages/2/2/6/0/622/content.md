@@ -22,5 +22,6 @@ The following is a partial list of pages that are closely related to my research
 * [[Froelicher space|Frölicher spaces]]
 * [[Isbell envelope]]
 * [[Tall-Wraith monoid]]
+* [[an elementary treatment of Hilbert spaces]]
 
 category: people
