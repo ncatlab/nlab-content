@@ -33,7 +33,7 @@ where $a,b\in B$ and $ad_{\mathfrak{k}}:\mathfrak{k}\to Int(\mathfrak{k})$ is th
 
 ## Schreier's theory for Lie algebras
 
-[[Otto Schreier]] (1926) and Eilenberg-Mac Lane (late 1940-s) developed a theory of nonabelian extensions of abstract groups leading to the low dimensional nonabelian group cohomology. For Lie algebras, the theory can be developed in the same manner. One tries to classify extensions of Lie algebras
+[[Otto Schreier]] (1926) and Eilenberg-Mac Lane (late 1940-s) developed a theory of nonabelian [[group extension|extensions of abstract groups]] leading to the low dimensional nonabelian group cohomology. For Lie algebras, the theory can be developed in the same manner. One tries to classify extensions of Lie algebras
 
 $$ 0\to \mathfrak{k}
 \overset{i}\to \mathfrak{g}\overset{p}\to\mathfrak{b}\to 0$$
