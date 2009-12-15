@@ -41,8 +41,7 @@ We give two very similar definitions that differ only in some extra assumptions.
 ### Plain definition 
 
 +-- {: .un_defn}
-###### Definition
-**(plain interval object)**
+###### Definition (plain interval object)
 
 A **plain interval object** in a category $C$ is just a [[cospan]] diagram with equal feet
 
@@ -58,8 +57,7 @@ in $C$, with $I$ and $pt$ any two objects and $0$ and $1$ any two morphisms.
 ### In categories with finite limits
 
 +-- {: .un_defn}
-###### Definition
-**(cartesian interval object)**
+###### Definition (cartesian interval object)
 
 If the [[category]] $C$ has finite [[limit]]s, then a plain interval object is a **cartesian interval object** if $pt = {*}$ is the [[terminal object]].
 
@@ -315,8 +313,7 @@ However, while cubes are nice for many purposes, it is a sad fact of life that t
 In fact, there is also naturally the structure of a  [[cosimplicial object]] of the collection $I^\times \bullet$ of $I$-cubes. This differs from the cubical structure only in were precisely one injects the boundaries into an $I^{\times n}$
 
 +-- {: .un_defn}
-###### Definition
-**(cosimplicial object induced fro,m interval object)**
+###### Definition (cosimplicial object induced from interval object)
 
 Given a cartesian interval object $I \in C$, define a [[cosimplicial object]]
 
@@ -380,8 +377,7 @@ This is straightforward to check, if a little tedious due to the many case disti
 
 
 +-- {: .un_remark}
-###### Remark
-**(unwrapping the definition)**
+###### Remark (unwrapping the definition)
 
 It may be helpful to unpack the above definition a bit.
 
@@ -430,8 +426,7 @@ It may be helpful to unpack the above definition a bit.
 =--
 
 +-- {: .un_remark}
-###### Remark
-**(collars)**
+###### Remark (collars)
 
 This construction gives "collared simplices" in much the same sense as in [[collared cobordism]] and in [[A1-homotopy]]: 
 
@@ -533,9 +528,12 @@ Then for low $n \in \mathbb{N}$ the above construction yields this
 * $n=3$ -- here $\Delta_i^3 = I^{\times 3} = I \times I \times I$ 
   is the **standard cube**
   
-  **exercise** insert the analog of the above discussion here
+  +-- {: .un_example}
+  ###### Exercise
+  Insert the analog of the above discussion here
   and upload a nice graphics that shows the standard cube and how the
   cosimplicial object $\Delta_I$ picks a solid tetarhedron inside it.
+  =--
 
 As a start, we can illustrate how there are 6 3-simplices sitting inside each 3-cube.
 
@@ -547,7 +545,6 @@ Once you see how the 3-simplices sit inside the 3-cube, the facemaps can be illu
 
 Note that these face maps are to be thought of as maps into 3-simplices sitting inside a 3-cube.
 
-***
 
 ## Homtopy localization induced from an interval 
 
