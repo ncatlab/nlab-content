@@ -1,14 +1,22 @@
-#Definition#
+<div class="rightHandSide toc">
+[[!include infinity-Lie theory - contents]]
+</div>
+
+#Contents#
+* autmatic table of contents goes here
+{:toc}
+
+## Definition
 
 A Lie groupoid is an [[internal category|internal groupoid]] in [[Diff]].
 
 There are these and those conditions on the various maps involved...
 
-#Literature#
+## Literature
 
 Topological and differentiable (or smooth, "Lie") groupoids (and more generally categories) were introduced in
 
-* C. Ehresmann _Colloque de G&#233;ometrie Differentielle Globale_ (Bruxelles, 1958), 137--150, Centre Belge Rech. Math., Louvain, 1959; 
+* C. Ehresmann _Colloque de G&eacute;ometrie Differentielle Globale_ (Bruxelles, 1958), 137--150, Centre Belge Rech. Math., Louvain, 1959; 
 
 Reviews and developments of the theory of Lie groupoids include
 
@@ -19,7 +27,7 @@ Reviews and developments of the theory of Lie groupoids include
 
 * K. C. H. Mackenzie, _Lie groupoids and Lie algebroids in differential geometry_, London Mathematical Society Lecture Note Series, 124. Cambridge University Press, Cambridge, 1987. xvi+327 pp ([MathSciNet](http://www.ams.org/mathscinet-getitem?mr=896907))
 
-##Further discussion##
+##Further discussion
 
 John Baez talks about various kinds of Lie groupoids in [TWF](http://math.ucr.edu/home/baez/TWF.html) [256](http://math.ucr.edu/home/baez/week256.html).
 
