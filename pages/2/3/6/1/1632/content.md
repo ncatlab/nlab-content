@@ -10,6 +10,7 @@ where $a \cdot b = m(a, b)$.
 
 Of course, in the non-unital case, one can always formally adjoin a unit $e$, forming the Banach algebra $A \oplus \langle{e}\rangle$ where $\|e\| = 1$.
 
+
 ## Examples ##
 
 * A standard example is $L^1(\mathbb{R}, \mu)$, where $\mu$ is Lebesgue measure, and where the multiplication is taken to be convolution. This lacks a unit for the multiplication, since there is no $L^1$ function $e(x)$ that represents the Dirac functional 
@@ -22,4 +23,6 @@ on continuous functions $f: X \to \mathbb{C}$. One can generalize this example i
 
 * Any $C^*$-[[C*-algebra|algebra]] is a Banach algebra.
 
-* The [[normed division algebra]]s are (possibly nonassiciative) Banach algebras that are also [[division algebra]]s.
+* The [[normed division algebra]]s are (possibly nonassiociative) Banach algebras that are also [[division algebra]]s.
+
+* The only Banach algebra (over $\mathbb{C}$) which is a [[field]] is $\mathbb{C}$ itself, by the [[Gel'fand–Mazur theorem]].
