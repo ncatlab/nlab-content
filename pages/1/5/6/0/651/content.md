@@ -55,7 +55,7 @@ The properties of this category are as follows.
 
 +-- {: .num_theorem #FroelicherCategory}
 ###### Theorem
-The [[category]] of Fr&#246;licher spaces is [[complete category|complete]], [[cocomplete category|cocomplete]], and [[cartesian closed category|cartesian closed]].  It is [[topological category|topological]] over $Set$.  It is an [[construct|amnestic, transportable construct]].
+The [[category]] of Fr&#246;licher spaces is [[complete category|complete]], [[cocomplete category|cocomplete]], and [[cartesian closed category|cartesian closed]].  It is [[topological category|topological]] over $Set$.  It is an [[concrete category|amnestic, transportable construct]].
 =--
 
 To its eternal shame, the category of Fr&#246;licher spaces is __not__ [[locally cartesian closed category|locally cartesian closed]].
