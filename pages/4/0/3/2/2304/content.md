@@ -1,1 +1,1 @@
-&lt; [[graph]]
+&lt; [[graph theory]]
