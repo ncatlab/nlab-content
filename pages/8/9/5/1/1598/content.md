@@ -13,7 +13,7 @@ Every connected f.d. real Lie group is homeomorphic to a [[product]] of a compac
 
 There is an infinitesimal version of a Lie group, a so-called local Lie group, where the multiplication and the inverse are only partially defined, namely if the arguments of these operations are in a sufficiently small neighborhood of identity. There is a natural equivalence of local Lie groups by means of agreeing (topologically and algebraically) on a smaller neighborhood of the identity. The category of local Lie groups is equivalent to the category of connected simply connected Lie groups. 
 
-[[Sophus Lie]] has proved several theorems -- [[Lie's three theorems]] -- on relation between [[Lie algebra]]s and Lie groups. So called [[Lie's third theorem]] was about the equivalence of the category of f.d. real Lie algebras and local Lie groups. Cartan has extended this to a global integrability theorem called the Cartan--Lie theorem, nowadays after Serre also called Lie's third theorem.
+[[Sophus Lie]] has proved several theorems -- [[Lie's three theorems]] -- on the relationship between [[Lie algebra]]s and Lie groups. So called [[Lie's third theorem]] was about the equivalence of the category of f.d. real Lie algebras and local Lie groups. Cartan has extended this to a global integrability theorem called the Cartan--Lie theorem, nowadays after Serre also called Lie's third theorem.
 
 
 [[!redirects Lie groups]]
