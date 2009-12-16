@@ -1,5 +1,7 @@
 <div class="rightHandSide toc">
 [[!include cohomology - contents]]
+***
+[[!include infinity-Lie theory - contents]]
 </div>
 
 
