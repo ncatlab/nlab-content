@@ -20,3 +20,6 @@ $$
 is a [[2-limit|pullback]] in [[Cat]].
 
 More generally, a morphism $f:C\to D$ in any [[2-category]] $K$ is called **pseudomonic** if the corresponding square is a pullback, or equivalently if $K(X,C)\to K(X,D)$ is a pseudomonic functor for any $X$.
+
+
+[[!redirects pseudomonic functors]]
