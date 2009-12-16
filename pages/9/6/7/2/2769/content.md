@@ -1,1 +1,1 @@
-&lt; [[composition]]
+&lt; [[diagrammatic order]]
