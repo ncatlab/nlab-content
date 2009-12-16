@@ -1,4 +1,13 @@
-#Lie's three theorems#
+<div class="rightHandSide toc">
+[[!include infinity-Lie theory - contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Lie's three theorems
 
 There is an obvious [[functor]]
 $$
@@ -26,13 +35,11 @@ Is $diff$ a standard name for this functor?  It seems a little prone to being co
 _Toby_:  I would call the latter functor $Diff$, but I agree that it\'s rather similar.  The problem is that the standard name for $diff$, as far as I can tell, is `\mathfrak{\lowercase{`$-$`}}`, if you see what I mean, and that\'s an even less convenient name.
 =--
 
-##Remarks##
-
-###Restriction to simply connected Lie groups.###
+##Restriction to simply connected Lie groups
 
 Let $LieGroups_{simpl}$ be the [[full subcategory]] of $LieGroups$ on simply connected Lie groups. Then the above implies that restricted to $LieGroups_{simpl}$ the functor $diff$ becomes a surjective [[equivalence of categories]]
 
-#Generalization of Lie's theorems to Lie groupoids#
+## Generalization of Lie's theorems to Lie groupoids
 
 The [[horizontal categorification]] of Lie's theorems for Lie groups leads to analogous statements for [[Lie groupoid|Lie groupoids]]: in this case $diff$ becomes the differentiation functor
 from [[Lie groupoid|Lie groupoids]] to [[Lie algebroid|Lie algebroids]]
@@ -60,7 +67,7 @@ Lie II for Lie groupoids was proven in
 
 and
 
-* I. Moerdijk and J Mr&#269;un, _On integrability of infinitesimal actions_, Amer. J. Math. 124(3):567-593, 2002
+* I. Moerdijk and J Mr&ccaron;un, _On integrability of infinitesimal actions_, Amer. J. Math. 124(3):567-593, 2002
 
 **_Lie III_ for Lie groupoids** does _not_ hold in direct generalization: 
 
@@ -87,22 +94,19 @@ and in the introduction of
  * Chenchang Zhu, _Lie II theorem for Lie algebroids via stacky Lie groupoids_, ([arXiv](http://arxiv.org/abs/math/0701024)).
 
 
-##Motivation for generalized smooth groupoids##
+## Motivation for generalized smooth groupoids
 
 This failure of Lie III for [[Lie groupoid|Lie groupoids]], i.e. for [[internal category|internal groupoids]] in [[Diff]] seems to suggest that the category of manifolds is not the natural home for general [[Lie theory]]. More concretely, it seems to suggest that [[Lie theory]] ought to be practiced internal to some category of [[generalized smooth space]]s.
 
 One such choice is given by replacing manifolds by [[differentiable stack]]s.
 
-#Generalization of Lie's theorems to stacky Lie groupoids#
+## Generalization of Lie's theorems to stacky Lie groupoids
 
 The generalization of Lie's theorems from Lie groups to to [[Lie theory for stacky Lie groupoids|stacky Lie groupoids]] is discussed
 in 
 
 * Chenchang Zhu, _Lie II theorem for Lie algebroids via stacky Lie groupoids_, ([arXiv](http://arxiv.org/abs/math/0701024)).
 
-# General context#
-
-For the general context see [[Lie theory]].
 
 
 [[!redirects Lie's three theorems]]
