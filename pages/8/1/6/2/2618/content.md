@@ -1,1 +1,1 @@
-&lt; [[tiny object]]
+&lt; [[tiny]]
