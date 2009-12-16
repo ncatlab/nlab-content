@@ -33,5 +33,50 @@ Ideally, we want to deal solely with Hilbert spaces but first we need to figure 
 Let $(V,\langle -, - \rangle)$ be an inner product space.  An **orthogonal family** in $V$ is a subset $B \subseteq V$ with the property that $\langle b, b'\rangle = 0$ whenever $b,b' \in B$ are distinct.
 
 The family is said to be **orthonormal** if, in addition, $\langle b, b\rangle = 1$ for all $b \in B$.
+
+Two vectors, say $u$ and $v$, are said to be orthogonal if the family $\{u,v\}$ is an orthogonal family.
 =--
+
+Using orthogonal families, we can express the notion of completeness as follows.
+
++-- {: .num_defn #hilb}
+###### Definition
+A **Hilbert space** is an inner product space, $(H, \langle -, -\rangle)$ in which the following property holds.  Let $(b_n)$ be an orthonormal sequence and $(\lambda_n)$ a sequence of positive real numbers such that $\sum \lambda_n^2$ is bounded.  Then there is some $v \in H$ such that for all $u \in H$,
+$$
+\sum \lambda_n \langle b_n, u \rangle = \langle v, u \rangle.
+$$
+=--
+
++-- {: .un_remark}
+###### Remark
+We need to justify this notion of completeness.  One direction is simple: the sequence of partial sums of the series $\sum \lambda_n b_n$ is Cauchy and so if the space is complete, it has a limit and this limit satisfies the criterion.
+
+The other direction takes a little more effort.  The quickest (but dirtiest) route is simply to observe that if that condition is satisfied then whenever we have an isometry from $\ell^0$ (with its standard inner product) into our space then it extends to $\ell^2$.  A slightly more concrete route is as follows.  Start with a Cauchy sequence in $H$, say $(x_n)$, and then apply Gram-Schmidt.  This results in an orthonormal sequence, say $(b_n)$.  For each $k$, we define $\lambda_k$ as the limit (in $\mathbb{C}$) of $(\langle x_n, b_k\rangle)$.  We can make $\lambda_k$ a positive real number by taking the phase factor in to $b_k$.  Let $(s_n)$ be the sequence of partial sums of the series $\sum \lambda_k b_k$.  Then $(s_n)$ is Cauchy and the interpolation of $(s_n)$ and $(x_n)$ is also Cauchy.  By assumption, $(s_n)$ has a weak limit.  As it is Cauchy, the existence of a weak limit is enough to show that it has a strong limit.  Thus $(x_n)$ also converges and so $H$ is complete.
+
+The tenor of the new definition and its equivalence to the standard one is a theme that will run throughout this page.  In our elementary treatment, weak definitions are to be preferred to the standard strong ones.  Their equivalence exposes some of the deep results of Hilbert space theory.
+=--
+
+## Cauchy-Schwarz
+
+The Cauchy-Schwarz inequality is one of the basic results of Hilbert space theory.  As we wish to avoid any mention of a norm, we state it as follows.
+
++-- {: .num_proposition #csineq}
+###### Proposition
+Let $H$ be a Hilbert space, $u,v \in H$.  Then
+$$
+|\langle u, v \rangle| \le \langle u, u \rangle^{\frac{1}{2}} \langle v, v \rangle^{\frac{1}{2}}
+$$
+with equality if and only if $u$ and $v$ are collinear.
+=--
+
++-- {: .proof}
+###### Proof
+The "if and only if" part gives us the key to the most direct proof.  It will simplify matters a little if we assume that $u$ and $v$ are non-zero, the case where one of them is zero being easy to establish.
+
+Now if $u$ and $v$ are collinear then there is some $\lambda \in \mathbb{C}$ such that $u = \lambda v$.  
+
+_To be continued_
+=--
+
+## Subspaces and Complements
 
