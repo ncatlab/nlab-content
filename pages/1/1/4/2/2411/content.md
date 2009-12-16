@@ -59,3 +59,5 @@ $$
 
 for instance when $E_X(Y) = \mathbb{C}$ then $E(Y) = \Gamma(Maps(Y,X);\mathbb{C})$. This is clearly reminiscent of the pushforward of a sheaf along a continuous functions and suggests that $d RFT(X)$ should be looked at as a sheaf on $X$. It is however not so, since if $X=X_1\cup X_2$ then an object $Y$ in $RCob_d(X)$ (i.e., a $(d-1)$-dimensional closed manifold with a map to $X$) cannot in general be reconstructed from $RCob_d(X_1)$ and $RCob_d(X_2)$. On the other hand, such a reconstruction is possible if one allows objects in $RCob_d(X_i)$ to have $(d-2)$-dimensional boundaries. This point of view leads to [[extended topological quantum field theory]].
 
+
+[[!redirects Geometric models for elliptic cohomology -- Axiomatic field theories and their motivation from topology]]
