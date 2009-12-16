@@ -21,7 +21,7 @@ In this talk, which led on from the previous one by Thomas Schick, Ulrich Bunke 
 
 This talk explains how correlators for a rational two-dimensional [[conformal field theory]] can be constructed in the [[FQFT|functorial TFT]] formalism. Based on a [[modular tensor category]] $C$, decoration data have been introduced in terms of special symmetric Frobenius algebras in $C$ and the correlator, as an element of $tft_C (\hat{X})$ with $\hat{X}$ a double cover of the surface $X$, has been expressed in terms ofthe invariant of a decorated 3-manifold $M_X$ with $\partial M_X = \hat{X}$. The correlators are invariant under the [[mapping class group]]s and obey the [[sewing constraint]].
 
-[[Morita equivalence|Morita equivalent]] special symemtric Frobenius algebras lead to an equivalent description of the correlators. A Morita invariant formulation is provided by the notion of a module category $M$ over the module tensor category $C$. The [[world sheet]] is now decorated by categories, functors between module categories and natural transformations.
+[[Morita equivalence|Morita equivalent]] special symemtric Frobenius algebras lead to an equivalent description of the correlators. A Morita invariant formulation is provided by the notion of a module category $M$ over the module tensor category $C$. The [[worldsheet|world sheet]] is now decorated by categories, functors between module categories and natural transformations.
 
 ## Kevin Costello: _Factorization algebras in perturbative QFT_ ##
 *  [[Oberwolfach Workshop, June 2009 -- Monday, June 8|Talk 1]], [[Oberwolfach Workshop, June 2009 -- Tuesday, June 9|Talk 2]], [[Oberwolfach Workshop, June 2009 -- Tuesday, June 9|Talk 3]]
