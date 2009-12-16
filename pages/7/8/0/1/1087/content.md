@@ -74,7 +74,7 @@ If $(V,\partial)$, and $(V',\partial')$ are pre-dgvs, then we give the tensor pr
 
 $$ \partial(v\otimes v') = (\partial v) \otimes v' + (-1)^{|v|}v \otimes (\partial' v' ),$$
 
-and we denote the result by $(V,\partial)\otimes (V', \partial')$. We have ([[Kunneth Theorem]])
+and we denote the result by $(V,\partial)\otimes (V', \partial')$. We have ([[Kunneth theorem]])
 $$H((V,\partial)\otimes (V', \partial')) \cong H(V,\partial)\otimes H(V', \partial').$$
 
 
