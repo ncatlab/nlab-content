@@ -8,3 +8,4 @@ In [[constructive mathematics]] and [[internalization|internally]], the same iss
 
 
 [[!redirects division ring]]
+[[!redirects skew field]]
