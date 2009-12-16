@@ -1,1 +1,1 @@
-&lt; [[infinitesimal singular simplicial complex]]
+&lt; [[infinitesimal path infinity-groupoid in a smooth topos]]
