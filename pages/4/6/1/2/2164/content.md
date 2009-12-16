@@ -241,7 +241,7 @@ Zoran:  reason, if my memory is right, Leites in his around 1976 survey of super
 See pages 19&20 of _[[Models for Smooth Infinitesimal Analysis|MSIA]]_.
 
 In this dual generators-and-relations description, the infinitesimal interval is very familiar in many mathematically less sophisticated contexts. It prevails for instance
-in the basic physics textbook treatment since [[Newton]] up to this day. [[Sophus Lie]] is famously
+in the basic physics textbook treatment since [[Isaac Newton]] up to this day. [[Sophus Lie]] is famously
 quoted as having said that he found many of his famous insights by such 
 "synthetic reasoning" and only a lack of proper formalization prevented him
 from writing them up in this way instead of in the more wide-spread way of 
