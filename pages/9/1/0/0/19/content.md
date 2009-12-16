@@ -166,6 +166,8 @@ But I agree with you, Rafael, that we should try to explain it better if it is c
 _Rafael_: Kapranov and Voevodsky sounds very familiar. In an explanation of category theory i would after some definitions and stuff first explain that categories are the same in category theory if they are categorically equivalent, and then add that all other equalities are evil (all other i know are), and not the other way around. This is what i ment and it is sound logic to me. You first deal with what you want to have and then with all that you don't want to have. Equivalence of categories is useful while evil is an obstruction that say you can't have use other equalities of categories. Also evil only appears in category theory, so not focusing on evil makes it a lot easier to compare category theory with other theories studying other objects that don't define evil for them.
 
 I did't thought of equivalence of functors at all while writing before. Since it is just as important i suggest the header: Equality in category theory. It summarizes categories, functors and evil.
+
+_Toby_:  I wonder if we should have a section on 'main principles', plural.  We can cover this one, and the Yoneda lemma (called the 'fundmental theorem' below), and maybe some others.
 =--
 
 According to Kapranov and Voevodsky, category theory has a main principle:
@@ -377,6 +379,8 @@ _Toby_:  What do you mean, 'change the meaning'?  You seem to be writing as if i
 I need to write an article on [[size issues]] to explain all of this.
 
 _Rafael_: I give up, now i don't understand what you mean. Sure, there are different set theories and theories for classes, which is ok, but that is probably not what you mean either. Only multisets, ordered sets, posets and sets with other ordering relations come to mind right now, but they are not even mentioned in any definition of a category that i know of. Reading the above, posets are not equivalent to categories, even in the large case i think. But you are talking about entire other schools! In the last sentence i don't even know what set mean. How about some references to all these alternaives?
+
+_Toby_:  Note entire *other* schools, but schools of category theory, including people that you and I have interacted with here.  (But I may be wrong about the existence of such schools; it may just be Mac Lane and individuals who\'ve learnt category theory from his book.)  And I gave you a reference, the classical reference on category theory: _[[Categories for the Working Mathematician]]_.  Check out its treatment of size issues (page 12 in the 2nd Edition, and Section 1.6); Mac Lane uses small sets and large sets, not sets and classes.
 
 =--
 
