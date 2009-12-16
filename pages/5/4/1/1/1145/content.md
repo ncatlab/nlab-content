@@ -43,6 +43,11 @@
 
     * [[operator algebras]]
   * [[Fourier transform]]
+
+* [[Lie theory]]
+
+  * [[infinity-Lie theory - contents|higher Lie theory]]
+
 * [[discrete mathematics]]
 
   * [[set theory]]
