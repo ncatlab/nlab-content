@@ -43,12 +43,12 @@ presheaves, and the theory of twisted complexes of Toledo and Tong. [[Jim Stashe
 of [[model category|model categories]] was gradually applied to simplicial diagrams. Illusie introduced the notion of [[model structure on simplicial presheaves|weak equivalence of]] [[simplicial presheaf|simplicial presheaves]] on a [[site|Grothendieck site]].
 
 Grothendieck came out of isolation with the manuscript [[Pursuing Stacks|La poursuite des champs]], which at its start refers to a letter from Joyal to Grothendieck
-developing the [[model category structure on simplicial sheaves]]. This led to Jardine's [[model structure on simplicial presheaves|model category structure for simplicial presheaves]] enhancing
+developing the [[model structure on simplicial sheaves|model category structure on simplicial sheaves]]. This led to Jardine's [[model structure on simplicial presheaves|model category structure for simplicial presheaves]] enhancing
 Illusie's weak equivalences. We enter into the modern period in which Jardine's model structure and its variants have been used and developped with
 applications in a wide range of mathematics including Thomason's work in K-theory and then Voevodsky's theory of $A^1$-homotopy and [[motive]]s. [[algebraic stack|Algebraic
 stack]]s, the first step in the "higher descent!" direction, are now used without restraint in all of [[algebraic geometry]].
 
-In Grothendieck's vision as set out in "[[Pursuing Stacks|La poursuite des champs]]", higher descent is just the same as usual descent, but for [[infinity-stack|n-stacks]] of [[n-catefory|n-categories]]
+In Grothendieck's vision as set out in "[[Pursuing Stacks|La poursuite des champs]]", higher descent is just the same as usual descent, but for [[infinity-stack|n-stacks]] of [[n-category|n-categories]]
 over a [[site]]. The theory of [[2-category|2-categories]] was developped early on by Benabou,
 having occured also in the book of Gabriel and Zisman. The theory of [[strict omega-category|strict n-categories]] was thoroughly investigated by Street and the Australian
 school, and Brown and Loday introduced other related algebraic objects which could model [[homotopy type]]s. Grothendieck set out the goal of finding
