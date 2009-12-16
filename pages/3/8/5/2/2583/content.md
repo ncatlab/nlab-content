@@ -256,7 +256,8 @@ Of course actually constructing this [[homotopy pullback]] (which is defined onl
 
 * Schommer-Pries
 
-* ...
+* etc ...
+
 
 [[!redirects String 2-group]]
 [[!redirects String Lie 2-group]]
