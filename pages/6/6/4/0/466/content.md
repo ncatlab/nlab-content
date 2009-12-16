@@ -166,3 +166,5 @@ The Yoneda lemma tends to carry over to all important generalizations of the con
 
 
 [[!redirects yoneda lemma]]
+[[!redirects Yoneda embedding lemma]]
+[[!redirects Yoneda imbedding lemma]]
