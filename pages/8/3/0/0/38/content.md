@@ -1,3 +1,8 @@
+<div class="rightHandSide toc">
+[[!include infinity-Lie theory - contents]]
+</div>
+
+
 #Contents#
 * automatic table of contents goes here
 {:toc}
@@ -44,13 +49,13 @@ bla bla bla
 
  * Sullivan,...
 
- * &#352;evera,...
+ * &Scaron;evera,...
 
  * Getzler,...
 
  * Henriques,...
 
- * &#352;evera,...
+ * &Scaron;evera,...
 
 
 ## Entries related to Lie theory
