@@ -125,7 +125,6 @@ correspond to in terms of claassical group data, using the relation between [[st
 
 For making the translation we follow the **convention LB** there.
 
-> Or we will, soon, right now the formulas below are slightly inconsistent in terms of which convention they follow...
 
 ### Degree 2 cocycles
 
@@ -143,16 +142,16 @@ Degree 2 cocycles of nonabelian group cohomology on $G$ with coefficients in $K$
   $$
     \psi(g_1 g_2)
     = 
-    Ad(\chi(g_1, g_2)) \psi(g_1) \psi(g_2) 
+    Ad(\chi(g_1, g_2)) \psi(g_2) \psi(g_1)  
     \,.
   $$
 
 * and subject to the cocycle condition that for all $g_1, g_2, g_3 \in G$ we have
 
   $$
-   \chi(g_1 g_2, g_3) \xi(g_1,g_2)
+   \chi(g_1 g_2, g_3) \psi(g_3)(\xi(g_1,g_2))
    = 
-   \chi(g_2, g_3) \psi(g_1)(\chi(g_1, g_2 g_3))
+   \chi(g_1, g_2 g_3) \chi(g_2, g_3)
   $$
 
 =--
@@ -160,7 +159,7 @@ Degree 2 cocycles of nonabelian group cohomology on $G$ with coefficients in $K$
 +-- {: .proof}
 ###### Proof
 
-Use the identification of $AUT(K)$ with its [[crossed complex]] $A \stackrel{Ad}{\to} Aut(K)$ and then look at the diagrams of the sort spelled out in great detail at [[group cohomology]]. For instance the first three items of the above describe the maps
+Use the identification of $\mathbf{B}AUT(K)$ with its [[crossed module]] $(A \stackrel{Ad}{\to} Aut(K))$ in the _convention L B_ as described at [strict 2-group - in terms of crossed modules](http://ncatlab.org/nlab/show/strict+2-group#InTermsOfCrossedModules) to translate the relevant diagrams -- which are of the sort spelled out in great detail at [[group cohomology]]: the first three items of the above describe the maps
 
 $$
   (\psi, \chi) : 
@@ -294,7 +293,12 @@ $$
 is the twisted product of $K$ with $G$, using the maps $\chi$ and $\psi$, i.e. the group whose underlying set is the cartesian [[product]] $K \times G$ with multiplication given by
 
 $$
-  (k_1, g_1) (k_2, g_2) = (\psi(g_2)(k_1) k_2 \chi(g_1,g_2), g_1 g_2)
+  (k_1, g_1) (k_2, g_2) = 
+  \left(
+    \chi(g_1,g_2) \psi(g_2)(k_1) k_2 
+    \;\;  , \;\;
+    g_1 g_2
+  \right)
   \,.
 $$
 
@@ -400,5 +404,7 @@ Accordingly, the [[pullback]] $\mathbf{B}G \times_{(\psi,\xi)} \mathbf{E}AUT(K)$
     }
     \,.
   $$
+
+Translating these diagrams into forumas using the _convention LB_ as described at [strict 2-group - in terms of crossed modules](http://ncatlab.org/nlab/show/strict+2-group#InTermsOfCrossedModules) yields the given formulas.
 
 =--
