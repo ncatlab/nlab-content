@@ -33,7 +33,7 @@ In particular, when the QFT on one side of the defect is trivial, then the defec
 
 #Examples#
 
-* An old example is the calss of [[Turaev-Reshetikhin TQFT]], which is a functor on 3-dimensional [[cobordisms]] with codimension 3 and 2 defects. This is supposed to be the would-be result of [[Chern-Simons theory]], where the defect lines are the original [[Wilson lines]] in this context.
+* An old example is the calss of [[Turaev-Reshetikhin TQFT]], which is a functor on 3-dimensional [[cobordisms]] with codimension 3 and 2 defects. This is supposed to be the would-be result of [[Chern-Simons theory]], where the defect lines are the original [[Wilson line]]s in this context.
 
 * Defects in 2-dimensional [[conformal field theory]] have a long history in real-world application, for instance
 
