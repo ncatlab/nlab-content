@@ -1,8 +1,17 @@
-#Idea#
+<div class="rightHandSide toc">
+[[!include infinity-Lie theory - contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 The Atiyah Lie groupoid of a $G$-[[principal bundle]] is the [[Lie groupoid]] whose objects are the fibers of the bundle, and whose morphisms are the $G$-equivariant morphisms between the fibers.
 
-#Definition#
+## Definition
 
 For $G$ a Lie group and $P \to X$ a $G$-principal bundle, the **Atiyah groupoid** $At(P)$ -- also called the **gauge groupoid** or **transport groupoid** -- of $P$ is the [[Lie groupoid]] with
 
@@ -110,7 +119,7 @@ To get non-flat connections in the literature one often sees discussed splitting
 
 One can describe non-flat connections without leaving the context of Lie algebroids by passing to higher Lie algebroids, namely $L_\infty$-[[L-infinity-algebroid|algebroids]].
 
-#References#
+## References
 
 ...
 
