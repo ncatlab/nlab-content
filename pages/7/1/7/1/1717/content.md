@@ -142,25 +142,27 @@ We now define the one-object strict [[2-groupoid]] $\mathbf{B}G$ from the crosse
       s := p_1 : G_1 \times G_2 \to G_2
     $$
 
-  * the target operation is the boundary map $\delta : G_2 \to G_1$ of the crossed module combined with the product in $G_1$
+  * the target operation on morphisms starting at the identity morphism is the boundary map $\delta : G_2 \to G_1$ of the crossed module combined with the product in $G_1$
 
     $$
-     t :=  prod_{G_1} \circ (\delta \times Id)
-       : G_1 \times G_2 \to G_2
-    $$ 
+      t|_{{Id}\times G_2} = \delta
+    $$
 
-  so in diagrams this means that a 2-morphism correspopnding to $(g_1, k) \in G_1 \timesG_2$ is labeled as
+  So in diagrams this means that a 2-morphism 
+  correspopnding to $(Id, k) \in G_1 \timesG_2$ is labeled as
 
   $$
     \array{
-       &  \nearrow \searrow^{\mathrlap{g_1}}
+       &  \nearrow \searrow^{\mathrlap{Id}}
        \\
       \bullet &\Downarrow^{\mathrlap{h}}& \bullet
       \\
-       &  \searrow \nearrow_{\mathrlap{g_2 := \delta(h) g_1}}
+       &  \searrow \nearrow_{\mathrlap{\delta(h)}}
     }
     \,.
   $$
+
+  The target of general 2-morphisms labeled by $h$ and starting at some $g$ is either $\delta(h)g $ of $g \delta(h)$, depending on the choice of conventions discussed in the following.
 
 * Horizontal composition of 1-morphisms with 2-morphisms ("whiskering") is determined by the rule
 
