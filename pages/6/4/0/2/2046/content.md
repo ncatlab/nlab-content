@@ -19,6 +19,8 @@ In [[constructive mathematics]], we want to phrase the definition as: a subobjec
 
 * For $G$ a [[group]] and $Rep(G)$ its category of [[representations]], the simple objects are the [[irreducible representations]].
 
+* A [[simple ring]] is *not* a simple object in [[Ring]] (which doesn\'t have a zero object anyway); instead it is a ring $R$ that is a simple in its category of [[bimodules]].
+
 
 ## Related entries ##
 
