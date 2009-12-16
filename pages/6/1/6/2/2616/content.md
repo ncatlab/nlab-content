@@ -76,7 +76,7 @@ is an open homomorphism between connected Lie groups of the same dimension, and 
 
 $$SL_2(\mathbb{C})/\{\pm I\} \cong SO^+(1, 3)$$ 
 
-which exhibits $SL_2(\mathbb{C})$ as a double cover of $SO^+(1, 3)$; another way to say it is that $SO^+(1, 3)$ is identified with the group $PSL_2(\mathbb{C})$ of complex [[Moebius transformations]]. Finally, there is morphism of covering spaces 
+which exhibits $SL_2(\mathbb{C})$ as a double cover of $SO^+(1, 3)$; another way to say it is that $SO^+(1, 3)$ is identified with the group $PSL_2(\mathbb{C})$ of complex [[Moebius transformation]]s. Finally, there is morphism of covering spaces 
 
 $$\array{
 SU(2) & \hookrightarrow & SL_2(\mathbb{C}) \\
