@@ -8,12 +8,12 @@
 
 Ordinary [[classical mechanics]] of point particles may be regarded as the theory of [[action functional]]s on [[mapping space]]s of maps from the real line to some space.
 
-In _classical field theory_ one instead studies functionals on [[mapping space]]s on higher dimensional domains.
+In _classical [[field theory]]_ one instead studies functionals on [[mapping space]]s on higher dimensional domains.
 
 
 ## classical gauge theory ##
 
-Of particular interest are classical field theories that are [[gauge theory|gauge theories]]. A powerful formalism for handling these is provided by [[BV theory]], which effectively realizes spaces of classical fields as [[Lie-infinity algebroid|∞-Lie algebroid]]s. BV-formalism can be understood as a means to capture a classical gauge field theory in such a way that it lends itself to [[quantization]]. (See below)
+Of particular interest are classical field theories that are [[gauge theory|gauge theories]]. A powerful formalism for handling these is provided by [[BV theory]], which effectively realizes spaces of classical fields as [[Lie infinity-algebroid|∞-Lie algebroid]]s. BV-formalism can be understood as a means to capture a classical gauge field theory in such a way that it lends itself to [[quantization]]. (See below)
 
 
 ## examples ##
