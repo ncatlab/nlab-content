@@ -38,7 +38,7 @@ $$
 acts on field theories $E_X$ over $X$ 
 
 $$
-  $E_X \mapsto E$
+  E_X \mapsto E
 $$
 
 by the assignment
