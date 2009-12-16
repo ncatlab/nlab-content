@@ -1,4 +1,14 @@
-#Idea#
+
+<div class="rightHandSide toc">
+[[!include infinity-Lie theory - contents]]
+</div>
+
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
 
 Given an $L_\infty$-[[Lie infinity-algebroid|algebroid]] (for instance a Lie algebra, or a [[Lie algebroid]] or an $L_\infty$-[[L-infinity-algebra|algebra]]) $\mathfrak{g}$ and given a $d$-dimensional manifold $P^d$ diffeomorphic to the $d$-dimensional disk $D^d$, let a **$d$-path in $\mathfrak{g}$** be a morhism of $L_\infty$-[[Lie infinity-algebroid|algebroid]]s
 $$
@@ -55,7 +65,7 @@ But with the interpretation of qDGCAs as $L_\infty$-algebroids in hand, it is na
 
 This step, obvious as it may be with hindsight, was only made a few years ago. The general idea has been described  first in the article
 
-* Pavol &#352;evera, _Some title containing the words "homotopy" and "symplectic", e.g. this one_ ([arXiv](http://arxiv.org/abs/math.SG/0105080)).
+* Pavol &Scaron;evera, _Some title containing the words "homotopy" and "symplectic", e.g. this one_ ([arXiv](http://arxiv.org/abs/math.SG/0105080)).
 
 Of course one wants to regard in this context $S^\bullet(\mathfrak{g})$ not just as a graded _set_ but as a graded _space_. In
 
@@ -71,12 +81,12 @@ This then makes $S^\bullet(\mathfrak{g})$ a _Lie $\infty$-groupoid_, which is re
 
 Various variations of this theme are possible: in
 
-* Andr&#233; Henriques, _Integrating $L_\infty$ algebras_,([arXiv](http://arxiv.org/abs/math.AT/0603563))
+* Andr&eacute; Henriques, _Integrating $L_\infty$ algebras_,([arXiv](http://arxiv.org/abs/math.AT/0603563))
 
 (whose origin possibly preceeds that of the previous article)
 $S^\bullet(\mathfrak{g})$ is realized [[internalization|internal to]] [[Banach manifold]]s, for $\mathfrak{g}$ an $L_\infty$-algebra.
 
-##The main technical issue: truncation and quotienting##
+## The main technical issue: truncation and quotienting
 
 The main technical point in these constructions is to ensure that the general construction can be realized internal to a category of well-behaved spaces. In particular, usually one wants to integrate a Lie $n$-algebroid to a Lie $n$-groupoid, which means that $S^\bullet(\mathfrak{g})$ has to be _truncated_ after degree $n$ and _quotienting_ out $(n+1)-cells$ by replacing the space of $n$-paths $S^n(\mathfrak{g})$ in the $L_\infty$-algebroid with the _quotient space_ $S^n(\mathfrak{g})/S^{n+1}(\mathfrak{g})$ of $n$-paths modulo $(n+1)$-dimensional homotopy.
 
@@ -95,7 +105,7 @@ Unsurprisingly, the properties of this general construction are best studied and
 
 
 
-#Remark#
+## Remark
 
 There is a way to understand [[Lie integration]] as being about forming fundamental $\infty$-groupoids of certain [[generalized smooth space]]s. This is described at
 [[Schreiber:Lie theory|Lie theory]] in the [private $n$Lab area](http://ncatlab.org/schreiber/show/HomePage).
