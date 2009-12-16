@@ -1,3 +1,2 @@
-See [[distributor]].
-
-category: delete
+&lt; [[profunctor]]
+[[!redirects profunctor -- history]]
