@@ -5,7 +5,7 @@ The commonly accepted standard [[foundation of mathematics]] today is a material
 
 The first version was developed by [[Ernst Zermelo]] in 1908; in 1922, [[Abraham Fraenkel]] and [[Thoralf Skolem]] independently proposed a precise first-order version with the [[axiom of replacement]]; finally, Zermelo added the [[axiom of foundation]] in 1930.  All of these versions included the axiom of choice, but this was considered controversial for some time; one has merely $ZF$ if it is taken out.
 
-$ZFC$ is similar to the [[class]] theories $NBG$ (due to [[John von Neumann]], [[Paul Bernays]], and [[Kurt Gödel]]) and $MK$ (due to [[Anthony Morse]] and [[John Kelley]]).  The former is a conservative, finitely axiomatisable extension of $ZFC$, while the latter is stronger and cannot be finitely axiomatised (without introducing meta-classes or something).
+$ZFC$ is similar to the [[class]] theories $NBG$ (due to [[John von Neumann]], [[Paul Bernays]], and [[Kurt Godel|Kurt Gödel]]) and $MK$ (due to [[Anthony Morse]] and [[John Kelley]]).  The former is a conservative, finitely axiomatisable extension of $ZFC$, while the latter is stronger and cannot be finitely axiomatised (without introducing meta-classes or something).
 
 Contemporary set theorists often accept additional [[large cardinal]] axioms, which can greatly increase the strength of $ZFC$, far beyond even $MK$.  Other additional axioms which are sometimes added are the [[axiom of determinacy]] (or various weaker versions of it) or the [[axiom of constructibility]].  There are also weaker variants of $ZFC$, especially for [[constructive mathematics|constructive]] and [[predicative mathematics|predicative]] mathematics.  Then there are alternatives on a different basis, notably $NFU$ (a very impredicative material set theory) and **[[ETCS]]** (a [[structural set theory]]).
 
@@ -111,3 +111,4 @@ Shulman\'s **[[SEAR|SEARC]]** is equivalent to $ZFC$ in the same way.  $SEAR$, w
 [[!redirects IZF]]
 [[!redirects CST]]
 [[!redirects NBG]]
+[[!redirects MK]]
