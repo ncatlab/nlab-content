@@ -1,4 +1,16 @@
+
+<div class="rightHandSide toc">
+[[!include mathematicscontents]]
+</div>
+
+
 A __set theory__ is a theory of [[sets]].
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Na&#239;ve set theory
 
 __Na&#239;ve set theory__ is the basic algebra of the [[subsets]] of any
 given set $U$, together with a few levels of [[power sets]], say up to
@@ -16,25 +28,31 @@ clear that one must be careful about how one can and cannot form sets.
 Georg Cantor is credited with being the first to think about sets this
 deeply; although he did not propose a system of general rules for
 valid set-making operations, he recognised that some sets were
-'inconsistent'.  Gottlob Frege\'s set theory was found (by Bertrand
-Russell) to be logically trivial because he was too careless in this
-regard.
+'inconsistent'.  Gottlob Frege\'s set theory was found (by Bertrand Russell) to be logically trivial because he was too careless in this regard.
 
-There are two ways to go about doing a more careful __axiomatic set
-theory__.  The more ambitious is to develop a __foundational set
-theory__:  set theory as [[foundations]] for all of mathematics.  This
-is what Frege proposed (although he failed through inconsistency);
-Ernst Zermelo is credited with the first consistent foundational
-set-theory.  A variation of Zermelo\'s system (developed by Fraenkel
-and Skolem and called Zermelo--Fraenkel set theory or [[ZFC]]) is the
-orthodox foundations today, although it needs to be supplemented by
-[[Grothendieck universes]] (or something along those lines) to handle
-modern [[category theory]].
+## Axiomatic set theory
 
-On the nlab we distinguish between two types of foundational set
-theory: __material set theory__ and __structural set theory__.  ZFC is
-an example of a material set theory, while [[ETCS]] is an example of a
+There are two ways to go about doing a more careful __axiomatic set theory__.  The more ambitious is to develop a __foundational set theory__:  set theory as [[foundations]] for all of mathematics.  This
+is what Frege proposed (although he failed through inconsistency); Ernst Zermelo is credited with the first consistent foundational
+set-theory.  
+
+A variation of Zermelo\'s system (developed by Fraenkel
+and Skolem and called Zermelo--Fraenkel set theory or [[ZFC]]) is the orthodox foundations today, although it needs to be supplemented by
+[[Grothendieck universes]] (or something along those lines) to handle modern [[category theory]].
+
+On the $n$Lab we distinguish between two types of foundational set
+theory: 
+
+* __material set theory__ 
+
+and 
+
+* __structural set theory__.  
+
+ZFC is an example of a material set theory, while [[ETCS]] is an example of a
 structural one.
+
+### Material set theory
 
 In a material set theory (also called a *membership-based set
 theory*), the elements of a set exist independently of that set.
@@ -153,6 +171,8 @@ More generally, I think that one should be able to use subtypes without becoming
 As for whether a set theory can be both material and structural, I would expect some particularly degenerate examples to be both, and I would also expect it possible to create a hybrid version which is neither.  I see these concepts more as orthogonal complements than as logical complements.
 =--
 
+### Structural set theory
+
 A structural set theory, on the other hand, looks more like [[type
 theory]].  Here, the elements of a set have no existence or structure
 apart from their identity as elements of that set.  In particular,
@@ -163,11 +183,11 @@ specifying elementary properties of [[Set|the category of sets]]; the
 orthodoxy here (to the extent that there is one) is probably Bill
 Lawvere\'s [[ETCS]].  It is weaker than [[ZFC]] and must be supplemented
 to handle some esoteric parts of modern mathematics, although it
-suffices for most everyday uses.  Another structural set theory, which
-is stronger than ETCS and less closely tied to category theory, is
-[[SEAR]].
+suffices for most everyday uses.  Another structural set theory, which is stronger than ETCS and less closely tied to category theory, is [[SEAR]].
 
 A tentative formal definition of what makes a set theory "structural" can be found at [[structural set theory]].
+
+## Definitional set theory
 
 As remarked above, both material set theory and structural set theory
 are **foundational set theories**.  
@@ -196,15 +216,11 @@ _Toby_:  But this sentence *did* say 'pure set theory' instead of 'material set 
 
 [[Mike Shulman]]: Huh, sorry.  I guess I didn't notice that when I added the "as remarked above;" I certainly was thinking of material/structural.
 =--
-It is also possible to make a **definitional set theory**, in which
-one defines sets in terms of some more primitive concept.  Lawvere
-also proposed a foundation based on [[Cat|the category of
-categories]]; then a set may be defined as a [[discrete category]]. 
-In [[constructive mathematics]], a foundation based on [[type theory]]
-is popular, with types interpreted as _[[preset|presets]]_
-(sets without [[equality]]); then a set may be defined as a preset
-equipped with an [[equivalence relation]] (the term [[setoid]] is also
-used for such a gadget).  In [[computer science]], a foundation based
+
+It is also possible to make a **definitional set theory**, in which one defines sets in terms of some more primitive concept.  Lawvere also proposed a foundation based on [[Cat|the category of categories]]; then a set may be defined as a [[discrete category]]. 
+
+In [[constructive mathematics]], a foundation based on [[type theory]] is popular, with types interpreted as _[[preset|presets]]_ (sets without [[equality]]); then a set may be defined as a preset
+equipped with an [[equivalence relation]] (the term [[setoid]] is also used for such a gadget).  In [[computer science]], a foundation based
 on the [[lambda-calculus]] is sometimes seen; in these terms, the
 concept of _[[list]]_ is more natural than set, with the difference
 being that sets have a coarser notion of equality.
@@ -217,7 +233,7 @@ satisfies and compare them in those terms.  At the very least, $Set$
 should be a [[pretopos]].
 
 
-# Remarks #
+## Algebraic set theory
 
 * There is also [[algebraic set theory]], in which a material set
 theory is interpreted in the [[internal logic]] of some
