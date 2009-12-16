@@ -1,7 +1,7 @@
 
 #Contents#
-*tic
-{:toc}
+* tic
+{: toc}
 
 # Definition #
 
