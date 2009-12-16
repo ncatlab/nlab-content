@@ -1,6 +1,13 @@
+<div class="rightHandSide toc">
+[[!include infinity-Lie theory - contents]]
+</div>
 
 
-# Idea #
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea 
 
 A _path $n$-groupoid_  $P_n(X)$ of a smooth space (or [[generalized smooth space]]) $X$ is 
 
@@ -10,7 +17,7 @@ A _path $n$-groupoid_  $P_n(X)$ of a smooth space (or [[generalized smooth space
 
 Its [[k-morphisms|j-morphisms]] are given by (possibly equivalence classes of) $j$-dimensional smooth paths in $X$, i.e. usually smooth maps $\gamma : D^k \to X$. Composition is by gluing of such maps.
 
-# Path 2-groupoid #
+## Path 2-groupoid 
 
 Definitions of path 2-groupoids as strict [[2-groupoids]] internal to [[diffeological spaces]] appear (at least) in
 
@@ -21,7 +28,7 @@ Definitions of path 2-groupoids as strict [[2-groupoids]] internal to [[diffeolo
 * J. F. Martins, R. Picken, _On 2-dimensional holonomy_ ([arXiv](http://arxiv.org/abs/0710.4310))
 
 
-# Path 3-groupoid #
+## Path 3-groupoid 
 
 A realization of the path [[3-groupoid]] as a [[Gray-groupoid]] internal to [[diffeological spaces]] appears in 
 
