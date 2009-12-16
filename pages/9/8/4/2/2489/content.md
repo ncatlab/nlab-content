@@ -7,7 +7,11 @@
 
 #Idea#
 
-A _differential crossed module_ (or crossed module of/in Lie algebras) is to an ordinary [[Lie algebra]] as a Lie crossed module (= crossed module in Lie groups; equivalent to strict Lie [[2-group]]s) is to an ordinary [[Lie group]].
+The notion of _differential crossed module_ (or crossed module of/in Lie algebras) is a way to encode the structure of a [[strict Lie 2-algebra]] in terms of two ordinary [[Lie algebra]]s.
+
+
+This is the [[infinitesimal object|infinitesimal]] version of how a smooth [[crossed module]] encodes a smooth [[strict 2-group]].
+
 
 #Definition#
 
