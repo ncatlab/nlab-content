@@ -6,6 +6,7 @@ See also [[orthogonal group]].
 
 Coordinate rings of general linear groups and of special general linear groups have [[quantum group|quantum deformations]] called [[quantum linear group]]s. 
 
+See also [[Gauss decomposition]].
 
 
 # References #
